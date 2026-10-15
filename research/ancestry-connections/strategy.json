@@ -255,7 +255,7 @@
       "id": "lothian-fathers",
       "year": 1606,
       "title": "Place the Mid Calder and Linlithgow fathers",
-      "status": "Compatible regional hypotheses; exact parents unchosen",
+      "status": "Selected uncertain working fathers; alternatives retained",
       "people": [
         {
           "name": "David of Mid Calder",
@@ -270,8 +270,8 @@
           "url": "/people/glasgow-3296.html"
         }
       ],
-      "basis": "The original Andrew/Jonet justification used a superseded testament child list. Both current father/mother fields are empty. The two John father sequences are compatible, but require household continuity; Thomas1612 has a conflicting named father George and is not evidence for John’s parentage.",
-      "next_test": "Inspect Mid Calder 694/1 and Linlithgow 668/1 original parish pages for wives, witnesses, residences and occupations; then leases or named heirs. Keep older estimated dates and possible regional ancestors as hypotheses, not fixed exclusions.",
+      "basis": "Andrew3163 is selected for James991, John1561 and David1028 on locality and generation. The old testament child-list rationale remains withdrawn. John3296 is selected for John3610, possibly the1608 child.",
+      "next_test": "Use these uncertain links in the local working model now; revise them when the existing alternatives or later evidence give a better explanation.",
       "sources": [
         {
           "label": "Linlithgow Jean1613 indexed father",
@@ -280,15 +280,25 @@
         {
           "label": "Mid Calder Issobell1612 indexed father David",
           "url": "https://familysearch.org/ark:/61903/1:1:X1BJ-LR9"
+        },
+        {
+          "label": "Selected model and counterevidence",
+          "url": "/branches/early-scottish-records/#selected-working-joins"
         }
       ],
-      "counted_as_new_connection": false,
+      "counted_as_new_connection": true,
       "reviewed": "2026-10-15",
       "record_references": [
         "Mid Calder OPR 694/1: Jhone (1608), William (1609); Elspeth (1606) and Issobell (1612) indexes",
         "Linlithgow OPR 668/1: Jean (1613), John (1617), George (1622) indexes",
         "Glasgow OPR 644/1, 10/81: Thomas (1612), named George/Margaret parent pair",
         "CC8/8/32, images 123–124: corrected Andrew (1598) household"
+      ],
+      "working_parent_assertions": [
+        "C-working-20261015-glasgow-991-glasgow-3163",
+        "C-working-20261015-glasgow-1561-glasgow-3163",
+        "C-working-20261015-glasgow-1028-glasgow-3163",
+        "C-working-20261015-glasgow-3610-glasgow-3296"
       ]
     },
     {

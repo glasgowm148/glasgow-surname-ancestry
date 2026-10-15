@@ -23,6 +23,7 @@ from tools.project_paths import merged_map_profiles  # noqa: E402
 WIKITREE = "https://www.wikitree.com/wiki/"
 CATALOGUE = "https://glasgow.phenotype.dev/people/"
 STATUS = {"5": "non-biological", "10": "uncertain", "20": "confident", "30": "DNA-confirmed"}
+WORKING_ASSESSMENTS = ROOT / "research" / "relationship_assessments.json"
 
 REGIONS = [
     {"id": "principal", "label": "Principal pedigrees", "short": "Principal pedigrees", "title": "Principal pedigrees", "sub": "The largest recorded family branches", "color": "#506b58"},
@@ -102,6 +103,52 @@ def external_relations(items: list[dict], role: str, catalogue_by_id: dict[str, 
     return result
 
 
+def apply_working_hypotheses(people: list[dict], assessments: list[dict]) -> int:
+    """Overlay explicitly selected uncertain father links onto the local model."""
+    by_id = {person["id"]: person for person in people}
+    selected = []
+    selected_children = set()
+    for assessment in assessments:
+        if not (assessment.get("working_selection") is True
+                and assessment.get("publication_status") == "approved"
+                and assessment.get("status") == "uncertain"
+                and assessment.get("allow_new_relationship") is True):
+            continue
+        perspectives = assessment.get("perspectives") or {}
+        child = next((pid for pid, view in perspectives.items() if view.get("relationship") == "father"), None)
+        father = next((pid for pid, view in perspectives.items() if view.get("relationship") != "father"), None)
+        if not child or not father or child == father:
+            raise ValueError(f"Working hypothesis {assessment.get('assertion_id', '<unknown>')} must define father and child perspectives")
+        if child not in by_id or father not in by_id:
+            raise ValueError(f"Working hypothesis {assessment.get('assertion_id', '<unknown>')} has an endpoint outside the public model")
+        existing = [row for row in by_id[child]["parents"] if row.get("role") == "father"]
+        if existing and all(row.get("id") != father for row in existing):
+            raise ValueError(f"Working hypothesis {assessment.get('assertion_id', '<unknown>')} conflicts with existing father of {child}")
+        if not existing:
+            if child in selected_children:
+                raise ValueError(f"Working hypotheses conflict: multiple selected fathers for {child}")
+            selected_children.add(child)
+            selected.append((child, father, assessment))
+    edges = {person["id"]: next((row["id"] for row in person["parents"] if row.get("role") == "father"), None)
+             for person in people}
+    for child, father, assessment in selected:
+        edges[child] = father
+        seen, node = set(), child
+        while node:
+            if node in seen:
+                raise ValueError(f"Working hypothesis {assessment.get('assertion_id', '<unknown>')} introduces a paternal cycle")
+            seen.add(node)
+            node = edges.get(node)
+    for child, father, assessment in selected:
+        by_id[child]["parents"].append({
+            "id": father, "name": by_id[father]["name"], "role": "father", "status": "uncertain",
+            "inModel": True, "reason": assessment.get("basis") or "", "source": "local_working_hypothesis",
+            "assertion_id": assessment.get("assertion_id"), "analysis_links": assessment.get("analysis_links") or [],
+            "hypothesis": True,
+        })
+    return len(selected)
+
+
 def generate_model(catalogue_path: Path, prior: dict) -> dict:
     payload = json.loads(catalogue_path.read_text(encoding="utf-8"))
     rows = payload["people"]
@@ -147,12 +194,18 @@ def generate_model(catalogue_path: Path, prior: dict) -> dict:
             "cluster": row.get("cluster") or "",
         })
 
+    try:
+        assessments = json.loads(WORKING_ASSESSMENTS.read_text(encoding="utf-8"))
+    except FileNotFoundError:
+        assessments = []
+    hypotheses = apply_working_hypotheses(people, assessments)
+
     # One real parent drives the drawing. Both remain in the relationship list.
     chosen: dict[str, dict] = {}
     for person in people:
         options = [r for r in person["parents"] if r.get("inModel") and r.get("status") != "non-biological"]
         evidence_rank = {"DNA-confirmed": 0, "confident": 1, "unmarked": 2, "uncertain": 3}
-        options.sort(key=lambda item: (evidence_rank.get(item["status"], 2), item["role"] != "father", item["id"]))
+        options.sort(key=lambda item: (not item.get("hypothesis", False), evidence_rank.get(item["status"], 2), item["role"] != "father", item["id"]))
         if options:
             chosen[person["id"]] = options[0]
 
@@ -235,7 +288,7 @@ def generate_model(catalogue_path: Path, prior: dict) -> dict:
         picked = chosen.get(person["id"])
         if picked:
             person["edge"] = {
-                "parent": picked["id"], "type": "recorded", "semantic": "parent", "role": picked["role"],
+                "parent": picked["id"], "type": "hypothesis" if picked.get("hypothesis") else "recorded", "semantic": "parent", "role": picked["role"],
                 "status": picked["status"],
             }
         else:
@@ -264,13 +317,14 @@ def generate_model(catalogue_path: Path, prior: dict) -> dict:
     dna: list[dict[str, object]] = []
     parent_relationships = sum(len(person["parents"]) for person in people)
     spouse_relationships = sum(len(person["partners"]) for person in people) // 2
+    recorded_edges = sum(not person.get("edge", {}).get("type") == "hypothesis" for person in people)
     return {
         "meta": {
-            "title": "Glasgow profiles · documented family groups", "date": date.today().isoformat(), "people": len(people),
-            "groups": len(sections), "recorded": len(chosen), "parentRelationships": parent_relationships,
-            "partners": spouse_relationships, "hypotheses": 0, "withheld": payload.get("withheld_likely_living_count", 0),
+            "title": "Glasgow profiles · recorded families and selected working hypotheses", "date": date.today().isoformat(), "people": len(people),
+            "groups": len(sections), "recorded": recorded_edges, "parentRelationships": parent_relationships,
+            "partners": spouse_relationships, "hypotheses": hypotheses, "withheld": payload.get("withheld_likely_living_count", 0),
             "coverage": f"Generated from the public catalogue dated {payload.get('generated', '')}; {len(people):,} public WikiTree profiles are included.",
-            "method": "Structured current father, mother and spouse fields are copied from the canonical catalogue data. One real parent is used for drawing when two are present; both remain recorded in the notebook and exports. The primary layout follows recorded pedigree branches; separate component roots are connected only to explicit non-genealogical collection nodes.",
+            "method": "Structured current father, mother and spouse fields are copied from the canonical catalogue data. Explicitly selected local working hypotheses remain marked uncertain and are counted separately; one real parent is used for drawing when two are present. The primary layout follows recorded pedigree branches; separate component roots are connected only to explicit non-genealogical collection nodes.",
             "sources": [{"title": "Glasgow research catalogue", "url": "https://glasgow.phenotype.dev/"}, {"title": "Public catalogue people data", "url": "https://glasgow.phenotype.dev/data/people.json"}, {"title": "Public Y-DNA explorer", "url": "https://glasgow.phenotype.dev/ydna/"}],
             "sourceExports": [path.name for path in exports], "catalogueGenerated": payload.get("generated", ""),
             "version": "4.2", "uiUpdated": date.today().isoformat(),
@@ -296,7 +350,7 @@ def validate(model: dict) -> dict:
             if parent not in people:
                 raise ValueError(f"Missing attachment for {node}: {parent}")
             edge = people[node]["edge"]
-            if edge["type"] == "recorded" and not any(
+            if edge["type"] in {"recorded", "hypothesis"} and not any(
                 relation.get("id") == parent and relation.get("role") == edge.get("role")
                 for relation in people[node].get("parents", [])
             ):
@@ -322,7 +376,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--catalogue-data", type=Path, default=ROOT / "www" / "data" / "people.json")
     parser.add_argument("--model", type=Path, default=PUBLIC_DIR / "model.json")
-    parser.add_argument("--template", type=Path, default=PUBLIC_DIR / "template.html")
+    parser.add_argument("--template", type=Path, default=HERE / "template.html")
     parser.add_argument("--output", type=Path, default=PUBLIC_DIR / "index.html")
     parser.add_argument("--qa", type=Path, default=PUBLIC_DIR / "qa-summary.json")
     parser.add_argument("--ids", type=Path, default=PUBLIC_DIR / "wikitree-ids.csv")
@@ -345,7 +399,7 @@ def main() -> None:
                 writer.writerow([person["id"], person["name"], WIKITREE + person["id"], CATALOGUE + person["catalogueId"] + "/"])
     except (OSError, ValueError, KeyError, TypeError, json.JSONDecodeError) as exc:
         parser.exit(1, f"Build failed: {exc}\n")
-    print(f"Built {args.output} with {checks['people']:,} profiles and no inferred parent edges.")
+    print(f"Built {args.output} with {checks['people']:,} profiles and {model['meta']['hypotheses']:,} selected working hypothesis parent edges.")
 
 
 if __name__ == "__main__":

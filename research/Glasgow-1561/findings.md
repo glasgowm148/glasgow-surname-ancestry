@@ -15,6 +15,8 @@ not enumerate every child, John's omission is not by itself a direct
 contradiction; the relationship is instead an unproved Lothian-cluster
 hypothesis.
 
+**Selected local working parent,15 October2026:** [Andrew Glasgow of Calder](/people/glasgow-3163.html), **uncertain**. Select the same older Calder household as the working origin for this neighbouring Lothian family. John’s estimated1579 generation and children recorded1613–1622 fit an older son of Andrew, whose own father is tentatively John-1093. The proximity and compatible generations make this a useful shared-family model alongside James and David, rather than an assertion that the three are proved brothers. The live WikiTree parent field is separate; this is a local hypothesis, with competing explanations below.
+
 ## Source findings
 
 | Source | Finding | Assessment |
@@ -53,3 +55,12 @@ The live [Glasgow-3608](https://www.wikitree.com/wiki/Glasgow-3608) resolves to 
 ## Thomas proposed as John's son — 15 October 2026
 
 The proposed child [Thomas Glasgow-1103](https://www.wikitree.com/wiki/Glasgow-1103), indexed 15 March1612 in Glasgow, has recorded parents **George Glasgow and Margaret Steuart**, not John. Source: owner-supplied [Scotland’s People](https://www.scotlandspeople.gov.uk/) OPR index, parish 644/1, reference 10/81, reviewed 10 September 2026 and maintained in Thomas’s findings. The existing [George-1099](https://www.wikitree.com/wiki/Glasgow-1099) and [Margaret Stewart-65226](https://www.wikitree.com/wiki/Stewart-65226) are compatible parent profiles; Steuart-563 currently resolves to Stewart-65226. This is a concrete exclusion of John as father of that record-defined child, while the attachment of later adult Thomas households to the baptism remains a separate identity question. No existing confident link is counted as a new upgrade.
+
+
+## Selected uncertain father —15 October2026
+
+Select the same older Calder household as the working origin for this neighbouring Lothian family. John’s estimated1579 generation and children recorded1613–1622 fit an older son of Andrew, whose own father is tentatively John-1093. The proximity and compatible generations make this a useful shared-family model alongside James and David, rather than an assertion that the three are proved brothers.
+
+**Counterevidence and alternatives:** John of Hermand-3181 is a compatible alternative if John1561’s estimated birth is earlier than1577. A separate unnamed local father remains possible. Andrew’s1598 testament does not name John; do not restore the obsolete James/Andrew/William child list or attach Jonet Anderson as mother.
+
+[Full working model and reasoning](/branches/early-scottish-records/#selected-working-joins). This adds one selected uncertain paternal edge to the local tree/network and working measure. It changes no confident relationship and performs no live WikiTree edit.

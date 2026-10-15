@@ -1500,3 +1500,11 @@ The August completion entries remain historical. The live parent fields are now 
 
 | [James Glasgow](https://www.wikitree.com/wiki/Glasgow-991) | OPEN | Add the original1605 probable Murieston residence and adult George witness; preserve uncertain identities and family links. | [Complete draft](../research/Glasgow-991/Glasgow-991.md) |
 | [George Glasgow, baptised1605](https://www.wikitree.com/wiki/Glasgow-1082) | OPEN | Add the original1605 probable Murieston residence and adult George witness; preserve uncertain identities and family links. | [Complete draft](../research/Glasgow-1082/Glasgow-1082.md) |
+
+
+## Selected early working fathers —15 October2026
+
+| [James Glasgow](https://www.wikitree.com/wiki/Glasgow-991) | OPEN | Selected uncertain father Glasgow-3163; retain the logical basis, alternatives and separate mother assessment. | [Complete draft](../research/Glasgow-991/Glasgow-991.md) |
+| [John Glasgow of Linlithgow](https://www.wikitree.com/wiki/Glasgow-1561) | OPEN | Selected uncertain father Glasgow-3163; retain the logical basis, alternatives and separate mother assessment. | [Complete draft](../research/Glasgow-1561/Glasgow-1561.md) |
+| [David Glasgow of Mid Calder](https://www.wikitree.com/wiki/Glasgow-1028) | OPEN | Selected uncertain father Glasgow-3163; retain the logical basis, alternatives and separate mother assessment. | [Complete draft](../research/Glasgow-1028/Glasgow-1028.md) |
+| [John Glasgow of Kirknewton](https://www.wikitree.com/wiki/Glasgow-3610) | OPEN | Selected uncertain father Glasgow-3296; retain the logical basis, alternatives and separate mother assessment. | [Complete draft](../research/Glasgow-3610/Glasgow-3610.md) |

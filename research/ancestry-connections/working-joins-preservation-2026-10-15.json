@@ -1,0 +1,135 @@
+{
+  "reviewed": "2026-10-15",
+  "scope": "Selected local uncertain father hypotheses; no live save or certainty upgrade",
+  "profiles": {
+    "Glasgow-991": {
+      "current_sha256": "4d7377712e90b27e867f943fab2b73e82988130c3b0f42765f4c434c2cc05b71",
+      "proposed_sha256": "146f71c7c31364b3de563daddd2fdf58ed33cc84a39deef27b2d32da5a87574c",
+      "all_substantive_passages_accounted_for": true,
+      "source_urls_retained": [
+        "https://archive.org/details/scottishrecordso01scotuoft/page/n117/mode/1up",
+        "https://familysearch.org/ark:/61903/1:1:X1BJ-L51",
+        "https://familysearch.org/ark:/61903/1:1:X1BK-1B4",
+        "https://familysearch.org/ark:/61903/1:1:X1BK-1BW",
+        "https://familysearch.org/ark:/61903/1:1:X1BL-JXY",
+        "https://www.familysearch.org/ark:/61903/1:1:XTRF-FQX",
+        "https://www.familysearch.org/ark:/61903/1:1:XTRJ-SZX",
+        "https://www.familysearch.org/ark:/61903/1:1:XTRN-WMS",
+        "https://www.familysearch.org/ark:/61903/1:1:XY9X-4PR",
+        "https://www.familysearch.org/en/tree/person/details/LZGY-NSY"
+      ],
+      "passages": [
+        "Full prior complete replacement retained, including its source-preservation corrections, uncertainty and alternatives. For3610 the maintained captured full biography is the base.",
+        "Only the review marker is replaced and a selected uncertain parent argument appended. No source removed, no exact date invented, no mother inferred.",
+        "Current capture date is retained; no fresh live/API source inspection is claimed."
+      ]
+    },
+    "Glasgow-1561": {
+      "current_sha256": "99a12241cfb91476a265b0a821efbbb82cc966c608f439c4179cb397a2a7a886",
+      "proposed_sha256": "4f6bdadc2201791defe12383e57a893b41543a5775e1aefab464707f169690a3",
+      "all_substantive_passages_accounted_for": true,
+      "source_urls_retained": [
+        "https://archive.org/details/scottishrecordso01scotuoft/page/n117/mode/1up",
+        "https://familysearch.org/ark:/61903/1:1:X1RN-XV7",
+        "https://familysearch.org/ark:/61903/1:1:X1RV-T8R",
+        "https://familysearch.org/ark:/61903/1:1:X1RX-HPB",
+        "https://www.familysearch.org/tree/person/sources/MG7J-6GM"
+      ],
+      "passages": [
+        "Full prior complete replacement retained, including its source-preservation corrections, uncertainty and alternatives. For3610 the maintained captured full biography is the base.",
+        "Only the review marker is replaced and a selected uncertain parent argument appended. No source removed, no exact date invented, no mother inferred.",
+        "Current capture date is retained; no fresh live/API source inspection is claimed."
+      ]
+    },
+    "Glasgow-1028": {
+      "current_sha256": "ccabaae18cf5084e04241ac489c4e20a7f64ee909fad180bdc4a8a64cb0ea6a3",
+      "proposed_sha256": "94e98b477e28a08e64dcddb46313f84e4bf8b23729b96de971e9d0d8cd7a4a36",
+      "all_substantive_passages_accounted_for": true,
+      "source_urls_retained": [
+        "https://archive.org/details/scottishrecordso01scotuoft/page/n117/mode/1up",
+        "https://familysearch.org/ark:/61903/1:1:X1BJ-22S",
+        "https://familysearch.org/ark:/61903/1:1:X1BJ-LR9"
+      ],
+      "passages": [
+        "Full prior complete replacement retained, including its source-preservation corrections, uncertainty and alternatives. For3610 the maintained captured full biography is the base.",
+        "Only the review marker is replaced and a selected uncertain parent argument appended. No source removed, no exact date invented, no mother inferred.",
+        "Current capture date is retained; no fresh live/API source inspection is claimed."
+      ]
+    },
+    "Glasgow-3610": {
+      "current_sha256": "42c6e052851c878284b8a05e23829d8e23d12713bbf5a99d2e1f09d893c931b7",
+      "proposed_sha256": "921068e3ff92664d94c35645c1f8fe70f224469dfe47653fec5d36f5d75c57c4",
+      "all_substantive_passages_accounted_for": true,
+      "source_urls_retained": [
+        "https://www.familysearch.org/ark:/61903/1:1:VQ4K-X6G"
+      ],
+      "passages": [
+        "Full prior complete replacement retained, including its source-preservation corrections, uncertainty and alternatives. For3610 the maintained captured full biography is the base.",
+        "Only the review marker is replaced and a selected uncertain parent argument appended. No source removed, no exact date invented, no mother inferred.",
+        "Current capture date is retained; no fresh live/API source inspection is claimed."
+      ]
+    }
+  },
+  "queue_reopening": {
+    "Glasgow-991": {
+      "entry": {
+        "queued_at": "2026-10-15",
+        "significance": 85,
+        "summary": "Add Andrew Glasgow of Calder as the selected uncertain working father, with logic and alternatives; preserve current facts and sources. Local model, pending owner-reviewed WikiTree amendment.",
+        "manual_update": true,
+        "draft_path": "research/Glasgow-991/Glasgow-991.md",
+        "preservation_review_path": "research/ancestry-connections/working-joins-preservation-2026-10-15.json",
+        "reviewed_narrative_reduction": true,
+        "preserve_captured_detail": false
+      },
+      "state": null
+    },
+    "Glasgow-1561": {
+      "entry": {
+        "queued_at": "2026-10-15",
+        "significance": 85,
+        "summary": "Add Andrew Glasgow of Calder as the selected uncertain working father, with logic and alternatives; preserve current facts and sources. Local model, pending owner-reviewed WikiTree amendment.",
+        "manual_update": true,
+        "draft_path": "research/Glasgow-1561/Glasgow-1561.md",
+        "preservation_review_path": "research/ancestry-connections/working-joins-preservation-2026-10-15.json",
+        "reviewed_narrative_reduction": true,
+        "preserve_captured_detail": false
+      },
+      "state": {
+        "reopened_at": "2026-10-15",
+        "previous_live_completion_retained": true,
+        "reason": "Selected logical working-parent model added; complete source-preserving amendment prepared."
+      }
+    },
+    "Glasgow-1028": {
+      "entry": {
+        "queued_at": "2026-10-15",
+        "significance": 85,
+        "summary": "Add Andrew Glasgow of Calder as the selected uncertain working father, with logic and alternatives; preserve current facts and sources. Local model, pending owner-reviewed WikiTree amendment.",
+        "manual_update": true,
+        "draft_path": "research/Glasgow-1028/Glasgow-1028.md",
+        "preservation_review_path": "research/ancestry-connections/working-joins-preservation-2026-10-15.json",
+        "reviewed_narrative_reduction": true,
+        "preserve_captured_detail": false
+      },
+      "state": {
+        "reopened_at": "2026-10-15",
+        "previous_live_completion_retained": true,
+        "reason": "Selected logical working-parent model added; complete source-preserving amendment prepared."
+      }
+    },
+    "Glasgow-3610": {
+      "entry": {
+        "queued_at": "2026-10-15",
+        "significance": 85,
+        "summary": "Add John Glasgow, Mid Calder/Quothquan working identity as the selected uncertain working father, with logic and alternatives; preserve current facts and sources. Local model, pending owner-reviewed WikiTree amendment.",
+        "manual_update": true,
+        "draft_path": "research/Glasgow-3610/Glasgow-3610.md",
+        "preservation_review_path": "research/ancestry-connections/working-joins-preservation-2026-10-15.json",
+        "reviewed_narrative_reduction": true,
+        "preserve_captured_detail": false
+      },
+      "state": null
+    }
+  }
+}

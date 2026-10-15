@@ -3271,5 +3271,189 @@
       "basis": "Recorded brotherhood and existing family testimony, explicitly uncertain",
       "resolution_note": "Maintains a supported family connection at its actual confidence; live WikiTree amendment remains pending."
     }
+  },
+  {
+    "assertion_id": "C-working-20261015-glasgow-991-glasgow-3163",
+    "people": [
+      "Glasgow-991",
+      "Glasgow-3163"
+    ],
+    "profile_names": {
+      "Glasgow-991": "James Glasgow",
+      "Glasgow-3163": "Andrew Glasgow of Calder"
+    },
+    "status": "uncertain",
+    "hypothesis_status": "possible",
+    "working_selection": true,
+    "allow_new_relationship": true,
+    "claim": "Andrew Glasgow of Calder is the selected uncertain working father of James Glasgow.",
+    "basis": "Andrew’s documented rural Calder household is the preferred working anchor for James’s nearby Mid Calder family. He was alive across the estimated1575–1586 birth interval of all three Lothian fathers; Hermand John’s1577 death would require an earlier birth estimate for David. That favours this coherent provisional family without excluding the other father. Andrew was alive until1598 and the uncertain generations allow James to be an older son. This uses the actual Calder setting and compatible family sequence, not the withdrawn assertion that the testament named James. James’s Inveresk/Fisherrow identity remains a separate uncertainty.",
+    "limitations": "John of Hermand-3181 is another plausible older local father. The George named at Mureistoun1586 and the George witness1605 are a competing father/relative lead; identifying that George with merchant1099 would require additional identity assumptions and young fatherhood. None is excluded. Andrew’s omission of James weakens this model; it does not disprove an older son.",
+    "source_ids": [
+      "nrs-cc8-8-32-andrew-1598",
+      "midcalder-george-1605-original"
+    ],
+    "assessment_date": "2026-10-15",
+    "publication_status": "approved",
+    "perspectives": {
+      "Glasgow-991": {
+        "relationship": "father",
+        "reason": "Andrew’s documented rural Calder household is the preferred working anchor for James’s nearby Mid Calder family. He was alive across the estimated1575–1586 birth interval of all three Lothian fathers; Hermand John’s1577 death would require an earlier birth estimate for David. That favours this coherent provisional family without excluding the other father. Andrew was alive until1598 and the uncertain generations allow James to be an older son. This uses the actual Calder setting and compatible family sequence, not the withdrawn assertion that the testament named James. James’s Inveresk/Fisherrow identity remains a separate uncertainty."
+      },
+      "Glasgow-3163": {
+        "relationship": "son",
+        "reason": "Andrew’s documented rural Calder household is the preferred working anchor for James’s nearby Mid Calder family. He was alive across the estimated1575–1586 birth interval of all three Lothian fathers; Hermand John’s1577 death would require an earlier birth estimate for David. That favours this coherent provisional family without excluding the other father. Andrew was alive until1598 and the uncertain generations allow James to be an older son. This uses the actual Calder setting and compatible family sequence, not the withdrawn assertion that the testament named James. James’s Inveresk/Fisherrow identity remains a separate uncertainty."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Selected working model: reasoning and alternatives",
+        "href": "/branches/early-scottish-records/#selected-working-joins"
+      }
+    ],
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "basis": "Explicit logical reconstruction from existing maintained Calder/Lothian evidence; no new parent record.",
+      "resolution_note": "Selected local working hypothesis. Raw WikiTree parent fields remain unchanged; no certainty upgrade or live save.",
+      "prior_assessment": "Parent unknown/unselected locally; previous positive testament-child rationale remains superseded."
+    }
+  },
+  {
+    "assertion_id": "C-working-20261015-glasgow-1561-glasgow-3163",
+    "people": [
+      "Glasgow-1561",
+      "Glasgow-3163"
+    ],
+    "profile_names": {
+      "Glasgow-1561": "John Glasgow of Linlithgow",
+      "Glasgow-3163": "Andrew Glasgow of Calder"
+    },
+    "status": "uncertain",
+    "hypothesis_status": "possible",
+    "working_selection": true,
+    "allow_new_relationship": true,
+    "claim": "Andrew Glasgow of Calder is the selected uncertain working father of John Glasgow of Linlithgow.",
+    "basis": "Select the same older Calder household as the working origin for this neighbouring Lothian family. John’s estimated1579 generation and children recorded1613–1622 fit an older son of Andrew, whose own father is tentatively John-1093. The proximity and compatible generations make this a useful shared-family model alongside James and David, rather than an assertion that the three are proved brothers.",
+    "limitations": "John of Hermand-3181 is a compatible alternative if John1561’s estimated birth is earlier than1577. A separate unnamed local father remains possible. Andrew’s1598 testament does not name John; do not restore the obsolete James/Andrew/William child list or attach Jonet Anderson as mother.",
+    "source_ids": [
+      "nrs-cc8-8-32-andrew-1598",
+      "linlithgow-jean-1613-father-john"
+    ],
+    "assessment_date": "2026-10-15",
+    "publication_status": "approved",
+    "perspectives": {
+      "Glasgow-1561": {
+        "relationship": "father",
+        "reason": "Select the same older Calder household as the working origin for this neighbouring Lothian family. John’s estimated1579 generation and children recorded1613–1622 fit an older son of Andrew, whose own father is tentatively John-1093. The proximity and compatible generations make this a useful shared-family model alongside James and David, rather than an assertion that the three are proved brothers."
+      },
+      "Glasgow-3163": {
+        "relationship": "son",
+        "reason": "Select the same older Calder household as the working origin for this neighbouring Lothian family. John’s estimated1579 generation and children recorded1613–1622 fit an older son of Andrew, whose own father is tentatively John-1093. The proximity and compatible generations make this a useful shared-family model alongside James and David, rather than an assertion that the three are proved brothers."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Selected working model: reasoning and alternatives",
+        "href": "/branches/early-scottish-records/#selected-working-joins"
+      }
+    ],
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "basis": "Explicit logical reconstruction from existing maintained Calder/Lothian evidence; no new parent record.",
+      "resolution_note": "Selected local working hypothesis. Raw WikiTree parent fields remain unchanged; no certainty upgrade or live save.",
+      "prior_assessment": "Parent unknown/unselected locally; previous positive testament-child rationale remains superseded."
+    }
+  },
+  {
+    "assertion_id": "C-working-20261015-glasgow-1028-glasgow-3163",
+    "people": [
+      "Glasgow-1028",
+      "Glasgow-3163"
+    ],
+    "profile_names": {
+      "Glasgow-1028": "David Glasgow of Mid Calder",
+      "Glasgow-3163": "Andrew Glasgow of Calder"
+    },
+    "status": "uncertain",
+    "hypothesis_status": "possible",
+    "working_selection": true,
+    "allow_new_relationship": true,
+    "claim": "Andrew Glasgow of Calder is the selected uncertain working father of David Glasgow of Mid Calder.",
+    "basis": "David’s1606 and1612 Mid Calder baptisms place his household in the same small Calder area as the earlier Andrew household. His approximate generation permits Andrew to be his father. The first recorded daughter Elspeth is consistent with the Elizat name in Andrew’s household, a minor naming clue rather than a mother identification. Select Andrew as the tentative shared father with James and John; exact birth years remain estimates.",
+    "limitations": "John of Hermand-3181 or another older local Glasgow could be the father. If David’s approximate1586 birth were established, he would have been young when omitted from Andrew’s1598 testament, making that omission more troublesome. It is not an established birth date. Elizat Stevinsoun and the discredited Jonet Anderson attribution are not automatically assigned as mothers.",
+    "source_ids": [
+      "nrs-cc8-8-32-andrew-1598",
+      "midcalder-elspeth-1606-father-david"
+    ],
+    "assessment_date": "2026-10-15",
+    "publication_status": "approved",
+    "perspectives": {
+      "Glasgow-1028": {
+        "relationship": "father",
+        "reason": "David’s1606 and1612 Mid Calder baptisms place his household in the same small Calder area as the earlier Andrew household. His approximate generation permits Andrew to be his father. The first recorded daughter Elspeth is consistent with the Elizat name in Andrew’s household, a minor naming clue rather than a mother identification. Select Andrew as the tentative shared father with James and John; exact birth years remain estimates."
+      },
+      "Glasgow-3163": {
+        "relationship": "son",
+        "reason": "David’s1606 and1612 Mid Calder baptisms place his household in the same small Calder area as the earlier Andrew household. His approximate generation permits Andrew to be his father. The first recorded daughter Elspeth is consistent with the Elizat name in Andrew’s household, a minor naming clue rather than a mother identification. Select Andrew as the tentative shared father with James and John; exact birth years remain estimates."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Selected working model: reasoning and alternatives",
+        "href": "/branches/early-scottish-records/#selected-working-joins"
+      }
+    ],
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "basis": "Explicit logical reconstruction from existing maintained Calder/Lothian evidence; no new parent record.",
+      "resolution_note": "Selected local working hypothesis. Raw WikiTree parent fields remain unchanged; no certainty upgrade or live save.",
+      "prior_assessment": "Parent unknown/unselected locally; previous positive testament-child rationale remains superseded."
+    }
+  },
+  {
+    "assertion_id": "C-working-20261015-glasgow-3610-glasgow-3296",
+    "people": [
+      "Glasgow-3610",
+      "Glasgow-3296"
+    ],
+    "profile_names": {
+      "Glasgow-3610": "John Glasgow of Kirknewton",
+      "Glasgow-3296": "John Glasgow, Mid Calder/Quothquan working identity"
+    },
+    "status": "uncertain",
+    "hypothesis_status": "possible",
+    "working_selection": true,
+    "allow_new_relationship": true,
+    "claim": "John Glasgow, Mid Calder/Quothquan working identity is the selected uncertain working father of John Glasgow of Kirknewton.",
+    "basis": "The older John already represents the father named in Mid Calder baptisms1608–1609. His son John-1086, baptised1608, is a viable earlier identity for the adult John who had children in neighbouring Kirknewton/East Calder1646–1650: age38 at the1646 birth is straightforward. Select the older John as working father of3610 on that local and chronological reconstruction. Keep the two son profiles separate while testing their possible identity.",
+    "limitations": "John-1086 has a later Biggar account that has not been equated with3610. They may be different men, and the older father’s Mid Calder/Montfoid/Quothquan identity is itself uncertain. Robert-4006 is another generationally compatible Calder father. This does not restore the former unsupported William-1087 father or treat1629 as a recorded birthday.",
+    "source_ids": [
+      "midcalder-jhone-1608-father-jhone",
+      "kirknewton-johne-1649-father-johne"
+    ],
+    "assessment_date": "2026-10-15",
+    "publication_status": "approved",
+    "perspectives": {
+      "Glasgow-3610": {
+        "relationship": "father",
+        "reason": "The older John already represents the father named in Mid Calder baptisms1608–1609. His son John-1086, baptised1608, is a viable earlier identity for the adult John who had children in neighbouring Kirknewton/East Calder1646–1650: age38 at the1646 birth is straightforward. Select the older John as working father of3610 on that local and chronological reconstruction. Keep the two son profiles separate while testing their possible identity."
+      },
+      "Glasgow-3296": {
+        "relationship": "son",
+        "reason": "The older John already represents the father named in Mid Calder baptisms1608–1609. His son John-1086, baptised1608, is a viable earlier identity for the adult John who had children in neighbouring Kirknewton/East Calder1646–1650: age38 at the1646 birth is straightforward. Select the older John as working father of3610 on that local and chronological reconstruction. Keep the two son profiles separate while testing their possible identity."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Selected working model: reasoning and alternatives",
+        "href": "/branches/early-scottish-records/#selected-working-joins"
+      }
+    ],
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "basis": "Explicit logical reconstruction from existing maintained Calder/Lothian evidence; no new parent record.",
+      "resolution_note": "Selected local working hypothesis. Raw WikiTree parent fields remain unchanged; no certainty upgrade or live save.",
+      "prior_assessment": "Parent unknown/unselected locally; previous positive testament-child rationale remains superseded."
+    }
   }
 ]

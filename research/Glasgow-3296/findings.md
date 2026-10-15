@@ -139,3 +139,10 @@ Recorded in `research/Glasgow-3296/Glasgow-3296.md` (2026-09-07); carried into t
 ## Linlithgow John comparison — 15 October 2026
 
 [Glasgow-1561](https://www.wikitree.com/wiki/Glasgow-1561) is the compatible existing father represented by Linlithgow baptisms in 1613, 1617 and 1622. The former Glasgow-3608 now resolves here, as rechecked through the live public API. Mid Calder 1608/1609 and Linlithgow 1613–1622 permit one career, but the inspected indexes supply no common wife, occupation or holding. The two John baptisms,1608 and 1617, need original-page and household comparison. No merger, paternal connection or certainty upgrade is made. See [the full comparison](../Glasgow-1561/findings.md); the Montfoid and Quothquan identities remain qualified above.
+
+
+## Selected working descendants —15 October2026
+
+- [John Glasgow of Kirknewton](/people/glasgow-3610.html) is now a selected **uncertain** son in the local working model. The older John already represents the father named in Mid Calder baptisms1608–1609. His son John-1086, baptised1608, is a viable earlier identity for the adult John who had children in neighbouring Kirknewton/East Calder1646–1650: age38 at the1646 birth is straightforward. Select the older John as working father of3610 on that local and chronological reconstruction. Keep the two son profiles separate while testing their possible identity. Alternatives remain in the child’s account.
+
+[Working-model reasoning](/branches/early-scottish-records/#selected-working-joins). No new proof or shared mother is claimed; earlier interpretations remain in their recorded context.

@@ -17,9 +17,11 @@ a father James Glasgow there in 1605, 1610 and 1616. Other indexes name a father
 James at Inveresk/Musselburgh in 1609, 1614 and 1618. The records do not show
 whether one mobile household or two contemporaries produced those two sequences.
 
-The original 1605 baptism locates its James provisionally at Muirestoun, probably Murieston, and names George Glasgow as witness. George of Mureistoun in 1586 is a possible earlier family connection; the witness could be James’s father or another associate, and no parent is selected.
+The original 1605 baptism locates its James provisionally at Muirestoun, probably Murieston, and names George Glasgow as witness. George of Mureistoun in1586 remains a competing father/relative hypothesis. Andrew-3163 is now selected as the local working father, without rejecting that George alternative.
 
 The Fisherrow tailor James and Christina Bye are compatible with this James and Christina Bie-55, whose son William has a cited 1614 Inveresk baptism. This is an identity hypothesis pending the sasines; it does not combine the Mid Calder and Inveresk sequences.
+
+**Selected local working parent,15 October2026:** [Andrew Glasgow of Calder](/people/glasgow-3163.html), **uncertain**. Andrew’s documented rural Calder household is the preferred working anchor for James’s nearby Mid Calder family. He was alive across the estimated1575–1586 birth interval of all three Lothian fathers; Hermand John’s1577 death would require an earlier birth estimate for David. That favours this coherent provisional family without excluding the other father. Andrew was alive until1598 and the uncertain generations allow James to be an older son. This uses the actual Calder setting and compatible family sequence, not the withdrawn assertion that the testament named James. James’s Inveresk/Fisherrow identity remains a separate uncertainty. The live WikiTree parent field is separate; this is a local hypothesis, with competing explanations below.
 
 ## Source findings
 
@@ -84,3 +86,12 @@ The visually checked [SRO Indexes 44 (1958), Edinburgh etc. register of sasines 
 The original Mid Calder baptism of 17 February 1605 names father James Glasgow, provisionally in Muirestoun, and adult witness George Glasgow. The 1586 Calder muster list names George Glasgw in Mureistoun. Murieston is the probable common locality; the two older George occurrences may be one man, but no kinship is stated. [Maidment’s printed p.399](https://archive.org/details/analectascotica00maidgoog) and [McCall’s p.16](https://archive.org/details/historyantiquiti00mcal) were visually checked; the original OPR 694/10 p.7 was reread. The original-page facts were already recorded in September; the new result is their correlation with the 1586 holding. The residence identification is probable, and the final witness remains unread.
 
 The witness’s residence and relationship are unstated. He might be James’s father, another relative or a neighbour. See the [complete older-George draft and compatible candidates](/research/subjects/murieston-1586-1605/#george-mureistoun) and [James’s assessment](/people/glasgow-991.html). No new father link or certainty upgrade is counted. Compare the other Mid Calder baptism pages for the same holding and witnesses, then inspect NLS MS.3724 and Beveridge’s transcript MS.3725 for George, James, heirs, leases and succession at Mureistoun. The catalogue places the 1586 land-title courts at original pp.1–15 and the chronological court sequence at pp.23–189; it records a gap between 2 May 1592 and 26 November 1594. These manuscript pages have not been read.
+
+
+## Selected uncertain father —15 October2026
+
+Andrew’s documented rural Calder household is the preferred working anchor for James’s nearby Mid Calder family. He was alive across the estimated1575–1586 birth interval of all three Lothian fathers; Hermand John’s1577 death would require an earlier birth estimate for David. That favours this coherent provisional family without excluding the other father. Andrew was alive until1598 and the uncertain generations allow James to be an older son. This uses the actual Calder setting and compatible family sequence, not the withdrawn assertion that the testament named James. James’s Inveresk/Fisherrow identity remains a separate uncertainty.
+
+**Counterevidence and alternatives:** John of Hermand-3181 is another plausible older local father. The George named at Mureistoun1586 and the George witness1605 are a competing father/relative lead; identifying that George with merchant1099 would require additional identity assumptions and young fatherhood. None is excluded. Andrew’s omission of James weakens this model; it does not disprove an older son.
+
+[Full working model and reasoning](/branches/early-scottish-records/#selected-working-joins). This adds one selected uncertain paternal edge to the local tree/network and working measure. It changes no confident relationship and performs no live WikiTree edit.

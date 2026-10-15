@@ -25769,6 +25769,62 @@
         "research/Glasgow-1082/findings.md",
         "research/Glasgow-991/findings.md"
       ]
+    },
+    {
+      "id": "selected-early-working-fathers-2026-10-15",
+      "found_on": "2026-10-15",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Four uncertain father connections are selected in the local working tree: Andrew of Calder to James, John of Linlithgow and David of Mid Calder; the older Mid Calder/Quothquan John to the1640s Kirknewton John.",
+      "qualification": "Logical reconstruction using existing site evidence. These are unknown/unselected → selected uncertain links, not proof or certainty upgrades. Reasons, counterevidence and alternatives remain visible. No shared mothers, new source inspections, live WikiTree saves or identity merges are claimed.",
+      "relationship_change_count": 4,
+      "people": [
+        {
+          "id": "Glasgow-991",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-991.html"
+        },
+        {
+          "id": "Glasgow-3163",
+          "name": "Andrew Glasgow of Calder",
+          "url": "/people/glasgow-3163.html"
+        },
+        {
+          "id": "Glasgow-1561",
+          "name": "John Glasgow of Linlithgow",
+          "url": "/people/glasgow-1561.html"
+        },
+        {
+          "id": "Glasgow-1028",
+          "name": "David Glasgow of Mid Calder",
+          "url": "/people/glasgow-1028.html"
+        },
+        {
+          "id": "Glasgow-3610",
+          "name": "John Glasgow of Kirknewton",
+          "url": "/people/glasgow-3610.html"
+        },
+        {
+          "id": "Glasgow-3296",
+          "name": "John Glasgow, Mid Calder/Quothquan working identity",
+          "url": "/people/glasgow-3296.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Existing corrected1598 Andrew testament account, CC8/8/32, and Calder household",
+          "url": "https://www.wikitree.com/wiki/Glasgow-3163"
+        },
+        {
+          "title": "Existing1608 Mid Calder child and later John household comparison",
+          "url": "https://www.wikitree.com/wiki/Glasgow-1086"
+        }
+      ],
+      "detail_url": "/branches/early-scottish-records/#selected-working-joins",
+      "provenance": [
+        "research/ancestry-connections/working-joins-2026-10-15.md",
+        "research/relationship_assessments.json"
+      ]
     }
   ]
 }

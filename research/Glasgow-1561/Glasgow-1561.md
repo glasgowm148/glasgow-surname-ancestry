@@ -1,4 +1,4 @@
-<!-- REVIEWED FULL REPLACEMENT: 15 October 2026; every current citation and substantive passage reconciled; see lothian-profile-preservation-2026-10-15.json. -->
+<!-- REVIEWED FULL REPLACEMENT:15 October2026; all current citations and previous replacement detail retained; see working-joins-preservation-2026-10-15.json. -->
 [[Category:Glasgow Name Study]]
 {{Estimated Date}}
 
@@ -28,6 +28,11 @@ The former [[Glasgow-3608|John Glasgow]] profile now redirects to [[Glasgow-3296
 The Mid Calder and Linlithgow fathers are compatible in chronology, but the indexes give no shared wife, occupation, holding or explicit cross-parish identity. The John baptisms of 1608 and 1617 require comparison for survival, name reuse and household continuity. Keep this as an open identity comparison and do not merge or select a parent from names and estimated dates alone. The Montfoid and Quothquan identities already associated with Glasgow-3296 remain qualified in that account.
 
 The spelling ''Glesgow'' has been reported in the parish material; original pages are needed to verify the exact spellings and any omitted household detail. A related FamilySearch source collection is also cited, without treating it as independent parentage evidence.<ref>https://www.familysearch.org/tree/person/sources/MG7J-6GM</ref>
+
+=== Selected uncertain working father,15 October2026 ===
+[[Glasgow-3163|Andrew Glasgow of Calder]] is selected as the working father in the local research model. Select the same older Calder household as the working origin for this neighbouring Lothian family. John’s estimated1579 generation and children recorded1613–1622 fit an older son of Andrew, whose own father is tentatively John-1093. The proximity and compatible generations make this a useful shared-family model alongside James and David, rather than an assertion that the three are proved brothers.
+
+This is a hypothesis from existing material, not a parent named in a newly found record. John of Hermand-3181 is a compatible alternative if John1561’s estimated birth is earlier than1577. A separate unnamed local father remains possible. Andrew’s1598 testament does not name John; do not restore the obsolete James/Andrew/William child list or attach Jonet Anderson as mother. No mother or live WikiTree parent-field change is implied. The earlier proof-based rationale remains superseded where corrected.
 
 == Sources ==
 <references />
