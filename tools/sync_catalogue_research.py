@@ -13,6 +13,9 @@ from pathlib import Path
 
 from bs4 import BeautifulSoup
 
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+
 try:
     import build_research_catalog as catalogue
     from public_privacy import from_sources, public_capture
@@ -24,7 +27,6 @@ except ModuleNotFoundError:
     from tools.site_html import read_html
     from tools.repair_person_hierarchy import _profile_update_panel, _replace_main, revise, render_person_dossier
 
-ROOT = Path(__file__).resolve().parents[1]
 WEB = ROOT / "www"
 
 
