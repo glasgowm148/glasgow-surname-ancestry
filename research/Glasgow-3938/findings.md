@@ -4,6 +4,9 @@ Last updated: 2026-08-31
 
 ## Current conclusion
 
+Reviewed: 2026-10-15
+
+
 The Scotland's People marriage index confirms Robert Glasgow and Jonet
 Thomsone on 1 July 1652 at Edinburgh, OPR `685/1`, reference `440/13`. The
 published register describes Robert as a cordiner. It supplies no age,
@@ -20,6 +23,8 @@ proof.
 This Robert is also not identified with [Robert Glasgow baptised in 1618
 (Glasgow-1078)](https://www.wikitree.com/wiki/Glasgow-1078). Shared name and the
 cordiner trade of the 1618 child's father are insufficient.
+
+The reported 1644 sasine index already calls Eupham Lorimer this cordiner’s wife. The original and the 1652 marriage identification remain to be checked; existing links are preserved.
 
 ## North Leith namesake, 1694
 
@@ -82,3 +87,8 @@ Retain this record as a same-name/identity-separation source while preserving al
 Source: Old Parish Registers, banns and marriages; exact surname Glasgow through 1700, 55 supplied results. Original images not inspected for this batch; combined index dates do not by themselves establish ceremony dates.
 
 This batch adds supporting evidence or a qualified comparison only; it raises no additional WikiTree amendment for this profile.
+
+<!-- findmypast-studies-sweep-2026-10-07 to1650-pass5 -->
+## 1610–1650 sweep — reviewed 15 October 2026
+
+The earlier sweep recovered SRO Indexes no.44, Edinburgh etc. 1644–1653, **1 March 1644**, vol.32 fol.168: Robert Glasgow, cordiner outwith the West Port of Edinburgh, spouse **Eupham Lorimer**. Her reciprocal entry names father Andrew Lorimer, beltmaker: pp.160 and 265 ([Glasgow page](https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481222&seq=168), [Lorimer page](https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481222&seq=273)). This agrees with the occupation and wife in the later burgess account, but is still an index/OCR reading; the original sasine has not been inspected. If the identification holds, the attached 1652 marriage needs reassessment as a possible namesake event. No existing marriage or family link is removed.

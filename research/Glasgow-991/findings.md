@@ -2,6 +2,9 @@
 
 ## Current conclusion
 
+Reviewed: 2026-10-15
+
+
 The corrected reading of Andrew Glasgow's 1597/8 testament does **not** name a
 son James. It expressly names Robert Glasgow as Andrew and Elizat Stevinsoun's
 son, followed by daughters Marion, Janet and Isobel. The previous placement of
@@ -13,6 +16,8 @@ James is still relevant to the Mid Calder research because baptism indexes name
 a father James Glasgow there in 1605, 1610 and 1616. Other indexes name a father
 James at Inveresk/Musselburgh in 1609, 1614 and 1618. The records do not show
 whether one mobile household or two contemporaries produced those two sequences.
+
+The Fisherrow tailor James and Christina Bye are compatible with this James and Christina Bie-55, whose son William has a cited 1614 Inveresk baptism. This is an identity hypothesis pending the sasines; it does not combine the Mid Calder and Inveresk sequences.
 
 ## Source findings
 
@@ -50,3 +55,9 @@ A James Glas, son of Alexander Glas, was baptised at Perth on 19 January 1575 (O
 Jonet Glasgow's marriage to Martin Ramsy at Mid Calder in 1624 is indexed at [FamilySearch XY9X-4PR](https://www.familysearch.org/ark:/61903/1:1:XY9X-4PR). Andrew Glasgow's testament (`CC8/8/32`) was made on 6 February 1597/8 and confirmed on 10 July 1598.
 
 Recorded in `research/Glasgow-991/Glasgow-991.md` (8 September 2026); carried into this file on 7 October 2026.
+
+## Fisherrow tailor and Christina Bye — 15 October 2026
+
+The 1624–1630 sasine-index text reported by the earlier sweep describes James Glasgow, tailor in Fisherrow and burgess of Musselburgh, son Alexander, and James’s spouse **Christina Bye**. This James and [Christina Bie](https://www.wikitree.com/wiki/Bie-55) are compatible existing candidates: their attached son [William Glasgow](https://www.wikitree.com/wiki/Glasgow-3517) has a cited 10 July 1614 Inveresk baptism naming James and Christina Bie. The identity of that parish couple with the sasine couple is not proved, and the Mid Calder and Inveresk James sequences retain their existing separate assessments. [Alexander’s source table](https://www.wikitree.com/wiki/Glasgow-1148) records the index locators and uncertain column pairings. Read the 1624 and 1625 instruments before changing the father assessment.
+
+The additional authenticated Findmypast transcript [R_686177762](https://www.findmypast.co.uk/transcript?id=R_686177762), inspected 15 October 2026, names William Glasgow, year 1614, Inveresk with Musselburgh, father James. It supplies neither a mother nor an exact day. It therefore does not independently verify the Christina Bie attribution in Glasgow-3517’s cited source. The maternal reading still needs its own record check.

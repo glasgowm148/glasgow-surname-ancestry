@@ -5,9 +5,16 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
+Reviewed: 2026-10-15
+
+
 Father assessment: [Ninian Glasgow (1550)](https://www.wikitree.com/wiki/Glasgow-3188) is **possible, not proved as this William's father**. A William occurs in Ninian's damaged 1613 testament material, but the previously asserted `his sone` clause cannot be securely recovered. Neither occurrence identifies William as the later Leith mealmaker.
 
 Child assessment: [Archibald Glasgow (Glasgow-3078), born 20 March 1618, South Leith, Midlothian, Scotland](https://www.wikitree.com/wiki/Glasgow-3078) is **confirmed by four records**. His 1618 baptism names William as his father; his 1639 apprenticeship identifies that father as William Glasgow, mealmaker in Leith; William's 1646 testament calls Archibald his lawful son and sole executor dative; and Archibald's 1647 service of heir repeats the same relationship and occupations.
+
+Two Findmypast indexes agree on the Leith marriage date, 10 July 1610, while recording the bride as Catherine Fraith or Cathrene Fraser. They index one event and do not independently establish a second marriage or resolve the disputed 1612 child.
+
+The live Catherine profile records a birth year of 1600, but its only cited source is her child’s 1618 baptism. That citation does not establish Catherine’s birth year. The proposed 1610 bride identification therefore retains an explicit chronology question; no birth date or couple identity is proved by this review.
 
 ## Source findings
 
@@ -68,3 +75,15 @@ William's testament dative (NRS Edinburgh Commissary Court CC8/8/62, images 461�
 Jonet Meik's testament testamentar (NRS Glasgow Commissary Court CC9/7/5, images 82–83, recorded 27 August 1607) names Ninian Glasgow as her spouse and [Robert Glasgow (Glasgow-1027)](https://www.wikitree.com/wiki/Glasgow-1027) as her son, but does not name William. If William was Ninian's son, Jonet is only a **possible** mother; an earlier wife cannot be excluded. The manuscript surname is Meik; "Melk" in electronic indexes is best treated as a transcription error. Seen as cited in the reviewed draft.
 
 Recorded in `research/Glasgow-3075/Glasgow-3075.md` (8 September 2026); carried into this file on 7 October 2026.
+
+<!-- findmypast-studies-sweep-2026-10-07 to1650-pass5 -->
+## 1610–1650 sweep — reviewed 15 October 2026
+
+Two authenticated Findmypast transcripts re-opened 15 October 2026 agree on **10 July 1610**:
+
+| Transcript | Indexed names and place | Source grade |
+| --- | --- | --- |
+| [SCOT/OPR/MAR/1447177/1](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FMAR%2F1447177%2F1) | William **Glascoe**, Catherine **Fraith**, Leith; OPR **692/2/9**, item 4 | Scottish Genealogy Society parish transcript; no original image supplied. |
+| [R_696111854/1](https://www.findmypast.co.uk/transcript?id=R_696111854%2F1) | William **Glascow**, Cathrene **Fraser**, South Leith | FamilySearch-derived index of the same event; not independent evidence of a second marriage. |
+
+The matching date and existing Leith household support assignment to this William and [Catherine Fraser](https://www.wikitree.com/wiki/Fraser-15286). Preserve the two surname readings until the register is inspected. A 1612 Glasgow baptism to a mother Christian Scot is an identity question for [William Glasgow](https://www.wikitree.com/wiki/Glasgow-1556); the 1610 marriage alone neither disproves that child’s current father nor proves a second marriage. The possible 1647 “mealdealer, Leith” sasine is an uncertain index-column pairing, not evidence that this William survived his independently documented September 1644 death.

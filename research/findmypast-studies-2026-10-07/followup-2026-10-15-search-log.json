@@ -1,0 +1,268 @@
+{
+  "capture_date": "2026-10-15",
+  "evidence_directory": "tmp/fmp-sweep-20261015",
+  "queries": [
+    {
+      "label": "Scotland Glasgow variants 1600-1650 parish baptisms",
+      "total": 892,
+      "retrieved": 500,
+      "pages": 25,
+      "complete": false
+    },
+    {
+      "label": "Scotland Glasgow variants 1600-1650 parish marriages",
+      "total": 118,
+      "retrieved": 118,
+      "pages": 6,
+      "complete": true
+    },
+    {
+      "label": "Scotland Glasgow variants 1600-1650 parish burials",
+      "total": 106,
+      "retrieved": 106,
+      "pages": 6,
+      "complete": true
+    },
+    {
+      "label": "Scotland Glasgow variants 1600-1650 wills & testaments",
+      "total": 0,
+      "retrieved": 0,
+      "pages": 1,
+      "complete": true,
+      "status": "invalid_category_not_coverage",
+      "repeat": "Scotland Glasgow variants wills probate 1600-1650"
+    },
+    {
+      "label": "Scotland Glasgow variants 1600-1650 apprentices",
+      "total": 2,
+      "retrieved": 2,
+      "pages": 1,
+      "complete": true
+    },
+    {
+      "label": "Scotland Glasgow variants 1600-1650 guild & trade associations",
+      "total": 9,
+      "retrieved": 9,
+      "pages": 1,
+      "complete": true
+    },
+    {
+      "label": "Ireland Archbold Glascow all dates",
+      "total": 1070,
+      "retrieved": 500,
+      "pages": 25,
+      "complete": false
+    },
+    {
+      "label": "Exact glasgowe 1500-1650 parish records",
+      "total": 2,
+      "retrieved": 2,
+      "pages": 1,
+      "complete": true
+    },
+    {
+      "label": "Exact glascou 1500-1650 parish records",
+      "total": 0,
+      "retrieved": 0,
+      "pages": 1,
+      "complete": true
+    },
+    {
+      "label": "Scotland exact glasgow life events 1600-1650",
+      "total": 592,
+      "retrieved": 500,
+      "pages": 25,
+      "complete": false
+    },
+    {
+      "label": "Scotland exact glascow life events 1600-1650",
+      "total": 8,
+      "retrieved": 8,
+      "pages": 1,
+      "complete": true
+    },
+    {
+      "label": "Scotland exact glasco life events 1600-1650",
+      "total": 0,
+      "retrieved": 0,
+      "pages": 1,
+      "complete": true
+    },
+    {
+      "label": "Scotland exact glascoe life events 1600-1650",
+      "total": 1,
+      "retrieved": 1,
+      "pages": 1,
+      "complete": true
+    },
+    {
+      "label": "Scotland exact glasgoe life events 1600-1650",
+      "total": 4,
+      "retrieved": 4,
+      "pages": 1,
+      "complete": true
+    },
+    {
+      "label": "Scotland exact glasgw life events 1600-1650",
+      "total": 1,
+      "retrieved": 1,
+      "pages": 1,
+      "complete": true
+    },
+    {
+      "label": "Scotland exact glesgow life events 1600-1650",
+      "total": 4,
+      "retrieved": 4,
+      "pages": 1,
+      "complete": true
+    },
+    {
+      "label": "Scotland exact glasgowe life events 1600-1650",
+      "total": 2,
+      "retrieved": 2,
+      "pages": 1,
+      "complete": true
+    },
+    {
+      "label": "Ireland exact Archbold Glascow all dates",
+      "total": 3,
+      "retrieved": 3,
+      "pages": 1,
+      "complete": true
+    },
+    {
+      "label": "Scotland Glasgow variants wills probate 1600-1650",
+      "total": 33,
+      "retrieved": 33,
+      "pages": 2,
+      "complete": true
+    },
+    {
+      "label": "Scotland exact Glasgow 1600-1650 parish baptisms",
+      "total": 262,
+      "retrieved": 262,
+      "pages": 14,
+      "complete": true
+    },
+    {
+      "label": "Scotland exact Glasgow 1600-1650 parish marriages",
+      "total": 83,
+      "retrieved": 83,
+      "pages": 5,
+      "complete": true
+    },
+    {
+      "label": "Scotland exact Glasgow 1600-1650 parish burials",
+      "total": 21,
+      "retrieved": 21,
+      "pages": 2,
+      "complete": true
+    }
+  ],
+  "recognized_surname_ids": {
+    "count": 149,
+    "event_year_range": [
+      1600,
+      1650
+    ],
+    "spellings": [
+      "Glasgow",
+      "Glasgw",
+      "Glascow",
+      "Glasco",
+      "Glascoe",
+      "Glasgoe",
+      "Glesgow",
+      "Glasgowe"
+    ],
+    "new_vs_y16_named": [],
+    "comparison": "All 149 unique recognized IDs are already present in tmp/fmp-studies/y16_named.json; no genuinely new indexed ID was found. IDs are intentionally not duplicated here; source result files retain the exact rows."
+  },
+  "saved_transcripts": {
+    "successful_unique_record_ids": 12,
+    "note": "Each provider record ID is counted once. Parallel index IDs may represent one underlying event; the duplicate capture of SCOT/OPR/MAR/1447177/1 is excluded. This is not a count of people or independent historical events."
+  },
+  "transcript_actions": [
+    {
+      "id": "SCOT/OPR/MAR/1447177/1",
+      "action": "saved"
+    },
+    {
+      "id": "R_696111854/1",
+      "action": "saved_duplicate"
+    },
+    {
+      "id": "SCOT/OPR/BUR/1625437",
+      "action": "saved"
+    },
+    {
+      "id": "SCOT/OPR/BAP/4473489",
+      "action": "saved"
+    },
+    {
+      "id": "SCOT/OPR/BAP/4473472",
+      "action": "saved"
+    },
+    {
+      "id": "SCOT/OPR/BAP/4675742",
+      "action": "saved"
+    },
+    {
+      "id": "R_693724617",
+      "action": "saved"
+    },
+    {
+      "id": "SCOT/BURGESS/0052718",
+      "action": "saved"
+    },
+    {
+      "id": "IRE/NAI/GENABS/01001054/1",
+      "action": "saved"
+    },
+    {
+      "id": "IRE/NAI/GENABS/01001021/1",
+      "action": "saved"
+    },
+    {
+      "id": "IRE/NAI/GENABS/00935806/1",
+      "action": "saved"
+    },
+    {
+      "id": "R_686177762",
+      "action": "SUCCESS_USING_SUBSCRIPTION",
+      "purpose": "1614 Inveresk William, father James; transcript omits mother and exact day."
+    }
+  ],
+  "coverage_notes": [
+    "Completeness is retrieved >= total; zero-result queries are complete only for that provider query.",
+    "The partitioned exact Glasgow baptism, marriage and burial queries complete their provider result lists, but synthetic, undated and later records still require event-year filtering.",
+    "No raw provider rows, browser state, credentials or account fields are included."
+  ],
+  "verification": {
+    "reviewed_on": "2026-10-15",
+    "scoped_research_publication": "passed; zero new failing items",
+    "internal_links": "passed; zero new broken pairs",
+    "asset_versions": "passed; zero stale references after dependency-order repair",
+    "source_page_content_check": {
+      "checked": 16385,
+      "beyond_asset_version_changes": 0
+    },
+    "complete_draft_citations": "all original citation definitions retained in both new complete replacements",
+    "local_search": {
+      "qmd": "updated",
+      "pdf": "warmed",
+      "pre_existing_notes_withheld": [
+        "research/Glasgow-2917/findings.md",
+        "research/Glasgow-3172/findings.md"
+      ],
+      "reason": "Changed approved hashes; left withheld pending their separate review."
+    },
+    "live_wikitree_edits": 0,
+    "relationship_upgrades": 0,
+    "production_deployed": false,
+    "limits": [
+      "Original Crossle images, disputed parish pages and sasines remain uninspected; browser control failed.",
+      "Provider synthetic date matches and truncated searches do not establish exhaustive coverage."
+    ]
+  }
+}

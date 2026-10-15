@@ -41,3 +41,8 @@ Glasgow-2454 and Glasgow-3654 appear to duplicate the same Issobel baptism.
 The former Glasgow-3515 profile was merged into this canonical account. Its
 child/source audit is retained here: do not recreate the former profile or turn
 the possible household into proven parentage.
+
+<!-- findmypast-studies-sweep-2026-10-07 to1650-pass5 -->
+## 1610–1650 sweep — reviewed 15 October 2026
+
+This is a historical case for the adult William merged into [Glasgow-1087](https://www.wikitree.com/wiki/Glasgow-1087) in September 2026. The authenticated 4 June 1647 burial calls Walter a son of William Glasgow at Leithford, but it does not identify William with this adult. The competing Walter baptism years are **1647 in Findmypast/SGS**, **1649 in the supplied ScotlandsPeople and FamilySearch accounts**; the earlier sweep’s attribution of 1647 to ScotlandsPeople was incorrect. Full citations and the separation of the burial from the later baptism are maintained with [Walter Glasgow-1554](https://www.wikitree.com/wiki/Glasgow-1554) and cross-referenced on the surviving William case.

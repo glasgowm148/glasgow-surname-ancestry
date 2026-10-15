@@ -1,7 +1,12 @@
 # Findings: [Euphame Glasgow/Glasfoord (Glasgow-1167), 1634](https://www.wikitree.com/wiki/Glasgow-1167)
 
-Last updated: 2026-09-10
+## Current conclusion
 
+Reviewed: 2026-10-15
+
+The live structured father checked on 15 October 2026 is **[John Glassfuird, Edinburgh slater (Glassfuird-2)](https://www.wikitree.com/wiki/Glassfuird-2)**, not Rev. [John Glassford (Glassford-289)](https://www.wikitree.com/wiki/Glassford-289). The August parent correction is already applied. The live biography still describes the former attachment and needs a prose update; no new parent change is proposed.
+
+The supplied 30 March 1634 index names **Johnne Glasgow and Jonet Moriell**. That surname conflicts with the slater household’s Glassfuird/Glassford forms, so the original parish page remains necessary to resolve the baptism’s identity. Preserve the corrected attachment and its present uncertainty while investigating.
 
 ## Relationship correction - 20 August 2026
 
@@ -13,7 +18,7 @@ This assignment is well supported, but the original baptism image should still b
 
 ---
 
-## Conclusion
+## Earlier conflation assessment — retained for comparison
 
 This is a genuine two-family conflation. FamilySearch X1Y9-V87 indexes Euphame
 in 1634 with father `Johnne Glasgow`. The same event is claimed in
@@ -54,3 +59,8 @@ See the [graph-claim audit](../../surname-research/pre-1700/graph-claim-audit-20
 Original image not inspected for this batch. The combined collection’s date does not automatically establish a birthday. Names alone do not uniquely identify attached parents or connect a child with a later adult. An omitted parent or indexed gender U remains unspecified in this source.
 
 **Next action:** No additional WikiTree update from this row; preserve any existing pending work.
+
+<!-- findmypast-studies-sweep-2026-10-07 to1650-pass5 -->
+## 1610–1650 sweep — reviewed 15 October 2026
+
+The supplied ScotlandsPeople index already recorded above names **Johnne Glasgow and Jonet Moriell** for Euphame’s 30 March 1634 entry, OPR 685/1, 40/202. The earlier sweep’s claim that the profile still attached minister Glassford-289 was stale: live structured-data verification identifies father Glassfuird-2, the Edinburgh slater, while the biography still refers to the old minister attachment. The index spelling remains a concrete discrepancy to investigate, not grounds for reversing the August correction or detaching the current father. Inspect the original entry before preparing any further structured amendment.

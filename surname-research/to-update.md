@@ -1460,3 +1460,10 @@ Three complete source drafts remain HOLD; no WikiTree family/merge changes justi
 - [Edward George Glasgow, 49th/84th Regiment Lieutenant, 1825](new-people/1825_United_Kingdom_84th_Regiment_Edward_George_Glasgow.md): Search quoted full name, 49th and 84th service/commission lists and pension records for age, family and death before profile creation.
 
 Benjamin-3412: resolve the 1825 newspaper / 1826 university degree discrepancy before assigning the Cookstown surgeon. John-2058: a further 1850 agency source, identity still compatible rather than proved.
+
+## 15 October 2026 — Early Scottish Findmypast follow-up
+
+| Profile | Status | Proposed change | Evidence |
+| --- | --- | --- | --- |
+| [William Glasgow (Glasgow-3075)](https://www.wikitree.com/wiki/Glasgow-3075) | OPEN | Add the 10 July 1610 Leith marriage; keep Fraith/Fraser spellings and the separate 1612-child identity question qualified. | [Full additive replacement](../research/Glasgow-3075/marriage-review-2026-10-15.wikitext) · [Findings](../research/Glasgow-3075/findings.md) |
+| [Euphame Glasgow (Glasgow-1167)](https://www.wikitree.com/wiki/Glasgow-1167) | OPEN | Correct stale biography wording to describe the already-attached slater Glassfuird-2; preserve the unresolved 1634 surname and all existing links. | [Full replacement](../research/Glasgow-1167/parent-description-review-2026-10-15.wikitext) · [Findings](../research/Glasgow-1167/findings.md) |

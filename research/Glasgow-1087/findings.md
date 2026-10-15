@@ -2,8 +2,13 @@
 
 ## Current conclusion
 
+Reviewed: 2026-10-15
+
+
 <!-- site-audit-2026-10-07:overall-conclusion -->
 William Glasgow was christened at Mid Calder, Midlothian, on 24 December 1609; derivative indexes name his father as Jhone Glasgow, and the original register has not been inspected. He is the best identified candidate for the William Glasgow named as father of Johne and Issobel at their Mid Calder baptism in 1648, because age and parish fit and no stronger competitor was found; this is an inference, not wording in either register. The profile Glasgow-2453 was merged into his on 27 September 2026. The 1609 and 1648 original entries remain to be inspected.
+
+The Leithford burial names a father William but does not prove that he is this William. Walter’s June 1647 burial and September 1647/1649 baptism remain separate occurrences.
 
 ## Current conclusion — 27 September 2026
 
@@ -112,3 +117,7 @@ Provenance: exact-surname Glasgow search, year range to 1700, 127 supplied resul
 Original image not inspected for this batch. The combined collection’s date does not automatically establish a birthday. Names alone do not uniquely identify attached parents or connect a child with a later adult. An omitted parent or indexed gender U remains unspecified in this source.
 
 **Next action:** No additional WikiTree update from this row; preserve any existing pending work.
+
+## Leithford Walter burial and competing baptism dates — 15 October 2026
+
+The surviving William case includes the historical [Glasgow-2453](https://www.wikitree.com/wiki/Glasgow-2453) file. A Findmypast/SGS burial transcript names **Walter Glasgow, son to William Glasgow**, at Leithford on 4 June 1647, OPR 689/20 ([SCOT/OPR/BUR/1625437](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1625437)). It does not identify William with this profile. The burial predates both the 1647 Findmypast baptism and the 1649 ScotlandsPeople/FamilySearch reading for [Walter Glasgow](https://www.wikitree.com/wiki/Glasgow-1554); preserve them as separate occurrences pending the originals. The earlier attribution of the 1647 baptism to ScotlandsPeople was incorrect.

@@ -5,6 +5,9 @@ Last updated: 2026-10-07
 
 ## Current conclusion
 
+Reviewed: 2026-10-15
+
+
 Betham's newly inspected genealogical abstract names **Archibald Glasgow of
 Rathmalton, County Donegal, clerk**, with a will dated **April 1673**. It
 explicitly identifies **Thomas Glasgow as his eldest son** and **Margaret as
@@ -29,6 +32,8 @@ The Irish cleric's identification with the Scottish child baptised in 1614
 and M.A. in 1635 remains probable. No inspected Irish record names his Scottish
 parents or university. This abstract does not prove Archibald's father George
 or Thomas's proposed fatherhood of Nathaniel. These remain separate questions.
+
+The Findmypast Crossle transcript names a clerk Archbold Glascow on 9 December 1639. Identification with this cleric remains probable, and the two dated IDs are duplicates. The 1647–1661 ministry leads are now filed here rather than under Thomas; the separate 1657 catalogue lead remains unresolved.
 
 ## Source findings
 
@@ -116,6 +121,13 @@ The live biography, preserved in the 30 September 2026 audit, lists two leads th
 
 Recorded in `research/profile-preservation-audit-2026-09-30/Glasgow-1101-reconciled.wiki` (30 September 2026); carried into this file on 7 October 2026.
 
+<!-- findmypast-studies-sweep-2026-10-07 -->
+## Source findings
+
+### Findmypast sweep — 7 October 2026
+
+- **Searches that found nothing new:** the Findmypast records for Archibald (1677 will index entries `IRE/DIOC/WILL/00122884` and `/00214607`; Betham abstract `IRE/NAI/GENABS/00128714/1`) are already in the 2026 pre-1750 audit and in this file. Place searches for Raphoe, Lifford, Clonleigh and Killybegs added no seventeenth-century Glasgow/Glasco record.
+
 <!-- repo-integration-audit-2026-10-07:L15-007 -->
 ## Relationship assessment — 1614 baptism witnesses and the Howie hypothesis, 7 October 2026
 
@@ -136,3 +148,19 @@ Recorded in `research/Glasgow-1101/Glasgow-1101.md` (1 October 2026); carried in
 Seen as a printed work and a catalogue entry, as cited in the reviewed draft; neither was re-examined for this note.
 
 Recorded in `research/Glasgow-1101/Glasgow-1101.md` (1 October 2026); carried into this file on 7 October 2026.
+
+<!-- findmypast-studies-sweep-2026-10-07 pre1600-pass2 -->
+## Second pre-1610 pass (2026-10-07): Glasgow College entries
+
+- **Matriculation, 23 Mar 1631.** *Munimenta Universitatis Glasguensis* III p.83: "Archibaldus Glasgow" is the last name under "Decimo Calendas Aprilis 1631 … adscripti sunt ex superioribus classibus". Not previously captured.
+- **Laureation, 1635.** *Munimenta* III p.21: "b Archibaldus Glasgua", "Extra ordinem". In this list "b" marks bursars (Fergus Alexander and James Colquhoun, both bursars in 1631, carry it too).
+- **Open question.** The 1630 bursars' list (*Munimenta* III p.257, 11 Dec 1630) names "Andrew Glasgow", later deleted. Whether he is the same person as the 1631–35 bursar Archibald is not established.
+
+<!-- findmypast-studies-sweep-2026-10-07 to1650-pass5 -->
+## 1610–1650 sweep — reviewed 15 October 2026
+
+**College witness, 6 June 1635.** Marwick, *Charters and Documents relating to the City of Glasgow*, I part 2, no. CVIII, p.363, lists Archibald Glasgow among the college students witnessing the Blackfriars contract ([printed volume](https://archive.org/details/chartersotherdoc12glas)). This is consistent with his 1631–1635 university record; the Scottish student-to-Irish-cleric identity retains its existing assessment.
+
+**Irish clerk, 9 December 1639.** Authenticated Findmypast transcripts re-opened 15 October 2026 give **Archbold Glascow**, occupation **Clke**, Crossle’s Smith book, document **849**: [01001054/1](https://www.findmypast.co.uk/transcript?id=IRE%2FNAI%2FGENABS%2F01001054%2F1) and [01001021/1](https://www.findmypast.co.uk/transcript?id=IRE%2FNAI%2FGENABS%2F01001021%2F1). Both point to image **S2/IRE/NAI/007634848/00132**, so these are duplicate index representations, not independent corroboration. The [undated Smith VII entry](https://www.findmypast.co.uk/transcript?id=IRE%2FNAI%2FGENABS%2F00935806%2F1) points to document 501 and a different image; its connection remains to be read. The 1639 clerk is a plausible earlier occurrence of this Irish cleric, not a proved identification. The images have not been inspected, and the event date alone does not establish Irish residence or the nature of the transaction.
+
+**Ministry, 1647–1661 — moved from Thomas’s file.** The earlier printed-source sweep reports a deposition in winter 1647–48 (Adair, *True Narrative*, p.140; Reid, *History of the Presbyterian Church in Ireland*, II, pp.59–60), an allowance at Faughanvale in 1655 (Reid II, appendix VI, p.559), scrutiny in 1658 (Seymour, *Puritans in Ireland*, pp.155,169), and a Taughboyne petition of 12 February 1661 (Seymour, pp.199–200). These are cleric records, not events for [Thomas Glasgow](https://www.wikitree.com/wiki/Glasgow-3556). The underlying pages need fresh inspection before resolving the separate catalogue lead dated 1657; the earlier sweep’s assertion that 1657 is simply a misdate is not yet established.

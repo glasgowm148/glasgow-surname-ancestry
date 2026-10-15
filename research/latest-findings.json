@@ -25181,6 +25181,357 @@
       "provenance": [
         "tmp/newspaper-research/out/us-1785-1799.final.json"
       ]
+    },
+    {
+      "id": "haddington-issobell-birth-and-baptism-1639",
+      "found_on": "2026-10-15",
+      "kind": "vital",
+      "status": "qualified",
+      "finding": "Findmypast’s Haddington transcript gives Issobell Glasgow’s birth as 24 November 1639 and baptism as 26 November 1639, naming Wm Glasgow and Issobella Miral.",
+      "qualification": "Authenticated transcript inspected; original register uninspected. No later-life identity or profile parentage upgrade is established.",
+      "people": [
+        {
+          "name": "Issobell Glasgow",
+          "url": "/research/subjects/early-scotland-1650/#issobell-glasgow"
+        },
+        {
+          "name": "Wm Glasgow",
+          "url": "/research/subjects/early-scotland-1650/#william-haddington"
+        },
+        {
+          "name": "Issobella Miral",
+          "url": "/research/subjects/early-scotland-1650/#issobella-miral"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Findmypast/SGS, Issobell Glasgow, Haddington; born 24 November and baptised 26 November 1639; OPR 709/1 p.208",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4675742"
+        }
+      ],
+      "detail_url": "/research/subjects/early-scotland-1650/#issobell-glasgow",
+      "provenance": [
+        "research/findmypast-studies-2026-10-07/followup-2026-10-15-search-log.json"
+      ]
+    },
+    {
+      "id": "leith-william-catherine-marriage-1610",
+      "found_on": "2026-10-15",
+      "kind": "vital",
+      "status": "qualified",
+      "finding": "Two Findmypast indexes agree on 10 July 1610 for William Glascoe/Glascow and Catherine Fraith/Cathrene Fraser at Leith/South Leith.",
+      "qualification": "The two transcripts index one event. Catherine’s profile birth in 1600 is supported only by her child’s 1618 baptism, which does not prove her birth year. The couple identification, original surname spelling and separate 1612-child question remain qualified.",
+      "people": [
+        {
+          "id": "Glasgow-3075",
+          "name": "William Glasgow",
+          "url": "/people/glasgow-3075.html"
+        },
+        {
+          "id": "Fraser-15286",
+          "name": "Catherine Fraser",
+          "url": "/people/fraser-15286.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "SGS parish marriage transcript, OPR 692/2/9",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FMAR%2F1447177%2F1"
+        },
+        {
+          "title": "FamilySearch-derived marriage index",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_696111854%2F1"
+        }
+      ],
+      "detail_url": "/people/glasgow-3075.html",
+      "provenance": [
+        "research/Glasgow-3075/findings.md"
+      ]
+    },
+    {
+      "id": "crossle-archbold-clerk-1639-single-image",
+      "found_on": "2026-10-15",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "Crossle transcripts name Archbold Glascow, clerk, on 9 December 1639; both dated IDs point to image 007634848/00132, document 849.",
+      "qualification": "Candidate Archibald Glasgow-1101 remains unproved. The undated Smith VII record is document 501 on a different image; it is not an established duplicate. Original images uninspected.",
+      "people": [
+        {
+          "id": "Glasgow-1101",
+          "name": "Archibald Glasgow",
+          "url": "/people/glasgow-1101.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Crossle Smith,document849,record01001054/1",
+          "url": "https://www.findmypast.co.uk/transcript?id=IRE%2FNAI%2FGENABS%2F01001054%2F1"
+        },
+        {
+          "title": "Parallelindexofsameimage",
+          "url": "https://www.findmypast.co.uk/transcript?id=IRE%2FNAI%2FGENABS%2F01001021%2F1"
+        }
+      ],
+      "detail_url": "/people/glasgow-1101.html",
+      "provenance": [
+        "research/Glasgow-1101/findings.md"
+      ]
+    },
+    {
+      "id": "fisherrow-sasine-spouse-readings-1624-1625",
+      "found_on": "2026-10-15",
+      "kind": "property",
+      "status": "qualified",
+      "finding": "The reported sasine index distinguishes James Glasgow’s spouse Christina Bye from his son Alexander’s spouse Janet Clerk in the 1624–1625 Fisherrow entries.",
+      "qualification": "Printed index/OCR lead; register uninspected and column pairings need confirmation. James Glasgow-991 and Christina Bie-55 are compatible candidates. Edward’s co-occurrence proves no kinship.",
+      "people": [
+        {
+          "id": "Glasgow-1148",
+          "name": "Alexander Glasgow",
+          "url": "/people/glasgow-1148.html"
+        },
+        {
+          "id": "Glasgow-991",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-991.html"
+        },
+        {
+          "id": "Bie-55",
+          "name": "Christina Bie (candidate for Christina Bye)",
+          "url": "/people/bie-55.html"
+        },
+        {
+          "id": "Glasgow-1557",
+          "name": "Edward Glasgow",
+          "url": "/people/glasgow-1557.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "SRO Indexes 38, Edinburgh etc. sasines 1624–1630, printed pp. 187–188",
+          "url": "https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481057&seq=193"
+        }
+      ],
+      "detail_url": "/people/glasgow-1148.html",
+      "provenance": [
+        "research/Glasgow-1148/findings.md",
+        "research/Glasgow-991/findings.md",
+        "research/Glasgow-1557/findings.md"
+      ]
+    },
+    {
+      "id": "leithford-walter-burial-1647-before-baptism",
+      "found_on": "2026-10-15",
+      "kind": "vital",
+      "status": "qualified",
+      "finding": "The Kirknewton/East Calder transcript indexes Walter Glasgow of Leithford, son to William Glasgow, as buried on 4 June 1647, earlier than both competing 1647/1649 baptism dates.",
+      "qualification": "Original pages uninspected. The burial is not assigned to Glasgow-1554; the same father and sibling relationship remain unproved. The 1647 baptism reading is Findmypast/SGS, not ScotlandsPeople.",
+      "people": [
+        {
+          "name": "Walter Glasgow,buried1647",
+          "url": "/research/subjects/early-scotland-1650/#walter-buried-1647"
+        },
+        {
+          "id": "Glasgow-1554",
+          "name": "Walter Glasgow",
+          "url": "/people/glasgow-1554.html"
+        },
+        {
+          "id": "Glasgow-1087",
+          "name": "William Glasgow",
+          "url": "/people/glasgow-1087.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Findmypast/SGS, Walter Glasgow, burial 4 June 1647, Leithford; OPR 689/20",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1625437"
+        },
+        {
+          "title": "Findmypast/SGS Walter baptism, 23 September 1647",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4473489"
+        }
+      ],
+      "detail_url": "/research/subjects/early-scotland-1650/#walter-buried-1647",
+      "provenance": [
+        "research/Glasgow-1554/findings.md",
+        "research/Glasgow-1087/findings.md"
+      ]
+    },
+    {
+      "id": "kirknewton-margaret-competing-baptism-readings",
+      "found_on": "2026-10-15",
+      "kind": "vital",
+      "status": "qualified",
+      "finding": "Findmypast/SGS indexes Margaret Glasgow, daughter of John, at Kirknewton/East Calder on 26 November 1649, while the maintained FamilySearch account uses 11 November 1646.",
+      "qualification": "This is a date/source conflict, not two established children. The 1649 reading was previously misattributed to ScotlandsPeople; originals remain required.",
+      "people": [
+        {
+          "id": "Glasgow-3112",
+          "name": "Margaret Glasgow",
+          "url": "/people/glasgow-3112.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Findmypast/SGS, OPR 689/20, p. 5",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4473472"
+        }
+      ],
+      "detail_url": "/people/glasgow-3112.html",
+      "provenance": [
+        "research/Glasgow-3112/findings.md"
+      ]
+    },
+    {
+      "id": "west-port-robert-eupham-index-1644",
+      "found_on": "2026-10-15",
+      "kind": "property",
+      "status": "qualified",
+      "finding": "The reported 1644 sasine index names Robert Glasgow, cordiner outwith Edinburgh’s West Port, with spouse Eupham Lorimer.",
+      "qualification": "Printed index/OCR reading and candidate identity; original uninspected. If the identification holds, the 1652 marriage requires reassessment. No family link was removed.",
+      "people": [
+        {
+          "id": "Glasgow-3938",
+          "name": "Robert Glasgow",
+          "url": "/people/glasgow-3938.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "SRO Indexes 44, p. 160; 1 March 1644, 32/168",
+          "url": "https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481222&seq=168"
+        }
+      ],
+      "detail_url": "/people/glasgow-3938.html",
+      "provenance": [
+        "research/Glasgow-3938/findings.md"
+      ]
+    },
+    {
+      "id": "leith-archibald-margaret-sasine-index-1647",
+      "found_on": "2026-10-15",
+      "kind": "property",
+      "status": "qualified",
+      "finding": "The reported 14 August 1647 sasine index names Archibald Glasgow in Leith and spouse Margaret Hilstoun, vol.35 fol.88.",
+      "qualification": "Index/OCR reading; original uninspected. Compatible with the existing couple; later maltman identity remains separate and no relationship certainty upgrade is claimed.",
+      "people": [
+        {
+          "id": "Glasgow-3078",
+          "name": "Archibald Glasgow",
+          "url": "/people/glasgow-3078.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "SRO Indexes 44, p. 159 and reciprocal Hilstoun entry, p. 210",
+          "url": "https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481222&seq=218"
+        }
+      ],
+      "detail_url": "/people/glasgow-3078.html",
+      "provenance": [
+        "research/Glasgow-3078/findings.md"
+      ]
+    },
+    {
+      "id": "glasgow-town-officer-entry-redated-1625",
+      "found_on": "2026-10-15",
+      "kind": "vital",
+      "status": "qualified",
+      "finding": "The earlier printed-source sweep locates Robert Glasgw’s town-officer clothing entry on 11 June 1625, correcting the previously quoted 1675 date.",
+      "qualification": "Printed text was checked in the preceding sweep; the present follow-up has not inspected the page image. Identification with Glasgow-1027, and with the separate 1623 tanner, remains qualified.",
+      "people": [
+        {
+          "id": "Glasgow-1027",
+          "name": "Rot. Glasgow",
+          "url": "/people/glasgow-1027.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Extracts from the Records of the Burgh of Glasgow I, printed p.347",
+          "url": "https://archive.org/details/extractsfromrec00renwgoog"
+        }
+      ],
+      "detail_url": "/people/glasgow-1027.html",
+      "provenance": [
+        "research/Glasgow-1027/findings.md"
+      ]
+    },
+    {
+      "id": "quothquan-weaver-james-1607-1612-court",
+      "found_on": "2026-10-15",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "A Privy Council complaint heard in 1612 names James Glasgow, weaver in Quothquan, among defenders accused over events in 1607–1608. The defenders were absolved because the pursuer failed in proof.",
+      "qualification": "Reported printed-source reading from the preceding sweep. The occupation and locality fit the 1624 testator, but that identity is unproved. If correct, the profile’s estimated 1605 birth is too late for this adult activity.",
+      "people": [
+        {
+          "id": "Glasgow-3910",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-3910.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Register of the Privy Council of Scotland, first series IX, printed p.342",
+          "url": "https://books.google.co.uk/books?id=aKv-R5x90uwC&pg=PA342"
+        }
+      ],
+      "detail_url": "/people/glasgow-3910.html",
+      "provenance": [
+        "research/Glasgow-3910/findings.md"
+      ]
+    },
+    {
+      "id": "agnes-logan-stevenston-sasine-index-1606",
+      "found_on": "2026-10-15",
+      "kind": "property",
+      "status": "qualified",
+      "finding": "The earlier sweep reports an Ayr sasine-index occurrence for Agnes Glasgow/Glesgow, spouse of John Logane at Milneburne, Stevenston, on 19 May 1606, vol.3 fol.315.",
+      "qualification": "Compatible with the known 1601 couple, but the original instrument remains uninspected. The unnamed kirk elder of 1613 is a separate unidentified subject.",
+      "people": [
+        {
+          "id": "Glasgow-3178",
+          "name": "Agnes Glasgow",
+          "url": "/people/glasgow-3178.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "SRO Indexes no.23, Ayr Secretary’s Register 1599–1609, printed p.86",
+          "url": "https://babel.hathitrust.org/cgi/pt?id=inu.30000125667166&seq=96"
+        }
+      ],
+      "detail_url": "/people/glasgow-3178.html",
+      "provenance": [
+        "research/Glasgow-3178/findings.md"
+      ]
+    },
+    {
+      "id": "archibald-college-student-witness-1635",
+      "found_on": "2026-10-15",
+      "kind": "biographical",
+      "status": "qualified",
+      "finding": "The earlier sweep located Archibald Glasgow among the college students witnessing the Blackfriars contract on 6 June 1635.",
+      "qualification": "Printed-source reading from the preceding sweep. Consistent with the 1631–1635 university record; the Scottish student’s identification with the Irish cleric retains its existing uncertainty.",
+      "people": [
+        {
+          "id": "Glasgow-1101",
+          "name": "Archibald Glasgow",
+          "url": "/people/glasgow-1101.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Marwick, Charters and Documents relating to the City of Glasgow I, part 2, no.CVIII, printed p.363",
+          "url": "https://archive.org/details/chartersotherdoc12glas"
+        }
+      ],
+      "detail_url": "/people/glasgow-1101.html",
+      "provenance": [
+        "research/Glasgow-1101/findings.md"
+      ]
     }
   ]
 }

@@ -5,9 +5,14 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
+Reviewed: 2026-10-15
+
+
 WikiTree parent-status audit, 27 September 2026: the attached mother Margaret Smith (Smith-374110) is now marked uncertain. Edward’s parentage remains a plausible family placement, not a record-proved relationship.
 
 Father assessment: [James Glasgow (1540)](https://www.wikitree.com/wiki/Glasgow-3921) (link corrected from Glasgow-1168 on 7 October 2026; see below) is **plausible**, not proved.
+
+Fisherrow sasine-index occurrences provide a new locality lead, not a proved connection to Alexander. This Edward and his son Edward-1558 remain alternative candidates.
 
 ## Source findings
 
@@ -30,3 +35,7 @@ Recorded in `research/pre-1600-glasgow-father-evidence-audit-2026-09-28.json` (2
 The Inveresk and Musselburgh baptism index of 1 May 1609 (NRS OPR 689/10/19; [ScotlandsPeople](https://www.scotlandspeople.gov.uk/search-records/church-registers)) names Eduard Glasgow as father of [Cristiane Glasgow (Glasgow-2456)](https://www.wikitree.com/wiki/Glasgow-2456). Seen as an index entry; no register image was inspected. The 28 September 2026 profile review recorded the father–daughter link as **confident** (previously unmarked). The record says nothing about Edward's own parents.
 
 Recorded in `research/latest-findings.json` (28 September 2026); carried into this file on 7 October 2026.
+
+## Fisherrow sasine lead — 15 October 2026
+
+The earlier sweep placed this Edward lead in Katherine Weir’s file, [Glasgow-1495](https://www.wikitree.com/wiki/Glasgow-1495). It concerns **Edward Glasgow at Fisherrow**, whose possible identification belongs here. SRO Indexes no.38, pp.187–188, and no.44, p.159, report Edward beside James and Alexander Glasgow’s sasine entries. See [Alexander’s full source table](https://www.wikitree.com/wiki/Glasgow-1148). The columns and instruments remain unchecked; this Edward and [his 1615-born son](https://www.wikitree.com/wiki/Glasgow-1558) are alternative candidates, especially for 1646. Shared sasine references do not prove their kinship to Alexander.

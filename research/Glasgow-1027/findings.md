@@ -5,6 +5,9 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
+Reviewed: 2026-10-15
+
+
 Father assessment: [Ninian Glasgow (1550)](https://www.wikitree.com/wiki/Glasgow-3188) is **confirmed by record**.
 
 The matching 1613 cordiner is probably this Robert. The 1618 baptism directly
@@ -13,6 +16,8 @@ The live profile correctly keeps the 1645 James one generation lower. The wrong
 link to the Kilwaughter elder was corrected on 31 August 2026. The purchased
 1645 register image adds godfathers James Cunynghame and Johne Muir, but still
 does not identify the father as the 1618 Robert.
+
+The early town-officer entry is reported under 11 June 1625 rather than 1675. The separately indexed 1623 tanner remains a possible namesake; neither occupation is automatically assigned to this Robert.
 
 ## Source findings
 
@@ -105,3 +110,16 @@ The legacy clauses on image 144 of Ninian Glasgow's testament, NRS Glasgow Commi
 The clause repeats, within the same document, the sonship already recorded above; it is not an independent source for it. The adjacent legacy to Elizabet Hutchesoun carries no kin term, and the damaged William clause on the same page remains unrecovered.
 
 Recorded in `research/transcriptions/originals-2026-09-10-reread/ninian-1613.json` (10 September 2026); carried into this file on 7 October 2026.
+
+<!-- findmypast-studies-sweep-2026-10-07 pre1600-pass3 -->
+## Third pre-1610 pass (2026-10-08): possible lead
+
+- A Robert Glasgow was paid by the Glasgow crafts' hospital in 1635–37. Lumsden, *Records of the Trades House* pp.174, 188, 189: "Ite to Rot Glasgow" (1635), next to the hospital's poor, then two paid warrant lists in 1637.
+- Nothing yet links him to this Robert.
+
+<!-- findmypast-studies-sweep-2026-10-07 to1650-pass5 -->
+## 1610–1650 sweep — reviewed 15 October 2026
+
+The earlier sweep reports that the town-officer clothing entry is dated **11 June 1625**, not the formerly cited 23 October 1675: *Extracts from the Records of the Burgh of Glasgow*, I, p.347 ([printed volume](https://archive.org/details/extractsfromrec00renwgoog)). The historical person-to-profile identification remains qualified; the 1675 date should not be used to distinguish him from the 1618 baptismal namesake.
+
+The *Register of the Privy Council of Scotland*, first series XIII (1622–25), p.246, lists **Robert Glasgow** among Glasgow tanners who had left the trade after the tanning reform ([volume, printed p.246](https://babel.hathitrust.org/cgi/pt?id=mdp.35112103825313&seq=334)). The earlier sweep read the text; the present follow-up has not inspected the page image. This is a possible occupation for this profile, not a proved identification with either the town officer or the Robert buried at Duddingston in 1647. A [consolidated record account](/research/subjects/early-scotland-1650/#robert-tanner) retains both candidates.

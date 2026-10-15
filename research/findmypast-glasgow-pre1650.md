@@ -54,3 +54,9 @@ This integration export contains **50** transcript-validated conservative person
 | James Glasgow, 16 Jun 1641, Edinburgh | `SCOT/EDINBURGH/APPRENTICES/0005160/1` | existing_profile: Glasgow-1150 |
 | John Glasgow, 1644, Linlithgow | `SCOT/OPR/BAP/0497604` | existing_profile: Glasgow-1105 |
 | James Glasgow, 20 Jun 1649, Edinburgh | `SCOT/BURGESS/1009523` | existing_profile: Glasgow-1150 |
+
+## Follow-up reviewed 15 October 2026
+
+The 50-group table above describes the earlier integration export. The fresh focused sweep found no newly indexed, explicitly dated 1600–1650 Glasgow-surname ID beyond the previous named-record sweep; this does not establish exhaustive coverage of truncated or inaccessible collections. Exact filters, provider totals, paging limits and the 12 rechecked transcript IDs are retained in [the follow-up search log](findmypast-studies-2026-10-07/followup-2026-10-15-search-log.json).
+
+The recheck adds Issobell’s 24 November 1639 birth date to the Haddington baptism, distinguishes duplicate Crossle image references, and corrects the provider attribution of the Walter and Margaret date conflicts. [Six consolidated public subject accounts](/research/subjects/early-scotland-1650/) retain compatible profile candidates, source grades and outstanding original-record checks. Updated person findings and the [early Scottish study](/branches/early-scottish-records/) carry the substantive results; the older [sweep report](findmypast-studies-2026-10-07/early-pre1550.md) retains its dated search history and corrected filing notes.

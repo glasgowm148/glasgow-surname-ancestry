@@ -5,9 +5,14 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
+Reviewed: 2026-10-15
+
+
 Father assessment: [William Glasgow (Glasgow-3075), born about 1590, probably Scotland](https://www.wikitree.com/wiki/Glasgow-3075) is **confirmed by four records**.
 
 The 1618 South Leith baptism names Archibald's father as William. More decisively for the adult identity, Archibald's 1647 service of heir calls him a shoemaker living in Leith and expressly calls William Glasgow, mealmaker in Leith, his father. The shared names, Leith residence and paternal relationship securely identify the heir with the baptized child and the deceased William with the Leith mealmaker whose testament was registered in 1646.
+
+The reported 14 August 1647 sasine index names Archibald in Leith with Margaret Hilstoun. The original instrument remains unchecked, as does identification with later maltman records.
 
 ## Source findings
 
@@ -93,3 +98,10 @@ John is **absent** from the three lawful sons named in the 1662 testament (CC8/8
 The live biography also cites a marriage of Archbald Glasgow and **Margaret Hilstones**, South Leith, 14 April 1646, OPR 692/2, 90/310, FR3086. It is copied from the public biography and has not been checked against the image; neither an earlier marriage of Agnes Watson's husband nor a clerical error is established.
 
 Recorded in `research/Glasgow-3078/parish-register-targets-2026-09-10.md` (10 September 2026); carried into this file on 7 October 2026.
+
+<!-- findmypast-studies-sweep-2026-10-07 to1650-pass5 -->
+## 1610–1650 sweep — reviewed 15 October 2026
+
+The earlier sweep reports a sasine-index entry of **14 August 1647**, vol.35 fol.88, naming Archibald Glasgow in Leith and spouse **Margaret Hilstoun**, with a reciprocal entry under her name: SRO Indexes no.44, pp.159–160 and p.210 ([Glasgow page](https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481222&seq=167), [Hilstoun page](https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481222&seq=218)). This is compatible with the existing Leith couple and adds a register locator; the original sasine has not been inspected.
+
+The “cordiner, Leith” entry dated 20 July 1647, 35/46, has an uncertain column pairing. Later maltman entries (1655–1657) and a widow’s remarriage around 1662 must remain separate until identity is established; they do not by themselves prove that the shoemaker and maltman were one man.

@@ -2,6 +2,9 @@
 
 ## Current conclusion
 
+Reviewed: 2026-10-15
+
+
 Agnes was the wife of John Logan, a trumpmaker at Stevenston, and died before
 her testament dative was recorded on 4 March 1628. The testament-calendar entry
 does not name either parent.
@@ -22,6 +25,8 @@ mother. Margaret is attached as wife of James elder's son
 not of James elder. No inspected record calls Agnes a daughter of any of these
 people. Both parents have therefore been detached and left blank rather than
 converting the cross-generation placement into another unproved relationship.
+
+A reported 19 May 1606 sasine index occurrence is compatible with Agnes and John Logan’s 1601 record. The unnamed Stevenston elder of 1613 is a separate, unidentified local subject.
 
 ## Source findings
 
@@ -69,3 +74,10 @@ Add the record as supporting evidence while preserving all existing sources and 
 The public WikiTree biography cites NRS CC9/7/22 for Agnes's testament, confirmed 4 March 1628 (Grant, *Commissariot Record of Glasgow*, p. 195). Neither her entry in that volume nor the volume's date coverage has been checked, and repeating the citation does not verify it. Treat CC9/7/22 as the candidate volume until the original entry is found on Scotland's People.
 
 Recorded in `research/transcriptions/source-recovery-2026-09-10.md` (10 September 2026); carried into this file on 7 October 2026.
+
+<!-- findmypast-studies-sweep-2026-10-07 to1650-pass5 -->
+## 1610–1650 sweep — reviewed 15 October 2026
+
+The earlier sweep reports a second Ayr sasine-index occurrence for **Agnes Glasgow/Glesgow**, spouse of John Logane in Milneburne, Stevenston, **19 May 1606**, vol.3 fol.315: SRO Indexes no.23, p.86 ([index page](https://babel.hathitrust.org/cgi/pt?id=inu.30000125667166&seq=96)). It is compatible with the known 1601 occurrence, pending the original instrument.
+
+A separate Stevenston kirk entry of **28 January 1613** names an elder only as **Glasgow**: Robert Broun’s protocol book, no.XXXII, *Ayrshire and Galloway Collections*, pp.191–192. This is local context, not an event or occupation assigned to Agnes. The page image is needed to recover a forename; no family connection follows from the surname.

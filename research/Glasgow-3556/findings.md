@@ -104,3 +104,7 @@ The transcript-validated court record record for **Thomas Glasgow**, 02/03/1692,
 
 Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
 <!-- END FMP-GLASGOW-fmp-glasgow-d086eba57157 -->
+
+## Earlier cleric records — filing correction, 15 October 2026
+
+The 1647–1661 records of Mr Archibald Glasgow belong in [Archibald Glasgow’s research](https://www.wikitree.com/wiki/Glasgow-1101). They are not events in Thomas’s life. Their possible relevance to Thomas depends on the separately assessed father–son identification; no new relationship certainty follows.

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "reviewed_on": "2026-10-05",
+  "reviewed_on": "2026-10-15",
   "groups": [
     {
       "slug": "rathmalton-1673",
@@ -13809,6 +13809,215 @@
               "url": "/research/subjects/anne-armstrong-jane-glasgow-antrim-assizes-1838/#john-armstrong-husband-anne"
             }
           ]
+        }
+      ]
+    },
+    {
+      "slug": "early-scotland-1650",
+      "title": "Early Scottish households: Findmypast follow-up through 1650",
+      "introduction": "Reviewed 15 October 2026. Records are consolidated by documentary person or household. Compatible existing profiles stay linked; HOLD identifies the original-record or identity check still required. None of these accounts authorizes a new live profile or a relationship upgrade.",
+      "people": [
+        {
+          "anchor": "issobell-glasgow",
+          "name": "Issobell Glasgow of Haddington",
+          "status": "HOLD — documentary child; identity candidates retained",
+          "identity_note": "The transcript explicitly links the child to Wm Glasgow and Issobella Miral. It does not identify her later life. The 1648 Mid Calder baptism and the approximately 1645 Edinburgh married woman remain weak compatible comparisons; neither supplies a concrete parental identification with the Haddington child.",
+          "minimum_fields": "Given name Issobell; LNAB Glasgow; female as indexed. Born 24 November 1639; birthplace not separately stated. Baptised 26 November 1639 in Haddington, Scotland. Father Wm Glasgow; mother Issobella Miral. Death and later household unknown.",
+          "facts": [
+            {
+              "finding": "Issobell was born 24 November 1639 and baptised 26 November 1639 at Haddington; parents Wm Glasgow and Issobella Miral, OPR 709/1 p.208.",
+              "qualification": "Provider transcript or reported printed-index text, as specified; original historical page uninspected in this follow-up.",
+              "sources": [
+                {
+                  "title": "Findmypast/SGS, Issobell Glasgow, Haddington, born 24 and baptised 26 November 1639; OPR 709/1 p.208",
+                  "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4675742"
+                }
+              ]
+            }
+          ],
+          "candidates": [
+            {
+              "id": "Glasgow-2454",
+              "reason": "Mid Calder baptism 3 February 1648 names father William but has no directly recorded birthday or mother in the inspected biography; a later baptism cannot be excluded without the registers. No cross-parish identity is proved."
+            },
+            {
+              "id": "Anderson-56713",
+              "reason": "Issobell, wife of Alexander Glasgow in 1665, has only an estimated 1645 birth and no parents; the Anderson birth surname needs checking from the cited marriage before excluding an earlier Glasgow identity."
+            }
+          ],
+          "duplicate_check": [
+            "Live WikiTree searchPerson, 15 October 2026: Issobell, Isobel, Isabella, Isabel + Glasgow; all returned pages read. Full public biographies of Glasgow-3185, Glasgow-2454, Anderson-56713 compared.",
+            "Glasgow-3185’s 19 July 1632 marriage precedes the documentary child’s 1639 birth: a concrete exclusion. Glasgow-1085’s 1612 baptism names father David; Glasgow-1438’s 1643 entry names father John; Glasgow-1520’s 1646 entry names mother Bessie Howie. These are different documented parent/event groups.",
+            "No exact 24 November 1639 Haddington profile found in local 4800-person public index or the live name searches; surviving weak candidates prevent an immediate create recommendation."
+          ],
+          "next_test": "Read Haddington OPR 709/1 p.208 and the candidate parish/marriage records, including mother, witnesses and actual birth wording. Keep the household together; do not create a duplicate to resolve the missing later-life link.",
+          "wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nFindmypast’s Scottish parish transcript records Issobell Glasgow as born on 24 November 1639 and baptised at Haddington on 26 November 1639, daughter of Wm Glasgow and Issobella Miral. The original register has not yet been inspected.<ref>Findmypast/SGS, Issobell Glasgow, Haddington, born 24 and baptised 26 November 1639; OPR 709/1 p.208; https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4675742.</ref>\n\n== Research Notes ==\nThe transcript explicitly links the child to Wm Glasgow and Issobella Miral. It does not identify her later life. The 1648 Mid Calder baptism and the approximately 1645 Edinburgh married woman remain weak compatible comparisons; neither supplies a concrete parental identification with the Haddington child.\nRead Haddington OPR 709/1 p.208 and the candidate parish/marriage records, including mother, witnesses and actual birth wording. Keep the household together; do not create a duplicate to resolve the missing later-life link.\n\n== Sources ==\n<references />\n"
+        },
+        {
+          "anchor": "william-haddington",
+          "name": "Wm Glasgow, father at Haddington",
+          "status": "HOLD — father named; existing identities unresolved",
+          "identity_note": "The child’s transcript proves a documentary father called Wm Glasgow, with no age, occupation or stated link to another parish. Same-name Lothian candidates remain possible; no new adult profile is recommended before the original and household comparisons.",
+          "minimum_fields": "Given name William (Wm); LNAB Glasgow; father of Issobell at Haddington in 1639. Birth, death, occupation and place of origin unknown. Issobella Miral is the recorded child’s mother; a marriage is not stated.",
+          "facts": [
+            {
+              "finding": "The Haddington 1639 transcript names Wm Glasgow as Issobell’s father.",
+              "qualification": "Provider transcript or reported printed-index text, as specified; original historical page uninspected in this follow-up.",
+              "sources": [
+                {
+                  "title": "Findmypast/SGS, Issobell Glasgow, Haddington, born 24 and baptised 26 November 1639; OPR 709/1 p.208",
+                  "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4675742"
+                }
+              ]
+            }
+          ],
+          "candidates": [
+            {
+              "id": "Glasgow-3075",
+              "reason": "Leith mealmaker died 1644; date and Lothian locality permit the 1639 occurrence. The earlier Catherine marriage neither proves nor excludes a later household, and no identification is established."
+            },
+            {
+              "id": "Glasgow-1087",
+              "reason": "Mid Calder father, working identification with the 1609 child; chronology permits 1639 but no Haddington link."
+            },
+            {
+              "id": "Glasgow-3517",
+              "reason": "Inveresk child of 1614, son of James and Christina Bie; could be an adult in 1639 but no record bridges him to Haddington."
+            }
+          ],
+          "duplicate_check": [
+            "Live searchPerson William+Glasgow returned 301 matches, all four pages retrieved and historical candidates screened. Public biographies of 3075,1087,3517,992,1556 compared."
+          ],
+          "next_test": "Inspect the 1639 register and search parent-name entries and Haddington marriages; compare named relatives and occupation before attaching a candidate.",
+          "wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nWm Glasgow is named as father of Issobell Glasgow in the Haddington parish transcript for 24 and 26 November 1639. No birth or death date is established for him.<ref>Findmypast/SGS, Issobell Glasgow, Haddington, born 24 and baptised 26 November 1639; OPR 709/1 p.208; https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4675742.</ref>\n\n== Research Notes ==\nThe child’s transcript proves a documentary father called Wm Glasgow, with no age, occupation or stated link to another parish. Same-name Lothian candidates remain possible; no new adult profile is recommended before the original and household comparisons.\nInspect the 1639 register and search parent-name entries and Haddington marriages; compare named relatives and occupation before attaching a candidate.\n\n== Sources ==\n<references />\n"
+        },
+        {
+          "anchor": "issobella-miral",
+          "name": "Issobella Miral",
+          "status": "HOLD — mother named; original spelling unverified",
+          "identity_note": "Miral is the literal provider reading. It is not normalized to Muirhead or another surname without the original. The record proves the mother’s name within this event, not her origins or a marriage.",
+          "minimum_fields": "Given name Issobella; surname Miral as indexed; mother of Issobell Glasgow at Haddington 1639. All vital dates and origins unknown.",
+          "facts": [
+            {
+              "finding": "The Haddington 1639 child transcript names mother Issobella Miral.",
+              "qualification": "Provider transcript or reported printed-index text, as specified; original historical page uninspected in this follow-up.",
+              "sources": [
+                {
+                  "title": "Findmypast/SGS, Issobell Glasgow, Haddington, born 24 and baptised 26 November 1639; OPR 709/1 p.208",
+                  "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4675742"
+                }
+              ]
+            }
+          ],
+          "candidates": [],
+          "duplicate_check": [
+            "Live 15 October 2026 exact-surname Miral searches with Issobella and Isobel returned no matches. A spelling-dependent negative is not proof of a new distinct person."
+          ],
+          "next_test": "Inspect the maternal surname in OPR 709/1 p.208 before expanding variants or preparing a new live profile.",
+          "wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nIssobella Miral is the mother named in Findmypast’s transcript of Issobell Glasgow’s Haddington birth and baptism in November 1639. Her surname remains an unverified transcription.<ref>Findmypast/SGS, Issobell Glasgow, Haddington, born 24 and baptised 26 November 1639; OPR 709/1 p.208; https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4675742.</ref>\n\n== Research Notes ==\nMiral is the literal provider reading. It is not normalized to Muirhead or another surname without the original. The record proves the mother’s name within this event, not her origins or a marriage.\nInspect the maternal surname in OPR 709/1 p.208 before expanding variants or preparing a new live profile.\n\n== Sources ==\n<references />\n"
+        },
+        {
+          "anchor": "fisherrow-household",
+          "name": "James Glasgow and Christina Bye, Fisherrow household",
+          "status": "HOLD — compatible existing couple linked",
+          "identity_note": "The reported index distinguishes James’s spouse Christina Bye from Alexander’s spouse Janet Clerk. James Glasgow-991 and Christina Bie-55 are compatible existing candidates. The underlying index columns and sasines must establish the clauses before parent certainty changes. The maternal name is quoted by the existing child profile; a separate Findmypast 1614 transcript names only father James, with no mother or exact day. The maternal citation itself still needs checking.",
+          "minimum_fields": "James Glasgow: tailor in Fisherrow, burgess of Musselburgh; indexed father of Alexander. Christina Bye: indexed spouse of James. Dates of birth and death unknown. Janet Clerk is indexed as Alexander’s spouse, not James’s.",
+          "facts": [
+            {
+              "finding": "SRO Indexes 38, pp. 187–188, reports James Glasgow, tailor, son Alexander and the distinct spouse cross-references; sasines 8 July 1624 (9/135) and 11 July 1625 (10/171).",
+              "qualification": "Provider transcript or reported printed-index text, as specified; original historical page uninspected in this follow-up.",
+              "sources": [
+                {
+                  "title": "SRO Indexes 38, Edinburgh etc. sasines 1624–1630, printed pp. 187–188",
+                  "url": "https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481057&seq=193"
+                }
+              ]
+            }
+          ],
+          "candidates": [
+            {
+              "id": "Glasgow-991",
+              "reason": "Existing James has an Inveresk child William in 1614, recorded with mother Christina Bie. This is compatible with the later Fisherrow couple; the separate Mid Calder sequence is not automatically the same household."
+            },
+            {
+              "id": "Bie-55",
+              "reason": "Existing Christina Bie is linked to that 1614 child. Her 1589 birth and New Aberdour origin rest on a user tree and do not exclude the Fisherrow identification."
+            },
+            {
+              "id": "Glasgow-1148",
+              "reason": "Existing Alexander is the compatible Fisherrow subject; the source table retains the proposed father identification as uncertain."
+            }
+          ],
+          "duplicate_check": [
+            "Live William Glasgow candidate review found 3517’s cited 1614 Inveresk record namingJames andChristina Bie; full public James 991 andBie 55 biographies checked 15 October 2026.",
+            "ExactBye searches(Christina 10 results;Christian 5 results) do not establish that a new spouse profile is needed; existingBie 55 retained."
+          ],
+          "next_test": "Inspect no. 38, pp. 187–188, and RS25 vols. 9/10, fols. 135/171, then compare the 1614 Inveresk entry and Alexander’s baptismal family. Keep Edward occurrences separate.",
+          "wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nA reported printed index to the Edinburgh particular register of sasines names James Glasgow, a tailor in Fisherrow and burgess of Musselburgh, his son Alexander and his spouse Christina Bye in 1624–1625. Existing candidates are [[Glasgow-991|James Glasgow]] and [[Bie-55|Christina Bie]]. This is a research account pending original verification.<ref>SRO Indexes 38, Edinburgh etc. sasines 1624–1630, printed pp. 187–188; https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481057&seq=193.</ref>\n\n== Research Notes ==\nThe reported index distinguishes James’s spouse Christina Bye from Alexander’s spouse Janet Clerk. James Glasgow-991 and Christina Bie-55 are compatible existing candidates. The underlying index columns and sasines must establish the clauses before parent certainty changes.\nInspect no. 38 pp. 187–188 and RS25 vols. 9/10, fols. 135/171, then compare the 1614 Inveresk entry and Alexander’s baptismal family. Keep Edward occurrences separate.\n\n== Sources ==\n<references />\n"
+        },
+        {
+          "anchor": "walter-buried-1647",
+          "name": "Walter Glasgow of Leithford, buried in 1647",
+          "status": "HOLD — separate burial occurrence",
+          "identity_note": "The burial precedes both proposed 23 September 1647/1649 baptism dates for Glasgow-1554. It cannot be assigned to that later-born/baptised child on the current chronology. Reuse of the name within one family is possible, but the adult father’s identity and relationship between the two Walters remain unproved.",
+          "minimum_fields": "Walter Glasgow; male as indexed; buried 4 June 1647, Kirknewton/East Calder; residence Leithford. Father William Glasgow explicitly indexed. Age, birth, mother and exact death date unknown.",
+          "facts": [
+            {
+              "finding": "Findmypast/SGS burial transcript gives 4 June 1647, Walter Glasgow, son to William Glasgow, residence Leithford; OPR 689/20.",
+              "qualification": "Provider transcript or reported printed-index text, as specified; original historical page uninspected in this follow-up.",
+              "sources": [
+                {
+                  "title": "Findmypast/SGS, Walter Glasgow, burial 4 June 1647, Leithford; OPR 689/20",
+                  "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1625437"
+                }
+              ]
+            }
+          ],
+          "candidates": [
+            {
+              "id": "Glasgow-1087",
+              "reason": "Possible identity for the recorded father William; not a profile identification for the buried child. The 1648 father-to-1609 child identity remains inferred."
+            }
+          ],
+          "duplicate_check": [
+            "Live searchPerson Walter + Glasgow, 15 October 2026, returned 12 matches; the only early child result was Glasgow-1554 with a 1649 birth. The local public index was also checked. Its later baptism is a concrete chronological conflict with this burial under the current readings."
+          ],
+          "next_test": "Inspect OPR 689/20 for the burial and both baptism readings; verify any year heading or transcription error before treating the two Walters as proved siblings or creating a new person.",
+          "wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nWalter Glasgow was indexed as buried on 4 June 1647 in the Kirknewton/East Calder register, with residence Leithford and next of kin William Glasgow, relationship “Son to”. The original is not inspected; burial is not an exact death date.<ref>Findmypast/SGS, Walter Glasgow, burial 4 June 1647, Leithford; OPR 689/20; https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1625437.</ref>\n\n== Research Notes ==\nThe burial precedes both proposed 23 September 1647/1649 baptism dates for Glasgow-1554. It cannot be assigned to that later-born/baptised child on the current chronology. Reuse of the name within one family is possible, but the adult father’s identity and relationship between the two Walters remain unproved.\nInspect OPR 689/20 for the burial and both baptism readings; verify any year heading or transcription error before treating the two Walters as proved siblings or creating a new person.\n\n== Sources ==\n<references />\n"
+        },
+        {
+          "anchor": "robert-tanner",
+          "name": "Robert Glasgow, Glasgow tanner",
+          "status": "HOLD — occupation record; candidates retained",
+          "identity_note": "The earlier sweep’s reported printed text names a tanner Robert in 1623; it does not identify his parents or prove he was the 1625 town officer. The 1630s payment mentions are also separate identity questions.",
+          "minimum_fields": "Robert Glasgow; tanner associated with Glasgow in 1623; birth, death, spouse and parents unknown.",
+          "facts": [
+            {
+              "finding": "RPC XIII p. 246 reportedly lists Robert Glasgow among Glasgow tanners who left the trade after the proposed reform.",
+              "qualification": "Provider transcript or reported printed-index text, as specified; original historical page uninspected in this follow-up.",
+              "sources": [
+                {
+                  "title": "Register of the Privy Council of Scotland, XIII, printed p. 246",
+                  "url": "https://babel.hathitrust.org/cgi/pt?id=mdp.35112103825313&seq=334"
+                }
+              ]
+            }
+          ],
+          "candidates": [
+            {
+              "id": "Glasgow-1027",
+              "reason": "Robert active in Glasgow from 1613; chronology and place fit, but no record links his known parentage to the tanner occupation."
+            },
+            {
+              "id": "Glasgow-1156",
+              "reason": "Robert buried Duddingston in 1647; no age or occupation is recorded, so the tanner identity is not concretely excluded, though the known locality differs."
+            }
+          ],
+          "duplicate_check": [
+            "Live Robert+Glasgow search returned 209 matches across all threepages; historical candidates screened and 1027/1156 fullbiographies compared. No exact occupation identity proved."
+          ],
+          "next_test": "Inspect RPC XIII p.246 and compare craft-admission, burgess and sasine evidence before assigning the occupation.",
+          "wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe earlier printed-source sweep reports Robert Glasgow among the Glasgow tanners named in a 1623 grievance about the tanning reform. He is not yet securely identified with an existing profile.<ref>Register of the Privy Council of Scotland, XIII, printed p. 246; https://babel.hathitrust.org/cgi/pt?id=mdp.35112103825313&seq=334.</ref>\n\n== Research Notes ==\nThe earlier sweep’s reported printed text names a tanner Robert in 1623; it does not identify his parents or prove he was the 1625 town officer. The 1630s payment mentions are also separate identity questions.\nInspect RPC XIII p. 246 and compare craft-admission, burgess and sasine evidence before assigning the occupation.\n\n== Sources ==\n<references />\n"
         }
       ]
     }

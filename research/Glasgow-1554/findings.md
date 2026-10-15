@@ -5,6 +5,9 @@ Last updated: 2026-09-26
 
 ## Current conclusion
 
+Reviewed: 2026-10-15
+
+
 FamilySearch `VQ4K-FWL` indexes Walter Glasgow, 23 September 1649, under the
 combined `Kirknewton and East Calder` label and names father William. The exact
 historical parish remains unresolved.
@@ -19,6 +22,8 @@ Walter was formerly attached as father of [William Glasgow
 estimated about 1660. The eleven-year interval and absence of a parentage
 record make that relationship unsupported. It was removed live on 26 September
 2026; Walter is not a documented father of Glasgow-1026.
+
+The baptism readings remain 23 September 1647 in Findmypast/SGS and 23 September 1649 in the supplied ScotlandsPeople/FamilySearch accounts. The 4 June 1647 burial precedes both and is not assigned to this child.
 
 ## Potential-father review — 10 August 2026
 
@@ -41,3 +46,10 @@ record, but the father's recorded given name rules out James.
 Original image not inspected for this batch. The combined collection’s date does not automatically establish a birthday. Names alone do not uniquely identify attached parents or connect a child with a later adult. An omitted parent or indexed gender U remains unspecified in this source.
 
 **Next action:** No additional WikiTree update from this row; preserve any existing pending work.
+
+<!-- findmypast-studies-sweep-2026-10-07 to1650-pass5 -->
+## 1610–1650 sweep — reviewed 15 October 2026
+
+Authenticated Findmypast transcript [SCOT/OPR/BAP/4473489](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4473489), re-opened 15 October 2026, indexes **23 September 1647**, Walter Glasgow, father William Glasgow, residence Leithford, archive reference **OPR 689/20**. This is a Findmypast/Scottish Genealogy Society transcript, **not a ScotlandsPeople reading**. The separately supplied ScotlandsPeople row above gives **23 September 1649**, OPR **690/10/19**, agreeing in year with the maintained FamilySearch account. Preserve both readings pending original-page inspection.
+
+A separate [burial transcript, SCOT/OPR/BUR/1625437](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1625437), gives **4 June 1647**, Walter Glasgow, **son to William Glasgow**, Leithford, OPR 689/20. This precedes both proposed baptisms and cannot be assigned to this child on the current dates. It may represent an older namesake in the same household; neither repeated parentage nor the father’s profile identity is proved. The [burial subject’s sourced account](/research/subjects/early-scotland-1650/#walter-buried-1647) keeps the records separate.
