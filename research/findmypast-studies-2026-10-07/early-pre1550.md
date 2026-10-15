@@ -336,7 +336,7 @@ Sections: `tmp/fmp-studies/a_sections/p4_*.md`.
 - PRONI, NAI and TNA (place uses only).
 
 **Next actions:**
-- Carnwath: selected Glasgow passages now read from the full NLS scan; follow Upper Quothquan tenancy succession and the remaining indexed passages. See `research/ancestry-connections/carnwath-1524-1532.md`.
+- Carnwath: all indexed Glasgow name-bearing passages now read from the full NLS scan, with court duplicates consolidated; follow Upper Quothquan leases and tenancy succession. See `research/ancestry-connections/carnwath-1524-1532.md`.
 - Order NRS CC8/8/2 (Auchincraw testament).
 - NRS GD154 and the E71/E72 port books.
 - Check the Northumberland Archives EP/38/1 (Berwick burials, Lucie Glascoe 1597) and Norfolk PD 26/16(S) registers.
@@ -408,9 +408,12 @@ Sections: `tmp/fmp-studies/a_sections/p5_*.md`.
 - The catalogues.
 - English: one unclear 1619 Newcastle infant "Glasko"; the rest are Glascock or unproven.
 
+**Resolved search lead:**
+
+RESOLVED 15 October 2026: the *Knights of St John* “Wilyame Glasgow” hit crosses index entries: Kamis, Wilyame / Glasgow (place). Printed p.249, [NLS PDF344](https://deriv.nls.uk/dcn23/1266/1367/126613670.23.pdf#page=344), visually checked; no surname person retained.
+
 **Still to read:**
-- Carnwath remaining indexed passages and original-manuscript comparison; the full printed book is now available and selected Glasgow entries were visually read 15 October 2026.
-- *Knights of St John* ("Wilyame Glasgow", with Torphichen).
+- Carnwath original-manuscript comparison and leases; all indexed name-bearing passages in the printed edition were visually checked 15 October 2026.
 - SRO sasine index no. 42 entries.
 - The Stevenston elder's forename (page image).
 - The Crossle 1639 image.
