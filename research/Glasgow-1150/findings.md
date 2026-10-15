@@ -1,6 +1,12 @@
 # Findings: [James Glasgow (Glasgow-1150), born before 1641, Edinburgh](https://www.wikitree.com/wiki/Glasgow-1150)
 
-## Conclusion
+## Current conclusion
+
+Reviewed: 2026-10-15
+
+This profile represents the Edinburgh weaver with a documented 1641 apprenticeship naming father Robert of Wester Duddingston. Identity with the James the weaver in the 1646–1647 Fisherrow sasine index is possible and unproved; the separate Inveresk child Glasgow-3923 remains distinct.
+
+## Earlier identity assessment
 
 The split is complete in the correct direction. **Glasgow-1150 now represents
 the Edinburgh weaver and burgess**, while
@@ -226,3 +232,9 @@ Add the record as supporting evidence while preserving all existing sources and 
 Source: Old Parish Registers, banns and marriages; exact surname Glasgow through 1700, 55 supplied results. Original images not inspected for this batch; combined index dates do not by themselves establish ceremony dates.
 
 This batch adds supporting evidence or a qualified comparison only; it raises no additional WikiTree amendment for this profile.
+
+## Possible Fisherrow sasine identity — 15 October 2026
+
+The visually checked [SRO Indexes 44 (1958), Edinburgh etc. register of sasines 1644–1653, printed pp.159–160](https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481222&seq=167), pp.159–160, indexes James Glasgow, **weaver**, at three unique registration references: **14 February 1646, 33/258; 15 May 1646, 33/360; 10 February 1647, 34/287**. All are shared with Alexander in Fischerraw, burgess of Musselburgh; Edward shares the first. James’s own residence and relatives are not given. This Edinburgh weaver is a compatible occupational and regional candidate. His apprenticeship of 1641 and burgess admission of 1649 do not, without a specific conflicting restriction, exclude property participation in 1646. They do not identify the sasine party either.
+
+[James-3923](https://www.wikitree.com/wiki/Glasgow-3923), Alexander’s son baptised 1626, remains a competing candidate for this newly inspected occurrence. The two profiles still represent distinct documented identities: father Robert at Wester Duddingston versus father Alexander at Inveresk. Do not undo that separation. Read the original sasines for a father, master, spouse or residence before attaching the occurrence. No new parent or child is inferred.

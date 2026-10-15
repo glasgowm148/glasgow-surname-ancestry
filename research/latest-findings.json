@@ -25295,7 +25295,7 @@
       "kind": "property",
       "status": "qualified",
       "finding": "Visually checked sasine-index pages name Alexander as son of James, the Fisherrow tailor; Christina Bye is James’s spouse and Janet Clerk is Alexander’s. Edward shares their 1624 registration reference, 9/135.",
-      "qualification": "Printed pp.187–188 inspected 15 October 2026; registration dates, not verified execution dates. Original sasines remain unread. James-991 and Christina Bie-55 remain compatible candidates; Edward’s identity and exact kinship are open.",
+      "qualification": "Printed pp.187–188 inspected 15 October 2026; registration dates, not verified execution dates. Original sasines remain unread. James-991 and Christina Bie-55 remain compatible candidates; Edward’s identity and exact kinship are open. Eduard-994, indexed in 1609 with father James, is another compatible Edward identity; a connection within the proposed Fisherrow household remains an alternative.",
       "people": [
         {
           "id": "Glasgow-1148",
@@ -25321,6 +25321,11 @@
           "id": "Clerk-296",
           "name": "Janet Clerk",
           "url": "/people/clerk-296.html"
+        },
+        {
+          "id": "Glasgow-994",
+          "name": "Eduard Glasgow, indexed 1609 (candidate)",
+          "url": "/people/glasgow-994.html"
         }
       ],
       "sources": [
@@ -25574,6 +25579,67 @@
         "research/free-space-pages/edition/john-glasgw-of-stirling-1b723d.wiki",
         "research/Glasgow-1095/findings.md",
         "research/medieval-glasgow-bridge-1447-1534/report.md"
+      ]
+    },
+    {
+      "id": "fisherrow-weaver-index-columns-1646-1647",
+      "found_on": "2026-10-15",
+      "kind": "property",
+      "status": "qualified",
+      "finding": "Printed sasine-index columns associate Alexander in Fischerraw with James Glasgow, weaver, at three registration references in 1646–1647; Edward shares the first. The supposed June 1646 Alexander entry belongs to Isobel Givan.",
+      "qualification": "Printed pp.159–160 visually inspected. Exact identities and kinship require the unread original instruments. James the weaver is not automatically the 1624 tailor or Alexander’s son; no new paternal join or certainty upgrade. Eduard-994, indexed in 1609 with father James, is another compatible Edward identity; a connection within the proposed Fisherrow household remains an alternative.",
+      "people": [
+        {
+          "id": "Glasgow-1148",
+          "name": "Alexander Glasgow",
+          "url": "/people/glasgow-1148.html"
+        },
+        {
+          "id": "Glasgow-1150",
+          "name": "James Glasgow, Edinburgh weaver (candidate)",
+          "url": "/people/glasgow-1150.html"
+        },
+        {
+          "id": "Glasgow-3923",
+          "name": "James Glasgow, Alexander’s son (candidate)",
+          "url": "/people/glasgow-3923.html"
+        },
+        {
+          "id": "Glasgow-991",
+          "name": "James Glasgow, older candidate",
+          "url": "/people/glasgow-991.html"
+        },
+        {
+          "id": "Glasgow-1557",
+          "name": "Edward Glasgow (candidate)",
+          "url": "/people/glasgow-1557.html"
+        },
+        {
+          "id": "Glasgow-1558",
+          "name": "Edward Glasgow, baptised 1615 (candidate)",
+          "url": "/people/glasgow-1558.html"
+        },
+        {
+          "id": "Glasgow-994",
+          "name": "Eduard Glasgow, indexed 1609 (candidate)",
+          "url": "/people/glasgow-994.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "SRO Indexes 44 (1958), Edinburgh etc. register of sasines 1644–1653, printed pp.159–160",
+          "url": "https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481222&seq=167"
+        }
+      ],
+      "detail_url": "/research/subjects/early-scotland-1650/#james-weaver-1646",
+      "provenance": [
+        "research/Glasgow-1148/findings.md",
+        "research/Glasgow-991/findings.md",
+        "research/Glasgow-1557/findings.md",
+        "research/Glasgow-1558/findings.md",
+        "research/Glasgow-1150/findings.md",
+        "research/Glasgow-3923/findings.md",
+        "research/Glasgow-994/findings.md"
       ]
     }
   ]

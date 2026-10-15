@@ -2,7 +2,13 @@
 
 Last updated: 2026-09-10
 
-## Conclusion
+## Current conclusion
+
+Reviewed: 2026-10-15
+
+The Inveresk baptism identifies this James as Alexander Glasgow’s son. Identity with the James the weaver associated with Alexander in the 1646–1647 sasine index is possible and unproved. Glasgow-1150’s separately documented father is Robert of Wester Duddingston.
+
+## Earlier identity assessment
 
 This profile correctly restores the child baptised at Inveresk and Musselburgh
 on 19 March 1626 to Alexander Glasgow and Jannet Clerk. It is distinct from
@@ -73,3 +79,9 @@ Provenance: exact-surname Glasgow search, year range to 1700, 127 supplied resul
 Original image not inspected for this batch. The combined collection’s date does not automatically establish a birthday. Names alone do not uniquely identify attached parents or connect a child with a later adult. An omitted parent or indexed gender U remains unspecified in this source.
 
 **Next action:** No additional WikiTree update from this row; preserve any existing pending work.
+
+## Possible James the weaver in the Fisherrow sasines — 15 October 2026
+
+The visually checked [SRO Indexes 44 (1958), Edinburgh etc. register of sasines 1644–1653, printed pp.159–160](https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481222&seq=167), pp.159–160, indexes James Glasgow, **weaver**, with Alexander in Fischerraw, burgess of Musselburgh, at three unique registration references: **14 February 1646, 33/258; 15 May 1646, 33/360; 10 February 1647, 34/287**. Edward also shares the first. No father or separate residence is supplied for James. This Inveresk child is a compatible candidate: he was about twenty in 1646 if baptised near birth, and minority alone does not exclude a land transaction. No inspected record establishes his trade.
+
+[The Edinburgh weaver James-1150](https://www.wikitree.com/wiki/Glasgow-1150), whose apprenticeship names father Robert of Wester Duddingston, and the older [James-991](https://www.wikitree.com/wiki/Glasgow-991) are also comparisons. The matching surname and Alexander association cannot override the distinct fathers documented for the two younger men. Inspect the original instruments for James’s capacity and kinship. No occupation, spouse, child or later identity is attached here.

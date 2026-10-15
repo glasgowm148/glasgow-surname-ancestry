@@ -1472,10 +1472,10 @@ Benjamin-3412: resolve the 1825 newspaper / 1826 university degree discrepancy b
 
 | Profile | Status | Proposed change | Evidence |
 | --- | --- | --- | --- |
-| [Alexander Glasgow (Glasgow-1148)](https://www.wikitree.com/wiki/Glasgow-1148) | OPEN | Cite visually checked SRO Indexes 38 pp.187–188 for father James the Fisherrow tailor and spouse Janet Clerk; distinguish explicit indexed kin from uncertain identification of father Glasgow-991. Correct the dates to registration dates. | [Findings](../research/Glasgow-1148/findings.md) |
+| [Alexander Glasgow (Glasgow-1148)](https://www.wikitree.com/wiki/Glasgow-1148) | OPEN | Cite visually checked SRO Indexes 38 pp.187–188 for father James the Fisherrow tailor and spouse Janet Clerk; distinguish explicit indexed kin from uncertain identification of father Glasgow-991. Correct the dates to registration dates; cite checked 1646–1647 columns (33/258, 33/360, 34/287), withdraw the misassigned June 1646 entry, and leave James the weaver’s identity open. | [Findings](../research/Glasgow-1148/findings.md) |
 | [James Glasgow (Glasgow-991)](https://www.wikitree.com/wiki/Glasgow-991) | OPEN | Add the qualified Fisherrow identification and checked Christina Bye spouse cross-reference; preserve the Mid Calder/Inveresk identity question and leave James’s own father unresolved. | [Findings](../research/Glasgow-991/findings.md) |
 | [Christina Bie (Bie-55)](https://www.wikitree.com/wiki/Bie-55) | OPEN | Add the checked Christina Bye index occurrence as a compatible identity; do not promote the unverified 1614 maternal reading or tree-derived birthplace. | [Findings](../research/Bie-55/findings.md) |
-| [Edward Glasgow (Glasgow-1557)](https://www.wikitree.com/wiki/Glasgow-1557) | OPEN | Add 9/135 as a qualified Fisherrow candidate association and test of the Corsankell connection; identity, exact kinship and existing father remain uncertain. | [Findings](../research/Glasgow-1557/findings.md) |
+| [Edward Glasgow (Glasgow-1557)](https://www.wikitree.com/wiki/Glasgow-1557) | OPEN | Add 9/135 as a qualified Fisherrow candidate association and test of the Corsankell connection; identity, exact kinship and existing father remain uncertain. Add the qualified 1646 33/258 association, retaining Edward-1558 as a candidate. | [Findings](../research/Glasgow-1557/findings.md) |
 
 ## 15 October 2026 — Campbeltown household source clarification
 

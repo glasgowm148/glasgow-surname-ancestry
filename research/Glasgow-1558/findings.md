@@ -3,6 +3,12 @@
 Last updated: 2026-09-10
 
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-f8bbedf29384 -->
+## Current conclusion
+
+Reviewed: 2026-10-15
+
+This profile represents the Edward baptised in 1615. Both he and Edward-1557 are compatible candidates for the Edward indexed alongside Alexander and James the weaver in 1646; the original instrument must establish identity and kinship.
+
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-f8bbedf29384
 
 The transcript-validated baptism record for **Edward Glasgow**, 1615, Inveresk with Musselburgh, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
@@ -39,3 +45,11 @@ Provenance: exact-surname Glasgow search, year range to 1700, 127 supplied resul
 Original image not inspected for this batch. The combined collection’s date does not automatically establish a birthday. Names alone do not uniquely identify attached parents or connect a child with a later adult. An omitted parent or indexed gender U remains unspecified in this source.
 
 **Next action:** No additional WikiTree update from this row; preserve any existing pending work.
+
+## Candidate for the 1646 sasine-index Edward — 15 October 2026
+
+The visually checked [SRO Indexes 44 (1958), Edinburgh etc. register of sasines 1644–1653, printed pp.159–160](https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481222&seq=167), p.159, places Edward Glasgow at **14 February 1646, 33/258**, alongside Alexander in Fischerraw, burgess of Musselburgh, and James, weaver. It gives Edward no separate residence, occupation or father. This profile and [his father Edward-1557](https://www.wikitree.com/wiki/Glasgow-1557) are compatible candidates; the 1615 baptism would make this Edward about 31 if near birth. The 1624 and 1646 Edward occurrences are not automatically one person. Read 33/258 with the earlier 9/135 instrument for age, capacity, kin and title continuity. No identity or relationship is upgraded.
+
+## Additional compatible Edward — 15 October 2026
+
+[Eduard Glasgow-994](https://www.wikitree.com/wiki/Glasgow-994), the Inveresk child indexed in 1609 with father James, is another compatible identity for the 1624 and 1646 Edward occurrences. He would be about fifteen in 1624 and about 37 in 1646 if baptised near birth; minority does not by itself exclude the earlier land record. The original instruments supply no inspected paternal identification. If this is Eduard-994, the association may lie within James-991’s proposed household; it would not establish the suggested Corsankell bridge through Edward-1557. Preserve all three Edwards as comparisons. See [Eduard’s record assessment](/people/glasgow-994.html) and the [printed 1646 index](https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481222&seq=167).

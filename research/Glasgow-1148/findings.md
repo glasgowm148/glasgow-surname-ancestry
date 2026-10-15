@@ -7,7 +7,7 @@ Reviewed: 2026-10-15
 
 The father relationship with [James Glasgow](https://www.wikitree.com/wiki/Glasgow-991) is assessed as **uncertain**. The cited Musselburgh record identifies Alexander’s father as a James Glasgow, but does not establish that he was the attached Mid Calder James Glasgow-991; the profile itself distinguishes the local candidate.
 
-The visually checked printed sasine index names Alexander as son of James, the Fisherrow tailor, and places Janet Clerk with Alexander and Christina Bye with James. The specific father identity Glasgow-991 remains uncertain; the documentary father–son statement is explicit. Edward is indexed at the same 1624 registration date, volume and folio, providing a property association to test for a family connection.
+The visually checked printed sasine index names Alexander as son of James, the Fisherrow tailor, and places Janet Clerk with Alexander and Christina Bye with James. The specific father identity Glasgow-991 remains uncertain; the documentary father–son statement is explicit. Edward is indexed at the same 1624 registration date, volume and folio. Repeated 1646–1647 references associate Alexander with a James described as a weaver, and the first also with Edward. These are property associations to test for a family connection; they do not choose kinship or cross-record identities.
 
 ## Source findings
 
@@ -31,7 +31,7 @@ Recorded in `research/Glasgow-1148/Glasgow-1148.md` (legacy draft, last committe
 <!-- findmypast-studies-sweep-2026-10-07 to1650-pass5 -->
 ## 1610–1650 sweep — reviewed 15 October 2026
 
-The earlier sweep recovered Scottish Record Office sasine-index text. The 1624–1630 printed pages have now been visually checked; the later volumes remain reported index/OCR leads. No original register image has been inspected.
+The earlier sweep recovered Scottish Record Office sasine-index text. The 1624–1630 and 1644–1653 printed pages have now been visually checked; the 1637–1643 volume remains a search-only lead. No original register image has been inspected.
 
 The printed pages themselves were visually inspected on 15 October 2026. Page 187 calls Alexander the son of James, tailor in Fischerraw and burgess of Musselburgh, and cross-refers to Alexander’s spouse Janet Clerk. Page 188 repeats Alexander’s entry for 1625, separately cross-refers from James to his spouse Christina Bye, and places Edward in Fischerraw at the same 1624 volume/folio as James and Alexander. The dates are headed **Date of Recording**: 8 July 1624, vol.9 fol.135, and 11 July 1625, vol.10 fol.171. They are registration dates, not verified dates of execution. [Printed index pp.187–188](https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481057&seq=194). The underlying sasines remain uninspected.
 
@@ -39,10 +39,28 @@ The printed pages themselves were visually inspected on 15 October 2026. Page 18
 | --- | --- | --- |
 | Index no.38, Edinburgh etc. 1624–1630, pp.187–188; [p.187](https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481057&seq=193), [p.188](https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481057&seq=194) | James Glasgow, tailor in Fisherrow and burgess of Musselburgh; son Alexander; James’s spouse Christina Bye and Alexander’s spouse Janet Clerk; 8 July 1624, vol.9 fol.135, and 11 July 1625, vol.10 fol.171 | Visually verified in the printed index: Janet belongs with Alexander. The column heading identifies registration dates. [James Glasgow](https://www.wikitree.com/wiki/Glasgow-991) and [Christina Bie](https://www.wikitree.com/wiki/Bie-55) are compatible existing candidates, not newly proved identities. Their 1614 Inveresk child provides a useful comparison. |
 | Index no.42, 1637–1643, [volume](https://babel.hathitrust.org/cgi/pt?id=uva.x030771259) | Search headword “Glasgow Alexander tailor Fischerraw” | Search-only lead; date and folio remain unread. |
-| Index no.44, 1644–1653, pp.159–160; [p.159](https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481222&seq=167) | Alexander in Fisherrow, burgess of Musselburgh: 14 February 1646 (33/258), 15 May 1646 (33/360), 16 June 1646 (33/420); a 10 February 1647 pairing (34/287) uncertain | Register checks remain. Edward and James Glasgow appear in the index material, but shared entries and their roles must be verified from the columns and instruments. |
+| Index no.44, 1644–1653, pp.159–160; [p.159](https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481222&seq=167) | Alexander in Fischerraw, burgess of Musselburgh: 14 February 1646 (33/258), 15 May 1646 (33/360), 10 February 1647 (34/287); James, weaver, shares all three, Edward the first | Printed columns visually verified. The earlier June 1646 / 33/420 attribution is superseded: that row belongs to Isobel Givan. Original instruments and exact kinship remain unchecked. |
 
 [Edward Glasgow](https://www.wikitree.com/wiki/Glasgow-1557) and his son [Edward](https://www.wikitree.com/wiki/Glasgow-1558) are alternative candidates for the Fisherrow Edward occurrences; the index does not prove a relationship with Alexander. The original sasines are the next test of both the spouse clauses and the family connection. See the [consolidated Fisherrow account](/research/subjects/early-scotland-1650/#fisherrow-household).
 
 ## Branch connection test — Fisherrow and Corsankell, 15 October 2026
 
 A possible collateral connection now has a concrete property anchor: James, Alexander and Edward share the same 1624 registration date, volume and folio in the index. Whether one instrument names all three must be checked in the register. If the Edward is [Glasgow-1557](https://www.wikitree.com/wiki/Glasgow-1557), this would associate James’s family with the working Corsankell line through [James Glasgow younger (Glasgow-3921)](https://www.wikitree.com/wiki/Glasgow-3921). Edward-1557’s own father is uncertain, so even a successful identity match would retain that uncertainty. Shared index references alone do not identify Edward as James’s brother, Alexander’s uncle, or either man’s father. Read 9/135 for Edward’s role, kin clauses, prior owners and witnesses. This candidate connection is not counted as a new paternal join.
+
+## Fisherrow property network, 1646–1647 — 15 October 2026
+
+The printed columns of [SRO Indexes 44 (1958), Edinburgh etc. register of sasines 1644–1653, printed pp.159–160](https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481222&seq=167) were visually inspected. They give these **recording dates**, not verified execution dates:
+
+| Registration | Volume/folio | Glasgow headwords sharing the reference |
+| --- | --- | --- |
+| 14 February 1646 | 33/258 | Alexander, in Fischerraw and burgess of Musselburgh; Edward; James, weaver |
+| 15 May 1646 | 33/360 | Alexander; James, weaver |
+| 10 February 1647 | 34/287 | Alexander; James, weaver |
+
+Page 160 continues James the weaver’s entry and repeats 33/258 and 34/287; duplicate index references are not additional events or proof of additional people. The earlier reported **16 June 1646, 33/420** belongs to **Isobel Givan**, in the preceding row, and is withdrawn from Alexander’s record list. James and Edward are not separately assigned a residence or kinship in these entries. Shared date, volume and folio establish repeated index associations; the unread original instruments must show whether they concern one transaction and how the parties were related.
+
+The repeated references strengthen the property connection test. They do not identify the weaver as Alexander’s father James the tailor, his son [James-3923](https://www.wikitree.com/wiki/Glasgow-3923), or [the Edinburgh weaver James-1150](https://www.wikitree.com/wiki/Glasgow-1150). Keep those identities open. The latter has a separately documented father Robert of Wester Duddingston; an identification here could therefore test a connection between two existing households without conflating the two younger James profiles. Read 33/258 first for all three Glasgow roles, then 33/360 and 34/287 for title succession and kin clauses. No paternal join is added.
+
+## Additional compatible Edward — 15 October 2026
+
+[Eduard Glasgow-994](https://www.wikitree.com/wiki/Glasgow-994), the Inveresk child indexed in 1609 with father James, is another compatible identity for the 1624 and 1646 Edward occurrences. He would be about fifteen in 1624 and about 37 in 1646 if baptised near birth; minority does not by itself exclude the earlier land record. The original instruments supply no inspected paternal identification. If this is Eduard-994, the association may lie within James-991’s proposed household; it would not establish the suggested Corsankell bridge through Edward-1557. Preserve all three Edwards as comparisons. See [Eduard’s record assessment](/people/glasgow-994.html) and the [printed 1646 index](https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481222&seq=167).
