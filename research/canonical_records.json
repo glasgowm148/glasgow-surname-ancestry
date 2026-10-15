@@ -1129,5 +1129,32 @@
         "timeline_group": "Possible connections"
       }
     }
+  },
+  {
+    "record_id": "campbeltown-alexander-1659",
+    "association": "Alexander Glasgow, indexed Campbeltown household, April 1659",
+    "date": "12/13 April 1659; index dates conflict",
+    "year": 1659,
+    "place": "Campbeltown; Auchinhork (FMP residence reading)",
+    "source_title": "Findmypast SCOT/OPR/BAP/3017984, OPR 507/1 p.1 item 3; supplied Scotland’s People 507, 11/6, FR9",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3017984&tab=this",
+    "source_type": "Parish-register transcript and index",
+    "source_status": "Saved transcript and supplied index reviewed 15 October 2026; original image uninspected",
+    "status": "Named parent-child household; date and reference conventions unresolved",
+    "note": "FMP gives 13 April in its birth-date field and no baptism date; SP gives 12 April. Father George and mother Grizel Dunlop agree. These parent links were already confident; George’s own parentage and identity with earlier baptisms remain open. One event, not two independent records.",
+    "profiles": {
+      "Glasgow-3101": {
+        "role": "Named child Alexander",
+        "timeline_group": "Life events"
+      },
+      "Glasgow-3100": {
+        "role": "Named father George Glasgow",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Dunlop-3562": {
+        "role": "Named mother Grizel Dunlop",
+        "timeline_group": "Records mentioning this person"
+      }
+    }
   }
 ]

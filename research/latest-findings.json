@@ -10939,14 +10939,24 @@
       "id": "transcript-d1d7159687beed",
       "found_on": "2026-09-03",
       "kind": "vital",
-      "finding": "The parish baptism transcript records Alexander Glasgow on at Campbeltown. It names father George Glasgow and mother Grizel Dunlop. The transcribed birth date is 13 Apr 1659.",
+      "finding": "The Campbeltown parish transcript names Alexander Glasgow, father George Glasgow and mother Grizel Dunlop; its birth-date field gives 13 April 1659.",
       "status": "qualified",
-      "qualification": "Saved transcript inspected; original record image was not inspected for this capture. Profile association does not establish every attached adult identity.",
+      "qualification": "Saved transcript; original image uninspected. The supplied Scotland’s People index gives 12 April. Both parent links were already confident; George’s earlier identity and parentage remain unresolved. Date-field clarification and household source review: 15 October 2026.",
       "people": [
         {
           "id": "Glasgow-3101",
           "name": "Alexander Glasgow",
           "url": "/people/glasgow-3101.html"
+        },
+        {
+          "id": "Glasgow-3100",
+          "name": "George Glasgow",
+          "url": "/people/glasgow-3100.html"
+        },
+        {
+          "id": "Dunlop-3562",
+          "name": "Grizel Dunlop",
+          "url": "/people/dunlop-3562.html"
         }
       ],
       "sources": [
@@ -10957,7 +10967,9 @@
       ],
       "detail_url": "/people/glasgow-3101.html",
       "provenance": [
-        "research/Glasgow-3101/findings.md"
+        "research/Glasgow-3101/findings.md",
+        "research/Glasgow-3100/findings.md",
+        "research/Dunlop-3562/findings.md"
       ]
     },
     {

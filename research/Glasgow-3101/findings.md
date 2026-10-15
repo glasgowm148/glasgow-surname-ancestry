@@ -3,6 +3,12 @@
 Last updated: 2026-09-10
 
 
+## Current conclusion
+
+Reviewed: 2026-10-15
+
+The indexed 1659 Campbeltown household names George Glasgow and Grizel Dunlop as Alexander’s parents. Both parent links were already confident. The saved FMP field is a birth date of 13 April, not a supplied baptism date; Scotland’s People gives 12 April. The original date and earlier identity of George remain unresolved. See [George’s full source and candidate assessment](/people/glasgow-3100.html#archive-tools).
+
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-67ec4399079d
 
 The transcript-validated baptism record for **Alexander Glasgow**, 13 Apr 1659, Campbeltown, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
@@ -30,3 +36,7 @@ Add the record as supporting evidence while preserving all existing sources and 
 Original image not inspected for this batch. The combined collection’s date does not automatically establish a birthday. Names alone do not uniquely identify attached parents or connect a child with a later adult. An omitted parent or indexed gender U remains unspecified in this source.
 
 **Next action:** No additional WikiTree update from this row; preserve any existing pending work.
+
+## Date-field and source-reference review — 15 October 2026
+
+The saved [Findmypast transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3017984&tab=this), OPR 507/1, page 1, item 3, names Alexander, father George Glasgow, mother Grizel Dunlop and residence Auchinhork. It gives **13 April 1659 in the birth-date field**, with no baptism date. The supplied Scotland’s People index gives **12 April 1659**, Campbeltown, 507, reference 11/6, FR9, with the same parents. These are representations of one parish event, not independent events. The original image has not been inspected; retain both literal dates and reconcile the volume/page conventions.

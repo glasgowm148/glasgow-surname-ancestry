@@ -1476,3 +1476,11 @@ Benjamin-3412: resolve the 1825 newspaper / 1826 university degree discrepancy b
 | [James Glasgow (Glasgow-991)](https://www.wikitree.com/wiki/Glasgow-991) | OPEN | Add the qualified Fisherrow identification and checked Christina Bye spouse cross-reference; preserve the Mid Calder/Inveresk identity question and leave James’s own father unresolved. | [Findings](../research/Glasgow-991/findings.md) |
 | [Christina Bie (Bie-55)](https://www.wikitree.com/wiki/Bie-55) | OPEN | Add the checked Christina Bye index occurrence as a compatible identity; do not promote the unverified 1614 maternal reading or tree-derived birthplace. | [Findings](../research/Bie-55/findings.md) |
 | [Edward Glasgow (Glasgow-1557)](https://www.wikitree.com/wiki/Glasgow-1557) | OPEN | Add 9/135 as a qualified Fisherrow candidate association and test of the Corsankell connection; identity, exact kinship and existing father remain uncertain. | [Findings](../research/Glasgow-1557/findings.md) |
+
+## 15 October 2026 — Campbeltown household source clarification
+
+| Profile | Status | Proposed change | Evidence |
+| --- | --- | --- | --- |
+| [George Glasgow (Glasgow-3100)](https://www.wikitree.com/wiki/Glasgow-3100) | OPEN | Replace unsupported exact birth-year prose with a qualified estimate; cite the 1659 record-defined fatherhood, retain both index dates and the unresolved origin comparisons. Existing confident parent links need no upgrade. | [Findings](../research/Glasgow-3100/findings.md) |
+| [Grizel Dunlop (Dunlop-3562)](https://www.wikitree.com/wiki/Dunlop-3562) | OPEN | Add the literal maternal index evidence and its date limits; leave Grizel’s birth, parents and maternity of other children unproved. | [Findings](../research/Dunlop-3562/findings.md) |
+| [Alexander Glasgow (Glasgow-3101)](https://www.wikitree.com/wiki/Glasgow-3101) | OPEN | Distinguish FMP’s 13 April birth-date field from the 12 April combined SP index date; do not call 13 April a documented baptism date. | [Findings](../research/Glasgow-3101/findings.md) |
