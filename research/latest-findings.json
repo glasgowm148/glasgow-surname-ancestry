@@ -25729,6 +25729,46 @@
         "research/Glasgow-1561/findings.md",
         "research/Glasgow-1103/findings.md"
       ]
+    },
+    {
+      "id": "murieston-1586-1605-household-correlation",
+      "found_on": "2026-10-15",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "The original Mid Calder baptism of 17 February 1605 names father James Glasgow, provisionally in Muirestoun, and adult witness George Glasgow. The 1586 Calder muster list names George Glasgw in Mureistoun. Murieston is the probable common locality; the two older George occurrences may be one man, but no kinship is stated.",
+      "qualification": "New correlation of existing occurrences. Original OPR and printed barony-act pages visually checked. Same older George identity and fatherhood of James remain unproved; no paternal edge or certainty upgrade counted. NLS MS.3724 and MS.3725 now identified as the specific next test.",
+      "people": [
+        {
+          "id": "Glasgow-991",
+          "name": "James Glasgow, compatible father anchor",
+          "url": "/people/glasgow-991.html"
+        },
+        {
+          "id": "Glasgow-1082",
+          "name": "George Glasgow, baptised 1605",
+          "url": "/people/glasgow-1082.html"
+        },
+        {
+          "name": "George Glasgw of Mureistoun, possible older relative",
+          "url": "/research/subjects/murieston-1586-1605/#george-mureistoun"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Maidment, Analecta Scotica I (1834), art.CXVI, pp.395–396,399; printed pages visually inspected 15 October 2026",
+          "url": "https://archive.org/details/analectascotica00maidgoog"
+        },
+        {
+          "title": "NRS Mid Calder OPR 694/10 p.7, 17 February 1605; owner-held original page reread 15 October 2026",
+          "url": "https://www.scotlandspeople.gov.uk/"
+        }
+      ],
+      "detail_url": "/research/subjects/murieston-1586-1605/#george-mureistoun",
+      "provenance": [
+        "research/ancestry-connections/murieston-1586-1605.md",
+        "research/Glasgow-1082/findings.md",
+        "research/Glasgow-991/findings.md"
+      ]
     }
   ]
 }

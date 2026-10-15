@@ -1,11 +1,13 @@
 # Glasgow-1082 research findings
 
-Last updated: 2026-10-07
+Last updated: 2026-10-15
 
 
-## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-223c981b581f
+## Current conclusion
 
-The transcript-validated baptism record for **George Glasgow**, 17 Feb 1605, Mid Calder, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
+Reviewed: 2026-10-15
+
+The transcript-validated baptism record for **George Glasgow**, 17 Feb 1605, Mid Calder, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event. The original page names James as father and George Glasgow as a witness; Muirestoun is the probable Murieston residence. The witness may be the George named there in 1586, but is not a proved grandfather.
 
 ## Source findings
 
@@ -47,3 +49,10 @@ The original register image of NRS Old Parish Registers, Mid Calder 694/10, page
 This confirms the indexed father and the baptism date from the original. The entry gives no birth date and no mother, and states no relationship between the witness George Glasgow and the child; the witness must not be treated as a grandfather. The residence `Muirestoun` is a provisional reading (moderate confidence) and is not identified with a modern place. The image had been filed among testaments, but it is a baptism, not a 1605 testament.
 
 Recorded in `research/transcriptions/originals-2026-09-10-reread/george-1605.json` (10 September 2026); carried into this file on 7 October 2026.
+
+
+## Murieston connection assessment — 15 October 2026
+
+The original Mid Calder baptism of 17 February 1605 names father James Glasgow, provisionally in Muirestoun, and adult witness George Glasgow. The 1586 Calder muster list names George Glasgw in Mureistoun. Murieston is the probable common locality; the two older George occurrences may be one man, but no kinship is stated. [Maidment’s printed p.399](https://archive.org/details/analectascotica00maidgoog) and [McCall’s p.16](https://archive.org/details/historyantiquiti00mcal) were visually checked; the original OPR 694/10 p.7 was reread. The original-page facts were already recorded in September; the new result is their correlation with the 1586 holding. The residence identification is probable, and the final witness remains unread.
+
+The witness’s residence and relationship are unstated. He might be James’s father, another relative or a neighbour. See the [complete older-George draft and compatible candidates](/research/subjects/murieston-1586-1605/#george-mureistoun) and [James’s assessment](/people/glasgow-991.html). No new father link or certainty upgrade is counted. Compare the other Mid Calder baptism pages for the same holding and witnesses, then inspect NLS MS.3724 and Beveridge’s transcript MS.3725 for George, James, heirs, leases and succession at Mureistoun. The catalogue places the 1586 land-title courts at original pp.1–15 and the chronological court sequence at pp.23–189; it records a gap between 2 May 1592 and 26 November 1594. These manuscript pages have not been read.

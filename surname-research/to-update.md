@@ -1494,3 +1494,9 @@ The August completion entries remain historical. The live parent fields are now 
 | --- | --- | --- |
 | [John Glasgow (Glasgow-1561)](https://www.wikitree.com/wiki/Glasgow-1561) | OPEN | Correct the 1598 child list, empty current parent fields, Thomas1612 conflict and current Glasgow-3296 identity candidate; retain every source and viable hypothesis. [Complete draft](../research/Glasgow-1561/Glasgow-1561.md) |
 | [David Glasgow (Glasgow-1028)](https://www.wikitree.com/wiki/Glasgow-1028) | OPEN | Correct the 1598 child list and stale attached-parent wording; preserve both baptism sources and the wider Calder hypothesis. [Complete draft](../research/Glasgow-1028/Glasgow-1028.md) |
+
+
+## Murieston original-source correlation — 15 October 2026
+
+| [James Glasgow](https://www.wikitree.com/wiki/Glasgow-991) | OPEN | Add the original1605 probable Murieston residence and adult George witness; preserve uncertain identities and family links. | [Complete draft](../research/Glasgow-991/Glasgow-991.md) |
+| [George Glasgow, baptised1605](https://www.wikitree.com/wiki/Glasgow-1082) | OPEN | Add the original1605 probable Murieston residence and adult George witness; preserve uncertain identities and family links. | [Complete draft](../research/Glasgow-1082/Glasgow-1082.md) |

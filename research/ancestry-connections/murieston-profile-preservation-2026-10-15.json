@@ -1,0 +1,78 @@
+{
+  "reviewed": "2026-10-15",
+  "scope": "Complete source-preserving local amendments; no live save, identity selection or parent upgrade",
+  "profiles": {
+    "Glasgow-991": {
+      "current_sha256": "4d7377712e90b27e867f943fab2b73e82988130c3b0f42765f4c434c2cc05b71",
+      "proposed_sha256": "1307d5efb00e75b8706936b0b5e632aad6c6be50e7e867ce2aacce0546532bf4",
+      "all_substantive_passages_accounted_for": true,
+      "source_urls_retained": [
+        "https://archive.org/details/scottishrecordso01scotuoft/page/n117/mode/1up",
+        "https://familysearch.org/ark:/61903/1:1:X1BJ-L51",
+        "https://familysearch.org/ark:/61903/1:1:X1BK-1B4",
+        "https://familysearch.org/ark:/61903/1:1:X1BK-1BW",
+        "https://familysearch.org/ark:/61903/1:1:X1BL-JXY",
+        "https://www.familysearch.org/ark:/61903/1:1:XTRF-FQX",
+        "https://www.familysearch.org/ark:/61903/1:1:XTRJ-SZX",
+        "https://www.familysearch.org/ark:/61903/1:1:XTRN-WMS",
+        "https://www.familysearch.org/ark:/61903/1:1:XY9X-4PR",
+        "https://www.familysearch.org/en/tree/person/details/LZGY-NSY"
+      ],
+      "passages": [
+        "Fresh getBio15 October2026 matched the maintained public capture; all current source URLs and named references retained.",
+        "Baptism dates, child links, former birthplace/spouse theories and unknown death retained; same-name identities stay qualified.",
+        "Original residence/witness evidence and1586 correlation added without a grandfather assertion.",
+        "For James: old Andrew-testament and Jonet-exclusion assertions explicitly superseded; all six original event citations retained. William-3517 is the compatible indexed child anchor; former William-992 link retained as an unproved comparison with competing current parents. Beatrix year conflict retained.",
+        "Deprecated study sticker normalised to study category; vague source access placeholder explained; private DNA-reference boilerplate removed without publishing private material."
+      ]
+    },
+    "Glasgow-1082": {
+      "current_sha256": "8ee9a906b048f4d344e613e0b169f36a55536d362b58afaf2d5f3a1c5bda5b4a",
+      "proposed_sha256": "3aae17b47aa6663167358ac423ed112797945605c1b1acba63db24e14b59726f",
+      "all_substantive_passages_accounted_for": true,
+      "source_urls_retained": [
+        "https://familysearch.org/ark:/61903/1:1:X1BK-1BW",
+        "https://www.findmypast.co.uk/transcript?id=R_686312170&tab=this",
+        "https://www.findmypast.co.uk/transcript?id=R_694110723&tab=this"
+      ],
+      "passages": [
+        "Fresh getBio15 October2026 matched the maintained public capture; all current source URLs and named references retained.",
+        "Baptism dates, child links, former birthplace/spouse theories and unknown death retained; same-name identities stay qualified.",
+        "Original residence/witness evidence and1586 correlation added without a grandfather assertion.",
+        "For James: old Andrew-testament and Jonet-exclusion assertions explicitly superseded; six original event citations and William-992 link preserved alongside compatible3517; Beatrix year conflict retained.",
+        "Deprecated study sticker normalised to study category; vague source access placeholder explained; private DNA-reference boilerplate removed without publishing private material."
+      ]
+    }
+  },
+  "queue_reopening": {
+    "Glasgow-991": {
+      "entry": {
+        "queued_at": "2026-10-15",
+        "significance": 75,
+        "summary": "Add original1605 Muirestoun residence and adult witnesses; compare1586 George as a possible older relative, with no chosen father. Preserve all sources and open identities; correct the obsolete testament/Jonet rationale in James’s complete draft.",
+        "draft_path": "research/Glasgow-991/Glasgow-991.md",
+        "preservation_review_path": "research/ancestry-connections/murieston-profile-preservation-2026-10-15.json",
+        "reviewed_narrative_reduction": true,
+        "preserve_captured_detail": false,
+        "manual_update": true
+      }
+    },
+    "Glasgow-1082": {
+      "state": {
+        "reopened_at": "2026-10-15",
+        "previous_live_completion_retained": true,
+        "reason": "New original-source Murieston/witness correlation requires an additive local amendment and current/replacement comparison."
+      },
+      "entry": {
+        "queued_at": "2026-10-15",
+        "significance": 75,
+        "summary": "Add original1605 Muirestoun residence and adult witnesses; compare1586 George as a possible older relative, with no chosen father. Preserve all sources and open identities; correct the obsolete testament/Jonet rationale in James’s complete draft.",
+        "draft_path": "research/Glasgow-1082/Glasgow-1082.md",
+        "preservation_review_path": "research/ancestry-connections/murieston-profile-preservation-2026-10-15.json",
+        "reviewed_narrative_reduction": true,
+        "preserve_captured_detail": false,
+        "manual_update": true
+      }
+    }
+  }
+}
