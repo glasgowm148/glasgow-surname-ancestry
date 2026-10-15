@@ -1,0 +1,78 @@
+{
+  "reviewed": "2026-10-15",
+  "scope": "Local replacement review; no live save or relationship upgrade",
+  "profiles": {
+    "Glasgow-1561": {
+      "current_sha256": "99a12241cfb91476a265b0a821efbbb82cc966c608f439c4179cb397a2a7a886",
+      "proposed_sha256": "c64839aa6fba68a4cdbc4e1596430abc61f2ae82028d2b4f03efcb9abcc6285a",
+      "all_substantive_passages_accounted_for": true,
+      "source_urls_retained": [
+        "https://archive.org/details/scottishrecordso01scotuoft/page/n117/mode/1up",
+        "https://familysearch.org/ark:/61903/1:1:X1RN-XV7",
+        "https://familysearch.org/ark:/61903/1:1:X1RV-T8R",
+        "https://familysearch.org/ark:/61903/1:1:X1RX-HPB",
+        "https://www.familysearch.org/tree/person/sources/MG7J-6GM"
+      ],
+      "passages": [
+        "Three dated children and source collection retained; birth/place estimates explained without treating them as records.",
+        "Secretary-hand qualification retained for the testament; false child list corrected from maintained image reading, with the printed index citation preserved.",
+        "Andrew/Jonet and George/James ancestor hypotheses retained with actual uncertainty; James-991 son proposal retained as unproved.",
+        "Thomas-1103 proposal superseded only for the indexed 1612 child; later adult identity remains open.",
+        "Former 3608 identity comparison updated to current 3296 redirect; Mid Calder versus Linlithgow continuity remains unproved.",
+        "Glesgow variant retained as attributed pending original pages."
+      ]
+    },
+    "Glasgow-1028": {
+      "current_sha256": "ccabaae18cf5084e04241ac489c4e20a7f64ee909fad180bdc4a8a64cb0ea6a3",
+      "proposed_sha256": "94549a187308121886106dde8f941734f517489ecbf64c512013740d115c4c41",
+      "all_substantive_passages_accounted_for": true,
+      "source_urls_retained": [
+        "https://archive.org/details/scottishrecordso01scotuoft/page/n117/mode/1up",
+        "https://familysearch.org/ark:/61903/1:1:X1BJ-22S",
+        "https://familysearch.org/ark:/61903/1:1:X1BJ-LR9"
+      ],
+      "passages": [
+        "Both dated child records, full original citations and child profile links retained.",
+        "Birth estimate and uncertain death locality retained with their limits.",
+        "Former Andrew/Jonet theory retained historically; actual parent fields are empty on the live check.",
+        "False testament child list and proposed lower-generation parents corrected, not silently removed."
+      ]
+    }
+  },
+  "queue_reopening": {
+    "Glasgow-1561": {
+      "state": {
+        "reopened_at": "2026-10-15",
+        "previous_live_completion_retained": true,
+        "reason": "Live biography still contains the superseded testament child list and stale attached-parent wording; complete reconciled replacement prepared, with current versus replacement comparison required."
+      },
+      "entry": {
+        "queued_at": "2026-10-15",
+        "significance": 80,
+        "summary": "Correct the superseded testament child list and stale parent-field wording; preserve all sources and compatible family hypotheses. Complete draft reviewed 15 October 2026.",
+        "draft_path": "research/Glasgow-1561/Glasgow-1561.md",
+        "preservation_review_path": "research/ancestry-connections/lothian-profile-preservation-2026-10-15.json",
+        "reviewed_narrative_reduction": true,
+        "preserve_captured_detail": false,
+        "manual_update": true
+      }
+    },
+    "Glasgow-1028": {
+      "state": {
+        "reopened_at": "2026-10-15",
+        "previous_live_completion_retained": true,
+        "reason": "Live biography still contains the superseded testament child list and stale attached-parent wording; complete reconciled replacement prepared, with current versus replacement comparison required."
+      },
+      "entry": {
+        "queued_at": "2026-10-15",
+        "significance": 80,
+        "summary": "Correct the superseded testament child list and stale parent-field wording; preserve all sources and compatible family hypotheses. Complete draft reviewed 15 October 2026.",
+        "draft_path": "research/Glasgow-1028/Glasgow-1028.md",
+        "preservation_review_path": "research/ancestry-connections/lothian-profile-preservation-2026-10-15.json",
+        "reviewed_narrative_reduction": true,
+        "preserve_captured_detail": false,
+        "manual_update": true
+      }
+    }
+  }
+}

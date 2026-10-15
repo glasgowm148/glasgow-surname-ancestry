@@ -901,8 +901,8 @@ duplicate-prevention history.
 | [Marjorie Glasgow (Glasgow-3589), former Hirmanscheillis reconstruction](https://www.wikitree.com/wiki/Glasgow-3589) | **DONE — APPLIED LIVE 17 SEPTEMBER 2026** |
 | [Archibald Glasgow (1618), Glasgow-3078, South Leith](https://www.wikitree.com/wiki/Glasgow-3078) | **Partial, below top 20:** the 1639 apprenticeship and 1647 retour confirm William-3075 as father; replace the obsolete biography link Glasgow-3115 with Glasgow-3075. No new profile or merge. |
 | [James Glasgow elder (about 1515), Glasgow-1168, Corsankell, Ayrshire](https://www.wikitree.com/wiki/Glasgow-1168) | **Partial, below top 20:** the live profile now uses the correct sons Glasgow-3921 and Glasgow-3193. Remaining work is limited to uncertain parent settings and the evidence-based death boundary. |
-| [John Glasgow (about 1579), Glasgow-1561, Linlithgowshire](https://www.wikitree.com/wiki/Glasgow-1561) | **Open topology, not prioritised:** retain Andrew/Jonet as uncertain while testing the more likely one-generation-lower Calder placement. |
-| [David Glasgow (about 1586), Glasgow-1028, Mid Calder](https://www.wikitree.com/wiki/Glasgow-1028) | **Open topology, not prioritised:** retain Andrew/Jonet as uncertain while testing the more likely one-generation-lower Calder placement. |
+| [John Glasgow (about 1579), Glasgow-1561, Linlithgowshire](https://www.wikitree.com/wiki/Glasgow-1561) | **OPEN — reviewed 15 October 2026:** no parents are currently attached. Correct the stale biography and false testament child list; do not select a lower generation through unproved sons. |
+| [David Glasgow (about 1586), Glasgow-1028, Mid Calder](https://www.wikitree.com/wiki/Glasgow-1028) | **OPEN — reviewed 15 October 2026:** no parents are currently attached. Correct the stale biography and false testament child list; do not select a lower generation through unproved sons. |
 | [John Glasgow (about 1590), Glasgow-3296, Quothquan](https://www.wikitree.com/wiki/Glasgow-3296) | **DONE — APPLIED LIVE 17 SEPTEMBER 2026** |
 | [Robert Glasgow (about 1737), Glasgow-550, claimed County Londonderry](https://www.wikitree.com/wiki/Glasgow-550) | **DONE — APPLIED LIVE 18 SEPTEMBER 2026** |
 | [John Glasgow (about 1801), Glasgow-867, Lisnagaver, County Antrim](https://www.wikitree.com/wiki/Glasgow-867) | **DONE — APPLIED LIVE 17 SEPTEMBER 2026** |
@@ -1484,3 +1484,13 @@ Benjamin-3412: resolve the 1825 newspaper / 1826 university degree discrepancy b
 | [George Glasgow (Glasgow-3100)](https://www.wikitree.com/wiki/Glasgow-3100) | OPEN | Replace unsupported exact birth-year prose with a qualified estimate; cite the 1659 record-defined fatherhood, retain both index dates and the unresolved origin comparisons. Existing confident parent links need no upgrade. | [Findings](../research/Glasgow-3100/findings.md) |
 | [Grizel Dunlop (Dunlop-3562)](https://www.wikitree.com/wiki/Dunlop-3562) | OPEN | Add the literal maternal index evidence and its date limits; leave Grizel’s birth, parents and maternity of other children unproved. | [Findings](../research/Dunlop-3562/findings.md) |
 | [Alexander Glasgow (Glasgow-3101)](https://www.wikitree.com/wiki/Glasgow-3101) | OPEN | Distinguish FMP’s 13 April birth-date field from the 12 April combined SP index date; do not call 13 April a documented baptism date. | [Findings](../research/Glasgow-3101/findings.md) |
+
+
+## Biography reconciliation — 15 October 2026
+
+The August completion entries remain historical. The live parent fields are now empty for both men, but their biographies still contain the superseded testament reading. These are genuine outstanding biography amendments, not requests to detach parents or new relationship upgrades.
+
+| Profile | Status | Amendment |
+| --- | --- | --- |
+| [John Glasgow (Glasgow-1561)](https://www.wikitree.com/wiki/Glasgow-1561) | OPEN | Correct the 1598 child list, empty current parent fields, Thomas1612 conflict and current Glasgow-3296 identity candidate; retain every source and viable hypothesis. [Complete draft](../research/Glasgow-1561/Glasgow-1561.md) |
+| [David Glasgow (Glasgow-1028)](https://www.wikitree.com/wiki/Glasgow-1028) | OPEN | Correct the 1598 child list and stale attached-parent wording; preserve both baptism sources and the wider Calder hypothesis. [Complete draft](../research/Glasgow-1028/Glasgow-1028.md) |

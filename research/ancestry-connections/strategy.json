@@ -205,6 +205,46 @@
       "counted_as_new_connection": false
     },
     {
+      "id": "lothian-fathers",
+      "year": 1606,
+      "title": "Place the Mid Calder and Linlithgow fathers",
+      "status": "Compatible regional hypotheses; exact parents unchosen",
+      "people": [
+        {
+          "name": "David of Mid Calder",
+          "url": "/people/glasgow-1028.html"
+        },
+        {
+          "name": "John of Linlithgow",
+          "url": "/people/glasgow-1561.html"
+        },
+        {
+          "name": "Mid Calder / Quothquan John candidate",
+          "url": "/people/glasgow-3296.html"
+        }
+      ],
+      "basis": "The original Andrew/Jonet justification used a superseded testament child list. Both current father/mother fields are empty. The two John father sequences are compatible, but require household continuity; Thomas1612 has a conflicting named father George and is not evidence for John’s parentage.",
+      "next_test": "Inspect Mid Calder 694/1 and Linlithgow 668/1 original parish pages for wives, witnesses, residences and occupations; then leases or named heirs. Keep older estimated dates and possible regional ancestors as hypotheses, not fixed exclusions.",
+      "sources": [
+        {
+          "label": "Linlithgow Jean1613 indexed father",
+          "url": "https://familysearch.org/ark:/61903/1:1:X1RX-HPB"
+        },
+        {
+          "label": "Mid Calder Issobell1612 indexed father David",
+          "url": "https://familysearch.org/ark:/61903/1:1:X1BJ-LR9"
+        }
+      ],
+      "counted_as_new_connection": false,
+      "reviewed": "2026-10-15",
+      "record_references": [
+        "Mid Calder OPR 694/1: Jhone (1608), William (1609); Elspeth (1606) and Issobell (1612) indexes",
+        "Linlithgow OPR 668/1: Jean (1613), John (1617), George (1622) indexes",
+        "Glasgow OPR 644/1, 10/81: Thomas (1612), named George/Margaret parent pair",
+        "CC8/8/32, images 123–124: corrected Andrew (1598) household"
+      ]
+    },
+    {
       "id": "fisherrow-corsankell",
       "year": 1624,
       "title": "Fisherrow household ↔ Corsankell through Edward",

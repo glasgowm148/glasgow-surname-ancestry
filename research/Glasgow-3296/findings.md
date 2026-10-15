@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Reviewed: 2026-10-15
+
 Glasgow-3296 is the exact profile for the John Glasgow of Quodquen whose estate
 was confirmed on 27 May 1650. Its biography cites the original testament and
 its structured death now correctly says April 1650. The current Mid Calder
@@ -132,3 +134,8 @@ The two Mid Calder baptisms carried into this profile by the Glasgow-3608 merge 
 [Glasgow-1561](https://www.wikitree.com/wiki/Glasgow-1561), John Glasgow of nearby Linlithgow, is a duplicate candidate only; similar name, date and region do not justify another merge without an identity bridge.
 
 Recorded in `research/Glasgow-3296/Glasgow-3296.md` (2026-09-07); carried into this file on 7 October 2026.
+
+
+## Linlithgow John comparison — 15 October 2026
+
+[Glasgow-1561](https://www.wikitree.com/wiki/Glasgow-1561) is the compatible existing father represented by Linlithgow baptisms in 1613, 1617 and 1622. The former Glasgow-3608 now resolves here, as rechecked through the live public API. Mid Calder 1608/1609 and Linlithgow 1613–1622 permit one career, but the inspected indexes supply no common wife, occupation or holding. The two John baptisms,1608 and 1617, need original-page and household comparison. No merger, paternal connection or certainty upgrade is made. See [the full comparison](../Glasgow-1561/findings.md); the Montfoid and Quothquan identities remain qualified above.

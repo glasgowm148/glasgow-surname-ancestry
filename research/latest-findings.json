@@ -25684,6 +25684,51 @@
         "research/Glasgow-3910/findings.md",
         "research/latest-findings-subjects/subjects.json"
       ]
+    },
+    {
+      "id": "linlithgow-thomas-1612-parent-conflict",
+      "found_on": "2026-10-15",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "The Thomas Glasgow child indexed in Glasgow on 15 March1612 has father George Glasgow and mother Margaret Steuart. This conflicts with the proposal in John Glasgow of Linlithgow’s biography that Thomas was his son.",
+      "qualification": "Owner-supplied OPR index, original page uninspected. The correction concerns the record-defined child; identifying later adult Thomas households remains separate. Existing George/Margaret parent grades were already confident, so no certainty upgrade or new paternal join is counted.",
+      "people": [
+        {
+          "id": "Glasgow-1561",
+          "name": "John Glasgow of Linlithgow",
+          "url": "/people/glasgow-1561.html"
+        },
+        {
+          "id": "Glasgow-1103",
+          "name": "Thomas Glasgow, indexed 1612 child",
+          "url": "/people/glasgow-1103.html"
+        },
+        {
+          "id": "Glasgow-1099",
+          "name": "George Glasgow, compatible father",
+          "url": "/people/glasgow-1099.html"
+        },
+        {
+          "id": "Stewart-65226",
+          "name": "Margaret Steuart, compatible mother",
+          "url": "/people/stewart-65226.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Scotland’s People supplied OPR index: Thomas Glasgow,15 March1612, Glasgow 644/1,10/81; George Glasgow/Margaret Steuart; index reviewed 10 September 2026",
+          "url": "https://www.scotlandspeople.gov.uk/"
+        },
+        {
+          "title": "John Glasgow-1561: existing proposed Thomas relationship, biography inspected15 October 2026",
+          "url": "https://www.wikitree.com/wiki/Glasgow-1561"
+        }
+      ],
+      "detail_url": "/people/glasgow-1561.html",
+      "provenance": [
+        "research/Glasgow-1561/findings.md",
+        "research/Glasgow-1103/findings.md"
+      ]
     }
   ]
 }
