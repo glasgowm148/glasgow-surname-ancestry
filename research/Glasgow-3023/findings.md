@@ -5,6 +5,8 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
+**Earlier ancestor identity selected, 15 October 2026:** the proposed Stirling father is now provisionally identified with the Glasgow burgess recorded in 1447–1455. This is an uncertain identity choice, not another father generation or a certainty upgrade. [Reasons and alternatives](/branches/early-scottish-records/#glasgow-stirling-identity).
+
 **Selected working father (15 October 2026):** [John Glasgw of Stirling](/free-space/john-glasgw-of-stirling-1b723d/), uncertain / possible. This is a revisable son hypothesis, not a parent named in the criminal proceeding.
 
 Alan is a late-fifteenth-century bearer, not a sixteenth-century Jedburgh man.
@@ -46,3 +48,13 @@ Select son, at low confidence, from the existing son/brother/nephew comparison w
 Prior local assessment: no selected father. The predecessor or son/brother/nephew comparison is retained as the earlier assessment. This is unknown/unselected → selected uncertain, not a certainty upgrade. No mother is assigned and no live WikiTree relationship is changed. See the [complete family comparison](/branches/early-scottish-records/#stirling-working-family).
 
 Sources already maintained: [Stirling charter abstracts, 11 April 1475 and 2 March 1479/80](https://archive.org/details/chartersotherdoc00stir); [NRS B66/25/43, 8 August 1475](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=B66%2F25%2F43); [Pitcairn, Criminal Trials I, part I, p.19](https://archive.org/details/criminaltrialsin01pitc/page/n71/mode/2up), with JC1/1 still to collate. No new original inspection is claimed.
+
+## Glasgow–Stirling identity selection — 15 October 2026
+
+The later 15 October review selects the 1447–1455 Glasgow burgess and 1475–1480 Stirling witness as one uncertain working identity. Both documentary groups stay separate and inspectable. Select the Glasgow burgess of 1447–1455 and the Stirling witness of 1475–1479/80 as the same man, at low confidence. Both groups use compatible John de Glasgu/Glasgw name forms in burgh-property witnessing, and the August 1475 catalogue places the Stirling John among burgesses. An adult active in 1447 could still witness in 1480 in his fifties or older. The conventional circa-1450 Stirling birth was inferred from an assumed young adult in 1475; it cannot establish a second man. A single compatible civic career is the simpler working model than inserting another generation from that estimate.
+
+No shared holding, relative, trade, personal seal or distinctive repeated associate joins the cities. The Glasgow-to-Stirling change is not itself evidence of migration. Father–son, other kin and two unrelated namesakes remain viable alternatives. The name may still be a personal byname; this selection does not prove hereditary surname transmission. The two Glasgow acts remain one high-confidence group and the three Stirling acts another; only their cross-group identity is selected uncertain. No birth, death or additional parent is inferred.
+
+The selected uncertain father links to Saltmarket candidate Glasgow-1095 and Alan Glasgow-3023 remain unchanged. Glasgow-1095 is still only a provisional Saltmarket representative: if it instead represents the older witness, that father link collapses as a duplicate identity. The earlier Malcolm father candidate remains unselected. Identity and father–son alternatives between the Glasgow and Stirling groups are not combined.
+
+See the [complete five-record comparison](/branches/early-scottish-records/#glasgow-stirling-identity). Sources remain the two Glasgow civic acts, the two printed Stirling abstracts and NRS B66/25/43; no new inspection.

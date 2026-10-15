@@ -25994,6 +25994,53 @@
         "research/ancestry-connections/edinburgh-working-family-2026-10-15.md",
         "research/relationship_assessments.json"
       ]
+    },
+    {
+      "id": "glasgow-stirling-selected-identity-2026-10-15",
+      "found_on": "2026-10-15",
+      "kind": "biographical",
+      "status": "qualified",
+      "finding": "The local working ancestor now tentatively combines John de Glasgu, Glasgow burgess in 1447–1455, with John Glasgw/Glesgw, Stirling witness in 1475–1480.",
+      "qualification": "Compatible name, burgess witnessing and a viable 33-year career support a low-confidence one-man model. No shared holding or kin identifies the groups; father–son and other-family alternatives remain open. Five existing occurrences are reused, no new source inspection or vital date, no WikiTree merge, and no parent-edge or component-count credit.",
+      "people": [
+        {
+          "id": "record-john-glasgw-stirling-1475",
+          "name": "John de Glasgu / Glasgw of Stirling",
+          "url": "/free-space/john-glasgw-of-stirling-1b723d/",
+          "draft_url": "/free-space/john-de-glasgu-i-a285ea/"
+        },
+        {
+          "id": "Glasgow-1095",
+          "name": "Saltmarket John, provisional candidate",
+          "url": "/people/glasgow-1095.html"
+        },
+        {
+          "id": "Glasgow-3023",
+          "name": "Alan Glasgw",
+          "url": "/people/glasgow-3023.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Liber Collegii: 1447 and 1455 civic acts",
+          "url": "https://archive.org/details/libercollegiino00annegoog"
+        },
+        {
+          "title": "Stirling charter abstracts: April 1475 and March 1479/80",
+          "url": "https://archive.org/details/chartersotherdoc00stir"
+        },
+        {
+          "title": "NRS B66/25/43: 8 August 1475 burgess witnesses",
+          "url": "https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=B66%2F25%2F43"
+        }
+      ],
+      "detail_url": "/branches/early-scottish-records/#glasgow-stirling-identity",
+      "identity_selection_count": 1,
+      "relationship_change_count": 0,
+      "provenance": [
+        "research/ancestry-connections/glasgow-stirling-working-identity-2026-10-15.md",
+        "research/ancestry-connections/documentary-people.json"
+      ]
     }
   ]
 }

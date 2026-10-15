@@ -1,0 +1,84 @@
+{
+  "reviewed": "2026-10-15",
+  "scope": "Additional uncertain documentary identity; no parent, vital-date or live-profile merge change",
+  "identity_selection": "I-working-20261015-glasgow-stirling-john",
+  "profiles": {
+    "Glasgow-1095": {
+      "current_sha256": "5b1ac998afff9c8ebbbcc15570b1c376621b8600c49113be2faa937b6f88c67a",
+      "prior_proposed_sha256": "5395414ec1564e8853c43a43932f9cca7bf7c44e38b82bf6b8c8e448540f823b",
+      "proposed_sha256": "d12fbd876baab86b9b35914896855696de709375c4fd3ac6bdefcce64f74c97b",
+      "all_substantive_passages_accounted_for": true,
+      "passages": [
+        "Every substantive captured passage, source, person and limitation is retained.",
+        "The prior full replacement is retained; its unselected Glasgow–Stirling identity statement is explicitly superseded by the dated uncertain choice.",
+        "No father edge, mother, vital date, identity merge or evidence-grade upgrade is introduced. The Saltmarket-placeholder dependency and Alan alternatives remain."
+      ],
+      "source_urls_retained": [
+        "https://www.familysearch.org/tree/person/details/G8SP-D3L",
+        "https://www.wikitree.com/wiki/Space:John_Glasgow-1"
+      ]
+    },
+    "Glasgow-3023": {
+      "current_sha256": "9a1aca2fad86c46adbbc4b9df5398edbaae73bfe741d269233df9045f0916c97",
+      "prior_proposed_sha256": "94b2ec04a8b2f1966bc43e7210c9c87ac84f0fcc4154a5903cbaed1212277f0b",
+      "proposed_sha256": "c9e8cfbfd15c2095d9e89f888bb9e1d130895f24fd37253b0acd60eac89db110",
+      "all_substantive_passages_accounted_for": true,
+      "passages": [
+        "Every substantive captured passage, source, person and limitation is retained.",
+        "The prior full replacement is retained; its unselected Glasgow–Stirling identity statement is explicitly superseded by the dated uncertain choice.",
+        "No father edge, mother, vital date, identity merge or evidence-grade upgrade is introduced. The Saltmarket-placeholder dependency and Alan alternatives remain."
+      ],
+      "source_urls_retained": [
+        "https://www.google.co.uk/books/edition/Criminal_Trials_and_Other_Proceedings_Be/LFAJAAAAQAAJ?gbpv=1&pg=PA19"
+      ]
+    }
+  },
+  "queue_reopening": {
+    "Glasgow-1095": {
+      "entry": {
+        "queued_at": "2026-10-15",
+        "significance": 85,
+        "summary": "Review complete sourced research-note draft selecting John Glasgw of Stirling as uncertain local father of John Glasgow of Saltmarket (provisional profile identity); preserve identity and collateral alternatives. Pre-1500/profile-manager scope requires separate review; no live attachment requested. Additional review: selected uncertain Glasgow–Stirling identity extends the proposed ancestor’s record period to 1447; no additional parent or certainty change.",
+        "manual_update": true,
+        "draft_path": "research/Glasgow-1095/Glasgow-1095.md",
+        "preservation_review_path": "research/ancestry-connections/glasgow-stirling-identity-preservation-2026-10-15.json",
+        "reviewed_narrative_reduction": true,
+        "preserve_captured_detail": false,
+        "relationship_changes": [
+          {
+            "action": "add",
+            "relationship": "father",
+            "status": "uncertain",
+            "relative_id": "record-john-glasgw-stirling-1475",
+            "relative_wikitree_url": "https://www.wikitree.com/wiki/Space:John_Glasgw_of_Stirling",
+            "assertion_id": "C-working-20261015-glasgow-1095-stirling-john"
+          }
+        ]
+      },
+      "state": null
+    },
+    "Glasgow-3023": {
+      "entry": {
+        "queued_at": "2026-10-15",
+        "significance": 75,
+        "summary": "Review complete sourced research-note draft selecting John Glasgw of Stirling as uncertain local father of Alan Glasgw; preserve identity and collateral alternatives. Pre-1500/profile-manager scope requires separate review; no live attachment requested. Additional review: selected uncertain Glasgow–Stirling identity extends the proposed ancestor’s record period to 1447; no additional parent or certainty change.",
+        "manual_update": true,
+        "draft_path": "research/Glasgow-3023/Glasgow-3023.md",
+        "preservation_review_path": "research/ancestry-connections/glasgow-stirling-identity-preservation-2026-10-15.json",
+        "reviewed_narrative_reduction": true,
+        "preserve_captured_detail": false,
+        "relationship_changes": [
+          {
+            "action": "add",
+            "relationship": "father",
+            "status": "uncertain",
+            "relative_id": "record-john-glasgw-stirling-1475",
+            "relative_wikitree_url": "https://www.wikitree.com/wiki/Space:John_Glasgw_of_Stirling",
+            "assertion_id": "C-working-20261015-glasgow-3023-stirling-john"
+          }
+        ]
+      },
+      "state": null
+    }
+  }
+}

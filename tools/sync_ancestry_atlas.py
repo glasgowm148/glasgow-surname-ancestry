@@ -32,6 +32,7 @@ def overlay_model(retained: dict, fresh: dict) -> dict:
     people = [p for p in result['people'] if p.get('kind') == 'person']
     result['meta'].update(people=len(people), groups=len(sections),
                           hypotheses=len(selected), documentaryPeople=len(documentary),
+                          identityHypotheses=fresh['meta'].get('identityHypotheses', 0),
                           parentRelationships=sum(len(p.get('parents', [])) for p in people),
                           workingOverlayIds=sorted(selected),
                           workingUpdated=fresh['meta']['date'],

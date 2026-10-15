@@ -1626,7 +1626,10 @@
     "profiles": {},
     "documentary_subject_ids": [
       "record-john-glasgw-stirling-1475"
-    ]
+    ],
+    "documentary_group_id": "stirling-john-1475-1480",
+    "identity_selection_id": "I-working-20261015-glasgow-stirling-john",
+    "documentary_assignment_status": "Strong within-Stirling assignment; combined Glasgow identity uncertain"
   },
   {
     "record_id": "stirling-john-1475-august",
@@ -1643,7 +1646,10 @@
     "profiles": {},
     "documentary_subject_ids": [
       "record-john-glasgw-stirling-1475"
-    ]
+    ],
+    "documentary_group_id": "stirling-john-1475-1480",
+    "identity_selection_id": "I-working-20261015-glasgow-stirling-john",
+    "documentary_assignment_status": "Strong within-Stirling assignment; combined Glasgow identity uncertain"
   },
   {
     "record_id": "stirling-john-1480-march",
@@ -1660,7 +1666,10 @@
     "profiles": {},
     "documentary_subject_ids": [
       "record-john-glasgw-stirling-1475"
-    ]
+    ],
+    "documentary_group_id": "stirling-john-1475-1480",
+    "identity_selection_id": "I-working-20261015-glasgow-stirling-john",
+    "documentary_assignment_status": "Strong within-Stirling assignment; combined Glasgow identity uncertain"
   },
   {
     "record_id": "alan-glasgw-remission-1494-95",
@@ -1750,5 +1759,41 @@
         "timeline_group": "Civic records"
       }
     }
+  },
+  {
+    "record_id": "glasgow-john-burgess-1447",
+    "association": "John de Glasgu, Glasgow civic witness",
+    "date": "21 June 1447",
+    "year": 1447,
+    "place": "Glasgow, Scotland",
+    "source_title": "Liber Collegii Nostre Domine (1846), dated civic property act; Blackhouse BL68 / GUA12418",
+    "source_url": "https://archive.org/details/libercollegiino00annegoog",
+    "status": "Existing printed-record assessment; no new original inspection",
+    "note": "John appears in the civic witness group. The 1447 burgess description and repeated 1455 name, same notary and neighbourhood support the existing strong within-Glasgow identity. Assignment to the combined Stirling ancestor is a selected uncertain cross-group identity, not a new parent clause.",
+    "profiles": {},
+    "documentary_subject_ids": [
+      "record-john-glasgw-stirling-1475"
+    ],
+    "documentary_group_id": "glasgow-john-1447-1455",
+    "identity_selection_id": "I-working-20261015-glasgow-stirling-john",
+    "documentary_assignment_status": "Selected uncertain identity across record groups"
+  },
+  {
+    "record_id": "glasgow-john-burgess-1455",
+    "association": "John de Glasgu, Glasgow civic witness",
+    "date": "10 April 1455 in printed Latin; archive catalogue 19 April unresolved",
+    "year": 1455,
+    "place": "Glasgow, Scotland",
+    "source_title": "Liber Collegii Nostre Domine (1846), dated civic property act; Blackhouse BL82 / GUA12430",
+    "source_url": "https://archive.org/details/libercollegiino00annegoog",
+    "status": "Existing printed-record assessment; no new original inspection",
+    "note": "John appears in the civic witness group. The 1447 burgess description and repeated 1455 name, same notary and neighbourhood support the existing strong within-Glasgow identity. Assignment to the combined Stirling ancestor is a selected uncertain cross-group identity, not a new parent clause.",
+    "profiles": {},
+    "documentary_subject_ids": [
+      "record-john-glasgw-stirling-1475"
+    ],
+    "documentary_group_id": "glasgow-john-1447-1455",
+    "identity_selection_id": "I-working-20261015-glasgow-stirling-john",
+    "documentary_assignment_status": "Selected uncertain identity across record groups"
   }
 ]

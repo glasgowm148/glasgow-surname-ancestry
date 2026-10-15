@@ -1525,3 +1525,8 @@ The August completion entries remain historical. The live parent fields are now 
 
 - [[Glasgow-3598]] — OPEN: complete additive research-note draft; newly selected uncertain Ninian father with niece/identity alternatives. No live parent attachment requested.
 - [[Glasgow-3302]] — OPEN: complete additive research-note draft; newly selected uncertain Ninian father with niece/identity alternatives. No live parent attachment requested.
+
+## Glasgow–Stirling working identity — 15 October 2026
+
+- [[Glasgow-1095]] — OPEN: additive identity-context review in the existing full draft; proposed Stirling ancestor now tentatively includes the 1447–1455 Glasgow burgess. No additional parent edge, certainty upgrade or live merge.
+- [[Glasgow-3023]] — OPEN: additive identity-context review in the existing full draft; proposed Stirling ancestor now tentatively includes the 1447–1455 Glasgow burgess. No additional parent edge, certainty upgrade or live merge.

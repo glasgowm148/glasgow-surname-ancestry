@@ -218,7 +218,8 @@ def generate_model(catalogue_path: Path, prior: dict) -> dict:
                            birthLocationRegion='other', deathLocationRegion='other',
                            cluster=person.get('record_place', ''), documentary=True,
                            recordUrl=person['url'], catalogueUrl=person['url'], wikitreeUrl=person.get('wikitree_url', ''),
-                           recordPeriod=person['record_period'], recordPlace=person.get('record_place', ''), sourceIds=person['source_ids']))
+                           recordPeriod=person['record_period'], recordPlace=person.get('record_place', ''), sourceIds=person['source_ids'],
+                           identitySelection=person.get('identity_selection'), recordGroups=person.get('record_groups', [])))
     try:
         assessments = json.loads(WORKING_ASSESSMENTS.read_text(encoding="utf-8"))
     except FileNotFoundError:
@@ -350,6 +351,7 @@ def generate_model(catalogue_path: Path, prior: dict) -> dict:
             "partners": spouse_relationships, "hypotheses": hypotheses, "withheld": payload.get("withheld_likely_living_count", 0),
             "coverage": f"Generated from the public catalogue dated {payload.get('generated', '')}; {len(people)-len(documentary):,} public WikiTree profiles and {len(documentary)} named documentary ancestors are included.",
             "documentaryPeople": len(documentary),
+            "identityHypotheses": sum((p.get('identity_selection') or {}).get('selected') is True for p in documentary),
             "method": "Current family fields come from the public catalogue, alongside named documentary ancestors with complete sourced accounts. Documentary record periods are not birth dates. Selected working hypotheses remain marked uncertain and counted separately. One parent drives the drawing; collection nodes do not assert common ancestry.",
             "sources": [{"title": "Glasgow research catalogue", "url": "https://glasgow.phenotype.dev/"}, {"title": "Public catalogue people data", "url": "https://glasgow.phenotype.dev/data/people.json"}, {"title": "Public Y-DNA explorer", "url": "https://glasgow.phenotype.dev/ydna/"}],
             "sourceExports": [path.name for path in exports], "catalogueGenerated": payload.get("generated", ""),

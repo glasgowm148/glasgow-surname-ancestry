@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+**Earlier ancestor identity selected, 15 October 2026:** the proposed Stirling father is now provisionally identified with the Glasgow burgess recorded in 1447–1455. This is an uncertain identity choice, not another father generation or a certainty upgrade. [Reasons and alternatives](/branches/early-scottish-records/#glasgow-stirling-identity).
+
 **Selected working father (15 October 2026):** [John Glasgw of Stirling](/free-space/john-glasgw-of-stirling-1b723d/), uncertain / possible. This depends on using this profile provisionally for Saltmarket John; the imported placeholder’s identity remains unresolved.
 
 Reviewed: 2026-10-15
@@ -87,8 +89,18 @@ The Saltmarket account now treats its circa-1480 birth estimate as conditional o
 
 Select John Glasgw of Stirling as the uncertain father of Saltmarket John, using Glasgow-1095 as a provisional Saltmarket representative. Stirling John was an adult witness by 1475 and a burgess in the August charter description. That fits an older generation than the Saltmarket owner, securely recorded in 1527 and conditionally associated with the adult alias-Smith purchaser in 1506. The uncommon name, consecutive civic-property settings and the weak Brady/Brade surname-network clue support the existing leading father hypothesis. The Saltmarket parcel passing to William by 1528/29 favours placing this candidate with William’s family.
 
-**Limits and alternatives:** The imported profile is a conflated placeholder whose biography also points to the Stirling witness. It is not proved to be Saltmarket John. If it instead represents the Stirling man, this proposed father link collapses as an identity duplicate. The 1506 alias-Smith identity and circa-1480 birth are conditional; no kinship clause or shared holding joins Stirling to Saltmarket. Brother, cousin, other predecessor or unrelated namesake remain alternatives. The 1447–1455 Glasgow burgess could be the Stirling man or an earlier relative; neither alternative is selected here.
+**Limits and alternatives:** The imported profile is a conflated placeholder whose biography also points to the Stirling witness. It is not proved to be Saltmarket John. If it instead represents the Stirling man, this proposed father link collapses as an identity duplicate. The 1506 alias-Smith identity and circa-1480 birth are conditional; no kinship clause or shared holding joins Stirling to Saltmarket. Brother, cousin, other predecessor or unrelated namesake remain alternatives. The later 15 October review selects the 1447–1455 Glasgow burgess and Stirling witness as one uncertain working identity. Father–son and other-family alternatives remain unselected; the two documentary groups stay separately inspectable.
 
 Prior local assessment: no selected father. The predecessor or son/brother/nephew comparison is retained as the earlier assessment. This is unknown/unselected → selected uncertain, not a certainty upgrade. No mother is assigned and no live WikiTree relationship is changed. See the [complete family comparison](/branches/early-scottish-records/#stirling-working-family).
 
 Sources already maintained: [Stirling charter abstracts, 11 April 1475 and 2 March 1479/80](https://archive.org/details/chartersotherdoc00stir); [NRS B66/25/43, 8 August 1475](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=B66%2F25%2F43); [Saltmarket title account](https://archive.org/details/libercollegiino00annegoog). No new original inspection is claimed.
+
+## Glasgow–Stirling identity selection — 15 October 2026
+
+The later 15 October review selects the 1447–1455 Glasgow burgess and 1475–1480 Stirling witness as one uncertain working identity. Both documentary groups stay separate and inspectable. Select the Glasgow burgess of 1447–1455 and the Stirling witness of 1475–1479/80 as the same man, at low confidence. Both groups use compatible John de Glasgu/Glasgw name forms in burgh-property witnessing, and the August 1475 catalogue places the Stirling John among burgesses. An adult active in 1447 could still witness in 1480 in his fifties or older. The conventional circa-1450 Stirling birth was inferred from an assumed young adult in 1475; it cannot establish a second man. A single compatible civic career is the simpler working model than inserting another generation from that estimate.
+
+No shared holding, relative, trade, personal seal or distinctive repeated associate joins the cities. The Glasgow-to-Stirling change is not itself evidence of migration. Father–son, other kin and two unrelated namesakes remain viable alternatives. The name may still be a personal byname; this selection does not prove hereditary surname transmission. The two Glasgow acts remain one high-confidence group and the three Stirling acts another; only their cross-group identity is selected uncertain. No birth, death or additional parent is inferred.
+
+The selected uncertain father links to Saltmarket candidate Glasgow-1095 and Alan Glasgow-3023 remain unchanged. Glasgow-1095 is still only a provisional Saltmarket representative: if it instead represents the older witness, that father link collapses as a duplicate identity. The earlier Malcolm father candidate remains unselected. Identity and father–son alternatives between the Glasgow and Stirling groups are not combined.
+
+See the [complete five-record comparison](/branches/early-scottish-records/#glasgow-stirling-identity). Sources remain the two Glasgow civic acts, the two printed Stirling abstracts and NRS B66/25/43; no new inspection.

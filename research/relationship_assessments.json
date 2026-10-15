@@ -3653,7 +3653,7 @@
     ],
     "profile_names": {
       "Glasgow-1095": "John Glasgow of Saltmarket (provisional profile identity)",
-      "record-john-glasgw-stirling-1475": "John Glasgw of Stirling"
+      "record-john-glasgw-stirling-1475": "John de Glasgu / Glasgw of Stirling"
     },
     "profile_urls": {
       "record-john-glasgw-stirling-1475": {
@@ -3667,7 +3667,7 @@
     "allow_new_relationship": true,
     "claim": "John Glasgw of Stirling is the selected uncertain working father of John Glasgow of Saltmarket (provisional profile identity).",
     "basis": "Select John Glasgw of Stirling as the uncertain father of Saltmarket John, using Glasgow-1095 as a provisional Saltmarket representative. Stirling John was an adult witness by 1475 and a burgess in the August charter description. That fits an older generation than the Saltmarket owner, securely recorded in 1527 and conditionally associated with the adult alias-Smith purchaser in 1506. The uncommon name, consecutive civic-property settings and the weak Brady/Brade surname-network clue support the existing leading father hypothesis. The Saltmarket parcel passing to William by 1528/29 favours placing this candidate with William’s family.",
-    "limitations": "The imported profile is a conflated placeholder whose biography also points to the Stirling witness. It is not proved to be Saltmarket John. If it instead represents the Stirling man, this proposed father link collapses as an identity duplicate. The 1506 alias-Smith identity and circa-1480 birth are conditional; no kinship clause or shared holding joins Stirling to Saltmarket. Brother, cousin, other predecessor or unrelated namesake remain alternatives. The 1447–1455 Glasgow burgess could be the Stirling man or an earlier relative; neither alternative is selected here.",
+    "limitations": "The imported profile is a conflated placeholder whose biography also points to the Stirling witness. It is not proved to be Saltmarket John. If it instead represents the Stirling man, this proposed father link collapses as an identity duplicate. The 1506 alias-Smith identity and circa-1480 birth are conditional; no kinship clause or shared holding joins Stirling to Saltmarket. Brother, cousin, other predecessor or unrelated namesake remain alternatives. The later 15 October review selects the 1447–1455 Glasgow burgess and Stirling witness as one uncertain working identity. Father–son and other-family alternatives remain unselected; the two documentary groups stay separately inspectable.",
     "source_ids": [
       "stirling-john-1475-april",
       "stirling-john-1475-august",
@@ -3690,6 +3690,10 @@
       {
         "label": "Selected Stirling family: reasons and alternatives",
         "href": "/branches/early-scottish-records/#stirling-working-family"
+      },
+      {
+        "label": "1447–1480 working identity and rival father–son model",
+        "href": "/branches/early-scottish-records/#glasgow-stirling-identity"
       }
     ],
     "provenance": {
@@ -3697,7 +3701,8 @@
       "basis": "Selection from existing maintained family hypotheses; no new parent record.",
       "prior_assessment": "Father unselected/unknown; son/brother/nephew or predecessor comparisons retained.",
       "resolution_note": "Selected uncertain local model only. No certainty upgrade, profile merge or live WikiTree save."
-    }
+    },
+    "upstream_identity_selection": "I-working-20261015-glasgow-stirling-john"
   },
   {
     "assertion_id": "C-working-20261015-glasgow-3023-stirling-john",
@@ -3707,7 +3712,7 @@
     ],
     "profile_names": {
       "Glasgow-3023": "Alan Glasgw",
-      "record-john-glasgw-stirling-1475": "John Glasgw of Stirling"
+      "record-john-glasgw-stirling-1475": "John de Glasgu / Glasgw of Stirling"
     },
     "profile_urls": {
       "record-john-glasgw-stirling-1475": {
@@ -3744,6 +3749,10 @@
       {
         "label": "Selected Stirling family: reasons and alternatives",
         "href": "/branches/early-scottish-records/#stirling-working-family"
+      },
+      {
+        "label": "1447–1480 working identity and rival father–son model",
+        "href": "/branches/early-scottish-records/#glasgow-stirling-identity"
       }
     ],
     "provenance": {
@@ -3751,7 +3760,8 @@
       "basis": "Selection from existing maintained family hypotheses; no new parent record.",
       "prior_assessment": "Father unselected/unknown; son/brother/nephew or predecessor comparisons retained.",
       "resolution_note": "Selected uncertain local model only. No certainty upgrade, profile merge or live WikiTree save."
-    }
+    },
+    "upstream_identity_selection": "I-working-20261015-glasgow-stirling-john"
   },
   {
     "assertion_id": "C-working-20261015-glasgow-3598-glasgow-3188",

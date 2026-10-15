@@ -142,6 +142,8 @@ def build(create_baseline=False):
         quality=quality,
         available_surname_people=sum(n.get("cohort_member") is not False for n in nodes.values()),
         documentary_ancestors=len(documentary),
+        documentary_identity_selections=[{'person_id': p['id'], **p['identity_selection']}
+                                         for p in documentary if (p.get('identity_selection') or {}).get('selected') is True],
         undated_surname_people=len(quality["undated_people"]),
         cohorts=cohorts,
         baseline=baseline,

@@ -4,20 +4,75 @@
   "people": [
     {
       "id": "record-john-glasgw-stirling-1475",
-      "name": "John Glasgw of Stirling",
+      "name": "John de Glasgu / Glasgw of Stirling",
       "gender": "Male",
       "publication_status": "approved",
-      "first_record_year": 1475,
-      "record_period": "1475–1479/80",
-      "record_place": "Stirling",
+      "first_record_year": 1447,
+      "record_period": "1447–1479/80 · combined identity uncertain",
+      "record_place": "Glasgow and Stirling",
       "url": "/free-space/john-glasgw-of-stirling-1b723d/",
       "wikitree_url": "https://www.wikitree.com/wiki/Space:John_Glasgw_of_Stirling",
       "source_ids": [
+        "glasgow-john-burgess-1447",
+        "glasgow-john-burgess-1455",
         "stirling-john-1475-april",
         "stirling-john-1475-august",
         "stirling-john-1480-march"
       ],
-      "summary": "Named witness in three Stirling acts. Selected uncertain father of the Saltmarket candidate and, more tentatively, Alan Glasgw. Birth and death unknown. The earlier Glasgow burgess identity/parent alternatives remain unselected."
+      "summary": "Selected uncertain identity: the Glasgow burgess of 1447–1455 and Stirling witness of 1475–1480 are modelled as one man. Both source groups remain separate and intact. A compatible 33-year adult career and shared civic role favour this provisional model; father–son and other-family alternatives remain open. Birth and death unknown. His two selected uncertain father links remain conditional, with no additional parent or component-join credit.",
+      "record_groups": [
+        {
+          "id": "glasgow-john-1447-1455",
+          "name": "John de Glasgu, Glasgow burgess",
+          "first_record_year": 1447,
+          "record_period": "1447–1455",
+          "source_ids": [
+            "glasgow-john-burgess-1447",
+            "glasgow-john-burgess-1455"
+          ],
+          "url": "/free-space/john-de-glasgu-i-a285ea/",
+          "within_group_status": "Very high confidence existing assignment"
+        },
+        {
+          "id": "stirling-john-1475-1480",
+          "name": "John Glasgw/Glesgw, Stirling witness",
+          "first_record_year": 1475,
+          "record_period": "1475–1479/80",
+          "source_ids": [
+            "stirling-john-1475-april",
+            "stirling-john-1475-august",
+            "stirling-john-1480-march"
+          ],
+          "url": "/free-space/john-glasgw-of-stirling-1b723d/",
+          "within_group_status": "High confidence existing assignment"
+        }
+      ],
+      "identity_selection": {
+        "id": "I-working-20261015-glasgow-stirling-john",
+        "selected": true,
+        "model": "same_person",
+        "status": "uncertain",
+        "evidence_grade": "Low-confidence working identity",
+        "reviewed": "2026-10-15",
+        "basis": "Select the Glasgow burgess of 1447–1455 and the Stirling witness of 1475–1479/80 as the same man, at low confidence. Both groups use compatible John de Glasgu/Glasgw name forms in burgh-property witnessing, and the August 1475 catalogue places the Stirling John among burgesses. An adult active in 1447 could still witness in 1480 in his fifties or older. The conventional circa-1450 Stirling birth was inferred from an assumed young adult in 1475; it cannot establish a second man. A single compatible civic career is the simpler working model than inserting another generation from that estimate.",
+        "limitations": "No shared holding, relative, trade, personal seal or distinctive repeated associate joins the cities. The Glasgow-to-Stirling change is not itself evidence of migration. Father–son, other kin and two unrelated namesakes remain viable alternatives. The name may still be a personal byname; this selection does not prove hereditary surname transmission. The two Glasgow acts remain one high-confidence group and the three Stirling acts another; only their cross-group identity is selected uncertain. No birth, death or additional parent is inferred.",
+        "analysis_url": "/branches/early-scottish-records/#glasgow-stirling-identity",
+        "prior_assessment": "Two separate documentary accounts; compatible identity and father–son alternatives, neither selected.",
+        "alternatives": [
+          {
+            "model": "father_son",
+            "selected": false
+          },
+          {
+            "model": "other_kin",
+            "selected": false
+          },
+          {
+            "model": "different_unrelated_men",
+            "selected": false
+          }
+        ]
+      }
     }
   ],
   "chronology": [
