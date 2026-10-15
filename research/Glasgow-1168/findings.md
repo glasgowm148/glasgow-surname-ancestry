@@ -181,3 +181,8 @@ was applied with explicit uncertain status and verified live on 31 August 2026.
 was already a legal witness in the Glencairn network in 1549, making him a
 better probable brother/cousin than son of James. No exact structural edge is
 yet justified for Michael.
+
+
+## Working family extension — 15 October 2026
+
+Michael-3911 is now a possible brother in the local working tree: the existing uncertain William-1098 father hypothesis is extended to him. This selects one branch of the previously recorded brother-or-cousin comparison and does not prove either exact kinship or William’s parentage. [Reasoning and alternatives](/branches/early-scottish-records/#early-collateral-joins).

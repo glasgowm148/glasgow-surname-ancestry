@@ -109,8 +109,8 @@ def shared_relationship(profile_id, relation, assessments):
         result.update(next((deepcopy(v) for k, v in assessment.get('perspectives', {}).items()
                             if k.casefold() == profile_id.casefold()), {}))
         if assessment.get('assertion_id'):
-            result.update(claim_id=assessment['assertion_id'], lifecycle='current',
-                          display='hypothesis' if assessment.get('hypothesis_status') else 'current', tree_relationship=False,
+            result.update(claim_id=assessment['assertion_id'], lifecycle=assessment.get('lifecycle') or 'current',
+                          display=assessment.get('display') or ('hypothesis' if assessment.get('hypothesis_status') else 'current'), tree_relationship=False,
                           relationship_source='shared_research_assertion')
             role = result.get('relationship', 'relationship')
             # Shared vocabulary: tools/evidence_labels.py.

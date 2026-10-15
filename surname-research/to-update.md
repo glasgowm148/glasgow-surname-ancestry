@@ -1508,3 +1508,10 @@ The August completion entries remain historical. The live parent fields are now 
 | [John Glasgow of Linlithgow](https://www.wikitree.com/wiki/Glasgow-1561) | OPEN | Selected uncertain father Glasgow-3163; retain the logical basis, alternatives and separate mother assessment. | [Complete draft](../research/Glasgow-1561/Glasgow-1561.md) |
 | [David Glasgow of Mid Calder](https://www.wikitree.com/wiki/Glasgow-1028) | OPEN | Selected uncertain father Glasgow-3163; retain the logical basis, alternatives and separate mother assessment. | [Complete draft](../research/Glasgow-1028/Glasgow-1028.md) |
 | [John Glasgow of Kirknewton](https://www.wikitree.com/wiki/Glasgow-3610) | OPEN | Selected uncertain father Glasgow-3296; retain the logical basis, alternatives and separate mother assessment. | [Complete draft](../research/Glasgow-3610/Glasgow-3610.md) |
+
+
+## Early collateral working placements — 15 October 2026
+
+| [Michael Glasgow of Stevenston](https://www.wikitree.com/wiki/Glasgow-3911) | OPEN | Research-note addition: selected uncertain local father Glasgow-1098, with alternatives; no live parent attachment requested. | [Complete draft](../research/Glasgow-3911/Glasgow-3911.md) |
+| [Jonat Glasgow, wife of David Menzeis](https://www.wikitree.com/wiki/Glasgow-3262) | OPEN | Research-note addition: selected uncertain local father Glasgow-3163, with alternatives; no live parent attachment requested. | [Complete draft](../research/Glasgow-3262/Glasgow-3262.md) |
+| [Barbara Glasgow, wife of Johne Wilsoune](https://www.wikitree.com/wiki/Glasgow-3182) | OPEN | Research-note addition: selected uncertain local father Glasgow-3188, with alternatives; no live parent attachment requested. | [Complete draft](../research/Glasgow-3182/Glasgow-3182.md) |

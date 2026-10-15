@@ -1,0 +1,95 @@
+{
+  "reviewed": "2026-10-15",
+  "scope": "Complete local research-note drafts; no live parent attachments or identity merges",
+  "profiles": {
+    "Glasgow-3911": {
+      "current_sha256": "5e9c40f2dc5575ebd982bb2070158c2332712b96d1bedecfcff3f3954ae62642",
+      "proposed_sha256": "e2f97b681e5f1f827a964c494a9f8dae7a5764c262833687d7fb7615a19245fc",
+      "all_substantive_passages_accounted_for": true,
+      "passages": [
+        "Every substantive captured line is retained verbatim, including facts, all named associates, citations, acknowledgements and previous hypotheses; the shared formatter normalises Research Notes heading levels and converts the Glasgow study template to its category.",
+        "A separate explicitly uncertain local-model section adds the chosen father, rival explanations and missing identity bridges. Earlier no-attachment statements remain historically qualified; no live parent change is requested.",
+        "Empty planning stubs are replaced with the complete current biography plus the reviewed addition."
+      ],
+      "source_urls_retained": [
+        "https://aanhs.org/wp-content/uploads/2018/05/people-of-ayrshire.pdf#page=36",
+        "https://archive.org/details/abstractsprotoc07robegoog/page/n90/mode/2up",
+        "https://books.google.com/books?id=PiVDAAAAcAAJ",
+        "https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/browsetreeview.aspx?reference=C22",
+        "https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD39%2F1%2F59"
+      ]
+    },
+    "Glasgow-3262": {
+      "current_sha256": "546a4724c934fc2bba51955b22ce68fd6f25f08da8371e6273eca7078cc8f519",
+      "proposed_sha256": "4d5452a2ba7cbd7f6aa36dc4edd9b085d6e1a560869ebc161b941e1f11c607d2",
+      "all_substantive_passages_accounted_for": true,
+      "passages": [
+        "Every substantive captured line is retained verbatim, including facts, all named associates, citations, acknowledgements and previous hypotheses; the shared formatter normalises Research Notes heading levels and converts the Glasgow study template to its category.",
+        "A separate explicitly uncertain local-model section adds the chosen father, rival explanations and missing identity bridges. Earlier no-attachment statements remain historically qualified; no live parent change is requested.",
+        "Empty planning stubs are replaced with the complete current biography plus the reviewed addition."
+      ],
+      "source_urls_retained": [
+        "https://www.wikitree.com/wiki/Space:MINGUS_Inc._%28Menzies_INternational_Genealogy_UnderStudy%29-1"
+      ]
+    },
+    "Glasgow-3182": {
+      "current_sha256": "07d3eb01d4a0938b24605eec9b09f7f6b2d10ecdacdb8b0ec2126cd8cc29a7ac",
+      "proposed_sha256": "8e391820cf861b29faba8116d17338145ca6b74c3d6f26107e56a1e9e1f1912e",
+      "all_substantive_passages_accounted_for": true,
+      "passages": [
+        "Every substantive captured line is retained verbatim, including facts, all named associates, citations, acknowledgements and previous hypotheses; the shared formatter normalises Research Notes heading levels and converts the Glasgow study template to its category.",
+        "A separate explicitly uncertain local-model section adds the chosen father, rival explanations and missing identity bridges. Earlier no-attachment statements remain historically qualified; no live parent change is requested.",
+        "Empty planning stubs are replaced with the complete current biography plus the reviewed addition."
+      ],
+      "source_urls_retained": [
+        "https://www.familysearch.org/ark:/61903/1:1:VQ4N-CDX",
+        "https://www.familysearch.org/ark:/61903/1:1:XYML-ZBB"
+      ]
+    }
+  },
+  "queue_reopening": {
+    "Glasgow-3911": {
+      "entry": {
+        "queued_at": "2026-10-15",
+        "significance": 70,
+        "summary": "Review research-note addition explaining William Glasgow of Saltmarket as the selected uncertain local father; preserve alternatives. No live parent attachment requested; respect profile manager scope.",
+        "manual_update": true,
+        "draft_path": "research/Glasgow-3911/Glasgow-3911.md",
+        "preservation_review_path": "research/ancestry-connections/early-collaterals-preservation-2026-10-15.json",
+        "reviewed_narrative_reduction": true,
+        "preserve_captured_detail": false
+      },
+      "state": null
+    },
+    "Glasgow-3262": {
+      "entry": {
+        "queued_at": "2026-10-15",
+        "significance": 70,
+        "summary": "Review research-note addition explaining Andrew Glasgow of Corsoun, Calder as the selected uncertain local father; preserve alternatives. No live parent attachment requested; respect profile manager scope.",
+        "manual_update": true,
+        "draft_path": "research/Glasgow-3262/Glasgow-3262.md",
+        "preservation_review_path": "research/ancestry-connections/early-collaterals-preservation-2026-10-15.json",
+        "reviewed_narrative_reduction": true,
+        "preserve_captured_detail": false
+      },
+      "state": null
+    },
+    "Glasgow-3182": {
+      "entry": {
+        "queued_at": "2026-10-15",
+        "significance": 70,
+        "summary": "Review research-note addition explaining Ninian Glasgow as the selected uncertain local father; preserve alternatives. No live parent attachment requested; respect profile manager scope.",
+        "manual_update": true,
+        "draft_path": "research/Glasgow-3182/Glasgow-3182.md",
+        "preservation_review_path": "research/ancestry-connections/early-collaterals-preservation-2026-10-15.json",
+        "reviewed_narrative_reduction": true,
+        "preserve_captured_detail": false
+      },
+      "state": {
+        "reopened_at": "2026-10-15",
+        "previous_live_completion_retained": true,
+        "reason": "Complete research-note addition prepared for the newly selected uncertain local model."
+      }
+    }
+  }
+}

@@ -10,6 +10,45 @@ spec.loader.exec_module(module)
 
 
 class ResolvedDossierTests(unittest.TestCase):
+    def test_selected_father_keeps_other_candidate_without_counting_both(self):
+        from tools.branch_connectivity import load_public_nodes, summarize
+
+        original = {'id': 'Example-1', 'identity': {'gender': 'Female'},
+                    'vitals': {'birth': {'date': '1600'}},
+                    'relationships': {'parents': [{'id': 'Example-2', 'relationship': 'father',
+                                                   'status': 'possible', 'claim_id': 'old'}]},
+                    'claims': [{'id': 'old', 'status': 'possible'}]}
+        selected = {'assertion_id': 'selected', 'people': ['Example-1', 'Example-3'],
+                    'publication_status': 'approved', 'status': 'uncertain',
+                    'hypothesis_status': 'possible', 'working_selection': True,
+                    'allow_new_relationship': True, 'source_ids': ['record-context'],
+                    'perspectives': {'Example-1': {'relationship': 'father', 'reason': 'Preferred local family'}}}
+        alternative = {'assertion_id': 'alternative', 'people': ['Example-1', 'Example-2'],
+                       'publication_status': 'approved', 'status': 'possible',
+                       'lifecycle': 'alternative', 'display': 'alternative',
+                       'perspectives': {'Example-1': {'relationship': 'father',
+                                                     'reason': 'Viable other family, still open'}}}
+        result = module.resolve(original, [], [selected, alternative])
+        parents = {r['id']: r for r in result['relationships']['parents']}
+        self.assertEqual(parents['Example-2']['status'], 'possible')
+        self.assertEqual(parents['Example-2']['reason'], 'Viable other family, still open')
+        self.assertEqual(result['imported']['sections']['relationships'], original['relationships'])
+        self.assertEqual(result, module.resolve(result, [], [selected, alternative]))
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp); (root / 'people').mkdir(); (root / 'data').mkdir()
+            rows = []
+            for person in ['Example-1', 'Example-2', 'Example-3']:
+                dossier = result if person == 'Example-1' else {
+                    'id': person, 'vitals': {'birth': {'date': '1570'}}}
+                (root / 'people' / f'{person.lower()}.json').write_text(json.dumps(dossier))
+                rows.append({'id': person, 'birth_surnames': ['Example'],
+                             'json_url': f'/people/{person.lower()}.json'})
+            (root / 'data/people-index.json').write_text(json.dumps(rows))
+            nodes, edges, quality = load_public_nodes(root, {'Example'})
+            self.assertEqual([(e['child'], e['father']) for e in edges], [('Example-1', 'Example-3')])
+            self.assertEqual(quality['multiple_fathers'], [])
+            self.assertEqual(summarize(nodes, edges, 1650, 'confident')['edge_count'], 0)
+
     def test_review_preserves_import_and_is_idempotent(self):
         original = {'id': 'Person-1', 'vitals': {'death': {'place': 'Imported', 'status': 'exact'}},
                     'relationships': {'parents': [{'id': 'Person-2', 'claim_id': 'C1', 'status': 'unknown'}]},

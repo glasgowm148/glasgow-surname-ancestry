@@ -173,3 +173,8 @@ Recorded in `research/Glasgow-3163/Glasgow-3163.md` (27 September 2026), checked
 - [David Glasgow of Mid Calder](/people/glasgow-1028.html) is now a selected **uncertain** son in the local working model. David’s1606 and1612 Mid Calder baptisms place his household in the same small Calder area as the earlier Andrew household. His approximate generation permits Andrew to be his father. The first recorded daughter Elspeth is consistent with the Elizat name in Andrew’s household, a minor naming clue rather than a mother identification. Select Andrew as the tentative shared father with James and John; exact birth years remain estimates. Alternatives remain in the child’s account.
 
 [Working-model reasoning](/branches/early-scottish-records/#selected-working-joins). No new proof or shared mother is claimed; earlier interpretations remain in their recorded context.
+
+
+## Working family extension — 15 October 2026
+
+Jonat-3262, the Mid Calder mother with David Menzeis in 1609, is selected as an uncertain daughter through her possible identity with the 1624 Ramsy bride Jonet-3183. The two profiles remain separate and both identity steps remain open; no mother is assigned. [Reasoning and alternatives](/branches/early-scottish-records/#early-collateral-joins).

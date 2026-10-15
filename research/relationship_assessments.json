@@ -3455,5 +3455,194 @@
       "resolution_note": "Selected local working hypothesis. Raw WikiTree parent fields remain unchanged; no certainty upgrade or live save.",
       "prior_assessment": "Parent unknown/unselected locally; previous positive testament-child rationale remains superseded."
     }
+  },
+  {
+    "assertion_id": "C-working-20261015-glasgow-3911-glasgow-1098",
+    "people": [
+      "Glasgow-3911",
+      "Glasgow-1098"
+    ],
+    "profile_names": {
+      "Glasgow-3911": "Michael Glasgow of Stevenston",
+      "Glasgow-1098": "William Glasgow of Saltmarket"
+    },
+    "status": "uncertain",
+    "hypothesis_status": "possible",
+    "evidence_grade": "low-confidence working inference",
+    "working_selection": true,
+    "allow_new_relationship": true,
+    "claim": "William Glasgow of Saltmarket is the selected uncertain working father of Michael Glasgow of Stevenston.",
+    "basis": "The existing Stevenston study places Michael as a probable brother or cousin of James elder of Corsankell, rather than his son. Michael was an adult witness in the Glencairn estate network in 1549; both appear in the same small estate landscape in the 1559–60 teind list. Their approximate 1525 and 1515 generations fit brothers. Select the brother option provisionally and extend James’s already uncertain father William to Michael. This uses an existing older household without inventing an intervening person. The Mathie–Glencairn network supplies a credible route between the burgh family and these estates.",
+    "limitations": "The brother-versus-cousin choice is unresolved, and James’s own father William is uncertain. No record calls Michael William’s son. A cousin through another burgh household, an older generation than the estimated 1525 birth, or a separate family remains possible. Brakpleuch and Dubbs may represent one Michael or two. No mother, exact birth or death is inferred.",
+    "source_ids": [
+      "stevenston-michael-sasine-1549",
+      "cunninghame-teinds-1559-60"
+    ],
+    "assessment_date": "2026-10-15",
+    "publication_status": "approved",
+    "perspectives": {
+      "Glasgow-3911": {
+        "relationship": "father",
+        "reason": "The existing Stevenston study places Michael as a probable brother or cousin of James elder of Corsankell, rather than his son. Michael was an adult witness in the Glencairn estate network in 1549; both appear in the same small estate landscape in the 1559–60 teind list. Their approximate 1525 and 1515 generations fit brothers. Select the brother option provisionally and extend James’s already uncertain father William to Michael. This uses an existing older household without inventing an intervening person. The Mathie–Glencairn network supplies a credible route between the burgh family and these estates."
+      },
+      "Glasgow-1098": {
+        "relationship": "son",
+        "reason": "The existing Stevenston study places Michael as a probable brother or cousin of James elder of Corsankell, rather than his son. Michael was an adult witness in the Glencairn estate network in 1549; both appear in the same small estate landscape in the 1559–60 teind list. Their approximate 1525 and 1515 generations fit brothers. Select the brother option provisionally and extend James’s already uncertain father William to Michael. This uses an existing older household without inventing an intervening person. The Mathie–Glencairn network supplies a credible route between the burgh family and these estates."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Working placement, alternatives and limits",
+        "href": "/branches/early-scottish-records/#early-collateral-joins"
+      }
+    ],
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "basis": "Existing public family comparisons, locality and compatible generations; exact degree selected provisionally.",
+      "resolution_note": "Local working tree only; no live attachment or confidence upgrade.",
+      "prior_assessment": "Close family/identity comparison recorded, but no parent selected in the local working graph."
+    }
+  },
+  {
+    "assertion_id": "C-working-20261015-glasgow-3262-glasgow-3163",
+    "people": [
+      "Glasgow-3262",
+      "Glasgow-3163"
+    ],
+    "profile_names": {
+      "Glasgow-3262": "Jonat Glasgow, wife of David Menzeis",
+      "Glasgow-3163": "Andrew Glasgow of Corsoun, Calder"
+    },
+    "status": "uncertain",
+    "hypothesis_status": "possible",
+    "evidence_grade": "low-confidence working inference",
+    "working_selection": true,
+    "allow_new_relationship": true,
+    "claim": "Andrew Glasgow of Corsoun, Calder is the selected uncertain working father of Jonat Glasgow, wife of David Menzeis.",
+    "basis": "Jonat is the mother in a Mid Calder baptism in 1609. The existing comparison prefers her possible identity with Jonet Glasgow who married Martin Ramsy in the same parish in 1624, fifteen years later. That Jonet is already placed as Andrew’s testament daughter. Select Andrew as Jonat’s uncertain father through this local identity reconstruction. Her estimated 1585 generation fits Andrew’s household; the same name, parish and feasible remarriage sequence favour this model over the more distant Ninian household.",
+    "limitations": "This combines two uncertain identity steps: the 1609 mother with the 1624 bride, and the bride with Andrew’s testament daughter. David Menzeis’s death and the bride’s widowhood are not recorded in the material reviewed. Jonat and Jonet may be different women; retain both profiles and do not count an identity merge. Ninian Glasgow remains a competing father hypothesis. No mother is attached.",
+    "source_ids": [
+      "midcalder-agnes-menzeis-1609",
+      "midcalder-jonet-ramsy-1624",
+      "nrs-cc8-8-32-andrew-1598"
+    ],
+    "assessment_date": "2026-10-15",
+    "publication_status": "approved",
+    "perspectives": {
+      "Glasgow-3262": {
+        "relationship": "father",
+        "reason": "Jonat is the mother in a Mid Calder baptism in 1609. The existing comparison prefers her possible identity with Jonet Glasgow who married Martin Ramsy in the same parish in 1624, fifteen years later. That Jonet is already placed as Andrew’s testament daughter. Select Andrew as Jonat’s uncertain father through this local identity reconstruction. Her estimated 1585 generation fits Andrew’s household; the same name, parish and feasible remarriage sequence favour this model over the more distant Ninian household."
+      },
+      "Glasgow-3163": {
+        "relationship": "daughter",
+        "reason": "Jonat is the mother in a Mid Calder baptism in 1609. The existing comparison prefers her possible identity with Jonet Glasgow who married Martin Ramsy in the same parish in 1624, fifteen years later. That Jonet is already placed as Andrew’s testament daughter. Select Andrew as Jonat’s uncertain father through this local identity reconstruction. Her estimated 1585 generation fits Andrew’s household; the same name, parish and feasible remarriage sequence favour this model over the more distant Ninian household."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Working placement, alternatives and limits",
+        "href": "/branches/early-scottish-records/#early-collateral-joins"
+      }
+    ],
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "basis": "Existing public family comparisons, locality and compatible generations; exact degree selected provisionally.",
+      "resolution_note": "Local working tree only; no live attachment or confidence upgrade.",
+      "prior_assessment": "Ninian was an unselected possible father in the public dossier and was already counted in working metrics. Andrew is selected instead; the Ninian alternative remains possible."
+    }
+  },
+  {
+    "assertion_id": "C-working-20261015-glasgow-3182-glasgow-3188",
+    "people": [
+      "Glasgow-3182",
+      "Glasgow-3188"
+    ],
+    "profile_names": {
+      "Glasgow-3182": "Barbara Glasgow, wife of Johne Wilsoune",
+      "Glasgow-3188": "Ninian Glasgow"
+    },
+    "status": "uncertain",
+    "hypothesis_status": "possible",
+    "evidence_grade": "low-confidence working inference",
+    "working_selection": true,
+    "allow_new_relationship": true,
+    "claim": "Ninian Glasgow is the selected uncertain working father of Barbara Glasgow, wife of Johne Wilsoune.",
+    "basis": "The existing branch assessment already favours Barbara as a daughter or niece of Ninian. Her 1611 South Leith marriage entry fits the Leith setting of Ninian’s possible son William and the adjoining Edinburgh craft households; Ninian’s documented son Robert was a cordiner. The estimated 1590 daughter generation fits Ninian’s estimated 1550 generation. Select daughter as the simpler working placement within this already identified household, while retaining niece as an alternative. This is a combined locality, generation and family-network inference.",
+    "limitations": "Neither the marriage entry nor Ninian’s testament names Barbara as his daughter. The proposed Leith brother William is himself uncertain, and shared craft geography is suggestive rather than individual proof. Barbara may instead be Ninian’s niece or belong to another local family. If she is Barbara-567, the existing William-3522 father claim becomes a rival explanation. The adult Barbara identities remain separate, the 1611 date discrepancy stays open, and no mother is assigned.",
+    "source_ids": [
+      "southleith-barbara-wilson-1611"
+    ],
+    "assessment_date": "2026-10-15",
+    "publication_status": "approved",
+    "perspectives": {
+      "Glasgow-3182": {
+        "relationship": "father",
+        "reason": "The existing branch assessment already favours Barbara as a daughter or niece of Ninian. Her 1611 South Leith marriage entry fits the Leith setting of Ninian’s possible son William and the adjoining Edinburgh craft households; Ninian’s documented son Robert was a cordiner. The estimated 1590 daughter generation fits Ninian’s estimated 1550 generation. Select daughter as the simpler working placement within this already identified household, while retaining niece as an alternative. This is a combined locality, generation and family-network inference."
+      },
+      "Glasgow-3188": {
+        "relationship": "daughter",
+        "reason": "The existing branch assessment already favours Barbara as a daughter or niece of Ninian. Her 1611 South Leith marriage entry fits the Leith setting of Ninian’s possible son William and the adjoining Edinburgh craft households; Ninian’s documented son Robert was a cordiner. The estimated 1590 daughter generation fits Ninian’s estimated 1550 generation. Select daughter as the simpler working placement within this already identified household, while retaining niece as an alternative. This is a combined locality, generation and family-network inference."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Working placement, alternatives and limits",
+        "href": "/branches/early-scottish-records/#early-collateral-joins"
+      }
+    ],
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "basis": "Existing public family comparisons, locality and compatible generations; exact degree selected provisionally.",
+      "resolution_note": "Local working tree only; no live attachment or confidence upgrade.",
+      "prior_assessment": "Close family/identity comparison recorded, but no parent selected in the local working graph."
+    }
+  },
+  {
+    "assertion_id": "C-alternative-20261015-glasgow-3262-glasgow-3188",
+    "people": [
+      "Glasgow-3262",
+      "Glasgow-3188"
+    ],
+    "profile_names": {
+      "Glasgow-3262": "Jonat Glasgow, wife of David Menzeis",
+      "Glasgow-3188": "Ninian Glasgow"
+    },
+    "status": "possible",
+    "hypothesis_status": "open",
+    "working_selection": false,
+    "lifecycle": "alternative",
+    "display": "alternative",
+    "allow_new_relationship": true,
+    "claim": "Ninian remains a possible alternative father of Jonat; Andrew is selected for the local working model.",
+    "basis": "The earlier Ninian/Jonet Meik comparison remains chronologically compatible and has a possible Leith family route, but the closer Mid Calder identity comparison now favours Andrew. No source names Jonat as Ninian’s daughter.",
+    "limitations": "This remains viable; changing the preferred model does not disprove it or identify a mother.",
+    "source_ids": [
+      "midcalder-agnes-menzeis-1609"
+    ],
+    "assessment_date": "2026-10-15",
+    "publication_status": "approved",
+    "perspectives": {
+      "Glasgow-3262": {
+        "relationship": "father",
+        "status_label": "Possible alternative father; not selected",
+        "reason": "Retain the earlier Ninian family comparison as a viable alternative. Andrew-3163 is now the selected uncertain father through the same-parish Jonat/Jonet identity hypothesis."
+      },
+      "Glasgow-3188": {
+        "relationship": "daughter",
+        "status_label": "Possible daughter in an alternative family model",
+        "reason": "Jonat-3262 remains a possible daughter; the local working pedigree now prefers Andrew-3163 as her father. This does not reject the Ninian hypothesis."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Selected model and competing family",
+        "href": "/branches/early-scottish-records/#early-collateral-joins"
+      }
+    ],
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "basis": "Retains the existing possible Ninian relationship while separating it from the selected Andrew model.",
+      "prior_assessment": "Possible Ninian father was already included in the working connectivity measure; it was absent from the raw tree model."
+    }
   }
 ]

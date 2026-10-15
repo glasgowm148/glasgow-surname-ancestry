@@ -1,6 +1,8 @@
 # Findings: [Michael Glasgow (Glasgow-3911), Brakpleuch](https://www.wikitree.com/wiki/Glasgow-3911)
 
-## Conclusion
+## Current conclusion
+
+Reviewed: 2026-10-15
 
 An official National Records of Scotland catalogue entry now places **Michael
 Glasgow** in the Glencairn/Stevenston estate network on 28 January 1549, when he
@@ -16,6 +18,8 @@ He may also be the same-name tenant at Dubbs in 1559-60, but that source does no
 establish whether one or two Michaels held those tenancies.
 
 See the [graph-claim audit](../../surname-research/pre-1700/graph-claim-audit-2026-07-27.md).
+
+**Selected local father, 15 October 2026:** [William Glasgow of Saltmarket](/people/glasgow-1098.html), **uncertain / possible, low confidence**. The existing Stevenston study places Michael as a probable brother or cousin of James elder of Corsankell, rather than his son. Michael was an adult witness in the Glencairn estate network in 1549; both appear in the same small estate landscape in the 1559–60 teind list. Their approximate 1525 and 1515 generations fit brothers. Select the brother option provisionally and extend James’s already uncertain father William to Michael. This uses an existing older household without inventing an intervening person. The Mathie–Glencairn network supplies a credible route between the burgh family and these estates. See the alternatives below.
 
 ## Source findings
 
@@ -38,8 +42,7 @@ See the [graph-claim audit](../../surname-research/pre-1700/graph-claim-audit-20
 The 1549 and 1559-60 records probably describe the same Michael Glasgow. No
 reviewed source identifies his parents, spouse or children. James Glasgow,
 Matthew Glasgow and the other surname bearers in the 1559 Stevenston rental are
-a locality/co-tenancy cluster, not a documented family. No parent should be
-attached without additional evidence.
+a locality/co-tenancy cluster, not a documented family. No parent is documented. The selected local hypothesis below makes the earlier collateral comparison explicit in the working tree.
 
 ## Birth-estimate audit - 30 August 2026
 
@@ -83,6 +86,12 @@ James elder was head of the Corsankell household in the same estate landscape
 in 1559-60. Their generation and repeated microregion fit close collateral
 kinship, while no source identifies either man's father.
 
-Do not manufacture a father edge merely to connect Michael. Record the
-brother/cousin hypothesis until Glencairn tenant succession distinguishes the
-degree.
+Earlier advice left the brother/cousin comparison outside the tree. The selection below supersedes that local modelling restriction; the exact degree remains uncertain.
+
+## Selected working family placement — 15 October 2026
+
+The existing Stevenston study places Michael as a probable brother or cousin of James elder of Corsankell, rather than his son. Michael was an adult witness in the Glencairn estate network in 1549; both appear in the same small estate landscape in the 1559–60 teind list. Their approximate 1525 and 1515 generations fit brothers. Select the brother option provisionally and extend James’s already uncertain father William to Michael. This uses an existing older household without inventing an intervening person. The Mathie–Glencairn network supplies a credible route between the burgh family and these estates.
+
+**Limits:** The brother-versus-cousin choice is unresolved, and James’s own father William is uncertain. No record calls Michael William’s son. A cousin through another burgh household, an older generation than the estimated 1525 birth, or a separate family remains possible. Brakpleuch and Dubbs may represent one Michael or two. No mother, exact birth or death is inferred.
+
+This selects a local model, without merging profiles or changing the live WikiTree parent fields. The original record accounts above remain the source evidence. [Shared reasoning and alternatives](/branches/early-scottish-records/#early-collateral-joins).

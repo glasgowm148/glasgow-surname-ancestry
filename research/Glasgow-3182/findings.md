@@ -12,6 +12,8 @@ South Leith in 1611. She is a chronologically possible match for the Barbara
 Glasgow who mothered Catharine Little at Edinburgh in September 1611, but the
 records do not prove they were the same woman. Do not merge the profiles.
 
+**Selected local father, 15 October 2026:** [Ninian Glasgow](/people/glasgow-3188.html), **uncertain / possible, low confidence**. The existing branch assessment already favours Barbara as a daughter or niece of Ninian. Her 1611 South Leith marriage entry fits the Leith setting of Ninian’s possible son William and the adjoining Edinburgh craft households; Ninian’s documented son Robert was a cordiner. The estimated 1590 daughter generation fits Ninian’s estimated 1550 generation. Select daughter as the simpler working placement within this already identified household, while retaining niece as an alternative. This is a combined locality, generation and family-network inference. See the alternatives below.
+
 ## Source findings
 
 | Source | Finding | Assessment |
@@ -61,3 +63,11 @@ September (possibly proclamation) or 26 November; and the Johnstoun marriage
 was in 1616. The Little baptism proves parenthood, not a marriage. Treat this
 as a **moderate identity hypothesis**, not a merge, until the original 1611
 entries and John Wilson's fate are checked.
+
+## Selected working family placement — 15 October 2026
+
+The existing branch assessment already favours Barbara as a daughter or niece of Ninian. Her 1611 South Leith marriage entry fits the Leith setting of Ninian’s possible son William and the adjoining Edinburgh craft households; Ninian’s documented son Robert was a cordiner. The estimated 1590 daughter generation fits Ninian’s estimated 1550 generation. Select daughter as the simpler working placement within this already identified household, while retaining niece as an alternative. This is a combined locality, generation and family-network inference.
+
+**Limits:** Neither the marriage entry nor Ninian’s testament names Barbara as his daughter. The proposed Leith brother William is himself uncertain, and shared craft geography is suggestive rather than individual proof. Barbara may instead be Ninian’s niece or belong to another local family. If she is Barbara-567, the existing William-3522 father claim becomes a rival explanation. The adult Barbara identities remain separate, the 1611 date discrepancy stays open, and no mother is assigned.
+
+This selects a local model, without merging profiles or changing the live WikiTree parent fields. The original record accounts above remain the source evidence. [Shared reasoning and alternatives](/branches/early-scottish-records/#early-collateral-joins).

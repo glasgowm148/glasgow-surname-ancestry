@@ -25825,6 +25825,80 @@
         "research/ancestry-connections/working-joins-2026-10-15.md",
         "research/relationship_assessments.json"
       ]
+    },
+    {
+      "id": "early-collateral-working-fathers-2026-10-15",
+      "found_on": "2026-10-15",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Three early collateral comparisons are now selected uncertain father links: William of Saltmarket to Michael of Stevenston; Andrew of Calder to Jonat Menzeis; Ninian to Barbara Wilson.",
+      "qualification": "Low-confidence logical reconstruction from existing records and prior family comparisons. Exact collateral degrees and identity steps remain unresolved. Unknown/unselected → selected uncertain, not certainty upgrades, merges or live WikiTree attachments.",
+      "relationship_change_count": 3,
+      "people": [
+        {
+          "id": "Glasgow-3911",
+          "name": "Michael Glasgow of Stevenston",
+          "url": "/people/glasgow-3911.html"
+        },
+        {
+          "id": "Glasgow-1098",
+          "name": "William Glasgow of Saltmarket",
+          "url": "/people/glasgow-1098.html"
+        },
+        {
+          "id": "Glasgow-3262",
+          "name": "Jonat Glasgow, wife of David Menzeis",
+          "url": "/people/glasgow-3262.html"
+        },
+        {
+          "id": "Glasgow-3163",
+          "name": "Andrew Glasgow of Corsoun, Calder",
+          "url": "/people/glasgow-3163.html"
+        },
+        {
+          "id": "Glasgow-3182",
+          "name": "Barbara Glasgow, wife of Johne Wilsoune",
+          "url": "/people/glasgow-3182.html"
+        },
+        {
+          "id": "Glasgow-3188",
+          "name": "Ninian Glasgow",
+          "url": "/people/glasgow-3188.html"
+        },
+        {
+          "id": "Glasgow-1168",
+          "name": "James elder of Corsankell",
+          "url": "/people/glasgow-1168.html"
+        },
+        {
+          "id": "Glasgow-3183",
+          "name": "Jonet Glasgow, wife of Martin Ramsy",
+          "url": "/people/glasgow-3183.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "NRS GD39/1/59, Michael Glasgow as witness, 28 January 1549; existing catalogue account",
+          "url": "https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD39%2F1%2F59"
+        },
+        {
+          "title": "Sanderson, Cunninghame teind lists 1559–60, p.331; existing record account",
+          "url": "https://aanhs.org/wp-content/uploads/2018/05/people-of-ayrshire.pdf#page=36"
+        },
+        {
+          "title": "Mid Calder Jonet/Ramsy marriage index, 1624; existing account",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:XY9X-4PR"
+        },
+        {
+          "title": "South Leith Barbara/Wilsoune marriage index, 1611; existing account",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:XYML-ZBB"
+        }
+      ],
+      "detail_url": "/branches/early-scottish-records/#early-collateral-joins",
+      "provenance": [
+        "research/ancestry-connections/early-collaterals-2026-10-15.md",
+        "research/relationship_assessments.json"
+      ]
     }
   ]
 }

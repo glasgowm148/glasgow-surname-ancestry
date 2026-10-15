@@ -192,6 +192,198 @@
           "family_root_count": 6
         }
       }
+    },
+    {
+      "date": "2026-10-15",
+      "input_fingerprint": "e043bbb7796204239c9bc097d2660ebeae82ad4d320c9ab7641ac729c7939377",
+      "metrics": {
+        "working": {
+          "population": 1776,
+          "edge_count": 1300,
+          "component_count": 476,
+          "largest_component_size": 520,
+          "largest_component_percent": 29.27927927927928,
+          "connected_pairs_percent": 9.723702575815253,
+          "edge_status_counts": {
+            "possible": 11,
+            "probable": 3,
+            "proved": 18,
+            "strongly_supported": 15,
+            "uncertain": 15,
+            "unknown": 1238
+          },
+          "quality": {
+            "cycles": [],
+            "cycle_edges_excluded": 0,
+            "later_born_ancestors_excluded": [],
+            "undated_ancestors": []
+          },
+          "unattached_multi_child_roots": 70,
+          "family_root_count": 84
+        },
+        "confident": {
+          "population": 1776,
+          "edge_count": 33,
+          "component_count": 1743,
+          "largest_component_size": 9,
+          "largest_component_percent": 0.5067567567567568,
+          "connected_pairs_percent": 0.006090597639893415,
+          "edge_status_counts": {
+            "proved": 18,
+            "strongly_supported": 15
+          },
+          "quality": {
+            "cycles": [],
+            "cycle_edges_excluded": 0,
+            "later_born_ancestors_excluded": [],
+            "undated_ancestors": []
+          },
+          "unattached_multi_child_roots": 6,
+          "family_root_count": 6
+        }
+      },
+      "fixed_cohort": {
+        "working": {
+          "population": 1776,
+          "edge_count": 1300,
+          "component_count": 476,
+          "largest_component_size": 520,
+          "largest_component_percent": 29.27927927927928,
+          "connected_pairs_percent": 9.723702575815253,
+          "edge_status_counts": {
+            "possible": 11,
+            "probable": 3,
+            "proved": 18,
+            "strongly_supported": 15,
+            "uncertain": 15,
+            "unknown": 1238
+          },
+          "quality": {
+            "cycles": [],
+            "cycle_edges_excluded": 0,
+            "later_born_ancestors_excluded": [],
+            "undated_ancestors": []
+          },
+          "unattached_multi_child_roots": 70,
+          "family_root_count": 84
+        },
+        "confident": {
+          "population": 1776,
+          "edge_count": 33,
+          "component_count": 1743,
+          "largest_component_size": 9,
+          "largest_component_percent": 0.5067567567567568,
+          "connected_pairs_percent": 0.006090597639893415,
+          "edge_status_counts": {
+            "proved": 18,
+            "strongly_supported": 15
+          },
+          "quality": {
+            "cycles": [],
+            "cycle_edges_excluded": 0,
+            "later_born_ancestors_excluded": [],
+            "undated_ancestors": []
+          },
+          "unattached_multi_child_roots": 6,
+          "family_root_count": 6
+        }
+      }
+    },
+    {
+      "date": "2026-10-15",
+      "input_fingerprint": "2c23f5a67ffff4b3075ec458c1b72efe474b07af6473364daf175af16b5e5ef4",
+      "metrics": {
+        "working": {
+          "population": 1776,
+          "edge_count": 1301,
+          "component_count": 475,
+          "largest_component_size": 521,
+          "largest_component_percent": 29.335585585585587,
+          "connected_pairs_percent": 9.756693313031342,
+          "edge_status_counts": {
+            "possible": 11,
+            "probable": 3,
+            "proved": 18,
+            "strongly_supported": 15,
+            "uncertain": 16,
+            "unknown": 1238
+          },
+          "quality": {
+            "cycles": [],
+            "cycle_edges_excluded": 0,
+            "later_born_ancestors_excluded": [],
+            "undated_ancestors": []
+          },
+          "unattached_multi_child_roots": 70,
+          "family_root_count": 84
+        },
+        "confident": {
+          "population": 1776,
+          "edge_count": 33,
+          "component_count": 1743,
+          "largest_component_size": 9,
+          "largest_component_percent": 0.5067567567567568,
+          "connected_pairs_percent": 0.006090597639893415,
+          "edge_status_counts": {
+            "proved": 18,
+            "strongly_supported": 15
+          },
+          "quality": {
+            "cycles": [],
+            "cycle_edges_excluded": 0,
+            "later_born_ancestors_excluded": [],
+            "undated_ancestors": []
+          },
+          "unattached_multi_child_roots": 6,
+          "family_root_count": 6
+        }
+      },
+      "fixed_cohort": {
+        "working": {
+          "population": 1776,
+          "edge_count": 1301,
+          "component_count": 475,
+          "largest_component_size": 521,
+          "largest_component_percent": 29.335585585585587,
+          "connected_pairs_percent": 9.756693313031342,
+          "edge_status_counts": {
+            "possible": 11,
+            "probable": 3,
+            "proved": 18,
+            "strongly_supported": 15,
+            "uncertain": 16,
+            "unknown": 1238
+          },
+          "quality": {
+            "cycles": [],
+            "cycle_edges_excluded": 0,
+            "later_born_ancestors_excluded": [],
+            "undated_ancestors": []
+          },
+          "unattached_multi_child_roots": 70,
+          "family_root_count": 84
+        },
+        "confident": {
+          "population": 1776,
+          "edge_count": 33,
+          "component_count": 1743,
+          "largest_component_size": 9,
+          "largest_component_percent": 0.5067567567567568,
+          "connected_pairs_percent": 0.006090597639893415,
+          "edge_status_counts": {
+            "proved": 18,
+            "strongly_supported": 15
+          },
+          "quality": {
+            "cycles": [],
+            "cycle_edges_excluded": 0,
+            "later_born_ancestors_excluded": [],
+            "undated_ancestors": []
+          },
+          "unattached_multi_child_roots": 6,
+          "family_root_count": 6
+        }
+      }
     }
   ]
 }

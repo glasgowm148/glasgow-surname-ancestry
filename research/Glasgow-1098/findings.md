@@ -193,3 +193,8 @@ A bounded search on 30 September 2026 found no new father clause for William or 
 OCR- and snippet-level negatives only; the underlying manuscripts were not read.
 
 Recorded in `research/pre-1700-2026-09-30/scottish/search-handoff.md` (30 September 2026); carried into this file on 7 October 2026.
+
+
+## Working family extension — 15 October 2026
+
+Michael-3911 is now selected as William’s possible son by choosing the brother branch of the existing Michael/James-1168 collateral hypothesis. James’s own William father link remains uncertain; no new direct parent statement is claimed. [Reasoning and alternatives](/branches/early-scottish-records/#early-collateral-joins).

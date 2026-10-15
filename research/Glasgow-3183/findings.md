@@ -45,3 +45,8 @@ Merged live and checked through the WikiTree API on 27 September 2026. The survi
 Source: Old Parish Registers, banns and marriages; exact surname Glasgow through 1700, 55 supplied results. Original images not inspected for this batch; combined index dates do not by themselves establish ceremony dates.
 
 This batch adds supporting evidence or a qualified comparison only; it raises no additional WikiTree amendment for this profile.
+
+
+## Working family extension — 15 October 2026
+
+Jonat-3262 is now placed under Andrew-3163 as an uncertain working daughter, through her possible identity with this Jonet. This does not merge the profiles or strengthen either identity inference; a David Menzeis death or remarriage bridge remains missing. [Reasoning and alternatives](/branches/early-scottish-records/#early-collateral-joins).

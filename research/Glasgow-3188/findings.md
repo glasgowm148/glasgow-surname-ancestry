@@ -202,3 +202,8 @@ Ninian's testament testamentar and inventory (NRS Glasgow Commissary Court CC9/7
 George Crawfurd, *A Sketch of the Rise and Progress of the Trades' House of Glasgow* (1858), pp. 49, 56–57, prints a 1605 roll that places Ninian among Glasgow's mariners and fishers. This is a printed derivative, consistent with the 1596 burgess entry and the testament's "fischer".
 
 Recorded in `research/Glasgow-3188/Glasgow-3188.md` (8 September 2026); carried into this file on 7 October 2026.
+
+
+## Working family extension — 15 October 2026
+
+Barbara-3182 is selected as a possible daughter, choosing the daughter branch of the existing daughter/niece comparison. The Leith route via possible son William and craft households supports the local model, while niece and other families remain alternatives. No mother is inferred. [Reasoning and alternatives](/branches/early-scottish-records/#early-collateral-joins).

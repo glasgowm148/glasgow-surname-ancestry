@@ -24,6 +24,17 @@ def study_manifest():
 
 
 class StudyPagesTests(unittest.TestCase):
+    def test_working_connections_keep_jump_links(self):
+        story = {'chapters': [{'id': 'working-links', 'anchor_alias': 'working-links',
+                               'title': 'Working family', 'body': ['Reasoning and alternatives.']}]}
+        html = renderer.render(dict(id='fixture', label='Fixture', members=[]), {}, [], story,
+                               {}, [], {'territories': [], 'counties': []})
+        page = BeautifulSoup(html, 'html.parser')
+        self.assertIsNotNone(page.select_one('#chapter-working-links'))
+        self.assertEqual(page.select_one('#working-links').find_next('article')['id'], 'chapter-working-links')
+        ids = [node['id'] for node in page.select('[id]')]
+        self.assertEqual(len(ids), len(set(ids)))
+
     def test_generated_pages(self):
         studies = study_manifest()
         self.assertTrue(studies)

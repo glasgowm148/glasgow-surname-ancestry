@@ -633,6 +633,9 @@ def render(branch, group, families, authored, registry, rows, geo, places=None, 
     body += locator(sid,rows,geo)+'</div>'+timeline(story,rows)
     chapters = ''
     for i,c in enumerate(story.get('chapters') or []):
+        alias = c.get('anchor_alias')
+        if isinstance(alias, str) and re.fullmatch(r'[a-z][a-z0-9-]*', alias):
+            chapters += f'<span id="{esc(alias)}" aria-hidden="true"></span>'
         chapters += f'<article class="sp-chapter" id="chapter-{esc(c.get("id",str(i)))}"><div class="sp-period">{esc(c.get("period"))}</div><div><h3>{esc(c.get("title"))}</h3>'+''.join(f'<p>{inline(p)}</p>' for p in c.get('body') or [])+'<div class="sp-chips">'+''.join(link(e.get('label','Source'),e.get('url')) for e in c.get('evidence') or [])+'</div></div></article>'
     if chapters: body += section('story','Reading the evidence',chapters)
     scope = ('Membership is based on documented Larne, Glenarm or Kilwaughter evidence and specifically supported family links. '
