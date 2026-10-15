@@ -591,8 +591,10 @@
       const label=`new ${uncertainStatuses.has(status)?'uncertain ':''}${relationship}`;
       const relative=String(change.relative_id||'');
       const isWikiTree=relative&&!relative.startsWith('record-')&&/^[\p{L}][\p{L}\p{N}_'-]*-\d+$/u.test(relative);
-      const tag=isWikiTree
-        ?`<a class="catalogue-relationship-badge" href="https://www.wikitree.com/wiki/${encodeURIComponent(relative)}" target="_blank" rel="noopener noreferrer" title="View proposed ${esc(relationship)}: ${esc(relative)}" aria-label="${esc(label)}: ${esc(relative)} on WikiTree">${esc(label)}</a>`
+      const account=String(change.relative_wikitree_url||'');
+      const href=isWikiTree?`https://www.wikitree.com/wiki/${encodeURIComponent(relative)}`:(/^https:\/\/www\.wikitree\.com\/wiki\/Space:[^\s<>"']+$/.test(account)?account:'');
+      const tag=href
+        ?`<a class="catalogue-relationship-badge" href="${esc(href)}" target="_blank" rel="noopener noreferrer" title="View proposed ${esc(relationship)}: ${esc(relative)}" aria-label="${esc(label)}: ${esc(relative)} on WikiTree">${esc(label)}</a>`
         :`<span class="catalogue-relationship-badge">${esc(label)}</span>`;
       tags.set(`${label}:${relative}`,tag);
     });
