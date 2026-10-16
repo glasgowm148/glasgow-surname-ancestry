@@ -1748,3 +1748,11 @@ The August completion entries remain historical. The live parent fields are now 
 | [John Glasgow, Jean Wyllie household](https://www.wikitree.com/wiki/Glasgow-1065) | OPEN | Review the uncertain Kilwinning parent pair via the possible1703child identity; preserve the old descent suggestion, estimated generations and1683mother-name conflict. |
 | [Jean Wyllie / Wylie](https://www.wikitree.com/wiki/Wyllie-1044) | OPEN | Review the uncertain Kilwinning parent pair via the possible1703child identity; preserve the old descent suggestion, estimated generations and1683mother-name conflict. |
 | [John Glasgow, Kilwinning child of 1703](https://www.wikitree.com/wiki/Glasgow-2464) | OPEN | Review the uncertain Kilwinning parent pair via the possible1703child identity; preserve the old descent suggestion, estimated generations and1683mother-name conflict. |
+
+
+## West Calder and Anderson working family — 16 October 2026
+
+| [John Glasgow, West Calder Anderson household](https://www.wikitree.com/wiki/Glasgow-2847) | OPEN | Review the uncertain James3526father via the possible1717child identity; preserve James1547as an alternative, no mother, the Meek-household comparison and all earlier source boundaries. |
+| [James Glasgow, Kirknewton father account](https://www.wikitree.com/wiki/Glasgow-3526) | OPEN | Review the uncertain James3526father via the possible1717child identity; preserve James1547as an alternative, no mother, the Meek-household comparison and all earlier source boundaries. |
+| [John Glasgow, Kirknewton child of 1717](https://www.wikitree.com/wiki/Glasgow-3525) | OPEN | Review the uncertain James3526father via the possible1717child identity; preserve James1547as an alternative, no mother, the Meek-household comparison and all earlier source boundaries. |
+| [James Glasgow, alternative 1702 childhood account](https://www.wikitree.com/wiki/Glasgow-1547) | OPEN | Review the uncertain James3526father via the possible1717child identity; preserve James1547as an alternative, no mother, the Meek-household comparison and all earlier source boundaries. |

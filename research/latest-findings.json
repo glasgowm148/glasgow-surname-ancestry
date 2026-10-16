@@ -27839,6 +27839,76 @@
         "research/relationship_assessments.json",
         "research/ancestry-connections/kilwinning-auld-working-family-preservation-2026-10-16.json"
       ]
+    },
+    {
+      "id": "west-calder-anderson-working-family-2026-10-16",
+      "found_on": "2026-10-16",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Selected James of the Kirknewton father account as uncertain father of the West Calder John/Margaret Anderson husband, through possible identity with the 1717 child. The younger James account and 1702 John childhood remain alternatives; no mother or birth correction is inferred.",
+      "qualification": "One uncertain father is newly selected through a possible child-to-adult identity. No mother, original inspection, merge, date change, live WikiTree edit or confidence upgrade is claimed. The 1717 child and later father remain separate profile accounts and may be duplicates rather than two distinct brothers. Working connectivity counts retained accounts and inherits the uncertainty in their older ancestry; the family-size gain is not identity evidence. James Glasgow-3526 is the maintained account for the James named in the 1717 record. Its own circa-1688 birth and selected uncertain William Glasgow-1026 father remain prior hypotheses. The child’s earlier biography instead names James Glasgow-1547. That 1702 Kirknewton childhood, son of Andrew Glasgow-1546, remains an alternative identity for the adult James. If baptised near birth in September 1702, he would have been about fourteen at the March 1717 baptism, making that route less straightforward than the older James account. An older-child baptism or an incorrect age estimate remains possible; neither is asserted as fact. The named father James is distinct from the question of which modern James account represents him. The earlier child-parent grade is not upgraded, and neither James’s ancestry receives new certainty. A competing childhood is John Glasgow-1544, recorded at Kirknewton in 1702 with father William. That child has already been used as a possible identity for John Glasgow-3481 of the Christian Meek household. The Meek and Anderson households have children in 1755 under different mothers, so the new model keeps those adult accounts distinct; no second household, remarriage or polygamy is invented to equate them. That does not prove the 1702 child could not instead be Margaret Anderson’s husband. The two proposed adult identities for that childhood remain alternatives. Another local John and another James father remain possible; the current shortlist is not exhaustive. The 1717 route is selected weakly because it fits an ordinary adult generation and a specific nearby record without requiring the Meek household identity.",
+      "relationship_change_count": 1,
+      "people": [
+        {
+          "id": "Glasgow-2847",
+          "name": "John Glasgow, West Calder Anderson household",
+          "url": "/people/glasgow-2847.html"
+        },
+        {
+          "id": "Glasgow-3526",
+          "name": "James Glasgow, Kirknewton father account",
+          "url": "/people/glasgow-3526.html"
+        },
+        {
+          "id": "Glasgow-3525",
+          "name": "John Glasgow, Kirknewton child of 1717",
+          "url": "/people/glasgow-3525.html"
+        },
+        {
+          "id": "Glasgow-1547",
+          "name": "James Glasgow, alternative 1702 childhood account",
+          "url": "/people/glasgow-1547.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "FamilySearch, John Glasgow,31 March 1717, Kirknewton/East Calder, named father James; previously reviewed parish index",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:VQ4K-6JT"
+        },
+        {
+          "title": "FamilySearch, Margaret Glasgow,1745, John Glasgow/Margaret Anderson; existing West Calder household citation",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:VQ4T-H5Y"
+        },
+        {
+          "title": "FamilySearch, John Glasgow,1747, West Calder, John Glasgow/Margaret Anderson; exact date remains a prior research question",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:VQ4T-R5D"
+        },
+        {
+          "title": "FamilySearch, James Glasgow,1750, John Glasgow/Margaret Anderson; existing household citation",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:VQ4T-R5Z"
+        },
+        {
+          "title": "ScotlandsPeople, Jean Glasgow,30 November 1755, West Calder 701,10/202,FR 142; existing profile citation, original not newly inspected",
+          "url": "https://www.scotlandspeople.gov.uk/"
+        },
+        {
+          "title": "FamilySearch, James Glasgow,1702, Kirknewton, Andrew Glasgow; alternative childhood for the 1717 father",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:VQ4K-6MQ"
+        },
+        {
+          "title": "FamilySearch, John Glasgow,1702, Kirknewton, father William; competing John childhood already used for the Meek-household hypothesis",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:VQ4K-XZ7"
+        },
+        {
+          "title": "MyHeritage, John Glasgow,18 August 1751, Kirknewton, John Glasgow/Christian Meek; distinct household comparison",
+          "url": "https://www.myheritage.com/research/record-30226-356058/john-glasgow-in-scotland-births-baptisms"
+        }
+      ],
+      "detail_url": "/branches/early-scottish-records/#west-calder-anderson-working-family",
+      "provenance": [
+        "research/relationship_assessments.json",
+        "research/ancestry-connections/west-calder-anderson-working-family-preservation-2026-10-16.json"
+      ]
     }
   ]
 }

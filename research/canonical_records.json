@@ -3130,5 +3130,68 @@
         "role": "recorded mother account"
       }
     }
+  },
+  {
+    "record_id": "west-calder-margaret-anderson-1745",
+    "date": "1745",
+    "year": 1745,
+    "place": "West Calder, Midlothian",
+    "source_title": "FamilySearch, Margaret Glasgow,1745, John Glasgow/Margaret Anderson; existing West Calder household citation",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:VQ4T-H5Y",
+    "status": "Existing cited parish index; original not newly inspected",
+    "note": "Margaret, daughter account with parents John Glasgow and Margaret Anderson; no grandparents or adult birth date.",
+    "profiles": {
+      "Glasgow-2847": {
+        "role": "recorded father account"
+      },
+      "Glasgow-2849": {
+        "role": "child account"
+      },
+      "Anderson-83671": {
+        "role": "recorded mother account"
+      }
+    }
+  },
+  {
+    "record_id": "west-calder-john-anderson-1747",
+    "date": "1747; structured 6 September date still needs original comparison",
+    "year": 1747,
+    "place": "West Calder, Midlothian",
+    "source_title": "FamilySearch, John Glasgow,1747, West Calder, John Glasgow/Margaret Anderson; exact date remains a prior research question",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:VQ4T-R5D",
+    "status": "Previously reviewed cited index; exact birth/baptism date unresolved",
+    "note": "Names John Glasgow and Margaret Anderson as parents of John; no grandparents, age or Larne identity.",
+    "profiles": {
+      "Glasgow-2847": {
+        "role": "recorded father account"
+      },
+      "Glasgow-2846": {
+        "role": "child account"
+      },
+      "Anderson-83671": {
+        "role": "recorded mother account"
+      }
+    }
+  },
+  {
+    "record_id": "west-calder-jean-anderson-1755",
+    "date": "30 November 1755",
+    "year": 1755,
+    "place": "West Calder, Midlothian",
+    "source_title": "ScotlandsPeople, Jean Glasgow,30 November 1755, West Calder 701,10/202,FR 142; existing profile citation, original not newly inspected",
+    "source_url": "https://www.scotlandspeople.gov.uk/",
+    "status": "Existing OPR profile citation; original not newly inspected",
+    "note": "OPR 701,10/202,FR 142. Names John Glasgow and Margaret Anderson as parents of Jean; birth/baptism distinction retained.",
+    "profiles": {
+      "Glasgow-2847": {
+        "role": "recorded father account"
+      },
+      "Glasgow-1922": {
+        "role": "child account"
+      },
+      "Anderson-83671": {
+        "role": "recorded mother account"
+      }
+    }
   }
 ]

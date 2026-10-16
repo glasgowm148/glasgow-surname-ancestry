@@ -1,0 +1,104 @@
+{
+  "reviewed": "2026-10-16",
+  "scope": "West Calder: a possible Kirknewton childhood for John",
+  "profiles": {
+    "Glasgow-2847": {
+      "current_sha256": "0f293f074c19315d93da9f40a5a1aee661c4a4217dc0c86a71f7a7cfe4ed3438",
+      "proposed_sha256": "947c79c6503ee56122fea05093649004a422960041f668b9670e32884c453913",
+      "all_substantive_passages_accounted_for": true,
+      "passages": [
+        "Every previous complete public proposal/comparison or normalized capture paragraph and captured source URL retained.",
+        "New parent choices remain uncertain; named-child parent clauses are distinguished from adult identity.",
+        "Mothers assessed separately; all date discrepancies, alternative father generations, older scaffolds and pending work retained."
+      ],
+      "source_urls_retained": [
+        "https://familysearch.org/ark:/61903/1:1:VQ4T-R5D"
+      ],
+      "full_comparison_withheld_for_privacy": false,
+      "private_source_urls_retained_count": 0
+    },
+    "Glasgow-3526": {
+      "current_sha256": "b225312fa871725cd9c6bcb4bd1d3202c696fe4054e857a8e03ebbdfc21dd455",
+      "proposed_sha256": "4f2185e84b00f51dfef3ae7a8298a1110e08b522177165f507878864b2c050ff",
+      "all_substantive_passages_accounted_for": true,
+      "passages": [
+        "Every previous complete public proposal/comparison or normalized capture paragraph and captured source URL retained.",
+        "New parent choices remain uncertain; named-child parent clauses are distinguished from adult identity.",
+        "Mothers assessed separately; all date discrepancies, alternative father generations, older scaffolds and pending work retained."
+      ],
+      "source_urls_retained": [
+        "https://www.familysearch.org/ark:/61903/1:1:VQ4K-6JT"
+      ],
+      "full_comparison_withheld_for_privacy": false,
+      "private_source_urls_retained_count": 0,
+      "previous_review_path": "research/ancestry-connections/irvine-calder-heads-preservation-2026-10-16.json"
+    },
+    "Glasgow-3525": {
+      "current_sha256": "d391df8fd6894774ded3946dda83e66483ca779e1769752fb91cb62c53c491a8",
+      "proposed_sha256": "ac966a5b1891d494ebba4caf0e0a3e6246c2bae025289c71b87cf11bfb50dae2",
+      "all_substantive_passages_accounted_for": true,
+      "passages": [
+        "Every previous complete public proposal/comparison or normalized capture paragraph and captured source URL retained.",
+        "New parent choices remain uncertain; named-child parent clauses are distinguished from adult identity.",
+        "Mothers assessed separately; all date discrepancies, alternative father generations, older scaffolds and pending work retained."
+      ],
+      "source_urls_retained": [
+        "https://www.familysearch.org/ark:/61903/1:1:VQ4K-6JT"
+      ],
+      "full_comparison_withheld_for_privacy": false,
+      "private_source_urls_retained_count": 0,
+      "previous_review_path": "research/ancestry-connections/irvine-calder-heads-preservation-2026-10-16.json"
+    },
+    "Glasgow-1547": {
+      "current_sha256": "f6877d6d1fd57158fbbaffec2a257b2c8f68ecf511e125d1b98feaf100d625a8",
+      "proposed_sha256": "afa2082d191a13828b8bce9dfd307093fedd916ece9468eb14d8eb0aef28cf11",
+      "all_substantive_passages_accounted_for": true,
+      "passages": [
+        "Every previous complete public proposal/comparison or normalized capture paragraph and captured source URL retained.",
+        "New parent choices remain uncertain; named-child parent clauses are distinguished from adult identity.",
+        "Mothers assessed separately; all date discrepancies, alternative father generations, older scaffolds and pending work retained."
+      ],
+      "source_urls_retained": [
+        "https://www.familysearch.org/ark:/61903/1:1:VQ4K-6MQ"
+      ],
+      "full_comparison_withheld_for_privacy": false,
+      "private_source_urls_retained_count": 0
+    }
+  },
+  "previous_queue_entries": {
+    "Glasgow-2847": null,
+    "Glasgow-3526": {
+      "queued_at": "2026-10-16",
+      "status": "OPEN",
+      "significance": 85,
+      "summary": "Review the uncertain Michael→Robert and James→older-William father models; preserve the 1547 alternative and qualify the tree-held Helen date without changing current family fields.",
+      "manual_update": true,
+      "draft_path": "research/Glasgow-3526/Glasgow-3526.md",
+      "preservation_review_path": "research/ancestry-connections/irvine-calder-heads-preservation-2026-10-16.json",
+      "reviewed_narrative_reduction": true,
+      "preserve_captured_detail": false,
+      "relationship_changes": [
+        {
+          "action": "add",
+          "relationship": "father",
+          "status": "uncertain",
+          "relative_id": "Glasgow-1026",
+          "assertion_id": "C-working-20261016-irvine-calder-heads-james-father"
+        }
+      ]
+    },
+    "Glasgow-3525": {
+      "queued_at": "2026-10-16",
+      "status": "OPEN",
+      "significance": 65,
+      "summary": "Review the uncertain Michael→Robert and James→older-William father models; preserve the 1547 alternative and qualify the tree-held Helen date without changing current family fields.",
+      "manual_update": true,
+      "draft_path": "research/Glasgow-3525/Glasgow-3525.md",
+      "preservation_review_path": "research/ancestry-connections/irvine-calder-heads-preservation-2026-10-16.json",
+      "reviewed_narrative_reduction": true,
+      "preserve_captured_detail": false,
+      "relationship_changes": []
+    },
+    "Glasgow-1547": null
+  }
+}
