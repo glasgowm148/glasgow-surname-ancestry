@@ -1620,3 +1620,13 @@ The August completion entries remain historical. The live parent fields are now 
 | [Hew Glasgow, Kilwinning father](https://www.wikitree.com/wiki/Glasgow-1066) | OPEN | Review complete additive biography: uncertain John→James and Hew/Margaret→Irvine Hugh placements; retain alternatives, dates and existing child-parent grades. |
 | [Hew Glasgow, indexed in 1676](https://www.wikitree.com/wiki/Glasgow-1067) | OPEN | Review complete additive biography: uncertain John→James and Hew/Margaret→Irvine Hugh placements; retain alternatives, dates and existing child-parent grades. |
 | [Margaret Lachland](https://www.wikitree.com/wiki/Lachland-2) | OPEN | Review complete additive biography: uncertain John→James and Hew/Margaret→Irvine Hugh placements; retain alternatives, dates and existing child-parent grades. |
+
+
+## Irvine and Calder family heads — 16 October 2026
+
+| [Michael Glasgow, Irvine skinner and saddler](https://www.wikitree.com/wiki/Glasgow-1406) | OPEN | Review complete additive biography: uncertain Michael/Robert and James/older-William placements; preserve alternative identities and unchanged family fields. |
+| [Robert Glasgow, Ayr father in 1670–1671](https://www.wikitree.com/wiki/Glasgow-1512) | OPEN | Review complete additive biography: uncertain Michael/Robert and James/older-William placements; preserve alternative identities and unchanged family fields. |
+| [James Glasgow, Kirknewton/East Calder father](https://www.wikitree.com/wiki/Glasgow-3526) | OPEN | Review complete additive biography: uncertain Michael/Robert and James/older-William placements; preserve alternative identities and unchanged family fields. |
+| [William Glasgow, older Kirknewton householder](https://www.wikitree.com/wiki/Glasgow-1026) | OPEN | Review complete additive biography: uncertain Michael/Robert and James/older-William placements; preserve alternative identities and unchanged family fields. |
+| [John Glasgow, indexed in 1717](https://www.wikitree.com/wiki/Glasgow-3525) | OPEN | Review complete additive biography: uncertain Michael/Robert and James/older-William placements; preserve alternative identities and unchanged family fields. |
+| [Helen Glasgow, tree-held 1714 account](https://www.wikitree.com/wiki/Glasgow-3527) | OPEN | Review complete additive biography: uncertain Michael/Robert and James/older-William placements; preserve alternative identities and unchanged family fields. |

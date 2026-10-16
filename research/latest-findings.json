@@ -26739,6 +26739,82 @@
         "research/relationship_assessments.json",
         "research/ancestry-connections/ayrshire-family-heads-preservation-2026-10-16.json"
       ]
+    },
+    {
+      "id": "irvine-calder-heads-2026-10-16",
+      "found_on": "2026-10-16",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Michael of Irvine is placed under Robert of Ayr, uncertain; James of the 1714/1717 Calder household is placed under the older William, uncertain, with the 1702-child identity retained as an alternative.",
+      "qualification": "Both are selected uncertain local father models using existing material. Neither adult receives a mother. No original newly inspected, source-record discovery, identity merge, live WikiTree edit or confidence upgrade is claimed. Existing dates, places and attached relatives are retained; connectivity counts profile accounts, including possible duplicates and older uncertain links. John Glasgow-1604 is another viable older father generation, rather than a disproved alternative. Robert’s own attachment to that John is unproved, and taking John’s approximate 1626 date narrowly could press the generation spacing if Robert had Michael early. Those older dates and attachments remain hypotheses; no date is adjusted to repair the pedigree. Another Ayrshire father, or a sibling/collateral relationship to Robert, remains possible. Margaret Donald-1722 is named in Robert’s 1670–1671 children’s records, not in a record naming Michael’s mother. She is not selected as Michael’s mother. The existing 1679 skinner/later saddler/councillor identification is inherited from the completed merge, not newly proved; keep the 1679 summons,1686/1702 civic records and 1699/1701 leather-work references distinct in their evidence roles. Elizabeth Garven and Catharine Baird remain the recorded mothers in Michael’s later child group. The 1700 Elizabeth entry has an assumed year and no proved 1 January birthday. No mother, marriage or death date is newly inferred for Michael, and the 1700–1715 household chronology does not itself identify his parents. The earlier proof-level hold on Robert is retained as history, not treated as a disproof of this qualified local model. John-3525’s earlier biography links its father to James Glasgow-1547, whereas the maintained local family uses James-3526. The 1717 index names James, not either modern profile ID. James-1547, associated with Andrew Glasgow-1546 and a 1702 entry, remains a surviving alternative childhood identity for the adult father. If baptised as an infant in 1702 he would be about 15 in 1717 and about 12 at Helen’s tree-held 1714 date. That makes the ordinary older-William model more straightforward, but neither a later childhood baptism nor an erroneous Helen association is excluded. No merge or categorical biological exclusion is selected. Andrew-1546 therefore remains an alternative father through that identity, not a newly attached parent. Andrew-1319 or another older Calder father remains possible. William-3974, the separate 1671 child of Andro, would imply younger fatherhood at a literal 1688 birth; the date estimates alone do not exclude him. Do not undo the split between that child and the older William-1026. The already attached Irish James-1025 may be another account of this James, a relative or an unrelated namesake. Sharing a proposed father does not prove two distinct James sons, and no Scottish-to-Tyrone identity or migration is established. Ann McCook is not selected as James’s mother, and Christian Cook’s attachment to James-1547 is not transferred. James’s wife and the two children’s mothers remain unknown. Helen’s exact 1714 date and father association are tree-held, not an inspected baptism. John’s 1717 record supplies a father name but not a birth or parents for the adult James. The existing child-parent grades, James’s estimated 1688 field, William’s selected uncertain John-3610 father and all older alternatives are preserved.",
+      "relationship_change_count": 2,
+      "people": [
+        {
+          "id": "Glasgow-1406",
+          "name": "Michael Glasgow, Irvine skinner and saddler",
+          "url": "/people/glasgow-1406.html"
+        },
+        {
+          "id": "Glasgow-1512",
+          "name": "Robert Glasgow, Ayr father in 1670–1671",
+          "url": "/people/glasgow-1512.html"
+        },
+        {
+          "id": "Glasgow-3526",
+          "name": "James Glasgow, Kirknewton/East Calder father",
+          "url": "/people/glasgow-3526.html"
+        },
+        {
+          "id": "Glasgow-1026",
+          "name": "William Glasgow, older Kirknewton householder",
+          "url": "/people/glasgow-1026.html"
+        },
+        {
+          "id": "Glasgow-3525",
+          "name": "John Glasgow, indexed in 1717",
+          "url": "/people/glasgow-3525.html"
+        },
+        {
+          "id": "Glasgow-3527",
+          "name": "Helen Glasgow, tree-held 1714 account",
+          "url": "/people/glasgow-3527.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Michael, skinner at Irvine, 1679 summons; JC10/19; existing merged identity",
+          "url": "https://www.findmypast.co.uk/transcript?id=GBPR%2FCOVENANT%2F028557&tab=this"
+        },
+        {
+          "title": "Robert, Ayr, June 1670; Robert Glasgow and Margaret Donald",
+          "url": "https://familysearch.org/ark:/61903/1:1:XY8Z-L28"
+        },
+        {
+          "title": "John,31 March 1717, Kirknewton/East Calder; father James",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:VQ4K-6JT"
+        },
+        {
+          "title": "Bessie, Kirknewton, 21 April 1682; older William household",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:VQ4K-ZQN"
+        },
+        {
+          "title": "William, Kirknewton, 22 April 1705; older William household",
+          "url": "https://familysearch.org/ark:/61903/1:1:VQ4K-FY9"
+        },
+        {
+          "title": "Helen’s collaborative-tree source only; no baptism inspected",
+          "url": "https://www.familysearch.org/en/tree/person/details/K8TC-GMV"
+        },
+        {
+          "title": "1702 James/Andrew family reference; surviving alternative childhood",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:VQ4K-6MQ"
+        }
+      ],
+      "detail_url": "/branches/early-scottish-records/#irvine-calder-heads",
+      "provenance": [
+        "research/relationship_assessments.json",
+        "research/ancestry-connections/irvine-calder-heads-preservation-2026-10-16.json"
+      ]
     }
   ]
 }

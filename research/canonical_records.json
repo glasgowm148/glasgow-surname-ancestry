@@ -2297,5 +2297,77 @@
         "role": "indexed child"
       }
     }
+  },
+  {
+    "record_id": "irvine-michael-skinner-1679",
+    "date": "September 1679",
+    "year": 1679,
+    "place": "Irvine",
+    "source_title": "Michael, skinner at Irvine, 1679 summons; JC10/19; existing merged identity",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=GBPR%2FCOVENANT%2F028557&tab=this",
+    "status": "Existing transcript; inherited merged identity",
+    "note": "Names a skinner, no age or parents; earlier identity of the saddler already selected before this batch.",
+    "profiles": {
+      "Glasgow-1406": {
+        "role": "named skinner; inherited working adult identity"
+      }
+    }
+  },
+  {
+    "record_id": "ayr-robert-donald-1670",
+    "date": "June 1670",
+    "year": 1670,
+    "place": "Ayr",
+    "source_title": "Robert, Ayr, June 1670; Robert Glasgow and Margaret Donald",
+    "source_url": "https://familysearch.org/ark:/61903/1:1:XY8Z-L28",
+    "status": "Existing index/captured household review",
+    "note": "Names Robert and Margaret for their son Robert, not Michael’s parentage.",
+    "profiles": {
+      "Glasgow-1512": {
+        "role": "father"
+      },
+      "Donald-1722": {
+        "role": "mother"
+      },
+      "Glasgow-1513": {
+        "role": "child"
+      }
+    }
+  },
+  {
+    "record_id": "kirknewton-john-james-1717",
+    "date": "31 March 1717",
+    "year": 1717,
+    "place": "Kirknewton/East Calder combined catalogue label",
+    "source_title": "John,31 March 1717, Kirknewton/East Calder; father James",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:VQ4K-6JT",
+    "status": "Existing index review",
+    "note": "Names father James. The 3526/1547 adult-profile identities are not specified by the record.",
+    "profiles": {
+      "Glasgow-3525": {
+        "role": "indexed child"
+      },
+      "Glasgow-3526": {
+        "role": "maintained working account for named father"
+      }
+    }
+  },
+  {
+    "record_id": "kirknewton-helen-tree-1714",
+    "date": "11 September 1714, tree-held only",
+    "year": 1714,
+    "place": "Kirknewton/East Calder, from tree fields only",
+    "source_title": "Helen’s collaborative-tree source only; no baptism inspected",
+    "source_url": "https://www.familysearch.org/en/tree/person/details/K8TC-GMV",
+    "status": "Collaborative-tree lead; original uninspected",
+    "note": "Date and father association are not independently established by an inspected parish entry.",
+    "profiles": {
+      "Glasgow-3527": {
+        "role": "tree-held child"
+      },
+      "Glasgow-3526": {
+        "role": "tree-held father association"
+      }
+    }
   }
 ]

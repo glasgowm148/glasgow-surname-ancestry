@@ -3,6 +3,12 @@
 Record every useful result and negative search here as it is found.
 Do not treat an unsourced tree or naming pattern as proof.
 
+
+## Current conclusion
+
+Reviewed: 2026-10-16
+
+**Selected working families, 16 October 2026:** Michael of Irvine Glasgow-1406 is placed under Robert of Ayr Glasgow-1512, uncertain. James of the Kirknewton/East Calder account Glasgow-3526 is placed under the older William Glasgow-1026, uncertain. Both mothers remain unknown; the 1717 child’s earlier 1547 reference is retained as an alternative identity. [Evidence and alternatives](/branches/early-scottish-records/#irvine-calder-heads).
 ## Current conclusion — 27 September 2026
 
 **Merged Glasgow-4141 into this profile on 27 September 2026.** The uncommon Michael Glasgow named as an Irvine skinner in 1679 is treated as the later Irvine saddler documented from 1699, with civic records in 1686 and 1702. The same town and related leather trades support the identification; no single record links the 1679 man to his later family. Both the summons and burgh, marriage and child sources remain in the surviving biography.
@@ -75,3 +81,20 @@ Recorded in `research/Glasgow-1406/Glasgow-1406.md` (20 August 2026); carried in
 Seen as FamilySearch index entries citing the Irvine parish register, as cited in the reviewed draft; each child's own findings carries the index or transcript. Original images not inspected. The two mothers indicate two marriages, to [Elizabeth Garven (Garven-52)](https://www.wikitree.com/wiki/Garven-52) by about 1700 and to [Catharine Baird (Baird-5776)](https://www.wikitree.com/wiki/Baird-5776) by 1706. The entries name the father only as Michael Glasgow, so his identity with the saddler rests on the uncommon name and the Irvine locality (inference).
 
 Recorded in `research/Glasgow-1406/Glasgow-1406.md` (20 August 2026); carried into this file on 7 October 2026.
+
+
+## Selected uncertain family — 16 October 2026
+
+Select Robert Glasgow-1512 as Michael Glasgow-1406’s uncertain working father. This activates a parent comparison already recorded in Michael’s profile. Robert is a record-defined Ayr father with Margaret Donald in 1670 and 1671; Michael is recorded as an Irvine skinner in 1679 and is already treated locally as the later saddler/councillor. Robert’s before 1652 birth is an upper-bound estimate from his later children, not evidence that he was born in 1652. Michael’s before 1679 boundary likewise does not date his birth. An older Robert and a Michael born well before the summons could fit a father/son generation; their ages are not recorded. The regional family setting and existing candidate justify a very low-confidence working choice. No record names Michael’s father, and no shared occupation, holding, witness or household identifies this Robert as his parent.
+
+John Glasgow-1604 is another viable older father generation, rather than a disproved alternative. Robert’s own attachment to that John is unproved, and taking John’s approximate 1626 date narrowly could press the generation spacing if Robert had Michael early. Those older dates and attachments remain hypotheses; no date is adjusted to repair the pedigree. Another Ayrshire father, or a sibling/collateral relationship to Robert, remains possible. Margaret Donald-1722 is named in Robert’s 1670–1671 children’s records, not in a record naming Michael’s mother. She is not selected as Michael’s mother. The existing 1679 skinner/later saddler/councillor identification is inherited from the completed merge, not newly proved; keep the 1679 summons,1686/1702 civic records and 1699/1701 leather-work references distinct in their evidence roles. Elizabeth Garven and Catharine Baird remain the recorded mothers in Michael’s later child group. The 1700 Elizabeth entry has an assumed year and no proved 1 January birthday. No mother, marriage or death date is newly inferred for Michael, and the 1700–1715 household chronology does not itself identify his parents. The earlier proof-level hold on Robert is retained as history, not treated as a disproof of this qualified local model.
+
+[Complete comparison and source limits](/branches/early-scottish-records/#irvine-calder-heads).
+
+- [Michael, skinner at Irvine, 1679 summons; JC10/19; existing merged identity](https://www.findmypast.co.uk/transcript?id=GBPR%2FCOVENANT%2F028557&tab=this)
+- [Robert, Ayr, June 1670; Robert Glasgow and Margaret Donald](https://familysearch.org/ark:/61903/1:1:XY8Z-L28)
+- [John,31 March 1717, Kirknewton/East Calder; father James](https://www.familysearch.org/ark:/61903/1:1:VQ4K-6JT)
+- [Bessie, Kirknewton, 21 April 1682; older William household](https://www.familysearch.org/ark:/61903/1:1:VQ4K-ZQN)
+- [William, Kirknewton, 22 April 1705; older William household](https://familysearch.org/ark:/61903/1:1:VQ4K-FY9)
+- [Helen’s collaborative-tree source only; no baptism inspected](https://www.familysearch.org/en/tree/person/details/K8TC-GMV)
+- [1702 James/Andrew family reference; surviving alternative childhood](https://www.familysearch.org/ark:/61903/1:1:VQ4K-6MQ)
