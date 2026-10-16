@@ -2642,5 +2642,71 @@
         "role": "named father"
       }
     }
+  },
+  {
+    "record_id": "uphaul-philip-thomas-child-1711",
+    "date": "3 June 1711; alternative 1711 entry remains distinct",
+    "year": 1711,
+    "place": "Uphall, West Lothian",
+    "source_title": "Philip at Uphall,3 June 1711: retained Thomas/Jean child index",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:VQ48-S7Z",
+    "status": "Previously reviewed child index; adult identity uncertain",
+    "note": "Father Thomas named. Do not make the Dublin migration or maternal transfer certain.",
+    "profiles": {
+      "Glasgow-1241": {
+        "role": "Scottish child account"
+      },
+      "Glasgow-1242": {
+        "role": "named father; existing adult identity"
+      }
+    }
+  },
+  {
+    "record_id": "dublin-philip-christchurch-watchmaker-1752",
+    "date": "1752",
+    "year": 1752,
+    "place": "Christ Church Lane, Dublin",
+    "source_title": "Dublin Gazette 1752/172: Philip Glasco, Christ Church Lane watchmaker",
+    "source_url": "https://www.virtualtreasury.ie/item/DGZ-1752-172",
+    "status": "Previously cited Gazette association",
+    "note": "Watchmaker/address; elder/junior identity needs separation. No Scottish parent named.",
+    "profiles": {
+      "Glasco-146": {
+        "role": "selected provisional elder-profile account"
+      }
+    }
+  },
+  {
+    "record_id": "dublin-elder-philip-death-1772",
+    "date": "6–8 October 1772, reported death",
+    "year": 1772,
+    "place": "Dublin",
+    "source_title": "Dublin elder’s 1772 death: existing Gazette DGZ 1772/2547 review and complete source comparison",
+    "source_url": "https://www.wikitree.com/wiki/Glasgow-1241",
+    "status": "Existing Gazette/probate review; no new original inspection",
+    "note": "Reported death of eminent watchmaker; not junior’s 1770 death. Identification with Glasco-146 and Scottish child remains uncertain.",
+    "profiles": {
+      "Glasco-146": {
+        "role": "selected uncertain elder identity"
+      },
+      "Glasgow-1241": {
+        "role": "compatible Scottish identity account"
+      }
+    }
+  },
+  {
+    "record_id": "irvine-james-rae-father-1721",
+    "date": "11 April 1721",
+    "year": 1721,
+    "place": "Irvine, Ayrshire",
+    "source_title": "James, Irvine 11 April 1721: James Glasgow and Margaret Rae",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3573667&tab=this",
+    "status": "Previously validated parish transcript",
+    "note": "James Glasgow and Margaret Rae parents of James; no grandparent named.",
+    "profiles": {
+      "Glasgow-4158": {
+        "role": "recorded adult father"
+      }
+    }
   }
 ]

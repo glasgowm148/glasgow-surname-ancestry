@@ -2,6 +2,12 @@
 
 Last updated: 2026-10-02
 
+
+## Current conclusion
+
+Reviewed: 2026-10-16
+
+**Selected Dublin/Irvine working families,16 October 2026:** Philip Glasco-146 is used provisionally as the elder Dublin watchmaker and placed under Thomas-1242, uncertain through the 1711 child comparison. James of the Irvine Rae household is placed under Hugh-3109, uncertain. No new mother is attached, and both elder/junior and Hugh identities remain qualified. [Evidence and alternatives](/branches/early-scottish-records/#dublin-irvine-working-family).
 ## Current conclusion — 27 September 2026
 
 **Merged Glasgow-4164 into this profile on 27 September 2026.** James Glasgow is the inferred common Irvine father in the 1721 James/Margaret Rae and 1723 William/Marion Rae baptisms. Both mothers, both children and both index citations are retained. The maternal given-name difference remains unresolved; no remarriage or name equivalence is asserted.
@@ -38,3 +44,27 @@ Search other Prosperity of Irvine voyages, port/customs records, masters’ bond
 ## Identity assessment — newspaper candidates withdrawn, 6 October 2026
 
 - [The Caledonian Mercury, 1740-08-18, p.3](https://www.newspapers.com/image/394559372/): no longer a candidate for this profile. 1740 Greenock arrival of the Prosperity of Irvine, master James Glasgow, from 'Northcopen'. A real Irvine shipmaster, but several Irvine James Glasgows fit and nothing in the notice separates them; no relationship is stated.
+
+
+## Selected uncertain family — 16 October 2026
+
+Select Hugh Glasgow-3109, father with Jean Service at Irvine in 1696, as the very low-confidence working father of James Glasgow-4158, father with Margaret/Marion Rae at Irvine in 1721–1723. This extends an actual local household across a compatible generation. A James born in the later 1690s could be a son of the 1696 household and an adult father by 1721; this is a compatibility example, not a new birth estimate. Hugh’s proposed identity with the 1676 Kilwinning child would make him a young father in the 1690s, which fits that example. The shared uncommon surname, same parish and two successive family generations favour this existing named parent model; no register entry names James’s father.
+
+James could instead be a son of the Irvine John-2475/Isabell Kyle family, Michael-1406’s household, another Ayrshire family, or an unrecorded father. The named James child of John/Isabell indexed in 1711 would be only about ten at the 1721 fatherhood if baptised as an infant, so he is a weaker identity candidate unless an older-baptism explanation is established. James’s before 1702 boundary is an adult-status estimate, not an actual birth. If James were substantially older, Hugh’s proposed 1676 child identity would become less plausible; no date is changed to make either hypothesis fit. The older Hugh/Hew account, its existing uncertain parents, Jean Service/Mary Dean identity sequence and earlier alternatives remain as previously assessed. James’s merged Margaret/Marion Rae household remains a working combined father account; no remarriage or equivalence between the mothers is proved. The 1740 Prosperity of Irvine shipmaster is still a possible occupational identity only, with no transfer of occupation, voyage or trade to this father. Jean Service is not selected as James’s mother solely from Hugh’s co-parentage.
+
+[Complete comparison and source limits](/branches/early-scottish-records/#dublin-irvine-working-family).
+
+- [Philip at Uphall,3 June 1711: retained Thomas/Jean child index](https://www.familysearch.org/ark:/61903/1:1:VQ48-S7Z)
+- [Dublin Gazette 1752/172: Philip Glasco, Christ Church Lane watchmaker](https://www.virtualtreasury.ie/item/DGZ-1752-172)
+- [Dublin Courant extraction,8 May 1750: Philip senior and widow Mangan](https://eddiesextracts.com/extracts1700/dc1719_52.html)
+- [Faulkner’s Dublin Journal extraction,2 February 1760: elder Philip’s wife](https://eddiesextracts.com/extracts1700/fdj1725_98.html)
+- [Previously inspected Freeman’s Journal,20 September 1768 p.3: younger Philip and Teresa Plunkett](https://www.newspapers.com/image/1050148115/)
+- [Dublin Mercury extraction,22 December 1770: younger Philip death](https://eddiesextracts.com/extracts1700/dm1723_73.html)
+- [Dublin diocesan probate index: Philip 1772 and later grant references](https://www.virtualtreasury.ie/item/PROI-DKPRI-26-7)
+- [Dublin elder’s 1772 death: existing Gazette DGZ 1772/2547 review and complete source comparison](https://www.wikitree.com/wiki/Glasgow-1241)
+- [Hugh, Irvine 1696: recorded Hugh/Jean Service household](https://www.familysearch.org/ark:/61903/1:1:XTVL-3LY)
+- [Mary, Irvine 1696: same parent names](https://www.familysearch.org/ark:/61903/1:1:CM7S-W62M)
+- [James, Irvine 11 April 1721: James Glasgow and Margaret Rae](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3573667&tab=this)
+- [James’s complete Irvine household and retained 1723 Marion Rae entry](https://www.wikitree.com/wiki/Glasgow-4158)
+- [Philip junior profile: current biography capture checked16 October2026](https://www.wikitree.com/wiki/Glasgow-3932)
+- [Robert Glasgow-3897: correct Kilrea subject retaining the entire misplaced biography](https://www.wikitree.com/wiki/Glasgow-3897)

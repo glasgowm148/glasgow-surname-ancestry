@@ -1,0 +1,50 @@
+{
+  "reviewed": "2026-10-16",
+  "cutoff": 1850,
+  "method_version": 3,
+  "input_fingerprint": "acfcfc0e55b8125feaef3d153dff7e45e63b46aa9c5975d8d0d182e0cd1e1d9d",
+  "scope": "Dublin watchmakers and Irvine: two uncertain fathers",
+  "genealogical_connections_added": 2,
+  "paternal_connections_added": 2,
+  "maternal_connections_added": 0,
+  "certainty_upgrades": 0,
+  "working_fathers": 40,
+  "working_mothers": 5,
+  "models": {
+    "standalone": {
+      "checked_historical_profiles": 1777,
+      "matched_paternal_edges": 1337,
+      "changed_father_fields": 2,
+      "added_historical_profiles": [],
+      "unresolved_father_cases": [
+        "Glasgow-1367",
+        "Glasgow-2908",
+        "Glasgow-3902",
+        "Glasgow-3904",
+        "Glasgow-867",
+        "Glasgow-951"
+      ]
+    },
+    "main": {
+      "checked_historical_profiles": 1777,
+      "matched_paternal_edges": 1337,
+      "changed_father_fields": 2,
+      "added_historical_profiles": [],
+      "unresolved_father_cases": [
+        "Glasgow-1367",
+        "Glasgow-2908",
+        "Glasgow-3902",
+        "Glasgow-3904",
+        "Glasgow-867",
+        "Glasgow-951"
+      ]
+    }
+  },
+  "publication_summary": "Both viewers include the provisional elder Philip Glasco-146 under Thomas-1242, uncertain, and James of the Irvine Rae household under Hugh-3109, uncertain. No new mother or identity merge is selected. The elder/junior accounts and Scottish identity remain qualified. The through-1850 largest working family grows from 886 to 898 retained profiles. The elder\u2019s death uses1772 conditionally; cohort membership and confidently marked metrics are unchanged. A full Dublin restoration is queued for Glasgow-3932\u2019s misplaced Kilrea biography; its actual current text remains in the comparison.",
+  "comparison": "/branches/early-scottish-records/#dublin-irvine-working-family",
+  "next_metric_check": {
+    "status": "RESOLVED",
+    "saved_confident_tree_flags_not_used_by_current_metric": 0,
+    "review": "/data/ancestry-confidence-method-review.json"
+  }
+}

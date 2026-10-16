@@ -5616,5 +5616,103 @@
       "basis": "Existing Libberton, Mid Calder, Linlithgow and Uphall records; adult identities and maternal selection assessed separately.",
       "resolution_note": "Selected uncertain parent only; no new certainty, merge or live save."
     }
+  },
+  {
+    "assertion_id": "C-working-20261016-dublin-irvine-working-family-philip-father",
+    "people": [
+      "Glasco-146",
+      "Glasgow-1242"
+    ],
+    "profile_names": {
+      "Glasco-146": "Philip Glasco, provisional elder Dublin account",
+      "Glasgow-1242": "Thomas Glasgow, Uphall/Duncan account"
+    },
+    "status": "uncertain",
+    "hypothesis_status": "possible",
+    "working_selection": true,
+    "allow_new_relationship": true,
+    "publication_status": "approved",
+    "assessment_date": "2026-10-16",
+    "evidence_grade": "Low/very low-confidence locality, generation and family-network inference",
+    "claim": "Selected uncertain father for Philip Glasco, provisional elder Dublin account",
+    "basis": "Select Thomas Glasgow-1242 as the uncertain working father of Philip Glasco-146. The preferred model uses Glasco-146 as the elder Dublin watchmaker account, retaining the 1711 Scottish child Glasgow-1241 as a separate possible account of the same man. That child’s Uphall index names father Thomas; his existing research already retains the elder watchmaker as a compatible adult identity. The Glasco-146 account has the Christ Church Lane watchmaking association in 1752, an estimated birth about 1715 and a younger Philip in its tree family, which suit that provisional elder role. The four-year difference from the 1711 baptism is between a record and an unsupported estimate, not a concrete identity conflict. This materialises the existing Scottish candidate at low confidence; it does not prove migration or two distinct elder Philips.",
+    "limitations": "The Dublin records name no Scottish parents, birthplace or apprenticeship, so the Scottish child and elder watchmaker may be different men. The fresh Glasco-146 biography itself mixes the 1752 watchmaker with junior notices of 1765,1768 and 1770. Its c.1715 birth and the c.1740 birth of Glasco-147 are tree estimates, not evidence selecting a generation. If Glasco-146 instead represents the junior, the elder Philip is an alternative father-generation placement and the Thomas link would need revision; no competing father is attached alongside it. The elder placement is a preferred working interpretation of the profile’s trade/address and family structure, not a claim that every event in that biography belongs to him. The junior’s 1765 unnamed-wife death,1768 Teresa Plunkett marriage and reported 1770 death remain with the younger documentary account Glasgow-3932. Glasco-147 is a strongly supported duplicate account of that younger man, but its quoted 1772 younger/inventory wording was not independently rechecked here and establishes neither the estimated birth nor a newly verified father clause; a grant date is not a death date. No merge, spouse transfer or new child attachment follows. Catherine Mangan is called Glasco-146’s mother in its prose but spouse in its structured family; the 1750 report describes the elder’s bride only as the widow Mangan, and the 1760 report gives no forename. Neither record proves maternity. Preserve the existing Mangan/Braccan and younger-parent fields as qualified leads; do not add a mother for Glasco-146. The father Thomas is common to the retained 1711 child records, while the 3 June Uphall versus 21 October Linlithgow Philip entries and their maternal readings remain unreconciled; Jean Duncan is not transferred as Glasco-146’s mother. The 1777 probate/court occurrence does not establish survival after 1772. The local elder account uses 1772 as an uncertain death year through the selected identity, retaining the old after 1772 value and all junior events in the comparison. Two newly selected uncertain fathers, no new mother, identity merge, certainty upgrade or live WikiTree save. Existing newspaper/parish reviews supply the historical comparisons; three Open/non-living WikiTree profiles were read anonymously to reconcile their current wording. The elder’s 1772 death is conditional on the selected adult identity; no birth is changed. Possible duplicate profile accounts and inherited uncertain routes remain explicit limitations of the working connectivity score.",
+    "source_ids": [
+      "uphaul-philip-thomas-child-1711",
+      "dublin-philip-christchurch-watchmaker-1752",
+      "dublin-elder-philip-death-1772"
+    ],
+    "model_note": "The Dublin records name no Scottish parents, birthplace or apprenticeship, so the Scottish child and elder watchmaker may be different men. The fresh Glasco-146 biography itself mixes the 1752 watchmaker with junior notices of 1765,1768 and 1770. Its c.1715 birth and the c.1740 birth of Glasco-147 are tree estimates, not evidence selecting a generation. If Glasco-146 instead represents the junior, the elder Philip is an alternative father-generation placement and the Thomas link would need revision; no competing father is attached alongside it. The elder placement is a preferred working interpretation of the profile’s trade/address and family structure, not a claim that every event in that biography belongs to him. The junior’s 1765 unnamed-wife death,1768 Teresa Plunkett marriage and reported 1770 death remain with the younger documentary account Glasgow-3932. Glasco-147 is a strongly supported duplicate account of that younger man, but its quoted 1772 younger/inventory wording was not independently rechecked here and establishes neither the estimated birth nor a newly verified father clause; a grant date is not a death date. No merge, spouse transfer or new child attachment follows. Catherine Mangan is called Glasco-146’s mother in its prose but spouse in its structured family; the 1750 report describes the elder’s bride only as the widow Mangan, and the 1760 report gives no forename. Neither record proves maternity. Preserve the existing Mangan/Braccan and younger-parent fields as qualified leads; do not add a mother for Glasco-146. The father Thomas is common to the retained 1711 child records, while the 3 June Uphall versus 21 October Linlithgow Philip entries and their maternal readings remain unreconciled; Jean Duncan is not transferred as Glasco-146’s mother. The 1777 probate/court occurrence does not establish survival after 1772. The local elder account uses 1772 as an uncertain death year through the selected identity, retaining the old after 1772 value and all junior events in the comparison. Two newly selected uncertain fathers, no new mother, identity merge, certainty upgrade or live WikiTree save. Existing newspaper/parish reviews supply the historical comparisons; three Open/non-living WikiTree profiles were read anonymously to reconcile their current wording. The elder’s 1772 death is conditional on the selected adult identity; no birth is changed. Possible duplicate profile accounts and inherited uncertain routes remain explicit limitations of the working connectivity score.",
+    "perspectives": {
+      "Glasco-146": {
+        "relationship": "father",
+        "status_label": "Uncertain father; selected working family",
+        "reason": "Select Thomas Glasgow-1242 as the uncertain working father of Philip Glasco-146. The preferred model uses Glasco-146 as the elder Dublin watchmaker account, retaining the 1711 Scottish child Glasgow-1241 as a separate possible account of the same man. That child’s Uphall index names father Thomas; his existing research already retains the elder watchmaker as a compatible adult identity. The Glasco-146 account has the Christ Church Lane watchmaking association in 1752, an estimated birth about 1715 and a younger Philip in its tree family, which suit that provisional elder role. The four-year difference from the 1711 baptism is between a record and an unsupported estimate, not a concrete identity conflict. This materialises the existing Scottish candidate at low confidence; it does not prove migration or two distinct elder Philips."
+      },
+      "Glasgow-1242": {
+        "relationship": "son",
+        "status_label": "Uncertain son; selected working family",
+        "reason": "Select Thomas Glasgow-1242 as the uncertain working father of Philip Glasco-146. The preferred model uses Glasco-146 as the elder Dublin watchmaker account, retaining the 1711 Scottish child Glasgow-1241 as a separate possible account of the same man. That child’s Uphall index names father Thomas; his existing research already retains the elder watchmaker as a compatible adult identity. The Glasco-146 account has the Christ Church Lane watchmaking association in 1752, an estimated birth about 1715 and a younger Philip in its tree family, which suit that provisional elder role. The four-year difference from the 1711 baptism is between a record and an unsupported estimate, not a concrete identity conflict. This materialises the existing Scottish candidate at low confidence; it does not prove migration or two distinct elder Philips."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Dublin watchmakers and Irvine: two uncertain fathers",
+        "href": "/branches/early-scottish-records/#dublin-irvine-working-family"
+      }
+    ],
+    "provenance": {
+      "prior_assessment": "No selected parent on this account; existing local records and family-network reviews supplied the model.",
+      "basis": "Existing Dublin trade and Uphall baptism reviews, plus Irvine parish households; profile identity and parentage remain separate.",
+      "resolution_note": "Selected uncertain parent only; no new certainty, merge or live save."
+    }
+  },
+  {
+    "assertion_id": "C-working-20261016-dublin-irvine-working-family-james-father",
+    "people": [
+      "Glasgow-4158",
+      "Glasgow-3109"
+    ],
+    "profile_names": {
+      "Glasgow-4158": "James Glasgow, Irvine Rae household",
+      "Glasgow-3109": "Hugh Glasgow, Irvine Service household"
+    },
+    "status": "uncertain",
+    "hypothesis_status": "possible",
+    "working_selection": true,
+    "allow_new_relationship": true,
+    "publication_status": "approved",
+    "assessment_date": "2026-10-16",
+    "evidence_grade": "Low/very low-confidence locality, generation and family-network inference",
+    "claim": "Selected uncertain father for James Glasgow, Irvine Rae household",
+    "basis": "Select Hugh Glasgow-3109, father with Jean Service at Irvine in 1696, as the very low-confidence working father of James Glasgow-4158, father with Margaret/Marion Rae at Irvine in 1721–1723. This extends an actual local household across a compatible generation. A James born in the later 1690s could be a son of the 1696 household and an adult father by 1721; this is a compatibility example, not a new birth estimate. Hugh’s proposed identity with the 1676 Kilwinning child would make him a young father in the 1690s, which fits that example. The shared uncommon surname, same parish and two successive family generations favour this existing named parent model; no register entry names James’s father.",
+    "limitations": "James could instead be a son of the Irvine John-2475/Isabell Kyle family, Michael-1406’s household, another Ayrshire family, or an unrecorded father. The named James child of John/Isabell indexed in 1711 would be only about ten at the 1721 fatherhood if baptised as an infant, so he is a weaker identity candidate unless an older-baptism explanation is established. James’s before 1702 boundary is an adult-status estimate, not an actual birth. If James were substantially older, Hugh’s proposed 1676 child identity would become less plausible; no date is changed to make either hypothesis fit. The older Hugh/Hew account, its existing uncertain parents, Jean Service/Mary Dean identity sequence and earlier alternatives remain as previously assessed. James’s merged Margaret/Marion Rae household remains a working combined father account; no remarriage or equivalence between the mothers is proved. The 1740 Prosperity of Irvine shipmaster is still a possible occupational identity only, with no transfer of occupation, voyage or trade to this father. Jean Service is not selected as James’s mother solely from Hugh’s co-parentage. Two newly selected uncertain fathers, no new mother, identity merge, certainty upgrade or live WikiTree save. Existing newspaper/parish reviews supply the historical comparisons; three Open/non-living WikiTree profiles were read anonymously to reconcile their current wording. The elder’s 1772 death is conditional on the selected adult identity; no birth is changed. Possible duplicate profile accounts and inherited uncertain routes remain explicit limitations of the working connectivity score.",
+    "source_ids": [
+      "irvine-james-rae-father-1721"
+    ],
+    "model_note": "James could instead be a son of the Irvine John-2475/Isabell Kyle family, Michael-1406’s household, another Ayrshire family, or an unrecorded father. The named James child of John/Isabell indexed in 1711 would be only about ten at the 1721 fatherhood if baptised as an infant, so he is a weaker identity candidate unless an older-baptism explanation is established. James’s before 1702 boundary is an adult-status estimate, not an actual birth. If James were substantially older, Hugh’s proposed 1676 child identity would become less plausible; no date is changed to make either hypothesis fit. The older Hugh/Hew account, its existing uncertain parents, Jean Service/Mary Dean identity sequence and earlier alternatives remain as previously assessed. James’s merged Margaret/Marion Rae household remains a working combined father account; no remarriage or equivalence between the mothers is proved. The 1740 Prosperity of Irvine shipmaster is still a possible occupational identity only, with no transfer of occupation, voyage or trade to this father. Jean Service is not selected as James’s mother solely from Hugh’s co-parentage. Two newly selected uncertain fathers, no new mother, identity merge, certainty upgrade or live WikiTree save. Existing newspaper/parish reviews supply the historical comparisons; three Open/non-living WikiTree profiles were read anonymously to reconcile their current wording. The elder’s 1772 death is conditional on the selected adult identity; no birth is changed. Possible duplicate profile accounts and inherited uncertain routes remain explicit limitations of the working connectivity score.",
+    "perspectives": {
+      "Glasgow-4158": {
+        "relationship": "father",
+        "status_label": "Uncertain father; selected working family",
+        "reason": "Select Hugh Glasgow-3109, father with Jean Service at Irvine in 1696, as the very low-confidence working father of James Glasgow-4158, father with Margaret/Marion Rae at Irvine in 1721–1723. This extends an actual local household across a compatible generation. A James born in the later 1690s could be a son of the 1696 household and an adult father by 1721; this is a compatibility example, not a new birth estimate. Hugh’s proposed identity with the 1676 Kilwinning child would make him a young father in the 1690s, which fits that example. The shared uncommon surname, same parish and two successive family generations favour this existing named parent model; no register entry names James’s father."
+      },
+      "Glasgow-3109": {
+        "relationship": "son",
+        "status_label": "Uncertain son; selected working family",
+        "reason": "Select Hugh Glasgow-3109, father with Jean Service at Irvine in 1696, as the very low-confidence working father of James Glasgow-4158, father with Margaret/Marion Rae at Irvine in 1721–1723. This extends an actual local household across a compatible generation. A James born in the later 1690s could be a son of the 1696 household and an adult father by 1721; this is a compatibility example, not a new birth estimate. Hugh’s proposed identity with the 1676 Kilwinning child would make him a young father in the 1690s, which fits that example. The shared uncommon surname, same parish and two successive family generations favour this existing named parent model; no register entry names James’s father."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Dublin watchmakers and Irvine: two uncertain fathers",
+        "href": "/branches/early-scottish-records/#dublin-irvine-working-family"
+      }
+    ],
+    "provenance": {
+      "prior_assessment": "No selected parent on this account; existing local records and family-network reviews supplied the model.",
+      "basis": "Existing Dublin trade and Uphall baptism reviews, plus Irvine parish households; profile identity and parentage remain separate.",
+      "resolution_note": "Selected uncertain parent only; no new certainty, merge or live save."
+    }
   }
 ]

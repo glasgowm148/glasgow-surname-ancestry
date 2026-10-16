@@ -1671,3 +1671,14 @@ The August completion entries remain historical. The live parent fields are now 
 | [Agnes Eastone/Daston](https://www.wikitree.com/wiki/Eastone-3) | OPEN | Review selected uncertain Libberton/Uphall parents and retained same-name identities; preserve source dates, existing relationships and earlier amendments. |
 | [Thomas Glasgow, Linlithgow child and Duncan household account](https://www.wikitree.com/wiki/Glasgow-1242) | OPEN | Review selected uncertain Libberton/Uphall parents and retained same-name identities; preserve source dates, existing relationships and earlier amendments. |
 | [Thomas Glasgow, St Cuthbert’s child of 1666](https://www.wikitree.com/wiki/Glasgow-1311) | OPEN | Review selected uncertain Libberton/Uphall parents and retained same-name identities; preserve source dates, existing relationships and earlier amendments. |
+
+
+## Dublin and Irvine working families — 16 October 2026
+
+| [Philip Glasco, provisional elder Dublin account](https://www.wikitree.com/wiki/Glasco-146) | OPEN | Review the selected uncertain Dublin/Irvine fathers, separated elder/junior events and surviving profile identities; preserve all source citations and prior amendments. |
+| [Thomas Glasgow, Uphall/Duncan account](https://www.wikitree.com/wiki/Glasgow-1242) | OPEN | Review the selected uncertain Dublin/Irvine fathers, separated elder/junior events and surviving profile identities; preserve all source citations and prior amendments. |
+| [Philip Glasgow, Scottish child and Dublin candidate](https://www.wikitree.com/wiki/Glasgow-1241) | OPEN | Review the selected uncertain Dublin/Irvine fathers, separated elder/junior events and surviving profile identities; preserve all source citations and prior amendments. |
+| [Philip Glasco, younger inventory-profile account](https://www.wikitree.com/wiki/Glasco-147) | OPEN | Review the selected uncertain Dublin/Irvine fathers, separated elder/junior events and surviving profile identities; preserve all source citations and prior amendments. |
+| [Philip Glasco junior, Teresa Plunkett household](https://www.wikitree.com/wiki/Glasgow-3932) | OPEN | Review the selected uncertain Dublin/Irvine fathers, separated elder/junior events and surviving profile identities; preserve all source citations and prior amendments.  Restore the misplaced Kilrea biography from the complete sourced Dublin draft, retaining actual current/replacement comparison. |
+| [James Glasgow, Irvine Rae household](https://www.wikitree.com/wiki/Glasgow-4158) | OPEN | Review the selected uncertain Dublin/Irvine fathers, separated elder/junior events and surviving profile identities; preserve all source citations and prior amendments. |
+| [Hugh Glasgow, Irvine Service household](https://www.wikitree.com/wiki/Glasgow-3109) | OPEN | Review the selected uncertain Dublin/Irvine fathers, separated elder/junior events and surviving profile identities; preserve all source citations and prior amendments. |

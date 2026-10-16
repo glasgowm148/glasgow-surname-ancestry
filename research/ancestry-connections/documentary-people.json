@@ -377,6 +377,47 @@
         "deathLocationRegion": "other",
         "lifeLabel": "South Leith marriage 1633; birth and death unknown"
       }
+    },
+    {
+      "id": "Glasco-146",
+      "publication_status": "approved",
+      "source_ids": [
+        "dublin-philip-christchurch-watchmaker-1752",
+        "dublin-elder-philip-death-1772"
+      ],
+      "assessment_id": "chronology-dublin-philip-20261016",
+      "reviewed": "2026-10-16",
+      "year": 1715,
+      "year_basis": "inherited birth estimate",
+      "year_status": "estimated",
+      "birth_year": 1715,
+      "death_year": 1772,
+      "first_record_year": 1750,
+      "reason": "The Dublin records name no Scottish parents, birthplace or apprenticeship, so the Scottish child and elder watchmaker may be different men. The fresh Glasco-146 biography itself mixes the 1752 watchmaker with junior notices of 1765,1768 and 1770. Its c.1715 birth and the c.1740 birth of Glasco-147 are tree estimates, not evidence selecting a generation. If Glasco-146 instead represents the junior, the elder Philip is an alternative father-generation placement and the Thomas link would need revision; no competing father is attached alongside it. The elder placement is a preferred working interpretation of the profile’s trade/address and family structure, not a claim that every event in that biography belongs to him. The junior’s 1765 unnamed-wife death,1768 Teresa Plunkett marriage and reported 1770 death remain with the younger documentary account Glasgow-3932. Glasco-147 is a strongly supported duplicate account of that younger man, but its quoted 1772 younger/inventory wording was not independently rechecked here and establishes neither the estimated birth nor a newly verified father clause; a grant date is not a death date. No merge, spouse transfer or new child attachment follows. Catherine Mangan is called Glasco-146’s mother in its prose but spouse in its structured family; the 1750 report describes the elder’s bride only as the widow Mangan, and the 1760 report gives no forename. Neither record proves maternity. Preserve the existing Mangan/Braccan and younger-parent fields as qualified leads; do not add a mother for Glasco-146. The father Thomas is common to the retained 1711 child records, while the 3 June Uphall versus 21 October Linlithgow Philip entries and their maternal readings remain unreconciled; Jean Duncan is not transferred as Glasco-146’s mother. The 1777 probate/court occurrence does not establish survival after 1772. The local elder account uses 1772 as an uncertain death year through the selected identity, retaining the old after 1772 value and all junior events in the comparison.",
+      "vitals": {
+        "death": {
+          "date": "1772",
+          "place": "Dublin, Ireland",
+          "status": "uncertain",
+          "qualifier": "Reported elder watchmaker death; identification with this account remains selected uncertain. The 1777 probate occurrence does not establish survival.",
+          "source_url": "https://www.wikitree.com/wiki/Glasgow-1241"
+        }
+      },
+      "catalogue_projection": {
+        "death": "1772 (elder identity uncertain)",
+        "death_year": 1772,
+        "death_location": "Dublin, Ireland",
+        "field_statuses": {
+          "death": "uncertain",
+          "death_location": "uncertain"
+        }
+      },
+      "tree_display": {
+        "died": 1772,
+        "deathDisplay": "1772 (elder identity uncertain)",
+        "deathplace": "Dublin, Ireland",
+        "lifeLabel": "Selected elder watchmaker account; Scottish identity uncertain"
+      }
     }
   ]
 }
