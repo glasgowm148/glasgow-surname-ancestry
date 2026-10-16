@@ -3433,5 +3433,69 @@
         "timeline_group": "Collateral records"
       }
     }
+  },
+  {
+    "record_id": "edinburgh-james-robert-apprenticeship-1641",
+    "association": "direct father name; probable match to Duddingston burial",
+    "date": "1641-06-16",
+    "year": 1641,
+    "place": "Wester Duddingston; Edinburgh",
+    "source_url": "https://archive.org/details/scottishrecordso28scotuoft/page/71/mode/2up",
+    "status": "Printed register transcription re-read; existing evidence reassessed",
+    "note": "James, son of Robert, apprenticed to William Sclaitter; specific Duddingston association. Son-to-adult identity proved by 1649 date/master cross-reference; father-to-burial identity probable.",
+    "role": "apprentice and father",
+    "profiles": {
+      "Glasgow-1150": {
+        "role": "Apprentice and later weaver",
+        "timeline_group": "Family records"
+      },
+      "Glasgow-1156": {
+        "role": "Probable identity of named father",
+        "timeline_group": "Family records"
+      }
+    },
+    "source_title": "Grant, Register of Apprentices of Edinburgh (1906), printed p.71: James, father Robert, Wester Duddingston, William Sclaitter, 16 June 1641; printed page re-read",
+    "source_type": "Printed archival register transcription",
+    "source_status": "Printed register transcription re-read; existing evidence reassessed"
+  },
+  {
+    "record_id": "edinburgh-james-burgess-1649",
+    "association": "direct identity cross-reference",
+    "date": "1649-06-20",
+    "year": 1649,
+    "place": "Edinburgh",
+    "source_url": "https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/roll_of_edinburgh_burgesses_1406_to_1700.pdf#page=218",
+    "status": "Maintained earlier printed-source review; existing evidence reassessed",
+    "note": "James, weaver, admitted through late William Sclaitter; repeats 16 June 1641 apprenticeship. Not an independent second father statement.",
+    "role": "burgess",
+    "profiles": {
+      "Glasgow-1150": {
+        "role": "Burgess, matched to the 1641 apprentice",
+        "timeline_group": "Family records"
+      }
+    },
+    "source_title": "Watson, Roll of Edinburgh Burgesses (1929), printed p.208 (PDF p.218): James the weaver, 20 June 1649, matching Sclaitter and 16 June 1641 apprenticeship",
+    "source_type": "Printed archival register transcription",
+    "source_status": "Maintained earlier printed-source review; existing evidence reassessed"
+  },
+  {
+    "record_id": "duddingston-robert-burial-1647",
+    "association": "direct burial; probable father identity",
+    "date": "1647-01-17",
+    "year": 1647,
+    "place": "Duddingston",
+    "source_url": "https://www.scotlandspeople.gov.uk/",
+    "status": "OPR index citation 684/60/47; original register not inspected for this review",
+    "note": "Robert Glasgow burial. No age, wife, child or occupation supplied by the indexed citation. Probable identification with 1641 father, not documentary parentage.",
+    "role": "buried person",
+    "profiles": {
+      "Glasgow-1156": {
+        "role": "Buried person, probable identity of the 1641 father",
+        "timeline_group": "Family records"
+      }
+    },
+    "source_title": "NRS Duddingston OPR deaths/burials 684/60/47: Robert Glasgow, 17 January 1647; indexed citation, original image not inspected for this review",
+    "source_type": "Parish burial index citation",
+    "source_status": "OPR index citation 684/60/47; original register not inspected for this review"
   }
 ]

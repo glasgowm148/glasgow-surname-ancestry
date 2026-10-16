@@ -1803,3 +1803,9 @@ The August completion entries remain historical. The live parent fields are now 
 
 | [William Glasgow of Saltmarket](https://www.wikitree.com/wiki/Glasgow-1098) | OPEN | Explain probable Saltmarket fatherhood; retain the uncertain live flag and unresolved profile identity. |
 | [John Glasgow, provisional Saltmarket account](https://www.wikitree.com/wiki/Glasgow-1095) | OPEN | Explain probable Saltmarket fatherhood; retain the uncertain live flag and unresolved profile identity. |
+
+
+## Duddingston probable father — 17 October 2026
+
+| [James Glasgow, Edinburgh weaver](https://www.wikitree.com/wiki/Glasgow-1150) | OPEN | Explain probable Duddingston fatherhood from the combined apprenticeship, burgess and burial evidence; retain the uncertain live flag. |
+| [Robert Glasgow of Duddingston](https://www.wikitree.com/wiki/Glasgow-1156) | OPEN | Explain probable Duddingston fatherhood from the combined apprenticeship, burgess and burial evidence; retain the uncertain live flag. |
