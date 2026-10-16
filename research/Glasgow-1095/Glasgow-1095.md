@@ -1,10 +1,30 @@
 [[Category:Glasgow Name Study]]
 
-{{Estimated Date}}  
+{{Estimated Date}}
 == Biography ==
 John Glasgow held an identifiable Saltmarket tenement in 1527 and was dead by 21 October 1553. This profile is a compatible but unproved representative of that owner, whose property passed to William Glasgow by February 1528/29. The older Stirling John is selected below as a possible father, conditional on this identity model.<ref name="SaltmarketWorking2026">Joseph Robertson, ed., Liber Collegii Nostre Domine (1846), acts of 2 May 1527 and 20 February 1528/29; Robert Renwick, ed., Abstracts of Protocols, late-John boundary of 21 October 1553. [https://glasgow.phenotype.dev/free-space/john-de-glasgow-alias-smith-john-glasgow-of-saltmarket-7ac174/ Full sourced account].</ref>
 
 == Research Notes ==
+=== Saltmarket father assessment — 16 October 2026 ===
+
+The older John Glasgow who held the Saltmarket Rankin–Young tenement in 1527 is assessed as the probable father of William [[Glasgow-1098|William Glasgow of Saltmarket]]. William occupies the matching parcel by 20 February 1528/29; the later St Andrew prebend rental retains its four-shilling burden, west-side street position and Rankin boundary. The 1534 family settlement and 1564 service as heir then directly identify the younger John [[Glasgow-1093|Glasgow-1093]] as William’s son. Read together, these describe a sustained family title rather than merely two men sharing a surname. Lineal succession from the earlier John to William is the preferred reconstruction, while the last William-to-John step is independently documented. The grade is now probable, below documented or strongly supported. This brings the formal local father assessment into line with the stronger property argument already developed in the research.
+
+The missing 1527–1529 conveyance has not been found. No inspected instrument calls William the earlier John’s son, and no recorded ages distinguish father from brother. A brother, collateral heir or purchase from a namesake remains possible. Indeed, the neighbouring Henryson parcel in the 1528/29 instrument passes between brothers; title succession alone cannot specify kinship. The combined parcel descriptions are correlated, and the later rental is not an independent record of the original transfer. [[Glasgow-1095|John Glasgow, provisional Saltmarket account]] remains a provisional representation of the Saltmarket owner: its identification with the Stirling witness or the 1506 alias-Smith purchaser is not proved. The probable grade applies to the property-defined Saltmarket father hypothesis, not to every imported biographical claim. No mother is inferred: Eufame Craig may have been the earlier John’s widow, but this does not establish her as William’s mother. No Stirling parent, birth estimate, death location or identity merge is upgraded. The live WikiTree father flag remains uncertain; probable is a local research grade.
+
+This is a re-evaluation of an existing father attachment, not a new parent or a newly discovered record. The earlier generic uncertain assessment and its 28 September basis are retained in the structured history. All working family membership and confidently marked paternal connectivity remain unchanged. The printed 1528/29 boundary on p.90 and four-shilling rental on p.36 were freshly inspected; the other title steps retain their earlier maintained source reviews. The original manuscript transfer remains uninspected. Review priorities now rank every non-confident paternal link, including older tree attachments, rather than only the 57 selected working hypotheses. [https://glasgow.phenotype.dev/branches/early-scottish-records/#saltmarket-probable-father Confidence review and source limits]. <ref>Maintained and freshly checked printed title records: [https://archive.org/details/libercollegiino00annegoog Liber Collegii Nostre Domine, pp.85–86: 1527 John tenement; p.90: William north of Henryson/Houston in 1528/29; p.36: four-shilling burden on late William’s parcel]; [https://archive.org/download/libercollegiino00annegoog/page/n195_w1600.jpg Printed p.90, 20 February 1528/29 boundary: Willelmi Glasgu north; fresh page inspection]; [https://archive.org/download/libercollegiino00annegoog/page/n141_w1600.jpg Printed p.36, St Andrew prebend rental: late William, four shillings, Crownar north and Rankin south; fresh page inspection]; [https://archive.org/details/abstractsprotoc06scogoog/page/n69/mode/2up Renwick, Glasgow protocol 805, printed p.57: younger John served heir of father William, 28 October 1564]; [https://archive.org/details/abstractsprotoc06scogoog/page/n71/mode/2up Renwick, protocols 809–810, pp.58–59: Eufame Craig’s unnamed Glasgow husband and retained rear-tenement liferent, 16 November 1564]. Printed pages 90 and 36 were freshly inspected; the manuscript transfer remains unread. Correlated title descriptions and unresolved identity/kinship limits remain explicit.</ref>
+
+
+
+=== Retained captured wording ===
+
+These captured passages are retained for comparison; the current source notes qualify their interpretation.
+
+<blockquote>
+* [https://www.familysearch.org/tree/person/details/G8SP-D3L FamilySearch page for John Glasgow]
+<references />
+</blockquote>
+
+
 === Earlier ancestor: selected uncertain identity — 15 October 2026 ===
 
 The later 15 October review selects the 1447–1455 Glasgow burgess and 1475–1480 Stirling witness as one uncertain working identity. Both documentary groups stay separate and inspectable. Select the Glasgow burgess of 1447–1455 and the Stirling witness of 1475–1479/80 as the same man, at low confidence. Both groups use compatible John de Glasgu/Glasgw name forms in burgh-property witnessing, and the August 1475 catalogue places the Stirling John among burgesses. An adult active in 1447 could still witness in 1480 in his fifties or older. The conventional circa-1450 Stirling birth was inferred from an assumed young adult in 1475; it cannot establish a second man. A single compatible civic career is the simpler working model than inserting another generation from that estimate.
@@ -45,5 +65,5 @@ Considering the relatively small population of Glasgow in the early 1500s—esti
 The Glasgow family’s frequent mention in these historical documents points to their significance in the area during the period, and it’s possible that additional archival research could uncover further details about their relationships and activities during the 15th and 16th centuries.
 
 == Sources ==
-* [https://www.familysearch.org/tree/person/details/G8SP-D3L FamilySearch page for John Glasgow]  
+* [https://www.familysearch.org/tree/person/details/G8SP-D3L FamilySearch page for John Glasgow]
 <references />

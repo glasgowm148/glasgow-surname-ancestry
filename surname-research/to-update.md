@@ -1797,3 +1797,9 @@ The August completion entries remain historical. The live parent fields are now 
 ## Murieston working identity — 16 October 2026
 
 | [James Glasgow of Murieston](https://www.wikitree.com/wiki/Glasgow-991) | OPEN | Add the probable 1586–1605 George identity assessment; keep exact kinship and Andrew’s father grade uncertain. |
+
+
+## Saltmarket probable father — 16 October 2026
+
+| [William Glasgow of Saltmarket](https://www.wikitree.com/wiki/Glasgow-1098) | OPEN | Explain probable Saltmarket fatherhood; retain the uncertain live flag and unresolved profile identity. |
+| [John Glasgow, provisional Saltmarket account](https://www.wikitree.com/wiki/Glasgow-1095) | OPEN | Explain probable Saltmarket fatherhood; retain the uncertain live flag and unresolved profile identity. |

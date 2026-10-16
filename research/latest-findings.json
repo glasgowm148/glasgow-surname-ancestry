@@ -28240,6 +28240,80 @@
           "previous_status_provenance": "research/latest-findings-subjects/subjects.json: 15 October HOLD/possible same-man account; retained in the identity_assessment history."
         }
       ]
+    },
+    {
+      "id": "saltmarket-probable-father-2026-10-16",
+      "found_on": "2026-10-16",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Raised the existing Saltmarket John → William father assessment from generic uncertain to probable on the combined title sequence. This strengthens an early trunk relationship without adding a connection or claiming documentary parentage.",
+      "qualification": "This is a re-evaluation of an existing father attachment, not a new parent or a newly discovered record. The earlier generic uncertain assessment and its 28 September basis are retained in the structured history. All working family membership and confidently marked paternal connectivity remain unchanged. The printed 1528/29 boundary on p.90 and four-shilling rental on p.36 were freshly inspected; the other title steps retain their earlier maintained source reviews. The original manuscript transfer remains uninspected. Review priorities now rank every non-confident paternal link, including older tree attachments, rather than only the 57 selected working hypotheses. The missing 1527–1529 conveyance has not been found. No inspected instrument calls William the earlier John’s son, and no recorded ages distinguish father from brother. A brother, collateral heir or purchase from a namesake remains possible. Indeed, the neighbouring Henryson parcel in the 1528/29 instrument passes between brothers; title succession alone cannot specify kinship. The combined parcel descriptions are correlated, and the later rental is not an independent record of the original transfer. Glasgow-1095 remains a provisional representation of the Saltmarket owner: its identification with the Stirling witness or the 1506 alias-Smith purchaser is not proved. The probable grade applies to the property-defined Saltmarket father hypothesis, not to every imported biographical claim. No mother is inferred: Eufame Craig may have been the earlier John’s widow, but this does not establish her as William’s mother. No Stirling parent, birth estimate, death location or identity merge is upgraded. The live WikiTree father flag remains uncertain; probable is a local research grade. William’s captured profile leaves birth date, birthplace and death place blank, and the maintained findings already reject the local 1516 birth and High Street death-place claims. No inspected birth record supplies 1516. The local catalogue and both tree views now show these fields as Unknown, with the older import retained for comparison. No replacement birth year or place is invented. His first dated occurrence used for the local chronology is the 20 February 1528/29 boundary in the matched property-title sequence (normalized year 1529); the 1526 remission remains a separately qualified identity. This is a display/chronology correction, not evidence for his father.",
+      "relationship_change_count": 0,
+      "people": [
+        {
+          "id": "Glasgow-1098",
+          "name": "William Glasgow of Saltmarket",
+          "url": "/people/glasgow-1098.html"
+        },
+        {
+          "id": "Glasgow-1095",
+          "name": "John Glasgow, provisional Saltmarket account",
+          "url": "/people/glasgow-1095.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Liber Collegii Nostre Domine, pp.85–86: 1527 John tenement; p.90: William north of Henryson/Houston in 1528/29; p.36: four-shilling burden on late William’s parcel",
+          "url": "https://archive.org/details/libercollegiino00annegoog"
+        },
+        {
+          "title": "Printed p.90, 20 February 1528/29 boundary: Willelmi Glasgu north; fresh page inspection",
+          "url": "https://archive.org/download/libercollegiino00annegoog/page/n195_w1600.jpg"
+        },
+        {
+          "title": "Printed p.36, St Andrew prebend rental: late William, four shillings, Crownar north and Rankin south; fresh page inspection",
+          "url": "https://archive.org/download/libercollegiino00annegoog/page/n141_w1600.jpg"
+        },
+        {
+          "title": "Renwick, Glasgow protocol 805, printed p.57: younger John served heir of father William, 28 October 1564",
+          "url": "https://archive.org/details/abstractsprotoc06scogoog/page/n69/mode/2up"
+        },
+        {
+          "title": "Renwick, protocols 809–810, pp.58–59: Eufame Craig’s unnamed Glasgow husband and retained rear-tenement liferent, 16 November 1564",
+          "url": "https://archive.org/details/abstractsprotoc06scogoog/page/n71/mode/2up"
+        }
+      ],
+      "detail_url": "/branches/early-scottish-records/#saltmarket-probable-father",
+      "provenance": [
+        "research/relationship_assessments.json",
+        "research/ancestry-connections/saltmarket-probable-father-preservation-2026-10-16.json"
+      ],
+      "relationship_grade_changes": [
+        {
+          "subject_id": "Glasgow-1098",
+          "relative_id": "Glasgow-1095",
+          "relationship": "father",
+          "before": "uncertain",
+          "after": "probable",
+          "basis": "The older John Glasgow who held the Saltmarket Rankin–Young tenement in 1527 is assessed as the probable father of William Glasgow-1098. William occupies the matching parcel by 20 February 1528/29; the later St Andrew prebend rental retains its four-shilling burden, west-side street position and Rankin boundary. The 1534 family settlement and 1564 service as heir then directly identify the younger John Glasgow-1093 as William’s son. Read together, these describe a sustained family title rather than merely two men sharing a surname. Lineal succession from the earlier John to William is the preferred reconstruction, while the last William-to-John step is independently documented. The grade is now probable, below documented or strongly supported. This brings the formal local father assessment into line with the stronger property argument already developed in the research.",
+          "limitations": "The missing 1527–1529 conveyance has not been found. No inspected instrument calls William the earlier John’s son, and no recorded ages distinguish father from brother. A brother, collateral heir or purchase from a namesake remains possible. Indeed, the neighbouring Henryson parcel in the 1528/29 instrument passes between brothers; title succession alone cannot specify kinship. The combined parcel descriptions are correlated, and the later rental is not an independent record of the original transfer. Glasgow-1095 remains a provisional representation of the Saltmarket owner: its identification with the Stirling witness or the 1506 alias-Smith purchaser is not proved. The probable grade applies to the property-defined Saltmarket father hypothesis, not to every imported biographical claim. No mother is inferred: Eufame Craig may have been the earlier John’s widow, but this does not establish her as William’s mother. No Stirling parent, birth estimate, death location or identity merge is upgraded. The live WikiTree father flag remains uncertain; probable is a local research grade.",
+          "prior_assessment_date": "2026-09-28",
+          "assertion_id": "C-father-audit-20260928-glasgow-1095-glasgow-1098",
+          "new_attachment": false,
+          "live_flag_changed": false
+        }
+      ],
+      "local_chronology_corrections": [
+        {
+          "subject_id": "Glasgow-1098",
+          "former_birth_year": 1516,
+          "birth_now": "Unknown",
+          "birthplace_now": "Unknown",
+          "death_place_now": "Unknown",
+          "source_capture_preserved": true,
+          "replacement_birth_year_invented": false
+        }
+      ]
     }
   ]
 }

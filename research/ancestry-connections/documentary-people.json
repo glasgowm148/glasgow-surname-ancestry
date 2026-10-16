@@ -458,6 +458,58 @@
           "death": "unmarked"
         }
       }
+    },
+    {
+      "id": "Glasgow-1098",
+      "publication_status": "approved",
+      "assessment_id": "chronology-william-saltmarket-20261016",
+      "reviewed": "2026-10-16",
+      "source_ids": [
+        "saltmarket-john-tenement-1527-1553",
+        "glasgow-protocol-1196-1534"
+      ],
+      "birth_year": null,
+      "year": 1529,
+      "year_basis": "first record in matched property title",
+      "year_status": "record date; title identity reconstructed",
+      "first_record_year": 1529,
+      "reason": "William’s captured profile leaves birth date, birthplace and death place blank, and the maintained findings already reject the local 1516 birth and High Street death-place claims. No inspected birth record supplies 1516. The local catalogue and both tree views now show these fields as Unknown, with the older import retained for comparison. No replacement birth year or place is invented. His first dated occurrence used for the local chronology is the 20 February 1528/29 boundary in the matched property-title sequence (normalized year 1529); the 1526 remission remains a separately qualified identity. This is a display/chronology correction, not evidence for his father.",
+      "vitals": {
+        "birth": {
+          "date": null,
+          "display_date": "Unknown",
+          "place": null,
+          "status": "unknown",
+          "place_status": "unknown",
+          "qualifier": "William’s captured profile leaves birth date, birthplace and death place blank, and the maintained findings already reject the local 1516 birth and High Street death-place claims. No inspected birth record supplies 1516. The local catalogue and both tree views now show these fields as Unknown, with the older import retained for comparison. No replacement birth year or place is invented. His first dated occurrence used for the local chronology is the 20 February 1528/29 boundary in the matched property-title sequence (normalized year 1529); the 1526 remission remains a separately qualified identity. This is a display/chronology correction, not evidence for his father.",
+          "source_url": "https://www.wikitree.com/wiki/Glasgow-1098"
+        }
+      },
+      "tree_display": {
+        "born": null,
+        "birthDisplay": "Unknown",
+        "bornApprox": false,
+        "birthplace": null,
+        "deathplace": null,
+        "year": 1529
+      },
+      "catalogue_projection": {
+        "birth": "Unknown",
+        "birth_year": null,
+        "birth_note": "William’s captured profile leaves birth date, birthplace and death place blank, and the maintained findings already reject the local 1516 birth and High Street death-place claims. No inspected birth record supplies 1516. The local catalogue and both tree views now show these fields as Unknown, with the older import retained for comparison. No replacement birth year or place is invented. His first dated occurrence used for the local chronology is the 20 February 1528/29 boundary in the matched property-title sequence (normalized year 1529); the 1526 remission remains a separately qualified identity. This is a display/chronology correction, not evidence for his father.",
+        "birth_location": "Unknown",
+        "birth_location_note": "No birthplace recorded in the captured profile or inspected title records.",
+        "death_location": "Unknown",
+        "date_years": [
+          1536
+        ],
+        "field_statuses": {
+          "birth": "unknown",
+          "birth_location": "unknown",
+          "death": "before",
+          "death_location": "unknown"
+        }
+      }
     }
   ]
 }

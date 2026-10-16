@@ -6,6 +6,21 @@ from tools.sync_ancestry_atlas import overlay_model
 
 
 class AtlasWorkingTests(unittest.TestCase):
+    def test_reviewed_birthplace_can_be_cleared_without_changing_map_context(self):
+        old = {'meta': {}, 'landmarks': [], 'sections': [], 'people': [
+            {'id': '@root', 'kind': 'group'},
+            {'id': 'Parent-1', 'kind': 'person', 'name': 'Approved name',
+             'birthplace': 'Unsupported birthplace', 'locationLabel': 'Documented residence',
+             'childrenRecorded': []}]}
+        fresh = deepcopy(old)
+        fresh['meta'].update(date='2026-10-16', reviewedChronologyDisplay={
+            'Parent-1': {'birthplace': None, 'locationLabel': 'Unreviewed map label'}})
+        out = overlay_model(old, fresh)
+        self.assertIsNone(out['people'][1]['birthplace'])
+        self.assertEqual(out['people'][1]['locationLabel'], 'Documented residence')
+        self.assertEqual(old['people'][1]['birthplace'], 'Unsupported birthplace')
+        self.assertEqual(overlay_model(out, fresh), out)
+
     def test_reviewed_parent_chronology_can_clear_an_unsupported_birth(self):
         old = {'meta': {}, 'landmarks': [], 'sections': [], 'people': [
             {'id': '@root', 'kind': 'group'},

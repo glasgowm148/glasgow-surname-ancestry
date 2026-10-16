@@ -1,6 +1,12 @@
 # Findings: [John Glasgow (Glasgow-1095)](https://www.wikitree.com/wiki/Glasgow-1095)
 
+Last updated: 2026-10-16
+
 ## Current conclusion
+
+Reviewed: 2026-10-16
+
+**Saltmarket review, 16 October 2026:** John Glasgow’s relationship to William is now **probable father**, inferred from the combined property title. It remains below documented; the provisional profile identity and mother are unresolved. [Evidence and alternatives](/branches/early-scottish-records/#saltmarket-probable-father).
 
 **Earlier ancestor identity selected, 15 October 2026:** the proposed Stirling father is now provisionally identified with the Glasgow burgess recorded in 1447–1455. This is an uncertain identity choice, not another father generation or a certainty upgrade. [Reasons and alternatives](/branches/early-scottish-records/#glasgow-stirling-identity).
 
@@ -33,9 +39,7 @@ is proved to be Glasgow-1095:
 No inspected record calls either man father of William Glasgow-1098. A new
 property reconstruction does, however, show William occupying the older
 John's exact Rankin–Young parcel in 1534/35 and William's proved son inheriting
-it in 1564. This raises the older John to a serious possible relative while
-remaining insufficient to prove fatherhood. Preserve the current attachment as
-uncertain; do not present it as proved.
+it in 1564. The combined title sequence now favours the older John as William’s **probable father** for the property-defined Saltmarket account. This remains an inference, with brotherhood or collateral succession still possible and the profile identity unresolved. The live WikiTree flag remains uncertain; no documented parentage is claimed.
 
 ## Source findings
 
@@ -104,3 +108,20 @@ No shared holding, relative, trade, personal seal or distinctive repeated associ
 The selected uncertain father links to Saltmarket candidate Glasgow-1095 and Alan Glasgow-3023 remain unchanged. Glasgow-1095 is still only a provisional Saltmarket representative: if it instead represents the older witness, that father link collapses as a duplicate identity. The earlier Malcolm father candidate remains unselected. Identity and father–son alternatives between the Glasgow and Stirling groups are not combined.
 
 See the [complete five-record comparison](/branches/early-scottish-records/#glasgow-stirling-identity). Sources remain the two Glasgow civic acts, the two printed Stirling abstracts and NRS B66/25/43; no new inspection.
+
+
+## Saltmarket father assessment — 16 October 2026
+
+The older John Glasgow who held the Saltmarket Rankin–Young tenement in 1527 is assessed as the probable father of William Glasgow-1098. William occupies the matching parcel by 20 February 1528/29; the later St Andrew prebend rental retains its four-shilling burden, west-side street position and Rankin boundary. The 1534 family settlement and 1564 service as heir then directly identify the younger John Glasgow-1093 as William’s son. Read together, these describe a sustained family title rather than merely two men sharing a surname. Lineal succession from the earlier John to William is the preferred reconstruction, while the last William-to-John step is independently documented. The grade is now probable, below documented or strongly supported. This brings the formal local father assessment into line with the stronger property argument already developed in the research.
+
+The missing 1527–1529 conveyance has not been found. No inspected instrument calls William the earlier John’s son, and no recorded ages distinguish father from brother. A brother, collateral heir or purchase from a namesake remains possible. Indeed, the neighbouring Henryson parcel in the 1528/29 instrument passes between brothers; title succession alone cannot specify kinship. The combined parcel descriptions are correlated, and the later rental is not an independent record of the original transfer. Glasgow-1095 remains a provisional representation of the Saltmarket owner: its identification with the Stirling witness or the 1506 alias-Smith purchaser is not proved. The probable grade applies to the property-defined Saltmarket father hypothesis, not to every imported biographical claim. No mother is inferred: Eufame Craig may have been the earlier John’s widow, but this does not establish her as William’s mother. No Stirling parent, birth estimate, death location or identity merge is upgraded. The live WikiTree father flag remains uncertain; probable is a local research grade.
+
+This is a re-evaluation of an existing father attachment, not a new parent or a newly discovered record. The earlier generic uncertain assessment and its 28 September basis are retained in the structured history. All working family membership and confidently marked paternal connectivity remain unchanged. The printed 1528/29 boundary on p.90 and four-shilling rental on p.36 were freshly inspected; the other title steps retain their earlier maintained source reviews. The original manuscript transfer remains uninspected. Review priorities now rank every non-confident paternal link, including older tree attachments, rather than only the 57 selected working hypotheses.
+
+[Complete comparison and source limits](/branches/early-scottish-records/#saltmarket-probable-father).
+
+- [Liber Collegii Nostre Domine, pp.85–86: 1527 John tenement; p.90: William north of Henryson/Houston in 1528/29; p.36: four-shilling burden on late William’s parcel](https://archive.org/details/libercollegiino00annegoog)
+- [Printed p.90, 20 February 1528/29 boundary: Willelmi Glasgu north; fresh page inspection](https://archive.org/download/libercollegiino00annegoog/page/n195_w1600.jpg)
+- [Printed p.36, St Andrew prebend rental: late William, four shillings, Crownar north and Rankin south; fresh page inspection](https://archive.org/download/libercollegiino00annegoog/page/n141_w1600.jpg)
+- [Renwick, Glasgow protocol 805, printed p.57: younger John served heir of father William, 28 October 1564](https://archive.org/details/abstractsprotoc06scogoog/page/n69/mode/2up)
+- [Renwick, protocols 809–810, pp.58–59: Eufame Craig’s unnamed Glasgow husband and retained rear-tenement liferent, 16 November 1564](https://archive.org/details/abstractsprotoc06scogoog/page/n71/mode/2up)

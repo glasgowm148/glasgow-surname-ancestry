@@ -15,7 +15,7 @@ WORKING_PERSON_FIELDS = (
 
 CHRONOLOGY_DISPLAY_FIELDS = (
     'born', 'died', 'year', 'birthDisplay', 'deathDisplay', 'lifeLabel',
-    'deathplace', 'deathLocationRegion', 'bornApprox',
+    'birthplace', 'deathplace', 'deathLocationRegion', 'bornApprox',
 )
 
 def parent_order(row: dict) -> tuple:

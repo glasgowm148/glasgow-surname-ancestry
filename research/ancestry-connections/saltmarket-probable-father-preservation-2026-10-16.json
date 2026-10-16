@@ -1,0 +1,89 @@
+{
+  "reviewed": "2026-10-16",
+  "scope": "Saltmarket John is William’s probable father",
+  "profiles": {
+    "Glasgow-1098": {
+      "current_sha256": "607985b5c7c72eaec8bde906a22f7a69afba5b20b0a6288a9dad08ee531b032e",
+      "proposed_sha256": "0ea66abd50cca880b51d34adbdac4e4ee315661b50b33451114091929e80c0a4",
+      "all_substantive_passages_accounted_for": true,
+      "passages": [
+        "Every previous complete public proposal/comparison or normalized capture paragraph and captured source URL retained.",
+        "New parent choices remain uncertain; named-child parent clauses are distinguished from adult identity.",
+        "Mothers assessed separately; all date discrepancies, alternative father generations, older scaffolds and pending work retained.",
+        "Local unsupported birth year and precise death location corrected separately; original imported values remain inspectable. No replacement birth fact inferred."
+      ],
+      "source_urls_retained": [
+        "https://archive.org/details/abstractsprotoc00robegoog/page/n52/mode/2up",
+        "https://archive.org/details/abstractsprotoc06scogoog/page/n52/mode/2up",
+        "https://archive.org/details/abstractsprotoc06scogoog/page/n69/mode/2up",
+        "https://archive.org/details/abstractsprotoc06scogoog/page/n71/mode/2up",
+        "https://archive.org/details/abstractsprotoc06scogoog/page/n89/mode/2up",
+        "https://archive.org/details/abstractsprotoc07robegoog/page/n59/mode/2up",
+        "https://archive.org/details/abstractsprotoc07robegoog/page/n97/mode/2up",
+        "https://archive.org/details/abstractsprotoc08robegoog/page/n84/mode/2up",
+        "https://archive.org/details/abstractsprotoc08robegoog/page/n85/mode/2up",
+        "https://archive.org/details/abstractsprotoc08robegoog/page/n99/mode/2up",
+        "https://archive.org/details/abstractsprotoc08scogoog/page/n29/mode/2up",
+        "https://archive.org/details/abstractsprotoc08scogoog/page/n57/mode/2up",
+        "https://archive.org/details/abstractsprotoc08scogoog/page/n98/mode/2up",
+        "https://archive.org/details/libercollegiino00annegoog",
+        "https://archive.org/details/registrummagnisi04scot/page/164/mode/1up",
+        "https://archive.org/download/libercollegiino00annegoog/page/n141_w1600.jpg",
+        "https://archive.org/download/libercollegiino00annegoog/page/n195_w1600.jpg",
+        "https://archive.org/download/libercollegiino00annegoog/page/n196_w1600.jpg",
+        "https://archive.org/stream/abstractsprotoc08robegoog/abstractsprotoc08robegoog_djvu.txt",
+        "https://archive.org/stream/registrumsecret00scotgoog/registrumsecret00scotgoog_djvu.txt",
+        "https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/browseDetails.aspx?reference=GD119%2F193",
+        "https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=NP1%2f5",
+        "https://cityarchives.glasgowlife.org.uk/Record.aspx?src=CalmView.Catalog&id=B%2f10%2f1%2f3",
+        "https://manuscripts.nls.uk/repositories/2/archival_objects/12930"
+      ],
+      "full_comparison_withheld_for_privacy": false,
+      "private_source_urls_retained_count": 0
+    },
+    "Glasgow-1095": {
+      "current_sha256": "5b1ac998afff9c8ebbbcc15570b1c376621b8600c49113be2faa937b6f88c67a",
+      "proposed_sha256": "0434bf57ae20555c87b36adaba1ab32307214310fe08687da6479b800f613ee4",
+      "all_substantive_passages_accounted_for": true,
+      "passages": [
+        "Every previous complete public proposal/comparison or normalized capture paragraph and captured source URL retained.",
+        "New parent choices remain uncertain; named-child parent clauses are distinguished from adult identity.",
+        "Mothers assessed separately; all date discrepancies, alternative father generations, older scaffolds and pending work retained."
+      ],
+      "source_urls_retained": [
+        "https://www.familysearch.org/tree/person/details/G8SP-D3L",
+        "https://www.wikitree.com/wiki/Space:John_Glasgow-1"
+      ],
+      "full_comparison_withheld_for_privacy": false,
+      "private_source_urls_retained_count": 0,
+      "previous_review_path": "research/ancestry-connections/glasgow-stirling-identity-preservation-2026-10-15.json"
+    }
+  },
+  "previous_queue_entries": {
+    "Glasgow-1098": {
+      "significance": 97,
+      "summary": "Replace the duplicated and partly obsolete live biography with the complete record-led profile, and correct the structured death to before 28 October 1564/place unknown while keeping unproved parent and child links uncertain.",
+      "manual_update": true
+    },
+    "Glasgow-1095": {
+      "queued_at": "2026-10-15",
+      "significance": 85,
+      "summary": "Review complete sourced research-note draft selecting John Glasgw of Stirling as uncertain local father of John Glasgow of Saltmarket (provisional profile identity); preserve identity and collateral alternatives. Pre-1500/profile-manager scope requires separate review; no live attachment requested. Additional review: selected uncertain Glasgow–Stirling identity extends the proposed ancestor’s record period to 1447; no additional parent or certainty change.",
+      "manual_update": true,
+      "draft_path": "research/Glasgow-1095/Glasgow-1095.md",
+      "preservation_review_path": "research/ancestry-connections/glasgow-stirling-identity-preservation-2026-10-15.json",
+      "reviewed_narrative_reduction": true,
+      "preserve_captured_detail": false,
+      "relationship_changes": [
+        {
+          "action": "add",
+          "relationship": "father",
+          "status": "uncertain",
+          "relative_id": "record-john-glasgw-stirling-1475",
+          "relative_wikitree_url": "https://www.wikitree.com/wiki/Space:John_Glasgw_of_Stirling",
+          "assertion_id": "C-working-20261015-glasgow-1095-stirling-john"
+        }
+      ]
+    }
+  }
+}
