@@ -1,22 +1,41 @@
-# WikiTree update notes: [James Glasgow (Glasgow-3921), born 1542, birthplace unknown](https://www.wikitree.com/wiki/Glasgow-3921)
+{{Estimated Date}}
+[[Category:Glasgow Name Study]]
 
-Record only sourced facts and corrections missing from the current WikiTree
-profile. Keep same-name identities and inferred relationships explicitly
-unproved.
+== Biography ==
+'''James Glasgow''' was born before 1542, probably in Scotland. The year is an estimate based on his being at least 18 years old when he appeared as a tenant in a record dated 1559–60.
 
-## Suggested additions
+In the Cunninghame teind lists of 1559–60, Katherine Campbell, James Glasgow younger, and James Glasgow elder were listed under Corsankell in the parish of Stevenston, Ayrshire.<ref name="Teinds">Margaret H. B. Sanderson, ''The People of Sixteenth Century Ayrshire'', ''Ayrshire Collections'', vol. 14, no. 8 (Ayrshire Archaeological and Natural History Society, 1987), appendix "The Cunninghame Teind Lists of 1559–60," [https://aanhs.org/wp-content/uploads/2018/05/people-of-ayrshire.pdf#page=36 p. 331], Corsankell entry. Sanderson identifies the underlying record as Scottish Record Office, Register of Acts and Decreets, vol. 22, fols. 102v–167v.</ref> The qualifiers younger and elder distinguish two contemporary men named James Glasgow but do not, by themselves, establish their relationship.
 
-| Fact missing from profile | Source | Confidence |
-| --- | --- | --- |
-| James younger survived after 9 February 1571. | NRS, Glencairn papers, [GD39/5/59](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD39%2F5%2F59) | Direct record |
+A later record resolves the father-and-son relationship. On 9 February 1571 Corsankell was occupied by [[Glasgow-1168|James Glasgow elder]] and by James and [[Glasgow-4061|John Glasgow]], his sons.<ref name="Reversion">National Records of Scotland, Charter Chest of the Earls of Glencairn, [https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD39%2F5%2F59 GD39/5/59], letters of reversion concerning the 40-shilling land of Corsankell, 9 February 1571.</ref> This proves that James was alive on that date; it does not give his death date or place.
 
-## Suggested corrections
+== Research Notes ==
+Katherine Campbell in the 1559–60 list and Christian Campbell in the 1571 deed have no stated relationship to James. Neither is identified as his mother or wife.<ref name="Teinds" /><ref name="Reversion" /> The 1571 deed establishes his father James elder; his birth before about 1542 remains an estimate from the earlier tenancy, and his death was after 9 February 1571.
 
-1. Retain [James Glasgow elder (Glasgow-1168), born about 1515, Corsankell](https://www.wikitree.com/wiki/Glasgow-1168) as the father and mark the relationship confirmed. The 1571 record explicitly calls James younger his son.
-2. Change the birth treatment from exact `1542` to **before about 1542, uncertain**. The year is an estimate from his separate appearance in 1559-60, not a recorded birth.
-3. Add death **after 9 February 1571, place unknown**, uncertain.
 
-## Do not add as fact
+=== Agnes Glasgow of Stevenston: possible father ===
 
-- Do not attach Katherine or Christian Campbell as mother or spouse; neither record states their relationship.
-- Do not identify this man with Glasgow-991 or the redirect Glasgow-2429.
+In the working reconstruction, James Glasgow younger ([[Glasgow-3921]]), the Corsankell tenant, is Agnes’s possible father. Her probable 1601 and compatible 1606 Milneburne sasines and her 1628 Stevenston testament place her in the same small parish as the documented Corsankell family of 1559–1571. James younger’s approximate 1540 generation is a natural fit for the father of a woman already married by 1601. His existing plausible daughters Katherine [[Glasgow-1495]] and Geillis [[Glasgow-3179]] belong to the neighbouring Stevenston–Ardrossan women’s network; Geillis’s 1603 estate also names a James Glasgow in Stevenston in its debts. These are local family comparisons, not proved sisters or identification of the creditor. The earlier James-1168/Margaret Smith placement mixed two generations: Margaret is associated with the younger James, not the elder. Selecting the younger James gives the leading generational placement without inheriting that unsupported mother.
+
+No record names Agnes’s father. Parish, generation and the existing family comparisons support only a low-confidence choice. The 1601 entry is a land-record registration, not a marriage date or an age statement; Agnes may already have been married for many years. As an illustration only, a married woman aged about 20–35 in 1601 would have been born about 1566–1581, making James younger about 26–41 and James elder about 51–66 at her birth. These are comparison assumptions, not birth estimates or exclusions. James elder remains an alternative father if Agnes was older. Edward [[Glasgow-1557]] or another local Glasgow remains an alternative, especially if the unproved sisterhood with Jonet [[Glasgow-1494]] is established. Edward’s own approximate 1570 birth makes that father generation less comfortable for a woman already married in 1601, but the estimate is not a hard conflict.
+
+Neither the two women’s sisterhood nor the two Logan husbands’ brotherhood is documented. Under the selected James-younger father and the existing uncertain James → Edward → Jonet chain, Agnes could instead be Jonet’s aunt; that is a conditional model consequence, not a new proved kinship. Margaret Smith is not selected as Agnes’s mother, and her 1632 husband is not proved identical to the Corsankell man. The unnamed Stevenston elder of 1613 remains unidentified.
+
+Agnes’s birth date is unknown. If the 1601 sasine entry is hers, she was already married then and was born before 1601; the index supplies no age. The testament registration shows that she was dead by 4 March 1628, without giving an exact death date. Her residence was Stevenston, Ayrshire; her actual place of death is not stated.
+
+[https://glasgow.phenotype.dev/branches/early-scottish-records/#agnes-stevenston-family Complete family comparison].<ref>Scottish Record Office, Index to Secretary’s Register of Sasines for Ayr, 1599–1609 (1932), [https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS3Q-47SZ-P?view=fullText&keywords=GLASGOW&searchForm=advanced&lang=en&groupId=M9QN-ZXH p.128], 29 June 1601, vol.1 fol.94: Agnes Glasgow, spouse of John, Milneburne, Stenstoun, under LOGAN/LOGANE; probable identity only, original instrument unread. Francis J. Grant, Commissariot Record of Glasgow, 1547–1800, [https://www.findmypast.co.uk/transcript?id=SCOT%2FWILLS%2F057424&tab=this Agnes Glasgow, 4 March 1628], p.195, spouse to John Logane, trumpmaker, Stevenston; no parent named. Sanderson, People of Sixteenth Century Ayrshire (1987), [https://aanhs.org/wp-content/uploads/2018/05/people-of-ayrshire.pdf#page=36 p.331], 1559–60 Corsankell tenants; NRS [https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD39%2F5%2F59 GD39/5/59], 9 February 1571, James elder and sons James and John. These establish the local family but do not name Agnes as a daughter.</ref>
+
+
+This profile represents James Glasgow younger. The 1571 record directly identifies [[Glasgow-1168|James Glasgow elder]] as his father and [[Glasgow-4061|John Glasgow]] as his brother. [[Glasgow-3193|The Kilwinning John]] remains a possible identity match to that brother, but no record joins Burrowland or Dalgarven to Corsinkell. No reviewed source identifies James's mother, precise birthplace, or death.
+
+The wider record pattern connects this household with Glasgow burgh society. The same teind list names three Mathies and at least four Glasgow men across the Stevenston holdings. David Mathy and [[Glasgow-1096|Robert Glasgow]] had already appeared together as Glasgow burgesses and co-witnesses in 1554.<ref name="Mathie1554">Robert Renwick, ed., Abstracts of Protocols of the Town Clerks of Glasgow, vol. 1, protocols 183–184, [https://archive.org/details/abstractsprotoc07robegoog/page/n90/mode/2up 10 May 1554, printed p. 63].</ref> David’s probable family line later appears in the Earl of Glencairn’s household network.
+
+Tutory retours entered in 1607 identify the deceased John Mathie of Ibert’s full brother Matthew as a Glasgow burgess and name four of John’s lawful children.<ref name="Ibert1607">Inquisitionum ad Capellam Domini Regis Retornatarum ... Abbreviatio, vol. 2, tutory retours 100–101, 20 January 1607, [https://books.google.com/books?id=PiVDAAAAcAAJ digitised volume]; underlying register, National Records of Scotland, [https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/browsetreeview.aspx?reference=C22 C22/3].</ref> The Mathie evidence therefore gives the Corsinkell branch a plausible social route into the city Glasgow network, while leaving the exact Glasgow kinship unresolved.
+
+A 1632 testament-calendar entry names Margaret Smith as the spouse of a James Glasgow at Brekpleughe in Stevenston parish.<ref>Francis J. Grant, ed., ''Commissariot Record of Glasgow: Register of Testaments, 1547-1800'' (Edinburgh: Scottish Record Society, 1901), [https://archive.org/details/scottishrecordso07scotuoft/page/460/mode/1up p. 460], Smith, Margaret, 21 February 1632; cross-reference under Glasgow, James, [https://archive.org/details/scottishrecordso07scotuoft/page/195/mode/1up p. 195].</ref> The locality makes this a possible later identity, but the entry gives no age, parent or earlier residence. The equation with the Corsankell man and the attached marriage remain uncertain.
+
+WikiTree may flag [[Glasgow-1495|Katherine Glasgow]]'s estimated birth about 1580 as occurring after James's death. This is not a chronological conflict: 9 February 1571 is the last date on which James is documented alive, and his death field is marked “after,” not as an exact death date. Katherine's birth estimate and her identification as James's daughter are not established by the reviewed records; the father link remains uncertain.
+
+The former profile Glasgow-2429 now redirects to [[Glasgow-991|James Glasgow]], a Midlothian man estimated to have been born about 1585. He could not have been the adult tenant designated younger in 1559–60.
+
+== Sources ==
+<references />

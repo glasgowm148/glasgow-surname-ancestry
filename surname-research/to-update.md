@@ -1537,3 +1537,8 @@ The August completion entries remain historical. The live parent fields are now 
 - [[Glasgow-2461]] — OPEN: full additive research note; existing Inveresk father restored locally through the Glasgow-2459 redirect, with the combined Thomas identity uncertain. No new father attachment or live edit requested.
 - [[Glasgow-3049]] — OPEN: full additive research note; existing Inveresk father restored locally through the Glasgow-2459 redirect, with the combined Thomas identity uncertain. No new father attachment or live edit requested.
 - [[Glasgow-1103]] — OPEN: full additive research note; existing Inveresk father restored locally through the Glasgow-2459 redirect, with the combined Thomas identity uncertain. No new father attachment or live edit requested.
+
+## Agnes’s Stevenston family — 16 October 2026
+
+- [[Glasgow-3178]] — OPEN: complete draft; new uncertain father James Glasgow younger, conditional 1601 chronology and corrected Ayrshire locality; mother blank.
+- [[Glasgow-3921]] — OPEN: complete draft; new uncertain daughter Agnes, competing family degrees retained. No live attachment performed.

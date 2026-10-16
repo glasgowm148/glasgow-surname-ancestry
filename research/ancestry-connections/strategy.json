@@ -573,6 +573,46 @@
       "counted_as_new_connection": false,
       "reviewed": "2026-10-16",
       "metric_note": "One previously excluded existing father link is restored by role reconciliation. Confident metrics are recalculated; no biological certainty is newly upgraded."
+    },
+    {
+      "id": "agnes-stevenston-working-father",
+      "year": 1601,
+      "title": "Agnes of Milneburne → James Glasgow younger",
+      "status": "Selected uncertain father; rival generations retained",
+      "working_selection": true,
+      "people": [
+        {
+          "name": "Agnes Glasgow",
+          "url": "/people/glasgow-3178.html"
+        },
+        {
+          "name": "James Glasgow younger",
+          "url": "/people/glasgow-3921.html"
+        }
+      ],
+      "basis": "Select James Glasgow younger (Glasgow-3921), the Corsankell tenant, as Agnes’s uncertain working father. Her probable 1601 and compatible 1606 Milneburne sasines and her 1628 Stevenston testament place her in the same small parish as the documented Corsankell family of 1559–1571. James younger’s approximate 1540 generation is a natural fit for the father of a woman already married by 1601. His existing plausible daughters Katherine Glasgow-1495 and Geillis Glasgow-3179 belong to the neighbouring Stevenston–Ardrossan women’s network; Geillis’s 1603 estate also names a James Glasgow in Stevenston in its debts. These are local family comparisons, not proved sisters or identification of the creditor. The earlier James-1168/Margaret Smith placement mixed two generations: Margaret is associated with the younger James, not the elder. Selecting the younger James gives the leading generational placement without inheriting that unsupported mother.",
+      "next_test": "Read the original 1601 and 1606 sasines and Agnes’s testament for named kin; compare the Logan and Corsankell households without assuming sisters or transferring Margaret as mother.",
+      "sources": [
+        {
+          "label": "1601 sasine index",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS3Q-47SZ-P?view=fullText&keywords=GLASGOW&searchForm=advanced&lang=en&groupId=M9QN-ZXH"
+        },
+        {
+          "label": "1571 deed",
+          "url": "https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD39%2F5%2F59"
+        }
+      ],
+      "record_references": [
+        "SRO Ayr sasine index p.128; RS11/1, vol.1 fol.94",
+        "Grant p.195, 4 March 1628",
+        "GD39/5/59; Sanderson p.331"
+      ],
+      "counted_as_new_connection": true,
+      "reviewed": "2026-10-16",
+      "assertion_ids": [
+        "C-working-20261016-agnes-stevenston-james-younger"
+      ],
+      "metric_note": "One new uncertain local edge; no confidence upgrade, mother or identity merge. Chronology uses probable record year, not invented birth."
     }
   ],
   "source_basis": "Initial priorities reconcile existing medieval bridge research, the pre-1550 relationship audit and the resolved public catalogue. They are current working comparisons, not newly discovered kinship records."

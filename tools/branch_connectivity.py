@@ -148,7 +148,7 @@ def load_public_nodes(site_root: Path, variants: set[str]):
     for revision in load_chronology(site_root / 'data/ancestry-documentary-people.json'):
         if revision['id'] in nodes:
             nodes[revision['id']].update({k: revision[k] for k in
-                ('year', 'year_basis', 'year_status', 'birth_year', 'death_year') if k in revision})
+                ('year', 'year_basis', 'year_status', 'birth_year', 'death_year', 'first_record_year') if k in revision})
     documentary_ids = {p['id'] for p in documentary}
     for person in documentary:
         if person['id'] in nodes:

@@ -56,3 +56,19 @@ def load_chronology(path: Path) -> list[dict]:
         if row.get('publication_status') != 'approved' or not row.get('source_ids'):
             raise ValueError('A local chronology correction needs an approved record basis')
     return rows
+
+
+def vital_assessments(path: Path) -> list[dict]:
+    """Compile explicit chronology corrections into the shared vital review format."""
+    result = []
+    for row in load_chronology(path):
+        if not row.get('vitals'):
+            continue
+        if not row.get('assessment_id') or not row.get('reviewed') or not row.get('reason'):
+            raise ValueError('A vital chronology correction needs an ID, review date and reason')
+        result.append(dict(id=row['assessment_id'], subject=row['id'], status='approved',
+                           reviewed=row['reviewed'], basis=row['reason'], source_ids=row['source_ids'],
+                           vitals=row['vitals'], derived_from='documentary_chronology'))
+        if row.get('catalogue_projection'):
+            result[-1]['catalogue_projection'] = row['catalogue_projection']
+    return result

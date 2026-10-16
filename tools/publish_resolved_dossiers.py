@@ -300,9 +300,61 @@ def resolve_index_row(row, reviewed):
     return row
 
 
+def project_catalogue_vitals(rows, assessments):
+    """Project explicitly approved date/location fields; retain reversible imports."""
+    allowed = {'birth','birth_note','birth_year','birth_location','birth_location_note',
+               'death','death_year','death_location','date_years','regions','locations',
+               'location_aliases','location_groups','estimated_location','missing_vital_location','field_statuses'}
+    for row in rows:
+        prior = row.pop('vital_review', {})
+        for key, original in prior.get('original_fields', {}).items():
+            if original['present']: row[key] = deepcopy(original['value'])
+            else: row.pop(key, None)
+        ids = {str(i).casefold() for i in row.get('profile_ids', []) or [row.get('id', '')]}
+        reviews = [a for a in assessments if a.get('status') == 'approved'
+                   and a.get('derived_from') == 'documentary_chronology'
+                   and str(a.get('subject', '')).casefold() in ids and a.get('catalogue_projection')]
+        originals = {}
+        for review in reviews:
+            projection = review['catalogue_projection']
+            if set(projection) - allowed:
+                raise ValueError('Catalogue vital projection contains non-vital fields')
+            for key, value in projection.items():
+                originals.setdefault(key, {'present': key in row, 'value': deepcopy(row.get(key))})
+                row[key] = deepcopy(value)
+        if reviews:
+            row['vital_review'] = {'assessment_ids': [a['id'] for a in reviews], 'original_fields': originals}
+    return rows
+
+
 def publish(root=ROOT / 'www'):
     path = root / 'assets/research/assessments.json'
-    assessments = json.loads(path.read_text()).get('assessments', [])
+    registry = json.loads(path.read_text())
+    try:
+        from documentary_ancestry import vital_assessments
+    except ModuleNotFoundError:
+        from tools.documentary_ancestry import vital_assessments
+    chronology_path = root / 'data/ancestry-documentary-people.json'
+    if root.resolve() == (ROOT / 'www').resolve():
+        chronology_path.write_text((ROOT / 'research/ancestry-connections/documentary-people.json').read_text())
+    assessments = [a for a in registry.get('assessments', []) if a.get('derived_from') != 'documentary_chronology']
+    assessments += vital_assessments(chronology_path)
+    if assessments != registry.get('assessments', []):
+        registry['assessments'] = assessments
+        path.write_text(json.dumps(registry, ensure_ascii=False, indent=2) + '\n')
+    search_path = root / 'data/catalogue-search-index.json'
+    if search_path.exists():
+        search = json.loads(search_path.read_text())
+        prior_search = deepcopy(search)
+        project_catalogue_vitals(search, assessments)
+        if search != prior_search:
+            search_path.write_text(json.dumps(search, ensure_ascii=False, separators=(',', ':')) + '\n')
+            if root.resolve() == (ROOT / 'www').resolve():
+                try:
+                    from catalogue_search_index import refresh as refresh_browser_index
+                except ModuleNotFoundError:
+                    from tools.catalogue_search_index import refresh as refresh_browser_index
+                refresh_browser_index(root)
     shared_path = root / 'assets/research/relationship-assessments.json'
     if root.resolve() == (ROOT / 'www').resolve():
         shared_path.write_text((ROOT / 'research/relationship_assessments.json').read_text())

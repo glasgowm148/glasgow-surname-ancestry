@@ -163,6 +163,13 @@ def apply_working_hypotheses(people: list[dict], assessments: list[dict], parent
             "assertion_id": assessment.get("assertion_id"), "analysis_links": assessment.get("analysis_links") or [],
             "hypothesis": True,
         })
+        children = by_id[father].setdefault('childrenRecorded', [])
+        previous = next((row for row in children if row.get('id') == child), {})
+        children[:] = [row for row in children if row.get('id') != child]
+        children.append({**previous, 'id': child, 'name': by_id[child]['name'], 'role': 'child',
+                         'inModel': True, 'status': 'uncertain', 'hypothesis': True,
+                         'source': 'local_working_hypothesis', 'assertion_id': assessment.get('assertion_id'),
+                         'reason': assessment.get('basis') or ''})
     return len(selected)
 
 

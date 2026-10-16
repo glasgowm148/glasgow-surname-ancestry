@@ -19,6 +19,8 @@ class WorkingHypothesisTests(unittest.TestCase):
         self.assertEqual(apply_working_hypotheses(model, [assessment("Child-1", "Father-1")]), 1)
         self.assertEqual(model[0]["parents"][0]["id"], "Father-1")
         self.assertEqual(model[0]["parents"][0]["source"], "local_working_hypothesis")
+        self.assertEqual(model[1]['childrenRecorded'][0]['id'], 'Child-1')
+        self.assertEqual(model[1]['childrenRecorded'][0]['status'], 'uncertain')
 
     def test_unselected_and_unapproved_are_ignored(self):
         model = people("Child-1", "Father-1")

@@ -1863,5 +1863,60 @@
         "timeline_group": "Birth and baptism records"
       }
     }
+  },
+  {
+    "record_id": "agnes-stevenston-sasine-1601",
+    "association": "Agnes Glasgow, spouse of John Logan, Milneburne",
+    "date": "29 June 1601",
+    "year": 1601,
+    "place": "Milneburne, Stevenston, Ayrshire, Scotland",
+    "source_title": "SRO, Index to Secretary’s Register of Sasines for Ayr, 1599–1609 (1932), p.128; vol.1 fol.94; NRS RS11/1",
+    "source_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS3Q-47SZ-P?view=fullText&keywords=GLASGOW&searchForm=advanced&lang=en&groupId=M9QN-ZXH",
+    "status": "Previously reviewed printed index; underlying instrument unread",
+    "note": "The LOGAN/LOGANE heading supplies the husband’s surname; the body says spouse of John. Probable identity with Agnes-3178 from name, husband and Stevenston locality. Not a marriage/birth date.",
+    "profiles": {
+      "Glasgow-3178": {
+        "role": "Probable identity of indexed wife",
+        "timeline_group": "Land and property"
+      }
+    }
+  },
+  {
+    "record_id": "agnes-stevenston-probate-1628",
+    "association": "Agnes Glasgow, spouse of John Logane, trumpmaker",
+    "date": "4 March 1628",
+    "year": 1628,
+    "place": "Stevenston, Ayrshire, Scotland",
+    "source_title": "Grant, Commissariot Record of Glasgow, Register of Testaments 1547–1800, p.195; Findmypast SCOT/WILLS/057424",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FWILLS%2F057424&tab=this",
+    "status": "Previously inspected index/transcript; original testament reference still to verify",
+    "note": "Testament registration establishes that Agnes was dead by this date; it names her spouse and parish but no parent. CC9/7/22 remains a candidate volume reference.",
+    "profiles": {
+      "Glasgow-3178": {
+        "role": "Indexed deceased wife",
+        "timeline_group": "Testaments"
+      }
+    }
+  },
+  {
+    "record_id": "corsankell-teinds-1559-60",
+    "association": "James Glasgow elder and younger at Corsankell",
+    "date": "1559–1560",
+    "year": 1560,
+    "place": "Corsankell, Stevenston, Ayrshire, Scotland",
+    "source_title": "Sanderson, People of Sixteenth Century Ayrshire (1987), p.331, teind list; Acts and Decreets vol.22 fols.102v–167v",
+    "source_url": "https://aanhs.org/wp-content/uploads/2018/05/people-of-ayrshire.pdf#page=36",
+    "status": "Existing primary-derived printed account; no new inspection",
+    "note": "Distinguishes two tenant generations; 1571 GD39/5/59 supplies their father–son relationship. Does not name Agnes.",
+    "profiles": {
+      "Glasgow-3921": {
+        "role": "James younger",
+        "timeline_group": "Land and property"
+      },
+      "Glasgow-1168": {
+        "role": "James elder",
+        "timeline_group": "Land and property"
+      }
+    }
   }
 ]

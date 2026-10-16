@@ -6,6 +6,22 @@ from tools.sync_ancestry_atlas import overlay_model
 
 
 class AtlasWorkingTests(unittest.TestCase):
+    def test_reciprocal_working_children_preserve_parent_facts_and_revoke_cleanly(self):
+        old={'meta':{},'landmarks':[],'sections':[],'people':[
+            {'id':'Father-1','kind':'person','note':'Approved detailed biography','born':1500,
+             'childrenRecorded':[{'id':'Other-1','name':'Other child'}]},
+            {'id':'Child-1','kind':'person','parents':[],'edge':{'parent':'@root'}},
+            {'id':'@root','kind':'group'}]}
+        fresh=deepcopy(old);fresh['meta']['date']='2026-10-16'
+        fresh['people'][0].update(note='Shorter import',born=1510,childrenRecorded=[{'id':'Child-1','status':'uncertain'}])
+        fresh['people'][1].update(parents=[{'id':'Father-1','status':'uncertain'}],edge={'parent':'Father-1','type':'hypothesis'})
+        result=overlay_model(old,fresh);father=result['people'][0]
+        self.assertEqual((father['note'],father['born']),('Approved detailed biography',1500))
+        self.assertEqual([r['id'] for r in father['childrenRecorded']],['Other-1','Child-1'])
+        fresh['people'][1]=deepcopy(old['people'][1]);fresh['people'][0]['childrenRecorded']=[]
+        restored=overlay_model(result,fresh)['people'][0]
+        self.assertEqual(restored,old['people'][0])
+
     def test_confident_role_correction_reaches_primary_view_and_can_be_withdrawn(self):
         old = {'meta': {}, 'dna': [], 'landmarks': [], 'sections': [],
                'people': [{'id':'Child-1','kind':'person','parents':[], 'edge':{'parent':'Sibling-1'}},

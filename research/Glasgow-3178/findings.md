@@ -2,7 +2,9 @@
 
 ## Current conclusion
 
-Reviewed: 2026-10-15
+**Stevenston working family, 16 October 2026:** James Glasgow younger is selected as Agnes’s uncertain working father; James elder, Edward and another local family remain alternatives. No mother or sibling proof is inferred. [Comparison and chronology](/branches/early-scottish-records/#agnes-stevenston-family).
+
+Reviewed: 2026-10-16
 
 
 Agnes was the wife of John Logan, a trumpmaker at Stevenston, and died before
@@ -37,12 +39,11 @@ A reported 19 May 1606 sasine index occurrence is compatible with Agnes and John
 | Same volume, [p. 460](https://archive.org/details/scottishrecordso07scotuoft/page/460/mode/1up), entry dated 21 February 1632 | Margaret Smith was spouse of James Glasgow in Brekpleughe, Stevenston parish. | Direct evidence for Margaret's spouse; it does not name Agnes or establish maternity. |
 | [Live WikiTree profile](https://www.wikitree.com/wiki/Glasgow-3178), checked 28 August 2026 | Agnes was attached to Glasgow-1168 and Smith-374110 as uncertain parents; Margaret's attached husband is Glasgow-3921, a son of Glasgow-1168. | Structurally inconsistent working placement and the cause of WT+ warning 420. Uncertainty settings do not supply evidence. |
 
-## Recommended correction
+## Earlier live correction — 28 August 2026
 
 - Detach Glasgow-1168 and Smith-374110 as Agnes's parents.
 - Retain Logan-12060 as her record-supported husband.
-- Leave both parent fields blank pending a record that explicitly identifies
-  Agnes's family of origin.
+- Earlier live-edit instruction, applied in August: leave both parents blank. The 16 October local working-father selection below supersedes that instruction for the local model; live attachments remain unchanged.
 
 ## Correction applied
 
@@ -81,3 +82,15 @@ Recorded in `research/transcriptions/source-recovery-2026-09-10.md` (10 Septembe
 The earlier sweep reports a second Ayr sasine-index occurrence for **Agnes Glasgow/Glesgow**, spouse of John Logane in Milneburne, Stevenston, **19 May 1606**, vol.3 fol.315: SRO Indexes no.23, p.86 ([index page](https://babel.hathitrust.org/cgi/pt?id=inu.30000125667166&seq=96)). It is compatible with the known 1601 occurrence, pending the original instrument.
 
 A separate Stevenston kirk entry of **28 January 1613** names an elder only as **Glasgow**: Robert Broun’s protocol book, no.XXXII, *Ayrshire and Galloway Collections*, pp.191–192. This is local context, not an event or occupation assigned to Agnes. The page image is needed to recover a forename; no family connection follows from the surname.
+
+## Agnes’s Stevenston working family — 16 October 2026
+
+Select James Glasgow younger (Glasgow-3921), the Corsankell tenant, as Agnes’s uncertain working father. Her probable 1601 and compatible 1606 Milneburne sasines and her 1628 Stevenston testament place her in the same small parish as the documented Corsankell family of 1559–1571. James younger’s approximate 1540 generation is a natural fit for the father of a woman already married by 1601. His existing plausible daughters Katherine Glasgow-1495 and Geillis Glasgow-3179 belong to the neighbouring Stevenston–Ardrossan women’s network; Geillis’s 1603 estate also names a James Glasgow in Stevenston in its debts. These are local family comparisons, not proved sisters or identification of the creditor. The earlier James-1168/Margaret Smith placement mixed two generations: Margaret is associated with the younger James, not the elder. Selecting the younger James gives the leading generational placement without inheriting that unsupported mother.
+
+No record names Agnes’s father. Parish, generation and the existing family comparisons support only a low-confidence choice. The 1601 entry is a land-record registration, not a marriage date or an age statement; Agnes may already have been married for many years. As an illustration only, a married woman aged about 20–35 in 1601 would have been born about 1566–1581, making James younger about 26–41 and James elder about 51–66 at her birth. These are comparison assumptions, not birth estimates or exclusions. James elder remains an alternative father if Agnes was older. Edward Glasgow-1557 or another local Glasgow remains an alternative, especially if the unproved sisterhood with Jonet Glasgow-1494 is established. Edward’s own approximate 1570 birth makes that father generation less comfortable for a woman already married in 1601, but the estimate is not a hard conflict.
+
+Neither the two women’s sisterhood nor the two Logan husbands’ brotherhood is documented. Under the selected James-younger father and the existing uncertain James → Edward → Jonet chain, Agnes could instead be Jonet’s aunt; that is a conditional model consequence, not a new proved kinship. Margaret Smith is not selected as Agnes’s mother, and her 1632 husband is not proved identical to the Corsankell man. The unnamed Stevenston elder of 1613 remains unidentified. No identity merge or live relationship edit is made.
+
+Agnes’s captured WikiTree birth field is blank. The public c.1610 display was an unsupported inherited estimate and cannot date a woman probably already married in 1601. Her actual birth remains unknown; “before 1601” is a conditional outer boundary from the probable sasine identity. The 1628 testament date is not an exact death date. Stevenston is in Ayrshire; the corrected death locality is an uncertain inference from her stated residence, not a recorded place of death.
+
+Existing sources: [1601 sasine index, p.128](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS3Q-47SZ-P?view=fullText&keywords=GLASGOW&searchForm=advanced&lang=en&groupId=M9QN-ZXH); [1628 testament index](https://www.findmypast.co.uk/transcript?id=SCOT%2FWILLS%2F057424&tab=this); [1559–60 Corsankell list, p.331](https://aanhs.org/wp-content/uploads/2018/05/people-of-ayrshire.pdf#page=36); [1571 father–son deed, GD39/5/59](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD39%2F5%2F59). No new original inspection. [Full comparison](/branches/early-scottish-records/#agnes-stevenston-family).

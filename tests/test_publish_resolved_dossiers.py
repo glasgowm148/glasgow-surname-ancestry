@@ -10,6 +10,34 @@ spec.loader.exec_module(module)
 
 
 class ResolvedDossierTests(unittest.TestCase):
+    def test_chronology_vitals_are_published_and_revocable(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root=Path(temp)
+            original={'id':'Person-1','vitals':{'birth':{'date':'c. 1610','status':'estimated'}},'relationships':{},'claims':[]}
+            search=[{'id':'person-1','profile_ids':['Person-1'],'birth':'c. 1610','birth_year':1610,'date_years':[1610]}]
+            files={'people/person-1.json':original,'assets/research/assessments.json':{'assessments':[]},
+                   'data/catalogue-search-index.json':search,
+                   'data/ancestry-documentary-people.json':{'chronology':[dict(id='Person-1',publication_status='approved',
+                       source_ids=['sasine-1601'],assessment_id='chronology-1',reviewed='2026-10-16',reason='Probable married household in 1601',
+                       vitals={'birth':{'date':'before 1601','status':'uncertain'}},
+                       catalogue_projection={'birth':'Birth unknown; married by 1601, probably','birth_year':None,'date_years':[1601]})]}}
+            for name,value in files.items():
+                p=root/name;p.parent.mkdir(parents=True,exist_ok=True);p.write_text(json.dumps(value))
+            module.publish(root)
+            current=json.loads((root/'people/person-1.json').read_text())
+            self.assertEqual(current['vitals']['birth']['date'],'before 1601')
+            self.assertEqual(current['imported']['sections']['vitals'],original['vitals'])
+            registry=json.loads((root/'assets/research/assessments.json').read_text())
+            self.assertEqual(registry['assessments'][0]['id'],'chronology-1')
+            projected=json.loads((root/'data/catalogue-search-index.json').read_text())[0]
+            self.assertIsNone(projected['birth_year']);self.assertEqual(projected['date_years'],[1601])
+            frozen=(root/'people/person-1.json').read_bytes();module.publish(root)
+            self.assertEqual((root/'people/person-1.json').read_bytes(),frozen)
+            (root/'data/ancestry-documentary-people.json').write_text('{"chronology":[]}')
+            module.publish(root)
+            self.assertEqual(json.loads((root/'people/person-1.json').read_text()),original)
+            self.assertEqual(json.loads((root/'data/catalogue-search-index.json').read_text()),search)
+
     def test_corrected_sibling_role_retires_parent_row_and_preserves_history(self):
         original = {'id': 'Person-1', 'relationships': {
             'parents': [{'id': 'Father-1', 'relationship': 'father', 'status': 'strongly_supported'},

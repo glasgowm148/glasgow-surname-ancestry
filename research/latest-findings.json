@@ -26128,6 +26128,60 @@
         "research/relationship_assessments.json",
         "surname-research/indexes/relationship-hypotheses.md"
       ]
+    },
+    {
+      "id": "agnes-stevenston-working-father-2026-10-16",
+      "found_on": "2026-10-16",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Agnes Glasgow, wife of John Logan at Stevenston, is selected as an uncertain working daughter of James Glasgow younger of Corsankell.",
+      "qualification": "No record names Agnes’s father. Parish, generation and the existing family comparisons support only a low-confidence choice. The 1601 entry is a land-record registration, not a marriage date or an age statement; Agnes may already have been married for many years. As an illustration only, a married woman aged about 20–35 in 1601 would have been born about 1566–1581, making James younger about 26–41 and James elder about 51–66 at her birth. These are comparison assumptions, not birth estimates or exclusions. James elder remains an alternative father if Agnes was older. Edward Glasgow-1557 or another local Glasgow remains an alternative, especially if the unproved sisterhood with Jonet Glasgow-1494 is established. Edward’s own approximate 1570 birth makes that father generation less comfortable for a woman already married in 1601, but the estimate is not a hard conflict. No mother or proved siblinghood. The public c.1610 birth estimate is superseded by unknown birth and a conditional before-1601 boundary from the probable sasine identity. No new original inspection or certainty upgrade.",
+      "relationship_change_count": 1,
+      "people": [
+        {
+          "id": "Glasgow-3178",
+          "name": "Agnes Glasgow",
+          "url": "/people/glasgow-3178.html"
+        },
+        {
+          "id": "Glasgow-3921",
+          "name": "James Glasgow younger",
+          "url": "/people/glasgow-3921.html"
+        },
+        {
+          "id": "Glasgow-1168",
+          "name": "James Glasgow elder",
+          "url": "/people/glasgow-1168.html"
+        },
+        {
+          "id": "Glasgow-1494",
+          "name": "Jonet Glasgow",
+          "url": "/people/glasgow-1494.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ayr sasine index, p.128, 29 June 1601",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS3Q-47SZ-P?view=fullText&keywords=GLASGOW&searchForm=advanced&lang=en&groupId=M9QN-ZXH"
+        },
+        {
+          "title": "Agnes’s 1628 testament index",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FWILLS%2F057424&tab=this"
+        },
+        {
+          "title": "Corsankell tenants, 1559–60",
+          "url": "https://aanhs.org/wp-content/uploads/2018/05/people-of-ayrshire.pdf#page=36"
+        },
+        {
+          "title": "GD39/5/59, 9 February 1571",
+          "url": "https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD39%2F5%2F59"
+        }
+      ],
+      "detail_url": "/branches/early-scottish-records/#agnes-stevenston-family",
+      "provenance": [
+        "research/relationship_assessments.json",
+        "research/ancestry-connections/documentary-people.json"
+      ]
     }
   ]
 }

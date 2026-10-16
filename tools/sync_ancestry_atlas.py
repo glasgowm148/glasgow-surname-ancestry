@@ -11,6 +11,8 @@ def overlay_model(retained: dict, fresh: dict) -> dict:
     result = deepcopy(retained)
     incoming = {p['id']: p for p in fresh['people']}
     selected = {p['id'] for p in fresh['people'] if p.get('edge', {}).get('type') == 'hypothesis'}
+    prior_people = {p['id']: p for p in retained['people']}
+    prior_selected = set(result['meta'].get('workingOverlayIds', []))
     documentary = {p['id'] for p in fresh['people'] if p.get('documentary')}
     reviewed = set(fresh['meta'].get('reviewedParentReplacementIds', []))
     refresh = selected | set(result['meta'].get('workingOverlayIds', [])) | documentary | reviewed | set(result['meta'].get('reviewedParentReplacementIds', []))
@@ -19,6 +21,17 @@ def overlay_model(retained: dict, fresh: dict) -> dict:
         if ident not in incoming:
             raise ValueError('Working subject absent from current public model: ' + ident)
         existing[ident] = deepcopy(incoming[ident])
+    managed_children = selected | prior_selected
+    family_parents = {incoming[i].get('edge', {}).get('parent') for i in selected}
+    family_parents |= {prior_people[i].get('edge', {}).get('parent') for i in prior_selected if i in prior_people}
+    for father in family_parents:
+        if father not in incoming or father not in existing:
+            continue
+        # Refresh reciprocal working children while retaining the parent's
+        # approved biography, dates and every unrelated family record.
+        children = [r for r in existing[father].get('childrenRecorded', []) if r.get('id') not in managed_children]
+        children += deepcopy([r for r in incoming[father].get('childrenRecorded', []) if r.get('id') in managed_children])
+        existing[father]['childrenRecorded'] = children
     result['people'] = list(existing.values())
     for p in result['people']:
         parent = p.get('edge', {}).get('parent')
