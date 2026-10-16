@@ -1610,3 +1610,13 @@ The August completion entries remain historical. The live parent fields are now 
 | [Johnne Glasgow, Inveresk child of 1632](https://www.wikitree.com/wiki/Glasgow-1151) | OPEN | Review complete additive biography: selected uncertain Johnne→Duffe James or John→Kirknewton William family; preserve all existing grades, dates, rival identities and completed corrections; no mother. |
 | [William Glasgow, Kirknewton householder](https://www.wikitree.com/wiki/Glasgow-1026) | OPEN | Review complete additive biography: selected uncertain Johnne→Duffe James or John→Kirknewton William family; preserve all existing grades, dates, rival identities and completed corrections; no mother. |
 | [John Glasgow, Kirknewton/East Calder father](https://www.wikitree.com/wiki/Glasgow-3610) | OPEN | Review complete additive biography: selected uncertain Johnne→Duffe James or John→Kirknewton William family; preserve all existing grades, dates, rival identities and completed corrections; no mother. |
+
+
+## Ayrshire family heads —16 October2026
+
+| [James Glasgow, Kilwinning father in 1689](https://www.wikitree.com/wiki/Glasgow-3105) | OPEN | Review complete additive biography: uncertain John→James and Hew/Margaret→Irvine Hugh placements; retain alternatives, dates and existing child-parent grades. |
+| [John Glasgow, Barbara Alason household](https://www.wikitree.com/wiki/Glasgow-3375) | OPEN | Review complete additive biography: uncertain John→James and Hew/Margaret→Irvine Hugh placements; retain alternatives, dates and existing child-parent grades. |
+| [Hugh Glasgow, Jean Service household](https://www.wikitree.com/wiki/Glasgow-3109) | OPEN | Review complete additive biography: uncertain John→James and Hew/Margaret→Irvine Hugh placements; retain alternatives, dates and existing child-parent grades. |
+| [Hew Glasgow, Kilwinning father](https://www.wikitree.com/wiki/Glasgow-1066) | OPEN | Review complete additive biography: uncertain John→James and Hew/Margaret→Irvine Hugh placements; retain alternatives, dates and existing child-parent grades. |
+| [Hew Glasgow, indexed in 1676](https://www.wikitree.com/wiki/Glasgow-1067) | OPEN | Review complete additive biography: uncertain John→James and Hew/Margaret→Irvine Hugh placements; retain alternatives, dates and existing child-parent grades. |
+| [Margaret Lachland](https://www.wikitree.com/wiki/Lachland-2) | OPEN | Review complete additive biography: uncertain John→James and Hew/Margaret→Irvine Hugh placements; retain alternatives, dates and existing child-parent grades. |

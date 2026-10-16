@@ -1,12 +1,8 @@
-# Live profile text for Glasgow-3109
-
-```wikitext
 [[Category:Glasgow Name Study]]
 
 {{Estimated Date}}
 
 == Biography ==
-
 '''Hugh Glasgow''' was the father in a record-defined Irvine family in 1696. No record of his own birth or parents has been identified. A birth before about 1676 is an adult-status estimate from his parenthood, and Irvine is retained only as an uncertain estimate from the children's records.
 
 Hugh and [[Service-456|Jean Service]] were named as the parents of:
@@ -15,12 +11,16 @@ Hugh and [[Service-456|Jean Service]] were named as the parents of:
 * [[Glasgow-3108|Hugh Glasgow]], recorded at Irvine in 1696.<ref name="Hugh1696">"Scotland Births and Baptisms, 1564-1950", database, FamilySearch, [https://www.familysearch.org/ark:/61903/1:1:XTVL-3LY Hugh Glasgow, 1696]; accessed 19 August 2026.</ref>
 
 == Research Notes ==
+=== Selected uncertain Ayrshire family —16 October2026 ===
+
+Select Hew [[Glasgow-1066]] and Margaret [[Lachland-2]] as the uncertain working father and mother of Hugh [[Glasgow-3109]], the Irvine father with Jean Service in 1696, through the existing strong possible identity with their 1676 Kilwinning child Hew [[Glasgow-1067]]. If baptised near birth, the child would have been about twenty in 1696. The name variant Hew/Hugh, compatible generation and neighbouring Ayrshire parish setting make this a practical preferred childhood comparison. This activates a comparison already explicitly retained in both profiles, rather than treating the 1696 child’s entry as the adult father’s birth. Maternity is assessed independently from the 1676 child clause: the supplied Scotland’s People index explicitly names Margaret Lachland with Hew Glasgow. The Findmypast transcript abbreviates/queries her name as Mt Lach?. Margaret is not selected merely because she is Hew’s spouse. Both adult parent links depend on the uncertain childhood identity and remain uncertain; the child’s recorded parentage is not proof of the adult’s origins.
+
+Keep [[Glasgow-1067]] and [[Glasgow-3109]] as separate profile accounts of a possible single man. The shared parents do not establish two distinct sons called Hew/Hugh. No record joins the 1676 child to the 1696 Irvine father or proves the proposed sequence from Jean Service to Mary Dean from 1699; no death, remarriage or continuous personal identifier has been supplied. The Mary Dean family retains its own unproved childhood-to-adult identification. The older Hew-1066 himself is a possible alternative identity of the 1696 father, rather than simultaneously being his proved father. That alternative would invalidate the selected child identity and the maternal transfer; it is not materialised alongside them. A different unrecorded Hugh remains possible. The 1677 preacher has no inspected residence or kin bridge here; the selected 1676 child could not have been that adult preacher a year later. The 1751 Irvine/London sailor remains an unselected occupational identity, not an event newly assigned to either account. Retain the literal source discrepancies: the official supplied index and Findmypast give24 May 1676, while the older father biography reports5 May from FamilySearch. A24 May marriage is also reported in that family biography; the original page and event type were not re-read. No baptism, birthday or ceremony date is newly corrected or proved. Hugh-3109’s before-about 1676 boundary remains an estimate, not a birth record or a hard exclusion of the 1676 child. Existing Jean Service co-parentage, both 1696 children, Mary Dean associations and the child’s parent-field grades are retained. No relationship-certainty change is counted. Margaret is not assigned to any other child whose record does not name her. [https://glasgow.phenotype.dev/branches/early-scottish-records/#ayrshire-family-heads Full selected model, competing relatives and literal date discrepancies]. <ref>Existing reviewed parish indexes: [https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3624324&tab=this Hew,24 May 1676,Kilwinning; named parents in supplied SP599,10/23,FR34; FMP mother Mt Lach?]; [https://www.familysearch.org/ark:/61903/1:1:XTVL-3LY Hugh,1696,Irvine; recorded father Hugh and Jean Service household]; [https://www.familysearch.org/ark:/61903/1:1:CM7S-W62M Mary,1696,Irvine; same recorded parent names]; [https://www.familysearch.org/ark:/61903/1:1:XTVY-VL9 Jon,6 July 1679,Kilwinning; John and Barbara Alason,OPR599,FR44]; [https://www.familysearch.org/ark:/61903/1:1:XTVB-3YQ James,14 July 1689,Kilwinning; James and Margaret Park,OPR599,10/65]; [https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3625052&tab=this Anne,22 May 1689,Kilwinning; father James, mother unnamed in index]. No original newly inspected; source dates and adult identity limits remain as assessed.</ref>
+
 
 The FamilySearch record XTVL-3LY concerns Hugh's child Hugh in 1696. It is not this father's birth record.
 
 [[Glasgow-1067|Hew Glasgow]], baptised at nearby Kilwinning in 1676 and associated with Mary Dean from 1699, is a strong same-person candidate. A Jean Service family followed by a Mary Dean family would fit the chronology and geography, but no death, remarriage or other continuous identifier has yet proved that the fathers were the same man. The profiles should not be merged without that bridge.
 
 == Sources ==
-
 <references />
-```

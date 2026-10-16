@@ -2216,5 +2216,86 @@
         "role": "indexed child"
       }
     }
+  },
+  {
+    "record_id": "kilwinning-hew-parent-index-1676",
+    "date": "24 May 1676",
+    "year": 1676,
+    "place": "Kilwinning",
+    "source_title": "Hew,24 May 1676,Kilwinning; named parents in supplied SP599,10/23,FR34; FMP mother Mt Lach?",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3624324&tab=this",
+    "status": "Existing supplied index/transcript review",
+    "note": "Child clause names both parents.5 May in the father’s older biography and the reported marriage event type remain unresolved; no new original inspection.",
+    "profiles": {
+      "Glasgow-1067": {
+        "role": "indexed child"
+      },
+      "Glasgow-1066": {
+        "role": "named father"
+      },
+      "Lachland-2": {
+        "role": "named mother in supplied full index"
+      }
+    }
+  },
+  {
+    "record_id": "irvine-hugh-service-1696",
+    "date": "1696",
+    "year": 1696,
+    "place": "Irvine",
+    "source_title": "Hugh,1696,Irvine; recorded father Hugh and Jean Service household",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:XTVL-3LY",
+    "status": "Existing household index review",
+    "note": "Defines the 1696 father/coparent household, not the father’s birth or parents.",
+    "profiles": {
+      "Glasgow-3109": {
+        "role": "record-defined father"
+      },
+      "Service-456": {
+        "role": "named co-parent"
+      },
+      "Glasgow-3108": {
+        "role": "indexed child"
+      }
+    }
+  },
+  {
+    "record_id": "kilwinning-jon-alason-1679",
+    "date": "6 July 1679",
+    "year": 1679,
+    "place": "Kilwinning",
+    "source_title": "Jon,6 July 1679,Kilwinning; John and Barbara Alason,OPR599,FR44",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:XTVY-VL9",
+    "status": "Existing OPR index review",
+    "note": "Names John and Barbara for this child, not the new James father hypothesis.",
+    "profiles": {
+      "Glasgow-3375": {
+        "role": "record-defined father"
+      },
+      "Glasgow-1434": {
+        "role": "indexed child"
+      }
+    }
+  },
+  {
+    "record_id": "kilwinning-james-park-1689",
+    "date": "14 July 1689",
+    "year": 1689,
+    "place": "Kilwinning",
+    "source_title": "James,14 July 1689,Kilwinning; James and Margaret Park,OPR599,10/65",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:XTVB-3YQ",
+    "status": "Existing OPR index review",
+    "note": "Names James and Margaret Park; no grandparent. Combined date not freshly verified as birthday.",
+    "profiles": {
+      "Glasgow-3105": {
+        "role": "record-defined father"
+      },
+      "Park-8050": {
+        "role": "indexed mother"
+      },
+      "Glasgow-3104": {
+        "role": "indexed child"
+      }
+    }
   }
 ]
