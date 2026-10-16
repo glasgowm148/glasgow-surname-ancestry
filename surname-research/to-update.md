@@ -1740,3 +1740,11 @@ The August completion entries remain historical. The live parent fields are now 
 | [John Glasgow of Gortigillagh](https://www.wikitree.com/wiki/Glasgow-3960) | OPEN | Review the very uncertain Tyrone–Leitrim father model; retain the same-John alternative, guessed generations and existing unproved John–James link. |
 | [John Glasgow of the Tyrone family tradition](https://www.wikitree.com/wiki/Glasgow-551) | OPEN | Review the very uncertain Tyrone–Leitrim father model; retain the same-John alternative, guessed generations and existing unproved John–James link. |
 | [James Glasgow of Aghadonvane](https://www.wikitree.com/wiki/Glasgow-3124) | OPEN | Review the very uncertain Tyrone–Leitrim father model; retain the same-John alternative, guessed generations and existing unproved John–James link. |
+
+
+## Kilwinning and Mary Auld working family — 16 October 2026
+
+| [John Glasgow, Mary Auld household](https://www.wikitree.com/wiki/Glasgow-2467) | OPEN | Review the uncertain Kilwinning parent pair via the possible1703child identity; preserve the old descent suggestion, estimated generations and1683mother-name conflict. |
+| [John Glasgow, Jean Wyllie household](https://www.wikitree.com/wiki/Glasgow-1065) | OPEN | Review the uncertain Kilwinning parent pair via the possible1703child identity; preserve the old descent suggestion, estimated generations and1683mother-name conflict. |
+| [Jean Wyllie / Wylie](https://www.wikitree.com/wiki/Wyllie-1044) | OPEN | Review the uncertain Kilwinning parent pair via the possible1703child identity; preserve the old descent suggestion, estimated generations and1683mother-name conflict. |
+| [John Glasgow, Kilwinning child of 1703](https://www.wikitree.com/wiki/Glasgow-2464) | OPEN | Review the uncertain Kilwinning parent pair via the possible1703child identity; preserve the old descent suggestion, estimated generations and1683mother-name conflict. |

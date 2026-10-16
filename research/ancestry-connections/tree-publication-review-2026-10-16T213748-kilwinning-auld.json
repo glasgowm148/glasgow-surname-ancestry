@@ -1,0 +1,81 @@
+{
+  "reviewed": "2026-10-16",
+  "cutoff": 1850,
+  "method_version": 3,
+  "input_fingerprint": "f4801e8cdf2480263de8206852fe07711246ba8de13e40c000614dc38fd2a082",
+  "scope": "Kilwinning: possible parents of Mary Auld\u2019s husband John",
+  "genealogical_connections_added": 2,
+  "paternal_connections_added": 1,
+  "maternal_connections_added": 1,
+  "certainty_upgrades": 0,
+  "working_fathers": 52,
+  "working_mothers": 8,
+  "models": {
+    "main": {
+      "checked_historical_profiles": 1777,
+      "changed_father_fields": 1,
+      "changed_mother_fields": 1,
+      "matched_paternal_edges": 1349,
+      "added_historical_profiles": [],
+      "effective_father_field_audit": {
+        "public_father_fields_checked": 1777,
+        "empty_father_fields_checked": 420,
+        "differences": []
+      },
+      "unresolved_father_cases": [
+        "Glasgow-1367",
+        "Glasgow-2908",
+        "Glasgow-867",
+        "Glasgow-951"
+      ]
+    },
+    "standalone": {
+      "checked_historical_profiles": 1777,
+      "changed_father_fields": 1,
+      "changed_mother_fields": 1,
+      "matched_paternal_edges": 1349,
+      "added_historical_profiles": [],
+      "effective_father_field_audit": {
+        "public_father_fields_checked": 1777,
+        "empty_father_fields_checked": 420,
+        "differences": []
+      },
+      "unresolved_father_cases": [
+        "Glasgow-1367",
+        "Glasgow-2908",
+        "Glasgow-867",
+        "Glasgow-951"
+      ]
+    }
+  },
+  "publication_summary": "One uncertain father and one uncertain mother are selected through one possible child-to-adult identity. No original inspection, merge, new certainty or live WikiTree edit is claimed. Existing dates, recorded family fields and the 1683 mother-name disagreement remain intact. Working connectivity counts retained profile accounts, including possible duplicates; it is not a count of proved distinct people or independent discoveries. Selected the Wyllie household parents for the Mary Auld husband through possible identity with the 1703 Kilwinning child. The older descent suggestion is mapped to the current John Glasgow-1065 account. Largest working family through 1850 grows from 1,010 to 1,013 retained profiles; separate components 430 to 429, multi-child roots 52 to 51. Four complete comparisons preserve all prior citations, the 1683 mother-name conflict and the old profile reference. The eight remaining pre-1650 accounts are reviewed separately without changing cohort membership or forcing a parent.",
+  "comparison": "/branches/early-scottish-records/#kilwinning-auld-working-family",
+  "catalogue_parent_projection": {
+    "reviewed_profiles": 179,
+    "selected_parent_assertions_checked": 60,
+    "differences": []
+  },
+  "next_metric_check": {
+    "status": "RESOLVED",
+    "saved_confident_tree_flags_not_used_by_current_metric": 0,
+    "review": "/data/ancestry-confidence-method-review.json",
+    "scope": "Status fallback; four other competing-father cases remain open."
+  },
+  "verification": {
+    "public_pending_updates": 213,
+    "complete_profile_comparisons": 4
+  },
+  "unresolved_parentage_review": {
+    "status": "OPEN",
+    "case_ids": [
+      "Glasgow-1367",
+      "Glasgow-2908",
+      "Glasgow-867",
+      "Glasgow-951"
+    ],
+    "confident_flag_among_competing_candidates": [
+      "Glasgow-867"
+    ],
+    "scope": "Four other competing-father cases retain their existing grades; no selection is made for them."
+  }
+}

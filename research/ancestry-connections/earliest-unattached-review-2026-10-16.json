@@ -1,0 +1,58 @@
+{
+  "reviewed": "2026-10-16",
+  "cutoff": 1650,
+  "cohort_population": 162,
+  "largest_working_family": 154,
+  "remaining_accounts": 8,
+  "scope": "Every account outside the largest working paternal component in the unchanged1650cohort. Records and estimates retain their existing grades. No arbitrary parent, unnamed generation, merge or exclusion from the baseline cohort is introduced.",
+  "cases": [
+    {
+      "id": "Glascoe-36",
+      "url": "/people/glascoe-36.html",
+      "decision": "Retain unresolved",
+      "reason": "The Berwick burial account has no verified age or kin, and its current cited record concerns another person."
+    },
+    {
+      "id": "Glasko-16",
+      "url": "/people/glasko-16.html",
+      "decision": "Retain unresolved",
+      "reason": "The Norwich burial account supplies no named kin or Scottish origin; its birth year is an estimate."
+    },
+    {
+      "id": "Glasgow-4063",
+      "url": "/people/glasgow-4063.html",
+      "decision": "Retain unresolved",
+      "reason": "The Holkham death/burial account supplies no age or relatives; the old adult-birth estimate is unsupported."
+    },
+    {
+      "id": "Glasgow-3110",
+      "url": "/people/glasgow-3110.html",
+      "decision": "Retain unresolved",
+      "reason": "The Flixton burial account supplies age but no forename, parent or Scottish origin."
+    },
+    {
+      "id": "Glasgow-1167",
+      "url": "/people/glasgow-1167.html",
+      "decision": "Retain unresolved",
+      "reason": "The Edinburgh child remains with the corrected Glassfuird slater household; the Glasgow/Glassford index-surname conflict is unresolved."
+    },
+    {
+      "id": "Glasgow-3357",
+      "url": "/people/glasgow-3357.html",
+      "decision": "Retain unresolved",
+      "reason": "The Currie child index names Janet Glasgow but no father; the two indexed/structured dates remain unreconciled."
+    },
+    {
+      "id": "Glasgow-1376",
+      "url": "/people/glasgow-1376.html",
+      "decision": "Retain unresolved",
+      "reason": "The Whitecastle account has a concrete error in its former 1657 child citation; the later man’s identity and parents remain unproved."
+    },
+    {
+      "id": "Glasgow-3001",
+      "url": "/people/glasgow-3001.html",
+      "decision": "Retain unresolved",
+      "reason": "The collector account is dated 1728; circa 1650 birth and Scottish origin are unsupported by that account."
+    }
+  ]
+}

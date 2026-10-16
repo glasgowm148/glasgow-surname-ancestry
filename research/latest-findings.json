@@ -27777,6 +27777,68 @@
         "research/relationship_assessments.json",
         "research/ancestry-connections/leitrim-tyrone-working-family-preservation-2026-10-16.json"
       ]
+    },
+    {
+      "id": "kilwinning-auld-working-family-2026-10-16",
+      "found_on": "2026-10-16",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Selected John of the Jean Wyllie household and Jean as uncertain parents of Mary Auld’s Kilwinning husband John, through possible identity with the recorded 1703 child. The old descent suggestion is mapped to its current candidate account; exact generation and adult identity remain unproved.",
+      "qualification": "One uncertain father and one uncertain mother are selected through one possible child-to-adult identity. No original inspection, merge, new certainty or live WikiTree edit is claimed. Existing dates, recorded family fields and the 1683 mother-name disagreement remain intact. Working connectivity counts retained profile accounts, including possible duplicates; it is not a count of proved distinct people or independent discoveries. The older John’s profile also represents a Kilwinning baptism on 16 September 1683. If those child and later-father identities are correct, he was about twenty at the 1703 baptism. This is compatible, but not independent proof that the 1683 child became Jean Wyllie’s husband. The competing Jean Gardiner and Jonet Young mother names in the 1683 indexes remain unresolved, as do the older account’s existing ancestral qualifications. A later son of the Wyllie household, a grandson through a different child, or another local Glasgow father remains possible for John Glasgow-2467. The already recorded descent suggestion does not specify a generation. The 1703-child route is selected because it provides a named child in the right parish with feasible later fatherhood, without inventing an intermediate ancestor; it is preferred only weakly. The nearby Stevenston James Glasgow-4170 and Mary Auld-2246 household, documented for Margaret in 1717 and Euphan in 1718, is an alternative family to compare, not an established identity with the Kilwinning John and Mary Auld-1724. Matching the mother’s name does not change the father’s recorded forename or prove that the women were the same person. No new half-sibling, remarriage or widowhood is asserted. Missing corroboration does not exclude either childhood or household comparison. Another Kilwinning John could have fathered Andrew and James. The present model should be tested against the original 1703, 1746 and 1750 residences, witnesses and any marriage entry.",
+      "relationship_change_count": 2,
+      "people": [
+        {
+          "id": "Glasgow-2467",
+          "name": "John Glasgow, Mary Auld household",
+          "url": "/people/glasgow-2467.html"
+        },
+        {
+          "id": "Glasgow-1065",
+          "name": "John Glasgow, Jean Wyllie household",
+          "url": "/people/glasgow-1065.html"
+        },
+        {
+          "id": "Wyllie-1044",
+          "name": "Jean Wyllie / Wylie",
+          "url": "/people/wyllie-1044.html"
+        },
+        {
+          "id": "Glasgow-2464",
+          "name": "John Glasgow, Kilwinning child of 1703",
+          "url": "/people/glasgow-2464.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Findmypast, Kilwinning John baptism 19 December 1703, John Glasgow/Jean Wylie, Chappell, SCOT/OPR/BAP/3625663; previously validated transcript",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3625663&tab=this"
+        },
+        {
+          "title": "ScotlandsPeople OPR 599,20/93: Andrew,26 October 1746, John Glasgow/Mary Auld; existing profile citation, original not newly inspected",
+          "url": "https://www.scotlandspeople.gov.uk/"
+        },
+        {
+          "title": "ScotlandsPeople OPR 599,20/106: James,19 August 1750, John Glasgow/Mary Auld; existing profile citation, original not newly inspected",
+          "url": "https://www.scotlandspeople.gov.uk/"
+        },
+        {
+          "title": "Findmypast, Kilwinning John,16 September 1683, SCOT/OPR/BAP/3624727; existing transcript, mother-name conflict retained",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3624727&tab=this"
+        },
+        {
+          "title": "FamilySearch, Margaret Glasgow,1712, Jean Wyllie household; retained sibling-household citation",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:XY2H-785"
+        },
+        {
+          "title": "Stevenston Margaret,1717, James Glasgow/Mary Auld; distinct household comparison, not proof of identity",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0369031&tab=this"
+        }
+      ],
+      "detail_url": "/branches/early-scottish-records/#kilwinning-auld-working-family",
+      "provenance": [
+        "research/relationship_assessments.json",
+        "research/ancestry-connections/kilwinning-auld-working-family-preservation-2026-10-16.json"
+      ]
     }
   ]
 }

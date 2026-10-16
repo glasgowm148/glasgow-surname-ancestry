@@ -3067,5 +3067,68 @@
         "role": "indexed administration subject"
       }
     }
+  },
+  {
+    "record_id": "kilwinning-john-wylie-child-1703",
+    "date": "19 December 1703",
+    "year": 1703,
+    "place": "Chappell, Kilwinning, Ayrshire",
+    "source_title": "Findmypast, Kilwinning John baptism 19 December 1703, John Glasgow/Jean Wylie, Chappell, SCOT/OPR/BAP/3625663; previously validated transcript",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3625663&tab=this",
+    "status": "Previously validated Findmypast parish-index transcript; original not inspected",
+    "note": "Names parents John Glasgow and Jean Wylie; identifies a child, not the later Mary Auld husband.",
+    "profiles": {
+      "Glasgow-2464": {
+        "role": "indexed child"
+      },
+      "Glasgow-1065": {
+        "role": "current account for named father"
+      },
+      "Wyllie-1044": {
+        "role": "current account for named mother"
+      }
+    }
+  },
+  {
+    "record_id": "kilwinning-andrew-auld-child-1746",
+    "date": "26 October 1746",
+    "year": 1746,
+    "place": "Kilwinning, Ayrshire",
+    "source_title": "ScotlandsPeople OPR 599,20/93: Andrew,26 October 1746, John Glasgow/Mary Auld; existing profile citation, original not newly inspected",
+    "source_url": "https://www.scotlandspeople.gov.uk/",
+    "status": "Existing parish-index citation retained on profiles",
+    "note": "OPR 599,20/93. Names parents John Glasgow and Mary Auld; no grandparents named.",
+    "profiles": {
+      "Glasgow-2467": {
+        "role": "recorded father account"
+      },
+      "Glasgow-2468": {
+        "role": "recorded child"
+      },
+      "Auld-1724": {
+        "role": "recorded mother account"
+      }
+    }
+  },
+  {
+    "record_id": "kilwinning-james-auld-child-1750",
+    "date": "19 August 1750",
+    "year": 1750,
+    "place": "Kilwinning, Ayrshire",
+    "source_title": "ScotlandsPeople OPR 599,20/106: James,19 August 1750, John Glasgow/Mary Auld; existing profile citation, original not newly inspected",
+    "source_url": "https://www.scotlandspeople.gov.uk/",
+    "status": "Existing parish-index citation retained on profiles",
+    "note": "OPR 599,20/106. Names parents John Glasgow and Mary Auld; no grandparents named.",
+    "profiles": {
+      "Glasgow-2467": {
+        "role": "recorded father account"
+      },
+      "Glasgow-2469": {
+        "role": "recorded child"
+      },
+      "Auld-1724": {
+        "role": "recorded mother account"
+      }
+    }
   }
 ]
