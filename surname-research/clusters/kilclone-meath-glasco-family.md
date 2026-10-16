@@ -1,6 +1,6 @@
 # Kilclone, County Meath Glasco family
 
-Last updated: **17 July 2026**
+Last updated: **16 October 2026**
 
 ## Direct family record
 
@@ -29,10 +29,17 @@ who died in May 1754 aged 60.
 ## Cluster treatment
 
 This is a **proved nuclear family**, not a surname-only occurrence. It is also
-a separate County Meath root. No reviewed record connects it to the Dublin
+a record-defined County Meath family whose earlier ancestry remains unproved. No reviewed record connects it to the Dublin
 Glasco watchmakers, the Rathdowney Catholic family or any Ulster cluster.
 
 No compatible WikiTree profiles were found in the local workbook snapshot or
 focused live-profile searches on 17 July 2026. The four profiles were later
 created as [[Glasgow-3920]], [[Glasgow-3924]], [[Glasgow-3925]] and
 [[Glasgow-3926]]; their sourcing drafts now sit in those profile research folders.
+
+
+## Selected earlier family — 16 October 2026
+
+[Patrick Glasgow of the Gordon 1667 account](https://www.wikitree.com/wiki/Glasgow-1440) is selected as a very uncertain working father of [Patrick of the Kilclone memorial](https://www.wikitree.com/wiki/Glasgow-3920). The 1667 baptism and memorial age 60 at death in 1754 allow an ordinary generation, while excluding a straightforward same-person identity. No record connects Scotland to Meath. The proposed son would predate the older account’s 1707 marriage; no mother or earlier union is supplied. The three memorial sons retain their existing relationships and grades.
+
+[Complete source comparison and alternatives](/branches/research-irish-kilclone-meath/#kilclone-gordon-working-family).

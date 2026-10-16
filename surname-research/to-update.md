@@ -1756,3 +1756,10 @@ The August completion entries remain historical. The live parent fields are now 
 | [James Glasgow, Kirknewton father account](https://www.wikitree.com/wiki/Glasgow-3526) | OPEN | Review the uncertain James3526father via the possible1717child identity; preserve James1547as an alternative, no mother, the Meek-household comparison and all earlier source boundaries. |
 | [John Glasgow, Kirknewton child of 1717](https://www.wikitree.com/wiki/Glasgow-3525) | OPEN | Review the uncertain James3526father via the possible1717child identity; preserve James1547as an alternative, no mother, the Meek-household comparison and all earlier source boundaries. |
 | [James Glasgow, alternative 1702 childhood account](https://www.wikitree.com/wiki/Glasgow-1547) | OPEN | Review the uncertain James3526father via the possible1717child identity; preserve James1547as an alternative, no mother, the Meek-household comparison and all earlier source boundaries. |
+
+
+## Kilclone and Gordon working family — 16 October 2026
+
+| [Patrick Glasco of the Kilclone memorial](https://www.wikitree.com/wiki/Glasgow-3920) | OPEN | Review the very uncertain Gordon Patrick father for the Kilclone Patrick; retain the age60memorial reading, pre1707child, no mother and absent migration bridge. |
+| [Patrick / Patrike Glasgow of Gordon](https://www.wikitree.com/wiki/Glasgow-1440) | OPEN | Review the very uncertain Gordon Patrick father for the Kilclone Patrick; retain the age60memorial reading, pre1707child, no mother and absent migration bridge. |
+| [James Glasco, Kilclone memorial erector](https://www.wikitree.com/wiki/Glasgow-3924) | OPEN | Review the very uncertain Gordon Patrick father for the Kilclone Patrick; retain the age60memorial reading, pre1707child, no mother and absent migration bridge. |

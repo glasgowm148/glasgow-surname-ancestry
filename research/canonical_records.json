@@ -3193,5 +3193,65 @@
         "role": "recorded mother account"
       }
     }
+  },
+  {
+    "record_id": "kilclone-patrick-sons-memorial-1738-1754",
+    "date": "Deaths 1 November 1738 and May 1754; transcription reported 1892",
+    "year": 1754,
+    "place": "Kilclone, County Meath",
+    "source_title": "Association for the Preservation of the Memorials of the Dead in Ireland, Kilclone inscription reported 1892; modern Meath History Hub transcription, not a stone photograph",
+    "source_url": "https://meathhistoryhub.ie/memorials-of-the-dead-journal/",
+    "status": "Published memorial transcription reproduced online; stone photograph not newly inspected",
+    "note": "Memorial inscription, not a deed. Patrick died May 1754 aged 60; James erected it for father and brothers Richard and William, who died 1 November 1738, ages 10 and about 7(query). No parents or birthplace for Patrick.",
+    "profiles": {
+      "Glasgow-3920": {
+        "role": "named father"
+      },
+      "Glasgow-3924": {
+        "role": "memorial erector and son"
+      },
+      "Glasgow-3925": {
+        "role": "brother Richard, son of Patrick"
+      },
+      "Glasgow-3926": {
+        "role": "brother William, son of Patrick"
+      }
+    }
+  },
+  {
+    "record_id": "gordon-patrike-james-index-1667",
+    "date": "4 August 1667; structured field 8 April 1667 unreconciled",
+    "year": 1667,
+    "place": "Gordon, Berwickshire",
+    "source_title": "FamilySearch, Patrike Glasgow, Gordon,4 August 1667, father James; existing parish-index citation",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:XTBS-98C",
+    "status": "Existing FamilySearch and supplied OPR index; original not inspected",
+    "note": "PATRIKE, father JAMES; Gordon 742,10/140. Child record, not proof of later groom identity, Meath kinship or exact birth date.",
+    "profiles": {
+      "Glasgow-1440": {
+        "role": "indexed child account"
+      },
+      "Glasgow-3107": {
+        "role": "existing account for named James; modern identity not newly established"
+      }
+    }
+  },
+  {
+    "record_id": "stitchel-eccles-patrick-fairbairn-marriages-1707",
+    "date": "23 May 1707,Stitchel;1 July 1707,Eccles",
+    "year": 1707,
+    "place": "Stitchel and Eccles, Scottish Borders",
+    "source_title": "FamilySearch, Patrick Glasgow/Helen Fairbairn, Stitchel,23 May 1707; existing marriage-index citation; FamilySearch, Patrick Glasgow/Helen Fairbarne, Eccles,1 July 1707; existing marriage-index citation",
+    "source_url": "https://familysearch.org/ark:/61903/1:1:XYQ1-96T",
+    "status": "Two existing cited parish-index entries; original forms not newly inspected",
+    "note": "Patrick and Helen Fairbairn/Fairbarne; precise relationship between the two dates not newly resolved. Does not prove that the groom was the 1667 Gordon child or that Helen had a 1694 son.",
+    "profiles": {
+      "Glasgow-1440": {
+        "role": "existing account for groom"
+      },
+      "Fairburn-170": {
+        "role": "existing account for bride; not selected as Meath Patrick’s mother"
+      }
+    }
   }
 ]
