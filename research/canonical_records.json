@@ -2777,5 +2777,53 @@
         "role": "named adult father"
       }
     }
+  },
+  {
+    "record_id": "polwarth-cavers-ulster-child-1658",
+    "date": "4 April 1658",
+    "year": 1658,
+    "place": "Polwarth, Berwickshire",
+    "source_title": "Polwarth William, 4 April 1658, father William: FamilySearch baptism index XTBH-RJS",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:XTBH-RJS",
+    "status": "Previously reviewed baptism index",
+    "note": "Child William; named father William. Existing Glasgow-2462 identity for the father remains unproved.",
+    "profiles": {
+      "Glasgow-1605": {
+        "role": "baptised child"
+      },
+      "Glasgow-2462": {
+        "role": "uncertain existing identity of named father"
+      }
+    }
+  },
+  {
+    "record_id": "polwarth-cavers-ulster-servant-1679",
+    "date": "June 1679",
+    "year": 1679,
+    "place": "Cavers / Ormistoun, Roxburghshire",
+    "source_title": "Cavers William, examination June 1679, servant at Ormistoun: reviewed Findmypast transcript JC39/22",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=GBPR%2FCOVENANT%2F028558&tab=this",
+    "status": "Previously validated deposition transcript",
+    "note": "Adult servant; no age, parents, birthplace or later Irish identity stated.",
+    "profiles": {
+      "Glasgow-4138": {
+        "role": "documented adult servant"
+      }
+    }
+  },
+  {
+    "record_id": "polwarth-cavers-ulster-inveresk-1639",
+    "date": "20–21 August 1639",
+    "year": 1639,
+    "place": "Inveresk, Midlothian",
+    "source_title": "Inveresk William, born 20 August and baptised 21 August 1639, Thomas/Agnes: reviewed Findmypast transcript OPR 689/1",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4437421&tab=this",
+    "status": "Previously validated birth and baptism transcript",
+    "note": "Birth 20 August, baptism 21 August; parents Thomas Glasgow and Agnes Thomson. No Polwarth residence or later paternity is supplied.",
+    "profiles": {
+      "Glasgow-2462": {
+        "role": "recorded child"
+      }
+    }
   }
 ]

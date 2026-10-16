@@ -1,47 +1,252 @@
-# WikiTree update notes: Glasgow-1605
+[[Category:Glasgow Name Study]]
 
-## Suggested additions
-
-Replace the biography with:
-
-```text
 == Biography ==
+'''[[Glasgow-1605|William Glasgow]]''' was baptised on 4 April 1658 at Polwarth, Berwickshire, with his father recorded only as William Glasgow.<ref name="PolwarthBirths" /> This profile represents that child.
 
-'''William Glasgow''' was baptised at Polwarth, Berwickshire, on 4 April 1658. The indexed baptism names his father as another William Glasgow; the cited index does not name his mother or identify the father as any particular WikiTree profile.<ref name="PolwarthBaptism">“Scotland, Births and Baptisms, 1564–1950,” FamilySearch database, William Glasgow in entry for William Glasgow, 4 April 1658, Polwarth, [https://www.familysearch.org/ark:/61903/1:1:XTBH-RJS record].</ref>
+No reviewed source connects the Polwarth child with the currently attached [[Glasgow-2462|father]], [[Glasgow-4138|the Cavers Covenanter]], the attached children [[Glasgow-3370|Isabell Glasgow]] and [[Glasgow-3587|William Glasgow]], or the later [[Glasgow-591|William Glasgow]] and [[Glasgow-2731|William Glasgow]] profiles. These links are retained as uncertain working hypotheses. A separate early derivative prisoner list names a William Glasgow of Cavers as a Covenanter, transportee and survivor of the wreck of the ''Croune of London'' near Deerness, Orkney, on 10 December 1679; that same-name man is not proved to be the Polwarth child. The 1679 Cavers deposition, survivor list and 1684 Ormistoun record are gathered on [[Glasgow-4138]]; those records also do not identify the Polwarth child.<ref name="Cloud1714">''A Cloud of Witnesses, for the Royal Prerogatives of Jesus Christ'' (1714), Appendix, "A List of the Banished," printed pp. 274–276. The list states that men who escaped the wreck were marked with a star and records "Will. Glasgow" under Cavers with that mark. [https://archive.org/details/cloudofwitnesses00edin Internet Archive scan]. A clearer reset of the list appears in John H. Thomson's 1871 edition, p. 523. [https://archive.org/details/cloudofwitnesses00thom/page/523/mode/1up Page 523].</ref><ref name="BrownDiary">A. Francis Steuart, ed., ''Diary of Thomas Brown, Writer in Kirkwall, 1675–1693'' (Kirkwall: William Peace, 1898), p. 10. Brown's contemporary entry for 10 December 1679 records the ''Croun'', carrying about 250 men taken at Bothwell Bridge and intended for Virginia, wrecked at or near the Mull Head of Deerness at about nine in the evening. [https://babel.hathitrust.org/cgi/pt?id=hvd.32044081269342&seq=24 HathiTrust image]. Brown does not name William.</ref>
+
+=== Same-name hypothesis: Covenanter and survivor of the ''Croune'' ===
+
+Following Bothwell Bridge, hundreds of Covenanter prisoners were confined at Edinburgh. Colonial transportation was explicit government policy. A royal instruction of 29 June 1679 supported sending three or four hundred prisoners to the colonies; it is recorded in the Secretary for Scotland's warrant book as National Records of Scotland reference SP4/5, folios 174–175.<ref name="RoyalTransportation">Joseph Wagner, ''Scottish Colonization before Darien: Opportunities and Opposition in the Union of the Crowns'' (PhD thesis, University of St Andrews, 2020), pp. 157–158 and note 66, citing NRS SP4/5, Charles II to the Scottish Privy Council, 29 June 1679, fols. 174–175. [https://doi.org/10.17630/sta/47 University of St Andrews thesis]. National Records of Scotland, SP4/5, "Warrant book of Secretary for Scotland," 16 October 1678–30 April 1680. [https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?df=&di=y&dt=&k=&ko=a&r=SP4&reference=SP4%2F5&ro=s&st=1&tc=y&tl=n&tn=n&tp=n NRS catalogue]. The original letter was not available digitally for this review.</ref><ref name="Wodrow">Robert Wodrow, ''The History of the Sufferings of the Church of Scotland from the Restoration to the Revolution'', vol. III, pp. 130–131. [https://books.google.co.uk/books?id=eEwsAAAAYAAJ&pg=PA130 Google Books].</ref>
+
+The 1714 ''Cloud of Witnesses'' states that about 250 prisoners taken at Bothwell were sent for banishment, that about 200 drowned near Orkney, and that the names of those who escaped were marked with a star. Under Cavers it records a William Glasgow with that survivor mark.<ref name="Cloud1714" /> This is the principal evidence for the Cavers man, but it does not identify him with the subject of this profile.
+
+Thomas Brown's contemporary diary independently confirms the prisoner group, intended destination, date and approximate place and time of the wreck.<ref name="BrownDiary" /> Later Covenanter accounts state that many prisoners remained confined below deck as the ship broke apart and give totals of roughly two hundred dead and forty to fifty survivors.<ref name="Blackadder">John Blackadder, ''Memoirs of the Rev. John Blackader'' (Edinburgh, 1826), pp. 230–232. The published work preserves an account said to have been obtained from a survivor of the wreck. [https://archive.org/details/memoirsrevjohnb00blacgoog Internet Archive].</ref><ref name="Wodrow" /> Those details derive from partisan or survivor-based accounts rather than an official inquiry and should be attributed accordingly.
+
+A post-wreck petition by William Paterson, the merchant directing the transportation, survives in the published Privy Council register. Paterson alleged that English and Scottish dissenters had influenced the captain or crew and intended to land the prisoners in England or Ireland. Paterson had an obvious financial and legal interest in assigning responsibility for the failed voyage. His petition documents the dispute following the wreck but does not prove that the loss was deliberate.<ref name="PatersonPetition">P. Hume Brown, ed., ''The Register of the Privy Council of Scotland'', Third Series, vol. VI, 1678–1680 (Edinburgh: H. M. General Register House, 1914), pp. 415–417, particularly p. 416. [https://books.google.com/books?id=00_aKojSqGIC&pg=PA416 Google Books]. Wagner, ''Scottish Colonization before Darien'', pp. 158–159, discusses Paterson's petition and his interest in blaming others. [https://doi.org/10.17630/sta/47 Thesis].</ref>
+
+The 1714 prisoner list is an early derivative source rather than a surviving government passenger manifest, and the manuscript from which its names were compiled has not been identified. Comparison with surviving Privy Council material nevertheless shows that numerous people in the list can be independently found among those taken after Bothwell and selected for banishment, supporting its general reliability.<ref name="Jardine">Mark Jardine, "Beyond Orkney's Fatal Shore: The Wreck of The Croune, 10 December 1679," ''Jardine's Book of Martyrs'', 10 December 2016. Jardine compares the 1714 list with Privy Council material, identifies corroborated prisoners and discusses the list's unknown provenance. [https://drmarkjardine.wordpress.com/2016/12/10/beyond-orkneys-fatal-shore-the-wreck-of-the-croune-10-december-1679-history-scotland/ Article].</ref> No separate government entry naming William individually was identified in the published material examined.
+
+=== Cavers survivors and the Ulster question ===
+
+The Cavers group in the 1714 list comprised James Leydon, [[Glasgow-1498|John Glasgow]], William Glasgow, John Greenshields, Richard Young, Samuel Douglas, James Young and James Hopkirk. The survivor notation applies to James Leydon, [[Glasgow-1498|John Glasgow]], William Glasgow and James Young.<ref name="Cloud1714" />
+
+No relationship between [[Glasgow-1498|John Glasgow]] and the Cavers William is stated. Their appearance together establishes only that both were assigned to the same Cavers parish group.
+
+The earliest source located during this review that specifically places William after the wreck is Joseph A. Waddell's 1886 first edition of ''Annals of Augusta County, Virginia''. Waddell reproduced part of the banished-prisoner list, explained that the survivors' names were printed in italics, included John and William "Glascow" under Cavers, and then stated that all fifty survivors made their way to northern Ireland.<ref name="Waddell1886">Joseph A. Waddell, ''Annals of Augusta County, Virginia'' (Richmond: Wm. Ellis Jones, 1886), p. 5, note 1. Waddell includes John and William "Glascow" under Cavers and states that the fifty survivors reached northern Ireland. His note cites ''A Cloud of Witnesses'' for the prisoner list but does not identify a source for the destination statement. [https://en.wikisource.org/wiki/Page:Annals_of_Augusta_County.djvu/21 Page image and transcription].</ref>
+
+This is direct support for a northern-Ireland destination, but it was published 207 years after the wreck and is unsupported by a stated contemporary source. It cannot by itself prove William's migration.
+
+Waddell materially recast the passage in his revised 1902 edition. He then wrote only that "some" of the prisoners who escaped made their way to Ulster and supplied ten names: John Thomson, William Waddell, John Gardner, Thomas Miller, Thomas Thomson, Andrew Thomson, Hugh Montgomery, John Martin, Andrew Clark and James Young. Neither [[Glasgow-1498|John Glasgow]] nor the Cavers William appears in that shorter list.<ref name="Waddell1902">Joseph A. Waddell, ''Annals of Augusta County, Virginia, from 1726 to 1871'', 2nd ed., revised and enlarged (Staunton, Virginia: C. Russell Caldwell, 1902), p. 8. The edition says that "some" escapees made their way to Ulster and names ten survivors, including James Young but neither Glasgow. [https://archive.org/stream/annalsofaugustac00wadd/annalsofaugustac00wadd_djvu.txt Internet Archive full text].</ref>
+
+The omission does not disprove William's migration because the 1902 list is expressly introduced as only "some" of the survivors. It does, however, prevent the 1886 blanket statement from being accepted without qualification. Waddell did not explain the change or identify his evidence for either version.
+
+Rob Close preserved another version of the Ulster tradition in 2004. He reported that nine survivors were believed to have escaped to Ulster, citing J. Thomson's ''A Cloud of Witnesses'' as quoted by Robert B. Miller.<ref name="AyrshireUlster">Rob Close, "Deerness Covenanter Memorial," ''Ayrshire Notes'', no. 28 (Autumn 2004), p. 15, note 17. The note states that nine survivors were believed to have escaped to Ulster, citing J. Thomson's ''A Cloud of Witnesses'' as quoted by Robert B. Miller. [https://aanhs.org/wp-content/uploads/2018/04/an28.pdf PDF].</ref> Close also stated that his account of the wreck owed much to Miller's research, a copy of which had been deposited at the Orkney Library and Archive.<ref name="AyrshireUlster" />
+
+The corresponding archive catalogue entry has now been located. It describes a 1993 letter from Robert B. Miller of Richmond, Virginia, enclosing a list of survivors from the wreck of the ''Crown'' together with his sources.<ref name="MillerDossier">Orkney Library and Archive, catalogue entry, "The Wreck of 'The Crown'," 1993: letter from Robert B. Miller, Richmond, Virginia, enclosing a list of survivors from the wreck with his sources. [https://yourscottisharchives.com/catalogues/598d9888-6456-3c76-8c19-128ffce82a4b?component-id=fb62ec54-9931-3921-b3ea-9b4b94ddcdb6&terms=%22Songs%22 Catalogue entry]. The dossier was located but could not be inspected because no digital copy was available.</ref> Until that dossier is examined, it is not possible to determine whether Miller included William among the nine, what evidence he used, or whether Close and Waddell ultimately depended on the same tradition.
+
+A modern study by Lawrence Holden and Mark Thompson gives a ten-person group of wreck survivors said to have fled to Ulster. It includes '''James Young of Teviotdale'''. The same study documents an active post-Bothwell refugee route: officials watched the ports of Larne and Donaghadee, while about fourteen open boats reportedly carried Covenanters from Irvine to Carrickfergus.<ref name="UlsterSurvivors">Lawrence Holden and Mark Thompson, "The Covenanters in Ulster," Part Six, "1666–1679, A Kirk Divided," pp. 6–7, Ulster-Scots Community Network. The study names ten wreck survivors said to have fled to Ulster, including James Young of Teviotdale, and describes the post-Bothwell refugee route from Irvine to Carrickfergus and government watch at Larne and Donaghadee. [https://ulster-scots.com/wp-content/uploads/2023/11/USCN-Covenanters-in-Ulster-Tabloid.pdf PDF]. This is a modern secondary study; its evidence for each named destination requires verification.</ref>
+
+The description "James Young of Teviotdale" fits the James Young marked as a survivor in William's Cavers group. The matching name, regional description and survivor status make it probable that the two references concern the same man. If so, a member of William's exact parish cohort reached Ulster. This is stronger evidence than the general fact that unrelated Covenanters used the route, but it still does not prove that William travelled with him.
+
+The Ulster evidence is therefore assessed as follows:
+
+* '''Plausible and supported by substantial late evidence:''' Waddell's 1886 statement directly includes William among survivors said to have reached northern Ireland.
+* '''Corroborating route and associate evidence:''' a probable member of William's exact Cavers survivor group, James Young, is repeatedly included among the Ulster fugitives.
+* '''Important evidential tension:''' Waddell's revised 1902 list omits both Glasgows and limits its claim to "some" survivors.
+* '''Not proved:''' no contemporary record examined identifies the Polwarth child as the Cavers prisoner, a survivor of the ''Croune'', or any William found in Ireland.
+
+=== Records relevant to William's identity ===
+
+{| class="wikitable sortable" style="padding:20px; width:100%;"
+|+ '''Birth, parentage, same-name records and surname networks'''
+! style="background-color:#E1F0B4;" | Date
+! style="background-color:#E1F0B4;" | Person / Record
+! style="background-color:#E1F0B4;" | Place
+! style="background-color:#E1F0B4;" | Evidence and Assessment
+|-
+| '''Reported 1639'''
+| [[Glasgow-2462|William Glasgow]], currently attached as father
+| Inveresk, Midlothian
+| The current tree reports this man as born at Inveresk in 1639 and attaches him as the father of [[Glasgow-1605|William Glasgow]]. No marriage, baptismal wording, residence, occupation, kirk-session entry, estate record, witness or other document reviewed connects him with Polwarth, Cavers or the 1658 child. On the reported chronology, he would have been about seventeen when [[Glasgow-3362|Elizabeth Glasgow]] was baptised in 1656 and eighteen when the candidate William was baptised in 1658. That is possible, but unusually young and unsupported. '''Current father attachment not proved.'''
+|-
+| '''17 August 1656 and 4 April 1658'''
+| [[Glasgow-3362|Elizabeth Glasgow]] and William Glasgow, each indexed with a father named William Glasgow
+| Polwarth, Berwickshire
+| FamilySearch indexes baptisms for [[Glasgow-3362|Elizabeth Glasgow]] in 1656 and William Glasgow in 1658, both with a father named William Glasgow.<ref name="PolwarthBirths">FamilySearch, ''Scotland, Births and Baptisms, 1564–1950'': [[Glasgow-3362|Elizabeth Glasgow]], baptised 17 August 1656 at Polwarth, father William Glasgow, [https://www.familysearch.org/ark:/61903/1:1:XYL3-24Q record XYL3-24Q]; William Glasgow, baptised 4 April 1658 at Polwarth, father William Glasgow, [https://www.familysearch.org/ark:/61903/1:1:XTBH-RJS record XTBH-RJS]. These are derivative entries from the same indexed collection. The original register images were not accessible for this review.</ref> Ancestry carries the corresponding derivative entry for the 1658 baptism but is not an independent source.<ref name="AncestryBirth">Ancestry, ''Scotland, Select Births and Baptisms, 1564–1950'', William Glasgow, Polwarth, 4 April 1658. [https://www.ancestry.co.uk/discoveryui-content/view/13605720:60143?indiv=1&tid=&pid=&queryId=3716e5a39223fa4f412cbf7454bff742&usePUB=true&_phsrc=UPT9&_phstart=successSource Record].</ref> If baptised in infancy, the boy would have been about twenty-one at Bothwell Bridge. No record connects him with Cavers, [[Glasgow-1498|John Glasgow]] or the prisoner list. '''Best known birth candidate; unproved.'''
+|-
+| '''18 June 1663–24 May 1679'''
+| [[Glasgow-3107|James Glasgow]], [[Watt-5185|Agnes Watt]] and six children recorded with a father named James Glasgow
+| Polwarth and Gordon, Berwickshire
+| [[Glasgow-3107|James Glasgow]] married [[Watt-5185|Agnes Watt]], recorded as Agnes Waitte, at Polwarth on 18 June 1663.<ref name="JamesAgnes">National Records of Scotland, Old Parish Registers, Polwarth, parish 754, reference 10/62, frame 37, marriage of James Glasgow and Agnes Waitte, 18 June 1663; FamilySearch, ''Scotland Marriages, 1561–1910''. [https://familysearch.org/ark:/61903/1:1:XTL8-X6D FamilySearch record XTL8-X6D].</ref> A James Glasgow subsequently appears as father of [[Glasgow-3117|John]] in 1666, [[Glasgow-1440|Patrick]] in 1667, [[Glasgow-3364|Jean]] in 1671, [[Glasgow-3106|Robert]] in 1673, [[Glasgow-3363|Agnes]] in 1676 and [[Glasgow-3365|Margaret]] in 1679, all baptised at Gordon.<ref name="GordonFamily">FamilySearch, ''Scotland, Births and Baptisms, 1564–1950'': [[Glasgow-3117|John Glasgow]], 29 April 1666, [https://www.familysearch.org/ark:/61903/1:1:XTBS-Z9H XTBS-Z9H]; [[Glasgow-1440|Patrick Glasgow]], 4 August 1667, [https://www.familysearch.org/ark:/61903/1:1:XTBS-98Z XTBS-98Z]; [[Glasgow-3364|Jean Glasgow]], 16 April 1671, [https://www.familysearch.org/ark:/61903/1:1:XYLM-Y4Z XYLM-Y4Z]; [[Glasgow-3106|Robert Glasgow]], 1 April 1673, [https://www.familysearch.org/ark:/61903/1:1:XYHJ-3R9 XYHJ-3R9]; [[Glasgow-3363|Agnes Glasgow]], 29 October 1676, [https://www.familysearch.org/ark:/61903/1:1:XYLM-Y4H XYLM-Y4H]; and [[Glasgow-3365|Margaret Glasgow]], 24 May 1679, [https://www.familysearch.org/ark:/61903/1:1:XYL9-Q32 XYL9-Q32]. These are derivative indexes. The entries name a father James but, as indexed, do not establish the mother's identity or prove that every entry concerns the 1663 groom.</ref> This establishes another adult Glasgow household in the immediate Polwarth/Gordon district. James may have been related to the father of the 1656 and 1658 children, but no record states the relationship. '''Strong local kinship lead; relationship unproved.'''
+|-
+| '''24 September 1671'''
+| [[Glasgow-1026|William Walter Glasgow]], son of Andrew Glasgow
+| Kirknewton and East Calder, Midlothian
+| An indexed baptism records this William in 1671.<ref name="WilliamWalter">FamilySearch, ''Scotland, Births and Baptisms, 1564–1950'', William Glasgow, baptised 24 September 1671 at Kirknewton and East Calder, father Andrew Glasgow. [https://www.familysearch.org/ark:/61903/1:1:VQ4K-F2B Record VQ4K-F2B].</ref> He would have been about eight at Bothwell Bridge and cannot plausibly be the transported Cavers prisoner. '''Excluded identity.'''
+|-
+| '''Before 9 April 1673'''
+| [[Glasgow-3912|William Glasgow]] of Quothquan
+| Quothquan, Libberton parish, Lanarkshire
+| A testament for a William Glasgow in Quothquan was recorded on 9 April 1673, establishing that he had died before the Bothwell rising.<ref name="QuothquanTestament">Francis J. Grant, ed., ''The Commissariot Record of Lanark: Register of Testaments, 1595–1800'' (Edinburgh, 1903), p. 38, citing commissary record CC14/5/9. [https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/the_commissariot_record_of_lanark__register_of_testaments__1595-1800_~_1903.pdf#page=50 PDF].</ref> He cannot be the Cavers survivor. '''Excluded identity.'''
+|-
+| '''7 February 1692'''
+| [[Glasgow-2730|Margaret Glasgow]], daughter of a recorded William Glasgo; the father is represented by [[Glasgow-2731|William Glasgow]]
+| Hawick, Roxburghshire
+| An indexed baptism names Margaret's father as William Glasgo.<ref name="Margaret1692">FamilySearch, ''Scotland, Births and Baptisms, 1564–1950'', [[Glasgow-2730|Margaret Glasgo]], baptised 7 February 1692 at Hawick, father William Glasgo. [https://www.familysearch.org/ark:/61903/1:1:X11X-46N Record X11X-46N]. This is a derivative index entry.</ref> Hawick and Cavers were separate adjoining parishes. The record proves the presence of an adult William in the immediate district thirteen years after the wreck but does not identify him with [[Glasgow-1605|William Glasgow]]. '''Possible same man; unproved.'''
+|-
+| '''12 November 1694'''
+| [[Glasgow-3370|Isabell Glasgow]]
+| Cavers, Roxburghshire
+| A derivative FamilySearch entry records [[Glasgow-3370|Isabell Glasgow]] at Cavers.<ref name="Isabell1694">FamilySearch, ''Scotland, Births and Baptisms, 1564–1950'', [[Glasgow-3370|Isabell Glasgow]], 12 November 1694, Cavers. [https://www.familysearch.org/ark:/61903/1:1:VQH7-5PY Record VQH7-5PY]. The original register image was not accessible for this review.</ref> The record places the surname in William's associated parish fifteen years after the wreck. The available index does not establish that [[Glasgow-1605|William Glasgow]] was her father. '''Current parent-child attachment unsupported.'''
+|-
+| '''1707–1716'''
+| [[Glasgow-1440|Patrick Glasgow]] and [[Fairburn-170|Helen Fairbairn]]
+| Stitchel, Roxburghshire, and Eccles, Berwickshire
+| A Patrick Glasgow married [[Fairburn-170|Helen Fairbairn]] in 1707, with entries at Stitchel and Eccles, and children were subsequently baptised to a Patrick Glasgow at Stitchel.<ref name="PatrickMigration">FamilySearch, ''Scotland, Marriages, 1561–1910'': [[Glasgow-1440|Patrick Glasgow]] and [[Fairburn-170|Helen Fairbairn]], Stitchel, 23 May 1707, [https://familysearch.org/ark:/61903/1:1:XYQ1-96T XYQ1-96T]; Eccles, 1 July 1707, [https://familysearch.org/ark:/61903/1:1:XTL4-LPT XTL4-LPT]. FamilySearch baptisms at Stitchel: John, 2 May 1708, [https://www.familysearch.org/ark:/61903/1:1:FMMW-9QT FMMW-9QT]; Agnes, 31 July 1709, [https://familysearch.org/ark:/61903/1:1:X111-P2H X111-P2H]; James, 11 May 1712, [https://familysearch.org/ark:/61903/1:1:FMM7-GMJ FMM7-GMJ]; and Isobell, 10 August 1716, [https://familysearch.org/ark:/61903/1:1:FMMM-S4Y FMMM-S4Y]. The marriage indexes do not name Patrick's parents.</ref> The current profiles identify the groom with the Patrick baptised to James Glasgow at Gordon in 1667. If correct, this demonstrates movement by the Polwarth/Gordon family into Roxburghshire. The marriage record itself does not prove that identification. '''Plausible movement of the local kin group; not an identity bridge to William.'''
+|-
+| '''4 March 1709'''
+| [[Glasgow-3587|William Glasgow]] and [[Scott-69166|Margaret Scott]]
+| Cavers, Roxburghshire
+| An indexed marriage records a William Glasgow marrying [[Scott-69166|Margaret Scott]] at Cavers.<ref name="Marriage1709">FamilySearch, ''Scotland, Marriages, 1561–1910'', [[Glasgow-3587|William Glasgow]] and [[Scott-69166|Margaret Scott]], married 4 March 1709 at Cavers. [https://familysearch.org/ark:/61903/1:1:XYQG-3XD Record XYQG-3XD]. This is a derivative index entry.</ref> The groom could have been the survivor, then perhaps about fifty if the 1658 baptism belongs to him, or a younger member of the Cavers family. The record supplies no parentage or link to 1679. '''Possible identity or family connection; unproved.'''
+|-
+| '''21 April 1653–1669'''
+| [[Glasgow-1078|Robert Glaskow]], [[Glasgow-3961|Elizabeth Glascho]], [[Glasgow-1081|James Glascho]] and [[Glasgow-3913|John Glascho]]
+| Larne, Glenarm and Kilwaughter, County Antrim
+| A 1653 deposition refers to "one Robert Glaskow living in Larne."<ref name="Larne1653">Trinity College Dublin, 1641 Depositions Project, examination of Con O Sheale, taken at Lisnegarvy on 21 April 1653, TCD MS 838, fol. 153r, identifier 838153r210. The allegation involving Robert was hearsay; the record is used here only for the statement that Robert Glaskow lived at Larne. [https://1641dep.abdn.ac.uk/items/show/42821.html Transcript].</ref> A transcription of the 1669 County Antrim Hearth Money Rolls records [[Glasgow-3961|Eliz Glascho]] in Glenarm town and [[Glasgow-1081|James Glascho]] and [[Glasgow-3913|Jo Glascho]] in Kilwaughter Demesne.<ref name="Antrim1669">W. Macafee, transcription of ''Hearth Money Rolls (1669) for the Baronies of Cary, Dunluce, Kilconway, Toome, Antrim and Glenarm in Co. Antrim'' (2011), p. 36, records 5730, 5348 and 5347. [https://www.billmacafee.com/1660shearthmoneyrolls/1669hearthmoneyrollsantrim.pdf PDF]. This is a modern transcription of PRONI T/307/A; the original roll was not inspected.</ref> These records establish an east-Antrim Glasgow/Glascho population before the wreck. They neither prove nor disprove William's later arrival. '''Relevant pre-existing surname network.'''
+|-
+| '''21 January 1669/70'''
+| [[Glasgow-3172|James Glasgow]], mariner
+| Belfast, County Antrim
+| The Belfast town book records "James Glasco Marriner" as admitted and sworn a free commoner on 21 January 1669/70.<ref name="BelfastJames">Robert Magill Young, ed., ''The Town Book of the Corporation of Belfast, 1613–1816'' (Belfast, 1892), p. 271. [https://archive.org/stream/townbookofcorpor92belf/townbookofcorpor92belf_djvu.txt Internet Archive full text].</ref> This supplies a pre-1679 maritime Glasgow presence at a major Ulster port used by Scottish traffic, but no relationship to William is established. '''Network evidence only.'''
+|-
+| '''1699–1700'''
+| John Glasgow, [[Glasgow-1502|Robert Glasgow]] and a James Glasgow
+| Larne and Kilwaughter, County Antrim
+| Published extracts from early congregational records name Glasgow men in representative, financial and meeting-house roles at Larne and Kilwaughter.<ref name="LarneMinutes">Classon Porter, "Congregational Memoirs—Larne and Kilwaughter," ''The Christian Unitarian'', vol. II (1863), pp. 410–414, and vol. III (1864), pp. 16–18. [https://archive.org/stream/christianunitari0002unse/christianunitari0002unse_djvu.txt Volume II text]; [https://archive.org/stream/christianunitari0003unse/christianunitari0003unse_djvu.txt Volume III text]. Porter stated that the original congregational record could not be located and that he worked from a copy.</ref> These entries demonstrate an established Presbyterian Glasgow group in the east-Antrim district associated with Scottish refugee traffic. They supply no Scottish parish of origin and do not name William. '''Relevant religious and geographic network; no identity bridge.'''
+|-
+| '''1689 and later'''
+| [[Glasgow-591|William Glasgow]] and his purported son [[Glasgow-551|John Glasgow]]
+| Londonderry and County Tyrone, Ireland
+| A late descendant account states that men named Cameron adopted the surname Glasgow while serving during the siege of Londonderry in 1689, then associates [[Glasgow-591|William Glasgow]] and [[Glasgow-551|John Glasgow]] with northern Ireland.<ref name="UlsterHistory">Melanchthon Glasgow, ''History of the Glasgow Family'', undated descendant account written after 1892, pp. 1–2 and 5. The author describes the early ancestry as obscure and relies on family tradition without identifying a contemporary record. [https://www.wikitree.com/photo/pdf/Glasgow-590 WikiTree-hosted PDF].</ref> This surname-origin story cannot explain the Cavers survivor, who was already recorded as William Glasgow in 1679. The 1653 and 1669 Antrim records also establish that Glasgow/Glascho was present in Ulster before the siege.<ref name="Larne1653" /><ref name="Antrim1669" /> No documentary link between [[Glasgow-591]] and either the Polwarth child or the Cavers survivor has been found. '''Family tradition / research lead only.'''
+|}
 
 == Research Notes ==
+=== Selected uncertain family — 16 October 2026 ===
 
-=== Father ===
+The 24 September 1671 Kirknewton child is represented by [[Glasgow-3974]], separate from the older Kirknewton householder [[Glasgow-1026]]. The age-eight objection at Bothwell applies to that child; it does not exclude the older man, who remains an unselected compatible candidate. In the candidate comparison, the 1671 date identifies the younger child rather than the older William.<ref>FamilySearch, Scotland, Births and Baptisms, 1564–1950, William Glasgow, Kirknewton and East Calder, 24 September 1671, father Andrew: [https://www.familysearch.org/ark:/61903/1:1:VQ4K-F2B VQ4K-F2B]. The date belongs to the child represented by [[Glasgow-3974]]; the [[Glasgow-1026]] account is an older householder.</ref>
 
-The baptism names the father only as William Glasgow. No reviewed marriage, residence, occupation, testament or other relational record identifies that father as [[Glasgow-2462]], whose profile is based on an Inveresk baptism. The father relationship should remain unconnected unless an original record or corroborating family record identifies him.
+The existing uncertain [[Glasgow-2462]] father is extended conditionally to the Cavers and traditional Ulster adult accounts through possible identity with this child. This is not a new father for the recorded child and does not prove three separate William sons.
 
-=== Possible identification with the Cavers prisoner ===
+[[Glasgow-2462]] is the proposed, very uncertain working father of the traditional Ulster ancestor [[Glasgow-591]] and the Cavers Covenanter [[Glasgow-4138]]. This carries the existing possible identity with the Polwarth child [[Glasgow-1605]] into a concrete local family model. The Polwarth index names the child’s father as William Glasgow, and [[Glasgow-2462]] is already attached to that child with uncertainty. The three younger profile accounts are retained as possible stages of one life, not three proved brothers. Neither new father attachment is independent support for the other: both depend on the same child/adult identity and on the unproved identification of the named Polwarth father with the Inveresk man.
 
-A prisoner list names John Glasgow and William Glasgow under Cavers parish and marks both as survivors of the December 1679 wreck.<ref name="CloudCavers">John H. Thomson, ed., ''A Cloud of Witnesses'', appendix, prisoner list under “Parish of Cavers”; survivors are marked with a star, [https://media.sabda.org/alkitab-8/LIBRARY/THO_CLWT.PDF digital copy].</ref> It gives no age, parents or birthplace. No record has been found connecting the prisoner to the child baptised at Polwarth in 1658. The two men may have been the same person, but that identification is unproved.
+The Polwarth child was baptised on 4 April 1658. If baptised near birth, he would have been about 21 at the examination of the Cavers servant in June 1679, 26 at the Ormistoun servant list in 1684 and 31 in 1689. Those are compatible ages for the recorded adult and the later military tradition. The Ulster profile’s circa 1656 birth is explicitly a rough grandson-based estimate, not an age stated by a record; its guessed Glasgow-city origin cannot exclude a Borders childhood. The exact forename and surname, compatible sequence and existing Borders candidate make this a usable provisional life model. Polwarth and Cavers are distinct parishes in different counties, and the chronology supplies compatibility rather than an identifying age match. The Cavers setting is recorded residence/association, not a proved birthplace.
 
-=== Previously attached children ===
+The Cavers man is the leading existing Scottish comparison for [[Glasgow-591]] because the records establish a Covenanter and wreck survivor before the reported 1689 episode, while a probable member of his actual parish survivor group, James Young, appears among survivors said to have reached Ulster. Waddell’s 1886 account says all fifty survivors reached northern Ireland; his revised 1902 account says only some and omits both Glasgows from its named list. The omission does not exclude William, but the revision and late publication weaken the blanket migration claim. The 1684 Ormistoun record also prevents assuming uninterrupted Ulster residence from 1679. The later family history’s 1689 service and settlement remain tradition, not verified military service. No particular crossing, return journey, unit or Irish residence is invented. Its Cameron-to-Glasgow surname-origin story cannot explain a man already called Glasgow in 1679.
 
-The December 1694 Cavers baptism of Isabell Glasgow names her father only as William Glasgow.<ref name="Isabell2Dec">FreeREG, “Isabell GLASGOW,” baptism, 2 December 1694, Cavers Parish Church, [https://www.freereg.org.uk/search_records/68618e1f865574707dcba4ca/isabell-glasgow-baptism-roxburghshire-cavers-1694-12-02 transcription].</ref><ref name="Isabell8Dec">FreeREG, duplicate transcription dated 8 December 1694, entry 0427, [https://www.freereg.org.uk/search_records/68618e8b865574707dcbe3e5/isabell-glasgow-baptism-roxburghshire-cavers-1694-12-08 transcription].</ref> The 1709 marriage of William Glasgon and Margaret Scott does not name the groom's father.<ref name="GlasgonScott">FreeREG, “William GLASGON and Margaret SCOTT,” marriage, 4 March 1708/9, Cavers Parish Church; note “Married in Hummelknows,” [https://www.freereg.org.uk/search_records/68618e91865574707dcbe5ff/william-glasgon-margaret-scott-marriage-roxburghshire-cavers-1709-03-04 transcription].</ref> Neither record identifies the named William as the Polwarth child, so [[Glasgow-3370]] and [[Glasgow-3587]] should not be attached as his children without further evidence.
+The weakest stage is the proposed father’s identity. [[Glasgow-2462]] was born at Inveresk on 20 August 1639 and baptised the next day. He would have been only 18 at the 1658 Polwarth baptism and 16, nearly 17, at the associated Elizabeth baptism in August 1656. Young fatherhood is possible, but there is no marriage, residence or occupation connecting him with the named Polwarth father. An older, otherwise unidentified William is a substantial competing explanation. The named-child clause does not prove [[Glasgow-2462]]’s identity. The regional Polwarth/Gordon household of [[Glasgow-3107]] is a stronger local kinship lead than Inveresk alone, but supplies no father clause for William; no exact brother, uncle or father relationship with James is selected. This inherited father remains a very low-confidence default and would fall away on both new adult accounts if the child/father identification fails. No mother is selected for either adult, and no wife or mother is transferred from the Inveresk ancestry.
+
+The Polwarth child could be a different man from the Cavers Covenanter, and the Covenanter could be different from the late family history’s William. The Hawick father [[Glasgow-2731]] in 1692 and Cavers groom [[Glasgow-3587]] in 1708/09 remain competing later identities for the Covenanter; neither is newly equated with him. The attached [[Glasgow-3370]] entry in 1694 does not independently establish the Polwarth man as her father. If later Scottish records identify the Covenanter continuously there, the family history’s permanent Irish settlement would need reconsideration. Other Scottish William candidates and the possibility that the late ancestor account is mistaken remain open. A missing contemporary Irish bridge is not an exclusion, but the combined identification is especially uncertain. No surname or Y-DNA grouping supplies these missing generations.
+
+Two very uncertain local father hypotheses are selected from existing research; no new original inspection, certain relationship, identity merge or live WikiTree save. Existing child/adult records, vital fields, attached relatives and their grades remain unchanged. Connectivity counts retained profile accounts, including possible duplicates, and describes the selected model rather than a proved pedigree. [https://glasgow.phenotype.dev/branches/early-scottish-records/#polwarth-cavers-ulster-working-family Full selected model, competing families and source limits]. <ref>Existing reviewed records and public profile citations: [https://www.familysearch.org/ark:/61903/1:1:XTBH-RJS Polwarth William, 4 April 1658, father William: FamilySearch baptism index XTBH-RJS]; [https://www.familysearch.org/ark:/61903/1:1:XYL3-24Q Polwarth Elizabeth, 17 August 1656, father William: FamilySearch index XYL3-24Q]; [https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4437421&tab=this Inveresk William, born 20 August and baptised 21 August 1639, Thomas/Agnes: reviewed Findmypast transcript OPR 689/1]; [https://www.findmypast.co.uk/transcript?id=GBPR%2FCOVENANT%2F028558&tab=this Cavers William, examination June 1679, servant at Ormistoun: reviewed Findmypast transcript JC39/22]; [https://www.findmypast.co.uk/transcript?id=GBPR%2FCOVENANT%2F028560&tab=this Ormistoun William, October 1684 servant list: reviewed Findmypast transcript PC8/8 and PC12/9A]; [https://archive.org/details/cloudofwitnesses00edin A Cloud of Witnesses, 1714, banished-prisoner list pp.274–276; early derivative source]; [https://www.wikitree.com/photo/pdf/Glasgow-590 William Melanchthon Glasgow, History of the Glasgow Family, pp.1–2 and 5; late descendant tradition]; [https://en.wikisource.org/wiki/Page:Annals_of_Augusta_County.djvu/21 Waddell, Annals of Augusta County, 1886 p.5 note 1; late blanket Ulster claim]; [https://archive.org/stream/annalsofaugustac00wadd/annalsofaugustac00wadd_djvu.txt Waddell, revised Annals, 1902 p.8; some survivors, neither Glasgow named]; [https://ulster-scots.com/wp-content/uploads/2023/11/USCN-Covenanters-in-Ulster-Tabloid.pdf Holden and Thompson, The Covenanters in Ulster, pp.6–7; modern secondary associate/route evidence]. These are derivative indexes, reviewed transcripts and later historical accounts; the adult identities remain uncertain.</ref>
+
+
+* The established identity on this profile is the child baptised at Polwarth on 4 April 1658. The Cavers Covenanter and ''Croune'' survivor is a same-name hypothesis, not an established identification.
+* The Cavers heading establishes a parish association. It does not establish William's birthplace, exact residence or later home.
+* For the Cavers same-name man, the Ulster hypothesis is now assessed as '''plausible rather than merely possible'''.
+** Waddell's 1886 statement directly includes William among survivors said to have reached northern Ireland.<ref name="Waddell1886" />
+** Waddell's 1902 revision narrows the claim and omits both Glasgows, but expressly lists only "some" survivors.<ref name="Waddell1902" />
+** Close preserves a nine-survivor tradition derived through Robert B. Miller.<ref name="AyrshireUlster" />
+** A probable member of William's exact Cavers survivor group, James Young, is repeatedly named among those who fled to Ulster.<ref name="UlsterSurvivors" />
+** None of these sources is contemporary evidence of William's own arrival or settlement.
+* The 1658 Polwarth baptism is the sourced identity for this profile. It remains only a candidate for the Cavers man because the chronology fits and another adult Glasgow household can be documented in the same district.
+** No record connects the Polwarth child with Cavers, Bothwell Bridge, [[Glasgow-1498|John Glasgow]] or the wreck.
+** The father named in the index is simply William Glasgow. The index does not identify him with [[Glasgow-2462|William Glasgow]] of Inveresk.
+** [[Glasgow-3107|James Glasgow]] of Polwarth/Gordon is a stronger local kinship lead than the unattached Inveresk theory, but no relationship has been proved.
+* The current attachments of [[Glasgow-3370|Isabell Glasgow]] and [[Glasgow-3587|William Glasgow]] as William's children are not established by their indexed records. Those entries prove later Glasgow activity at Cavers, not parentage.
+* The attached father and children are retained as uncertain relationship hypotheses pending an original record or other evidence that bridges the identities.
+* [[Glasgow-1498|John Glasgow]] was another Cavers survivor, but the prisoner list states no relationship between John and William.
+* Cavers and Hawick were separate adjoining parishes in Roxburghshire. Polwarth and Gordon were separate parishes in Berwickshire.<ref name="Places">Scotland's People place and record pages: [https://www.scotlandspeople.gov.uk/place-page/Cavers/GAZ00352/- Cavers]; [https://www.scotlandspeople.gov.uk/place-page/Hawick/GAZ00597/REX01605 Hawick]; [https://www.scotlandspeople.gov.uk/virtual-volumes/volume-images/volume_data-OS1-29-14/REX01692 Hawick parish description, identifying Cavers on its eastern boundary]; and [https://www.scotlandspeople.gov.uk/place-page/Polwarth/GAZ00924/REX00785 Polwarth].</ref>
+* The earlier description of Cavers as the same place as Hawick or as part of the Polwarth/Duns locality should not be retained.
+
+=== Research completed for this revision ===
+
+* '''Profile and record audit'''
+** All mapped records for [[Glasgow-1605|William Glasgow]], his currently attached relatives and the relevant same-name Scottish and Irish candidates were compared.
+** No source-backed parent, spouse or child relationship was found for William.
+** No additional source-backed pre-1690 Glasgow occurrence at Cavers was identified beyond [[Glasgow-1498|John Glasgow]] and a William Glasgow in the prisoner list.
+
+* '''Ulster source chain'''
+** Waddell's 1886 first edition was checked against his 1902 revised edition.
+** The 1886 edition directly places the fifty survivors, including William, in northern Ireland; the 1902 edition materially narrows the statement.
+** Close's cited nine-survivor tradition was retained and traced to Robert B. Miller's deposited research.
+** Miller's 1993 archive dossier was located in the Orkney catalogue, but no digital images or transcript were available.<ref name="MillerDossier" />
+** The named survivor lists were compared with the Cavers group. James Young of Teviotdale is the strongest associate-level bridge.
+
+* '''Published Scottish testament indexes'''
+** The published Lauder commissary testament index was searched for Glasgow, Glasgo, Glascow, Glasco and Glassgow without finding a relevant entry.<ref name="LauderTestaments">Francis J. Grant, ed., ''The Commissariot Record of Lauder: Register of Testaments, 1561–1800'' (Edinburgh: Scottish Record Society). [https://archive.org/details/commissariotreco18laud Internet Archive]. Absence from a published index does not prove that no testament or related paper existed.</ref>
+** The available published Peebles testament material for 1681–1699 was also searched without finding a relevant Glasgow entry.<ref name="PeeblesTestaments">Scottish Record Society, published Peebles commissary testament material covering 1681–1699. [https://archive.org/details/scottishrecords10scot Internet Archive]. This is a limited chronological and jurisdictional search.</ref>
+** [[Glasgow-3912|William Glasgow]] of Quothquan was excluded because his testament was recorded before 1679.<ref name="QuothquanTestament" />
+
+* '''Irish probate index'''
+** Sir Arthur Vicars's index to Irish Prerogative wills was searched for William and surname variants. No William Glasgow was found.
+** The index does contain an Archibald Glasgow, clerk, associated with Rathmullan or Ramelton, County Donegal, in 1677. This confirms another pre-wreck Ulster occurrence but supplies no relationship to William.<ref name="IrishPrerogativeWills">Sir Arthur Vicars, ''Index to the Prerogative Wills of Ireland, 1536–1810'' (Dublin, 1897). [https://archive.org/download/indextoprerogati00vica/indextoprerogati00vica.pdf PDF]. The Prerogative index is not a complete index to local diocesan probate records.</ref>
+
+* '''Hearth-tax and archival identification'''
+** The relevant surviving Scottish hearth-tax rolls were identified as NRS E69/5/1 for Berwickshire, including Polwarth and Gordon, and E69/21/1 for Roxburghshire, including Cavers and Hawick.
+** Digital images of those rolls were not accessible in this review, so their contents have not been claimed or inferred.<ref name="HearthTax">National Records of Scotland, "Hearth Tax, 1691–1695." [https://www.nrscotland.gov.uk/learning-and-events/research-guides/taxation-records/?section=hearth-tax-1691-1695 Research guide]. FamilySearch catalogue, Scottish hearth-tax records. [https://www.familysearch.org/en/search/catalog/212753 Catalogue].</ref>
+** The surviving Polwarth kirk-session, Marchmont estate, Kerr of Cavers, Reformed Presbyterian and Kilwaughter estate collections were identified, but the relevant documents are not available as open digital images.
+
+=== Remaining Priority Research ===
+
+* '''Robert B. Miller's survivor dossier'''
+** Obtain a copy of the 1993 letter and enclosed survivor list from Orkney Library and Archive.<ref name="MillerDossier" />
+** Determine whether Miller included the Cavers William among the nine Ulster fugitives.
+** Record every source Miller supplied and establish whether Close, Holden/Thompson and Waddell depend on the same earlier account.
+** This is currently the single highest-value unresolved Ulster source.
+
+* '''Original Polwarth registers'''
+** Inspect and transcribe the original baptismal entries for [[Glasgow-3362|Elizabeth Glasgow]] on 17 August 1656 and William Glasgow on 4 April 1658.
+** Record the full wording, residence, occupation, mother's name, witnesses, sponsors and marginal notes.
+** Search immediately before and after both entries for additional children of the same father.
+** Inspect the original 1663 marriage of [[Glasgow-3107|James Glasgow]] and [[Watt-5185|Agnes Watt]] and the six Gordon baptisms.
+** Compare residences and witnesses to test whether James and the father William were relatives.
+
+* '''Polwarth kirk session and Marchmont estate'''
+** Search Polwarth kirk-session minutes, NRS CH2/721, which include minutes for 1652–1668, for Glasgow, Glasgo, Glascow, Glasco and Glassgow.<ref name="PolwarthSession">National Records of Scotland, CH2/721, Polwarth kirk-session records. [https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/browseTreeview.aspx?reference=CH2%2F721 Catalogue]. Scotland's People, Polwarth kirk-session record page. [https://www.scotlandspeople.gov.uk/place-page/Polwarth/GAZ00924/REX00785/REX00785 Record page].</ref>
+** Search the Hume of Polwarth and Earls of Marchmont papers for rentals, tacks, estate accounts, removals, testaments and lists of tenants.<ref name="Marchmont">National Records of Scotland, GD158, "Papers of the family of Hume of Polwarth, Earls of Marchmont." [https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD158 Catalogue].</ref>
+** These sources offer the best prospect of identifying the father of the 1656 and 1658 children or tracing the household out of Polwarth.
+
+* '''Scottish hearth-tax rolls'''
+** Inspect NRS E69/5/1 for Glasgow variants in Polwarth, Gordon and neighbouring Berwickshire parishes.
+** Inspect NRS E69/21/1 for Glasgow variants in Cavers, Hawick, Kirkton, Hobkirk, Stitchel and neighbouring Roxburghshire parishes.
+** A William or John Glasgow heading a household in 1691–1695 could distinguish continued Scottish residence from the Ulster hypothesis.<ref name="HearthTax" />
+
+* '''Original Cavers and Hawick registers'''
+** Inspect the original entries behind the 1692 Hawick baptism, the 1694 Cavers record and the 1709 Cavers marriage.
+** Establish whether the 1694 entry names parents, residence, occupation or witnesses.
+** Reconstruct every Glasgow household in Cavers, Hawick, Kirkton, Hobkirk and Stitchel from about 1650 to 1720.
+** Compare witnesses and residences rather than merging same-name men.
+** The surviving Cavers kirk-session minutes begin only in 1758 and cannot directly answer the 1679 question.<ref name="CaversSession">Scotland's People, "Cavers Church of Scotland kirk session." [https://www.scotlandspeople.gov.uk/place-page/Cavers/GAZ00352/-/REX01122 Record page].</ref>
+
+* '''Kerr of Cavers estate records'''
+** Search rentals, tacks, accounts, legal papers, correspondence and tenant lists in GD1/461.
+** Search the 1666–1669 cash book in GD1/78 for Glasgow variants and for the other Cavers prisoners.<ref name="KerrCavers">National Records of Scotland, GD1/461, "Papers of the Kerr Family of Cavers, 1561–1820." [https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/browseDetails.aspx?reference=GD1%2F461 Catalogue]; GD1/78, cash book of Sir Andrew Ker of Cavers, 1666–1669. [https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/browseDetails.aspx?reference=GD1%2F78 Catalogue].</ref>
+** Estate records may establish whether William or [[Glasgow-1498|John Glasgow]] was a tenant, servant or tradesman at Cavers before Bothwell.
+
+* '''Original Bothwell and transportation records'''
+** Search the Privy Council acts, decreets, warrants, petitions, bonds and transportation papers for Glasgow, Glasgo, Glascow, Glasco and Glassgow.
+** Search the Cavers William as part of the complete Cavers cluster: James Leydon, [[Glasgow-1498|John Glasgow]], John Greenshields, Richard Young, Samuel Douglas, James Young and James Hopkirk.
+** Search post-wreck petitions, indemnity records and forfeiture material for any survivor described by parish, occupation, relative or destination.<ref name="PrivyCouncilGuide">National Records of Scotland, "Privy Council Records." [https://www.nrscotland.gov.uk/learning-and-events/research-guides/privy-council-records/ Research guide].</ref>
+
+* '''Post-Revolution Covenanter records'''
+** Search the Reformed Presbyterian subscription rolls and related papers for 1689–1712 in NRS GD1/465.
+** Search William, [[Glasgow-1498|John Glasgow]], James Young and the remaining Cavers prisoners together.
+** A shared congregation, locality, witness or subscription entry could provide the missing post-wreck Scottish bridge.<ref name="CameronianRolls">National Records of Scotland, GD1/465, papers concerning the Reformed Presbyterian Church, 1689–1712, including Covenant subscription rolls. [https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/browseDetails.aspx?reference=GD1%2F465 Catalogue].</ref>
+
+* '''James Young and the Ulster survivor cluster'''
+** Establish whether James Young of Teviotdale was the James Young listed under Cavers.
+** Trace all ten people named by Waddell and Holden/Thompson in Presbyterian, land, probate, military and court records.
+** Identify their earliest Ulster locations, congregations, landlords and repeated associates.
+** Search for the Cavers William and [[Glasgow-1498|John Glasgow]] in the same localities and networks.
+** A cluster around one destination would materially strengthen the migration case even if William's own entry remains indirect.
+
+* '''Original east-Ulster records'''
+** Inspect the original 1669 County Antrim hearth roll, PRONI T/307/A, rather than relying solely on the modern transcription.
+** Search Connor diocesan probate material for every Glasgow/Glascho testator from about 1650 to 1730; the Prerogative index does not cover most local estates.
+** Search original Larne, Kilwaughter, Glenarm, Carrickfergus and Belfast Presbyterian material for admissions, removals, testimonials, marriages, baptisms, communion rolls and disciplinary cases.
+** Search the Agnew family's Kilwaughter estate papers, particularly GD154/505–534 for 1636–1712, for leases, rentals, accounts and correspondence naming the Glascho householders.<ref name="AgnewEstate">National Records of Scotland, GD154, "Papers of the Agnew Family of Lochnaw," including GD154/505–534 concerning the Irish estate at Kilwaughter, County Antrim, 1636–1712. [https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?di=y&k=Agnew+Estate&ko=a&reference=GD154&ro=s&st=1&tc=y&tl=n&tn=n&tp=n Catalogue].</ref>
+** A valid Ulster identification should require a Scottish parish of origin, named relative, fellow prisoner, repeated associate, occupation or migration record. Surname and Presbyterian affiliation alone are insufficient.
 
 == Sources ==
-
 <references />
-```
-
-Sources: cited FamilySearch index, Thomson prisoner list and FreeREG records.
-Confidence: high for the Polwarth baptism; low for every proposed same-name
-identity or relationship beyond the unnamed father William.
-
-## Suggested corrections
-
-- Detach Glasgow-2462 as father.
-- Detach Glasgow-3370 and Glasgow-3587 as children.
-- Do not merge with Glasgow-591 or Glasgow-2731.
-
-Edit summary: `Separate the Polwarth baptism from the unproved Cavers identity
-and detach relationships not established by the cited records.`
-
-## Do not add as fact
-
-- That the Polwarth child was the Cavers prisoner, the Irish ancestor, the 1694
-  father, or the 1709 groom.

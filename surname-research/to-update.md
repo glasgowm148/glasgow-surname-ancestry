@@ -1693,3 +1693,11 @@ The August completion entries remain historical. The live parent fields are now 
 | [John Glasgow, father of the 1687 George](https://www.wikitree.com/wiki/Glasgow-1057) | OPEN | Review the selected uncertain Calder/Irvine parents and retained child/adult and co-parent alternatives; preserve all existing source dates and earlier amendments. |
 | [Agnes Spark](https://www.wikitree.com/wiki/Spark-330) | OPEN | Review the selected uncertain Calder/Irvine parents and retained child/adult and co-parent alternatives; preserve all existing source dates and earlier amendments. |
 | [George Glasgow, 1687 child and Kilwinning family account](https://www.wikitree.com/wiki/Glasgow-1058) | OPEN | Review the selected uncertain Calder/Irvine parents and retained child/adult and co-parent alternatives; preserve all existing source dates and earlier amendments. |
+
+
+## Conditional Polwarth–Cavers–Ulster family — 16 October 2026
+
+| [William Glasgow, traditional Ulster ancestor](https://www.wikitree.com/wiki/Glasgow-591) | OPEN | Review the very uncertain William father model through possible Polwarth/Cavers/Ulster identity; preserve young-father objections, migration traditions and competing Scottish identities. |
+| [William Glasgow, Cavers Covenanter](https://www.wikitree.com/wiki/Glasgow-4138) | OPEN | Review the very uncertain William father model through possible Polwarth/Cavers/Ulster identity; preserve young-father objections, migration traditions and competing Scottish identities. |
+| [William Glasgow, Polwarth child of 1658](https://www.wikitree.com/wiki/Glasgow-1605) | OPEN | Review the very uncertain William father model through possible Polwarth/Cavers/Ulster identity; preserve young-father objections, migration traditions and competing Scottish identities. |
+| [William Glasgow, Inveresk child of 1639](https://www.wikitree.com/wiki/Glasgow-2462) | OPEN | Review the very uncertain William father model through possible Polwarth/Cavers/Ulster identity; preserve young-father objections, migration traditions and competing Scottish identities. |

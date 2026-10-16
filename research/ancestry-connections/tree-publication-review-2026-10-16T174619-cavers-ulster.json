@@ -1,0 +1,100 @@
+{
+  "reviewed": "2026-10-16",
+  "cutoff": 1850,
+  "method_version": 3,
+  "input_fingerprint": "ffb46758a7a6ed83058052c1d6c9c2d20062d0fbbcb997f17cc0827476bf4fad",
+  "scope": "William Glasgow: a conditional Polwarth–Cavers–Ulster family",
+  "genealogical_connections_added": 2,
+  "paternal_connections_added": 2,
+  "maternal_connections_added": 0,
+  "certainty_upgrades": 0,
+  "working_fathers": 44,
+  "working_mothers": 6,
+  "models": {
+    "standalone": {
+      "checked_historical_profiles": 1777,
+      "matched_paternal_edges": 1341,
+      "changed_father_fields": 2,
+      "added_historical_profiles": [],
+      "unresolved_father_cases": [
+        "Glasgow-1367",
+        "Glasgow-2908",
+        "Glasgow-3902",
+        "Glasgow-3904",
+        "Glasgow-867",
+        "Glasgow-951"
+      ],
+      "effective_father_field_audit": {
+        "public_father_fields_checked": 1777,
+        "empty_father_fields_checked": 428,
+        "documentary_overlay_profiles_checked_separately": 0,
+        "unselected_competing_fathers_held": [
+          "Glasgow-1367",
+          "Glasgow-2908",
+          "Glasgow-3902",
+          "Glasgow-3904",
+          "Glasgow-867",
+          "Glasgow-951"
+        ],
+        "confident_flag_among_held_alternatives": [
+          "Glasgow-867"
+        ],
+        "differences": []
+      }
+    },
+    "main": {
+      "checked_historical_profiles": 1777,
+      "matched_paternal_edges": 1341,
+      "changed_father_fields": 2,
+      "added_historical_profiles": [],
+      "unresolved_father_cases": [
+        "Glasgow-1367",
+        "Glasgow-2908",
+        "Glasgow-3902",
+        "Glasgow-3904",
+        "Glasgow-867",
+        "Glasgow-951"
+      ],
+      "effective_father_field_audit": {
+        "public_father_fields_checked": 1777,
+        "empty_father_fields_checked": 428,
+        "documentary_overlay_profiles_checked_separately": 0,
+        "unselected_competing_fathers_held": [
+          "Glasgow-1367",
+          "Glasgow-2908",
+          "Glasgow-3902",
+          "Glasgow-3904",
+          "Glasgow-867",
+          "Glasgow-951"
+        ],
+        "confident_flag_among_held_alternatives": [
+          "Glasgow-867"
+        ],
+        "differences": []
+      }
+    }
+  },
+  "publication_summary": "Both viewers place the Cavers and traditional Ulster William accounts under William-2462 through possible identity with the Polwarth child. Both new fathers are very uncertain and share the unproved child/adult and named-father identity premises. The young Inveresk father, distinct parishes, late migration traditions and competing later Scottish identities remain explicit. No mother, merge or confidently marked relationship is added. The largest working family through 1850 grows from 906 to 952 retained profiles, including possible duplicates; this is model connectivity, not a proved pedigree. Existing public vitals and confident metrics remain unchanged. A field-by-field audit also matches all 1,777 effective historical father fields in both viewers, including 428 empty or unresolved fields, under the existing excluded/competing-parent policy. Next review: six profiles with competing father candidates.",
+  "comparison": "/branches/early-scottish-records/#polwarth-cavers-ulster-working-family",
+  "next_metric_check": {
+    "status": "RESOLVED",
+    "saved_confident_tree_flags_not_used_by_current_metric": 0,
+    "review": "/data/ancestry-confidence-method-review.json",
+    "scope": "Resolved status-fallback review for eligible unique fathers; multiple-father cases remain separately open."
+  },
+  "unresolved_parentage_review": {
+    "status": "OPEN",
+    "case_ids": [
+      "Glasgow-1367",
+      "Glasgow-2908",
+      "Glasgow-3902",
+      "Glasgow-3904",
+      "Glasgow-867",
+      "Glasgow-951"
+    ],
+    "confident_flag_among_competing_candidates": [
+      "Glasgow-867"
+    ],
+    "scope": "Six pre-existing multiple-father cases. Raw candidates remain in the person accounts; no arbitrary father is selected by this batch. Review candidate identities and source chronology next."
+  }
+}

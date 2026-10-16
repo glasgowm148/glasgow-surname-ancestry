@@ -27374,6 +27374,84 @@
         "research/relationship_assessments.json",
         "research/ancestry-connections/calder-irvine-working-family-preservation-2026-10-16.json"
       ]
+    },
+    {
+      "id": "polwarth-cavers-ulster-working-family-2026-10-16",
+      "found_on": "2026-10-16",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Selected the existing Polwarth–Cavers–Ulster William comparison as a conditional family: the Cavers and traditional Ulster adult accounts receive the Polwarth child’s existing uncertain father Glasgow-2462. Both additions remain very uncertain; no identity merge or confident upgrade.",
+      "qualification": "Two very uncertain local father hypotheses are selected from existing research; no new original inspection, certain relationship, identity merge or live WikiTree save. Existing child/adult records, vital fields, attached relatives and their grades remain unchanged. Connectivity counts retained profile accounts, including possible duplicates, and describes the selected model rather than a proved pedigree. The weakest stage is the proposed father’s identity. Glasgow-2462 was born at Inveresk on 20 August 1639 and baptised the next day. He would have been only 18 at the 1658 Polwarth baptism and 16, nearly 17, at the associated Elizabeth baptism in August 1656. Young fatherhood is possible, but there is no marriage, residence or occupation connecting him with the named Polwarth father. An older, otherwise unidentified William is a substantial competing explanation. The named-child clause does not prove Glasgow-2462’s identity. The regional Polwarth/Gordon household of Glasgow-3107 is a stronger local kinship lead than Inveresk alone, but supplies no father clause for William; no exact brother, uncle or father relationship with James is selected. This inherited father remains a very low-confidence default and would fall away on both new adult accounts if the child/father identification fails. No mother is selected for either adult, and no wife or mother is transferred from the Inveresk ancestry. The Polwarth child could be a different man from the Cavers Covenanter, and the Covenanter could be different from the late family history’s William. The Hawick father Glasgow-2731 in 1692 and Cavers groom Glasgow-3587 in 1708/09 remain competing later identities for the Covenanter; neither is newly equated with him. The attached Glasgow-3370 entry in 1694 does not independently establish the Polwarth man as her father. If later Scottish records identify the Covenanter continuously there, the family history’s permanent Irish settlement would need reconsideration. Other Scottish William candidates and the possibility that the late ancestor account is mistaken remain open. A missing contemporary Irish bridge is not an exclusion, but the combined identification is especially uncertain. No surname or Y-DNA grouping supplies these missing generations.",
+      "relationship_change_count": 2,
+      "people": [
+        {
+          "id": "Glasgow-591",
+          "name": "William Glasgow, traditional Ulster ancestor",
+          "url": "/people/glasgow-591.html"
+        },
+        {
+          "id": "Glasgow-4138",
+          "name": "William Glasgow, Cavers Covenanter",
+          "url": "/people/glasgow-4138.html"
+        },
+        {
+          "id": "Glasgow-1605",
+          "name": "William Glasgow, Polwarth child of 1658",
+          "url": "/people/glasgow-1605.html"
+        },
+        {
+          "id": "Glasgow-2462",
+          "name": "William Glasgow, Inveresk child of 1639",
+          "url": "/people/glasgow-2462.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Polwarth William, 4 April 1658, father William: FamilySearch baptism index XTBH-RJS",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:XTBH-RJS"
+        },
+        {
+          "title": "Polwarth Elizabeth, 17 August 1656, father William: FamilySearch index XYL3-24Q",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:XYL3-24Q"
+        },
+        {
+          "title": "Inveresk William, born 20 August and baptised 21 August 1639, Thomas/Agnes: reviewed Findmypast transcript OPR 689/1",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4437421&tab=this"
+        },
+        {
+          "title": "Cavers William, examination June 1679, servant at Ormistoun: reviewed Findmypast transcript JC39/22",
+          "url": "https://www.findmypast.co.uk/transcript?id=GBPR%2FCOVENANT%2F028558&tab=this"
+        },
+        {
+          "title": "Ormistoun William, October 1684 servant list: reviewed Findmypast transcript PC8/8 and PC12/9A",
+          "url": "https://www.findmypast.co.uk/transcript?id=GBPR%2FCOVENANT%2F028560&tab=this"
+        },
+        {
+          "title": "A Cloud of Witnesses, 1714, banished-prisoner list pp.274–276; early derivative source",
+          "url": "https://archive.org/details/cloudofwitnesses00edin"
+        },
+        {
+          "title": "William Melanchthon Glasgow, History of the Glasgow Family, pp.1–2 and 5; late descendant tradition",
+          "url": "https://www.wikitree.com/photo/pdf/Glasgow-590"
+        },
+        {
+          "title": "Waddell, Annals of Augusta County, 1886 p.5 note 1; late blanket Ulster claim",
+          "url": "https://en.wikisource.org/wiki/Page:Annals_of_Augusta_County.djvu/21"
+        },
+        {
+          "title": "Waddell, revised Annals, 1902 p.8; some survivors, neither Glasgow named",
+          "url": "https://archive.org/stream/annalsofaugustac00wadd/annalsofaugustac00wadd_djvu.txt"
+        },
+        {
+          "title": "Holden and Thompson, The Covenanters in Ulster, pp.6–7; modern secondary associate/route evidence",
+          "url": "https://ulster-scots.com/wp-content/uploads/2023/11/USCN-Covenanters-in-Ulster-Tabloid.pdf"
+        }
+      ],
+      "detail_url": "/branches/early-scottish-records/#polwarth-cavers-ulster-working-family",
+      "provenance": [
+        "research/relationship_assessments.json",
+        "research/ancestry-connections/polwarth-cavers-ulster-working-family-preservation-2026-10-16.json"
+      ]
     }
   ]
 }
