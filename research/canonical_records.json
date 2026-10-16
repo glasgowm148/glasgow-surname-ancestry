@@ -2083,5 +2083,40 @@
         "role": "baptised child"
       }
     }
+  },
+  {
+    "record_id": "linlithgow-george-1622-comparison",
+    "association": "George in the Linlithgow John household",
+    "date": "20 January 1622",
+    "year": 1622,
+    "place": "Linlithgow, Scotland",
+    "source_title": "George, Linlithgow, 20 January 1622; existing child-profile index citation",
+    "source_url": "https://familysearch.org/ark:/61903/1:1:X1RN-XVQ",
+    "status": "Existing index review",
+    "note": "Recorded father John; the original page and XVQ/XV7 reference difference need comparison. No Campbeltown adult identity or mother established.",
+    "profiles": {
+      "Glasgow-1560": {
+        "role": "indexed child"
+      },
+      "Glasgow-1561": {
+        "role": "father in existing household review"
+      }
+    }
+  },
+  {
+    "record_id": "campbeltown-agnes-profile-household",
+    "association": "Agnes Glasgow and the Campbeltown Longwill household",
+    "date": "1670 marriage-year field; 1683 child field",
+    "year": 1670,
+    "place": "Campbeltown, from captured profile fields",
+    "source_title": "Agnes Glasgow-1562, captured historical profile and family fields; underlying citation unresolved",
+    "source_url": "https://www.wikitree.com/wiki/Glasgow-1562",
+    "status": "Profile-held lead only",
+    "note": "The saved profile lists spouse James Longwill and child James dated 8 August 1683, with only a generic Scotland’s People citation. These are not newly verified parish events, and no father or mother for Agnes is supplied.",
+    "profiles": {
+      "Glasgow-1562": {
+        "role": "profile-held wife/mother"
+      }
+    }
   }
 ]

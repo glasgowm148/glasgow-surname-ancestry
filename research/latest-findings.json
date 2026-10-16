@@ -26415,6 +26415,79 @@
         "research/relationship_assessments.json",
         "research/ancestry-connections/larne-working-family-preservation-2026-10-16.json"
       ]
+    },
+    {
+      "id": "campbeltown-working-family-2026-10-16",
+      "found_on": "2026-10-16",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Campbeltown George is placed tentatively under John of Linlithgow through the1622 child comparison; Agnes is selected as George’s uncertain daughter.",
+      "qualification": "George-1560 and George-3100 remain separate profile accounts of a possible single man; shared proposed parentage does not prove two distinct sons called George or an identity merge. The 1605 and 1627 childhood candidates remain viable, and the list is not exhaustive. A separate unrecorded childhood is possible. The illustrative ages assume baptism near birth. George-3100’s 1630 structured and 1640 narrative births are unsupported estimates; neither is silently replaced by a proved 1622 birth. The existing John review cites X1RN-XV7 whereas the child profile cites X1RN-XVQ; retain that reference difference for original-register comparison, without treating the citations as independent events. James-1496’s father link to George is inherited and unproved; its name pattern supplies no independent corroboration for the chosen childhood. Agnes’s 1670 marriage field does not establish her age. No birth year is altered to force a generation. Assess mothers separately. No mother is supplied for the 1622 child in this review and none is selected for the Campbeltown adult. Grizel Dunlop-3562 is already the confidently marked mother of Alexander-3101 in the 1659 event, but that does not establish her maternity of Agnes or James. Her circa-1640 birth is also an unsupported estimate. Neither James nor Agnes receives a mother. The FMP 13 April 1659 birth-date field and Scotland’s People 12 April index date remain literal alternatives; the original entry and reference conventions are unresolved. The Auchinhork residence reading is not assigned a guessed modern place. John-1561’s own Andrew-of-Calder father and his other childhood-to-adult comparisons remain uncertain. No new original inspection, confident relationship upgrade, live WikiTree edit or identity merge is claimed. Connectivity counts profile accounts and retains the possible duplicate.",
+      "relationship_change_count": 2,
+      "people": [
+        {
+          "id": "Glasgow-3100",
+          "name": "George Glasgow of Campbeltown",
+          "url": "/people/glasgow-3100.html"
+        },
+        {
+          "id": "Glasgow-1561",
+          "name": "John Glasgow of Linlithgow",
+          "url": "/people/glasgow-1561.html"
+        },
+        {
+          "id": "Glasgow-1560",
+          "name": "George Glasgow, indexed in 1622",
+          "url": "/people/glasgow-1560.html"
+        },
+        {
+          "id": "Glasgow-1562",
+          "name": "Agnes Glasgow",
+          "url": "/people/glasgow-1562.html"
+        },
+        {
+          "id": "Glasgow-1496",
+          "name": "James Glasgow of Campbeltown",
+          "url": "/people/glasgow-1496.html"
+        },
+        {
+          "id": "Glasgow-3101",
+          "name": "Alexander Glasgow, indexed in 1659",
+          "url": "/people/glasgow-3101.html"
+        },
+        {
+          "id": "Dunlop-3562",
+          "name": "Grizel Dunlop",
+          "url": "/people/dunlop-3562.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "George, Linlithgow, 20 January 1622; existing child-profile index citation",
+          "url": "https://familysearch.org/ark:/61903/1:1:X1RN-XVQ"
+        },
+        {
+          "title": "1659 Campbeltown transcript, Alexander, George and Grizel; literal 13 April birth field",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3017984&tab=this"
+        },
+        {
+          "title": "Agnes Glasgow-1562, captured historical profile and family fields; underlying citation unresolved",
+          "url": "https://www.wikitree.com/wiki/Glasgow-1562"
+        },
+        {
+          "title": "1605 Mid Calder George; retained alternative",
+          "url": "https://familysearch.org/ark:/61903/1:1:X1BK-1BW"
+        },
+        {
+          "title": "1627 Glasgow George; retained alternative",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:VQHK-3WY"
+        }
+      ],
+      "detail_url": "/branches/early-scottish-records/#campbeltown-working-family",
+      "provenance": [
+        "research/relationship_assessments.json",
+        "research/ancestry-connections/campbeltown-preservation-2026-10-16.json"
+      ]
     }
   ]
 }

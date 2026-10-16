@@ -1575,3 +1575,14 @@ The August completion entries remain historical. The live parent fields are now 
 | [Glasgow-1078](https://www.wikitree.com/wiki/Glasgow-1078) | OPEN | Review complete retained biography: two uncertain paternal joins and one independently assessed maternal join; retain possible duplicate accounts and previous pending amendments. |
 | [Glasgow-3172](https://www.wikitree.com/wiki/Glasgow-3172) | OPEN | Review complete retained biography: two uncertain paternal joins and one independently assessed maternal join; retain possible duplicate accounts and previous pending amendments. |
 | [Glasgow-3971](https://www.wikitree.com/wiki/Glasgow-3971) | OPEN | Review complete retained biography: two uncertain paternal joins and one independently assessed maternal join; retain possible duplicate accounts and previous pending amendments. |
+
+
+## Campbeltown working family —16 October2026
+
+| [George Glasgow of Campbeltown](https://www.wikitree.com/wiki/Glasgow-3100) | OPEN | Review complete biography: uncertain John→George→Agnes route, viable alternatives and independent mothers; retain prior pending record corrections. |
+| [John Glasgow of Linlithgow](https://www.wikitree.com/wiki/Glasgow-1561) | OPEN | Review complete biography: uncertain John→George→Agnes route, viable alternatives and independent mothers; retain prior pending record corrections. |
+| [George Glasgow, indexed in 1622](https://www.wikitree.com/wiki/Glasgow-1560) | OPEN | Review complete biography: uncertain John→George→Agnes route, viable alternatives and independent mothers; retain prior pending record corrections. |
+| [Agnes Glasgow](https://www.wikitree.com/wiki/Glasgow-1562) | OPEN | Review complete biography: uncertain John→George→Agnes route, viable alternatives and independent mothers; retain prior pending record corrections. |
+| [James Glasgow of Campbeltown](https://www.wikitree.com/wiki/Glasgow-1496) | OPEN | Review complete biography: uncertain John→George→Agnes route, viable alternatives and independent mothers; retain prior pending record corrections. |
+| [Alexander Glasgow, indexed in 1659](https://www.wikitree.com/wiki/Glasgow-3101) | OPEN | Review complete biography: uncertain John→George→Agnes route, viable alternatives and independent mothers; retain prior pending record corrections. |
+| [Grizel Dunlop](https://www.wikitree.com/wiki/Dunlop-3562) | OPEN | Review complete biography: uncertain John→George→Agnes route, viable alternatives and independent mothers; retain prior pending record corrections. |
