@@ -266,7 +266,7 @@ def refresh_catalogue_summaries(rows):
                 statistic.find("strong").string = f"{len(rows):,}"
         for link in soup.select('a[href*="needsUpdate"]'):
             label, count = link.find("strong"), link.find("span")
-            if label and count and plain(label) == "Needs updated on WikiTree":
+            if label and count and plain(label) in {"Needs updated on WikiTree", "WikiTree profiles to update"}:
                 count.string = f"{len(pending):,} profiles ranked by significance, with paste-ready or exact manual corrections"
         preview = soup.select_one(".wikitree-update-preview")
         if preview:

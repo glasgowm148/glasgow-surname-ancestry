@@ -1366,6 +1366,12 @@
       "reviewed_at": "2026-09-28",
       "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
       "live_wikitree_status": "confident"
+    },
+    "tree_family_restoration": {
+      "child": "Glasgow-1085",
+      "father": "Glasgow-1028",
+      "previously_confident": true,
+      "reason": "Synchronize the already saved28September2026 father grade into the retained main atlas; no new relationship or confidence upgrade."
     }
   },
   {
@@ -4722,6 +4728,55 @@
       "prior_assessment": "The craft/1618 comparison was retained as unproved; no father or mother selected on the 1652 adult account.",
       "basis": "Existing 1652 published register,1613 cordiner admission and 1618 baptism review.",
       "resolution_note": "One uncertain father and one separately assessed uncertain mother; direct child parentage remains distinct from uncertain adult identity."
+    }
+  },
+  {
+    "assertion_id": "C-working-20261016-issobell-mccaskie-father",
+    "people": [
+      "Glasgow-3185",
+      "Glasgow-1028"
+    ],
+    "profile_names": {
+      "Glasgow-3185": "Issobell Glasgow, McCaskie bride of 1632",
+      "Glasgow-1028": "David Glasgow of Mid Calder"
+    },
+    "status": "uncertain",
+    "hypothesis_status": "possible",
+    "working_selection": true,
+    "allow_new_relationship": true,
+    "publication_status": "approved",
+    "assessment_date": "2026-10-16",
+    "evidence_grade": "Low-confidence existing childhood comparison; name, locality and generation",
+    "claim": "Selected uncertain father for the 1632 McCaskie bride",
+    "basis": "Select David Glasgow-1028 as the uncertain working father of Issobell Glasgow-3185, the bride indexed with Robert McCaskie at St Cuthbert’s on 19 July 1632, through possible identity with David’s Mid Calder daughter Issobell Glasgow-1085, baptised on 3 May 1612. This adopts an existing comparison in the captured child profile, rather than inventing a new named parent from the marriage alone. Exact forename and surname, the compatible Lothian setting and an age of about twenty in 1632 if baptised near birth favour this childhood as a practical working choice. The child’s baptism names David, but neither it nor the marriage supplies the bridge between child and adult. Shared name and compatible chronology do not prove the identity. Prefer this young-adult explanation provisionally over an older widow or an unrecorded childhood, at low confidence.",
+    "limitations": "Retain Glasgow-1085 and Glasgow-3185 as separate profile accounts of a possible single woman; the selected parent does not establish two distinct daughters called Issobell. The father–daughter link is already confidently marked for the record-defined 1612 child; only the transfer to the 1632 bride is newly selected and uncertain. The marriage index names no father, age, birthplace, prior marital status or children. The 19 July date belongs to a combined banns/marriages index and is not newly verified as the ceremony date. The bride’s before-1612 birth boundary is an inferred profile estimate, not a birth record or an independently established exclusion of the May 1612 child. It is retained unchanged; no new birth date is entered to force the connection. The child’s 1642 Hardington, Somerset death fields remain an unsourced tree-held later-life lead in this review, not a verified fate or proof of migration. Even if correct, that later date alone would not exclude the 1632 marriage. The older Isobel Glasgow-3336, who represents Andrew’s testament-named daughter and is probably the William Symountoun bride of 1619 and mother of the 1620 child, remains a possible remarriage alternative. No death of Symountoun, remarriage record or continuing incompatible household was inspected; do not exclude her merely because she already has a spouse. An unrecorded Isobel remains possible and the candidate list is not exhaustive. No mother is named in the 1612 baptism review, so none is selected for the bride. David’s own selected Andrew-of-Calder father remains uncertain and supplies no independent corroboration. Existing relatives, dates and all confidently marked links are preserved. No identity merge, new original inspection, live WikiTree edit or confidence upgrade is claimed. Working connectivity counts the retained profile accounts, including possible duplicates.",
+    "source_ids": [
+      "st-cuthberts-issobell-mccaskie-1632",
+      "review-reference-c-father-audit-20260928-glasgow-1028-glasgow-1085"
+    ],
+    "model_note": "The McCaskie bride’s 1612 childhood identity is uncertain. Retain Glasgow-1085 and Glasgow-3185 as separate profile accounts of a possible single woman; the selected parent does not establish two distinct daughters called Issobell. The father–daughter link is already confidently marked for the record-defined 1612 child; only the transfer to the 1632 bride is newly selected and uncertain. The marriage index names no father, age, birthplace, prior marital status or children. The 19 July date belongs to a combined banns/marriages index and is not newly verified as the ceremony date. The bride’s before-1612 birth boundary is an inferred profile estimate, not a birth record or an independently established exclusion of the May 1612 child. It is retained unchanged; no new birth date is entered to force the connection. The child’s 1642 Hardington, Somerset death fields remain an unsourced tree-held later-life lead in this review, not a verified fate or proof of migration. Even if correct, that later date alone would not exclude the 1632 marriage. The older Isobel Glasgow-3336, who represents Andrew’s testament-named daughter and is probably the William Symountoun bride of 1619 and mother of the 1620 child, remains a possible remarriage alternative. No death of Symountoun, remarriage record or continuing incompatible household was inspected; do not exclude her merely because she already has a spouse. An unrecorded Isobel remains possible and the candidate list is not exhaustive. No mother is named in the 1612 baptism review, so none is selected for the bride. David’s own selected Andrew-of-Calder father remains uncertain and supplies no independent corroboration. Existing relatives, dates and all confidently marked links are preserved. No identity merge, new original inspection, live WikiTree edit or confidence upgrade is claimed. Working connectivity counts the retained profile accounts, including possible duplicates.",
+    "perspectives": {
+      "Glasgow-3185": {
+        "relationship": "father",
+        "status_label": "Uncertain father; selected childhood comparison",
+        "reason": "Select David Glasgow-1028 as the uncertain working father of Issobell Glasgow-3185, the bride indexed with Robert McCaskie at St Cuthbert’s on 19 July 1632, through possible identity with David’s Mid Calder daughter Issobell Glasgow-1085, baptised on 3 May 1612. This adopts an existing comparison in the captured child profile, rather than inventing a new named parent from the marriage alone. Exact forename and surname, the compatible Lothian setting and an age of about twenty in 1632 if baptised near birth favour this childhood as a practical working choice. The child’s baptism names David, but neither it nor the marriage supplies the bridge between child and adult. Shared name and compatible chronology do not prove the identity. Prefer this young-adult explanation provisionally over an older widow or an unrecorded childhood, at low confidence."
+      },
+      "Glasgow-1028": {
+        "relationship": "daughter",
+        "status_label": "Uncertain daughter; adult identity unproved",
+        "reason": "Select David Glasgow-1028 as the uncertain working father of Issobell Glasgow-3185, the bride indexed with Robert McCaskie at St Cuthbert’s on 19 July 1632, through possible identity with David’s Mid Calder daughter Issobell Glasgow-1085, baptised on 3 May 1612. This adopts an existing comparison in the captured child profile, rather than inventing a new named parent from the marriage alone. Exact forename and surname, the compatible Lothian setting and an age of about twenty in 1632 if baptised near birth favour this childhood as a practical working choice. The child’s baptism names David, but neither it nor the marriage supplies the bridge between child and adult. Shared name and compatible chronology do not prove the identity. Prefer this young-adult explanation provisionally over an older widow or an unrecorded childhood, at low confidence."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Issobell:1612 childhood,1632 marriage and surviving alternatives",
+        "href": "/branches/research-calder-testament-household/#issobell-mccaskie-family"
+      }
+    ],
+    "provenance": {
+      "prior_assessment": "The child profile explicitly retained the McCaskie bride as a comparison; no parent selected for the adult account.",
+      "basis": "Existing 1612 baptism review,1632 marriage index and captured profile comparison.",
+      "resolution_note": "One selected uncertain father for the adult; the child’s confident father is unchanged; no mother or merge."
     }
   }
 ]

@@ -1595,3 +1595,10 @@ The August completion entries remain historical. The live parent fields are now 
 | [Jonet Cunningham](https://www.wikitree.com/wiki/Cunningham-20923) | OPEN | Review complete additive biography: uncertain 1652 adult/1618 child identity and separately assessed parents; preserve Larne and Lorimer alternatives and prior amendments. |
 | [Robert Glasgow, baptised in 1618](https://www.wikitree.com/wiki/Glasgow-1078) | OPEN | Review complete additive biography: uncertain 1652 adult/1618 child identity and separately assessed parents; preserve Larne and Lorimer alternatives and prior amendments. |
 | [Robert Glaskow of Larne](https://www.wikitree.com/wiki/Glasgow-3970) | OPEN | Review complete additive biography: uncertain 1652 adult/1618 child identity and separately assessed parents; preserve Larne and Lorimer alternatives and prior amendments. |
+
+
+## Issobell McCaskie working family —16 October2026
+
+| [Issobell Glasgow, McCaskie bride of 1632](https://www.wikitree.com/wiki/Glasgow-3185) | OPEN | Review complete additive biography: uncertain 1612 child/1632 bride identity; father David uncertain for adult, child’s confident father preserved; no mother or merge. |
+| [David Glasgow of Mid Calder](https://www.wikitree.com/wiki/Glasgow-1028) | OPEN | Review complete additive biography: uncertain 1612 child/1632 bride identity; father David uncertain for adult, child’s confident father preserved; no mother or merge. |
+| [Issobell Glasgow, baptised in 1612](https://www.wikitree.com/wiki/Glasgow-1085) | OPEN | Review complete additive biography: uncertain 1612 child/1632 bride identity; father David uncertain for adult, child’s confident father preserved; no mother or merge. |

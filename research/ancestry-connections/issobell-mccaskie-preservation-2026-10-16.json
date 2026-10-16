@@ -1,0 +1,72 @@
+{
+  "reviewed": "2026-10-16",
+  "scope": "One uncertain adult father through an existing 1612/1632 identity comparison; no mother or merge",
+  "profiles": {
+    "Glasgow-3185": {
+      "current_sha256": "9c858ed8b188ffb7dfb2da4141a103f61c43f059b0cbd953b04efb2d0beb749b",
+      "proposed_sha256": "38805c2645f0513df36eb24ab99085e86ca76c40a988fd3caeebef09c8962598",
+      "all_substantive_passages_accounted_for": true,
+      "passages": [
+        "Every previous complete replacement/capture paragraph and source URL retained.",
+        "The existing 1612/1632 comparison becomes one uncertain adult father; the child’s confident father is unchanged.",
+        "Older widow and unrecorded childhood alternatives, unknown mother, profile estimates and all earlier pending amendments remain explicit."
+      ],
+      "source_urls_retained": [
+        "https://familysearch.org/ark:/61903/1:1:XY9T-2TP"
+      ]
+    },
+    "Glasgow-1028": {
+      "current_sha256": "ccabaae18cf5084e04241ac489c4e20a7f64ee909fad180bdc4a8a64cb0ea6a3",
+      "proposed_sha256": "32e712676798c1241c0733ddd6cb2a66c4a95428649d3de4c027464b0dac8a93",
+      "all_substantive_passages_accounted_for": true,
+      "passages": [
+        "Every previous complete replacement/capture paragraph and source URL retained.",
+        "The existing 1612/1632 comparison becomes one uncertain adult father; the child’s confident father is unchanged.",
+        "Older widow and unrecorded childhood alternatives, unknown mother, profile estimates and all earlier pending amendments remain explicit."
+      ],
+      "source_urls_retained": [
+        "https://archive.org/details/scottishrecordso01scotuoft/page/n117/mode/1up",
+        "https://familysearch.org/ark:/61903/1:1:X1BJ-22S",
+        "https://familysearch.org/ark:/61903/1:1:X1BJ-LR9"
+      ],
+      "previous_review_path": "research/ancestry-connections/working-joins-preservation-2026-10-15.json"
+    },
+    "Glasgow-1085": {
+      "current_sha256": "c29273048c3ffeb8d1e5b8a606114c0c7bdb135e24e07f97cf2108fe50ee31f0",
+      "proposed_sha256": "23af94b2f32d95ec4f5377beb49d6347d593fdc61a6639a6ac5dc0664bcbaafb",
+      "all_substantive_passages_accounted_for": true,
+      "passages": [
+        "Every previous complete replacement/capture paragraph and source URL retained.",
+        "The existing 1612/1632 comparison becomes one uncertain adult father; the child’s confident father is unchanged.",
+        "Older widow and unrecorded childhood alternatives, unknown mother, profile estimates and all earlier pending amendments remain explicit."
+      ],
+      "source_urls_retained": [
+        "https://familysearch.org/ark:/61903/2:3:M924-2Z7",
+        "https://www.scotlandspeople.gov.uk/"
+      ]
+    }
+  },
+  "previous_queue_entries": {
+    "Glasgow-3185": null,
+    "Glasgow-1028": {
+      "queued_at": "2026-10-15",
+      "significance": 85,
+      "summary": "Add Andrew Glasgow of Calder as the selected uncertain working father, with logic and alternatives; preserve current facts and sources. Local model, pending owner-reviewed WikiTree amendment.",
+      "manual_update": true,
+      "draft_path": "research/Glasgow-1028/Glasgow-1028.md",
+      "preservation_review_path": "research/ancestry-connections/working-joins-preservation-2026-10-15.json",
+      "reviewed_narrative_reduction": true,
+      "preserve_captured_detail": false,
+      "relationship_changes": [
+        {
+          "action": "add",
+          "relationship": "father",
+          "status": "uncertain",
+          "relative_id": "Glasgow-3163",
+          "assertion_id": "C-working-20261015-glasgow-1028-glasgow-3163"
+        }
+      ]
+    },
+    "Glasgow-1085": null
+  }
+}
