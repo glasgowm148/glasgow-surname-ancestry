@@ -29,6 +29,8 @@ def overlay_model(retained: dict, fresh: dict) -> dict:
     alternative_parents = set(fresh['meta'].get('workingParentAlternativeIds', []))
     prior_alternatives = set(result['meta'].get('workingParentAlternativeIds', []))
     family_parents |= alternative_parents | prior_alternatives
+    working_mothers = set(fresh['meta'].get('workingMotherIds', []))
+    family_parents |= working_mothers | set(result['meta'].get('workingMotherIds', []))
     for father in family_parents:
         if father not in incoming or father not in existing:
             continue
@@ -59,6 +61,8 @@ def overlay_model(retained: dict, fresh: dict) -> dict:
                           reviewedParentReplacementIds=sorted(reviewed),
                           reviewedFamilyRestorationIds=sorted(restored),
                           workingParentAlternativeIds=sorted(alternative_parents),
+                          workingMotherIds=sorted(working_mothers),
+                          maternalHypotheses=fresh['meta'].get('maternalHypotheses', 0),
                           parentRelationships=sum(len(p.get('parents', [])) for p in people),
                           workingOverlayIds=sorted(selected),
                           workingUpdated=fresh['meta']['date'],

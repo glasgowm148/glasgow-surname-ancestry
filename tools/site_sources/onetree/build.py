@@ -113,6 +113,9 @@ def apply_working_hypotheses(people: list[dict], assessments: list[dict], parent
     selected = []
     selected_children = set()
     for assessment in assessments:
+        roles = {p.get('relationship') for p in assessment.get('perspectives', {}).values()}
+        if 'mother' in roles and 'father' not in roles:
+            continue  # Maternal selections are validated separately below.
         if not (assessment.get("working_selection") is True
                 and assessment.get("publication_status") == "approved"
                 and assessment.get("status") == "uncertain"
@@ -193,6 +196,54 @@ def apply_working_hypotheses(people: list[dict], assessments: list[dict], parent
                          'inModel': True, 'status': 'uncertain', 'hypothesis': True,
                          'source': 'local_working_hypothesis', 'assertion_id': assessment.get('assertion_id'),
                          'reason': assessment.get('basis') or ''})
+    return len(selected)
+
+
+def apply_working_mothers(people: list[dict], assessments: list[dict]) -> int:
+    """Carry independently selected maternal claims beside a working father."""
+    by_id = {p['id']: p for p in people}
+    selected = []
+    children = set()
+    for a in assessments:
+        pairs = [(child, mother) for child, view in a.get('perspectives', {}).items()
+                 if view.get('relationship') == 'mother'
+                 for mother in a.get('people', []) if mother != child]
+        if not pairs or not a.get('working_selection') or a.get('publication_status') != 'approved':
+            continue
+        if len(pairs) != 1 or a.get('status') != 'uncertain' or not a.get('allow_new_relationship') or not a.get('source_ids') or not a.get('basis'):
+            raise ValueError('Working mother needs one approved uncertain sourced claim')
+        child, mother = pairs[0]
+        if child not in by_id or mother not in by_id or child in children:
+            raise ValueError('Working mother needs unique public family members')
+        parents = by_id[child].get('parents', [])
+        if any(r.get('role') == 'mother' for r in parents) or not any(r.get('role') == 'father' and r.get('hypothesis') for r in parents):
+            raise ValueError('Working mother needs an empty maternal field beside a selected father')
+        children.add(child)
+        selected.append((child, mother, a))
+    proposed = {child: mother for child, mother, _ in selected}
+    for child, mother, _ in selected:
+        pending, seen = [mother], set()
+        while pending:
+            node = pending.pop()
+            if node == child:
+                raise ValueError('Working mother introduces an ancestry cycle')
+            if node in seen:
+                continue
+            seen.add(node)
+            pending.extend(r.get('id') for r in by_id.get(node, {}).get('parents', []) if r.get('id'))
+            if node in proposed:
+                pending.append(proposed[node])
+    # Validate all choices before changing either side of the family.
+    for child, mother, a in selected:
+        by_id[child]['parents'].append(dict(id=mother, name=by_id[mother]['name'], role='mother', status='uncertain',
+            inModel=True, reason=a['basis'], source='local_working_hypothesis', assertion_id=a['assertion_id'],
+            analysis_links=a.get('analysis_links') or [], hypothesis=True))
+        rows = by_id[mother].setdefault('childrenRecorded', [])
+        previous = next((r for r in rows if r.get('id') == child), {})
+        rows[:] = [r for r in rows if r.get('id') != child]
+        rows.append(dict(previous, id=child, name=by_id[child]['name'], role='child', inModel=True,
+            status='uncertain', hypothesis=True, source='local_working_hypothesis',
+            assertion_id=a['assertion_id'], reason=a['basis']))
     return len(selected)
 
 
@@ -359,6 +410,7 @@ def generate_model(catalogue_path: Path, prior: dict) -> dict:
     restored_family_ids = apply_recorded_family_restorations(people, assessments)
     reviewed_parent_ids = apply_reviewed_parent_replacements(people, assessments)
     hypotheses = apply_working_hypotheses(people, assessments, parent_aliases)
+    maternal_hypotheses = apply_working_mothers(people, assessments)
 
     # One real parent drives the drawing. Both remain in the relationship list.
     chosen: dict[str, dict] = {}
@@ -489,6 +541,8 @@ def generate_model(catalogue_path: Path, prior: dict) -> dict:
             "reviewedParentReplacementIds": reviewed_parent_ids,
             "reviewedFamilyRestorationIds": restored_family_ids,
             "workingParentAlternativeIds": sorted({r['id'] for p in people for r in p.get('priorWorkingParents', [])}),
+            "workingMotherIds": sorted({r['id'] for p in people for r in p.get('parents', []) if r.get('role') == 'mother' and r.get('hypothesis')}),
+            "maternalHypotheses": maternal_hypotheses,
             "method": "Current family fields come from the public catalogue, alongside named documentary ancestors with complete sourced accounts. Documentary record periods are not birth dates. Selected working hypotheses remain marked uncertain and counted separately. One parent drives the drawing; collection nodes do not assert common ancestry.",
             "sources": [{"title": "Glasgow research catalogue", "url": "https://glasgow.phenotype.dev/"}, {"title": "Public catalogue people data", "url": "https://glasgow.phenotype.dev/data/people.json"}, {"title": "Public Y-DNA explorer", "url": "https://glasgow.phenotype.dev/ydna/"}],
             "sourceExports": [path.name for path in exports], "catalogueGenerated": payload.get("generated", ""),

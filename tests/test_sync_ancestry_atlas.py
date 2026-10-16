@@ -6,6 +6,26 @@ from tools.sync_ancestry_atlas import overlay_model
 
 
 class AtlasWorkingTests(unittest.TestCase):
+    def test_working_mother_is_reciprocal_and_can_be_withdrawn_independently(self):
+        old = {'meta': {}, 'landmarks': [], 'sections': [], 'people': [
+            {'id': '@root', 'kind': 'group'},
+            {'id': 'Child-1', 'kind': 'person', 'parents': [], 'edge': {'parent': '@root'}},
+            {'id': 'Father-1', 'kind': 'person', 'childrenRecorded': []},
+            {'id': 'Mother-1', 'kind': 'person', 'note': 'Approved account', 'childrenRecorded': [{'id': 'Other-1'}]}]}
+        fresh = deepcopy(old);fresh['meta'].update(date='2026-10-16', workingMotherIds=['Mother-1'], maternalHypotheses=1)
+        fresh['people'][1].update(parents=[{'id': 'Father-1', 'role': 'father'}, {'id': 'Mother-1', 'role': 'mother'}],
+                                  edge={'parent': 'Father-1', 'type': 'hypothesis'})
+        fresh['people'][2]['childrenRecorded'] = [{'id': 'Child-1'}]
+        fresh['people'][3]['childrenRecorded'].append({'id': 'Child-1', 'status': 'uncertain'})
+        result = overlay_model(old, fresh)
+        self.assertEqual(result['people'][3]['note'], 'Approved account')
+        self.assertEqual(result['people'][3]['childrenRecorded'], fresh['people'][3]['childrenRecorded'])
+        fresh['meta'].update(workingMotherIds=[], maternalHypotheses=0)
+        fresh['people'][1]['parents'].pop();fresh['people'][3]['childrenRecorded'].pop()
+        reverted = overlay_model(result, fresh)
+        self.assertEqual(reverted['people'][3]['childrenRecorded'], [{'id': 'Other-1'}])
+        self.assertEqual(reverted['people'][1]['parents'], [{'id': 'Father-1', 'role': 'father'}])
+
     def test_selected_replacement_preserves_parent_accounts_and_reverts(self):
         old={'meta':{},'landmarks':[],'sections':[],'people':[
             {'id':'@root','kind':'group'},

@@ -1,6 +1,6 @@
 import unittest
 
-from tools.site_sources.onetree.build import apply_working_hypotheses, apply_recorded_family_restorations
+from tools.site_sources.onetree.build import apply_working_hypotheses, apply_working_mothers, apply_recorded_family_restorations
 
 
 def people(*ids):
@@ -14,6 +14,31 @@ def assessment(child, father, **extra):
 
 
 class WorkingHypothesisTests(unittest.TestCase):
+    def test_maternal_selection_preserves_the_father_and_reciprocal_children(self):
+        model = people('Child-1', 'Father-1', 'Mother-1')
+        apply_working_hypotheses(model, [assessment('Child-1', 'Father-1')])
+        model[2]['childrenRecorded'] = [{'id': 'Other-1'}]
+        a = assessment('Child-1', 'Mother-1', source_ids=['S-1'], people=['Child-1', 'Mother-1'])
+        a['perspectives']['Child-1']['relationship'] = 'mother'
+        self.assertEqual(apply_working_hypotheses(people('Child-1', 'Father-1', 'Mother-1'), [a]), 0)
+        self.assertEqual(apply_working_mothers(model, [a]), 1)
+        self.assertEqual([(r['role'], r['id']) for r in model[0]['parents']], [('father', 'Father-1'), ('mother', 'Mother-1')])
+        self.assertEqual([r['id'] for r in model[2]['childrenRecorded']], ['Other-1', 'Child-1'])
+        with self.assertRaisesRegex(ValueError, 'empty maternal field'):
+            apply_working_mothers(model, [a])
+
+    def test_maternal_selection_rejects_missing_sources_and_cycles(self):
+        model = people('Child-1', 'Father-1', 'Mother-1')
+        apply_working_hypotheses(model, [assessment('Child-1', 'Father-1')])
+        a = assessment('Child-1', 'Mother-1', people=['Child-1', 'Mother-1'])
+        a['perspectives']['Child-1']['relationship'] = 'mother'
+        with self.assertRaisesRegex(ValueError, 'sourced claim'):
+            apply_working_mothers(model, [a])
+        a['source_ids'] = ['S-1'];model[2]['parents'] = [{'id': 'Child-1', 'role': 'mother'}]
+        with self.assertRaisesRegex(ValueError, 'ancestry cycle'):
+            apply_working_mothers(model, [a])
+        self.assertEqual(len(model[0]['parents']), 1)
+
     def test_selected_parent_replacement_retains_alternative_and_mother(self):
         model = people('Child-1', 'Old-1', 'New-1', 'Mother-1')
         mother={'id':'Mother-1','role':'mother','status':'uncertain'}

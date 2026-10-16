@@ -1,21 +1,55 @@
-# WikiTree update notes: [Captain James Glasgow (Glasgow-3172), active 1667-1686, Belfast](https://www.wikitree.com/wiki/Glasgow-3172)
+{{Estimated Date}}
+[[Category:Glasgow Name Study]]
+== Biography ==
+'''James Glasgow'''—also recorded as '''James Glasco'''—was a mariner and shipmaster associated with Belfast, County Antrim, during the later seventeenth century. His origins, parentage, date of birth, wife, and children have not been identified.
 
-Record only sourced facts and corrections missing from the current WikiTree
-profile. Keep same-name identities and inferred relationships explicitly
-unproved.
+The available evidence places James in Belfast’s maritime community from at least 1667 until 1679. Although an estimated birth around 1600 has sometimes been assigned to him, no contemporary record supporting that date has been found. He was necessarily born before 1667 and was probably an adult by then.
 
-## Suggested additions
+On 29 October 1667, Belfast merchant George Macartney reported that Mr Arthur wished to ship butter from Belfast to Rouen but had been unable to obtain a vessel. Macartney therefore proposed sending the butter to Dublin aboard the ''Blessing'' of Saltcoats, of which James Glasgow was master.<ref>Public Record Office of Northern Ireland, MIC19/2, business correspondence of George Macartney, letter dated 29 October 1667.</ref> This record identifies James as the master of a Scottish vessel engaged in trade between Belfast and Dublin, with the cargo intended ultimately for France.
 
-| Fact missing from profile | Source | Confidence |
-| --- | --- | --- |
-| James was a Belfast-associated shipmaster/captain active in the surviving records from at least 1667. | PRONI `MIC19/2` | High. |
-| A will extract exists for James Glasgow of Belfast in 1686. | PRONI `T/828/15` | High for the occurrence; original needed for relationships. |
+On 21 January 1669/70, James was admitted and sworn as a free commoner of the Corporation of Belfast. The entry records him as:
 
-## Suggested corrections
+: “James Glasco Marriner Admitted and sworne a ffree Comoner”
 
-- Replace birth about 1600 with `before about 1646`, uncertain, based only on
-  adulthood by 1667. Do not assign Belfast as birthplace.
+A fee of ten shillings was entered beside his name.<ref>Robert Magill Young, ed., ''The Town Book of the Corporation of Belfast, 1613–1816'' (Belfast: Marcus Ward & Co., 1892), p. 271; entry dated 21 January 1669 [Old Style, equivalent to 21 January 1670 New Style].</ref>
 
-## Do not add as fact
+Admission as a free commoner gave James formal standing within the borough. The record is also direct contemporary evidence of his occupation and presence in Belfast.
 
-- Do not merge him with the 1669 Kilwaughter James without an identity bridge.
+James continued to work as a shipmaster during the following decade. On 8 November 1679, George Macartney recorded that he had freighted the ''James of Belfast'', commanded by James Glasgow, to carry butter and tallow to Havre de Grâce, now Le Havre, France.<ref>Public Record Office of Northern Ireland, MIC19/2, business correspondence of George Macartney, letter dated 8 November 1679.</ref> Macartney referred to the arrangement again that day in correspondence with Sir Joshua Allen concerning the payment of bills.<ref>Public Record Office of Northern Ireland, MIC19/2, business correspondence of George Macartney, letter from George Macartney to Sir Joshua Allen, dated 8 November 1679.</ref>
+
+These records show James commanding at least two vessels—the ''Blessing'' of Saltcoats in 1667 and the ''James of Belfast'' in 1679—and participating in trade linking Belfast with Dublin and French ports. The surviving evidence supports describing him as a mariner and shipmaster. It does not establish that he owned either vessel or that he held the title of captain in a military or naval sense.
+
+A testamentary reference for a James Glasgow of Belfast carries the year 1686 in the Connor will material.<ref>Public Record Office of Northern Ireland, T/828/15, Connor Will Extracts and pre-1858 wills index, entry for James Glasgow of Belfast, 1686.</ref> The original will has not been examined, and its contents are presently unknown. The close agreement of name, place, occupation period, and date makes it probable that the testamentary record relates to the mariner, but this identification should remain qualified until the extract or surviving copy is consulted.
+
+The year 1686 has not been established as his death or probate date: it may be the date of the will. His last dated lifetime record presently cited is the letter of 8 November 1679, so the death field is conservatively recorded as after that date. His place of death is also unproved. No reliable evidence has yet been found identifying his wife, children, parents, or descendants.
+
+== Research Notes ==
+=== Selected uncertain Larne family — 16 October 2026 ===
+
+Select Robert [[Glasgow-1027]] and Jonet [[Cunningham-20923]] as the uncertain working father and mother of Robert Glaskow of Larne, [[Glasgow-3970]], through the existing possible identity with their son Robert [[Glasgow-1078]], baptised at Glasgow on 17 November 1618. The 1653 Larne account gives no age or parents, and its before-1625 birth boundary permits the 1618 child; that child would have been about 23 during the alleged 1641 events and 35 in 1653. The Scottish child has no established later fate that excludes this adult account. Choose the already recorded possible identity as the working family explanation, at low confidence. The baptism names both parents, so the maternal selection is assessed from that same explicit child clause, not from a Cunningham surname association in Ulster. Both adult parent links depend on the uncertain identity and remain uncertain; the baptism’s direct parentage must not be transferred as proof of the Larne man’s origins.
+
+Select Robert of Larne-3970 as Captain James [[Glasgow-3172]]’s uncertain working father. This adopts the existing possible son-or-younger-relative comparison: Larne, Belfast and Kilwaughter form the north-east Antrim setting of the recorded Robert and later James, and an older Robert active in 1641–1653 can precede a shipmaster active by 1667. James commanded the Blessing of Saltcoats in the 1667 Macartney correspondence and the James of Belfast in 1679. These are compatible Scottish-west-coast/Antrim associations, not a parent clause. Son is selected over the unresolved younger-relative alternatives for one provisional paternal route; no mother is selected for James.
+
+Robert-1078 and Robert-3970 remain separate profile accounts of a possible single man; the selected parents do not establish two distinct Robert sons or an identity merge. No record joins the 1618 baptism to Larne, supplies the Larne man’s Scottish origin, or rules out another Robert. The 1666 John of Portrush shipmaster is a further possible identity, not an occupation proved for either Robert; the later Robert/Rachel household remains separate. James-3172, the Scottish child James-3971 of 1645, and the Kilwaughter James-1081 may be one, two or three men. All accounts remain; no identity among those James groups is selected. A child baptised in 1645 could have been a shipmaster aged about 22 in 1667, assuming infant baptism, but that is compatibility only. The father named in that 1645 record is not independently identified with the 1618 child. John-3913’s circa-1630 and Captain James’s circa-1640 births are inherited estimates, not dates that establish or exclude a generation. If John’s 1630 were literal and the Larne man were born in 1618, fatherhood at about twelve would be an important chronological objection; both the age estimate and John’s uncertain paternal attachment require testing. No birth year is changed to force the selected route. Captain James could instead be a nephew, other relative, unrelated namesake, or a member of the Saltcoats sailor John-4152’s family; the named Saltcoats vessel makes that a real competing route, not evidence that John was his father. The two women [[Cunningham-20923]] and [[Cunningham-22604]] are distinct: the elder is the named 1618 mother, the younger the named mother in the 1645 James record. Neither that younger maternity nor a marriage to her is transferred to the Larne adult or captain through these selections. The existing uncertain Kilwaughter father links remain uncertain; none becomes proved by joining their supposed ancestor to Scotland. The Larne allegations are hearsay, not a judicial finding of guilt, and the 1686 will reference is not a proved death date. No new original inspection, certainty upgrade, live WikiTree edit or identity merge is claimed. Connectivity counts profile accounts and does not resolve the possible duplicates. <ref>National Records of Scotland, Glasgow High Kirk OPR644/1, reported10/272, Robert baptism17November1618; Trinity College Dublin, MS838 fol.153r, Con O’Sheale examination21April1653, [https://1641dep.abdn.ac.uk/items/show/42821.html 1641 Depositions Project]; PRONI MIC19/2, Macartney letters29October1667 and8November1679; Young, [https://archive.org/details/townbookofcorpor00belf/page/271/mode/2up Town Book of Belfast, p.271]. Existing record reviews; these do not explicitly name the Larne man’s parents or the captain’s father.</ref>
+
+The maintained15October source sweep also reports James as master of the James of Donaghadie at Ayr on26August1667 and James of Belfast at Ayr on13October1673, probably this shipmaster. These are published port-book abstracts, not new original inspections.<ref>David Dobson, Scots-Irish Links, part4, p.36; NRS E71/3/2–3, as reported in the maintained source sweep. The literal vessel names and dates require original-book comparison.</ref>
+
+
+* The surname appears as both ''Glasgow'' and ''Glasco''.
+* The Corporation record uses Old Style dating. Its “21 January 1669” corresponds to 21 January 1670 under the modern calendar because the legal year then began on 25 March.
+* A birth around 1600 is not supported by the cited records. It would make James about sixty-seven when first recorded as a working shipmaster and about seventy-nine in 1679. This is possible but presently speculative.
+* Belfast should be treated as James’s place of residence or occupational association, not as a proved birthplace.
+* The 1686 will-index entry is probably his, but the identification is not conclusive without examining the will extract.
+* No evidence currently supports the claim that he left descendants or property in Belfast.
+
+=== Possible north-east Antrim placement ===
+Captain James is a possible son or younger relative of [[Glasgow-3970|Robert Glaskow of Larne]] and a possible collateral of the adjacent Kilwaughter householders [[Glasgow-3913|John Glasgow]] and [[Glasgow-1081|James Glascho]]. Belfast, Larne and Kilwaughter form a credible north-east Antrim maritime and estate corridor, and a shipmaster active by 1667 fits the generation after Robert's 1653 occurrence. The evidence is geographical and chronological only; no record states a relationship.<ref>Public Record Office of Northern Ireland, MIC19/2, maritime material naming Captain James Glasgow or Glascow as a Belfast-associated shipmaster in the late 1660s and 1670s.</ref>
+
+Captain James and the Kilwaughter James represented by [[Glasgow-1081]] are retained as separate, unproved identities. A will dated 1686 does not alone exclude survival to the 1720s. Conversely, the identification of the 1669 Kilwaughter householder with the later congregational officer is itself a continuity inference; an adult householder in 1669 surviving to 1726 would be at least about 78, and a same-name successor must be considered. The complete Belfast will extract and the Kilwaughter records are needed to decide this question.<ref>Public Record Office of Northern Ireland, T/828/15, will extract for James Glasgow of Belfast, 1686.</ref>
+
+== Sources ==
+<references />
+
+* Public Record Office of Northern Ireland, MIC19/2, business correspondence of George Macartney, merchant, 1672–1681, including related earlier material.
+* Public Record Office of Northern Ireland, T/828/15, Connor Will Extracts and pre-1858 wills index.
+* Young, Robert Magill, ed. ''The Town Book of the Corporation of Belfast, 1613–1816''. Belfast: Marcus Ward & Co., 1892, p. 271.

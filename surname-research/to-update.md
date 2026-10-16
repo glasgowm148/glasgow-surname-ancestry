@@ -1565,3 +1565,13 @@ The August completion entries remain historical. The live parent fields are now 
 | [Glasgow-3083](https://www.wikitree.com/wiki/Glasgow-3083) | OPEN | Review complete preserved biography: uncertain father John-1561 for adult Jean-3083; possible identity with Jean-3055, no merge or mother. Earlier John father amendment retained. |
 | [Glasgow-1561](https://www.wikitree.com/wiki/Glasgow-1561) | OPEN | Review complete preserved biography: uncertain father John-1561 for adult Jean-3083; possible identity with Jean-3055, no merge or mother. Earlier John father amendment retained. |
 | [Glasgow-3055](https://www.wikitree.com/wiki/Glasgow-3055) | OPEN | Review complete preserved biography: uncertain father John-1561 for adult Jean-3083; possible identity with Jean-3055, no merge or mother. Earlier John father amendment retained. |
+
+
+## Larne selected working family —16 October2026
+
+| [Glasgow-3970](https://www.wikitree.com/wiki/Glasgow-3970) | OPEN | Review complete retained biography: two uncertain paternal joins and one independently assessed maternal join; retain possible duplicate accounts and previous pending amendments. |
+| [Glasgow-1027](https://www.wikitree.com/wiki/Glasgow-1027) | OPEN | Review complete retained biography: two uncertain paternal joins and one independently assessed maternal join; retain possible duplicate accounts and previous pending amendments. |
+| [Cunningham-20923](https://www.wikitree.com/wiki/Cunningham-20923) | OPEN | Review complete retained biography: two uncertain paternal joins and one independently assessed maternal join; retain possible duplicate accounts and previous pending amendments. |
+| [Glasgow-1078](https://www.wikitree.com/wiki/Glasgow-1078) | OPEN | Review complete retained biography: two uncertain paternal joins and one independently assessed maternal join; retain possible duplicate accounts and previous pending amendments. |
+| [Glasgow-3172](https://www.wikitree.com/wiki/Glasgow-3172) | OPEN | Review complete retained biography: two uncertain paternal joins and one independently assessed maternal join; retain possible duplicate accounts and previous pending amendments. |
+| [Glasgow-3971](https://www.wikitree.com/wiki/Glasgow-3971) | OPEN | Review complete retained biography: two uncertain paternal joins and one independently assessed maternal join; retain possible duplicate accounts and previous pending amendments. |

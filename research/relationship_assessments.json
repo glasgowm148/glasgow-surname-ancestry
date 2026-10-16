@@ -4375,5 +4375,154 @@
       "basis": "Existing index citations and parish-profile comparison; no new record inspection.",
       "resolution_note": "Select one uncertain father for the adult account; retain both possible identity accounts and independent maternal uncertainty."
     }
+  },
+  {
+    "assertion_id": "C-working-20261016-larne-robert-father",
+    "people": [
+      "Glasgow-3970",
+      "Glasgow-1027"
+    ],
+    "status": "uncertain",
+    "hypothesis_status": "possible",
+    "working_selection": true,
+    "allow_new_relationship": true,
+    "publication_status": "approved",
+    "assessment_date": "2026-10-16",
+    "evidence_grade": "Low-confidence existing identity / locality and generation model",
+    "claim": "Selected uncertain father for Glasgow-3970",
+    "basis": "Select Robert Glasgow-1027 and Jonet Cunningham-20923 as the uncertain working father and mother of Robert Glaskow of Larne, Glasgow-3970, through the existing possible identity with their son Robert Glasgow-1078, baptised at Glasgow on 17 November 1618. The 1653 Larne account gives no age or parents, and its before-1625 birth boundary permits the 1618 child; that child would have been about 23 during the alleged 1641 events and 35 in 1653. The Scottish child has no established later fate that excludes this adult account. Choose the already recorded possible identity as the working family explanation, at low confidence. The baptism names both parents, so the maternal selection is assessed from that same explicit child clause, not from a Cunningham surname association in Ulster. Both adult parent links depend on the uncertain identity and remain uncertain; the baptism’s direct parentage must not be transferred as proof of the Larne man’s origins.",
+    "limitations": "Robert-1078 and Robert-3970 remain separate profile accounts of a possible single man; the selected parents do not establish two distinct Robert sons or an identity merge. No record joins the 1618 baptism to Larne, supplies the Larne man’s Scottish origin, or rules out another Robert. The 1666 John of Portrush shipmaster is a further possible identity, not an occupation proved for either Robert; the later Robert/Rachel household remains separate. James-3172, the Scottish child James-3971 of 1645, and the Kilwaughter James-1081 may be one, two or three men. All accounts remain; no identity among those James groups is selected. A child baptised in 1645 could have been a shipmaster aged about 22 in 1667, assuming infant baptism, but that is compatibility only. The father named in that 1645 record is not independently identified with the 1618 child. John-3913’s circa-1630 and Captain James’s circa-1640 births are inherited estimates, not dates that establish or exclude a generation. If John’s 1630 were literal and the Larne man were born in 1618, fatherhood at about twelve would be an important chronological objection; both the age estimate and John’s uncertain paternal attachment require testing. No birth year is changed to force the selected route. Captain James could instead be a nephew, other relative, unrelated namesake, or a member of the Saltcoats sailor John-4152’s family; the named Saltcoats vessel makes that a real competing route, not evidence that John was his father. The two women Cunningham-20923 and Cunningham-22604 are distinct: the elder is the named 1618 mother, the younger the named mother in the 1645 James record. Neither that younger maternity nor a marriage to her is transferred to the Larne adult or captain through these selections. The existing uncertain Kilwaughter father links remain uncertain; none becomes proved by joining their supposed ancestor to Scotland. The Larne allegations are hearsay, not a judicial finding of guilt, and the 1686 will reference is not a proved death date. No new original inspection, certainty upgrade, live WikiTree edit or identity merge is claimed. Connectivity counts profile accounts and does not resolve the possible duplicates.",
+    "source_ids": [
+      "glasgow-robert-baptism-1618-parents",
+      "larne-robert-examination-1653"
+    ],
+    "perspectives": {
+      "Glasgow-3970": {
+        "relationship": "father",
+        "status_label": "Uncertain father; selected working family",
+        "reason": "Select Robert Glasgow-1027 and Jonet Cunningham-20923 as the uncertain working father and mother of Robert Glaskow of Larne, Glasgow-3970, through the existing possible identity with their son Robert Glasgow-1078, baptised at Glasgow on 17 November 1618. The 1653 Larne account gives no age or parents, and its before-1625 birth boundary permits the 1618 child; that child would have been about 23 during the alleged 1641 events and 35 in 1653. The Scottish child has no established later fate that excludes this adult account. Choose the already recorded possible identity as the working family explanation, at low confidence. The baptism names both parents, so the maternal selection is assessed from that same explicit child clause, not from a Cunningham surname association in Ulster. Both adult parent links depend on the uncertain identity and remain uncertain; the baptism’s direct parentage must not be transferred as proof of the Larne man’s origins."
+      },
+      "Glasgow-1027": {
+        "relationship": "son",
+        "status_label": "Uncertain son; possible duplicate account",
+        "reason": "Select Robert Glasgow-1027 and Jonet Cunningham-20923 as the uncertain working father and mother of Robert Glaskow of Larne, Glasgow-3970, through the existing possible identity with their son Robert Glasgow-1078, baptised at Glasgow on 17 November 1618. The 1653 Larne account gives no age or parents, and its before-1625 birth boundary permits the 1618 child; that child would have been about 23 during the alleged 1641 events and 35 in 1653. The Scottish child has no established later fate that excludes this adult account. Choose the already recorded possible identity as the working family explanation, at low confidence. The baptism names both parents, so the maternal selection is assessed from that same explicit child clause, not from a Cunningham surname association in Ulster. Both adult parent links depend on the uncertain identity and remain uncertain; the baptism’s direct parentage must not be transferred as proof of the Larne man’s origins."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Larne working family: selected parents, James accounts and alternatives",
+        "href": "/branches/early-scottish-records/#larne-working-family"
+      }
+    ],
+    "provenance": {
+      "source": "research/relationship_assessments.json",
+      "prior_assessment": "Compatible identities and son/younger-relative comparisons recorded; no selected parent in the local graph.",
+      "basis": "Existing1618 baptism,1653 examination and1667–1679 maritime review.",
+      "resolution_note": "Uncertain selections, no identity merge or confident grade upgrade."
+    },
+    "model_note": "Larne family is a low-confidence working reconstruction. Robert-1078 and Robert-3970 remain separate profile accounts of a possible single man; the selected parents do not establish two distinct Robert sons or an identity merge. No record joins the 1618 baptism to Larne, supplies the Larne man’s Scottish origin, or rules out another Robert. The 1666 John of Portrush shipmaster is a further possible identity, not an occupation proved for either Robert; the later Robert/Rachel household remains separate. James-3172, the Scottish child James-3971 of 1645, and the Kilwaughter James-1081 may be one, two or three men. All accounts remain; no identity among those James groups is selected. A child baptised in 1645 could have been a shipmaster aged about 22 in 1667, assuming infant baptism, but that is compatibility only. The father named in that 1645 record is not independently identified with the 1618 child. John-3913’s circa-1630 and Captain James’s circa-1640 births are inherited estimates, not dates that establish or exclude a generation. If John’s 1630 were literal and the Larne man were born in 1618, fatherhood at about twelve would be an important chronological objection; both the age estimate and John’s uncertain paternal attachment require testing. No birth year is changed to force the selected route. Captain James could instead be a nephew, other relative, unrelated namesake, or a member of the Saltcoats sailor John-4152’s family; the named Saltcoats vessel makes that a real competing route, not evidence that John was his father. The two women Cunningham-20923 and Cunningham-22604 are distinct: the elder is the named 1618 mother, the younger the named mother in the 1645 James record. Neither that younger maternity nor a marriage to her is transferred to the Larne adult or captain through these selections. The existing uncertain Kilwaughter father links remain uncertain; none becomes proved by joining their supposed ancestor to Scotland. The Larne allegations are hearsay, not a judicial finding of guilt, and the 1686 will reference is not a proved death date. No new original inspection, certainty upgrade, live WikiTree edit or identity merge is claimed. Connectivity counts profile accounts and does not resolve the possible duplicates.",
+    "profile_names": {
+      "Glasgow-3970": "Robert Glaskow of Larne",
+      "Glasgow-1027": "Robert Glasgow, cordiner"
+    }
+  },
+  {
+    "assertion_id": "C-working-20261016-larne-robert-mother",
+    "people": [
+      "Glasgow-3970",
+      "Cunningham-20923"
+    ],
+    "status": "uncertain",
+    "hypothesis_status": "possible",
+    "working_selection": true,
+    "allow_new_relationship": true,
+    "publication_status": "approved",
+    "assessment_date": "2026-10-16",
+    "evidence_grade": "Low-confidence existing identity / locality and generation model",
+    "claim": "Selected uncertain mother for Glasgow-3970",
+    "basis": "Select Robert Glasgow-1027 and Jonet Cunningham-20923 as the uncertain working father and mother of Robert Glaskow of Larne, Glasgow-3970, through the existing possible identity with their son Robert Glasgow-1078, baptised at Glasgow on 17 November 1618. The 1653 Larne account gives no age or parents, and its before-1625 birth boundary permits the 1618 child; that child would have been about 23 during the alleged 1641 events and 35 in 1653. The Scottish child has no established later fate that excludes this adult account. Choose the already recorded possible identity as the working family explanation, at low confidence. The baptism names both parents, so the maternal selection is assessed from that same explicit child clause, not from a Cunningham surname association in Ulster. Both adult parent links depend on the uncertain identity and remain uncertain; the baptism’s direct parentage must not be transferred as proof of the Larne man’s origins.",
+    "limitations": "Robert-1078 and Robert-3970 remain separate profile accounts of a possible single man; the selected parents do not establish two distinct Robert sons or an identity merge. No record joins the 1618 baptism to Larne, supplies the Larne man’s Scottish origin, or rules out another Robert. The 1666 John of Portrush shipmaster is a further possible identity, not an occupation proved for either Robert; the later Robert/Rachel household remains separate. James-3172, the Scottish child James-3971 of 1645, and the Kilwaughter James-1081 may be one, two or three men. All accounts remain; no identity among those James groups is selected. A child baptised in 1645 could have been a shipmaster aged about 22 in 1667, assuming infant baptism, but that is compatibility only. The father named in that 1645 record is not independently identified with the 1618 child. John-3913’s circa-1630 and Captain James’s circa-1640 births are inherited estimates, not dates that establish or exclude a generation. If John’s 1630 were literal and the Larne man were born in 1618, fatherhood at about twelve would be an important chronological objection; both the age estimate and John’s uncertain paternal attachment require testing. No birth year is changed to force the selected route. Captain James could instead be a nephew, other relative, unrelated namesake, or a member of the Saltcoats sailor John-4152’s family; the named Saltcoats vessel makes that a real competing route, not evidence that John was his father. The two women Cunningham-20923 and Cunningham-22604 are distinct: the elder is the named 1618 mother, the younger the named mother in the 1645 James record. Neither that younger maternity nor a marriage to her is transferred to the Larne adult or captain through these selections. The existing uncertain Kilwaughter father links remain uncertain; none becomes proved by joining their supposed ancestor to Scotland. The Larne allegations are hearsay, not a judicial finding of guilt, and the 1686 will reference is not a proved death date. No new original inspection, certainty upgrade, live WikiTree edit or identity merge is claimed. Connectivity counts profile accounts and does not resolve the possible duplicates.",
+    "source_ids": [
+      "glasgow-robert-baptism-1618-parents",
+      "larne-robert-examination-1653"
+    ],
+    "perspectives": {
+      "Glasgow-3970": {
+        "relationship": "mother",
+        "status_label": "Uncertain mother; selected working family",
+        "reason": "Select Robert Glasgow-1027 and Jonet Cunningham-20923 as the uncertain working father and mother of Robert Glaskow of Larne, Glasgow-3970, through the existing possible identity with their son Robert Glasgow-1078, baptised at Glasgow on 17 November 1618. The 1653 Larne account gives no age or parents, and its before-1625 birth boundary permits the 1618 child; that child would have been about 23 during the alleged 1641 events and 35 in 1653. The Scottish child has no established later fate that excludes this adult account. Choose the already recorded possible identity as the working family explanation, at low confidence. The baptism names both parents, so the maternal selection is assessed from that same explicit child clause, not from a Cunningham surname association in Ulster. Both adult parent links depend on the uncertain identity and remain uncertain; the baptism’s direct parentage must not be transferred as proof of the Larne man’s origins."
+      },
+      "Cunningham-20923": {
+        "relationship": "son",
+        "status_label": "Uncertain son; possible duplicate account",
+        "reason": "Select Robert Glasgow-1027 and Jonet Cunningham-20923 as the uncertain working father and mother of Robert Glaskow of Larne, Glasgow-3970, through the existing possible identity with their son Robert Glasgow-1078, baptised at Glasgow on 17 November 1618. The 1653 Larne account gives no age or parents, and its before-1625 birth boundary permits the 1618 child; that child would have been about 23 during the alleged 1641 events and 35 in 1653. The Scottish child has no established later fate that excludes this adult account. Choose the already recorded possible identity as the working family explanation, at low confidence. The baptism names both parents, so the maternal selection is assessed from that same explicit child clause, not from a Cunningham surname association in Ulster. Both adult parent links depend on the uncertain identity and remain uncertain; the baptism’s direct parentage must not be transferred as proof of the Larne man’s origins."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Larne working family: selected parents, James accounts and alternatives",
+        "href": "/branches/early-scottish-records/#larne-working-family"
+      }
+    ],
+    "provenance": {
+      "source": "research/relationship_assessments.json",
+      "prior_assessment": "Compatible identities and son/younger-relative comparisons recorded; no selected parent in the local graph.",
+      "basis": "Existing1618 baptism,1653 examination and1667–1679 maritime review.",
+      "resolution_note": "Uncertain selections, no identity merge or confident grade upgrade."
+    },
+    "profile_names": {
+      "Glasgow-3970": "Robert Glaskow of Larne",
+      "Cunningham-20923": "Jonet Cunningham"
+    }
+  },
+  {
+    "assertion_id": "C-working-20261016-larne-captain-father",
+    "people": [
+      "Glasgow-3172",
+      "Glasgow-3970"
+    ],
+    "status": "uncertain",
+    "hypothesis_status": "possible",
+    "working_selection": true,
+    "allow_new_relationship": true,
+    "publication_status": "approved",
+    "assessment_date": "2026-10-16",
+    "evidence_grade": "Low-confidence existing identity / locality and generation model",
+    "claim": "Selected uncertain father for Glasgow-3172",
+    "basis": "Select Robert of Larne-3970 as Captain James Glasgow-3172’s uncertain working father. This adopts the existing possible son-or-younger-relative comparison: Larne, Belfast and Kilwaughter form the north-east Antrim setting of the recorded Robert and later James, and an older Robert active in 1641–1653 can precede a shipmaster active by 1667. James commanded the Blessing of Saltcoats in the 1667 Macartney correspondence and the James of Belfast in 1679. These are compatible Scottish-west-coast/Antrim associations, not a parent clause. Son is selected over the unresolved younger-relative alternatives for one provisional paternal route; no mother is selected for James.",
+    "limitations": "Robert-1078 and Robert-3970 remain separate profile accounts of a possible single man; the selected parents do not establish two distinct Robert sons or an identity merge. No record joins the 1618 baptism to Larne, supplies the Larne man’s Scottish origin, or rules out another Robert. The 1666 John of Portrush shipmaster is a further possible identity, not an occupation proved for either Robert; the later Robert/Rachel household remains separate. James-3172, the Scottish child James-3971 of 1645, and the Kilwaughter James-1081 may be one, two or three men. All accounts remain; no identity among those James groups is selected. A child baptised in 1645 could have been a shipmaster aged about 22 in 1667, assuming infant baptism, but that is compatibility only. The father named in that 1645 record is not independently identified with the 1618 child. John-3913’s circa-1630 and Captain James’s circa-1640 births are inherited estimates, not dates that establish or exclude a generation. If John’s 1630 were literal and the Larne man were born in 1618, fatherhood at about twelve would be an important chronological objection; both the age estimate and John’s uncertain paternal attachment require testing. No birth year is changed to force the selected route. Captain James could instead be a nephew, other relative, unrelated namesake, or a member of the Saltcoats sailor John-4152’s family; the named Saltcoats vessel makes that a real competing route, not evidence that John was his father. The two women Cunningham-20923 and Cunningham-22604 are distinct: the elder is the named 1618 mother, the younger the named mother in the 1645 James record. Neither that younger maternity nor a marriage to her is transferred to the Larne adult or captain through these selections. The existing uncertain Kilwaughter father links remain uncertain; none becomes proved by joining their supposed ancestor to Scotland. The Larne allegations are hearsay, not a judicial finding of guilt, and the 1686 will reference is not a proved death date. No new original inspection, certainty upgrade, live WikiTree edit or identity merge is claimed. Connectivity counts profile accounts and does not resolve the possible duplicates.",
+    "source_ids": [
+      "larne-robert-examination-1653",
+      "belfast-james-macartney-1667-1679"
+    ],
+    "perspectives": {
+      "Glasgow-3172": {
+        "relationship": "father",
+        "status_label": "Uncertain father; selected working family",
+        "reason": "Select Robert of Larne-3970 as Captain James Glasgow-3172’s uncertain working father. This adopts the existing possible son-or-younger-relative comparison: Larne, Belfast and Kilwaughter form the north-east Antrim setting of the recorded Robert and later James, and an older Robert active in 1641–1653 can precede a shipmaster active by 1667. James commanded the Blessing of Saltcoats in the 1667 Macartney correspondence and the James of Belfast in 1679. These are compatible Scottish-west-coast/Antrim associations, not a parent clause. Son is selected over the unresolved younger-relative alternatives for one provisional paternal route; no mother is selected for James."
+      },
+      "Glasgow-3970": {
+        "relationship": "son",
+        "status_label": "Uncertain son; possible duplicate account",
+        "reason": "Select Robert of Larne-3970 as Captain James Glasgow-3172’s uncertain working father. This adopts the existing possible son-or-younger-relative comparison: Larne, Belfast and Kilwaughter form the north-east Antrim setting of the recorded Robert and later James, and an older Robert active in 1641–1653 can precede a shipmaster active by 1667. James commanded the Blessing of Saltcoats in the 1667 Macartney correspondence and the James of Belfast in 1679. These are compatible Scottish-west-coast/Antrim associations, not a parent clause. Son is selected over the unresolved younger-relative alternatives for one provisional paternal route; no mother is selected for James."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Larne working family: selected parents, James accounts and alternatives",
+        "href": "/branches/early-scottish-records/#larne-working-family"
+      }
+    ],
+    "provenance": {
+      "source": "research/relationship_assessments.json",
+      "prior_assessment": "Compatible identities and son/younger-relative comparisons recorded; no selected parent in the local graph.",
+      "basis": "Existing1618 baptism,1653 examination and1667–1679 maritime review.",
+      "resolution_note": "Uncertain selections, no identity merge or confident grade upgrade."
+    },
+    "model_note": "Larne family is a low-confidence working reconstruction. Robert-1078 and Robert-3970 remain separate profile accounts of a possible single man; the selected parents do not establish two distinct Robert sons or an identity merge. No record joins the 1618 baptism to Larne, supplies the Larne man’s Scottish origin, or rules out another Robert. The 1666 John of Portrush shipmaster is a further possible identity, not an occupation proved for either Robert; the later Robert/Rachel household remains separate. James-3172, the Scottish child James-3971 of 1645, and the Kilwaughter James-1081 may be one, two or three men. All accounts remain; no identity among those James groups is selected. A child baptised in 1645 could have been a shipmaster aged about 22 in 1667, assuming infant baptism, but that is compatibility only. The father named in that 1645 record is not independently identified with the 1618 child. John-3913’s circa-1630 and Captain James’s circa-1640 births are inherited estimates, not dates that establish or exclude a generation. If John’s 1630 were literal and the Larne man were born in 1618, fatherhood at about twelve would be an important chronological objection; both the age estimate and John’s uncertain paternal attachment require testing. No birth year is changed to force the selected route. Captain James could instead be a nephew, other relative, unrelated namesake, or a member of the Saltcoats sailor John-4152’s family; the named Saltcoats vessel makes that a real competing route, not evidence that John was his father. The two women Cunningham-20923 and Cunningham-22604 are distinct: the elder is the named 1618 mother, the younger the named mother in the 1645 James record. Neither that younger maternity nor a marriage to her is transferred to the Larne adult or captain through these selections. The existing uncertain Kilwaughter father links remain uncertain; none becomes proved by joining their supposed ancestor to Scotland. The Larne allegations are hearsay, not a judicial finding of guilt, and the 1686 will reference is not a proved death date. No new original inspection, certainty upgrade, live WikiTree edit or identity merge is claimed. Connectivity counts profile accounts and does not resolve the possible duplicates.",
+    "profile_names": {
+      "Glasgow-3172": "James Glasgow, Belfast shipmaster",
+      "Glasgow-3970": "Robert Glaskow of Larne"
+    }
   }
 ]

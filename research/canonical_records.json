@@ -2013,5 +2013,75 @@
         "role": "indexed mother"
       }
     }
+  },
+  {
+    "record_id": "glasgow-robert-baptism-1618-parents",
+    "association": "Glasgow High Kirk baptism, 17 November 1618, OPR 644/1, reported 10/272; existing transcription",
+    "date": "17 November1618",
+    "year": 1618,
+    "place": "Glasgow",
+    "source_title": "Glasgow High Kirk baptism, 17 November 1618, OPR 644/1, reported 10/272; existing transcription",
+    "source_url": "https://www.scotlandspeople.gov.uk/",
+    "status": "Existing maintained record review; no new inspection",
+    "note": "Names Robert as lawful child of Robert Glasgow and Jonet Cunningham. No Larne continuity supplied.",
+    "profiles": {
+      "Glasgow-1078": {
+        "role": "baptised child"
+      },
+      "Glasgow-1027": {
+        "role": "named father"
+      },
+      "Cunningham-20923": {
+        "role": "named mother"
+      }
+    }
+  },
+  {
+    "record_id": "larne-robert-examination-1653",
+    "association": "Con O’Sheale examination, 21 April 1653, TCD MS838 fol.153r; Larne residence reported",
+    "date": "21 April1653",
+    "year": 1653,
+    "place": "Larne, County Antrim",
+    "source_title": "Con O’Sheale examination, 21 April 1653, TCD MS838 fol.153r; Larne residence reported",
+    "source_url": "https://1641dep.abdn.ac.uk/items/show/42821.html",
+    "status": "Existing maintained record review; no new inspection",
+    "note": "Hearsay examination places Robert Glaskow at Larne; no age or parent stated. Allegations do not establish guilt.",
+    "profiles": {
+      "Glasgow-3970": {
+        "role": "named adult"
+      }
+    }
+  },
+  {
+    "record_id": "belfast-james-macartney-1667-1679",
+    "association": "Macartney correspondence, 29 October 1667 and 8 November 1679, PRONI MIC19/2; existing reviewed account",
+    "date": "1667–1679",
+    "year": 1667,
+    "place": "Saltcoats / Belfast maritime trade",
+    "source_title": "Macartney correspondence, 29 October 1667 and 8 November 1679, PRONI MIC19/2; existing reviewed account",
+    "source_url": "https://www.nidirect.gov.uk/proni",
+    "status": "Existing maintained record review; no new inspection",
+    "note": "James masters Blessing of Saltcoats in1667 and James of Belfast in1679; no father, wife or child named. Existing review, no new inspection.",
+    "profiles": {
+      "Glasgow-3172": {
+        "role": "shipmaster"
+      }
+    }
+  },
+  {
+    "record_id": "glasgow-james-baptism-1645-comparison",
+    "association": "James baptism, Glasgow, 25 November1645, OPR644/1,40/56; existing original-register review",
+    "date": "25 November1645",
+    "year": 1645,
+    "place": "Glasgow",
+    "source_title": "James baptism, Glasgow, 25 November1645, OPR644/1,40/56; existing original-register review",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:VQHK-VMK",
+    "status": "Existing maintained record review; no new inspection",
+    "note": "Parents Robert Glasgow and younger Jonet Cunningham; godfathers James Cunynghame and Johne Muir. The father’s identification with the1618 child and the son’s adult fate remain unproved.",
+    "profiles": {
+      "Glasgow-3971": {
+        "role": "baptised child"
+      }
+    }
   }
 ]
