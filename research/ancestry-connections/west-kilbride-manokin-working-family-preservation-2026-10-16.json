@@ -1,0 +1,101 @@
+{
+  "reviewed": "2026-10-16",
+  "scope": "West Kilbride and Maryland: a conditional Ayrshire family",
+  "profiles": {
+    "Glasgow-3161": {
+      "current_sha256": "31e7ccb979587b4a58e78386dee17994b5466d94f972b3926e5f44104a3a66d9",
+      "proposed_sha256": "0584428fd363d5ce8e1ddd0dc028589e9a4695078ae929a5533550ef51d8a8af",
+      "all_substantive_passages_accounted_for": true,
+      "passages": [
+        "Every previous complete public proposal/comparison or normalized capture paragraph and captured source URL retained.",
+        "New parent choices remain uncertain; named-child parent clauses are distinguished from adult identity.",
+        "Mothers assessed separately; all date discrepancies, alternative father generations, older scaffolds and pending work retained."
+      ],
+      "source_urls_retained": [],
+      "full_comparison_withheld_for_privacy": false,
+      "private_source_urls_retained_count": 0
+    },
+    "Glasgow-635": {
+      "current_sha256": "4bd9734d3a7da468c649ff90c68b5dca9be951a46030acf266b15083fd8ccaaf",
+      "proposed_sha256": "c3ff576d5c227eb6193671ecbf680d6d1f0da47a3efbd655f5f6291d8827870a",
+      "all_substantive_passages_accounted_for": true,
+      "passages": [
+        "Every previous complete public proposal/comparison or normalized capture paragraph and captured source URL retained.",
+        "New parent choices remain uncertain; named-child parent clauses are distinguished from adult identity.",
+        "Mothers assessed separately; all date discrepancies, alternative father generations, older scaffolds and pending work retained."
+      ],
+      "source_urls_retained": [
+        "https://archive.org/details/constitutionalhi00inhodg/page/n194/mode/1up",
+        "https://books.google.ca/books?id=NUlnMpHqpA8C&vq=patrick%20glasgow&pg=PA438#v=onepage&q&f=false",
+        "https://weech.net/ashley/History-of-Manokin-Presbyterian-Church_Princess-Anne-Maryland.pdf",
+        "https://www.geni.com/people/James-Patrick-Glasgow-Rev/6000000021288812252",
+        "https://www.ncpedia.org/biography/glasgow-james",
+        "https://www.werelate.org/wiki/Person:Patrick_Glasgow_(1"
+      ],
+      "full_comparison_withheld_for_privacy": false,
+      "private_source_urls_retained_count": 0
+    },
+    "Glasgow-3375": {
+      "current_sha256": "cd6fc16de8657755cd9b90fd935b9493e35c94ec13de9ae63a5a24cd6e30f509",
+      "proposed_sha256": "1b6e095e96afc9a8db69d9e7945c52bcd818fc98aa8ea586810f4ff7d6a856f7",
+      "all_substantive_passages_accounted_for": true,
+      "passages": [
+        "Every previous complete public proposal/comparison or normalized capture paragraph and captured source URL retained.",
+        "New parent choices remain uncertain; named-child parent clauses are distinguished from adult identity.",
+        "Mothers assessed separately; all date discrepancies, alternative father generations, older scaffolds and pending work retained."
+      ],
+      "source_urls_retained": [
+        "https://archive.org/details/historyofcountyo02pateuoft/page/252/mode/2up",
+        "https://electricscotland.com/bible/fastiecclesiaesc03scot.pdf"
+      ],
+      "full_comparison_withheld_for_privacy": false,
+      "private_source_urls_retained_count": 0,
+      "previous_review_path": "research/ancestry-connections/glenarm-stevenston-working-family-preservation-2026-10-16.json"
+    },
+    "Glasgow-3160": {
+      "current_sha256": "5a529b2cfd97f87d5a406acce81478fbc7dd367410c3d2ab9a2e435a9d478878",
+      "proposed_sha256": "4f46f70a825cc2b942e22c95bbd86aa6d97dc530394bcc96062a0a2d8acc39a4",
+      "all_substantive_passages_accounted_for": true,
+      "passages": [
+        "Every previous complete public proposal/comparison or normalized capture paragraph and captured source URL retained.",
+        "New parent choices remain uncertain; named-child parent clauses are distinguished from adult identity.",
+        "Mothers assessed separately; all date discrepancies, alternative father generations, older scaffolds and pending work retained."
+      ],
+      "source_urls_retained": [],
+      "full_comparison_withheld_for_privacy": false,
+      "private_source_urls_retained_count": 0
+    }
+  },
+  "previous_queue_entries": {
+    "Glasgow-3161": null,
+    "Glasgow-635": null,
+    "Glasgow-3375": {
+      "queued_at": "2026-10-16",
+      "status": "OPEN",
+      "significance": 65,
+      "summary": "Review the selected uncertain Ayrshire family, independent maternal evidence and surviving alternatives; preserve current biography and all prior corrections. Review the new uncertain Glenarm/Stevenston father hypotheses, conditional paternal siblings and retained same-name alternatives. Both new mothers remain unknown. No date, existing confidence grade or identity merge is established.",
+      "manual_update": true,
+      "draft_path": "research/Glasgow-3375/Glasgow-3375.md",
+      "preservation_review_path": "research/ancestry-connections/glenarm-stevenston-working-family-preservation-2026-10-16.json",
+      "reviewed_narrative_reduction": true,
+      "preserve_captured_detail": false,
+      "relationship_changes": [
+        {
+          "action": "add",
+          "relationship": "child",
+          "status": "uncertain",
+          "relative_id": "Glasgow-3105",
+          "assertion_id": "C-working-20261016-ayrshire-family-heads-james-father"
+        },
+        {
+          "action": "add",
+          "relationship": "child",
+          "status": "uncertain",
+          "relative_id": "Glasgow-4170",
+          "assertion_id": "C-working-20261016-glenarm-stevenston-working-family-james-father"
+        }
+      ]
+    },
+    "Glasgow-3160": null
+  }
+}

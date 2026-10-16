@@ -1,0 +1,80 @@
+{
+  "reviewed": "2026-10-16",
+  "cutoff": 1850,
+  "method_version": 3,
+  "input_fingerprint": "a950082636850740a04cdaf78fdaffe4d6d83b25cc66a45e7cb8e9bc01fe07df",
+  "scope": "West Kilbride and Maryland: a conditional Ayrshire family",
+  "genealogical_connections_added": 2,
+  "paternal_connections_added": 2,
+  "maternal_connections_added": 0,
+  "certainty_upgrades": 0,
+  "working_fathers": 48,
+  "working_mothers": 6,
+  "models": {
+    "main": {
+      "checked_historical_profiles": 1777,
+      "changed_father_fields": 2,
+      "matched_paternal_edges": 1345,
+      "added_historical_profiles": [],
+      "effective_father_field_audit": {
+        "public_father_fields_checked": 1777,
+        "empty_father_fields_checked": 424,
+        "differences": []
+      },
+      "unresolved_father_cases": [
+        "Glasgow-1367",
+        "Glasgow-2908",
+        "Glasgow-867",
+        "Glasgow-951"
+      ]
+    },
+    "standalone": {
+      "checked_historical_profiles": 1777,
+      "changed_father_fields": 2,
+      "matched_paternal_edges": 1345,
+      "added_historical_profiles": [],
+      "effective_father_field_audit": {
+        "public_father_fields_checked": 1777,
+        "empty_father_fields_checked": 424,
+        "differences": []
+      },
+      "unresolved_father_cases": [
+        "Glasgow-1367",
+        "Glasgow-2908",
+        "Glasgow-867",
+        "Glasgow-951"
+      ]
+    }
+  },
+  "publication_summary": "Selected John-3375 as uncertain father of John-3161 through possible identity with the 1679 Kilwinning child, and John-3161 as uncertain father of Rev. Patrick-635 through the possible 1700 West Kilbride childhood. The inherited 1680 minister birth conflicts if literal; the model explicitly treats it as an unsupported estimate, preserves the fields, and retains alternative identities. Two dependent childhood hypotheses, no new mothers or merges. Largest working family through 1850: 980 to 989 retained profiles; components 435 to 433; unattached fathers with two or more children 53 to 52. Confident metrics and population unchanged. Catalogue parent columns and missing-parent filters now use the same current assessed relationships as the dossiers; this publication repair is not counted as a new genealogical connection.",
+  "comparison": "/branches/early-scottish-records/#west-kilbride-manokin-working-family",
+  "catalogue_parent_projection": {
+    "reviewed_profiles": 170,
+    "selected_parent_assertions_checked": 54,
+    "differences": []
+  },
+  "next_metric_check": {
+    "status": "RESOLVED",
+    "saved_confident_tree_flags_not_used_by_current_metric": 0,
+    "review": "/data/ancestry-confidence-method-review.json",
+    "scope": "Status fallback; four other competing-father cases remain open."
+  },
+  "verification": {
+    "public_pending_updates": 202,
+    "complete_profile_comparisons": 4,
+    "focused_resolver_and_search_tests": 14
+  },
+  "unresolved_parentage_review": {
+    "status": "OPEN",
+    "case_ids": [
+      "Glasgow-1367",
+      "Glasgow-2908",
+      "Glasgow-867",
+      "Glasgow-951"
+    ],
+    "confident_flag_among_competing_candidates": [
+      "Glasgow-867"
+    ],
+    "scope": "These four other competing-father cases remain open; no relationship or prior grade is changed in this batch."
+  }
+}

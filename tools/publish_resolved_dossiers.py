@@ -327,6 +327,45 @@ def project_catalogue_vitals(rows, assessments):
     return rows
 
 
+def project_catalogue_parents(rows, reviewed):
+    """Use the current assessed parents in search, retaining reversible imports."""
+    fields = ('father', 'mother', 'missing_father', 'missing_mother')
+    for row in rows:
+        prior = row.pop('parent_review', {})
+        for key, original in prior.get('original_fields', {}).items():
+            if original['present']:
+                row[key] = deepcopy(original['value'])
+            else:
+                row.pop(key, None)
+        dossier = reviewed.get(str(row.get('id', '')).casefold())
+        if not dossier:
+            continue
+        originals = {key: {'present': key in row, 'value': deepcopy(row.get(key))}
+                     for key in fields}
+        for role in ('father', 'mother'):
+            parents = []
+            for relation in dossier.get('relationships', {}).get('parents', []):
+                if (relation.get('relationship') != role
+                        or relation.get('lifecycle') not in (None, 'current')
+                        or relation.get('display') in ('alternative', 'historical', 'superseded')
+                        or relation.get('status') in ('rejected', 'superseded', 'contradicted')
+                        or relation.get('publication_status') in ('withheld', 'blocked', 'rejected')):
+                    continue
+                item = {key: deepcopy(relation[key]) for key in
+                        ('id', 'name', 'url', 'wikitree_url', 'withheld', 'outside_export')
+                        if key in relation}
+                status = relation.get('status')
+                assessed = status not in (None, '', 'unknown', 'unmarked')
+                item['certainty'] = status if assessed else relation.get('tree_status') or 'unmarked'
+                item['certainty_label'] = (relation.get('status_label') if assessed
+                    else relation.get('tree_status_label')) or item['certainty'].replace('_', ' ')
+                parents.append(item)
+            row[role] = parents
+            row['missing_' + role] = not parents
+        row['parent_review'] = {'original_fields': originals}
+    return rows
+
+
 def publish(root=ROOT / 'www'):
     path = root / 'assets/research/assessments.json'
     registry = json.loads(path.read_text())
@@ -347,14 +386,6 @@ def publish(root=ROOT / 'www'):
         search = json.loads(search_path.read_text())
         prior_search = deepcopy(search)
         project_catalogue_vitals(search, assessments)
-        if search != prior_search:
-            search_path.write_text(json.dumps(search, ensure_ascii=False, separators=(',', ':')) + '\n')
-            if root.resolve() == (ROOT / 'www').resolve():
-                try:
-                    from catalogue_search_index import refresh as refresh_browser_index
-                except ModuleNotFoundError:
-                    from tools.catalogue_search_index import refresh as refresh_browser_index
-                refresh_browser_index(root)
     shared_path = root / 'assets/research/relationship-assessments.json'
     if root.resolve() == (ROOT / 'www').resolve():
         shared_path.write_text((ROOT / 'research/relationship_assessments.json').read_text())
@@ -413,6 +444,18 @@ def publish(root=ROOT / 'www'):
         schema.setdefault('properties', {}).update(REVIEW_SCHEMA)
         if schema != before:
             schema_path.write_text(json.dumps(schema, indent=2) + '\n')
+    if search_path.exists():
+        project_catalogue_parents(search, reviewed)
+        if search != prior_search:
+            packed = json.dumps(search, ensure_ascii=False, separators=(',', ':'))
+            search_path.write_text(packed + '\n')
+            (root / 'data/people-index.js').write_text('window.glasgowPeopleIndex=' + packed + ';\n')
+            if root.resolve() == (ROOT / 'www').resolve():
+                try:
+                    from catalogue_search_index import refresh as refresh_browser_index
+                except ModuleNotFoundError:
+                    from tools.catalogue_search_index import refresh as refresh_browser_index
+                refresh_browser_index(root)
     return changed
 
 

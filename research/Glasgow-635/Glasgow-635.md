@@ -1,23 +1,44 @@
-# WikiTree update notes: [Reverend James Patrick Glasgow (Glasgow-635), born 1680, Ireland](https://www.wikitree.com/wiki/Glasgow-635)
+{{Estimated Date}}
+[[Category:Glasgow Name Study]]
 
-Record only sourced facts and corrections missing from the current WikiTree
-profile. Keep same-name identities and inferred relationships explicitly
-unproved.
+{{Notables Sticker}}
 
-## Suggested additions
+== Biography ==
+'''Rev. Patrick Glasgow''' had an unknown birth date. Charles R. Holloman's biography of his son describes the reverend as a native of Scotland; this secondary statement supports only a cautious, uncertain Scottish origin, not a specific birthplace.<ref>Charles R. Holloman, [https://www.ncpedia.org/biography/glasgow-james “Glasgow, James,”] ''Dictionary of North Carolina Biography''.</ref>
 
-| Fact missing from profile | Source | Confidence |
-| --- | --- | --- |
-| The contemporary church-history tradition calls him Patrick Glascow; he was installed at Manokin in 1736, left Presbyterian records after 1741, became rector at All Hallows and died 23 March 1753 at Snow Hill. | [Ford, *History of the Manokin Presbyterian Church*, pp. 16-17](https://weech.net/ashley/History-of-Manokin-Presbyterian-Church_Princess-Anne-Maryland.pdf) | High for career and death. |
+After adopting the Westminster Confession of Faith, Patrick was ordained and installed at the Manokin Presbyterian congregation in Maryland in 1736. He last appears in its synod minutes in 1741, later entered Anglican ministry, and served as rector of '''All Hallows Church''' at Snow Hill, Worcester County. He died at Snow Hill on '''23 March 1753'''.<ref>Harry Pringle Ford, [https://weech.net/ashley/History-of-Manokin-Presbyterian-Church_Princess-Anne-Maryland.pdf ''History of the Manokin Presbyterian Church''] (1910), pp. 16–17.</ref>
 
-## Suggested corrections
+== Legacy and Sources ==
+His religious career is noted in several key historical works:
+* Richard Webster's ''A History of the Presbyterian Church in America'' (1857), p. 438:
+<blockquote>
+"Patrick Glasgow. After the ordinary trials, and after adopting the Westminster Confession, was licensed by Lewes Presbytery. Having a call to Monokin, he was, after the usual steps, and a repeated declaration of his adopting the Westminster Confession, ordained and installed in 1736. He is not mentioned after 1741 on our records: he was ordained after the Episcopal mode, and became the rector of All Hallows, in Worcester County, Maryland. He died there, March 23, 1753."
+</blockquote>
 
-- Remove birth about 1680 in Ireland. No cited record supplies either fact.
-- Use `Patrick` as the proved forename unless a record, rather than a later
-  biography, establishes `James Patrick`.
-- Add the conflicting secondary claim that he was a native of Scotland as a
-  research note, not as an unqualified birth location.
+* Charles Hodge's ''The Constitutional History of the Presbyterian Church in the United States of America'' (1851), Vol. I, pp. 189–190.
+* Swepson Earle's ''Maryland's Colonial Eastern Shore'' (1916), p. 146.
 
-## Do not add as fact
+== Possible Ancestry ==
+It has been suggested that Patrick may descend from the Glasgows of Mid Calder, Scotland, where a ''' [[Glasgow-991|James Glasgow (abt. 1585)]] ''' is recorded with a son John. However, this connection remains speculative.
 
-- Do not connect Patrick to the Mid Calder family without a bridging record.
+== Research Notes ==
+=== Selected uncertain family — 16 October 2026 ===
+
+The West Kilbride John [[Glasgow-3161]] is the selected uncertain working father of Rev. Patrick [[Glasgow-635]], through possible identity with the indexed child Patrick [[Glasgow-3160]] of 1700. The minister’s church-history account calls him Patrick, and the previously reviewed biography of his son calls the father a native of Scotland. If the 1700 child became the minister, he would have been about thirty-five when son James was born in 1735, thirty-six when ordained at Manokin in 1736, and fifty-three at his death in 1753. That is a coherent adult career and family sequence. The recorded Scottish childhood and compatible dates make this a useful low-confidence choice; no ministerial, marriage or migration record identifies that child as the Maryland man.
+
+John [[Glasgow-3375]] is the selected uncertain working father of the West Kilbride parent John [[Glasgow-3161]], through possible identity with his son Jon [[Glasgow-1434]], indexed at Kilwinning on 6 July 1679. The West Kilbride account already names [[Glasgow-1434]] as an identity comparison. A child born near the 1679 baptism could have been about twenty at the January 1700 Patrick event, followed by the John/Margaret Cowan children at nearby Stevenston in 1701 and 1706 if that further adult identity is right. This supplies a specific neighbouring-parish household and ordinary generation, preferred provisionally to leaving the 1700 father without a named family. It does not prove that the Kilwinning child, Stevenston father and West Kilbride father were one person.
+
+The supplied Scotland’s People entry reads PATRICK GLASGOW, 03/01/1700, West Kilbride, parish 620, reference 10 / 27, with JOHN GLASGOW/ as the parent field. The prior source review interprets that as 3 January; the structured child field instead says 1 March. Both readings remain visible, and neither an exact birthday nor original-image inspection is claimed. The minister’s inherited circa-1680 Irish birth is unsupported by his cited career records. Taken literally, 1680 would conflict with this childhood hypothesis and with a father represented by the 1679 Kilwinning child. It remains a conflicting profile estimate, not evidence that the proposed generations fit that year. No date or birthplace is silently changed to make the route work. Scottish origin rests on a later biographical statement, not a contemporary birthplace record. Ford’s church history, printed p.16, PDF p.22, records the 1736–1741 ministry and 23 March 1753 death, but names no parent and supplies no age or birthplace.
+
+The Gordon Patrick [[Glasgow-1440]], indexed in 1667 and associated with Helen Fairburn and a later Scottish family, remains an alternative childhood/adult comparison. He would have been about sixty-eight at James’s 1735 birth and sixty-nine at the 1736 ordination if baptised near birth: less economical than the 1700 route, but not an exclusion. The Maryland-linked Patrick [[Glasgow-3002]] is another unresolved account; its unsupported 1720 birth estimate does not identify or exclude him as the minister, and its cited Treasury entry has not been newly interpreted here. Other unrecorded Scottish or Irish childhoods remain possible. The 1700 child’s later life and the minister’s pre-1736 life are untraced. Shared forename, surname and plausible ages are indirect evidence, not a parent clause. Mary Jones remains the minister’s recorded wife; no new marriage, mother, migration date or Scottish parish of birth is asserted.
+
+John [[Glasgow-551]], associated with County Tyrone in the William Melanchthon Glasgow family account, remains an alternative identity already named on the West Kilbride profile. His estimated birth and the absence of a West Kilbride event do not exclude him. The Ayrshire comparison is preferred for its specific neighbouring parishes and independently indexed 1679 child, not because an Irish route has been disproved. Another local John, a brother or cousin of the Kilwinning family, or a different father remains possible. The Kilwinning-child/Stevenston-adult identity is itself uncertain. No occupation, later residence or marriage connects John-3161 to either adult. Barbara Alason/Allason is named with the 1679 child; no mother is selected for the West Kilbride account, and Margaret Cowan is not assigned as Patrick’s mother from the later Stevenston events. John-3375’s earlier family scaffold retains its existing uncertainty. [https://glasgow.phenotype.dev/branches/early-scottish-records/#west-kilbride-manokin-working-family Full selected model, competing families and source limits]. <ref>Existing reviewed records and public profile citations: [https://www.scotlandspeople.gov.uk/ Scotland’s People supplied OPR index: Jon, 6 July 1679, Kilwinning 599, frame 44; John and Barbara Alason (previously reviewed)]; [https://www.scotlandspeople.gov.uk/ Scotland’s People supplied OPR index: Patrick, 3 January/structured 1 March 1700, West Kilbride 620, 10 / 27; father John (previously reviewed)]; [https://weech.net/ashley/History-of-Manokin-Presbyterian-Church_Princess-Anne-Maryland.pdf#page=22 Harry Pringle Ford, History of the Manokin Presbyterian Church (1910), printed p.16, PDF p.22: Patrick’s ministry and death]; [https://www.ncpedia.org/biography/glasgow-james Charles R. Holloman, Glasgow, James, Dictionary of North Carolina Biography: father a native of Scotland; prior reviewed account, current fetch unavailable]; [https://familysearch.org/ark:/61903/1:1:XYZK-MY7 John/Margaret Cowan household, Stevenston 1701, child John: previously reviewed FamilySearch index]; [https://familysearch.org/ark:/61903/1:1:XYZV-BNR John/Margaret Cowan household, Stevenston 1706, child Adam: previously reviewed FamilySearch index]; [https://www.familysearch.org/ark:/61903/1:1:XTBS-98C Gordon Patrick, 4 August 1667: previously reviewed child index; alternative account]. No original newly inspected; indexed dates and adult-identity limits remain explicit.</ref>
+
+
+== Sources ==
+<references />
+* Webster, Richard. ''A History of the Presbyterian Church in America''. Philadelphia: Joseph M. Wilson, 1857. [https://books.google.ca/books?id=NUlnMpHqpA8C&vq=patrick%20glasgow&pg=PA438#v=onepage&q&f=false p. 438].
+* Hodge, Charles. ''The Constitutional History of the Presbyterian Church in the United States of America''. Vol. I. Philadelphia: Presbyterian Board of Publication, 1851. [https://archive.org/details/constitutionalhi00inhodg/page/n194/mode/1up pp. 189–190].
+* Earle, Swepson (ed). ''Maryland’s Colonial Eastern Shore''. 1916. p. 146.
+* [https://www.geni.com/people/James-Patrick-Glasgow-Rev/6000000021288812252 GENi: Patrick Glasgow]
+* [https://www.werelate.org/wiki/Person:Patrick_Glasgow_(1) WeRelate: Patrick Glasgow]

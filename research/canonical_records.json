@@ -2885,5 +2885,56 @@
         "role": "reconstructed older father account"
       }
     }
+  },
+  {
+    "record_id": "ayrshire-manokin-jon-kilwinning-1679",
+    "date": "6 July 1679",
+    "year": 1679,
+    "place": "Kilwinning, Ayrshire",
+    "source_title": "Scotland’s People supplied OPR index: Jon, 6 July 1679, Kilwinning 599, frame 44; John and Barbara Alason (previously reviewed)",
+    "source_url": "https://www.scotlandspeople.gov.uk/",
+    "status": "Previously reviewed supplied index; original not newly inspected",
+    "note": "Names John and Barbara Alason as parents of Jon; adult identities are separate hypotheses.",
+    "profiles": {
+      "Glasgow-3375": {
+        "role": "indexed father"
+      },
+      "Glasgow-1434": {
+        "role": "indexed child"
+      }
+    }
+  },
+  {
+    "record_id": "ayrshire-manokin-patrick-west-kilbride-1700",
+    "date": "03/01/1700; January/March discrepancy retained",
+    "year": 1700,
+    "place": "West Kilbride, Ayrshire",
+    "source_title": "Scotland’s People supplied OPR index: Patrick, 3 January/structured 1 March 1700, West Kilbride 620, 10 / 27; father John (previously reviewed)",
+    "source_url": "https://www.scotlandspeople.gov.uk/",
+    "status": "Previously reviewed supplied index; original not newly inspected",
+    "note": "Names John as Patrick’s father; mother omitted. No Maryland identity stated.",
+    "profiles": {
+      "Glasgow-3161": {
+        "role": "indexed father"
+      },
+      "Glasgow-3160": {
+        "role": "indexed child"
+      }
+    }
+  },
+  {
+    "record_id": "ayrshire-manokin-ministry-1736",
+    "date": "1736–1741; death 23 March 1753",
+    "year": 1736,
+    "place": "Manokin and Snow Hill, Maryland",
+    "source_title": "Harry Pringle Ford, History of the Manokin Presbyterian Church (1910), printed p.16, PDF p.22: Patrick’s ministry and death",
+    "source_url": "https://weech.net/ashley/History-of-Manokin-Presbyterian-Church_Princess-Anne-Maryland.pdf#page=22",
+    "status": "Printed church-history account; searchable text rechecked; page image unavailable in this batch",
+    "note": "No parent, birth date, age or birthplace in this passage.",
+    "profiles": {
+      "Glasgow-635": {
+        "role": "minister"
+      }
+    }
   }
 ]

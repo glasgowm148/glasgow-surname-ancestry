@@ -10,6 +10,38 @@ spec.loader.exec_module(module)
 
 
 class ResolvedDossierTests(unittest.TestCase):
+    def test_catalogue_parents_follow_assessments_and_restore_on_withdrawal(self):
+        from copy import deepcopy
+        original = [{'id': 'child-1', 'father': [], 'missing_father': True,
+                     'mother': [{'id': 'Mother-1', 'name': 'Mother'}], 'missing_mother': False}]
+        reviewed = {'child-1': {'relationships': {'parents': [
+            {'id': 'Father-1', 'name': 'Working father', 'relationship': 'father',
+             'status': 'uncertain', 'status_label': 'Selected uncertain father',
+             'lifecycle': 'current', 'display': 'hypothesis', 'url': '/people/father-1.html'},
+            {'id': 'Old-1', 'relationship': 'father', 'status': 'uncertain',
+             'lifecycle': 'alternative'},
+            {'id': 'Private-1', 'relationship': 'father', 'publication_status': 'withheld'},
+            {'id': 'Mother-1', 'name': 'Mother', 'relationship': 'mother',
+             'status': 'unknown', 'tree_status': 'confident', 'tree_status_label': 'Saved tree flag'}]}}}
+        result = module.project_catalogue_parents(deepcopy(original), reviewed)
+        self.assertEqual([p['id'] for p in result[0]['father']], ['Father-1'])
+        self.assertEqual(result[0]['father'][0]['certainty'], 'uncertain')
+        self.assertEqual(result[0]['father'][0]['url'], '/people/father-1.html')
+        self.assertEqual(result[0]['mother'][0]['certainty'], 'confident')
+        self.assertFalse(result[0]['missing_father'])
+        self.assertEqual(module.project_catalogue_parents(deepcopy(result), reviewed), result)
+        self.assertEqual(module.project_catalogue_parents(result, {}), original)
+
+    def test_catalogue_documentary_father_preserves_account_without_wikitree_url(self):
+        rows = [{'id': 'child-1'}]
+        dossier = {'relationships': {'parents': [{'id': 'record-father-1450',
+            'relationship': 'father', 'status': 'possible', 'name': 'Documentary father',
+            'url': '/free-space/early-father/', 'wikitree_url': None}]}}
+        module.project_catalogue_parents(rows, {'child-1': dossier})
+        self.assertEqual(rows[0]['father'][0]['url'], '/free-space/early-father/')
+        self.assertIsNone(rows[0]['father'][0]['wikitree_url'])
+        self.assertTrue(rows[0]['missing_mother'])
+
     def test_unselected_parent_remains_an_alternative_in_claims_and_relationships(self):
         original={'id':'Child-1','relationships':{'parents':[{'id':'Old-1','relationship':'father','status':'uncertain','claim_id':'C-import'}]},'claims':[]}
         alternative={'assertion_id':'A-old','people':['Child-1','Old-1'],'publication_status':'approved',
