@@ -1792,3 +1792,8 @@ The August completion entries remain historical. The live parent fields are now 
 
 | [Johne Glasgow, indexed in 1649](https://www.wikitree.com/wiki/Glasgow-3012) | OPEN | Grade the existing 1649 father relation for the record-defined child; keep the father’s 1608 identity and 4 April/22 April birth-date issue unresolved. No new attachment. |
 | [Johne Glasgow, the 1649 father](https://www.wikitree.com/wiki/Glasgow-3610) | OPEN | Grade the existing 1649 father relation for the record-defined child; keep the father’s 1608 identity and 4 April/22 April birth-date issue unresolved. No new attachment. |
+
+
+## Murieston working identity — 16 October 2026
+
+| [James Glasgow of Murieston](https://www.wikitree.com/wiki/Glasgow-991) | OPEN | Add the probable 1586–1605 George identity assessment; keep exact kinship and Andrew’s father grade uncertain. |

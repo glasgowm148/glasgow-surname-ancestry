@@ -1,0 +1,52 @@
+{
+  "reviewed": "2026-10-16",
+  "scope": "Murieston: George’s 1586–1605 identity is probable",
+  "profiles": {
+    "Glasgow-991": {
+      "current_sha256": "4d7377712e90b27e867f943fab2b73e82988130c3b0f42765f4c434c2cc05b71",
+      "proposed_sha256": "91a817d3c9fc2fe7b420b22efb50ae12b896cb55ab9b41ee059a3a2bb241dc67",
+      "all_substantive_passages_accounted_for": true,
+      "passages": [
+        "Every previous complete public proposal/comparison or normalized capture paragraph and captured source URL retained.",
+        "New parent choices remain uncertain; named-child parent clauses are distinguished from adult identity.",
+        "Mothers assessed separately; all date discrepancies, alternative father generations, older scaffolds and pending work retained."
+      ],
+      "source_urls_retained": [
+        "https://archive.org/details/scottishrecordso01scotuoft/page/n117/mode/1up",
+        "https://familysearch.org/ark:/61903/1:1:X1BJ-L51",
+        "https://familysearch.org/ark:/61903/1:1:X1BK-1B4",
+        "https://familysearch.org/ark:/61903/1:1:X1BK-1BW",
+        "https://familysearch.org/ark:/61903/1:1:X1BL-JXY",
+        "https://www.familysearch.org/ark:/61903/1:1:XTRF-FQX",
+        "https://www.familysearch.org/ark:/61903/1:1:XTRJ-SZX",
+        "https://www.familysearch.org/ark:/61903/1:1:XTRN-WMS",
+        "https://www.familysearch.org/ark:/61903/1:1:XY9X-4PR",
+        "https://www.familysearch.org/en/tree/person/details/LZGY-NSY"
+      ],
+      "full_comparison_withheld_for_privacy": false,
+      "private_source_urls_retained_count": 0,
+      "previous_review_path": "research/ancestry-connections/working-joins-preservation-2026-10-15.json"
+    }
+  },
+  "previous_queue_entries": {
+    "Glasgow-991": {
+      "queued_at": "2026-10-15",
+      "significance": 85,
+      "summary": "Add Andrew Glasgow of Calder as the selected uncertain working father, with logic and alternatives; preserve current facts and sources. Local model, pending owner-reviewed WikiTree amendment.",
+      "manual_update": true,
+      "draft_path": "research/Glasgow-991/Glasgow-991.md",
+      "preservation_review_path": "research/ancestry-connections/working-joins-preservation-2026-10-15.json",
+      "reviewed_narrative_reduction": true,
+      "preserve_captured_detail": false,
+      "relationship_changes": [
+        {
+          "action": "add",
+          "relationship": "father",
+          "status": "uncertain",
+          "relative_id": "Glasgow-3163",
+          "assertion_id": "C-working-20261015-glasgow-991-glasgow-3163"
+        }
+      ]
+    }
+  }
+}

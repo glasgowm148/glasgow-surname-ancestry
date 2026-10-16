@@ -1,10 +1,14 @@
 # Murieston Glasgow group, 1586–1605
 
-Reviewed: 2026-10-15
+Reviewed: 2026-10-16
 
 ## Current conclusion
 
-The original Mid Calder baptism of 17 February 1605 names father James Glasgow, provisionally in Muirestoun, and adult witness George Glasgow. The 1586 Calder muster list names George Glasgw in Mureistoun. Murieston is the probable common locality; the two older George occurrences may be one man, but no kinship is stated.
+The preferred working identification is that George Glasgw in Mureistoun in the 1586 Calder muster obligation was the adult George Glasgow who witnessed the 17 February 1605 baptism of George, son of James Glasgow in provisionally read Muirestoun. The 1605 household points to the same holding as the earlier George, within the same parish setting. The surname is specific to this local comparison, and a 19-year interval is straightforward for one adult career. A child bearing George’s name and an adult George participating in his baptism make a continuing local family association more economical than two unconnected Georges. Together these observations warrant probable rather than merely possible cross-record identity. They do not amount to independent proofs of every step.
+
+The witness’s own residence is unstated, and another George in the district remains possible. The residence reading Muirestoun and its identification as Murieston remain probable. Shared spelling and locality are related observations; McCall repeats Maidment’s 1586 act and is not a second muster occurrence. Naming the child George is supporting context, not proof of a naming rule. The 1586 act records an obligation, not attendance. Neither source gives George’s age or states a relationship to James. Father, uncle, brother, other kinsman and neighbour remain alternatives. No father is changed: Andrew Glasgow-3163 remains James’s selected uncertain father, while George is an important competing paternal or collateral explanation. George Glasgow-1099, the merchant, remains compatible but unselected; the 1586 minor’s curatorship and the 1598 marriage contract do not identify him at Murieston. No mother, birth date, identity merge or confidently marked paternal edge is added.
+
+The original Mid Calder baptism of 17 February 1605 names father James Glasgow, provisionally in Muirestoun, and adult witness George Glasgow. The 1586 Calder muster list names George Glasgw in Mureistoun. Murieston is the probable common locality; the two older George occurrences are probably one man, but no kinship is stated.
 
 This is a newly developed correlation of previously recorded occurrences, not three newly discovered events. George-1082 is the baptised child; James-991 remains the compatible father anchor, with its separate Mid Calder/Inveresk identity question. Do not confuse the child with either adult George.
 
@@ -21,7 +25,7 @@ The shared parish context and close place-name spelling make Murieston the proba
 
 ## Proposed connections and alternatives
 
-- George at Mureistoun in 1586 **possibly** equals the adult witness in 1605 (19-year interval, shared name and local setting). No age or patronymic verifies identity.
+- George at Mureistoun in 1586 **probably** equals the adult witness in 1605 (19-year interval, shared name and local setting). No age or patronymic verifies identity.
 - The witness is a **possible father or other relative of James**, but brother, uncle or unrelated neighbour are also viable. Neither record selects paternal kinship; no graph edge is added.
 - James-991 is the existing compatible anchor for the 1605 father, not proof that the Inveresk/Fisherrow James is the same man. The original adds a holding and witnesses for testing that question.
 - Glasgow-1099, the Glasgow merchant, remains compatible with either adult occurrence. His 1586 curatorship bounds birth to 1565–1572: this permits a 1586 muster-age youth and a 1605 witness, but fatherhood of an already adult James would require an earlier child than the known 1598 marriage contract. The contract does not prove a first marriage; no categorical exclusion or identification follows.
@@ -37,4 +41,9 @@ Compare the other Mid Calder baptism pages for the same holding and witnesses, t
 
 ## Connectivity accounting
 
-The 1586–1605 association is a research connection, not a selected father–son edge. No certainty upgrade is recorded. The existing paternal metric remains unchanged; the complete documentary-person draft and visible case appear at [/research/subjects/murieston-1586-1605/#george-mureistoun](/research/subjects/murieston-1586-1605/#george-mureistoun). Licensed page images remain private and are not added to the public site or retrieval corpus.
+The 1586–1605 identity is now probable, following the 16 October reassessment; this is not a selected father–son edge or a newly certain relationship. The existing paternal metric remains unchanged; the complete documentary-person draft and visible case appear at [/research/subjects/murieston-1586-1605/#george-mureistoun](/research/subjects/murieston-1586-1605/#george-mureistoun). Licensed page images remain private and are not added to the public site or retrieval corpus.
+
+
+## Confidence history — 16 October 2026
+
+Previously possible on 15 October; now probable after evaluating the combined holding, household and career argument. This is a changed assessment of existing evidence, with a fresh reading of the 1605 original; it is not a new source discovery.

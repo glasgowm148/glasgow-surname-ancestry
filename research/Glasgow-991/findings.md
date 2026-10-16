@@ -1,6 +1,12 @@
 # Findings: [James Glasgow (Glasgow-991)](https://www.wikitree.com/wiki/Glasgow-991)
 
+Last updated: 2026-10-16
+
 ## Current conclusion
+
+Reviewed: 2026-10-16
+
+**Murieston review, 16 October 2026:** the 1586 George and 1605 adult witness are now a **probable working identity**. His exact kinship to James, and Andrew’s selected father relationship, remain uncertain. [Evidence and alternatives](/branches/research-calder-inveresk-james/#murieston-george-identity-confidence).
 
 Reviewed: 2026-10-15
 
@@ -36,9 +42,7 @@ The Fisherrow tailor James and Christina Bye are compatible with this James and 
 - Andrew-3163 as father: **unsupported after correction**. Preserve the populated
   attachment as uncertain until a source identifies a specific replacement;
   do not cite CC8/8/32 as proof of a son James.
-- [[Glasgow-3183|Jonet Glasgow, wife of Martin Ramsy]] as daughter: **possible,
-  not proved**. The locality fits, but the earlier claim that Andrew excluded
-  her is false; Andrew himself is now a competing father candidate.
+- [[Glasgow-3183|Jonet Glasgow]] as James’s daughter: **superseded candidate**. She now represents Andrew’s directly named testament daughter; the later Ramsy bride identity remains probable. The earlier locality comparison and false claim that Andrew excluded her are retained as research history, not a selected James–daughter relationship.
 - The six attached children may represent one man or two. Do not split, merge
   or move them without an identifying record from original OPRs, occupations,
   witnesses or a testament.
@@ -95,3 +99,17 @@ Andrew’s documented rural Calder household is the preferred working anchor for
 **Counterevidence and alternatives:** John of Hermand-3181 is another plausible older local father. The George named at Mureistoun1586 and the George witness1605 are a competing father/relative lead; identifying that George with merchant1099 would require additional identity assumptions and young fatherhood. None is excluded. Andrew’s omission of James weakens this model; it does not disprove an older son.
 
 [Full working model and reasoning](/branches/early-scottish-records/#selected-working-joins). This adds one selected uncertain paternal edge to the local tree/network and working measure. It changes no confident relationship and performs no live WikiTree edit.
+
+
+## Murieston identity confidence — 16 October 2026
+
+The preferred working identification is that George Glasgw in Mureistoun in the 1586 Calder muster obligation was the adult George Glasgow who witnessed the 17 February 1605 baptism of George, son of James Glasgow in provisionally read Muirestoun. The 1605 household points to the same holding as the earlier George, within the same parish setting. The surname is specific to this local comparison, and a 19-year interval is straightforward for one adult career. A child bearing George’s name and an adult George participating in his baptism make a continuing local family association more economical than two unconnected Georges. Together these observations warrant probable rather than merely possible cross-record identity. They do not amount to independent proofs of every step.
+
+The witness’s own residence is unstated, and another George in the district remains possible. The residence reading Muirestoun and its identification as Murieston remain probable. Shared spelling and locality are related observations; McCall repeats Maidment’s 1586 act and is not a second muster occurrence. Naming the child George is supporting context, not proof of a naming rule. The 1586 act records an obligation, not attendance. Neither source gives George’s age or states a relationship to James. Father, uncle, brother, other kinsman and neighbour remain alternatives. No father is changed: Andrew Glasgow-3163 remains James’s selected uncertain father, while George is an important competing paternal or collateral explanation. George Glasgow-1099, the merchant, remains compatible but unselected; the 1586 minor’s curatorship and the 1598 marriage contract do not identify him at Murieston. No mother, birth date, identity merge or confidently marked paternal edge is added.
+
+This improves a specific identity assessment within the 216-profile James branch, rather than raising Andrew’s father grade. The earlier possible assessment is retained as history. The working tree, confident paternal graph and fixed cohort are unchanged. The underlying 1605 register page was freshly inspected for this review; the 1586 printed-page verification from 15 October is retained, and the court manuscript remains unread.
+
+[Complete comparison and source limits](/branches/research-calder-inveresk-james/#murieston-george-identity-confidence).
+
+- [Maidment, Analecta Scotica I (1834), art. CXVI, pp.395–396,399: George in Mureistoun, 1586; printed pages verified 15 October 2026](https://archive.org/details/analectascotica00maidgoog)
+- [NRS Mid Calder OPR 694/10 p.7, 17 February 1605: James’s child George and adult witness George; original register freshly inspected](https://www.scotlandspeople.gov.uk/)
