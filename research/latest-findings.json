@@ -28089,6 +28089,64 @@
         "research/relationship_assessments.json",
         "research/ancestry-connections/currituck-lemuel-caleb-working-family-preservation-2026-10-16.json"
       ]
+    },
+    {
+      "id": "cecil-harford-robert-working-family-2026-10-16",
+      "found_on": "2026-10-16",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Selected James and Ann as very uncertain parents of Robert, Moores-284’s husband, through the preferred 1786 Cecil Glasgow–Hartshorn association. The omitted-child counterevidence, collateral route, maternal surname and Scottish–Maryland identity remain explicit.",
+      "qualification": "Two very uncertain parent hypotheses join one existing seven-profile family to the working tree. They are one shared family reconstruction, not two independent proofs. No new person, merge, original manuscript inspection, live WikiTree save or certainty upgrade is claimed. The confidently marked measurements remain unchanged, and working connectivity does not validate the inherited Scottish–Maryland identity. Ann’s unsupported local birth estimate is corrected to unknown; the captured WikiTree fields remain unchanged. Two uncertainties are combined: whether the 1786 Robert is Apphia’s husband, and whether that man was a son rather than another relative or associate of James and Ann. Robert’s birth circa 1750 and death circa 1800 are profile estimates, not independently recorded events. The Maryland State Archives biography summarises a Cecil probate family with parents James and Ann, but does not name Robert among their children. That omission is counterevidence; the summary is not established as a complete list of every child. A nephew, cousin, another older Glasgow household or a business relationship remains possible. The 1786 notice does not identify an estate, owner, executor or relationship to Joshua. Its date after the reported 1784 deaths makes an estate explanation possible, without proving it. The Scottish and Maryland James identities remain uncertain. The Glencorse baptism of 14 February 1720 names Robert Glasgow and Margaret Davidsone, but no cited contemporary record carries that child to the Cecil family. The new parent hypothesis uses the existing colonial family account represented by Glasgow-2868; it does not prove the migration or strengthen his parents. The 1786 Robert could instead be Glasgow-2425, whose older estimated generation and broad American context remain compatible with the notice but lack a Maryland household link. That adult-identity alternative is retained without fitting the older man into the new circa 1750 son generation. No existing ancestor, spouse or child attachment is removed or upgraded. The former local circa 1766 birth for Hartshorne-320 was generated as 18 years before her 1784 death, as the imported record’s own note explains. It was not a birth date supplied by the captured profile, which leaves the date empty. It also conflicts with the existing mid-century children and the Cecil probate-family account. The local birth display is corrected to Unknown, retaining the old derived value in the imported comparison. No replacement birth year is invented; Cecil County remains her inherited, uncertain birthplace. This correction is separate from the new parent hypothesis and does not prove Robert’s maternity.",
+      "relationship_change_count": 2,
+      "people": [
+        {
+          "id": "Glasgow-395",
+          "name": "Robert Glasgow, husband of Apphia Moores",
+          "url": "/people/glasgow-395.html"
+        },
+        {
+          "id": "Glasgow-2868",
+          "name": "James Glasgow, Glencorse and Cecil accounts",
+          "url": "/people/glasgow-2868.html"
+        },
+        {
+          "id": "Hartshorne-320",
+          "name": "Ann Hartshorne",
+          "url": "/people/hartshorne-320.html"
+        },
+        {
+          "id": "Moores-284",
+          "name": "Apphia Moores",
+          "url": "/people/moores-284.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Pennsylvania Gazette,15 February 1786,p.1: Cecil plantation notice, previously inspected original; no kinship stated",
+          "url": "https://www.newspapers.com/image/41024006/"
+        },
+        {
+          "title": "Pennsylvania Gazette,1 March 1786,p.4: second issue of the same plantation notice, previously inspected",
+          "url": "https://www.newspapers.com/image/41024088/"
+        },
+        {
+          "title": "Maryland State Archives,Samuel Glasgow,MSA SC 3520-17195,Owen Lourie 2016: authored probate summary,read 16 October 2026; original wills not inspected",
+          "url": "https://msa.maryland.gov/megafile/msa/speccol/sc3500/sc3520/017100/017195/html/17195bio.html"
+        },
+        {
+          "title": "Baltimore Gazette & Daily Advertiser,23 June 1837,p.4,col.5,as cited in the captured Robert/Apphia biographies; image reference Find a Grave 105585399,not newly inspected",
+          "url": "https://www.findagrave.com/memorial/105585399"
+        },
+        {
+          "title": "James Glasgow profile: preserved Glencorse OPR 687,10/121,14 February 1720 citation and unresolved colonial identity",
+          "url": "https://www.wikitree.com/wiki/Glasgow-2868"
+        }
+      ],
+      "detail_url": "/people/glasgow-395.html",
+      "provenance": [
+        "research/relationship_assessments.json",
+        "research/ancestry-connections/cecil-harford-robert-working-family-preservation-2026-10-16.json"
+      ]
     }
   ]
 }

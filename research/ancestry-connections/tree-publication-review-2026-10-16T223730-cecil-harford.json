@@ -1,0 +1,84 @@
+{
+  "reviewed": "2026-10-16",
+  "cutoff": 1850,
+  "method_version": 3,
+  "input_fingerprint": "46f1afeeefde107b20df1a8ef393c9ee1933c3455f4aab33c072bb89a106ff20",
+  "scope": "Robert\u2019s Cecil\u2013Harford family hypothesis",
+  "genealogical_connections_added": 2,
+  "paternal_connections_added": 1,
+  "maternal_connections_added": 1,
+  "certainty_upgrades": 0,
+  "local_birth_estimate_corrections": 1,
+  "working_fathers": 57,
+  "working_mothers": 9,
+  "models": {
+    "main": {
+      "checked_historical_profiles": 1777,
+      "changed_father_fields": 1,
+      "changed_mother_fields": 1,
+      "matched_paternal_edges": 1354,
+      "added_historical_profiles": [],
+      "effective_father_field_audit": {
+        "public_father_fields_checked": 1777,
+        "empty_father_fields_checked": 415,
+        "differences": []
+      },
+      "unresolved_father_cases": [
+        "Glasgow-1367",
+        "Glasgow-2908",
+        "Glasgow-867",
+        "Glasgow-951"
+      ]
+    },
+    "standalone": {
+      "checked_historical_profiles": 1777,
+      "changed_father_fields": 1,
+      "changed_mother_fields": 1,
+      "matched_paternal_edges": 1354,
+      "added_historical_profiles": [],
+      "effective_father_field_audit": {
+        "public_father_fields_checked": 1777,
+        "empty_father_fields_checked": 415,
+        "differences": []
+      },
+      "unresolved_father_cases": [
+        "Glasgow-1367",
+        "Glasgow-2908",
+        "Glasgow-867",
+        "Glasgow-951"
+      ]
+    }
+  },
+  "publication_summary": "Two very uncertain parent hypotheses join one existing seven-profile family to the working tree. They are one shared family reconstruction, not two independent proofs. No new person, merge, original manuscript inspection, live WikiTree save or certainty upgrade is claimed. The confidently marked measurements remain unchanged, and working connectivity does not validate the inherited Scottish\u2013Maryland identity. Ann\u2019s unsupported local birth estimate is corrected to unknown; the captured WikiTree fields remain unchanged. Selected James Glasgow-2868 and Ann Hartshorne-320 as very uncertain parents of Robert Glasgow-395, through possible identity with the 1786 Cecil Robert/Joshua Hartshorn co-party. James\u2019s Scottish\u2013Maryland identity and Ann\u2019s surname remain unproved; the family summary omits Robert, and a collateral or business route remains possible. Largest working family through 1850 grows from 1,028 to 1,035 retained profiles; separate components 425 to 424, multi-child roots 47 to 46. Four complete proposals retain all prior citations and family information.",
+  "comparison": "/people/glasgow-395.html",
+  "catalogue_parent_projection": {
+    "reviewed_profiles": 191,
+    "selected_parent_assertions_checked": 66,
+    "differences": []
+  },
+  "next_metric_check": {
+    "status": "RESOLVED",
+    "saved_confident_tree_flags_not_used_by_current_metric": 0,
+    "review": "/data/ancestry-confidence-method-review.json",
+    "scope": "Status fallback; four other competing-father cases remain open."
+  },
+  "verification": {
+    "approved_chronology_displays_checked": 7,
+    "atlas_regression_tests": "tests.test_sync_ancestry_atlas; tests.test_onetree_working_hypotheses; tests.test_onetree_public_families",
+    "public_pending_updates": 227,
+    "complete_profile_comparisons": 4
+  },
+  "unresolved_parentage_review": {
+    "status": "OPEN",
+    "case_ids": [
+      "Glasgow-1367",
+      "Glasgow-2908",
+      "Glasgow-867",
+      "Glasgow-951"
+    ],
+    "confident_flag_among_competing_candidates": [
+      "Glasgow-867"
+    ],
+    "scope": "Four other competing-father cases retain their existing grades; no selection is made for them."
+  }
+}

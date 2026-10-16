@@ -1,0 +1,73 @@
+{
+  "reviewed": "2026-10-16",
+  "scope": "Robert’s Cecil–Harford family hypothesis",
+  "profiles": {
+    "Glasgow-395": {
+      "current_sha256": "a53a6d901aa5c4cc0fc0ae6841ecde2212c3d4a6ace87c36d53f1b3574278503",
+      "proposed_sha256": "ebe5da36fd46871f67240215a147a63223b126526731ff547bb4385be5636bed",
+      "all_substantive_passages_accounted_for": true,
+      "passages": [
+        "Every previous complete public proposal/comparison or normalized capture paragraph and captured source URL retained.",
+        "New parent choices remain uncertain; named-child parent clauses are distinguished from adult identity.",
+        "Mothers assessed separately; all date discrepancies, alternative father generations, older scaffolds and pending work retained."
+      ],
+      "source_urls_retained": [],
+      "full_comparison_withheld_for_privacy": false,
+      "private_source_urls_retained_count": 0
+    },
+    "Glasgow-2868": {
+      "current_sha256": "b95191b986eedad84329b5acb3fe451773bd7b807e98729804fe3d1a7f25936f",
+      "proposed_sha256": "fddb2bb7d4908c43d19a423240846b1958336f4dfd715aa0969d376affb35ea3",
+      "all_substantive_passages_accounted_for": true,
+      "passages": [
+        "Every previous complete public proposal/comparison or normalized capture paragraph and captured source URL retained.",
+        "New parent choices remain uncertain; named-child parent clauses are distinguished from adult identity.",
+        "Mothers assessed separately; all date discrepancies, alternative father generations, older scaffolds and pending work retained."
+      ],
+      "source_urls_retained": [],
+      "full_comparison_withheld_for_privacy": false,
+      "private_source_urls_retained_count": 0
+    },
+    "Hartshorne-320": {
+      "current_sha256": "a5855877a4c8a866317926a037f83b60449c024497f73fd8b2122dda117408ad",
+      "proposed_sha256": "c23ab88010dd0bf7998bbef508373166b0e74d8d78a0855b78596488f8ca41cc",
+      "all_substantive_passages_accounted_for": true,
+      "passages": [
+        "Every previous complete public proposal/comparison or normalized capture paragraph and captured source URL retained.",
+        "New parent choices remain uncertain; named-child parent clauses are distinguished from adult identity.",
+        "Mothers assessed separately; all date discrepancies, alternative father generations, older scaffolds and pending work retained."
+      ],
+      "source_urls_retained": [
+        "https://www.findagrave.com/memorial/218616666/james_glasgow"
+      ],
+      "full_comparison_withheld_for_privacy": false,
+      "private_source_urls_retained_count": 0
+    },
+    "Moores-284": {
+      "current_sha256": "db86311d964807ff530cf1a7a536438ff7efe1ac948d36b703f7da96d25f31cd",
+      "proposed_sha256": "94a9545c86b4bc4e358bd98ce2a6e883043c5d96f2715571ee29d7e9a4b5c32d",
+      "all_substantive_passages_accounted_for": true,
+      "passages": [
+        "Every previous complete public proposal/comparison or normalized capture paragraph and captured source URL retained.",
+        "New parent choices remain uncertain; named-child parent clauses are distinguished from adult identity.",
+        "Mothers assessed separately; all date discrepancies, alternative father generations, older scaffolds and pending work retained."
+      ],
+      "source_urls_retained": [],
+      "full_comparison_withheld_for_privacy": false,
+      "private_source_urls_retained_count": 0
+    }
+  },
+  "previous_queue_entries": {
+    "Glasgow-395": null,
+    "Glasgow-2868": {
+      "status": "OPEN — REMAINING CHILD CORRECTION VERIFIED 10 SEPTEMBER 2026",
+      "summary": "Replace the uncertain shipmaster Glasgow-2867 father link with the probable Glencorse candidate Glasgow-3011 in one controlled correction, retaining uncertain status and never leaving the father blank. Add the sourced identity distinction; the baptism names Robert but does not prove which same-name man he was.",
+      "work_queue_summary": "Replace the uncertain shipmaster Glasgow-2867 father link with the probable Glencorse candidate Glasgow-3011 in one controlled correction, retaining uncertain status and never leaving the father blank. Add the sourced identity distinction; the baptism names Robert but does not prove which same-name man he was.",
+      "manual_update": true,
+      "draft_path": "research/Glasgow-2868/Glasgow-2868.md",
+      "reviewed_narrative_reduction": true
+    },
+    "Hartshorne-320": null,
+    "Moores-284": null
+  }
+}

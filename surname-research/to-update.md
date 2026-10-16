@@ -1778,3 +1778,11 @@ The August completion entries remain historical. The live parent fields are now 
 | [Caleb Glasgow, older Currituck account](https://www.wikitree.com/wiki/Glasgow-363) | OPEN | Review the very uncertain Lemuel–Caleb family, alternative Caleb account, conflicting dates and will identity; no mother or merge, all earlier sources retained. |
 | [Caleb Glasgow, Pasquotank account](https://www.wikitree.com/wiki/Glasgow-830) | OPEN | Review the very uncertain Lemuel–Caleb family, alternative Caleb account, conflicting dates and will identity; no mother or merge, all earlier sources retained. |
 | [William Glasgow](https://www.wikitree.com/wiki/Glasgow-428) | OPEN | Review the very uncertain Lemuel–Caleb family, alternative Caleb account, conflicting dates and will identity; no mother or merge, all earlier sources retained. |
+
+
+## Cecil–Harford working family — 16 October 2026
+
+| [Robert Glasgow, husband of Apphia Moores](https://www.wikitree.com/wiki/Glasgow-395) | OPEN | Review the very uncertain James-and-Ann parents of Robert/Apphia’s family; retain notice identity, omitted-child counterevidence, unproved maternal surname and Scottish–Maryland continuity gap. |
+| [James Glasgow, Glencorse and Cecil accounts](https://www.wikitree.com/wiki/Glasgow-2868) | OPEN | Review the very uncertain James-and-Ann parents of Robert/Apphia’s family; retain notice identity, omitted-child counterevidence, unproved maternal surname and Scottish–Maryland continuity gap. |
+| [Ann Hartshorne](https://www.wikitree.com/wiki/Hartshorne-320) | OPEN | Review the very uncertain James-and-Ann parents of Robert/Apphia’s family; retain notice identity, omitted-child counterevidence, unproved maternal surname and Scottish–Maryland continuity gap. |
+| [Apphia Moores](https://www.wikitree.com/wiki/Moores-284) | OPEN | Review the very uncertain James-and-Ann parents of Robert/Apphia’s family; retain notice identity, omitted-child counterevidence, unproved maternal surname and Scottish–Maryland continuity gap. |

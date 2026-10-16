@@ -7003,5 +7003,105 @@
     "provenance": {
       "prior_assessment": "No parent attached to Lemuel; this modern Caleb account shares the older account’s will and FamilySearch citation. Alternative remains unselected and may resolve through duplicate identity."
     }
+  },
+  {
+    "assertion_id": "C-working-20261016-cecil-harford-robert-working-family-robert-father",
+    "people": [
+      "Glasgow-395",
+      "Glasgow-2868"
+    ],
+    "profile_names": {
+      "Glasgow-395": "Robert Glasgow, husband of Apphia Moores",
+      "Glasgow-2868": "James Glasgow, Glencorse and Cecil accounts"
+    },
+    "status": "uncertain",
+    "hypothesis_status": "possible",
+    "working_selection": true,
+    "allow_new_relationship": true,
+    "publication_status": "approved",
+    "assessment_date": "2026-10-16",
+    "evidence_grade": "Very low-confidence locality, household and generational hypothesis",
+    "claim": "Selected uncertain father for Robert Glasgow, husband of Apphia Moores",
+    "basis": "Glasgow-2868 is selected as the very uncertain working father of Glasgow-395. The preferred model identifies Moores-284’s husband with the Robert Glasgow who acted jointly with Joshua Hartshorn over a Cecil County plantation in 1786, then places him in the local Glasgow-2868–Hartshorne-320 family. The joint Glasgow/Hartshorn association gives a more specific family-network clue than surname and county alone. Robert’s estimated circa 1750 birth also fits James’s circa 1720 generation and the existing Cecil children’s mid-century dates. The Harford family context and Cecil land occurrence concern neighboring Maryland counties. This is a conditional reconstruction, not a father statement in either notice.",
+    "limitations": "Two uncertainties are combined: whether the 1786 Robert is Apphia’s husband, and whether that man was a son rather than another relative or associate of James and Ann. Robert’s birth circa 1750 and death circa 1800 are profile estimates, not independently recorded events. The Maryland State Archives biography summarises a Cecil probate family with parents James and Ann, but does not name Robert among their children. That omission is counterevidence; the summary is not established as a complete list of every child. A nephew, cousin, another older Glasgow household or a business relationship remains possible. The 1786 notice does not identify an estate, owner, executor or relationship to Joshua. Its date after the reported 1784 deaths makes an estate explanation possible, without proving it. The Scottish and Maryland James identities remain uncertain. The Glencorse baptism of 14 February 1720 names Robert Glasgow and Margaret Davidsone, but no cited contemporary record carries that child to the Cecil family. The new parent hypothesis uses the existing colonial family account represented by Glasgow-2868; it does not prove the migration or strengthen his parents. The 1786 Robert could instead be Glasgow-2425, whose older estimated generation and broad American context remain compatible with the notice but lack a Maryland household link. That adult-identity alternative is retained without fitting the older man into the new circa 1750 son generation. No existing ancestor, spouse or child attachment is removed or upgraded. Two very uncertain parent hypotheses join one existing seven-profile family to the working tree. They are one shared family reconstruction, not two independent proofs. No new person, merge, original manuscript inspection, live WikiTree save or certainty upgrade is claimed. The confidently marked measurements remain unchanged, and working connectivity does not validate the inherited Scottish–Maryland identity. Ann’s unsupported local birth estimate is corrected to unknown; the captured WikiTree fields remain unchanged.",
+    "source_ids": [
+      "cecil-robert-joshua-hartshorn-plantation-1786",
+      "cecil-glasgow-probate-family-msa-17195",
+      "baltimore-robert-apphia-court-notice-1837"
+    ],
+    "model_note": "Two uncertainties are combined: whether the 1786 Robert is Apphia’s husband, and whether that man was a son rather than another relative or associate of James and Ann. Robert’s birth circa 1750 and death circa 1800 are profile estimates, not independently recorded events. The Maryland State Archives biography summarises a Cecil probate family with parents James and Ann, but does not name Robert among their children. That omission is counterevidence; the summary is not established as a complete list of every child. A nephew, cousin, another older Glasgow household or a business relationship remains possible. The 1786 notice does not identify an estate, owner, executor or relationship to Joshua. Its date after the reported 1784 deaths makes an estate explanation possible, without proving it. The Scottish and Maryland James identities remain uncertain. The Glencorse baptism of 14 February 1720 names Robert Glasgow and Margaret Davidsone, but no cited contemporary record carries that child to the Cecil family. The new parent hypothesis uses the existing colonial family account represented by Glasgow-2868; it does not prove the migration or strengthen his parents. The 1786 Robert could instead be Glasgow-2425, whose older estimated generation and broad American context remain compatible with the notice but lack a Maryland household link. That adult-identity alternative is retained without fitting the older man into the new circa 1750 son generation. No existing ancestor, spouse or child attachment is removed or upgraded. Two very uncertain parent hypotheses join one existing seven-profile family to the working tree. They are one shared family reconstruction, not two independent proofs. No new person, merge, original manuscript inspection, live WikiTree save or certainty upgrade is claimed. The confidently marked measurements remain unchanged, and working connectivity does not validate the inherited Scottish–Maryland identity. Ann’s unsupported local birth estimate is corrected to unknown; the captured WikiTree fields remain unchanged.",
+    "perspectives": {
+      "Glasgow-395": {
+        "relationship": "father",
+        "status_label": "Uncertain father; selected working family",
+        "reason": "Glasgow-2868 is selected as the very uncertain working father of Glasgow-395. The preferred model identifies Moores-284’s husband with the Robert Glasgow who acted jointly with Joshua Hartshorn over a Cecil County plantation in 1786, then places him in the local Glasgow-2868–Hartshorne-320 family. The joint Glasgow/Hartshorn association gives a more specific family-network clue than surname and county alone. Robert’s estimated circa 1750 birth also fits James’s circa 1720 generation and the existing Cecil children’s mid-century dates. The Harford family context and Cecil land occurrence concern neighboring Maryland counties. This is a conditional reconstruction, not a father statement in either notice."
+      },
+      "Glasgow-2868": {
+        "relationship": "son",
+        "status_label": "Uncertain son; selected working family",
+        "reason": "Glasgow-2868 is selected as the very uncertain working father of Glasgow-395. The preferred model identifies Moores-284’s husband with the Robert Glasgow who acted jointly with Joshua Hartshorn over a Cecil County plantation in 1786, then places him in the local Glasgow-2868–Hartshorne-320 family. The joint Glasgow/Hartshorn association gives a more specific family-network clue than surname and county alone. Robert’s estimated circa 1750 birth also fits James’s circa 1720 generation and the existing Cecil children’s mid-century dates. The Harford family context and Cecil land occurrence concern neighboring Maryland counties. This is a conditional reconstruction, not a father statement in either notice."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Robert’s Cecil–Harford family hypothesis",
+        "href": "/people/glasgow-395.html"
+      }
+    ],
+    "provenance": {
+      "prior_assessment": "No selected parent on this account; existing local records and family-network reviews supplied the model.",
+      "basis": "Previously inspected 1786 Glasgow–Hartshorn notice, captured 1837 court account and archives-authored Cecil family summary; notice identity and parentage remain very uncertain.",
+      "resolution_note": "Selected uncertain parent only; no new certainty, merge or live save."
+    }
+  },
+  {
+    "assertion_id": "C-working-20261016-cecil-harford-robert-working-family-robert-mother",
+    "people": [
+      "Glasgow-395",
+      "Hartshorne-320"
+    ],
+    "profile_names": {
+      "Glasgow-395": "Robert Glasgow, husband of Apphia Moores",
+      "Hartshorne-320": "Ann Hartshorne"
+    },
+    "status": "uncertain",
+    "hypothesis_status": "possible",
+    "working_selection": true,
+    "allow_new_relationship": true,
+    "publication_status": "approved",
+    "assessment_date": "2026-10-16",
+    "evidence_grade": "Very low-confidence locality, household and generational hypothesis",
+    "claim": "Selected uncertain mother for Robert Glasgow, husband of Apphia Moores",
+    "basis": "Hartshorne-320 is separately selected as Robert’s very uncertain working mother. The positive clue is the Hartshorn co-party in the 1786 land notice, combined with the existing attribution of this Cecil wife as Ann Hartshorne and her place in the mid-century family. Her age is unknown, but the family attribution places an adult Ann in the appropriate generation. The archival biography calls the mother Ann without supplying her maiden surname; the Hartshorne identification is inherited from the present profile and remains unproved here. Joshua is not identified as her relative, and a joint land transaction need not reflect maternal kin. This maternal hypothesis depends on the same conditional notice identity and family reconstruction as the father hypothesis; it is not independent corroboration of them. A different mother or a collateral Hartshorn connection remains possible.",
+    "limitations": "Two uncertainties are combined: whether the 1786 Robert is Apphia’s husband, and whether that man was a son rather than another relative or associate of James and Ann. Robert’s birth circa 1750 and death circa 1800 are profile estimates, not independently recorded events. The Maryland State Archives biography summarises a Cecil probate family with parents James and Ann, but does not name Robert among their children. That omission is counterevidence; the summary is not established as a complete list of every child. A nephew, cousin, another older Glasgow household or a business relationship remains possible. The 1786 notice does not identify an estate, owner, executor or relationship to Joshua. Its date after the reported 1784 deaths makes an estate explanation possible, without proving it. The Scottish and Maryland James identities remain uncertain. The Glencorse baptism of 14 February 1720 names Robert Glasgow and Margaret Davidsone, but no cited contemporary record carries that child to the Cecil family. The new parent hypothesis uses the existing colonial family account represented by Glasgow-2868; it does not prove the migration or strengthen his parents. The 1786 Robert could instead be Glasgow-2425, whose older estimated generation and broad American context remain compatible with the notice but lack a Maryland household link. That adult-identity alternative is retained without fitting the older man into the new circa 1750 son generation. No existing ancestor, spouse or child attachment is removed or upgraded. Two very uncertain parent hypotheses join one existing seven-profile family to the working tree. They are one shared family reconstruction, not two independent proofs. No new person, merge, original manuscript inspection, live WikiTree save or certainty upgrade is claimed. The confidently marked measurements remain unchanged, and working connectivity does not validate the inherited Scottish–Maryland identity. Ann’s unsupported local birth estimate is corrected to unknown; the captured WikiTree fields remain unchanged.",
+    "source_ids": [
+      "cecil-robert-joshua-hartshorn-plantation-1786",
+      "cecil-glasgow-probate-family-msa-17195",
+      "baltimore-robert-apphia-court-notice-1837"
+    ],
+    "model_note": "Two uncertainties are combined: whether the 1786 Robert is Apphia’s husband, and whether that man was a son rather than another relative or associate of James and Ann. Robert’s birth circa 1750 and death circa 1800 are profile estimates, not independently recorded events. The Maryland State Archives biography summarises a Cecil probate family with parents James and Ann, but does not name Robert among their children. That omission is counterevidence; the summary is not established as a complete list of every child. A nephew, cousin, another older Glasgow household or a business relationship remains possible. The 1786 notice does not identify an estate, owner, executor or relationship to Joshua. Its date after the reported 1784 deaths makes an estate explanation possible, without proving it. The Scottish and Maryland James identities remain uncertain. The Glencorse baptism of 14 February 1720 names Robert Glasgow and Margaret Davidsone, but no cited contemporary record carries that child to the Cecil family. The new parent hypothesis uses the existing colonial family account represented by Glasgow-2868; it does not prove the migration or strengthen his parents. The 1786 Robert could instead be Glasgow-2425, whose older estimated generation and broad American context remain compatible with the notice but lack a Maryland household link. That adult-identity alternative is retained without fitting the older man into the new circa 1750 son generation. No existing ancestor, spouse or child attachment is removed or upgraded. Two very uncertain parent hypotheses join one existing seven-profile family to the working tree. They are one shared family reconstruction, not two independent proofs. No new person, merge, original manuscript inspection, live WikiTree save or certainty upgrade is claimed. The confidently marked measurements remain unchanged, and working connectivity does not validate the inherited Scottish–Maryland identity. Ann’s unsupported local birth estimate is corrected to unknown; the captured WikiTree fields remain unchanged.",
+    "perspectives": {
+      "Glasgow-395": {
+        "relationship": "mother",
+        "status_label": "Uncertain mother; selected working family",
+        "reason": "Hartshorne-320 is separately selected as Robert’s very uncertain working mother. The positive clue is the Hartshorn co-party in the 1786 land notice, combined with the existing attribution of this Cecil wife as Ann Hartshorne and her place in the mid-century family. Her age is unknown, but the family attribution places an adult Ann in the appropriate generation. The archival biography calls the mother Ann without supplying her maiden surname; the Hartshorne identification is inherited from the present profile and remains unproved here. Joshua is not identified as her relative, and a joint land transaction need not reflect maternal kin. This maternal hypothesis depends on the same conditional notice identity and family reconstruction as the father hypothesis; it is not independent corroboration of them. A different mother or a collateral Hartshorn connection remains possible."
+      },
+      "Hartshorne-320": {
+        "relationship": "son",
+        "status_label": "Uncertain son; selected working family",
+        "reason": "Hartshorne-320 is separately selected as Robert’s very uncertain working mother. The positive clue is the Hartshorn co-party in the 1786 land notice, combined with the existing attribution of this Cecil wife as Ann Hartshorne and her place in the mid-century family. Her age is unknown, but the family attribution places an adult Ann in the appropriate generation. The archival biography calls the mother Ann without supplying her maiden surname; the Hartshorne identification is inherited from the present profile and remains unproved here. Joshua is not identified as her relative, and a joint land transaction need not reflect maternal kin. This maternal hypothesis depends on the same conditional notice identity and family reconstruction as the father hypothesis; it is not independent corroboration of them. A different mother or a collateral Hartshorn connection remains possible."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Robert’s Cecil–Harford family hypothesis",
+        "href": "/people/glasgow-395.html"
+      }
+    ],
+    "provenance": {
+      "prior_assessment": "No selected parent on this account; existing local records and family-network reviews supplied the model.",
+      "basis": "Previously inspected 1786 Glasgow–Hartshorn notice, captured 1837 court account and archives-authored Cecil family summary; notice identity and parentage remain very uncertain.",
+      "resolution_note": "Selected uncertain parent only; no new certainty, merge or live save."
+    }
   }
 ]

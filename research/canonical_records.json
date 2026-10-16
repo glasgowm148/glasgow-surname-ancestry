@@ -3351,5 +3351,73 @@
         "role": "possible testator account"
       }
     }
+  },
+  {
+    "record_id": "cecil-robert-joshua-hartshorn-plantation-1786",
+    "date": "Notice dated 10 February 1786; proposed sale 10 March 1786",
+    "year": 1786,
+    "place": "North Susquehanna Hundred,Cecil County,Maryland",
+    "source_title": "Pennsylvania Gazette,15 February 1786,p.1: Cecil plantation notice, previously inspected original; no kinship stated",
+    "source_url": "https://www.newspapers.com/image/41024006/",
+    "status": "Previously inspected notice; modern Robert identity remains possible",
+    "note": "Two issues repeat one proposed 260-acre sale,with possession offered jointly by Robert Glasgow and Joshua Hartshorn. No owner, estate, kinship or completed sale is established. Glasgow-395 is preferred only within the very uncertain working model; James and Ann are not named.",
+    "profiles": {
+      "Glasgow-395": {
+        "role": "Possible notice identity; selected working hypothesis only",
+        "timeline_group": "Collateral records"
+      },
+      "Glasgow-2868": {
+        "role": "Proposed father context; not named in this notice",
+        "timeline_group": "Collateral records"
+      },
+      "Hartshorne-320": {
+        "role": "Proposed mother context; not named in this notice",
+        "timeline_group": "Collateral records"
+      }
+    }
+  },
+  {
+    "record_id": "cecil-glasgow-probate-family-msa-17195",
+    "date": "Probate references 1780–1784,summarised 2016",
+    "year": 1784,
+    "place": "Cecil County,Maryland",
+    "source_title": "Maryland State Archives,Samuel Glasgow,MSA SC 3520-17195,Owen Lourie 2016: authored probate summary,read 16 October 2026; original wills not inspected",
+    "source_url": "https://msa.maryland.gov/megafile/msa/speccol/sc3500/sc3520/017100/017195/html/17195bio.html",
+    "status": "Archives-authored secondary family summary; original wills not inspected",
+    "note": "Names a James-and-Ann family and seven children,not Robert. It does not establish Ann’s maiden name or the Scottish child’s identity. The summary’s soldier identification is also conditional; no new soldier-to-family claim is made.",
+    "profiles": {
+      "Glasgow-2868": {
+        "role": "Colonial father account; Glencorse identity unproved",
+        "timeline_group": "Collateral records"
+      },
+      "Hartshorne-320": {
+        "role": "Ann named as mother in the family summary; maiden surname unproved",
+        "timeline_group": "Collateral records"
+      },
+      "Glasgow-395": {
+        "role": "Proposed additional child; not named in the summary",
+        "timeline_group": "Collateral records"
+      }
+    }
+  },
+  {
+    "record_id": "baltimore-robert-apphia-court-notice-1837",
+    "date": "23 June 1837",
+    "year": 1837,
+    "place": "Baltimore,Maryland; court-notice publication,not established residence",
+    "source_title": "Baltimore Gazette & Daily Advertiser,23 June 1837,p.4,col.5,as cited in the captured Robert/Apphia biographies; image reference Find a Grave 105585399,not newly inspected",
+    "source_url": "https://www.findagrave.com/memorial/105585399",
+    "status": "Captured profile citation and family account; original not newly inspected",
+    "note": "Robert and Apphia,deceased,with daughter Elizabeth wife of John Clendenin and deceased son James,who left four children. No parents of Robert are named; no new confidence grade is assigned to existing relationships.",
+    "profiles": {
+      "Glasgow-395": {
+        "role": "Named deceased husband/father in captured notice account",
+        "timeline_group": "Collateral records"
+      },
+      "Moores-284": {
+        "role": "Named deceased wife/mother in captured notice account",
+        "timeline_group": "Collateral records"
+      }
+    }
   }
 ]

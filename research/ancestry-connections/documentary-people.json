@@ -418,6 +418,46 @@
         "deathplace": "Dublin, Ireland",
         "lifeLabel": "Selected elder watchmaker account; Scottish identity uncertain"
       }
+    },
+    {
+      "id": "Hartshorne-320",
+      "publication_status": "approved",
+      "source_ids": [
+        "cecil-glasgow-probate-family-msa-17195"
+      ],
+      "assessment_id": "chronology-ann-hartshorne-20261016",
+      "reviewed": "2026-10-16",
+      "birth_year": null,
+      "reason": "The former local circa 1766 birth for Hartshorne-320 was generated as 18 years before her 1784 death, as the imported record’s own note explains. It was not a birth date supplied by the captured profile, which leaves the date empty. It also conflicts with the existing mid-century children and the Cecil probate-family account. The local birth display is corrected to Unknown, retaining the old derived value in the imported comparison. No replacement birth year is invented; Cecil County remains her inherited, uncertain birthplace. This correction is separate from the new parent hypothesis and does not prove Robert’s maternity.",
+      "vitals": {
+        "birth": {
+          "date": null,
+          "display_date": "Unknown",
+          "place": "Cecil County, Maryland",
+          "status": "unknown",
+          "place_status": "uncertain",
+          "qualifier": "The former local circa 1766 birth for Hartshorne-320 was generated as 18 years before her 1784 death, as the imported record’s own note explains. It was not a birth date supplied by the captured profile, which leaves the date empty. It also conflicts with the existing mid-century children and the Cecil probate-family account. The local birth display is corrected to Unknown, retaining the old derived value in the imported comparison. No replacement birth year is invented; Cecil County remains her inherited, uncertain birthplace. This correction is separate from the new parent hypothesis and does not prove Robert’s maternity.",
+          "source_url": "https://www.wikitree.com/wiki/Hartshorne-320"
+        }
+      },
+      "tree_display": {
+        "born": null,
+        "birthDisplay": "Unknown",
+        "bornApprox": false
+      },
+      "catalogue_projection": {
+        "birth": "Unknown",
+        "birth_year": null,
+        "birth_note": "The former local circa 1766 birth for Hartshorne-320 was generated as 18 years before her 1784 death, as the imported record’s own note explains. It was not a birth date supplied by the captured profile, which leaves the date empty. It also conflicts with the existing mid-century children and the Cecil probate-family account. The local birth display is corrected to Unknown, retaining the old derived value in the imported comparison. No replacement birth year is invented; Cecil County remains her inherited, uncertain birthplace. This correction is separate from the new parent hypothesis and does not prove Robert’s maternity.",
+        "date_years": [
+          1784
+        ],
+        "field_statuses": {
+          "birth": "unknown",
+          "birth_location": "uncertain",
+          "death": "unmarked"
+        }
+      }
     }
   ]
 }

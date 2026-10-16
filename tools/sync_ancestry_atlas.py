@@ -13,6 +13,11 @@ WORKING_PERSON_FIELDS = (
     'locationColor', 'cluster', 'researchUrl',
 )
 
+CHRONOLOGY_DISPLAY_FIELDS = (
+    'born', 'died', 'year', 'birthDisplay', 'deathDisplay', 'lifeLabel',
+    'deathplace', 'deathLocationRegion', 'bornApprox',
+)
+
 def parent_order(row: dict) -> tuple:
     """One layout attachment; the other independently graded parent stays listed."""
     status = str(row.get('status', '')).replace('-', '_').casefold()
@@ -121,6 +126,14 @@ def overlay_model(retained: dict, fresh: dict) -> dict:
             existing[father]['priorWorkingChildren'] = deepcopy(incoming[father].get('priorWorkingChildren', []))
         elif father in prior_alternatives:
             existing[father].pop('priorWorkingChildren', None)
+    # Explicitly reviewed chronology may correct a parent's retained display.
+    # A new working relationship alone still preserves the approved dates.
+    chronology = fresh['meta'].get('reviewedChronologyDisplay', {})
+    for ident, fields in chronology.items():
+        if ident not in existing:
+            raise ValueError('Reviewed chronology subject absent from atlas: ' + ident)
+        existing[ident].update({key: deepcopy(value) for key, value in fields.items()
+                               if key in CHRONOLOGY_DISPLAY_FIELDS})
     result['people'] = list(existing.values())
     for p in result['people']:
         parent = p.get('edge', {}).get('parent')
@@ -140,6 +153,7 @@ def overlay_model(retained: dict, fresh: dict) -> dict:
                           reviewedFamilyRestorationIds=sorted(restored),
                           workingParentAlternativeIds=sorted(alternative_parents),
                           workingMotherIds=sorted(working_mothers),
+                          reviewedChronologyDisplay=deepcopy(chronology),
                           maternalHypotheses=fresh['meta'].get('maternalHypotheses', 0),
                           parentRelationships=sum(len(p.get('parents', [])) for p in people),
                           workingOverlayIds=sorted(selected),

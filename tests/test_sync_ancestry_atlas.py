@@ -6,6 +6,30 @@ from tools.sync_ancestry_atlas import overlay_model
 
 
 class AtlasWorkingTests(unittest.TestCase):
+    def test_reviewed_parent_chronology_can_clear_an_unsupported_birth(self):
+        old = {'meta': {}, 'landmarks': [], 'sections': [], 'people': [
+            {'id': '@root', 'kind': 'group'},
+            {'id': 'Child-1', 'kind': 'person', 'parents': [], 'edge': {'parent': '@root'}},
+            {'id': 'Mother-1', 'kind': 'person', 'name': 'Approved name', 'born': 1766,
+             'birthDisplay': 'c. 1766', 'died': 1784, 'birthplace': 'Approved place',
+             'note': 'Approved account', 'childrenRecorded': []}]}
+        fresh = deepcopy(old)
+        fresh['meta'].update(date='2026-10-16', workingMotherIds=['Mother-1'])
+        fresh['people'][1].update(parents=[{'id': 'Mother-1', 'role': 'mother'}],
+                                  edge={'parent': 'Mother-1', 'type': 'hypothesis'})
+        fresh['people'][2].update(born=None, birthDisplay='Unknown', birthplace='Unreviewed place')
+        self.assertEqual(overlay_model(old, fresh)['people'][2]['born'], 1766)
+        fresh['meta']['reviewedChronologyDisplay'] = {
+            'Mother-1': {'born': None, 'birthDisplay': 'Unknown', 'name': 'Unreviewed name'}}
+        out = overlay_model(old, fresh)
+        mother = out['people'][2]
+        self.assertIsNone(mother['born'])
+        self.assertEqual(mother['birthDisplay'], 'Unknown')
+        self.assertEqual((mother['name'], mother['birthplace'], mother['note'], mother['died']),
+                         ('Approved name', 'Approved place', 'Approved account', 1784))
+        self.assertEqual(old['people'][2]['born'], 1766)
+        self.assertEqual(overlay_model(out, fresh), out)
+
     def test_retained_only_parent_archives_both_replaced_children_and_reverts(self):
         old = {'meta': {}, 'landmarks': [], 'sections': [], 'people': [
             {'id': '@root', 'kind': 'group'},

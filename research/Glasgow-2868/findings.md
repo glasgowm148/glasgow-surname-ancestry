@@ -1,8 +1,12 @@
 # Findings: James Glasgow (Glasgow-2868), Glencorse, 1720
 
-Last updated: 2026-09-10
+Last updated: 2026-10-16
 
 ## Current conclusion
+
+Reviewed: 2026-10-16
+
+**Selected very uncertain family,16 October 2026:** Glasgow-395 is placed under Glasgow-2868 and Hartshorne-320 through the preferred 1786 Glasgow–Hartshorn association. Notice identity, omitted-child counterevidence, maternal surname and the Scottish–Maryland identity remain unresolved. [Evidence and alternatives](/people/glasgow-395.html).
 
 The 14 February 1720 Glencorse baptism directly names James's parents as Robert Glasgow and Margaret Davidsone. It does not identify that Robert as `Glasgow-2867`, the 1754 master of the *John and Archibald*; retain that shipmaster identification as uncertain. `Glasgow-3011` is the probable Glencorse-father candidate, not a proved identification. No contemporary record yet connects this Scottish child to the claimed Maryland family.
 
@@ -99,3 +103,22 @@ James Glasgow, living at Christiana Bridge, signs a notice dated 12 March 1785 o
 - [Jackson’s Oxford Journal, 1779-04-10, p.3](https://www.newspapers.com/image/396539533/): no longer a candidate for this profile. April 1779 reports of the Hackman/Martha Ray shooting name James Glasgow, chairman (sedan-chair carrier), who took the pistol and handed it to Halliburton. A London chairman with no identifying detail; no WikiTree profile can be assigned.
 - [The Pennsylvania Journal, or, Weekly Advertiser, 1785-03-23, p.2](https://www.newspapers.com/image/1034008744/): no longer a candidate for this profile. James Glasgow, living at Christiana Bridge (New Castle County, Delaware), advertised a Wilmington tanyard then occupied by Thomas Glenn in March 1785. He is very likely the same man as the 1782 Christiana Bridge advertiser of the former Whitlock tanyard, but no WikiTree profile can be identified: Glasgow-3290 is a possible candidate only, and Glasgow-2868 and Glasgow-634 conflict on chronology or residence.
 - [Kline's Carlisle Weekly Gazette, 1795-07-15, p.3](https://www.newspapers.com/image/1033874474/): no longer a candidate for this profile. James Glasgow, Marsh Creek, appears in a Carlisle names-and-addresses list reprinted in July–August 1795. No WikiTree profile fits: the Cecil County Jameses are recorded dead before 1795, and the North Carolina Secretary of State lived elsewhere. A profile draft is needed only if further records identify him.
+
+
+## Selected uncertain family — 16 October 2026
+
+Glasgow-2868 is selected as the very uncertain working father of Glasgow-395. The preferred model identifies Moores-284’s husband with the Robert Glasgow who acted jointly with Joshua Hartshorn over a Cecil County plantation in 1786, then places him in the local Glasgow-2868–Hartshorne-320 family. The joint Glasgow/Hartshorn association gives a more specific family-network clue than surname and county alone. Robert’s estimated circa 1750 birth also fits James’s circa 1720 generation and the existing Cecil children’s mid-century dates. The Harford family context and Cecil land occurrence concern neighboring Maryland counties. This is a conditional reconstruction, not a father statement in either notice.
+
+Two uncertainties are combined: whether the 1786 Robert is Apphia’s husband, and whether that man was a son rather than another relative or associate of James and Ann. Robert’s birth circa 1750 and death circa 1800 are profile estimates, not independently recorded events. The Maryland State Archives biography summarises a Cecil probate family with parents James and Ann, but does not name Robert among their children. That omission is counterevidence; the summary is not established as a complete list of every child. A nephew, cousin, another older Glasgow household or a business relationship remains possible. The 1786 notice does not identify an estate, owner, executor or relationship to Joshua. Its date after the reported 1784 deaths makes an estate explanation possible, without proving it.
+
+The Scottish and Maryland James identities remain uncertain. The Glencorse baptism of 14 February 1720 names Robert Glasgow and Margaret Davidsone, but no cited contemporary record carries that child to the Cecil family. The new parent hypothesis uses the existing colonial family account represented by Glasgow-2868; it does not prove the migration or strengthen his parents. The 1786 Robert could instead be Glasgow-2425, whose older estimated generation and broad American context remain compatible with the notice but lack a Maryland household link. That adult-identity alternative is retained without fitting the older man into the new circa 1750 son generation. No existing ancestor, spouse or child attachment is removed or upgraded.
+
+Two very uncertain parent hypotheses join one existing seven-profile family to the working tree. They are one shared family reconstruction, not two independent proofs. No new person, merge, original manuscript inspection, live WikiTree save or certainty upgrade is claimed. The confidently marked measurements remain unchanged, and working connectivity does not validate the inherited Scottish–Maryland identity. Ann’s unsupported local birth estimate is corrected to unknown; the captured WikiTree fields remain unchanged.
+
+[Complete comparison and source limits](/people/glasgow-395.html).
+
+- [Pennsylvania Gazette,15 February 1786,p.1: Cecil plantation notice, previously inspected original; no kinship stated](https://www.newspapers.com/image/41024006/)
+- [Pennsylvania Gazette,1 March 1786,p.4: second issue of the same plantation notice, previously inspected](https://www.newspapers.com/image/41024088/)
+- [Maryland State Archives,Samuel Glasgow,MSA SC 3520-17195,Owen Lourie 2016: authored probate summary,read 16 October 2026; original wills not inspected](https://msa.maryland.gov/megafile/msa/speccol/sc3500/sc3520/017100/017195/html/17195bio.html)
+- [Baltimore Gazette & Daily Advertiser,23 June 1837,p.4,col.5,as cited in the captured Robert/Apphia biographies; image reference Find a Grave 105585399,not newly inspected](https://www.findagrave.com/memorial/105585399)
+- [James Glasgow profile: preserved Glencorse OPR 687,10/121,14 February 1720 citation and unresolved colonial identity](https://www.wikitree.com/wiki/Glasgow-2868)

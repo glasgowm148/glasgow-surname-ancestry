@@ -19,7 +19,7 @@ sys.path.insert(0, str(ROOT))
 
 from tools.project_paths import merged_map_profiles  # noqa: E402
 from tools.documentary_ancestry import load_chronology, load_people  # noqa: E402
-from tools.sync_ancestry_atlas import parent_order  # noqa: E402
+from tools.sync_ancestry_atlas import CHRONOLOGY_DISPLAY_FIELDS, parent_order  # noqa: E402
 
 
 WIKITREE = "https://www.wikitree.com/wiki/"
@@ -509,11 +509,12 @@ def generate_model(catalogue_path: Path, prior: dict) -> dict:
         })
 
     documentary = load_people(DOCUMENTARY_PEOPLE)
-    for revision in load_chronology(DOCUMENTARY_PEOPLE):
+    chronology = load_chronology(DOCUMENTARY_PEOPLE)
+    for revision in chronology:
         for person in people:
             if person['id'] == revision['id']:
                 display = revision.get('tree_display') or {}
-                person.update({k: display[k] for k in ('born', 'died', 'year', 'birthDisplay', 'deathDisplay', 'lifeLabel', 'deathplace', 'deathLocationRegion') if k in display})
+                person.update({k: display[k] for k in CHRONOLOGY_DISPLAY_FIELDS if k in display})
                 person['note'] = (person.get('note', '') + ' ' + revision['reason']).strip()
     for person in documentary:
         if person['id'] in public_ids:
@@ -673,6 +674,8 @@ def generate_model(catalogue_path: Path, prior: dict) -> dict:
             "reviewedFamilyRestorationIds": restored_family_ids,
             "workingParentAlternativeIds": sorted({r['id'] for p in people for r in p.get('priorWorkingParents', [])}),
             "workingMotherIds": sorted({r['id'] for p in people for r in p.get('parents', []) if r.get('role') == 'mother' and r.get('hypothesis')}),
+            "reviewedChronologyDisplay": {r['id']: {k: v for k, v in r.get('tree_display', {}).items()
+                if k in CHRONOLOGY_DISPLAY_FIELDS} for r in chronology if r['id'] in people_by_id},
             **public_family_sync,
             "maternalHypotheses": maternal_hypotheses,
             "method": "Current family fields come from the public catalogue, alongside named documentary ancestors with complete sourced accounts. Documentary record periods are not birth dates. Selected working hypotheses remain marked uncertain and counted separately. One parent drives the drawing; collection nodes do not assert common ancestry.",
