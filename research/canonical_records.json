@@ -3253,5 +3253,55 @@
         "role": "existing account for bride; not selected as Meath Patrick’s mother"
       }
     }
+  },
+  {
+    "record_id": "corvanaghan-james-householder-1766",
+    "date": "1766",
+    "year": 1766,
+    "place": "Corvanaghan, Kildress parish, County Tyrone",
+    "source_title": "National Archives of Ireland,IHP/1/667,1766 Kildress religious return: Corvanaghan James; previously reviewed record",
+    "source_url": "https://virtualtreasury.ie/item/NAI-IHP-1-667",
+    "status": "Previously reviewed religious return and transcript",
+    "note": "Protestant householder James; no age, wife, children, birthplace, father or later history.",
+    "profiles": {
+      "Glasgow-2988": {
+        "role": "recorded householder account"
+      }
+    }
+  },
+  {
+    "record_id": "moneymore-james-faris-family-attribution",
+    "date": "Family attribution published 1990; historical generation undated",
+    "place": "Moneymore, County Londonderry",
+    "source_title": "David Faris,The Glasgow Family of Adams County,Ohio(1990),catalogue; inherited Moneymore father attribution, underlying evidence not inspected",
+    "source_url": "https://search.worldcat.org/title/22731567",
+    "status": "Inherited later family-history attribution; underlying evidence not inspected",
+    "note": "Names Robert’s father as James of Moneymore; does not prove the Corvanaghan identity, an older James father or migration package.",
+    "profiles": {
+      "Glasgow-1024": {
+        "role": "account for reported Moneymore father"
+      },
+      "Glasgow-12": {
+        "role": "reported son; parent attribution unproved"
+      }
+    }
+  },
+  {
+    "record_id": "james-drumcarn-will-index-1759",
+    "date": "17 January 1759; document/date meaning and profile identity unresolved",
+    "year": 1759,
+    "place": "Drumcarn, County Tyrone",
+    "source_title": "PRONI name-search detail previously reviewed: James Glasgow,Drumcarn,17 January 1759; testator identity unresolved",
+    "source_url": "https://www.proni.gov.uk/name-search",
+    "status": "Previously reviewed PRONI index detail; no new original inspection",
+    "note": "Drumcarn, not Drumearn. No age or kin. Retained comparison only; not a father clause or a newly established death date.",
+    "profiles": {
+      "Glasgow-1025": {
+        "role": "possible older profile account; identity unproved"
+      },
+      "Glasgow-1024": {
+        "role": "possible competing profile account; identity unproved"
+      }
+    }
   }
 ]

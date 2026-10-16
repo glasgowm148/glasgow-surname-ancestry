@@ -1,5 +1,7 @@
 # Findings: [James Glasgow (Glasgow-1024)](https://www.wikitree.com/wiki/Glasgow-1024)
 
+Last updated: 2026-10-16
+
 > **Draft only.** Make no live WikiTree changes while research on [Glasgow-3305](https://www.wikitree.com/wiki/Glasgow-3305) is active.
 
 ## Current-profile material preserved
@@ -25,7 +27,11 @@ The 1766 return for Moneymore and Ballygrooby contains no Glasgow or Harkness ho
 
 The working conclusion is that `Glasgow-1024` is a composite of a late father tradition, a 1995 pedigree, early Augusta/Cecil records, an 1804 Pennsylvania naturalisation applicant and the unrelated 1831 Cookstown burial.
 
-## Conclusion
+## Current conclusion
+
+Reviewed: 2026-10-16
+
+**Selected very uncertain Corvanaghan–Moneymore model,16 October 2026:** James Glasgow-2988 is placed under James Glasgow-1025 through possible identity with the Moneymore James Glasgow-1024. The older pedigree remains unproved, the Mitchell-family identity remains an alternative, and no mother or migration is inferred. [Evidence and alternatives](/branches/research-irish-derryloran/#corvanaghan-moneymore-working-family).
 
 This profile conflates an unproved **James Glasgow of Moneymore** with several same-name men and records. The defensible core is David Faris's secondary statement that [Robert Glasgow (Glasgow-12)](https://www.wikitree.com/wiki/Glasgow-12) was a son of “James Glasgow of Moneymore.” Robert's pension proves Robert's County Derry birth and 1769 migration but does not name his father.
 
@@ -235,3 +241,29 @@ The 1766 Kildress return naming James Glasgow, Protestant, at Corvanaghan is Nat
 The [1766 Derryloran return transcription](https://www.cotyroneireland.com/census/1766derryloran.html) also names James Harkness in Cookstown and Robert Harkness at Oghless. They show the Harkness surname in the same district but identify neither Mary Harkness nor Robert's father.
 
 Recorded in `research/Glasgow-1024/Glasgow-1024.md` (undated legacy draft, marked HOLD); carried into this file on 7 October 2026.
+
+
+## Selected uncertain family — 16 October 2026
+
+James Glasgow-1025 is selected as the very uncertain working father of James Glasgow-2988, the 1766 Corvanaghan householder, through preferred provisional identity with James Glasgow-1024 of Moneymore. The existing Corvanaghan biography already retains the Moneymore man as a compatible candidate: the places are roughly nine miles apart, the name matches and their circa 1720/1722 births are estimates rather than a real two-year conflict. The 1766 Irish occurrence can precede the compiled 1770 immigration claim associated with the Moneymore family; no post 1766 Irish occurrence has been assigned to the Corvanaghan man. This is a weak locality and chronology preference, not proof of emigration or identity. The older James is already an uncertain father in the Moneymore pedigree. Extending that attachment gives the Corvanaghan account a conditional place in the same family, without inventing an intermediate generation. It inherits two major uncertainties: adult identity and the older pedigree itself.
+
+The older James account’s circa 1700 birth would allow an ordinary father–son interval of about 20–22 years, if the estimates are close. Those guessed years do not independently establish paternity. No contemporary record names the older James as father of either Moneymore James or the Corvanaghan householder. The current older-father attachment is a tree hypothesis, not a clause in the 1766 return, the pension record or the later family history. The older and younger James accounts might themselves be duplicates rather than father and son; if that identity is established, this additional father edge must collapse with it. Their existing Scottish ancestral attachments receive no new support. No mother is selected: the uncertain Rutherford attachment on the Moneymore account is not independently supported for the Corvanaghan man and is not copied.
+
+Faris’s later genealogy calls Robert Glasgow-12’s father James of Moneymore, but the underlying evidence for that father identification has not been inspected. Robert’s 1834 pension declaration gives County Derry birth in 1749 and arrival in Virginia in 1769; it does not name parents or siblings. The fuller Mary Harkness and sibling package, the compiled 1770 entry and the 1804 same-name naturalisation applicant remain separate inherited claims. The reported departure of a mother and elder brothers by 1766 does not independently place their father in America that year. No new wife, emigrant child, ship, naturalisation identity or extreme-age death is attached to the Corvanaghan account. The 1766 return and the later Moneymore family tradition may still concern different men.
+
+James Glasgow-1970 of the Mitchell-family tradition remains a live alternative identity for the Corvanaghan householder. The 1879 Hillsdale history describes a Scotsman and his Mitchell wife moving to the Cookstown area about 1750, with a son John and later Michigan descendants. It does not name Corvanaghan. The Moneymore route is preferred only weakly for its more specific nearby locality and compatible 1766 window; the Mitchell account is not excluded, and the birthplaces on the compared profiles are not independent proof. Another local James remains possible. The absence of Glasgow occupiers at Corvanaghan in the 1826 tithe list, sixty years later, does not establish death or emigration.
+
+The 1759 will reference does not prove this father generation. The previously reviewed PRONI detail names Drumcarn, not Drumearn, and supplies no age or kin. It may concern the older account, the Moneymore James or another namesake. The meaning of 17 January 1759 and the testator’s modern profile identity remain unresolved. No 1759 death, estate event or residence is transferred to the 1766 Corvanaghan householder. The older profile’s structured dates and places are retained as existing fields with those qualifications; the new parent model does not resolve them.
+
+One very uncertain father is newly selected through a possible Moneymore identity and an already uncertain older pedigree. No mother, source-proved parentage, migration, merge, vital-field change, original inspection, live WikiTree edit or confidence upgrade is claimed. The compared James accounts remain separate and may be duplicates rather than distinct brothers or generations. Working connectivity counts retained accounts and does not independently validate those identities. Full comparisons containing living-person references remain private; the historical findings and relationships remain public.
+
+[Complete comparison and source limits](/branches/research-irish-derryloran/#corvanaghan-moneymore-working-family).
+
+- [National Archives of Ireland,IHP/1/667,1766 Kildress religious return: Corvanaghan James; previously reviewed record](https://virtualtreasury.ie/item/NAI-IHP-1-667)
+- [RCB Library MS 23 transcript,p.176,Corvanaghan return; previously reviewed image](https://by2022-prod.adaptcentre.ie/loris/RCBL_23_176.JPG/full/full/0/default.jpg)
+- [David Faris,The Glasgow Family of Adams County,Ohio(1990),catalogue; inherited Moneymore father attribution, underlying evidence not inspected](https://search.worldcat.org/title/22731567)
+- [Robert Glasgow,Revolutionary War pension R 4057,1834 declaration; birth and migration, no parents named](https://revwarapps.org/r4057.pdf)
+- [History of Hillsdale County,Michigan(1879),p.263: James/Mitchell Cookstown tradition; retained alternative](https://archive.org/details/bad0928.0001.001.umich.edu/page/263/mode/1up)
+- [PRONI name-search detail previously reviewed: James Glasgow,Drumcarn,17 January 1759; testator identity unresolved](https://www.proni.gov.uk/name-search)
+- [W.Macafee,1740 Protestant householders index,Derryloran; multiple James and William households, no kinship](https://www.billmacafee.com/1740returns/1740religiousreturnsulstername.pdf)
+- [National Archives of Ireland,IHP/1/665,1766 Derryloran return: two Jas.Glasgo at Drumearn; distinct occurrences](https://virtualtreasury.ie/item/NAI-IHP-1-665)

@@ -1763,3 +1763,10 @@ The August completion entries remain historical. The live parent fields are now 
 | [Patrick Glasco of the Kilclone memorial](https://www.wikitree.com/wiki/Glasgow-3920) | OPEN | Review the very uncertain Gordon Patrick father for the Kilclone Patrick; retain the age60memorial reading, pre1707child, no mother and absent migration bridge. |
 | [Patrick / Patrike Glasgow of Gordon](https://www.wikitree.com/wiki/Glasgow-1440) | OPEN | Review the very uncertain Gordon Patrick father for the Kilclone Patrick; retain the age60memorial reading, pre1707child, no mother and absent migration bridge. |
 | [James Glasco, Kilclone memorial erector](https://www.wikitree.com/wiki/Glasgow-3924) | OPEN | Review the very uncertain Gordon Patrick father for the Kilclone Patrick; retain the age60memorial reading, pre1707child, no mother and absent migration bridge. |
+
+
+## Corvanaghan and Moneymore working family — 16 October 2026
+
+| [James Glasgow of Corvanaghan](https://www.wikitree.com/wiki/Glasgow-2988) | OPEN | Review the very uncertain Corvanaghan father through possible Moneymore identity; retain the Mitchell alternative, unproved older pedigree and1759Drumcarn limits. Private full comparisons remain withheld where needed. |
+| [James Glasgow, older family account](https://www.wikitree.com/wiki/Glasgow-1025) | OPEN | Review the very uncertain Corvanaghan father through possible Moneymore identity; retain the Mitchell alternative, unproved older pedigree and1759Drumcarn limits. Private full comparisons remain withheld where needed. |
+| [James Glasgow of Moneymore](https://www.wikitree.com/wiki/Glasgow-1024) | OPEN | Review the very uncertain Corvanaghan father through possible Moneymore identity; retain the Mitchell alternative, unproved older pedigree and1759Drumcarn limits. Private full comparisons remain withheld where needed. |

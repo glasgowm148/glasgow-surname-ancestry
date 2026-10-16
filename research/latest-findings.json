@@ -27970,6 +27970,71 @@
         "research/relationship_assessments.json",
         "research/ancestry-connections/kilclone-gordon-working-family-preservation-2026-10-16.json"
       ]
+    },
+    {
+      "id": "corvanaghan-moneymore-working-family-2026-10-16",
+      "found_on": "2026-10-16",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Selected the older James account as a very uncertain father for the 1766 Corvanaghan James, through a preferred but unproved Moneymore identity. The inherited pedigree, Mitchell-family alternative and 1759 Drumcarn will identity remain unresolved; no mother or migration is added.",
+      "qualification": "One very uncertain father is newly selected through a possible Moneymore identity and an already uncertain older pedigree. No mother, source-proved parentage, migration, merge, vital-field change, original inspection, live WikiTree edit or confidence upgrade is claimed. The compared James accounts remain separate and may be duplicates rather than distinct brothers or generations. Working connectivity counts retained accounts and does not independently validate those identities. Full comparisons containing living-person references remain private; the historical findings and relationships remain public. The older James account’s circa 1700 birth would allow an ordinary father–son interval of about 20–22 years, if the estimates are close. Those guessed years do not independently establish paternity. No contemporary record names the older James as father of either Moneymore James or the Corvanaghan householder. The current older-father attachment is a tree hypothesis, not a clause in the 1766 return, the pension record or the later family history. The older and younger James accounts might themselves be duplicates rather than father and son; if that identity is established, this additional father edge must collapse with it. Their existing Scottish ancestral attachments receive no new support. No mother is selected: the uncertain Rutherford attachment on the Moneymore account is not independently supported for the Corvanaghan man and is not copied. James Glasgow-1970 of the Mitchell-family tradition remains a live alternative identity for the Corvanaghan householder. The 1879 Hillsdale history describes a Scotsman and his Mitchell wife moving to the Cookstown area about 1750, with a son John and later Michigan descendants. It does not name Corvanaghan. The Moneymore route is preferred only weakly for its more specific nearby locality and compatible 1766 window; the Mitchell account is not excluded, and the birthplaces on the compared profiles are not independent proof. Another local James remains possible. The absence of Glasgow occupiers at Corvanaghan in the 1826 tithe list, sixty years later, does not establish death or emigration.",
+      "relationship_change_count": 1,
+      "people": [
+        {
+          "id": "Glasgow-2988",
+          "name": "James Glasgow of Corvanaghan",
+          "url": "/people/glasgow-2988.html"
+        },
+        {
+          "id": "Glasgow-1025",
+          "name": "James Glasgow, older family account",
+          "url": "/people/glasgow-1025.html"
+        },
+        {
+          "id": "Glasgow-1024",
+          "name": "James Glasgow of Moneymore",
+          "url": "/people/glasgow-1024.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "National Archives of Ireland,IHP/1/667,1766 Kildress religious return: Corvanaghan James; previously reviewed record",
+          "url": "https://virtualtreasury.ie/item/NAI-IHP-1-667"
+        },
+        {
+          "title": "RCB Library MS 23 transcript,p.176,Corvanaghan return; previously reviewed image",
+          "url": "https://by2022-prod.adaptcentre.ie/loris/RCBL_23_176.JPG/full/full/0/default.jpg"
+        },
+        {
+          "title": "David Faris,The Glasgow Family of Adams County,Ohio(1990),catalogue; inherited Moneymore father attribution, underlying evidence not inspected",
+          "url": "https://search.worldcat.org/title/22731567"
+        },
+        {
+          "title": "Robert Glasgow,Revolutionary War pension R 4057,1834 declaration; birth and migration, no parents named",
+          "url": "https://revwarapps.org/r4057.pdf"
+        },
+        {
+          "title": "History of Hillsdale County,Michigan(1879),p.263: James/Mitchell Cookstown tradition; retained alternative",
+          "url": "https://archive.org/details/bad0928.0001.001.umich.edu/page/263/mode/1up"
+        },
+        {
+          "title": "PRONI name-search detail previously reviewed: James Glasgow,Drumcarn,17 January 1759; testator identity unresolved",
+          "url": "https://www.proni.gov.uk/name-search"
+        },
+        {
+          "title": "W.Macafee,1740 Protestant householders index,Derryloran; multiple James and William households, no kinship",
+          "url": "https://www.billmacafee.com/1740returns/1740religiousreturnsulstername.pdf"
+        },
+        {
+          "title": "National Archives of Ireland,IHP/1/665,1766 Derryloran return: two Jas.Glasgo at Drumearn; distinct occurrences",
+          "url": "https://virtualtreasury.ie/item/NAI-IHP-1-665"
+        }
+      ],
+      "detail_url": "/branches/research-irish-derryloran/#corvanaghan-moneymore-working-family",
+      "provenance": [
+        "research/relationship_assessments.json",
+        "research/ancestry-connections/corvanaghan-moneymore-working-family-preservation-2026-10-16.json"
+      ]
     }
   ]
 }

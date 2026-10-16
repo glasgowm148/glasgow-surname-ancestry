@@ -1,0 +1,82 @@
+{
+  "reviewed": "2026-10-16",
+  "cutoff": 1850,
+  "method_version": 3,
+  "input_fingerprint": "794c30dd012f23552ffd2b65ea50daa637f3af27287d1d1423c172f188117e52",
+  "scope": "Corvanaghan and Moneymore: a conditional James family",
+  "genealogical_connections_added": 1,
+  "paternal_connections_added": 1,
+  "maternal_connections_added": 0,
+  "certainty_upgrades": 0,
+  "working_fathers": 55,
+  "working_mothers": 8,
+  "models": {
+    "main": {
+      "checked_historical_profiles": 1777,
+      "changed_father_fields": 1,
+      "changed_mother_fields": 0,
+      "matched_paternal_edges": 1352,
+      "added_historical_profiles": [],
+      "effective_father_field_audit": {
+        "public_father_fields_checked": 1777,
+        "empty_father_fields_checked": 417,
+        "differences": []
+      },
+      "unresolved_father_cases": [
+        "Glasgow-1367",
+        "Glasgow-2908",
+        "Glasgow-867",
+        "Glasgow-951"
+      ]
+    },
+    "standalone": {
+      "checked_historical_profiles": 1777,
+      "changed_father_fields": 1,
+      "changed_mother_fields": 0,
+      "matched_paternal_edges": 1352,
+      "added_historical_profiles": [],
+      "effective_father_field_audit": {
+        "public_father_fields_checked": 1777,
+        "empty_father_fields_checked": 417,
+        "differences": []
+      },
+      "unresolved_father_cases": [
+        "Glasgow-1367",
+        "Glasgow-2908",
+        "Glasgow-867",
+        "Glasgow-951"
+      ]
+    }
+  },
+  "publication_summary": "One very uncertain father is newly selected through a possible Moneymore identity and an already uncertain older pedigree. No mother, source-proved parentage, migration, merge, vital-field change, original inspection, live WikiTree edit or confidence upgrade is claimed. The compared James accounts remain separate and may be duplicates rather than distinct brothers or generations. Working connectivity counts retained accounts and does not independently validate those identities. Full comparisons containing living-person references remain private; the historical findings and relationships remain public. Selected James Glasgow-1025 as very uncertain father of the Corvanaghan householder through possible identity with the Moneymore James. The current older pedigree is itself unproved, the Mitchell-family identity remains open, and the 1759 Drumcarn will is not a parental statement. Largest working family through 1850 grows from 1,022 to 1,025 retained profiles; components 427 to 426; multi-child roots 49 to 48. One public and two private complete comparisons retain the captured detail.",
+  "comparison": "/branches/research-irish-derryloran/#corvanaghan-moneymore-working-family",
+  "catalogue_parent_projection": {
+    "reviewed_profiles": 185,
+    "selected_parent_assertions_checked": 63,
+    "differences": []
+  },
+  "next_metric_check": {
+    "status": "RESOLVED",
+    "saved_confident_tree_flags_not_used_by_current_metric": 0,
+    "review": "/data/ancestry-confidence-method-review.json",
+    "scope": "Status fallback; four other competing-father cases remain open."
+  },
+  "verification": {
+    "public_pending_updates": 219,
+    "complete_profile_comparisons": 3,
+    "private_complete_profile_comparisons": 2
+  },
+  "unresolved_parentage_review": {
+    "status": "OPEN",
+    "case_ids": [
+      "Glasgow-1367",
+      "Glasgow-2908",
+      "Glasgow-867",
+      "Glasgow-951"
+    ],
+    "confident_flag_among_competing_candidates": [
+      "Glasgow-867"
+    ],
+    "scope": "Four other competing-father cases retain their existing grades; no selection is made for them."
+  }
+}
