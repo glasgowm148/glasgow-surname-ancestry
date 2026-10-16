@@ -1,0 +1,96 @@
+{
+  "reviewed": "2026-10-16",
+  "scope": "Two existing father comparisons selected uncertain; no mothers, merges or confidence upgrades",
+  "profiles": {
+    "Glasgow-2682": {
+      "current_sha256": "eacf235d0b97be47dc44b1885a5be9f0ef93ca37ce00930dec557934a32f2da0",
+      "proposed_sha256": "02f2b4d6b50b1de35fb4e36323cf6b2156e9a417efdf731d1787ac141cedcfdf",
+      "all_substantive_passages_accounted_for": true,
+      "passages": [
+        "Every prior complete public replacement/captured paragraph and source URL retained.",
+        "Selected uncertain father adds to existing family evidence; chronology/locality preference and all rivals remain explicit.",
+        "Mothers remain unassigned; completed 1671 split and existing parent/child evidence grades retained; no Irish migration inferred."
+      ],
+      "source_urls_retained": [
+        "https://familysearch.org/ark:/61903/1:1:FM3W-XBN",
+        "https://familysearch.org/ark:/61903/1:1:VQC9-8S4",
+        "https://familysearch.org/ark:/61903/1:1:VQC9-N9X",
+        "https://familysearch.org/ark:/61903/1:1:VQC9-Q9J",
+        "https://familysearch.org/ark:/61903/1:1:VQCM-LLH",
+        "https://familysearch.org/ark:/61903/1:1:XTPF-7YB"
+      ]
+    },
+    "Glasgow-1151": {
+      "current_sha256": "cc5ac3958056aaf9b457ee5ccc972d84ed3a61c0744315ce8ea91cf9fcbe403a",
+      "proposed_sha256": "4faa9af6659d68adb062b99b94b262cd63e3b25117d5bf943430fc5b81728f09",
+      "all_substantive_passages_accounted_for": true,
+      "passages": [
+        "Every prior complete public replacement/captured paragraph and source URL retained.",
+        "Selected uncertain father adds to existing family evidence; chronology/locality preference and all rivals remain explicit.",
+        "Mothers remain unassigned; completed 1671 split and existing parent/child evidence grades retained; no Irish migration inferred."
+      ],
+      "source_urls_retained": [
+        "https://www.familysearch.org/ark:/61903/1:1:VQ4V-PQK"
+      ]
+    },
+    "Glasgow-1026": {
+      "current_sha256": "fe5444ea1d6b032da8534d43f86df98f334cae90ceb9b50f8f3107783a38ec80",
+      "proposed_sha256": "a872207ff707673622a577b272bf1264f990637cf576d34b3abfe02c75716550",
+      "all_substantive_passages_accounted_for": true,
+      "passages": [
+        "Every prior complete public replacement/captured paragraph and source URL retained.",
+        "Selected uncertain father adds to existing family evidence; chronology/locality preference and all rivals remain explicit.",
+        "Mothers remain unassigned; completed 1671 split and existing parent/child evidence grades retained; no Irish migration inferred."
+      ],
+      "source_urls_retained": [
+        "https://familysearch.org/ark:/61903/1:1:VQ4K-F2B",
+        "https://familysearch.org/ark:/61903/1:1:VQ4K-FY9",
+        "https://www.familysearch.org/ark:/61903/1:1:VQ4K-FWL",
+        "https://www.familysearch.org/ark:/61903/1:1:VQ4K-XZ7",
+        "https://www.familysearch.org/ark:/61903/1:1:VQ4K-ZQN"
+      ]
+    },
+    "Glasgow-3610": {
+      "current_sha256": "42c6e052851c878284b8a05e23829d8e23d12713bbf5a99d2e1f09d893c931b7",
+      "proposed_sha256": "bea9926bddc0b34f533b1637da1706c07f5ae7431f6619ea2a2d571dd42d07a7",
+      "all_substantive_passages_accounted_for": true,
+      "passages": [
+        "Every prior complete public replacement/captured paragraph and source URL retained.",
+        "Selected uncertain father adds to existing family evidence; chronology/locality preference and all rivals remain explicit.",
+        "Mothers remain unassigned; completed 1671 split and existing parent/child evidence grades retained; no Irish migration inferred."
+      ],
+      "source_urls_retained": [
+        "https://www.familysearch.org/ark:/61903/1:1:VQ4K-X6G"
+      ],
+      "previous_review_path": "research/ancestry-connections/working-joins-preservation-2026-10-15.json"
+    }
+  },
+  "previous_queue_entries": {
+    "Glasgow-2682": null,
+    "Glasgow-1151": null,
+    "Glasgow-1026": {
+      "significance": 98,
+      "summary": "Complete the structured cleanup after the 1671 child was split into Glasgow-3974: remove unsupported Walter, clear unproved birth and death places, retain Walter-1554 uncertain, and correct the stale Andrew-1546 attachment sentence.",
+      "manual_update": true
+    },
+    "Glasgow-3610": {
+      "queued_at": "2026-10-15",
+      "significance": 85,
+      "summary": "Add John Glasgow, Mid Calder/Quothquan working identity as the selected uncertain working father, with logic and alternatives; preserve current facts and sources. Local model, pending owner-reviewed WikiTree amendment.",
+      "manual_update": true,
+      "draft_path": "research/Glasgow-3610/Glasgow-3610.md",
+      "preservation_review_path": "research/ancestry-connections/working-joins-preservation-2026-10-15.json",
+      "reviewed_narrative_reduction": true,
+      "preserve_captured_detail": false,
+      "relationship_changes": [
+        {
+          "action": "add",
+          "relationship": "father",
+          "status": "uncertain",
+          "relative_id": "Glasgow-3296",
+          "assertion_id": "C-working-20261015-glasgow-3610-glasgow-3296"
+        }
+      ]
+    }
+  }
+}

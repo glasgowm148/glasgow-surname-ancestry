@@ -4,6 +4,11 @@ Last updated: 2026-09-26
 
 ## Current conclusion
 
+Reviewed: 2026-10-16
+
+**Selected working families,16 October2026:** James of the Duffe household Glasgow-2682 is placed under Johnne Glasgow-1151; William of Kirknewton Glasgow-1026 is placed under John Glasgow-3610. Both fathers are uncertain, with competing routes retained. Neither man receives a mother. [Evidence and alternatives](/branches/early-scottish-records/#lothian-family-heads).
+
+
 Glasgow-3610 is known from a derivative entry naming an adult Johne Glasgow as
 father of a child Johne christened on 22 April 1649 under the combined
 Kirknewton and East Calder catalogue label. That record says nothing about the
@@ -31,3 +36,19 @@ The older John already represents the father named in Mid Calder baptisms1608–
 **Counterevidence and alternatives:** John-1086 has a later Biggar account that has not been equated with3610. They may be different men, and the older father’s Mid Calder/Montfoid/Quothquan identity is itself uncertain. Robert-4006 is another generationally compatible Calder father. This does not restore the former unsupported William-1087 father or treat1629 as a recorded birthday.
 
 [Full working model and reasoning](/branches/early-scottish-records/#selected-working-joins). This adds one selected uncertain paternal edge to the local tree/network and working measure. It changes no confident relationship and performs no live WikiTree edit.
+
+
+## Selected uncertain Lothian family —16 October2026
+
+The older Kirknewton William is now selected as an uncertain son of this adult father account. Select John Glasgow-3610 as the uncertain working father of William Glasgow-1026, the older Kirknewton householder associated with Ann McCook by 1682. This activates the same-parish candidate already retained in William’s research. A 1649 Kirknewton/East Calder index names Johne Glasgow as the father of the child Johne; the adult account also carries a Margaret comparison with unresolved 1646/1649 dates. A father active in 1649 could have another son around William’s estimated 1660 birth. If the adult John is the 1608 Mid Calder child used in his own selected family model, he would have been about 52 in 1660, chronologically possible for a father. That childhood identity is itself uncertain and is not required for the local parent generation to remain possible. The common parish setting and compatible parent generation favour this existing John comparison over restoring the younger Walter-1554 as William’s father or importing the weak Kilwinning John-1604 comparison. Select John at low confidence. No inspected baptism, marriage, testament or property record names William as this John’s son.
+
+William Glasgow-1026 is the older father in the 1682 household, not William Glasgow-3974, the child born/baptised in 1671 with father Andro Glasgow. Do not restore the 1671 child’s father to the older man. Walter Glasgow-1554 was indexed in 1649 and would be only about eleven at a literal 1660 birth; retain him as a non-selected former proposal, not a restored father. William’s 1660 date is an estimate, so that subtraction is not a newly proved biological exclusion. Other older Calder Glasgows, including William-1087 or Robert-4006, remain possible father-generation alternatives without a parent clause. John-1604’s Ayrshire route is retained as a weaker geographic comparison. John-3610’s own selected father John-3296 and possible identity with the 1608 John-1086 remain uncertain. The uncertain adult Alexander-3118 attachment is not a proved 1650 baptism and supplies no independent sibling evidence. No mother is selected for William. The 1649 source names only the father in this review; Ann McCook is William’s existing co-parent/spouse account, not evidence of his mother. Preserve the current wives, children and their individual evidence grades. The new father route does not validate the unsupported Captain Robert-2867 or Irish James-1025 parentage, a Tyrone migration, the legacy Tyrone death-place field, or the unsourced Walter middle name. The 1682–1705 same-father household reconstruction and the wider descendant accounts keep their existing uncertainty. A large working component is not a proved pedigree. No vital date, location, spouse or current attachment is cleared to force the new parent.
+
+Both father selections are expressly uncertain local hypotheses using existing material. No new mother, original inspection, live WikiTree edit, identity merge or confidence upgrade is claimed. The fixed cohort and all confidently marked connectivity measurements must remain unchanged. Counts describe retained profile accounts and inherit uncertainty in older links, including possible duplicates.
+
+- [Johnne, Inveresk/Musselburgh,25 November 1632; father Alexander; SP 689,10/226](https://www.familysearch.org/ark:/61903/1:1:VQ4V-PQK)
+- [Jean, Edinburgh,13 April 1677; James and Isobell Duffe household](https://familysearch.org/ark:/61903/1:1:XTPF-7YB)
+- [1661 James, St Cuthbert’s; surviving alternative childhood](https://www.familysearch.org/ark:/61903/1:1:F316-KWL)
+- [Johne, Kirknewton/East Calder,22 April 1649; father Johne](https://www.familysearch.org/ark:/61903/1:1:VQ4K-X6G)
+- [Bessie, Kirknewton,21 April 1682; William and Ann household](https://www.familysearch.org/ark:/61903/1:1:VQ4K-ZQN)
+- [Younger William, Kirknewton,1671; separate child account](https://www.familysearch.org/ark:/61903/1:1:VQ4K-F2B)

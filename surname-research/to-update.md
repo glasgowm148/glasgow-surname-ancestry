@@ -1602,3 +1602,11 @@ The August completion entries remain historical. The live parent fields are now 
 | [Issobell Glasgow, McCaskie bride of 1632](https://www.wikitree.com/wiki/Glasgow-3185) | OPEN | Review complete additive biography: uncertain 1612 child/1632 bride identity; father David uncertain for adult, child’s confident father preserved; no mother or merge. |
 | [David Glasgow of Mid Calder](https://www.wikitree.com/wiki/Glasgow-1028) | OPEN | Review complete additive biography: uncertain 1612 child/1632 bride identity; father David uncertain for adult, child’s confident father preserved; no mother or merge. |
 | [Issobell Glasgow, baptised in 1612](https://www.wikitree.com/wiki/Glasgow-1085) | OPEN | Review complete additive biography: uncertain 1612 child/1632 bride identity; father David uncertain for adult, child’s confident father preserved; no mother or merge. |
+
+
+## Lothian family heads —16 October2026
+
+| [James Glasgow, Isobell Duffe household](https://www.wikitree.com/wiki/Glasgow-2682) | OPEN | Review complete additive biography: selected uncertain Johnne→Duffe James or John→Kirknewton William family; preserve all existing grades, dates, rival identities and completed corrections; no mother. |
+| [Johnne Glasgow, Inveresk child of 1632](https://www.wikitree.com/wiki/Glasgow-1151) | OPEN | Review complete additive biography: selected uncertain Johnne→Duffe James or John→Kirknewton William family; preserve all existing grades, dates, rival identities and completed corrections; no mother. |
+| [William Glasgow, Kirknewton householder](https://www.wikitree.com/wiki/Glasgow-1026) | OPEN | Review complete additive biography: selected uncertain Johnne→Duffe James or John→Kirknewton William family; preserve all existing grades, dates, rival identities and completed corrections; no mother. |
+| [John Glasgow, Kirknewton/East Calder father](https://www.wikitree.com/wiki/Glasgow-3610) | OPEN | Review complete additive biography: selected uncertain Johnne→Duffe James or John→Kirknewton William family; preserve all existing grades, dates, rival identities and completed corrections; no mother. |

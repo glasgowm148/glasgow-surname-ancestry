@@ -26605,6 +26605,68 @@
         "research/relationship_assessments.json",
         "research/ancestry-connections/issobell-mccaskie-preservation-2026-10-16.json"
       ]
+    },
+    {
+      "id": "lothian-family-heads-2026-10-16",
+      "found_on": "2026-10-16",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Two existing Lothian comparisons become selected uncertain fathers: Johnne for James of the Duffe household, and John of Kirknewton/East Calder for the older William.",
+      "qualification": "Both father selections are expressly uncertain local hypotheses using existing material. No new mother, original inspection, live WikiTree edit, identity merge or confidence upgrade is claimed. The fixed cohort and all confidently marked connectivity measurements must remain unchanged. Counts describe retained profile accounts and inherit uncertainty in older links, including possible duplicates. James Glasgow-3076, recorded at St Cuthbert’s in 1661 with father James Glasgow-3077 and mother Annapill Glessie, remains an alternative childhood identity explicitly suggested in that child’s profile. If baptised as an infant he would have been about 16 at Jean’s 1677 baptism; that younger parenthood makes it less straightforward than the selected ordinary-generation model, but does not exclude him. An older-child baptism also remains possible. John Glasgow-1084 is another previously proposed father. His Gordon/Berwickshire household and separate James Glasgow-3107 account remain viable comparisons; no missing death or marriage is treated as an exclusion. A different unrecorded father remains possible, and the shortlist is not exhaustive. No source joins Johnne’s 1632 child record to an adult father of James, supplies James’s age, or connects their households by craft, witness, property or inheritance. The preference is weak, based on the existing candidate, chronology and regional fit; the component gain supplies no identity evidence. No mother is selected for James. Johnne’s index names Alexander but no mother; his existing Clerk attachment does not establish a mother for James. Keep the Duffe household distinct from the Edinburgh weaver Glasgow-1150 and the unresolved Whitecastle James Glasgow-1376. The old 1657 event on1376 names James as father of Marione, not as the child. That role error does not supply a birth or parentage for the Duffe husband. The old reference to “James-1168,about1540” also mislabels the Corsankell elder; the selected route instead uses Johnne’s actual recorded father Alexander Glasgow-1148. The 1679 and 1680 sons called James remain separate child accounts; no infant death or survivor marrying Jean Dobie is newly established. The 1679 mother’s indexed Elizabeth/Isobell Duffe difference remains an existing household-identity qualification. All six children, spouse, dates and previous assessments are preserved. William Glasgow-1026 is the older father in the 1682 household, not William Glasgow-3974, the child born/baptised in 1671 with father Andro Glasgow. Do not restore the 1671 child’s father to the older man. Walter Glasgow-1554 was indexed in 1649 and would be only about eleven at a literal 1660 birth; retain him as a non-selected former proposal, not a restored father. William’s 1660 date is an estimate, so that subtraction is not a newly proved biological exclusion. Other older Calder Glasgows, including William-1087 or Robert-4006, remain possible father-generation alternatives without a parent clause. John-1604’s Ayrshire route is retained as a weaker geographic comparison. John-3610’s own selected father John-3296 and possible identity with the 1608 John-1086 remain uncertain. The uncertain adult Alexander-3118 attachment is not a proved 1650 baptism and supplies no independent sibling evidence. No mother is selected for William. The 1649 source names only the father in this review; Ann McCook is William’s existing co-parent/spouse account, not evidence of his mother. Preserve the current wives, children and their individual evidence grades. The new father route does not validate the unsupported Captain Robert-2867 or Irish James-1025 parentage, a Tyrone migration, the legacy Tyrone death-place field, or the unsourced Walter middle name. The 1682–1705 same-father household reconstruction and the wider descendant accounts keep their existing uncertainty. A large working component is not a proved pedigree. No vital date, location, spouse or current attachment is cleared to force the new parent.",
+      "relationship_change_count": 2,
+      "people": [
+        {
+          "id": "Glasgow-2682",
+          "name": "James Glasgow, Isobell Duffe household",
+          "url": "/people/glasgow-2682.html"
+        },
+        {
+          "id": "Glasgow-1151",
+          "name": "Johnne Glasgow, Inveresk child of 1632",
+          "url": "/people/glasgow-1151.html"
+        },
+        {
+          "id": "Glasgow-1026",
+          "name": "William Glasgow, Kirknewton householder",
+          "url": "/people/glasgow-1026.html"
+        },
+        {
+          "id": "Glasgow-3610",
+          "name": "John Glasgow, Kirknewton/East Calder father",
+          "url": "/people/glasgow-3610.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Johnne, Inveresk/Musselburgh,25 November 1632; father Alexander; SP 689,10/226",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:VQ4V-PQK"
+        },
+        {
+          "title": "Jean, Edinburgh,13 April 1677; James and Isobell Duffe household",
+          "url": "https://familysearch.org/ark:/61903/1:1:XTPF-7YB"
+        },
+        {
+          "title": "1661 James, St Cuthbert’s; surviving alternative childhood",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:F316-KWL"
+        },
+        {
+          "title": "Johne, Kirknewton/East Calder,22 April 1649; father Johne",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:VQ4K-X6G"
+        },
+        {
+          "title": "Bessie, Kirknewton,21 April 1682; William and Ann household",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:VQ4K-ZQN"
+        },
+        {
+          "title": "Younger William, Kirknewton,1671; separate child account",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:VQ4K-F2B"
+        }
+      ],
+      "detail_url": "/branches/early-scottish-records/#lothian-family-heads",
+      "provenance": [
+        "research/relationship_assessments.json",
+        "research/ancestry-connections/lothian-heads-preservation-2026-10-16.json"
+      ]
     }
   ]
 }

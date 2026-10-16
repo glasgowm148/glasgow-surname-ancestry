@@ -2153,5 +2153,68 @@
         "role": "indexed bride"
       }
     }
+  },
+  {
+    "record_id": "inveresk-johnne-1632-father-alexander",
+    "association": "Johnne, Inveresk/Musselburgh,25 November 1632; father Alexander; SP 689,10/226",
+    "date": "25 November 1632",
+    "year": 1632,
+    "place": "Inveresk and Musselburgh",
+    "source_title": "Johnne, Inveresk/Musselburgh,25 November 1632; father Alexander; SP 689,10/226",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:VQ4V-PQK",
+    "status": "Existing index/captured-profile review",
+    "note": "Combined index date, not newly established birthday. Mother unnamed; adult son/father identity for the working link unproved.",
+    "profiles": {
+      "Glasgow-1151": {
+        "role": "indexed child"
+      },
+      "Glasgow-1148": {
+        "role": "indexed father"
+      }
+    }
+  },
+  {
+    "record_id": "edinburgh-jean-1677-duffe-household",
+    "association": "Jean, Edinburgh,13 April 1677; James and Isobell Duffe household",
+    "date": "13 April 1677",
+    "year": 1677,
+    "place": "Edinburgh",
+    "source_title": "Jean, Edinburgh,13 April 1677; James and Isobell Duffe household",
+    "source_url": "https://familysearch.org/ark:/61903/1:1:XTPF-7YB",
+    "status": "Existing index/captured-profile review",
+    "note": "Existing household evidence, not a record of James’s birth or parents.",
+    "profiles": {
+      "Glasgow-2682": {
+        "role": "indexed father"
+      },
+      "Duffe-18": {
+        "role": "indexed mother"
+      },
+      "Glasgow-3088": {
+        "role": "indexed child"
+      }
+    }
+  },
+  {
+    "record_id": "kirknewton-bessie-1682-william-household",
+    "association": "Bessie, Kirknewton,21 April 1682; William and Ann household",
+    "date": "21 April 1682",
+    "year": 1682,
+    "place": "Kirknewton",
+    "source_title": "Bessie, Kirknewton,21 April 1682; William and Ann household",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:VQ4K-ZQN",
+    "status": "Existing index/captured-profile review",
+    "note": "Existing household evidence for the older William; not the 1671 child’s parentage.",
+    "profiles": {
+      "Glasgow-1026": {
+        "role": "father in existing household review"
+      },
+      "McCook-217": {
+        "role": "mother in existing household review"
+      },
+      "Glasgow-1545": {
+        "role": "indexed child"
+      }
+    }
   }
 ]

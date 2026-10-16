@@ -1,0 +1,40 @@
+{{Estimated Date}}
+[[Category:Glasgow Name Study]]
+
+== Biography ==
+The parentage and birth date for James Glasgow are not yet known. Based on the birth of his first known child in 1677, he was likely born by about 1657.
+
+He was married to [[Duffe-18|Isobell Duffe]]. Her name is recorded as "Issobell Duff" or "Issobell Duffe" in the christening records of most of their children.
+
+James and Issobell had the following children, all christened in Edinburgh Parish, Midlothian, Scotland:
+* [[Glasgow-3088|Jean Glasgow]], christened 13 April 1677.<ref name="Jean1677">"Scotland, Births and Baptisms, 1564-1950", database, FamilySearch (https://familysearch.org/ark:/61903/1:1:XTPF-7YB : 11 February 2020), James Glasgow in entry for Jean Glasgow, 1677.</ref>
+* [[Glasgow-3103|James Glasgow]], christened 16 March 1679.<ref name="James1679">"Scotland, Births and Baptisms, 1564-1950", database, FamilySearch (https://familysearch.org/ark:/61903/1:1:VQC9-Q9J : 11 February 2020), James Glasgow in entry for James Glasgow, 1679.</ref> (See Research Notes regarding mother's name on this record).
+* [[Glasgow-3368|James Glasgow]], christened 18 April 1680.<ref name="James1680">"Scotland, Births and Baptisms, 1564-1950", database, FamilySearch (https://familysearch.org/ark:/61903/1:1:VQC9-8S4 : 11 February 2020), James Glasgow in entry for James Glasgow, 1680.</ref> The christening of a second son with the same name strongly suggests the first James died in infancy.
+* [[Glasgow-3284|Mary Glasgow]], christened 23 April 1682.<ref name="Mary1682">"Scotland, Births and Baptisms, 1564-1950", database, FamilySearch (https://familysearch.org/ark:/61903/1:1:VQCM-LLH : 11 February 2020), James Glasgow in entry for Mary Glasgow, 1682.</ref>
+* [[Glasgow-3285|Thomas Glasgow]], christened 13 November 1684.<ref name="Thomas1684">"Scotland, Births and Baptisms, 1564-1950", database, FamilySearch (https://familysearch.org/ark:/61903/1:1:VQC9-N9X : 11 February 2020), James Glascow in entry for Thomas Glascow, 1684.</ref>
+* [[Glasgow-2681|Margaret Glasgow]], christened 20 March 1691.<ref name="Margaret1691">"Scotland, Births and Baptisms, 1564-1950", database, FamilySearch (https://familysearch.org/ark:/61903/1:1:FM3W-XBN : 11 February 2020), James Glasgow in entry for Margarett Glasgow, 1691.</ref>
+
+The date and place of James's death are unknown, but he was alive as of March 1691.
+== Research Notes ==
+=== Selected uncertain Lothian family —16 October2026 ===
+
+Select Johnne [[Glasgow-1151]] as the uncertain working father of James [[Glasgow-2682]], husband of Isobell Duffe. James’s captured biography already proposes Johnne as a possible father. The Inveresk and Musselburgh index records Johnne on25 November 1632 with father Alexander Glasgow. James and Isobell’s Edinburgh children begin with Jean on13 April 1677. If Johnne was baptised near birth and James’s approximate 1655 birth is close, Johnne would have been about 23 at James’s birth and 44 at the first known grandchild’s baptism. This is an ordinary father/son generation within the wider Lothian setting. Select that already recorded comparison provisionally, at very low confidence. Neither James’s own birth nor Johnne’s adult life is established; this is a parent-generation model, not a source naming James’s father.
+
+James [[Glasgow-3076]], recorded at St Cuthbert’s in 1661 with father James [[Glasgow-3077]] and mother Annapill Glessie, remains an alternative childhood identity explicitly suggested in that child’s profile. If baptised as an infant he would have been about 16 at Jean’s 1677 baptism; that younger parenthood makes it less straightforward than the selected ordinary-generation model, but does not exclude him. An older-child baptism also remains possible. John [[Glasgow-1084]] is another previously proposed father. His Gordon/Berwickshire household and separate James [[Glasgow-3107]] account remain viable comparisons; no missing death or marriage is treated as an exclusion. A different unrecorded father remains possible, and the shortlist is not exhaustive. No source joins Johnne’s 1632 child record to an adult father of James, supplies James’s age, or connects their households by craft, witness, property or inheritance. The preference is weak, based on the existing candidate, chronology and regional fit; the component gain supplies no identity evidence. No mother is selected for James. Johnne’s index names Alexander but no mother; his existing Clerk attachment does not establish a mother for James. Keep the Duffe household distinct from the Edinburgh weaver [[Glasgow-1150]] and the unresolved Whitecastle James [[Glasgow-1376]]. The old 1657 event on1376 names James as father of Marione, not as the child. That role error does not supply a birth or parentage for the Duffe husband. The old reference to “James-1168,about1540” also mislabels the Corsankell elder; the selected route instead uses Johnne’s actual recorded father Alexander [[Glasgow-1148]]. The 1679 and 1680 sons called James remain separate child accounts; no infant death or survivor marrying Jean Dobie is newly established. The 1679 mother’s indexed Elizabeth/Isobell Duffe difference remains an existing household-identity qualification. All six children, spouse, dates and previous assessments are preserved.
+
+Both father selections are expressly uncertain local hypotheses using existing material. No new mother, original inspection, live WikiTree edit, identity merge or confidence upgrade is claimed. The fixed cohort and all confidently marked connectivity measurements must remain unchanged. Counts describe retained profile accounts and inherit uncertainty in older links, including possible duplicates. <ref>Existing reviewed indexes: [https://www.familysearch.org/ark:/61903/1:1:VQ4V-PQK Johnne,Inveresk 1632], SP 689,10/226; [https://familysearch.org/ark:/61903/1:1:XTPF-7YB Jean,Edinburgh 1677], James/Isobell Duffe household; [https://www.familysearch.org/ark:/61903/1:1:VQ4K-X6G Johne,Kirknewton 1649], father Johne; [https://www.familysearch.org/ark:/61903/1:1:VQ4K-ZQN Bessie,Kirknewton 1682], William/Ann household. These support explicitly uncertain generation/locality selections, not direct parent clauses for the two adults; no original newly inspected.</ref>
+
+
+'''Identifying the parents of James Glasgow is a top research priority.''' Several contemporary men named James Glasgow who were also having children in Edinburgh at the same time have been investigated and ruled out as being the same person, though they are likely relatives (e.g., brothers or cousins). These include:
+*   '''[[Glasgow-3098|James Glasgow (b. 1631)]]''', who was married to Bessie Whyte.
+*   '''[[Glasgow-3077|James Glasgow (b. bef. 1640)]]''', who was married to Helen Clerk.
+*   '''[[Glasgow-3337|James Glasgow (b. ca. 1640)]]''', who was married to Annapill Glessie.
+
+Since our James was consistently recorded with his wife, [[Duffe-18|Isobell Duffe]], it is highly unlikely he is the same person as any of the men listed above.
+
+*   '''Parentage is Unknown:''' The parents of James are not yet confirmed. The original profile suggested he might descend from the Midlothian line of [[Glasgow-1168|James Glasgow (abt.1540-1580)]], perhaps as a son of [[Glasgow-1151|Johne Glasgow (1632-)]] or [[Glasgow-1084|John Glasgow (bef.1616-)]]. This is speculative and requires further research to find a primary source linking him to a father.
+*   '''Conflicting Mother's Name:''' The 1679 christening record for his son [[Glasgow-3103|James]] lists the mother's name as "Elizabeth Duffe" instead of "Issobell". As all other children's records name her as Issobell, and given the commonality of clerical errors, it is most likely that "Elizabeth" was a mistake by the parish clerk.
+*   '''Future Research:''' The highest priority is to find a marriage record for James Glasgow and Issobell Duffe in the Edinburgh parish registers, likely dated before April 1677. A search for burial records for both James and Issobell after March 1691 should also be conducted.
+
+== Sources ==
+<references />
