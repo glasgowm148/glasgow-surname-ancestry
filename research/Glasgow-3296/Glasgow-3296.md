@@ -1,20 +1,142 @@
-# Paste-ready replacement for Glasgow-3296
-
-```wikitext
-[[Category:Glasgow Name Study]]
 {{Estimated Date}}
+[[Category:Glasgow Name Study]]
+
+A 1610 Glasgow Commissary Court index records "Bessie, spouse to John Glasgow, in Montfoid" on 17 August 1610.<ref>Francis J. Grant, ed., ''Commissariot Record of Glasgow: Register of Testaments, 1547-1800'' (Edinburgh: Scottish Record Society, 1901), [https://archive.org/details/scottishrecordso07scotuoft/page/n435/mode/1up p. 426], Robertson, Bessie, 17 August 1610; cross-reference under Glasgow, John, [https://archive.org/details/scottishrecordso07scotuoft/page/196/mode/1up p. 196].</ref> This profile retains the Montfoid husband as an '''uncertain earlier same-person hypothesis''' for the John Glasgow of Quodquen whose estate was confirmed in 1650; no reviewed record bridges the two places or proves they were the same man.
+
+'''Transcription and identification note:'''
+
+This profile is based principally on the 1650 testament dative of John Glasgow in Quodquen. The document is written in seventeenth-century Scots Secretary Hand.
+
+The relationship between John and Bessie Glasgow is secure. The testament first describes Bessie as John’s “laufull sister” and later describes John as “hir brother”.
+
+A separate 1610 testament index identifies Bessie Robertson as the spouse of a John Glasgow in Montfoid. It has not been established that the John Glasgow in Montfoid was the same man as John Glasgow in Quodquen.
+
+{{Image|file=Glasgow-3296.png
+|align=c
+|size=l
+|caption=Testament dative and inventory of John Glasgow in Quodquen, 1650. Lanark Commissary Court, National Records of Scotland reference CC14/5/5, images 65–66.
+}}
 
 == Biography ==
-
 '''John Glasgow''' lived at Quodquen in Lanarkshire. He died in April 1650, and his estate was confirmed at Lanark on 27 May 1650.<ref name="Quodquen1650">National Records of Scotland, Lanark Commissary Court, CC14/5/5, images 65–66, testament dative and inventory of John Glasgow in Quodquen; confirmed 27 May 1650.</ref><ref name="LanarkIndex1650">Francis J. Grant, ed., ''The Commissariot Record of Lanark: Register of Testaments, 1595–1800'' (Edinburgh: Scottish Record Society, 1903), printed p. 38, “Glasgow, John, in Quodquen,” 27 May 1650, [https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/the_commissariot_record_of_lanark__register_of_testaments__1595-1800_~_1903.pdf#page=50 digital copy].</ref>
 
 His testament was dative because he died intestate. It twice identifies Bessie Glasgow as his lawful sister: first when appointing her executrix dative and again when describing John as her brother.<ref name="Quodquen1650" /> It names no parent, wife, son or daughter. Thomas Glasgow, deceased, and a William Glasgow appear in the financial account, but their relationships to John are not stated.
 
+=== Residence and death ===
+
+'''John Glasgow''' lived at '''Quodquen''', in Lanarkshire, Scotland.<ref name="LanarkCC14_5_5">National Records of Scotland, Lanark Commissary Court, Wills and Testaments, reference CC14/5/5, testament dative and inventory of John Glasgow in Quodquen, images 65–66.</ref>
+
+He died during '''April 1650'''. His estate was confirmed at Lanark on '''27 May 1650'''.<ref name="LanarkCC14_5_5"/><ref name="LanarkIndex1650">Francis J. Grant, ed., ''The Commissariot Record of Lanark: Register of Testaments, 1595–1800'' (Edinburgh: Scottish Record Society, 1903), printed p. 38, “Glasgow, John, in Quodquen,” 27 May 1650, [https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/the_commissariot_record_of_lanark__register_of_testaments__1595-1800_~_1903.pdf#page=50 digital copy].</ref>
+
+The record gives Quodquen as John’s residence. It does not state his birthplace or exact place of death.
+
+=== Testament and executrix ===
+
+John’s estate was recorded as a '''testament dative'''. He had died intestate, and the commissary court appointed an executor to administer the estate.<ref name="LanarkCC14_5_5"/>
+
+[[Glasgow-XXXX|Bessie Glasgow]] was appointed executrix dative. The testament expressly describes her as John’s:
+
+<blockquote>
+“laufull sister”
+</blockquote>
+
+The confirmation later describes John as:
+
+<blockquote>
+“hir brother”
+</blockquote>
+
+The relationship is therefore directly stated twice in the original record.
+
+On 27 May 1650 Bessie appeared before Master John Carmichael, commissary of Lanark, presented the inventory and was confirmed as executrix after providing the required caution.<ref name="LanarkCC14_5_5"/>
+
+=== Estate ===
+
+John’s physical possessions included:<ref name="LanarkCC14_5_5"/>
+
+* three kine, valued together at £8 Scots;
+* his clothing or bodily apparel, valued at £20 Scots.
+
+The physical inventory totalled '''£28 Scots'''.
+
+The testament also listed debts and sums owing to John’s estate. The clerk recorded:
+
+<blockquote>
+“Na debtis awin be ye deid”
+</blockquote>
+
+No debts owed by John himself were entered.
+
+The clerk also recorded:
+
+<blockquote>
+“Na divisioun”
+</blockquote>
+
+No formal division of the estate was entered.
+
+=== Family ===
+
+==== Sister ====
+
+* [[Glasgow-XXXX|Bessie Glasgow]] — John’s lawful sister and executrix dative.<ref name="LanarkCC14_5_5"/>
+
+No parent, wife, son or daughter is identified in John’s 1650 testament.
+
+The absence of a wife or child from the record does not prove that John had never married or had no children. It means only that none is named in this testament.
+
+==== Possible wife: Bessie Robertson ====
+
+The published index to the Glasgow Commissariot Register contains the entry:
+
+<blockquote>
+“Robertson, Bessie, spouse to John Glasgow, in Montfoid — 17 Aug. 1610”
+</blockquote>
+
+The corresponding entry under Glasgow reads:
+
+<blockquote>
+“Glasgow, John, in Montfoid. See Robertson, Bessie.”
+</blockquote>
+
+This establishes that '''Bessie Robertson''' was the wife of a John Glasgow in Montfoid. The date is the testament date, not a marriage date.<ref name="GlasgowCommissariot1610">Francis J. Grant, ed., ''The Commissariot Record of Glasgow: Register of Testaments, 1547–1800'', Scottish Record Society, vol. 7 (Edinburgh, 1901), p. 426, entry for Robertson, Bessie, dated 17 August 1610, [https://archive.org/details/scottishrecordso07scotuoft/page/426/mode/2up digital copy].</ref>
+
+It is possible that the Montfoid man was the same John who later lived at Quodquen, but this has not been proved. The two records concern different residences and commissary jurisdictions, and neither provides a distinctive identifier linking the men.
+
+Bessie Robertson should therefore remain a research possibility, not a confirmed wife. She must not be confused with John’s sister Bessie Glasgow.
+
+=== Other people named in the testament ===
+
+The following people appear in connection with money or debts owing to John’s estate:<ref name="LanarkCC14_5_5"/>
+
+* Thomas Glasgow, deceased, in Quodquen;
+* John Miller, described as an executor;
+* W[illia]m Glasgow, apparently owing £8 Scots;
+* Isobell Fisher in Glasfurde;
+* James Gibson in Quodquen;
+* a probable William Wilsone;
+* Master John Carmichael, commissary of Lanark;
+* an unidentified cautioner for Bessie Glasgow.
+
+Thomas Glasgow and W[illia]m Glasgow may have belonged to the wider Glasgow family at Quodquen, but the testament does not state their relationship to John.
+
 == Research Notes ==
+=== Surviving identity alternative — 16 October 2026 ===
 
-=== Distinct records combined on this profile ===
+James [[Glasgow-3332]] remains a surviving cross-profile identity alternative for the 1624 Quothquan weaver. Its circa-1634 birth is an unsupported estimate and cannot by itself exclude that earlier man. Identification with the distinct weaver indexed at Back of Lindsaylands in 1680 would exclude a death before 1624 if established, but that later identity is itself only possible. Retain [[Glasgow-3910]] as the record-defined 1624 account for the selected uncertain family; do not merge the profiles or transfer [[Glasgow-3332]]’s unproved parent and child attachments. Those existing family fields remain unchanged, and the proposed Stephen placement is an alternative to that account’s current pedigree. [https://glasgow.phenotype.dev/branches/early-scottish-records/#quothquan-working-family Full working-family comparison].
 
-The former profile [[Glasgow-3608]] now redirects here. That merge brought in a separate Mid Calder reconstruction. Derivative baptism indexes name a Jhone Glasgow as father of Jhone in 1608 and William in 1609.<ref name="John1608">“Scotland, Births and Baptisms, 1564–1950,” FamilySearch ([https://familysearch.org/ark:/61903/1:1:X1BL-X8B record X1BL-X8B]), Jhone Glasgow, 1608, father Jhone Glasgow.</ref><ref name="William1609">“Scotland, Births and Baptisms, 1564–1950,” FamilySearch ([https://www.familysearch.org/ark:/61903/1:1:X1B2-3LV record X1B2-3LV]), William Glasgow, baptised 24 December 1609 at Mid Calder, son of Jhone Glasgow.</ref> Those records prove a father-child pair in Mid Calder but provide no bridge to the man whose estate was confirmed at Quodquen forty-one years later. [[Glasgow-1086|John Glasgow]] and [[Glasgow-1087|William Glasgow]] must therefore remain uncertain children of this profile.
+
+=== Selected uncertain family — 16 October 2026 ===
+
+James the Quothquan weaver is selected as an uncertain paternal brother through the already uncertain Stephen parentage. No new father is attached to John, and no full-sibling relationship or migration is established. Select Stephen [[Glasgow-1029]] as the uncertain working father of James [[Glasgow-3910]]. James’s weaver occupation and Quothquan locality favour using the 1612 court defender and the 1624 testator as one working adult account. Stephen is documented as an adult in Glasgow in 1575 and with wife Margaret Grahame in 1582; his approximate 1550 birth is an estimate, not a birth record. The existing tree already places John [[Glasgow-3296]], the 1650 Quothquan testator, under Stephen, uncertain. The preferred model treats the two early Quothquan men as paternal brothers rather than making the later John James’s father. A Stephen born around the mid-sixteenth century could have fathered James in the 1570s–1590s and John in a similar generation. This uses a named family already connected to Quothquan, at very low confidence, rather than inventing a missing parent. No record names Stephen as James’s father or James and John as brothers.
+
+The route depends both on the proposed James–John brotherhood and on John’s already uncertain Stephen parentage. The Glasgow–Montfoid–Mid Calder–Quothquan identities are not proved migrations. John’s 1650 testament names his sister Bessie and no child or parent; omission of James, already dead by 1624, does not disprove brotherhood. John himself could instead be James’s father if older than his inherited estimate, or the men could be uncle/nephew, cousins or unrelated local namesakes. The older John and Thomas tenants in the 1520s–1530s remain possible ancestral relatives with unproved intervening generations; no direct father edge to them is selected. Margaret Grahame is Stephen’s documented spouse in 1582, not a documented mother of James, so no mother is attached. John’s existing mother field and all earlier parent and identity alternatives remain unchanged. [https://glasgow.phenotype.dev/branches/early-scottish-records/#quothquan-working-family Full selected model, competing relatives and literal date discrepancies]. <ref>Existing reviewed records and collaborative-tree lead: [https://books.google.co.uk/books?id=aKv-R5x90uwC&pg=PA342 James, Quothquan weaver, 1612 court hearing about 1607–1608 acts; RPC IX p.342]; [https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/the_commissariot_record_of_lanark__register_of_testaments__1595-1800_~_1903.pdf#page=50 Lanark testament index p.38: James the Quothquan weaver, 26 July 1624; Helen of Thankerton, 8 January 1627]; [https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/the_commissariot_record_of_lanark__register_of_testaments__1595-1800_~_1903.pdf#page=111 Lanark index p.99: Margaret Threipland, relict of James Glesgow, Quothquan, 27 October 1626]; [https://archive.org/details/abstractsprotoc00robegoog/page/n126/mode/2up Glasgow protocol 2189, 17 June 1575: adult Stephen, son of deceased John]; [https://archive.org/details/abstractsofproto08glas/page/56/mode/2up Glasgow protocol 2431, 25 June 1582: Stephen and spouse Margaret Grahame]; [https://www.wikitree.com/wiki/Glasgow-3296 John Glasgow of Quothquan: existing CC14/5/5 transcription and 27 May 1650 confirmation review]. No original newly inspected; confirmation dates and adult-identity limits remain explicit.</ref>
+
+
+=== Current evidence assessment ===
+
+==== Distinct records combined on this profile ====
+The former profile [[Glasgow-3296]] now redirects here. That merge brought in a separate Mid Calder reconstruction. Derivative baptism indexes name a Jhone Glasgow as father of Jhone in 1608 and William in 1609.<ref name="John1608">“Scotland, Births and Baptisms, 1564–1950,” FamilySearch ([https://familysearch.org/ark:/61903/1:1:X1BL-X8B record X1BL-X8B]), Jhone Glasgow, 1608, father Jhone Glasgow.</ref><ref name="William1609">“Scotland, Births and Baptisms, 1564–1950,” FamilySearch ([https://www.familysearch.org/ark:/61903/1:1:X1B2-3LV record X1B2-3LV]), William Glasgow, baptised 24 December 1609 at Mid Calder, son of Jhone Glasgow.</ref> Those records prove a father-child pair in Mid Calder but provide no bridge to the man whose estate was confirmed at Quodquen forty-one years later. [[Glasgow-1086|John Glasgow]] and [[Glasgow-1087|William Glasgow]] must therefore remain uncertain children of this profile.
 
 A 1610 testament index also identifies Bessie Robertson as the wife of a John Glasgow in Montfoid.<ref name="Montfoid1610">Francis J. Grant, ed., ''Commissariot Record of Glasgow: Register of Testaments, 1547–1800'' (Edinburgh: Scottish Record Society, 1901), [https://archive.org/details/scottishrecordso07scotuoft/page/n435/mode/1up p. 426], Robertson, Bessie, 17 August 1610; cross-reference under Glasgow, John, [https://archive.org/details/scottishrecordso07scotuoft/page/196/mode/1up p. 196].</ref> Bessie Robertson was the wife of the Montfoid man; she was not the Bessie Glasgow identified as the Quodquen man's sister. The Montfoid, Mid Calder and Quodquen records are chronologically compatible with one life, but no residence, occupation, property, spouse or kinship evidence joins all three. Both earlier identities and the wife relationship remain uncertain.
 
@@ -24,7 +146,51 @@ The testament gives Quodquen as John's residence, not his birthplace or place of
 
 [[Glasgow-1561|John Glasgow]] of nearby Linlithgow is a duplicate candidate only. Similar name, date and region do not justify another merge without an identity bridge.
 
-== Sources ==
+=== Data corrections ===
 
+The cited testament shows that John:
+
+* died in April 1650, not 1649;
+* lived at Quodquen;
+* was confirmed on 27 May 1650.
+
+The record does not state that he died at Carluke. Carluke should therefore be removed as the death location unless supported by another source.
+
+=== Working child relationship ===
+
+No child is identified in John’s testament.
+
+The existing relationship to [[Glasgow-1086|John Glasgow]] (formerly Glasgow-3019) is retained as an '''uncertain working son''', not as a proved relationship. The 1650 testament neither identifies nor disproves him.
+
+The 1650 testament does not prove John as the father of:
+
+* Isobell Glasgow;
+* John Glasgow of Burnesyde;
+* any other presently identified child.
+
+=== Parentage ===
+
+John’s father and mother are not named in the 1650 testament.
+
+Any parent relationship should remain unsupported unless established by another record.
+
+=== Further research ===
+
+Useful records include:
+
+* the original 1610 testament of Bessie Robertson;
+* Quodquen parish and kirk-session records;
+* land, sasine and rental records naming John, Bessie, Thomas or William Glasgow;
+* records identifying John Miller and the estate for which he acted;
+* any record connecting John Glasgow of Montfoid with Quodquen;
+* evidence establishing whether Thomas Glasgow or William Glasgow was related to John and Bessie.
+
+John was born before 1590.
+
+Might be the same person as [[Glasgow-3296|John Glasgow (abt.1590-1649)]] and/or [[Glasgow-1561|John Glasgow (abt.1579-)]]
+
+== Sources ==
 <references />
-```
+
+
+* See [[Glasgow-1086|John Glasgow (1608-)]]

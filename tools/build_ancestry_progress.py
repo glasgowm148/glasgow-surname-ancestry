@@ -182,13 +182,15 @@ def build(create_baseline=False):
         confidence_note = (f'<p role="note"><strong>Confidence-only calculation under review:</strong> '
                            f'The {publication["reviewed"]} review found {flag_count:,} saved confident WikiTree flags omitted from this calculation. '
                            'The working figures are unaffected; correcting this will not count as new research evidence.</p>')
+        publication_summary = publication.get('publication_summary') or (
+            f'The main viewer now includes {len(checked["added_historical_profiles"]):,} historical profiles that were absent '
+            f'and synchronizes {checked["changed_father_fields"]:,} father fields. These reproduce existing published conclusions; '
+            'the connectivity figures do not increase. Competing fathers remain unresolved, and existing uncertainty grades are retained.')
         publication_html = (f'<section aria-labelledby="tree-publication-title"><h2 id="tree-publication-title">Whole tree publication check</h2>'
                             f'<p>Checked {publication["reviewed"]}: both viewers reproduce the published paternal relationships for '
                             f'{checked["checked_historical_profiles"]:,} profiles through {publication["cutoff"]}, including '
                             f'{checked["matched_paternal_edges"]:,} paternal links and the named documentary connector.</p>'
-                            f'<p>The main viewer now includes {len(checked["added_historical_profiles"]):,} historical profiles that were absent '
-                            f'and synchronizes {checked["changed_father_fields"]:,} father fields. These reproduce existing published conclusions; '
-                            'the connectivity figures do not increase. Competing fathers remain unresolved, and existing uncertainty grades are retained.</p>'
+                            f'<p>{escape(publication_summary)}</p>'
                             '<p><a href="/data/ancestry-tree-publication-review.json">Read the profile-by-profile publication audit</a></p></section>')
         if publication.get('method_version') != report['method_version'] or publication['next_metric_check'].get('status') != 'OPEN':
             confidence_note = ''

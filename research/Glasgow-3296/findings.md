@@ -2,6 +2,10 @@
 
 ## Current conclusion
 
+Reviewed: 2026-10-16
+
+**Selected Quothquan working family, 16 October 2026:** James the weaver is placed under Stephen, uncertain; Helen of Thankerton is placed under James, uncertain. John of Quothquan remains Stephen’s already attached uncertain son. The proposed brotherhood is conditional, both new mothers remain unknown, and James’s old 1605 birth estimate is replaced by an explicitly estimated adult boundary. [Evidence and alternatives](/branches/early-scottish-records/#quothquan-working-family).
+
 Reviewed: 2026-10-15
 
 Glasgow-3296 is the exact profile for the John Glasgow of Quodquen whose estate
@@ -146,3 +150,24 @@ Recorded in `research/Glasgow-3296/Glasgow-3296.md` (2026-09-07); carried into t
 - [John Glasgow of Kirknewton](/people/glasgow-3610.html) is now a selected **uncertain** son in the local working model. The older John already represents the father named in Mid Calder baptisms1608–1609. His son John-1086, baptised1608, is a viable earlier identity for the adult John who had children in neighbouring Kirknewton/East Calder1646–1650: age38 at the1646 birth is straightforward. Select the older John as working father of3610 on that local and chronological reconstruction. Keep the two son profiles separate while testing their possible identity. Alternatives remain in the child’s account.
 
 [Working-model reasoning](/branches/early-scottish-records/#selected-working-joins). No new proof or shared mother is claimed; earlier interpretations remain in their recorded context.
+
+
+## Selected uncertain family — 16 October 2026
+
+James the Quothquan weaver is selected as an uncertain paternal brother through the already uncertain Stephen parentage. No new father is attached to John, and no full-sibling relationship or migration is established. Select Stephen Glasgow-1029 as the uncertain working father of James Glasgow-3910. James’s weaver occupation and Quothquan locality favour using the 1612 court defender and the 1624 testator as one working adult account. Stephen is documented as an adult in Glasgow in 1575 and with wife Margaret Grahame in 1582; his approximate 1550 birth is an estimate, not a birth record. The existing tree already places John Glasgow-3296, the 1650 Quothquan testator, under Stephen, uncertain. The preferred model treats the two early Quothquan men as paternal brothers rather than making the later John James’s father. A Stephen born around the mid-sixteenth century could have fathered James in the 1570s–1590s and John in a similar generation. This uses a named family already connected to Quothquan, at very low confidence, rather than inventing a missing parent. No record names Stephen as James’s father or James and John as brothers.
+
+The route depends both on the proposed James–John brotherhood and on John’s already uncertain Stephen parentage. The Glasgow–Montfoid–Mid Calder–Quothquan identities are not proved migrations. John’s 1650 testament names his sister Bessie and no child or parent; omission of James, already dead by 1624, does not disprove brotherhood. John himself could instead be James’s father if older than his inherited estimate, or the men could be uncle/nephew, cousins or unrelated local namesakes. The older John and Thomas tenants in the 1520s–1530s remain possible ancestral relatives with unproved intervening generations; no direct father edge to them is selected. Margaret Grahame is Stephen’s documented spouse in 1582, not a documented mother of James, so no mother is attached. John’s existing mother field and all earlier parent and identity alternatives remain unchanged.
+
+[Complete comparison and source limits](/branches/early-scottish-records/#quothquan-working-family).
+
+- [James, Quothquan weaver, 1612 court hearing about 1607–1608 acts; RPC IX p.342](https://books.google.co.uk/books?id=aKv-R5x90uwC&pg=PA342)
+- [Lanark testament index p.38: James the Quothquan weaver, 26 July 1624; Helen of Thankerton, 8 January 1627](https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/the_commissariot_record_of_lanark__register_of_testaments__1595-1800_~_1903.pdf#page=50)
+- [Lanark index p.99: Margaret Threipland, relict of James Glesgow, Quothquan, 27 October 1626](https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/the_commissariot_record_of_lanark__register_of_testaments__1595-1800_~_1903.pdf#page=111)
+- [Glasgow protocol 2189, 17 June 1575: adult Stephen, son of deceased John](https://archive.org/details/abstractsprotoc00robegoog/page/n126/mode/2up)
+- [Glasgow protocol 2431, 25 June 1582: Stephen and spouse Margaret Grahame](https://archive.org/details/abstractsofproto08glas/page/56/mode/2up)
+- [John Glasgow of Quothquan: existing CC14/5/5 transcription and 27 May 1650 confirmation review](https://www.wikitree.com/wiki/Glasgow-3296)
+
+
+## Surviving identity alternative — 16 October 2026
+
+James Glasgow-3332 remains a surviving cross-profile identity alternative for the 1624 Quothquan weaver. Its circa-1634 birth is an unsupported estimate and cannot by itself exclude that earlier man. Identification with the distinct weaver indexed at Back of Lindsaylands in 1680 would exclude a death before 1624 if established, but that later identity is itself only possible. Retain Glasgow-3910 as the record-defined 1624 account for the selected uncertain family; do not merge the profiles or transfer Glasgow-3332’s unproved parent and child attachments. Those existing family fields remain unchanged, and the proposed Stephen placement is an alternative to that account’s current pedigree. [Working family comparison](/branches/early-scottish-records/#quothquan-working-family).

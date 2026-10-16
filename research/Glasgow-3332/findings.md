@@ -2,9 +2,7 @@
 
 ## Current conclusion
 
-Glasgow-3332 cannot be the James whose testament was recorded in 1624. He is a
-chronological candidate for the 1680 Back of Lindsaylands weaver, but no reviewed
-record joins the identities. His asserted family depends on the separate 1662
+James Glasgow-3332 remains a surviving cross-profile identity alternative for the 1624 Quothquan weaver. Its circa-1634 birth is an unsupported estimate and cannot by itself exclude that earlier man. Identification with the distinct weaver indexed at Back of Lindsaylands in 1680 would exclude a death before 1624 if established, but that later identity is itself only possible. Retain Glasgow-3910 as the record-defined 1624 account for the selected uncertain family; do not merge the profiles or transfer Glasgow-3332’s unproved parent and child attachments. Those existing family fields remain unchanged, and the proposed Stephen placement is an alternative to that account’s current pedigree. His asserted family depends on the separate 1662
 original. The 1685 Quothquan testament names no child and does not prove James
 as a son of [[Glasgow-1086]].
 
@@ -12,13 +10,13 @@ as a son of [[Glasgow-1086]].
 
 | Source | Finding | Assessment |
 | --- | --- | --- |
-| Live capture `captures/20260717T084257Z_Glasgow-3332.json` | Estimates birth in 1634 and cites only the testament of Glasgow-3019 for parents. | Too late for the 1624 decedent; family citation requires original review. |
+| Live capture `captures/20260717T084257Z_Glasgow-3332.json` | Estimates birth in 1634 and cites only the testament of Glasgow-3019 for parents. | The estimated year alone does not exclude the 1624 decedent; family citation requires original review. |
 | Grant, *Commissariot Record of Lanark*, pp. 38, 99, local copy `../../surname-research/pre-1700/sources/grant_commissariot_of_lanark_testaments_1595_1800_1903.pdf` | James entries occur in 1624, via the 1626 widow cross-reference, and at Back of Lindsaylands in 1680. | Distinguishes at least two men; does not identify Glasgow-3332. |
 
 <!-- repo-integration-audit-2026-10-07:L16-020 -->
 ## Source findings — exact Lanark index entries, 7 October 2026
 
-Francis J. Grant, ed., *The Commissariot Record of Lanark: Register of Testaments, 1595–1800* (1903), pp. 38 and 99 ([digital copy](https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/the_commissariot_record_of_lanark__register_of_testaments__1595-1800_~_1903.pdf)): James Glasgow, **weaver in Quodquen**, 26 July 1624; James Glesgow, deceased husband of **Margaret Threipland**, by 1626; James Glasgow, **weaver at Back of Lindsaylands, Biggar parish**, 10 November 1680. Printed index. This profile is **excluded** from the 1624 entry by its estimated 1634 birth; identity with the 1680 weaver is possible only.
+Francis J. Grant, ed., *The Commissariot Record of Lanark: Register of Testaments, 1595–1800* (1903), pp. 38 and 99 ([digital copy](https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/the_commissariot_record_of_lanark__register_of_testaments__1595-1800_~_1903.pdf)): James Glasgow, **weaver in Quodquen**, 26 July 1624; James Glesgow, deceased husband of **Margaret Threipland**, by 1626; James Glasgow, **weaver at Back of Lindsaylands, Biggar parish**, 10 November 1680. Printed index. The estimated 1634 birth does not itself exclude the 1624 entry. Identity with the 1680 weaver is possible only; if established, it would exclude the earlier decedent.
 
 Recorded in `research/Glasgow-3332/Glasgow-3332.md` (2026-07-17); carried into this file on 7 October 2026.
 
@@ -30,3 +28,13 @@ On 7 May 1690 James Glasgow, **son of the deceased James Glasgow, weaver in Lind
 This bears on this profile only if Glasgow-3332 is the Lindsaylands weaver, which is unproved (chronology only). If a record bridges the two, the 1690 entry would add a son James. Grade: unresolved; no relationship is asserted for Glasgow-3332. The 1680 testament itself should be read for named children.
 
 Recorded in `research/findmypast-glasgow-audit/hold-identity-resolution-2026-09-06.md` (6 September 2026) and `research/Glasgow-4131/1690_Scotland_Edinburgh_James_Glasgow.md`; carried into this file on 7 October 2026.
+
+
+## Surviving identity alternative — 16 October 2026
+
+James Glasgow-3332 remains a surviving cross-profile identity alternative for the 1624 Quothquan weaver. Its circa-1634 birth is an unsupported estimate and cannot by itself exclude that earlier man. Identification with the distinct weaver indexed at Back of Lindsaylands in 1680 would exclude a death before 1624 if established, but that later identity is itself only possible. Retain Glasgow-3910 as the record-defined 1624 account for the selected uncertain family; do not merge the profiles or transfer Glasgow-3332’s unproved parent and child attachments. Those existing family fields remain unchanged, and the proposed Stephen placement is an alternative to that account’s current pedigree. [Working family comparison](/branches/early-scottish-records/#quothquan-working-family).
+
+
+## Later-child record and identity caution — 16 October 2026
+
+The existing [Johne Glasgow-3093 assessment](/people/glasgow-3093.html) reports a 9 July 1648 Mid Calder baptism naming father Jamis. Identification of that adult with this profile remains uncertain. Do not transfer that child to the 1624 decedent. A child actually born in 1648 would conflict with a father dead by 1624; the reviewed index supplies a baptism, not an independent birth observation. This is further caution against a merge, alongside the distinct possible 1680 weaver identity. The conflicting 1630/1634 birth statements and the old categorical exclusion are retained as historical quotations in the revised biography.

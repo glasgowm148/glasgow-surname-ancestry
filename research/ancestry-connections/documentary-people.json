@@ -259,6 +259,67 @@
           "death_location": "uncertain"
         }
       }
+    },
+    {
+      "id": "Glasgow-3910",
+      "publication_status": "approved",
+      "source_ids": [
+        "quothquan-james-court-1612",
+        "quothquan-james-testament-1624"
+      ],
+      "assessment_id": "chronology-quothquan-james-20261016",
+      "reviewed": "2026-10-16",
+      "year": 1595,
+      "year_basis": "conditional adult-role estimate",
+      "year_status": "estimated bound; not a recorded birth",
+      "birth_year": 1595,
+      "death_year": 1624,
+      "first_record_year": 1612,
+      "reason": "The circa-1605 birth estimate is replaced locally by an explicitly conditional adult-role estimate, before 1595: this assumes an age of at least 18 at the 1612 hearing and the preferred same-weaver identification. Neither the record nor the profile supplies a real age, so this is not a recorded birthday or a hard biological exclusion. The 1607–1608 acts concern the earlier dispute, not a newly established birth or exact adult-age observation. The 26 July 1624 date is a testament confirmation, so death is shown as before that date and its place is left unresolved; Quothquan is the stated residence. Imported profile values remain in the comparison and the earlier biography is retained as history.",
+      "vitals": {
+        "birth": {
+          "date": "before 1595",
+          "place": "Scotland",
+          "status": "estimated",
+          "qualifier": "Conditional age-18 estimate from the preferred 1612 weaver identity; actual birth and birthplace unknown. Scotland is an inherited broad place estimate.",
+          "source_url": "https://books.google.co.uk/books?id=aKv-R5x90uwC&pg=PA342"
+        },
+        "death": {
+          "date": "before 1624-07-26",
+          "display_date": "Dead by 26 July 1624",
+          "place": null,
+          "status": "before",
+          "qualifier": "Testament confirmation, not an exact death date; Quothquan is residence, not a stated death place.",
+          "source_url": "https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/the_commissariot_record_of_lanark__register_of_testaments__1595-1800_~_1903.pdf#page=50"
+        }
+      },
+      "catalogue_projection": {
+        "birth": "Before 1595 (estimated adult bound)",
+        "birth_year": 1595,
+        "birth_note": "Assumes at least 18 at the 1612 hearing and the preferred same-weaver identity; no recorded age or birth.",
+        "death": "Dead by 26 July 1624",
+        "death_year": 1624,
+        "death_location": "",
+        "date_years": [
+          1595,
+          1624
+        ],
+        "field_statuses": {
+          "birth": "estimated",
+          "death": "before",
+          "death_location": "unassessed"
+        }
+      },
+      "tree_display": {
+        "born": 1595,
+        "died": 1624,
+        "year": 1595,
+        "birthDisplay": "Before 1595 (estimated adult bound)",
+        "deathDisplay": "Dead by 26 July 1624",
+        "deathplace": "",
+        "deathLocationRegion": "other",
+        "lifeLabel": "Recorded adult 1612; dead by July 1624"
+      }
     }
   ]
 }

@@ -1630,3 +1630,12 @@ The August completion entries remain historical. The live parent fields are now 
 | [William Glasgow, older Kirknewton householder](https://www.wikitree.com/wiki/Glasgow-1026) | OPEN | Review complete additive biography: uncertain Michael/Robert and James/older-William placements; preserve alternative identities and unchanged family fields. |
 | [John Glasgow, indexed in 1717](https://www.wikitree.com/wiki/Glasgow-3525) | OPEN | Review complete additive biography: uncertain Michael/Robert and James/older-William placements; preserve alternative identities and unchanged family fields. |
 | [Helen Glasgow, tree-held 1714 account](https://www.wikitree.com/wiki/Glasgow-3527) | OPEN | Review complete additive biography: uncertain Michael/Robert and James/older-William placements; preserve alternative identities and unchanged family fields. |
+
+
+## Quothquan and Thankerton working family — 16 October 2026
+
+| [James Glasgow, Quothquan weaver](https://www.wikitree.com/wiki/Glasgow-3910) | OPEN | Review the Quothquan–Thankerton working family, uncertain fathers, conditional paternal siblings and James’s qualified date corrections; preserve earlier evidence and alternatives. |
+| [Stephen Glasgow, Glasgow householder](https://www.wikitree.com/wiki/Glasgow-1029) | OPEN | Review the Quothquan–Thankerton working family, uncertain fathers, conditional paternal siblings and James’s qualified date corrections; preserve earlier evidence and alternatives. |
+| [Helen Glasgow, Thankerton testator](https://www.wikitree.com/wiki/Glasgow-3909) | OPEN | Review the Quothquan–Thankerton working family, uncertain fathers, conditional paternal siblings and James’s qualified date corrections; preserve earlier evidence and alternatives. |
+| [John Glasgow, Quothquan testator of 1650](https://www.wikitree.com/wiki/Glasgow-3296) | OPEN | Review the Quothquan–Thankerton working family, uncertain fathers, conditional paternal siblings and James’s qualified date corrections; preserve earlier evidence and alternatives. |
+| [James Glasgow](https://www.wikitree.com/wiki/Glasgow-3332) | OPEN | Qualify the 1624/1680 identity comparison; the estimated 1634 date cannot alone exclude the earlier record. No merge or parent replacement. |

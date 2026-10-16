@@ -1,0 +1,48 @@
+{
+  "reviewed": "2026-10-16",
+  "cutoff": 1850,
+  "method_version": 3,
+  "input_fingerprint": "301455278966e605df7189e10584c9f37b886e169eef07e493fec744dac9ca15",
+  "scope": "Quothquan and Thankerton: two uncertain fathers",
+  "genealogical_connections_added": 2,
+  "certainty_upgrades": 0,
+  "working_fathers": 32,
+  "working_mothers": 3,
+  "models": {
+    "standalone": {
+      "checked_historical_profiles": 1777,
+      "matched_paternal_edges": 1329,
+      "changed_father_fields": 2,
+      "added_historical_profiles": [],
+      "unresolved_father_cases": [
+        "Glasgow-1367",
+        "Glasgow-2908",
+        "Glasgow-3902",
+        "Glasgow-3904",
+        "Glasgow-867",
+        "Glasgow-951"
+      ]
+    },
+    "main": {
+      "checked_historical_profiles": 1777,
+      "matched_paternal_edges": 1329,
+      "changed_father_fields": 2,
+      "added_historical_profiles": [],
+      "unresolved_father_cases": [
+        "Glasgow-1367",
+        "Glasgow-2908",
+        "Glasgow-3902",
+        "Glasgow-3904",
+        "Glasgow-867",
+        "Glasgow-951"
+      ]
+    }
+  },
+  "publication_summary": "Two selected uncertain fathers are now present in both viewers: James of Quothquan under Stephen, and Helen of Thankerton under James. The related paternal-sibling hypothesis remains conditional; no mother or certainty upgrade is added. The through-1850 largest working family grows from 858 to 860. James\u2019s conditional adult-date estimate also adds one person to the through-1600 cohort; this chronology change is tracked separately from the joins.",
+  "comparison": "/branches/early-scottish-records/#quothquan-working-family",
+  "next_metric_check": {
+    "status": "RESOLVED",
+    "saved_confident_tree_flags_not_used_by_current_metric": 0,
+    "review": "/data/ancestry-confidence-method-review.json"
+  }
+}
