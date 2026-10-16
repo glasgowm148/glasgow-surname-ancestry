@@ -2708,5 +2708,74 @@
         "role": "recorded adult father"
       }
     }
+  },
+  {
+    "record_id": "calder-john-william-child-1702",
+    "date": "1702;11/29 November discrepancy retained",
+    "year": 1702,
+    "place": "Kirknewton and East Calder",
+    "source_title": "John, Kirknewton 1702: named father William; FamilySearch index",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:VQ4K-XZ7",
+    "status": "Previously cited child index; current adult identity uncertain",
+    "note": "Names father William; current William-1026 identity remains qualified. Ann not independently named in reviewed citation.",
+    "profiles": {
+      "Glasgow-1544": {
+        "role": "child account"
+      },
+      "Glasgow-1026": {
+        "role": "existing uncertain identity of named William"
+      }
+    }
+  },
+  {
+    "record_id": "calder-john-jean-father-1730",
+    "date": "11 November 1730",
+    "year": 1730,
+    "place": "Kirknewton and East Calder",
+    "source_title": "Jean, Kirknewton/East Calder 11 November 1730: father John, mother omitted in cited index",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:VQ4K-H5X",
+    "status": "Previously reviewed parish index",
+    "note": "Father John, mother omitted in cited entry. Current combined 1730/1751/1755 adult account remains a working identity.",
+    "profiles": {
+      "Glasgow-3481": {
+        "role": "named adult father"
+      }
+    }
+  },
+  {
+    "record_id": "kilwinning-george-spark-child-1687",
+    "date": "20 November 1687",
+    "year": 1687,
+    "place": "Kilwinning, Ayrshire",
+    "source_title": "George, Kilwinning 20 November 1687: John Glasgow and Agnes Spark, OPR 599/1 page 26",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3624876&tab=this",
+    "status": "Previously validated parish transcript",
+    "note": "Explicit parents for child George; direct childhood parentage does not prove the later Irvine adult identity.",
+    "profiles": {
+      "Glasgow-1058": {
+        "role": "baptised child"
+      },
+      "Glasgow-1057": {
+        "role": "named father"
+      },
+      "Spark-330": {
+        "role": "named mother"
+      }
+    }
+  },
+  {
+    "record_id": "irvine-george-margt-isabel-1741",
+    "date": "26 April 1741",
+    "year": 1741,
+    "place": "Irvine, Ayrshire",
+    "source_title": "Isabel, Irvine 26 April 1741: George Glasgow and Margt",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3575036&tab=this",
+    "status": "Previously validated parish transcript",
+    "note": "George and Margt parents of Isabel; no grandparents, mother surname or father age.",
+    "profiles": {
+      "Glasgow-4165": {
+        "role": "named adult father"
+      }
+    }
   }
 ]

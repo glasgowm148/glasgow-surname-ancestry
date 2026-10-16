@@ -1682,3 +1682,14 @@ The August completion entries remain historical. The live parent fields are now 
 | [Philip Glasco junior, Teresa Plunkett household](https://www.wikitree.com/wiki/Glasgow-3932) | OPEN | Review the selected uncertain Dublin/Irvine fathers, separated elder/junior events and surviving profile identities; preserve all source citations and prior amendments.  Restore the misplaced Kilrea biography from the complete sourced Dublin draft, retaining actual current/replacement comparison. |
 | [James Glasgow, Irvine Rae household](https://www.wikitree.com/wiki/Glasgow-4158) | OPEN | Review the selected uncertain Dublin/Irvine fathers, separated elder/junior events and surviving profile identities; preserve all source citations and prior amendments. |
 | [Hugh Glasgow, Irvine Service household](https://www.wikitree.com/wiki/Glasgow-3109) | OPEN | Review the selected uncertain Dublin/Irvine fathers, separated elder/junior events and surviving profile identities; preserve all source citations and prior amendments. |
+
+
+## Calder and Irvine working families — 16 October 2026
+
+| [John Glasgow, Calder/Meek household](https://www.wikitree.com/wiki/Glasgow-3481) | OPEN | Review the selected uncertain Calder/Irvine parents and retained child/adult and co-parent alternatives; preserve all existing source dates and earlier amendments. |
+| [William Glasgow, older Kirknewton McCook household](https://www.wikitree.com/wiki/Glasgow-1026) | OPEN | Review the selected uncertain Calder/Irvine parents and retained child/adult and co-parent alternatives; preserve all existing source dates and earlier amendments. |
+| [John Glasgow, Kirknewton child of 1702](https://www.wikitree.com/wiki/Glasgow-1544) | OPEN | Review the selected uncertain Calder/Irvine parents and retained child/adult and co-parent alternatives; preserve all existing source dates and earlier amendments. |
+| [George Glasgow, Irvine Margt household](https://www.wikitree.com/wiki/Glasgow-4165) | OPEN | Review the selected uncertain Calder/Irvine parents and retained child/adult and co-parent alternatives; preserve all existing source dates and earlier amendments. |
+| [John Glasgow, father of the 1687 George](https://www.wikitree.com/wiki/Glasgow-1057) | OPEN | Review the selected uncertain Calder/Irvine parents and retained child/adult and co-parent alternatives; preserve all existing source dates and earlier amendments. |
+| [Agnes Spark](https://www.wikitree.com/wiki/Spark-330) | OPEN | Review the selected uncertain Calder/Irvine parents and retained child/adult and co-parent alternatives; preserve all existing source dates and earlier amendments. |
+| [George Glasgow, 1687 child and Kilwinning family account](https://www.wikitree.com/wiki/Glasgow-1058) | OPEN | Review the selected uncertain Calder/Irvine parents and retained child/adult and co-parent alternatives; preserve all existing source dates and earlier amendments. |

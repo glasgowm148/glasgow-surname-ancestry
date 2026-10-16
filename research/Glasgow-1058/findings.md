@@ -5,6 +5,10 @@ Last updated: 2026-09-10
 
 ## Current conclusion
 
+Reviewed: 2026-10-16
+
+**Selected Calder/Irvine working families, 16 October 2026:** John of the Calder/Meek household is placed under William-1026 through the 1702 child comparison, uncertain. George of the Irvine Margt household is placed under John-1057 and Agnes Spark through the 1687 child and 1728 couple comparison, both uncertain. Existing dates, recorded-child grades and competing identities remain. [Evidence and alternatives](/branches/early-scottish-records/#calder-irvine-working-family).
+
 **Source-only confirmation.** The Findmypast transcript agrees with the existing structured baptism date and place, the attached confident parents [[Glasgow-1057|John Glasgow]] and [[Spark-330|Agnes Spark]], and the baptism already cited from FamilySearch and ScotlandsPeople. It supplies a recoverable OPR reference but no substantive profile amendment.
 
 ## Source findings
@@ -107,3 +111,25 @@ Inspect Glasgow partnership papers, Nethermains/Kilwinning titles, court-process
 - [The Caledonian Mercury, 1777-07-26, p.3](https://www.newspapers.com/image/395686198/): no longer a candidate for this profile. July 1777 judicial sale (Lords of Council and Session) of Nether Mains and Littleward 'which belonged to George Glasgow'. Glasgow-3312, probable.
 - [The Caledonian Mercury, 1777-11-24, p.4](https://www.newspapers.com/image/395696322/): no longer a candidate for this profile. Nov 1777 adjourned judicial sale of Littleward, Fence and Oxenward, formerly of George Glasgow of Nethermains. Glasgow-3312, probable.
 - [The Caledonian Mercury, 1777-12-13, p.3](https://www.newspapers.com/image/395699045/): no longer a candidate for this profile. Dec 1777 judicial sale of Oxenward near Kilwinning, 'which belonged to George Glasgow of Nether Mains'. Glasgow-3312, probable.
+
+
+## Selected uncertain family — 16 October 2026
+
+The Irvine adult George-4165 is now selected under the same parents through possible identity with this child/family account. The child’s confident parentage is unchanged; neither a second George son nor the later adult identity is proved. Select John Glasgow-1057 and Agnes Spark-330 as the uncertain working parents of George Glasgow-4165, father with Margt at Irvine in 1741–1745. The preferred model uses possible identity with their son George Glasgow-1058, baptised at Kilwinning on 20 November 1687 and already associated with the George/Margaret Martain couple indexed marrying there on 11 June 1728. That couple’s son George-3312 is indexed at Kilwinning in 1729. The nearby Irvine household later repeats George and Margt, with no maternal surname or father’s age stated. This offers a specific existing couple and a compatible continuation across neighbouring parishes. On an infant-baptism assumption, the elder George would be about 54–58 at the Irvine children; late fatherhood remains possible. Margaret’s circa 1704 estimate would fit an adult mother in 1741–1745, but it is only a marriage-derived estimate. Neither calculation proves the identities or a move.
+
+The 1687 child, 1728 groom and Irvine father may be different men. The match of Margt to Margaret Martin is compatible, not a full recorded maternal surname match, and no age, occupation or property bridges the two parishes. The existing 1687-child/1728-adult family account also needs its identity assessment kept separate from the child’s explicit parent clause. A younger George from the Irvine Hugh/Service, James/Rae or another local family remains possible. The proposed father James-4158 would give a normal generation if George was born around 1720, but no record names him as George’s father; the specific older George/Margaret household is preferred provisionally. Keep the merchant son George-3312 distinct. If his 1729 entry represents infant baptism, he would be only about 12 at the 1741 fatherhood, a strong objection to assigning those children directly to that son. The index event type and adult-child identities still require their own review; an unsupported older birth estimate must not decide them. No merchant trade, Nethermains ownership, Manchester patent or artillery career is transferred to the Irvine father. No identity merge, duplicate removal or live relationship save is performed.
+
+[Complete comparison and source limits](/branches/early-scottish-records/#calder-irvine-working-family).
+
+- [John, Kirknewton 1702: named father William; FamilySearch index](https://www.familysearch.org/ark:/61903/1:1:VQ4K-XZ7)
+- [Jean, Kirknewton/East Calder 11 November 1730: father John, mother omitted in cited index](https://www.familysearch.org/ark:/61903/1:1:VQ4K-H5X)
+- [John, 18 August 1751: John Glasgow and Christian Meek, film 1067762](https://www.myheritage.com/research/record-30226-356058/john-glasgow-in-scotland-births-baptisms)
+- [Isabel, Leith 16 May 1755: John Glasgow and Christian Meek](https://familysearch.org/ark:/61903/1:1:VQCR-935)
+- [Janet, West Calder 1751: John/Guthrie comparison](https://www.familysearch.org/ark:/61903/1:1:VQ4T-H5N)
+- [Margaret, West Calder 1753: continuing John/Guthrie comparison](https://www.familysearch.org/ark:/61903/1:1:VQ4T-HR9)
+- [George, Kilwinning 20 November 1687: John Glasgow and Agnes Spark, OPR 599/1 page 26](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3624876&tab=this)
+- [George Glasgow and Margaret Martain, Kilwinning 11 June 1728](https://familysearch.org/ark:/61903/1:1:XT2C-1QW)
+- [George, Kilwinning 19 July 1729: George/Margaret family child](https://familysearch.org/ark:/61903/1:1:XTVY-1MQ)
+- [Isabel, Irvine 26 April 1741: George Glasgow and Margt](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3575036&tab=this)
+- [Magdalen, Irvine 29 March 1743: George Glasgow and Margt](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3575189&tab=this)
+- [Mary, Irvine 21 April 1745: George Glasgow and Margt](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3575366&tab=this)

@@ -1,0 +1,59 @@
+{
+  "reviewed": "2026-10-16",
+  "cutoff": 1850,
+  "method_version": 3,
+  "input_fingerprint": "69d0db5d46d09e6bba0316f603de909592bd8f8f3b77021497a884e8c12a2be1",
+  "scope": "Calder and Irvine: selected uncertain parent families",
+  "genealogical_connections_added": 3,
+  "paternal_connections_added": 2,
+  "maternal_connections_added": 1,
+  "certainty_upgrades": 0,
+  "working_fathers": 42,
+  "working_mothers": 6,
+  "models": {
+    "standalone": {
+      "checked_historical_profiles": 1777,
+      "matched_paternal_edges": 1339,
+      "changed_father_fields": 2,
+      "added_historical_profiles": [],
+      "existing_birth_estimate_reconciled": [],
+      "unresolved_father_cases": [
+        "Glasgow-1367",
+        "Glasgow-2908",
+        "Glasgow-3902",
+        "Glasgow-3904",
+        "Glasgow-867",
+        "Glasgow-951"
+      ]
+    },
+    "main": {
+      "checked_historical_profiles": 1777,
+      "matched_paternal_edges": 1339,
+      "changed_father_fields": 2,
+      "added_historical_profiles": [],
+      "existing_birth_estimate_reconciled": [
+        {
+          "profile_id": "Glasgow-3481",
+          "before": 1730,
+          "after": 1710,
+          "basis": "Main viewer now matches the pre-existing standalone/public 1710 estimate; no new birth evidence or public vital-field edit."
+        }
+      ],
+      "unresolved_father_cases": [
+        "Glasgow-1367",
+        "Glasgow-2908",
+        "Glasgow-3902",
+        "Glasgow-3904",
+        "Glasgow-867",
+        "Glasgow-951"
+      ]
+    }
+  },
+  "publication_summary": "Both viewers include John of the Calder/Meek household under William-1026, uncertain through the 1702 child comparison, and George of Irvine under John-1057 and Agnes Spark, uncertain through the 1687 child and 1728 couple comparisons. The original child parent grades remain unchanged. No mother is selected for John, and neither adult identity is merged. The through-1850 largest working family grows from 898 to 906 retained profiles. Cohort membership, existing public vital fields and confidently marked metrics remain unchanged. The main viewer\u2019s stale 1730 birth for John-3481 now matches the pre-existing public and standalone 1710 estimate; this is a display reconciliation, not new birth evidence.",
+  "comparison": "/branches/early-scottish-records/#calder-irvine-working-family",
+  "next_metric_check": {
+    "status": "RESOLVED",
+    "saved_confident_tree_flags_not_used_by_current_metric": 0,
+    "review": "/data/ancestry-confidence-method-review.json"
+  }
+}
