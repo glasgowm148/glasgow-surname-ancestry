@@ -1701,3 +1701,10 @@ The August completion entries remain historical. The live parent fields are now 
 | [William Glasgow, Cavers Covenanter](https://www.wikitree.com/wiki/Glasgow-4138) | OPEN | Review the very uncertain William father model through possible Polwarth/Cavers/Ulster identity; preserve young-father objections, migration traditions and competing Scottish identities. |
 | [William Glasgow, Polwarth child of 1658](https://www.wikitree.com/wiki/Glasgow-1605) | OPEN | Review the very uncertain William father model through possible Polwarth/Cavers/Ulster identity; preserve young-father objections, migration traditions and competing Scottish identities. |
 | [William Glasgow, Inveresk child of 1639](https://www.wikitree.com/wiki/Glasgow-2462) | OPEN | Review the very uncertain William father model through possible Polwarth/Cavers/Ulster identity; preserve young-father objections, migration traditions and competing Scottish identities. |
+
+
+## Larne and Inishrush working family — 16 October 2026
+
+| [Adam Glasgow of Inishrush](https://www.wikitree.com/wiki/Glasgow-3902) | OPEN | Review the selected uncertain James-1509 father, possible Adam/Alexander brotherhood and competing generations; preserve the separate mothers and younger Alexander-951’s unresolved parentage. Full private comparisons remain outside the public site where necessary. |
+| [Older Alexander Glasgow, reconstructed Bann Valley father](https://www.wikitree.com/wiki/Glasgow-3904) | OPEN | Review the selected uncertain James-1509 father, possible Adam/Alexander brotherhood and competing generations; preserve the separate mothers and younger Alexander-951’s unresolved parentage. Full private comparisons remain outside the public site where necessary. |
+| [James Glasgow, older Larne ropemaker](https://www.wikitree.com/wiki/Glasgow-1509) | OPEN | Review the selected uncertain James-1509 father, possible Adam/Alexander brotherhood and competing generations; preserve the separate mothers and younger Alexander-951’s unresolved parentage. Full private comparisons remain outside the public site where necessary. |

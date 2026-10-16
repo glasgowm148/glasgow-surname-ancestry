@@ -74,6 +74,25 @@ class WorkingHypothesisTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,'retained uncertain alternative'):
             apply_working_hypotheses(model,[alternative,proposal])
 
+    def test_replacement_of_captured_parent_outside_model_preserves_capture(self):
+        model = people('Child-1', 'New-1')
+        original = {'id': 'Old-1', 'role': 'father', 'status': 'uncertain', 'inModel': False}
+        model[0]['parents'] = [original.copy()]
+        proposal = assessment('Child-1', 'New-1', source_ids=['S-1'],
+            working_parent_replacement={'previous_parent': 'Old-1',
+                'alternative_assertion_id': 'A-old', 'reason': 'Preferred reviewed family'})
+        alternative = {'assertion_id': 'A-old', 'people': ['Child-1', 'Old-1'],
+            'publication_status': 'approved', 'status': 'uncertain', 'lifecycle': 'alternative',
+            'source_ids': ['S-1'], 'perspectives': {'Child-1': {'relationship': 'father'}}}
+        self.assertEqual(apply_working_hypotheses(model, [alternative, proposal]), 1)
+        self.assertEqual(model[0]['priorWorkingParents'], [original])
+        self.assertEqual(model[0]['parents'][0]['id'], 'New-1')
+        self.assertEqual(model[1]['childrenRecorded'][0]['id'], 'Child-1')
+        self.assertEqual({p['id'] for p in model}, {'Child-1', 'New-1'})
+        model[0]['parents'] = [{**original, 'withheld': True}]
+        with self.assertRaisesRegex(ValueError, 'retained uncertain alternative'):
+            apply_working_hypotheses(model, [alternative, proposal])
+
     def test_recorded_family_restoration_requires_captured_father_and_prior_grade(self):
         model = people('Child-1', 'Father-1')
         model[0]['parents'] = [{'id': 'Father-1', 'role': 'father', 'status': 'confident'}]

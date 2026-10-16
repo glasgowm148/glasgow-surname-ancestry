@@ -27452,6 +27452,67 @@
         "research/relationship_assessments.json",
         "research/ancestry-connections/polwarth-cavers-ulster-working-family-preservation-2026-10-16.json"
       ]
+    },
+    {
+      "id": "larne-inishrush-working-family-2026-10-16",
+      "found_on": "2026-10-16",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Selected the older Larne ropemaker as uncertain father of Adam of Inishrush and the reconstructed older Alexander, adopting their existing possible-brother model. The compressed Adam-to-Alexander father route remains an alternative; no mother or father of younger Glasgow-951 is newly selected.",
+      "qualification": "Two named father hypotheses are selected from existing research, with low/very low confidence. No new original inspection, certain relationship upgrade, identity merge or live WikiTree save. All existing vital fields and confidently marked metrics remain unchanged. Mothers are independently unassigned. The local model replaces the placeholder father only in these two selected views; captured WikiTree fields and rival parentage remain available. Counts describe retained profile accounts and conditional ancestry, not a proved pedigree. The two local 1740 Tamlaght Hugh households, including Glasgow-3931, and the older Adam-and-Maria naming model remain alternatives for Adam. A different unrecorded father remains possible. Neither Larne property succession nor the Inishrush household totals connect these generations. The 1831 return does not identify its unnamed occupants, and the later plot-29 succession is not evidence of James the ropemaker’s paternity. The shared Glasgow-3905 field is a recently created research placeholder, not evidence that Adam, older Alexander and Glasgow-1367 were brothers. It is not identified or merged with James. No father is extended to Glasgow-1367, and no unnamed extra generation is added. Older Alexander is himself reconstructed chiefly from late descendant testimony naming Thomas’s parents as Alexander and Rosanna. The 2007 account and its copied 2020 restatement are one source tradition, not independent witnesses. Daniel and Thomas are proved brothers, but their father’s name is not established by a contemporary parent record. The new James father therefore depends on that reconstructed older Alexander account. Younger Glasgow-951 remains a separate, unresolved possible brother or cousin of Thomas and Daniel; the record-defined Glasgow-4090 remains his leading current father comparison. This batch does not select older Alexander as younger Alexander’s father or place that younger family beneath James. No Rosanna surname or October 1822 death date is newly established. James’s own Glasgow-1505 and Glasgow-1499 ancestry alternatives and existing children retain their earlier assessments.",
+      "relationship_change_count": 2,
+      "people": [
+        {
+          "id": "Glasgow-3902",
+          "name": "Adam Glasgow of Inishrush",
+          "url": "/people/glasgow-3902.html"
+        },
+        {
+          "id": "Glasgow-3904",
+          "name": "Older Alexander Glasgow, reconstructed Bann Valley father",
+          "url": "/people/glasgow-3904.html"
+        },
+        {
+          "id": "Glasgow-1509",
+          "name": "James Glasgow, older Larne ropemaker",
+          "url": "/people/glasgow-1509.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Tamlaght gravestone: Adam died 30 June 1844 aged 86; Rose died 31 July 1833 aged 66; photograph and transcription",
+          "url": "https://www.oneirishrover.com/tamlaght-graveyard/"
+        },
+        {
+          "title": "Registry of Deeds, ropewalk lease 10 September 1760, registered 24 November 1763: Belfast ropemaker taking Gardenmore, Larne",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSH3-S7XZ-8"
+        },
+        {
+          "title": "Registry of Deeds, assignment 28 March 1768: matching Larne ropewalk and lease term",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJW-DDXW"
+        },
+        {
+          "title": "Registry memorial 204122, 14 May 1766: James Glasgow, Larne ropemaker, witness",
+          "url": "https://www.irishdeedsindex.net/mem.php?memorial=204122"
+        },
+        {
+          "title": "Registry affidavit sworn 27 October 1773, registered 15 November: Larne gentleman aged upwards of thirty",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSH3-M72W-M"
+        },
+        {
+          "title": "Genes Reunited thread 465937: 2007 descendant account, later copied; previously reviewed derivative testimony, not contemporary proof",
+          "url": "https://www.genesreunited.co.uk/boards/board/general_topics/thread/465937"
+        },
+        {
+          "title": "1740 Protestant Householders’ Return, Macafee transcription: two Tamlaght Hugh households, no stated kinship",
+          "url": "https://www.billmacafee.com/1740returns/1740religiousreturnsulstername.pdf"
+        }
+      ],
+      "detail_url": "/branches/larne-kilwaughter/#larne-inishrush-working-family",
+      "provenance": [
+        "research/relationship_assessments.json",
+        "research/ancestry-connections/larne-inishrush-working-family-preservation-2026-10-16.json"
+      ]
     }
   ]
 }

@@ -1,0 +1,100 @@
+{
+  "reviewed": "2026-10-16",
+  "cutoff": 1850,
+  "method_version": 3,
+  "input_fingerprint": "7f2e14530742b3733bde2e448608ecb7deea245b14d47a28ab50429ae50dc452",
+  "scope": "Larne and Inishrush: James’s possible sons Adam and Alexander",
+  "genealogical_connections_added": 2,
+  "paternal_connections_added": 2,
+  "maternal_connections_added": 0,
+  "certainty_upgrades": 0,
+  "working_fathers": 46,
+  "working_mothers": 6,
+  "models": {
+    "standalone": {
+      "checked_historical_profiles": 1777,
+      "matched_paternal_edges": 1343,
+      "changed_father_fields": 2,
+      "added_historical_profiles": [],
+      "unresolved_father_cases": [
+        "Glasgow-1367",
+        "Glasgow-2908",
+        "Glasgow-867",
+        "Glasgow-951"
+      ],
+      "effective_father_field_audit": {
+        "public_father_fields_checked": 1777,
+        "empty_father_fields_checked": 426,
+        "documentary_overlay_profiles_checked_separately": 0,
+        "unselected_competing_fathers_held": [
+          "Glasgow-1367",
+          "Glasgow-2908",
+          "Glasgow-867",
+          "Glasgow-951"
+        ],
+        "confident_flag_among_held_alternatives": [
+          "Glasgow-867"
+        ],
+        "differences": []
+      }
+    },
+    "main": {
+      "checked_historical_profiles": 1777,
+      "matched_paternal_edges": 1343,
+      "changed_father_fields": 2,
+      "added_historical_profiles": [],
+      "unresolved_father_cases": [
+        "Glasgow-1367",
+        "Glasgow-2908",
+        "Glasgow-867",
+        "Glasgow-951"
+      ],
+      "effective_father_field_audit": {
+        "public_father_fields_checked": 1777,
+        "empty_father_fields_checked": 426,
+        "documentary_overlay_profiles_checked_separately": 0,
+        "unselected_competing_fathers_held": [
+          "Glasgow-1367",
+          "Glasgow-2908",
+          "Glasgow-867",
+          "Glasgow-951"
+        ],
+        "confident_flag_among_held_alternatives": [
+          "Glasgow-867"
+        ],
+        "differences": []
+      }
+    }
+  },
+  "publication_summary": "Both viewers now place Adam of Inishrush and the reconstructed older Alexander under James-1509, the older Larne ropemaker, with uncertain fathers. The possible-brother route is preferred provisionally to two short Adam/Alexander generations. The Larne/Inishrush bridge, older Alexander account and mothers remain unresolved; younger Alexander-951 receives no new father here. The largest working family through 1850 grows from 952 to 980 retained profiles. Existing vital fields and confidently marked metrics remain unchanged. One full WikiTree comparison is private because its capture references a living person; its historical reasoning and selected local relationship remain public. Both viewers match all 1,777 effective historical father fields under the excluded/alternative-parent policy. The former placeholder’s child links are retained as history in the main viewer. Approved identity, vital fields and map labels are preserved by the relationship overlay.",
+  "comparison": "/branches/larne-kilwaughter/#larne-inishrush-working-family",
+  "private_comparisons_withheld": [
+    "Glasgow-3904"
+  ],
+  "next_metric_check": {
+    "status": "RESOLVED",
+    "saved_confident_tree_flags_not_used_by_current_metric": 0,
+    "review": "/data/ancestry-confidence-method-review.json",
+    "scope": "Status fallback; unselected competing-father cases remain separately open."
+  },
+  "unresolved_parentage_review": {
+    "status": "OPEN",
+    "case_ids": [
+      "Glasgow-1367",
+      "Glasgow-2908",
+      "Glasgow-867",
+      "Glasgow-951"
+    ],
+    "confident_flag_among_competing_candidates": [
+      "Glasgow-867"
+    ],
+    "scope": "Four other multiple-father cases remain open; no selection is made for them in this batch."
+  },
+  "verification": {
+    "working_hypothesis_tests": 16,
+    "atlas_sync_tests": 9,
+    "private_payloads_on_affected_public_pages": 0,
+    "public_pending_updates": 199,
+    "full_private_comparisons": 1
+  }
+}

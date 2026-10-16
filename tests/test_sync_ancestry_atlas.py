@@ -6,6 +6,46 @@ from tools.sync_ancestry_atlas import overlay_model
 
 
 class AtlasWorkingTests(unittest.TestCase):
+    def test_retained_only_parent_archives_both_replaced_children_and_reverts(self):
+        old = {'meta': {}, 'landmarks': [], 'sections': [], 'people': [
+            {'id': '@root', 'kind': 'group'},
+            {'id': 'Old-1', 'kind': 'person', 'note': 'Approved parent account', 'born': 1690,
+             'childrenRecorded': [{'id': 'Child-1'}, {'id': 'Child-2'}, {'id': 'Other-1'}]},
+            {'id': 'New-1', 'kind': 'person', 'childrenRecorded': []},
+            *[{'id': i, 'kind': 'person', 'parents': [{'id': 'Old-1', 'role': 'father'}],
+               'edge': {'parent': 'Old-1'}} for i in ['Child-1', 'Child-2']]]}
+        fresh = deepcopy(old)
+        old['people'][3].update(born=1758, birthplace='Approved region', researchUrl='/evidence/')
+        fresh['people'][3].update(born=1760, birthplace='Unreviewed export town')
+        fresh['people'] = [p for p in fresh['people'] if p['id'] != 'Old-1']
+        fresh['meta'].update(date='2026-10-16', workingParentAlternativeIds=['Old-1'])
+        for p in fresh['people']:
+            if p['id'].startswith('Child-'):
+                p.update(priorWorkingParents=deepcopy(p['parents']),
+                    parents=[{'id': 'New-1', 'role': 'father', 'status': 'uncertain'}],
+                    edge={'parent': 'New-1', 'type': 'hypothesis'})
+        fresh['people'][1]['childrenRecorded'] = [{'id': i} for i in ['Child-1', 'Child-2']]
+        result = overlay_model(old, fresh)
+        child = next(p for p in result['people'] if p['id'] == 'Child-1')
+        self.assertEqual((child['born'], child['birthplace'], child['researchUrl']),
+                         (1758, 'Approved region', '/evidence/'))
+        prior = next(p for p in result['people'] if p['id'] == 'Old-1')
+        self.assertEqual(prior['childrenRecorded'], [{'id': 'Other-1'}])
+        self.assertCountEqual(prior['priorWorkingChildren'], [{'id': 'Child-1'}, {'id': 'Child-2'}])
+        self.assertEqual((prior['note'], prior['born']), ('Approved parent account', 1690))
+        self.assertEqual(result, overlay_model(result, fresh))
+        fresh['meta']['workingParentAlternativeIds'] = []
+        for p in fresh['people']:
+            if p['id'].startswith('Child-'):
+                p.pop('priorWorkingParents')
+                p.update(parents=[{'id': 'Old-1', 'role': 'father'}], edge={'parent': 'Old-1'})
+            elif p['id'] == 'New-1':
+                p['childrenRecorded'] = []
+        reverted = next(p for p in overlay_model(result, fresh)['people'] if p['id'] == 'Old-1')
+        self.assertEqual({k: v for k, v in reverted.items() if k != 'childrenRecorded'},
+                         {k: v for k, v in old['people'][1].items() if k != 'childrenRecorded'})
+        self.assertCountEqual(reverted['childrenRecorded'], old['people'][1]['childrenRecorded'])
+
     def test_working_mother_is_reciprocal_and_can_be_withdrawn_independently(self):
         old = {'meta': {}, 'landmarks': [], 'sections': [], 'people': [
             {'id': '@root', 'kind': 'group'},

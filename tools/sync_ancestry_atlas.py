@@ -6,6 +6,13 @@ import json
 from pathlib import Path
 
 
+WORKING_PERSON_FIELDS = (
+    'name', 'first', 'surname', 'currentSurname', 'sex', 'born', 'died', 'year',
+    'birthDisplay', 'deathDisplay', 'birthplace', 'deathplace', 'bornApprox',
+    'birthLocationRegion', 'deathLocationRegion', 'locationRegion', 'locationLabel',
+    'locationColor', 'cluster', 'researchUrl',
+)
+
 def parent_order(row: dict) -> tuple:
     """One layout attachment; the other independently graded parent stays listed."""
     status = str(row.get('status', '')).replace('-', '_').casefold()
@@ -34,7 +41,14 @@ def overlay_model(retained: dict, fresh: dict) -> dict:
     for ident in refresh:
         if ident not in incoming:
             raise ValueError('Working subject absent from current public model: ' + ident)
+        previous = existing.get(ident, {})
         existing[ident] = deepcopy(incoming[ident])
+        if ident in selected | prior_selected and ident not in documentary | reviewed | restored:
+            # A working parent selection is not a review of the subject's
+            # approved identity, dates, geography or evidence navigation.
+            for key in WORKING_PERSON_FIELDS:
+                if key in previous:
+                    existing[ident][key] = deepcopy(previous[key])
     for ident in public_families | previous_public:
         if ident not in incoming:
             raise ValueError('Published family subject absent from current public model: ' + ident)
@@ -71,7 +85,32 @@ def overlay_model(retained: dict, fresh: dict) -> dict:
         for model in (incoming, prior_people):
             family_parents |= {r.get('id') for r in model.get(ident, {}).get('parents', []) if r.get('role') == 'father'}
     for father in family_parents:
-        if father not in incoming or father not in existing:
+        if father not in existing:
+            continue
+        if father not in incoming:
+            if father in alternative_parents | prior_alternatives:
+                # A retained placeholder may be absent from the generated model.
+                # Keep its captured children as history, not active second fathers.
+                moved = {i for i in selected if any(r.get('id') == father
+                    for r in incoming[i].get('priorWorkingParents', []))}
+                history = {r['id']: deepcopy(r) for r in existing[father].get('priorWorkingChildren', [])}
+                children = []
+                for row in existing[father].get('childrenRecorded', []):
+                    if row.get('id') in moved:
+                        history.setdefault(row['id'], deepcopy(row))
+                    else:
+                        children.append(row)
+                for child, row in list(history.items()):
+                    if child in managed_children and any(r.get('role') == 'father' and r.get('id') == father
+                            for r in incoming.get(child, {}).get('parents', [])):
+                        if not any(r.get('id') == child for r in children):
+                            children.append(row)
+                        del history[child]
+                existing[father]['childrenRecorded'] = children
+                if history:
+                    existing[father]['priorWorkingChildren'] = list(history.values())
+                else:
+                    existing[father].pop('priorWorkingChildren', None)
             continue
         # Refresh reciprocal working children while retaining the parent's
         # approved biography, dates and every unrelated family record.

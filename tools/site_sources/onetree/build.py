@@ -144,7 +144,8 @@ def apply_working_hypotheses(people: list[dict], assessments: list[dict], parent
         replaces = bool(replacement)
         if replaces and (len(existing) != 1 or existing[0].get('id') != prior or prior == father
                 or existing[0].get('status') not in {'uncertain', 'unmarked', 'unknown'}
-                or prior not in by_id or not assessment.get('source_ids') or not replacement.get('reason')
+                or not prior or existing[0].get('withheld')
+                or not assessment.get('source_ids') or not replacement.get('reason')
                 or set(alternative.get('people', [])) != {child, prior}
                 or alternative.get('lifecycle') != 'alternative'
                 or alternative.get('status') != 'uncertain' or not alternative.get('source_ids')
@@ -173,9 +174,10 @@ def apply_working_hypotheses(people: list[dict], assessments: list[dict], parent
             prior = replacement['previous_parent']
             by_id[child]['priorWorkingParents'] = [r.copy() for r in by_id[child]['parents'] if r.get('role') == 'father']
             by_id[child]['parents'] = [r for r in by_id[child]['parents'] if r.get('role') != 'father']
-            previous_children = by_id[prior].get('childrenRecorded', [])
-            by_id[prior]['priorWorkingChildren'] = [r.copy() for r in previous_children if r.get('id') == child]
-            by_id[prior]['childrenRecorded'] = [r for r in previous_children if r.get('id') != child]
+            if prior in by_id:
+                previous_children = by_id[prior].get('childrenRecorded', [])
+                by_id[prior]['priorWorkingChildren'] = [r.copy() for r in previous_children if r.get('id') == child]
+                by_id[prior]['childrenRecorded'] = [r for r in previous_children if r.get('id') != child]
         if assessment.get('model_note'):
             by_id[child]['note'] = (by_id[child].get('note', '') + ' ' + assessment['model_note']).strip()
         if aliases:
