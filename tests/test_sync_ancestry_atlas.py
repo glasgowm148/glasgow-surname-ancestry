@@ -122,3 +122,29 @@ class AtlasWorkingTests(unittest.TestCase):
         self.assertIn('p?.recordUrl', output)
         self.assertIn("function renderDNA(){return 'approved controls'}", output)
         self.assertEqual(output, documentary_renderer(output))
+
+
+class AtlasPublishedFamilyTests(unittest.TestCase):
+    def test_published_family_updates_father_but_retains_approved_account_and_mother(self):
+        old = {'meta': {}, 'landmarks': [], 'sections': [], 'dna': [{'approved': True}], 'people': [
+            {'id': '@root', 'kind': 'group'}, {'id': '@smaller-families', 'kind': 'group'},
+            {'id': 'Child-1', 'kind': 'person', 'name':'Approved name', 'note':'Approved annotation',
+             'born':1600,'parents':[{'id':'Old-1','role':'father','status':'unmarked'}, {'id':'Mother-1','role':'mother','status':'uncertain'}],
+             'edge':{'parent':'Old-1','role':'father'},'childrenRecorded':[]},
+            {'id':'Old-1','kind':'person','childrenRecorded':[{'id':'Child-1'},{'id':'Other-1'}]},
+            {'id':'Father-1','kind':'person','childrenRecorded':[]},
+            {'id':'Mother-1','kind':'person','childrenRecorded':[]}]}
+        fresh = deepcopy(old);fresh['meta'].update(date='2026-10-16',publicFamilyScopeIds=['Child-1'],publicFamilyRelatedIds=['Old-1','Father-1'])
+        fresh['people'][2].update(name='Different export name',note='',born=1601,
+            parents=[{'id':'Father-1','role':'father','status':'proved'}],
+            edge={'parent':'Father-1','role':'father','status':'proved','type':'recorded'})
+        fresh['people'][3]['childrenRecorded']=[{'id':'Other-1'}]
+        fresh['people'][4]['childrenRecorded']=[{'id':'Child-1','status':'proved'}]
+        out=overlay_model(old,fresh);p={p['id']:p for p in out['people']}
+        self.assertEqual(out['dna'],old['dna'])
+        self.assertEqual([p['Child-1'][k] for k in ['name','note','born']],['Approved name','Approved annotation',1600])
+        self.assertEqual(p['Child-1']['edge']['parent'],'Father-1')
+        self.assertEqual(p['Child-1']['parents'][0]['id'],'Mother-1')
+        self.assertEqual(p['Old-1']['childrenRecorded'],[{'id':'Other-1'}])
+        self.assertEqual(p['Father-1']['childrenRecorded'][0]['id'],'Child-1')
+        self.assertEqual(overlay_model(out,fresh),out)

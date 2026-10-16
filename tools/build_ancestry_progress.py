@@ -164,6 +164,31 @@ def build(create_baseline=False):
             (ROOT / "tools" / ("ancestry_progress." + extension)).read_text()
         )
     selected = primary["working"]
+    publication_html = ''
+    confidence_note = ''
+    publication_path = max(WORK.glob('tree-publication-review-*.json'), default=None)
+    if publication_path is not None:
+        publication = json.loads(publication_path.read_text())
+        write_json(WEB / 'data/ancestry-tree-publication-review.json', publication)
+        checked = publication['models']['main']
+        flag_count = publication['next_metric_check']['saved_confident_tree_flags_not_used_by_current_metric']
+        confidence_note = (f'<p role="note"><strong>Confidence-only calculation under review:</strong> '
+                           f'The {publication["reviewed"]} review found {flag_count:,} saved confident WikiTree flags omitted from this calculation. '
+                           'The working figures are unaffected; correcting this will not count as new research evidence.</p>')
+        publication_html = (f'<section aria-labelledby="tree-publication-title"><h2 id="tree-publication-title">Whole tree publication check</h2>'
+                            f'<p>Checked {publication["reviewed"]}: both viewers reproduce the published paternal relationships for '
+                            f'{checked["checked_historical_profiles"]:,} profiles through {publication["cutoff"]}, including '
+                            f'{checked["matched_paternal_edges"]:,} paternal links and the named documentary connector.</p>'
+                            f'<p>The main viewer now includes {len(checked["added_historical_profiles"]):,} historical profiles that were absent '
+                            f'and synchronizes {checked["changed_father_fields"]:,} father fields. These reproduce existing published conclusions; '
+                            'the connectivity figures do not increase. Competing fathers remain unresolved, and existing uncertainty grades are retained.</p>'
+                            '<p><a href="/data/ancestry-tree-publication-review.json">Read the profile-by-profile publication audit</a></p></section>')
+        if publication.get('method_version') != report['method_version']:
+            confidence_note = ''
+        if publication.get('input_fingerprint') != report['input_fingerprint']:
+            publication_html = (f'<section aria-labelledby="tree-publication-title"><h2 id="tree-publication-title">Whole tree publication check</h2>'
+                                f'<p>The last recorded review was {publication["reviewed"]}. The research graph has changed since; refresh its publication audit.</p>'
+                                '<p><a href="/data/ancestry-tree-publication-review.json">Read the previous review</a></p></section>')
     roots = [
         r for r in selected["family_roots"] if r["year"] is not None and r["year"] <= strategy["early_priority_cutoff"]
     ]
@@ -196,6 +221,8 @@ def build(create_baseline=False):
     main = f"""<main class="r-main ancestry-progress" id="main">
 <header class="r-page-head"><span class="r-kicker">Glasgow ancestry programme · {report["reviewed"]}</span><h1>Connect the oldest branches.</h1><p class="lead">{escape(strategy["objective"])}</p><p>{escape(strategy["common_origin"])}</p><p class="progress-actions"><a href="/onetree/#view=all">Explore the whole tree →</a><a href="/branches/early-scottish-records/">Early Scottish evidence</a><a href="#early-connections">First connections to investigate</a></p></header>
 <section aria-labelledby="connectivity-title"><h2 id="connectivity-title">How connected is the family?</h2><div class="progress-controls"><label>Historical cohort <select id="progress-cutoff">{options}</select></label><label>Links counted <select id="progress-view"><option value="working">Working pedigree, including uncertain links</option><option value="confident">Confidently marked links</option></select></label></div><div class="connectivity-stats" id="connectivity-stats">{metrics_html(selected)}</div><p id="cohort-detail" aria-live="polite">{selected["population"]:,} public surname bearers; {selected["edge_count"]:,} father–child links. Both views use the same people.</p><p>{escape(strategy["metrics"]["target"])}</p><p>Smaller branch and unattached-father counts mean fewer gaps; larger connected-pair and largest-branch percentages mean more of the family is joined. A tentative connection remains tentative.</p></section>
+{confidence_note}
+{publication_html}
 <section aria-labelledby="working-map-title"><h2 id="working-map-title">One family, with the missing joins visible</h2><p>The shared-origin model gathers the branches below one ancestral lineage. Dotted lines mean an unknown route through generations; they are research targets and do not change the measured pedigree.</p><div id="working-origin-map" class="working-origin-map"></div><noscript><p>The earliest branch heads and their descendants appear in the table below. Each belongs to the shared-origin working model; the intervening generations remain open.</p></noscript></section>
 <section id="early-connections" aria-labelledby="early-connections-title"><h2 id="early-connections-title">Start with the earliest connections</h2><p>These comparisons are already supported as research hypotheses. They are arranged by the oldest record involved. Resolve the missing identity, kinship or title-transfer step, then extend the connection to its supported siblings.</p>{"".join(cards)}</section>
 <section aria-labelledby="family-heads-title"><h2 id="family-heads-title">Unattached family heads</h2><p>Work upwards from families rather than collecting isolated later records. Heads with one child but two or more surname descendants are included in this queue too.</p><div class="progress-controls"><label class="inline-check"><input type="checkbox" id="early-heads" checked>Prioritise heads dated by 1650</label><label>Find a family <input id="head-search" type="search" placeholder="Name or profile ID"></label></div><p id="head-count" aria-live="polite">{len(roots)} early family heads</p><div class="progress-table-wrap"><table><thead><tr><th>Family head</th><th>Earliest cohort year</th><th>Children</th><th>Descendants</th></tr></thead><tbody id="family-head-rows">{root_rows(roots)}</tbody></table></div></section>

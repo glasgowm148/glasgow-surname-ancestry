@@ -50,6 +50,26 @@ class OneTreeOutputTests(unittest.TestCase):
                 if '/assets/research/atlas' in match['url']:
                     self.assertEqual(match['version'], content_hash(asset_path(ROOT / 'www', path, match['url'])))
 
+    def test_historical_fathers_match_the_current_dossiers_in_both_viewers(self):
+        from tools.branch_connectivity import load_public_nodes, summarize
+        from tools.site_payloads import unpack_model
+        strategy = json.loads((ROOT / 'research/ancestry-connections/strategy.json').read_text())
+        nodes, edges, quality = load_public_nodes(ROOT / 'www', set(strategy['variants']))
+        cohort = summarize(nodes, edges, 1850)
+        scope = set(cohort['cohort_ids'])
+        allowed = scope | set(cohort['connector_ids'])
+        primary = unpack_model(json.loads((ROOT / 'www/assets/research/atlas-model-packed.json').read_text()))
+        for model in [self.model, primary]:
+            people = {p['id']: p for p in model['people']}
+            self.assertTrue(scope <= people.keys())
+            for edge in edges:
+                if edge['child'] not in scope or edge['father'] not in allowed:
+                    continue
+                fathers = [r['id'] for r in people[edge['child']]['parents'] if r.get('role') == 'father' and r.get('id')]
+                self.assertEqual(fathers, [edge['father']], edge['child'])
+            for ident in scope & set(quality['multiple_fathers']):
+                self.assertFalse([r for r in people[ident]['parents'] if r.get('role') == 'father'], ident)
+
     def test_every_recorded_display_edge_is_a_structured_parent(self):
         for person in self.people.values():
             edge = person.get("edge", {})

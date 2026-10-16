@@ -6,6 +6,16 @@ import json
 from pathlib import Path
 
 
+def parent_order(row: dict) -> tuple:
+    """One layout attachment; the other independently graded parent stays listed."""
+    status = str(row.get('status', '')).replace('-', '_').casefold()
+    ranks = {'dna_confirmed': 0, 'confident': 1, 'certain': 1, 'proved': 1,
+             'confirmed': 1, 'documented': 1, 'strongly_supported': 1,
+             'uncertain': 3, 'possible': 3, 'probable': 3, 'guess': 3}
+    return (not row.get('hypothesis', False), ranks.get(status, 2),
+            row.get('role') != 'father', row.get('id', ''))
+
+
 def overlay_model(retained: dict, fresh: dict) -> dict:
     """Refresh working subjects without replacing the approved atlas publication."""
     result = deepcopy(retained)
@@ -16,6 +26,8 @@ def overlay_model(retained: dict, fresh: dict) -> dict:
     documentary = {p['id'] for p in fresh['people'] if p.get('documentary')}
     reviewed = set(fresh['meta'].get('reviewedParentReplacementIds', []))
     restored = set(fresh['meta'].get('reviewedFamilyRestorationIds', []))
+    public_families = set(fresh['meta'].get('publicFamilyScopeIds', fresh['meta'].get('publicFamilySyncIds', [])))
+    previous_public = set(result['meta'].get('publicFamilyScopeIds', result['meta'].get('publicFamilySyncIds', [])))
     refresh = selected | set(result['meta'].get('workingOverlayIds', [])) | documentary | reviewed | set(result['meta'].get('reviewedParentReplacementIds', []))
     refresh |= restored | set(result['meta'].get('reviewedFamilyRestorationIds', []))
     existing = {p['id']: p for p in result['people']}
@@ -23,7 +35,29 @@ def overlay_model(retained: dict, fresh: dict) -> dict:
         if ident not in incoming:
             raise ValueError('Working subject absent from current public model: ' + ident)
         existing[ident] = deepcopy(incoming[ident])
-    managed_children = selected | prior_selected
+    for ident in public_families | previous_public:
+        if ident not in incoming:
+            raise ValueError('Published family subject absent from current public model: ' + ident)
+        if ident not in existing:
+            existing[ident] = deepcopy(incoming[ident])
+    for ident in public_families | previous_public:
+        if ident not in refresh:
+            # A family correction must preserve the approved person's account,
+            # geographic annotations and public DNA material.
+            existing[ident]['parents'] = ([r for r in existing[ident].get('parents', []) if r.get('role') != 'father']
+                                         + deepcopy([r for r in incoming[ident].get('parents', []) if r.get('role') == 'father']))
+            for key in ('priorPublishedFathers', 'publicFamilySource', 'publicFatherAlternatives'):
+                if key in incoming[ident]:
+                    existing[ident][key] = deepcopy(incoming[ident][key])
+                else:
+                    existing[ident].pop(key, None)
+            options = [r for r in existing[ident]['parents'] if r.get('id') in existing
+                       and r.get('status') not in ('non-biological', 'non_biological')]
+            options.sort(key=parent_order)
+            existing[ident]['edge'] = (dict(parent=options[0]['id'], semantic='parent', role=options[0]['role'],
+                type='hypothesis' if options[0].get('hypothesis') else 'recorded', status=options[0].get('status', 'unmarked'))
+                if options else dict(parent='@smaller-families', type='group', semantic='collection'))
+    managed_children = selected | prior_selected | public_families | previous_public
     family_parents = {incoming[i].get('edge', {}).get('parent') for i in selected}
     family_parents |= {prior_people[i].get('edge', {}).get('parent') for i in prior_selected if i in prior_people}
     alternative_parents = set(fresh['meta'].get('workingParentAlternativeIds', []))
@@ -31,6 +65,11 @@ def overlay_model(retained: dict, fresh: dict) -> dict:
     family_parents |= alternative_parents | prior_alternatives
     working_mothers = set(fresh['meta'].get('workingMotherIds', []))
     family_parents |= working_mothers | set(result['meta'].get('workingMotherIds', []))
+    family_parents |= set(fresh['meta'].get('publicFamilyRelatedIds', []))
+    family_parents |= set(result['meta'].get('publicFamilyRelatedIds', []))
+    for ident in public_families | previous_public:
+        for model in (incoming, prior_people):
+            family_parents |= {r.get('id') for r in model.get(ident, {}).get('parents', []) if r.get('role') == 'father'}
     for father in family_parents:
         if father not in incoming or father not in existing:
             continue
@@ -50,7 +89,7 @@ def overlay_model(retained: dict, fresh: dict) -> dict:
             raise ValueError('Working tree attachment missing: ' + parent)
     sections = {s['id']: s for s in result['sections']}
     for section in fresh['sections']:
-        if section['id'] in documentary:
+        if section['id'] in documentary | public_families:
             sections[section['id']] = deepcopy(section)
     result['sections'] = list(sections.values())
     result['landmarks'] = list(dict.fromkeys(result['landmarks'] + sorted(documentary)))
@@ -65,8 +104,9 @@ def overlay_model(retained: dict, fresh: dict) -> dict:
                           maternalHypotheses=fresh['meta'].get('maternalHypotheses', 0),
                           parentRelationships=sum(len(p.get('parents', [])) for p in people),
                           workingOverlayIds=sorted(selected),
+                          **{k: deepcopy(v) for k, v in fresh['meta'].items() if k.startswith('publicFamily') or k == 'publicFatherHoldIds'},
                           workingUpdated=fresh['meta']['date'],
-                          workingMethod='Selected uncertain family connections are synchronized from the current public research model. Documentary record periods are not birth dates; other profiles retain the approved atlas publication.')
+                          workingMethod='Selected uncertain connections and historical father fields are synchronized from current public dossiers. Existing research grades and approved atlas accounts are retained; this publication reconciliation is not a new genealogical inference.')
     return result
 
 

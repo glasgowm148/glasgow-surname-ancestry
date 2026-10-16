@@ -19,6 +19,7 @@ sys.path.insert(0, str(ROOT))
 
 from tools.project_paths import merged_map_profiles  # noqa: E402
 from tools.documentary_ancestry import load_chronology, load_people  # noqa: E402
+from tools.sync_ancestry_atlas import parent_order  # noqa: E402
 
 
 WIKITREE = "https://www.wikitree.com/wiki/"
@@ -332,6 +333,134 @@ def apply_reviewed_parent_replacements(people: list[dict], assessments: list[dic
     return sorted(changed)
 
 
+def apply_public_families(people: list[dict], site_root: Path, cutoff: int = 1850) -> dict:
+    """Reconcile historical fathers with published dossiers, retaining their grades.
+
+    The aggregate catalogue can predate targeted dossier publications. Neither a
+    raw export nor an old atlas attachment supersedes those published decisions.
+    """
+    from tools.branch_connectivity import EXCLUDED, load_public_nodes, summarize
+    from urllib.parse import urlsplit
+
+    strategy = json.loads((ROOT / 'research/ancestry-connections/strategy.json').read_text())
+    nodes, edges, quality = load_public_nodes(site_root, set(strategy['variants']))
+    cohort = summarize(nodes, edges, cutoff)['cohort_ids']
+    by_id = {p['id']: p for p in people}
+    changed, related, added, held = set(), set(), set(), set()
+    ambiguous = set(quality['multiple_fathers'])
+
+    def parent_row(row):
+        if row.get('withheld'):
+            return dict(id='', name='Private ' + row['relationship'], role=row['relationship'],
+                        status='unmarked', withheld=True, inModel=False)
+        # A tree link's general assessment may be unknown while its saved
+        # WikiTree certainty flag is explicit. Preserve both independently.
+        status = row.get('status') or 'unknown'
+        if status == 'unknown':
+            status = row.get('tree_status') or status
+        return {**row, 'role': row['relationship'], 'status': status,
+                'dossierStatus': row.get('status') or 'unknown',
+                'inModel': row.get('id') in by_id}
+
+    dossiers = {}
+    for ident in cohort:
+        relative = urlsplit(nodes[ident]['url']).path
+        if not re.fullmatch(r'/people/[A-Za-z0-9_-]+\.html', relative):
+            continue  # Named documentary connectors have their own source.
+        dossier = json.loads((site_root / relative.lstrip('/')).with_suffix('.json').read_text())
+        if dossier.get('id') != ident:
+            raise ValueError('Public family dossier identity mismatch: ' + ident)
+        dossiers[ident] = dossier
+        if ident in by_id:
+            continue
+        vitals = dossier.get('vitals') or {}
+        birth, death = vitals.get('birth') or {}, vitals.get('death') or {}
+        birthplace, deathplace = birth.get('place') or '', death.get('place') or ''
+        region = location_for(birthplace) if location_for(birthplace) != 'other' else location_for(deathplace)
+        loc = LOCATION_BY_ID[region]
+        person = dict(id=ident, name=nodes[ident]['name'], kind='person',
+                      born=nodes[ident]['birth_year'], died=nodes[ident]['death_year'],
+                      birthDisplay=birth.get('date') or '', deathDisplay=death.get('date') or '',
+                      birthplace=birthplace, deathplace=deathplace, sex=nodes[ident]['gender'],
+                      parents=[], partners=[], childrenRecorded=[], note='',
+                      first=nodes[ident]['name'].split()[0], surname=ident.rsplit('-', 1)[0],
+                      currentSurname='', bornApprox=birth.get('status') not in ('certain', 'confident'),
+                      year=nodes[ident]['year'] or cutoff, catalogueId=Path(relative).stem,
+                      locationRegion=region, locationLabel=loc['label'], locationColor=loc['color'],
+                      birthLocationRegion=location_for(birthplace), deathLocationRegion=location_for(deathplace),
+                      cluster='', researchUrl=nodes[ident]['url'])
+        people.append(person); by_id[ident] = person; added.add(ident)
+
+    for ident in added:
+        relationships = dossiers[ident].get('relationships') or {}
+        for key, role in [('partners', 'spouse'), ('childrenRecorded', 'child')]:
+            rows = relationships.get('spouses' if role == 'spouse' else 'children') or []
+            by_id[ident][key] = [{**r, 'role': role, 'inModel': r.get('id') in by_id}
+                                for r in rows if not r.get('withheld')]
+
+    for ident, dossier in dossiers.items():
+        person = by_id[ident]
+        current = [r for r in (dossier.get('relationships') or {}).get('parents', [])
+                   if r.get('relationship') == 'father' and r.get('current') is not False
+                   and r.get('lifecycle') in (None, 'current')
+                   and r.get('display') not in ('historical', 'superseded')
+                   and r.get('publication_status') not in ('withheld', 'blocked', 'rejected')
+                   and r.get('status') not in EXCLUDED]
+        if ident in ambiguous:
+            if any(r.get('hypothesis') for r in person.get('parents', [])):
+                raise ValueError('Selected working father is held in public research: ' + ident)
+            person['publicFatherAlternatives'] = current
+            current = []
+            held.add(ident)
+        before = [r for r in person.get('parents', []) if r.get('role') == 'father']
+        after = [parent_row(r) for r in current]
+        # Retain selected-hypothesis provenance and prior-parent history when
+        # the current dossier still selects the same parent and uncertainty.
+        if len(before) == len(after) == 1 and before[0].get('hypothesis'):
+            if before[0].get('id') != after[0].get('id') or after[0]['status'] != 'uncertain':
+                raise ValueError('Working father disagrees with public dossier: ' + ident)
+            continue
+        signature = lambda rows: [(r.get('id') or '', r.get('status')) for r in rows]
+        if signature(before) == signature(after) and ident not in added:
+            continue
+        changed.add(ident)
+        person['priorPublishedFathers'] = before
+        person['parents'] = [r for r in person.get('parents', []) if r.get('role') != 'father'] + after
+        if ident in added:
+            person['parents'] += [parent_row(r) for r in (dossier.get('relationships') or {}).get('parents', [])
+                                  if r.get('relationship') == 'mother' and not r.get('withheld')]
+        for row in before + after:
+            parent = by_id.get(row.get('id'))
+            if parent is not None:
+                related.add(parent['id'])
+                parent['childrenRecorded'] = [r for r in parent.get('childrenRecorded', []) if r.get('id') != ident]
+        for row in after:
+            parent = by_id.get(row.get('id'))
+            if parent is not None:
+                parent['childrenRecorded'].append(dict(id=ident, name=person['name'], role='child',
+                    status=row['status'], inModel=True, source='current_public_dossier'))
+        person['publicFamilySource'] = nodes[ident]['url']
+    for person in people:
+        for row in person.get('parents', []):
+            row['inModel'] = bool(row.get('id') in by_id and not row.get('withheld'))
+        if person['id'] not in dossiers:
+            continue
+        for row in person.get('parents', []):
+            parent = by_id.get(row.get('id'))
+            if row.get('role') != 'father' or parent is None:
+                continue
+            related.add(parent['id'])
+            children = parent.setdefault('childrenRecorded', [])
+            matches = [r for r in children if r.get('id') == person['id']]
+            if not matches:
+                children.append(dict(id=person['id'], name=person['name'], role='child',
+                    status=row['status'], inModel=True, source='current_public_dossier'))
+    return dict(publicFamilySyncIds=sorted(changed), publicFamilyRelatedIds=sorted(related),
+                publicFamilyNewIds=sorted(added), publicFatherHoldIds=sorted(held),
+                publicFamilyScopeIds=sorted(dossiers), publicFamilyCutoff=cutoff,
+                publicFamilyChecked=len(dossiers))
+
+
 def generate_model(catalogue_path: Path, prior: dict) -> dict:
     payload = json.loads(catalogue_path.read_text(encoding="utf-8"))
     rows = payload["people"]
@@ -411,13 +540,13 @@ def generate_model(catalogue_path: Path, prior: dict) -> dict:
     reviewed_parent_ids = apply_reviewed_parent_replacements(people, assessments)
     hypotheses = apply_working_hypotheses(people, assessments, parent_aliases)
     maternal_hypotheses = apply_working_mothers(people, assessments)
+    public_family_sync = apply_public_families(people, ROOT / 'www')
 
     # One real parent drives the drawing. Both remain in the relationship list.
     chosen: dict[str, dict] = {}
     for person in people:
         options = [r for r in person["parents"] if r.get("inModel") and r.get("status") != "non-biological"]
-        evidence_rank = {"DNA-confirmed": 0, "confident": 1, "unmarked": 2, "uncertain": 3}
-        options.sort(key=lambda item: (not item.get("hypothesis", False), evidence_rank.get(item["status"], 2), item["role"] != "father", item["id"]))
+        options.sort(key=parent_order)
         if options:
             chosen[person["id"]] = options[0]
 
@@ -542,6 +671,7 @@ def generate_model(catalogue_path: Path, prior: dict) -> dict:
             "reviewedFamilyRestorationIds": restored_family_ids,
             "workingParentAlternativeIds": sorted({r['id'] for p in people for r in p.get('priorWorkingParents', [])}),
             "workingMotherIds": sorted({r['id'] for p in people for r in p.get('parents', []) if r.get('role') == 'mother' and r.get('hypothesis')}),
+            **public_family_sync,
             "maternalHypotheses": maternal_hypotheses,
             "method": "Current family fields come from the public catalogue, alongside named documentary ancestors with complete sourced accounts. Documentary record periods are not birth dates. Selected working hypotheses remain marked uncertain and counted separately. One parent drives the drawing; collection nodes do not assert common ancestry.",
             "sources": [{"title": "Glasgow research catalogue", "url": "https://glasgow.phenotype.dev/"}, {"title": "Public catalogue people data", "url": "https://glasgow.phenotype.dev/data/people.json"}, {"title": "Public Y-DNA explorer", "url": "https://glasgow.phenotype.dev/ydna/"}],

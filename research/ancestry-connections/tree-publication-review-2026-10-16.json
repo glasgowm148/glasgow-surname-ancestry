@@ -1,0 +1,2482 @@
+{
+  "reviewed": "2026-10-16",
+  "input_fingerprint": "de33df4e4d24045ad25df68f168c36122349de9e93db37effb8cb91457fd02cf",
+  "method_version": 2,
+  "cutoff": 1850,
+  "scope": "Published historical father fields in the main Whole tree and standalone viewer",
+  "genealogical_connections_added": 0,
+  "baseline_sha256": "43e79191bf29ea378b10f6a7e88ccaec3bc1fd094cececba5e6946f466cf5d2e",
+  "metrics_unchanged": true,
+  "working_fathers_unchanged": 30,
+  "working_mothers_unchanged": 3,
+  "pending_wikitree_amendments_unchanged": 166,
+  "models": {
+    "main": {
+      "checked_historical_profiles": 1777,
+      "matched_paternal_edges": 1327,
+      "changed_father_fields": 158,
+      "added_historical_profiles": [
+        "Glasco-169",
+        "Glasco-170",
+        "Glasco-171",
+        "Glasco-174",
+        "Glasgow-3941",
+        "Glasgow-3943",
+        "Glasgow-3944",
+        "Glasgow-3945",
+        "Glasgow-3946",
+        "Glasgow-3950",
+        "Glasgow-3951",
+        "Glasgow-3952",
+        "Glasgow-3953",
+        "Glasgow-3959",
+        "Glasgow-3962",
+        "Glasgow-4031",
+        "Glasgow-4043",
+        "Glasgow-4049",
+        "Glasgow-4054",
+        "Glasgow-4055",
+        "Glasgow-4056",
+        "Glasgow-4062",
+        "Glasgow-4063",
+        "Glasgow-4070",
+        "Glasgow-4071",
+        "Glasgow-4072",
+        "Glasgow-4090",
+        "Glasgow-4092",
+        "Glasgow-4094",
+        "Glasgow-4095",
+        "Glasgow-4098",
+        "Glasgow-4100",
+        "Glasgow-4101",
+        "Glasgow-4102",
+        "Glasgow-4103",
+        "Glasgow-4104",
+        "Glasgow-4105",
+        "Glasgow-4106",
+        "Glasgow-4107",
+        "Glasgow-4108",
+        "Glasgow-4109",
+        "Glasgow-4110",
+        "Glasgow-4111",
+        "Glasgow-4112",
+        "Glasgow-4113",
+        "Glasgow-4115",
+        "Glasgow-4116",
+        "Glasgow-4119",
+        "Glasgow-4120",
+        "Glasgow-4121",
+        "Glasgow-4122",
+        "Glasgow-4123",
+        "Glasgow-4124",
+        "Glasgow-4125",
+        "Glasgow-4126",
+        "Glasgow-4127",
+        "Glasgow-4128",
+        "Glasgow-4129",
+        "Glasgow-4130",
+        "Glasgow-4132",
+        "Glasgow-4133",
+        "Glasgow-4134",
+        "Glasgow-4135",
+        "Glasgow-4136",
+        "Glasgow-4137",
+        "Glasgow-4138",
+        "Glasgow-4139",
+        "Glasgow-4140",
+        "Glasgow-4142",
+        "Glasgow-4148",
+        "Glasgow-4150",
+        "Glasgow-4158",
+        "Glasgow-4165",
+        "Glasgow-4168",
+        "Glasgow-4170",
+        "Glasgow-4179",
+        "Glasgow-4180",
+        "Glasgow-4181",
+        "Glasko-10",
+        "Glasko-11",
+        "Glasko-27",
+        "Glasko-28",
+        "Glasko-29",
+        "Glasko-7",
+        "Glasko-8"
+      ],
+      "unresolved_father_cases": [
+        "Glasgow-1367",
+        "Glasgow-2908",
+        "Glasgow-3902",
+        "Glasgow-3904",
+        "Glasgow-867",
+        "Glasgow-951"
+      ]
+    },
+    "standalone": {
+      "checked_historical_profiles": 1777,
+      "matched_paternal_edges": 1327,
+      "changed_father_fields": 61,
+      "added_historical_profiles": [
+        "Glasgow-3941",
+        "Glasgow-3943",
+        "Glasgow-3944",
+        "Glasgow-3945",
+        "Glasgow-3946",
+        "Glasgow-3950",
+        "Glasgow-3951",
+        "Glasgow-3952",
+        "Glasgow-3953",
+        "Glasgow-3962",
+        "Glasgow-4101",
+        "Glasgow-4105",
+        "Glasgow-4110",
+        "Glasgow-4116",
+        "Glasgow-4123",
+        "Glasgow-4124",
+        "Glasgow-4125",
+        "Glasgow-4127",
+        "Glasgow-4128",
+        "Glasgow-4132",
+        "Glasgow-4137",
+        "Glasgow-4139",
+        "Glasgow-4150"
+      ],
+      "unresolved_father_cases": [
+        "Glasgow-1367",
+        "Glasgow-2908",
+        "Glasgow-3902",
+        "Glasgow-3904",
+        "Glasgow-867",
+        "Glasgow-951"
+      ]
+    }
+  },
+  "father_field_synchronizations": [
+    {
+      "id": "Glasco-169",
+      "name": "Ann  Glasco",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasco-147",
+          "status": "unmarked"
+        }
+      ],
+      "source": "/people/glasco-169.html"
+    },
+    {
+      "id": "Glasco-170",
+      "name": "Manasses  Glasco",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasco-148",
+          "status": "unmarked"
+        }
+      ],
+      "source": "/people/glasco-170.html"
+    },
+    {
+      "id": "Glasco-171",
+      "name": "Rosetta  Glasco",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasco-170",
+          "status": "unmarked"
+        }
+      ],
+      "source": "/people/glasco-171.html"
+    },
+    {
+      "id": "Glasco-174",
+      "name": "Phillip  Glasco",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasco-147",
+          "status": "unmarked"
+        }
+      ],
+      "source": "/people/glasco-174.html"
+    },
+    {
+      "id": "Glasgow-1022",
+      "name": "John Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-1505",
+          "status": "uncertain"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-3959",
+          "status": "uncertain"
+        }
+      ],
+      "source": "/people/glasgow-1022.html"
+    },
+    {
+      "id": "Glasgow-1030",
+      "name": "John Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-1096",
+          "status": "uncertain"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-1096",
+          "status": "strongly_supported"
+        }
+      ],
+      "source": "/people/glasgow-1030.html"
+    },
+    {
+      "id": "Glasgow-1054",
+      "name": "Elspeth Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-1028",
+          "status": "unmarked"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-1028",
+          "status": "proved"
+        }
+      ],
+      "source": "/people/glasgow-1054.html"
+    },
+    {
+      "id": "Glasgow-1084",
+      "name": "John Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-991",
+          "status": "unmarked"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-991",
+          "status": "proved"
+        }
+      ],
+      "source": "/people/glasgow-1084.html"
+    },
+    {
+      "id": "Glasgow-1090",
+      "name": "George Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-1030",
+          "status": "unmarked"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-1030",
+          "status": "proved"
+        }
+      ],
+      "source": "/people/glasgow-1090.html"
+    },
+    {
+      "id": "Glasgow-1096",
+      "name": "Robert Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-1098",
+          "status": "uncertain"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-1098",
+          "status": "strongly_supported"
+        }
+      ],
+      "source": "/people/glasgow-1096.html"
+    },
+    {
+      "id": "Glasgow-1097",
+      "name": "Archibald Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-1098",
+          "status": "uncertain"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-1098",
+          "status": "strongly_supported"
+        }
+      ],
+      "source": "/people/glasgow-1097.html"
+    },
+    {
+      "id": "Glasgow-1134",
+      "name": "Samuel Glasgow",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasgow-2868",
+          "status": "uncertain"
+        }
+      ],
+      "source": "/people/glasgow-1134.html"
+    },
+    {
+      "id": "Glasgow-1144",
+      "name": "James Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-1143",
+          "status": "confident"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-1143",
+          "status": "proved"
+        }
+      ],
+      "source": "/people/glasgow-1144.html"
+    },
+    {
+      "id": "Glasgow-1146",
+      "name": "John Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-1144",
+          "status": "confident"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-1144",
+          "status": "strongly_supported"
+        }
+      ],
+      "source": "/people/glasgow-1146.html"
+    },
+    {
+      "id": "Glasgow-1148",
+      "name": "Alexander Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-991",
+          "status": "confident"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-991",
+          "status": "uncertain"
+        }
+      ],
+      "source": "/people/glasgow-1148.html"
+    },
+    {
+      "id": "Glasgow-1168",
+      "name": "James Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-1098",
+          "status": "uncertain"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-1098",
+          "status": "possible"
+        }
+      ],
+      "source": "/people/glasgow-1168.html"
+    },
+    {
+      "id": "Glasgow-121",
+      "name": "Joseph Dorris Glasgow",
+      "before": [
+        {
+          "id": "Glascow-14",
+          "status": "DNA-confirmed"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glascow-14",
+          "status": "dna_confirmed"
+        }
+      ],
+      "source": "/people/glasgow-121.html"
+    },
+    {
+      "id": "Glasgow-1243",
+      "name": "Thomas Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-3285",
+          "status": "uncertain"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-3285",
+          "status": "confident"
+        }
+      ],
+      "source": "/people/glasgow-1243.html"
+    },
+    {
+      "id": "Glasgow-1319",
+      "name": "Andrew Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-2453",
+          "status": "uncertain"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-1087",
+          "status": "uncertain"
+        }
+      ],
+      "source": "/people/glasgow-1319.html"
+    },
+    {
+      "id": "Glasgow-1367",
+      "name": "Robert Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-3905",
+          "status": "uncertain"
+        }
+      ],
+      "after": [],
+      "source": "/people/glasgow-1367.html"
+    },
+    {
+      "id": "Glasgow-1401",
+      "name": "William Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-1400",
+          "status": "unmarked"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-1400",
+          "status": "confident"
+        }
+      ],
+      "source": "/people/glasgow-1401.html"
+    },
+    {
+      "id": "Glasgow-1402",
+      "name": "Thomas Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-1400",
+          "status": "unmarked"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-1400",
+          "status": "confident"
+        }
+      ],
+      "source": "/people/glasgow-1402.html"
+    },
+    {
+      "id": "Glasgow-1403",
+      "name": "Mary Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-1400",
+          "status": "unmarked"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-1400",
+          "status": "confident"
+        }
+      ],
+      "source": "/people/glasgow-1403.html"
+    },
+    {
+      "id": "Glasgow-1404",
+      "name": "George Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-1400",
+          "status": "unmarked"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-1400",
+          "status": "confident"
+        }
+      ],
+      "source": "/people/glasgow-1404.html"
+    },
+    {
+      "id": "Glasgow-1405",
+      "name": "Adam Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-1400",
+          "status": "unmarked"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-1400",
+          "status": "confident"
+        }
+      ],
+      "source": "/people/glasgow-1405.html"
+    },
+    {
+      "id": "Glasgow-1436",
+      "name": "Jeane Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-1073",
+          "status": "unmarked"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-1073",
+          "status": "confident"
+        }
+      ],
+      "source": "/people/glasgow-1436.html"
+    },
+    {
+      "id": "Glasgow-1494",
+      "name": "Jonet (Glasgow) Logan",
+      "before": [
+        {
+          "id": "Glasgow-1557",
+          "status": "unmarked"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-1557",
+          "status": "uncertain"
+        }
+      ],
+      "source": "/people/glasgow-1494.html"
+    },
+    {
+      "id": "Glasgow-1500",
+      "name": "Ann Taggard (Glasgow) Shannon",
+      "before": [
+        {
+          "id": "Glasgow-1143",
+          "status": "confident"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-1143",
+          "status": "strongly_supported"
+        }
+      ],
+      "source": "/people/glasgow-1500.html"
+    },
+    {
+      "id": "Glasgow-1501",
+      "name": "Rachel Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-1143",
+          "status": "confident"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-1143",
+          "status": "strongly_supported"
+        }
+      ],
+      "source": "/people/glasgow-1501.html"
+    },
+    {
+      "id": "Glasgow-1509",
+      "name": "James Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-1505",
+          "status": "uncertain"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-1505",
+          "status": "possible"
+        }
+      ],
+      "source": "/people/glasgow-1509.html"
+    },
+    {
+      "id": "Glasgow-1528",
+      "name": "Jonet Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-1149",
+          "status": "unmarked"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-1149",
+          "status": "confident"
+        }
+      ],
+      "source": "/people/glasgow-1528.html"
+    },
+    {
+      "id": "Glasgow-1554",
+      "name": "Walter Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-2453",
+          "status": "unmarked"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-1087",
+          "status": "unmarked"
+        }
+      ],
+      "source": "/people/glasgow-1554.html"
+    },
+    {
+      "id": "Glasgow-1982",
+      "name": "Wilson Crossier Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-1144",
+          "status": "confident"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-1144",
+          "status": "strongly_supported"
+        }
+      ],
+      "source": "/people/glasgow-1982.html"
+    },
+    {
+      "id": "Glasgow-1983",
+      "name": "Robert Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-1144",
+          "status": "confident"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-1144",
+          "status": "strongly_supported"
+        }
+      ],
+      "source": "/people/glasgow-1983.html"
+    },
+    {
+      "id": "Glasgow-2298",
+      "name": "Robert Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-1982",
+          "status": "confident"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-1982",
+          "status": "probable"
+        }
+      ],
+      "source": "/people/glasgow-2298.html"
+    },
+    {
+      "id": "Glasgow-2304",
+      "name": "Archibald Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-1144",
+          "status": "confident"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-1144",
+          "status": "strongly_supported"
+        }
+      ],
+      "source": "/people/glasgow-2304.html"
+    },
+    {
+      "id": "Glasgow-2385",
+      "name": "Alexander Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-4056",
+          "status": "uncertain"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-4056",
+          "status": "confident"
+        }
+      ],
+      "source": "/people/glasgow-2385.html"
+    },
+    {
+      "id": "Glasgow-2436",
+      "name": "William Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-1149",
+          "status": "unmarked"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-1149",
+          "status": "confident"
+        }
+      ],
+      "source": "/people/glasgow-2436.html"
+    },
+    {
+      "id": "Glasgow-2452",
+      "name": "Johne Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-2453",
+          "status": "unmarked"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-1087",
+          "status": "unmarked"
+        }
+      ],
+      "source": "/people/glasgow-2452.html"
+    },
+    {
+      "id": "Glasgow-2454",
+      "name": "Isobel Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-2453",
+          "status": "unmarked"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-1087",
+          "status": "unmarked"
+        }
+      ],
+      "source": "/people/glasgow-2454.html"
+    },
+    {
+      "id": "Glasgow-2456",
+      "name": "Cristiane Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-1557",
+          "status": "unmarked"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-1557",
+          "status": "proved"
+        }
+      ],
+      "source": "/people/glasgow-2456.html"
+    },
+    {
+      "id": "Glasgow-2473",
+      "name": "Robert Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-3103",
+          "status": "uncertain"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-3103",
+          "status": "confident"
+        }
+      ],
+      "source": "/people/glasgow-2473.html"
+    },
+    {
+      "id": "Glasgow-2769",
+      "name": "Robert Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-2304",
+          "status": "uncertain"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-2304",
+          "status": "possible"
+        }
+      ],
+      "source": "/people/glasgow-2769.html"
+    },
+    {
+      "id": "Glasgow-2770",
+      "name": "John Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-2769",
+          "status": "uncertain"
+        }
+      ],
+      "after": [],
+      "source": "/people/glasgow-2770.html"
+    },
+    {
+      "id": "Glasgow-2773",
+      "name": "Priscilla Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-2769",
+          "status": "uncertain"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-2769",
+          "status": "probable"
+        }
+      ],
+      "source": "/people/glasgow-2773.html"
+    },
+    {
+      "id": "Glasgow-28",
+      "name": "Susannah Glasgow",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasgow-2925",
+          "status": "uncertain"
+        }
+      ],
+      "source": "/people/glasgow-28.html"
+    },
+    {
+      "id": "Glasgow-2868",
+      "name": "James Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-2867",
+          "status": "confident"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-3011",
+          "status": "uncertain"
+        }
+      ],
+      "source": "/people/glasgow-2868.html"
+    },
+    {
+      "id": "Glasgow-2908",
+      "name": "Samuel Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-1022",
+          "status": "uncertain"
+        }
+      ],
+      "after": [],
+      "source": "/people/glasgow-2908.html"
+    },
+    {
+      "id": "Glasgow-2981",
+      "name": "James Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-1022",
+          "status": "unmarked"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-1022",
+          "status": "confident"
+        }
+      ],
+      "source": "/people/glasgow-2981.html"
+    },
+    {
+      "id": "Glasgow-3014",
+      "name": "John Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-3015",
+          "status": "unmarked"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-1084",
+          "status": "unmarked"
+        }
+      ],
+      "source": "/people/glasgow-3014.html"
+    },
+    {
+      "id": "Glasgow-3024",
+      "name": "Helen Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-2453",
+          "status": "unmarked"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-1087",
+          "status": "unmarked"
+        }
+      ],
+      "source": "/people/glasgow-3024.html"
+    },
+    {
+      "id": "Glasgow-3025",
+      "name": "Marion Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-2453",
+          "status": "unmarked"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-1087",
+          "status": "unmarked"
+        }
+      ],
+      "source": "/people/glasgow-3025.html"
+    },
+    {
+      "id": "Glasgow-3042",
+      "name": "Sarah Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-2304",
+          "status": "unmarked"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-2304",
+          "status": "possible"
+        }
+      ],
+      "source": "/people/glasgow-3042.html"
+    },
+    {
+      "id": "Glasgow-3050",
+      "name": "Margaret Glasgow",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasgow-1103",
+          "status": "confident"
+        }
+      ],
+      "source": "/people/glasgow-3050.html"
+    },
+    {
+      "id": "Glasgow-3076",
+      "name": "James Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-3337",
+          "status": "confident"
+        }
+      ],
+      "after": [],
+      "source": "/people/glasgow-3076.html"
+    },
+    {
+      "id": "Glasgow-3091",
+      "name": "Thomas Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-3337",
+          "status": "confident"
+        }
+      ],
+      "after": [],
+      "source": "/people/glasgow-3091.html"
+    },
+    {
+      "id": "Glasgow-3144",
+      "name": "Elizabeth Ann Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-991",
+          "status": "unmarked"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-991",
+          "status": "uncertain"
+        }
+      ],
+      "source": "/people/glasgow-3144.html"
+    },
+    {
+      "id": "Glasgow-3163",
+      "name": "Andrew Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-1093",
+          "status": "uncertain"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-1093",
+          "status": "possible"
+        }
+      ],
+      "source": "/people/glasgow-3163.html"
+    },
+    {
+      "id": "Glasgow-3167",
+      "name": "Mary Ann (Glasgow) Elder",
+      "before": [
+        {
+          "id": "Glasgow-951",
+          "status": "confident"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-951",
+          "status": "proved"
+        }
+      ],
+      "source": "/people/glasgow-3167.html"
+    },
+    {
+      "id": "Glasgow-3181",
+      "name": "John Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-1093",
+          "status": "uncertain"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-1093",
+          "status": "possible"
+        }
+      ],
+      "source": "/people/glasgow-3181.html"
+    },
+    {
+      "id": "Glasgow-3183",
+      "name": "Jonet (Glasgow) Ramsy",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasgow-3163",
+          "status": "proved"
+        }
+      ],
+      "source": "/people/glasgow-3183.html"
+    },
+    {
+      "id": "Glasgow-3187",
+      "name": "Thomas Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-1030",
+          "status": "unmarked"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-1030",
+          "status": "uncertain"
+        }
+      ],
+      "source": "/people/glasgow-3187.html"
+    },
+    {
+      "id": "Glasgow-3193",
+      "name": "John Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-1168",
+          "status": "uncertain"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-1168",
+          "status": "proved"
+        }
+      ],
+      "source": "/people/glasgow-3193.html"
+    },
+    {
+      "id": "Glasgow-3321",
+      "name": "Cathrin Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-991",
+          "status": "unmarked"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-991",
+          "status": "uncertain"
+        }
+      ],
+      "source": "/people/glasgow-3321.html"
+    },
+    {
+      "id": "Glasgow-3324",
+      "name": "William Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-1509",
+          "status": "confident"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-1509",
+          "status": "probable"
+        }
+      ],
+      "source": "/people/glasgow-3324.html"
+    },
+    {
+      "id": "Glasgow-3325",
+      "name": "Jean Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-1504",
+          "status": "confident"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-1504",
+          "status": "strongly_supported"
+        }
+      ],
+      "source": "/people/glasgow-3325.html"
+    },
+    {
+      "id": "Glasgow-3326",
+      "name": "William Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-1504",
+          "status": "confident"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-1504",
+          "status": "strongly_supported"
+        }
+      ],
+      "source": "/people/glasgow-3326.html"
+    },
+    {
+      "id": "Glasgow-3327",
+      "name": "Helen Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-1504",
+          "status": "confident"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-1504",
+          "status": "strongly_supported"
+        }
+      ],
+      "source": "/people/glasgow-3327.html"
+    },
+    {
+      "id": "Glasgow-3328",
+      "name": "Christian Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-1504",
+          "status": "confident"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-1504",
+          "status": "strongly_supported"
+        }
+      ],
+      "source": "/people/glasgow-3328.html"
+    },
+    {
+      "id": "Glasgow-3336",
+      "name": "Issobell (Glasgow) Symington",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasgow-3163",
+          "status": "proved"
+        }
+      ],
+      "source": "/people/glasgow-3336.html"
+    },
+    {
+      "id": "Glasgow-3338",
+      "name": "Robert Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-3337",
+          "status": "confident"
+        }
+      ],
+      "after": [],
+      "source": "/people/glasgow-3338.html"
+    },
+    {
+      "id": "Glasgow-3358",
+      "name": "Eupham Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-1149",
+          "status": "unmarked"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-1149",
+          "status": "confident"
+        }
+      ],
+      "source": "/people/glasgow-3358.html"
+    },
+    {
+      "id": "Glasgow-3359",
+      "name": "Magdalene Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-1149",
+          "status": "unmarked"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-1149",
+          "status": "confident"
+        }
+      ],
+      "source": "/people/glasgow-3359.html"
+    },
+    {
+      "id": "Glasgow-3360",
+      "name": "Kathrin Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-1149",
+          "status": "unmarked"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-1149",
+          "status": "confident"
+        }
+      ],
+      "source": "/people/glasgow-3360.html"
+    },
+    {
+      "id": "Glasgow-3366",
+      "name": "Margaret Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-2453",
+          "status": "confident"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-1087",
+          "status": "confident"
+        }
+      ],
+      "source": "/people/glasgow-3366.html"
+    },
+    {
+      "id": "Glasgow-3478",
+      "name": "John Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-3479",
+          "status": "unmarked"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-2474",
+          "status": "unmarked"
+        }
+      ],
+      "source": "/people/glasgow-3478.html"
+    },
+    {
+      "id": "Glasgow-3489",
+      "name": "Jean Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-3490",
+          "status": "unmarked"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-3481",
+          "status": "unmarked"
+        }
+      ],
+      "source": "/people/glasgow-3489.html"
+    },
+    {
+      "id": "Glasgow-3491",
+      "name": "John Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-2867",
+          "status": "confident"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-3011",
+          "status": "uncertain"
+        }
+      ],
+      "source": "/people/glasgow-3491.html"
+    },
+    {
+      "id": "Glasgow-3492",
+      "name": "Christian Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-2867",
+          "status": "confident"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-3011",
+          "status": "uncertain"
+        }
+      ],
+      "source": "/people/glasgow-3492.html"
+    },
+    {
+      "id": "Glasgow-3522",
+      "name": "William Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-1093",
+          "status": "uncertain"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-1093",
+          "status": "confident"
+        }
+      ],
+      "source": "/people/glasgow-3522.html"
+    },
+    {
+      "id": "Glasgow-3524",
+      "name": "Samuel Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-1073",
+          "status": "unmarked"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-1073",
+          "status": "confident"
+        }
+      ],
+      "source": "/people/glasgow-3524.html"
+    },
+    {
+      "id": "Glasgow-3539",
+      "name": "Mary Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-1557",
+          "status": "unmarked"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-1557",
+          "status": "uncertain"
+        }
+      ],
+      "source": "/people/glasgow-3539.html"
+    },
+    {
+      "id": "Glasgow-3550",
+      "name": "Janet Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-1073",
+          "status": "unmarked"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-1073",
+          "status": "confident"
+        }
+      ],
+      "source": "/people/glasgow-3550.html"
+    },
+    {
+      "id": "Glasgow-3551",
+      "name": "John Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-1073",
+          "status": "unmarked"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-1073",
+          "status": "confident"
+        }
+      ],
+      "source": "/people/glasgow-3551.html"
+    },
+    {
+      "id": "Glasgow-3552",
+      "name": "Jean Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-1073",
+          "status": "unmarked"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-1073",
+          "status": "confident"
+        }
+      ],
+      "source": "/people/glasgow-3552.html"
+    },
+    {
+      "id": "Glasgow-3589",
+      "name": "Margaret Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-3181",
+          "status": "confident"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-3181",
+          "status": "proved"
+        }
+      ],
+      "source": "/people/glasgow-3589.html"
+    },
+    {
+      "id": "Glasgow-3896",
+      "name": "Daniel Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-3904",
+          "status": "uncertain"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-3904",
+          "status": "possible"
+        }
+      ],
+      "source": "/people/glasgow-3896.html"
+    },
+    {
+      "id": "Glasgow-3902",
+      "name": "Adam Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-3905",
+          "status": "uncertain"
+        }
+      ],
+      "after": [],
+      "source": "/people/glasgow-3902.html"
+    },
+    {
+      "id": "Glasgow-3904",
+      "name": "Alexander Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-3905",
+          "status": "uncertain"
+        }
+      ],
+      "after": [],
+      "source": "/people/glasgow-3904.html"
+    },
+    {
+      "id": "Glasgow-3908",
+      "name": "Matthew Glasgow",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasgow-1168",
+          "status": "uncertain"
+        }
+      ],
+      "source": "/people/glasgow-3908.html"
+    },
+    {
+      "id": "Glasgow-3915",
+      "name": "Elizabeth (Glasgow) Kaine",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasgow-1098",
+          "status": "uncertain"
+        }
+      ],
+      "source": "/people/glasgow-3915.html"
+    },
+    {
+      "id": "Glasgow-3916",
+      "name": "Isobella (Glasgow) Herbison",
+      "before": [
+        {
+          "id": "Glasgow-1098",
+          "status": "uncertain"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-1098",
+          "status": "strongly_supported"
+        }
+      ],
+      "source": "/people/glasgow-3916.html"
+    },
+    {
+      "id": "Glasgow-3931",
+      "name": "Hugh  Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-1505",
+          "status": "uncertain"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-3959",
+          "status": "uncertain"
+        }
+      ],
+      "source": "/people/glasgow-3931.html"
+    },
+    {
+      "id": "Glasgow-3939",
+      "name": "James  Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-951",
+          "status": "confident"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-951",
+          "status": "proved"
+        }
+      ],
+      "source": "/people/glasgow-3939.html"
+    },
+    {
+      "id": "Glasgow-3940",
+      "name": "Unknown  Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-951",
+          "status": "confident"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-951",
+          "status": "proved"
+        }
+      ],
+      "source": "/people/glasgow-3940.html"
+    },
+    {
+      "id": "Glasgow-3945",
+      "name": "Elizabeth Glasgow",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasgow-3944",
+          "status": "unmarked"
+        }
+      ],
+      "source": "/people/glasgow-3945.html"
+    },
+    {
+      "id": "Glasgow-3950",
+      "name": "Ann (Glasgow) McCleery",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasgow-3953",
+          "status": "unmarked"
+        }
+      ],
+      "source": "/people/glasgow-3950.html"
+    },
+    {
+      "id": "Glasgow-3951",
+      "name": "Annie (Glasgow) Mitchell",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasgow-3952",
+          "status": "unmarked"
+        }
+      ],
+      "source": "/people/glasgow-3951.html"
+    },
+    {
+      "id": "Glasgow-3959",
+      "name": "John  Glasgow",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasgow-3990",
+          "status": "uncertain"
+        }
+      ],
+      "source": "/people/glasgow-3959.html"
+    },
+    {
+      "id": "Glasgow-3971",
+      "name": "James Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-1078",
+          "status": "unmarked"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-1078",
+          "status": "uncertain"
+        }
+      ],
+      "source": "/people/glasgow-3971.html"
+    },
+    {
+      "id": "Glasgow-3982",
+      "name": "Robert  Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-1983",
+          "status": "confident"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-1983",
+          "status": "proved"
+        }
+      ],
+      "source": "/people/glasgow-3982.html"
+    },
+    {
+      "id": "Glasgow-3986",
+      "name": "James  Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-1509",
+          "status": "unmarked"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-1509",
+          "status": "possible"
+        }
+      ],
+      "source": "/people/glasgow-3986.html"
+    },
+    {
+      "id": "Glasgow-4010",
+      "name": "Samuel  Glasgow",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasgow-3904",
+          "status": "uncertain"
+        }
+      ],
+      "source": "/people/glasgow-4010.html"
+    },
+    {
+      "id": "Glasgow-4023",
+      "name": "Unknown  Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-1623",
+          "status": "unmarked"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-1623",
+          "status": "confident"
+        }
+      ],
+      "source": "/people/glasgow-4023.html"
+    },
+    {
+      "id": "Glasgow-4043",
+      "name": "James  Glasgow",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasgow-867",
+          "status": "unmarked"
+        }
+      ],
+      "source": "/people/glasgow-4043.html"
+    },
+    {
+      "id": "Glasgow-4049",
+      "name": "Robert  Glasgow",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasgow-1049",
+          "status": "confident"
+        }
+      ],
+      "source": "/people/glasgow-4049.html"
+    },
+    {
+      "id": "Glasgow-4054",
+      "name": "George Washington Glasgow",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasgow-2775",
+          "status": "unmarked"
+        }
+      ],
+      "source": "/people/glasgow-4054.html"
+    },
+    {
+      "id": "Glasgow-4055",
+      "name": "John  Glasgow",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasgow-1367",
+          "status": "confident"
+        }
+      ],
+      "source": "/people/glasgow-4055.html"
+    },
+    {
+      "id": "Glasgow-4062",
+      "name": "Isobell  Glasgow",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasgow-3011",
+          "status": "uncertain"
+        }
+      ],
+      "source": "/people/glasgow-4062.html"
+    },
+    {
+      "id": "Glasgow-4070",
+      "name": "Nancy  Glasgow",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasgow-4090",
+          "status": "uncertain"
+        }
+      ],
+      "source": "/people/glasgow-4070.html"
+    },
+    {
+      "id": "Glasgow-4071",
+      "name": "Elizabeth  Anderson",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasgow-4090",
+          "status": "unmarked"
+        }
+      ],
+      "source": "/people/glasgow-4071.html"
+    },
+    {
+      "id": "Glasgow-4072",
+      "name": "Rose  Glasgow",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasgow-1050",
+          "status": "unmarked"
+        }
+      ],
+      "source": "/people/glasgow-4072.html"
+    },
+    {
+      "id": "Glasgow-4090",
+      "name": "John  Glasgow",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasgow-4179",
+          "status": "unmarked"
+        }
+      ],
+      "source": "/people/glasgow-4090.html"
+    },
+    {
+      "id": "Glasgow-4092",
+      "name": "Ann  McClelland",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasgow-4090",
+          "status": "unmarked"
+        }
+      ],
+      "source": "/people/glasgow-4092.html"
+    },
+    {
+      "id": "Glasgow-4094",
+      "name": "Kate  Glasgow",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasgow-3896",
+          "status": "uncertain"
+        }
+      ],
+      "source": "/people/glasgow-4094.html"
+    },
+    {
+      "id": "Glasgow-4095",
+      "name": "Marion  Glasgow",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasgow-3163",
+          "status": "proved"
+        }
+      ],
+      "source": "/people/glasgow-4095.html"
+    },
+    {
+      "id": "Glasgow-4098",
+      "name": "Helen  Glasgow",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasgow-1105",
+          "status": "unmarked"
+        }
+      ],
+      "source": "/people/glasgow-4098.html"
+    },
+    {
+      "id": "Glasgow-4100",
+      "name": "James  Glasgow",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasgow-2475",
+          "status": "unmarked"
+        }
+      ],
+      "source": "/people/glasgow-4100.html"
+    },
+    {
+      "id": "Glasgow-4102",
+      "name": "Mary  Glasgow",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasgow-2475",
+          "status": "unmarked"
+        }
+      ],
+      "source": "/people/glasgow-4102.html"
+    },
+    {
+      "id": "Glasgow-4103",
+      "name": "Magdalen  Glasgow",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasgow-4165",
+          "status": "unmarked"
+        }
+      ],
+      "source": "/people/glasgow-4103.html"
+    },
+    {
+      "id": "Glasgow-4106",
+      "name": "Euphan  Glasgow",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasgow-4170",
+          "status": "unmarked"
+        }
+      ],
+      "source": "/people/glasgow-4106.html"
+    },
+    {
+      "id": "Glasgow-4107",
+      "name": "Elizabeth  Glasgow",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasgow-4168",
+          "status": "unmarked"
+        }
+      ],
+      "source": "/people/glasgow-4107.html"
+    },
+    {
+      "id": "Glasgow-4109",
+      "name": "Thomas  Glasgow",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasgow-3582",
+          "status": "unmarked"
+        }
+      ],
+      "source": "/people/glasgow-4109.html"
+    },
+    {
+      "id": "Glasgow-4111",
+      "name": "Margaret  Glasgow",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasgow-4170",
+          "status": "unmarked"
+        }
+      ],
+      "source": "/people/glasgow-4111.html"
+    },
+    {
+      "id": "Glasgow-4112",
+      "name": "Janet  Glasgow",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasgow-2475",
+          "status": "unmarked"
+        }
+      ],
+      "source": "/people/glasgow-4112.html"
+    },
+    {
+      "id": "Glasgow-4113",
+      "name": "Jean  Glasgow",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasgow-3586",
+          "status": "unmarked"
+        }
+      ],
+      "source": "/people/glasgow-4113.html"
+    },
+    {
+      "id": "Glasgow-4115",
+      "name": "Margaret  Glasgow",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasgow-1929",
+          "status": "unmarked"
+        }
+      ],
+      "source": "/people/glasgow-4115.html"
+    },
+    {
+      "id": "Glasgow-4119",
+      "name": "Margaret  Glasgow",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasgow-2475",
+          "status": "unmarked"
+        }
+      ],
+      "source": "/people/glasgow-4119.html"
+    },
+    {
+      "id": "Glasgow-4120",
+      "name": "William  Glasgow",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasgow-4158",
+          "status": "unmarked"
+        }
+      ],
+      "source": "/people/glasgow-4120.html"
+    },
+    {
+      "id": "Glasgow-4121",
+      "name": "Isabel  Glasgow",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasgow-4165",
+          "status": "unmarked"
+        }
+      ],
+      "source": "/people/glasgow-4121.html"
+    },
+    {
+      "id": "Glasgow-4122",
+      "name": "Sarah  Glasgow",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasgow-1077",
+          "status": "unmarked"
+        }
+      ],
+      "source": "/people/glasgow-4122.html"
+    },
+    {
+      "id": "Glasgow-4123",
+      "name": "Agnes Glasgow",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasgow-4175",
+          "status": "unmarked"
+        }
+      ],
+      "source": "/people/glasgow-4123.html"
+    },
+    {
+      "id": "Glasgow-4126",
+      "name": "Mary  Glasgow",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasgow-4165",
+          "status": "unmarked"
+        }
+      ],
+      "source": "/people/glasgow-4126.html"
+    },
+    {
+      "id": "Glasgow-4129",
+      "name": "James  Glasgow",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasgow-4158",
+          "status": "unmarked"
+        }
+      ],
+      "source": "/people/glasgow-4129.html"
+    },
+    {
+      "id": "Glasgow-4130",
+      "name": "Janet  Glasgow",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasgow-4168",
+          "status": "unmarked"
+        }
+      ],
+      "source": "/people/glasgow-4130.html"
+    },
+    {
+      "id": "Glasgow-4132",
+      "name": "John Glasgow",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasgow-4177",
+          "status": "unmarked"
+        }
+      ],
+      "source": "/people/glasgow-4132.html"
+    },
+    {
+      "id": "Glasgow-4133",
+      "name": "Agnes  Glasgow",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasgow-4168",
+          "status": "unmarked"
+        }
+      ],
+      "source": "/people/glasgow-4133.html"
+    },
+    {
+      "id": "Glasgow-4134",
+      "name": "Anne  Glasgow",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasgow-3105",
+          "status": "unmarked"
+        }
+      ],
+      "source": "/people/glasgow-4134.html"
+    },
+    {
+      "id": "Glasgow-4142",
+      "name": "Mary  Glasgow",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasgow-1929",
+          "status": "unmarked"
+        }
+      ],
+      "source": "/people/glasgow-4142.html"
+    },
+    {
+      "id": "Glasgow-4148",
+      "name": "Cleora  Glasgow",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasgow-3995",
+          "status": "strongly_supported"
+        }
+      ],
+      "source": "/people/glasgow-4148.html"
+    },
+    {
+      "id": "Glasgow-4150",
+      "name": "Robert Glasgow",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasgow-3904",
+          "status": "uncertain"
+        }
+      ],
+      "source": "/people/glasgow-4150.html"
+    },
+    {
+      "id": "Glasgow-4179",
+      "name": "John  Glasgow",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasgow-1499",
+          "status": "uncertain"
+        }
+      ],
+      "source": "/people/glasgow-4179.html"
+    },
+    {
+      "id": "Glasgow-4180",
+      "name": "Hugh  Glasgow",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasgow-3991",
+          "status": "possible"
+        }
+      ],
+      "source": "/people/glasgow-4180.html"
+    },
+    {
+      "id": "Glasgow-4181",
+      "name": "Mary  McGavock",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasgow-4180",
+          "status": "possible"
+        }
+      ],
+      "source": "/people/glasgow-4181.html"
+    },
+    {
+      "id": "Glasgow-438",
+      "name": "Anna Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-951",
+          "status": "confident"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-951",
+          "status": "proved"
+        }
+      ],
+      "source": "/people/glasgow-438.html"
+    },
+    {
+      "id": "Glasgow-785",
+      "name": "Samuel Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-3140",
+          "status": "confident"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-3140",
+          "status": "uncertain"
+        }
+      ],
+      "source": "/people/glasgow-785.html"
+    },
+    {
+      "id": "Glasgow-867",
+      "name": "John Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-1022",
+          "status": "confident"
+        }
+      ],
+      "after": [],
+      "source": "/people/glasgow-867.html"
+    },
+    {
+      "id": "Glasgow-938",
+      "name": "Robert Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-951",
+          "status": "confident"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-951",
+          "status": "proved"
+        }
+      ],
+      "source": "/people/glasgow-938.html"
+    },
+    {
+      "id": "Glasgow-951",
+      "name": "Alexander Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-3904",
+          "status": "uncertain"
+        }
+      ],
+      "after": [],
+      "source": "/people/glasgow-951.html"
+    },
+    {
+      "id": "Glasgow-973",
+      "name": "James Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-951",
+          "status": "uncertain"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-951",
+          "status": "proved"
+        }
+      ],
+      "source": "/people/glasgow-973.html"
+    },
+    {
+      "id": "Glasgow-987",
+      "name": "Thomas Glasgow",
+      "before": [
+        {
+          "id": "Glasgow-3904",
+          "status": "confident"
+        }
+      ],
+      "after": [
+        {
+          "id": "Glasgow-3904",
+          "status": "possible"
+        }
+      ],
+      "source": "/people/glasgow-987.html"
+    },
+    {
+      "id": "Glasko-10",
+      "name": "Charles F Glasko",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasko-3",
+          "status": "unmarked"
+        }
+      ],
+      "source": "/people/glasko-10.html"
+    },
+    {
+      "id": "Glasko-11",
+      "name": "William  Glasko",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasko-3",
+          "status": "unmarked"
+        }
+      ],
+      "source": "/people/glasko-11.html"
+    },
+    {
+      "id": "Glasko-27",
+      "name": "Eliza  Glasko",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasko-4",
+          "status": "unmarked"
+        }
+      ],
+      "source": "/people/glasko-27.html"
+    },
+    {
+      "id": "Glasko-28",
+      "name": "Lucy  Peckham",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasko-4",
+          "status": "unmarked"
+        }
+      ],
+      "source": "/people/glasko-28.html"
+    },
+    {
+      "id": "Glasko-29",
+      "name": "Mary Ann Glasko",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasko-4",
+          "status": "unmarked"
+        }
+      ],
+      "source": "/people/glasko-29.html"
+    },
+    {
+      "id": "Glasko-7",
+      "name": "Azubah  Glasko",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasko-4",
+          "status": "unmarked"
+        }
+      ],
+      "source": "/people/glasko-7.html"
+    },
+    {
+      "id": "Glasko-8",
+      "name": "Miranda  Overbaugh",
+      "before": [],
+      "after": [
+        {
+          "id": "Glasko-4",
+          "status": "unmarked"
+        }
+      ],
+      "source": "/people/glasko-8.html"
+    }
+  ],
+  "source_basis": "Current public person dossiers and their recorded tree certainty flags or research assessments. Earlier aggregate catalogue snapshots do not supersede those decisions. Approved main-tree accounts and DNA annotations were retained. Competing fathers remain unresolved.",
+  "next_metric_check": {
+    "status": "OPEN",
+    "saved_confident_tree_flags_not_used_by_current_metric": 311,
+    "finding": "The confidence-only metric reads the general status field; some saved WikiTree certainty flags are separately held in tree_status. Audit this classification separately. Working connectivity is unaffected; these are existing flags, not new evidence upgrades."
+  }
+}
