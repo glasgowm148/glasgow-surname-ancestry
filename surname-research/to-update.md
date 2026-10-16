@@ -1733,3 +1733,10 @@ The August completion entries remain historical. The live parent fields are now 
 | [Barbara Alason / Allison](https://www.wikitree.com/wiki/Allison-6866) | OPEN | Review the very uncertain1679parent pair for the1693Irvine father only; retain the age problem, separate adult identities and current fields. The two parents depend on one child/adult comparison. |
 | [John Glasgow, Kilwinning child of 1679](https://www.wikitree.com/wiki/Glasgow-1434) | OPEN | Review the very uncertain1679parent pair for the1693Irvine father only; retain the age problem, separate adult identities and current fields. The two parents depend on one child/adult comparison. |
 | [John Glasgow, Irvine child of 1693](https://www.wikitree.com/wiki/Glasgow-1473) | OPEN | Review the very uncertain1679parent pair for the1693Irvine father only; retain the age problem, separate adult identities and current fields. The two parents depend on one child/adult comparison. |
+
+
+## Leitrim and Tyrone working family — 16 October 2026
+
+| [John Glasgow of Gortigillagh](https://www.wikitree.com/wiki/Glasgow-3960) | OPEN | Review the very uncertain Tyrone–Leitrim father model; retain the same-John alternative, guessed generations and existing unproved John–James link. |
+| [John Glasgow of the Tyrone family tradition](https://www.wikitree.com/wiki/Glasgow-551) | OPEN | Review the very uncertain Tyrone–Leitrim father model; retain the same-John alternative, guessed generations and existing unproved John–James link. |
+| [James Glasgow of Aghadonvane](https://www.wikitree.com/wiki/Glasgow-3124) | OPEN | Review the very uncertain Tyrone–Leitrim father model; retain the same-John alternative, guessed generations and existing unproved John–James link. |

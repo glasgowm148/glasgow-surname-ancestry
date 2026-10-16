@@ -1,0 +1,81 @@
+{
+  "reviewed": "2026-10-16",
+  "cutoff": 1850,
+  "method_version": 3,
+  "input_fingerprint": "4a4ec6e102560b640ed1f31236ac0922b9ce2402924dc4b0a1901daa804d02d4",
+  "scope": "Leitrim and Tyrone: a very uncertain John-to-John connection",
+  "genealogical_connections_added": 1,
+  "paternal_connections_added": 1,
+  "maternal_connections_added": 0,
+  "certainty_upgrades": 0,
+  "working_fathers": 51,
+  "working_mothers": 7,
+  "models": {
+    "main": {
+      "checked_historical_profiles": 1777,
+      "changed_father_fields": 1,
+      "changed_mother_fields": 0,
+      "matched_paternal_edges": 1348,
+      "added_historical_profiles": [],
+      "effective_father_field_audit": {
+        "public_father_fields_checked": 1777,
+        "empty_father_fields_checked": 421,
+        "differences": []
+      },
+      "unresolved_father_cases": [
+        "Glasgow-1367",
+        "Glasgow-2908",
+        "Glasgow-867",
+        "Glasgow-951"
+      ]
+    },
+    "standalone": {
+      "checked_historical_profiles": 1777,
+      "changed_father_fields": 1,
+      "changed_mother_fields": 0,
+      "matched_paternal_edges": 1348,
+      "added_historical_profiles": [],
+      "effective_father_field_audit": {
+        "public_father_fields_checked": 1777,
+        "empty_father_fields_checked": 421,
+        "differences": []
+      },
+      "unresolved_father_cases": [
+        "Glasgow-1367",
+        "Glasgow-2908",
+        "Glasgow-867",
+        "Glasgow-951"
+      ]
+    }
+  },
+  "publication_summary": "One very uncertain father is newly selected, conditional on treating the two John accounts as different generations. This is a working hypothesis, not a proved Tyrone\u2013Leitrim family or an independently supported migration. The identity alternative, guessed dates, townland disagreement and unproved existing John\u2013James link remain explicit. No merge, new mother, changed vital field, certainty upgrade or live WikiTree save is claimed. Connectivity counts retained profile accounts, including possible duplicates. The1728Leitrim witness is provisionally placed under the traditional Tyrone John using estimated generations. Same-person identity is a live alternative and would collapse this edge. The existing Leitrim John\u2013James attachment remains unproved. Largest working family through1850 grows from1007 to1010 retained profiles; components431 to430. Three complete comparisons preserve current citations, both townland assessments and the older reconstruction.",
+  "comparison": "/branches/research-irish-belfast-donegal/#leitrim-tyrone-working-family",
+  "catalogue_parent_projection": {
+    "reviewed_profiles": 176,
+    "selected_parent_assertions_checked": 58,
+    "differences": []
+  },
+  "next_metric_check": {
+    "status": "RESOLVED",
+    "saved_confident_tree_flags_not_used_by_current_metric": 0,
+    "review": "/data/ancestry-confidence-method-review.json",
+    "scope": "Status fallback; four other competing-father cases remain open."
+  },
+  "verification": {
+    "public_pending_updates": 209,
+    "complete_profile_comparisons": 3
+  },
+  "unresolved_parentage_review": {
+    "status": "OPEN",
+    "case_ids": [
+      "Glasgow-1367",
+      "Glasgow-2908",
+      "Glasgow-867",
+      "Glasgow-951"
+    ],
+    "confident_flag_among_competing_candidates": [
+      "Glasgow-867"
+    ],
+    "scope": "Four other competing-father cases retain their existing grades; no selection is made for them."
+  }
+}

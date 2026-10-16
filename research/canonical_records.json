@@ -3008,5 +3008,64 @@
         "role": "compatible account for the indexed mother"
       }
     }
+  },
+  {
+    "record_id": "leitrim-john-gortigillagh-witness-1728",
+    "date": "30 May 1728; registered 11 July 1728",
+    "year": 1728,
+    "place": "Gortigillagh, County Leitrim",
+    "source_title": "Registry of Deeds Index Project, memorial 38213, vol.57 p.235, agreement 30 May/registration 11 July 1728; existing derivative abstract",
+    "source_url": "https://irishdeedsindex.net/mem.php?memorial=38213",
+    "status": "Existing derivative abstract; original not newly inspected",
+    "note": "Names John Glasgow, gentleman, as witness. No age or kinship. Gortaggle/Annaduff versus Gortnasillagh/Rossinver remains unresolved.",
+    "profiles": {
+      "Glasgow-3960": {
+        "role": "indexed witness account"
+      }
+    }
+  },
+  {
+    "record_id": "tyrone-john-wm-glasgow-family-tradition",
+    "date": "Undated later family tradition",
+    "place": "County Tyrone; claimed Scottish origin",
+    "source_title": "William Melanchthon Glasgow family-history document, cited by the Tyrone John profile; late tradition, not contemporary paternity evidence",
+    "source_url": "https://www.wikitree.com/photo/pdf/Glasgow-590",
+    "status": "Late family tradition cited on existing profile",
+    "note": "John found a home in County Tyrone; circa1681 is a generation estimate, not a birth record. Does not name the Leitrim witness as a son.",
+    "profiles": {
+      "Glasgow-551": {
+        "role": "traditional John account"
+      }
+    }
+  },
+  {
+    "record_id": "leitrim-james-aghadonvane-lease-1779",
+    "date": "15 August 1779; registered 10 August 1780",
+    "year": 1779,
+    "place": "Aghadonvane, County Leitrim",
+    "source_title": "Registry of Deeds, James Glasgow of Aghadonvane, lease 15 August 1779/registration 10 August 1780; previously reviewed image",
+    "source_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJ4-39B5-N",
+    "status": "Previously reviewed memorial image",
+    "note": "James Glasgow esquire, lessee. Johnston measuring lives do not prove kinship; no father named.",
+    "profiles": {
+      "Glasgow-3124": {
+        "role": "identified lessee"
+      }
+    }
+  },
+  {
+    "record_id": "leitrim-james-betham-administration-1782",
+    "date": "24 January 1782",
+    "year": 1782,
+    "place": "Aghadonvane, County Leitrim",
+    "source_title": "Findmypast, Betham’s Genealogical Abstracts, James Glasgow, administration 24 January 1782; prior transcript finding, image not checked here",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=IRE%2FNAI%2FGENABS%2F00401119%2F1",
+    "status": "Prior Findmypast transcript finding; underlying abstract image needs checking",
+    "note": "Betham Prerogative intestate-administration abstract. Catherine indexed as spouse; do not newly infer her role as administratrix or an exact death boundary.",
+    "profiles": {
+      "Glasgow-3124": {
+        "role": "indexed administration subject"
+      }
+    }
   }
 ]

@@ -27712,6 +27712,71 @@
         "research/relationship_assessments.json",
         "research/ancestry-connections/irvine-kilwinning-working-family-preservation-2026-10-16.json"
       ]
+    },
+    {
+      "id": "leitrim-tyrone-working-family-2026-10-16",
+      "found_on": "2026-10-16",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Selected the traditional Tyrone John as a very uncertain working father of the 1728 Leitrim witness, conditional on keeping their estimated generations distinct. Identity remains an alternative; the existing Leitrim John–James link is not upgraded or counted as new.",
+      "qualification": "One very uncertain father is newly selected, conditional on treating the two John accounts as different generations. This is a working hypothesis, not a proved Tyrone–Leitrim family or an independently supported migration. The identity alternative, guessed dates, townland disagreement and unproved existing John–James link remain explicit. No merge, new mother, changed vital field, certainty upgrade or live WikiTree save is claimed. Connectivity counts retained profile accounts, including possible duplicates. Identity between the two Johns is a live alternative, already raised by the earlier review: the witness could have been much older than his present estimate. If that identity is established, this provisional father edge must be withdrawn as a duplicate-person construction, rather than retained as two generations. A brother, uncle, more distant relative, or another Glasgow family is also possible. The older John’s own descent from William Glasgow-591 comes from late family tradition and receives no new support here. His roughly 1681 birth was calculated from his son Hugh’s estimated generation; the broader 1656–1688 range in the profile is not a measured age. No wife or mother is supplied for either John. The previously queued Findmypast notes give more detail for James’s 1782 probate occurrence: Betham’s Prerogative intestate-administration abstract is indexed on 24 January 1782, with Catherine as spouse (IRE/NAI/GENABS/00401119/1 and /2). This narrows the earlier will-versus-administration question at transcript level. The abstract image still needs checking before identifying Catherine as administratrix/widow or assigning an exact death boundary. It supplies no evidence that John was James’s father, that Catherine was his mother, or that the Tyrone John was his grandfather. The published Montgomery pedigree identifies Jemima Glasgow-3958 as James’s daughter; it does not extend the Glasgow ancestry.",
+      "relationship_change_count": 1,
+      "people": [
+        {
+          "id": "Glasgow-3960",
+          "name": "John Glasgow of Gortigillagh",
+          "url": "/people/glasgow-3960.html"
+        },
+        {
+          "id": "Glasgow-551",
+          "name": "John Glasgow of the Tyrone family tradition",
+          "url": "/people/glasgow-551.html"
+        },
+        {
+          "id": "Glasgow-3124",
+          "name": "James Glasgow of Aghadonvane",
+          "url": "/people/glasgow-3124.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Registry of Deeds Index Project, memorial 38213, vol.57 p.235, agreement 30 May/registration 11 July 1728; existing derivative abstract",
+          "url": "https://irishdeedsindex.net/mem.php?memorial=38213"
+        },
+        {
+          "title": "William Melanchthon Glasgow family-history document, cited by the Tyrone John profile; late tradition, not contemporary paternity evidence",
+          "url": "https://www.wikitree.com/photo/pdf/Glasgow-590"
+        },
+        {
+          "title": "Logainm, Gortaggle: near-contemporary Gortogill/Cortogill forms; existing locality comparison",
+          "url": "https://www.logainm.ie/en/29111/"
+        },
+        {
+          "title": "Logainm, Gortnasillagh: alternative locality retained from the older biography",
+          "url": "https://www.logainm.ie/en/29477/"
+        },
+        {
+          "title": "Registry of Deeds, James Glasgow of Aghadonvane, lease 15 August 1779/registration 10 August 1780; previously reviewed image",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJ4-39B5-N"
+        },
+        {
+          "title": "Registry of Deeds, marriage articles 2 October 1779, witness James Glasgow of Aghadonvane; previously reviewed image",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJ4-W935-7"
+        },
+        {
+          "title": "Findmypast, Betham’s Genealogical Abstracts, James Glasgow, administration 24 January 1782; prior transcript finding, image not checked here",
+          "url": "https://www.findmypast.co.uk/transcript?id=IRE%2FNAI%2FGENABS%2F00401119%2F1"
+        },
+        {
+          "title": "Debrett’s Baronetage, Montgomery pedigree, James Glasgow of Aughadenvarn and daughter Jemima; existing published-pedigree citation",
+          "url": "https://archive.org/details/debrettsbaroneta25lond/page/n851/mode/2up"
+        }
+      ],
+      "detail_url": "/branches/research-irish-belfast-donegal/#leitrim-tyrone-working-family",
+      "provenance": [
+        "research/relationship_assessments.json",
+        "research/ancestry-connections/leitrim-tyrone-working-family-preservation-2026-10-16.json"
+      ]
     }
   ]
 }

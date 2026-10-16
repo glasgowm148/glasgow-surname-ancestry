@@ -1,14 +1,28 @@
-# WikiTree update notes: [John Glasgow (Glasgow-551), born 1681, Scotland](https://www.wikitree.com/wiki/Glasgow-551)
+[[Category:Glasgow Name Study]]
 
-Record only sourced facts and corrections missing from the current WikiTree
-profile. Keep same-name identities and inferred relationships explicitly
-unproved.
+{{Estimated Date}}
+== Biography ==
+'''John Glasgow''' is represented by the later family history of William Melanchthon Glasgow, which says he found a home in County Tyrone. Scottish birth and the circa-1681 birth year are estimates. The broader range 1656–1688 in the existing notes is also an estimate; there is no measured age. The year was calculated from the estimated generation of his son [[Glasgow-548|Hugh Glasgow]], rather than taken from a birth record.<ref>[https://www.wikitree.com/photo/pdf/Glasgow-590 William Melanchthon Glasgow family-history document], as cited in the existing profile; late family tradition, not a contemporary register.</ref>
 
-## Suggested additions
+[[Glasgow-591|William Glasgow]] is his recorded father, but that descent remains late family tradition. No mother or wife is established here. [[Glasgow-3960|John Glasgow of Gortigillagh]], County Leitrim, recorded in 1728, is selected locally as a very uncertain possible son. The two John accounts may instead represent the same man. No contemporary record establishes the proposed father–son relationship.
 
-| Fact missing from profile | Source | Confidence |
-| --- | --- | --- |
+== Research Notes ==
+=== Selected uncertain family — 16 October 2026 ===
 
-## Suggested corrections
+[[Glasgow-551|John Glasgow of the Tyrone family tradition]], the John said in the later family history to have found a home in County Tyrone, is selected as a very uncertain working father of [[Glasgow-3960|John Glasgow of Gortigillagh]], gentleman of Gortigillagh, County Leitrim, recorded in 1728. This develops the comparison already recorded in both case files. Keeping their current estimated generations separate gives about 1681 for the older John and about 1705 for the witness: a possible 24-year father–son interval. The proposed connection gives the Leitrim household a testable place alongside the early Irish family tradition. Its preference over an identity match depends on retaining those two estimated generations; neither birth year is independent evidence for paternity. The same uncommon surname and an early Irish setting support investigating kinship, but do not determine its degree. There is no named-father clause or documented Tyrone–Leitrim migration, and no place of birth is inferred from this link.
 
-## Do not add as fact
+Identity between the two Johns is a live alternative, already raised by the earlier review: the witness could have been much older than his present estimate. If that identity is established, this provisional father edge must be withdrawn as a duplicate-person construction, rather than retained as two generations. A brother, uncle, more distant relative, or another Glasgow family is also possible. The older John’s own descent from [[Glasgow-591|Glasgow-591]] comes from late family tradition and receives no new support here. His roughly 1681 birth was calculated from his son Hugh’s estimated generation; the broader 1656–1688 range in the profile is not a measured age. No wife or mother is supplied for either John.
+
+The first dated occurrence used here is 30 May 1728, registered 11 July: Registry of Deeds memorial 38213, volume 57, page 235. The existing derivative abstract names John Glasgow, gentleman of Gortigillagh, County Leitrim, witnessing a transaction between James Johnston of Cashellmenon, County Donegal, and Robert Johnston of Aghadunvane, County Leitrim, with Bartley McGowan and John Gilhuly. No original has been newly inspected. “1707” is an older inferred birth boundary from assuming an adult witness aged at least 21; it is not a 1707 record. The structured about-1705 birth and County Leitrim birthplace remain estimates, not documentary dates or proof of origin. The notes favour Gortaggle in Annaduff, supported by the near-contemporary Gortogill/Cortogill forms; the older biography favours Gortnasillagh in Rossinver. Both locality assessments remain visible. This parent model uses County Leitrim only and does not resolve the townland to manufacture geographic proximity.
+
+One very uncertain father is newly selected, conditional on treating the two John accounts as different generations. This is a working hypothesis, not a proved Tyrone–Leitrim family or an independently supported migration. The identity alternative, guessed dates, townland disagreement and unproved existing John–James link remain explicit. No merge, new mother, changed vital field, certainty upgrade or live WikiTree save is claimed. Connectivity counts retained profile accounts, including possible duplicates. [https://glasgow.phenotype.dev/branches/research-irish-belfast-donegal/#leitrim-tyrone-working-family Full selected model, competing families and source limits]. <ref>Existing reviewed records and public profile citations: [https://irishdeedsindex.net/mem.php?memorial=38213 Registry of Deeds Index Project, memorial 38213, vol.57 p.235, agreement 30 May/registration 11 July 1728; existing derivative abstract]; [https://www.wikitree.com/photo/pdf/Glasgow-590 William Melanchthon Glasgow family-history document, cited by the Tyrone John profile; late tradition, not contemporary paternity evidence]; [https://www.logainm.ie/en/29111/ Logainm, Gortaggle: near-contemporary Gortogill/Cortogill forms; existing locality comparison]; [https://www.logainm.ie/en/29477/ Logainm, Gortnasillagh: alternative locality retained from the older biography]; [https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJ4-39B5-N Registry of Deeds, James Glasgow of Aghadonvane, lease 15 August 1779/registration 10 August 1780; previously reviewed image]; [https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJ4-W935-7 Registry of Deeds, marriage articles 2 October 1779, witness James Glasgow of Aghadonvane; previously reviewed image]; [https://www.findmypast.co.uk/transcript?id=IRE%2FNAI%2FGENABS%2F00401119%2F1 Findmypast, Betham’s Genealogical Abstracts, James Glasgow, administration 24 January 1782; prior transcript finding, image not checked here]; [https://archive.org/details/debrettsbaroneta25lond/page/n851/mode/2up Debrett’s Baronetage, Montgomery pedigree, James Glasgow of Aughadenvarn and daughter Jemima; existing published-pedigree citation]. No original newly inspected; indexed dates and adult-identity limits remain explicit.</ref>
+
+
+John's birth year is roughly estimated as 1681 based on the assumption that he was about 25 years old when his son Hugh was born. He was probably born sometime between 1656 an 1688.
+
+The reference document by William Melanchthon Glasgow said John  "found a home in County Tyrone". He was probably born in Scotland.
+
+Although he would need to be 58 years old when William was born, here is another [https://www.wikitree.com/wiki/Glasgow-2452 John Glasgow, son of William].
+== Sources ==
+<references />
+* Family history document written by William Melanchthon Glasgow [https://www.wikitree.com/photo/pdf/Glasgow-590]
