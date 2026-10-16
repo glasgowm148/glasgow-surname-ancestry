@@ -320,6 +320,63 @@
         "deathLocationRegion": "other",
         "lifeLabel": "Recorded adult 1612; dead by July 1624"
       }
+    },
+    {
+      "id": "Glasgow-3186",
+      "publication_status": "approved",
+      "source_ids": [
+        "south-leith-margaret-lyell-marriage-1633"
+      ],
+      "assessment_id": "chronology-leith-margaret-20261016",
+      "reviewed": "2026-10-16",
+      "year": 1610,
+      "year_basis": "inherited birth estimate; no age stated",
+      "year_status": "estimated",
+      "birth_year": 1610,
+      "first_record_year": 1633,
+      "reason": "Margaret’s copied source string records the 28 November 1633 South Leith marriage, OPR 692/2, 90/264, FR3038. Its truncated surname string ASGOWE is retained in the profile comparison, not silently expanded as an original-image reading. The old exact-looking birth year is displayed as circa 1610, an inherited estimate with no age record. South Leith is the marriage place, not an evidenced death place; death date and place remain unknown. Matthew’s before-1650 birth remains uncertain, and his inherited Stevenson birthplace is not proved by the Stevenston residence. The 24 April 1665 date belongs to Jonet Cowan’s testament-index entry, not Matthew’s birth, marriage or death. No original source was newly inspected.",
+      "vitals": {
+        "birth": {
+          "date": "about 1610",
+          "place": null,
+          "status": "estimated",
+          "qualifier": "Inherited estimate only; the 1633 marriage citation states no age or parent.",
+          "source_url": "https://www.wikitree.com/wiki/Glasgow-3186"
+        },
+        "death": {
+          "date": null,
+          "place": null,
+          "status": "unknown",
+          "qualifier": "South Leith is the marriage place, not an evidenced death place.",
+          "source_url": "https://www.wikitree.com/wiki/Glasgow-3186"
+        }
+      },
+      "catalogue_projection": {
+        "birth": "c. 1610",
+        "birth_year": 1610,
+        "birth_note": "Inherited estimate; no birth or age record.",
+        "death": "",
+        "death_year": null,
+        "death_location": "",
+        "date_years": [
+          1610,
+          1633
+        ],
+        "field_statuses": {
+          "birth": "estimated",
+          "death": "unassessed",
+          "death_location": "unassessed"
+        }
+      },
+      "tree_display": {
+        "born": 1610,
+        "year": 1610,
+        "birthDisplay": "c. 1610 (inherited estimate)",
+        "deathDisplay": "Unknown",
+        "deathplace": "",
+        "deathLocationRegion": "other",
+        "lifeLabel": "South Leith marriage 1633; birth and death unknown"
+      }
     }
   ]
 }

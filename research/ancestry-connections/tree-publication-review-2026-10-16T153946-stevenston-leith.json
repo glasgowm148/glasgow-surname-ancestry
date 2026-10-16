@@ -1,0 +1,50 @@
+{
+  "reviewed": "2026-10-16",
+  "cutoff": 1850,
+  "method_version": 3,
+  "input_fingerprint": "69703415caafecee8995ad87e6b197f9a246b16212ce35519d2ee40ab1aa4b9b",
+  "scope": "Stevenston and South Leith: selected uncertain families",
+  "genealogical_connections_added": 3,
+  "paternal_connections_added": 2,
+  "maternal_connections_added": 1,
+  "certainty_upgrades": 0,
+  "working_fathers": 34,
+  "working_mothers": 4,
+  "models": {
+    "standalone": {
+      "checked_historical_profiles": 1777,
+      "matched_paternal_edges": 1331,
+      "changed_father_fields": 2,
+      "added_historical_profiles": [],
+      "unresolved_father_cases": [
+        "Glasgow-1367",
+        "Glasgow-2908",
+        "Glasgow-3902",
+        "Glasgow-3904",
+        "Glasgow-867",
+        "Glasgow-951"
+      ]
+    },
+    "main": {
+      "checked_historical_profiles": 1777,
+      "matched_paternal_edges": 1331,
+      "changed_father_fields": 2,
+      "added_historical_profiles": [],
+      "unresolved_father_cases": [
+        "Glasgow-1367",
+        "Glasgow-2908",
+        "Glasgow-3902",
+        "Glasgow-3904",
+        "Glasgow-867",
+        "Glasgow-951"
+      ]
+    }
+  },
+  "publication_summary": "Two uncertain fathers and one separately assessed uncertain mother are present in both viewers: Matthew of Pyperheugh under John Glasgow and Jonet Mathie, and Margaret of South Leith under William the mealmaker. The Rathmalton daughter remains a compatible alternative for Margaret. The through-1850 largest working family grows from 860 to 862; cohort membership and confidently marked metrics remain unchanged.",
+  "comparison": "/branches/early-scottish-records/#stevenston-leith-working-family",
+  "next_metric_check": {
+    "status": "RESOLVED",
+    "saved_confident_tree_flags_not_used_by_current_metric": 0,
+    "review": "/data/ancestry-confidence-method-review.json"
+  }
+}

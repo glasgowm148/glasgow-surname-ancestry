@@ -2429,5 +2429,98 @@
         "role": "deceased householder; existing working account"
       }
     }
+  },
+  {
+    "record_id": "pyperheugh-matthew-spouse-testament-1665",
+    "date": "24 April 1665",
+    "year": 1665,
+    "place": "Pyperheugh, Stevenston, Ayrshire",
+    "source_title": "Grant, Glasgow testament index p.110: Jonet Cowan, spouse of Mathew Glasgow in Pyperheugh, 24 April 1665",
+    "source_url": "https://archive.org/details/scottishrecordso07scotuoft/page/110/mode/2up?q=Cowan",
+    "status": "Previously reviewed printed testament index",
+    "note": "Jonet Cowan is spouse of Mathew Glasgow. Confirmation/index date, not Matthew’s vital event. No parents or age stated.",
+    "profiles": {
+      "Glasgow-3538": {
+        "role": "spouse of indexed testator"
+      }
+    }
+  },
+  {
+    "record_id": "south-leith-margaret-lyell-marriage-1633",
+    "date": "28 November 1633",
+    "year": 1633,
+    "place": "South Leith, Midlothian",
+    "source_title": "Margaret Glasgow-3186: captured South Leith marriage citation, 28 November 1633, OPR 692/2 90/264 FR3038",
+    "source_url": "https://www.wikitree.com/wiki/Glasgow-3186",
+    "status": "Copied OPR marriage citation on captured public profile; original not newly inspected",
+    "note": "Margaret, Georg Lyell; OPR 692/2, 90/264, FR3038. Truncated ASGOWE string retained; no age, birth or parent stated.",
+    "profiles": {
+      "Glasgow-3186": {
+        "role": "bride in copied index citation"
+      }
+    }
+  },
+  {
+    "record_id": "glasgow-john-mathie-household-1618",
+    "date": "25 January 1618",
+    "year": 1618,
+    "place": "Glasgow, Lanarkshire",
+    "source_title": "John Glasgow and Jonet Mathie: Glasgow marriage index, 25 January 1618",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:XYWK-WM3",
+    "status": "Previously reviewed indexed marriage; adult identity remains probable",
+    "note": "John Glasgow and Jonet Mathie, also indexed Jonat Mathen. No link to the later Pyperheugh Matthew stated.",
+    "profiles": {
+      "Glasgow-1030": {
+        "role": "groom; probable current-profile adult identity"
+      },
+      "Mathie-159": {
+        "role": "bride"
+      }
+    }
+  },
+  {
+    "record_id": "leith-william-fraith-marriage-1610",
+    "date": "10 July 1610",
+    "year": 1610,
+    "place": "Leith",
+    "source_title": "Findmypast SGS transcript: William Glascoe and Catherine Fraith, Leith, 10 July 1610",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FMAR%2F1447177%2F1",
+    "status": "Previously reviewed source; no new inspection",
+    "note": "Two provider indexes concern one event; bride surname readings and couple identity remain qualified.",
+    "profiles": {
+      "Glasgow-3075": {
+        "role": "groom; proposed Leith household identity"
+      }
+    }
+  },
+  {
+    "record_id": "leith-archibald-apprenticeship-father-1639",
+    "date": "23 October 1639",
+    "year": 1639,
+    "place": "Leith / Edinburgh",
+    "source_title": "Grant, Edinburgh apprentices p.71: Archibald son of William, mealmaker in Leith, 23 October 1639",
+    "source_url": "https://archive.org/details/scottishrecordso28scotuoft/page/71/mode/2up",
+    "status": "Previously reviewed source; no new inspection",
+    "note": "Direct indexed father and occupation; no Margaret named.",
+    "profiles": {
+      "Glasgow-3075": {
+        "role": "named father of apprentice Archibald"
+      }
+    }
+  },
+  {
+    "record_id": "rathmalton-margaret-cairns-will-1673",
+    "date": "April 1673",
+    "year": 1673,
+    "place": "Rathmalton, County Donegal",
+    "source_title": "Betham, Old Series vol.3, GO MS225, handwritten p.90, viewer image97: Rathmalton will of April 1673",
+    "source_url": "https://catalogue.nli.ie/Record/vtls000540633",
+    "status": "Previously reviewed source; no new inspection",
+    "note": "Betham derivative pedigree names Archibald’s only daughter Margaret, married Cairns, with son Thomas; do not treat the Lyell bride identity as established.",
+    "profiles": {
+      "Glasgow-3186": {
+        "role": "compatible profile candidate for named daughter, not confirmed identity"
+      }
+    }
   }
 ]

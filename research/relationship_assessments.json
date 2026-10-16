@@ -5222,5 +5222,154 @@
       "basis": "Existing protocol, court and testament reviews; both newly considered mothers remain unselected.",
       "resolution_note": "Selected uncertain parent only; no new certainty, merge or live save."
     }
+  },
+  {
+    "assertion_id": "C-working-20261016-stevenston-leith-working-family-matthew-father",
+    "people": [
+      "Glasgow-3538",
+      "Glasgow-1030"
+    ],
+    "profile_names": {
+      "Glasgow-3538": "Matthew Glasgow of Pyperheugh",
+      "Glasgow-1030": "John Glasgow, husband of Jonet Mathie"
+    },
+    "status": "uncertain",
+    "hypothesis_status": "possible",
+    "working_selection": true,
+    "allow_new_relationship": true,
+    "publication_status": "approved",
+    "assessment_date": "2026-10-16",
+    "evidence_grade": "Low/very low-confidence locality, generation and family-network inference",
+    "claim": "Selected uncertain father for Matthew Glasgow of Pyperheugh",
+    "basis": "Select John Glasgow-1030 as the very low-confidence working father of Matthew Glasgow-3538 of Pyperheugh, Stevenston. John and Jonet Mathie married in Glasgow on 25 January 1618 and have recorded children in the following decade. A son of that household, born in the 1620s, could be an adult spouse in the 1665 testament index that names Matthew. This is a compatible generation, not a new birth estimate. The existing Mathie–Glasgow network supplies a positive social route between Glasgow and Stevenston: David Mathy and Robert Glasgow were co-witnesses in 1554, while Matthew Glasgow and John Mathie were together at Ardeer Nether in 1559–60. The later marriage joins those surname networks. The recurrence of Matthew in the same parish makes this existing household a useful selected descent hypothesis; it does not identify a father in a record.",
+    "limitations": "No inspected record names Matthew’s parents or connects his Pyperheugh household directly to the Glasgow couple. The route depends on Jonet’s unproved place in the older Mathie network and on the probable identification of the 1618 husband with Ninian’s brother John represented by Glasgow-1030. John’s confident Robert Glasgow-1096 father assessment remains conditional on that adult identification and is not newly upgraded. Other Stevenston fathers, collateral descent from the 1559–60 Matthew, and an unrelated same-name family remain possible. The 106-year interval rules out identity with that earlier adult; no missing generation is invented and no direct father edge to him is selected. The Saltcoats sailor John, spouse of Isobell Gray, remains a separate record-defined household; this model does not merge them. The 1619 baptismal witness Mathew Will is not Matthew Mathie or proof of a Glasgow relative. Two newly selected uncertain fathers and one separately assessed uncertain mother; no live WikiTree save, identity merge, new original inspection or certainty upgrade. Matthew’s two proposed parents form a correlated household hypothesis; Margaret’s Rathmalton identity alternative remains open. Margaret’s copied source string records the 28 November 1633 South Leith marriage, OPR 692/2, 90/264, FR3038. Its truncated surname string ASGOWE is retained in the profile comparison, not silently expanded as an original-image reading. The old exact-looking birth year is displayed as circa 1610, an inherited estimate with no age record. South Leith is the marriage place, not an evidenced death place; death date and place remain unknown. Matthew’s before-1650 birth remains uncertain, and his inherited Stevenson birthplace is not proved by the Stevenston residence. The 24 April 1665 date belongs to Jonet Cowan’s testament-index entry, not Matthew’s birth, marriage or death. No original source was newly inspected.",
+    "source_ids": [
+      "pyperheugh-matthew-spouse-testament-1665",
+      "glasgow-john-mathie-household-1618"
+    ],
+    "model_note": "No inspected record names Matthew’s parents or connects his Pyperheugh household directly to the Glasgow couple. The route depends on Jonet’s unproved place in the older Mathie network and on the probable identification of the 1618 husband with Ninian’s brother John represented by Glasgow-1030. John’s confident Robert Glasgow-1096 father assessment remains conditional on that adult identification and is not newly upgraded. Other Stevenston fathers, collateral descent from the 1559–60 Matthew, and an unrelated same-name family remain possible. The 106-year interval rules out identity with that earlier adult; no missing generation is invented and no direct father edge to him is selected. The Saltcoats sailor John, spouse of Isobell Gray, remains a separate record-defined household; this model does not merge them. The 1619 baptismal witness Mathew Will is not Matthew Mathie or proof of a Glasgow relative. Two newly selected uncertain fathers and one separately assessed uncertain mother; no live WikiTree save, identity merge, new original inspection or certainty upgrade. Matthew’s two proposed parents form a correlated household hypothesis; Margaret’s Rathmalton identity alternative remains open. Margaret’s copied source string records the 28 November 1633 South Leith marriage, OPR 692/2, 90/264, FR3038. Its truncated surname string ASGOWE is retained in the profile comparison, not silently expanded as an original-image reading. The old exact-looking birth year is displayed as circa 1610, an inherited estimate with no age record. South Leith is the marriage place, not an evidenced death place; death date and place remain unknown. Matthew’s before-1650 birth remains uncertain, and his inherited Stevenson birthplace is not proved by the Stevenston residence. The 24 April 1665 date belongs to Jonet Cowan’s testament-index entry, not Matthew’s birth, marriage or death. No original source was newly inspected.",
+    "perspectives": {
+      "Glasgow-3538": {
+        "relationship": "father",
+        "status_label": "Uncertain father; selected working family",
+        "reason": "Select John Glasgow-1030 as the very low-confidence working father of Matthew Glasgow-3538 of Pyperheugh, Stevenston. John and Jonet Mathie married in Glasgow on 25 January 1618 and have recorded children in the following decade. A son of that household, born in the 1620s, could be an adult spouse in the 1665 testament index that names Matthew. This is a compatible generation, not a new birth estimate. The existing Mathie–Glasgow network supplies a positive social route between Glasgow and Stevenston: David Mathy and Robert Glasgow were co-witnesses in 1554, while Matthew Glasgow and John Mathie were together at Ardeer Nether in 1559–60. The later marriage joins those surname networks. The recurrence of Matthew in the same parish makes this existing household a useful selected descent hypothesis; it does not identify a father in a record."
+      },
+      "Glasgow-1030": {
+        "relationship": "son",
+        "status_label": "Uncertain son; selected working family",
+        "reason": "Select John Glasgow-1030 as the very low-confidence working father of Matthew Glasgow-3538 of Pyperheugh, Stevenston. John and Jonet Mathie married in Glasgow on 25 January 1618 and have recorded children in the following decade. A son of that household, born in the 1620s, could be an adult spouse in the 1665 testament index that names Matthew. This is a compatible generation, not a new birth estimate. The existing Mathie–Glasgow network supplies a positive social route between Glasgow and Stevenston: David Mathy and Robert Glasgow were co-witnesses in 1554, while Matthew Glasgow and John Mathie were together at Ardeer Nether in 1559–60. The later marriage joins those surname networks. The recurrence of Matthew in the same parish makes this existing household a useful selected descent hypothesis; it does not identify a father in a record."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Stevenston and South Leith: selected uncertain families",
+        "href": "/branches/early-scottish-records/#stevenston-leith-working-family"
+      }
+    ],
+    "provenance": {
+      "prior_assessment": "No selected parent on this account; existing local records and family-network reviews supplied the model.",
+      "basis": "Existing marriage, baptism, testament and Mathie–Glasgow network reviews; maternity assessed separately.",
+      "resolution_note": "Selected uncertain parent only; no new certainty, merge or live save."
+    }
+  },
+  {
+    "assertion_id": "C-working-20261016-stevenston-leith-working-family-matthew-mother",
+    "people": [
+      "Glasgow-3538",
+      "Mathie-159"
+    ],
+    "profile_names": {
+      "Glasgow-3538": "Matthew Glasgow of Pyperheugh",
+      "Mathie-159": "Jonet Mathie"
+    },
+    "status": "uncertain",
+    "hypothesis_status": "possible",
+    "working_selection": true,
+    "allow_new_relationship": true,
+    "publication_status": "approved",
+    "assessment_date": "2026-10-16",
+    "evidence_grade": "Low/very low-confidence locality, generation and family-network inference",
+    "claim": "Selected uncertain mother for Matthew Glasgow of Pyperheugh",
+    "basis": "Assess Jonet Mathie-159 separately as Matthew’s uncertain working mother. Her recorded 1618 marriage and maternity in the following decade provide an actual couple and a compatible childbearing generation; her circa-1597 birth is an estimate. The Mathie associations in Stevenston are the proposed route for this household’s connection to Pyperheugh. Selecting her is a conditional couple hypothesis, not an automatic consequence of attaching John. It has very low confidence: no record calls Matthew her son, no Mathie ancestor is newly attached, and another mother remains possible. The paternal and maternal selections share the same network argument and are correlated, not two independent confirmations.",
+    "limitations": "No inspected record names Matthew’s parents or connects his Pyperheugh household directly to the Glasgow couple. The route depends on Jonet’s unproved place in the older Mathie network and on the probable identification of the 1618 husband with Ninian’s brother John represented by Glasgow-1030. John’s confident Robert Glasgow-1096 father assessment remains conditional on that adult identification and is not newly upgraded. Other Stevenston fathers, collateral descent from the 1559–60 Matthew, and an unrelated same-name family remain possible. The 106-year interval rules out identity with that earlier adult; no missing generation is invented and no direct father edge to him is selected. The Saltcoats sailor John, spouse of Isobell Gray, remains a separate record-defined household; this model does not merge them. The 1619 baptismal witness Mathew Will is not Matthew Mathie or proof of a Glasgow relative. Two newly selected uncertain fathers and one separately assessed uncertain mother; no live WikiTree save, identity merge, new original inspection or certainty upgrade. Matthew’s two proposed parents form a correlated household hypothesis; Margaret’s Rathmalton identity alternative remains open. Margaret’s copied source string records the 28 November 1633 South Leith marriage, OPR 692/2, 90/264, FR3038. Its truncated surname string ASGOWE is retained in the profile comparison, not silently expanded as an original-image reading. The old exact-looking birth year is displayed as circa 1610, an inherited estimate with no age record. South Leith is the marriage place, not an evidenced death place; death date and place remain unknown. Matthew’s before-1650 birth remains uncertain, and his inherited Stevenson birthplace is not proved by the Stevenston residence. The 24 April 1665 date belongs to Jonet Cowan’s testament-index entry, not Matthew’s birth, marriage or death. No original source was newly inspected.",
+    "source_ids": [
+      "pyperheugh-matthew-spouse-testament-1665",
+      "glasgow-john-mathie-household-1618"
+    ],
+    "model_note": "No inspected record names Matthew’s parents or connects his Pyperheugh household directly to the Glasgow couple. The route depends on Jonet’s unproved place in the older Mathie network and on the probable identification of the 1618 husband with Ninian’s brother John represented by Glasgow-1030. John’s confident Robert Glasgow-1096 father assessment remains conditional on that adult identification and is not newly upgraded. Other Stevenston fathers, collateral descent from the 1559–60 Matthew, and an unrelated same-name family remain possible. The 106-year interval rules out identity with that earlier adult; no missing generation is invented and no direct father edge to him is selected. The Saltcoats sailor John, spouse of Isobell Gray, remains a separate record-defined household; this model does not merge them. The 1619 baptismal witness Mathew Will is not Matthew Mathie or proof of a Glasgow relative. Two newly selected uncertain fathers and one separately assessed uncertain mother; no live WikiTree save, identity merge, new original inspection or certainty upgrade. Matthew’s two proposed parents form a correlated household hypothesis; Margaret’s Rathmalton identity alternative remains open. Margaret’s copied source string records the 28 November 1633 South Leith marriage, OPR 692/2, 90/264, FR3038. Its truncated surname string ASGOWE is retained in the profile comparison, not silently expanded as an original-image reading. The old exact-looking birth year is displayed as circa 1610, an inherited estimate with no age record. South Leith is the marriage place, not an evidenced death place; death date and place remain unknown. Matthew’s before-1650 birth remains uncertain, and his inherited Stevenson birthplace is not proved by the Stevenston residence. The 24 April 1665 date belongs to Jonet Cowan’s testament-index entry, not Matthew’s birth, marriage or death. No original source was newly inspected.",
+    "perspectives": {
+      "Glasgow-3538": {
+        "relationship": "mother",
+        "status_label": "Uncertain mother; selected working family",
+        "reason": "Assess Jonet Mathie-159 separately as Matthew’s uncertain working mother. Her recorded 1618 marriage and maternity in the following decade provide an actual couple and a compatible childbearing generation; her circa-1597 birth is an estimate. The Mathie associations in Stevenston are the proposed route for this household’s connection to Pyperheugh. Selecting her is a conditional couple hypothesis, not an automatic consequence of attaching John. It has very low confidence: no record calls Matthew her son, no Mathie ancestor is newly attached, and another mother remains possible. The paternal and maternal selections share the same network argument and are correlated, not two independent confirmations."
+      },
+      "Mathie-159": {
+        "relationship": "son",
+        "status_label": "Uncertain son; selected working family",
+        "reason": "Assess Jonet Mathie-159 separately as Matthew’s uncertain working mother. Her recorded 1618 marriage and maternity in the following decade provide an actual couple and a compatible childbearing generation; her circa-1597 birth is an estimate. The Mathie associations in Stevenston are the proposed route for this household’s connection to Pyperheugh. Selecting her is a conditional couple hypothesis, not an automatic consequence of attaching John. It has very low confidence: no record calls Matthew her son, no Mathie ancestor is newly attached, and another mother remains possible. The paternal and maternal selections share the same network argument and are correlated, not two independent confirmations."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Stevenston and South Leith: selected uncertain families",
+        "href": "/branches/early-scottish-records/#stevenston-leith-working-family"
+      }
+    ],
+    "provenance": {
+      "prior_assessment": "No selected parent on this account; existing local records and family-network reviews supplied the model.",
+      "basis": "Existing marriage, baptism, testament and Mathie–Glasgow network reviews; maternity assessed separately.",
+      "resolution_note": "Selected uncertain parent only; no new certainty, merge or live save."
+    }
+  },
+  {
+    "assertion_id": "C-working-20261016-stevenston-leith-working-family-margaret-father",
+    "people": [
+      "Glasgow-3186",
+      "Glasgow-3075"
+    ],
+    "profile_names": {
+      "Glasgow-3186": "Margaret Glasgow, wife of George Lyell",
+      "Glasgow-3075": "William Glasgow, Leith mealmaker"
+    },
+    "status": "uncertain",
+    "hypothesis_status": "possible",
+    "working_selection": true,
+    "allow_new_relationship": true,
+    "publication_status": "approved",
+    "assessment_date": "2026-10-16",
+    "evidence_grade": "Low/very low-confidence locality, generation and family-network inference",
+    "claim": "Selected uncertain father for Margaret Glasgow, wife of George Lyell",
+    "basis": "Select William Glasgow-3075, the Leith mealmaker, as the low-confidence working father of Margaret Glasgow-3186, indexed marrying George Lyell at South Leith on 28 November 1633. William’s household is documented at Leith, with a proposed 10 July 1610 local marriage and a son Archibald baptised in 1618, securely linked to the adult mealmaker by the 1639 apprenticeship and 1647 service of heir. A daughter marrying in 1633 fits that established household generation. Shared surname, the same parish and a coherent marriage/child generation favour this named household over a newly invented father. No source calls Margaret his daughter. Her circa-1610 birth remains an inherited estimate and supplies no independent evidence of William’s paternity.",
+    "limitations": "Retain the strongest specific alternative: Betham’s pedigree of Archibald Glasgow, Rathmalton clerk, whose will was dated April 1673, names Margaret as his only daughter, wife of an unnamed Cairns and mother of Thomas Cairns. The documentary father–daughter relationship is explicit, but identifying that Margaret with Glasgow-3186 remains unproved. A first Lyell marriage in 1633 permits a later Cairns marriage. The preferred William placement avoids requiring that unproved Scottish–Irish identity and remarriage. It also avoids tension with the probable identification of Archibald Glasgow-1101 as the child baptised in Glasgow in 1614 and the 1635 graduate: that child would be an implausible father of a 1633 bride. This is a ranking consideration, not an exclusion: the Scottish identity is unproved, and a baptism is not necessarily an infant’s birth. The new uncertain William field must not be used as a concrete father conflict to reject the Rathmalton candidate. A different South Leith Glasgow father also remains possible. No mother is selected: Catherine Fraith/Fraser’s 1610 bride identity and Christian Scot’s separate Glasgow household remain qualified. William’s testament names Archibald as lawful son and sole executor, not only child; omission of Margaret neither excludes her nor proves kinship. Two newly selected uncertain fathers and one separately assessed uncertain mother; no live WikiTree save, identity merge, new original inspection or certainty upgrade. Matthew’s two proposed parents form a correlated household hypothesis; Margaret’s Rathmalton identity alternative remains open. Margaret’s copied source string records the 28 November 1633 South Leith marriage, OPR 692/2, 90/264, FR3038. Its truncated surname string ASGOWE is retained in the profile comparison, not silently expanded as an original-image reading. The old exact-looking birth year is displayed as circa 1610, an inherited estimate with no age record. South Leith is the marriage place, not an evidenced death place; death date and place remain unknown. Matthew’s before-1650 birth remains uncertain, and his inherited Stevenson birthplace is not proved by the Stevenston residence. The 24 April 1665 date belongs to Jonet Cowan’s testament-index entry, not Matthew’s birth, marriage or death. No original source was newly inspected.",
+    "source_ids": [
+      "south-leith-margaret-lyell-marriage-1633",
+      "leith-william-fraith-marriage-1610",
+      "leith-archibald-apprenticeship-father-1639",
+      "rathmalton-margaret-cairns-will-1673"
+    ],
+    "model_note": "Retain the strongest specific alternative: Betham’s pedigree of Archibald Glasgow, Rathmalton clerk, whose will was dated April 1673, names Margaret as his only daughter, wife of an unnamed Cairns and mother of Thomas Cairns. The documentary father–daughter relationship is explicit, but identifying that Margaret with Glasgow-3186 remains unproved. A first Lyell marriage in 1633 permits a later Cairns marriage. The preferred William placement avoids requiring that unproved Scottish–Irish identity and remarriage. It also avoids tension with the probable identification of Archibald Glasgow-1101 as the child baptised in Glasgow in 1614 and the 1635 graduate: that child would be an implausible father of a 1633 bride. This is a ranking consideration, not an exclusion: the Scottish identity is unproved, and a baptism is not necessarily an infant’s birth. The new uncertain William field must not be used as a concrete father conflict to reject the Rathmalton candidate. A different South Leith Glasgow father also remains possible. No mother is selected: Catherine Fraith/Fraser’s 1610 bride identity and Christian Scot’s separate Glasgow household remain qualified. William’s testament names Archibald as lawful son and sole executor, not only child; omission of Margaret neither excludes her nor proves kinship. Two newly selected uncertain fathers and one separately assessed uncertain mother; no live WikiTree save, identity merge, new original inspection or certainty upgrade. Matthew’s two proposed parents form a correlated household hypothesis; Margaret’s Rathmalton identity alternative remains open. Margaret’s copied source string records the 28 November 1633 South Leith marriage, OPR 692/2, 90/264, FR3038. Its truncated surname string ASGOWE is retained in the profile comparison, not silently expanded as an original-image reading. The old exact-looking birth year is displayed as circa 1610, an inherited estimate with no age record. South Leith is the marriage place, not an evidenced death place; death date and place remain unknown. Matthew’s before-1650 birth remains uncertain, and his inherited Stevenson birthplace is not proved by the Stevenston residence. The 24 April 1665 date belongs to Jonet Cowan’s testament-index entry, not Matthew’s birth, marriage or death. No original source was newly inspected.",
+    "perspectives": {
+      "Glasgow-3186": {
+        "relationship": "father",
+        "status_label": "Uncertain father; selected working family",
+        "reason": "Select William Glasgow-3075, the Leith mealmaker, as the low-confidence working father of Margaret Glasgow-3186, indexed marrying George Lyell at South Leith on 28 November 1633. William’s household is documented at Leith, with a proposed 10 July 1610 local marriage and a son Archibald baptised in 1618, securely linked to the adult mealmaker by the 1639 apprenticeship and 1647 service of heir. A daughter marrying in 1633 fits that established household generation. Shared surname, the same parish and a coherent marriage/child generation favour this named household over a newly invented father. No source calls Margaret his daughter. Her circa-1610 birth remains an inherited estimate and supplies no independent evidence of William’s paternity."
+      },
+      "Glasgow-3075": {
+        "relationship": "daughter",
+        "status_label": "Uncertain daughter; selected working family",
+        "reason": "Select William Glasgow-3075, the Leith mealmaker, as the low-confidence working father of Margaret Glasgow-3186, indexed marrying George Lyell at South Leith on 28 November 1633. William’s household is documented at Leith, with a proposed 10 July 1610 local marriage and a son Archibald baptised in 1618, securely linked to the adult mealmaker by the 1639 apprenticeship and 1647 service of heir. A daughter marrying in 1633 fits that established household generation. Shared surname, the same parish and a coherent marriage/child generation favour this named household over a newly invented father. No source calls Margaret his daughter. Her circa-1610 birth remains an inherited estimate and supplies no independent evidence of William’s paternity."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Stevenston and South Leith: selected uncertain families",
+        "href": "/branches/early-scottish-records/#stevenston-leith-working-family"
+      }
+    ],
+    "provenance": {
+      "prior_assessment": "No selected parent on this account; existing local records and family-network reviews supplied the model.",
+      "basis": "Existing marriage, baptism, testament and Mathie–Glasgow network reviews; maternity assessed separately.",
+      "resolution_note": "Selected uncertain parent only; no new certainty, merge or live save."
+    }
   }
 ]

@@ -1,8 +1,13 @@
 [[Category:Glasgow Name Study]]
 {{Estimated Date}}
-<!-- REVIEWED FULL REPLACEMENT: the cited live-profile sources and useful record detail have been reconciled below; do not append the superseded transcription. -->
-
 == Biography ==
+=== Current father assessment — 28 September 2026 ===
+
+The relationship with [[Glasgow-1096|Robert Glasgow]], fisher and burgess, is '''confident''' for John, Ninian's documented brother represented by this profile. Ninian's burgess admission on 23 October 1596 names Robert as his father, and Ninian's testament made on 10 January 1613 calls John his brother. The shared surname, compatible chronology and appearance of Ninian's son Robert among the witnesses at the 1619 baptism support the shared-father reconstruction. This is a conclusion from the combined records; the testament itself does not name John's father.<ref name="Ninian" />
+
+The earlier full-versus-half-sibling caveat below is superseded by this assessment: no concrete evidence identifies a different father. The identification of this brother with the man who married Jonet Mathie in 1618 remains probable and is considered separately below. This confidence change does not establish the marriage or other proposed adult identities as certain.
+
+=== Earlier father analysis — superseded ===
 
 This profile is the best existing-profile match for the otherwise unidentified John Glasgow named as brother of [[Glasgow-3188|Ninian Glasgow]] in Ninian's 1613 testament. If the brothers shared a father, John was a son of [[Glasgow-1096|Robert Glasgow]], fisher and burgess of Glasgow. The 1618 husband is not identified by occupation, father or inherited property, so both the profile identity and the paternal relationship remain uncertain.
 
@@ -35,6 +40,14 @@ The proposed identification is supported by the appearance of Ninian’s proved 
 This is a plausible and ordinary family relationship, but it is not conclusive. Neither the 1618 marriage entry nor the children’s baptismal entries state John’s occupation, property holdings or father.
 
 == Research Notes ==
+=== Selected uncertain family — 16 October 2026 ===
+
+Select John [[Glasgow-1030]] as the very low-confidence working father of Matthew [[Glasgow-3538]] of Pyperheugh, Stevenston. John and Jonet Mathie married in Glasgow on 25 January 1618 and have recorded children in the following decade. A son of that household, born in the 1620s, could be an adult spouse in the 1665 testament index that names Matthew. This is a compatible generation, not a new birth estimate. The existing Mathie–Glasgow network supplies a positive social route between Glasgow and Stevenston: David Mathy and Robert Glasgow were co-witnesses in 1554, while Matthew Glasgow and John Mathie were together at Ardeer Nether in 1559–60. The later marriage joins those surname networks. The recurrence of Matthew in the same parish makes this existing household a useful selected descent hypothesis; it does not identify a father in a record.
+
+No inspected record names Matthew’s parents or connects his Pyperheugh household directly to the Glasgow couple. The route depends on Jonet’s unproved place in the older Mathie network and on the probable identification of the 1618 husband with Ninian’s brother John represented by [[Glasgow-1030]]. John’s confident Robert [[Glasgow-1096]] father assessment remains conditional on that adult identification and is not newly upgraded. Other Stevenston fathers, collateral descent from the 1559–60 Matthew, and an unrelated same-name family remain possible. The 106-year interval rules out identity with that earlier adult; no missing generation is invented and no direct father edge to him is selected. The Saltcoats sailor John, spouse of Isobell Gray, remains a separate record-defined household; this model does not merge them. The 1619 baptismal witness Mathew Will is not Matthew Mathie or proof of a Glasgow relative.
+
+John’s existing confident Robert father assessment remains unchanged; the new son and the 1618 husband identity have their own uncertainty. [https://glasgow.phenotype.dev/branches/early-scottish-records/#stevenston-leith-working-family Full selected model, competing families and source limits]. <ref>Existing reviewed records and public profile citations: [https://archive.org/details/scottishrecordso07scotuoft/page/110/mode/2up?q=Cowan Grant, Glasgow testament index p.110: Jonet Cowan, spouse of Mathew Glasgow in Pyperheugh, 24 April 1665]; [https://www.familysearch.org/ark:/61903/1:1:XYWK-WM3 John Glasgow and Jonet Mathie: Glasgow marriage index, 25 January 1618]; [https://www.familysearch.org/ark:/61903/1:1:VQHV-12T Glasgow baptism index: John, child of John Glasgow and Jonat Mathei, 13 May 1619]; [https://aanhs.org/wp-content/uploads/2018/05/people-of-ayrshire.pdf#page=36 Sanderson, People of Sixteenth Century Ayrshire p.331: Ardeer Nether, 1559–60]; [https://archive.org/details/abstractsprotoc07robegoog/page/n90/mode/2up Renwick, protocols 183–184, 10 May 1554, printed p.63: Mathy and Glasgow co-witnesses]; [https://www.wikitree.com/wiki/Glasgow-3186 Margaret Glasgow-3186: captured South Leith marriage citation, 28 November 1633, OPR 692/2 90/264 FR3038]; [https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FMAR%2F1447177%2F1 Findmypast SGS transcript: William Glascoe and Catherine Fraith, Leith, 10 July 1610]; [https://archive.org/details/scottishrecordso28scotuoft/page/71/mode/2up Grant, Edinburgh apprentices p.71: Archibald son of William, mealmaker in Leith, 23 October 1639]; [https://archive.org/details/inquisitionumadc00grea_0 Retours vol.2, general no.3278, 1 May 1647: Archibald heir of William, his father]; [https://catalogue.nli.ie/Record/vtls000540633 Betham, Old Series vol.3, GO MS225, handwritten p.90, viewer image97: Rathmalton will of April 1673]; [https://www.wikitree.com/wiki/Glasgow-1101 Archibald Glasgow-1101: qualified Scottish baptism/graduate and Irish clerk identity]. No original newly inspected; indexed dates and adult-identity limits remain explicit.</ref>
+
 
 === Birth Estimate ===
 
@@ -63,7 +76,7 @@ The evidence establishes the existence of a John Glasgow who was:
 * alive on 10 January 1613.
 
 Because Robert was Ninian's proved father, he is the leading father for John if
-the brothers were full or paternal half-brothers. The record does not exclude
+The brothers were full or paternal half-brothers. The record does not exclude
 a maternal half-brother.
 
 The evidence does not directly establish whether this John was:
@@ -97,6 +110,12 @@ A different record-defined John Glasgow was a sailor in Saltcoats within Ardross
 This profile is chronologically compatible with the Saltcoats sailor because its subject's death is unknown. No inspected record, however, connects the Glasgow household of Jonet Mathie to Isobell Gray, Saltcoats, the sailor occupation, Katherine or Agnes. Name and chronology do not override those different household identifiers, so this profile is not the present match. The Saltcoats sailor requires a distinct documentary profile; a later occupation, property, residence or explicit family bridge could justify a merge.<ref name="Saltcoats1637" />
 
 John Brown or Browne appears in the estate's financial and legal network, but no kinship is stated. The inventory may mention an old fishing boat and equipment; that manuscript reading remains tentative.<ref name="Saltcoats1637" />
+
+=== Possible 1643 testament index entry ===
+
+The printed FamilySearch index lists John Glasgow “in Rashlie, parish of Kilbride,” dated 17 April 1643; its full-text transcript renders the place as “Rashlic.” The entry is in ''Glasgow. Wills 1547–1800'', item #007960708, image 112, printed index p. 196, Glasgow Commissary Court reference CC9/7/28.<ref name="Rashlie1643">FamilySearch, ''Glasgow. Wills 1547–1800'', item #007960708, image 112, printed index p. 196, entry for John Glasgow in Rashlie, parish of Kilbride, 17 April 1643, Glasgow Commissary Court CC9/7/28, [https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS8K-D98V?view=fullText&keywords=Glasgow&searchForm=advanced&lang=en&groupId=M97N-2NT index image]. This is an image of the printed index, not the underlying testament.</ref>
+
+This profile is one possible match: its subject is chronologically compatible and has no established death date. The index gives no age, occupation, relative or other detail linking the Rashlie resident to this profile. [[Glasgow-1561|John Glasgow of Linlithgow]], [[Glasgow-1084|John Glasgow of Duddingston]], [[Glasgow-1084|John Glasgow of Mid Calder]] and [[Glasgow-1088|John Glasgow, born in Glasgow in 1619]] also remain possible same-name candidates. Treat this as an unresolved possible match; 17 April 1643 is the indexed testament date, not a proven date of death, and no death date is entered here.
 
 == Sources ==
 <references />

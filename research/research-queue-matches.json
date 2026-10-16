@@ -2341,11 +2341,12 @@
       "profile_ids": [
         "Glasgow-3186"
       ],
-      "assessment": "Betham’s manuscript pedigree of Archibald Glasgow, Rathmalton clerk, whose will was dated April 1673, expressly names Margaret as his only daughter, married to an unnamed Cairns, with son Thomas Cairns. This proves the documentary father–daughter pair. Glasgow-3186, wife of George Lyell in South Leith in 1633, remains a candidate because a later Cairns marriage is possible, but no marriage or household bridge is proved. The Scottish Archibald profile identity remains qualified; no profile father upgrade follows. Glasgow-1523’s cited 1638 baptism names father William Glasgow, a concrete father conflict; its guessed 1642 death is not evidence.",
-      "reviewed_on": "2026-09-30",
+      "assessment": "Betham’s manuscript pedigree of Archibald Glasgow, Rathmalton clerk, whose will was dated April 1673, expressly names Margaret as his only daughter, married to an unnamed Cairns, with son Thomas Cairns. This proves the documentary father–daughter pair. Glasgow-3186, wife of George Lyell in South Leith in 1633, remains a candidate because a later Cairns marriage is possible, but no marriage or household bridge is proved. The Scottish Archibald profile identity remains qualified; no profile father upgrade follows. Glasgow-1523’s cited 1638 baptism names father William Glasgow, a concrete father conflict; its guessed 1642 death is not evidence. Working-model review, 16 October 2026: Select William Glasgow-3075, the Leith mealmaker, as the low-confidence working father of Margaret Glasgow-3186, indexed marrying George Lyell at South Leith on 28 November 1633. William’s household is documented at Leith, with a proposed 10 July 1610 local marriage and a son Archibald baptised in 1618, securely linked to the adult mealmaker by the 1639 apprenticeship and 1647 service of heir. A daughter marrying in 1633 fits that established household generation. Shared surname, the same parish and a coherent marriage/child generation favour this named household over a newly invented father. No source calls Margaret his daughter. Her circa-1610 birth remains an inherited estimate and supplies no independent evidence of William’s paternity. Retain the strongest specific alternative: Betham’s pedigree of Archibald Glasgow, Rathmalton clerk, whose will was dated April 1673, names Margaret as his only daughter, wife of an unnamed Cairns and mother of Thomas Cairns. The documentary father–daughter relationship is explicit, but identifying that Margaret with Glasgow-3186 remains unproved. A first Lyell marriage in 1633 permits a later Cairns marriage. The preferred William placement avoids requiring that unproved Scottish–Irish identity and remarriage. It also avoids tension with the probable identification of Archibald Glasgow-1101 as the child baptised in Glasgow in 1614 and the 1635 graduate: that child would be an implausible father of a 1633 bride. This is a ranking consideration, not an exclusion: the Scottish identity is unproved, and a baptism is not necessarily an infant’s birth. The new uncertain William field must not be used as a concrete father conflict to reject the Rathmalton candidate. A different South Leith Glasgow father also remains possible. No mother is selected: Catherine Fraith/Fraser’s 1610 bride identity and Christian Scot’s separate Glasgow household remain qualified. William’s testament names Archibald as lawful son and sole executor, not only child; omission of Margaret neither excludes her nor proves kinship.",
+      "reviewed_on": "2026-10-16",
       "source_refs": [
         "research/queue-match-audit-2026-09-30/older-drafts.json",
-        "research/queue-resolution-2026-09-30/older-records.json"
+        "research/queue-resolution-2026-09-30/older-records.json",
+        "research/ancestry-connections/stevenston-leith-working-family-2026-10-16.md"
       ],
       "searches_performed": [
         {
@@ -2462,6 +2463,73 @@
               "all_pages_returned": true
             }
           ]
+        },
+        {
+          "id": "subject-rathmalton-1673-margaret-glasgow",
+          "status": "compatible_candidate",
+          "profile_ids": [
+            "Glasgow-3186"
+          ],
+          "assessment": "Betham’s manuscript pedigree of Archibald Glasgow, Rathmalton clerk, whose will was dated April 1673, expressly names Margaret as his only daughter, married to an unnamed Cairns, with son Thomas Cairns. This proves the documentary father–daughter pair. Glasgow-3186, wife of George Lyell in South Leith in 1633, remains a candidate because a later Cairns marriage is possible, but no marriage or household bridge is proved. The Scottish Archibald profile identity remains qualified; no profile father upgrade follows. Glasgow-1523’s cited 1638 baptism names father William Glasgow, a concrete father conflict; its guessed 1642 death is not evidence.",
+          "reviewed_on": "2026-09-30",
+          "source_refs": [
+            "research/queue-match-audit-2026-09-30/older-drafts.json",
+            "research/queue-resolution-2026-09-30/older-records.json"
+          ],
+          "searches_performed": [
+            {
+              "query": {
+                "FirstName": "Margaret",
+                "LastName": "Glasgow",
+                "BirthDate": "1610"
+              },
+              "pages": [
+                {
+                  "start": 0,
+                  "total": 3,
+                  "status": 0
+                }
+              ],
+              "returned_open_nonliving": 3,
+              "all_pages_returned": true
+            },
+            {
+              "query": {
+                "FirstName": "Margaret",
+                "LastName": "Glasgow",
+                "BirthLocation": "Kilwinning"
+              },
+              "pages": [
+                {
+                  "start": 0,
+                  "total": 9,
+                  "status": 0
+                }
+              ],
+              "returned_open_nonliving": 9,
+              "all_pages_returned": true
+            },
+            {
+              "query": {
+                "FirstName": "Margaret",
+                "LastName": "Glasgow",
+                "BirthLocation": "Ireland"
+              },
+              "pages": [
+                {
+                  "start": 0,
+                  "total": 58,
+                  "status": 0
+                }
+              ],
+              "returned_open_nonliving": 58,
+              "all_pages_returned": true
+            }
+          ],
+          "canonical_groups": [
+            "margaret-glasgow-rathmalton-cairns-1673"
+          ],
+          "current_name": "Margaret Glasgow"
         }
       ],
       "current_name": "Margaret Glasgow"

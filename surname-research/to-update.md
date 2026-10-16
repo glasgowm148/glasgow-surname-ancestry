@@ -1639,3 +1639,12 @@ The August completion entries remain historical. The live parent fields are now 
 | [Helen Glasgow, Thankerton testator](https://www.wikitree.com/wiki/Glasgow-3909) | OPEN | Review the Quothquan–Thankerton working family, uncertain fathers, conditional paternal siblings and James’s qualified date corrections; preserve earlier evidence and alternatives. |
 | [John Glasgow, Quothquan testator of 1650](https://www.wikitree.com/wiki/Glasgow-3296) | OPEN | Review the Quothquan–Thankerton working family, uncertain fathers, conditional paternal siblings and James’s qualified date corrections; preserve earlier evidence and alternatives. |
 | [James Glasgow](https://www.wikitree.com/wiki/Glasgow-3332) | OPEN | Qualify the 1624/1680 identity comparison; the estimated 1634 date cannot alone exclude the earlier record. No merge or parent replacement. |
+
+
+## Stevenston and South Leith working families — 16 October 2026
+
+| [Matthew Glasgow of Pyperheugh](https://www.wikitree.com/wiki/Glasgow-3538) | OPEN | Review selected uncertain Stevenston/South Leith parent hypotheses, the retained Rathmalton identity alternative and qualified event dates; preserve all earlier evidence. |
+| [John Glasgow, husband of Jonet Mathie](https://www.wikitree.com/wiki/Glasgow-1030) | OPEN | Review selected uncertain Stevenston/South Leith parent hypotheses, the retained Rathmalton identity alternative and qualified event dates; preserve all earlier evidence. |
+| [Jonet Mathie](https://www.wikitree.com/wiki/Mathie-159) | OPEN | Review selected uncertain Stevenston/South Leith parent hypotheses, the retained Rathmalton identity alternative and qualified event dates; preserve all earlier evidence. |
+| [Margaret Glasgow, wife of George Lyell](https://www.wikitree.com/wiki/Glasgow-3186) | OPEN | Review selected uncertain Stevenston/South Leith parent hypotheses, the retained Rathmalton identity alternative and qualified event dates; preserve all earlier evidence. |
+| [William Glasgow, Leith mealmaker](https://www.wikitree.com/wiki/Glasgow-3075) | OPEN | Review selected uncertain Stevenston/South Leith parent hypotheses, the retained Rathmalton identity alternative and qualified event dates; preserve all earlier evidence. |

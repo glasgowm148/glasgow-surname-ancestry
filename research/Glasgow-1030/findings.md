@@ -23,6 +23,10 @@ confirmed without proving the brother's existing-profile identity.
 
 ## Current conclusion
 
+Reviewed: 2026-10-16
+
+**Selected working families, 16 October 2026:** Matthew of Pyperheugh is placed under John Glasgow and Jonet Mathie, both uncertain and jointly very tentative. Margaret, the South Leith Lyell bride, is placed under William the Leith mealmaker, uncertain; her mother remains unknown and the Rathmalton daughter remains a compatible identity alternative. [Evidence and alternatives](/branches/early-scottish-records/#stevenston-leith-working-family).
+
 **Father audit, 28 September 2026: Robert Glasgow-1096 is confident** for John,
 Ninian's documented brother represented by this profile. Ninian's admission as
 Robert's second son on [23 October 1596](https://archive.org/details/scottishrecordso43scotuoft/page/24/mode/2up)
@@ -230,3 +234,26 @@ Recorded in `research/latest-findings.json` (28 September 2026); carried into th
 Three of the project's free-space pages (the Glasgow Name Study, *Glasgow – Age of Discovery* and *The Ayrshire Crossroads*) describe this John as "Jhone Glasgow M.A.", minister of Kilbirnie from 1614 to 1629. The published succession of Kilbirnie ministers does not support this. **John Heriot** was presented in 1586 and was dead before 25 November 1630; William Russell was probably admitted by 1619; the list contains no earlier minister named John Glasgow (John Shedden Dobie, "The Church of Kilbirnie", *Archaeological and Historical Collections relating to Ayrshire and Galloway* 2 (1880), [pp. 113–114](https://aanhs.org/wp-content/uploads/2020/09/ahcaw.2.1880.kilbirniekirk.jsdobie.111-135.pdf); a printed secondary account, read for the July 2026 review and not re-read here). The Kilbirnie ministry belongs to the later Rev. John Glasgow M.A. ([Glasgow-1073](https://www.wikitree.com/wiki/Glasgow-1073)), ordained there on 16 August 1688. No reviewed record gives this earlier John a Kilbirnie charge, and his M.A. is unsourced in this file.
 
 Recorded in `surname-research/free-space-pages/Glasgow_Name_Study.md` (suggested amendment of 19 July 2026); carried into this file on 7 October 2026.
+
+
+## Selected uncertain family — 16 October 2026
+
+Select John Glasgow-1030 as the very low-confidence working father of Matthew Glasgow-3538 of Pyperheugh, Stevenston. John and Jonet Mathie married in Glasgow on 25 January 1618 and have recorded children in the following decade. A son of that household, born in the 1620s, could be an adult spouse in the 1665 testament index that names Matthew. This is a compatible generation, not a new birth estimate. The existing Mathie–Glasgow network supplies a positive social route between Glasgow and Stevenston: David Mathy and Robert Glasgow were co-witnesses in 1554, while Matthew Glasgow and John Mathie were together at Ardeer Nether in 1559–60. The later marriage joins those surname networks. The recurrence of Matthew in the same parish makes this existing household a useful selected descent hypothesis; it does not identify a father in a record.
+
+No inspected record names Matthew’s parents or connects his Pyperheugh household directly to the Glasgow couple. The route depends on Jonet’s unproved place in the older Mathie network and on the probable identification of the 1618 husband with Ninian’s brother John represented by Glasgow-1030. John’s confident Robert Glasgow-1096 father assessment remains conditional on that adult identification and is not newly upgraded. Other Stevenston fathers, collateral descent from the 1559–60 Matthew, and an unrelated same-name family remain possible. The 106-year interval rules out identity with that earlier adult; no missing generation is invented and no direct father edge to him is selected. The Saltcoats sailor John, spouse of Isobell Gray, remains a separate record-defined household; this model does not merge them. The 1619 baptismal witness Mathew Will is not Matthew Mathie or proof of a Glasgow relative.
+
+John’s existing confident Robert father assessment remains unchanged; the new son and the 1618 husband identity have their own uncertainty.
+
+[Complete comparison and source limits](/branches/early-scottish-records/#stevenston-leith-working-family).
+
+- [Grant, Glasgow testament index p.110: Jonet Cowan, spouse of Mathew Glasgow in Pyperheugh, 24 April 1665](https://archive.org/details/scottishrecordso07scotuoft/page/110/mode/2up?q=Cowan)
+- [John Glasgow and Jonet Mathie: Glasgow marriage index, 25 January 1618](https://www.familysearch.org/ark:/61903/1:1:XYWK-WM3)
+- [Glasgow baptism index: John, child of John Glasgow and Jonat Mathei, 13 May 1619](https://www.familysearch.org/ark:/61903/1:1:VQHV-12T)
+- [Sanderson, People of Sixteenth Century Ayrshire p.331: Ardeer Nether, 1559–60](https://aanhs.org/wp-content/uploads/2018/05/people-of-ayrshire.pdf#page=36)
+- [Renwick, protocols 183–184, 10 May 1554, printed p.63: Mathy and Glasgow co-witnesses](https://archive.org/details/abstractsprotoc07robegoog/page/n90/mode/2up)
+- [Margaret Glasgow-3186: captured South Leith marriage citation, 28 November 1633, OPR 692/2 90/264 FR3038](https://www.wikitree.com/wiki/Glasgow-3186)
+- [Findmypast SGS transcript: William Glascoe and Catherine Fraith, Leith, 10 July 1610](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FMAR%2F1447177%2F1)
+- [Grant, Edinburgh apprentices p.71: Archibald son of William, mealmaker in Leith, 23 October 1639](https://archive.org/details/scottishrecordso28scotuoft/page/71/mode/2up)
+- [Retours vol.2, general no.3278, 1 May 1647: Archibald heir of William, his father](https://archive.org/details/inquisitionumadc00grea_0)
+- [Betham, Old Series vol.3, GO MS225, handwritten p.90, viewer image97: Rathmalton will of April 1673](https://catalogue.nli.ie/Record/vtls000540633)
+- [Archibald Glasgow-1101: qualified Scottish baptism/graduate and Irish clerk identity](https://www.wikitree.com/wiki/Glasgow-1101)
