@@ -1724,3 +1724,12 @@ The August completion entries remain historical. The live parent fields are now 
 | [James Glasgow, possible Lindsaylands weaver](https://www.wikitree.com/wiki/Glasgow-3332) | OPEN | Review the conditional Lindsaylands father for the Carnwath Robert, required earlier birth and overlapping Robert families; no mother or identity merge is selected. |
 | [Robert Glasgow, Libberton Gibson/Watson household](https://www.wikitree.com/wiki/Glasgow-4168) | OPEN | Review the conditional Lindsaylands father for the Carnwath Robert, required earlier birth and overlapping Robert families; no mother or identity merge is selected. |
 | [Johne Glasgow, Mid Calder child of 1648](https://www.wikitree.com/wiki/Glasgow-3093) | OPEN | Review the conditional Lindsaylands father for the Carnwath Robert, required earlier birth and overlapping Robert families; no mother or identity merge is selected. |
+
+
+## Irvine and Kilwinning working family — 16 October 2026
+
+| [John Glasgow, proposed Irvine father of 1693](https://www.wikitree.com/wiki/Glasgow-3018) | OPEN | Review the very uncertain1679parent pair for the1693Irvine father only; retain the age problem, separate adult identities and current fields. The two parents depend on one child/adult comparison. |
+| [John Glasgow, Kilwinning father](https://www.wikitree.com/wiki/Glasgow-3375) | OPEN | Review the very uncertain1679parent pair for the1693Irvine father only; retain the age problem, separate adult identities and current fields. The two parents depend on one child/adult comparison. |
+| [Barbara Alason / Allison](https://www.wikitree.com/wiki/Allison-6866) | OPEN | Review the very uncertain1679parent pair for the1693Irvine father only; retain the age problem, separate adult identities and current fields. The two parents depend on one child/adult comparison. |
+| [John Glasgow, Kilwinning child of 1679](https://www.wikitree.com/wiki/Glasgow-1434) | OPEN | Review the very uncertain1679parent pair for the1693Irvine father only; retain the age problem, separate adult identities and current fields. The two parents depend on one child/adult comparison. |
+| [John Glasgow, Irvine child of 1693](https://www.wikitree.com/wiki/Glasgow-1473) | OPEN | Review the very uncertain1679parent pair for the1693Irvine father only; retain the age problem, separate adult identities and current fields. The two parents depend on one child/adult comparison. |

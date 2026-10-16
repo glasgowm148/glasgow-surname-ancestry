@@ -1,0 +1,61 @@
+[[Category:Glasgow Name Study]]
+
+== Biography ==
+'''John Glasgow''' is represented here by the child indexed at Irvine on 8 October 1693, with parents named as John Glasgow and Agnes Martine. The source is an Old Parish Register index, parish 595, reference 10 / 12, FR23; the original image has not been inspected. It does not establish an exact birthday.<ref name="Irvine1693Index">Scotland’s People, Old Parish Registers, births and baptisms, supplied index: JOHN GLASGOW,08/10/1693,Irvine595,10 /12,FR23; parents JOHN GLASGOW/AGNES MARTINE. The structured 10 August date conflicts with the supplied 8 October reading. [https://www.scotlandspeople.gov.uk/ Scotland’s People].</ref>
+
+The named parents are represented by [[Glasgow-3018|John Glasgow]] and [[Martine-274|Agnes Martine]]. Identification with John Glasgow younger, the skipper in the 1720 documents, the father of Grizal in 1719, or the later bursary recipient remains unproved. Those earlier attributions and their citations are retained below as a reconstruction, rather than a single established life.
+
+== Research Notes ==
+=== Selected uncertain family — 16 October 2026 ===
+
+The Irvine source is the supplied Scotland’s People OPR index: JOHN GLASGOW, 08/10/1693, parish 595, reference 10 / 12, FR23, parents JOHN GLASGOW/AGNES MARTINE. The previous review interprets this as 8 October; the structured child field instead says 10 August 1693. Both readings remain visible, and an index from a combined births/baptisms collection does not establish a birthday. [[Glasgow-1473|John Glasgow]] is retained as the child-record account. Identification with the John Glasgow younger active as skipper in 1720, the 1719 father of Grizal, or the later bursary recipient remains separate and uncertain. Neither the elder/younger wording nor the new grandparents prove those adult identities or an elder skipper’s paternity. Agnes Martine remains the mother named in the 1693 record; no new spouse or parent-field certainty is assigned to the child account.
+
+[[Glasgow-3375|John Glasgow]] is the selected very uncertain working father of [[Glasgow-3018|John Glasgow]], treating the latter provisionally as the father named with Agnes Martine in the 1693 Irvine child entry. The route adopts the existing comparison with [[Glasgow-1434|John Glasgow]], indexed at Kilwinning on 6 July 1679 as child of John and Barbara Alason. Exact forename and surname, the neighbouring Ayrshire parishes, and a specific recorded child/parent pair make this a usable local model. It is not a merge or an identification of all events currently collected under either account. If the 1679 event was an infant baptism, that child would have been only fourteen by the 1693 entry. This is a serious weakness. Baptism of an older child would allow an older father, but no evidence establishes such a baptism; neither an earlier birth nor unusually young fatherhood is asserted as fact. The current circa-1675 birth is an inherited estimate, not independent support for the match.
+
+[[Allison-6866|Barbara Alason / Allison]] is separately selected as the very uncertain working mother through the same proposed 1679-child identity. The indexed 1679 entry actually names Barbara Alason; this is not a mother invented from the father choice or supplied from the surname-only 1689 entry. The existing Allison profile represents that Alason/Allason household and is a compatible account. Her circa-1659 birth is also an estimate, and no date, birthplace or marriage is newly established. The mother identification and the adult John identification remain unproved. These two parent links depend on one child/adult comparison; they are not independent confirmations of the proposed family.
+
+The 1725 elder skipper, 1729 Sailors’ Poor Box treasurer, 1734 deceased shipmaster and 1740 living bailie are not newly equated with the 1693 father. The 1734 catalogue describes heirs of a late shipmaster, while the 1740 entry names a living merchant/bailie; those occurrences cannot be one man. [[Glasgow-1077|John Glasgow]] remains a compatible candidate for the later bailie, independently of this parent model; the recorded 1690 child is not adopted as the 1693 adult father. The new parent fields are scoped to the 1693 father proposition, not an assertion that the composite biography is one proved life. All later occurrences and original archive references remain available without an invented death date or transfer of records between profiles.
+
+The same 1679 child remains only possibly identical with the Stevenston father of John in 1701 and Adam in 1706. The alleged two-John-sons conflict does not justify excluding the Irvine match when those identities and the survival of the children are unproved. No intervening death, second baptism or remarriage is invented to reconcile the accounts. The already selected West Kilbride [[Glasgow-3161|John Glasgow]] route also uses this childhood comparison, so it provides no independent corroboration here. The retained adult accounts may be duplicates rather than distinct brothers. An older Irvine John, another local parent, or identification of the 1693 father with the older [[Glasgow-3375|John Glasgow]] rather than his proposed son remain alternatives; the last option would collapse the new father edge as an identity duplicate. The older John’s possible identity with minister [[Glasgow-1073|John Glasgow]] and earlier ancestry keep their previous uncertainty; this is not a new proved son of the minister. [https://glasgow.phenotype.dev/branches/early-scottish-records/#irvine-kilwinning-working-family Full selected model, competing families and source limits]. <ref>Existing reviewed records and public profile citations: [https://www.scotlandspeople.gov.uk/ Supplied Scotland’s People OPR index: Jon, 6 July 1679, Kilwinning 599; John and Barbara Alason; profile citation 10 / 32, supplied frame 44; original not inspected]; [https://www.scotlandspeople.gov.uk/ Supplied Scotland’s People OPR index: John, 8 October/structured 10 August 1693, Irvine 595,10 / 12,FR23; John and Agnes Martine; original not inspected]; [https://web.archive.org/web/20190919232657/https://ayrshirearchives.files.wordpress.com/2019/04/irvine-burgh-catalogue-2017-watermarked.pdf Irvine Burgh Catalogue 2017, IB2/15/45 p.160 (1729), IB2/14/52 p.145 (1734), IB2/1/70 p.70 (1740); previously checked catalogue pages, not original manuscripts]; [https://familysearch.org/ark:/61903/1:1:XYZK-MY7 John/Margaret Cowan, Stevenston child John in 1701: existing possible adult comparison]; [https://familysearch.org/ark:/61903/1:1:XYZV-BNR John/Margaret Cowan, Stevenston child Adam in 1706: existing possible adult comparison]; [https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3585655&tab=this Kilbirnie John,1690: existing comparison for the later Irvine bailie, not selected as the 1693 father]. No original newly inspected; indexed dates and adult-identity limits remain explicit.</ref>
+
+
+
+=== Earlier profile reconstruction ===
+
+The former biography combined the 1693 child with later adult occurrences. Its estimated 1695–1700 birth and adult attributions are retained as an earlier reconstruction; neither that estimate nor the skipper/father/bursary identities is adopted as proved for the indexed child.
+
+<blockquote>
+John Glasgow was born about 1695–1700, likely in Irvine, Ayrshire, Scotland. He was probably the son of [[Glasgow-3018|John Glasgow (abt.1675-)]], skipper and merchant in Irvine.
+
+He appears in the public records as "John Glasgow younger," a skipper active in Irvine in the early 1720s.
+
+On 12 January 1720, John Glasgow younger was named as the creditor in a bond for 400 merks granted by Thomas Gray, merchant, and his father John Gray, late Bailie of Irvine.<ref>GD1/500/56, National Records of Scotland. [https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD1/500/56&st=1&tc=y&tl=n&tn=n&tp=n&k=John+Glasgow&ko=p&r=&ro=s&df=&dt=&di=y]</ref>
+
+On 23 January 1720, he was again mentioned in an instrument of resignation and sasine alongside Barbara Stewart, widow of Neil Gray, involving a property in Irvine.<ref>GD1/500/57, National Records of Scotland. [https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD1/500/57&st=1&tc=y&tl=n&tn=n&tp=n&k=John+Glasgow&ko=p&r=&ro=s&df=&dt=&di=y]</ref>
+
+In 1719, a John Glasgow was recorded as the father of Grizal Glasgow at her baptism.<ref>[https://www.familysearch.org/ark:/61903/1:1:XBLH-YP6 FamilySearch Entry for Grizal Glasgow, 1719]</ref> Based on timing, this is likely the same John Glasgow younger.
+
+On 23 September 1737, John Glasgow was awarded a bursary from the Dundonald Mortification, indicating a pursuit of education or professional advancement later in life.<ref>GB 248 GUA 02848, [https://www.gla.ac.uk/collections/#/details?irn=542052&catType=C&referrer=/results&q=%22John+Glasgow%22 University of Glasgow Collections]</ref>
+
+Between 1736 and 1746, John Glasgow & Co. of Irvine appeared in business correspondence dealing with international trade, particularly with merchants in St. Petersburg and Königsberg.<ref>GB 248 UGD 042/2/1, [https://www.gla.ac.uk/collections/#/details?irn=679589&catType=C&referrer=/results&q=%22John+Glasgow%22 University of Glasgow Collections]</ref>
+</blockquote>
+
+
+* Estimated birth between 1695 and 1700 based on adult activities beginning by 1720.
+* Likely son of John Glasgow elder (c.1675–aft.1740), though direct proof is pending.
+* His appearance as "younger" confirms there was an elder John Glasgow living at the same time.
+* Further research could clarify his marriage, death, and any other children beyond Grizal.
+
+John was born in 1693. He is the son of [[Glasgow-3018|John Glasgow]] and [[Martine-274|Agnes Martine]].
+<ref>
+JOHN 08-10-1693 JOHN GLASGOW/AGNES MARTINE FR23 (FR23) Irvine 595/ M
+</ref>
+
+== Sources ==
+<references />
+
+* GD1/500/56, National Records of Scotland: Bond involving John Glasgow, 1720
+* GD1/500/57, National Records of Scotland: Sasine involving John Glasgow, 1720
+* [https://www.familysearch.org/ark:/61903/1:1:XBLH-YP6 FamilySearch - Grizal Glasgow baptism record, 1719]
+* GB 248 GUA 02848, University of Glasgow Archives: Dundonald Mortification bursary presentation, 1737
+* GB 248 UGD 042/2/1, University of Glasgow Archives: Business correspondence of John Glasgow & Co., 1736–1746

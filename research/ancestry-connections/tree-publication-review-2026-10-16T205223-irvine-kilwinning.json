@@ -1,0 +1,81 @@
+{
+  "reviewed": "2026-10-16",
+  "cutoff": 1850,
+  "method_version": 3,
+  "input_fingerprint": "db9b982eb3625471afd6961fa5c7bc84ae8d2cc8786a73fce34c2aac266d61d8",
+  "scope": "Irvine\u2019s 1693 father: a very uncertain Kilwinning childhood",
+  "genealogical_connections_added": 2,
+  "paternal_connections_added": 1,
+  "maternal_connections_added": 1,
+  "certainty_upgrades": 0,
+  "working_fathers": 50,
+  "working_mothers": 7,
+  "models": {
+    "main": {
+      "checked_historical_profiles": 1777,
+      "changed_father_fields": 1,
+      "changed_mother_fields": 1,
+      "matched_paternal_edges": 1347,
+      "added_historical_profiles": [],
+      "effective_father_field_audit": {
+        "public_father_fields_checked": 1777,
+        "empty_father_fields_checked": 422,
+        "differences": []
+      },
+      "unresolved_father_cases": [
+        "Glasgow-1367",
+        "Glasgow-2908",
+        "Glasgow-867",
+        "Glasgow-951"
+      ]
+    },
+    "standalone": {
+      "checked_historical_profiles": 1777,
+      "changed_father_fields": 1,
+      "changed_mother_fields": 1,
+      "matched_paternal_edges": 1347,
+      "added_historical_profiles": [],
+      "effective_father_field_audit": {
+        "public_father_fields_checked": 1777,
+        "empty_father_fields_checked": 422,
+        "differences": []
+      },
+      "unresolved_father_cases": [
+        "Glasgow-1367",
+        "Glasgow-2908",
+        "Glasgow-867",
+        "Glasgow-951"
+      ]
+    }
+  },
+  "publication_summary": "Selected John-3375 and Barbara Allison-6866 as very uncertain parents of John-3018 through possible identity with the 1679 Kilwinning child, scoped to the 1693 Irvine father proposition. Infant baptism would imply fatherhood by age fourteen; an older-child baptism is possible but unproved. Later skipper/bailie and younger-John identifications remain separate. The two parent links depend on one identity and receive no independent corroboration from the existing West Kilbride model. Largest working family through 1850 grows from 1,004 to 1,007 retained profiles; components 432 to 431. One paternal branch connection and one maternal link, with no merges, vital-field changes or confidence upgrades. Five complete comparisons preserve the existing sources and earlier life reconstructions.",
+  "comparison": "/branches/early-scottish-records/#irvine-kilwinning-working-family",
+  "catalogue_parent_projection": {
+    "reviewed_profiles": 174,
+    "selected_parent_assertions_checked": 57,
+    "differences": []
+  },
+  "next_metric_check": {
+    "status": "RESOLVED",
+    "saved_confident_tree_flags_not_used_by_current_metric": 0,
+    "review": "/data/ancestry-confidence-method-review.json",
+    "scope": "Status fallback; four other competing-father cases remain open."
+  },
+  "verification": {
+    "public_pending_updates": 206,
+    "complete_profile_comparisons": 5
+  },
+  "unresolved_parentage_review": {
+    "status": "OPEN",
+    "case_ids": [
+      "Glasgow-1367",
+      "Glasgow-2908",
+      "Glasgow-867",
+      "Glasgow-951"
+    ],
+    "confident_flag_among_competing_candidates": [
+      "Glasgow-867"
+    ],
+    "scope": "Four other competing-father cases retain their existing grades; no selection is made for them."
+  }
+}

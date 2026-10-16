@@ -3793,6 +3793,121 @@
           "family_root_count": 52
         }
       }
+    },
+    {
+      "date": "2026-10-16",
+      "method_version": 3,
+      "input_fingerprint": "db9b982eb3625471afd6961fa5c7bc84ae8d2cc8786a73fce34c2aac266d61d8",
+      "metrics": {
+        "working": {
+          "population": 1777,
+          "edge_count": 1347,
+          "component_count": 431,
+          "largest_component_size": 1007,
+          "largest_component_percent": 56.66854248733821,
+          "connected_pairs_percent": 32.19047691473128,
+          "edge_status_counts": {
+            "confident": 309,
+            "dna_confirmed": 1,
+            "possible": 11,
+            "probable": 3,
+            "proved": 20,
+            "strongly_supported": 16,
+            "uncertain": 170,
+            "unmarked": 817
+          },
+          "quality": {
+            "cycles": [],
+            "cycle_edges_excluded": 0,
+            "later_born_ancestors_excluded": [],
+            "undated_ancestors": []
+          },
+          "connector_ids": [
+            "record-john-glasgw-stirling-1475"
+          ],
+          "unattached_multi_child_roots": 52,
+          "family_root_count": 62
+        },
+        "confident": {
+          "population": 1777,
+          "edge_count": 346,
+          "component_count": 1431,
+          "largest_component_size": 43,
+          "largest_component_percent": 2.4198086662915026,
+          "connected_pairs_percent": 0.16286686236039077,
+          "edge_status_counts": {
+            "confident": 309,
+            "dna_confirmed": 1,
+            "proved": 20,
+            "strongly_supported": 16
+          },
+          "quality": {
+            "cycles": [],
+            "cycle_edges_excluded": 0,
+            "later_born_ancestors_excluded": [],
+            "undated_ancestors": []
+          },
+          "unattached_multi_child_roots": 46,
+          "family_root_count": 52
+        }
+      },
+      "fixed_cohort": {
+        "working": {
+          "population": 1776,
+          "edge_count": 1347,
+          "component_count": 431,
+          "largest_component_size": 1006,
+          "largest_component_percent": 56.64414414414414,
+          "connected_pairs_percent": 32.16292348686715,
+          "edge_status_counts": {
+            "confident": 309,
+            "dna_confirmed": 1,
+            "possible": 11,
+            "probable": 3,
+            "proved": 20,
+            "strongly_supported": 16,
+            "uncertain": 170,
+            "unmarked": 817
+          },
+          "quality": {
+            "cycles": [],
+            "cycle_edges_excluded": 0,
+            "later_born_ancestors_excluded": [],
+            "undated_ancestors": []
+          },
+          "connector_ids": [
+            "Glasgow-4152",
+            "record-john-glasgw-stirling-1475"
+          ],
+          "unattached_multi_child_roots": 52,
+          "family_root_count": 62
+        },
+        "confident": {
+          "population": 1776,
+          "edge_count": 346,
+          "component_count": 1431,
+          "largest_component_size": 43,
+          "largest_component_percent": 2.421171171171171,
+          "connected_pairs_percent": 0.16292348686714883,
+          "edge_status_counts": {
+            "confident": 309,
+            "dna_confirmed": 1,
+            "proved": 20,
+            "strongly_supported": 16
+          },
+          "quality": {
+            "cycles": [],
+            "cycle_edges_excluded": 0,
+            "later_born_ancestors_excluded": [],
+            "undated_ancestors": []
+          },
+          "connector_ids": [
+            "Glasgow-4152"
+          ],
+          "unattached_multi_child_roots": 46,
+          "family_root_count": 52
+        }
+      }
     }
   ]
 }

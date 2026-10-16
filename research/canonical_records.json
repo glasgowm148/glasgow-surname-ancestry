@@ -2274,6 +2274,9 @@
       },
       "Glasgow-1434": {
         "role": "indexed child"
+      },
+      "Allison-6866": {
+        "role": "indexed mother name; Alason/Allison profile identity qualified"
       }
     }
   },
@@ -2982,6 +2985,27 @@
     "profiles": {
       "Glasgow-3332": {
         "role": "compatible profile; weaver identity unproved"
+      }
+    }
+  },
+  {
+    "record_id": "irvine-john-martine-child-index-1693",
+    "date": "08/10/1693; indexed as8October, structured child field10August",
+    "year": 1693,
+    "place": "Irvine, Ayrshire",
+    "source_title": "Supplied Scotland’s People OPR index: John, 8 October/structured 10 August 1693, Irvine 595,10 / 12,FR23; John and Agnes Martine; original not inspected",
+    "source_url": "https://www.scotlandspeople.gov.uk/",
+    "status": "Previously reviewed supplied OPR index; original not inspected",
+    "note": "595,10 / 12,FR23. Names John Glasgow and Agnes Martine; no age, trade or link to later skipper/bailie. Not proof of a birthday.",
+    "profiles": {
+      "Glasgow-3018": {
+        "role": "compatible account for the indexed father"
+      },
+      "Glasgow-1473": {
+        "role": "indexed child account"
+      },
+      "Martine-274": {
+        "role": "compatible account for the indexed mother"
       }
     }
   }
