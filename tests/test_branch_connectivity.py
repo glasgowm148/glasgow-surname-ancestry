@@ -1,6 +1,6 @@
 import json, tempfile, unittest
 from pathlib import Path
-from tools.branch_connectivity import _year, _dated, load_public_nodes, summarize
+from tools.branch_connectivity import _year, _dated, load_public_nodes, summarize, relationship_status
 
 
 class T(unittest.TestCase):
@@ -37,6 +37,30 @@ class T(unittest.TestCase):
         self.assertIsNone(_year("0000-00-00"))
         d = {"vitals": {"birth": {"date": "1700"}, "death": {"date": "1800"}}, "evidence": [{"date": "1600"}]}
         self.assertEqual(_dated(d)[0][:2], (1600, "dated evidence"))
+
+    def test_saved_tree_flags_are_used_without_overriding_research(self):
+        self.assertEqual(relationship_status({'status':'unknown','tree_status':'confident'}), ('confident','saved_wikitree_flag'))
+        self.assertEqual(relationship_status({'status':'unknown','tree_status':'DNA-confirmed'})[0], 'dna_confirmed')
+        self.assertEqual(relationship_status({'status':'unknown','tree_status':'unmarked'})[0], 'unmarked')
+        self.assertEqual(relationship_status({'status':'unknown'})[0], 'unknown')
+        for status in ['uncertain','possible','probable','unmarked','contradicted']:
+            self.assertEqual(relationship_status({'status':status,'tree_status':'confident'})[0],status)
+
+    def test_flagged_father_joins_confident_graph_and_retains_provenance(self):
+        self.add('Child',1600,extra={'relationships':{'parents':[{'id':'Father','relationship':'father','status':'unknown','tree_status':'confident'}]}})
+        self.add('Father',1570)
+        nodes,edges,_=self.finish()
+        self.assertEqual(summarize(nodes,edges,1650,'confident')['connected_pairs_percent'],100)
+        self.assertEqual(edges[0]['assessment_status'],'unknown')
+        self.assertEqual(edges[0]['tree_status'],'confident')
+        self.assertEqual(edges[0]['status_basis'],'saved_wikitree_flag')
+
+    def test_non_biological_tree_flag_never_joins_a_paternal_graph(self):
+        self.add('Child',1600,extra={'relationships':{'parents':[{'id':'Father','relationship':'father','status':'unknown','tree_status':'non-biological'}]}})
+        self.add('Father',1570)
+        nodes,edges,_=self.finish()
+        self.assertEqual(edges,[])
+        self.assertEqual(summarize(nodes,edges,1650)['component_count'],2)
 
     def test_cutoffs_views_roots(self):
         self.add("A", 1600, parents=(("F", "strongly_supported"),), gender="Female")

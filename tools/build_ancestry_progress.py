@@ -14,7 +14,7 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
-from tools.branch_connectivity import load_public_nodes, summarize
+from tools.branch_connectivity import METHOD_VERSION, load_public_nodes, summarize
 from tools.documentary_ancestry import load_people
 from tools.free_space_edition import shell_page
 from tools.stamp_asset_versions import VERSIONED_ASSET, asset_path, content_hash
@@ -106,7 +106,7 @@ def build(create_baseline=False):
         baseline = dict(
             schema_version=1,
             captured=strategy["reviewed"],
-            method_version=2,
+            method_version=METHOD_VERSION,
             cutoff=strategy["primary_cutoff"],
             input_fingerprint=fingerprint,
             cohort_ids=primary["working"]["cohort_ids"],
@@ -122,11 +122,17 @@ def build(create_baseline=False):
     }
     history_path = WORK / "progress-history.json"
     history = json.loads(history_path.read_text()) if history_path.exists() else {"schema_version": 1, "snapshots": []}
-    if not history["snapshots"] or history["snapshots"][-1]["input_fingerprint"] != fingerprint:
+    previous_version = history['snapshots'][-1].get('method_version') if history['snapshots'] else None
+    if not history["snapshots"] or history["snapshots"][-1]["input_fingerprint"] != fingerprint or previous_version != METHOD_VERSION:
+        correction = previous_version is not None and previous_version != METHOD_VERSION
         history["snapshots"].append(
             dict(
                 date=date.today().isoformat(),
-                method_version=2,
+                method_version=METHOD_VERSION,
+                **(dict(event_type='method_correction', previous_method_version=previous_version,
+                        genealogical_connections_added=0,
+                        note='Existing saved WikiTree certainty flags are now classified; no new relationship or evidence grade was asserted.')
+                   if correction else {}),
                 input_fingerprint=fingerprint,
                 metrics={v: compact(s) for v, s in primary.items()},
                 fixed_cohort=fixed,
@@ -136,7 +142,7 @@ def build(create_baseline=False):
     report = dict(
         schema_version=1,
         reviewed=history["snapshots"][-1]["date"],
-        method_version=2,
+        method_version=METHOD_VERSION,
         strategy=strategy,
         input_fingerprint=fingerprint,
         quality=quality,
@@ -151,6 +157,7 @@ def build(create_baseline=False):
             metrics=fixed,
             missing_ids=sorted(set(baseline["cohort_ids"]) - nodes.keys()),
             added_ids=sorted(set(primary["working"]["cohort_ids"]) - set(baseline["cohort_ids"])),
+            confident_baseline_comparable=baseline.get('method_version') == METHOD_VERSION,
         ),
         progress_history=history["snapshots"],
     )
@@ -183,12 +190,24 @@ def build(create_baseline=False):
                             f'and synchronizes {checked["changed_father_fields"]:,} father fields. These reproduce existing published conclusions; '
                             'the connectivity figures do not increase. Competing fathers remain unresolved, and existing uncertainty grades are retained.</p>'
                             '<p><a href="/data/ancestry-tree-publication-review.json">Read the profile-by-profile publication audit</a></p></section>')
-        if publication.get('method_version') != report['method_version']:
+        if publication.get('method_version') != report['method_version'] or publication['next_metric_check'].get('status') != 'OPEN':
             confidence_note = ''
         if publication.get('input_fingerprint') != report['input_fingerprint']:
             publication_html = (f'<section aria-labelledby="tree-publication-title"><h2 id="tree-publication-title">Whole tree publication check</h2>'
                                 f'<p>The last recorded review was {publication["reviewed"]}. The research graph has changed since; refresh its publication audit.</p>'
                                 '<p><a href="/data/ancestry-tree-publication-review.json">Read the previous review</a></p></section>')
+    method_review_path = max(WORK.glob('confidence-method-review-*.json'), default=None)
+    if method_review_path is not None:
+        method_review = json.loads(method_review_path.read_text())
+        write_json(WEB / 'data/ancestry-confidence-method-review.json', method_review)
+        if method_review['method_version'] == METHOD_VERSION:
+            counted = method_review['dispositions']['counted in confident graph']
+            confidence_note = (f'<section aria-labelledby="confidence-method-title"><h2 id="confidence-method-title">Confidence calculation corrected</h2>'
+                               f'<p>Method {METHOD_VERSION}, {method_review["reviewed"]}: {counted:,} eligible saved confident WikiTree flags are now counted. '
+                               'Explicit uncertain or possible research assessments still take priority over a tree flag. '
+                               'This corrects classification; it adds no parentage claims or evidence upgrades and leaves working connectivity unchanged.</p>'
+                               '<p>The original baseline is preserved. Its method-2 confidence figures are not directly comparable with method 3; '
+                               'the working baseline remains comparable. <a href="/data/ancestry-confidence-method-review.json">Read the flag-by-flag audit and before/after measurements</a>.</p></section>')
     roots = [
         r for r in selected["family_roots"] if r["year"] is not None and r["year"] <= strategy["early_priority_cutoff"]
     ]

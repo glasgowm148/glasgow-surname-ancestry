@@ -15,6 +15,7 @@ from tools.documentary_ancestry import load_chronology, load_people, metric_node
 CONFIDENT = frozenset(
     {"certain", "confident", "confirmed", "proved", "documented", "strongly_supported", "dna_confirmed"}
 )
+METHOD_VERSION = 3
 EXCLUDED = frozenset(
     {
         "rejected",
@@ -72,6 +73,19 @@ def _cycles(edges):
     return sorted(cycles)
 
 
+def relationship_status(relation: dict) -> tuple[str, str]:
+    """Use an explicit research assessment before a saved WikiTree flag.
+
+    Public tree links have a generic unknown assessment and a separate
+    tree_status. An explicit uncertain/possible assessment still takes priority.
+    """
+    normalize = lambda value: re.sub(r'[\s-]+', '_', str(value or '').strip().casefold())
+    status = normalize(relation.get('status')) or 'unassessed'
+    if status in {'unknown', 'unassessed'} and relation.get('tree_status'):
+        return normalize(relation['tree_status']), 'saved_wikitree_flag'
+    return status, 'resolved_dossier_assessment'
+
+
 def load_public_nodes(site_root: Path, variants: set[str]):
     site_root = Path(site_root)
     index = json.loads((site_root / "data/people-index.json").read_text())
@@ -126,7 +140,7 @@ def load_public_nodes(site_root: Path, variants: set[str]):
         for relation in (dossier.get("relationships") or {}).get("parents") or []:
             if str(relation.get("relationship", "")).casefold() != "father":
                 continue
-            status = str(relation.get("status") or "unassessed").casefold()
+            status, status_basis = relationship_status(relation)
             if (
                 status in EXCLUDED
                 or relation.get("lifecycle") not in (None, "current")
@@ -142,6 +156,9 @@ def load_public_nodes(site_root: Path, variants: set[str]):
                         status=status,
                         basis=relation.get("reason") or relation.get("basis") or "",
                         assertion_id=relation.get("assertion_id"),
+                        assessment_status=relation.get('status') or 'unassessed',
+                        tree_status=relation.get('tree_status'),
+                        status_basis=status_basis,
                     )
                 )
     documentary = load_people(site_root / 'data/ancestry-documentary-people.json')

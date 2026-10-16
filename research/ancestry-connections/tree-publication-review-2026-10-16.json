@@ -1,7 +1,7 @@
 {
   "reviewed": "2026-10-16",
-  "input_fingerprint": "de33df4e4d24045ad25df68f168c36122349de9e93db37effb8cb91457fd02cf",
-  "method_version": 2,
+  "input_fingerprint": "164fcf3a8a49d03858bf3d3da333ec1460edab6e53219605b77d9f641d427faf",
+  "method_version": 3,
   "cutoff": 1850,
   "scope": "Published historical father fields in the main Whole tree and standalone viewer",
   "genealogical_connections_added": 0,
@@ -2475,8 +2475,13 @@
   ],
   "source_basis": "Current public person dossiers and their recorded tree certainty flags or research assessments. Earlier aggregate catalogue snapshots do not supersede those decisions. Approved main-tree accounts and DNA annotations were retained. Competing fathers remain unresolved.",
   "next_metric_check": {
-    "status": "OPEN",
+    "status": "RESOLVED",
     "saved_confident_tree_flags_not_used_by_current_metric": 311,
-    "finding": "The confidence-only metric reads the general status field; some saved WikiTree certainty flags are separately held in tree_status. Audit this classification separately. Working connectivity is unaffected; these are existing flags, not new evidence upgrades."
-  }
+    "finding": "The confidence-only metric reads the general status field; some saved WikiTree certainty flags are separately held in tree_status. Audit this classification separately. Working connectivity is unaffected; these are existing flags, not new evidence upgrades.",
+    "resolved": "2026-10-16",
+    "resolution": "Method 3 reads saved WikiTree certainty flags without overriding explicit research assessments.",
+    "review": "/data/ancestry-confidence-method-review.json"
+  },
+  "original_publication_method_version": 2,
+  "metrics_scope": "The publication-only reconciliation left metrics unchanged. The subsequent method-3 confidence correction is recorded separately in /data/ancestry-confidence-method-review.json."
 }
