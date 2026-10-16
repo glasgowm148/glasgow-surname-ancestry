@@ -1,0 +1,82 @@
+{
+  "reviewed": "2026-10-16",
+  "cutoff": 1850,
+  "method_version": 3,
+  "input_fingerprint": "b415cc78f48e03dcc047f8f7ebcd6e5742ff726e21de274ca1126016bb2233d5",
+  "scope": "Confidence review of the six largest working joins",
+  "genealogical_connections_added": 0,
+  "paternal_connections_added": 0,
+  "maternal_connections_added": 0,
+  "certainty_upgrades": 1,
+  "working_fathers": 57,
+  "working_mothers": 9,
+  "models": {
+    "main": {
+      "checked_historical_profiles": 1777,
+      "changed_father_fields": 0,
+      "changed_mother_fields": 0,
+      "matched_paternal_edges": 1354,
+      "added_historical_profiles": [],
+      "effective_father_field_audit": {
+        "public_father_fields_checked": 1777,
+        "empty_father_fields_checked": 415,
+        "differences": []
+      },
+      "unresolved_father_cases": [
+        "Glasgow-1367",
+        "Glasgow-2908",
+        "Glasgow-867",
+        "Glasgow-951"
+      ]
+    },
+    "standalone": {
+      "checked_historical_profiles": 1777,
+      "changed_father_fields": 0,
+      "changed_mother_fields": 0,
+      "matched_paternal_edges": 1354,
+      "added_historical_profiles": [],
+      "effective_father_field_audit": {
+        "public_father_fields_checked": 1777,
+        "empty_father_fields_checked": 415,
+        "differences": []
+      },
+      "unresolved_father_cases": [
+        "Glasgow-1367",
+        "Glasgow-2908",
+        "Glasgow-867",
+        "Glasgow-951"
+      ]
+    }
+  },
+  "publication_summary": "The six highest-impact selected father hypotheses were re-evaluated using their actual source wording and identity assumptions. None has sufficient evidence for an overall certainty upgrade from this review. One existing, previously ungraded named-parent relationship inside the largest branch is newly marked documented locally; no new connection or working family is added. The live WikiTree certainty flag is unchanged and remains a pending amendment. Working and confidently marked connectivity are measured separately.",
+  "comparison": "/branches/early-scottish-records/#major-connection-confidence-review",
+  "catalogue_parent_projection": {
+    "reviewed_profiles": 192,
+    "selected_parent_assertions_checked": 66,
+    "differences": []
+  },
+  "verification": {
+    "approved_chronology_displays_checked": 7,
+    "public_pending_updates": 227,
+    "complete_profile_comparisons": 2
+  },
+  "unresolved_parentage_review": {
+    "status": "OPEN",
+    "case_ids": [
+      "Glasgow-1367",
+      "Glasgow-2908",
+      "Glasgow-867",
+      "Glasgow-951"
+    ],
+    "confident_flag_among_competing_candidates": [
+      "Glasgow-867"
+    ],
+    "scope": "Four other competing-father cases retain their existing grades; no selection is made for them."
+  },
+  "next_metric_check": {
+    "status": "RESOLVED",
+    "saved_confident_tree_flags_not_used_by_current_metric": 0,
+    "review": "/data/ancestry-confidence-method-review.json",
+    "scope": "Status fallback; four other competing-father cases remain open."
+  }
+}

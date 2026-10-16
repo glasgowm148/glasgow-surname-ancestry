@@ -1,14 +1,6 @@
-+# WikiTree update draft: [Glasgow-3012](https://www.wikitree.com/wiki/Glasgow-3012)
-
-Status: **HOLD — source-note and conflict review only.** Do not alter structured birth or mother fields until the original OPR entry is inspected. This complete replacement preserves the captured live biography and every existing citation.
-
-## Paste-ready replacement
-
-```wikitext
-{{One Name Study|name=Glasgow}}
+[[Category:Glasgow Name Study]]
 
 == Biography ==
-
 John Glasgow was christened in 1649 in the parish of Kirknewton and East Calder, Midlothian, Scotland. He was the son of [[Glasgow-3610|John Glasgow]].<ref name="Birth1649">"Scotland, Births and Baptisms, 1564-1950", database, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:VQ4K-X6G : 16 September 2021), Johne Glasgow, 1649.</ref> His known siblings included [[Glasgow-3112|Margaret Glasgow]] and [[Glasgow-3118|Alexander Glasgow]].{{Citation needed }}
 
 He married '''[[Currie-4998|Margaret Currie]]''' in 1673 in Kirknewton.<ref name="Marriage1673">"Scotland, Marriages, 1561-1910", database, FamilySearch (https://familysearch.org/ark:/61903/1:1:XY9W-J5Q : 11 February 2020), Johne Glasgow, 1673.</ref>
@@ -22,10 +14,13 @@ John and Margaret had the following children:
 * [[Glasgow-2917|Charles James Glasgow]], christened 3 October 1686 in Glencorse.<ref name="Charles1686">"Scotland, Births and Baptisms, 1564-1950", database, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:VQ4J-JJK : 16 September 2021), John Glesgowe in entry for Charles Glesgowe, 1686.</ref>
 
 == Research Notes ==
+=== Father relationship confidence review — 16 October 2026 ===
 
-=== Supplied OPR index comparison ===
+The existing father relationship from [[Glasgow-3012|Johne Glasgow, indexed in 1649]] to [[Glasgow-3610|Johne Glasgow, the 1649 father]] is now documented locally for the record-defined 1649 child. The supplied Scotland’s People index, Kirknewton and East Calder OPR 690/10/14, FR 15, names JOHNE GLASGOW as parent of the child JOHNE indexed on 22 April 1649. The preserved FamilySearch VQ4K-X6G account agrees on the child, father, parish and date. These are two presentations of the same underlying register, not independent records. [[Glasgow-3610|Johne Glasgow, the 1649 father]] is specifically the adult-father account defined by that entry. No inference from age or surname is needed for that parental role.
 
-The supplied Scotland’s People OPR birth/baptism index gives 22/04/1649 in Kirknewton and East Calder for JOHNE Glasgow, with indexed parents/other details JOHNE GLASGOW/ FR15 (FR15).<ref name="ScotlandsPeopleOPR46">''Old Parish Registers, Births and Baptisms'', Scotland’s People index, JOHNE GLASGOW, 22/04/1649, Kirknewton and East Calder; parents/other: JOHNE GLASGOW/ FR15 (FR15); parish 690, reference 10 / 14; exact-surname Glasgow search through 1700 (accessed 10 September 2026). The original register image was not inspected.</ref> The index is a combined births-and-baptisms result; its date is therefore recorded as an index date and should not silently replace a structured birth date. The differing date requires inspection of the original register before any structured-date or parent change.
+This certainty applies to the child and father in the 1649 record. It does not prove that the child became the 1673 Margaret Currie husband or that the father was the 1608 Mid Calder child, nor does it identify his own parents. The selected [[Glasgow-3610|Johne Glasgow, the 1649 father]]→[[Glasgow-3296|Glasgow-3296]] link remains uncertain. The profile’s 4 April 1649 birth and the index’s 22 April date remain unreconciled; neither the birth date nor the birth/baptism distinction is changed. The mother is not named in this index. The original register was not newly inspected; the confidence assessment rests on the maintained named-parent index evidence, with those limits explicit.
+
+The six highest-impact selected father hypotheses were re-evaluated using their actual source wording and identity assumptions. None has sufficient evidence for an overall certainty upgrade from this review. One existing, previously ungraded named-parent relationship inside the largest branch is newly marked documented locally; no new connection or working family is added. The live WikiTree certainty flag is unchanged and remains a pending amendment. Working and confidently marked connectivity are measured separately. [https://glasgow.phenotype.dev/branches/early-scottish-records/#major-connection-confidence-review Confidence review and source limits]. <ref>Maintained named-parent register index accounts: [https://www.scotlandspeople.gov.uk/ Scotland’s People supplied OPR index: Johne, 22 April 1649, Kirknewton/East Calder 690/10/14, FR 15; parent JOHNE GLASGOW; maintained 10 September 2026 review]; [https://www.familysearch.org/ark:/61903/1:1:VQ4K-X6G FamilySearch VQ4K-X6G: preserved 1649 Johne/John father-and-child index account; not a newly inspected original]. No original manuscript newly inspected; same-register dependence, unresolved dates and child/adult identity limits remain explicit.</ref>
 
 
 Sources are needed to confirm these sibling relationships.
@@ -36,7 +31,17 @@ The parish records show variations in the spelling of the family's names. The fa
 '''Marriage and Residency'''
 The marriage record places the couple in Kirknewton in 1673, while the baptismal records for all known children place them in the neighboring parish of Glencorse from 1676 onward. This indicates a move shortly after their marriage.
 
+=== Supplied parish index comparison ===
+
+The supplied Scotland’s People index records '''JOHNE GLASGOW''' on '''22/04/1649''' at Kirknewton and East Calder, with parent text “JOHNE GLASGOW/ FR15 (FR15)”.<ref name="OPRBirth046">Scotland’s People, [https://www.scotlandspeople.gov.uk/ Old Parish Registers, births and baptisms], exact surname Glasgow through 1700, index text supplied 10 September 2026: JOHNE GLASGOW, 22/04/1649, JOHNE GLASGOW/ FR15 (FR15), indexed gender M, Kirknewton and East Calder, parish 690, reference 10 / 14. Original register image not inspected for this review.</ref>
+
+The profile’s structured birth date is 1649-04-04, whereas this index date is 1649-04-22. The two dates remain unreconciled. The combined births and baptisms collection does not establish whether the indexed date is a birthday or a baptism date. A parent’s name alone does not uniquely identify an attached historical person, and the index does not establish an unnamed parent.
+
+=== Retained earlier source note ===
+
+The earlier instruction to hold changes to structured birth and mother fields remains applicable. This review separately grades the named father’s role in the indexed entry.
+
+The supplied Scotland’s People OPR birth/baptism index gives 22/04/1649 in Kirknewton and East Calder for JOHNE Glasgow, with indexed parents/other details JOHNE GLASGOW/ FR15 (FR15).<ref name="ScotlandsPeopleOPR46">''Old Parish Registers, Births and Baptisms'', Scotland’s People index, JOHNE GLASGOW, 22/04/1649, Kirknewton and East Calder; parents/other: JOHNE GLASGOW/ FR15 (FR15); parish 690, reference 10 / 14; exact-surname Glasgow search through 1700 (accessed 10 September 2026). The original register image was not inspected.</ref> The index is a combined births-and-baptisms result; its date is therefore recorded as an index date and should not silently replace a structured birth date. The differing date requires inspection of the original register before any structured-date or parent change.
+
 == Sources ==
 <references />
-```
-

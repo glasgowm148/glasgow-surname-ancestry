@@ -1,0 +1,178 @@
+{
+  "reviewed": "2026-10-16",
+  "scope": "Confidence review of the six largest working joins",
+  "cohort_cutoff": 1850,
+  "input_fingerprint": "46f1afeeefde107b20df1a8ef393c9ee1933c3455f4aab33c072bb89a106ff20",
+  "method": "For each selected paternal edge, remove that edge from the existing working forest. Count measured profiles on each side; their product is the number of connected pairs dependent on the join. This is impact, not a probability or proof score.",
+  "reproducer": "research/ancestry-connections/rank_working_joins.py",
+  "reviewed_joins": [
+    {
+      "assertion_id": "C-working-20261015-glasgow-3610-glasgow-3296",
+      "child": "Glasgow-3610",
+      "father": "Glasgow-3296",
+      "child_name": "John Glasgow",
+      "father_name": "John Glasgow",
+      "child_side": 278,
+      "parent_side": 757,
+      "cross_pairs": 210446,
+      "evidence_grade": null,
+      "source_ids": [
+        "midcalder-jhone-1608-father-jhone",
+        "kirknewton-johne-1649-father-johne"
+      ],
+      "links": [
+        {
+          "label": "Selected working model: reasoning and alternatives",
+          "href": "/branches/early-scottish-records/#selected-working-joins"
+        }
+      ],
+      "review_status": "reviewed_existing_evidence",
+      "grade_after": "Uncertain; prior grade retained",
+      "certainty_upgrade": false,
+      "conclusion": "The 1608 Mid Calder child and 1646–1650 Kirknewton father share name, nearby parishes and a compatible generation. No record equates them. The child’s later Quothquan identification is also unresolved, and the 1616 John/other local fathers remain comparisons. Retain possible; seek a residence, spouse, trade, property or named-relative bridge. Re-reading the 1649 father clause alone cannot establish the 1608 identity.",
+      "grade_before": "Uncertain; prior grade retained"
+    },
+    {
+      "assertion_id": "C-working-20261015-glasgow-991-glasgow-3163",
+      "child": "Glasgow-991",
+      "father": "Glasgow-3163",
+      "child_name": "James Glasgow",
+      "father_name": "Andrew Glasgow",
+      "child_side": 216,
+      "parent_side": 819,
+      "cross_pairs": 176904,
+      "evidence_grade": null,
+      "source_ids": [
+        "nrs-cc8-8-32-andrew-1598",
+        "midcalder-george-1605-original"
+      ],
+      "links": [
+        {
+          "label": "Selected working model: reasoning and alternatives",
+          "href": "/branches/early-scottish-records/#selected-working-joins"
+        }
+      ],
+      "review_status": "reviewed_existing_evidence",
+      "grade_after": "Uncertain; prior grade retained",
+      "certainty_upgrade": false,
+      "conclusion": "Andrew’s 1597/8 testament names Robert, Marion, Jonet and Isobel; it does not name James. James’s 1605 Murieston household gives no parent clause. Calder locality and age compatibility support a working model, but do not identify Andrew as his father. Retain possible; land succession and the older George witness are the concrete tests. Do not restore the superseded claim that James was named in Andrew’s will.",
+      "grade_before": "Uncertain; prior grade retained"
+    },
+    {
+      "assertion_id": "C-working-20261016-lothian-heads-william",
+      "child": "Glasgow-1026",
+      "father": "Glasgow-3610",
+      "child_name": "William Walter Glasgow",
+      "father_name": "John Glasgow",
+      "child_side": 148,
+      "parent_side": 887,
+      "cross_pairs": 131276,
+      "evidence_grade": "Low/very low-confidence existing locality and generation hypothesis",
+      "source_ids": [
+        "kirknewton-bessie-1682-william-household",
+        "kirknewton-johne-1649-father-johne"
+      ],
+      "links": [
+        {
+          "label": "Lothian family heads: preferred routes and alternatives",
+          "href": "/branches/early-scottish-records/#lothian-family-heads"
+        }
+      ],
+      "review_status": "reviewed_existing_evidence",
+      "grade_after": "Low/very low-confidence existing locality and generation hypothesis",
+      "certainty_upgrade": false,
+      "conclusion": "The 1682 William household is in Kirknewton, but no cited record names the 1649 father John as William’s parent. William’s circa 1660 birth is an estimate, and the distinct 1671 William child belongs to Andro. Retain possible; examine the 1682 household’s witnesses and any marriage, testament or sasine naming the older William’s father. No birth estimate can supply this missing parent clause.",
+      "grade_before": "Low/very low-confidence existing locality and generation hypothesis"
+    },
+    {
+      "assertion_id": "C-working-20261016-larne-robert-father",
+      "child": "Glasgow-3970",
+      "father": "Glasgow-1027",
+      "child_name": "Robert Glaskow",
+      "father_name": "Rot. Glasgow",
+      "child_side": 132,
+      "parent_side": 903,
+      "cross_pairs": 119196,
+      "evidence_grade": "Low-confidence existing identity / locality and generation model",
+      "source_ids": [
+        "glasgow-robert-baptism-1618-parents",
+        "larne-robert-examination-1653"
+      ],
+      "links": [
+        {
+          "label": "Larne working family: selected parents, James accounts and alternatives",
+          "href": "/branches/early-scottish-records/#larne-working-family"
+        }
+      ],
+      "review_status": "reviewed_existing_evidence",
+      "grade_after": "Low-confidence existing identity / locality and generation model",
+      "certainty_upgrade": false,
+      "conclusion": "The 1618 Glasgow baptism names Robert and Jonet Cunningham as parents of a child Robert. The 1653 Larne examination names an adult Robert Glaskow without age, birthplace or parent. No identifying Scottish–Irish bridge joins the two. Retain possible; a migration, trade, kinship or property identifier is required. The baptism’s direct parentage is not proof of the Larne adult’s identity.",
+      "grade_before": "Low-confidence existing identity / locality and generation model"
+    },
+    {
+      "assertion_id": "C-working-20261016-kilbirnie-john-father",
+      "child": "Glasgow-1073",
+      "father": "Glasgow-1604",
+      "child_name": "John Glasgow M.A",
+      "father_name": "John Glasgow",
+      "child_side": 52,
+      "parent_side": 983,
+      "cross_pairs": 51116,
+      "evidence_grade": "Low-confidence generation and locality comparison; tree-derived father identity",
+      "source_ids": [
+        "kilbirnie-john-fasti-1674-1721",
+        "kilbirnie-john-university-1672-1674"
+      ],
+      "links": [
+        {
+          "label": "Kilbirnie minister: selected father, duplicate and upstream limits",
+          "href": "/branches/research-kilbirnie-minister/#selected-working-father"
+        }
+      ],
+      "review_status": "reviewed_existing_evidence",
+      "grade_after": "Low-confidence generation and locality comparison; tree-derived father identity",
+      "certainty_upgrade": false,
+      "conclusion": "The Fasti and university entries establish the minister’s career and approximate generation, but name no parent. Glasgow-1604’s own generation and Ayrshire pedigree are tree-derived. Retain low confidence; seek an original admission, ordination, marriage contract or family property record naming the minister’s father. Locality and an inferred birth year cannot raise the whole link’s grade.",
+      "grade_before": "Low-confidence generation and locality comparison; tree-derived father identity"
+    },
+    {
+      "assertion_id": "C-working-20261016-polwarth-cavers-ulster-working-family-ulster-father",
+      "child": "Glasgow-591",
+      "father": "Glasgow-2462",
+      "child_name": "William Glasgow",
+      "father_name": "William Glasgow",
+      "child_side": 48,
+      "parent_side": 987,
+      "cross_pairs": 47376,
+      "evidence_grade": "Very low-confidence compound identity and inherited-father hypothesis",
+      "source_ids": [
+        "polwarth-cavers-ulster-child-1658",
+        "polwarth-cavers-ulster-servant-1679",
+        "polwarth-cavers-ulster-inveresk-1639"
+      ],
+      "links": [
+        {
+          "label": "William Glasgow: a conditional Polwarth–Cavers–Ulster family",
+          "href": "/branches/early-scottish-records/#polwarth-cavers-ulster-working-family"
+        }
+      ],
+      "review_status": "reviewed_existing_evidence",
+      "grade_after": "Very low-confidence compound identity and inherited-father hypothesis",
+      "certainty_upgrade": false,
+      "conclusion": "The 1658 Polwarth index names a father William. Identifying that adult with the 1639 Inveresk child requires young fatherhood and an unproved move. Equating the Polwarth child, Cavers Covenanter and later Irish ancestor adds further identity steps; late survivor histories do not independently prove the Irish pedigree. Retain very low confidence. First resolve the named Polwarth father and the Scottish adult before using the later Irish tradition.",
+      "grade_before": "Very low-confidence compound identity and inherited-father hypothesis"
+    }
+  ],
+  "conclusion": "The six highest-impact selected father hypotheses were re-evaluated using their actual source wording and identity assumptions. None has sufficient evidence for an overall certainty upgrade from this review. One existing, previously ungraded named-parent relationship inside the largest branch is newly marked documented locally; no new connection or working family is added. The live WikiTree certainty flag is unchanged and remains a pending amendment. Working and confidently marked connectivity are measured separately.",
+  "documented_relationship": {
+    "assertion_id": "C-reviewed-20261016-kirknewton-1649-johne-father",
+    "child": "Glasgow-3012",
+    "father": "Glasgow-3610",
+    "before": "unknown/unmarked",
+    "after": "proved",
+    "basis": "The existing father relationship from Glasgow-3012 to Glasgow-3610 is now documented locally for the record-defined 1649 child. The supplied Scotland’s People index, Kirknewton and East Calder OPR 690/10/14, FR 15, names JOHNE GLASGOW as parent of the child JOHNE indexed on 22 April 1649. The preserved FamilySearch VQ4K-X6G account agrees on the child, father, parish and date. These are two presentations of the same underlying register, not independent records. Glasgow-3610 is specifically the adult-father account defined by that entry. No inference from age or surname is needed for that parental role.",
+    "limits": "This certainty applies to the child and father in the 1649 record. It does not prove that the child became the 1673 Margaret Currie husband or that the father was the 1608 Mid Calder child, nor does it identify his own parents. The selected Glasgow-3610→Glasgow-3296 link remains uncertain. The profile’s 4 April 1649 birth and the index’s 22 April date remain unreconciled; neither the birth date nor the birth/baptism distinction is changed. The mother is not named in this index. The original register was not newly inspected; the confidence assessment rests on the maintained named-parent index evidence, with those limits explicit."
+  },
+  "original_records_newly_inspected": 0
+}

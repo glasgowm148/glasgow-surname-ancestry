@@ -1,0 +1,80 @@
+{
+  "reviewed": "2026-10-16",
+  "scope": "Confidence review of the six largest working joins",
+  "profiles": {
+    "Glasgow-3012": {
+      "current_sha256": "1598bbfd730ddc48ae17c2e68a24c0889119ee3d6266a10720f54c8b13a0aeb9",
+      "proposed_sha256": "9f8980a3547a505c301af6a46c8a037c4d759aa410fdafbb2d0781adc041c939",
+      "all_substantive_passages_accounted_for": true,
+      "passages": [
+        "Every previous complete public proposal/comparison or normalized capture paragraph and captured source URL retained.",
+        "New parent choices remain uncertain; named-child parent clauses are distinguished from adult identity.",
+        "Mothers assessed separately; all date discrepancies, alternative father generations, older scaffolds and pending work retained.",
+        "Earlier committed full proposal checked separately; additional source notes and citations retained verbatim."
+      ],
+      "source_urls_retained": [
+        "https://familysearch.org/ark:/61903/1:1:XY9W-J5Q",
+        "https://www.familysearch.org/ark:/61903/1:1:VQ4J-FXD",
+        "https://www.familysearch.org/ark:/61903/1:1:VQ4J-JJK",
+        "https://www.familysearch.org/ark:/61903/1:1:VQ4K-X6G",
+        "https://www.scotlandspeople.gov.uk/"
+      ],
+      "full_comparison_withheld_for_privacy": false,
+      "private_source_urls_retained_count": 0
+    },
+    "Glasgow-3610": {
+      "current_sha256": "42c6e052851c878284b8a05e23829d8e23d12713bbf5a99d2e1f09d893c931b7",
+      "proposed_sha256": "826b884395d0ccd23f697388908ae8661df4eff5c8421fd8dbdd0ee03e50aaa5",
+      "all_substantive_passages_accounted_for": true,
+      "passages": [
+        "Every previous complete public proposal/comparison or normalized capture paragraph and captured source URL retained.",
+        "New parent choices remain uncertain; named-child parent clauses are distinguished from adult identity.",
+        "Mothers assessed separately; all date discrepancies, alternative father generations, older scaffolds and pending work retained.",
+        "Earlier committed full proposal checked separately; additional source notes and citations retained verbatim."
+      ],
+      "source_urls_retained": [
+        "https://www.familysearch.org/ark:/61903/1:1:VQ4K-X6G"
+      ],
+      "full_comparison_withheld_for_privacy": false,
+      "private_source_urls_retained_count": 0,
+      "previous_review_path": "research/ancestry-connections/lothian-heads-preservation-2026-10-16.json"
+    }
+  },
+  "previous_queue_entries": {
+    "Glasgow-3012": {
+      "significance": 40,
+      "summary": "Pending WikiTree update: add the 22/04/1649 Kirknewton and East Calder index date and explain its difference from the existing birth details.",
+      "work_queue_summary": "Pending WikiTree update: add the 22/04/1649 Kirknewton and East Calder index date and explain its difference from the existing birth details.",
+      "draft_path": "research/Glasgow-3012/opr-birth-046-draft.md",
+      "reviewed_narrative_reduction": true,
+      "biography_rechecked_at": "2026-09-10"
+    },
+    "Glasgow-3610": {
+      "queued_at": "2026-10-16",
+      "significance": 85,
+      "summary": "Add John Glasgow, Mid Calder/Quothquan working identity as the selected uncertain working father, with logic and alternatives; preserve current facts and sources. Local model, pending owner-reviewed WikiTree amendment. Review the newly selected uncertain Lothian father, retained alternatives and independently unknown mother. Earlier completed corrections remain completed.",
+      "manual_update": true,
+      "draft_path": "research/Glasgow-3610/Glasgow-3610.md",
+      "preservation_review_path": "research/ancestry-connections/lothian-heads-preservation-2026-10-16.json",
+      "reviewed_narrative_reduction": true,
+      "preserve_captured_detail": false,
+      "relationship_changes": [
+        {
+          "action": "add",
+          "relationship": "father",
+          "status": "uncertain",
+          "relative_id": "Glasgow-3296",
+          "assertion_id": "C-working-20261015-glasgow-3610-glasgow-3296"
+        },
+        {
+          "action": "add",
+          "relationship": "child",
+          "status": "uncertain",
+          "relative_id": "Glasgow-1026",
+          "assertion_id": "C-working-20261016-lothian-heads-william"
+        }
+      ],
+      "status": "OPEN"
+    }
+  }
+}

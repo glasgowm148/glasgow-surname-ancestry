@@ -1786,3 +1786,9 @@ The August completion entries remain historical. The live parent fields are now 
 | [James Glasgow, Glencorse and Cecil accounts](https://www.wikitree.com/wiki/Glasgow-2868) | OPEN | Review the very uncertain James-and-Ann parents of Robert/Apphia’s family; retain notice identity, omitted-child counterevidence, unproved maternal surname and Scottish–Maryland continuity gap. |
 | [Ann Hartshorne](https://www.wikitree.com/wiki/Hartshorne-320) | OPEN | Review the very uncertain James-and-Ann parents of Robert/Apphia’s family; retain notice identity, omitted-child counterevidence, unproved maternal surname and Scottish–Maryland continuity gap. |
 | [Apphia Moores](https://www.wikitree.com/wiki/Moores-284) | OPEN | Review the very uncertain James-and-Ann parents of Robert/Apphia’s family; retain notice identity, omitted-child counterevidence, unproved maternal surname and Scottish–Maryland continuity gap. |
+
+
+## Major-connection confidence review — 16 October 2026
+
+| [Johne Glasgow, indexed in 1649](https://www.wikitree.com/wiki/Glasgow-3012) | OPEN | Grade the existing 1649 father relation for the record-defined child; keep the father’s 1608 identity and 4 April/22 April birth-date issue unresolved. No new attachment. |
+| [Johne Glasgow, the 1649 father](https://www.wikitree.com/wiki/Glasgow-3610) | OPEN | Grade the existing 1649 father relation for the record-defined child; keep the father’s 1608 identity and 4 April/22 April birth-date issue unresolved. No new attachment. |

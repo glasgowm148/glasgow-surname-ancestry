@@ -1,8 +1,12 @@
 # Findings: John Glasgow (Glasgow-3610), reconstructed 1649 father
 
-Last updated: 2026-09-26
+Last updated: 2026-10-16
 
 ## Current conclusion
+
+Reviewed: 2026-10-16
+
+**Confidence review,16 October 2026:** the 1649 child’s existing father is documented from the named-parent index. The proposed 1608 identity of that father, and the other five major branch joins, remain uncertain. [Evidence and alternatives](/branches/early-scottish-records/#major-connection-confidence-review).
 
 Reviewed: 2026-10-16
 
@@ -52,3 +56,17 @@ Both father selections are expressly uncertain local hypotheses using existing m
 - [Johne, Kirknewton/East Calder,22 April 1649; father Johne](https://www.familysearch.org/ark:/61903/1:1:VQ4K-X6G)
 - [Bessie, Kirknewton,21 April 1682; William and Ann household](https://www.familysearch.org/ark:/61903/1:1:VQ4K-ZQN)
 - [Younger William, Kirknewton,1671; separate child account](https://www.familysearch.org/ark:/61903/1:1:VQ4K-F2B)
+
+
+## Father relationship confidence review — 16 October 2026
+
+The existing father relationship from Glasgow-3012 to Glasgow-3610 is now documented locally for the record-defined 1649 child. The supplied Scotland’s People index, Kirknewton and East Calder OPR 690/10/14, FR 15, names JOHNE GLASGOW as parent of the child JOHNE indexed on 22 April 1649. The preserved FamilySearch VQ4K-X6G account agrees on the child, father, parish and date. These are two presentations of the same underlying register, not independent records. Glasgow-3610 is specifically the adult-father account defined by that entry. No inference from age or surname is needed for that parental role.
+
+This certainty applies to the child and father in the 1649 record. It does not prove that the child became the 1673 Margaret Currie husband or that the father was the 1608 Mid Calder child, nor does it identify his own parents. The selected Glasgow-3610→Glasgow-3296 link remains uncertain. The profile’s 4 April 1649 birth and the index’s 22 April date remain unreconciled; neither the birth date nor the birth/baptism distinction is changed. The mother is not named in this index. The original register was not newly inspected; the confidence assessment rests on the maintained named-parent index evidence, with those limits explicit.
+
+The six highest-impact selected father hypotheses were re-evaluated using their actual source wording and identity assumptions. None has sufficient evidence for an overall certainty upgrade from this review. One existing, previously ungraded named-parent relationship inside the largest branch is newly marked documented locally; no new connection or working family is added. The live WikiTree certainty flag is unchanged and remains a pending amendment. Working and confidently marked connectivity are measured separately.
+
+[Complete comparison and source limits](/branches/early-scottish-records/#major-connection-confidence-review).
+
+- [Scotland’s People supplied OPR index: Johne, 22 April 1649, Kirknewton/East Calder 690/10/14, FR 15; parent JOHNE GLASGOW; maintained 10 September 2026 review](https://www.scotlandspeople.gov.uk/)
+- [FamilySearch VQ4K-X6G: preserved 1649 Johne/John father-and-child index account; not a newly inspected original](https://www.familysearch.org/ark:/61903/1:1:VQ4K-X6G)

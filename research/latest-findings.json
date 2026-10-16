@@ -28147,6 +28147,59 @@
         "research/relationship_assessments.json",
         "research/ancestry-connections/cecil-harford-robert-working-family-preservation-2026-10-16.json"
       ]
+    },
+    {
+      "id": "major-connection-confidence-review-2026-10-16",
+      "found_on": "2026-10-16",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Reviewed the six largest working joins, carrying branches of 278, 216, 148, 132, 52 and 48 profiles. Their overall identities remain uncertain. Newly documented the existing father of the indexed 1649 Johne within the largest branch; no new parent or family connection.",
+      "qualification": "The six highest-impact selected father hypotheses were re-evaluated using their actual source wording and identity assumptions. None has sufficient evidence for an overall certainty upgrade from this review. One existing, previously ungraded named-parent relationship inside the largest branch is newly marked documented locally; no new connection or working family is added. The live WikiTree certainty flag is unchanged and remains a pending amendment. Working and confidently marked connectivity are measured separately. This certainty applies to the child and father in the 1649 record. It does not prove that the child became the 1673 Margaret Currie husband or that the father was the 1608 Mid Calder child, nor does it identify his own parents. The selected Glasgow-3610→Glasgow-3296 link remains uncertain. The profile’s 4 April 1649 birth and the index’s 22 April date remain unreconciled; neither the birth date nor the birth/baptism distinction is changed. The mother is not named in this index. The original register was not newly inspected; the confidence assessment rests on the maintained named-parent index evidence, with those limits explicit. This certainty applies to the child and father in the 1649 record. It does not prove that the child became the 1673 Margaret Currie husband or that the father was the 1608 Mid Calder child, nor does it identify his own parents. The selected Glasgow-3610→Glasgow-3296 link remains uncertain. The profile’s 4 April 1649 birth and the index’s 22 April date remain unreconciled; neither the birth date nor the birth/baptism distinction is changed. The mother is not named in this index. The original register was not newly inspected; the confidence assessment rests on the maintained named-parent index evidence, with those limits explicit.",
+      "relationship_change_count": 1,
+      "people": [
+        {
+          "id": "Glasgow-3012",
+          "name": "Johne Glasgow, indexed in 1649",
+          "url": "/people/glasgow-3012.html"
+        },
+        {
+          "id": "Glasgow-3610",
+          "name": "Johne Glasgow, the 1649 father",
+          "url": "/people/glasgow-3610.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Scotland’s People supplied OPR index: Johne, 22 April 1649, Kirknewton/East Calder 690/10/14, FR 15; parent JOHNE GLASGOW; maintained 10 September 2026 review",
+          "url": "https://www.scotlandspeople.gov.uk/"
+        },
+        {
+          "title": "FamilySearch VQ4K-X6G: preserved 1649 Johne/John father-and-child index account; not a newly inspected original",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:VQ4K-X6G"
+        }
+      ],
+      "detail_url": "/branches/early-scottish-records/#major-connection-confidence-review",
+      "provenance": [
+        "research/relationship_assessments.json",
+        "research/ancestry-connections/major-connection-confidence-review-preservation-2026-10-16.json"
+      ],
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject_id": "Glasgow-3012",
+          "relative_id": "Glasgow-3610",
+          "before": "unmarked",
+          "after": "certain",
+          "explanation": "The existing father relationship from Glasgow-3012 to Glasgow-3610 is now documented locally for the record-defined 1649 child. The supplied Scotland’s People index, Kirknewton and East Calder OPR 690/10/14, FR 15, names JOHNE GLASGOW as parent of the child JOHNE indexed on 22 April 1649. The preserved FamilySearch VQ4K-X6G account agrees on the child, father, parish and date. These are two presentations of the same underlying register, not independent records. Glasgow-3610 is specifically the adult-father account defined by that entry. No inference from age or surname is needed for that parental role. This certainty applies to the child and father in the 1649 record. It does not prove that the child became the 1673 Margaret Currie husband or that the father was the 1608 Mid Calder child, nor does it identify his own parents. The selected Glasgow-3610→Glasgow-3296 link remains uncertain. The profile’s 4 April 1649 birth and the index’s 22 April date remain unreconciled; neither the birth date nor the birth/baptism distinction is changed. The mother is not named in this index. The original register was not newly inspected; the confidence assessment rests on the maintained named-parent index evidence, with those limits explicit.",
+          "previous_status_provenance": [
+            "Local public father row: unknown before this batch.",
+            "Saved WikiTree certainty: unmarked; no live edit."
+          ],
+          "assertion_id": "C-reviewed-20261016-kirknewton-1649-johne-father",
+          "subject": "Johne Glasgow, indexed in 1649 (Glasgow-3012)",
+          "relative": "Johne Glasgow, the 1649 father (Glasgow-3610)"
+        }
+      ]
     }
   ]
 }
