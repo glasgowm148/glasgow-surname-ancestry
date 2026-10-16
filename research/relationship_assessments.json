@@ -1635,7 +1635,8 @@
     "status": "proved",
     "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
     "source_ids": [
-      "review-reference-c-father-audit-20260928-glasgow-4152-glasgow-4151"
+      "review-reference-c-father-audit-20260928-glasgow-4152-glasgow-4151",
+      "saltcoats-john-testament-1637"
     ],
     "source_summary": "Glasgow Commissary Court testament dative and inventory",
     "assessment_date": "2026-09-28",
@@ -1662,6 +1663,12 @@
       "reviewed_at": "2026-09-28",
       "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
       "live_wikitree_status": "confident"
+    },
+    "tree_family_restoration": {
+      "child": "Glasgow-4151",
+      "father": "Glasgow-4152",
+      "previously_confident": true,
+      "reason": "Restore the already-confident captured father after materializing his omitted public catalogue page; no relationship or confidence upgrade."
     }
   },
   {
@@ -1673,7 +1680,8 @@
     "status": "proved",
     "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
     "source_ids": [
-      "review-reference-c-father-audit-20260928-glasgow-4152-glasgow-4153"
+      "review-reference-c-father-audit-20260928-glasgow-4152-glasgow-4153",
+      "saltcoats-john-testament-1637"
     ],
     "source_summary": "Glasgow Commissary Court testament dative and inventory",
     "assessment_date": "2026-09-28",
@@ -1700,6 +1708,12 @@
       "reviewed_at": "2026-09-28",
       "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
       "live_wikitree_status": "confident"
+    },
+    "tree_family_restoration": {
+      "child": "Glasgow-4153",
+      "father": "Glasgow-4152",
+      "previously_confident": true,
+      "reason": "Restore the already-confident captured father after materializing his omitted public catalogue page; no relationship or confidence upgrade."
     }
   },
   {
@@ -4158,6 +4172,53 @@
       "prior_assessment": "No selected local father; former James elder/Margaret Smith attachment removed in August 2026.",
       "basis": "Existing 1601/1628 household evidence, 1559–1571 Corsankell family, compatible generations and existing Ayrshire comparisons. No new original inspection.",
       "resolution_note": "New uncertain local father hypothesis only; no mother, sibling proof, identity merge or certainty upgrade."
+    }
+  },
+  {
+    "assertion_id": "C-working-20261016-saltcoats-corsankell-john",
+    "people": [
+      "Glasgow-4152",
+      "Glasgow-3193"
+    ],
+    "profile_names": {
+      "Glasgow-4152": "John Glasgow, Saltcoats sailor",
+      "Glasgow-3193": "John Glasgow, Corsankell/Kilwinning"
+    },
+    "status": "uncertain",
+    "hypothesis_status": "possible",
+    "working_selection": true,
+    "allow_new_relationship": true,
+    "evidence_grade": "Low-confidence locality and generational inference; exact degree open",
+    "claim": "The earlier Corsankell John is selected as the Saltcoats sailor’s uncertain father.",
+    "basis": "Select John Glasgow-3193, the recorded son at Corsankell in 1571 and probable Kilwinning tenant of 1559–60, as the Saltcoats sailor John Glasgow-4152’s uncertain working father. Saltcoats in Ardrossan adjoins the Stevenston–Kilwinning coastal parish cluster where this earlier Glasgow family is documented. A later-sixteenth-century son of the earlier adult could have been a working sailor and father of two daughters by 1636. The choice gives the Saltcoats household a provisional place in an existing local John line, using geography and a feasible generation. It is a low-confidence selection, not a named parent clause or an identification of the two Johns.",
+    "limitations": "No source names the sailor’s parents or age. His former c.1600 birth was an unsupported creation estimate; it is not replaced by an invented older birth to fit this hypothesis. If a birth near 1600 is eventually established, the earlier John would have been an older father, and a grandson or more distant collateral placement could be more natural. Same given name is weak support and does not distinguish this candidate securely from Glasgow-3921 (James younger), another member of the local family, or an unrecorded father. The sailor could belong elsewhere in that family or to another branch. The 1559–60 Kilwinning attribution to the Corsankell John is itself probable, although the 1571 Corsankell family is directly recorded. The same-person alternative is less economical: an adult in 1559 would have been about 95 or older at the sailor’s death in 1636, assuming adulthood at eighteen. That is an illustrative age comparison, not a proved exclusion. The father-versus-grandfather degree remains open. No mother is assigned to the sailor or to his daughters; Agnes Wilson’s joint tenancy does not make her his mother, and Isobell Gray’s widowhood does not prove her maternity. The girls’ already-proved father links remain proved. No identity merge, new original inspection, live WikiTree save or confidence upgrade is made.",
+    "source_ids": [
+      "saltcoats-john-testament-1637",
+      "nrs-gd39-5-59-1571"
+    ],
+    "assessment_date": "2026-10-16",
+    "publication_status": "approved",
+    "perspectives": {
+      "Glasgow-4152": {
+        "relationship": "father",
+        "reason": "Select John Glasgow-3193, the recorded son at Corsankell in 1571 and probable Kilwinning tenant of 1559–60, as the Saltcoats sailor John Glasgow-4152’s uncertain working father. Saltcoats in Ardrossan adjoins the Stevenston–Kilwinning coastal parish cluster where this earlier Glasgow family is documented. A later-sixteenth-century son of the earlier adult could have been a working sailor and father of two daughters by 1636. The choice gives the Saltcoats household a provisional place in an existing local John line, using geography and a feasible generation. It is a low-confidence selection, not a named parent clause or an identification of the two Johns."
+      },
+      "Glasgow-3193": {
+        "relationship": "son",
+        "reason": "Select John Glasgow-3193, the recorded son at Corsankell in 1571 and probable Kilwinning tenant of 1559–60, as the Saltcoats sailor John Glasgow-4152’s uncertain working father. Saltcoats in Ardrossan adjoins the Stevenston–Kilwinning coastal parish cluster where this earlier Glasgow family is documented. A later-sixteenth-century son of the earlier adult could have been a working sailor and father of two daughters by 1636. The choice gives the Saltcoats household a provisional place in an existing local John line, using geography and a feasible generation. It is a low-confidence selection, not a named parent clause or an identification of the two Johns."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Saltcoats family: documented children and tentative earlier placement",
+        "href": "/branches/early-scottish-records/#saltcoats-working-family"
+      }
+    ],
+    "provenance": {
+      "source": "research/relationship_assessments.json",
+      "prior_assessment": "Sailor’s parents blank; daughters already confident. Father’s catalogue page omitted.",
+      "basis": "Existing 1637 original-register review and 1559–1571 local family records; no new original inspection.",
+      "resolution_note": "One new uncertain father; two existing proved links restored to the visible family. Mothers independent; exact degree open."
     }
   }
 ]

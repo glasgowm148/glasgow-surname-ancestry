@@ -5,6 +5,9 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
+**Saltcoats working family, 16 October 2026:** The sailor Glasgow-4152 is selected as an uncertain working son of Glasgow-3193. Katherine and Agnes remain his already-proved daughters; no mother is inferred. [Evidence, alternatives and open degree](/branches/early-scottish-records/#saltcoats-working-family).
+
+
 On 27 September 2026 the record-defined Corsinkell son Glasgow-4061 was merged into this older profile as the leading identity for the John Glasgow recorded at Burrowland and Dalgarven in 1559–60. Fresh review of the official NRS catalogue and the surviving live biography confirms that this profile explicitly represents the Corsinkell son. **James Glasgow elder is his confident father**, directly stated in GD39/5/59 and saved/read back on WikiTree on 27 September. Identifying this record-defined John with the earlier Kilwinning occurrences remains probable, not certain; that event-attribution question does not make the deed's father-son statement uncertain. Agnes Wilson is a joint tenant in the teind list, not a proved wife. John was alive on 9 February 1571, and no death date or birthplace is documented.
 
 ## Source findings
@@ -50,3 +53,17 @@ burgess of Glasgow]] was this John's father. It has already been replaced in the
 structured tree and should survive only as a rejected former hypothesis.
 
 Edit applied: `Mark James Glasgow elder as John’s confident father from GD39/5/59; keep the Kilwinning identification qualified.`
+
+<!-- findmypast-studies-sweep-2026-10-07 pre1600-pass3 -->
+## Third pre-1610 pass (2026-10-08)
+
+- The printed Edinburgh Testaments index (p.108) confirms 8 Nov 1580 for Margaret, "sometime spouse to John Edstoun, in Croftmalloch".
+- `pre-1600-father-status-audit-2026-09-28.json` and `pre-1600-glasgow-father-evidence-audit-2026-09-28.json` say "1578". That is wrong.
+
+## Saltcoats working family — 16 October 2026
+
+Select John Glasgow-3193, the recorded son at Corsankell in 1571 and probable Kilwinning tenant of 1559–60, as the Saltcoats sailor John Glasgow-4152’s uncertain working father. Saltcoats in Ardrossan adjoins the Stevenston–Kilwinning coastal parish cluster where this earlier Glasgow family is documented. A later-sixteenth-century son of the earlier adult could have been a working sailor and father of two daughters by 1636. The choice gives the Saltcoats household a provisional place in an existing local John line, using geography and a feasible generation. It is a low-confidence selection, not a named parent clause or an identification of the two Johns.
+
+No source names the sailor’s parents or age. His former c.1600 birth was an unsupported creation estimate; it is not replaced by an invented older birth to fit this hypothesis. If a birth near 1600 is eventually established, the earlier John would have been an older father, and a grandson or more distant collateral placement could be more natural. Same given name is weak support and does not distinguish this candidate securely from Glasgow-3921 (James younger), another member of the local family, or an unrecorded father. The sailor could belong elsewhere in that family or to another branch. The 1559–60 Kilwinning attribution to the Corsankell John is itself probable, although the 1571 Corsankell family is directly recorded. The same-person alternative is less economical: an adult in 1559 would have been about 95 or older at the sailor’s death in 1636, assuming adulthood at eighteen. That is an illustrative age comparison, not a proved exclusion. The father-versus-grandfather degree remains open. No mother is assigned to the sailor or to his daughters; Agnes Wilson’s joint tenancy does not make her his mother, and Isobell Gray’s widowhood does not prove her maternity. The girls’ already-proved father links remain proved. No identity merge, new original inspection, live WikiTree save or confidence upgrade is made.
+
+Sources: NRS CC9/7/27, register pp.478–480 (original reviewed September 2026); [GD39/5/59, 9 February 1571](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD39%2F5%2F59); Sanderson, *People of Sixteenth Century Ayrshire*, [p.333](https://aanhs.org/wp-content/uploads/2018/05/people-of-ayrshire.pdf#page=38). [Complete comparison](/branches/early-scottish-records/#saltcoats-working-family).

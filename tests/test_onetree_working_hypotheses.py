@@ -1,6 +1,6 @@
 import unittest
 
-from tools.site_sources.onetree.build import apply_working_hypotheses
+from tools.site_sources.onetree.build import apply_working_hypotheses, apply_recorded_family_restorations
 
 
 def people(*ids):
@@ -14,6 +14,23 @@ def assessment(child, father, **extra):
 
 
 class WorkingHypothesisTests(unittest.TestCase):
+    def test_recorded_family_restoration_requires_captured_father_and_prior_grade(self):
+        model = people('Child-1', 'Father-1')
+        model[0]['parents'] = [{'id': 'Father-1', 'role': 'father', 'status': 'confident'}]
+        item = {'assertion_id': 'A-recorded', 'publication_status': 'approved', 'status': 'proved',
+                'basis': 'Existing reviewed record', 'source_ids': ['S-record'],
+                'perspectives': {'Child-1': {'relationship': 'father'}},
+                'tree_family_restoration': {'child': 'Child-1', 'father': 'Father-1', 'previously_confident': True}}
+        self.assertEqual(apply_recorded_family_restorations(model, [item]), ['Child-1', 'Father-1'])
+        self.assertEqual(model[1]['childrenRecorded'][0]['status'], 'proved')
+        item['tree_family_restoration']['previously_confident'] = False
+        with self.assertRaisesRegex(ValueError, 'already-confident'):
+            apply_recorded_family_restorations(model, [item])
+        item['tree_family_restoration']['previously_confident'] = True
+        model[0]['parents'][0]['id'] = 'Other-1'
+        with self.assertRaisesRegex(ValueError, 'captured father'):
+            apply_recorded_family_restorations(model, [item])
+
     def test_approved_selected_edge_is_added(self):
         model = people("Child-1", "Father-1")
         self.assertEqual(apply_working_hypotheses(model, [assessment("Child-1", "Father-1")]), 1)

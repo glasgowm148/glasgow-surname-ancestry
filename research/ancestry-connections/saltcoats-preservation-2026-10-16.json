@@ -1,0 +1,60 @@
+{
+  "reviewed": "2026-10-16",
+  "scope": "Four complete drafts; one uncertain upstream father, existing proved children and completed creation wording",
+  "profiles": {
+    "Glasgow-4152": {
+      "current_sha256": "58f23475fa2b3c5e500be4d0e01d2f50ebf723f97d2332f8bc06a102e3eb00b3",
+      "proposed_sha256": "2084692fc20ba3615ae37942a7599998babf26cb02a5640830a966db46721895",
+      "all_substantive_passages_accounted_for": true,
+      "passages": [
+        "All captured biography paragraphs, named relatives, qualifications, citations and source URLs retained after standard native-markup normalization.",
+        "New upstream connection remains low confidence; alternatives and exact degree are explicit; no mother is inherited."
+      ],
+      "source_urls_retained": [
+        "https://archive.org/details/scottishrecordso07scotuoft/page/196/mode/2up?q=Glasgow%2C",
+        "https://www.scotlandspeople.gov.uk/search-records/legal-records/wills"
+      ]
+    },
+    "Glasgow-3193": {
+      "current_sha256": "43ad03494b29b7d95314595e0281ee703f73e83aee0054e8b9b4e329f98c2839",
+      "proposed_sha256": "2f19b768a6e9b17614524ff12db358a8462c4f6804b383718ae36fe9b473357f",
+      "all_substantive_passages_accounted_for": true,
+      "passages": [
+        "All captured biography paragraphs, named relatives, qualifications, citations and source URLs retained after standard native-markup normalization.",
+        "New upstream connection remains low confidence; alternatives and exact degree are explicit; no mother is inherited."
+      ],
+      "source_urls_retained": [
+        "https://aanhs.org/wp-content/uploads/2018/05/people-of-ayrshire.pdf#page=38",
+        "https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD39%2F5%2F59",
+        "https://www.kilwinningheritage.org.uk/office/resources/documents/a-short-history-of-kilwinning-parish-2nd-ed.pdf"
+      ]
+    },
+    "Glasgow-4151": {
+      "current_sha256": "c0a31601c89106ced414506f2ea312a87e671767381ee2d828c8e3245653ff55",
+      "proposed_sha256": "5997eb015a3a4cb496795e73c309da7aaff99d6bb68dd794cca780dd56ecad73",
+      "all_substantive_passages_accounted_for": true,
+      "passages": [
+        "All captured biography paragraphs, named relatives, qualifications, citations and source URLs retained after standard native-markup normalization.",
+        "New upstream connection remains low confidence; alternatives and exact degree are explicit; no mother is inherited.",
+        "Completed creation/attachment instruction replaced with the existing father ID and prior confidence verification."
+      ],
+      "source_urls_retained": [
+        "https://www.scotlandspeople.gov.uk/search-records/legal-records/wills"
+      ]
+    },
+    "Glasgow-4153": {
+      "current_sha256": "933d3ba8626b43e1de39fab059a2ac3d2200319ffd91f09eee5f0a942acd7b4c",
+      "proposed_sha256": "d1a2a255e5909d4179cb69ef6b571c88c09c74cd986fed2b02508d19e5da6e1a",
+      "all_substantive_passages_accounted_for": true,
+      "passages": [
+        "All captured biography paragraphs, named relatives, qualifications, citations and source URLs retained after standard native-markup normalization.",
+        "New upstream connection remains low confidence; alternatives and exact degree are explicit; no mother is inherited.",
+        "Completed creation/attachment instruction replaced with the existing father ID and prior confidence verification."
+      ],
+      "source_urls_retained": [
+        "https://www.irishgenealogy.ie/files/church/d-116-1-1-098.pdf",
+        "https://www.scotlandspeople.gov.uk/search-records/legal-records/wills"
+      ]
+    }
+  }
+}

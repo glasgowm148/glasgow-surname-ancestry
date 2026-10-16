@@ -26182,6 +26182,56 @@
         "research/relationship_assessments.json",
         "research/ancestry-connections/documentary-people.json"
       ]
+    },
+    {
+      "id": "saltcoats-working-family-2026-10-16",
+      "found_on": "2026-10-16",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "The Saltcoats sailor and his documented daughters are restored as one family, with the earlier Corsankell John selected as his uncertain working father.",
+      "qualification": "No source names the sailor’s parents or age. His former c.1600 birth was an unsupported creation estimate; it is not replaced by an invented older birth to fit this hypothesis. If a birth near 1600 is eventually established, the earlier John would have been an older father, and a grandson or more distant collateral placement could be more natural. Same given name is weak support and does not distinguish this candidate securely from Glasgow-3921 (James younger), another member of the local family, or an unrecorded father. The sailor could belong elsewhere in that family or to another branch. The 1559–60 Kilwinning attribution to the Corsankell John is itself probable, although the 1571 Corsankell family is directly recorded. The same-person alternative is less economical: an adult in 1559 would have been about 95 or older at the sailor’s death in 1636, assuming adulthood at eighteen. That is an illustrative age comparison, not a proved exclusion. The father-versus-grandfather degree remains open. No mother is assigned to the sailor or to his daughters; Agnes Wilson’s joint tenancy does not make her his mother, and Isobell Gray’s widowhood does not prove her maternity. The girls’ already-proved father links remain proved. No identity merge, new original inspection, live WikiTree save or confidence upgrade is made. The missing page was a catalogue omission; the two daughter links were already confident on 28 September.",
+      "relationship_change_count": 1,
+      "people": [
+        {
+          "id": "Glasgow-4152",
+          "name": "John, Saltcoats sailor",
+          "url": "/people/glasgow-4152.html"
+        },
+        {
+          "id": "Glasgow-3193",
+          "name": "John, Corsankell/Kilwinning",
+          "url": "/people/glasgow-3193.html"
+        },
+        {
+          "id": "Glasgow-4151",
+          "name": "Agnes Glasgow",
+          "url": "/people/glasgow-4151.html"
+        },
+        {
+          "id": "Glasgow-4153",
+          "name": "Katherine Glasgow",
+          "url": "/people/glasgow-4153.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "John’s testament dative, CC9/7/27, register pp.478–480",
+          "url": "https://www.scotlandspeople.gov.uk/search-records/legal-records/wills"
+        },
+        {
+          "title": "GD39/5/59, 9 February 1571",
+          "url": "https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD39%2F5%2F59"
+        },
+        {
+          "title": "Kilwinning teind list, 1559–60, printed p.333",
+          "url": "https://aanhs.org/wp-content/uploads/2018/05/people-of-ayrshire.pdf#page=38"
+        }
+      ],
+      "detail_url": "/branches/early-scottish-records/#saltcoats-working-family",
+      "provenance": [
+        "research/relationship_assessments.json",
+        "research/ancestry-connections/saltcoats-preservation-2026-10-16.json"
+      ]
     }
   ]
 }

@@ -178,6 +178,87 @@
           "death_location": "uncertain"
         }
       }
+    },
+    {
+      "id": "Glasgow-4152",
+      "publication_status": "approved",
+      "source_ids": [
+        "saltcoats-john-testament-1637"
+      ],
+      "assessment_id": "chronology-saltcoats-john-20261016",
+      "reviewed": "2026-10-16",
+      "year": 1636,
+      "year_basis": "death",
+      "year_status": "documented month; not birth",
+      "first_record_year": 1637,
+      "birth_year": null,
+      "death_year": 1636,
+      "reason": "The original testament review establishes December 1636 death and April 1637 administration. The captured c.1600 birth is an unsupported creation estimate: age is not stated. Saltcoats is residence; its use as birthplace or death place remains an uncertain inference. No birth is invented to fit a proposed father.",
+      "vitals": {
+        "birth": {
+          "date": null,
+          "display_date": "Unknown",
+          "place": "Saltcoats, Ayrshire, Scotland",
+          "status": "unknown",
+          "place_status": "uncertain",
+          "qualifier": "Birth date unknown; former c.1600 creation estimate retained in the import. Birthplace inferred solely from residence."
+        },
+        "death": {
+          "date": "1636-12",
+          "display_date": "December 1636",
+          "place": "Saltcoats, Ayrshire, Scotland",
+          "status": "certain",
+          "place_status": "uncertain",
+          "qualifier": "Death month stated in the testament; locality inferred from residence.",
+          "source_url": "https://www.scotlandspeople.gov.uk/search-records/legal-records/wills"
+        }
+      },
+      "tree_display": {
+        "born": null,
+        "died": 1636,
+        "year": 1636,
+        "birthDisplay": "Unknown",
+        "deathDisplay": "December 1636",
+        "lifeLabel": "Birth unknown; died December 1636",
+        "deathplace": "Saltcoats, Ayrshire, Scotland (inferred)",
+        "deathLocationRegion": "scotland"
+      },
+      "catalogue_projection": {
+        "birth": "Unknown",
+        "birth_year": null,
+        "birth_note": "Age not stated; c.1600 was a creation estimate.",
+        "birth_location": "Saltcoats, Ayrshire, Scotland (inferred)",
+        "birth_location_note": "Residence, not a stated birthplace.",
+        "death": "December 1636",
+        "death_year": 1636,
+        "death_location": "Saltcoats, Ayrshire, Scotland (inferred)",
+        "date_years": [
+          1636,
+          1637
+        ],
+        "locations": [
+          "Saltcoats, Ardrossan, Ayrshire, Scotland"
+        ],
+        "location_aliases": [
+          "Saltcoittis",
+          "Ardrossan"
+        ],
+        "location_groups": [
+          {
+            "id": "",
+            "country": "Scotland",
+            "area": "Ayrshire",
+            "locality": "Saltcoats"
+          }
+        ],
+        "estimated_location": true,
+        "field_statuses": {
+          "birth": "unknown",
+          "birth_location": "uncertain",
+          "death": "certain",
+          "death_location": "uncertain"
+        }
+      }
     }
   ]
 }

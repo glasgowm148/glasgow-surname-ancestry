@@ -1918,5 +1918,31 @@
         "timeline_group": "Land and property"
       }
     }
+  },
+  {
+    "record_id": "saltcoats-john-testament-1637",
+    "association": "John Glasgow, sailor in Saltcoats, and his lawful daughters Katherine and Agnes",
+    "date": "April 1637",
+    "year": 1637,
+    "place": "Saltcoats, Ardrossan, Ayrshire, Scotland",
+    "source_title": "NRS CC9/7/27, Glasgow Commissary Court, testament dative and inventory, register pp.478–480",
+    "source_url": "https://www.scotlandspeople.gov.uk/search-records/legal-records/wills",
+    "source_quality": "original",
+    "status": "Existing original-register review, September 2026; no new inspection",
+    "note": "John died December 1636. Isobell Gray is his widow; Katherine and Agnes are his lawful children. The record does not state his parents, age, birthplace or the girls’ mother. The index gives 11 April; the manuscript day remains insecure.",
+    "profiles": {
+      "Glasgow-4152": {
+        "role": "decedent",
+        "timeline_group": "Probate"
+      },
+      "Glasgow-4151": {
+        "role": "lawful daughter",
+        "timeline_group": "Family"
+      },
+      "Glasgow-4153": {
+        "role": "lawful daughter",
+        "timeline_group": "Family"
+      }
+    }
   }
 ]

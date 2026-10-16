@@ -1,3 +1,7 @@
+> **CREATION COMPLETED — Glasgow-4152:** Created 18 September 2026; Open capture 27 September. The earlier creation audit below is retained as history. Use the existing profile and current findings; do not create another person.
+
+## Historical creation handoff
+
 > **READY TO CREATE — DISTINCT DOCUMENTARY PERSON (HIGH CONFIDENCE):** No
 > existing profile combines John's Saltcoats residence, sailor occupation,
 > December 1636 death, widow Isobell Gray and daughters Katherine and Agnes.

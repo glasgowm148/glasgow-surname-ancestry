@@ -173,6 +173,38 @@ def apply_working_hypotheses(people: list[dict], assessments: list[dict], parent
     return len(selected)
 
 
+def apply_recorded_family_restorations(people: list[dict], assessments: list[dict]) -> list[str]:
+    """Restore explicitly reviewed, already-confident captured family links."""
+    by_id = {p['id']: p for p in people}
+    changed = set()
+    for assessment in assessments:
+        restoration = assessment.get('tree_family_restoration')
+        if not restoration:
+            continue
+        child, father = restoration.get('child'), restoration.get('father')
+        if (assessment.get('publication_status') != 'approved'
+                or assessment.get('status') not in {'proved', 'confident', 'strongly_supported'}
+                or restoration.get('previously_confident') is not True
+                or not assessment.get('source_ids') or not assessment.get('assertion_id')
+                or child not in by_id or father not in by_id
+                or assessment.get('perspectives', {}).get(child, {}).get('relationship') != 'father'):
+            raise ValueError('Family restoration requires an approved, already-confident father assessment')
+        parents = [r for r in by_id[child]['parents'] if r.get('role') == 'father']
+        if len(parents) != 1 or parents[0].get('id') != father:
+            raise ValueError('Family restoration must match the captured father')
+        parents[0].update(status=assessment['status'], inModel=True,
+            source='reviewed_recorded_family', assertion_id=assessment['assertion_id'],
+            reason=assessment['basis'])
+        children = by_id[father].setdefault('childrenRecorded', [])
+        previous = next((r for r in children if r.get('id') == child), {})
+        children[:] = [r for r in children if r.get('id') != child]
+        children.append({**previous, 'id': child, 'name': by_id[child]['name'], 'role': 'child',
+                         'inModel': True, 'status': assessment['status'],
+                         'assertion_id': assessment['assertion_id'], 'reason': assessment['basis']})
+        changed.update([child, father])
+    return sorted(changed)
+
+
 def apply_reviewed_parent_replacements(people: list[dict], assessments: list[dict]) -> list[str]:
     """Apply sourced role corrections, retaining the previous parent display."""
     by_id = {p['id']: p for p in people}
@@ -301,6 +333,7 @@ def generate_model(catalogue_path: Path, prior: dict) -> dict:
         assessments = []
     aliases_path = ROOT / 'data/wikitree/live-profile-overrides.json'
     parent_aliases = json.loads(aliases_path.read_text()).get('redirects', {}) if aliases_path.exists() else {}
+    restored_family_ids = apply_recorded_family_restorations(people, assessments)
     reviewed_parent_ids = apply_reviewed_parent_replacements(people, assessments)
     hypotheses = apply_working_hypotheses(people, assessments, parent_aliases)
 
@@ -431,6 +464,7 @@ def generate_model(catalogue_path: Path, prior: dict) -> dict:
             "documentaryPeople": len(documentary),
             "identityHypotheses": sum((p.get('identity_selection') or {}).get('selected') is True for p in documentary),
             "reviewedParentReplacementIds": reviewed_parent_ids,
+            "reviewedFamilyRestorationIds": restored_family_ids,
             "method": "Current family fields come from the public catalogue, alongside named documentary ancestors with complete sourced accounts. Documentary record periods are not birth dates. Selected working hypotheses remain marked uncertain and counted separately. One parent drives the drawing; collection nodes do not assert common ancestry.",
             "sources": [{"title": "Glasgow research catalogue", "url": "https://glasgow.phenotype.dev/"}, {"title": "Public catalogue people data", "url": "https://glasgow.phenotype.dev/data/people.json"}, {"title": "Public Y-DNA explorer", "url": "https://glasgow.phenotype.dev/ydna/"}],
             "sourceExports": [path.name for path in exports], "catalogueGenerated": payload.get("generated", ""),

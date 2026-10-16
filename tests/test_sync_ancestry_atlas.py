@@ -6,6 +6,22 @@ from tools.sync_ancestry_atlas import overlay_model
 
 
 class AtlasWorkingTests(unittest.TestCase):
+    def test_recorded_family_can_add_missing_father_without_replacing_other_profiles(self):
+        old = {'meta': {}, 'landmarks': [], 'sections': [], 'people': [
+            {'id': '@root', 'kind': 'group'},
+            {'id': 'Child-1', 'kind': 'person', 'parents': [], 'edge': {'parent': '@root'}},
+            {'id': 'Other-1', 'kind': 'person', 'note': 'Approved account'}]}
+        fresh = deepcopy(old)
+        fresh['meta'].update(date='2026-10-16', reviewedFamilyRestorationIds=['Child-1', 'Father-1'])
+        fresh['people'][1].update(parents=[{'id': 'Father-1', 'role': 'father', 'status': 'proved'}],
+                                  edge={'parent': 'Father-1', 'type': 'recorded'})
+        fresh['people'].append({'id': 'Father-1', 'kind': 'person', 'edge': {'parent': '@root'}})
+        result = overlay_model(old, fresh)
+        self.assertEqual(result['people'][1]['edge']['parent'], 'Father-1')
+        self.assertEqual(result['people'][2], old['people'][2])
+        self.assertEqual(result['meta']['hypotheses'], 0)
+        self.assertEqual(result, overlay_model(result, fresh))
+
     def test_reciprocal_working_children_preserve_parent_facts_and_revoke_cleanly(self):
         old={'meta':{},'landmarks':[],'sections':[],'people':[
             {'id':'Father-1','kind':'person','note':'Approved detailed biography','born':1500,

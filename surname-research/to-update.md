@@ -1542,3 +1542,11 @@ The August completion entries remain historical. The live parent fields are now 
 
 - [[Glasgow-3178]] — OPEN: complete draft; new uncertain father James Glasgow younger, conditional 1601 chronology and corrected Ayrshire locality; mother blank.
 - [[Glasgow-3921]] — OPEN: complete draft; new uncertain daughter Agnes, competing family degrees retained. No live attachment performed.
+
+
+## Saltcoats working family — 16 October 2026
+
+| [John, Saltcoats sailor](https://www.wikitree.com/wiki/Glasgow-4152) | OPEN | Review complete sourced draft and uncertain upstream father hypothesis; retain known father grades and independent maternity. |
+| [John, Corsankell/Kilwinning](https://www.wikitree.com/wiki/Glasgow-3193) | OPEN | Review complete sourced draft and uncertain upstream father hypothesis; retain known father grades and independent maternity. |
+| [Agnes, Saltcoats](https://www.wikitree.com/wiki/Glasgow-4151) | OPEN | Review complete sourced draft and uncertain upstream father hypothesis; retain known father grades and independent maternity. |
+| [Katherine, Saltcoats](https://www.wikitree.com/wiki/Glasgow-4153) | OPEN | Review complete sourced draft and uncertain upstream father hypothesis; retain known father grades and independent maternity. |
