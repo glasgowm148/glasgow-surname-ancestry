@@ -1,8 +1,12 @@
 # Findings: William Glasgow (Glasgow-428)
 
-Last updated: 2026-09-30
+Last updated: 2026-10-16
 
 ## Current conclusion
+
+Reviewed: 2026-10-16
+
+**Selected very uncertain family, 16 October 2026:** Lemuel Glasgow-2581 is placed under the older Caleb Glasgow-363 account using the Currituck birth, infant move to Pasquotank and compatible generation. The alternative Caleb account, conflicting wills/dates and unknown mother remain explicit. [Evidence and alternatives](/people/glasgow-2581.html).
 
 The Currituck records establish a colonial William Glascoe/Glasgow household,
 but no inspected record identifies William's father or proves a connection to
@@ -64,3 +68,21 @@ full-text search for `Glascoe Glasco Glascow`, date filter 1600–1747, returned
 68 displayed records. Those results were saved, not all inspected; collection
 date metadata admitted later material. No collection-wide negative conclusion
 or certain father relationship follows from this search.
+
+
+## Selected uncertain family — 16 October 2026
+
+Caleb Glasgow-363 is selected as the very uncertain working father of Lemuel Glasgow-2581. The case combines a local surname household, a compatible older generation and the same Currituck–Pasquotank setting. Lemuel’s November 1833 pension declaration says he was born in Currituck, moved to Pasquotank as an infant and remained there until moving to Randolph about 1803. William Glasgow-428’s previously reviewed 1746 Currituck will names a son Caleb. The two modern Caleb accounts, Glasgow-363 and Glasgow-830, both cite a Pasquotank will of 1803. These details make the established local Caleb family a useful preferred home for Lemuel over an otherwise unidentified father. They do not put Caleb in Lemuel’s infant household or name his parents.
+
+William Glasgow-428 is not selected as Lemuel’s father: the previously reviewed probate was in April 1747, roughly six years before Lemuel’s believed 1753 birth. The 1746 will’s expected unborn child cannot normally be a child born in 1753. Making William the father would require a material error in Lemuel’s recollected birth, for which this review supplies no evidence. William’s own father Daniel remains unproved by the inspected records; no certainty is added to that older connection. No mother is selected for Lemuel. Gregory-3163’s existing attachment to Caleb and the Ruth Sawyer name in the other Caleb biography do not identify Lemuel’s mother. Dauge-19’s recorded 1715 birth also conflicts with literal maternity of a child born in 1726; that inherited chronology needs its own review rather than being silently repaired here.
+
+The Caleb profiles may represent one man with conflicting dates rather than brothers. Both point to the same FamilySearch person K815-XBS and the same family-site account; those references are not independent corroboration. Glasgow-363 records 1781 as his death year but its biography transcribes a Pasquotank will dated 20 September 1803; Glasgow-830 places Caleb’s death in 1804 and probate in 1808. The 1803 transcription names children Barhnda (as transcribed), James, Dorcas and Nancy, and an unnamed wife, but not Lemuel. That omission weakens a father hypothesis if this is the relevant testator, without proving that an older, separately established son could not have been omitted. No reason for an omission is established. The will’s modern-profile identity remains unresolved and neither death estimate is changed.
+
+One very uncertain father is newly selected. No mother, merge, new person, changed vital field, original manuscript inspection, live WikiTree edit or confidence upgrade is claimed. The Caleb accounts remain separate pending identity review. Working connectivity measures retained profile accounts and selected hypotheses; they do not prove either the paternity or a unique historical person count. The confidently marked connectivity totals remain unchanged.
+
+[Complete comparison and source limits](/people/glasgow-2581.html).
+
+- [Lemuel Glasgow pension R4056, Will Graves transcription, revised 2015, PDF pp.1–4; read 16 October 2026, original images not inspected](https://revwarapps.org/r4056.pdf)
+- [William Glasgow, Currituck will dated 30 September 1746, proved 7 April 1747; previously reviewed transcription, not original manuscript](https://www.ncgenweb.us/currituck/wills/glasgowwilliam1746.html)
+- [Caleb Glasgow family-site account, 1803 Pasquotank will transcription retained in the captured biography; modern testator identity unresolved](https://www.genealogy.com/ftm/g/r/a/Frances-M-Graykrueger/WEBSITE-0001/UHP-0131.html)
+- [FamilySearch K815-XBS, shared citation in both Caleb profiles; contributed tree, not independent birth or death evidence](https://www.familysearch.org/tree/person/details/K815-XBS)

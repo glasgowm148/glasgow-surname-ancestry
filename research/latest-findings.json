@@ -28035,6 +28035,60 @@
         "research/relationship_assessments.json",
         "research/ancestry-connections/corvanaghan-moneymore-working-family-preservation-2026-10-16.json"
       ]
+    },
+    {
+      "id": "currituck-lemuel-caleb-working-family-2026-10-16",
+      "found_on": "2026-10-16",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Selected the older Currituck Caleb account as Lemuel’s very uncertain father, using his reported Currituck-to-Pasquotank infancy and a compatible generation. The second Caleb account remains an alternative; their shared will, conflicting dates and Lemuel’s unknown mother remain unresolved.",
+      "qualification": "One very uncertain father is newly selected. No mother, merge, new person, changed vital field, original manuscript inspection, live WikiTree edit or confidence upgrade is claimed. The Caleb accounts remain separate pending identity review. Working connectivity measures retained profile accounts and selected hypotheses; they do not prove either the paternity or a unique historical person count. The confidently marked connectivity totals remain unchanged. The preference for Glasgow-363 is generational: its circa 1726 birth allows a father aged about 27 in 1753; Glasgow-830’s circa 1740 birth would give about 13. Neither Caleb birth is established by a birth record here, and Lemuel himself said he had no age record and only believed he was born in 1753. The younger estimate therefore lowers the second account’s preference without excluding it. No baptism, guardianship, deed or pension statement names Caleb as Lemuel’s father. A collateral connection to Caleb, another local Glasgow father or an unrelated Glasgow immigrant remains possible. This is a low-confidence named-family hypothesis, not a documented father clause. William Glasgow-428 is not selected as Lemuel’s father: the previously reviewed probate was in April 1747, roughly six years before Lemuel’s believed 1753 birth. The 1746 will’s expected unborn child cannot normally be a child born in 1753. Making William the father would require a material error in Lemuel’s recollected birth, for which this review supplies no evidence. William’s own father Daniel remains unproved by the inspected records; no certainty is added to that older connection. No mother is selected for Lemuel. Gregory-3163’s existing attachment to Caleb and the Ruth Sawyer name in the other Caleb biography do not identify Lemuel’s mother. Dauge-19’s recorded 1715 birth also conflicts with literal maternity of a child born in 1726; that inherited chronology needs its own review rather than being silently repaired here.",
+      "relationship_change_count": 1,
+      "people": [
+        {
+          "id": "Glasgow-2581",
+          "name": "Lemuel Glasgow",
+          "url": "/people/glasgow-2581.html"
+        },
+        {
+          "id": "Glasgow-363",
+          "name": "Caleb Glasgow, older Currituck account",
+          "url": "/people/glasgow-363.html"
+        },
+        {
+          "id": "Glasgow-830",
+          "name": "Caleb Glasgow, Pasquotank account",
+          "url": "/people/glasgow-830.html"
+        },
+        {
+          "id": "Glasgow-428",
+          "name": "William Glasgow",
+          "url": "/people/glasgow-428.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Lemuel Glasgow pension R4056, Will Graves transcription, revised 2015, PDF pp.1–4; read 16 October 2026, original images not inspected",
+          "url": "https://revwarapps.org/r4056.pdf"
+        },
+        {
+          "title": "William Glasgow, Currituck will dated 30 September 1746, proved 7 April 1747; previously reviewed transcription, not original manuscript",
+          "url": "https://www.ncgenweb.us/currituck/wills/glasgowwilliam1746.html"
+        },
+        {
+          "title": "Caleb Glasgow family-site account, 1803 Pasquotank will transcription retained in the captured biography; modern testator identity unresolved",
+          "url": "https://www.genealogy.com/ftm/g/r/a/Frances-M-Graykrueger/WEBSITE-0001/UHP-0131.html"
+        },
+        {
+          "title": "FamilySearch K815-XBS, shared citation in both Caleb profiles; contributed tree, not independent birth or death evidence",
+          "url": "https://www.familysearch.org/tree/person/details/K815-XBS"
+        }
+      ],
+      "detail_url": "/people/glasgow-2581.html",
+      "provenance": [
+        "research/relationship_assessments.json",
+        "research/ancestry-connections/currituck-lemuel-caleb-working-family-preservation-2026-10-16.json"
+      ]
     }
   ]
 }

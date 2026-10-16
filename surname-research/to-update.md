@@ -1770,3 +1770,11 @@ The August completion entries remain historical. The live parent fields are now 
 | [James Glasgow of Corvanaghan](https://www.wikitree.com/wiki/Glasgow-2988) | OPEN | Review the very uncertain Corvanaghan father through possible Moneymore identity; retain the Mitchell alternative, unproved older pedigree and1759Drumcarn limits. Private full comparisons remain withheld where needed. |
 | [James Glasgow, older family account](https://www.wikitree.com/wiki/Glasgow-1025) | OPEN | Review the very uncertain Corvanaghan father through possible Moneymore identity; retain the Mitchell alternative, unproved older pedigree and1759Drumcarn limits. Private full comparisons remain withheld where needed. |
 | [James Glasgow of Moneymore](https://www.wikitree.com/wiki/Glasgow-1024) | OPEN | Review the very uncertain Corvanaghan father through possible Moneymore identity; retain the Mitchell alternative, unproved older pedigree and1759Drumcarn limits. Private full comparisons remain withheld where needed. |
+
+
+## Currituck–Pasquotank working family — 16 October 2026
+
+| [Lemuel Glasgow](https://www.wikitree.com/wiki/Glasgow-2581) | OPEN | Review the very uncertain Lemuel–Caleb family, alternative Caleb account, conflicting dates and will identity; no mother or merge, all earlier sources retained. |
+| [Caleb Glasgow, older Currituck account](https://www.wikitree.com/wiki/Glasgow-363) | OPEN | Review the very uncertain Lemuel–Caleb family, alternative Caleb account, conflicting dates and will identity; no mother or merge, all earlier sources retained. |
+| [Caleb Glasgow, Pasquotank account](https://www.wikitree.com/wiki/Glasgow-830) | OPEN | Review the very uncertain Lemuel–Caleb family, alternative Caleb account, conflicting dates and will identity; no mother or merge, all earlier sources retained. |
+| [William Glasgow](https://www.wikitree.com/wiki/Glasgow-428) | OPEN | Review the very uncertain Lemuel–Caleb family, alternative Caleb account, conflicting dates and will identity; no mother or merge, all earlier sources retained. |

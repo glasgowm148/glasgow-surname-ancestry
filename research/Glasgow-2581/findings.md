@@ -1,0 +1,33 @@
+# Findings: [Lemuel Glasgow](https://www.wikitree.com/wiki/Glasgow-2581)
+
+Last updated: 2026-10-16
+
+## Current conclusion
+
+Reviewed: 2026-10-16
+
+**Selected very uncertain family, 16 October 2026:** Lemuel Glasgow-2581 is placed under the older Caleb Glasgow-363 account using the Currituck birth, infant move to Pasquotank and compatible generation. The alternative Caleb account, conflicting wills/dates and unknown mother remain explicit. [Evidence and alternatives](/people/glasgow-2581.html).
+
+
+## Selected uncertain family — 16 October 2026
+
+Caleb Glasgow-363 is selected as the very uncertain working father of Lemuel Glasgow-2581. The case combines a local surname household, a compatible older generation and the same Currituck–Pasquotank setting. Lemuel’s November 1833 pension declaration says he was born in Currituck, moved to Pasquotank as an infant and remained there until moving to Randolph about 1803. William Glasgow-428’s previously reviewed 1746 Currituck will names a son Caleb. The two modern Caleb accounts, Glasgow-363 and Glasgow-830, both cite a Pasquotank will of 1803. These details make the established local Caleb family a useful preferred home for Lemuel over an otherwise unidentified father. They do not put Caleb in Lemuel’s infant household or name his parents.
+
+The preference for Glasgow-363 is generational: its circa 1726 birth allows a father aged about 27 in 1753; Glasgow-830’s circa 1740 birth would give about 13. Neither Caleb birth is established by a birth record here, and Lemuel himself said he had no age record and only believed he was born in 1753. The younger estimate therefore lowers the second account’s preference without excluding it. No baptism, guardianship, deed or pension statement names Caleb as Lemuel’s father. A collateral connection to Caleb, another local Glasgow father or an unrelated Glasgow immigrant remains possible. This is a low-confidence named-family hypothesis, not a documented father clause.
+
+The Caleb profiles may represent one man with conflicting dates rather than brothers. Both point to the same FamilySearch person K815-XBS and the same family-site account; those references are not independent corroboration. Glasgow-363 records 1781 as his death year but its biography transcribes a Pasquotank will dated 20 September 1803; Glasgow-830 places Caleb’s death in 1804 and probate in 1808. The 1803 transcription names children Barhnda (as transcribed), James, Dorcas and Nancy, and an unnamed wife, but not Lemuel. That omission weakens a father hypothesis if this is the relevant testator, without proving that an older, separately established son could not have been omitted. No reason for an omission is established. The will’s modern-profile identity remains unresolved and neither death estimate is changed.
+
+Glasgow-830 remains an explicit unselected alternative father account, especially if its approximate birth is wrong or it is a duplicate of Glasgow-363. No merge or second selected father is made. The 1746 son Caleb cannot yet be assigned uniquely between the two profiles from the will’s name alone. The existing Caleb children and the apparent duplicate Jesse accounts retain their current links and grades; this batch does not resolve their identities. The newly selected edge joins Lemuel’s two-child family to the existing working tree while retaining the uncertainty of the older Currituck pedigree.
+
+William Glasgow-428 is not selected as Lemuel’s father: the previously reviewed probate was in April 1747, roughly six years before Lemuel’s believed 1753 birth. The 1746 will’s expected unborn child cannot normally be a child born in 1753. Making William the father would require a material error in Lemuel’s recollected birth, for which this review supplies no evidence. William’s own father Daniel remains unproved by the inspected records; no certainty is added to that older connection. No mother is selected for Lemuel. Gregory-3163’s existing attachment to Caleb and the Ruth Sawyer name in the other Caleb biography do not identify Lemuel’s mother. Dauge-19’s recorded 1715 birth also conflicts with literal maternity of a child born in 1726; that inherited chronology needs its own review rather than being silently repaired here.
+
+Lemuel’s life evidence is stronger than his parentage. The pension transcript records his recollected Currituck birth, infant move to Pasquotank and later Randolph residence. Its two 1833 declarations imply slightly different removal dates, about 1801 versus about 1803; retain an approximate early-1800s move. His wife Alsey’s 1849 declaration reports their Pasquotank marriage in 1778 and his death on 23 February 1844. Alsey’s maiden surname is not supplied by the cited declaration. This review reads Will Graves’s transcription of pension R4056, PDF pages 1–4, not the original pension images.
+
+One very uncertain father is newly selected. No mother, merge, new person, changed vital field, original manuscript inspection, live WikiTree edit or confidence upgrade is claimed. The Caleb accounts remain separate pending identity review. Working connectivity measures retained profile accounts and selected hypotheses; they do not prove either the paternity or a unique historical person count. The confidently marked connectivity totals remain unchanged.
+
+[Complete comparison and source limits](/people/glasgow-2581.html).
+
+- [Lemuel Glasgow pension R4056, Will Graves transcription, revised 2015, PDF pp.1–4; read 16 October 2026, original images not inspected](https://revwarapps.org/r4056.pdf)
+- [William Glasgow, Currituck will dated 30 September 1746, proved 7 April 1747; previously reviewed transcription, not original manuscript](https://www.ncgenweb.us/currituck/wills/glasgowwilliam1746.html)
+- [Caleb Glasgow family-site account, 1803 Pasquotank will transcription retained in the captured biography; modern testator identity unresolved](https://www.genealogy.com/ftm/g/r/a/Frances-M-Graykrueger/WEBSITE-0001/UHP-0131.html)
+- [FamilySearch K815-XBS, shared citation in both Caleb profiles; contributed tree, not independent birth or death evidence](https://www.familysearch.org/tree/person/details/K815-XBS)

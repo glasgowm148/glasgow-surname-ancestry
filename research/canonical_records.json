@@ -3303,5 +3303,53 @@
         "role": "possible competing profile account; identity unproved"
       }
     }
+  },
+  {
+    "record_id": "lemuel-glasgow-r4056-transcription",
+    "date": "1833 declarations and later family statements; reported birth c.1753",
+    "year": 1833,
+    "place": "Currituck, Pasquotank and Randolph, North Carolina",
+    "source_title": "Lemuel Glasgow pension R4056, Will Graves transcription, revised 2015, PDF pp.1–4; read 16 October 2026, original images not inspected",
+    "source_url": "https://revwarapps.org/r4056.pdf",
+    "status": "Published pension transcription read; original images not inspected",
+    "note": "Recollected Currituck birth, infancy move to Pasquotank, later Randolph move and widow declaration. No parent named; circa1753 birth is the veteran’s belief, not a birth record.",
+    "profiles": {
+      "Glasgow-2581": {
+        "role": "pension declarant"
+      }
+    }
+  },
+  {
+    "record_id": "currituck-william-will-1746-1747",
+    "date": "30 September 1746; proved 7 April 1747",
+    "year": 1746,
+    "place": "Currituck, North Carolina",
+    "source_title": "William Glasgow, Currituck will dated 30 September 1746, proved 7 April 1747; previously reviewed transcription, not original manuscript",
+    "source_url": "https://www.ncgenweb.us/currituck/wills/glasgowwilliam1746.html",
+    "status": "Previously reviewed named transcription",
+    "note": "William names son Caleb; unique identification between modern Caleb accounts and any Lemuel relationship remain unproved.",
+    "profiles": {
+      "Glasgow-428": {
+        "role": "testator"
+      }
+    }
+  },
+  {
+    "record_id": "pasquotank-caleb-will-1803-profile-transcription",
+    "date": "20 September 1803; modern testator identity unresolved",
+    "year": 1803,
+    "place": "Pasquotank, North Carolina",
+    "source_title": "Caleb Glasgow family-site account, 1803 Pasquotank will transcription retained in the captured biography; modern testator identity unresolved",
+    "source_url": "https://www.genealogy.com/ftm/g/r/a/Frances-M-Graykrueger/WEBSITE-0001/UHP-0131.html",
+    "status": "Transcription preserved in captured profile; original not inspected",
+    "note": "Caleb names children and unnamed wife, not Lemuel. Both modern Caleb profiles cite the same will/account; their dates conflict and references are not independent.",
+    "profiles": {
+      "Glasgow-363": {
+        "role": "possible testator account; conflicting recorded death year"
+      },
+      "Glasgow-830": {
+        "role": "possible testator account"
+      }
+    }
   }
 ]
