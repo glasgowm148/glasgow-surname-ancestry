@@ -1978,5 +1978,40 @@
         "timeline_group": "Education"
       }
     }
+  },
+  {
+    "record_id": "linlithgow-jean-child-1613-comparison",
+    "association": "Jean in John Glasgow’s Linlithgow household",
+    "date": "1613",
+    "year": 1613,
+    "place": "Linlithgow, Scotland",
+    "source_title": "FamilySearch, 1613 daughter in the maintained John-1561 review; day/reference comparison open",
+    "source_url": "https://familysearch.org/ark:/61903/1:1:X1RX-HPB",
+    "status": "Existing maintained index review; original uninspected",
+    "note": "The father study associates Jean-3055 with John-1561. Structured 7 July versus reviewed 17 July and HPY/HPB references remain unresolved; no independent second event asserted.",
+    "profiles": {
+      "Glasgow-3055": {
+        "role": "indexed child"
+      },
+      "Glasgow-1561": {
+        "role": "recorded father"
+      }
+    }
+  },
+  {
+    "record_id": "linlithgow-jean-glen-mother-1654",
+    "association": "Jean Glasgow, mother of Issobell Glen",
+    "date": "1654",
+    "year": 1654,
+    "place": "Linlithgow association from maternal profile; baptism place not reverified",
+    "source_title": "FamilySearch, Jean Glasgow in Issobell Glen baptism, 1654; existing profile citation",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:X1RX-GHZ",
+    "status": "Existing profile-cited index; original uninspected",
+    "note": "Names Jean as mother in the cited entry. Does not name her parents, age or a proved 1626 birth; event geography not newly verified.",
+    "profiles": {
+      "Glasgow-3083": {
+        "role": "indexed mother"
+      }
+    }
   }
 ]

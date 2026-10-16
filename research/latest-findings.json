@@ -26292,6 +26292,51 @@
         "research/relationship_assessments.json",
         "research/ancestry-connections/kilbirnie-preservation-2026-10-16.json"
       ]
+    },
+    {
+      "id": "linlithgow-jean-working-family-2026-10-16",
+      "found_on": "2026-10-16",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Jean Glasgow, mother in the 1654 Glen baptism citation, is placed under John of Linlithgow as an uncertain working daughter through the possible identity with his 1613 daughter.",
+      "qualification": "The profiles Glasgow-3055 and Glasgow-3083 remain separate accounts of a possible single woman. The selection establishes neither two distinct daughters called Jean nor a completed identity merge. The 1613 daughter’s later whereabouts are not established. Another Jean in another Glasgow household remains possible; a later daughter in John’s wider family is another explanation. The 1654 citation identifies Jean Glasgow as Issobell Glen’s mother, but its full event fields and original page have not been re-read here. Linlithgow for the adult account comes from her existing profile field, not a newly verified place clause in that baptism. Age 41 assumes baptism near birth and is an illustrative compatibility check, not a recorded maternal age. The 1626 profile year stays an unproved estimate; do not silently replace it with a proved 1613 birth. The saved accounts give 7 and 17 July 1613 and cite both X1RX-HPY and X1RX-HPB; retain these literal differences pending the original register. They are not counted as independent corroborating events. No mother, marriage date, husband’s given name or new child profile is inferred. John’s own selected Andrew-of-Calder father remains uncertain and is not proved by Andrew’s testament. No new original inspection, certain relationship upgrade, live WikiTree edit or identity merge is claimed. Connectivity continues to count profile accounts and therefore does not resolve this possible duplicate.",
+      "relationship_change_count": 1,
+      "people": [
+        {
+          "id": "Glasgow-3083",
+          "name": "Glasgow-3083",
+          "url": "/people/glasgow-3083.html"
+        },
+        {
+          "id": "Glasgow-1561",
+          "name": "Glasgow-1561",
+          "url": "/people/glasgow-1561.html"
+        },
+        {
+          "id": "Glasgow-3055",
+          "name": "Glasgow-3055",
+          "url": "/people/glasgow-3055.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "FamilySearch, Jean Glasgow in Issobell Glen baptism, 1654; existing profile citation",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:X1RX-GHZ"
+        },
+        {
+          "title": "FamilySearch, Jean Glesgow, 1613; Glasgow-3055 source citation",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:X1RX-HPY"
+        },
+        {
+          "title": "FamilySearch, 1613 daughter in the maintained John-1561 review; day/reference comparison open",
+          "url": "https://familysearch.org/ark:/61903/1:1:X1RX-HPB"
+        }
+      ],
+      "detail_url": "/branches/early-scottish-records/#linlithgow-jean-working-family",
+      "provenance": [
+        "research/relationship_assessments.json",
+        "research/ancestry-connections/linlithgow-jean-preservation-2026-10-16.json"
+      ]
     }
   ]
 }

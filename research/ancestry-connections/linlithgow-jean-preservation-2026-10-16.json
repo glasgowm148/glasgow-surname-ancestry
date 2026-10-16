@@ -1,0 +1,73 @@
+{
+  "reviewed": "2026-10-16",
+  "scope": "Selected uncertain father through an explicit possible identity; three complete preserved biographies",
+  "profiles": {
+    "Glasgow-3083": {
+      "current_sha256": "963adf142edcd8e7a7ddbced3acf7f905e2fc814321fcf79f90e68d6418c4d83",
+      "proposed_sha256": "5963e589d77f7d593ee8c16d25ac26c4d9132ebc08053d311c02bdc429008fe2",
+      "all_substantive_passages_accounted_for": true,
+      "passages": [
+        "All captured citations retained. John’s entire previously reviewed complete replacement, including corrected testament and earlier selected father, remains intact.",
+        "Jean-3083’s unsourced birth statement is retained explicitly as a former profile claim, not silently deleted or replaced by a certain 1613 birth.",
+        "The childhood account and adult mother remain a possible same woman; no merge, second distinct daughter, mother or certainty upgrade asserted."
+      ],
+      "source_urls_retained": [
+        "https://www.familysearch.org/ark:/61903/1:1:X1RX-GHZ"
+      ]
+    },
+    "Glasgow-1561": {
+      "current_sha256": "99a12241cfb91476a265b0a821efbbb82cc966c608f439c4179cb397a2a7a886",
+      "proposed_sha256": "b891d6aef4cdd117bcef4c6d5fc2eacf5b48b62f63b4ea5a852d5149f868bfb0",
+      "all_substantive_passages_accounted_for": true,
+      "passages": [
+        "All captured citations retained. John’s entire previously reviewed complete replacement, including corrected testament and earlier selected father, remains intact.",
+        "Jean-3083’s unsourced birth statement is retained explicitly as a former profile claim, not silently deleted or replaced by a certain 1613 birth.",
+        "The childhood account and adult mother remain a possible same woman; no merge, second distinct daughter, mother or certainty upgrade asserted."
+      ],
+      "source_urls_retained": [
+        "https://archive.org/details/scottishrecordso01scotuoft/page/n117/mode/1up",
+        "https://familysearch.org/ark:/61903/1:1:X1RN-XV7",
+        "https://familysearch.org/ark:/61903/1:1:X1RV-T8R",
+        "https://familysearch.org/ark:/61903/1:1:X1RX-HPB",
+        "https://www.familysearch.org/tree/person/sources/MG7J-6GM"
+      ],
+      "previous_review_path": "research/ancestry-connections/working-joins-preservation-2026-10-15.json"
+    },
+    "Glasgow-3055": {
+      "current_sha256": "04a5e978d50b547aee419b283cff5c086376850c6bfbf22bebe006f8c89c9861",
+      "proposed_sha256": "9aea4f8129b4686f21413d9ab8b06519f1ab17f8b1b3964c8b260a31c102c417",
+      "all_substantive_passages_accounted_for": true,
+      "passages": [
+        "All captured citations retained. John’s entire previously reviewed complete replacement, including corrected testament and earlier selected father, remains intact.",
+        "Jean-3083’s unsourced birth statement is retained explicitly as a former profile claim, not silently deleted or replaced by a certain 1613 birth.",
+        "The childhood account and adult mother remain a possible same woman; no merge, second distinct daughter, mother or certainty upgrade asserted."
+      ],
+      "source_urls_retained": [
+        "https://www.familysearch.org/ark:/61903/1:1:X1RX-HPY"
+      ]
+    }
+  },
+  "previous_queue_entries": {
+    "Glasgow-3083": null,
+    "Glasgow-1561": {
+      "queued_at": "2026-10-15",
+      "significance": 85,
+      "summary": "Add Andrew Glasgow of Calder as the selected uncertain working father, with logic and alternatives; preserve current facts and sources. Local model, pending owner-reviewed WikiTree amendment.",
+      "manual_update": true,
+      "draft_path": "research/Glasgow-1561/Glasgow-1561.md",
+      "preservation_review_path": "research/ancestry-connections/working-joins-preservation-2026-10-15.json",
+      "reviewed_narrative_reduction": true,
+      "preserve_captured_detail": false,
+      "relationship_changes": [
+        {
+          "action": "add",
+          "relationship": "father",
+          "status": "uncertain",
+          "relative_id": "Glasgow-3163",
+          "assertion_id": "C-working-20261015-glasgow-1561-glasgow-3163"
+        }
+      ]
+    },
+    "Glasgow-3055": null
+  }
+}

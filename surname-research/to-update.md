@@ -1558,3 +1558,10 @@ The August completion entries remain historical. The live parent fields are now 
 | [John Glasgow, Ayrshire generation](https://www.wikitree.com/wiki/Glasgow-1604) | OPEN | Review complete retained biography and uncertain father replacement; old father remains an alternative, mother independent, duplicate and child audit open. |
 | [Robert Glasgow, baptised1618](https://www.wikitree.com/wiki/Glasgow-1078) | OPEN | Review complete retained biography and uncertain father replacement; old father remains an alternative, mother independent, duplicate and child audit open. |
 | [Jonet Cunningham](https://www.wikitree.com/wiki/Cunningham-22604) | OPEN | Review complete retained biography and uncertain father replacement; old father remains an alternative, mother independent, duplicate and child audit open. |
+
+
+## Linlithgow Jean working family — 16 October 2026
+
+| [Glasgow-3083](https://www.wikitree.com/wiki/Glasgow-3083) | OPEN | Review complete preserved biography: uncertain father John-1561 for adult Jean-3083; possible identity with Jean-3055, no merge or mother. Earlier John father amendment retained. |
+| [Glasgow-1561](https://www.wikitree.com/wiki/Glasgow-1561) | OPEN | Review complete preserved biography: uncertain father John-1561 for adult Jean-3083; possible identity with Jean-3055, no merge or mother. Earlier John father amendment retained. |
+| [Glasgow-3055](https://www.wikitree.com/wiki/Glasgow-3055) | OPEN | Review complete preserved biography: uncertain father John-1561 for adult Jean-3083; possible identity with Jean-3055, no merge or mother. Earlier John father amendment retained. |

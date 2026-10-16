@@ -4325,5 +4325,55 @@
       "basis": "Existing minister chronology and Ayrshire family comparison. No named parent clause or new original inspection.",
       "resolution_note": "One selected uncertain father; old father retained as alternative; no merge, mother assignment or confident upgrade."
     }
+  },
+  {
+    "assertion_id": "C-working-20261016-linlithgow-jean-father",
+    "people": [
+      "Glasgow-3083",
+      "Glasgow-1561"
+    ],
+    "profile_names": {
+      "Glasgow-3083": "Jean Glasgow, mother in the Glen baptism",
+      "Glasgow-1561": "John Glasgow of Linlithgow"
+    },
+    "status": "uncertain",
+    "hypothesis_status": "possible",
+    "working_selection": true,
+    "allow_new_relationship": true,
+    "publication_status": "approved",
+    "assessment_date": "2026-10-16",
+    "evidence_grade": "Low-confidence possible childhood-to-adult identity; chronology and profile-associated locality",
+    "claim": "John of Linlithgow selected as uncertain working father of the 1654 mother Jean.",
+    "basis": "Select John Glasgow-1561 as the uncertain working father of Jean Glasgow-3083, the mother named in the 1654 Issobell Glen baptism citation. The existing Linlithgow father study places an indexed daughter Jean in John’s household in 1613, represented by Glasgow-3055. The later mother’s profile also places her in Linlithgow. A child baptised in 1613 could have been a mother in 1654, about 41 years later if baptised in infancy. The 1626 birth stated for the later mother has no identified birth source and is not a concrete conflict with that identity. Prefer the possible same-woman explanation and carry the existing father comparison to the adult account, at low confidence. This is a selected inference from the existing local family and chronology, not a parent named in the 1654 citation.",
+    "limitations": "The profiles Glasgow-3055 and Glasgow-3083 remain separate accounts of a possible single woman. The selection establishes neither two distinct daughters called Jean nor a completed identity merge. The 1613 daughter’s later whereabouts are not established. Another Jean in another Glasgow household remains possible; a later daughter in John’s wider family is another explanation. The 1654 citation identifies Jean Glasgow as Issobell Glen’s mother, but its full event fields and original page have not been re-read here. Linlithgow for the adult account comes from her existing profile field, not a newly verified place clause in that baptism. Age 41 assumes baptism near birth and is an illustrative compatibility check, not a recorded maternal age. The 1626 profile year stays an unproved estimate; do not silently replace it with a proved 1613 birth. The saved accounts give 7 and 17 July 1613 and cite both X1RX-HPY and X1RX-HPB; retain these literal differences pending the original register. They are not counted as independent corroborating events. No mother, marriage date, husband’s given name or new child profile is inferred. John’s own selected Andrew-of-Calder father remains uncertain and is not proved by Andrew’s testament. No new original inspection, certain relationship upgrade, live WikiTree edit or identity merge is claimed. Connectivity continues to count profile accounts and therefore does not resolve this possible duplicate.",
+    "source_ids": [
+      "linlithgow-jean-child-1613-comparison",
+      "linlithgow-jean-glen-mother-1654"
+    ],
+    "model_note": "Jean Glasgow-3083 may be another account of John’s indexed 1613 daughter Glasgow-3055. Do not infer two distinct daughters or a proved merge. The later profile’s 1626 birth and Linlithgow origin are unverified; age and exact baptism day remain open. No mother inferred; John’s own Andrew-of-Calder ancestry is uncertain.",
+    "perspectives": {
+      "Glasgow-3083": {
+        "relationship": "father",
+        "status_label": "Uncertain father; possible identity with the 1613 daughter",
+        "reason": "Select John Glasgow-1561 as the uncertain working father of Jean Glasgow-3083, the mother named in the 1654 Issobell Glen baptism citation. The existing Linlithgow father study places an indexed daughter Jean in John’s household in 1613, represented by Glasgow-3055. The later mother’s profile also places her in Linlithgow. A child baptised in 1613 could have been a mother in 1654, about 41 years later if baptised in infancy. The 1626 birth stated for the later mother has no identified birth source and is not a concrete conflict with that identity. Prefer the possible same-woman explanation and carry the existing father comparison to the adult account, at low confidence. This is a selected inference from the existing local family and chronology, not a parent named in the 1654 citation."
+      },
+      "Glasgow-1561": {
+        "relationship": "daughter",
+        "status_label": "Uncertain daughter; possible duplicate of Jean-3055",
+        "reason": "Select John Glasgow-1561 as the uncertain working father of Jean Glasgow-3083, the mother named in the 1654 Issobell Glen baptism citation. The existing Linlithgow father study places an indexed daughter Jean in John’s household in 1613, represented by Glasgow-3055. The later mother’s profile also places her in Linlithgow. A child baptised in 1613 could have been a mother in 1654, about 41 years later if baptised in infancy. The 1626 birth stated for the later mother has no identified birth source and is not a concrete conflict with that identity. Prefer the possible same-woman explanation and carry the existing father comparison to the adult account, at low confidence. This is a selected inference from the existing local family and chronology, not a parent named in the 1654 citation."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Jean of Linlithgow: working father and possible duplicate",
+        "href": "/branches/early-scottish-records/#linlithgow-jean-working-family"
+      }
+    ],
+    "provenance": {
+      "source": "research/relationship_assessments.json",
+      "prior_assessment": "No parent on Glasgow-3083; John already attached to the childhood account Glasgow-3055.",
+      "basis": "Existing index citations and parish-profile comparison; no new record inspection.",
+      "resolution_note": "Select one uncertain father for the adult account; retain both possible identity accounts and independent maternal uncertainty."
+    }
   }
 ]

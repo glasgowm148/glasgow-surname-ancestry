@@ -2,6 +2,11 @@
 
 ## Current conclusion
 
+Reviewed: 2026-10-16
+
+**Working family, 16 October 2026:** [John Glasgow-1561](https://www.wikitree.com/wiki/Glasgow-1561) is selected as Jean-3083’s uncertain working father through a possible match with his 1613 daughter [Jean-3055](https://www.wikitree.com/wiki/Glasgow-3055). Both Jean profiles remain; no identity merge or mother is inferred. [Comparison and limits](/branches/early-scottish-records/#linlithgow-jean-working-family).
+
+
 Reviewed: 2026-10-15
 
 John was the father named in Linlithgow baptisms for Jean in 1613, John in 1617
@@ -64,3 +69,11 @@ Select the same older Calder household as the working origin for this neighbouri
 **Counterevidence and alternatives:** John of Hermand-3181 is a compatible alternative if John1561’s estimated birth is earlier than1577. A separate unnamed local father remains possible. Andrew’s1598 testament does not name John; do not restore the obsolete James/Andrew/William child list or attach Jonet Anderson as mother.
 
 [Full working model and reasoning](/branches/early-scottish-records/#selected-working-joins). This adds one selected uncertain paternal edge to the local tree/network and working measure. It changes no confident relationship and performs no live WikiTree edit.
+
+## Linlithgow Jean working family — 16 October 2026
+
+Select John Glasgow-1561 as the uncertain working father of Jean Glasgow-3083, the mother named in the 1654 Issobell Glen baptism citation. The existing Linlithgow father study places an indexed daughter Jean in John’s household in 1613, represented by Glasgow-3055. The later mother’s profile also places her in Linlithgow. A child baptised in 1613 could have been a mother in 1654, about 41 years later if baptised in infancy. The 1626 birth stated for the later mother has no identified birth source and is not a concrete conflict with that identity. Prefer the possible same-woman explanation and carry the existing father comparison to the adult account, at low confidence. This is a selected inference from the existing local family and chronology, not a parent named in the 1654 citation.
+
+The profiles Glasgow-3055 and Glasgow-3083 remain separate accounts of a possible single woman. The selection establishes neither two distinct daughters called Jean nor a completed identity merge. The 1613 daughter’s later whereabouts are not established. Another Jean in another Glasgow household remains possible; a later daughter in John’s wider family is another explanation. The 1654 citation identifies Jean Glasgow as Issobell Glen’s mother, but its full event fields and original page have not been re-read here. Linlithgow for the adult account comes from her existing profile field, not a newly verified place clause in that baptism. Age 41 assumes baptism near birth and is an illustrative compatibility check, not a recorded maternal age. The 1626 profile year stays an unproved estimate; do not silently replace it with a proved 1613 birth. The saved accounts give 7 and 17 July 1613 and cite both X1RX-HPY and X1RX-HPB; retain these literal differences pending the original register. They are not counted as independent corroborating events. No mother, marriage date, husband’s given name or new child profile is inferred. John’s own selected Andrew-of-Calder father remains uncertain and is not proved by Andrew’s testament. No new original inspection, certain relationship upgrade, live WikiTree edit or identity merge is claimed. Connectivity continues to count profile accounts and therefore does not resolve this possible duplicate.
+
+Sources: [FamilySearch, Jean Glasgow in Issobell Glen baptism, 1654; existing profile citation](https://www.familysearch.org/ark:/61903/1:1:X1RX-GHZ); [FamilySearch, Jean Glesgow, 1613; Glasgow-3055 source citation](https://www.familysearch.org/ark:/61903/1:1:X1RX-HPY); [FamilySearch, 1613 daughter in the maintained John-1561 review; day/reference comparison open](https://familysearch.org/ark:/61903/1:1:X1RX-HPB).

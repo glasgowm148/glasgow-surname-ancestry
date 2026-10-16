@@ -1,0 +1,23 @@
+# Linlithgow Jean: selected uncertain working father
+
+Reviewed: 2026-10-16
+
+Select John Glasgow-1561 as the uncertain working father of Jean Glasgow-3083, the mother named in the 1654 Issobell Glen baptism citation. The existing Linlithgow father study places an indexed daughter Jean in John’s household in 1613, represented by Glasgow-3055. The later mother’s profile also places her in Linlithgow. A child baptised in 1613 could have been a mother in 1654, about 41 years later if baptised in infancy. The 1626 birth stated for the later mother has no identified birth source and is not a concrete conflict with that identity. Prefer the possible same-woman explanation and carry the existing father comparison to the adult account, at low confidence. This is a selected inference from the existing local family and chronology, not a parent named in the 1654 citation.
+
+The profiles Glasgow-3055 and Glasgow-3083 remain separate accounts of a possible single woman. The selection establishes neither two distinct daughters called Jean nor a completed identity merge. The 1613 daughter’s later whereabouts are not established. Another Jean in another Glasgow household remains possible; a later daughter in John’s wider family is another explanation. The 1654 citation identifies Jean Glasgow as Issobell Glen’s mother, but its full event fields and original page have not been re-read here. Linlithgow for the adult account comes from her existing profile field, not a newly verified place clause in that baptism. Age 41 assumes baptism near birth and is an illustrative compatibility check, not a recorded maternal age. The 1626 profile year stays an unproved estimate; do not silently replace it with a proved 1613 birth. The saved accounts give 7 and 17 July 1613 and cite both X1RX-HPY and X1RX-HPB; retain these literal differences pending the original register. They are not counted as independent corroborating events. No mother, marriage date, husband’s given name or new child profile is inferred. John’s own selected Andrew-of-Calder father remains uncertain and is not proved by Andrew’s testament. No new original inspection, certain relationship upgrade, live WikiTree edit or identity merge is claimed. Connectivity continues to count profile accounts and therefore does not resolve this possible duplicate.
+
+Public comparison: /branches/early-scottish-records/#linlithgow-jean-working-family
+
+The existing FamilySearch URLs could not be reopened through the web reader in this batch. No new source inspection is claimed; the distinction between profile-associated locality and record-cited motherhood remains explicit. Local QMD returned no results for bounded subject queries; existing maintained source files supplied the comparison.
+
+## Verified integration
+
+The largest working component through 1650 grows 140 → 141 of the same 162 profile accounts; components fall 21 → 20 and connected-pair coverage rises 74.626% → 75.700%. Through 1850 it grows 584 → 585 of 1,777 accounts, with components 464 → 463. The fixed baseline and every confident measure remain unchanged. The figures retain both possible Jean accounts and therefore do not establish two physical women or resolve the duplicate.
+
+Both tree models contain 18 selected uncertain father links. The catalogue retains 4,801 entries and has 142 pending WikiTree amendments, two more than before this batch. John’s previous pending Andrew-of-Calder father amendment remains in his complete draft and structured badge metadata; Jean-3055’s already-attached father is not labelled new. Three complete current/replacement biography hashes and all captured source URLs were verified.
+
+Local profiles, three affected free-space editions, the early Scottish study, Latest findings, queue and main Whole tree are synchronized. The selected father and possible duplicate were checked in Chrome, and the new purple father badge opened John-1561’s actual WikiTree page in a new tab. No fresh mobile check is claimed for this data-only batch. Fourteen focused existing output/search tests passed; publication and links report no new failures. Seven baseline broken references and 50 non-gated missing person anchors remain.
+
+The optional genealogy cache refresh still returned attention; no successful QMD/PDF refresh, live WikiTree edit or production deployment is claimed.
+
+The existing OPR Jean marriage HOLD study was also checked: it lists both Jean accounts among possible candidates for separate 1652/1675/1700 events, with no selected adult identity. Those unassigned occurrences do not supply a concrete conflict or become events in a composite biography through this father selection.
