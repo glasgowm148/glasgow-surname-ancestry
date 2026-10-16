@@ -1,0 +1,125 @@
+{
+  "reviewed": "2026-10-16",
+  "scope": "Carnwath Robert: a conditional Lindsaylands father",
+  "profiles": {
+    "Glasgow-3407": {
+      "current_sha256": "6088f8392dffd65b722014520653c2f693593f55ba08c786fe0a4ef5e2ff0403",
+      "proposed_sha256": "f788098298c91fb4d2997b5ca53e6868396fedea4a82cf2ce8bdcd65986a7b6c",
+      "all_substantive_passages_accounted_for": true,
+      "passages": [
+        "Every previous complete public proposal/comparison or normalized capture paragraph and captured source URL retained.",
+        "New parent choices remain uncertain; named-child parent clauses are distinguished from adult identity.",
+        "Mothers assessed separately; all date discrepancies, alternative father generations, older scaffolds and pending work retained."
+      ],
+      "source_urls_retained": [
+        "https://www.myheritage.com/research/record-30226-745324/john-glasgow-in-scotland-births-baptisms"
+      ],
+      "full_comparison_withheld_for_privacy": false,
+      "private_source_urls_retained_count": 0
+    },
+    "Glasgow-3332": {
+      "current_sha256": "721d6b35fb997431ea38281a19f7ab47379c190a2b130fb12d3c98d82349325d",
+      "proposed_sha256": "af49ed7a89a49a27f17ed4fd7cfc1dbf0473f0e4d1a2a0cfebed74433590afa4",
+      "all_substantive_passages_accounted_for": true,
+      "passages": [
+        "Every previous complete public proposal/comparison or normalized capture paragraph and captured source URL retained.",
+        "New parent choices remain uncertain; named-child parent clauses are distinguished from adult identity.",
+        "Mothers assessed separately; all date discrepancies, alternative father generations, older scaffolds and pending work retained."
+      ],
+      "source_urls_retained": [
+        "https://familysearch.org/ark:/61903/1:1:X1BL-JXR"
+      ],
+      "full_comparison_withheld_for_privacy": false,
+      "private_source_urls_retained_count": 0,
+      "previous_review_path": "research/ancestry-connections/libberton-uphall-working-family-preservation-2026-10-16.json"
+    },
+    "Glasgow-4168": {
+      "current_sha256": "688237b04da935179912219e1e3bc134d19e9fcbc5b8ca6738771919e5e68e93",
+      "proposed_sha256": "c3255d917861ecaf2845adf0e6e75035bf5079ce6890e755c9ec67b91faa2bc9",
+      "all_substantive_passages_accounted_for": true,
+      "passages": [
+        "Every previous complete public proposal/comparison or normalized capture paragraph and captured source URL retained.",
+        "New parent choices remain uncertain; named-child parent clauses are distinguished from adult identity.",
+        "Mothers assessed separately; all date discrepancies, alternative father generations, older scaffolds and pending work retained."
+      ],
+      "source_urls_retained": [
+        "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4033250&tab=this",
+        "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4033335&tab=this"
+      ],
+      "full_comparison_withheld_for_privacy": false,
+      "private_source_urls_retained_count": 0,
+      "previous_review_path": "research/ancestry-connections/libberton-uphall-working-family-preservation-2026-10-16.json"
+    },
+    "Glasgow-3093": {
+      "current_sha256": "17fde75be768863e2375bc363275a27eadba85dbb106cf9c1a5bb9429c108888",
+      "proposed_sha256": "1d6d3057bfdbfcfeb1a2fdc004a8fc1e665a60f4dd17334c34161965d2965648",
+      "all_substantive_passages_accounted_for": true,
+      "passages": [
+        "Every previous complete public proposal/comparison or normalized capture paragraph and captured source URL retained.",
+        "New parent choices remain uncertain; named-child parent clauses are distinguished from adult identity.",
+        "Mothers assessed separately; all date discrepancies, alternative father generations, older scaffolds and pending work retained."
+      ],
+      "source_urls_retained": [
+        "https://www.familysearch.org/ark:/61903/1:1:X1BL-JXR"
+      ],
+      "full_comparison_withheld_for_privacy": false,
+      "private_source_urls_retained_count": 0,
+      "previous_review_path": "research/ancestry-connections/libberton-uphall-working-family-preservation-2026-10-16.json"
+    }
+  },
+  "previous_queue_entries": {
+    "Glasgow-3407": null,
+    "Glasgow-3332": {
+      "queued_at": "2026-10-16",
+      "status": "OPEN",
+      "significance": 65,
+      "summary": "Retain the 1624/1680 identity alternatives; an unsupported 1634 estimate is not an exclusion. Preserve current uncertain family fields. Review selected uncertain Libberton/Uphall parent hypotheses and full surviving identity alternatives. Robert’s mother remains unknown; Thomas’s two parent links share an uncertain 1675-child identity. Preserve source dates, existing child/couple records and all earlier amendments.",
+      "manual_update": true,
+      "draft_path": "research/Glasgow-3332/Glasgow-3332.md",
+      "preservation_review_path": "research/ancestry-connections/libberton-uphall-working-family-preservation-2026-10-16.json",
+      "reviewed_narrative_reduction": true,
+      "preserve_captured_detail": false,
+      "relationship_changes": []
+    },
+    "Glasgow-4168": {
+      "queued_at": "2026-10-16",
+      "status": "OPEN",
+      "significance": 85,
+      "summary": "Review selected uncertain Libberton/Uphall parent hypotheses and full surviving identity alternatives. Robert’s mother remains unknown; Thomas’s two parent links share an uncertain 1675-child identity. Preserve source dates, existing child/couple records and all earlier amendments.",
+      "manual_update": true,
+      "draft_path": "research/Glasgow-4168/Glasgow-4168.md",
+      "preservation_review_path": "research/ancestry-connections/libberton-uphall-working-family-preservation-2026-10-16.json",
+      "reviewed_narrative_reduction": true,
+      "preserve_captured_detail": false,
+      "relationship_changes": [
+        {
+          "action": "add",
+          "relationship": "father",
+          "status": "uncertain",
+          "relative_id": "Glasgow-3093",
+          "assertion_id": "C-working-20261016-libberton-uphall-working-family-robert-father"
+        }
+      ]
+    },
+    "Glasgow-3093": {
+      "queued_at": "2026-10-16",
+      "status": "OPEN",
+      "significance": 65,
+      "summary": "Review selected uncertain Libberton/Uphall parent hypotheses and full surviving identity alternatives. Robert’s mother remains unknown; Thomas’s two parent links share an uncertain 1675-child identity. Preserve source dates, existing child/couple records and all earlier amendments.",
+      "manual_update": true,
+      "draft_path": "research/Glasgow-3093/Glasgow-3093.md",
+      "preservation_review_path": "research/ancestry-connections/libberton-uphall-working-family-preservation-2026-10-16.json",
+      "reviewed_narrative_reduction": true,
+      "preserve_captured_detail": false,
+      "relationship_changes": [
+        {
+          "action": "add",
+          "relationship": "child",
+          "status": "uncertain",
+          "relative_id": "Glasgow-4168",
+          "assertion_id": "C-working-20261016-libberton-uphall-working-family-robert-father"
+        }
+      ]
+    }
+  }
+}

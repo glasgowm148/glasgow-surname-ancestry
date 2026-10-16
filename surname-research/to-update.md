@@ -1716,3 +1716,11 @@ The August completion entries remain historical. The live parent fields are now 
 | [Rev. Patrick Glasgow, Manokin and Snow Hill](https://www.wikitree.com/wiki/Glasgow-635) | OPEN | Review the conditional Ayrshire/Maryland family through the 1679 John and 1700 Patrick childhoods; preserve conflicting estimates, alternative identities and independently unassigned mothers. |
 | [John Glasgow, Kilwinning father](https://www.wikitree.com/wiki/Glasgow-3375) | OPEN | Review the conditional Ayrshire/Maryland family through the 1679 John and 1700 Patrick childhoods; preserve conflicting estimates, alternative identities and independently unassigned mothers. |
 | [Patrick Glasgow, West Kilbride child](https://www.wikitree.com/wiki/Glasgow-3160) | OPEN | Review the conditional Ayrshire/Maryland family through the 1679 John and 1700 Patrick childhoods; preserve conflicting estimates, alternative identities and independently unassigned mothers. |
+
+
+## Carnwath and Lindsaylands working family — 16 October 2026
+
+| [Robert Glasgow, Carnwath and Libberton](https://www.wikitree.com/wiki/Glasgow-3407) | OPEN | Review the conditional Lindsaylands father for the Carnwath Robert, required earlier birth and overlapping Robert families; no mother or identity merge is selected. |
+| [James Glasgow, possible Lindsaylands weaver](https://www.wikitree.com/wiki/Glasgow-3332) | OPEN | Review the conditional Lindsaylands father for the Carnwath Robert, required earlier birth and overlapping Robert families; no mother or identity merge is selected. |
+| [Robert Glasgow, Libberton Gibson/Watson household](https://www.wikitree.com/wiki/Glasgow-4168) | OPEN | Review the conditional Lindsaylands father for the Carnwath Robert, required earlier birth and overlapping Robert families; no mother or identity merge is selected. |
+| [Johne Glasgow, Mid Calder child of 1648](https://www.wikitree.com/wiki/Glasgow-3093) | OPEN | Review the conditional Lindsaylands father for the Carnwath Robert, required earlier birth and overlapping Robert families; no mother or identity merge is selected. |

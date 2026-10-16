@@ -1,0 +1,79 @@
+{
+  "reviewed": "2026-10-16",
+  "cutoff": 1850,
+  "method_version": 3,
+  "input_fingerprint": "c7480de5fa19802b336ec7238ee12e3ed827e3270706b172780c06bb503cbc27",
+  "scope": "Carnwath Robert: a conditional Lindsaylands father",
+  "genealogical_connections_added": 1,
+  "paternal_connections_added": 1,
+  "maternal_connections_added": 0,
+  "certainty_upgrades": 0,
+  "working_fathers": 49,
+  "working_mothers": 6,
+  "models": {
+    "main": {
+      "checked_historical_profiles": 1777,
+      "changed_father_fields": 1,
+      "matched_paternal_edges": 1346,
+      "added_historical_profiles": [],
+      "effective_father_field_audit": {
+        "public_father_fields_checked": 1777,
+        "empty_father_fields_checked": 423,
+        "differences": []
+      },
+      "unresolved_father_cases": [
+        "Glasgow-1367",
+        "Glasgow-2908",
+        "Glasgow-867",
+        "Glasgow-951"
+      ]
+    },
+    "standalone": {
+      "checked_historical_profiles": 1777,
+      "changed_father_fields": 1,
+      "matched_paternal_edges": 1346,
+      "added_historical_profiles": [],
+      "effective_father_field_audit": {
+        "public_father_fields_checked": 1777,
+        "empty_father_fields_checked": 423,
+        "differences": []
+      },
+      "unresolved_father_cases": [
+        "Glasgow-1367",
+        "Glasgow-2908",
+        "Glasgow-867",
+        "Glasgow-951"
+      ]
+    }
+  },
+  "publication_summary": "Selected James-3332 as uncertain father of Robert-3407 only through the possible 1680 Lindsaylands-weaver identity and an earlier Robert birth than the unsupported 1690 estimate. The Wilson and Gibson/Watson Robert accounts remain separate; Johne-3093 is an explicit unselected alternative. No mother, identity merge, new original inspection or certainty upgrade. Largest working family through 1850 grows from 989 to 1004 retained profiles; components 433 to 432. Population and confidently marked metrics unchanged. Current catalogue father columns, both viewers and complete pending profile proposals are synchronized.",
+  "comparison": "/branches/early-scottish-records/#carnwath-lindsaylands-working-family",
+  "catalogue_parent_projection": {
+    "reviewed_profiles": 172,
+    "selected_parent_assertions_checked": 55,
+    "differences": []
+  },
+  "next_metric_check": {
+    "status": "RESOLVED",
+    "saved_confident_tree_flags_not_used_by_current_metric": 0,
+    "review": "/data/ancestry-confidence-method-review.json",
+    "scope": "Status fallback; four other competing-father cases remain open."
+  },
+  "verification": {
+    "public_pending_updates": 203,
+    "complete_profile_comparisons": 4
+  },
+  "unresolved_parentage_review": {
+    "status": "OPEN",
+    "case_ids": [
+      "Glasgow-1367",
+      "Glasgow-2908",
+      "Glasgow-867",
+      "Glasgow-951"
+    ],
+    "confident_flag_among_competing_candidates": [
+      "Glasgow-867"
+    ],
+    "scope": "Four other competing-father cases retain their existing grades; no selection is made for them."
+  }
+}

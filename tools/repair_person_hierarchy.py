@@ -2119,6 +2119,8 @@ _LEGACY_ANCHORS = (
     # Andrew-1319 still links to William-1026's former recommendation heading.
     # Keep that incoming link beside the current overall conclusion.
     ("research-note-5be72571720e", ("research-note-518d31385e87",)),
+    # Preserve an incoming overall-conclusion link after its heading was normalised.
+    ("research-note-a79b7d0b2dd3", ("research-note-51b5ff37523f",)),
 )
 
 

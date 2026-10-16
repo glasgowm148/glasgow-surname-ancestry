@@ -27579,6 +27579,72 @@
         "research/relationship_assessments.json",
         "research/ancestry-connections/west-kilbride-manokin-working-family-preservation-2026-10-16.json"
       ]
+    },
+    {
+      "id": "carnwath-lindsaylands-working-family-2026-10-16",
+      "found_on": "2026-10-16",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Selected James Glasgow-3332 as uncertain father of the Carnwath/Libberton Robert Glasgow-3407 through the possible Lindsaylands-weaver identity; an earlier Robert birth is required. The overlapping Gibson/Watson Robert remains separate, with his existing Johne father unchanged.",
+      "qualification": "One new uncertain father is selected from existing index and family reviews. The 1680 weaver identity and an earlier Robert birth are required conditions; no new original inspection, certain relationship upgrade, mother assignment, identity merge or live WikiTree save is claimed. Existing vital fields and confidently marked metrics are unchanged. The two Robert accounts remain separate retained profiles, and no genealogical certainty is inferred from their inclusion in one working family. The Carnwath marriage citation gives Robert and Katherine Wilson in 1713; the captured 1722 Libberton baptism citation names Robert and Katharin Wilson as John’s parents. Those index citations define the proposed Wilson household but supply no paternal ancestry or age for Robert. The neighbouring Robert Glasgow-4168 account combines Katherin Gibson in 1718 and Katherine Watson in 1720 and 1726. The Wilson event in 1722 falls between the Watson events. Consequently, a simple sequence of remarriages does not reconcile all maternal surnames. Transcription differences, record misassignment, overlapping families, or one man across some entries remain possible. No woman is equated with another, and no new marriage or mother is assigned. The two Robert accounts are retained separately; shared parish and forename do not prove identity. Johne Glasgow-3093 remains an unselected alternative father for the Carnwath Robert, particularly if Robert Glasgow-3407 is eventually identified with the Gibson/Watson Robert Glasgow-4168, whose selected father is already Johne. Johne’s birth around 1648 could fit fatherhood around 1690; however, no later record follows him from the Mid Calder child entry to Libberton. Giving him both Roberts would otherwise require two living sons with the same forename or an unproved identity between the accounts. The present choice avoids building that assumption into the default model. If James Glasgow-3332’s two father assignments and the Johne Glasgow-3093 to Robert Glasgow-4168 choice are right, Robert Glasgow-3407 would be the latter Robert’s paternal uncle. That is a consequence of the conditional model, not independent evidence of kinship. Another unrecorded local father and a younger Lindsaylands generation remain possible. Captain Robert Glasgow-2867 also remains a surviving identity comparison; his unsupported imported family is not a concrete exclusion, and no maritime or probate bridge identifies the Carnwath man with him.",
+      "relationship_change_count": 1,
+      "people": [
+        {
+          "id": "Glasgow-3407",
+          "name": "Robert Glasgow, Carnwath and Libberton",
+          "url": "/people/glasgow-3407.html"
+        },
+        {
+          "id": "Glasgow-3332",
+          "name": "James Glasgow, possible Lindsaylands weaver",
+          "url": "/people/glasgow-3332.html"
+        },
+        {
+          "id": "Glasgow-4168",
+          "name": "Robert Glasgow, Libberton Gibson/Watson household",
+          "url": "/people/glasgow-4168.html"
+        },
+        {
+          "id": "Glasgow-3093",
+          "name": "Johne Glasgow, Mid Calder child of 1648",
+          "url": "/people/glasgow-3093.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Carnwath marriage 1713: Robert Glasgow and Katherine Wilson, Scotland Marriages index, batch M11632-4, films 1042971/0102895; citation retained on current profile, original not newly inspected",
+          "url": "https://www.familysearch.org/"
+        },
+        {
+          "title": "John Glasgow, Libberton christening 23 September 1722, parents Robert and Katharin Wilson; previously reviewed cited index",
+          "url": "https://www.myheritage.com/research/record-30226-745324/john-glasgow-in-scotland-births-baptisms"
+        },
+        {
+          "title": "Francis J. Grant, Lanark testament index (1903), pp.38/99: distinct Quothquan 1624 and Back of Lindsaylands 1680 weavers",
+          "url": "https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/the_commissariot_record_of_lanark__register_of_testaments__1595-1800_~_1903.pdf"
+        },
+        {
+          "title": "Edinburgh apprentice entry 7 May 1690: deceased father James Glasgow, Lindsayland weaver; previously reviewed transcript",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FEDINBURGH%2FAPPRENTICES%2F0005159%2F1&tab=this"
+        },
+        {
+          "title": "Robert/Katherin Gibson, Libberton Janet, 22 April 1718: previously reviewed transcript",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4033250&tab=this"
+        },
+        {
+          "title": "Robert/Katherine Watson, Libberton Agnes, 21 August 1720: previously reviewed transcript",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4033335&tab=this"
+        },
+        {
+          "title": "Johne Glasgow, Mid Calder 1648, named father Jamis: previous index review",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:X1BL-JXR"
+        }
+      ],
+      "detail_url": "/branches/early-scottish-records/#carnwath-lindsaylands-working-family",
+      "provenance": [
+        "research/relationship_assessments.json",
+        "research/ancestry-connections/carnwath-lindsaylands-working-family-preservation-2026-10-16.json"
+      ]
     }
   ]
 }
