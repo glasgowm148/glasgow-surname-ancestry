@@ -2522,5 +2522,56 @@
         "role": "compatible profile candidate for named daughter, not confirmed identity"
       }
     }
+  },
+  {
+    "record_id": "glenarm-elizabeth-hearth-1669",
+    "date": "1669",
+    "year": 1669,
+    "place": "Glenarm Town, Tickmacrevan, County Antrim",
+    "source_title": "PRONI T/307/A; Macafee, Antrim hearth roll 1669, PDF p.36: Kilwaughter records5347–5348 and Glenarm record5730",
+    "source_url": "https://www.billmacafee.com/1660shearthmoneyrolls/1669hearthmoneyrollsantrim.pdf",
+    "status": "Previously reviewed surname transcription; no new original inspection",
+    "note": "Eliz Glascho, record5730; distinct from Kilwaughter entries5347–5348. No age, birth/married surname, widowhood or parent stated.",
+    "profiles": {
+      "Glasgow-3961": {
+        "role": "named hearth-roll householder"
+      }
+    }
+  },
+  {
+    "record_id": "stevenston-james-auld-margaret-1717",
+    "date": "17 February1717",
+    "year": 1717,
+    "place": "Stevenston, Ayrshire",
+    "source_title": "Findmypast OPR615/1 transcript: Margaret, James Glasgow and Mary Auld, Stevenston, 17 February1717",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0369031&tab=this",
+    "status": "Previously validated Findmypast parish transcript",
+    "note": "Names James Glasgow and Mary Auld as parents of Margaret; no grandparent, parent age, occupation or marriage stated.",
+    "profiles": {
+      "Glasgow-4170": {
+        "role": "named father of baptised child"
+      },
+      "Glasgow-4111": {
+        "role": "baptised child"
+      }
+    }
+  },
+  {
+    "record_id": "stevenston-james-auld-euphan-1718",
+    "date": "10 August1718",
+    "year": 1718,
+    "place": "Stevenston, Ayrshire",
+    "source_title": "Findmypast OPR615/1 transcript: Euphan, James Glasgow and Mary Auld, Stevenston, 10 August1718",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0369064&tab=this",
+    "status": "Previously validated Findmypast parish transcript",
+    "note": "Names James Glasgow and Mary Auld as parents of Euphan; preferred same couple as1717, no grandparents stated.",
+    "profiles": {
+      "Glasgow-4170": {
+        "role": "named father of baptised child"
+      },
+      "Glasgow-4106": {
+        "role": "baptised child"
+      }
+    }
   }
 ]

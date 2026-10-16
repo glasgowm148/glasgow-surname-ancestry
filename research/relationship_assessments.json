@@ -5371,5 +5371,103 @@
       "basis": "Existing marriage, baptism, testament and Mathie–Glasgow network reviews; maternity assessed separately.",
       "resolution_note": "Selected uncertain parent only; no new certainty, merge or live save."
     }
+  },
+  {
+    "assertion_id": "C-working-20261016-glenarm-stevenston-working-family-elizabeth-father",
+    "people": [
+      "Glasgow-3961",
+      "Glasgow-3970"
+    ],
+    "profile_names": {
+      "Glasgow-3961": "Elizabeth Glascho of Glenarm",
+      "Glasgow-3970": "Robert Glaskow of Larne"
+    },
+    "status": "uncertain",
+    "hypothesis_status": "possible",
+    "working_selection": true,
+    "allow_new_relationship": true,
+    "publication_status": "approved",
+    "assessment_date": "2026-10-16",
+    "evidence_grade": "Low/very low-confidence locality, generation and family-network inference",
+    "claim": "Selected uncertain father for Elizabeth Glascho of Glenarm",
+    "basis": "Select Robert Glaskow of Larne, Glasgow-3970, as the very low-confidence working father of Elizabeth Glasgow-3961, the Eliz Glascho at Glenarm Town in 1669. Robert is an older recorded adult at Larne in 1653, and the existing uncertain paternal family already includes John Glasgow-3913 and James Glasgow-1081, the adjacent Jo/James Glascho householders at Kilwaughter in the same 1669 roll. Elizabeth shares their unusual recorded Glascho form and the east-Antrim setting. Her assumed adult-householder generation in 1669 can be a daughter generation of the earlier Larne man. This extends an existing local family explanation rather than inventing an unnamed father; no record calls Elizabeth his daughter or John’s sister.",
+    "limitations": "Glenarm Town and Kilwaughter Demesne are distinct places in neighbouring lower and upper Glenarm baronies, not one household or consecutive entries. Elizabeth’s forename, surname form and regional date pattern support a family comparison but do not distinguish daughter from sister, niece, cousin or unrelated namesake. The tax entry does not state whether Glasgow was her birth or married surname, whether she was a widow, or her age. A wife/widow identity within another Glasgow household therefore remains possible. Her circa-1650 birth and the competing before-about-1648 adult estimate are inferences, not ages that establish a generation. The Larne man’s possible identity with the 1618 Scottish child remains uncertain, as do his existing Kilwaughter sons and his own selected Scottish parents. No mother is selected for Elizabeth; neither the elder Jonet Cunningham nor the younger Janet Cunningham is transferred to her as mother. Existing chronology, the possible James identities and the hearsay status of the Larne allegations remain unchanged. Two newly selected uncertain fathers using existing records and household comparisons; no new mother, original-source inspection, certainty upgrade, identity merge or live WikiTree save. Existing vital dates, age assumptions, source readings and earlier pending amendments remain intact. The two suggested paternal-sibling relationships depend on the selected fathers and the older uncertain identity/parent links; they are not independent sibling attestations. Connectivity counts retained profile accounts, so possible duplicates remain a limitation of the working score.",
+    "source_ids": [
+      "glenarm-elizabeth-hearth-1669",
+      "larne-robert-examination-1653"
+    ],
+    "model_note": "Glenarm Town and Kilwaughter Demesne are distinct places in neighbouring lower and upper Glenarm baronies, not one household or consecutive entries. Elizabeth’s forename, surname form and regional date pattern support a family comparison but do not distinguish daughter from sister, niece, cousin or unrelated namesake. The tax entry does not state whether Glasgow was her birth or married surname, whether she was a widow, or her age. A wife/widow identity within another Glasgow household therefore remains possible. Her circa-1650 birth and the competing before-about-1648 adult estimate are inferences, not ages that establish a generation. The Larne man’s possible identity with the 1618 Scottish child remains uncertain, as do his existing Kilwaughter sons and his own selected Scottish parents. No mother is selected for Elizabeth; neither the elder Jonet Cunningham nor the younger Janet Cunningham is transferred to her as mother. Existing chronology, the possible James identities and the hearsay status of the Larne allegations remain unchanged. Two newly selected uncertain fathers using existing records and household comparisons; no new mother, original-source inspection, certainty upgrade, identity merge or live WikiTree save. Existing vital dates, age assumptions, source readings and earlier pending amendments remain intact. The two suggested paternal-sibling relationships depend on the selected fathers and the older uncertain identity/parent links; they are not independent sibling attestations. Connectivity counts retained profile accounts, so possible duplicates remain a limitation of the working score.",
+    "perspectives": {
+      "Glasgow-3961": {
+        "relationship": "father",
+        "status_label": "Uncertain father; selected working family",
+        "reason": "Select Robert Glaskow of Larne, Glasgow-3970, as the very low-confidence working father of Elizabeth Glasgow-3961, the Eliz Glascho at Glenarm Town in 1669. Robert is an older recorded adult at Larne in 1653, and the existing uncertain paternal family already includes John Glasgow-3913 and James Glasgow-1081, the adjacent Jo/James Glascho householders at Kilwaughter in the same 1669 roll. Elizabeth shares their unusual recorded Glascho form and the east-Antrim setting. Her assumed adult-householder generation in 1669 can be a daughter generation of the earlier Larne man. This extends an existing local family explanation rather than inventing an unnamed father; no record calls Elizabeth his daughter or John’s sister."
+      },
+      "Glasgow-3970": {
+        "relationship": "daughter",
+        "status_label": "Uncertain daughter; selected working family",
+        "reason": "Select Robert Glaskow of Larne, Glasgow-3970, as the very low-confidence working father of Elizabeth Glasgow-3961, the Eliz Glascho at Glenarm Town in 1669. Robert is an older recorded adult at Larne in 1653, and the existing uncertain paternal family already includes John Glasgow-3913 and James Glasgow-1081, the adjacent Jo/James Glascho householders at Kilwaughter in the same 1669 roll. Elizabeth shares their unusual recorded Glascho form and the east-Antrim setting. Her assumed adult-householder generation in 1669 can be a daughter generation of the earlier Larne man. This extends an existing local family explanation rather than inventing an unnamed father; no record calls Elizabeth his daughter or John’s sister."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Glenarm and Stevenston: two selected uncertain fathers",
+        "href": "/branches/early-scottish-records/#glenarm-stevenston-working-family"
+      }
+    ],
+    "provenance": {
+      "prior_assessment": "No selected parent on this account; existing local records and family-network reviews supplied the model.",
+      "basis": "Existing hearth-roll, Larne and Kilwinning–Stevenston parish reviews; both mothers remain unknown.",
+      "resolution_note": "Selected uncertain parent only; no new certainty, merge or live save."
+    }
+  },
+  {
+    "assertion_id": "C-working-20261016-glenarm-stevenston-working-family-james-father",
+    "people": [
+      "Glasgow-4170",
+      "Glasgow-3375"
+    ],
+    "profile_names": {
+      "Glasgow-4170": "James Glasgow, father with Mary Auld at Stevenston",
+      "Glasgow-3375": "John Glasgow, father with Barbara Alason at Kilwinning"
+    },
+    "status": "uncertain",
+    "hypothesis_status": "possible",
+    "working_selection": true,
+    "allow_new_relationship": true,
+    "publication_status": "approved",
+    "assessment_date": "2026-10-16",
+    "evidence_grade": "Low/very low-confidence locality, generation and family-network inference",
+    "claim": "Selected uncertain father for James Glasgow, father with Mary Auld at Stevenston",
+    "basis": "Select John Glasgow-3375, the father associated with Barbara Alason/Allason at Kilwinning in 1679 and 1689, as the uncertain working father of James Glasgow-4170, father with Mary Auld at Stevenston in 1717–1718. This is a low/very low-confidence regional household placement. The recorded couple supplies a compatible parent generation, and their son John Glasgow-1434, indexed at Kilwinning in 1679, is already a possible identity for the John who had children with Margaret Cowan at Stevenston in 1701 and 1706. That existing route gives a specific neighbouring-parish family comparison for James’s later Stevenston household. The preferred provisional model places James alongside that John as a possible paternal brother. It does not identify a baptism for James or claim that the 1717–1718 entries name his parents.",
+    "limitations": "James’s before-1698 birth is an existing estimated adult boundary from his 1717 fatherhood, not a baptism or an age. His actual birth could fit a child of the Kilwinning couple, but the route also depends on the unproved identification of their 1679 son with the Stevenston adult. The John-3375 and Rev. John-1073 profiles remain possible accounts of one man; no merge, duplicate resolution, ministry or new son of the minister is established here. The shared John-1604 parent and older family scaffold remain uncertain. The already selected uncertain son James-3105, father at Kilwinning in 1689 with Margaret Park, is a serious surviving identity alternative for James-4170: an earlier Park household followed by a later Auld household is possible, but no occupation, age or marriage bridge identifies them. Retain both accounts without counting the father selection as proof of two distinct James sons. Other local fathers, including the older Matthew of Pyperheugh as a possible father or earlier kinsman, remain alternatives; his 1665 spouse entry alone supplies no James child, and the long interval to 1717 requires caution. No mother is selected for James: Barbara’s known maternity of the 1679 child does not establish James’s mother, and no marriage to Mary Auld is invented beyond the recorded parent pair. Two newly selected uncertain fathers using existing records and household comparisons; no new mother, original-source inspection, certainty upgrade, identity merge or live WikiTree save. Existing vital dates, age assumptions, source readings and earlier pending amendments remain intact. The two suggested paternal-sibling relationships depend on the selected fathers and the older uncertain identity/parent links; they are not independent sibling attestations. Connectivity counts retained profile accounts, so possible duplicates remain a limitation of the working score.",
+    "source_ids": [
+      "stevenston-james-auld-margaret-1717",
+      "stevenston-james-auld-euphan-1718"
+    ],
+    "model_note": "James’s before-1698 birth is an existing estimated adult boundary from his 1717 fatherhood, not a baptism or an age. His actual birth could fit a child of the Kilwinning couple, but the route also depends on the unproved identification of their 1679 son with the Stevenston adult. The John-3375 and Rev. John-1073 profiles remain possible accounts of one man; no merge, duplicate resolution, ministry or new son of the minister is established here. The shared John-1604 parent and older family scaffold remain uncertain. The already selected uncertain son James-3105, father at Kilwinning in 1689 with Margaret Park, is a serious surviving identity alternative for James-4170: an earlier Park household followed by a later Auld household is possible, but no occupation, age or marriage bridge identifies them. Retain both accounts without counting the father selection as proof of two distinct James sons. Other local fathers, including the older Matthew of Pyperheugh as a possible father or earlier kinsman, remain alternatives; his 1665 spouse entry alone supplies no James child, and the long interval to 1717 requires caution. No mother is selected for James: Barbara’s known maternity of the 1679 child does not establish James’s mother, and no marriage to Mary Auld is invented beyond the recorded parent pair. Two newly selected uncertain fathers using existing records and household comparisons; no new mother, original-source inspection, certainty upgrade, identity merge or live WikiTree save. Existing vital dates, age assumptions, source readings and earlier pending amendments remain intact. The two suggested paternal-sibling relationships depend on the selected fathers and the older uncertain identity/parent links; they are not independent sibling attestations. Connectivity counts retained profile accounts, so possible duplicates remain a limitation of the working score.",
+    "perspectives": {
+      "Glasgow-4170": {
+        "relationship": "father",
+        "status_label": "Uncertain father; selected working family",
+        "reason": "Select John Glasgow-3375, the father associated with Barbara Alason/Allason at Kilwinning in 1679 and 1689, as the uncertain working father of James Glasgow-4170, father with Mary Auld at Stevenston in 1717–1718. This is a low/very low-confidence regional household placement. The recorded couple supplies a compatible parent generation, and their son John Glasgow-1434, indexed at Kilwinning in 1679, is already a possible identity for the John who had children with Margaret Cowan at Stevenston in 1701 and 1706. That existing route gives a specific neighbouring-parish family comparison for James’s later Stevenston household. The preferred provisional model places James alongside that John as a possible paternal brother. It does not identify a baptism for James or claim that the 1717–1718 entries name his parents."
+      },
+      "Glasgow-3375": {
+        "relationship": "son",
+        "status_label": "Uncertain son; selected working family",
+        "reason": "Select John Glasgow-3375, the father associated with Barbara Alason/Allason at Kilwinning in 1679 and 1689, as the uncertain working father of James Glasgow-4170, father with Mary Auld at Stevenston in 1717–1718. This is a low/very low-confidence regional household placement. The recorded couple supplies a compatible parent generation, and their son John Glasgow-1434, indexed at Kilwinning in 1679, is already a possible identity for the John who had children with Margaret Cowan at Stevenston in 1701 and 1706. That existing route gives a specific neighbouring-parish family comparison for James’s later Stevenston household. The preferred provisional model places James alongside that John as a possible paternal brother. It does not identify a baptism for James or claim that the 1717–1718 entries name his parents."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Glenarm and Stevenston: two selected uncertain fathers",
+        "href": "/branches/early-scottish-records/#glenarm-stevenston-working-family"
+      }
+    ],
+    "provenance": {
+      "prior_assessment": "No selected parent on this account; existing local records and family-network reviews supplied the model.",
+      "basis": "Existing hearth-roll, Larne and Kilwinning–Stevenston parish reviews; both mothers remain unknown.",
+      "resolution_note": "Selected uncertain parent only; no new certainty, merge or live save."
+    }
   }
 ]

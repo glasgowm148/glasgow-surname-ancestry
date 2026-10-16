@@ -1,0 +1,62 @@
+{{Estimated Date}}
+[[Category:Glasgow Name Study]]
+
+== Biography ==
+John Glasgow was born or baptised on 6 July 1679 in Kilwinning parish, Ayrshire, Scotland. The indexed entry names his parents as John Glasgow and Barbara Alason. His father link is retained as the uncertain [[Glasgow-3375|John Glasgow]] rather than [[Glasgow-1073|Rev. John Glasgow M.A.]]; the two adult profiles must remain separate pending an identifying record. His mother is represented by [[Allison-6866|Barbara Allison]].<ref name="John1679">"Old Parish Registers, Births and Baptisms," ''Scotland's People'', index entry for JON GLASGOW, 6 July 1679, son of JON GLASGOW and BARBARA ALASON, Kilwinning, Ayrshire, parish number 599, frame 44.</ref>
+
+The surname of John's mother appears as '''Alason''' in the indexed record. Allison and Allason are possible spelling variants, but Alason should be retained as the recorded form unless the original image gives a different reading.
+
+John may have moved from Kilwinning to the neighbouring parish of Stevenston as a young man. He is believed to have been the John Glasgow who had at least two sons with [[Cowan-5106|Margaret Cowan]]:
+
+* John Glasgow, born or baptised in Stevenston in 1701;<ref name="John1701">"Scotland, Births and Baptisms, 1564-1950," database, FamilySearch (https://familysearch.org/ark:/61903/1:1:XYZK-MY7 : accessed 11 February 2020), John Glasgow, 1701.</ref>
+* Adam Glasgow, born or baptised in Stevenston in 1706.<ref name="Adam1706">"Scotland, Births and Baptisms, 1564-1950," database, FamilySearch (https://familysearch.org/ark:/61903/1:1:XYZV-BNR : accessed 11 February 2020), John Glasgow in entry for Adam Glasgow, 1706.</ref>
+
+No confirmed record has yet been found for John's marriage, occupation or death.
+
+== Kilwinning ==
+
+John's baptism was entered in the register of Kilwinning parish. At that time the former chancel of Kilwinning Abbey was being used as the parish church. It remained in use until the present Abbey Church was built in 1775.<ref name="KilwinningSession">National Records of Scotland, catalogue entry CH2/591, "Records of Kilwinning / Kilwinning Abbey Church, Kirk Session," 1656–1956 (https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/browseDetails.aspx?reference=CH2/591 : accessed 20 July 2026).</ref>
+
+Kilwinning kirk-session records survive from 1656. These records may contain further references to John's parents or other members of the Glasgow family, but they have not yet been fully examined.
+
+== Research Notes ==
+=== Selected uncertain family — 16 October 2026 ===
+
+James-4170 is selected as a possible paternal brother through the existing uncertain John-3375 family. John’s own 1679-child/Stevenston-adult identity and mother assessment remain unchanged. Select John [[Glasgow-3375]], the father associated with Barbara Alason/Allason at Kilwinning in 1679 and 1689, as the uncertain working father of James [[Glasgow-4170]], father with Mary Auld at Stevenston in 1717–1718. This is a low/very low-confidence regional household placement. The recorded couple supplies a compatible parent generation, and their son John [[Glasgow-1434]], indexed at Kilwinning in 1679, is already a possible identity for the John who had children with Margaret Cowan at Stevenston in 1701 and 1706. That existing route gives a specific neighbouring-parish family comparison for James’s later Stevenston household. The preferred provisional model places James alongside that John as a possible paternal brother. It does not identify a baptism for James or claim that the 1717–1718 entries name his parents.
+
+James’s before-1698 birth is an existing estimated adult boundary from his 1717 fatherhood, not a baptism or an age. His actual birth could fit a child of the Kilwinning couple, but the route also depends on the unproved identification of their 1679 son with the Stevenston adult. The John-3375 and Rev. John-1073 profiles remain possible accounts of one man; no merge, duplicate resolution, ministry or new son of the minister is established here. The shared John-1604 parent and older family scaffold remain uncertain. The already selected uncertain son James-3105, father at Kilwinning in 1689 with Margaret Park, is a serious surviving identity alternative for James-4170: an earlier Park household followed by a later Auld household is possible, but no occupation, age or marriage bridge identifies them. Retain both accounts without counting the father selection as proof of two distinct James sons. Other local fathers, including the older Matthew of Pyperheugh as a possible father or earlier kinsman, remain alternatives; his 1665 spouse entry alone supplies no James child, and the long interval to 1717 requires caution. No mother is selected for James: Barbara’s known maternity of the 1679 child does not establish James’s mother, and no marriage to Mary Auld is invented beyond the recorded parent pair. [https://glasgow.phenotype.dev/branches/early-scottish-records/#glenarm-stevenston-working-family Full selected model, competing families and source limits]. <ref>Existing reviewed records and public profile citations: [https://www.billmacafee.com/1660shearthmoneyrolls/1669hearthmoneyrollsantrim.pdf PRONI T/307/A; Macafee, Antrim hearth roll 1669, PDF p.36: Kilwaughter records5347–5348 and Glenarm record5730]; [https://www.wikitree.com/wiki/Glasgow-3970 Robert Glaskow of Larne: existing 1653 examination review and qualified later family model]; [https://www.familysearch.org/ark:/61903/1:1:XTVY-VL9 Jon, child of John Glasgow and Barbara Alason, Kilwinning, 6 July1679; OPR599 FR44]; [https://familysearch.org/ark:/61903/1:1:XYZK-MY7 John, recorded to John Glasgow and Margaret Cowan at Stevenston, 1701]; [https://familysearch.org/ark:/61903/1:1:XYZV-BNR Adam, recorded to the Stevenston John Glasgow household, 1706]; [https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0369031&tab=this Findmypast OPR615/1 transcript: Margaret, James Glasgow and Mary Auld, Stevenston, 17 February1717]; [https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0369064&tab=this Findmypast OPR615/1 transcript: Euphan, James Glasgow and Mary Auld, Stevenston, 10 August1718]; [https://www.wikitree.com/wiki/Glasgow-3105 James Glasgow-3105: retained Kilwinning/Park household and identity alternative]; [https://electricscotland.com/bible/fastiecclesiaesc03scot.pdf Fasti vol.3 p.103: separate minister account and possible Kilwinning identity]. No original newly inspected; indexed dates and adult-identity limits remain explicit.</ref>
+
+
+=== Identification with the Stevenston family ===
+
+The identification of the child baptised at Kilwinning in 1679 with the later father of John and Adam Glasgow in Stevenston is plausible but has not been proved by a record explicitly naming his parents.
+
+The chronology is consistent. The John born or baptised in 1679 would have been about twenty-one or twenty-two when the younger John was born in 1701, and about twenty-six or twenty-seven when Adam was born in 1706.
+
+A secondary account of the Stevenston kirk-session records states that a '''John Glasgow of Pipers-Heugh''' appeared before the session in April 1700. He requested a testimonial, which was initially refused after he was accused of stealing a goose on a Sunday and being drunk the preceding Saturday. He was publicly rebuked and was then granted the testimonial.<ref name="Piperheugh">"Piperheugh," ''Wikipedia'', section "Micro-history" (https://en.wikipedia.org/wiki/Piperheugh : accessed 20 July 2026), citing the Stevenston kirk-session records of April 1700.</ref>
+
+This man was living in Stevenston shortly before the baptism of John Glasgow in 1701 and is a possible match for the John born in Kilwinning in 1679. The original kirk-session minute must be examined before treating the two men as identical.
+
+=== Possible confusion with the minister of Kilbirnie ===
+
+John's father has sometimes been identified as Rev. John Glasgow, minister of Kilbirnie. That relationship is not supported by the currently available evidence.
+
+The published account of the minister states that he married first Jean Cunningham and secondly Margaret Scott. His recorded children were Robert, James, Margaret, William, Samuel, Janet, Elizabeth and Jean. Neither Barbara Alason nor a son John is included.<ref name="Fasti">Hew Scott, ''Fasti Ecclesiae Scoticanae: The Succession of Ministers in the Church of Scotland from the Reformation'', new edition, volume 3, Synod of Glasgow and Ayr (Edinburgh: Oliver and Boyd, 1920), 103, entry for John Glasgow, minister of Kilbirnie (https://archive.org/details/fastiecclesiaesc03scot/page/102/mode/2up).</ref>
+
+The elder John Glasgow named in the 1679 baptism should therefore be treated as a separate, otherwise unidentified man unless additional evidence establishes a connection with the Kilbirnie minister.
+
+=== Further research ===
+
+Records still to be examined include:
+
+* the original image of John's 1679 baptism, particularly any residence, occupation or witnesses omitted from the index;
+* Kilwinning kirk-session records, NRS reference CH2/591, around 1678–1681;
+* the Ayrshire hearth-tax roll for the division of Cunninghame, particularly the Kilwinning and Stevenston entries;
+* the original April 1700 Stevenston kirk-session minute concerning John Glasgow of Pipers-Heugh;
+* marriage records for John Glasgow and Margaret Cowan in Kilwinning, Stevenston, Ardrossan, Irvine, Kilbirnie and nearby parishes;
+* baptisms of any additional children of John Glasgow and Margaret Cowan under the spellings Glasgow, Glasgo, Glascow and Glassgow.
+
+== Research Notes ==
+* relation to [[Glasgow-1066|Hew Glasgow (abt.1650-)]]?
+== Sources ==
+<references />

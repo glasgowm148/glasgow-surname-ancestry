@@ -1,0 +1,50 @@
+{
+  "reviewed": "2026-10-16",
+  "cutoff": 1850,
+  "method_version": 3,
+  "input_fingerprint": "ee611a604317c291c528b77e57a7db9e9f925fd32e37babe1d0419f00087ce99",
+  "scope": "Glenarm and Stevenston: two selected uncertain fathers",
+  "genealogical_connections_added": 2,
+  "paternal_connections_added": 2,
+  "maternal_connections_added": 0,
+  "certainty_upgrades": 0,
+  "working_fathers": 36,
+  "working_mothers": 4,
+  "models": {
+    "standalone": {
+      "checked_historical_profiles": 1777,
+      "matched_paternal_edges": 1333,
+      "changed_father_fields": 2,
+      "added_historical_profiles": [],
+      "unresolved_father_cases": [
+        "Glasgow-1367",
+        "Glasgow-2908",
+        "Glasgow-3902",
+        "Glasgow-3904",
+        "Glasgow-867",
+        "Glasgow-951"
+      ]
+    },
+    "main": {
+      "checked_historical_profiles": 1777,
+      "matched_paternal_edges": 1333,
+      "changed_father_fields": 2,
+      "added_historical_profiles": [],
+      "unresolved_father_cases": [
+        "Glasgow-1367",
+        "Glasgow-2908",
+        "Glasgow-3902",
+        "Glasgow-3904",
+        "Glasgow-867",
+        "Glasgow-951"
+      ]
+    }
+  },
+  "publication_summary": "Two uncertain fathers are present in both viewers: Elizabeth of Glenarm under Robert of Larne, and James, father with Mary Auld at Stevenston, under the Kilwinning John associated with Barbara Alason. The suggested paternal siblings and possible James/John duplicate accounts remain uncertain; neither mother is selected. The through-1850 largest working family grows from 862 to 866, including James\u2019s two recorded daughters; cohort membership and confidently marked metrics remain unchanged.",
+  "comparison": "/branches/early-scottish-records/#glenarm-stevenston-working-family",
+  "next_metric_check": {
+    "status": "RESOLVED",
+    "saved_confident_tree_flags_not_used_by_current_metric": 0,
+    "review": "/data/ancestry-confidence-method-review.json"
+  }
+}

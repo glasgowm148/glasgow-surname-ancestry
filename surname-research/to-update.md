@@ -1648,3 +1648,14 @@ The August completion entries remain historical. The live parent fields are now 
 | [Jonet Mathie](https://www.wikitree.com/wiki/Mathie-159) | OPEN | Review selected uncertain Stevenston/South Leith parent hypotheses, the retained Rathmalton identity alternative and qualified event dates; preserve all earlier evidence. |
 | [Margaret Glasgow, wife of George Lyell](https://www.wikitree.com/wiki/Glasgow-3186) | OPEN | Review selected uncertain Stevenston/South Leith parent hypotheses, the retained Rathmalton identity alternative and qualified event dates; preserve all earlier evidence. |
 | [William Glasgow, Leith mealmaker](https://www.wikitree.com/wiki/Glasgow-3075) | OPEN | Review selected uncertain Stevenston/South Leith parent hypotheses, the retained Rathmalton identity alternative and qualified event dates; preserve all earlier evidence. |
+
+
+## Glenarm and Stevenston working families — 16 October 2026
+
+| [Elizabeth Glascho of Glenarm](https://www.wikitree.com/wiki/Glasgow-3961) | OPEN | Review two selected uncertain fathers, dependent paternal-sibling hypotheses and retained alternative parents/identities; preserve prior evidence and dates. |
+| [Robert Glaskow of Larne](https://www.wikitree.com/wiki/Glasgow-3970) | OPEN | Review two selected uncertain fathers, dependent paternal-sibling hypotheses and retained alternative parents/identities; preserve prior evidence and dates. |
+| [James Glasgow, father with Mary Auld at Stevenston](https://www.wikitree.com/wiki/Glasgow-4170) | OPEN | Review two selected uncertain fathers, dependent paternal-sibling hypotheses and retained alternative parents/identities; preserve prior evidence and dates. |
+| [John Glasgow, father with Barbara Alason at Kilwinning](https://www.wikitree.com/wiki/Glasgow-3375) | OPEN | Review two selected uncertain fathers, dependent paternal-sibling hypotheses and retained alternative parents/identities; preserve prior evidence and dates. |
+| [John Glascho of Kilwaughter](https://www.wikitree.com/wiki/Glasgow-3913) | OPEN | Review two selected uncertain fathers, dependent paternal-sibling hypotheses and retained alternative parents/identities; preserve prior evidence and dates. |
+| [John Glasgow, Kilwinning child and possible Stevenston father](https://www.wikitree.com/wiki/Glasgow-1434) | OPEN | Review two selected uncertain fathers, dependent paternal-sibling hypotheses and retained alternative parents/identities; preserve prior evidence and dates. |
+| [James Glasgow, Kilwinning/Park household alternative](https://www.wikitree.com/wiki/Glasgow-3105) | OPEN | Review two selected uncertain fathers, dependent paternal-sibling hypotheses and retained alternative parents/identities; preserve prior evidence and dates. |

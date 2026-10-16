@@ -16,6 +16,10 @@ live profile still carries the earlier wording; the change is queued for review.
 
 Reviewed: 2026-10-16
 
+**Selected working families, 16 October2026:** Elizabeth of Glenarm is placed under Robert of Larne, uncertain; James, the Stevenston father with Mary Auld, is placed under the Kilwinning John associated with Barbara Alason, uncertain. Both new mothers remain unknown; the resulting paternal-sibling comparisons and possible duplicate accounts remain qualified. [Evidence and alternatives](/branches/early-scottish-records/#glenarm-stevenston-working-family).
+
+Reviewed: 2026-10-16
+
 **Selected working family, 16 October 2026:** The 1652 Edinburgh cordiner Glasgow-3938 is tentatively placed under Robert Glasgow-1027 and Jonet Cunningham-20923 through possible identity with their 1618 child Glasgow-1078. Both adult parent links are uncertain. Larne and Lorimer namesakes remain separate accounts; no dates, existing attachments or confidence grades are overwritten. [Evidence and alternatives](/branches/early-scottish-records/#edinburgh-cordiner-family).
 
 Reviewed: 2026-10-16
@@ -330,3 +334,24 @@ The 1652 Edinburgh cordiner is an additional selected uncertain adult account fo
 - [Glasgow baptism, 17 November 1618, OPR 644/1, reported 10/272; existing transcription names both parents](https://www.scotlandspeople.gov.uk/)
 - [Edinburgh burgess 1666, Euphame Lorimer household; retained namesake comparison](https://www.findmypast.co.uk/transcript?id=SCOT%2FBURGESS%2F1009525&tab=this)
 - [Reported 1644 West Port sasine index, SRO44 p.160; Lorimer household, original unread](https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481222&seq=168)
+
+
+## Selected uncertain family — 16 October 2026
+
+Select Robert Glaskow of Larne, Glasgow-3970, as the very low-confidence working father of Elizabeth Glasgow-3961, the Eliz Glascho at Glenarm Town in 1669. Robert is an older recorded adult at Larne in 1653, and the existing uncertain paternal family already includes John Glasgow-3913 and James Glasgow-1081, the adjacent Jo/James Glascho householders at Kilwaughter in the same 1669 roll. Elizabeth shares their unusual recorded Glascho form and the east-Antrim setting. Her assumed adult-householder generation in 1669 can be a daughter generation of the earlier Larne man. This extends an existing local family explanation rather than inventing an unnamed father; no record calls Elizabeth his daughter or John’s sister.
+
+Glenarm Town and Kilwaughter Demesne are distinct places in neighbouring lower and upper Glenarm baronies, not one household or consecutive entries. Elizabeth’s forename, surname form and regional date pattern support a family comparison but do not distinguish daughter from sister, niece, cousin or unrelated namesake. The tax entry does not state whether Glasgow was her birth or married surname, whether she was a widow, or her age. A wife/widow identity within another Glasgow household therefore remains possible. Her circa-1650 birth and the competing before-about-1648 adult estimate are inferences, not ages that establish a generation. The Larne man’s possible identity with the 1618 Scottish child remains uncertain, as do his existing Kilwaughter sons and his own selected Scottish parents. No mother is selected for Elizabeth; neither the elder Jonet Cunningham nor the younger Janet Cunningham is transferred to her as mother. Existing chronology, the possible James identities and the hearsay status of the Larne allegations remain unchanged.
+
+Robert’s already uncertain Scottish parents, possible 1618-child identity and existing sons keep their previous grades.
+
+[Complete comparison and source limits](/branches/early-scottish-records/#glenarm-stevenston-working-family).
+
+- [PRONI T/307/A; Macafee, Antrim hearth roll 1669, PDF p.36: Kilwaughter records5347–5348 and Glenarm record5730](https://www.billmacafee.com/1660shearthmoneyrolls/1669hearthmoneyrollsantrim.pdf)
+- [Robert Glaskow of Larne: existing 1653 examination review and qualified later family model](https://www.wikitree.com/wiki/Glasgow-3970)
+- [Jon, child of John Glasgow and Barbara Alason, Kilwinning, 6 July1679; OPR599 FR44](https://www.familysearch.org/ark:/61903/1:1:XTVY-VL9)
+- [John, recorded to John Glasgow and Margaret Cowan at Stevenston, 1701](https://familysearch.org/ark:/61903/1:1:XYZK-MY7)
+- [Adam, recorded to the Stevenston John Glasgow household, 1706](https://familysearch.org/ark:/61903/1:1:XYZV-BNR)
+- [Findmypast OPR615/1 transcript: Margaret, James Glasgow and Mary Auld, Stevenston, 17 February1717](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0369031&tab=this)
+- [Findmypast OPR615/1 transcript: Euphan, James Glasgow and Mary Auld, Stevenston, 10 August1718](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0369064&tab=this)
+- [James Glasgow-3105: retained Kilwinning/Park household and identity alternative](https://www.wikitree.com/wiki/Glasgow-3105)
+- [Fasti vol.3 p.103: separate minister account and possible Kilwinning identity](https://electricscotland.com/bible/fastiecclesiaesc03scot.pdf)
