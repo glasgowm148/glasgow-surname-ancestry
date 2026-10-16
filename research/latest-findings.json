@@ -26232,6 +26232,66 @@
         "research/relationship_assessments.json",
         "research/ancestry-connections/saltcoats-preservation-2026-10-16.json"
       ]
+    },
+    {
+      "id": "kilbirnie-selected-father-2026-10-16",
+      "found_on": "2026-10-16",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Rev. John Glasgow’s leading local father comparison, Glasgow-1604, is selected in the working family; the former Robert parent remains an uncertain alternative.",
+      "qualification": "Glasgow-1604 is a tree-derived generation: his c.1626 birth, c.1664 death and parentage are unproved. The minister’s c.1653 birth is inferred from his reported age at death, not a baptism. Glasgow-3375, father with Barbara Alason in Kilwinning in 1679 and January 1689, remains a possible duplicate of the minister before his recorded January 1690 marriage. The two profile accounts are retained separately; their shared proposed father does not establish two distinct sons or brotherhood. No merge is selected. The former Glasgow-1078 father remains an uncertain, unselected alternative. The captured Cunningham-22604 mother is independently unproved; her tree attachment to Robert does not establish the minister’s maternity or make her Glasgow-1604’s wife. No new mother or spouse is assigned. The working route above Glasgow-1604 through Hugh Glasgow-1603 and James Glasgow-991 remains an unsupported older scaffold. The suggested Corsankell route is another unresolved ancestry comparison; this selection does not establish either path to the sixteenth-century family. The minister’s child-group audit remains open. Profile-based connectivity counts do not resolve duplicates or turn any uncertain link into documented descent. No new original inspection, confidence upgrade or live WikiTree edit is claimed.",
+      "relationship_change_count": 1,
+      "people": [
+        {
+          "id": "Glasgow-1073",
+          "name": "Rev. John Glasgow",
+          "url": "/people/glasgow-1073.html"
+        },
+        {
+          "id": "Glasgow-1604",
+          "name": "John Glasgow, Ayrshire generation",
+          "url": "/people/glasgow-1604.html"
+        },
+        {
+          "id": "Glasgow-1078",
+          "name": "Robert Glasgow, baptised1618",
+          "url": "/people/glasgow-1078.html"
+        },
+        {
+          "id": "Cunningham-22604",
+          "name": "Jonet Cunningham",
+          "url": "/people/cunningham-22604.html"
+        },
+        {
+          "id": "Glasgow-1066",
+          "name": "Glasgow-1066",
+          "url": "/people/glasgow-1066.html"
+        },
+        {
+          "id": "Glasgow-3375",
+          "name": "Glasgow-3375",
+          "url": "/people/glasgow-3375.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fasti Ecclesiae Scoticanae, vol.3, p.103",
+          "url": "https://electricscotland.com/bible/fastiecclesiaesc03scot.pdf"
+        },
+        {
+          "title": "University of Glasgow register, Munimenta vol.3, pp.124–125 and 40",
+          "url": "https://archive.org/details/munimentaalmeuni03mait"
+        },
+        {
+          "title": "Paterson, History of Ayr, vol.2, pp.252–253",
+          "url": "https://archive.org/details/historyofcountyo02pateuoft/page/252/mode/2up"
+        }
+      ],
+      "detail_url": "/branches/research-kilbirnie-minister/#selected-working-father",
+      "provenance": [
+        "research/relationship_assessments.json",
+        "research/ancestry-connections/kilbirnie-preservation-2026-10-16.json"
+      ]
     }
   ]
 }

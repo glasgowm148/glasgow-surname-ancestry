@@ -6,6 +6,28 @@ from tools.sync_ancestry_atlas import overlay_model
 
 
 class AtlasWorkingTests(unittest.TestCase):
+    def test_selected_replacement_preserves_parent_accounts_and_reverts(self):
+        old={'meta':{},'landmarks':[],'sections':[],'people':[
+            {'id':'@root','kind':'group'},
+            {'id':'Child-1','kind':'person','parents':[{'id':'Old-1','role':'father'}],'edge':{'parent':'Old-1'}},
+            {'id':'Old-1','kind':'person','note':'Approved old account','childrenRecorded':[{'id':'Child-1'},{'id':'Other-1'}]},
+            {'id':'New-1','kind':'person','note':'Approved new account','childrenRecorded':[]}]}
+        fresh=deepcopy(old);fresh['meta'].update(date='2026-10-16',workingParentAlternativeIds=['Old-1'])
+        fresh['people'][1].update(parents=[{'id':'New-1','role':'father'}],edge={'parent':'New-1','type':'hypothesis'})
+        fresh['people'][2].update(note='Short import',childrenRecorded=[{'id':'Other-1'}],priorWorkingChildren=[{'id':'Child-1'}])
+        fresh['people'][3]['childrenRecorded']=[{'id':'Child-1'}]
+        result=overlay_model(old,fresh)
+        self.assertEqual(result['people'][2]['note'],'Approved old account')
+        self.assertEqual(result['people'][3]['note'],'Approved new account')
+        self.assertEqual(result['people'][2]['childrenRecorded'],[{'id':'Other-1'}])
+        self.assertEqual(result,overlay_model(result,fresh))
+        fresh=deepcopy(old);fresh['meta']['date']='2026-10-16'
+        reverted=overlay_model(result,fresh)
+        for actual,expected in zip(reverted['people'],old['people']):
+            self.assertEqual({k:v for k,v in actual.items() if k!='childrenRecorded'},
+                             {k:v for k,v in expected.items() if k!='childrenRecorded'})
+            self.assertCountEqual(actual.get('childrenRecorded',[]),expected.get('childrenRecorded',[]))
+
     def test_recorded_family_can_add_missing_father_without_replacing_other_profiles(self):
         old = {'meta': {}, 'landmarks': [], 'sections': [], 'people': [
             {'id': '@root', 'kind': 'group'},

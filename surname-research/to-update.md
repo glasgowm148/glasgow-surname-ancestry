@@ -1550,3 +1550,11 @@ The August completion entries remain historical. The live parent fields are now 
 | [John, Corsankell/Kilwinning](https://www.wikitree.com/wiki/Glasgow-3193) | OPEN | Review complete sourced draft and uncertain upstream father hypothesis; retain known father grades and independent maternity. |
 | [Agnes, Saltcoats](https://www.wikitree.com/wiki/Glasgow-4151) | OPEN | Review complete sourced draft and uncertain upstream father hypothesis; retain known father grades and independent maternity. |
 | [Katherine, Saltcoats](https://www.wikitree.com/wiki/Glasgow-4153) | OPEN | Review complete sourced draft and uncertain upstream father hypothesis; retain known father grades and independent maternity. |
+
+
+## Kilbirnie selected working father — 16 October 2026
+
+| [Rev. John Glasgow](https://www.wikitree.com/wiki/Glasgow-1073) | OPEN | Review complete retained biography and uncertain father replacement; old father remains an alternative, mother independent, duplicate and child audit open. |
+| [John Glasgow, Ayrshire generation](https://www.wikitree.com/wiki/Glasgow-1604) | OPEN | Review complete retained biography and uncertain father replacement; old father remains an alternative, mother independent, duplicate and child audit open. |
+| [Robert Glasgow, baptised1618](https://www.wikitree.com/wiki/Glasgow-1078) | OPEN | Review complete retained biography and uncertain father replacement; old father remains an alternative, mother independent, duplicate and child audit open. |
+| [Jonet Cunningham](https://www.wikitree.com/wiki/Cunningham-22604) | OPEN | Review complete retained biography and uncertain father replacement; old father remains an alternative, mother independent, duplicate and child audit open. |

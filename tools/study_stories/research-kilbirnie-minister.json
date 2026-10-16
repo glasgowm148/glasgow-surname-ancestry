@@ -3,16 +3,231 @@
   "kicker": "Ayrshire identity study",
   "title": "Kilbirnie: the minister's origins",
   "standfirst": "Rev. John Glasgow's education and long ministry are documented. His parents, and his relationship to a contemporary Kilwinning John, remain questions for contemporary records.",
-  "status": {"label": "Career documented; parentage unresolved", "tone": "supported"},
-  "facts": [{"value": "1674–1722", "label": "study span"}, {"value": "2", "label": "profile anchors"}, {"value": "1688", "label": "ordination"}, {"value": "1722", "label": "brothers named in letter"}],
+  "status": {
+    "label": "Career documented; parentage unresolved",
+    "tone": "supported"
+  },
+  "facts": [
+    {
+      "value": "1674–1722",
+      "label": "study span"
+    },
+    {
+      "value": "2",
+      "label": "profile anchors"
+    },
+    {
+      "value": "1688",
+      "label": "ordination"
+    },
+    {
+      "value": "1722",
+      "label": "brothers named in letter"
+    }
+  ],
   "question": "Was Rev. John the Kilwinning John married to Barbara Allison, and were the Georges of Bog and Bay part of his family or separate local households?",
   "answer": "University and Fasti entries document the minister's career but name no parents. The Kilwinning John and Barbara Alason household is a serious duplicate candidate, while the retrospective Bog and Bay Georges lack dates and stated relationships. A wider Corsankell–Stevenston–Kilwinning route is a hypothesis, not a pedigree.",
-  "chapters": [{"id": "minister-career", "period": "1674–1721", "title": "A documented ministry", "body": ["John graduated M.A. at Glasgow in 1674 and was ordained at Kilbirnie in 1688; Fasti records his death in 1721.", "His marriage to Jean Cunningham and later family evidence describe a life and ministry, but do not name a father or mother."], "cluster": "minister", "evidence": [{"label": "Rev. John: career, ancestry and identity problem", "url": "/people/glasgow-1073.html"}]}, {"id": "local-john", "period": "1679–1689", "title": "A contemporary Kilwinning John", "body": ["OPR index citations associate John Glasgow and Barbara Alason with local events in 1679 and 1689.", "Those entries define a contemporary household but need their original pages before they can distinguish or merge the man with the minister."], "cluster": "kilwinning-john", "evidence": [{"label": "Kilwinning John: household and duplicate assessment", "url": "/people/glasgow-3375.html"}]}, {"id": "older-branch", "period": "retrospective lead", "title": "Bog, Bay and the older route", "body": ["A FamilySearch-catalogued handwritten genealogy mentions Georges of the Bog and Bay while asking about the minister's connection.", "The note does not establish dates, parentage or identity, so it cannot attach either George to the minister or identify the Bay bearer with an existing profile."], "cluster": "kilwinning-john", "evidence": [{"label": "FamilySearch manuscript", "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJ9-2YWB?view=fullText&keywords=Glasgow&searchForm=advanced&lang=en"}]}],
-  "clusters": [{"id": "minister", "title": "Rev. John Glasgow, M.A.", "place": "Kilbirnie", "period": "1674–1721", "status": "supported", "status_label": "Documented career", "summary": "University and church-history sources establish the minister's education, ministry and later family setting.", "boundary": "They do not identify his parents or prove a route back to Corsankell.", "people": ["glasgow-1073"]}, {"id": "kilwinning-john", "title": "John and Barbara Alason at Kilwinning", "place": "Kilwinning", "period": "1679–1689", "status": "unresolved", "status_label": "Contemporary duplicate candidate", "summary": "Indexed parish events support a local couple and children who may or may not involve the minister.", "boundary": "No inspected contemporary record resolves the two Johns or the Bog and Bay leads.", "people": ["glasgow-3375"]}],
-  "links": [{"from": "minister", "to": "kilwinning-john", "status": "unresolved", "label": "same name and region; identity requires original parish evidence"}],
-  "ladder": {"proved": ["the minister's M.A. and Kilbirnie ministry"], "supported": ["his Cunningham family connection", "the John-and-Barbara local household"], "hypothesis": ["a Corsankell–Stevenston–Kilwinning ancestry route"], "unresolved": ["the minister's parents and duplicate identity"]},
-  "gaps": [{"title": "Verify the manuscript against its image", "why": "The Bog and Bay readings and their chronology need direct review.", "where": "FamilySearch manuscript", "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJ9-2YWB?view=fullText&keywords=Glasgow&searchForm=advanced&lang=en", "priority": "high"}, {"title": "Inspect 1679 and 1689 OPR entries", "why": "Original details may distinguish the Kilwinning household from the minister.", "where": "Kilwinning OPR 599", "url": "/people/glasgow-3375.html", "priority": "high"}, {"title": "Search parish, sasine and probate records", "why": "They may identify parents or a documented estate succession.", "where": "Kilbirnie and Kilwinning", "url": "/people/glasgow-1073.html", "priority": "medium"}],
-  "timeline": [{"year": 1674, "label": "John graduates M.A. at Glasgow", "status": "proved", "cluster": "minister", "url": "/people/glasgow-1073.html"}, {"year": 1679, "label": "John and Barbara Alason local event", "status": "supported", "cluster": "kilwinning-john", "url": "/people/glasgow-3375.html"}, {"year": 1688, "label": "John ordained minister at Kilbirnie", "status": "proved", "cluster": "minister", "url": "/people/glasgow-1073.html"}, {"year": 1689, "label": "John and Barbara household baptism event", "status": "supported", "cluster": "kilwinning-john", "url": "/people/glasgow-3375.html"}, {"year": 1721, "label": "Minister's death recorded", "status": "proved", "cluster": "minister", "url": "/people/glasgow-1073.html"}, {"year": 1722, "label": "Robert and James called brothers in letter", "status": "proved", "cluster": "minister", "url": "/people/glasgow-1073.html"}],
-  "related": [{"label": "Corsankell household", "url": "/branches/research-corsankell-household/"}, {"label": "Stevenston estate network", "url": "/branches/research-stevenston-estate-network/"}],
+  "chapters": [
+    {
+      "id": "selected-working-father",
+      "anchor_alias": "selected-working-father",
+      "period": "1626 generation / minister born c.1653 · uncertain",
+      "title": "Select the local father while keeping the alternatives",
+      "body": [
+        "Select Glasgow-1604 as the uncertain working father of Rev. Glasgow-1073. The minister’s approximate 1653 birth fits an approximate 1626 father generation, and his Kilbirnie ministry and Robertland-Cunningham marriage belong to the Ayrshire setting of the Kilwinning profile. This adopts the leading existing-profile comparison already recorded in the research. Glasgow-1604’s attached adult sons have Kilwinning and Ayr households, making this a more economical local family placement than importing the minister into Glasgow-1078’s Glasgow-city household. No inspected record names the minister’s father; the preference rests on generation and locality, with low confidence.",
+        "Glasgow-1604 is a tree-derived generation: his c.1626 birth, c.1664 death and parentage are unproved. The minister’s c.1653 birth is inferred from his reported age at death, not a baptism. Glasgow-3375, father with Barbara Alason in Kilwinning in 1679 and January 1689, remains a possible duplicate of the minister before his recorded January 1690 marriage. The two profile accounts are retained separately; their shared proposed father does not establish two distinct sons or brotherhood. No merge is selected. The former Glasgow-1078 father remains an uncertain, unselected alternative. The captured Cunningham-22604 mother is independently unproved; her tree attachment to Robert does not establish the minister’s maternity or make her Glasgow-1604’s wife. No new mother or spouse is assigned. The working route above Glasgow-1604 through Hugh Glasgow-1603 and James Glasgow-991 remains an unsupported older scaffold. The suggested Corsankell route is another unresolved ancestry comparison; this selection does not establish either path to the sixteenth-century family. The minister’s child-group audit remains open. Profile-based connectivity counts do not resolve duplicates or turn any uncertain link into documented descent. No new original inspection, confidence upgrade or live WikiTree edit is claimed."
+      ],
+      "evidence": [
+        {
+          "label": "Fasti Ecclesiae Scoticanae, vol.3, p.103",
+          "url": "https://electricscotland.com/bible/fastiecclesiaesc03scot.pdf"
+        },
+        {
+          "label": "University of Glasgow register, Munimenta vol.3, pp.124–125 and 40",
+          "url": "https://archive.org/details/munimentaalmeuni03mait"
+        },
+        {
+          "label": "Paterson, History of Ayr, vol.2, pp.252–253",
+          "url": "https://archive.org/details/historyofcountyo02pateuoft/page/252/mode/2up"
+        }
+      ]
+    },
+    {
+      "id": "minister-career",
+      "period": "1674–1721",
+      "title": "A documented ministry",
+      "body": [
+        "John graduated M.A. at Glasgow in 1674 and was ordained at Kilbirnie in 1688; Fasti records his death in 1721.",
+        "His marriage to Jean Cunningham and later family evidence describe a life and ministry, but do not name a father or mother."
+      ],
+      "cluster": "minister",
+      "evidence": [
+        {
+          "label": "Rev. John: career, ancestry and identity problem",
+          "url": "/people/glasgow-1073.html"
+        }
+      ]
+    },
+    {
+      "id": "local-john",
+      "period": "1679–1689",
+      "title": "A contemporary Kilwinning John",
+      "body": [
+        "OPR index citations associate John Glasgow and Barbara Alason with local events in 1679 and 1689.",
+        "Those entries define a contemporary household but need their original pages before they can distinguish or merge the man with the minister."
+      ],
+      "cluster": "kilwinning-john",
+      "evidence": [
+        {
+          "label": "Kilwinning John: household and duplicate assessment",
+          "url": "/people/glasgow-3375.html"
+        }
+      ]
+    },
+    {
+      "id": "older-branch",
+      "period": "retrospective lead",
+      "title": "Bog, Bay and the older route",
+      "body": [
+        "A FamilySearch-catalogued handwritten genealogy mentions Georges of the Bog and Bay while asking about the minister's connection.",
+        "The note does not establish dates, parentage or identity, so it cannot attach either George to the minister or identify the Bay bearer with an existing profile."
+      ],
+      "cluster": "kilwinning-john",
+      "evidence": [
+        {
+          "label": "FamilySearch manuscript",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJ9-2YWB?view=fullText&keywords=Glasgow&searchForm=advanced&lang=en"
+        }
+      ]
+    }
+  ],
+  "clusters": [
+    {
+      "id": "minister",
+      "title": "Rev. John Glasgow, M.A.",
+      "place": "Kilbirnie",
+      "period": "1674–1721",
+      "status": "supported",
+      "status_label": "Documented career",
+      "summary": "University and church-history sources establish the minister's education, ministry and later family setting.",
+      "boundary": "They do not identify his parents or prove a route back to Corsankell.",
+      "people": [
+        "glasgow-1073"
+      ]
+    },
+    {
+      "id": "kilwinning-john",
+      "title": "John and Barbara Alason at Kilwinning",
+      "place": "Kilwinning",
+      "period": "1679–1689",
+      "status": "unresolved",
+      "status_label": "Contemporary duplicate candidate",
+      "summary": "Indexed parish events support a local couple and children who may or may not involve the minister.",
+      "boundary": "No inspected contemporary record resolves the two Johns or the Bog and Bay leads.",
+      "people": [
+        "glasgow-3375"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "from": "minister",
+      "to": "kilwinning-john",
+      "status": "unresolved",
+      "label": "same name and region; identity requires original parish evidence"
+    }
+  ],
+  "ladder": {
+    "proved": [
+      "the minister's M.A. and Kilbirnie ministry"
+    ],
+    "supported": [
+      "his Cunningham family connection",
+      "the John-and-Barbara local household"
+    ],
+    "hypothesis": [
+      "a Corsankell–Stevenston–Kilwinning ancestry route"
+    ],
+    "unresolved": [
+      "the minister's parents and duplicate identity"
+    ]
+  },
+  "gaps": [
+    {
+      "title": "Verify the manuscript against its image",
+      "why": "The Bog and Bay readings and their chronology need direct review.",
+      "where": "FamilySearch manuscript",
+      "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJ9-2YWB?view=fullText&keywords=Glasgow&searchForm=advanced&lang=en",
+      "priority": "high"
+    },
+    {
+      "title": "Inspect 1679 and 1689 OPR entries",
+      "why": "Original details may distinguish the Kilwinning household from the minister.",
+      "where": "Kilwinning OPR 599",
+      "url": "/people/glasgow-3375.html",
+      "priority": "high"
+    },
+    {
+      "title": "Search parish, sasine and probate records",
+      "why": "They may identify parents or a documented estate succession.",
+      "where": "Kilbirnie and Kilwinning",
+      "url": "/people/glasgow-1073.html",
+      "priority": "medium"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1674,
+      "label": "John graduates M.A. at Glasgow",
+      "status": "proved",
+      "cluster": "minister",
+      "url": "/people/glasgow-1073.html"
+    },
+    {
+      "year": 1679,
+      "label": "John and Barbara Alason local event",
+      "status": "supported",
+      "cluster": "kilwinning-john",
+      "url": "/people/glasgow-3375.html"
+    },
+    {
+      "year": 1688,
+      "label": "John ordained minister at Kilbirnie",
+      "status": "proved",
+      "cluster": "minister",
+      "url": "/people/glasgow-1073.html"
+    },
+    {
+      "year": 1689,
+      "label": "John and Barbara household baptism event",
+      "status": "supported",
+      "cluster": "kilwinning-john",
+      "url": "/people/glasgow-3375.html"
+    },
+    {
+      "year": 1721,
+      "label": "Minister's death recorded",
+      "status": "proved",
+      "cluster": "minister",
+      "url": "/people/glasgow-1073.html"
+    },
+    {
+      "year": 1722,
+      "label": "Robert and James called brothers in letter",
+      "status": "proved",
+      "cluster": "minister",
+      "url": "/people/glasgow-1073.html"
+    }
+  ],
+  "related": [
+    {
+      "label": "Corsankell household",
+      "url": "/branches/research-corsankell-household/"
+    },
+    {
+      "label": "Stevenston estate network",
+      "url": "/branches/research-stevenston-estate-network/"
+    }
+  ],
   "sources_note": "Working assessments: research/Glasgow-1073/findings.md and research/Glasgow-3375/findings.md."
 }

@@ -14,6 +14,28 @@ def assessment(child, father, **extra):
 
 
 class WorkingHypothesisTests(unittest.TestCase):
+    def test_selected_parent_replacement_retains_alternative_and_mother(self):
+        model = people('Child-1', 'Old-1', 'New-1', 'Mother-1')
+        mother={'id':'Mother-1','role':'mother','status':'uncertain'}
+        model[0]['parents']=[{'id':'Old-1','role':'father','status':'uncertain'},mother.copy()]
+        model[1]['childrenRecorded']=[{'id':'Child-1'},{'id':'Other-1'}]
+        proposal=assessment('Child-1','New-1',source_ids=['S-1'],model_note='Possible duplicate; mother independently unproved.',
+            working_parent_replacement={'previous_parent':'Old-1','alternative_assertion_id':'A-old','reason':'Preferred local generation'})
+        alternative={'assertion_id':'A-old','people':['Child-1','Old-1'],'publication_status':'approved',
+                     'status':'uncertain','lifecycle':'alternative','source_ids':['S-1'],
+                     'perspectives':{'Child-1':{'relationship':'father'}}}
+        with self.assertRaisesRegex(ValueError,'retained uncertain alternative'):
+            apply_working_hypotheses(model,[proposal])
+        self.assertEqual(apply_working_hypotheses(model,[alternative,proposal]),1)
+        self.assertIn(mother,model[0]['parents'])
+        self.assertEqual(model[0]['priorWorkingParents'][0]['id'],'Old-1')
+        self.assertEqual([r['id'] for r in model[1]['childrenRecorded']],['Other-1'])
+        self.assertEqual(model[1]['priorWorkingChildren'][0]['id'],'Child-1')
+        self.assertIn('Possible duplicate',model[0]['note'])
+        model[0]['parents']=[{'id':'Old-1','role':'father','status':'confident'}]
+        with self.assertRaisesRegex(ValueError,'retained uncertain alternative'):
+            apply_working_hypotheses(model,[alternative,proposal])
+
     def test_recorded_family_restoration_requires_captured_father_and_prior_grade(self):
         model = people('Child-1', 'Father-1')
         model[0]['parents'] = [{'id': 'Father-1', 'role': 'father', 'status': 'confident'}]

@@ -26,6 +26,9 @@ def overlay_model(retained: dict, fresh: dict) -> dict:
     managed_children = selected | prior_selected
     family_parents = {incoming[i].get('edge', {}).get('parent') for i in selected}
     family_parents |= {prior_people[i].get('edge', {}).get('parent') for i in prior_selected if i in prior_people}
+    alternative_parents = set(fresh['meta'].get('workingParentAlternativeIds', []))
+    prior_alternatives = set(result['meta'].get('workingParentAlternativeIds', []))
+    family_parents |= alternative_parents | prior_alternatives
     for father in family_parents:
         if father not in incoming or father not in existing:
             continue
@@ -34,6 +37,10 @@ def overlay_model(retained: dict, fresh: dict) -> dict:
         children = [r for r in existing[father].get('childrenRecorded', []) if r.get('id') not in managed_children]
         children += deepcopy([r for r in incoming[father].get('childrenRecorded', []) if r.get('id') in managed_children])
         existing[father]['childrenRecorded'] = children
+        if father in alternative_parents:
+            existing[father]['priorWorkingChildren'] = deepcopy(incoming[father].get('priorWorkingChildren', []))
+        elif father in prior_alternatives:
+            existing[father].pop('priorWorkingChildren', None)
     result['people'] = list(existing.values())
     for p in result['people']:
         parent = p.get('edge', {}).get('parent')
@@ -51,6 +58,7 @@ def overlay_model(retained: dict, fresh: dict) -> dict:
                           identityHypotheses=fresh['meta'].get('identityHypotheses', 0),
                           reviewedParentReplacementIds=sorted(reviewed),
                           reviewedFamilyRestorationIds=sorted(restored),
+                          workingParentAlternativeIds=sorted(alternative_parents),
                           parentRelationships=sum(len(p.get('parents', [])) for p in people),
                           workingOverlayIds=sorted(selected),
                           workingUpdated=fresh['meta']['date'],

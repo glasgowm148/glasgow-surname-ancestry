@@ -108,6 +108,7 @@ def external_relations(items: list[dict], role: str, catalogue_by_id: dict[str, 
 def apply_working_hypotheses(people: list[dict], assessments: list[dict], parent_aliases: dict | None = None) -> int:
     """Overlay explicitly selected uncertain father links onto the local model."""
     by_id = {person["id"]: person for person in people}
+    approved = {a.get('assertion_id'): a for a in assessments if a.get('publication_status') == 'approved'}
     parent_aliases = parent_aliases or {}
     selected = []
     selected_children = set()
@@ -133,9 +134,21 @@ def apply_working_hypotheses(people: list[dict], assessments: list[dict], parent
                          and row.get('name') == 'Parent outside current One-Tree export'
                          and resolution.get('canonical_id') == father
                          and parent_aliases.get(prior_alias) == father))]
-        if existing and any(row.get('id') != father and row not in aliases for row in existing):
+        replacement = assessment.get('working_parent_replacement') or {}
+        prior = replacement.get('previous_parent')
+        alternative = approved.get(replacement.get('alternative_assertion_id'), {})
+        replaces = bool(replacement)
+        if replaces and (len(existing) != 1 or existing[0].get('id') != prior or prior == father
+                or existing[0].get('status') not in {'uncertain', 'unmarked', 'unknown'}
+                or prior not in by_id or not assessment.get('source_ids') or not replacement.get('reason')
+                or set(alternative.get('people', [])) != {child, prior}
+                or alternative.get('lifecycle') != 'alternative'
+                or alternative.get('status') != 'uncertain' or not alternative.get('source_ids')
+                or alternative.get('perspectives', {}).get(child, {}).get('relationship') != 'father'):
+            raise ValueError('Working parent replacement requires the captured father and a retained uncertain alternative')
+        if existing and not replaces and any(row.get('id') != father and row not in aliases for row in existing):
             raise ValueError(f"Working hypothesis {assessment.get('assertion_id', '<unknown>')} conflicts with existing father of {child}")
-        if not existing or aliases:
+        if not existing or aliases or replaces:
             if child in selected_children:
                 raise ValueError(f"Working hypotheses conflict: multiple selected fathers for {child}")
             selected_children.add(child)
@@ -151,6 +164,16 @@ def apply_working_hypotheses(people: list[dict], assessments: list[dict], parent
             seen.add(node)
             node = edges.get(node)
     for child, father, assessment, aliases in selected:
+        replacement = assessment.get('working_parent_replacement') or {}
+        if replacement:
+            prior = replacement['previous_parent']
+            by_id[child]['priorWorkingParents'] = [r.copy() for r in by_id[child]['parents'] if r.get('role') == 'father']
+            by_id[child]['parents'] = [r for r in by_id[child]['parents'] if r.get('role') != 'father']
+            previous_children = by_id[prior].get('childrenRecorded', [])
+            by_id[prior]['priorWorkingChildren'] = [r.copy() for r in previous_children if r.get('id') == child]
+            by_id[prior]['childrenRecorded'] = [r for r in previous_children if r.get('id') != child]
+        if assessment.get('model_note'):
+            by_id[child]['note'] = (by_id[child].get('note', '') + ' ' + assessment['model_note']).strip()
         if aliases:
             by_id[child]['parentAliasResolutions'] = [dict(original=row.copy(), canonical_id=father,
                 original_profile_id=row.get('id') or assessment['parent_alias_resolution']['original_id'],
@@ -465,6 +488,7 @@ def generate_model(catalogue_path: Path, prior: dict) -> dict:
             "identityHypotheses": sum((p.get('identity_selection') or {}).get('selected') is True for p in documentary),
             "reviewedParentReplacementIds": reviewed_parent_ids,
             "reviewedFamilyRestorationIds": restored_family_ids,
+            "workingParentAlternativeIds": sorted({r['id'] for p in people for r in p.get('priorWorkingParents', [])}),
             "method": "Current family fields come from the public catalogue, alongside named documentary ancestors with complete sourced accounts. Documentary record periods are not birth dates. Selected working hypotheses remain marked uncertain and counted separately. One parent drives the drawing; collection nodes do not assert common ancestry.",
             "sources": [{"title": "Glasgow research catalogue", "url": "https://glasgow.phenotype.dev/"}, {"title": "Public catalogue people data", "url": "https://glasgow.phenotype.dev/data/people.json"}, {"title": "Public Y-DNA explorer", "url": "https://glasgow.phenotype.dev/ydna/"}],
             "sourceExports": [path.name for path in exports], "catalogueGenerated": payload.get("generated", ""),

@@ -265,7 +265,7 @@ def resolve(dossier, assessments, shared_assessments=()):
         claim.update(id=aid, type='relationship_hypothesis' if assessment.get('hypothesis_status') else 'assessed_relationship',
                      subject_ids=assessment['people'], perspective_id=dossier['id'],
                      claim=assessment.get('claim') or current['reason'],
-                     notes=current['reason'], lifecycle='current', historical_claim_ids=previous_ids)
+                     notes=current['reason'], lifecycle=current.get('lifecycle') or 'current', historical_claim_ids=previous_ids)
         claim['evidence_ids'] = []  # source_ids identify canonical records, not imported evidence items.
         claims[:] = [c for c in claims if c.get('id') != aid]
         claims.append(claim)

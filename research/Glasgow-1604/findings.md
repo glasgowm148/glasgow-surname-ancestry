@@ -1,5 +1,12 @@
 # Findings: [John Glasgow (Glasgow-1604), about 1626, Kilwinning/Ayrshire](https://www.wikitree.com/wiki/Glasgow-1604)
 
+## Current conclusion
+
+Reviewed: 2026-10-16
+
+**Working selection, 16 October 2026:** Glasgow-1604 is selected as Rev. Glasgow-1073’s uncertain local father. Glasgow-1078 remains an unselected uncertain alternative. No mother, duplicate merge or documented ancestry path is inferred. [Evidence and limits](/branches/research-kilbirnie-minister/#selected-working-father).
+
+
 ## Current conclusion — 27 September 2026
 
 **Merged Glasgow-3145 into this profile on 27 September 2026.** Both profiles represented an unsourced John born about 1626; neither had an independent event establishing a second man. The surviving profile retains uncertain Hugh Glasgow-1603 as attached father and three adult sons. Glasgow-3145’s alternative James Glasgow-991/Christina Bie parentage survives in the merged biography as an unproved hypothesis, not a combined parent couple. The approximate 1664 death remains unsourced.
@@ -66,3 +73,11 @@ See the [Glasgow-1098 descendant map](../../surname-research/clusters/early-scot
 The Edinburgh apprenticeship of 12 January 1648 (apprentice to William Blackwood, merchant; son of the late Thomas, maltman and burgess of Glasgow) was once read as a John Glasgow entry and considered for this profile, for Glasgow-3610 and, as father, for Thomas Glasgow-1103. A page-image review on 30 September 2026 found it under the printed **Gray** heading: Francis J. Grant, ed., *Register of Apprentices of the City of Edinburgh, 1583–1666* (1906), [printed p. 75](https://archive.org/details/scottishrecordso28scotuoft/page/n86/mode/1up) (printed transcription seen as a page image; the manuscript register was not inspected). It is a John Gray record and supplies no event or relationship evidence for this John. See `research/record-john-glasgow-edinburgh-1648/findings.md`.
 
 Recorded in `surname-research/to-update.md` (30 September 2026); carried into this file on 7 October 2026.
+
+## Kilbirnie working-family selection — 16 October 2026
+
+Select Glasgow-1604 as the uncertain working father of Rev. Glasgow-1073. The minister’s approximate 1653 birth fits an approximate 1626 father generation, and his Kilbirnie ministry and Robertland-Cunningham marriage belong to the Ayrshire setting of the Kilwinning profile. This adopts the leading existing-profile comparison already recorded in the research. Glasgow-1604’s attached adult sons have Kilwinning and Ayr households, making this a more economical local family placement than importing the minister into Glasgow-1078’s Glasgow-city household. No inspected record names the minister’s father; the preference rests on generation and locality, with low confidence.
+
+Glasgow-1604 is a tree-derived generation: his c.1626 birth, c.1664 death and parentage are unproved. The minister’s c.1653 birth is inferred from his reported age at death, not a baptism. Glasgow-3375, father with Barbara Alason in Kilwinning in 1679 and January 1689, remains a possible duplicate of the minister before his recorded January 1690 marriage. The two profile accounts are retained separately; their shared proposed father does not establish two distinct sons or brotherhood. No merge is selected. The former Glasgow-1078 father remains an uncertain, unselected alternative. The captured Cunningham-22604 mother is independently unproved; her tree attachment to Robert does not establish the minister’s maternity or make her Glasgow-1604’s wife. No new mother or spouse is assigned. The working route above Glasgow-1604 through Hugh Glasgow-1603 and James Glasgow-991 remains an unsupported older scaffold. The suggested Corsankell route is another unresolved ancestry comparison; this selection does not establish either path to the sixteenth-century family. The minister’s child-group audit remains open. Profile-based connectivity counts do not resolve duplicates or turn any uncertain link into documented descent. No new original inspection, confidence upgrade or live WikiTree edit is claimed.
+
+Sources: [Fasti, vol.3 p.103](https://electricscotland.com/bible/fastiecclesiaesc03scot.pdf); [Munimenta, vol.3 pp.124–125 and 40](https://archive.org/details/munimentaalmeuni03mait); [Paterson, vol.2 pp.252–253](https://archive.org/details/historyofcountyo02pateuoft/page/252/mode/2up). These establish the minister’s setting, not his father. [Complete comparison](/branches/research-kilbirnie-minister/#selected-working-father).

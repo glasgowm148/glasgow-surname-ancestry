@@ -1944,5 +1944,39 @@
         "timeline_group": "Family"
       }
     }
+  },
+  {
+    "record_id": "kilbirnie-john-fasti-1674-1721",
+    "association": "Rev. John Glasgow, minister of Kilbirnie",
+    "date": "1674–1721",
+    "year": 1688,
+    "place": "Kilbirnie, Ayrshire, Scotland",
+    "source_title": "Hew Scott, Fasti Ecclesiae Scoticanae, vol.3, p.103",
+    "source_url": "https://electricscotland.com/bible/fastiecclesiaesc03scot.pdf",
+    "status": "Existing published biographical evidence; no new inspection",
+    "note": "MA 16 July 1674; ordained 16 August 1688; died December 1721 aged about 68. Names no parent. Used as a chronological/locality anchor, not father proof.",
+    "profiles": {
+      "Glasgow-1073": {
+        "role": "minister",
+        "timeline_group": "Career"
+      }
+    }
+  },
+  {
+    "record_id": "kilbirnie-john-university-1672-1674",
+    "association": "University career of Rev. John Glasgow",
+    "date": "1672–1674",
+    "year": 1674,
+    "place": "Glasgow, Scotland",
+    "source_title": "Munimenta Alme Universitatis Glasguensis, vol.3, printed pp.124–125 and 40",
+    "source_url": "https://archive.org/details/munimentaalmeuni03mait",
+    "status": "Existing published register review; no new inspection",
+    "note": "Third class 1672 and MA 16 July 1674. No parent or home parish; absence of an origin label does not prove a birthplace.",
+    "profiles": {
+      "Glasgow-1073": {
+        "role": "student and graduate",
+        "timeline_group": "Education"
+      }
+    }
   }
 ]

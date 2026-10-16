@@ -1,16 +1,76 @@
-# New information for Glasgow-1073
+[[Category:Glasgow Name Study]]
 
-- The University of Glasgow's own register lists `Johannes Glasgua` in the third
-  class in 1672 and `Joannes Glasgouensis` among the M.A. graduates on 16 July
-  1674: https://archive.org/details/munimentaalmeuni03mait
-- The 1672 register labels Irish, Scots-Irish and English students where relevant;
-  John has no such label. This supports a Scottish rather than Irish upbringing,
-  but does not identify his birthplace or parents.
-- John is best clustered beneath Glasgow-1098 through the Corsankell-Stevenston-
-  Kilwinning branch. The preferred existing-profile candidate father is
-  Glasgow-1604, uncertain, rather than the Kilwaughter Robert-1078.
-- Glasgow-3375 may be a duplicate of the minister. Its John-and-Barbara events in
-  Kilwinning in 1679 and January 1689 fit before John's January 1690 marriage to
-  Jean Cunningham. Full OPR entries must be compared before merging.
+{{Estimated Date}}
+[[Category: Ayrshire, Needs Profiles Created]]
+== Biography ==
+{{Notables Sticker}}
 
-Complete evidence and paste-ready profile wording are in [findings.md](findings.md).
+=== Early Life and Education ===  
+Rev. '''John Glasgow''' earned his '''M.A.''' from the University of Glasgow.<ref>University of Glasgow Story. [https://universitystory.gla.ac.uk/people/WH6172 Biography of John Glasgow]</ref>
+
+=== Ministry ===  
+In 1688, he was appointed '''Minister of Kilbirnie''' in the '''Presbytery of Irvine'''. He held this post for over three decades, serving until his death in 1721. His tenure spanned the era following the Glorious Revolution, through the formal establishment of Presbyterianism as Scotland’s national church. Hew Scott's ''Fasti Ecclesiae Scoticanae'' records that he graduated M.A. at Glasgow on 16 July 1674 and was ordained at Kilbirnie on 16 August 1688, in the year the Episcopalian incumbent was removed. The record supports describing him as a Presbyterian minister of the Revolution settlement; it does not identify him as a field preacher, prisoner, or active Covenanter.<ref name="FastiKilbirnie">Hew Scott, ''Fasti Ecclesiae Scoticanae'', new ed., vol. 3 (Edinburgh: Oliver and Boyd, 1920), [https://electricscotland.com/bible/fastiecclesiaesc03scot.pdf p. 103].</ref>
+
+=== Marriage and Family ===  
+On 14 January '''1690''', Rev. John Glasgow married '''[[Cunningham-20924|Jean Cunningham (abt.1660–)]]''',<ref>Kilbirnie Parish, Church of Scotland, "Old Parish Registers Banns and Marriages," database, National Records of Scotland ([https://www.scotlandspeople.gov.uk ScotlandsPeople] : accessed 2 May 2025), marriage or banns for John Glasgow and Jeane Cunynghame 14 Jan 1690; citing Ref No: 10 / 9, parish 596.</ref> ''eldest daughter of John Cuninghame of [recte, in] Wattieston, Chamberlain to the Laird of Glengarnock and of the Robertland family.''<ref name=HistoryAyr/>  They had six children:
+#'''[[Glasgow-1077|John]]''', b 9 Dec 1690<ref>Kilbirnie Parish, Church of Scotland, "Old Parish Registers Births and Baptisms," database, National Records of Scotland ([https://www.scotlandspeople.gov.uk ScotlandsPeople] : accessed 2 May 2025), John Glasgow birth or baptism 9 Dec 1690, son of John Glasgow and Jeane Cunyinghame; citing Ref 10 / 11, parish 596.</ref>
+#'''[[Glasgow-1153|Elizabeth]]''', b 17 Apr 1692<ref>Kilbirnie Parish, Church of Scotland, "Old Parish Registers Births and Baptisms," database, National Records of Scotland ([https://www.scotlandspeople.gov.uk ScotlandsPeople] : accessed 2 May 2025), Elizabeth Glasgow birth or baptism 17 Apr 1692, daughter of John Glasgow and Jeane Cunyinghame; citing Ref 10 / 15, parish 596.</ref>
+#'''[[Glasgow-1154|Margaret]]''', b 17 Apr 1692<ref>Kilbirnie Parish, Church of Scotland, "Old Parish Registers Births and Baptisms," database, National Records of Scotland ([https://www.scotlandspeople.gov.uk ScotlandsPeople] : accessed 2 May 2025), Margaret Glasgow birth or baptism 17 Apr 1692, daughter of John Glasgow and Jeane Cunyinghame; citing Ref 10 / 15, parish 596.</ref>  
+#'''[[Glasgow-1075|Robert]]''', b 17 Oct 1693,<ref>Kilbirnie Parish, Church of Scotland, "Old Parish Registers Births and Baptisms," database, National Records of Scotland ([https://www.scotlandspeople.gov.uk ScotlandsPeople] : accessed 2 May 2025), Robert Glasgow birth or baptism 17 Oct 1693, son of John Glasgow and Jeane Cunyinghame; citing Ref 10 / 19, parish 596.</ref> of Puddockholm (a.k.a. "The Waters"), married [[Allan-4046|Margaret Allan (1695–)]]<ref name=HistoryAyr>'History of the County of Ayr' (James Paterson, vol 2, 1852, (T G Stevenson, Edinburgh, 1847-1852) [https://archive.org/details/historyofcountyo02pateuoft/page/252/mode/1up  Vol 2 page 252])  I. 
+Rev John Glasgow, minister of Kilbirnie</ref>
+#'''[[Glasgow-3514|Alexander]]''', b 15 Jul 1695 <ref>Kilbirnie Parish, Church of Scotland, "Old Parish Registers Births and Baptisms," database, National Records of Scotland ([https://www.scotlandspeople.gov.uk ScotlandsPeople] : accessed 2 May 2025), Alexander Glasgow birth or baptism 15 Jul 1695, son of John Glasgow and Jeane Cunyinghame; citing Ref 10 / 22, parish 596.</ref>
+#'''[[Glasgow-1436|Jeane]]''', b 16 Apr 1697<ref>Kilbirnie Parish, Church of Scotland, "Old Parish Registers Births and Baptisms," database, National Records of Scotland ([https://www.scotlandspeople.gov.uk ScotlandsPeople] : accessed 2 May 2025), Jeane Glasgow birth or baptism 16 Apr 1697, daughter of John Glasgow and Jeane Cunyinghame; citing Ref 10 / 25, parish 596.</ref>, married John Sword on 12 June 1763
+
+On 19 April '''1699''', following Jean’s death, Rev. John Glasgow married his second wife, '''[[Scott-40313|Margaret Scott]]''',<ref>Kilbirnie Parish, Church of Scotland, "Old Parish Registers Banns and Marriages," database, National Records of Scotland ([https://www.scotlandspeople.gov.uk ScotlandsPeople] : accessed 2 May 2025), marriage or banns for John Glasgow and Margaret Scot 19 Apr 1699; citing Ref No: 10 / 28, parish 596.</ref> daughter of Robert Scott, a merchant in Beith.<ref name=HistoryAyr/> They had eight children:  
+#'''[[Glasgow-1140|James]]''', b 17 Mar 1700,<ref>Kilbirnie Parish, Church of Scotland, "Old Parish Registers Births and Baptisms," database, National Records of Scotland ([https://www.scotlandspeople.gov.uk ScotlandsPeople] : accessed 2 May 2025), John Glasgow birth or baptism 17 Mar 1700, son of John Glasgow and Margaret Scot; citing Ref 10 / 30, parish 596.</ref>, who became minister at Edinburgh Castle  
+#'''[[Glasgow-3548|Margaret]]''', b 19 Mar 1702<ref>Kilbirnie Parish, Church of Scotland, "Old Parish Registers Births and Baptisms," database, National Records of Scotland ([https://www.scotlandspeople.gov.uk ScotlandsPeople] : accessed 2 May 2025), Margaret Glasgow birth or baptism 19 Mar 1702, daughter of John Glasgow and Margaret Scot; citing Ref 10 / 34, parish 596.</ref>  
+#'''[[Glasgow-3288|William]]''', b 20 Aug 1704<ref>Kilbirnie Parish, Church of Scotland, "Old Parish Registers Births and Baptisms," database, National Records of Scotland ([https://www.scotlandspeople.gov.uk ScotlandsPeople] : accessed 2 May 2025), William Glasgow birth or baptism 20 Aug 1704, son of John Glasgow and Margaret Scot; citing Ref 10 / 39, parish 596.</ref>
+#'''[[Glasgow-3524|Samuel]]''', b 9 Mar 1707<ref>Kilbirnie Parish, Church of Scotland, "Old Parish Registers Births and Baptisms," database, National Records of Scotland ([https://www.scotlandspeople.gov.uk ScotlandsPeople] : accessed 2 May 2025), Samuel Glasgow birth or baptism 9 Mar 1707, son of John Glasgow and Margaret Scot; citing Ref 10 / 43, parish 596.</ref>
+#'''[[Glasgow-3550|Janet]]''', b 11 Feb 1711,<ref>Kilbirnie Parish, Church of Scotland, "Old Parish Registers Births and Baptisms," database, National Records of Scotland ([https://www.scotlandspeople.gov.uk ScotlandsPeople] : accessed 2 May 2025), Janet Glasgow birth or baptism 11 Feb 1711, daughter of John Glasgow and Margaret Scot; citing Ref 10 / 51, parish 596.</ref> buried in Glasgow in 1723  
+#'''[[Glasgow-3551|John]]''', b 3 May 1713,<ref>Kilbirnie Parish, Church of Scotland, "Old Parish Registers Births and Baptisms," database, National Records of Scotland ([https://www.scotlandspeople.gov.uk ScotlandsPeople] : accessed 2 May 2025), John Glasgow birth or baptism 3 May 1713, son of John Glasgow and Margarat Scot; citing Ref 10 / 55, parish 596.</ref> died early
+#'''[[Glasgow-3552|Jean]]''', b 3 Apr 1715<ref>Kilbirnie Parish, Church of Scotland, "Old Parish Registers Births and Baptisms," database, National Records of Scotland ([https://www.scotlandspeople.gov.uk ScotlandsPeople] : accessed 2 May 2025), Jean Glasgow birth or baptism 3 Apr 1715, daughter of John Glasgow and Margarat Scot; citing Ref 10 / 59, parish 596.</ref>
+#'''[[Glasgow-3553|John]]''', b 22 Sep 1717<ref>Kilbirnie Parish, Church of Scotland, "Old Parish Registers Births and Baptisms," database, National Records of Scotland ([https://www.scotlandspeople.gov.uk ScotlandsPeople] : accessed 2 May 2025), John Glasgow birth or baptism 22 Sep 1717, son of John Glasgow and Margarat Scot; citing Ref 10 / 64, parish 596.</ref>
+
+=== Legacy ===  
+Following John’s death, several of his children — '''Margaret''', '''Janet''', and '''Jean''', along with their mother '''Margaret Scott''' and brother '''James Glasgow''' — were involved in a successful decree of adjudication against '''Patrick, Viscount of Garnock'''. The case involved rights to property in the new barony of Kilbirnie. A key legal document was an extract renunciation dated 21 July 1731, registered on 14 February 1733.<ref>National Records of Scotland. [https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/overview.aspx?st=1&tc=y&tl=n&tn=n&tp=n&k=James+Glasgow&ko=p&r=&ro=s&df=&dt=&di=y Decree of Adjudication – Glasgow family vs. Viscount of Garnock]</ref>
+
+
+== Research Notes ==
+=== Selected uncertain Kilbirnie father — 16 October 2026 ===
+
+Select [[Glasgow-1604]] as the uncertain working father of Rev. [[Glasgow-1073]]. The minister’s approximate 1653 birth fits an approximate 1626 father generation, and his Kilbirnie ministry and Robertland-Cunningham marriage belong to the Ayrshire setting of the Kilwinning profile. This adopts the leading existing-profile comparison already recorded in the research. [[Glasgow-1604]]’s attached adult sons have Kilwinning and Ayr households, making this a more economical local family placement than importing the minister into [[Glasgow-1078]]’s Glasgow-city household. No inspected record names the minister’s father; the preference rests on generation and locality, with low confidence.
+
+[[Glasgow-1604]] is a tree-derived generation: his c.1626 birth, c.1664 death and parentage are unproved. The minister’s c.1653 birth is inferred from his reported age at death, not a baptism. [[Glasgow-3375]], father with Barbara Alason in Kilwinning in 1679 and January 1689, remains a possible duplicate of the minister before his recorded January 1690 marriage. The two profile accounts are retained separately; their shared proposed father does not establish two distinct sons or brotherhood. No merge is selected. The former [[Glasgow-1078]] father remains an uncertain, unselected alternative. The captured [[Cunningham-22604]] mother is independently unproved; her tree attachment to Robert does not establish the minister’s maternity or make her [[Glasgow-1604]]’s wife. No new mother or spouse is assigned. The working route above [[Glasgow-1604]] through Hugh [[Glasgow-1603]] and James [[Glasgow-991]] remains an unsupported older scaffold. The suggested Corsankell route is another unresolved ancestry comparison; this selection does not establish either path to the sixteenth-century family. The minister’s child-group audit remains open. Profile-based connectivity counts do not resolve duplicates or turn any uncertain link into documented descent. No new original inspection, confidence upgrade or live WikiTree edit is claimed. <ref>Hew Scott, Fasti Ecclesiae Scoticanae, vol.3, [https://electricscotland.com/bible/fastiecclesiaesc03scot.pdf p.103]; Munimenta Alme Universitatis Glasguensis, vol.3, [https://archive.org/details/munimentaalmeuni03mait pp.124–125 and 40]; James Paterson, History of the County of Ayr, vol.2, [https://archive.org/details/historyofcountyo02pateuoft/page/252/mode/2up pp.252–253]. These establish chronology and context; none names the minister’s father.</ref>
+
+The university register lists Johannes Glasgua in the third class in 1672 and Joannes Glasgouensis among the MA graduates on 16 July 1674. Its origin labels do not name John’s parent or birthplace.<ref>Hew Scott, Fasti Ecclesiae Scoticanae, vol.3, [https://electricscotland.com/bible/fastiecclesiaesc03scot.pdf p.103]; Munimenta Alme Universitatis Glasguensis, vol.3, [https://archive.org/details/munimentaalmeuni03mait pp.124–125 and 40]; James Paterson, History of the County of Ayr, vol.2, [https://archive.org/details/historyofcountyo02pateuoft/page/252/mode/2up pp.252–253]. These establish chronology and context; none names the minister’s father.</ref>
+
+
+* In 1794, Robert Glasgow, Esq. of Puddockholm, grandson of Rev. John Glasgow, minister of Kilbirnie, acquired the estate of Mountgreenan, which had previously belonged to the Cuninghame family, and later expanded the estate by purchasing the lands of Fergushill around 1800.<ref>https://www.kilwinningheritage.org.uk/office/resources/documents/history-of-the-counties-of-ayr-and-wigton-vol-3-pt-2-paterson-1863.pdf</ref>
+
+*Marriages and children listed above included 3 wives and children. 
+**1st 'wife' [[Allison-6866|Barbara Allison /Alason / Allason (abt.1659–)]] has no source and children were born in Kilwinning.  That spouse has been unlinked since she was also linked to different [[Glasgow-3375|John Glasgow (abt.1650-)]], whom children were linked with.
+**2nd and 3rd 'wives' have marriage sources, children are all born in Kilbirnie, and both wives are listed in ''History of Ayr'', which states that he had fourteen children,<ref name=HistoryAyr/> which is the same number of children listed above for those two marriages.
+
+=== Parentage and the 1722 family letter ===
+
+No reviewed record names John's parents. The University of Glasgow register and ''Fasti Ecclesiae Scoticanae'' establish his education, ministry and approximate age, but neither gives a father or birthplace.<ref name=ProjectSource1/><ref name=ProjectSource3/> The currently linked parents, [[Glasgow-1078|Robert Glasgow]] and [[Cunningham-22604|Jonet Cunningham]], are therefore retained only as uncertain hypotheses, not proved parentage.
+
+A letter dated 22 November 1722 from [[Glasgow-1075|Robert Glasgow]] at Paddockholm to his brother [[Glasgow-1140|James Glasgow]], then a student of divinity at Glasgow, independently confirms the sibling relationship within John's documented child group.<ref>National Records of Scotland, RH15/120/178, letter from Robert Glasgow, Paddockholm, to his brother James Glasgow, student of divinity at Glasgow, 22 November 1722, [https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=RH15%2F120%2F178 catalogue description].</ref> It does not identify John's own parents or connect this family to Robert Glaskow of Larne.
+
+=== Current research ===
+
+John should be placed in the wider [[Glasgow-1098|William Glasgow]] descendant project, most probably in the '''Corsankell-Stevenston-Kilwinning''' branch. Calling him the root of a separate Ayrshire family was too strong.
+
+The best current route is:
+<code>William Glasgow (Glasgow-1098) ? James Glasgow elder (Glasgow-1168), Corsankell -> John Glasgow (Glasgow-3193), record-proved son ? Hugh Glasgow (Glasgow-1603), Ayrshire placeholder ? John Glasgow (Glasgow-1604), Kilwinning placeholder ? Rev. John Glasgow M.A. (Glasgow-1073) </code>
+
+Only James-1168 to his named son John is directly proved within this displayed route. Glasgow-1603 and Glasgow-1604 have only tree-derived dates and parentage. Glasgow-1604 is nevertheless the best *existing-profile candidate* for John's father by generation and place. The structured parent links remain uncertain; no alternative father should be attached as certain without a direct record.
+
+[[Glasgow-3375|John Glasgow (Glasgow-3375), about 1650, Kilwinning]] is a serious duplicate candidate for the minister, not merely another son to add under Glasgow-1604. His John-and-Barbara household has indexed Kilwinning events in 1679 and January 1689, immediately before the minister's documented January 1690 marriage. The complete OPR pages must be checked for Mr`, occupation or residence before merging.
+
+This assessment draws on the cited records and public source material.<ref name="ProjectSource1">[https://archive.org/details/munimentaalmeuni03mait full register].</ref><ref name="ProjectSource2">[https://archive.org/stream/munimentaalmeuni03mait/munimentaalmeuni03mait_djvu.txt searchable text].</ref><ref name="ProjectSource3">[https://electricscotland.com/bible/fastiecclesiaesc03scot.pdf p. 103].</ref><ref name="ProjectSource4">[https://archive.org/details/historyofcountyo02pateuoft/page/252/mode/2up pp. 252-253].</ref><ref name="ProjectSource5">[https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD39%2F5%2F59 GD39/5/59].</ref>
+
+== Sources ==
+<references />
+* 'The County Families of the Zetland Islands' by Francis Grant, 1893 ('Gauden of Swinister and Overland', p90+)
+* Visitation (Gloucestershire, 1623, 'Baynham')

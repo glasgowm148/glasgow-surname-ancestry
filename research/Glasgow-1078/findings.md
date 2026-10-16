@@ -5,6 +5,11 @@ Last updated: 2026-10-07
 
 ## Current conclusion
 
+Reviewed: 2026-10-16
+
+**Working selection, 16 October 2026:** Glasgow-1604 is selected as Rev. Glasgow-1073’s uncertain local father. Glasgow-1078 remains an unselected uncertain alternative. No mother, duplicate merge or documented ancestry path is inferred. [Evidence and limits](/branches/research-kilbirnie-minister/#selected-working-father).
+
+
 This profile is the Scottish Robert baptised at Glasgow High Kirk on 17 November
 1618, lawful son of Robert Glasgow and Jonet Cunningham. It is **possible, but not
 proved or presently probable**, that he was the Robert Glaskow represented by the
@@ -215,3 +220,9 @@ Add the record as supporting evidence while preserving all existing sources and 
 Original image not inspected for this batch. The combined collection’s date does not automatically establish a birthday. Names alone do not uniquely identify attached parents or connect a child with a later adult. An omitted parent or indexed gender U remains unspecified in this source.
 
 **Next action:** No additional WikiTree update from this row; preserve any existing pending work.
+
+## Kilbirnie working-family selection — 16 October 2026
+
+**Working selection, 16 October 2026:** Glasgow-1604 is selected as Rev. Glasgow-1073’s uncertain local father. Glasgow-1078 remains an unselected uncertain alternative. No mother, duplicate merge or documented ancestry path is inferred. [Evidence and limits](/branches/research-kilbirnie-minister/#selected-working-father). Glasgow-1604 is a tree-derived generation: his c.1626 birth, c.1664 death and parentage are unproved. The minister’s c.1653 birth is inferred from his reported age at death, not a baptism. Glasgow-3375, father with Barbara Alason in Kilwinning in 1679 and January 1689, remains a possible duplicate of the minister before his recorded January 1690 marriage. The two profile accounts are retained separately; their shared proposed father does not establish two distinct sons or brotherhood. No merge is selected. The former Glasgow-1078 father remains an uncertain, unselected alternative. The captured Cunningham-22604 mother is independently unproved; her tree attachment to Robert does not establish the minister’s maternity or make her Glasgow-1604’s wife. No new mother or spouse is assigned. The working route above Glasgow-1604 through Hugh Glasgow-1603 and James Glasgow-991 remains an unsupported older scaffold. The suggested Corsankell route is another unresolved ancestry comparison; this selection does not establish either path to the sixteenth-century family. The minister’s child-group audit remains open. Profile-based connectivity counts do not resolve duplicates or turn any uncertain link into documented descent. No new original inspection, confidence upgrade or live WikiTree edit is claimed.
+
+Sources: [Fasti, vol.3 p.103](https://electricscotland.com/bible/fastiecclesiaesc03scot.pdf); [Munimenta, vol.3 pp.124–125 and 40](https://archive.org/details/munimentaalmeuni03mait); [Paterson, vol.2 pp.252–253](https://archive.org/details/historyofcountyo02pateuoft/page/252/mode/2up). These establish the minister’s setting, not his father. [Complete comparison](/branches/research-kilbirnie-minister/#selected-working-father).

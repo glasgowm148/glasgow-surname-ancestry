@@ -10,6 +10,18 @@ spec.loader.exec_module(module)
 
 
 class ResolvedDossierTests(unittest.TestCase):
+    def test_unselected_parent_remains_an_alternative_in_claims_and_relationships(self):
+        original={'id':'Child-1','relationships':{'parents':[{'id':'Old-1','relationship':'father','status':'uncertain','claim_id':'C-import'}]},'claims':[]}
+        alternative={'assertion_id':'A-old','people':['Child-1','Old-1'],'publication_status':'approved',
+            'status':'uncertain','status_label':'Unselected father candidate','lifecycle':'alternative',
+            'basis':'Prior uncertainty retained','source_ids':['S-1'],
+            'perspectives':{'Child-1':{'relationship':'father','reason':'Alternative retained'}}}
+        resolved=module.resolve(original,[],[alternative])
+        self.assertEqual(resolved['relationships']['parents'][0]['lifecycle'],'alternative')
+        self.assertEqual(next(c for c in resolved['claims'] if c['id']=='A-old')['lifecycle'],'alternative')
+        self.assertEqual(resolved['relationships']['parents'][0]['status'],'uncertain')
+        self.assertEqual(resolved['imported']['sections']['relationships'],original['relationships'])
+
     def test_chronology_vitals_are_published_and_revocable(self):
         with tempfile.TemporaryDirectory() as temp:
             root=Path(temp)
