@@ -66,6 +66,8 @@ def usable_tester_panel(page):
 
 def documentary_renderer(page):
     """Allow named documentary ancestors while preserving the supplied UI."""
+    page = page.replace('Selected uncertain working father.</b>',
+                        "Selected uncertain working ${esc(r.role||'parent')}.</b>")
     replacements = {
         "const wiki=id=>'https://www.wikitree.com/wiki/'+encodeURIComponent(id);":
         "const wiki=id=>{const p=D.people.find(p=>p.id===id);return p?.wikitreeUrl||p?.recordUrl||'https://www.wikitree.com/wiki/'+encodeURIComponent(id)};",
@@ -76,7 +78,7 @@ def documentary_renderer(page):
         "const rows=[['WikiTree ID','Name'": "const rows=[['Person ID','Name'",
         "linked descendants through recorded parent relationships.": "linked descendants through parent relationships, including selected uncertain links.",
         "'Recorded ancestry route'": "'Ancestry route · uncertain links labelled'",
-        "p.parents.map(relationHTML).join('')": "p.parents.map(r=>relationHTML(r)+(r.hypothesis?`<p><b>Selected uncertain working father.</b> ${esc(r.reason||'')} ${(r.analysis_links||[]).map(a=>`<a href=\"${esc(a.href)}\">${esc(a.label)}</a>`).join(' · ')}</p>`:'')).join('')",
+        "p.parents.map(relationHTML).join('')": "p.parents.map(r=>relationHTML(r)+(r.hypothesis?`<p><b>Selected uncertain working ${esc(r.role||'parent')}.</b> ${esc(r.reason||'')} ${(r.analysis_links||[]).map(a=>`<a href=\"${esc(a.href)}\">${esc(a.label)}</a>`).join(' · ')}</p>`:'')).join('')",
     }
     # The helper replacement is atomic; subsequent calls preserve identical JS.
     if "const catalogue=p=>p.catalogueUrl|| (" in page:

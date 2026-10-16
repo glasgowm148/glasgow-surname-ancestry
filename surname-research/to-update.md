@@ -1586,3 +1586,12 @@ The August completion entries remain historical. The live parent fields are now 
 | [James Glasgow of Campbeltown](https://www.wikitree.com/wiki/Glasgow-1496) | OPEN | Review complete biography: uncertain John→George→Agnes route, viable alternatives and independent mothers; retain prior pending record corrections. |
 | [Alexander Glasgow, indexed in 1659](https://www.wikitree.com/wiki/Glasgow-3101) | OPEN | Review complete biography: uncertain John→George→Agnes route, viable alternatives and independent mothers; retain prior pending record corrections. |
 | [Grizel Dunlop](https://www.wikitree.com/wiki/Dunlop-3562) | OPEN | Review complete biography: uncertain John→George→Agnes route, viable alternatives and independent mothers; retain prior pending record corrections. |
+
+
+## Edinburgh cordiner working family —16 October2026
+
+| [Robert Glasgow, Edinburgh cordiner married in 1652](https://www.wikitree.com/wiki/Glasgow-3938) | OPEN | Review complete additive biography: uncertain 1652 adult/1618 child identity and separately assessed parents; preserve Larne and Lorimer alternatives and prior amendments. |
+| [Robert Glasgow, Glasgow cordiner](https://www.wikitree.com/wiki/Glasgow-1027) | OPEN | Review complete additive biography: uncertain 1652 adult/1618 child identity and separately assessed parents; preserve Larne and Lorimer alternatives and prior amendments. |
+| [Jonet Cunningham](https://www.wikitree.com/wiki/Cunningham-20923) | OPEN | Review complete additive biography: uncertain 1652 adult/1618 child identity and separately assessed parents; preserve Larne and Lorimer alternatives and prior amendments. |
+| [Robert Glasgow, baptised in 1618](https://www.wikitree.com/wiki/Glasgow-1078) | OPEN | Review complete additive biography: uncertain 1652 adult/1618 child identity and separately assessed parents; preserve Larne and Lorimer alternatives and prior amendments. |
+| [Robert Glaskow of Larne](https://www.wikitree.com/wiki/Glasgow-3970) | OPEN | Review complete additive biography: uncertain 1652 adult/1618 child identity and separately assessed parents; preserve Larne and Lorimer alternatives and prior amendments. |

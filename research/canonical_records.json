@@ -2118,5 +2118,24 @@
         "role": "profile-held wife/mother"
       }
     }
+  },
+  {
+    "record_id": "edinburgh-robert-thomsone-cordiner-1652",
+    "association": "Edinburgh Robert Glasgow and Janet/Jonet Thomsone",
+    "date": "1 July 1652",
+    "year": 1652,
+    "place": "Edinburgh, Scotland",
+    "source_title": "Published Edinburgh marriage register, printed p.268 / PDF p.278: Robert, cordiner, and Janet Thomsone, 1 July 1652",
+    "source_url": "https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/register_of_marriages_for_the_parish_of_edinburgh_1595-1700_~_1898.pdf#page=278",
+    "status": "Existing published-register and index review",
+    "note": "Published register describes Robert as cordiner. SP 685/1,440/13,FR923 confirms indexed pair/date; original image not inspected in this batch. No parents, age or children; date is not newly verified as a ceremony date.",
+    "profiles": {
+      "Glasgow-3938": {
+        "role": "cordiner and bridegroom"
+      },
+      "Thomsone-50": {
+        "role": "bride"
+      }
+    }
   }
 ]

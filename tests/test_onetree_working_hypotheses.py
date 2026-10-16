@@ -1,5 +1,8 @@
+import json
+import subprocess
 import unittest
 
+from tools.approved_restorations import documentary_renderer
 from tools.site_sources.onetree.build import apply_working_hypotheses, apply_working_mothers, apply_recorded_family_restorations
 
 
@@ -14,6 +17,16 @@ def assessment(child, father, **extra):
 
 
 class WorkingHypothesisTests(unittest.TestCase):
+    def test_parent_explanations_name_the_actual_parent_role(self):
+        expression = documentary_renderer("p.parents.map(relationHTML).join('')")
+        script = "const esc=s=>s;const relationHTML=r=>'';const p={parents:[{role:'father',hypothesis:true},{role:'mother',hypothesis:true}]};console.log(JSON.stringify(" + expression + "));"
+        rendered = json.loads(subprocess.check_output(['node', '-e', script], text=True))
+        self.assertEqual(rendered.count('Selected uncertain working father.'), 1)
+        self.assertEqual(rendered.count('Selected uncertain working mother.'), 1)
+        self.assertEqual(documentary_renderer(expression), expression)
+        old_page = "const catalogue=p=>p.catalogueUrl|| (" + expression.replace("${esc(r.role||'parent')}", 'father')
+        self.assertIn("${esc(r.role||'parent')}", documentary_renderer(old_page))
+
     def test_maternal_selection_preserves_the_father_and_reciprocal_children(self):
         model = people('Child-1', 'Father-1', 'Mother-1')
         apply_working_hypotheses(model, [assessment('Child-1', 'Father-1')])

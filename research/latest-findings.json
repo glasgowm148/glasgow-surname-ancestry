@@ -26488,6 +26488,74 @@
         "research/relationship_assessments.json",
         "research/ancestry-connections/campbeltown-preservation-2026-10-16.json"
       ]
+    },
+    {
+      "id": "edinburgh-cordiner-family-2026-10-16",
+      "found_on": "2026-10-16",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "The 1652 Edinburgh cordiner is selected as a possible adult identity of the 1618 Glasgow child, with an uncertain father and separately assessed uncertain mother.",
+      "qualification": "Keep Robert Glasgow-1078, Glasgow-3938 and the Larne Robert Glasgow-3970 as separate profile accounts. Both adult accounts are now provisionally placed in the 1618 child’s family; this does not establish two distinct sons named Robert. The 1652 Edinburgh event and the 1653 Larne account are not simultaneous incompatible events on the available evidence: they could concern one mobile man or different namesakes. Neither a migration nor that combined identity is selected as proved. Robert Glasgow-1149 remains the separate existing candidate for the Euphame Lorimer household. Her indexed children in 1651, 1659, 1662 and 1664 bracket the Thomsone marriage, favouring two Edinburgh men. The reported 1 March 1644 West Port sasine also names Eupham Lorimer and belongs to that household comparison; it does not give a West Port residence or wife to the 1652 bridegroom. The original sasine is uninspected. The 1618 child’s attached younger Cunningham spouse and 1645 James association do not prove his adult identity. A later Thomsone marriage could be a remarriage if that association is correct, but no death or remarriage sequence is supplied. Preserve the existing attachments and all namesake alternatives. Glasgow-3938’s before-1634 birth boundary is an age-derived profile estimate, not a recorded birth. It remains unchanged, as do the child’s baptism, the Larne estimate and all existing spouses, children and confidently marked links. The Edinburgh marriage gives no parents, age or children. No apprentice, burgess, witness, property or migration record joins these accounts. An unrelated cordiner or another son, nephew or cousin in the wider family remains possible. No identity merge, new original inspection, live WikiTree save or relationship-confidence upgrade is claimed. Connectivity counts the retained profile accounts, including possible duplicates.",
+      "relationship_change_count": 2,
+      "people": [
+        {
+          "id": "Glasgow-3938",
+          "name": "Robert Glasgow, Edinburgh cordiner married in 1652",
+          "url": "/people/glasgow-3938.html"
+        },
+        {
+          "id": "Glasgow-1027",
+          "name": "Robert Glasgow, Glasgow cordiner",
+          "url": "/people/glasgow-1027.html"
+        },
+        {
+          "id": "Cunningham-20923",
+          "name": "Jonet Cunningham",
+          "url": "/people/cunningham-20923.html"
+        },
+        {
+          "id": "Glasgow-1078",
+          "name": "Robert Glasgow, baptised in 1618",
+          "url": "/people/glasgow-1078.html"
+        },
+        {
+          "id": "Glasgow-3970",
+          "name": "Robert Glaskow of Larne",
+          "url": "/people/glasgow-3970.html"
+        },
+        {
+          "id": "Glasgow-1149",
+          "name": "Robert Glasgow, Euphame Lorimer household candidate",
+          "url": "/people/glasgow-1149.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Published Edinburgh marriage register, printed p.268 / PDF p.278: Robert, cordiner, and Janet Thomsone, 1 July 1652",
+          "url": "https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/register_of_marriages_for_the_parish_of_edinburgh_1595-1700_~_1898.pdf#page=278"
+        },
+        {
+          "title": "Glasgow cordiner admission, 22 April 1613; existing reviewed transcription",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FBURGESS%2F0025946&tab=this"
+        },
+        {
+          "title": "Glasgow baptism, 17 November 1618, OPR 644/1, reported 10/272; existing transcription names both parents",
+          "url": "https://www.scotlandspeople.gov.uk/"
+        },
+        {
+          "title": "Edinburgh burgess 1666, Euphame Lorimer household; retained namesake comparison",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FBURGESS%2F1009525&tab=this"
+        },
+        {
+          "title": "Reported 1644 West Port sasine index, SRO44 p.160; Lorimer household, original unread",
+          "url": "https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481222&seq=168"
+        }
+      ],
+      "detail_url": "/branches/early-scottish-records/#edinburgh-cordiner-family",
+      "provenance": [
+        "research/relationship_assessments.json",
+        "research/ancestry-connections/edinburgh-cordiner-preservation-2026-10-16.json"
+      ]
     }
   ]
 }
