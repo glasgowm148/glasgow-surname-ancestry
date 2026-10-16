@@ -1,0 +1,50 @@
+{
+  "reviewed": "2026-10-16",
+  "cutoff": 1850,
+  "method_version": 3,
+  "input_fingerprint": "529267e7d29556b0e0d2393f6363271d9a5c62172f6e9dbbbcb358a6085f113c",
+  "scope": "Libberton and Uphall: selected uncertain parent families",
+  "genealogical_connections_added": 3,
+  "paternal_connections_added": 2,
+  "maternal_connections_added": 1,
+  "certainty_upgrades": 0,
+  "working_fathers": 38,
+  "working_mothers": 5,
+  "models": {
+    "standalone": {
+      "checked_historical_profiles": 1777,
+      "matched_paternal_edges": 1335,
+      "changed_father_fields": 2,
+      "added_historical_profiles": [],
+      "unresolved_father_cases": [
+        "Glasgow-1367",
+        "Glasgow-2908",
+        "Glasgow-3902",
+        "Glasgow-3904",
+        "Glasgow-867",
+        "Glasgow-951"
+      ]
+    },
+    "main": {
+      "checked_historical_profiles": 1777,
+      "matched_paternal_edges": 1335,
+      "changed_father_fields": 2,
+      "added_historical_profiles": [],
+      "unresolved_father_cases": [
+        "Glasgow-1367",
+        "Glasgow-2908",
+        "Glasgow-3902",
+        "Glasgow-3904",
+        "Glasgow-867",
+        "Glasgow-951"
+      ]
+    }
+  },
+  "publication_summary": "Both viewers include Robert of Libberton under Johne-3093, uncertain, and Thomas of the Clarkson household under John-1105 and Agnes Eastone, uncertain through possible identity with the 1675 child. The Thomas accounts remain separate and Robert\u2019s mother remains unknown. The through-1850 largest working family grows from 866 to 886, joining the four-person Libberton and sixteen-person Clarkson components. No dates, cohort membership or confidently marked metrics change.",
+  "comparison": "/branches/early-scottish-records/#libberton-uphall-working-family",
+  "next_metric_check": {
+    "status": "RESOLVED",
+    "saved_confident_tree_flags_not_used_by_current_metric": 0,
+    "review": "/data/ancestry-confidence-method-review.json"
+  }
+}

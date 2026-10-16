@@ -1659,3 +1659,15 @@ The August completion entries remain historical. The live parent fields are now 
 | [John Glascho of Kilwaughter](https://www.wikitree.com/wiki/Glasgow-3913) | OPEN | Review two selected uncertain fathers, dependent paternal-sibling hypotheses and retained alternative parents/identities; preserve prior evidence and dates. |
 | [John Glasgow, Kilwinning child and possible Stevenston father](https://www.wikitree.com/wiki/Glasgow-1434) | OPEN | Review two selected uncertain fathers, dependent paternal-sibling hypotheses and retained alternative parents/identities; preserve prior evidence and dates. |
 | [James Glasgow, Kilwinning/Park household alternative](https://www.wikitree.com/wiki/Glasgow-3105) | OPEN | Review two selected uncertain fathers, dependent paternal-sibling hypotheses and retained alternative parents/identities; preserve prior evidence and dates. |
+
+
+## Libberton and Uphall working families — 16 October 2026
+
+| [Robert Glasgow, Libberton father](https://www.wikitree.com/wiki/Glasgow-4168) | OPEN | Review selected uncertain Libberton/Uphall parents and retained same-name identities; preserve source dates, existing relationships and earlier amendments. |
+| [Johne Glasgow, Mid Calder child of 1648](https://www.wikitree.com/wiki/Glasgow-3093) | OPEN | Review selected uncertain Libberton/Uphall parents and retained same-name identities; preserve source dates, existing relationships and earlier amendments. |
+| [James Glasgow, possible Lindsaylands weaver](https://www.wikitree.com/wiki/Glasgow-3332) | OPEN | Review selected uncertain Libberton/Uphall parents and retained same-name identities; preserve source dates, existing relationships and earlier amendments. |
+| [Thomas Glasgow, Uphall/Livingston Clarkson household](https://www.wikitree.com/wiki/Glasgow-1226) | OPEN | Review selected uncertain Libberton/Uphall parents and retained same-name identities; preserve source dates, existing relationships and earlier amendments. |
+| [John Glasgow of Linlithgow](https://www.wikitree.com/wiki/Glasgow-1105) | OPEN | Review selected uncertain Libberton/Uphall parents and retained same-name identities; preserve source dates, existing relationships and earlier amendments. |
+| [Agnes Eastone/Daston](https://www.wikitree.com/wiki/Eastone-3) | OPEN | Review selected uncertain Libberton/Uphall parents and retained same-name identities; preserve source dates, existing relationships and earlier amendments. |
+| [Thomas Glasgow, Linlithgow child and Duncan household account](https://www.wikitree.com/wiki/Glasgow-1242) | OPEN | Review selected uncertain Libberton/Uphall parents and retained same-name identities; preserve source dates, existing relationships and earlier amendments. |
+| [Thomas Glasgow, St Cuthbert’s child of 1666](https://www.wikitree.com/wiki/Glasgow-1311) | OPEN | Review selected uncertain Libberton/Uphall parents and retained same-name identities; preserve source dates, existing relationships and earlier amendments. |

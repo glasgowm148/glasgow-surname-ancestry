@@ -27058,6 +27058,112 @@
         "research/relationship_assessments.json",
         "research/ancestry-connections/glenarm-stevenston-working-family-preservation-2026-10-16.json"
       ]
+    },
+    {
+      "id": "libberton-uphall-working-family-2026-10-16",
+      "found_on": "2026-10-16",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Joined the Libberton Robert household through a selected uncertain Johne-3093 father, and the Uphall/Livingston Thomas–Clarkson household through possible identity with John Glasgow and Agnes Eastone’s 1675 son. No identity merge or confidence upgrade.",
+      "qualification": "Two selected uncertain fathers and one separately assessed uncertain mother, using existing parish, testament and apprenticeship reviews. No new original inspection, certainty upgrade, identity merge, spouse change or vital-date alteration. Robert’s new mother remains unknown. The Thomas parent pair depends on possible child/adult identity; profile-based connectivity retains potentially duplicate accounts and is not a count of proved distinct ancestors. Johne’s only reviewed record is the 1648 child entry; no later occupation, residence, spouse or death identifies him with Libberton. The Jamis-to-Glasgow-3332 identity and the latter’s Lindsaylands identity are both uncertain. Its inherited circa 1634 birth would make him only about fourteen at Johne’s 1648 event if literal; that unsourced estimate must not establish or exclude parentage. The 1648 source names Jamis, not John-1084. The known parish association therefore belongs to a conditional family chain, not to an independently followed migration. James-3332 himself remains an alternative father if Robert was born before 1680 and fathered the later children at an older age. The son James apprenticed in Edinburgh in 1690, explicitly son of deceased James the Lindsaylands weaver, is a genuine alternative intermediate father or uncle; his existing held draft is retained, and no unrecorded generation is invented. The 1624 Quothquan weaver is a separate death account; its early death makes direct paternity of a 1718–1726 father much less plausible. Robert’s merged Gibson/Watson household remains a working combined account, not proof of remarriage or identity between the two women. No mother is selected for Robert, and no vital date is changed to fit the route. The 1675 child, the Duncan adult and the Clarkson adult may represent one, two or three men. There is no inspected age, occupation, marriage, widowhood or probate bridge. The 1701 Duncan marriage is reported family information, not a newly inspected register. No death of Jean, remarriage to Catherine or overlap resolution is invented. The differing Philip 1711 dates in the Thomas research compilation and the Glasgow-1242 biography, and the omission of a mother in the latter’s indexed child, do not establish a continuous Duncan household or certain maternity. They are not two independent confirmations. Catherine’s indexed surname variants remain as recorded. The before 1700 boundary for the Clarkson adult and the 2/21 February 1675 date discrepancy in the child account remain unchanged. The 1666 St Cuthbert’s Thomas-1311, child of Alexander and Issobell Anderson, remains a compatible identity alternative, albeit with fatherhood at about 51–69 in 1717–1735. His possible identification with the Edinburgh writer whose testament was indexed in 1691 is unproved and cannot be used to exclude him. The retained 1766 grave link is an unverified namesake comparison, not an established death for the Clarkson adult. The 1663 Thomas-3091 and an otherwise unrecorded local Thomas also remain possible. No identity merge or live attachment is performed.",
+      "relationship_change_count": 3,
+      "people": [
+        {
+          "id": "Glasgow-4168",
+          "name": "Robert Glasgow, Libberton father",
+          "url": "/people/glasgow-4168.html"
+        },
+        {
+          "id": "Glasgow-3093",
+          "name": "Johne Glasgow, Mid Calder child of 1648",
+          "url": "/people/glasgow-3093.html"
+        },
+        {
+          "id": "Glasgow-3332",
+          "name": "James Glasgow, possible Lindsaylands weaver",
+          "url": "/people/glasgow-3332.html"
+        },
+        {
+          "id": "Glasgow-1226",
+          "name": "Thomas Glasgow, Uphall/Livingston Clarkson household",
+          "url": "/people/glasgow-1226.html"
+        },
+        {
+          "id": "Glasgow-1105",
+          "name": "John Glasgow of Linlithgow",
+          "url": "/people/glasgow-1105.html"
+        },
+        {
+          "id": "Eastone-3",
+          "name": "Agnes Eastone/Daston",
+          "url": "/people/eastone-3.html"
+        },
+        {
+          "id": "Glasgow-1242",
+          "name": "Thomas Glasgow, Linlithgow child and Duncan household account",
+          "url": "/people/glasgow-1242.html"
+        },
+        {
+          "id": "Glasgow-1311",
+          "name": "Thomas Glasgow, St Cuthbert’s child of 1666",
+          "url": "/people/glasgow-1311.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Mid Calder Johne, father Jamis Glasgow,1648: FamilySearch index X1BL-JXR",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:X1BL-JXR"
+        },
+        {
+          "title": "Lanark testament index pp.38/99: Quothquan 1624 and Back of Lindsaylands 1680 weavers",
+          "url": "https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/the_commissariot_record_of_lanark__register_of_testaments__1595-1800_~_1903.pdf"
+        },
+        {
+          "title": "Edinburgh apprentice7 May 1690: James, son of deceased James the Lindsaylands weaver",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FEDINBURGH%2FAPPRENTICES%2F0005159%2F1&tab=this"
+        },
+        {
+          "title": "Libberton Janet, Robert Glasgow/Katherin Gibson,22 April 1718",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4033250&tab=this"
+        },
+        {
+          "title": "Libberton Agnes, Robert Glasgow/Katherine Watson,21 August 1720",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4033335&tab=this"
+        },
+        {
+          "title": "Thomas Glesgow, Linlithgow 1675: child/parent index VQ4C-P4L",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:VQ4C-P4L"
+        },
+        {
+          "title": "Agnes Eastone in the same 1675 Thomas entry: paired parent index VQ4C-P4P",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:VQ4C-P4P"
+        },
+        {
+          "title": "Thomas/Jean Duncan account: Uphall child index 1704",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:VQ48-MZ7"
+        },
+        {
+          "title": "Thomas and Catherine Clarkson: Margaret at Uphall,12 May 1717",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:VQ4Z-NYQ"
+        },
+        {
+          "title": "Thomas and Clarkson household: Alexander at Uphall,7 February 1721",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:VQ48-994"
+        },
+        {
+          "title": "Thomas and Clarkson household: Hellen at Livingston,18 October 1735",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:X1R2-KB6"
+        },
+        {
+          "title": "Thomas, St Cuthbert’s 1666: Alexander/Issobell Anderson child index",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:XT5G-Z49"
+        }
+      ],
+      "detail_url": "/branches/early-scottish-records/#libberton-uphall-working-family",
+      "provenance": [
+        "research/relationship_assessments.json",
+        "research/ancestry-connections/libberton-uphall-working-family-preservation-2026-10-16.json"
+      ]
     }
   ]
 }
