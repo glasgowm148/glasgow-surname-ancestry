@@ -2116,6 +2116,9 @@ _LEGACY_ANCHORS = (
     # "full relationship record" to #imported-identity; keep both landing.
     ("research", ("research-findings", "overview")),
     ("imported-identity", ("family", "overview")),
+    # Andrew-1319 still links to William-1026's former recommendation heading.
+    # Keep that incoming link beside the current overall conclusion.
+    ("research-note-5be72571720e", ("research-note-518d31385e87",)),
 )
 
 
