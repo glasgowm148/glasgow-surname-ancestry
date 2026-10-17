@@ -108,7 +108,7 @@ def external_relations(items: list[dict], role: str, catalogue_by_id: dict[str, 
 
 
 def apply_working_hypotheses(people: list[dict], assessments: list[dict], parent_aliases: dict | None = None) -> int:
-    """Overlay explicitly selected uncertain father links onto the local model."""
+    """Overlay explicitly selected tentative father links onto the local model."""
     by_id = {person["id"]: person for person in people}
     approved = {a.get('assertion_id'): a for a in assessments if a.get('publication_status') == 'approved'}
     parent_aliases = parent_aliases or {}
@@ -120,7 +120,7 @@ def apply_working_hypotheses(people: list[dict], assessments: list[dict], parent
             continue  # Maternal selections are validated separately below.
         if not (assessment.get("working_selection") is True
                 and assessment.get("publication_status") == "approved"
-                and assessment.get("status") in {"uncertain", "probable"}
+                and assessment.get("status") in {"uncertain", "possible", "probable"}
                 and assessment.get("allow_new_relationship") is True):
             continue
         perspectives = assessment.get("perspectives") or {}
@@ -215,9 +215,9 @@ def apply_working_mothers(people: list[dict], assessments: list[dict]) -> int:
                  for mother in a.get('people', []) if mother != child]
         if not pairs or not a.get('working_selection') or a.get('publication_status') != 'approved':
             continue
-        if (len(pairs) != 1 or a.get('status') != 'uncertain' or not a.get('allow_new_relationship')
+        if (len(pairs) != 1 or a.get('status') not in {'uncertain', 'possible', 'probable'} or not a.get('allow_new_relationship')
                 or not a.get('assertion_id') or not a.get('source_ids') or not a.get('basis')):
-            raise ValueError('Working mother needs one approved uncertain sourced claim')
+            raise ValueError('Working mother needs one approved tentative sourced claim')
         child, mother = pairs[0]
         if child not in by_id or mother not in by_id or child in children:
             raise ValueError('Working mother needs unique public family members')
@@ -267,14 +267,14 @@ def apply_working_mothers(people: list[dict], assessments: list[dict]) -> int:
                 history.extend(deepcopy(r) for r in previous if r.get('id') == child
                                and not any(h.get('id') == child for h in history))
                 by_id[prior]['childrenRecorded'] = [r for r in previous if r.get('id') != child]
-        by_id[child]['parents'].append(dict(id=mother, name=by_id[mother]['name'], role='mother', status='uncertain',
+        by_id[child]['parents'].append(dict(id=mother, name=by_id[mother]['name'], role='mother', status=a['status'],
             inModel=True, reason=a['basis'], source='local_working_hypothesis', assertion_id=a['assertion_id'],
             analysis_links=a.get('analysis_links') or [], hypothesis=True))
         rows = by_id[mother].setdefault('childrenRecorded', [])
         previous = next((r for r in rows if r.get('id') == child), {})
         rows[:] = [r for r in rows if r.get('id') != child]
         rows.append(dict(previous, id=child, name=by_id[child]['name'], role='child', inModel=True,
-            status='uncertain', hypothesis=True, source='local_working_hypothesis',
+            status=a['status'], hypothesis=True, source='local_working_hypothesis',
             assertion_id=a['assertion_id'], reason=a['basis']))
     return len(selected)
 
@@ -493,7 +493,7 @@ def apply_public_families(people: list[dict], site_root: Path, cutoff: int = 185
         # the current dossier still selects the same parent and uncertainty.
         if len(before) == len(after) == 1 and before[0].get('hypothesis'):
             if (before[0].get('id') != after[0].get('id')
-                    or after[0]['status'] not in {'uncertain', 'probable'}
+                    or after[0]['status'] not in {'uncertain', 'possible', 'probable'}
                     or before[0].get('status') != after[0]['status']):
                 raise ValueError('Working father disagrees with public dossier: ' + ident)
             continue

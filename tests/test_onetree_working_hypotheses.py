@@ -18,10 +18,33 @@ def assessment(child, father, **extra):
 
 
 class WorkingHypothesisTests(unittest.TestCase):
+    def test_possible_and_probable_parents_keep_both_reciprocal_grades(self):
+        for grade in ['possible', 'probable']:
+            with self.subTest(grade=grade):
+                model = people('Child-1', 'Father-1', 'Mother-1')
+                father = assessment('Child-1', 'Father-1', people=['Child-1', 'Father-1'],
+                                    status=grade, source_ids=['S-1'])
+                mother = assessment('Child-1', 'Mother-1', people=['Child-1', 'Mother-1'],
+                                    status=grade, assertion_id='A-mother', source_ids=['S-1'])
+                mother['perspectives']['Child-1']['relationship'] = 'mother'
+                self.assertEqual(apply_working_hypotheses(model, [father, mother]), 1)
+                self.assertEqual(apply_working_mothers(model, [father, mother]), 1)
+                self.assertEqual([(p['role'], p['status']) for p in model[0]['parents']],
+                                 [('father', grade), ('mother', grade)])
+                for parent in model[1:]:
+                    self.assertEqual(parent['childrenRecorded'][0]['status'], grade)
+                    self.assertTrue(parent['childrenRecorded'][0]['hypothesis'])
+                expression = documentary_renderer("p.parents.map(relationHTML).join('')")
+                script = ("const esc=s=>s;const relationHTML=r=>'';const p="
+                          + json.dumps(model[0]) + ";console.log(JSON.stringify(" + expression + "));true;")
+                rendered = json.loads(subprocess.check_output(['node', '-e', script], text=True))
+                for role in ['father', 'mother']:
+                    self.assertIn(f'Selected {grade} working {role}.', rendered)
+
     def test_record_only_person_links_are_labelled_source_account(self):
         page = ">WikiTree ${icon('out')}</a>"
         result = documentary_renderer(page)
-        self.assertIn("p.documentary&&!p.wikitreeUrl?'Source account':'WikiTree'", result)
+        self.assertIn("p.recordUrl&&!p.wikitreeUrl?'Source account':'WikiTree'", result)
         self.assertEqual(documentary_renderer(result), result)
 
     def test_probable_working_father_keeps_grade_and_reciprocal_link(self):

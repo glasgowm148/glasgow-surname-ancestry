@@ -95,6 +95,10 @@ def documentary_renderer(page):
                         "Selected ${r.status==='probable'?'probable':'uncertain'} working ${esc(r.role||'parent')}.</b>")
     page = page.replace("Selected ${r.status==='probable'?'probable':'uncertain'} working father.</b>",
                         "Selected ${r.status==='probable'?'probable':'uncertain'} working ${esc(r.role||'parent')}.</b>")
+    page = page.replace("${r.status==='probable'?'probable':'uncertain'}",
+                        "${['possible','probable'].includes(r.status)?r.status:'uncertain'}")
+    page = page.replace("Selected ${['possible','probable'].includes(r.status)?r.status:'uncertain'} working father.</b>",
+                        "Selected ${['possible','probable'].includes(r.status)?r.status:'uncertain'} working ${esc(r.role||'parent')}.</b>")
     page = page.replace('>WikiTree ${icon(\'out\')}</a>',
                         ">${p.recordUrl&&!p.wikitreeUrl?'Source account':'WikiTree'} ${icon('out')}</a>")
     page = page.replace("${p.documentary&&!p.wikitreeUrl?'Source account':'WikiTree'}",
