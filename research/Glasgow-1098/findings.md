@@ -217,3 +217,15 @@ This is a re-evaluation of an existing father attachment, not a new parent or a 
 - [Printed p.36, St Andrew prebend rental: late William, four shillings, Crownar north and Rankin south; fresh page inspection](https://archive.org/download/libercollegiino00annegoog/page/n141_w1600.jpg)
 - [Renwick, Glasgow protocol 805, printed p.57: younger John served heir of father William, 28 October 1564](https://archive.org/details/abstractsprotoc06scogoog/page/n69/mode/2up)
 - [Renwick, protocols 809–810, pp.58–59: Eufame Craig’s unnamed Glasgow husband and retained rear-tenement liferent, 16 November 1564](https://archive.org/details/abstractsprotoc06scogoog/page/n71/mode/2up)
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### Possible Carnwath witness, 1524
+
+The William recorded as ville Glesquho in the Carnwath court is a possible earlier identity for this man, whose birth date is unknown and who had an adult married son by 1534.
+
+7 June 1524: the court continued a violent-blood case against Roben Ake and James Scot, ordering witnesses including ville Glesquho to be called. The next court header, 21 June 1524, comes below this passage and is not its date. (William Croft Dickinson (ed.), Court Book of the Barony of Carnwath 1523–1542 (1937), printed pp.14–17; Appendix B p.cxviii; PDF 143–146; https://deriv.nls.uk/dcn23/1271/7974/127179749.23.pdf#page=143. Printed transcription inspected 15 October 2026; original manuscript not inspected.)
+
+The witness is named with John Vyld and Robert Chanslar in the case involving Roben Ake and James Scot, but no residence, trade or relative is stated. The chronology fits this William before his death bound in March 1535/36. The possible 1526 remission involving William Glasgow and James Somervile is a further comparison, not an identity bridge. [William Glasgow, son of John](https://www.wikitree.com/wiki/Glasgow-3522), is a weaker rival: his later sixteenth-century career would require a considerably earlier birth and long life to fit 1524, but his estimated circa 1540 birth alone is not an exclusion. No Quothquan residence or relationship to the court’s other Glasgows is inferred.
+<!-- queue-record-integration-2026-10-17:end -->

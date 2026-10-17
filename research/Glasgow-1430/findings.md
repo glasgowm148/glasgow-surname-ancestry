@@ -14,3 +14,14 @@ Sources: [Pennsylvania Gazette, 1775-10-25, p.1](https://www.newspapers.com/imag
 [Full record account and comparison](/research/subjects/newspapers-early-glasgow/#william-glascoe-maryland-1775). This assessment proposes no live WikiTree edit.
 
 <!-- queue-identity-review-2026-10-17:end -->
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### Possible William Glascoe, Maryland notice
+A Lancaster Goal notice dated 13 October says John M’Connel, about 35, imprisoned as a suspected runaway servant, claims to belong to William Glascoe in Maryland, about forty miles from Baltimore. ([Pennsylvania Gazette, 1775-10-25, p.1](https://www.newspapers.com/image/39392109/).)
+
+The Maryland location is John M’Connel’s attributed claim, not independently proved residence. The notice gives no relatives for William or evidence that he was the 1760 London defendant.
+
+This may concern [Glasgow-1430](https://www.wikitree.com/wiki/Glasgow-1430). The Penicuik baptism in 1743 permits adult age in 1775; the parish entry does not identify a later Maryland household.
+<!-- queue-record-integration-2026-10-17:end -->

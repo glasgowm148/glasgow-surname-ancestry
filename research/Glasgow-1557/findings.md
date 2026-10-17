@@ -53,3 +53,15 @@ The visually checked [SRO Indexes 44 (1958), Edinburgh etc. register of sasines 
 ## Additional compatible Edward — 15 October 2026
 
 [Eduard Glasgow-994](https://www.wikitree.com/wiki/Glasgow-994), the Inveresk child indexed in 1609 with father James, is another compatible identity for the 1624 and 1646 Edward occurrences. He would be about fifteen in 1624 and about 37 in 1646 if baptised near birth; minority does not by itself exclude the earlier land record. The original instruments supply no inspected paternal identification. If this is Eduard-994, the association may lie within James-991’s proposed household; it would not establish the suggested Corsankell bridge through Edward-1557. Preserve all three Edwards as comparisons. See [Eduard’s record assessment](/people/glasgow-994.html) and the [printed 1646 index](https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481222&seq=167).
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### Possible Fisherrow sasine appearances
+
+An Edward Glasgow in Fischerraw shares reference 9/135 with [Alexander Glasgow](https://www.wikitree.com/wiki/Glasgow-1148) and Alexander’s father James, tailor in Fischerraw and burgess of Musselburgh; the recording date is 8 July 1624. (Scottish Record Office, Indexes no.38, Edinburgh etc. sasines 1624–1630, printed pp.187–188; 8 July 1624, RS25 vol.9 fol.135, and 11 July 1625, vol.10 fol.171, are recording dates; printed pages visually inspected 15 October 2026, original instruments unread; [Source](https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481057&seq=193).) This Edward is a possible identity for the Inveresk father represented here. A man already father of a child in 1615 fits an adult property association in 1624, without relying on either the circa-1570 or circa-1583 birth estimate.
+
+Edward also shares the later reference 33/258, recorded 14 February 1646, with Alexander and James Glasgow, weaver. (Scottish Record Office, Indexes no.44 (1958), Edinburgh etc. register of sasines 1644–1653, printed pp.159–160; RS25 33/258, recorded 14 February 1646; 33/360, 15 May 1646; 34/287, 10 February 1647; printed columns visually inspected 15 October 2026, original instruments unread; [Source](https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481222&seq=167).) The actual register instruments have not been inspected. They may identify a party, predecessor, witness or another capacity; the index association supplies neither a kinship nor proof of continued ownership.
+
+[Eduard Glasgow](https://www.wikitree.com/wiki/Glasgow-994), baptised in 1609 as James’s son, is a genuine alternative within James’s proposed household. [Edward Glasgow](https://www.wikitree.com/wiki/Glasgow-1558), baptised in 1615 as this Edward’s son, is another alternative, particularly in 1646. A minor could be named in a land instrument, so the younger men are not excluded merely by age. These occurrences do not identify this Edward’s father or connect the Fisherrow family to Corsankell as a fact.
+<!-- queue-record-integration-2026-10-17:end -->

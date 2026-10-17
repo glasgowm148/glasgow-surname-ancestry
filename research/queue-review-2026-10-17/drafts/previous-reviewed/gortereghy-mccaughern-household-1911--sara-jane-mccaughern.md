@@ -4,7 +4,7 @@ Reviewed: 2026-10-17. No live creation authorized or performed. Retain uncertain
 
 ## Minimum fields
 
-Name Sara Jane McCaughern; birthplace County Antrim, directly reported in the inspected census. Birth date remains unknown unless explicitly stated in the record facts below. The Sarah McCaughern search returns Dysart-1893, the mother-generation woman, rather than Sara Jane born about 1866. Sarah McCaughan-172 was born on 2 May 1886 to Samuel and Matilda Kirkpatrick. McCaughan-181 died on 31 May 1910, before the 1911 household. No compatible child-generation profile was identified. The original 1901/1911 returns establish the household’s continuity. Carry Dysart-1893 as the qualified mother identity and John McCaughern-23 as the corresponding uncertain father hypothesis for proved siblings. George’s particular mother remains unproved.
+Name Sara Jane McCaughern; birthplace County Antrim, directly reported in the inspected census. Birth about 1866 (uncertain): Estimated from the reported age 45 in the 1911 census; exact birth unrecorded. The Sarah McCaughern search returns Dysart-1893, the mother-generation woman, rather than Sara Jane born about 1866. Sarah McCaughan-172 was born on 2 May 1886 to Samuel and Matilda Kirkpatrick. McCaughan-181 died on 31 May 1910, before the 1911 household. No compatible child-generation profile was identified. The original 1901/1911 returns establish the household’s continuity. Carry Dysart-1893 as the qualified mother identity and John McCaughern-23 as the corresponding uncertain father hypothesis for proved siblings. George’s particular mother remains unproved.
 
 ## Duplicate audit
 

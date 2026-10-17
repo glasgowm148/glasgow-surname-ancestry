@@ -4,7 +4,7 @@ Reviewed: 2026-10-17. No live creation authorized or performed. Retain uncertain
 
 ## Minimum fields
 
-Name Alexander Elder; birthplace County Antrim, directly reported in the inspected census. Birth date remains unknown unless explicitly stated in the record facts below. The original 1901 Alex is explicitly Robert’s son; the 1911 return names brother Robert and sister Margaret. Together with the 1908 Alexander/Mary Anderson marriage extract, these support one sibling family. Retain the actual age differences. Use the same qualified Elder-7144 father hypothesis for Alexander and proved siblings; mother Jane on the memorial is separately evidenced, while Jane Calderwood remains a comparison. No matching Alexander profile was established in full same-name and father-filtered searches.
+Name Alexander Elder; birthplace County Antrim, directly reported in the inspected census. Birth before 1888 (uncertain): Upper bound from full age in the 18 June 1908 marriage transcript; exact birth unrecorded. The original 1901 Alex is explicitly Robert’s son; the 1911 return names brother Robert and sister Margaret. Together with the 1908 Alexander/Mary Anderson marriage extract, these support one sibling family. Retain the actual age differences. Use the same qualified Elder-7144 father hypothesis for Alexander and proved siblings; mother Jane on the memorial is separately evidenced, while Jane Calderwood remains a comparison. No matching Alexander profile was established in full same-name and father-filtered searches.
 
 ## Duplicate audit
 

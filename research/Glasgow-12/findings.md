@@ -109,3 +109,9 @@ The following wording records the prior assessment, replaced by the probable loc
 > the current parents certain merely to display the sibling group.
 
 > Parents unknown
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+A possible identification concerns Robert Glasgow, Loughinsholin freeholder, 1831. The 16 August 1831 declaration lists Robert Glasgow and John Glasgow among freeholders of the barony printed Loughinshollen (modern Loughinsholin), County Londonderry, supporting Sir Robert Bateson. They are co-signatories; no kinship, occupation, age or individual townland is given. Castledawson and 4 July 1831 refer to the opposing meeting discussed in the declaration, not their homes or their signing date. (Belfast News-Letter, 16 August 1831, p.3, Loughinshollen freeholders’ declaration; [record](https://www.newspapers.com/image/390548642/).) [Robert Glasgow](https://www.wikitree.com/wiki/Glasgow-3941), the Coltrim land occupier documented in 1820–1831, is a strong compatible regional candidate; the newspaper lacks a townland or family bridge to prove it. [Glasgow-2656](https://www.wikitree.com/wiki/Glasgow-2656) of the Cookstown district remains another adult comparison. [Glasgow-12](https://www.wikitree.com/wiki/Glasgow-12) has an Ohio record sequence and is a weaker comparison despite Moneymore origin; the newspaper does not resolve his travel or retained Irish property. No Robert is identified as John’s father or brother, or as the surgeon’s father, from this signature. The identification remains uncertain.
+<!-- queue-record-integration-2026-10-17:end -->

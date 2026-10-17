@@ -31,3 +31,14 @@ Inspect the original Roxburgh militia ballot, substitute and muster lists, Kelso
 ### Newspaper identity review — 6 October 2026
 
 - Drawn by ballot for the Roxburgh County Militia from Kelso parish (notice dated Jedburgh 29 Sept 1798), described as son of David Glasgow; required to attend at Kelso on 11 Oct 1798 or find a substitute. — The Caledonian Mercury, 4 Oct 1798 (https://www.newspapers.com/image/395735887/) ([The Caledonian Mercury, 1798-10-04, p.1](https://www.newspapers.com/image/395735887/))
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### Possible James Glasgow and father David, Kelso militia list, 1798
+James Glasgow, son to David Glasgow, is named in the Kelso parish militia ballot list accompanying a Jedburgh notice dated 29 September 1798. ([The Caledonian Mercury, 1798-10-04, p.1](https://www.newspapers.com/image/395735887/).)
+
+The entry expressly identifies the listed James as David’s son; it does not say "junior". David is described with a weaving descriptor whose exact reading remains qualified. Selection in a militia ballot does not prove completed service or identify James’s mother.
+
+This may concern [Glasgow-1222](https://www.wikitree.com/wiki/Glasgow-1222). For James, Exact recorded 25 December 1777 Kelso birth and later Edinburgh death fit this 1798 James. No individual militia identifier proves assignment; the public father link is tree-derived only.
+<!-- queue-record-integration-2026-10-17:end -->

@@ -52,10 +52,23 @@ def apply_batch_progress(rows, root=ROOT):
     if set(results) - baseline_ids:
         raise ValueError('Review results contain an item outside the frozen baseline')
     member_ids = {m['id']: r['id'] for r in baseline for m in r.get('members', [r])}
+    integration_path = root / 'research/queue-review-2026-10-17/catalogue-integration.json'
+    integration = json.loads(integration_path.read_text()) if integration_path.exists() else {}
+    derived = {'update-' + ident.casefold(): ('existing_profile', ident)
+               for ident in integration.get('profile_updates', {})}
+    derived.update({'update-' + p['catalogue_id']: ('new_profile', p['subject_id'])
+                    for p in integration.get('new_people', [])})
     for row in rows:
         ids = {row['id']} if row['id'] in baseline_ids else {
             member_ids.get(m['id'], m['id']) for m in row.get('members', [row])}
         checked = [results.get(ident, {}) for ident in ids]
+        if row['id'] in derived:
+            disposition, ident = derived[row['id']]
+            checked = [{'disposition': disposition}]
+            row['match_review'] = dict(status='already_linked' if disposition == 'existing_profile' else 'no_compatible_profile',
+                                       profile_ids=[ident] if disposition == 'existing_profile' else [],
+                                       reviewed_on='2026-10-17', assessment=row['assessment'])
+            row['match_review']['label'] = MATCH_LABELS[row['match_review']['status']]
         done = bool(checked) and all(r.get('disposition') in complete for r in checked)
         row['identity_review'] = dict(complete=done, baseline_ids=sorted(ids),
                                       dispositions=sorted({r['disposition'] for r in checked if r.get('disposition')}))
@@ -245,7 +258,7 @@ def collect(web=ROOT / 'www', root=ROOT):
                 assessment += ' Application review (' + review.get('reviewed_on', 'undated') + '): ' + review['assessment']
             add('update-' + person['id'].lower(), person['name'], 'WikiTree amendment',
                 'Pending update', assessment,
-                urlparse(person['canonical_url']).path + '#wikitree-update', [person['id']])
+                urlparse(person['canonical_url']).path + '#wikitree-update', [] if update.get('new_profile') else [person['id']])
     for slug, name, date, question, context in questions.QUESTIONS:
         add('question-' + slug, name, 'Research question', 'Open question', question,
             '/people/' + slug + '.html', [slug])

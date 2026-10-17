@@ -1,0 +1,15 @@
+# Dysart-1893 research
+
+Last updated: 17 October 2026
+
+## Current conclusion
+
+The cited records below are assessed separately from the identity of this profile. The proposed biography preserves those qualifications.
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+A possible identification concerns Sarah McCaughern. The 1911 Gortereghy census browse records Sarah McCaughern, aged 82, as head of household with Matilda Mulholland, 52, and Caroline McCaughern, 47, recorded as daughters; Sara Jane McCaughern, 45, and Jas Alex McCaughern, 43, are also listed as children, with Geo Mulholland, 14, as grandson. It confirms a substantial McCaughern household in the same townland as the Elder and Glasgow-associated records, but it does not identify Sarah's husband, parents or relationship to Mary Glasgow. (1911 Gortereghy, Sarah McCaughern household; [record](https://api-census.nationalarchives.ie/census/image/nai001390134.pdf).) The identification remains uncertain.
+
+A possible identification concerns Sarah McCaughern. The original 1901 and 1911 returns establish continuity of Sarah McCaughern’s Gortereghy family. Sarah was a Derry-born widow aged 72/82; Caroline, Sarah J/Sara Jane, James A/Jas Alex, Matilda and grandson George occur in both returns. Elizabeth, 32, is also a daughter in 1901. Sarah [Dysart-1893](https://www.wikitree.com/wiki/Dysart-1893), married in 1851 to Gortereghy farmer John McCaughern, remains the strongest mother identity, but neither census names her deceased husband or maiden surname. (1901 Gortereghy, Sarah McCaughern household; [record](https://api-census.nationalarchives.ie/census/image/nai000298441.pdf); 1911 Gortereghy, Sarah McCaughern household; [record](https://api-census.nationalarchives.ie/census/image/nai001390134.pdf); Rasharkin Presbyterian civil marriage register 1851; [record](https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1851/09402/5405894.pdf).) The identification remains uncertain.
+<!-- queue-record-integration-2026-10-17:end -->

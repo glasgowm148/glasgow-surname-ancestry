@@ -28,3 +28,16 @@ Andrew Glasgow, merchant in Kirkgate, Leith, is named as a contact where impost 
 
 - [The Edinburgh Advertiser, 1779-02-09, p.7](https://www.newspapers.com/image/601805253/): no longer a candidate for this profile. Feb 1779 Leith resolution against repeal of the penal laws: Andrew Glasgow signs as preses for the Porters (the three new companies of porters in Leith and St Anthony's). No WikiTree Andrew can be fixed.
 - [The Edinburgh Advertiser, 1790-12-07, p.3](https://www.newspapers.com/image/601818940/): no longer a candidate for this profile. Dec 1790 liquor-impost notice: warrants obtainable from Andrew Glasgow, merchant, Kirkgate, Leith. No WikiTree Andrew can be fixed.
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### Possible Andrew Glasgow, Leith society and merchant notices, 1779–1790
+Andrew Glasgow is a named signatory in a Leith and St Anthony’s journeymen-society notice dated 3 February 1779, under the grouped Preses to annotation. ([The Edinburgh Advertiser, 1779-02-09, p.7](https://www.newspapers.com/image/601805253/).)
+
+Andrew Glasgow, merchant in Kirkgate, Leith, is named as a contact where impost warrants may be obtained. ([The Edinburgh Advertiser, 1790-12-07, p.3](https://www.newspapers.com/image/601818940/).) ([The Edinburgh Advertiser, 1790-12-10, p.2](https://www.newspapers.com/image/601819059/).)
+
+The grouped annotation "Preses to" does not independently identify Andrew’s society or trade. The Leith name and place make the 1779 and 1790 occurrences compatible, without proving that they concern the same man. Being a contact for warrants does not establish that he held a tax office.
+
+This may concern [Glasgow-1481](https://www.wikitree.com/wiki/Glasgow-1481). Edinburgh birthplace is relevant, but before 5 January 1776 is a broad birth upper bound, not a proved 1776 birth or adult age in 1779; no society connection.
+<!-- queue-record-integration-2026-10-17:end -->

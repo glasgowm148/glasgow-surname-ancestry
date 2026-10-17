@@ -245,3 +245,35 @@ The archived Kilwaughter source notes that report Ann Finley's 1802 will also sa
 Seen as: a later researcher's abstract copied into the owner's notes; the originals have not been read. That these Robert, John and Archibald are James's sons is an inference from the names and setting, not a statement in the abstract. With the 1802 will, this strengthens the Finley–Glasgow association but states no kinship. Next record: the Newberry County will books for 1793 and 1795.
 
 Recorded in `archive/dump/TheGlasgows.md` (owner's checklist export of 10 March 2025); carried into this file on 7 October 2026.
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### Possible James Glascow, Fogs Manor postal addressee
+James Glascow, Fogs Manor, is listed among letters remaining in the Philadelphia post office. ([The Pennsylvania Gazette, 1757-04-07, p.1](https://www.newspapers.com/image/39395391/).)
+
+Fogs Manor is the printed address qualifier. A neighbouring "Phil. Co." in a separate alphabetic column is not this man’s address. The list states no occupation, so it does not identify him as the later Greenwich Packet master.
+
+This may concern [Glasgow-1144](https://www.wikitree.com/wiki/Glasgow-1144). Exact birth 24 May 1731 in Kilwaughter; estimated death c.1793 in Newberry, South Carolina. Chronologically alive in 1777 on current qualifiers, but no evidence for a maritime or Pennsylvania connection; estimated death does not exclude. The postal record states no occupation.
+
+### Possible James Glascow, master of Greenwich Packet
+Greenwich Packet: James Glascow, master; James Young, owner; from Philadelphia to Winyew, Carolina; with rum, bread, flour and porter. ([The Public Advertiser, 1777-05-14, p.2](https://www.newspapers.com/image/34421452/).) ([The Ipswich Journal, 1777-05-17, p.1](https://www.newspapers.com/image/396765804/).) ([The Gloucester Journal, 1777-05-19, p.1](https://www.newspapers.com/image/971522063/).)
+
+James Young is the separate vessel owner, not another form of the master’s name. Three issues repeat one voyage report. Neither the route nor the cargo establishes the master’s family or identifies him with the 1757 Fogs Manor addressee.
+
+This may concern [Glasgow-1144](https://www.wikitree.com/wiki/Glasgow-1144). Exact birth 24 May 1731 in Kilwaughter; estimated death c.1793 in Newberry, South Carolina. Chronologically alive in 1777 on current qualifiers, but no evidence for a maritime or Pennsylvania connection; estimated death does not exclude.
+
+### Possible James Glasgow, Charlestown postal addressee, 1775
+James Glasgow and Ezekiel Glasgow appear in the list of letters remaining in Charlestown’s General Post Office, dated 21 August 1775. ([The South-Carolina and American General Gazette, 1775-08-25, p.1](https://www.newspapers.com/image/605068969/).)
+
+The list does not state James’s residence or age and proves no relationship to the co-listed Ezekiel.
+
+This may concern [Glasgow-1144](https://www.wikitree.com/wiki/Glasgow-1144). Born 24 May 1731, Kilwaughter, County Antrim, exact; death c.1793, Newberry, South Carolina, estimated. A James Glasgow with a South Carolina location and a 1775 will is chronologically compatible with the Charleston addressee, but the will does not connection him to the letter list. The estimated c.1793 death is not evidence he lived to December 1789; it also is not a precise death boundary excluding the 1789 entry. The recorded exact birth and Newberry family are distinct from Glasgow-804's; the comparison calls them similar, which does not establish identity or justify combining their family evidence.
+
+### Possible James Glasgow, Hackman affair witness, 1779
+James Glasgow and Andrew Doyle, styled chairmen, are named among persons examined in the Hackman/Miss Ray affair; Glasgow reportedly removed the pistol and gave it to Halliburton. ([Gloucester Journal, 1779-04-12, p.3](https://www.newspapers.com/image/970974651/).) ([Berrow's Worcester Journal, 1779-04-15, p.1](https://www.newspapers.com/image/1211966255/).) ([Jackson’s Oxford Journal, 1779-04-10, p.3](https://www.newspapers.com/image/396539533/).)
+
+"Chairmen" is the recorded word, not a statement that James chaired a meeting. The account gives no age, parents or connection to the American and maritime namesakes.
+
+This may concern [Glasgow-1144](https://www.wikitree.com/wiki/Glasgow-1144). Adult lifespan compatible; no London connection to the South Carolina family. The approximate death is not a precise boundary.
+<!-- queue-record-integration-2026-10-17:end -->

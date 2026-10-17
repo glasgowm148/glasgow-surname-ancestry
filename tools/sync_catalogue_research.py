@@ -65,6 +65,8 @@ def update_data(update):
         "draft_wikitext": draft,
         "manual_update": bool(update.get("manual_update")),
         "pending": bool(update.get("pending", True)),
+        **({"comparison_withheld": True, "public_addition_wikitext": update["public_addition_wikitext"]}
+           if update.get("comparison_withheld") else {}),
         **({key: update[key] for key in ("new_profile", "action", "assessment", "profile_url")
             if key in update} if update.get("new_profile") else {}),
         **({"relationship_changes": update["relationship_changes"]} if update.get("relationship_changes") else {}),
@@ -348,7 +350,16 @@ def main():
             # a DNA tester. The queued change stays in the register and the
             # queue file for the owner; it is not shown on the public page.
             updates_withheld.append(ident)
-            update = None
+            if update.get("private_comparison") and update.get("public_addition_wikitext"):
+                try:
+                    from queue_profile_amendments import public_additive_update
+                except ModuleNotFoundError:
+                    from tools.queue_profile_amendments import public_additive_update
+                update = public_additive_update(update)
+                if policy.contains_private_id(json.dumps(update, ensure_ascii=False)):
+                    raise ValueError("Unsafe public historical addition: " + ident)
+            else:
+                update = None
         html_path = path.with_suffix(".html")
         soup = BeautifulSoup(read_html(html_path, site_root=WEB), "html.parser")
         comparison = comparisons.get(ident)

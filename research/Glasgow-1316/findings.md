@@ -18,3 +18,16 @@ Inspect the original royal commission, Edinburgh presbytery ordination minutes a
 ## Identity assessment — Edinburgh Castle notices, 6 October 2026
 
 The 1737–1738 Edinburgh Castle notices are now identified with [Glasgow-1140](https://www.wikitree.com/wiki/Glasgow-1140) (James, son of Rev. John Glasgow of Kilbirnie and Margaret Scott) from the Fasti entries for Edinburgh Castle and Kilbirnie. This profile is not that man; the 5 October candidate listing is withdrawn.
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### Possible James Glasgow, Edinburgh Castle clergy, 1737–1738
+James Glasgow, styled Clerk, is appointed chaplain to the garrison of Edinburgh Castle by a royal commission reported read in the presbytery. ([The Daily Gazetteer, 1737-11-03, p.1](https://www.newspapers.com/image/1142270617/).)
+
+James Glasgow, probationer, is reported ordained minister of the Castle in an Edinburgh-datelined notice. ([The Daily Gazetteer, 1738-02-23, p.1](https://www.newspapers.com/image/1142271259/).)
+
+The 1737 commission and 1738 ordination appear to concern the same Castle officeholder; the newspaper notices give no parents.
+
+This may concern [Glasgow-1316](https://www.wikitree.com/wiki/Glasgow-1316). Compatible age and Scottish geography. No role or Castle connection established.
+<!-- queue-record-integration-2026-10-17:end -->

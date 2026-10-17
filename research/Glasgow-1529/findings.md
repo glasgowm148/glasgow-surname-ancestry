@@ -52,3 +52,25 @@ Inspect the contemporaneous Gazette appointment and regimental commission lists 
 - [The Caledonian Mercury, 1774-09-24, p.2](https://www.newspapers.com/image/395693121/): no longer a candidate for this profile. Sept 1774: George Glasgow, gentleman, appointed Second Lieutenant vice Barnes. This is the future Lt-Gen George Glasgow RA (DCB: 2nd Lt 8 Sept 1774); he has no WikiTree profile.
 - [The Caledonian Mercury, 1793-10-05, p.2](https://www.newspapers.com/image/395737286/): no longer a candidate for this profile. Oct 1793: Captain-Lieutenant George Glasgow to be Captain, Royal Artillery, vice Wright (Ordnance 25 Sept). This is Lt-Gen George Glasgow RA (DCB: captain 25 Sept 1793); no WikiTree profile.
 - [The Caledonian Mercury, 1795-05-21, p.2](https://www.newspapers.com/image/395709939/): no longer a candidate for this profile. May 1795: Captain George Glasgow, artillery, made Major in the army. Probably Lt-Gen George Glasgow RA (DCB); the earlier RA George is a possible alternative. No WikiTree profile.
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### Possible George Glasgow, Royal Artillery reports, 1771–1795
+A Royal Regiment of Artillery promotion report names Second Lieutenant George Glasgow to be First Lieutenant in the room of Francis Downman, preferred. ([The Caledonian Mercury, 1771-09-07, p.1](https://www.newspapers.com/image/395686209/).)
+
+An Office of Ordnance notice names Captain-Lieutenant George Glasgow to be Captain in the Royal Regiment of Artillery, vice Wright. ([The Caledonian Mercury, 1793-10-05, p.2](https://www.newspapers.com/image/395737286/).) ([The Observer, 1793-10-06, p.1](https://www.newspapers.com/image/257580089/).)
+
+A War Office notice dated 15 May 1795 names Captain George Glasgow, artillery, among captains appointed to be majors in the army. ([The Caledonian Mercury, 1795-05-21, p.2](https://www.newspapers.com/image/395709939/).)
+
+The shared name, artillery service and progressive ranks make one career plausible. Personal continuity across the twenty-two years is unproved. The 1795 notice announces promotion to majors in the army; it does not itself name a family or establish a technical brevet designation.
+
+This may concern [Glasgow-1529](https://www.wikitree.com/wiki/Glasgow-1529). Estimated c. 1769 birth would make him too young for 1771 if approximately correct; the 1793/1795 Captain/Major notices could fit by age. A later namesake remains possible, without a service identifier.
+
+### Possible George Glasgow, unassigned Second Lieutenant appointment, 1774
+George Glasgow, gentleman, is reported appointed Second Lieutenant, vice Second Lieutenant Barnes, promoted. ([The Caledonian Mercury, 1774-09-24, p.2](https://www.newspapers.com/image/395693121/).)
+
+No regiment is stated in the appointment paragraph. It cannot safely be joined to the George Glasgow already reported as an artillery first lieutenant in 1771; the lower rank is not evidence of a demotion.
+
+This may concern [Glasgow-1529](https://www.wikitree.com/wiki/Glasgow-1529). Estimated c. 1769 birth would make him about five in 1774 if approximately correct, a strong chronology tension. Estimate not independently checked; weak/unlikely lead.
+<!-- queue-record-integration-2026-10-17:end -->

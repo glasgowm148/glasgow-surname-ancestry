@@ -74,14 +74,33 @@ def main():
                          historical_basis={'latest_birth_year': 1887, 'source_url': 'https://genealogy.torrens.org/BannValley/church/RasharkinP/graveyard.html'})
             # The 1908 marriage transcript calls him full age (at least 21).
             entry.update(birth='before 1888', birth_note='Upper bound from full age in the 18 June 1908 marriage transcript; exact birth unrecorded.')
+        if anchor == 'matilda-mulholland':
+            entry.update(last_names_at_birth=['Unknown'], last_names_current=['Mulholland'])
+            if 'Her birth surname is unproved.' not in subject['minimum_fields']:
+                subject['minimum_fields'] += ' Her birth surname is unproved; Mulholland is the recorded married surname. The McCaughern father hypothesis remains uncertain.'
+        if anchor == 'nicholas-glasco-southwark':
+            entry.update(last_names_at_birth=['Glasco'], last_names_current=['Glascoe'])
+        if anchor in census_ages or anchor == 'alexander-elder':
+            old_minimum = subject['minimum_fields']
+            replacement = 'Birth ' + entry['birth'] + ' (uncertain): ' + entry['birth_note']
+            subject['minimum_fields'] = old_minimum.replace('Birth date remains unknown unless explicitly stated in the record facts below.', replacement)
+        # Synchronize the maintained handoff's minimum fields, not just the index.
+        source_path = ROOT / entry['draft_path']
+        source_text = source_path.read_text()
+        if '## Minimum fields\n\n' in source_text:
+            source_text = re.sub(r'(## Minimum fields\n\n).*?(?=\n## )',
+                                 lambda m: m[1] + subject['minimum_fields'] + '\n', source_text, count=1, flags=re.S)
+            source_path.write_text(source_text)
         for fact in subject['facts']:
             for source in fact['sources']:
                 if not source['url'].startswith(('https://', 'http://')):
                     continue  # related local accounts are navigation, not original citations
                 # Every distinct cited record remains independently accessible.
-                year = re.search(r'\b(1\d{3}|20\d{2})\b', str(event['year_or_date']))
+                source_year = re.match(r'^(1\d{3}|20\d{2})\b', source['title'])
+                record_date = source_year[1] if source_year else str(event['year_or_date'])
+                year = re.search(r'\b(1\d{3}|20\d{2})\b', record_date)
                 entry['records'].append({
-                    'year': str(event['year_or_date']), 'filter_year': int(year[1]) if year else None,
+                    'year': record_date, 'filter_year': int(year[1]) if year else None,
                     'family_group': group['title'], 'region': event.get('place') or '',
                     'record_location': event.get('place') or '', 'association': fact['finding'],
                     'note': fact.get('qualification') or '', 'source_title': source['title'],

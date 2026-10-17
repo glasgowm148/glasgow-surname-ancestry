@@ -225,3 +225,28 @@ Sources: [Public Ledger or Daily Register of Commerce and Intelligence, 1760-04-
 [Full record account and comparison](/research/subjects/newspapers-early-glasgow/#william-glascoe-old-bailey-1760). This assessment proposes no live WikiTree edit.
 
 <!-- queue-identity-review-2026-10-17:end -->
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### Possible Captain Glasgow, vessel William at New-York, 1758
+A February 1758 shipping report lists the vessel William, master Glasgow, from London, at New-York. ([The Public Advertiser, 1758-02-18, p.1](https://www.newspapers.com/image/34419759/).)
+
+William is the vessel’s name; the master’s personal forename is not stated. The voyage does not identify his residence, birthplace or family.
+
+This may concern [Glasgow-1505](https://www.wikitree.com/wiki/Glasgow-1505). Estimated c.1708/1783 Larne lifespan permits an adult in 1758. William is this candidate’s name, not a forename established by the vessel; no individual voyage connection.
+
+### Possible William Glascoe / Glascow, 1760 defendant
+William Glascoe is among prisoners reported sentenced to transportation after Old Bailey trials, for stealing a sack of malt from a warehouse, valued in the newspaper at £4 10s. ([Public Ledger or Daily Register of Commerce and Intelligence, 1760-04-18, p.2](https://www.newspapers.com/image/35690357/).)
+
+The newspaper uses Glascoe; the associated Old Bailey case uses Glascow. The case association does not establish the defendant’s origin, family or identity with the later Maryland man.
+
+This may concern [Glasgow-1505](https://www.wikitree.com/wiki/Glasgow-1505). The recorded c. 1708 birth at County Antrim, Ireland is chronologically compatible. The newspaper gives no family or individual identifier connecting this occurrence to Glasgow-1505.
+
+### Possible William Glasgow, master of the Lady Forbes
+William Glasgow is named as master of the Lady Forbes in the Sutton shipping casualty report. ([The Public Register, or, Freeman's Journal, 1768-01-23, p.2](https://www.newspapers.com/image/1050136699/).) ([The Caledonian Mercury, 1768-02-06, p.2](https://www.newspapers.com/image/395700744/).)
+
+The January 1768 report says the rum-carrying Lady Forbes, bound for Waterford, was driven ashore near Sutton and the crew were saved. The ship’s Glasgow home port does not give William’s birthplace. No identity with the later brig William or Falmouth master follows.
+
+This may concern [Glasgow-1505](https://www.wikitree.com/wiki/Glasgow-1505). Older Larne William, estimated birth and death; alive in this period as a working hypothesis. No Lady Forbes connection is established.
+<!-- queue-record-integration-2026-10-17:end -->

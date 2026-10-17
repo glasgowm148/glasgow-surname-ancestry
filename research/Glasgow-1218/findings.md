@@ -40,3 +40,14 @@ A Kelso local-history storyboard, [William Glass of Tristan da Cunha 1786–1853
 This is a derivative account, seen only as a copy in the owner's notes; it cites no Kelso baptism or army record joining the two names. The live WikiTree profile Glasgow-1220 (Corporal William Glass, born 11 May 1786 at Kelso) is already linked to this David and to Janet (Glasgow-1219), on the strength of similar Kelso storyboards (live data captured in `research/Leenders-98/research_brief.md`). The 1786 Kelso child of David and Janet listed above makes the claim chronologically compatible, but the name change is **possible**, not proved, until the Kelso parish register entry, the Royal Artillery enlistment or discharge papers, and the Mitchell article are checked.
 
 Recorded in `archive/dump/TheGlasgows.md` (Checkvist export, 10 March 2025); carried into this file on 7 October 2026.
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### Possible James Glasgow and father David, Kelso militia list, 1798
+James Glasgow, son to David Glasgow, is named in the Kelso parish militia ballot list accompanying a Jedburgh notice dated 29 September 1798. ([The Caledonian Mercury, 1798-10-04, p.1](https://www.newspapers.com/image/395735887/).)
+
+The entry expressly identifies the listed James as David’s son; it does not say "junior". David is described with a weaving descriptor whose exact reading remains qualified. Selection in a militia ballot does not prove completed service or identify James’s mother.
+
+This may concern [Glasgow-1218](https://www.wikitree.com/wiki/Glasgow-1218). For the named father David, Uncertain birth before 13 April 1744 at Stitchel and regional context are compatible with the father David. This is an upper birth bound, not an exact year; the existing link to James-1222 is derived from the family tree and no occupation connection is checked.
+<!-- queue-record-integration-2026-10-17:end -->

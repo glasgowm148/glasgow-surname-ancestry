@@ -163,3 +163,15 @@ Robert’s fatherhood is an inference from the combined records, not an express 
 The earlier mixed table row and its original claim are retained as history. Current parents, siblings and reciprocal family views now use separate assertions. Existing WikiTree biographies already contain the conclusion; this correction creates no additional WikiTree amendment.
 
 Sources: [Anderson, Glasgow burgess roll, p.24](https://archive.org/details/scottishrecordso43scotuoft/page/24/mode/2up), 23 October 1596; NRS CC9/7/9, images 142–145, testament made 10 January and confirmed 8 May 1613, `Marioun glasgw his sist[er]`, existing supplied working transcription. [Original archive portal](https://www.scotlandspeople.gov.uk/); [full local reading](/research/transcriptions/ninian-1613/). No new original inspection. [Current reconstruction and measured effect](/branches/early-scottish-records/#marion-sibling-role).
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### Possible Carnwath court occurrence, 1524
+
+A possible earlier appearance is Robert Glesquho, named first in abbreviated form as robe and then as Robert, in the Carnwath barony court. The entry supplies no age, residence, occupation or relative.
+
+12 April 1524: John Chanslar pursued Robert Glesquho over sixteen shillings and a boll of bere. The inquest ordered Robert to pay two bolls and two pecks of oats, and a boll and a peck of bere. The dating follows the court header on p.9, corrected to 1524 in Appendix B. (William Croft Dickinson (ed.), Court Book of the Barony of Carnwath 1523–1542 (1937), printed pp.9–11; Appendix B p.cxviii; PDF 138–140; https://deriv.nls.uk/dcn23/1271/7974/127179749.23.pdf#page=138. Printed transcription inspected 15 October 2026; original manuscript not inspected.)
+
+Identification with this Glasgow burgess and fisher would require a birth earlier than the estimated circa 1520 date and a long adult career continuing from 1524 to the later burgh/property records. The estimate is not an exclusion, but no shared property or relative proves the identity. [Robert Glasgow of Holkham](https://www.wikitree.com/wiki/Glasgow-4063) remains another compatible account: his birth is unknown, and his reported death on 23 March 1559 Old Style belongs to 1560 in modern year numbering. No Scottish–Norfolk connection is established. The grain award neither makes the litigant a farmer nor places him with the Quothquan tenants John and Thomas.
+<!-- queue-record-integration-2026-10-17:end -->

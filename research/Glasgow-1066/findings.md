@@ -52,3 +52,9 @@ The 1696 Irvine father is now provisionally placed as an uncertain son through t
 - [Jon,6 July 1679,Kilwinning; John and Barbara Alason,OPR599,FR44](https://www.familysearch.org/ark:/61903/1:1:XTVY-VL9)
 - [James,14 July 1689,Kilwinning; James and Margaret Park,OPR599,10/65](https://www.familysearch.org/ark:/61903/1:1:XTVB-3YQ)
 - [Anne,22 May 1689,Kilwinning; father James, mother unnamed in index](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3625052&tab=this)
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+A possible identification concerns Hugh Glasgow, preacher of the gospel, indexed 1677. Hugh Glasgow was described in a 1677 printed Register of Deeds index as “preacher of the gospel.” The index lists him as grantee in a deed abbreviated “Transl.”, recorded 8 March 1677 in the Durie Office, volume 42, page 148 (National Records of Scotland RD3/42, p. 148). The underlying deed has not been examined. The identification remains uncertain. (FamilySearch, *Scotland. Land Records 1677*, item #007830797, Item 3, image 48; printed *Register of Deeds, 1677. Name and Designation*, vol. XVII, p.80, Hugh Glasgow; Durie Office vol.42 p.148, National Records of Scotland RD3/42. [printed index image](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS39-S9V2-4?view=fullText&keywords=HUGH+Glasgow&searchForm=simple&lang=en&groupId=M9QN-ZQ3).)
+<!-- queue-record-integration-2026-10-17:end -->

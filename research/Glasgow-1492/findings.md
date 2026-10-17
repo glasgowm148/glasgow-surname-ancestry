@@ -76,3 +76,45 @@ A notice dated Baltimore, 19 October 1777, signed Joseph Ford, orders absent sol
 ## Identity assessment — newspaper candidates withdrawn, 6 October 2026
 
 - [Aurora General Advertiser, 1791-09-21, p.2](https://www.newspapers.com/image/584905489/): no longer a candidate for this profile. Samuel Glasgow is listed under Washington County among Pennsylvania justices of the peace in commission on 1 September 1791. County records identify him as Samuel Glasgow, Esquire, of Hanover Township: commissioned 7 May 1788, previously a Peters Township wheelwright, and still a JP in the 1800 Hanover assessment. Glasgow-3175 (died 1801, Hanover Township) is the better candidate, but Glasgow-1134 (later of Hanover, Beaver County) has not been excluded, so the match stays possible.
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### Possible Samuel Glascow, Old Bailey defendant
+The Derby Mercury reports Samuel’s respite after the gelding-theft case. ([The Derby Mercury, 1761-05-22, p.3](https://www.newspapers.com/image/394296948/).)
+
+The original Old Bailey trial records the gelding indictment, Guilty verdict and death sentence; an associated catalogue entry describes a conditional pardon. ([Old Bailey Proceedings, t17610506-1, 6 May 1761](https://www.oldbaileyonline.org/record/t17610506-1).) ([Old Bailey associated-record catalogue, ar_9141_29053](https://www.oldbaileyonline.org/record/ar_9141_29053).)
+
+Samuel Glascow is one of two prisoners reported capitally convicted at the Old Bailey; his charge is stealing a bay gelding belonging to Mr Serjeant Haywood. ([Berrow’s Worcester Journal, 1761-05-14, p.1](https://www.newspapers.com/image/1212389396/).) ([The Derby Mercury, 1761-05-08, p.2](https://www.newspapers.com/image/394296692/).) ([Jackson's Oxford Journal, 1761-05-09, p.2](https://www.newspapers.com/image/396510014/).)
+
+The complete Public Advertiser report of 22 May says the Newgate report was made to the King “Yesterday”, supporting 21 May as the reported royal-review day, and reports Samuel’s respite. ([The Public Advertiser, 1761-05-22, p.3](https://www.newspapers.com/image/34424820/).) ([The Public Advertiser, 22 May 1761, p.1, printed issue masthead](https://www.newspapers.com/image/34424813/).)
+
+A one-shilling advertisement for printed Old Bailey trial proceedings lists Samuel Glascow’s horse-stealing case among its contents. ([The Public Advertiser, 1761-05-26, p.4](https://www.newspapers.com/image/34424864/).)
+
+The trial, newspaper conviction reports, respite, pardon catalogue and printed-proceedings advertisement are distinct sources. The adjacent crimes of Thomas Andrews and William Smith were not Samuel’s. None establishes the defendant’s identity with an Ulster or Pennsylvania family, or the terms of a military commutation.
+
+This may concern [Glasgow-1492](https://www.wikitree.com/wiki/Glasgow-1492). A separate 1766 Gorteen Samuel Glasco occurrence has no age or relatives linking it to the London defendant.
+
+### Possible Samuel Glasgow, First Maryland Regiment
+A notice dated Baltimore, 19 October 1777, signed Joseph Ford, orders absent soldiers of the First Maryland Regiment, including Samuel Glasgow, to return by 10 November. It threatens apprehension and punishment as deserters and offers influence toward pardons. ([Maryland Gazette, 1777-10-23, p.2](https://www.newspapers.com/image/590968568/).) ([Maryland Gazette, 1777-11-06, p.2](https://www.newspapers.com/image/41048973/).) ([Maryland Gazette, 1777-10-23, p.2](https://www.newspapers.com/image/41048937/).)
+
+The printed punctuation does not place Samuel in Captain Murray’s company. The notice names no age, relatives or subsequent service, and its general deserter warning is not an individual finding that Samuel deserted.
+
+This may concern [Glasgow-1492](https://www.wikitree.com/wiki/Glasgow-1492). Estimated c.1726 Moneymore birth and c.1824 United States death allow these dates. The separate 1766 Gorteen occurrence does not establish American migration or identity.
+
+### Possible Samuel Glasgow, Washington County justice
+Samuel Glasgow is listed under Washington in the names of Pennsylvania justices of the peace in commission on 1 September 1791. ([Aurora General Advertiser, 1791-09-21, p.2](https://www.newspapers.com/image/584905489/).)
+
+The office and county agree with a possible later Pennsylvania context but do not identify the officeholder’s parents, wife or earlier life. In particular, the commission does not identify him with the 1761 London defendant.
+
+This may concern [Glasgow-1492](https://www.wikitree.com/wiki/Glasgow-1492). Estimated c.1726 Moneymore birth and c.1824 United States death allow these dates. The separate 1766 Gorteen occurrence does not establish American migration or identity.
+
+### Possible Samuel Glasgow, Whitpain boundary landowner
+Samuel Glasgow is an adjoining landowner in a Whitpain Township execution-sale notice for about fifty acres, late Isaac Williams’s estate, bounded by John Saunders, Samuel Glasgow, John Eldridge and Thomas Blackledge. ([The Pennsylvania Gazette, 1770-02-01, p.3](https://www.newspapers.com/image/39398014/).) ([The Pennsylvania Gazette, 1770-02-15, p.2](https://www.newspapers.com/image/39398170/).) ([The Pennsylvania Gazette, 1770-08-16, p.3](https://www.newspapers.com/image/39401453/).) ([The Pennsylvania Gazette, 1770-08-23, p.6](https://www.newspapers.com/image/39401610/).)
+
+Samuel Glasgow is a boundary landowner for thirty acres, part of a fifty-acre Whitpain Township tract, late Isaac Williams’s estate, also bounded by John Saunders and John Eldridge. A sale is advertised for 9 August at William Lawrence’s house in Plymouth Township. ([The Pennsylvania Gazette, 1770-07-12, p.3](https://www.newspapers.com/image/39400791/).) ([The Pennsylvania Gazette, 1770-07-19, p.5](https://www.newspapers.com/image/39400983/).) ([The Pennsylvania Gazette, 1770-07-26, p.6](https://www.newspapers.com/image/39401146/).)
+
+The two notices concern parts of Isaac Williams’s estate. Being named as an adjoining owner does not establish Samuel’s residence, family or identity with the Maryland soldier or Washington County justice.
+
+This may concern [Glasgow-1492](https://www.wikitree.com/wiki/Glasgow-1492). Estimated c.1726 Moneymore birth and c.1824 United States death allow these dates. The separate 1766 Gorteen occurrence does not establish American migration or identity.
+<!-- queue-record-integration-2026-10-17:end -->

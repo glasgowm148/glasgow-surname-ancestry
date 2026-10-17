@@ -18,3 +18,9 @@ The supplied index entry is a compatible derivative-record match by name, parish
 Original image not inspected for this batch. The combined collection’s date does not automatically establish a birthday. Names alone do not uniquely identify attached parents or connect a child with a later adult. An omitted parent or indexed gender U remains unspecified in this source.
 
 **Next action:** No additional WikiTree update from this row; preserve any existing pending work.
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+A possible identification concerns Joannet Glasgow. The banns/marriage index records Joannet Glasgow and Andrew Allexander/ on 8 August 1661 at Glasgow. (Scotland’s People: Old Parish Registers — banns and marriages: OPR 644 / 1/230 / 230; [record](https://www.scotlandspeople.gov.uk/).) The original parish register image has not been inspected. The combined index date does not by itself identify the precise event type. The identification remains uncertain.
+<!-- queue-record-integration-2026-10-17:end -->

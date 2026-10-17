@@ -153,3 +153,13 @@ The new adult-account son selection rests on the matching craft and generation, 
 - [Glasgow baptism, 17 November 1618, OPR 644/1, reported 10/272; existing transcription names both parents](https://www.scotlandspeople.gov.uk/)
 - [Edinburgh burgess 1666, Euphame Lorimer household; retained namesake comparison](https://www.findmypast.co.uk/transcript?id=SCOT%2FBURGESS%2F1009525&tab=this)
 - [Reported 1644 West Port sasine index, SRO44 p.160; Lorimer household, original unread](https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481222&seq=168)
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### Possible tanner occurrence, 1623
+
+The Register of the Privy Council, volume XIII, printed p.246, reportedly names Robert Glasgow among the Glasgow tanners who left the trade after a proposed reform. The original passage has not been newly inspected, so that reading remains qualified. (Register of the Privy Council of Scotland, vol.XIII, printed p.246; [digitised volume](https://babel.hathitrust.org/cgi/pt?id=mdp.35112103825313&seq=334). Reported printed-index text; original historical page not inspected in this review.)
+
+Robert is the leading possible existing identity because his Glasgow adult career and probable 1613 cordiner admission fit the place and period. Cordiners and tanners performed distinct leather trades; the cordiner record does not prove the tanner occupation. [Robert Glasgow, buried at Duddingston in 1647](https://www.wikitree.com/wiki/Glasgow-1156), is a weaker but surviving comparison, with no recorded age or trade to exclude him. The separately reported 1630s payment occurrences do not automatically identify the tanner. Craft admissions, burgess records and sasines could distinguish these men; no new parentage or occupation is asserted from this possible match.
+<!-- queue-record-integration-2026-10-17:end -->

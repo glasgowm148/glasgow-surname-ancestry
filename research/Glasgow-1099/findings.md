@@ -113,3 +113,13 @@ James’s former selected Andrew father becomes an uncertain alternative; George
 Sources reused: [Maidment, Analecta Scotica I (1834), art.CXVI pp.395–396,399: Calder act 19 April1586, George Glasgw in Mureistoun; printed pages visually checked15October2026, court manuscript unread](https://archive.org/details/analectascotica00maidgoog); [Mid Calder OPR694/10 p.7, 17February1605: George child of James in probable Muirestoun; adult witnesses George Glasgow and John Smith; owner-held original page reread16October2026](https://www.scotlandspeople.gov.uk/search-records/church-registers/church-births-baptisms); [Renwick, Glasgow Protocols vol.9, protocol2903, printed p.103, 15July1586: George heir of deceased father William; accepted earlier reading](https://archive.org/details/abstractsprotoc01scogoog/page/n113/mode/2up); [Renwick, vol.9, protocol2916, printed p.107, 1September1586: George’s mother Margaret Herbesoun and curator Stephen; accepted earlier reading](https://archive.org/details/abstractsprotoc01scogoog/page/n116/mode/2up).
 
 [George’s full source account and compatible profiles](/research/subjects/murieston-1586-1605/#george-mureistoun); [family comparison and retained alternatives](/branches/research-calder-inveresk-james/#chapter-murieston-preferred-father).
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### Mureistoun muster obligation
+
+One possible identity for George is the George Glasgw named at Mureistoun in the Calder act of 19 April 1586. The act ordered him, with other named men, to muster on 4 August; it does not establish that he attended. (James Maidment, ed., Analecta Scotica, vol.1 (1834), article CXVI, printed pp.395–396,399; act of 19 April 1586; printed pages visually verified 15 October 2026, original court book not inspected; [Source](https://archive.org/details/analectascotica00maidgoog).)
+
+The probable association between that man and the adult George who witnessed James Glasgow’s child’s baptism on 17 February 1605 is separate from identifying either occurrence with this Glasgow merchant. The merchant’s minority in 1586 is a real age constraint, while James’s circa-1575 birth is an unsupported estimate. Neither a Mureistoun holding nor movement between Calder and Glasgow is proved for the merchant.
+<!-- queue-record-integration-2026-10-17:end -->

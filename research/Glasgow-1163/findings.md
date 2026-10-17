@@ -18,3 +18,11 @@ The supplied index entry is a compatible derivative-record match by name, parish
 Original image not inspected for this batch. The combined collection’s date does not automatically establish a birthday. Names alone do not uniquely identify attached parents or connect a child with a later adult. An omitted parent or indexed gender U remains unspecified in this source.
 
 **Next action:** No additional WikiTree update from this row; preserve any existing pending work.
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+A possible identification concerns Jean Glasgow. The printed Edinburgh marriage register records Jean Glasgow with William Mitchell, merchant, on 16 December 1675. (Scotland’s People: Old Parish Registers — banns and marriages: OPR 685 / 1/440 / 164; [record](https://www.scotlandspeople.gov.uk/); Henry Paton, ed., Register of Marriages for the Parish of Edinburgh, 1595–1700 (Scottish Record Society, 1905), printed pp.267 and 481; PDF pp.277 and 491; [record](https://electricscotland.com/history/records/scottishrecordso16scotuoft.pdf#page=491); Same edition, unnumbered Prefatory Note, PDF p.9; [record](https://electricscotland.com/history/records/scottishrecordso16scotuoft.pdf#page=9).) The printed transcription and its preface were visually inspected on 30 September 2026; original parish image unchecked. The identification remains uncertain.
+
+A possible identification concerns Jean Glasgow. The banns/marriage index records Jean Glasgow and Robert Woodsyd on 13 January 1700 at West Kilbride. (Scotland’s People: Old Parish Registers — banns and marriages: OPR 620/20 / 77; [record](https://www.scotlandspeople.gov.uk/).) The original parish register image has not been inspected. The combined index date does not by itself identify the precise event type. Jean Glasgow/Robert Woodsyd 1700 has no compatible proven pair; [Woodside-936](https://www.wikitree.com/wiki/Woodside-936) was born 1696. The identification remains uncertain.
+<!-- queue-record-integration-2026-10-17:end -->

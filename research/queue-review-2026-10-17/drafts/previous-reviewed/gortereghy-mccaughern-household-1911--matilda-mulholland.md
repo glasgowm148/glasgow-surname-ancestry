@@ -4,7 +4,7 @@ Reviewed: 2026-10-17. No live creation authorized or performed. Retain uncertain
 
 ## Minimum fields
 
-Name Matilda Mulholland; birthplace County Antrim, directly reported in the inspected census. Birth date remains unknown unless explicitly stated in the record facts below. Mulholland-1040 is excluded from this Gortereghy daughter by two inspected simultaneous 1901 family returns, not by absent parents. The Gortereghy Matilda is age 45 married in 1901 and 52 widow in 1911; the Monkstown Matilda is 32, married Adair, with sons 9/8/3/1. Preserve the reported age disagreement 45→52. Documentary Sarah is her proved mother; Dysart-1893 and John McCaughern-23 may be carried together as an explicitly uncertain family identity. George is Sarah’s grandson, not explicitly Matilda’s son.
+Name Matilda Mulholland; birthplace County Antrim, directly reported in the inspected census. Birth about 1859 (uncertain): Estimated from the reported age 52 in the 1911 census; exact birth unrecorded. Mulholland-1040 is excluded from this Gortereghy daughter by two inspected simultaneous 1901 family returns, not by absent parents. The Gortereghy Matilda is age 45 married in 1901 and 52 widow in 1911; the Monkstown Matilda is 32, married Adair, with sons 9/8/3/1. Preserve the reported age disagreement 45→52. Documentary Sarah is her proved mother; Dysart-1893 and John McCaughern-23 may be carried together as an explicitly uncertain family identity. George is Sarah’s grandson, not explicitly Matilda’s son. Her birth surname is unproved; Mulholland is the recorded married surname. The McCaughern father hypothesis remains uncertain.
 
 ## Duplicate audit
 

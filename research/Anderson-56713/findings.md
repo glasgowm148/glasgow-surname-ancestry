@@ -15,3 +15,9 @@ The supplied OPR banns and marriages index row 28, dated **1665-06-16**, is assi
 **Confidence:** Matched to the represented existing couple. Original register image not inspected in this batch. The collection combines banns and marriages; the indexed date is not independently established as the ceremony date. This finding makes no new birth, parentage or child-identity inference.
 
 **Recommended action:** Preserve the existing spouse connection and date; add the official index locator as supporting provenance. No new relationship attachment is required.
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+The parish index records Alexander Glasgow with Issobell Anderson at Edinburgh on 16 June 1665. (Scotland’s People, Old Parish Registers, banns and marriages, OPR 685 / 1/440 / 78, 1665-06-16, Edinburgh; [record](https://www.scotlandspeople.gov.uk/).) The index combines banns and marriage entries; the original register is required to establish the event type.
+<!-- queue-record-integration-2026-10-17:end -->

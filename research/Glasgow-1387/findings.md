@@ -54,3 +54,13 @@ Sources: [Belfast Evening Telegraph, 4 September 1875, p.2](https://www.newspape
 [Full record account and comparison](/research/subjects/william-glasgow-irish-newspapers/#william-alexander-parsonstown). This assessment proposes no live WikiTree edit.
 
 <!-- queue-identity-review-2026-10-17:end -->
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### Late William Alexander Glasgow, named in 1875
+
+Emma’s marriage notice names her father as the late William Alexander Glasgow. She married William, second son of Robert Treacy, on 4 September 1875 at St Thomas’s Church, Belfast. Both spouses were of Parsonstown; that wording does not state her late father’s own residence, birthplace or place of death. His age, occupation, wife and parents are unstated. ([Belfast Evening Telegraph, 4 September 1875, p.2](https://www.newspapers.com/image/1265675182/).)
+
+An ordinary William with no recorded middle name remains compatible. The Belfast death in 1874 and a possible later daughter fit this family comparison; the 1851 household’s absence of Emma does not exclude a child born later. The source does not identify this William as William Alexander. [William Glasgow of Killycurragh](https://www.wikitree.com/wiki/Glasgow-1737), [William Glasgow who died in Ohio in 1855](https://www.wikitree.com/wiki/Glasgow-1675), and [William Glasgow associated with County Limerick](https://www.wikitree.com/wiki/Glasgow-3952) remain lower comparisons. The c.1815 [Emma Glasgow](https://www.wikitree.com/wiki/Glasgow-2771) hypothesis cannot be combined with this William’s c.1810 birth.
+<!-- queue-record-integration-2026-10-17:end -->

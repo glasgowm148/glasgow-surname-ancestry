@@ -25,3 +25,11 @@ The [Second Portglenone Presbyterian civil marriage register, printed p. 53, PDF
 The [1912 Belfast and Ulster Directory, Rasharkin](https://lennonwylie.co.uk/PT191214.htm) (online transcription) lists **John Elder, junior, grocer and postmaster**, among the inhabitants of Rasharkin, and in the neighbourhood section separately lists James Elder and James Elder, junior, at Ballydonnelly. The grocer fits this John, the Rasharkin grocer of the 1886 marriage; reading 'junior' as pointing to his father John is an inference. A directory is not a parentage record: it does not make either James a son or brother of Robert Elder, and the identification remains compatible, not proved.
 
 Recorded in `research/latest-findings.json` (17 September 2026); carried into this file on 7 October 2026.
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+A reproduced Second Portglenone Presbyterian marriage list records John Elder, full-age bachelor of Rasharkin, marrying Annie Patterson, aged 20, on 12 May 1886. John's father is recorded as John Elder, farmer; Annie's father as David Patterson, farmer. (Second Portglenone Presbyterian civil marriage 1886; [record](https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1886/10833/5951328.pdf).)
+
+A possible identification concerns John Elder. The 1912 Belfast and Ulster Directory lists John Elder, junior, as a grocer and postmaster among the inhabitants of Rasharkin. In the neighbourhood section it separately lists James Elder and James Elder, junior at Ballydonnelly. (1912 Belfast and Ulster Directory, Rasharkin; [record](https://lennonwylie.co.uk/PT191214.htm).) They add useful identity clues for separating the later Elder households, but the directory does not identify either man as Robert Elder's son or brother. The source is a directory, not a parentage record. The identification remains uncertain.
+<!-- queue-record-integration-2026-10-17:end -->

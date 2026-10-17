@@ -64,3 +64,11 @@ Original image not inspected for this batch. The combined collection’s date do
 ## 1610–1650 sweep — reviewed 15 October 2026
 
 The supplied ScotlandsPeople index already recorded above names **Johnne Glasgow and Jonet Moriell** for Euphame’s 30 March 1634 entry, OPR 685/1, 40/202. The earlier sweep’s claim that the profile still attached minister Glassford-289 was stale: live structured-data verification identifies father Glassfuird-2, the Edinburgh slater, while the biography still refers to the old minister attachment. The index spelling remains a concrete discrepancy to investigate, not grounds for reversing the August correction or detaching the current father. Inspect the original entry before preparing any further structured amendment.
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+A possible identification concerns Eupham Glasgow and Alexander Hutcheson. The parish index records Eupham Glasgow with Alexander Hutcheson at Edinburgh on 8 December 1671. (Scotland’s People, Old Parish Registers, banns and marriages, OPR 685 / 1/440 / 129, 1671-12-08, Edinburgh; [record](https://www.scotlandspeople.gov.uk/).) The index combines banns and marriage entries; the original register is required to establish the event type. The identification remains uncertain.
+
+A possible identification concerns Effie Glasgow and Alexander Hutcshesone. The parish index records Effie Glasgow with Alexander Hutcshesone at Channelkirk on 17 September 1671. (Scotland’s People, Old Parish Registers, banns and marriages, OPR 729/10 / 230, 1671-09-17, Channelkirk; [record](https://www.scotlandspeople.gov.uk/).) The index combines banns and marriage entries; the original register is required to establish the event type. The identification remains uncertain.
+<!-- queue-record-integration-2026-10-17:end -->

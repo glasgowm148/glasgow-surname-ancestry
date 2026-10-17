@@ -4,7 +4,7 @@ Reviewed: 2026-10-17. No live creation authorized or performed. Retain uncertain
 
 ## Minimum fields
 
-Name Geo Mulholland; birthplace County Antrim, directly reported in the inspected census. Birth date remains unknown unless explicitly stated in the record facts below. The completed George Mulholland search identified no supported Gortereghy boy born about 1897 with grandmother Sarah. The household calls Geo a grandson of Sarah, not explicitly a son of Matilda; preserve the relationship actually stated. The original 1901/1911 returns establish the household’s continuity. Dysart-1893 remains the qualified identity of grandmother Sarah. Neither this return nor the earlier return names George’s parents; Matilda as mother is a plausible comparison, not an asserted attachment.
+Name Geo Mulholland; birthplace County Antrim, directly reported in the inspected census. Birth about 1897 (uncertain): Estimated from the reported age 14 in the 1911 census; exact birth unrecorded. The completed George Mulholland search identified no supported Gortereghy boy born about 1897 with grandmother Sarah. The household calls Geo a grandson of Sarah, not explicitly a son of Matilda; preserve the relationship actually stated. The original 1901/1911 returns establish the household’s continuity. Dysart-1893 remains the qualified identity of grandmother Sarah. Neither this return nor the earlier return names George’s parents; Matilda as mother is a plausible comparison, not an asserted attachment.
 
 ## Duplicate audit
 

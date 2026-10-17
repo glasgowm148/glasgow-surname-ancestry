@@ -183,3 +183,14 @@ Two uncertain working father links join the previously detached 6-profile Cookst
 Sources reused: [History of Hillsdale County, Michigan (1879), p.263: James and his Mitchell wife, Scotland-to-Cookstown account and son John; maintained earlier page review reused](https://archive.org/details/bad0928.0001.001.umich.edu/page/263/mode/1up); [Portrait and Biographical Album of Hillsdale County (1888), p.395, William Glasgow sketch: John and Jane, seven children and 1844 migration; earlier review reused](https://archive.org/details/portraitbiograph00chpm/page/395/mode/1up); [Same1888 album, p.688, John B. Glasgow sketch: parents, c.1778 father estimate and 1848 migration; earlier review reused](https://archive.org/details/portraitbiograph00chpm/page/688/mode/1up); [1766 Kildress religious return, NAI IHP/1/667: James Glasgow at Corvanaghan, no wife or children](https://virtualtreasury.ie/item/NAI-IHP-1-667); [1766 Derryloran religious return, NAI IHP/1/665: separate Drumearn James households, no resolved kinship](https://virtualtreasury.ie/item/NAI-IHP-1-665); [PRONI previously reviewed name-search detail: James Glasgow, Drumcarn, County Tyrone, 17 January 1759; no age or kin, testator identity and date meaning unresolved](https://www.proni.gov.uk/name-search).
 
 [Full comparison and qualifications](/branches/research-irish-derryloran/#chapter-cookstown-gortin-working-family).
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### Possible James Glascow, Fogs Manor postal addressee
+James Glascow, Fogs Manor, is listed among letters remaining in the Philadelphia post office. ([The Pennsylvania Gazette, 1757-04-07, p.1](https://www.newspapers.com/image/39395391/).)
+
+Fogs Manor is the printed address qualifier. A neighbouring "Phil. Co." in a separate alphabetic column is not this man’s address. The list states no occupation, so it does not identify him as the later Greenwich Packet master.
+
+This may concern [Glasgow-1025](https://www.wikitree.com/wiki/Glasgow-1025). Weak compatible 1757 chronological lead: estimated c.1700 birth and exact 17 January 1759 death allow the postal date; no address connection. Its exact 1759 death field would conflict with the 1777 active master if correctly attributed; the underlying probate identity remains unresolved.
+<!-- queue-record-integration-2026-10-17:end -->

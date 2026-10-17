@@ -290,3 +290,14 @@ A marker-only comparison of the 111-marker result reported for this Robert's lin
 The analysis grades the classification unresolved: a one-step margin between anchors decides nothing. The comparison shows no close STR pairing with any tested FT20271 line. It neither places nor excludes this line; only an SNP result can do that (see the testing recommendation of 6 October 2026 above).
 
 Recorded in `ydna/marker_only_classification.md` (12 August 2026); carried into this file on 7 October 2026.
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### Possible Robert Glasgow, Cecil County plantation notice, 1786
+A notice dated North Susquehanna hundred, Cecil county, Maryland, 10 February 1786 offers a 260-acre plantation for public vendue on 10 March, with immediate possession given by Robert Glasgow and Joshua Hartshorn. ([The Pennsylvania Gazette, 1786-02-15, p.1](https://www.newspapers.com/image/41024006/).) ([The Pennsylvania Gazette, 1786-03-01, p.4](https://www.newspapers.com/image/41024088/).)
+
+The two issues advertise one planned sale. Robert’s role as owner, agent or another participant is not specified; the notice proves neither a completed sale nor kinship with Joshua Hartshorn.
+
+This may concern [Glasgow-1143](https://www.wikitree.com/wiki/Glasgow-1143). Estimated birth c. 1710 in County Antrim and estimated death c. 1772; the stated death estimate predates the 1786 notice and is a material conflict if accurate. Since it is estimated and the date is only an estimate, the comparison is unlikely rather than certainly excluded.
+<!-- queue-record-integration-2026-10-17:end -->

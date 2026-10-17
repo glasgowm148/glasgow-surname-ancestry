@@ -86,3 +86,23 @@ Six existing assessments are strengthened: Alexander’s father and James’s Ch
 Sources reused: [SRO Indexes 38, Edinburgh etc. sasines 1624–1630, printed pp.187–188, visually checked 15 October 2026; 8 July 1624, 9/135, and 11 July 1625, 10/171, are recording dates](https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481057&seq=193); [Marioune Glasgow, 17 March 1630, named father Alexander; accepted Findmypast transcript SCOT/OPR/BAP/4435828, OPR 689/1 p.191](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4435828&tab=this); [ScotlandsPeople supplied OPR index: Johnne 25 November 1632, 689/10/226; Bessie 22 March 1635, 689/10/263; Allexander and named parents Alexander/Jannet Clerk, 3 September 1637, 689/10/301, FR260; accepted 10 September review](https://www.scotlandspeople.gov.uk/search-records/church-registers/church-births-baptisms); [William Glasgow, Inveresk 1614, father James, no mother supplied; accepted Findmypast transcript R_686177762](https://www.findmypast.co.uk/transcript?id=R_686177762&tab=this).
 
 [Family comparison, sources and remaining questions](/branches/research-calder-inveresk-james/#chapter-fisherrow-family-confidence).
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### Later Fisherrow sasine-index references
+
+The later sasine index associates Alexander in Fischerraw, burgess of Musselburgh, with James Glasgow, weaver, at 33/258, recorded 14 February 1646; 33/360, recorded 15 May 1646; and 34/287, recorded 10 February 1647. Edward Glasgow also shares 33/258. (Scottish Record Office, Indexes no.44 (1958), Edinburgh etc. register of sasines 1644–1653, printed pp.159–160; RS25 33/258, recorded 14 February 1646; 33/360, 15 May 1646; 34/287, 10 February 1647; printed columns visually inspected 15 October 2026, original instruments unread; [Source](https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481222&seq=167).) These are three distinct register references; some are repeated on the index continuation. The neighbouring 16 June 1646 date belongs to Isobel Givan’s entry, not Alexander’s.
+
+The index does not say that the weaver was Alexander’s father or son. [James Glasgow, the Edinburgh weaver](https://www.wikitree.com/wiki/Glasgow-1150), is the leading possible identity because of his documented trade and regional career; [James Glasgow, Alexander’s son baptised in 1626](https://www.wikitree.com/wiki/Glasgow-3923), is a genuine local rival. Their separately recorded fathers, Robert and Alexander, distinguish their profile accounts. Alexander’s father [James Glasgow](https://www.wikitree.com/wiki/Glasgow-991), the tailor, is another possible comparison if his trade changed. Edward’s identity remains open among [Edward Glasgow](https://www.wikitree.com/wiki/Glasgow-1557), [Eduard Glasgow](https://www.wikitree.com/wiki/Glasgow-994) and [Edward Glasgow](https://www.wikitree.com/wiki/Glasgow-1558). No kinship follows from a shared reference.
+
+### Corrected interpretation
+
+The printed sasine index identifies Alexander as son of James Glasgow, tailor in Fischerraw and burgess of Musselburgh. It names Janet Clerk as Alexander’s wife and Christina Bye as James’s wife. The entries were recorded in 1624 and 1625. The existing sentence can make Janet the mother/wife of James; the visually checked source distinguishes the two spouses.
+
+* [James Glasgow](https://www.wikitree.com/wiki/Glasgow-3923) — baptized 19 March 1626, father: Alexander Glasgow The 1641 apprentice Glasgow-1150 expressly has father Robert; the 1626 Inveresk child is the distinct Glasgow-3923 account.
+
+Alexander, son of James Glasgow, tailor in Fischerraw and burgess of Musselburgh; Janet Clerk is Alexander’s spouse, while Christina Bye is James’s spouse. The index gives recording dates 8 July 1624 (9/135) and 11 July 1625 (10/171). Use an attributed paraphrase, not an asserted verbatim quotation with ambiguous spouse grammar; remove surrounding blockquote markup when replacing.
+
+The index names two generations and their spouses in the Musselburgh trades community; it does not name a third generation or supply the underlying instruments’ execution dates. Only father and son are named; a third generation is unsupported.
+<!-- queue-record-integration-2026-10-17:end -->

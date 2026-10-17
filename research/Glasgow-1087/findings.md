@@ -121,3 +121,13 @@ Original image not inspected for this batch. The combined collection’s date do
 ## Leithford Walter burial and competing baptism dates — 15 October 2026
 
 The surviving William case includes the historical [Glasgow-2453](https://www.wikitree.com/wiki/Glasgow-2453) file. A Findmypast/SGS burial transcript names **Walter Glasgow, son to William Glasgow**, at Leithford on 4 June 1647, OPR 689/20 ([SCOT/OPR/BUR/1625437](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1625437)). It does not identify William with this profile. The burial predates both the 1647 Findmypast baptism and the 1649 ScotlandsPeople/FamilySearch reading for [Walter Glasgow](https://www.wikitree.com/wiki/Glasgow-1554); preserve them as separate occurrences pending the originals. The earlier attribution of the 1647 baptism to ScotlandsPeople was incorrect.
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### Possible father at the Leithford burial, 1647
+
+The Kirknewton/East Calder burial transcript indexes Walter Glasgow on 4 June 1647, residence Leithford, as “Son to” William Glasgow. (Findmypast/Scottish Genealogy Society, Walter Glasgow, burial 4 June 1647, Leithford, OPR 689/20, transcript SCOT/OPR/BUR/1625437; original register uninspected; [Source](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1625437).) This directly identifies a documentary father William, but gives no age, occupation, spouse or mother. The Mid Calder William is the leading possible existing identity through the nearby household and compatible chronology; the transcript does not itself prove that identification.
+
+This buried Walter cannot be assigned on the present chronology to [Walter Glasgow](https://www.wikitree.com/wiki/Glasgow-1554), whose competing baptism readings are 23 September 1647 and 23 September 1649: both fall after the June burial. The year headings and entries in OPR 689/20 need comparison before concluding that the two Walters were siblings or creating a duplicate. A reused forename within a family is possible, but neither common parentage nor an infant age is established by the burial. The burial date is not an exact death date.
+<!-- queue-record-integration-2026-10-17:end -->

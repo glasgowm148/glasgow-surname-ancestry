@@ -1,0 +1,15 @@
+# Elder-4828 research
+
+Last updated: 17 October 2026
+
+## Current conclusion
+
+The cited records below are assessed separately from the identity of this profile. The proposed biography preserves those qualifications.
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+A possible identification concerns Robert Elder. The inspected original 1911 Gortereghy census return records Alexander Elder, aged 40, as head, Mary Elder, aged 44, as wife, Robert Elder, aged 34, as brother, and Margaret Elder, aged 25, as sister (Form A, official index house 37, nai001390156, rows 1–4). These relationships are consistent with the 1901 household, the 1908 marriage and the Rasharkin Second Presbyterian memorial; the family’s later identities remain uncertain. (1911 Gortereghy, Alexander Elder household; [record](https://api-census.nationalarchives.ie/census/image/nai001390156.pdf).) The identification remains uncertain.
+
+A possible identification concerns Robert Elder. The original 1901 Gortereghy return records Robert Elder, 65, widowed farmer, with Alex 27 and Robert 20 as sons and Eliza 22 and Margaretta 14 as daughters. The 1911 Alexander/Mary household explicitly records Robert as Alexander’s brother and Margaret as his sister. The combined names and locality strongly support continuity, with age differences retained. Robert [Elder-7144](https://www.wikitree.com/wiki/Elder-7144) remains a qualified father identity; Robert/Mary Glasgow’s Gortahar household is separate. (1901 Gortereghy, Robert Elder household; [record](https://api-census.nationalarchives.ie/census/image/nai000298460.pdf); 1911 Gortereghy, Alexander Elder household; [record](https://api-census.nationalarchives.ie/census/image/nai001390156.pdf).) The identification remains uncertain.
+<!-- queue-record-integration-2026-10-17:end -->

@@ -11,14 +11,62 @@ from html import escape
 
 from bs4 import BeautifulSoup
 
-import build_family_map as family
-import build_research_catalog as catalogue
-import evidence_labels
-from site_identity import page_title
-from catalogue_machine_data import build_machine_models, build_network
-from sync_catalogue_research import ROOT, WEB, read_json, write_json, refresh_person
+try:
+    import build_family_map as family
+    import build_research_catalog as catalogue
+    import evidence_labels
+    from site_identity import page_title
+    from catalogue_machine_data import build_machine_models, build_network
+    from sync_catalogue_research import ROOT, WEB, read_json, write_json, refresh_person
+    from queue_profile_amendments import reviewed_amendments
+    from public_privacy import likely_living
+except ModuleNotFoundError:  # Package imports used by focused checks.
+    from tools import build_family_map as family, build_research_catalog as catalogue, evidence_labels
+    from tools.site_identity import page_title
+    from tools.catalogue_machine_data import build_machine_models, build_network
+    from tools.sync_catalogue_research import ROOT, WEB, read_json, write_json, refresh_person
+    from tools.queue_profile_amendments import reviewed_amendments
+    from tools.public_privacy import likely_living
 
 MANIFEST = ROOT / "data/wikitree/research-catalogue-cases.json"
+
+
+
+def reviewed_inclusion_cases(cases, amendments, evidence, metadata):
+    """Add reviewed canonical profile IDs without overriding exclusions/aliases.
+
+    A prepared amendment establishes review scope, not a public identity. Both
+    the actual profile capture and normal family metadata must support inclusion.
+    The source manifest remains untouched; this union is rebuilt each run.
+    """
+    included = deepcopy(cases)
+    for ident in amendments:
+        previous = cases.get(ident, {})
+        if previous.get("status") in {"internal", "withheld"}:
+            continue
+        if previous.get("status") == "covered" and previous.get("profile_id") != ident:
+            continue
+        if not catalogue.WIKITREE_ID.fullmatch(ident):
+            continue
+        capture = evidence.get("profiles", {}).get(ident) or {}
+        fields = capture.get("profile_fields") or {}
+        try:
+            is_public = int(capture.get("privacy") or fields.get("Privacy") or 0) >= 50
+        except (TypeError, ValueError):
+            is_public = False
+        meta = metadata.get(ident) or {}
+        if (not capture or not is_public or not meta.get("full_name")
+                or likely_living(capture, meta)
+                or (fields.get("Name") and fields["Name"] != ident)):
+            continue
+        if previous.get("status") == "include":
+            continue
+        included[ident] = {
+            **previous, "status": "include", "profile_id": ident,
+            "reason": "Reviewed complete profile amendment with a public historical capture and family metadata.",
+            "review_manifest": "research/queue-review-2026-10-17/catalogue-integration.json",
+        }
+    return included
 
 
 def page_shell(person, dossier, findings, links):
@@ -137,9 +185,22 @@ def publish_context(people, dossiers):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("profiles", nargs="*", help="Limit materialization and shared context updates to these reviewed profile IDs")
+    parser.add_argument("--profiles", dest="requested_profiles", nargs="+", help="Reviewed canonical profile IDs to materialize")
     args = parser.parse_args()
+    args.profiles.extend(args.requested_profiles or [])
     manifest = read_json(MANIFEST)
     cases = manifest["cases"]
+    amendments = reviewed_amendments(ROOT)
+    evidence = catalogue._load_wikitree_evidence()
+    seed_ids = {c["profile_id"] for c in cases.values() if c["status"] == "include"}
+    seed_ids.update(amendments)
+    if args.profiles:
+        requested = set(args.profiles)
+        seed_ids = {ident for ident in seed_ids if ident in requested}
+        seed_ids.update(c["profile_id"] for key, c in cases.items()
+                        if key in requested and c["status"] == "include")
+    metadata = family.profile_metadata([], seed_ids)
+    cases = reviewed_inclusion_cases(cases, amendments, evidence, metadata)
     if args.profiles:
         requested = set(args.profiles)
         cases = {key: case for key, case in cases.items()
@@ -149,8 +210,6 @@ def main():
         if requested - eligible:
             raise ValueError("Profiles require reviewed inclusion: " + ", ".join(sorted(requested - eligible)))
     wanted = {c["profile_id"] for c in cases.values() if c["status"] == "include"}
-    metadata = family.profile_metadata([], wanted)
-    evidence = catalogue._load_wikitree_evidence()
     documentary = [c["record"] for c in cases.values() if c["status"] == "include_record"]
     people = catalogue._build_people(documentary, metadata, [], {}, evidence, profile_seed_ids=wanted)
     people = [p for p in people if not p["likely_living"]]
@@ -164,6 +223,7 @@ def main():
     links = {p["id"]: p.get("slug", p["id"].lower()) for p in public_index}
     links.update({p["id"]: p["catalogue_id"] for p in index})
     created = []
+    created_people = []
     for person in people:
         slug = person["catalogue_id"]
         ident = person["profile_ids"][0] if person["profile_ids"] else slug
@@ -178,10 +238,15 @@ def main():
         dossier["research_findings"] = findings
         dossier["similar_people"] = []
         dossier["potential_parentage"] = {}
-        dossier["provenance"]["research_findings"] = "Maintained research case files; inclusion reviewed in research-catalogue-cases.json"
+        dossier["provenance"]["research_findings"] = (
+            "Maintained research case files; inclusion reviewed in research-catalogue-cases.json "
+            "or the durable catalogue-integration.json profile amendment review."
+        )
         write_json(WEB / f"people/{slug}.json", dossier)
         write_json(WEB / f"people/{slug}.network.json", build_network(dossier, {d["id"]:d for d in dossiers.values()}))
         (WEB / f"people/{slug}.html").write_text(page_shell(person, dossier, findings, links), encoding="utf-8")
+        public_index = [row for row in public_index
+                        if row.get("catalogue_id") != slug and row.get("id") != ident]
         public_index.append(next(p for p in index if p["id"] == ident))
         row = {key: deepcopy(person[key]) for key in ("map_key", "name", "profile_ids", "first_names", "last_names_at_birth", "last_names_current", "suffixes", "has_suffix", "gender", "birth", "birth_note", "birth_location", "birth_location_note", "death", "death_location", "spouses", "father", "mother", "children", "cluster", "clusters", "descendants", "evidence", "recorded_in", "regions")}
         row.update(id=slug, locations=catalogue._unique([person["birth_location"], person["death_location"]]), location_aliases=[], location_groups=[], family_root=None, family_roots=[],
@@ -202,6 +267,7 @@ def main():
                        evidence=["Historical baptism; WikiTree identity unresolved"], record_count=len(person["records"]))
         search.append(row)
         created.append(ident)
+        created_people.append(person)
     write_json(WEB / "data/people-index.json", public_index)
     write_json(WEB / "data/catalogue-search-index.json", search)
     (WEB / "data/people-index.js").write_text("window.glasgowPeopleIndex=" + json.dumps(search, ensure_ascii=False, separators=(",", ":")) + ";\n")
@@ -210,7 +276,8 @@ def main():
     combined["people"].extend(p for p in people if p["catalogue_id"] not in known)
     combined["count"] = len(combined["people"])
     write_json(WEB / "data/people.json", combined)
-    publish_context(people, dossiers)
+    if created_people:
+        publish_context(created_people, dossiers)
     print(json.dumps({"created": created}, indent=2))
 
 

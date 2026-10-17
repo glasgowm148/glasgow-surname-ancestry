@@ -4,7 +4,7 @@ Reviewed: 2026-10-17. No live creation authorized or performed. Retain uncertain
 
 ## Minimum fields
 
-Name Ellen Elder; birthplace County Antrim, directly reported in the inspected census. Birth date remains unknown unless explicitly stated in the record facts below. No supported separate Ellen profile was identified for Joseph's niece aged 38 in 1911. Local Elder-7143 represents Ellen Jane (1823–1879), rather than this younger woman. Global near-age Elder-6578 belongs to a Utah family as a daughter of Claybourne and Mary Pratt, with a different family and locality.
+Name Ellen Elder; birthplace County Antrim, directly reported in the inspected census. Birth about 1873 (uncertain): Estimated from the reported age 38 in the 1911 census; exact birth unrecorded. No supported separate Ellen profile was identified for Joseph's niece aged 38 in 1911. Local Elder-7143 represents Ellen Jane (1823–1879), rather than this younger woman. Global near-age Elder-6578 belongs to a Utah family as a daughter of Claybourne and Mary Pratt, with a different family and locality.
 
 ## Duplicate audit
 

@@ -220,3 +220,11 @@ Two named father hypotheses are selected from existing research, with low/very l
 - [Registry affidavit sworn 27 October 1773, registered 15 November: Larne gentleman aged upwards of thirty](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSH3-M72W-M)
 - [Genes Reunited thread 465937: 2007 descendant account, later copied; previously reviewed derivative testimony, not contemporary proof](https://www.genesreunited.co.uk/boards/board/general_topics/thread/465937)
 - [1740 Protestant Householders’ Return, Macafee transcription: two Tamlaght Hugh households, no stated kinship](https://www.billmacafee.com/1740returns/1740religiousreturnsulstername.pdf)
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+A possible identification concerns James Glasgow. An 1874 indenture traces James Glasgow’s 2 October 1779 Newtown of Larne lease to a 25 February 1832 renewal to Anne and Jane Glasgow. (Inspected historical source; [record](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS54-77Q4-H).) Original recital inspected. It establishes title succession, not stated descent; James and both women’s identities remain unresolved. The identification remains uncertain.
+
+A possible identification concerns James Glasgow. The separate memorial 173108 records James Glasgow, ropemaker, assigning a messuage to John Hill on 28 March 1768; its witnessing James Glasgow is described as farmer. (Inspected historical source; [record](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJW-DDD6); Inspected historical source; [record](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJW-DDDL).) Original occupation checked. The same-day ropewalk and messuage assignments are different instruments. Whether the farmer and tanner witnesses are one man is unresolved. The identification remains uncertain.
+<!-- queue-record-integration-2026-10-17:end -->

@@ -40,3 +40,21 @@ Robert Glasgow is listed as son of Andrew Glasgow, miller at Calder, in an Edinb
 
 - [The Caledonian Mercury, 1767-12-21, p.3](https://www.newspapers.com/image/395727807/): no longer a candidate for this profile. Dec 1767: Robert Glasgow, with George Garnock, Niel M'Kinnon and Donald M'Donald, sentenced in Edinburgh for theft to be walked through the city and banished. The 1772 banished-persons list repeats Garnoch and Mackinnon beside 'Robert Glasgow, son of Andrew Glasgow miller at Calder', so this is that man; he has no WikiTree profile.
 - [The Caledonian Mercury, 1772-11-28, p.3](https://www.newspapers.com/image/395731868/): no longer a candidate for this profile. Nov 1772 Edinburgh magistrates' list of banished persons includes 'Robert Glasgow, son of Andrew Glasgow miller at Calder'. Robert is the 1767 theft convict; neither he nor a miller Andrew at Calder can be matched to a WikiTree profile.
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### Possible Robert Glasgow and father Andrew, miller at Calder, 1772
+Robert Glasgow is listed as son of Andrew Glasgow, miller at Calder, in an Edinburgh magistrates’ notice dated 28 November 1772. ([The Caledonian Mercury, 1772-11-28, p.3](https://www.newspapers.com/image/395731868/).) ([The Caledonian Mercury, 1772-11-30, p.3](https://www.newspapers.com/image/395732022/).)
+
+The notice directly identifies its Robert as the son of Andrew, miller at Calder. It does not distinguish East from West Calder or identify the mother. The two newspaper issues repeat the same family statement, not independent evidence of the later profile identities.
+
+This may concern [Glasgow-1445](https://www.wikitree.com/wiki/Glasgow-1445). For Robert, Uncertain birth before 1735 and Kirknewton/East Calder location fit a Robert active by 1772. His current father James-1547 is derived from the family tree; do not treat it as a documentary contradiction. His tree sibling Andrew-3052 likewise does not establish or disprove the named father.
+
+### Possible Robert Glasgow, Edinburgh prisoner report, 1767
+An Edinburgh city-gaol report names Robert Glasgow among prisoners convicted of theft and reports their sentence of public exposure and banishment from the city and liberties forever. ([The Caledonian Mercury, 1767-12-21, p.3](https://www.newspapers.com/image/395727807/).)
+
+The report gives no age, family or later outcome identifying the prisoner. It does not establish that he was Robert, son of Andrew the Calder miller, named in 1772.
+
+This may concern [Glasgow-1445](https://www.wikitree.com/wiki/Glasgow-1445). Uncertain birth before 13 February 1735 at Kirknewton/East Calder permits an adult in Edinburgh in 1767. No criminal-record identifier joins him to this prisoner.
+<!-- queue-record-integration-2026-10-17:end -->

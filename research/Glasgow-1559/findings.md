@@ -41,3 +41,13 @@ Inspect and transcribe Duddingston OPR 684/60/24. Compare its wording against th
 Original image not inspected for this batch. The combined collection’s date does not automatically establish a birthday. Names alone do not uniquely identify attached parents or connect a child with a later adult. An omitted parent or indexed gender U remains unspecified in this source.
 
 **Next action:** No additional WikiTree update from this row; preserve any existing pending work.
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+A possible identification concerns Jon Glasgow, Duddingston burial index, 1641. ScotlandsPeople's Church of Scotland Old Parish Registers deaths-and-burials index contains a Duddingston entry dated 23 August 1641 for **Jon**, with other indexed detail **Jon Glasgow** (parish 684, reference 60/24). (Church of Scotland, Old Parish Registers, deaths and burials, Duddingston, JON, other indexed detail JON GLASGOW, 23 August 1641, parish 684, reference 60/24, [ScotlandsPeople](https://www.scotlandspeople.gov.uk/) index; exact-Glasgow results through 1700 supplied 10 September 2026. The original register image has not been inspected.)
+
+The index does not state an age, residence, parent, spouse, occupation or cause. Its other-name field is preserved as indexed and does not establish a father or any other relationship. Whether the date denotes death, burial or another burial-related entry remains unresolved.
+
+Two existing Duddingston children are possible matches: [John Glasgow](https://www.wikitree.com/wiki/Glasgow-1559), recorded born 4 April 1639 to John Glasgow and Margaret Sluman, and [John Glasgow](https://www.wikitree.com/wiki/Glasgow-3014), recorded born 11 January 1638 to John Glasgow and Helen Patoune. The name, parish and chronology do not distinguish them. The identification remains uncertain.
+<!-- queue-record-integration-2026-10-17:end -->

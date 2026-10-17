@@ -234,6 +234,8 @@ def _profile_update_data(profile_id: str, dossier: dict) -> dict | None:
             # still exposes any already-materialised draft safely.
             _PROFILE_UPDATE_CACHE = {}
     stored = dossier.get("wikitree_update") or dossier.get("wikitree_comparison") or {}
+    if stored.get("comparison_withheld"):
+        return stored
     # A completed comparison is deliberately preferred to a stale queue entry
     # for the same profile; the queue can retain historical completion metadata.
     if dossier.get("wikitree_comparison") and not dossier.get("wikitree_comparison", {}).get("pending", True):

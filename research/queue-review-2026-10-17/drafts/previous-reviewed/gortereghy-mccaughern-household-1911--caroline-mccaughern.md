@@ -4,7 +4,7 @@ Reviewed: 2026-10-17. No live creation authorized or performed. Retain uncertain
 
 ## Minimum fields
 
-Name Caroline McCaughern; birthplace County Antrim, directly reported in the inspected census. Birth date remains unknown unless explicitly stated in the record facts below. Caroline McCaughern/McCarnagh searches returned zero results. McCaughan returned only other given-name or later-generation variants, without a compatible Caroline born about 1864 and daughter of Sarah. No existing profile was identified within this explicit search scope. The original 1901/1911 returns establish the household’s continuity. Carry Dysart-1893 as the qualified mother identity and John McCaughern-23 as the corresponding uncertain father hypothesis for proved siblings. George’s particular mother remains unproved.
+Name Caroline McCaughern; birthplace County Antrim, directly reported in the inspected census. Birth about 1864 (uncertain): Estimated from the reported age 47 in the 1911 census; exact birth unrecorded. Caroline McCaughern/McCarnagh searches returned zero results. McCaughan returned only other given-name or later-generation variants, without a compatible Caroline born about 1864 and daughter of Sarah. No existing profile was identified within this explicit search scope. The original 1901/1911 returns establish the household’s continuity. Carry Dysart-1893 as the qualified mother identity and John McCaughern-23 as the corresponding uncertain father hypothesis for proved siblings. George’s particular mother remains unproved.
 
 ## Duplicate audit
 

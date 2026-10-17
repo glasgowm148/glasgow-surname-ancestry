@@ -14,3 +14,9 @@ Sources: [1911 Gortereghy, Joseph Elder household](https://api-census.nationalar
 [Full record account and comparison](/research/subjects/gortereghy-elder-households-1911/#joseph-elder). This assessment proposes no live WikiTree edit.
 
 <!-- queue-identity-review-2026-10-17:end -->
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+A possible identification concerns Joseph Elder. The same 1911 Gortereghy browse lists two further Elder households: Joseph Elder, aged 79, with Ellen Elder, aged 38, recorded as his niece, and William Elder, aged 40, with Elizabeth Elder, aged 50, recorded as his sister. This demonstrates that Gortereghy contained several distinct Elder households at the same time. (1911 Gortereghy, Joseph Elder household; [record](https://api-census.nationalarchives.ie/census/image/nai001390154.pdf); 1911 Gortereghy, William Elder household; [record](https://api-census.nationalarchives.ie/census/image/nai001390136.pdf).) The identification remains uncertain.
+<!-- queue-record-integration-2026-10-17:end -->

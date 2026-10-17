@@ -83,3 +83,9 @@ This is a review of existing evidence, not a newly discovered record. Attached f
 Reason: The Mid Calder baptism index of 18 February 1616 names James Glasgow as father; NRS OPR 694/10/28. Later adult identities are assessed separately.
 
 Source summary: The Mid Calder baptism index of 18 February 1616 names James Glasgow as father; NRS OPR 694/10/28. Later adult identities are assessed separately. Saved on WikiTree and verified in the live edit form on 28 September 2026; only the father certainty and its explanation were updated.
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+A possible identification concerns John Glasgow in Rashlie, Kilbride, 1643. John Glasgow was listed as “in Rashlie, parish of Kilbride” in a printed index to Glasgow Commissary Court testaments, dated 17 April 1643. (FamilySearch, *Glasgow. Wills 1547–1800*, item #007960708, image 112, printed index p. 196, entry for John Glasgow in Rashlie, parish of Kilbride, 17 April 1643, reference CC9/7/28; https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS8K-D98V?view=fullText&keywords=Glasgow&searchForm=advanced&lang=en&groupId=M97N-2NT. The image is of the printed index, not the underlying testament.) The identification remains uncertain.
+<!-- queue-record-integration-2026-10-17:end -->

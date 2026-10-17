@@ -51,3 +51,14 @@ Find original Cookstown subscribers, estate and tax records and family identifie
 ## Identity assessment — newspaper candidates withdrawn, 6 October 2026
 
 - [The Northern Star, 1796-12-12, p.1](https://www.newspapers.com/image/61260706/): no longer a candidate for this profile. Northern Star 12 Dec 1796: Robert Glasgow pledges two guineas to the Cookstown reward subscription after a shot was fired at a sentinel on 29 Nov 1796. A newly found strongest candidate is Glasgow-3941, the only Robert Glasgow in the 1796 Tyrone Flax Growers' list (Lissan parish, next to Cookstown; later at Coltrim). He is possible, not proved. Glasgow-1983 is now unlikely (South Carolina household by 1785).
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### Possible Robert Glasgow, Cookstown reward subscriber, 1796
+Robert Glasgow pledges two guineas in a Cookstown reward subscription after a shot was fired at a soldier standing sentinel. ([The Northern Star, 1796-12-12, p.1](https://www.newspapers.com/image/61260706/).)
+
+The notice records a pledge, not proof of payment, residence, parentage or a family relationship to another subscriber.
+
+This may concern [Glasgow-1189](https://www.wikitree.com/wiki/Glasgow-1189). Estimated c.1769 Tyrone birth fits the region and age; no Cookstown subscriber identification.
+<!-- queue-record-integration-2026-10-17:end -->

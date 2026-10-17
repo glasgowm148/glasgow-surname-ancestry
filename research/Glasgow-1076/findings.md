@@ -153,3 +153,18 @@ The WikiTree register (`surname-research/to-update.md`, section "Montgreenan tru
 The register therefore contradicts itself, and the live biography was not re-read for this note. A read-only check of the live biography should settle which statement is current; until then neither should be repeated as fact.
 
 Recorded in `surname-research/to-update.md` (29 September 2026); carried into this file on 7 October 2026.
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### Possible Robert Glasgow, St Vincent appointment and Ayrshire records, 1785–1799
+Robert Glasgow, formerly a hospital mate in the West Indies, is announced for appointment as surgeon to the forces on St Vincent. ([The Times, 1785-12-12, p.2](https://www.newspapers.com/image/32859455/).)
+
+Dr Robert Glasgow at Loudoun is listed among subscribers after an Ayrshire heritors’ meeting. ([The Edinburgh Advertiser, 1793-04-09, p.3](https://www.newspapers.com/image/601815997/).)
+
+Robert Glasgow, Esq. of Montgreenan, is named in a lodged claim for enrolment on Ayr’s roll of freeholders. ([The Edinburgh Advertiser, 1799-08-06, p.2](https://www.newspapers.com/image/601821728/).) ([The Caledonian Mercury, 1799-08-08, p.1](https://www.newspapers.com/image/395726257/).)
+
+The exact Montgreenan designation supports identification of the 1799 claimant. The St Vincent surgeon and Loudoun doctor are compatible earlier identities, but the notices do not expressly join them. A lodged claim is not accepted enrolment, and a subscription is not proof of payment.
+
+This may concern [Glasgow-1076](https://www.wikitree.com/wiki/Glasgow-1076). Exact Montgreenan designation agrees with the prior checked 1802 record; earlier St Vincent/doctor contexts fit, but cross-record identity remains inferred.
+<!-- queue-record-integration-2026-10-17:end -->

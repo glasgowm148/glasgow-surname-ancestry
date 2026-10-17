@@ -461,8 +461,8 @@ def sync_generated_profile_work_status() -> dict[str, int]:
     _policy = _privacy_policy()
     update_count = sum(
         1 for profile_id, update in _load_profile_updates(_load_wikitree_evidence()).items()
-        if profile_id in public_profile_ids and not _policy.contains_private_id("\n".join(
-            str(update.get(key) or "") for key in ("summary", "remote_wikitext", "proposed_wikitext", "draft_wikitext")))
+        if profile_id in public_profile_ids and (update.get("private_comparison") or not _policy.contains_private_id("\n".join(
+            str(update.get(key) or "") for key in ("summary", "remote_wikitext", "proposed_wikitext", "draft_wikitext"))))
     )
     update_count += sum(bool(person.get("pending_profile_creation")) for person in people)
     for path in (WEB_DIR / "catalogue.html", WEB_DIR / "catalogue" / "index.html", WEB_DIR / "catalogue" / "advanced.html", artifact_path, WEB_DIR / "statistics" / "index.html"):
@@ -729,8 +729,14 @@ def _load_research_findings(profile_ids: list[str]) -> list[dict]:
             if entry.get("status") == "include_record" and entry.get("profile_id") in profile_ids
         )]))
     findings = []
+    integration_path = PROJECT_ROOT / "research/queue-review-2026-10-17/catalogue-integration.json"
+    own_amendments = set()
+    if manifest.exists() and integration_path.exists() and any(
+        aliases.get(ident, {}).get("status") == "covered" for ident in profile_ids
+    ):
+        own_amendments = set(json.loads(integration_path.read_text()).get("profile_updates", {}))
     for profile_id in profile_ids:
-        if manifest.exists() and aliases.get(profile_id, {}).get("status") == "covered":
+        if manifest.exists() and aliases.get(profile_id, {}).get("status") == "covered" and profile_id not in own_amendments:
             continue
         path = RESEARCH_DIR / profile_id / "findings.md"
         if not path.exists():
@@ -5005,6 +5011,12 @@ def _profile_update_controls(markup: str) -> str:
 def _profile_update_html(update: dict | None) -> str:
     if not update:
         return ""
+    if update.get("comparison_withheld"):
+        try:
+            from queue_profile_amendments import additive_update_panel
+        except ModuleNotFoundError:
+            from tools.queue_profile_amendments import additive_update_panel
+        return additive_update_panel(update)
     if update.get("new_profile"):
         try:
             from queue_catalogue_creations import creation_panel
@@ -6240,6 +6252,13 @@ def build_research_catalog(records: list[dict], profiles: dict[str, dict], edges
     records = [row for row in records if row.get("supplement_id") not in creation_keys] + reviewed_rows
     wikitree_evidence = _load_wikitree_evidence()
     profile_updates = _load_profile_updates(wikitree_evidence)
+    try:
+        from queue_profile_amendments import public_additive_update
+    except ModuleNotFoundError:
+        from tools.queue_profile_amendments import public_additive_update
+    for ident, update in list(profile_updates.items()):
+        if update.get("private_comparison") and update.get("public_addition_wikitext"):
+            profile_updates[ident] = public_additive_update(update)
     profile_audit_payload = _load_catalogue_profile_audit()
     profile_audit_entries = profile_audit_payload.get("entries", {})
     catalogue_profile_links = _load_catalogue_profile_links()
@@ -6395,6 +6414,8 @@ def build_research_catalog(records: list[dict], profiles: dict[str, dict], edges
             "remote_captured_at": update.get("remote_captured_at") or "",
             "remote_revision": update.get("remote_revision") or "",
             "draft_wikitext": update.get("proposed_wikitext") or "",
+            **({"comparison_withheld": True, "public_addition_wikitext": update["public_addition_wikitext"]}
+               if update.get("comparison_withheld") else {}),
             **({"application_review": {key: update["application_review"][key]
                                        for key in ("reviewed_on", "status", "assessment")
                                        if key in update["application_review"]}}

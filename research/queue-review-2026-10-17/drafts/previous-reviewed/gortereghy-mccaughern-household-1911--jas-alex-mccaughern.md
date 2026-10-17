@@ -4,7 +4,7 @@ Reviewed: 2026-10-17. No live creation authorized or performed. Retain uncertain
 
 ## Minimum fields
 
-Name Jas Alex McCaughern; birthplace County Antrim, directly reported in the inspected census. Birth date remains unknown unless explicitly stated in the record facts below. James McCaughern/McCarnagh/McCaughan queries include McCarnagh-3, born about 1835, and Mc_Caughern-19, born in 1824 and died in 1889. Neither represents Jas Alex, aged 43 and born about 1868, in the 1911 household. No supported existing profile was identified for this son. The original 1901/1911 returns establish the household’s continuity. Carry Dysart-1893 as the qualified mother identity and John McCaughern-23 as the corresponding uncertain father hypothesis for proved siblings. George’s particular mother remains unproved.
+Name Jas Alex McCaughern; birthplace County Antrim, directly reported in the inspected census. Birth about 1868 (uncertain): Estimated from the reported age 43 in the 1911 census; exact birth unrecorded. James McCaughern/McCarnagh/McCaughan queries include McCarnagh-3, born about 1835, and Mc_Caughern-19, born in 1824 and died in 1889. Neither represents Jas Alex, aged 43 and born about 1868, in the 1911 household. No supported existing profile was identified for this son. The original 1901/1911 returns establish the household’s continuity. Carry Dysart-1893 as the qualified mother identity and John McCaughern-23 as the corresponding uncertain father hypothesis for proved siblings. George’s particular mother remains unproved.
 
 ## Duplicate audit
 

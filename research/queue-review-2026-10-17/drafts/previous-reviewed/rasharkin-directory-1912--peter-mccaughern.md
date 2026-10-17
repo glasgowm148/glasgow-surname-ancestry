@@ -4,7 +4,7 @@ Reviewed: 2026-10-17. No live creation authorized or performed. Retain uncertain
 
 ## Minimum fields
 
-Name Peter McCaughern; birthplace unknown. Birth date remains unknown unless explicitly stated in the record facts below. The original 1911 Dreen return names Peter McCaughern, 48, single Roman Catholic farmer, and his sister Agnes, 55. This is a concrete family comparison for the 1912 grocer/farmer and later Dreen probates. Directory-to-census continuity remains probable; the probate original was not inspected. Searches for McCaughern, McCaughan, McCarnagh and McCahern identified no supported profile. No father is evidenced.
+Name Peter McCaughern; birthplace unknown. Birth about 1863 (uncertain): Estimated from the reported age 48 in the 1911 census; exact birth unrecorded. The original 1911 Dreen return names Peter McCaughern, 48, single Roman Catholic farmer, and his sister Agnes, 55. This is a concrete family comparison for the 1912 grocer/farmer and later Dreen probates. Directory-to-census continuity remains probable; the probate original was not inspected. Searches for McCaughern, McCaughan, McCarnagh and McCahern identified no supported profile. No father is evidenced.
 
 ## Duplicate audit
 
