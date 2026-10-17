@@ -1,0 +1,36 @@
+{
+  "reviewed": "2026-10-17",
+  "scope": "Killybegs James: a tax balance and a working Donegal father",
+  "profiles": {
+    "Glasgow-3001": {
+      "current_sha256": "30534233cb498754d79cb22e159ed1439ca9d09c12dd0c118cddbdd8fbbbad12",
+      "proposed_sha256": "494de01ef35e09fca9703099075908d77bf398b8c1f0bdfcb6884ef5e6d1cf74",
+      "all_substantive_passages_accounted_for": true,
+      "complete_current_and_prior_proposals_preserved": true,
+      "captured_source_urls_preserved": 1,
+      "private_comparison": false
+    },
+    "Glasgow-3556": {
+      "current_sha256": "0f0fa70183d724c591a447934fdf2181b1ed3dc0ddecf77faba1c8039cf500f0",
+      "proposed_sha256": "2e49027f827eea9cbabba91f0979e5efb947cd4419c17b5a2af874cc390abfa6",
+      "all_substantive_passages_accounted_for": true,
+      "complete_current_and_prior_proposals_preserved": true,
+      "captured_source_urls_preserved": 7,
+      "private_comparison": false
+    }
+  },
+  "prior_assessments": [
+    {
+      "subject_id": "Glasgow-3001",
+      "relative_id": "Glasgow-3556",
+      "relationship": "father",
+      "before": "unknown",
+      "after": "uncertain",
+      "assertion_id": "C-working-20261017-killybegs-james-thomas-father",
+      "basis": "Select Thomas Glasgow-3556 of Lifford/Raphoe as the uncertain working father of James Glasgow-3001. Thomas is an established Donegal legal/property actor from the 1684 Raphoe-linked court occurrence through the 1692–1695 Shannon/Ballindrait deeds and the 1701 Exchequer continuation. James belongs to a later dated Donegal account under 1728. The same uncommon surname, regional continuity and compatible succession of legal/property and revenue roles make Thomas a useful preferred existing father account. This extends the recorded Ramelton–Lifford family into the otherwise unattached collector account without inventing an intermediary. It is a regional and generational inference: none of these records names James as Thomas’s son.",
+      "limitations": "The record dates are not measured ages. The 1728 entry may carry an earlier deceased or dismissed officer’s balance, so it cannot select a generation precisely. Archibald Glasgow-1101, Thomas’s probable father, remains a concrete older-family alternative: James might be Thomas’s younger brother or another kinsman rather than his son. An unrelated Donegal or wider Ulster Glasgow family remains possible. The Tyrone James Glasgow-1025 and Belfast Captain James Glasgow-3172 are not merged with this collector or excluded solely by their unproved birth estimates and parent fields. No Scottish-to-Irish migration, exact age, mother, spouse or child of James is inferred. Thomas’s existing probable Archibald father and his other children keep their separate assessments.",
+      "new_attachment": true,
+      "live_flag_changed": false
+    }
+  ]
+}

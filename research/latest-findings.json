@@ -29459,6 +29459,66 @@
         "research/relationship_assessments.json",
         "research/ancestry-connections/donegal-family-confidence-preservation-2026-10-17.json"
       ]
+    },
+    {
+      "id": "killybegs-working-family-2026-10-17",
+      "found_on": "2026-10-17",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "The Killybegs James entry is a £34 5s 6d land-and-assessed-tax balance under 1728 in a retrospective return dated 5 January 1826. James now has Thomas of Lifford/Raphoe as an uncertain working father; his unsupported c.1650 birth is shown as unknown.",
+      "qualification": "The record dates are not measured ages. The 1728 entry may carry an earlier deceased or dismissed officer’s balance, so it cannot select a generation precisely. Archibald Glasgow-1101, Thomas’s probable father, remains a concrete older-family alternative: James might be Thomas’s younger brother or another kinsman rather than his son. An unrelated Donegal or wider Ulster Glasgow family remains possible. The Tyrone James Glasgow-1025 and Belfast Captain James Glasgow-3172 are not merged with this collector or excluded solely by their unproved birth estimates and parent fields. No Scottish-to-Irish migration, exact age, mother, spouse or child of James is inferred. Thomas’s existing probable Archibald father and his other children keep their separate assessments. Replace the unsupported circa-1650 birth display with Unknown. Use 1728 only as the retrospective account-reference year for research grouping, with birth year unknown. The unlabelled year column does not supply an age or a firm birth boundary; birth could have been substantially earlier. Scotland remains an inherited uncertain birthplace claim; no Irish birthplace is substituted. This correction is independent of the proposed father: the same chronology applies if Thomas is rejected. The old circa-1650 value remains in the imported/current-profile comparison, and all live WikiTree fields are unchanged.",
+      "relationship_changes": [],
+      "relationship_grade_changes": [
+        {
+          "subject_id": "Glasgow-3001",
+          "relative_id": "Glasgow-3556",
+          "relationship": "father",
+          "before": "unknown",
+          "after": "uncertain",
+          "assertion_id": "C-working-20261017-killybegs-james-thomas-father",
+          "basis": "Select Thomas Glasgow-3556 of Lifford/Raphoe as the uncertain working father of James Glasgow-3001. Thomas is an established Donegal legal/property actor from the 1684 Raphoe-linked court occurrence through the 1692–1695 Shannon/Ballindrait deeds and the 1701 Exchequer continuation. James belongs to a later dated Donegal account under 1728. The same uncommon surname, regional continuity and compatible succession of legal/property and revenue roles make Thomas a useful preferred existing father account. This extends the recorded Ramelton–Lifford family into the otherwise unattached collector account without inventing an intermediary. It is a regional and generational inference: none of these records names James as Thomas’s son.",
+          "limitations": "The record dates are not measured ages. The 1728 entry may carry an earlier deceased or dismissed officer’s balance, so it cannot select a generation precisely. Archibald Glasgow-1101, Thomas’s probable father, remains a concrete older-family alternative: James might be Thomas’s younger brother or another kinsman rather than his son. An unrelated Donegal or wider Ulster Glasgow family remains possible. The Tyrone James Glasgow-1025 and Belfast Captain James Glasgow-3172 are not merged with this collector or excluded solely by their unproved birth estimates and parent fields. No Scottish-to-Irish migration, exact age, mother, spouse or child of James is inferred. Thomas’s existing probable Archibald father and his other children keep their separate assessments.",
+          "new_attachment": true,
+          "live_flag_changed": false
+        }
+      ],
+      "certainty_upgrades": 0,
+      "new_working_connections": 1,
+      "people": [
+        {
+          "id": "Glasgow-3001",
+          "name": "James Glasgow, Killybegs collector",
+          "url": "/people/glasgow-3001.html"
+        },
+        {
+          "id": "Glasgow-3556",
+          "name": "Thomas Glasgow of Lifford and Raphoe",
+          "url": "/people/glasgow-3556.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "House of Commons, Finance Accounts for 1825 ended 5 January 1826, Class VII, No.123, printed p.201 (scan leaf219): Killybegs, James Glasgow, 1728, £34 5s 6d; visually checked 17 October 2026",
+          "url": "https://archive.org/details/parliamentarypa27commgoog/page/n219/mode/1up"
+        },
+        {
+          "title": "Same return, printed p.198 (scan leaf216): Land and Assessed Taxes, Ireland; deceased and dismissed collectors’ balances as at 5 January 1826; visually checked 17 October 2026",
+          "url": "https://archive.org/details/parliamentarypa27commgoog/page/n216/mode/1up"
+        },
+        {
+          "title": "Thomas of Lifford/Raphoe: maintained primary court and estate source table, 1684–1701",
+          "url": "https://glasgow.phenotype.dev/people/glasgow-3556.html#sources"
+        },
+        {
+          "title": "Betham GO MS225, vol.3 p.90/image97: Archibald’s April1673 will abstract names eldest son Thomas; inspected 30 September 2026; older-family alternative",
+          "url": "https://catalogue.nli.ie/Record/vtls000540633"
+        }
+      ],
+      "detail_url": "/branches/research-irish-belfast-donegal/#chapter-killybegs-working-family",
+      "provenance": [
+        "research/relationship_assessments.json",
+        "research/ancestry-connections/killybegs-working-family-preservation-2026-10-17.json"
+      ]
     }
   ]
 }

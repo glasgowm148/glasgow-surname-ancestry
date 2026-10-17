@@ -2,7 +2,7 @@
 {{Estimated Date}}
 
 == Biography ==
-'''Father confidence review, 17 October 2026:''' [[Glasgow-1101|Archibald Glasgow]] of Rathmalton is now the '''probable father''' of Thomas of Lifford/Raphoe. This formalizes the earlier strongly probable match to the eldest son named in Betham’s abstract; a further unique identifier is a next test, not a prerequisite for the probable local grade. The live father flag remains uncertain.<ref name="DonegalFamilyReview" />
+'''Killybegs working family, 17 October 2026:''' [[Glasgow-3001|James Glasgow]], the collector in the retrospective Killybegs tax-balance return, is selected as an '''uncertain working son'''. Archibald remains a possible older-family placement for James; Thomas’s probable father and other children keep their existing grades.<ref name="KillybegsFamilyReview" />
 The date and place of birth of '''Thomas Glasgow''' are unknown. Because he was recorded as an adult in January 1684 and styled an esquire by 1689, he was probably born before about 1671. Lifford may be retained in the structured birth-place field as uncertain because it is his earliest stated locality, but the record does not prove that he was born there. No inspected record identifies his wife, children or parents.
 
 On 22 January 1684 Thomas Glasgow was indexed as defendant in an Exchequer proceeding brought by a Bryson or Brison described as “of Raphoe.”<ref name="Exch1684">National Archives of Ireland, Equity Exchequer Bill Book 1684–1686, vol. 5, p. 102, 22 January 1684; [https://search.findmypast.co.uk/record?id=IRE%2FCOURT%2FEXCHEQUER%2F007635147%2F00191&parentid=IRE%2FCOURT%2FEXCHEQUER%2F0001584141 image] and [https://www.findmypast.co.uk/transcript?id=IRE%2FCOURT%2FEXCHEQUER%2F0001584141&tab=this transcript].</ref>
@@ -138,6 +138,31 @@ The year 1670 and County Donegal should not be presented as a certain birth date
 The place-name Ballindroight may represent Ballindrait or another historical spelling. The original deeds and contemporary maps should be consulted before standardising the location.
 
 == Research Notes ==
+=== Killybegs family review — 17 October 2026 ===
+
+The inspected printed return identifies James Glasgow under Killybegs, opposite the year 1728, with a balance of £34 5s 6d. Its full heading is an account of deceased and dismissed tax collectors’ balances in Ireland as at 5 January 1826, under Land and Assessed Taxes. The entry is therefore retrospective. It is not a customs-collector appointment, an assertion that James lived in 1826, or a recorded birth or death in 1728. The precise meaning of the unlabelled year column is not stated on the inspected pages. Printed p.198 supplies the return heading and p.201 the James entry; Internet Archive leaves 216 and 219 were visually checked on 17 October 2026. The item’s inconsistent catalogue date is not used as the document’s date.
+
+Select [[Glasgow-3556|Thomas Glasgow]] of Lifford/Raphoe as the uncertain working father of [[Glasgow-3001|James Glasgow]]. Thomas is an established Donegal legal/property actor from the 1684 Raphoe-linked court occurrence through the 1692–1695 Shannon/Ballindrait deeds and the 1701 Exchequer continuation. James belongs to a later dated Donegal account under 1728. The same uncommon surname, regional continuity and compatible succession of legal/property and revenue roles make Thomas a useful preferred existing father account. This extends the recorded Ramelton–Lifford family into the otherwise unattached collector account without inventing an intermediary. It is a regional and generational inference: none of these records names James as Thomas’s son.
+
+The record dates are not measured ages. The 1728 entry may carry an earlier deceased or dismissed officer’s balance, so it cannot select a generation precisely. [[Glasgow-1101|Archibald Glasgow]], Thomas’s probable father, remains a concrete older-family alternative: James might be Thomas’s younger brother or another kinsman rather than his son. An unrelated Donegal or wider Ulster Glasgow family remains possible. The Tyrone [[Glasgow-1025|James Glasgow]] and Belfast Captain [[Glasgow-3172|James Glasgow]] are not merged with this collector or excluded solely by their unproved birth estimates and parent fields. No Scottish-to-Irish migration, exact age, mother, spouse or child of James is inferred. Thomas’s existing probable Archibald father and his other children keep their separate assessments.
+
+Replace the unsupported circa-1650 birth display with Unknown. Use 1728 only as the retrospective account-reference year for research grouping, with birth year unknown. The unlabelled year column does not supply an age or a firm birth boundary; birth could have been substantially earlier. Scotland remains an inherited uncertain birthplace claim; no Irish birthplace is substituted. This correction is independent of the proposed father: the same chronology applies if Thomas is rejected. The old circa-1650 value remains in the imported/current-profile comparison, and all live WikiTree fields are unchanged.
+
+One uncertain local father is newly selected; no confidence upgrade or documentary parentage is claimed. The new link joins the collector’s one-profile component to the existing working family before 1850. Removing the unsupported 1650 chronology changes membership of the current pre-1650/pre-1700 cohorts; that denominator correction is not a family connection. The immutable baseline and separately reported fixed-cohort results are preserved. No mother or identity merge is added.
+
+<ref name="KillybegsFamilyReview">[https://archive.org/details/parliamentarypa27commgoog/page/n219/mode/1up House of Commons, Finance Accounts for 1825 ended 5 January 1826, Class VII, No.123, printed p.201 (scan leaf219): Killybegs, James Glasgow, 1728, £34 5s 6d; visually checked 17 October 2026]; [https://archive.org/details/parliamentarypa27commgoog/page/n216/mode/1up Same return, printed p.198 (scan leaf216): Land and Assessed Taxes, Ireland; deceased and dismissed collectors’ balances as at 5 January 1826; visually checked 17 October 2026]; [https://glasgow.phenotype.dev/people/glasgow-3556.html#sources Thomas of Lifford/Raphoe: maintained primary court and estate source table, 1684–1701]; [https://catalogue.nli.ie/Record/vtls000540633 Betham GO MS225, vol.3 p.90/image97: Archibald’s April1673 will abstract names eldest son Thomas; inspected 30 September 2026; older-family alternative].</ref>
+
+[https://glasgow.phenotype.dev/branches/research-irish-belfast-donegal/#chapter-killybegs-working-family Family review and separate identity grades].
+
+
+=== Earlier maintained research retained ===
+
+The dated family review supersedes earlier confidence wording only. Other evidence and source limits are retained.
+
+<blockquote>
+'''Father confidence review, 17 October 2026:''' [[Glasgow-1101|Archibald Glasgow]] of Rathmalton is now the '''probable father''' of Thomas of Lifford/Raphoe. This formalizes the earlier strongly probable match to the eldest son named in Betham’s abstract; a further unique identifier is a next test, not a prerequisite for the probable local grade. The live father flag remains uncertain.<ref name="DonegalFamilyReview" />
+The date and place of birth of '''Thomas Glasgow''' are unknown. Because he was recorded as an adult in January 1684 and styled an esquire by 1689, he was probably born before about 1671. Lifford may be retained in the structured birth-place field as uncertain because it is his earliest stated locality, but the record does not prove that he was born there. No inspected record identifies his wife, children or parents.
+
 === Scottish–Donegal family review — 17 October 2026 ===
 
 Prefer the Glasgow child baptised on 19 June 1614 and the Archibaldus Glasgua who graduated M.A. in 1635 as the earlier identity of the Donegal cleric. The uncommon full name, compatible age at graduation, clerical career and 1639 Irish clerk occurrence form a coherent Scottish-to-Irish career. A baptism in 1614 places him at about 21 in 1635 and 25 in 1639. These are conditional ages, not separately recorded ages. No incompatible parentage or simultaneous Scottish household is identified for this proposed cleric. The other known same-generation Scottish Archibald, the Leith man [[Glasgow-3078]], has a separately traced craft career: apprentice to cordiner Thomas Park in October 1639 and shoemaker/heir in May 1647. That positive career sequence makes him a weaker fit to the 1635 graduate and Irish clerk than the 1614 Glasgow child. It is a ranking argument, not an absolute exclusion or an assertion that a man could never change occupation. The Irish testator is securely the Ramelton/Rathmalton cleric by exact name, residence and profession. Assess his existing [[Glasgow-1099|George Glasgow]] and [[Stewart-65226|Margaret Steuart]] parent links as probable, reflecting the probable Scottish childhood identification. The baptism explicitly names both parents, so maternity has its own record basis rather than being inferred from George’s spouse field.
@@ -157,7 +182,6 @@ Four existing assessments change: two probable Scottish parent links for Archiba
 <ref name="DonegalFamilyReview">[https://www.scotlandspeople.gov.uk/search-records/church-registers/church-births-baptisms Glasgow High Kirk baptism, Archibald, 19 June 1614; OPR 644/1 10/133; supplied index and maintained reading naming George Glasgow and Margaret Steuart]; [https://universitystory.gla.ac.uk/people?search=&surname=Glas&forename= University of Glasgow, University Story: Archibaldus Glasgua, M.A. 1635; existing graduate citation]; [https://catalogue.nli.ie/Record/vtls000540633 William Betham, Old Series vol.3, NLI GO MS225, handwritten p.90, viewer image97; April1673 Archibald Glasgow will abstract, inspected30September2026]; [https://glasgow.phenotype.dev/people/glasgow-3556.html#sources Thomas’s maintained source table: 1684 Raphoe court association, 1689 Lifford occurrence and 1692–1695 Creighton/Shannon estate records].; [https://archive.org/details/scottishrecordso28scotuoft/page/71/mode/2up Leith Archibald comparison: Grant, Edinburgh Apprentices p.71, 23 October 1639; compare the 1647 shoemaker retour in Glasgow-3078’s maintained source table].</ref>
 
 [https://glasgow.phenotype.dev/branches/research-irish-belfast-donegal/#chapter-donegal-family-confidence Family review and separate identity grades].
-
 
 === Earlier maintained research retained ===
 
@@ -241,6 +265,7 @@ No inspected record identifies his wife, children, heirs or siblings for this Li
 </pre>
 
 Suggested edit summary: ''Add newly inspected eldest-son abstract and Lifford purchase account; retain the uncertain father identity.''
+</blockquote>
 </blockquote>
 
 

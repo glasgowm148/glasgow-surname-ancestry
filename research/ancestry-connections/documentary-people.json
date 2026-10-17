@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "reviewed": "2026-10-15",
+  "reviewed": "2026-10-17",
   "people": [
     {
       "id": "record-john-glasgw-stirling-1475",
@@ -508,6 +508,52 @@
           "birth_location": "unknown",
           "death": "before",
           "death_location": "unknown"
+        }
+      }
+    },
+    {
+      "id": "Glasgow-3001",
+      "publication_status": "approved",
+      "assessment_id": "chronology-killybegs-james-20261017",
+      "reviewed": "2026-10-17",
+      "source_ids": [
+        "killybegs-james-collector-balance-1728"
+      ],
+      "birth_year": null,
+      "year": 1728,
+      "year_basis": "retrospective account reference",
+      "year_status": "account reference; birth unknown",
+      "first_record_year": 1728,
+      "reason": "Replace the unsupported circa-1650 birth display with Unknown. Use 1728 only as the retrospective account-reference year for research grouping, with birth year unknown. The unlabelled year column does not supply an age or a firm birth boundary; birth could have been substantially earlier. Scotland remains an inherited uncertain birthplace claim; no Irish birthplace is substituted. This correction is independent of the proposed father: the same chronology applies if Thomas is rejected. The old circa-1650 value remains in the imported/current-profile comparison, and all live WikiTree fields are unchanged.",
+      "vitals": {
+        "birth": {
+          "date": null,
+          "display_date": "Unknown",
+          "place": "Scotland",
+          "status": "unknown",
+          "place_status": "uncertain",
+          "qualifier": "No age or birth supplied; c.1650 was an unsupported imported estimate. Scotland is an inherited unproved origin. The unlabelled 1728 column is an account reference, not a birthday.",
+          "source_url": "https://archive.org/details/parliamentarypa27commgoog/page/n219/mode/1up"
+        }
+      },
+      "tree_display": {
+        "born": null,
+        "year": 1728,
+        "birthDisplay": "Unknown",
+        "lifeLabel": "Birth unknown; collector balance referenced under 1728"
+      },
+      "catalogue_projection": {
+        "birth": "Unknown",
+        "birth_year": null,
+        "birth_note": "No birth or age supplied. The former c.1650 estimate is retained in the import; 1728 is a retrospective account reference.",
+        "date_years": [
+          1728
+        ],
+        "field_statuses": {
+          "birth": "unknown",
+          "birth_location": "uncertain",
+          "death": "unknown",
+          "death_location": "uncertain"
         }
       }
     }

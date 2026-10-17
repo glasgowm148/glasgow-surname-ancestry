@@ -3888,5 +3888,24 @@
         "timeline_group": "Family records"
       }
     }
+  },
+  {
+    "record_id": "killybegs-james-collector-balance-1728",
+    "association": "James Glasgow’s Killybegs tax-collector balance",
+    "date": "1728 reference in a return dated 5 January 1826",
+    "year": 1728,
+    "document_date": "1826-01-05",
+    "place": "Killybegs, County Donegal",
+    "source_url": "https://archive.org/details/parliamentarypa27commgoog/page/n219/mode/1up",
+    "status": "Printed return and heading visually inspected 17 October 2026",
+    "note": "The inspected printed return identifies James Glasgow under Killybegs, opposite the year 1728, with a balance of £34 5s 6d. Its full heading is an account of deceased and dismissed tax collectors’ balances in Ireland as at 5 January 1826, under Land and Assessed Taxes. The entry is therefore retrospective. It is not a customs-collector appointment, an assertion that James lived in 1826, or a recorded birth or death in 1728. The precise meaning of the unlabelled year column is not stated on the inspected pages. Printed p.198 supplies the return heading and p.201 the James entry; Internet Archive leaves 216 and 219 were visually checked on 17 October 2026. The item’s inconsistent catalogue date is not used as the document’s date. No kinship or age is supplied. The underlying collector/estate accounts were not inspected.",
+    "role": "Retrospective land-and-assessed-tax balance",
+    "profiles": {
+      "Glasgow-3001": {
+        "role": "Named collector account; £34 5s 6d beside 1728",
+        "assessment": "proved",
+        "timeline_group": "Life events"
+      }
+    }
   }
 ]

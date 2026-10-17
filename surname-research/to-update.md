@@ -1881,3 +1881,9 @@ The August completion entries remain historical. The live parent fields are now 
 | [George Glasgow, Glasgow burgess](https://www.wikitree.com/wiki/Glasgow-1099) | OPEN | Add the sourced family confidence assessment; preserve other dates, relationships and complete text. |
 | [Margaret Stewart or Steuart](https://www.wikitree.com/wiki/Stewart-65226) | OPEN | Add the sourced family confidence assessment; preserve other dates, relationships and complete text. |
 | [Elizabeth, Archibald’s wife](https://www.wikitree.com/wiki/Unknown-761582) | OPEN | Add the sourced family confidence assessment; preserve other dates, relationships and complete text. |
+
+
+## Killybegs family review — 17 October 2026
+
+| [James Glasgow, Killybegs collector](https://www.wikitree.com/wiki/Glasgow-3001) | OPEN | Add the inspected tax-balance context and selected uncertain Thomas/James connection; James’s birth is unknown. Preserve other dates, relationships and complete text. |
+| [Thomas Glasgow of Lifford and Raphoe](https://www.wikitree.com/wiki/Glasgow-3556) | OPEN | Add the inspected tax-balance context and selected uncertain Thomas/James connection; James’s birth is unknown. Preserve other dates, relationships and complete text. |

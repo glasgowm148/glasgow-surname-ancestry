@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "reviewed": "2026-10-17",
+  "cutoff": 1850,
+  "method_version": 3,
+  "input_fingerprint": "d7c2815b5f000f28640a9062d0e0ccbbaeceb04bebaff0d7ee846d29c2bb19b2",
+  "scope": "Killybegs James: a tax balance and a working Donegal father",
+  "models": {
+    "main": {
+      "checked_historical_profiles": 1777,
+      "all_public_model_profiles_checked": 4519,
+      "matched_paternal_edges": 1355,
+      "changed_father_fields": 1,
+      "changed_mother_fields": 0,
+      "father_grades_changed": 0,
+      "mother_grades_changed": 0,
+      "added_historical_profiles": [],
+      "unresolved_father_cases": [
+        "Glasgow-1367",
+        "Glasgow-2908",
+        "Glasgow-867",
+        "Glasgow-951"
+      ],
+      "approved_chronology_subjects": [
+        "Glasgow-3001"
+      ]
+    },
+    "standalone": {
+      "checked_historical_profiles": 1777,
+      "all_public_model_profiles_checked": 4670,
+      "matched_paternal_edges": 1355,
+      "changed_father_fields": 1,
+      "changed_mother_fields": 0,
+      "father_grades_changed": 0,
+      "mother_grades_changed": 0,
+      "added_historical_profiles": [],
+      "unresolved_father_cases": [
+        "Glasgow-1367",
+        "Glasgow-2908",
+        "Glasgow-867",
+        "Glasgow-951"
+      ],
+      "approved_chronology_subjects": [
+        "Glasgow-3001"
+      ]
+    }
+  },
+  "genealogical_connections_added": 1,
+  "paternal_connections_added": 1,
+  "maternal_connections_added": 0,
+  "certainty_upgrades": 0,
+  "parent_grade_changes": [
+    {
+      "subject_id": "Glasgow-3001",
+      "relative_id": "Glasgow-3556",
+      "relationship": "father",
+      "before": "unknown",
+      "after": "uncertain",
+      "assertion_id": "C-working-20261017-killybegs-james-thomas-father",
+      "basis": "Select Thomas Glasgow-3556 of Lifford/Raphoe as the uncertain working father of James Glasgow-3001. Thomas is an established Donegal legal/property actor from the 1684 Raphoe-linked court occurrence through the 1692–1695 Shannon/Ballindrait deeds and the 1701 Exchequer continuation. James belongs to a later dated Donegal account under 1728. The same uncommon surname, regional continuity and compatible succession of legal/property and revenue roles make Thomas a useful preferred existing father account. This extends the recorded Ramelton–Lifford family into the otherwise unattached collector account without inventing an intermediary. It is a regional and generational inference: none of these records names James as Thomas’s son.",
+      "limitations": "The record dates are not measured ages. The 1728 entry may carry an earlier deceased or dismissed officer’s balance, so it cannot select a generation precisely. Archibald Glasgow-1101, Thomas’s probable father, remains a concrete older-family alternative: James might be Thomas’s younger brother or another kinsman rather than his son. An unrelated Donegal or wider Ulster Glasgow family remains possible. The Tyrone James Glasgow-1025 and Belfast Captain James Glasgow-3172 are not merged with this collector or excluded solely by their unproved birth estimates and parent fields. No Scottish-to-Irish migration, exact age, mother, spouse or child of James is inferred. Thomas’s existing probable Archibald father and his other children keep their separate assessments.",
+      "new_attachment": true,
+      "live_flag_changed": false
+    }
+  ],
+  "publication_summary": "One new uncertain working father connects the Killybegs collector James to Thomas of Lifford/Raphoe. The unsupported c.1650 birth is now Unknown; 1728 is an account reference in an 1826 return. The pre-1650/pre-1700 cohort correction is not counted as a family connection. Supported and confident paternal totals are unchanged.",
+  "research_review": {
+    "source_context": "The inspected printed return identifies James Glasgow under Killybegs, opposite the year 1728, with a balance of £34 5s 6d. Its full heading is an account of deceased and dismissed tax collectors’ balances in Ireland as at 5 January 1826, under Land and Assessed Taxes. The entry is therefore retrospective. It is not a customs-collector appointment, an assertion that James lived in 1826, or a recorded birth or death in 1728. The precise meaning of the unlabelled year column is not stated on the inspected pages. Printed p.198 supplies the return heading and p.201 the James entry; Internet Archive leaves 216 and 219 were visually checked on 17 October 2026. The item’s inconsistent catalogue date is not used as the document’s date.",
+    "father_basis": "Select Thomas Glasgow-3556 of Lifford/Raphoe as the uncertain working father of James Glasgow-3001. Thomas is an established Donegal legal/property actor from the 1684 Raphoe-linked court occurrence through the 1692–1695 Shannon/Ballindrait deeds and the 1701 Exchequer continuation. James belongs to a later dated Donegal account under 1728. The same uncommon surname, regional continuity and compatible succession of legal/property and revenue roles make Thomas a useful preferred existing father account. This extends the recorded Ramelton–Lifford family into the otherwise unattached collector account without inventing an intermediary. It is a regional and generational inference: none of these records names James as Thomas’s son.",
+    "alternatives": "The record dates are not measured ages. The 1728 entry may carry an earlier deceased or dismissed officer’s balance, so it cannot select a generation precisely. Archibald Glasgow-1101, Thomas’s probable father, remains a concrete older-family alternative: James might be Thomas’s younger brother or another kinsman rather than his son. An unrelated Donegal or wider Ulster Glasgow family remains possible. The Tyrone James Glasgow-1025 and Belfast Captain James Glasgow-3172 are not merged with this collector or excluded solely by their unproved birth estimates and parent fields. No Scottish-to-Irish migration, exact age, mother, spouse or child of James is inferred. Thomas’s existing probable Archibald father and his other children keep their separate assessments.",
+    "chronology": "Replace the unsupported circa-1650 birth display with Unknown. Use 1728 only as the retrospective account-reference year for research grouping, with birth year unknown. The unlabelled year column does not supply an age or a firm birth boundary; birth could have been substantially earlier. Scotland remains an inherited uncertain birthplace claim; no Irish birthplace is substituted. This correction is independent of the proposed father: the same chronology applies if Thomas is rejected. The old circa-1650 value remains in the imported/current-profile comparison, and all live WikiTree fields are unchanged."
+  },
+  "comparison": "/branches/research-irish-belfast-donegal/#chapter-killybegs-working-family",
+  "cohort_chronology_corrections": {
+    "1500": {
+      "removed_unsupported_1650_account": false,
+      "new_working_paternal_edges": 0
+    },
+    "1550": {
+      "removed_unsupported_1650_account": false,
+      "new_working_paternal_edges": 0
+    },
+    "1600": {
+      "removed_unsupported_1650_account": false,
+      "new_working_paternal_edges": 0
+    },
+    "1650": {
+      "removed_unsupported_1650_account": true,
+      "new_working_paternal_edges": 0
+    },
+    "1700": {
+      "removed_unsupported_1650_account": true,
+      "new_working_paternal_edges": 0
+    },
+    "1750": {
+      "removed_unsupported_1650_account": false,
+      "new_working_paternal_edges": 1
+    },
+    "1800": {
+      "removed_unsupported_1650_account": false,
+      "new_working_paternal_edges": 1
+    },
+    "1850": {
+      "removed_unsupported_1650_account": false,
+      "new_working_paternal_edges": 1
+    }
+  },
+  "next_metric_check": {
+    "status": "RESOLVED",
+    "saved_confident_tree_flags_not_used_by_current_metric": 0,
+    "review": "/data/ancestry-confidence-method-review.json",
+    "scope": "Four competing-father cases remain open; no saved flag changed."
+  },
+  "verification": {
+    "all_1850_cohort_membership_unchanged": true,
+    "baseline_bytes_and_fixed_cohort_membership_unchanged": true,
+    "only_reviewed_parent_and_birth_display_changes": true,
+    "all_other_parent_ids_names_and_vitals_unchanged": true,
+    "held_four_father_cases_full_flags_unchanged": true,
+    "all_live_fields_and_flags_unchanged": true,
+    "dna_payloads_unchanged": true,
+    "public_pending_updates": 253,
+    "complete_profile_comparisons": 2,
+    "public_complete_profile_comparisons": 2,
+    "private_complete_profile_comparisons": 0
+  },
+  "working_connectivity": {
+    "before": {
+      "population": 1777,
+      "edge_count": 1354,
+      "component_count": 424,
+      "largest_component_size": 1035,
+      "connected_pairs_percent": 33.998172342291646
+    },
+    "after": {
+      "population": 1777,
+      "edge_count": 1355,
+      "component_count": 423,
+      "largest_component_size": 1036,
+      "connected_pairs_percent": 34.063762693475695
+    }
+  },
+  "supported_connectivity": {
+    "before": {
+      "edge_count": 372,
+      "component_count": 1405,
+      "largest_component_size": 46,
+      "connected_pairs_percent": 0.19848210619172915
+    },
+    "after": {
+      "edge_count": 372,
+      "component_count": 1405,
+      "largest_component_size": 46,
+      "connected_pairs_percent": 0.19848210619172915
+    }
+  },
+  "confident_connectivity": {
+    "before": {
+      "edge_count": 355,
+      "component_count": 1422,
+      "connected_pairs_percent": 0.16603547835962018
+    },
+    "after": {
+      "edge_count": 355,
+      "component_count": 1422,
+      "connected_pairs_percent": 0.16603547835962018
+    }
+  }
+}
