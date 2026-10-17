@@ -4939,5 +4939,62 @@
         "role": "Possible unnamed boy, not named by census"
       }
     }
+  },
+  {
+    "record_id": "dalziel-james-samuel-1719",
+    "record_type": "baptism-index citation",
+    "date": "1719-03-15",
+    "year": 1719,
+    "place": "Dalziel,Lanarkshire,Scotland",
+    "source_title": "Dalziel OPR 639,10/28, James Glasgow, indexed 15 March 1719, father Samuel; maintained ScotlandsPeople citation accessed 29 June 2025 and FamilySearch XTLJ-PML; reused, original not newly inspected",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:XTLJ-PML",
+    "source_quality": "derivative",
+    "status": "Maintained citation reused; original not newly inspected",
+    "note": "The existing child account cites James son of Samuel. No later adult identity or John son is established. The current Samuel father grade is preserved.",
+    "profiles": {
+      "Glasgow-3523": {
+        "role": "Indexed child account"
+      },
+      "Glasgow-3166": {
+        "role": "Named father account"
+      }
+    }
+  },
+  {
+    "record_id": "cambusnethan-john-clerk-household",
+    "record_type": "indexed household comparison",
+    "date": "1790",
+    "year": 1790,
+    "place": "Cambusnethan,Lanarkshire,Scotland",
+    "source_title": "John Glasgow and Ann Clerk,23 October 1790,Cambusnethan; maintained family marriage association and FamilySearch Scotland Marriages citation XTYH-1ZS; reused, original uninspected",
+    "source_url": "https://familysearch.org/ark:/61903/1:1:XTYH-1ZS",
+    "source_quality": "derivative",
+    "status": "Existing marriage association and child citations reused",
+    "note": "John/Ann Clerk family: 1790 marriage association; cited James 1793 and Samuel 1798 child records. No father for the adult John stated.",
+    "profiles": {
+      "Glasgow-3094": {
+        "role": "Existing groom and father account"
+      }
+    }
+  },
+  {
+    "record_id": "dalziel-parish-boundaries-clason",
+    "record_type": "parish geography,not a personal occurrence",
+    "date": "New Statistical Account,p. 443",
+    "year": null,
+    "place": "Dalziel and Cambusnethan,Lanarkshire,Scotland",
+    "source_title": "Rev. James Clason,New Statistical Account, Parish of Dalziel, volume 6, printed p. 443, PDF page 1; original printed page visually inspected 17 October 2026; geography only",
+    "source_url": "https://stataccscot.ed.ac.uk/data/pdfs/account2/StAS.2.6.443.P.Lanark.Dalziel.pdf#page=1",
+    "source_quality": "original",
+    "status": "Printed page 443/PDF page 1 visually inspected 17 October 2026",
+    "note": "Dalziel bounded east by Cambusnethan. Context only: no Glasgow person is named in this passage.",
+    "profiles": {
+      "Glasgow-3523": {
+        "role": "Parish context only,not named"
+      },
+      "Glasgow-3094": {
+        "role": "Parish context only,not named"
+      }
+    }
   }
 ]

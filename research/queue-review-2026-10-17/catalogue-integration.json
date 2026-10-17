@@ -2516,8 +2516,8 @@
     },
     "Glasgow-3166": {
       "draft_path": "research/Glasgow-3166/queue-review-2026-10-17.wiki",
-      "summary": "Add the cited record account: Possible Samuel Glasgow, London pen-cutter. Retain the stated identity and relationship limits.",
-      "work_queue_summary": "Add the cited record account: Possible Samuel Glasgow, London pen-cutter. Retain the stated identity and relationship limits.",
+      "summary": "Lead with the indexed 1719 Dalziel father role and possible grandson through James; preserve the separate weak London comparison and current father grades.",
+      "work_queue_summary": "Lead with the indexed 1719 Dalziel father role and possible grandson through James; preserve the separate weak London comparison and current father grades.",
       "queued_at": "2026-10-17",
       "status": "OPEN",
       "pending": true,
@@ -2527,7 +2527,16 @@
         "subject-newspapers-early-glasgow-samuel-glasgow-london-amicable"
       ],
       "private_comparison": false,
-      "prior_work_summary": ""
+      "prior_work_summary": "",
+      "profile_id": "Glasgow-3166",
+      "remote_captured_at": "2026-08-07T09:54:35+00:00",
+      "remote_revision": "20250629054701",
+      "remote_wikitext": "== Biography ==\nBased on the record of his son Christening: Mar 15 1719 - Dalziel, Lanark, Scotland Father: Samuel Glasgow he would've been born before 1701\n== Sources ==\n<references />",
+      "manual_update": true,
+      "significance": 60,
+      "preservation_review_path": "research/ancestry-connections/dalziel-cambusnethan-working-family-preservation-2026-10-17.json",
+      "reviewed_narrative_reduction": true,
+      "preserve_captured_detail": false
     },
     "Glasgow-3167": {
       "draft_path": "research/Glasgow-3167/queue-review-2026-10-17.wiki",
@@ -4909,6 +4918,52 @@
       "significance": 60,
       "findings_path": "research/Glasgow-1549/findings.md",
       "preservation_review_path": "research/ancestry-connections/huntingdon-cambria-working-family-preservation-2026-10-17.json",
+      "reviewed_narrative_reduction": true,
+      "preserve_captured_detail": false
+    },
+    "Glasgow-3094": {
+      "profile_id": "Glasgow-3094",
+      "remote_captured_at": "2026-08-07T09:54:35+00:00",
+      "remote_revision": "20250327185106",
+      "remote_wikitext": "* Possibly descended from [[Glasgow-1148|Alexander Glasgow (abt.1600-bef.1700)]] due to JanetHelen Clerk marriages. \n* [[Clerk-314|Isobel Clerk (abt.1720-)]] might also be connected\n== Biography ==\n\nJohn was born in 1770. \n== Sources ==\n<references />\n* \"Scotland Marriages, 1561-1910\", , FamilySearch (https://familysearch.org/ark:/61903/1:1:XTYH-1ZS : 11 February 2020), John Glasgow, 1790.",
+      "draft_path": "research/Glasgow-3094/queue-review-2026-10-17.wiki",
+      "summary": "Add James Glasgow-3523 of Dalziel as possible father (41%); retain unknown mother and competing generational models.",
+      "work_queue_summary": "Add James Glasgow-3523 of Dalziel as possible father (41%); retain unknown mother and competing generational models.",
+      "queued_at": "2026-10-17",
+      "status": "OPEN",
+      "pending": true,
+      "manual_update": true,
+      "significance": 80,
+      "findings_path": "research/Glasgow-3094/findings.md",
+      "preservation_review_path": "research/ancestry-connections/dalziel-cambusnethan-working-family-preservation-2026-10-17.json",
+      "reviewed_narrative_reduction": true,
+      "preserve_captured_detail": false,
+      "relationship_changes": [
+        {
+          "action": "add",
+          "relationship": "father",
+          "relative_id": "Glasgow-3523",
+          "status": "possible",
+          "assertion_id": "C-working-20261017-dalziel-james-cambusnethan-john",
+          "scope": "41% subjective belief in the Dalziel child/later father identity; no record names John’s father."
+        }
+      ]
+    },
+    "Glasgow-3523": {
+      "profile_id": "Glasgow-3523",
+      "remote_captured_at": "2026-08-07T09:54:35+00:00",
+      "remote_revision": "20250629055901",
+      "remote_wikitext": "== Biography ==\n\nJames was born or baptized 15 Mar 1719 in Dalziel. He was the son of [[Glasgow-3166|Samuel Glasgow]].<ref>Dalziel Parish, Church of Scotland, \"Old Parish Registers Births and Baptisms,\" database, National Records of Scotland ([https://www.scotlandspeople.gov.uk ScotlandsPeople] : accessed 29 Jun 2025), James Glasgow birth or baptism 15 Mar 1719, son of Samuel Glasgow; citing Ref 10 / 28, parish 639.</ref><ref>\"Scotland, Births and Baptisms, 1564-1950\", , FamilySearch (https://www.familysearch.org/ark:/61903/1:1:XTLJ-PML : 16 September 2021), James Glasgow, 1719.</ref>\n== Sources ==\n<references />\n* Source:\nScotland, Births and Baptisms, 1564-1950\nMyHeritage.com [online database], MyHeritage Ltd.\nhttps://www.myheritage.com/research/collection-30226/scotland-births-baptisms-1564-1950\n\nRecord:\nhttps://www.myheritage.com/research/record-30226-294967/james-glasgow-in-scotland-births-baptisms\nJames Glasgow\nCountry: United Kingdom; State: Scotland; Film: 1066588\n\nCitation:\nJames Glasgow\nChristening: Mar 15 1719 - Dalziel, Lanark, Scotland\nFather: Samuel Glasgow",
+      "draft_path": "research/Glasgow-3523/queue-review-2026-10-17.wiki",
+      "summary": "Add the possible Cambusnethan son John Glasgow-3094 (41%); keep the 1719 child and later adult identity separate.",
+      "work_queue_summary": "Add the possible Cambusnethan son John Glasgow-3094 (41%); keep the 1719 child and later adult identity separate.",
+      "queued_at": "2026-10-17",
+      "status": "OPEN",
+      "pending": true,
+      "manual_update": true,
+      "significance": 60,
+      "findings_path": "research/Glasgow-3523/findings.md",
+      "preservation_review_path": "research/ancestry-connections/dalziel-cambusnethan-working-family-preservation-2026-10-17.json",
       "reviewed_narrative_reduction": true,
       "preserve_captured_detail": false
     }

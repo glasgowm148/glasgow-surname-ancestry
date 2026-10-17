@@ -2326,3 +2326,10 @@ Burial-defined Walter remains on source-verification HOLD in the existing creati
 
 | [John S. Glasgow Jr. of Cambria](https://www.wikitree.com/wiki/Glasgow-664) | OPEN | Add John Glasgow-1549 of Sinking Valley as possible father (57%) of John Glasgow-664; explain the contributed son report and identity limits. |
 | [John Glasgow of Sinking Valley](https://www.wikitree.com/wiki/Glasgow-1549) | OPEN | Add the possible Cambria son John Glasgow-664 (57%); preserve the contributed family account and distinguish the uninspected will citation. |
+
+
+## Dalziel and Cambusnethan — 17 October 2026
+
+| [John Glasgow, Ann Clerk household](https://www.wikitree.com/wiki/Glasgow-3094) | OPEN | Add James Glasgow-3523 of Dalziel as possible father (41%); retain unknown mother and competing generational models. |
+| [James Glasgow, Dalziel 1719](https://www.wikitree.com/wiki/Glasgow-3523) | OPEN | Add the possible Cambusnethan son John Glasgow-3094 (41%); keep the 1719 child and later adult identity separate. |
+| [Samuel Glasgow, Dalziel father](https://www.wikitree.com/wiki/Glasgow-3166) | OPEN | Lead with the indexed 1719 Dalziel father role and possible grandson through James; preserve the separate weak London comparison and current father grades. |
