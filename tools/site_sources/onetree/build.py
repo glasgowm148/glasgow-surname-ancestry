@@ -443,6 +443,8 @@ def apply_public_families(people: list[dict], site_root: Path, cutoff: int = 185
             raise ValueError('Public family dossier identity mismatch: ' + ident)
         dossiers[ident] = dossier
         if ident in by_id:
+            if dossier.get('pending_profile_creation'):
+                by_id[ident].update(recordUrl=nodes[ident]['url'], catalogueUrl=nodes[ident]['url'], wikitreeUrl='')
             continue
         vitals = dossier.get('vitals') or {}
         birth, death = vitals.get('birth') or {}, vitals.get('death') or {}
@@ -460,6 +462,8 @@ def apply_public_families(people: list[dict], site_root: Path, cutoff: int = 185
                       locationRegion=region, locationLabel=loc['label'], locationColor=loc['color'],
                       birthLocationRegion=location_for(birthplace), deathLocationRegion=location_for(deathplace),
                       cluster='', researchUrl=nodes[ident]['url'])
+        if dossier.get('pending_profile_creation'):
+            person.update(recordUrl=nodes[ident]['url'], catalogueUrl=nodes[ident]['url'], wikitreeUrl='')
         people.append(person); by_id[ident] = person; added.add(ident)
 
     for ident in added:
@@ -889,9 +893,9 @@ def main() -> None:
         args.qa.write_text(json.dumps({"generated": date.today().isoformat(), **checks}, indent=2) + "\n", encoding="utf-8")
         with args.ids.open("w", encoding="utf-8", newline="") as handle:
             writer = csv.writer(handle)
-            writer.writerow(["WikiTree ID", "Name", "WikiTree URL", "Catalogue URL"])
+            writer.writerow(["Person ID", "Name", "WikiTree URL", "Catalogue URL"])
             for person in sorted((p for p in model["people"] if p.get("kind") == "person" and not p.get('documentary')), key=lambda p: p["id"].casefold()):
-                writer.writerow([person["id"], person["name"], WIKITREE + person["id"], CATALOGUE + person["catalogueId"] + "/"])
+                writer.writerow([person["id"], person["name"], person.get("wikitreeUrl", "") if person.get("recordUrl") else WIKITREE + person["id"], person.get("catalogueUrl") or CATALOGUE + person["catalogueId"] + "/"])
         if args.model.resolve() == (PUBLIC_DIR / 'model.json').resolve():
             from tools.sync_ancestry_atlas import sync
             sync(ROOT / 'www', model)

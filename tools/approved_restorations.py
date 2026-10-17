@@ -96,7 +96,9 @@ def documentary_renderer(page):
     page = page.replace("Selected ${r.status==='probable'?'probable':'uncertain'} working father.</b>",
                         "Selected ${r.status==='probable'?'probable':'uncertain'} working ${esc(r.role||'parent')}.</b>")
     page = page.replace('>WikiTree ${icon(\'out\')}</a>',
-                        ">${p.documentary&&!p.wikitreeUrl?'Source account':'WikiTree'} ${icon('out')}</a>")
+                        ">${p.recordUrl&&!p.wikitreeUrl?'Source account':'WikiTree'} ${icon('out')}</a>")
+    page = page.replace("${p.documentary&&!p.wikitreeUrl?'Source account':'WikiTree'}",
+                        "${p.recordUrl&&!p.wikitreeUrl?'Source account':'WikiTree'}")
     # Whole-tree view fixes and research layer (tools/atlas_whole_tree.py); idempotent.
     return whole_tree_renderer(page)
 

@@ -177,6 +177,35 @@ class PublicFamiliesTests(unittest.TestCase):
         self.assertEqual(child['parents'][0]['reason'], 'Named in a testament')
         self.assertTrue(child['parents'][0]['inModel'])
 
+    def test_pending_creation_node_keeps_catalogue_account_and_father_on_repeat(self):
+        people = [dict(id='Father-1', parents=[], childrenRecorded=[])]
+        nodes = {'Father-1': dict(id='Father-1', name='Recorded father', url='/people/father-1.html',
+            gender='Male', birth_year=1685, death_year=None, birth_status='uncertain', year=1746,
+            year_basis='birth', year_status='uncertain', first_record_year=None),
+            'record-sarah': dict(id='record-sarah', name='Recorded daughter', url='/people/record-sarah.html',
+            gender='Female', birth_year=None, death_year=None, birth_status='unknown', year=1746,
+            year_basis='record date', year_status='record date', first_record_year=1746)}
+        dossiers = {
+            'Father-1': dict(id='Father-1', name='Recorded father', pending_profile_creation=False,
+                vitals={'birth': {'date':'1685','place':'Recorded locality'}}, relationships={'parents': []}),
+            'record-sarah': dict(id='record-sarah', name='Recorded daughter', pending_profile_creation=True,
+                vitals={'birth': {'date':'','place':'Recorded locality'}}, relationships={'parents': [
+                    {'id':'Father-1','relationship':'father','status':'proved'}]})}
+        for ident, dossier in dossiers.items():
+            (self.site / 'people' / (ident.lower()+'.json')).write_text(json.dumps(dossier))
+        edges = [dict(child='record-sarah', father='Father-1', status='proved')]
+        with patch('tools.branch_connectivity.load_public_nodes', return_value=(nodes, edges, {'multiple_fathers': []})):
+            result = apply_public_families(people, self.site)
+            before = copy.deepcopy(people)
+            apply_public_families(people, self.site)
+        child = next(p for p in people if p['id'] == 'record-sarah')
+        father = next(p for p in people if p['id'] == 'Father-1')
+        self.assertEqual(child['recordUrl'], '/people/record-sarah.html')
+        self.assertEqual(child['wikitreeUrl'], '')
+        self.assertEqual(child['parents'][0]['id'], 'Father-1')
+        self.assertEqual(father['id'], 'Father-1')
+        self.assertEqual(people, before)
+
     def test_holds_competing_fathers_without_selecting_a_candidate(self):
         people = [dict(id='Child-1', parents=[dict(id='Father-1',role='father',status='unmarked')], childrenRecorded=[]),
                   dict(id='Father-1',parents=[],childrenRecorded=[{'id':'Child-1'}]),

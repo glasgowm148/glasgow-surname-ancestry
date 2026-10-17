@@ -94,6 +94,9 @@ def overlay_model(retained: dict, fresh: dict) -> dict:
         if ident not in existing:
             existing[ident] = deepcopy(incoming[ident])
     for ident in public_families | previous_public:
+        if incoming[ident].get('recordUrl') and not incoming[ident].get('wikitreeUrl'):
+            for key in ('recordUrl', 'catalogueUrl', 'wikitreeUrl'):
+                existing[ident][key] = incoming[ident].get(key, '')
         if ident not in refresh:
             # A family correction must preserve the approved person's account,
             # geographic annotations and public DNA material.

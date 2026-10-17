@@ -6,6 +6,25 @@ from tools.sync_ancestry_atlas import overlay_model
 
 
 class AtlasWorkingTests(unittest.TestCase):
+    def test_existing_record_account_gets_real_urls_without_changing_dates(self):
+        old = {'meta': {}, 'landmarks': [], 'sections': [], 'people': [
+            {'id': '@smaller-families', 'kind': 'group'},
+            {'id': 'Father-1', 'kind': 'person', 'parents': [], 'childrenRecorded': []},
+            {'id': 'record-daughter', 'kind': 'person', 'born': 1742, 'parents': []}]}
+        fresh = deepcopy(old)
+        fresh['meta'].update(date='2026-10-17', publicFamilyScopeIds=['record-daughter'],
+                             publicFamilyRelatedIds=['Father-1'])
+        fresh['people'][2].update(born=1743, recordUrl='/people/record-daughter.html',
+                                 catalogueUrl='/people/record-daughter.html', wikitreeUrl='',
+                                 parents=[{'id': 'Father-1', 'role': 'father', 'status': 'proved'}])
+        result = overlay_model(old, fresh)
+        child = next(p for p in result['people'] if p['id'] == 'record-daughter')
+        self.assertEqual(child['recordUrl'], '/people/record-daughter.html')
+        self.assertEqual(child['wikitreeUrl'], '')
+        self.assertEqual(child['born'], 1742)
+        self.assertEqual(child['edge']['parent'], 'Father-1')
+        self.assertEqual(overlay_model(result, fresh), result)
+
     def test_reviewed_family_alias_uses_canonical_account_without_merging_facts(self):
         old = {'meta': {}, 'landmarks': [], 'sections': [], 'people': [
             {'id': '@smaller-families', 'kind': 'group'},
