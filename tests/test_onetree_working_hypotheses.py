@@ -1,6 +1,7 @@
 import json
 import subprocess
 import unittest
+from copy import deepcopy
 
 from tools.approved_restorations import documentary_renderer
 from tools.site_sources.onetree.build import apply_working_hypotheses, apply_working_mothers, apply_recorded_family_restorations
@@ -17,6 +18,91 @@ def assessment(child, father, **extra):
 
 
 class WorkingHypothesisTests(unittest.TestCase):
+    def maternal_replacement_case(self):
+        model = people('Child-1', 'Father-1', 'OldMother-1', 'NewMother-1')
+        model[0]['parents'] = [dict(id='Father-1', role='father', status='uncertain', hypothesis=True),
+                               dict(id='OldMother-1', role='mother', status='unmarked')]
+        model[0]['priorWorkingParents'] = [dict(id='OldFather-1', role='father', status='uncertain')]
+        model[2]['childrenRecorded'] = [dict(id='Child-1', status='unmarked'), dict(id='Other-1')]
+        model[2]['priorWorkingChildren'] = [dict(id='Earlier-1')]
+        alternative = dict(assertion_id='A-old-mother', people=['Child-1', 'OldMother-1'],
+                           publication_status='approved', status='uncertain', lifecycle='alternative',
+                           source_ids=['S-1'], perspectives={'Child-1': {'relationship': 'mother'}})
+        selected = assessment('Child-1', 'NewMother-1', people=['Child-1', 'NewMother-1'],
+                              assertion_id='A-new-mother', source_ids=['S-1'],
+                              working_parent_replacement=dict(previous_parent='OldMother-1',
+                                  alternative_assertion_id='A-old-mother', reason='Preferred sourced family'))
+        selected['perspectives']['Child-1']['relationship'] = 'mother'
+        return model, alternative, selected
+
+    def test_maternal_replacement_preserves_both_parent_histories(self):
+        model, alternative, selected = self.maternal_replacement_case()
+        original = deepcopy(model)
+        self.assertEqual(apply_working_mothers(model, [alternative, selected]), 1)
+        self.assertEqual(model[0]['parents'][0], original[0]['parents'][0])
+        self.assertEqual([r['id'] for r in model[0]['parents']], ['Father-1', 'NewMother-1'])
+        self.assertEqual(model[0]['priorWorkingParents'], original[0]['priorWorkingParents'] + [original[0]['parents'][1]])
+        self.assertEqual(model[2]['childrenRecorded'], [{'id': 'Other-1'}])
+        self.assertEqual(model[2]['priorWorkingChildren'], [{'id': 'Earlier-1'}, {'id': 'Child-1', 'status': 'unmarked'}])
+        self.assertEqual(model[3]['childrenRecorded'][0]['id'], 'Child-1')
+
+    def test_maternal_replacement_rejects_unsafe_or_unretained_parents_atomically(self):
+        def missing_alternative(m, a, s): a['publication_status'] = 'draft'
+        def wrong_role(m, a, s): a['perspectives']['Child-1']['relationship'] = 'father'
+        def wrong_pair(m, a, s): a['people'] = ['Child-1', 'Elsewhere-1']
+        def confident(m, a, s): m[0]['parents'][1]['status'] = 'confident'
+        def withheld(m, a, s): m[0]['parents'][1]['withheld'] = True
+        def absent(m, a, s): m[0]['parents'].pop()
+        def several(m, a, s): m[0]['parents'].append(dict(id='OtherMother-1', role='mother', status='uncertain'))
+        def same_parent(m, a, s): s['working_parent_replacement']['previous_parent'] = 'NewMother-1'
+        def no_reason(m, a, s): s['working_parent_replacement'].pop('reason')
+        def no_source(m, a, s): a['source_ids'] = []
+        def current(m, a, s): a['lifecycle'] = 'current'
+        def wrong_grade(m, a, s): a['status'] = 'proved'
+        for mutate in [missing_alternative, wrong_role, wrong_pair, confident, withheld, absent,
+                       several, same_parent, no_reason, no_source, current, wrong_grade]:
+            with self.subTest(mutate=mutate.__name__):
+                model, alternative, selected = self.maternal_replacement_case()
+                mutate(model, alternative, selected)
+                before = deepcopy(model)
+                with self.assertRaisesRegex(ValueError, 'captured mother'):
+                    apply_working_mothers(model, [alternative, selected])
+                self.assertEqual(model, before)
+
+    def test_maternal_replacement_checks_mixed_ancestry_before_mutation(self):
+        model, alternative, selected = self.maternal_replacement_case()
+        model[3]['parents'] = [dict(id='Child-1', role='father', status='uncertain')]
+        before = deepcopy(model)
+        with self.assertRaisesRegex(ValueError, 'ancestry cycle'):
+            apply_working_mothers(model, [alternative, selected])
+        self.assertEqual(model, before)
+        model, alternative, selected = self.maternal_replacement_case()
+        before = deepcopy(model)
+        duplicate = deepcopy(selected); duplicate['assertion_id'] = 'A-second-selection'
+        with self.assertRaisesRegex(ValueError, 'unique public family'):
+            apply_working_mothers(model, [alternative, selected, duplicate])
+        self.assertEqual(model, before)
+
+    def test_maternal_cycle_check_uses_the_replaced_effective_graph(self):
+        model = people('Child-1', 'Child-2', 'Father-1', 'OldMother-1', 'NewMother-1')
+        model[0]['parents'] = [dict(id='Father-1', role='father', hypothesis=True),
+                               dict(id='Child-2', role='mother', status='uncertain')]
+        model[1]['parents'] = [dict(id='Father-1', role='father', hypothesis=True),
+                               dict(id='OldMother-1', role='mother', status='uncertain')]
+        cases = []
+        for child, old, new in [('Child-1', 'Child-2', 'NewMother-1'), ('Child-2', 'OldMother-1', 'Child-1')]:
+            alt = dict(assertion_id='old-'+child, people=[child, old], publication_status='approved',
+                       status='uncertain', lifecycle='alternative', source_ids=['S-1'],
+                       perspectives={child: {'relationship': 'mother'}})
+            selected = assessment(child, new, people=[child, new], assertion_id='new-'+child,
+                                  source_ids=['S-1'], working_parent_replacement=dict(previous_parent=old,
+                                  alternative_assertion_id=alt['assertion_id'], reason='Reviewed replacement'))
+            selected['perspectives'][child]['relationship'] = 'mother'
+            cases += [alt, selected]
+        self.assertEqual(apply_working_mothers(model, cases), 2)
+        self.assertEqual([r['id'] for r in model[0]['parents'] if r['role'] == 'mother'], ['NewMother-1'])
+        self.assertEqual([r['id'] for r in model[1]['parents'] if r['role'] == 'mother'], ['Child-1'])
+
     def test_parent_explanations_name_the_actual_parent_role(self):
         expression = documentary_renderer("p.parents.map(relationHTML).join('')")
         script = "const esc=s=>s;const relationHTML=r=>'';const p={parents:[{role:'father',hypothesis:true},{role:'mother',hypothesis:true}]};console.log(JSON.stringify(" + expression + "));"

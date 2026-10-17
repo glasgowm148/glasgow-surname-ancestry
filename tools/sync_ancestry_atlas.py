@@ -45,6 +45,13 @@ def overlay_model(retained: dict, fresh: dict) -> dict:
     refresh = selected | set(result['meta'].get('workingOverlayIds', [])) | documentary | reviewed | set(result['meta'].get('reviewedParentReplacementIds', []))
     refresh |= restored | set(result['meta'].get('reviewedFamilyRestorationIds', []))
     existing = {p['id']: p for p in result['people']}
+    mother_ids = set(fresh['meta'].get('workingMotherIds', []))
+    for child, mothers in maternal_scope.items():
+        recorded = [r.get('id') for r in existing.get(child, {}).get('parents', []) if r.get('role') == 'mother']
+        mother_ids |= {mother for mother in mothers if not recorded or mother in recorded}
+    for mother in mother_ids:
+        if mother in incoming and mother not in existing:
+            existing[mother] = deepcopy(incoming[mother])
     for ident in refresh:
         if ident not in incoming:
             raise ValueError('Working subject absent from current public model: ' + ident)
@@ -71,9 +78,14 @@ def overlay_model(retained: dict, fresh: dict) -> dict:
                 rows = [r for r in incoming[ident].get('parents', [])
                         if r.get('role') == 'mother' and r.get('id') == mother]
                 if len(rows) == 1:
-                    existing[ident]['parents'] = [deepcopy(rows[0])
-                        if r.get('role') == 'mother' and r.get('id') == mother else r
-                        for r in existing[ident]['parents']]
+                    if not any(r.get('role') == 'mother' for r in existing[ident]['parents']):
+                        # The fresh scope requires an approved assessment of
+                        # this same captured mother, not a new parent choice.
+                        existing[ident]['parents'].insert(0, deepcopy(rows[0]))
+                    else:
+                        existing[ident]['parents'] = [deepcopy(rows[0])
+                            if r.get('role') == 'mother' and r.get('id') == mother else r
+                            for r in existing[ident]['parents']]
             for key in ('priorPublishedFathers', 'publicFamilySource', 'publicFatherAlternatives'):
                 if key in incoming[ident]:
                     existing[ident][key] = deepcopy(incoming[ident][key])

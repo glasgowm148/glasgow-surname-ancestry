@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+from copy import deepcopy
 from datetime import date
 import json
 from pathlib import Path
@@ -205,6 +206,7 @@ def apply_working_hypotheses(people: list[dict], assessments: list[dict], parent
 def apply_working_mothers(people: list[dict], assessments: list[dict]) -> int:
     """Carry independently selected maternal claims beside a working father."""
     by_id = {p['id']: p for p in people}
+    approved = {a.get('assertion_id'): a for a in assessments if a.get('publication_status') == 'approved'}
     selected = []
     children = set()
     for a in assessments:
@@ -213,13 +215,27 @@ def apply_working_mothers(people: list[dict], assessments: list[dict]) -> int:
                  for mother in a.get('people', []) if mother != child]
         if not pairs or not a.get('working_selection') or a.get('publication_status') != 'approved':
             continue
-        if len(pairs) != 1 or a.get('status') != 'uncertain' or not a.get('allow_new_relationship') or not a.get('source_ids') or not a.get('basis'):
+        if (len(pairs) != 1 or a.get('status') != 'uncertain' or not a.get('allow_new_relationship')
+                or not a.get('assertion_id') or not a.get('source_ids') or not a.get('basis')):
             raise ValueError('Working mother needs one approved uncertain sourced claim')
         child, mother = pairs[0]
         if child not in by_id or mother not in by_id or child in children:
             raise ValueError('Working mother needs unique public family members')
         parents = by_id[child].get('parents', [])
-        if any(r.get('role') == 'mother' for r in parents) or not any(r.get('role') == 'father' and r.get('hypothesis') for r in parents):
+        existing = [r for r in parents if r.get('role') == 'mother']
+        replacement = a.get('working_parent_replacement') or {}
+        if replacement:
+            prior = replacement.get('previous_parent')
+            alternative = approved.get(replacement.get('alternative_assertion_id'), {})
+            if (len(existing) != 1 or existing[0].get('id') != prior or prior == mother
+                    or existing[0].get('status') not in {'uncertain', 'unmarked', 'unknown'}
+                    or not prior or existing[0].get('withheld') or not replacement.get('reason')
+                    or set(alternative.get('people', [])) != {child, prior}
+                    or alternative.get('lifecycle') != 'alternative'
+                    or alternative.get('status') != 'uncertain' or not alternative.get('source_ids')
+                    or alternative.get('perspectives', {}).get(child, {}).get('relationship') != 'mother'):
+                raise ValueError('Working mother replacement requires the captured mother and a retained uncertain alternative')
+        if (existing and not replacement) or not any(r.get('role') == 'father' and r.get('hypothesis') for r in parents):
             raise ValueError('Working mother needs an empty maternal field beside a selected father')
         children.add(child)
         selected.append((child, mother, a))
@@ -233,11 +249,24 @@ def apply_working_mothers(people: list[dict], assessments: list[dict]) -> int:
             if node in seen:
                 continue
             seen.add(node)
-            pending.extend(r.get('id') for r in by_id.get(node, {}).get('parents', []) if r.get('id'))
+            pending.extend(r.get('id') for r in by_id.get(node, {}).get('parents', [])
+                           if r.get('id') and not (node in proposed and r.get('role') == 'mother'))
             if node in proposed:
                 pending.append(proposed[node])
     # Validate all choices before changing either side of the family.
     for child, mother, a in selected:
+        replacement = a.get('working_parent_replacement') or {}
+        if replacement:
+            prior = replacement['previous_parent']
+            by_id[child].setdefault('priorWorkingParents', []).extend(
+                deepcopy(r) for r in by_id[child]['parents'] if r.get('role') == 'mother')
+            by_id[child]['parents'] = [r for r in by_id[child]['parents'] if r.get('role') != 'mother']
+            if prior in by_id:
+                previous = by_id[prior].get('childrenRecorded', [])
+                history = by_id[prior].setdefault('priorWorkingChildren', [])
+                history.extend(deepcopy(r) for r in previous if r.get('id') == child
+                               and not any(h.get('id') == child for h in history))
+                by_id[prior]['childrenRecorded'] = [r for r in previous if r.get('id') != child]
         by_id[child]['parents'].append(dict(id=mother, name=by_id[mother]['name'], role='mother', status='uncertain',
             inModel=True, reason=a['basis'], source='local_working_hypothesis', assertion_id=a['assertion_id'],
             analysis_links=a.get('analysis_links') or [], hypothesis=True))

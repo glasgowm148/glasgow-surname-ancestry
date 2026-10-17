@@ -6,6 +6,66 @@ from tools.sync_ancestry_atlas import overlay_model
 
 
 class AtlasWorkingTests(unittest.TestCase):
+    def test_scoped_recorded_mother_missing_from_main_is_restored(self):
+        old = {'meta': {}, 'landmarks': [], 'sections': [], 'people': [
+            {'id': '@smaller-families', 'kind': 'group'},
+            {'id': 'Child-1', 'kind': 'person', 'parents': [
+                {'id': 'Father-1', 'role': 'father', 'status': 'confident'}]},
+            {'id': 'Father-1', 'kind': 'person', 'childrenRecorded': [{'id': 'Child-1'}]}]}
+        fresh = deepcopy(old)
+        fresh['meta'].update(date='2026-10-17', publicFamilyScopeIds=['Child-1'],
+                             publicFamilyRelatedIds=['Father-1', 'Mother-1'],
+                             publicMotherGradeScope={'Child-1': ['Mother-1']})
+        fresh['people'][1]['parents'].append(dict(id='Mother-1', role='mother', status='proved'))
+        fresh['people'].append(dict(id='Mother-1', kind='person', parents=[], name='Recorded mother',
+                                   childrenRecorded=[{'id': 'Child-1'}], edge={'parent': '@smaller-families'}))
+        out = overlay_model(old, fresh)
+        people = {p['id']: p for p in out['people']}
+        self.assertCountEqual(people['Child-1']['parents'], fresh['people'][1]['parents'])
+        self.assertEqual(people['Mother-1']['childrenRecorded'], [{'id': 'Child-1'}])
+        self.assertEqual(overlay_model(out, fresh), out)
+        # A reviewed grade for another captured mother cannot replace a
+        # different mother retained in the main model.
+        old['people'][1]['parents'].append(dict(id='OtherMother-1', role='mother', status='confident'))
+        protected = overlay_model(old, fresh)
+        self.assertEqual(protected['people'][1]['parents'][0]['id'], 'OtherMother-1')
+        self.assertNotIn('Mother-1', {p['id'] for p in protected['people']})
+
+    def test_maternal_replacement_keeps_reciprocal_history_in_main_atlas(self):
+        old = {'meta': {}, 'landmarks': [], 'sections': [], 'dna': {'approved': ['retain']}, 'people': [
+            {'id': 'Child-1', 'kind': 'person', 'parents': [
+                {'id': 'OldFather-1', 'role': 'father', 'status': 'uncertain'},
+                {'id': 'OldMother-1', 'role': 'mother', 'status': 'unmarked'}]},
+            {'id': 'OldFather-1', 'kind': 'person', 'childrenRecorded': [{'id': 'Child-1'}]},
+            {'id': 'OldMother-1', 'kind': 'person', 'note': 'Approved mother account',
+             'childrenRecorded': [{'id': 'Child-1'}, {'id': 'Other-1'}]},
+            {'id': 'NewFather-1', 'kind': 'person', 'childrenRecorded': []},
+            {'id': 'NewMother-1', 'kind': 'person', 'childrenRecorded': []}]}
+        fresh = deepcopy(old)
+        fresh['meta'].update(date='2026-10-17', workingParentAlternativeIds=['OldFather-1', 'OldMother-1'],
+                             workingMotherIds=['NewMother-1'])
+        fresh['people'][0].update(parents=[
+            dict(id='NewFather-1', role='father', status='uncertain', hypothesis=True),
+            dict(id='NewMother-1', role='mother', status='uncertain', hypothesis=True)],
+            edge=dict(parent='NewFather-1', type='hypothesis'),
+            priorWorkingParents=deepcopy(old['people'][0]['parents']))
+        fresh['people'][1].update(childrenRecorded=[], priorWorkingChildren=[{'id': 'Child-1'}])
+        fresh['people'][2].update(childrenRecorded=[{'id': 'Other-1'}], priorWorkingChildren=[{'id': 'Child-1'}],
+                                  note='Short import')
+        fresh['people'][3]['childrenRecorded'] = [{'id': 'Child-1'}]
+        fresh['people'][4]['childrenRecorded'] = [{'id': 'Child-1'}]
+        out = overlay_model(old, fresh)
+        people = {p['id']: p for p in out['people']}
+        self.assertEqual(people['Child-1']['parents'], fresh['people'][0]['parents'])
+        self.assertEqual(people['Child-1']['priorWorkingParents'], old['people'][0]['parents'])
+        self.assertEqual(people['OldMother-1']['childrenRecorded'], [{'id': 'Other-1'}])
+        self.assertEqual(people['OldMother-1']['priorWorkingChildren'], [{'id': 'Child-1'}])
+        self.assertEqual(people['OldMother-1']['note'], 'Approved mother account')
+        self.assertEqual(people['OldFather-1']['priorWorkingChildren'], [{'id': 'Child-1'}])
+        self.assertEqual(people['NewMother-1']['childrenRecorded'], [{'id': 'Child-1'}])
+        self.assertEqual(out['dna'], old['dna'])
+        self.assertEqual(overlay_model(out, fresh), out)
+
     def test_existing_mother_grade_is_scoped_reciprocal_and_reversible(self):
         old = {'meta': {}, 'landmarks': [], 'sections': [], 'people': [
             {'id': '@smaller-families', 'kind': 'group'},
