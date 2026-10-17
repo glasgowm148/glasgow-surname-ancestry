@@ -3484,6 +3484,69 @@ def _likely_living(metas: list[dict], rows: list[dict]) -> bool:
     return privacy_likely_living(*metas, *rows)
 
 
+def _captured_parent_relations(profile_ids, role, evidence_profiles, evidence_numeric_ids, profiles):
+    """Resolve parent roles without losing a named parent after a merge.
+
+    A capture's numeric parent field can predate its named Parents snapshot.
+    With one role resolved, the sole other named parent has the opposite role;
+    two unresolved parents provide no such evidence. Parent-list order and
+    gender are never used to guess the role.
+    """
+    found = {}
+    field = "Father" if role == "father" else "Mother"
+    other_field = "Mother" if role == "father" else "Father"
+    for profile_id in profile_ids:
+        capture = evidence_profiles.get(profile_id, {})
+        if not public_capture(capture) or privacy_likely_living(capture):
+            continue
+        fields = capture.get("profile_fields", {})
+        numeric_id = str(fields.get(field) or "")
+        if not numeric_id or numeric_id == "0":
+            continue
+        parents = capture.get("relations", {}).get("parents", [])
+        relation_id = evidence_numeric_ids.get(numeric_id)
+        relation = next((item for item in parents if item.get("id") == relation_id), None)
+        if not relation_id:
+            candidates = {item["id"]: item for item in parents
+                          if item.get("id") and not item.get("withheld")}
+            other_value = fields.get(other_field)
+            other_numeric = str(other_value) if other_value is not None else ""
+            other_id = evidence_numeric_ids.get(other_numeric) if other_numeric and other_numeric != "0" else None
+            if other_id in candidates:
+                candidates.pop(other_id)
+            elif other_numeric != "0":
+                candidates = {}
+            relation = next(iter(candidates.values())) if len(candidates) == 1 else None
+            relation_id = relation.get("id") if relation else None
+            target_capture = evidence_profiles.get(relation_id, {})
+            if not public_capture(target_capture) or privacy_likely_living(target_capture):
+                continue
+        if not relation_id:
+            continue
+        found[relation_id] = {"id": relation_id, "name": (relation or {}).get("name") or relation_id,
+                              "withheld": False, "outside_export": relation_id not in profiles,
+                              "data_status": str(fields.get("DataStatus", {}).get(field) or ""),
+                              "numeric_id": numeric_id}
+    return list(found.values())
+
+
+def _merge_captured_parents(existing, captured):
+    """Replace an unresolved numeric placeholder only with its named parent."""
+    merged = [dict(row) for row in existing]
+    for parent in captured:
+        numeric_id = str(parent.get("numeric_id") or "")
+        if any(row.get("withheld") and str(row.get("numeric_id") or "") == numeric_id
+               for row in merged):
+            continue
+        if any(row.get("id") == parent["id"] for row in merged):
+            continue
+        merged = [row for row in merged if not (
+            not row.get("id") and numeric_id
+            and str(row.get("numeric_id") or "") == numeric_id)]
+        merged.append(parent)
+    return merged
+
+
 def _load_wikitree_evidence() -> dict:
     if not WIKITREE_PROFILE_EVIDENCE.exists():
         return {"schema_version": 1, "profiles": {}}
@@ -3515,34 +3578,7 @@ def _build_people(records: list[dict], profiles: dict[str, dict], edges: list[li
     }
 
     def captured_parent_relations(profile_ids: list[str], role: str) -> list[dict]:
-        """Recover newer live parents that have not reached the map export yet."""
-        found = {}
-        field = "Father" if role == "father" else "Mother"
-        for profile_id in profile_ids:
-            capture = evidence_profiles.get(profile_id, {})
-            if not public_capture(capture):
-                continue
-            profile_fields = capture.get("profile_fields", {})
-            numeric_id = str(profile_fields.get(field) or "")
-            if not numeric_id or numeric_id == "0":
-                continue
-            relation_id = evidence_numeric_ids.get(numeric_id)
-            parents = capture.get("relations", {}).get("parents", [])
-            relation = next((item for item in parents if item.get("id") == relation_id), None)
-            if relation is None and len(parents) == 1:
-                relation = parents[0]
-                relation_id = relation.get("id")
-            if not relation_id:
-                continue
-            found[relation_id] = {
-                "id": relation_id,
-                "name": (relation or {}).get("name") or relation_id,
-                "withheld": False,
-                "outside_export": relation_id not in profiles,
-                "data_status": str(profile_fields.get("DataStatus", {}).get(field) or ""),
-                "numeric_id": numeric_id,
-            }
-        return list(found.values())
+        return _captured_parent_relations(profile_ids, role, evidence_profiles, evidence_numeric_ids, profiles)
     given_name_genders = defaultdict(Counter)
     for profile in profiles.values():
         gender = profile.get("gender", "")
@@ -3649,12 +3685,8 @@ def _build_people(records: list[dict], profiles: dict[str, dict], edges: list[li
         children = _relations(profile_ids, profiles, "children")
         fathers = _relations(profile_ids, profiles, "father_profile")
         mothers = _relations(profile_ids, profiles, "mother_profile")
-        for relation in captured_parent_relations(profile_ids, "father"):
-            if relation["id"] not in {item.get("id") for item in fathers}:
-                fathers.append(relation)
-        for relation in captured_parent_relations(profile_ids, "mother"):
-            if relation["id"] not in {item.get("id") for item in mothers}:
-                mothers.append(relation)
+        fathers = _merge_captured_parents(fathers, captured_parent_relations(profile_ids, "father"))
+        mothers = _merge_captured_parents(mothers, captured_parent_relations(profile_ids, "mother"))
         derived_children_count = len(children)
         reported_counts = _unique(meta.get("profile_children_count") for meta in metas)
         has_children = any(meta.get("has_children") for meta in metas)
