@@ -3304,6 +3304,151 @@
           "live_flag_changed": false
         }
       ]
+    },
+    {
+      "id": "gordon-household-confidence",
+      "year": 1663,
+      "title": "Polwarth and Gordon: one probable James–Agnes household",
+      "status": "One probable household; named baptism father documented; Agnes probable mother",
+      "people": [
+        {
+          "name": "James Glasgow, Polwarth and Gordon",
+          "url": "/people/glasgow-3107.html"
+        },
+        {
+          "name": "Agnes Watt (Waitte)",
+          "url": "/people/watt-5185.html"
+        },
+        {
+          "name": "John Glasgow, 1666 Gordon child",
+          "url": "/people/glasgow-3117.html"
+        },
+        {
+          "name": "Patrick Glasgow, 1667 Gordon child",
+          "url": "/people/glasgow-1440.html"
+        },
+        {
+          "name": "Jean Glasgow, 1671 Gordon child",
+          "url": "/people/glasgow-3364.html"
+        },
+        {
+          "name": "Robert Glasgow, 1673 Gordon child",
+          "url": "/people/glasgow-3106.html"
+        },
+        {
+          "name": "Agnes Glasgow, 1676 Gordon child",
+          "url": "/people/glasgow-3363.html"
+        },
+        {
+          "name": "Margaret Glasgow, 1679 Gordon child",
+          "url": "/people/glasgow-3365.html"
+        }
+      ],
+      "basis": "Prefer one household: James Glasgow, indexed with Agnes Waitte at Polwarth on 18 June 1663, is probably the James who fathered the Gordon children John (1666), Patrike (1667), Jean (1671), Robert (1673), Agnes (1676) and Margrat (1679). The father’s repeated full name, the neighbouring Berwickshire parishes, the first child three years after marriage and the orderly thirteen-year child sequence form a coherent family. The daughter Agnes supplies modest naming support; it is not the deciding evidence. The maintained 1702 Gordon marriage citation for Jean also names father James, adding a compatible adult continuation for her. Read together, these favour a single local family over six isolated fathers or an unrelated Polwarth couple. No concrete competing contemporary Gordon James household has been identified in the maintained material. That is the scope of this comparison, not a claim to have exhausted the population.",
+      "next_test": "Check original Gordon entries for mother, residence, occupation and sponsors; reconcile John’s place and Patrick/Robert date conflicts. Seek a parent or movement bridge for James separately.",
+      "sources": [
+        {
+          "label": "ScotlandsPeople, OPR banns and marriages, James Glasgow and Agnes Waitte, Polwarth, 18 June 1663, 754/10/62, FR37; supplied index reviewed 10 September 2026",
+          "url": "https://www.scotlandspeople.gov.uk/search-records/church-registers"
+        },
+        {
+          "label": "FamilySearch, Scotland Marriages, James Glasgow and Agnes Waitte, Polwarth, 18 June 1663, XTL8-X6D; maintained marriage-index citation",
+          "url": "https://familysearch.org/ark:/61903/1:1:XTL8-X6D"
+        },
+        {
+          "label": "John Glasgow, 1666 Gordon child, 29 April 1666; father James Glasgow; FamilySearch XTBS-Z9H; Gordon baptism index; previously accepted derivative parish index",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:XTBS-Z9H"
+        },
+        {
+          "label": "Patrick Glasgow, 1667 Gordon child, 4 August 1667; father James Glasgow; Gordon OPR 742/10/140; previously accepted derivative parish index",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:XTBS-98C"
+        },
+        {
+          "label": "Jean Glasgow, 1671 Gordon child, 16 April 1671; father James Glasgow; Gordon OPR 742/10/184; previously accepted derivative parish index",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:XYLM-Y4C"
+        },
+        {
+          "label": "Robert Glasgow, 1673 Gordon child, 1 April 1673; father James Glasgow; Gordon OPR 742/10/201; previously accepted derivative parish index",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:XYHJ-3RM"
+        },
+        {
+          "label": "Agnes Glasgow, 1676 Gordon child, 29 October 1676; father James Glasgow; Gordon OPR 742/10/236; previously accepted derivative parish index",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:XYLM-Y44"
+        },
+        {
+          "label": "Margaret Glasgow, 1679 Gordon child, 24 May 1679; father James Glasgow; Gordon OPR 742/10/299; previously accepted derivative parish index",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:XYL9-Q3K"
+        },
+        {
+          "label": "FamilySearch, Jean Glasgow and John Smith, Gordon, 3 June 1702; father James Glasgow; maintained citation, XTLH-1MB",
+          "url": "https://familysearch.org/ark:/61903/1:1:XTLH-1MB"
+        }
+      ],
+      "counted_as_new_connection": true,
+      "reviewed": "2026-10-17",
+      "parent_grade_changes": [
+        {
+          "subject_id": "Glasgow-3117",
+          "relative_id": "Glasgow-3107",
+          "relationship": "father",
+          "before": "unmarked",
+          "after": "certain",
+          "assertion_id": "C-review-20261017-gordon-glasgow-3117-father",
+          "new_attachment": false,
+          "live_flag_changed": false,
+          "subject": "John Glasgow, 1666 Gordon child",
+          "relative": "James Glasgow, Polwarth and Gordon",
+          "assessment_after": "proved",
+          "scope": "Record-defined Gordon child and named father; Polwarth husband identity probable",
+          "explanation": "Prefer one household: James Glasgow, indexed with Agnes Waitte at Polwarth on 18 June 1663, is probably the James who fathered the Gordon children John (1666), Patrike (1667), Jean (1671), Robert (1673), Agnes (1676) and Margrat (1679). The father’s repeated full name, the neighbouring Berwickshire parishes, the first child three years after marriage and the orderly thirteen-year child sequence form a coherent family. The daughter Agnes supplies modest naming support; it is not the deciding evidence. The maintained 1702 Gordon marriage citation for Jean also names father James, adding a compatible adult continuation for her. Read together, these favour a single local family over six isolated fathers or an unrelated Polwarth couple. No concrete competing contemporary Gordon James household has been identified in the maintained material. That is the scope of this comparison, not a claim to have exhausted the population. The child indexes explicitly name James as father but omit the mother. Their named-father roles are documented for the record-defined children; identifying that father with the 1663 Polwarth husband is probable. Agnes Watt is separately assessed as probable mother of all six children on the marriage, locality and sustained family sequence. This is an inference, not literal maternity in the indexes; a later marriage or another local James remains possible. Jean’s later marriage and the later adult identities of John and Patrick remain separately assessed. Patrick’s proposed Kilclone son and migration, James’s own John Glasgow-1084 ancestry and the unrelated Kilwaughter James are not strengthened. No original register image was newly inspected: this review combines the previously accepted index entries and maintained citations.",
+          "previous_status_provenance": [
+            "Saved public parent row had unknown local assessment and explicitly unmarked father flag before this review."
+          ]
+        },
+        {
+          "subject_id": "Glasgow-3364",
+          "relative_id": "Glasgow-3107",
+          "relationship": "father",
+          "before": "unmarked",
+          "after": "certain",
+          "assertion_id": "C-review-20261017-gordon-glasgow-3364-father",
+          "new_attachment": false,
+          "live_flag_changed": false,
+          "subject": "Jean Glasgow, 1671 Gordon child",
+          "relative": "James Glasgow, Polwarth and Gordon",
+          "assessment_after": "proved",
+          "scope": "Record-defined Gordon child and named father; Polwarth husband identity probable",
+          "explanation": "Prefer one household: James Glasgow, indexed with Agnes Waitte at Polwarth on 18 June 1663, is probably the James who fathered the Gordon children John (1666), Patrike (1667), Jean (1671), Robert (1673), Agnes (1676) and Margrat (1679). The father’s repeated full name, the neighbouring Berwickshire parishes, the first child three years after marriage and the orderly thirteen-year child sequence form a coherent family. The daughter Agnes supplies modest naming support; it is not the deciding evidence. The maintained 1702 Gordon marriage citation for Jean also names father James, adding a compatible adult continuation for her. Read together, these favour a single local family over six isolated fathers or an unrelated Polwarth couple. No concrete competing contemporary Gordon James household has been identified in the maintained material. That is the scope of this comparison, not a claim to have exhausted the population. The child indexes explicitly name James as father but omit the mother. Their named-father roles are documented for the record-defined children; identifying that father with the 1663 Polwarth husband is probable. Agnes Watt is separately assessed as probable mother of all six children on the marriage, locality and sustained family sequence. This is an inference, not literal maternity in the indexes; a later marriage or another local James remains possible. Jean’s later marriage and the later adult identities of John and Patrick remain separately assessed. Patrick’s proposed Kilclone son and migration, James’s own John Glasgow-1084 ancestry and the unrelated Kilwaughter James are not strengthened. No original register image was newly inspected: this review combines the previously accepted index entries and maintained citations.",
+          "previous_status_provenance": [
+            "Saved public parent row had unknown local assessment and explicitly unmarked father flag before this review."
+          ]
+        },
+        {
+          "subject_id": "Glasgow-3365",
+          "relative_id": "Glasgow-3107",
+          "relationship": "father",
+          "before": "unmarked",
+          "after": "certain",
+          "assertion_id": "C-review-20261017-gordon-glasgow-3365-father",
+          "new_attachment": false,
+          "live_flag_changed": false,
+          "subject": "Margaret Glasgow, 1679 Gordon child",
+          "relative": "James Glasgow, Polwarth and Gordon",
+          "assessment_after": "proved",
+          "scope": "Record-defined Gordon child and named father; Polwarth husband identity probable",
+          "explanation": "Prefer one household: James Glasgow, indexed with Agnes Waitte at Polwarth on 18 June 1663, is probably the James who fathered the Gordon children John (1666), Patrike (1667), Jean (1671), Robert (1673), Agnes (1676) and Margrat (1679). The father’s repeated full name, the neighbouring Berwickshire parishes, the first child three years after marriage and the orderly thirteen-year child sequence form a coherent family. The daughter Agnes supplies modest naming support; it is not the deciding evidence. The maintained 1702 Gordon marriage citation for Jean also names father James, adding a compatible adult continuation for her. Read together, these favour a single local family over six isolated fathers or an unrelated Polwarth couple. No concrete competing contemporary Gordon James household has been identified in the maintained material. That is the scope of this comparison, not a claim to have exhausted the population. The child indexes explicitly name James as father but omit the mother. Their named-father roles are documented for the record-defined children; identifying that father with the 1663 Polwarth husband is probable. Agnes Watt is separately assessed as probable mother of all six children on the marriage, locality and sustained family sequence. This is an inference, not literal maternity in the indexes; a later marriage or another local James remains possible. Jean’s later marriage and the later adult identities of John and Patrick remain separately assessed. Patrick’s proposed Kilclone son and migration, James’s own John Glasgow-1084 ancestry and the unrelated Kilwaughter James are not strengthened. No original register image was newly inspected: this review combines the previously accepted index entries and maintained citations.",
+          "previous_status_provenance": [
+            "Saved public parent row had unknown local assessment and explicitly unmarked father flag before this review."
+          ]
+        }
+      ],
+      "record_references": [
+        "Polwarth OPR 754/10/62, FR37, James Glasgow and Agnes Waitte, 18 June 1663",
+        "Gordon parish 742, child indexes 1666–1679; OPR 10/140, 10/184, 10/201, 10/236 and 10/299; John indexed at FamilySearch XTBS-Z9H",
+        "Jean/John Smith, Gordon, 3 June 1702, FamilySearch XTLH-1MB"
+      ],
+      "paternal_connections_added": 0,
+      "maternal_connections_added": 1
     }
   ],
   "source_basis": "Initial priorities reconcile existing medieval bridge research, the pre-1550 relationship audit and the resolved public catalogue. They are current working comparisons, not newly discovered kinship records."

@@ -104,8 +104,8 @@ def overlay_model(retained: dict, fresh: dict) -> dict:
                         if r.get('role') == 'mother' and r.get('id') == mother]
                 if len(rows) == 1:
                     if not any(r.get('role') == 'mother' for r in existing[ident]['parents']):
-                        # The fresh scope requires an approved assessment of
-                        # this same captured mother, not a new parent choice.
+                        # Fresh scope requires an approved assessment, including
+                        # explicit sourced approval for a new maternal link.
                         existing[ident]['parents'].insert(0, deepcopy(rows[0]))
                     else:
                         existing[ident]['parents'] = [deepcopy(rows[0])

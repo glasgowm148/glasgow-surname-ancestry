@@ -1,0 +1,193 @@
+{
+  "reviewed": "2026-10-17",
+  "case_url": "/branches/early-scottish-records/#chapter-gordon-household-confidence",
+  "relationship_reviews": [
+    {
+      "subject_id": "Glasgow-3117",
+      "relative_id": "Glasgow-3107",
+      "relationship": "father",
+      "before": "unmarked",
+      "after": "proved",
+      "assertion_id": "C-review-20261017-gordon-glasgow-3117-father",
+      "new_attachment": false,
+      "live_flag_changed": false
+    },
+    {
+      "subject_id": "Glasgow-3117",
+      "relative_id": "Watt-5185",
+      "relationship": "mother",
+      "before": "unknown",
+      "after": "probable",
+      "assertion_id": "C-review-20261017-gordon-glasgow-3117-mother",
+      "new_attachment": true,
+      "live_flag_changed": false
+    },
+    {
+      "subject_id": "Glasgow-1440",
+      "relative_id": "Glasgow-3107",
+      "relationship": "father",
+      "before": "confident",
+      "after": "proved",
+      "assertion_id": "C-review-20261017-gordon-glasgow-1440-father",
+      "new_attachment": false,
+      "live_flag_changed": false
+    },
+    {
+      "subject_id": "Glasgow-1440",
+      "relative_id": "Watt-5185",
+      "relationship": "mother",
+      "before": "unmarked",
+      "after": "probable",
+      "assertion_id": "C-review-20261017-gordon-glasgow-1440-mother",
+      "new_attachment": false,
+      "live_flag_changed": false
+    },
+    {
+      "subject_id": "Glasgow-3364",
+      "relative_id": "Glasgow-3107",
+      "relationship": "father",
+      "before": "unmarked",
+      "after": "proved",
+      "assertion_id": "C-review-20261017-gordon-glasgow-3364-father",
+      "new_attachment": false,
+      "live_flag_changed": false
+    },
+    {
+      "subject_id": "Glasgow-3364",
+      "relative_id": "Watt-5185",
+      "relationship": "mother",
+      "before": "unmarked",
+      "after": "probable",
+      "assertion_id": "C-review-20261017-gordon-glasgow-3364-mother",
+      "new_attachment": false,
+      "live_flag_changed": false
+    },
+    {
+      "subject_id": "Glasgow-3106",
+      "relative_id": "Glasgow-3107",
+      "relationship": "father",
+      "before": "confident",
+      "after": "proved",
+      "assertion_id": "C-review-20261017-gordon-glasgow-3106-father",
+      "new_attachment": false,
+      "live_flag_changed": false
+    },
+    {
+      "subject_id": "Glasgow-3106",
+      "relative_id": "Watt-5185",
+      "relationship": "mother",
+      "before": "unmarked",
+      "after": "probable",
+      "assertion_id": "C-review-20261017-gordon-glasgow-3106-mother",
+      "new_attachment": false,
+      "live_flag_changed": false
+    },
+    {
+      "subject_id": "Glasgow-3363",
+      "relative_id": "Glasgow-3107",
+      "relationship": "father",
+      "before": "confident",
+      "after": "proved",
+      "assertion_id": "C-review-20261017-gordon-glasgow-3363-father",
+      "new_attachment": false,
+      "live_flag_changed": false
+    },
+    {
+      "subject_id": "Glasgow-3363",
+      "relative_id": "Watt-5185",
+      "relationship": "mother",
+      "before": "confident",
+      "after": "probable",
+      "assertion_id": "C-review-20261017-gordon-glasgow-3363-mother",
+      "new_attachment": false,
+      "live_flag_changed": false
+    },
+    {
+      "subject_id": "Glasgow-3365",
+      "relative_id": "Glasgow-3107",
+      "relationship": "father",
+      "before": "unmarked",
+      "after": "proved",
+      "assertion_id": "C-review-20261017-gordon-glasgow-3365-father",
+      "new_attachment": false,
+      "live_flag_changed": false
+    },
+    {
+      "subject_id": "Glasgow-3365",
+      "relative_id": "Watt-5185",
+      "relationship": "mother",
+      "before": "unmarked",
+      "after": "probable",
+      "assertion_id": "C-review-20261017-gordon-glasgow-3365-mother",
+      "new_attachment": false,
+      "live_flag_changed": false
+    }
+  ],
+  "newly_documented_record_father_roles": 3,
+  "already_confident_father_roles": 3,
+  "probable_maternal_assessments": 6,
+  "new_maternal_attachment": "Glasgow-3117 -> Watt-5185",
+  "working_child_side_profiles": 43,
+  "paternal_topology_unchanged": true,
+  "raw_wikitree_fields_unchanged": true,
+  "source_scope": "Previously accepted parish indexes and maintained citations; no new original inspection",
+  "remaining_largest_joins": [
+    {
+      "child": "Glasgow-1157",
+      "father": "Glasgow-1557",
+      "status": "uncertain",
+      "reason": "The recorded Virginian candidate is Glascocke; no reviewed Scotland-parent bridge. Existing tree attachment preserved."
+    }
+  ],
+  "source_references": [
+    {
+      "title": "ScotlandsPeople, OPR banns and marriages, James Glasgow and Agnes Waitte, Polwarth, 18 June 1663, 754/10/62, FR37; supplied index reviewed 10 September 2026",
+      "url": "https://www.scotlandspeople.gov.uk/search-records/church-registers"
+    },
+    {
+      "title": "FamilySearch, Scotland Marriages, James Glasgow and Agnes Waitte, Polwarth, 18 June 1663, XTL8-X6D; maintained marriage-index citation",
+      "url": "https://familysearch.org/ark:/61903/1:1:XTL8-X6D"
+    },
+    {
+      "title": "John Glasgow, 1666 Gordon child, 29 April 1666; father James Glasgow; FamilySearch XTBS-Z9H; Gordon baptism index; previously accepted derivative parish index",
+      "url": "https://www.familysearch.org/ark:/61903/1:1:XTBS-Z9H"
+    },
+    {
+      "title": "Patrick Glasgow, 1667 Gordon child, 4 August 1667; father James Glasgow; Gordon OPR 742/10/140; previously accepted derivative parish index",
+      "url": "https://www.familysearch.org/ark:/61903/1:1:XTBS-98C"
+    },
+    {
+      "title": "Jean Glasgow, 1671 Gordon child, 16 April 1671; father James Glasgow; Gordon OPR 742/10/184; previously accepted derivative parish index",
+      "url": "https://www.familysearch.org/ark:/61903/1:1:XYLM-Y4C"
+    },
+    {
+      "title": "Robert Glasgow, 1673 Gordon child, 1 April 1673; father James Glasgow; Gordon OPR 742/10/201; previously accepted derivative parish index",
+      "url": "https://www.familysearch.org/ark:/61903/1:1:XYHJ-3RM"
+    },
+    {
+      "title": "Agnes Glasgow, 1676 Gordon child, 29 October 1676; father James Glasgow; Gordon OPR 742/10/236; previously accepted derivative parish index",
+      "url": "https://www.familysearch.org/ark:/61903/1:1:XYLM-Y44"
+    },
+    {
+      "title": "Margaret Glasgow, 1679 Gordon child, 24 May 1679; father James Glasgow; Gordon OPR 742/10/299; previously accepted derivative parish index",
+      "url": "https://www.familysearch.org/ark:/61903/1:1:XYL9-Q3K"
+    },
+    {
+      "title": "FamilySearch, Jean Glasgow and John Smith, Gordon, 3 June 1702; father James Glasgow; maintained citation, XTLH-1MB",
+      "url": "https://familysearch.org/ark:/61903/1:1:XTLH-1MB"
+    }
+  ],
+  "genealogical_connections_added": 1,
+  "paternal_connections_added": 0,
+  "maternal_connections_added": 1,
+  "candidate_checks": [
+    {
+      "reviewed": "2026-10-17",
+      "scope": "Current 4,800-row public catalogue: name begins James; Gordon or Polwarth in own birth location, death location or recorded-in fields. Narrative mentions of relatives and later hypothetical migrations excluded.",
+      "result": [
+        "Glasgow-3107"
+      ],
+      "limitation": "Catalogue coverage with known own locality only; men without that place recorded remain possible. This is not an exhaustive parish-register search."
+    }
+  ]
+}

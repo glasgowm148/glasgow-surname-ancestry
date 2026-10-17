@@ -1,0 +1,223 @@
+{
+  "schema_version": 1,
+  "reviewed": "2026-10-17",
+  "cutoff": 1850,
+  "method_version": 3,
+  "scope": "Polwarth and Gordon: one probable James–Agnes household",
+  "input_fingerprint": "d1c65c7c2a946e0bbbeffefe79c82c842d9dc4f609f57b128ff20dfb2799129d",
+  "models": {
+    "main": {
+      "checked_historical_profiles": 1777,
+      "all_profiles_checked": 4520,
+      "matched_paternal_edges": 1358,
+      "changed_father_fields": 0,
+      "changed_mother_fields": 1,
+      "parent_grade_changes": 11,
+      "added_historical_profiles": [],
+      "all_other_parent_rows_unchanged": true,
+      "gordon_working_child_side_profiles": 43,
+      "held_four_father_cases_unchanged": true
+    },
+    "standalone": {
+      "checked_historical_profiles": 1777,
+      "all_profiles_checked": 4671,
+      "matched_paternal_edges": 1358,
+      "changed_father_fields": 0,
+      "changed_mother_fields": 1,
+      "parent_grade_changes": 11,
+      "added_historical_profiles": [],
+      "all_other_parent_rows_unchanged": true,
+      "gordon_working_child_side_profiles": 43,
+      "held_four_father_cases_unchanged": true
+    }
+  },
+  "genealogical_connections_added": 1,
+  "paternal_connections_added": 0,
+  "maternal_connections_added": 1,
+  "certainty_upgrades": 3,
+  "parent_grade_changes": [
+    {
+      "subject_id": "Glasgow-3117",
+      "relative_id": "Glasgow-3107",
+      "relationship": "father",
+      "before": "unmarked",
+      "after": "proved",
+      "assertion_id": "C-review-20261017-gordon-glasgow-3117-father",
+      "new_attachment": false,
+      "live_flag_changed": false
+    },
+    {
+      "subject_id": "Glasgow-3117",
+      "relative_id": "Watt-5185",
+      "relationship": "mother",
+      "before": "unknown",
+      "after": "probable",
+      "assertion_id": "C-review-20261017-gordon-glasgow-3117-mother",
+      "new_attachment": true,
+      "live_flag_changed": false
+    },
+    {
+      "subject_id": "Glasgow-1440",
+      "relative_id": "Glasgow-3107",
+      "relationship": "father",
+      "before": "confident",
+      "after": "proved",
+      "assertion_id": "C-review-20261017-gordon-glasgow-1440-father",
+      "new_attachment": false,
+      "live_flag_changed": false
+    },
+    {
+      "subject_id": "Glasgow-1440",
+      "relative_id": "Watt-5185",
+      "relationship": "mother",
+      "before": "unmarked",
+      "after": "probable",
+      "assertion_id": "C-review-20261017-gordon-glasgow-1440-mother",
+      "new_attachment": false,
+      "live_flag_changed": false
+    },
+    {
+      "subject_id": "Glasgow-3364",
+      "relative_id": "Glasgow-3107",
+      "relationship": "father",
+      "before": "unmarked",
+      "after": "proved",
+      "assertion_id": "C-review-20261017-gordon-glasgow-3364-father",
+      "new_attachment": false,
+      "live_flag_changed": false
+    },
+    {
+      "subject_id": "Glasgow-3364",
+      "relative_id": "Watt-5185",
+      "relationship": "mother",
+      "before": "unmarked",
+      "after": "probable",
+      "assertion_id": "C-review-20261017-gordon-glasgow-3364-mother",
+      "new_attachment": false,
+      "live_flag_changed": false
+    },
+    {
+      "subject_id": "Glasgow-3106",
+      "relative_id": "Glasgow-3107",
+      "relationship": "father",
+      "before": "confident",
+      "after": "proved",
+      "assertion_id": "C-review-20261017-gordon-glasgow-3106-father",
+      "new_attachment": false,
+      "live_flag_changed": false
+    },
+    {
+      "subject_id": "Glasgow-3106",
+      "relative_id": "Watt-5185",
+      "relationship": "mother",
+      "before": "unmarked",
+      "after": "probable",
+      "assertion_id": "C-review-20261017-gordon-glasgow-3106-mother",
+      "new_attachment": false,
+      "live_flag_changed": false
+    },
+    {
+      "subject_id": "Glasgow-3363",
+      "relative_id": "Glasgow-3107",
+      "relationship": "father",
+      "before": "confident",
+      "after": "proved",
+      "assertion_id": "C-review-20261017-gordon-glasgow-3363-father",
+      "new_attachment": false,
+      "live_flag_changed": false
+    },
+    {
+      "subject_id": "Glasgow-3363",
+      "relative_id": "Watt-5185",
+      "relationship": "mother",
+      "before": "confident",
+      "after": "probable",
+      "assertion_id": "C-review-20261017-gordon-glasgow-3363-mother",
+      "new_attachment": false,
+      "live_flag_changed": false
+    },
+    {
+      "subject_id": "Glasgow-3365",
+      "relative_id": "Glasgow-3107",
+      "relationship": "father",
+      "before": "unmarked",
+      "after": "proved",
+      "assertion_id": "C-review-20261017-gordon-glasgow-3365-father",
+      "new_attachment": false,
+      "live_flag_changed": false
+    },
+    {
+      "subject_id": "Glasgow-3365",
+      "relative_id": "Watt-5185",
+      "relationship": "mother",
+      "before": "unmarked",
+      "after": "probable",
+      "assertion_id": "C-review-20261017-gordon-glasgow-3365-mother",
+      "new_attachment": false,
+      "live_flag_changed": false
+    }
+  ],
+  "publication_summary": "The 1663 Polwarth marriage and six Gordon baptisms form one probable James–Agnes household. Six named-father roles are documented, three already confident and three previously ungraded. Agnes Watt is probable mother throughout, including one new local attachment to John. Saved WikiTree fields remain unchanged. Paternal working topology is unchanged; supported and confident edge counts gain three existing recorded father roles. Later identities, ancestral joins and conflicting dates/places are not upgraded.",
+  "comparison": "/branches/early-scottish-records/#chapter-gordon-household-confidence",
+  "verification": {
+    "all_cohort_membership_unchanged": true,
+    "all_cohort_metrics_independently_rederived": true,
+    "before_metrics_reconstructed_without_grade_change": true,
+    "working_paternal_topology_unchanged": true,
+    "fixed_baseline_unchanged": true,
+    "all_live_fields_and_flags_unchanged": true,
+    "dna_payloads_unchanged": true,
+    "complete_public_profile_comparisons": 8,
+    "public_pending_updates": 268
+  },
+  "next_metric_check": {
+    "status": "RESOLVED",
+    "saved_confident_tree_flags_not_used_by_current_metric": 0,
+    "review": "/data/ancestry-confidence-method-review.json",
+    "scope": "Four competing-father cases remain held."
+  },
+  "measurements": {
+    "working": {
+      "before": {
+        "edge_count": 1358,
+        "component_count": 421,
+        "largest_component_size": 1059,
+        "connected_pairs_percent": 35.58026231070688
+      },
+      "after": {
+        "edge_count": 1358,
+        "component_count": 421,
+        "largest_component_size": 1059,
+        "connected_pairs_percent": 35.58026231070688
+      }
+    },
+    "supported": {
+      "before": {
+        "edge_count": 375,
+        "component_count": 1403,
+        "largest_component_size": 46,
+        "connected_pairs_percent": 0.19860885083169832
+      },
+      "after": {
+        "edge_count": 378,
+        "component_count": 1400,
+        "largest_component_size": 46,
+        "connected_pairs_percent": 0.20044664811125137
+      }
+    },
+    "confident": {
+      "before": {
+        "edge_count": 356,
+        "component_count": 1421,
+        "largest_component_size": 43,
+        "connected_pairs_percent": 0.16609885067960475
+      },
+      "after": {
+        "edge_count": 359,
+        "component_count": 1418,
+        "largest_component_size": 43,
+        "connected_pairs_percent": 0.1679366479591578
+      }
+    }
+  }
+}

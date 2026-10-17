@@ -1927,3 +1927,15 @@ The August completion entries remain historical. The live parent fields are now 
 | [John Glasgow, Libberton baptism account](https://www.wikitree.com/wiki/Glasgow-2870) | OPEN | Add the explicitly named 1722 Scottish parents with the unresolved American identity; retain all earlier evidence and family uncertainties. |
 | [Robert Glasgow of the Wilson household](https://www.wikitree.com/wiki/Glasgow-3407) | OPEN | Add the explicitly named 1722 Scottish parents with the unresolved American identity; retain all earlier evidence and family uncertainties. |
 | [Katherine Wilson, named mother](https://www.wikitree.com/wiki/Wilson-127539) | OPEN | Add the explicitly named 1722 Scottish parents with the unresolved American identity; retain all earlier evidence and family uncertainties. |
+
+
+## Gordon household confidence — 17 October 2026
+
+| [James Glasgow, Polwarth and Gordon](https://www.wikitree.com/wiki/Glasgow-3107) | OPEN | Add the combined Polwarth–Gordon household evidence: father named in child indexes, Agnes Watt probable mother; preserve date/place conflicts and later identity limits. |
+| [Agnes Watt (Waitte)](https://www.wikitree.com/wiki/Watt-5185) | OPEN | Add the combined Polwarth–Gordon household evidence: father named in child indexes, Agnes Watt probable mother; preserve date/place conflicts and later identity limits. |
+| [John Glasgow, 1666 Gordon child](https://www.wikitree.com/wiki/Glasgow-3117) | OPEN | Add the combined Polwarth–Gordon household evidence: father named in child indexes, Agnes Watt probable mother; preserve date/place conflicts and later identity limits. |
+| [Patrick Glasgow, 1667 Gordon child](https://www.wikitree.com/wiki/Glasgow-1440) | OPEN | Add the combined Polwarth–Gordon household evidence: father named in child indexes, Agnes Watt probable mother; preserve date/place conflicts and later identity limits. |
+| [Jean Glasgow, 1671 Gordon child](https://www.wikitree.com/wiki/Glasgow-3364) | OPEN | Add the combined Polwarth–Gordon household evidence: father named in child indexes, Agnes Watt probable mother; preserve date/place conflicts and later identity limits. |
+| [Robert Glasgow, 1673 Gordon child](https://www.wikitree.com/wiki/Glasgow-3106) | OPEN | Add the combined Polwarth–Gordon household evidence: father named in child indexes, Agnes Watt probable mother; preserve date/place conflicts and later identity limits. |
+| [Agnes Glasgow, 1676 Gordon child](https://www.wikitree.com/wiki/Glasgow-3363) | OPEN | Add the combined Polwarth–Gordon household evidence: father named in child indexes, Agnes Watt probable mother; preserve date/place conflicts and later identity limits. |
+| [Margaret Glasgow, 1679 Gordon child](https://www.wikitree.com/wiki/Glasgow-3365) | OPEN | Add the combined Polwarth–Gordon household evidence: father named in child indexes, Agnes Watt probable mother; preserve date/place conflicts and later identity limits. |

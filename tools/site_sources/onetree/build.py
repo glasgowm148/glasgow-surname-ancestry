@@ -392,7 +392,7 @@ def apply_reviewed_parent_replacements(people: list[dict], assessments: list[dic
 
 def apply_public_families(people: list[dict], site_root: Path, cutoff: int = 1850,
                           assessments: list[dict] | None = None) -> dict:
-    """Reconcile historical fathers and reviewed existing maternal grades.
+    """Reconcile historical fathers and explicitly reviewed maternal claims.
 
     The aggregate catalogue can predate targeted dossier publications. Neither a
     raw export nor an old atlas attachment supersedes those published decisions.
@@ -527,20 +527,38 @@ def apply_public_families(people: list[dict], site_root: Path, cutoff: int = 185
                    and r.get('publication_status') not in ('withheld', 'blocked', 'rejected')
                    and r.get('status') not in EXCLUDED | {'unknown', 'unassessed', 'unmarked', None}]
         before = [r for r in person.get('parents', []) if r.get('role') == 'mother']
-        if len(current) != 1 or len(before) != 1 or before[0].get('hypothesis'):
+        if len(current) != 1 or len(before) > 1 or (before and before[0].get('hypothesis')):
             continue
         row = current[0]
         assessment = approved.get(row.get('assertion_id'))
-        if (not assessment or row.get('id') != before[0].get('id')
+        new_attachment = not before
+        if (not assessment or (before and row.get('id') != before[0].get('id'))
                 or ident not in assessment.get('people', [])
                 or row.get('id') not in assessment.get('people', [])
                 or assessment.get('perspectives', {}).get(ident, {}).get('relationship') != 'mother'):
-            continue  # This path changes a grade, never the attached mother.
+            continue  # A reviewed addition cannot replace a different mother.
+        if new_attachment and not (assessment.get('allow_new_relationship') is True
+                                   and assessment.get('source_ids') and assessment.get('basis')):
+            continue
+        if new_attachment:
+            pending, seen = [row['id']], set()
+            while pending:
+                ancestor = pending.pop()
+                if ancestor == ident:
+                    raise ValueError('Reviewed mother introduces an ancestry cycle: ' + ident)
+                if ancestor in seen:
+                    continue
+                seen.add(ancestor)
+                pending.extend(r['id'] for r in by_id.get(ancestor, {}).get('parents', [])
+                               if r.get('id') and not r.get('withheld'))
         maternal_scope[ident] = [row['id']]
         after = parent_row(row)
-        if before[0].get('status') != after['status']:
+        if new_attachment or before[0].get('status') != after['status']:
             maternal_changed.append(ident)
-        person['parents'] = [after if r is before[0] else r for r in person['parents']]
+        if new_attachment:
+            person.setdefault('parents', []).append(after)
+        else:
+            person['parents'] = [after if r is before[0] else r for r in person['parents']]
         parent = by_id.get(row['id'])
         if parent is not None:
             related.add(parent['id'])

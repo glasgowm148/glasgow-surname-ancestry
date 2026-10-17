@@ -3400,6 +3400,51 @@
       "Glasgow-3107": {
         "role": "existing account for named James; modern identity not newly established"
       }
+    },
+    "household_review": {
+      "gordon-household-confidence": {
+        "reviewed": "2026-10-17",
+        "assessment": "The child indexes explicitly name James as father but omit the mother. Their named-father roles are documented for the record-defined children; identifying that father with the 1663 Polwarth husband is probable. Agnes Watt is separately assessed as probable mother of all six children on the marriage, locality and sustained family sequence. This is an inference, not literal maternity in the indexes; a later marriage or another local James remains possible. Jean’s later marriage and the later adult identities of John and Patrick remain separately assessed. Patrick’s proposed Kilclone son and migration, James’s own John Glasgow-1084 ancestry and the unrelated Kilwaughter James are not strengthened. No original register image was newly inspected: this review combines the previously accepted index entries and maintained citations.",
+        "probable_mother": "Watt-5185",
+        "source_references": [
+          {
+            "title": "ScotlandsPeople, OPR banns and marriages, James Glasgow and Agnes Waitte, Polwarth, 18 June 1663, 754/10/62, FR37; supplied index reviewed 10 September 2026",
+            "url": "https://www.scotlandspeople.gov.uk/search-records/church-registers"
+          },
+          {
+            "title": "FamilySearch, Scotland Marriages, James Glasgow and Agnes Waitte, Polwarth, 18 June 1663, XTL8-X6D; maintained marriage-index citation",
+            "url": "https://familysearch.org/ark:/61903/1:1:XTL8-X6D"
+          },
+          {
+            "title": "John Glasgow, 1666 Gordon child, 29 April 1666; father James Glasgow; FamilySearch XTBS-Z9H; Gordon baptism index; previously accepted derivative parish index",
+            "url": "https://www.familysearch.org/ark:/61903/1:1:XTBS-Z9H"
+          },
+          {
+            "title": "Patrick Glasgow, 1667 Gordon child, 4 August 1667; father James Glasgow; Gordon OPR 742/10/140; previously accepted derivative parish index",
+            "url": "https://www.familysearch.org/ark:/61903/1:1:XTBS-98C"
+          },
+          {
+            "title": "Jean Glasgow, 1671 Gordon child, 16 April 1671; father James Glasgow; Gordon OPR 742/10/184; previously accepted derivative parish index",
+            "url": "https://www.familysearch.org/ark:/61903/1:1:XYLM-Y4C"
+          },
+          {
+            "title": "Robert Glasgow, 1673 Gordon child, 1 April 1673; father James Glasgow; Gordon OPR 742/10/201; previously accepted derivative parish index",
+            "url": "https://www.familysearch.org/ark:/61903/1:1:XYHJ-3RM"
+          },
+          {
+            "title": "Agnes Glasgow, 1676 Gordon child, 29 October 1676; father James Glasgow; Gordon OPR 742/10/236; previously accepted derivative parish index",
+            "url": "https://www.familysearch.org/ark:/61903/1:1:XYLM-Y44"
+          },
+          {
+            "title": "Margaret Glasgow, 1679 Gordon child, 24 May 1679; father James Glasgow; Gordon OPR 742/10/299; previously accepted derivative parish index",
+            "url": "https://www.familysearch.org/ark:/61903/1:1:XYL9-Q3K"
+          },
+          {
+            "title": "FamilySearch, Jean Glasgow and John Smith, Gordon, 3 June 1702; father James Glasgow; maintained citation, XTLH-1MB",
+            "url": "https://familysearch.org/ark:/61903/1:1:XTLH-1MB"
+          }
+        ]
+      }
     }
   },
   {
@@ -3955,6 +4000,141 @@
         "role": "Named collector account; £34 5s 6d beside 1728",
         "assessment": "proved",
         "timeline_group": "Life events"
+      }
+    }
+  },
+  {
+    "record_id": "polwarth-james-waitte-marriage-1663",
+    "record_type": "parish marriage index",
+    "date": "18 June 1663",
+    "year": 1663,
+    "place": "Polwarth, Berwickshire",
+    "source_title": "ScotlandsPeople, OPR banns and marriages, James Glasgow and Agnes Waitte, Polwarth, 18 June 1663, 754/10/62, FR37; supplied index reviewed 10 September 2026",
+    "source_url": "https://www.scotlandspeople.gov.uk/search-records/church-registers",
+    "reference": "OPR 754/10/62, FR37",
+    "status": "Previously accepted supplied index; original not newly inspected",
+    "profiles": {
+      "Glasgow-3107": {
+        "role": "Named groom; probable identity with Gordon father"
+      },
+      "Watt-5185": {
+        "role": "Named bride; probable mother of Gordon children"
+      }
+    },
+    "note": "The combined OPR index does not by itself distinguish banns from ceremony. The six Gordon baptisms omit maternity."
+  },
+  {
+    "record_id": "gordon-john-james-index-1666",
+    "record_type": "parish baptism index",
+    "date": "29 April 1666",
+    "year": 1666,
+    "place": "Gordon, Berwickshire",
+    "source_title": "John Glasgow, 1666 Gordon child, 29 April 1666; father James Glasgow; FamilySearch XTBS-Z9H; Gordon baptism index; previously accepted derivative parish index",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:XTBS-Z9H",
+    "reference": "FamilySearch XTBS-Z9H; Gordon baptism index",
+    "status": "Previously accepted derivative index; re-evaluated as part of the household",
+    "note": "The child indexes explicitly name James as father but omit the mother. Their named-father roles are documented for the record-defined children; identifying that father with the 1663 Polwarth husband is probable. Agnes Watt is separately assessed as probable mother of all six children on the marriage, locality and sustained family sequence. This is an inference, not literal maternity in the indexes; a later marriage or another local James remains possible. Jean’s later marriage and the later adult identities of John and Patrick remain separately assessed. Patrick’s proposed Kilclone son and migration, James’s own John Glasgow-1084 ancestry and the unrelated Kilwaughter James are not strengthened. No original register image was newly inspected: this review combines the previously accepted index entries and maintained citations.",
+    "profiles": {
+      "Glasgow-3117": {
+        "role": "Named child; later adult identity separately assessed"
+      },
+      "Glasgow-3107": {
+        "role": "Named father; Polwarth husband identity probable"
+      },
+      "Watt-5185": {
+        "role": "Probable mother inferred from household, not named in index"
+      }
+    }
+  },
+  {
+    "record_id": "gordon-jean-james-index-1671",
+    "record_type": "parish baptism index",
+    "date": "16 April 1671",
+    "year": 1671,
+    "place": "Gordon, Berwickshire",
+    "source_title": "Jean Glasgow, 1671 Gordon child, 16 April 1671; father James Glasgow; Gordon OPR 742/10/184; previously accepted derivative parish index",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:XYLM-Y4C",
+    "reference": "Gordon OPR 742/10/184",
+    "status": "Previously accepted derivative index; re-evaluated as part of the household",
+    "note": "The child indexes explicitly name James as father but omit the mother. Their named-father roles are documented for the record-defined children; identifying that father with the 1663 Polwarth husband is probable. Agnes Watt is separately assessed as probable mother of all six children on the marriage, locality and sustained family sequence. This is an inference, not literal maternity in the indexes; a later marriage or another local James remains possible. Jean’s later marriage and the later adult identities of John and Patrick remain separately assessed. Patrick’s proposed Kilclone son and migration, James’s own John Glasgow-1084 ancestry and the unrelated Kilwaughter James are not strengthened. No original register image was newly inspected: this review combines the previously accepted index entries and maintained citations.",
+    "profiles": {
+      "Glasgow-3364": {
+        "role": "Named child; later adult identity separately assessed"
+      },
+      "Glasgow-3107": {
+        "role": "Named father; Polwarth husband identity probable"
+      },
+      "Watt-5185": {
+        "role": "Probable mother inferred from household, not named in index"
+      }
+    }
+  },
+  {
+    "record_id": "gordon-robert-james-index-1673",
+    "record_type": "parish baptism index",
+    "date": "1 April 1673",
+    "year": 1673,
+    "place": "Gordon, Berwickshire",
+    "source_title": "Robert Glasgow, 1673 Gordon child, 1 April 1673; father James Glasgow; Gordon OPR 742/10/201; previously accepted derivative parish index",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:XYHJ-3RM",
+    "reference": "Gordon OPR 742/10/201",
+    "status": "Previously accepted derivative index; re-evaluated as part of the household",
+    "note": "The child indexes explicitly name James as father but omit the mother. Their named-father roles are documented for the record-defined children; identifying that father with the 1663 Polwarth husband is probable. Agnes Watt is separately assessed as probable mother of all six children on the marriage, locality and sustained family sequence. This is an inference, not literal maternity in the indexes; a later marriage or another local James remains possible. Jean’s later marriage and the later adult identities of John and Patrick remain separately assessed. Patrick’s proposed Kilclone son and migration, James’s own John Glasgow-1084 ancestry and the unrelated Kilwaughter James are not strengthened. No original register image was newly inspected: this review combines the previously accepted index entries and maintained citations.",
+    "profiles": {
+      "Glasgow-3106": {
+        "role": "Named child; later adult identity separately assessed"
+      },
+      "Glasgow-3107": {
+        "role": "Named father; Polwarth husband identity probable"
+      },
+      "Watt-5185": {
+        "role": "Probable mother inferred from household, not named in index"
+      }
+    }
+  },
+  {
+    "record_id": "gordon-agnes-james-index-1676",
+    "record_type": "parish baptism index",
+    "date": "29 October 1676",
+    "year": 1676,
+    "place": "Gordon, Berwickshire",
+    "source_title": "Agnes Glasgow, 1676 Gordon child, 29 October 1676; father James Glasgow; Gordon OPR 742/10/236; previously accepted derivative parish index",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:XYLM-Y44",
+    "reference": "Gordon OPR 742/10/236",
+    "status": "Previously accepted derivative index; re-evaluated as part of the household",
+    "note": "The child indexes explicitly name James as father but omit the mother. Their named-father roles are documented for the record-defined children; identifying that father with the 1663 Polwarth husband is probable. Agnes Watt is separately assessed as probable mother of all six children on the marriage, locality and sustained family sequence. This is an inference, not literal maternity in the indexes; a later marriage or another local James remains possible. Jean’s later marriage and the later adult identities of John and Patrick remain separately assessed. Patrick’s proposed Kilclone son and migration, James’s own John Glasgow-1084 ancestry and the unrelated Kilwaughter James are not strengthened. No original register image was newly inspected: this review combines the previously accepted index entries and maintained citations.",
+    "profiles": {
+      "Glasgow-3363": {
+        "role": "Named child; later adult identity separately assessed"
+      },
+      "Glasgow-3107": {
+        "role": "Named father; Polwarth husband identity probable"
+      },
+      "Watt-5185": {
+        "role": "Probable mother inferred from household, not named in index"
+      }
+    }
+  },
+  {
+    "record_id": "gordon-margrat-james-index-1679",
+    "record_type": "parish baptism index",
+    "date": "24 May 1679",
+    "year": 1679,
+    "place": "Gordon, Berwickshire",
+    "source_title": "Margaret Glasgow, 1679 Gordon child, 24 May 1679; father James Glasgow; Gordon OPR 742/10/299; previously accepted derivative parish index",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:XYL9-Q3K",
+    "reference": "Gordon OPR 742/10/299",
+    "status": "Previously accepted derivative index; re-evaluated as part of the household",
+    "note": "The child indexes explicitly name James as father but omit the mother. Their named-father roles are documented for the record-defined children; identifying that father with the 1663 Polwarth husband is probable. Agnes Watt is separately assessed as probable mother of all six children on the marriage, locality and sustained family sequence. This is an inference, not literal maternity in the indexes; a later marriage or another local James remains possible. Jean’s later marriage and the later adult identities of John and Patrick remain separately assessed. Patrick’s proposed Kilclone son and migration, James’s own John Glasgow-1084 ancestry and the unrelated Kilwaughter James are not strengthened. No original register image was newly inspected: this review combines the previously accepted index entries and maintained citations.",
+    "profiles": {
+      "Glasgow-3365": {
+        "role": "Named child; later adult identity separately assessed"
+      },
+      "Glasgow-3107": {
+        "role": "Named father; Polwarth husband identity probable"
+      },
+      "Watt-5185": {
+        "role": "Probable mother inferred from household, not named in index"
       }
     }
   }

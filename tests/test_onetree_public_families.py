@@ -122,6 +122,39 @@ class PublicFamiliesTests(unittest.TestCase):
                 self.assertEqual(people[0]['parents'], [mother])
                 self.assertEqual(result['publicMotherGradeScope'], {})
 
+    def test_reviewed_mother_addition_requires_explicit_sourced_approval(self):
+        for approved in [False, True]:
+            with self.subTest(approved=approved):
+                father = dict(id='Father-1', role='father', status='proved')
+                people = [dict(id='Child-1', parents=[father]),
+                          dict(id='Mother-1', parents=[], childrenRecorded=[])]
+                assessment = dict(assertion_id='A-mother', publication_status='approved',
+                    people=['Child-1', 'Mother-1'], allow_new_relationship=approved,
+                    source_ids=['Marriage-1', 'Baptism-1'], basis='Reviewed household sequence',
+                    perspectives={'Child-1': {'relationship': 'mother'}})
+                self.run_sync(people, {'Child-1': [
+                    dict(id='Father-1', relationship='father', status='proved'),
+                    dict(id='Mother-1', relationship='mother', status='probable', assertion_id='A-mother')
+                ]}, assessments=[assessment])
+                self.assertEqual(people[0]['parents'][0], father)
+                mothers = [r for r in people[0]['parents'] if r['role'] == 'mother']
+                self.assertEqual(len(mothers), int(approved))
+                if approved:
+                    self.assertEqual(mothers[0]['status'], 'probable')
+                    self.assertEqual(people[1]['childrenRecorded'][0]['id'], 'Child-1')
+                    self.assertEqual(people[1]['childrenRecorded'][0]['status'], 'probable')
+
+    def test_reviewed_mother_addition_rejects_an_ancestry_cycle(self):
+        people = [dict(id='Child-1', parents=[]), dict(id='Mother-1', parents=[
+            dict(id='Child-1', role='mother', status='proved')])]
+        assessment = dict(assertion_id='A-mother', publication_status='approved',
+            people=['Child-1', 'Mother-1'], allow_new_relationship=True,
+            source_ids=['S-1'], basis='Reviewed household',
+            perspectives={'Child-1': {'relationship': 'mother'}})
+        with self.assertRaisesRegex(ValueError, 'ancestry cycle'):
+            self.run_sync(people, {'Child-1': [dict(id='Mother-1', relationship='mother',
+                status='probable', assertion_id='A-mother')]}, assessments=[assessment])
+
     def test_replaces_old_parent_and_preserves_recorded_grade_and_mother(self):
         mother = {'id': 'Mother-1', 'role': 'mother', 'status': 'uncertain'}
         people = [dict(id='Child-1', parents=[dict(id='Old-1', role='father', status='uncertain'), mother], childrenRecorded=[]),
