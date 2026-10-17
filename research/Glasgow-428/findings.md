@@ -4,6 +4,8 @@ Last updated: 2026-10-17
 
 ## Current conclusion
 
+**Sarah’s missing family connection, 17 October 2026:** The [record-defined Sarah](/people/record-queue-currituck-1746-sarah-glasgow.html) is now connected locally as William’s daughter, with a 99% father assessment from his explicit 1746 will. Her sourced draft already named William; this adds the omitted tree edge. It is separate from the four existing-profile confidence reviews below. Her mother and later identity remain unknown.
+
 **Father review, 17 October 2026:** William Glasgow-428 is the documented father of Abiah Glasco-39 and Elizabeth Glasco-40, and the probable father for the two potentially duplicate Caleb accounts, Glasgow-363 and Glasgow-830. The will directly identifies the child roles; the Caleb adult identities remain qualified.
 
 Reviewed: 2026-10-17
@@ -101,3 +103,12 @@ Four existing profile father assessments are strengthened: two ungraded links be
 Source: [William Glasgow will, 30 September 1746; proved 7 April 1747, North Carolina State Archives MARS 12.96.1.805; NCGenWeb published transcription checked 17 October 2026](https://www.ncgenweb.us/currituck/wills/glasgowwilliam1746.html).
 
 [Full household review and Sarah’s sourced record draft](/research/subjects/currituck-1746/#sarah-glasgow).
+
+
+## Sarah connected to her documented father — 17 October 2026
+
+William Glasgow’s will dated 30 September 1746 expressly calls Sarah his daughter. Sarah’s local account represents that named daughter, so there is no separate adult-identity inference in this father link. The published NCGenWeb transcription was checked again on 17 October 2026; the original manuscript was not inspected. Sarah’s later identity, exact dates and birthplace remain unknown. Susanah is named as William’s wife, but is not established as Sarah’s mother. The unnamed grandfather is not identified.
+
+The [complete Sarah account and creation draft](/people/record-queue-currituck-1746-sarah-glasgow.html) now carry an explicit new confident father instruction linking [William Glasgow](https://www.wikitree.com/wiki/Glasgow-428). This is one missing local family edge added from already reviewed evidence, not an uncertain-to-certain upgrade of a previously attached father. No live profile has been created or edited. The earlier review’s statement that it made no new attachments remains true of that earlier batch.
+
+Source: [William Glasgow will, 30 September 1746; proved 7 April 1747, North Carolina State Archives MARS 12.96.1.805; published transcription](https://www.ncgenweb.us/currituck/wills/glasgowwilliam1746.html).

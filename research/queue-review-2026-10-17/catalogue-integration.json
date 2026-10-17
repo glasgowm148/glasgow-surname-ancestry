@@ -4493,7 +4493,7 @@
       "research_subject_url": "/research/subjects/currituck-1746/#sarah-glasgow",
       "draft_path": "research/queue-review-2026-10-17/drafts/early-families/1746_United_States_North_Carolina_Currituck_Sarah_Glasgow.md",
       "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\n\nSarah Glasgow was a daughter of [[Glasgow-428|William Glasgow]] of Currituck, North Carolina. Her father named her in his will of 30 September 1746, proved 7 April 1747.<ref name=\"William1746\">[https://www.ncgenweb.us/currituck/wills/glasgowwilliam1746.html William Glasgow will, 30 September 1746; proved 7 April 1747, North Carolina State Archives MARS 12.96.1.805; NCGenWeb published transcription checked 17 October 2026].</ref>\n\n== Research Notes ==\n\nHer mother, exact dates and later identity remain unknown. The will names her paternal siblings Caleb, Abiah and Elizabeth; the identification of the adult Caleb profiles remains probable. The unnamed grandfather and the wife’s unborn child are not assigned modern identities. The contingent land interest and cattle in a mark given by an unnamed grandfather belong to Sarah’s bequest; the will does not name that grandfather. The account is based on the checked published transcription; the manuscript has not been newly inspected.\n\n== Sources ==\n<references />",
-      "assessment": "William Glasgow-428's 30 September 1746 will directly distinguishes daughter Sarah. Her later life is untraced; the supplied draft preserves her one family role without a mother assignment. The actual Glasgow-2451 and Glasgow-4122 accounts represent Scottish daughters of John, conflicting with Sarah's named father William. Fresh Sarah/Glasgow surname-variant searches found no compatible Glasgow/Glasco/Glascoe historical account. Fuzzy Glass/Glascock and married-surname hits are not accepted on a name score; examined nearby colonial comparisons are recorded in the duplicate audit. Do not conflate Sarah with Lowdenner, Abiah, Elizabeth or the unborn child, or infer her mother from Susanah's status as testator's wife.",
+      "assessment": "William Glasgow-428's 30 September 1746 will directly distinguishes daughter Sarah. Her later life is untraced; the supplied draft preserves her one family role without a mother assignment. The actual Glasgow-2451 and Glasgow-4122 accounts represent Scottish daughters of John, conflicting with Sarah's named father William. Fresh Sarah/Glasgow surname-variant searches found no compatible Glasgow/Glasco/Glascoe historical account. Fuzzy Glass/Glascock and married-surname hits are not accepted on a name score; examined nearby colonial comparisons are recorded in the duplicate audit. Do not conflate Sarah with Lowdenner, Abiah, Elizabeth or the unborn child, or infer her mother from Susanah's status as testator's wife. Father connection reviewed at 99% for this record-defined daughter; the local tree now links her to William Glasgow-428. This adds a missing family edge, not a new reading of the will.",
       "creation_status": "creation_ready",
       "reviewed_at": "2026-10-17",
       "first_names": [
@@ -4503,7 +4503,7 @@
         "Glasgow"
       ],
       "last_names_current": [],
-      "gender": "",
+      "gender": "Female",
       "birth": "before 1746-09-30",
       "birth_note": "",
       "death": "after 1746-09-30",
@@ -4542,6 +4542,24 @@
           "evidence": "Documented record; identity qualifications retained",
           "record_precision": "Documented event context",
           "location_basis": "Record location; not automatically a birth or death place"
+        }
+      ],
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "action": "add",
+          "relative_id": "Glasgow-428",
+          "relative_name": "William Glasgow of Currituck",
+          "status": "proved",
+          "assertion_id": "C-currituck-1746-sarah-father",
+          "before": "No parent link in the local record-defined account",
+          "after": "proved",
+          "assessment_after": "proved",
+          "basis": "William Glasgow’s will dated 30 September 1746 expressly calls Sarah his daughter. Sarah’s local account represents that named daughter, so there is no separate adult-identity inference in this father link.",
+          "source_ids": [
+            "currituck-william-will-1746-1747"
+          ],
+          "scope": "Record-defined daughter; new profile creation with existing father"
         }
       ]
     },

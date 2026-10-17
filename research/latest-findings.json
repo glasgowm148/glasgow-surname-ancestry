@@ -31323,6 +31323,33 @@
       "provenance": [
         "research/ancestry-connections/whitecastle-quothquan-working-family-2026-10-17.json"
       ]
+    },
+    {
+      "id": "currituck-sarah-father-connected-2026-10-17",
+      "found_on": "2026-10-17",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Sarah, explicitly named as William Glasgow’s daughter in his 1746 Currituck will, is now connected to him in the local family tree at 99% confidence.",
+      "qualification": "William Glasgow’s will dated 30 September 1746 expressly calls Sarah his daughter. Sarah’s local account represents that named daughter, so there is no separate adult-identity inference in this father link. The published NCGenWeb transcription was checked again on 17 October 2026; the original manuscript was not inspected. Sarah’s later identity, exact dates and birthplace remain unknown. Susanah is named as William’s wife, but is not established as Sarah’s mother. The unnamed grandfather is not identified. This corrects an omitted local tree edge: the sourced draft already named William. It does not connect a previously unknown upstream branch or identify Sarah with Lowdenner, another daughter or the unborn child. No live WikiTree profile was created or edited.",
+      "people": [
+        {
+          "name": "Sarah Glasgow",
+          "url": "/people/record-queue-currituck-1746-sarah-glasgow.html",
+          "draft_url": "/research/subjects/currituck-1746/#sarah-glasgow"
+        },
+        {
+          "name": "William Glasgow of Currituck",
+          "url": "/people/glasgow-428.html",
+          "id": "Glasgow-428"
+        }
+      ],
+      "sources": [
+        {
+          "title": "William Glasgow will, 30 September 1746; proved 7 April 1747; North Carolina State Archives MARS 12.96.1.805; NCGenWeb published transcription",
+          "url": "https://www.ncgenweb.us/currituck/wills/glasgowwilliam1746.html"
+        }
+      ],
+      "detail_url": "/people/record-queue-currituck-1746-sarah-glasgow.html"
     }
   ]
 }

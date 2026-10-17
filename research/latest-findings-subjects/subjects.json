@@ -18635,14 +18635,14 @@
     },
     {
       "slug": "currituck-1746",
-      "title": "William’s Currituck household: two documented daughters and one probable Caleb identity",
-      "introduction": "William’s 1746 Currituck will expressly names Caleb as his son and Abiah and Elizabeth as daughters. The existing Abiah and Elizabeth profiles share the named father, Currituck setting and compatible childhood generation; neither has a conflicting identity. Their father links are documented. The two Caleb profiles repeat the same FamilySearch identity and later Pasquotank will account, indicating possible duplicates. Both fit William’s named son sufficiently for probable father assessments, but they represent one historical son candidate, not two independently proved sons.",
+      "title": "William’s Currituck family: Sarah connected to her documented father",
+      "introduction": "William’s 1746 will names son Caleb and daughters Sarah, Abiah and Elizabeth. Sarah’s local sourced account is now connected to William at 99% confidence. Abiah and Elizabeth have documented father links; the identification of the two adult Caleb accounts remains probable.",
       "people": [
         {
           "anchor": "sarah-glasgow",
           "name": "Sarah Glasgow, daughter of William of Currituck",
           "status": "SUGGESTED NEW PROFILE — sourced draft",
-          "identity_note": "William Glasgow-428's 30 September 1746 will directly distinguishes daughter Sarah. Her later life is untraced; the supplied draft preserves her one family role without a mother assignment. The actual Glasgow-2451 and Glasgow-4122 accounts represent Scottish daughters of John, conflicting with Sarah's named father William. Fresh Sarah/Glasgow surname-variant searches found no compatible Glasgow/Glasco/Glascoe historical account. Fuzzy Glass/Glascock and married-surname hits are not accepted on a name score; examined nearby colonial comparisons are recorded in the duplicate audit. Do not conflate Sarah with Lowdenner, Abiah, Elizabeth or the unborn child, or infer her mother from Susanah's status as testator's wife.",
+          "identity_note": "William Glasgow-428's 30 September 1746 will directly distinguishes daughter Sarah. Her later life is untraced; the supplied draft preserves her one family role without a mother assignment. The actual Glasgow-2451 and Glasgow-4122 accounts represent Scottish daughters of John, conflicting with Sarah's named father William. Fresh Sarah/Glasgow surname-variant searches found no compatible Glasgow/Glasco/Glascoe historical account. Fuzzy Glass/Glascock and married-surname hits are not accepted on a name score; examined nearby colonial comparisons are recorded in the duplicate audit. Do not conflate Sarah with Lowdenner, Abiah, Elizabeth or the unborn child, or infer her mother from Susanah's status as testator's wife. The local tree now includes the directly named father at 99%; no mother is assigned.",
           "minimum_fields": "Name Sarah Glasgow; born before 30 September 1746; associated with Currituck, North Carolina; father William Glasgow; mother, birth date, marriage and death unknown.",
           "facts": [
             {
@@ -18676,6 +18676,19 @@
               "sources": [
                 {
                   "title": "William’s family assessment and complete comparison",
+                  "url": "/people/glasgow-428.html"
+                }
+              ]
+            },
+            {
+              "finding": "17 October 2026: the missing local Sarah → William father edge is now added at 99% confidence. The earlier source review already identified him; this corrects the family structure rather than discovering a new will or regrading an attached father. Her profile remains a sourced creation draft, with William Glasgow-428 specified as father.",
+              "sources": [
+                {
+                  "title": "Sarah’s family and complete sourced creation draft",
+                  "url": "/people/record-queue-currituck-1746-sarah-glasgow.html"
+                },
+                {
+                  "title": "William Glasgow’s reviewed family",
                   "url": "/people/glasgow-428.html"
                 }
               ]

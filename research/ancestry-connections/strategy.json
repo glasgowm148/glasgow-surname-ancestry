@@ -3518,6 +3518,40 @@
       "counted_as_new_connection": true,
       "reviewed": "2026-10-17",
       "certainty_upgrades": 0
+    },
+    {
+      "id": "currituck-sarah-documented-family",
+      "year": 1746,
+      "title": "Sarah of Currituck connected to her named father",
+      "status": "Documented father · 99%; missing local edge restored",
+      "people": [
+        {
+          "name": "Sarah Glasgow",
+          "url": "/people/record-queue-currituck-1746-sarah-glasgow.html"
+        },
+        {
+          "name": "William Glasgow of Currituck",
+          "url": "/people/glasgow-428.html"
+        }
+      ],
+      "basis": "The 1746 will expressly names Sarah as William’s daughter. Her sourced creation draft already identified him, but the local family structure omitted him. The local dossier and both trees now carry that documented father edge at 99%, with no mother or later adult identity assigned. Holding the current 1,786-person pre-1850 cohort fixed, working paternal components fall from 429 to 428, and confident edges rise from 359 to 360. Sarah is outside the original baseline, whose score is unchanged. This is a publication/family-structure reconciliation, not a newly discovered genealogical branch join.",
+      "next_test": "Identify Sarah’s later life and trace the will’s unnamed grandfather; neither is assigned here. William’s older ancestry and the Caleb profile duplication remain separate unresolved questions.",
+      "record_references": [
+        "currituck-william-will-1746-1747"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ncgenweb.us/currituck/wills/glasgowwilliam1746.html",
+          "label": "William Glasgow will, 30 September 1746; proved 7 April 1747; North Carolina State Archives MARS 12.96.1.805; NCGenWeb transcription rechecked 17 October 2026"
+        }
+      ],
+      "assertion_ids": [
+        "C-currituck-1746-sarah-father"
+      ],
+      "counted_as_new_connection": false,
+      "local_family_edges_added": 1,
+      "reviewed": "2026-10-17",
+      "certainty_upgrades": 0
     }
   ],
   "source_basis": "Initial priorities reconcile existing medieval bridge research, the pre-1550 relationship audit and the resolved public catalogue. They are current working comparisons, not newly discovered kinship records."

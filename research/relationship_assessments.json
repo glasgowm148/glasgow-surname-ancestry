@@ -11448,5 +11448,51 @@
       "source_scope": "Wodrow appendix pp.133–134 and Crookshank p.285 freshly read as printed page images; published locality title in search-indexed journal contents; full article uninspected; older wills indexes and supplied transcript reused.",
       "live_wikitree_status": "Unchanged; no live save"
     }
+  },
+  {
+    "assertion_id": "C-currituck-1746-sarah-father",
+    "people": [
+      "record-queue-currituck-1746-sarah-glasgow",
+      "Glasgow-428"
+    ],
+    "profile_names": {
+      "record-queue-currituck-1746-sarah-glasgow": "Sarah Glasgow",
+      "Glasgow-428": "William Glasgow of Currituck"
+    },
+    "profile_urls": {
+      "record-queue-currituck-1746-sarah-glasgow": {
+        "url": "/research/subjects/currituck-1746/#sarah-glasgow"
+      }
+    },
+    "status": "proved",
+    "status_label": "Documented father",
+    "claim": "Sarah Glasgow is a daughter of William Glasgow of Currituck.",
+    "basis": "William Glasgow’s will dated 30 September 1746 expressly calls Sarah his daughter. Sarah’s local account represents that named daughter, so there is no separate adult-identity inference in this father link.",
+    "limitations": "The published NCGenWeb transcription was checked again on 17 October 2026; the original manuscript was not inspected. Sarah’s later identity, exact dates and birthplace remain unknown. Susanah is named as William’s wife, but is not established as Sarah’s mother. The unnamed grandfather is not identified.",
+    "source_ids": [
+      "currituck-william-will-1746-1747"
+    ],
+    "assessment_date": "2026-10-17",
+    "allow_new_relationship": true,
+    "publication_status": "approved",
+    "record_scope": "documentary",
+    "identity_scope": "The daughter Sarah named in the 1746 will; no later adult identification.",
+    "perspectives": {
+      "record-queue-currituck-1746-sarah-glasgow": {
+        "relationship": "father",
+        "status_label": "Documented father",
+        "reason": "William Glasgow’s will dated 30 September 1746 expressly calls Sarah his daughter. Sarah’s local account represents that named daughter, so there is no separate adult-identity inference in this father link. The published NCGenWeb transcription was checked again on 17 October 2026; the original manuscript was not inspected. Sarah’s later identity, exact dates and birthplace remain unknown. Susanah is named as William’s wife, but is not established as Sarah’s mother. The unnamed grandfather is not identified."
+      },
+      "Glasgow-428": {
+        "relationship": "daughter",
+        "status_label": "Documented daughter",
+        "reason": "William Glasgow’s will dated 30 September 1746 expressly calls Sarah his daughter. Sarah’s local account represents that named daughter, so there is no separate adult-identity inference in this father link. The published NCGenWeb transcription was checked again on 17 October 2026; the original manuscript was not inspected. Sarah’s later identity, exact dates and birthplace remain unknown. Susanah is named as William’s wife, but is not established as Sarah’s mother. The unnamed grandfather is not identified."
+      }
+    },
+    "provenance": {
+      "source": "/assets/research/relationship-assessments.json",
+      "prior_state": "Sarah’s sourced draft already identified William, but the local dossier and tree omitted the family edge.",
+      "resolution_note": "Adds the missing local father connection; no newly discovered will or live WikiTree edit is claimed."
+    }
   }
 ]
