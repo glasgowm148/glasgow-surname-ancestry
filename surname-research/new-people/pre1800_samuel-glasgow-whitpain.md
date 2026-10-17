@@ -1,5 +1,12 @@
 # Samuel Glasgow, Whitpain boundary landowner
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**Samuel Glasgow, Whitpain boundary landowner: Compatible existing profile(s): [[Glasgow-3175]], [[Glasgow-1134]], [[Glasgow-1492]].** [Current evidence and complete draft](/research/subjects/newspapers-early-glasgow/#samuel-glasgow-whitpain). Retain Glasgow-3175, Glasgow-1134 and Glasgow-1492 as compatible American alternatives; no single profile is selected from name alone. Repeated Isaac Williams estate notices are one adjoining-owner subject. Adjoining land does not prove residence, relatives or identity with the later county justice/soldier.
+
+<!-- identity-review-2026-10-17:end -->
+
 HOLD — documentary person; identity unresolved
 
 [[Category:Glasgow Name Study]]

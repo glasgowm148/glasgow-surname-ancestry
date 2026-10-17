@@ -16,6 +16,7 @@ from tools.public_privacy import from_sources
 from tools import repair_research_questions as questions
 
 START, END = '<!-- research-queue:start -->', '<!-- research-queue:end -->'
+NEW_START, NEW_END = '<!-- queue-new-profiles:start -->', '<!-- queue-new-profiles:end -->'
 # Queue pages are a workroom: every one says so before its own status (S3-11).
 WORKROOM_KICKER = 'Research workroom: leads, not findings'
 # Reader words for stored statuses; the stored value (filters, data JSON) is unchanged.
@@ -135,6 +136,42 @@ def profile_href(profile_id, web=ROOT / 'www'):
     return 'https://www.wikitree.com/wiki/' + profile_id
 
 
+def new_profile_suggestions(root=ROOT):
+    registry = json.loads((root / 'research/research-queue-matches.json').read_text())
+    subjects = json.loads((root / 'research/latest-findings-subjects/subjects.json').read_text())
+    suggestions = []
+    for group in subjects['groups']:
+        for person in group['people']:
+            ident = 'subject-' + group['slug'] + '-' + person['anchor']
+            review = registry['reviews'].get(ident, {})
+            if review.get('status') != 'no_compatible_profile' or review.get('profile_ids'):
+                continue
+            text = person['wikitext']
+            if not all(x in text for x in ('== Biography ==', '== Sources ==', '<references />', '<ref')):
+                raise ValueError('New profile suggestion lacks a complete sourced draft: ' + ident)
+            suggestions.append(dict(id=ident, name=person['name'],
+                                    url='/research/subjects/' + group['slug'] + '/#' + person['anchor'],
+                                    assessment=review['assessment'], reviewed_on=review.get('reviewed_on', registry['reviewed_on']),
+                                    minimum_fields=person['minimum_fields'], draft_wikitext=text,
+                                    duplicate_check=person['duplicate_check'],
+                                    sources=[s for f in person['facts'] for s in f['sources']]))
+    return suggestions
+
+
+def render_new_profiles(suggestions):
+    if not suggestions:
+        return ''
+    items = ''.join('<li><a href="' + escape(p['url'], quote=True) + '"><strong>' + escape(p['name']) +
+                    '</strong> — complete sourced draft</a><p>' + escape(p['assessment']) +
+                    '</p><small>Existing-profile search reviewed ' + escape(p['reviewed_on']) + '</small></li>'
+                    for p in suggestions)
+    return (NEW_START + '<section id="wikitree-new-profiles" class="r-section rq-section"><h2>Needs updated on WikiTree: suggested new profiles</h2>' +
+            '<p>' + str(len(suggestions)) + ' people have sourced drafts after existing-profile searches found no compatible match. ' +
+            'Each linked draft gives creation fields, citations, the actual duplicate-search scope and remaining source or family qualifications. ' +
+            'These suggestions are separate from the existing-profile amendments above; none has been created on WikiTree.</p><details><summary>Read the new-profile suggestions (' +
+            str(len(suggestions)) + ')</summary><ul>' + items + '</ul></details></section>' + NEW_END)
+
+
 def collect(web=ROOT / 'www', root=ROOT):
     rows, drafts, used_files, fingerprints = [], [], set(), set()
     overrides=json.loads((root/'research/research-queue-overrides.json').read_text()).get('draft_replacements',{})
@@ -151,6 +188,9 @@ def collect(web=ROOT / 'www', root=ROOT):
     subjects = json.loads((root / 'research/latest-findings-subjects/subjects.json').read_text())
     for group in subjects['groups']:
         for p in group['people']:
+            # A reviewed canonical handoff still owns its source draft after its
+            # wording changes; textual fingerprints alone would resurrect it.
+            used_files.update(p.get('draft_sources', []))
             fingerprints.add(re.sub(r'\s+', '', p['wikitext']))
             status = 'On hold' if 'HOLD' in p['status'].upper() else 'Draft review'
             add('subject-' + group['slug'] + '-' + p['anchor'], p['name'], 'Profile identity',
@@ -293,6 +333,7 @@ def build(web=ROOT / 'www'):
     source_items = len(rows)
     rows = consolidate_record_reviews(rows)
     progress = apply_batch_progress(rows)
+    suggestions = new_profile_suggestions()
     template = (web / 'about/index.html').read_text()
     publish_match_audit(web, template)
     overrides=json.loads((ROOT/'research/research-queue-overrides.json').read_text())['draft_replacements']
@@ -310,10 +351,13 @@ def build(web=ROOT / 'www'):
         path = web / route
         if not path.exists(): continue
         page = path.read_text(); section = render(rows, progress)
+        if suggestions:
+            section = section.replace('<div class="rq-controls">', '<p><a href="#wikitree-new-profiles">Needs updated on WikiTree · ' + str(len(suggestions)) + ' suggested new profiles with complete drafts →</a></p><div class="rq-controls">', 1)
         page = re.sub(re.escape(START) + r'.*?' + re.escape(END), '', page, flags=re.S)
+        page = re.sub(re.escape(NEW_START) + r'.*?' + re.escape(NEW_END), '', page, flags=re.S)
         # Retire the old separate OPR-only queue now all those rows are represented.
         page = re.sub(r'<!-- opr-marriage-identities:start -->.*?<!-- opr-marriage-identities:end -->', '', page, flags=re.S)
-        page = page.replace('</main>', section + '</main>', 1)
+        page = page.replace('</main>', section + render_new_profiles(suggestions) + '</main>', 1)
         page = re.sub(r'<(?:link|script)\b[^>]*(?:href|src)="/assets/research/research-queue\.[^" ]+"[^>]*>(?:</script>)?', '', page)
         page = page.replace('</head>', '<link rel="stylesheet" href="' + queue_asset('css') + '"></head>')
         page = page.replace('</body>', '<script src="' + queue_asset('js') + '" defer></script></body>')
@@ -327,7 +371,8 @@ def build(web=ROOT / 'www'):
     for ext in ('css', 'js'):
         (web / ('assets/research/research-queue.' + ext)).write_text((ROOT / ('tools/research_queue.' + ext)).read_text())
     (web / 'data/research-queue.json').write_text(json.dumps(dict(schema_version=1, rows=rows, review_progress=progress), ensure_ascii=False, indent=2)+'\n')
-    return dict(research_queue_items=len(rows), source_items=source_items, additional_public_drafts=len(drafts))
+    (web / 'data/wikitree-new-profile-suggestions.json').write_text(json.dumps(dict(schema_version=1, people=suggestions), ensure_ascii=False, indent=2)+'\n')
+    return dict(research_queue_items=len(rows), source_items=source_items, additional_public_drafts=len(drafts), suggested_new_profiles=len(suggestions))
 
 
 if __name__ == '__main__':

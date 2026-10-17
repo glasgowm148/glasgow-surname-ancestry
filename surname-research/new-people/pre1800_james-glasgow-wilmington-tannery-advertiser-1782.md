@@ -1,5 +1,12 @@
 # James Glasgow, Wilmington tannery advertiser, 1782–1785
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**James Glasgow, Wilmington tannery advertiser, 1782–1785: Compatible existing profile(s): [[Glasgow-3290]], [[Glasgow-2868]], [[Glasgow-634]].** [Current evidence and complete draft](/research/subjects/newspapers-early-glasgow/#james-glasgow-wilmington-tannery-advertiser-1782). Prefer younger Glasgow-3290 (uncertain 1758 Cecil birth/1789 death) tentatively for the 1782–1785 Wilmington Delaware/Christiana Bridge advertiser; retain Glasgow-2868 with explicit 1785 versus estimated 1784 death tension, and Glasgow-634 as a less relevant North Carolina rival. Delaware is printed in 1785; Wilmington is not silently relocated to North Carolina. No sale completion or tanner occupation is inferred.
+
+<!-- identity-review-2026-10-17:end -->
+
 HOLD — documented record; profile assignment qualified
 
 [[Category:Glasgow Name Study]]

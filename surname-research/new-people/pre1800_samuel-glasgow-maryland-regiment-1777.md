@@ -1,5 +1,12 @@
 # Samuel Glasgow, First Maryland Regiment
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**Samuel Glasgow, First Maryland Regiment: Compatible existing profile(s): [[Glasgow-3175]], [[Glasgow-1134]], [[Glasgow-1492]].** [Current evidence and complete draft](/research/subjects/newspapers-early-glasgow/#samuel-glasgow-maryland-regiment). Prefer Glasgow-1134 tentatively on estimated 1749 Cecil Maryland birth, appropriate adult 1777 chronology and American trajectory; retain Glasgow-3175 and Glasgow-1492. No company is inferred from list punctuation. Consolidate both old Maryland-regiment draft paths as one service handoff; no new soldier profile while compatible candidates remain.
+
+<!-- identity-review-2026-10-17:end -->
+
 HOLD — documentary person; identity unresolved
 
 [[Category:Glasgow Name Study]]

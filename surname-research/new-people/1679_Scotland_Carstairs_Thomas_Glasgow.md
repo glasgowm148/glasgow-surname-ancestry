@@ -1,4 +1,12 @@
 <!-- profile-match-review-20260930 -->
+
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**Thomas Glasgow: Compatible existing profile(s): [[Glasgow-2461]], [[Glasgow-3091]], [[Glasgow-3413]], [[Glasgow-3187]], [[Glasgow-1226]].** [Current evidence and complete draft](/research/subjects/opr-thomas-marriages/#thomas-glasgow). The Carstairs 1679 Thomas–Gyles Spence entry is separate from the Strathblane unnamed event on the same day. Thomas Glasgow-1449 is newly excluded by his represented later family: father Glasgow-1382 is explicitly born about 1766 and dies 1851; mother Christine Davidson has documented motherhood of Nathaniel in 1774, incompatible with being the mother of a 1679 adult. Glasgow-1226 remains a weaker possibility because fatherhood through 1735 would imply an older father but is not impossible. Graduate Glasgow-3413’s 1670 degree does not establish his assumed Thomas Glasgow-3187 father, and the 1660 burgess entry gives no father. Newly searched Gellies/Gilles/Giles Spence/Spens/Spense yielded no historical woman; the Tudor male Spencer lead remains excluded. Revalidated 17 October 2026 against maintained profile evidence; source readings and earlier search dates are inherited unless an explicit fresh getProfile is listed.
+
+<!-- identity-review-2026-10-17:end -->
+
 **Current identity review, 30 September 2026:** The Carstairs 1679 Thomas–Gyles Spence entry is separate from the Strathblane unnamed event on the same day. Thomas Glasgow-1449 is newly excluded by his represented later family: father Glasgow-1382 is explicitly born about 1766 and dies 1851; mother Christine Davidson has documented motherhood of Nathaniel in 1774, incompatible with being the mother of a 1679 adult. Glasgow-1226 remains a weaker possibility because fatherhood through 1735 would imply an older father but is not impossible. Graduate Glasgow-3413’s 1670 degree does not establish his assumed Thomas Glasgow-3187 father, and the 1660 burgess entry gives no father. Newly searched Gellies/Gilles/Giles Spence/Spens/Spense yielded no historical woman; the Tudor male Spencer lead remains excluded.
 
 # HOLD — Thomas Glasgow, Carstairs, 1679

@@ -98,3 +98,14 @@ Inspect vessel William registers and London/New-York clearances for master’s f
 - [The Pennsylvania Gazette, 1763-02-24, p.1](https://www.newspapers.com/image/39390517/): no longer a candidate for this profile. William Glasgow, Philadelphia letter list February 1763, no place given. Name only; no WikiTree profile can be singled out.
 - [The Pennsylvania Gazette, 1765-10-10, p.4](https://www.newspapers.com/image/39405824/): no longer a candidate for this profile. William Glasgow, Philadelphia letter list October 1765, no place given. Name only; unidentifiable.
 - [Maryland Gazette, 1771-10-24, p.3](https://www.newspapers.com/image/41041559/): no longer a candidate for this profile. Charles-Town (Cecil County), Maryland letter list, 1 October 1771: John Glasgow in West Nottingham, Chester County, and a separate William Glasgow. Two Johns were taxed in West Nottingham in 1771 (landholder and inmate), so John is only possibly Glasgow-2871; Glasgow-2870 (d. 1769) is now unlikely. William has no WikiTree profile; the Cecil County William named among the children of James Glasgow Sr. (d. 1784) in Cecil probate is a plausible but unproved identity.
+
+<!-- queue-identity-review-2026-10-17:start -->
+## Documentary identity review — 17 October 2026
+
+**Record subject: William Glascoe / Glascow, 1760 defendant.** Retain the actual checked adult William profiles [Glasgow-4120](https://www.wikitree.com/wiki/Glasgow-4120), [Glasgow-4101](https://www.wikitree.com/wiki/Glasgow-4101), [Glasgow-1505](https://www.wikitree.com/wiki/Glasgow-1505) and [Glasgow-3326](https://www.wikitree.com/wiki/Glasgow-3326) as weak compatible alternatives; their baptism/Irish context supplies no London identifier but no concrete conflict. The defendant is a distinct recorded subject, while profile identity remains open. Retire READY TO CREATE because the prior review excluded for missing links rather than conflict; do not equate him with 1775 Maryland William.
+
+Sources: [Public Ledger or Daily Register of Commerce and Intelligence, 1760-04-18, p.2](https://www.newspapers.com/image/35690357/).
+
+[Full record account and comparison](/research/subjects/newspapers-early-glasgow/#william-glascoe-old-bailey-1760). This assessment proposes no live WikiTree edit.
+
+<!-- queue-identity-review-2026-10-17:end -->

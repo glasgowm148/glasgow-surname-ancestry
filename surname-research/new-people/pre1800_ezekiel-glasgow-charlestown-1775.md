@@ -1,5 +1,12 @@
 # Ezekiel Glasgow, Charlestown postal addressee, 1775
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**Ezekiel Glasgow, Charlestown postal addressee, 1775: Compatible existing profile(s): [[Glasgow-2844]], [[Glasgow-3293]], [[Glasgow-1135]].** [Current evidence and complete draft](/research/subjects/newspapers-early-glasgow/#ezekiel-glasgow-charlestown-1775). Retain Glasgow-2844 and Glasgow-3293 as weak compatible alternatives: uncertain 1690/1778 Maryland lifespan versus uncertain 1767/1780 Cecil lifespan. Postal recipients need not be adults or residents at the office. Glasgow-1135 has a substantial but uncertain post-1775 birth mismatch, retained as a very weak date-revision alternative. No relative is inferred from co-listed James.
+
+<!-- identity-review-2026-10-17:end -->
+
 HOLD — documented surname; identity unresolved
 
 [[Category:Glasgow Name Study]]

@@ -1,5 +1,12 @@
 # A. Glascow, Dutch arrival report, 1794
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**A. Glascow, 1794 arrival entry: Compatible existing profile(s): [[Glasgow-3313]], [[Glasgow-2468]], [[Glasgow-3165]], [[Glasgow-649]], [[Glasgow-3902]], [[Glasgow-3514]], [[Glasgow-1309]].** [Current evidence and complete draft](/research/subjects/newspapers-early-glasgow/#a-glascow-dutch-arrival-1794). Retain the checked A-name profiles as explicitly possible candidates, led by Andrew-3313 (1733 Irvine coastal context), with Andrew-2468 and Alexander-1309 as alternatives. The source preserves only initial A.; no full name is assigned. Arthur-649 and Adam-3902 have competing American/farming contexts rather than concrete exclusions; Alexander-3514 is exceptionally old. No new initial-only person should be created.
+
+<!-- identity-review-2026-10-17:end -->
+
 HOLD — initial unexpanded; identity unresolved
 
 [[Category:Glasgow Name Study]]

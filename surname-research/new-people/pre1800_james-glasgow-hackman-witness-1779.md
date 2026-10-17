@@ -1,5 +1,12 @@
 # James Glasgow, Hackman affair witness, 1779
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**James Glasgow, Hackman affair witness, 1779: Compatible existing profile(s): [[Glasgow-2868]], [[Glasgow-634]], [[Glasgow-1144]].** [Current evidence and complete draft](/research/subjects/newspapers-early-glasgow/#james-glasgow-hackman-witness-1779). Retain Glasgow-2868, Glasgow-634 and Glasgow-1144 as weak possible candidates after actual dossier comparison. Their American contexts make a London appearance less supported, not disproved. No single profile is selected from name alone. Chairmen is the recorded word and does not make him a meeting chairman. This witness remains a record-specific identity question.
+
+<!-- identity-review-2026-10-17:end -->
+
 HOLD — documented record; profile assignment qualified
 
 [[Category:Glasgow Name Study]]

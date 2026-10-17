@@ -1,5 +1,12 @@
 # James Glasgow, Marsh creek Carlisle list, 1795
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**James Glasgow, Marsh creek Carlisle list, 1795: Compatible existing profile(s): [[Glasgow-3290]], [[Glasgow-2868]], [[Glasgow-634]].** [Current evidence and complete draft](/research/subjects/newspapers-early-glasgow/#james-glasgow-marsh-creek-list-1795). Retain Glasgow-3290 and Glasgow-2868 as weak regional candidates despite uncertain 1789/estimated 1784 deaths, because a list can include posthumous mail; retain Glasgow-634 as a weaker adult namesake. Do not call this a new person solely because there is no Marsh Creek deed. Three reprints are one occurrence, not three people.
+
+<!-- identity-review-2026-10-17:end -->
+
 HOLD — documented record; profile assignment qualified
 
 [[Category:Glasgow Name Study]]

@@ -1,6 +1,13 @@
 # Samuel Glascow, Old Bailey defendant
 
-READY TO CREATE — no compatible WikiTree profile (identity review 6 October 2026)
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**Samuel Glascow, Old Bailey defendant: Compatible existing profile(s): [[Glasgow-3175]], [[Glasgow-1492]].** [Current evidence and complete draft](/research/subjects/newspapers-early-glasgow/#samuel-glascow-old-bailey). Existing Glasgow-3175 explicitly cites the identical unique case obpt 17610506-1-defend 30 and gives the same trial/respite. It is the existing WikiTree destination for this case; retire the duplicate defendant draft. This does not validate the unproved equation between that defendant and the Ulster/Pennsylvania ancestor or establish American relatives. Glasgow-1492 remains a broader ancestry alternative.
+
+<!-- identity-review-2026-10-17:end -->
+
+HOLD — compatible existing-profile candidate(s); the current assessment above controls the earlier draft.
 
 [[Category:Glasgow Name Study]]
 

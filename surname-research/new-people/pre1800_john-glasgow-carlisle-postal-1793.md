@@ -1,5 +1,12 @@
 # John Glasgow, Carlisle postal addressee, 1793
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**John Glasgow, Carlisle postal addressee, 1793: Compatible existing profile(s): [[Glasgow-3927]], [[Glasgow-4090]], [[Glasgow-2871]].** [Current evidence and complete draft](/research/subjects/newspapers-early-glasgow/#john-glasgow-carlisle-postal-1793). Retain Glasgow-3927 and Glasgow-4090 as weak compatible contemporaries. Glasgow-2871 died 3 April 1792 but a 1793 postal list can contain posthumous correspondence; retain as a conditional regional alternative, not a living 1793 fact. No migration or household is established.
+
+<!-- identity-review-2026-10-17:end -->
+
 HOLD — documented record; profile assignment qualified
 
 [[Category:Glasgow Name Study]]

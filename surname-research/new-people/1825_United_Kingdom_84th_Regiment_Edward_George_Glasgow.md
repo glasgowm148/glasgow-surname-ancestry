@@ -1,5 +1,12 @@
 # HOLD — Edward George Glasgow, 49th/84th Regiment Lieutenant, 1825
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**Edward George Glasgow, 49th/84th Regiment Lieutenant, 1825: Compatible existing profile(s): [[Glasgow-3501]].** [Current evidence and complete draft](/research/subjects/newspapers-irish-1800-1850/#edward-george-army). Consolidate the 1825 and 1826 full-name/84th Regiment notices. Glasgow-3501 (c.1800 Ireland; arrived New York 3 April 1850) survives as a weak candidate: missing middle name and service fields do not exclude him. Glasgow-2074 is a weaker surgeon comparison with a specific 1860 death. The 6 October review’s Emily Caroline widow notice in December 1849 would exclude both later lives if that identity is verified; the snippet was not newly verified here. Do not create another Edward while 3501 survives.
+
+<!-- identity-review-2026-10-17:end -->
+
 HOLD — newspaper person verified; profile identity unresolved
 
 ## Minimum fields

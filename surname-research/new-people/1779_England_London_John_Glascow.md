@@ -1,5 +1,12 @@
 # John Glascow, London chairman
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**John Glascow, London chairman: Compatible existing profile(s): [[Glasgow-549]], [[Glasgow-4179]], [[Glasgow-2990]], [[Glasgow-1146]].** [Current evidence and complete draft](/research/subjects/newspapers-early-glasgow/#john-glascow-london-witness-1779). The original Derby Mercury passage names John Glascow, described as a chairman, giving evidence after the Martha Ray shooting in Covent Garden. The provider label of 19 March 1779 is incompatible with the shooting on 7 April 1779, independently dated in the Old Bailey original. Exact publication date and personal identity remain unresolved; no Irish origin is stated. The listed profiles are compatible or conditional comparison leads, not identifications. Bounded local review covered the public people catalogue and early Irish target inventory, including John Glasgow, Glasco and Glascow variants and London links; no unique profile match was established. This was not an exhaustive live WikiTree audit. Retain the listed Irish namesakes as compatible or conditional search leads, not identified people. Their catalogue birthplaces and missing London fields do not exclude a later London period. Dates derived from profile/tree leads require original-source checks. Glasgow-1657 has a recorded 1766 birth, implying about 13 in 1779: weaker fit for the apparent adult chairman context, subject to verification of that birth-date basis. Revalidated 17 October 2026 against maintained profile evidence; source readings and earlier search dates are inherited unless an explicit fresh getProfile is listed.
+
+<!-- identity-review-2026-10-17:end -->
+
 Reviewed 4 October 2026. The original Derby Mercury passage names John Glascow, described as a chairman, giving evidence after the Martha Ray shooting in Covent Garden. The provider label of 19 March 1779 is incompatible with the shooting on 7 April 1779, independently dated in the Old Bailey original. Exact publication date and personal identity remain unresolved; no Irish origin is stated.
 
 ## Minimum fields

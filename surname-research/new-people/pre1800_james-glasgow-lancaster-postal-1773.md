@@ -1,5 +1,12 @@
 # James Glasgow, Lancaster postal addressee, 1773
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**James Glasgow, Lancaster postal addressee, 1773: Compatible existing profile(s): [[Glasgow-2868]], [[Glasgow-3290]], [[Glasgow-634]].** [Current evidence and complete draft](/research/subjects/newspapers-early-glasgow/#james-glasgow-lancaster-postal-1773). Prefer Glasgow-2868 tentatively on the Cecil/Pennsylvania regional context, retaining younger Glasgow-3290 and Glasgow-634. Postal lists can include minors; c 1758 birth does not exclude 3290. Office location is not proved residence. No family link or continuity with the other James postal entries is assumed.
+
+<!-- identity-review-2026-10-17:end -->
+
 HOLD — documented record; profile assignment qualified
 
 [[Category:Glasgow Name Study]]

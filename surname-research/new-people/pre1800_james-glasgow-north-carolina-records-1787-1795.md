@@ -1,5 +1,12 @@
 # James Glasgow, North Carolina office, postal and land-warrant records to 1799
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**James Glasgow, North Carolina office, postal and land-warrant records to 1799: Compatible existing profile(s): [[Glasgow-634]].** [Current evidence and complete draft](/research/subjects/newspapers-early-glasgow/#james-glasgow-north-carolina-records-1787-1795). Glasgow-634 is the existing secretary of state profile: actual public biography records North Carolina office 1777–1798 and Dobbs context, matching the expressly named secretary records. Treat this as an existing-profile amendment, retiring the duplicate creation draft. Masonic/postal/petition occurrences are separately probable/possible; no blanket attribution to every same-name North Carolina notice.
+
+<!-- identity-review-2026-10-17:end -->
+
 HOLD — documented record; profile assignment qualified
 
 [[Category:Glasgow Name Study]]

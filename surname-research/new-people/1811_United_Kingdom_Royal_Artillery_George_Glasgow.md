@@ -1,5 +1,12 @@
 # HOLD — George Glasgow, senior Royal Artillery officer, 1811–1819
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**George Glasgow, senior Royal Artillery officer, 1811–1819: Suggested new profile; complete sourced draft retained.** [Current evidence and complete draft](/research/subjects/newspapers-irish-1800-1850/#george-senior-artillery). The full DCB entry, successfully read through urllib on 17 October, identifies a cadet appointed 2 April 1771, colonel from 24 July 1806, major-general from 4 July 1811, lieutenant-general in August 1819, died 28 October 1820. This joins the June 1811 colonel and September 1819 brevet notices. Actual candidate biographies exclude 1529 (baptised 1769, aged two at cadet appointment), 3611 (born 1777, died 1857) and 3345 (born 1792). Retain the documented 6 October fully paged George/variant duplicate audit; no compatible profile found. Earlier 1771 first-lieutenant evidence describes another officer and must not be conflated with this 1771 cadet.
+
+<!-- identity-review-2026-10-17:end -->
+
 HOLD — newspaper person verified; profile identity unresolved
 
 ## Minimum fields

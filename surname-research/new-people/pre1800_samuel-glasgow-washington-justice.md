@@ -1,5 +1,12 @@
 # Samuel Glasgow, Washington County justice
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**Samuel Glasgow, Washington County justice: Compatible existing profile(s): [[Glasgow-3175]], [[Glasgow-1134]], [[Glasgow-1492]].** [Current evidence and complete draft](/research/subjects/newspapers-early-glasgow/#samuel-glasgow-washington-justice). Prefer Glasgow-3175 tentatively on its Washington County/Hanover 1801 context and adult chronology. Retain Glasgow-1134 and Glasgow-1492. County office identifies neither the London convict nor a specific ancestry; preserve that separate uncertainty.
+
+<!-- identity-review-2026-10-17:end -->
+
 HOLD — documentary person; identity unresolved
 
 [[Category:Glasgow Name Study]]

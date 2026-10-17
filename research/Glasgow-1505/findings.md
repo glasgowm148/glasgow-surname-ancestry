@@ -214,3 +214,14 @@ These are proposals for the WikiTree date fields and are queued for review; noth
 ## Relationship assessment — William and the Lisnagaver family, 6 October 2026
 
 No record joins William to John Glasgow, farmer, the probable father of Alexander Glasgow-951. William as John farmer's father is unresolved, with no record. The older version of that route ran through John Glasgow-1022 of Glenleslie and needs John, farmer, to be that John, which is disfavoured: John-1022's 1851 household records a daughter Nancy who died in 1847 aged 36, while Nancy of Plattsburgh, Alexander's probable sister, lived to 1891. In the WikiTree snapshot of 28 September 2026 John-1022's father is John Glasgow-3959 of Ballyboggy (uncertain), so his earlier attachment to William is historical. No relationship is changed. [Full comparison](/people/glasgow-951.html#larne-reconstruction).
+
+<!-- queue-identity-review-2026-10-17:start -->
+## Documentary identity review — 17 October 2026
+
+**Record subject: William Glascoe / Glascow, 1760 defendant.** Retain the actual checked adult William profiles [Glasgow-4120](https://www.wikitree.com/wiki/Glasgow-4120), [Glasgow-4101](https://www.wikitree.com/wiki/Glasgow-4101), [Glasgow-1505](https://www.wikitree.com/wiki/Glasgow-1505) and [Glasgow-3326](https://www.wikitree.com/wiki/Glasgow-3326) as weak compatible alternatives; their baptism/Irish context supplies no London identifier but no concrete conflict. The defendant is a distinct recorded subject, while profile identity remains open. Retire READY TO CREATE because the prior review excluded for missing links rather than conflict; do not equate him with 1775 Maryland William.
+
+Sources: [Public Ledger or Daily Register of Commerce and Intelligence, 1760-04-18, p.2](https://www.newspapers.com/image/35690357/).
+
+[Full record account and comparison](/research/subjects/newspapers-early-glasgow/#william-glascoe-old-bailey-1760). This assessment proposes no live WikiTree edit.
+
+<!-- queue-identity-review-2026-10-17:end -->

@@ -1,6 +1,13 @@
 # Robert Glasgow, Old Bailey and Newgate reports, 1751
 
-READY TO CREATE — no compatible WikiTree profile (identity review 6 October 2026)
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**Robert Glasgow, Old Bailey and Newgate reports, 1751: Compatible existing profile(s): [[Glasgow-2474]], [[Glasgow-2473]], [[Glasgow-3457]].** [Current evidence and complete draft](/research/subjects/newspapers-early-glasgow/#robert-glasgow-old-bailey-1751). Retain Glasgow-2474, Glasgow-2473 and Glasgow-3457 as compatible adults after comparing their actual Scottish parish/family accounts. No source establishes London identity or actual execution, so a later shipmaster occurrence is not automatically a contradiction. The earlier READY TO CREATE assertion wrongly treated missing London links as exclusion; replace it with candidate hold and retire the independent creation instruction.
+
+<!-- identity-review-2026-10-17:end -->
+
+HOLD — compatible existing-profile candidate(s); the current assessment above controls the earlier draft.
 
 [[Category:Glasgow Name Study]]
 

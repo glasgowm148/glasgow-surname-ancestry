@@ -1,5 +1,12 @@
 # William Glasgow, Philadelphia and Charles-Town postal lists, 1759–1771
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**William Glasgow, Philadelphia and Charles-Town postal lists, 1759–1771: Compatible existing profile(s): [[Glasgow-4101]], [[Glasgow-4120]], [[Glasgow-3326]], [[Glasgow-2426]].** [Current evidence and complete draft](/research/subjects/newspapers-early-glasgow/#william-glasgow-postal-1759-1765). Prefer Glasgow-2426 tentatively for the 1759 Cecil County entry through its later American context, retaining 4101,4120,3326 as alternatives. The 1763,1765 and 1771 entries retain separate identity scopes with the same candidate pool; do not turn them into one Cecil resident by name alone. Neighbouring Pennsylvania/Forks of Delaware qualifiers belong to other addressees. No relationship to co-listed John is proved.
+
+<!-- identity-review-2026-10-17:end -->
+
 HOLD — documented surname; identity unresolved
 
 [[Category:Glasgow Name Study]]

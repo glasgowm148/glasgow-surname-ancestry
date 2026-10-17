@@ -1,0 +1,1231 @@
+{
+  "reviewed_on": "2026-10-17",
+  "files_reviewed": 28,
+  "valid_files": 28,
+  "invalid_files": 0,
+  "unsafe_or_post_1905_subjects": [],
+  "notes": [
+    "Checks are structural/textual and do not assert remote URL availability or re-prove original records.",
+    "Unknown dates remain unknown; no death is inferred.",
+    "Row counts are queue rows, not unique people.",
+    "Grouped queue results are validated through suggested_people subject IDs; matched relatives in the same group are not treated as new suggestions.",
+    "Collection provenance is retained separately from scoped canonical_groups and is not treated as a merge."
+  ],
+  "cross_checks": {
+    "progress_original_id_coverage": {
+      "status": "pass",
+      "baseline_items": 511,
+      "reviewed_items": 511,
+      "remaining_items": 0,
+      "missing_ids": [],
+      "extra_ids": []
+    },
+    "progress_dispositions": {
+      "existing_profile": 455,
+      "study": 14,
+      "new_profile": 29,
+      "disregarded": 13
+    },
+    "new_profile_suggested_people": {
+      "new_profile_count": 29,
+      "status": "pass",
+      "issues": []
+    },
+    "broad_collection_canonical_groups": {
+      "status": "pass",
+      "forbidden_groups": [
+        "early-scotland-1650",
+        "newspapers-early-glasgow",
+        "newspapers-irish-1800-1850"
+      ],
+      "count": 0,
+      "issues": []
+    },
+    "current_queue_identity_review": {
+      "status": "pass",
+      "current_rows": 472,
+      "complete_count": 472,
+      "missing_count": 0,
+      "missing_ids": []
+    },
+    "public_new_profile_suggestions": {
+      "status": "pass",
+      "people": 27,
+      "checks": "verify.py checks actual complete sourced drafts, register entries and public anchors."
+    }
+  },
+  "files": {
+    "research/queue-review-2026-10-17/drafts/early-families/1528_Scotland_Quothquan_Thomas_Glasgow.md": {
+      "valid": true,
+      "subject_heading": "Thomas Glasgow of Quothquan, 1527/28",
+      "minimum_fields": {
+        "present": true,
+        "section": "Minimum creation fields"
+      },
+      "biography": {
+        "present": true,
+        "characters": 2217,
+        "has_biography": true,
+        "has_research_notes": true,
+        "has_sources": true,
+        "references_tag": true
+      },
+      "duplicate_audit": {
+        "present": true,
+        "characters": 676,
+        "meaningful": true
+      },
+      "source_check": {
+        "citation_syntax": "pass",
+        "url_count": 2,
+        "urls": [
+          "https://deriv.nls.uk/dcn23/1271/7974/127179749.23.pdf#page=193.",
+          "https://deriv.nls.uk/dcn23/1271/7974/127179749.23.pdf#page=214."
+        ],
+        "factual_person_text_present": true
+      },
+      "eligibility": {
+        "status": "safe historical draft",
+        "post_1905_subject_birth_signal": false,
+        "living_or_private_signal": false,
+        "assessment": "No unsafe living/private subject signal; unknown dates remain unknown and no death is inferred."
+      },
+      "spouse_candidate_check": {
+        "status": "pass",
+        "assessment": "Spouse/household identities remain record context or qualified candidates; no spouse candidate is treated as the subject solely by association."
+      },
+      "creation_status": "draft_candidate",
+      "issues": []
+    },
+    "research/queue-review-2026-10-17/drafts/early-families/1639_Scotland_Haddington_Issobella_Miral.md": {
+      "valid": true,
+      "subject_heading": "Issobella Miral",
+      "minimum_fields": {
+        "present": true,
+        "section": "Minimum creation fields"
+      },
+      "biography": {
+        "present": true,
+        "characters": 769,
+        "has_biography": true,
+        "has_research_notes": true,
+        "has_sources": true,
+        "references_tag": true
+      },
+      "duplicate_audit": {
+        "present": true,
+        "characters": 451,
+        "meaningful": true
+      },
+      "source_check": {
+        "citation_syntax": "pass",
+        "url_count": 1,
+        "urls": [
+          "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4675742.</ref"
+        ],
+        "factual_person_text_present": true
+      },
+      "eligibility": {
+        "status": "safe historical draft",
+        "post_1905_subject_birth_signal": false,
+        "living_or_private_signal": false,
+        "assessment": "No unsafe living/private subject signal; unknown dates remain unknown and no death is inferred."
+      },
+      "spouse_candidate_check": {
+        "status": "pass",
+        "assessment": "Spouse/household identities remain record context or qualified candidates; no spouse candidate is treated as the subject solely by association."
+      },
+      "creation_status": "draft_candidate",
+      "issues": []
+    },
+    "research/queue-review-2026-10-17/drafts/early-families/1647_Scotland_Leithford_Walter_Glasgow.md": {
+      "valid": true,
+      "subject_heading": "Walter Glasgow of Leithford, buried in 1647",
+      "minimum_fields": {
+        "present": true,
+        "section": "Minimum creation fields"
+      },
+      "biography": {
+        "present": true,
+        "characters": 990,
+        "has_biography": true,
+        "has_research_notes": true,
+        "has_sources": true,
+        "references_tag": true
+      },
+      "duplicate_audit": {
+        "present": true,
+        "characters": 653,
+        "meaningful": true
+      },
+      "source_check": {
+        "citation_syntax": "pass",
+        "url_count": 1,
+        "urls": [
+          "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1625437.</ref"
+        ],
+        "factual_person_text_present": true
+      },
+      "eligibility": {
+        "status": "safe historical draft",
+        "post_1905_subject_birth_signal": false,
+        "living_or_private_signal": false,
+        "assessment": "No unsafe living/private subject signal; unknown dates remain unknown and no death is inferred."
+      },
+      "spouse_candidate_check": {
+        "status": "pass",
+        "assessment": "Spouse/household identities remain record context or qualified candidates; no spouse candidate is treated as the subject solely by association."
+      },
+      "creation_status": "draft_candidate",
+      "issues": []
+    },
+    "research/queue-review-2026-10-17/drafts/early-families/1746_United_States_North_Carolina_Currituck_Sarah_Glasgow.md": {
+      "valid": true,
+      "subject_heading": "Sarah Glasgow, daughter of William of Currituck",
+      "minimum_fields": {
+        "present": true,
+        "section": "Minimum creation fields"
+      },
+      "biography": {
+        "present": true,
+        "characters": 1067,
+        "has_biography": true,
+        "has_research_notes": true,
+        "has_sources": true,
+        "references_tag": true
+      },
+      "duplicate_audit": {
+        "present": true,
+        "characters": 1391,
+        "meaningful": true
+      },
+      "source_check": {
+        "citation_syntax": "pass",
+        "url_count": 1,
+        "urls": [
+          "https://www.ncgenweb.us/currituck/wills/glasgowwilliam1746.html"
+        ],
+        "factual_person_text_present": true
+      },
+      "eligibility": {
+        "status": "safe historical draft",
+        "post_1905_subject_birth_signal": false,
+        "living_or_private_signal": false,
+        "assessment": "No unsafe living/private subject signal; unknown dates remain unknown and no death is inferred."
+      },
+      "spouse_candidate_check": {
+        "status": "pass",
+        "assessment": "Spouse/household identities remain record context or qualified candidates; no spouse candidate is treated as the subject solely by association."
+      },
+      "creation_status": "draft_candidate",
+      "issues": []
+    },
+    "research/queue-review-2026-10-17/drafts/later-newspapers/george-senior-artillery.md": {
+      "valid": true,
+      "subject_heading": "George Glasgow, senior Royal Artillery officer, 1811–1819",
+      "minimum_fields": {
+        "present": true,
+        "section": "Minimum creation fields"
+      },
+      "biography": {
+        "present": true,
+        "characters": 1917,
+        "has_biography": true,
+        "has_research_notes": true,
+        "has_sources": true,
+        "references_tag": true
+      },
+      "duplicate_audit": {
+        "present": true,
+        "characters": 1304,
+        "meaningful": true
+      },
+      "source_check": {
+        "citation_syntax": "pass",
+        "url_count": 3,
+        "urls": [
+          "https://www.biographi.ca/en/bio/glasgow_george_5E.html",
+          "https://www.newspapers.com/image/1050057308/",
+          "https://www.newspapers.com/image/1050144942/"
+        ],
+        "factual_person_text_present": true
+      },
+      "eligibility": {
+        "status": "safe historical draft",
+        "post_1905_subject_birth_signal": false,
+        "living_or_private_signal": false,
+        "assessment": "No unsafe living/private subject signal; unknown dates remain unknown and no death is inferred."
+      },
+      "spouse_candidate_check": {
+        "status": "pass",
+        "assessment": "Spouse/household identities remain record context or qualified candidates; no spouse candidate is treated as the subject solely by association."
+      },
+      "creation_status": "draft_candidate",
+      "issues": []
+    },
+    "research/queue-review-2026-10-17/drafts/later-newspapers/james-larne-demerara-1839.md": {
+      "valid": true,
+      "subject_heading": "James Glasgow, Larne native, died Demerara, 1839",
+      "minimum_fields": {
+        "present": true,
+        "section": "Minimum creation fields"
+      },
+      "biography": {
+        "present": true,
+        "characters": 807,
+        "has_biography": true,
+        "has_research_notes": true,
+        "has_sources": true,
+        "references_tag": true
+      },
+      "duplicate_audit": {
+        "present": true,
+        "characters": 1154,
+        "meaningful": true
+      },
+      "source_check": {
+        "citation_syntax": "pass",
+        "url_count": 1,
+        "urls": [
+          "https://www.newspapers.com/image/390552249/"
+        ],
+        "factual_person_text_present": true
+      },
+      "eligibility": {
+        "status": "safe historical draft",
+        "post_1905_subject_birth_signal": false,
+        "living_or_private_signal": false,
+        "assessment": "No unsafe living/private subject signal; unknown dates remain unknown and no death is inferred."
+      },
+      "spouse_candidate_check": {
+        "status": "pass",
+        "assessment": "Spouse/household identities remain record context or qualified candidates; no spouse candidate is treated as the subject solely by association."
+      },
+      "creation_status": "draft_candidate",
+      "issues": []
+    },
+    "research/queue-review-2026-10-17/drafts/later-newspapers/margaret-george.md": {
+      "valid": true,
+      "subject_heading": "Margaret George Glasgow, daughter of Drapersfield Benjamin",
+      "minimum_fields": {
+        "present": true,
+        "section": "Minimum creation fields"
+      },
+      "biography": {
+        "present": true,
+        "characters": 966,
+        "has_biography": true,
+        "has_research_notes": true,
+        "has_sources": true,
+        "references_tag": true
+      },
+      "duplicate_audit": {
+        "present": true,
+        "characters": 1316,
+        "meaningful": true
+      },
+      "source_check": {
+        "citation_syntax": "pass",
+        "url_count": 1,
+        "urls": [
+          "https://www.newspapers.com/image/388748472/"
+        ],
+        "factual_person_text_present": true
+      },
+      "eligibility": {
+        "status": "safe historical draft",
+        "post_1905_subject_birth_signal": false,
+        "living_or_private_signal": false,
+        "assessment": "No unsafe living/private subject signal; unknown dates remain unknown and no death is inferred."
+      },
+      "spouse_candidate_check": {
+        "status": "pass",
+        "assessment": "Spouse/household identities remain record context or qualified candidates; no spouse candidate is treated as the subject solely by association."
+      },
+      "creation_status": "draft_candidate",
+      "issues": []
+    },
+    "research/queue-review-2026-10-17/drafts/later-newspapers/owen-glasco-meath-repeal-association-1841-1843.md": {
+      "valid": true,
+      "subject_heading": "Owen Glasco, Meath Repeal Association records, 1841–1843",
+      "minimum_fields": {
+        "present": true,
+        "section": "Minimum creation fields"
+      },
+      "biography": {
+        "present": true,
+        "characters": 1459,
+        "has_biography": true,
+        "has_research_notes": true,
+        "has_sources": true,
+        "references_tag": true
+      },
+      "duplicate_audit": {
+        "present": true,
+        "characters": 1191,
+        "meaningful": true
+      },
+      "source_check": {
+        "citation_syntax": "pass",
+        "url_count": 2,
+        "urls": [
+          "https://www.newspapers.com/image/1050126480/",
+          "https://www.newspapers.com/image/1050131561/"
+        ],
+        "factual_person_text_present": true
+      },
+      "eligibility": {
+        "status": "safe historical draft",
+        "post_1905_subject_birth_signal": false,
+        "living_or_private_signal": false,
+        "assessment": "No unsafe living/private subject signal; unknown dates remain unknown and no death is inferred."
+      },
+      "spouse_candidate_check": {
+        "status": "pass",
+        "assessment": "Spouse/household identities remain record context or qualified candidates; no spouse candidate is treated as the subject solely by association."
+      },
+      "creation_status": "draft_candidate",
+      "issues": []
+    },
+    "research/queue-review-2026-10-17/drafts/later-newspapers/william-alexander-parsonstown.md": {
+      "valid": true,
+      "subject_heading": "HOLD — William Alexander Glasgow, Emma’s father",
+      "minimum_fields": {
+        "present": true,
+        "section": "Minimum fields"
+      },
+      "biography": {
+        "present": true,
+        "characters": 1301,
+        "has_biography": true,
+        "has_research_notes": true,
+        "has_sources": true,
+        "references_tag": true
+      },
+      "duplicate_audit": {
+        "present": true,
+        "characters": 925,
+        "meaningful": true
+      },
+      "source_check": {
+        "citation_syntax": "pass",
+        "url_count": 1,
+        "urls": [
+          "https://www.newspapers.com/image/1265675182/"
+        ],
+        "factual_person_text_present": true
+      },
+      "eligibility": {
+        "status": "safe historical draft",
+        "post_1905_subject_birth_signal": false,
+        "living_or_private_signal": false,
+        "assessment": "No unsafe living/private subject signal; unknown dates remain unknown and no death is inferred."
+      },
+      "spouse_candidate_check": {
+        "status": "pass",
+        "assessment": "Spouse/household identities remain record context or qualified candidates; no spouse candidate is treated as the subject solely by association."
+      },
+      "creation_status": "hold_existing_candidate",
+      "issues": []
+    },
+    "research/queue-review-2026-10-17/drafts/previous-reviewed/ballymena-hillis-elder-1857--alex-hillis.md": {
+      "valid": true,
+      "subject_heading": "Sourced new-profile draft — Alex Hillis",
+      "minimum_fields": {
+        "present": true,
+        "section": "Minimum fields"
+      },
+      "biography": {
+        "present": true,
+        "characters": 1749,
+        "has_biography": true,
+        "has_research_notes": true,
+        "has_sources": true,
+        "references_tag": true
+      },
+      "duplicate_audit": {
+        "present": true,
+        "characters": 583,
+        "meaningful": true
+      },
+      "source_check": {
+        "citation_syntax": "pass",
+        "url_count": 1,
+        "urls": [
+          "https://www.rootschat.com/forum/index.php?topic=214109.0;"
+        ],
+        "factual_person_text_present": true
+      },
+      "eligibility": {
+        "status": "safe historical draft",
+        "post_1905_subject_birth_signal": false,
+        "living_or_private_signal": false,
+        "assessment": "No unsafe living/private subject signal; unknown dates remain unknown and no death is inferred."
+      },
+      "spouse_candidate_check": {
+        "status": "pass",
+        "assessment": "Spouse/household identities remain record context or qualified candidates; no spouse candidate is treated as the subject solely by association."
+      },
+      "creation_status": "draft_candidate",
+      "issues": []
+    },
+    "research/queue-review-2026-10-17/drafts/previous-reviewed/ballymoney-elder-mccaughey-1887--jane-adams-mccaughey.md": {
+      "valid": true,
+      "subject_heading": "Sourced new-profile draft — Jane Adams McCaughey",
+      "minimum_fields": {
+        "present": true,
+        "section": "Minimum fields"
+      },
+      "biography": {
+        "present": true,
+        "characters": 1960,
+        "has_biography": true,
+        "has_research_notes": true,
+        "has_sources": true,
+        "references_tag": true
+      },
+      "duplicate_audit": {
+        "present": true,
+        "characters": 693,
+        "meaningful": true
+      },
+      "source_check": {
+        "citation_syntax": "pass",
+        "url_count": 1,
+        "urls": [
+          "https://www.rootschat.com/forum/index.php?topic=214109.0;"
+        ],
+        "factual_person_text_present": true
+      },
+      "eligibility": {
+        "status": "safe historical draft",
+        "post_1905_subject_birth_signal": false,
+        "living_or_private_signal": false,
+        "assessment": "No unsafe living/private subject signal; unknown dates remain unknown and no death is inferred."
+      },
+      "spouse_candidate_check": {
+        "status": "pass",
+        "assessment": "Spouse/household identities remain record context or qualified candidates; no spouse candidate is treated as the subject solely by association."
+      },
+      "creation_status": "draft_candidate",
+      "issues": []
+    },
+    "research/queue-review-2026-10-17/drafts/previous-reviewed/gortereghy-elder-and-anderson--alexander-elder.md": {
+      "valid": true,
+      "subject_heading": "Sourced new-profile draft — Alexander Elder",
+      "minimum_fields": {
+        "present": true,
+        "section": "Minimum fields"
+      },
+      "biography": {
+        "present": true,
+        "characters": 4957,
+        "has_biography": true,
+        "has_research_notes": true,
+        "has_sources": true,
+        "references_tag": true
+      },
+      "duplicate_audit": {
+        "present": true,
+        "characters": 858,
+        "meaningful": true
+      },
+      "source_check": {
+        "citation_syntax": "pass",
+        "url_count": 4,
+        "urls": [
+          "https://api-census.nationalarchives.ie/census/image/nai000298460.pdf;",
+          "https://api-census.nationalarchives.ie/census/image/nai001390156.pdf;",
+          "https://genealogy.torrens.org/BannValley/church/RasharkinP/graveyard.html;",
+          "https://www.rootschat.com/forum/index.php?topic=214109.0;"
+        ],
+        "factual_person_text_present": true
+      },
+      "eligibility": {
+        "status": "safe historical draft",
+        "post_1905_subject_birth_signal": false,
+        "living_or_private_signal": false,
+        "assessment": "No unsafe living/private subject signal; unknown dates remain unknown and no death is inferred."
+      },
+      "spouse_candidate_check": {
+        "status": "pass",
+        "assessment": "Spouse/household identities remain record context or qualified candidates; no spouse candidate is treated as the subject solely by association."
+      },
+      "creation_status": "draft_candidate",
+      "issues": []
+    },
+    "research/queue-review-2026-10-17/drafts/previous-reviewed/gortereghy-elder-and-anderson--sarah-elder.md": {
+      "valid": true,
+      "subject_heading": "Sourced new-profile draft — Sarah Elder",
+      "minimum_fields": {
+        "present": true,
+        "section": "Minimum fields"
+      },
+      "biography": {
+        "present": true,
+        "characters": 1614,
+        "has_biography": true,
+        "has_research_notes": true,
+        "has_sources": true,
+        "references_tag": true
+      },
+      "duplicate_audit": {
+        "present": true,
+        "characters": 593,
+        "meaningful": true
+      },
+      "source_check": {
+        "citation_syntax": "pass",
+        "url_count": 1,
+        "urls": [
+          "https://www.rootschat.com/forum/index.php?topic=214109.0;"
+        ],
+        "factual_person_text_present": true
+      },
+      "eligibility": {
+        "status": "safe historical draft",
+        "post_1905_subject_birth_signal": false,
+        "living_or_private_signal": false,
+        "assessment": "No unsafe living/private subject signal; unknown dates remain unknown and no death is inferred."
+      },
+      "spouse_candidate_check": {
+        "status": "pass",
+        "assessment": "Spouse/household identities remain record context or qualified candidates; no spouse candidate is treated as the subject solely by association."
+      },
+      "creation_status": "draft_candidate",
+      "issues": []
+    },
+    "research/queue-review-2026-10-17/drafts/previous-reviewed/gortereghy-elder-households-1911--ellen-elder.md": {
+      "valid": true,
+      "subject_heading": "Sourced new-profile draft — Ellen Elder",
+      "minimum_fields": {
+        "present": true,
+        "section": "Minimum fields"
+      },
+      "biography": {
+        "present": true,
+        "characters": 1842,
+        "has_biography": true,
+        "has_research_notes": true,
+        "has_sources": true,
+        "references_tag": true
+      },
+      "duplicate_audit": {
+        "present": true,
+        "characters": 629,
+        "meaningful": true
+      },
+      "source_check": {
+        "citation_syntax": "pass",
+        "url_count": 2,
+        "urls": [
+          "https://api-census.nationalarchives.ie/census/image/nai001390136.pdf;",
+          "https://api-census.nationalarchives.ie/census/image/nai001390154.pdf;"
+        ],
+        "factual_person_text_present": true
+      },
+      "eligibility": {
+        "status": "safe historical draft",
+        "post_1905_subject_birth_signal": false,
+        "living_or_private_signal": false,
+        "assessment": "No unsafe living/private subject signal; unknown dates remain unknown and no death is inferred."
+      },
+      "spouse_candidate_check": {
+        "status": "pass",
+        "assessment": "Spouse/household identities remain record context or qualified candidates; no spouse candidate is treated as the subject solely by association."
+      },
+      "creation_status": "draft_candidate",
+      "issues": []
+    },
+    "research/queue-review-2026-10-17/drafts/previous-reviewed/gortereghy-mccaughern-household-1911--caroline-mccaughern.md": {
+      "valid": true,
+      "subject_heading": "Sourced new-profile draft — Caroline McCaughern",
+      "minimum_fields": {
+        "present": true,
+        "section": "Minimum fields"
+      },
+      "biography": {
+        "present": true,
+        "characters": 3326,
+        "has_biography": true,
+        "has_research_notes": true,
+        "has_sources": true,
+        "references_tag": true
+      },
+      "duplicate_audit": {
+        "present": true,
+        "characters": 755,
+        "meaningful": true
+      },
+      "source_check": {
+        "citation_syntax": "pass",
+        "url_count": 3,
+        "urls": [
+          "https://api-census.nationalarchives.ie/census/image/nai000298441.pdf;",
+          "https://api-census.nationalarchives.ie/census/image/nai001390134.pdf;",
+          "https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1851/09402/5405894.pdf;"
+        ],
+        "factual_person_text_present": true
+      },
+      "eligibility": {
+        "status": "safe historical draft",
+        "post_1905_subject_birth_signal": false,
+        "living_or_private_signal": false,
+        "assessment": "No unsafe living/private subject signal; unknown dates remain unknown and no death is inferred."
+      },
+      "spouse_candidate_check": {
+        "status": "pass",
+        "assessment": "Spouse/household identities remain record context or qualified candidates; no spouse candidate is treated as the subject solely by association."
+      },
+      "creation_status": "draft_candidate",
+      "issues": []
+    },
+    "research/queue-review-2026-10-17/drafts/previous-reviewed/gortereghy-mccaughern-household-1911--geo-mulholland.md": {
+      "valid": true,
+      "subject_heading": "Sourced new-profile draft — Geo Mulholland",
+      "minimum_fields": {
+        "present": true,
+        "section": "Minimum fields"
+      },
+      "biography": {
+        "present": true,
+        "characters": 3288,
+        "has_biography": true,
+        "has_research_notes": true,
+        "has_sources": true,
+        "references_tag": true
+      },
+      "duplicate_audit": {
+        "present": true,
+        "characters": 509,
+        "meaningful": true
+      },
+      "source_check": {
+        "citation_syntax": "pass",
+        "url_count": 3,
+        "urls": [
+          "https://api-census.nationalarchives.ie/census/image/nai000298441.pdf;",
+          "https://api-census.nationalarchives.ie/census/image/nai001390134.pdf;",
+          "https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1851/09402/5405894.pdf;"
+        ],
+        "factual_person_text_present": true
+      },
+      "eligibility": {
+        "status": "safe historical draft",
+        "post_1905_subject_birth_signal": false,
+        "living_or_private_signal": false,
+        "assessment": "No unsafe living/private subject signal; unknown dates remain unknown and no death is inferred."
+      },
+      "spouse_candidate_check": {
+        "status": "pass",
+        "assessment": "Spouse/household identities remain record context or qualified candidates; no spouse candidate is treated as the subject solely by association."
+      },
+      "creation_status": "draft_candidate",
+      "issues": []
+    },
+    "research/queue-review-2026-10-17/drafts/previous-reviewed/gortereghy-mccaughern-household-1911--jas-alex-mccaughern.md": {
+      "valid": true,
+      "subject_heading": "Sourced new-profile draft — Jas Alex McCaughern",
+      "minimum_fields": {
+        "present": true,
+        "section": "Minimum fields"
+      },
+      "biography": {
+        "present": true,
+        "characters": 3338,
+        "has_biography": true,
+        "has_research_notes": true,
+        "has_sources": true,
+        "references_tag": true
+      },
+      "duplicate_audit": {
+        "present": true,
+        "characters": 738,
+        "meaningful": true
+      },
+      "source_check": {
+        "citation_syntax": "pass",
+        "url_count": 3,
+        "urls": [
+          "https://api-census.nationalarchives.ie/census/image/nai000298441.pdf;",
+          "https://api-census.nationalarchives.ie/census/image/nai001390134.pdf;",
+          "https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1851/09402/5405894.pdf;"
+        ],
+        "factual_person_text_present": true
+      },
+      "eligibility": {
+        "status": "safe historical draft",
+        "post_1905_subject_birth_signal": false,
+        "living_or_private_signal": false,
+        "assessment": "No unsafe living/private subject signal; unknown dates remain unknown and no death is inferred."
+      },
+      "spouse_candidate_check": {
+        "status": "pass",
+        "assessment": "Spouse/household identities remain record context or qualified candidates; no spouse candidate is treated as the subject solely by association."
+      },
+      "creation_status": "draft_candidate",
+      "issues": []
+    },
+    "research/queue-review-2026-10-17/drafts/previous-reviewed/gortereghy-mccaughern-household-1911--matilda-mulholland.md": {
+      "valid": true,
+      "subject_heading": "Sourced new-profile draft — Matilda Mulholland",
+      "minimum_fields": {
+        "present": true,
+        "section": "Minimum fields"
+      },
+      "biography": {
+        "present": true,
+        "characters": 4058,
+        "has_biography": true,
+        "has_research_notes": true,
+        "has_sources": true,
+        "references_tag": true
+      },
+      "duplicate_audit": {
+        "present": true,
+        "characters": 736,
+        "meaningful": true
+      },
+      "source_check": {
+        "citation_syntax": "pass",
+        "url_count": 4,
+        "urls": [
+          "https://api-census.nationalarchives.ie/census/image/nai000298441.pdf;",
+          "https://api-census.nationalarchives.ie/census/image/nai000358901.pdf;",
+          "https://api-census.nationalarchives.ie/census/image/nai001390134.pdf;",
+          "https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1851/09402/5405894.pdf;"
+        ],
+        "factual_person_text_present": true
+      },
+      "eligibility": {
+        "status": "safe historical draft",
+        "post_1905_subject_birth_signal": false,
+        "living_or_private_signal": false,
+        "assessment": "No unsafe living/private subject signal; unknown dates remain unknown and no death is inferred."
+      },
+      "spouse_candidate_check": {
+        "status": "pass",
+        "assessment": "Spouse/household identities remain record context or qualified candidates; no spouse candidate is treated as the subject solely by association."
+      },
+      "creation_status": "draft_candidate",
+      "issues": []
+    },
+    "research/queue-review-2026-10-17/drafts/previous-reviewed/gortereghy-mccaughern-household-1911--sara-jane-mccaughern.md": {
+      "valid": true,
+      "subject_heading": "Sourced new-profile draft — Sara Jane McCaughern",
+      "minimum_fields": {
+        "present": true,
+        "section": "Minimum fields"
+      },
+      "biography": {
+        "present": true,
+        "characters": 3418,
+        "has_biography": true,
+        "has_research_notes": true,
+        "has_sources": true,
+        "references_tag": true
+      },
+      "duplicate_audit": {
+        "present": true,
+        "characters": 971,
+        "meaningful": true
+      },
+      "source_check": {
+        "citation_syntax": "pass",
+        "url_count": 3,
+        "urls": [
+          "https://api-census.nationalarchives.ie/census/image/nai000298441.pdf;",
+          "https://api-census.nationalarchives.ie/census/image/nai001390134.pdf;",
+          "https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1851/09402/5405894.pdf;"
+        ],
+        "factual_person_text_present": true
+      },
+      "eligibility": {
+        "status": "safe historical draft",
+        "post_1905_subject_birth_signal": false,
+        "living_or_private_signal": false,
+        "assessment": "No unsafe living/private subject signal; unknown dates remain unknown and no death is inferred."
+      },
+      "spouse_candidate_check": {
+        "status": "pass",
+        "assessment": "Spouse/household identities remain record context or qualified candidates; no spouse candidate is treated as the subject solely by association."
+      },
+      "creation_status": "draft_candidate",
+      "issues": []
+    },
+    "research/queue-review-2026-10-17/drafts/previous-reviewed/kilraughts-montgomery-mccaughey-1839--jane-mccaughey.md": {
+      "valid": true,
+      "subject_heading": "Sourced new-profile draft — Jane McCaughey",
+      "minimum_fields": {
+        "present": true,
+        "section": "Minimum fields"
+      },
+      "biography": {
+        "present": true,
+        "characters": 1911,
+        "has_biography": true,
+        "has_research_notes": true,
+        "has_sources": true,
+        "references_tag": true
+      },
+      "duplicate_audit": {
+        "present": true,
+        "characters": 441,
+        "meaningful": true
+      },
+      "source_check": {
+        "citation_syntax": "pass",
+        "url_count": 2,
+        "urls": [
+          "https://genealogy.torrens.org/BannValley/church/TamlaghtP/Baptisms.html;",
+          "https://ulsterlees.azurewebsites.net/families/co-antrim/ballymoney-area/;"
+        ],
+        "factual_person_text_present": true
+      },
+      "eligibility": {
+        "status": "safe historical draft",
+        "post_1905_subject_birth_signal": false,
+        "living_or_private_signal": false,
+        "assessment": "No unsafe living/private subject signal; unknown dates remain unknown and no death is inferred."
+      },
+      "spouse_candidate_check": {
+        "status": "pass",
+        "assessment": "Spouse/household identities remain record context or qualified candidates; no spouse candidate is treated as the subject solely by association."
+      },
+      "creation_status": "draft_candidate",
+      "issues": []
+    },
+    "research/queue-review-2026-10-17/drafts/previous-reviewed/lisnagaver-macaw-kilpatrick-1839--hugh-macaw.md": {
+      "valid": true,
+      "subject_heading": "Sourced new-profile draft — Hugh Macaw",
+      "minimum_fields": {
+        "present": true,
+        "section": "Minimum fields"
+      },
+      "biography": {
+        "present": true,
+        "characters": 3105,
+        "has_biography": true,
+        "has_research_notes": true,
+        "has_sources": true,
+        "references_tag": true
+      },
+      "duplicate_audit": {
+        "present": true,
+        "characters": 955,
+        "meaningful": true
+      },
+      "source_check": {
+        "citation_syntax": "pass",
+        "url_count": 1,
+        "urls": [
+          "https://genealogy.torrens.org/BannValley/church/RasharkinP/Baptisms_1834.html;"
+        ],
+        "factual_person_text_present": true
+      },
+      "eligibility": {
+        "status": "safe historical draft",
+        "post_1905_subject_birth_signal": false,
+        "living_or_private_signal": false,
+        "assessment": "No unsafe living/private subject signal; unknown dates remain unknown and no death is inferred."
+      },
+      "spouse_candidate_check": {
+        "status": "pass",
+        "assessment": "Spouse/household identities remain record context or qualified candidates; no spouse candidate is treated as the subject solely by association."
+      },
+      "creation_status": "draft_candidate",
+      "issues": []
+    },
+    "research/queue-review-2026-10-17/drafts/previous-reviewed/newspapers-irish-1800-1850--james-larne-demerara.md": {
+      "valid": true,
+      "subject_heading": "Sourced new-profile draft — James Glasgow, Larne native who died in Demerara, 1839",
+      "minimum_fields": {
+        "present": true,
+        "section": "Minimum fields"
+      },
+      "biography": {
+        "present": true,
+        "characters": 1574,
+        "has_biography": true,
+        "has_research_notes": true,
+        "has_sources": true,
+        "references_tag": true
+      },
+      "duplicate_audit": {
+        "present": true,
+        "characters": 388,
+        "meaningful": true
+      },
+      "source_check": {
+        "citation_syntax": "pass",
+        "url_count": 1,
+        "urls": [
+          "https://www.newspapers.com/image/390552249/"
+        ],
+        "factual_person_text_present": true
+      },
+      "eligibility": {
+        "status": "safe historical draft",
+        "post_1905_subject_birth_signal": false,
+        "living_or_private_signal": false,
+        "assessment": "No unsafe living/private subject signal; unknown dates remain unknown and no death is inferred."
+      },
+      "spouse_candidate_check": {
+        "status": "pass",
+        "assessment": "Spouse/household identities remain record context or qualified candidates; no spouse candidate is treated as the subject solely by association."
+      },
+      "creation_status": "draft_candidate",
+      "issues": []
+    },
+    "research/queue-review-2026-10-17/drafts/previous-reviewed/opr-agnes-marriages--patrik-paul.md": {
+      "valid": true,
+      "subject_heading": "Sourced new-profile draft — Patrik Paul",
+      "minimum_fields": {
+        "present": true,
+        "section": "Minimum fields"
+      },
+      "biography": {
+        "present": true,
+        "characters": 2189,
+        "has_biography": true,
+        "has_research_notes": true,
+        "has_sources": true,
+        "references_tag": true
+      },
+      "duplicate_audit": {
+        "present": true,
+        "characters": 1155,
+        "meaningful": true
+      },
+      "source_check": {
+        "citation_syntax": "pass",
+        "url_count": 1,
+        "urls": [
+          "https://www.scotlandspeople.gov.uk/."
+        ],
+        "factual_person_text_present": true
+      },
+      "eligibility": {
+        "status": "safe historical draft",
+        "post_1905_subject_birth_signal": false,
+        "living_or_private_signal": false,
+        "assessment": "No unsafe living/private subject signal; unknown dates remain unknown and no death is inferred."
+      },
+      "spouse_candidate_check": {
+        "status": "pass",
+        "assessment": "Spouse/household identities remain record context or qualified candidates; no spouse candidate is treated as the subject solely by association."
+      },
+      "creation_status": "draft_candidate",
+      "issues": []
+    },
+    "research/queue-review-2026-10-17/drafts/previous-reviewed/opr-alison-marriages--alison-glasgow.md": {
+      "valid": true,
+      "subject_heading": "Sourced new-profile draft — Alison Glasgow",
+      "minimum_fields": {
+        "present": true,
+        "section": "Minimum fields"
+      },
+      "biography": {
+        "present": true,
+        "characters": 5583,
+        "has_biography": true,
+        "has_research_notes": true,
+        "has_sources": true,
+        "references_tag": true
+      },
+      "duplicate_audit": {
+        "present": true,
+        "characters": 1243,
+        "meaningful": true
+      },
+      "source_check": {
+        "citation_syntax": "pass",
+        "url_count": 3,
+        "urls": [
+          "https://electricscotland.com/history/records/scottishrecordso16scotuoft.pdf#page=126",
+          "https://electricscotland.com/history/records/scottishrecordso16scotuoft.pdf#page=751",
+          "https://www.scotlandspeople.gov.uk/."
+        ],
+        "factual_person_text_present": true
+      },
+      "eligibility": {
+        "status": "safe historical draft",
+        "post_1905_subject_birth_signal": false,
+        "living_or_private_signal": false,
+        "assessment": "No unsafe living/private subject signal; unknown dates remain unknown and no death is inferred."
+      },
+      "spouse_candidate_check": {
+        "status": "pass",
+        "assessment": "Spouse/household identities remain record context or qualified candidates; no spouse candidate is treated as the subject solely by association."
+      },
+      "creation_status": "draft_candidate",
+      "issues": []
+    },
+    "research/queue-review-2026-10-17/drafts/previous-reviewed/opr-alison-marriages--george-cargill.md": {
+      "valid": true,
+      "subject_heading": "Sourced new-profile draft — George Cargill",
+      "minimum_fields": {
+        "present": true,
+        "section": "Minimum fields"
+      },
+      "biography": {
+        "present": true,
+        "characters": 2830,
+        "has_biography": true,
+        "has_research_notes": true,
+        "has_sources": true,
+        "references_tag": true
+      },
+      "duplicate_audit": {
+        "present": true,
+        "characters": 520,
+        "meaningful": true
+      },
+      "source_check": {
+        "citation_syntax": "pass",
+        "url_count": 2,
+        "urls": [
+          "https://electricscotland.com/history/records/scottishrecordso16scotuoft.pdf#page=126",
+          "https://www.scotlandspeople.gov.uk/."
+        ],
+        "factual_person_text_present": true
+      },
+      "eligibility": {
+        "status": "safe historical draft",
+        "post_1905_subject_birth_signal": false,
+        "living_or_private_signal": false,
+        "assessment": "No unsafe living/private subject signal; unknown dates remain unknown and no death is inferred."
+      },
+      "spouse_candidate_check": {
+        "status": "pass",
+        "assessment": "Spouse/household identities remain record context or qualified candidates; no spouse candidate is treated as the subject solely by association."
+      },
+      "creation_status": "draft_candidate",
+      "issues": []
+    },
+    "research/queue-review-2026-10-17/drafts/previous-reviewed/opr-jean-marriages--robert-aliesone.md": {
+      "valid": true,
+      "subject_heading": "Sourced new-profile draft — Robert Aliesone",
+      "minimum_fields": {
+        "present": true,
+        "section": "Minimum fields"
+      },
+      "biography": {
+        "present": true,
+        "characters": 2173,
+        "has_biography": true,
+        "has_research_notes": true,
+        "has_sources": true,
+        "references_tag": true
+      },
+      "duplicate_audit": {
+        "present": true,
+        "characters": 1093,
+        "meaningful": true
+      },
+      "source_check": {
+        "citation_syntax": "pass",
+        "url_count": 1,
+        "urls": [
+          "https://www.scotlandspeople.gov.uk/."
+        ],
+        "factual_person_text_present": true
+      },
+      "eligibility": {
+        "status": "safe historical draft",
+        "post_1905_subject_birth_signal": false,
+        "living_or_private_signal": false,
+        "assessment": "No unsafe living/private subject signal; unknown dates remain unknown and no death is inferred."
+      },
+      "spouse_candidate_check": {
+        "status": "pass",
+        "assessment": "Spouse/household identities remain record context or qualified candidates; no spouse candidate is treated as the subject solely by association."
+      },
+      "creation_status": "draft_candidate",
+      "issues": []
+    },
+    "research/queue-review-2026-10-17/drafts/previous-reviewed/opr-thomas-marriages--gyles-spence.md": {
+      "valid": true,
+      "subject_heading": "Sourced new-profile draft — Gyles Spence",
+      "minimum_fields": {
+        "present": true,
+        "section": "Minimum fields"
+      },
+      "biography": {
+        "present": true,
+        "characters": 2890,
+        "has_biography": true,
+        "has_research_notes": true,
+        "has_sources": true,
+        "references_tag": true
+      },
+      "duplicate_audit": {
+        "present": true,
+        "characters": 2369,
+        "meaningful": true
+      },
+      "source_check": {
+        "citation_syntax": "pass",
+        "url_count": 1,
+        "urls": [
+          "https://www.scotlandspeople.gov.uk/."
+        ],
+        "factual_person_text_present": true
+      },
+      "eligibility": {
+        "status": "safe historical draft",
+        "post_1905_subject_birth_signal": false,
+        "living_or_private_signal": false,
+        "assessment": "No unsafe living/private subject signal; unknown dates remain unknown and no death is inferred."
+      },
+      "spouse_candidate_check": {
+        "status": "pass",
+        "assessment": "Spouse/household identities remain record context or qualified candidates; no spouse candidate is treated as the subject solely by association."
+      },
+      "creation_status": "draft_candidate",
+      "issues": []
+    },
+    "research/queue-review-2026-10-17/drafts/previous-reviewed/rasharkin-directory-1912--peter-mccaughern.md": {
+      "valid": true,
+      "subject_heading": "Sourced new-profile draft — Peter McCaughern",
+      "minimum_fields": {
+        "present": true,
+        "section": "Minimum fields"
+      },
+      "biography": {
+        "present": true,
+        "characters": 2309,
+        "has_biography": true,
+        "has_research_notes": true,
+        "has_sources": true,
+        "references_tag": true
+      },
+      "duplicate_audit": {
+        "present": true,
+        "characters": 744,
+        "meaningful": true
+      },
+      "source_check": {
+        "citation_syntax": "pass",
+        "url_count": 2,
+        "urls": [
+          "https://api-census.nationalarchives.ie/census/image/nai001389792.pdf;",
+          "https://lennonwylie.co.uk/PT191214.htm;"
+        ],
+        "factual_person_text_present": true
+      },
+      "eligibility": {
+        "status": "safe historical draft",
+        "post_1905_subject_birth_signal": false,
+        "living_or_private_signal": false,
+        "assessment": "No unsafe living/private subject signal; unknown dates remain unknown and no death is inferred."
+      },
+      "spouse_candidate_check": {
+        "status": "pass",
+        "assessment": "Spouse/household identities remain record context or qualified candidates; no spouse candidate is treated as the subject solely by association."
+      },
+      "creation_status": "draft_candidate",
+      "issues": []
+    }
+  }
+}

@@ -1,5 +1,12 @@
 # George Glasgow, Royal Artillery reports, 1771–1795
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**George Glasgow, Royal Artillery reports, 1771–1795: Compatible existing profile(s): [[Glasgow-1070]], [[Glasgow-4165]], [[Glasgow-1529]].** [Current evidence and complete draft](/research/subjects/newspapers-early-glasgow/#george-glasgow-royal-artillery-1771-1795). Retain George-1070 and George-4165 as weak older candidates for the 1771 lieutenant; George-1529, estimated c 1769, has severe early-service age tension but could fit the 1793/1795 captain/major. Do not assign the entire 1771–1795 career to George-1529. Live exact-surname George search found no better explicitly military profile. The progressive Royal Artillery ranks support one provisional career, not a proved life identity.
+
+<!-- identity-review-2026-10-17:end -->
+
 HOLD — documented record; profile assignment qualified
 
 [[Category:Glasgow Name Study]]

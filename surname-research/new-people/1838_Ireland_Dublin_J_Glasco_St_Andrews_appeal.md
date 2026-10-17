@@ -1,5 +1,12 @@
 # HOLD — J. Glasco, St Andrew’s parish appeal signatory, 1838
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**J. Glasco, St Andrew’s parish appeal signatory, 1838: Compatible existing profile(s): [[Glasgow-3927]].** [Current evidence and complete draft](/research/subjects/newspapers-irish-1800-1850/#j-glasco-st-andrews-annuity-appeal-1838). 3927 remains a weak compatible J./John Glasco comparison: an adult Inishrush householder in 1831 with no proved later identity. The 1838 appeal supplies only J., no occupation or family; do not expand that initial as fact. 822 is a proposed identity for 3927, but its actual biography places him in Ohio from 1833, materially weakening direct Dublin assignment. No initial-only new person recommended.
+
+<!-- identity-review-2026-10-17:end -->
+
 HOLD — signatory identity unresolved
 
 ## Identity assessment

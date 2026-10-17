@@ -1946,3 +1946,40 @@ The August completion entries remain historical. The live parent fields are now 
 | [James Glasgow of Whitecastle](https://www.wikitree.com/wiki/Glasgow-1376) | OPEN | Correct July 1672 imprisonment and probable Libberton setting; review the conditional uncertain father and possible duplicate James identity, with no mother or merge. |
 | [James Glasgow, possible Lindsaylands weaver](https://www.wikitree.com/wiki/Glasgow-3332) | OPEN | Correct July 1672 imprisonment and probable Libberton setting; review the conditional uncertain father and possible duplicate James identity, with no mother or merge. |
 | [John Glasgow of Quothquan](https://www.wikitree.com/wiki/Glasgow-1086) | OPEN | Correct July 1672 imprisonment and probable Libberton setting; review the conditional uncertain father and possible duplicate James identity, with no mother or merge. |
+
+<!-- queue-new-profile-suggestions-2026-10-17:start -->
+## Suggested new profiles — reviewed 17 October 2026
+
+Existing-profile searches and their limits are recorded in each complete sourced draft. These are local suggestions; no live creation has been performed. Preserve the stated source-reading, family and chronology qualifications.
+
+| Person | Status | Complete sourced draft |
+| --- | --- | --- |
+| Peter McCaughern | SUGGESTED NEW | [Draft](../research/queue-review-2026-10-17/drafts/previous-reviewed/rasharkin-directory-1912--peter-mccaughern.md) |
+| Alexander Elder | SUGGESTED NEW | [Draft](../research/queue-review-2026-10-17/drafts/previous-reviewed/gortereghy-elder-and-anderson--alexander-elder.md) |
+| Sarah Elder | SUGGESTED NEW | [Draft](../research/queue-review-2026-10-17/drafts/previous-reviewed/gortereghy-elder-and-anderson--sarah-elder.md) |
+| Jane Adams McCaughey | SUGGESTED NEW | [Draft](../research/queue-review-2026-10-17/drafts/previous-reviewed/ballymoney-elder-mccaughey-1887--jane-adams-mccaughey.md) |
+| Alex Hillis | SUGGESTED NEW | [Draft](../research/queue-review-2026-10-17/drafts/previous-reviewed/ballymena-hillis-elder-1857--alex-hillis.md) |
+| Jane McCaughey | SUGGESTED NEW | [Draft](../research/queue-review-2026-10-17/drafts/previous-reviewed/kilraughts-montgomery-mccaughey-1839--jane-mccaughey.md) |
+| Hugh Macaw | SUGGESTED NEW | [Draft](../research/queue-review-2026-10-17/drafts/previous-reviewed/lisnagaver-macaw-kilpatrick-1839--hugh-macaw.md) |
+| Ellen Elder | SUGGESTED NEW | [Draft](../research/queue-review-2026-10-17/drafts/previous-reviewed/gortereghy-elder-households-1911--ellen-elder.md) |
+| Matilda Mulholland | SUGGESTED NEW | [Draft](../research/queue-review-2026-10-17/drafts/previous-reviewed/gortereghy-mccaughern-household-1911--matilda-mulholland.md) |
+| Caroline McCaughern | SUGGESTED NEW | [Draft](../research/queue-review-2026-10-17/drafts/previous-reviewed/gortereghy-mccaughern-household-1911--caroline-mccaughern.md) |
+| Sara Jane McCaughern | SUGGESTED NEW | [Draft](../research/queue-review-2026-10-17/drafts/previous-reviewed/gortereghy-mccaughern-household-1911--sara-jane-mccaughern.md) |
+| Jas Alex McCaughern | SUGGESTED NEW | [Draft](../research/queue-review-2026-10-17/drafts/previous-reviewed/gortereghy-mccaughern-household-1911--jas-alex-mccaughern.md) |
+| Geo Mulholland | SUGGESTED NEW | [Draft](../research/queue-review-2026-10-17/drafts/previous-reviewed/gortereghy-mccaughern-household-1911--geo-mulholland.md) |
+| Alison Glasgow | SUGGESTED NEW | [Draft](../research/queue-review-2026-10-17/drafts/previous-reviewed/opr-alison-marriages--alison-glasgow.md) |
+| George Cargill | SUGGESTED NEW | [Draft](../research/queue-review-2026-10-17/drafts/previous-reviewed/opr-alison-marriages--george-cargill.md) |
+| Gyles Spence | SUGGESTED NEW | [Draft](../research/queue-review-2026-10-17/drafts/previous-reviewed/opr-thomas-marriages--gyles-spence.md) |
+| Patrik Paul | SUGGESTED NEW | [Draft](../research/queue-review-2026-10-17/drafts/previous-reviewed/opr-agnes-marriages--patrik-paul.md) |
+| Robert Aliesone | SUGGESTED NEW | [Draft](../research/queue-review-2026-10-17/drafts/previous-reviewed/opr-jean-marriages--robert-aliesone.md) |
+| Nicholas Glasco / Glascoe | SUGGESTED NEW | [Draft](../surname-research/new-people/1746_England_Southwark_Nicholas_Glasco.md) |
+| Margaret George Glasgow, daughter of Drapersfield Benjamin | SUGGESTED NEW | [Draft](../research/queue-review-2026-10-17/drafts/later-newspapers/margaret-george.md) |
+| James Glasgow, Larne native who died in Demerara, 1839 | SUGGESTED NEW | [Draft](../research/queue-review-2026-10-17/drafts/previous-reviewed/newspapers-irish-1800-1850--james-larne-demerara.md) |
+| George Glasgow, senior Royal Artillery officer, 1811–1819 | SUGGESTED NEW | [Draft](../research/queue-review-2026-10-17/drafts/later-newspapers/george-senior-artillery.md) |
+| Owen Glasco, Meath Repeal Association records, 1841–1843 | SUGGESTED NEW | [Draft](../research/queue-review-2026-10-17/drafts/later-newspapers/owen-glasco-meath-repeal-association-1841-1843.md) |
+| Issobella Miral | SUGGESTED NEW | [Draft](../research/queue-review-2026-10-17/drafts/early-families/1639_Scotland_Haddington_Issobella_Miral.md) |
+| Walter Glasgow of Leithford, buried in 1647 | SUGGESTED NEW | [Draft](../research/queue-review-2026-10-17/drafts/early-families/1647_Scotland_Leithford_Walter_Glasgow.md) |
+| Thomas Glasgow of Quothquan, 1527/28 | SUGGESTED NEW | [Draft](../research/queue-review-2026-10-17/drafts/early-families/1528_Scotland_Quothquan_Thomas_Glasgow.md) |
+| Sarah Glasgow, daughter of William of Currituck | SUGGESTED NEW | [Draft](../research/queue-review-2026-10-17/drafts/early-families/1746_United_States_North_Carolina_Currituck_Sarah_Glasgow.md) |
+
+<!-- queue-new-profile-suggestions-2026-10-17:end -->

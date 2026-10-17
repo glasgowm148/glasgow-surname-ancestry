@@ -1,5 +1,12 @@
 # George Glasgow, Glasgow merchant and Nethermains notices, 1767–1777
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**George Glasgow, Glasgow merchant and Nethermains notices, 1767–1777: Compatible existing profile(s): [[Glasgow-1070]], [[Glasgow-4165]], [[Glasgow-1058]], [[Glasgow-3312]].** [Current evidence and complete draft](/research/subjects/newspapers-early-glasgow/#george-glasgow-merchant-nethermains-1767-1777). Prefer the Kilwinning candidates Glasgow-3312 (1729–1768) and Glasgow-1070 (1719), retaining George-4165 and George-1058 as alternatives. The 1768 exact death of George-3312 does not conflict with later references to lands formerly belonging to George or repeated sale notices. Kilwinning/Nethermains is a locality argument, not proof. Keep one property/merchant study, separate from Manchester and military careers.
+
+<!-- identity-review-2026-10-17:end -->
+
 HOLD — documented record; profile assignment qualified
 
 [[Category:Glasgow Name Study]]

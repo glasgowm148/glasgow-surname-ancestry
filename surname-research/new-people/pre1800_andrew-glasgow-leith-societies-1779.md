@@ -1,5 +1,12 @@
 # Andrew Glasgow, Leith society and merchant notices, 1779–1790
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**Andrew Glasgow, Leith society and merchant notices, 1779–1790: Compatible existing profile(s): [[Glasgow-3052]], [[Glasgow-1333]], [[Glasgow-1481]].** [Current evidence and complete draft](/research/subjects/newspapers-early-glasgow/#andrew-glasgow-leith-societies-1779). Select Glasgow-3052 as the leading tentative Midlothian candidate (uncertain 1720 Kirknewton/East Calder birth); retain Glasgow-1333, before-1747 West Calder, and Glasgow-1481, before-1776 Edinburgh, as alternatives. The latter dates are upper birth bounds. The 1779 signatory and 1790 Kirkgate merchant form one provisional Leith cluster; no trade, tax office or family is transferred between events.
+
+<!-- identity-review-2026-10-17:end -->
+
 HOLD — documented record; profile assignment qualified
 
 [[Category:Glasgow Name Study]]

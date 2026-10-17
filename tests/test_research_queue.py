@@ -3,7 +3,7 @@ import json
 import tempfile
 from pathlib import Path
 from bs4 import BeautifulSoup
-from tools.build_research_queue import collect, render, apply_match_reviews, profile_href, consolidate_record_reviews, apply_batch_progress
+from tools.build_research_queue import collect, render, apply_match_reviews, profile_href, consolidate_record_reviews, apply_batch_progress, new_profile_suggestions, render_new_profiles
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -49,6 +49,32 @@ class ResearchQueueTests(unittest.TestCase):
         self.assertIn('1 records need identity review', soup.select_one('#rq-progress').text)
         self.assertEqual('complete', soup.select_one('tbody tr')['data-reviewed'])
         self.assertEqual(['', 'pending', 'complete'], [o['value'] for o in soup.select('#rq-review option')])
+
+    def test_new_suggestions_require_real_sourced_drafts_and_exclude_candidates(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / 'research/latest-findings-subjects').mkdir(parents=True)
+            review = dict(status='no_compatible_profile', profile_ids=[], assessment='Named child; checked candidates conflict.')
+            registry = dict(reviewed_on='2026-10-17', reviews={'subject-family-jane': review})
+            person = dict(anchor='jane', name='Jane', minimum_fields='Father named; birth unknown.', facts=[],
+                          duplicate_check=['Actual dated search scope.'],
+                          wikitext='== Biography ==\nJane is named.<ref>Record citation</ref>\n== Sources ==\n<references />')
+            path = root / 'research/latest-findings-subjects/subjects.json'
+            path.write_text(json.dumps(dict(groups=[dict(slug='family', people=[person])])))
+            registry_path = root / 'research/research-queue-matches.json'
+            registry_path.write_text(json.dumps(registry))
+            suggestions = new_profile_suggestions(root)
+            self.assertEqual(1, len(suggestions))
+            soup = BeautifulSoup(render_new_profiles(suggestions), 'html.parser')
+            self.assertEqual('/research/subjects/family/#jane', soup.select_one('li a')['href'])
+            self.assertIn('Needs updated on WikiTree', soup.select_one('h2').text)
+            person['wikitext'] = 'Empty placeholder'
+            path.write_text(json.dumps(dict(groups=[dict(slug='family', people=[person])])))
+            with self.assertRaises(ValueError):
+                new_profile_suggestions(root)
+            review.update(status='compatible_candidate', profile_ids=['Example-1'])
+            registry_path.write_text(json.dumps(registry))
+            self.assertEqual([], new_profile_suggestions(root))
 
     def test_consolidation_retains_people_and_separates_distinct_events(self):
         def row(ident, person, keys, profile):
@@ -109,6 +135,12 @@ class ResearchQueueTests(unittest.TestCase):
             if row['kind'] == 'WikiTree amendment':
                 self.assertTrue(row['url'].startswith('/people/'))
         self.assertTrue(all(d['wikitext'] for d in drafts))
+        subjects = json.loads((ROOT / 'research/latest-findings-subjects/subjects.json').read_text())
+        owned = {path for group in subjects['groups'] for person in group['people'] for path in person.get('draft_sources', [])}
+        row_ids = {row['id'] for row in rows}
+        for source in owned:
+            if source.startswith('surname-research/new-people/'):
+                self.assertNotIn('draft-' + Path(source).stem.lower().replace('_', '-'), row_ids)
 
     def test_render_preserves_assessments_and_escapes_markup(self):
         row = dict(id='test', name='A < B', kind='Profile identity', status='On hold',

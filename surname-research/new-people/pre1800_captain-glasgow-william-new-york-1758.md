@@ -1,5 +1,12 @@
 # Captain Glasgow, vessel William at New-York, 1758
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**Captain Glasgow, vessel William at New-York, 1758: Compatible existing profile(s): [[Glasgow-2474]], [[Glasgow-1505]], [[Glasgow-3326]].** [Current evidence and complete draft](/research/subjects/newspapers-early-glasgow/#captain-glasgow-william-new-york-1758). Prefer Robert Glasgow-2474 tentatively because the actual public biography cites him as master of Betty and Grizell of Irvine in 1738; age and occupation fit 1758. Retain William-1505 and William-3326 as alternatives, not proof of forename: William is the vessel. No voyage identity or family relationship is established.
+
+<!-- identity-review-2026-10-17:end -->
+
 HOLD — documented record; profile assignment qualified
 
 [[Category:Glasgow Name Study]]

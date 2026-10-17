@@ -1,5 +1,12 @@
 # William Glascoe, Maryland notice
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**William Glascoe, Maryland notice: Compatible existing profile(s): [[Glasgow-2426]], [[Glasgow-1430]], [[Glasgow-1124]].** [Current evidence and complete draft](/research/subjects/newspapers-early-glasgow/#william-glascoe-maryland-1775). Prefer Glasgow-2426 tentatively through c 1735 birth and later United States context, retaining Glasgow-1430 and Glasgow-1124 as adult alternatives. No source proves Maryland residence for these candidates. The 1775 notice attributes the location to a jailed man; its truth and relation to 1760 London defendant remain separate. No new William is justified solely because the matching address is missing.
+
+<!-- identity-review-2026-10-17:end -->
+
 HOLD — documentary person; identity unresolved
 
 [[Category:Glasgow Name Study]]

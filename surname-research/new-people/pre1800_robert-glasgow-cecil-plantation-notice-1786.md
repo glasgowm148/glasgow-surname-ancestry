@@ -1,5 +1,12 @@
 # Robert Glasgow, Cecil County plantation notice, 1786
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**Robert Glasgow, Cecil County plantation notice, 1786: Compatible existing profile(s): [[Glasgow-395]], [[Glasgow-2425]], [[Glasgow-1143]].** [Current evidence and complete draft](/research/subjects/newspapers-early-glasgow/#robert-glasgow-cecil-plantation-notice-1786). Prefer Glasgow-395 tentatively through its Maryland/Apphia Moores family context and compatible c 1750–1800 life; retain Glasgow-2425 (c 1724, United States) and Glasgow-1143 (estimated c 1772 death, Antrim farmer) as weaker alternatives with explicit date tension. Missing Cecil land evidence is not exclusion. The notice does not prove kinship between Robert and Elizabeth.
+
+<!-- identity-review-2026-10-17:end -->
+
 HOLD — documented record; profile assignment qualified
 
 [[Category:Glasgow Name Study]]

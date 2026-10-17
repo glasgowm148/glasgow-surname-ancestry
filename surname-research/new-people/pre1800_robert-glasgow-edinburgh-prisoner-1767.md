@@ -1,5 +1,12 @@
 # Robert Glasgow, Edinburgh prisoner report, 1767
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**Robert Glasgow, Edinburgh prisoner report, 1767: Compatible existing profile(s): [[Glasgow-1445]], [[Glasgow-2473]].** [Current evidence and complete draft](/research/subjects/newspapers-early-glasgow/#robert-glasgow-edinburgh-prisoner-1767). Prefer Glasgow-1445 tentatively on before 1735 Kirknewton/East Calder chronology and Edinburgh proximity; retain Glasgow-2473, before 1703 Edinburgh, as an older alternative. No criminal identifier equates either to the prisoner. Keep 1767 distinct from Robert son of Andrew in 1772 unless continuity is independently resolved.
+
+<!-- identity-review-2026-10-17:end -->
+
 HOLD — documented record; profile assignment qualified
 
 [[Category:Glasgow Name Study]]

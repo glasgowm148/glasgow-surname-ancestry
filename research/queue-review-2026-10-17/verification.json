@@ -1,0 +1,42 @@
+{
+  "reviewed_on": "2026-10-17",
+  "baseline_reviewed": 511,
+  "remaining": 0,
+  "current_consolidated_rows": 472,
+  "suggested_new_people": 27,
+  "unit_tests": {
+    "passed": 17,
+    "suites": [
+      "tests.test_research_queue",
+      "tests.test_latest_findings"
+    ]
+  },
+  "research_publication": {
+    "exit_code": 0,
+    "new_failures": 0,
+    "existing_baseline_retained": true
+  },
+  "internal_links": {
+    "exit_code": 0,
+    "new_broken_pairs": 0,
+    "existing_broken_pairs": 4,
+    "existing_broken_links": 7
+  },
+  "browser": {
+    "progress": "511 of 511 reviewed (100.0%) · 0 records need identity review.",
+    "pending_filter_visible_rows": 0,
+    "reviewed_filter_visible_rows": 472,
+    "new_drafts_visible_under_needsUpdate": 27,
+    "console_errors": []
+  },
+  "full_compact_update_membership": "equal, 269 existing-profile amendments",
+  "local_genealogy_index": {
+    "targeted_sync_exit_code": 1,
+    "reason": "Website refresh completed; local search hook retains two pre-existing changed-hash note withdrawals. No approval override was applied.",
+    "withheld_preexisting_notes": [
+      "research/Glasgow-2917/findings.md",
+      "research/Glasgow-3172/findings.md"
+    ]
+  },
+  "publication": "local website only; no live WikiTree saves or deployment"
+}

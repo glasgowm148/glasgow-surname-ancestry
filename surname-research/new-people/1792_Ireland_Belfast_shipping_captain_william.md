@@ -1,5 +1,12 @@
 # William Glasgow, master of the brig William
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**William Glasgow, master of the brig William: Compatible existing profile(s): [[Glasgow-3324]].** [Current evidence and complete draft](/research/subjects/william-glasgow-irish-newspapers/#captain-william). Prefer 3324 (c.1763 Larne–5 October 1816), whose actual biography preserves an inherited captain suggestion. Age and coastal locality fit the inspected 1792 named-master notices; no wife or Larne residence is supplied by them. Later surname-only captains and named Jean master remain separately qualified. 1505’s structured 1783 death is not reliable exclusion: actual biography says the probate identity is ambiguous; his much earlier generation is nevertheless inferior.
+
+<!-- identity-review-2026-10-17:end -->
+
 HOLD — identity or record assignment remains unresolved
 
 [[Category:Glasgow Name Study]]

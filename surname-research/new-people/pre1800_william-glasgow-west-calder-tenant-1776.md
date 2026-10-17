@@ -1,5 +1,12 @@
 # William Glasgow, Cleugh-head and Clovenfordsyke tenancy notices, 1774–1777
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**William Glasgow, Cleugh-head and Clovenfordsyke tenancy notices, 1774–1777: Compatible existing profile(s): [[Glasgow-1463]].** [Current evidence and complete draft](/research/subjects/newspapers-early-glasgow/#william-glasgow-west-calder-tenant-1776). Retain Glasgow-1463 as a very weak compatible candidate: its before 1816 bound permits an earlier birth but supplies no adult age or West Calder tenancy. No exact 1816 birth is used to exclude. One Cleugh-head/Clovenfordsyke tenancy cluster preserves the 1774,1776,1777 stages; no sale outcome or kinship is inferred.
+
+<!-- identity-review-2026-10-17:end -->
+
 HOLD — documented record; profile assignment qualified
 
 [[Category:Glasgow Name Study]]

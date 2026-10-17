@@ -1,5 +1,12 @@
 # George Glasgow, Manchester cloth patent, 1762
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**George Glasgow, Manchester cloth patent, 1762: Compatible existing profile(s): [[Glasgow-1070]], [[Glasgow-4165]], [[Glasgow-1058]], [[Glasgow-3312]].** [Current evidence and complete draft](/research/subjects/newspapers-early-glasgow/#george-glasgow-manchester-patent-1762). Retain Glasgow-1070, Glasgow-4165, Glasgow-3312 and older Glasgow-1058 as explicitly weak compatible alternatives after checking their actual Scottish parish/family evidence. None is excluded merely because Manchester or a patent is missing. No arbitrary single patentee identification, occupation transfer or separate new person is justified while these survive.
+
+<!-- identity-review-2026-10-17:end -->
+
 HOLD — documented record; profile assignment qualified
 
 [[Category:Glasgow Name Study]]

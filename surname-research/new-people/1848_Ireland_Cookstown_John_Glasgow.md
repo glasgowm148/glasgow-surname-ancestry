@@ -1,5 +1,12 @@
 # John Glasgow, Cookstown merchant and tea/coffee agent, 1848–1850
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**John Glasgow, Cookstown merchant and tea/coffee agent, 1848–1850: Compatible existing profile(s): [[Glasgow-2058]], [[Glasgow-1968]].** [Current evidence and complete draft](/research/subjects/newspapers-irish-1800-1850/#john-cookstown-coffee). Glasgow-2058 is compatible by name, Cookstown district and the merchant occupation independently recorded in Benjamin-2059’s 1856 marriage. None of these advertisements names relatives, age or street address. Repeated agent lists are advertisements for one trading role, not independent family proofs. John’s parents remain unknown. Glasgow-1968 remains a weaker comparison: his family histories give migration to Michigan in 1844 or 1848; the Drummeen tithe and 1850/1851 probate leads are not securely assigned to him, and probate year is not a death date. Revalidated 17 October 2026 against maintained profile evidence; source readings and earlier search dates are inherited unless an explicit fresh getProfile is listed.
+
+<!-- identity-review-2026-10-17:end -->
+
 HOLD — compatible merchant Glasgow-2058
 
 [[Category:Glasgow Name Study]]

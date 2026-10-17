@@ -1,5 +1,12 @@
 # James Glasgow, master of the Prosperity of Irvine — 1740
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**James Glasgow, master of the Prosperity of Irvine: Compatible existing profile(s): [[Glasgow-4158]], [[Glasgow-4100]], [[Glasgow-4129]], [[Glasgow-4157]].** [Current evidence and complete draft](/research/subjects/newspapers-early-glasgow/#james-glasgow-prosperity). Original 1740 shipping passage inspected. Four live Irvine biographies remain compatible; no occupation, age or family bridge identifies the master. Keep one consolidated occurrence on HOLD and do not create or amend a profile from the report alone. Revalidated 17 October 2026 against maintained profile evidence; source readings and earlier search dates are inherited unless an explicit fresh getProfile is listed.
+
+<!-- identity-review-2026-10-17:end -->
+
 **HOLD — compatible existing profiles; do not create yet.**
 
 Reviewed: 2026-10-02.

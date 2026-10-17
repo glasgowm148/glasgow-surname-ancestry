@@ -1,5 +1,12 @@
 # James Glasgow, Institution student / assistant and Castledawson minister, 1828–1848
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**James Glasgow, Institution student / assistant and Castledawson minister, 1828–1848: Compatible existing profile(s): [[Glasgow-1780]].** [Current evidence and complete draft](/research/subjects/newspapers-irish-1800-1850/#james-belfast-college). The Institution mathematics/student/assistant sequence, Castledawson call and ordination, and Indian missionary family notices converge strongly on the checked career of James McClure Glasgow-1780. The early notices lack his middle name and parents; the Society secretary remains a separate qualified comparison. The current biography’s 6 October 1835 call is corrected locally to ordination; the call had been reported by 10 July. No parent or sibling relationship is upgraded. Revalidated 17 October 2026 against maintained profile evidence; source readings and earlier search dates are inherited unless an explicit fresh getProfile is listed.
+
+<!-- identity-review-2026-10-17:end -->
+
 Strongly supported candidate — James McClure Glasgow-1780; biographical correction pending
 
 ## Identity assessment

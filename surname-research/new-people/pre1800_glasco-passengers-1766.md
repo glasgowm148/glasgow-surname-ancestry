@@ -1,5 +1,12 @@
 [[Category:Glasgow Name Study]]
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**Glasco passengers in Dublin notices, 1766: Record retained without a separate profile-creation recommendation.** [Current evidence and complete draft](/research/subjects/newspapers-early-glasgow/#glasco-passengers-1766). Two separate 1766 surname-only passenger occurrences are retained as evidence, but neither gives a forename, age, trade, household or identifying companion permitting a defensible person-profile assignment. They may concern different men. Exclude both from individual creation; do not discard the source passages or invent a return voyage.
+
+<!-- identity-review-2026-10-17:end -->
+
 == Biography ==
 A newspaper shipping paragraph published on 17 June 1766 names Mr. Glasco among those who sailed in the King of Prussia, Barry, for Parkgate.<ref>[https://www.newspapers.com/image/1050032001/ Freeman’s Journal, 17 June 1766, p.2], original inspected 5 October 2026.</ref>
 

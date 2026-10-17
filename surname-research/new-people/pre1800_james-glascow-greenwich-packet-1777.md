@@ -1,5 +1,12 @@
 # James Glascow, master of Greenwich Packet
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**James Glascow, master of Greenwich Packet: Compatible existing profile(s): [[Glasgow-4124]], [[Glasgow-3944]], [[Glasgow-2988]], [[Glasgow-1024]], [[Glasgow-2868]], [[Glasgow-1144]].** [Current evidence and complete draft](/research/subjects/newspapers-early-glasgow/#james-glascow-greenwich-packet-1777). Prefer Glasgow-4124 tentatively on actual occupational context: Saltoun surgeon of Swift of Sheerness in 1733, birth before 1733, no death recorded. The 44-year interval makes it weak but no concrete contradiction is supplied. Retain the other checked James candidates. James Young is the separate owner; no parent, postal identity or voyage origin is inferred.
+
+<!-- identity-review-2026-10-17:end -->
+
 HOLD — documented surname; identity unresolved
 
 [[Category:Glasgow Name Study]]

@@ -1,5 +1,12 @@
 [[Category:Glasgow Name Study]]
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**James Glasco of Omagh: Compatible existing profile(s): [[Glasgow-3944]], [[Glasgow-1024]], [[Glasgow-2988]], [[Glasco-148]], [[Glasgow-1970]].** [Current evidence and complete draft](/research/subjects/newspapers-early-glasgow/#james-glasco-omagh). Prefer Glasgow-3944 tentatively: before-1726 birth agrees with age 61 in 1786, and the 1744 Dublin baptism establishes a real adult James/Cathrine family. Retain Glasgow-1024, Glasgow-2988, Glasco-148 and Glasgow-1970 as true rivals with qualified age/locality differences. Dublin to Omagh remains an unproved move, not an exclusion. Treat the 1786 groom and 1793 Omagh contact as one probable documentary person; Jane Murray is the recorded bride.
+
+<!-- identity-review-2026-10-17:end -->
+
 == Biography ==
 James Glasco is reported in the marriage column published on 5 September 1786 as a publican of Omagh, aged 61, marrying Jane Murray of the same place, aged 16.<ref>[https://www.newspapers.com/image/1050075355/ Freeman’s Journal, 5 September 1786, p.3], original inspected 5 October 2026.</ref> If accurate, the reported ages imply approximate births in 1724–1725 and 1769–1770 respectively. The exact ceremony date is unstated.
 

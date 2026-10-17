@@ -1,5 +1,12 @@
 # James Glasgow, Edinburgh game certificate, 1789
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**James Glasgow, Edinburgh game certificate, 1789: Compatible existing profile(s): [[Glasgow-4124]], [[Glasgow-3944]], [[Glasgow-2988]], [[Glasgow-1024]].** [Current evidence and complete draft](/research/subjects/newspapers-early-glasgow/#james-glasgow-edinburgh-game-1789). Prefer Glasgow-4124 tentatively through Scottish adult chronology and Saltoun locality, retaining Glasgow-3944, Glasgow-2988 and Glasgow-1024. No maritime career is transferred to a game certificate. Glasgow-804 has an exact 1788 death conflict with active issue afterSeptember 1789; Glasgow-1144 only an estimated 1793 death and is not categorically excluded.
+
+<!-- identity-review-2026-10-17:end -->
+
 HOLD — documented surname; identity unresolved
 
 [[Category:Glasgow Name Study]]

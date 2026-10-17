@@ -1,5 +1,12 @@
 # HOLD — Owen Glasco, Meath Repeal Association records, 1841–1843
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**Owen Glasco, Meath Repeal Association records, 1841–1843: Suggested new profile; complete sourced draft retained.** [Current evidence and complete draft](/research/subjects/newspapers-irish-1800-1850/#owen-glasco-meath-repeal-association-1841-1843). No compatible adult Meath Owen Glasco found in live Glasgow/Glasco searches. Actual Glass-5701 describes a Kentucky physician, Henderson censuses in 1840/1850 and Kentucky marriage in 1844, a strong conflicting life. Glass-5334 (born 1840) and Glasgow-1954 (born 1846) cannot be the 1841 adult. Retain one probable 1841/1843 documentary Owen; keep Baddinstown/Raddinstown readings separate and do not invent a residence or family.
+
+<!-- identity-review-2026-10-17:end -->
+
 HOLD — probable documentary continuity; no profile identified
 
 ## Identity assessment

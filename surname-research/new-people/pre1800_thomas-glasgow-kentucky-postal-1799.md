@@ -1,5 +1,12 @@
 # Thomas Glasgow, Kentucky postal addressee, 1799
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**Thomas Glasgow, Kentucky postal addressee, 1799: Compatible existing profile(s): [[Glasgow-3592]], [[Glasgow-1620]].** [Current evidence and complete draft](/research/subjects/newspapers-early-glasgow/#thomas-glasgow-kentucky-postal-1799). Retain Glasgow-3592 (1777 Rathdowney) and Glasgow-1620 (1761 Currie) as weak compatible candidates, alongside the previously noted weaker chronological comparisons. Foreign birthplace and missing Kentucky migration do not exclude. Postal qualifier alone supplies neither family nor continuous residence; withdraw READY creation while candidates survive.
+
+<!-- identity-review-2026-10-17:end -->
+
 HOLD — documented record; profile assignment qualified
 
 [[Category:Glasgow Name Study]]

@@ -1,5 +1,12 @@
 # Nicholas Glasco / Glascoe, Southwark proceedings
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**Nicholas Glasco / Glascoe: Suggested new profile; complete sourced draft retained.** [Current evidence and complete draft](/research/subjects/newspapers-early-glasgow/#nicholas-glasco-southwark). Actual live Nicholas Glasco, Glascoe and Glasgow variant searches completed 17 October 2026 (18,15,5 results; all returned pages). No public historical compatible exact-name person was found; returned modern Nicholas Glasgow/John Nicholas profiles conflict by nineteenth/twentieth-century births, and Nicholas Glass 1601–1666 predates 1746. Reuse the complete existing Southwark draft, not a second person. The unusual full name/proceedings support one 1746 subject and probable 1747 military continuation, preserving the latter missing forename. French birth is reported defence evidence, not an inferred Irish family.
+
+<!-- identity-review-2026-10-17:end -->
+
 READY TO CREATE — no compatible WikiTree profile (identity review 6 October 2026)
 
 [[Category:Glasgow Name Study]]

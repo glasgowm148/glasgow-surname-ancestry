@@ -1,4 +1,12 @@
 <!-- profile-match-review-20260930 -->
+
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**Alison Glasgow: Suggested new profile; complete sourced draft retained.** [Current evidence and complete draft](/research/subjects/opr-alison-marriages/#alison-glasgow). The printed register identifies John Williamson as a cordiner in the 14 November 1672 Alison marriage. Father John Williamson-14320’s inspected child profiles preserve Kirkcaldy index entries with Christian Turpie in 1674, 1677 and 1680, plus their 1655 marriage and her 1690 death entry. This continuing named-couple sequence conflicts with identifying him as the Edinburgh Alison bridegroom and is a substantive competing-household exclusion, not merely another spouse’s name. Son Williamson-14321, baptised 1657, is still a compatible but young candidate with no child or occupation bridge. Alison remains without a compatible profile; the row’s spouse candidates must not change her own no-profile status. The printed page identifies George Cargill as bookseller and Alison as his bride on 11 March 1651. A nearby George Cargill, printer, marries Elspeth Orme in 1663; it is a second documentary occurrence and is not asserted to be the same husband. Newly completed Allison/Alesoun/Alisoun Glasgow and Alisone/Alice Glesgow API variants returned no historical Open candidate. Neither bookseller’s parentage nor Alison’s father is given here. Revalidated 17 October 2026 against maintained profile evidence; source readings and earlier search dates are inherited unless an explicit fresh getProfile is listed.
+
+<!-- identity-review-2026-10-17:end -->
+
 **Current identity review, 30 September 2026:** The printed page identifies George Cargill as bookseller and Alison as his bride on 11 March 1651. A nearby George Cargill, printer, marries Elspeth Orme in 1663; it is a second documentary occurrence and is not asserted to be the same husband. Newly completed Allison/Alesoun/Alisoun Glasgow and Alisone/Alice Glesgow API variants returned no historical Open candidate. Neither bookseller’s parentage nor Alison’s father is given here.
 
 # HOLD — Alisone Glasgow, Edinburgh, 1651

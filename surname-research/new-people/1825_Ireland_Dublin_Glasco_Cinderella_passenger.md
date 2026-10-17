@@ -1,5 +1,12 @@
 # HOLD — Unidentified Glasco passenger, Dublin arrival, 1825
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**Unidentified Glasco passenger, Dublin arrival, 1825: Record retained without a separate profile-creation recommendation.** [Current evidence and complete draft](/research/subjects/newspapers-irish-1800-1850/#glasco-passenger-cinderella-1825). Surname-only Glasco passenger, with no initial, age, occupation or family. Retain the arrival reported on 10 March 1825 from Holyhead at Dublin aboard the Cinderella packet as an unassigned record. No invented separate person and no identification with the military surgeon.
+
+<!-- identity-review-2026-10-17:end -->
+
 HOLD — documentary passenger; identity unresolved
 
 ## Identity assessment

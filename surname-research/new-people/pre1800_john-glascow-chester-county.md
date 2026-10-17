@@ -1,5 +1,12 @@
 # John Glascow, Chester County land and committee records
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**John Glascow, Chester County land and committee records: Compatible existing profile(s): [[Glasgow-2871]], [[Glasgow-4027]], [[Glasgow-3959]], [[Glasgow-3960]], [[Glasgow-1544]], [[Glasgow-2846]].** [Current evidence and complete draft](/research/subjects/newspapers-early-glasgow/#john-glascow-chester-county). Prefer Glasgow-2871 tentatively for the 1773 West Nottingham adjoining holder and 1776 Chester appointment: adult lifespan and later Chester location agree. Retain Glasgow-4027 (death before 1779 does not decide whether alive 1776),3959,3960,1544 and 2846. Glasgow-2870 has an exactMay 1769 death and conflicts with active 1773/1776 acts; do not confuse father and son.
+
+<!-- identity-review-2026-10-17:end -->
+
 HOLD — documented surname; identity unresolved
 
 [[Category:Glasgow Name Study]]

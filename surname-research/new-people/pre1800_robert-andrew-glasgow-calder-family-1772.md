@@ -1,5 +1,12 @@
 # Robert Glasgow and father Andrew, miller at Calder, 1772
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**Robert Glasgow and father Andrew, miller at Calder, 1772: Compatible existing profile(s): [[Glasgow-1445]], [[Glasgow-3052]], [[Glasgow-1333]].** [Current evidence and complete draft](/research/subjects/newspapers-early-glasgow/#robert-andrew-glasgow-calder-family-1772). Use Robert-1445 and Andrew-3052 as explicitly uncertain regional profile candidates, with Andrew-1333 as the alternative father identity. The newspaper directly names its Robert son of Andrew, miller at Calder; it does not name East/West Calder. Robert-1445 and Andrew-3052 are currently tree siblings under James; that tree-only structure is a real competing hypothesis, not documentary proof against them. No parent replacement is recommended from this comparison alone.
+
+<!-- identity-review-2026-10-17:end -->
+
 HOLD — documented record; profile assignment qualified
 
 [[Category:Glasgow Name Study]]

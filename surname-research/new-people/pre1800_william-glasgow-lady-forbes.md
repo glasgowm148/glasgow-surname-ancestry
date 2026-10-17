@@ -1,5 +1,12 @@
 # William Glasgow, master of the Lady Forbes
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**William Glasgow, master of the Lady Forbes: Compatible existing profile(s): [[Glasgow-4120]], [[Glasgow-4101]], [[Glasgow-1505]].** [Current evidence and complete draft](/research/subjects/newspapers-early-glasgow/#william-glasgow-lady-forbes). Retain Glasgow-4120 (Irvine before 1723), Glasgow-4101 (Dundonald before 1733) and Glasgow-1505 (c 1708 Larne) as compatible adults. The first two have coastal parish context; none has a checked Lady Forbes voyage. Glasgow is the vessel home port, not the masters birthplace. Do not read William in a later ship-name notice as personal forename.
+
+<!-- identity-review-2026-10-17:end -->
+
 HOLD — documentary person; profile identity unresolved
 
 [[Category:Glasgow Name Study]]

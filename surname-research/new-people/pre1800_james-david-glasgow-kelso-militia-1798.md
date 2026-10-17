@@ -1,5 +1,12 @@
 # James Glasgow and father David, Kelso militia list, 1798
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**James Glasgow and father David, Kelso militia list, 1798: Compatible existing profile(s): [[Glasgow-1222]], [[Glasgow-1218]].** [Current evidence and complete draft](/research/subjects/newspapers-early-glasgow/#james-david-glasgow-kelso-militia-1798). Select James-1222 (25 December 1777 Kelso) and his existing father David-1218 (before 13 April 1744 Stitchel) as the preferred compatible family. Name pair, parish, generation and chronology jointly support this selection; missing militia identifier or occupation is not exclusion. The newspaper explicitly proves its own James son of David relationship, while identification with these profiles is tentative; do not upgrade their historical attachment automatically.
+
+<!-- identity-review-2026-10-17:end -->
+
 HOLD — documented record; profile assignment qualified
 
 [[Category:Glasgow Name Study]]

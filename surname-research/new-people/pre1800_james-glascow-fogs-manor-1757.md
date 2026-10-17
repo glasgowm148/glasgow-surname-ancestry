@@ -1,5 +1,12 @@
 # James Glascow, Fogs Manor postal addressee
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**James Glascow, Fogs Manor postal addressee: Compatible existing profile(s): [[Glasgow-2868]], [[Glasgow-4124]], [[Glasgow-3944]], [[Glasgow-2988]], [[Glasgow-1024]], [[Glasgow-1144]], [[Glasgow-1025]].** [Current evidence and complete draft](/research/subjects/newspapers-early-glasgow/#james-glascow-fogs-manor-1757). Prefer Glasgow-2868 as a tentative regional comparison (1720 Glencorse, later Cecil Maryland family), with Glasgow-804/1144 as weaker American alternatives and the input Irish/Scottish candidates retained. The prior shipmaster ranking is inapplicable: this is a Fogs Manor postal addressee with no occupation. Do not identify him with Greenwich Packet merely because both spell Glascow.
+
+<!-- identity-review-2026-10-17:end -->
+
 HOLD — documented surname; identity unresolved
 
 [[Category:Glasgow Name Study]]

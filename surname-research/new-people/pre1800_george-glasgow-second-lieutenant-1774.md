@@ -1,5 +1,12 @@
 # George Glasgow, unassigned Second Lieutenant appointment, 1774
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**George Glasgow, unassigned Second Lieutenant appointment, 1774: Compatible existing profile(s): [[Glasgow-1070]], [[Glasgow-4165]], [[Glasgow-1529]].** [Current evidence and complete draft](/research/subjects/newspapers-early-glasgow/#george-glasgow-second-lieutenant-1774). Retain Glasgow-1070 and Glasgow-4165 as weak older compatible candidates. Glasgow-1529 has a severe age mismatch (estimated c 1769, about five in 1774), retained only conditionally if the estimate is wrong. No regiment is supplied. Keep this notice distinct from the Royal Artillery first lieutenant already promoted in 1771; no demotion is invented.
+
+<!-- identity-review-2026-10-17:end -->
+
 HOLD — documented record; profile assignment qualified
 
 [[Category:Glasgow Name Study]]

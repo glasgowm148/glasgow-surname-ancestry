@@ -52,3 +52,14 @@ Profile prose and trees remain leads; inspect the cited record before treating a
 ### Newspaper identity review — 6 October 2026
 
 - Linen and woollen draper, William Street, Cookstown, in 1846; retired from business by 1 Jan 1856, when he received a silver ewer and cake basket at the Imperial Hotel, Belfast. — Slater's 1846 Cookstown transcription (cotyroneireland.com); Belfast News-Letter, 4 Jan 1856 (newspapers.com image 390544967) ([Belfast News-Letter, 1856-01-04, p.1](https://www.newspapers.com/image/390544967/))
+
+<!-- queue-identity-review-2026-10-17:start -->
+## Documentary identity review — 17 October 2026
+
+**Record subject: William Glasgow, Belfast grocer.** 3814 (c.1796–1883), a source-described retired Cookstown merchant, is an additional weak compatible candidate for the 1820 Belfast grocer: age 24 fits, with the same trade and no continuous residence or family contradiction excluding an earlier Belfast period. This does not establish a move or identity. 3324 died in 1816 and cannot be the shopkeeper. Preserve the Rosemary Street to 34 Smith Street move without treating a shop as birthplace.
+
+Sources: [The Irishman, 3 November 1820, p.1](https://www.newspapers.com/image/61259418/); [The Irishman, 16 June 1820, p.3](https://www.newspapers.com/image/61258642/); [The Irishman, 23 June 1820, p. 3, reprint of 15 June Belfast banks notice](https://www.newspapers.com/image/61258687/).
+
+[Full record account and comparison](/research/subjects/william-glasgow-irish-newspapers/#belfast-grocer). This assessment proposes no live WikiTree edit.
+
+<!-- queue-identity-review-2026-10-17:end -->

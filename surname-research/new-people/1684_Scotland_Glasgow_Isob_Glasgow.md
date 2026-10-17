@@ -1,4 +1,12 @@
 <!-- profile-match-review-20260930 -->
+
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**Isob Glasgow: Compatible existing profile(s): [[Glasgow-2454]], [[Glasgow-1438]], [[Glasgow-1520]], [[Glasgow-3372]].** [Current evidence and complete draft](/research/subjects/opr-isob-marriages/#isob-glasgow). The 1684 Glasgow Isob–James Coldwell occurrence has candidate women with different indexed natal families. Caldwell-12289 has a before-1670 bound but cites children in Scotland and Maryland in 1691/1692, rather than a secure own birth. Those later records permit a 1684 marriage and do not identify this Isob. No newly read record bridges an Isob baptism father to this bride. Revalidated 17 October 2026 against maintained profile evidence; source readings and earlier search dates are inherited unless an explicit fresh getProfile is listed.
+
+<!-- identity-review-2026-10-17:end -->
+
 **Current identity review, 30 September 2026:** The supplied index records ISOB Glasgow and JAMES COLDWELL/ at Glasgow on 1684-04-17. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group.
 
 # HOLD — Isob Glasgow, Glasgow 1684

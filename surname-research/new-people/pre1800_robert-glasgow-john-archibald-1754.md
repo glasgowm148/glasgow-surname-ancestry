@@ -1,5 +1,12 @@
 # Robert Glasgow, master of John and Archibald, 1754
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**Robert Glasgow, master of John and Archibald, 1754: Compatible existing profile(s): [[Glasgow-2474]], [[Glasgow-2473]], [[Glasgow-3457]].** [Current evidence and complete draft](/research/subjects/newspapers-early-glasgow/#robert-glasgow-john-archibald-1754). Prefer Glasgow-2474 tentatively: actual live biography cites Robert master of Betty and Grizell, Irvine 1738, giving a relevant maritime comparison at compatible age. Retain Robert-2473 and Robert-3457 as chronological alternatives. John and Archibald is the vessel, not two relatives. No cross-vessel identity is proved.
+
+<!-- identity-review-2026-10-17:end -->
+
 HOLD — documented surname; identity unresolved
 
 [[Category:Glasgow Name Study]]

@@ -1,5 +1,12 @@
 # Robert Glasgow, St Vincent appointment and Ayrshire records, 1785–1799
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**Robert Glasgow, St Vincent appointment and Ayrshire records, 1785–1799: Compatible existing profile(s): [[Glasgow-1076]].** [Current evidence and complete draft](/research/subjects/newspapers-early-glasgow/#robert-glasgow-montgreenan-records-1785-1799). Prefer Glasgow-1076 as probable for exact Montgreenan 1799, supported by the existing Montgreenan/1802 source context and 1747–1827 lifespan. St Vincent surgeon 1785 and Loudoun doctor 1793 are compatible earlier career stages, individually probable/possible rather than proven by the property designation. Keep one profile handoff; no new relatives or source-defined death change.
+
+<!-- identity-review-2026-10-17:end -->
+
 HOLD — documented record; profile assignment qualified
 
 [[Category:Glasgow Name Study]]

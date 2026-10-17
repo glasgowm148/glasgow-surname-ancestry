@@ -1,5 +1,12 @@
 # Mrs Glascoe, Ormond Quay shopkeeper
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**Mrs Glascoe, Ormond Quay shopkeeper: Compatible existing profile(s): [[King-67628]], [[Duffy-6026]].** [Current evidence and complete draft](/research/subjects/newspapers-early-glasgow/#mrs-glascoe-ormond-quay). Prefer Mary King-67628 tentatively because her reported 1785 Thomas Glasco marriage is compatible with the 1783 Ormond Quay watchmaker context; Ann Duffy-6026 remains a real alternative. The Thomas marriage chain is unresolved and the notice supplies no forename/husband. This is an unnamed shopkeeper with candidate links, not a new Unknown spouse or proved shop attachment.
+
+<!-- identity-review-2026-10-17:end -->
+
 HOLD — documentary person; identity unresolved
 
 [[Category:Glasgow Name Study]]

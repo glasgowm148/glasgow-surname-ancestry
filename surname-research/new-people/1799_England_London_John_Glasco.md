@@ -1,5 +1,12 @@
 # HOLD — John Glasco, charged at Bow Street
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**John Glasco, charged at Bow Street: Compatible existing profile(s): [[Glasgow-549]], [[Glasgow-4179]], [[Glasgow-2990]], [[Glasgow-1146]], [[Glasgow-1657]].** [Current evidence and complete draft](/research/subjects/newspapers-early-glasgow/#john-glasco-london-1799). The Times reports John Glasco, Esq., self-described officer on the Staff, charged with wounding a patrolman and committed at Bow Street in 1799. Allegation and committal are not conviction; origin and identity remain unknown. The listed profiles are compatible or conditional comparison leads, not identifications. Bounded local review covered the public people catalogue and early Irish target inventory, including John Glasgow, Glasco and Glascow variants and London links; no unique profile match was established. This was not an exhaustive live WikiTree audit. Do not join this record to the 1779 chairman. Retain the listed Irish namesakes as compatible or conditional search leads, not identified people. Their catalogue birthplaces and missing London fields do not exclude a later London period. Dates derived from profile/tree leads require original-source checks. Revalidated 17 October 2026 against maintained profile evidence; source readings and earlier search dates are inherited unless an explicit fresh getProfile is listed.
+
+<!-- identity-review-2026-10-17:end -->
+
 Reviewed 4 October 2026. The Times reports John Glasco, Esq., self-described officer on the Staff, charged with wounding a patrolman and committed at Bow Street in 1799. Allegation and committal are not conviction; origin and identity remain unknown.
 
 ## Minimum fields

@@ -1,5 +1,12 @@
 # John Glasgow, Kensing-/ton postal entry, 1769
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**John Glasgow, Kensing-/ton postal entry, 1769: Compatible existing profile(s): [[Glasgow-2870]], [[Glasgow-2871]].** [Current evidence and complete draft](/research/subjects/newspapers-early-glasgow/#john-glasgow-kensing-ton-postal-1769). Retain both Glasgow-2870 and Glasgow-2871: the elder has the best regional history but died 23 May 1769, while the younger survives until 1792. The 1769 postal entry may be posthumous or the son; retain both rather than transferring the elder life dates. The split printed Kensing-/ton is not silently equated to a modern place.
+
+<!-- identity-review-2026-10-17:end -->
+
 HOLD — documented record; profile assignment qualified
 
 [[Category:Glasgow Name Study]]

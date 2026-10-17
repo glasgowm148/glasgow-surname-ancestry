@@ -1,5 +1,12 @@
 # Nathaniel R. Glascoe, Kingsessing committee
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**Nathaniel R. Glascoe, Kingsessing committee: Compatible existing profile(s): [[Glasgow-1452]], [[Glasgow-4014]].** [Current evidence and complete draft](/research/subjects/newspapers-early-glasgow/#nathaniel-r-glascoe-kingsessing). Live searches for Nathaniel Glascoe, Glasco and Glasgow found two real historical compatible candidates. Glasgow-1452 was born before 2 January 1774 at Livingston and has no recorded death; appropriate 1799 adulthood. Glasgow-4014 is the before 1768 Drumgreenagh farmer witnessing a 1786 deed and indexed in 1809 probate; no exact death or simultaneous 1799 Irish act excludes travel. His live biography itself compares 1452. Retain both as weak candidates; no R., Kingsessing or migration bridge establishes either, and no new committee-member profile is justified merely from missing corroboration.
+
+<!-- identity-review-2026-10-17:end -->
+
 HOLD — documentary person; identity unresolved
 
 [[Category:Glasgow Name Study]]

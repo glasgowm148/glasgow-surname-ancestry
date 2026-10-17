@@ -1,9 +1,9 @@
 {
   "reviewed_on": "2026-10-17",
   "baseline_items": 511,
-  "reviewed_items": 283,
-  "remaining_items": 228,
-  "percent_complete": 55.4,
+  "reviewed_items": 511,
+  "remaining_items": 0,
+  "percent_complete": 100.0,
   "baseline_results": {
     "update-glasco-39": {
       "disposition": "existing_profile",
@@ -2860,6 +2860,2958 @@
       "assessment": "Existing research study, rather than a newly unassigned person: Which Scottish William became the ancestor remembered in the Tyrone tradition? The cited study links its named profile subjects; those links do not decide the open relationship or identity question.",
       "review_ids": [
         "question-glasgow-591"
+      ]
+    },
+    "subject-opr-alison-marriages-alison-glasgow": {
+      "disposition": "new_profile",
+      "profile_ids": [],
+      "assessment": "Every constituent review retained separately: Alison Glasgow: no_compatible_profile. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-opr-alison-marriages-alison-glasgow"
+      ],
+      "suggested_people": [
+        {
+          "subject_id": "subject-opr-alison-marriages-alison-glasgow",
+          "name": "Alison Glasgow",
+          "draft_path": "research/queue-review-2026-10-17/drafts/previous-reviewed/opr-alison-marriages--alison-glasgow.md",
+          "public_url": "/research/subjects/opr-alison-marriages/#alison-glasgow"
+        },
+        {
+          "subject_id": "subject-opr-alison-marriages-george-cargill",
+          "name": "George Cargill",
+          "draft_path": "research/queue-review-2026-10-17/drafts/previous-reviewed/opr-alison-marriages--george-cargill.md",
+          "public_url": "/research/subjects/opr-alison-marriages/#george-cargill"
+        }
+      ]
+    },
+    "group-2eaad49564e1": {
+      "disposition": "new_profile",
+      "profile_ids": [],
+      "assessment": "Every constituent review retained separately: Alisone Glasgow and George Cargill, Edinburgh, 1651: no_compatible_profile; George Cargill: no_compatible_profile. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "opr-14",
+        "subject-opr-alison-marriages-george-cargill"
+      ],
+      "suggested_people": [
+        {
+          "subject_id": "subject-opr-alison-marriages-alison-glasgow",
+          "name": "Alison Glasgow",
+          "draft_path": "research/queue-review-2026-10-17/drafts/previous-reviewed/opr-alison-marriages--alison-glasgow.md",
+          "public_url": "/research/subjects/opr-alison-marriages/#alison-glasgow"
+        },
+        {
+          "subject_id": "subject-opr-alison-marriages-george-cargill",
+          "name": "George Cargill",
+          "draft_path": "research/queue-review-2026-10-17/drafts/previous-reviewed/opr-alison-marriages--george-cargill.md",
+          "public_url": "/research/subjects/opr-alison-marriages/#george-cargill"
+        }
+      ]
+    },
+    "subject-newspapers-irish-1800-1850-james-belfast-college": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1780"
+      ],
+      "assessment": "Every constituent review retained separately: James Glasgow, Institution student / assistant and Castledawson minister, 1828–1848: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-newspapers-irish-1800-1850-james-belfast-college"
+      ]
+    },
+    "subject-rasharkin-john-elder-marriages-john-elder": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Elder-5907",
+        "Elder-7230",
+        "Elder-4387"
+      ],
+      "assessment": "Every constituent review retained separately: John Elder: partly_matched. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-rasharkin-john-elder-marriages-john-elder"
+      ]
+    },
+    "group-b7b9f400e358": {
+      "disposition": "disregarded",
+      "profile_ids": [],
+      "assessment": "Every constituent review retained separately: Margaret: unnamed_record; Unnamed Glasgow subject: unnamed_record; Unnamed Glasgow subject, Strathblane 1679: unnamed_record. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-opr-unnamed-marriages-margaret",
+        "subject-opr-unnamed-marriages-unnamed-glasgow-subject",
+        "opr-6"
+      ]
+    },
+    "subject-dirleton-unnamed-burial-1688-unnamed-glasgow-record-subject": {
+      "disposition": "disregarded",
+      "profile_ids": [],
+      "assessment": "Every constituent review retained separately: Unnamed Glasgow record subject: unnamed_record. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-dirleton-unnamed-burial-1688-unnamed-glasgow-record-subject"
+      ]
+    },
+    "opr-28": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1152",
+        "Anderson-56713"
+      ],
+      "assessment": "Every constituent review retained separately: Alexander Glasgow and Issobell Anderson, Edinburgh, 1665: matched. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "opr-28"
+      ]
+    },
+    "subject-opr-anna-marriages-anna-glasgow": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1439"
+      ],
+      "assessment": "Every constituent review retained separately: Anna Glasgow: matched. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-opr-anna-marriages-anna-glasgow"
+      ]
+    },
+    "opr-29": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1439",
+        "Grey-2711"
+      ],
+      "assessment": "Every constituent review retained separately: Anna Glasgow, Kirknewton and East Calder, 1676: matched. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "opr-29"
+      ]
+    },
+    "subject-newspapers-irish-1800-1850-margaret-jane-rajkote": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2898"
+      ],
+      "assessment": "Every constituent review retained separately: Margaret Jane Glasgow, Rajkote, 1841: matched. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-newspapers-irish-1800-1850-margaret-jane-rajkote"
+      ]
+    },
+    "subject-opr-anna-marriages-thomas-gray": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Grey-2711"
+      ],
+      "assessment": "Every constituent review retained separately: Thomas Gray: matched. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-opr-anna-marriages-thomas-gray"
+      ]
+    },
+    "subject-newspapers-irish-1800-1850-adam-belfast-education-ministry": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1781",
+        "Glasgow-3373",
+        "Glasgow-1622",
+        "Glasgow-3902"
+      ],
+      "assessment": "Every constituent review retained separately: Adam D. Glasgow, Broughshane student and Belfast teacher/minister: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-newspapers-irish-1800-1850-adam-belfast-education-ministry"
+      ]
+    },
+    "group-0d1cec157e76": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2460",
+        "Glasgow-993",
+        "Glasgow-1562",
+        "Glasgow-4151",
+        "Glasgow-1312",
+        "Glasgow-1408",
+        "Glasgow-1441",
+        "Glasgow-4123",
+        "Glasgow-4133",
+        "Anderson-3493"
+      ],
+      "assessment": "Every constituent review retained separately: Agnas Glasgow, Longformacus, 1666: compatible_candidate; William Anderson: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "opr-26",
+        "subject-opr-agnes-marriages-william-anderson"
+      ]
+    },
+    "subject-opr-agnes-marriages-agnes-glasgow": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2460",
+        "Glasgow-993",
+        "Glasgow-1562",
+        "Glasgow-4151",
+        "Glasgow-1312",
+        "Glasgow-1408",
+        "Glasgow-1441",
+        "Glasgow-4123",
+        "Glasgow-4133",
+        "Glasgow-3092"
+      ],
+      "assessment": "Every constituent review retained separately: Agnes Glasgow: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-opr-agnes-marriages-agnes-glasgow"
+      ]
+    },
+    "group-b05c15761845": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2460",
+        "Glasgow-993",
+        "Glasgow-3092",
+        "Glasgow-1562",
+        "Glasgow-1312",
+        "Glasgow-1408",
+        "Glasgow-1441",
+        "Glasgow-4123",
+        "Glasgow-4133",
+        "Glasgow-4151",
+        "Thomson-263"
+      ],
+      "assessment": "Every constituent review retained separately: Agnes Glasgow, Carstairs, 1681: compatible_candidate; William Thomsone: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "opr-1",
+        "subject-opr-agnes-marriages-william-thomsone"
+      ]
+    },
+    "group-87471c6d6e04": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2460",
+        "Glasgow-993",
+        "Glasgow-1562",
+        "Glasgow-4151",
+        "Glasgow-1312",
+        "Glasgow-1408",
+        "Glasgow-1441",
+        "Glasgow-4123",
+        "Glasgow-4133",
+        "Swan-736"
+      ],
+      "assessment": "Every constituent review retained separately: Agnes Glasgow, Kirknewton and East Calder, 1666: compatible_candidate; James Swan: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "opr-27",
+        "subject-opr-agnes-marriages-james-swan"
+      ]
+    },
+    "group-7c520ba848bf": {
+      "disposition": "new_profile",
+      "profile_ids": [
+        "Glasgow-2460",
+        "Glasgow-993",
+        "Glasgow-3092",
+        "Glasgow-1562",
+        "Glasgow-1312",
+        "Glasgow-1408",
+        "Glasgow-1441",
+        "Glasgow-4123",
+        "Glasgow-4133",
+        "Glasgow-4151"
+      ],
+      "assessment": "Every constituent review retained separately: Agnes Glasgow, Kirknewton and East Calder, 1670: compatible_candidate; Patrik Paul: no_compatible_profile. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "opr-13",
+        "subject-opr-agnes-marriages-patrik-paul"
+      ],
+      "suggested_people": [
+        {
+          "subject_id": "subject-opr-agnes-marriages-patrik-paul",
+          "name": "Patrik Paul",
+          "draft_path": "research/queue-review-2026-10-17/drafts/previous-reviewed/opr-agnes-marriages--patrik-paul.md",
+          "public_url": "/research/subjects/opr-agnes-marriages/#patrik-paul"
+        }
+      ]
+    },
+    "group-6b498ca4d861": {
+      "disposition": "new_profile",
+      "profile_ids": [
+        "Elder-5598"
+      ],
+      "assessment": "Every constituent review retained separately: Alex Hillis: no_compatible_profile; Annie Elder: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-ballymena-hillis-elder-1857-alex-hillis",
+        "subject-ballymena-hillis-elder-1857-annie-elder"
+      ],
+      "suggested_people": [
+        {
+          "subject_id": "subject-ballymena-hillis-elder-1857-alex-hillis",
+          "name": "Alex Hillis",
+          "draft_path": "research/queue-review-2026-10-17/drafts/previous-reviewed/ballymena-hillis-elder-1857--alex-hillis.md",
+          "public_url": "/research/subjects/ballymena-hillis-elder-1857/#alex-hillis"
+        }
+      ]
+    },
+    "group-a5f42425aaec": {
+      "disposition": "new_profile",
+      "profile_ids": [
+        "Anderson-47673",
+        "Elder-1585",
+        "Elder-4828"
+      ],
+      "assessment": "Every constituent review retained separately: Alexander Elder: no_compatible_profile; Mary Anderson: compatible_candidate; Robert Elder: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-gortereghy-elder-and-anderson-alexander-elder",
+        "subject-gortereghy-elder-and-anderson-mary-anderson",
+        "subject-gortereghy-elder-and-anderson-robert-elder-brother"
+      ],
+      "suggested_people": [
+        {
+          "subject_id": "subject-gortereghy-elder-and-anderson-alexander-elder",
+          "name": "Alexander Elder",
+          "draft_path": "research/queue-review-2026-10-17/drafts/previous-reviewed/gortereghy-elder-and-anderson--alexander-elder.md",
+          "public_url": "/research/subjects/gortereghy-elder-and-anderson/#alexander-elder"
+        }
+      ]
+    },
+    "group-1b8d976336c8": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-951",
+        "Glasgow-3743"
+      ],
+      "assessment": "Every constituent review retained separately: Alexander Glasco: compatible_candidate; James Glasgow: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-prescott-rochester-james-family-alexander-glasco",
+        "subject-prescott-rochester-james-family-james-glasgow"
+      ]
+    },
+    "group-2f4dadf93074": {
+      "disposition": "new_profile",
+      "profile_ids": [
+        "Montgomery-2456",
+        "Montgomery-17848",
+        "Hay-867"
+      ],
+      "assessment": "Every constituent review retained separately: Alexander Montgomery: compatible_candidate; Jane McCaughey: no_compatible_profile; William Hay: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-kilraughts-montgomery-mccaughey-1839-alexander-montgomery",
+        "subject-kilraughts-montgomery-mccaughey-1839-jane-mccaughey",
+        "subject-kilraughts-montgomery-mccaughey-1839-william-hay"
+      ],
+      "suggested_people": [
+        {
+          "subject_id": "subject-kilraughts-montgomery-mccaughey-1839-jane-mccaughey",
+          "name": "Jane McCaughey",
+          "draft_path": "research/queue-review-2026-10-17/drafts/previous-reviewed/kilraughts-montgomery-mccaughey-1839--jane-mccaughey.md",
+          "public_url": "/research/subjects/kilraughts-montgomery-mccaughey-1839/#jane-mccaughey"
+        }
+      ]
+    },
+    "group-70bc296f1aaf": {
+      "disposition": "new_profile",
+      "profile_ids": [
+        "Williamson-14321"
+      ],
+      "assessment": "Every constituent review retained separately: Alison Glasgow and John Williamson, Edinburgh, 1672: partly_matched; John Williamson: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "opr-44",
+        "subject-opr-alison-marriages-john-williamson"
+      ],
+      "suggested_people": [
+        {
+          "subject_id": "subject-opr-alison-marriages-alison-glasgow",
+          "name": "Alison Glasgow",
+          "draft_path": "research/queue-review-2026-10-17/drafts/previous-reviewed/opr-alison-marriages--alison-glasgow.md",
+          "public_url": "/research/subjects/opr-alison-marriages/#alison-glasgow"
+        }
+      ]
+    },
+    "group-1e3aca78720b": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Alexander-7545",
+        "Glasgow-1522",
+        "Glasgow-1089",
+        "Glasgow-1104",
+        "Glasgow-4112",
+        "Glasgow-1407",
+        "Glasgow-4130",
+        "Glasgow-1432",
+        "Glasgow-4137"
+      ],
+      "assessment": "Every constituent review retained separately: Andrew Allexander: compatible_candidate; Joannet Glasgow: compatible_candidate; Joannet Glasgow, Glasgow 1661: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-opr-joannet-marriages-andrew-allexander",
+        "subject-opr-joannet-marriages-joannet-glasgow",
+        "opr-51"
+      ]
+    },
+    "group-608f33d890e8": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-438",
+        "Glasgow-3167",
+        "Glasgow-4269"
+      ],
+      "assessment": "Every constituent review retained separately: Ann Glasgow: compatible_candidate; Mary Glasgow: compatible_candidate; Mary Ellen: matched. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-lisnagaver-mary-ellen-1867-ann-glasgow",
+        "subject-lisnagaver-mary-ellen-1867-mary-glasgow",
+        "subject-lisnagaver-mary-ellen-1867-mary-ellen"
+      ]
+    },
+    "group-a2d1784af018": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3992",
+        "Glasgow-1509",
+        "Glasgow-3991",
+        "Glasgow-4013",
+        "Glasgow-3929"
+      ],
+      "assessment": "Every constituent review retained separately: Anne Glasgow: compatible_candidate; James Glasgow: compatible_candidate; Jane Glasgow: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-larne-title-and-witnesses-anne-glasgow",
+        "subject-larne-title-and-witnesses-james-glasgow",
+        "subject-larne-title-and-witnesses-jane-glasgow"
+      ]
+    },
+    "subject-rasharkin-john-elder-marriages-annie-patterson": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Patterson-32389",
+        "Patterson-14390"
+      ],
+      "assessment": "Every constituent review retained separately: Annie Patterson: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-rasharkin-john-elder-marriages-annie-patterson"
+      ]
+    },
+    "subject-bridgegait-herbertsoun-1582-archibald-herbertsoun": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Herbison-475"
+      ],
+      "assessment": "Every constituent review retained separately: Archibald Herbertsoun: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-bridgegait-herbertsoun-1582-archibald-herbertsoun"
+      ]
+    },
+    "subject-william-glasgow-irish-newspapers-benjamin-drapersfield": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2566",
+        "Glasgow-3412"
+      ],
+      "assessment": "Every constituent review retained separately: Benjamin Glasgow, Drapersfield merchant: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-william-glasgow-irish-newspapers-benjamin-drapersfield"
+      ]
+    },
+    "subject-newspapers-irish-1800-1850-benjamin-surgeon": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3412"
+      ],
+      "assessment": "Every constituent review retained separately: Benjamin Glasgow, surgeon of Vera Cruz and New Orleans: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-newspapers-irish-1800-1850-benjamin-surgeon"
+      ]
+    },
+    "group-1d6d19782533": {
+      "disposition": "new_profile",
+      "profile_ids": [
+        "Dysart-1893"
+      ],
+      "assessment": "Every constituent review retained separately: Caroline McCaughern: no_compatible_profile; Geo Mulholland: no_compatible_profile; Jas Alex McCaughern: no_compatible_profile; Matilda Mulholland: no_compatible_profile; Sara Jane McCaughern: no_compatible_profile; Sarah McCaughern: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-gortereghy-mccaughern-household-1911-caroline-mccaughern",
+        "subject-gortereghy-mccaughern-household-1911-geo-mulholland",
+        "subject-gortereghy-mccaughern-household-1911-jas-alex-mccaughern",
+        "subject-gortereghy-mccaughern-household-1911-matilda-mulholland",
+        "subject-gortereghy-mccaughern-household-1911-sara-jane-mccaughern",
+        "subject-gortereghy-mccaughern-household-1911-sarah-mccaughern"
+      ],
+      "suggested_people": [
+        {
+          "subject_id": "subject-gortereghy-mccaughern-household-1911-caroline-mccaughern",
+          "name": "Caroline McCaughern",
+          "draft_path": "research/queue-review-2026-10-17/drafts/previous-reviewed/gortereghy-mccaughern-household-1911--caroline-mccaughern.md",
+          "public_url": "/research/subjects/gortereghy-mccaughern-household-1911/#caroline-mccaughern"
+        },
+        {
+          "subject_id": "subject-gortereghy-mccaughern-household-1911-matilda-mulholland",
+          "name": "Matilda Mulholland",
+          "draft_path": "research/queue-review-2026-10-17/drafts/previous-reviewed/gortereghy-mccaughern-household-1911--matilda-mulholland.md",
+          "public_url": "/research/subjects/gortereghy-mccaughern-household-1911/#matilda-mulholland"
+        },
+        {
+          "subject_id": "subject-gortereghy-mccaughern-household-1911-sara-jane-mccaughern",
+          "name": "Sara Jane McCaughern",
+          "draft_path": "research/queue-review-2026-10-17/drafts/previous-reviewed/gortereghy-mccaughern-household-1911--sara-jane-mccaughern.md",
+          "public_url": "/research/subjects/gortereghy-mccaughern-household-1911/#sara-jane-mccaughern"
+        },
+        {
+          "subject_id": "subject-gortereghy-mccaughern-household-1911-jas-alex-mccaughern",
+          "name": "Jas Alex McCaughern",
+          "draft_path": "research/queue-review-2026-10-17/drafts/previous-reviewed/gortereghy-mccaughern-household-1911--jas-alex-mccaughern.md",
+          "public_url": "/research/subjects/gortereghy-mccaughern-household-1911/#jas-alex-mccaughern"
+        },
+        {
+          "subject_id": "subject-gortereghy-mccaughern-household-1911-geo-mulholland",
+          "name": "Geo Mulholland",
+          "draft_path": "research/queue-review-2026-10-17/drafts/previous-reviewed/gortereghy-mccaughern-household-1911--geo-mulholland.md",
+          "public_url": "/research/subjects/gortereghy-mccaughern-household-1911/#geo-mulholland"
+        }
+      ]
+    },
+    "group-fb0fccf54fbb": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3322",
+        "Gammon-934",
+        "Linton-898",
+        "Linton-931"
+      ],
+      "assessment": "Every constituent review retained separately: Daniel Glasco: compatible_candidate; Mary: compatible_candidate; Richard Linton: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-norfolk-daniel-1729-1730-daniel-glasco",
+        "subject-norfolk-daniel-1729-1730-mary",
+        "subject-norfolk-daniel-1729-1730-richard-linton"
+      ]
+    },
+    "group-98a408ca6ed9": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Matthew-330",
+        "Anderson-3241"
+      ],
+      "assessment": "Every constituent review retained separately: David Mathy: compatible_candidate; Mergaret Androsoune: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-glasgow-mathy-burgesses-1554-david-mathy",
+        "subject-glasgow-mathy-burgesses-1554-margaret-androsoune"
+      ]
+    },
+    "group-1d25d68887ed": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Elder-3950",
+        "Elder-3951"
+      ],
+      "assessment": "Every constituent review retained separately: Elizabeth Elder: compatible_candidate; William Elder: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-gortereghy-elder-households-1911-elizabeth-elder",
+        "subject-gortereghy-elder-households-1911-william-elder"
+      ]
+    },
+    "draft-1820-ireland-londonderry-elizabeth-d-1893-170-1020-14-497": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3033"
+      ],
+      "assessment": "Every constituent review retained separately: Elizabeth Glasgow: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "draft-1820-ireland-londonderry-elizabeth-d-1893-170-1020-14-497"
+      ]
+    },
+    "group-d537774403ab": {
+      "disposition": "new_profile",
+      "profile_ids": [
+        "Elder-741"
+      ],
+      "assessment": "Every constituent review retained separately: Ellen Elder: no_compatible_profile; Joseph Elder: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-gortereghy-elder-households-1911-ellen-elder",
+        "subject-gortereghy-elder-households-1911-joseph-elder"
+      ],
+      "suggested_people": [
+        {
+          "subject_id": "subject-gortereghy-elder-households-1911-ellen-elder",
+          "name": "Ellen Elder",
+          "draft_path": "research/queue-review-2026-10-17/drafts/previous-reviewed/gortereghy-elder-households-1911--ellen-elder.md",
+          "public_url": "/research/subjects/gortereghy-elder-households-1911/#ellen-elder"
+        }
+      ]
+    },
+    "opr-8-32": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3358",
+        "Glasgow-1167",
+        "Hutcheson-361"
+      ],
+      "assessment": "Every constituent review retained separately: Eupham/Effie Glasgow and Alexander Hutcheson, 1671: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "opr-8-32"
+      ]
+    },
+    "subject-newspapers-early-glasgow-dublin-glasco-watchmaker": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasco-143",
+        "Glasco-144",
+        "Glasco-173"
+      ],
+      "assessment": "Every constituent review retained separately: Glasco, Dublin watch and clock maker: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-newspapers-early-glasgow-dublin-glasco-watchmaker"
+      ]
+    },
+    "draft-1677-scotland-register-of-deeds-hugh-glasgow": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1603",
+        "Glasgow-1066",
+        "Glasgow-3109"
+      ],
+      "assessment": "Every constituent review retained separately: Hugh Glasgow, preacher of the gospel, indexed 1677: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "draft-1677-scotland-register-of-deeds-hugh-glasgow"
+      ]
+    },
+    "group-3b90d3236ca7": {
+      "disposition": "new_profile",
+      "profile_ids": [
+        "Kilpatrick-3023",
+        "McCaw-443",
+        "McCaw-216"
+      ],
+      "assessment": "Every constituent review retained separately: Hugh Macaw: no_compatible_profile; Mary Kilpatrick: compatible_candidate; William Macaw: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-lisnagaver-macaw-kilpatrick-1839-hugh-macaw",
+        "subject-lisnagaver-macaw-kilpatrick-1839-mary-kilpatrick",
+        "subject-lisnagaver-macaw-kilpatrick-1839-william-macaw"
+      ],
+      "suggested_people": [
+        {
+          "subject_id": "subject-lisnagaver-macaw-kilpatrick-1839-hugh-macaw",
+          "name": "Hugh Macaw",
+          "draft_path": "research/queue-review-2026-10-17/drafts/previous-reviewed/lisnagaver-macaw-kilpatrick-1839--hugh-macaw.md",
+          "public_url": "/research/subjects/lisnagaver-macaw-kilpatrick-1839/#hugh-macaw"
+        }
+      ]
+    },
+    "group-4958bd96e051": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2454",
+        "Glasgow-1438",
+        "Glasgow-1520",
+        "Glasgow-3372",
+        "Caldwell-12289"
+      ],
+      "assessment": "Every constituent review retained separately: Isob Glasgow: compatible_candidate; Isob Glasgow, Glasgow 1684: compatible_candidate; James Coldwell: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-opr-isob-marriages-isob-glasgow",
+        "opr-47",
+        "subject-opr-isob-marriages-james-coldwell"
+      ]
+    },
+    "subject-didup-james-1674-james-glasgow": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3105",
+        "Glasgow-3969",
+        "Glasgow-3172",
+        "Glasgow-3971",
+        "Glasgow-3107",
+        "Glasgow-1496"
+      ],
+      "assessment": "Every constituent review retained separately: James Glasgow: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-didup-james-1674-james-glasgow"
+      ]
+    },
+    "subject-newspapers-irish-1800-1850-james-belfast-juvenile": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1780",
+        "Glasgow-3986",
+        "Glasgow-3444",
+        "Glasgow-2981"
+      ],
+      "assessment": "Every constituent review retained separately: James Glasgow, Belfast Juvenile Society secretary, 1830–1831: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-newspapers-irish-1800-1850-james-belfast-juvenile"
+      ]
+    },
+    "subject-newspapers-irish-1800-1850-james-tobacco": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3986",
+        "Glasgow-3444",
+        "Glasgow-2981"
+      ],
+      "assessment": "Every constituent review retained separately: James Glasgow, Belfast tobacco seller, 1822–23: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-newspapers-irish-1800-1850-james-tobacco"
+      ]
+    },
+    "subject-newspapers-irish-1800-1850-james-kilrea-acquittal": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2981"
+      ],
+      "assessment": "Every constituent review retained separately: James Glasgow, Kilrea procession case, 1835–1836: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-newspapers-irish-1800-1850-james-kilrea-acquittal"
+      ]
+    },
+    "subject-newspapers-irish-1800-1850-james-larne-freeholder": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3986"
+      ],
+      "assessment": "Every constituent review retained separately: James Glasgow, Larne freehold applicant, 1830–1831: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-newspapers-irish-1800-1850-james-larne-freeholder"
+      ]
+    },
+    "subject-newspapers-irish-1800-1850-james-larne-demerara": {
+      "disposition": "new_profile",
+      "profile_ids": [],
+      "assessment": "Every constituent review retained separately: James Glasgow, Larne native who died in Demerara, 1839: no_compatible_profile. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-newspapers-irish-1800-1850-james-larne-demerara"
+      ],
+      "suggested_people": [
+        {
+          "subject_id": "subject-newspapers-irish-1800-1850-james-larne-demerara",
+          "name": "James Glasgow, Larne native who died in Demerara, 1839",
+          "draft_path": "research/queue-review-2026-10-17/drafts/previous-reviewed/newspapers-irish-1800-1850--james-larne-demerara.md",
+          "public_url": "/research/subjects/newspapers-irish-1800-1850/#james-larne-demerara"
+        }
+      ]
+    },
+    "subject-newspapers-early-glasgow-james-glasgow-prosperity": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-4158",
+        "Glasgow-4100",
+        "Glasgow-4129",
+        "Glasgow-4157"
+      ],
+      "assessment": "Every constituent review retained separately: James Glasgow, master of the Prosperity of Irvine: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-newspapers-early-glasgow-james-glasgow-prosperity"
+      ]
+    },
+    "subject-newspapers-irish-1800-1850-james-exchequer": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3986",
+        "Glasgow-3444",
+        "Glasgow-2981"
+      ],
+      "assessment": "Every constituent review retained separately: James Glasgow, plaintiff in Dublin Exchequer, 1820: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-newspapers-irish-1800-1850-james-exchequer"
+      ]
+    },
+    "group-a89c54801970": {
+      "disposition": "new_profile",
+      "profile_ids": [
+        "Elder-3949",
+        "McCaughey-204"
+      ],
+      "assessment": "Every constituent review retained separately: Jane Adams McCaughey: no_compatible_profile; Robert Elder: compatible_candidate; William McCaughey: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-ballymoney-elder-mccaughey-1887-jane-adams-mccaughey",
+        "subject-ballymoney-elder-mccaughey-1887-robert-elder",
+        "subject-ballymoney-elder-mccaughey-1887-william-mccaughey"
+      ],
+      "suggested_people": [
+        {
+          "subject_id": "subject-ballymoney-elder-mccaughey-1887-jane-adams-mccaughey",
+          "name": "Jane Adams McCaughey",
+          "draft_path": "research/queue-review-2026-10-17/drafts/previous-reviewed/ballymoney-elder-mccaughey-1887--jane-adams-mccaughey.md",
+          "public_url": "/research/subjects/ballymoney-elder-mccaughey-1887/#jane-adams-mccaughey"
+        }
+      ]
+    },
+    "subject-polwarth-janet-1675-janet-glasgow": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Todd-7464",
+        "Glasgow-1104",
+        "Glasgow-1522"
+      ],
+      "assessment": "Every constituent review retained separately: Janet Glasgow: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-polwarth-janet-1675-janet-glasgow"
+      ]
+    },
+    "subject-opr-jean-marriages-jean-glasgow": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3083",
+        "Glasgow-3055",
+        "Glasgow-4113",
+        "Glasgow-1163",
+        "Glasgow-3088",
+        "Glasgow-3364",
+        "Glasgow-3528"
+      ],
+      "assessment": "Every constituent review retained separately: Jean Glasgow: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-opr-jean-marriages-jean-glasgow"
+      ]
+    },
+    "group-8689f611e0b0": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1163",
+        "Glasgow-3083",
+        "Glasgow-3055",
+        "Glasgow-4113",
+        "Mitchell-54981"
+      ],
+      "assessment": "Every constituent review retained separately: Jean Glasgow and William Mitchell, Edinburgh, 1675: compatible_candidate; William Mitchell: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "opr-11",
+        "subject-opr-jean-marriages-william-mitchell"
+      ]
+    },
+    "group-cfcc5c230571": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3088",
+        "Glasgow-3364",
+        "Glasgow-3528",
+        "Glasgow-1163",
+        "Glasgow-3083",
+        "Glasgow-3055",
+        "Glasgow-4113",
+        "Woodside-784"
+      ],
+      "assessment": "Every constituent review retained separately: Jean Glasgow, West Kilbride 1700: compatible_candidate; Robert Woodsyd: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "opr-10",
+        "subject-opr-jean-marriages-robert-woodsyd"
+      ]
+    },
+    "group-b9e36e311e77": {
+      "disposition": "new_profile",
+      "profile_ids": [
+        "Glasgow-3083",
+        "Glasgow-3055",
+        "Glasgow-4113"
+      ],
+      "assessment": "Every constituent review retained separately: Jeane Glasgow, St Monance, 1652: compatible_candidate; Robert Aliesone: no_compatible_profile. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "opr-25",
+        "subject-opr-jean-marriages-robert-aliesone"
+      ],
+      "suggested_people": [
+        {
+          "subject_id": "subject-opr-jean-marriages-robert-aliesone",
+          "name": "Robert Aliesone",
+          "draft_path": "research/queue-review-2026-10-17/drafts/previous-reviewed/opr-jean-marriages--robert-aliesone.md",
+          "public_url": "/research/subjects/opr-jean-marriages/#robert-aliesone"
+        }
+      ]
+    },
+    "group-704996b58917": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Ayton-398",
+        "Glasgow-1524",
+        "Glasgow-3050",
+        "Glasgow-3366",
+        "Glasgow-3112",
+        "Glasgow-1160",
+        "Glasgow-3365",
+        "Glasgow-3186",
+        "Glasgow-1154",
+        "Glasgow-4119",
+        "Glasgow-4111"
+      ],
+      "assessment": "Every constituent review retained separately: John Aiton: compatible_candidate; Margrat Glasgow, Cambusnethan, 1693: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-opr-margaret-marriages-john-aiton",
+        "opr-38"
+      ]
+    },
+    "group-a0931f2ead10": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Bruce-6113",
+        "Bruce-3507",
+        "Glasgow-3143",
+        "Glasgow-3025",
+        "Glasgow-3049",
+        "Glasgow-4095",
+        "Glasgow-1428",
+        "Glasgow-3062"
+      ],
+      "assessment": "Every constituent review retained separately: John Bruce: compatible_candidate; Marion Glasgow and John Bruce, Edinburgh, 1684: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-opr-marion-marriages-john-bruce",
+        "opr-4"
+      ]
+    },
+    "subject-newspapers-early-glasgow-john-glasco-london-1799": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-549",
+        "Glasgow-4179",
+        "Glasgow-2990",
+        "Glasgow-1146",
+        "Glasgow-1657"
+      ],
+      "assessment": "Every constituent review retained separately: John Glasco, charged at Bow Street: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-newspapers-early-glasgow-john-glasco-london-1799"
+      ]
+    },
+    "subject-newspapers-early-glasgow-john-glascow-london-witness-1779": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-549",
+        "Glasgow-4179",
+        "Glasgow-2990",
+        "Glasgow-1146"
+      ],
+      "assessment": "Every constituent review retained separately: John Glascow, London chairman: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-newspapers-early-glasgow-john-glascow-london-witness-1779"
+      ]
+    },
+    "draft-1815-ireland-omagh-john-d-1871-209-1025-2-489": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3140"
+      ],
+      "assessment": "Every constituent review retained separately: John Glasgow: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "draft-1815-ireland-omagh-john-d-1871-209-1025-2-489"
+      ]
+    },
+    "draft-1643-scotland-rashlie-kilbride-john-glasgow": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1030",
+        "Glasgow-1561",
+        "Glasgow-1084",
+        "Glasgow-1088",
+        "Glasgow-1604"
+      ],
+      "assessment": "Every constituent review retained separately: John Glasgow in Rashlie, Kilbride, 1643: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "draft-1643-scotland-rashlie-kilbride-john-glasgow"
+      ]
+    },
+    "subject-newspapers-irish-1800-1850-john-cookstown-coffee": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2058",
+        "Glasgow-1968"
+      ],
+      "assessment": "Every constituent review retained separately: John Glasgow, Cookstown merchant and tea/coffee agent, 1848–1850: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-newspapers-irish-1800-1850-john-cookstown-coffee"
+      ]
+    },
+    "subject-newspapers-irish-1800-1850-john-drogheda-constable": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2056",
+        "Glasgow-2537",
+        "Glasgow-867"
+      ],
+      "assessment": "Every constituent review retained separately: John Glasgow, Drogheda sub-constable, 1850: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-newspapers-irish-1800-1850-john-drogheda-constable"
+      ]
+    },
+    "subject-newspapers-irish-1800-1850-john-dundrum-subscription": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2058",
+        "Glasgow-1968",
+        "Glasgow-2056"
+      ],
+      "assessment": "Every constituent review retained separately: John Glasgow, Dundrum subscription-list context, 1840: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-newspapers-irish-1800-1850-john-dundrum-subscription"
+      ]
+    },
+    "subject-newspapers-irish-1800-1850-john-loughinsholin-freeholder": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1968",
+        "Glasgow-2058",
+        "Glasgow-3927",
+        "Glasgow-2990",
+        "Glasgow-4090"
+      ],
+      "assessment": "Every constituent review retained separately: John Glasgow, Loughinsholin freeholder, 1831: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-newspapers-irish-1800-1850-john-loughinsholin-freeholder"
+      ]
+    },
+    "subject-newspapers-early-glasgow-john-glasgow-nottingham-1760": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2870",
+        "Glasgow-2871"
+      ],
+      "assessment": "Every constituent review retained separately: John Glasgow, Nottingham merchant and vendue attendee: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-newspapers-early-glasgow-john-glasgow-nottingham-1760"
+      ]
+    },
+    "group-16a96100500b": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Gray-27691",
+        "Gray-32439",
+        "Glasgow-3143",
+        "Glasgow-3025",
+        "Glasgow-3049",
+        "Glasgow-4095",
+        "Glasgow-1428",
+        "Glasgow-3062"
+      ],
+      "assessment": "Every constituent review retained separately: John Gray: compatible_candidate; Marion Glasgow, Carriden, 1686: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-opr-marion-marriages-john-gray",
+        "opr-54"
+      ]
+    },
+    "draft-1648-scotland-edinburgh-john-glasgow": {
+      "disposition": "disregarded",
+      "profile_ids": [],
+      "assessment": "Every constituent review retained separately: John Gray, Edinburgh apprentice, 1648: superseded. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "draft-1648-scotland-edinburgh-john-glasgow"
+      ]
+    },
+    "group-cd6817d89242": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Taylor-32027",
+        "Glasgow-1160",
+        "Glasgow-3112",
+        "Glasgow-3366",
+        "Glasgow-1524",
+        "Glasgow-3050",
+        "Glasgow-3186",
+        "Glasgow-1154",
+        "Glasgow-4119",
+        "Glasgow-4111"
+      ],
+      "assessment": "Every constituent review retained separately: John Tailzer: compatible_candidate; Margaret Glasgow, Walston, 1690: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-opr-margaret-marriages-john-tailzer",
+        "opr-18"
+      ]
+    },
+    "subject-rasharkin-directory-1912-john-wallace": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Wallace-17947",
+        "Wallace-3457"
+      ],
+      "assessment": "Every constituent review retained separately: John Wallace: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-rasharkin-directory-1912-john-wallace"
+      ]
+    },
+    "group-808fb681eee8": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Reid-24609",
+        "Glasgow-3049",
+        "Glasgow-4095",
+        "Glasgow-3062",
+        "Glasgow-3143",
+        "Glasgow-1428"
+      ],
+      "assessment": "Every constituent review retained separately: Johne Rait: compatible_candidate; Marione Glasgow and Johne Rait, Edinburgh, 1659: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-opr-marion-marriages-johne-rait",
+        "opr-39"
+      ]
+    },
+    "draft-1641-scotland-duddingston-jon-glasgow": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1559",
+        "Glasgow-3014"
+      ],
+      "assessment": "Every constituent review retained separately: Jon Glasgow, Duddingston burial index, 1641: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "draft-1641-scotland-duddingston-jon-glasgow"
+      ]
+    },
+    "subject-opr-margaret-marriages-margaret-glasgow": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1524",
+        "Glasgow-3050",
+        "Glasgow-3366",
+        "Glasgow-3112",
+        "Glasgow-1160",
+        "Glasgow-3365",
+        "Glasgow-3186",
+        "Glasgow-1154",
+        "Glasgow-4119",
+        "Glasgow-4111"
+      ],
+      "assessment": "Every constituent review retained separately: Margaret Glasgow: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-opr-margaret-marriages-margaret-glasgow"
+      ]
+    },
+    "subject-rathmalton-1673-margaret-glasgow": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3186"
+      ],
+      "assessment": "Every constituent review retained separately: Margaret Glasgow: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-rathmalton-1673-margaret-glasgow"
+      ]
+    },
+    "draft-1636-scotland-kilwinning-margaret-glasgow": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1100",
+        "Glasgow-3598",
+        "Glasgow-3186"
+      ],
+      "assessment": "Every constituent review retained separately: Margaret Glasgow in Byris, Kilwinning, 1636: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "draft-1636-scotland-kilwinning-margaret-glasgow"
+      ]
+    },
+    "subject-opr-marion-marriages-marion-glasgow": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3143",
+        "Glasgow-3025",
+        "Glasgow-3049",
+        "Glasgow-4095",
+        "Glasgow-1428",
+        "Glasgow-3062"
+      ],
+      "assessment": "Every constituent review retained separately: Marion Glasgow: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-opr-marion-marriages-marion-glasgow"
+      ]
+    },
+    "group-581179ca3acd": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-4093",
+        "Glasgow-1351",
+        "Glasgow-1353",
+        "Glasgow-1453",
+        "Glasgow-1531",
+        "Thomson-3009",
+        "Sneddon-710"
+      ],
+      "assessment": "Every constituent review retained separately: Mary Glasgon Thomson: compatible_candidate; Mary Thomson: compatible_candidate; William Sneddon: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-old-monkland-thomson-sneddon-1860-mary-glasgon-thomson",
+        "subject-old-monkland-thomson-sneddon-1860-mary-thomson",
+        "subject-old-monkland-thomson-sneddon-1860-william-sneddon"
+      ]
+    },
+    "subject-newspapers-irish-1800-1850-benjamin-school-donor": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2059",
+        "Glasgow-2566"
+      ],
+      "assessment": "Every constituent review retained separately: Master Benjamin Glasgow, Cookstown school-support donor: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-newspapers-irish-1800-1850-benjamin-school-donor"
+      ]
+    },
+    "subject-rasharkin-directory-1912-nancy-mccaughern": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "McCarnagh-4"
+      ],
+      "assessment": "Every constituent review retained separately: Nancy McCaughern: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-rasharkin-directory-1912-nancy-mccaughern"
+      ]
+    },
+    "subject-rasharkin-john-elder-marriages-peggy-stuart": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Stuart-11578"
+      ],
+      "assessment": "Every constituent review retained separately: Peggy Stuart: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-rasharkin-john-elder-marriages-peggy-stuart"
+      ]
+    },
+    "subject-rasharkin-directory-1912-peter-mccaughern": {
+      "disposition": "new_profile",
+      "profile_ids": [],
+      "assessment": "Every constituent review retained separately: Peter McCaughern: no_compatible_profile. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-rasharkin-directory-1912-peter-mccaughern"
+      ],
+      "suggested_people": [
+        {
+          "subject_id": "subject-rasharkin-directory-1912-peter-mccaughern",
+          "name": "Peter McCaughern",
+          "draft_path": "research/queue-review-2026-10-17/drafts/previous-reviewed/rasharkin-directory-1912--peter-mccaughern.md",
+          "public_url": "/research/subjects/rasharkin-directory-1912/#peter-mccaughern"
+        }
+      ]
+    },
+    "subject-gortereghy-elder-and-anderson-robert-elder-father": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Elder-7144",
+        "Elder-7251"
+      ],
+      "assessment": "Every constituent review retained separately: Robert Elder: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-gortereghy-elder-and-anderson-robert-elder-father"
+      ]
+    },
+    "subject-newspapers-irish-1800-1850-robert-surgeon-father": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3941"
+      ],
+      "assessment": "Every constituent review retained separately: Robert Glasgow of Cookstown, father of the surgeon: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-newspapers-irish-1800-1850-robert-surgeon-father"
+      ]
+    },
+    "subject-newspapers-irish-1800-1850-robert-cookstown-contacts": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2656",
+        "Glasgow-3941"
+      ],
+      "assessment": "Every constituent review retained separately: Robert Glasgow, Cookstown inn and Academy notices: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-newspapers-irish-1800-1850-robert-cookstown-contacts"
+      ]
+    },
+    "subject-newspapers-irish-1800-1850-robert-loughinsholin-freeholder": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3941",
+        "Glasgow-2656",
+        "Glasgow-12"
+      ],
+      "assessment": "Every constituent review retained separately: Robert Glasgow, Loughinsholin freeholder, 1831: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-newspapers-irish-1800-1850-robert-loughinsholin-freeholder"
+      ]
+    },
+    "subject-rasharkin-directory-1912-robert-mccaughern": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "McCaughan-13"
+      ],
+      "assessment": "Every constituent review retained separately: Robert McCaughern: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-rasharkin-directory-1912-robert-mccaughern"
+      ]
+    },
+    "subject-newspapers-irish-1800-1850-samuel-moneymore": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2054",
+        "Glasgow-1698",
+        "Glasgow-2908"
+      ],
+      "assessment": "Every constituent review retained separately: Samuel Glasgow, farmer examined at Moneymore: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-newspapers-irish-1800-1850-samuel-moneymore"
+      ]
+    },
+    "group-4d7e0aad7705": {
+      "disposition": "new_profile",
+      "profile_ids": [
+        "Anderson-47669"
+      ],
+      "assessment": "Every constituent review retained separately: Sarah Elder: no_compatible_profile; Neal Anderson: matched. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-gortereghy-elder-and-anderson-sarah-elder",
+        "subject-gortereghy-elder-and-anderson-neal-anderson"
+      ],
+      "suggested_people": [
+        {
+          "subject_id": "subject-gortereghy-elder-and-anderson-sarah-elder",
+          "name": "Sarah Elder",
+          "draft_path": "research/queue-review-2026-10-17/drafts/previous-reviewed/gortereghy-elder-and-anderson--sarah-elder.md",
+          "public_url": "/research/subjects/gortereghy-elder-and-anderson/#sarah-elder"
+        }
+      ]
+    },
+    "group-1cf4c220c35b": {
+      "disposition": "new_profile",
+      "profile_ids": [
+        "Glasgow-2461",
+        "Glasgow-3091",
+        "Glasgow-3413",
+        "Glasgow-3187",
+        "Glasgow-1226"
+      ],
+      "assessment": "Every constituent review retained separately: Thomas Glasgow: compatible_candidate; Thomas Glasgow, Carstairs, 1679: compatible_candidate; Gyles Spence: no_compatible_profile. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-opr-thomas-marriages-thomas-glasgow",
+        "opr-41",
+        "subject-opr-thomas-marriages-gyles-spence"
+      ],
+      "suggested_people": [
+        {
+          "subject_id": "subject-opr-thomas-marriages-gyles-spence",
+          "name": "Gyles Spence",
+          "draft_path": "research/queue-review-2026-10-17/drafts/previous-reviewed/opr-thomas-marriages--gyles-spence.md",
+          "public_url": "/research/subjects/opr-thomas-marriages/#gyles-spence"
+        }
+      ]
+    },
+    "subject-rasharkin-directory-1912-thomas-ross": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Ross-13124",
+        "Ross-29596"
+      ],
+      "assessment": "Every constituent review retained separately: Thomas Ross: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-rasharkin-directory-1912-thomas-ross"
+      ]
+    },
+    "subject-newspapers-irish-1800-1850-surat-daughter-1848": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2901"
+      ],
+      "assessment": "Every constituent review retained separately: Unnamed Glasgow daughter, Surat, 1848 (Annie candidate): compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-newspapers-irish-1800-1850-surat-daughter-1848"
+      ]
+    },
+    "subject-william-glasgow-irish-newspapers-cookstown-uncle": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3814",
+        "Glasgow-585"
+      ],
+      "assessment": "Every constituent review retained separately: William Glasgow, uncle in the Cookstown mill case: compatible_candidate. Record-specific identities, source limits and any required sourced drafts remain in the individual reviews.",
+      "review_ids": [
+        "subject-william-glasgow-irish-newspapers-cookstown-uncle"
+      ]
+    },
+    "subject-murieston-1586-1605-george-mureistoun": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1099"
+      ],
+      "assessment": "Select George Glasgow-1099 as the leading possible existing identity for the Mureistoun man of 1586, probably the 1605 adult witness. His protocol-defined 1565–1572 birth range, minority in 1586 and 1598 marriage contract are real constraints, not a 1575 birthday or proof that 1598 was his first marriage. They permit the two occurrences. The 17 October family model prefers the record-defined George as James-991's probable father; identifying him with the merchant, and therefore William-3522 upstream, remains separately uncertain. James's unsupported circa-1575 estimate would conflict if proved, so no date is moved to force identity. Glasgow-3171's age-free 1676 burial implies exceptional longevity for a 1586 adult; Glascoe-36's reported 1589 death is unverified and would exclude the 1605 witness if confirmed. Retain both weak comparisons; no extra George son or mother is created.",
+      "review_ids": [
+        "subject-murieston-1586-1605-george-mureistoun"
+      ]
+    },
+    "subject-early-scotland-1650-issobell-glasgow": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2454"
+      ],
+      "assessment": "Select Issobell Glasgow-2454 as the best surviving possible existing identity: the Mid Calder 3 February 1648 baptism names father Wm, with Kirknewtonn residence, while the Haddington record states birth 24 and baptism 26 November 1639 to Wm Glasgow and Issobella Miral. The profile's rendered exact 1648 birth derives from a baptism/index and is not independently a birthday; a second or delayed baptism and regional movement are possible, not demonstrated. The nine-year and cross-parish difference keeps the match weak. Anderson-56713's actual account represents Issobell Anderson marrying Allexander Glasgow in Edinburgh in 1665, so this is a different birth-surname account, not evidence for a Glasgow-born child. It remains a remote comparison only if that surname history changes. Glasgow-3185's 1632 marriage concretely excludes the 1639 child. The Haddington parent–child statements remain direct at the documentary event level, independent of this later identification.",
+      "review_ids": [
+        "subject-early-scotland-1650-issobell-glasgow"
+      ]
+    },
+    "subject-early-scotland-1650-issobella-miral": {
+      "disposition": "new_profile",
+      "profile_ids": [],
+      "assessment": "The 1639 transcript distinguishes the named mother Issobella Miral; no compatible existing account was found in the inherited exact search or refreshed spelling searches. Retain Miral literally, without inventing Muirhead ancestry or a marriage to Wm. A complete sourced transcript-based draft is provided; inspect the original before treating its maternal surname as securely read. This is a named documentary mother, not an unnamed person or a second child.",
+      "review_ids": [
+        "subject-early-scotland-1650-issobella-miral"
+      ],
+      "suggested_people": [
+        {
+          "subject_id": "subject-early-scotland-1650-issobella-miral",
+          "name": "Issobella Miral",
+          "draft_path": "research/queue-review-2026-10-17/drafts/early-families/1639_Scotland_Haddington_Issobella_Miral.md",
+          "public_url": "/research/subjects/early-scotland-1650/#issobella-miral"
+        }
+      ]
+    },
+    "subject-early-scotland-1650-fisherrow-household": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-991",
+        "Bie-55",
+        "Glasgow-1148",
+        "Clerk-296",
+        "Glasgow-1557"
+      ],
+      "assessment": "Use James Glasgow-991 and Christina Bie-55 as the preferred probable Fisherrow tailor couple, with Alexander Glasgow-1148 and Janet Clerk-296 for the indexed son and his wife. The dated 17 October dossiers supersede the input's earlier HOLD/uncertain wording. The sasine index directly distinguishes James's Christina Bye from Alexander's Janet Clerk and names Alexander as James's son; the identification of James with the Mid Calder account is probable, not newly documented ancestry. For Edward at 9/135 prefer the already adult Inveresk father Glasgow-1557 as a possible identity; Eduard-994 and Edward-1558 remain real alternatives. No kinship follows from sharing a folio. Every named source participant is separately mapped below; do not transfer Christina as proved mother of Alexander, or Edward's tentative Corsankell ancestry.",
+      "review_ids": [
+        "subject-early-scotland-1650-fisherrow-household",
+        "subject-early-scotland-1650-fisherrow-household--james",
+        "subject-early-scotland-1650-fisherrow-household--christina",
+        "subject-early-scotland-1650-fisherrow-household--alexander",
+        "subject-early-scotland-1650-fisherrow-household--janet",
+        "subject-early-scotland-1650-fisherrow-household--edward"
+      ]
+    },
+    "subject-early-scotland-1650-james-weaver-1646": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1150"
+      ],
+      "assessment": "Select the documented Edinburgh weaver Glasgow-1150 as the leading possible 1646–1647 sasine identity: exact trade, region, 1641 apprenticeship and 1649 burgess admission fit the intervening property dates. His actual captured biography says born before the 1641 apprenticeship, not a proved 1620 birthday. Alexander's 1626 son Glasgow-3923 is a genuine local rival, but his father Alexander conflicts with the apprentice's explicitly named father Robert of Wester Duddingston: retain two profile accounts. James-991 could have changed trade, and James-3332's estimated 1634 birth is not a hard exclusion. Glasgow-3910 was dead by 1624, excluding a living 1646 role; an unread instrument could mention him as deceased predecessor. Alexander's residence is not automatically the weaver's, and no father–son relationship is supplied by shared references.",
+      "review_ids": [
+        "subject-early-scotland-1650-james-weaver-1646"
+      ]
+    },
+    "subject-carnwath-1524-1532-john-quothquan": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1095"
+      ],
+      "assessment": "Select Glasgow-1095 provisionally as the leading existing older-John comparison, using only the Saltmarket record-defined account maintained on its linked free-space page. Its approximate 1475/1480 chronology permits a 1525–1532 tenant career and the later Glasgow title sequence; the current profile is a mixed-generation placeholder, so the identification stays possible. John-1093 is a real rival, married by 1534 with an inferred circa-1510 birth; there is no concrete age exclusion. Hirmanscheillis John-3181 and Corsankell son John-3193 remain weaker long-career alternatives, not excluded merely by their estimates. The current Hirmanscheillis dossier supersedes the input's November death reading with a qualified March reading; no alleged Andrew son is used. Consolidate all Quothquan John entries through October 1532; do not infer kinship with Thomas or a descent to James-3910.",
+      "review_ids": [
+        "subject-carnwath-1524-1532-john-quothquan"
+      ]
+    },
+    "subject-early-scotland-1650-robert-tanner": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1027"
+      ],
+      "assessment": "Select Robert Glasgow-1027 as the leading possible 1623 Glasgow tanner: he is the local adult and probable 1613 cordiner/burgess, with leather work and a documented Glasgow household through the 1620s. Cordiner and tanner are distinct occupations; compatibility is not an occupation identification. Robert-1156's age-free Duddingston burial in 1647 does not exclude him, but supplies a weaker place/trade comparison. The RPC passage has not been newly checked here; the 1630s payment men remain separate occurrence questions. Neither the tanner occupation nor Ninian parentage is newly proved by this candidate choice.",
+      "review_ids": [
+        "subject-early-scotland-1650-robert-tanner"
+      ]
+    },
+    "subject-carnwath-1524-1532-robert-carnwath": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1096"
+      ],
+      "assessment": "Select Glasgow-1096 as the leading possible existing Robert because his sourced Glasgow-burgh career gives the nearest Scottish comparison. Activity from 1551 to after February 1580 would require an earlier birth and long adult career if he was the 1524 litigant; circa 1520 is an estimate, not a conflict. Holkham Robert-4063 remains a real rival: the actual profile has no birth year, and the reported 23 March 1559 Old Style death corresponds to 1560, not an exclusion from 1524. No Norfolk–Carnwath bridge is known, which lowers preference without excluding him. The debt/grain award does not state Robert's occupation, residence or kin, and is not a reason to attach him to Quothquan John or Thomas.",
+      "review_ids": [
+        "subject-carnwath-1524-1532-robert-carnwath"
+      ]
+    },
+    "subject-currituck-1746-sarah-glasgow": {
+      "disposition": "new_profile",
+      "profile_ids": [],
+      "assessment": "William Glasgow-428's 30 September 1746 will directly distinguishes daughter Sarah. Her later life is untraced; the supplied draft preserves her one family role without a mother assignment. The actual Glasgow-2451 and Glasgow-4122 accounts represent Scottish daughters of John, conflicting with Sarah's named father William. Fresh Sarah/Glasgow surname-variant searches found no compatible Glasgow/Glasco/Glascoe historical account. Fuzzy Glass/Glascock and married-surname hits are not accepted on a name score; examined nearby colonial comparisons are recorded in the duplicate audit. Do not conflate Sarah with Lowdenner, Abiah, Elizabeth or the unborn child, or infer her mother from Susanah's status as testator's wife.",
+      "review_ids": [
+        "subject-currituck-1746-sarah-glasgow"
+      ],
+      "suggested_people": [
+        {
+          "subject_id": "subject-currituck-1746-sarah-glasgow",
+          "name": "Sarah Glasgow, daughter of William of Currituck",
+          "draft_path": "research/queue-review-2026-10-17/drafts/early-families/1746_United_States_North_Carolina_Currituck_Sarah_Glasgow.md",
+          "public_url": "/research/subjects/currituck-1746/#sarah-glasgow"
+        }
+      ]
+    },
+    "subject-carnwath-1524-1532-thomas-quothquan": {
+      "disposition": "new_profile",
+      "profile_ids": [],
+      "assessment": "No compatible early Thomas profile was found in the inherited complete Thomas+Glasgow result review. The actual dossiers for Thomas-3943 (Dublin death 1725) and Thomas-3176 (Calton death 1886) cannot represent a living adult in 1528; no unsupported estimated birthday is needed for those exclusions. Consolidate the five dated court meetings and repeated entries as one Quothquan tenant, not one person per page. A full sourced draft is supplied from the visually verified printed court book; John is a possible local relative with no chosen degree, and no descent to the seventeenth-century Quothquan weaver is asserted.",
+      "review_ids": [
+        "subject-carnwath-1524-1532-thomas-quothquan"
+      ],
+      "suggested_people": [
+        {
+          "subject_id": "subject-carnwath-1524-1532-thomas-quothquan",
+          "name": "Thomas Glasgow of Quothquan, 1527/28",
+          "draft_path": "research/queue-review-2026-10-17/drafts/early-families/1528_Scotland_Quothquan_Thomas_Glasgow.md",
+          "public_url": "/research/subjects/carnwath-1524-1532/#thomas-quothquan"
+        }
+      ]
+    },
+    "subject-early-scotland-1650-walter-buried-1647": {
+      "disposition": "new_profile",
+      "profile_ids": [],
+      "assessment": "No compatible child profile was found in the inherited Walter search. Glasgow-1087 is William, a candidate for the recorded father, and cannot be the buried Walter. The existing Walter Glasgow-1554 has competing September 1647/1649 baptism readings, both after the June 1647 burial; it is excluded on the current event chronology, with original-year verification still required before live creation or any merger. Prepare one separate sourced burial account, not a fabricated older sibling claim. The transcript directly identifies Walter as William's son; the specific father identity remains only possible and no mother or age is inferred.",
+      "review_ids": [
+        "subject-early-scotland-1650-walter-buried-1647",
+        "subject-early-scotland-1650-walter-buried-1647--father-william"
+      ],
+      "suggested_people": [
+        {
+          "subject_id": "subject-early-scotland-1650-walter-buried-1647",
+          "name": "Walter Glasgow of Leithford, buried in 1647",
+          "draft_path": "research/queue-review-2026-10-17/drafts/early-families/1647_Scotland_Leithford_Walter_Glasgow.md",
+          "public_url": "/research/subjects/early-scotland-1650/#walter-buried-1647"
+        }
+      ]
+    },
+    "subject-carnwath-1524-1532-william-carnwath": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1098"
+      ],
+      "assessment": "Select Glasgow-1098 as the best compatible 1524 witness: his actual profile leaves birth unknown, records wife Esbell Brade and adult married son John by 1534, and bounds death before 16 March 1535/36. This fits 1524 naturally and is stronger than son-of-John William-3522, whose later 1560s–1586 career would require a much older and longer-lived man. William-3522's circa1540 estimate alone is not an exclusion; retain that weak rival. The possible 1526 remission involving James Somervile is contextual, not an identification. The court witness is neither localized to Quothquan nor proved related to the other court Glasgows.",
+      "review_ids": [
+        "subject-carnwath-1524-1532-william-carnwath"
+      ]
+    },
+    "subject-early-scotland-1650-william-haddington": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3075"
+      ],
+      "assessment": "Select the Leith mealmaker William Glasgow-3075 as the leading possible existing father for the 1639 Haddington child: a documented adult household in eastern Lothian and death in September 1644 fit the date. Catherine Fraser and Christian Scot are established household comparisons; their presence does not itself preclude a later Miral household, and no bigamy, widowhood or marriage is invented. Mid Calder William-1087 (1609 child) and Inveresk William-3517 (1614 child of James and Christina Bie) remain compatible adult alternatives, with no claimed Haddington bridge. The original transcript proves father Wm within Issobell's event, independently of identifying him with any profile. The mealmaker's unproved Ninian ancestry and other households are not imported.",
+      "review_ids": [
+        "subject-early-scotland-1650-william-haddington"
+      ]
+    },
+    "subject-newspapers-early-glasgow-a-glascow-dutch-arrival-1794": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3313",
+        "Glasgow-2468",
+        "Glasgow-3165",
+        "Glasgow-649",
+        "Glasgow-3902",
+        "Glasgow-3514",
+        "Glasgow-1309"
+      ],
+      "assessment": "Retain the checked A-name profiles as explicitly possible candidates, led by Andrew-3313 (1733 Irvine coastal context), with Andrew-2468 and Alexander-1309 as alternatives. The source preserves only initial A.; no full name is assigned. Arthur-649 and Adam-3902 have competing American/farming contexts rather than concrete exclusions; Alexander-3514 is exceptionally old. No new initial-only person should be created.",
+      "review_ids": [
+        "subject-newspapers-early-glasgow-a-glascow-dutch-arrival-1794"
+      ]
+    },
+    "subject-newspapers-early-glasgow-andrew-glasgow-leith-societies-1779": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3052",
+        "Glasgow-1333",
+        "Glasgow-1481"
+      ],
+      "assessment": "Select Glasgow-3052 as the leading tentative Midlothian candidate (uncertain 1720 Kirknewton/East Calder birth); retain Glasgow-1333, before-1747 West Calder, and Glasgow-1481, before-1776 Edinburgh, as alternatives. The latter dates are upper birth bounds. The 1779 signatory and 1790 Kirkgate merchant form one provisional Leith cluster; no trade, tax office or family is transferred between events.",
+      "review_ids": [
+        "subject-newspapers-early-glasgow-andrew-glasgow-leith-societies-1779"
+      ]
+    },
+    "subject-newspapers-early-glasgow-captain-glasgow-brig-ann-1788": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3324",
+        "Glasgow-2474",
+        "Glasgow-4124"
+      ],
+      "assessment": "Glasgow-3324 is the preferred possible comparison: uncertain 1763 Larne birth, adult in 1788, maritime comparison in the maintained research. Retain Robert-2474, the 1738 Irvine shipmaster, and James-4124, the 1733 surgeon-mariner, as older alternatives. Surname-only captain notices do not establish William as his forename. Passenger reprints are one notice; inward/clearance continuity stays tentative.",
+      "review_ids": [
+        "subject-newspapers-early-glasgow-captain-glasgow-brig-ann-1788"
+      ]
+    },
+    "subject-newspapers-early-glasgow-captain-glasgow-william-new-york-1758": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2474",
+        "Glasgow-1505",
+        "Glasgow-3326"
+      ],
+      "assessment": "Prefer Robert Glasgow-2474 tentatively because the actual public biography cites him as master of Betty and Grizell of Irvine in 1738; age and occupation fit 1758. Retain William-1505 and William-3326 as alternatives, not proof of forename: William is the vessel. No voyage identity or family relationship is established.",
+      "review_ids": [
+        "subject-newspapers-early-glasgow-captain-glasgow-william-new-york-1758"
+      ]
+    },
+    "subject-newspapers-early-glasgow-ezekiel-glasgow-charlestown-1775": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2844",
+        "Glasgow-3293",
+        "Glasgow-1135"
+      ],
+      "assessment": "Retain Glasgow-2844 and Glasgow-3293 as weak compatible alternatives: uncertain 1690/1778 Maryland lifespan versus uncertain 1767/1780 Cecil lifespan. Postal recipients need not be adults or residents at the office. Glasgow-1135 has a substantial but uncertain post-1775 birth mismatch, retained as a very weak date-revision alternative. No relative is inferred from co-listed James.",
+      "review_ids": [
+        "subject-newspapers-early-glasgow-ezekiel-glasgow-charlestown-1775"
+      ]
+    },
+    "subject-newspapers-early-glasgow-george-glasgow-merchant-nethermains-1767-1777": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1070",
+        "Glasgow-4165",
+        "Glasgow-1058",
+        "Glasgow-3312"
+      ],
+      "assessment": "Prefer the Kilwinning candidates Glasgow-3312 (1729–1768) and Glasgow-1070 (1719), retaining George-4165 and George-1058 as alternatives. The 1768 exact death of George-3312 does not conflict with later references to lands formerly belonging to George or repeated sale notices. Kilwinning/Nethermains is a locality argument, not proof. Keep one property/merchant study, separate from Manchester and military careers.",
+      "review_ids": [
+        "subject-newspapers-early-glasgow-george-glasgow-merchant-nethermains-1767-1777"
+      ]
+    },
+    "subject-newspapers-early-glasgow-george-glasgow-manchester-patent-1762": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1070",
+        "Glasgow-4165",
+        "Glasgow-1058",
+        "Glasgow-3312"
+      ],
+      "assessment": "Retain Glasgow-1070, Glasgow-4165, Glasgow-3312 and older Glasgow-1058 as explicitly weak compatible alternatives after checking their actual Scottish parish/family evidence. None is excluded merely because Manchester or a patent is missing. No arbitrary single patentee identification, occupation transfer or separate new person is justified while these survive.",
+      "review_ids": [
+        "subject-newspapers-early-glasgow-george-glasgow-manchester-patent-1762"
+      ]
+    },
+    "subject-newspapers-early-glasgow-george-glasgow-royal-artillery-1771-1795": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1070",
+        "Glasgow-4165",
+        "Glasgow-1529"
+      ],
+      "assessment": "Retain George-1070 and George-4165 as weak older candidates for the 1771 lieutenant; George-1529, estimated c 1769, has severe early-service age tension but could fit the 1793/1795 captain/major. Do not assign the entire 1771–1795 career to George-1529. Live exact-surname George search found no better explicitly military profile. The progressive Royal Artillery ranks support one provisional career, not a proved life identity.",
+      "review_ids": [
+        "subject-newspapers-early-glasgow-george-glasgow-royal-artillery-1771-1795"
+      ]
+    },
+    "subject-newspapers-early-glasgow-george-glasgow-second-lieutenant-1774": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1070",
+        "Glasgow-4165",
+        "Glasgow-1529"
+      ],
+      "assessment": "Retain Glasgow-1070 and Glasgow-4165 as weak older compatible candidates. Glasgow-1529 has a severe age mismatch (estimated c 1769, about five in 1774), retained only conditionally if the estimate is wrong. No regiment is supplied. Keep this notice distinct from the Royal Artillery first lieutenant already promoted in 1771; no demotion is invented.",
+      "review_ids": [
+        "subject-newspapers-early-glasgow-george-glasgow-second-lieutenant-1774"
+      ]
+    },
+    "subject-newspapers-early-glasgow-glasco-passengers-1766": {
+      "disposition": "disregarded",
+      "profile_ids": [],
+      "assessment": "Two separate 1766 surname-only passenger occurrences are retained as evidence, but neither gives a forename, age, trade, household or identifying companion permitting a defensible person-profile assignment. They may concern different men. Exclude both from individual creation; do not discard the source passages or invent a return voyage.",
+      "review_ids": [
+        "subject-newspapers-early-glasgow-glasco-passengers-1766"
+      ]
+    },
+    "subject-newspapers-early-glasgow-james-glasco-omagh": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3944",
+        "Glasgow-1024",
+        "Glasgow-2988",
+        "Glasco-148",
+        "Glasgow-1970"
+      ],
+      "assessment": "Prefer Glasgow-3944 tentatively: before-1726 birth agrees with age 61 in 1786, and the 1744 Dublin baptism establishes a real adult James/Cathrine family. Retain Glasgow-1024, Glasgow-2988, Glasco-148 and Glasgow-1970 as true rivals with qualified age/locality differences. Dublin to Omagh remains an unproved move, not an exclusion. Treat the 1786 groom and 1793 Omagh contact as one probable documentary person; Jane Murray is the recorded bride.",
+      "review_ids": [
+        "subject-newspapers-early-glasgow-james-glasco-omagh"
+      ]
+    },
+    "subject-newspapers-early-glasgow-james-glascow-fogs-manor-1757": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2868",
+        "Glasgow-4124",
+        "Glasgow-3944",
+        "Glasgow-2988",
+        "Glasgow-1024",
+        "Glasgow-1144",
+        "Glasgow-1025"
+      ],
+      "assessment": "Prefer Glasgow-2868 as a tentative regional comparison (1720 Glencorse, later Cecil Maryland family), with Glasgow-804/1144 as weaker American alternatives and the input Irish/Scottish candidates retained. The prior shipmaster ranking is inapplicable: this is a Fogs Manor postal addressee with no occupation. Do not identify him with Greenwich Packet merely because both spell Glascow.",
+      "review_ids": [
+        "subject-newspapers-early-glasgow-james-glascow-fogs-manor-1757"
+      ]
+    },
+    "subject-newspapers-early-glasgow-james-glascow-greenwich-packet-1777": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-4124",
+        "Glasgow-3944",
+        "Glasgow-2988",
+        "Glasgow-1024",
+        "Glasgow-2868",
+        "Glasgow-1144"
+      ],
+      "assessment": "Prefer Glasgow-4124 tentatively on actual occupational context: Saltoun surgeon of Swift of Sheerness in 1733, birth before 1733, no death recorded. The 44-year interval makes it weak but no concrete contradiction is supplied. Retain the other checked James candidates. James Young is the separate owner; no parent, postal identity or voyage origin is inferred.",
+      "review_ids": [
+        "subject-newspapers-early-glasgow-james-glascow-greenwich-packet-1777"
+      ]
+    },
+    "subject-newspapers-early-glasgow-james-david-glasgow-kelso-militia-1798": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1222",
+        "Glasgow-1218"
+      ],
+      "assessment": "Select James-1222 (25 December 1777 Kelso) and his existing father David-1218 (before 13 April 1744 Stitchel) as the preferred compatible family. Name pair, parish, generation and chronology jointly support this selection; missing militia identifier or occupation is not exclusion. The newspaper explicitly proves its own James son of David relationship, while identification with these profiles is tentative; do not upgrade their historical attachment automatically.",
+      "review_ids": [
+        "subject-newspapers-early-glasgow-james-david-glasgow-kelso-militia-1798"
+      ]
+    },
+    "subject-newspapers-early-glasgow-james-glasgow-charlestown-1775": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-804",
+        "Glasgow-1144"
+      ],
+      "assessment": "Prefer Glasgow-804 tentatively: 1735 Ayr birth,1769 South Carolina passenger index and 1788 Newberry death give relevant independent regional context. Retain Glasgow-1144 (1731 Kilwaughter, later Newberry) as a real rival. Neither co-listed Ezekiel nor the office list proves kinship or residence in Charlestown.",
+      "review_ids": [
+        "subject-newspapers-early-glasgow-james-glasgow-charlestown-1775"
+      ]
+    },
+    "subject-newspapers-early-glasgow-james-glasgow-edinburgh-castle-1737-1738": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1140",
+        "Glasgow-1238",
+        "Glasgow-1316",
+        "Glasgow-1442"
+      ],
+      "assessment": "Prefer Glasgow-1140 tentatively: c 1700 Kilbirnie birth and maintained 1722 divinity-student evidence fit the clerical role and period. Retain James-1238, James-1316 and James-1442 as less supported alternatives; before 1723 is not an exact birth. One probable 1737 appointment/1738 ordination officeholder is retained, with no new family attachment.",
+      "review_ids": [
+        "subject-newspapers-early-glasgow-james-glasgow-edinburgh-castle-1737-1738"
+      ]
+    },
+    "subject-newspapers-early-glasgow-james-glasgow-edinburgh-game-1789": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-4124",
+        "Glasgow-3944",
+        "Glasgow-2988",
+        "Glasgow-1024"
+      ],
+      "assessment": "Prefer Glasgow-4124 tentatively through Scottish adult chronology and Saltoun locality, retaining Glasgow-3944, Glasgow-2988 and Glasgow-1024. No maritime career is transferred to a game certificate. Glasgow-804 has an exact 1788 death conflict with active issue afterSeptember 1789; Glasgow-1144 only an estimated 1793 death and is not categorically excluded.",
+      "review_ids": [
+        "subject-newspapers-early-glasgow-james-glasgow-edinburgh-game-1789"
+      ]
+    },
+    "subject-newspapers-early-glasgow-james-glasgow-hackman-witness-1779": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2868",
+        "Glasgow-634",
+        "Glasgow-1144"
+      ],
+      "assessment": "Retain Glasgow-2868, Glasgow-634 and Glasgow-1144 as weak possible candidates after actual dossier comparison. Their American contexts make a London appearance less supported, not disproved. No single profile is selected from name alone. Chairmen is the recorded word and does not make him a meeting chairman. This witness remains a record-specific identity question.",
+      "review_ids": [
+        "subject-newspapers-early-glasgow-james-glasgow-hackman-witness-1779"
+      ]
+    },
+    "subject-newspapers-early-glasgow-james-glasgow-lancaster-postal-1773": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2868",
+        "Glasgow-3290",
+        "Glasgow-634"
+      ],
+      "assessment": "Prefer Glasgow-2868 tentatively on the Cecil/Pennsylvania regional context, retaining younger Glasgow-3290 and Glasgow-634. Postal lists can include minors; c 1758 birth does not exclude 3290. Office location is not proved residence. No family link or continuity with the other James postal entries is assumed.",
+      "review_ids": [
+        "subject-newspapers-early-glasgow-james-glasgow-lancaster-postal-1773"
+      ]
+    },
+    "subject-newspapers-early-glasgow-james-glasgow-marsh-creek-list-1795": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3290",
+        "Glasgow-2868",
+        "Glasgow-634"
+      ],
+      "assessment": "Retain Glasgow-3290 and Glasgow-2868 as weak regional candidates despite uncertain 1789/estimated 1784 deaths, because a list can include posthumous mail; retain Glasgow-634 as a weaker adult namesake. Do not call this a new person solely because there is no Marsh Creek deed. Three reprints are one occurrence, not three people.",
+      "review_ids": [
+        "subject-newspapers-early-glasgow-james-glasgow-marsh-creek-list-1795"
+      ]
+    },
+    "subject-newspapers-early-glasgow-james-glasgow-north-carolina-records-1787-1795": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-634"
+      ],
+      "assessment": "Glasgow-634 is the existing secretary of state profile: actual public biography records North Carolina office 1777–1798 and Dobbs context, matching the expressly named secretary records. Treat this as an existing-profile amendment, retiring the duplicate creation draft. Masonic/postal/petition occurrences are separately probable/possible; no blanket attribution to every same-name North Carolina notice.",
+      "review_ids": [
+        "subject-newspapers-early-glasgow-james-glasgow-north-carolina-records-1787-1795"
+      ]
+    },
+    "subject-newspapers-early-glasgow-james-glasgow-wilmington-tannery-advertiser-1782": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3290",
+        "Glasgow-2868",
+        "Glasgow-634"
+      ],
+      "assessment": "Prefer younger Glasgow-3290 (uncertain 1758 Cecil birth/1789 death) tentatively for the 1782–1785 Wilmington Delaware/Christiana Bridge advertiser; retain Glasgow-2868 with explicit 1785 versus estimated 1784 death tension, and Glasgow-634 as a less relevant North Carolina rival. Delaware is printed in 1785; Wilmington is not silently relocated to North Carolina. No sale completion or tanner occupation is inferred.",
+      "review_ids": [
+        "subject-newspapers-early-glasgow-james-glasgow-wilmington-tannery-advertiser-1782"
+      ]
+    },
+    "subject-newspapers-early-glasgow-jane-murray-omagh": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Murray-20839",
+        "Murray-8292",
+        "Murray-2283",
+        "Murray-34126"
+      ],
+      "assessment": "Live exact-surname Jane and Janet Murray searches around 1769, including undated profiles, returned 12 and 9 results. Actual public biographies checked for Murray-20839 (c 1770, unsourced family tree, undated John Fleming spouse), Murray-8292 (c 1770 Lanarkshire, Thomas Ramage family), Murray-2283 (c 1770 Annan, undated James Little marriage), and Murray-34126 (c 1770, married William Lauder at Albany 30 January 1787). Retain these as weak compatible alternatives: no profile establishes Omagh or a Glasco marriage, but differing later spouses or missing locality alone does not prove exclusion. The 1787 New York bride has substantial journey/remarriage tension afterSeptember 1786 Omagh, explicitly not a proved contradiction. No arbitrary preferred identification or new Jane profile is proposed; James Glasco husband remains its own qualified mapping.",
+      "review_ids": [
+        "subject-newspapers-early-glasgow-jane-murray-omagh"
+      ]
+    },
+    "subject-newspapers-early-glasgow-john-glasco-irish-rosters": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3927",
+        "Glasgow-4090",
+        "Glasgow-822"
+      ],
+      "assessment": "For the 1799 County Londonderry entry retain Glasgow-3927, Glasgow-4090 and Glasgow-822 as compatible local contemporaries, preferring 3927/4090 without claiming proof. For the 1798 Black-Rock occurrence these profiles remain weaker cross-region candidates; its identity with 1799 is not established. No duplicate person or kinship is inferred from a shared forename/surname.",
+      "review_ids": [
+        "subject-newspapers-early-glasgow-john-glasco-irish-rosters"
+      ]
+    },
+    "subject-newspapers-early-glasgow-john-glascow-chester-county": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2871",
+        "Glasgow-4027",
+        "Glasgow-3959",
+        "Glasgow-3960",
+        "Glasgow-1544",
+        "Glasgow-2846"
+      ],
+      "assessment": "Prefer Glasgow-2871 tentatively for the 1773 West Nottingham adjoining holder and 1776 Chester appointment: adult lifespan and later Chester location agree. Retain Glasgow-4027 (death before 1779 does not decide whether alive 1776),3959,3960,1544 and 2846. Glasgow-2870 has an exactMay 1769 death and conflicts with active 1773/1776 acts; do not confuse father and son.",
+      "review_ids": [
+        "subject-newspapers-early-glasgow-john-glascow-chester-county"
+      ]
+    },
+    "subject-newspapers-early-glasgow-john-glasgow-allegheny-township-list-1799": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-664",
+        "Glasgow-3927",
+        "Glasgow-4090"
+      ],
+      "assessment": "Prefer Glasgow-664 tentatively: birth 1777, later Allegheny Township Cambria 1820 census, and the recorded township passed from Huntingdon to Cambria in 1804. Exact locality history supplies a stronger argument than the Irish namesakes 3927/4090, which remain weaker alternatives. The 1799 reprints are one list, not separate men; no 1790 father-and-son claim follows.",
+      "review_ids": [
+        "subject-newspapers-early-glasgow-john-glasgow-allegheny-township-list-1799"
+      ]
+    },
+    "subject-newspapers-early-glasgow-john-glasgow-carlisle-postal-1793": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3927",
+        "Glasgow-4090",
+        "Glasgow-2871"
+      ],
+      "assessment": "Retain Glasgow-3927 and Glasgow-4090 as weak compatible contemporaries. Glasgow-2871 died 3 April 1792 but a 1793 postal list can contain posthumous correspondence; retain as a conditional regional alternative, not a living 1793 fact. No migration or household is established.",
+      "review_ids": [
+        "subject-newspapers-early-glasgow-john-glasgow-carlisle-postal-1793"
+      ]
+    },
+    "subject-newspapers-early-glasgow-john-glasgow-kensing-ton-postal-1769": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2870",
+        "Glasgow-2871"
+      ],
+      "assessment": "Retain both Glasgow-2870 and Glasgow-2871: the elder has the best regional history but died 23 May 1769, while the younger survives until 1792. The 1769 postal entry may be posthumous or the son; retain both rather than transferring the elder life dates. The split printed Kensing-/ton is not silently equated to a modern place.",
+      "review_ids": [
+        "subject-newspapers-early-glasgow-john-glasgow-kensing-ton-postal-1769"
+      ]
+    },
+    "subject-newspapers-early-glasgow-john-glasgow-millrig-subscription-1798": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3927",
+        "Glasgow-4090"
+      ],
+      "assessment": "Glasgow-3927 and Glasgow-4090 remain weak chronological alternatives only; their Irish contexts contain no recorded Kirkliston link. Missing migration is not exclusion, but does not support a preferred assignment. Retain the named Millrig labourer as a record-specific compatible-candidate hold; no orphan new profile is recommended.",
+      "review_ids": [
+        "subject-newspapers-early-glasgow-john-glasgow-millrig-subscription-1798"
+      ]
+    },
+    "subject-newspapers-early-glasgow-john-glasgow-nottingham-records-1758-1771": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2870",
+        "Glasgow-2871"
+      ],
+      "assessment": "Prefer Glasgow-2870 tentatively for 1758/1765 Nottingham and 1766 near-Oxford book collection because his actual profile places his 1769 death at Nottingham, Chester County. For 1771 West Nottingham mail prefer surviving son Glasgow-2871, while elder posthumous mail remains possible. Do not force all four events onto one man or infer relationships from co-listed William.",
+      "review_ids": [
+        "subject-newspapers-early-glasgow-john-glasgow-nottingham-records-1758-1771"
+      ]
+    },
+    "subject-newspapers-early-glasgow-mrs-glascoe-ormond-quay": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "King-67628",
+        "Duffy-6026"
+      ],
+      "assessment": "Prefer Mary King-67628 tentatively because her reported 1785 Thomas Glasco marriage is compatible with the 1783 Ormond Quay watchmaker context; Ann Duffy-6026 remains a real alternative. The Thomas marriage chain is unresolved and the notice supplies no forename/husband. This is an unnamed shopkeeper with candidate links, not a new Unknown spouse or proved shop attachment.",
+      "review_ids": [
+        "subject-newspapers-early-glasgow-mrs-glascoe-ormond-quay"
+      ]
+    },
+    "subject-newspapers-early-glasgow-nathaniel-r-glascoe-kingsessing": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1452",
+        "Glasgow-4014"
+      ],
+      "assessment": "Live searches for Nathaniel Glascoe, Glasco and Glasgow found two real historical compatible candidates. Glasgow-1452 was born before 2 January 1774 at Livingston and has no recorded death; appropriate 1799 adulthood. Glasgow-4014 is the before 1768 Drumgreenagh farmer witnessing a 1786 deed and indexed in 1809 probate; no exact death or simultaneous 1799 Irish act excludes travel. His live biography itself compares 1452. Retain both as weak candidates; no R., Kingsessing or migration bridge establishes either, and no new committee-member profile is justified merely from missing corroboration.",
+      "review_ids": [
+        "subject-newspapers-early-glasgow-nathaniel-r-glascoe-kingsessing"
+      ]
+    },
+    "subject-newspapers-early-glasgow-nicholas-glasco-southwark": {
+      "disposition": "new_profile",
+      "profile_ids": [],
+      "assessment": "Actual live Nicholas Glasco, Glascoe and Glasgow variant searches completed 17 October 2026 (18,15,5 results; all returned pages). No public historical compatible exact-name person was found; returned modern Nicholas Glasgow/John Nicholas profiles conflict by nineteenth/twentieth-century births, and Nicholas Glass 1601–1666 predates 1746. Reuse the complete existing Southwark draft, not a second person. The unusual full name/proceedings support one 1746 subject and probable 1747 military continuation, preserving the latter missing forename. French birth is reported defence evidence, not an inferred Irish family.",
+      "review_ids": [
+        "subject-newspapers-early-glasgow-nicholas-glasco-southwark"
+      ],
+      "suggested_people": [
+        {
+          "subject_id": "subject-newspapers-early-glasgow-nicholas-glasco-southwark",
+          "name": "Nicholas Glasco / Glascoe",
+          "draft_path": "surname-research/new-people/1746_England_Southwark_Nicholas_Glasco.md",
+          "public_url": "/research/subjects/newspapers-early-glasgow/#nicholas-glasco-southwark"
+        }
+      ]
+    },
+    "subject-newspapers-early-glasgow-robert-andrew-glasgow-calder-family-1772": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1445",
+        "Glasgow-3052",
+        "Glasgow-1333"
+      ],
+      "assessment": "Use Robert-1445 and Andrew-3052 as explicitly uncertain regional profile candidates, with Andrew-1333 as the alternative father identity. The newspaper directly names its Robert son of Andrew, miller at Calder; it does not name East/West Calder. Robert-1445 and Andrew-3052 are currently tree siblings under James; that tree-only structure is a real competing hypothesis, not documentary proof against them. No parent replacement is recommended from this comparison alone.",
+      "review_ids": [
+        "subject-newspapers-early-glasgow-robert-andrew-glasgow-calder-family-1772"
+      ]
+    },
+    "subject-newspapers-early-glasgow-robert-glasgow-cecil-plantation-notice-1786": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-395",
+        "Glasgow-2425",
+        "Glasgow-1143"
+      ],
+      "assessment": "Prefer Glasgow-395 tentatively through its Maryland/Apphia Moores family context and compatible c 1750–1800 life; retain Glasgow-2425 (c 1724, United States) and Glasgow-1143 (estimated c 1772 death, Antrim farmer) as weaker alternatives with explicit date tension. Missing Cecil land evidence is not exclusion. The notice does not prove kinship between Robert and Elizabeth.",
+      "review_ids": [
+        "subject-newspapers-early-glasgow-robert-glasgow-cecil-plantation-notice-1786"
+      ]
+    },
+    "subject-newspapers-early-glasgow-robert-glasgow-cookstown-reward-1796": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1189",
+        "Glasgow-1983"
+      ],
+      "assessment": "Prefer Glasgow-1189 tentatively: estimated 1769 Tyrone birth, later American life, plausible adult in 1796. Retain Glasgow-1983 (estimated 1763 Irish birth/later Newberry) as a rival. No unrecorded emigration date is assumed to exclude either; a reward subscription does not establish residence, family or payment.",
+      "review_ids": [
+        "subject-newspapers-early-glasgow-robert-glasgow-cookstown-reward-1796"
+      ]
+    },
+    "subject-newspapers-early-glasgow-robert-glasgow-edinburgh-prisoner-1767": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1445",
+        "Glasgow-2473"
+      ],
+      "assessment": "Prefer Glasgow-1445 tentatively on before 1735 Kirknewton/East Calder chronology and Edinburgh proximity; retain Glasgow-2473, before 1703 Edinburgh, as an older alternative. No criminal identifier equates either to the prisoner. Keep 1767 distinct from Robert son of Andrew in 1772 unless continuity is independently resolved.",
+      "review_ids": [
+        "subject-newspapers-early-glasgow-robert-glasgow-edinburgh-prisoner-1767"
+      ]
+    },
+    "subject-newspapers-early-glasgow-robert-glasgow-john-archibald-1754": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2474",
+        "Glasgow-2473",
+        "Glasgow-3457"
+      ],
+      "assessment": "Prefer Glasgow-2474 tentatively: actual live biography cites Robert master of Betty and Grizell, Irvine 1738, giving a relevant maritime comparison at compatible age. Retain Robert-2473 and Robert-3457 as chronological alternatives. John and Archibald is the vessel, not two relatives. No cross-vessel identity is proved.",
+      "review_ids": [
+        "subject-newspapers-early-glasgow-robert-glasgow-john-archibald-1754"
+      ]
+    },
+    "subject-newspapers-early-glasgow-robert-glasgow-old-bailey-1751": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2474",
+        "Glasgow-2473",
+        "Glasgow-3457"
+      ],
+      "assessment": "Retain Glasgow-2474, Glasgow-2473 and Glasgow-3457 as compatible adults after comparing their actual Scottish parish/family accounts. No source establishes London identity or actual execution, so a later shipmaster occurrence is not automatically a contradiction. The earlier READY TO CREATE assertion wrongly treated missing London links as exclusion; replace it with candidate hold and retire the independent creation instruction.",
+      "review_ids": [
+        "subject-newspapers-early-glasgow-robert-glasgow-old-bailey-1751"
+      ]
+    },
+    "subject-newspapers-early-glasgow-robert-glasgow-montgreenan-records-1785-1799": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1076"
+      ],
+      "assessment": "Prefer Glasgow-1076 as probable for exact Montgreenan 1799, supported by the existing Montgreenan/1802 source context and 1747–1827 lifespan. St Vincent surgeon 1785 and Loudoun doctor 1793 are compatible earlier career stages, individually probable/possible rather than proven by the property designation. Keep one profile handoff; no new relatives or source-defined death change.",
+      "review_ids": [
+        "subject-newspapers-early-glasgow-robert-glasgow-montgreenan-records-1785-1799"
+      ]
+    },
+    "subject-newspapers-early-glasgow-samuel-glascow-old-bailey": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3175",
+        "Glasgow-1492"
+      ],
+      "assessment": "Existing Glasgow-3175 explicitly cites the identical unique case obpt 17610506-1-defend 30 and gives the same trial/respite. It is the existing WikiTree destination for this case; retire the duplicate defendant draft. This does not validate the unproved equation between that defendant and the Ulster/Pennsylvania ancestor or establish American relatives. Glasgow-1492 remains a broader ancestry alternative.",
+      "review_ids": [
+        "subject-newspapers-early-glasgow-samuel-glascow-old-bailey"
+      ]
+    },
+    "subject-newspapers-early-glasgow-samuel-glasgow-maryland-regiment": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3175",
+        "Glasgow-1134",
+        "Glasgow-1492"
+      ],
+      "assessment": "Prefer Glasgow-1134 tentatively on estimated 1749 Cecil Maryland birth, appropriate adult 1777 chronology and American trajectory; retain Glasgow-3175 and Glasgow-1492. No company is inferred from list punctuation. Consolidate both old Maryland-regiment draft paths as one service handoff; no new soldier profile while compatible candidates remain.",
+      "review_ids": [
+        "subject-newspapers-early-glasgow-samuel-glasgow-maryland-regiment"
+      ]
+    },
+    "subject-newspapers-early-glasgow-samuel-glasgow-london-amicable": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1133",
+        "Glasgow-3524",
+        "Glasgow-3166"
+      ],
+      "assessment": "Retain Samuel-1133 (1745 Virginia, no death recorded) and very elderly Scottish Samuels 3524 (1707 Kilbirnie) and 3166 (before 1701 Dalziel) as weak compatible alternatives; missing London information is not exclusion. Actual live 3063 biography supplies a Govan burial 7 December 1818 aged 65, nailer, so it conflicts with the 1794 London pen-cutter death even though its structured death is blank. Later American deaths 3175/1492/1134 are uncertain/estimated, retained as conditional date-revision rivals rather than firm exclusions. Withdraw READY TO CREATE and consolidate the one Amicable subject; no unproved equation with 1761 defendant.",
+      "review_ids": [
+        "subject-newspapers-early-glasgow-samuel-glasgow-london-amicable"
+      ]
+    },
+    "subject-newspapers-early-glasgow-samuel-glasgow-washington-justice": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3175",
+        "Glasgow-1134",
+        "Glasgow-1492"
+      ],
+      "assessment": "Prefer Glasgow-3175 tentatively on its Washington County/Hanover 1801 context and adult chronology. Retain Glasgow-1134 and Glasgow-1492. County office identifies neither the London convict nor a specific ancestry; preserve that separate uncertainty.",
+      "review_ids": [
+        "subject-newspapers-early-glasgow-samuel-glasgow-washington-justice"
+      ]
+    },
+    "subject-newspapers-early-glasgow-samuel-glasgow-whitpain": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3175",
+        "Glasgow-1134",
+        "Glasgow-1492"
+      ],
+      "assessment": "Retain Glasgow-3175, Glasgow-1134 and Glasgow-1492 as compatible American alternatives; no single profile is selected from name alone. Repeated Isaac Williams estate notices are one adjoining-owner subject. Adjoining land does not prove residence, relatives or identity with the later county justice/soldier.",
+      "review_ids": [
+        "subject-newspapers-early-glasgow-samuel-glasgow-whitpain"
+      ]
+    },
+    "subject-newspapers-early-glasgow-thomas-glascoe-tinicum": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasco-173",
+        "Glasco-144",
+        "Glasco-143"
+      ],
+      "assessment": "Retain Glasco-173, Glasco-144 and Glasco-143 as compatible Thomas candidates after checking their real Dublin baptism/marriage accounts and chronology. Their Irish records do not exclude a 1799 American occurrence. No Tinicum property/household bridge ranks one securely; hold one sourced subject rather than create a separate person. William Steel is the alleged thief, not Thomas.",
+      "review_ids": [
+        "subject-newspapers-early-glasgow-thomas-glascoe-tinicum"
+      ]
+    },
+    "subject-newspapers-early-glasgow-thomas-glasgow-kentucky-postal-1799": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3592",
+        "Glasgow-1620"
+      ],
+      "assessment": "Retain Glasgow-3592 (1777 Rathdowney) and Glasgow-1620 (1761 Currie) as weak compatible candidates, alongside the previously noted weaker chronological comparisons. Foreign birthplace and missing Kentucky migration do not exclude. Postal qualifier alone supplies neither family nor continuous residence; withdraw READY creation while candidates survive.",
+      "review_ids": [
+        "subject-newspapers-early-glasgow-thomas-glasgow-kentucky-postal-1799"
+      ]
+    },
+    "subject-newspapers-early-glasgow-william-allen-glasgow-royal-engineers-1795": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2965",
+        "Glasgow-2715",
+        "Glasgow-1463"
+      ],
+      "assessment": "Prefer Glasgow-2965 tentatively (uncertain 1771 Lincolnshire birth, appropriate adult cadet); retain Glasgow-2715 (estimated 1779, young but possible) and Glasgow-1463 (broad before 1816 birth). Missing Allen or military field is not exclusion. Commission date is 1 October 1795, not newspaper publication 15 October; no service career or family is inferred.",
+      "review_ids": [
+        "subject-newspapers-early-glasgow-william-allen-glasgow-royal-engineers-1795"
+      ]
+    },
+    "subject-newspapers-early-glasgow-william-glascoe-old-bailey-1760": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-4120",
+        "Glasgow-4101",
+        "Glasgow-1505",
+        "Glasgow-3326"
+      ],
+      "assessment": "Retain the actual checked adult William profiles Glasgow-4120, Glasgow-4101, Glasgow-1505 and Glasgow-3326 as weak compatible alternatives; their baptism/Irish context supplies no London identifier but no concrete conflict. The defendant is a distinct recorded subject, while profile identity remains open. Retire READY TO CREATE because the prior review excluded for missing links rather than conflict; do not equate him with 1775 Maryland William.",
+      "review_ids": [
+        "subject-newspapers-early-glasgow-william-glascoe-old-bailey-1760"
+      ]
+    },
+    "subject-newspapers-early-glasgow-william-glascoe-maryland-1775": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2426",
+        "Glasgow-1430",
+        "Glasgow-1124"
+      ],
+      "assessment": "Prefer Glasgow-2426 tentatively through c 1735 birth and later United States context, retaining Glasgow-1430 and Glasgow-1124 as adult alternatives. No source proves Maryland residence for these candidates. The 1775 notice attributes the location to a jailed man; its truth and relation to 1760 London defendant remain separate. No new William is justified solely because the matching address is missing.",
+      "review_ids": [
+        "subject-newspapers-early-glasgow-william-glascoe-maryland-1775"
+      ]
+    },
+    "subject-newspapers-early-glasgow-william-glasgow-west-calder-tenant-1776": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1463"
+      ],
+      "assessment": "Retain Glasgow-1463 as a very weak compatible candidate: its before 1816 bound permits an earlier birth but supplies no adult age or West Calder tenancy. No exact 1816 birth is used to exclude. One Cleugh-head/Clovenfordsyke tenancy cluster preserves the 1774,1776,1777 stages; no sale outcome or kinship is inferred.",
+      "review_ids": [
+        "subject-newspapers-early-glasgow-william-glasgow-west-calder-tenant-1776"
+      ]
+    },
+    "subject-newspapers-early-glasgow-william-glasgow-falmouth-master-1787": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3324"
+      ],
+      "assessment": "Prefer Glasgow-3324 tentatively because the actual profile has the Larne maritime comparison and uncertain 1763–1816 chronology. Name/occupation/date fit; Baltimore–Amsterdam 1787 is not a proved Larne or Belfast voyage. Keep Falmouth separate from other vessels unless identity is shown; no new master profile is needed.",
+      "review_ids": [
+        "subject-newspapers-early-glasgow-william-glasgow-falmouth-master-1787"
+      ]
+    },
+    "subject-newspapers-early-glasgow-william-glasgow-lady-forbes": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-4120",
+        "Glasgow-4101",
+        "Glasgow-1505"
+      ],
+      "assessment": "Retain Glasgow-4120 (Irvine before 1723), Glasgow-4101 (Dundonald before 1733) and Glasgow-1505 (c 1708 Larne) as compatible adults. The first two have coastal parish context; none has a checked Lady Forbes voyage. Glasgow is the vessel home port, not the masters birthplace. Do not read William in a later ship-name notice as personal forename.",
+      "review_ids": [
+        "subject-newspapers-early-glasgow-william-glasgow-lady-forbes"
+      ]
+    },
+    "subject-newspapers-early-glasgow-william-glasgow-postal-1759-1765": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-4101",
+        "Glasgow-4120",
+        "Glasgow-3326",
+        "Glasgow-2426"
+      ],
+      "assessment": "Prefer Glasgow-2426 tentatively for the 1759 Cecil County entry through its later American context, retaining 4101,4120,3326 as alternatives. The 1763,1765 and 1771 entries retain separate identity scopes with the same candidate pool; do not turn them into one Cecil resident by name alone. Neighbouring Pennsylvania/Forks of Delaware qualifiers belong to other addressees. No relationship to co-listed John is proved.",
+      "review_ids": [
+        "subject-newspapers-early-glasgow-william-glasgow-postal-1759-1765"
+      ]
+    },
+    "draft-1746-england-southwark-nicholas-glasco": {
+      "disposition": "new_profile",
+      "profile_ids": [],
+      "assessment": "Duplicate queue/draft representation consolidated into subject-newspapers-early-glasgow-nicholas-glasco-southwark. Actual live Nicholas Glasco, Glascoe and Glasgow variant searches completed 17 October 2026 (18,15,5 results; all returned pages). No public historical compatible exact-name person was found; returned modern Nicholas Glasgow/John Nicholas profiles conflict by nineteenth/twentieth-century births, and Nicholas Glass 1601–1666 predates 1746. Reuse the complete existing Southwark draft, not a second person. The unusual full name/proceedings support one 1746 subject and probable 1747 military continuation, preserving the latter missing forename. French birth is reported defence evidence, not an inferred Irish family.",
+      "review_ids": [
+        "draft-1746-england-southwark-nicholas-glasco",
+        "subject-newspapers-early-glasgow-nicholas-glasco-southwark"
+      ],
+      "suggested_people": [
+        {
+          "subject_id": "subject-newspapers-early-glasgow-nicholas-glasco-southwark",
+          "name": "Nicholas Glasco / Glascoe",
+          "draft_path": "surname-research/new-people/1746_England_Southwark_Nicholas_Glasco.md",
+          "public_url": "/research/subjects/newspapers-early-glasgow/#nicholas-glasco-southwark"
+        }
+      ]
+    },
+    "draft-pre1800-robert-glasgow-old-bailey-1751": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2474",
+        "Glasgow-2473",
+        "Glasgow-3457"
+      ],
+      "assessment": "Duplicate queue/draft representation consolidated into subject-newspapers-early-glasgow-robert-glasgow-old-bailey-1751. Retain Glasgow-2474, Glasgow-2473 and Glasgow-3457 as compatible adults after comparing their actual Scottish parish/family accounts. No source establishes London identity or actual execution, so a later shipmaster occurrence is not automatically a contradiction. The earlier READY TO CREATE assertion wrongly treated missing London links as exclusion; replace it with candidate hold and retire the independent creation instruction.",
+      "review_ids": [
+        "draft-pre1800-robert-glasgow-old-bailey-1751",
+        "subject-newspapers-early-glasgow-robert-glasgow-old-bailey-1751"
+      ]
+    },
+    "draft-pre1800-samuel-glascow-old-bailey": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3175",
+        "Glasgow-1492"
+      ],
+      "assessment": "Duplicate queue/draft representation consolidated into subject-newspapers-early-glasgow-samuel-glascow-old-bailey. Existing Glasgow-3175 explicitly cites the identical unique case obpt 17610506-1-defend 30 and gives the same trial/respite. It is the existing WikiTree destination for this case; retire the duplicate defendant draft. This does not validate the unproved equation between that defendant and the Ulster/Pennsylvania ancestor or establish American relatives. Glasgow-1492 remains a broader ancestry alternative.",
+      "review_ids": [
+        "draft-pre1800-samuel-glascow-old-bailey",
+        "subject-newspapers-early-glasgow-samuel-glascow-old-bailey"
+      ]
+    },
+    "draft-pre1800-samuel-glasgow-london-amicable": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1133",
+        "Glasgow-3524",
+        "Glasgow-3166"
+      ],
+      "assessment": "Duplicate queue/draft representation consolidated into subject-newspapers-early-glasgow-samuel-glasgow-london-amicable. Retain Samuel-1133 (1745 Virginia, no death recorded) and very elderly Scottish Samuels 3524 (1707 Kilbirnie) and 3166 (before 1701 Dalziel) as weak compatible alternatives; missing London information is not exclusion. Actual live 3063 biography supplies a Govan burial 7 December 1818 aged 65, nailer, so it conflicts with the 1794 London pen-cutter death even though its structured death is blank. Later American deaths 3175/1492/1134 are uncertain/estimated, retained as conditional date-revision rivals rather than firm exclusions. Withdraw READY TO CREATE and consolidate the one Amicable subject; no unproved equation with 1761 defendant.",
+      "review_ids": [
+        "draft-pre1800-samuel-glasgow-london-amicable",
+        "subject-newspapers-early-glasgow-samuel-glasgow-london-amicable"
+      ]
+    },
+    "draft-pre1800-william-glascoe-old-bailey-1760": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-4120",
+        "Glasgow-4101",
+        "Glasgow-1505",
+        "Glasgow-3326"
+      ],
+      "assessment": "Duplicate queue/draft representation consolidated into subject-newspapers-early-glasgow-william-glascoe-old-bailey-1760. Retain the actual checked adult William profiles Glasgow-4120, Glasgow-4101, Glasgow-1505 and Glasgow-3326 as weak compatible alternatives; their baptism/Irish context supplies no London identifier but no concrete conflict. The defendant is a distinct recorded subject, while profile identity remains open. Retire READY TO CREATE because the prior review excluded for missing links rather than conflict; do not equate him with 1775 Maryland William.",
+      "review_ids": [
+        "draft-pre1800-william-glascoe-old-bailey-1760",
+        "subject-newspapers-early-glasgow-william-glascoe-old-bailey-1760"
+      ]
+    },
+    "draft-pre1800-george-glasgow-manchester-patent-1762": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1070",
+        "Glasgow-4165",
+        "Glasgow-1058",
+        "Glasgow-3312"
+      ],
+      "assessment": "Duplicate queue/draft representation consolidated into subject-newspapers-early-glasgow-george-glasgow-manchester-patent-1762. Retain Glasgow-1070, Glasgow-4165, Glasgow-3312 and older Glasgow-1058 as explicitly weak compatible alternatives after checking their actual Scottish parish/family evidence. None is excluded merely because Manchester or a patent is missing. No arbitrary single patentee identification, occupation transfer or separate new person is justified while these survive.",
+      "review_ids": [
+        "draft-pre1800-george-glasgow-manchester-patent-1762",
+        "subject-newspapers-early-glasgow-george-glasgow-manchester-patent-1762"
+      ]
+    },
+    "draft-pre1800-george-glasgow-royal-artillery-1771-1795": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1070",
+        "Glasgow-4165",
+        "Glasgow-1529"
+      ],
+      "assessment": "Duplicate queue/draft representation consolidated into subject-newspapers-early-glasgow-george-glasgow-royal-artillery-1771-1795. Retain George-1070 and George-4165 as weak older candidates for the 1771 lieutenant; George-1529, estimated c 1769, has severe early-service age tension but could fit the 1793/1795 captain/major. Do not assign the entire 1771–1795 career to George-1529. Live exact-surname George search found no better explicitly military profile. The progressive Royal Artillery ranks support one provisional career, not a proved life identity.",
+      "review_ids": [
+        "draft-pre1800-george-glasgow-royal-artillery-1771-1795",
+        "subject-newspapers-early-glasgow-george-glasgow-royal-artillery-1771-1795"
+      ]
+    },
+    "draft-pre1800-george-glasgow-second-lieutenant-1774": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1070",
+        "Glasgow-4165",
+        "Glasgow-1529"
+      ],
+      "assessment": "Duplicate queue/draft representation consolidated into subject-newspapers-early-glasgow-george-glasgow-second-lieutenant-1774. Retain Glasgow-1070 and Glasgow-4165 as weak older compatible candidates. Glasgow-1529 has a severe age mismatch (estimated c 1769, about five in 1774), retained only conditionally if the estimate is wrong. No regiment is supplied. Keep this notice distinct from the Royal Artillery first lieutenant already promoted in 1771; no demotion is invented.",
+      "review_ids": [
+        "draft-pre1800-george-glasgow-second-lieutenant-1774",
+        "subject-newspapers-early-glasgow-george-glasgow-second-lieutenant-1774"
+      ]
+    },
+    "draft-pre1800-james-glasgow-marsh-creek-list-1795": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3290",
+        "Glasgow-2868",
+        "Glasgow-634"
+      ],
+      "assessment": "Duplicate queue/draft representation consolidated into subject-newspapers-early-glasgow-james-glasgow-marsh-creek-list-1795. Retain Glasgow-3290 and Glasgow-2868 as weak regional candidates despite uncertain 1789/estimated 1784 deaths, because a list can include posthumous mail; retain Glasgow-634 as a weaker adult namesake. Do not call this a new person solely because there is no Marsh Creek deed. Three reprints are one occurrence, not three people.",
+      "review_ids": [
+        "draft-pre1800-james-glasgow-marsh-creek-list-1795",
+        "subject-newspapers-early-glasgow-james-glasgow-marsh-creek-list-1795"
+      ]
+    },
+    "draft-pre1800-james-glasgow-north-carolina-records-1787-1795": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-634"
+      ],
+      "assessment": "Duplicate queue/draft representation consolidated into subject-newspapers-early-glasgow-james-glasgow-north-carolina-records-1787-1795. Glasgow-634 is the existing secretary of state profile: actual public biography records North Carolina office 1777–1798 and Dobbs context, matching the expressly named secretary records. Treat this as an existing-profile amendment, retiring the duplicate creation draft. Masonic/postal/petition occurrences are separately probable/possible; no blanket attribution to every same-name North Carolina notice.",
+      "review_ids": [
+        "draft-pre1800-james-glasgow-north-carolina-records-1787-1795",
+        "subject-newspapers-early-glasgow-james-glasgow-north-carolina-records-1787-1795"
+      ]
+    },
+    "draft-pre1800-nathaniel-r-glascoe-kingsessing": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1452",
+        "Glasgow-4014"
+      ],
+      "assessment": "Duplicate queue/draft representation consolidated into subject-newspapers-early-glasgow-nathaniel-r-glascoe-kingsessing. Live searches for Nathaniel Glascoe, Glasco and Glasgow found two real historical compatible candidates. Glasgow-1452 was born before 2 January 1774 at Livingston and has no recorded death; appropriate 1799 adulthood. Glasgow-4014 is the before 1768 Drumgreenagh farmer witnessing a 1786 deed and indexed in 1809 probate; no exact death or simultaneous 1799 Irish act excludes travel. His live biography itself compares 1452. Retain both as weak candidates; no R., Kingsessing or migration bridge establishes either, and no new committee-member profile is justified merely from missing corroboration.",
+      "review_ids": [
+        "draft-pre1800-nathaniel-r-glascoe-kingsessing",
+        "subject-newspapers-early-glasgow-nathaniel-r-glascoe-kingsessing"
+      ]
+    },
+    "draft-pre1800-robert-andrew-glasgow-calder-family-1772": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1445",
+        "Glasgow-3052",
+        "Glasgow-1333"
+      ],
+      "assessment": "Duplicate queue/draft representation consolidated into subject-newspapers-early-glasgow-robert-andrew-glasgow-calder-family-1772. Use Robert-1445 and Andrew-3052 as explicitly uncertain regional profile candidates, with Andrew-1333 as the alternative father identity. The newspaper directly names its Robert son of Andrew, miller at Calder; it does not name East/West Calder. Robert-1445 and Andrew-3052 are currently tree siblings under James; that tree-only structure is a real competing hypothesis, not documentary proof against them. No parent replacement is recommended from this comparison alone.",
+      "review_ids": [
+        "draft-pre1800-robert-andrew-glasgow-calder-family-1772",
+        "subject-newspapers-early-glasgow-robert-andrew-glasgow-calder-family-1772"
+      ]
+    },
+    "draft-pre1800-robert-glasgow-cecil-plantation-notice-1786": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-395",
+        "Glasgow-2425",
+        "Glasgow-1143"
+      ],
+      "assessment": "Duplicate queue/draft representation consolidated into subject-newspapers-early-glasgow-robert-glasgow-cecil-plantation-notice-1786. Prefer Glasgow-395 tentatively through its Maryland/Apphia Moores family context and compatible c 1750–1800 life; retain Glasgow-2425 (c 1724, United States) and Glasgow-1143 (estimated c 1772 death, Antrim farmer) as weaker alternatives with explicit date tension. Missing Cecil land evidence is not exclusion. The notice does not prove kinship between Robert and Elizabeth.",
+      "review_ids": [
+        "draft-pre1800-robert-glasgow-cecil-plantation-notice-1786",
+        "subject-newspapers-early-glasgow-robert-glasgow-cecil-plantation-notice-1786"
+      ]
+    },
+    "draft-pre1800-robert-glasgow-edinburgh-prisoner-1767": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1445",
+        "Glasgow-2473"
+      ],
+      "assessment": "Duplicate queue/draft representation consolidated into subject-newspapers-early-glasgow-robert-glasgow-edinburgh-prisoner-1767. Prefer Glasgow-1445 tentatively on before 1735 Kirknewton/East Calder chronology and Edinburgh proximity; retain Glasgow-2473, before 1703 Edinburgh, as an older alternative. No criminal identifier equates either to the prisoner. Keep 1767 distinct from Robert son of Andrew in 1772 unless continuity is independently resolved.",
+      "review_ids": [
+        "draft-pre1800-robert-glasgow-edinburgh-prisoner-1767",
+        "subject-newspapers-early-glasgow-robert-glasgow-edinburgh-prisoner-1767"
+      ]
+    },
+    "draft-pre1800-thomas-glascoe-tinicum": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasco-173",
+        "Glasco-144",
+        "Glasco-143"
+      ],
+      "assessment": "Duplicate queue/draft representation consolidated into subject-newspapers-early-glasgow-thomas-glascoe-tinicum. Retain Glasco-173, Glasco-144 and Glasco-143 as compatible Thomas candidates after checking their real Dublin baptism/marriage accounts and chronology. Their Irish records do not exclude a 1799 American occurrence. No Tinicum property/household bridge ranks one securely; hold one sourced subject rather than create a separate person. William Steel is the alleged thief, not Thomas.",
+      "review_ids": [
+        "draft-pre1800-thomas-glascoe-tinicum",
+        "subject-newspapers-early-glasgow-thomas-glascoe-tinicum"
+      ]
+    },
+    "draft-pre1800-thomas-glasgow-kentucky-postal-1799": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3592",
+        "Glasgow-1620"
+      ],
+      "assessment": "Duplicate queue/draft representation consolidated into subject-newspapers-early-glasgow-thomas-glasgow-kentucky-postal-1799. Retain Glasgow-3592 (1777 Rathdowney) and Glasgow-1620 (1761 Currie) as weak compatible candidates, alongside the previously noted weaker chronological comparisons. Foreign birthplace and missing Kentucky migration do not exclude. Postal qualifier alone supplies neither family nor continuous residence; withdraw READY creation while candidates survive.",
+      "review_ids": [
+        "draft-pre1800-thomas-glasgow-kentucky-postal-1799",
+        "subject-newspapers-early-glasgow-thomas-glasgow-kentucky-postal-1799"
+      ]
+    },
+    "draft-pre1800-william-allen-glasgow-royal-engineers-1795": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2965",
+        "Glasgow-2715",
+        "Glasgow-1463"
+      ],
+      "assessment": "Duplicate queue/draft representation consolidated into subject-newspapers-early-glasgow-william-allen-glasgow-royal-engineers-1795. Prefer Glasgow-2965 tentatively (uncertain 1771 Lincolnshire birth, appropriate adult cadet); retain Glasgow-2715 (estimated 1779, young but possible) and Glasgow-1463 (broad before 1816 birth). Missing Allen or military field is not exclusion. Commission date is 1 October 1795, not newspaper publication 15 October; no service career or family is inferred.",
+      "review_ids": [
+        "draft-pre1800-william-allen-glasgow-royal-engineers-1795",
+        "subject-newspapers-early-glasgow-william-allen-glasgow-royal-engineers-1795"
+      ]
+    },
+    "draft-pre1800-william-glascoe-maryland-1775": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2426",
+        "Glasgow-1430",
+        "Glasgow-1124"
+      ],
+      "assessment": "Duplicate queue/draft representation consolidated into subject-newspapers-early-glasgow-william-glascoe-maryland-1775. Prefer Glasgow-2426 tentatively through c 1735 birth and later United States context, retaining Glasgow-1430 and Glasgow-1124 as adult alternatives. No source proves Maryland residence for these candidates. The 1775 notice attributes the location to a jailed man; its truth and relation to 1760 London defendant remain separate. No new William is justified solely because the matching address is missing.",
+      "review_ids": [
+        "draft-pre1800-william-glascoe-maryland-1775",
+        "subject-newspapers-early-glasgow-william-glascoe-maryland-1775"
+      ]
+    },
+    "draft-pre1800-william-glasgow-postal-1759-1765": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-4101",
+        "Glasgow-4120",
+        "Glasgow-3326",
+        "Glasgow-2426"
+      ],
+      "assessment": "Duplicate queue/draft representation consolidated into subject-newspapers-early-glasgow-william-glasgow-postal-1759-1765. Prefer Glasgow-2426 tentatively for the 1759 Cecil County entry through its later American context, retaining 4101,4120,3326 as alternatives. The 1763,1765 and 1771 entries retain separate identity scopes with the same candidate pool; do not turn them into one Cecil resident by name alone. Neighbouring Pennsylvania/Forks of Delaware qualifiers belong to other addressees. No relationship to co-listed John is proved.",
+      "review_ids": [
+        "draft-pre1800-william-glasgow-postal-1759-1765",
+        "subject-newspapers-early-glasgow-william-glasgow-postal-1759-1765"
+      ]
+    },
+    "draft-1826-ireland-place-not-stated-edward-george-glasgow": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3501"
+      ],
+      "assessment": "Consolidate the 1825 and 1826 full-name/84th Regiment notices. Glasgow-3501 (c.1800 Ireland; arrived New York 3 April 1850) survives as a weak candidate: missing middle name and service fields do not exclude him. Glasgow-2074 is a weaker surgeon comparison with a specific 1860 death. The 6 October review’s Emily Caroline widow notice in December 1849 would exclude both later lives if that identity is verified; the snippet was not newly verified here. Do not create another Edward while 3501 survives.",
+      "review_ids": [
+        "draft-1826-ireland-place-not-stated-edward-george-glasgow"
+      ]
+    },
+    "draft-1847-ireland-montgreenan-ayrshire-george-sherbrooke-airey-esq-lieutenant-r": {
+      "disposition": "disregarded",
+      "profile_ids": [],
+      "assessment": "Preserve this non-Glasgow husband in the Montgreenan double-marriage account; no separate surname creation. His father Sir George is Airey-297, not the bridegroom. The supported Glasgow family belongs with the existing compatible father/daughter profiles. Airey-248/528 remain weak comparisons without the distinctive full name; no false groom match claimed.",
+      "review_ids": [
+        "draft-1847-ireland-montgreenan-ayrshire-george-sherbrooke-airey-esq-lieutenant-r"
+      ]
+    },
+    "draft-1823-ireland-north-street-sample-location-c-james-glasgow": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3986"
+      ],
+      "assessment": "Consolidate the 1819 Rosemary Street grocer, 1822/1823 tobacco seller, 1828 former occupant and probable 1820 plaintiff. Retain 3986: actual biography identifies a c.1773 Larne merchant in 1795 and junior in 1797, reported death 1831. Larne and Belfast businesses can coexist; different town or absent Belfast text does not exclude him. The plaintiff’s residence/trade and street-number differences remain unresolved. Retire five per-event READY recommendations while this candidate survives.",
+      "review_ids": [
+        "draft-1823-ireland-north-street-sample-location-c-james-glasgow"
+      ]
+    },
+    "draft-1820-ireland-dublin-report-heading-james-glasgow": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3986"
+      ],
+      "assessment": "Consolidate the 1819 Rosemary Street grocer, 1822/1823 tobacco seller, 1828 former occupant and probable 1820 plaintiff. Retain 3986: actual biography identifies a c.1773 Larne merchant in 1795 and junior in 1797, reported death 1831. Larne and Belfast businesses can coexist; different town or absent Belfast text does not exclude him. The plaintiff’s residence/trade and street-number differences remain unresolved. Retire five per-event READY recommendations while this candidate survives.",
+      "review_ids": [
+        "draft-1820-ireland-dublin-report-heading-james-glasgow"
+      ]
+    },
+    "draft-1839-ireland-larne-bank-hall-wakenham-demer-james-glasgow-esq-native-of-larne": {
+      "disposition": "new_profile",
+      "profile_ids": [],
+      "assessment": "Distinct notice-defined James, native of Larne, died 13 June 1839 at Bank Hall, printed Wakenham, Demerara. The documented 6 October variant audit found no compatible profile; Larne comparisons 3986, 3991 and 1509 report earlier deaths in 1831, 1812 and 1802. Recheck their actual identity before any eventual live creation. Keep this death separate from the Belfast grocer cluster; neither planter occupation nor modernised place spelling is established.",
+      "review_ids": [
+        "draft-1839-ireland-larne-bank-hall-wakenham-demer-james-glasgow-esq-native-of-larne"
+      ],
+      "suggested_people": [
+        {
+          "subject_id": "subject-newspapers-irish-1800-1850-james-larne-demerara",
+          "name": "James Glasgow, Larne native who died in Demerara, 1839",
+          "draft_path": "research/queue-review-2026-10-17/drafts/previous-reviewed/newspapers-irish-1800-1850--james-larne-demerara.md",
+          "public_url": "/research/subjects/newspapers-irish-1800-1850/#james-larne-demerara"
+        }
+      ]
+    },
+    "draft-1822-ireland-at-mr-james-m-master-s-busines-james-glasgow": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3986"
+      ],
+      "assessment": "Consolidate the 1819 Rosemary Street grocer, 1822/1823 tobacco seller, 1828 former occupant and probable 1820 plaintiff. Retain 3986: actual biography identifies a c.1773 Larne merchant in 1795 and junior in 1797, reported death 1831. Larne and Belfast businesses can coexist; different town or absent Belfast text does not exclude him. The plaintiff’s residence/trade and street-number differences remain unresolved. Retire five per-event READY recommendations while this candidate survives.",
+      "review_ids": [
+        "draft-1822-ireland-at-mr-james-m-master-s-busines-james-glasgow"
+      ]
+    },
+    "draft-1822-ireland-belfast-advertisement-location-james-glasgow": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3986"
+      ],
+      "assessment": "Consolidate the 1819 Rosemary Street grocer, 1822/1823 tobacco seller, 1828 former occupant and probable 1820 plaintiff. Retain 3986: actual biography identifies a c.1773 Larne merchant in 1795 and junior in 1797, reported death 1831. Larne and Belfast businesses can coexist; different town or absent Belfast text does not exclude him. The plaintiff’s residence/trade and street-number differences remain unresolved. Retire five per-event READY recommendations while this candidate survives.",
+      "review_ids": [
+        "draft-1822-ireland-belfast-advertisement-location-james-glasgow"
+      ]
+    },
+    "draft-1828-ireland-no-rosemary-street-belfast-for-mr-james-glasgow": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3986"
+      ],
+      "assessment": "Consolidate the 1819 Rosemary Street grocer, 1822/1823 tobacco seller, 1828 former occupant and probable 1820 plaintiff. Retain 3986: actual biography identifies a c.1773 Larne merchant in 1795 and junior in 1797, reported death 1831. Larne and Belfast businesses can coexist; different town or absent Belfast text does not exclude him. The plaintiff’s residence/trade and street-number differences remain unresolved. Retire five per-event READY recommendations while this candidate survives.",
+      "review_ids": [
+        "draft-1828-ireland-no-rosemary-street-belfast-for-mr-james-glasgow"
+      ]
+    },
+    "subject-newspapers-irish-1800-1850-montgreenan-double-marriage-1847": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Robertson-30564",
+        "Glasgow-3000",
+        "Glasgow-3003",
+        "Drake-13873"
+      ],
+      "assessment": "Prefer Robertson-30564 for the late father: his actual biography describes the Robertson-to-Glasgow surname change, Montgreenan inheritance, death in 1845, and daughters Anne and Charlotte Marie Cecilia. Glasgow-3000 fits Anne; Glasgow-3003 fits Charlotte’s distinctive name, 1827 birth and Drake surname; Drake-13873 fits Rev George. Glasgow-1076 is a weaker historical alternative, whose actual biography makes the later girls descendants rather than his known daughters. These are compatible identifications; the newspaper supplies direct father/spouse statements but no mothers. George Sherbrooke Airey is the bridegroom, distinct from his father Airey-297.",
+      "review_ids": [
+        "subject-newspapers-irish-1800-1850-montgreenan-double-marriage-1847"
+      ]
+    },
+    "subject-anne-armstrong-jane-glasgow-antrim-assizes-1838-anne-armstrong": {
+      "disposition": "disregarded",
+      "profile_ids": [],
+      "assessment": "Retain Anne as Jane Glasgow’s daughter and John Armstrong’s wife, died 23 June 1838 at printed Bally-cluck. Her birth surname is unstated. Exclude separate non-Glasgow associate creation; do not invent Glasgow LNAB. Keep the named woman and source-defined relationships in the Jane Glasgow study.",
+      "review_ids": [
+        "subject-anne-armstrong-jane-glasgow-antrim-assizes-1838-anne-armstrong"
+      ]
+    },
+    "draft-1858-ireland-cookstown-benjamin-drapersfield": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3412",
+        "Glasgow-2566"
+      ],
+      "assessment": "3412 (1805 Scotland; surgery graduate 1826) remains a weak chronology comparison; a degree does not exclude subsequent mill management. 2566 has material conflicts: actual 1876 marriage calls him bachelor and son of George, whereas the documentary merchant married Wilhelmina in 1864 and explicitly named Robert as father. Do not reparent 2566. 2059’s February 1870 death conflicts with the July 1870 action and his father John differs. Retain one consolidated Drapersfield family account.",
+      "review_ids": [
+        "draft-1858-ireland-cookstown-benjamin-drapersfield"
+      ]
+    },
+    "subject-newspapers-irish-1800-1850-edward-george-army": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3501"
+      ],
+      "assessment": "Consolidate the 1825 and 1826 full-name/84th Regiment notices. Glasgow-3501 (c.1800 Ireland; arrived New York 3 April 1850) survives as a weak candidate: missing middle name and service fields do not exclude him. Glasgow-2074 is a weaker surgeon comparison with a specific 1860 death. The 6 October review’s Emily Caroline widow notice in December 1849 would exclude both later lives if that identity is verified; the snippet was not newly verified here. Do not create another Edward while 3501 survives.",
+      "review_ids": [
+        "subject-newspapers-irish-1800-1850-edward-george-army"
+      ]
+    },
+    "draft-1825-united-kingdom-84th-regiment-edward-george-glasgow": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3501"
+      ],
+      "assessment": "Consolidate the 1825 and 1826 full-name/84th Regiment notices. Glasgow-3501 (c.1800 Ireland; arrived New York 3 April 1850) survives as a weak candidate: missing middle name and service fields do not exclude him. Glasgow-2074 is a weaker surgeon comparison with a specific 1860 death. The 6 October review’s Emily Caroline widow notice in December 1849 would exclude both later lives if that identity is verified; the snippet was not newly verified here. Do not create another Edward while 3501 survives.",
+      "review_ids": [
+        "draft-1825-united-kingdom-84th-regiment-edward-george-glasgow"
+      ]
+    },
+    "subject-william-glasgow-irish-newspapers-emma-parsonstown": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2771"
+      ],
+      "assessment": "2771 remains a weak comparison: Emma, c.1815 South Carolina, later life unknown. Its actual current biography explicitly says the Robert/Nancy parent attachments are unproved hypotheses from unnamed census women; these cannot be a documentary exclusion. Geography and age about 60 weaken the comparison, but the marriage notice states no age. 2743 has a documented James father; 1743 was born in 1886. Retain 2771 tentatively, without reparenting or duplicate creation.",
+      "review_ids": [
+        "subject-william-glasgow-irish-newspapers-emma-parsonstown"
+      ]
+    },
+    "draft-1875-ireland-parsonstown-emma-parsonstown": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2771"
+      ],
+      "assessment": "2771 remains a weak comparison: Emma, c.1815 South Carolina, later life unknown. Its actual current biography explicitly says the Robert/Nancy parent attachments are unproved hypotheses from unnamed census women; these cannot be a documentary exclusion. Geography and age about 60 weaken the comparison, but the marriage notice states no age. 2743 has a documented James father; 1743 was born in 1886. Retain 2771 tentatively, without reparenting or duplicate creation.",
+      "review_ids": [
+        "draft-1875-ireland-parsonstown-emma-parsonstown"
+      ]
+    },
+    "subject-anne-armstrong-jane-glasgow-antrim-assizes-1838-euphemia-armstrong-mother-john": {
+      "disposition": "disregarded",
+      "profile_ids": [],
+      "assessment": "Retain Euphemia as the expressly named mother of John Armstrong in the Antrim study. No Glasgow surname is supplied for her. Exclude separate surname creation while preserving her identity, testimony and relationship in the sourced family account.",
+      "review_ids": [
+        "subject-anne-armstrong-jane-glasgow-antrim-assizes-1838-euphemia-armstrong-mother-john"
+      ]
+    },
+    "subject-newspapers-irish-1800-1850-george-senior-artillery": {
+      "disposition": "new_profile",
+      "profile_ids": [],
+      "assessment": "The full DCB entry, successfully read through urllib on 17 October, identifies a cadet appointed 2 April 1771, colonel from 24 July 1806, major-general from 4 July 1811, lieutenant-general in August 1819, died 28 October 1820. This joins the June 1811 colonel and September 1819 brevet notices. Actual candidate biographies exclude 1529 (baptised 1769, aged two at cadet appointment), 3611 (born 1777, died 1857) and 3345 (born 1792). Retain the documented 6 October fully paged George/variant duplicate audit; no compatible profile found. Earlier 1771 first-lieutenant evidence describes another officer and must not be conflated with this 1771 cadet.",
+      "review_ids": [
+        "subject-newspapers-irish-1800-1850-george-senior-artillery"
+      ],
+      "suggested_people": [
+        {
+          "subject_id": "subject-newspapers-irish-1800-1850-george-senior-artillery",
+          "name": "George Glasgow, senior Royal Artillery officer, 1811–1819",
+          "draft_path": "research/queue-review-2026-10-17/drafts/later-newspapers/george-senior-artillery.md",
+          "public_url": "/research/subjects/newspapers-irish-1800-1850/#george-senior-artillery"
+        }
+      ]
+    },
+    "draft-1811-united-kingdom-royal-artillery-george-glasgow": {
+      "disposition": "new_profile",
+      "profile_ids": [],
+      "assessment": "The full DCB entry, successfully read through urllib on 17 October, identifies a cadet appointed 2 April 1771, colonel from 24 July 1806, major-general from 4 July 1811, lieutenant-general in August 1819, died 28 October 1820. This joins the June 1811 colonel and September 1819 brevet notices. Actual candidate biographies exclude 1529 (baptised 1769, aged two at cadet appointment), 3611 (born 1777, died 1857) and 3345 (born 1792). Retain the documented 6 October fully paged George/variant duplicate audit; no compatible profile found. Earlier 1771 first-lieutenant evidence describes another officer and must not be conflated with this 1771 cadet.",
+      "review_ids": [
+        "draft-1811-united-kingdom-royal-artillery-george-glasgow"
+      ],
+      "suggested_people": [
+        {
+          "subject_id": "subject-newspapers-irish-1800-1850-george-senior-artillery",
+          "name": "George Glasgow, senior Royal Artillery officer, 1811–1819",
+          "draft_path": "research/queue-review-2026-10-17/drafts/later-newspapers/george-senior-artillery.md",
+          "public_url": "/research/subjects/newspapers-irish-1800-1850/#george-senior-artillery"
+        }
+      ]
+    },
+    "subject-newspapers-irish-1800-1850-george-mark-artillery": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3127",
+        "Glasgow-3785",
+        "Glasgow-1536"
+      ],
+      "assessment": "Prefer Glasgow-3127: its actual current biography identifies George Mark, Captain Royal Artillery, daughter Madeline and death before her 1846 marriage. The 1825 lieutenant and 1837 captain notices fit. Retain exact-name 3785 (1795 Quebec–1851 Kingston; Clement Stuart’s 1833 baptism citation) as a true rival and 1536 (Barony, 1804) as a weaker suggested identity. The 1846/1851 death conflict requires original family/service evidence. Do not create or merge another officer.",
+      "review_ids": [
+        "subject-newspapers-irish-1800-1850-george-mark-artillery"
+      ]
+    },
+    "draft-1825-united-kingdom-royal-artillery-george-mark-glasgow": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3127",
+        "Glasgow-3785",
+        "Glasgow-1536"
+      ],
+      "assessment": "Prefer Glasgow-3127: its actual current biography identifies George Mark, Captain Royal Artillery, daughter Madeline and death before her 1846 marriage. The 1825 lieutenant and 1837 captain notices fit. Retain exact-name 3785 (1795 Quebec–1851 Kingston; Clement Stuart’s 1833 baptism citation) as a true rival and 1536 (Barony, 1804) as a weaker suggested identity. The 1846/1851 death conflict requires original family/service evidence. Do not create or merge another officer.",
+      "review_ids": [
+        "draft-1825-united-kingdom-royal-artillery-george-mark-glasgow"
+      ]
+    },
+    "subject-newspapers-irish-1800-1850-j-glasco-st-andrews-annuity-appeal-1838": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3927"
+      ],
+      "assessment": "3927 remains a weak compatible J./John Glasco comparison: an adult Inishrush householder in 1831 with no proved later identity. The 1838 appeal supplies only J., no occupation or family; do not expand that initial as fact. 822 is a proposed identity for 3927, but its actual biography places him in Ohio from 1833, materially weakening direct Dublin assignment. No initial-only new person recommended.",
+      "review_ids": [
+        "subject-newspapers-irish-1800-1850-j-glasco-st-andrews-annuity-appeal-1838"
+      ]
+    },
+    "draft-1838-ireland-dublin-j-glasco-st-andrews-appeal": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3927"
+      ],
+      "assessment": "3927 remains a weak compatible J./John Glasco comparison: an adult Inishrush householder in 1831 with no proved later identity. The 1838 appeal supplies only J., no occupation or family; do not expand that initial as fact. 822 is a proposed identity for 3927, but its actual biography places him in Ohio from 1833, materially weakening direct Dublin assignment. No initial-only new person recommended.",
+      "review_ids": [
+        "draft-1838-ireland-dublin-j-glasco-st-andrews-appeal"
+      ]
+    },
+    "subject-newspapers-irish-1800-1850-john-glasco-army-surgeons": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2058",
+        "Glasgow-3927"
+      ],
+      "assessment": "2058 remains a weak age-compatible comparison (c.1788; later Cookstown merchant), with 3927 a rival, neither with a service bridge. Actual 2058 records sons Henry and Benjamin and a merchant occupation in 1856; it does not exclude earlier army service. 822’s Ohio life from 1833 conflicts with the proposed later Liverpool career. Keep the probable 1816/1822 59th Foot sequence, senior 1826 retiree, and 1836–1839 staff surgeon separately qualified. No proved household identification or one-person-per-notice creation.",
+      "review_ids": [
+        "subject-newspapers-irish-1800-1850-john-glasco-army-surgeons"
+      ]
+    },
+    "draft-1816-ireland-military-john-glasco": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2058",
+        "Glasgow-3927"
+      ],
+      "assessment": "2058 remains a weak age-compatible comparison (c.1788; later Cookstown merchant), with 3927 a rival, neither with a service bridge. Actual 2058 records sons Henry and Benjamin and a merchant occupation in 1856; it does not exclude earlier army service. 822’s Ohio life from 1833 conflicts with the proposed later Liverpool career. Keep the probable 1816/1822 59th Foot sequence, senior 1826 retiree, and 1836–1839 staff surgeon separately qualified. No proved household identification or one-person-per-notice creation.",
+      "review_ids": [
+        "draft-1816-ireland-military-john-glasco"
+      ]
+    },
+    "subject-newspapers-irish-1800-1850-james-cookstown-cassell-tea": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3444",
+        "Glasgow-3196"
+      ],
+      "assessment": "Prefer 3444 (c.1776–14 December 1866, Cookstown); retain 3196 (c.1805–9 February 1875) as a rival. Actual current 3444 cites the GRONI 1866 death index, superseding the vague conflicting derivative burial lead. 3196 was a farmer in son David’s 1859 marriage, which does not exclude earlier trading. Eleven advertisements repeat one role, not eleven people or independent family proofs. Keep the separately named John agency distinct.",
+      "review_ids": [
+        "subject-newspapers-irish-1800-1850-james-cookstown-cassell-tea"
+      ]
+    },
+    "subject-anne-armstrong-jane-glasgow-antrim-assizes-1838-jane-glasgow-mother-anne": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "McClure-6341"
+      ],
+      "assessment": "Prefer McClure-6341, whose actual Antrim/Racavan biography gives Jane, widow of John Glasgow, died 1858, and a memorial citation naming daughter Jane Armstrong. That strengthens the Armstrong family context but does not identify Anne. Glasgow-1779 is the daughter Jane, not automatically the witness mother; her reported 1837 death conflicts with appearing as a witness in 1838. Mother Jane–daughter Anne is directly stated in the newspaper; applying it to 6341 remains uncertain.",
+      "review_ids": [
+        "subject-anne-armstrong-jane-glasgow-antrim-assizes-1838-jane-glasgow-mother-anne"
+      ]
+    },
+    "draft-1838-ireland-antrim-assizes-gave-evidence-john-armstrong": {
+      "disposition": "disregarded",
+      "profile_ids": [],
+      "assessment": "Retain John, husband of Anne and son of Euphemia, in the Antrim family study. He is not John Glasgow. Exclude separate non-Glasgow associate creation; preserve the named household and exact newspaper citation.",
+      "review_ids": [
+        "draft-1838-ireland-antrim-assizes-gave-evidence-john-armstrong"
+      ]
+    },
+    "subject-anne-armstrong-jane-glasgow-antrim-assizes-1838-john-armstrong-husband-anne": {
+      "disposition": "disregarded",
+      "profile_ids": [],
+      "assessment": "Retain John, husband of Anne and son of Euphemia, in the Antrim family study. He is not John Glasgow. Exclude separate non-Glasgow associate creation; preserve the named household and exact newspaper citation.",
+      "review_ids": [
+        "subject-anne-armstrong-jane-glasgow-antrim-assizes-1838-john-armstrong-husband-anne"
+      ]
+    },
+    "draft-1848-ireland-cookstown-john-glasgow": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2058",
+        "Glasgow-1968"
+      ],
+      "assessment": "Prefer Glasgow-2058: actual biography identifies father of Benjamin-2059 and Henry-1735 and merchant occupation in Benjamin’s 1856 marriage. Name, trade and Cookstown fit the 1848–1850 coffee/tea advertisements; no direct family clause joins them. Retain 1968 as a weaker comparison because migration to Michigan in 1844/1848 conflicts with a continuing Irish agency. Probate year does not establish death.",
+      "review_ids": [
+        "draft-1848-ireland-cookstown-john-glasgow"
+      ]
+    },
+    "subject-newspapers-pre1900-20261004-margaret-george": {
+      "disposition": "new_profile",
+      "profile_ids": [],
+      "assessment": "No compatible Margaret George Glasgow/Broadbent identified after bounded live maiden/married-name searches and father comparisons. Relevant actual Irish/Cookstown biographies name Thomas, William, John, Charles or other fathers; no Benjamin household found. The distinctive notice gives father Benjamin of Hull, formerly Drapersfield, husband W. Brooke Broadbent and marriage on 5 October 1891 in New York. Keep one connected Drapersfield daughter draft; her mother remains unstated, not assumed from the 1864 Wilhelmina marriage.",
+      "review_ids": [
+        "subject-newspapers-pre1900-20261004-margaret-george"
+      ],
+      "suggested_people": [
+        {
+          "subject_id": "subject-newspapers-pre1900-20261004-margaret-george",
+          "name": "Margaret George Glasgow, daughter of Drapersfield Benjamin",
+          "draft_path": "research/queue-review-2026-10-17/drafts/later-newspapers/margaret-george.md",
+          "public_url": "/research/subjects/newspapers-pre1900-20261004/#margaret-george"
+        }
+      ]
+    },
+    "draft-1891-united-states-new-york-margaret-george-glasgow": {
+      "disposition": "new_profile",
+      "profile_ids": [],
+      "assessment": "No compatible Margaret George Glasgow/Broadbent identified after bounded live maiden/married-name searches and father comparisons. Relevant actual Irish/Cookstown biographies name Thomas, William, John, Charles or other fathers; no Benjamin household found. The distinctive notice gives father Benjamin of Hull, formerly Drapersfield, husband W. Brooke Broadbent and marriage on 5 October 1891 in New York. Keep one connected Drapersfield daughter draft; her mother remains unstated, not assumed from the 1864 Wilhelmina marriage.",
+      "review_ids": [
+        "draft-1891-united-states-new-york-margaret-george-glasgow"
+      ],
+      "suggested_people": [
+        {
+          "subject_id": "subject-newspapers-pre1900-20261004-margaret-george",
+          "name": "Margaret George Glasgow, daughter of Drapersfield Benjamin",
+          "draft_path": "research/queue-review-2026-10-17/drafts/later-newspapers/margaret-george.md",
+          "public_url": "/research/subjects/newspapers-pre1900-20261004/#margaret-george"
+        }
+      ]
+    },
+    "subject-newspapers-irish-1800-1850-owen-glasco-meath-repeal-association-1841-1843": {
+      "disposition": "new_profile",
+      "profile_ids": [],
+      "assessment": "No compatible adult Meath Owen Glasco found in live Glasgow/Glasco searches. Actual Glass-5701 describes a Kentucky physician, Henderson censuses in 1840/1850 and Kentucky marriage in 1844, a strong conflicting life. Glass-5334 (born 1840) and Glasgow-1954 (born 1846) cannot be the 1841 adult. Retain one probable 1841/1843 documentary Owen; keep Baddinstown/Raddinstown readings separate and do not invent a residence or family.",
+      "review_ids": [
+        "subject-newspapers-irish-1800-1850-owen-glasco-meath-repeal-association-1841-1843"
+      ],
+      "suggested_people": [
+        {
+          "subject_id": "subject-newspapers-irish-1800-1850-owen-glasco-meath-repeal-association-1841-1843",
+          "name": "Owen Glasco, Meath Repeal Association records, 1841–1843",
+          "draft_path": "research/queue-review-2026-10-17/drafts/later-newspapers/owen-glasco-meath-repeal-association-1841-1843.md",
+          "public_url": "/research/subjects/newspapers-irish-1800-1850/#owen-glasco-meath-repeal-association-1841-1843"
+        }
+      ]
+    },
+    "draft-1841-ireland-meath-owen-glasco": {
+      "disposition": "new_profile",
+      "profile_ids": [],
+      "assessment": "No compatible adult Meath Owen Glasco found in live Glasgow/Glasco searches. Actual Glass-5701 describes a Kentucky physician, Henderson censuses in 1840/1850 and Kentucky marriage in 1844, a strong conflicting life. Glass-5334 (born 1840) and Glasgow-1954 (born 1846) cannot be the 1841 adult. Retain one probable 1841/1843 documentary Owen; keep Baddinstown/Raddinstown readings separate and do not invent a residence or family.",
+      "review_ids": [
+        "draft-1841-ireland-meath-owen-glasco"
+      ],
+      "suggested_people": [
+        {
+          "subject_id": "subject-newspapers-irish-1800-1850-owen-glasco-meath-repeal-association-1841-1843",
+          "name": "Owen Glasco, Meath Repeal Association records, 1841–1843",
+          "draft_path": "research/queue-review-2026-10-17/drafts/later-newspapers/owen-glasco-meath-repeal-association-1841-1843.md",
+          "public_url": "/research/subjects/newspapers-irish-1800-1850/#owen-glasco-meath-repeal-association-1841-1843"
+        }
+      ]
+    },
+    "subject-newspapers-irish-1800-1850-rev-aj-glasgow-belfast-speech-1841": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1781"
+      ],
+      "assessment": "Prefer Adam Dickie Glasgow-1781 tentatively: his actual biography places the Presbyterian minister in Belfast before India/New Zealand. Printed A. J. versus documented Adam D. remains a real initial conflict, not a silent correction. 1780 is strongly disfavoured by Bombay arrival in February 1841 and family presence there through May, including his daughter’s 16 March birth. No separate A. J. creation while 1781 survives.",
+      "review_ids": [
+        "subject-newspapers-irish-1800-1850-rev-aj-glasgow-belfast-speech-1841"
+      ]
+    },
+    "subject-newspapers-pre1900-20261004-richard-pike": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Pike-9902"
+      ],
+      "assessment": "Strong compatible Pike-9902: born 13 June 1815 at Beechgrove, Tyrone; died 3 February 1885 at Dungannon, expressly of Beechgrove. Actual public child data identify Pike-9903, Wilhemina/Wilhelmina, born 11 November 1842 at Torren Hill to Richard and Margaret. Rare daughter name, father and Beechgrove/Dungannon fit the 1864 marriage notice. Underlying Quaker images were not reopened; preserve the profile-cited transcription provenance.",
+      "review_ids": [
+        "subject-newspapers-pre1900-20261004-richard-pike"
+      ]
+    },
+    "subject-william-glasgow-irish-newspapers-robert-mill": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2656",
+        "Glasgow-3941"
+      ],
+      "assessment": "Prefer 2656: actual profile death on 20 August 1856 at Tullyveagh/Cookstown agrees with Benjamin’s directly stated 1856 father death. Retain 3941, the Coltrim householder, as a weaker rival: its structured 1831 death is an after-boundary, while its full biography says no reliable later death is established. Do not reject it for dying in 1831. Documentary Robert–Benjamin paternity is certain; profile identity and William’s brother inference stay qualified. No mother supplied.",
+      "review_ids": [
+        "subject-william-glasgow-irish-newspapers-robert-mill"
+      ]
+    },
+    "draft-1858-ireland-cookstown-robert-mill": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2656",
+        "Glasgow-3941"
+      ],
+      "assessment": "Prefer 2656: actual profile death on 20 August 1856 at Tullyveagh/Cookstown agrees with Benjamin’s directly stated 1856 father death. Retain 3941, the Coltrim householder, as a weaker rival: its structured 1831 death is an after-boundary, while its full biography says no reliable later death is established. Do not reject it for dying in 1831. Documentary Robert–Benjamin paternity is certain; profile identity and William’s brother inference stay qualified. No mother supplied.",
+      "review_ids": [
+        "draft-1858-ireland-cookstown-robert-mill"
+      ]
+    },
+    "draft-1842-ireland-may-street-belfast-wedding-ven-thomas-corbett-esq-may-street": {
+      "disposition": "disregarded",
+      "profile_ids": [],
+      "assessment": "Thomas Corbett of May Street, Belfast, was bride Jane Thompson’s uncle/host at Rev Adam Glasgow’s marriage on 30 December 1841. Retain him in the Glasgow-1781/Thompson-100184 family evidence. Irish namesakes 2390/4447 lack a compelling Belfast/Jane identification in their actual biographies. Exclude separate non-Glasgow creation without deleting his stated role.",
+      "review_ids": [
+        "draft-1842-ireland-may-street-belfast-wedding-ven-thomas-corbett-esq-may-street"
+      ]
+    },
+    "subject-newspapers-irish-1800-1850-glasco-passenger-cinderella-1825": {
+      "disposition": "disregarded",
+      "profile_ids": [],
+      "assessment": "Surname-only Glasco passenger, with no initial, age, occupation or family. Retain the arrival reported on 10 March 1825 from Holyhead at Dublin aboard the Cinderella packet as an unassigned record. No invented separate person and no identification with the military surgeon.",
+      "review_ids": [
+        "subject-newspapers-irish-1800-1850-glasco-passenger-cinderella-1825"
+      ]
+    },
+    "draft-1825-ireland-dublin-glasco-cinderella-passenger": {
+      "disposition": "disregarded",
+      "profile_ids": [],
+      "assessment": "Surname-only Glasco passenger, with no initial, age, occupation or family. Retain the arrival reported on 10 March 1825 from Holyhead at Dublin aboard the Cinderella packet as an unassigned record. No invented separate person and no identification with the military surgeon.",
+      "review_ids": [
+        "draft-1825-ireland-dublin-glasco-cinderella-passenger"
+      ]
+    },
+    "subject-newspapers-pre1900-20261004-brooke-broadbent": {
+      "disposition": "disregarded",
+      "profile_ids": [],
+      "assessment": "Preserve W. Brooke Broadbent as Margaret George’s named 1891 husband; do not expand W. as fact. William Broadbent-387, the closest Manchester comparison inspected, has an actual 1891 Openshaw household with wife Amy Hulme and children, a concrete competing household. No supported groom profile selected. Exclude separate non-Glasgow creation; keep the original spouse evidence in the family account.",
+      "review_ids": [
+        "subject-newspapers-pre1900-20261004-brooke-broadbent"
+      ]
+    },
+    "subject-newspapers-pre1900-20261004-wilhelmina-pike": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Pike-9903"
+      ],
+      "assessment": "Strong compatible Pike-9903, recorded Wilhemina/Wilhelmina, born 11 November 1842, daughter of Richard Pike-9902 of Beechgrove; age 21 fits the 1864 marriage. Distinctive daughter/father/locality combination supports this existing pair. The newspaper proves the record-level father relationship; Quaker originals were not newly inspected. Reuse 9903 and do not assume she mothered Margaret George Glasgow.",
+      "review_ids": [
+        "subject-newspapers-pre1900-20261004-wilhelmina-pike"
+      ]
+    },
+    "subject-william-glasgow-irish-newspapers-william-alexander-parsonstown": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1387",
+        "Glasgow-1737",
+        "Glasgow-1675",
+        "Glasgow-3952"
+      ],
+      "assessment": "HOLD: plain-name profiles survive. Prefer Glasgow-1387 as a weak compatible father candidate: actual biography documents an Antrim weaver, first marriage in 1831, eight children in the 1851 household, and a 14 September 1874 Belfast death-index entry. A later daughter marrying at Belfast in 1875 fits; absence of Alexander or Emma is not exclusion. Retain 1737 (born c.1824; married Mary Ann Henry in 1846), 1675 (born c.1799; died Ohio in 1855), and 3952 (born c.1820; Irish 1867 marriage citation) as lower comparisons without a demonstrated contradiction to the notice. None is a proved William Alexander. Do not create a father while these remain. The preferred 1387 hypothesis cannot be combined with Emma-2771’s c.1815 birth: he would have been about five. The newspaper bride could instead be a later, otherwise unidentified Emma; retain those as competing whole-family hypotheses, without reparenting either profile.",
+      "review_ids": [
+        "subject-william-glasgow-irish-newspapers-william-alexander-parsonstown"
+      ]
+    },
+    "draft-1875-ireland-parsonstown-william-alexander-parsonstown": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1387",
+        "Glasgow-1737",
+        "Glasgow-1675",
+        "Glasgow-3952"
+      ],
+      "assessment": "HOLD: plain-name profiles survive. Prefer Glasgow-1387 as a weak compatible father candidate: actual biography documents an Antrim weaver, first marriage in 1831, eight children in the 1851 household, and a 14 September 1874 Belfast death-index entry. A later daughter marrying at Belfast in 1875 fits; absence of Alexander or Emma is not exclusion. Retain 1737 (born c.1824; married Mary Ann Henry in 1846), 1675 (born c.1799; died Ohio in 1855), and 3952 (born c.1820; Irish 1867 marriage citation) as lower comparisons without a demonstrated contradiction to the notice. None is a proved William Alexander. Do not create a father while these remain. The preferred 1387 hypothesis cannot be combined with Emma-2771’s c.1815 birth: he would have been about five. The newspaper bride could instead be a later, otherwise unidentified Emma; retain those as competing whole-family hypotheses, without reparenting either profile.",
+      "review_ids": [
+        "draft-1875-ireland-parsonstown-william-alexander-parsonstown"
+      ]
+    },
+    "subject-william-glasgow-irish-newspapers-belfast-grocer": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3814"
+      ],
+      "assessment": "3814 (c.1796–1883), a source-described retired Cookstown merchant, is an additional weak compatible candidate for the 1820 Belfast grocer: age 24 fits, with the same trade and no continuous residence or family contradiction excluding an earlier Belfast period. This does not establish a move or identity. 3324 died in 1816 and cannot be the shopkeeper. Preserve the Rosemary Street to 34 Smith Street move without treating a shop as birthplace.",
+      "review_ids": [
+        "subject-william-glasgow-irish-newspapers-belfast-grocer"
+      ]
+    },
+    "draft-1820-ireland-belfast-belfast-grocer": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3814"
+      ],
+      "assessment": "3814 (c.1796–1883), a source-described retired Cookstown merchant, is an additional weak compatible candidate for the 1820 Belfast grocer: age 24 fits, with the same trade and no continuous residence or family contradiction excluding an earlier Belfast period. This does not establish a move or identity. 3324 died in 1816 and cannot be the shopkeeper. Preserve the Rosemary Street to 34 Smith Street move without treating a shop as birthplace.",
+      "review_ids": [
+        "draft-1820-ireland-belfast-belfast-grocer"
+      ]
+    },
+    "subject-william-glasgow-irish-newspapers-cookstown-william-partner": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1737"
+      ],
+      "assessment": "1737 (c.1824 Killycurragh) remains a tentative district/chronology comparison. Its actual 1846 marriage says father David, conflicting with the qualified inference that the partner was Robert’s son; retain both scopes without reparenting 1737. Distinct from the senior William uncle. Counsel’s unnamed minor plaintiff does not identify which partner was young.",
+      "review_ids": [
+        "subject-william-glasgow-irish-newspapers-cookstown-william-partner"
+      ]
+    },
+    "draft-1858-ireland-cookstown-cookstown-william-partner": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1737"
+      ],
+      "assessment": "1737 (c.1824 Killycurragh) remains a tentative district/chronology comparison. Its actual 1846 marriage says father David, conflicting with the qualified inference that the partner was Robert’s son; retain both scopes without reparenting 1737. Distinct from the senior William uncle. Counsel’s unnamed minor plaintiff does not identify which partner was young.",
+      "review_ids": [
+        "draft-1858-ireland-cookstown-cookstown-william-partner"
+      ]
+    },
+    "subject-william-glasgow-irish-newspapers-kildress-william": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2915"
+      ],
+      "assessment": "2915 (c.1760, proposed Cookstown identity) fits age and district for the 1793 delegate. Actual biography says father, spouse and Cookstown placement remain derivative hypotheses. The notice supplies no family certainty. 585’s c.1804 birth does not fit an adult in 1793 if approximately correct. No source joins or separates the delegate and 1792 captain.",
+      "review_ids": [
+        "subject-william-glasgow-irish-newspapers-kildress-william"
+      ]
+    },
+    "subject-william-glasgow-irish-newspapers-captain-william": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3324"
+      ],
+      "assessment": "Prefer 3324 (c.1763 Larne–5 October 1816), whose actual biography preserves an inherited captain suggestion. Age and coastal locality fit the inspected 1792 named-master notices; no wife or Larne residence is supplied by them. Later surname-only captains and named Jean master remain separately qualified. 1505’s structured 1783 death is not reliable exclusion: actual biography says the probate identity is ambiguous; his much earlier generation is nevertheless inferior.",
+      "review_ids": [
+        "subject-william-glasgow-irish-newspapers-captain-william"
+      ]
+    },
+    "draft-1858-ireland-cookstown-cookstown-uncle": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3814",
+        "Glasgow-585"
+      ],
+      "assessment": "Prefer 3814: actual 1883 death describes a bachelor aged 87, retired merchant at Loy, Cookstown, fitting senior retirement in 1856 and the 1858 uncle period. Retain 585, Montober farmer born c.1804, as a weaker local rival; trade difference alone is not exclusion. 1675 died in Ohio in 1855; 1969’s Michigan life from 1842 strongly disfavours him. The uncle’s family side and identity remain uncertain.",
+      "review_ids": [
+        "draft-1858-ireland-cookstown-cookstown-uncle"
       ]
     }
   }

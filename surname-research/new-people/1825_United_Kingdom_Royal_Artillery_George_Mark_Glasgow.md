@@ -1,5 +1,12 @@
 # HOLD — George Mark Glasgow, Royal Artillery First Lieutenant, 1825
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**George Mark Glasgow, Royal Artillery First Lieutenant, 1825: Compatible existing profile(s): [[Glasgow-3127]], [[Glasgow-3785]], [[Glasgow-1536]].** [Current evidence and complete draft](/research/subjects/newspapers-irish-1800-1850/#george-mark-artillery). Prefer Glasgow-3127: its actual current biography identifies George Mark, Captain Royal Artillery, daughter Madeline and death before her 1846 marriage. The 1825 lieutenant and 1837 captain notices fit. Retain exact-name 3785 (1795 Quebec–1851 Kingston; Clement Stuart’s 1833 baptism citation) as a true rival and 1536 (Barony, 1804) as a weaker suggested identity. The 1846/1851 death conflict requires original family/service evidence. Do not create or merge another officer.
+
+<!-- identity-review-2026-10-17:end -->
+
 HOLD — newspaper person verified; profile identity unresolved
 
 ## Minimum fields

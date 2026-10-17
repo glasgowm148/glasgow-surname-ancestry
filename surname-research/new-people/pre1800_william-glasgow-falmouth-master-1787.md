@@ -1,5 +1,12 @@
 # William Glasgow, Falmouth master, 1787
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**William Glasgow, Falmouth master, 1787: Compatible existing profile(s): [[Glasgow-3324]].** [Current evidence and complete draft](/research/subjects/newspapers-early-glasgow/#william-glasgow-falmouth-master-1787). Prefer Glasgow-3324 tentatively because the actual profile has the Larne maritime comparison and uncertain 1763–1816 chronology. Name/occupation/date fit; Baltimore–Amsterdam 1787 is not a proved Larne or Belfast voyage. Keep Falmouth separate from other vessels unless identity is shown; no new master profile is needed.
+
+<!-- identity-review-2026-10-17:end -->
+
 HOLD — documented record; profile assignment qualified
 
 [[Category:Glasgow Name Study]]

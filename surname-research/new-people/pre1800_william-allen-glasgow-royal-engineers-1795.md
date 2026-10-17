@@ -1,5 +1,12 @@
 # William Allen Glasgow, Royal Engineers commission, 1795
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**William Allen Glasgow, Royal Engineers commission, 1795: Compatible existing profile(s): [[Glasgow-2965]], [[Glasgow-2715]], [[Glasgow-1463]].** [Current evidence and complete draft](/research/subjects/newspapers-early-glasgow/#william-allen-glasgow-royal-engineers-1795). Prefer Glasgow-2965 tentatively (uncertain 1771 Lincolnshire birth, appropriate adult cadet); retain Glasgow-2715 (estimated 1779, young but possible) and Glasgow-1463 (broad before 1816 birth). Missing Allen or military field is not exclusion. Commission date is 1 October 1795, not newspaper publication 15 October; no service career or family is inferred.
+
+<!-- identity-review-2026-10-17:end -->
+
 HOLD — documented record; profile assignment qualified
 
 [[Category:Glasgow Name Study]]

@@ -1,5 +1,12 @@
 # John Glasgow, Millrig labourer and Kirkliston subscription, 1798
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**John Glasgow, Millrig labourer and Kirkliston subscription, 1798: Compatible existing profile(s): [[Glasgow-3927]], [[Glasgow-4090]].** [Current evidence and complete draft](/research/subjects/newspapers-early-glasgow/#john-glasgow-millrig-subscription-1798). Glasgow-3927 and Glasgow-4090 remain weak chronological alternatives only; their Irish contexts contain no recorded Kirkliston link. Missing migration is not exclusion, but does not support a preferred assignment. Retain the named Millrig labourer as a record-specific compatible-candidate hold; no orphan new profile is recommended.
+
+<!-- identity-review-2026-10-17:end -->
+
 HOLD — documented record; profile assignment qualified
 
 [[Category:Glasgow Name Study]]

@@ -1,5 +1,12 @@
 # James Glasgow, Charlestown postal addressee, 1775
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**James Glasgow, Charlestown postal addressee, 1775: Compatible existing profile(s): [[Glasgow-804]], [[Glasgow-1144]].** [Current evidence and complete draft](/research/subjects/newspapers-early-glasgow/#james-glasgow-charlestown-1775). Prefer Glasgow-804 tentatively: 1735 Ayr birth,1769 South Carolina passenger index and 1788 Newberry death give relevant independent regional context. Retain Glasgow-1144 (1731 Kilwaughter, later Newberry) as a real rival. Neither co-listed Ezekiel nor the office list proves kinship or residence in Charlestown.
+
+<!-- identity-review-2026-10-17:end -->
+
 HOLD — documented surname; identity unresolved
 
 [[Category:Glasgow Name Study]]

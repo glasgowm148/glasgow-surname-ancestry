@@ -1,5 +1,12 @@
 # Rev. A. J. Glasgow, Belfast speech (1841)
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**Rev. A. J. Glasgow, Belfast speech (1841): Compatible existing profile(s): [[Glasgow-1781]].** [Current evidence and complete draft](/research/subjects/newspapers-irish-1800-1850/#rev-aj-glasgow-belfast-speech-1841). Prefer Adam Dickie Glasgow-1781 tentatively: his actual biography places the Presbyterian minister in Belfast before India/New Zealand. Printed A. J. versus documented Adam D. remains a real initial conflict, not a silent correction. 1780 is strongly disfavoured by Bombay arrival in February 1841 and family presence there through May, including his daughter’s 16 March birth. No separate A. J. creation while 1781 survives.
+
+<!-- identity-review-2026-10-17:end -->
+
 HOLD — documentary subject; identity unresolved
 
 [[Category:Glasgow Name Study]]

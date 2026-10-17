@@ -1,5 +1,12 @@
 # HOLD — Glasco, Dublin watch and clock maker
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**Glasco, Dublin watch and clock maker: Compatible existing profile(s): [[Glasco-143]], [[Glasco-144]], [[Glasco-173]].** [Current evidence and complete draft](/research/subjects/newspapers-early-glasgow/#dublin-glasco-watchmaker). All sixteen original advertisements were inspected and saved; they repeat the same address change from 5 October 1779 through 4 April 1780. No first name or kin is stated. The address supports continuity with the existing Thomas Glasco trade cluster, but does not identify a WikiTree profile. The listed profiles are compatible or conditional comparison leads, not identifications. Reviewed the public historical catalogue and QMD notes for Dublin watchmakers and the two addresses. Reuse the existing trade cluster; this is not a new person per advertisement. The known Philip junior died in 1770 and elder Philip died in 1772, so neither deceased watchmaker can be this living 1779 advertiser. The Scottish Philip profile identity remains separately unproved. Revalidated 17 October 2026 against maintained profile evidence; source readings and earlier search dates are inherited unless an explicit fresh getProfile is listed.
+
+<!-- identity-review-2026-10-17:end -->
+
 Reviewed 4 October 2026. All sixteen original advertisements are read and saved: the same move from Christ-Church-lane to 20 Ormond Quay is advertised from 5 October 1779 to 4 April 1780. No first name or kin is stated; continuity with the Thomas trade cluster is supported, but profile assignment remains unproved.
 
 ## Identity assessment

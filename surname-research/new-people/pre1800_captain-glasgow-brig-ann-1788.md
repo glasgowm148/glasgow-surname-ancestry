@@ -1,5 +1,12 @@
 # Captain Glasgow, brig Ann and Larne passenger reports, 1788
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**Captain Glasgow, brig Ann and Larne passenger reports, 1788: Compatible existing profile(s): [[Glasgow-3324]], [[Glasgow-2474]], [[Glasgow-4124]].** [Current evidence and complete draft](/research/subjects/newspapers-early-glasgow/#captain-glasgow-brig-ann-1788). Glasgow-3324 is the preferred possible comparison: uncertain 1763 Larne birth, adult in 1788, maritime comparison in the maintained research. Retain Robert-2474, the 1738 Irvine shipmaster, and James-4124, the 1733 surgeon-mariner, as older alternatives. Surname-only captain notices do not establish William as his forename. Passenger reprints are one notice; inward/clearance continuity stays tentative.
+
+<!-- identity-review-2026-10-17:end -->
+
 HOLD — identity unresolved
 
 [[Category:Glasgow Name Study]]

@@ -1,5 +1,12 @@
 # Robert Glasgow, Cookstown reward subscriber, 1796
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**Robert Glasgow, Cookstown reward subscriber, 1796: Compatible existing profile(s): [[Glasgow-1189]], [[Glasgow-1983]].** [Current evidence and complete draft](/research/subjects/newspapers-early-glasgow/#robert-glasgow-cookstown-reward-1796). Prefer Glasgow-1189 tentatively: estimated 1769 Tyrone birth, later American life, plausible adult in 1796. Retain Glasgow-1983 (estimated 1763 Irish birth/later Newberry) as a rival. No unrecorded emigration date is assumed to exclude either; a reward subscription does not establish residence, family or payment.
+
+<!-- identity-review-2026-10-17:end -->
+
 HOLD — documented record; profile assignment qualified
 
 [[Category:Glasgow Name Study]]

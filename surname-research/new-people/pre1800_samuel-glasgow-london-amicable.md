@@ -1,6 +1,13 @@
 # Samuel Glasgow, London pen-cutter
 
-READY TO CREATE — no compatible WikiTree profile (identity review 6 October 2026)
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**Samuel Glasgow, London pen-cutter: Compatible existing profile(s): [[Glasgow-1133]], [[Glasgow-3524]], [[Glasgow-3166]].** [Current evidence and complete draft](/research/subjects/newspapers-early-glasgow/#samuel-glasgow-london-amicable). Retain Samuel-1133 (1745 Virginia, no death recorded) and very elderly Scottish Samuels 3524 (1707 Kilbirnie) and 3166 (before 1701 Dalziel) as weak compatible alternatives; missing London information is not exclusion. Actual live 3063 biography supplies a Govan burial 7 December 1818 aged 65, nailer, so it conflicts with the 1794 London pen-cutter death even though its structured death is blank. Later American deaths 3175/1492/1134 are uncertain/estimated, retained as conditional date-revision rivals rather than firm exclusions. Withdraw READY TO CREATE and consolidate the one Amicable subject; no unproved equation with 1761 defendant.
+
+<!-- identity-review-2026-10-17:end -->
+
+HOLD — compatible existing-profile candidate(s); the current assessment above controls the earlier draft.
 
 [[Category:Glasgow Name Study]]
 

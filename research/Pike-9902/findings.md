@@ -15,3 +15,14 @@
 ### Newspaper identity review — 6 October 2026
 
 - Styled 'Richard Pike, Esq., Beechgrove, Dungannon' in Feb 1864. — Belfast News-Letter, 18 Feb 1864 ([Belfast News-Letter, 1864-02-18, p.2](https://www.newspapers.com/image/387828785/))
+
+<!-- queue-identity-review-2026-10-17:start -->
+## Documentary identity review — 17 October 2026
+
+**Record subject: Richard Pike of Beechgrove.** Strong compatible [Pike-9902](https://www.wikitree.com/wiki/Pike-9902): born 13 June 1815 at Beechgrove, Tyrone; died 3 February 1885 at Dungannon, expressly of Beechgrove. Actual public child data identify [Pike-9903](https://www.wikitree.com/wiki/Pike-9903), Wilhemina/Wilhelmina, born 11 November 1842 at Torren Hill to Richard and Margaret. Rare daughter name, father and Beechgrove/Dungannon fit the 1864 marriage notice. Underlying Quaker images were not reopened; preserve the profile-cited transcription provenance.
+
+Sources: [Belfast News-Letter, 18 February 1864, p.2](https://www.newspapers.com/image/387828785/).
+
+[Full record account and comparison](/research/subjects/newspapers-pre1900-20261004/#richard-pike). This assessment proposes no live WikiTree edit.
+
+<!-- queue-identity-review-2026-10-17:end -->

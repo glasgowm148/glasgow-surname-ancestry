@@ -66,3 +66,14 @@ William Glasgow is named as master of the Lady Forbes in the Sutton shipping cas
 ## Identity assessment — newspaper candidates withdrawn, 6 October 2026
 
 - [The Caledonian Mercury, 1768-02-06, p.2](https://www.newspapers.com/image/395700744/): no longer a candidate for this profile. Jan/Feb 1768: William Glasgow, master of the Lady Forbes (of Glasgow) with rum for Waterford, driven ashore near Sutton, crew saved. No WikiTree William can be singled out.
+
+<!-- queue-identity-review-2026-10-17:start -->
+## Documentary identity review — 17 October 2026
+
+**Record subject: William Glascoe / Glascow, 1760 defendant.** Retain the actual checked adult William profiles [Glasgow-4120](https://www.wikitree.com/wiki/Glasgow-4120), [Glasgow-4101](https://www.wikitree.com/wiki/Glasgow-4101), [Glasgow-1505](https://www.wikitree.com/wiki/Glasgow-1505) and [Glasgow-3326](https://www.wikitree.com/wiki/Glasgow-3326) as weak compatible alternatives; their baptism/Irish context supplies no London identifier but no concrete conflict. The defendant is a distinct recorded subject, while profile identity remains open. Retire READY TO CREATE because the prior review excluded for missing links rather than conflict; do not equate him with 1775 Maryland William.
+
+Sources: [Public Ledger or Daily Register of Commerce and Intelligence, 1760-04-18, p.2](https://www.newspapers.com/image/35690357/).
+
+[Full record account and comparison](/research/subjects/newspapers-early-glasgow/#william-glascoe-old-bailey-1760). This assessment proposes no live WikiTree edit.
+
+<!-- queue-identity-review-2026-10-17:end -->

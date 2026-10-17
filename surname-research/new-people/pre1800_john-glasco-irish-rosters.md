@@ -1,5 +1,12 @@
 [[Category:Glasgow Name Study]]
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**John Glasco in Irish rosters, 1798–1799: Compatible existing profile(s): [[Glasgow-3927]], [[Glasgow-4090]], [[Glasgow-822]].** [Current evidence and complete draft](/research/subjects/newspapers-early-glasgow/#john-glasco-irish-rosters). For the 1799 County Londonderry entry retain Glasgow-3927, Glasgow-4090 and Glasgow-822 as compatible local contemporaries, preferring 3927/4090 without claiming proof. For the 1798 Black-Rock occurrence these profiles remain weaker cross-region candidates; its identity with 1799 is not established. No duplicate person or kinship is inferred from a shared forename/surname.
+
+<!-- identity-review-2026-10-17:end -->
+
 == Biography ==
 An association report published on 29 May 1798 names John Glasco as PRESENT at the Black-Rock Association, Half Barony of Rathdown, County Dublin, meeting on 8 May 1798.<ref>[https://www.newspapers.com/image/1214061848/ Freeman’s Journal, 29 May 1798, p.4], original inspected 5 October 2026.</ref>
 

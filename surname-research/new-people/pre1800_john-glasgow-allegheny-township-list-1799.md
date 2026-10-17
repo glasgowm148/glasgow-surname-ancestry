@@ -1,5 +1,12 @@
 # John Glasgow, Allegheny Township list in Huntingdon County context, 1799
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**John Glasgow, Allegheny Township list in Huntingdon County context, 1799: Compatible existing profile(s): [[Glasgow-664]], [[Glasgow-3927]], [[Glasgow-4090]].** [Current evidence and complete draft](/research/subjects/newspapers-early-glasgow/#john-glasgow-allegheny-township-list-1799). Prefer Glasgow-664 tentatively: birth 1777, later Allegheny Township Cambria 1820 census, and the recorded township passed from Huntingdon to Cambria in 1804. Exact locality history supplies a stronger argument than the Irish namesakes 3927/4090, which remain weaker alternatives. The 1799 reprints are one list, not separate men; no 1790 father-and-son claim follows.
+
+<!-- identity-review-2026-10-17:end -->
+
 HOLD — documented record; profile assignment qualified
 
 [[Category:Glasgow Name Study]]

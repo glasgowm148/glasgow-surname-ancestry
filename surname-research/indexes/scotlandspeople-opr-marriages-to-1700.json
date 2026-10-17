@@ -15,9 +15,9 @@
       "parish_number": "633",
       "reference": "10 / 66",
       "parish": "Carstairs",
-      "status": "HOLD — compatible profile linked",
+      "status": "HOLD — compatible existing profiles linked",
       "profile_ids": [],
-      "assessment": "The supplied index records AGNES Glasgow and WILLIAM THOMSONE/FR 70 (FR 70) at Carstairs on 1681-12-15. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group.",
+      "assessment": "The 1681 Carstairs bride is a separate identity question from Agnes with Swan in 1666, Paul in 1670 and Anderson at Longformacus. Inveresk siblings Agnes (1634), Thomas (1637) and Marion (1642) have the indexed father Thomas, but no inspected Carstairs clause joins either Agnes or the 1679 Thomas bridegroom to that family. Thomson-263 has an Edinburgh Peirie household; its attached children add no Carstairs bridge and no dated competing household at 1681. Retain it as a weaker compatible spouse lead. Revalidated 17 October 2026 against maintained profile evidence; source readings and earlier search dates are inherited unless an explicit fresh getProfile is listed.",
       "next_action": "Compare the linked record-specific candidates and original household details.",
       "new_information": false,
       "record_status": "supplied index; original not inspected in this batch",
@@ -25,6 +25,10 @@
         {
           "reviewed_at": "2026-09-10",
           "assessment": "Agnes Glasgow/Wm Thomsone, Carstairs; bounded local and live exact-name review found no compatible identified profile."
+        },
+        {
+          "status": "HOLD — compatible profile linked",
+          "assessment": "The supplied index records AGNES Glasgow and WILLIAM THOMSONE/FR 70 (FR 70) at Carstairs on 1681-12-15. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group."
         }
       ],
       "profile_reviewed_at": "2026-09-30",
@@ -62,7 +66,7 @@
         ],
         "assessment": "Compatible candidates remain under review: Glasgow-1455, Glasgow-993, Glasgow-2460, Glasgow-1312, Glasgow-1408, Glasgow-1441, Glasgow-4123, Glasgow-4133, Glasgow-1482, Glasgow-1349, Glasgow-1562, Glasgow-4151, Glasgow-3092. The linked sourced identity draft compares this entry with existing profiles and other records; creation remains on HOLD."
       },
-      "profile_match_reviewed_on": "2026-09-30"
+      "profile_match_reviewed_on": "2026-10-17"
     },
     {
       "row": 2,
@@ -112,9 +116,9 @@
       "parish_number": "685 / 1",
       "reference": "440 / 251",
       "parish": "Edinburgh",
-      "status": "HOLD — compatible profile linked",
+      "status": "HOLD — compatible existing profiles linked",
       "profile_ids": [],
-      "assessment": "The printed marriage register adds John Bruce’s trade of smith, independently of the generic OPR index. Glasgow-3143 is already supported as Marion who married the Edinburgh weaver William Calder in June 1686; that established life segment is not transferred into this 1684 event. Bruce-6113 represents Sir John Bruce of Kinross with the 1687 Christian Leslie marriage, whereas Bruce-3507 has only a speculative Clackmannan son whose own profile explicitly leaves his baptism/parentage open. Neither inspected family supplies this smith-and-Marion couple. Different spouses alone are not exclusions; keep both candidate husbands qualified and the events separate.",
+      "assessment": "The printed marriage register adds John Bruce’s trade of smith, independently of the generic OPR index. Glasgow-3143 is already supported as Marion who married the Edinburgh weaver William Calder in June 1686; that established life segment is not transferred into this 1684 event. Bruce-6113 represents Sir John Bruce of Kinross with the 1687 Christian Leslie marriage, whereas Bruce-3507 has only a speculative Clackmannan son whose own profile explicitly leaves his baptism/parentage open. Neither inspected family supplies this smith-and-Marion couple. Different spouses alone are not exclusions; keep both candidate husbands qualified and the events separate. Revalidated 17 October 2026 against maintained profile evidence; source readings and earlier search dates are inherited unless an explicit fresh getProfile is listed.",
       "next_action": "Compare the linked record-specific candidates and original household details.",
       "new_information": "Exact OPR reference 685/1 440/251. Printed register identifies the spouse as smith and supplies a marriage date; original parish image remains unchecked.",
       "record_status": "supplied official index; supplementary printed-register transcription visually inspected 30 September 2026; original parish image uninspected",
@@ -127,6 +131,10 @@
           "reviewed_at": "2026-09-30",
           "assessment": "The supplied index records MARION Glasgow and JOHN BRUCE/FR 1163 (FR 1163) at Edinburgh on 1684-07-04. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group.",
           "source_basis": "Supplied official index and initial compatible-candidate audit, before supplementary printed-register review."
+        },
+        {
+          "status": "HOLD — compatible profile linked",
+          "assessment": "The printed marriage register adds John Bruce’s trade of smith, independently of the generic OPR index. Glasgow-3143 is already supported as Marion who married the Edinburgh weaver William Calder in June 1686; that established life segment is not transferred into this 1684 event. Bruce-6113 represents Sir John Bruce of Kinross with the 1687 Christian Leslie marriage, whereas Bruce-3507 has only a speculative Clackmannan son whose own profile explicitly leaves his baptism/parentage open. Neither inspected family supplies this smith-and-Marion couple. Different spouses alone are not exclusions; keep both candidate husbands qualified and the events separate."
         }
       ],
       "profile_reviewed_at": "2026-09-30",
@@ -155,7 +163,7 @@
         ],
         "assessment": "Compatible candidates remain under review: Glasgow-4095, Glasgow-3025, Glasgow-3143, Glasgow-1428, Glasgow-1532, Glasgow-3049, Glasgow-3062. The linked sourced identity draft compares this entry with existing profiles and other records; creation remains on HOLD."
       },
-      "profile_match_reviewed_on": "2026-09-30",
+      "profile_match_reviewed_on": "2026-10-17",
       "primary_candidate_profile_ids": [
         "Glasgow-3143",
         "Glasgow-3025",
@@ -257,15 +265,19 @@
       "parish_number": "491",
       "reference": "30 / 15",
       "parish": "Strathblane",
-      "status": "UNNAMED — original needed",
+      "status": "RECORD ONLY — insufficient personal identity",
       "profile_ids": [],
-      "assessment": "The supplied index records ----- Glasgow and MARGARET /FR 801 GROOM SURNAME ASSUMED (FR 801) at Strathblane on 1679-07-24. The groom has no given name and his Glasgow surname is explicitly assumed; Margaret has no surname. Neither entry defines a searchable distinct person. Preserve one documentary account; do not invent a child, parents or independent profiles.",
+      "assessment": "One documentary marriage/banns account contains both unnamed groom and Margaret. The Glasgow surname is explicitly assumed, the groom has no given name and Margaret has no surname. Consolidate the three queue aliases into one event account. There is no recorded child or named parent to attach; the 1679 Carstairs Thomas event shares the date but has a different parish, parties and reference and remains separate. Revalidated 17 October 2026 against maintained profile evidence; source readings and earlier search dates are inherited unless an explicit fresh getProfile is listed.",
       "next_action": "Use the sourced record draft; original review remains open.",
       "record_status": "supplied index; original not inspected in this batch",
       "assessment_history": [
         {
           "reviewed_at": "2026-09-10",
           "assessment": "Strathblane groom surname is explicitly assumed and no named Glasgow identity is supplied."
+        },
+        {
+          "status": "UNNAMED — original needed",
+          "assessment": "The supplied index records ----- Glasgow and MARGARET /FR 801 GROOM SURNAME ASSUMED (FR 801) at Strathblane on 1679-07-24. The groom has no given name and his Glasgow surname is explicitly assumed; Margaret has no surname. Neither entry defines a searchable distinct person. Preserve one documentary account; do not invent a child, parents or independent profiles."
         }
       ],
       "profile_reviewed_at": "2026-09-30",
@@ -277,7 +289,7 @@
         "candidate_profile_ids": [],
         "assessment": "The linked sourced identity draft compares this entry with existing profiles and other records; creation remains on HOLD."
       },
-      "profile_match_reviewed_on": "2026-09-30"
+      "profile_match_reviewed_on": "2026-10-17"
     },
     {
       "row": 7,
@@ -309,9 +321,9 @@
       "parish_number": "685 / 1",
       "reference": "440 / 129",
       "parish": "Edinburgh",
-      "status": "HOLD — compatible profile linked",
+      "status": "HOLD — compatible existing profiles linked",
       "profile_ids": [],
-      "assessment": "The printed Edinburgh register identifies Alexander as a tailor and dates his marriage to Eupham to 8 December 1671. The same-name tailor’s Edinburgh burgess admission on 22 June 1670 records apprenticeship to the late Alexander Thomsone (31 January 1655); this is a strong occupational lead for the groom, not a father clause. Thomsone is a master, not a parent. Eupham Glasgow-3358’s 1651 Edinburgh child index names Robert Glasgow/Eupham Lorimer; Glasgow-1167’s 1634 event has a documented Glasgow/Glassford father conflict. Neither child-to-bride identification is proved. The Channelkirk September event is provisionally one-couple related but stays a distinct register occurrence. Rev. Alexander Hutcheson-361 is retained as a lower-ranked candidate: his estimated 1630–1640 birth and unknown wife do not conflict by themselves, though his 1653 divinity degree and Scottish/Down ministry differ materially from the recorded Edinburgh tailor. A country-only filter was insufficient to reject him; no merger, marriage attachment or father inference follows.",
+      "assessment": "The printed Edinburgh register identifies Alexander as a tailor and dates his marriage to Eupham to 8 December 1671. The same-name tailor’s Edinburgh burgess admission on 22 June 1670 records apprenticeship to the late Alexander Thomsone (31 January 1655); this is a strong occupational lead for the groom, not a father clause. Thomsone is a master, not a parent. Eupham Glasgow-3358’s 1651 Edinburgh child index names Robert Glasgow/Eupham Lorimer; Glasgow-1167’s 1634 event has a documented Glasgow/Glassford father conflict. Neither child-to-bride identification is proved. The Channelkirk September event is provisionally one-couple related but stays a distinct register occurrence. Rev. Alexander Hutcheson-361 is retained as a lower-ranked candidate: his estimated 1630–1640 birth and unknown wife do not conflict by themselves, though his 1653 divinity degree and Scottish/Down ministry differ materially from the recorded Edinburgh tailor. A country-only filter was insufficient to reject him; no merger, marriage attachment or father inference follows. Channelkirk 17 September 1671 Effie–Alexander Hutchesone is kept as a distinct event, provisionally associated with the Edinburgh 8 December 1671 Eupham–Alexander tailor event. Same couple is plausible under Effie/Eupham and Hutcheson variants, but the difference of parish and date does not establish banns followed by marriage or identity with a named father. The occupational fact read at Edinburgh is not assigned as a quoted Channelkirk fact. Rev. Alexander Hutcheson-361 is retained as a lower-ranked candidate: his estimated 1630–1640 birth and unknown wife do not conflict by themselves, though his 1653 divinity degree and Scottish/Down ministry differ materially from the recorded Edinburgh tailor. A country-only filter was insufficient to reject him; no merger, marriage attachment or father inference follows. Revalidated 17 October 2026 against maintained profile evidence; source readings and earlier search dates are inherited unless an explicit fresh getProfile is listed.",
       "next_action": "Compare the linked record-specific candidates and original household details.",
       "new_information": "Edinburgh OPR 685/1 440/129. Printed register identifies the spouse as tailor and supplies a marriage date; original parish image remains unchecked. A 1670 printed burgess abstract supplies a probable occupational continuation and apprenticeship master, not a father.",
       "record_status": "supplied official index; supplementary printed-register transcription visually inspected 30 September 2026; original parish image uninspected",
@@ -328,12 +340,16 @@
         "Glasgow-1167",
         "Hutcheson-361"
       ],
-      "profile_match_reviewed_on": "2026-09-30",
+      "profile_match_reviewed_on": "2026-10-17",
       "assessment_history": [
         {
           "reviewed_at": "2026-09-30",
           "assessment": "The supplied index records EUPHAM Glasgow and ALEXANDER HUTCHESON/FR 1043 (FR 1043) at Edinburgh on 1671-12-08. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group.",
           "source_basis": "Supplied official index and initial compatible-candidate audit, before supplementary printed-register review."
+        },
+        {
+          "status": "HOLD — compatible profile linked",
+          "assessment": "The printed Edinburgh register identifies Alexander as a tailor and dates his marriage to Eupham to 8 December 1671. The same-name tailor’s Edinburgh burgess admission on 22 June 1670 records apprenticeship to the late Alexander Thomsone (31 January 1655); this is a strong occupational lead for the groom, not a father clause. Thomsone is a master, not a parent. Eupham Glasgow-3358’s 1651 Edinburgh child index names Robert Glasgow/Eupham Lorimer; Glasgow-1167’s 1634 event has a documented Glasgow/Glassford father conflict. Neither child-to-bride identification is proved. The Channelkirk September event is provisionally one-couple related but stays a distinct register occurrence. Rev. Alexander Hutcheson-361 is retained as a lower-ranked candidate: his estimated 1630–1640 birth and unknown wife do not conflict by themselves, though his 1653 divinity degree and Scottish/Down ministry differ materially from the recorded Edinburgh tailor. A country-only filter was insufficient to reject him; no merger, marriage attachment or father inference follows."
         }
       ],
       "primary_candidate_profile_ids": [
@@ -480,15 +496,19 @@
       "parish_number": "620",
       "reference": "20 / 77",
       "parish": "West Kilbride",
-      "status": "HOLD — compatible profile linked",
+      "status": "HOLD — compatible existing profiles linked",
       "profile_ids": [],
-      "assessment": "The supplied index records JEAN Glasgow and ROBERT WOODSYD/FR 357 (FR 357) at West Kilbride on 1700-01-13. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group.",
+      "assessment": "Woodside-784 is supported as father Robert of James Woodside with Jonet White, baptised 30 January 1676, through the child profile. This is an earlier Ayrshire household, not a concrete exclusion of a 1700 later marriage to Jean. Jean candidates’ individual baptism families remain distinct. No current parent/child or spouse record read connects this couple to the West Kilbride 13 January 1700 event. Revalidated 17 October 2026 against maintained profile evidence; source readings and earlier search dates are inherited unless an explicit fresh getProfile is listed.",
       "next_action": "Compare the linked record-specific candidates and original household details.",
       "record_status": "supplied index; original not inspected in this batch",
       "assessment_history": [
         {
           "reviewed_at": "2026-09-10",
           "assessment": "Jean Glasgow/Robert Woodsyd 1700 has no compatible proven pair; Woodside-936 was born 1696."
+        },
+        {
+          "status": "HOLD — compatible profile linked",
+          "assessment": "The supplied index records JEAN Glasgow and ROBERT WOODSYD/FR 357 (FR 357) at West Kilbride on 1700-01-13. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group."
         }
       ],
       "profile_reviewed_at": "2026-09-30",
@@ -519,7 +539,7 @@
         ],
         "assessment": "Compatible candidates remain under review: Glasgow-3083, Glasgow-3055, Glasgow-4113, Glasgow-1344, Glasgow-1462, Glasgow-1163, Glasgow-3364, Glasgow-3088, Glasgow-3528. The linked sourced identity draft compares this entry with existing profiles and other records; creation remains on HOLD."
       },
-      "profile_match_reviewed_on": "2026-09-30"
+      "profile_match_reviewed_on": "2026-10-17"
     },
     {
       "row": 11,
@@ -531,9 +551,9 @@
       "parish_number": "685 / 1",
       "reference": "440 / 164",
       "parish": "Edinburgh",
-      "status": "HOLD — compatible profile linked",
+      "status": "HOLD — compatible existing profiles linked",
       "profile_ids": [],
-      "assessment": "The inspected printed page calls William Mitchell a merchant in his marriage to Jean on 16 December 1675. Mitchell-54981’s attached daughter Mary Mitchell-54795 explicitly questions her own paternal assignment; the Carolina birth placement is estimated and its 1720 deed does not establish this William’s identity. It is not used to exclude an earlier/later marriage. Glasgow-1163’s 1650 Edinburgh child index names Thomas Glasgow/Catharine Weir; it is a compatible local child candidate, not proof that those are the bride’s parents.",
+      "assessment": "The inspected printed page calls William Mitchell a merchant in his marriage to Jean on 16 December 1675. Mitchell-54981’s attached daughter Mary Mitchell-54795 explicitly questions her own paternal assignment; the Carolina birth placement is estimated and its 1720 deed does not establish this William’s identity. It is not used to exclude an earlier/later marriage. Glasgow-1163’s 1650 Edinburgh child index names Thomas Glasgow/Catharine Weir; it is a compatible local child candidate, not proof that those are the bride’s parents. Revalidated 17 October 2026 against maintained profile evidence; source readings and earlier search dates are inherited unless an explicit fresh getProfile is listed.",
       "next_action": "Compare the linked record-specific candidates and original household details.",
       "new_information": "Edinburgh OPR 685/1 440/164. Printed register identifies the spouse as merchant and supplies a marriage date; original parish image remains unchecked.",
       "record_status": "supplied official index; supplementary printed-register transcription visually inspected 30 September 2026; original parish image uninspected",
@@ -546,6 +566,10 @@
           "reviewed_at": "2026-09-30",
           "assessment": "The supplied index records JEAN Glasgow and WILLIAM MITCHELL/FR 1078 (FR 1078) at Edinburgh on 1675-12-16. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group.",
           "source_basis": "Supplied official index and initial compatible-candidate audit, before supplementary printed-register review."
+        },
+        {
+          "status": "HOLD — compatible profile linked",
+          "assessment": "The inspected printed page calls William Mitchell a merchant in his marriage to Jean on 16 December 1675. Mitchell-54981’s attached daughter Mary Mitchell-54795 explicitly questions her own paternal assignment; the Carolina birth placement is estimated and its 1720 deed does not establish this William’s identity. It is not used to exclude an earlier/later marriage. Glasgow-1163’s 1650 Edinburgh child index names Thomas Glasgow/Catharine Weir; it is a compatible local child candidate, not proof that those are the bride’s parents."
         }
       ],
       "profile_reviewed_at": "2026-09-30",
@@ -570,7 +594,7 @@
         ],
         "assessment": "Compatible candidates remain under review: Glasgow-3083, Glasgow-3055, Glasgow-4113, Glasgow-1344, Glasgow-1462, Glasgow-1163. The linked sourced identity draft compares this entry with existing profiles and other records; creation remains on HOLD."
       },
-      "profile_match_reviewed_on": "2026-09-30",
+      "profile_match_reviewed_on": "2026-10-17",
       "primary_candidate_profile_ids": [
         "Glasgow-1163",
         "Glasgow-3083",
@@ -671,9 +695,9 @@
       "parish_number": "690",
       "reference": "10 / 64",
       "parish": "Kirknewton and East Calder",
-      "status": "HOLD — compatible profile linked",
+      "status": "HOLD — compatible existing profiles linked",
       "profile_ids": [],
-      "assessment": "The supplied index records AGNES Glasgow and PATRIK PAUL/FR 40 (FR 40) at Kirknewton and East Calder on 1670-07-08. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group.",
+      "assessment": "The 1670 Agnes–Patrik Paul event remains separate from the 1666 Agnes–James Swan event, even in the same parish. The supplied births index identifies local Agnes in 1677 to Alexander, which is a different child-record assertion and does not name the 1670 bride’s father. Unrestricted Patrick/Patrik Paul searches from the first audit found no surviving historical match; no new bridge appeared in the cross-record review. Revalidated 17 October 2026 against maintained profile evidence; source readings and earlier search dates are inherited unless an explicit fresh getProfile is listed.",
       "next_action": "Compare the linked record-specific candidates and original household details.",
       "new_information": false,
       "record_status": "supplied index; original not inspected in this batch",
@@ -681,6 +705,10 @@
         {
           "reviewed_at": "2026-09-10",
           "assessment": "Agnes Glasgow/Patrik Paul, 1670; no compatible identified adult profile."
+        },
+        {
+          "status": "HOLD — compatible profile linked",
+          "assessment": "The supplied index records AGNES Glasgow and PATRIK PAUL/FR 40 (FR 40) at Kirknewton and East Calder on 1670-07-08. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group."
         }
       ],
       "profile_reviewed_at": "2026-09-30",
@@ -717,7 +745,7 @@
         ],
         "assessment": "Compatible candidates remain under review: Glasgow-1455, Glasgow-993, Glasgow-2460, Glasgow-1312, Glasgow-1408, Glasgow-1441, Glasgow-4123, Glasgow-4133, Glasgow-1482, Glasgow-1349, Glasgow-1562, Glasgow-4151, Glasgow-3092. The linked sourced identity draft compares this entry with existing profiles and other records; creation remains on HOLD."
       },
-      "profile_match_reviewed_on": "2026-09-30"
+      "profile_match_reviewed_on": "2026-10-17"
     },
     {
       "row": 14,
@@ -729,9 +757,9 @@
       "parish_number": "685 / 1",
       "reference": "440 / 8",
       "parish": "Edinburgh",
-      "status": "DRAFT — no compatible profile found",
+      "status": "SUGGESTED NEW — complete sourced draft",
       "profile_ids": [],
-      "assessment": "The printed page identifies George Cargill as bookseller and Alison as his bride on 11 March 1651. A nearby George Cargill, printer, marries Elspeth Orme in 1663; it is a second documentary occurrence and is not asserted to be the same husband. Newly completed Allison/Alesoun/Alisoun Glasgow and Alisone/Alice Glesgow API variants returned no historical Open candidate. Neither bookseller’s parentage nor Alison’s father is given here.",
+      "assessment": "The printed page identifies George Cargill as bookseller and Alison as his bride on 11 March 1651. A nearby George Cargill, printer, marries Elspeth Orme in 1663; it is a second documentary occurrence and is not asserted to be the same husband. Newly completed Allison/Alesoun/Alisoun Glasgow and Alisone/Alice Glesgow API variants returned no historical Open candidate. Neither bookseller’s parentage nor Alison’s father is given here. Revalidated 17 October 2026 against maintained profile evidence; source readings and earlier search dates are inherited unless an explicit fresh getProfile is listed. The existing consolidated Alison/Alisone draft preserves the 1651/1672 occurrences separately; it does not establish one remarried woman.",
       "next_action": "Use the sourced record draft; original review remains open.",
       "new_information": "Edinburgh OPR 685/1 440/8. Printed register identifies the spouse as bookseller and supplies a marriage date; original parish image remains unchecked.",
       "record_status": "supplied official index; supplementary printed-register transcription visually inspected 30 September 2026; original parish image uninspected",
@@ -744,6 +772,10 @@
           "reviewed_at": "2026-09-30",
           "assessment": "The supplied index records ALISONE Glasgow and GEORGE CARGILL/FR 918 (FR 918) at Edinburgh on 1651-03-11. No compatible existing Glasgow profile was established in the completed named and variant searches; this does not clear profile creation, since the original could supply a distinguishing household.",
           "source_basis": "Supplied official index and initial compatible-candidate audit, before supplementary printed-register review."
+        },
+        {
+          "status": "DRAFT — no compatible profile found",
+          "assessment": "The printed page identifies George Cargill as bookseller and Alison as his bride on 11 March 1651. A nearby George Cargill, printer, marries Elspeth Orme in 1663; it is a second documentary occurrence and is not asserted to be the same husband. Newly completed Allison/Alesoun/Alisoun Glasgow and Alisone/Alice Glesgow API variants returned no historical Open candidate. Neither bookseller’s parentage nor Alison’s father is given here."
         }
       ],
       "profile_reviewed_at": "2026-09-30",
@@ -755,7 +787,7 @@
         "candidate_profile_ids": [],
         "assessment": "The linked sourced identity draft compares this entry with existing profiles and other records; creation remains on HOLD."
       },
-      "profile_match_reviewed_on": "2026-09-30",
+      "profile_match_reviewed_on": "2026-10-17",
       "primary_candidate_profile_ids": [],
       "spouse_candidate_profile_ids": [],
       "canonical_group": "scottish-opr:opr-marriage-14",
@@ -887,9 +919,9 @@
       "parish_number": "658",
       "reference": "10 / 206",
       "parish": "Walston",
-      "status": "HOLD — compatible profile linked",
+      "status": "HOLD — compatible existing profiles linked",
       "profile_ids": [],
-      "assessment": "The supplied index records MARGARET Glasgow and JOHN TAILZER/FR 111 (FR 111) at Walston on 1690-12-18. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group.",
+      "assessment": "Walston 1690 Margaret–John Tailzer is separate from the Cambusnethan 1693 Margaret–John Aiton event. The 1643 Glasgow baptism names William Glasgow/Bessie Howie and belongs to Glasgow-1524; the same date imported on Glasgow-3050 does not prove Thomas Glasgow/Agnes Thomsone parentage. Keep these as two profile identities. Taylor-32027 has an unsourced Fife placement and no wife/child bridge to this event. Revalidated 17 October 2026 against maintained profile evidence; source readings and earlier search dates are inherited unless an explicit fresh getProfile is listed.",
       "next_action": "Compare the linked record-specific candidates and original household details.",
       "new_information": false,
       "record_status": "supplied index; original not inspected in this batch",
@@ -897,6 +929,10 @@
         {
           "reviewed_at": "2026-09-10",
           "assessment": "Margaret Glasgow/John Tailzer, Walston; no compatible identified adult profile."
+        },
+        {
+          "status": "HOLD — compatible profile linked",
+          "assessment": "The supplied index records MARGARET Glasgow and JOHN TAILZER/FR 111 (FR 111) at Walston on 1690-12-18. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group."
         }
       ],
       "profile_reviewed_at": "2026-09-30",
@@ -935,7 +971,7 @@
         ],
         "assessment": "Compatible candidates remain under review: Glasgow-3186, Glasgow-1524, Glasgow-3050, Glasgow-3366, Glasgow-3112, Glasgow-1154, Glasgow-4119, Glasgow-4111, Glasgow-1341, Glasgow-1322, Glasgow-3007, Glasgow-3878, Glasgow-1330, Glasgow-2101, Glasgow-1160. The linked sourced identity draft compares this entry with existing profiles and other records; creation remains on HOLD."
       },
-      "profile_match_reviewed_on": "2026-09-30"
+      "profile_match_reviewed_on": "2026-10-17"
     },
     {
       "row": 19,
@@ -1061,9 +1097,9 @@
       "parish_number": "454",
       "reference": "10 / 169",
       "parish": "St Monance",
-      "status": "HOLD — compatible profile linked",
+      "status": "HOLD — compatible existing profiles linked",
       "profile_ids": [],
-      "assessment": "The supplied index records JEANE Glasgow and ROBERT ALIESONE/FR 91 AND 92 (FR 92) at St Monance on 1652-05-28. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group.",
+      "assessment": "The 1652 St Monance Jeane–Robert Aliesone occurrence predates Glasgow-1163’s documented 1650 Edinburgh childhood and does not fit that represented child as a bride. Existing exclusions remain. New unrestricted Robert Aliesoun/Allisone API variants found no historical Open profile; this is a profile search, not a search of the parish’s full baptism collection. No record read names either spouse’s father. Revalidated 17 October 2026 against maintained profile evidence; source readings and earlier search dates are inherited unless an explicit fresh getProfile is listed.",
       "next_action": "Compare the linked record-specific candidates and original household details.",
       "new_information": false,
       "record_status": "supplied index; original not inspected in this batch",
@@ -1071,6 +1107,10 @@
         {
           "reviewed_at": "2026-09-10",
           "assessment": "Jeane Glasgow/Robert Aliesone, St Monance; no compatible identified adult profile."
+        },
+        {
+          "status": "HOLD — compatible profile linked",
+          "assessment": "The supplied index records JEANE Glasgow and ROBERT ALIESONE/FR 91 AND 92 (FR 92) at St Monance on 1652-05-28. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group."
         }
       ],
       "profile_reviewed_at": "2026-09-30",
@@ -1092,7 +1132,7 @@
         ],
         "assessment": "Compatible candidates remain under review: Glasgow-3083, Glasgow-3055, Glasgow-4113, Glasgow-1344, Glasgow-1462. The linked sourced identity draft compares this entry with existing profiles and other records; creation remains on HOLD."
       },
-      "profile_match_reviewed_on": "2026-09-30"
+      "profile_match_reviewed_on": "2026-10-17"
     },
     {
       "row": 26,
@@ -1104,9 +1144,9 @@
       "parish_number": "750",
       "reference": "10 / 79",
       "parish": "Longformacus",
-      "status": "HOLD — compatible profile linked",
+      "status": "HOLD — compatible existing profiles linked",
       "profile_ids": [],
-      "assessment": "The supplied index records AGNAS Glasgow and WILLIAM ANDERSON/FR 100 (FR 100) at Longformacus on 1666-07-05. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group.",
+      "assessment": "Longformacus 1666 Agnas–William Anderson is not combined into a remarriage biography with the Kirknewton Swan/Paul events. Anderson-3493’s cited 1632 Alloa baptism names William Andersone/Margarat Crokit, proving that child’s record parentage, not that of the Longformacus groom. Agnes candidates’ indexed natal households are compared individually; no Longformacus family clause bridges them. Revalidated 17 October 2026 against maintained profile evidence; source readings and earlier search dates are inherited unless an explicit fresh getProfile is listed.",
       "next_action": "Compare the linked record-specific candidates and original household details.",
       "new_information": false,
       "record_status": "supplied index; original not inspected in this batch",
@@ -1114,6 +1154,10 @@
         {
           "reviewed_at": "2026-09-10",
           "assessment": "Agnas Glasgow/William Anderson, Longformacus; no compatible identified adult profile."
+        },
+        {
+          "status": "HOLD — compatible profile linked",
+          "assessment": "The supplied index records AGNAS Glasgow and WILLIAM ANDERSON/FR 100 (FR 100) at Longformacus on 1666-07-05. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group."
         }
       ],
       "profile_reviewed_at": "2026-09-30",
@@ -1149,7 +1193,7 @@
         ],
         "assessment": "Compatible candidates remain under review: Glasgow-1455, Glasgow-993, Glasgow-2460, Glasgow-1312, Glasgow-1408, Glasgow-1441, Glasgow-4123, Glasgow-4133, Glasgow-1482, Glasgow-1349, Glasgow-1562, Glasgow-4151. The linked sourced identity draft compares this entry with existing profiles and other records; creation remains on HOLD."
       },
-      "profile_match_reviewed_on": "2026-09-30"
+      "profile_match_reviewed_on": "2026-10-17"
     },
     {
       "row": 27,
@@ -1161,9 +1205,9 @@
       "parish_number": "690",
       "reference": "10 / 55",
       "parish": "Kirknewton and East Calder",
-      "status": "HOLD — compatible profile linked",
+      "status": "HOLD — compatible existing profiles linked",
       "profile_ids": [],
-      "assessment": "The supplied index records AGNES Glasgow and JAMES SWAN/FR 36 (FR 36) at Kirknewton and East Calder on 1666-05-12. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group.",
+      "assessment": "The Kirknewton 12 May 1666 Agnes–James Swan occurrence is not merged with the 8 July 1670 Agnes–Patrik Paul occurrence. Swan-736’s represented family is with Alisone Peibles at Elie, married 1631; the wife’s estimated 1663 death permits a later marriage, so the different earlier spouse is not an exclusion. Its child William Swan has no inspected connection to this Agnes or Kirknewton. Revalidated 17 October 2026 against maintained profile evidence; source readings and earlier search dates are inherited unless an explicit fresh getProfile is listed.",
       "next_action": "Compare the linked record-specific candidates and original household details.",
       "new_information": false,
       "record_status": "supplied index; original not inspected in this batch",
@@ -1171,6 +1215,10 @@
         {
           "reviewed_at": "2026-09-10",
           "assessment": "Agnes Glasgow/James Swan, 1666; no compatible identified adult profile."
+        },
+        {
+          "status": "HOLD — compatible profile linked",
+          "assessment": "The supplied index records AGNES Glasgow and JAMES SWAN/FR 36 (FR 36) at Kirknewton and East Calder on 1666-05-12. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group."
         }
       ],
       "profile_reviewed_at": "2026-09-30",
@@ -1206,7 +1254,7 @@
         ],
         "assessment": "Compatible candidates remain under review: Glasgow-1455, Glasgow-993, Glasgow-2460, Glasgow-1312, Glasgow-1408, Glasgow-1441, Glasgow-4123, Glasgow-4133, Glasgow-1482, Glasgow-1349, Glasgow-1562, Glasgow-4151. The linked sourced identity draft compares this entry with existing profiles and other records; creation remains on HOLD."
       },
-      "profile_match_reviewed_on": "2026-09-30"
+      "profile_match_reviewed_on": "2026-10-17"
     },
     {
       "row": 28,
@@ -1218,12 +1266,12 @@
       "parish_number": "685 / 1",
       "reference": "440 / 78",
       "parish": "Edinburgh",
-      "status": "MATCHED — existing profile",
+      "status": "MATCHED — existing profiles",
       "profile_ids": [
         "Glasgow-1152",
         "Anderson-56713"
       ],
-      "assessment": "The supplied index records ALEXANDER Glasgow and ISSOBELL ANDERSON/FR 991 (FR 991) at Edinburgh on 1665-06-16. Live Glasgow-1152 and Anderson-56713 reciprocally record exactly 16 June 1665 as their marriage date. Their names and Edinburgh family chronology match this entry; Glasgow-3118 is superseded as the leading identification. The register image remains uninspected.",
+      "assessment": "The supplied index records ALEXANDER Glasgow and ISSOBELL ANDERSON/FR 991 (FR 991) at Edinburgh on 1665-06-16. Live Glasgow-1152 and Anderson-56713 reciprocally record exactly 16 June 1665 as their marriage date. Their names and Edinburgh family chronology match this entry; Glasgow-3118 is superseded as the leading identification. The register image remains uninspected. Revalidated 17 October 2026 against maintained profile evidence; source readings and earlier search dates are inherited unless an explicit fresh getProfile is listed.",
       "next_action": "Use the existing couple. Inspect the original only to refine event type and reading; no new profiles are needed.",
       "new_information": "Edinburgh OPR 685/1 440/78.",
       "record_status": "supplied index; original not inspected in this batch",
@@ -1236,7 +1284,13 @@
         "assessment": "Alexander-3118 is possible only by chronology."
       },
       "candidate_profile_ids": [],
-      "profile_match_reviewed_on": "2026-09-30"
+      "profile_match_reviewed_on": "2026-10-17",
+      "assessment_history": [
+        {
+          "status": "MATCHED — existing profile",
+          "assessment": "The supplied index records ALEXANDER Glasgow and ISSOBELL ANDERSON/FR 991 (FR 991) at Edinburgh on 1665-06-16. Live Glasgow-1152 and Anderson-56713 reciprocally record exactly 16 June 1665 as their marriage date. Their names and Edinburgh family chronology match this entry; Glasgow-3118 is superseded as the leading identification. The register image remains uninspected."
+        }
+      ]
     },
     {
       "row": 29,
@@ -1248,12 +1302,12 @@
       "parish_number": "690",
       "reference": "10 / 80",
       "parish": "Kirknewton and East Calder",
-      "status": "MATCHED — existing profile",
+      "status": "MATCHED — existing profiles",
       "profile_ids": [
         "Glasgow-1439",
         "Grey-2711"
       ],
-      "assessment": "The supplied index records ANNA Glasgow and THOMAS GRAY/FR 49 (FR 49) at Kirknewton and East Calder on 1676-06-16. Glasgow-1439 (Anne) and Grey-2711 (Thomas) are already reciprocally attached as spouses; both are placed at Kirknewton and East Calder, with compatible 1652/1650 birth placements. This is the same named local couple. The supplied entry supplies their 1676 event date, whose banns/marriage distinction still requires the original.",
+      "assessment": "The supplied index records ANNA Glasgow and THOMAS GRAY/FR 49 (FR 49) at Kirknewton and East Calder on 1676-06-16. Glasgow-1439 (Anne) and Grey-2711 (Thomas) are already reciprocally attached as spouses; both are placed at Kirknewton and East Calder, with compatible 1652/1650 birth placements. This is the same named local couple. The supplied entry supplies their 1676 event date, whose banns/marriage distinction still requires the original. Revalidated 17 October 2026 against maintained profile evidence; source readings and earlier search dates are inherited unless an explicit fresh getProfile is listed.",
       "next_action": "Use the existing couple. Inspect the original only to refine event type and reading; no new profiles are needed.",
       "new_information": false,
       "record_status": "supplied index; original not inspected in this batch",
@@ -1261,6 +1315,10 @@
         {
           "reviewed_at": "2026-09-10",
           "assessment": "Anna Glasgow/Thomas Gray, 1676; no compatible identified adult profile."
+        },
+        {
+          "status": "MATCHED — existing profile",
+          "assessment": "The supplied index records ANNA Glasgow and THOMAS GRAY/FR 49 (FR 49) at Kirknewton and East Calder on 1676-06-16. Glasgow-1439 (Anne) and Grey-2711 (Thomas) are already reciprocally attached as spouses; both are placed at Kirknewton and East Calder, with compatible 1652/1650 birth placements. This is the same named local couple. The supplied entry supplies their 1676 event date, whose banns/marriage distinction still requires the original."
         }
       ],
       "profile_reviewed_at": "2026-09-30",
@@ -1274,7 +1332,7 @@
         ],
         "assessment": "Compatible candidates remain under review: Glasgow-1233. The linked sourced identity draft compares this entry with existing profiles and other records; creation remains on HOLD."
       },
-      "profile_match_reviewed_on": "2026-09-30"
+      "profile_match_reviewed_on": "2026-10-17"
     },
     {
       "row": 30,
@@ -1324,9 +1382,9 @@
       "parish_number": "729",
       "reference": "10 / 230",
       "parish": "Channelkirk",
-      "status": "HOLD — compatible profile linked",
+      "status": "HOLD — compatible existing profiles linked",
       "profile_ids": [],
-      "assessment": "Channelkirk 17 September 1671 Effie–Alexander Hutchesone is kept as a distinct event, provisionally associated with the Edinburgh 8 December 1671 Eupham–Alexander tailor event. Same couple is plausible under Effie/Eupham and Hutcheson variants, but the difference of parish and date does not establish banns followed by marriage or identity with a named father. The occupational fact read at Edinburgh is not assigned as a quoted Channelkirk fact. Rev. Alexander Hutcheson-361 is retained as a lower-ranked candidate: his estimated 1630–1640 birth and unknown wife do not conflict by themselves, though his 1653 divinity degree and Scottish/Down ministry differ materially from the recorded Edinburgh tailor. A country-only filter was insufficient to reject him; no merger, marriage attachment or father inference follows.",
+      "assessment": "The printed Edinburgh register identifies Alexander as a tailor and dates his marriage to Eupham to 8 December 1671. The same-name tailor’s Edinburgh burgess admission on 22 June 1670 records apprenticeship to the late Alexander Thomsone (31 January 1655); this is a strong occupational lead for the groom, not a father clause. Thomsone is a master, not a parent. Eupham Glasgow-3358’s 1651 Edinburgh child index names Robert Glasgow/Eupham Lorimer; Glasgow-1167’s 1634 event has a documented Glasgow/Glassford father conflict. Neither child-to-bride identification is proved. The Channelkirk September event is provisionally one-couple related but stays a distinct register occurrence. Rev. Alexander Hutcheson-361 is retained as a lower-ranked candidate: his estimated 1630–1640 birth and unknown wife do not conflict by themselves, though his 1653 divinity degree and Scottish/Down ministry differ materially from the recorded Edinburgh tailor. A country-only filter was insufficient to reject him; no merger, marriage attachment or father inference follows. Channelkirk 17 September 1671 Effie–Alexander Hutchesone is kept as a distinct event, provisionally associated with the Edinburgh 8 December 1671 Eupham–Alexander tailor event. Same couple is plausible under Effie/Eupham and Hutcheson variants, but the difference of parish and date does not establish banns followed by marriage or identity with a named father. The occupational fact read at Edinburgh is not assigned as a quoted Channelkirk fact. Rev. Alexander Hutcheson-361 is retained as a lower-ranked candidate: his estimated 1630–1640 birth and unknown wife do not conflict by themselves, though his 1653 divinity degree and Scottish/Down ministry differ materially from the recorded Edinburgh tailor. A country-only filter was insufficient to reject him; no merger, marriage attachment or father inference follows. Revalidated 17 October 2026 against maintained profile evidence; source readings and earlier search dates are inherited unless an explicit fresh getProfile is listed.",
       "next_action": "Compare the linked record-specific candidates and original household details.",
       "new_information": "Channelkirk OPR 729 10/230.",
       "record_status": "supplied index; original not inspected in this batch",
@@ -1343,12 +1401,16 @@
         "Glasgow-1167",
         "Hutcheson-361"
       ],
-      "profile_match_reviewed_on": "2026-09-30",
+      "profile_match_reviewed_on": "2026-10-17",
       "assessment_history": [
         {
           "reviewed_at": "2026-09-30",
           "assessment": "The supplied index records EFFIE Glasgow and ALEXANDER HUTCSHESONE/FR 123 (FR 123) at Channelkirk on 1671-09-17. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group.",
           "source_basis": "Supplied official index and initial compatible-candidate audit, before supplementary printed-register review."
+        },
+        {
+          "status": "HOLD — compatible profile linked",
+          "assessment": "Channelkirk 17 September 1671 Effie–Alexander Hutchesone is kept as a distinct event, provisionally associated with the Edinburgh 8 December 1671 Eupham–Alexander tailor event. Same couple is plausible under Effie/Eupham and Hutcheson variants, but the difference of parish and date does not establish banns followed by marriage or identity with a named father. The occupational fact read at Edinburgh is not assigned as a quoted Channelkirk fact. Rev. Alexander Hutcheson-361 is retained as a lower-ranked candidate: his estimated 1630–1640 birth and unknown wife do not conflict by themselves, though his 1653 divinity degree and Scottish/Down ministry differ materially from the recorded Edinburgh tailor. A country-only filter was insufficient to reject him; no merger, marriage attachment or father inference follows."
         }
       ],
       "primary_candidate_profile_ids": [
@@ -1490,9 +1552,9 @@
       "parish_number": "628",
       "reference": "10 / 344",
       "parish": "Cambusnethan",
-      "status": "HOLD — compatible profile linked",
+      "status": "HOLD — compatible existing profiles linked",
       "profile_ids": [],
-      "assessment": "The supplied index records MARGRAT Glasgow and JOHN AITON/FR 256 (FR 256) at Cambusnethan on 1693-10-18. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group.",
+      "assessment": "Cambusnethan 1693 Margrat–John Aiton is separate from Walston 1690 Margaret–John Tailzer. Ayton-398 represents the Fawside/West Herrington Durham estate family and has an unnamed wife and a 1702 will; child Samuel Ayton-399 supplies no wife-name bridge. Distant residence alone does not exclude it. The direct 1643 Glasgow child index supports William/Bessie parentage only for that child record, not the Cambusnethan bride. Revalidated 17 October 2026 against maintained profile evidence; source readings and earlier search dates are inherited unless an explicit fresh getProfile is listed.",
       "next_action": "Compare the linked record-specific candidates and original household details.",
       "new_information": false,
       "record_status": "supplied index; original not inspected in this batch",
@@ -1500,6 +1562,10 @@
         {
           "reviewed_at": "2026-09-10",
           "assessment": "Margrat Glasgow/John Aiton, Cambusnethan; no compatible identified adult profile."
+        },
+        {
+          "status": "HOLD — compatible profile linked",
+          "assessment": "The supplied index records MARGRAT Glasgow and JOHN AITON/FR 256 (FR 256) at Cambusnethan on 1693-10-18. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group."
         }
       ],
       "profile_reviewed_at": "2026-09-30",
@@ -1540,7 +1606,7 @@
         ],
         "assessment": "Compatible candidates remain under review: Glasgow-3186, Glasgow-1524, Glasgow-3050, Glasgow-3366, Glasgow-3112, Glasgow-3365, Glasgow-1154, Glasgow-4119, Glasgow-4111, Glasgow-1341, Glasgow-1322, Glasgow-3007, Glasgow-3878, Glasgow-1330, Glasgow-2101, Glasgow-1160. The linked sourced identity draft compares this entry with existing profiles and other records; creation remains on HOLD."
       },
-      "profile_match_reviewed_on": "2026-09-30"
+      "profile_match_reviewed_on": "2026-10-17"
     },
     {
       "row": 39,
@@ -1552,9 +1618,9 @@
       "parish_number": "685 / 1",
       "reference": "440 / 48",
       "parish": "Edinburgh",
-      "status": "HOLD — compatible profile linked",
+      "status": "HOLD — compatible existing profiles linked",
       "profile_ids": [],
-      "assessment": "The printed register preserves surname Rait (Raite/Rate), John’s trade as tailor and the 28 June 1659 marriage to Marion. Reid-24609 represents the Edinburgh Reid–Helen Henderson family, with son George Reade-97 in Maryland; the surname is a weaker phonetic lead and no tailor/Marion bridge is established. The unrestricted Raitt search and full biographies identify Raitt-2 as the 1806 Captain and Raitt-360 as the 1866-born Western Australian butcher, excluding both concretely. Other printed Rait entries do not identify this husband’s father.",
+      "assessment": "The printed register preserves surname Rait (Raite/Rate), John’s trade as tailor and the 28 June 1659 marriage to Marion. Reid-24609 represents the Edinburgh Reid–Helen Henderson family, with son George Reade-97 in Maryland; the surname is a weaker phonetic lead and no tailor/Marion bridge is established. The unrestricted Raitt search and full biographies identify Raitt-2 as the 1806 Captain and Raitt-360 as the 1866-born Western Australian butcher, excluding both concretely. Other printed Rait entries do not identify this husband’s father. Revalidated 17 October 2026 against maintained profile evidence; source readings and earlier search dates are inherited unless an explicit fresh getProfile is listed.",
       "next_action": "Compare the linked record-specific candidates and original household details.",
       "new_information": "Edinburgh OPR 685/1 440/48. Printed register identifies the spouse as tailor and supplies a marriage date; original parish image remains unchecked.",
       "record_status": "supplied official index; supplementary printed-register transcription visually inspected 30 September 2026; original parish image uninspected",
@@ -1567,6 +1633,10 @@
           "reviewed_at": "2026-09-30",
           "assessment": "The supplied index records MARIONE Glasgow and JOHNE RAIT/FR 961 (FR 961) at Edinburgh on 1659-06-28. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group.",
           "source_basis": "Supplied official index and initial compatible-candidate audit, before supplementary printed-register review."
+        },
+        {
+          "status": "HOLD — compatible profile linked",
+          "assessment": "The printed register preserves surname Rait (Raite/Rate), John’s trade as tailor and the 28 June 1659 marriage to Marion. Reid-24609 represents the Edinburgh Reid–Helen Henderson family, with son George Reade-97 in Maryland; the surname is a weaker phonetic lead and no tailor/Marion bridge is established. The unrestricted Raitt search and full biographies identify Raitt-2 as the 1806 Captain and Raitt-360 as the 1866-born Western Australian butcher, excluding both concretely. Other printed Rait entries do not identify this husband’s father."
         }
       ],
       "profile_reviewed_at": "2026-09-30",
@@ -1592,7 +1662,7 @@
         ],
         "assessment": "Compatible candidates remain under review: Glasgow-4095, Glasgow-3143, Glasgow-1428, Glasgow-1532, Glasgow-3049, Glasgow-3062. The linked sourced identity draft compares this entry with existing profiles and other records; creation remains on HOLD."
       },
-      "profile_match_reviewed_on": "2026-09-30",
+      "profile_match_reviewed_on": "2026-10-17",
       "primary_candidate_profile_ids": [
         "Glasgow-3049",
         "Glasgow-4095",
@@ -1717,9 +1787,9 @@
       "parish_number": "633",
       "reference": "10 / 37",
       "parish": "Carstairs",
-      "status": "HOLD — compatible profile linked",
+      "status": "HOLD — compatible existing profiles linked",
       "profile_ids": [],
-      "assessment": "The Carstairs 1679 Thomas–Gyles Spence entry is separate from the Strathblane unnamed event on the same day. Thomas Glasgow-1449 is newly excluded by his represented later family: father Glasgow-1382 is explicitly born about 1766 and dies 1851; mother Christine Davidson has documented motherhood of Nathaniel in 1774, incompatible with being the mother of a 1679 adult. Glasgow-1226 remains a weaker possibility because fatherhood through 1735 would imply an older father but is not impossible. Graduate Glasgow-3413’s 1670 degree does not establish his assumed Thomas Glasgow-3187 father, and the 1660 burgess entry gives no father. Newly searched Gellies/Gilles/Giles Spence/Spens/Spense yielded no historical woman; the Tudor male Spencer lead remains excluded.",
+      "assessment": "The Carstairs 1679 Thomas–Gyles Spence entry is separate from the Strathblane unnamed event on the same day. Thomas Glasgow-1449 is newly excluded by his represented later family: father Glasgow-1382 is explicitly born about 1766 and dies 1851; mother Christine Davidson has documented motherhood of Nathaniel in 1774, incompatible with being the mother of a 1679 adult. Glasgow-1226 remains a weaker possibility because fatherhood through 1735 would imply an older father but is not impossible. Graduate Glasgow-3413’s 1670 degree does not establish his assumed Thomas Glasgow-3187 father, and the 1660 burgess entry gives no father. Newly searched Gellies/Gilles/Giles Spence/Spens/Spense yielded no historical woman; the Tudor male Spencer lead remains excluded. Revalidated 17 October 2026 against maintained profile evidence; source readings and earlier search dates are inherited unless an explicit fresh getProfile is listed.",
       "next_action": "Compare the linked record-specific candidates and original household details.",
       "new_information": false,
       "record_status": "supplied index; original not inspected in this batch",
@@ -1732,6 +1802,10 @@
           "reviewed_at": "2026-09-30",
           "assessment": "The supplied index records THOMAS Glasgow and GYLES SPENCE/FR 41 (FR 41) at Carstairs on 1679-07-24. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group.",
           "source_basis": "Supplied official index and initial compatible-candidate audit, before supplementary printed-register review."
+        },
+        {
+          "status": "HOLD — compatible profile linked",
+          "assessment": "The Carstairs 1679 Thomas–Gyles Spence entry is separate from the Strathblane unnamed event on the same day. Thomas Glasgow-1449 is newly excluded by his represented later family: father Glasgow-1382 is explicitly born about 1766 and dies 1851; mother Christine Davidson has documented motherhood of Nathaniel in 1774, incompatible with being the mother of a 1679 adult. Glasgow-1226 remains a weaker possibility because fatherhood through 1735 would imply an older father but is not impossible. Graduate Glasgow-3413’s 1670 degree does not establish his assumed Thomas Glasgow-3187 father, and the 1660 burgess entry gives no father. Newly searched Gellies/Gilles/Giles Spence/Spens/Spense yielded no historical woman; the Tudor male Spencer lead remains excluded."
         }
       ],
       "profile_reviewed_at": "2026-09-30",
@@ -1762,7 +1836,7 @@
         ],
         "assessment": "Compatible candidates remain under review: Glasgow-2461, Glasgow-3091, Glasgow-3187, Glasgow-1311, Glasgow-1242, Glasgow-1226, Glasgow-1382, Glasgow-3602, Glasgow-1449, Glasgow-441, Glasgow-3413, Glasgow-1471. The linked sourced identity draft compares this entry with existing profiles and other records; creation remains on HOLD."
       },
-      "profile_match_reviewed_on": "2026-09-30",
+      "profile_match_reviewed_on": "2026-10-17",
       "primary_candidate_profile_ids": [
         "Glasgow-2461",
         "Glasgow-3091",
@@ -1841,9 +1915,9 @@
       "parish_number": "685 / 1",
       "reference": "440 / 139",
       "parish": "Edinburgh",
-      "status": "HOLD — compatible profile linked",
+      "status": "PARTLY MATCHED — separate person assessments",
       "profile_ids": [],
-      "assessment": "The printed register identifies John Williamson as a cordiner in the 14 November 1672 Alison marriage. Father John Williamson-14320’s inspected child profiles preserve Kirkcaldy index entries with Christian Turpie in 1674, 1677 and 1680, plus their 1655 marriage and her 1690 death entry. This continuing named-couple sequence conflicts with identifying him as the Edinburgh Alison bridegroom and is a substantive competing-household exclusion, not merely another spouse’s name. Son Williamson-14321, baptised 1657, is still a compatible but young candidate with no child or occupation bridge. Alison remains without a compatible profile; the row’s spouse candidates must not change her own no-profile status.",
+      "assessment": "Alison Glasgow has no compatible existing subject profile in the inherited search and has a complete sourced draft. Williamson-14321 is retained only for husband John; his father Williamson-14320 is excluded by the continuing Kirkcaldy/Turpie household. The bride is not marked matched by her husband candidate. Revalidated 17 October 2026 against maintained profile evidence; source readings and earlier search dates are inherited unless an explicit fresh getProfile is listed.",
       "next_action": "Compare the linked record-specific candidates and original household details.",
       "new_information": "Edinburgh OPR 685/1 440/139. Printed register identifies the spouse as cordiner and supplies a marriage date; original parish image remains unchecked.",
       "record_status": "supplied official index; supplementary printed-register transcription visually inspected 30 September 2026; original parish image uninspected",
@@ -1856,6 +1930,10 @@
           "reviewed_at": "2026-09-30",
           "assessment": "The supplied index records ALISON Glasgow and JOHN WILLIAMSON/FR 1053 (FR 1053) at Edinburgh on 1672-11-14. No compatible existing Glasgow profile was established in the completed named and variant searches; this does not clear profile creation, since the original could supply a distinguishing household.",
           "source_basis": "Supplied official index and initial compatible-candidate audit, before supplementary printed-register review."
+        },
+        {
+          "status": "HOLD — compatible profile linked",
+          "assessment": "The printed register identifies John Williamson as a cordiner in the 14 November 1672 Alison marriage. Father John Williamson-14320’s inspected child profiles preserve Kirkcaldy index entries with Christian Turpie in 1674, 1677 and 1680, plus their 1655 marriage and her 1690 death entry. This continuing named-couple sequence conflicts with identifying him as the Edinburgh Alison bridegroom and is a substantive competing-household exclusion, not merely another spouse’s name. Son Williamson-14321, baptised 1657, is still a compatible but young candidate with no child or occupation bridge. Alison remains without a compatible profile; the row’s spouse candidates must not change her own no-profile status."
         }
       ],
       "profile_reviewed_at": "2026-09-30",
@@ -1869,7 +1947,7 @@
         "candidate_profile_ids": [],
         "assessment": "The linked sourced identity draft compares this entry with existing profiles and other records; creation remains on HOLD."
       },
-      "profile_match_reviewed_on": "2026-09-30",
+      "profile_match_reviewed_on": "2026-10-17",
       "primary_candidate_profile_ids": [],
       "spouse_candidate_profile_ids": [
         "Williamson-14321"
@@ -2007,15 +2085,19 @@
       "parish_number": "644 / 1",
       "reference": "230 / 285",
       "parish": "Glasgow",
-      "status": "HOLD — compatible profile linked",
+      "status": "HOLD — compatible existing profiles linked",
       "profile_ids": [],
-      "assessment": "The supplied index records ISOB Glasgow and JAMES COLDWELL/ at Glasgow on 1684-04-17. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group.",
+      "assessment": "The 1684 Glasgow Isob–James Coldwell occurrence has candidate women with different indexed natal families. Caldwell-12289 has a before-1670 bound but cites children in Scotland and Maryland in 1691/1692, rather than a secure own birth. Those later records permit a 1684 marriage and do not identify this Isob. No newly read record bridges an Isob baptism father to this bride. Revalidated 17 October 2026 against maintained profile evidence; source readings and earlier search dates are inherited unless an explicit fresh getProfile is listed.",
       "next_action": "Compare the linked record-specific candidates and original household details.",
       "record_status": "supplied index; original not inspected in this batch",
       "assessment_history": [
         {
           "reviewed_at": "2026-09-10",
           "assessment": "Isob Glasgow and James Coldwell have no proven compatible local/live identity."
+        },
+        {
+          "status": "HOLD — compatible profile linked",
+          "assessment": "The supplied index records ISOB Glasgow and JAMES COLDWELL/ at Glasgow on 1684-04-17. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group."
         }
       ],
       "profile_reviewed_at": "2026-09-30",
@@ -2036,7 +2118,7 @@
         ],
         "assessment": "Compatible candidates remain under review: Glasgow-3372, Glasgow-2454. The linked sourced identity draft compares this entry with existing profiles and other records; creation remains on HOLD."
       },
-      "profile_match_reviewed_on": "2026-09-30"
+      "profile_match_reviewed_on": "2026-10-17"
     },
     {
       "row": 48,
@@ -2107,15 +2189,19 @@
       "parish_number": "644 / 1",
       "reference": "230 / 230",
       "parish": "Glasgow",
-      "status": "HOLD — compatible profile linked",
+      "status": "HOLD — compatible existing profiles linked",
       "profile_ids": [],
-      "assessment": "The supplied index records JOANNET Glasgow and ANDREW ALLEXANDER/ at Glasgow on 1661-08-08. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group.",
+      "assessment": "The 1661 Glasgow Joannet–Andrew Allexander record is compared to the Glasgow 1622 Jonet child of John/Jonet Mathie and 1636 Jonet child of William/Bessie Howie. Their father links are already marked confident (20) and are not new upgrades. Andrew Alexander-7545’s Ulster estate-family segment is an alternative candidate, not evidence for a Glasgow father. The newly captured children are Ulster-family profiles; they provide no Joannet connection. Late upper-bound Janet candidates remain lower-ranked unless an actual incompatible family event is established. Revalidated 17 October 2026 against maintained profile evidence; source readings and earlier search dates are inherited unless an explicit fresh getProfile is listed.",
       "next_action": "Compare the linked record-specific candidates and original household details.",
       "record_status": "supplied index; original not inspected in this batch",
       "assessment_history": [
         {
           "reviewed_at": "2026-09-10",
           "assessment": "Joannet Glasgow and Andrew Allexander remain unlinked; Alexander spelling variants do not identify a couple."
+        },
+        {
+          "status": "HOLD — compatible profile linked",
+          "assessment": "The supplied index records JOANNET Glasgow and ANDREW ALLEXANDER/ at Glasgow on 1661-08-08. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group."
         }
       ],
       "profile_reviewed_at": "2026-09-30",
@@ -2147,7 +2233,7 @@
         ],
         "assessment": "Compatible candidates remain under review: Glasgow-1448, Glasgow-4112, Glasgow-1407, Glasgow-4130, Glasgow-1432, Glasgow-4137, Glasgow-1329, Glasgow-1305, Glasgow-3310. The linked sourced identity draft compares this entry with existing profiles and other records; creation remains on HOLD."
       },
-      "profile_match_reviewed_on": "2026-09-30"
+      "profile_match_reviewed_on": "2026-10-17"
     },
     {
       "row": 52,
@@ -2197,9 +2283,9 @@
       "parish_number": "664",
       "reference": "10 / 109",
       "parish": "Carriden",
-      "status": "HOLD — compatible profile linked",
+      "status": "HOLD — compatible existing profiles linked",
       "profile_ids": [],
-      "assessment": "The supplied index records MARION Glasgow and JOHN GRAY/FR 67 (FR 67) at Carriden on 1686-09-30. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group.",
+      "assessment": "The Carriden 30 September 1686 Marion–John Gray occurrence remains separate from the Edinburgh 29 June 1686 Marion–William Calder marriage. Glasgow-3143 is already supported as the Calder wife by her 1657 baptism and the Calder burgess admission naming James Glasgow, weaver, as father. A later September marriage would require a further event, but no husband death is established, so this alone is not a concrete exclusion. Gray-27691 and Gray-32439 have Fife family placements without a Marion/Carriden bridge; retain qualified candidates. Revalidated 17 October 2026 against maintained profile evidence; source readings and earlier search dates are inherited unless an explicit fresh getProfile is listed.",
       "next_action": "Compare the linked record-specific candidates and original household details.",
       "new_information": false,
       "record_status": "supplied index; original not inspected in this batch",
@@ -2207,6 +2293,10 @@
         {
           "reviewed_at": "2026-09-10",
           "assessment": "Marion Glasgow/John Gray, Carriden; no compatible identified adult profile."
+        },
+        {
+          "status": "HOLD — compatible profile linked",
+          "assessment": "The supplied index records MARION Glasgow and JOHN GRAY/FR 67 (FR 67) at Carriden on 1686-09-30. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group."
         }
       ],
       "profile_reviewed_at": "2026-09-30",
@@ -2235,7 +2325,7 @@
         ],
         "assessment": "Compatible candidates remain under review: Glasgow-4095, Glasgow-3025, Glasgow-3143, Glasgow-1428, Glasgow-1532, Glasgow-3049, Glasgow-3062. The linked sourced identity draft compares this entry with existing profiles and other records; creation remains on HOLD."
       },
-      "profile_match_reviewed_on": "2026-09-30"
+      "profile_match_reviewed_on": "2026-10-17"
     },
     {
       "row": 55,
@@ -2260,192 +2350,318 @@
   "new_drafts": [
     {
       "title": "Unnamed Glasgow subject, Strathblane 1679",
-      "status": "UNNAMED — original needed",
+      "status": "RECORD ONLY — insufficient personal identity",
       "path": "surname-research/new-people/1679_Scotland_Strathblane_unknown_Glasgow.md",
       "rows": [
         6
       ],
-      "assessment": "The supplied index records ----- Glasgow and MARGARET /FR 801 GROOM SURNAME ASSUMED (FR 801) at Strathblane on 1679-07-24. The groom has no given name and his Glasgow surname is explicitly assumed; Margaret has no surname. Neither entry defines a searchable distinct person. Preserve one documentary account; do not invent a child, parents or independent profiles."
+      "assessment": "One documentary marriage/banns account contains both unnamed groom and Margaret. The Glasgow surname is explicitly assumed, the groom has no given name and Margaret has no surname. Consolidate the three queue aliases into one event account. There is no recorded child or named parent to attach; the 1679 Carstairs Thomas event shares the date but has a different parish, parties and reference and remains separate. Revalidated 17 October 2026 against maintained profile evidence; source readings and earlier search dates are inherited unless an explicit fresh getProfile is listed.",
+      "assessment_history": [
+        {
+          "status": "UNNAMED — original needed",
+          "assessment": "The supplied index records ----- Glasgow and MARGARET /FR 801 GROOM SURNAME ASSUMED (FR 801) at Strathblane on 1679-07-24. The groom has no given name and his Glasgow surname is explicitly assumed; Margaret has no surname. Neither entry defines a searchable distinct person. Preserve one documentary account; do not invent a child, parents or independent profiles."
+        }
+      ]
     },
     {
       "title": "Jean Glasgow, West Kilbride 1700",
-      "status": "HOLD — compatible profile linked",
+      "status": "HOLD — compatible existing profiles linked",
       "path": "surname-research/new-people/1700_Scotland_West_Kilbride_Jean_Glasgow.md",
       "rows": [
         10
       ],
-      "assessment": "The supplied index records JEAN Glasgow and ROBERT WOODSYD/FR 357 (FR 357) at West Kilbride on 1700-01-13. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group."
+      "assessment": "Woodside-784 is supported as father Robert of James Woodside with Jonet White, baptised 30 January 1676, through the child profile. This is an earlier Ayrshire household, not a concrete exclusion of a 1700 later marriage to Jean. Jean candidates’ individual baptism families remain distinct. No current parent/child or spouse record read connects this couple to the West Kilbride 13 January 1700 event. Revalidated 17 October 2026 against maintained profile evidence; source readings and earlier search dates are inherited unless an explicit fresh getProfile is listed.",
+      "assessment_history": [
+        {
+          "status": "HOLD — compatible profile linked",
+          "assessment": "The supplied index records JEAN Glasgow and ROBERT WOODSYD/FR 357 (FR 357) at West Kilbride on 1700-01-13. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group."
+        }
+      ]
     },
     {
       "title": "Isob Glasgow, Glasgow 1684",
-      "status": "HOLD — compatible profile linked",
+      "status": "HOLD — compatible existing profiles linked",
       "path": "surname-research/new-people/1684_Scotland_Glasgow_Isob_Glasgow.md",
       "rows": [
         47
       ],
-      "assessment": "The supplied index records ISOB Glasgow and JAMES COLDWELL/ at Glasgow on 1684-04-17. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group."
+      "assessment": "The 1684 Glasgow Isob–James Coldwell occurrence has candidate women with different indexed natal families. Caldwell-12289 has a before-1670 bound but cites children in Scotland and Maryland in 1691/1692, rather than a secure own birth. Those later records permit a 1684 marriage and do not identify this Isob. No newly read record bridges an Isob baptism father to this bride. Revalidated 17 October 2026 against maintained profile evidence; source readings and earlier search dates are inherited unless an explicit fresh getProfile is listed.",
+      "assessment_history": [
+        {
+          "status": "HOLD — compatible profile linked",
+          "assessment": "The supplied index records ISOB Glasgow and JAMES COLDWELL/ at Glasgow on 1684-04-17. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group."
+        }
+      ]
     },
     {
       "title": "Joannet Glasgow, Glasgow 1661",
-      "status": "HOLD — compatible profile linked",
+      "status": "HOLD — compatible existing profiles linked",
       "path": "surname-research/new-people/1661_Scotland_Glasgow_Joannet_Glasgow.md",
       "rows": [
         51
       ],
-      "assessment": "The supplied index records JOANNET Glasgow and ANDREW ALLEXANDER/ at Glasgow on 1661-08-08. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group."
+      "assessment": "The 1661 Glasgow Joannet–Andrew Allexander record is compared to the Glasgow 1622 Jonet child of John/Jonet Mathie and 1636 Jonet child of William/Bessie Howie. Their father links are already marked confident (20) and are not new upgrades. Andrew Alexander-7545’s Ulster estate-family segment is an alternative candidate, not evidence for a Glasgow father. The newly captured children are Ulster-family profiles; they provide no Joannet connection. Late upper-bound Janet candidates remain lower-ranked unless an actual incompatible family event is established. Revalidated 17 October 2026 against maintained profile evidence; source readings and earlier search dates are inherited unless an explicit fresh getProfile is listed.",
+      "assessment_history": [
+        {
+          "status": "HOLD — compatible profile linked",
+          "assessment": "The supplied index records JOANNET Glasgow and ANDREW ALLEXANDER/ at Glasgow on 1661-08-08. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group."
+        }
+      ]
     },
     {
       "title": "Agnes Glasgow, Carstairs, 1681",
-      "status": "HOLD — compatible profile linked",
+      "status": "HOLD — compatible existing profiles linked",
       "path": "surname-research/new-people/1681_Scotland_Carstairs_Agnes_Glasgow.md",
       "rows": [
         1
       ],
-      "assessment": "The supplied index records AGNES Glasgow and WILLIAM THOMSONE/FR 70 (FR 70) at Carstairs on 1681-12-15. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group."
+      "assessment": "The 1681 Carstairs bride is a separate identity question from Agnes with Swan in 1666, Paul in 1670 and Anderson at Longformacus. Inveresk siblings Agnes (1634), Thomas (1637) and Marion (1642) have the indexed father Thomas, but no inspected Carstairs clause joins either Agnes or the 1679 Thomas bridegroom to that family. Thomson-263 has an Edinburgh Peirie household; its attached children add no Carstairs bridge and no dated competing household at 1681. Retain it as a weaker compatible spouse lead. Revalidated 17 October 2026 against maintained profile evidence; source readings and earlier search dates are inherited unless an explicit fresh getProfile is listed.",
+      "assessment_history": [
+        {
+          "status": "HOLD — compatible profile linked",
+          "assessment": "The supplied index records AGNES Glasgow and WILLIAM THOMSONE/FR 70 (FR 70) at Carstairs on 1681-12-15. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group."
+        }
+      ]
     },
     {
       "title": "Agnes Glasgow, Kirknewton and East Calder, 1670",
-      "status": "HOLD — compatible profile linked",
+      "status": "HOLD — compatible existing profiles linked",
       "path": "surname-research/new-people/1670_Scotland_Kirknewton_and_East_Calder_Agnes_Glasgow.md",
       "rows": [
         13
       ],
-      "assessment": "The supplied index records AGNES Glasgow and PATRIK PAUL/FR 40 (FR 40) at Kirknewton and East Calder on 1670-07-08. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group."
+      "assessment": "The 1670 Agnes–Patrik Paul event remains separate from the 1666 Agnes–James Swan event, even in the same parish. The supplied births index identifies local Agnes in 1677 to Alexander, which is a different child-record assertion and does not name the 1670 bride’s father. Unrestricted Patrick/Patrik Paul searches from the first audit found no surviving historical match; no new bridge appeared in the cross-record review. Revalidated 17 October 2026 against maintained profile evidence; source readings and earlier search dates are inherited unless an explicit fresh getProfile is listed.",
+      "assessment_history": [
+        {
+          "status": "HOLD — compatible profile linked",
+          "assessment": "The supplied index records AGNES Glasgow and PATRIK PAUL/FR 40 (FR 40) at Kirknewton and East Calder on 1670-07-08. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group."
+        }
+      ]
     },
     {
       "title": "Margaret Glasgow, Walston, 1690",
-      "status": "HOLD — compatible profile linked",
+      "status": "HOLD — compatible existing profiles linked",
       "path": "surname-research/new-people/1690_Scotland_Walston_Margaret_Glasgow.md",
       "rows": [
         18
       ],
-      "assessment": "The supplied index records MARGARET Glasgow and JOHN TAILZER/FR 111 (FR 111) at Walston on 1690-12-18. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group."
+      "assessment": "Walston 1690 Margaret–John Tailzer is separate from the Cambusnethan 1693 Margaret–John Aiton event. The 1643 Glasgow baptism names William Glasgow/Bessie Howie and belongs to Glasgow-1524; the same date imported on Glasgow-3050 does not prove Thomas Glasgow/Agnes Thomsone parentage. Keep these as two profile identities. Taylor-32027 has an unsourced Fife placement and no wife/child bridge to this event. Revalidated 17 October 2026 against maintained profile evidence; source readings and earlier search dates are inherited unless an explicit fresh getProfile is listed.",
+      "assessment_history": [
+        {
+          "status": "HOLD — compatible profile linked",
+          "assessment": "The supplied index records MARGARET Glasgow and JOHN TAILZER/FR 111 (FR 111) at Walston on 1690-12-18. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group."
+        }
+      ]
     },
     {
       "title": "Jeane Glasgow, St Monance, 1652",
-      "status": "HOLD — compatible profile linked",
+      "status": "HOLD — compatible existing profiles linked",
       "path": "surname-research/new-people/1652_Scotland_St_Monance_Jeane_Glasgow.md",
       "rows": [
         25
       ],
-      "assessment": "The supplied index records JEANE Glasgow and ROBERT ALIESONE/FR 91 AND 92 (FR 92) at St Monance on 1652-05-28. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group."
+      "assessment": "The 1652 St Monance Jeane–Robert Aliesone occurrence predates Glasgow-1163’s documented 1650 Edinburgh childhood and does not fit that represented child as a bride. Existing exclusions remain. New unrestricted Robert Aliesoun/Allisone API variants found no historical Open profile; this is a profile search, not a search of the parish’s full baptism collection. No record read names either spouse’s father. Revalidated 17 October 2026 against maintained profile evidence; source readings and earlier search dates are inherited unless an explicit fresh getProfile is listed.",
+      "assessment_history": [
+        {
+          "status": "HOLD — compatible profile linked",
+          "assessment": "The supplied index records JEANE Glasgow and ROBERT ALIESONE/FR 91 AND 92 (FR 92) at St Monance on 1652-05-28. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group."
+        }
+      ]
     },
     {
       "title": "Agnas Glasgow, Longformacus, 1666",
-      "status": "HOLD — compatible profile linked",
+      "status": "HOLD — compatible existing profiles linked",
       "path": "surname-research/new-people/1666_Scotland_Longformacus_Agnas_Glasgow.md",
       "rows": [
         26
       ],
-      "assessment": "The supplied index records AGNAS Glasgow and WILLIAM ANDERSON/FR 100 (FR 100) at Longformacus on 1666-07-05. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group."
+      "assessment": "Longformacus 1666 Agnas–William Anderson is not combined into a remarriage biography with the Kirknewton Swan/Paul events. Anderson-3493’s cited 1632 Alloa baptism names William Andersone/Margarat Crokit, proving that child’s record parentage, not that of the Longformacus groom. Agnes candidates’ indexed natal households are compared individually; no Longformacus family clause bridges them. Revalidated 17 October 2026 against maintained profile evidence; source readings and earlier search dates are inherited unless an explicit fresh getProfile is listed.",
+      "assessment_history": [
+        {
+          "status": "HOLD — compatible profile linked",
+          "assessment": "The supplied index records AGNAS Glasgow and WILLIAM ANDERSON/FR 100 (FR 100) at Longformacus on 1666-07-05. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group."
+        }
+      ]
     },
     {
       "title": "Agnes Glasgow, Kirknewton and East Calder, 1666",
-      "status": "HOLD — compatible profile linked",
+      "status": "HOLD — compatible existing profiles linked",
       "path": "surname-research/new-people/1666_Scotland_Kirknewton_and_East_Calder_Agnes_Glasgow.md",
       "rows": [
         27
       ],
-      "assessment": "The supplied index records AGNES Glasgow and JAMES SWAN/FR 36 (FR 36) at Kirknewton and East Calder on 1666-05-12. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group."
+      "assessment": "The Kirknewton 12 May 1666 Agnes–James Swan occurrence is not merged with the 8 July 1670 Agnes–Patrik Paul occurrence. Swan-736’s represented family is with Alisone Peibles at Elie, married 1631; the wife’s estimated 1663 death permits a later marriage, so the different earlier spouse is not an exclusion. Its child William Swan has no inspected connection to this Agnes or Kirknewton. Revalidated 17 October 2026 against maintained profile evidence; source readings and earlier search dates are inherited unless an explicit fresh getProfile is listed.",
+      "assessment_history": [
+        {
+          "status": "HOLD — compatible profile linked",
+          "assessment": "The supplied index records AGNES Glasgow and JAMES SWAN/FR 36 (FR 36) at Kirknewton and East Calder on 1666-05-12. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group."
+        }
+      ]
     },
     {
       "title": "Anna Glasgow, Kirknewton and East Calder, 1676",
-      "status": "MATCHED — existing profile",
+      "status": "MATCHED — existing profiles",
       "path": "research/Glasgow-1439/matched-1676_Scotland_Kirknewton_and_East_Calder_Anna_Glasgow.md",
       "rows": [
         29
       ],
-      "assessment": "The supplied index records ANNA Glasgow and THOMAS GRAY/FR 49 (FR 49) at Kirknewton and East Calder on 1676-06-16. Glasgow-1439 (Anne) and Grey-2711 (Thomas) are already reciprocally attached as spouses; both are placed at Kirknewton and East Calder, with compatible 1652/1650 birth placements. This is the same named local couple. The supplied entry supplies their 1676 event date, whose banns/marriage distinction still requires the original."
+      "assessment": "The supplied index records ANNA Glasgow and THOMAS GRAY/FR 49 (FR 49) at Kirknewton and East Calder on 1676-06-16. Glasgow-1439 (Anne) and Grey-2711 (Thomas) are already reciprocally attached as spouses; both are placed at Kirknewton and East Calder, with compatible 1652/1650 birth placements. This is the same named local couple. The supplied entry supplies their 1676 event date, whose banns/marriage distinction still requires the original. Revalidated 17 October 2026 against maintained profile evidence; source readings and earlier search dates are inherited unless an explicit fresh getProfile is listed.",
+      "assessment_history": [
+        {
+          "status": "MATCHED — existing profile",
+          "assessment": "The supplied index records ANNA Glasgow and THOMAS GRAY/FR 49 (FR 49) at Kirknewton and East Calder on 1676-06-16. Glasgow-1439 (Anne) and Grey-2711 (Thomas) are already reciprocally attached as spouses; both are placed at Kirknewton and East Calder, with compatible 1652/1650 birth placements. This is the same named local couple. The supplied entry supplies their 1676 event date, whose banns/marriage distinction still requires the original."
+        }
+      ]
     },
     {
       "title": "Margrat Glasgow, Cambusnethan, 1693",
-      "status": "HOLD — compatible profile linked",
+      "status": "HOLD — compatible existing profiles linked",
       "path": "surname-research/new-people/1693_Scotland_Cambusnethan_Margaret_Glasgow.md",
       "rows": [
         38
       ],
-      "assessment": "The supplied index records MARGRAT Glasgow and JOHN AITON/FR 256 (FR 256) at Cambusnethan on 1693-10-18. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group."
+      "assessment": "Cambusnethan 1693 Margrat–John Aiton is separate from Walston 1690 Margaret–John Tailzer. Ayton-398 represents the Fawside/West Herrington Durham estate family and has an unnamed wife and a 1702 will; child Samuel Ayton-399 supplies no wife-name bridge. Distant residence alone does not exclude it. The direct 1643 Glasgow child index supports William/Bessie parentage only for that child record, not the Cambusnethan bride. Revalidated 17 October 2026 against maintained profile evidence; source readings and earlier search dates are inherited unless an explicit fresh getProfile is listed.",
+      "assessment_history": [
+        {
+          "status": "HOLD — compatible profile linked",
+          "assessment": "The supplied index records MARGRAT Glasgow and JOHN AITON/FR 256 (FR 256) at Cambusnethan on 1693-10-18. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group."
+        }
+      ]
     },
     {
       "title": "Thomas Glasgow, Carstairs, 1679",
-      "status": "HOLD — compatible profile linked",
+      "status": "HOLD — compatible existing profiles linked",
       "path": "surname-research/new-people/1679_Scotland_Carstairs_Thomas_Glasgow.md",
       "rows": [
         41
       ],
-      "assessment": "The supplied index records THOMAS Glasgow and GYLES SPENCE/FR 41 (FR 41) at Carstairs on 1679-07-24. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group."
+      "assessment": "The Carstairs 1679 Thomas–Gyles Spence entry is separate from the Strathblane unnamed event on the same day. Thomas Glasgow-1449 is newly excluded by his represented later family: father Glasgow-1382 is explicitly born about 1766 and dies 1851; mother Christine Davidson has documented motherhood of Nathaniel in 1774, incompatible with being the mother of a 1679 adult. Glasgow-1226 remains a weaker possibility because fatherhood through 1735 would imply an older father but is not impossible. Graduate Glasgow-3413’s 1670 degree does not establish his assumed Thomas Glasgow-3187 father, and the 1660 burgess entry gives no father. Newly searched Gellies/Gilles/Giles Spence/Spens/Spense yielded no historical woman; the Tudor male Spencer lead remains excluded. Revalidated 17 October 2026 against maintained profile evidence; source readings and earlier search dates are inherited unless an explicit fresh getProfile is listed.",
+      "assessment_history": [
+        {
+          "status": "HOLD — compatible profile linked",
+          "assessment": "The supplied index records THOMAS Glasgow and GYLES SPENCE/FR 41 (FR 41) at Carstairs on 1679-07-24. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group."
+        }
+      ]
     },
     {
       "title": "Marion Glasgow, Carriden, 1686",
-      "status": "HOLD — compatible profile linked",
+      "status": "HOLD — compatible existing profiles linked",
       "path": "surname-research/new-people/1686_Scotland_Carriden_Marion_Glasgow.md",
       "rows": [
         54
       ],
-      "assessment": "The supplied index records MARION Glasgow and JOHN GRAY/FR 67 (FR 67) at Carriden on 1686-09-30. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group."
+      "assessment": "The Carriden 30 September 1686 Marion–John Gray occurrence remains separate from the Edinburgh 29 June 1686 Marion–William Calder marriage. Glasgow-3143 is already supported as the Calder wife by her 1657 baptism and the Calder burgess admission naming James Glasgow, weaver, as father. A later September marriage would require a further event, but no husband death is established, so this alone is not a concrete exclusion. Gray-27691 and Gray-32439 have Fife family placements without a Marion/Carriden bridge; retain qualified candidates. Revalidated 17 October 2026 against maintained profile evidence; source readings and earlier search dates are inherited unless an explicit fresh getProfile is listed.",
+      "assessment_history": [
+        {
+          "status": "HOLD — compatible profile linked",
+          "assessment": "The supplied index records MARION Glasgow and JOHN GRAY/FR 67 (FR 67) at Carriden on 1686-09-30. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group."
+        }
+      ]
     },
     {
       "path": "surname-research/new-people/1684_Scotland_Edinburgh_Marion_Glasgow.md",
       "title": "Marion Glasgow and John Bruce, Edinburgh, 1684",
-      "assessment": "The supplied index records MARION Glasgow and JOHN BRUCE/FR 1163 (FR 1163) at Edinburgh on 1684-07-04. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group.",
-      "status": "HOLD — compatible profile linked",
+      "assessment": "The printed marriage register adds John Bruce’s trade of smith, independently of the generic OPR index. Glasgow-3143 is already supported as Marion who married the Edinburgh weaver William Calder in June 1686; that established life segment is not transferred into this 1684 event. Bruce-6113 represents Sir John Bruce of Kinross with the 1687 Christian Leslie marriage, whereas Bruce-3507 has only a speculative Clackmannan son whose own profile explicitly leaves his baptism/parentage open. Neither inspected family supplies this smith-and-Marion couple. Different spouses alone are not exclusions; keep both candidate husbands qualified and the events separate. Revalidated 17 October 2026 against maintained profile evidence; source readings and earlier search dates are inherited unless an explicit fresh getProfile is listed.",
+      "status": "HOLD — compatible existing profiles linked",
       "rows": [
         4
+      ],
+      "assessment_history": [
+        {
+          "status": "HOLD — compatible profile linked",
+          "assessment": "The supplied index records MARION Glasgow and JOHN BRUCE/FR 1163 (FR 1163) at Edinburgh on 1684-07-04. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group."
+        }
       ]
     },
     {
       "path": "surname-research/new-people/1671_Scotland_Edinburgh_Eupham_Glasgow.md",
       "title": "Eupham/Effie Glasgow and Alexander Hutcheson, 1671",
-      "assessment": "The supplied index records EUPHAM Glasgow and ALEXANDER HUTCHESON/FR 1043 (FR 1043) at Edinburgh on 1671-12-08. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group. The supplied index records EFFIE Glasgow and ALEXANDER HUTCSHESONE/FR 123 (FR 123) at Channelkirk on 1671-09-17. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group.",
-      "status": "HOLD — compatible profile linked",
+      "assessment": "The printed Edinburgh register identifies Alexander as a tailor and dates his marriage to Eupham to 8 December 1671. The same-name tailor’s Edinburgh burgess admission on 22 June 1670 records apprenticeship to the late Alexander Thomsone (31 January 1655); this is a strong occupational lead for the groom, not a father clause. Thomsone is a master, not a parent. Eupham Glasgow-3358’s 1651 Edinburgh child index names Robert Glasgow/Eupham Lorimer; Glasgow-1167’s 1634 event has a documented Glasgow/Glassford father conflict. Neither child-to-bride identification is proved. The Channelkirk September event is provisionally one-couple related but stays a distinct register occurrence. Rev. Alexander Hutcheson-361 is retained as a lower-ranked candidate: his estimated 1630–1640 birth and unknown wife do not conflict by themselves, though his 1653 divinity degree and Scottish/Down ministry differ materially from the recorded Edinburgh tailor. A country-only filter was insufficient to reject him; no merger, marriage attachment or father inference follows. Channelkirk 17 September 1671 Effie–Alexander Hutchesone is kept as a distinct event, provisionally associated with the Edinburgh 8 December 1671 Eupham–Alexander tailor event. Same couple is plausible under Effie/Eupham and Hutcheson variants, but the difference of parish and date does not establish banns followed by marriage or identity with a named father. The occupational fact read at Edinburgh is not assigned as a quoted Channelkirk fact. Rev. Alexander Hutcheson-361 is retained as a lower-ranked candidate: his estimated 1630–1640 birth and unknown wife do not conflict by themselves, though his 1653 divinity degree and Scottish/Down ministry differ materially from the recorded Edinburgh tailor. A country-only filter was insufficient to reject him; no merger, marriage attachment or father inference follows. Revalidated 17 October 2026 against maintained profile evidence; source readings and earlier search dates are inherited unless an explicit fresh getProfile is listed.",
+      "status": "HOLD — compatible existing profiles linked",
       "rows": [
         8,
         32
+      ],
+      "assessment_history": [
+        {
+          "status": "HOLD — compatible profile linked",
+          "assessment": "The supplied index records EUPHAM Glasgow and ALEXANDER HUTCHESON/FR 1043 (FR 1043) at Edinburgh on 1671-12-08. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group. The supplied index records EFFIE Glasgow and ALEXANDER HUTCSHESONE/FR 123 (FR 123) at Channelkirk on 1671-09-17. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group."
+        }
       ]
     },
     {
       "path": "surname-research/new-people/1675_Scotland_Edinburgh_Jean_Glasgow.md",
       "title": "Jean Glasgow and William Mitchell, Edinburgh, 1675",
-      "assessment": "The supplied index records JEAN Glasgow and WILLIAM MITCHELL/FR 1078 (FR 1078) at Edinburgh on 1675-12-16. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group.",
-      "status": "HOLD — compatible profile linked",
+      "assessment": "The inspected printed page calls William Mitchell a merchant in his marriage to Jean on 16 December 1675. Mitchell-54981’s attached daughter Mary Mitchell-54795 explicitly questions her own paternal assignment; the Carolina birth placement is estimated and its 1720 deed does not establish this William’s identity. It is not used to exclude an earlier/later marriage. Glasgow-1163’s 1650 Edinburgh child index names Thomas Glasgow/Catharine Weir; it is a compatible local child candidate, not proof that those are the bride’s parents. Revalidated 17 October 2026 against maintained profile evidence; source readings and earlier search dates are inherited unless an explicit fresh getProfile is listed.",
+      "status": "HOLD — compatible existing profiles linked",
       "rows": [
         11
+      ],
+      "assessment_history": [
+        {
+          "status": "HOLD — compatible profile linked",
+          "assessment": "The supplied index records JEAN Glasgow and WILLIAM MITCHELL/FR 1078 (FR 1078) at Edinburgh on 1675-12-16. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group."
+        }
       ]
     },
     {
       "path": "surname-research/new-people/1651_Scotland_Edinburgh_Alisone_Glasgow.md",
       "title": "Alisone Glasgow and George Cargill, Edinburgh, 1651",
-      "assessment": "The supplied index records ALISONE Glasgow and GEORGE CARGILL/FR 918 (FR 918) at Edinburgh on 1651-03-11. No compatible existing Glasgow profile was established in the completed named and variant searches; this does not clear profile creation, since the original could supply a distinguishing household.",
-      "status": "DRAFT — no compatible profile found",
+      "assessment": "The printed page identifies George Cargill as bookseller and Alison as his bride on 11 March 1651. A nearby George Cargill, printer, marries Elspeth Orme in 1663; it is a second documentary occurrence and is not asserted to be the same husband. Newly completed Allison/Alesoun/Alisoun Glasgow and Alisone/Alice Glesgow API variants returned no historical Open candidate. Neither bookseller’s parentage nor Alison’s father is given here. Revalidated 17 October 2026 against maintained profile evidence; source readings and earlier search dates are inherited unless an explicit fresh getProfile is listed. The existing consolidated Alison/Alisone draft preserves the 1651/1672 occurrences separately; it does not establish one remarried woman.",
+      "status": "SUGGESTED NEW — complete sourced draft",
       "rows": [
         14
+      ],
+      "assessment_history": [
+        {
+          "status": "DRAFT — no compatible profile found",
+          "assessment": "The supplied index records ALISONE Glasgow and GEORGE CARGILL/FR 918 (FR 918) at Edinburgh on 1651-03-11. No compatible existing Glasgow profile was established in the completed named and variant searches; this does not clear profile creation, since the original could supply a distinguishing household."
+        }
       ]
     },
     {
       "path": "research/Glasgow-1152/matched-1665_Scotland_Edinburgh_Alexander_Glasgow.md",
       "title": "Alexander Glasgow and Issobell Anderson, Edinburgh, 1665",
-      "assessment": "The supplied index records ALEXANDER Glasgow and ISSOBELL ANDERSON/FR 991 (FR 991) at Edinburgh on 1665-06-16. Live Glasgow-1152 and Anderson-56713 reciprocally record exactly 16 June 1665 as their marriage date. Their names and Edinburgh family chronology match this entry; Glasgow-3118 is superseded as the leading identification. The register image remains uninspected.",
-      "status": "MATCHED — existing profile",
+      "assessment": "The supplied index records ALEXANDER Glasgow and ISSOBELL ANDERSON/FR 991 (FR 991) at Edinburgh on 1665-06-16. Live Glasgow-1152 and Anderson-56713 reciprocally record exactly 16 June 1665 as their marriage date. Their names and Edinburgh family chronology match this entry; Glasgow-3118 is superseded as the leading identification. The register image remains uninspected. Revalidated 17 October 2026 against maintained profile evidence; source readings and earlier search dates are inherited unless an explicit fresh getProfile is listed.",
+      "status": "MATCHED — existing profiles",
       "rows": [
         28
+      ],
+      "assessment_history": [
+        {
+          "status": "MATCHED — existing profile",
+          "assessment": "The supplied index records ALEXANDER Glasgow and ISSOBELL ANDERSON/FR 991 (FR 991) at Edinburgh on 1665-06-16. Live Glasgow-1152 and Anderson-56713 reciprocally record exactly 16 June 1665 as their marriage date. Their names and Edinburgh family chronology match this entry; Glasgow-3118 is superseded as the leading identification. The register image remains uninspected."
+        }
       ]
     },
     {
       "path": "surname-research/new-people/1659_Scotland_Edinburgh_Marione_Glasgow.md",
       "title": "Marione Glasgow and Johne Rait, Edinburgh, 1659",
-      "assessment": "The supplied index records MARIONE Glasgow and JOHNE RAIT/FR 961 (FR 961) at Edinburgh on 1659-06-28. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group.",
-      "status": "HOLD — compatible profile linked",
+      "assessment": "The printed register preserves surname Rait (Raite/Rate), John’s trade as tailor and the 28 June 1659 marriage to Marion. Reid-24609 represents the Edinburgh Reid–Helen Henderson family, with son George Reade-97 in Maryland; the surname is a weaker phonetic lead and no tailor/Marion bridge is established. The unrestricted Raitt search and full biographies identify Raitt-2 as the 1806 Captain and Raitt-360 as the 1866-born Western Australian butcher, excluding both concretely. Other printed Rait entries do not identify this husband’s father. Revalidated 17 October 2026 against maintained profile evidence; source readings and earlier search dates are inherited unless an explicit fresh getProfile is listed.",
+      "status": "HOLD — compatible existing profiles linked",
       "rows": [
         39
+      ],
+      "assessment_history": [
+        {
+          "status": "HOLD — compatible profile linked",
+          "assessment": "The supplied index records MARIONE Glasgow and JOHNE RAIT/FR 961 (FR 961) at Edinburgh on 1659-06-28. The linked candidates fit this occurrence by recorded name and chronology. The best local/dated candidates are listed first; any loose before-date legacy lead remains lower-ranked unless actual family or life-span evidence excludes it. No identity or family attachment is asserted solely from a same-name group."
+        }
       ]
     },
     {
       "path": "surname-research/new-people/1672_Scotland_Edinburgh_Alison_Glasgow.md",
       "title": "Alison Glasgow and John Williamson, Edinburgh, 1672",
-      "assessment": "The supplied index records ALISON Glasgow and JOHN WILLIAMSON/FR 1053 (FR 1053) at Edinburgh on 1672-11-14. No compatible existing Glasgow profile was established in the completed named and variant searches; this does not clear profile creation, since the original could supply a distinguishing household.",
-      "status": "HOLD — compatible profile linked",
+      "assessment": "Alison Glasgow has no compatible existing subject profile in the inherited search and has a complete sourced draft. Williamson-14321 is retained only for husband John; his father Williamson-14320 is excluded by the continuing Kirkcaldy/Turpie household. The bride is not marked matched by her husband candidate. Revalidated 17 October 2026 against maintained profile evidence; source readings and earlier search dates are inherited unless an explicit fresh getProfile is listed.",
+      "status": "PARTLY MATCHED — separate person assessments",
       "rows": [
         44
+      ],
+      "assessment_history": [
+        {
+          "status": "HOLD — compatible profile linked",
+          "assessment": "The supplied index records ALISON Glasgow and JOHN WILLIAMSON/FR 1053 (FR 1053) at Edinburgh on 1672-11-14. No compatible existing Glasgow profile was established in the completed named and variant searches; this does not clear profile creation, since the original could supply a distinguishing household."
+        }
       ]
     }
   ],

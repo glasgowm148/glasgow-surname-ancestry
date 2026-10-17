@@ -67,3 +67,14 @@ William Glasgow is separately listed in the Charles-Town, Maryland, post-office 
 ## Current conclusion — newspaper identity review, 6 October 2026
 
 - [The Pennsylvania Gazette, 1759-08-09, p.1](https://www.newspapers.com/image/39399295/): William Glasgow (letter addressee, Cecil County) — **possible** match. Only name + Cecil County. Glasgow-2426 (b. c.1735 'Moneymore', d. c.1829 USA; tree-sourced, no American record) is the only William with any American context, and that context is unproved. Glasgow-4101 (bap. 1733 Dundonald) and Glasgow-4120 (bap. 1723 Irvine) are baptism-only profiles: compatible but nothing points to Maryland. Glasgow-3326 (b. 1730 Kilwaughter) is unlikely: his profile documents him in Larne signing a 1772 petition and in a 1783 Larne will index. MSA's biography of Samuel Glasgow (SC 3520-17195) reports, from Cecil County probate, a William among the children of James Glasgow Sr. (d. 1784) and Ann of Cecil County - but those children were born from c.1749, so that William would be a child in 1759; he is a better fit for the 1771/1775 entries, and WikiTree does not have him. Duplicate search found no Maryland William Glasgow/Glasco/Glascow/Glascoe born 1700-1765 except G Sources: [Maryland State Archives Biographical Series, Samuel Glasgow MSA SC 3520-17195 (mentions William among children of James Glasgow Sr. of Cecil County, from probate)](https://msa.maryland.gov/megafile/msa/speccol/sc3500/sc3520/017100/017195/html/17195bio.html)
+
+<!-- queue-identity-review-2026-10-17:start -->
+## Documentary identity review — 17 October 2026
+
+**Record subject: William Glascoe, Maryland notice.** Prefer [Glasgow-2426](https://www.wikitree.com/wiki/Glasgow-2426) tentatively through c 1735 birth and later United States context, retaining [Glasgow-1430](https://www.wikitree.com/wiki/Glasgow-1430) and [Glasgow-1124](https://www.wikitree.com/wiki/Glasgow-1124) as adult alternatives. No source proves Maryland residence for these candidates. The 1775 notice attributes the location to a jailed man; its truth and relation to 1760 London defendant remain separate. No new William is justified solely because the matching address is missing.
+
+Sources: [Pennsylvania Gazette, 1775-10-25, p.1](https://www.newspapers.com/image/39392109/).
+
+[Full record account and comparison](/research/subjects/newspapers-early-glasgow/#william-glascoe-maryland-1775). This assessment proposes no live WikiTree edit.
+
+<!-- queue-identity-review-2026-10-17:end -->

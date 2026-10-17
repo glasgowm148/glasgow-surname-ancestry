@@ -1,6 +1,13 @@
 # William Glascoe / Glascow, 1760 defendant
 
-READY TO CREATE — no compatible WikiTree profile (identity review 6 October 2026)
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**William Glascoe / Glascow, 1760 defendant: Compatible existing profile(s): [[Glasgow-4120]], [[Glasgow-4101]], [[Glasgow-1505]], [[Glasgow-3326]].** [Current evidence and complete draft](/research/subjects/newspapers-early-glasgow/#william-glascoe-old-bailey-1760). Retain the actual checked adult William profiles Glasgow-4120, Glasgow-4101, Glasgow-1505 and Glasgow-3326 as weak compatible alternatives; their baptism/Irish context supplies no London identifier but no concrete conflict. The defendant is a distinct recorded subject, while profile identity remains open. Retire READY TO CREATE because the prior review excluded for missing links rather than conflict; do not equate him with 1775 Maryland William.
+
+<!-- identity-review-2026-10-17:end -->
+
+HOLD — compatible existing-profile candidate(s); the current assessment above controls the earlier draft.
 
 [[Category:Glasgow Name Study]]
 

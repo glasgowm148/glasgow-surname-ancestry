@@ -1,5 +1,12 @@
 # HOLD — J./John Glasco, Army surgeon notices, 1816–1839
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**J./John Glasco, Army surgeon notices, 1816–1839: Compatible existing profile(s): [[Glasgow-2058]], [[Glasgow-3927]].** [Current evidence and complete draft](/research/subjects/newspapers-irish-1800-1850/#john-glasco-army-surgeons). 2058 remains a weak age-compatible comparison (c.1788; later Cookstown merchant), with 3927 a rival, neither with a service bridge. Actual 2058 records sons Henry and Benjamin and a merchant occupation in 1856; it does not exclude earlier army service. 822’s Ohio life from 1833 conflicts with the proposed later Liverpool career. Keep the probable 1816/1822 59th Foot sequence, senior 1826 retiree, and 1836–1839 staff surgeon separately qualified. No proved household identification or one-person-per-notice creation.
+
+<!-- identity-review-2026-10-17:end -->
+
 HOLD — verified documentary subject; one or more persons, identity continuity unresolved
 
 ## Identity assessment

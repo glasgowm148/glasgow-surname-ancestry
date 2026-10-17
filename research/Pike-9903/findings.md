@@ -16,3 +16,14 @@
 ### Newspaper identity review — 6 October 2026
 
 - Married Benjamin Glasgow of Drapersfield, Cookstown, at Dungannon, 16 Feb 1864; forename spelled Wilhelmina in the notice and the Quaker register (profile has 'Wilhemina'). — Belfast News-Letter, 18 Feb 1864; GRONI marriage index M/1864/T1/1447/2/35 ([Belfast News-Letter, 1864-02-18, p.2](https://www.newspapers.com/image/387828785/))
+
+<!-- queue-identity-review-2026-10-17:start -->
+## Documentary identity review — 17 October 2026
+
+**Record subject: Wilhelmina Pike.** Strong compatible [Pike-9903](https://www.wikitree.com/wiki/Pike-9903), recorded Wilhemina/Wilhelmina, born 11 November 1842, daughter of Richard [Pike-9902](https://www.wikitree.com/wiki/Pike-9902) of Beechgrove; age 21 fits the 1864 marriage. Distinctive daughter/father/locality combination supports this existing pair. The newspaper proves the record-level father relationship; Quaker originals were not newly inspected. Reuse 9903 and do not assume she mothered Margaret George Glasgow.
+
+Sources: [Belfast News-Letter, 18 February 1864, p.2](https://www.newspapers.com/image/387828785/).
+
+[Full record account and comparison](/research/subjects/newspapers-pre1900-20261004/#wilhelmina-pike). This assessment proposes no live WikiTree edit.
+
+<!-- queue-identity-review-2026-10-17:end -->

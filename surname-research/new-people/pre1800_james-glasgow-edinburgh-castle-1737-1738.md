@@ -1,5 +1,12 @@
 # James Glasgow, Edinburgh Castle clergy, 1737–1738
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**James Glasgow, Edinburgh Castle clergy, 1737–1738: Compatible existing profile(s): [[Glasgow-1140]], [[Glasgow-1238]], [[Glasgow-1316]], [[Glasgow-1442]].** [Current evidence and complete draft](/research/subjects/newspapers-early-glasgow/#james-glasgow-edinburgh-castle-1737-1738). Prefer Glasgow-1140 tentatively: c 1700 Kilbirnie birth and maintained 1722 divinity-student evidence fit the clerical role and period. Retain James-1238, James-1316 and James-1442 as less supported alternatives; before 1723 is not an exact birth. One probable 1737 appointment/1738 ordination officeholder is retained, with no new family attachment.
+
+<!-- identity-review-2026-10-17:end -->
+
 HOLD — documented surname; identity unresolved
 
 [[Category:Glasgow Name Study]]

@@ -1,5 +1,12 @@
 # John Glasgow, Nottingham/Chester postal and near-Oxford book records, 1758–1771
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**John Glasgow, Nottingham/Chester postal and near-Oxford book records, 1758–1771: Compatible existing profile(s): [[Glasgow-2870]], [[Glasgow-2871]].** [Current evidence and complete draft](/research/subjects/newspapers-early-glasgow/#john-glasgow-nottingham-records-1758-1771). Prefer Glasgow-2870 tentatively for 1758/1765 Nottingham and 1766 near-Oxford book collection because his actual profile places his 1769 death at Nottingham, Chester County. For 1771 West Nottingham mail prefer surviving son Glasgow-2871, while elder posthumous mail remains possible. Do not force all four events onto one man or infer relationships from co-listed William.
+
+<!-- identity-review-2026-10-17:end -->
+
 HOLD — documented record; profile assignment qualified
 
 [[Category:Glasgow Name Study]]

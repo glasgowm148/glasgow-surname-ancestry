@@ -1,5 +1,12 @@
 # William Glasgow, Kildress reform delegate
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**William Glasgow, Kildress reform delegate: Compatible existing profile(s): [[Glasgow-2915]].** [Current evidence and complete draft](/research/subjects/william-glasgow-irish-newspapers/#kildress-william). 2915 (c.1760, proposed Cookstown identity) fits age and district for the 1793 delegate. Actual biography says father, spouse and Cookstown placement remain derivative hypotheses. The notice supplies no family certainty. 585’s c.1804 birth does not fit an adult in 1793 if approximately correct. No source joins or separates the delegate and 1792 captain.
+
+<!-- identity-review-2026-10-17:end -->
+
 HOLD — identity or record assignment remains unresolved
 
 [[Category:Glasgow Name Study]]

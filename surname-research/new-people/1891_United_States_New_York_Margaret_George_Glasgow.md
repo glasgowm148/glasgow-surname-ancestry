@@ -1,5 +1,12 @@
 # HOLD — Margaret George Glasgow, daughter of Drapersfield Benjamin
 
+<!-- identity-review-2026-10-17 -->
+## Current identity disposition — 17 October 2026
+
+**Margaret George Glasgow, daughter of Drapersfield Benjamin: Suggested new profile; complete sourced draft retained.** [Current evidence and complete draft](/research/subjects/newspapers-pre1900-20261004/#margaret-george). No compatible Margaret George Glasgow/Broadbent identified after bounded live maiden/married-name searches and father comparisons. Relevant actual Irish/Cookstown biographies name Thomas, William, John, Charles or other fathers; no Benjamin household found. The distinctive notice gives father Benjamin of Hull, formerly Drapersfield, husband W. Brooke Broadbent and marriage on 5 October 1891 in New York. Keep one connected Drapersfield daughter draft; her mother remains unstated, not assumed from the 1864 Wilhelmina marriage.
+
+<!-- identity-review-2026-10-17:end -->
+
 The original names Benjamin of Hull, formerly Drapersfield, as her father. This supports a connected draft with the existing Drapersfield Benjamin and Robert family account. Her mother is unstated.
 
 ## Minimum creation fields
