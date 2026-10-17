@@ -7,10 +7,12 @@ from pathlib import Path
 import re
 
 try:
+    from tools.atlas_whole_tree import whole_tree_renderer
     from tools.site_analytics import with_analytics, without_analytics
     from tools.site_html import read_html
     from tools.site_payloads import unpack_model
 except ModuleNotFoundError:
+    from atlas_whole_tree import whole_tree_renderer
     from site_analytics import with_analytics, without_analytics
     from site_html import read_html
     from site_payloads import unpack_model
@@ -86,17 +88,17 @@ def documentary_renderer(page):
         "p.parents.map(relationHTML).join('')": "p.parents.map(r=>relationHTML(r)+(r.hypothesis?`<p><b>Selected uncertain working ${esc(r.role||'parent')}.</b> ${esc(r.reason||'')} ${(r.analysis_links||[]).map(a=>`<a href=\"${esc(a.href)}\">${esc(a.label)}</a>`).join(' · ')}</p>`:'')).join('')",
     }
     # The helper replacement is atomic; subsequent calls preserve identical JS.
-    if "const catalogue=p=>p.catalogueUrl|| (" in page:
-        return page
-    for old, new in replacements.items():
-        page = page.replace(old, new)
+    if "const catalogue=p=>p.catalogueUrl|| (" not in page:
+        for old, new in replacements.items():
+            page = page.replace(old, new)
     page = page.replace("Selected uncertain working ${esc(r.role||'parent')}.</b>",
                         "Selected ${r.status==='probable'?'probable':'uncertain'} working ${esc(r.role||'parent')}.</b>")
     page = page.replace("Selected ${r.status==='probable'?'probable':'uncertain'} working father.</b>",
                         "Selected ${r.status==='probable'?'probable':'uncertain'} working ${esc(r.role||'parent')}.</b>")
     page = page.replace('>WikiTree ${icon(\'out\')}</a>',
                         ">${p.documentary&&!p.wikitreeUrl?'Source account':'WikiTree'} ${icon('out')}</a>")
-    return page
+    # Whole-tree view fixes and research layer (tools/atlas_whole_tree.py); idempotent.
+    return whole_tree_renderer(page)
 
 
 def approved_document(relative, content, private=PRIVATE):

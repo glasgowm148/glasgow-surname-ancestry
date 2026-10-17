@@ -462,6 +462,17 @@ def repair(web=WEB, ledger=LEDGER):
         updated = updated.replace('</h1>', '</h1>' + notice, 1)
         if updated != original:
             changes_path.write_text(updated, encoding='utf-8'); changed['latest_findings_links'] += 1
+    # The whole-tree view's research marks follow the latest findings.
+    if Path(web).resolve() == WEB.resolve():
+        try:
+            try:
+                from tools.build_tree_research_status import write as write_tree_status
+            except ModuleNotFoundError:
+                from build_tree_research_status import write as write_tree_status
+            write_tree_status(ROOT)
+            changed['tree_research_status'] += 1
+        except Exception as error:  # the findings pages are already written
+            print(f'tree research status not refreshed: {error}')
     return changed
 
 
