@@ -3101,6 +3101,77 @@
       "assertion_id": "C-working-20261017-ayrshire-hugh-john",
       "counted_as_new_connection": false,
       "reviewed": "2026-10-17"
+    },
+    {
+      "id": "cookstown-gortin-working-family",
+      "year": 1730,
+      "title": "Cookstown and Gortin: two working links for 23 detached profiles",
+      "status": "Two selected uncertain fathers; named Hillsdale core probable",
+      "people": [
+        {
+          "name": "John Glasgow of Gortin",
+          "url": "/people/glasgow-2539.html"
+        },
+        {
+          "name": "James Glasgow of the Cookstown Mitchell family",
+          "url": "/people/glasgow-1970.html"
+        },
+        {
+          "name": "James Glasgow, older Tyrone pedigree account",
+          "url": "/people/glasgow-1025.html"
+        },
+        {
+          "name": "John Glasgow of the Hillsdale family",
+          "url": "/people/glasgow-1968.html"
+        },
+        {
+          "name": "James Glasgow of Corvanaghan",
+          "url": "/people/glasgow-2988.html"
+        },
+        {
+          "name": "Unknown Mitchell, wife of the Cookstown James",
+          "url": "/people/mitchell-34480.html"
+        }
+      ],
+      "basis": "Select James Glasgow-1970 of the Cookstown Mitchell family as John Glasgow-2539 of Gortin’s uncertain working father, through the existing possible identification with John Glasgow-1968. The 1879 Hillsdale history specifically identifies James and his Mitchell wife as parents of John, a farmer near Cookstown. The Gortin account supplies another John in the same Derryloran/Cookstown locality and an earlier compatible father generation. The maintained Hillsdale research already lists Gortin John as a possible duplicate. This is a positive named-son comparison in the relevant family and locality, stronger than an arbitrary father chosen only from the surname. Prefer this existing family as a revisable home for the 17-profile Gortin branch; retain both John accounts separately. Select the older James Glasgow-1025 account as the Cookstown progenitor James Glasgow-1970’s uncertain working father, conditional on the existing Corvanaghan/Moneymore family model. The c.1700 and c.1730 estimates allow a father–son generation. James-1970 is already a surviving possible identity for the Cookstown-area Corvanaghan James-2988, whose selected working father is James-1025 through the separate Moneymore comparison. Extending that same unproved pedigree gives the Mitchell account a consistent, revisable place in the broader family. The district context comes from those Cookstown/Corvanaghan/Moneymore comparisons, not from the 1759 index. This is an inherited family hypothesis with no independent father record for the Mitchell progenitor.",
+      "next_test": "Test the two John child groups and ages, the older Tyrone pedigree and the true Drumcarn index identity; distinguish Mitchell, Corvanaghan and Moneymore accounts without transferring wives.",
+      "sources": [
+        {
+          "label": "History of Hillsdale County, Michigan (1879), p.263: James and his Mitchell wife, Scotland-to-Cookstown account and son John; maintained earlier page review reused",
+          "url": "https://archive.org/details/bad0928.0001.001.umich.edu/page/263/mode/1up"
+        },
+        {
+          "label": "Portrait and Biographical Album of Hillsdale County (1888), p.395, William Glasgow sketch: John and Jane, seven children and 1844 migration; earlier review reused",
+          "url": "https://archive.org/details/portraitbiograph00chpm/page/395/mode/1up"
+        },
+        {
+          "label": "Same1888 album, p.688, John B. Glasgow sketch: parents, c.1778 father estimate and 1848 migration; earlier review reused",
+          "url": "https://archive.org/details/portraitbiograph00chpm/page/688/mode/1up"
+        },
+        {
+          "label": "1766 Kildress religious return, NAI IHP/1/667: James Glasgow at Corvanaghan, no wife or children",
+          "url": "https://virtualtreasury.ie/item/NAI-IHP-1-667"
+        },
+        {
+          "label": "1766 Derryloran religious return, NAI IHP/1/665: separate Drumearn James households, no resolved kinship",
+          "url": "https://virtualtreasury.ie/item/NAI-IHP-1-665"
+        },
+        {
+          "label": "PRONI previously reviewed name-search detail: James Glasgow, Drumcarn, County Tyrone, 17 January 1759; no age or kin, testator identity and date meaning unresolved",
+          "url": "https://www.proni.gov.uk/name-search"
+        }
+      ],
+      "working_selection": true,
+      "assertion_ids": [
+        "C-working-20261017-gortin-john-james-mitchell",
+        "C-working-20261017-cookstown-james-drumearn"
+      ],
+      "counted_as_new_connection": true,
+      "reviewed": "2026-10-17",
+      "record_references": [
+        "Hillsdale history1879 p.263; biographical album1888 pp.395,688.",
+        "PRONI reviewed detail: Drumcarn, County Tyrone,17January1759; no age or kin, identity/date meaning unresolved."
+      ]
     }
   ],
   "source_basis": "Initial priorities reconcile existing medieval bridge research, the pre-1550 relationship audit and the resolved public catalogue. They are current working comparisons, not newly discovered kinship records."

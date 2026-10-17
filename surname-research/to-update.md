@@ -1904,3 +1904,13 @@ The August completion entries remain historical. The live parent fields are now 
 | [James Glasgow of Mid Calder and Fisherrow](https://www.wikitree.com/wiki/Glasgow-991) | OPEN | Add the sourced preferred Ayrshire placement and retained alternative; preserve other relationships, dates and full text. |
 | [John Glasgow of Kilwinning](https://www.wikitree.com/wiki/Glasgow-1604) | OPEN | Add the sourced preferred Ayrshire placement and retained alternative; preserve other relationships, dates and full text. |
 | [Rev. John Glasgow of Kilbirnie](https://www.wikitree.com/wiki/Glasgow-1073) | OPEN | Add the sourced preferred Ayrshire placement and retained alternative; preserve other relationships, dates and full text. |
+
+
+## Cookstown–Gortin working family — 17 October 2026
+
+| [John Glasgow of Gortin](https://www.wikitree.com/wiki/Glasgow-2539) | OPEN | Add two qualified working father links and separately probable Hillsdale core; retain all conflicts, alternatives and complete text. |
+| [James Glasgow of the Cookstown Mitchell family](https://www.wikitree.com/wiki/Glasgow-1970) | OPEN | Add two qualified working father links and separately probable Hillsdale core; retain all conflicts, alternatives and complete text. |
+| [James Glasgow of Drumearn](https://www.wikitree.com/wiki/Glasgow-1025) | OPEN | Add two qualified working father links and separately probable Hillsdale core; retain all conflicts, alternatives and complete text. |
+| [John Glasgow of the Hillsdale family](https://www.wikitree.com/wiki/Glasgow-1968) | OPEN | Add two qualified working father links and separately probable Hillsdale core; retain all conflicts, alternatives and complete text. |
+| [James Glasgow of Corvanaghan](https://www.wikitree.com/wiki/Glasgow-2988) | OPEN | Add two qualified working father links and separately probable Hillsdale core; retain all conflicts, alternatives and complete text. |
+| [Unknown Mitchell, wife of the Cookstown James](https://www.wikitree.com/wiki/Mitchell-34480) | OPEN | Add two qualified working father links and separately probable Hillsdale core; retain all conflicts, alternatives and complete text. |

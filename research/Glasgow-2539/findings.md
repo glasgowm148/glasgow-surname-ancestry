@@ -5,7 +5,12 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
-No sourced conclusion recorded yet.
+
+**Cookstown working father, 17 October 2026:** James Glasgow-1970 is now the selected **uncertain father** of the Gortin John, conditional on the possible Hillsdale-John identification. The different child groups and 1771/1778 generation estimates remain explicit constraints; no mother or marriage is inferred.
+
+The dated review below materializes the preferred working family and retains earlier evidence, conflicts and alternatives.
+
+The earlier empty conclusion is superseded by the dated Cookstown–Gortin working-family review below.
 
 ## Source findings
 
@@ -42,3 +47,15 @@ Profile prose and trees remain leads; inspect the cited record before treating a
 
 - [https://archive.org/details/bim_early-english-books-1641-1700_james-mcconnell-b_1613-1840_ia40330205-24/page/280/mode/2up?q=%22John+glasgow%22](https://archive.org/details/bim_early-english-books-1641-1700_james-mcconnell-b_1613-1840_ia40330205-24/page/280/mode/2up?q=%22John+glasgow%22)
 - [Memorial #220753408](https://www.findagrave.com/memorial/220753408)
+
+## Cookstown–Gortin family review — 17 October 2026
+
+Select James Glasgow-1970 of the Cookstown Mitchell family as John Glasgow-2539 of Gortin’s uncertain working father, through the existing possible identification with John Glasgow-1968. The 1879 Hillsdale history specifically identifies James and his Mitchell wife as parents of John, a farmer near Cookstown. The Gortin account supplies another John in the same Derryloran/Cookstown locality and an earlier compatible father generation. The maintained Hillsdale research already lists Gortin John as a possible duplicate. This is a positive named-son comparison in the relevant family and locality, stronger than an arbitrary father chosen only from the surname. Prefer this existing family as a revisable home for the 17-profile Gortin branch; retain both John accounts separately.
+
+The identity is uncertain. The Hillsdale histories describe John and Jane’s seven children as Robert, Mary A., William, John, Bessie, James and Margaret; the Gortin account instead links Francis, Hugh, Letitia and Samuel. No child has been matched across those sets. An earlier union could explain different couple-based lists, but none is established here and no additional marriage is invented. If the seven-child account was intended as an exhaustive lifetime list for John, the extra Gortin group would conflict with it. The Gortin before-1771 birth boundary comes from Samuel’s reported 1792 birth; the Hillsdale c.1778 father estimate is younger. Literal 1778 fatherhood of a 1792 child would be about 14 and is a serious constraint. These are reconstructed ages and estimates, not two original birth entries; both are retained, without silently shifting either date. Sarah MacNeece’s status as the Gortin man’s widow and Jane’s identity also require testing; no mother is transferred to Gortin John and no wife is added or replaced. Another local John, a collateral relationship, or different father remain alternatives. The 1700s and 1800s family accounts do not independently prove these two Johns identical.
+
+Two uncertain working father links join the previously detached 6-profile Cookstown family and 17-profile Gortin family to the main working tree. The 23 are retained pre-1850 profile accounts, including unresolved possible duplicates, not 23 newly discovered or independently verified people. Motherhood and marriage grades apply only to the named Hillsdale core; no mother, spouse, birth/death change, new person or merge is added elsewhere. All raw WikiTree family fields remain intact and no live save is made. The working connectivity gain measures selected hypotheses, while confidently marked connectivity remains unchanged. This batch reuses maintained source reviews and makes no new original-page inspection claim. Complete private comparisons stay off the public site where they contain living-person or DNA material; safe conclusions and parent choices remain visible.
+
+Sources reused: [History of Hillsdale County, Michigan (1879), p.263: James and his Mitchell wife, Scotland-to-Cookstown account and son John; maintained earlier page review reused](https://archive.org/details/bad0928.0001.001.umich.edu/page/263/mode/1up); [Portrait and Biographical Album of Hillsdale County (1888), p.395, William Glasgow sketch: John and Jane, seven children and 1844 migration; earlier review reused](https://archive.org/details/portraitbiograph00chpm/page/395/mode/1up); [Same1888 album, p.688, John B. Glasgow sketch: parents, c.1778 father estimate and 1848 migration; earlier review reused](https://archive.org/details/portraitbiograph00chpm/page/688/mode/1up); [1766 Kildress religious return, NAI IHP/1/667: James Glasgow at Corvanaghan, no wife or children](https://virtualtreasury.ie/item/NAI-IHP-1-667); [1766 Derryloran religious return, NAI IHP/1/665: separate Drumearn James households, no resolved kinship](https://virtualtreasury.ie/item/NAI-IHP-1-665); [PRONI previously reviewed name-search detail: James Glasgow, Drumcarn, County Tyrone, 17 January 1759; no age or kin, testator identity and date meaning unresolved](https://www.proni.gov.uk/name-search).
+
+[Full comparison and qualifications](/branches/research-irish-derryloran/#chapter-cookstown-gortin-working-family).
