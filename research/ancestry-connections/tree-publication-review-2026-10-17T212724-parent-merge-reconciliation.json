@@ -1,0 +1,396 @@
+{
+  "schema_version": 1,
+  "reviewed": "2026-10-17",
+  "cutoff": 1850,
+  "method_version": 3,
+  "scope": "Existing public parent identities after WikiTree merges",
+  "input_fingerprint": "c768bd02bc8b9177d4e36da8ecaa2e89fa3beaa1534860a072be51e744f36c0a",
+  "models": {
+    "main": {
+      "checked_historical_profiles": 1786,
+      "all_profiles_checked": 4531,
+      "matched_paternal_edges": 1371,
+      "changed_father_fields": 11,
+      "changed_mother_fields": 14,
+      "added_historical_profiles": [],
+      "added_existing_public_survivor_ids": [
+        "Unknown-766238"
+      ],
+      "parent_links_verified": 25,
+      "changed_parent_ids": {
+        "father": [
+          "Glasgow-1046",
+          "Glasgow-1510",
+          "Glasgow-2493",
+          "Glasgow-2499",
+          "Glasgow-3076",
+          "Glasgow-3091",
+          "Glasgow-3338",
+          "Glasgow-3398",
+          "Glasgow-3399",
+          "Glasgow-3401",
+          "Glasgow-4108"
+        ],
+        "mother": [
+          "Glasgow-105",
+          "Glasgow-1361",
+          "Glasgow-1971",
+          "Glasgow-1972",
+          "Glasgow-1973",
+          "Glasgow-1974",
+          "Glasgow-2756",
+          "Glasgow-2757",
+          "Glasgow-2838",
+          "Glasgow-2839",
+          "Glasgow-3897",
+          "Glasgow-3898",
+          "Glasgow-3899",
+          "Glasgow-3900"
+        ]
+      },
+      "original_people_vitals_notes_and_dna_unchanged": true
+    },
+    "standalone": {
+      "checked_historical_profiles": 1786,
+      "all_profiles_checked": 4683,
+      "matched_paternal_edges": 1371,
+      "changed_father_fields": 11,
+      "changed_mother_fields": 11,
+      "added_historical_profiles": [],
+      "added_existing_public_survivor_ids": [],
+      "parent_links_verified": 25,
+      "changed_parent_ids": {
+        "father": [
+          "Glasgow-1046",
+          "Glasgow-1510",
+          "Glasgow-2493",
+          "Glasgow-2499",
+          "Glasgow-3076",
+          "Glasgow-3091",
+          "Glasgow-3338",
+          "Glasgow-3398",
+          "Glasgow-3399",
+          "Glasgow-3401",
+          "Glasgow-4108"
+        ],
+        "mother": [
+          "Glasgow-105",
+          "Glasgow-1971",
+          "Glasgow-1972",
+          "Glasgow-1973",
+          "Glasgow-1974",
+          "Glasgow-2756",
+          "Glasgow-2757",
+          "Glasgow-2838",
+          "Glasgow-2839",
+          "Glasgow-3897",
+          "Glasgow-3899"
+        ]
+      },
+      "original_people_vitals_notes_and_dna_unchanged": true
+    }
+  },
+  "genealogical_connections_added": 0,
+  "paternal_connections_added": 0,
+  "maternal_connections_added": 0,
+  "certainty_upgrades": 0,
+  "publication_summary": "Restored 22 existing WikiTree parent links (11 fathers and 11 mothers) hidden locally after profile merges, and aligned three already-catalogued mother identities in the main tree. Eight restored father links affect the through-1850 measures; no new parentage or confidence upgrade is asserted.",
+  "comparison": "/onetree/progress/",
+  "restored_parent_links": [
+    {
+      "subject_id": "Glasgow-105",
+      "relative_id": "Glasgow-3999",
+      "relationship": "mother",
+      "source_url": "https://www.wikitree.com/wiki/Glasgow-105",
+      "saved_wikitree_status": "",
+      "live_verified": true,
+      "scope": "catalogue_and_tree_views"
+    },
+    {
+      "subject_id": "Glasgow-1046",
+      "relative_id": "Glasgow-2441",
+      "relationship": "father",
+      "source_url": "https://www.wikitree.com/wiki/Glasgow-1046",
+      "saved_wikitree_status": "20",
+      "live_verified": true,
+      "scope": "catalogue_and_tree_views"
+    },
+    {
+      "subject_id": "Glasgow-1510",
+      "relative_id": "Glasgow-1499",
+      "relationship": "father",
+      "source_url": "https://www.wikitree.com/wiki/Glasgow-1510",
+      "saved_wikitree_status": "20",
+      "live_verified": true,
+      "scope": "catalogue_and_tree_views"
+    },
+    {
+      "subject_id": "Glasgow-1971",
+      "relative_id": "Glasgow-4025",
+      "relationship": "mother",
+      "source_url": "https://www.wikitree.com/wiki/Glasgow-1971",
+      "saved_wikitree_status": "",
+      "live_verified": true,
+      "scope": "catalogue_and_tree_views"
+    },
+    {
+      "subject_id": "Glasgow-1972",
+      "relative_id": "Glasgow-4025",
+      "relationship": "mother",
+      "source_url": "https://www.wikitree.com/wiki/Glasgow-1972",
+      "saved_wikitree_status": "",
+      "live_verified": true,
+      "scope": "catalogue_and_tree_views"
+    },
+    {
+      "subject_id": "Glasgow-1973",
+      "relative_id": "Glasgow-4025",
+      "relationship": "mother",
+      "source_url": "https://www.wikitree.com/wiki/Glasgow-1973",
+      "saved_wikitree_status": "",
+      "live_verified": true,
+      "scope": "catalogue_and_tree_views"
+    },
+    {
+      "subject_id": "Glasgow-1974",
+      "relative_id": "Glasgow-4025",
+      "relationship": "mother",
+      "source_url": "https://www.wikitree.com/wiki/Glasgow-1974",
+      "saved_wikitree_status": "",
+      "live_verified": true,
+      "scope": "catalogue_and_tree_views"
+    },
+    {
+      "subject_id": "Glasgow-2493",
+      "relative_id": "Glasgow-2441",
+      "relationship": "father",
+      "source_url": "https://www.wikitree.com/wiki/Glasgow-2493",
+      "saved_wikitree_status": "20",
+      "live_verified": true,
+      "scope": "catalogue_and_tree_views"
+    },
+    {
+      "subject_id": "Glasgow-2499",
+      "relative_id": "Glasgow-2441",
+      "relationship": "father",
+      "source_url": "https://www.wikitree.com/wiki/Glasgow-2499",
+      "saved_wikitree_status": "20",
+      "live_verified": true,
+      "scope": "catalogue_and_tree_views"
+    },
+    {
+      "subject_id": "Glasgow-2756",
+      "relative_id": "Wheeler-10294",
+      "relationship": "mother",
+      "source_url": "https://www.wikitree.com/wiki/Glasgow-2756",
+      "saved_wikitree_status": "",
+      "live_verified": true,
+      "scope": "catalogue_and_tree_views"
+    },
+    {
+      "subject_id": "Glasgow-2757",
+      "relative_id": "Wheeler-10294",
+      "relationship": "mother",
+      "source_url": "https://www.wikitree.com/wiki/Glasgow-2757",
+      "saved_wikitree_status": "",
+      "live_verified": true,
+      "scope": "catalogue_and_tree_views"
+    },
+    {
+      "subject_id": "Glasgow-2838",
+      "relative_id": "Bowling-970",
+      "relationship": "mother",
+      "source_url": "https://www.wikitree.com/wiki/Glasgow-2838",
+      "saved_wikitree_status": "",
+      "live_verified": true,
+      "scope": "catalogue_and_tree_views"
+    },
+    {
+      "subject_id": "Glasgow-2839",
+      "relative_id": "Bowling-970",
+      "relationship": "mother",
+      "source_url": "https://www.wikitree.com/wiki/Glasgow-2839",
+      "saved_wikitree_status": "",
+      "live_verified": true,
+      "scope": "catalogue_and_tree_views"
+    },
+    {
+      "subject_id": "Glasgow-3076",
+      "relative_id": "Glasgow-3077",
+      "relationship": "father",
+      "source_url": "https://www.wikitree.com/wiki/Glasgow-3076",
+      "saved_wikitree_status": "20",
+      "live_verified": true,
+      "scope": "catalogue_and_tree_views"
+    },
+    {
+      "subject_id": "Glasgow-3091",
+      "relative_id": "Glasgow-3077",
+      "relationship": "father",
+      "source_url": "https://www.wikitree.com/wiki/Glasgow-3091",
+      "saved_wikitree_status": "20",
+      "live_verified": true,
+      "scope": "catalogue_and_tree_views"
+    },
+    {
+      "subject_id": "Glasgow-3338",
+      "relative_id": "Glasgow-3077",
+      "relationship": "father",
+      "source_url": "https://www.wikitree.com/wiki/Glasgow-3338",
+      "saved_wikitree_status": "20",
+      "live_verified": true,
+      "scope": "catalogue_and_tree_views"
+    },
+    {
+      "subject_id": "Glasgow-3398",
+      "relative_id": "Glasgow-1466",
+      "relationship": "father",
+      "source_url": "https://www.wikitree.com/wiki/Glasgow-3398",
+      "saved_wikitree_status": "",
+      "live_verified": true,
+      "scope": "catalogue_and_tree_views"
+    },
+    {
+      "subject_id": "Glasgow-3399",
+      "relative_id": "Glasgow-1466",
+      "relationship": "father",
+      "source_url": "https://www.wikitree.com/wiki/Glasgow-3399",
+      "saved_wikitree_status": "",
+      "live_verified": true,
+      "scope": "catalogue_and_tree_views"
+    },
+    {
+      "subject_id": "Glasgow-3401",
+      "relative_id": "Glasgow-1466",
+      "relationship": "father",
+      "source_url": "https://www.wikitree.com/wiki/Glasgow-3401",
+      "saved_wikitree_status": "",
+      "live_verified": true,
+      "scope": "catalogue_and_tree_views"
+    },
+    {
+      "subject_id": "Glasgow-3897",
+      "relative_id": "Unknown-766238",
+      "relationship": "mother",
+      "source_url": "https://www.wikitree.com/wiki/Glasgow-3897",
+      "saved_wikitree_status": "20",
+      "live_verified": true,
+      "scope": "catalogue_and_tree_views"
+    },
+    {
+      "subject_id": "Glasgow-3899",
+      "relative_id": "Unknown-766238",
+      "relationship": "mother",
+      "source_url": "https://www.wikitree.com/wiki/Glasgow-3899",
+      "saved_wikitree_status": "",
+      "live_verified": true,
+      "scope": "catalogue_and_tree_views"
+    },
+    {
+      "subject_id": "Glasgow-4108",
+      "relative_id": "Glasgow-1929",
+      "relationship": "father",
+      "source_url": "https://www.wikitree.com/wiki/Glasgow-4108",
+      "saved_wikitree_status": "",
+      "live_verified": true,
+      "scope": "catalogue_and_tree_views"
+    },
+    {
+      "subject_id": "Glasgow-1361",
+      "relative_id": "McCracken-5681",
+      "relationship": "mother",
+      "source_url": "https://www.wikitree.com/wiki/Glasgow-1361",
+      "saved_wikitree_status": "",
+      "live_verified": true,
+      "scope": "tree_views_only"
+    },
+    {
+      "subject_id": "Glasgow-3898",
+      "relative_id": "Unknown-766238",
+      "relationship": "mother",
+      "source_url": "https://www.wikitree.com/wiki/Glasgow-3898",
+      "saved_wikitree_status": "20",
+      "live_verified": true,
+      "scope": "tree_views_only"
+    },
+    {
+      "subject_id": "Glasgow-3900",
+      "relative_id": "Unknown-766238",
+      "relationship": "mother",
+      "source_url": "https://www.wikitree.com/wiki/Glasgow-3900",
+      "saved_wikitree_status": "20",
+      "live_verified": true,
+      "scope": "tree_views_only"
+    }
+  ],
+  "verification": {
+    "all_cohort_membership_unchanged": true,
+    "pre1650_metrics_unchanged": true,
+    "all_25_links_anonymously_verified_on_wikitree": true,
+    "full_and_compact_catalogue_agree": true,
+    "pending_update_flags_and_queue_unchanged": true,
+    "original_dossier_evidence_and_vitals_unchanged": true,
+    "packed_main_model_lossless": true,
+    "latest_findings_unchanged_build_repair": true,
+    "focused_tests_passed": 98,
+    "ruff_passed": true,
+    "research_publication_new_failures": 0,
+    "internal_link_new_baseline_pairs": 0,
+    "existing_publication_warnings_unchanged": true,
+    "asset_version_stamp_stable": true
+  },
+  "next_metric_check": {
+    "status": "CLOSED",
+    "saved_confident_tree_flags_not_used_by_current_metric": 0
+  },
+  "measurements": {
+    "working": {
+      "before": {
+        "population": 1786,
+        "edge_count": 1364,
+        "component_count": 424,
+        "largest_component_size": 1098,
+        "connected_pairs_percent": 37.84668178581623
+      },
+      "after": {
+        "population": 1786,
+        "edge_count": 1372,
+        "component_count": 416,
+        "largest_component_size": 1106,
+        "connected_pairs_percent": 38.3995031383214
+      }
+    },
+    "supported": {
+      "before": {
+        "population": 1786,
+        "edge_count": 382,
+        "component_count": 1405,
+        "largest_component_size": 46,
+        "connected_pairs_percent": 0.1990583467429525
+      },
+      "after": {
+        "population": 1786,
+        "edge_count": 386,
+        "component_count": 1401,
+        "largest_component_size": 46,
+        "connected_pairs_percent": 0.1999993726493957
+      }
+    },
+    "confident": {
+      "before": {
+        "population": 1786,
+        "edge_count": 357,
+        "component_count": 1429,
+        "largest_component_size": 26,
+        "connected_pairs_percent": 0.13676243173641237
+      },
+      "after": {
+        "population": 1786,
+        "edge_count": 361,
+        "component_count": 1425,
+        "largest_component_size": 26,
+        "connected_pairs_percent": 0.13770345764285558
+      }
+    }
+  }
+}
