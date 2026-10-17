@@ -18,6 +18,12 @@ def assessment(child, father, **extra):
 
 
 class WorkingHypothesisTests(unittest.TestCase):
+    def test_record_only_person_links_are_labelled_source_account(self):
+        page = ">WikiTree ${icon('out')}</a>"
+        result = documentary_renderer(page)
+        self.assertIn("p.documentary&&!p.wikitreeUrl?'Source account':'WikiTree'", result)
+        self.assertEqual(documentary_renderer(result), result)
+
     def test_probable_working_father_keeps_grade_and_reciprocal_link(self):
         model = people('Child-1', 'Father-1')
         proposal = assessment('Child-1', 'Father-1', status='probable', source_ids=['S-1'])
