@@ -1,0 +1,2866 @@
+{
+  "reviewed_on": "2026-10-17",
+  "baseline_items": 511,
+  "reviewed_items": 283,
+  "remaining_items": 228,
+  "percent_complete": 55.4,
+  "baseline_results": {
+    "update-glasco-39": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasco-39"
+      ],
+      "assessment": "Existing attached profile Glasco-39; retain pending amendment: Add the 1746 will father assessment: documented daughters, probable Caleb account; retain duplicate, vital and maternal uncertainties.",
+      "review_ids": [
+        "update-glasco-39"
+      ]
+    },
+    "update-glasgow-1781": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1781"
+      ],
+      "assessment": "Existing attached profile Glasgow-1781; retain pending amendment: Newspaper identity review 6 Oct 2026. Add sourced facts: Pupil at the Royal Belfast Academical Institution school, of Broughshane, June 1830: prizes in trigonometry/astronomy and geometry/algebra.; Of Broughshane in 1830-31 while a student at the Belfast Academical Institution (prizes in mathematics); Fasti gives birth 'near Clough, Co. Antrim, 1814' (prof; Assistant in the Mathematical and Mercan",
+      "review_ids": [
+        "update-glasgow-1781"
+      ]
+    },
+    "update-glasgow-3902": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3902"
+      ],
+      "assessment": "Existing attached profile Glasgow-3902; retain pending amendment: Add the qualified Larne father hypothesis, 1762 maternity condition and brother/collateral comparison with older Alexander and John; retain uncertainty on unsupported parent and child attachments.",
+      "review_ids": [
+        "update-glasgow-3902"
+      ]
+    },
+    "update-eastone-3": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Eastone-3"
+      ],
+      "assessment": "Existing attached profile Eastone-3; retain pending amendment: Review selected uncertain Libberton/Uphall parent hypotheses and full surviving identity alternatives. Robert’s mother remains unknown; Thomas’s two parent links share an uncertain 1675-child identity. Preserve source dates, existing child/couple records and all earlier amendments.",
+      "review_ids": [
+        "update-eastone-3"
+      ]
+    },
+    "update-spark-330": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Spark-330"
+      ],
+      "assessment": "Existing attached profile Spark-330; retain pending amendment: Review selected uncertain Calder/Irvine parents and the full child/adult comparisons. Preserve the Guthrie/Meek household distinction, the two George generations, source-date discrepancies and earlier amendments. No live merge, new spouse or confidence upgrade.",
+      "review_ids": [
+        "update-spark-330"
+      ]
+    },
+    "update-watt-5185": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Watt-5185"
+      ],
+      "assessment": "Existing attached profile Watt-5185; retain pending amendment: Add the combined Gordon household assessment: documented named-father roles, separately probable Agnes Watt maternity and preserved later-adult identity and vital-field qualifications.",
+      "review_ids": [
+        "update-watt-5185"
+      ]
+    },
+    "update-glasgow-1562": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1562"
+      ],
+      "assessment": "Existing attached profile Glasgow-1562; retain pending amendment: Review the uncertain Campbeltown family, retained childhood alternatives and independently unknown mothers. Preserve earlier pending amendments and complete biography.",
+      "review_ids": [
+        "update-glasgow-1562"
+      ]
+    },
+    "update-glasgow-2460": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2460"
+      ],
+      "assessment": "Existing attached profile Glasgow-2460; retain pending amendment: Review full additive research note: restore the existing merged-ID Inveresk father in the local model and explain the uncertain combined Thomas identity, Bryse chronology and alternatives. Not a new father attachment; no live relationship change requested.",
+      "review_ids": [
+        "update-glasgow-2460"
+      ]
+    },
+    "update-glasgow-3178": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3178"
+      ],
+      "assessment": "Existing attached profile Glasgow-3178; retain pending amendment: Review complete sourced draft: James Glasgow younger selected as Agnes’s uncertain local father, with older-James/Edward/other-family alternatives, no mother, and corrected conditional 1601 chronology. Local hypothesis only; no live attachment performed.",
+      "review_ids": [
+        "update-glasgow-3178"
+      ]
+    },
+    "update-glasgow-3363": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3363"
+      ],
+      "assessment": "Existing attached profile Glasgow-3363; retain pending amendment: Add the combined Gordon household assessment: documented named-father roles, separately probable Agnes Watt maternity and preserved later-adult identity and vital-field qualifications.",
+      "review_ids": [
+        "update-glasgow-3363"
+      ]
+    },
+    "update-glasgow-4151": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-4151"
+      ],
+      "assessment": "Existing attached profile Glasgow-4151; retain pending amendment: Review the Saltcoats family’s selected uncertain upstream father, retained alternatives and unknown birth; preserve the daughters’ already-confident father links. No new mother or certainty upgrade.",
+      "review_ids": [
+        "update-glasgow-4151"
+      ]
+    },
+    "update-glasgow-3023": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3023"
+      ],
+      "assessment": "Existing attached profile Glasgow-3023; retain pending amendment: Review complete sourced research-note draft selecting John Glasgw of Stirling as uncertain local father of Alan Glasgw; preserve identity and collateral alternatives. Pre-1500/profile-manager scope requires separate review; no live attachment requested. Additional review: selected uncertain Glasgow–Stirling identity extends the proposed ancestor’s record period to 1447; no additional parent or certainty change.",
+      "review_ids": [
+        "update-glasgow-3023"
+      ]
+    },
+    "update-glasgow-1148": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1148"
+      ],
+      "assessment": "Existing attached profile Glasgow-1148; retain pending amendment: Cite the Fisherrow family review: probable Fisherrow father/couple match, documented Janet spouse and strongly supported Inveresk fathers; retain separate adult identities and older ancestry.",
+      "review_ids": [
+        "update-glasgow-1148"
+      ]
+    },
+    "update-glasgow-1314": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1314"
+      ],
+      "assessment": "Existing attached profile Glasgow-1314; retain pending amendment: Cite the parish-parent review: probable Kirknewton father, documented Kilwinning father/mother roles; retain separate adult identities and older ancestry.",
+      "review_ids": [
+        "update-glasgow-1314"
+      ]
+    },
+    "update-glasgow-3101": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3101"
+      ],
+      "assessment": "Existing attached profile Glasgow-3101; retain pending amendment: Distinguish FMP’s 13 April birth-date field from the 12 April combined SP index date; do not call 13 April a documented baptism date. Review the uncertain Campbeltown family, retained childhood alternatives and independently unknown mothers. Preserve earlier pending amendments and complete biography.",
+      "review_ids": [
+        "update-glasgow-3101"
+      ]
+    },
+    "update-glasgow-3118": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3118"
+      ],
+      "assessment": "Existing attached profile Glasgow-3118; retain pending amendment: Cite the parish-parent review: probable Kirknewton father, documented Kilwinning father/mother roles; retain separate adult identities and older ancestry.",
+      "review_ids": [
+        "update-glasgow-3118"
+      ]
+    },
+    "update-glasgow-951": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-951"
+      ],
+      "assessment": "Existing attached profile Glasgow-951; retain pending amendment: Correct the 1888 death informant from Nancy to Mary Glasgow and add the 6 October source audit: James Anderson’s Gortahar death, Robert’s survival in January 1892 and the living daughter omitted in 1851. Also add the inspected Nancy death notice, original 1829 freehold application and qualified 1861 Lisnagaver occurrence; retain competing identities, date readings and approximate ages without changing family links.",
+      "review_ids": [
+        "update-glasgow-951"
+      ]
+    },
+    "update-glasgow-3163": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3163"
+      ],
+      "assessment": "Existing attached profile Glasgow-3163; retain pending amendment: Explain the preferred uncertain Corsoun parents, the retained burgh-parent alternatives, and the separately documented 1598 household. No live parent replacement or new profile merge is performed. Add the Murieston father review: record-defined George probable father of James, Andrew retained alternative; merchant identification and William upstream route uncertain. No live parent attachment until profile identity is resolved.",
+      "review_ids": [
+        "update-glasgow-3163"
+      ]
+    },
+    "update-hartshorne-320": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Hartshorne-320"
+      ],
+      "assessment": "Existing attached profile Hartshorne-320; retain pending amendment: Review the very uncertain James-and-Ann parent model for Robert/Apphia’s family; preserve the 1786 notice identity alternative, omitted Robert, unproved Hartshorne surname and Scottish–Maryland continuity gap. No merge or certainty upgrade. Correct the unsupported local circa1766birth estimate to unknown; the captured WikiTree birth is already blank.",
+      "review_ids": [
+        "update-hartshorne-320"
+      ]
+    },
+    "update-glasgow-438": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-438"
+      ],
+      "assessment": "Existing attached profile Glasgow-438; retain pending amendment: Replace the research note saying that Nancy Glasgow registered Alexander’s 1888 death: the informant reads Mary Glasgow, so Ann is not in question.",
+      "review_ids": [
+        "update-glasgow-438"
+      ]
+    },
+    "update-glasgow-2874": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2874"
+      ],
+      "assessment": "Existing attached profile Glasgow-2874; retain pending amendment: Add the 1802 deed and 1835 House of Lords evidence below; set father Glasgow-1076 to confident (natural daughter by Mrs Anne Swan).",
+      "review_ids": [
+        "update-glasgow-2874"
+      ]
+    },
+    "update-glasgow-3000": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3000"
+      ],
+      "assessment": "Existing attached profile Glasgow-3000; retain pending amendment: Newspaper identity review 6 Oct 2026. Relationships: Glasgow-3000 daughter of Robertson-30564 → upgrade to confident; Glasgow-3000 spouse of George Sherbrooke Airey (no profile yet) → add confident Add sourced facts: Married Lt George Sherbrooke Airey RN at Paisley on 25 Aug 1847; described as second daughter of the late Robert Glasgow Esq.",
+      "review_ids": [
+        "update-glasgow-3000"
+      ]
+    },
+    "update-glasgow-2901": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2901"
+      ],
+      "assessment": "Existing attached profile Glasgow-2901; retain pending amendment: Newspaper identity review 6 Oct 2026. Add sourced facts: Probably born 22 Feb 1848 at Surat, India. The notice does not name the child; the identification rests on the Dictionary of Ulster Biography's list of daughter",
+      "review_ids": [
+        "update-glasgow-2901"
+      ]
+    },
+    "update-moores-284": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Moores-284"
+      ],
+      "assessment": "Existing attached profile Moores-284; retain pending amendment: Review the very uncertain James-and-Ann parent model for Robert/Apphia’s family; preserve the 1786 notice identity alternative, omitted Robert, unproved Hartshorne surname and Scottish–Maryland continuity gap. No merge or certainty upgrade.",
+      "review_ids": [
+        "update-moores-284"
+      ]
+    },
+    "update-glasgow-1097": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1097"
+      ],
+      "assessment": "Existing attached profile Glasgow-1097; retain pending amendment: Explain the preferred uncertain Corsoun parents, the retained burgh-parent alternatives, and the separately documented 1598 household. No live parent replacement or new profile merge is performed.",
+      "review_ids": [
+        "update-glasgow-1097"
+      ]
+    },
+    "update-glasgow-1101": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1101"
+      ],
+      "assessment": "Existing attached profile Glasgow-1101; retain pending amendment: Add the inspected Betham family abstract while preserving the clerical career, 1689 Thomas context, full PRONI research scope and unresolved identities; no relationship status change.",
+      "review_ids": [
+        "update-glasgow-1101"
+      ]
+    },
+    "update-glasgow-649": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-649"
+      ],
+      "assessment": "Existing attached profile Glasgow-649; retain pending amendment: Explain the probable Moneymore father from the explicit family-history attribution and established brothers; retain separate identity, ancestry and maternity limits.",
+      "review_ids": [
+        "update-glasgow-649"
+      ]
+    },
+    "update-allison-6866": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Allison-6866"
+      ],
+      "assessment": "Existing attached profile Allison-6866; retain pending amendment: Review the very uncertain Kilwinning parent pair for the 1693 Irvine father only; preserve the fourteen-year age problem, competing adult identities, date readings and all existing sources. No merge or certainty upgrade.",
+      "review_ids": [
+        "update-allison-6866"
+      ]
+    },
+    "update-glasgow-567": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-567"
+      ],
+      "assessment": "Existing attached profile Glasgow-567; retain pending amendment: Clarify Barbara’s documented 1611 maternity and unresolved parents and marriage; preserve birth-estimate reasoning, namesake records, FamilySearch conflation warning and all citations. Add the protocol evidence and cautiously stated family hypotheses.",
+      "review_ids": [
+        "update-glasgow-567"
+      ]
+    },
+    "update-glasgow-3182": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3182"
+      ],
+      "assessment": "Existing attached profile Glasgow-3182; retain pending amendment: Review research-note addition explaining Ninian Glasgow as the selected uncertain local father; preserve alternatives. No live parent attachment requested; respect profile manager scope.",
+      "review_ids": [
+        "update-glasgow-3182"
+      ]
+    },
+    "update-glasgow-3302": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3302"
+      ],
+      "assessment": "Existing attached profile Glasgow-3302; retain pending amendment: Review complete additive draft: Ninian Glasgow selected as uncertain local father of Barbara Glasgow, wife of George Johnstoun; preserve niece, identity and other-family alternatives. No live father attachment requested; manager scope still applies.",
+      "review_ids": [
+        "update-glasgow-3302"
+      ]
+    },
+    "update-glasgow-2059": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2059"
+      ],
+      "assessment": "Existing attached profile Glasgow-2059; retain pending amendment: Add the original marriage occupations/residence and distinguish the Drapersfield Benjamin active after this profile’s February 1870 death. Preserve existing citations and qualified Killycurragh account.",
+      "review_ids": [
+        "update-glasgow-2059"
+      ]
+    },
+    "update-glasgow-3412": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3412"
+      ],
+      "assessment": "Existing attached profile Glasgow-3412; retain pending amendment: Newspaper identity review 6 Oct 2026. Add sourced facts: Listed among Masters in Surgery in a Glasgow University degree report stating that gentlemen from Ireland were admitted to degrees during the 1824-25 session (t; Surgeon, formerly of Vera Cruz, Mexico; died at New Orleans on 26 November 1833; son of the late Robert Glasgow of Cookstown, County Tyrone.; Master of Surgery (C.M.), University of Glasgow, 1825, entered as 'Hibernus' (Irish) in the Graduation Album; birthplace 'Scotland' on the profile should be rep; Surgeon; died at New Orleans on 26 November 1833; son of the late Mr Robert Glasgow of Cookstown, County Tyrone.",
+      "review_ids": [
+        "update-glasgow-3412"
+      ]
+    },
+    "update-glasgow-1155": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1155"
+      ],
+      "assessment": "Existing attached profile Glasgow-1155; retain pending amendment: Pending WikiTree update: add the 22/03/1635 Inveresk and Musselburgh index date and explain its difference from the existing birth details.",
+      "review_ids": [
+        "update-glasgow-1155"
+      ]
+    },
+    "update-glasgow-363": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-363"
+      ],
+      "assessment": "Existing attached profile Glasgow-363; retain pending amendment: Review the very uncertain Lemuel–Caleb father hypothesis, the alternative Caleb account and conflicting chronology/will identity; retain all earlier sources and family links. No mother, merge or confidence upgrade. Add the 1746 will father assessment: documented daughters, probable Caleb account; retain duplicate, vital and maternal uncertainties.",
+      "review_ids": [
+        "update-glasgow-363"
+      ]
+    },
+    "update-glasgow-830": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-830"
+      ],
+      "assessment": "Existing attached profile Glasgow-830; retain pending amendment: Review the very uncertain Lemuel–Caleb father hypothesis, the alternative Caleb account and conflicting chronology/will identity; retain all earlier sources and family links. No mother, merge or confidence upgrade. Add the 1746 will father assessment: documented daughters, probable Caleb account; retain duplicate, vital and maternal uncertainties.",
+      "review_ids": [
+        "update-glasgow-830"
+      ]
+    },
+    "update-glasgow-3003": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3003"
+      ],
+      "assessment": "Existing attached profile Glasgow-3003; retain pending amendment: Newspaper identity review 6 Oct 2026. Relationships: Glasgow-3003 daughter of Glasgow-2874 → upgrade to confident Add sourced facts: Birth at Rome on 22 Nov 1827 announced as a daughter of 'Mrs Robertson Glasgow, of Montgreenan'.",
+      "review_ids": [
+        "update-glasgow-3003"
+      ]
+    },
+    "update-bie-55": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Bie-55"
+      ],
+      "assessment": "Existing attached profile Bie-55; retain pending amendment: Cite the Fisherrow family review: probable Fisherrow father/couple match, documented Janet spouse and strongly supported Inveresk fathers; retain separate adult identities and older ancestry.",
+      "review_ids": [
+        "update-bie-55"
+      ]
+    },
+    "update-glasgow-3896": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3896"
+      ],
+      "assessment": "Existing attached profile Glasgow-3896; retain pending amendment: Add the two Belfast death notices of 21 October 1871, corroborating Church Street residence at death and stating newspaper age 73 alongside civil-register age 75. Preserve the complete captured biography; no parentage change.",
+      "review_ids": [
+        "update-glasgow-3896"
+      ]
+    },
+    "update-glasgow-1028": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1028"
+      ],
+      "assessment": "Existing attached profile Glasgow-1028; retain pending amendment: Add Andrew Glasgow of Calder as the selected uncertain working father, with logic and alternatives; preserve current facts and sources. Local model, pending owner-reviewed WikiTree amendment. Review the McCaskie bride’s uncertain 1612 childhood, selected father David and independently unknown mother; retain older remarriage alternatives and all prior amendments.",
+      "review_ids": [
+        "update-glasgow-1028"
+      ]
+    },
+    "update-glasgow-1218": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1218"
+      ],
+      "assessment": "Existing attached profile Glasgow-1218; retain pending amendment: Newspaper identity review 6 Oct 2026. Relationships: Glasgow-1222 son of Glasgow-1218 → upgrade to confident Add sourced facts: Weaver (reading appears to be stocking-weaver) at Kelso in 1798.",
+      "review_ids": [
+        "update-glasgow-1218"
+      ]
+    },
+    "update-glasgow-1557": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1557"
+      ],
+      "assessment": "Existing attached profile Glasgow-1557; retain pending amendment: Add 9/135 as a qualified Fisherrow candidate association and test of the Corsankell connection; identity, exact kinship and existing father remain uncertain. Add the qualified 1646 33/258 association, retaining Edward-1558 as a candidate.",
+      "review_ids": [
+        "update-glasgow-1557"
+      ]
+    },
+    "update-glasgow-4071": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-4071"
+      ],
+      "assessment": "Existing attached profile Glasgow-4071; retain pending amendment: Add the death of her husband James Anderson at Gortahar on 18 April 1888, reported age 94, registered by their son James.",
+      "review_ids": [
+        "update-glasgow-4071"
+      ]
+    },
+    "update-glasco-40": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasco-40"
+      ],
+      "assessment": "Existing attached profile Glasco-40; retain pending amendment: Add the 1746 will father assessment: documented daughters, probable Caleb account; retain duplicate, vital and maternal uncertainties.",
+      "review_ids": [
+        "update-glasco-40"
+      ]
+    },
+    "update-glasgow-3362": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3362"
+      ],
+      "assessment": "Existing attached profile Glasgow-3362; retain pending amendment: probable 16 March 1657 Polwarth death/burial match; no age or parent in index proves identity. Retain existing father uncertain and leave structured death unset.",
+      "review_ids": [
+        "update-glasgow-3362"
+      ]
+    },
+    "update-glasgow-3961": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3961"
+      ],
+      "assessment": "Existing attached profile Glasgow-3961; retain pending amendment: Larne & Kilwaughter audit 6 Oct 2026. Birth about 1648 or earlier (householder in 1669). Review the new uncertain Glenarm/Stevenston father hypotheses, conditional paternal siblings and retained same-name alternatives. Both new mothers remain unknown. No date, existing confidence grade or identity merge is established.",
+      "review_ids": [
+        "update-glasgow-3961"
+      ]
+    },
+    "update-unknown-761582": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Unknown-761582"
+      ],
+      "assessment": "Existing attached profile Unknown-761582; retain pending amendment: Add the Scottish–Donegal family review: probable Scottish parents and Lifford son; documented Elizabeth spouse. Preserve separate identity limits and all existing detail.",
+      "review_ids": [
+        "update-unknown-761582"
+      ]
+    },
+    "update-stevinsoun-2": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Stevinsoun-2"
+      ],
+      "assessment": "Existing attached profile Stevinsoun-2; retain pending amendment: Explain the preferred uncertain Corsoun parents, the retained burgh-parent alternatives, and the separately documented 1598 household. No live parent replacement or new profile merge is performed.",
+      "review_ids": [
+        "update-stevinsoun-2"
+      ]
+    },
+    "update-glasgow-1167": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1167"
+      ],
+      "assessment": "Existing attached profile Glasgow-1167; retain pending amendment: Update stale parent-description prose; keep Glassfuird-2 attached and inspect the original baptism before any structured change.",
+      "review_ids": [
+        "update-glasgow-1167"
+      ]
+    },
+    "update-glasgow-1058": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1058"
+      ],
+      "assessment": "Existing attached profile Glasgow-1058; retain pending amendment: Review selected uncertain Calder/Irvine parents and the full child/adult comparisons. Preserve the Guthrie/Meek household distinction, the two George generations, source-date discrepancies and earlier amendments. No live merge, new spouse or confidence upgrade.",
+      "review_ids": [
+        "update-glasgow-1058"
+      ]
+    },
+    "update-glasgow-1070": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1070"
+      ],
+      "assessment": "Existing attached profile Glasgow-1070; retain pending amendment: Cite the parish-parent review: probable Kirknewton father, documented Kilwinning father/mother roles; retain separate adult identities and older ancestry.",
+      "review_ids": [
+        "update-glasgow-1070"
+      ]
+    },
+    "update-glasgow-1082": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1082"
+      ],
+      "assessment": "Existing attached profile Glasgow-1082; retain pending amendment: Add original1605 Muirestoun residence and adult witnesses; compare1586 George as a possible older relative, with no chosen father. Preserve all sources and open identities; correct the obsolete testament/Jonet rationale in James’s complete draft.",
+      "review_ids": [
+        "update-glasgow-1082"
+      ]
+    },
+    "update-glasgow-1099": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1099"
+      ],
+      "assessment": "Existing attached profile Glasgow-1099; retain pending amendment: Add the Scottish–Donegal family review: probable Scottish parents and Lifford son; documented Elizabeth spouse. Preserve separate identity limits and all existing detail. Add the Murieston father review: record-defined George probable father of James, Andrew retained alternative; merchant identification and William upstream route uncertain. No live parent attachment until profile identity is resolved.",
+      "review_ids": [
+        "update-glasgow-1099"
+      ]
+    },
+    "update-glasgow-1560": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1560"
+      ],
+      "assessment": "Existing attached profile Glasgow-1560; retain pending amendment: Review the uncertain Campbeltown family, retained childhood alternatives and independently unknown mothers. Preserve earlier pending amendments and complete biography.",
+      "review_ids": [
+        "update-glasgow-1560"
+      ]
+    },
+    "update-glasgow-3100": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3100"
+      ],
+      "assessment": "Existing attached profile Glasgow-3100; retain pending amendment: Replace unsupported exact birth-year prose with a qualified estimate; cite the 1659 record-defined fatherhood, retain both index dates and the unresolved origin comparisons. Existing confident parent links need no upgrade. Review the uncertain Campbeltown family, retained childhood alternatives and independently unknown mothers. Preserve earlier pending amendments and complete biography.",
+      "review_ids": [
+        "update-glasgow-3100"
+      ]
+    },
+    "update-glasgow-4165": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-4165"
+      ],
+      "assessment": "Existing attached profile Glasgow-4165; retain pending amendment: Review selected uncertain Calder/Irvine parents and the full child/adult comparisons. Preserve the Guthrie/Meek household distinction, the two George generations, source-date discrepancies and earlier amendments. No live merge, new spouse or confidence upgrade.",
+      "review_ids": [
+        "update-glasgow-4165"
+      ]
+    },
+    "update-glasgow-3127": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3127"
+      ],
+      "assessment": "Existing attached profile Glasgow-3127; retain pending amendment: Newspaper identity review 6 Oct 2026. Add sourced facts: First Lieutenant, Royal Artillery, promoted Second Captain vice Freer by Office of Ordnance order dated 16 January 1837 (George Carter Evelegh succeeding him as; Research note: Glasgow-3785 (George Mark Glasgow, 1795 Quebec - 1851 Kingston, Canada West) is very probably the same man; the 'died before 1846' estimate on 31; First Lieutenant, Royal Artillery, promoted Second Captain vice Freer by Office of Ordnance order dated 16 January 1837.",
+      "review_ids": [
+        "update-glasgow-3127"
+      ]
+    },
+    "update-glasgow-3785": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3785"
+      ],
+      "assessment": "Existing attached profile Glasgow-3785; retain pending amendment: Newspaper identity review 6 Oct 2026. Relationships: Glasgow-3785 (George Mark Glasgow) son of Lt-Gen George Glasgow RA (d. 28 Oct 1820); no WikiTree profile yet (draft from groups 1050144942/1050057308) → add confident",
+      "review_ids": [
+        "update-glasgow-3785"
+      ]
+    },
+    "update-dunlop-3562": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Dunlop-3562"
+      ],
+      "assessment": "Existing attached profile Dunlop-3562; retain pending amendment: Add the literal maternal index evidence and its date limits; leave Grizel’s birth, parents and maternity of other children unproved. Review the uncertain Campbeltown family, retained childhood alternatives and independently unknown mothers. Preserve earlier pending amendments and complete biography.",
+      "review_ids": [
+        "update-dunlop-3562"
+      ]
+    },
+    "update-glasgow-3909": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3909"
+      ],
+      "assessment": "Existing attached profile Glasgow-3909; retain pending amendment: Review two uncertain father placements, their dependent paternal-sibling hypothesis and retained alternatives. Replace James’s impossible 1605 birth estimate with the conditional before-1595 adult bound; use death before 26 July 1624 and no proved death place. No new mother or certainty upgrade. Retain James-3332 as an identity alternative; do not exclude it from an estimated birth alone.",
+      "review_ids": [
+        "update-glasgow-3909"
+      ]
+    },
+    "update-glasgow-3024": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3024"
+      ],
+      "assessment": "Existing attached profile Glasgow-3024; retain pending amendment: Compatible 1672 indexed event with James Hamiltoun; no structured spouse action pending original.\n\nPending WikiTree update: compatible 1672 indexed event with James Hamiltoun; no structured spouse action pending original; also add the 14/11/1652 parish-index date comparison.",
+      "review_ids": [
+        "update-glasgow-3024"
+      ]
+    },
+    "update-glasgow-3097": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3097"
+      ],
+      "assessment": "Existing attached profile Glasgow-3097; retain pending amendment: Pending WikiTree update: add the 05/01/1651 Edinburgh index date and explain its difference from the existing birth details.",
+      "review_ids": [
+        "update-glasgow-3097"
+      ]
+    },
+    "update-glasgow-3527": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3527"
+      ],
+      "assessment": "Existing attached profile Glasgow-3527; retain pending amendment: Review the uncertain Michael→Robert and James→older-William father models; preserve the 1547 alternative and qualify the tree-held Helen date without changing current family fields.",
+      "review_ids": [
+        "update-glasgow-3527"
+      ]
+    },
+    "update-glasgow-2131": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2131"
+      ],
+      "assessment": "Existing attached profile Glasgow-2131; retain pending amendment: Newspaper identity review 6 Oct 2026. Relationships: Glasgow-2131 son of Glasgow-2059 → upgrade to confident Add sourced facts: Married 16 Mar 1897 at Ballywillan Presbyterian Church; described as second son of the late Benjamin Glasgow, Cookstown, editor of the Mid-Ulster Mail and Dunga",
+      "review_ids": [
+        "update-glasgow-2131"
+      ]
+    },
+    "update-glasgow-1066": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1066"
+      ],
+      "assessment": "Existing attached profile Glasgow-1066; retain pending amendment: Review the selected uncertain Ayrshire family, independent maternal evidence and surviving alternatives; preserve current biography and all prior corrections.",
+      "review_ids": [
+        "update-glasgow-1066"
+      ]
+    },
+    "update-glasgow-1067": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1067"
+      ],
+      "assessment": "Existing attached profile Glasgow-1067; retain pending amendment: Review the selected uncertain Ayrshire family, independent maternal evidence and surviving alternatives; preserve current biography and all prior corrections.",
+      "review_ids": [
+        "update-glasgow-1067"
+      ]
+    },
+    "update-glasgow-1071": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1071"
+      ],
+      "assessment": "Existing attached profile Glasgow-1071; retain pending amendment: Cite the parish-parent review: probable Kirknewton father, documented Kilwinning father/mother roles; retain separate adult identities and older ancestry.",
+      "review_ids": [
+        "update-glasgow-1071"
+      ]
+    },
+    "update-glasgow-1499": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1499"
+      ],
+      "assessment": "Existing attached profile Glasgow-1499; retain pending amendment: Show the death, 8 July 1767, as recorded on the monument, not as an estimate.",
+      "review_ids": [
+        "update-glasgow-1499"
+      ]
+    },
+    "update-glasgow-1510": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1510"
+      ],
+      "assessment": "Existing attached profile Glasgow-1510; retain pending amendment: Death 30 November 1756 aged eleven; born December 1744 to November 1745.",
+      "review_ids": [
+        "update-glasgow-1510"
+      ]
+    },
+    "update-glasgow-1603": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1603"
+      ],
+      "assessment": "Existing attached profile Glasgow-1603; retain pending amendment: Add the preferred uncertain Ayrshire route above Hugh; retain James of Mid Calder as an alternative, all earlier identity limits and complete source detail. No live parent change.",
+      "review_ids": [
+        "update-glasgow-1603"
+      ]
+    },
+    "update-glasgow-3108": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3108"
+      ],
+      "assessment": "Existing attached profile Glasgow-3108; retain pending amendment: Pending WikiTree update: add the 19/01/1696 Irvine index date and explain its difference from the existing birth details.",
+      "review_ids": [
+        "update-glasgow-3108"
+      ]
+    },
+    "update-glasgow-3109": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3109"
+      ],
+      "assessment": "Existing attached profile Glasgow-3109; retain pending amendment: Review the selected uncertain Ayrshire family, independent maternal evidence and surviving alternatives; preserve current biography and all prior corrections. Review selected uncertain Dublin/Irvine fathers, conditional Scottish watchmaker identity and retained younger Philip duplicates. Separate junior notices from the elder account; the 1772 elder death replaces an unsupported after 1772 inference locally. No new mother or confidence upgrade.",
+      "review_ids": [
+        "update-glasgow-3109"
+      ]
+    },
+    "update-glasgow-3931": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3931"
+      ],
+      "assessment": "Existing attached profile Glasgow-3931; retain pending amendment: Larne & Kilwaughter audit 6 Oct 2026. Birth about 1719 or earlier (householder in 1740).",
+      "review_ids": [
+        "update-glasgow-3931"
+      ]
+    },
+    "update-glasgow-540": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-540"
+      ],
+      "assessment": "Existing attached profile Glasgow-540; retain pending amendment: Explain the probable Hugh–McCullough parentage from the descendant account and independently matching Pennsylvania household, with the earlier unmarked flags, source limitations and unresolved 1740 identities retained.",
+      "review_ids": [
+        "update-glasgow-540"
+      ]
+    },
+    "update-glasgow-548": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-548"
+      ],
+      "assessment": "Existing attached profile Glasgow-548; retain pending amendment: Preserve the complete sourced family account and explain the limits of the 1740 and 1772 identity candidates. Qualify the traditional marriage, dates and parentage. The 1796 migration is already correctly described as the younger Hugh’s household.",
+      "review_ids": [
+        "update-glasgow-548"
+      ]
+    },
+    "update-glasgow-3185": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3185"
+      ],
+      "assessment": "Existing attached profile Glasgow-3185; retain pending amendment: Review the McCaskie bride’s uncertain 1612 childhood, selected father David and independently unknown mother; retain older remarriage alternatives and all prior amendments.",
+      "review_ids": [
+        "update-glasgow-3185"
+      ]
+    },
+    "update-glasgow-1085": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1085"
+      ],
+      "assessment": "Existing attached profile Glasgow-1085; retain pending amendment: Review the McCaskie bride’s uncertain 1612 childhood, selected father David and independently unknown mother; retain older remarriage alternatives and all prior amendments.",
+      "review_ids": [
+        "update-glasgow-1085"
+      ]
+    },
+    "update-glasgow-1081": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1081"
+      ],
+      "assessment": "Existing attached profile Glasgow-1081; retain pending amendment: Add the probable 1669-to-later-officer identity for Kilwaughter James, with the John comparison, long-life caution and same-name succession alternative; no parent upgrade.",
+      "review_ids": [
+        "update-glasgow-1081"
+      ]
+    },
+    "update-glasgow-1140": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1140"
+      ],
+      "assessment": "Existing attached profile Glasgow-1140; retain pending amendment: Identify him as James Glasgow, minister of Edinburgh Castle (Fasti; 1737 and 1738 newspaper notices). Add the section below; set death date 9 Feb 1746 (Edinburgh, certain); set father Glasgow-1073 and mother Scott-40313 to confident.",
+      "review_ids": [
+        "update-glasgow-1140"
+      ]
+    },
+    "update-glasgow-1144": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1144"
+      ],
+      "assessment": "Existing attached profile Glasgow-1144; retain pending amendment: Death before 13 July 1793; memorial 159661's third life is \"Elinor [surname unclear] otherwise Agnew\" and its registration is probably 18 April 1766.",
+      "review_ids": [
+        "update-glasgow-1144"
+      ]
+    },
+    "update-glasgow-1150": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1150"
+      ],
+      "assessment": "Existing attached profile Glasgow-1150; retain pending amendment: Explain the probable Robert–James father inference using the Duddingston apprenticeship/burial and exact burgess cross-reference; retain the uncertain live flag and independently unproved mother and earlier ancestry.",
+      "review_ids": [
+        "update-glasgow-1150"
+      ]
+    },
+    "update-glasgow-1222": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1222"
+      ],
+      "assessment": "Existing attached profile Glasgow-1222; retain pending amendment: Newspaper identity review 6 Oct 2026. Relationships: Glasgow-1222 son of Glasgow-1218 → upgrade to confident Add sourced facts: Drawn by ballot for the Roxburgh County Militia from Kelso parish (notice dated Jedburgh 29 Sept 1798), described as son of David Glasgow; required to attend at",
+      "review_ids": [
+        "update-glasgow-1222"
+      ]
+    },
+    "update-glasgow-1376": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1376"
+      ],
+      "assessment": "Existing attached profile Glasgow-1376; retain pending amendment: Correct the legal occurrence to July 1672 and reported imprisonment; add the conditional uncertain Quothquan father and retain all identity alternatives.",
+      "review_ids": [
+        "update-glasgow-1376"
+      ]
+    },
+    "update-glasgow-1496": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1496"
+      ],
+      "assessment": "Existing attached profile Glasgow-1496; retain pending amendment: Review the uncertain Campbeltown family, retained childhood alternatives and independently unknown mothers. Preserve earlier pending amendments and complete biography.",
+      "review_ids": [
+        "update-glasgow-1496"
+      ]
+    },
+    "update-glasgow-1504": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1504"
+      ],
+      "assessment": "Existing attached profile Glasgow-1504; retain pending amendment: Add the \"James Glasgow junior\" note (1738/9); birth about 1706 or earlier.",
+      "review_ids": [
+        "update-glasgow-1504"
+      ]
+    },
+    "update-glasgow-1509": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1509"
+      ],
+      "assessment": "Existing attached profile Glasgow-1509; retain pending amendment: Distinguish the ropemaker from the tanner and younger merchant. Assess James as a candidate for Adam’s unidentified father (Glasgow-3905), including the 1758/1762 chronology, possible collateral children and competing upstream parentage.",
+      "review_ids": [
+        "update-glasgow-1509"
+      ]
+    },
+    "update-glasgow-1547": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1547"
+      ],
+      "assessment": "Existing attached profile Glasgow-1547; retain pending amendment: Review the uncertain James Glasgow-3526 father through the possible 1717 child identity, with James Glasgow-1547 retained as an alternative account; preserve estimated dates, the Meek-household comparison, existing child links and all earlier qualifications.",
+      "review_ids": [
+        "update-glasgow-1547"
+      ]
+    },
+    "update-glasgow-1970": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1970"
+      ],
+      "assessment": "Existing attached profile Glasgow-1970; retain pending amendment: Add the qualified Cookstown–Gortin working family: two uncertain fathers and the separately probable Hillsdale core. Preserve conflicting child lists, ages, origins and existing text; no live save.",
+      "review_ids": [
+        "update-glasgow-1970"
+      ]
+    },
+    "update-glasgow-2682": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2682"
+      ],
+      "assessment": "Existing attached profile Glasgow-2682; retain pending amendment: Review the newly selected uncertain Lothian father, retained alternatives and independently unknown mother. Earlier completed corrections remain completed.",
+      "review_ids": [
+        "update-glasgow-2682"
+      ]
+    },
+    "update-glasgow-2868": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2868"
+      ],
+      "assessment": "Existing attached profile Glasgow-2868; retain pending amendment: Replace the uncertain shipmaster Glasgow-2867 father link with the probable Glencorse candidate Glasgow-3011 in one controlled correction, retaining uncertain status and never leaving the father blank. Add the sourced identity distinction; the baptism names Robert but does not prove which same-name man he was.",
+      "review_ids": [
+        "update-glasgow-2868"
+      ]
+    },
+    "update-glasgow-2988": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2988"
+      ],
+      "assessment": "Existing attached profile Glasgow-2988; retain pending amendment: Review the very uncertain older-James father through possible Moneymore identity; retain the Mitchell comparison, unproved inherited pedigree and 1759 Drumcarn limitations. No mother, merge, migration or new confidence. Full comparison held privately where captured text contains living-person references. Add the qualified Cookstown–Gortin working family: two uncertain fathers and the separately probable Hillsdale core. Preserve conflicting child lists, ages, origins and existing text; no live save.",
+      "review_ids": [
+        "update-glasgow-2988"
+      ]
+    },
+    "update-glasgow-3001": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3001"
+      ],
+      "assessment": "Existing attached profile Glasgow-3001; retain pending amendment: Add the inspected Killybegs tax-balance context and selected uncertain Thomas father/James son; James’s unsupported c.1650 birth is unknown. Preserve other family grades and all existing detail.",
+      "review_ids": [
+        "update-glasgow-3001"
+      ]
+    },
+    "update-glasgow-3103": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3103"
+      ],
+      "assessment": "Existing attached profile Glasgow-3103; retain pending amendment: Add the 28 July 1698 Edinburgh index's material qualification that the uncertain spouse is Jean Dobie or Wood; preserve the unresolved question whether the 1679 or 1680 James was the adult husband.",
+      "review_ids": [
+        "update-glasgow-3103"
+      ]
+    },
+    "update-glasgow-3105": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3105"
+      ],
+      "assessment": "Existing attached profile Glasgow-3105; retain pending amendment: Review the selected uncertain Ayrshire family, independent maternal evidence and surviving alternatives; preserve current biography and all prior corrections. Review the new uncertain Glenarm/Stevenston father hypotheses, conditional paternal siblings and retained same-name alternatives. Both new mothers remain unknown. No date, existing confidence grade or identity merge is established.",
+      "review_ids": [
+        "update-glasgow-3105"
+      ]
+    },
+    "update-glasgow-3107": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3107"
+      ],
+      "assessment": "Existing attached profile Glasgow-3107; retain pending amendment: Add the combined Gordon household assessment: documented named-father roles, separately probable Agnes Watt maternity and preserved later-adult identity and vital-field qualifications.",
+      "review_ids": [
+        "update-glasgow-3107"
+      ]
+    },
+    "update-glasgow-3124": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3124"
+      ],
+      "assessment": "Existing attached profile Glasgow-3124; retain pending amendment: Review the very uncertain Tyrone–Leitrim father model and competing same-John identity; preserve estimated dates, both townland interpretations and the unproved existing John–James relationship. Keep the 1728 record separate from the older 1707 birth estimate.",
+      "review_ids": [
+        "update-glasgow-3124"
+      ]
+    },
+    "update-glasgow-3172": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3172"
+      ],
+      "assessment": "Existing attached profile Glasgow-3172; retain pending amendment: Review the selected uncertain Larne family; preserve separate Robert/James accounts, independent maternity, source limitations and all biography detail.",
+      "review_ids": [
+        "update-glasgow-3172"
+      ]
+    },
+    "update-glasgow-3332": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3332"
+      ],
+      "assessment": "Existing attached profile Glasgow-3332; retain pending amendment: Retain the 1624/1680 identity alternatives; an unsupported 1634 estimate is not an exclusion. Preserve current uncertain family fields. Review selected uncertain Libberton/Uphall parent hypotheses and full surviving identity alternatives. Robert’s mother remains unknown; Thomas’s two parent links share an uncertain 1675-child identity. Preserve source dates, existing child/couple records and all earlier amendments. Review the conditional James Glasgow-3332 father for the Carnwath Robert, the required earlier birth, the overlapping Robert households and retained Johne alternative; preserve all existing records, mothers and uncertainty. Correct the legal occurrence to July 1672 and reported imprisonment; add the conditional uncertain Quothquan father and retain all identity alternatives.",
+      "review_ids": [
+        "update-glasgow-3332"
+      ]
+    },
+    "update-glasgow-3526": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3526"
+      ],
+      "assessment": "Existing attached profile Glasgow-3526; retain pending amendment: Review the uncertain Michael→Robert and James→older-William father models; preserve the 1547 alternative and qualify the tree-held Helen date without changing current family fields. Review the uncertain James Glasgow-3526 father through the possible 1717 child identity, with James Glasgow-1547 retained as an alternative account; preserve estimated dates, the Meek-household comparison, existing child links and all earlier qualifications.",
+      "review_ids": [
+        "update-glasgow-3526"
+      ]
+    },
+    "update-glasgow-3910": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3910"
+      ],
+      "assessment": "Existing attached profile Glasgow-3910; retain pending amendment: Review two uncertain father placements, their dependent paternal-sibling hypothesis and retained alternatives. Replace James’s impossible 1605 birth estimate with the conditional before-1595 adult bound; use death before 26 July 1624 and no proved death place. No new mother or certainty upgrade. Retain James-3332 as an identity alternative; do not exclude it from an estimated birth alone.",
+      "review_ids": [
+        "update-glasgow-3910"
+      ]
+    },
+    "update-glasgow-3921": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3921"
+      ],
+      "assessment": "Existing attached profile Glasgow-3921; retain pending amendment: Review complete sourced draft: James Glasgow younger selected as Agnes’s uncertain local father, with older-James/Edward/other-family alternatives, no mother, and corrected conditional 1601 chronology. Local hypothesis only; no live attachment performed.",
+      "review_ids": [
+        "update-glasgow-3921"
+      ]
+    },
+    "update-glasgow-3924": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3924"
+      ],
+      "assessment": "Existing attached profile Glasgow-3924; retain pending amendment: Review the very uncertain Gordon Patrick father for the Kilclone Patrick, retaining the memorial age 60, pre 1707 child problem, no mother and separate Scottish child/adult identity question. Preserve the proved memorial family and James’s 1736 index-error warning.",
+      "review_ids": [
+        "update-glasgow-3924"
+      ]
+    },
+    "update-glasgow-3967": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3967"
+      ],
+      "assessment": "Existing attached profile Glasgow-3967; retain pending amendment: Larne & Kilwaughter audit 6 Oct 2026. Keep the dates and the uncertain father link to Glasgow-1081 (no record supports it; detaching is the owner's decision). Note the unevidenced Duneane birthplace, that the 1705 elder is only possibly the man of 1698 and 1703, and that he was a ruling elder.",
+      "review_ids": [
+        "update-glasgow-3967"
+      ]
+    },
+    "update-glasgow-3971": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3971"
+      ],
+      "assessment": "Existing attached profile Glasgow-3971; retain pending amendment: Review the selected uncertain Larne family; preserve separate Robert/James accounts, independent maternity, source limitations and all biography detail.",
+      "review_ids": [
+        "update-glasgow-3971"
+      ]
+    },
+    "update-glasgow-3986": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3986"
+      ],
+      "assessment": "Existing attached profile Glasgow-3986; retain pending amendment: Born before about 1774; alive December 1830; 1773 and 1831 are unchecked.\n\nNow only a weak rival father for Alexander-951.",
+      "review_ids": [
+        "update-glasgow-3986"
+      ]
+    },
+    "update-glasgow-3991": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3991"
+      ],
+      "assessment": "Existing attached profile Glasgow-3991; retain pending amendment: Born 15 April 1747 to 14 April 1748.",
+      "review_ids": [
+        "update-glasgow-3991"
+      ]
+    },
+    "update-glasgow-4158": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-4158"
+      ],
+      "assessment": "Existing attached profile Glasgow-4158; retain pending amendment: Review selected uncertain Dublin/Irvine fathers, conditional Scottish watchmaker identity and retained younger Philip duplicates. Separate junior notices from the elder account; the 1772 elder death replaces an unsupported after 1772 inference locally. No new mother or confidence upgrade.",
+      "review_ids": [
+        "update-glasgow-4158"
+      ]
+    },
+    "update-glasgow-4170": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-4170"
+      ],
+      "assessment": "Existing attached profile Glasgow-4170; retain pending amendment: Review the new uncertain Glenarm/Stevenston father hypotheses, conditional paternal siblings and retained same-name alternatives. Both new mothers remain unknown. No date, existing confidence grade or identity merge is established.",
+      "review_ids": [
+        "update-glasgow-4170"
+      ]
+    },
+    "update-glasgow-991": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-991"
+      ],
+      "assessment": "Existing attached profile Glasgow-991; retain pending amendment: Add Andrew Glasgow of Calder as the selected uncertain working father, with logic and alternatives; preserve current facts and sources. Local model, pending owner-reviewed WikiTree amendment. Explain the probable 1586–1605 George identity and local family association; distinguish it from unproved fatherhood and the separate Glasgow merchant comparison. Cite the Fisherrow family review: probable Fisherrow father/couple match, documented Janet spouse and strongly supported Inveresk fathers; retain separate adult identities and older ancestry. Add the Murieston father review: record-defined George probable father of James, Andrew retained alternative; merchant identification and William upstream route uncertain. No live parent attachment until profile identity is resolved. Add the preferred uncertain Ayrshire route above Hugh; retain James of Mid Calder as an alternative, all earlier identity limits and complete source detail. No live parent change.",
+      "review_ids": [
+        "update-glasgow-991"
+      ]
+    },
+    "update-glasgow-1780": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1780"
+      ],
+      "assessment": "Existing attached profile Glasgow-1780; retain pending amendment: Pending Castledawson correction: call reported by 10 July 1835; ordination on 6 October 1835. Existing family and journal amendments remain complete.",
+      "review_ids": [
+        "update-glasgow-1780"
+      ]
+    },
+    "update-graham-21720": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Graham-21720"
+      ],
+      "assessment": "Existing attached profile Graham-21720; retain pending amendment: Newspaper identity review 6 Oct 2026. Add sourced facts: Irish death notice: 'formerly of Rasharkin' (the phrase follows Robert's name and applies to the couple).",
+      "review_ids": [
+        "update-graham-21720"
+      ]
+    },
+    "update-mcclure-6341": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "McClure-6341"
+      ],
+      "assessment": "Existing attached profile McClure-6341; retain pending amendment: Newspaper identity review 6 Oct 2026. Add sourced facts: Probably the Jane Glasgow who gave evidence at the Antrim Assizes in July 1838 as mother of Anne Armstrong (d. 23 June 1838 at Ballyclug); alive and a widow in",
+      "review_ids": [
+        "update-mcclure-6341"
+      ]
+    },
+    "update-thompson-100184": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Thompson-100184"
+      ],
+      "assessment": "Existing attached profile Thompson-100184; retain pending amendment: Newspaper identity review 6 Oct 2026. Add sourced facts: Married Rev. Adam Glasgow on 30 Dec 1841, May Street, Belfast; her uncle was Thomas Corbett Esq.",
+      "review_ids": [
+        "update-thompson-100184"
+      ]
+    },
+    "update-glasgow-4013": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-4013"
+      ],
+      "assessment": "Existing attached profile Glasgow-4013; retain pending amendment: The 1844 probate-index entry and the 1873 death cannot both be hers; resolve before changing dates.",
+      "review_ids": [
+        "update-glasgow-4013"
+      ]
+    },
+    "update-unknown-763421": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Unknown-763421"
+      ],
+      "assessment": "Existing attached profile Unknown-763421; retain pending amendment: Larne & Kilwaughter audit 6 Oct 2026. Born 22 July 1740 to 21 July 1741, died 21 July 1820 (Larne monument), not born 1750.",
+      "review_ids": [
+        "update-unknown-763421"
+      ]
+    },
+    "update-clerk-296": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Clerk-296"
+      ],
+      "assessment": "Existing attached profile Clerk-296; retain pending amendment: Cite the Fisherrow family review: probable Fisherrow father/couple match, documented Janet spouse and strongly supported Inveresk fathers; retain separate adult identities and older ancestry.",
+      "review_ids": [
+        "update-clerk-296"
+      ]
+    },
+    "update-glasgow-1433": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1433"
+      ],
+      "assessment": "Existing attached profile Glasgow-1433; retain pending amendment: Pending WikiTree update: add the 31/01/1689 Kilwinning index date and explain its difference from the existing birth details.",
+      "review_ids": [
+        "update-glasgow-1433"
+      ]
+    },
+    "update-glasgow-3083": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3083"
+      ],
+      "assessment": "Existing attached profile Glasgow-3083; retain pending amendment: Add the selected uncertain John-1561 / Jean-3083 family comparison, preserving the possible Jean-3055 identity, literal index differences and unknown mother. Complete biography retained.",
+      "review_ids": [
+        "update-glasgow-3083"
+      ]
+    },
+    "update-wyllie-1044": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Wyllie-1044"
+      ],
+      "assessment": "Existing attached profile Wyllie-1044; retain pending amendment: Review the uncertain Kilwinning parent pair through possible identity with the 1703 child; use current candidate John Glasgow-1065, preserve the older 1683 mother-name conflict, generation alternatives and complete existing sources. No merge or date change.",
+      "review_ids": [
+        "update-wyllie-1044"
+      ]
+    },
+    "update-glasgow-1072": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1072"
+      ],
+      "assessment": "Existing attached profile Glasgow-1072; retain pending amendment: Cite the parish-parent review: probable Kirknewton father, documented Kilwinning father/mother roles; retain separate adult identities and older ancestry.",
+      "review_ids": [
+        "update-glasgow-1072"
+      ]
+    },
+    "update-glasgow-1506": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1506"
+      ],
+      "assessment": "Existing attached profile Glasgow-1506; retain pending amendment: Death 8 January 1733/4 (monument, \"Jane ye first\"), if she is that child.",
+      "review_ids": [
+        "update-glasgow-1506"
+      ]
+    },
+    "update-glasgow-3055": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3055"
+      ],
+      "assessment": "Existing attached profile Glasgow-3055; retain pending amendment: Add the selected uncertain John-1561 / Jean-3083 family comparison, preserving the possible Jean-3055 identity, literal index differences and unknown mother. Complete biography retained.",
+      "review_ids": [
+        "update-glasgow-3055"
+      ]
+    },
+    "update-glasgow-3364": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3364"
+      ],
+      "assessment": "Existing attached profile Glasgow-3364; retain pending amendment: Add the combined Gordon household assessment: documented named-father roles, separately probable Agnes Watt maternity and preserved later-adult identity and vital-field qualifications.",
+      "review_ids": [
+        "update-glasgow-3364"
+      ]
+    },
+    "update-glasgow-1086": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1086"
+      ],
+      "assessment": "Existing attached profile Glasgow-1086; retain pending amendment: Pending WikiTree update: add the 26/06/1608 Mid Calder index date and explain its difference from the existing birth details.",
+      "review_ids": [
+        "update-glasgow-1086"
+      ]
+    },
+    "update-glasgow-3913": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3913"
+      ],
+      "assessment": "Existing attached profile Glasgow-3913; retain pending amendment: Same kinship wording; \"John Glasgow, sen.\" dated 3 March, April and 17 May 1700; birth about 1648 or earlier. Review the new uncertain Glenarm/Stevenston father hypotheses, conditional paternal siblings and retained same-name alternatives. Both new mothers remain unknown. No date, existing confidence grade or identity merge is established. Add the probable 1669-to-later-officer identity for Kilwaughter James, with the John comparison, long-life caution and same-name succession alternative; no parent upgrade.",
+      "review_ids": [
+        "update-glasgow-3913"
+      ]
+    },
+    "update-glasgow-1030": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1030"
+      ],
+      "assessment": "Existing attached profile Glasgow-1030; retain pending amendment: Review the selected uncertain Stevenston and South Leith families and full competing-parent discussion. Matthew’s proposed John/Jonet parent pair is very tentative; Margaret’s proposed William father does not exclude the Rathmalton daughter identity. Keep inherited estimates distinct from recorded events; Margaret’s death place remains unknown.",
+      "review_ids": [
+        "update-glasgow-1030"
+      ]
+    },
+    "update-glasgow-1057": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1057"
+      ],
+      "assessment": "Existing attached profile Glasgow-1057; retain pending amendment: Review selected uncertain Calder/Irvine parents and the full child/adult comparisons. Preserve the Guthrie/Meek household distinction, the two George generations, source-date discrepancies and earlier amendments. No live merge, new spouse or confidence upgrade.",
+      "review_ids": [
+        "update-glasgow-1057"
+      ]
+    },
+    "update-glasgow-1065": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1065"
+      ],
+      "assessment": "Existing attached profile Glasgow-1065; retain pending amendment: Review the uncertain Kilwinning parent pair through possible identity with the 1703 child; use current candidate John Glasgow-1065, preserve the older 1683 mother-name conflict, generation alternatives and complete existing sources. No merge or date change.",
+      "review_ids": [
+        "update-glasgow-1065"
+      ]
+    },
+    "update-glasgow-1095": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1095"
+      ],
+      "assessment": "Existing attached profile Glasgow-1095; retain pending amendment: Review complete sourced research-note draft selecting John Glasgw of Stirling as uncertain local father of John Glasgow of Saltmarket (provisional profile identity); preserve identity and collateral alternatives. Pre-1500/profile-manager scope requires separate review; no live attachment requested. Additional review: selected uncertain Glasgow–Stirling identity extends the proposed ancestor’s record period to 1447; no additional parent or certainty change. Explain the probable Saltmarket father inference from the 1527–1564 title chain; retain the uncertain WikiTree flag, unresolved profile identity and unknown maternity.",
+      "review_ids": [
+        "update-glasgow-1095"
+      ]
+    },
+    "update-glasgow-1105": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1105"
+      ],
+      "assessment": "Existing attached profile Glasgow-1105; retain pending amendment: Review selected uncertain Libberton/Uphall parent hypotheses and full surviving identity alternatives. Robert’s mother remains unknown; Thomas’s two parent links share an uncertain 1675-child identity. Preserve source dates, existing child/couple records and all earlier amendments.",
+      "review_ids": [
+        "update-glasgow-1105"
+      ]
+    },
+    "update-glasgow-1151": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1151"
+      ],
+      "assessment": "Existing attached profile Glasgow-1151; retain pending amendment: Review the newly selected uncertain Lothian father, retained alternatives and independently unknown mother. Earlier completed corrections remain completed. Cite the Fisherrow family review: probable Fisherrow father/couple match, documented Janet spouse and strongly supported Inveresk fathers; retain separate adult identities and older ancestry.",
+      "review_ids": [
+        "update-glasgow-1151"
+      ]
+    },
+    "update-glasgow-1473": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1473"
+      ],
+      "assessment": "Existing attached profile Glasgow-1473; retain pending amendment: Review the very uncertain Kilwinning parent pair for the 1693 Irvine father only; preserve the fourteen-year age problem, competing adult identities, date readings and all existing sources. No merge or certainty upgrade.",
+      "review_ids": [
+        "update-glasgow-1473"
+      ]
+    },
+    "update-glasgow-1544": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1544"
+      ],
+      "assessment": "Existing attached profile Glasgow-1544; retain pending amendment: Review selected uncertain Calder/Irvine parents and the full child/adult comparisons. Preserve the Guthrie/Meek household distinction, the two George generations, source-date discrepancies and earlier amendments. No live merge, new spouse or confidence upgrade.",
+      "review_ids": [
+        "update-glasgow-1544"
+      ]
+    },
+    "update-glasgow-1559": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1559"
+      ],
+      "assessment": "Existing attached profile Glasgow-1559; retain pending amendment: research note only; possible 23 August 1641 Duddingston subject, competing with Glasgow-3014. Leave structured death unset.",
+      "review_ids": [
+        "update-glasgow-1559"
+      ]
+    },
+    "update-glasgow-1561": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1561"
+      ],
+      "assessment": "Existing attached profile Glasgow-1561; retain pending amendment: Retain the pending Andrew-of-Calder uncertain father amendment. Add the selected uncertain John-1561 / Jean-3083 family comparison, preserving the possible Jean-3055 identity, literal index differences and unknown mother. Complete biography retained. Review the uncertain Campbeltown family, retained childhood alternatives and independently unknown mothers. Preserve earlier pending amendments and complete biography.",
+      "review_ids": [
+        "update-glasgow-1561"
+      ]
+    },
+    "update-glasgow-159": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-159"
+      ],
+      "assessment": "Existing attached profile Glasgow-159; retain pending amendment: Newspaper identity review 6 Oct 2026. Add sourced facts: Listed as 'John Glasgow, labourer, Millrig' among the voluntary subscriptions in the parish of Kirkliston, July 1798.",
+      "review_ids": [
+        "update-glasgow-159"
+      ]
+    },
+    "update-glasgow-1604": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1604"
+      ],
+      "assessment": "Existing attached profile Glasgow-1604; retain pending amendment: Review selected uncertain father Glasgow-1604 for the Kilbirnie minister; retain Glasgow-1078 as an alternative, maternity independently unproved, and the possible Glasgow-3375 duplicate. Existing child-group audit remains open. Complete biography preserved. Add the preferred uncertain Ayrshire route above Hugh; retain James of Mid Calder as an alternative, all earlier identity limits and complete source detail. No live parent change.",
+      "review_ids": [
+        "update-glasgow-1604"
+      ]
+    },
+    "update-glasgow-1927": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1927"
+      ],
+      "assessment": "Existing attached profile Glasgow-1927; retain pending amendment: Pending WikiTree update: add the 26/02/1671 Linlithgow index date and explain its difference from the existing birth details.",
+      "review_ids": [
+        "update-glasgow-1927"
+      ]
+    },
+    "update-glasgow-1968": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1968"
+      ],
+      "assessment": "Existing attached profile Glasgow-1968; retain pending amendment: Add the qualified Cookstown–Gortin working family: two uncertain fathers and the separately probable Hillsdale core. Preserve conflicting child lists, ages, origins and existing text; no live save.",
+      "review_ids": [
+        "update-glasgow-1968"
+      ]
+    },
+    "update-glasgow-2058": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2058"
+      ],
+      "assessment": "Existing attached profile Glasgow-2058; retain pending amendment: Add the original marriage’s direct father and merchant evidence; keep John’s parents unresolved and explain why the mill-family notice does not identify them.",
+      "review_ids": [
+        "update-glasgow-2058"
+      ]
+    },
+    "update-glasgow-2464": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2464"
+      ],
+      "assessment": "Existing attached profile Glasgow-2464; retain pending amendment: Review the uncertain Kilwinning parent pair through possible identity with the 1703 child; use current candidate John Glasgow-1065, preserve the older 1683 mother-name conflict, generation alternatives and complete existing sources. No merge or date change.",
+      "review_ids": [
+        "update-glasgow-2464"
+      ]
+    },
+    "update-glasgow-2467": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2467"
+      ],
+      "assessment": "Existing attached profile Glasgow-2467; retain pending amendment: Review the uncertain Kilwinning parent pair through possible identity with the 1703 child; use current candidate John Glasgow-1065, preserve the older 1683 mother-name conflict, generation alternatives and complete existing sources. No merge or date change.",
+      "review_ids": [
+        "update-glasgow-2467"
+      ]
+    },
+    "update-glasgow-2539": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2539"
+      ],
+      "assessment": "Existing attached profile Glasgow-2539; retain pending amendment: Add the qualified Cookstown–Gortin working family: two uncertain fathers and the separately probable Hillsdale core. Preserve conflicting child lists, ages, origins and existing text; no live save.",
+      "review_ids": [
+        "update-glasgow-2539"
+      ]
+    },
+    "update-glasgow-2542": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2542"
+      ],
+      "assessment": "Existing attached profile Glasgow-2542; retain pending amendment: Newspaper identity review 6 Oct 2026. Relationships: Glasgow-2542 son of Glasgow-2059 → upgrade to confident Add sourced facts: Middle name George: 'John George Glasgow', infant son of Benjamin Glasgow, Cookstown, died 4 Aug 1857 aged six months.",
+      "review_ids": [
+        "update-glasgow-2542"
+      ]
+    },
+    "update-glasgow-2847": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2847"
+      ],
+      "assessment": "Existing attached profile Glasgow-2847; retain pending amendment: Review the uncertain James Glasgow-3526 father through the possible 1717 child identity, with James Glasgow-1547 retained as an alternative account; preserve estimated dates, the Meek-household comparison, existing child links and all earlier qualifications.",
+      "review_ids": [
+        "update-glasgow-2847"
+      ]
+    },
+    "update-glasgow-2870": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2870"
+      ],
+      "assessment": "Existing attached profile Glasgow-2870; retain pending amendment: Add the named Scottish baptism parents, with the American identity explicitly unproved. The local documented record roles do not authorize an unqualified live certainty change.",
+      "review_ids": [
+        "update-glasgow-2870"
+      ]
+    },
+    "update-glasgow-3012": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3012"
+      ],
+      "assessment": "Existing attached profile Glasgow-3012; retain pending amendment: Pending WikiTree update: add the 22/04/1649 Kirknewton and East Calder index date and explain its difference from the existing birth details.",
+      "review_ids": [
+        "update-glasgow-3012"
+      ]
+    },
+    "update-glasgow-3014": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3014"
+      ],
+      "assessment": "Existing attached profile Glasgow-3014; retain pending amendment: probable 15 January 1638 Duddingston death/burial match; compare the competing 1641 entry. Leave structured death unset.",
+      "review_ids": [
+        "update-glasgow-3014"
+      ]
+    },
+    "update-glasgow-3018": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3018"
+      ],
+      "assessment": "Existing attached profile Glasgow-3018; retain pending amendment: Review the very uncertain Kilwinning parent pair for the 1693 Irvine father only; preserve the fourteen-year age problem, competing adult identities, date readings and all existing sources. No merge or certainty upgrade.",
+      "review_ids": [
+        "update-glasgow-3018"
+      ]
+    },
+    "update-glasgow-3056": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3056"
+      ],
+      "assessment": "Existing attached profile Glasgow-3056; retain pending amendment: correct interpretation of the 14 February 1670 Linlithgow citation: JOHN GLASGOW is other details, deceased forename blank. Retain populated death date/location uncertain pending original.",
+      "review_ids": [
+        "update-glasgow-3056"
+      ]
+    },
+    "update-glasgow-3087": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3087"
+      ],
+      "assessment": "Existing attached profile Glasgow-3087; retain pending amendment: Pending WikiTree research note: the unnamed 6 August 1687 Kilwinning entry may accompany John and Bessie Smith’s 30 July entry; identity and event type remain unresolved.",
+      "review_ids": [
+        "update-glasgow-3087"
+      ]
+    },
+    "update-glasgow-3093": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3093"
+      ],
+      "assessment": "Existing attached profile Glasgow-3093; retain pending amendment: Review selected uncertain Libberton/Uphall parent hypotheses and full surviving identity alternatives. Robert’s mother remains unknown; Thomas’s two parent links share an uncertain 1675-child identity. Preserve source dates, existing child/couple records and all earlier amendments. Review the conditional James Glasgow-3332 father for the Carnwath Robert, the required earlier birth, the overlapping Robert households and retained Johne alternative; preserve all existing records, mothers and uncertainty.",
+      "review_ids": [
+        "update-glasgow-3093"
+      ]
+    },
+    "update-glasgow-3117": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3117"
+      ],
+      "assessment": "Existing attached profile Glasgow-3117; retain pending amendment: Add the combined Gordon household assessment: documented named-father roles, separately probable Agnes Watt maternity and preserved later-adult identity and vital-field qualifications.",
+      "review_ids": [
+        "update-glasgow-3117"
+      ]
+    },
+    "update-glasgow-3161": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3161"
+      ],
+      "assessment": "Existing attached profile Glasgow-3161; retain pending amendment: Review the two conditional Ayrshire/Maryland father hypotheses and possible childhood identities; retain the date conflicts, alternative Johns and Patricks, separately assessed mothers and all existing sources.",
+      "review_ids": [
+        "update-glasgow-3161"
+      ]
+    },
+    "update-glasgow-3193": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3193"
+      ],
+      "assessment": "Existing attached profile Glasgow-3193; retain pending amendment: Review the Saltcoats family’s selected uncertain upstream father, retained alternatives and unknown birth; preserve the daughters’ already-confident father links. No new mother or certainty upgrade. Add the preferred uncertain Ayrshire route above Hugh; retain James of Mid Calder as an alternative, all earlier identity limits and complete source detail. No live parent change.",
+      "review_ids": [
+        "update-glasgow-3193"
+      ]
+    },
+    "update-glasgow-3296": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3296"
+      ],
+      "assessment": "Existing attached profile Glasgow-3296; retain pending amendment: Review two uncertain father placements, their dependent paternal-sibling hypothesis and retained alternatives. Replace James’s impossible 1605 birth estimate with the conditional before-1595 adult bound; use death before 26 July 1624 and no proved death place. No new mother or certainty upgrade. Retain James-3332 as an identity alternative; do not exclude it from an estimated birth alone.",
+      "review_ids": [
+        "update-glasgow-3296"
+      ]
+    },
+    "update-glasgow-3331": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3331"
+      ],
+      "assessment": "Existing attached profile Glasgow-3331; retain pending amendment: Mark attached children Glasgow-1498/2731 uncertain; distinguish the 1650/1662/1685 estates and require the original 1662 estate before resolving identity.",
+      "review_ids": [
+        "update-glasgow-3331"
+      ]
+    },
+    "update-glasgow-3375": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3375"
+      ],
+      "assessment": "Existing attached profile Glasgow-3375; retain pending amendment: Review the selected uncertain Ayrshire family, independent maternal evidence and surviving alternatives; preserve current biography and all prior corrections. Review the new uncertain Glenarm/Stevenston father hypotheses, conditional paternal siblings and retained same-name alternatives. Both new mothers remain unknown. No date, existing confidence grade or identity merge is established. Review the two conditional Ayrshire/Maryland father hypotheses and possible childhood identities; retain the date conflicts, alternative Johns and Patricks, separately assessed mothers and all existing sources. Review the very uncertain Kilwinning parent pair for the 1693 Irvine father only; preserve the fourteen-year age problem, competing adult identities, date readings and all existing sources. No merge or certainty upgrade.",
+      "review_ids": [
+        "update-glasgow-3375"
+      ]
+    },
+    "update-glasgow-3481": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3481"
+      ],
+      "assessment": "Existing attached profile Glasgow-3481; retain pending amendment: Review selected uncertain Calder/Irvine parents and the full child/adult comparisons. Preserve the Guthrie/Meek household distinction, the two George generations, source-date discrepancies and earlier amendments. No live merge, new spouse or confidence upgrade.",
+      "review_ids": [
+        "update-glasgow-3481"
+      ]
+    },
+    "update-glasgow-3525": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3525"
+      ],
+      "assessment": "Existing attached profile Glasgow-3525; retain pending amendment: Review the uncertain Michael→Robert and James→older-William father models; preserve the 1547 alternative and qualify the tree-held Helen date without changing current family fields. Review the uncertain James Glasgow-3526 father through the possible 1717 child identity, with James Glasgow-1547 retained as an alternative account; preserve estimated dates, the Meek-household comparison, existing child links and all earlier qualifications.",
+      "review_ids": [
+        "update-glasgow-3525"
+      ]
+    },
+    "update-glasgow-3610": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3610"
+      ],
+      "assessment": "Existing attached profile Glasgow-3610; retain pending amendment: Add John Glasgow, Mid Calder/Quothquan working identity as the selected uncertain working father, with logic and alternatives; preserve current facts and sources. Local model, pending owner-reviewed WikiTree amendment. Review the newly selected uncertain Lothian father, retained alternatives and independently unknown mother. Earlier completed corrections remain completed. Mark the existing 1649 father relationship confident for the record-defined child; retain uncertain 1608 identity, unknown mother and unresolved 4 April/22 April date. No new father attachment.",
+      "review_ids": [
+        "update-glasgow-3610"
+      ]
+    },
+    "update-glasgow-3960": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3960"
+      ],
+      "assessment": "Existing attached profile Glasgow-3960; retain pending amendment: Review the very uncertain Tyrone–Leitrim father model and competing same-John identity; preserve estimated dates, both townland interpretations and the unproved existing John–James relationship. Keep the 1728 record separate from the older 1707 birth estimate.",
+      "review_ids": [
+        "update-glasgow-3960"
+      ]
+    },
+    "update-glasgow-4090": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-4090"
+      ],
+      "assessment": "Existing attached profile Glasgow-4090; retain pending amendment: Larne & Kilwaughter audit 6 Oct 2026. Set the father link to Glasgow-4179 to uncertain after confirming the live state (no record supports it); keep the attachment. Lead the biography with the 1846 marriage record; move the 1796 Desertoghill entry to a possible-identity section; mark the birthplace and 'before 1772' uncertain.",
+      "review_ids": [
+        "update-glasgow-4090"
+      ]
+    },
+    "update-glasgow-4152": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-4152"
+      ],
+      "assessment": "Existing attached profile Glasgow-4152; retain pending amendment: Review the Saltcoats family’s selected uncertain upstream father, retained alternatives and unknown birth; preserve the daughters’ already-confident father links. No new mother or certainty upgrade.",
+      "review_ids": [
+        "update-glasgow-4152"
+      ]
+    },
+    "update-glasgow-4179": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-4179"
+      ],
+      "assessment": "Existing attached profile Glasgow-4179; retain pending amendment: Note that the son link from Glasgow-4090 has no record.",
+      "review_ids": [
+        "update-glasgow-4179"
+      ]
+    },
+    "update-glasgow-551": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-551"
+      ],
+      "assessment": "Existing attached profile Glasgow-551; retain pending amendment: Review the very uncertain Tyrone–Leitrim father model and competing same-John identity; preserve estimated dates, both townland interpretations and the unproved existing John–James relationship. Keep the 1728 record separate from the older 1707 birth estimate. Explain the probable traditional William–John–Hugh father roles from the explicit pedigree and nearer household comparison; retain Scottish, 1740 and Leitrim identity uncertainty.",
+      "review_ids": [
+        "update-glasgow-551"
+      ]
+    },
+    "update-glasgow-822": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-822"
+      ],
+      "assessment": "Existing attached profile Glasgow-822; retain pending amendment: Add the independent 1821 McKeown Bible and Drimbolg evidence and explain unresolved Larne/Inishrush kinship and DNA limits; qualify conflicting 1831 denomination transcriptions while preserving the existing migration corrections, family details, quotations and sources.",
+      "review_ids": [
+        "update-glasgow-822"
+      ]
+    },
+    "update-glasgow-867": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-867"
+      ],
+      "assessment": "Existing attached profile Glasgow-867; retain pending amendment: Add the 1846 witnesses James Garvin and Wm Neely and the bride's residence.",
+      "review_ids": [
+        "update-glasgow-867"
+      ]
+    },
+    "update-glasgow-1073": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1073"
+      ],
+      "assessment": "Existing attached profile Glasgow-1073; retain pending amendment: Review selected uncertain father Glasgow-1604 for the Kilbirnie minister; retain Glasgow-1078 as an alternative, maternity independently unproved, and the possible Glasgow-3375 duplicate. Existing child-group audit remains open. Complete biography preserved. Add the preferred uncertain Ayrshire route above Hugh; retain James of Mid Calder as an alternative, all earlier identity limits and complete source detail. No live parent change.",
+      "review_ids": [
+        "update-glasgow-1073"
+      ]
+    },
+    "update-glasgow-1434": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1434"
+      ],
+      "assessment": "Existing attached profile Glasgow-1434; retain pending amendment: Review the new uncertain Glenarm/Stevenston father hypotheses, conditional paternal siblings and retained same-name alternatives. Both new mothers remain unknown. No date, existing confidence grade or identity merge is established. Review the very uncertain Kilwinning parent pair for the 1693 Irvine father only; preserve the fourteen-year age problem, competing adult identities, date readings and all existing sources. No merge or certainty upgrade.",
+      "review_ids": [
+        "update-glasgow-1434"
+      ]
+    },
+    "update-glasgow-3262": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3262"
+      ],
+      "assessment": "Existing attached profile Glasgow-3262; retain pending amendment: Review research-note addition explaining Andrew Glasgow of Corsoun, Calder as the selected uncertain local father; preserve alternatives. No live parent attachment requested; respect profile manager scope.",
+      "review_ids": [
+        "update-glasgow-3262"
+      ]
+    },
+    "update-cunningham-20923": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Cunningham-20923"
+      ],
+      "assessment": "Existing attached profile Cunningham-20923; retain pending amendment: Review the selected uncertain Larne family; preserve separate Robert/James accounts, independent maternity, source limitations and all biography detail. Review the 1652 Edinburgh cordiner’s uncertain 1618 childhood and independently assessed parents; retain the Larne/Lorimer alternatives and all prior amendments.",
+      "review_ids": [
+        "update-cunningham-20923"
+      ]
+    },
+    "update-cunningham-22604": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Cunningham-22604"
+      ],
+      "assessment": "Existing attached profile Cunningham-22604; retain pending amendment: Review selected uncertain father Glasgow-1604 for the Kilbirnie minister; retain Glasgow-1078 as an alternative, maternity independently unproved, and the possible Glasgow-3375 duplicate. Existing child-group audit remains open. Complete biography preserved.",
+      "review_ids": [
+        "update-cunningham-22604"
+      ]
+    },
+    "update-mathie-159": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Mathie-159"
+      ],
+      "assessment": "Existing attached profile Mathie-159; retain pending amendment: Review the selected uncertain Stevenston and South Leith families and full competing-parent discussion. Matthew’s proposed John/Jonet parent pair is very tentative; Margaret’s proposed William father does not exclude the Rathmalton daughter identity. Keep inherited estimates distinct from recorded events; Margaret’s death place remains unknown.",
+      "review_ids": [
+        "update-mathie-159"
+      ]
+    },
+    "update-glasgow-3099": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3099"
+      ],
+      "assessment": "Existing attached profile Glasgow-3099; retain pending amendment: Pending WikiTree update: add the 24/02/1653 Edinburgh index date and explain its difference from the existing birth details.",
+      "review_ids": [
+        "update-glasgow-3099"
+      ]
+    },
+    "update-glasgow-1543": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1543"
+      ],
+      "assessment": "Existing attached profile Glasgow-1543; retain pending amendment: Explain the probable Moneymore father from the explicit family-history attribution and established brothers; retain separate identity, ancestry and maternity limits.",
+      "review_ids": [
+        "update-glasgow-1543"
+      ]
+    },
+    "update-wilson-127539": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Wilson-127539"
+      ],
+      "assessment": "Existing attached profile Wilson-127539; retain pending amendment: Add the named Scottish baptism parents, with the American identity explicitly unproved. The local documented record roles do not authorize an unqualified live certainty change.",
+      "review_ids": [
+        "update-wilson-127539"
+      ]
+    },
+    "update-glasgow-4153": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-4153"
+      ],
+      "assessment": "Existing attached profile Glasgow-4153; retain pending amendment: Review the Saltcoats family’s selected uncertain upstream father, retained alternatives and unknown birth; preserve the daughters’ already-confident father links. No new mother or certainty upgrade.",
+      "review_ids": [
+        "update-glasgow-4153"
+      ]
+    },
+    "update-glasgow-2581": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2581"
+      ],
+      "assessment": "Existing attached profile Glasgow-2581; retain pending amendment: Review the very uncertain Lemuel–Caleb father hypothesis, the alternative Caleb account and conflicting chronology/will identity; retain all earlier sources and family links. No mother, merge or confidence upgrade.",
+      "review_ids": [
+        "update-glasgow-2581"
+      ]
+    },
+    "update-glasgow-3186": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3186"
+      ],
+      "assessment": "Existing attached profile Glasgow-3186; retain pending amendment: Review the selected uncertain Stevenston and South Leith families and full competing-parent discussion. Matthew’s proposed John/Jonet parent pair is very tentative; Margaret’s proposed William father does not exclude the Rathmalton daughter identity. Keep inherited estimates distinct from recorded events; Margaret’s death place remains unknown.",
+      "review_ids": [
+        "update-glasgow-3186"
+      ]
+    },
+    "update-lachland-2": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Lachland-2"
+      ],
+      "assessment": "Existing attached profile Lachland-2; retain pending amendment: Review the selected uncertain Ayrshire family, independent maternal evidence and surviving alternatives; preserve current biography and all prior corrections.",
+      "review_ids": [
+        "update-lachland-2"
+      ]
+    },
+    "update-stewart-65226": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Stewart-65226"
+      ],
+      "assessment": "Existing attached profile Stewart-65226; retain pending amendment: Add the Scottish–Donegal family review: probable Scottish parents and Lifford son; documented Elizabeth spouse. Preserve separate identity limits and all existing detail.",
+      "review_ids": [
+        "update-stewart-65226"
+      ]
+    },
+    "update-glasgow-3050": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3050"
+      ],
+      "assessment": "Existing attached profile Glasgow-3050; retain pending amendment: Pending WikiTree update: qualify the 16 November 1643 date attribution; the indexed parents are William Glasgow and Bessie Howie, not the household attached to this profile.",
+      "review_ids": [
+        "update-glasgow-3050"
+      ]
+    },
+    "update-glasgow-3112": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3112"
+      ],
+      "assessment": "Existing attached profile Glasgow-3112; retain pending amendment: Compatible 1674 indexed event with William Thomsone; date remains uncertain as banns versus wedding.",
+      "review_ids": [
+        "update-glasgow-3112"
+      ]
+    },
+    "update-glasgow-3162": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3162"
+      ],
+      "assessment": "Existing attached profile Glasgow-3162; retain pending amendment: Pending WikiTree update: add the 23/09/1688 Kilwinning index date and explain its difference from the existing birth details.",
+      "review_ids": [
+        "update-glasgow-3162"
+      ]
+    },
+    "update-glasgow-3365": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3365"
+      ],
+      "assessment": "Existing attached profile Glasgow-3365; retain pending amendment: Add the combined Gordon household assessment: documented named-father roles, separately probable Agnes Watt maternity and preserved later-adult identity and vital-field qualifications.",
+      "review_ids": [
+        "update-glasgow-3365"
+      ]
+    },
+    "update-glasgow-3598": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3598"
+      ],
+      "assessment": "Existing attached profile Glasgow-3598; retain pending amendment: Review complete additive draft: Ninian Glasgow selected as uncertain local father of Margaret Glasgow, wife of William Hardie; preserve niece, identity and other-family alternatives. No live father attachment requested; manager scope still applies.",
+      "review_ids": [
+        "update-glasgow-3598"
+      ]
+    },
+    "update-glasgow-2898": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2898"
+      ],
+      "assessment": "Existing attached profile Glasgow-2898; retain pending amendment: Newspaper identity review 6 Oct 2026. Relationships: Glasgow-2898 daughter of Wightman-3457 → add uncertain Add sourced facts: Born c.16 Mar 1841 (from 'aged two months and twenty-six days'); died at Rajkot, Kathiawar, 11 June 1841.",
+      "review_ids": [
+        "update-glasgow-2898"
+      ]
+    },
+    "update-glasgow-3977": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3977"
+      ],
+      "assessment": "Existing attached profile Glasgow-3977; retain pending amendment: County Antrim birthplace (1773) conflicts with her father's emigration; mark unsupported, do not blank.",
+      "review_ids": [
+        "update-glasgow-3977"
+      ]
+    },
+    "update-mccullough-1964": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "McCullough-1964"
+      ],
+      "assessment": "Existing attached profile McCullough-1964; retain pending amendment: Explain the probable Hugh–McCullough parentage from the descendant account and independently matching Pennsylvania household, with the earlier unmarked flags, source limitations and unresolved 1740 identities retained.",
+      "review_ids": [
+        "update-mccullough-1964"
+      ]
+    },
+    "update-glasgow-3025": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3025"
+      ],
+      "assessment": "Existing attached profile Glasgow-3025; retain pending amendment: Compatible single reciprocal 1681 event; recorded William remains unidentified.\n\nPending WikiTree update: compatible single reciprocal 1681 event; recorded William remains unidentified; also add the 04/11/1655 parish-index date comparison.",
+      "review_ids": [
+        "update-glasgow-3025"
+      ]
+    },
+    "update-glasgow-3049": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3049"
+      ],
+      "assessment": "Existing attached profile Glasgow-3049; retain pending amendment: Review full additive research note: restore the existing merged-ID Inveresk father in the local model and explain the uncertain combined Thomas identity, Bryse chronology and alternatives. Not a new father attachment; no live relationship change requested.",
+      "review_ids": [
+        "update-glasgow-3049"
+      ]
+    },
+    "update-glasgow-1429": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1429"
+      ],
+      "assessment": "Existing attached profile Glasgow-1429; retain pending amendment: Cite the Fisherrow family review: probable Fisherrow father/couple match, documented Janet spouse and strongly supported Inveresk fathers; retain separate adult identities and older ancestry.",
+      "review_ids": [
+        "update-glasgow-1429"
+      ]
+    },
+    "update-simpson-18136": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Simpson-18136"
+      ],
+      "assessment": "Existing attached profile Simpson-18136; retain pending amendment: Cite the parish-parent review: probable Kirknewton father, documented Kilwinning father/mother roles; retain separate adult identities and older ancestry.",
+      "review_ids": [
+        "update-simpson-18136"
+      ]
+    },
+    "update-wightman-3457": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Wightman-3457"
+      ],
+      "assessment": "Existing attached profile Wightman-3457; retain pending amendment: Newspaper identity review 6 Oct 2026. Relationships: Glasgow-2898 daughter of Wightman-3457 → add uncertain Add sourced facts: Described as 'of Belfast' at her marriage on 27 June 1840.",
+      "review_ids": [
+        "update-wightman-3457"
+      ]
+    },
+    "update-glasgow-3167": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3167"
+      ],
+      "assessment": "Existing attached profile Glasgow-3167; retain pending amendment: Research note: probable informant at her father's 1888 death; possible identity with the 1838 child. No merge.",
+      "review_ids": [
+        "update-glasgow-3167"
+      ]
+    },
+    "update-braccan-2": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Braccan-2"
+      ],
+      "assessment": "Existing attached profile Braccan-2; retain pending amendment: Newspaper identity review 6 Oct 2026. Add sourced facts: Died at Christ-church-lane, Dublin, on the 24th (September 1765) per Faulkner's transcription, and by 28 Sep 1765 per the Freeman's Journal. Described as wife o",
+      "review_ids": [
+        "update-braccan-2"
+      ]
+    },
+    "update-glasgow-1241": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1241"
+      ],
+      "assessment": "Existing attached profile Glasgow-1241; retain pending amendment: Review selected uncertain Dublin/Irvine fathers, conditional Scottish watchmaker identity and retained younger Philip duplicates. Separate junior notices from the elder account; the 1772 elder death replaces an unsupported after 1772 inference locally. No new mother or confidence upgrade.",
+      "review_ids": [
+        "update-glasgow-1241"
+      ]
+    },
+    "update-glasgow-3989": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3989"
+      ],
+      "assessment": "Existing attached profile Glasgow-3989; retain pending amendment: Possible duplicate of Glasgow-4181. Hold both.",
+      "review_ids": [
+        "update-glasgow-3989"
+      ]
+    },
+    "update-glasgow-4269": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-4269"
+      ],
+      "assessment": "Existing attached profile Glasgow-4269; retain pending amendment: Correct Mary Glasgow to Mary Ellen Glasgow, born 14 February 1867 at Lisnagaver, County Antrim, Ireland, from inspected original Dirraw/Ballymoney birth entry 214. Preserve conflicting GRONI index citation (17 February), document mother Mary Glasgow and informant Ann Glasgow, and keep their candidate profile identifications qualified. No father is recorded.",
+      "review_ids": [
+        "update-glasgow-4269"
+      ]
+    },
+    "update-glasgow-4181": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-4181"
+      ],
+      "assessment": "Existing attached profile Glasgow-4181; retain pending amendment: Possible duplicate of Glasgow-3989; death years differ by one. Hold both.",
+      "review_ids": [
+        "update-glasgow-4181"
+      ]
+    },
+    "update-glasgow-4093": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-4093"
+      ],
+      "assessment": "Existing attached profile Glasgow-4093; retain pending amendment: Add indexed Thomson–Sneddon candidate and conditional age comparison; preserve probate-defined identity and uncertain parentage without assigning Scottish household.",
+      "review_ids": [
+        "update-glasgow-4093"
+      ]
+    },
+    "update-glasgow-3538": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3538"
+      ],
+      "assessment": "Existing attached profile Glasgow-3538; retain pending amendment: Review the selected uncertain Stevenston and South Leith families and full competing-parent discussion. Matthew’s proposed John/Jonet parent pair is very tentative; Margaret’s proposed William father does not exclude the Rathmalton daughter identity. Keep inherited estimates distinct from recorded events; Margaret’s death place remains unknown.",
+      "review_ids": [
+        "update-glasgow-3538"
+      ]
+    },
+    "update-glasgow-1406": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1406"
+      ],
+      "assessment": "Existing attached profile Glasgow-1406; retain pending amendment: Review the uncertain Michael→Robert and James→older-William father models; preserve the 1547 alternative and qualify the tree-held Helen date without changing current family fields.",
+      "review_ids": [
+        "update-glasgow-1406"
+      ]
+    },
+    "update-glasgow-3911": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3911"
+      ],
+      "assessment": "Existing attached profile Glasgow-3911; retain pending amendment: Review research-note addition explaining William Glasgow of Saltmarket as the selected uncertain local father; preserve alternatives. No live parent attachment requested; respect profile manager scope.",
+      "review_ids": [
+        "update-glasgow-3911"
+      ]
+    },
+    "update-glasgow-3907": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3907"
+      ],
+      "assessment": "Existing attached profile Glasgow-3907; retain pending amendment: Newspaper identity review 6 Oct 2026. Add sourced facts: Married John Kyle of Tyanee on 14 Jan 1842. Described as the 'sixth daughter' of Adam Glasgow of Inishrush, so he had at least six daughters; only Eliza and Nan",
+      "review_ids": [
+        "update-glasgow-3907"
+      ]
+    },
+    "update-glasgow-4070": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-4070"
+      ],
+      "assessment": "Existing attached profile Glasgow-4070; retain pending amendment: Add the inspected 1891 death notice and 1894 docket chronology; preserve conflicting ages and John-867 memorial/civil dates without changing parentage.",
+      "review_ids": [
+        "update-glasgow-4070"
+      ]
+    },
+    "update-glasgow-3920": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3920"
+      ],
+      "assessment": "Existing attached profile Glasgow-3920; retain pending amendment: Review the very uncertain Gordon Patrick father for the Kilclone Patrick, retaining the memorial age 60, pre 1707 child problem, no mother and separate Scottish child/adult identity question. Preserve the proved memorial family and James’s 1736 index-error warning.",
+      "review_ids": [
+        "update-glasgow-3920"
+      ]
+    },
+    "update-glasgow-1440": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1440"
+      ],
+      "assessment": "Existing attached profile Glasgow-1440; retain pending amendment: Review the very uncertain Gordon Patrick father for the Kilclone Patrick, retaining the memorial age 60, pre 1707 child problem, no mother and separate Scottish child/adult identity question. Preserve the proved memorial family and James’s 1736 index-error warning. Add the combined Gordon household assessment: documented named-father roles, separately probable Agnes Watt maternity and preserved later-adult identity and vital-field qualifications.",
+      "review_ids": [
+        "update-glasgow-1440"
+      ]
+    },
+    "update-glasgow-3160": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3160"
+      ],
+      "assessment": "Existing attached profile Glasgow-3160; retain pending amendment: Review the two conditional Ayrshire/Maryland father hypotheses and possible childhood identities; retain the date conflicts, alternative Johns and Patricks, separately assessed mothers and all existing sources.",
+      "review_ids": [
+        "update-glasgow-3160"
+      ]
+    },
+    "update-glasco-146": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasco-146"
+      ],
+      "assessment": "Existing attached profile Glasco-146; retain pending amendment: Review selected uncertain Dublin/Irvine fathers, conditional Scottish watchmaker identity and retained younger Philip duplicates. Separate junior notices from the elder account; the 1772 elder death replaces an unsupported after 1772 inference locally. No new mother or confidence upgrade.",
+      "review_ids": [
+        "update-glasco-146"
+      ]
+    },
+    "update-glasco-147": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasco-147"
+      ],
+      "assessment": "Existing attached profile Glasco-147; retain pending amendment: Review selected uncertain Dublin/Irvine fathers, conditional Scottish watchmaker identity and retained younger Philip duplicates. Separate junior notices from the elder account; the 1772 elder death replaces an unsupported after 1772 inference locally. No new mother or confidence upgrade.",
+      "review_ids": [
+        "update-glasco-147"
+      ]
+    },
+    "update-glasgow-3932": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3932"
+      ],
+      "assessment": "Existing attached profile Glasgow-3932; retain pending amendment: Replace the unrelated Robert-of-Kilrea1827 biography with the complete sourced Dublin watchmaker account; preserve actual current/replacement comparison and strong Glasco-147 identity for merge review. No live merge, new spouse or father-grade upgrade.",
+      "review_ids": [
+        "update-glasgow-3932"
+      ]
+    },
+    "update-dunlop-2189": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Dunlop-2189"
+      ],
+      "assessment": "Existing attached profile Dunlop-2189; retain pending amendment: Newspaper identity review 6 Oct 2026. Relationships: Dunlop-2189 daughter of Dunlop-2144 → upgrade to confident",
+      "review_ids": [
+        "update-dunlop-2189"
+      ]
+    },
+    "update-glasgow-3978": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3978"
+      ],
+      "assessment": "Existing attached profile Glasgow-3978; retain pending amendment: Larne & Kilwaughter audit 6 Oct 2026. County Antrim birthplace (1775) conflicts with her father's emigration; mark unsupported, do not blank.",
+      "review_ids": [
+        "update-glasgow-3978"
+      ]
+    },
+    "update-wilson-78088": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Wilson-78088"
+      ],
+      "assessment": "Existing attached profile Wilson-78088; retain pending amendment: Larne & Kilwaughter audit 6 Oct 2026. Birth about 1690 to 1712 (1680 is an unsourced placeholder); death 1742 as given in the 1817 pleading.",
+      "review_ids": [
+        "update-wilson-78088"
+      ]
+    },
+    "update-drake-13873": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Drake-13873"
+      ],
+      "assessment": "Existing attached profile Drake-13873; retain pending amendment: Newspaper identity review 6 Oct 2026. Add sourced facts: Son of Rev John Drake, rector of Stourton.",
+      "review_ids": [
+        "update-drake-13873"
+      ]
+    },
+    "update-glasgow-635": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-635"
+      ],
+      "assessment": "Existing attached profile Glasgow-635; retain pending amendment: Review the two conditional Ayrshire/Maryland father hypotheses and possible childhood identities; retain the date conflicts, alternative Johns and Patricks, separately assessed mothers and all existing sources.",
+      "review_ids": [
+        "update-glasgow-635"
+      ]
+    },
+    "update-glasgow-1076": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1076"
+      ],
+      "assessment": "Existing attached profile Glasgow-1076; retain pending amendment: Add the 1785 St Vincent staff-surgeon appointment (probable identification), the 1808 Ayr county meeting and the 1835 Allan v. Glasgow's Trustees appeal.",
+      "review_ids": [
+        "update-glasgow-1076"
+      ]
+    },
+    "update-robertson-30564": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Robertson-30564"
+      ],
+      "assessment": "Existing attached profile Robertson-30564; retain pending amendment: Newspaper identity review 6 Oct 2026. Relationships: Glasgow-3003 daughter of Robertson-30564 → upgrade to confident; Glasgow-3000 daughter of Robertson-30564 → upgrade to confident Add sourced facts: Dead by Aug 1847 ('the late Robert Glasgow, Esq., of Montgreenan'); his son inherited Montgreenan in 1845.",
+      "review_ids": [
+        "update-robertson-30564"
+      ]
+    },
+    "update-glasgow-1068": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1068"
+      ],
+      "assessment": "Existing attached profile Glasgow-1068; retain pending amendment: Pending WikiTree update: add the 30/11/1678 Kilwinning index date and explain its difference from the existing birth details.",
+      "review_ids": [
+        "update-glasgow-1068"
+      ]
+    },
+    "update-glasgow-1143": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1143"
+      ],
+      "assessment": "Existing attached profile Glasgow-1143; retain pending amendment: Set the father link to Glasgow-1502 to uncertain (it has no status; the other three sons' links are uncertain). Keep the attachment. Add the caution that Robert-1502 is recorded only for the South Side in 1700-1701.\n\nBirth about 1708 or earlier; death after 20 December 1764, probably after April 1772.",
+      "review_ids": [
+        "update-glasgow-1143"
+      ]
+    },
+    "update-glasgow-12": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-12"
+      ],
+      "assessment": "Existing attached profile Glasgow-12; retain pending amendment: Explain the probable Moneymore father from the explicit family-history attribution and established brothers; retain separate identity, ancestry and maternity limits.",
+      "review_ids": [
+        "update-glasgow-12"
+      ]
+    },
+    "update-glasgow-1374": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1374"
+      ],
+      "assessment": "Existing attached profile Glasgow-1374; retain pending amendment: Pending WikiTree update: add the 11/05/1655 Edinburgh index date and explain its difference from the existing birth details.",
+      "review_ids": [
+        "update-glasgow-1374"
+      ]
+    },
+    "update-glasgow-1502": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1502"
+      ],
+      "assessment": "Existing attached profile Glasgow-1502; retain pending amendment: Larne & Kilwaughter audit 6 Oct 2026. Active 1700-1701, not 1699-1700; South Side only; birth before about 1679; the 1747 session Robert is probably Robert-1143.",
+      "review_ids": [
+        "update-glasgow-1502"
+      ]
+    },
+    "update-glasgow-1512": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1512"
+      ],
+      "assessment": "Existing attached profile Glasgow-1512; retain pending amendment: Review the uncertain Michael→Robert and James→older-William father models; preserve the 1547 alternative and qualify the tree-held Helen date without changing current family fields.",
+      "review_ids": [
+        "update-glasgow-1512"
+      ]
+    },
+    "update-glasgow-1983": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1983"
+      ],
+      "assessment": "Existing attached profile Glasgow-1983; retain pending amendment: Born about September or October 1762 (stone age), not 1763.",
+      "review_ids": [
+        "update-glasgow-1983"
+      ]
+    },
+    "update-glasgow-2867": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2867"
+      ],
+      "assessment": "Existing attached profile Glasgow-2867; retain pending amendment: The spouse correction is complete. Replace Glasgow-2867 with the strong Glencorse candidate Glasgow-3011 in the father field of Christian-3492, John-3491 and James-2868 in controlled changes, retaining uncertain status and never leaving a father blank. Correct the biography's stale attached-wife sentence; retain the maritime evidence and all citations. Newspaper identity review 6 Oct 2026. Add sou\n\nDavidson-20783 now has only Glasgow-3011 as her uncertain husband. The three older children remain uncertain under the shipmaster pending controlled replacement with Glasgow-3011. [Findings](../research/Glasgow-2867/findings.md)",
+      "review_ids": [
+        "update-glasgow-2867"
+      ]
+    },
+    "update-glasgow-3106": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3106"
+      ],
+      "assessment": "Existing attached profile Glasgow-3106; retain pending amendment: Add the combined Gordon household assessment: documented named-father roles, separately probable Agnes Watt maternity and preserved later-adult identity and vital-field qualifications.",
+      "review_ids": [
+        "update-glasgow-3106"
+      ]
+    },
+    "update-glasgow-3357": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3357"
+      ],
+      "assessment": "Existing attached profile Glasgow-3357; retain pending amendment: Pending WikiTree update: add the 31/07/1646 Currie index date and explain its difference from the existing birth details.",
+      "review_ids": [
+        "update-glasgow-3357"
+      ]
+    },
+    "update-glasgow-3407": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3407"
+      ],
+      "assessment": "Existing attached profile Glasgow-3407; retain pending amendment: Review the conditional James Glasgow-3332 father for the Carnwath Robert, the required earlier birth, the overlapping Robert households and retained Johne alternative; preserve all existing records, mothers and uncertainty. Add the named Scottish baptism parents, with the American identity explicitly unproved. The local documented record roles do not authorize an unqualified live certainty change.",
+      "review_ids": [
+        "update-glasgow-3407"
+      ]
+    },
+    "update-glasgow-3938": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3938"
+      ],
+      "assessment": "Existing attached profile Glasgow-3938; retain pending amendment: Review the 1652 Edinburgh cordiner’s uncertain 1618 childhood and independently assessed parents; retain the Larne/Lorimer alternatives and all prior amendments.",
+      "review_ids": [
+        "update-glasgow-3938"
+      ]
+    },
+    "update-glasgow-395": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-395"
+      ],
+      "assessment": "Existing attached profile Glasgow-395; retain pending amendment: Review the very uncertain James-and-Ann parent model for Robert/Apphia’s family; preserve the 1786 notice identity alternative, omitted Robert, unproved Hartshorne surname and Scottish–Maryland continuity gap. No merge or certainty upgrade.",
+      "review_ids": [
+        "update-glasgow-395"
+      ]
+    },
+    "update-glasgow-4006": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-4006"
+      ],
+      "assessment": "Existing attached profile Glasgow-4006; retain pending amendment: Explain the preferred uncertain Corsoun parents, the retained burgh-parent alternatives, and the separately documented 1598 household. No live parent replacement or new profile merge is performed.",
+      "review_ids": [
+        "update-glasgow-4006"
+      ]
+    },
+    "update-glasgow-4150": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-4150"
+      ],
+      "assessment": "Existing attached profile Glasgow-4150; retain pending amendment: Preserve complete will/deed/census/duplicate-check account, link documented brothers and explain Alexander-3904 as uncertain inherited father hypothesis. Attach Alexander-3904 only as uncertain father; this structured action remains pending and separate from the already-proved sibling relationships.",
+      "review_ids": [
+        "update-glasgow-4150"
+      ]
+    },
+    "update-glasgow-4168": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-4168"
+      ],
+      "assessment": "Existing attached profile Glasgow-4168; retain pending amendment: Review selected uncertain Libberton/Uphall parent hypotheses and full surviving identity alternatives. Robert’s mother remains unknown; Thomas’s two parent links share an uncertain 1675-child identity. Preserve source dates, existing child/couple records and all earlier amendments. Review the conditional James Glasgow-3332 father for the Carnwath Robert, the required earlier birth, the overlapping Robert households and retained Johne alternative; preserve all existing records, mothers and uncertainty.",
+      "review_ids": [
+        "update-glasgow-4168"
+      ]
+    },
+    "update-glasgow-2656": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2656"
+      ],
+      "assessment": "Existing attached profile Glasgow-2656; retain pending amendment: Newspaper identity review 6 Oct 2026. Relationships: Glasgow-4340 son of Glasgow-2656 → add uncertain Add sourced facts: Lead: a Robert Glasgow chaired the Cookstown Academy committee in Oct 1840. Identity with this profile is unproved.",
+      "review_ids": [
+        "update-glasgow-2656"
+      ]
+    },
+    "update-glasgow-1156": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1156"
+      ],
+      "assessment": "Existing attached profile Glasgow-1156; retain pending amendment: Explain the probable Robert–James father inference using the Duddingston apprenticeship/burial and exact burgess cross-reference; retain the uncertain live flag and independently unproved mother and earlier ancestry. Explain the preferred uncertain Corsoun parents, the retained burgh-parent alternatives, and the separately documented 1598 household. No live parent replacement or new profile merge is performed.",
+      "review_ids": [
+        "update-glasgow-1156"
+      ]
+    },
+    "update-glasgow-3970": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3970"
+      ],
+      "assessment": "Existing attached profile Glasgow-3970; retain pending amendment: Same kinship wording for his two attached sons. Retain earlier pending amendments. Review the selected uncertain Larne family; preserve separate Robert/James accounts, independent maternity, source limitations and all biography detail. Review the 1652 Edinburgh cordiner’s uncertain 1618 childhood and independently assessed parents; retain the Larne/Lorimer alternatives and all prior amendments. Review the new uncertain Glenarm/Stevenston father hypotheses, conditional paternal siblings and retained same-name alternatives. Both new mothers remain unknown. No date, existing confidence grade or identity merge is established.",
+      "review_ids": [
+        "update-glasgow-3970"
+      ]
+    },
+    "update-glasgow-1027": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1027"
+      ],
+      "assessment": "Existing attached profile Glasgow-1027; retain pending amendment: Review the selected uncertain Larne family; preserve separate Robert/James accounts, independent maternity, source limitations and all biography detail. Review the 1652 Edinburgh cordiner’s uncertain 1618 childhood and independently assessed parents; retain the Larne/Lorimer alternatives and all prior amendments.",
+      "review_ids": [
+        "update-glasgow-1027"
+      ]
+    },
+    "update-glasgow-1078": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1078"
+      ],
+      "assessment": "Existing attached profile Glasgow-1078; retain pending amendment: Review selected uncertain father Glasgow-1604 for the Kilbirnie minister; retain Glasgow-1078 as an alternative, maternity independently unproved, and the possible Glasgow-3375 duplicate. Existing child-group audit remains open. Complete biography preserved. Retain earlier pending amendments. Review the selected uncertain Larne family; preserve separate Robert/James accounts, independent maternity, source limitations and all biography detail. Review the 1652 Edinburgh cordiner’s uncertain 1618 childhood and independently assessed parents; retain the Larne/Lorimer alternatives and all prior amendments.",
+      "review_ids": [
+        "update-glasgow-1078"
+      ]
+    },
+    "update-glasgow-3175": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3175"
+      ],
+      "assessment": "Existing attached profile Glasgow-3175; retain pending amendment: Cite the original 1761 theft trial and respite; Qualify the unproved Ulster/Pennsylvania identity bridge and military commutation. Record the 1791 Washington County justice as a possible candidate, preserving identity limits.",
+      "review_ids": [
+        "update-glasgow-3175"
+      ]
+    },
+    "update-glasgow-4010": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-4010"
+      ],
+      "assessment": "Existing attached profile Glasgow-4010; retain pending amendment: Add the uncertain Alexander-3904 father hypothesis to Samuel’s existing complete sibling biography, preserving all original and derivative sources. Correct census child-count arithmetic with earlier assessment retained; keep dated duplicate-search provenance. Any uncertain father attachment is separately pending; do not imply sibling evidence is missing.",
+      "review_ids": [
+        "update-glasgow-4010"
+      ]
+    },
+    "update-glasgow-3975": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3975"
+      ],
+      "assessment": "Existing attached profile Glasgow-3975; retain pending amendment: Add the 1871 Kilrea school entry (probable); review the birth estimate, about 1861–62.",
+      "review_ids": [
+        "update-glasgow-3975"
+      ]
+    },
+    "update-glasgow-1029": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1029"
+      ],
+      "assessment": "Existing attached profile Glasgow-1029; retain pending amendment: Review two uncertain father placements, their dependent paternal-sibling hypothesis and retained alternatives. Replace James’s impossible 1605 birth estimate with the conditional before-1595 adult bound; use death before 26 July 1624 and no proved death place. No new mother or certainty upgrade. Retain James-3332 as an identity alternative; do not exclude it from an estimated birth alone.",
+      "review_ids": [
+        "update-glasgow-1029"
+      ]
+    },
+    "update-glasgow-1103": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1103"
+      ],
+      "assessment": "Existing attached profile Glasgow-1103; retain pending amendment: Review full additive research note: restore the existing merged-ID Inveresk father in the local model and explain the uncertain combined Thomas identity, Bryse chronology and alternatives. Not a new father attachment; no live relationship change requested.",
+      "review_ids": [
+        "update-glasgow-1103"
+      ]
+    },
+    "update-glasgow-1226": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1226"
+      ],
+      "assessment": "Existing attached profile Glasgow-1226; retain pending amendment: Review selected uncertain Libberton/Uphall parent hypotheses and full surviving identity alternatives. Robert’s mother remains unknown; Thomas’s two parent links share an uncertain 1675-child identity. Preserve source dates, existing child/couple records and all earlier amendments.",
+      "review_ids": [
+        "update-glasgow-1226"
+      ]
+    },
+    "update-glasgow-1242": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1242"
+      ],
+      "assessment": "Existing attached profile Glasgow-1242; retain pending amendment: Review selected uncertain Libberton/Uphall parent hypotheses and full surviving identity alternatives. Robert’s mother remains unknown; Thomas’s two parent links share an uncertain 1675-child identity. Preserve source dates, existing child/couple records and all earlier amendments. Review selected uncertain Dublin/Irvine fathers, conditional Scottish watchmaker identity and retained younger Philip duplicates. Separate junior notices from the elder account; the 1772 elder death replaces an unsupported after 1772 inference locally. No new mother or confidence upgrade.",
+      "review_ids": [
+        "update-glasgow-1242"
+      ]
+    },
+    "update-glasgow-1311": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1311"
+      ],
+      "assessment": "Existing attached profile Glasgow-1311; retain pending amendment: Pending WikiTree update: add the 12/08/1666 St Cuthbert's index date and explain its difference from the existing birth details.",
+      "review_ids": [
+        "update-glasgow-1311"
+      ]
+    },
+    "update-glasgow-2461": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2461"
+      ],
+      "assessment": "Existing attached profile Glasgow-2461; retain pending amendment: Review full additive research note: restore the existing merged-ID Inveresk father in the local model and explain the uncertain combined Thomas identity, Bryse chronology and alternatives. Not a new father attachment; no live relationship change requested.",
+      "review_ids": [
+        "update-glasgow-2461"
+      ]
+    },
+    "update-glasgow-3556": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3556"
+      ],
+      "assessment": "Existing attached profile Glasgow-3556; retain pending amendment: Add Betham’s named eldest son and the qualified Lifford purchase transcription to the complete biography, retaining all court/deed detail and uncertain father status. Reconcile existing 1701 evidence with the stale 1695 death bound and preserve prior assessments in Research Notes.",
+      "review_ids": [
+        "update-glasgow-3556"
+      ]
+    },
+    "update-mitchell-34480": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Mitchell-34480"
+      ],
+      "assessment": "Existing attached profile Mitchell-34480; retain pending amendment: Add the qualified Cookstown–Gortin working family: two uncertain fathers and the separately probable Hillsdale core. Preserve conflicting child lists, ages, origins and existing text; no live save.",
+      "review_ids": [
+        "update-mitchell-34480"
+      ]
+    },
+    "update-glasgow-3940": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3940"
+      ],
+      "assessment": "Existing attached profile Glasgow-3940; retain pending amendment: Add a research note: the 1851 return also omits the living daughter Mary, so the child is not presumed to have died before 1841 and may be Mary (not proved; no merge).",
+      "review_ids": [
+        "update-glasgow-3940"
+      ]
+    },
+    "update-glasgow-2135": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2135"
+      ],
+      "assessment": "Existing attached profile Glasgow-2135; retain pending amendment: Newspaper identity review 6 Oct 2026. Add sourced facts: B.A., student of Tyrone Presbytery; accepted the unanimous call of First Dromara at the Presbytery meeting at Cookstown, 28 Jan 1896.",
+      "review_ids": [
+        "update-glasgow-2135"
+      ]
+    },
+    "update-glasgow-1098": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1098"
+      ],
+      "assessment": "Existing attached profile Glasgow-1098; retain pending amendment: Explain the probable Saltmarket father inference from the 1527–1564 title chain; retain the uncertain WikiTree flag, unresolved profile identity and unknown maternity.",
+      "review_ids": [
+        "update-glasgow-1098"
+      ]
+    },
+    "update-glasgow-1505": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1505"
+      ],
+      "assessment": "Existing attached profile Glasgow-1505; retain pending amendment: Larne & Kilwaughter audit 6 Oct 2026. Cite the 1739/40-1743 mortcloth receipts to the derivative account, not Porter; 'Major' may mean 'the elder'; birth about 1713 or earlier, death after 6 January 1775.",
+      "review_ids": [
+        "update-glasgow-1505"
+      ]
+    },
+    "update-glasgow-1605": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1605"
+      ],
+      "assessment": "Existing attached profile Glasgow-1605; retain pending amendment: Review the conditional Polwarth/Cavers/Ulster family, two very uncertain fathers through possible identity, the young Inveresk father and competing later Scottish identities. Preserve all prior sources, biography detail and migration limitations; no mother or live merge is selected.",
+      "review_ids": [
+        "update-glasgow-1605"
+      ]
+    },
+    "update-glasgow-1675": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1675"
+      ],
+      "assessment": "Existing attached profile Glasgow-1675; retain pending amendment: Add the inspected News-Letter death notice, preserving its age 55 beside the Mercury age 56 and excluding the deceased from the 1858 living-uncle role.",
+      "review_ids": [
+        "update-glasgow-1675"
+      ]
+    },
+    "update-glasgow-2462": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2462"
+      ],
+      "assessment": "Existing attached profile Glasgow-2462; retain pending amendment: Review the conditional Polwarth/Cavers/Ulster family, two very uncertain fathers through possible identity, the young Inveresk father and competing later Scottish identities. Preserve all prior sources, biography detail and migration limitations; no mother or live merge is selected.",
+      "review_ids": [
+        "update-glasgow-2462"
+      ]
+    },
+    "update-glasgow-2915": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-2915"
+      ],
+      "assessment": "Existing attached profile Glasgow-2915; retain pending amendment: Add the original 1793 Kildress delegate notice as a compatible candidate, preserving the unproved father and wife assessment.",
+      "review_ids": [
+        "update-glasgow-2915"
+      ]
+    },
+    "update-glasgow-3075": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3075"
+      ],
+      "assessment": "Existing attached profile Glasgow-3075; retain pending amendment: Add the sourced 1610 Leith marriage date; preserve the bride’s variant readings and existing family uncertainty.",
+      "review_ids": [
+        "update-glasgow-3075"
+      ]
+    },
+    "update-glasgow-3324": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3324"
+      ],
+      "assessment": "Existing attached profile Glasgow-3324; retain pending amendment: Add the two inspected 1792 captain advertisements to the existing qualified occupational suggestion; retain the Larne household identity limit.",
+      "review_ids": [
+        "update-glasgow-3324"
+      ]
+    },
+    "update-glasgow-3522": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3522"
+      ],
+      "assessment": "Existing attached profile Glasgow-3522; retain pending amendment: Add the Murieston father review: record-defined George probable father of James, Andrew retained alternative; merchant identification and William upstream route uncertain. No live parent attachment until profile identity is resolved.",
+      "review_ids": [
+        "update-glasgow-3522"
+      ]
+    },
+    "update-glasgow-3814": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-3814"
+      ],
+      "assessment": "Existing attached profile Glasgow-3814; retain pending amendment: Add the strongly compatible 1856 retired-merchant candidate and possible 1858 uncle context, with the missing will/deed family bridge explicit.",
+      "review_ids": [
+        "update-glasgow-3814"
+      ]
+    },
+    "update-glasgow-4138": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-4138"
+      ],
+      "assessment": "Existing attached profile Glasgow-4138; retain pending amendment: Review the conditional Polwarth/Cavers/Ulster family, two very uncertain fathers through possible identity, the young Inveresk father and competing later Scottish identities. Preserve all prior sources, biography detail and migration limitations; no mother or live merge is selected.",
+      "review_ids": [
+        "update-glasgow-4138"
+      ]
+    },
+    "update-glasgow-428": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-428"
+      ],
+      "assessment": "Existing attached profile Glasgow-428; retain pending amendment: Review the very uncertain Lemuel–Caleb father hypothesis, the alternative Caleb account and conflicting chronology/will identity; retain all earlier sources and family links. No mother, merge or confidence upgrade. Add the 1746 will father assessment: documented daughters, probable Caleb account; retain duplicate, vital and maternal uncertainties.",
+      "review_ids": [
+        "update-glasgow-428"
+      ]
+    },
+    "update-glasgow-591": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-591"
+      ],
+      "assessment": "Existing attached profile Glasgow-591; retain pending amendment: Review the conditional Polwarth/Cavers/Ulster family, two very uncertain fathers through possible identity, the young Inveresk father and competing later Scottish identities. Preserve all prior sources, biography detail and migration limitations; no mother or live merge is selected. Explain the probable traditional William–John–Hugh father roles from the explicit pedigree and nearer household comparison; retain Scottish, 1740 and Leitrim identity uncertainty.",
+      "review_ids": [
+        "update-glasgow-591"
+      ]
+    },
+    "update-glasgow-992": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-992"
+      ],
+      "assessment": "Existing attached profile Glasgow-992; retain pending amendment: 1635 index materially conflicts with structured 1640 date and predates children; retain date pending original.",
+      "review_ids": [
+        "update-glasgow-992"
+      ]
+    },
+    "update-glasgow-1026": {
+      "disposition": "existing_profile",
+      "profile_ids": [
+        "Glasgow-1026"
+      ],
+      "assessment": "Existing attached profile Glasgow-1026; retain pending amendment: Review the newly selected uncertain Lothian father, retained alternatives and independently unknown mother. Earlier completed corrections remain completed. Review the uncertain Michael→Robert and James→older-William father models; preserve the 1547 alternative and qualify the tree-held Helen date without changing current family fields. Review selected uncertain Calder/Irvine parents and the full child/adult comparisons. Preserve the Guthrie/Meek household distinction, the two George generations, source-date discrepancies and earlier amendments. No live merge, new spouse or confidence upgrade.",
+      "review_ids": [
+        "update-glasgow-1026"
+      ]
+    },
+    "question-glasgow-951": {
+      "disposition": "study",
+      "profile_ids": [
+        "Glasgow-951"
+      ],
+      "assessment": "Existing research study, rather than a newly unassigned person: Who were Alexander of Lisnagaver's parents? The cited study links its named profile subjects; those links do not decide the open relationship or identity question.",
+      "review_ids": [
+        "question-glasgow-951"
+      ]
+    },
+    "study-2931038f6c92": {
+      "disposition": "study",
+      "profile_ids": [
+        "Glasgow-1101",
+        "Glasgow-3556"
+      ],
+      "assessment": "Existing research study, rather than a newly unassigned person: Is the Thomas named in Archibald’s April 1673 will the later Lifford/Raphoe man? The cited study links its named profile subjects; those links do not decide the open relationship or identity question.",
+      "review_ids": [
+        "study-2931038f6c92"
+      ]
+    },
+    "study-15718918ba35": {
+      "disposition": "study",
+      "profile_ids": [
+        "Glasgow-3178",
+        "Glasgow-1100",
+        "Glasgow-1603",
+        "Hew-1066",
+        "Glasgow-3109"
+      ],
+      "assessment": "Existing research study, rather than a newly unassigned person: Can the five FamilySearch index and court-record occurrences from 1601–1677 be traced to identifiable people? The cited study links its named profile subjects; those links do not decide the open relationship or identity question.",
+      "review_ids": [
+        "study-15718918ba35"
+      ]
+    },
+    "question-glasgow-822": {
+      "disposition": "study",
+      "profile_ids": [
+        "Glasgow-822"
+      ],
+      "assessment": "Existing research study, rather than a newly unassigned person: Can the Bible John be identified with the Inishrush householder, and who were his parents? The cited study links its named profile subjects; those links do not decide the open relationship or identity question.",
+      "review_ids": [
+        "question-glasgow-822"
+      ]
+    },
+    "study-fb6e394ea6a2": {
+      "disposition": "study",
+      "profile_ids": [
+        "Glasgow-3181",
+        "Glasgow-3590",
+        "Glasgow-3589"
+      ],
+      "assessment": "Existing research study, rather than a newly unassigned person: Why was Andro Huchesoun's confirmation included with John Glasgow's record, and could it help identify Margaret? The cited study links its named profile subjects; those links do not decide the open relationship or identity question.",
+      "review_ids": [
+        "study-fb6e394ea6a2"
+      ]
+    },
+    "study-59bc4bc96a2c": {
+      "disposition": "study",
+      "profile_ids": [
+        "Glasgow-1168",
+        "Glasgow-3193",
+        "Glasgow-1603",
+        "Glasgow-3178"
+      ],
+      "assessment": "Existing research study, rather than a newly unassigned person: How do the documented Corsankell households connect to the Glasgow burgh family? The cited study links its named profile subjects; those links do not decide the open relationship or identity question.",
+      "review_ids": [
+        "study-59bc4bc96a2c"
+      ]
+    },
+    "study-02fd8944ec72": {
+      "disposition": "study",
+      "profile_ids": [
+        "Glasgow-1093",
+        "Glasgow-1095",
+        "Glasgow-1098",
+        "Glasgow-3023"
+      ],
+      "assessment": "Existing research study, rather than a newly unassigned person: Do the Stirling, alias-Smith and Saltmarket records describe the same John, and how does William fit? The cited study links its named profile subjects; those links do not decide the open relationship or identity question.",
+      "review_ids": [
+        "study-02fd8944ec72"
+      ]
+    },
+    "study-27a3d5b21e43": {
+      "disposition": "study",
+      "profile_ids": [
+        "Glasgow-1143",
+        "Glasgow-1144",
+        "Glasgow-1078"
+      ],
+      "assessment": "Existing research study, rather than a newly unassigned person: Can the seventeenth-century founder records be connected to the later secure Kilwaughter family? The cited study links its named profile subjects; those links do not decide the open relationship or identity question.",
+      "review_ids": [
+        "study-27a3d5b21e43"
+      ]
+    },
+    "study-65a96df2e860": {
+      "disposition": "study",
+      "profile_ids": [
+        "Glasgow-1073",
+        "Glasgow-3375",
+        "Glasgow-1604"
+      ],
+      "assessment": "Existing research study, rather than a newly unassigned person: Is the Kilwinning John the minister of Kilbirnie, and who were his parents? The cited study links its named profile subjects; those links do not decide the open relationship or identity question.",
+      "review_ids": [
+        "study-65a96df2e860"
+      ]
+    },
+    "study-d8d1502362f5": {
+      "disposition": "study",
+      "profile_ids": [
+        "Glasgow-1076",
+        "Glasgow-2952",
+        "Glasgow-2874",
+        "Glasgow-3789",
+        "Theobalds-120"
+      ],
+      "assessment": "Existing research study, rather than a newly unassigned person: Which existing child profiles match the people named in Robert Glasgow’s trust and succession papers? The cited study links its named profile subjects; those links do not decide the open relationship or identity question.",
+      "review_ids": [
+        "study-d8d1502362f5"
+      ]
+    },
+    "study-681916f10519": {
+      "disposition": "study",
+      "profile_ids": [
+        "Glasgow-951",
+        "Glasgow-867",
+        "Glasgow-1509",
+        "Glasgow-822"
+      ],
+      "assessment": "Existing research study, rather than a newly unassigned person: Who was the father of John Glasgow, farmer (Alexander’s probable father), and is the documented Kilwaughter family inside R-FT20271? The cited study links its named profile subjects; those links do not decide the open relationship or identity question.",
+      "review_ids": [
+        "study-681916f10519"
+      ]
+    },
+    "study-403880c788df": {
+      "disposition": "study",
+      "profile_ids": [],
+      "assessment": "Existing research study, rather than a newly unassigned person: Where does a documented male Kilwaughter line sit among the tested paternal branches? The paternal-branch comparison remains an open study; it supplies no separately identified person for profile creation.",
+      "review_ids": [
+        "study-403880c788df"
+      ]
+    },
+    "study-d1b5117e7cb5": {
+      "disposition": "study",
+      "profile_ids": [
+        "Glasgow-1025",
+        "Glasgow-1970",
+        "Glasgow-2988",
+        "Glasgow-1024",
+        "Glasgow-1968",
+        "Glasgow-2539"
+      ],
+      "assessment": "Existing research study, rather than a newly unassigned person: How do the 1740 and 1766 households map to the later named families? The cited study links its named profile subjects; those links do not decide the open relationship or identity question.",
+      "review_ids": [
+        "study-d1b5117e7cb5"
+      ]
+    },
+    "question-glasgow-591": {
+      "disposition": "study",
+      "profile_ids": [
+        "Glasgow-591"
+      ],
+      "assessment": "Existing research study, rather than a newly unassigned person: Which Scottish William became the ancestor remembered in the Tyrone tradition? The cited study links its named profile subjects; those links do not decide the open relationship or identity question.",
+      "review_ids": [
+        "question-glasgow-591"
+      ]
+    }
+  }
+}
