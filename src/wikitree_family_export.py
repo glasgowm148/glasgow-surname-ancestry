@@ -47,6 +47,7 @@ import json
 import os
 import re
 import sys
+import tempfile
 import time
 from datetime import datetime, timezone
 from pathlib import Path
@@ -1565,12 +1566,27 @@ def utc_now() -> str:
 def write_json_file(path: Path, value: Any) -> None:
     """Write JSON atomically so an interrupted run does not corrupt a case."""
     path.parent.mkdir(parents=True, exist_ok=True)
-    temporary = path.with_suffix(path.suffix + ".tmp")
-    temporary.write_text(
-        json.dumps(value, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
-        encoding="utf-8",
-    )
-    temporary.replace(path)
+    contents = json.dumps(value, ensure_ascii=False, indent=2, sort_keys=True) + "\n"
+    try:
+        existing_mode = path.stat().st_mode & 0o777
+    except FileNotFoundError:
+        existing_mode = None
+    temporary = None
+    try:
+        with tempfile.NamedTemporaryFile(
+            mode="w", encoding="utf-8", dir=path.parent,
+            prefix=f".{path.name}.", suffix=".tmp", delete=False,
+        ) as handle:
+            temporary = Path(handle.name)
+            if existing_mode is not None:
+                os.fchmod(handle.fileno(), existing_mode)
+            handle.write(contents)
+            handle.flush()
+            os.fsync(handle.fileno())
+        temporary.replace(path)
+    finally:
+        if temporary is not None:
+            temporary.unlink(missing_ok=True)
 
 
 def read_json_object(path: Path) -> dict[str, Any]:

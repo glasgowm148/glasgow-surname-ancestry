@@ -37,6 +37,54 @@ def sample_envelope() -> dict:
 
 
 class ResearchLoopTests(unittest.TestCase):
+    def test_json_write_preserves_unrelated_temporary_file(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "case.json"
+            other = path.with_suffix(".json.tmp")
+            other.write_text("another writer's data")
+            exporter.write_json_file(path, {"name": "Élise"})
+            self.assertEqual(json.loads(path.read_text()), {"name": "Élise"})
+            self.assertEqual(other.read_text(), "another writer's data")
+            self.assertEqual(sorted(p.name for p in path.parent.iterdir()),
+                             ["case.json", "case.json.tmp"])
+
+    def test_json_write_preserves_existing_access_permissions(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "case.json"
+            path.write_text("{}")
+            path.chmod(0o640)
+            exporter.write_json_file(path, {"updated": True})
+            self.assertEqual(path.stat().st_mode & 0o777, 0o640)
+            self.assertEqual(json.loads(path.read_text()), {"updated": True})
+
+    def test_json_write_cleans_up_after_replace_failure(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "case.json"
+            path.write_text('{"original": true}')
+            with patch.object(Path, "replace", side_effect=OSError("disk failure")):
+                with self.assertRaisesRegex(OSError, "disk failure"):
+                    exporter.write_json_file(path, {"new": True})
+            self.assertEqual(json.loads(path.read_text()), {"original": True})
+            self.assertEqual(list(path.parent.iterdir()), [path])
+
+    def test_json_writes_can_overlap_without_sharing_temporary_files(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "case.json"
+            replace = Path.replace
+            nested = False
+
+            def interleave(temporary, destination):
+                nonlocal nested
+                if not nested:
+                    nested = True
+                    exporter.write_json_file(path, {"writer": "inner"})
+                return replace(temporary, destination)
+
+            with patch.object(Path, "replace", interleave):
+                exporter.write_json_file(path, {"writer": "outer"})
+            self.assertEqual(json.loads(path.read_text()), {"writer": "outer"})
+            self.assertEqual(list(path.parent.iterdir()), [path])
+
     def test_project_identifier_wrappers_keep_accepted_forms_and_messages(self) -> None:
         self.assertEqual(
             "Example_Person-42",
