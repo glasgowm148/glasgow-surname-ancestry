@@ -3497,5 +3497,51 @@
     "source_title": "NRS Duddingston OPR deaths/burials 684/60/47: Robert Glasgow, 17 January 1647; indexed citation, original image not inspected for this review",
     "source_type": "Parish burial index citation",
     "source_status": "OPR index citation 684/60/47; original register not inspected for this review"
+  },
+  {
+    "record_id": "wm-glasgow-hugh-mccullough-family-account",
+    "association": "Explicit retrospective parentage; probable historical relationship",
+    "date": "Undated descendant family history, pp.2–3; reports 1733 couple and youngest son born 1739",
+    "year": 1739,
+    "place": "County Londonderry, Ireland; family farm reported near Portglenone",
+    "source_title": "William Melanchthon Glasgow, History of the Glasgow Family, scanned pp.2–3: named Hugh–McCullough parents and youngest son; descendant household and migration; re-read 17 October 2026",
+    "source_url": "https://www.wikitree.com/photo.php/0/0a/Glasgow-590.pdf",
+    "source_type": "Descendant family history",
+    "source_status": "Scanned account visually re-read 17 October 2026; no original Irish birth or marriage record cited",
+    "status": "Probable parents from explicit descendant testimony and household correlation",
+    "note": "Names Hugh Glasgow and Margaret McCullough as parents of sons John, Robert and Hugh. The author calls the younger Hugh’s son John his grandfather. Date errors and unresolved 1740 identities remain explicit; not contemporary parentage proof.",
+    "profiles": {
+      "Glasgow-540": {
+        "role": "Named youngest son; identity with Pennsylvania testator supported by the matching household",
+        "timeline_group": "Family records"
+      },
+      "Glasgow-548": {
+        "role": "Named father in retrospective family account; probable parent",
+        "timeline_group": "Family records"
+      },
+      "McCullough-1964": {
+        "role": "Named mother in retrospective family account; probable parent",
+        "timeline_group": "Family records"
+      }
+    }
+  },
+  {
+    "record_id": "allegheny-hugh-glasgo-will-1827-1831",
+    "association": "Direct household evidence; checks identity and source reliability, not Irish parentage",
+    "date": "29 March 1827; proved 25 April 1831",
+    "year": 1827,
+    "place": "Deer Township, Allegheny County, Pennsylvania",
+    "source_title": "Allegheny County Will Book 3, no.252, pp.492–493: Hugh Glasgo, signed 29 March 1827, probate 25 April 1831; recorded image re-read; household check, not a parentage clause",
+    "source_url": "https://www.ancestry.com/imageviewer/collections/8802/images/005537856_00276?pid=1733435",
+    "source_type": "Original recorded will",
+    "source_status": "Original will-book image visually re-read 17 October 2026",
+    "status": "Documented household; parents not named",
+    "note": "Four sons John, Hugh, Alexander and Robert; daughter Nancy; granddaughter Sarah, daughter of Alexander; unnamed wife. The same five children occur in the family history. Does not prove parents, wife’s name or an exhaustive list of children.",
+    "profiles": {
+      "Glasgow-540": {
+        "role": "Testator; household identity check",
+        "timeline_group": "Family records"
+      }
+    }
   }
 ]

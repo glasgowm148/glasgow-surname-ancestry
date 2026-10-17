@@ -7285,5 +7285,155 @@
       "live_wikitree_status": "uncertain",
       "identity_scope": "Record-proved father name and son-to-adult identity; probable identification of father with 1647 burial account."
     }
+  },
+  {
+    "assertion_id": "C-review-20261017-hugh-mccullough-father",
+    "people": [
+      "Glasgow-540",
+      "Glasgow-548"
+    ],
+    "profile_names": {
+      "Glasgow-540": "Hugh Glasgow, Pennsylvania emigrant",
+      "Glasgow-548": "Hugh Glasgow, elder Irish weaver"
+    },
+    "status": "probable",
+    "hypothesis_status": "probable",
+    "working_selection": false,
+    "allow_new_relationship": false,
+    "publication_status": "approved",
+    "assessment_date": "2026-10-17",
+    "evidence_grade": "Probable parentage from explicit descendant testimony and independently matching emigrant household",
+    "claim": "Hugh Glasgow, elder Irish weaver is probably the father of Hugh Glasgow, Pennsylvania emigrant",
+    "basis": "Hugh Glasgow-548 and Margaret McCullough-1964 are assessed as the probable parents of Hugh Glasgow-540, the emigrant whose Pennsylvania will was made in 1827 and proved in 1831. William Melanchthon Glasgow’s family history, p.2, explicitly names the elder Hugh and Margaret as the married parents of John, Robert and their youngest son Hugh, born in County Londonderry in 1739. Page 3 follows this younger Hugh’s household through John, whom the author calls his grandfather, and its emigration in 1796. This is specific descendant testimony about a named family, rather than a parent invented from dates or a shared surname. The younger Hugh’s recorded will independently names the same four sons John, Hugh, Alexander and Robert, and daughter Nancy, within the corresponding Pennsylvania household. That agreement supports the family history’s identification of the emigrant and the reliability of its nearer family relationships. It does not independently name his parents. The explicit family account, consistent household identity and feasible generations together warrant probable parentage rather than leaving the father and mother ungraded.",
+    "limitations": "Parentage rests on one retrospective family account; later online copies and family trees are derivatives, not independent witnesses. Its author gives no Irish baptism or marriage source, and its 1824 death claim is contradicted by Hugh’s signed 1827 will and 1831 probate. The 1733 marriage, 1739 birth, older Hugh’s circa-1706 birth and Margaret’s imported vital estimates retain their separate evidence limits. The two adult Hugh Glasgow householders in Tamlaght O’Crilly in 1740 support an earlier local surname generation, but the return supplies no kin or townland. Entry 1272 remains a leading compatible identity for the elder Hugh; collector order beside Ellis and McCullough names is not proof of adjoining homes or of Margaret’s father. No particular 1740 householder or the 1772 subscriber is selected as this man. The 1827 will does not name the testator’s parents or his wife; it therefore cannot independently establish Margaret’s maternity or Sally Blair’s identity. No John-551 parentage, older William/Covenanter ancestry, Cameron origin story, or connection to Adam of Inishrush is upgraded. The two brothers retain their existing links and grades: John-549’s captured confident flags are not counted as new upgrades, and Robert-550’s separate life remains unverified.",
+    "source_ids": [
+      "wm-glasgow-hugh-mccullough-family-account",
+      "allegheny-hugh-glasgo-will-1827-1831"
+    ],
+    "model_note": "Parentage rests on one retrospective family account; later online copies and family trees are derivatives, not independent witnesses. Its author gives no Irish baptism or marriage source, and its 1824 death claim is contradicted by Hugh’s signed 1827 will and 1831 probate. The 1733 marriage, 1739 birth, older Hugh’s circa-1706 birth and Margaret’s imported vital estimates retain their separate evidence limits. The two adult Hugh Glasgow householders in Tamlaght O’Crilly in 1740 support an earlier local surname generation, but the return supplies no kin or townland. Entry 1272 remains a leading compatible identity for the elder Hugh; collector order beside Ellis and McCullough names is not proof of adjoining homes or of Margaret’s father. No particular 1740 householder or the 1772 subscriber is selected as this man. The 1827 will does not name the testator’s parents or his wife; it therefore cannot independently establish Margaret’s maternity or Sally Blair’s identity. No John-551 parentage, older William/Covenanter ancestry, Cameron origin story, or connection to Adam of Inishrush is upgraded. The two brothers retain their existing links and grades: John-549’s captured confident flags are not counted as new upgrades, and Robert-550’s separate life remains unverified.",
+    "assessment_history": [
+      {
+        "assessment_date": "2026-10-07",
+        "status": "unmarked",
+        "assessment_status": "unknown",
+        "tree_status": "unmarked",
+        "narrative_assessment": "Late family tradition only; no contemporary Irish parent record",
+        "source_basis": [
+          "research/Glasgow-540/findings.md",
+          "research/Glasgow-548/findings.md"
+        ],
+        "live_wikitree_recheck": "The refreshed anonymous API capture on 17 October 2026 has a blank certainty control for this parent; previously ungraded, not formerly uncertain or certain."
+      }
+    ],
+    "perspectives": {
+      "Glasgow-540": {
+        "relationship": "father",
+        "status_label": "Probable father; descendant account and household check",
+        "reason": "Hugh Glasgow-548 and Margaret McCullough-1964 are assessed as the probable parents of Hugh Glasgow-540, the emigrant whose Pennsylvania will was made in 1827 and proved in 1831. William Melanchthon Glasgow’s family history, p.2, explicitly names the elder Hugh and Margaret as the married parents of John, Robert and their youngest son Hugh, born in County Londonderry in 1739. Page 3 follows this younger Hugh’s household through John, whom the author calls his grandfather, and its emigration in 1796. This is specific descendant testimony about a named family, rather than a parent invented from dates or a shared surname. The younger Hugh’s recorded will independently names the same four sons John, Hugh, Alexander and Robert, and daughter Nancy, within the corresponding Pennsylvania household. That agreement supports the family history’s identification of the emigrant and the reliability of its nearer family relationships. It does not independently name his parents. The explicit family account, consistent household identity and feasible generations together warrant probable parentage rather than leaving the father and mother ungraded. Parentage rests on one retrospective family account; later online copies and family trees are derivatives, not independent witnesses. Its author gives no Irish baptism or marriage source, and its 1824 death claim is contradicted by Hugh’s signed 1827 will and 1831 probate. The 1733 marriage, 1739 birth, older Hugh’s circa-1706 birth and Margaret’s imported vital estimates retain their separate evidence limits. The two adult Hugh Glasgow householders in Tamlaght O’Crilly in 1740 support an earlier local surname generation, but the return supplies no kin or townland. Entry 1272 remains a leading compatible identity for the elder Hugh; collector order beside Ellis and McCullough names is not proof of adjoining homes or of Margaret’s father. No particular 1740 householder or the 1772 subscriber is selected as this man. The 1827 will does not name the testator’s parents or his wife; it therefore cannot independently establish Margaret’s maternity or Sally Blair’s identity. No John-551 parentage, older William/Covenanter ancestry, Cameron origin story, or connection to Adam of Inishrush is upgraded. The two brothers retain their existing links and grades: John-549’s captured confident flags are not counted as new upgrades, and Robert-550’s separate life remains unverified."
+      },
+      "Glasgow-548": {
+        "relationship": "son",
+        "status_label": "Probable son; descendant account and household check",
+        "reason": "Hugh Glasgow-548 and Margaret McCullough-1964 are assessed as the probable parents of Hugh Glasgow-540, the emigrant whose Pennsylvania will was made in 1827 and proved in 1831. William Melanchthon Glasgow’s family history, p.2, explicitly names the elder Hugh and Margaret as the married parents of John, Robert and their youngest son Hugh, born in County Londonderry in 1739. Page 3 follows this younger Hugh’s household through John, whom the author calls his grandfather, and its emigration in 1796. This is specific descendant testimony about a named family, rather than a parent invented from dates or a shared surname. The younger Hugh’s recorded will independently names the same four sons John, Hugh, Alexander and Robert, and daughter Nancy, within the corresponding Pennsylvania household. That agreement supports the family history’s identification of the emigrant and the reliability of its nearer family relationships. It does not independently name his parents. The explicit family account, consistent household identity and feasible generations together warrant probable parentage rather than leaving the father and mother ungraded. Parentage rests on one retrospective family account; later online copies and family trees are derivatives, not independent witnesses. Its author gives no Irish baptism or marriage source, and its 1824 death claim is contradicted by Hugh’s signed 1827 will and 1831 probate. The 1733 marriage, 1739 birth, older Hugh’s circa-1706 birth and Margaret’s imported vital estimates retain their separate evidence limits. The two adult Hugh Glasgow householders in Tamlaght O’Crilly in 1740 support an earlier local surname generation, but the return supplies no kin or townland. Entry 1272 remains a leading compatible identity for the elder Hugh; collector order beside Ellis and McCullough names is not proof of adjoining homes or of Margaret’s father. No particular 1740 householder or the 1772 subscriber is selected as this man. The 1827 will does not name the testator’s parents or his wife; it therefore cannot independently establish Margaret’s maternity or Sally Blair’s identity. No John-551 parentage, older William/Covenanter ancestry, Cameron origin story, or connection to Adam of Inishrush is upgraded. The two brothers retain their existing links and grades: John-549’s captured confident flags are not counted as new upgrades, and Robert-550’s separate life remains unverified."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Hugh’s probable parents: Hugh Glasgow and Margaret McCullough",
+        "href": "/branches/research-irish-tamlaght/#hugh-mccullough-probable-parents"
+      }
+    ],
+    "provenance": {
+      "prior_assessment": {
+        "assessment_date": "2026-10-07",
+        "status": "unmarked",
+        "assessment_status": "unknown",
+        "tree_status": "unmarked",
+        "narrative_assessment": "Late family tradition only; no contemporary Irish parent record",
+        "source_basis": [
+          "research/Glasgow-540/findings.md",
+          "research/Glasgow-548/findings.md"
+        ],
+        "live_wikitree_recheck": "The refreshed anonymous API capture on 17 October 2026 has a blank certainty control for this parent; previously ungraded, not formerly uncertain or certain."
+      },
+      "reassessment": "Existing unmarked father → probable local grade. No new attachment, certain flag or primary Irish parentage claim.",
+      "live_wikitree_status": "unmarked",
+      "identity_scope": "Explicit family-history parent clause; the emigrant household independently identified by the 1827 will. The two 1740 older Hugh identities remain open."
+    }
+  },
+  {
+    "assertion_id": "C-review-20261017-hugh-mccullough-mother",
+    "people": [
+      "Glasgow-540",
+      "McCullough-1964"
+    ],
+    "profile_names": {
+      "Glasgow-540": "Hugh Glasgow, Pennsylvania emigrant",
+      "McCullough-1964": "Margaret McCullough"
+    },
+    "status": "probable",
+    "hypothesis_status": "probable",
+    "working_selection": false,
+    "allow_new_relationship": false,
+    "publication_status": "approved",
+    "assessment_date": "2026-10-17",
+    "evidence_grade": "Probable parentage from explicit descendant testimony and independently matching emigrant household",
+    "claim": "Margaret McCullough is probably the mother of Hugh Glasgow, Pennsylvania emigrant",
+    "basis": "Hugh Glasgow-548 and Margaret McCullough-1964 are assessed as the probable parents of Hugh Glasgow-540, the emigrant whose Pennsylvania will was made in 1827 and proved in 1831. William Melanchthon Glasgow’s family history, p.2, explicitly names the elder Hugh and Margaret as the married parents of John, Robert and their youngest son Hugh, born in County Londonderry in 1739. Page 3 follows this younger Hugh’s household through John, whom the author calls his grandfather, and its emigration in 1796. This is specific descendant testimony about a named family, rather than a parent invented from dates or a shared surname. The younger Hugh’s recorded will independently names the same four sons John, Hugh, Alexander and Robert, and daughter Nancy, within the corresponding Pennsylvania household. That agreement supports the family history’s identification of the emigrant and the reliability of its nearer family relationships. It does not independently name his parents. The explicit family account, consistent household identity and feasible generations together warrant probable parentage rather than leaving the father and mother ungraded.",
+    "limitations": "Parentage rests on one retrospective family account; later online copies and family trees are derivatives, not independent witnesses. Its author gives no Irish baptism or marriage source, and its 1824 death claim is contradicted by Hugh’s signed 1827 will and 1831 probate. The 1733 marriage, 1739 birth, older Hugh’s circa-1706 birth and Margaret’s imported vital estimates retain their separate evidence limits. The two adult Hugh Glasgow householders in Tamlaght O’Crilly in 1740 support an earlier local surname generation, but the return supplies no kin or townland. Entry 1272 remains a leading compatible identity for the elder Hugh; collector order beside Ellis and McCullough names is not proof of adjoining homes or of Margaret’s father. No particular 1740 householder or the 1772 subscriber is selected as this man. The 1827 will does not name the testator’s parents or his wife; it therefore cannot independently establish Margaret’s maternity or Sally Blair’s identity. No John-551 parentage, older William/Covenanter ancestry, Cameron origin story, or connection to Adam of Inishrush is upgraded. The two brothers retain their existing links and grades: John-549’s captured confident flags are not counted as new upgrades, and Robert-550’s separate life remains unverified.",
+    "source_ids": [
+      "wm-glasgow-hugh-mccullough-family-account",
+      "allegheny-hugh-glasgo-will-1827-1831"
+    ],
+    "model_note": "Parentage rests on one retrospective family account; later online copies and family trees are derivatives, not independent witnesses. Its author gives no Irish baptism or marriage source, and its 1824 death claim is contradicted by Hugh’s signed 1827 will and 1831 probate. The 1733 marriage, 1739 birth, older Hugh’s circa-1706 birth and Margaret’s imported vital estimates retain their separate evidence limits. The two adult Hugh Glasgow householders in Tamlaght O’Crilly in 1740 support an earlier local surname generation, but the return supplies no kin or townland. Entry 1272 remains a leading compatible identity for the elder Hugh; collector order beside Ellis and McCullough names is not proof of adjoining homes or of Margaret’s father. No particular 1740 householder or the 1772 subscriber is selected as this man. The 1827 will does not name the testator’s parents or his wife; it therefore cannot independently establish Margaret’s maternity or Sally Blair’s identity. No John-551 parentage, older William/Covenanter ancestry, Cameron origin story, or connection to Adam of Inishrush is upgraded. The two brothers retain their existing links and grades: John-549’s captured confident flags are not counted as new upgrades, and Robert-550’s separate life remains unverified.",
+    "assessment_history": [
+      {
+        "assessment_date": "2026-10-07",
+        "status": "unmarked",
+        "assessment_status": "unknown",
+        "tree_status": "unmarked",
+        "narrative_assessment": "Late family tradition only; no contemporary Irish parent record",
+        "source_basis": [
+          "research/Glasgow-540/findings.md",
+          "research/Glasgow-548/findings.md"
+        ],
+        "live_wikitree_recheck": "The refreshed anonymous API capture on 17 October 2026 has a blank certainty control for this parent; previously ungraded, not formerly uncertain or certain."
+      }
+    ],
+    "perspectives": {
+      "Glasgow-540": {
+        "relationship": "mother",
+        "status_label": "Probable mother; descendant account and household check",
+        "reason": "Hugh Glasgow-548 and Margaret McCullough-1964 are assessed as the probable parents of Hugh Glasgow-540, the emigrant whose Pennsylvania will was made in 1827 and proved in 1831. William Melanchthon Glasgow’s family history, p.2, explicitly names the elder Hugh and Margaret as the married parents of John, Robert and their youngest son Hugh, born in County Londonderry in 1739. Page 3 follows this younger Hugh’s household through John, whom the author calls his grandfather, and its emigration in 1796. This is specific descendant testimony about a named family, rather than a parent invented from dates or a shared surname. The younger Hugh’s recorded will independently names the same four sons John, Hugh, Alexander and Robert, and daughter Nancy, within the corresponding Pennsylvania household. That agreement supports the family history’s identification of the emigrant and the reliability of its nearer family relationships. It does not independently name his parents. The explicit family account, consistent household identity and feasible generations together warrant probable parentage rather than leaving the father and mother ungraded. Parentage rests on one retrospective family account; later online copies and family trees are derivatives, not independent witnesses. Its author gives no Irish baptism or marriage source, and its 1824 death claim is contradicted by Hugh’s signed 1827 will and 1831 probate. The 1733 marriage, 1739 birth, older Hugh’s circa-1706 birth and Margaret’s imported vital estimates retain their separate evidence limits. The two adult Hugh Glasgow householders in Tamlaght O’Crilly in 1740 support an earlier local surname generation, but the return supplies no kin or townland. Entry 1272 remains a leading compatible identity for the elder Hugh; collector order beside Ellis and McCullough names is not proof of adjoining homes or of Margaret’s father. No particular 1740 householder or the 1772 subscriber is selected as this man. The 1827 will does not name the testator’s parents or his wife; it therefore cannot independently establish Margaret’s maternity or Sally Blair’s identity. No John-551 parentage, older William/Covenanter ancestry, Cameron origin story, or connection to Adam of Inishrush is upgraded. The two brothers retain their existing links and grades: John-549’s captured confident flags are not counted as new upgrades, and Robert-550’s separate life remains unverified."
+      },
+      "McCullough-1964": {
+        "relationship": "son",
+        "status_label": "Probable son; descendant account and household check",
+        "reason": "Hugh Glasgow-548 and Margaret McCullough-1964 are assessed as the probable parents of Hugh Glasgow-540, the emigrant whose Pennsylvania will was made in 1827 and proved in 1831. William Melanchthon Glasgow’s family history, p.2, explicitly names the elder Hugh and Margaret as the married parents of John, Robert and their youngest son Hugh, born in County Londonderry in 1739. Page 3 follows this younger Hugh’s household through John, whom the author calls his grandfather, and its emigration in 1796. This is specific descendant testimony about a named family, rather than a parent invented from dates or a shared surname. The younger Hugh’s recorded will independently names the same four sons John, Hugh, Alexander and Robert, and daughter Nancy, within the corresponding Pennsylvania household. That agreement supports the family history’s identification of the emigrant and the reliability of its nearer family relationships. It does not independently name his parents. The explicit family account, consistent household identity and feasible generations together warrant probable parentage rather than leaving the father and mother ungraded. Parentage rests on one retrospective family account; later online copies and family trees are derivatives, not independent witnesses. Its author gives no Irish baptism or marriage source, and its 1824 death claim is contradicted by Hugh’s signed 1827 will and 1831 probate. The 1733 marriage, 1739 birth, older Hugh’s circa-1706 birth and Margaret’s imported vital estimates retain their separate evidence limits. The two adult Hugh Glasgow householders in Tamlaght O’Crilly in 1740 support an earlier local surname generation, but the return supplies no kin or townland. Entry 1272 remains a leading compatible identity for the elder Hugh; collector order beside Ellis and McCullough names is not proof of adjoining homes or of Margaret’s father. No particular 1740 householder or the 1772 subscriber is selected as this man. The 1827 will does not name the testator’s parents or his wife; it therefore cannot independently establish Margaret’s maternity or Sally Blair’s identity. No John-551 parentage, older William/Covenanter ancestry, Cameron origin story, or connection to Adam of Inishrush is upgraded. The two brothers retain their existing links and grades: John-549’s captured confident flags are not counted as new upgrades, and Robert-550’s separate life remains unverified."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Hugh’s probable parents: Hugh Glasgow and Margaret McCullough",
+        "href": "/branches/research-irish-tamlaght/#hugh-mccullough-probable-parents"
+      }
+    ],
+    "provenance": {
+      "prior_assessment": {
+        "assessment_date": "2026-10-07",
+        "status": "unmarked",
+        "assessment_status": "unknown",
+        "tree_status": "unmarked",
+        "narrative_assessment": "Late family tradition only; no contemporary Irish parent record",
+        "source_basis": [
+          "research/Glasgow-540/findings.md",
+          "research/Glasgow-548/findings.md"
+        ],
+        "live_wikitree_recheck": "The refreshed anonymous API capture on 17 October 2026 has a blank certainty control for this parent; previously ungraded, not formerly uncertain or certain."
+      },
+      "reassessment": "Existing unmarked mother → probable local grade. No new attachment, certain flag or primary Irish parentage claim.",
+      "live_wikitree_status": "unmarked",
+      "identity_scope": "Explicit family-history parent clause; the emigrant household independently identified by the 1827 will. The two 1740 older Hugh identities remain open."
+    }
   }
 ]

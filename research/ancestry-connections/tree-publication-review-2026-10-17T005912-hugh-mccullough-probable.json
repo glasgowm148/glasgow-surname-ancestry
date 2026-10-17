@@ -1,0 +1,307 @@
+{
+  "reviewed": "2026-10-17",
+  "cutoff": 1850,
+  "method_version": 3,
+  "input_fingerprint": "b5068b10fae800414a9b998feecd3aa2d94fac4c33b5a67ed0a55826b3ffdb07",
+  "scope": "Hugh’s probable parents: Hugh Glasgow and Margaret McCullough",
+  "genealogical_connections_added": 0,
+  "paternal_connections_added": 0,
+  "maternal_connections_added": 0,
+  "certainty_upgrades": 0,
+  "working_fathers": 57,
+  "working_mothers": 9,
+  "models": {
+    "main": {
+      "checked_historical_profiles": 1777,
+      "all_public_model_profiles_checked": 4521,
+      "changed_father_fields": 0,
+      "changed_mother_fields": 0,
+      "father_grades_changed": 1,
+      "mother_grades_changed": 6,
+      "matched_paternal_edges": 1354,
+      "added_historical_profiles": [],
+      "unresolved_father_cases": [
+        "Glasgow-1367",
+        "Glasgow-2908",
+        "Glasgow-867",
+        "Glasgow-951"
+      ]
+    },
+    "standalone": {
+      "checked_historical_profiles": 1777,
+      "all_public_model_profiles_checked": 4671,
+      "changed_father_fields": 0,
+      "changed_mother_fields": 0,
+      "father_grades_changed": 1,
+      "mother_grades_changed": 6,
+      "matched_paternal_edges": 1354,
+      "added_historical_profiles": [],
+      "unresolved_father_cases": [
+        "Glasgow-1367",
+        "Glasgow-2908",
+        "Glasgow-867",
+        "Glasgow-951"
+      ]
+    }
+  },
+  "publication_summary": "This is a review of two existing parent links, not two new attachments or newly discovered records. Both prior effective flags were unmarked and the local assessments unknown; the new formal local grade is probable, below documented or confidently marked parentage. The father edge supports 40 retained pre-1850 profiles and 39,800 connected pairs across the fixed working tree; that is branch impact, not a probability, and overlapping edge impacts must not be added. All parent IDs, vital fields, working family membership, selected hypotheses and confidently marked connectivity remain unchanged. The scanned family history pp.2–3 and original recorded will pp.492–493 were re-read for this review. The 1740 return uses its maintained earlier reading. No live WikiTree edit or identity merge is made. Hugh Glasgow-548 and Margaret McCullough-1964 are assessed as the probable parents of Hugh Glasgow-540, the emigrant whose Pennsylvania will was made in 1827 and proved in 1831. William Melanchthon Glasgow’s family history, p.2, explicitly names the elder Hugh and Margaret as the married parents of John, Robert and their youngest son Hugh, born in County Londonderry in 1739. Page 3 follows this younger Hugh’s household through John, whom the author calls his grandfather, and its emigration in 1796. This is specific descendant testimony about a named family, rather than a parent invented from dates or a shared surname. The younger Hugh’s recorded will independently names the same four sons John, Hugh, Alexander and Robert, and daughter Nancy, within the corresponding Pennsylvania household. That agreement supports the family history’s identification of the emigrant and the reliability of its nearer family relationships. It does not independently name his parents. The explicit family account, consistent household identity and feasible generations together warrant probable parentage rather than leaving the father and mother ungraded.",
+  "comparison": "/branches/research-irish-tamlaght/#hugh-mccullough-probable-parents",
+  "catalogue_parent_projection": {
+    "reviewed_profiles": 192,
+    "selected_parent_assertions_checked": 66,
+    "differences": []
+  },
+  "verification": {
+    "public_pending_updates": 232,
+    "complete_profile_comparisons": 3,
+    "all_working_and_confident_cohort_membership_unchanged": true,
+    "all_parent_ids_and_vitals_unchanged": true,
+    "all_other_father_grades_unchanged": true,
+    "approved_maternal_publication_reconciliation": [
+      {
+        "child": "Glasgow-3939",
+        "mother": "McCaughan-222",
+        "published_grade": "proved",
+        "assertion_id": "C-reviewed-glasgow-3939-mccaughan-222",
+        "assessment_date": "2026-09-12",
+        "source_ids": [
+          "baptism-james-1837"
+        ],
+        "new_research_assessment_this_batch": false,
+        "previous_model_grades": {
+          "main": "confident",
+          "standalone": "confident"
+        }
+      },
+      {
+        "child": "Glasgow-3940",
+        "mother": "McCaughan-222",
+        "published_grade": "proved",
+        "assertion_id": "C-reviewed-glasgow-3940-mccaughan-222",
+        "assessment_date": "2026-09-12",
+        "source_ids": [
+          "baptism-unnamed-1838"
+        ],
+        "new_research_assessment_this_batch": false,
+        "previous_model_grades": {
+          "main": "confident",
+          "standalone": "confident"
+        }
+      },
+      {
+        "child": "Glasgow-973",
+        "mother": "McCaughan-222",
+        "published_grade": "proved",
+        "assertion_id": "C-reviewed-glasgow-973-mccaughan-222",
+        "assessment_date": "2026-09-13",
+        "source_ids": [
+          "baptism-james-1843",
+          "census-1851"
+        ],
+        "new_research_assessment_this_batch": false,
+        "previous_model_grades": {
+          "main": "confident",
+          "standalone": "confident"
+        }
+      },
+      {
+        "child": "Glasgow-1099",
+        "mother": "Herbison-439",
+        "published_grade": "proved",
+        "assertion_id": "C-reviewed-glasgow-1099-herbison-439",
+        "assessment_date": "2026-09-27",
+        "source_ids": [
+          "glasgow-protocol-2903-1586",
+          "glasgow-protocol-2916-1586"
+        ],
+        "new_research_assessment_this_batch": false,
+        "previous_model_grades": {
+          "main": "unmarked",
+          "standalone": "confident"
+        }
+      },
+      {
+        "child": "Glasgow-3522",
+        "mother": "Spreull-4",
+        "published_grade": "strongly_supported",
+        "assertion_id": "C-reviewed-glasgow-3522-spreull-4-20260927",
+        "assessment_date": "2026-09-27",
+        "source_ids": [
+          "glasgow-protocol-1196-1534",
+          "glasgow-protocol-847-1565",
+          "glasgow-protocol-2189-1575",
+          "glasgow-protocol-2903-1586",
+          "glasgow-protocol-2916-1586"
+        ],
+        "new_research_assessment_this_batch": false,
+        "previous_model_grades": {
+          "main": "uncertain",
+          "standalone": "confident"
+        }
+      },
+      {
+        "child": "Glasgow-540",
+        "mother": "McCullough-1964",
+        "published_grade": "probable",
+        "assertion_id": "C-review-20261017-hugh-mccullough-mother",
+        "assessment_date": "2026-10-17",
+        "source_ids": [
+          "wm-glasgow-hugh-mccullough-family-account",
+          "allegheny-hugh-glasgo-will-1827-1831"
+        ],
+        "new_research_assessment_this_batch": true,
+        "previous_model_grades": {
+          "main": "unmarked",
+          "standalone": "unmarked"
+        }
+      }
+    ],
+    "approved_chronology_displays_checked": 8
+  },
+  "unresolved_parentage_review": {
+    "status": "OPEN",
+    "case_ids": [
+      "Glasgow-1367",
+      "Glasgow-2908",
+      "Glasgow-867",
+      "Glasgow-951"
+    ],
+    "confident_flag_among_competing_candidates": [
+      "Glasgow-867"
+    ],
+    "scope": "Four other competing-father cases retain their existing grades; no selection is made for them."
+  },
+  "next_metric_check": {
+    "status": "RESOLVED",
+    "saved_confident_tree_flags_not_used_by_current_metric": 0,
+    "review": "/data/ancestry-confidence-method-review.json",
+    "scope": "Status fallback; four other competing-father cases remain open."
+  },
+  "confidence_assessments_strengthened": 2,
+  "local_chronology_corrections": 0,
+  "parent_grade_changes": [
+    {
+      "subject": "Glasgow-540",
+      "parent": "Glasgow-548",
+      "relationship": "father",
+      "before": "unmarked",
+      "prior_local_assessment": "unknown; late tradition only",
+      "after": "probable",
+      "live_wikitree_flag_changed": false
+    },
+    {
+      "subject": "Glasgow-540",
+      "parent": "McCullough-1964",
+      "relationship": "mother",
+      "before": "unmarked",
+      "prior_local_assessment": "unknown; late tradition only",
+      "after": "probable",
+      "live_wikitree_flag_changed": false
+    }
+  ],
+  "maternal_publication_reconciliation": {
+    "changed_existing_maternal_grades": 6,
+    "earlier_approved_assessments_reconciled": 5,
+    "new_research_assessments": 1,
+    "rows": [
+      {
+        "child": "Glasgow-3939",
+        "mother": "McCaughan-222",
+        "published_grade": "proved",
+        "assertion_id": "C-reviewed-glasgow-3939-mccaughan-222",
+        "assessment_date": "2026-09-12",
+        "source_ids": [
+          "baptism-james-1837"
+        ],
+        "new_research_assessment_this_batch": false,
+        "previous_model_grades": {
+          "main": "confident",
+          "standalone": "confident"
+        }
+      },
+      {
+        "child": "Glasgow-3940",
+        "mother": "McCaughan-222",
+        "published_grade": "proved",
+        "assertion_id": "C-reviewed-glasgow-3940-mccaughan-222",
+        "assessment_date": "2026-09-12",
+        "source_ids": [
+          "baptism-unnamed-1838"
+        ],
+        "new_research_assessment_this_batch": false,
+        "previous_model_grades": {
+          "main": "confident",
+          "standalone": "confident"
+        }
+      },
+      {
+        "child": "Glasgow-973",
+        "mother": "McCaughan-222",
+        "published_grade": "proved",
+        "assertion_id": "C-reviewed-glasgow-973-mccaughan-222",
+        "assessment_date": "2026-09-13",
+        "source_ids": [
+          "baptism-james-1843",
+          "census-1851"
+        ],
+        "new_research_assessment_this_batch": false,
+        "previous_model_grades": {
+          "main": "confident",
+          "standalone": "confident"
+        }
+      },
+      {
+        "child": "Glasgow-1099",
+        "mother": "Herbison-439",
+        "published_grade": "proved",
+        "assertion_id": "C-reviewed-glasgow-1099-herbison-439",
+        "assessment_date": "2026-09-27",
+        "source_ids": [
+          "glasgow-protocol-2903-1586",
+          "glasgow-protocol-2916-1586"
+        ],
+        "new_research_assessment_this_batch": false,
+        "previous_model_grades": {
+          "main": "unmarked",
+          "standalone": "confident"
+        }
+      },
+      {
+        "child": "Glasgow-3522",
+        "mother": "Spreull-4",
+        "published_grade": "strongly_supported",
+        "assertion_id": "C-reviewed-glasgow-3522-spreull-4-20260927",
+        "assessment_date": "2026-09-27",
+        "source_ids": [
+          "glasgow-protocol-1196-1534",
+          "glasgow-protocol-847-1565",
+          "glasgow-protocol-2189-1575",
+          "glasgow-protocol-2903-1586",
+          "glasgow-protocol-2916-1586"
+        ],
+        "new_research_assessment_this_batch": false,
+        "previous_model_grades": {
+          "main": "uncertain",
+          "standalone": "confident"
+        }
+      },
+      {
+        "child": "Glasgow-540",
+        "mother": "McCullough-1964",
+        "published_grade": "probable",
+        "assertion_id": "C-review-20261017-hugh-mccullough-mother",
+        "assessment_date": "2026-10-17",
+        "source_ids": [
+          "wm-glasgow-hugh-mccullough-family-account",
+          "allegheny-hugh-glasgo-will-1827-1831"
+        ],
+        "new_research_assessment_this_batch": true,
+        "previous_model_grades": {
+          "main": "unmarked",
+          "standalone": "unmarked"
+        }
+      }
+    ],
+    "not_counted_as_new_connections_or_new_certain_relationships": true
+  }
+}

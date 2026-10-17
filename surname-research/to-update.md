@@ -1809,3 +1809,10 @@ The August completion entries remain historical. The live parent fields are now 
 
 | [James Glasgow, Edinburgh weaver](https://www.wikitree.com/wiki/Glasgow-1150) | OPEN | Explain probable Duddingston fatherhood from the combined apprenticeship, burgess and burial evidence; retain the uncertain live flag. |
 | [Robert Glasgow of Duddingston](https://www.wikitree.com/wiki/Glasgow-1156) | OPEN | Explain probable Duddingston fatherhood from the combined apprenticeship, burgess and burial evidence; retain the uncertain live flag. |
+
+
+## Hugh–McCullough probable parents — 17 October 2026
+
+| [Hugh Glasgow, Pennsylvania emigrant](https://www.wikitree.com/wiki/Glasgow-540) | OPEN | Explain probable Hugh–McCullough parentage from the explicit family account and household check; retain independent source limitations. |
+| [Hugh Glasgow, elder Irish weaver](https://www.wikitree.com/wiki/Glasgow-548) | OPEN | Explain probable Hugh–McCullough parentage from the explicit family account and household check; retain independent source limitations. |
+| [Margaret McCullough](https://www.wikitree.com/wiki/McCullough-1964) | OPEN | Explain probable Hugh–McCullough parentage from the explicit family account and household check; retain independent source limitations. |
