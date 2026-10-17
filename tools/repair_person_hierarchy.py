@@ -909,7 +909,10 @@ def _family_html(profile_id: str, dossier: dict, model: dict, index: dict, edito
                     from tools.relationship_probability import probability_for_relationship, percentage_text
                 rating = probability_for_relationship(relation, profile_id)
                 band = percentage_text(rating)
-                label += ' · ' + ('Tree grade ' if rating['origin'] == 'wikitree' else '') + band
+                if rating['origin'] == 'wikitree':
+                    grade = rating['label'].split(' (')[0]
+                    label += ' · WikiTree: ' + grade
+                label += ' · ' + band
             if relation.get("display") == "alternative" and state in {"unknown", "unassessed"}:
                 label = evidence_labels.normalise_status_label(state, "Earlier tree proposal; not established")
             if relation.get("display") == "proposed":

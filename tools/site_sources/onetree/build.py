@@ -21,6 +21,9 @@ sys.path.insert(0, str(ROOT))
 from tools.project_paths import merged_map_profiles  # noqa: E402
 from tools.documentary_ancestry import load_chronology, load_people  # noqa: E402
 from tools.sync_ancestry_atlas import CHRONOLOGY_DISPLAY_FIELDS, parent_order  # noqa: E402
+from tools.captured_parent_aliases import (  # noqa: E402
+    apply_parent_identity_repairs, current_parent, repairable_parent,
+)
 
 
 WIKITREE = "https://www.wikitree.com/wiki/"
@@ -593,6 +596,57 @@ def apply_public_families(people: list[dict], site_root: Path, cutoff: int = 185
                 publicFamilyChecked=len(dossiers))
 
 
+def apply_captured_parent_aliases(people: list[dict], site_root: Path, redirects: dict) -> dict:
+    """Recover existing raw parent fields only when saved redirects prove identity.
+
+    This has no historical cutoff: merging a profile changes its identity, not
+    the assessment of its relationship. No role or research hypothesis is added.
+    """
+    aliases = {}
+    for old in redirects:
+        target, seen = old, set()
+        while target in redirects and target not in seen:
+            seen.add(target)
+            target = redirects[target]
+        if target not in seen and target != old:
+            aliases.setdefault(target, []).append(old)
+    by_id = {p['id']: p for p in people}
+    dossiers = {}
+
+    def dossier(ident):
+        if ident not in dossiers:
+            path = site_root / 'people' / (ident.lower() + '.json')
+            data = json.loads(path.read_text()) if path.is_file() else {}
+            dossiers[ident] = data if data.get('id') == ident else {}
+        return dossiers[ident]
+
+    repairs = []
+    for person in people:
+        for role in ('father', 'mother'):
+            before = [r for r in person.get('parents', []) if r.get('role') == role]
+            if len(before) != 1 or not any(repairable_parent(before[0], target, old)
+                                          for target, old in aliases.items()):
+                continue
+            current = [r for r in (dossier(person['id']).get('relationships') or {}).get('parents', [])
+                       if r.get('relationship') == role and current_parent(r)]
+            if len(current) != 1:
+                continue
+            row = current[0]
+            target = row.get('id')
+            old = aliases.get(target, [])
+            if (not old or target not in by_id or not dossier(target)
+                    or row.get('relationship_source') != 'wikitree_parent_field'
+                    or row.get('tree_relationship') is not True
+                    or not repairable_parent(row, target, old)
+                    or not repairable_parent(before[0], target, old)):
+                continue
+            repairs.append(dict(child=person['id'], parent=target, role=role,
+                                name=row.get('name') or by_id[target]['name'], aliases=sorted(old),
+                                relationship_source='wikitree_parent_field', tree_relationship=True))
+    apply_parent_identity_repairs(by_id, repairs)
+    return {'capturedParentIdentityRepairs': repairs}
+
+
 def generate_model(catalogue_path: Path, prior: dict) -> dict:
     payload = json.loads(catalogue_path.read_text(encoding="utf-8"))
     rows = payload["people"]
@@ -675,6 +729,7 @@ def generate_model(catalogue_path: Path, prior: dict) -> dict:
     hypotheses = apply_working_hypotheses(people, assessments, parent_aliases)
     maternal_hypotheses = apply_working_mothers(people, assessments)
     public_family_sync = apply_public_families(people, ROOT / 'www', assessments=assessments)
+    public_family_sync.update(apply_captured_parent_aliases(people, ROOT / 'www', parent_aliases))
 
     # One real parent drives the drawing. Both remain in the relationship list.
     chosen: dict[str, dict] = {}

@@ -201,6 +201,11 @@ def build(create_baseline=False):
             (ROOT / "tools" / ("ancestry_progress." + extension)).read_text()
         )
     selected = primary["working"]
+    snapshot = history["snapshots"][-1]
+    reconciliation_note = (
+        '<p role="note"><strong>Publication repair:</strong> ' + escape(snapshot['note']) + '</p>'
+        if snapshot.get('event_type') == 'publication_reconciliation' else ''
+    )
     publication_html = ''
     confidence_note = ''
     publication_path = max(WORK.glob('tree-publication-review-*.json'), default=None)
@@ -275,6 +280,7 @@ def build(create_baseline=False):
     main = f"""<main class="r-main ancestry-progress" id="main">
 <header class="r-page-head"><span class="r-kicker">Glasgow ancestry programme · {report["reviewed"]}</span><h1>Connect the oldest branches.</h1><p class="lead">{escape(strategy["objective"])}</p><p>{escape(strategy["common_origin"])}</p><p class="progress-actions"><a href="/onetree/#view=all">Explore the whole tree →</a><a href="/branches/early-scottish-records/">Early Scottish evidence</a><a href="#early-connections">First connections to investigate</a></p></header>
 <section aria-labelledby="connectivity-title"><h2 id="connectivity-title">How connected is the family?</h2><div class="progress-controls"><label>Historical cohort <select id="progress-cutoff">{options}</select></label><label>Links counted <select id="progress-view">{view_options}</select></label></div><p id="link-view-note" aria-live="polite">{escape(LINK_VIEWS['working']['description'])}</p><div class="connectivity-stats" id="connectivity-stats">{metrics_html(selected)}</div><p id="cohort-detail" aria-live="polite">{selected["population"]:,} public surname bearers; {selected["edge_count"]:,} father–child links. All views use the same people.</p><div class="progress-table-wrap"><table><caption>Compare the same people at each link threshold</caption><thead><tr><th>Links counted</th><th>Branches</th><th>People in largest branch</th><th>Connected pairs</th></tr></thead><tbody id="threshold-comparison">{comparison_rows(primary)}</tbody></table></div><p>Probable assessments can strengthen the middle measure while the confidently marked measure stays separate. The original baseline has no probable-or-stronger measurement; this series starts with the current review. An unmarked link is a review gap rather than a disproof.</p><p>{escape(strategy["metrics"]["target"])}</p><p>Smaller branch and unattached-father counts mean fewer gaps; larger connected-pair and largest-branch percentages mean more of the family is joined. A tentative connection remains tentative.</p></section>
+{reconciliation_note}
 {confidence_note}
 {publication_html}
 <section aria-labelledby="working-map-title"><h2 id="working-map-title">One family, with the missing joins visible</h2><p>The shared-origin model gathers the branches below one ancestral lineage. Dotted lines mean an unknown route through generations; they are research targets and do not change the measured pedigree.</p><div id="working-origin-map" class="working-origin-map"></div><noscript><p>The earliest branch heads and their descendants appear in the table below. Each belongs to the shared-origin working model; the intervening generations remain open.</p></noscript></section>

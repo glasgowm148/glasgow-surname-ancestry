@@ -219,6 +219,16 @@ class DateNoteTests(unittest.TestCase):
 
 
 class FamilyLabelTests(unittest.TestCase):
+    def test_saved_confidence_is_visible_without_inventing_a_percentage(self):
+        dossier = {"id": "Glasgow-1", "name": "Ann", "relationships": {"parents": [{
+            "id": "Glasgow-2", "name": "James Glasgow", "relationship": "father",
+            "status": "unknown", "tree_status": "confident"}]}}
+        with patch.object(renderer, "_shared_relationship_assessment", return_value=None):
+            html = renderer._family_html("Glasgow-1", dossier, {}, {}, {}, {})
+        text = BeautifulSoup(html, "html.parser").get_text(" ", strip=True)
+        self.assertIn("WikiTree: Confident · Not individually rated", text)
+        self.assertNotIn("90%", text)
+
     def test_status_cell_links_to_the_evidence_guide(self):
         dossier = {"id": "Glasgow-1", "name": "Ann", "relationships": {"parents": [{"id": "Glasgow-2", "name": "James Glasgow", "status": "documented"}]}}
         with patch.object(renderer, "_shared_relationship_assessment", return_value=None):

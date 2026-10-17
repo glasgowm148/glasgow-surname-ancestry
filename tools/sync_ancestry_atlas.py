@@ -5,6 +5,8 @@ from copy import deepcopy
 import json
 from pathlib import Path
 
+from tools.captured_parent_aliases import apply_parent_identity_repairs
+
 
 WORKING_PERSON_FIELDS = (
     'name', 'first', 'surname', 'currentSurname', 'sex', 'born', 'died', 'year',
@@ -183,6 +185,8 @@ def overlay_model(retained: dict, fresh: dict) -> dict:
             raise ValueError('Reviewed chronology subject absent from atlas: ' + ident)
         existing[ident].update({key: deepcopy(value) for key, value in fields.items()
                                if key in CHRONOLOGY_DISPLAY_FIELDS})
+    captured_repairs = fresh['meta'].get('capturedParentIdentityRepairs', [])
+    apply_parent_identity_repairs(existing, captured_repairs, incoming)
     result['people'] = list(existing.values())
     for p in result['people']:
         parent = p.get('edge', {}).get('parent')
@@ -197,6 +201,7 @@ def overlay_model(retained: dict, fresh: dict) -> dict:
     people = [p for p in result['people'] if p.get('kind') == 'person']
     result['meta'].update(people=len(people), groups=len(sections),
                           reviewedFamilyAliases=deepcopy(aliases),
+                          capturedParentIdentityRepairs=deepcopy(captured_repairs),
                           hypotheses=len(selected), documentaryPeople=len(documentary),
                           identityHypotheses=fresh['meta'].get('identityHypotheses', 0),
                           reviewedParentReplacementIds=sorted(reviewed),
