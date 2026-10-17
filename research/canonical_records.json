@@ -3106,18 +3106,30 @@
     "date": "23 September 1722",
     "year": 1722,
     "place": "Libberton, Lanarkshire",
-    "source_title": "John Glasgow, Libberton christening 23 September 1722, parents Robert and Katharin Wilson; previously reviewed cited index",
-    "source_url": "https://www.myheritage.com/research/record-30226-745324/john-glasgow-in-scotland-births-baptisms",
-    "status": "Previously reviewed cited baptism index",
-    "note": "Names parents Robert and Katharin Wilson; no ancestry for Robert.",
+    "source_title": "Findmypast, Scotland Parish Births & Baptisms, John Glasgow, 23 September 1722, Libberton, Sandyburgh; Robert Glasgow and Katherin Wilson; OPR 650/1 p.17 item3, SCOT/OPR/BAP/4033399; transcript captured 3 September 2026, re-reviewed here",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4033399&tab=this",
+    "status": "Captured Findmypast transcript re-reviewed 17 October 2026; original image not newly inspected",
+    "note": "The documented assessment applies to the Scottish child and parents in the 1722 baptism. The later American identity attributed to John—Nottingham, Chester County, and a May 1769 death—remains unproved. The profile’s Bible and burial citations have not supplied an inspected migration, household or parent bridge from Libberton. No American newspaper attribution is reinstated. This does not establish that the American John had these parents. The source supplies a baptism date, not an independently proved birth date. Katherin in Findmypast and Katharin in the retained MyHeritage index are provider spelling variants of the record’s Wilson mother, not two independent maternal confirmations. This review reuses the captured transcript of 3 September 2026; no fresh register-image inspection is claimed. No ancestry for Robert is stated.",
     "profiles": {
-      "Glasgow-3407": {
-        "role": "compatible indexed father account"
-      },
       "Glasgow-2870": {
-        "role": "indexed child"
+        "role": "Record-defined baptised child; American identity unresolved"
+      },
+      "Glasgow-3407": {
+        "role": "Named father of the Scottish child"
+      },
+      "Wilson-127539": {
+        "role": "Named mother of the Scottish child"
       }
-    }
+    },
+    "source_alternatives": [
+      {
+        "title": "John Glasgow, Libberton christening 23 September 1722, parents Robert and Katharin Wilson; previously reviewed cited index",
+        "url": "https://www.myheritage.com/research/record-30226-745324/john-glasgow-in-scotland-births-baptisms",
+        "independence": "Same underlying parish register; no independent parent confirmation"
+      }
+    ],
+    "reference": "OPR 650/1, page 17, item 3; SCOT/OPR/BAP/4033399",
+    "residence": "Sandyburgh"
   },
   {
     "record_id": "lanark-lindsaylands-weaver-testament-1680",

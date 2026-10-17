@@ -1,4 +1,5 @@
 import json
+import copy
 import tempfile
 import unittest
 from pathlib import Path
@@ -42,6 +43,37 @@ class PublicFamiliesTests(unittest.TestCase):
             dict(id='Father-1', relationship='father', status='probable')
         ]})
         self.assertEqual(people[0]['parents'], [father])
+
+    def test_record_parent_scope_survives_both_directions_and_repeat_sync(self):
+        people = [dict(id='Child-1', parents=[
+            dict(id='Father-1', role='father', status='proved'),
+            dict(id='Mother-1', role='mother', status='unmarked')]),
+            dict(id='Father-1', parents=[], childrenRecorded=[{'id': 'Other-1'}]),
+            dict(id='Mother-1', parents=[], childrenRecorded=[{'id': 'Other-2'}])]
+        scope = 'Scottish baptism only; American adult identity unproved'
+        families, assessments = {'Child-1': []}, []
+        for role in ['father', 'mother']:
+            ident = role.title()+'-1'
+            families['Child-1'].append(dict(id=ident, relationship=role, status='proved',
+                assertion_id=role, status_label=f'Documented {role} in baptism; American identity unproved'))
+            assessments.append(dict(assertion_id=role, publication_status='approved',
+                people=['Child-1', ident], record_scope=scope,
+                perspectives={'Child-1': {'relationship': role}}))
+        self.run_sync(people, families, assessments=assessments)
+        for row in people[0]['parents']:
+            self.assertEqual(row['status'], 'proved')
+            self.assertEqual(row['recordScope'], scope)
+            self.assertIn('American identity unproved', row['statusLabel'])
+        for parent, other in zip(people[1:], ['Other-1', 'Other-2']):
+            self.assertEqual(parent['childrenRecorded'][0], {'id': other})
+            child = parent['childrenRecorded'][1]
+            self.assertEqual(child['recordScope'], scope)
+            self.assertEqual(child['status'], 'proved')
+            self.assertIn('Documented child', child['statusLabel'])
+            self.assertIn('American identity unproved', child['statusLabel'])
+        before = copy.deepcopy(people)
+        self.run_sync(people, families, assessments=assessments)
+        self.assertEqual(people, before)
 
     def test_working_father_grade_disagreement_is_rejected(self):
         for selected, published in [('probable', 'uncertain'), ('uncertain', 'probable')]:

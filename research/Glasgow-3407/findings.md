@@ -2,6 +2,10 @@
 
 ## Current conclusion
 
+**Libberton child review, 17 October 2026:** Robert is the **documented named father in John’s 1722 baptism**. The American continuation attributed to John and Robert’s own ancestry retain their uncertainty.
+
+The dated review below distinguishes the documented Scottish parent roles from the unresolved American identity.
+
 Reviewed: 2026-10-16
 
 **Selected uncertain Carnwath/Lindsaylands family, 16 October 2026:** James Glasgow-3332 is the working father of Robert Glasgow-3407 only through the possible 1680 weaver identity and an earlier birth than Robert’s unsupported 1690 estimate. The overlapping Wilson and Gibson/Watson Robert accounts stay separate; Johne Glasgow-3093 remains an unselected alternative father. [Evidence and alternatives](/branches/early-scottish-records/#carnwath-lindsaylands-working-family).
@@ -38,3 +42,15 @@ Johne Glasgow-3093 remains an unselected alternative father for the Carnwath Rob
 - [Robert/Katherin Gibson, Libberton Janet, 22 April 1718: previously reviewed transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4033250&tab=this)
 - [Robert/Katherine Watson, Libberton Agnes, 21 August 1720: previously reviewed transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4033335&tab=this)
 - [Johne Glasgow, Mid Calder 1648, named father Jamis: previous index review](https://www.familysearch.org/ark:/61903/1:1:X1BL-JXR)
+
+## Libberton record-parent review — 17 October 2026
+
+The accepted Findmypast transcript for John Glasgow’s Libberton baptism on 23 September 1722 explicitly names father Robert Glasgow and mother Katherin Wilson, with residence Sandyburgh: OPR 650/1, page 17, item 3, SCOT/OPR/BAP/4033399. The existing John profile is already assigned to this exact record by the completed person-level audit. Robert Glasgow-3407 is the maintained Wilson-household father account and Katherine Wilson-127539 its mother account. Both recorded parent roles should therefore be documented locally, rather than left as unassessed tree fields. These are two explicit parental names in one baptism transcript, not a mother inferred from a husband’s surname. The existing Carnwath 1713 Robert–Katherine Wilson marriage citation is compatible household context; it is not needed to invent the 1722 parents or to treat every local Robert as the same man.
+
+The documented assessment applies to the Scottish child and parents in the 1722 baptism. The later American identity attributed to John—Nottingham, Chester County, and a May 1769 death—remains unproved. The profile’s Bible and burial citations have not supplied an inspected migration, household or parent bridge from Libberton. No American newspaper attribution is reinstated. This does not establish that the American John had these parents. The source supplies a baptism date, not an independently proved birth date. Katherin in Findmypast and Katharin in the retained MyHeritage index are provider spelling variants of the record’s Wilson mother, not two independent maternal confirmations. This review reuses the captured transcript of 3 September 2026; no fresh register-image inspection is claimed.
+
+The existing working branch below John contains 14 retained pre-1850 profile accounts. That is a measure of the current topology and includes the unresolved Scottish-to-American identity; the baptism does not prove the entire descendant chain. No person, parent attachment, identity merge, spouse or changed vital field is added. Robert’s own selected James Glasgow-3332 father, his competing Johne route and his birth estimate remain uncertain. The separate Gibson/Watson Robert family remains separate; neither woman is equated with Wilson. Local record-parent assessments and reciprocal child descriptions are synchronized in both viewers. The raw WikiTree parent fields and saved certainty flags remain unchanged. Any live certainty change requires resolving its profile-identity scope; the prepared amendment adds the baptism evidence and that limit. Working connectivity is unchanged. The supported and confident paternal measures gain the existing Scottish father edge only; this is classification of previously ungraded record parentage, not a new ancestor or a proved American connection.
+
+Sources: [Findmypast, Scotland Parish Births & Baptisms, John Glasgow, 23 September 1722, Libberton, Sandyburgh; Robert Glasgow and Katherin Wilson; OPR 650/1 p.17 item3, SCOT/OPR/BAP/4033399; transcript captured 3 September 2026, re-reviewed here](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4033399&tab=this); [MyHeritage Scotland Births and Baptisms index, John Glasgow, Libberton 1722, Robert and Katharin Wilson; alternative presentation of the same register event](https://www.myheritage.com/research/record-30226-745324/john-glasgow-in-scotland-births-baptisms).
+
+[Full record-parent assessment and identity limits](/branches/early-scottish-records/#chapter-libberton-record-parents-confidence).

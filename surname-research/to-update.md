@@ -1920,3 +1920,10 @@ The August completion entries remain historical. The live parent fields are now 
 
 | [James Glasgow of Kilwaughter](https://www.wikitree.com/wiki/Glasgow-1081) | OPEN | Add probable James continuity across 1669–1726 and its limits; John continuity already probable, parent and kinship grades unchanged. |
 | [John Glasgow senior of Kilwaughter](https://www.wikitree.com/wiki/Glasgow-3913) | OPEN | Add probable James continuity across 1669–1726 and its limits; John continuity already probable, parent and kinship grades unchanged. |
+
+
+## Libberton record-parent confidence — 17 October 2026
+
+| [John Glasgow, Libberton baptism account](https://www.wikitree.com/wiki/Glasgow-2870) | OPEN | Add the explicitly named 1722 Scottish parents with the unresolved American identity; retain all earlier evidence and family uncertainties. |
+| [Robert Glasgow of the Wilson household](https://www.wikitree.com/wiki/Glasgow-3407) | OPEN | Add the explicitly named 1722 Scottish parents with the unresolved American identity; retain all earlier evidence and family uncertainties. |
+| [Katherine Wilson, named mother](https://www.wikitree.com/wiki/Wilson-127539) | OPEN | Add the explicitly named 1722 Scottish parents with the unresolved American identity; retain all earlier evidence and family uncertainties. |

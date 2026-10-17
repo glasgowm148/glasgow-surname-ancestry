@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "reviewed": "2026-10-17",
+  "cutoff": 1850,
+  "method_version": 3,
+  "scope": "Libberton 1722: John’s recorded parents are documented",
+  "input_fingerprint": "3a7ef98214a1924069301f72e4dc65149e07e6589aad1ebedcc4e8b6b1b056c1",
+  "models": {
+    "main": {
+      "checked_historical_profiles": 1777,
+      "all_profiles_checked": 4520,
+      "matched_paternal_edges": 1358,
+      "changed_father_fields": 0,
+      "changed_mother_fields": 0,
+      "parent_grade_changes": 2,
+      "added_historical_profiles": [],
+      "all_other_parent_rows_unchanged": true,
+      "john_working_child_side_profiles": 14,
+      "held_four_father_cases_unchanged": true
+    },
+    "standalone": {
+      "checked_historical_profiles": 1777,
+      "all_profiles_checked": 4671,
+      "matched_paternal_edges": 1358,
+      "changed_father_fields": 0,
+      "changed_mother_fields": 0,
+      "parent_grade_changes": 2,
+      "added_historical_profiles": [],
+      "all_other_parent_rows_unchanged": true,
+      "john_working_child_side_profiles": 14,
+      "held_four_father_cases_unchanged": true
+    }
+  },
+  "genealogical_connections_added": 0,
+  "paternal_connections_added": 0,
+  "maternal_connections_added": 0,
+  "certainty_upgrades": 2,
+  "parent_grade_changes": [
+    {
+      "relationship": "father",
+      "subject_id": "Glasgow-2870",
+      "relative_id": "Glasgow-3407",
+      "subject": "John Glasgow, Libberton baptism account",
+      "relative": "Robert Glasgow of the Wilson household",
+      "before": "unmarked",
+      "after": "certain",
+      "assessment_after": "proved",
+      "explanation": "The accepted Findmypast transcript for John Glasgow’s Libberton baptism on 23 September 1722 explicitly names father Robert Glasgow and mother Katherin Wilson, with residence Sandyburgh: OPR 650/1, page 17, item 3, SCOT/OPR/BAP/4033399. The existing John profile is already assigned to this exact record by the completed person-level audit. Robert Glasgow-3407 is the maintained Wilson-household father account and Katherine Wilson-127539 its mother account. Both recorded parent roles should therefore be documented locally, rather than left as unassessed tree fields. These are two explicit parental names in one baptism transcript, not a mother inferred from a husband’s surname. The existing Carnwath 1713 Robert–Katherine Wilson marriage citation is compatible household context; it is not needed to invent the 1722 parents or to treat every local Robert as the same man. The documented assessment applies to the Scottish child and parents in the 1722 baptism. The later American identity attributed to John—Nottingham, Chester County, and a May 1769 death—remains unproved. The profile’s Bible and burial citations have not supplied an inspected migration, household or parent bridge from Libberton. No American newspaper attribution is reinstated. This does not establish that the American John had these parents. The source supplies a baptism date, not an independently proved birth date. Katherin in Findmypast and Katharin in the retained MyHeritage index are provider spelling variants of the record’s Wilson mother, not two independent maternal confirmations. This review reuses the captured transcript of 3 September 2026; no fresh register-image inspection is claimed.",
+      "previous_status_provenance": [
+        "Pre-batch public relationship unknown with saved WikiTree certainty explicitly unmarked; existing captured parish transcript names both parents."
+      ],
+      "assertion_id": "C-review-20261017-libberton-1722-father",
+      "scope": "Scottish baptism only; not a new or proved American identity",
+      "new_attachment": false,
+      "live_flag_changed": false
+    },
+    {
+      "relationship": "mother",
+      "subject_id": "Glasgow-2870",
+      "relative_id": "Wilson-127539",
+      "subject": "John Glasgow, Libberton baptism account",
+      "relative": "Katherine Wilson, named mother",
+      "before": "unmarked",
+      "after": "certain",
+      "assessment_after": "proved",
+      "explanation": "The accepted Findmypast transcript for John Glasgow’s Libberton baptism on 23 September 1722 explicitly names father Robert Glasgow and mother Katherin Wilson, with residence Sandyburgh: OPR 650/1, page 17, item 3, SCOT/OPR/BAP/4033399. The existing John profile is already assigned to this exact record by the completed person-level audit. Robert Glasgow-3407 is the maintained Wilson-household father account and Katherine Wilson-127539 its mother account. Both recorded parent roles should therefore be documented locally, rather than left as unassessed tree fields. These are two explicit parental names in one baptism transcript, not a mother inferred from a husband’s surname. The existing Carnwath 1713 Robert–Katherine Wilson marriage citation is compatible household context; it is not needed to invent the 1722 parents or to treat every local Robert as the same man. The documented assessment applies to the Scottish child and parents in the 1722 baptism. The later American identity attributed to John—Nottingham, Chester County, and a May 1769 death—remains unproved. The profile’s Bible and burial citations have not supplied an inspected migration, household or parent bridge from Libberton. No American newspaper attribution is reinstated. This does not establish that the American John had these parents. The source supplies a baptism date, not an independently proved birth date. Katherin in Findmypast and Katharin in the retained MyHeritage index are provider spelling variants of the record’s Wilson mother, not two independent maternal confirmations. This review reuses the captured transcript of 3 September 2026; no fresh register-image inspection is claimed.",
+      "previous_status_provenance": [
+        "Pre-batch public relationship unknown with saved WikiTree certainty explicitly unmarked; existing captured parish transcript names both parents."
+      ],
+      "assertion_id": "C-review-20261017-libberton-1722-mother",
+      "scope": "Scottish baptism only; not a new or proved American identity",
+      "new_attachment": false,
+      "live_flag_changed": false
+    }
+  ],
+  "publication_summary": "The captured 1722 Libberton baptism names Robert Glasgow and Katherin Wilson as John’s parents. Both previously ungraded local record-parent roles are documented. The Scottish child’s identification with the later American John remains unproved; no live certainty flag, parent attachment or identity merge changes. Working connectivity is unchanged. Supported and confident paternal measurements gain one existing Scottish record edge, not a new ancestor or proved American descent.",
+  "comparison": "/branches/early-scottish-records/#chapter-libberton-record-parents-confidence",
+  "verification": {
+    "all_cohort_membership_unchanged": true,
+    "all_cohort_metrics_independently_rederived": true,
+    "before_metrics_reconstructed_without_grade_change": true,
+    "working_topology_and_parent_IDs_unchanged": true,
+    "fixed_baseline_unchanged": true,
+    "all_live_fields_and_flags_unchanged": true,
+    "dna_payloads_unchanged": true,
+    "complete_public_profile_comparisons": 3,
+    "public_pending_updates": 261
+  },
+  "next_metric_check": {
+    "status": "RESOLVED",
+    "saved_confident_tree_flags_not_used_by_current_metric": 0,
+    "review": "/data/ancestry-confidence-method-review.json",
+    "scope": "Four competing-father cases remain held."
+  },
+  "measurements": {
+    "working": {
+      "before": {
+        "edge_count": 1358,
+        "component_count": 421,
+        "largest_component_size": 1059,
+        "connected_pairs_percent": 35.58026231070688
+      },
+      "after": {
+        "edge_count": 1358,
+        "component_count": 421,
+        "largest_component_size": 1059,
+        "connected_pairs_percent": 35.58026231070688
+      }
+    },
+    "supported": {
+      "before": {
+        "edge_count": 374,
+        "component_count": 1404,
+        "largest_component_size": 46,
+        "connected_pairs_percent": 0.19854547851171375
+      },
+      "after": {
+        "edge_count": 375,
+        "component_count": 1403,
+        "largest_component_size": 46,
+        "connected_pairs_percent": 0.19860885083169832
+      }
+    },
+    "confident": {
+      "before": {
+        "edge_count": 355,
+        "component_count": 1422,
+        "largest_component_size": 43,
+        "connected_pairs_percent": 0.16603547835962018
+      },
+      "after": {
+        "edge_count": 356,
+        "component_count": 1421,
+        "largest_component_size": 43,
+        "connected_pairs_percent": 0.16609885067960475
+      }
+    }
+  }
+}

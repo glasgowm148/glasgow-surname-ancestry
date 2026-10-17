@@ -3228,6 +3228,82 @@
         "limitations": "The inference is not documented identity. The later men never occur together in the same reviewed minute, the 1669 roll does not state a kin relationship, and similar spellings are not independent identifiers. Kilwaughter Demesne and the later Kilwaughter district are compatible but not identical address statements. A father-and-son succession or another local James remains possible. Assuming an adult aged at least 21 in 1669 would make James at least about 74 in 1722 and 78 in 1726; those are conditional age calculations, not recorded ages or a new birth bound. His local commission in 1722 is compatible with advanced age, but the long career is the strongest reason for caution. No age at death, occupation, holding or named relative equates the occurrences. The missing 1701–1721 session sequence leaves a real gap. Porter’s 1699–1701 extracts are a printed transcription of a manuscript copy; the later extracts and lost probate index do not independently prove the earlier identity. The probable grade is an overall inference across the groups, not the product of independent probabilities. Neither the 1726 death annotation nor the 1727 probate is newly assigned to a separate earlier James; they remain events of the later elder whose identification with the 1669 man is now probable.",
         "previous_status_provenance": "research/Glasgow-1081/findings.md, Identity assessment — one James or two, 6 October 2026; original unresolved wording retained below the dated review."
       }
+    },
+    {
+      "id": "libberton-record-parents-confidence",
+      "year": 1722,
+      "title": "Libberton 1722: John’s recorded parents are documented",
+      "status": "Two documented Scottish record-parent roles; American identity unproved",
+      "people": [
+        {
+          "name": "John Glasgow, Libberton baptism account",
+          "url": "/people/glasgow-2870.html"
+        },
+        {
+          "name": "Robert Glasgow of the Wilson household",
+          "url": "/people/glasgow-3407.html"
+        },
+        {
+          "name": "Katherine Wilson, named mother",
+          "url": "/people/wilson-127539.html"
+        }
+      ],
+      "basis": "The accepted Findmypast transcript for John Glasgow’s Libberton baptism on 23 September 1722 explicitly names father Robert Glasgow and mother Katherin Wilson, with residence Sandyburgh: OPR 650/1, page 17, item 3, SCOT/OPR/BAP/4033399. The existing John profile is already assigned to this exact record by the completed person-level audit. Robert Glasgow-3407 is the maintained Wilson-household father account and Katherine Wilson-127539 its mother account. Both recorded parent roles should therefore be documented locally, rather than left as unassessed tree fields. These are two explicit parental names in one baptism transcript, not a mother inferred from a husband’s surname. The existing Carnwath 1713 Robert–Katherine Wilson marriage citation is compatible household context; it is not needed to invent the 1722 parents or to treat every local Robert as the same man.",
+      "next_test": "Inspect the cited family Bible, burial history and migration evidence to test whether the Scottish child is the later American John; retain the separate Gibson/Watson family.",
+      "sources": [
+        {
+          "label": "Findmypast, Scotland Parish Births & Baptisms, John Glasgow, 23 September 1722, Libberton, Sandyburgh; Robert Glasgow and Katherin Wilson; OPR 650/1 p.17 item3, SCOT/OPR/BAP/4033399; transcript captured 3 September 2026, re-reviewed here",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4033399&tab=this"
+        },
+        {
+          "label": "MyHeritage Scotland Births and Baptisms index, John Glasgow, Libberton 1722, Robert and Katharin Wilson; alternative presentation of the same register event",
+          "url": "https://www.myheritage.com/research/record-30226-745324/john-glasgow-in-scotland-births-baptisms"
+        }
+      ],
+      "record_references": [
+        "Libberton OPR 650/1, p.17, item3, 23 September 1722",
+        "Findmypast SCOT/OPR/BAP/4033399, captured 3 September 2026"
+      ],
+      "counted_as_new_connection": false,
+      "reviewed": "2026-10-17",
+      "parent_grade_changes": [
+        {
+          "relationship": "father",
+          "subject_id": "Glasgow-2870",
+          "relative_id": "Glasgow-3407",
+          "subject": "John Glasgow, Libberton baptism account",
+          "relative": "Robert Glasgow of the Wilson household",
+          "before": "unmarked",
+          "after": "certain",
+          "assessment_after": "proved",
+          "explanation": "The accepted Findmypast transcript for John Glasgow’s Libberton baptism on 23 September 1722 explicitly names father Robert Glasgow and mother Katherin Wilson, with residence Sandyburgh: OPR 650/1, page 17, item 3, SCOT/OPR/BAP/4033399. The existing John profile is already assigned to this exact record by the completed person-level audit. Robert Glasgow-3407 is the maintained Wilson-household father account and Katherine Wilson-127539 its mother account. Both recorded parent roles should therefore be documented locally, rather than left as unassessed tree fields. These are two explicit parental names in one baptism transcript, not a mother inferred from a husband’s surname. The existing Carnwath 1713 Robert–Katherine Wilson marriage citation is compatible household context; it is not needed to invent the 1722 parents or to treat every local Robert as the same man. The documented assessment applies to the Scottish child and parents in the 1722 baptism. The later American identity attributed to John—Nottingham, Chester County, and a May 1769 death—remains unproved. The profile’s Bible and burial citations have not supplied an inspected migration, household or parent bridge from Libberton. No American newspaper attribution is reinstated. This does not establish that the American John had these parents. The source supplies a baptism date, not an independently proved birth date. Katherin in Findmypast and Katharin in the retained MyHeritage index are provider spelling variants of the record’s Wilson mother, not two independent maternal confirmations. This review reuses the captured transcript of 3 September 2026; no fresh register-image inspection is claimed.",
+          "previous_status_provenance": [
+            "Pre-batch public relationship unknown with saved WikiTree certainty explicitly unmarked; existing captured parish transcript names both parents."
+          ],
+          "assertion_id": "C-review-20261017-libberton-1722-father",
+          "scope": "Scottish baptism only; not a new or proved American identity",
+          "new_attachment": false,
+          "live_flag_changed": false
+        },
+        {
+          "relationship": "mother",
+          "subject_id": "Glasgow-2870",
+          "relative_id": "Wilson-127539",
+          "subject": "John Glasgow, Libberton baptism account",
+          "relative": "Katherine Wilson, named mother",
+          "before": "unmarked",
+          "after": "certain",
+          "assessment_after": "proved",
+          "explanation": "The accepted Findmypast transcript for John Glasgow’s Libberton baptism on 23 September 1722 explicitly names father Robert Glasgow and mother Katherin Wilson, with residence Sandyburgh: OPR 650/1, page 17, item 3, SCOT/OPR/BAP/4033399. The existing John profile is already assigned to this exact record by the completed person-level audit. Robert Glasgow-3407 is the maintained Wilson-household father account and Katherine Wilson-127539 its mother account. Both recorded parent roles should therefore be documented locally, rather than left as unassessed tree fields. These are two explicit parental names in one baptism transcript, not a mother inferred from a husband’s surname. The existing Carnwath 1713 Robert–Katherine Wilson marriage citation is compatible household context; it is not needed to invent the 1722 parents or to treat every local Robert as the same man. The documented assessment applies to the Scottish child and parents in the 1722 baptism. The later American identity attributed to John—Nottingham, Chester County, and a May 1769 death—remains unproved. The profile’s Bible and burial citations have not supplied an inspected migration, household or parent bridge from Libberton. No American newspaper attribution is reinstated. This does not establish that the American John had these parents. The source supplies a baptism date, not an independently proved birth date. Katherin in Findmypast and Katharin in the retained MyHeritage index are provider spelling variants of the record’s Wilson mother, not two independent maternal confirmations. This review reuses the captured transcript of 3 September 2026; no fresh register-image inspection is claimed.",
+          "previous_status_provenance": [
+            "Pre-batch public relationship unknown with saved WikiTree certainty explicitly unmarked; existing captured parish transcript names both parents."
+          ],
+          "assertion_id": "C-review-20261017-libberton-1722-mother",
+          "scope": "Scottish baptism only; not a new or proved American identity",
+          "new_attachment": false,
+          "live_flag_changed": false
+        }
+      ]
     }
   ],
   "source_basis": "Initial priorities reconcile existing medieval bridge research, the pre-1550 relationship audit and the resolved public catalogue. They are current working comparisons, not newly discovered kinship records."

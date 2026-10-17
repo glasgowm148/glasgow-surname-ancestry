@@ -66,6 +66,11 @@ def usable_tester_panel(page):
 
 def documentary_renderer(page):
     """Allow named documentary ancestors while preserving the supplied UI."""
+    # Retain explicit record-only qualifications beside relationship grades.
+    page = page.replace("r.role,r.status&&r.status!=='unmarked'?r.status:null",
+                        "r.role,r.statusLabel||(r.status&&r.status!=='unmarked'?r.status:null)")
+    page = page.replace("r.role,r.status?(EVIDENCE_MARKS[r.status]||r.status):null",
+                        "r.role,r.statusLabel||(r.status?(EVIDENCE_MARKS[r.status]||r.status):null)")
     page = page.replace('Selected uncertain working father.</b>',
                         "Selected uncertain working ${esc(r.role||'parent')}.</b>")
     replacements = {

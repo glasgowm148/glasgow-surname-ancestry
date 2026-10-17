@@ -406,6 +406,9 @@ def apply_public_families(people: list[dict], site_root: Path, cutoff: int = 185
     by_id = {p['id']: p for p in people}
     changed, related, added, held = set(), set(), set(), set()
     ambiguous = set(quality['multiple_fathers'])
+    record_scopes = {a['assertion_id']: a['record_scope'] for a in assessments or []
+                     if a.get('publication_status') == 'approved'
+                     and not a.get('working_selection') and a.get('record_scope')}
 
     def parent_row(row):
         if row.get('withheld'):
@@ -416,9 +419,19 @@ def apply_public_families(people: list[dict], site_root: Path, cutoff: int = 185
         status = row.get('status') or 'unknown'
         if status == 'unknown':
             status = row.get('tree_status') or status
-        return {**row, 'role': row['relationship'], 'status': status,
-                'dossierStatus': row.get('status') or 'unknown',
-                'inModel': row.get('id') in by_id}
+        result = {**row, 'role': row['relationship'], 'status': status,
+                  'dossierStatus': row.get('status') or 'unknown',
+                  'inModel': row.get('id') in by_id}
+        scope = record_scopes.get(row.get('assertion_id'))
+        if scope:
+            result.update(recordScope=scope, statusLabel=row.get('status_label') or scope)
+        return result
+
+    def reciprocal_scope(row):
+        if not row.get('recordScope'):
+            return {}
+        return dict(recordScope=row['recordScope'],
+                    statusLabel=re.sub(r'\b(?:father|mother)\b', 'child', row['statusLabel']))
 
     dossiers = {}
     for ident in cohort:
@@ -480,7 +493,8 @@ def apply_public_families(people: list[dict], site_root: Path, cutoff: int = 185
                     or before[0].get('status') != after[0]['status']):
                 raise ValueError('Working father disagrees with public dossier: ' + ident)
             continue
-        signature = lambda rows: [(r.get('id') or '', r.get('status')) for r in rows]
+        signature = lambda rows: [(r.get('id') or '', r.get('status'),
+                                  r.get('recordScope'), r.get('statusLabel')) for r in rows]
         if signature(before) == signature(after) and ident not in added:
             continue
         changed.add(ident)
@@ -498,7 +512,8 @@ def apply_public_families(people: list[dict], site_root: Path, cutoff: int = 185
             parent = by_id.get(row.get('id'))
             if parent is not None:
                 parent['childrenRecorded'].append(dict(id=ident, name=person['name'], role='child',
-                    status=row['status'], inModel=True, source='current_public_dossier'))
+                    status=row['status'], inModel=True, source='current_public_dossier',
+                    **reciprocal_scope(row)))
         person['publicFamilySource'] = nodes[ident]['url']
     approved = {a['assertion_id']: a for a in assessments or []
                 if a.get('publication_status') == 'approved' and not a.get('working_selection')}
@@ -532,7 +547,7 @@ def apply_public_families(people: list[dict], site_root: Path, cutoff: int = 185
             children = parent.setdefault('childrenRecorded', [])
             children[:] = [r for r in children if r.get('id') != ident]
             children.append(dict(id=ident, name=person['name'], role='child', status=after['status'],
-                                 inModel=True, source='current_public_dossier'))
+                                 inModel=True, source='current_public_dossier', **reciprocal_scope(after)))
     for person in people:
         for row in person.get('parents', []):
             row['inModel'] = bool(row.get('id') in by_id and not row.get('withheld'))
@@ -547,7 +562,8 @@ def apply_public_families(people: list[dict], site_root: Path, cutoff: int = 185
             matches = [r for r in children if r.get('id') == person['id']]
             if not matches:
                 children.append(dict(id=person['id'], name=person['name'], role='child',
-                    status=row['status'], inModel=True, source='current_public_dossier'))
+                    status=row['status'], inModel=True, source='current_public_dossier',
+                    **reciprocal_scope(row)))
     return dict(publicFamilySyncIds=sorted(changed), publicFamilyRelatedIds=sorted(related),
                 publicMotherGradeScope=maternal_scope, publicMotherGradeSyncIds=sorted(maternal_changed),
                 publicFamilyNewIds=sorted(added), publicFatherHoldIds=sorted(held),
