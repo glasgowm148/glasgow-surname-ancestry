@@ -1,8 +1,10 @@
 # Findings: [James Glasgow (Glasgow-991)](https://www.wikitree.com/wiki/Glasgow-991)
 
-Last updated: 2026-10-16
+Last updated: 2026-10-17
 
 ## Current conclusion
+
+**Fisherrow family review, 17 October 2026:** This is the **preferred probable existing account** of the Fisherrow tailor James, father of Alexander and husband of Christina Bye. The Mid Calder/Inveresk identity and earlier ancestry remain separately uncertain.
 
 Reviewed: 2026-10-16
 
@@ -113,3 +115,15 @@ This improves a specific identity assessment within the 216-profile James branch
 
 - [Maidment, Analecta Scotica I (1834), art. CXVI, pp.395–396,399: George in Mureistoun, 1586; printed pages verified 15 October 2026](https://archive.org/details/analectascotica00maidgoog)
 - [NRS Mid Calder OPR 694/10 p.7, 17 February 1605: James’s child George and adult witness George; original register freshly inspected](https://www.scotlandspeople.gov.uk/)
+
+## Fisherrow family assessment — 17 October 2026
+
+Prefer the existing James Glasgow-991 and Christina Bie-55 family account for the Fisherrow James and Christina Bye. The printed 1624–1625 index explicitly groups James, tailor in Fisherrow and burgess of Musselburgh, his son Alexander and wife Christina Bye; it separately names Alexander’s wife Janet Clerk. Those are the same named family roles already represented by these profiles. The local James account also includes the Inveresk father sequence of 1609–1618, which can continue into the Fisherrow household. The ordinary Bye/Bie spelling and the full family fit make the identification probable, rather than a match resting only on James’s forename. This is an assessment of the preferred existing family account, not independent confirmation from its copied tree fields.
+
+The Mid Calder and Inveresk baptism sequences may still represent one mobile father or two contemporaries; no occupation or property recital joins them. The profile’s birth and death places remain inherited claims. The 1614 FamilySearch citation’s claimed mother has not been verified: the provider record requires sign-in, while the inspected FMP and supplied ScotlandsPeople entries name James but no mother. That maternal claim is not used as independent support. Christina’s 1589 New Aberdour birth is tree-derived. Naming her as James’s wife in 1624 does not establish her as Alexander’s or William’s mother. The Andrew-3163 and Murieston-George ancestry alternatives retain their grades.
+
+Six existing assessments are strengthened: Alexander’s father and James’s Christina spouse identity become probable; Alexander and Janet’s marriage is documented; three previously ungraded fathers become strongly supported. The four paternal grade changes enter the probable-or-stronger graph, three of them the confident graph. No person, parent ID, maternal grade, date, selected working parent or live certainty flag changes. The existing pre-1850 child side below Alexander contains 24 profile accounts; downstream uncertainty remains explicit.
+
+Sources reused: [SRO Indexes 38, Edinburgh etc. sasines 1624–1630, printed pp.187–188, visually checked 15 October 2026; 8 July 1624, 9/135, and 11 July 1625, 10/171, are recording dates](https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481057&seq=193); [Marioune Glasgow, 17 March 1630, named father Alexander; accepted Findmypast transcript SCOT/OPR/BAP/4435828, OPR 689/1 p.191](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4435828&tab=this); [ScotlandsPeople supplied OPR index: Johnne 25 November 1632, 689/10/226; Bessie 22 March 1635, 689/10/263; Allexander and named parents Alexander/Jannet Clerk, 3 September 1637, 689/10/301, FR260; accepted 10 September review](https://www.scotlandspeople.gov.uk/search-records/church-registers/church-births-baptisms); [William Glasgow, Inveresk 1614, father James, no mother supplied; accepted Findmypast transcript R_686177762](https://www.findmypast.co.uk/transcript?id=R_686177762&tab=this).
+
+[Family comparison, sources and remaining questions](/branches/research-calder-inveresk-james/#chapter-fisherrow-family-confidence).

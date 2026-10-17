@@ -1,11 +1,13 @@
 # Findings: [Glasgow-1151](https://www.wikitree.com/wiki/Glasgow-1151)
 
-Last updated: 2026-10-07
+Last updated: 2026-10-17
 
 
 <!-- opr-birth-review-row-8 -->
 
 ## Current conclusion
+
+**Father review, 17 October 2026:** Alexander Glasgow-1148 is now the **strongly supported father**, from the named father and the combined Inveresk/Fisherrow family sequence. The mother’s grade and all dates remain unchanged.
 
 Reviewed: 2026-10-16
 
@@ -42,3 +44,15 @@ Both father selections are expressly uncertain local hypotheses using existing m
 - [Johne, Kirknewton/East Calder,22 April 1649; father Johne](https://www.familysearch.org/ark:/61903/1:1:VQ4K-X6G)
 - [Bessie, Kirknewton,21 April 1682; William and Ann household](https://www.familysearch.org/ark:/61903/1:1:VQ4K-ZQN)
 - [Younger William, Kirknewton,1671; separate child account](https://www.familysearch.org/ark:/61903/1:1:VQ4K-F2B)
+
+## Fisherrow family assessment — 17 October 2026
+
+The Inveresk entries name Alexander Glasgow as father of Marioune in 1630, Johnne in 1632 and Bessie in 1635. They fall within the 1626–1637 series already represented by the Fisherrow Alexander’s family. The 1624–1625 sasines identify his wife Janet Clerk, and the 1637 child entry repeats that parental pair. The repeated father, parish, ordered child series and independently named couple strongly support this Alexander as the father in all three entries. This is confident family reconstruction from the combined records, not an assertion that each earlier entry names his occupation or wife.
+
+No mother is named in the three reviewed child entries, so their maternal grades stay unchanged. Bessie’s 22 March index date and existing 20 March birth field remain unreconciled; no date is changed. The later identities of these children, James-3923 versus the Edinburgh weaver James-1150, and the Edward property associations remain separate. Existing confident father settings for James-3923, Robert-1149 and Allexander-1152 are retained, not counted as new upgrades. Original sasines and parish images were not newly inspected.
+
+Six existing assessments are strengthened: Alexander’s father and James’s Christina spouse identity become probable; Alexander and Janet’s marriage is documented; three previously ungraded fathers become strongly supported. The four paternal grade changes enter the probable-or-stronger graph, three of them the confident graph. No person, parent ID, maternal grade, date, selected working parent or live certainty flag changes. The existing pre-1850 child side below Alexander contains 24 profile accounts; downstream uncertainty remains explicit.
+
+Sources reused: [SRO Indexes 38, Edinburgh etc. sasines 1624–1630, printed pp.187–188, visually checked 15 October 2026; 8 July 1624, 9/135, and 11 July 1625, 10/171, are recording dates](https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481057&seq=193); [Marioune Glasgow, 17 March 1630, named father Alexander; accepted Findmypast transcript SCOT/OPR/BAP/4435828, OPR 689/1 p.191](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4435828&tab=this); [ScotlandsPeople supplied OPR index: Johnne 25 November 1632, 689/10/226; Bessie 22 March 1635, 689/10/263; Allexander and named parents Alexander/Jannet Clerk, 3 September 1637, 689/10/301, FR260; accepted 10 September review](https://www.scotlandspeople.gov.uk/search-records/church-registers/church-births-baptisms); [William Glasgow, Inveresk 1614, father James, no mother supplied; accepted Findmypast transcript R_686177762](https://www.findmypast.co.uk/transcript?id=R_686177762&tab=this).
+
+[Family comparison, sources and remaining questions](/branches/research-calder-inveresk-james/#chapter-fisherrow-family-confidence).

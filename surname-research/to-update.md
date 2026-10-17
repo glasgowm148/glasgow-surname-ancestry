@@ -1861,3 +1861,14 @@ The August completion entries remain historical. The live parent fields are now 
 | [Jean Glasgow, Kilwinning 1722](https://www.wikitree.com/wiki/Glasgow-1072) | OPEN | Add the cited parish-parent assessment and review existing certainty marks; preserve other relationships, dates and complete text. |
 | [Robert Glasgow, Kilwinning father](https://www.wikitree.com/wiki/Glasgow-1068) | OPEN | Add the cited parish-parent assessment and review existing certainty marks; preserve other relationships, dates and complete text. |
 | [Mary Simpson or Simson](https://www.wikitree.com/wiki/Simpson-18136) | OPEN | Add the cited parish-parent assessment and review existing certainty marks; preserve other relationships, dates and complete text. |
+
+
+## Fisherrow family review — 17 October 2026
+
+| [Alexander Glasgow, Fisherrow tailor](https://www.wikitree.com/wiki/Glasgow-1148) | OPEN | Add the cited Fisherrow family assessment and review existing certainty marks; preserve other relationships, dates and complete text. |
+| [James Glasgow, preferred Fisherrow father](https://www.wikitree.com/wiki/Glasgow-991) | OPEN | Add the cited Fisherrow family assessment and review existing certainty marks; preserve other relationships, dates and complete text. |
+| [Christina Bie or Bye](https://www.wikitree.com/wiki/Bie-55) | OPEN | Add the cited Fisherrow family assessment and review existing certainty marks; preserve other relationships, dates and complete text. |
+| [Janet or Jannet Clerk](https://www.wikitree.com/wiki/Clerk-296) | OPEN | Add the cited Fisherrow family assessment and review existing certainty marks; preserve other relationships, dates and complete text. |
+| [Johnne Glasgow, Inveresk 1632](https://www.wikitree.com/wiki/Glasgow-1151) | OPEN | Add the cited Fisherrow family assessment and review existing certainty marks; preserve other relationships, dates and complete text. |
+| [Marioune Glasgow, Inveresk 1630](https://www.wikitree.com/wiki/Glasgow-1429) | OPEN | Add the cited Fisherrow family assessment and review existing certainty marks; preserve other relationships, dates and complete text. |
+| [Bessie Glasgow, Inveresk 1635](https://www.wikitree.com/wiki/Glasgow-1155) | OPEN | Add the cited Fisherrow family assessment and review existing certainty marks; preserve other relationships, dates and complete text. |

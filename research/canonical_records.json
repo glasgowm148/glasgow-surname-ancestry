@@ -1084,20 +1084,24 @@
     "note": "Alexander is son of James the tailor; Janet Clerk is Alexander’s spouse, Christina Bye is James’s spouse. The dates head the recording column. Edward in Fischerraw shares 9/135; no exact kinship is stated.",
     "profiles": {
       "Glasgow-991": {
-        "role": "Candidate for James Glasgow, tailor in Fischerraw and burgess of Musselburgh",
-        "timeline_group": "Possible connections"
+        "role": "Preferred probable James, tailor in Fischerraw and burgess of Musselburgh",
+        "timeline_group": "Possible connections",
+        "assessment": "probable"
       },
       "Bie-55": {
-        "role": "Candidate for Christina Bye, indexed spouse of James",
-        "timeline_group": "Possible connections"
+        "role": "Preferred probable Christina Bye, spouse of James",
+        "timeline_group": "Possible connections",
+        "assessment": "probable"
       },
       "Glasgow-1148": {
-        "role": "Alexander, indexed son of James; specific father profile identification remains uncertain",
-        "timeline_group": "Possible connections"
+        "role": "Alexander, indexed son of James; father profile identification now probable",
+        "timeline_group": "Family records",
+        "assessment": "strongly_supported"
       },
       "Clerk-296": {
-        "role": "Compatible Janet Clerk, indexed spouse of Alexander",
-        "timeline_group": "Possible connections"
+        "role": "Janet Clerk, documented spouse of Alexander",
+        "timeline_group": "Family records",
+        "assessment": "proved"
       },
       "Glasgow-1557": {
         "role": "Candidate for Edward in Fischerraw, same volume/folio; kinship unspecified",
@@ -1107,7 +1111,39 @@
         "role": "Alternative candidate for Edward; 1609 Inveresk child of James, identity unproved",
         "timeline_group": "Possible connections"
       }
-    }
+    },
+    "assessment_history": [
+      {
+        "reviewed": "2026-10-17",
+        "profiles": {
+          "Glasgow-991": {
+            "role": "Candidate for James Glasgow, tailor in Fischerraw and burgess of Musselburgh",
+            "timeline_group": "Possible connections"
+          },
+          "Bie-55": {
+            "role": "Candidate for Christina Bye, indexed spouse of James",
+            "timeline_group": "Possible connections"
+          },
+          "Glasgow-1148": {
+            "role": "Alexander, indexed son of James; specific father profile identification remains uncertain",
+            "timeline_group": "Possible connections"
+          },
+          "Clerk-296": {
+            "role": "Compatible Janet Clerk, indexed spouse of Alexander",
+            "timeline_group": "Possible connections"
+          },
+          "Glasgow-1557": {
+            "role": "Candidate for Edward in Fischerraw, same volume/folio; kinship unspecified",
+            "timeline_group": "Possible connections"
+          },
+          "Glasgow-994": {
+            "role": "Alternative candidate for Edward; 1609 Inveresk child of James, identity unproved",
+            "timeline_group": "Possible connections"
+          }
+        },
+        "basis": "Prior candidate/uncertain profile identifications retained before household reassessment."
+      }
+    ]
   },
   {
     "record_id": "fisherrow-sasine-index-1625",
@@ -1123,22 +1159,50 @@
     "note": "Alexander is son of James the tailor; Janet Clerk is Alexander’s spouse, Christina Bye is James’s spouse. The dates head the recording column. Original clauses and identity with the 1624 household remain to verify.",
     "profiles": {
       "Glasgow-991": {
-        "role": "Candidate for James Glasgow, tailor in Fischerraw and burgess of Musselburgh",
-        "timeline_group": "Possible connections"
+        "role": "Preferred probable James, tailor in Fischerraw and burgess of Musselburgh",
+        "timeline_group": "Possible connections",
+        "assessment": "probable"
       },
       "Bie-55": {
-        "role": "Candidate for Christina Bye, indexed spouse of James",
-        "timeline_group": "Possible connections"
+        "role": "Preferred probable Christina Bye, spouse of James",
+        "timeline_group": "Possible connections",
+        "assessment": "probable"
       },
       "Glasgow-1148": {
-        "role": "Alexander, indexed son of James; specific father profile identification remains uncertain",
-        "timeline_group": "Possible connections"
+        "role": "Alexander, indexed son of James; father profile identification now probable",
+        "timeline_group": "Family records",
+        "assessment": "strongly_supported"
       },
       "Clerk-296": {
-        "role": "Compatible Janet Clerk, indexed spouse of Alexander",
-        "timeline_group": "Possible connections"
+        "role": "Janet Clerk, documented spouse of Alexander",
+        "timeline_group": "Family records",
+        "assessment": "proved"
       }
-    }
+    },
+    "assessment_history": [
+      {
+        "reviewed": "2026-10-17",
+        "profiles": {
+          "Glasgow-991": {
+            "role": "Candidate for James Glasgow, tailor in Fischerraw and burgess of Musselburgh",
+            "timeline_group": "Possible connections"
+          },
+          "Bie-55": {
+            "role": "Candidate for Christina Bye, indexed spouse of James",
+            "timeline_group": "Possible connections"
+          },
+          "Glasgow-1148": {
+            "role": "Alexander, indexed son of James; specific father profile identification remains uncertain",
+            "timeline_group": "Possible connections"
+          },
+          "Clerk-296": {
+            "role": "Compatible Janet Clerk, indexed spouse of Alexander",
+            "timeline_group": "Possible connections"
+          }
+        },
+        "basis": "Prior candidate/uncertain profile identifications retained before household reassessment."
+      }
+    ]
   },
   {
     "record_id": "campbeltown-alexander-1659",
@@ -3710,6 +3774,66 @@
       },
       "Simpson-18136": {
         "role": "Named mother, Mary Simson"
+      }
+    }
+  },
+  {
+    "record_id": "inveresk-marioune-1630-father-alexander",
+    "association": "Inveresk named-parent index: 17 March 1630",
+    "date": "17 March 1630",
+    "year": 1630,
+    "place": "Inveresk and Musselburgh, Scotland",
+    "source_title": "Marioune Glasgow, 17 March 1630, named father Alexander; accepted Findmypast transcript SCOT/OPR/BAP/4435828, OPR 689/1 p.191",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4435828&tab=this",
+    "status": "Existing accepted index/transcript reused 17 October 2026; no new original-image inspection",
+    "note": "The Inveresk entries name Alexander Glasgow as father of Marioune in 1630, Johnne in 1632 and Bessie in 1635. They fall within the 1626–1637 series already represented by the Fisherrow Alexander’s family. The 1624–1625 sasines identify his wife Janet Clerk, and the 1637 child entry repeats that parental pair. The repeated father, parish, ordered child series and independently named couple strongly support this Alexander as the father in all three entries. This is confident family reconstruction from the combined records, not an assertion that each earlier entry names his occupation or wife. No mother is named in the three reviewed child entries, so their maternal grades stay unchanged. Bessie’s 22 March index date and existing 20 March birth field remain unreconciled; no date is changed. The later identities of these children, James-3923 versus the Edinburgh weaver James-1150, and the Edward property associations remain separate. Existing confident father settings for James-3923, Robert-1149 and Allexander-1152 are retained, not counted as new upgrades. Original sasines and parish images were not newly inspected.",
+    "profiles": {
+      "Glasgow-1429": {
+        "role": "Indexed child"
+      },
+      "Glasgow-1148": {
+        "role": "Named father, matched to Fisherrow family by the combined record series"
+      }
+    }
+  },
+  {
+    "record_id": "inveresk-bessie-1635-father-alexander",
+    "association": "Inveresk named-parent index: 22 March 1635 (index date)",
+    "date": "22 March 1635 (index date)",
+    "year": 1635,
+    "place": "Inveresk and Musselburgh, Scotland",
+    "source_title": "ScotlandsPeople supplied OPR index: Johnne 25 November 1632, 689/10/226; Bessie 22 March 1635, 689/10/263; Allexander and named parents Alexander/Jannet Clerk, 3 September 1637, 689/10/301, FR260; accepted 10 September review",
+    "source_url": "https://www.scotlandspeople.gov.uk/search-records/church-registers/church-births-baptisms",
+    "status": "Existing accepted index/transcript reused 17 October 2026; no new original-image inspection",
+    "note": "The Inveresk entries name Alexander Glasgow as father of Marioune in 1630, Johnne in 1632 and Bessie in 1635. They fall within the 1626–1637 series already represented by the Fisherrow Alexander’s family. The 1624–1625 sasines identify his wife Janet Clerk, and the 1637 child entry repeats that parental pair. The repeated father, parish, ordered child series and independently named couple strongly support this Alexander as the father in all three entries. This is confident family reconstruction from the combined records, not an assertion that each earlier entry names his occupation or wife. No mother is named in the three reviewed child entries, so their maternal grades stay unchanged. Bessie’s 22 March index date and existing 20 March birth field remain unreconciled; no date is changed. The later identities of these children, James-3923 versus the Edinburgh weaver James-1150, and the Edward property associations remain separate. Existing confident father settings for James-3923, Robert-1149 and Allexander-1152 are retained, not counted as new upgrades. Original sasines and parish images were not newly inspected.",
+    "profiles": {
+      "Glasgow-1155": {
+        "role": "Indexed child; existing 20 March birth field unchanged"
+      },
+      "Glasgow-1148": {
+        "role": "Named father, matched to Fisherrow family by the combined record series"
+      }
+    }
+  },
+  {
+    "record_id": "inveresk-allexander-1637-named-parents",
+    "association": "Inveresk named-parent index: 3 September 1637 (index date)",
+    "date": "3 September 1637 (index date)",
+    "year": 1637,
+    "place": "Inveresk and Musselburgh, Scotland",
+    "source_title": "ScotlandsPeople supplied OPR index: Johnne 25 November 1632, 689/10/226; Bessie 22 March 1635, 689/10/263; Allexander and named parents Alexander/Jannet Clerk, 3 September 1637, 689/10/301, FR260; accepted 10 September review",
+    "source_url": "https://www.scotlandspeople.gov.uk/search-records/church-registers/church-births-baptisms",
+    "status": "Existing accepted index/transcript reused 17 October 2026; no new original-image inspection",
+    "note": "The Inveresk entries name Alexander Glasgow as father of Marioune in 1630, Johnne in 1632 and Bessie in 1635. They fall within the 1626–1637 series already represented by the Fisherrow Alexander’s family. The 1624–1625 sasines identify his wife Janet Clerk, and the 1637 child entry repeats that parental pair. The repeated father, parish, ordered child series and independently named couple strongly support this Alexander as the father in all three entries. This is confident family reconstruction from the combined records, not an assertion that each earlier entry names his occupation or wife. No mother is named in the three reviewed child entries, so their maternal grades stay unchanged. Bessie’s 22 March index date and existing 20 March birth field remain unreconciled; no date is changed. The later identities of these children, James-3923 versus the Edinburgh weaver James-1150, and the Edward property associations remain separate. Existing confident father settings for James-3923, Robert-1149 and Allexander-1152 are retained, not counted as new upgrades. Original sasines and parish images were not newly inspected.",
+    "profiles": {
+      "Glasgow-1152": {
+        "role": "Indexed child; existing confident father and mother grades retained"
+      },
+      "Glasgow-1148": {
+        "role": "Named father"
+      },
+      "Clerk-296": {
+        "role": "Named mother, Jannet Clerk"
       }
     }
   }

@@ -1,10 +1,45 @@
+{{Estimated Date}}
+[[Category:Glasgow Name Study]]
+
+== Biography ==
+'''Fisherrow family review, 17 October 2026:''' This is the '''preferred probable existing account''' of the Fisherrow tailor James, father of Alexander and husband of [[Bie-55|Christina Bye]]. The Mid Calder/Inveresk identity and earlier ancestry remain separately uncertain.<ref name="FisherrowFamilyReview" />
+James Glasgow was born circa 1585, likely in Scotland. This estimate is based on the birth year of his first known child in 1605. He appears in baptismal records as a father residing in Midlothian, Scotland, between 1605 and 1618, with records showing activity in two distinct parishes: Mid Calder (OPR parish #694) and Inveresk with Musselburgh.<ref>A patron submission to the LDS Church suggested a birth location of Inveresk, but this requires stronger sourcing. See Research Notes.</ref>
+
+The mother of his children is not named in these specific records. James is recorded as the father of the following six children, with the location alternating between the two parishes:
+
+* [[Glasgow-1082|George Glasgow]], christened 17 February 1605 in Mid Calder.<ref name="George1605">"Scotland Births and Baptisms, 1564-1950", database, FamilySearch (https://familysearch.org/ark:/61903/1:1:X1BK-1B4), James Glasgow in entry for Gerge Glasgow, 1605.</ref>
+* [[Glasgow-994|Eduard Glasgow]], born 27 February 1609 in Inveresk with Musselburgh.<ref name="Eduard1609">"Scotland Births and Baptisms, 1564-1950", database, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:XTRF-FQX), James Glasgow in entry for Eduard Glasgow, 1609.</ref>
+* [[Glasgow-1083|Beatrix Glasgow]], christened 15 April 1610 in Mid Calder.<ref name="Beatrix1610">"Scotland Births and Baptisms, 1564-1950", database, FamilySearch (https://familysearch.org/ark:/61903/1:1:X1BJ-L51), James Glasgow in entry for Beatrix Glasgow, 1610.</ref>
+* [[Glasgow-992|William Glasgow]], born 10 July 1614 in Inveresk with Musselburgh.<ref name="William1614">"Scotland Births and Baptisms, 1564-1950", database, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:XTRN-WMS), James Glasgow in entry for William Glasgow, 1614.</ref>
+* [[Glasgow-1084|John Glasgow]], christened 18 February 1616 in Mid Calder.<ref name="John1616">"Scotland Births and Baptisms, 1564-1950", database, FamilySearch (https://familysearch.org/ark:/61903/1:1:X1BL-JXY), James Glasgow in entry for John Glasgow, 1616.</ref>
+* [[Glasgow-993|Agnes Glasgow]], born 22 February 1618 in Inveresk with Musselburgh.<ref name="Agnes1618">"Scotland Births and Baptisms, 1564-1950", database, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:XTRJ-SZX), James Glasgow in entry for Agnes Glasgow, 1618.</ref>
+
+The pattern of baptisms/births alternating between Mid Calder and Inveresk with Musselburgh (parishes roughly 15-18 miles apart) suggests James and his family had significant ties, possibly residency or work, in both locations within Midlothian during this period.
+
+The date and location of James Glasgow's death are currently unknown.
+
+== Research Notes ==
+=== Fisherrow family review — 17 October 2026 ===
+
+Prefer the existing [[Glasgow-991|James Glasgow]] and [[Bie-55|Christina Bie]] family account for the Fisherrow James and [[Bie-55|Christina Bye]]. The printed 1624–1625 index explicitly groups James, tailor in Fisherrow and burgess of Musselburgh, his son Alexander and wife [[Bie-55|Christina Bye]]; it separately names Alexander’s wife [[Clerk-296|Janet Clerk]]. Those are the same named family roles already represented by these profiles. The local James account also includes the Inveresk father sequence of 1609–1618, which can continue into the Fisherrow household. The ordinary Bye/Bie spelling and the full family fit make the identification probable, rather than a match resting only on James’s forename. This is an assessment of the preferred existing family account, not independent confirmation from its copied tree fields.
+
+The Mid Calder and Inveresk baptism sequences may still represent one mobile father or two contemporaries; no occupation or property recital joins them. The profile’s birth and death places remain inherited claims. The 1614 FamilySearch citation’s claimed mother has not been verified: the provider record requires sign-in, while the inspected FMP and supplied ScotlandsPeople entries name James but no mother. That maternal claim is not used as independent support. Christina’s 1589 New Aberdour birth is tree-derived. Naming her as James’s wife in 1624 does not establish her as Alexander’s or William’s mother. The [[Glasgow-3163|Andrew Glasgow]] and Murieston-George ancestry alternatives retain their grades.
+
+<ref name="FisherrowFamilyReview">[https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481057&seq=193 SRO Indexes 38, Edinburgh etc. sasines 1624–1630, printed pp.187–188, visually checked 15 October 2026; 8 July 1624, 9/135, and 11 July 1625, 10/171, are recording dates]; [https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4435828&tab=this Marioune Glasgow, 17 March 1630, named father Alexander; accepted Findmypast transcript SCOT/OPR/BAP/4435828, OPR 689/1 p.191]; [https://www.scotlandspeople.gov.uk/search-records/church-registers/church-births-baptisms ScotlandsPeople supplied OPR index: Johnne 25 November 1632, 689/10/226; Bessie 22 March 1635, 689/10/263; Allexander and named parents Alexander/Jannet Clerk, 3 September 1637, 689/10/301, FR260; accepted 10 September review]; [https://www.findmypast.co.uk/transcript?id=R_686177762&tab=this William Glasgow, Inveresk 1614, father James, no mother supplied; accepted Findmypast transcript R_686177762].</ref>
+
+[https://glasgow.phenotype.dev/branches/research-calder-inveresk-james/#chapter-fisherrow-family-confidence Parish family assessment and retained questions].
+
+
+=== Earlier maintained research retained ===
+
+The dated Fisherrow family review supersedes earlier parent and spouse assessments only. Earlier factual passages and separate questions are retained below.
+
+<blockquote>
 <!-- REVIEWED FULL REPLACEMENT:15 October2026; all current citations and previous replacement detail retained; see working-joins-preservation-2026-10-15.json. -->
 {{Estimated Date}}
 [[Category:Glasgow Name Study]]
 
 <!-- REVIEWED FULL REPLACEMENT: 15 October 2026; complete source and passage audit in murieston-profile-preservation-2026-10-15.json. -->
-== Biography ==
-James Glasgow was born circa 1585, likely in Scotland. This estimate is based on the birth year of his first known child in 1605. He appears in baptismal records as a father residing in Midlothian, Scotland, between 1605 and 1618, with records showing activity in two distinct parishes: Mid Calder (OPR parish #694) and Inveresk with Musselburgh.<ref>A patron submission to the LDS Church suggested a birth location of Inveresk, but this requires stronger sourcing. See Research Notes.</ref>
 
 The citations in the following six-event sequence do not name a mother. James is recorded as the father of the following six children, with the location alternating between the two parishes:
 
@@ -17,9 +52,6 @@ The citations in the following six-event sequence do not name a mother. James is
 
 The alternating parish sequence is compatible with one mobile household, but also with two contemporary fathers named James. The proposed travel connection is unproved; residence in two places is not established by indexes alone.
 
-The date and location of James Glasgow's death are currently unknown.
-
-== Research Notes ==
 === Murieston identity confidence — 16 October 2026 ===
 
 The preferred working identification is that George Glasgw in Mureistoun in the 1586 Calder muster obligation was the adult George Glasgow who witnessed the 17 February 1605 baptism of George, son of James Glasgow in provisionally read Muirestoun. The 1605 household points to the same holding as the earlier George, within the same parish setting. The surname is specific to this local comparison, and a 19-year interval is straightforward for one adult career. A child bearing George’s name and an adult George participating in his baptism make a continuing local family association more economical than two unconnected Georges. Together these observations warrant probable rather than merely possible cross-record identity. They do not amount to independent proofs of every step.
@@ -28,8 +60,6 @@ The witness’s own residence is unstated, and another George in the district re
 
 This improves a specific identity assessment within the 216-profile James branch, rather than raising Andrew’s father grade. The earlier possible assessment is retained as history. The working tree, confident paternal graph and fixed cohort are unchanged. The underlying 1605 register page was freshly inspected for this review; the 1586 printed-page verification from 15 October is retained, and the court manuscript remains unread. [https://glasgow.phenotype.dev/branches/research-calder-inveresk-james/#murieston-george-identity-confidence Confidence review and source limits]. <ref>Maintained parish register and printed act: [https://archive.org/details/analectascotica00maidgoog Maidment, Analecta Scotica I (1834), art. CXVI, pp.395–396,399: George in Mureistoun, 1586; printed pages verified 15 October 2026]; [https://www.scotlandspeople.gov.uk/ NRS Mid Calder OPR 694/10 p.7, 17 February 1605: James’s child George and adult witness George; original register freshly inspected]. The 1605 register page was freshly inspected; the 1586 manuscript remains unread. The dependent printed accounts, probable holding and unresolved kinship limits remain explicit.</ref>
 
-
-
 === Retained captured wording ===
 
 These captured passages are retained for comparison; the current source notes qualify their interpretation.
@@ -37,34 +67,12 @@ These captured passages are retained for comparison; the current source notes qu
 <blockquote>
 The mother of his children is not named in these specific records. James is recorded as the father of the following six children, with the location alternating between the two parishes:
 
-* [[Glasgow-1082|George Glasgow]], christened 17 February 1605 in Mid Calder.<ref name="George1605">"Scotland Births and Baptisms, 1564-1950", database, FamilySearch (https://familysearch.org/ark:/61903/1:1:X1BK-1B4), James Glasgow in entry for Gerge Glasgow, 1605.</ref>
-* [[Glasgow-994|Eduard Glasgow]], born 27 February 1609 in Inveresk with Musselburgh.<ref name="Eduard1609">"Scotland Births and Baptisms, 1564-1950", database, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:XTRF-FQX), James Glasgow in entry for Eduard Glasgow, 1609.</ref>
-* [[Glasgow-1083|Beatrix Glasgow]], christened 15 April 1610 in Mid Calder.<ref name="Beatrix1610">"Scotland Births and Baptisms, 1564-1950", database, FamilySearch (https://familysearch.org/ark:/61903/1:1:X1BJ-L51), James Glasgow in entry for Beatrix Glasgow, 1610.</ref>
-* [[Glasgow-992|William Glasgow]], born 10 July 1614 in Inveresk with Musselburgh.<ref name="William1614">"Scotland Births and Baptisms, 1564-1950", database, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:XTRN-WMS), James Glasgow in entry for William Glasgow, 1614.</ref>
-* [[Glasgow-1084|John Glasgow]], christened 18 February 1616 in Mid Calder.<ref name="John1616">"Scotland Births and Baptisms, 1564-1950", database, FamilySearch (https://familysearch.org/ark:/61903/1:1:X1BL-JXY), James Glasgow in entry for John Glasgow, 1616.</ref>
-* [[Glasgow-993|Agnes Glasgow]], born 22 February 1618 in Inveresk with Musselburgh.<ref name="Agnes1618">"Scotland Births and Baptisms, 1564-1950", database, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:XTRJ-SZX), James Glasgow in entry for Agnes Glasgow, 1618.</ref>
-
-The pattern of baptisms/births alternating between Mid Calder and Inveresk with Musselburgh (parishes roughly 15-18 miles apart) suggests James and his family had significant ties, possibly residency or work, in both locations within Midlothian during this period.
-
-* '''Dual Locations:''' The records confirm activity in Mid Calder (Parish 694) and Inveresk with Musselburgh, Midlothian. Further research into land, kirk session, or court records might clarify the family's presence in both parishes.
-* '''Single Identity Assumption:''' This profile currently assumes these records pertain to one James Glasgow, based on the consistent name and plausible timeframe/geography. However, the possibility of two contemporaries named James Glasgow cannot be entirely ruled out without further evidence (e.g., marriage, death, or conflicting records).
-* '''Inveresk Birth Claim:''' A citation noted "Place of birth is listed as Inveresk<ref name="PatronSub">Patron submission record, The Church of Jesus Christ of Latter-day Saints ''(Note: Source details are vague in original text; treat with caution unless specific record identified).''</ref>". This is generally considered weak evidence unless corroborated by primary sources.
-* '''Possible Earlier Record (Speculative):''' A record from Perth dated 19 January 1575 mentions the baptism of a James '''Glas''', son of '''Alexander Glas''' (Perth OPR 387/10/172).<ref name="Perth1575">OPR entry: “GLAS JAMES / ALEXR. GLAS/ M 19/01/1575 387 10 / 172 Perth”. Also cited via FamilySearch profile LZGY-NSY (https://www.familysearch.org/en/tree/person/details/LZGY-NSY) accessed [Insert Date].</ref> Any connection between this Perth record and the James Glasgow of Midlothian (born c. 1585) is unconfirmed and requires significant further research. It may relate to a different individual or family line.
-* '''Mother Unknown:''' The mother of the children listed above is not identified in these baptism/birth records.
-* '''Excluded Information:''' Information regarding a wife named Christina Bie, later generations potentially linked via Geneanet, or specific GEDmatch references previously in comments have been excluded from this biography pending reliable sources confirming their connection to *this* James Glasgow.
-
-=== Connection to Father ===
-Placement under Andrew Glasgow (bef.1540–1598) fits the alternating parish pattern between Mid Calder and Inveresk/Musselburgh from 1605 to 1618. Andrew’s branch anchors the Caldercleir/Mid-Lothian corridor and expands toward the east-coast parishes. Andrew’s testament names sons James and John; this James matches that statement and geography. No record on this page states his father.
-
 === Earlier daughter hypothesis: superseded ===
 
 The following candidate discussion predates Jonet Glasgow-3183’s identification as Andrew Glasgow’s testament-defined daughter. Andrew’s record-defined fatherhood is documented; the later Ramsy bride identity is separately probable. James is not selected as her father. The earlier reasoning is retained below for comparison.
 
-[[Glasgow-3183|Jonet Glasgow, wife of Martin Ramsy]], is James's leading possible older daughter. James is the only identified same-generation Glasgow repeatedly recorded as a father at Mid Calder, where children attributed to him were baptised in 1605, 1610 and 1616; Jonet married there in 1624.<ref>FamilySearch indexes: [https://familysearch.org/ark:/61903/1:1:X1BK-1BW George Glasgow, 1605], [https://familysearch.org/ark:/61903/1:1:X1BJ-L51 Beatrix Glasgow, 1610], [https://familysearch.org/ark:/61903/1:1:X1BL-JXY John Glasgow, 1616], and [https://www.familysearch.org/ark:/61903/1:1:XY9X-4PR Jonet Glasgow and Martin Ramsy, 1624].</ref>
-
 The placement also resolves a conflict in Jonet's current genealogy: Andrew of Corstoun's 1598 testament names exactly four operative children and excludes her.<ref>National Records of Scotland, Edinburgh Commissary Court, CC8/8/32; printed index in ''Commissariot of Edinburgh: Register of Testaments, 1514-1600'', [https://archive.org/details/scottishrecordso01scotuoft/page/n117/mode/1up p. 108].</ref> James is now attached as Jonet's uncertain working father. The relationship remains a moderate-to-strong placement rather than direct proof, and Jonet's mother is unidentified.
 </blockquote>
-
 
 * '''Dual Locations:''' The records confirm activity in Mid Calder (Parish 694) and Inveresk with Musselburgh, Midlothian. Further research into land, kirk session, or court records might clarify the family's presence in both parishes.
 * '''Single Identity Assumption:''' This profile currently assumes these records pertain to one James Glasgow, based on the consistent name and plausible timeframe/geography. However, the possibility of two contemporaries named James Glasgow cannot be entirely ruled out without further evidence (e.g., marriage, death, or conflicting records).
@@ -73,12 +81,8 @@ The placement also resolves a conflict in Jonet's current genealogy: Andrew of C
 * '''Mother Unknown:''' The citations in the six-event list do not identify a mother; the separate William-3517/Christina Bie attribution below is a compatible household comparison, not a mother established for every child.
 * '''Spouse and identity comparisons:''' Christina Bie is a compatible spouse candidate for the Inveresk/Fisherrow James: the cited baptism of [[Glasgow-3517|William]] names James and Christina Bie, while the1624–1625 sasine indexes name Fisherrow tailor James and Christina Bye with son [[Glasgow-1148|Alexander]]. The identities are unproved; the formerly linked [[Glasgow-992|William-992]] is retained as a comparison until the original event and competing parentage are checked; that profile currently has George Glasgow and Margaret Stewart attached, so it must not silently replace the indexed James household. The Mid Calder mother is unstated. Unverified later Geneanet connections are not evidence for this identity.<ref>FamilySearch, [https://www.familysearch.org/ark:/61903/1:1:VQ4V-K87 William Glasgow,1614]; cited parent attribution requires its own original check. Printed sasine indexes: RS25/9 fol.135,8 July1624; RS25/10 fol.171,11 July1625; original instruments uninspected.</ref>
 
-
-
 === Connection to Father ===
 Andrew Glasgow remains a possible regional ancestor, but the former claim that his testament named sons James and John was a transcription error. The original CC8/8/32 names Robert, son of Andrew and Elizat Stevinsoun, and daughters Marion, Janet and Isobel. It does not prove James's parentage.<ref>National Records of Scotland, Edinburgh Commissary Court, CC8/8/32, images123–124; testament made6 February1597/8, confirmed10 July1598; corrected reading of original images.</ref>
-
-* '''Next Step:''' Compare sponsors and witnesses across the 1605–1618 baptisms with Andrew’s testament and nearby sasines for overlapping names.
 
 === Possible older daughter ===
 [[Glasgow-3183|Jonet Glasgow, wife of Martin Ramsy]], is James's leading possible older daughter. James is a same-generation Glasgow repeatedly recorded as a father at Mid Calder, where children attributed to him were baptised in 1605, 1610 and 1616; Jonet married there in 1624.<ref>FamilySearch indexes: [https://familysearch.org/ark:/61903/1:1:X1BK-1BW George Glasgow, 1605], [https://familysearch.org/ark:/61903/1:1:X1BJ-L51 Beatrix Glasgow, 1610], [https://familysearch.org/ark:/61903/1:1:X1BL-JXY John Glasgow, 1616], and [https://www.familysearch.org/ark:/61903/1:1:XY9X-4PR Jonet Glasgow and Martin Ramsy, 1624].</ref>
@@ -99,6 +103,27 @@ Compare the other Mid Calder baptism pages for the same holding and witnesses, t
 [[Glasgow-3163|Andrew Glasgow of Calder]] is selected as the working father in the local research model. Andrew’s documented rural Calder household is the preferred working anchor for James’s nearby Mid Calder family. He was alive across the estimated1575–1586 birth interval of all three Lothian fathers; Hermand John’s1577 death would require an earlier birth estimate for David. That favours this coherent provisional family without excluding the other father. Andrew was alive until1598 and the uncertain generations allow James to be an older son. This uses the actual Calder setting and compatible family sequence, not the withdrawn assertion that the testament named James. James’s Inveresk/Fisherrow identity remains a separate uncertainty.
 
 This is a hypothesis from existing material, not a parent named in a newly found record. John of Hermand-3181 is another plausible older local father. The George named at Mureistoun1586 and the George witness1605 are a competing father/relative lead; identifying that George with merchant1099 would require additional identity assumptions and young fatherhood. None is excluded. Andrew’s omission of James weakens this model; it does not disprove an older son. No mother or live WikiTree parent-field change is implied. The earlier proof-based rationale remains superseded where corrected.
+</blockquote>
+
+
+* '''Dual Locations:''' The records confirm activity in Mid Calder (Parish 694) and Inveresk with Musselburgh, Midlothian. Further research into land, kirk session, or court records might clarify the family's presence in both parishes.
+* '''Single Identity Assumption:''' This profile currently assumes these records pertain to one James Glasgow, based on the consistent name and plausible timeframe/geography. However, the possibility of two contemporaries named James Glasgow cannot be entirely ruled out without further evidence (e.g., marriage, death, or conflicting records).
+* '''Inveresk Birth Claim:''' A citation noted "Place of birth is listed as Inveresk<ref name="PatronSub">Patron submission record, The Church of Jesus Christ of Latter-day Saints ''(Note: Source details are vague in original text; treat with caution unless specific record identified).''</ref>". This is generally considered weak evidence unless corroborated by primary sources.
+* '''Possible Earlier Record (Speculative):''' A record from Perth dated 19 January 1575 mentions the baptism of a James '''Glas''', son of '''Alexander Glas''' (Perth OPR 387/10/172).<ref name="Perth1575">OPR entry: “GLAS JAMES / ALEXR. GLAS/ M 19/01/1575 387 10 / 172 Perth”. Also cited via FamilySearch profile LZGY-NSY (https://www.familysearch.org/en/tree/person/details/LZGY-NSY) accessed [Insert Date].</ref> Any connection between this Perth record and the James Glasgow of Midlothian (born c. 1585) is unconfirmed and requires significant further research. It may relate to a different individual or family line.
+* '''Mother Unknown:''' The mother of the children listed above is not identified in these baptism/birth records.
+* '''Excluded Information:''' Information regarding a wife named Christina Bie, later generations potentially linked via Geneanet, or specific GEDmatch references previously in comments have been excluded from this biography pending reliable sources confirming their connection to *this* James Glasgow.
+
+
+
+=== Connection to Father ===
+Placement under Andrew Glasgow (bef.1540–1598) fits the alternating parish pattern between Mid Calder and Inveresk/Musselburgh from 1605 to 1618. Andrew’s branch anchors the Caldercleir/Mid-Lothian corridor and expands toward the east-coast parishes. Andrew’s testament names sons James and John; this James matches that statement and geography. No record on this page states his father.
+
+* '''Next Step:''' Compare sponsors and witnesses across the 1605–1618 baptisms with Andrew’s testament and nearby sasines for overlapping names.
+
+=== Possible older daughter ===
+[[Glasgow-3183|Jonet Glasgow, wife of Martin Ramsy]], is James's leading possible older daughter. James is the only identified same-generation Glasgow repeatedly recorded as a father at Mid Calder, where children attributed to him were baptised in 1605, 1610 and 1616; Jonet married there in 1624.<ref>FamilySearch indexes: [https://familysearch.org/ark:/61903/1:1:X1BK-1BW George Glasgow, 1605], [https://familysearch.org/ark:/61903/1:1:X1BJ-L51 Beatrix Glasgow, 1610], [https://familysearch.org/ark:/61903/1:1:X1BL-JXY John Glasgow, 1616], and [https://www.familysearch.org/ark:/61903/1:1:XY9X-4PR Jonet Glasgow and Martin Ramsy, 1624].</ref>
+
+The placement also resolves a conflict in Jonet's current genealogy: Andrew of Corstoun's 1598 testament names exactly four operative children and excludes her.<ref>National Records of Scotland, Edinburgh Commissary Court, CC8/8/32; printed index in ''Commissariot of Edinburgh: Register of Testaments, 1514-1600'', [https://archive.org/details/scottishrecordso01scotuoft/page/n117/mode/1up p. 108].</ref> James is now attached as Jonet's uncertain working father. The relationship remains a moderate-to-strong placement rather than direct proof, and Jonet's mother is unidentified.
 
 == Sources ==
 <references />

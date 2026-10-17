@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "reviewed": "2026-10-17",
+  "cutoff": 1850,
+  "method_version": 3,
+  "scope": "Fisherrow: two linked couples and the Inveresk children",
+  "input_fingerprint": "1011cdc795a69b57b4facb73cb7ee21aa51ac3e1d08578eb1fcbfe5068ebdfac",
+  "models": {
+    "main": {
+      "checked_historical_profiles": 1777,
+      "all_public_model_profiles_checked": 4519,
+      "matched_paternal_edges": 1354,
+      "changed_father_fields": 0,
+      "changed_mother_fields": 0,
+      "father_grades_changed": 4,
+      "mother_grades_changed": 0,
+      "spouse_grades_changed_in_public_dossiers": 2,
+      "added_historical_profiles": [],
+      "unresolved_father_cases": [
+        "Glasgow-1367",
+        "Glasgow-2908",
+        "Glasgow-867",
+        "Glasgow-951"
+      ]
+    },
+    "standalone": {
+      "checked_historical_profiles": 1777,
+      "all_public_model_profiles_checked": 4670,
+      "matched_paternal_edges": 1354,
+      "changed_father_fields": 0,
+      "changed_mother_fields": 0,
+      "father_grades_changed": 4,
+      "mother_grades_changed": 0,
+      "spouse_grades_changed_in_public_dossiers": 2,
+      "added_historical_profiles": [],
+      "unresolved_father_cases": [
+        "Glasgow-1367",
+        "Glasgow-2908",
+        "Glasgow-867",
+        "Glasgow-951"
+      ]
+    }
+  },
+  "genealogical_connections_added": 0,
+  "paternal_connections_added": 0,
+  "maternal_connections_added": 0,
+  "certainty_upgrades": 4,
+  "confidence_assessments_strengthened": 2,
+  "parent_grade_changes": [
+    {
+      "subject_id": "Glasgow-1148",
+      "relative_id": "Glasgow-991",
+      "relationship": "father",
+      "before": "uncertain",
+      "after": "probable",
+      "assertion_id": "C-review-20261017-fisherrow-glasgow-1148-father",
+      "basis": "Prefer the existing James Glasgow-991 and Christina Bie-55 family account for the Fisherrow James and Christina Bye. The printed 1624–1625 index explicitly groups James, tailor in Fisherrow and burgess of Musselburgh, his son Alexander and wife Christina Bye; it separately names Alexander’s wife Janet Clerk. Those are the same named family roles already represented by these profiles. The local James account also includes the Inveresk father sequence of 1609–1618, which can continue into the Fisherrow household. The ordinary Bye/Bie spelling and the full family fit make the identification probable, rather than a match resting only on James’s forename. This is an assessment of the preferred existing family account, not independent confirmation from its copied tree fields.",
+      "limitations": "The Mid Calder and Inveresk baptism sequences may still represent one mobile father or two contemporaries; no occupation or property recital joins them. The profile’s birth and death places remain inherited claims. The 1614 FamilySearch citation’s claimed mother has not been verified: the provider record requires sign-in, while the inspected FMP and supplied ScotlandsPeople entries name James but no mother. That maternal claim is not used as independent support. Christina’s 1589 New Aberdour birth is tree-derived. Naming her as James’s wife in 1624 does not establish her as Alexander’s or William’s mother. The Andrew-3163 and Murieston-George ancestry alternatives retain their grades.",
+      "new_attachment": false,
+      "live_flag_changed": false
+    },
+    {
+      "subject_id": "Glasgow-991",
+      "relative_id": "Bie-55",
+      "relationship": "spouse",
+      "before": "unknown",
+      "after": "probable",
+      "assertion_id": "C-review-20261017-fisherrow-glasgow-991-spouse",
+      "basis": "Prefer the existing James Glasgow-991 and Christina Bie-55 family account for the Fisherrow James and Christina Bye. The printed 1624–1625 index explicitly groups James, tailor in Fisherrow and burgess of Musselburgh, his son Alexander and wife Christina Bye; it separately names Alexander’s wife Janet Clerk. Those are the same named family roles already represented by these profiles. The local James account also includes the Inveresk father sequence of 1609–1618, which can continue into the Fisherrow household. The ordinary Bye/Bie spelling and the full family fit make the identification probable, rather than a match resting only on James’s forename. This is an assessment of the preferred existing family account, not independent confirmation from its copied tree fields.",
+      "limitations": "The Mid Calder and Inveresk baptism sequences may still represent one mobile father or two contemporaries; no occupation or property recital joins them. The profile’s birth and death places remain inherited claims. The 1614 FamilySearch citation’s claimed mother has not been verified: the provider record requires sign-in, while the inspected FMP and supplied ScotlandsPeople entries name James but no mother. That maternal claim is not used as independent support. Christina’s 1589 New Aberdour birth is tree-derived. Naming her as James’s wife in 1624 does not establish her as Alexander’s or William’s mother. The Andrew-3163 and Murieston-George ancestry alternatives retain their grades.",
+      "new_attachment": false,
+      "live_flag_changed": false
+    },
+    {
+      "subject_id": "Glasgow-1148",
+      "relative_id": "Clerk-296",
+      "relationship": "spouse",
+      "before": "unknown",
+      "after": "proved",
+      "assertion_id": "C-review-20261017-fisherrow-glasgow-1148-spouse",
+      "basis": "The printed sasine index places Janet Clerk with Alexander, while Christina Bye belongs with his father James. The 1637 Inveresk entry explicitly names Alexander Glasgow and Jannet Clerk as parents of their indexed son. The matching named couple and compatible 1624–1637 parish/property sequence document Alexander and Janet’s spouse relationship; no marriage ceremony date is supplied.",
+      "limitations": "No mother is named in the three reviewed child entries, so their maternal grades stay unchanged. Bessie’s 22 March index date and existing 20 March birth field remain unreconciled; no date is changed. The later identities of these children, James-3923 versus the Edinburgh weaver James-1150, and the Edward property associations remain separate. Existing confident father settings for James-3923, Robert-1149 and Allexander-1152 are retained, not counted as new upgrades. Original sasines and parish images were not newly inspected.",
+      "new_attachment": false,
+      "live_flag_changed": false
+    },
+    {
+      "subject_id": "Glasgow-1151",
+      "relative_id": "Glasgow-1148",
+      "relationship": "father",
+      "before": "unmarked",
+      "after": "strongly_supported",
+      "assertion_id": "C-review-20261017-fisherrow-glasgow-1151-father",
+      "basis": "The Inveresk entries name Alexander Glasgow as father of Marioune in 1630, Johnne in 1632 and Bessie in 1635. They fall within the 1626–1637 series already represented by the Fisherrow Alexander’s family. The 1624–1625 sasines identify his wife Janet Clerk, and the 1637 child entry repeats that parental pair. The repeated father, parish, ordered child series and independently named couple strongly support this Alexander as the father in all three entries. This is confident family reconstruction from the combined records, not an assertion that each earlier entry names his occupation or wife.",
+      "limitations": "No mother is named in the three reviewed child entries, so their maternal grades stay unchanged. Bessie’s 22 March index date and existing 20 March birth field remain unreconciled; no date is changed. The later identities of these children, James-3923 versus the Edinburgh weaver James-1150, and the Edward property associations remain separate. Existing confident father settings for James-3923, Robert-1149 and Allexander-1152 are retained, not counted as new upgrades. Original sasines and parish images were not newly inspected.",
+      "new_attachment": false,
+      "live_flag_changed": false
+    },
+    {
+      "subject_id": "Glasgow-1429",
+      "relative_id": "Glasgow-1148",
+      "relationship": "father",
+      "before": "unmarked",
+      "after": "strongly_supported",
+      "assertion_id": "C-review-20261017-fisherrow-glasgow-1429-father",
+      "basis": "The Inveresk entries name Alexander Glasgow as father of Marioune in 1630, Johnne in 1632 and Bessie in 1635. They fall within the 1626–1637 series already represented by the Fisherrow Alexander’s family. The 1624–1625 sasines identify his wife Janet Clerk, and the 1637 child entry repeats that parental pair. The repeated father, parish, ordered child series and independently named couple strongly support this Alexander as the father in all three entries. This is confident family reconstruction from the combined records, not an assertion that each earlier entry names his occupation or wife.",
+      "limitations": "No mother is named in the three reviewed child entries, so their maternal grades stay unchanged. Bessie’s 22 March index date and existing 20 March birth field remain unreconciled; no date is changed. The later identities of these children, James-3923 versus the Edinburgh weaver James-1150, and the Edward property associations remain separate. Existing confident father settings for James-3923, Robert-1149 and Allexander-1152 are retained, not counted as new upgrades. Original sasines and parish images were not newly inspected.",
+      "new_attachment": false,
+      "live_flag_changed": false
+    },
+    {
+      "subject_id": "Glasgow-1155",
+      "relative_id": "Glasgow-1148",
+      "relationship": "father",
+      "before": "unmarked",
+      "after": "strongly_supported",
+      "assertion_id": "C-review-20261017-fisherrow-glasgow-1155-father",
+      "basis": "The Inveresk entries name Alexander Glasgow as father of Marioune in 1630, Johnne in 1632 and Bessie in 1635. They fall within the 1626–1637 series already represented by the Fisherrow Alexander’s family. The 1624–1625 sasines identify his wife Janet Clerk, and the 1637 child entry repeats that parental pair. The repeated father, parish, ordered child series and independently named couple strongly support this Alexander as the father in all three entries. This is confident family reconstruction from the combined records, not an assertion that each earlier entry names his occupation or wife.",
+      "limitations": "No mother is named in the three reviewed child entries, so their maternal grades stay unchanged. Bessie’s 22 March index date and existing 20 March birth field remain unreconciled; no date is changed. The later identities of these children, James-3923 versus the Edinburgh weaver James-1150, and the Edward property associations remain separate. Existing confident father settings for James-3923, Robert-1149 and Allexander-1152 are retained, not counted as new upgrades. Original sasines and parish images were not newly inspected.",
+      "new_attachment": false,
+      "live_flag_changed": false
+    }
+  ],
+  "publication_summary": "Prefer the existing James Glasgow-991 and Christina Bie-55 family account for the Fisherrow James and Christina Bye. The printed 1624–1625 index explicitly groups James, tailor in Fisherrow and burgess of Musselburgh, his son Alexander and wife Christina Bye; it separately names Alexander’s wife Janet Clerk. Those are the same named family roles already represented by these profiles. The local James account also includes the Inveresk father sequence of 1609–1618, which can continue into the Fisherrow household. The ordinary Bye/Bie spelling and the full family fit make the identification probable, rather than a match resting only on James’s forename. This is an assessment of the preferred existing family account, not independent confirmation from its copied tree fields. The printed sasine index places Janet Clerk with Alexander, while Christina Bye belongs with his father James. The 1637 Inveresk entry explicitly names Alexander Glasgow and Jannet Clerk as parents of their indexed son. The matching named couple and compatible 1624–1637 parish/property sequence document Alexander and Janet’s spouse relationship; no marriage ceremony date is supplied. The Inveresk entries name Alexander Glasgow as father of Marioune in 1630, Johnne in 1632 and Bessie in 1635. They fall within the 1626–1637 series already represented by the Fisherrow Alexander’s family. The 1624–1625 sasines identify his wife Janet Clerk, and the 1637 child entry repeats that parental pair. The repeated father, parish, ordered child series and independently named couple strongly support this Alexander as the father in all three entries. This is confident family reconstruction from the combined records, not an assertion that each earlier entry names his occupation or wife. The Mid Calder and Inveresk baptism sequences may still represent one mobile father or two contemporaries; no occupation or property recital joins them. The profile’s birth and death places remain inherited claims. The 1614 FamilySearch citation’s claimed mother has not been verified: the provider record requires sign-in, while the inspected FMP and supplied ScotlandsPeople entries name James but no mother. That maternal claim is not used as independent support. Christina’s 1589 New Aberdour birth is tree-derived. Naming her as James’s wife in 1624 does not establish her as Alexander’s or William’s mother. The Andrew-3163 and Murieston-George ancestry alternatives retain their grades. No mother is named in the three reviewed child entries, so their maternal grades stay unchanged. Bessie’s 22 March index date and existing 20 March birth field remain unreconciled; no date is changed. The later identities of these children, James-3923 versus the Edinburgh weaver James-1150, and the Edward property associations remain separate. Existing confident father settings for James-3923, Robert-1149 and Allexander-1152 are retained, not counted as new upgrades. Original sasines and parish images were not newly inspected. Six existing assessments are strengthened: Alexander’s father and James’s Christina spouse identity become probable; Alexander and Janet’s marriage is documented; three previously ungraded fathers become strongly supported. The four paternal grade changes enter the probable-or-stronger graph, three of them the confident graph. No person, parent ID, maternal grade, date, selected working parent or live certainty flag changes. The existing pre-1850 child side below Alexander contains 24 profile accounts; downstream uncertainty remains explicit.",
+  "comparison": "/branches/research-calder-inveresk-james/#chapter-fisherrow-family-confidence",
+  "next_metric_check": {
+    "status": "RESOLVED",
+    "saved_confident_tree_flags_not_used_by_current_metric": 0,
+    "review": "/data/ancestry-confidence-method-review.json",
+    "scope": "Status fallback; four competing-father cases remain open."
+  },
+  "verification": {
+    "all_cohort_membership_unchanged": true,
+    "working_numerical_connectivity_unchanged": true,
+    "all_parent_ids_names_and_vitals_unchanged": true,
+    "all_other_parent_grades_unchanged": true,
+    "held_four_father_cases_full_flags_unchanged": true,
+    "all_live_fields_and_flags_unchanged": true,
+    "dna_payloads_unchanged": true,
+    "public_pending_updates": 249,
+    "complete_profile_comparisons": 7,
+    "public_complete_profile_comparisons": 7,
+    "private_complete_profile_comparisons": 0,
+    "public_profile_models_synchronized": 7
+  },
+  "supported_connectivity": {
+    "before": {
+      "population": 1777,
+      "edge_count": 366,
+      "component_count": 1411,
+      "largest_component_size": 44,
+      "connected_pairs_percent": 0.1841599618752123
+    },
+    "after": {
+      "population": 1777,
+      "edge_count": 370,
+      "component_count": 1407,
+      "largest_component_size": 44,
+      "connected_pairs_percent": 0.19284196971310083
+    }
+  },
+  "confident_connectivity": {
+    "before": {
+      "edge_count": 352,
+      "component_count": 1425,
+      "connected_pairs_percent": 0.16394419180012879
+    },
+    "after": {
+      "edge_count": 355,
+      "component_count": 1422,
+      "connected_pairs_percent": 0.16603547835962018
+    }
+  }
+}

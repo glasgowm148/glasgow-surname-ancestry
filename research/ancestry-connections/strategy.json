@@ -2823,6 +2823,72 @@
       ],
       "counted_as_new_connection": false,
       "reviewed": "2026-10-17"
+    },
+    {
+      "id": "fisherrow-family-confidence",
+      "year": 1624,
+      "title": "Fisherrow: two linked couples and the Inveresk children",
+      "status": "Probable James father/couple identity; documented Alexander–Janet marriage; three strongly supported fathers",
+      "people": [
+        {
+          "name": "Alexander Glasgow, Fisherrow tailor",
+          "url": "/people/glasgow-1148.html"
+        },
+        {
+          "name": "James Glasgow, preferred Fisherrow father",
+          "url": "/people/glasgow-991.html"
+        },
+        {
+          "name": "Christina Bie or Bye",
+          "url": "/people/bie-55.html"
+        },
+        {
+          "name": "Janet or Jannet Clerk",
+          "url": "/people/clerk-296.html"
+        },
+        {
+          "name": "Johnne Glasgow, Inveresk 1632",
+          "url": "/people/glasgow-1151.html"
+        },
+        {
+          "name": "Marioune Glasgow, Inveresk 1630",
+          "url": "/people/glasgow-1429.html"
+        },
+        {
+          "name": "Bessie Glasgow, Inveresk 1635",
+          "url": "/people/glasgow-1155.html"
+        }
+      ],
+      "basis": "Prefer the existing James Glasgow-991 and Christina Bie-55 family account for the Fisherrow James and Christina Bye. The printed 1624–1625 index explicitly groups James, tailor in Fisherrow and burgess of Musselburgh, his son Alexander and wife Christina Bye; it separately names Alexander’s wife Janet Clerk. Those are the same named family roles already represented by these profiles. The local James account also includes the Inveresk father sequence of 1609–1618, which can continue into the Fisherrow household. The ordinary Bye/Bie spelling and the full family fit make the identification probable, rather than a match resting only on James’s forename. This is an assessment of the preferred existing family account, not independent confirmation from its copied tree fields. The Inveresk entries name Alexander Glasgow as father of Marioune in 1630, Johnne in 1632 and Bessie in 1635. They fall within the 1626–1637 series already represented by the Fisherrow Alexander’s family. The 1624–1625 sasines identify his wife Janet Clerk, and the 1637 child entry repeats that parental pair. The repeated father, parish, ordered child series and independently named couple strongly support this Alexander as the father in all three entries. This is confident family reconstruction from the combined records, not an assertion that each earlier entry names his occupation or wife.",
+      "next_test": "Test the combined Mid Calder/Inveresk James identity, read sasines 9/135 and 10/171, and verify the 1614 maternal reading. Preserve all three Edward alternatives and the older ancestry grades.",
+      "sources": [
+        {
+          "label": "SRO Indexes 38, Edinburgh etc. sasines 1624–1630, printed pp.187–188, visually checked 15 October 2026; 8 July 1624, 9/135, and 11 July 1625, 10/171, are recording dates",
+          "url": "https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481057&seq=193"
+        },
+        {
+          "label": "Marioune Glasgow, 17 March 1630, named father Alexander; accepted Findmypast transcript SCOT/OPR/BAP/4435828, OPR 689/1 p.191",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4435828&tab=this"
+        },
+        {
+          "label": "ScotlandsPeople supplied OPR index: Johnne 25 November 1632, 689/10/226; Bessie 22 March 1635, 689/10/263; Allexander and named parents Alexander/Jannet Clerk, 3 September 1637, 689/10/301, FR260; accepted 10 September review",
+          "url": "https://www.scotlandspeople.gov.uk/search-records/church-registers/church-births-baptisms"
+        },
+        {
+          "label": "William Glasgow, Inveresk 1614, father James, no mother supplied; accepted Findmypast transcript R_686177762",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_686177762&tab=this"
+        }
+      ],
+      "record_references": [
+        "fisherrow-sasine-index-1624",
+        "fisherrow-sasine-index-1625",
+        "inveresk-johnne-1632-father-alexander",
+        "inveresk-marioune-1630-father-alexander",
+        "inveresk-bessie-1635-father-alexander",
+        "inveresk-allexander-1637-named-parents"
+      ],
+      "counted_as_new_connection": false,
+      "reviewed": "2026-10-17"
     }
   ],
   "source_basis": "Initial priorities reconcile existing medieval bridge research, the pre-1550 relationship audit and the resolved public catalogue. They are current working comparisons, not newly discovered kinship records."
