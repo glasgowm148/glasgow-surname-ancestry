@@ -6,6 +6,7 @@ import tempfile
 import unittest
 
 from bs4 import BeautifulSoup
+from tools.site_analytics import with_analytics
 
 spec = importlib.util.spec_from_file_location("queue_creations", Path(__file__).resolve().parents[1] / "tools/queue_catalogue_creations.py")
 module = importlib.util.module_from_spec(spec)
@@ -75,6 +76,8 @@ The deed does not give her birth date. No compatible profile survived the docume
         self.assertTrue(dossier["research_findings"])
         self.assertTrue((self.root / f"www/people/{self.slug}.network.json").exists())
         soup = BeautifulSoup((self.root / f"www/people/{self.slug}.html").read_text(), "html.parser")
+        html = (self.root / f"www/people/{self.slug}.html").read_text()
+        self.assertEqual(html, with_analytics(html))
         self.assertEqual(soup.select_one("#profile-update-draft").get_text(), self.draft)
         self.assertIsNotNone(soup.select_one(f'a[href="/people/{self.slug}.json"]'))
         self.assertIn("Create a new WikiTree profile", soup.get_text())

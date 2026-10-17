@@ -287,7 +287,8 @@ def apply_creations(root=ROOT):
                 if link.get_text(" ", strip=True) == "View the baptism source":
                     link.string = "Inspect the original source"
             soup.body.append(soup.new_tag("script", src=f"/people/profile-update.js?v={catalogue.CATALOGUE_ASSET_VERSION}", defer=True))
-            (web / f"people/{slug}.html").write_text(str(soup), encoding="utf-8")
+            from tools.site_analytics import with_analytics
+            (web / f"people/{slug}.html").write_text(with_analytics(str(soup)), encoding="utf-8")
             searches.append(_search_row(person, dossier))
         # Context assets belong to complete sites; tiny build fixtures may omit them.
         if (web / "assets/research/registry.json").exists():
