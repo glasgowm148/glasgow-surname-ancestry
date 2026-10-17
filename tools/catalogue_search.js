@@ -588,7 +588,7 @@
       const relationship=relationshipLabels[String(change.relationship||'').toLowerCase()];
       if(!relationship) return;
       const status=String(change.status||'').toLowerCase();
-      const label=`new ${uncertainStatuses.has(status)?'uncertain ':''}${relationship}`;
+      const label=`new ${status==='probable'?'probable ':uncertainStatuses.has(status)?'uncertain ':''}${relationship}`;
       const relative=String(change.relative_id||'');
       const isWikiTree=relative&&!relative.startsWith('record-')&&/^[\p{L}][\p{L}\p{N}_'-]*-\d+$/u.test(relative);
       const account=String(change.relative_wikitree_url||'');

@@ -1,7 +1,7 @@
 [[Category:Glasgow Name Study]]
 {{Estimated Date|Birth}}
 == Biography ==
-'''Preferred working family, 17 October 2026:''' Andrew Glasgow-3163 and Elizat Stevinsoun-2 are now the selected '''uncertain local parents''' of Robert Glasgow-1156 through his possible identity with their testament-proved son Robert Glasgow-4006. Archibald Glasgow-1097 and Isobell Newlands-647 remain unselected uncertain/possible alternatives. The two Robert profiles remain separate; the recorded son’s documented parentage does not make the adult identification certain.<ref name="CorsounFamilyReview" />
+'''Murieston family review, 17 October 2026:''' [[Glasgow-991|James Glasgow]] is no longer selected locally as Andrew’s son. Andrew remains an '''uncertain father alternative'''; the preferred probable father is the named George of Mureistoun. Andrew’s documented wife and children and his other working family links are preserved.<ref name="MuriestonFatherReview" />
 '''Andrew Glasgow''' (written ''Andro Glasgw'') lived at a place read
 uncertainly as “Corsoun,” in the parish read as “Calder Clair” or “Calder
 Cleir,” within the sheriffdom of Edinburgh. His
@@ -104,6 +104,42 @@ and Robert Glasgow. A further man, Johne Sandelandis, appears in the confirmatio
 but the surviving reading does not establish a relationship to the family.<ref name="Andrew1598" />
 
 == Research Notes ==
+=== Murieston family review — 17 October 2026 ===
+
+Prefer the named George of Mureistoun as [[Glasgow-991|James Glasgow]]’s probable father. George is recorded at Mureistoun in the 1586 Calder obligation; the accepted 1605 original-register reading places James’s household in probable Muirestoun and names an adult George Glasgow as witness to the baptism of James’s son George. The earlier review already assessed the two adult George occurrences as probably one man. The same uncommon surname, the probable same holding across nineteen years, and the older name-bearer’s personal participation in the younger household favour lineal family continuity. Father is the preferred degree: an older established man followed by James’s child-bearing household is a normal two-generation sequence, and the child’s George name is compatible with that reconstruction. This is a combined locality/household inference, not three independent proofs or a compulsory naming rule.
+
+The 1605 witness’s residence and age are unstated, and Muirestoun remains a probable reading/location. Shared holding names do not prove a legal title transfer. Father, uncle, older brother, cousin and neighbour remain genuine alternatives. The 1586 obligation does not establish muster attendance, and neither record states that George was James’s father. The George name and witness role are supporting context, not direct kinship. [[Glasgow-3163|Andrew Glasgow]] remains an unselected uncertain father alternative; his 1597/8 testament names Robert, Marion, Jonet and Isobel, not James. The George comparison supplies a closer holding-and-witness association than the broader Andrew/Calder model, without proving that Andrew could not be James’s father.
+
+For the working tree only, select [[Glasgow-3522|William Glasgow]] as George of Mureistoun’s uncertain father through the surviving possible identification with the Glasgow merchant [[Glasgow-1099|George Glasgow]]. Protocol 2903 explicitly names that merchant’s deceased father William; protocol 2916 gives his mother and curator. The same rare full name and compatible 1586 generation make the merchant an existing-profile comparison for the Mureistoun man. The father proof belongs to the merchant: transferring it to the Mureistoun account depends entirely on the unproved identity. This is a testable named upstream route, not direct evidence of a Calder-to-Glasgow movement or a newly proved son of William.
+
+The merchant was a minor in 1586, with the accepted approximate birth range 1565–1572. If James’s conventional circa-1575 birth were established, that would conflict with his being the merchant’s son. James’s birth is unrecorded: a later birth in the 1580s can fit the 1605 fatherhood and, toward the earlier end of George’s range, ordinary fatherhood in the previous generation. Those are compatibility examples, not new birth estimates. The 1598 marriage-contract comparison does not prove a first marriage or identify James’s mother. No date is altered to make this route fit. George-1099 stays a compatible candidate; there is no merge, no second distinct George son claimed for William, and no automatic transfer of Margaret Herbesoun or a wife as mother. If the two Georges are different men, William’s upstream placement must be reconsidered. The retained George Glascoe-36 and George-3171 comparisons remain open on their actual source limits.
+
+James’s former selected Andrew father becomes an uncertain alternative; George of Mureistoun becomes the preferred probable father. A separately uncertain William upstream link keeps the family model inspectable. The record-only George uses the existing complete sourced public subject account and is not a new WikiTree profile or an independently counted extra surname person. The 216-profile pre-1850 child side below James retains all its downstream uncertainty and possible duplicates. The working cohort’s connected components and connected pairs do not improve merely because this named intermediary is displayed. No live WikiTree save, new original inspection, mother, birth/death change or certainty upgrade is claimed.
+
+<ref name="MuriestonFatherReview">[https://archive.org/details/analectascotica00maidgoog Maidment, Analecta Scotica I (1834), art.CXVI pp.395–396,399: Calder act 19 April1586, George Glasgw in Mureistoun; printed pages visually checked15October2026, court manuscript unread]; [https://www.scotlandspeople.gov.uk/search-records/church-registers/church-births-baptisms Mid Calder OPR694/10 p.7, 17February1605: George child of James in probable Muirestoun; adult witnesses George Glasgow and John Smith; owner-held original page reread16October2026]; [https://archive.org/details/abstractsprotoc01scogoog/page/n113/mode/2up Renwick, Glasgow Protocols vol.9, protocol2903, printed p.103, 15July1586: George heir of deceased father William; accepted earlier reading]; [https://archive.org/details/abstractsprotoc01scogoog/page/n116/mode/2up Renwick, vol.9, protocol2916, printed p.107, 1September1586: George’s mother Margaret Herbesoun and curator Stephen; accepted earlier reading].</ref>
+
+[https://glasgow.phenotype.dev/branches/research-calder-inveresk-james/#chapter-murieston-preferred-father Family review and separate identity grades].
+
+
+=== Earlier maintained research retained ===
+
+The dated family review supersedes earlier confidence wording only. Other evidence and source limits are retained.
+
+<blockquote>
+'''Preferred working family, 17 October 2026:''' Andrew Glasgow-3163 and Elizat Stevinsoun-2 are now the selected '''uncertain local parents''' of Robert Glasgow-1156 through his possible identity with their testament-proved son Robert Glasgow-4006. Archibald Glasgow-1097 and Isobell Newlands-647 remain unselected uncertain/possible alternatives. The two Robert profiles remain separate; the recorded son’s documented parentage does not make the adult identification certain.<ref name="CorsounFamilyReview" />
+'''Andrew Glasgow''' (written ''Andro Glasgw'') lived at a place read
+uncertainly as “Corsoun,” in the parish read as “Calder Clair” or “Calder
+Cleir,” within the sheriffdom of Edinburgh. His
+testament testamentar and inventory was made on 6 February 1597 as written
+(1597/8). The record says that he died the next day, 7 February, and was
+confirmed on 10 July 1598.<ref name="Andrew1598">National Records of Scotland,
+Edinburgh Commissary Court, CC8/8/32, images 123–124, testament testamentar and
+inventory of Andro Glasgw, made 6 February 1597/8, death stated as 7 February,
+confirmed 10 July 1598; working transcription of the original register images.
+See also Scottish Record Society, ''Commissariot of Edinburgh: Register of
+Testaments, 1514–1600'', [https://archive.org/details/scottishrecordso01scotuoft/page/n117/mode/1up
+p. 108].</ref>
+
 === Duddingston–Corsoun family review — 17 October 2026 ===
 
 The preferred local working parents of the Duddingston Robert are now Andrew Glasgow and Elizat Stevinsoun, through possible identity with their recorded son Robert-4006. The accepted 1597/8 testament expressly names Robert as Andrew’s son by Elizat and makes provision until he reached age. A minor then can fit the adult generation of the Robert buried at Duddingston in 1647 and the probable father of James the Edinburgh weaver. The retained circa-1582 and 1597/before-1597 dates are estimates or bounds, not two exact birth records in conflict. On the maintained, queried Calder-area reading of Andrew’s residence, this offers a positive named-child family candidate in the relevant broad Lothian comparison. The earlier Archibald/Isobell pair has no record naming the Duddingston Robert as its child. Prefer the recorded Corsoun family as the uncertain route, with both former parents retained as alternatives.
@@ -115,7 +151,6 @@ One paternal and one maternal working choice are replaced, affecting a child sid
 <ref name="CorsounFamilyReview">[https://www.scotlandspeople.gov.uk/search-records/legal-records/wills Andrew Glasgow testament, NRS CC8/8/32, images 123–124, made 6 February 1597/8 and confirmed 10 July 1598; accepted selected family-clause reading reviewed 27 September 2026, reused here]; [https://archive.org/details/scottishrecordso28scotuoft/page/71/mode/2up Grant, Edinburgh apprentices, printed p.71: James, son of Robert, Wester Duddingston association, 16 June 1641; existing reviewed reading]; [https://www.wikitree.com/wiki/Glasgow-1156 Robert Glasgow of Duddingston: 17 January 1647 burial and the separate probable father assessment for James the weaver; existing source account]. The accepted selected reading was previously checked; no new image reading is claimed.</ref>
 
 [https://glasgow.phenotype.dev/branches/research-calder-testament-household/#duddingston-corsoun-parents Full parent comparison and publication corrections].
-
 
 === Earlier maintained research retained ===
 
@@ -162,6 +197,7 @@ forename, broad period and Lothian setting make comparison useful, but
 The 1577 household is associated with the place provisionally indexed as
 Hirmenschelis while this testament places Andrew at Corsoun. No record yet
 bridges the two men, so this profile is not the present match for that child.
+</blockquote>
 </blockquote>
 
 

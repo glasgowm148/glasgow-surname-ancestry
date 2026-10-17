@@ -1505,17 +1505,32 @@
     "source_url": "https://archive.org/details/analectascotica00maidgoog",
     "source_type": "Printed edition of barony act",
     "source_status": "Printed source verified; original manuscript uninspected",
-    "status": "Verified occurrence; identity and paternal connection qualified",
-    "note": "Names George Glasgw in Mureistoun. This is the same occurrence later abridged by McCall, not proof of attendance or kinship.",
+    "status": "Verified occurrence; adult identity and James fatherhood assessed probable",
+    "note": "Names George Glasgw in Mureistoun. This is the same occurrence later abridged by McCall, not proof of attendance or kinship. 17 October2026: the combined holding/witness argument now favours this recorded George as James’s probable father, with other degrees retained; the merchant identity remains possible.",
     "subject_draft_url": "/research/subjects/murieston-1586-1605/#george-mureistoun",
-    "profiles": {},
+    "profiles": {
+      "record-george-mureistoun-1586": {
+        "role": "Named 1586 George / probable same adult witness in1605; James fatherhood inferred, not stated",
+        "assessment": "probable",
+        "timeline_group": "Life events"
+      }
+    },
     "identity_review": {
       "reviewed": "2026-10-16",
       "status": "probable",
       "scope": "1586 George → 1605 adult witness only; no parent relationship or merchant identity",
       "basis": "The preferred working identification is that George Glasgw in Mureistoun in the 1586 Calder muster obligation was the adult George Glasgow who witnessed the 17 February 1605 baptism of George, son of James Glasgow in provisionally read Muirestoun. The 1605 household points to the same holding as the earlier George, within the same parish setting. The surname is specific to this local comparison, and a 19-year interval is straightforward for one adult career. A child bearing George’s name and an adult George participating in his baptism make a continuing local family association more economical than two unconnected Georges. Together these observations warrant probable rather than merely possible cross-record identity. They do not amount to independent proofs of every step.",
       "previous_status": "possible"
-    }
+    },
+    "assessment_history": [
+      {
+        "reviewed": "2026-10-17",
+        "profiles": {},
+        "status": "Verified occurrence; identity and paternal connection qualified",
+        "note": "Names George Glasgw in Mureistoun. This is the same occurrence later abridged by McCall, not proof of attendance or kinship.",
+        "basis": "Prior identity-only record assessment retained; no new original inspection."
+      }
+    ]
   },
   {
     "record_id": "midcalder-george-1605-original",
@@ -1527,8 +1542,8 @@
     "source_url": "https://www.scotlandspeople.gov.uk/",
     "source_type": "Parish register",
     "source_status": "Original owner-held register page visually reread",
-    "status": "Verified occurrence; identity and paternal connection qualified",
-    "note": "James is the named father; George Glasgow and John Smith witnesses. Final witness unresolved; mother and actual birth date unstated. Older George identity and kinship unproved.",
+    "status": "Verified occurrence; adult identity and James fatherhood assessed probable",
+    "note": "James is the named father; George Glasgow and John Smith witnesses. Final witness unresolved; mother and actual birth date unstated. Older George identity and kinship unproved. 17 October2026: the combined holding/witness argument now favours this recorded George as James’s probable father, with other degrees retained; the merchant identity remains possible.",
     "subject_draft_url": "/research/subjects/murieston-1586-1605/#george-mureistoun",
     "profiles": {
       "Glasgow-1082": {
@@ -1538,6 +1553,11 @@
       "Glasgow-991": {
         "role": "Compatible profile anchor for named father James; cross-parish identity unresolved",
         "timeline_group": "Records mentioning this person"
+      },
+      "record-george-mureistoun-1586": {
+        "role": "Named 1586 George / probable same adult witness in1605; James fatherhood inferred, not stated",
+        "assessment": "probable",
+        "timeline_group": "Life events"
       }
     },
     "identity_review": {
@@ -1546,7 +1566,25 @@
       "scope": "1586 George → 1605 adult witness only; no parent relationship or merchant identity",
       "basis": "The preferred working identification is that George Glasgw in Mureistoun in the 1586 Calder muster obligation was the adult George Glasgow who witnessed the 17 February 1605 baptism of George, son of James Glasgow in provisionally read Muirestoun. The 1605 household points to the same holding as the earlier George, within the same parish setting. The surname is specific to this local comparison, and a 19-year interval is straightforward for one adult career. A child bearing George’s name and an adult George participating in his baptism make a continuing local family association more economical than two unconnected Georges. Together these observations warrant probable rather than merely possible cross-record identity. They do not amount to independent proofs of every step.",
       "previous_status": "possible"
-    }
+    },
+    "assessment_history": [
+      {
+        "reviewed": "2026-10-17",
+        "profiles": {
+          "Glasgow-1082": {
+            "role": "Baptised child George; not the adult witness",
+            "timeline_group": "Life events"
+          },
+          "Glasgow-991": {
+            "role": "Compatible profile anchor for named father James; cross-parish identity unresolved",
+            "timeline_group": "Records mentioning this person"
+          }
+        },
+        "status": "Verified occurrence; identity and paternal connection qualified",
+        "note": "James is the named father; George Glasgow and John Smith witnesses. Final witness unresolved; mother and actual birth date unstated. Older George identity and kinship unproved.",
+        "basis": "Prior identity-only record assessment retained; no new original inspection."
+      }
+    ]
   },
   {
     "record_id": "linlithgow-jean-1613-father-john",

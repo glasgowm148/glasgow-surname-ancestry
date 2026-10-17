@@ -2992,6 +2992,63 @@
       "assertion_id": "C-working-20261017-killybegs-james-thomas-father",
       "counted_as_new_connection": true,
       "reviewed": "2026-10-17"
+    },
+    {
+      "id": "murieston-preferred-father",
+      "year": 1586,
+      "title": "Murieston: a probable George father for James’s large branch",
+      "status": "Probable George father; uncertain conditional William upstream",
+      "people": [
+        {
+          "name": "George Glasgow of Mureistoun",
+          "url": "/research/subjects/murieston-1586-1605/#george-mureistoun"
+        },
+        {
+          "name": "James Glasgow, Mid Calder/Fisherrow account",
+          "url": "/people/glasgow-991.html"
+        },
+        {
+          "name": "Andrew Glasgow of Corsoun",
+          "url": "/people/glasgow-3163.html"
+        },
+        {
+          "name": "George Glasgow, Glasgow merchant",
+          "url": "/people/glasgow-1099.html"
+        },
+        {
+          "name": "William Glasgow, father of the merchant George",
+          "url": "/people/glasgow-3522.html"
+        }
+      ],
+      "basis": "Prefer the named George of Mureistoun as James Glasgow-991’s probable father. George is recorded at Mureistoun in the 1586 Calder obligation; the accepted 1605 original-register reading places James’s household in probable Muirestoun and names an adult George Glasgow as witness to the baptism of James’s son George. The earlier review already assessed the two adult George occurrences as probably one man. The same uncommon surname, the probable same holding across nineteen years, and the older name-bearer’s personal participation in the younger household favour lineal family continuity. Father is the preferred degree: an older established man followed by James’s child-bearing household is a normal two-generation sequence, and the child’s George name is compatible with that reconstruction. This is a combined locality/household inference, not three independent proofs or a compulsory naming rule. For the working tree only, select William Glasgow-3522 as George of Mureistoun’s uncertain father through the surviving possible identification with the Glasgow merchant George Glasgow-1099. Protocol 2903 explicitly names that merchant’s deceased father William; protocol 2916 gives his mother and curator. The same rare full name and compatible 1586 generation make the merchant an existing-profile comparison for the Mureistoun man. The father proof belongs to the merchant: transferring it to the Mureistoun account depends entirely on the unproved identity. This is a testable named upstream route, not direct evidence of a Calder-to-Glasgow movement or a newly proved son of William.",
+      "next_test": "Test holding/title continuity and the merchant identity; resolve James’s birth generation without changing it to fit the hypothesis.",
+      "sources": [
+        {
+          "label": "Maidment, Analecta Scotica I (1834), art.CXVI pp.395–396,399: Calder act 19 April1586, George Glasgw in Mureistoun; printed pages visually checked15October2026, court manuscript unread",
+          "url": "https://archive.org/details/analectascotica00maidgoog"
+        },
+        {
+          "label": "Mid Calder OPR694/10 p.7, 17February1605: George child of James in probable Muirestoun; adult witnesses George Glasgow and John Smith; owner-held original page reread16October2026",
+          "url": "https://www.scotlandspeople.gov.uk/search-records/church-registers/church-births-baptisms"
+        },
+        {
+          "label": "Renwick, Glasgow Protocols vol.9, protocol2903, printed p.103, 15July1586: George heir of deceased father William; accepted earlier reading",
+          "url": "https://archive.org/details/abstractsprotoc01scogoog/page/n113/mode/2up"
+        },
+        {
+          "label": "Renwick, vol.9, protocol2916, printed p.107, 1September1586: George’s mother Margaret Herbesoun and curator Stephen; accepted earlier reading",
+          "url": "https://archive.org/details/abstractsprotoc01scogoog/page/n116/mode/2up"
+        }
+      ],
+      "record_references": [
+        "mureistoun-george-1586",
+        "midcalder-george-1605-original",
+        "glasgow-protocol-2903-1586"
+      ],
+      "working_selection": true,
+      "assertion_id": "C-working-20261017-murieston-james-george",
+      "counted_as_new_connection": false,
+      "reviewed": "2026-10-17"
     }
   ],
   "source_basis": "Initial priorities reconcile existing medieval bridge research, the pre-1550 relationship audit and the resolved public catalogue. They are current working comparisons, not newly discovered kinship records."

@@ -1887,3 +1887,11 @@ The August completion entries remain historical. The live parent fields are now 
 
 | [James Glasgow, Killybegs collector](https://www.wikitree.com/wiki/Glasgow-3001) | OPEN | Add the inspected tax-balance context and selected uncertain Thomas/James connection; James’s birth is unknown. Preserve other dates, relationships and complete text. |
 | [Thomas Glasgow of Lifford and Raphoe](https://www.wikitree.com/wiki/Glasgow-3556) | OPEN | Add the inspected tax-balance context and selected uncertain Thomas/James connection; James’s birth is unknown. Preserve other dates, relationships and complete text. |
+
+
+## Murieston family review — 17 October 2026
+
+| [James Glasgow, Mid Calder/Fisherrow account](https://www.wikitree.com/wiki/Glasgow-991) | OPEN | Add the sourced family confidence assessment; preserve other dates, relationships and complete text. |
+| [Andrew Glasgow of Corsoun](https://www.wikitree.com/wiki/Glasgow-3163) | OPEN | Add the sourced family confidence assessment; preserve other dates, relationships and complete text. |
+| [George Glasgow, Glasgow merchant](https://www.wikitree.com/wiki/Glasgow-1099) | OPEN | Add the sourced family confidence assessment; preserve other dates, relationships and complete text. |
+| [William Glasgow, father of the merchant George](https://www.wikitree.com/wiki/Glasgow-3522) | OPEN | Add the sourced family confidence assessment; preserve other dates, relationships and complete text. |

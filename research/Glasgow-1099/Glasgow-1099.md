@@ -2,7 +2,7 @@
 [[Category:Glasgow Name Study]]
 
 == Biography ==
-'''Donegal family review, 17 October 2026:''' George is now assessed as the '''probable father''' of the Donegal cleric Archibald, through the preferred match to George and [[Stewart-65226|Margaret Steuart]]’s child baptised in 1614. George’s own recorded parentage keeps its existing grade.<ref name="DonegalFamilyReview" />
+'''Murieston comparison, 17 October 2026:''' This merchant remains a '''possible identity''' for the George now preferred as [[Glasgow-991|James Glasgow]]’s probable father. The merchant’s own documented parents stay confident. His minor status in 1586 and James’s unsupported circa-1575 date are an explicit constraint; no dates or identity are changed to force the match.<ref name="MuriestonFatherReview" />
 '''George Glasgow''' was a merchant, burgess and guild brother of Glasgow. He was probably born about 1569, and was a son of '''[[Glasgow-3522|William Glasgow]]''' and '''[[Herbison-439|Margaret Herbesoun]]'''.
 
 His exact birth date has not been found. Records from 1586 show that he had passed the age of pupillarity but remained a minor acting with curators. Under the historical Scots-law age divisions, this places his birth after 1 September 1565 and no later than 1 September 1572. About 1569 is used as an uncertain midpoint estimate.<ref name="LegalCapacity">Scottish Law Commission, [https://www.scotlawcom.gov.uk/files/2313/1419/8956/cm65_1.pdf ''Consultative Memorandum No. 65: Legal Capacity and Responsibility''], para. 2.1 and note 2.</ref>
@@ -66,6 +66,31 @@ He was alive on 21 October 1617 when his daughter Barbara was baptised.<ref name
 The 1624 and 1633 burgess records identify him as the father of Jonet and Margaret but do not conclusively establish that he was still living on those dates. The omission of a description such as “deceased” may support later survival, but it is not sufficient proof by itself.
 
 == Research Notes ==
+=== Murieston family review — 17 October 2026 ===
+
+Prefer the named George of Mureistoun as [[Glasgow-991|James Glasgow]]’s probable father. George is recorded at Mureistoun in the 1586 Calder obligation; the accepted 1605 original-register reading places James’s household in probable Muirestoun and names an adult George Glasgow as witness to the baptism of James’s son George. The earlier review already assessed the two adult George occurrences as probably one man. The same uncommon surname, the probable same holding across nineteen years, and the older name-bearer’s personal participation in the younger household favour lineal family continuity. Father is the preferred degree: an older established man followed by James’s child-bearing household is a normal two-generation sequence, and the child’s George name is compatible with that reconstruction. This is a combined locality/household inference, not three independent proofs or a compulsory naming rule.
+
+The 1605 witness’s residence and age are unstated, and Muirestoun remains a probable reading/location. Shared holding names do not prove a legal title transfer. Father, uncle, older brother, cousin and neighbour remain genuine alternatives. The 1586 obligation does not establish muster attendance, and neither record states that George was James’s father. The George name and witness role are supporting context, not direct kinship. [[Glasgow-3163|Andrew Glasgow]] remains an unselected uncertain father alternative; his 1597/8 testament names Robert, Marion, Jonet and Isobel, not James. The George comparison supplies a closer holding-and-witness association than the broader Andrew/Calder model, without proving that Andrew could not be James’s father.
+
+For the working tree only, select [[Glasgow-3522|William Glasgow]] as George of Mureistoun’s uncertain father through the surviving possible identification with the Glasgow merchant [[Glasgow-1099|George Glasgow]]. Protocol 2903 explicitly names that merchant’s deceased father William; protocol 2916 gives his mother and curator. The same rare full name and compatible 1586 generation make the merchant an existing-profile comparison for the Mureistoun man. The father proof belongs to the merchant: transferring it to the Mureistoun account depends entirely on the unproved identity. This is a testable named upstream route, not direct evidence of a Calder-to-Glasgow movement or a newly proved son of William.
+
+The merchant was a minor in 1586, with the accepted approximate birth range 1565–1572. If James’s conventional circa-1575 birth were established, that would conflict with his being the merchant’s son. James’s birth is unrecorded: a later birth in the 1580s can fit the 1605 fatherhood and, toward the earlier end of George’s range, ordinary fatherhood in the previous generation. Those are compatibility examples, not new birth estimates. The 1598 marriage-contract comparison does not prove a first marriage or identify James’s mother. No date is altered to make this route fit. George-1099 stays a compatible candidate; there is no merge, no second distinct George son claimed for William, and no automatic transfer of Margaret Herbesoun or a wife as mother. If the two Georges are different men, William’s upstream placement must be reconsidered. The retained George Glascoe-36 and George-3171 comparisons remain open on their actual source limits.
+
+James’s former selected Andrew father becomes an uncertain alternative; George of Mureistoun becomes the preferred probable father. A separately uncertain William upstream link keeps the family model inspectable. The record-only George uses the existing complete sourced public subject account and is not a new WikiTree profile or an independently counted extra surname person. The 216-profile pre-1850 child side below James retains all its downstream uncertainty and possible duplicates. The working cohort’s connected components and connected pairs do not improve merely because this named intermediary is displayed. No live WikiTree save, new original inspection, mother, birth/death change or certainty upgrade is claimed.
+
+<ref name="MuriestonFatherReview">[https://archive.org/details/analectascotica00maidgoog Maidment, Analecta Scotica I (1834), art.CXVI pp.395–396,399: Calder act 19 April1586, George Glasgw in Mureistoun; printed pages visually checked15October2026, court manuscript unread]; [https://www.scotlandspeople.gov.uk/search-records/church-registers/church-births-baptisms Mid Calder OPR694/10 p.7, 17February1605: George child of James in probable Muirestoun; adult witnesses George Glasgow and John Smith; owner-held original page reread16October2026]; [https://archive.org/details/abstractsprotoc01scogoog/page/n113/mode/2up Renwick, Glasgow Protocols vol.9, protocol2903, printed p.103, 15July1586: George heir of deceased father William; accepted earlier reading]; [https://archive.org/details/abstractsprotoc01scogoog/page/n116/mode/2up Renwick, vol.9, protocol2916, printed p.107, 1September1586: George’s mother Margaret Herbesoun and curator Stephen; accepted earlier reading].</ref>
+
+[https://glasgow.phenotype.dev/branches/research-calder-inveresk-james/#chapter-murieston-preferred-father Family review and separate identity grades].
+
+
+=== Earlier maintained research retained ===
+
+The dated family review supersedes earlier confidence wording only. Other evidence and source limits are retained.
+
+<blockquote>
+'''Donegal family review, 17 October 2026:''' George is now assessed as the '''probable father''' of the Donegal cleric Archibald, through the preferred match to George and [[Stewart-65226|Margaret Steuart]]’s child baptised in 1614. George’s own recorded parentage keeps its existing grade.<ref name="DonegalFamilyReview" />
+'''George Glasgow''' was a merchant, burgess and guild brother of Glasgow. He was probably born about 1569, and was a son of '''[[Glasgow-3522|William Glasgow]]''' and '''[[Herbison-439|Margaret Herbesoun]]'''.
+
 === Scottish–Donegal family review — 17 October 2026 ===
 
 Prefer the Glasgow child baptised on 19 June 1614 and the Archibaldus Glasgua who graduated M.A. in 1635 as the earlier identity of the Donegal cleric. The uncommon full name, compatible age at graduation, clerical career and 1639 Irish clerk occurrence form a coherent Scottish-to-Irish career. A baptism in 1614 places him at about 21 in 1635 and 25 in 1639. These are conditional ages, not separately recorded ages. No incompatible parentage or simultaneous Scottish household is identified for this proposed cleric. The other known same-generation Scottish Archibald, the Leith man [[Glasgow-3078]], has a separately traced craft career: apprentice to cordiner Thomas Park in October 1639 and shoemaker/heir in May 1647. That positive career sequence makes him a weaker fit to the 1635 graduate and Irish clerk than the 1614 Glasgow child. It is a ranking argument, not an absolute exclusion or an assertion that a man could never change occupation. The Irish testator is securely the Ramelton/Rathmalton cleric by exact name, residence and profession. Assess his existing [[Glasgow-1099|George Glasgow]] and [[Stewart-65226|Margaret Steuart]] parent links as probable, reflecting the probable Scottish childhood identification. The baptism explicitly names both parents, so maternity has its own record basis rather than being inferred from George’s spouse field.
@@ -85,7 +110,6 @@ Four existing assessments change: two probable Scottish parent links for Archiba
 <ref name="DonegalFamilyReview">[https://www.scotlandspeople.gov.uk/search-records/church-registers/church-births-baptisms Glasgow High Kirk baptism, Archibald, 19 June 1614; OPR 644/1 10/133; supplied index and maintained reading naming George Glasgow and Margaret Steuart]; [https://universitystory.gla.ac.uk/people?search=&surname=Glas&forename= University of Glasgow, University Story: Archibaldus Glasgua, M.A. 1635; existing graduate citation]; [https://catalogue.nli.ie/Record/vtls000540633 William Betham, Old Series vol.3, NLI GO MS225, handwritten p.90, viewer image97; April1673 Archibald Glasgow will abstract, inspected30September2026]; [https://glasgow.phenotype.dev/people/glasgow-3556.html#sources Thomas’s maintained source table: 1684 Raphoe court association, 1689 Lifford occurrence and 1692–1695 Creighton/Shannon estate records].; [https://archive.org/details/scottishrecordso28scotuoft/page/71/mode/2up Leith Archibald comparison: Grant, Edinburgh Apprentices p.71, 23 October 1639; compare the 1647 shoemaker retour in Glasgow-3078’s maintained source table].</ref>
 
 [https://glasgow.phenotype.dev/branches/research-irish-belfast-donegal/#chapter-donegal-family-confidence Family review and separate identity grades].
-
 
 === Earlier maintained research retained ===
 
@@ -119,6 +143,7 @@ unproved.
 ## Do not add as fact
 
 - Do not state 1569 as exact; it is the midpoint of the record-supported range.
+</blockquote>
 </blockquote>
 
 

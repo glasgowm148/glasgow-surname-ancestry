@@ -3367,7 +3367,7 @@
     },
     "status": "uncertain",
     "hypothesis_status": "possible",
-    "working_selection": true,
+    "working_selection": false,
     "allow_new_relationship": true,
     "claim": "Andrew Glasgow of Calder is the selected uncertain working father of James Glasgow.",
     "basis": "Andrew’s documented rural Calder household is the preferred working anchor for James’s nearby Mid Calder family. He was alive across the estimated1575–1586 birth interval of all three Lothian fathers; Hermand John’s1577 death would require an earlier birth estimate for David. That favours this coherent provisional family without excluding the other father. Andrew was alive until1598 and the uncertain generations allow James to be an older son. This uses the actual Calder setting and compatible family sequence, not the withdrawn assertion that the testament named James. James’s Inveresk/Fisherrow identity remains a separate uncertainty.",
@@ -3381,11 +3381,13 @@
     "perspectives": {
       "Glasgow-991": {
         "relationship": "father",
-        "reason": "Andrew’s documented rural Calder household is the preferred working anchor for James’s nearby Mid Calder family. He was alive across the estimated1575–1586 birth interval of all three Lothian fathers; Hermand John’s1577 death would require an earlier birth estimate for David. That favours this coherent provisional family without excluding the other father. Andrew was alive until1598 and the uncertain generations allow James to be an older son. This uses the actual Calder setting and compatible family sequence, not the withdrawn assertion that the testament named James. James’s Inveresk/Fisherrow identity remains a separate uncertainty."
+        "reason": "Earlier Andrew placement retained as alternative. The 1605 witness’s residence and age are unstated, and Muirestoun remains a probable reading/location. Shared holding names do not prove a legal title transfer. Father, uncle, older brother, cousin and neighbour remain genuine alternatives. The 1586 obligation does not establish muster attendance, and neither record states that George was James’s father. The George name and witness role are supporting context, not direct kinship. Andrew Glasgow-3163 remains an unselected uncertain father alternative; his 1597/8 testament names Robert, Marion, Jonet and Isobel, not James. The George comparison supplies a closer holding-and-witness association than the broader Andrew/Calder model, without proving that Andrew could not be James’s father.",
+        "status_label": "Unselected uncertain father; earlier Calder model"
       },
       "Glasgow-3163": {
         "relationship": "son",
-        "reason": "Andrew’s documented rural Calder household is the preferred working anchor for James’s nearby Mid Calder family. He was alive across the estimated1575–1586 birth interval of all three Lothian fathers; Hermand John’s1577 death would require an earlier birth estimate for David. That favours this coherent provisional family without excluding the other father. Andrew was alive until1598 and the uncertain generations allow James to be an older son. This uses the actual Calder setting and compatible family sequence, not the withdrawn assertion that the testament named James. James’s Inveresk/Fisherrow identity remains a separate uncertainty."
+        "reason": "Earlier James placement retained as alternative. The 1605 witness’s residence and age are unstated, and Muirestoun remains a probable reading/location. Shared holding names do not prove a legal title transfer. Father, uncle, older brother, cousin and neighbour remain genuine alternatives. The 1586 obligation does not establish muster attendance, and neither record states that George was James’s father. The George name and witness role are supporting context, not direct kinship. Andrew Glasgow-3163 remains an unselected uncertain father alternative; his 1597/8 testament names Robert, Marion, Jonet and Isobel, not James. The George comparison supplies a closer holding-and-witness association than the broader Andrew/Calder model, without proving that Andrew could not be James’s father.",
+        "status_label": "Unselected uncertain son; earlier Calder model"
       }
     },
     "analysis_links": [
@@ -3403,7 +3405,65 @@
       "basis": "Explicit logical reconstruction from existing maintained Calder/Lothian evidence; no new parent record.",
       "resolution_note": "Selected local working hypothesis. Raw WikiTree parent fields remain unchanged; no certainty upgrade or live save.",
       "prior_assessment": "Parent unknown/unselected locally; previous positive testament-child rationale remains superseded."
-    }
+    },
+    "assessment_history": [
+      {
+        "reviewed": "2026-10-17",
+        "prior_assertion": {
+          "assertion_id": "C-working-20261015-glasgow-991-glasgow-3163",
+          "people": [
+            "Glasgow-991",
+            "Glasgow-3163"
+          ],
+          "profile_names": {
+            "Glasgow-991": "James Glasgow",
+            "Glasgow-3163": "Andrew Glasgow of Calder"
+          },
+          "status": "uncertain",
+          "hypothesis_status": "possible",
+          "working_selection": true,
+          "allow_new_relationship": true,
+          "claim": "Andrew Glasgow of Calder is the selected uncertain working father of James Glasgow.",
+          "basis": "Andrew’s documented rural Calder household is the preferred working anchor for James’s nearby Mid Calder family. He was alive across the estimated1575–1586 birth interval of all three Lothian fathers; Hermand John’s1577 death would require an earlier birth estimate for David. That favours this coherent provisional family without excluding the other father. Andrew was alive until1598 and the uncertain generations allow James to be an older son. This uses the actual Calder setting and compatible family sequence, not the withdrawn assertion that the testament named James. James’s Inveresk/Fisherrow identity remains a separate uncertainty.",
+          "limitations": "John of Hermand-3181 is another plausible older local father. The George named at Mureistoun1586 and the George witness1605 are a competing father/relative lead; identifying that George with merchant1099 would require additional identity assumptions and young fatherhood. None is excluded. Andrew’s omission of James weakens this model; it does not disprove an older son. Confidence review, 16 October 2026: the Mureistoun George of 1586 is now probably the 1605 adult witness, through the same-holding household association and compatible interval. That strengthens the local George comparison; his exact relationship to James remains unknown. It does not identify the witness with merchant Glasgow-1099 or document Andrew as father.",
+          "source_ids": [
+            "nrs-cc8-8-32-andrew-1598",
+            "midcalder-george-1605-original"
+          ],
+          "assessment_date": "2026-10-15",
+          "publication_status": "approved",
+          "perspectives": {
+            "Glasgow-991": {
+              "relationship": "father",
+              "reason": "Andrew’s documented rural Calder household is the preferred working anchor for James’s nearby Mid Calder family. He was alive across the estimated1575–1586 birth interval of all three Lothian fathers; Hermand John’s1577 death would require an earlier birth estimate for David. That favours this coherent provisional family without excluding the other father. Andrew was alive until1598 and the uncertain generations allow James to be an older son. This uses the actual Calder setting and compatible family sequence, not the withdrawn assertion that the testament named James. James’s Inveresk/Fisherrow identity remains a separate uncertainty."
+            },
+            "Glasgow-3163": {
+              "relationship": "son",
+              "reason": "Andrew’s documented rural Calder household is the preferred working anchor for James’s nearby Mid Calder family. He was alive across the estimated1575–1586 birth interval of all three Lothian fathers; Hermand John’s1577 death would require an earlier birth estimate for David. That favours this coherent provisional family without excluding the other father. Andrew was alive until1598 and the uncertain generations allow James to be an older son. This uses the actual Calder setting and compatible family sequence, not the withdrawn assertion that the testament named James. James’s Inveresk/Fisherrow identity remains a separate uncertainty."
+            }
+          },
+          "analysis_links": [
+            {
+              "label": "Selected working model: reasoning and alternatives",
+              "href": "/branches/early-scottish-records/#selected-working-joins"
+            },
+            {
+              "label": "Murieston: George’s 1586–1605 identity is probable",
+              "href": "/branches/research-calder-inveresk-james/#murieston-george-identity-confidence"
+            }
+          ],
+          "provenance": {
+            "source": "/assets/research/relationship-assessments.json",
+            "basis": "Explicit logical reconstruction from existing maintained Calder/Lothian evidence; no new parent record.",
+            "resolution_note": "Selected local working hypothesis. Raw WikiTree parent fields remain unchanged; no certainty upgrade or live save.",
+            "prior_assessment": "Parent unknown/unselected locally; previous positive testament-child rationale remains superseded."
+          }
+        },
+        "reason": "Re-evaluated the closer Mureistoun holding and baptism-witness evidence."
+      }
+    ],
+    "lifecycle": "alternative",
+    "display": "alternative"
   },
   {
     "assertion_id": "C-working-20261015-glasgow-1561-glasgow-3163",
@@ -9583,6 +9643,119 @@
       "chronology": "1728 is an unlabelled account reference in a retrospective return dated 5 January 1826; no actual age supplied.",
       "alternative_father": "Glasgow-1101 remains unselected; another family or different kinship degree is possible.",
       "live_wikitree_status": "No live change"
+    }
+  },
+  {
+    "assertion_id": "C-working-20261017-murieston-james-george",
+    "people": [
+      "Glasgow-991",
+      "record-george-mureistoun-1586"
+    ],
+    "profile_names": {
+      "Glasgow-991": "James Glasgow, Mid Calder/Fisherrow account",
+      "record-george-mureistoun-1586": "George Glasgow of Mureistoun"
+    },
+    "profile_urls": {
+      "record-george-mureistoun-1586": {
+        "url": "/research/subjects/murieston-1586-1605/#george-mureistoun"
+      }
+    },
+    "status": "probable",
+    "hypothesis_status": "possible",
+    "working_selection": true,
+    "allow_new_relationship": true,
+    "publication_status": "approved",
+    "assessment_date": "2026-10-17",
+    "evidence_grade": "Probable father; Murieston family reconstruction",
+    "basis": "Prefer the named George of Mureistoun as James Glasgow-991’s probable father. George is recorded at Mureistoun in the 1586 Calder obligation; the accepted 1605 original-register reading places James’s household in probable Muirestoun and names an adult George Glasgow as witness to the baptism of James’s son George. The earlier review already assessed the two adult George occurrences as probably one man. The same uncommon surname, the probable same holding across nineteen years, and the older name-bearer’s personal participation in the younger household favour lineal family continuity. Father is the preferred degree: an older established man followed by James’s child-bearing household is a normal two-generation sequence, and the child’s George name is compatible with that reconstruction. This is a combined locality/household inference, not three independent proofs or a compulsory naming rule.",
+    "limitations": "The 1605 witness’s residence and age are unstated, and Muirestoun remains a probable reading/location. Shared holding names do not prove a legal title transfer. Father, uncle, older brother, cousin and neighbour remain genuine alternatives. The 1586 obligation does not establish muster attendance, and neither record states that George was James’s father. The George name and witness role are supporting context, not direct kinship. Andrew Glasgow-3163 remains an unselected uncertain father alternative; his 1597/8 testament names Robert, Marion, Jonet and Isobel, not James. The George comparison supplies a closer holding-and-witness association than the broader Andrew/Calder model, without proving that Andrew could not be James’s father.",
+    "source_ids": [
+      "mureistoun-george-1586",
+      "midcalder-george-1605-original"
+    ],
+    "perspectives": {
+      "Glasgow-991": {
+        "relationship": "father",
+        "status_label": "Probable father; selected working family",
+        "reason": "Prefer the named George of Mureistoun as James Glasgow-991’s probable father. George is recorded at Mureistoun in the 1586 Calder obligation; the accepted 1605 original-register reading places James’s household in probable Muirestoun and names an adult George Glasgow as witness to the baptism of James’s son George. The earlier review already assessed the two adult George occurrences as probably one man. The same uncommon surname, the probable same holding across nineteen years, and the older name-bearer’s personal participation in the younger household favour lineal family continuity. Father is the preferred degree: an older established man followed by James’s child-bearing household is a normal two-generation sequence, and the child’s George name is compatible with that reconstruction. This is a combined locality/household inference, not three independent proofs or a compulsory naming rule. The 1605 witness’s residence and age are unstated, and Muirestoun remains a probable reading/location. Shared holding names do not prove a legal title transfer. Father, uncle, older brother, cousin and neighbour remain genuine alternatives. The 1586 obligation does not establish muster attendance, and neither record states that George was James’s father. The George name and witness role are supporting context, not direct kinship. Andrew Glasgow-3163 remains an unselected uncertain father alternative; his 1597/8 testament names Robert, Marion, Jonet and Isobel, not James. The George comparison supplies a closer holding-and-witness association than the broader Andrew/Calder model, without proving that Andrew could not be James’s father."
+      },
+      "record-george-mureistoun-1586": {
+        "relationship": "son",
+        "status_label": "Probable son; selected working family",
+        "reason": "Prefer the named George of Mureistoun as James Glasgow-991’s probable father. George is recorded at Mureistoun in the 1586 Calder obligation; the accepted 1605 original-register reading places James’s household in probable Muirestoun and names an adult George Glasgow as witness to the baptism of James’s son George. The earlier review already assessed the two adult George occurrences as probably one man. The same uncommon surname, the probable same holding across nineteen years, and the older name-bearer’s personal participation in the younger household favour lineal family continuity. Father is the preferred degree: an older established man followed by James’s child-bearing household is a normal two-generation sequence, and the child’s George name is compatible with that reconstruction. This is a combined locality/household inference, not three independent proofs or a compulsory naming rule. The 1605 witness’s residence and age are unstated, and Muirestoun remains a probable reading/location. Shared holding names do not prove a legal title transfer. Father, uncle, older brother, cousin and neighbour remain genuine alternatives. The 1586 obligation does not establish muster attendance, and neither record states that George was James’s father. The George name and witness role are supporting context, not direct kinship. Andrew Glasgow-3163 remains an unselected uncertain father alternative; his 1597/8 testament names Robert, Marion, Jonet and Isobel, not James. The George comparison supplies a closer holding-and-witness association than the broader Andrew/Calder model, without proving that Andrew could not be James’s father."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Murieston: a probable George father for James’s large branch",
+        "href": "/branches/research-calder-inveresk-james/#chapter-murieston-preferred-father"
+      },
+      {
+        "label": "George’s source account and compatible profiles",
+        "href": "/research/subjects/murieston-1586-1605/#george-mureistoun"
+      }
+    ],
+    "model_note": "James’s former selected Andrew father becomes an uncertain alternative; George of Mureistoun becomes the preferred probable father. A separately uncertain William upstream link keeps the family model inspectable. The record-only George uses the existing complete sourced public subject account and is not a new WikiTree profile or an independently counted extra surname person. The 216-profile pre-1850 child side below James retains all its downstream uncertainty and possible duplicates. The working cohort’s connected components and connected pairs do not improve merely because this named intermediary is displayed. No live WikiTree save, new original inspection, mother, birth/death change or certainty upgrade is claimed.",
+    "provenance": {
+      "source_scope": "Accepted 1586 printed reading from15October and1605 original review from16October reused; no new inspection.",
+      "upstream_identity": "George-1099 remains possible only; no additional distinct George or proved William parent is claimed."
+    }
+  },
+  {
+    "assertion_id": "C-working-20261017-murieston-george-william",
+    "people": [
+      "record-george-mureistoun-1586",
+      "Glasgow-3522"
+    ],
+    "profile_names": {
+      "record-george-mureistoun-1586": "George Glasgow of Mureistoun",
+      "Glasgow-3522": "William Glasgow, father of the merchant George"
+    },
+    "profile_urls": {
+      "record-george-mureistoun-1586": {
+        "url": "/research/subjects/murieston-1586-1605/#george-mureistoun"
+      }
+    },
+    "status": "uncertain",
+    "hypothesis_status": "possible",
+    "working_selection": true,
+    "allow_new_relationship": true,
+    "publication_status": "approved",
+    "assessment_date": "2026-10-17",
+    "evidence_grade": "Uncertain father; Murieston family reconstruction",
+    "basis": "For the working tree only, select William Glasgow-3522 as George of Mureistoun’s uncertain father through the surviving possible identification with the Glasgow merchant George Glasgow-1099. Protocol 2903 explicitly names that merchant’s deceased father William; protocol 2916 gives his mother and curator. The same rare full name and compatible 1586 generation make the merchant an existing-profile comparison for the Mureistoun man. The father proof belongs to the merchant: transferring it to the Mureistoun account depends entirely on the unproved identity. This is a testable named upstream route, not direct evidence of a Calder-to-Glasgow movement or a newly proved son of William.",
+    "limitations": "The merchant was a minor in 1586, with the accepted approximate birth range 1565–1572. If James’s conventional circa-1575 birth were established, that would conflict with his being the merchant’s son. James’s birth is unrecorded: a later birth in the 1580s can fit the 1605 fatherhood and, toward the earlier end of George’s range, ordinary fatherhood in the previous generation. Those are compatibility examples, not new birth estimates. The 1598 marriage-contract comparison does not prove a first marriage or identify James’s mother. No date is altered to make this route fit. George-1099 stays a compatible candidate; there is no merge, no second distinct George son claimed for William, and no automatic transfer of Margaret Herbesoun or a wife as mother. If the two Georges are different men, William’s upstream placement must be reconsidered. The retained George Glascoe-36 and George-3171 comparisons remain open on their actual source limits.",
+    "source_ids": [
+      "glasgow-protocol-2903-1586",
+      "glasgow-protocol-2916-1586",
+      "mureistoun-george-1586"
+    ],
+    "perspectives": {
+      "record-george-mureistoun-1586": {
+        "relationship": "father",
+        "status_label": "Uncertain father; selected working family",
+        "reason": "For the working tree only, select William Glasgow-3522 as George of Mureistoun’s uncertain father through the surviving possible identification with the Glasgow merchant George Glasgow-1099. Protocol 2903 explicitly names that merchant’s deceased father William; protocol 2916 gives his mother and curator. The same rare full name and compatible 1586 generation make the merchant an existing-profile comparison for the Mureistoun man. The father proof belongs to the merchant: transferring it to the Mureistoun account depends entirely on the unproved identity. This is a testable named upstream route, not direct evidence of a Calder-to-Glasgow movement or a newly proved son of William. The merchant was a minor in 1586, with the accepted approximate birth range 1565–1572. If James’s conventional circa-1575 birth were established, that would conflict with his being the merchant’s son. James’s birth is unrecorded: a later birth in the 1580s can fit the 1605 fatherhood and, toward the earlier end of George’s range, ordinary fatherhood in the previous generation. Those are compatibility examples, not new birth estimates. The 1598 marriage-contract comparison does not prove a first marriage or identify James’s mother. No date is altered to make this route fit. George-1099 stays a compatible candidate; there is no merge, no second distinct George son claimed for William, and no automatic transfer of Margaret Herbesoun or a wife as mother. If the two Georges are different men, William’s upstream placement must be reconsidered. The retained George Glascoe-36 and George-3171 comparisons remain open on their actual source limits."
+      },
+      "Glasgow-3522": {
+        "relationship": "son",
+        "status_label": "Uncertain son; selected working family",
+        "reason": "For the working tree only, select William Glasgow-3522 as George of Mureistoun’s uncertain father through the surviving possible identification with the Glasgow merchant George Glasgow-1099. Protocol 2903 explicitly names that merchant’s deceased father William; protocol 2916 gives his mother and curator. The same rare full name and compatible 1586 generation make the merchant an existing-profile comparison for the Mureistoun man. The father proof belongs to the merchant: transferring it to the Mureistoun account depends entirely on the unproved identity. This is a testable named upstream route, not direct evidence of a Calder-to-Glasgow movement or a newly proved son of William. The merchant was a minor in 1586, with the accepted approximate birth range 1565–1572. If James’s conventional circa-1575 birth were established, that would conflict with his being the merchant’s son. James’s birth is unrecorded: a later birth in the 1580s can fit the 1605 fatherhood and, toward the earlier end of George’s range, ordinary fatherhood in the previous generation. Those are compatibility examples, not new birth estimates. The 1598 marriage-contract comparison does not prove a first marriage or identify James’s mother. No date is altered to make this route fit. George-1099 stays a compatible candidate; there is no merge, no second distinct George son claimed for William, and no automatic transfer of Margaret Herbesoun or a wife as mother. If the two Georges are different men, William’s upstream placement must be reconsidered. The retained George Glascoe-36 and George-3171 comparisons remain open on their actual source limits."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Murieston: a probable George father for James’s large branch",
+        "href": "/branches/research-calder-inveresk-james/#chapter-murieston-preferred-father"
+      },
+      {
+        "label": "George’s source account and compatible profiles",
+        "href": "/research/subjects/murieston-1586-1605/#george-mureistoun"
+      }
+    ],
+    "model_note": "James’s former selected Andrew father becomes an uncertain alternative; George of Mureistoun becomes the preferred probable father. A separately uncertain William upstream link keeps the family model inspectable. The record-only George uses the existing complete sourced public subject account and is not a new WikiTree profile or an independently counted extra surname person. The 216-profile pre-1850 child side below James retains all its downstream uncertainty and possible duplicates. The working cohort’s connected components and connected pairs do not improve merely because this named intermediary is displayed. No live WikiTree save, new original inspection, mother, birth/death change or certainty upgrade is claimed.",
+    "provenance": {
+      "source_scope": "Accepted 1586 printed reading from15October and1605 original review from16October reused; no new inspection.",
+      "upstream_identity": "George-1099 remains possible only; no additional distinct George or proved William parent is claimed."
     }
   }
 ]

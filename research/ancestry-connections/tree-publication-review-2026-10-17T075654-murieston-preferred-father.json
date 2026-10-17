@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "reviewed": "2026-10-17",
+  "cutoff": 1850,
+  "method_version": 3,
+  "scope": "Murieston: a probable George father for James’s large branch",
+  "input_fingerprint": "b123dea43803d53425e68bb8ff2572bc1d4aa4c446f6d35531d4a5a60a111c9a",
+  "models": {
+    "main": {
+      "checked_historical_profiles": 1777,
+      "all_public_model_profiles_checked": 4520,
+      "matched_paternal_edges": 1356,
+      "changed_father_fields": 1,
+      "changed_mother_fields": 0,
+      "added_documentary_connectors": [
+        "record-george-mureistoun-1586"
+      ],
+      "added_historical_profiles": [],
+      "unresolved_father_cases": [
+        "Glasgow-1367",
+        "Glasgow-2908",
+        "Glasgow-867",
+        "Glasgow-951"
+      ]
+    },
+    "standalone": {
+      "checked_historical_profiles": 1777,
+      "all_public_model_profiles_checked": 4671,
+      "matched_paternal_edges": 1356,
+      "changed_father_fields": 1,
+      "changed_mother_fields": 0,
+      "added_documentary_connectors": [
+        "record-george-mureistoun-1586"
+      ],
+      "added_historical_profiles": [],
+      "unresolved_father_cases": [
+        "Glasgow-1367",
+        "Glasgow-2908",
+        "Glasgow-867",
+        "Glasgow-951"
+      ]
+    }
+  },
+  "genealogical_connections_added": 0,
+  "paternal_connections_added": 0,
+  "maternal_connections_added": 0,
+  "certainty_upgrades": 0,
+  "confidence_assessments_strengthened": 1,
+  "parent_grade_changes": [
+    {
+      "subject_id": "Glasgow-991",
+      "relative_id": "record-george-mureistoun-1586",
+      "relationship": "father",
+      "before": "uncertain",
+      "previous_relative_id": "Glasgow-3163",
+      "after": "probable",
+      "assertion_id": "C-working-20261017-murieston-james-george",
+      "basis": "Prefer the named George of Mureistoun as James Glasgow-991’s probable father. George is recorded at Mureistoun in the 1586 Calder obligation; the accepted 1605 original-register reading places James’s household in probable Muirestoun and names an adult George Glasgow as witness to the baptism of James’s son George. The earlier review already assessed the two adult George occurrences as probably one man. The same uncommon surname, the probable same holding across nineteen years, and the older name-bearer’s personal participation in the younger household favour lineal family continuity. Father is the preferred degree: an older established man followed by James’s child-bearing household is a normal two-generation sequence, and the child’s George name is compatible with that reconstruction. This is a combined locality/household inference, not three independent proofs or a compulsory naming rule.",
+      "limitations": "The 1605 witness’s residence and age are unstated, and Muirestoun remains a probable reading/location. Shared holding names do not prove a legal title transfer. Father, uncle, older brother, cousin and neighbour remain genuine alternatives. The 1586 obligation does not establish muster attendance, and neither record states that George was James’s father. The George name and witness role are supporting context, not direct kinship. Andrew Glasgow-3163 remains an unselected uncertain father alternative; his 1597/8 testament names Robert, Marion, Jonet and Isobel, not James. The George comparison supplies a closer holding-and-witness association than the broader Andrew/Calder model, without proving that Andrew could not be James’s father.",
+      "new_attachment": true,
+      "live_flag_changed": false
+    },
+    {
+      "subject_id": "record-george-mureistoun-1586",
+      "relative_id": "Glasgow-3522",
+      "relationship": "father",
+      "before": "unknown",
+      "previous_relative_id": null,
+      "after": "uncertain",
+      "assertion_id": "C-working-20261017-murieston-george-william",
+      "basis": "For the working tree only, select William Glasgow-3522 as George of Mureistoun’s uncertain father through the surviving possible identification with the Glasgow merchant George Glasgow-1099. Protocol 2903 explicitly names that merchant’s deceased father William; protocol 2916 gives his mother and curator. The same rare full name and compatible 1586 generation make the merchant an existing-profile comparison for the Mureistoun man. The father proof belongs to the merchant: transferring it to the Mureistoun account depends entirely on the unproved identity. This is a testable named upstream route, not direct evidence of a Calder-to-Glasgow movement or a newly proved son of William.",
+      "limitations": "The merchant was a minor in 1586, with the accepted approximate birth range 1565–1572. If James’s conventional circa-1575 birth were established, that would conflict with his being the merchant’s son. James’s birth is unrecorded: a later birth in the 1580s can fit the 1605 fatherhood and, toward the earlier end of George’s range, ordinary fatherhood in the previous generation. Those are compatibility examples, not new birth estimates. The 1598 marriage-contract comparison does not prove a first marriage or identify James’s mother. No date is altered to make this route fit. George-1099 stays a compatible candidate; there is no merge, no second distinct George son claimed for William, and no automatic transfer of Margaret Herbesoun or a wife as mother. If the two Georges are different men, William’s upstream placement must be reconsidered. The retained George Glascoe-36 and George-3171 comparisons remain open on their actual source limits.",
+      "new_attachment": true,
+      "live_flag_changed": false
+    }
+  ],
+  "publication_summary": "James’s 216-profile branch now has George of Mureistoun as preferred probable father, replacing Andrew’s broader uncertain placement. William remains a separately uncertain upstream father, conditional on the possible merchant identification. One named documentary intermediary is displayed; measured people, connected components and connected-pair coverage are unchanged.",
+  "comparison": "/branches/research-calder-inveresk-james/#chapter-murieston-preferred-father",
+  "next_metric_check": {
+    "status": "RESOLVED",
+    "saved_confident_tree_flags_not_used_by_current_metric": 0,
+    "review": "/data/ancestry-confidence-method-review.json",
+    "scope": "Status fallback; four competing-father cases remain open."
+  },
+  "verification": {
+    "all_cohort_membership_unchanged": true,
+    "working_component_and_pair_connectivity_unchanged": true,
+    "existing_names_and_vitals_unchanged": true,
+    "all_other_parent_rows_unchanged": true,
+    "held_four_father_cases_full_flags_unchanged": true,
+    "all_live_fields_and_flags_unchanged": true,
+    "dna_payloads_unchanged": true,
+    "public_pending_updates": 254,
+    "complete_profile_comparisons": 4,
+    "public_complete_profile_comparisons": 4,
+    "private_complete_profile_comparisons": 0,
+    "public_profile_models_synchronized": 4
+  },
+  "supported_connectivity": {
+    "before": {
+      "population": 1777,
+      "edge_count": 372,
+      "component_count": 1405,
+      "largest_component_size": 46,
+      "connected_pairs_percent": 0.19848210619172915
+    },
+    "after": {
+      "population": 1777,
+      "edge_count": 373,
+      "component_count": 1405,
+      "largest_component_size": 46,
+      "connected_pairs_percent": 0.19848210619172915
+    }
+  },
+  "confident_connectivity": {
+    "before": {
+      "edge_count": 355,
+      "component_count": 1422,
+      "connected_pairs_percent": 0.16603547835962018
+    },
+    "after": {
+      "edge_count": 355,
+      "component_count": 1422,
+      "connected_pairs_percent": 0.16603547835962018
+    }
+  }
+}
