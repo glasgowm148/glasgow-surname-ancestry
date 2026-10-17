@@ -13,6 +13,18 @@ ROOT=Path(__file__).parents[1]
 
 
 class CatalogueWorkerParityTests(unittest.TestCase):
+    def test_exact_values_order_within_one_confidence_band(self):
+        source = (ROOT / 'tools/catalogue_search.js').read_text()
+        helper = source[source.index('  const changeBand='):source.index('  const esc=')]
+        helper += source[source.index('  function sortValue('):source.index('  function sortHeader(')]
+        script = helper + '''
+let sortMode='fatherConfidence:desc';
+const rows=[['A',.82],['B',.88]].map(([id,value])=>({id,_name:id,needs_wikitree_update:true,
+ wikitree_update_relationship_changes:[{action:'add',relationship:'father',status:'probable',probability:{value,rank:3}}]}));
+console.log(JSON.stringify(rows.sort((a,b)=>comparePeople(a,b,{})).map(p=>p.id)));
+'''
+        self.assertEqual(json.loads(subprocess.check_output(['node','-e',script],text=True)), ['B','A'])
+
     def test_refresh_updates_visible_flags_and_cache_versions(self):
         from tools.stamp_asset_versions import content_hash
         with tempfile.TemporaryDirectory() as temp:
@@ -62,7 +74,7 @@ console.log(JSON.stringify([
  updateBadge({...base,wikitree_update_relationship_changes:[{action:'add',relationship:'father',status:'uncertain',relative_id:'record-john-glasgw-stirling-1475'}]}),
  updateBadge({...base,wikitree_update_relationship_changes:[{action:'add',relationship:'father',status:'uncertain',relative_id:'record-john-glasgw-stirling-1475',relative_wikitree_url:'https://www.wikitree.com/wiki/Space:John_Glasgw_of_Stirling'}]}),
  updateBadge({...base,wikitree_update_relationship_changes:[{action:'add',relationship:'father',status:'probable',relative_id:'record-george-mureistoun-1586'}]}),
- updateBadge({...base,wikitree_update_relationship_changes:[{action:'add',relationship:'father',status:'proved',relative_id:'Glasgow-2',probability:{minimum:.9,maximum:.99,rank:4}}]})
+ updateBadge({...base,wikitree_update_relationship_changes:[{action:'add',relationship:'father',status:'proved',relative_id:'Glasgow-2',probability:{value:.96,minimum:.9,maximum:.99,rank:4}}]})
 ]));'''
         badges = json.loads(subprocess.check_output(['node', '-e', script], text=True))
         self.assertIn('significance 86</small>', badges[0])
@@ -81,7 +93,7 @@ console.log(JSON.stringify([
         self.assertNotIn('href=', badges[8])
         self.assertIn('change-confident', badges[9])
         self.assertIn('new confident father', badges[9])
-        self.assertIn('90–99%', badges[9])
+        self.assertIn('96%', badges[9])
         self.assertIn('https://www.wikitree.com/wiki/Glasgow-2', badges[9])
 
     def test_generated_worker_preserves_filters_and_sorting(self):

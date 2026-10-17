@@ -1,12 +1,15 @@
-"""Shared, qualitative probability bands for relationship assessments."""
+"""Individual evidence-based probability estimates; grades remain separate."""
 
 from __future__ import annotations
 
 from typing import Any
+from functools import lru_cache
+from pathlib import Path
+import json
 
 SCALE_NOTE = (
-    "Grade-derived research judgment bands; ranges are not statistical calibration "
-    "and no point probability is implied."
+    "Individual subjective estimates from the maintained evidence, not measured "
+    "frequencies. Categories are guides; unreviewed tree marks have no percentage."
 )
 
 BANDS = {
@@ -34,8 +37,23 @@ def confidence_band(status: Any) -> str:
     return _ALIASES.get(key, "unrated") if key not in _UNRATED else "unrated"
 
 
-def probability_for_relationship(row: dict[str, Any]) -> dict[str, Any]:
-    """Project one relationship row into a qualitative probability range."""
+@lru_cache(maxsize=1)
+def reviewed_estimates():
+    path = Path(__file__).resolve().parents[1] / 'research/relationship_probability_estimates.json'
+    if not path.exists():
+        return {}
+    rows = json.loads(path.read_text())['estimates']
+    result = {}
+    for row in rows:
+        key = (row['subject_id'].casefold(), row['relative_id'].casefold(), row['relationship'])
+        if key in result or not 0 < row['percent'] < 100 or not row.get('basis'):
+            raise ValueError(f'Invalid or duplicate relationship estimate: {key}')
+        result[key] = row
+    return result
+
+
+def probability_for_relationship(row: dict[str, Any], subject_id=None, relative_id=None, role=None) -> dict[str, Any]:
+    """Keep the grade; attach a reviewed point estimate for this exact pair/role."""
     if row.get("withheld") is True:
         value, assessed, origin = "withheld", True, "research"
     else:
@@ -54,11 +72,30 @@ def probability_for_relationship(row: dict[str, Any]) -> dict[str, Any]:
         origin = 'wikitree'
     if row.get('dossierStatus') in {'unknown', 'unmarked', 'unassessed'} and row.get('tree_status'):
         origin = 'wikitree'
-    result = {"band": band, **BANDS[band], "method": "assessment_band", "origin": origin}
+    result = {"band": band, **BANDS[band], "value": None,
+              "method": "not_individually_assessed", "origin": origin}
     scope = row.get("record_scope", row.get("recordScope"))
     if scope:
         result["scope"] = scope
+    child = subject_id or row.get('subject_id')
+    parent = relative_id or row.get('relative_id') or row.get('id')
+    role = role or row.get('relationship') or row.get('role')
+    estimate = reviewed_estimates().get((str(child).casefold(), str(parent).casefold(), role))
+    # A stale estimate must not override a changed assessment or excluded link.
+    if estimate and band != 'unrated' and confidence_band(estimate['assessment_status']) == band:
+        result.update(value=estimate['percent'] / 100, method='individual_evidence_assessment', origin='research',
+                      label=f"{BANDS[band]['label'].split(' (')[0]} · {estimate['percent']}%",
+                      basis=estimate['basis'], reviewed=estimate['reviewed'],
+                      source_ids=estimate.get('source_ids', []))
+        if estimate.get('assertion_id'):
+            result['assertion_id'] = estimate['assertion_id']
+        if estimate.get('scope'):
+            result['scope'] = estimate['scope']
     return result
+
+
+def percentage_text(rating):
+    return f"{round(rating['value'] * 100)}%" if rating.get('value') is not None else 'Not individually rated'
 
 
 def annotate_model(model: dict[str, Any]) -> dict[str, Any]:
@@ -71,13 +108,13 @@ def annotate_model(model: dict[str, Any]) -> dict[str, Any]:
     inverse_roles = {}
     for child in people.values():
         for row in child.get('parents', []):
-            rating = probability_for_relationship(row)
+            rating = probability_for_relationship(row, child['id'])
             row['probability'] = rating
             base = row.get('assessmentLabel') or row.get('statusLabel') or evidence_labels.label(row.get('status'))
             if not row.get('assessmentLabel') and not row.get('statusLabel') and rating['origin'] == 'wikitree':
                 base = evidence_labels.label(row.get('tree_status') or row.get('status'))
             row['assessmentLabel'] = base
-            band = rating['label'].split('(', 1)[-1].rstrip(')') if rating['minimum'] is not None else 'Unrated'
+            band = percentage_text(rating)
             row['statusLabel'] = base + ' · ' + band
             parent = people.get(row.get('id'), {})
             for inverse in parent.get('childrenRecorded', []):

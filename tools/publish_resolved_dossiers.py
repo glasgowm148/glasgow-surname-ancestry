@@ -134,7 +134,7 @@ def shared_relationship(profile_id, relation, assessments):
 def _sync_presentation(result):
     # These are derived mirrors of research facts, never decision inputs.
     for row in result.get('relationships', {}).get('parents', []):
-        row['probability'] = probability_for_relationship(row)
+        row['probability'] = probability_for_relationship(row, result.get('id'))
     if 'presentation' in result:
         result['presentation']['vitals'] = deepcopy(result.get('vitals', {}))
         result['presentation']['relationships'] = deepcopy(result.get('relationships', {}))
@@ -365,7 +365,7 @@ def project_catalogue_parents(rows, reviewed):
                 item['certainty'] = status if assessed else relation.get('tree_status') or 'unmarked'
                 item['certainty_label'] = (relation.get('status_label') if assessed
                     else relation.get('tree_status_label')) or item['certainty'].replace('_', ' ')
-                item['probability'] = probability_for_relationship(relation)
+                item['probability'] = probability_for_relationship(relation, row.get('id'))
                 parents.append(item)
             row[role] = parents
             row['missing_' + role] = not parents
@@ -397,6 +397,7 @@ def publish(root=ROOT / 'www'):
     if root.resolve() == (ROOT / 'www').resolve():
         shared_path.write_text((ROOT / 'research/relationship_assessments.json').read_text())
         (root / 'assets/research/canonical-records.json').write_text((ROOT / 'research/canonical_records.json').read_text())
+        (root / 'assets/research/relationship-probabilities.json').write_text((ROOT / 'research/relationship_probability_estimates.json').read_text())
     shared = json.loads(shared_path.read_text()) if shared_path.exists() else []
     changed = 0
     reviewed = {}
@@ -456,10 +457,10 @@ def publish(root=ROOT / 'www'):
         for row in search:
             for role in ('father', 'mother'):
                 for parent in row.get(role, []):
-                    if not parent.get('probability'):
+                    if not row.get('parent_review'):
                         parent['probability'] = probability_for_relationship(
                             {'tree_status': parent.get('certainty'), 'data_status': parent.get('data_status'),
-                             'withheld': parent.get('withheld')})
+                             'withheld': parent.get('withheld')}, row.get('id'), parent.get('id'), role)
         if search != prior_search:
             packed = json.dumps(search, ensure_ascii=False, separators=(',', ':'))
             search_path.write_text(packed + '\n')

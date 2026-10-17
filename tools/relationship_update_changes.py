@@ -10,7 +10,7 @@ except ModuleNotFoundError:
 ROLES = {'father', 'mother', 'spouse', 'child', 'sibling'}
 
 
-def normalise_change(change):
+def normalise_change(change, subject_id=None):
     role = {'son': 'child', 'daughter': 'child', 'brother': 'sibling', 'sister': 'sibling'}.get(
         change.get('relationship'), change.get('relationship'))
     action = {'upgrade': 'regrade', 'confidence': 'regrade', 'change': 'regrade'}.get(
@@ -18,7 +18,7 @@ def normalise_change(change):
     if role not in ROLES or action not in {'add', 'replace', 'regrade'}:
         return None
     status = change.get('assessment_after') or change.get('after') or change.get('status') or 'unknown'
-    rating = probability_for_relationship({'status': status})
+    rating = probability_for_relationship({'status': status}, subject_id or change.get('subject_id'), change.get('relative_id'), role)
     return {**change, 'relationship': role, 'action': action, 'status': status,
             'confidence_band': rating['band'], 'probability': rating}
 
@@ -26,7 +26,7 @@ def normalise_change(change):
 def pending_changes(profile_id, specification, captures, assessments, findings):
     """Enrich an already-pending update; keep explicit before/after provenance."""
     explicit = [c for row in specification.get('relationship_changes', [])
-                if (c := normalise_change(row))]
+                if (c := normalise_change(row, profile_id))]
     locked = {c['relationship'] for c in explicit if c['action'] in {'add', 'replace'}}
     candidates = list(explicit)
     by_id = {a.get('assertion_id'): a for a in assessments
@@ -58,7 +58,7 @@ def pending_changes(profile_id, specification, captures, assessments, findings):
                 continue
             row = normalise_change({**change, 'action': 'regrade', 'status': after,
                                     'assessment_after': after, 'finding_id': finding.get('id'),
-                                    'scope': assessment.get('record_scope') or change.get('scope')})
+                                    'scope': assessment.get('record_scope') or change.get('scope')}, profile_id)
             if row:
                 candidates.append(row)
     latest = {}

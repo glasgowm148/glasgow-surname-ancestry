@@ -51,7 +51,7 @@
   const relationText=relations=>(relations||[]).map(relation=>relation.name||relation.id||'').join(' ');
   const changeBand=change=>change.confidence_band||change.probability?.band||({proved:'confident',documented:'confident',certain:'confident',confirmed:'confident',strongly_supported:'confident',confident:'confident',dna_confirmed:'confident',probable:'probable',possible:'possible',uncertain:'uncertain',guess:'uncertain'})[String(change.status||change.after||'').toLowerCase().replaceAll('-','_')]||'unrated';
   const relationshipChanges=person=>!person.needs_wikitree_update?[]:(Array.isArray(person.wikitree_update_relationship_changes)?person.wikitree_update_relationship_changes:[]).map(change=>({...change,action:({upgrade:'regrade',confidence:'regrade'})[change.action]||change.action,relationship:({son:'child',daughter:'child',brother:'sibling',sister:'sibling'})[change.relationship]||change.relationship,confidence_band:changeBand(change)})).filter(c=>['add','replace','regrade'].includes(c.action)&&['father','mother','spouse','child','sibling'].includes(c.relationship));
-  const probabilityText=rating=>rating&&rating.minimum!=null?`${rating.origin==='wikitree'?'Tree ':''}${Math.round(rating.minimum*100)}–${Math.round(rating.maximum*100)}%`:rating?'Unrated':'';
+  const probabilityText=rating=>rating?.value!=null?`${Math.round(rating.value*100)}%`:rating?'Not individually rated':'';
   const esc=value=>String(value==null?'':value).replace(/[&<>"]/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[char]));
   const personUrl=person=>new URL(`${encodeURIComponent(person.id)}.html`,scriptUrl||window.location.href).href;
   const wikiLinks=person=>(person.profile_ids||[]).map(id=>`<a href="https://www.wikitree.com/wiki/${encodeURIComponent(id)}" target="_blank" rel="noopener noreferrer">${esc(id)}</a>`).join(' · ')||'No profile yet';
@@ -74,7 +74,7 @@
       const compact=confidence.key==='confident';
       // The label links to its entry in the evidence guide (/evidence/#state-<key>).
       const guideUrl=`/evidence/#state-${confidence.key.replaceAll('_','-')}`;
-      const confidenceHtml=showConfidence?`<span class="catalogue-relation-status confidence-${confidence.key}" title="${esc(confidence.title)}" > <a class="ev-label-link" href="${guideUrl}">${compact?'<span aria-hidden="true">✓</span><span class="sr-only">'+esc(confidence.label)+'</span>':esc(confidence.label)}</a>${relation.probability?` <small class="catalogue-probability" title="Assessment band; see the evidence guide">${esc(probabilityText(relation.probability))}</small>`:''}</span>`:'';
+      const confidenceHtml=showConfidence?`<span class="catalogue-relation-status confidence-${confidence.key}" title="${esc(confidence.title)}" > <a class="ev-label-link" href="${guideUrl}">${compact?'<span aria-hidden="true">✓</span><span class="sr-only">'+esc(confidence.label)+'</span>':esc(confidence.label)}</a>${relation.probability?` <small class="catalogue-probability" title="Individual probability estimate; see the evidence guide">${esc(probabilityText(relation.probability))}</small>`:''}</span>`:'';
       const classes=`catalogue-relation${showConfidence?` catalogue-parent confidence-${confidence.key}`:''}`;
       if(!id) return `<span class="${classes}">${esc(name)} ${confidenceHtml}</span>`;
       if(id.startsWith('record-')){
@@ -371,7 +371,7 @@
     if(key==='recorded') return normalise((person.recorded_in||[]).join(' '));
     if(key==='cluster') return normalise(person.cluster);
     if(key==='profile') return normalise((person.profile_ids||[]).join(' '));
-    if(key==='changeConfidence'||key==='fatherConfidence'){const changes=relationshipChanges(person).filter(c=>key!=='fatherConfidence'||c.relationship==='father');return changes.length?String(Math.max(...changes.map(c=>c.probability?.rank??({confident:4,probable:3,possible:2,uncertain:1,unrated:0})[c.confidence_band]??0))):'';}
+    if(key==='changeConfidence'||key==='fatherConfidence'){const changes=relationshipChanges(person).filter(c=>key!=='fatherConfidence'||c.relationship==='father');return changes.length?String(Math.max(...changes.map(c=>(c.probability?.rank??({confident:4,probable:3,possible:2,uncertain:1,unrated:0})[c.confidence_band]??0)*100+(c.probability?.value!=null?Math.round(c.probability.value*100):0)))):'';}
     if(key==='significance') return String(Number(person.wikitree_update_significance)||0).padStart(3,'0');
     return '';
   }

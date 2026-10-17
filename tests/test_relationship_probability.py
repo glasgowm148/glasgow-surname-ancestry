@@ -38,10 +38,27 @@ class RelationshipProbabilityTests(unittest.TestCase):
             self.assertEqual((result["band"], result["minimum"], result["rank"]), ("unrated", None, 0))
             self.assertEqual(result["scope"], "documentary")
 
-    def test_no_point_probability(self):
+    def test_no_invented_point_probability_without_pair_review(self):
         result = probability_for_relationship({"status": "probable"})
         self.assertEqual((result["minimum"], result["maximum"]), (.6, .89))
-        self.assertNotIn("probability", result)
+        self.assertIsNone(result['value'])
+
+    def test_individual_point_estimate_is_pair_and_role_specific(self):
+        result = probability_for_relationship({'status':'probable','id':'record-george-mureistoun-1586','relationship':'father'}, 'Glasgow-991')
+        self.assertEqual(result['value'], .82)
+        self.assertEqual(result['method'], 'individual_evidence_assessment')
+        self.assertTrue(result['basis'])
+        self.assertTrue(result['source_ids'])
+        self.assertIsNone(probability_for_relationship({'status':'probable','id':'record-george-mureistoun-1586','relationship':'mother'}, 'Glasgow-991')['value'])
+
+    def test_stale_or_conflicting_assessment_does_not_reuse_estimate(self):
+        for status in ['conflict','proved','rejected']:
+            self.assertIsNone(probability_for_relationship({'status':status}, 'Glasgow-991', 'record-george-mureistoun-1586', 'father')['value'])
+
+    def test_record_scope_is_retained_with_individual_estimate(self):
+        result = probability_for_relationship({'status':'proved'}, 'Glasgow-2870','Glasgow-3407','father')
+        self.assertEqual(result['value'], .99)
+        self.assertIn('American adult identity remains unproved', result['scope'])
 
 
 
@@ -65,7 +82,7 @@ class ModelProbabilityTests(unittest.TestCase):
         child = model['people'][1]['childrenRecorded'][0]
         self.assertEqual(father['probability'], child['probability'])
         self.assertEqual(father['probability']['scope'], 'Recorded child; adult identity possible')
-        self.assertIn('90–99%', father['statusLabel'])
+        self.assertIn('Not individually rated', father['statusLabel'])
         self.assertEqual(annotate_model(deepcopy(model)), model)
 
 if __name__ == "__main__":
