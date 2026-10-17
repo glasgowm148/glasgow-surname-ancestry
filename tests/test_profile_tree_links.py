@@ -40,6 +40,10 @@ class ProfileTreeLinksTest(unittest.TestCase):
         # Fold buttons replace the "+n" badges and toggle one line at a time.
         self.assertTrue(any(new.endswith("expandFamily(h.id,h);else clickTimer=setTimeout(()=>openPerson(h.id,false),210)") for old, new in PATCHES))
         self.assertTrue(any("if(n.hidden&&!scene.tree){" in new for old, new in PATCHES))
+        # Undecided fathers (meta.publicFatherHoldIds) appear as candidates, each line folded.
+        for piece in ("function treeCandidates(", "publicFatherAlternatives", "m.familyRole='Candidate father'",
+                      "m.familyRole='Candidate child'", "openU(pid,!cand&&gen<state.treeUp)"):
+            self.assertIn(piece, tree)
         for piece in ("function treeUI()", "data-tree=\"up\"", "data-tree=\"down\"", "data-tree=\"sibs\"",
                       "data-tree=\"orient\" data-o=\"v\"", "data-tree=\"orient\" data-o=\"h\"",
                       "function treeButtons(", "function treeToggle(", "function treeElbow(", "function treeRowLabel("):

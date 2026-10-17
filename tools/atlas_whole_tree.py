@@ -65,7 +65,11 @@ Fixes, in order:
     puts ancestors to the right, as FamilySearch does; the choice is
     remembered). Round chevron buttons beside a card open one line of parents
     or children; while a card is hovered a turned-round button folds its open
-    line away again.
+    line away again. Where the research holds a father back because more
+    than one candidate is current, every candidate appears as a dashed
+    "Candidate father" card with its standing on the link and his own
+    ancestors folded, so the reader can follow either line; a candidate's
+    tree shows the person as a "Candidate child".
 19. Controls inside a closed menu no longer blank part of the canvas (Chrome
     still reports a box for them).
 Ideas 12-15 and 18 follow Tree Prism (prism.vibe-genealogy.com): its By-branch
@@ -487,6 +491,17 @@ const TREE_TIER={uncertain:0,possible:0,probable:1,strongly_supported:1,unmarked
 const TREE_LABEL={uncertain:'Uncertain',possible:'Possible',probable:'Probable',strongly_supported:'Strongly supported',proved:'Proved','DNA-confirmed':'DNA-confirmed',dna_confirmed:'DNA-confirmed'};
 function treeTier(r){const t=TREE_TIER[String(r?.status||'unmarked')];return t===undefined?2:t}
 function treePill(r,prefix){const st=String(r?.status||'');if(!TREE_LABEL[st])return null;const v=r.probability&&typeof r.probability.value==='number'?' · '+Math.round(r.probability.value*100)+'%':'';const tier=treeTier(r);return {text:(prefix?prefix+': ':'')+(r.assessmentLabel||TREE_LABEL[st])+v,tone:tier===0?'weak':tier===3?'strong':'mid'}}
+/* Undecided fathers. When the research holds a father back because more than one candidate is
+   current (meta.publicFatherHoldIds), each candidate is drawn as a dashed "Candidate father" card
+   with its standing on the link, and his own ancestors start folded so the reader chooses which
+   line to follow. A candidate's tree likewise shows the person as a candidate child. */
+let TREE_CAND=null;
+function treeCandIndex(){if(TREE_CAND)return TREE_CAND;TREE_CAND=new Map();for(const p of P.values())for(const r of treeCandidates(p.id)){if(!TREE_CAND.has(r.id))TREE_CAND.set(r.id,[]);TREE_CAND.get(r.id).push(p.id)}return TREE_CAND}
+function treeCandidates(pid){const p=P.get(pid),alts=p&&p.publicFatherAlternatives;if(!alts||!alts.length||(FAMILY.parents.get(pid)||[]).some(r=>r.role==='father'))return [];
+ const seen=new Set(),rank=r=>r.tree_relationship?-2:-(r.probability?.value??r.probability?.minimum??0);
+ return alts.filter(r=>r&&r.id&&r.id!==pid&&P.has(r.id)&&!seen.has(r.id)&&seen.add(r.id)).sort((a,b)=>rank(a)-rank(b))}
+function treeCandPill(r){const st=String(r.status||''),v=r.probability&&typeof r.probability.value==='number'?' · '+Math.round(r.probability.value*100)+'%':'';
+ return {text:r.tree_relationship?'WikiTree · '+(r.tree_status||'unrated'):(TREE_LABEL[st]||'Possible')+v,tone:r.tree_relationship&&/confident|certain/.test(r.tree_status||'')?'mid':'weak'}}
 function makeTree(id){
  uiBoxes=null;
  if(state.treeRoot!==id){state.treeRoot=id;for(const k of ['up','down']){state.treeOpen[k].clear();state.treeShut[k].clear()}}
@@ -496,15 +511,18 @@ function makeTree(id){
  const yearOf=pid=>yearNum(P.get(pid))||9999,byYear=(a,b)=>yearOf(a)-yearOf(b)||a.localeCompare(b);
  const room=()=>{if(nodes.length>=T.limit){truncated=true;return false}return true};
  const add=(pid,row)=>{if(map.has(pid))return map.get(pid);const p=P.get(pid),n={id:pid,type:'person',name:p.name,geo:place(p).home,colour:countryColour(p),children:[],depth:row,row,x:0,y:0,a:0,count:stats.get(pid).size,isRoot:pid===id,attachment:stats.get(pid).attachment,hidden:0,hiddenUp:0,kidsShown:0,parentsShown:0};nodes.push(n);map.set(pid,n);if(!rows.has(row))rows.set(row,[]);rows.get(row).push(n);return n};
- const pairKey=(a,b)=>[a,b].sort().join('|');
+ const pairKey=(a,b)=>[a,b].sort().join('|'),n0hidden=new Map(),fatherFirst=(x,y)=>(x.role==='father'?0:1)-(y.role==='father'?0:1);
+ // Candidate fathers come first, beside any recorded mother.
+ const ancParents=pid=>[...treeCandidates(pid).map(r=>({id:r.id,cand:r})),...(FAMILY.parents.get(pid)||[]).slice().sort(fatherFirst).map(r=>({id:r.id,cand:null}))];
  // Descendants: a unit is a person with their partners; children sit under the couple.
  function unit(pid,row,open,withPartners){
   add(pid,row);const u={id:pid,row,partners:[],kids:[],w:0,kw:0};units.set(pid,u);
-  const kidsAll=FAMILY.children.get(pid)||[],partners=withPartners||open?[...(FAMILY.partners.get(pid)||[])]:[];
+  const candKids=treeCandIndex().get(pid)||[],kidsAll=[...(FAMILY.children.get(pid)||[]),...candKids.filter(c=>!(FAMILY.children.get(pid)||[]).includes(c))],partners=withPartners||open?[...(FAMILY.partners.get(pid)||[])]:[];
   if(open)for(const c of kidsAll)for(const r of FAMILY.parents.get(c))if(r.id!==pid&&!partners.includes(r.id))partners.push(r.id);
   for(const q of partners){if(map.has(q)||!P.has(q))continue;if(!room())break;const m=add(q,row);m.familyRole=FAMILY.pairs.has(pairKey(pid,q))?'Partner':'Co-parent';m.peerOf=pid;u.partners.push(q)}
   if(open){const other=c=>FAMILY.parents.get(c).find(r=>r.id!==pid)?.id,slot=c=>{const i=u.partners.indexOf(other(c));return i<0?99:i};
-   for(const c of kidsAll.filter(c=>!map.has(c)).sort((a,b)=>slot(a)-slot(b)||byYear(a,b))){if(map.has(c))continue;if(!room())break;u.kids.push(unit(c,row+1,openD(c,row+1<state.treeDown),true))}}
+   for(const c of kidsAll.filter(c=>!map.has(c)).sort((a,b)=>slot(a)-slot(b)||byYear(a,b))){if(map.has(c))continue;if(!room())break;u.kids.push(unit(c,row+1,openD(c,row+1<state.treeDown),true));if(candKids.includes(c)){const m=map.get(c);m.candidateChildOf=pid;m.familyRole='Candidate child'}}}
+  n0hidden.set(pid,kidsAll)
   const n=map.get(pid);n.owner=true;n.kidsShown=u.kids.length;return u;
  }
  const unitW=u=>(1+u.partners.length)*CA+u.partners.length*G.couple;
@@ -527,10 +545,10 @@ function makeTree(id){
  for(const s of older.slice().reverse()){lay(s);let off=Infinity;for(let d=0;d<Math.min(aL.length,s.R.length);d++)off=Math.min(off,aL[d]-s.R[d]-G.unit);placeUnit(s,off);for(let d=0;d<s.L.length;d++){aL[d]=d<aL.length?Math.min(aL[d],s.L[d]+off):s.L[d]+off;if(d>=aR.length)aR[d]=s.R[d]+off}}
  // Ancestors: each parent is centred over their own ancestors; a couple's line meets above the child.
  const anc=new Map();
- function ancBuild(pid,row){const a={id:pid,parents:[],w:CA};anc.set(pid,a);const gen=-row;
-  if(openU(pid,gen<state.treeUp))for(const r of (FAMILY.parents.get(pid)||[]).slice().sort((x,y)=>(x.role==='father'?0:1)-(y.role==='father'?0:1))){if(map.has(r.id)||!P.has(r.id))continue;if(!room())break;add(r.id,row-1);a.parents.push(ancBuild(r.id,row-1))}
+ function ancBuild(pid,row,cand){const a={id:pid,parents:[],w:CA};anc.set(pid,a);const gen=-row;
+  if(openU(pid,!cand&&gen<state.treeUp))for(const q of ancParents(pid)){if(map.has(q.id)||!P.has(q.id))continue;if(!room())break;const m=add(q.id,row-1);if(q.cand){m.candidate=q.cand;m.familyRole='Candidate father'}a.parents.push(ancBuild(q.id,row-1,!!q.cand))}
   map.get(pid).parentsShown=a.parents.length;return a}
- const top=[];if(openU(id,state.treeUp>0))for(const r of rootParents){if(map.has(r.id)||!P.has(r.id))continue;if(!room())break;add(r.id,-1);top.push(ancBuild(r.id,-1))}
+ const top=[];if(openU(id,state.treeUp>0))for(const q of ancParents(id)){if(map.has(q.id)||!P.has(q.id))continue;if(!room())break;const m=add(q.id,-1);if(q.cand){m.candidate=q.cand;m.familyRole='Candidate father'}top.push(ancBuild(q.id,-1,!!q.cand))}
  function ancMeasure(a){const pw=a.parents.reduce((s,p)=>s+ancMeasure(p),0)+Math.max(0,a.parents.length-1)*G.unit;a.w=Math.max(CA,pw);a.pw=pw;return a.w}
  function ancPlace(a,cx){map.get(a.id).a=cx-CA/2;let px=cx-a.pw/2;for(const p of a.parents){ancPlace(p,px+p.w/2);px+=p.w+G.unit}}
  map.get(id).parentsShown=top.length;
@@ -538,8 +556,8 @@ function makeTree(id){
   let px=cx0-tw/2;for(const a of top){ancPlace(a,px+a.w/2);px+=a.w+G.unit}}
  for(const n of nodes){if(O==='v'){n.x=n.a;n.y=n.row*G.pitch}else{n.x=-n.row*G.pitch;n.y=n.a}}
  // What is folded away, for the round fold buttons.
- for(const n of nodes){if(units.has(n.id))n.hidden=(FAMILY.children.get(n.id)||[]).filter(c=>!map.has(c)).length;
-  if(n.row<0||n.id===id)n.hiddenUp=(FAMILY.parents.get(n.id)||[]).filter(r=>P.has(r.id)&&!map.has(r.id)).length}
+ for(const n of nodes){if(units.has(n.id))n.hidden=(n0hidden.get(n.id)||FAMILY.children.get(n.id)||[]).filter(c=>!map.has(c)).length;
+  if(n.row<0||n.id===id){const up=ancParents(n.id).filter(q=>P.has(q.id)&&!map.has(q.id));n.hiddenUp=up.length;n.candUp=up.filter(q=>q.cand).length}}
  // Parent-to-child links leave from the middle of the parents' partner line.
  const between=(A,B)=>{const lo=Math.min(A.a,B.a),hi=Math.max(A.a,B.a);return (rows.get(A.row)||[]).some(n=>n!==A&&n!==B&&n.a>lo&&n.a<hi)};
  function origin(rr){let ps=rr.map(r=>map.get(r.id));if(ps.length>1&&between(ps[0],ps[1]))ps=[ps[0].a>ps[1].a?ps[0]:ps[1]];
@@ -551,6 +569,12 @@ function makeTree(id){
   else{const cx=c.x+cw,cy=c.y+ch/2,bus=cx+(G.pitch-cw)/2;pts=[o.x,o.y,bus,o.y,bus,cy,cx,cy];pill={x:cx,y:cy,align:'l'}}
   for(const r of rr)edges.push({a:r.id,b:c.id,geo:c.geo,colour:c.colour,type:'recorded',orient:O,status:treeTier(r)===0?'uncertain':r.status,realStatus:r.status,role:r.role,contextOnly:r!==weakest,points:pts});
   const differ=rr.length>1&&treeTier(rr[0])!==treeTier(rr[1]),pp=treePill(weakest,differ?(weakest.role==='father'?'Father':weakest.role==='mother'?'Mother':'Parent'):'');if(pp)pills.push({...pill,...pp})}
+ // Candidate-father links: dashed, one per candidate. Labelled at the father's end when he is one
+ // of several candidates above the person, otherwise beside the child.
+ for(const c of nodes)for(const r of treeCandidates(c.id)){const f=map.get(r.id);if(!f||f.row!==c.row-1)continue;let pts,pill;
+  if(O==='v'){const ox=f.x+cw/2,oy=f.y+ch,cx=c.x+cw/2,cy=c.y,bus=cy-(G.pitch-ch)/2;pts=[ox,oy,ox,bus,cx,bus,cx,cy];pill=f.candidate?{x:ox,y:oy+15,align:'c'}:{x:cx,y:cy-22,align:'r'}}
+  else{const ox=f.x,oy=f.y+ch/2,cx=c.x+cw,cy=c.y+ch/2,bus=cx+(G.pitch-cw)/2;pts=[ox,oy,bus,oy,bus,cy,cx,cy];pill=f.candidate?{x:ox,y:oy,align:'L'}:{x:cx,y:cy,align:'l'}}
+  edges.push({a:r.id,b:c.id,geo:c.geo,colour:c.colour,type:'recorded',orient:O,status:'uncertain',realStatus:r.status,role:'father',candidate:true,points:pts});pills.push({...pill,...treeCandPill(r)})}
  // Partner lines; they arc round any card standing between the two partners.
  const linked=new Set();
  function partner(a,b,type){const k=pairKey(a,b);if(linked.has(k))return;const A0=map.get(a),B0=map.get(b);if(!A0||!B0||A0.row!==B0.row)return;linked.add(k);const [A,B]=A0.a<B0.a?[A0,B0]:[B0,A0],gap=between(A,B);let pts;
@@ -583,7 +607,7 @@ function drawTreeBands(){const s=scene,T=TREE,G=s.G,b=s.bounds,h=s.orient==='h';
  ctx.strokeStyle='#e2dccb';ctx.lineWidth=1/cam.k;ctx.stroke()}
 function drawTreeLabels(){const s=scene,T=TREE,G=s.G,h=s.orient==='h';
  if(cam.k>=.4)for(const p of s.pills){const q=screen(p);if(q.x<-120||q.x>W+120||q.y<40||q.y>H)continue;ctx.font='600 '+clamp(10*cam.k,9,11)+'px '+SANS;const tw=ctx.measureText(p.text).width+14,hh=17,col=p.tone==='weak'?['#fbeee8','#cf9a87','#8a3f28']:p.tone==='strong'?['#e9f3e6','#9cbd8e','#2f5e2f']:['#fbf3df','#d7bd7c','#71530f'];
-  const x0=p.align==='c'?q.x-tw/2:q.x+6,y0=p.align==='l'?q.y-hh-3:q.y-hh/2;
+  const x0=p.align==='c'?q.x-tw/2:p.align==='L'?q.x-6-tw:q.x+6,y0=p.align==='l'||p.align==='L'?q.y-hh-3:q.y-hh/2;
   ctx.fillStyle=col[0];ctx.strokeStyle=col[1];ctx.lineWidth=.8;roundRect(x0,y0,tw,hh,8);ctx.fill();ctx.stroke();ctx.fillStyle=col[2];ctx.textAlign='center';ctx.fillText(p.text,x0+tw/2,y0+hh/2+3.6);ctx.textAlign='left'}
  ctx.font='600 10px '+SANS;
  for(const r of s.rows){const txt0=treeRowLabel(r,s,h);
@@ -596,7 +620,7 @@ function drawTreeLabels(){const s=scene,T=TREE,G=s.G,h=s.orient==='h';
    while the card is hovered. */
 function treeButtons(n,box){const s=scene,h=s.orient==='h',r=clamp(11*Math.sqrt(cam.k/.62),8,13),list=[];
  if(n.owner){if(n.kidsShown)list.push({dir:'down',act:'close',label:'Hide children'});else if(n.hidden)list.push({dir:'down',act:'open',label:'Show '+n.hidden+(n.hidden===1?' child':' children')})}
- if(n.row<0||n.isRoot){if(n.parentsShown)list.push({dir:'up',act:'close',label:'Hide parents'});else if(n.hiddenUp)list.push({dir:'up',act:'open',label:n.hiddenUp===1?'Show parent':'Show parents'})}
+ if(n.row<0||n.isRoot){if(n.parentsShown)list.push({dir:'up',act:'close',label:'Hide parents'});else if(n.hiddenUp)list.push({dir:'up',act:'open',label:n.candUp?(n.candUp===1?'Show the candidate father':'Show '+n.candUp+' candidate fathers'):n.hiddenUp===1?'Show parent':'Show parents'})}
  for(const b of list){const down=b.dir==='down',open=b.act==='open';let cx,cy,vx,vy;
   if(h){cx=down?box.x-r-3:box.x+box.w+r+3;cy=open?box.y+box.h/2:box.y+box.h-r-3;vx=down?-1:1;vy=0}
   else{cx=open?box.x+box.w/2:down?box.x+box.w-r-6:box.x+r+4;cy=down?box.y+box.h+r+3:box.y-r-3;vx=0;vy=down?1:-1}
@@ -777,8 +801,8 @@ PATCHES = [
     ("if(scene.type==='all')drawEraGround();", "if(scene.type==='all')drawEraGround();else if(scene.tree)drawTreeBands();"),
     ("ctx.restore();\n }\n perf={drawMs", "if(scene.tree)drawTreeLabels();ctx.restore();\n }\n perf={drawMs"),
     ("ctx.textAlign='left';addHit(n.id,'expand',b)}}", "ctx.textAlign='left';addHit(n.id,'expand',b)}if(scene.tree)treeButtons(n,box)}"),
-    ("ctx.strokeStyle=sel?'#8bab78':'#d2dcc7';ctx.lineWidth=sel?1.3:.8;",
-     "const rootCard=n.isRoot&&scene.tree;ctx.strokeStyle=sel?'#8bab78':rootCard?'#4f6d43':'#d2dcc7';ctx.lineWidth=sel?1.3:rootCard?1.8:.8;"),
+    ("ctx.strokeStyle=sel?'#8bab78':'#d2dcc7';ctx.lineWidth=sel?1.3:.8;roundRect(b.x,b.y,b.w,b.h,6);ctx.fill();ctx.stroke();",
+     "const rootCard=n.isRoot&&scene.tree,candCard=scene.tree&&(n.candidate||n.candidateChildOf);ctx.strokeStyle=sel?'#8bab78':rootCard?'#4f6d43':candCard?'#b88a74':'#d2dcc7';ctx.lineWidth=sel?1.3:rootCard?1.8:candCard?1.2:.8;roundRect(b.x,b.y,b.w,b.h,6);ctx.fill();if(candCard)ctx.setLineDash([5,3]);ctx.stroke();ctx.setLineDash([]);"),
     ("const p=screen(n),scale=cam.k,ww=232*scale,hh=76*scale;", "const p=screen(n),scale=cam.k,ww=(scene.tree?TREE.cw:232)*scale,hh=(scene.tree?TREE.ch:76)*scale;"),
     ("x:(W-right)/2-(n.x+(scene.type==='family'?116:0))*kk,y:Math.max(235,H*.52)-(n.y+(scene.type==='family'?38:0))*kk",
      "x:(W-right)/2-(n.x+(scene.tree?TREE.cw/2:scene.type==='family'?116:0))*kk,y:Math.max(235,H*.52)-(n.y+(scene.tree?TREE.ch/2:scene.type==='family'?38:0))*kk"),
