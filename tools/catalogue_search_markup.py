@@ -153,6 +153,18 @@ def search_panel_html(cluster_options: str, record_type_options: str, region_opt
         + _check("catalogue-missing-profile", "No confirmed WikiTree link")
         + _check("catalogue-needs-wikitree-update", "Needs updated on WikiTree")
         + '</div></div>'
+        '<div class="catalogue-panel-grid catalogue-panel-grid-1 catalogue-change-filters">'
+        '<p class="catalogue-panel-note catalogue-panel-wide">Filter pending relationship amendments by their relationship, action or proposed confidence.</p>'
+        '<label><span>Changed relationship</span><select id="catalogue-change-relationship">'
+        '<option value="">Any relationship change</option><option value="father">Father</option><option value="mother">Mother</option>'
+        '<option value="spouse">Spouse</option><option value="child">Child</option><option value="sibling">Sibling</option></select></label>'
+        '<label><span>Relationship change</span><select id="catalogue-change-action">'
+        '<option value="">Any change</option><option value="add">New relationship</option><option value="replace">Replaced relationship</option>'
+        '<option value="regrade">Confidence changed</option></select></label>'
+        '<label><span>New confidence</span><select id="catalogue-change-confidence">'
+        '<option value="">Any confidence</option><option value="confident">Confident ·90–99%</option><option value="probable">Probable ·60–89%</option>'
+        '<option value="possible">Possible ·30–59%</option><option value="uncertain">Speculative / uncertain ·1–29%</option><option value="unrated">Unrated</option></select></label>'
+        '</div>'
     )
     panels = "".join((
         _panel("name", "Name", name_panel, "is-wide"),

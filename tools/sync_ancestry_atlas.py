@@ -218,6 +218,8 @@ def sync(site_root: Path, fresh: dict) -> bool:
     if not target.exists():
         return False
     model = overlay_model(json.loads(target.read_text()), fresh)
+    from tools.relationship_probability import annotate_model
+    annotate_model(model)
     target.write_text(json.dumps(model, ensure_ascii=False, separators=(',', ':')) + '\n')
     renderer = site_root / 'assets/research/atlas.js'
     renderer.write_text(documentary_renderer(renderer.read_text()))

@@ -10,10 +10,12 @@ from pathlib import Path
 
 try:
     import evidence_labels
+    from relationship_probability import probability_for_relationship
     from catalogue_machine_data import compact_resolver_row
     from documentary_ancestry import valid_account_url
 except ModuleNotFoundError:  # imported as tools.publish_resolved_dossiers
     from tools import evidence_labels
+    from tools.relationship_probability import probability_for_relationship
     from tools.catalogue_machine_data import compact_resolver_row
     from tools.documentary_ancestry import valid_account_url
 
@@ -131,6 +133,8 @@ def shared_relationship(profile_id, relation, assessments):
 
 def _sync_presentation(result):
     # These are derived mirrors of research facts, never decision inputs.
+    for row in result.get('relationships', {}).get('parents', []):
+        row['probability'] = probability_for_relationship(row)
     if 'presentation' in result:
         result['presentation']['vitals'] = deepcopy(result.get('vitals', {}))
         result['presentation']['relationships'] = deepcopy(result.get('relationships', {}))
@@ -361,6 +365,7 @@ def project_catalogue_parents(rows, reviewed):
                 item['certainty'] = status if assessed else relation.get('tree_status') or 'unmarked'
                 item['certainty_label'] = (relation.get('status_label') if assessed
                     else relation.get('tree_status_label')) or item['certainty'].replace('_', ' ')
+                item['probability'] = probability_for_relationship(relation)
                 parents.append(item)
             row[role] = parents
             row['missing_' + role] = not parents
@@ -448,6 +453,13 @@ def publish(root=ROOT / 'www'):
             schema_path.write_text(json.dumps(schema, indent=2) + '\n')
     if search_path.exists():
         project_catalogue_parents(search, reviewed)
+        for row in search:
+            for role in ('father', 'mother'):
+                for parent in row.get(role, []):
+                    if not parent.get('probability'):
+                        parent['probability'] = probability_for_relationship(
+                            {'tree_status': parent.get('certainty'), 'data_status': parent.get('data_status'),
+                             'withheld': parent.get('withheld')})
         if search != prior_search:
             packed = json.dumps(search, ensure_ascii=False, separators=(',', ':'))
             search_path.write_text(packed + '\n')

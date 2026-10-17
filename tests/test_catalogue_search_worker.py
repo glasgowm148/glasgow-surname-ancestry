@@ -49,7 +49,7 @@ class CatalogueWorkerParityTests(unittest.TestCase):
 
     def test_badge_distinguishes_new_relationships_from_other_work(self):
         source = (ROOT / 'tools/catalogue_search.js').read_text()
-        helper = source[source.index('  function relationshipUpdateTags('):source.index('  function resultRow(')]
+        helper = source[source.index('  const changeBand='):source.index('  const esc=')] + source[source.index('  function relationshipUpdateTags('):source.index('  function resultRow(')]
         script = "const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;');\n" + helper + '''
 const base={needs_wikitree_update:true,wikitree_update_significance:86};
 console.log(JSON.stringify([
@@ -61,14 +61,17 @@ console.log(JSON.stringify([
  updateBadge({...base,wikitree_update_relationship_changes:[{action:'add',relationship:'father',status:'uncertain',relative_id:'Glasgow-3163'}]}),
  updateBadge({...base,wikitree_update_relationship_changes:[{action:'add',relationship:'father',status:'uncertain',relative_id:'record-john-glasgw-stirling-1475'}]}),
  updateBadge({...base,wikitree_update_relationship_changes:[{action:'add',relationship:'father',status:'uncertain',relative_id:'record-john-glasgw-stirling-1475',relative_wikitree_url:'https://www.wikitree.com/wiki/Space:John_Glasgw_of_Stirling'}]}),
- updateBadge({...base,wikitree_update_relationship_changes:[{action:'add',relationship:'father',status:'probable',relative_id:'record-george-mureistoun-1586'}]})
+ updateBadge({...base,wikitree_update_relationship_changes:[{action:'add',relationship:'father',status:'probable',relative_id:'record-george-mureistoun-1586'}]}),
+ updateBadge({...base,wikitree_update_relationship_changes:[{action:'add',relationship:'father',status:'proved',relative_id:'Glasgow-2',probability:{minimum:.9,maximum:.99,rank:4}}]})
 ]));'''
         badges = json.loads(subprocess.check_output(['node', '-e', script], text=True))
         self.assertIn('significance 86</small>', badges[0])
-        self.assertIn('class="catalogue-relationship-badge">new uncertain father</span>', badges[1])
-        self.assertEqual(badges[0], badges[2])
+        self.assertIn('change-uncertain', badges[1])
+        self.assertIn('>new uncertain father</span>', badges[1])
+        self.assertIn('father now confident', badges[2])
+        self.assertIn('change-confident', badges[2])
         self.assertIn('>new uncertain father</span>', badges[3])
-        self.assertIn('>new uncertain mother</span>', badges[3])
+        self.assertIn('>new possible mother</span>', badges[3])
         self.assertEqual(badges[4], '')
         self.assertIn('href="https://www.wikitree.com/wiki/Glasgow-3163"', badges[5])
         self.assertIn('aria-label="new uncertain father: Glasgow-3163 on WikiTree"', badges[5])
@@ -76,6 +79,10 @@ console.log(JSON.stringify([
         self.assertIn('href="https://www.wikitree.com/wiki/Space:John_Glasgw_of_Stirling"', badges[7])
         self.assertIn('>new probable father</span>', badges[8])
         self.assertNotIn('href=', badges[8])
+        self.assertIn('change-confident', badges[9])
+        self.assertIn('new confident father', badges[9])
+        self.assertIn('90–99%', badges[9])
+        self.assertIn('https://www.wikitree.com/wiki/Glasgow-2', badges[9])
 
     def test_generated_worker_preserves_filters_and_sorting(self):
         rows=[]
@@ -93,6 +100,10 @@ console.log(JSON.stringify([
                          'has_profile':True,'record_count':i+1,'has_original_record':i==0,
                          'father':[] if i==2 else [{'id':'Glasgow-900','name':'Father Glasgow','certainty':'uncertain'}],
                          'spouses':[{'id':'Brown-3','name':'Jane Brown','marriage_location':'Antrim'}] if i==0 else []})
+        for row in rows: row['needs_wikitree_update'] = True
+        rows[0]['wikitree_update_relationship_changes'] = [{'action':'add','relationship':'father','status':'proved'}]
+        rows[1]['wikitree_update_relationship_changes'] = [{'action':'add','relationship':'father','status':'uncertain'}, {'action':'regrade','relationship':'mother','status':'proved'}]
+        rows[2]['wikitree_update_relationship_changes'] = [{'action':'regrade','relationship':'father','status':'probable'}]
         source=(ROOT/'tools/catalogue_search.js').read_text()
         baseline=source[source.index('  const normaliseLiteral='):source.index('  const esc=')]
         baseline+=source[source.index('  function prepare('):source.index('  let searchWorker=')]
@@ -108,11 +119,11 @@ const defaults={query:[],phrase:'',exact:false,name:'',first:'',last:'',lastScop
 const cases=[{q:'glasgow'}, {q:'Alice Yorkshire'}, {q:'register'}, {q:'Glasco',exact:true},
  {gender:'female'}, {sibling:'bob'}, {location:'yorkshire',locationType:'bio'}, {location:'antrim',locationType:'marriage'},
  {excluded:['united states']}, {cluster:'group alpha'}, {flags:{missingFather:true}}, {from:1801,to:1802},
- {father:'father glasgow'}, {last:'glasco',lastScope:'birth'}, {spouse:'jane brown'}, {sourceQuality:'original'}];
+ {father:'father glasgow'}, {last:'glasco',lastScope:'birth'}, {spouse:'jane brown'}, {sourceQuality:'original'}, {changeRelationship:'father',changeConfidence:'confident'}, {changeRelationship:'father',changeAction:'regrade'}, {changeConfidence:'uncertain'}, {changeRelationship:'mother',changeConfidence:'confident'}];
 (async()=>{await worker.self.onmessage({data:{type:'load',id:1,url:'fast',advancedUrl:'advanced'}});
  if(responses.get(1).error)throw Error(responses.get(1).error);
  let checks=0;
- for(const test of cases)for(const mode of ['relevance','name:desc','birth:asc','spouse:asc','significance:desc']){
+ for(const test of cases)for(const mode of ['relevance','name:desc','birth:asc','spouse:asc','significance:desc','fatherConfidence:desc','changeConfidence:asc']){
   const filters={...defaults,...test,flags:{...test.flags}};
   original.input=test.q||'';original.exact=filters.exact;
   filters.phrase=vm.runInContext('(exact?normaliseLiteral:normalise)(input)',original);
@@ -122,6 +133,7 @@ const cases=[{q:'glasgow'}, {q:'Alice Yorkshire'}, {q:'register'}, {q:'Glasco',e
   const expected=vm.runInContext('source.filter(p=>matches(p,filters)).sort((a,b)=>comparePeople(a,b,filters)).map(p=>p.id)',original);
   const id=++checks+1;await worker.self.onmessage({data:{id,type:'filter',filters,sortMode:mode}});
   const got=responses.get(id);if(got.error)throw Error(got.error);
+  if(test.changeRelationship==='father'&&test.changeConfidence==='confident'&&JSON.stringify(got.result)!==JSON.stringify(['person-0']))throw Error('Cross-relationship confidence mismatch');
   if(JSON.stringify(got.result)!==JSON.stringify(expected))throw Error(JSON.stringify({test,mode,expected,actual:got.result}));
  }
  console.log(checks);
@@ -136,7 +148,7 @@ const cases=[{q:'glasgow'}, {q:'Alice Yorkshire'}, {q:'register'}, {q:'Glasco',e
                            cwd=ROOT,env={**os.environ,'PYTHONHASHSEED':'73'},check=True,capture_output=True)
             self.assertEqual(before,(site/'data/catalogue-search-fast.json').read_bytes(),'Rebuilds must keep content hashes stable across Python processes')
             output=subprocess.check_output(['node','-e',script,str(site),str(baseline_path)],text=True)
-            self.assertEqual(int(output),80)
+            self.assertEqual(int(output),140)
 
 
 if __name__=='__main__':unittest.main()

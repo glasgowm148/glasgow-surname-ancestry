@@ -95,7 +95,8 @@ class ResolvedDossierTests(unittest.TestCase):
                   'historical_assertions': [{'profile_id': 'Person-1', 'claim_id': 'wrong-role',
                                              'label': 'Historical role error', 'scope': 'Parent role only'}]}
         result = module.resolve(original, [], [review])
-        self.assertEqual(result['relationships']['parents'], original['relationships']['parents'][:1])
+        self.assertEqual([{k:v for k,v in r.items() if k != 'probability'} for r in result['relationships']['parents']], original['relationships']['parents'][:1])
+        self.assertEqual(result['relationships']['parents'][0]['probability']['band'], 'confident')
         siblings = result['relationships']['siblings']
         self.assertEqual(len(siblings), 1)
         self.assertEqual((siblings[0]['id'], siblings[0]['relationship'], siblings[0]['status']),
@@ -175,9 +176,9 @@ class ResolvedDossierTests(unittest.TestCase):
         self.assertEqual(result['imported']['sections']['vitals']['death']['place'], 'Imported')
         self.assertEqual(result['claims'][0]['status'], 'superseded')
         self.assertEqual(result, module.resolve(result, [review]))
-        self.assertEqual(original, module.resolve(result, []))
+        self.assertEqual(module.resolve(original, []), module.resolve(result, []))
         review['status'] = 'draft'
-        self.assertEqual(original, module.resolve(original, [review]))
+        self.assertEqual(module.resolve(original, []), module.resolve(original, [review]))
 
     def test_narrative_does_not_invent_structured_facts(self):
         dossier = {'id': 'Person-1', 'vitals': {'death': {'place': 'Imported'}}, 'relationships': {}, 'claims': []}

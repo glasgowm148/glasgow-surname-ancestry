@@ -877,6 +877,8 @@ def main() -> None:
             approved = entries().get('onetree/glasgow-one-tree-polished-3/model.json')
             if approved and approved['kind'] == 'atlas-model':
                 model = restored_model(model, json.loads(source(approved)))
+        from tools.relationship_probability import annotate_model
+        annotate_model(model)
         checks = validate(model)
         template = args.template.read_text(encoding="utf-8")
         if template.count("__MODEL__") != 1:

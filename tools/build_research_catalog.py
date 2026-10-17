@@ -4781,6 +4781,14 @@ def _load_profile_updates(wikitree_evidence: dict, report: list | None = None) -
     completed_live_profiles = set(payload.get("completed_live_profiles", []))
     reopened_profiles = set(payload.get("reopened_completed_profiles", {}))
     updates = {}
+    try:
+        from relationship_update_changes import pending_changes
+    except ModuleNotFoundError:
+        from tools.relationship_update_changes import pending_changes
+    relationship_path = PROJECT_ROOT / 'research/relationship_assessments.json'
+    findings_path = PROJECT_ROOT / 'research/latest-findings.json'
+    relationship_reviews = json.loads(relationship_path.read_text()) if relationship_path.exists() else []
+    reviewed_findings = json.loads(findings_path.read_text()).get('findings', []) if findings_path.exists() else []
     for profile_id, specification in specifications.items():
         reopened_by_date = False
         if profile_id in completed_live_profiles and profile_id not in reopened_profiles:
@@ -4914,6 +4922,8 @@ def _load_profile_updates(wikitree_evidence: dict, report: list | None = None) -
         updates[profile_id]["significance"] = _profile_update_significance(
             updates[profile_id].get("status") or "", ranking_text
         )
+        updates[profile_id]['relationship_changes'] = pending_changes(
+            profile_id, specification, captures, relationship_reviews, reviewed_findings)
     return updates
 
 

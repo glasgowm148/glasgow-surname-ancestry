@@ -485,10 +485,15 @@ def guide_link_html(text: str = GUIDE_LINK_TEXT, anchor: str = "") -> str:
 
 
 def as_json() -> dict:
+    try:
+        from relationship_probability import BANDS, SCALE_NOTE
+    except ModuleNotFoundError:
+        from tools.relationship_probability import BANDS, SCALE_NOTE
     return {
         "version": VERSION,
         "guide": {"url": GUIDE_URL, "label": GUIDE_LABEL},
         "states": STATES,
+        "relationship_probability": {"bands": BANDS, "note": SCALE_NOTE},
         "aliases": ALIASES,
         "tree_data_status": TREE_DATA_STATUS,
         "record_quality": RECORD_QUALITY,

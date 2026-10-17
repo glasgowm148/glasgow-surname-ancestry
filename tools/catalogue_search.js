@@ -18,6 +18,7 @@
     locationType:'catalogue-location-type',
     excludeDeath:'catalogue-death-exclude',region:'catalogue-region',cluster:'catalogue-cluster',
     recordType:'catalogue-record-type',sourceQuality:'catalogue-source-quality',
+    changeRelationship:'catalogue-change-relationship',changeAction:'catalogue-change-action',changeConfidence:'catalogue-change-confidence',
     males:'catalogue-males-only',missingFather:'catalogue-missing-father',missingMother:'catalogue-missing-mother',
     missingProfile:'catalogue-missing-profile',needsUpdate:'catalogue-needs-wikitree-update',descendants:'catalogue-has-descendants',
     wives:'catalogue-women-married-glasgow',glasgowBirth:'catalogue-glasgow-at-birth',suffix:'catalogue-has-suffix'
@@ -30,7 +31,7 @@
   if(legacyGender){const label=legacyGender.closest('label');if(label) label.outerHTML='<div class="catalogue-gender-toggle" aria-label="Gender" role="group"><span>Gender</span><label><input name="catalogue-gender" type="radio" value="male"><span>Male</span></label><label><input name="catalogue-gender" type="radio" value="female"><span>Female</span></label><label><input checked name="catalogue-gender" type="radio" value="both"><span>Both</span></label></div>';genderInputs=[...form.querySelectorAll('input[name="catalogue-gender"]')];}
   const selectedGender=()=>genderInputs.find(input=>input.checked)?.value||'both';
   const controlValue=control=>control?String(control.value||''):'';
-  const textParams={q:'query',name:'name',first:'first',last:'last',sibling:'sibling',child:'child',dateType:'dateType',from:'from',to:'to',spouse:'spouse',father:'father',mother:'mother',locationType:'locationType',location:'location',excludeLocation:'excludeDeath',region:'region',cluster:'cluster',recordType:'recordType',quality:'sourceQuality'};
+  const textParams={q:'query',name:'name',first:'first',last:'last',sibling:'sibling',child:'child',dateType:'dateType',from:'from',to:'to',spouse:'spouse',father:'father',mother:'mother',locationType:'locationType',location:'location',excludeLocation:'excludeDeath',region:'region',cluster:'cluster',recordType:'recordType',quality:'sourceQuality',changeRelationship:'changeRelationship',changeAction:'changeAction',changeConfidence:'changeConfidence'};
   const flagParams={exact:'exact',missingFather:'missingFather',missingMother:'missingMother',missingProfile:'missingProfile',needsUpdate:'needsUpdate',descendants:'descendants',wives:'wives',glasgowBirth:'glasgowBirth',suffix:'suffix'};
   // Search filters start expanded on desktop and mobile; visitors can collapse them.
   const normaliseLiteral=value=>String(value||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').replace(/\s+/g,' ').trim();
@@ -48,6 +49,9 @@
   };
   const normaliseDeath=value=>normalise(value).replace(/\bunited states of america\b|\bu s a\b|\busa\b/g,'united states');
   const relationText=relations=>(relations||[]).map(relation=>relation.name||relation.id||'').join(' ');
+  const changeBand=change=>change.confidence_band||change.probability?.band||({proved:'confident',documented:'confident',certain:'confident',confirmed:'confident',strongly_supported:'confident',confident:'confident',dna_confirmed:'confident',probable:'probable',possible:'possible',uncertain:'uncertain',guess:'uncertain'})[String(change.status||change.after||'').toLowerCase().replaceAll('-','_')]||'unrated';
+  const relationshipChanges=person=>!person.needs_wikitree_update?[]:(Array.isArray(person.wikitree_update_relationship_changes)?person.wikitree_update_relationship_changes:[]).map(change=>({...change,action:({upgrade:'regrade',confidence:'regrade'})[change.action]||change.action,relationship:({son:'child',daughter:'child',brother:'sibling',sister:'sibling'})[change.relationship]||change.relationship,confidence_band:changeBand(change)})).filter(c=>['add','replace','regrade'].includes(c.action)&&['father','mother','spouse','child','sibling'].includes(c.relationship));
+  const probabilityText=rating=>rating&&rating.minimum!=null?`${rating.origin==='wikitree'?'Tree ':''}${Math.round(rating.minimum*100)}–${Math.round(rating.maximum*100)}%`:rating?'Unrated':'';
   const esc=value=>String(value==null?'':value).replace(/[&<>"]/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[char]));
   const personUrl=person=>new URL(`${encodeURIComponent(person.id)}.html`,scriptUrl||window.location.href).href;
   const wikiLinks=person=>(person.profile_ids||[]).map(id=>`<a href="https://www.wikitree.com/wiki/${encodeURIComponent(id)}" target="_blank" rel="noopener noreferrer">${esc(id)}</a>`).join(' · ')||'No profile yet';
@@ -70,9 +74,14 @@
       const compact=confidence.key==='confident';
       // The label links to its entry in the evidence guide (/evidence/#state-<key>).
       const guideUrl=`/evidence/#state-${confidence.key.replaceAll('_','-')}`;
-      const confidenceHtml=showConfidence?`<span class="catalogue-relation-status confidence-${confidence.key}" title="${esc(confidence.title)}" > <a class="ev-label-link" href="${guideUrl}">${compact?'<span aria-hidden="true">✓</span><span class="sr-only">'+esc(confidence.label)+'</span>':esc(confidence.label)}</a></span>`:'';
+      const confidenceHtml=showConfidence?`<span class="catalogue-relation-status confidence-${confidence.key}" title="${esc(confidence.title)}" > <a class="ev-label-link" href="${guideUrl}">${compact?'<span aria-hidden="true">✓</span><span class="sr-only">'+esc(confidence.label)+'</span>':esc(confidence.label)}</a>${relation.probability?` <small class="catalogue-probability" title="Assessment band; see the evidence guide">${esc(probabilityText(relation.probability))}</small>`:''}</span>`:'';
       const classes=`catalogue-relation${showConfidence?` catalogue-parent confidence-${confidence.key}`:''}`;
       if(!id) return `<span class="${classes}">${esc(name)} ${confidenceHtml}</span>`;
+      if(id.startsWith('record-')){
+        const href=String(relation.url||'');
+        const shown=href.startsWith('/')&&!href.startsWith('//')?`<a href="${esc(href)}">${esc(name)}</a>`:esc(name);
+        return `<span class="${classes}">${shown} ${confidenceHtml}</span>`;
+      }
       const idLabel=normalise(name)!==normalise(id)?`<small>${esc(id)}</small>`:'';
       return `<span class="${classes}"><a href="https://www.wikitree.com/wiki/${encodeURIComponent(id)}" target="_blank" rel="noopener noreferrer">${esc(name)}</a> ${confidenceHtml}${idLabel}</span>`;
     }).join('');
@@ -266,10 +275,12 @@
       dateType:controls.dateType.value,locationType:controls.locationType.value,
       location:normaliseDeath(controls.location.value),region:normalise(controls.region.value),cluster:normalise(controls.cluster.value),
       recordType:normalise(controls.recordType.value),sourceQuality:normalise(controls.sourceQuality.value),
+      changeRelationship:controlValue(controls.changeRelationship),changeAction:controlValue(controls.changeAction),changeConfidence:controlValue(controls.changeConfidence),
       excluded:String(controls.excludeDeath.value||'').split(/[,;]+/).map(normaliseDeath).map(term=>/^(?:us|america)$/.test(term)?'united states':term).filter(Boolean),from,to
     };
   }
   function matches(person,filters){
+    if((filters.changeRelationship||filters.changeAction||filters.changeConfidence)&&!relationshipChanges(person).some(c=>(!filters.changeRelationship||c.relationship===filters.changeRelationship)&&(!filters.changeAction||c.action===filters.changeAction)&&(!filters.changeConfidence||c.confidence_band===filters.changeConfidence))) return false;
     if(filters.exact){
       if(filters.query.some(term=>!person._identityExactTokens.has(term))) return false;
     }else if(filters.query.some(term=>!person._search.includes(term))) return false;
@@ -360,6 +371,7 @@
     if(key==='recorded') return normalise((person.recorded_in||[]).join(' '));
     if(key==='cluster') return normalise(person.cluster);
     if(key==='profile') return normalise((person.profile_ids||[]).join(' '));
+    if(key==='changeConfidence'||key==='fatherConfidence'){const changes=relationshipChanges(person).filter(c=>key!=='fatherConfidence'||c.relationship==='father');return changes.length?String(Math.max(...changes.map(c=>c.probability?.rank??({confident:4,probable:3,possible:2,uncertain:1,unrated:0})[c.confidence_band]??0))):'';}
     if(key==='significance') return String(Number(person.wikitree_update_significance)||0).padStart(3,'0');
     return '';
   }
@@ -473,7 +485,7 @@
     String(params.get('treeCollapsed')||'').split(',').filter(Boolean).slice(0,40).forEach(id=>collapsedTreePeople.add(id));
   }
   function sortOptions(){
-    const options=[['relevance','Best match'],['significance:desc','Update significance'],['name:asc','Name A–Z'],['birth:asc','Birth: oldest first'],['birth:desc','Birth: newest first'],['death:asc','Death: oldest first'],['death:desc','Death: newest first']];
+    const options=[['relevance','Best match'],['significance:desc','Update significance'],['fatherConfidence:desc','Father changes: highest confidence'],['changeConfidence:desc','Relationship changes: highest confidence'],['changeConfidence:asc','Relationship changes: lowest confidence'],['name:asc','Name A–Z'],['birth:asc','Birth: oldest first'],['birth:desc','Birth: newest first'],['death:asc','Death: oldest first'],['death:desc','Death: newest first']];
     return options.map(([value,label])=>`<option value="${value}"${sortMode===value?' selected':''}>${label}</option>`).join('');
   }
   function familySortOptions(){
@@ -580,23 +592,21 @@
     return `<small class="catalogue-location-repeat" title="${esc(title)}">Also recorded in ${others.length} other ${label}${others.length===1?'':'s'}</small>`;
   }
   function relationshipUpdateTags(person){
-    const changes=Array.isArray(person.wikitree_update_relationship_changes)?person.wikitree_update_relationship_changes:[];
     const tags=new Map();
-    const relationshipLabels={father:'father',mother:'mother',spouse:'spouse',child:'child',son:'child',daughter:'child',sibling:'sibling',brother:'sibling',sister:'sibling'};
-    const uncertainStatuses=new Set(['uncertain','possible','probable','guess']);
-    changes.filter(item=>String(item.action||'').toLowerCase()==='add').forEach(change=>{
-      const relationship=relationshipLabels[String(change.relationship||'').toLowerCase()];
-      if(!relationship) return;
-      const status=String(change.status||'').toLowerCase();
-      const label=`new ${status==='probable'?'probable ':uncertainStatuses.has(status)?'uncertain ':''}${relationship}`;
+    relationshipChanges(person).forEach(change=>{
+      const relationship=change.relationship,band=change.confidence_band;
+      const grade={confident:'confident',probable:'probable',possible:'possible',uncertain:'uncertain',unrated:'unrated'}[band]||'unrated';
+      const label=change.action==='add'?`new ${grade} ${relationship}`:change.action==='replace'?`replacement ${grade} ${relationship}`:`${relationship} now ${grade}`;
       const relative=String(change.relative_id||'');
       const isWikiTree=relative&&!relative.startsWith('record-')&&/^[\p{L}][\p{L}\p{N}_'-]*-\d+$/u.test(relative);
       const account=String(change.relative_wikitree_url||'');
       const href=isWikiTree?`https://www.wikitree.com/wiki/${encodeURIComponent(relative)}`:(/^https:\/\/www\.wikitree\.com\/wiki\/Space:[^\s<>"']+$/.test(account)?account:'');
+      const range=probabilityText(change.probability),text=esc(label)+(range?` <small>${esc(range)}</small>`:'');
+      const attrs=`class="catalogue-relationship-badge change-${esc(band)}" data-change-action="${esc(change.action)}" data-change-confidence="${esc(band)}"`;
       const tag=href
-        ?`<a class="catalogue-relationship-badge" href="${esc(href)}" target="_blank" rel="noopener noreferrer" title="View proposed ${esc(relationship)}: ${esc(relative)}" aria-label="${esc(label)}: ${esc(relative)} on WikiTree">${esc(label)}</a>`
-        :`<span class="catalogue-relationship-badge">${esc(label)}</span>`;
-      tags.set(`${label}:${relative}`,tag);
+        ?`<a ${attrs} href="${esc(href)}" target="_blank" rel="noopener noreferrer" title="View proposed ${esc(relationship)}: ${esc(relative)}${change.scope?' · '+esc(change.scope):''}" aria-label="${esc(label)}: ${esc(relative)} on WikiTree${range?' · '+esc(range):''}">${text}</a>`
+        :`<span ${attrs}${change.scope?` title="${esc(change.scope)}"`:''}>${text}</span>`;
+      tags.set(`${change.action}:${relationship}:${relative}`,tag);
     });
     return [...tags.values()].join(' ');
   }
@@ -1392,6 +1402,7 @@
     if(text(controls.excludeDeath)) add('excludeDeath','places',`Exclude location: ${text(controls.excludeDeath)}`,resetControls('excludeDeath'));
     if(text(controls.cluster)) add('cluster','evidence',`Possible group: ${optionText(controls.cluster)}`,resetControls('cluster'));
     if(text(controls.recordType)) add('recordType','evidence',`Record type: ${optionText(controls.recordType)}`,resetControls('recordType'));
+    for(const [key,label] of [['changeRelationship','Changed relationship'],['changeAction','Relationship change'],['changeConfidence','New confidence']]){if(text(controls[key])) add(key,'wikitree',`${label}: ${optionText(controls[key])}`,resetControls(key));}
     if(text(controls.sourceQuality)) add('sourceQuality','evidence',`Source quality: ${optionText(controls.sourceQuality)}`,resetControls('sourceQuality'));
     flagChips.forEach(([key,panelKey,label])=>{if(controls[key]&&controls[key].checked) add(key,panelKey,label,resetControls(key));});
     return list;

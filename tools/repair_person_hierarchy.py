@@ -898,6 +898,15 @@ def _family_html(profile_id: str, dossier: dict, model: dict, index: dict, edito
             person = _link_text(href, name) if href else escape(name)
             state = relation.get("status") or relation.get("tree_status") or "unassessed"
             label = _role_label(relation, key, state)
+            if key == 'parents':
+                try:
+                    from relationship_probability import probability_for_relationship
+                except ModuleNotFoundError:
+                    from tools.relationship_probability import probability_for_relationship
+                rating = relation.get('probability') or probability_for_relationship(relation)
+                band = (f"{round(rating['minimum'] * 100)}–{round(rating['maximum'] * 100)}%"
+                        if rating['minimum'] is not None else 'Unrated')
+                label += ' · ' + ('Tree grade ' if rating['origin'] == 'wikitree' else '') + band
             if relation.get("display") == "alternative" and state in {"unknown", "unassessed"}:
                 label = evidence_labels.normalise_status_label(state, "Earlier tree proposal; not established")
             if relation.get("display") == "proposed":

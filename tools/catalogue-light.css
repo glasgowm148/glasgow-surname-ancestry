@@ -56,6 +56,21 @@
 .catalogue-update-badge .catalogue-relationship-badge{display:table;margin-top:6px;padding:4px 9px;border-radius:5px;background:#5b2a82;color:#fff!important;font-size:.78rem;font-weight:800;line-height:1.4;letter-spacing:.01em;text-decoration:none}
 a.catalogue-relationship-badge:hover{background:#42205f;text-decoration:underline}
 a.catalogue-relationship-badge:focus-visible{outline:3px solid #5b2a82;outline-offset:3px}
+.catalogue-update-badge .catalogue-relationship-badge.change-confident{background:#175c3a}
+.catalogue-update-badge .catalogue-relationship-badge.change-probable{background:#185a91}
+.catalogue-update-badge .catalogue-relationship-badge.change-possible{background:#663b91}
+.catalogue-update-badge .catalogue-relationship-badge.change-uncertain{background:#f0b323;color:#201b0b!important}
+.catalogue-update-badge .catalogue-relationship-badge.change-unrated{background:#59635f}
+.catalogue-update-badge .catalogue-relationship-badge.change-confident:hover{background:#0f422a}
+.catalogue-update-badge .catalogue-relationship-badge.change-probable:hover{background:#10436d}
+.catalogue-update-badge .catalogue-relationship-badge.change-possible:hover{background:#48276a}
+.catalogue-update-badge .catalogue-relationship-badge.change-uncertain:hover{background:#d49a0d}
+.catalogue-update-badge .catalogue-relationship-badge.change-unrated:hover{background:#3f4945}
+.catalogue-update-badge .catalogue-relationship-badge.change-confident:focus-visible{outline-color:#175c3a}
+.catalogue-update-badge .catalogue-relationship-badge.change-probable:focus-visible{outline-color:#185a91}
+.catalogue-update-badge .catalogue-relationship-badge.change-possible:focus-visible{outline-color:#663b91}
+.catalogue-update-badge .catalogue-relationship-badge.change-uncertain:focus-visible{outline-color:#8a6400}
+.catalogue-update-badge .catalogue-relationship-badge.change-unrated:focus-visible{outline-color:#59635f}
 .profile-update-panel{margin:28px 0;padding:22px;border:1px solid #dfdcd3;border-radius:18px;background:linear-gradient(145deg,#f2f1ed,#eef2f1 72%)}.profile-update-panel h2{margin-top:3px}.profile-update-diff{max-height:42rem;overflow:auto;margin:0;padding:14px;border-top:1px solid var(--line);white-space:pre-wrap;overflow-wrap:anywhere;background:#edf2f1;color:#495551;font:12px/1.45 ui-monospace,SFMono-Regular,Consolas,monospace}.profile-update-diff mark,.profile-update-diff del{display:block;margin:0 -5px;padding:0 5px;text-decoration:none}.profile-update-diff mark{background:#edf3f1;color:#2c725c}.profile-update-diff del{background:#f2eded;color:#752929;text-decoration:line-through}.wikitree-update-preview{margin:28px 0;padding:22px;border:1px solid #d7dbd9;border-radius:18px;background:linear-gradient(145deg,#eef2f1,#eef2f1 72%)}.wikitree-update-preview h2{margin:2px 0}.wikitree-update-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:10px;margin-top:16px}.wikitree-update-grid article{padding:15px;border:1px solid #d6dcda;border-radius:12px;background:#edf2f1}.wikitree-update-grid h3,.wikitree-update-grid p{margin:3px 0}.wikitree-update-grid article>p{margin-top:10px;color:var(--muted);font-size:.82rem}.catalogue-update-badge{display:block;margin-top:6px;color:#765225;font-size:.68rem;font-weight:850}
 @media(max-width:650px){.profile-workbench{padding:14px}.profile-match-card{align-items:flex-start;flex-direction:column}.profile-match-actions{justify-content:flex-start;width:100%}.profile-match-card .button{width:auto}.profile-link-panel .actions{display:grid}.profile-link-panel .button{width:100%}}
 @media(max-width:440px){.subject-naming-sequence>div{grid-template-columns:1fr}.page-disclosure>summary{padding:9px 11px}.disclosure-body{padding:12px}.relation-chip{font-size:.72rem}}
@@ -328,3 +343,5 @@ html.catalogue-sheet-open{overflow:hidden}
 .catalogue-results.search-results{grid-template-columns:minmax(0,1fr)}
 /* Contain absolutely positioned accessibility text within the scrolling table. */
 .catalogue-result-table-wrap{position:relative}
+
+.catalogue-relationship-badge small{font:inherit;white-space:nowrap}.catalogue-probability{display:inline-block;font-size:.72rem;font-weight:700;white-space:nowrap}
