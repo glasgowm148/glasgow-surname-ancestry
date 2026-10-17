@@ -3,12 +3,53 @@ import json
 import tempfile
 from pathlib import Path
 from bs4 import BeautifulSoup
-from tools.build_research_queue import collect, render, apply_match_reviews, profile_href, consolidate_record_reviews
+from tools.build_research_queue import collect, render, apply_match_reviews, profile_href, consolidate_record_reviews, apply_batch_progress
 
 ROOT = Path(__file__).resolve().parents[1]
 
 
 class ResearchQueueTests(unittest.TestCase):
+    def test_progress_counts_frozen_items_without_finishing_amendments(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            batch = root / 'research/batch'
+            batch.mkdir(parents=True)
+            (root / 'research/research-queue-matches.json').write_text(json.dumps(
+                dict(current_batch='research/batch/baseline.json')))
+            baseline = [dict(id='group', members=[dict(id='record'), dict(id='draft')]),
+                        dict(id='amendment'), dict(id='unreviewed')]
+            (batch / 'baseline.json').write_text(json.dumps(dict(rows=baseline)))
+            (batch / 'progress.json').write_text(json.dumps(dict(reviewed_on='2026-10-17', baseline_results={
+                'group': dict(disposition='existing_profile'),
+                'amendment': dict(disposition='existing_profile')})))
+            rows = [dict(id='regrouped', kind='Profile identity', status='On hold',
+                         members=[dict(id='record'), dict(id='draft')],
+                         match_review=dict(status='compatible_candidate')),
+                    dict(id='amendment', kind='WikiTree amendment', status='Pending update'),
+                    dict(id='unreviewed', kind='Profile identity', status='On hold')]
+            progress = apply_batch_progress(rows, root)
+            self.assertEqual((2, 1, 66.7), (progress['reviewed_items'], progress['remaining_items'], progress['percent_complete']))
+            self.assertEqual('Compatible profile linked', rows[0]['status'])
+            self.assertEqual('On hold', rows[0]['research_status'])
+            self.assertTrue(rows[1]['identity_review']['complete'])
+            self.assertEqual('Pending update', rows[1]['status'])
+            self.assertFalse(rows[2]['identity_review']['complete'])
+            # A stray result must never lower the remaining baseline count.
+            (batch / 'progress.json').write_text(json.dumps(dict(reviewed_on='2026-10-17', baseline_results={
+                'outside-baseline': dict(disposition='existing_profile')})))
+            with self.assertRaises(ValueError):
+                apply_batch_progress(rows, root)
+
+    def test_render_exposes_review_progress_and_filter(self):
+        row = dict(id='test', name='Jane', kind='Profile identity', status='On hold',
+                   assessment='Compatible profile remains tentative.', url='/research/test/', profiles=[], sources=[],
+                   identity_review=dict(complete=True))
+        soup = BeautifulSoup(render([row], dict(reviewed_items=1, baseline_items=2,
+                                             percent_complete=50.0, remaining_items=1)), 'html.parser')
+        self.assertIn('1 records need identity review', soup.select_one('#rq-progress').text)
+        self.assertEqual('complete', soup.select_one('tbody tr')['data-reviewed'])
+        self.assertEqual(['', 'pending', 'complete'], [o['value'] for o in soup.select('#rq-review option')])
+
     def test_consolidation_retains_people_and_separates_distinct_events(self):
         def row(ident, person, keys, profile):
             return dict(id=ident, name=person, kind='Profile identity', status='On hold',
