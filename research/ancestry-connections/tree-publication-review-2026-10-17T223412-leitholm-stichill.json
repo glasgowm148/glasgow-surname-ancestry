@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "reviewed": "2026-10-17",
+  "cutoff": 1850,
+  "method_version": 3,
+  "input_fingerprint": "02a94aa9f3323cb2b0f67b120bd430ec05a0cc30227c7a21d53ce98b3105ea13",
+  "scope": "Leitholm and Stichill working family",
+  "next_metric_check": {
+    "status": "CLOSED",
+    "saved_confident_tree_flags_not_used_by_current_metric": 0
+  },
+  "models": {
+    "main": {
+      "checked_historical_profiles": 1786,
+      "all_profiles_checked": 4533,
+      "matched_paternal_edges": 1372,
+      "changed_father_fields": 1,
+      "changed_mother_fields": 0,
+      "added_historical_profiles": [],
+      "all_other_parent_ids_grades_probabilities_preserved": true,
+      "all_existing_reciprocal_children_preserved": true
+    },
+    "standalone": {
+      "checked_historical_profiles": 1786,
+      "all_profiles_checked": 4685,
+      "matched_paternal_edges": 1372,
+      "changed_father_fields": 1,
+      "changed_mother_fields": 0,
+      "added_historical_profiles": [],
+      "all_other_parent_ids_grades_probabilities_preserved": true,
+      "all_existing_reciprocal_children_preserved": true
+    }
+  },
+  "genealogical_connections_added": 1,
+  "paternal_connections_added": 1,
+  "maternal_connections_added": 0,
+  "certainty_upgrades": 0,
+  "publication_summary": "One new possible father at 34% connects Robert of Leitholm with James of Stichill. Every existing parent grade, percentage and vital field is preserved; supported and confident connectivity are unchanged.",
+  "comparison": "/people/glasgow-3706.html#research-findings",
+  "verification": {
+    "full_and_compact_pending_filters_agree": true,
+    "packed_main_model_lossless": true,
+    "captured_fields_changed": false,
+    "source_scope": "Two derivative index tables inspected; original registers uninspected."
+  }
+}

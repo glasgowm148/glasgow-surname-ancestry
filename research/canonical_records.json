@@ -4825,5 +4825,43 @@
         "status": "reported"
       }
     }
+  },
+  {
+    "record_id": "leitholm-marriage-1779",
+    "record_type": "marriage index",
+    "date": "4 April 1779",
+    "year": 1779,
+    "place": "Eccles, Berwickshire, Scotland",
+    "source_title": "FamilySearch, Scotland Marriages, Robert Glasgow and Agnes Whitehead, 4 April 1779, Eccles; indexed information inspected 17 October 2026; no image available",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:XTL4-YMH",
+    "status": "Derivative indexed information inspected 17 October 2026; original image not inspected",
+    "note": "Names Robert Glasgow and Agnes Whitehead; no age or parents; no image available.",
+    "profiles": {
+      "Glasgow-3706": {
+        "role": "Groom"
+      },
+      "Whitehead-9630": {
+        "role": "Bride"
+      }
+    }
+  },
+  {
+    "record_id": "leitholm-james-baptism-1779",
+    "record_type": "baptism index",
+    "date": "30 December 1779",
+    "year": 1779,
+    "place": "Eccles, Berwickshire, Scotland",
+    "source_title": "FamilySearch, Scotland Births and Baptisms, James Glasgow, christened 30 December 1779, Eccles; names Robert Glasgow and Agnes Whitehead; indexed information inspected 17 October 2026",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:CMH4-ZLMM",
+    "status": "Derivative indexed information inspected 17 October 2026; original image not inspected",
+    "note": "James is the christened child; Robert and Agnes are parents. Birth field only 12; not a complete birthday. This record does not identify Robert’s father.",
+    "profiles": {
+      "Glasgow-3706": {
+        "role": "Named father"
+      },
+      "Whitehead-9630": {
+        "role": "Named mother"
+      }
+    }
   }
 ]

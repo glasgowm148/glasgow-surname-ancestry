@@ -1,0 +1,33 @@
+# Whitehead-9630
+
+
+## Current conclusion
+
+Reviewed 17 October 2026. The inspected FamilySearch marriage index names Robert Glasgow and Agnes Whitehead at Eccles on 4 April 1779. A separately inspected baptism index names them as parents of James Glasgow, christened at Eccles on 30 December 1779. Its birth field contains only “12”, which is not a complete birthday. The source supports an earlier James child; John, born in 1786 in the captured family account, is not the first known son. The index pages are derivative records; no original register image was inspected.
+
+Robert’s possible father James Glasgow-1238 is assessed at 34%. That hypothesis concerns Robert’s ancestry, not Agnes’s parents or birth. Her captured 30 March 1756 Muthill birth remains a profile claim; the inspected marriage index gives no age or parents.
+
+This is a preferred, revisable hypothesis, with 34% subjective confidence, not a measured probability or a confident connection. Robert’s 1745 birth and 8 August 1800 death each have zero attached sources on the inspected FamilySearch tree. Neither date establishes an age or place of birth. The local 1745 estimate is retained unchanged. FamilySearch attaches John Glasgow (1720–1785, GFNP-FS8) and Agnes Spark (1722–deceased, K8CD-HCW) as parents; retain that alternative without treating a contributed tree as documentary proof. The evidential basis of that parent attachment has not yet been reviewed. Do not equate that John with the much older John Glasgow-1057, husband of Agnes Spark-330, from the matching names alone. James’s brother John Glasgow-1444, christened at Stichill in 1708, is another compatible local father-generation alternative with no presently inspected Robert link. An unrecorded local father or another kinship degree remains possible. The Swinton/1740 couple continuity and Robert’s own early life need testing. Elizabeth Tait is not selected as Robert’s mother: her marriage and maternity of other children do not identify his mother. Robert is not merged with an earlier child, and James’s existing older ancestry retains its own uncertainty.
+
+## Leitholm source review — 17 October 2026
+
+[FamilySearch, Scotland Marriages, Robert Glasgow and Agnes Whitehead, 4 April 1779, Eccles; indexed information inspected 17 October 2026; no image available](https://www.familysearch.org/ark:/61903/1:1:XTL4-YMH)
+
+[FamilySearch, Scotland Births and Baptisms, James Glasgow, christened 30 December 1779, Eccles; names Robert Glasgow and Agnes Whitehead; indexed information inspected 17 October 2026](https://www.familysearch.org/ark:/61903/1:1:CMH4-ZLMM)
+
+[FamilySearch, Scotland Marriages, James Glasgow and Elizabath Tait, 25 January 1740, Stichill; maintained citation reused, not newly inspected](https://www.familysearch.org/ark:/61903/1:1:XYQ1-SPB)
+
+[FamilySearch, Daved Glasgou, 6 June 1744, Stichill; maintained parent citation reused, not newly inspected](https://www.familysearch.org/ark:/61903/1:1:FMMQ-472)
+
+[FamilySearch, James Glasgoue, 27 July 1746, Stichill; maintained parent citation reused, not newly inspected](https://www.familysearch.org/ark:/61903/1:1:FMM7-R58)
+
+[FamilySearch, William Glasgow, 4 August 1765, Swinton; maintained James Glasgow/Elizabeth Tait parent citation reused; same-couple continuity remains to be checked](https://www.familysearch.org/ark:/61903/1:1:XTBH-LM1)
+
+[FamilySearch contributed tree, Robert Glasgow PXN5-966; 1745 birth and 1800 death each have zero attached sources; John Glasgow and Agnes Spark are contributed parents, not a parent clause in an inspected record](https://www.familysearch.org/en/tree/person/details/PXN5-966)
+
+[A. Abel, Information exchange, list 4P; reports the 1779 couple and Robert as joiner and feuar at Leitholm; derivative research lead, underlying occupation evidence uninspected](https://www.ancestor.abel.co.uk/list4.html)
+
+## Next questions — Leitholm
+
+Inspect Robert’s 1779 marriage and children’s original Eccles entries for residence, occupation and witnesses, then check Leitholm feu/tenancy and joiner apprenticeship records for a named father or master. Test the contributed John/Agnes Spark account against actual records before identifying it with any local person. Recheck the 1765 Swinton household independently. James Glasgow-1222 (1777 Kelso, attributed to David Glasgow and Janet Hood) is a nearby child-name comparison for the 1779 James, not a selected identity; retain both record accounts unless a record resolves the different parents.
+

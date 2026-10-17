@@ -963,8 +963,8 @@
     },
     "Glasgow-1238": {
       "draft_path": "research/Glasgow-1238/queue-review-2026-10-17.wiki",
-      "summary": "Add the cited record account: Possible James Glasgow, Edinburgh Castle clergy, 1737–1738. Retain the stated identity and relationship limits.",
-      "work_queue_summary": "Add the cited record account: Possible James Glasgow, Edinburgh Castle clergy, 1737–1738. Retain the stated identity and relationship limits.",
+      "summary": "Add the possible Leitholm son Robert (34%) and preserve the sourced Stichill family. The superseded Castle clergy comparison belongs to Glasgow-1140.",
+      "work_queue_summary": "Add the possible Leitholm son Robert (34%) and preserve the sourced Stichill family. The superseded Castle clergy comparison belongs to Glasgow-1140.",
       "queued_at": "2026-10-17",
       "status": "OPEN",
       "pending": true,
@@ -973,7 +973,12 @@
         "subject-newspapers-early-glasgow-james-glasgow-edinburgh-castle-1737-1738"
       ],
       "private_comparison": false,
-      "prior_work_summary": ""
+      "prior_work_summary": "",
+      "significance": 54,
+      "manual_update": true,
+      "preservation_review_path": "research/ancestry-connections/leitholm-stichill-working-family-preservation-2026-10-17.json",
+      "reviewed_narrative_reduction": true,
+      "preserve_captured_detail": false
     },
     "Glasgow-1309": {
       "draft_path": "research/Glasgow-1309/queue-review-2026-10-17.wiki",
@@ -4811,6 +4816,44 @@
       "significance": 54,
       "private_comparison": false,
       "summary": "Correct the scope of the cited FamilySearch entry; preserve current family attachments and certainty flags. The 1611 submitted family names Christina Bie, while the 1614 index names no mother."
+    },
+    "Glasgow-3706": {
+      "draft_path": "research/Glasgow-3706/queue-review-2026-10-17.wiki",
+      "summary": "Add the 1779 Eccles marriage and earlier child; suggest James Glasgow-1238 as possible father (34%), retaining John/Agnes Spark and other alternatives.",
+      "work_queue_summary": "Add the 1779 Eccles marriage and earlier child; suggest James Glasgow-1238 as possible father (34%), retaining John/Agnes Spark and other alternatives.",
+      "status": "OPEN",
+      "pending": true,
+      "queued_at": "2026-10-17",
+      "significance": 72,
+      "manual_update": true,
+      "findings_path": "research/Glasgow-3706/findings.md",
+      "preservation_review_path": "research/ancestry-connections/leitholm-stichill-working-family-preservation-2026-10-17.json",
+      "reviewed_narrative_reduction": true,
+      "preserve_captured_detail": false,
+      "relationship_changes": [
+        {
+          "action": "add",
+          "relationship": "father",
+          "relative_id": "Glasgow-1238",
+          "status": "possible",
+          "assertion_id": "C-working-20261017-leitholm-robert-james",
+          "scope": "Subjective 34%; local family, chronology and earlier James child; no named father record."
+        }
+      ]
+    },
+    "Whitehead-9630": {
+      "draft_path": "research/Whitehead-9630/queue-review-2026-10-17.wiki",
+      "summary": "Add the checked 4 April 1779 Eccles marriage and 1779 child citation; distinguish profile birth claims from the record.",
+      "work_queue_summary": "Add the checked 4 April 1779 Eccles marriage and 1779 child citation; distinguish profile birth claims from the record.",
+      "status": "OPEN",
+      "pending": true,
+      "queued_at": "2026-10-17",
+      "significance": 54,
+      "manual_update": true,
+      "findings_path": "research/Whitehead-9630/findings.md",
+      "preservation_review_path": "research/ancestry-connections/leitholm-stichill-working-family-preservation-2026-10-17.json",
+      "reviewed_narrative_reduction": true,
+      "preserve_captured_detail": false
     }
   },
   "reviewed_on": "2026-10-17",

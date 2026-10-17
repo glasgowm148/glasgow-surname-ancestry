@@ -2307,3 +2307,10 @@ Burial-defined Walter remains on source-verification HOLD in the existing creati
 | [Cathrin Glasgow](https://www.wikitree.com/wiki/Glasgow-3321) | OPEN | Correct the submitted IGI family’s mother name to Christina Bie and distinguish its christening claim from an original record; preserve parent fields and uncertainty. |
 | [William Glasgow](https://www.wikitree.com/wiki/Glasgow-3517) | OPEN | Explain that the 1614 provider index names father James but no mother; preserve current attachments and saved grades. |
 | [James Glasgow](https://www.wikitree.com/wiki/Glasgow-991) | OPEN | Reconcile the preferred Mureistoun father and Fisherrow family arguments; remove the unverified claim of a named mother in William’s index. |
+
+
+## Leitholm and Stichill — 17 October 2026
+
+| [Robert Glasgow of Leitholm](https://www.wikitree.com/wiki/Glasgow-3706) | OPEN | Add the 1779 Eccles marriage and earlier child; suggest James Glasgow-1238 as possible father (34%), retaining John/Agnes Spark and other alternatives. |
+| [James Glasgow of Stichill](https://www.wikitree.com/wiki/Glasgow-1238) | OPEN | Add the possible Leitholm son Robert (34%) and preserve the sourced Stichill family. The superseded Castle clergy comparison belongs to Glasgow-1140. |
+| [Agnes Whitehead](https://www.wikitree.com/wiki/Whitehead-9630) | OPEN | Add the checked 4 April 1779 Eccles marriage and 1779 child citation; distinguish profile birth claims from the record. |

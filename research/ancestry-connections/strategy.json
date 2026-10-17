@@ -3915,6 +3915,79 @@
         "C-working-20261017-leithford-walter-william1087-father"
       ],
       "metric_note": "One existing burial-defined account joins the paternal tree conditionally; no new distinct person, mother, merge or confident father is asserted."
+    },
+    {
+      "id": "leitholm-stichill-working-family",
+      "year": 1745,
+      "title": "Leitholm to Stichill: possible father at 34%",
+      "status": "Selected possible father; record names no father for Robert",
+      "people": [
+        {
+          "name": "Robert Glasgow of Leitholm",
+          "url": "/people/glasgow-3706.html"
+        },
+        {
+          "name": "James Glasgow of Stichill",
+          "url": "/people/glasgow-1238.html"
+        },
+        {
+          "name": "Agnes Whitehead",
+          "url": "/people/whitehead-9630.html"
+        }
+      ],
+      "basis": "Select James Glasgow (Glasgow-1238), the father recorded with Elizabath/Elizabeth Tait at Stichill, as Robert Glasgow’s possible working father, at 34%. The couple’s maintained marriage citation is dated 25 January 1740; their David and James children are indexed in June 1744 and July 1746. Robert’s estimated 1745 birth fits that family generation and could fall between those events; it is not a dated baptism. Stichill and Eccles/Leitholm belong to the same small Borders district, and the later Swinton entry attributed to the James/Tait couple offers a further local comparison. Robert’s earlier son James supplies a modest naming clue consistent with this father; a common forename cannot establish paternity. The combination favours this existing, record-defined family over the catalogue’s distant Kirknewton candidates, whose apparent proximity came from mapping Leitholm to South Leith. No inspected record names Robert as James’s son.",
+      "next_test": "Inspect Robert’s 1779 marriage and children’s original Eccles entries for residence, occupation and witnesses, then check Leitholm feu/tenancy and joiner apprenticeship records for a named father or master. Test the contributed John/Agnes Spark account against actual records before identifying it with any local person. Recheck the 1765 Swinton household independently. James Glasgow-1222 (1777 Kelso, attributed to David Glasgow and Janet Hood) is a nearby child-name comparison for the 1779 James, not a selected identity; retain both record accounts unless a record resolves the different parents.",
+      "record_references": [
+        "FamilySearch, Scotland Marriages, Robert Glasgow and Agnes Whitehead, 4 April 1779, Eccles; indexed information inspected 17 October 2026; no image available",
+        "FamilySearch, Scotland Births and Baptisms, James Glasgow, christened 30 December 1779, Eccles; names Robert Glasgow and Agnes Whitehead; indexed information inspected 17 October 2026",
+        "FamilySearch, Scotland Marriages, James Glasgow and Elizabath Tait, 25 January 1740, Stichill; maintained citation reused, not newly inspected",
+        "FamilySearch, Daved Glasgou, 6 June 1744, Stichill; maintained parent citation reused, not newly inspected",
+        "FamilySearch, James Glasgoue, 27 July 1746, Stichill; maintained parent citation reused, not newly inspected",
+        "FamilySearch, William Glasgow, 4 August 1765, Swinton; maintained James Glasgow/Elizabeth Tait parent citation reused; same-couple continuity remains to be checked",
+        "FamilySearch contributed tree, Robert Glasgow PXN5-966; 1745 birth and 1800 death each have zero attached sources; John Glasgow and Agnes Spark are contributed parents, not a parent clause in an inspected record",
+        "A. Abel, Information exchange, list 4P; reports the 1779 couple and Robert as joiner and feuar at Leitholm; derivative research lead, underlying occupation evidence uninspected"
+      ],
+      "sources": [
+        {
+          "label": "FamilySearch, Scotland Marriages, Robert Glasgow and Agnes Whitehead, 4 April 1779, Eccles; indexed information inspected 17 October 2026; no image available",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:XTL4-YMH"
+        },
+        {
+          "label": "FamilySearch, Scotland Births and Baptisms, James Glasgow, christened 30 December 1779, Eccles; names Robert Glasgow and Agnes Whitehead; indexed information inspected 17 October 2026",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:CMH4-ZLMM"
+        },
+        {
+          "label": "FamilySearch, Scotland Marriages, James Glasgow and Elizabath Tait, 25 January 1740, Stichill; maintained citation reused, not newly inspected",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:XYQ1-SPB"
+        },
+        {
+          "label": "FamilySearch, Daved Glasgou, 6 June 1744, Stichill; maintained parent citation reused, not newly inspected",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:FMMQ-472"
+        },
+        {
+          "label": "FamilySearch, James Glasgoue, 27 July 1746, Stichill; maintained parent citation reused, not newly inspected",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:FMM7-R58"
+        },
+        {
+          "label": "FamilySearch, William Glasgow, 4 August 1765, Swinton; maintained James Glasgow/Elizabeth Tait parent citation reused; same-couple continuity remains to be checked",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:XTBH-LM1"
+        },
+        {
+          "label": "FamilySearch contributed tree, Robert Glasgow PXN5-966; 1745 birth and 1800 death each have zero attached sources; John Glasgow and Agnes Spark are contributed parents, not a parent clause in an inspected record",
+          "url": "https://www.familysearch.org/en/tree/person/details/PXN5-966"
+        },
+        {
+          "label": "A. Abel, Information exchange, list 4P; reports the 1779 couple and Robert as joiner and feuar at Leitholm; derivative research lead, underlying occupation evidence uninspected",
+          "url": "https://www.ancestor.abel.co.uk/list4.html"
+        }
+      ],
+      "working_selection": true,
+      "assertion_ids": [
+        "C-working-20261017-leitholm-robert-james"
+      ],
+      "counted_as_new_connection": true,
+      "reviewed": "2026-10-17",
+      "certainty_upgrades": 0
     }
   ],
   "source_basis": "Initial priorities reconcile existing medieval bridge research, the pre-1550 relationship audit and the resolved public catalogue. They are current working comparisons, not newly discovered kinship records."
