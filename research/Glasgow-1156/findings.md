@@ -8,6 +8,8 @@ Last updated: 2026-10-17
 
 Reviewed: 2026-10-17
 
+**Probability review, 17 October 2026:** retain **28%** for identity with Robert Glasgow-4006 and for Andrew Glasgow-3163's fatherhood of this Duddingston Robert through that identity; retain **86%** for this Robert's probable fatherhood of James Glasgow-1150. Andrew's documented fatherhood of the testament-defined Robert-4006 remains **99%**. These exact subjective estimates describe different propositions, not independent corroboration. The accepted testament, apprenticeship, burgess cross-reference and burial evidence below support the existing assessments; this review adds no source, confidence upgrade, merge or live edit.
+
 **Duddingston family review, 17 October 2026:** Robert Glasgow-1156 is now the **probable father** of the Edinburgh weaver James Glasgow-1150, on the combined apprenticeship, burgess and burial evidence. The existing live father flag remains uncertain; Robert’s ancestry and James’s mother are assessed separately. [Evidence and alternatives](/branches/early-scottish-records/#duddingston-probable-father).
 
 WikiTree parent-status audit, 27 September 2026: the attached mother Isobell Newlands (Newlands-647) is now marked uncertain. No direct parentage record has been found for Robert.
@@ -30,7 +32,7 @@ no merge, parent change or live WikiTree edit.
 
 Robert is now the **probable father** of [[Glasgow-1150|James Glasgow]], inferred from the Duddingston burial and 1641 apprenticeship, whose son is securely identified as the Edinburgh weaver by the exact 1649 burgess cross-reference. Another local Robert remains possible; a unique identifier is not required to prefer this coherent local family. The record-defined father is direct, and his identification with this burial account remains probable rather than documented.
 
-The current father [[Glasgow-1097|Archibald Glasgow]] is unsupported. No record
+The captured live father [[Glasgow-1097|Archibald Glasgow]], now an unselected local alternative, is unsupported. No record
 names Robert as his son. Archibald is recorded alive in 1560; the later
 survival boundary formerly shown on his profile was only a chronology
 adjustment made to accommodate this uncertain attachment, not a death or
@@ -71,10 +73,18 @@ separately reviewed merge.
 
 ## WikiTree handoff
 
-Use the complete replacement in `Glasgow-1156.md`. Do not attach Andrew: the
-current evidence does not identify this Duddingston Robert as Andrew's son.
+Use the complete replacement in `Glasgow-1156.md`. Andrew is the selected uncertain local father at **28%**, conditional on this man's identity with Robert-4006; Archibald remains an alternative. Preserve the separate Robert profiles and the distinction between the local working selection and the captured live parents. Robert's probable fatherhood of James remains **86%**; the testament-defined son's documented fatherhood remains **99%**. This reconciliation is not a new confidence upgrade or a live WikiTree save.
 
-Edit summary: `Add Andrew of Corsoun son candidate and Duddingston evidence limits.`
+Edit summary: `Clarify selected uncertain Corsoun identity and separate father assessments.`
+
+### Previous handoff — superseded 17 October 2026
+
+The earlier instruction is retained as assessment history, not the current local selection:
+
+> Use the complete replacement in `Glasgow-1156.md`. Do not attach Andrew: the
+> current evidence does not identify this Duddingston Robert as Andrew's son.
+
+Previous edit summary: `Add Andrew of Corsoun son candidate and Duddingston evidence limits.`
 
 
 ## Duddingston father assessment — 17 October 2026

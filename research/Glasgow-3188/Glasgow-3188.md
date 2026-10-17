@@ -1,8 +1,7 @@
-[[Category:Glasgow Name Study]]
 {{Estimated Date}}
+[[Category:Glasgow Name Study]]
 
 == Biography ==
-
 '''Ninian Glasgow''' was a fisher and burgess of Glasgow. On 23 October 1596
 he was admitted burgess and freeman as the second son of [[Glasgow-1096|Robert
 Glasgow]], fisher and burgess.<ref name="Burgess1596">James R. Anderson, ed.,
@@ -13,32 +12,226 @@ mariners and fishers.<ref>George Crawfurd, ''A Sketch of the Rise and Progress
 of the Trades' House of Glasgow'' (1858), pp. 49, 56–57.</ref>
 
 Ninian's earlier wife was [[Meik-14|Jonet Meik]]. Her 1607 testament names
-Ninian as her spouse and [[Glasgow-1027|Robert Glasgow]] as her son.<ref
-name="Meik1607">National Records of Scotland, Glasgow Commissary Court,
+Ninian as her spouse and [[Glasgow-1027|Robert Glasgow]] as her son.<ref name="Meik1607">National Records of Scotland, Glasgow Commissary Court,
 CC9/7/5, images 82–83, testament of Jonet Meik.</ref> Ninian's own testament
 again calls Robert his son, proving Robert's parentage by the two records.
 
-By 10 January 1613 Ninian's spouse was [[Hutcheson-1774|Jonet Hutchesoun]]. He
+By January 1613 Ninian's spouse was [[Hutcheson-1774|Jonet Hutchesoun]]. He
 appointed Jonet and Robert executors. The testament also names John Glasgow as
 his brother and leaves ten merks to [[Glasgow-3062|Marioun Glasgow]], expressly
 calling her his sister.<ref name="Ninian1613">National Records of Scotland,
 Glasgow Commissary Court, CC9/7/9, images 142–145, testament testamentar and
-inventory of Ninian Glasgow, made 10 January 1613 and confirmed 8 May 1613.
+inventory of Ninian Glasgow, made in January 1613 (day unresolved) and confirmed 8 May 1613.
 Working transcription of the original images supplied 6 September 2026.</ref>
 
 Ninian died in January 1613. His testament was confirmed on 8 May; that later
 date is not his death date.<ref name="Ninian1613" />
 
+===  Identity, trade and civic status  ===
+
+'''Niniane Glasgw''' was a '''fyscher''' and '''burges of Glasgw''' — a fisher and burgess of Glasgow.<ref name="Ninian1613" />
+
+The occupation was formerly misread as '''flescher''', meaning butcher. That reading should be withdrawn. The manuscript word is '''fyscher'''. An independent burgess list also places '''Niniane Glasgow''' under the heading '''Marinellis and Fischeris''', meaning mariners and fishers.<ref name="Burgess1605">George Crawfurd, ''A Sketch of the Rise and Progress of the Trades' House of Glasgow: Its Constitution, Funds, and Bye-laws'' (Glasgow: Bell & Bain, 1858), pp. 49 and 56–57, reproducing the burgess roll associated with the reorganisation of 14 February 1605; Niniane Glasgow appears under “Marinellis and Fischeris”.</ref>
+
+The 1605 list shows that he was already a burgess and associated with the fishing or maritime trade by that date. It does not necessarily give the date on which he was first admitted as a burgess.
+
+James R. Anderson, ed., ''Burgesses & Guild Brethren of Glasgow, 1573-1750'' (1925), [https://archive.org/details/scottishrecordso43scotuoft/page/24/mode/2up p. 24], 23 October 1596 | The roll admits "Glasgow, Ninian, B. and F., as second son to Robert G., fisher, burgess." | Direct father-son evidence; also establishes Ninian's birth order, civic status and his father's occupation/status.
+
+===  Chronology  ===
+
+* '''1605''' — Niniane Glasgow appears in the burgess roll under mariners and fishers.<ref name="Burgess1605" />
+* '''By 1607''' — he was the husband of Jonet Meik and the father of Robert Glasgow. Jonet's testament was indexed or recorded on 27 August 1607.<ref name="Jonet1607">National Records of Scotland, Glasgow Commissary Court, CC9/7/5, Images 82–83, testament testamentar and inventory of Jonet Meik, spouse to Niniane Glasgw.</ref><ref name="SRSIndex">Francis J. Grant, ed., ''The Commissariot Record of Glasgow: Register of Testaments, 1547–1800'', Scottish Record Society, old series vol. 7 (Edinburgh, 1901), entries under Glasgow, Ninian, and Meik, Jonet.</ref>
+* '''January 1613, day unresolved''' — Niniane made his own testament at Glasgow. The former 10 January reading is not confirmed by the reviewed manuscript.<ref name="Ninian1613" />
+* '''January 1613''' — he died during that month; the exact day is not stated.<ref name="Ninian1613" />
+* '''8 May 1613''' — his testament was indexed or recorded under that date.<ref name="SRSIndex" />
+
+The 8 May date is not his date of death.
+
+===  Earlier known wife: Jonet Meik  ===
+
+The earlier wife was '''Jonet Meik'''. Her surname is written '''Meik''' in the manuscript and in the printed testament index. The database form '''Melk''' is a later transcription or OCR error and should not be used as her surname.<ref name="Jonet1607" /><ref name="SRSIndex" />
+
+Jonet's testament describes her as:
+
+:'''Jonet meik spous to Niniane glasgw burges of glasgw'''
+
+The executor or giving-up clause names:
+
+:'''Niniane glasgw hir spous and Robert glasgw hir sone'''
+
+A later legacy or residue clause again calls Robert:
+
+:'''Robert glasgw hir sone'''
+
+Robert is therefore directly identified as Jonet's son in two places. Niniane's 1613 testament independently calls Robert his son. This establishes Robert as the son of both Niniane Glasgow and Jonet Meik, rather than merely a probable relative.
+
+An earlier working reading gave a legacy to:
+
+:'''Johne meik hir brother'''
+
+The possible Meik sibling clause remains unresolved in the subsequent selective reread; the quoted expansion is provisional, not independently confirmed brotherhood.
+
+A '''Marion Glasgow''' is named as a legatee in Jonet's testament, apparently receiving an article of clothing, but the clerk does not call Marion her daughter. Other Glasgow recipients may occur in the legacy list, but their forenames or relationships are not sufficiently clear to establish additional children.
+
+Jonet was dead before her testament was recorded on 27 August 1607. Her death clause appears to refer to February, but the precise year numeral is not treated as settled here.
+
+===  Later wife: Jonet Hutchesoun  ===
+
+Niniane had remarried by January 1613; the exact will day remains unresolved. His later wife was another woman named '''Jonet'''. Her surname appears twice in his testament: once in the nomination of executors and again in the confirmation clause.
+
+The best palaeographic reading is '''Hutchesoun''', possibly '''Huchesoun'''. The middle of the word contains a crossed '''t''' followed by a '''ch'''-type group. The earlier working reading '''Herbessoun''' was closer than '''Smythesoun''', but does not fit the repeated letter pattern as well. '''Smythesoun''' should be withdrawn.
+
+In a cautious semi-diplomatic transcription the name should be shown as:
+
+:'''Jonet ⟦Hutchesoun?⟧'''
+
+Jonet Hutchesoun and Robert Glasgow were appointed executors and intromitters with Niniane's movable estate.<ref name="Ninian1613" />
+
+No surviving clause states that Jonet Hutchesoun was the mother of Robert or William. Robert's mother is independently proved to have been Jonet Meik. William's mother is not established by either testament.
+
+The 1605 fisher list also contains a man printed as '''Niniane Hutchisonne''' immediately beside Niniane Glasgow.<ref name="Burgess1605" /> This makes Hutchesoun a locally and occupationally plausible surname, but it does not prove that the listed man was related to Niniane's later wife.
+
+
+
+An earlier family comparison described [[Glasgow-3181|John Glasgow (abt.1540-1576)]], husband of [[Hutcheson-1656|Margaret (Hutcheson) Glasgow (1550-)]], as Ninian’s assumed brother, and [[Glasgow-3522|William Glasgow (abt.1525-bef.1586)]], husband of [[Herbison-439|Margaret (Herbison) Glasgow (abt.1540-)]], as a presumed uncle. These are retained historical comparisons, not established kinship: the John who died before 1613 cannot ordinarily be the living brother receiving Ninian’s legacy; Glasgow-1030 is the current brother identity comparison. Margaret’s father, Sir William Herbesoun, was a Roman priest with close ties to the Hutcheson family through his sister [[Herbertson-132|Helen Herbertson]], who married [[Hutcheson-1647|Thomas Hutcheson of Lambhill]]. This connection made Margaret Herbison likely a cousin of [[Hutcheson-1648|George Hutcheson]] and [[Hutcheson-1649|Thomas Hutcheson Jr.]].
+
+===  Evidence that the records concern the same Niniane Glasgow  ===
+
+The 1607 and 1613 testamentary records should be treated as referring to the same man.
+
+The identification rests on a combined evidence set:
+
+# Both records name '''Niniane Glasgow''' in Glasgow.
+# The 1607 record calls him a '''burgess of Glasgow'''.
+# The 1605 roll lists a Niniane Glasgow among Glasgow's mariners and fishers.
+# The 1613 record calls him a '''fisher and burgess of Glasgow'''.
+# The 1607 testament calls '''Robert Glasgow''' the son of Jonet Meik.
+# The 1613 testament calls '''Robert Glasgow''' the son of Niniane Glasgow.
+# The records fall only six years apart and form a coherent sequence: Jonet Meik died, Niniane remarried, and Niniane later made his own testament.
+
+The shared son Robert is the strongest point. The identification does not depend only on the rarity of the surname, although the rarity of the name combination provides further support. A second contemporary Ninian Glasgow, burgess or fisher of Glasgow, with a son Robert would be required to displace this identification.
+
+===  Children and other stated family  ===
+
+The records establish the following relationships:
+
+* '''Robert Glasgw''' — son of Niniane Glasgow and Jonet Meik.
+** Jonet's 1607 testament calls him '''hir sone'''.
+** Niniane's 1613 testament calls him '''his sone'''.
+** He appears in the administration of both estates.
+* '''William Glasgw''' — a possible estate occurrence, not a securely named son.
+** The earlier reading made him a son receiving a separate provision; that reading is superseded because the decisive lower lines are physically lost. Neither his role nor identification with the Leith mealmaker is established.
+** No mother is identified; Ninian remains the Leith William’s selected possible father at 38%.
+* '''Johne Glasgw''' — brother of Niniane Glasgow.
+** A clothing legacy was formerly read '''ane new gowne'''; the exact clothing wording remains unresolved.
+* '''Johne Meik''' — earlier provisional reading of a brother and legatee of Jonet Meik.
+** The possible sibling clause remains unresolved; no additional proved relationship follows.
+* '''Marion Glasgow''' — named as a legatee by Jonet Meik.
+** No relationship is stated, so she should not presently be attached as a daughter solely from this entry.
+
+Neither testament names Niniane's father or mother. No birthplace is stated.
+
+===  Inventory and estate  ===
+
+Niniane's inventory concerns his household goods, furnishings, vessels, money and debts.
+
+The earlier working inventory reading lists the following items. These details are retained as provisional readings; the later selective reread did not independently settle the full inventory:
+
+* '''twa kistis and ane pres''' — two chests and a press or cupboard;
+* '''ane mekill and littill buird''' — a large and a small board or table;
+* '''all vther tymmer wark''' — the remaining wooden furniture;
+* pewter vessels, described by weight;
+* brewing vessels and other household vessels;
+* '''the abuilzement of his bodie''' — his clothing or personal apparel.
+
+The clerk lists debts owed to Niniane, debts payable from his estate, the free gear remaining after deduction, and division of the net movable estate. The exact totals and several debtor or creditor names remain too compressed or faded to quote safely from the present images.
+
+The presence of brewing vessels is ordinary household evidence and does not make Niniane a brewer. His stated occupation remains fisher.
+
+===  Testamentary provisions  ===
+
+Niniane’s personal testament begins at Glasgow in January 1613, on an unread day. The earlier 10 January interpretation is unconfirmed. He was described as sick in body but of sound or perfect memory. He committed his soul to God and directed that his body be buried, although the precise burial wording is indistinct.
+
+He appointed:
+
+* his later wife, '''Jonet Hutchesoun'''; and
+* his son, '''Robert Glasgw'''
+
+as his executors and intromitters.
+
+Among the readable legacies:
+
+* '''Johne Glasgw his brother''' received a clothing legacy formerly read '''ane new gowne'''; that exact object remains unresolved;
+* The earlier phrase '''William Glasgw his sone''' and its separate provision are superseded readings: physical loss prevents recovering William’s relationship, role, object or amount;
+* further directions concern debts, expenses, legacies and the administration of the remaining estate.
+
+===  Confirmation and archival extent  ===
+
+Niniane's testament begins partway down Image 142, continues through Images 143 and 144, and concludes in the upper portion of Image 145. The large new testament heading in the lower portion of Image 145 belongs to another deceased person.
+
+The lower part of Image 144 and upper part of Image 145 contain the formal Commissary Court confirmation. Jonet Hutchesoun and Robert Glasgow are again named in the executor wording. A cautioner or surety was provided, though the name and parts of the formula remain difficult to read.
+
+===  Key semi-diplomatic extracts  ===
+
+'''Jonet Meik's testament, 1607'''
+
+:Jonet meik spous to Niniane glasgw burges of glasgw
+:...
+:be Niniane glasgw hir spous and Robert glasgw hir sone
+:...
+:to Johne meik hir brother [earlier provisional expansion; sibling clause unresolved]
+:...
+:Robert glasgw hir sone
+
+'''Niniane Glasgow's testament, 1613'''
+
+:The testament testamentar and Inventar
+:of the guidis geir debitis and sowmes of money q[uhi]lkis
+:pertening to vmq[uhi]le Niniane glasgw fyscher burges
+:of glasgw ...
+
+:At glasgw the [day unresolved] day of Januar 1613 zeiris
+:The former “tent day” reading is superseded by the existing image reread.
+:...
+:constitutis Jonet ⟦Hutchesoun?⟧ his spous & Robert
+:glasgw his sone his executouris & intromettouris
+:...
+:Item to Johne glasgw his brother [clothing wording unresolved]
+:The former “ane new gowne” expansion is retained as an unconfirmed reading.
+:...
+:[Damaged lower passage: possible William reading; relationship and provision unrecovered]
+:The earlier “Item to William glasgw his sone ⟦legacy partly indistinct⟧” is superseded, not a recovered transcript.
+
+===  Modern English rendering  ===
+
+Ninian Glasgow was a fisher and burgess of Glasgow. A burgess roll from 1605 places him among the city's mariners and fishers.
+
+His earlier known wife was Janet Meik. Her testament identifies Ninian as her husband and Robert Glasgow as her son. It again describes Robert as her son in the legacy or residue section. Ninian's own testament later describes Robert as his son, directly establishing Robert as the child of both spouses.
+
+Janet Meik died before her testament was recorded in August 1607. Ninian subsequently remarried. By January 1613 his wife was another Janet, whose surname is best read as Hutchesoun. She and Robert were appointed to administer Ninian's estate.
+
+Ninian made his will at Glasgow in January 1613, on an unread day, and died during that month. A legacy names his brother John, but its former “new gown” reading is unresolved. The former rendering of a separate provision for “his son William” is superseded: physical loss prevents establishing William’s role or relationship. The confirmation date is 8 May 1613.
+
 == Research Notes ==
 
-The manuscript calls Ninian a ''fyscher'', not a flesher or butcher. The word
-''sister'' does not establish whether Marion was his full or half-sister, so
-their common father should not be treated as certain solely from this clause.
+=== William of Leith: combined comparison — 17 October 2026 ===
+
+The preferred father hypothesis combines William’s estate occurrence, a compatible adult generation and the craft comparison between Robert’s probable 1613 Glasgow cordiner identity and William’s son Archibald’s Edinburgh apprenticeship. The crafts were in different burghs; no shared incorporation or master is established. The damaged William passage is not direct sonship, and the later Leith family records do not name Ninian.<ref name="Ninian1613" />
+
+The proposed Leith marriage of William and Catherine Fraith/Fraser on 10 July 1610 strengthens that household’s continuity with the 1618 child. It also weakens reliance on a simple sequence from the William/Christian Scot baptismal household at Glasgow in 1612 to Leith later: merging the occurrences requires an unexplained marriage sequence. No widowhood or remarriage is inferred. The two marriage transcripts index one event, and Catherine’s unsupported 1600 birth estimate does not establish a conflict.<ref>Leith OPR 692/2/9, item 4, 10 July 1610; Findmypast [https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FMAR%2F1447177%2F1 Scottish Genealogy Society transcript] and [https://www.findmypast.co.uk/transcript?id=R_696111854%2F1 FamilySearch-derived transcript], original uninspected. Compare Glasgow High Kirk Baptisms 1609–1777, vol. 1/962, William, son of William Glasgw and Christian Scot, 8 November 1612; South Leith Archbald Glascow baptism, 20 March 1618, [https://www.familysearch.org/ark:/61903/1:1:FQM4-LYL FamilySearch index].</ref>
+
+[[Glasgow-1099|George Glasgow]] and other compatible fathers remain alternatives, but none has a stronger William-specific connection. Ninian is therefore selected at 38%, with the remaining uncertainty including another father and a different identity for the estate’s William. This is the first individual percentage for an already possible father, not new proof or a new attachment. [[Meik-14|Jonet Meik]] remains only a possible mother of William; Robert’s independently documented maternity is unchanged. The William hypothesis cannot be used to prove its own collateral assumptions.
+
+The former William “his sone” interpretation is superseded because the decisive words are physically missing. The earlier occupation reading “flescher” is superseded by fisher. The previously quoted exact will day, 10 January, is not confirmed by the reviewed reading, which leaves the January day unresolved.<ref name="Ninian1613" />
+
+=== Current evidence assessment ===
+
+The manuscript calls Ninian a ''fyscher'', not a flesher or butcher. The explicit sister clause, combined with Ninian’s 1596 admission as Robert Glasgow’s second son, their shared surname and compatible chronology, supports the existing common-father inference for Marion. The absence of the word ''full'' does not bar that inference; the testament itself supplies a sibling relationship, not an express father–daughter statement. Marion’s maternity and other adult identity comparisons remain separately assessed.<ref name="Burgess1596" /><ref name="Ninian1613" />
 
 A William Glasgow occurs in debt material and near the damaged foot of the
 will's opening, but the previously asserted words ''his sone'' cannot be read
 securely. [[Glasgow-3075|William Glasgow, mealmaker in Leith]], remains only a
-possible son and possible identity match. The debtor and damaged will
+possible son and possible identity match, assessed at 38% subjective probability on 17 October 2026. Ninian is the preferred named working father, below probable or confident. The debtor and damaged will
 occurrence may not be the same man. William's son Archibald was apprenticed at Edinburgh in 1639,<ref>Francis J. Grant, ed., ''Register of Apprentices of the City of Edinburgh, 1583–1666'' (1906), [https://archive.org/details/scottishrecordso28scotuoft/page/71/mode/2up p. 71], 23 October 1639.</ref> which supplies a geographic and occupational lead but no father-to-son bridge back to Ninian.
 
 The exact clothing description in the legacy to brother John is also unclear;
@@ -49,20 +242,41 @@ occupation, property, spouse or child bridge.
 Jonet Hutchesoun was Ninian's spouse but was not Robert's mother. Robert's
 maternity is separately proved by Jonet Meik's testament.
 
-Several women recorded at South Leith or Edinburgh in 1611–19 form a possible collateral group, including [[Glasgow-3182|Barbara]], [[Glasgow-3598|Margaret]], [[Glasgow-3302|Barbara]] and [[Glasgow-3336|Isobel]]. Their locality and marriages to craftsmen make them reasonable network leads,<ref>Henry Paton, ed., ''The Register of Marriages for the Parish of Edinburgh, 1595–1700'', [https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/register_of_marriages_for_the_parish_of_edinburgh_1595-1700_~_1898.pdf#page=277 printed p. 267].</ref> but none is named as Ninian's daughter and no such relationship should be attached.
+Several women recorded at South Leith or Edinburgh in 1611–19 form a possible collateral group, including [[Glasgow-3182|Barbara]], [[Glasgow-3598|Margaret]], [[Glasgow-3302|Barbara]] and [[Glasgow-3336|Isobel]]. Their locality and marriages to craftsmen make them reasonable network leads,<ref>Henry Paton, ed., ''The Register of Marriages for the Parish of Edinburgh, 1595–1700'', [https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/register_of_marriages_for_the_parish_of_edinburgh_1595-1700_~_1898.pdf#page=277 printed p. 267].</ref> but none is named as Ninian’s daughter. Barbara-3182, Margaret-3598 and Barbara-3302 have separately selected uncertain daughter placements; those partly rely on William’s proposed parentage and cannot independently corroborate it. No new daughter, sibling or mother attachment follows from this review.
 
 Elizabeth Hutchesoun received £5, but no relationship is stated. George
 Glasgow, Ninian Hill, David Stevin and notary Mr Jeronimus Hutchesoun also
 occur, with George and Ninian Hill recurring in the caution arrangements.
 James Stewart, James Wilson, Alexander Fischer, John Morrison younger and
 Malcolm Muir are further associates. These names are research leads only;
-the testament does not state their kinship, including among the Hutchesouns.<ref
-name="Ninian1613" />
+The testament does not state their kinship, including among the Hutchesouns.<ref name="Ninian1613" />
 
 The printed testament index remains useful as a finding aid.<ref>Francis J.
 Grant, ed., ''The Commissariot Record of Glasgow: Register of Testaments,
 1547–1800'' (Edinburgh, 1901), entries for Ninian Glasgow and Jonet Meik.</ref>
 
-== Sources ==
+* '''Meik''', not Melk, is the correct surname in the 1607 testament.
+* The 1607 Jonet Meik was the earlier known wife of the same Ninian Glasgow who died in 1613.
+* '''Robert Glasgow''' is directly proved as the son of both Ninian Glasgow and Jonet Meik.
+* The earlier claim that '''William Glasgow''' was directly proved as Ninian’s son is superseded. The Leith man’s selected Ninian father is possible at 38%; his mother remains unproved.
+* '''Marion Glasgow''' is a named legatee in Jonet's testament, not a proved daughter.
+* Ninian's occupation was '''fyscher''' or fisher, not '''flescher''' or butcher.
+* The printed testament index's description of him as a fisher is correct on this point.
+* The later wife's surname is best read '''Hutchesoun'''; '''Huchesoun''' remains a possible spelling. Smythesoun is withdrawn, and Herbessoun is less consistent with the repeated manuscript forms.
+* The nearby '''Niniane Hutchisonne''' in the 1605 fisher list is a research lead only. No relationship to Jonet Hutchesoun is established.
+* An estimated birth around 1550 is not stated in the records and should be labelled as an estimate, not a documented date.
+* No parentage or birthplace for Ninian is supplied by either testament.
+* No exact inventory or free-gear total is quoted here because the numeral groups have not yet been read securely.
 
+=== Possible daughters and collateral women ===
+Several disconnected women fit Ninian's household or immediate collateral circle, but none is directly named as his daughter. [[Glasgow-3262|Jonat Glasgow]], who had a child baptised at Mid Calder in 1609, repeats the name of Ninian's wife Jonet Meik. [[Glasgow-3182|Barbara]], [[Glasgow-3598|Margaret]], [[Glasgow-3302|Barbara]] and [[Glasgow-3336|Isobel]] appear in South Leith or Edinburgh records in 1611-19; the last three married two cordiners and a tailor.<ref>Henry Paton, ed., ''The Register of Marriages for the Parish of Edinburgh, 1595-1700'', [https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/register_of_marriages_for_the_parish_of_edinburgh_1595-1700_~_1898.pdf#page=277 printed p. 267].</ref>
+
+*This is a family-specific trade and locality lead: Ninian’s proved son Robert is probably the cordiner admitted at Glasgow in 1613, his possible son [[Glasgow-3075|William]], assessed at 38%, lived at Leith, and William's son was apprenticed to a cordiner.<ref>Francis J. Grant, ed., ''Register of Apprentices of the City of Edinburgh, 1583-1666'', [https://archive.org/details/scottishrecordso28scotuoft/page/71/mode/2up p. 71], 23 October 1639.</ref> Jonat was the strongest individual daughter candidate in that earlier comparison; the current working model prefers Andrew-3163 for her while retaining Ninian as an alternative. The four Edinburgh-Leith women remain possible daughters or nieces. Ninian's and Jonet Meik's testaments do not identify them as daughters, so no exact parentage is asserted.
+
+== Sources ==
 <references />
+
+* National Records of Scotland, Glasgow Commissary Court, CC9/7/5, Images 82–83, testament testamentar and inventory of Jonet Meik, spouse to Niniane Glasgw.
+* National Records of Scotland, Glasgow Commissary Court, CC9/7/9, Images 142–145, testament testamentar and inventory of Niniane Glasgw, fisher and burgess of Glasgow.
+* Francis J. Grant, ed., ''The Commissariot Record of Glasgow: Register of Testaments, 1547–1800'', Scottish Record Society, old series vol. 7, Edinburgh, 1901.
+* George Crawfurd, ''A Sketch of the Rise and Progress of the Trades' House of Glasgow: Its Constitution, Funds, and Bye-laws'', Glasgow, 1858, burgess-roll section, pp. 49 and 56–57.

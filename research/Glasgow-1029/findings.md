@@ -5,6 +5,10 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
+Reviewed: 2026-10-17
+
+**Bessie review, 17 October 2026:** The record-defined Bessie of Quothquan is John-3296’s documented sister (**99%**) and Stephen’s conditional possible daughter (**22%**), inheriting John’s uncertain father model. Her identity among existing profiles remains on HOLD; no mother is assigned.
+
 Reviewed: 2026-10-16
 
 **Selected Quothquan working family, 16 October 2026:** James the weaver is placed under Stephen, uncertain; Helen of Thankerton is placed under James, uncertain. John of Quothquan remains Stephen’s already attached uncertain son. The proposed brotherhood is conditional, both new mothers remain unknown, and James’s old 1605 birth estimate is replaced by an explicitly estimated adult boundary. [Evidence and alternatives](/branches/early-scottish-records/#quothquan-working-family).
@@ -118,3 +122,13 @@ Stephen’s already documented parents and 1582 spouse remain as previously asse
 ## Surviving identity alternative — 16 October 2026
 
 James Glasgow-3332 remains a surviving cross-profile identity alternative for the 1624 Quothquan weaver. Its circa-1634 birth is an unsupported estimate and cannot by itself exclude that earlier man. Identification with the distinct weaver indexed at Back of Lindsaylands in 1680 would exclude a death before 1624 if established, but that later identity is itself only possible. Retain Glasgow-3910 as the record-defined 1624 account for the selected uncertain family; do not merge the profiles or transfer Glasgow-3332’s unproved parent and child attachments. Those existing family fields remain unchanged, and the proposed Stephen placement is an alternative to that account’s current pedigree. [Working family comparison](/branches/early-scottish-records/#quothquan-working-family).
+
+## Bessie of Quothquan: conditional daughter hypothesis — 17 October 2026
+
+**Bessie Glasgow**, the record-defined sister of [John Glasgow-3296](https://www.wikitree.com/wiki/Glasgow-3296), is now included as a **conditional possible daughter of Stephen, 22% subjective probability**. John’s testament, confirmed at Lanark on 27 May 1650, expressly identifies Bessie as his lawful sister and executrix; the confirmation calls John her brother. That record-defined sibling relationship is assessed at 99%, and both clauses belong to one document. Stephen’s fatherhood of John remains an uncertain 22% hypothesis. Extending it to John’s documented sister retains the same uncertainty and adds no independent evidence that Stephen was their father.
+
+Stephen’s adult Glasgow appearance in 1575 and his documented spouse Margaret Grahame in 1582 permit the proposed generation, but do not link the household to the Quothquan siblings. Bessie’s age and parents are not stated. Margaret Grahame is not selected as her mother. The earlier James-the-weaver family model and Stephen’s record-proved parents and spouse retain their existing grades.
+
+Bessie is one documentary woman with a complete **HOLD** draft, not a newly created WikiTree person. Compatible identities remain [Bessie-3361](https://www.wikitree.com/wiki/Glasgow-3361), [Elizabeth-1091](https://www.wikitree.com/wiki/Glasgow-1091), [Bessie-1092](https://www.wikitree.com/wiki/Glasgow-1092) and [Elizabeth-1517](https://www.wikitree.com/wiki/Glasgow-1517), among weaker candidates retained in her full account. None is selected; their documented parentage must not be overwritten by the Stephen hypothesis. The record-defined Bessie is distinct from [Bessie Robertson](https://www.wikitree.com/wiki/Robertson-33965), the deceased Montfoid spouse whose testament was confirmed in 1610. The John/Bessie parent model does not resolve the Montfoid–Mid Calder–Quothquan adult identities.
+
+Sources: NRS Lanark Commissary Court **CC14/5/5, images65–66**, testament of John Glasgow in Quodquen, confirmed **27 May 1650**; [archive wills search](https://www.scotlandspeople.gov.uk/search-records/legal-records/wills); [Grant, Lanark testament calendar p.38, PDF p.50](https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/the_commissariot_record_of_lanark__register_of_testaments__1595-1800_~_1903.pdf#page=50). Stephen chronology: Renwick **vol.7, protocol2189, p.110, 17 June 1575** ([abstract](https://archive.org/details/abstractsprotoc00robegoog/page/n126/mode/2up)); **vol.8, protocol2431, 25 June 1582** ([abstract](https://archive.org/details/abstractsofproto08glas/page/56/mode/2up)). The existing 10 September original-image review supplies the sibling reading; no new original inspection. The complete evidence and candidate audit are maintained in `surname-research/new-people/1650_Scotland_Lanark_Bessie_Glasgow.md`.

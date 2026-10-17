@@ -3572,36 +3572,53 @@
     "working_selection": true,
     "allow_new_relationship": true,
     "claim": "John Glasgow, Mid Calder/Quothquan working identity is the selected uncertain working father of John Glasgow of Kirknewton.",
-    "basis": "The older John already represents the father named in Mid Calder baptisms1608–1609. His son John-1086, baptised1608, is a viable earlier identity for the adult John who had children in neighbouring Kirknewton/East Calder1646–1650: age38 at the1646 birth is straightforward. Select the older John as working father of3610 on that local and chronological reconstruction. Keep the two son profiles separate while testing their possible identity.",
-    "limitations": "John-1086 has a later Biggar account that has not been equated with3610. They may be different men, and the older father’s Mid Calder/Montfoid/Quothquan identity is itself uncertain. Robert-4006 is another generationally compatible Calder father. This does not restore the former unsupported William-1087 father or treat1629 as a recorded birthday.",
+    "basis": "The child Jhone baptised at Mid Calder on 26 June 1608 would have been about 40–41 when Johne was named as father in neighbouring Kirknewton/East Calder on 22 April 1649. The shared forename, adjacent locality and compatible generation favour retaining John Glasgow-3296 as the selected uncertain father at 28%. The child-to-adult identity and the older Mid Calder-to-Quothquan identity remain separate uncertainties; no shared holding, trade, spouse, witness or proved sibling supplies a discriminating bridge. The 1609 William baptism provides local context, not independent proof of the 1649 adult identity.",
+    "limitations": "John-1086 primarily represents the 1685 Quothquan decedent, only possibly the 1608 child; John-3296 primarily represents the 1650 Quothquan decedent, only possibly the Mid Calder father. The 1650 omission of children is not an exclusion. John-1084, the 1616 child of James-991, is a substantive compatible adult-identity alternative through its 1642 Porteous marriage, 1643 Edinburgh child and tree-only 1652 Kirknewton/East Calder child. Keep James-991 an unselected father alternative conditional on that identity, without percentage, merger or maternity assignment. Robert-4006 remains a father-generation alternative; John-3056 a compatible childhood comparison. William-1087 remains an unsupported removed father, not biologically excluded merely by his 1609 baptism. Margaret-3112 has disputed 1646/1649 readings; Alexander-3118 has an estimated circa-1650 birth from a 1667 marriage, not a baptism. Use the secure 1649 occurrence, not a proved 1646–1650 series.",
     "source_ids": [
       "midcalder-jhone-1608-father-jhone",
       "kirknewton-johne-1649-father-johne"
     ],
-    "assessment_date": "2026-10-15",
+    "assessment_date": "2026-10-17",
     "publication_status": "approved",
     "perspectives": {
       "Glasgow-3610": {
         "relationship": "father",
-        "reason": "The older John already represents the father named in Mid Calder baptisms1608–1609. His son John-1086, baptised1608, is a viable earlier identity for the adult John who had children in neighbouring Kirknewton/East Calder1646–1650: age38 at the1646 birth is straightforward. Select the older John as working father of3610 on that local and chronological reconstruction. Keep the two son profiles separate while testing their possible identity."
+        "reason": "The child Jhone baptised at Mid Calder on 26 June 1608 would have been about 40–41 when Johne was named as father in neighbouring Kirknewton/East Calder on 22 April 1649. The shared forename, adjacent locality and compatible generation favour retaining John Glasgow-3296 as the selected uncertain father at 28%. The child-to-adult identity and the older Mid Calder-to-Quothquan identity remain separate uncertainties; no shared holding, trade, spouse, witness or proved sibling supplies a discriminating bridge. The 1609 William baptism provides local context, not independent proof of the 1649 adult identity."
       },
       "Glasgow-3296": {
         "relationship": "son",
-        "reason": "The older John already represents the father named in Mid Calder baptisms1608–1609. His son John-1086, baptised1608, is a viable earlier identity for the adult John who had children in neighbouring Kirknewton/East Calder1646–1650: age38 at the1646 birth is straightforward. Select the older John as working father of3610 on that local and chronological reconstruction. Keep the two son profiles separate while testing their possible identity."
+        "reason": "The child Jhone baptised at Mid Calder on 26 June 1608 would have been about 40–41 when Johne was named as father in neighbouring Kirknewton/East Calder on 22 April 1649. The shared forename, adjacent locality and compatible generation favour retaining John Glasgow-3296 as the selected uncertain father at 28%. The child-to-adult identity and the older Mid Calder-to-Quothquan identity remain separate uncertainties; no shared holding, trade, spouse, witness or proved sibling supplies a discriminating bridge. The 1609 William baptism provides local context, not independent proof of the 1649 adult identity."
       }
     },
     "analysis_links": [
       {
-        "label": "Selected working model: reasoning and alternatives",
-        "href": "/branches/early-scottish-records/#selected-working-joins"
+        "label": "Reviewed identity and parent alternatives",
+        "href": "/people/glasgow-3610.html#research-findings"
       }
     ],
     "provenance": {
       "source": "/assets/research/relationship-assessments.json",
       "basis": "Explicit logical reconstruction from existing maintained Calder/Lothian evidence; no new parent record.",
       "resolution_note": "Selected local working hypothesis. Raw WikiTree parent fields remain unchanged; no certainty upgrade or live save.",
-      "prior_assessment": "Parent unknown/unselected locally; previous positive testament-child rationale remains superseded."
-    }
+      "prior_assessment": "Parent unknown/unselected locally; previous positive testament-child rationale remains superseded.",
+      "reviewed_at": "2026-10-17"
+    },
+    "assessment_history": [
+      {
+        "reviewed": "2026-10-17",
+        "prior_assessment": {
+          "status": "uncertain",
+          "basis": "The older John already represents the father named in Mid Calder baptisms1608–1609. His son John-1086, baptised1608, is a viable earlier identity for the adult John who had children in neighbouring Kirknewton/East Calder1646–1650: age38 at the1646 birth is straightforward. Select the older John as working father of3610 on that local and chronological reconstruction. Keep the two son profiles separate while testing their possible identity.",
+          "limitations": "John-1086 has a later Biggar account that has not been equated with3610. They may be different men, and the older father’s Mid Calder/Montfoid/Quothquan identity is itself uncertain. Robert-4006 is another generationally compatible Calder father. This does not restore the former unsupported William-1087 father or treat1629 as a recorded birthday.",
+          "assessment_date": "2026-10-15",
+          "source_ids": [
+            "midcalder-jhone-1608-father-jhone",
+            "kirknewton-johne-1649-father-johne"
+          ]
+        },
+        "basis": "Retained 28%; corrected adult identity and secure 1649 chronology."
+      }
+    ]
   },
   {
     "assertion_id": "C-working-20261015-glasgow-3911-glasgow-1098",
@@ -11691,6 +11708,714 @@
       "source_scope": "Existing indexed parish citations and an earlier civil-record reading; original pages not newly inspected.",
       "prior_state": "No captured or live father or mother for Robert-1538; James/Jean Simpson was a former leading narrative hypothesis.",
       "reviewed_on": "2026-10-17"
+    }
+  },
+  {
+    "assertion_id": "C-working-20261017-john822-james1509-father",
+    "people": [
+      "Glasgow-822",
+      "Glasgow-1509"
+    ],
+    "status": "uncertain",
+    "publication_status": "approved",
+    "assessment_date": "2026-10-17",
+    "working_selection": true,
+    "allow_new_relationship": true,
+    "basis": "Selected named father through the unproved Adam–John brotherhood and existing James–Adam working hypothesis. Exact locality, nine-year gap and family-news/naming network support the collateral comparison. Two correlated inferences, not independent corroboration. Older Adam/Maria remains the stronger unnamed rival.",
+    "limitations": "The stronger unnamed older Adam/Maria parent model remains active; no placeholder parents are invented. Adam-3902 was about nine when John was born and cannot be his father. The selected James→Adam 27% model and proposed Adam–John brotherhood are correlated, not corroborating independent parent records. No Larne-to-Inishrush migration or named son John is established; no mother is selected. The separate 94% John-822/John-3927 identity is not a parent proof or merger.",
+    "identity_scope": "John-822, born 10 April 1767; selected named father through two uncertain collateral hypotheses.",
+    "source_ids": [
+      "larne-inishrush-ropewalk-1760",
+      "larne-inishrush-age-1773",
+      "larne-inishrush-monument-1844",
+      "inishrush-census-households-1831",
+      "inishrush-john-family-letter-1847",
+      "john-822-bible-household"
+    ],
+    "perspectives": {
+      "Glasgow-822": {
+        "relationship": "father",
+        "reason": "Selected named father through the unproved Adam–John brotherhood and existing James–Adam working hypothesis. Exact locality, nine-year gap and family-news/naming network support the collateral comparison. Two correlated inferences, not independent corroboration. Older Adam/Maria remains the stronger unnamed rival."
+      },
+      "Glasgow-1509": {
+        "relationship": "son",
+        "reason": "Selected named father through the unproved Adam–John brotherhood and existing James–Adam working hypothesis. Exact locality, nine-year gap and family-news/naming network support the collateral comparison. Two correlated inferences, not independent corroboration. Older Adam/Maria remains the stronger unnamed rival."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Reviewed evidence and alternatives",
+        "href": "/people/glasgow-822.html#research-findings"
+      }
+    ],
+    "assessment_history": [
+      {
+        "reviewed": "2026-10-17",
+        "prior_assessment": {
+          "status": "unselected possible candidate",
+          "tree_status": "no attached father or mother",
+          "source": "tmp/astra-integration-2026-10-17/john-822-live-parents.json"
+        },
+        "basis": "Preserved before individual relationship review; no new original inspection."
+      }
+    ],
+    "provenance": {
+      "source": "research/Glasgow-822/findings.md",
+      "reviewed_at": "2026-10-17",
+      "prior_assessment": {
+        "status": "unselected possible candidate",
+        "tree_status": "no attached father or mother",
+        "source": "tmp/astra-integration-2026-10-17/john-822-live-parents.json"
+      },
+      "basis": "Maintained evidence reassessed; source readings reused, not newly inspected.",
+      "resolution_note": "New selected uncertain local relationship; no live save, identity merge or maternal assignment.",
+      "confidence_upgrade": false
+    },
+    "profile_names": {
+      "Glasgow-822": "John Glasgow of Inishrush and Ohio",
+      "Glasgow-1509": "James Glasgow, older Larne ropemaker"
+    }
+  },
+  {
+    "assertion_id": "C-review-20261017-cross-john2407-father",
+    "people": [
+      "Glasgow-2407",
+      "Glasgow-1657"
+    ],
+    "status": "probable",
+    "publication_status": "approved",
+    "assessment_date": "2026-10-17",
+    "working_selection": false,
+    "allow_new_relationship": false,
+    "basis": "1865 father John farmer plus exact Cross locality and compatible age, supported by older John’s 1836 death notice and 1862 holding. Glenleslie John-1022 remains an alternative. Certificate role certain; father identity probable.",
+    "limitations": "Glenleslie John-1022 remains a father alternative. The married-since-1839 nephew is excluded as the 1865 bachelor groom, not as proof against his uncle’s paternity. The 1862 holding is not proved inherited. No mother or upstream father is assigned; no topology/new-parent flag.",
+    "identity_scope": "Identity of the named John farmer in the 1865 certificate with the older Cross decedent; certificate role separately direct.",
+    "source_ids": [
+      "cross-john-rachel-marriage-1865",
+      "cross-john-death-notice-1836",
+      "cross-john-valuation-1862"
+    ],
+    "perspectives": {
+      "Glasgow-2407": {
+        "relationship": "father",
+        "reason": "1865 father John farmer plus exact Cross locality and compatible age, supported by older John’s 1836 death notice and 1862 holding. Glenleslie John-1022 remains an alternative. Certificate role certain; father identity probable."
+      },
+      "Glasgow-1657": {
+        "relationship": "son",
+        "reason": "1865 father John farmer plus exact Cross locality and compatible age, supported by older John’s 1836 death notice and 1862 holding. Glenleslie John-1022 remains an alternative. Certificate role certain; father identity probable."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Reviewed evidence and alternatives",
+        "href": "/people/glasgow-2407.html#research-findings"
+      }
+    ],
+    "assessment_history": [
+      {
+        "reviewed": "2026-10-17",
+        "prior_assessment": {
+          "status": "unknown",
+          "tree_status": "unmarked",
+          "narrative": "Identity previously unresolved; father already attached"
+        },
+        "basis": "Preserved before individual relationship review; no new original inspection."
+      }
+    ],
+    "provenance": {
+      "source": "research/Glasgow-2407/findings.md",
+      "reviewed_at": "2026-10-17",
+      "prior_assessment": {
+        "status": "unknown",
+        "tree_status": "unmarked",
+        "narrative": "Identity previously unresolved; father already attached"
+      },
+      "basis": "Maintained evidence reassessed; source readings reused, not newly inspected.",
+      "resolution_note": "Individual assessment of the stated record/profile scope; no new live parent or identity merge.",
+      "confidence_upgrade": false,
+      "previous_claim_id": "C-513c21bb2d7f"
+    }
+  },
+  {
+    "assertion_id": "C-review-20261017-leith-william3075-father",
+    "people": [
+      "Glasgow-3075",
+      "Glasgow-3188"
+    ],
+    "status": "possible",
+    "publication_status": "approved",
+    "assessment_date": "2026-10-17",
+    "working_selection": false,
+    "allow_new_relationship": false,
+    "basis": "Estate occurrence, compatible generation and cordiner-family comparison favour Ninian over named alternatives; damaged William role and unresolved adult identity, plus correlated collateral assumptions, prevent probable/confident treatment.",
+    "limitations": "The William occurrence and damaged role do not establish a son clause. The 1610 bride’s Fraith/Fraser readings, 1612 Christian Scot household and adult identity remain qualified. No new mother, sibling or family topology is selected.",
+    "identity_scope": "William, the adult Leith mealmaker; not a documented son in Ninian’s testament.",
+    "source_ids": [
+      "nrs-cc9-7-9-ninian-1613",
+      "glasgow-robert-cordiner-1613",
+      "leith-william-fraith-marriage-1610",
+      "leith-archibald-apprenticeship-father-1639"
+    ],
+    "perspectives": {
+      "Glasgow-3075": {
+        "relationship": "father",
+        "reason": "Estate occurrence, compatible generation and cordiner-family comparison favour Ninian over named alternatives; damaged William role and unresolved adult identity, plus correlated collateral assumptions, prevent probable/confident treatment."
+      },
+      "Glasgow-3188": {
+        "relationship": "son",
+        "reason": "Estate occurrence, compatible generation and cordiner-family comparison favour Ninian over named alternatives; damaged William role and unresolved adult identity, plus correlated collateral assumptions, prevent probable/confident treatment."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Reviewed evidence and alternatives",
+        "href": "/people/glasgow-3075.html#research-findings"
+      }
+    ],
+    "assessment_history": [
+      {
+        "reviewed": "2026-10-17",
+        "prior_assessment": {
+          "status": "unknown",
+          "narrative": "Unquantified possible/uncertain",
+          "tree_status": "uncertain"
+        },
+        "basis": "Preserved before individual relationship review; no new original inspection."
+      }
+    ],
+    "provenance": {
+      "source": "research/Glasgow-3075/findings.md",
+      "reviewed_at": "2026-10-17",
+      "prior_assessment": {
+        "status": "unknown",
+        "narrative": "Unquantified possible/uncertain",
+        "tree_status": "uncertain"
+      },
+      "basis": "Maintained evidence reassessed; source readings reused, not newly inspected.",
+      "resolution_note": "Individual assessment of the stated record/profile scope; no new live parent or identity merge.",
+      "confidence_upgrade": false,
+      "previous_claim_id": "C-ede22aa62c78"
+    }
+  },
+  {
+    "assertion_id": "C-review-20261017-edward1557-father",
+    "people": [
+      "Glasgow-1557",
+      "Glasgow-3921"
+    ],
+    "status": "uncertain",
+    "publication_status": "approved",
+    "assessment_date": "2026-10-17",
+    "working_selection": false,
+    "allow_new_relationship": false,
+    "basis": "Approximate1540/1570 generations fit; no established Ayrshire origin for Edward. Jonet1494 and Mary3539 uncertain parent attachments cannot independently establish it. Fisherrow identity supplies no Corsankell parent; no stronger named alternative.",
+    "limitations": "No established Ayrshire origin for Edward; Jonet and Mary’s uncertain parent attachments are not independent corroboration. No stronger named father is selected. No mother or topology change.",
+    "identity_scope": "Edward-1557, the Inveresk father account; fatherhood separate from identities of 1624 and 1646 Fisherrow Edwards.",
+    "source_ids": [
+      "fisherrow-sasine-index-1624",
+      "fisherrow-sasine-index-1646-02",
+      "nrs-gd39-5-59-1571"
+    ],
+    "perspectives": {
+      "Glasgow-1557": {
+        "relationship": "father",
+        "reason": "Approximate1540/1570 generations fit; no established Ayrshire origin for Edward. Jonet1494 and Mary3539 uncertain parent attachments cannot independently establish it. Fisherrow identity supplies no Corsankell parent; no stronger named alternative."
+      },
+      "Glasgow-3921": {
+        "relationship": "son",
+        "reason": "Approximate1540/1570 generations fit; no established Ayrshire origin for Edward. Jonet1494 and Mary3539 uncertain parent attachments cannot independently establish it. Fisherrow identity supplies no Corsankell parent; no stronger named alternative."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Reviewed evidence and alternatives",
+        "href": "/people/glasgow-1557.html#research-findings"
+      }
+    ],
+    "assessment_history": [
+      {
+        "reviewed": "2026-10-17",
+        "prior_assessment": {
+          "status": "unknown",
+          "tree_status": "uncertain",
+          "individual_percent": null
+        },
+        "basis": "Preserved before individual relationship review; no new original inspection."
+      }
+    ],
+    "provenance": {
+      "source": "research/Glasgow-1557/findings.md",
+      "reviewed_at": "2026-10-17",
+      "prior_assessment": {
+        "status": "unknown",
+        "tree_status": "uncertain",
+        "individual_percent": null
+      },
+      "basis": "Maintained evidence reassessed; source readings reused, not newly inspected.",
+      "resolution_note": "Individual assessment of the stated record/profile scope; no new live parent or identity merge.",
+      "confidence_upgrade": false,
+      "previous_claim_id": "C-9aeb1ea94f65"
+    }
+  },
+  {
+    "assertion_id": "C-review-20261017-corsankell-james1168-mother",
+    "people": [
+      "Glasgow-1168",
+      "Brade-232"
+    ],
+    "status": "uncertain",
+    "publication_status": "approved",
+    "assessment_date": "2026-10-17",
+    "working_selection": false,
+    "allow_new_relationship": false,
+    "basis": "Proved William spouse and mother of John; compatible generation but James maternity depends on uncertain paternal placement and has no independent evidence.",
+    "limitations": "Protocol 1196 proves Esbell’s spouse and John motherhood roles, not James’s maternity. No evidence makes this pair jointly established; no new topology or confidence upgrade.",
+    "identity_scope": "Maternity of James elder of Corsankell only, separately assessed from William’s 38% father hypothesis.",
+    "source_ids": [
+      "glasgow-protocol-1196-1534"
+    ],
+    "perspectives": {
+      "Glasgow-1168": {
+        "relationship": "mother",
+        "reason": "Proved William spouse and mother of John; compatible generation but James maternity depends on uncertain paternal placement and has no independent evidence."
+      },
+      "Brade-232": {
+        "relationship": "son",
+        "reason": "Proved William spouse and mother of John; compatible generation but James maternity depends on uncertain paternal placement and has no independent evidence."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Reviewed evidence and alternatives",
+        "href": "/people/glasgow-1168.html#research-findings"
+      }
+    ],
+    "assessment_history": [
+      {
+        "reviewed": "2026-10-17",
+        "prior_assessment": {
+          "status": "unknown",
+          "tree_status": "uncertain",
+          "individual_percent": null
+        },
+        "basis": "Preserved before individual relationship review; no new original inspection."
+      }
+    ],
+    "provenance": {
+      "source": "research/Glasgow-1168/findings.md",
+      "reviewed_at": "2026-10-17",
+      "prior_assessment": {
+        "status": "unknown",
+        "tree_status": "uncertain",
+        "individual_percent": null
+      },
+      "basis": "Maintained evidence reassessed; source readings reused, not newly inspected.",
+      "resolution_note": "Individual assessment of the stated record/profile scope; no new live parent or identity merge.",
+      "confidence_upgrade": false,
+      "previous_claim_id": "C-ed6c3520ee53"
+    }
+  },
+  {
+    "assertion_id": "C-reviewed-saltmarket-father-1096-1098-20261017",
+    "people": [
+      "Glasgow-1096",
+      "Glasgow-1098"
+    ],
+    "status": "probable",
+    "publication_status": "approved",
+    "assessment_date": "2026-10-17",
+    "working_selection": false,
+    "allow_new_relationship": false,
+    "basis": "Robert’s repeated property and fisher associations with John and Archibald support a close family group. The 1557 and 1560 adjoining holdings, the St Roche/Andrew Dunlop–Rowand title sequence, and the 1573 fisher witnesses together make William the preferred named father. The remaining uncertainty concerns which John appears in the Bridgegait acts and what relationship joins the men: John senior, his adult son John and Robert’s own son John overlap. Repeated boundaries and successive dealings with one parcel are correlated evidence, not independent father statements. Robert’s circa-1520 birth is an estimate; a younger generation or collateral relationship remains compatible. The 74% applies to William’s fatherhood of the Glasgow burgess and fisher, not to the separate probable Kilbride identification or the possible Carnwath litigant.",
+    "limitations": "The prior narrative probable/strong-circumstantial assessment is retained. The public strongly_supported/confident band had no individual percentage. This calibrates that display, not a new parent or live certainty upgrade. Maternal attachments remain independently assessed.",
+    "identity_scope": "Robert the Glasgow burgess and fisher; not an assessment of the separate probable Kilbride or possible Carnwath identity.",
+    "source_ids": [
+      "glasgow-protocol-84-1551",
+      "glasgow-bridgegait-boundaries-1554-1560",
+      "glasgow-fisher-network-1559-1575",
+      "glasgow-burgess-ninian-1596"
+    ],
+    "perspectives": {
+      "Glasgow-1096": {
+        "relationship": "father",
+        "reason": "Robert’s repeated property and fisher associations with John and Archibald support a close family group. The 1557 and 1560 adjoining holdings, the St Roche/Andrew Dunlop–Rowand title sequence, and the 1573 fisher witnesses together make William the preferred named father. The remaining uncertainty concerns which John appears in the Bridgegait acts and what relationship joins the men: John senior, his adult son John and Robert’s own son John overlap. Repeated boundaries and successive dealings with one parcel are correlated evidence, not independent father statements. Robert’s circa-1520 birth is an estimate; a younger generation or collateral relationship remains compatible. The 74% applies to William’s fatherhood of the Glasgow burgess and fisher, not to the separate probable Kilbride identification or the possible Carnwath litigant."
+      },
+      "Glasgow-1098": {
+        "relationship": "son",
+        "reason": "Robert’s repeated property and fisher associations with John and Archibald support a close family group. The 1557 and 1560 adjoining holdings, the St Roche/Andrew Dunlop–Rowand title sequence, and the 1573 fisher witnesses together make William the preferred named father. The remaining uncertainty concerns which John appears in the Bridgegait acts and what relationship joins the men: John senior, his adult son John and Robert’s own son John overlap. Repeated boundaries and successive dealings with one parcel are correlated evidence, not independent father statements. Robert’s circa-1520 birth is an estimate; a younger generation or collateral relationship remains compatible. The 74% applies to William’s fatherhood of the Glasgow burgess and fisher, not to the separate probable Kilbride identification or the possible Carnwath litigant."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Reviewed evidence and alternatives",
+        "href": "/people/glasgow-1096.html#research-findings"
+      }
+    ],
+    "assessment_history": [
+      {
+        "reviewed": "2026-10-17",
+        "prior_assessment": {
+          "narrative_status": "probable",
+          "narrative_label": "Probable; strong circumstantial",
+          "public_status": "strongly_supported",
+          "public_probability_band": "confident",
+          "public_percent": null,
+          "live_tree_status": "uncertain",
+          "basis_path": "research/Glasgow-1096/findings.md",
+          "public_snapshot": "www/people/glasgow-1096.json#/presentation/relationships/parents",
+          "resolution": "Calibration of public confidence to the retained probable argument; no live upgrade or topology change."
+        },
+        "basis": "Preserved before individual relationship review; no new original inspection."
+      }
+    ],
+    "provenance": {
+      "source": "research/Glasgow-1096/findings.md",
+      "reviewed_at": "2026-10-17",
+      "prior_assessment": {
+        "narrative_status": "probable",
+        "narrative_label": "Probable; strong circumstantial",
+        "public_status": "strongly_supported",
+        "public_probability_band": "confident",
+        "public_percent": null,
+        "live_tree_status": "uncertain",
+        "basis_path": "research/Glasgow-1096/findings.md",
+        "public_snapshot": "www/people/glasgow-1096.json#/presentation/relationships/parents",
+        "resolution": "Calibration of public confidence to the retained probable argument; no live upgrade or topology change."
+      },
+      "basis": "Maintained evidence reassessed; source readings reused, not newly inspected.",
+      "resolution_note": "Individual assessment of the stated record/profile scope; no new live parent or identity merge.",
+      "confidence_upgrade": false,
+      "previous_claim_id": "C-093f8e06a2ca",
+      "previous_evidence_id": "E-382951ba0352"
+    }
+  },
+  {
+    "assertion_id": "C-reviewed-saltmarket-father-1097-1098-20261017",
+    "people": [
+      "Glasgow-1097",
+      "Glasgow-1098"
+    ],
+    "status": "probable",
+    "publication_status": "approved",
+    "assessment_date": "2026-10-17",
+    "working_selection": false,
+    "allow_new_relationship": false,
+    "basis": "The 1551 purchase east of Thomas Bargill, witnessed by Robert, and the 1554/55–1575 John boundary sequence support a connected property and family group. The 1551 act records purchase from Elizabeth Beith, not inheritance from William. Matching the rear parcels, identifying the boundary John with William’s proved son, and identifying Archibald as his brother are separate inferences. The earlier description of an exact succession is a title reconstruction; no inspected conveyance records Archibald transferring the parcel to John. Archibald’s estimated birth does not independently fix his generation. A nephew, cousin or purchaser association remains compatible. The 68% concerns the Archibald who acquired property with Isobell Neulands in 1551; the later Duddingston–Crichtoun–Edinburgh records do not supply a backward parentage bridge.",
+    "limitations": "The prior narrative probable/strong-circumstantial assessment is retained. The public strongly_supported/confident band had no individual percentage. This calibrates that display, not a new parent or live certainty upgrade. Maternal attachments remain independently assessed.",
+    "identity_scope": "Archibald, spouse of Isobell Neulands, in the 1551 property purchase; not a Duddingston descendant identification.",
+    "source_ids": [
+      "glasgow-protocol-84-1551",
+      "glasgow-bridgegait-boundaries-1554-1560",
+      "glasgow-protocol-1196-1534"
+    ],
+    "perspectives": {
+      "Glasgow-1097": {
+        "relationship": "father",
+        "reason": "The 1551 purchase east of Thomas Bargill, witnessed by Robert, and the 1554/55–1575 John boundary sequence support a connected property and family group. The 1551 act records purchase from Elizabeth Beith, not inheritance from William. Matching the rear parcels, identifying the boundary John with William’s proved son, and identifying Archibald as his brother are separate inferences. The earlier description of an exact succession is a title reconstruction; no inspected conveyance records Archibald transferring the parcel to John. Archibald’s estimated birth does not independently fix his generation. A nephew, cousin or purchaser association remains compatible. The 68% concerns the Archibald who acquired property with Isobell Neulands in 1551; the later Duddingston–Crichtoun–Edinburgh records do not supply a backward parentage bridge."
+      },
+      "Glasgow-1098": {
+        "relationship": "son",
+        "reason": "The 1551 purchase east of Thomas Bargill, witnessed by Robert, and the 1554/55–1575 John boundary sequence support a connected property and family group. The 1551 act records purchase from Elizabeth Beith, not inheritance from William. Matching the rear parcels, identifying the boundary John with William’s proved son, and identifying Archibald as his brother are separate inferences. The earlier description of an exact succession is a title reconstruction; no inspected conveyance records Archibald transferring the parcel to John. Archibald’s estimated birth does not independently fix his generation. A nephew, cousin or purchaser association remains compatible. The 68% concerns the Archibald who acquired property with Isobell Neulands in 1551; the later Duddingston–Crichtoun–Edinburgh records do not supply a backward parentage bridge."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Reviewed evidence and alternatives",
+        "href": "/people/glasgow-1097.html#research-findings"
+      }
+    ],
+    "assessment_history": [
+      {
+        "reviewed": "2026-10-17",
+        "prior_assessment": {
+          "narrative_status": "probable",
+          "narrative_label": "Probable; strong circumstantial",
+          "public_status": "strongly_supported",
+          "public_probability_band": "confident",
+          "public_percent": null,
+          "live_tree_status": "uncertain",
+          "basis_path": "research/Glasgow-1097/findings.md",
+          "public_snapshot": "www/people/glasgow-1097.json#/presentation/relationships/parents",
+          "resolution": "Calibration of public confidence to the retained probable argument; no live upgrade or topology change."
+        },
+        "basis": "Preserved before individual relationship review; no new original inspection."
+      }
+    ],
+    "provenance": {
+      "source": "research/Glasgow-1097/findings.md",
+      "reviewed_at": "2026-10-17",
+      "prior_assessment": {
+        "narrative_status": "probable",
+        "narrative_label": "Probable; strong circumstantial",
+        "public_status": "strongly_supported",
+        "public_probability_band": "confident",
+        "public_percent": null,
+        "live_tree_status": "uncertain",
+        "basis_path": "research/Glasgow-1097/findings.md",
+        "public_snapshot": "www/people/glasgow-1097.json#/presentation/relationships/parents",
+        "resolution": "Calibration of public confidence to the retained probable argument; no live upgrade or topology change."
+      },
+      "basis": "Maintained evidence reassessed; source readings reused, not newly inspected.",
+      "resolution_note": "Individual assessment of the stated record/profile scope; no new live parent or identity merge.",
+      "confidence_upgrade": false,
+      "previous_claim_id": "C-930d08dfdd68",
+      "previous_evidence_id": "E-12521d7334d1"
+    }
+  },
+  {
+    "assertion_id": "C-reviewed-saltmarket-father-3916-1098-20261017",
+    "people": [
+      "Glasgow-3916",
+      "Glasgow-1098"
+    ],
+    "status": "probable",
+    "publication_status": "approved",
+    "assessment_date": "2026-10-17",
+    "working_selection": false,
+    "allow_new_relationship": false,
+    "basis": "Isobella’s proved husband Archibald Herbisoune witnessed John senior’s disposal of the very fore tenement inherited nineteen days earlier from William, explicitly his father. This anchors her association to the identified heir more securely than the general Bridgegait boundaries. The repeated Robert–Archibald–John fisher and property network strengthens the close-family explanation. It does not uniquely determine the generation: Isobella’s circa-1530 birth is estimated from married property ownership in 1563, and John, already married by 1534, could instead be her father. Repeating Esbell’s forename fits a granddaughter as well as a daughter. Collateral kinship or trusted craft association also remains possible. The 79% concerns William’s fatherhood of the woman named as Archibald’s wife in protocol 719; it is not a joint estimate for William and Esbell, and her mother remains independently uncertain. The 1575 purchaser continuity supports Archibald’s identity without proving the same parcel as in 1563.",
+    "limitations": "The prior narrative probable/strong-circumstantial assessment is retained. The public strongly_supported/confident band had no individual percentage. This calibrates that display, not a new parent or live certainty upgrade. Maternal attachments remain independently assessed.",
+    "identity_scope": "Isobella, expressly wife of Archibald Herbisoune in protocol 719; fatherhood only, not joint parentage or maternity.",
+    "source_ids": [
+      "glasgow-protocols-805-810-1564",
+      "glasgow-fisher-network-1559-1575"
+    ],
+    "perspectives": {
+      "Glasgow-3916": {
+        "relationship": "father",
+        "reason": "Isobella’s proved husband Archibald Herbisoune witnessed John senior’s disposal of the very fore tenement inherited nineteen days earlier from William, explicitly his father. This anchors her association to the identified heir more securely than the general Bridgegait boundaries. The repeated Robert–Archibald–John fisher and property network strengthens the close-family explanation. It does not uniquely determine the generation: Isobella’s circa-1530 birth is estimated from married property ownership in 1563, and John, already married by 1534, could instead be her father. Repeating Esbell’s forename fits a granddaughter as well as a daughter. Collateral kinship or trusted craft association also remains possible. The 79% concerns William’s fatherhood of the woman named as Archibald’s wife in protocol 719; it is not a joint estimate for William and Esbell, and her mother remains independently uncertain. The 1575 purchaser continuity supports Archibald’s identity without proving the same parcel as in 1563."
+      },
+      "Glasgow-1098": {
+        "relationship": "daughter",
+        "reason": "Isobella’s proved husband Archibald Herbisoune witnessed John senior’s disposal of the very fore tenement inherited nineteen days earlier from William, explicitly his father. This anchors her association to the identified heir more securely than the general Bridgegait boundaries. The repeated Robert–Archibald–John fisher and property network strengthens the close-family explanation. It does not uniquely determine the generation: Isobella’s circa-1530 birth is estimated from married property ownership in 1563, and John, already married by 1534, could instead be her father. Repeating Esbell’s forename fits a granddaughter as well as a daughter. Collateral kinship or trusted craft association also remains possible. The 79% concerns William’s fatherhood of the woman named as Archibald’s wife in protocol 719; it is not a joint estimate for William and Esbell, and her mother remains independently uncertain. The 1575 purchaser continuity supports Archibald’s identity without proving the same parcel as in 1563."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Reviewed evidence and alternatives",
+        "href": "/people/glasgow-3916.html#research-findings"
+      }
+    ],
+    "assessment_history": [
+      {
+        "reviewed": "2026-10-17",
+        "prior_assessment": {
+          "narrative_status": "probable",
+          "narrative_label": "Probable; strong circumstantial",
+          "public_status": "strongly_supported",
+          "public_probability_band": "confident",
+          "public_percent": null,
+          "live_tree_status": "uncertain",
+          "basis_path": "research/Glasgow-3916/findings.md",
+          "public_snapshot": "www/people/glasgow-3916.json#/presentation/relationships/parents",
+          "resolution": "Calibration of public confidence to the retained probable argument; no live upgrade or topology change."
+        },
+        "basis": "Preserved before individual relationship review; no new original inspection."
+      }
+    ],
+    "provenance": {
+      "source": "research/Glasgow-3916/findings.md",
+      "reviewed_at": "2026-10-17",
+      "prior_assessment": {
+        "narrative_status": "probable",
+        "narrative_label": "Probable; strong circumstantial",
+        "public_status": "strongly_supported",
+        "public_probability_band": "confident",
+        "public_percent": null,
+        "live_tree_status": "uncertain",
+        "basis_path": "research/Glasgow-3916/findings.md",
+        "public_snapshot": "www/people/glasgow-3916.json#/presentation/relationships/parents",
+        "resolution": "Calibration of public confidence to the retained probable argument; no live upgrade or topology change."
+      },
+      "basis": "Maintained evidence reassessed; source readings reused, not newly inspected.",
+      "resolution_note": "Individual assessment of the stated record/profile scope; no new live parent or identity merge.",
+      "confidence_upgrade": false,
+      "previous_claim_id": "C-e62528179b2d",
+      "previous_evidence_id": "E-2b5b4b5b532f"
+    }
+  },
+  {
+    "assertion_id": "C-review-20261017-quothquan-john3296-father",
+    "people": [
+      "Glasgow-3296",
+      "Glasgow-1029"
+    ],
+    "status": "uncertain",
+    "publication_status": "approved",
+    "assessment_date": "2026-10-17",
+    "working_selection": true,
+    "allow_new_relationship": false,
+    "basis": "The proposed Stephen generation is chronologically compatible, but no shared holding, associate or named relative connects his Glasgow household to John’s uncertain Mid Calder, Montfoid and Quothquan identities. Retain the existing Stephen father model at 22%; the linked James hypothesis depends on this same weak edge.",
+    "limitations": "No mother selected. The 1650 omission of children is not an exclusion. Stephen’s documented sonship in 1575 establishes Stephen, not John or Bessie as his children.",
+    "identity_scope": "The 1650 Quothquan adult represented by John-3296, with earlier Mid Calder and Montfoid identities separately uncertain.",
+    "source_ids": [
+      "quothquan-john-testament-1650",
+      "midcalder-jhone-1608-father-jhone",
+      "glasgow-protocol-2189-1575"
+    ],
+    "perspectives": {
+      "Glasgow-3296": {
+        "relationship": "father",
+        "reason": "The proposed Stephen generation is chronologically compatible, but no shared holding, associate or named relative connects his Glasgow household to John’s uncertain Mid Calder, Montfoid and Quothquan identities. Retain the existing Stephen father model at 22%; the linked James hypothesis depends on this same weak edge."
+      },
+      "Glasgow-1029": {
+        "relationship": "son",
+        "reason": "The proposed Stephen generation is chronologically compatible, but no shared holding, associate or named relative connects his Glasgow household to John’s uncertain Mid Calder, Montfoid and Quothquan identities. Retain the existing Stephen father model at 22%; the linked James hypothesis depends on this same weak edge."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Reviewed evidence and alternatives",
+        "href": "/people/glasgow-3296.html#research-findings"
+      }
+    ],
+    "assessment_history": [
+      {
+        "reviewed": "2026-10-17",
+        "prior_assessment": {
+          "status": "uncertain",
+          "percent": 22,
+          "topology": "Existing selected working father"
+        },
+        "basis": "Preserved before individual relationship review; no new original inspection."
+      }
+    ],
+    "provenance": {
+      "source": "research/Glasgow-3296/findings.md",
+      "reviewed_at": "2026-10-17",
+      "prior_assessment": {
+        "status": "uncertain",
+        "percent": 22,
+        "topology": "Existing selected working father"
+      },
+      "basis": "Maintained evidence reassessed; source readings reused, not newly inspected.",
+      "resolution_note": "Individual assessment of the stated record/profile scope; no new live parent or identity merge.",
+      "confidence_upgrade": false
+    }
+  },
+  {
+    "assertion_id": "C-reviewed-20261017-bessie-lanark-john3296-sibling",
+    "people": [
+      "record-bessie-lanark-1650",
+      "Glasgow-3296"
+    ],
+    "status": "proved",
+    "publication_status": "approved",
+    "assessment_date": "2026-10-17",
+    "working_selection": false,
+    "allow_new_relationship": true,
+    "basis": "The checked selected clauses of CC14/5/5, images 65–66, call Bessie Glasgow the lawful sister and executrix of John Glasgow in Quothquan. Their record-defined sibling relationship is explicit.",
+    "limitations": "Eight surviving profile candidates remain unselected. No merger or transfer of their recorded parents. Documentary Bessie remains outside the fixed cohort pending identity resolution.",
+    "identity_scope": "Only Bessie the 1650 executrix and John the 1650 testator; no baptism-profile identity or cross-record adult identity is certified.",
+    "source_ids": [
+      "quothquan-john-testament-1650"
+    ],
+    "perspectives": {
+      "record-bessie-lanark-1650": {
+        "relationship": "sibling",
+        "reason": "The checked selected clauses of CC14/5/5, images 65–66, call Bessie Glasgow the lawful sister and executrix of John Glasgow in Quothquan. Their record-defined sibling relationship is explicit."
+      },
+      "Glasgow-3296": {
+        "relationship": "sibling",
+        "reason": "The checked selected clauses of CC14/5/5, images 65–66, call Bessie Glasgow the lawful sister and executrix of John Glasgow in Quothquan. Their record-defined sibling relationship is explicit."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Reviewed evidence and alternatives",
+        "href": "/people/record-bessie-lanark-1650.html"
+      }
+    ],
+    "assessment_history": [
+      {
+        "reviewed": "2026-10-17",
+        "prior_assessment": {
+          "status": "Documented sibling clause already maintained; documentary subject not previously materialized"
+        },
+        "basis": "Preserved before individual relationship review; no new original inspection."
+      }
+    ],
+    "provenance": {
+      "source": "surname-research/new-people/1650_Scotland_Lanark_Bessie_Glasgow.md",
+      "reviewed_at": "2026-10-17",
+      "prior_assessment": {
+        "status": "Documented sibling clause already maintained; documentary subject not previously materialized"
+      },
+      "basis": "Maintained evidence reassessed; source readings reused, not newly inspected.",
+      "resolution_note": "Individual assessment of the stated record/profile scope; no new live parent or identity merge.",
+      "confidence_upgrade": false
+    },
+    "profile_names": {
+      "record-bessie-lanark-1650": "Bessie Glasgow of Quothquan",
+      "Glasgow-3296": "John Glasgow"
+    },
+    "profile_urls": {
+      "record-bessie-lanark-1650": {
+        "url": "/people/record-bessie-lanark-1650.html"
+      }
+    }
+  },
+  {
+    "assertion_id": "C-working-20261017-bessie-lanark-stephen1029-father",
+    "people": [
+      "record-bessie-lanark-1650",
+      "Glasgow-1029"
+    ],
+    "status": "uncertain",
+    "publication_status": "approved",
+    "assessment_date": "2026-10-17",
+    "working_selection": true,
+    "allow_new_relationship": true,
+    "basis": "Extend John-3296’s existing 22% Stephen father model to his documented sister Bessie. Their shared surname and explicit sibling relationship justify the same uncertain paternal reconstruction; this is conditional on John’s own unproved father link.",
+    "limitations": "The sibling clause does not name Stephen. This is not independent support for John’s hypothesis. No mother, identity merge, candidate parent transfer or quantitative branch gain.",
+    "identity_scope": "Bessie the 1650 Quothquan executrix only; not any compatible profile candidate.",
+    "source_ids": [
+      "quothquan-john-testament-1650",
+      "glasgow-protocol-2189-1575"
+    ],
+    "perspectives": {
+      "record-bessie-lanark-1650": {
+        "relationship": "father",
+        "reason": "Extend John-3296’s existing 22% Stephen father model to his documented sister Bessie. Their shared surname and explicit sibling relationship justify the same uncertain paternal reconstruction; this is conditional on John’s own unproved father link."
+      },
+      "Glasgow-1029": {
+        "relationship": "daughter",
+        "reason": "Extend John-3296’s existing 22% Stephen father model to his documented sister Bessie. Their shared surname and explicit sibling relationship justify the same uncertain paternal reconstruction; this is conditional on John’s own unproved father link."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Reviewed evidence and alternatives",
+        "href": "/people/record-bessie-lanark-1650.html"
+      }
+    ],
+    "assessment_history": [
+      {
+        "reviewed": "2026-10-17",
+        "prior_assessment": {
+          "status": "Unselected documentary person; brother John’s Stephen father already22% uncertain"
+        },
+        "basis": "Preserved before individual relationship review; no new original inspection."
+      }
+    ],
+    "provenance": {
+      "source": "surname-research/new-people/1650_Scotland_Lanark_Bessie_Glasgow.md",
+      "reviewed_at": "2026-10-17",
+      "prior_assessment": {
+        "status": "Unselected documentary person; brother John’s Stephen father already22% uncertain"
+      },
+      "basis": "Maintained evidence reassessed; source readings reused, not newly inspected.",
+      "resolution_note": "New selected uncertain local relationship; no live save, identity merge or maternal assignment.",
+      "confidence_upgrade": false
+    },
+    "profile_names": {
+      "record-bessie-lanark-1650": "Bessie Glasgow of Quothquan",
+      "Glasgow-1029": "Stephen Glasgow"
+    },
+    "profile_urls": {
+      "record-bessie-lanark-1650": {
+        "url": "/people/record-bessie-lanark-1650.html"
+      }
     }
   }
 ]

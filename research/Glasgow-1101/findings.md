@@ -5,6 +5,8 @@ Last updated: 2026-10-17
 
 ## Current conclusion
 
+**Identity review, 17 October 2026:** retain George Glasgow as probable father at **83%** and the cleric as probable father of Thomas of Lifford at **86%**. Identify the Derry/Faughanvale/Taughboyne ministry sequence with this Irish cleric at **93%**, separately from his Scottish childhood identification. These are subjective evidence judgments. The unresolved 1657 catalogue lead remains separate from the reported 1647–48 deposition.
+
 
 **Family confidence review, 17 October 2026:** George Glasgow and Margaret Steuart are now **probable parents** for this cleric through the preferred 1614 Scottish childhood identification. Thomas of Lifford is his **probable eldest son**; Elizabeth is his **documented wife**. The two identity inferences remain distinct from the literal kinship in the baptism and will abstract.
 
@@ -91,7 +93,7 @@ Independent review: `research/pre-1700-2026-09-30/scottish/proof-review.md`.
 Suggested edit summary: `Add the 1677 Ramelton clerical will and qualify the Scottish identity and proposed descendants.`
 
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-91919c567ea1 -->
-## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-91919c567ea1
+## Record assessment — Findmypast Glasgow surname evidence fmp-glasgow-91919c 567ea 1
 
 The transcript-validated baptism record for **Archibald Glasgow**, 19 Jun 1614, Glasgow, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
 
@@ -191,3 +193,13 @@ Sources reused: [Glasgow High Kirk baptism, Archibald, 19 June 1614; OPR 644/1 1
 Additional candidate check: [Leith Archibald comparison: Grant, Edinburgh Apprentices p.71, 23 October 1639; compare the 1647 shoemaker retour in Glasgow-3078’s maintained source table](https://archive.org/details/scottishrecordso28scotuoft/page/71/mode/2up); [Archibald of Leith](/people/glasgow-3078.html).
 
 [Family comparison and separate identity grades](/branches/research-irish-belfast-donegal/#chapter-donegal-family-confidence).
+
+## Irish ministry and Scottish alternatives — 17 October 2026
+
+The Irish ministry sequence is assessed as one man at **93%**: the reported Derry/Lagan deposition in winter 1647–48, Faughanvale salary in 1655, Derry/Faughanvale scrutiny in 1658, and the Taughboyne petition of 12 February 1661 fit the April 1661 Clondevadock, Tullyfern and Aughnish appointment. Adair’s printed footnote associates the deposed minister with the later Clondevadock rector; Seymour’s minister list explicitly joins Faughanvale in 1654 with Taboyne in 1660. This internal Irish career evidence is stronger than the identification with the Scottish child. It does not name his Scottish parents or university. The underlying source passages are reused from the maintained printed-source/OCR review, not newly inspected manuscript evidence. The exact charge alignment in Seymour’s October 1658 table remains uncertain; do not transfer the neighbouring minister’s Scottish dismissal to Archibald. The separate 1657 catalogue lead has not been read and is not resolved by the 1647–48 account.
+
+Sources: Patrick Adair, *A True Narrative of the Rise and Progress of the Presbyterian Church in Ireland* (1866), [p.140 and footnote](https://archive.org/details/truenarrativeofr00adai); James Seaton Reid, *History of the Presbyterian Church in Ireland*, II (1867), [pp.59–60, appendix VI p.559, and p.292 note 20](https://archive.org/details/historyofpresbyt02reid_0); St John D. Seymour, *The Puritans in Ireland, 1647–1661* (1921), [pp.155,169,199–200,212](https://archive.org/details/cu31924029479981). Adair and Reid’s quotation of his manuscript are not independent accounts of the deposition.
+
+[Leith Archibald (Glasgow-3078)](https://www.wikitree.com/wiki/Glasgow-3078) has a positive competing craft career: cordiner apprenticeship on 23 October 1639 and shoemaker/heir on 1 May 1647. The Leith maltman’s February 1662 death would conflict with the Irish testator’s April 1673 will, **only if the maltman and shoemaker were the same man**; their identification remains unresolved. Do not treat that conditional death as an absolute exclusion of the 1618 Leith child. Sources: Grant, *Edinburgh Apprentices*, [p.71](https://archive.org/details/scottishrecordso28scotuoft/page/71/mode/2up); *Inquisitionum… Abbreviatio*, II, [general retour 3278, 1 May 1647, original xix.128](https://archive.org/details/inquisitionumadc00grea_0); NRS CC8/8/70, images 689–693, original testament inspected 10 September 2026, February 1662 death and confirmation 24 May 1662.
+
+For the next generation, see [Thomas of Lifford’s Edinburgh-graduate comparison](../Glasgow-3556/findings.md): the 22% identity candidate is separate from the retained 86% Archibald–Thomas father assessment. No Scottish migration, mother or new paternal connection is established by this review.

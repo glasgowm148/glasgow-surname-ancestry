@@ -5,6 +5,8 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
+**Individual father review, 17 October 2026:** [William Glasgow](https://www.wikitree.com/wiki/Glasgow-1098) remains the **probable father, 74% subjective confidence**. This evaluates the combined evidence and surviving identity/generation alternatives; it is not a measured frequency or a new record discovery. The existing uncertain WikiTree parent flag and family topology are unchanged. The exact estimate applies to this father–child pair only.
+
 **Family roles reconciled, 16 October 2026:** [Marion](/people/glasgow-3062.html) is [Ninian’s](/people/glasgow-3188.html) sister and [Robert’s](/people/glasgow-1096.html) confidently inferred daughter. This restores the existing conclusion in the local data and tree; it is not a new relationship discovery or certainty upgrade.
 
 Father audit, 28 September 2026: [John Glasgow-1030](https://www.wikitree.com/wiki/Glasgow-1030), representing Ninian's documented brother, now has Robert Glasgow-1096 marked **confident** on WikiTree. The explicit 1596 father and 1613 brother statements, shared surname, chronology and 1619 family witness support the common-father inference, as for Marion. The 1618 Jonet Mathie husband identification remains probable. See [John's current assessment](../Glasgow-1030/findings.md); older conditional father wording is superseded.
@@ -70,6 +72,14 @@ makes Elizabeth worth testing as Ninian's missing older sister. It remains only
 a naming-pattern hypothesis: Elizabeth's current `before 1530` birth is no more
 than ten years after Robert's approximate 1520 birth, and no source links the
 Easter Corswood widow to Robert's Glasgow household.
+
+## Individual father assessment — 17 October 2026
+
+Robert’s repeated property and fisher associations with John and Archibald support a close family group. The 1557 and 1560 adjoining holdings, the St Roche/Andrew Dunlop–Rowand title sequence, and the 1573 fisher witnesses together make William the preferred named father. The remaining uncertainty concerns which John appears in the Bridgegait acts and what relationship joins the men: John senior, his adult son John and Robert’s own son John overlap. Repeated boundaries and successive dealings with one parcel are correlated evidence, not independent father statements. Robert’s circa-1520 birth is an estimate; a younger generation or collateral relationship remains compatible. The 74% applies to William’s fatherhood of the Glasgow burgess and fisher, not to the separate probable Kilbride identification or the possible Carnwath litigant.
+
+The previous narrative grade was **probable; strong circumstantial**, retained here. The public rendering had mapped that wording to **strongly supported / Confident (90–99%)**, without an individual estimate; this review recommends **probable, 74%** in its place. This corrects the displayed confidence calibration rather than recording a newly connected father or a live certainty upgrade. Lack of an explicit kinship clause alone does not prevent a confident inference; the unresolved identities, title mechanism and family degree explain the remaining uncertainty in this case.
+
+Source basis: Renwick, Abstracts of Protocols, I 84, p.31; II 401/403, pp.41–42, and 544–546, pp.80–81; VI 1615, p.5, and 1903–1904; VII 2002, p.36. Anderson, Burgesses & Guild Brethren, 23 October 1596, p.24. The linked source table below retains the record references and earlier reviews. Existing maintained evidence was reassessed; no new original image or manuscript inspection is claimed.
 
 ## Source findings
 

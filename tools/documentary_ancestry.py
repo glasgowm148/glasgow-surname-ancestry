@@ -6,7 +6,8 @@ import re
 
 def valid_account_url(value) -> bool:
     return isinstance(value, str) and re.fullmatch(
-        r'/(?:free-space/[a-z0-9-]+/|research/subjects/[a-z0-9-]+/(?:#[a-z0-9-]+)?)', value
+        r'/(?:free-space/[a-z0-9-]+/|research/subjects/[a-z0-9-]+/(?:#[a-z0-9-]+)?'
+        r'|people/record-[a-z0-9]+(?:-[a-z0-9]+)*\.html)', value
     ) is not None
 
 

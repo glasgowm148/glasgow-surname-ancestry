@@ -3,7 +3,7 @@ from pathlib import Path
 import tempfile
 import unittest
 
-from tools.documentary_ancestry import load_people, metric_node
+from tools.documentary_ancestry import load_people, metric_node, valid_account_url
 
 
 class DocumentaryIdentityTests(unittest.TestCase):
@@ -46,6 +46,30 @@ class DocumentaryIdentityTests(unittest.TestCase):
         person['url'] = '//example.test/unreviewed'
         with self.assertRaisesRegex(ValueError, 'complete public research account'):
             self.load(person)
+
+    def test_complete_local_record_account_is_preserved_in_metric_node(self):
+        person = self.person()
+        person['url'] = '/people/record-named-adult-1575.html'
+        node = metric_node(self.load(person))
+        self.assertEqual(node['url'], person['url'])
+        self.assertFalse(node['cohort_member'])
+        self.assertIsNone(node['birth_year'])
+
+    def test_account_url_accepts_only_supported_local_paths(self):
+        for url in ('/free-space/john/', '/research/subjects/example-records/',
+                    '/research/subjects/example-records/#named-adult', '/people/record-a.html'):
+            with self.subTest(url=url):
+                self.assertTrue(valid_account_url(url))
+        for url in (None, '/people/Glasgow-123.html', '/people/record-.html',
+                    '/people/record--john.html', '/people/record-john-.html',
+                    '/people/record-John.html', '/people/record-john_doe.html',
+                    '/people/record-john/../other.html', '/people/record-%2e%2e.html',
+                    '/people/record-john.html?view=all', '/people/record-john.html#family',
+                    '/people/record-john.html/', '/people/record-john.html\n',
+                    '//example.test/people/record-john.html',
+                    'https://www.wikitree.com/wiki/record-john'):
+            with self.subTest(url=url):
+                self.assertFalse(valid_account_url(url))
 
     def test_uncited_or_duplicated_groups_are_rejected(self):
         person = self.person()

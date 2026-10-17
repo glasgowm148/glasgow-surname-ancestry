@@ -113,10 +113,10 @@ def reviewed_records(root=ROOT):
 def reviewed_audits(root=ROOT):
     return {entry["catalogue_id"]: {
         "recommended_action": "create_new_profile" if entry.get("creation_status", "creation_ready") == "creation_ready" else "hold",
-        "identity_status": "distinct_documentary_person" if entry.get("creation_status", "creation_ready") == "creation_ready" else "hold_source_verification",
+        "identity_status": "distinct_documentary_person" if entry.get("creation_status", "creation_ready") == "creation_ready" else entry["creation_status"],
         "identity_note": entry["assessment"], "draft_path": entry["draft_path"],
         "review_method": "Reviewed documentary identity and duplicate assessment",
-        "reviewed_at": entry.get("reviewed_at") or "2026-10-17", "candidates": [],
+        "reviewed_at": entry.get("reviewed_at") or "2026-10-17", "candidates": deepcopy(entry.get("candidates") or []),
     } for entry in reviewed_people(root)}
 
 
@@ -128,7 +128,10 @@ def decorate_person(person, entry):
     person.update(catalogue_id=entry["catalogue_id"], name=entry["name"],
                   pending_profile_creation=True, creation_ready=ready,
                   creation_status=entry.get("creation_status", "creation_ready"),
-                  profile_work_status="creation_ready" if ready else "identity_hold", profile_work_candidate_count=0,
+                  uncertain_identity=entry.get("creation_status") == "identity_hold",
+                  profile_work_status="creation_ready" if ready else "identity_hold",
+                  profile_work_candidate_count=len(entry.get("candidates") or []),
+                  creation_candidates=deepcopy(entry.get("candidates") or []),
                   has_wikitree_destination=False, wikitree_free_space_url="", profile_disposition="",
                   missing_profile=True, needs_wikitree_update=True,
                   creation_subject_id=entry["subject_id"], creation_assessment=entry["assessment"],
@@ -158,7 +161,11 @@ def creation_update(person):
         "creation_status": person.get("creation_status") or "creation_ready",
         "significance": 65 if person.get("creation_ready") else 50,
         "summary": (f"Create the reviewed, sourced profile for {person['name']}." if person.get("creation_ready")
+                    else f"Review the draft for {person['name']}; resolve the identity before creation."
+                    if person.get("creation_status") == "identity_hold"
                     else f"Review the draft for {person['name']}; verify the source before creation."),
+        "candidates": deepcopy(person.get("creation_candidates") or []),
+        "candidate_count": person.get("profile_work_candidate_count", 0),
         "profile_url": person.get("creation_source_url") or "",
         "draft_path": person.get("creation_draft_path") or "",
         "proposed_wikitext": person.get("creation_draft_wikitext") or "",
@@ -169,14 +176,28 @@ def creation_update(person):
     }
 
 
+def _hold_title(status):
+    return ("New profile draft — identity on HOLD" if status == "identity_hold"
+            else "New profile draft — source verification on HOLD")
+
+
 def creation_panel(update):
     """Full creation text without a fictitious captured/current biography."""
     draft = update.get("proposed_wikitext") or update.get("draft_wikitext") or ""
-    title = "Create a new WikiTree profile" if update.get("creation_ready", True) else "New profile draft — source verification on HOLD"
+    title = "Create a new WikiTree profile" if update.get("creation_ready", True) else _hold_title(update.get("creation_status"))
+    candidates = update.get("candidates") or []
+    candidate_note = ""
+    if candidates:
+        links = ", ".join(
+            f'<a href="{escape(item.get("url") or "https://www.wikitree.com/wiki/" + item["profile_id"], quote=True)}">{escape(item.get("name") or item["profile_id"])}</a>'
+            for item in candidates
+        )
+        candidate_note = f'<p>Reviewed possible existing-profile matches ({len(candidates)}): {links}. Identity remains unresolved.</p>'
     return f'''<section id="wikitree-update" class="profile-update-panel profile-creation-panel">
 <div class="candidate-section-heading"><div><p class="kicker">Needs updated on WikiTree</p><h2>{escape(title)}</h2></div><p>Significance {int(update.get('significance') or 0)}/100</p></div>
 <p class="lede">{escape(update.get('summary') or '')}</p><p>No existing WikiTree biography is linked to this documentary person. The text below is the complete reviewed creation draft.</p>
 <p>{escape(update.get('assessment') or '')}</p>
+{candidate_note}
 <details class="profile-draft-panel"><summary>Complete paste-ready WikiTree creation draft</summary>
 <textarea id="profile-update-draft" class="profile-draft" rows="28" readonly>{escape(draft)}</textarea>
 <div class="actions"><button id="copy-profile-update" class="button" type="button">Copy complete profile</button><a class="button secondary" href="{escape(update.get('profile_url') or '', quote=True)}">Inspect the original source</a></div>
@@ -199,10 +220,12 @@ def _search_row(person, dossier):
                missing_father=not person["father"], missing_mother=not person["mother"], missing_vital_location=not person["birth_location"] or not person["death_location"],
                estimated_location=bool(person["birth_location_note"]), has_profile=False, wikitree_free_space_url="", profile_disposition="",
                has_wikitree_destination=False, missing_profile=True, creation_ready=person["creation_ready"], pending_profile_creation=True,
-               creation_status=person["creation_status"], profile_work_status=person["profile_work_status"], profile_work_candidate_count=0, needs_wikitree_update=True,
+               creation_status=person["creation_status"], profile_work_status=person["profile_work_status"],
+               profile_work_candidate_count=person["profile_work_candidate_count"], needs_wikitree_update=True,
                wikitree_update_significance=update["significance"], wikitree_update_summary=update["summary"],
                wikitree_update_relationship_changes=deepcopy(update.get("relationship_changes") or []),
-               has_original_record="original" in qualities, has_open_questions=bool(dossier["open_questions"]), uncertain_identity=False,
+               has_original_record="original" in qualities, has_open_questions=bool(dossier["open_questions"]),
+               uncertain_identity=person["uncertain_identity"],
                source_qualities=qualities, claim_statuses=catalogue._unique(c.get("status") for c in dossier["claims"]),
                record_types=catalogue._catalogue_record_types(person), record_count=len(person["records"]), woman_married_glasgow=False, evidence_terms=[])
     return row
@@ -282,7 +305,7 @@ def apply_creations(root=ROOT):
             destination = soup.select_one(".profile-wikitree-actions")
             if destination:
                 destination.clear()
-                destination.append(BeautifulSoup(f'<span>{"New WikiTree profile to create" if person["creation_ready"] else "New profile draft — source verification on HOLD"}</span><a href="{escape(person["creation_source_url"], quote=True)}">Inspect the original source</a>', "html.parser"))
+                destination.append(BeautifulSoup(f'<span>{"New WikiTree profile to create" if person["creation_ready"] else _hold_title(person["creation_status"])}</span><a href="{escape(person["creation_source_url"], quote=True)}">Inspect the original source</a>', "html.parser"))
             for link in soup.select('a[href]'):
                 if link.get_text(" ", strip=True) == "View the baptism source":
                     link.string = "Inspect the original source"

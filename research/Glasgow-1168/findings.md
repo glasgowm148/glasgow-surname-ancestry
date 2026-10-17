@@ -2,13 +2,13 @@
 
 ## Current conclusion
 
-**Stevenston working family, 16 October 2026:** James Glasgow younger is selected as Agnes’s uncertain working father; James elder, Edward and another local family remain alternatives. No mother or sibling proof is inferred. [Comparison and chronology](/branches/early-scottish-records/#agnes-stevenston-family).
+**Parentage review, 17 October 2026:** [William Glasgow (Glasgow-1098)](https://www.wikitree.com/wiki/Glasgow-1098) remains James’s selected **possible father, 38% subjective confidence**. His documented married son John in 1534 places William in a compatible generation for James, whose circa 1515 birth is estimated from his own adult son’s tenancy. Glasgow civic and Mathie–Glencairn contacts supply a plausible route to Corsankell, but do not distinguish William’s fatherhood from a collateral or other local origin. The existing percentage and uncertain attachment are retained; this is no new connection or confidence upgrade.
 
-James's own parentage remains unproved. [William Glasgow (Glasgow-1098), born
-about 1500](https://www.wikitree.com/wiki/Glasgow-1098) has now replaced John
-Glasgow-1093 as the attached father. William is chronologically possible, but no
-record joins his Glasgow-burgh family to Corsankell; mark the relationship
-uncertain.
+[Isobel/Esbell Brade (Brade-232)](https://www.wikitree.com/wiki/Brade-232) is assessed independently as James’s **uncertain mother, 28% subjective confidence**. Protocol 1196 proves her marriage to William and maternity of John, not James. She is the best named mother candidate conditional on William’s fatherhood, without independent maternal evidence. This first individual maternal estimate preserves the uncertain attachment and does not imply that the relationship has strengthened. Percentages express comparative research judgment, not measured probabilities.
+
+James may instead be William’s nephew or another collateral, a son of the older Saltmarket John provisionally represented by [Glasgow-1095](https://www.wikitree.com/wiki/Glasgow-1095), or descended from another local Glasgow household. Former father [John Glasgow-1093](https://www.wikitree.com/wiki/Glasgow-1093) is strongly disfavoured by the working generations; estimated births do not absolutely exclude him. No alternative is selected or assigned an invented percentage.
+
+**Stevenston working family, 16 October 2026, retained:** James Glasgow younger is selected as Agnes’s uncertain working father; James elder, Edward and another local family remain alternatives. No mother or sibling proof is inferred. [Comparison and chronology](/branches/early-scottish-records/#agnes-stevenston-family).
 
 The 1571 record proves two sons: **James Glasgow younger**, now represented by
 [Glasgow-3921](https://www.wikitree.com/wiki/Glasgow-3921), and **John Glasgow**,
@@ -50,8 +50,7 @@ called the elder James's son. If the younger James was at least about 18-21 in
 elder's birth around **1510-20**. A practical WikiTree estimate is **about 1515,
 uncertain**, or the more conservative **before about 1525**.
 
-This dating also explains why John-1093 is contradicted as the father while
-William-1098 remains chronologically possible.
+This dating makes John-1093 a much less comfortable father than William-1098 under the working generations. Both James’s and John’s birth dates are estimates, so this is a comparative chronology argument, not a contradiction between recorded ages. William’s birth date is unknown; the former circa 1500 label is not evidence.
 
 ## Source findings
 
@@ -109,12 +108,12 @@ executor and wider household. See the [focused analysis](../Glasgow-3908/mathie-
 - The two pre-1559 Great Seal charters for Corsankell name Cunningham superiors,
   not occupiers, so they do not identify the Glasgow family's arrival or origin.
 
-## WikiTree update instructions
+## Historical WikiTree update instructions — 19 July 2026
 
 Live profile checked **19 July 2026**. William-1098 is already the structured
 father; Glasgow-3921 and Glasgow-3193 are already the structured sons.
 
-### Remaining corrections
+### Corrections proposed at that date
 
 1. Detach [Agnes Glasgow (Glasgow-3178)](https://www.wikitree.com/wiki/Glasgow-3178).
    Her 1628 testament-calendar entry names her husband but no parent. Her live
@@ -140,7 +139,7 @@ father; Glasgow-3921 and Glasgow-3193 are already the structured sons.
 
 Edit summary: `Align uncertain relationship and death settings with the Corsankell evidence.`
 
-## Recommended correction applied
+## Historical corrections applied — 19 August to 27 September 2026
 
 Verified live **19 August 2026**: birth is about 1515 and uncertain; death is
 **after 9 February 1571** with no death place. Both early parent links are
@@ -200,3 +199,16 @@ Neither the two women’s sisterhood nor the two Logan husbands’ brotherhood i
 Agnes’s captured WikiTree birth field is blank. The public c.1610 display was an unsupported inherited estimate and cannot date a woman probably already married in 1601. Her actual birth remains unknown; “before 1601” is a conditional outer boundary from the probable sasine identity. The 1628 testament date is not an exact death date. Stevenston is in Ayrshire; the corrected death locality is an uncertain inference from her stated residence, not a recorded place of death.
 
 Existing sources: [1601 sasine index, p.128](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS3Q-47SZ-P?view=fullText&keywords=GLASGOW&searchForm=advanced&lang=en&groupId=M9QN-ZXH); [1628 testament index](https://www.findmypast.co.uk/transcript?id=SCOT%2FWILLS%2F057424&tab=this); [1559–60 Corsankell list, p.331](https://aanhs.org/wp-content/uploads/2018/05/people-of-ayrshire.pdf#page=36); [1571 father–son deed, GD39/5/59](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD39%2F5%2F59). No new original inspection. [Full comparison](/branches/early-scottish-records/#agnes-stevenston-family).
+
+
+## Combined origin review — 17 October 2026
+
+The 38% possible-father assessment is retained after reconsidering the existing evidence together. [Renwick, protocol 1196, vol. IV, p.72, 31 December 1534](https://archive.org/details/abstractsprotoc08robegoog/page/n84/mode/2up) establishes William and Esbell as parents of the married John. It supports the proposed parental generation, without treating William’s unsupported circa 1500 estimate as a recorded birth. [Sanderson’s 1559–60 teind list, p.331](https://aanhs.org/wp-content/uploads/2018/05/people-of-ayrshire.pdf#page=36) and [GD39/5/59, 9 February 1571](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD39%2F5%2F59) support James’s own generational estimate and proved sons.
+
+Mr Adam Wallace’s presence as a Glasgow burgess in the 1571 Corsinkell deed establishes a specific city-to-estate legal contact. The likely corresponding Glasgow bailie in [GD39/5/68, 26 April 1588](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD39%2F5%2F68) strengthens the civic identification, without explaining why he witnessed or identifying James’s father. The earlier phrase “no record joins the Glasgow-burgh family to Corsankell” is therefore too broad: the unresolved question is the particular link to William’s household.
+
+[Protocols 183–184, 10 May 1554, p.63](https://archive.org/details/abstractsprotoc07robegoog/page/n90/mode/2up) pair Robert Glasgow with David Mathy. The teind list places Mathies beside the Stevenston Glasgows, while later Mathie–Glencairn identities contain unresolved steps and postdate William. These connected observations describe one social corridor; they are not several independent demonstrations of James’s ancestry. Michael-3911’s selected William father was derived from James’s existing hypothesis and a possible brother/cousin comparison. It cannot be fed back as independent support for James → William. Michael’s adult witness occurrence in [GD39/1/59, 28 January 1549](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD39%2F1%2F59) supports his generation and estate association, not that father.
+
+The surviving alternatives concern the exact degree and origin. The 1527 and 1537 Corsankell charters name Cunningham superiors without identifying Glasgow tenants, so they neither prove nor exclude an earlier local Glasgow line. Negative testament and register searches are weak evidence. The absence of a literal father clause is not itself a reason to withhold an upgrade; the positive evidence currently fails to distinguish fatherhood from the collateral/local alternatives.
+
+Esbell’s separate 28% maternal assessment rests on her proved marriage and maternity of John in protocol 1196, combined with James’s compatible generation. Her public circa 1500 Glasgow birth is unsupported by the inspected record and her maintained findings; no birth correction is applied here. No record connects her personally to James. No new source inspection, live relationship change, new connection or confident-link upgrade is claimed. The July–September instructions above remain dated history; this section and the overall Current conclusion control the present origin assessment.

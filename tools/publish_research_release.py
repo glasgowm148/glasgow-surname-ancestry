@@ -39,6 +39,8 @@ def publish(*, render_people=True):
     runpy.run_path(str(ROOT / 'tools/repair_assessment_dates.py'))['repair'](ROOT / 'www')
     runpy.run_path(str(ROOT / 'tools/repair_claim_status.py'))['repair'](ROOT / 'www')
     runpy.run_path(str(ROOT / 'tools/publish_resolved_dossiers.py'))['publish']()
+    # Reapply approved map corrections after imports; raw map inputs are private.
+    runpy.run_path(str(ROOT / 'tools/project_record_locations.py'))['project'](ROOT / 'www', write=True)
     runpy.run_path(str(ROOT / 'tools/repair_evidence_source_links.py'))['repair']()
     runpy.run_path(str(ROOT / 'tools/build_research_catalog.py'))['sync_generated_profile_work_status']()
     runpy.run_path(str(ROOT / 'tools/publish_static_sources.py'))['main']()

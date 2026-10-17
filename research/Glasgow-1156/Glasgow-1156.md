@@ -10,6 +10,14 @@ His date and place of birth have not been identified.
 The burial entry does not state Robert's age, occupation, residence, spouse, parentage or children. It should not be assumed that every contemporary man named Robert Glasgow in Midlothian was the same person.
 
 == Research Notes ==
+=== Current family assessments — reaffirmed 17 October 2026 ===
+
+[[Glasgow-3163|Andrew Glasgow]] is the selected uncertain father of this Duddingston Robert at '''28%''', through possible identity with Andrew and [[Stevinsoun-2|Elizat Stevinsoun]]'s testament-defined son [[Glasgow-4006|Robert Glasgow]]. That identity is also assessed at '''28%''': the two figures express the same unresolved identification, not independent support. Andrew's documented fatherhood of the record-defined son remains '''99%'''. The compatible generation and broad Lothian setting favour this named child over the unsupported Archibald attachment, but no holding, occupation, spouse or named-relative bridge identifies the men. Elizat's maternity is direct for the testament child and depends on the same uncertain identity for this adult.<ref name="Andrew1598" />
+
+This Robert remains the '''probable father of [[Glasgow-1150|James Glasgow, Edinburgh weaver]], at 86%'''. The 1641 apprenticeship names father Robert with a Wester Duddingston association; the 1647 parish burial is the preferred identification of that father. The 1649 burgess entry repeats the master and exact apprenticeship date, securely identifying James, but supplies no second father clause. The burial gives no age, occupation, spouse or child, so its identity with the named father remains inferred.<ref name="JamesApprentice" /><ref name="JamesBurgess" /><ref name="RobertBurial" />
+
+These exact subjective estimates reaffirm the existing assessments; they are not new confidence upgrades. [[Glasgow-1097|Archibald Glasgow]] and [[Newlands-647|Isobell Newlands]] remain unselected parent alternatives, and the two Robert profiles remain separate. No new source or live family change is claimed. Earlier exclusion or attachment instructions retained below are dated assessment history; the selected uncertain Corsoun family described here is the current local conclusion.
+
 === Duddingston–Corsoun family review — 17 October 2026 ===
 
 The preferred local working parents of the Duddingston Robert are now Andrew Glasgow and Elizat Stevinsoun, through possible identity with their recorded son Robert-4006. The accepted 1597/8 testament expressly names Robert as Andrew’s son by Elizat and makes provision until he reached age. A minor then can fit the adult generation of the Robert buried at Duddingston in 1647 and the probable father of James the Edinburgh weaver. The retained circa-1582 and 1597/before-1597 dates are estimates or bounds, not two exact birth records in conflict. On the maintained, queried Calder-area reading of Andrew’s residence, this offers a positive named-child family candidate in the relevant broad Lothian comparison. The earlier Archibald/Isobell pair has no record naming the Duddingston Robert as its child. Prefer the recorded Corsoun family as the uncertain route, with both former parents retained as alternatives.
@@ -23,9 +31,9 @@ One paternal and one maternal working choice are replaced, affecting a child sid
 [https://glasgow.phenotype.dev/branches/research-calder-testament-household/#duddingston-corsoun-parents Full parent comparison and publication corrections].
 
 
-=== Earlier maintained research retained ===
+=== Earlier maintained research — superseded where stated, 17 October 2026 ===
 
-The dated comparison below records the current local choices; earlier readings and proposals are retained with their citations.
+The current family assessments above control the interpretation. Earlier readings and proposals are retained with their citations. In particular, the earlier refusal to select Andrew without a direct bridge is superseded by the 28% uncertain identity hypothesis; it is not a current attachment instruction.
 
 <blockquote>
 === Additional maintained research and prior wording ===
@@ -130,7 +138,7 @@ No inspected record states Robert's age or birthplace or supports either estimat
 
 Although Robert was buried in Scotland, the burial record does not establish that he was born there.
 
-=== Possible identification at Wester Duddingston ===
+=== Probable identification at Wester Duddingston ===
 
 On 16 June 1641 '''[[Glasgow-1150|James Glasgow]]''', son of a Robert Glasgow who was servant to William Crichtoun in Wester Duddingston, was apprenticed to William Sclaitter, weaver.<ref name="JamesApprentice">Francis J. Grant, ed., [https://archive.org/details/scottishrecordso28scotuoft/page/71/mode/2up ''Register of Apprentices of the City of Edinburgh, 1583–1666''] (Scottish Record Society, 1906), printed p. 71: “Glasgow, James, son to Robert G., servitor to William Crichtoun, in Wester Duddingston, with William Sclaitter, weaver 16 June 1641.”</ref>
 
@@ -141,7 +149,7 @@ The record directly proves that:
 * Robert was then a servant to William Crichtoun; and
 * James was apprenticed to William Sclaitter.
 
-The matching surname, Duddingston locality and compatible dates make the father named in 1641 a plausible candidate for the man buried there in 1647.
+The matching surname, Duddingston locality and compatible dates make the father named in 1641 the probable identity of the man buried there in 1647, assessed at '''86%'''. The earlier assessment, superseded 17 October 2026, was: “The matching surname, Duddingston locality and compatible dates make the father named in 1641 a plausible candidate for the man buried there in 1647.”
 
 The identification is not proved. Neither record supplies Robert's age, wife, occupation beyond the 1641 description, or another distinguishing relationship that securely joins the two entries.
 
@@ -163,7 +171,11 @@ The 1641 apprenticeship explicitly names Robert Glasgow, not Alexander Glasgow, 
 
 The two men should remain on separate profiles.
 
-=== Possible father ===
+=== Earlier Archibald father assessment — superseded locally 17 October 2026 ===
+
+Archibald remains the captured live father and an unselected local alternative. The current local selection is Andrew at '''28%''', conditional on identity with Andrew's recorded son. The earlier assessment below is retained with its supporting property evidence; it does not replace that current selection.
+
+<blockquote>
 
 '''[[Glasgow-1097|Archibald Glasgow]]''' is attached as Robert's uncertain father.
 
@@ -178,6 +190,7 @@ There is presently no direct evidence establishing the relationship. No baptism,
 There is likewise no known record identifying a different father for Robert, and no better-supported profile has been identified as a child of Archibald.
 
 Archibald may therefore remain attached as Robert's father with the relationship marked '''uncertain'''. The relationship should not be described as proved, probable or likely without further evidence.
+</blockquote>
 
 
 === Validator chronology note ===
@@ -231,7 +244,7 @@ There is also no evidence that Robert migrated from the burgh of Glasgow to Edin
 
 No inspected record identifies the wife of the Robert buried in 1647.
 
-James Glasgow is the only proposed child supported by a contemporary record naming a father called Robert Glasgow in Wester Duddingston. Even that identification remains uncertain because the apprenticeship record does not directly connect the father to the 1647 burial.
+[[Glasgow-1150|James Glasgow]] is the only proposed child supported by a contemporary record naming a father called Robert Glasgow in Wester Duddingston. Identification of that father with this burial account is now probable at '''86%''', while the live father flag remains uncertain. Earlier wording, superseded 17 October 2026, was: “James Glasgow is the only proposed child supported by a contemporary record naming a father called Robert Glasgow in Wester Duddingston. Even that identification remains uncertain because the apprenticeship record does not directly connect the father to the 1647 burial.” No mother or other child is upgraded.
 
 No other children should be attached without independent evidence.
 

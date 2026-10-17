@@ -7,6 +7,8 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
+**Individual father review, 17 October 2026:** [William Glasgow](https://www.wikitree.com/wiki/Glasgow-1098) remains the **probable father, 68% subjective confidence**. This evaluates the combined evidence and surviving identity/generation alternatives; it is not a measured frequency or a new record discovery. The existing uncertain WikiTree parent flag and family topology are unchanged. The exact estimate applies to this father–child pair only.
+
 **Preferred working family, 17 October 2026:** Andrew Glasgow-3163 and Elizat Stevinsoun-2 are now the selected **uncertain local parents** of Robert Glasgow-1156 through his possible identity with their testament-proved son Robert Glasgow-4006. Archibald Glasgow-1097 and Isobell Newlands-647 remain unselected uncertain/possible alternatives. The two Robert profiles remain separate; the recorded son’s documented parentage does not make the adult identification certain.
 
 Father assessment: [William Glasgow (1500)](https://www.wikitree.com/wiki/Glasgow-1098) is **probable on strong circumstantial evidence**, not proved by an explicit kinship formula.
@@ -26,6 +28,14 @@ A sale to an unrelated John or a close-cousin relationship remains possible,
 and the transfer instrument is missing. Keep William as Archibald's uncertain
 father in structured data, but the relationship can now be described as
 **probable/strong circumstantial**, rather than merely possible.
+
+## Individual father assessment — 17 October 2026
+
+The 1551 purchase east of Thomas Bargill, witnessed by Robert, and the 1554/55–1575 John boundary sequence support a connected property and family group. The 1551 act records purchase from Elizabeth Beith, not inheritance from William. Matching the rear parcels, identifying the boundary John with William’s proved son, and identifying Archibald as his brother are separate inferences. The earlier description of an exact succession is a title reconstruction; no inspected conveyance records Archibald transferring the parcel to John. Archibald’s estimated birth does not independently fix his generation. A nephew, cousin or purchaser association remains compatible. The 68% concerns the Archibald who acquired property with Isobell Neulands in 1551; the later Duddingston–Crichtoun–Edinburgh records do not supply a backward parentage bridge.
+
+The previous narrative grade was **probable; strong circumstantial**, retained here. The public rendering had mapped that wording to **strongly supported / Confident (90–99%)**, without an individual estimate; this review recommends **probable, 68%** in its place. This corrects the displayed confidence calibration rather than recording a newly connected father or a live certainty upgrade. Lack of an explicit kinship clause alone does not prevent a confident inference; the unresolved identities, title mechanism and family degree explain the remaining uncertainty in this case.
+
+Source basis: Renwick, Abstracts of Protocols, I 84, p.31, and 205, p.69; II 307, p.15, and 402, pp.41–42; VII 2241, p.129. The linked source table below retains the record references and earlier reviews. Existing maintained evidence was reassessed; no new original image or manuscript inspection is claimed.
 
 ## Source findings
 

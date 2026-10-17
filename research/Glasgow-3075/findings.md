@@ -5,6 +5,10 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
+Reviewed: 2026-10-17
+
+**William–Ninian review:** Ninian remains William’s selected possible father, now assessed individually at **38%**. The estate association, compatible generation and craft network favour him over the named alternatives, but the damaged text and unresolved adult identities do not warrant probable or confident status. No mother or family topology changes. See the combined reasoning and record locators below.
+
 Reviewed: 2026-10-16
 
 **Selected working families, 16 October 2026:** Matthew of Pyperheugh is placed under John Glasgow and Jonet Mathie, both uncertain and jointly very tentative. Margaret, the South Leith Lyell bride, is placed under William the Leith mealmaker, uncertain; her mother remains unknown and the Rathmalton daughter remains a compatible identity alternative. [Evidence and alternatives](/branches/early-scottish-records/#stevenston-leith-working-family).
@@ -110,8 +114,8 @@ William’s own possible Ninian father and the proved Archibald son remain uncha
 - [Renwick, protocols 183–184, 10 May 1554, printed p.63: Mathy and Glasgow co-witnesses](https://archive.org/details/abstractsprotoc07robegoog/page/n90/mode/2up)
 - [Margaret Glasgow-3186: captured South Leith marriage citation, 28 November 1633, OPR 692/2 90/264 FR3038](https://www.wikitree.com/wiki/Glasgow-3186)
 - [Findmypast SGS transcript: William Glascoe and Catherine Fraith, Leith, 10 July 1610](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FMAR%2F1447177%2F1)
-- [Grant, Edinburgh apprentices p.71: Archibald son of William, mealmaker in Leith, 23 October 1639](https://archive.org/details/scottishrecordso28scotuoft/page/71/mode/2up)
-- [Retours vol.2, general no.3278, 1 May 1647: Archibald heir of William, his father](https://archive.org/details/inquisitionumadc00grea_0)
+- [Grant, Edinburgh apprentices p. 71: Archibald son of William, mealmaker in Leith, 23 October 1639](https://archive.org/details/scottishrecordso28scotuoft/page/71/mode/2up)
+- [Retours vol. 2, general no.3278, 1 May 1647: Archibald heir of William, his father](https://archive.org/details/inquisitionumadc00grea_0)
 - [Betham, Old Series vol.3, GO MS225, handwritten p.90, viewer image97: Rathmalton will of April 1673](https://catalogue.nli.ie/Record/vtls000540633)
 - [Archibald Glasgow-1101: qualified Scottish baptism/graduate and Irish clerk identity](https://www.wikitree.com/wiki/Glasgow-1101)
 
@@ -124,3 +128,19 @@ Wm Glasgow is named as father of Issobell, born on 24 November and baptised on 2
 
 The Leith mealmaker is the leading possible existing identity for Wm because his established eastern-Lothian adult household and September 1644 death fit 1639. His Catherine Fraser and Christian Scot household comparisons neither prove nor by themselves exclude the Haddington occurrence; no remarriage, widowhood or overlapping marriage is inferred. [William Glasgow of Mid Calder](https://www.wikitree.com/wiki/Glasgow-1087) and [William Glasgow, baptised Inveresk in 1614](https://www.wikitree.com/wiki/Glasgow-3517), are genuine adult alternatives. No occupation or parish-to-parish bridge in the Haddington transcript chooses among them. The named child’s possible identification with [Issobell Glasgow of Mid Calder](https://www.wikitree.com/wiki/Glasgow-2454) is a separate, weak later-life comparison; it does not downgrade the direct parental statement in the Haddington event.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## William–Ninian father review — 17 October 2026
+
+Select [Ninian Glasgow-3188](https://www.wikitree.com/wiki/Glasgow-3188) as [William Glasgow-3075](https://www.wikitree.com/wiki/Glasgow-3075)’s best named working father at **38% subjective probability, possible/uncertain**. This is the first individual percentage for the previous unquantified possible assessment; it is not an upgrade to probable/confident, a new attachment or a newly inspected source.
+
+The positive case combines William’s occurrence in Ninian’s estate material, compatible generations and the craft-family comparison between Ninian’s documented son Robert (probably the Glasgow cordiner admitted in 1613) and William’s son Archibald (apprenticed to an Edinburgh cordiner in 1639). That gives Ninian a specific estate association absent from the competing father suggestions. The damaged passage does not securely identify William’s role or the support recipient; the debtor and damaged will occurrence may concern different men. The two cordiners are not shown to share a master or incorporation. William’s secure 1639/1646/1647 household records do not identify his father.
+
+The proposed 1610 Leith marriage to Catherine Fraith/Fraser strengthens the Leith household’s continuity, while weakening reliance on a simple move from the William/Christian Scot household recorded at Glasgow in 1612. Combining all those occurrences requires an unexplained marriage sequence. No death, remarriage or adult identity is asserted. The 1612 appearance therefore carries little independent weight in assigning William a Glasgow origin. Catherine’s unsupported 1600 birth estimate is not a documented exclusion.
+
+George Glasgow-1099 is weaker: his recorded 1598 marriage to Margaret Stewart is too late to comfortably explain a son marrying in 1610; an earlier child remains possible, but no record connects William to him. Andrew-3163 and Stephen-1029 have compatible generations without a William-specific bridge. The automated Robert-1156, James-991 and Edward-1557 comparisons rely chiefly on estimates, broad geography and descendant names. None displaces Ninian; sparse evidence is not a concrete exclusion.
+
+The Edinburgh/Leith women’s selected family placements partly depend on William’s proposed Ninian father. They cannot be counted back as independent support for that same link. William’s Andro-of-Woodhead and late-John-in-England debt connections have no stated kinship degree. Jonet Meik’s omission of William is not an exclusion and gives no positive maternity evidence: her possible motherhood remains separate. Robert’s conditional sibling relationship, Margaret-3186’s possible daughter link and Archibald’s later maltman identity are not upgraded.
+
+**Superseded readings:** the assertion that the testament “directly names a son William” or securely reads “his sone”, the description of Ninian as a flescher, and the description of William as a probable son named by that record. The manuscript supports fisher, and the decisive William relationship wording is physically lost. Retain those former readings as research history, not current facts. No literal father clause is required for a strong inference; this combined case remains limited by the unresolved identity and correlated network evidence.
+
+Sources: NRS **CC9/7/9, images 142–145**, particularly damaged image 143 and continuation image 144, existing 10 September original-image reread; NRS **CC9/7/5, images 82–83**, Jonet Meik, 1607; [archive wills search](https://www.scotlandspeople.gov.uk/search-records/legal-records/wills). Leith **10 July 1610**, **OPR 692/2/9, item4**, [SGS transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FMAR%2F1447177%2F1) and [FamilySearch-derived transcript](https://www.findmypast.co.uk/transcript?id=R_696111854%2F1), one event, original uninspected. Glasgow High Kirk **8 November 1612**, volume **1/962**, William/Christian Scot child; South Leith **20 March 1618**, [Archbald index FQM4-LYL](https://www.familysearch.org/ark:/61903/1:1:FQM4-LYL). [Anderson, Robert cordiner admission, 22 April 1613, derivative transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FBURGESS%2F0025946&tab=this); [Grant, Edinburgh Apprentices p. 71, 23 October 1639](https://archive.org/details/scottishrecordso28scotuoft/page/71/mode/2up); NRS **CC8/8/62, images 461–462**, confirmed **22 July 1646**, death September 1644; [Retours vol. 2, General 3278, 1 May 1647, original xix.128](https://archive.org/details/inquisitionumadc00grea_0). George’s marriage comparison: Renwick, **vol. 11, protocol 3492, pp. 86–87, 13 November 1598**, [printed abstract](https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/abstracts_of_protocols_of_the_town_clerks_of_glasgow__1900.pdf#page=103).

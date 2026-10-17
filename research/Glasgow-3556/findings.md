@@ -7,6 +7,8 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
+**Identity review, 17 October 2026:** retain Archibald as probable father at **86%**. [Thomas Glasgow M.A. (Glasgow-3413)](https://www.wikitree.com/wiki/Glasgow-3413), Edinburgh graduate in 1670, is a **22% possible identity candidate** for this Lifford man; preserve the two profiles and all existing parent assessments. These are separate subjective judgments, not evidence for a merge or a father replacement.
+
 
 
 **Killybegs working family, 17 October 2026:** James Glasgow-3001, the collector in the retrospective Killybegs tax-balance return, is selected as an **uncertain working son**. Archibald remains a possible older-family placement for James; Thomas’s probable father and other children keep their existing grades.
@@ -96,7 +98,7 @@ named. The archival transcription was read; the manuscript image was not.
 Suggested edit summary: `Add the 1689 Lifford occurrence and qualify birth, status and proposed kinship.`
 
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-d086eba57157 -->
-## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-d086eba57157
+## Record assessment — Findmypast Glasgow surname evidence fmp-glasgow-d 086eba 57157
 
 The transcript-validated court record record for **Thomas Glasgow**, 02/03/1692, Dublin, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
 
@@ -162,3 +164,13 @@ One uncertain local father is newly selected; no confidence upgrade or documenta
 Sources: [House of Commons, Finance Accounts for 1825 ended 5 January 1826, Class VII, No.123, printed p.201 (scan leaf219): Killybegs, James Glasgow, 1728, £34 5s 6d; visually checked 17 October 2026](https://archive.org/details/parliamentarypa27commgoog/page/n219/mode/1up); [Same return, printed p.198 (scan leaf216): Land and Assessed Taxes, Ireland; deceased and dismissed collectors’ balances as at 5 January 1826; visually checked 17 October 2026](https://archive.org/details/parliamentarypa27commgoog/page/n216/mode/1up); [Thomas of Lifford/Raphoe: maintained primary court and estate source table, 1684–1701](https://glasgow.phenotype.dev/people/glasgow-3556.html#sources); [Betham GO MS225, vol.3 p.90/image97: Archibald’s April1673 will abstract names eldest son Thomas; inspected 30 September 2026; older-family alternative](https://catalogue.nli.ie/Record/vtls000540633).
 
 [Full comparison and alternative family placements](/branches/research-irish-belfast-donegal/#chapter-killybegs-working-family).
+
+## Edinburgh graduate identity comparison — 17 October 2026
+
+[Thomas Glasgow M.A. (Glasgow-3413)](https://www.wikitree.com/wiki/Glasgow-3413), recorded as an Edinburgh graduate in 1670, is a **22% possible identity candidate** for [Thomas of Lifford (Glasgow-3556)](https://www.wikitree.com/wiki/Glasgow-3556). The uncommon name, educated adult generation and compatible sequence before the 1684–1701 Donegal legal/property records support keeping the comparison active. No Donegal locality, estate, associate or named relative joins the graduate to Lifford. His attachment to [Edinburgh Thomas (Glasgow-3187)](https://www.wikitree.com/wiki/Glasgow-3187) is explicitly unproved and cannot exclude Archibald’s fatherhood. This is an identity candidate, not a selected father replacement or permission to merge.
+
+The possible 24 July 1679 Carstairs banns/marriage with Gyles Spence is separately indexed at OPR 633/10 /37; neither that couple’s identification with the graduate nor a connection to Lifford is established. An event in Scotland in 1679 would not itself contradict Donegal activity from 1684. Preserve it as a separate candidate event, without transferring a wife to the Lifford man. The older [Thomas baptised in 1612 (Glasgow-1103)](https://www.wikitree.com/wiki/Glasgow-1103) would be about 89 in 1701, so the graduate has the better generational fit; age alone does not prove or absolutely exclude either identity.
+
+Sources: *A Catalogue of the Graduates in the Faculties of Arts, Divinity, and Law of the University of Edinburgh*, [p.100, 1670 graduate list](https://archive.org/details/catalogueofgr10600univuoft/page/100/mode/2up), existing profile citation; Scotland’s People, [Old Parish Registers, Carstairs banns/marriages, 24 July 1679, OPR 633/10 /37](https://www.scotlandspeople.gov.uk/), supplied index, original image not inspected. The graduate citation and prior parent assessment are reused from the maintained accounts; no new original record was inspected.
+
+The existing **86% probable father** assessment for Archibald is retained. PRONI D1939/21/3 describes Thomas’s **purchase** of the Lifford interest; it does not establish inherited Ramelton property. Betham GO MS 225 p.90/image 97 names an eldest son Thomas but gives no age, residence, spouse or estate. No new father connection, confidence upgrade or maternity follows from the graduate comparison.

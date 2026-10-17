@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "scope": "Explicitly dated, recoverable new concrete record findings and supported factual corrections. Dates and explicit date ranges are research retrieval, supplied-record review or original-reading dates stated in the maintained evidence, not the dates of historical events or file modification. Undated historical conclusions, pure confirmations, speculative parent rankings, negative searches and routine profile/build activity are excluded. This is a recoverable dated history, not an exhaustive account of all past research.",
+  "scope": "Explicitly dated, recoverable concrete record findings, supported factual corrections, reviewed relationship assessments and selected working family connections. Dates and explicit date ranges are research retrieval, supplied-record review, original-reading or explicitly dated relationship-review dates stated in maintained evidence, not historical event dates or file modification. Entries based on earlier checked readings identify that reuse and do not imply fresh original inspection. Selected uncertain links retain their individual probabilities, dependencies, alternatives and prior assessment; record-defined kinship is distinguished from adult identity. Undated conclusions, pure confirmations, unselected speculative parent rankings, negative searches and routine profile/build activity are excluded. This is a recoverable dated history, not an exhaustive account of all past research.",
   "findings": [
     {
       "id": "larne-session-extracts-belong-to-1700-1701",
@@ -31444,6 +31444,156 @@
         }
       ],
       "detail_url": "/people/glasgow-1538.html#research-findings"
+    },
+    {
+      "id": "inishrush-john-selected-james-father-review-2026-10-17",
+      "found_on": "2026-10-17",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "James Glasgow, the older Larne ropemaker, is selected as John Glasgow of Inishrush and Ohio’s very uncertain working father at 18%. The separate identification with the 1831 Inishrush householder is assessed at 94%.",
+      "qualification": "The 18% father choice depends on John-822 and Adam-3902 being brothers and on Adam’s existing James-1509 father hypothesis, assessed separately at 27%. The two inferences are correlated, not independent corroboration. Their nine-year age gap, Inishrush households, family-news network and repeated James name support the collateral comparison; no record names John’s father. The Bible naming pattern leaves an older Adam and Maria as the stronger unnamed parent model; cousinship and other local families remain alternatives. No mother is selected. The 94% same-person assessment concerns John-822 and the record-defined 1831 John-3927 only: it does not strengthen the paternal hypothesis, merge profiles or transfer John-3927’s captured placeholder father. Previously checked family-register, letter, census-transcription and Larne readings are reused; no fresh original-source inspection or live WikiTree edit is claimed. The new father is a local working connection; John-822’s non-managed profile remains outside live relationship-editing scope.",
+      "people": [
+        {
+          "id": "Glasgow-822",
+          "name": "John Glasgow of Inishrush and Ohio",
+          "url": "/people/glasgow-822.html"
+        },
+        {
+          "id": "Glasgow-1509",
+          "name": "James Glasgow, Larne ropemaker",
+          "url": "/people/glasgow-1509.html"
+        },
+        {
+          "id": "Glasgow-3902",
+          "name": "Adam Glasgow of Inishrush",
+          "url": "/people/glasgow-3902.html"
+        },
+        {
+          "id": "Glasgow-3927",
+          "name": "John Glasco, 1831 Inishrush householder",
+          "url": "/people/glasgow-3927.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "John Glasgow family-register account, including the nine-child naming sequence; previously checked reading",
+          "url": "https://hiltner.com/mckeown/getperson.php?personID=I368&tree=tree1"
+        },
+        {
+          "title": "John Glasgow to Jane Glasgow Gray, 20 March 1847; maintained letter reading reused",
+          "url": "https://www.hiltner.com/mckeown/documents/John%20Glasgow%20letter%20to%20Jane%20Glasgow%20Gray%203-20-1847.pdf"
+        },
+        {
+          "title": "1831 Tamlaght O’Crilly census transcription, Inishrush, entry 1019; identity evidence, not a parent clause",
+          "url": "https://genealogy.torrens.org/BannValley/church/Tamlaght/1831census_3.html"
+        },
+        {
+          "title": "McKeown Bible household account; maintained reading supporting the identity comparison",
+          "url": "https://www.hiltner.com/mckeown/getperson.php?personID=I1&tree=tree1"
+        }
+      ],
+      "detail_url": "/people/glasgow-822.html",
+      "provenance": [
+        "research/Glasgow-822/findings.md",
+        "research/Glasgow-3927/findings.md",
+        "research/relationship_assessments.json",
+        "research/relationship_probability_estimates.json"
+      ]
+    },
+    {
+      "id": "quothquan-bessie-sibling-working-father-hold-2026-10-17",
+      "found_on": "2026-10-17",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "The 1650 Quothquan executrix Bessie Glasgow receives one consolidated record account: her sibling relationship to John Glasgow is assessed at 99%, and Stephen Glasgow is her conditional uncertain working father at 22%. Identity remains on HOLD with eight surviving candidates.",
+      "qualification": "CC 14/5/5 calls Bessie John’s lawful sister and later calls John her brother: two clauses in one testament, not independent records. The 99% applies to that record-defined pair. The 22% father placement extends John-3296’s existing Stephen-1029 hypothesis to his documented sister; it adds no independent evidence for Stephen’s paternity. No mother is inferred. Eight existing Bessie/Elizabeth Glasgow profiles remain unselected identity candidates, with unequal strengths; no new WikiTree profile, distinct person count or identity merger is claimed. Bessie Robertson, the deceased Montfoid spouse in the 1610 estate, remains separate. The maintained 10 September original-image review and earlier protocol readings are reused; the 17 October work is an identity/relationship assessment and candidate audit, not fresh original inspection. The complete sourced draft remains HOLD until identity is resolved.",
+      "people": [
+        {
+          "id": "record-bessie-lanark-1650",
+          "name": "Bessie Glasgow, Quothquan executrix",
+          "url": "/people/record-bessie-lanark-1650.html"
+        },
+        {
+          "id": "Glasgow-3296",
+          "name": "John Glasgow of Quothquan",
+          "url": "/people/glasgow-3296.html"
+        },
+        {
+          "id": "Glasgow-1029",
+          "name": "Stephen Glasgow",
+          "url": "/people/glasgow-1029.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "NRS Lanark Commissary Court CC 14/5/5, images 65–66, John Glasgow in Quodquen, confirmed 27 May 1650; sibling clauses checked in the maintained 10 September review",
+          "url": "https://www.scotlandspeople.gov.uk/search-records/legal-records/wills"
+        },
+        {
+          "title": "Grant, Commissariot Record of Lanark, printed p.38, PDF p.50: 27 May 1650 estate calendar; the original supplies the sibling relationship",
+          "url": "https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/the_commissariot_record_of_lanark__register_of_testaments__1595-1800_~_1903.pdf#page=50"
+        },
+        {
+          "title": "Glasgow protocol 2189, 17 June 1575, printed p.110; Stephen’s adult generation, not Bessie’s parentage",
+          "url": "https://archive.org/details/abstractsprotoc00robegoog/page/n126/mode/2up"
+        },
+        {
+          "title": "Glasgow protocol 2431, 25 June 1582; Stephen and Margaret Grahame, not a named mother for Bessie",
+          "url": "https://archive.org/details/abstractsofproto08glas/page/56/mode/2up"
+        }
+      ],
+      "detail_url": "/people/record-bessie-lanark-1650.html",
+      "provenance": [
+        "surname-research/new-people/1650_Scotland_Lanark_Bessie_Glasgow.md",
+        "research/Glasgow-3296/findings.md",
+        "research/relationship_assessments.json",
+        "research/relationship_probability_estimates.json"
+      ]
+    },
+    {
+      "id": "cross-broughshane-locality-father-review-2026-10-17",
+      "found_on": "2026-10-17",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "The Cross household is located near Broughshane, with the later holding in Ballyclug parish, rather than assigned from a generic Ballymoney place match. John Glasgow-1657 is assessed at 84% as the father of the already-attached Cross farmer John-2407.",
+      "qualification": "The 1836 death notice explicitly says Cross near Broughshane; the 1862 valuation records a John Glasgow holding at Cross in Ballyclug. The younger man’s 1865 marriage names his father John Glasgow, farmer, and his 1874 death places him at Cross aged 65. That combined locality and generation support the 84% identification; the certificate’s named father role is documented, but identity with the 1836 decedent remains probable. Holding continuity does not prove inheritance. Glenleslie John-1022 remains an alternative, no mother is inferred and John-1657’s own father stays unselected and unrated. This is an existing-link confidence review and geographical correction, not a newly connected branch. Previously checked notice, valuation and civil-record readings are reused; no fresh original inspection or live field change is claimed.",
+      "people": [
+        {
+          "id": "Glasgow-1657",
+          "name": "John Glasgow of Cross, near Broughshane",
+          "url": "/people/glasgow-1657.html"
+        },
+        {
+          "id": "Glasgow-2407",
+          "name": "John Glasgow, farmer of Cross",
+          "url": "/people/glasgow-2407.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Belfast Commercial Chronicle, 10 August 1836, p.3, BL/0001287/18360810/010; Cross near Broughshane; maintained reading",
+          "url": "https://www.britishnewspaperarchive.co.uk/viewer/bl/0001287/18360810/010"
+        },
+        {
+          "title": "Griffith’s Valuation, Ballyclug, 23 January 1862, IRE/GRIFF/003/003068/001/1; Cross holding, not proved inheritance",
+          "url": "https://www.askaboutireland.ie/griffith-valuation/"
+        },
+        {
+          "title": "John Glasgow and Rachel Grey, civil marriage, 11 September 1865; named father John Glasgow, farmer",
+          "url": "https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1865/11578/8260226.pdf"
+        },
+        {
+          "title": "John Glasgow, civil death, 27 January 1874, Cross, aged 65",
+          "url": "https://civilrecords.irishgenealogy.ie/churchrecords/images/deaths_returns/deaths_1874/020673/7253774.pdf"
+        }
+      ],
+      "detail_url": "/people/glasgow-1657.html",
+      "provenance": [
+        "research/Glasgow-1657/findings.md",
+        "research/Glasgow-2407/findings.md",
+        "research/canonical_records.json",
+        "research/relationship_assessments.json"
+      ]
     }
   ]
 }

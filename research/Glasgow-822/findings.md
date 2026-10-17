@@ -1,8 +1,16 @@
 # Findings: Glasgow-822
 
-Last updated: 2026-10-07
+Last updated: 2026-10-17
 
-## Current conclusion and tree action
+## Current conclusion
+
+Reviewed 17 October 2026. **[James Glasgow, the older Larne ropemaker (Glasgow-1509)](https://www.wikitree.com/wiki/Glasgow-1509) is selected as John's VERY UNCERTAIN working father, at 18% confidence. No mother is selected.** This is a subjective assessment of the combined evidence, not a measured probability or a proved pedigree. John and [Adam of Inishrush (Glasgow-3902)](https://www.wikitree.com/wiki/Glasgow-3902) were nine years apart and headed the only two Glasgow households in the 1831 parish return. John's 1847 letter maintains an intimate Inishrush/Tyanee family-news network; James occurs among both men's children. These facts positively favour a brother or close-collateral comparison. Extending the already selected James-to-Adam hypothesis supplies a named working father for John, but depends on two correlated inferences: brotherhood and Adam's own uncertain paternity. It is consequently weaker than the separately assessed James-to-Adam link (27%). Neither selected relationship is independent corroboration of the other.
+
+John's Bible sons Adam–James–John and daughters beginning Rose–Maria favour an **older Adam and Maria as the stronger unnamed parent model**. This remains an active rival, without inventing people or generations. Cousinship with Adam-3902 and the older local Hugh households remain alternatives. Adam-3902 himself was about nine at John's birth and is excluded as his father. James's documented Larne trade/property trail establishes a real older man of a compatible generation, not a Larne-to-Inishrush migration or a named son John. The reported Janet Shutter marriage supplies no independently established maternity for John.
+
+Separately, **John-822's identity with [Glasgow-3927, the 1831 Inishrush householder](https://www.wikitree.com/wiki/Glasgow-3927), is assessed at 94%**. The Bible household reconstruction, the grandson's Inishrush birth and Joseph Orr baptism, the Drimbolg account, the 1847 letter and emigration between the 1831 return and 1833 Ohio deed converge. The denomination column remains disputed. This strong identity assessment does not validate either man's ancestry; it does not merge profiles or change Glasgow-3927's captured placeholder father. The selected local father is a proposed new uncertain relationship for John-822, not a confident upgrade or live WikiTree save.
+
+The underlying [family register](https://hiltner.com/mckeown/getperson.php?personID=I368&tree=tree1), [1847 letter](https://www.hiltner.com/mckeown/documents/John%20Glasgow%20letter%20to%20Jane%20Glasgow%20Gray%203-20-1847.pdf), [1831 census, entry 1019](https://genealogy.torrens.org/BannValley/church/Tamlaght/1831census_3.html), [McKeown Bible transcription](https://www.hiltner.com/mckeown/getperson.php?personID=I1&tree=tree1), [1760 ropewalk lease](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSH3-S7XZ-8) and [1773 age affidavit](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSH3-M72W-M) retain their individual limits below. A parent-naming family, estate or church record remains the next discriminator. The September and early-October assessments below preserve the prior unattached conclusion and its source basis; the 17 October selection supersedes their instruction to leave John-822 without a working father.
 
 [Compare the Larne, Inishrush and American family reconstruction](/people/glasgow-951.html#larne-reconstruction), including the alternative immediate-parent routes and their source tests.
 
@@ -17,7 +25,7 @@ alternative, while no record names either of John's parents. The Bible weakens
 Alexander `Glasgow-951` as a proposed child of John and Mary; it does not decide
 wider Lisnagaver kinship.
 
-### Master reassessment, 5 September 2026
+### Prior unattached assessment, 5 September 2026
 
 The Bible's nine-child sequence contains no Alexander. This substantially
 weakens any proposal that John and Mary Arthur were Alexander `Glasgow-951`'s
@@ -124,7 +132,7 @@ change the exact relationship from inferred to proved.
 | Placement relative to Adam | Assessment | Reason |
 | --- | --- | --- |
 | Son | Contradicted | Adam was about nine when John was born. |
-| Brother | Plausible, but insufficient for attachment | Only nine years apart; separate households in the same townland; John fits the Drimbolg elder; patterned naming and the 1847 news support association. No record names a shared parent or uses a kin term, and the census denomination is disputed. |
+| Brother | Selected working inference, unproved; earlier review withheld attachment | Only nine years apart; separate households in the same townland; John fits the Drimbolg elder; patterned naming and the 1847 news support association. No record names a shared parent or uses a kin term, and the census denomination is disputed. |
 | Cousin | Plausible alternative | The records never expressly name a shared parent. |
 | Unrelated namesake | Possible but weaker | Requires two contemporary Covenanter John Glasgows associated with the same Inishrush/Drimbolg setting after the false Ohio evidence is removed. |
 
@@ -142,9 +150,7 @@ This is stronger than simply observing that John used the names Rose and Adam,
 but it remains circular if used to create the very parents it is meant to test.
 His sons fall in the order `Adam - James - John`, matching the traditional
 Scottish paternal-grandfather, maternal-grandfather, father sequence; his second
-daughter was Maria, the conventional paternal-grandmother position. Keep the
-shared parents unnamed structurally until a record supplies them, but preserve
-older Adam and Maria only as search terms, not attached people.
+daughter was Maria, the conventional paternal-grandmother position. The older Adam and Maria remain an unnamed alternative, not attached people. The 17 October model selects the named James-1509 hypothesis at 18% while retaining this stronger unnamed rival; it does not turn the naming reconstruction into a documented family.
 
 ## Relationship to Hugh Glasgow-548
 
@@ -170,20 +176,22 @@ into 1758.
    another correctly identified household member. Do not delete or detach it
    wholesale; remove only an incorrect attachment to John himself.
 2. `Glasgow-3927` is the existing record-defined profile for the 1831 Inishrush
-   John. Do not create another profile; leave its parents blank and do not attach it to
-   `Glasgow-3905`; the shared-parent and brother hypotheses are not proved.
+   John. Do not create another profile. Preserve its captured parent field during
+   this identity review; the shared-parent and brother hypotheses are not proved.
 3. Submit or maintain a merge proposal with `Glasgow-822`, leave it pending, and transfer no
    precise dates or family until the identity review accepts the match.
-4. Detach any existing Glasgow-3927/Glasgow-822 child link from `Glasgow-3905`.
-   Do not attach the placeholder beneath John-549 or Robert-550 either.
+4. The earlier detachment recommendation is superseded: preserve Glasgow-3927's
+   captured placeholder relationship. Select James-1509 only as John-822's new
+   very uncertain local working father (18%), without a mother. Do not attach
+   the placeholder beneath John-549 or Robert-550 or treat it as an identified ancestor.
 
 ## Paste-ready relationship note
 
 ```wikitext
-John is the strongest proposed identity match for the John Glasco who headed a household at Inishrush in the 1831 census. Published transcriptions disagree about its denomination, so that field remains unresolved. His family register and 1847 letter connect him personally to Inishrush. A separate Bible records that his grandson John Glasgow McKeown was born at Inishrush in 1821 and baptised by Rev. Joseph Orr, the minister associated with the Drimbolg congregation in which a John Glasgow appears in 1809 and as an elder in 1827. His Bible sons occur as Adam, James and John, matching the traditional Scottish positions for paternal grandfather, maternal grandfather and father; the second daughter Maria occupies the usual paternal-grandmother position. The four surviving household males also reproduce the 1831 total exactly. John's 1847 letter relayed intimate Irish news about a James Glasgow and Henry Barkly's daughter in the same Inishrush-Tyanee network as Adam's proved son James and daughter Nancy. The 1830 Ohio census previously cited for John belongs to a man aged 40-49, whereas this John was 63, and the Bible gives no place for son James's 1823 death. The cumulative case strongly supports the proposed identity, but it does not establish brotherhood with Adam; cousin or another collateral relationship remains possible. Leave the parents blank and any merge proposal pending for review.
+John is the strongest proposed identity match for the John Glasco who headed a household at Inishrush in the 1831 census. Published transcriptions disagree about its denomination, so that field remains unresolved. His family register and 1847 letter connect him personally to Inishrush. A separate Bible records that his grandson John Glasgow McKeown was born at Inishrush in 1821 and baptised by Rev. Joseph Orr, the minister associated with the Drimbolg congregation in which a John Glasgow appears in 1809 and as an elder in 1827. His Bible sons occur as Adam, James and John, matching the traditional Scottish positions for paternal grandfather, maternal grandfather and father; the second daughter Maria occupies the usual paternal-grandmother position. The four surviving household males also reproduce the 1831 total exactly. John's 1847 letter relayed intimate Irish news about a James Glasgow and Henry Barkly's daughter in the same Inishrush-Tyanee network as Adam's proved son James and daughter Nancy. The 1830 Ohio census previously cited for John belongs to a man aged 40-49, whereas this John was 63, and the Bible gives no place for son James's 1823 death. The cumulative case strongly supports the proposed identity, but it does not establish brotherhood with Adam; cousin or another collateral relationship remains possible. The separate identity assessment is 94%; the selected James Glasgow-1509 father hypothesis is very uncertain at 18%, with the older Adam/Maria naming model retained. No mother is selected; any merge proposal remains pending for review.
 ```
 
-## Current conclusion — military and medical notices, 1816–1839; identity unresolved, 5 October 2026
+## Dated record assessment — military and medical notices, 1816–1839; identity unresolved, 5 October 2026
 
 Eight inspected newspaper notices document successive military-medical roles or status changes under the names J. Glasco, John Glasco, and Glasco. The 1816 J. Glasco to 1822 John Glasco connection is probable because the 1822 notice places John on half-pay of the 59 th Foot; it is not explicit. The August 1826 notice calls a retiring surgeon “John Glasco, sen.”, while the December 1836 notice names Staff-Surgeon John Glasco appointed at Liverpool after employment in Grenada. The senior 1826 retiree may be a different man from the later staff surgeon. The 1838 Liverpool subscription and 1839 half-pay retirement are compatible with a later career sequence but do not resolve all links. No existing profile is assigned.
 
@@ -203,7 +211,7 @@ A £1 Curran Monument subscription list includes “Staff-Surgeon Glasco, Liverp
 
 Under Hospital Staff, Surgeon A. Sinclair, M.D., from the 25th Foot, was appointed vice John Glasco, who retires upon half-pay. Full name and retirement upon half-pay are stated; exact effective date was not seen. Links among this John, the 1836–1838 staff surgeon and the senior 1826 retiree remain qualified. [The Drogheda Argus and Leinster Journal, 1839-09-28, p.4](https://www.newspapers.com/image/1259428783/)
 
-## Current conclusion — J. Glasco Dublin parish appeal signatory, 1838, 5 October 2026
+## Dated record assessment — J. Glasco Dublin parish appeal signatory, 1838, 5 October 2026
 
 This proves a signatory association with the appeal only. It does not establish occupation, age, family, residence, contribution amount or attendance. The 27 November issue is a reprint of the same planned event (“THIS DAY”), not proof of a second act.
 
@@ -226,11 +234,11 @@ A request by parishioners of St Andrew’s parish in Dublin, including St Mark�
 <!-- larne-kilwaughter-audit-2026-10-06:followup-routes -->
 ## Relationship assessment — Larne routes and Y-DNA priority, 6 October 2026
 
-The conditional extension above is unchanged: James Glasgow-1509 as father of Adam, and so possibly of John, is a working hypothesis with no record.
+At the 6 October review, James Glasgow-1509 as father of Adam, and so possibly of John, remained an unselected working hypothesis with no parent-naming record. The 17 October review selects the latter link at 18% without changing that documentary limitation.
 
 The audit of 6 October 2026 withdrew the earlier routes from Larne to Alexander Glasgow-951 through older Alexander Glasgow-3904 and younger James Glasgow-3986. Alexander's probable father is John Glasgow, farmer, and any Larne connection must join above him. The Inishrush comparison therefore does not by itself connect the Lisnagaver family.
 
-The Inishrush Y-DNA kit has no SNP result and its pedigree is unverified. In the testing recommendation of the same date it is a lower priority for a Big Y upgrade than the two Kilwaughter kits. No relationship is changed. [Recommendation](/people/glasgow-951.html#next-research).
+The Inishrush Y-DNA kit has no SNP result and its pedigree is unverified. In the testing recommendation of the same date it is a lower priority for a Big Y upgrade than the two Kilwaughter kits. That 6 October testing recommendation changed no relationship. The later 18% selection does not use Y-DNA as proof. [Recommendation](/people/glasgow-951.html#next-research).
 
 <!-- repo-integration-audit-2026-10-07:L04-011 -->
 ## Source findings — Ohio census and burial index entries, from the 30 September 2026 profile audit

@@ -1,15 +1,15 @@
 # Glasgow-994 research findings
 
-Last updated: 2026-09-10
+Last updated: 2026-10-17
 
 
 ## Current conclusion
 
-Reviewed: 2026-10-15
+Reviewed: 2026-10-17
 
-The Inveresk index identifies Eduard as a child of James Glasgow in 1609. Identity with Edward indexed beside Alexander in the Fisherrow sasines of 1624 or 1646 is compatible and unproved. This is an alternative within James-991’s proposed household; the property association need not lead to Edward-1557’s tentative Corsankell line.
+The Inveresk index identifies Eduard as a child of James Glasgow in 1609. Prefer him as the **possible identity of Edward at 14 February 1646, RS25 33/258, at 43%**, from his adult generation and existing local James-family comparison. For **8 July 1624, 9/135**, he remains an alternative at **30%**, while [Edward Glasgow-1557](https://www.wikitree.com/wiki/Glasgow-1557) is preferred at **56%**. These are separate subjective identity assessments, not proved kinship, a statistical measurement or a father change. [Edward Glasgow-1558](https://www.wikitree.com/wiki/Glasgow-1558) remains viable for both records; minority alone excludes neither younger man. This household interpretation does not establish a Corsankell connection. The dated review below supersedes the earlier unranked identity list.
 
-## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-7cbeb1492d76
+## Record assessment — Findmypast Glasgow surname evidence fmp-glasgow-7cbeb1492d76
 
 The transcript-validated baptism record for **Eduard Glasgow**, 1609, Inveresk with Musselburgh, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
 
@@ -45,3 +45,11 @@ Original image not inspected for this batch. The combined collection’s date do
 This profile’s 1609 Inveresk record names father James (supplied Scotland’s People index, 27 February 1609, OPR 689/10/13; saved Findmypast transcripts R_686174177 and R_693575445 give birth year 1609 and father James, without an exact day). A man baptised near that date would be about 37 in 1646. It is a compatible comparison, alongside [Edward-1557](https://www.wikitree.com/wiki/Glasgow-1557) and [Edward-1558](https://www.wikitree.com/wiki/Glasgow-1558).
 
 The [1624 printed index, pp.187–188](https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481057&seq=194), also inspected, has Edward in Fischerraw sharing 9/135 with James the tailor and his son Alexander. Eduard-994 would be about fifteen if baptised near birth; minority alone does not exclude a land instrument. Neither Edward occurrence names a father, and the attached James-991 identity does not prove that Eduard and Alexander are brothers. Read RS25 9/135 and 33/258 for age, capacity, kin and prior title. No family relationship or identity is upgraded.
+
+## Separate Fisherrow identity assessments — 17 October 2026
+
+Eduard’s supplied index date, **27 February 1609, Inveresk and Musselburgh OPR 689/10/13**, names father James. The accepted Findmypast transcripts **R_686174177** and **R_693575445** reproduce the indexed year and father, but are not separate baptismal events and give no exact day. If baptised near birth, Eduard was approximately 37 in 1646. That generation and his existing local [James Glasgow-991](https://www.wikitree.com/wiki/Glasgow-991) family account make him the slight preference for Edward sharing **33/258** with [Alexander Glasgow-1148](https://www.wikitree.com/wiki/Glasgow-1148) and James, weaver. The [printed index, pp.159–160](https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481222&seq=167), supplies no Edward residence, father or transaction capacity. The original instrument is unread. Identity allocation: **Eduard-994 43%; Edward-1558 30%; Edward-1557 20%; another Edward 7%**. This does not prove Eduard and Alexander brothers or identify James the weaver.
+
+For the earlier [1624 index, pp.187–188](https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481057&seq=193), **8 July 1624, 9/135**, Eduard would be approximately fifteen. Edward-1557, already an Inveresk father, is the preferred adult comparison. Allocation: **Edward-1557 56%; Eduard-994 30%; Edward-1558 8%; another Edward 6%**. A minor could be named in a land instrument, so Eduard and the approximately nine-year-old Edward-1558 remain viable. These percentages are subjective judgments, not measured probabilities or an assertion that both occurrences must identify the same man.
+
+The printed family clauses distinguish James the tailor’s wife [Christina Bye/Bie-55](https://www.wikitree.com/wiki/Bie-55) from Alexander’s wife [Janet Clerk-296](https://www.wikitree.com/wiki/Clerk-296). James-991 → Alexander retains its existing **probable, 84%** assessment; the claimed maternal detail in the 1614 William baptism has not been independently verified. Edward-1557’s existing James-3921 father remains **uncertain, 18%**; neither sasine identity supplies a Corsankell parent. Original sources and all competing profiles remain separate, with no new person, mother, sibling or father selected.

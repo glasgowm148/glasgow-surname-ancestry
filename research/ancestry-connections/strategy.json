@@ -3787,6 +3787,94 @@
         "confident_changes": 0,
         "interpretation": "One conditional paternal connection joins existing profile accounts, some possibly representing the same adult. The metric does not prove every descendant link or the proposed adult identity."
       }
+    },
+    {
+      "id": "inishrush-john-james-working-father",
+      "year": 1767,
+      "title": "John of Inishrush joins James’s working family",
+      "status": "New selected very uncertain father, 18%",
+      "people": [
+        {
+          "id": "Glasgow-822",
+          "name": "John Glasgow of Inishrush and Ohio",
+          "url": "/people/glasgow-822.html"
+        },
+        {
+          "id": "Glasgow-1509",
+          "name": "James Glasgow, Larne ropemaker",
+          "url": "/people/glasgow-1509.html"
+        },
+        {
+          "id": "Glasgow-3902",
+          "name": "Adam Glasgow of Inishrush",
+          "url": "/people/glasgow-3902.html"
+        },
+        {
+          "id": "Glasgow-3927",
+          "name": "John Glasco, 1831 Inishrush householder",
+          "url": "/people/glasgow-3927.html"
+        }
+      ],
+      "basis": "The 18% father choice depends on John-822 and Adam-3902 being brothers and on Adam’s existing James-1509 father hypothesis, assessed separately at 27%. The two inferences are correlated, not independent corroboration. Their nine-year age gap, Inishrush households, family-news network and repeated James name support the collateral comparison; no record names John’s father. The Bible naming pattern leaves an older Adam and Maria as the stronger unnamed parent model; cousinship and other local families remain alternatives. No mother is selected. The 94% same-person assessment concerns John-822 and the record-defined 1831 John-3927 only: it does not strengthen the paternal hypothesis, merge profiles or transfer John-3927’s captured placeholder father. Previously checked family-register, letter, census-transcription and Larne readings are reused; no fresh original-source inspection or live WikiTree edit is claimed. The new father is a local working connection; John-822’s non-managed profile remains outside live relationship-editing scope.",
+      "next_test": "Compare John’s Bible household and naming with Adam’s monument and the 1847 letter; seek a shared holding or named relative connecting John and Adam. The unnamed older Adam/Maria family remains a substantive alternative.",
+      "sources": [
+        {
+          "label": "John Glasgow family-register account, including the nine-child naming sequence; previously checked reading",
+          "url": "https://hiltner.com/mckeown/getperson.php?personID=I368&tree=tree1"
+        },
+        {
+          "label": "John Glasgow to Jane Glasgow Gray, 20 March 1847; maintained letter reading reused",
+          "url": "https://www.hiltner.com/mckeown/documents/John%20Glasgow%20letter%20to%20Jane%20Glasgow%20Gray%203-20-1847.pdf"
+        },
+        {
+          "label": "1831 Tamlaght O’Crilly census transcription, Inishrush, entry 1019; identity evidence, not a parent clause",
+          "url": "https://genealogy.torrens.org/BannValley/church/Tamlaght/1831census_3.html"
+        },
+        {
+          "label": "McKeown Bible household account; maintained reading supporting the identity comparison",
+          "url": "https://www.hiltner.com/mckeown/getperson.php?personID=I1&tree=tree1"
+        }
+      ],
+      "counted_as_new_connection": true,
+      "reviewed": "2026-10-17",
+      "working_selection": true,
+      "assertion_ids": [
+        "C-working-20261017-john822-james1509-father"
+      ],
+      "metric_note": "One new paternal branch connection in the working model only; no supported or confident edge added. Bessie’s separate identity-held account is excluded from the fixed historical-profile cohort.",
+      "record_references": [
+        "1831 Tamlaght O’Crilly census, Inishrush house2",
+        "John Glasgow to Jane Glasgow Gray,20 March1847",
+        "John Glasgow family Bible household"
+      ],
+      "quantitative_effect": {
+        "cutoff": 1850,
+        "fixed_original_population": 1776,
+        "working_change": {
+          "population": 0,
+          "edge_count": 1,
+          "component_count": -1,
+          "largest_component_size": 15,
+          "connected_pairs_percent": 1.0277883517320134,
+          "connected_unordered_pairs": 16200,
+          "family_root_count": -1,
+          "unattached_multi_child_roots": -1,
+          "family_heads_removed": [
+            "Glasgow-822"
+          ],
+          "family_heads_added": []
+        },
+        "branch_sizes_before_join": [
+          15,
+          1080
+        ],
+        "supported_new_edges": 0,
+        "confident_new_edges": 0,
+        "excluded_record_accounts": [
+          "record-bessie-lanark-1650"
+        ],
+        "interpretation": "One conditional paternal connection between retained profile accounts. Its 18% assessment is separate from the connectivity percentage. Saltmarket status calibration reduces confident totals independently and is not a new genealogical connection."
+      }
     }
   ],
   "source_basis": "Initial priorities reconcile existing medieval bridge research, the pre-1550 relationship audit and the resolved public catalogue. They are current working comparisons, not newly discovered kinship records."

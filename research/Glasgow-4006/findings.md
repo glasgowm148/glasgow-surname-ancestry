@@ -4,6 +4,10 @@ Last updated: 2026-10-17
 
 ## Current conclusion
 
+Reviewed: 2026-10-17
+
+**Probability review:** Andrew Glasgow-3163's fatherhood of this testament-defined Robert remains documented at **99%**. Identity with the Duddingston Robert Glasgow-1156 remains the preferred uncertain later-life hypothesis at **28%**; Andrew's selected fatherhood of that adult depends on the same identity and is also **28%**. The Duddingston man's probable fatherhood of James Glasgow-1150 remains a separate **86%** assessment. These are exact subjective estimates, not independent confirmations. No source, confidence upgrade, merge or live edit is added by this review.
+
 **Preferred working family, 17 October 2026:** Andrew Glasgow-3163 and Elizat Stevinsoun-2 are now the selected **uncertain local parents** of Robert Glasgow-1156 through his possible identity with their testament-proved son Robert Glasgow-4006. Archibald Glasgow-1097 and Isobell Newlands-647 remain unselected uncertain/possible alternatives. The two Robert profiles remain separate; the recorded son’s documented parentage does not make the adult identification certain.
 
 Andrew Glasgow's testament directly names **Robert Glasgow** as his son by
@@ -36,6 +40,10 @@ estimated dates.
 Search Corsoun land succession and Morton estate records for Robert after
 1598. The live profile suggests NRS GD150/696–757, GD150/2027–2060 and
 GD150/320–493 as starting points.
+
+## Earlier identity exclusion — superseded 17 October 2026
+
+The former draft excluded Glasgow-1156 as the present match because the burial did not name Andrew, Elizat, Corsoun, siblings or the land. That reasoning is withdrawn: those omissions limit confidence but do not conflict with the identity. The same man is now the selected uncertain later-life candidate at 28%; the two profiles remain separate. Ninian's son Robert-1027 is a different documentary child with proved parents, but remains an alternative identity for the parentless Duddingston burial account. The earlier fisher Robert-1096 died before Andrew's testament and cannot be its surviving son.
 
 ## Duddingston–Corsoun working-family review — 17 October 2026
 

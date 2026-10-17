@@ -65,6 +65,8 @@ The deed does not give her birth date. No compatible profile survived the docume
         self.assertTrue(row["missing_profile"])
         self.assertTrue(row["needs_wikitree_update"])
         self.assertEqual(row["profile_work_status"], "creation_ready")
+        self.assertFalse(person["uncertain_identity"])
+        self.assertFalse(row["uncertain_identity"])
         self.assertGreater(row["wikitree_update_significance"], 0)
         self.assertIsNone(row["birth_year"])
         self.assertEqual(row["date_years"], [1775])
@@ -136,11 +138,47 @@ The deed does not give her birth date. No compatible profile survived the docume
         self.assertTrue(row["needs_wikitree_update"])
         self.assertFalse(row["creation_ready"])
         self.assertEqual(row["profile_work_status"], "identity_hold")
+        self.assertFalse(row["uncertain_identity"])
+        self.assertFalse(self.read("data/people.json")["people"][0]["uncertain_identity"])
         self.assertIn("verify the source before creation", row["wikitree_update_summary"])
         soup = BeautifulSoup((self.root / f"www/people/{self.slug}.html").read_text(), "html.parser")
         self.assertIn("source verification on HOLD", soup.get_text())
         self.assertNotIn("Create a new WikiTree profile", soup.get_text())
         self.assertEqual(module.reviewed_audits(self.root)[self.slug]["recommended_action"], "hold")
+        self.assertEqual(module.reviewed_audits(self.root)[self.slug]["identity_status"], "hold_source_verification")
+        self.assertNotIn("identity on HOLD", soup.get_text())
+
+    def test_identity_hold_preserves_reviewed_candidates_and_counts(self):
+        candidates = [{"profile_id": "Glasgow-321", "name": "Jane Glasgow",
+                       "url": "https://www.wikitree.com/wiki/Glasgow-321",
+                       "assessment": "Compatible locality; spouse unresolved.",
+                       "status": "compatible", "reviewed_at": "2026-10-17"}]
+        self.entry.update(creation_status="identity_hold", candidates=candidates)
+        self.save()
+        audit = module.reviewed_audits(self.root)[self.slug]
+        self.assertEqual(audit["identity_status"], "identity_hold")
+        self.assertEqual(audit["candidates"], candidates)
+        module.apply_creations(self.root)
+        person = self.read("data/people.json")["people"][0]
+        row = self.read("data/catalogue-search-index.json")[0]
+        dossier = self.read(f"people/{self.slug}.json")
+        self.assertEqual(person["creation_candidates"], candidates)
+        self.assertEqual(person["profile_work_candidate_count"], 1)
+        self.assertEqual(row["profile_work_candidate_count"], 1)
+        self.assertTrue(person["uncertain_identity"])
+        self.assertTrue(row["uncertain_identity"])
+        self.assertEqual(dossier["profile_work"]["candidates"], candidates)
+        self.assertEqual(dossier["wikitree_update"]["candidates"], candidates)
+        self.assertEqual(dossier["wikitree_update"]["candidate_count"], 1)
+        self.assertFalse(row["creation_ready"])
+        self.assertIn("resolve the identity before creation", row["wikitree_update_summary"])
+        soup = BeautifulSoup((self.root / f"www/people/{self.slug}.html").read_text(), "html.parser")
+        panel = soup.select_one("#wikitree-update")
+        self.assertIn("identity on HOLD", panel.get_text())
+        self.assertIn("Reviewed possible existing-profile matches (1)", panel.get_text())
+        self.assertIsNotNone(panel.select_one('a[href="https://www.wikitree.com/wiki/Glasgow-321"]'))
+        self.assertNotIn("source verification on HOLD", soup.get_text())
+        self.assertNotIn("verify the source before creation", soup.get_text())
 
     def test_age_supported_later_record_does_not_fabricate_birth(self):
         self.entry["records"][0].update(year="1911", filter_year=1911)

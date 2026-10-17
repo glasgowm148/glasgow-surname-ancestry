@@ -4,6 +4,10 @@ Last updated: 2026-10-07
 
 ## Current conclusion
 
+Reviewed: 2026-10-17
+
+**Family review, 17 October 2026:** John Glasgow-822 is selected as a very uncertain additional son, **18%**, through the unproved Adam/John brother model and Adam’s uncertain James father. Janet Shutter is not assigned as John’s mother. The following dated accounts retain the earlier family assessment; the new reciprocal reasoning appears below.
+
 Reviewed: 2026-10-16
 
 **Selected Larne/Inishrush family, 16 October 2026:** The older Larne ropemaker Glasgow-1509 is the uncertain working father of Adam Glasgow-3902 and older Alexander Glasgow-3904. The possible-brother route is preferred to the compressed Adam-to-Alexander generation; no mother or parent of younger Glasgow-951 is selected. [Evidence and alternatives](/branches/larne-kilwaughter/#larne-inishrush-working-family).
@@ -236,3 +240,13 @@ A possible identification concerns James Glasgow. An 1874 indenture traces James
 
 A possible identification concerns James Glasgow. The separate memorial 173108 records James Glasgow, ropemaker, assigning a messuage to John Hill on 28 March 1768; its witnessing James Glasgow is described as farmer. (Inspected historical source; [record](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJW-DDD6); Inspected historical source; [record](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJW-DDDL).) Original occupation checked. The same-day ropewalk and messuage assignments are different instruments. Whether the farmer and tanner witnesses are one man is unresolved. The identification remains uncertain.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## John of Inishrush: dependent son hypothesis — 17 October 2026
+
+[James Glasgow-1509](https://www.wikitree.com/wiki/Glasgow-1509), the older Larne ropemaker, is selected as the **very uncertain working father of John Glasgow-822, 18% subjective probability**. This extends the existing Adam–James model through a preferred but unproved Adam/John brother hypothesis. Adam’s monument-derived birth about 1758 and John’s Bible birth of 10 April 1767 place them nine years apart. They headed separate Inishrush households in 1831, and John’s 20 March 1847 letter discusses the younger James Glasgow/Henry Barkly family associated with Adam’s descendants. That close family/community news network and the recurrence of James in both branches support the comparison; neither names a shared father.
+
+The 18% father assessment is weaker than the existing James–Adam hypothesis at 27%. It depends on both Adam/John brotherhood and James’s paternity of Adam; the two uncertain propositions do not independently corroborate one another. Cousinship remains viable. John’s sons Adam–James–John and daughters beginning Rose–Maria favour an older Adam/Maria naming reconstruction, which remains a substantial unnamed alternative. No extra person or generation is invented for it. James’s ropewalk records and 1773 age affidavit establish a compatible adult in Larne, not migration to Inishrush or fatherhood of either man. The 94% identity comparison between John-822 and the 1831 householder represented by Glasgow-3927 is separate and does not validate the latter’s placeholder ancestry.
+
+No mother is selected for John: Janet Shutter’s reported marriage to James does not establish her maternity. Adam’s other family questions, older Alexander’s separate hypothesis and James’s own ancestry retain their previous assessments. The September and 16 October accounts above record the earlier stages; this review adds the selected 18% John hypothesis without converting their provisional connections into documentary proof.
+
+Sources: John’s family Bible, [family-register account](https://hiltner.com/mckeown/getperson.php?personID=I368&tree=tree1), with locally reviewed Bible images; [John’s letter to Jane Glasgow Gray, 20 March 1847](https://www.hiltner.com/mckeown/documents/John%20Glasgow%20letter%20to%20Jane%20Glasgow%20Gray%203-20-1847.pdf); [1831 Tamlaght O’Crilly census transcription, entry1019, John at house2 and Adam separately at house91](https://genealogy.torrens.org/BannValley/church/Tamlaght/1831census_3.html), with denomination disagreements unresolved; [Adam’s Tamlaght monument](https://www.oneirishrover.com/tamlaght-graveyard/); [James’s 1760 ropewalk lease](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSH3-S7XZ-8); [James’s affidavit sworn 27 October 1773](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSH3-M72W-M). Existing evidence reassessed; no new original inspection.

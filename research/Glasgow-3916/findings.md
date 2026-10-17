@@ -6,6 +6,8 @@ The reciprocal link to [Brady Family of Sauchie, Stirling & Easter Kennet — Re
 
 ## Current conclusion
 
+**Individual father review, 17 October 2026:** [William Glasgow](https://www.wikitree.com/wiki/Glasgow-1098) remains the **probable father, 79% subjective confidence**. This evaluates the combined evidence and surviving identity/generation alternatives; it is not a measured frequency or a new record discovery. The existing uncertain WikiTree parent flag and family topology are unchanged. The exact estimate applies to this father–child pair only.
+
 A newly located 18 January 1581/82 Bridgegait boundary reference names Archibald Herbertsoun, fisher. It probably continues the record-proved husband’s property history; it names no Glasgow kin and does not change the father assessment. See the dated source review below.
 
 The profile correctly represents Isobella Glasgow, wife of Archibald
@@ -32,6 +34,14 @@ same William Maxwell and Marion Wilson who bought from Archibald and Isobella
 in 1563. This repeated surname, craft and Bridgegait-property cluster strongly
 supports Isobella being a sister of John and Robert and therefore a daughter of
 William and Esbell. It remains circumstantial because no act uses a kin term.
+
+## Individual father assessment — 17 October 2026
+
+Isobella’s proved husband Archibald Herbisoune witnessed John senior’s disposal of the very fore tenement inherited nineteen days earlier from William, explicitly his father. This anchors her association to the identified heir more securely than the general Bridgegait boundaries. The repeated Robert–Archibald–John fisher and property network strengthens the close-family explanation. It does not uniquely determine the generation: Isobella’s circa-1530 birth is estimated from married property ownership in 1563, and John, already married by 1534, could instead be her father. Repeating Esbell’s forename fits a granddaughter as well as a daughter. Collateral kinship or trusted craft association also remains possible. The 79% concerns William’s fatherhood of the woman named as Archibald’s wife in protocol 719; it is not a joint estimate for William and Esbell, and her mother remains independently uncertain. The 1575 purchaser continuity supports Archibald’s identity without proving the same parcel as in 1563.
+
+The previous narrative grade was **probable; strong circumstantial**, retained here. The public rendering had mapped that wording to **strongly supported / Confident (90–99%)**, without an individual estimate; this review recommends **probable, 79%** in its place. This corrects the displayed confidence calibration rather than recording a newly connected father or a live certainty upgrade. Lack of an explicit kinship clause alone does not prevent a confident inference; the unresolved identities, title mechanism and family degree explain the remaining uncertainty in this case.
+
+Source basis: Renwick, Abstracts of Protocols, III 719, p.29, 805, p.57, and 810, pp.58–60; II 525–526, p.76; V 1559, p.93; VII 2002, p.36, and 2151, p.98. The linked source table below retains the record references and earlier reviews. Existing maintained evidence was reassessed; no new original image or manuscript inspection is claimed.
 
 ## Source findings
 

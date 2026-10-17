@@ -1,5 +1,15 @@
 # WikiTree work queue
 
+## Reviewed working families and Bessie identity HOLD — 17 October 2026
+
+These are local relationship assessments from previously checked readings, not fresh original inspections or live WikiTree changes. Earlier completed work remains completed; the dated account below controls these pending qualifications.
+
+| Subject | Status | Pending work and evidence |
+| --- | --- | --- |
+| [John Glasgow of Inishrush and Ohio](https://www.wikitree.com/wiki/Glasgow-822) | BLOCKED — NOT MANAGED; local working family only | James-1509 is the selected very uncertain father at 18%, conditional on brotherhood with Adam-3902 and the existing James-to-Adam hypothesis at 27%. No mother; older Adam/Maria remains the stronger unnamed rival. The separate John-3927 identity assessment is 94%, with no merge or placeholder-parent transfer. Preserve manager restrictions. [Complete draft](../research/Glasgow-822/Glasgow-822.md) · [Current account](/people/glasgow-822.html). |
+| [Bessie Glasgow, Quothquan executrix in 1650](/people/record-bessie-lanark-1650.html) | HOLD — identity unresolved; do not create or merge | One consolidated record account, not an asserted new distinct person. Sibling of John-3296 at 99%; conditional Stephen-1029 father 22%, dependent on John's existing hypothesis; no mother. Eight compatible existing profiles remain candidates. [Complete sourced draft and candidate audit](new-people/1650_Scotland_Lanark_Bessie_Glasgow.md). |
+| [John Glasgow of Cross, near Broughshane](https://www.wikitree.com/wiki/Glasgow-1657) | OPEN | Use the documented Cross near Broughshane locality and later Ballyclug holding; do not infer Ballymoney from a generic place match. The existing father identification for John-2407 is probable at 84%, separate from the certificate's named role. No upstream father or mother is selected. [Findings](../research/Glasgow-1657/findings.md) · [Complete draft](../research/Glasgow-1657/queue-review-2026-10-17.wiki). |
+
 <!-- repo-integration-audit-2026-10-07:L04-002 -->
 ## Lisnagaver civil birth correction — 30 September 2026
 

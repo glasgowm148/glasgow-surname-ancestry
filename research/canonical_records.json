@@ -571,7 +571,7 @@
     "place": "Corsinkell, Stevenston, Ayrshire, Scotland",
     "source_url": "https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD39%2F5%2F59",
     "status": "Official archival catalogue abstract; original open/off site",
-    "note": "NRS GD39/5/59, letters of reversion by Marion Cunninghame concerning the 40-shilling land of Corsinkell. The occupier clause names James Glasgow elder and James and John Glasgow, his sons, alongside Christian Campbell. It does not name the sons’ mother or identify John’s proposed earlier Kilwinning holdings. Official catalogue wording freshly reviewed 27 September 2026.",
+    "note": "NRS GD39/5/59, letters of reversion by Marion Cunninghame concerning the 40-shilling land of Corsinkell. The occupier clause names James Glasgow elder and James and John Glasgow, his sons, alongside Christian Campbell. It does not name the sons’ mother or identify John’s proposed earlier Kilwinning holdings. Official catalogue wording freshly reviewed 27 September 2026. Adam Wallace, burgess of Glasgow, witnesses the act. This is civic contact, not proof of the elder James’s parentage; maintained reading reused 17 October 2026.",
     "profiles": {
       "Glasgow-1168": {
         "role": "Father and occupier"
@@ -582,7 +582,34 @@
       "Glasgow-3193": {
         "role": "Named son and occupier; earlier Kilwinning events separately probable"
       }
-    }
+    },
+    "assessment_history": [
+      {
+        "reviewed": "2026-10-17",
+        "prior_record": {
+          "record_id": "nrs-gd39-5-59-1571",
+          "association": "James Glasgow elder and sons James and John at Corsinkell",
+          "date": "9 February 1571",
+          "year": 1571,
+          "place": "Corsinkell, Stevenston, Ayrshire, Scotland",
+          "source_url": "https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD39%2F5%2F59",
+          "status": "Official archival catalogue abstract; original open/off site",
+          "note": "NRS GD39/5/59, letters of reversion by Marion Cunninghame concerning the 40-shilling land of Corsinkell. The occupier clause names James Glasgow elder and James and John Glasgow, his sons, alongside Christian Campbell. It does not name the sons’ mother or identify John’s proposed earlier Kilwinning holdings. Official catalogue wording freshly reviewed 27 September 2026.",
+          "profiles": {
+            "Glasgow-1168": {
+              "role": "Father and occupier"
+            },
+            "Glasgow-3921": {
+              "role": "Named son and occupier"
+            },
+            "Glasgow-3193": {
+              "role": "Named son and occupier; earlier Kilwinning events separately probable"
+            }
+          }
+        },
+        "basis": "Prior metadata retained before scoped source and relationship integration."
+      }
+    ]
   },
   {
     "record_id": "nrs-cc8-8-32-andrew-1598",
@@ -633,8 +660,8 @@
     "year": 1613,
     "place": "Glasgow, Lanarkshire, Scotland",
     "source_url": "https://www.scotlandspeople.gov.uk/search-records/legal-records/wills",
-    "status": "Original NRS register images inspected; working family-clause reading",
-    "note": "NRS Glasgow Commissary Court CC9/7/9, images 142–145, family clause on image 144: Marioun glasgw his sist[er], a ten-merk legacy. This directly establishes the sibling relationship. Robert’s inferred parentage comes from combining it with Ninian’s 1596 father statement; the testament does not name Marion’s parents. Working reading: /research/transcriptions/ninian-1613/. The same family passage explicitly calls Johne glasgw his brother. The brother's father is inferred by combining this with the 1596 admission; later identity with the Jonet Mathie husband remains probable.",
+    "status": "Original NRS register images inspected; working family-clause reading; maintained reading reused 17 October 2026, no new inspection",
+    "note": "NRS Glasgow Commissary Court CC9/7/9, images 142–145, family clause on image 144: Marioun glasgw his sist[er], a ten-merk legacy. This directly establishes the sibling relationship. Robert’s inferred parentage comes from combining it with Ninian’s 1596 father statement; the testament does not name Marion’s parents. Working reading: /research/transcriptions/ninian-1613/. The same family passage explicitly calls Johne glasgw his brother. The brother's father is inferred by combining this with the 1596 admission; later identity with the Jonet Mathie husband remains probable. The reviewed William occurrence has a damaged role; it is not a secure son clause. Its identity with the Leith mealmaker remains uncertain.",
     "profiles": {
       "Glasgow-3188": {
         "role": "Testator and brother"
@@ -644,8 +671,40 @@
       },
       "Glasgow-1030": {
         "role": "Named brother represented by this profile; later marriage identity probable"
+      },
+      "Glasgow-3075": {
+        "role": "Possible adult identity of qualified William occurrence; no documented son statement",
+        "timeline_group": "Possible connections",
+        "assessment": "possible"
       }
-    }
+    },
+    "assessment_history": [
+      {
+        "reviewed": "2026-10-17",
+        "prior_record": {
+          "record_id": "nrs-cc9-7-9-ninian-1613",
+          "association": "Ninian Glasgow names his brother John and sister Marion",
+          "date": "Testament made January 1613 (day unread); confirmed 8 May 1613",
+          "year": 1613,
+          "place": "Glasgow, Lanarkshire, Scotland",
+          "source_url": "https://www.scotlandspeople.gov.uk/search-records/legal-records/wills",
+          "status": "Original NRS register images inspected; working family-clause reading",
+          "note": "NRS Glasgow Commissary Court CC9/7/9, images 142–145, family clause on image 144: Marioun glasgw his sist[er], a ten-merk legacy. This directly establishes the sibling relationship. Robert’s inferred parentage comes from combining it with Ninian’s 1596 father statement; the testament does not name Marion’s parents. Working reading: /research/transcriptions/ninian-1613/. The same family passage explicitly calls Johne glasgw his brother. The brother's father is inferred by combining this with the 1596 admission; later identity with the Jonet Mathie husband remains probable.",
+          "profiles": {
+            "Glasgow-3188": {
+              "role": "Testator and brother"
+            },
+            "Glasgow-3062": {
+              "role": "Named sister and legatee"
+            },
+            "Glasgow-1030": {
+              "role": "Named brother represented by this profile; later marriage identity probable"
+            }
+          }
+        },
+        "basis": "Prior metadata retained before scoped source and relationship integration."
+      }
+    ]
   },
   {
     "record_id": "glasgow-bridgegait-herbertsoun-1582",
@@ -1105,7 +1164,7 @@
     "source_type": "Printed archival register index",
     "source_status": "Printed pages visually inspected 15 October 2026; original instrument uninspected",
     "status": "Explicit indexed family statements; cross-record identities qualified",
-    "note": "Alexander is son of James the tailor; Janet Clerk is Alexander’s spouse, Christina Bye is James’s spouse. The dates head the recording column. Edward in Fischerraw shares 9/135; no exact kinship is stated.",
+    "note": "Alexander is son of James the tailor; Janet Clerk is Alexander’s spouse, Christina Bye is James’s spouse. The dates head the recording column. Edward in Fischerraw shares 9/135; no exact kinship is stated. RS25 9/135,8July1624,recording date. Capacity/kinship unknown; no merge. Established Inveresk father fits adult1624 comparison; minor candidates15/9 remain viable. Maintained index reading reused; no new original inspection.",
     "profiles": {
       "Glasgow-991": {
         "role": "Preferred probable James, tailor in Fischerraw and burgess of Musselburgh",
@@ -1166,8 +1225,71 @@
           }
         },
         "basis": "Prior candidate/uncertain profile identifications retained before household reassessment."
+      },
+      {
+        "reviewed": "2026-10-17",
+        "prior_record": {
+          "record_id": "fisherrow-sasine-index-1624",
+          "association": "Fisherrow Glasgow family, sasine registration 8 July 1624",
+          "date": "8 July 1624 (recording date)",
+          "year": 1624,
+          "place": "Fischerraw (Fisherrow), Musselburgh, Scotland",
+          "source_title": "SRO Indexes 38, Edinburgh etc. sasines 1624–1630, pp.187–188; vol.9 fol.135",
+          "source_url": "https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481057&seq=193",
+          "source_type": "Printed archival register index",
+          "source_status": "Printed pages visually inspected 15 October 2026; original instrument uninspected",
+          "status": "Explicit indexed family statements; cross-record identities qualified",
+          "note": "Alexander is son of James the tailor; Janet Clerk is Alexander’s spouse, Christina Bye is James’s spouse. The dates head the recording column. Edward in Fischerraw shares 9/135; no exact kinship is stated.",
+          "profiles": {
+            "Glasgow-991": {
+              "role": "Preferred probable James, tailor in Fischerraw and burgess of Musselburgh",
+              "timeline_group": "Possible connections",
+              "assessment": "probable"
+            },
+            "Bie-55": {
+              "role": "Preferred probable Christina Bye, spouse of James",
+              "timeline_group": "Possible connections",
+              "assessment": "probable"
+            },
+            "Glasgow-1148": {
+              "role": "Alexander, indexed son of James; father profile identification now probable",
+              "timeline_group": "Family records",
+              "assessment": "strongly_supported"
+            },
+            "Clerk-296": {
+              "role": "Janet Clerk, documented spouse of Alexander",
+              "timeline_group": "Family records",
+              "assessment": "proved"
+            },
+            "Glasgow-1557": {
+              "role": "Candidate for Edward in Fischerraw, same volume/folio; kinship unspecified",
+              "timeline_group": "Possible connections"
+            },
+            "Glasgow-994": {
+              "role": "Alternative candidate for Edward; 1609 Inveresk child of James, identity unproved",
+              "timeline_group": "Possible connections"
+            }
+          }
+        },
+        "basis": "Prior metadata retained before scoped source and relationship integration."
       }
-    ]
+    ],
+    "identity_review": {
+      "reviewed": "2026-10-17",
+      "status": "possible",
+      "preferred_profile_id": "Glasgow-1557",
+      "percent": 56,
+      "candidate_allocation": {
+        "Glasgow-1557": 56,
+        "Glasgow-994": 30,
+        "Glasgow-1558": 8,
+        "another Edward": 6
+      },
+      "basis": "Established Inveresk father fits adult1624 comparison; minor candidates15/9 remain viable.",
+      "scope": "RS25 9/135,8July1624,recording date. Capacity/kinship unknown; no merge.",
+      "method": "subjective_evidence_assessment",
+      "no_identity_merge": true
+    }
   },
   {
     "record_id": "fisherrow-sasine-index-1625",
@@ -1266,7 +1388,7 @@
     "source_type": "Printed archival register index",
     "source_status": "Printed columns visually inspected 15 October 2026; original instrument uninspected",
     "status": "Index association; identities and kinship unresolved",
-    "note": "Alexander’s designation is in Fischerraw, burgess of Musselburgh; James is weaver. Edward shares this reference. James and Edward are not separately localized. Shared date and volume/folio do not prove one instrument or exact kinship; repeated index references are not additional events.",
+    "note": "Alexander’s designation is in Fischerraw, burgess of Musselburgh; James is weaver. Edward shares this reference. James and Edward are not separately localized. Shared date and volume/folio do not prove one instrument or exact kinship; repeated index references are not additional events. RS25 33/258,14February1646,recording date. Separate from1624; no inheritance/continuity. Later33/360 and34/287 are not Edward occurrences. Local James son approximately37 is slight household preference;1558 approximately31 remains substantial alternative;1557 age estimate proves no death/incapacity. Maintained index reading reused; no new original inspection.",
     "profiles": {
       "Glasgow-1148": {
         "role": "Compatible Alexander, in Fischerraw and burgess of Musselburgh",
@@ -1296,6 +1418,71 @@
         "role": "Alternative candidate for Edward; 1609 Inveresk child of James, identity unproved",
         "timeline_group": "Possible connections"
       }
+    },
+    "assessment_history": [
+      {
+        "reviewed": "2026-10-17",
+        "prior_record": {
+          "record_id": "fisherrow-sasine-index-1646-02",
+          "association": "Fisherrow property association, sasine registration 14 February 1646",
+          "date": "14 February 1646 (recording date)",
+          "year": 1646,
+          "place": "Edinburgh particular sasine register, Scotland",
+          "source_title": "SRO Indexes 44 (1958), Edinburgh etc. register of sasines 1644–1653, printed pp.159–160; 33/258",
+          "source_url": "https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481222&seq=167",
+          "source_type": "Printed archival register index",
+          "source_status": "Printed columns visually inspected 15 October 2026; original instrument uninspected",
+          "status": "Index association; identities and kinship unresolved",
+          "note": "Alexander’s designation is in Fischerraw, burgess of Musselburgh; James is weaver. Edward shares this reference. James and Edward are not separately localized. Shared date and volume/folio do not prove one instrument or exact kinship; repeated index references are not additional events.",
+          "profiles": {
+            "Glasgow-1148": {
+              "role": "Compatible Alexander, in Fischerraw and burgess of Musselburgh",
+              "timeline_group": "Possible connections"
+            },
+            "Glasgow-1150": {
+              "role": "Candidate for James the weaver; identity unproved",
+              "timeline_group": "Possible connections"
+            },
+            "Glasgow-3923": {
+              "role": "Alternative candidate for James the weaver; no occupation established for this profile",
+              "timeline_group": "Possible connections"
+            },
+            "Glasgow-991": {
+              "role": "Alternative older James candidate; 1624 tailor identity not established for the weaver",
+              "timeline_group": "Possible connections"
+            },
+            "Glasgow-1557": {
+              "role": "Candidate for Edward, whose residence and relatives are unstated",
+              "timeline_group": "Possible connections"
+            },
+            "Glasgow-1558": {
+              "role": "Candidate for Edward, whose residence and relatives are unstated",
+              "timeline_group": "Possible connections"
+            },
+            "Glasgow-994": {
+              "role": "Alternative candidate for Edward; 1609 Inveresk child of James, identity unproved",
+              "timeline_group": "Possible connections"
+            }
+          }
+        },
+        "basis": "Prior metadata retained before scoped source and relationship integration."
+      }
+    ],
+    "identity_review": {
+      "reviewed": "2026-10-17",
+      "status": "possible",
+      "preferred_profile_id": "Glasgow-994",
+      "percent": 43,
+      "candidate_allocation": {
+        "Glasgow-994": 43,
+        "Glasgow-1558": 30,
+        "Glasgow-1557": 20,
+        "another Edward": 7
+      },
+      "basis": "Local James son approximately37 is slight household preference;1558 approximately31 remains substantial alternative;1557 age estimate proves no death/incapacity.",
+      "scope": "RS25 33/258,14February1646,recording date. Separate from1624; no inheritance/continuity. Later33/360 and34/287 are not Edward occurrences.",
+      "method": "subjective_evidence_assessment",
+      "no_identity_merge": true
     }
   },
   {
@@ -2569,15 +2756,41 @@
     "date": "27 May 1650; death April 1650",
     "year": 1650,
     "place": "Quothquan, Libberton, Lanarkshire",
-    "source_title": "NRS CC14/5/5, existing profile transcription and published Lanark index",
-    "source_url": "https://www.wikitree.com/wiki/Glasgow-3296",
-    "status": "Existing original-record transcription reviewed on the public profile",
-    "note": "Names sister Bessie and no child or parent. Stephen attachment and earlier three-place identities remain uncertain.",
+    "source_title": "NRS CC14/5/5, images 65–66; confirmation 27 May 1650; checked selected original reading",
+    "source_url": "https://www.scotlandspeople.gov.uk/search-records/legal-records/wills",
+    "status": "Maintained checked original-image reading reused; no new image inspection in this review.",
+    "note": "Image 65 names Bessie Glasgow his lawful sister. Image 66 appoints Bessie Glasgow in Quodquen executrix dative to John Glasgow her brother. The exact sibling roles are documented; no father, mother or child is named. John’s Mid Calder/Montfoid identities and Stephen parent hypothesis are separate. Reading: research/transcriptions/originals-2026-09-10-reread/john-lanark-1650.json.",
     "profiles": {
       "Glasgow-3296": {
-        "role": "deceased householder; existing working account"
+        "role": "The 1650 Quothquan testator; earlier adult identities separately uncertain"
+      },
+      "record-bessie-lanark-1650": {
+        "role": "Named lawful sister and executrix; documentary account, no candidate profile identification",
+        "timeline_group": "Family records",
+        "assessment": "proved"
       }
-    }
+    },
+    "assessment_history": [
+      {
+        "reviewed": "2026-10-17",
+        "prior_record": {
+          "record_id": "quothquan-john-testament-1650",
+          "date": "27 May 1650; death April 1650",
+          "year": 1650,
+          "place": "Quothquan, Libberton, Lanarkshire",
+          "source_title": "NRS CC14/5/5, existing profile transcription and published Lanark index",
+          "source_url": "https://www.wikitree.com/wiki/Glasgow-3296",
+          "status": "Existing original-record transcription reviewed on the public profile",
+          "note": "Names sister Bessie and no child or parent. Stephen attachment and earlier three-place identities remain uncertain.",
+          "profiles": {
+            "Glasgow-3296": {
+              "role": "deceased householder; existing working account"
+            }
+          }
+        },
+        "basis": "Prior metadata retained before scoped source and relationship integration."
+      }
+    ]
   },
   {
     "record_id": "pyperheugh-matthew-spouse-testament-1665",
@@ -4351,5 +4564,198 @@
         "role": "Possible later adult, not established by this index"
       }
     }
+  },
+  {
+    "record_id": "inishrush-census-households-1831",
+    "association": "Tamlaght O’Crilly 1831 census: John and Adam Glasco at Inishrush",
+    "date": "1831",
+    "year": 1831,
+    "place": "Inishrush, Tamlaght O’Crilly, County Londonderry",
+    "source_title": "Tamlaght O’Crilly 1831 census: John and Adam Glasco at Inishrush",
+    "source_url": "https://genealogy.torrens.org/BannValley/church/Tamlaght/1831census_3.html",
+    "note": "Entry 1019: John at house 2, four males/four females; Adam at house 91, three males/five females. Shared townland and surname, no internal names, ages or kinship. Denomination readings conflict. The John-822 identity and Adam–John brotherhood remain separate inferences.",
+    "profiles": {
+      "Glasgow-822": {
+        "role": "Preferred identity of John householder; kinship unproved"
+      },
+      "Glasgow-3927": {
+        "role": "Separate record-defined John householder account; no merge"
+      },
+      "Glasgow-3902": {
+        "role": "Adam householder; proposed brotherhood unproved"
+      }
+    },
+    "status": "Maintained reading reused for the 17 October 2026 review; no new original inspection."
+  },
+  {
+    "record_id": "inishrush-john-family-letter-1847",
+    "association": "John Glasgow letter to Jane Glasgow Gray, 20 March 1847",
+    "date": "20 March 1847",
+    "year": 1847,
+    "place": "Ohio; Inishrush/Tyanee family correspondence",
+    "source_title": "John Glasgow letter to Jane Glasgow Gray, 20 March 1847",
+    "source_url": "https://www.hiltner.com/mckeown/documents/John%20Glasgow%20letter%20to%20Jane%20Glasgow%20Gray%203-20-1847.pdf",
+    "note": "Maintained family letter reading supplies intimate family-news associations; it does not name James of Larne as John’s father or prove Adam–John brotherhood.",
+    "profiles": {
+      "Glasgow-822": {
+        "role": "Writer; family-news network"
+      }
+    },
+    "status": "Maintained reading reused for the 17 October 2026 review; no new original inspection."
+  },
+  {
+    "record_id": "john-822-bible-household",
+    "association": "John Glasgow family Bible household and descendant account",
+    "date": "1767–1851 family dates",
+    "year": 1767,
+    "place": "Ireland and Ohio",
+    "source_title": "John Glasgow family Bible household and descendant account",
+    "source_url": "https://hiltner.com/mckeown/getperson.php?personID=I368&tree=tree1",
+    "note": "Maintained Bible/descendant household account: sons Adam–James–John and daughters beginning Rose–Maria favour older Adam/Maria as stronger unnamed parent model. Naming is contextual, not a parent record; no unnamed persons are materialized.",
+    "profiles": {
+      "Glasgow-822": {
+        "role": "Subject of family household account"
+      }
+    },
+    "status": "Maintained reading reused for the 17 October 2026 review; no new original inspection."
+  },
+  {
+    "record_id": "cross-john-rachel-marriage-1865",
+    "association": "Civil marriage of John Glasgow and Rachel Grey, 11 September 1865",
+    "date": "11 September 1865",
+    "year": 1865,
+    "place": "Cross, Ballyclug, County Antrim",
+    "source_title": "Civil marriage of John Glasgow and Rachel Grey, 11 September 1865",
+    "source_url": "https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1865/11578/8260226.pdf",
+    "note": "John, full-age bachelor farmer of Cross, names father John Glasgow, farmer. Recorded father role is direct; identity with John-1657 is separately probable at 84%. No mother is identified.",
+    "profiles": {
+      "Glasgow-2407": {
+        "role": "Groom; father named John Glasgow, farmer"
+      },
+      "Glasgow-1657": {
+        "role": "Probable identity of named father, not uniquely identified by certificate"
+      }
+    },
+    "status": "Maintained reading reused for the 17 October 2026 review; no new original inspection."
+  },
+  {
+    "record_id": "cross-john-death-notice-1836",
+    "association": "Belfast Commercial Chronicle, 10 August 1836, p.3, BL/0001287/18360810/010",
+    "date": "10 August 1836 notice",
+    "year": 1836,
+    "place": "Cross near Broughshane, County Antrim",
+    "source_title": "Belfast Commercial Chronicle, 10 August 1836, p.3, BL/0001287/18360810/010",
+    "source_url": "https://www.britishnewspaperarchive.co.uk/viewer/bl/0001287/18360810/010",
+    "note": "Maintained notice reading: John Glasgow of Cross died in July in his seventieth year. Day 28 is from the existing quotation and missing from OCR. No parent-child statement.",
+    "profiles": {
+      "Glasgow-1657": {
+        "role": "Deceased Cross householder"
+      }
+    },
+    "status": "Maintained reading reused for the 17 October 2026 review; no new original inspection."
+  },
+  {
+    "record_id": "cross-john-valuation-1862",
+    "association": "Griffith’s Valuation, Ballyclug, printed 23 January 1862, IRE/GRIFF/003/003068/001/1",
+    "date": "23 January 1862",
+    "year": 1862,
+    "place": "Cross, Ballyclug, County Antrim",
+    "source_title": "Griffith’s Valuation, Ballyclug, printed 23 January 1862, IRE/GRIFF/003/003068/001/1",
+    "source_url": "https://www.askaboutireland.ie/griffith-valuation/",
+    "note": "John Glasgow held land under Henry Joy Tomb at Cross. Local continuity supports comparison; inheritance from the 1836 decedent is not proved.",
+    "profiles": {
+      "Glasgow-2407": {
+        "role": "Compatible John holding at Cross; local identity comparison"
+      },
+      "Glasgow-1657": {
+        "role": "Earlier Cross household comparison only; not the 1862 holder"
+      }
+    },
+    "status": "Maintained reading reused for the 17 October 2026 review; no new original inspection."
+  },
+  {
+    "record_id": "glasgow-protocol-84-1551",
+    "association": "Renwick, Abstracts of Protocols I, protocol 84, printed p.31",
+    "date": "21 May 1551",
+    "year": 1551,
+    "place": "Bridgegait, Glasgow",
+    "source_title": "Renwick, Abstracts of Protocols I, protocol 84, printed p.31",
+    "source_url": "https://archive.org/details/abstractsprotoc07robegoog/page/n59/mode/2up",
+    "note": "Elizabeth Beith sold fore-and-back property east of Thomas Bargill to Archibald Glasgow and Isobell Neulands, spouses; Robert Glasgow was one of six witnesses. Purchase, not inheritance from William; Robert’s later fisher identity and kinship are inferred.",
+    "profiles": {
+      "Glasgow-1097": {
+        "role": "Named purchaser and spouse"
+      },
+      "Glasgow-1096": {
+        "role": "Compatible Robert witness; no kin term"
+      }
+    },
+    "status": "Maintained reading reused for the 17 October 2026 review; no new original inspection."
+  },
+  {
+    "record_id": "glasgow-bridgegait-boundaries-1554-1560",
+    "association": "Renwick I protocol 205 p.69; II 307 p.15, 401–403 pp.41–42 and 544–546 pp.80–81",
+    "date": "1554/55–1560",
+    "year": 1555,
+    "place": "Bridgegait, Glasgow",
+    "source_title": "Renwick I protocol 205 p.69; II 307 p.15, 401–403 pp.41–42 and 544–546 pp.80–81",
+    "source_url": "https://archive.org/details/abstractsprotoc07robegoog/page/n97/mode/2up",
+    "note": "John east of Bargill’s rear property and repeated Robert/John adjoining boundaries support a reconstructed title network. No inspected transfer joins Archibald to John; multiple adult Johns prevent unique identification. These linked boundary references are correlated, not independent father proofs. Continuation VII 2241 p.129, 23 December 1575.",
+    "profiles": {
+      "Glasgow-1097": {
+        "role": "Earlier purchaser in reconstructed title sequence"
+      },
+      "Glasgow-1096": {
+        "role": "Neighbouring Robert landholder"
+      },
+      "Glasgow-1093": {
+        "role": "Preferred elder John identity; not uniquely named in boundary acts"
+      }
+    },
+    "status": "Maintained reading reused for the 17 October 2026 review; no new original inspection."
+  },
+  {
+    "record_id": "glasgow-protocols-805-810-1564",
+    "association": "Renwick III, protocols 805 and 810, printed pp.57–60",
+    "date": "28 October and 16 November 1564",
+    "year": 1564,
+    "place": "Saltmarket, Glasgow",
+    "source_title": "Renwick III, protocols 805 and 810, printed pp.57–60",
+    "source_url": "https://archive.org/details/abstractsprotoc06scogoog/page/n69/mode/2up",
+    "note": "Protocol 805 expressly makes John heir of William his father. Protocol 810 has John senior convey the same fore tenement, witnessed by Archibald Herbisoune. Protocol 719 p.29 establishes Isobella as Archibald’s wife. The in-law association supports but does not uniquely specify Isobella’s generation or father.",
+    "profiles": {
+      "Glasgow-1098": {
+        "role": "Named deceased father"
+      },
+      "Glasgow-1093": {
+        "role": "Named son/heir and later seller"
+      },
+      "Glasgow-3916": {
+        "role": "Wife of witness in separate protocol 719; inferred family association"
+      }
+    },
+    "status": "Maintained reading reused for the 17 October 2026 review; no new original inspection."
+  },
+  {
+    "record_id": "glasgow-fisher-network-1559-1575",
+    "association": "Renwick II 525–526 p.76; V 1559 p.93; VII 2002 p.36 and 2151 p.98",
+    "date": "1559/60–1575",
+    "year": 1573,
+    "place": "Bridgegait, Glasgow",
+    "source_title": "Renwick II 525–526 p.76; V 1559 p.93; VII 2002 p.36 and 2151 p.98",
+    "source_url": "https://archive.org/details/abstractsprotoc00robegoog/page/n52/mode/2up",
+    "note": "Robert Glasgow and Archibald Herbisoune recur together; protocol 2002 groups Robert, Archibald and John as fishers. The John identity and kinship remain uncertain. Protocol 2151’s Maxwell/Wilson purchasers support Archibald’s identity but do not establish the same parcel as the 1563 sale.",
+    "profiles": {
+      "Glasgow-1096": {
+        "role": "Robert fisher and witness"
+      },
+      "Glasgow-3916": {
+        "role": "Wife of Archibald Herbisoune; family inference"
+      },
+      "Glasgow-1093": {
+        "role": "Possible elder John identity; another adult John may be the fisher"
+      }
+    },
+    "status": "Maintained reading reused for the 17 October 2026 review; no new original inspection."
   }
 ]

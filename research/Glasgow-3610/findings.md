@@ -1,8 +1,10 @@
 # Findings: John Glasgow (Glasgow-3610), reconstructed 1649 father
 
-Last updated: 2026-10-16
+Last updated: 2026-10-17
 
 ## Current conclusion
+
+**Combined identity review, 17 October 2026:** retain [John Glasgow-3296](https://www.wikitree.com/wiki/Glasgow-3296) as the selected **uncertain father, 28% subjective probability**. The 1608 Mid Calder child could be the 1649 Kirknewton/East Calder father, but the childhood/adult identification and the older Mid Calder/Quothquan identity remain separate uncertainties. [John Glasgow-1084](https://www.wikitree.com/wiki/Glasgow-1084), the 1616 child of [James Glasgow-991](https://www.wikitree.com/wiki/Glasgow-991), supplies a substantive compatible alternative identity and conditional James-father route. No merger, parent replacement, mother assignment or confidence upgrade follows. The dated assessments below remain in force subject to the corrected chronology: the secure paternal occurrence is in 1649, not a proved 1646–1650 baptism sequence.
 
 Reviewed: 2026-10-16
 
@@ -21,11 +23,11 @@ adult father's parents.
 The unsupported father attachment to Glasgow-1087 was removed live on 26
 September 2026. His former exact 18 February 1626 birth and inferred birthplace
 were also removed. The live structured date now says **before 1629, uncertain**:
-an adulthood estimate from his children's 1646–49 baptisms, not a recorded
-birth date. Preserve him as a record-defined father unless another source
+an adulthood estimate inherited from the 1646-child comparison, not a recorded
+birth date. Margaret's competing 1646/1649 readings leave that earlier basis unresolved; the date is retained, not newly established by the 1649 record. Preserve him as a record-defined father unless another source
 establishes his own parents or birth.
 
-**Selected local working parent,15 October2026:** [John Glasgow, Mid Calder/Quothquan working identity](/people/glasgow-3296.html), **uncertain**. The older John already represents the father named in Mid Calder baptisms1608–1609. His son John-1086, baptised1608, is a viable earlier identity for the adult John who had children in neighbouring Kirknewton/East Calder1646–1650: age38 at the1646 birth is straightforward. Select the older John as working father of3610 on that local and chronological reconstruction. Keep the two son profiles separate while testing their possible identity. The live WikiTree parent field is separate; this is a local hypothesis, with competing explanations below.
+**Selected local working parent,15 October2026:** [John Glasgow, Mid Calder/Quothquan working identity](/people/glasgow-3296.html), **uncertain**. The older John represents the father named in the Mid Calder baptisms of 1608–1609 as an uncertain earlier identity. The 1608 child, provisionally carried by John-1086, is a viable earlier identity for the adult John named as father in neighbouring Kirknewton/East Calder in 1649: age 40–41 is straightforward. Retain the older John as uncertain working father on that local and chronological reconstruction. The 17 October review retains 28% and corrects the earlier reliance on a supposed 1646–1650 child sequence. Keep the two son profiles separate while testing their possible identity. The live WikiTree parent field is separate; this is a local hypothesis, with competing explanations below.
 
 ## Source findings
 | Source | Finding | Assessment |
@@ -35,9 +37,9 @@ establishes his own parents or birth.
 
 ## Selected uncertain father —15 October2026
 
-The older John already represents the father named in Mid Calder baptisms1608–1609. His son John-1086, baptised1608, is a viable earlier identity for the adult John who had children in neighbouring Kirknewton/East Calder1646–1650: age38 at the1646 birth is straightforward. Select the older John as working father of3610 on that local and chronological reconstruction. Keep the two son profiles separate while testing their possible identity.
+The older John represents the father named in the Mid Calder baptisms of 1608–1609 as an uncertain earlier identity. The 1608 child, provisionally carried by John-1086, is a viable earlier identity for the adult John named as father in neighbouring Kirknewton/East Calder in 1649: age 40–41 is straightforward. Retain the older John as uncertain working father on that local and chronological reconstruction. The 17 October review retains 28% and corrects the earlier reliance on a supposed 1646–1650 child sequence. Keep the two son profiles separate while testing their possible identity.
 
-**Counterevidence and alternatives:** John-1086 has a later Biggar account that has not been equated with3610. They may be different men, and the older father’s Mid Calder/Montfoid/Quothquan identity is itself uncertain. Robert-4006 is another generationally compatible Calder father. This does not restore the former unsupported William-1087 father or treat1629 as a recorded birthday.
+**Counterevidence and alternatives:** John-1086 primarily represents the 1685 Quothquan decedent, whose identity with the 1608 child and with3610 remains unproved. They may be different men, and the older father’s Mid Calder/Montfoid/Quothquan identity is itself uncertain. Robert-4006 is another generationally compatible Calder father. This does not restore the former unsupported William-1087 father or treat1629 as a recorded birthday.
 
 [Full working model and reasoning](/branches/early-scottish-records/#selected-working-joins). This adds one selected uncertain paternal edge to the local tree/network and working measure. It changes no confident relationship and performs no live WikiTree edit.
 
@@ -70,3 +72,28 @@ The six highest-impact selected father hypotheses were re-evaluated using their 
 
 - [Scotland’s People supplied OPR index: Johne, 22 April 1649, Kirknewton/East Calder 690/10/14, FR 15; parent JOHNE GLASGOW; maintained 10 September 2026 review](https://www.scotlandspeople.gov.uk/)
 - [FamilySearch VQ4K-X6G: preserved 1649 Johne/John father-and-child index account; not a newly inspected original](https://www.familysearch.org/ark:/61903/1:1:VQ4K-X6G)
+
+## Source findings — combined identity review, 17 October 2026
+
+The selected father remains [John Glasgow-3296](https://www.wikitree.com/wiki/Glasgow-3296), **28%, uncertain**. The same forename, adjacent Calder locality and compatible generation favour the 1608-child/1649-father reconstruction. The 1609 William baptism supplies local family context, not an independent identification of the 1649 adult. No shared holding, occupation, spouse, witness or documented sibling bridges these particular childhood and adult accounts. This assessment weighs the combined circumstantial case; it does not require a literal father clause.
+
+The 1608 and 1649 indexes each document their own father–child roles. The 1650 Quothquan testament names its decedent's sister Bessie but no child or parent; the 1685 Quothquan testament names its decedent's widow Jonet, surname provisionally read Kinnie, but no child or parent. [John-1086](https://www.wikitree.com/wiki/Glasgow-1086) primarily represents the latter man, only possibly the 1608 child. The older John-3296 primarily represents the 1650 decedent, only possibly the Mid Calder father. These different record roles do not independently bridge the identities. The 1650 omission of children does not exclude the selected family.
+
+A substantial alternative is [John Glasgow-1084](https://www.wikitree.com/wiki/Glasgow-1084), the 1616 Mid Calder child whose index names [James Glasgow-991](https://www.wikitree.com/wiki/Glasgow-991) as father. His proposed adult account includes John and [Issobell Porteous](https://www.wikitree.com/wiki/Porteous-912) in the Edinburgh marriage index on 30 June 1642 and their daughter [Issobell](https://www.wikitree.com/wiki/Glasgow-1438) on 4 April 1643. The attributed 20 June 1652 Kirknewton/East Calder daughter [Anne](https://www.wikitree.com/wiki/Glasgow-1439) currently has only a FamilySearch tree citation, not an inspected parish entry. A father aged about 33 in 1649 fits this alternative. The proposed continuity of the separate 1638 John/[Helene Patoune](https://www.wikitree.com/wiki/Patoune-11) household with the Porteous household remains independently uncertain. Retain a James-father route conditional on identifying this adult with John-3610, without a new percentage, merger, replacement or mother assignment.
+
+[Robert Glasgow-4006](https://www.wikitree.com/wiki/Glasgow-4006) remains a compatible father-generation comparison without a named John child. [John Glasgow-3056](https://www.wikitree.com/wiki/Glasgow-3056), the 1617 Linlithgow child of [John Glasgow-1561](https://www.wikitree.com/wiki/Glasgow-1561), is another compatible childhood comparison; his attributed 1670 death is itself uncertain. The removed [William Glasgow-1087](https://www.wikitree.com/wiki/Glasgow-1087) father remains unsupported, but his 1609 baptism alone does not biologically exclude fathering a child before 1629.
+
+[Margaret Glasgow-3112](https://www.wikitree.com/wiki/Glasgow-3112) has competing 11 November 1646 and 26 November 1649 readings. [Alexander Glasgow-3118](https://www.wikitree.com/wiki/Glasgow-3118) has an estimated circa-1650 birth from his 1667 marriage, not a proved 1650 baptism. Neither provides an independent proved sibling bridge. No sibling of the adult John-3610 is proved in this review. Compare the original 1608, 1616 and 1649 register contexts with the Porteous household for a distinguishing residence, occupation, witness or family association.
+
+| Existing source | Scope and locator |
+| --- | --- |
+| [FamilySearch X1BL-X8B](https://familysearch.org/ark:/61903/1:1:X1BL-X8B); [Findmypast SCOT/OPR/BAP/4585634](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4585634&tab=this) | Jhone, 26 June 1608, father Jhone; supplied SP OPR 694/10/12; FMP OPR 694/1, item 3, p.5. Same-register derivatives. |
+| [FamilySearch VQ4K-X6G](https://www.familysearch.org/ark:/61903/1:1:VQ4K-X6G) | Johne, 22 April 1649, father Johne; SP OPR 690/10/14, FR15. |
+| [Scotland's People](https://www.scotlandspeople.gov.uk/) | John, 18 February 1616, father James, Mid Calder OPR 694/10/28; John/Issobell Porteous, 30 June 1642, Edinburgh OPR 685/1/430/244, FR848. Existing supplied indexes. |
+| [FamilySearch X1YN-JHD](https://familysearch.org/ark:/61903/1:1:X1YN-JHD) | Issobell, 4 April 1643, Edinburgh; parents John Glasgow/Issobell Porteous. |
+| [FamilySearch tree 4XPK-FW2](https://www.familysearch.org/tree/person/details/4XPK-FW2) | Attributed Anne, 20 June 1652, Kirknewton/East Calder: tree lead only. |
+| [NRS wills via Scotland's People](https://www.scotlandspeople.gov.uk/search-records/legal-records/wills) | CC14/5/5, images 65–66, Quothquan 1650; CC14/5/12, images 67–68, Quothquan 1685. Existing transcriptions reused. |
+| [FamilySearch X1RV-T85](https://www.familysearch.org/ark:/61903/1:1:X1RV-T85) | John Glesgow, 1617, Linlithgow. The separately attributed death is an unnamed Glasgow with John in the parents/other field, OPR 668/70/653, 14 February 1670; original uninspected. |
+| [Findmypast SCOT/OPR/BAP/4473472](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4473472); [FamilySearch XY9W-TPB](https://familysearch.org/ark:/61903/1:1:XY9W-TPB) | Margaret's 26 November 1649 transcript, father John, OPR 689/20 p.5, conflicts with the maintained FamilySearch-based 1646 account. Alexander/Margaret Smith's 1667 marriage, SP OPR 690/10/54, FR37, is not a 1650 baptism. |
+
+This review uses existing indexes, transcriptions and the explicitly identified tree lead; no original was newly inspected. All earlier family selections and the documented 1649 parent role remain unchanged.

@@ -58,6 +58,75 @@ class T(unittest.TestCase):
         self.assertEqual(supported['connector_ids'], ['record-parent'])
         self.assertEqual(summarize(nodes, edges, 1650, view='confident')['edge_count'], 0)
 
+    def pending_documentary_account(self, *, dossier_changes=None, row_changes=None, document_changes=None):
+        extra = dict(pending_profile_creation=True, creation_status='identity_hold',
+                     wikitree_update={'new_profile': True}, wikitree_url=None,
+                     historical_basis={'latest_birth_year': 1650, 'source_url': 'https://archive.example/record'},
+                     alternate_ids=['record-parent-alias'])
+        extra.update(dossier_changes or {})
+        self.add('Grandparent', 1570)
+        self.add('record-parent', 1600, parents=(('Grandparent', 'uncertain'),), extra=extra)
+        self.rows[-1]['html_url'] = '/people/record-parent.html'
+        self.rows[-1].update(row_changes or {})
+        self.add('Child', 1640, parents=(('record-parent-alias', 'uncertain'),))
+        person = dict(id='record-parent', name='Named historical parent', publication_status='approved',
+                      url='/people/record-parent.html', first_record_year=1620, source_ids=['S-1'])
+        person.update(document_changes or {})
+        (self.t / 'data/ancestry-documentary-people.json').write_text(json.dumps({'people': [person]}))
+        shared = self.t / 'assets/research'
+        shared.mkdir(parents=True, exist_ok=True)
+        (shared / 'relationship-assessments.json').write_text(json.dumps([
+            {'assertion_id': 'A-parent', 'working_selection': True, 'publication_status': 'approved',
+             'status': 'uncertain', 'allow_new_relationship': True,
+             'perspectives': {'Child': {'relationship': 'father'}, 'record-parent': {'relationship': 'son'}}}
+        ]))
+
+    def test_pending_account_reuses_documentary_node_without_metric_gain(self):
+        self.pending_documentary_account()
+        nodes, edges, quality = self.finish()
+        self.assertEqual(len(nodes), 3)
+        self.assertFalse(nodes['record-parent']['cohort_member'])
+        self.assertIsNone(nodes['record-parent']['birth_year'])
+        self.assertEqual(nodes['record-parent']['year'], 1620)
+        self.assertEqual([(e['child'], e['father']) for e in edges],
+                         [('Child', 'record-parent'), ('record-parent', 'Grandparent')])
+        self.assertEqual(quality['multiple_fathers'], [])
+        result = summarize(nodes, edges, 1650)
+        self.assertEqual(result['population'], 2)
+        self.assertEqual(result['cohort_ids'], ['Child', 'Grandparent'])
+        self.assertEqual(result['connector_ids'], ['record-parent'])
+
+    def test_documentary_collision_rejects_nonmatching_or_linked_accounts(self):
+        cases = [
+            {'row_changes': {'html_url': '/people/record-other.html'}},
+            {'row_changes': {'html_url': '/people/record-parent.html?view=all'}},
+            {'document_changes': {'url': '/free-space/parent/'}},
+            {'dossier_changes': {'pending_profile_creation': False}},
+            {'dossier_changes': {'creation_status': 'creation_ready'}},
+            {'dossier_changes': {'wikitree_update': {'new_profile': False}}},
+            {'dossier_changes': {'wikitree_url': 'https://www.wikitree.com/wiki/Example-1'}},
+            {'row_changes': {'profile_ids': ['Example-1']}},
+            {'dossier_changes': {'linked_identity': 'Example-1'}},
+            {'dossier_changes': {'historical_basis': {}}},
+            {'dossier_changes': {'historical_basis': {'latest_birth_year': 2020, 'source_url': 'https://archive.example/record'}}},
+            {'dossier_changes': {'historical_basis': {'latest_birth_year': 1650, 'source_url': '/local-note'}}},
+        ]
+        for changes in cases:
+            with self.subTest(changes=changes):
+                self.rows = []
+                self.pending_documentary_account(**changes)
+                with self.assertRaisesRegex(ValueError, 'Duplicate documentary ancestor'):
+                    self.finish()
+
+    def test_pending_account_rejects_private_or_living_flags_despite_old_birth_basis(self):
+        for scope in ('row_changes', 'dossier_changes', 'document_changes'):
+            for flag in ('private', 'living', 'likely_living'):
+                with self.subTest(scope=scope, flag=flag):
+                    self.rows = []
+                    self.pending_documentary_account(**{scope: {flag: True}})
+                    with self.assertRaisesRegex(ValueError, 'Duplicate documentary ancestor'):
+                        self.finish()
+
     def test_saved_tree_flags_are_used_without_overriding_research(self):
         self.assertEqual(relationship_status({'status':'unknown','tree_status':'confident'}), ('confident','saved_wikitree_flag'))
         self.assertEqual(relationship_status({'status':'unknown','tree_status':'DNA-confirmed'})[0], 'dna_confirmed')

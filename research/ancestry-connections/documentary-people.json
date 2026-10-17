@@ -123,6 +123,20 @@
           "reason": "The merchant was a minor in 1586, with the accepted approximate birth range 1565–1572. If James’s conventional circa-1575 birth were established, that would conflict with his being the merchant’s son. James’s birth is unrecorded: a later birth in the 1580s can fit the 1605 fatherhood and, toward the earlier end of George’s range, ordinary fatherhood in the previous generation. Those are compatibility examples, not new birth estimates. The 1598 marriage-contract comparison does not prove a first marriage or identify James’s mother. No date is altered to make this route fit. George-1099 stays a compatible candidate; there is no merge, no second distinct George son claimed for William, and no automatic transfer of Margaret Herbesoun or a wife as mother. If the two Georges are different men, William’s upstream placement must be reconsidered. The retained George Glascoe-36 and George-3171 comparisons remain open on their actual source limits."
         }
       ]
+    },
+    {
+      "id": "record-bessie-lanark-1650",
+      "name": "Bessie Glasgow of Quothquan",
+      "gender": "Female",
+      "publication_status": "approved",
+      "first_record_year": 1650,
+      "record_period": "27 May 1650; identity among profiles unresolved",
+      "record_place": "Quothquan, Libberton, Lanarkshire, Scotland",
+      "url": "/people/record-bessie-lanark-1650.html",
+      "source_ids": [
+        "quothquan-john-testament-1650"
+      ],
+      "summary": "Bessie Glasgow is documented as the lawful sister and executrix of John Glasgow in Quodquen in the testament confirmed on 27 May 1650 (sibling relationship 99%). Eight checked Bessie/Elizabeth profiles remain compatible; her identity is on HOLD. Stephen Glasgow-1029 is a conditional working father at 22%, extending John’s existing hypothesis across the documented siblings. The record does not name Stephen, and this is not independent support for his fatherhood. No mother is inferred. This canonical record account is excluded from the fixed historical-profile cohort pending identity resolution; adding it does not establish a new distinct person."
     }
   ],
   "chronology": [
@@ -653,6 +667,177 @@
           "death": "unknown",
           "death_location": "unknown"
         }
+      }
+    },
+    {
+      "id": "Glasgow-1657",
+      "publication_status": "approved",
+      "source_ids": [
+        "cross-john-death-notice-1836"
+      ],
+      "assessment_id": "chronology-cross-john-location-20261017",
+      "reviewed": "2026-10-17",
+      "reason": "The 1836 notice places John at Cross near Broughshane, not the namesake townland in Ballymoney parish. Preserve County Antrim as his uncertain birthplace and all quoted dates. Project only the documented 1836 residence to the existing Ballyclug parish representative point, retaining the original imported location for comparison.",
+      "year": 1766,
+      "birth_year": 1766,
+      "death_year": 1836,
+      "vitals": {
+        "birth": {
+          "date": "1766",
+          "place": "County Antrim, Ireland",
+          "status": "uncertain"
+        },
+        "death": {
+          "date": "1836-07-28",
+          "place": "Cross, near Broughshane, Ballyclug, County Antrim, Ireland",
+          "status": "exact",
+          "place_status": "uncertain",
+          "qualifier": "The death notice records residence at Cross near Broughshane; this is an inferred death locality, not a recorded death site or birthplace. The quoted 28 July is retained; the day is missing from OCR and awaits page-image confirmation.",
+          "source_url": "https://www.britishnewspaperarchive.co.uk/viewer/bl/0001287/18360810/010"
+        }
+      },
+      "tree_display": {
+        "birthplace": "County Antrim, Ireland",
+        "deathplace": "Cross, near Broughshane, Ballyclug, County Antrim, Ireland (residence; death place inferred)"
+      },
+      "catalogue_projection": {
+        "birth_location": "County Antrim, Ireland",
+        "death_location": "Cross, near Broughshane, Ballyclug, County Antrim, Ireland (inferred)",
+        "locations": [
+          "County Antrim, Ireland",
+          "Cross, near Broughshane, Ballyclug, County Antrim, Ireland",
+          "Ballyclug civil parish — County Antrim"
+        ],
+        "location_groups": [
+          {
+            "id": "ballyclug_parish",
+            "country": "Ireland",
+            "area": "County Antrim",
+            "locality": "Ballyclug civil parish — County Antrim"
+          }
+        ]
+      },
+      "map_projection": {
+        "record_id": "7de1d510cb20ffd0",
+        "match_fingerprints": [
+          {
+            "year": "1766–1836",
+            "record_location": "Cross townland, Ballymoney parish",
+            "association": "Cross, Ballymoney, County Antrim"
+          },
+          {
+            "year": "1836",
+            "record_location": "Ballyclug civil parish — County Antrim",
+            "association": "Residence at Cross near Broughshane in the 1836 death notice; not birthplace"
+          }
+        ],
+        "record_fields": {
+          "year": "1836",
+          "filter_year": 1836,
+          "association": "Residence at Cross near Broughshane in the 1836 death notice; not birthplace",
+          "note": "John was of Cross near Broughshane at his death in July 1836. The parish point is representative, not an exact dwelling or birthplace; County Antrim remains his uncertain birthplace. The quoted day 28 is unchanged and awaits image confirmation.",
+          "location_id": "ballyclug_parish",
+          "record_location": "Ballyclug civil parish — County Antrim",
+          "record_precision": "Civil-parish representative point",
+          "location_basis": "Recorded residence: Cross near Broughshane. Reuses the maintained Ballyclug parish point pending an exact Cross townland coordinate; not birth geography.",
+          "latitude": 54.858,
+          "longitude": -6.254,
+          "evidence": "Maintained death-notice reading",
+          "source_title": "Belfast Commercial Chronicle, 10 August 1836, p.3, BL/0001287/18360810/010",
+          "source_url": "https://www.britishnewspaperarchive.co.uk/viewer/bl/0001287/18360810/010",
+          "source_type": "newspaper",
+          "source_status": "Maintained reading reused for the 17 October 2026 review; no new original inspection.",
+          "supporting_source_title": "Belfast Commercial Chronicle, 10 August 1836, p.3, BL/0001287/18360810/010",
+          "supporting_source_url": "https://www.britishnewspaperarchive.co.uk/viewer/bl/0001287/18360810/010",
+          "supporting_source_quality": "original",
+          "supporting_source_status": "maintained_reading",
+          "supporting_source_reason": "Original publication identified in prior research; reading reused, not newly inspected. Residence is stated; exact death site is inferred.",
+          "place_url": "https://glasgow.phenotype.dev/places/ballyclug-parish.html",
+          "canonical_source_ids": [
+            "cross-john-death-notice-1836"
+          ]
+        },
+        "compact_fields": {
+          "year": "1836",
+          "y": 1836,
+          "place": "Ballyclug civil parish — County Antrim",
+          "location_id": "ballyclug_parish",
+          "association": "Residence at Cross near Broughshane in the 1836 death notice; not birthplace",
+          "status": "Maintained death-notice reading",
+          "quality": "original",
+          "title": "Belfast Commercial Chronicle, 10 August 1836, p.3, BL/0001287/18360810/010",
+          "citation": "maintained_reading",
+          "canonical_source_ids": [
+            "cross-john-death-notice-1836"
+          ]
+        },
+        "person_fields": {
+          "birth_location": "County Antrim, Ireland",
+          "death_location": "Cross, near Broughshane, Ballyclug, County Antrim, Ireland (inferred)",
+          "recorded_in": [
+            "Ballyclug civil parish — County Antrim"
+          ],
+          "locations": [
+            "County Antrim, Ireland",
+            "Cross, near Broughshane, Ballyclug, County Antrim, Ireland",
+            "Ballyclug civil parish — County Antrim"
+          ],
+          "location_groups": [
+            {
+              "id": "ballyclug_parish",
+              "country": "Ireland",
+              "area": "County Antrim",
+              "locality": "Ballyclug civil parish — County Antrim"
+            }
+          ]
+        },
+        "point": {
+          "lat": 54.858,
+          "lon": -6.254,
+          "name": "Ballyclug civil parish — County Antrim",
+          "country": "ireland",
+          "precision": "Civil-parish representative point",
+          "source_places": [
+            "Ballyclug civil parish — County Antrim"
+          ],
+          "location_ids": [
+            "ballyclug_parish"
+          ],
+          "level": "locality",
+          "precision_level": "representative"
+        },
+        "previous_point": {
+          "lat": 55.043611,
+          "lon": -6.568889,
+          "name": "Cross townland, Ballymoney parish",
+          "country": "ireland",
+          "precision": "Townland centrepoint",
+          "items": [
+            [
+              "7de1d510cb20ffd0",
+              "glasgow-1657",
+              1766.0,
+              false
+            ]
+          ],
+          "source_places": [
+            "Cross townland, Ballymoney parish"
+          ],
+          "location_ids": [
+            "cross_ballymoney"
+          ],
+          "level": "locality",
+          "precision_level": "representative"
+        },
+        "previous_location_id": "cross_ballymoney",
+        "previous_place_labels": [
+          "Cross townland, Ballymoney parish",
+          "Cross, Ballymoney, County Antrim, Ireland, United Kingdom",
+          "Cross, Ballymoney, County Antrim, Ireland",
+          "Cross, Ballymoney, County Antrim"
+        ],
+        "previous_place_route": "/places/cross-ballymoney.html",
+        "reassignment_html": "<section class=\"dossier-section\"><h1>Cross: corrected parish identification</h1><p>John Glasgow’s 1836 notice names Cross near Broughshane. His record was previously mapped to the different Cross in Ballymoney parish. The association is now shown at the <a href=\"/places/ballyclug-parish.html\">Ballyclug parish representative point</a>, pending an exact townland coordinate.</p><p>This is his recorded residence in 1836, not his birthplace. His birthplace remains County Antrim, with no exact locality established. <a href=\"/people/glasgow-1657.html\">Read John Glasgow’s sourced account</a>.</p></section>"
       }
     }
   ]

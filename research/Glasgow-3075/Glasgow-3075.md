@@ -1,4 +1,3 @@
-<!-- REVIEWED FULL REPLACEMENT: preserves the complete captured biography; adds only the sourced marriage paragraph, 2026-10-15. -->
 [[Category:Glasgow Name Study]]
 {{Estimated Date}}
 
@@ -23,20 +22,11 @@ Retornatarum... Abbreviatio'', vol. 2 (1811), Inquisitiones Generales no. 3278,
 
 === Parentage evidence ===
 
-The identification of the Leith mealmaker with Niniane's son rests on several points:
+[[Glasgow-3188|Ninian Glasgow]], fisher and burgess of Glasgow, is the selected '''possible father, assessed at 38%''' on 17 October 2026. William's occurrence in Ninian's estate material, compatible generations and the family's craft connections make Ninian the strongest named working candidate. This is a subjective assessment of the combined evidence, not a probability stated in a record or a proved relationship.
 
-* Niniane's 1613 testament directly names a son '''William Glasgw'''.
-* The surname Glasgow was uncommon in this period.
-* The age and generation fit the William later found in Leith.
-* A possible Glasgow baptism record shows a William Glasgow already married and fathering a child in 1612.
-* William was certainly the father of a child baptised in 1618.
-* The movement from Glasgow to Leith is credible for a tradesman working in the meal and grain trade.
+Ninian's testament does not securely call William his son. A William occurs in debt material and a possible William reading occurs at the damaged foot of the latter will, but physical loss prevents linking the name, support provision and relationship. These occurrences may concern different men. Nor does the document identify either as the Leith mealmaker.<ref name="NinianParentage">National Records of Scotland, Glasgow Commissary Court, CC9/7/9, images 142–145, testament testamentar and inventory of Ninian Glasgow, fisher and burgess of Glasgow; died January 1613, confirmed 8 May 1613. Existing original-image reread of 10 September 2026, particularly the damaged lower part of image 143 and continuation on image 144; no new image inspection in this assessment. [https://www.scotlandspeople.gov.uk/search-records/legal-records/wills Archive search].</ref>
 
-There is, however, no presently cited record which explicitly styles the Leith man:
-
-:'''William Glasgow, son of Niniane Glasgow, flescher and burgess of Glasgow'''
-
-The parent links should therefore be marked '''uncertain''' or '''probable''', rather than certain.
+The earlier interpretation that the testament “directly names a son William Glasgw”, including the supplied phrase “his sone”, is '''superseded'''. The associated description “flescher” is also superseded: the record reads fisher. The uncommon surname, compatible generation, possible Glasgow appearance in 1612 and credible movement in the meal trade explain why the hypothesis arose; they do not independently establish the Leith man's identity or parentage. The source and that interpretation remain distinguishable in the research account.
 
 === Marriage and children ===
 
@@ -44,7 +34,7 @@ William may be the '''William Glasgw''' recorded in the Glasgow High Kirk baptis
 
 * '''William Glasgw''', baptised 8 November 1612, lawful son of William Glasgw and Christian Scot. Witnesses were John Allassoun and Mathew Sympsoun.<ref name=Baptism1612>''Glasgow High Kirk Baptisms 1609–1777'', volume 1/962, baptism of William Glasgw, 8 November 1612.</ref>
 
-This identification is plausible but not yet proved. The baptism places a man of the correct name in Glasgow immediately before Niniane's 1613 testament.
+This identification remains possible. The baptism places a man of the correct name in Glasgow immediately before Ninian’s 1613 testament, but the proposed 1610 Leith marriage and Catherine’s 1618 household make a simple Glasgow-to-Leith sequence less persuasive. Identifying all these adult occurrences as one man requires an unexplained marriage sequence; no widowhood or remarriage is established. The 1612 event therefore carries little independent weight in identifying the Leith man’s origin.
 
 William was the father of:
 
@@ -97,12 +87,12 @@ Select William [[Glasgow-3075]], the Leith mealmaker, as the low-confidence work
 
 Retain the strongest specific alternative: Betham’s pedigree of Archibald Glasgow, Rathmalton clerk, whose will was dated April 1673, names Margaret as his only daughter, wife of an unnamed Cairns and mother of Thomas Cairns. The documentary father–daughter relationship is explicit, but identifying that Margaret with [[Glasgow-3186]] remains unproved. A first Lyell marriage in 1633 permits a later Cairns marriage. The preferred William placement avoids requiring that unproved Scottish–Irish identity and remarriage. It also avoids tension with the probable identification of Archibald [[Glasgow-1101]] as the child baptised in Glasgow in 1614 and the 1635 graduate: that child would be an implausible father of a 1633 bride. This is a ranking consideration, not an exclusion: the Scottish identity is unproved, and a baptism is not necessarily an infant’s birth. The new uncertain William field must not be used as a concrete father conflict to reject the Rathmalton candidate. A different South Leith Glasgow father also remains possible. No mother is selected: Catherine Fraith/Fraser’s 1610 bride identity and Christian Scot’s separate Glasgow household remain qualified. William’s testament names Archibald as lawful son and sole executor, not only child; omission of Margaret neither excludes her nor proves kinship.
 
-William’s own possible Ninian father and the proved Archibald son remain unchanged. [https://glasgow.phenotype.dev/branches/early-scottish-records/#stevenston-leith-working-family Full selected model, competing families and source limits]. <ref>Existing reviewed records and public profile citations: [https://archive.org/details/scottishrecordso07scotuoft/page/110/mode/2up?q=Cowan Grant, Glasgow testament index p.110: Jonet Cowan, spouse of Mathew Glasgow in Pyperheugh, 24 April 1665]; [https://www.familysearch.org/ark:/61903/1:1:XYWK-WM3 John Glasgow and Jonet Mathie: Glasgow marriage index, 25 January 1618]; [https://www.familysearch.org/ark:/61903/1:1:VQHV-12T Glasgow baptism index: John, child of John Glasgow and Jonat Mathei, 13 May 1619]; [https://aanhs.org/wp-content/uploads/2018/05/people-of-ayrshire.pdf#page=36 Sanderson, People of Sixteenth Century Ayrshire p.331: Ardeer Nether, 1559–60]; [https://archive.org/details/abstractsprotoc07robegoog/page/n90/mode/2up Renwick, protocols 183–184, 10 May 1554, printed p.63: Mathy and Glasgow co-witnesses]; [https://www.wikitree.com/wiki/Glasgow-3186 Margaret Glasgow-3186: captured South Leith marriage citation, 28 November 1633, OPR 692/2 90/264 FR3038]; [https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FMAR%2F1447177%2F1 Findmypast SGS transcript: William Glascoe and Catherine Fraith, Leith, 10 July 1610]; [https://archive.org/details/scottishrecordso28scotuoft/page/71/mode/2up Grant, Edinburgh apprentices p.71: Archibald son of William, mealmaker in Leith, 23 October 1639]; [https://archive.org/details/inquisitionumadc00grea_0 Retours vol.2, general no.3278, 1 May 1647: Archibald heir of William, his father]; [https://catalogue.nli.ie/Record/vtls000540633 Betham, Old Series vol.3, GO MS225, handwritten p.90, viewer image97: Rathmalton will of April 1673]; [https://www.wikitree.com/wiki/Glasgow-1101 Archibald Glasgow-1101: qualified Scottish baptism/graduate and Irish clerk identity]. No original newly inspected; indexed dates and adult-identity limits remain explicit.</ref>
+William’s own possible Ninian father and the proved Archibald son remain unchanged. [https://glasgow.phenotype.dev/branches/early-scottish-records/#stevenston-leith-working-family Full selected model, competing families and source limits]. <ref>Existing reviewed records and public profile citations: [https://archive.org/details/scottishrecordso07scotuoft/page/110/mode/2up?q=Cowan Grant, Glasgow testament index p.110: Jonet Cowan, spouse of Mathew Glasgow in Pyperheugh, 24 April 1665]; [https://www.familysearch.org/ark:/61903/1:1:XYWK-WM3 John Glasgow and Jonet Mathie: Glasgow marriage index, 25 January 1618]; [https://www.familysearch.org/ark:/61903/1:1:VQHV-12T Glasgow baptism index: John, child of John Glasgow and Jonat Mathei, 13 May 1619]; [https://aanhs.org/wp-content/uploads/2018/05/people-of-ayrshire.pdf#page=36 Sanderson, People of Sixteenth Century Ayrshire p.331: Ardeer Nether, 1559–60]; [https://archive.org/details/abstractsprotoc07robegoog/page/n90/mode/2up Renwick, protocols 183–184, 10 May 1554, printed p.63: Mathy and Glasgow co-witnesses]; [https://www.wikitree.com/wiki/Glasgow-3186 Margaret Glasgow-3186: captured South Leith marriage citation, 28 November 1633, OPR 692/2 90/264 FR3038]; [https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FMAR%2F1447177%2F1 Findmypast SGS transcript: William Glascoe and Catherine Fraith, Leith, 10 July 1610]; [https://archive.org/details/scottishrecordso28scotuoft/page/71/mode/2up Grant, Edinburgh apprentices p. 71: Archibald son of William, mealmaker in Leith, 23 October 1639]; [https://archive.org/details/inquisitionumadc00grea_0 Retours vol. 2, general no.3278, 1 May 1647: Archibald heir of William, his father]; [https://catalogue.nli.ie/Record/vtls000540633 Betham, Old Series vol.3, GO MS225, handwritten p.90, viewer image97: Rathmalton will of April 1673]; [https://www.wikitree.com/wiki/Glasgow-1101 Archibald Glasgow-1101: qualified Scottish baptism/graduate and Irish clerk identity]. No original newly inspected; indexed dates and adult-identity limits remain explicit.</ref>
 
 
 === Current evidence assessment ===
 
-[[Glasgow-3188|Ninian Glasgow]] remains only a possible father. A William
+[[Glasgow-3188|Ninian Glasgow]] remains the selected possible father, assessed at 38% on 17 October 2026; the attachment remains uncertain. A William
 occurs in Ninian's damaged 1613 testament material, but the formerly quoted
 ''his sone'' wording cannot be securely recovered and no record identifies that
 William as the Leith mealmaker.<ref>National Records of Scotland, Glasgow
@@ -119,16 +109,15 @@ A separate Glasgow High Kirk entry records William Glasgw, lawful son of a Willi
 
 William's testament records £20 Scots owed by Andro Glasgow in Woodhead and £2 10s associated with the late John Glasgow in England.<ref name="WilliamWill" /> These are financial connections, not proof that either man was William's relative.
 
-William's Leith residence and Archibald's apprenticeship to an Edinburgh cordiner make four women recorded in South Leith or Edinburgh—[[Glasgow-3182|Barbara]], [[Glasgow-3598|Margaret]], [[Glasgow-3302|Barbara]] and [[Glasgow-3336|Isobel]]—useful collateral candidates. Their marriages into cordiner or tailor households fit the same locality and craft network,<ref>Henry Paton, ed., ''The Register of Marriages for the Parish of Edinburgh, 1595–1700'', [https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/register_of_marriages_for_the_parish_of_edinburgh_1595-1700_~_1898.pdf#page=277 printed p. 267].</ref> but none of their marriage records names a father. They should not be attached as William's sisters or daughters without a direct relationship record.
+William's Leith residence and Archibald's apprenticeship to an Edinburgh cordiner make four women recorded in South Leith or Edinburgh—[[Glasgow-3182|Barbara]], [[Glasgow-3598|Margaret]], [[Glasgow-3302|Barbara]] and [[Glasgow-3336|Isobel]]—useful collateral candidates. Their marriages into cordiner or tailor households fit the same locality and craft network,<ref>Henry Paton, ed., ''The Register of Marriages for the Parish of Edinburgh, 1595–1700'', [https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/register_of_marriages_for_the_parish_of_edinburgh_1595-1700_~_1898.pdf#page=277 printed p. 267].</ref> but none of their marriage records names a father. Their existing uncertain family placements remain hypotheses. Because those placements partly depend on William’s possible Ninian parentage, they cannot be counted back as independent corroboration of it. No new sibling or daughter relationship follows from this review.
 
-* This profile treats William as the probable son named in Niniane Glasgow's 1613 testament.
-* The identification is based on name, generation, Glasgow association and chronology; there is no direct statement connecting the Leith mealmaker to Niniane.
+* The former “probable son named” interpretation is superseded by the selected possible Ninian father, assessed at 38%; the damaged testament does not securely name William as a son.
+* The selection weighs the estate occurrence, compatible generation and craft network together; William’s Glasgow origin and identification with the 1612 father remain unproved.
 * The parent links should remain marked uncertain.
-* The correct manuscript and index spelling of the probable mother's surname is '''Meik''', not Melk.
+* The correct manuscript and index spelling of the possible mother's surname is '''Meik''', not Melk.
 * Jonet Meik's testament expressly names Robert Glasgow as her son but does not expressly name William as her son.
-* If William was already a husband and father in 1612, he cannot have been a child of Niniane's later wife recorded in 1613.
-* Jonet Meik is therefore the most likely known mother, but an earlier unidentified wife of Niniane cannot be excluded.
-* The possible 1612 marriage to Christian Scot remains unproved.
+* The former inference that the wife recorded in 1613 could not be William’s mother is superseded: the date of that record does not establish when her relationship with Ninian began. Jonet Meik remains a separately assessed possible mother; no maternity is established from the father selection, and an earlier unidentified wife remains possible.
+* The 1612 source is a baptism naming Christian Scot, not a marriage record; her identification as this William’s wife remains possible.
 * The 1618 Archibald baptism supports the generation but does not alone establish William's parents.
 * A John Meik was a mealmaker in Niddrie in 1635, but this is not proof of a maternal occupational tradition.
 * Andro Glasgow in Woodhead and the late John Glasgow in England should not be attached as relatives solely from debt entries.
@@ -138,11 +127,25 @@ William's Leith residence and his son Archibald's 1639 apprenticeship to an Edin
 
 The repeated locality and craft are meaningful network evidence, but no marriage, testament or apprenticeship record names any woman's father. No exact relationship should be treated as proved.
 
+=== Comparison of fathers and independent evidence — 17 October 2026 ===
+
+[[Glasgow-1027|Robert]], Ninian’s documented son, is probably the cordiner admitted at Glasgow in 1613. William’s son [[Glasgow-3078|Archibald]] entered an Edinburgh cordiner apprenticeship in 1639. This supplies a coherent craft-family comparison, but the men are not shown to share an incorporation, master or property. The 1639 apprenticeship, William’s 1646 testament and the 1647 retour securely identify William’s own household; they do not name his father.<ref>James R. Anderson, ed., ''Burgesses & Guild Brethren of Glasgow, 1573–1750'', 22 April 1613, Robert Glasgow, cordiner, admitted as heir of a burgess; [https://www.findmypast.co.uk/transcript?id=SCOT%2FBURGESS%2F0025946&tab=this derivative transcript]. Compare Grant, ''Edinburgh Apprentices'', p. 71, 23 October 1639; NRS CC8/8/62, images 461–462; and ''Retours'', vol. 2, General 3278, 1 May 1647, original xix.128.</ref>
+
+[[Glasgow-1099|George Glasgow]] is a weaker father candidate. His documented 1598 marriage contract with Margaret Stewart is too late to comfortably explain a son marrying in 1610. An earlier child is possible, but no record connects William to George; repeated Archibald and George names in descendants do not identify a father.<ref>Robert Renwick, ed., ''Abstracts of Protocols of the Town Clerks of Glasgow'', vol. 11, protocol 3492, printed pp. 86–87, 13 November 1598, marriage contract of George Glasgow and Margaret Stewart; [https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/abstracts_of_protocols_of_the_town_clerks_of_glasgow__1900.pdf#page=103 printed abstract].</ref> [[Glasgow-3163|Andrew]] and [[Glasgow-1029|Stephen]] are compatible wider-family possibilities without a William-specific bridge. Automated comparisons with [[Glasgow-1156|Robert of Duddingston]], [[Glasgow-991|James of Inveresk]] and [[Glasgow-1557|Edward]] principally reflect estimated generations, broad geography and descendant names; none provides stronger evidence than Ninian’s estate association. These comparisons do not exclude sparsely documented families.
+
+The 38% assessment retains uncertainty rather than raising the link to probable or confident. It is the first individual percentage assigned to the earlier unquantified possible relationship. [[Meik-14|Jonet Meik]] is not excluded by William’s omission from her testament, but the omission gives no positive maternity evidence. Robert would be William’s paternal sibling under the selected model; that is a consequence of the uncertain father hypothesis, not an independently proved sibling relationship. The possible daughter [[Glasgow-3186|Margaret]] and the later identification of Archibald with the 1662 Leith maltman retain their separate assessments.
+
+=== Possible Haddington household, 1639 ===
+
+Wm Glasgow is named as father of Issobell, born on 24 November and baptised on 26 November 1639 at Haddington, with mother indexed as Issobella Miral.<ref name="EarlyHaddington1639">Findmypast/Scottish Genealogy Society, Issobell Glasgow, born 24 and baptised 26 November 1639, Haddington; OPR 709/1 p.208, transcript SCOT/OPR/BAP/4675742; original register not inspected; [https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4675742].</ref> The parental names belong directly to that indexed event; Miral has not been normalized to another surname without the original.
+
+The Leith mealmaker is the leading possible existing identity for Wm because his established eastern-Lothian adult household and September 1644 death fit 1639. His Catherine Fraser and Christian Scot household comparisons neither prove nor by themselves exclude the Haddington occurrence; no remarriage, widowhood or overlapping marriage is inferred. [[Glasgow-1087|William Glasgow of Mid Calder]] and [[Glasgow-3517|William Glasgow, baptised Inveresk in 1614]], are genuine adult alternatives. No occupation or parish-to-parish bridge in the Haddington transcript chooses among them. The named child’s possible identification with [[Glasgow-2454|Issobell Glasgow of Mid Calder]] is a separate, weak later-life comparison; it does not downgrade the direct parental statement in the Haddington event.
+
 == Sources ==
 <references />
 
 * National Records of Scotland, Glasgow Commissary Court, CC9/7/5, Images 82–83, testament testamentar and inventory of Jonet Meik, spouse of Niniane Glasgow.
-* National Records of Scotland, Glasgow Commissary Court, CC9/7/9, Images 142–145, testament testamentar and inventory of Niniane Glasgw, flescher and burgess of Glasgow, 1613.
+* National Records of Scotland, Glasgow Commissary Court, CC9/7/9, Images 142–145, testament testamentar and inventory of Niniane Glasgw, fisher and burgess of Glasgow, 1613 (the former flescher reading is superseded).
 * National Records of Scotland, Edinburgh Commissary Court, CC8/8/62, testament dative and inventory of William Glasgow, mealmaker in Leith, registered 22 July 1646.
 * ''Glasgow High Kirk Baptisms 1609–1777'', volume 1/962.
 * ''Scotland Births and Baptisms, 1564–1950'', FamilySearch, entry for Archbald Glascow, 1618.

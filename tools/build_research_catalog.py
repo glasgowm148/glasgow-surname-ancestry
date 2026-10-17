@@ -3500,6 +3500,12 @@ def _load_wikitree_evidence() -> dict:
 
 
 def _build_people(records: list[dict], profiles: dict[str, dict], edges: list[list[str]], descendant_counts: dict[str, int], wikitree_evidence: dict | None = None, profile_seed_ids: set[str] | None = None) -> list[dict]:
+    try:
+        from project_record_locations import load_projections, stable_record_id
+    except ModuleNotFoundError:
+        from tools.project_record_locations import load_projections, stable_record_id
+    location_projections = load_projections(RESEARCH_DIR / 'ancestry-connections/documentary-people.json')
+    emitted_record_ids = set()
     privacy = privacy_from_sources(wikitree_evidence or {}, profiles)
     evidence_profiles = (wikitree_evidence or {}).get("profiles", {})
     evidence_numeric_ids = {
@@ -3672,9 +3678,10 @@ def _build_people(records: list[dict], profiles: dict[str, dict], edges: list[li
                 "location_basis", "latitude", "longitude"
             )}
             record.update(_source_for_record(row, catalogue_id))
-            record["record_id"] = sha1(
-                f"{catalogue_id}|{index}|{record.get('year')}|{record.get('record_location')}|{record.get('association')}".encode()
-            ).hexdigest()[:16]
+            record["record_id"] = stable_record_id(record, catalogue_id, index, location_projections)
+            if record["record_id"] in emitted_record_ids:
+                raise ValueError(f"Duplicate catalogue record ID: {record['record_id']}")
+            emitted_record_ids.add(record["record_id"])
             enriched_records.append(record)
         suffixes = _meaningful_suffixes(meta_values("suffix"))
         person = {

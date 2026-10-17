@@ -34,7 +34,7 @@ The record gives Quodquen as John’s residence. It does not state his birthplac
 
 John’s estate was recorded as a '''testament dative'''. He had died intestate, and the commissary court appointed an executor to administer the estate.<ref name="LanarkCC14_5_5"/>
 
-[[Glasgow-XXXX|Bessie Glasgow]] was appointed executrix dative. The testament expressly describes her as John’s:
+Bessie Glasgow was appointed executrix dative. The testament expressly describes her as John’s:
 
 <blockquote>
 “laufull sister”
@@ -79,7 +79,7 @@ No formal division of the estate was entered.
 
 ==== Sister ====
 
-* [[Glasgow-XXXX|Bessie Glasgow]] — John’s lawful sister and executrix dative.<ref name="LanarkCC14_5_5"/>
+* Bessie Glasgow — John’s lawful sister and executrix dative.<ref name="LanarkCC14_5_5"/>
 
 No parent, wife, son or daughter is identified in John’s 1650 testament.
 
@@ -121,6 +121,16 @@ The following people appear in connection with money or debts owing to John’s 
 Thomas Glasgow and W[illia]m Glasgow may have belonged to the wider Glasgow family at Quodquen, but the testament does not state their relationship to John.
 
 == Research Notes ==
+=== Father and sibling assessment — 17 October 2026 ===
+
+[[Glasgow-1029|Stephen Glasgow]] remains the selected uncertain father, assessed at '''22% subjective probability'''. His documented adult life in Glasgow in 1574–1575 and marriage to [[Graham-38221|Margaret Grahame]] in 1582 fit the proposed father generation.<ref>Robert Renwick, ed., ''Abstracts of Protocols of the Town Clerks of Glasgow'', vol. 7, protocol 2189, printed p. 110, 17 June 1575, [https://archive.org/details/abstractsprotoc00robegoog/page/n126/mode/2up digital copy]; vol. 8, protocol 2431, 25 June 1582, [https://archive.org/details/abstractsofproto08glas/page/56/mode/2up digital copy]. The first names Stephen's deceased father John and mother Jonet Spreull; the second identifies Margaret Grahame as Stephen's spouse. Neither identifies the Quothquan John as Stephen's son.</ref> No shared holding, occupation, associate or relative yet connects that Glasgow household with John's separate Mid Calder, Montfoid and Quothquan occurrences. The James brotherhood hypothesis depends on this same uncertain attachment and cannot independently strengthen it. Another local father or collateral descent remains possible. The estimated births around 1550 and 1590 are compatible dates, not independent evidence.
+
+The testament's two explicit sibling clauses support Bessie Glasgow as John's sister at '''99% subjective confidence'''.<ref name="Quodquen1650" /> If Stephen is retained as John's uncertain father, the same hypothesis can extend to Bessie at '''22%, uncertain and conditional'''; this adds no independent support to Stephen's paternity. Bessie's mother is not established. The missing word “full” is not a reason to invent a competing half-sibling family.
+
+Bessie's identity among surviving Glasgow and Leith baptism candidates remains unresolved. [[Glasgow-3361|Bessie Glasgow, baptised at South Leith in 1616]], [[Glasgow-1091|Elizabeth Glasgow, baptised at Glasgow in 1616]], [[Glasgow-1092|Bessie Glasgow, indexed at Glasgow in 1623]] and [[Glasgow-1517|Elizabeth Glasgow, indexed at Glasgow in 1625]] remain compatible later-adult possibilities. The testament gives no age or parents to distinguish them. Those candidates' recorded fathers must not be replaced by Stephen merely because they might be the executrix. Bessie Glasgow the sister is not [[Robertson-33965|Bessie Robertson]], the spouse named in the 1610 Montfoid entry.
+
+The Montfoid calendar and Findmypast transcript document the same spouse occurrence, not independent proof of a later identity. The Mid Calder baptism records document their own father-child roles; uncertainty about the father's later Quothquan identity does not weaken the words of those records.
+
 === Surviving identity alternative — 16 October 2026 ===
 
 James [[Glasgow-3332]] remains a surviving cross-profile identity alternative for the 1624 Quothquan weaver. Its circa-1634 birth is an unsupported estimate and cannot by itself exclude that earlier man. Identification with the distinct weaver indexed at Back of Lindsaylands in 1680 would exclude a death before 1624 if established, but that later identity is itself only possible. Retain [[Glasgow-3910]] as the record-defined 1624 account for the selected uncertain family; do not merge the profiles or transfer [[Glasgow-3332]]’s unproved parent and child attachments. Those existing family fields remain unchanged, and the proposed Stephen placement is an alternative to that account’s current pedigree. [https://glasgow.phenotype.dev/branches/early-scottish-records/#quothquan-working-family Full working-family comparison].
@@ -136,7 +146,7 @@ The route depends both on the proposed James–John brotherhood and on John’s 
 === Current evidence assessment ===
 
 ==== Distinct records combined on this profile ====
-The former profile [[Glasgow-3296]] now redirects here. That merge brought in a separate Mid Calder reconstruction. Derivative baptism indexes name a Jhone Glasgow as father of Jhone in 1608 and William in 1609.<ref name="John1608">“Scotland, Births and Baptisms, 1564–1950,” FamilySearch ([https://familysearch.org/ark:/61903/1:1:X1BL-X8B record X1BL-X8B]), Jhone Glasgow, 1608, father Jhone Glasgow.</ref><ref name="William1609">“Scotland, Births and Baptisms, 1564–1950,” FamilySearch ([https://www.familysearch.org/ark:/61903/1:1:X1B2-3LV record X1B2-3LV]), William Glasgow, baptised 24 December 1609 at Mid Calder, son of Jhone Glasgow.</ref> Those records prove a father-child pair in Mid Calder but provide no bridge to the man whose estate was confirmed at Quodquen forty-one years later. [[Glasgow-1086|John Glasgow]] and [[Glasgow-1087|William Glasgow]] must therefore remain uncertain children of this profile.
+The former profile [[Glasgow-3608]] now redirects here. That merge brought in a separate Mid Calder reconstruction. Derivative baptism indexes name a Jhone Glasgow as father of Jhone in 1608 and William in 1609.<ref name="John1608">“Scotland, Births and Baptisms, 1564–1950,” FamilySearch ([https://familysearch.org/ark:/61903/1:1:X1BL-X8B record X1BL-X8B]), Jhone Glasgow, 1608, father Jhone Glasgow.</ref><ref name="William1609">“Scotland, Births and Baptisms, 1564–1950,” FamilySearch ([https://www.familysearch.org/ark:/61903/1:1:X1B2-3LV record X1B2-3LV]), William Glasgow, baptised 24 December 1609 at Mid Calder, son of Jhone Glasgow.</ref> Those records prove a father-child pair in Mid Calder but provide no bridge to the man whose estate was confirmed at Quodquen forty-one years later. [[Glasgow-1086|John Glasgow]] and [[Glasgow-1087|William Glasgow]] must therefore remain uncertain children of this profile.
 
 A 1610 testament index also identifies Bessie Robertson as the wife of a John Glasgow in Montfoid.<ref name="Montfoid1610">Francis J. Grant, ed., ''Commissariot Record of Glasgow: Register of Testaments, 1547–1800'' (Edinburgh: Scottish Record Society, 1901), [https://archive.org/details/scottishrecordso07scotuoft/page/n435/mode/1up p. 426], Robertson, Bessie, 17 August 1610; cross-reference under Glasgow, John, [https://archive.org/details/scottishrecordso07scotuoft/page/196/mode/1up p. 196].</ref> Bessie Robertson was the wife of the Montfoid man; she was not the Bessie Glasgow identified as the Quodquen man's sister. The Montfoid, Mid Calder and Quodquen records are chronologically compatible with one life, but no residence, occupation, property, spouse or kinship evidence joins all three. Both earlier identities and the wife relationship remain uncertain.
 
@@ -172,7 +182,7 @@ The 1650 testament does not prove John as the father of:
 
 John’s father and mother are not named in the 1650 testament.
 
-Any parent relationship should remain unsupported unless established by another record.
+The parentage remains a selected uncertain reconstruction. A direct parent clause is not required for an inference, but the combined chronology, localities and family evidence do not presently distinguish the attached father securely.
 
 === Further research ===
 
@@ -187,7 +197,7 @@ Useful records include:
 
 John was born before 1590.
 
-Might be the same person as [[Glasgow-3296|John Glasgow (abt.1590-1649)]] and/or [[Glasgow-1561|John Glasgow (abt.1579-)]]
+The former [[Glasgow-3608]] Mid Calder account is now merged here. [[Glasgow-1561|John Glasgow of Linlithgow]] remains a possible identity for the earlier Mid Calder father; the Quothquan identification remains separately uncertain.
 
 == Sources ==
 <references />

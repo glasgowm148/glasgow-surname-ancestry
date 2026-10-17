@@ -1,8 +1,10 @@
 # Findings: [John Glasgow (Glasgow-1095)](https://www.wikitree.com/wiki/Glasgow-1095)
 
-Last updated: 2026-10-16
+Last updated: 2026-10-17
 
 ## Current conclusion
+
+**Chronology review, 17 October 2026:** the selected Stirling father remains **uncertain, 22%**. The combined 1447–1480 civic identity and the possible 1506 alias-Smith identity are separate dependencies; actual births remain unknown. Saltmarket John → William remains **probable, 88%**, and William → John Glasgow-1093 remains **confident, 99%**. These downstream assessments do not strengthen the Stirling father link. See the qualified chronology below.
 
 Reviewed: 2026-10-16
 
@@ -143,3 +145,16 @@ The remaining indexed John passages include tenant nonappearance on May 1526 (da
 
 The recurrence of the name, Upper Quothquan locality and Kello, Justice, Robeson and Thomson associates supports one John across these meetings. No entry names his parent, wife or child. The provisional Saltmarket John’s estimated chronology is compatible, while [John Glasgow](https://www.wikitree.com/wiki/Glasgow-1093), adult and married by 1534, is a genuine alternative whose approximate birth does not exclude the earlier tenant. [John of Hirmanscheillis](https://www.wikitree.com/wiki/Glasgow-3181) and [John, son of James elder of Corsankell](https://www.wikitree.com/wiki/Glasgow-3193), remain weaker long-career comparisons. [James Glasgow, the seventeenth-century Quothquan weaver](https://www.wikitree.com/wiki/Glasgow-3910), is a possible later family connection with missing generations. Thomas of Quothquan may have been a relative; no fatherhood, brotherhood or inherited tenancy is proved.
 <!-- queue-record-integration-2026-10-17:end -->
+
+
+## Qualified working-family chronology — 17 October 2026
+
+The proposed father's identification combines the Glasgow burgess of 1447–1455 with the Stirling witness of 1475–1479/80. Their compatible civic roles support that low-confidence identity, but neither man's actual birth is known. The circa-1450 estimate for the Stirling witness assumed a young adult in 1475; it cannot disprove an older man already active in 1447. The two documentary groups remain separately inspectable, with father–son, other kin and unrelated namesake alternatives. An identity choice does not add another father generation.
+
+Saltmarket John's actual birth is also unknown. His circa-1480 estimate depends on identifying him with John de Glasgow alias Smith in 1506; secure Saltmarket activity begins in 1527. If both that estimated birth and the combined 1447–1480 father identity are accepted, the proposed father would ordinarily have been about fifty or older when Saltmarket John was born. Such paternity is possible, but the argument must acknowledge the older generation rather than treating the 1475 witness as necessarily young. These are conditional examples, not new ages or birth boundaries.
+
+Andrew Brady beside the Glasgow witness in 1455, Gilbert Brady's property boundary in the Stirling act of 1479/80, and Esbell Brade in William Glasgow's 1534 settlement concern three distinct people whose kinship has not been proved. Their occurrences provide civic-network context, not three independent pedigree links. The earlier Glasgow acts concern Walkergate/Saltmarket, but no inspected title identifies their witnessed properties with the later Rankin–Young parcel.
+
+The 22% father assessment is unchanged; the separate 88% Saltmarket-to-William and 99% William-to-John assessments remain scoped to their property-defined and recorded relationships. This is a clarification of existing evidence, not a new source discovery, certainty upgrade or family connection.
+
+Source scope: the existing Glasgow acts of 21 June 1447 and April 1455 in [Robertson, *Liber Collegii Nostre Domine*](https://archive.org/details/libercollegiino00annegoog); the [Stirling charter abstracts](https://archive.org/details/chartersotherdoc00stir) of 11 April 1475 and 2 March 1479/80; and the official [NRS B66/25/43](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=B66%2F25%2F43) description of 8 August 1475. The Saltmarket title and 1534 settlement citations remain above or in the [Saltmarket account](../Glasgow-1095/findings.md). Alan’s proceeding and its calendar/regnal-year limitation remain in the [Alan account](../Glasgow-3023/findings.md). No new original inspection is claimed.

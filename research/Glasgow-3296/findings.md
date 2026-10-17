@@ -2,7 +2,13 @@
 
 ## Current conclusion
 
-Reviewed: 2026-10-16
+Reviewed: 2026-10-17
+
+**Father review, 17 October 2026: retain [Stephen Glasgow-1029](https://www.wikitree.com/wiki/Glasgow-1029), uncertain, at 22% subjective probability.** Stephen's documented adult life in Glasgow in 1574–1575, marriage to Margaret Grahame in 1582 and later property dealings permit the proposed generation. They do not connect his household to John's Mid Calder, Montfoid or Quothquan occurrences. The combined identity and locality argument remains weak; this is not a demand for a literal father clause. The proposed brother James depends on this same Stephen attachment and supplies no independent reinforcement. No record excludes Stephen, but the present evidence does not distinguish him securely from another local father or a collateral Glasgow relationship. No father is added or replaced and no confidence upgrade is claimed.
+
+John's sister Bessie is the firmer family anchor: the reviewed CC14/5/5 images 65–66 call her his lawful sister and him her brother (**99% subjective confidence in the record-defined sibling relationship**). Extending the selected father across this proved sibling pair yields a **conditional Stephen–Bessie hypothesis at 22%**, not new evidence for Stephen. Bessie's mother remains unknown. Her existing-profile identity is unresolved; see the [complete Bessie evidence draft and candidate audit](../../surname-research/new-people/1650_Scotland_Lanark_Bessie_Glasgow.md). The 22% paternal proposal belongs to the woman in the testament, not automatically to any candidate baptism profile.
+
+The 1610 calendar and Findmypast transcript prove the Montfoid spouse pair; their association with this 1650 Quothquan man remains uncertain. The Mid Calder records likewise prove their own named father-child roles without proving the later adult identity. Repeated calendar/transcript references are not independent evidence for those identity bridges.
 
 **Selected Quothquan working family, 16 October 2026:** James the weaver is placed under Stephen, uncertain; Helen of Thankerton is placed under James, uncertain. John of Quothquan remains Stephen’s already attached uncertain son. The proposed brotherhood is conditional, both new mothers remain unknown, and James’s old 1605 birth estimate is replaced by an explicitly estimated adult boundary. [Evidence and alternatives](/branches/early-scottish-records/#quothquan-working-family).
 
@@ -117,7 +123,7 @@ Profile prose and trees remain leads; inspect the cited record before treating a
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-be5487ea2b80 -->
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-be5487ea2b80
 
-The transcript-validated testament/probate record for **John Glasgow**, 17 Aug 1610, , is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
+**Identity scope corrected 17 October 2026:** the transcript-validated testament/probate index records **John Glasgow in Montfoid**, spouse of Bessie Robertson, in the entry confirmed 17 August 1610. The earlier audit assigned that occurrence to this profile; that assignment remains a qualified earlier-identity hypothesis, not proof that the Montfoid husband was the Quothquan man who died in 1650. The recorded spouse role is secure within the 1610 entry. Its confirmation date is not a marriage date or John's death date.
 
 ## Source findings
 
@@ -171,3 +177,10 @@ The route depends both on the proposed James–John brotherhood and on John’s 
 ## Surviving identity alternative — 16 October 2026
 
 James Glasgow-3332 remains a surviving cross-profile identity alternative for the 1624 Quothquan weaver. Its circa-1634 birth is an unsupported estimate and cannot by itself exclude that earlier man. Identification with the distinct weaver indexed at Back of Lindsaylands in 1680 would exclude a death before 1624 if established, but that later identity is itself only possible. Retain Glasgow-3910 as the record-defined 1624 account for the selected uncertain family; do not merge the profiles or transfer Glasgow-3332’s unproved parent and child attachments. Those existing family fields remain unchanged, and the proposed Stephen placement is an alternative to that account’s current pedigree. [Working family comparison](/branches/early-scottish-records/#quothquan-working-family).
+
+
+## Bessie executrix: bounded candidate audit — 17 October 2026
+
+The local public catalogue and live WikiTree Bessie/Elizabeth Glasgow searches retain compatible Glasgow/Leith child profiles: [Bessie-3361](https://www.wikitree.com/wiki/Glasgow-3361), [Elizabeth-1091](https://www.wikitree.com/wiki/Glasgow-1091), [Bessie-1092](https://www.wikitree.com/wiki/Glasgow-1092) and [Elizabeth-1517](https://www.wikitree.com/wiki/Glasgow-1517). These could be the later executrix; their recorded fathers are alternatives to Stephen if identity is established. The older John estimate is not a sufficient reason to exclude them. More weakly fitting candidates and the concrete exclusions are retained in the [single complete HOLD draft](../../surname-research/new-people/1650_Scotland_Lanark_Bessie_Glasgow.md). No candidate is selected and no new WikiTree person is claimed necessary.
+
+Search scope: `searchPerson`, Bessie/Elizabeth + Glasgow, pages 0/100/200, 236/295 results respectively; public non-living historical candidates received biography reads, with an additional direct read for Elizabethe Glasgow-1091. The review used CC14/5/5 images 65–66 as already transcribed in `research/transcriptions/originals-2026-09-10-reread/john-lanark-1650.json`; no new original reading is claimed. The birth boundary is before 1650, with birthplace and death unknown. Bessie's own Quothquan residence and documented sibling relationship can be published while the profile identity remains open.

@@ -1,13 +1,13 @@
 # Findings: Glasgow-3927
 
-Last updated: 2026-10-07
+Last updated: 2026-10-17
 
 ## Current conclusion
 
 Glasgow-3927 is the record-defined John Glasco who headed house 2 at Inishrush,
 Tamlaght O'Crilly, in the 1831 census. The strongest proposed identity is
 [John Glasgow, born 10 April 1767](https://www.wikitree.com/wiki/Glasgow-822),
-but the merge/identity review remains unresolved.
+assessed at **94% on 17 October 2026**. This is an individual subjective identity assessment; no profile merge has been made.
 
 The identity case is now strong: a separate McKeown family Bible records that
 John-822's grandson John Glasgow McKeown was born at Inishrush in 1821 and was
@@ -16,13 +16,14 @@ minister whose surviving congregational history records a John Glasgow in 1809
 and again as an elder in 1827. This independently joins John-822's family to the
 same townland, congregation and period as the 1831 householder.
 
+The separate **James Glasgow-1509 → John-822 working father hypothesis is VERY UNCERTAIN at 18%**, with no mother selected. It depends on the unproved Adam/John brotherhood and Adam's own tentative James father; the older Adam/Maria naming reconstruction remains the stronger unnamed rival. See [John-822's complete assessment](../Glasgow-822/findings.md). Neither the 94% identity nor that 18% father hypothesis changes this record-defined profile's captured Glasgow-3905 placeholder father. Those ancestry scopes remain separate, and no destructive detachment or additional generation follows.
+
 ## Identity and relationship assessment: Adam and John
 
 No inspected source explicitly calls [Adam Glasgow
 (`Glasgow-3902`)](https://www.wikitree.com/wiki/Glasgow-3902) John's brother,
 cousin, father, son, co-lessee, heir, executor or witness. The available evidence
-supports a shared local network and possible collateral kinship, but not an
-attachable relationship.
+supports a shared local network and possible collateral kinship. The earlier review withheld attachment; the 17 October John-822 model now retains a very uncertain shared-father hypothesis at 18%, without treating a kin term as recorded or changing this profile's captured parent.
 
 | Source | Concrete result | Effect on Adam-John relationship |
 | --- | --- | --- |
@@ -119,7 +120,7 @@ John's son-in-law rather than merely a community correspondent.
 Do not attach Mulhollan, Berkley/Barkly, Boggs, McCaivey or Hugh Henry as kin
 from the letter or 1772 list. They are locality and migration-network leads only.
 
-## Current conclusion — additional newspaper originals, 5 October 2026
+## Dated record assessment — additional newspaper originals, 5 October 2026
 
 John Glasgow, Carlisle postal addressee, 1793: Estimated c.1767 Inishrush birth permits the period, but the Irish record context supplies no Carlisle, Kirkliston or Allegheny identity/migration bridge; weak name-only comparison. Identity remains unresolved. Compatible candidates have chronology only, without an individual place, occupation or family bridge. These three John contexts may involve different men; the two Allegheny reprints are one list. No family or life-date change follows.
 
@@ -131,7 +132,7 @@ John Glasgow, care of William Brown, Esq., is an addressee in the Carlisle post-
 
 Inspect local tax, probate, land and original list/meeting records; compare the candidates’ own source evidence before attaching any occurrence.
 
-## Current conclusion — additional newspaper originals, 5 October 2026
+## Dated record assessment — additional newspaper originals, 5 October 2026
 
 John Glasgow, Millrig labourer and Kirkliston subscription, 1798: Estimated c.1767 Inishrush birth permits the period, but the Irish record context supplies no Carlisle, Kirkliston or Allegheny identity/migration bridge; weak name-only comparison. Identity remains unresolved. Compatible candidates have chronology only, without an individual place, occupation or family bridge. These three John contexts may involve different men; the two Allegheny reprints are one list. No family or life-date change follows.
 
@@ -143,7 +144,7 @@ John Glasgow, labourer, Millrig, is named among voluntary subscriptions in the p
 
 Inspect local tax, probate, land and original list/meeting records; compare the candidates’ own source evidence before attaching any occurrence.
 
-## Current conclusion — additional newspaper originals, 5 October 2026
+## Dated record assessment — additional newspaper originals, 5 October 2026
 
 John Glasgow, Allegheny Township list in Huntingdon County context, 1799: Estimated c.1767 Inishrush birth permits the period, but the Irish record context supplies no Carlisle, Kirkliston or Allegheny identity/migration bridge; weak name-only comparison. Identity remains unresolved. Compatible candidates have chronology only, without an individual place, occupation or family bridge. These three John contexts may involve different men; the two Allegheny reprints are one list. No family or life-date change follows.
 
@@ -155,7 +156,7 @@ John Glasgow is named under Allegheny Township in a township-grouped list accomp
 
 Inspect local tax, probate, land and original list/meeting records; compare the candidates’ own source evidence before attaching any occurrence.
 
-## Current conclusion — military and medical notices, 1816–1839; identity unresolved, 5 October 2026
+## Dated record assessment — military and medical notices, 1816–1839; identity unresolved, 5 October 2026
 
 Eight inspected newspaper notices document successive military-medical roles or status changes under the names J. Glasco, John Glasco, and Glasco. The 1816 J. Glasco to 1822 John Glasco connection is probable because the 1822 notice places John on half-pay of the 59 th Foot; it is not explicit. The August 1826 notice calls a retiring surgeon “John Glasco, sen.”, while the December 1836 notice names Staff-Surgeon John Glasco appointed at Liverpool after employment in Grenada. The senior 1826 retiree may be a different man from the later staff surgeon. The 1838 Liverpool subscription and 1839 half-pay retirement are compatible with a later career sequence but do not resolve all links. No existing profile is assigned.
 
@@ -175,14 +176,14 @@ A £1 Curran Monument subscription list includes “Staff-Surgeon Glasco, Liverp
 
 Under Hospital Staff, Surgeon A. Sinclair, M.D., from the 25th Foot, was appointed vice John Glasco, who retires upon half-pay. Full name and retirement upon half-pay are stated; exact effective date was not seen. Links among this John, the 1836–1838 staff surgeon and the senior 1826 retiree remain qualified. [The Drogheda Argus and Leinster Journal, 1839-09-28, p.4](https://www.newspapers.com/image/1259428783/)
 
-## Current conclusion — J. Glasco Dublin parish appeal signatory, 1838, 5 October 2026
+## Dated record assessment — J. Glasco Dublin parish appeal signatory, 1838, 5 October 2026
 
 This proves a signatory association with the appeal only. It does not establish occupation, age, family, residence, contribution amount or attendance. The 27 November issue is a reprint of the same planned event (“THIS DAY”), not proof of a second act.
 
 A request by parishioners of St Andrew’s parish in Dublin, including St Mark’s, St Peter’s and St Anne’s, sought a meeting at the Corn Exchange Rooms at 3 p.m. on 27 November 1838 to arrange collection for O’Connell’s Annuity. J. Glasco signed the appeal. This proves a signatory association with the appeal only. It does not establish occupation, age, family, residence, contribution amount or attendance. The 27 November issue is a reprint of the same planned event (“THIS DAY”), not proof of a second act. [Freeman's Journal and Daily Commercial Advertiser, 1838-11-26, p.1](https://www.newspapers.com/image/1050145535/), [Freeman's Journal and Daily Commercial Advertiser, 1838-11-27, p.1](https://www.newspapers.com/image/1050145680/)
 
 <!-- nir-2026-10-06-ireland-1800-1829+ireland-1830-1839+ireland-1840-1849+ireland-1850-on+ireland-to-1799+us-to-1784 -->
-## Current conclusion — newspaper identity review, 6 October 2026
+## Dated record assessment — newspaper identity review, 6 October 2026
 
 - [The Public Register, or, Freeman's Journal, 1799-09-24, p.2](https://www.newspapers.com/image/1214179229/): John Glasco (name in a County Londonderry roster) — **possible** match. The roster gives only name, spelling and county. Compatible Co. Londonderry adults in 1799: (1) Glasgow-3927, est. b. 1767, Inishrush, Tamlaght O'Crilly; his 1831 census entry spells the name 'John Glasco', matching this roster. (2) Glasgow-4090, in the 1796 Desertoghill flax list (two spinning wheels), b. before 1772. (3) Glasgow-822, b. 10 Apr 1767 Inishrush, children born in Ireland to 1815, later Ohio. (4) Glasgow-4179, father of 4090, b. c.1747. Glasgow-549 (John, Co. Londonderry, d. 1785) is excluded by his death. The shared spelling slightly favours Glasgow-3927, but spelling in a printed list is weak evidence, and 3927 and 822 may even be the same man (both b. 1767, Inishrush). That possible duplicate is worth checking. No relationship follows. Sources: [WikiTree Glasgow-3927 (1831 census, Inishrush, 'John Glasco')](https://www.wikitree.com/wiki/Glasgow-3927); [WikiTree Glasgow-4090 (1796 flax list, Desertoghill)](https://www.wikitree.com/wiki/Glasgow-4090)
 

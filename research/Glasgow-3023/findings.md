@@ -5,6 +5,8 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
+**Chronology review, 17 October 2026:** the selected Stirling father remains **uncertain, 15%**. Alan’s unknown age cannot distinguish son from brother or nephew. Identifying the proposed father with the burgess already active in 1447 changes the possible age range, not the evidence for Alan’s parentage. See the qualified chronology below.
+
 **Earlier ancestor identity selected, 15 October 2026:** the proposed Stirling father is now provisionally identified with the Glasgow burgess recorded in 1447–1455. This is an uncertain identity choice, not another father generation or a certainty upgrade. [Reasons and alternatives](/branches/early-scottish-records/#glasgow-stirling-identity).
 
 **Selected working father (15 October 2026):** [John Glasgw of Stirling](/free-space/john-glasgw-of-stirling-1b723d/), uncertain / possible. This is a revisable son hypothesis, not a parent named in the criminal proceeding.
@@ -63,3 +65,14 @@ No shared holding, relative, trade, personal seal or distinctive repeated associ
 The selected uncertain father links to Saltmarket candidate Glasgow-1095 and Alan Glasgow-3023 remain unchanged. Glasgow-1095 is still only a provisional Saltmarket representative: if it instead represents the older witness, that father link collapses as a duplicate identity. The earlier Malcolm father candidate remains unselected. Identity and father–son alternatives between the Glasgow and Stirling groups are not combined.
 
 See the [complete five-record comparison](/branches/early-scottish-records/#glasgow-stirling-identity). Sources remain the two Glasgow civic acts, the two printed Stirling abstracts and NRS B66/25/43; no new inspection.
+
+
+## Qualified working-family chronology — 17 October 2026
+
+The proposed father's identification combines the Glasgow burgess of 1447–1455 with the Stirling witness of 1475–1479/80. Their compatible civic roles support that low-confidence identity, but neither man's actual birth is known. The circa-1450 estimate for the Stirling witness assumed a young adult in 1475; it cannot disprove an older man already active in 1447. The two documentary groups remain separately inspectable, with father–son, other kin and unrelated namesake alternatives. An identity choice does not add another father generation.
+
+Alan's age and birth remain unknown. Death before the 1494/95 proceeding supplies no generation relative to the witness, so it cannot distinguish son from brother or nephew. The older combined identity remains compatible with fatherhood without proving it. The possible Saltmarket son has a separate chronology: his circa-1480 birth depends on the unproved 1506 alias-Smith identification, and would imply a father ordinarily about fifty or older if the 1447 identity is accepted. Neither those estimates nor the later Saltmarket property succession identify Alan's father. The Brady/Brade associates are not proved kin and supply no independent connection to Alan.
+
+The 15% father assessment is unchanged. The separate Stirling-to-Saltmarket hypothesis remains 22%; neither percentage measures the cross-town adult identity. No new generation, mother or date is assigned.
+
+Source scope: the existing Glasgow acts of 21 June 1447 and April 1455 in [Robertson, *Liber Collegii Nostre Domine*](https://archive.org/details/libercollegiino00annegoog); the [Stirling charter abstracts](https://archive.org/details/chartersotherdoc00stir) of 11 April 1475 and 2 March 1479/80; and the official [NRS B66/25/43](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=B66%2F25%2F43) description of 8 August 1475. The Saltmarket title and 1534 settlement citations remain above or in the [Saltmarket account](../Glasgow-1095/findings.md). Alan’s proceeding and its calendar/regnal-year limitation remain in the [Alan account](../Glasgow-3023/findings.md). No new original inspection is claimed.

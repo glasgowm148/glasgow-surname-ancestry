@@ -44,11 +44,11 @@ If the Donegal clergyman was the man baptised in Glasgow in 1614, he died before
 
 == Wife and Children ==
 
-No wife or child has yet been identified from an inspected primary record.
+Betham’s inspected pre-destruction abstract names wife Elizabeth, eldest son Thomas and only daughter Margaret. It records direct kinship for the Rathmalton testator; the identification of his son with Thomas of Lifford remains probable.<ref name="Betham1673" />
 
-The existence of Archibald’s 1677 prerogative will is potentially important. The original will was probably among the records destroyed in Dublin in 1922, but a pre-destruction genealogical abstract may survive in the notebooks compiled by Sir William Betham.
+The April 1673 will is known through Betham’s inspected abstract, separately from its 1677 probate index. The complete original will has not been located; the limited surviving-book search does not establish its destruction.
 
-Such an abstract may identify:
+The complete will or collateral records may supply more detail about:
 
 * Archibald’s wife;
 * sons or daughters;
@@ -60,15 +60,15 @@ Such an abstract may identify:
 
 The separate 1679 entry should also be investigated to determine whether it represents a duplicate, a later grant, an administration or another action concerning the same estate.
 
-Until a will abstract or another direct record is examined, no spouse or child should be attached to this profile.
+Elizabeth’s spouse relationship is documented by the abstract. Its named children and their later identities must be distinguished; Elizabeth’s maternity is not established merely by her status as wife.
 
 == Possible Connection to Thomas Glasgow ==
 
-No record has been found proving that Archibald was the father, brother or other close relative of Thomas Glasgow of Ballindrait, Shannon or Lifford.
+Betham explicitly calls Thomas his eldest son. Identifying that son with [[Glasgow-3556|Thomas of Ballindrait, Shannon and Lifford]] is probable at 86%, but the abstract supplies no identifying residence, age, wife or estate.<ref name="Betham1673" />
 
 Thomas Glasgow was described as being of '''Lifford, County Donegal''', and as an esquire, in connection with the 1689 attainder proceedings. His transactions also place him within the same broad Donegal landholding network as Abraham and James Creighton.
 
-The chronology allows Thomas to have been Archibald’s son, nephew or younger brother, but this is speculation. Archibald’s 1675/76 bond names only Archibald Glasgow and William Dutton and gives no family relationship.
+The named eldest-son relationship makes fatherhood the preferred explanation; a different same-name son remains possible. Archibald’s 1675/76 bond names only Archibald Glasgow and William Dutton and gives no family relationship.
 
 Neither the 1677 nor the 1679 probate-index entry supplies the contents of Archibald’s will or names any beneficiary.
 
@@ -98,7 +98,7 @@ Thomas Glasgow of Ballindrait/Shannon/Lifford
 |
 Nathaniel Glasgow
 
-remains chronologically and geographically possible, but unsupported by direct kinship evidence.
+has a probable first father–son link supported by Betham’s named eldest son, while the Thomas–Nathaniel generation remains unproved.
 
 Neither Archibald’s bond nor the available descriptions of Thomas’s transactions name Nathaniel. Nathaniel’s university record also names no father.
 
@@ -114,7 +114,7 @@ These relationships should remain research hypotheses.
 
 == Research Priorities ==
 
-The most important unresolved record is the genealogical abstract of Archibald’s 1677 will, if it survives among the Betham notebooks.
+Betham’s abstract has been inspected; the remaining question is whether its named son can be distinguished through the complete will, deed recitals or family associates.
 
 Other useful records would include:
 
@@ -136,9 +136,17 @@ The 1679 entry for Archibald Glascoe of Rathmatton is probably connected with th
 
 Identity with the Archibald Glasgow baptised in Glasgow in 1614 and awarded an M.A. in 1635 is a strong chronological and occupational fit. It remains circumstantial because no inspected Irish record names his Scottish parents, birthplace or university.
 
-No spouse, child or proved line of descent to Thomas Glasgow or Nathaniel Glasgow has been identified.
+Elizabeth is the documented wife and Thomas and Margaret the named children in Betham’s abstract. Thomas’s Lifford identity remains probable at 86%; no descent from him to Nathaniel is proved.<ref name="Betham1673" />
 
 == Research Notes ==
+=== Irish ministry and Scottish identity ===
+
+The Derry/Faughanvale/Taughboyne ministry sequence is probably this Irish cleric (subjective identity assessment '''93%'''). Adair’s footnote connects the minister deposed in winter 1647–48 with the later Clondevadock rector; Seymour’s list joins Faughanvale 1654 with Taboyne 1660. The 1655 salary, 1658 scrutiny and 12 February 1661 petition fit that sequence. These printed accounts do not identify his Scottish parents. Reid’s deposition account quotes Adair, so the two are not independent witnesses. The separate 1657 catalogue lead remains unread, and the charge-column alignment in Seymour’s October 1658 table remains uncertain.<ref name="IrishMinistryScope">Patrick Adair, ''A True Narrative'' (1866), [https://archive.org/details/truenarrativeofr00adai p.140 and footnote]; James Seaton Reid, ''History of the Presbyterian Church in Ireland'', II (1867), [https://archive.org/details/historyofpresbyt02reid_0 pp.59–60,292 note 20,559]; St John D. Seymour, ''The Puritans in Ireland,1647–1661'' (1921), [https://archive.org/details/cu31924029479981 pp.155,169,199–200,212]. Printed-source/OCR readings; the underlying manuscripts were not newly inspected.</ref>
+
+George Glasgow’s probable fatherhood remains at '''83%''', and Archibald’s probable fatherhood of [[Glasgow-3556|Thomas of Lifford]] remains at '''86%'''. The baptism names George directly, and Betham names eldest son Thomas directly; each later identity remains separately inferred.<ref name="DonegalFamilyReview" />
+
+[[Glasgow-3078|Archibald of Leith]] has a contrasting cordiner apprenticeship in 1639 and shoemaker/heir record in 1647. The Leith maltman’s February 1662 death would exclude him from the April 1673 Irish will only if the maltman and shoemaker were the same man; that identification is unresolved.<ref>Francis J. Grant, ''Register of Apprentices of the City of Edinburgh'', [https://archive.org/details/scottishrecordso28scotuoft/page/71/mode/2up p.71],23 October 1639; ''Inquisitionum… Abbreviatio'', II, [https://archive.org/details/inquisitionumadc00grea_0 general retour 3278],1 May 1647, original xix.128; National Records of Scotland, Edinburgh Commissary Court, CC8/8/70, images 689–693, Archibald Glasgow, maltman in Leith, died February 1662, testament confirmed 24 May 1662.</ref>
+
 === Scottish–Donegal family review — 17 October 2026 ===
 
 Prefer the Glasgow child baptised on 19 June 1614 and the Archibaldus Glasgua who graduated M.A. in 1635 as the earlier identity of the Donegal cleric. The uncommon full name, compatible age at graduation, clerical career and 1639 Irish clerk occurrence form a coherent Scottish-to-Irish career. A baptism in 1614 places him at about 21 in 1635 and 25 in 1639. These are conditional ages, not separately recorded ages. No incompatible parentage or simultaneous Scottish household is identified for this proposed cleric. The other known same-generation Scottish Archibald, the Leith man [[Glasgow-3078]], has a separately traced craft career: apprentice to cordiner Thomas Park in October 1639 and shoemaker/heir in May 1647. That positive career sequence makes him a weaker fit to the 1635 graduate and Irish clerk than the 1614 Glasgow child. It is a ranking argument, not an absolute exclusion or an assertion that a man could never change occupation. The Irish testator is securely the Ramelton/Rathmalton cleric by exact name, residence and profession. Assess his existing [[Glasgow-1099|George Glasgow]] and [[Stewart-65226|Margaret Steuart]] parent links as probable, reflecting the probable Scottish childhood identification. The baptism explicitly names both parents, so maternity has its own record basis rather than being inferred from George’s spouse field.
@@ -164,18 +172,10 @@ Four existing assessments change: two probable Scottish parent links for Archiba
 
 The dated family review supersedes earlier confidence wording only. Other evidence and source limits are retained.
 
-<blockquote>
-# Paste-ready replacement: [https://www.wikitree.com/wiki/Glasgow-1101 Archibald Glasgow (Glasgow-1101)]
+=== Earlier probate assessment — 30 September 2026 ===
 
-## Structured fields
+[https://www.wikitree.com/wiki/Glasgow-1101 Archibald Glasgow (Glasgow-1101)]
 
-Keep existing uncertain Scottish parents and son-to-Lifford father attachment. April 1673 is a will date, not death; retain separate 1677 probate. No relationship status change is proposed.
-
-## Complete WikiTree markup
-
-<pre>
-[[Category:Glasgow Name Study]]
-{{Notables Sticker}}
 
 Betham's newly inspected genealogical abstract of Archibald Glasgow of
 Rathmalton, County Donegal, clerk, with will dated April 1673, explicitly
@@ -213,7 +213,7 @@ father clause or property succession. The full D1939/18/8/1, /18/1/3,
 /18/3/25, /18/7/1 and /18/11/16 deeds may contain identifying recitals omitted
 from their descriptions. The inspected catalogue descriptions name Thomas, Abraham Creighton and James Creighton, but do not identify Thomas's parents, wife, children, heirs or siblings. Neither the 1677 nor the 1679 probate-index entry itself supplies the will's contents; the family names come from the separately inspected Betham abstract.
 
-now has an explicit earlier father–son clause in Betham. Identification of that son with Thomas of Lifford remains strongly probable; the Thomas-to-Nathaniel generation has no inspected father record.
+The family has an explicit earlier father–son clause in Betham. Identification of that son with Thomas of Lifford remains strongly probable; the Thomas-to-Nathaniel generation has no inspected father record.
 
 === Research Priorities ===
 
@@ -229,10 +229,6 @@ Betham now names wife Elizabeth, eldest son Thomas and only daughter Margaret. T
 * Irish probate index transcription, entry for Archibald Glascoe of Rathmatton, 1679.
 * Old Parish Records.
 * Edinburgh Commissary Court, CC8/8/70.
-</pre>
-
-Suggested edit summary: ''Add newly inspected Betham household and distinguish the strongly probable son-to-Lifford identity.''
-</blockquote>
 
 
 == Sources ==

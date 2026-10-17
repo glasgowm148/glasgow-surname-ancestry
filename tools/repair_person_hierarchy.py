@@ -2134,6 +2134,8 @@ _LEGACY_ANCHORS = (
     # Preserve an incoming overall-conclusion link after its heading was normalised.
     ("research-note-a79b7d0b2dd3", ("research-note-51b5ff37523f",)),
     ("research-note-7c611d6cb679", ("research-note-3ae1f9ef708b",)),
+    # John-3927's dated newspaper assessment replaced a second overall conclusion.
+    ("research-note-6a79d73e7b23", ("research-note-0fc2075e9901",)),
 )
 
 

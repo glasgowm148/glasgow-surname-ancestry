@@ -6,6 +6,7 @@ No surname, platform ID or proposed ancestor is built into the graph algorithm.
 from __future__ import annotations
 
 from collections import Counter, defaultdict
+from datetime import date
 import json
 from pathlib import Path
 import re
@@ -93,6 +94,7 @@ def load_public_nodes(site_root: Path, variants: set[str]):
     index = json.loads((site_root / "data/people-index.json").read_text())
     allowed = {x.casefold() for x in variants}
     nodes, aliases, raw, paths = {}, {}, [], {}
+    pending_documentary_accounts = set()
     quality = {
         "missing_dossiers": [],
         "multiple_fathers": [],
@@ -139,6 +141,22 @@ def load_public_nodes(site_root: Path, variants: set[str]):
             year_status=status,
             first_record_year=first_record,
         )
+        historical = dossier.get('historical_basis') or {}
+        latest_birth = historical.get('latest_birth_year')
+        source = urlsplit(historical.get('source_url') or '')
+        if (re.fullmatch(r'record-[a-z0-9]+(?:-[a-z0-9]+)*', ident)
+                and row.get('html_url') == f'/people/{ident}.html'
+                and relative == f'/people/{ident}.json'
+                and dossier.get('pending_profile_creation') is True
+                and dossier.get('creation_status') == 'identity_hold'
+                and (dossier.get('wikitree_update') or {}).get('new_profile') is True
+                and not any(item.get(key) for item in (row, dossier)
+                            for key in ('wikitree_url', 'profile_ids', 'profile_id', 'linked_identity'))
+                and not any(item.get(key) for item in (row, dossier)
+                            for key in ('private', 'living', 'likely_living'))
+                and type(latest_birth) is int and latest_birth < date.today().year - 120
+                and source.scheme in {'http', 'https'} and source.netloc):
+            pending_documentary_accounts.add(ident)
         for relation in (dossier.get("relationships") or {}).get("parents") or []:
             if str(relation.get("relationship", "")).casefold() != "father":
                 continue
@@ -171,8 +189,13 @@ def load_public_nodes(site_root: Path, variants: set[str]):
     documentary_ids = {p['id'] for p in documentary}
     for person in documentary:
         if person['id'] in nodes:
-            raise ValueError(f'Duplicate documentary ancestor: {person["id"]}')
-        nodes[person['id']] = metric_node(person)
+            if (person['id'] not in pending_documentary_accounts
+                    or any(person.get(key) for key in ('private', 'living', 'likely_living'))
+                    or person['url'] != f'/people/{person["id"]}.html'):
+                raise ValueError(f'Duplicate documentary ancestor: {person["id"]}')
+            nodes[person['id']].update(metric_node(person))
+        else:
+            nodes[person['id']] = metric_node(person)
         aliases[person['id']] = person['id']
     shared_path = site_root / 'assets/research/relationship-assessments.json'
     if documentary and shared_path.exists():

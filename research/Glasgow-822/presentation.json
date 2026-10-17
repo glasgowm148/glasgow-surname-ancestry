@@ -1,13 +1,14 @@
 {
-  "assessment_date": "2026-09-12",
-  "opening": "John Glasgow, born 10 April 1767, is the strongest identity match for the John Glasco who headed Inishrush house 2 in 1831. Family Bibles, his 1847 letter and the Drimbolg church network support that identification. They do not prove that Adam Glasgow was his brother or identify John's parents; Alexander Glasgow-951 should not be attached as his child.",
+  "assessment_date": "2026-10-17",
+  "opening": "John Glasgow, born 10 April 1767, is identified with the John Glasco of Inishrush house 2 in 1831 at 94% confidence. Family Bibles, his 1847 letter and the Drimbolg church network support that identity. James Glasgow-1509, the older Larne ropemaker, is selected as a very uncertain working father at 18%, through the possible brotherhood with Adam Glasgow-3902 and Adam’s already uncertain father hypothesis. No mother is selected. The older unnamed Adam/Maria family remains a substantive alternative; Alexander Glasgow-951 is not attached as John’s child.",
   "position": {
-    "answer": "The Inishrush identity is strongly supported, while John's parents and exact relationship to Adam remain unresolved.",
+    "answer": "The Inishrush adult identity is 94%; the selected James father is a separate 18% hypothesis, conditional on the Adam/John family comparison.",
     "points": [
       "The family Bible records John's birth, marriage and nine children but names no parents and contains no Alexander.",
       "The 1831 Inishrush household closely fits the surviving Bible family after married or deceased children are accounted for.",
       "A second family Bible and John's 1847 letter independently connect this family to Inishrush and the Drimbolg Reformed Presbyterian network.",
-      "The 1830 Ohio census household is not this John: its head was aged 40–49, while John was 63."
+      "The 1830 Ohio census household is not this John: its head was aged 40–49, while John was 63.",
+      "The 18% James father is a new working connection from existing evidence. Adam’s 27% James father and the proposed brotherhood are correlated assumptions; no parent is named in John’s Bible."
     ]
   },
   "record_rows": [
@@ -76,8 +77,13 @@
     {
       "id": "identity-inishrush",
       "title": "Why is John identified with the 1831 Inishrush householder?",
-      "answer": "The Bible family, place evidence, church network and near-exact household reconstruction make this the strongest identity match.",
-      "records": ["bible-john-mary", "census-inishrush-1831", "bible-mckeown", "letter-john-1847"],
+      "answer": "The Bible family, place evidence, church network and near-exact household reconstruction favour the identification at 94% confidence.",
+      "records": [
+        "bible-john-mary",
+        "census-inishrush-1831",
+        "bible-mckeown",
+        "letter-john-1847"
+      ],
       "reasoning": "The family register establishes John's nuclear family; the McKeown Bible and John's own letter independently place that family at Inishrush. The surviving household members closely reproduce the 1831 totals.",
       "limitation": "The 1831 return names only the head, and published transcriptions disagree about denomination.",
       "missing": "The original 1831 return and Drimbolg session material capable of naming household relationships."
@@ -85,17 +91,22 @@
     {
       "id": "parents",
       "title": "Do the records identify John's parents or a brother Adam?",
-      "answer": "No. Adam cannot be John's father on age grounds; brother and cousin remain possible, but neither is proved.",
-      "records": ["bible-john-mary", "census-inishrush-1831"],
-      "reasoning": "The two men headed separate Inishrush households and shared a local religious and social network. Naming patterns suggest an older Adam and Maria, but no record supplies a kin term or shared parent.",
-      "limitation": "Naming custom and proximity are clues, not relationship evidence.",
+      "answer": "James Glasgow-1509 is selected as John’s very uncertain father at 18%, conditional on John and Adam being brothers and on Adam’s existing uncertain James father. No record names John’s parents; no mother is selected.",
+      "records": [
+        "bible-john-mary",
+        "census-inishrush-1831"
+      ],
+      "reasoning": "The two men headed separate Inishrush households and shared a local religious and social network. Naming patterns suggest an older Adam and Maria, but no record supplies a kin term or shared parent. The preferred named James comparison extends the already selected Adam family. John’s Adam–James–John and Rose–Maria child names also favour an unnamed older Adam/Maria alternative, so this remains a weak choice among competing family models.",
+      "limitation": "Naming and the shared local family network support a tentative comparison. They do not establish its degree, and the two conditional assumptions are not independent evidence.",
       "missing": "A church, estate, deed, probate or family record that directly names a parent or sibling."
     },
     {
       "id": "death-notice",
       "title": "Did the identified church periodical publish John's obituary?",
       "answer": "No John Glasgow obituary was found in the original 1851–52 volume.",
-      "records": ["periodical-rp-1852"],
+      "records": [
+        "periodical-rp-1852"
+      ],
       "reasoning": "The full-view volume, its search results and the final obituary pages following John's 23 December 1851 death were inspected.",
       "limitation": "This is a bounded negative for volume 15; it cannot exclude a brief unindexed notice elsewhere in the periodical.",
       "missing": "Guernsey County probate-case indexes and the congregation's underlying admissions or session records."
@@ -103,26 +114,95 @@
   ],
   "record_evidence": {
     "identity-inishrush": {
-      "bible-john-mary": {"recorded_statement": "John was born 10 April 1767, married Mary on 21 May 1798 and had nine recorded children.", "relevance": "Defines the family used to test the 1831 household.", "limitation": "Later hands entered some events; no parent or marriage place is given."},
-      "census-inishrush-1831": {"recorded_statement": "John Glasco headed Inishrush house 2 with four males and four females.", "relevance": "The count closely matches John's surviving household family.", "limitation": "Only the head is named."},
-      "bible-mckeown": {"recorded_statement": "John's grandson was born at Inishrush in 1821 and baptised by Rev. Joseph Orr.", "relevance": "Provides independent descendant evidence for place and congregation.", "limitation": "It does not name John's parents."},
-      "letter-john-1847": {"recorded_statement": "John recalled family life at Inishrush and relayed detailed news from its local network.", "relevance": "Directly associates the emigrant John with Inishrush.", "limitation": "The reported local James remains an identity inference."}
+      "bible-john-mary": {
+        "recorded_statement": "John was born 10 April 1767, married Mary on 21 May 1798 and had nine recorded children.",
+        "relevance": "Defines the family used to test the 1831 household.",
+        "limitation": "Later hands entered some events; no parent or marriage place is given."
+      },
+      "census-inishrush-1831": {
+        "recorded_statement": "John Glasco headed Inishrush house 2 with four males and four females.",
+        "relevance": "The count closely matches John's surviving household family.",
+        "limitation": "Only the head is named."
+      },
+      "bible-mckeown": {
+        "recorded_statement": "John's grandson was born at Inishrush in 1821 and baptised by Rev. Joseph Orr.",
+        "relevance": "Provides independent descendant evidence for place and congregation.",
+        "limitation": "It does not name John's parents."
+      },
+      "letter-john-1847": {
+        "recorded_statement": "John recalled family life at Inishrush and relayed detailed news from its local network.",
+        "relevance": "Directly associates the emigrant John with Inishrush.",
+        "limitation": "The reported local James remains an identity inference."
+      }
     },
     "parents": {
-      "bible-john-mary": {"recorded_statement": "The register begins with John and Mary and their children.", "relevance": "Its child order supports a naming-pattern hypothesis.", "limitation": "It names neither spouse's parents."},
-      "census-inishrush-1831": {"recorded_statement": "John and Adam headed separate households in the same townland.", "relevance": "Supports association and excludes a single household.", "limitation": "No kinship is stated."}
+      "bible-john-mary": {
+        "recorded_statement": "The register begins with John and Mary and their children.",
+        "relevance": "Its child order supports a naming-pattern hypothesis.",
+        "limitation": "It names neither spouse's parents."
+      },
+      "census-inishrush-1831": {
+        "recorded_statement": "John and Adam headed separate households in the same townland.",
+        "relevance": "Supports association and excludes a single household.",
+        "limitation": "No kinship is stated."
+      }
     },
     "death-notice": {
-      "periodical-rp-1852": {"recorded_statement": "The final obituary group names Catherine Kennedy, Elizabeth Carson, Hannah Walker and Ebenezer Craig, not John Glasgow.", "relevance": "Closes the specifically identified denominational volume as a formal-obituary source.", "limitation": "A short unindexed notice elsewhere is not excluded."}
+      "periodical-rp-1852": {
+        "recorded_statement": "The final obituary group names Catherine Kennedy, Elizabeth Carson, Hannah Walker and Ebenezer Craig, not John Glasgow.",
+        "relevance": "Closes the specifically identified denominational volume as a formal-obituary source.",
+        "limitation": "A short unindexed notice elsewhere is not excluded."
+      }
     }
   },
   "research_tasks": [
-    {"priority": 1, "scope": "Church", "status": "Archive access required", "status_date": "2026-09-12", "what": "Inspect the Drimbolg congregation's underlying admissions and session records for John and Adam Glasgow.", "tests": "Tests identity, migration and an explicit relationship between the two Inishrush households.", "matters": "A kin term, transfer, residence or family admission would outweigh naming-pattern inference.", "record_target": "Drimbolg congregation admissions and session records for John and Adam Glasgow.", "resolves": "A kin term, transfer, residence or family admission linking the two Inishrush households.", "provenance": "research/Glasgow-822/findings.md · Source findings"},
-    {"priority": 2, "scope": "Probate", "status": "Local index lookup required", "status_date": "2026-09-12", "what": "Check the Guernsey County probate case-file index for an intestate administration after John's 1851 death.", "tests": "Tests for heirs, relatives and an estate file despite the absence of a recorded will.", "matters": "The public will indexes contain no Glasgow testator, but do not exclude administration.", "record_target": "Guernsey County probate case-file index: any intestate administration after John's 1851 death.", "resolves": "An administration or estate file naming John's heirs or relatives.", "provenance": "research/Glasgow-822/findings.md · Source findings"},
-    {"priority": 3, "scope": "Family archive", "status": "Missing compilation", "status_date": "2026-09-12", "what": "Recover Hiltner source S17, Descendants of John Glasgow.pdf / Glasgow Register Report.doc.", "tests": "Tests whether the cited 2018 compilation preserves sourced parentage or migration evidence.", "matters": "Its title is not evidence until the underlying files and citations are recovered.", "record_target": "Hiltner source S17, Descendants of John Glasgow.pdf / Glasgow Register Report.doc.", "resolves": "Recovery of the compilation's underlying files and citations.", "provenance": "research/Glasgow-822/findings.md · Source findings"}
+    {
+      "priority": 1,
+      "scope": "Church",
+      "status": "Archive access required",
+      "status_date": "2026-09-12",
+      "what": "Inspect the Drimbolg congregation's underlying admissions and session records for John and Adam Glasgow.",
+      "tests": "Tests identity, migration and an explicit relationship between the two Inishrush households.",
+      "matters": "A kin term, transfer, residence or family admission would outweigh naming-pattern inference.",
+      "record_target": "Drimbolg congregation admissions and session records for John and Adam Glasgow.",
+      "resolves": "A kin term, transfer, residence or family admission linking the two Inishrush households.",
+      "provenance": "research/Glasgow-822/findings.md · Source findings"
+    },
+    {
+      "priority": 2,
+      "scope": "Probate",
+      "status": "Local index lookup required",
+      "status_date": "2026-09-12",
+      "what": "Check the Guernsey County probate case-file index for an intestate administration after John's 1851 death.",
+      "tests": "Tests for heirs, relatives and an estate file despite the absence of a recorded will.",
+      "matters": "The public will indexes contain no Glasgow testator, but do not exclude administration.",
+      "record_target": "Guernsey County probate case-file index: any intestate administration after John's 1851 death.",
+      "resolves": "An administration or estate file naming John's heirs or relatives.",
+      "provenance": "research/Glasgow-822/findings.md · Source findings"
+    },
+    {
+      "priority": 3,
+      "scope": "Family archive",
+      "status": "Missing compilation",
+      "status_date": "2026-09-12",
+      "what": "Recover Hiltner source S17, Descendants of John Glasgow.pdf / Glasgow Register Report.doc.",
+      "tests": "Tests whether the cited 2018 compilation preserves sourced parentage or migration evidence.",
+      "matters": "Its title is not evidence until the underlying files and citations are recovered.",
+      "record_target": "Hiltner source S17, Descendants of John Glasgow.pdf / Glasgow Register Report.doc.",
+      "resolves": "Recovery of the compilation's underlying files and citations.",
+      "provenance": "research/Glasgow-822/findings.md · Source findings"
+    }
   ],
   "completed_searches": [
-    {"date": "2026-09-12", "search": "John and Mary Glasgow family Bible images", "result": "Both catalogued images were inspected. They establish the family register but name no parent and contain no Alexander child."},
-    {"date": "2026-09-12", "search": "The Reformed Presbyterian and Covenanter, volume 15", "result": "The full-view original volume and February 1852 obituary pages were searched. No John Glasgow obituary was found; the result is bounded to this volume."}
+    {
+      "date": "2026-09-12",
+      "search": "John and Mary Glasgow family Bible images",
+      "result": "Both catalogued images were inspected. They establish the family register but name no parent and contain no Alexander child."
+    },
+    {
+      "date": "2026-09-12",
+      "search": "The Reformed Presbyterian and Covenanter, volume 15",
+      "result": "The full-view original volume and February 1852 obituary pages were searched. No John Glasgow obituary was found; the result is bounded to this volume."
+    }
   ]
 }
