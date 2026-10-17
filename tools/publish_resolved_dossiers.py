@@ -11,9 +11,11 @@ from pathlib import Path
 try:
     import evidence_labels
     from catalogue_machine_data import compact_resolver_row
+    from documentary_ancestry import valid_account_url
 except ModuleNotFoundError:  # imported as tools.publish_resolved_dossiers
     from tools import evidence_labels
     from tools.catalogue_machine_data import compact_resolver_row
+    from tools.documentary_ancestry import valid_account_url
 
 ROOT = Path(__file__).resolve().parents[1]
 HISTORY_SEED = ROOT / 'research/relationship_history_seed.json'
@@ -239,7 +241,7 @@ def resolve(dossier, assessments, shared_assessments=()):
                            wikitree_url=f'https://www.wikitree.com/wiki/{other}')
             relative_urls = (assessment.get('profile_urls') or {}).get(other)
             if relative_urls is not None:
-                if not str(relative_urls.get('url', '')).startswith('/free-space/'):
+                if not valid_account_url(relative_urls.get('url', '')):
                     raise ValueError(f'Shared assertion {aid} has an invalid documentary account URL')
                 current.update(url=relative_urls['url'], wikitree_url=None)
             result.setdefault('relationships', {}).setdefault(group, []).append(current)

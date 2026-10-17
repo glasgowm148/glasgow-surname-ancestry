@@ -116,6 +116,13 @@ class ResolvedDossierTests(unittest.TestCase):
         father = result['relationships']['parents'][0]
         self.assertEqual(father['url'], '/free-space/stirling-john/')
         self.assertIsNone(father['wikitree_url'])
+        assessment['profile_urls']['record-john-1475']['url'] = '/research/subjects/example/#named-parent'
+        father = module.resolve(original, [], [assessment])['relationships']['parents'][0]
+        self.assertEqual(father['url'], '/research/subjects/example/#named-parent')
+        self.assertIsNone(father['wikitree_url'])
+        assessment['profile_urls']['record-john-1475']['url'] = '//example.test/unreviewed'
+        with self.assertRaisesRegex(ValueError, 'invalid documentary account URL'):
+            module.resolve(original, [], [assessment])
 
     def test_selected_father_keeps_other_candidate_without_counting_both(self):
         from tools.branch_connectivity import load_public_nodes, summarize

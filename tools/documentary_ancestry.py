@@ -4,6 +4,12 @@ from pathlib import Path
 import re
 
 
+def valid_account_url(value) -> bool:
+    return isinstance(value, str) and re.fullmatch(
+        r'/(?:free-space/[a-z0-9-]+/|research/subjects/[a-z0-9-]+/(?:#[a-z0-9-]+)?)', value
+    ) is not None
+
+
 def load_people(path: Path) -> list[dict]:
     if not path.exists():
         return []
@@ -16,7 +22,7 @@ def load_people(path: Path) -> list[dict]:
         seen.add(ident)
         if person.get('publication_status') != 'approved' or not person.get('source_ids'):
             raise ValueError(f'Documentary person needs approved named records: {ident}')
-        if not re.fullmatch(r'/(?:free-space/[a-z0-9-]+/|research/subjects/[a-z0-9-]+/(?:#[a-z0-9-]+)?)', person.get('url', '')):
+        if not valid_account_url(person.get('url', '')):
             raise ValueError(f'Documentary person needs a complete public research account: {ident}')
         if not isinstance(person.get('first_record_year'), int) or not person.get('name'):
             raise ValueError(f'Documentary person needs a name and record year: {ident}')
