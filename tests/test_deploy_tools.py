@@ -40,6 +40,7 @@ class DeploySiteTests(unittest.TestCase):
             root = Path(temporary) / "www"
             root.mkdir()
             (root / "index.html").write_text("ok", encoding="utf-8")
+            (root / "index.html").chmod(0o600)
             (root / ".DS_Store").write_text("no", encoding="utf-8")
             (root / "glasgow-site-old.tar.gz").write_text("no", encoding="utf-8")
             (root / "private").mkdir()
@@ -57,6 +58,7 @@ class DeploySiteTests(unittest.TestCase):
             self.assertEqual(archive.name, "glasgow-site-20260924-123456.tar.gz")
             with tarfile.open(archive, "r:gz") as contents:
                 self.assertEqual(contents.getnames(), ["index.html", "notes.md", "release-manifest.json"])
+                self.assertEqual(contents.getmember("index.html").mode, 0o644)
                 manifest = json.load(contents.extractfile("release-manifest.json"))
                 self.assertEqual([entry["path"] for entry in manifest["files"]], ["index.html", "notes.md"])
                 for entry in manifest["files"]:
@@ -85,6 +87,25 @@ class DeploySiteTests(unittest.TestCase):
         self.assertIn("--safe-links", command)
         self.assertIn("--delete-excluded", command)
         self.assertEqual(command[-1], "alice@example.test:/var/www/site/")
+
+    def test_rsync_normalizes_private_build_modes_for_public_serving(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary) / "www"
+            root.mkdir(mode=0o700)
+            (root / "index.html").write_text("public", encoding="utf-8")
+            (root / "index.html").chmod(0o600)
+            (root / "private").mkdir(mode=0o700)
+            (root / "private" / "secret.txt").write_text("private", encoding="utf-8")
+            (root / "private" / "secret.txt").chmod(0o600)
+            target = Path(temporary) / "deployed"
+            deploy_site.normalize_public_modes(root)
+            subprocess.run(deploy_site.rsync_command(root, str(target), dry_run=False),
+                           check=True, capture_output=True)
+            self.assertEqual(target.stat().st_mode & 0o777, 0o755)
+            self.assertEqual((target / "index.html").stat().st_mode & 0o777, 0o644)
+            self.assertEqual((root / "private").stat().st_mode & 0o777, 0o700)
+            self.assertEqual((root / "private" / "secret.txt").stat().st_mode & 0o777, 0o600)
+            self.assertFalse((target / "private").exists())
 
     def test_atomic_target_and_switch_command(self) -> None:
         target = "alice@example.test:/var/www/site"

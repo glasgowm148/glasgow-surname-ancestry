@@ -88,6 +88,17 @@ def validate_release_tree(site_root: Path) -> None:
             raise ValueError(f"refusing escaped symlink in release tree: {path}") from error
 
 
+def normalize_public_modes(site_root: Path) -> None:
+    """Keep archive-mode rsync readable even when builders use a private umask."""
+    for path in (site_root, *site_root.rglob("*")):
+        if path.is_symlink() or is_excluded(path.relative_to(site_root)):
+            continue
+        if path.is_dir():
+            path.chmod(0o755)
+        elif path.is_file():
+            path.chmod(0o644)
+
+
 def bundle_name(now: dt.datetime | None = None) -> str:
     now = now or dt.datetime.now()
     return f"glasgow-site-{now.strftime('%Y%m%d-%H%M%S')}.tar.gz"
@@ -108,7 +119,10 @@ def make_bundle(site_root: Path, now: dt.datetime | None = None) -> Path:
             with path.open("rb") as handle:
                 digest = hashlib.file_digest(handle, "sha256").hexdigest()
             manifest.append({"path": relative.as_posix(), "bytes": path.stat().st_size, "sha256": digest})
-            archive.add(path, arcname=relative.as_posix(), recursive=False)
+            info = archive.gettarinfo(path, arcname=relative.as_posix())
+            info.mode = 0o644
+            with path.open("rb") as handle:
+                archive.addfile(info, handle)
         content = (json.dumps({"schema_version": 1, "files": manifest}, separators=(",", ":")) + "\n").encode()
         info = tarfile.TarInfo("release-manifest.json")
         info.size = len(content)
@@ -185,6 +199,7 @@ def main() -> int:
     site_root = Path(__file__).parents[1] / "www"
     if args.bundle:
         prepare_release(site_root, write=not args.no_stamp)
+        normalize_public_modes(site_root)
         archive = make_bundle(site_root)
         size = archive.stat().st_size
         print(f"bundle: {archive} ({size} bytes, {size / 1_000_000:.2f} MB, {size / 1024**2:.2f} MiB)")
@@ -209,6 +224,7 @@ def main() -> int:
     command = rsync_command(site_root, destination, dry_run=not args.execute)
     if args.execute:
         prepare_release(site_root, write=not args.no_stamp)
+        normalize_public_modes(site_root)
         if args.atomic:
             host, path = target_parts(target)
             run(["ssh", host, f"mkdir -p {shlex.quote(path + '.releases')}"])
