@@ -31,3 +31,11 @@ Matches Margaret Glasgow-1524 by date and named parents William Glasgow and Bess
 ## Priority action
 
 **Needs update on WikiTree:** the complete proposed biography records this comparison with prior sources and pending research retained. No structured date or relationship change is established by this index review.
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+A possible identification concerns Margaret Glasgow. The banns/marriage index records Margrat Glasgow and John Aiton on 18 October 1693 at Cambusnethan. (Scotland’s People: Old Parish Registers — banns and marriages: OPR 628/10 / 344; [record](https://www.scotlandspeople.gov.uk/).) The original parish register image has not been inspected. The combined index date does not by itself identify the precise event type. The identification remains uncertain.
+
+A possible identification concerns Margaret Glasgow. The banns/marriage index records Margaret Glasgow and John Tailzer on 18 December 1690 at Walston. (Scotland’s People: Old Parish Registers — banns and marriages: OPR 658/10 / 206; [record](https://www.scotlandspeople.gov.uk/).) The original parish register image has not been inspected. The combined index date does not by itself identify the precise event type. The identification remains uncertain.
+<!-- queue-record-integration-2026-10-17:end -->

@@ -14,3 +14,9 @@ Sources: [Inspected historical source](https://www.familysearch.org/ark:/61903/3
 [Full record account and comparison](/research/subjects/prescott-rochester-james-family/#james-glasgow). This assessment proposes no live WikiTree edit.
 
 <!-- queue-identity-review-2026-10-17:end -->
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+A possible identification concerns James Glasgow. Prescott deed C114 names Alexander Glasco of Rochester, express agent, as the son of James, the Prescott carpenter. (Inspected historical source; [record](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LQRC-Y).) Original deed inspected. This is a separate Alexander; it does not identify [Alexander-951](https://www.wikitree.com/wiki/Alexander-951). The identification remains uncertain.
+<!-- queue-record-integration-2026-10-17:end -->

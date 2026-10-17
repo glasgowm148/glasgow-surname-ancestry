@@ -31,3 +31,13 @@ Sources: [Belfast Evening Telegraph, 4 September 1875, p.2](https://www.newspape
 [Full record account and comparison](/research/subjects/william-glasgow-irish-newspapers/#emma-parsonstown). This assessment proposes no live WikiTree edit.
 
 <!-- queue-identity-review-2026-10-17:end -->
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### Emma Glasgow’s marriage at Belfast, 1875
+
+A notice reports that Emma, daughter of the late William Alexander Glasgow, married William, second son of Robert Treacy, on 4 September 1875 at St Thomas’s Church, Belfast, with Rev T. J. Welland officiating. Both spouses were of Parsonstown. The notice states neither Emma’s age nor her mother. ([Belfast Evening Telegraph, 4 September 1875, p.2](https://www.newspapers.com/image/1265675182/).)
+
+Identification with the woman reportedly born about 1815 in South Carolina remains weak. The attached Robert and Nancy parentage is an unproved reconstruction from unnamed census women, so it is not a documentary exclusion; a marriage at about 60 is also not ruled out by an age-free notice. The alternative father candidate [William Glasgow](https://www.wikitree.com/wiki/Glasgow-1387), born about 1810, could not father this Emma on those dates. He would require a different, later-born bride: these are competing family hypotheses, not an asserted parent–child pair.
+<!-- queue-record-integration-2026-10-17:end -->

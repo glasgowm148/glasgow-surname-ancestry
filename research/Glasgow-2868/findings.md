@@ -122,3 +122,51 @@ Two very uncertain parent hypotheses join one existing seven-profile family to t
 - [Maryland State Archives,Samuel Glasgow,MSA SC 3520-17195,Owen Lourie 2016: authored probate summary,read 16 October 2026; original wills not inspected](https://msa.maryland.gov/megafile/msa/speccol/sc3500/sc3520/017100/017195/html/17195bio.html)
 - [Baltimore Gazette & Daily Advertiser,23 June 1837,p.4,col.5,as cited in the captured Robert/Apphia biographies; image reference Find a Grave 105585399,not newly inspected](https://www.findagrave.com/memorial/105585399)
 - [James Glasgow profile: preserved Glencorse OPR 687,10/121,14 February 1720 citation and unresolved colonial identity](https://www.wikitree.com/wiki/Glasgow-2868)
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### Possible James Glascow, Fogs Manor postal addressee
+James Glascow, Fogs Manor, is listed among letters remaining in the Philadelphia post office. ([The Pennsylvania Gazette, 1757-04-07, p.1](https://www.newspapers.com/image/39395391/).)
+
+Fogs Manor is the printed address qualifier. A neighbouring "Phil. Co." in a separate alphabetic column is not this man’s address. The list states no occupation, so it does not identify him as the later Greenwich Packet master.
+
+This may concern [Glasgow-2868](https://www.wikitree.com/wiki/Glasgow-2868). Exact birth 14 Feb 1720; death c.1784 estimated in Cecil County, Maryland. A 1777 master record precedes estimated death and is not a hard contradiction, but this recorded Maryland trajectory and approximate death deserve review before any association. The postal record states no occupation.
+
+### Possible James Glascow, master of Greenwich Packet
+Greenwich Packet: James Glascow, master; James Young, owner; from Philadelphia to Winyew, Carolina; with rum, bread, flour and porter. ([The Public Advertiser, 1777-05-14, p.2](https://www.newspapers.com/image/34421452/).) ([The Ipswich Journal, 1777-05-17, p.1](https://www.newspapers.com/image/396765804/).) ([The Gloucester Journal, 1777-05-19, p.1](https://www.newspapers.com/image/971522063/).)
+
+James Young is the separate vessel owner, not another form of the master’s name. Three issues repeat one voyage report. Neither the route nor the cargo establishes the master’s family or identifies him with the 1757 Fogs Manor addressee.
+
+This may concern [Glasgow-2868](https://www.wikitree.com/wiki/Glasgow-2868). Exact birth 14 Feb 1720; death c.1784 estimated in Cecil County, Maryland. A 1777 master record precedes estimated death and is not a hard contradiction, but this recorded Maryland trajectory and approximate death deserve review before any association.
+
+### Possible James Glasgow, Hackman affair witness, 1779
+James Glasgow and Andrew Doyle, styled chairmen, are named among persons examined in the Hackman/Miss Ray affair; Glasgow reportedly removed the pistol and gave it to Halliburton. ([Gloucester Journal, 1779-04-12, p.3](https://www.newspapers.com/image/970974651/).) ([Berrow's Worcester Journal, 1779-04-15, p.1](https://www.newspapers.com/image/1211966255/).) ([Jackson’s Oxford Journal, 1779-04-10, p.3](https://www.newspapers.com/image/396539533/).)
+
+"Chairmen" is the recorded word, not a statement that James chaired a meeting. The account gives no age, parents or connection to the American and maritime namesakes.
+
+This may concern [Glasgow-2868](https://www.wikitree.com/wiki/Glasgow-2868). Adult chronology permits 1779; no London witness connection, and later Maryland context remains a competing lead.
+
+### Possible James Glasgow, Lancaster postal addressee, 1773
+James Glasgow (2) is listed among letters remaining in Lancaster’s post office. ([The Pennsylvania Gazette, 1773-07-21, p.4](https://www.newspapers.com/image/39403087/).)
+
+The office heading does not establish James’s household or county of residence, and the printed "(2)" does not distinguish a second man of that name.
+
+This may concern [Glasgow-2868](https://www.wikitree.com/wiki/Glasgow-2868). Compatible adult lifespan and later Cecil County context; no Lancaster letter-list connection.
+
+### Possible James Glasgow, Marsh creek Carlisle list, 1795
+James Glasgow, Marsh creek, appears in a Carlisle names/address list reprinted in July–August 1795. ([Kline's Carlisle Weekly Gazette, 1795-07-15, p.3](https://www.newspapers.com/image/1033874474/).) ([Kline's Carlisle Weekly Gazette, 1795-07-29, p.4](https://www.newspapers.com/image/1033874483/).) ([Kline's Carlisle Weekly Gazette, 1795-08-12, p.4](https://www.newspapers.com/image/1033874491/).)
+
+The three issues repeat one list. The Marsh creek qualifier is not evidence of kinship or continuity with the Lancaster and North Carolina namesakes. Postal correspondence can remain after an addressee’s death.
+
+This may concern [Glasgow-2868](https://www.wikitree.com/wiki/Glasgow-2868). Exact 1720 birth and estimated c.1784 death; weak chronology and regional comparison only, not an exact death exclusion or Marsh creek match.
+
+### Possible James Glasgow, Wilmington tannery advertiser, 1782–1785
+James Glasgow, at Christiana Bridge in Newcastle county, advertises for private sale the former Charles Whitlock tanyard in the borough of Wilmington; notice dated 5 August 1782. ([The Pennsylvania Journal, or, Weekly Advertiser, 1782-08-14, p.4](https://www.newspapers.com/image/1033849411/).) ([The Pennsylvania Journal, or, Weekly Advertiser, 1782-08-17, p.4](https://www.newspapers.com/image/1033849460/).) ([The Pennsylvania Journal, or, Weekly Advertiser, 1782-08-24, p.4](https://www.newspapers.com/image/1033849561/).) ([The Pennsylvania Journal, or, Weekly Advertiser, 1782-08-31, p.1](https://www.newspapers.com/image/1033849627/).) ([The Pennsylvania Journal, or, Weekly Advertiser, 1782-09-11, p.4](https://www.newspapers.com/image/1033849802/).) ([The Pennsylvania Journal, or, Weekly Advertiser, 1782-09-18, p.4](https://www.newspapers.com/image/1033849901/).) ([The Pennsylvania Journal, or, Weekly Advertiser, 1782-09-25, p.4](https://www.newspapers.com/image/1033850004/).) ([The Pennsylvania Journal, or, Weekly Advertiser, 1782-10-02, p.3](https://www.newspapers.com/image/1033850089/).) ([The Pennsylvania Journal, or, Weekly Advertiser, 1782-10-12, p.1](https://www.newspapers.com/image/1033850222/).) ([The Pennsylvania Journal, or, Weekly Advertiser, 1782-10-23, p.4](https://www.newspapers.com/image/1033850380/).) ([The Pennsylvania Journal, or, Weekly Advertiser, 1782-11-06, p.1](https://www.newspapers.com/image/1033850520/).) ([The Pennsylvania Journal, or, Weekly Advertiser, 1782-11-13, p.4](https://www.newspapers.com/image/1033850624/).) ([The Pennsylvania Journal, or, Weekly Advertiser, 1782-11-20, p.4](https://www.newspapers.com/image/1033850701/).) ([The Pennsylvania Journal, or, Weekly Advertiser, 1782-11-30, p.1](https://www.newspapers.com/image/1033850793/).) ([The Pennsylvania Journal, or, Weekly Advertiser, 1782-12-07, p.4](https://www.newspapers.com/image/1033850882/).) ([The Pennsylvania Journal, or, Weekly Advertiser, 1782-12-14, p.4](https://www.newspapers.com/image/1033850953/).)
+
+James Glasgow, living at Christiana Bridge, signs a notice dated 12 March 1785 offering a complete tanyard in the borough of Wilmington, State of Delaware, then in the tenure of Thomas Glenn. ([The Pennsylvania Journal, or, Weekly Advertiser, 1785-03-23, p.2](https://www.newspapers.com/image/1034008744/).) ([The Pennsylvania Journal, or, Weekly Advertiser, 1785-03-30, p.1](https://www.newspapers.com/image/1034008777/).) ([The Pennsylvania Journal, or, Weekly Advertiser, 1785-04-09, p.4](https://www.newspapers.com/image/1034008853/).)
+
+The 1785 notice explicitly says State of Delaware. Neither notice proves that the advertiser owned the land or worked as a tanner, that the sale completed, or that both notices concerned precisely the same plot. Thomas Glenn is named only in the later notice, while Charles Whitlock belongs to the earlier property description.
+
+This may concern [Glasgow-2868](https://www.wikitree.com/wiki/Glasgow-2868). Adult chronology and later Cecil Maryland regional context are compatible with nearby New Castle, without a Wilmington/Christiana Bridge or property connection.
+<!-- queue-record-integration-2026-10-17:end -->

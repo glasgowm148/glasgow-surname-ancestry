@@ -56,3 +56,14 @@ Inspect Maryland land, tax, probate, and newspaper records for Robert Glasgow an
 ## Identity assessment — newspaper candidates withdrawn, 6 October 2026
 
 - [The Pennsylvania Gazette, 1786-02-15, p.1](https://www.newspapers.com/image/41024006/): no longer a candidate for this profile. Robert Glasgow and Joshua Hartshorn were to give possession of a 260-acre plantation in North Susquehanna Hundred, Cecil County, Maryland, offered at vendue in March 1786. Neither man can be identified on WikiTree. The joint Glasgow–Hartshorn role is a research lead pointing to the Cecil County family of James Glasgow (Glasgow-2868) and Ann Hartshorne (Hartshorne-320), but it is not a relationship.
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### Possible Robert Glasgow, Cecil County plantation notice, 1786
+A notice dated North Susquehanna hundred, Cecil county, Maryland, 10 February 1786 offers a 260-acre plantation for public vendue on 10 March, with immediate possession given by Robert Glasgow and Joshua Hartshorn. ([The Pennsylvania Gazette, 1786-02-15, p.1](https://www.newspapers.com/image/41024006/).) ([The Pennsylvania Gazette, 1786-03-01, p.4](https://www.newspapers.com/image/41024088/).)
+
+The two issues advertise one planned sale. Robert’s role as owner, agent or another participant is not specified; the notice proves neither a completed sale nor kinship with Joshua Hartshorn.
+
+This may concern [Glasgow-2425](https://www.wikitree.com/wiki/Glasgow-2425). Estimated birth c. 1724 in Ireland and death place United States leave the chronology possible, but the known account gives no Maryland residence or relevant occupation. The identification is therefore weak.
+<!-- queue-record-integration-2026-10-17:end -->

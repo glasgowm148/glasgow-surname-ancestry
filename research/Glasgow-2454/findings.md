@@ -31,3 +31,15 @@ as duplicate raw hits rather than separate people.
 Original image not inspected for this batch. The combined collection’s date does not automatically establish a birthday. Names alone do not uniquely identify attached parents or connect a child with a later adult. An omitted parent or indexed gender U remains unspecified in this source.
 
 **Next action:** No new profile or merge is required; inspect the original for any explicit twin wording and fuller parent identification.
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+A possible identification concerns Isob Glasgow. The banns/marriage index records Isob Glasgow and James Coldwell/ on 17 April 1684 at Glasgow. (Scotland’s People: Old Parish Registers — banns and marriages: OPR 644 / 1/230 / 285; [record](https://www.scotlandspeople.gov.uk/).) The original parish register image has not been inspected. The combined index date does not by itself identify the precise event type. Isob Glasgow and James Coldwell have no proven compatible local/live identity. The identification remains uncertain.
+
+### Possible earlier Haddington record
+
+A Haddington transcript records Issobell Glasgow born on 24 November 1639 and baptised on 26 November, with parents named Wm Glasgow and Issobella Miral. (Findmypast/Scottish Genealogy Society, Issobell Glasgow, born 24 and baptised 26 November 1639, Haddington; OPR 709/1 p.208, transcript SCOT/OPR/BAP/4675742; original register not inspected; [Source](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4675742).) Miral is the literal provider reading; the original maternal surname has not been checked.
+
+This is a possible earlier record of the Issobell baptised at Mid Calder on 3 February 1648: the child’s name and father William agree, and a baptism date does not independently prove a birthday. The nine-year interval and different parish nevertheless make the identity weak; a second or delayed baptism is a possibility rather than a recorded explanation. The Haddington entry directly proves its own indexed parental pair, without identifying its father with [William Glasgow of Mid Calder](https://www.wikitree.com/wiki/Glasgow-1087). [William Glasgow, the Leith mealmaker](https://www.wikitree.com/wiki/Glasgow-3075), and [William Glasgow, the Inveresk child of 1614](https://www.wikitree.com/wiki/Glasgow-3517), are separate compatible adult comparisons. None is made the Haddington father as a fact. [Issobell Anderson](https://www.wikitree.com/wiki/Anderson-56713), who married Allexander Glasgow at Edinburgh in 1665, represents a different birth-surname account; she is not identified with this Glasgow-born child merely from her later married name.
+<!-- queue-record-integration-2026-10-17:end -->

@@ -1,0 +1,521 @@
+{
+  "reviewed_on": "2026-10-17",
+  "scope": "Exactly18 newly materialized public-profile metadata records; no API or new source search. Compared their basic fields and qualifications to the previously reviewed original-record identities and saved full biographies.",
+  "profiles": {
+    "Thomson-263": {
+      "profile_id": "Thomson-263",
+      "status": "compatible_candidate_retained",
+      "new_concrete_conflict": false,
+      "actual_name": "William Thomson",
+      "birth_date": "1638-00-00",
+      "birth_status": "guess",
+      "death_date": "0000-00-00",
+      "death_status": "",
+      "birth_location": "Edinburgh, Midlothian, Scotland",
+      "death_location": "",
+      "review_ids": [
+        "subject-opr-agnes-marriages-william-thomsone",
+        "opr-1"
+      ],
+      "finding_ids": [
+        "opr-marriage-01"
+      ],
+      "assessment": "Estimated 1638 birth permits an adult groom in Carstairs in December 1681 (about 43). Edinburgh locality and earlier Peirie family do not establish a conflicting continuing 1681 household. Remains a weak candidate; no spouse bridge is proved.",
+      "changed_basic_fields": {},
+      "sourcepaths": [
+        "research/queue-review-2026-10-17/catalogue-profile-metadata.json#/Thomson-263",
+        "tmp/queue-review-2026-10-17/previous-reviewed-amendments/Thomson-263.json",
+        "research/queue-match-audit-2026-09-30/scottish-opr.json"
+      ],
+      "privacy": 60,
+      "is_living": 0
+    },
+    "Anderson-3493": {
+      "profile_id": "Anderson-3493",
+      "status": "compatible_candidate_retained",
+      "new_concrete_conflict": false,
+      "actual_name": "William Anderson",
+      "birth_date": "1632-04-10",
+      "birth_status": "",
+      "death_date": "0000-00-00",
+      "death_status": "",
+      "birth_location": "Alloa, Clackmannanshire, Scotland",
+      "death_location": "",
+      "review_ids": [
+        "subject-opr-agnes-marriages-william-anderson",
+        "opr-26"
+      ],
+      "finding_ids": [
+        "opr-marriage-26"
+      ],
+      "assessment": "The 10 April 1632 date belongs to the cited Alloa baptism, not necessarily birth that day. The child would be at least about 34 in the Longformacus July 1666 occurrence. Different parish and missing Agnas spouse connection do not exclude him.",
+      "changed_basic_fields": {},
+      "sourcepaths": [
+        "research/queue-review-2026-10-17/catalogue-profile-metadata.json#/Anderson-3493",
+        "tmp/queue-review-2026-10-17/previous-reviewed-amendments/Anderson-3493.json",
+        "research/queue-match-audit-2026-09-30/scottish-opr.json"
+      ],
+      "privacy": 60,
+      "is_living": 0
+    },
+    "Swan-736": {
+      "profile_id": "Swan-736",
+      "status": "compatible_candidate_retained",
+      "new_concrete_conflict": false,
+      "actual_name": "James Swan",
+      "birth_date": "1620-07-07",
+      "birth_status": "guess",
+      "death_date": "0000-00-00",
+      "death_status": "guess",
+      "birth_location": "Anstruther Wester Fife Scotland",
+      "death_location": "",
+      "review_ids": [
+        "subject-opr-agnes-marriages-james-swan",
+        "opr-27"
+      ],
+      "finding_ids": [
+        "opr-marriage-27"
+      ],
+      "assessment": "Guessed 7 July 1620 birth permits an adult in May 1666 (about 46). The earlier Elie/Peebles marriage and wife’s estimated 1663 death do not exclude a later Agnes marriage. No Kirknewton bridge is proved.",
+      "changed_basic_fields": {},
+      "sourcepaths": [
+        "research/queue-review-2026-10-17/catalogue-profile-metadata.json#/Swan-736",
+        "tmp/queue-review-2026-10-17/previous-reviewed-amendments/Swan-736.json",
+        "research/queue-match-audit-2026-09-30/scottish-opr.json"
+      ],
+      "privacy": 60,
+      "is_living": 0
+    },
+    "Linton-931": {
+      "profile_id": "Linton-931",
+      "status": "retained_weak_candidate_with_inherited_conditional_conflict",
+      "new_concrete_conflict": false,
+      "actual_name": "Richard Linton",
+      "birth_date": "1722-00-00",
+      "birth_status": "guess",
+      "death_date": "0000-00-00",
+      "death_status": "",
+      "birth_location": "",
+      "death_location": "",
+      "review_ids": [
+        "subject-norfolk-daniel-1729-1730-richard-linton"
+      ],
+      "finding_ids": [
+        "princess-anne-daniel-glasco-deed-1729"
+      ],
+      "assessment": "Guessed 1722 birth would make Richard only about 7 at the 1729 land purchase and about 8 at the 1729/30 witnessing. This is severe conditional chronology tension. The full biography is an unsourced GEDCOM import with no supporting birth record, so the estimate is not reliable enough for a concrete exclusion. Retain only as a much weaker rival to Linton-898, with no identification asserted.",
+      "changed_basic_fields": {},
+      "sourcepaths": [
+        "research/queue-review-2026-10-17/catalogue-profile-metadata.json#/Linton-931",
+        "research/queue-resolution-2026-09-30/older-captures/linton-exclusion-biographies.json",
+        "research/queue-resolution-2026-09-30/older-captures/linton-exclusion-biographies.json"
+      ],
+      "privacy": 60,
+      "is_living": 0
+    },
+    "Bruce-3507": {
+      "profile_id": "Bruce-3507",
+      "status": "compatible_candidate_retained",
+      "new_concrete_conflict": false,
+      "actual_name": "John Bruce",
+      "birth_date": "1652-00-00",
+      "birth_status": "guess",
+      "death_date": "1732-00-00",
+      "death_status": "guess",
+      "birth_location": "Scotland",
+      "death_location": "",
+      "review_ids": [
+        "subject-opr-marion-marriages-john-bruce",
+        "opr-4"
+      ],
+      "finding_ids": [
+        "opr-marriage-04"
+      ],
+      "assessment": "Estimated 1652 birth and 1732 death permit a 32-year-old smith groom in Edinburgh in 1684. The speculative Clackmannan son does not establish a conflicting household or identify this marriage.",
+      "changed_basic_fields": {},
+      "sourcepaths": [
+        "research/queue-review-2026-10-17/catalogue-profile-metadata.json#/Bruce-3507",
+        "tmp/queue-review-2026-10-17/previous-reviewed-amendments/Bruce-3507.json",
+        "research/queue-match-audit-2026-09-30/scottish-opr.json"
+      ],
+      "privacy": 60,
+      "is_living": 0
+    },
+    "Alexander-7545": {
+      "profile_id": "Alexander-7545",
+      "status": "compatible_candidate_retained",
+      "new_concrete_conflict": false,
+      "actual_name": "Andrew Alexander",
+      "birth_date": "1625-00-00",
+      "birth_status": "guess",
+      "death_date": "0000-00-00",
+      "death_status": "",
+      "birth_location": "",
+      "death_location": "",
+      "review_ids": [
+        "subject-opr-joannet-marriages-andrew-allexander",
+        "opr-51"
+      ],
+      "finding_ids": [
+        "opr-marriage-51"
+      ],
+      "assessment": "Estimated 1625 birth permits a 36-year-old groom in Glasgow in 1661. The documented later Ulster landholding in 1663 and attainder 1689 do not contradict that event. The Phillips/Hilles family provides no Joannet bridge; candidate remains weak.",
+      "changed_basic_fields": {},
+      "sourcepaths": [
+        "research/queue-review-2026-10-17/catalogue-profile-metadata.json#/Alexander-7545",
+        "tmp/queue-review-2026-10-17/previous-reviewed-amendments/Alexander-7545.json",
+        "research/queue-match-audit-2026-09-30/scottish-opr.json"
+      ],
+      "privacy": 60,
+      "is_living": 0
+    },
+    "Taylor-32027": {
+      "profile_id": "Taylor-32027",
+      "status": "compatible_candidate_retained",
+      "new_concrete_conflict": false,
+      "actual_name": "John Taylor",
+      "birth_date": "1633-02-00",
+      "birth_status": "",
+      "death_date": "0000-00-00",
+      "death_status": "",
+      "birth_location": "Dunfermline, Fife, , Scotland",
+      "death_location": "",
+      "review_ids": [
+        "subject-opr-margaret-marriages-john-tailzer",
+        "opr-18"
+      ],
+      "finding_ids": [
+        "opr-marriage-18"
+      ],
+      "assessment": "February 1633 birth placement permits an adult in the Walston 1690 marriage (about 57). Dunfermline placement alone is no exclusion, and no conflicting spouse is established.",
+      "changed_basic_fields": {},
+      "sourcepaths": [
+        "research/queue-review-2026-10-17/catalogue-profile-metadata.json#/Taylor-32027",
+        "tmp/queue-review-2026-10-17/previous-reviewed-amendments/Taylor-32027.json",
+        "research/queue-match-audit-2026-09-30/scottish-opr.json"
+      ],
+      "privacy": 60,
+      "is_living": 0
+    },
+    "Matthew-330": {
+      "profile_id": "Matthew-330",
+      "status": "retained_weak_candidate_with_inherited_conditional_conflict",
+      "new_concrete_conflict": false,
+      "actual_name": "David Matthew",
+      "birth_date": "0000-00-00",
+      "birth_status": "",
+      "death_date": "1701-00-00",
+      "death_status": "",
+      "birth_location": "",
+      "death_location": "",
+      "review_ids": [
+        "subject-glasgow-mathy-burgesses-1554-david-mathy"
+      ],
+      "finding_ids": [
+        "mathie-glasgow-burgh-witnesses-1554",
+        "david-mathy-margaret-androsoune-spouse-1551-20260930"
+      ],
+      "assessment": "The unsupported 1701 death is incompatible with an ordinary lifespan for the adult 1551 purchaser/1554 burgess if literal: he would be at least about 160. The full biography supplies only GEDCOM-creation text and no death evidence, so this inherited field is not a reliable exclusion. Retain as an extremely weak variant-name candidate with the serious date problem visible; do not treat 1551/1554 and 1701 as an established life.",
+      "changed_basic_fields": {},
+      "sourcepaths": [
+        "research/queue-review-2026-10-17/catalogue-profile-metadata.json#/Matthew-330",
+        "research/queue-resolution-2026-09-30/older-captures/matthew330-recheck.json",
+        "research/queue-resolution-2026-09-30/older-captures/matthew330-recheck.json"
+      ],
+      "privacy": 60,
+      "is_living": 0
+    },
+    "Todd-7464": {
+      "profile_id": "Todd-7464",
+      "status": "compatible_candidate_retained",
+      "new_concrete_conflict": false,
+      "actual_name": "Janet Todd",
+      "birth_date": "1650-00-00",
+      "birth_status": "guess",
+      "death_date": "0000-00-00",
+      "death_status": "",
+      "birth_location": "",
+      "death_location": "",
+      "review_ids": [
+        "subject-polwarth-janet-1675-janet-glasgow"
+      ],
+      "finding_ids": [
+        "opr-754-10-113"
+      ],
+      "assessment": "Estimated 1650 birth permits a woman about 25 in the 1675 Polwarth death/burial occurrence. Janet Tod/Todd and a Glasgow-associated reading remain alternatives until the original clarifies TOD / WILLIAM GLASGOW. Estimated child dates around 1680 are not inspected post 1675 births and do not exclude her.",
+      "changed_basic_fields": {},
+      "sourcepaths": [
+        "research/queue-review-2026-10-17/catalogue-profile-metadata.json#/Todd-7464",
+        "tmp/queue-review-2026-10-17/previous-reviewed-amendments/Todd-7464.json",
+        "research/queue-match-audit-2026-09-30/scottish-opr.json"
+      ],
+      "privacy": 60,
+      "is_living": 0
+    },
+    "Bruce-6113": {
+      "profile_id": "Bruce-6113",
+      "status": "compatible_candidate_retained",
+      "new_concrete_conflict": false,
+      "actual_name": "John Bruce",
+      "birth_date": "1664-11-10",
+      "birth_status": "before",
+      "death_date": "1710-03-19",
+      "death_status": "certain",
+      "birth_location": "Edinburgh, Midlothian, Scotland",
+      "death_location": "Glasgow, Lanarkshire, Scotland",
+      "review_ids": [
+        "subject-opr-marion-marriages-john-bruce",
+        "opr-4"
+      ],
+      "finding_ids": [
+        "opr-marriage-04"
+      ],
+      "assessment": "The date is marked before 10 November 1664 and the biography cites his baptism that day; it is not an exact birth. He could be at leastabout 19 in July 1684. A later 1687 Leslie marriage is not by itself exclusion of an earlier Marion marriage; the smith versus baronet identity remains a weak unresolved comparison, not a proved match.",
+      "changed_basic_fields": {},
+      "sourcepaths": [
+        "research/queue-review-2026-10-17/catalogue-profile-metadata.json#/Bruce-6113",
+        "tmp/queue-review-2026-10-17/previous-reviewed-amendments/Bruce-6113.json",
+        "research/queue-match-audit-2026-09-30/scottish-opr.json"
+      ],
+      "privacy": 60,
+      "is_living": 0
+    },
+    "Gray-27691": {
+      "profile_id": "Gray-27691",
+      "status": "compatible_candidate_retained",
+      "new_concrete_conflict": false,
+      "actual_name": "John Gray",
+      "birth_date": "1641-00-00",
+      "birth_status": "certain",
+      "death_date": "0000-00-00",
+      "death_status": "",
+      "birth_location": "Kirkcaldy, Fife, Scotland",
+      "death_location": "",
+      "review_ids": [
+        "subject-opr-marion-marriages-john-gray",
+        "opr-54"
+      ],
+      "finding_ids": [
+        "opr-marriage-54"
+      ],
+      "assessment": "1641 birth placement permits an adult about 45 at Carriden in 1686. Kirkcaldy family placement supplies no concrete contradiction and no Marion bridge.",
+      "changed_basic_fields": {},
+      "sourcepaths": [
+        "research/queue-review-2026-10-17/catalogue-profile-metadata.json#/Gray-27691",
+        "tmp/queue-review-2026-10-17/previous-reviewed-amendments/Gray-27691.json",
+        "research/queue-match-audit-2026-09-30/opr-test-date-search.json"
+      ],
+      "privacy": 60,
+      "is_living": 0
+    },
+    "Gray-32439": {
+      "profile_id": "Gray-32439",
+      "status": "compatible_candidate_retained",
+      "new_concrete_conflict": false,
+      "actual_name": "John Gray",
+      "birth_date": "1653-00-00",
+      "birth_status": "guess",
+      "death_date": "0000-00-00",
+      "death_status": "",
+      "birth_location": "Tulliallan, Fife, Scotland",
+      "death_location": "",
+      "review_ids": [
+        "subject-opr-marion-marriages-john-gray",
+        "opr-54"
+      ],
+      "finding_ids": [
+        "opr-marriage-54"
+      ],
+      "assessment": "Estimated 1653 birth permits an adult about 33 at Carriden in 1686. Tulliallan locality is compatible movement, not a contradiction; identity remains unproved.",
+      "changed_basic_fields": {},
+      "sourcepaths": [
+        "research/queue-review-2026-10-17/catalogue-profile-metadata.json#/Gray-32439",
+        "tmp/queue-review-2026-10-17/previous-reviewed-amendments/Gray-32439.json",
+        "research/queue-match-audit-2026-09-30/opr-test-date-search.json"
+      ],
+      "privacy": 60,
+      "is_living": 0
+    },
+    "Woodside-784": {
+      "profile_id": "Woodside-784",
+      "status": "compatible_candidate_retained",
+      "new_concrete_conflict": false,
+      "actual_name": "Robert Woodside",
+      "birth_date": "1655-00-00",
+      "birth_status": "guess",
+      "death_date": "0000-00-00",
+      "death_status": "",
+      "birth_location": "",
+      "death_location": "",
+      "review_ids": [
+        "subject-opr-jean-marriages-robert-woodsyd",
+        "opr-10"
+      ],
+      "finding_ids": [
+        "opr-marriage-10"
+      ],
+      "assessment": "Estimated 1655 birth permits an adult about 45 at West Kilbride in 1700. The 1676 child by Jonet White belongs to an earlier household and does not exclude a later Jean marriage. No continuing spouse sequence at 1700 is established.",
+      "changed_basic_fields": {},
+      "sourcepaths": [
+        "research/queue-review-2026-10-17/catalogue-profile-metadata.json#/Woodside-784",
+        "tmp/queue-review-2026-10-17/previous-reviewed-amendments/Woodside-784.json",
+        "research/queue-match-audit-2026-09-30/scottish-opr.json"
+      ],
+      "privacy": 60,
+      "is_living": 0
+    },
+    "Caldwell-12289": {
+      "profile_id": "Caldwell-12289",
+      "status": "compatible_candidate_retained",
+      "new_concrete_conflict": false,
+      "actual_name": "James Caldwell",
+      "birth_date": "1670-11-17",
+      "birth_status": "before",
+      "death_date": "1753-04-20",
+      "death_status": "certain",
+      "birth_location": "Glasgow, Lanarkshire, Scotland",
+      "death_location": "Somerset, Province of Maryland",
+      "review_ids": [
+        "subject-opr-isob-marriages-james-coldwell",
+        "opr-47"
+      ],
+      "finding_ids": [
+        "opr-marriage-47"
+      ],
+      "assessment": "Birth is explicitly before 17 November 1670, not an exact 1670 birth. He could therefore be an adult at the April 1684 marriage. The cited 1691/1692 children and 1753 death do not contradict that event. No Isob identity bridge is proved.",
+      "changed_basic_fields": {},
+      "sourcepaths": [
+        "research/queue-review-2026-10-17/catalogue-profile-metadata.json#/Caldwell-12289",
+        "tmp/queue-review-2026-10-17/previous-reviewed-amendments/Caldwell-12289.json",
+        "research/queue-match-audit-2026-09-30/scottish-opr.json"
+      ],
+      "privacy": 60,
+      "is_living": 0
+    },
+    "Reid-24609": {
+      "profile_id": "Reid-24609",
+      "status": "compatible_candidate_retained",
+      "new_concrete_conflict": false,
+      "actual_name": "John Reid",
+      "birth_date": "1600-00-00",
+      "birth_status": "guess",
+      "death_date": "1670-00-00",
+      "death_status": "guess",
+      "birth_location": "Edinburgh, Scotland",
+      "death_location": "Edinburgh, Scotland",
+      "review_ids": [
+        "subject-opr-marion-marriages-johne-rait",
+        "opr-39"
+      ],
+      "finding_ids": [
+        "opr-marriage-39"
+      ],
+      "assessment": "Estimated 1600 birth/1670 death permit the 1659 tailor groom, about 59. His Reid/Henderson family remains a weaker phonetic comparison; neither geography nor a different earlier spouse excludes him.",
+      "changed_basic_fields": {},
+      "sourcepaths": [
+        "research/queue-review-2026-10-17/catalogue-profile-metadata.json#/Reid-24609",
+        "tmp/queue-review-2026-10-17/previous-reviewed-amendments/Reid-24609.json",
+        "research/queue-resolution-2026-09-30/scottish-opr-captures/John_Raitt.json"
+      ],
+      "privacy": 60,
+      "is_living": 0
+    },
+    "Mitchell-54981": {
+      "profile_id": "Mitchell-54981",
+      "status": "compatible_candidate_retained",
+      "new_concrete_conflict": false,
+      "actual_name": "William Mitchell",
+      "birth_date": "1649-00-00",
+      "birth_status": "guess",
+      "death_date": "1725-00-00",
+      "death_status": "guess",
+      "birth_location": "Scotland",
+      "death_location": "Henrico, Virginia",
+      "review_ids": [
+        "subject-opr-jean-marriages-william-mitchell",
+        "opr-11"
+      ],
+      "finding_ids": [
+        "opr-marriage-11"
+      ],
+      "assessment": "Estimated 1649 birth/1725 death permit an adult merchant about 26 in 1675 Edinburgh. The daughter’s questioned Carolina parental assignment and estimated locality do not prove a competing continuing household.",
+      "changed_basic_fields": {},
+      "sourcepaths": [
+        "research/queue-review-2026-10-17/catalogue-profile-metadata.json#/Mitchell-54981",
+        "tmp/queue-review-2026-10-17/previous-reviewed-amendments/Mitchell-54981.json",
+        "research/queue-match-audit-2026-09-30/scottish-opr.json"
+      ],
+      "privacy": 60,
+      "is_living": 0
+    },
+    "Ayton-398": {
+      "profile_id": "Ayton-398",
+      "status": "compatible_candidate_retained",
+      "new_concrete_conflict": false,
+      "actual_name": "John Ayton",
+      "birth_date": "0000-00-00",
+      "birth_status": "",
+      "death_date": "1702-07-04",
+      "death_status": "after",
+      "birth_location": "",
+      "death_location": "",
+      "review_ids": [
+        "subject-opr-margaret-marriages-john-aiton",
+        "opr-38"
+      ],
+      "finding_ids": [
+        "opr-marriage-38"
+      ],
+      "assessment": "Unknown birth supplies no exclusion. Death is marked after 4 July 1702, consistent with the will date, not exact death; the 1693 groom would be alive before that point. The Durham estate family and unnamed wife remain weak comparison evidence without a Cambusnethan bridge.",
+      "changed_basic_fields": {},
+      "sourcepaths": [
+        "research/queue-review-2026-10-17/catalogue-profile-metadata.json#/Ayton-398",
+        "tmp/queue-review-2026-10-17/previous-reviewed-amendments/Ayton-398.json",
+        "research/queue-match-audit-2026-09-30/scottish-opr.json"
+      ],
+      "privacy": 60,
+      "is_living": 0
+    },
+    "Glasgow-4157": {
+      "profile_id": "Glasgow-4157",
+      "status": "compatible_candidate_retained",
+      "new_concrete_conflict": false,
+      "actual_name": "James Glasgow",
+      "birth_date": "1722-00-00",
+      "birth_status": "before",
+      "death_date": "0000-00-00",
+      "death_status": "",
+      "birth_location": "Irvine, Ayrshire, Scotland",
+      "death_location": "",
+      "review_ids": [
+        "subject-newspapers-early-glasgow-james-glasgow-prosperity"
+      ],
+      "finding_ids": [
+        "james-glasgow-prosperity-1740"
+      ],
+      "assessment": "Birth is before 1722, not an exact 1722 birth. He would be at leastabout 18 in the 1740 Prosperity notice, potentially older, so there is no age conflict with shipmaster activity. Irvine locality is a positive compatible feature, not proof of identity.",
+      "changed_basic_fields": {},
+      "sourcepaths": [
+        "research/queue-review-2026-10-17/catalogue-profile-metadata.json#/Glasgow-4157",
+        "tmp/queue-review-2026-10-17/previous-reviewed-amendments/Glasgow-4157.json",
+        "research/queue-match-audit-2026-09-30/older-drafts-searches.json"
+      ],
+      "privacy": 60,
+      "is_living": 0
+    }
+  },
+  "new_concrete_conflicts": [],
+  "inherited_conditional_conflicts": [
+    "Linton-931",
+    "Matthew-330"
+  ],
+  "counts": {
+    "checked": 18,
+    "new_concrete_conflicts": 0,
+    "compatible_retained": 16,
+    "very_weak_candidates_with_inherited_date_tension": 2
+  },
+  "limitations": [
+    "Basic profile date fields are not independent original-record proof. Birth qualifiers, baptism scope and unsupported GEDCOM estimates remain explicit. No identity, family link or date was changed."
+  ]
+}

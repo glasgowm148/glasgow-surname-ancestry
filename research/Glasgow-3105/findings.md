@@ -57,3 +57,9 @@ James’s before-1698 birth is an existing estimated adult boundary from his 171
 - [Findmypast OPR615/1 transcript: Euphan, James Glasgow and Mary Auld, Stevenston, 10 August1718](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0369064&tab=this)
 - [James Glasgow-3105: retained Kilwinning/Park household and identity alternative](https://www.wikitree.com/wiki/Glasgow-3105)
 - [Fasti vol.3 p.103: separate minister account and possible Kilwinning identity](https://electricscotland.com/bible/fastiecclesiaesc03scot.pdf)
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+A possible identification concerns James Glasgow. The 11 June 1674 Irvine inquest for Robert Hunter of Hunterstoun’s service as heir includes James Glasgow in Didup. (Shaw, Some Family Papers of the Hunters of Hunterston, printed p.62 entry89; [record](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM7-J962-6).) Printed retour extract inspected; underlying original uninspected. FamilySearch’s Linlithgow1546–1564 title is a catalogue mismatch. The extract gives James no age, trade, relatives or vital date. The identification remains uncertain.
+<!-- queue-record-integration-2026-10-17:end -->

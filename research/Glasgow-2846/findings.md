@@ -28,3 +28,16 @@ Verify the exact 1747 baptism date and register details. The pre-existing birth 
 ## Live corrections — completed
 
 Removed Rose as spouse and saved the complete sourced biography, preserving the Scottish parents and qualifying the Larne marriage citation. Public page and reopened saved wikitext verified 21 September 2026. Draft: family-correction-2026-09-21.wiki.
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### Possible John Glascow, Chester County land and committee
+John Glascow is an adjoining landholder in a West-Nottingham Township, Chester County execution-sale notice for 22½ acres, late Michael Dintz’s estate, bounded by Abraham Bunting, John Glascow and others. ([The Pennsylvania Gazette, 1773-04-28, p.1](https://www.newspapers.com/image/39401494/).) ([The Pennsylvania Gazette, 1773-05-05, p.5](https://www.newspapers.com/image/39401765/).)
+
+John Glascow is appointed to provide for distressed families of Associators in actual service by the Chester County Committee of Inspection and Observation, in a resolution dated 13 August 1776. ([The Pennsylvania Gazette, 1776-08-28, p.3](https://www.newspapers.com/image/39398635/).)
+
+The adjoining-owner and committee appointments may concern one man but do not name his parents or wife. They require an active adult in 1773 and 1776; the John who died in May 1769 cannot be that living participant.
+
+This may concern [Glasgow-2846](https://www.wikitree.com/wiki/Glasgow-2846). Chronologically compatible; no death date or Pennsylvania evidence.
+<!-- queue-record-integration-2026-10-17:end -->

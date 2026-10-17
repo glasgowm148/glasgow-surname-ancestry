@@ -33,3 +33,9 @@ The record-defined Inveresk father is Thomas Glasgow, but his identification wit
 No mother status is changed. Agnes’s index omits her mother; the existing Agnes Thomsone attachment is retained without upgrading it. Marione’s 13 December birth and 18 December christening remain separate. James Glasgow-3077’s naming-pattern placement is not documentary sibling proof. Margaret Glasgow-3050 has a conflicting William Glasgow/Bessie Howie index identification and is not used to support this reconstruction. The Weir husband is a separate comparison. No identity merge or live WikiTree change is performed.
 
 Sources already reviewed: [Scotland’s People OPR index](https://www.scotlandspeople.gov.uk/), parish 689: Agnes 27 July 1634, 10/251; Thomas 6 August 1637, 10/300; Marione 18 December 1642, 20/23. [William’s 1639 Findmypast transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4437421&tab=this), OPR 689/1, SCOT/OPR/BAP/4437421. The supplied indexes were reviewed on 10 September 2026; this batch makes no new image inspection. Saved WikiTree redirect Glasgow-2459 → Glasgow-1103 is profile-identity provenance, not proof of the adult’s historical identity. See the [complete family comparison](/branches/early-scottish-records/#inveresk-thomas-family).
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+A possible identification concerns Thomas Glasgow. The banns/marriage index records Thomas Glasgow and Gyles Spence on 24 July 1679 at Carstairs. (Scotland’s People: Old Parish Registers — banns and marriages: OPR 633/10 / 37; [record](https://www.scotlandspeople.gov.uk/).) The original parish register image has not been inspected. The combined index date does not by itself identify the precise event type. The identification remains uncertain.
+<!-- queue-record-integration-2026-10-17:end -->

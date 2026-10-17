@@ -34,3 +34,9 @@ The Surat notice records an unnamed missionary daughter born22 February, inferre
 ### Newspaper identity review — 6 October 2026
 
 - Probably born 22 Feb 1848 at Surat, India. The notice does not name the child; the identification rests on the Dictionary of Ulster Biography's list of daughters. — Belfast News-Letter 11 Apr 1848, image 390546223 ([Belfast News-Letter, 1848-04-11, p.2](https://www.newspapers.com/image/390546223/))
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+A possible identification concerns Unnamed Glasgow daughter, Surat, 1848 (Annie candidate). At Surat, East Indies, the wife of Rev. James Glasgow, Presbyterian Church in Ireland missionary, gave birth to a daughter on 22 February, reported on 11 April 1848. The child and mother are unnamed. Annie Coulson [Glasgow](https://www.wikitree.com/wiki/Glasgow-2901), whose birth is placed in India in 1848, is a possible identification of the daughter. (Belfast News-Letter, 11 April 1848, p.2, Surat birth on 22 February; [record](https://www.newspapers.com/image/390546223/).) 1848 is inferred from the contemporary notice’s February date. Neither child nor mother is named. The notice cannot alone make Annie’s exact birth date/place certain or establish Mary Wightman’s motherhood of another child. Her existing father/mother connections are not changed. The identification remains uncertain.
+<!-- queue-record-integration-2026-10-17:end -->

@@ -16,3 +16,14 @@ Compare original local tax, land, probate and institutional records, preserving 
 ## Identity assessment — newspaper candidates withdrawn, 6 October 2026
 
 - [The South-Carolina and American General Gazette, 1775-08-25, p.1](https://www.newspapers.com/image/605068969/): no longer a candidate for this profile. James Glasgow and Ezekiel Glasgow in the Charlestown, South Carolina, General Post Office letter list of 21 August 1775. James is possibly the Ayr-born James of Newberry District (Glasgow-804, arrived South Carolina 1769); the Kilwaughter James (Glasgow-1144), reported to have emigrated in late 1772 or 1773 and recorded in South Carolina on 16 November 1774 (derivative chronology), is equally compatible. Nothing links either man to the letter list, so the entry is unassigned. (Corrected 6 October 2026: an earlier note wrongly said his children were still being born in County Antrim to 1775.) No WikiTree Ezekiel fits.
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### Possible Ezekiel Glasgow, Charlestown postal addressee, 1775
+James Glasgow and Ezekiel Glasgow appear in the list of letters remaining in Charlestown’s General Post Office, dated 21 August 1775. ([The South-Carolina and American General Gazette, 1775-08-25, p.1](https://www.newspapers.com/image/605068969/).)
+
+The postal list gives neither an age nor a family relationship between James and Ezekiel. An addressee need not have been an adult or resident at the post office.
+
+This may concern [Glasgow-2844](https://www.wikitree.com/wiki/Glasgow-2844). Birth 1690, Guernsey, uncertain; death 1778, Charles County, Maryland, uncertain. The uncertain dates overlap the 1775 occurrence, but the known profile locations provide no South Carolina connection; no identity link found.
+<!-- queue-record-integration-2026-10-17:end -->

@@ -3490,6 +3490,12 @@ def _load_wikitree_evidence() -> dict:
     payload = json.loads(WIKITREE_PROFILE_EVIDENCE.read_text(encoding="utf-8"))
     if not isinstance(payload.get("profiles"), dict):
         raise ValueError(f"Invalid WikiTree evidence data: {WIKITREE_PROFILE_EVIDENCE}")
+    metadata_path = PROJECT_ROOT / "research/queue-review-2026-10-17/catalogue-profile-metadata.json"
+    if metadata_path.exists():
+        for ident, item in json.loads(metadata_path.read_text()).items():
+            if ident in payload["profiles"]:
+                capture = payload["profiles"][ident]
+                capture["profile_fields"] = {**item["profile_fields"], **capture.get("profile_fields", {})}
     return payload
 
 
@@ -3574,7 +3580,26 @@ def _build_people(records: list[dict], profiles: dict[str, dict], edges: list[li
     for key, rows in grouped.items():
         rows.sort(key=lambda row: (row.get("filter_year") if isinstance(row.get("filter_year"), (int, float)) else 9999, row.get("record_location", "")))
         profile_ids = _unique(profile_id for row in rows for profile_id in _ids(row.get("profile_id", "")))
-        metas = [profiles.get(profile_id, {}) for profile_id in profile_ids]
+        metas = []
+        for profile_id in profile_ids:
+            meta = dict(profiles.get(profile_id, {}))
+            capture = evidence_profiles.get(profile_id, {})
+            fields = capture.get("profile_fields") or {}
+            if (not meta.get("full_name") or meta.get("full_name") == profile_id) and public_capture(capture):
+                full_name = fields.get("LongName") or " ".join(filter(None, (
+                    fields.get("FirstName"), fields.get("MiddleName"),
+                    fields.get("LastNameCurrent") or fields.get("LastNameAtBirth"))))
+                if full_name:
+                    meta["full_name"] = full_name
+                    for key, field in (("first_name", "FirstName"), ("last_name_at_birth", "LastNameAtBirth"),
+                                       ("last_name_current", "LastNameCurrent"), ("gender", "Gender"),
+                                       ("birth_date", "BirthDate"), ("death_date", "DeathDate"),
+                                       ("birth_location", "BirthLocation"), ("death_location", "DeathLocation")):
+                        if not meta.get(key):
+                            meta[key] = fields.get(field) or ""
+                    for kind in ("birth", "death"):
+                        meta.setdefault(kind + "_status", (fields.get("DataStatus") or {}).get(kind.title() + "Date", ""))
+            metas.append(meta)
         row_name = (rows[0].get("person") or "").strip()
         profile_name = next((meta.get("full_name") for meta in metas if meta.get("full_name")), "")
         # Some map rows use a WikiTree ID as a temporary display name.  Do not

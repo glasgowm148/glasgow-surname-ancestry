@@ -65,3 +65,37 @@ Compare original local tax, land, probate and institutional records, preserving 
 ## Identity assessment — newspaper candidates withdrawn, 6 October 2026
 
 - [The Edinburgh Advertiser, 1789-12-11, p.8](https://www.newspapers.com/image/601822968/): no longer a candidate for this profile. Dec 1789 Mid-Lothian game-certificate list: 'Glasgow, James, Esq; Edinburgh'. Best lead is James Glasgow (Glasgow-1142), St Vincent planter and brother of Robert of Montgreenan, who died in Calder parish near Edinburgh, but this is unproved.
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### Possible James Glasco of Omagh
+The 1786 marriage column names James Glasco, Omagh publican aged 61, and Jane Murray of the same place aged 16. ([The Public Register, or, Freeman's Journal, 1786-09-05, p.3](https://www.newspapers.com/image/1050075355/).)
+
+Three 1793 Hope advertisements name James Glasco, Omagh, as a freight/passage contact; the 25 May issue adds a sailing delay. ([The Northern Star, 1793-05-11, p.1](https://www.newspapers.com/image/72021067/).) ([The Northern Star, 1793-05-18, p.4](https://www.newspapers.com/image/72021086/).) ([The Northern Star, 1793-05-25, p.1](https://www.newspapers.com/image/72021100/).)
+
+The marriage was reported by 5 September 1786; the exact ceremony day is not given. James’s reported age suggests birth about 1724–1725. The same uncommon name and Omagh business context support, without proving, continuity with the 1793 contact. The notices do not name his parents or establish a previous marriage.
+
+This may concern [Glasgow-3944](https://www.wikitree.com/wiki/Glasgow-3944). Birth before 1726 fits the reported age; the 1744 Dublin baptism names James Glasco and Cathrine. No source connections Dublin to Omagh.
+
+### Possible James Glascow, Fogs Manor postal addressee
+James Glascow, Fogs Manor, is listed among letters remaining in the Philadelphia post office. ([The Pennsylvania Gazette, 1757-04-07, p.1](https://www.newspapers.com/image/39395391/).)
+
+Fogs Manor is the printed address qualifier. A neighbouring "Phil. Co." in a separate alphabetic column is not this man’s address. The list states no occupation, so it does not identify him as the later Greenwich Packet master.
+
+This may concern [Glasgow-3944](https://www.wikitree.com/wiki/Glasgow-3944). Birth before 1726 and no recorded death permit an adult shipmaster occurrence in 1777; profile otherwise lacks corroborating details. The postal record states no occupation.
+
+### Possible James Glascow, master of Greenwich Packet
+Greenwich Packet: James Glascow, master; James Young, owner; from Philadelphia to Winyew, Carolina; with rum, bread, flour and porter. ([The Public Advertiser, 1777-05-14, p.2](https://www.newspapers.com/image/34421452/).) ([The Ipswich Journal, 1777-05-17, p.1](https://www.newspapers.com/image/396765804/).) ([The Gloucester Journal, 1777-05-19, p.1](https://www.newspapers.com/image/971522063/).)
+
+James Young is the separate vessel owner, not another form of the master’s name. Three issues repeat one voyage report. Neither the route nor the cargo establishes the master’s family or identifies him with the 1757 Fogs Manor addressee.
+
+This may concern [Glasgow-3944](https://www.wikitree.com/wiki/Glasgow-3944). Birth before 1726 and no recorded death permit an adult shipmaster occurrence in 1777; profile otherwise lacks corroborating details.
+
+### Possible James Glasgow, Edinburgh game certificate, 1789
+James Glasgow, Esq., Edinburgh, appears in the Mid-Lothian game-duty list of certificates issued since 8 September 1789. ([The Edinburgh Advertiser, 1789-12-11, p.8](https://www.newspapers.com/image/601822968/).)
+
+The list gives an Edinburgh designation but no age or relatives; it is not evidence of a military or maritime career.
+
+This may concern [Glasgow-3944](https://www.wikitree.com/wiki/Glasgow-3944). Birth before 1726, uncertain; no place or death recorded. Chronology permits an adult in 1789, but the sparse profile has no Edinburgh or certificate connection.
+<!-- queue-record-integration-2026-10-17:end -->

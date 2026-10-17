@@ -47,3 +47,23 @@ Andrew Glasgow, merchant in Kirkgate, Leith, is named as a contact where impost 
 - [The Caledonian Mercury, 1772-11-28, p.3](https://www.newspapers.com/image/395731868/): no longer a candidate for this profile. Nov 1772 Edinburgh magistrates' list of banished persons includes 'Robert Glasgow, son of Andrew Glasgow miller at Calder'. Robert is the 1767 theft convict; neither he nor a miller Andrew at Calder can be matched to a WikiTree profile.
 - [The Edinburgh Advertiser, 1779-02-09, p.7](https://www.newspapers.com/image/601805253/): no longer a candidate for this profile. Feb 1779 Leith resolution against repeal of the penal laws: Andrew Glasgow signs as preses for the Porters (the three new companies of porters in Leith and St Anthony's). No WikiTree Andrew can be fixed.
 - [The Edinburgh Advertiser, 1790-12-07, p.3](https://www.newspapers.com/image/601818940/): no longer a candidate for this profile. Dec 1790 liquor-impost notice: warrants obtainable from Andrew Glasgow, merchant, Kirkgate, Leith. No WikiTree Andrew can be fixed.
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### Possible Andrew Glasgow, Leith society and merchant notices, 1779–1790
+Andrew Glasgow is a named signatory in a Leith and St Anthony’s journeymen-society notice dated 3 February 1779, under the grouped Preses to annotation. ([The Edinburgh Advertiser, 1779-02-09, p.7](https://www.newspapers.com/image/601805253/).)
+
+Andrew Glasgow, merchant in Kirkgate, Leith, is named as a contact where impost warrants may be obtained. ([The Edinburgh Advertiser, 1790-12-07, p.3](https://www.newspapers.com/image/601818940/).) ([The Edinburgh Advertiser, 1790-12-10, p.2](https://www.newspapers.com/image/601819059/).)
+
+The grouped annotation "Preses to" does not independently identify Andrew’s society or trade. The Leith name and place make the 1779 and 1790 occurrences compatible, without proving that they concern the same man. Being a contact for warrants does not establish that he held a tax office.
+
+This may concern [Glasgow-3052](https://www.wikitree.com/wiki/Glasgow-3052). Uncertain 1720 Midlothian birth is compatible; no Leith society or signature connection.
+
+### Possible Robert Glasgow and father Andrew, miller at Calder, 1772
+Robert Glasgow is listed as son of Andrew Glasgow, miller at Calder, in an Edinburgh magistrates’ notice dated 28 November 1772. ([The Caledonian Mercury, 1772-11-28, p.3](https://www.newspapers.com/image/395731868/).) ([The Caledonian Mercury, 1772-11-30, p.3](https://www.newspapers.com/image/395732022/).)
+
+The notice directly identifies its Robert as the son of Andrew, miller at Calder. It does not distinguish East from West Calder or identify the mother. The two newspaper issues repeat the same family statement, not independent evidence of the later profile identities.
+
+This may concern [Glasgow-3052](https://www.wikitree.com/wiki/Glasgow-3052). For the named father Andrew, The recorded dates give uncertain birth in 1720 at Kirknewton/East Calder, allowing adult fatherhood in 1772. The account has no recorded miller occupation or proved relationship to the newspaper Robert; its sibling relationship to Glasgow-1445 is tree-derived only.
+<!-- queue-record-integration-2026-10-17:end -->

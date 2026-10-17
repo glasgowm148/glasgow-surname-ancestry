@@ -63,3 +63,31 @@ Sources: [The Irishman, 3 November 1820, p.1](https://www.newspapers.com/image/6
 [Full record account and comparison](/research/subjects/william-glasgow-irish-newspapers/#belfast-grocer). This assessment proposes no live WikiTree edit.
 
 <!-- queue-identity-review-2026-10-17:end -->
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+A possible identification concerns William Glasgow, uncle in the Cookstown mill case. Benjamin’s evidence says “witness’s uncle, Mr. Glasgow, sen.”. William is the separate case-context identification of the senior man, distinct from co-plaintiff William; extending the uncle relationship to that co-plaintiff depends on the qualified brother inference. (Belfast News-Letter, 22 July 1858, p.3; [record](https://www.newspapers.com/image/390574459/).) The identification remains uncertain.
+
+A possible identification concerns William Glasgow, uncle in the Cookstown mill case. William Glasgow of Cookstown retired from business and received a silver ewer and cake basket at the Imperial Hotel, Belfast, on 1 January 1856. This merchant could be the later uncle; the retirement report does not state the nephews or an age. (Belfast News-Letter, 4 January 1856, p.1; [record](https://www.newspapers.com/image/390544967/).) The identification remains uncertain.
+
+A possible identification concerns William Glasgow, uncle in the Cookstown mill case. The named witness Benjamin Glasgow identifies the late Robert Glasgow as his father, says he managed his father’s mill from 1850, and dates Robert’s death to 1856. Benjamin’s evidence describes a companion as “witness’s uncle, Mr. Glasgow, sen.”; identification as William belongs to the separate case context, not this quotation. (Belfast News-Letter, 22 July 1858, p.3, Benjamin’s sworn testimony; [record](https://www.newspapers.com/image/390574459/).) Certain documentary father–son relationship; identification of Robert with [Glasgow-2656](https://www.wikitree.com/wiki/Glasgow-2656) or [Glasgow-3941](https://www.wikitree.com/wiki/Glasgow-3941) remains qualified. Counsel’s reference to Robert’s sons supports a qualified brother inference for co-plaintiff William. The uncle’s paternal or maternal side and all mothers are unstated. No parents are established for [John Glasgow](https://www.wikitree.com/wiki/Glasgow-2058). The identification remains uncertain.
+
+A possible identification concerns William Glasgow, uncle in the Cookstown mill case. Wm. Glasgow appears among Cookstown collectors and again among Cookstown donors in the 10-shillings-each list for the new Claggan Presbyterian Church, opened on 15 October 1846. (Belfast News-Letter, 10 November 1846, p.4, Claggan Presbyterian Church opening; [record](https://www.newspapers.com/image/390561508/).) Cookstown is supplied by the shared group punctuation; the separate Inishrush entry concerns James M’Caw. No age, trade or kin is stated. The occurrence is unassigned among the same-name Cookstown accounts and does not identify the later uncle or younger mill partner. The identification remains uncertain.
+
+### William Glasgow’s Belfast grocery business, 1820
+
+In 1820 William Glasgow advertised that he had moved his shop and stores from Rosemary Street to 34 Smith Street, Belfast. The advertisement describes a commercial address; it supplies no age or family and does not establish a birthplace. ([The Irishman, 3 November 1820, p.1](https://www.newspapers.com/image/61259418/).) ([The Irishman, 16 June 1820, p.3](https://www.newspapers.com/image/61258642/).) ([The Irishman, 23 June 1820, p. 3, reprint of 15 June Belfast banks notice](https://www.newspapers.com/image/61258687/).)
+
+The retired Cookstown merchant’s estimated 1796 birth is compatible with an adult grocer in 1820. The same trade makes an earlier Belfast period possible, but neither residence continuity nor a family clause establishes identity. The later Cookstown senior witness is also not proved by this advertisement.
+
+### Senior William Glasgow and the mill family
+
+A report describes the retirement of William Glasgow of Cookstown on 1 January 1856 and a presentation by commercial friends at the Imperial Hotel, Belfast. In the 1858 mill case Benjamin Glasgow’s evidence describes his companion as witness’s uncle, Mr. Glasgow, senior; identification as William belongs to the separate case context. Counsel’s reference to Robert’s sons supports, but does not directly state, a brother relationship between the two co-plaintiffs. A November 1846 Claggan church collection names Wm. Glasgow among Cookstown collectors and donors; it does not distinguish the local namesakes. ([Belfast News-Letter, 22 July 1858, p.3, Benjamin’s sworn testimony](https://www.newspapers.com/image/390574459/).) ([Belfast News-Letter, 4 January 1856, p.1](https://www.newspapers.com/image/390544967/).) ([Belfast News-Letter, 10 November 1846, p.4, Claggan Presbyterian Church opening](https://www.newspapers.com/image/390561508/).)
+
+The retired-merchant occupation, locality and age in the 1883 death return make the retirement identification strong and the uncle identification compatible. The uncle’s paternal or maternal side is unstated. [William Glasgow of Montober](https://www.wikitree.com/wiki/Glasgow-585) remains a weaker candidate. The 1846 collection gives no kinship or address distinguishing the local Williams.
+
+### Corrected interpretation
+
+In the 1858 Cookstown mill dispute, Benjamin Glasgow described a companion as “witness’s uncle, Mr. Glasgow, sen.”; identification as William belongs to the separate case context. Extending the uncle relationship to co-plaintiff William depends on the qualified brother inference. The original names Benjamin as witness; it does not directly call the senior man uncle of both plaintiffs.
+<!-- queue-record-integration-2026-10-17:end -->

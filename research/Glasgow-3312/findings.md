@@ -79,3 +79,31 @@ Inspect Glasgow partnership papers, Nethermains/Kilwinning titles, court-process
 - Lands of Nether Mains, Littleward, Fence and Oxenward 'which belonged to George Glasgow of Nether Mains' offered by judicial sale under the Lords of Council and Session, June-Dec 1777 (several adjournments). — The Caledonian Mercury, 23 Jun, 26 Jul, 24 Nov, 13 Dec 1777 ([The Caledonian Mercury, 1768-06-04, p.3](https://www.newspapers.com/image/395710454/))
 - Review needed: recorded death date 27 Jun 1768 matches the confirmation date of his wife Margaret Buchanan's testament, in which he is described as her living husband ('wife of George Glasgow, of Nethermains'); the death date should not rest on that entry. — Commissariot Record of Glasgow, Register of Testaments (SRS 7), Buchanan, Margaret, 27 June 1768 (https://archive.org/details/scottishrecordso07scotuoft/page/74/mode/2up?q=Nethermains) ([The Caledonian Mercury, 1768-06-04, p.3](https://www.newspapers.com/image/395710454/))
 - Lands of Nether Mains, Littleward, Fence and Oxenward 'which belonged to George Glasgow of Nether Mains' were offered by judicial sale under the Lords of Council and Session from June to December 1777, with several adjournments. — The Caledonian Mercury, 23 Jun, 26 Jul, 24 Nov, 13 Dec 1777 (https://www.newspapers.com/image/395699045/) ([The Caledonian Mercury, 1777-12-13, p.3](https://www.newspapers.com/image/395699045/))
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### Possible George Glasgow, Glasgow merchant and Nethermains notices, 1767–1777
+A partnership notice for the Incle Manufactory in Glasgow states that George Glasgow, merchant there, had previously given up management; future business is to be carried on under Archibald Ingram, Thomas Dunmoor and Co. ([The Caledonian Mercury, 1767-12-30, p.3](https://www.newspapers.com/image/395728376/).)
+
+A private-sale advertisement describes Nether-Mains, Nethermains Dean, Nethermains Niven and other lands at Kilwinning as belonging to George Glasgow, merchant in Glasgow, offering them by roup at James Shaw’s, Irvine, on the second Tuesday of July. ([The Caledonian Mercury, 1768-06-04, p.3](https://www.newspapers.com/image/395710454/).) ([The Caledonian Mercury, 1768-06-06, p.3](https://www.newspapers.com/image/395710860/).) ([The Caledonian Mercury, 1768-06-08, p.4](https://www.newspapers.com/image/395711931/).) ([The Caledonian Mercury, 1768-06-11, p.4](https://www.newspapers.com/image/395712064/).) ([The Caledonian Mercury, 1768-06-15, p.4](https://www.newspapers.com/image/395712307/).) ([The Caledonian Mercury, 1768-06-18, p.4](https://www.newspapers.com/image/395712406/).) ([The Caledonian Mercury, 1768-06-20, p.4](https://www.newspapers.com/image/395712488/).) ([The Caledonian Mercury, 1768-06-25, p.4](https://www.newspapers.com/image/395712778/).) ([The Caledonian Mercury, 1768-06-29, p.4](https://www.newspapers.com/image/395713367/).) ([The Caledonian Mercury, 1768-07-02, p.4](https://www.newspapers.com/image/395713587/).) ([The Caledonian Mercury, 1768-07-04, p.4](https://www.newspapers.com/image/395713737/).) ([The Caledonian Mercury, 1768-07-06, p.4](https://www.newspapers.com/image/395713876/).) ([The Caledonian Mercury, 1768-07-11, p.4](https://www.newspapers.com/image/395714417/).)
+
+A notice concerning the sale of Nether Mains and other subjects belonging to George Glasgow announces an adjournment, with a future paper to give the new sale day. ([The Caledonian Mercury, 1777-06-23, p.3](https://www.newspapers.com/image/395682715/).)
+
+A judicial-sale notice by adjournment, under authority of the Lords of Council and Session, advertises Nether Mains and other lands which belonged to George Glasgow for 8 August next. ([The Caledonian Mercury, 1777-07-26, p.3](https://www.newspapers.com/image/395686198/).)
+
+An adjourned judicial-sale notice names George Glasgow of Nethermains as former holder of Littleward, Fence and Oxenward parcels offered for 28 November 1777. ([The Caledonian Mercury, 1777-11-24, p.4](https://www.newspapers.com/image/395696322/).)
+
+A judicial-sale notice offers Oxenward near Kilwinning, which belonged to George Glasgow of Nether Mains, for 19 December 1777. ([The Caledonian Mercury, 1777-12-13, p.3](https://www.newspapers.com/image/395699045/).)
+
+These notices describe successive proposed sales and adjournments, not a proved transfer, bankruptcy or death. The later wording "belonged" permits a deceased former owner. The Kilwinning landholder and Glasgow merchant are treated as one provisional subject; no identification with the Manchester inventor or artillery officers follows.
+
+This may concern [Glasgow-3312](https://www.wikitree.com/wiki/Glasgow-3312). Exact 19 July 1729 Kilwinning birth and recorded 27 June 1768 death fit early 1762/1767/1768 appearances by chronology/locality. Later property reprints can be posthumous; no individual identifier joins this profile to the advertiser. Kilwinning/Irvine locality is compatible, not a deed or merchant identification.
+
+### Possible George Glasgow, Manchester cloth patent, 1762
+George Glasgow, of Manchester, is reported granted royal letters patent for fourteen years for the sole manufacture and vending of his cloth imitating women’s stitched stays. ([The Caledonian Mercury, 1762-07-24, p.3](https://www.newspapers.com/image/395740363/).) ([The Leeds Intelligencer and Yorkshire General Advertiser, 1762-07-20, p.2](https://www.newspapers.com/image/404028614/).) ([The Newcastle Weekly Courant, 1762-07-24, p.1](https://www.newspapers.com/image/404022055/).)
+
+The report supplies Manchester and the invention, but no age, family or link to the Nethermains merchant. It does not independently establish a grant day or subsequent manufacture.
+
+This may concern [Glasgow-3312](https://www.wikitree.com/wiki/Glasgow-3312). Exact 19 July 1729 Kilwinning birth and recorded 27 June 1768 death fit early 1762/1767/1768 appearances by chronology/locality. Later property reprints can be posthumous; no individual identifier joins this profile to the advertiser.
+<!-- queue-record-integration-2026-10-17:end -->

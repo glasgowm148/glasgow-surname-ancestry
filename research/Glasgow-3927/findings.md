@@ -199,3 +199,45 @@ A request by parishioners of St Andrew’s parish in Dublin, including St Mark�
 The source row on the Mulholland marriage gave Lavina Glasgow's birth as 22 January 1806, from the Hiltner family compilation. The original Glasgow family-Bible register image ([register](https://hiltner.com/mckeown/histories/8479.jpeg)), inspected on 29 August 2026 and tabulated in `../Glasgow-822/findings.md`, gives **21 June 1806** for Lavinia (`Glasgow-3930`). The register reading is preferred and the row has been corrected; the 22 January date is not supported by an original source. The identification of her husband is unaffected.
 
 Recorded in `research/Glasgow-3927/1831_Ireland_Inishrush_John_Glasco.md` (about 21 July 2026), compared with the 29 August 2026 register reading in `research/Glasgow-822/findings.md`; carried into this file on 7 October 2026.
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+A possible identification concerns John Glasgow, Loughinsholin freeholder, 1831. The 16 August 1831 declaration lists Robert Glasgow and John Glasgow among freeholders of the barony printed Loughinshollen (modern Loughinsholin), County Londonderry, supporting Sir Robert Bateson. They are co-signatories; no kinship, occupation, age or individual townland is given. Castledawson and 4 July 1831 refer to the opposing meeting discussed in the declaration, not their homes or their signing date. (Belfast News-Letter, 16 August 1831, p.3, Loughinshollen freeholders’ declaration; [record](https://www.newspapers.com/image/390548642/).) [Glasgow-2058](https://www.wikitree.com/wiki/Glasgow-2058), [Glasgow-3927](https://www.wikitree.com/wiki/Glasgow-3927) (an indexed freeholder with uncertain locality), [Glasgow-2990](https://www.wikitree.com/wiki/Glasgow-2990) and [Glasgow-4090](https://www.wikitree.com/wiki/Glasgow-4090) remain adult regional comparisons. No same-name co-signature establishes descent, brotherhood or identity with the Cookstown merchant. The declaration concerns a holding in the barony, not necessarily residence there. The identification remains uncertain.
+
+### Possible John Glasco in Irish rosters, 1798–1799
+John Glasco is PRESENT at the Black-Rock Association meeting 8 May 1798. ([The Public Register, or, Freeman's Journal, 1798-05-29, p.4](https://www.newspapers.com/image/1214061848/).)
+
+John Glasco appears in the 24 September 1799 roster, continued beneath an earlier COUNTY OF LONDONDERRY heading. ([The Public Register, or, Freeman's Journal, 1799-09-24, p.2](https://www.newspapers.com/image/1214179229/).)
+
+The two entries retain separate identities: the 1798 Black-Rock attendee is not proved to be the 1799 County Londonderry roster bearer. A shared surname and county do not establish relatives.
+
+This may concern [Glasgow-3927](https://www.wikitree.com/wiki/Glasgow-3927). Possible 1799 county contemporary at Inishrush; no roster link.
+
+### Possible John Glasgow, Allegheny Township list in Huntingdon County context, 1799
+John Glasgow is named under Allegheny Township in a township-grouped list accompanying Huntingdon County election-meeting material. ([The North American (Philadelphia), 1799-09-10, p.3](https://www.newspapers.com/image/587806805/).) ([Pennsylvania Weekly Telegraph (Oracle of Dauphin and Harrisburgh Advertiser), 1799-09-18, p.2](https://www.newspapers.com/image/1140587856/).)
+
+The two issues repeat one list. Allegheny Township was then in Huntingdon County and later in Cambria County, so the county labels are compatible. The list does not establish a father-and-son relationship with a 1790 household head.
+
+This may concern [Glasgow-3927](https://www.wikitree.com/wiki/Glasgow-3927). Estimated c.1767 Inishrush birth permits the period, but the Irish record context supplies no Carlisle, Kirkliston or Allegheny identity/migration connection; weak name-only comparison.
+
+### Possible John Glasgow, Carlisle postal addressee, 1793
+John Glasgow, care of William Brown, Esq., is an addressee in the Carlisle post-office list headed 1 January 1793. ([The Carlisle Gazette, and the Western Repository of Knowledge, 1793-03-06, p.1](https://www.newspapers.com/image/1033763029/).)
+
+"Care of William Brown, Esq." is the address qualification, not evidence of kinship. A postal entry alone does not establish that its addressee was alive on the list date.
+
+This may concern [Glasgow-3927](https://www.wikitree.com/wiki/Glasgow-3927). Estimated c.1767 Inishrush birth permits the period, but the Irish record context supplies no Carlisle, Kirkliston or Allegheny identity/migration connection; weak name-only comparison.
+
+### Possible John Glasgow, Millrig labourer and Kirkliston subscription, 1798
+John Glasgow, labourer, Millrig, is named among voluntary subscriptions in the parish of Kirkliston. ([The Edinburgh Advertiser, 1798-07-20, p.6](https://www.newspapers.com/image/601860386/).)
+
+This is a named labourer at Millrig in Kirkliston parish. It does not connect him to the Irish Johns, the Carlisle addressee or the Allegheny list.
+
+This may concern [Glasgow-3927](https://www.wikitree.com/wiki/Glasgow-3927). Estimated c.1767 Inishrush birth permits the period, but the Irish record context supplies no Carlisle, Kirkliston or Allegheny identity/migration connection; weak name-only comparison.
+
+### Dublin parish appeal, 1838
+
+J. Glasco signed a request by parishioners of St Andrew’s, including St Mark’s, St Peter’s and St Anne’s, for a meeting at the Corn Exchange Rooms at 3 p.m. on 27 November 1838 to arrange collection for O’Connell’s Annuity. The 27 November issue reprints the same planned event; it is not a second act. The notice supplies no expanded forename, age, occupation, family, residence or proof of attendance. ([Freeman's Journal and Daily Commercial Advertiser, 1838-11-26, p.1](https://www.newspapers.com/image/1050145535/).) ([Freeman's Journal and Daily Commercial Advertiser, 1838-11-27, p.1](https://www.newspapers.com/image/1050145680/).)
+
+The 1831 Inishrush John Glasco is only an initial-and-period comparison, not a proved Dublin signatory. His proposed identification with [John Glasgow](https://www.wikitree.com/wiki/Glasgow-822) would introduce Ohio residence from 1833, materially weakening an 1838 Dublin assignment. The printed J. is not expanded as fact.
+<!-- queue-record-integration-2026-10-17:end -->

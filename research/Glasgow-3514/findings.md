@@ -30,3 +30,14 @@ Add the record as supporting evidence while preserving all existing sources and 
 Original image not inspected for this batch. The combined collection’s date does not automatically establish a birthday. Names alone do not uniquely identify attached parents or connect a child with a later adult. An omitted parent or indexed gender U remains unspecified in this source.
 
 **Next action:** No additional WikiTree update from this row; preserve any existing pending work.
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### Possible A. Glascow, 1794 arrival
+A. Glascow from Glasgow is named with H. Jurriens from Riga and J. Mark from Königsbergen in a shipping-arrival report for 24 June 1794, under the Rotterdam dateline of 25 June. ([Rotterdamse courant, 26 June 1794, p.2](https://www.newspapers.com/image/1335425007/).)
+
+Only the initial A. is given. The list probably names a shipmaster, but it does not state a vessel, full forename, sex, family or personal origin. Glasgow is the departure port. P. L. Markwaarden in the following entry is a different person.
+
+This may concern [Glasgow-3514](https://www.wikitree.com/wiki/Glasgow-3514). Would be about 99 in 1794, an exceptionally poor age fit for a likely master; the known account has no death date, so this is a strong plausibility concern rather than a source-proved death conflict. No maritime evidence.
+<!-- queue-record-integration-2026-10-17:end -->

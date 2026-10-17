@@ -105,7 +105,7 @@ def page_shell(person, dossier, findings, links):
             rid = relative.get("id", "")
             if not rid:
                 continue
-            href = f'people/{links[rid]}.html' if rid in links else catalogue.WIKITREE_URL + rid
+            href = f'/people/{links[rid]}.html' if rid in links else catalogue.WIKITREE_URL + rid
             state = relative.get("status") or relative.get("tree_status") or "unmarked"
             shown = relative.get("tree_status_label") or relative.get("status_label")
             status = evidence_labels.normalise_status_label(state, shown) if shown else evidence_labels.label(state)
@@ -122,13 +122,16 @@ def page_shell(person, dossier, findings, links):
 <div class="v3-inline-links"><a href="#research">Read the full research →</a></div></section></div>
 <section class="v3-person-family" id="family"><h2>The family</h2>{family_html}<p class="v3-family-note">Recorded attachments are distinguished from documentary proof in the research assessment.</p></section></div>
 <section class="r-section" id="research"><span id="research-stack"></span><h2>The research behind the story</h2></section>
-<section class="r-section" id="research-tools"><h2>Research tools and original material</h2><div class="r-actions"><a href="people/{slug}.json">Structured person data</a><a href="{escape(destination, quote=True)}">{destination_label}</a></div></section>'''
+<section class="r-section" id="research-tools"><h2>Research tools and original material</h2><div class="r-actions"><a href="/people/{slug}.json">Structured person data</a><a href="{escape(destination, quote=True)}">{destination_label}</a></div></section>'''
     main.append(BeautifulSoup(content, "html.parser"))
     # Remove the template's subject-specific breadcrumb text outside the main.
     for node in soup.find_all(string=lambda text: text and "William Glasgow" in text):
         if node.find_parent("main") is None and node.find_parent("script") is None:
             node.replace_with(str(node).replace("William Glasgow", name))
-    return refresh_person(soup, findings, None, links)
+    update = dossier.get("wikitree_update")
+    if update:
+        update = {**update, "profile_url": update.get("profile_url") or catalogue.WIKITREE_URL + ident}
+    return refresh_person(soup, findings, update, links)
 
 
 def publish_context(people, dossiers):
@@ -184,10 +187,13 @@ def publish_context(people, dossiers):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--refresh", action="store_true", help="Refresh explicitly requested reviewed cases, preserving their prepared amendments")
     parser.add_argument("profiles", nargs="*", help="Limit materialization and shared context updates to these reviewed profile IDs")
     parser.add_argument("--profiles", dest="requested_profiles", nargs="+", help="Reviewed canonical profile IDs to materialize")
     args = parser.parse_args()
     args.profiles.extend(args.requested_profiles or [])
+    if args.refresh and not args.profiles:
+        raise ValueError("--refresh requires explicit reviewed profile IDs")
     manifest = read_json(MANIFEST)
     cases = manifest["cases"]
     amendments = reviewed_amendments(ROOT)
@@ -227,12 +233,18 @@ def main():
     for person in people:
         slug = person["catalogue_id"]
         ident = person["profile_ids"][0] if person["profile_ids"] else slug
-        if slug in existing:
+        if slug in existing and not args.refresh:
             continue
         capture = evidence["profiles"].get(ident, {})
         if person["profile_ids"] and int(capture.get("privacy") or capture.get("profile_fields", {}).get("Privacy") or 0) < 50:
             raise ValueError("No public capture for " + ident)
         dossier = dossiers[slug]
+        previous_row = next((row for row in search if row["id"] == slug), {})
+        previous_dossier_path = WEB / f"people/{slug}.json"
+        if args.refresh and previous_dossier_path.exists():
+            previous_dossier = read_json(previous_dossier_path)
+            if previous_dossier.get("wikitree_update"):
+                dossier["wikitree_update"] = previous_dossier["wikitree_update"]
         source_ids = [key for key, value in cases.items() if value.get("profile_id") == ident and value["status"] in {"include", "include_record"}]
         findings = catalogue._load_research_findings(list(dict.fromkeys([ident, *source_ids])))
         dossier["research_findings"] = findings
@@ -265,6 +277,11 @@ def main():
             row.update(has_profile=False, has_wikitree_destination=False, missing_profile=True,
                        profile_work_status="identity_hold", uncertain_identity=True,
                        evidence=["Historical baptism; WikiTree identity unresolved"], record_count=len(person["records"]))
+        if previous_row:
+            for field, value in previous_row.items():
+                if field.startswith("wikitree_update_") or field == "needs_wikitree_update":
+                    row[field] = value
+            search = [value for value in search if value["id"] != slug]
         search.append(row)
         created.append(ident)
         created_people.append(person)
@@ -272,6 +289,9 @@ def main():
     write_json(WEB / "data/catalogue-search-index.json", search)
     (WEB / "data/people-index.js").write_text("window.glasgowPeopleIndex=" + json.dumps(search, ensure_ascii=False, separators=(",", ":")) + ";\n")
     combined = read_json(WEB / "data/people.json")
+    if args.refresh:
+        replaced = {p["catalogue_id"] for p in created_people}
+        combined["people"] = [p for p in combined["people"] if p["catalogue_id"] not in replaced]
     known = {p["catalogue_id"] for p in combined["people"]}
     combined["people"].extend(p for p in people if p["catalogue_id"] not in known)
     combined["count"] = len(combined["people"])

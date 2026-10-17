@@ -98,3 +98,9 @@ The existing 137-profile pre-1850 working child side is rerouted from James of M
 Sources reused: [NRS GD39/5/59, 9 February 1571: James elder of Corsinkell and sons James and John; accepted archival catalogue abstract, original deed uninspected](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD39%2F5%2F59); [Sanderson, The People of Sixteenth Century Ayrshire (1987), teind lists 1559–60, pp.331 and333: Corsankell and Kilwinning households; maintained source review reused](https://aanhs.org/wp-content/uploads/2018/05/people-of-ayrshire.pdf); [Scott, Fasti Ecclesiae Scoticanae vol. 3, p.103: the later Kilbirnie minister’s Ayrshire career; establishes setting, not ancestry](https://electricscotland.com/bible/fastiecclesiaesc03scot.pdf).
 
 [Full family review and alternatives](/branches/research-corsankell-household/#chapter-ayrshire-hugh-preferred-family).
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+A possible identification concerns John Glasgow in Rashlie, Kilbride, 1643. John Glasgow was listed as “in Rashlie, parish of Kilbride” in a printed index to Glasgow Commissary Court testaments, dated 17 April 1643. (FamilySearch, *Glasgow. Wills 1547–1800*, item #007960708, image 112, printed index p. 196, entry for John Glasgow in Rashlie, parish of Kilbride, 17 April 1643, reference CC9/7/28; https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS8K-D98V?view=fullText&keywords=Glasgow&searchForm=advanced&lang=en&groupId=M97N-2NT. The image is of the printed index, not the underlying testament.) The identification remains uncertain.
+<!-- queue-record-integration-2026-10-17:end -->

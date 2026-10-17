@@ -76,6 +76,7 @@ The deed does not give her birth date. No compatible profile survived the docume
         self.assertTrue((self.root / f"www/people/{self.slug}.network.json").exists())
         soup = BeautifulSoup((self.root / f"www/people/{self.slug}.html").read_text(), "html.parser")
         self.assertEqual(soup.select_one("#profile-update-draft").get_text(), self.draft)
+        self.assertIsNotNone(soup.select_one(f'a[href="/people/{self.slug}.json"]'))
         self.assertIn("Create a new WikiTree profile", soup.get_text())
         self.assertIn("John Smith was a merchant", soup.get_text())
         self.assertIn(self.url, [link["href"] for link in soup.select("a[href]")])

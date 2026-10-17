@@ -38,3 +38,13 @@ this handoff remains to be transferred.
 Source: Old Parish Registers, banns and marriages; exact surname Glasgow through 1700, 55 supplied results. Original images not inspected for this batch; combined index dates do not by themselves establish ceremony dates.
 
 This batch adds supporting evidence or a qualified comparison only; it raises no additional WikiTree amendment for this profile.
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+A possible identification concerns Marion Glasgow. The banns/marriage index records Marion Glasgow and John Gray on 30 September 1686 at Carriden. (Scotland’s People: Old Parish Registers — banns and marriages: OPR 664/10 / 109; [record](https://www.scotlandspeople.gov.uk/).) The original parish register image has not been inspected. The combined index date does not by itself identify the precise event type. The identification remains uncertain.
+
+A possible identification concerns Marion Glasgow. The printed Edinburgh marriage register records Marione Glasgow with John Rait, tailor, on 28 June 1659. (Scotland’s People: Old Parish Registers — banns and marriages: OPR 685 / 1/440 / 48; [record](https://www.scotlandspeople.gov.uk/); Henry Paton, ed., Register of Marriages for the Parish of Edinburgh, 1595–1700 (Scottish Record Society, 1905), printed pp.267 and 560; PDF pp.277 and 570; [record](https://electricscotland.com/history/records/scottishrecordso16scotuoft.pdf#page=570); Same edition, unnumbered Prefatory Note, PDF p.9; [record](https://electricscotland.com/history/records/scottishrecordso16scotuoft.pdf#page=9).) The printed transcription and its preface were visually inspected on 30 September 2026; original parish image unchecked. The identification remains uncertain.
+
+A possible identification concerns Marion Glasgow. The printed Edinburgh marriage register records Marion Glasgow with John Bruce, smith, on 4 July 1684. (Scotland’s People: Old Parish Registers — banns and marriages: OPR 685 / 1/440 / 251; [record](https://www.scotlandspeople.gov.uk/); Henry Paton, ed., Register of Marriages for the Parish of Edinburgh, 1595–1700 (Scottish Record Society, 1905), printed pp.267 and 96; PDF pp.277 and 106; [record](https://electricscotland.com/history/records/scottishrecordso16scotuoft.pdf#page=106); Same edition, unnumbered Prefatory Note, PDF p.9; [record](https://electricscotland.com/history/records/scottishrecordso16scotuoft.pdf#page=9).) The printed transcription and its preface were visually inspected on 30 September 2026; original parish image unchecked. The identification remains uncertain.
+<!-- queue-record-integration-2026-10-17:end -->

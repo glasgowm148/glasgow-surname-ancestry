@@ -33,3 +33,9 @@ Profile prose and trees remain leads; inspect the cited record before treating a
 ## Identity assessment — newspaper candidates withdrawn, 6 October 2026
 
 - [The Times, 1799-05-02, p.3](https://www.newspapers.com/image/32820363/): no longer a candidate for this profile. 1799 Bow Street report: John Glasco, Esq., claiming to be an officer on the Staff, was committed for wounding patrolman John Smith after the play at Covent Garden. He cannot be identified; no WikiTree candidate has any London or army-staff record.
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+A possible identification concerns John Glasco, charged at Bow Street. John Glasco, Esq., said he was an officer on the Staff and was brought before the Bow Street magistrate charged with wounding patrolman John Smith. The reported incident occurred on Tuesday night after the play in Covent Garden; Glasco was committed. (The Times, 2 May 1799, p.3, Public Office, Bow Street; [record](https://www.newspapers.com/image/32820363/).) Allegation and committal are not conviction. Military status is self-reported and unconfirmed; no Irish origin or kin is stated. The identification remains uncertain.
+<!-- queue-record-integration-2026-10-17:end -->

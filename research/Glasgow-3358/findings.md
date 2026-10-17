@@ -45,3 +45,11 @@ Original image not inspected for this batch. The combined collection’s date do
 The Channelkirk entry of 17 September 1671 (Effie Glasgow and Alexander Hutchesone) stays a separate register event, provisionally grouped with this couple; the tailor's trade is not carried over to it. Hutchieson-4 is excluded as the groom: his nineteenth-century wife and children of 1865 and 1867 belong to a much later family. Rev. Alexander Hutcheson-361 is kept as a lower-ranked groom candidate; his 1653 divinity degree and ministry differ from the recorded tailor. Glasgow-3358 (baptised Edinburgh 1651, daughter of Robert Glasgow and Eupham Lorimer in the index) remains a compatible but **unproved** identification for the bride; Glasgow-1167 is the other candidate. No relationship changes.
 
 Recorded in `research/queue-resolution-2026-09-30/scottish-opr.json` (30 September 2026); carried into this file on 7 October 2026.
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+A possible identification concerns Eupham Glasgow and Alexander Hutcheson. The parish index records Eupham Glasgow with Alexander Hutcheson at Edinburgh on 8 December 1671. (Scotland’s People, Old Parish Registers, banns and marriages, OPR 685 / 1/440 / 129, 1671-12-08, Edinburgh; [record](https://www.scotlandspeople.gov.uk/).) The index combines banns and marriage entries; the original register is required to establish the event type. The identification remains uncertain.
+
+A possible identification concerns Effie Glasgow and Alexander Hutcshesone. The parish index records Effie Glasgow with Alexander Hutcshesone at Channelkirk on 17 September 1671. (Scotland’s People, Old Parish Registers, banns and marriages, OPR 729/10 / 230, 1671-09-17, Channelkirk; [record](https://www.scotlandspeople.gov.uk/).) The index combines banns and marriage entries; the original register is required to establish the event type. The identification remains uncertain.
+<!-- queue-record-integration-2026-10-17:end -->

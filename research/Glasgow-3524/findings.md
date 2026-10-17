@@ -26,3 +26,14 @@ Sources: [The Times, 1795-07-14, p.1](https://www.newspapers.com/image/32751669/
 [Full record account and comparison](/research/subjects/newspapers-early-glasgow/#samuel-glasgow-london-amicable). This assessment proposes no live WikiTree edit.
 
 <!-- queue-identity-review-2026-10-17:end -->
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### Possible Samuel Glasgow, London pen-cutter
+Samuel Glasgow, pen-cutter, formerly of Shaftesbury Place, Aldersgate Street, and afterwards Webber Street, Surrey Road, is item 70 in an Amicable Society notice concerning deaths in 1794 (Old Style). ([The Times, 1795-07-14, p.1](https://www.newspapers.com/image/32751669/).) ([The Times, 1795-07-15, p.1](https://www.newspapers.com/image/32751719/).)
+
+The notice, headed 10 July 1795, reports a death in 1794 using the printed Old Style wording; it does not give an exact death day. It names no family and does not identify the pen-cutter with the 1761 defendant. Later American deaths are competing, differently qualified chronology, not corroboration of the London death.
+
+This may concern [Glasgow-3524](https://www.wikitree.com/wiki/Glasgow-3524). The Kilbirnie baptism in March 1707 permits this date, although it would make Samuel about eighty-seven and thus a weak comparison.
+<!-- queue-record-integration-2026-10-17:end -->

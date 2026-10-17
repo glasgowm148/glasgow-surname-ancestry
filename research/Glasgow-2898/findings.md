@@ -38,3 +38,9 @@ Margaret Jane’s original obituary corroborates her existing father and death o
 ### Newspaper identity review — 6 October 2026
 
 - Born c.16 Mar 1841 (from 'aged two months and twenty-six days'); died at Rajkot, Kathiawar, 11 June 1841. — Belfast News-Letter 10 Sep 1841, image 390562197 ([Belfast News-Letter, 1841-09-10, p.2](https://www.newspapers.com/image/390562197/))
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+Margaret Jane, infant daughter of Rev. James Glasgow, missionary to Kattywar for the Presbyterian Church in Ireland, died at Rajkote, East Indies, on 11 June 1841, aged two months and 26 days. (Belfast News-Letter, 10 September 1841, p.2, Margaret Jane Glasgow death notice; [record](https://www.newspapers.com/image/390562197/).) Strong matching name, father, place and date support [Glasgow-2898](https://www.wikitree.com/wiki/Glasgow-2898) and her father [Glasgow-1780](https://www.wikitree.com/wiki/Glasgow-1780). The notice does not name her mother or birthplace.
+<!-- queue-record-integration-2026-10-17:end -->

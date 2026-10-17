@@ -199,3 +199,9 @@ Recorded in `research/queue-resolution-2026-09-30/irish-collateral.json` (30 Sep
 A search of the [PRONI Will Calendars](https://apps.proni.gov.uk/willscalendar_ie/) for the townland Gortahar on 17 September 2026 found **letters of administration granted in 1895 for Robert Elder of Gortahar**. The work log summarises the abstract's death date as 18 October 1894 and does not record the administrator or the effects. Mary's husband Robert Elder died at Gortahar on 18 November 1894 according to the civil register, so the grant is probably his estate, and one of the two day-month readings is wrong. Another Robert Elder was farming at Gortereghy in 1901, so the abstract should be re-read, with its administrator noted, before it is used. If Mary was the administrator, the grant would be further evidence for her as his widow.
 
 Recorded in `research/Glasgow-951/research-log-2026-09-17-live.md` (17 September 2026); carried into this file on 7 October 2026.
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+A possible identification concerns Mary Glasgow. The original civil birth return records Mary Ellen, a female child born at Lisnagaver on 14 February 1867. The mother is Mary Glasgow; no father is entered. (Ballymoney/Ahoghill civil birth register 1867; [record](https://www.irishgenealogy.ie/files/civil/birth_returns/births_1867/03501/2286677.pdf).) The identification remains uncertain.
+<!-- queue-record-integration-2026-10-17:end -->

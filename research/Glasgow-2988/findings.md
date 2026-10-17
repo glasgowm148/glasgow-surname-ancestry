@@ -176,3 +176,37 @@ Two uncertain working father links join the previously detached 6-profile Cookst
 Sources reused: [History of Hillsdale County, Michigan (1879), p.263: James and his Mitchell wife, Scotland-to-Cookstown account and son John; maintained earlier page review reused](https://archive.org/details/bad0928.0001.001.umich.edu/page/263/mode/1up); [Portrait and Biographical Album of Hillsdale County (1888), p.395, William Glasgow sketch: John and Jane, seven children and 1844 migration; earlier review reused](https://archive.org/details/portraitbiograph00chpm/page/395/mode/1up); [Same1888 album, p.688, John B. Glasgow sketch: parents, c.1778 father estimate and 1848 migration; earlier review reused](https://archive.org/details/portraitbiograph00chpm/page/688/mode/1up); [1766 Kildress religious return, NAI IHP/1/667: James Glasgow at Corvanaghan, no wife or children](https://virtualtreasury.ie/item/NAI-IHP-1-667); [1766 Derryloran religious return, NAI IHP/1/665: separate Drumearn James households, no resolved kinship](https://virtualtreasury.ie/item/NAI-IHP-1-665); [PRONI previously reviewed name-search detail: James Glasgow, Drumcarn, County Tyrone, 17 January 1759; no age or kin, testator identity and date meaning unresolved](https://www.proni.gov.uk/name-search).
 
 [Full comparison and qualifications](/branches/research-irish-derryloran/#chapter-cookstown-gortin-working-family).
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### Possible James Glasco of Omagh
+The 1786 marriage column names James Glasco, Omagh publican aged 61, and Jane Murray of the same place aged 16. ([The Public Register, or, Freeman's Journal, 1786-09-05, p.3](https://www.newspapers.com/image/1050075355/).)
+
+Three 1793 Hope advertisements name James Glasco, Omagh, as a freight/passage contact; the 25 May issue adds a sailing delay. ([The Northern Star, 1793-05-11, p.1](https://www.newspapers.com/image/72021067/).) ([The Northern Star, 1793-05-18, p.4](https://www.newspapers.com/image/72021086/).) ([The Northern Star, 1793-05-25, p.1](https://www.newspapers.com/image/72021100/).)
+
+The marriage was reported by 5 September 1786; the exact ceremony day is not given. James’s reported age suggests birth about 1724–1725. The same uncommon name and Omagh business context support, without proving, continuity with the 1793 contact. The notices do not name his parents or establish a previous marriage.
+
+This may concern [Glasgow-2988](https://www.wikitree.com/wiki/Glasgow-2988). Estimated birth c.1720 and Tyrone context leave a possible namesake; age differs and no Omagh connection is known.
+
+### Possible James Glascow, Fogs Manor postal addressee
+James Glascow, Fogs Manor, is listed among letters remaining in the Philadelphia post office. ([The Pennsylvania Gazette, 1757-04-07, p.1](https://www.newspapers.com/image/39395391/).)
+
+Fogs Manor is the printed address qualifier. A neighbouring "Phil. Co." in a separate alphabetic column is not this man’s address. The list states no occupation, so it does not identify him as the later Greenwich Packet master.
+
+This may concern [Glasgow-2988](https://www.wikitree.com/wiki/Glasgow-2988). Estimated c.1720 birth is chronologically plausible; no death or maritime evidence recorded. The postal record states no occupation.
+
+### Possible James Glascow, master of Greenwich Packet
+Greenwich Packet: James Glascow, master; James Young, owner; from Philadelphia to Winyew, Carolina; with rum, bread, flour and porter. ([The Public Advertiser, 1777-05-14, p.2](https://www.newspapers.com/image/34421452/).) ([The Ipswich Journal, 1777-05-17, p.1](https://www.newspapers.com/image/396765804/).) ([The Gloucester Journal, 1777-05-19, p.1](https://www.newspapers.com/image/971522063/).)
+
+James Young is the separate vessel owner, not another form of the master’s name. Three issues repeat one voyage report. Neither the route nor the cargo establishes the master’s family or identifies him with the 1757 Fogs Manor addressee.
+
+This may concern [Glasgow-2988](https://www.wikitree.com/wiki/Glasgow-2988). Estimated c.1720 birth is chronologically plausible; no death or maritime evidence recorded.
+
+### Possible James Glasgow, Edinburgh game certificate, 1789
+James Glasgow, Esq., Edinburgh, appears in the Mid-Lothian game-duty list of certificates issued since 8 September 1789. ([The Edinburgh Advertiser, 1789-12-11, p.8](https://www.newspapers.com/image/601822968/).)
+
+The list gives an Edinburgh designation but no age or relatives; it is not evidence of a military or maritime career.
+
+This may concern [Glasgow-2988](https://www.wikitree.com/wiki/Glasgow-2988). Birth c.1720, estimated, County Tyrone; death not recorded. Chronologically possible with no Edinburgh/certificate link; the recorded Irish locality is not a concrete conflict.
+<!-- queue-record-integration-2026-10-17:end -->

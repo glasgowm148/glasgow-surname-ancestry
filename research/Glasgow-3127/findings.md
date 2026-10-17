@@ -30,3 +30,13 @@ A Belfast News-Letter list headed Office of Ordnance, 16 January 1837, published
 ## Identity assessment — newspaper candidates withdrawn, 6 October 2026
 
 - [The Waterford Mirror, 1825-02-14, p.3](https://www.newspapers.com/image/60324711/): no longer a candidate for this profile. Feb 1825 reprint of the War Office notice: First Lieutenant George Mark Glasgow, Royal Artillery, from half pay. Glasgow-3785 (b. Quebec 1795, d. Kingston 1851) and Glasgow-3127 (Captain RA, d. by 1846) both fit and may be duplicates; the Quebec birth suggests he was a son of Lt-Gen George Glasgow RA, but nothing proves it.
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### George Mark Glasgow, Royal Artillery appointments
+
+A February 1825 notice names George Mark Glasgow as a First Lieutenant of the Royal Regiment of Artillery returning from half-pay. An Office of Ordnance notice dated 16 January 1837, reported on 24 January, names First Lieutenant George Mark Glasgow appointed Second Captain. Full name, corps and rank progression support career continuity, although neither notice supplies parents or a household. ([Freeman’s Journal, 1825-02-16, p.3](https://www.newspapers.com/image/1050087237/).) ([Belfast News-Letter, 24 January 1837, p. 1 (Office of Ordnance list dated 16 January)](https://www.newspapers.com/image/390543080/).)
+
+The exact full name and Royal Artillery career make this a strong compatible officer identification. [George Mark Glasgow](https://www.wikitree.com/wiki/Glasgow-3785), born in Quebec in 1795 and reported dead in Kingston in 1851, remains a true rival; his 1851 death conflicts with the account of Madeline’s father being late by her 1846 marriage. [George Glasgow of Barony](https://www.wikitree.com/wiki/Glasgow-1536) is a weaker proposed identity. These may not all be joined to one career without original service and family evidence.
+<!-- queue-record-integration-2026-10-17:end -->

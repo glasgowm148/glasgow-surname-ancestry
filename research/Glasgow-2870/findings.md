@@ -86,3 +86,31 @@ The existing working branch below John contains 14 retained pre-1850 profile acc
 Sources: [Findmypast, Scotland Parish Births & Baptisms, John Glasgow, 23 September 1722, Libberton, Sandyburgh; Robert Glasgow and Katherin Wilson; OPR 650/1 p.17 item3, SCOT/OPR/BAP/4033399; transcript captured 3 September 2026, re-reviewed here](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4033399&tab=this); [MyHeritage Scotland Births and Baptisms index, John Glasgow, Libberton 1722, Robert and Katharin Wilson; alternative presentation of the same register event](https://www.myheritage.com/research/record-30226-745324/john-glasgow-in-scotland-births-baptisms).
 
 [Full record-parent assessment and identity limits](/branches/early-scottish-records/#chapter-libberton-record-parents-confidence).
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+A possible identification concerns John Glasgow, Nottingham merchant and vendue attendee. John Glasgow signed a notice for a 2 September 1760 public vendue for creditors of deceased William Graham, including a 200-acre patent tract on the Susquehanna near Shepard's Ferry in Cecil County, Maryland; he also intended to open a store in Nottingham by the end of September. (Pennsylvania Gazette, 14 August 1760, p.3, image 39404812; [record](https://www.newspapers.com/image/39404812/).) The notice names no kin or origin. It does not establish Irish birth or migration. The identification remains uncertain.
+
+### Possible John Glasgow, Kensing-/ton postal entry, 1769
+John Glasgow, Kensing- / ton, is an addressee in letters remaining at Philadelphia post office. ([The Pennsylvania Gazette, 1769-10-26, p.1](https://www.newspapers.com/image/39396485/).)
+
+The place is printed over two lines as Kensing-/ton. The list does not establish a modern jurisdiction or family; it could include mail for a deceased addressee.
+
+This may concern [Glasgow-2870](https://www.wikitree.com/wiki/Glasgow-2870). Regional namesake; no Kensing-/ton postal connection. Recorded earlier death does not rule out posthumous mail.
+
+### Possible John Glasgow, Nottingham/Chester postal and near-Oxford book records, 1758–1771
+John Glasgow, Nottingham, is an addressee in letters remaining at Philadelphia post office. ([The Pennsylvania Gazette, 1758-01-12, p.1](https://www.newspapers.com/image/39389283/).)
+
+John Glasgow, in Nottingham Township, Chester County, is an addressee in letters remaining at Chester post office. ([The Pennsylvania Journal, or, Weekly Advertiser, 1765-10-17, p.1](https://www.newspapers.com/image/1033731085/).)
+
+John Glasgow, Nottingham, is an addressee in letters remaining at Chester post office. ([The Pennsylvania Gazette, 1765-11-28, p.4](https://www.newspapers.com/image/39406491/).)
+
+John Glasgow near Oxford is listed among people taking in subscriptions for De Jure Regni; advertisement dated 22 May 1766. ([The Pennsylvania Gazette, 1766-05-29, p.4](https://www.newspapers.com/image/39391550/).)
+
+John Glasgow, in West Nottingham, Chester County, and William Glasgow are separate addressees in the Charles-Town, Maryland, post-office list headed 1 October 1771. ([Maryland Gazette, 1771-10-24, p.3](https://www.newspapers.com/image/41041559/).)
+
+These entries form a qualified regional comparison, not a proved single life. A John who died in May 1769 could be the earlier collector/addressee; the 1771 letters could concern his surviving son, another man or posthumous mail. The separately listed William is not proved to be a relative.
+
+This may concern [Glasgow-2870](https://www.wikitree.com/wiki/Glasgow-2870). Exact Nottingham/Chester County death-place comparison and compatible age fit the earlier Nottingham/near-Oxford records, but underlying personal identity sources have not been freshly checked. The later 1771 postal entry could be posthumous mail or another man.
+<!-- queue-record-integration-2026-10-17:end -->

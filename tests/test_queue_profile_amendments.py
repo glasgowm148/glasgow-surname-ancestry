@@ -9,6 +9,15 @@ from tools.build_research_catalog import _restore_captured_named_ref_definitions
 
 
 class ReviewedQueueAmendmentsTests(unittest.TestCase):
+    def test_public_capture_supplies_name_and_vitals_for_placeholder_metadata(self):
+        evidence = {'profiles': {'Glasgow-1': {'privacy': 60, 'profile_fields': {
+            'Name': 'Glasgow-1', 'FirstName': 'James', 'LastNameAtBirth': 'Glasgow',
+            'BirthDate': '1700-01-01', 'IsLiving': 0, 'DataStatus': {'BirthDate': 'guess'}}}}}
+        person = catalogue._build_people([], {'Glasgow-1': {'full_name': 'Glasgow-1'}}, [], {}, evidence, {'Glasgow-1'})[0]
+        self.assertEqual(person['name'], 'James Glasgow')
+        self.assertEqual(person['first_names'], ['James'])
+        self.assertIn('1700', person['birth'])
+
     def test_old_covered_elsewhere_decision_does_not_hide_new_own_findings(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)

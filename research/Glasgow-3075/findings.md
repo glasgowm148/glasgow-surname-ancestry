@@ -114,3 +114,13 @@ William’s own possible Ninian father and the proved Archibald son remain uncha
 - [Retours vol.2, general no.3278, 1 May 1647: Archibald heir of William, his father](https://archive.org/details/inquisitionumadc00grea_0)
 - [Betham, Old Series vol.3, GO MS225, handwritten p.90, viewer image97: Rathmalton will of April 1673](https://catalogue.nli.ie/Record/vtls000540633)
 - [Archibald Glasgow-1101: qualified Scottish baptism/graduate and Irish clerk identity](https://www.wikitree.com/wiki/Glasgow-1101)
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### Possible Haddington household, 1639
+
+Wm Glasgow is named as father of Issobell, born on 24 November and baptised on 26 November 1639 at Haddington, with mother indexed as Issobella Miral. (Findmypast/Scottish Genealogy Society, Issobell Glasgow, born 24 and baptised 26 November 1639, Haddington; OPR 709/1 p.208, transcript SCOT/OPR/BAP/4675742; original register not inspected; [Source](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4675742).) The parental names belong directly to that indexed event; Miral has not been normalized to another surname without the original.
+
+The Leith mealmaker is the leading possible existing identity for Wm because his established eastern-Lothian adult household and September 1644 death fit 1639. His Catherine Fraser and Christian Scot household comparisons neither prove nor by themselves exclude the Haddington occurrence; no remarriage, widowhood or overlapping marriage is inferred. [William Glasgow of Mid Calder](https://www.wikitree.com/wiki/Glasgow-1087) and [William Glasgow, baptised Inveresk in 1614](https://www.wikitree.com/wiki/Glasgow-3517), are genuine adult alternatives. No occupation or parish-to-parish bridge in the Haddington transcript chooses among them. The named child’s possible identification with [Issobell Glasgow of Mid Calder](https://www.wikitree.com/wiki/Glasgow-2454) is a separate, weak later-life comparison; it does not downgrade the direct parental statement in the Haddington event.
+<!-- queue-record-integration-2026-10-17:end -->

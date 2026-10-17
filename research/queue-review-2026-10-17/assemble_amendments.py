@@ -107,6 +107,16 @@ def markdown(text):
     return text.replace("'''", '**').replace("''", '*').strip()
 
 
+def passage_label(text):
+    first = text.splitlines()[0]
+    first = re.sub(r'^=+\s*|\s*=+$', '', first)
+    first = re.sub(r'<ref\b.*', '', first)
+    first = re.sub(r'\[\[(?:[^]|]+\|)?([^]]+)\]\]', r'\1', first)
+    first = re.split(r'\.\s|\.<ref', first, 1)[0].strip().rstrip('.')
+    first = re.sub(r'^A possible identification concerns\s+', '', first)
+    return first if len(first) <= 100 else first[:97].rsplit(' ', 1)[0] + '…'
+
+
 def main():
     entries = defaultdict(list)
     statuses = defaultdict(list)
@@ -178,9 +188,14 @@ def main():
             draft = Path('data/wikitree/queue-review-2026-10-17') / f'{ident}.wiki'
         (ROOT / draft).parent.mkdir(parents=True, exist_ok=True)
         (ROOT / draft).write_text(proposed.strip() + '\n')
-        headings = list(dict.fromkeys(re.sub(r'^=+\s*|\s*=+$', '', text.splitlines()[0]) for text in passages))
-        summary = 'Add the sourced record account' + ('s' if len(headings) > 1 else '') + ': ' + '; '.join(headings) + '. Retain the stated identity and relationship limits.'
-        previous_summary = updates.get(ident, {}).get('work_queue_summary') or updates.get(ident, {}).get('summary') or ''
+        headings = list(dict.fromkeys(passage_label(text) for text in passages))
+        summary = 'Add the cited record account' + ('s' if len(headings) > 1 else '') + ': ' + '; '.join(headings[:3])
+        if len(headings) > 3:
+            summary += f'; and {len(headings)-3} other record accounts'
+        summary += '. Retain the stated identity and relationship limits.'
+        previous_summary = read(manifest_path).get('profile_updates', {}).get(ident, {}).get('prior_work_summary')
+        if previous_summary is None:
+            previous_summary = updates.get(ident, {}).get('work_queue_summary') or updates.get(ident, {}).get('summary') or ''
         if previous_summary and previous_summary != summary and summary not in previous_summary:
             summary = previous_summary + '\n\n' + summary
         manifest['profile_updates'][ident] = {
@@ -190,6 +205,7 @@ def main():
             'review_ids': sorted({rid for review in reviews for rid in review.get('review_ids', [])} |
                                  {rid for review in reviews for a in review.get('insertions', []) for rid in a.get('review_ids', [])}),
             'private_comparison': private,
+            'prior_work_summary': previous_summary,
             **({'public_addition_wikitext': '\n\n'.join(passages)} if private else {}),
         }
         finding = ROOT / f'research/{ident}/findings.md'

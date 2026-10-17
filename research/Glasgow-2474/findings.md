@@ -115,3 +115,41 @@ Inspect vessel William registers and London/New-York clearances for master’s f
 - [The Columbian Herald, or, The Independent Courier of North-America, 1788-01-28, p.2](https://www.newspapers.com/image/604128637/): no longer a candidate for this profile. A Charleston marine list of January 1788 enters the brig Ann inward from Larne, with a master surnamed Glasgow. The master's forename is not given and he cannot be identified on WikiTree. The Larne-born William Glasgow (Glasgow-3324) remains only a possible comparison.
 - [The Pennsylvania Journal, or, Weekly Advertiser, 1788-02-13, p.2](https://www.newspapers.com/image/1034014648/): no longer a candidate for this profile. Philadelphia papers of February 1788 reprint a report that the brig Ann, Capt. Glasgow, arrived from Larne with nearly 200 passengers in good health, praising the captain's humanity. This is the same surname-only master as the Charleston marine-list entries. He remains unidentified.
 - [The Columbian Herald, or, The Independent Courier of North-America, 1788-02-18, p.2](https://www.newspapers.com/image/604128661/): no longer a candidate for this profile. A Charleston marine list of February 1788 records the brig Ann cleared out for Georgetown, with master Glasgow. This is the same surname-only master as the January arrival from Larne, and he is unidentified.
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### Possible Captain Glasgow, brig Ann and Larne passenger reports, 1788
+The brig Ann is listed inward with Glasgow as master and Larne as origin. ([The Columbian Herald, or, The Independent Courier of North-America, 1788-01-28, p.2](https://www.newspapers.com/image/604128637/).)
+
+The brig Ann, Captain Glasgow, is reported arriving from Larne after a tedious passage with near 200 passengers in good health; the report praises the captain’s humane and generous behaviour. ([The Pennsylvania Journal, or, Weekly Advertiser, 1788-02-13, p.2](https://www.newspapers.com/image/1034014648/).) ([The Independent Gazetteer, 1788-02-16, p.2](https://www.newspapers.com/image/39957255/).)
+
+The brig Ann is listed cleared out with Glasgow as master and Georgetown as destination. ([The Columbian Herald, or, The Independent Courier of North-America, 1788-02-18, p.2](https://www.newspapers.com/image/604128661/).)
+
+The passenger reports repeat one notice. The inward and outward entries may concern the same captain, but none gives his forename or family; Larne is the voyage origin, not a recorded birthplace.
+
+This may concern [Glasgow-2474](https://www.wikitree.com/wiki/Glasgow-2474). Robert born 1716 would be about 72. Prior public research reports a 1738 Irvine shipmaster; no connection to Ann or Larne.
+
+### Possible Captain Glasgow, vessel William at New-York, 1758
+A February 1758 shipping report lists the vessel William, master Glasgow, from London, at New-York. ([The Public Advertiser, 1758-02-18, p.1](https://www.newspapers.com/image/34419759/).)
+
+William is the vessel’s name; the master’s personal forename is not stated. The voyage does not identify his residence, birthplace or family.
+
+This may concern [Glasgow-2474](https://www.wikitree.com/wiki/Glasgow-2474). Recorded 1716 Irvine birth and prior 1738 shipmaster study make a compatible occupational candidate. This 1758 notice supplies no personal forename or vessel identification.
+
+### Possible Robert Glasgow, master of John and Archibald, 1754
+Robert Glasgow, master of the snow John and Archibald, of Glasgow, is reported arriving in distress during a Virginia-to-Glasgow passage. ([The Pennsylvania Gazette, 1754-03-19, p.2](https://www.newspapers.com/image/39398244/).) ([The Gloucester Journal, 1754-06-25, p.2](https://www.newspapers.com/image/971274921/).) ([Berrow’s Worcester Journal, 1754-06-27, p.1](https://www.newspapers.com/image/1212017118/).)
+
+These are reprints of one shipping report. "Of Glasgow" describes the vessel; John and Archibald is its name, not two relatives of the master.
+
+This may concern [Glasgow-2474](https://www.wikitree.com/wiki/Glasgow-2474). The occupational comparison is relevant: age 38 and the 1738 shipmaster record is relevant prior maritime evidence. No direct connection to Snow John and Archibald. A Findmypast baptism transcript records him at Irvine. The cited accounts associate the adult Robert Glasgow-3479 with Irvine family entries and report an Irvine Burgh Catalogue entry (4 Aug 1738) naming Robert Glasgow master of the Irvine ship Betty and Grizell; the family identification remains qualified.
+
+### Possible Robert Glasgow, Old Bailey and Newgate reports, 1751
+Robert Glasgow is reported among nine Old Bailey convicts receiving judgment of death, for highway robbery of Joseph Weedon’s gold ring, silver shoe buckles and other things. ([The Gloucester Journal, 1751-07-16, p.2](https://www.newspapers.com/image/971486582/).)
+
+Robert Glasgow, condemned for robbing Joseph Weedon on the highway, is included among Newgate prisoners ordered for execution on Monday next. ([The Western Flying Post; or, Sherborne and Yeovil Mercury, 1751-07-29, p.2](https://www.newspapers.com/image/979343886/).)
+
+The judgment and later order for execution are separate reports. An order for execution is not proof that it occurred; neither report supplies the relatives or origin needed to identify Robert among the Scottish namesakes.
+
+This may concern [Glasgow-2474](https://www.wikitree.com/wiki/Glasgow-2474). Possible; age 35, no concrete chronology conflict. The newspaper’s later execution order is a serious unresolved continuity issue, but execution itself is not established. A Findmypast baptism transcript records him at Irvine. The cited accounts associate the adult Robert Glasgow-3479 with Irvine family entries and report an Irvine Burgh Catalogue entry (4 Aug 1738) naming Robert Glasgow master of the Irvine ship Betty and Grizell; the family identification remains qualified.
+<!-- queue-record-integration-2026-10-17:end -->

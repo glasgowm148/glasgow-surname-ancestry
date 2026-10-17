@@ -78,3 +78,27 @@ Sources: [Pennsylvania Gazette, 1775-10-25, p.1](https://www.newspapers.com/imag
 [Full record account and comparison](/research/subjects/newspapers-early-glasgow/#william-glascoe-maryland-1775). This assessment proposes no live WikiTree edit.
 
 <!-- queue-identity-review-2026-10-17:end -->
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### Possible William Glascoe, Maryland notice
+A Lancaster Goal notice dated 13 October says John M’Connel, about 35, imprisoned as a suspected runaway servant, claims to belong to William Glascoe in Maryland, about forty miles from Baltimore. ([Pennsylvania Gazette, 1775-10-25, p.1](https://www.newspapers.com/image/39392109/).)
+
+The Maryland location is John M’Connel’s attributed claim, not independently proved residence. The notice gives no relatives for William or evidence that he was the 1760 London defendant.
+
+This may concern [Glasgow-2426](https://www.wikitree.com/wiki/Glasgow-2426). William’s estimated 1735 birth and later American context are chronologically compatible, but no record places him at the stated Maryland location.
+
+### Possible William Glasgow, Philadelphia and Charles-Town postal lists, 1759–1771
+William Glasgow, Cecil County, is listed among letters remaining in the Philadelphia post office. ([The Pennsylvania Gazette, 1759-08-09, p.1](https://www.newspapers.com/image/39399295/).)
+
+William Glasgow is listed among letters remaining in the Philadelphia post office in February 1763. ([The Pennsylvania Gazette, 1763-02-24, p.1](https://www.newspapers.com/image/39390517/).)
+
+William Glasgow is listed among letters remaining in the Philadelphia post office in October 1765. ([The Pennsylvania Gazette, 1765-10-10, p.4](https://www.newspapers.com/image/39405824/).)
+
+William Glasgow is separately listed in the Charles-Town, Maryland, post-office letters notice headed 1 October 1771, beside an entry for John Glasgow of West Nottingham. ([Maryland Gazette, 1771-10-24, p.3](https://www.newspapers.com/image/41041559/).)
+
+Cecil County explicitly qualifies the 1759 entry only. In 1763 "Pennsylvania" follows James Gillispie; in 1765 "Forks of Delaware" qualifies William Greenlee, not William Glasgow. The entries may concern different men, and co-listing with John in 1771 does not prove a family relationship.
+
+This may concern [Glasgow-2426](https://www.wikitree.com/wiki/Glasgow-2426). Estimated 1735 birth and later United States context are unproved family account; no postal identification. The Moneymore County Galway field is disputed.
+<!-- queue-record-integration-2026-10-17:end -->

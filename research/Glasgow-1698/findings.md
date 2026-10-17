@@ -42,3 +42,9 @@ Resolve the documentary person’s identity before changing WikiTree facts or re
 ## Identity assessment — newspaper candidates withdrawn, 6 October 2026
 
 - [Freeman’s Journal and Daily Commercial Advertiser, 1845-03-19, p.1](https://www.newspapers.com/image/1050103241/): no longer a candidate for this profile. Freeman's Journal, 19 Mar 1845 (images 1050103241 and 1380777866): Samuel Glasgow, a farmer examined at Moneymore by the Devon Commission, describes reclamation on Sir Thomas Staples's land in his neighbourhood. Glasgow-2054 is a possible candidate, with Glasgow-1698 equally compatible.
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+A possible identification concerns Samuel Glasgow, farmer examined at Moneymore. An 1845 tenant-right discussion quotes Samuel Glasgow, described as an intelligent farmer examined at Moneymore, advocating secure tenure and protection against rent charged on improvements. He described seeing reclamation on Sir Thomas Staples’s land in his neighbourhood. (Freeman’s Journal and Daily Commercial Advertiser, 19 March 1845, p. 1, Ulster tenant-right discussion; [record](https://www.newspapers.com/image/1050103241/); Freeman’s Journal and Daily Commercial Advertiser, 19 March 1845, p. 1, alternate archive image of tenant-right passage; [record](https://www.newspapers.com/image/1380777866/).) Moneymore is where he was examined, not an explicit home townland. The date of his examination, age and relatives are unstated. Cookstown farmers [Glasgow-2054](https://www.wikitree.com/wiki/Glasgow-2054) and [Glasgow-1698](https://www.wikitree.com/wiki/Glasgow-1698) are compatible; [Lisnagaver Glasgow](https://www.wikitree.com/wiki/Glasgow-2908) is a weaker regional comparison, without a locality or occupation bridge. No connection to Lisnagaver is established. The identification remains uncertain.
+<!-- queue-record-integration-2026-10-17:end -->

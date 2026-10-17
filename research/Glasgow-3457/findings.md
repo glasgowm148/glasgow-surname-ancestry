@@ -45,3 +45,23 @@ Inspect original ship registers, port entries and the 1738 Irvine Burgh Catalogu
 ## Identity assessment — newspaper candidates withdrawn, 6 October 2026
 
 - [The Pennsylvania Gazette, 1754-03-19, p.2](https://www.newspapers.com/image/39398244/): no longer a candidate for this profile. One 1754 distress report (three printings) of Robert Glasgow, master of the snow John and Archibald of Glasgow, on a Virginia-to-Glasgow passage. WikiTree already has a documentary profile for exactly this shipmaster, Glasgow-2867, built on the Maryland Gazette printing of the same Antigua report; the notice adds no kin. Glasgow-2474 (Irvine shipmaster 1738) is a possible earlier/later identity of the same man (merge question), not a separate match.
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### Possible Robert Glasgow, master of John and Archibald, 1754
+Robert Glasgow, master of the snow John and Archibald, of Glasgow, is reported arriving in distress during a Virginia-to-Glasgow passage. ([The Pennsylvania Gazette, 1754-03-19, p.2](https://www.newspapers.com/image/39398244/).) ([The Gloucester Journal, 1754-06-25, p.2](https://www.newspapers.com/image/971274921/).) ([Berrow’s Worcester Journal, 1754-06-27, p.1](https://www.newspapers.com/image/1212017118/).)
+
+These are reprints of one shipping report. "Of Glasgow" describes the vessel; John and Archibald is its name, not two relatives of the master.
+
+This may concern [Glasgow-3457](https://www.wikitree.com/wiki/Glasgow-3457). Chronologically possible, about 30; no direct maritime linkage. The account has a FamilySearch baptism citation for David Glasgow in 1744 and unverified tree spouse/child links; no occupational finding for Robert.
+
+### Possible Robert Glasgow, Old Bailey and Newgate reports, 1751
+Robert Glasgow is reported among nine Old Bailey convicts receiving judgment of death, for highway robbery of Joseph Weedon’s gold ring, silver shoe buckles and other things. ([The Gloucester Journal, 1751-07-16, p.2](https://www.newspapers.com/image/971486582/).)
+
+Robert Glasgow, condemned for robbing Joseph Weedon on the highway, is included among Newgate prisoners ordered for execution on Monday next. ([The Western Flying Post; or, Sherborne and Yeovil Mercury, 1751-07-29, p.2](https://www.newspapers.com/image/979343886/).)
+
+The judgment and later order for execution are separate reports. An order for execution is not proof that it occurred; neither report supplies the relatives or origin needed to identify Robert among the Scottish namesakes.
+
+This may concern [Glasgow-3457](https://www.wikitree.com/wiki/Glasgow-3457). Chronologically possible, about 27; no direct record linkage. The account has a FamilySearch baptism citation for David Glasgow in 1744 and unverified tree spouse/child links; no occupational finding for Robert.
+<!-- queue-record-integration-2026-10-17:end -->

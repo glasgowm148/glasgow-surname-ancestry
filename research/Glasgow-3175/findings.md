@@ -105,3 +105,26 @@ A notice dated Baltimore, 19 October 1777, signed Joseph Ford, orders absent sol
 The earlier statements in this file that the Old Bailey case cited on this profile is 'strongly associated' with him are superseded. The defendant's own trial testimony ([Old Bailey Proceedings Online](https://www.oldbaileyonline.org/)) and the May 1761 reports ([The Derby Mercury, 8 May 1761, p. 2](https://www.newspapers.com/image/394296692/)) show that Samuel Glascow, capitally convicted of horse-stealing in 1761 and later respited, was a Holborn/High Wycombe tradesman: a London man, not the Ulster-born Pennsylvania Samuel. The association with this profile is **withdrawn**; see the identity assessment of 6 October 2026 above.
 
 Recorded in `research/latest-findings.json` (6 October 2026); carried into this file on 7 October 2026.
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### Possible Samuel Glascow, Old Bailey defendant
+The capital-conviction report also appeared in the Derby Mercury on 8 May 1761 and Jackson’s Oxford Journal on 9 May. These are contemporary reports of the same gelding-theft case, rather than separate trials. ([The Derby Mercury, 1761-05-08, p.2](https://www.newspapers.com/image/394296692/).) ([Jackson's Oxford Journal, 1761-05-09, p.2](https://www.newspapers.com/image/396510014/).)
+
+### Possible Samuel Glasgow, First Maryland Regiment
+A notice dated Baltimore, 19 October 1777, signed Joseph Ford, orders absent soldiers of the First Maryland Regiment, including Samuel Glasgow, to return by 10 November. It threatens apprehension and punishment as deserters and offers influence toward pardons. ([Maryland Gazette, 1777-10-23, p.2](https://www.newspapers.com/image/590968568/).) ([Maryland Gazette, 1777-11-06, p.2](https://www.newspapers.com/image/41048973/).) ([Maryland Gazette, 1777-10-23, p.2](https://www.newspapers.com/image/41048937/).)
+
+The printed punctuation does not place Samuel in Captain Murray’s company. The notice names no age, relatives or subsequent service, and its general deserter warning is not an individual finding that Samuel deserted.
+
+This may concern [Glasgow-3175](https://www.wikitree.com/wiki/Glasgow-3175). Uncertain 1740 Ulster birth and 1801 Hanover Township, Washington County death are chronologically compatible. The Washington County context gives a useful officeholder comparison; no land or service identification.
+
+### Possible Samuel Glasgow, Whitpain boundary landowner
+Samuel Glasgow is an adjoining landowner in a Whitpain Township execution-sale notice for about fifty acres, late Isaac Williams’s estate, bounded by John Saunders, Samuel Glasgow, John Eldridge and Thomas Blackledge. ([The Pennsylvania Gazette, 1770-02-01, p.3](https://www.newspapers.com/image/39398014/).) ([The Pennsylvania Gazette, 1770-02-15, p.2](https://www.newspapers.com/image/39398170/).) ([The Pennsylvania Gazette, 1770-08-16, p.3](https://www.newspapers.com/image/39401453/).) ([The Pennsylvania Gazette, 1770-08-23, p.6](https://www.newspapers.com/image/39401610/).)
+
+Samuel Glasgow is a boundary landowner for thirty acres, part of a fifty-acre Whitpain Township tract, late Isaac Williams’s estate, also bounded by John Saunders and John Eldridge. A sale is advertised for 9 August at William Lawrence’s house in Plymouth Township. ([The Pennsylvania Gazette, 1770-07-12, p.3](https://www.newspapers.com/image/39400791/).) ([The Pennsylvania Gazette, 1770-07-19, p.5](https://www.newspapers.com/image/39400983/).) ([The Pennsylvania Gazette, 1770-07-26, p.6](https://www.newspapers.com/image/39401146/).)
+
+The two notices concern parts of Isaac Williams’s estate. Being named as an adjoining owner does not establish Samuel’s residence, family or identity with the Maryland soldier or Washington County justice.
+
+This may concern [Glasgow-3175](https://www.wikitree.com/wiki/Glasgow-3175). Uncertain 1740 Ulster birth and 1801 Hanover Township, Washington County death are chronologically compatible. The Washington County context gives a useful officeholder comparison; no land or service identification.
+<!-- queue-record-integration-2026-10-17:end -->

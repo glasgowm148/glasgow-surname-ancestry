@@ -99,3 +99,9 @@ This adds only the uncertain James son; the older Hugh identities, current paren
 - [James’s complete Irvine household and retained 1723 Marion Rae entry](https://www.wikitree.com/wiki/Glasgow-4158)
 - [Philip junior profile: current biography capture checked16 October2026](https://www.wikitree.com/wiki/Glasgow-3932)
 - [Robert Glasgow-3897: correct Kilrea subject retaining the entire misplaced biography](https://www.wikitree.com/wiki/Glasgow-3897)
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+A possible identification concerns Hugh Glasgow, preacher of the gospel, indexed 1677. Hugh Glasgow was described in a 1677 printed Register of Deeds index as “preacher of the gospel.” The index lists him as grantee in a deed abbreviated “Transl.”, recorded 8 March 1677 in the Durie Office, volume 42, page 148 (National Records of Scotland RD3/42, p. 148). The underlying deed has not been examined. The identification remains uncertain. (FamilySearch, *Scotland. Land Records 1677*, item #007830797, Item 3, image 48; printed *Register of Deeds, 1677. Name and Designation*, vol. XVII, p.80, Hugh Glasgow; Durie Office vol.42 p.148, National Records of Scotland RD3/42. [printed index image](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS39-S9V2-4?view=fullText&keywords=HUGH+Glasgow&searchForm=simple&lang=en&groupId=M9QN-ZQ3).)
+<!-- queue-record-integration-2026-10-17:end -->

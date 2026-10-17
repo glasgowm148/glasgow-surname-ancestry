@@ -44,3 +44,14 @@ Search Lexington/Kentucky tax, land and postal records for identifying details, 
 ## Identity assessment — newspaper candidates withdrawn, 6 October 2026
 
 - [Kentucky Gazette, 1799-01-24, p.3](https://www.newspapers.com/image/1181678638/): no longer a candidate for this profile. Thomas Glasgow, 'Kentucky', is listed among letters remaining at the Lexington post office (printed 24 January 1799). No WikiTree profile fits: the two prior comparisons are Irish- and Scottish-recorded men with no Kentucky link, and one died in Scotland.
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### Possible Thomas Glasgow, Kentucky postal addressee, 1799
+Thomas Glasgow, Kentucky, is named in a list of letters remaining at the Lexington post office, printed 24 January 1799. ([Kentucky Gazette, 1799-01-24, p.3](https://www.newspapers.com/image/1181678638/).)
+
+Kentucky is the printed qualifier. The postal list gives no age, occupation, family or evidence of continuous residence.
+
+This may concern [Glasgow-3592](https://www.wikitree.com/wiki/Glasgow-3592). Recorded exact 1 May 1777 Rathdowney birth permits age 21 in 1799; Irish birthplace and inherited family provide no Kentucky or postal identification.
+<!-- queue-record-integration-2026-10-17:end -->

@@ -16,3 +16,14 @@ Inspect the original Gazette announcement, Royal Military Academy cadet admissio
 ## Identity assessment — newspaper candidates withdrawn, 6 October 2026
 
 - [The Caledonian Mercury, 1795-10-15, p.4](https://www.newspapers.com/image/395720951/): no longer a candidate for this profile. Oct 1795: Gentleman Cadet William Allen Glasgow commissioned Second Lieutenant, Royal Engineers. The RE roll gives 2nd Lt 1 Oct 1795, Lt 18 Aug 1797, died at Martinique 3 Jan 1798. No WikiTree profile; the earlier candidates lived into the 1840s-50s.
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### Possible William Allen Glasgow, Royal Engineers commission, 1795
+Gentleman Cadet William Allen Glasgow is announced as second lieutenant in the Corps of Royal Engineers, vice Lefebvre, promoted, dated 1 October 1795. ([The Caledonian Mercury, 1795-10-15, p.4](https://www.newspapers.com/image/395720951/).)
+
+The commission date is 1 October 1795, not the 15 October publication day. "Gentleman Cadet" describes his prior status; the notice gives no parents, birthplace or subsequent career. A William without a recorded middle name remains a possible identification.
+
+This may concern [Glasgow-2965](https://www.wikitree.com/wiki/Glasgow-2965). Uncertain 1771 Lincolnshire birth permits an adult cadet in 1795; no middle-name, admission, commission or family connection.
+<!-- queue-record-integration-2026-10-17:end -->

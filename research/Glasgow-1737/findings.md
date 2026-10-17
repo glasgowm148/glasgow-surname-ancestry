@@ -22,3 +22,13 @@ Sources: [Belfast Evening Telegraph, 4 September 1875, p.2](https://www.newspape
 [Full record account and comparison](/research/subjects/william-glasgow-irish-newspapers/#william-alexander-parsonstown). This assessment proposes no live WikiTree edit.
 
 <!-- queue-identity-review-2026-10-17:end -->
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### William Glasgow, Drapersfield mill partner
+
+Benjamin and William Glasgow were co-plaintiffs in the 1858 River Ardtrea mill-water dispute against John Sloan. Benjamin’s testimony explicitly identified his own father as Robert, deceased in 1856; counsel’s reference to Robert’s sons supports a qualified brother inference for William. An advertisement dated 16 January 1864 names Benjamin and William Glasgow of Drapersfield Mills offering premises formerly occupied by the late Robert. A later court report describes their cheque for £71 12s 7d in favour of John Finlay junior. ([Belfast News-Letter, 22 July 1858, p.3, Benjamin’s sworn testimony](https://www.newspapers.com/image/390574459/).) ([Belfast News-Letter, 23 July 1858, p.4](https://www.newspapers.com/image/390575046/).) ([Belfast News-Letter, 19 January 1864, p.2](https://www.newspapers.com/image/387805714/).) ([Belfast News-Letter, 11 August 1866, p.4](https://www.newspapers.com/image/387904527/).)
+
+The adult period and Killycurragh district fit, but William’s own 1846 marriage names father David, whereas the mill evidence supports a qualified inference that the partner was Robert’s son. That source conflict prevents treating the partner as certainly this William. The senior William uncle is a separate man; counsel did not identify which plaintiff was a minor.
+<!-- queue-record-integration-2026-10-17:end -->

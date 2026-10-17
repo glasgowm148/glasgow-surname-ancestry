@@ -87,3 +87,14 @@ These are proposals for the WikiTree date fields and are queued for review; noth
 | ["United States Census, 1800", FamilySearch XHRC-7BF](https://familysearch.org/ark:/61903/1:1:XHRC-7BF) | Robert Glasgow, Newberry District, p. 75, NARA M32 roll 50. | Index of the same household already tabled from the transcription. Also cited: Find a Grave 33531787. |
 
 Recorded in `research/Glasgow-1983/Glasgow-1983.md` (2026-09-07); carried into this file on 7 October 2026.
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### Possible Robert Glasgow, Cookstown reward subscriber, 1796
+Robert Glasgow pledges two guineas in a Cookstown reward subscription after a shot was fired at a soldier standing sentinel. ([The Northern Star, 1796-12-12, p.1](https://www.newspapers.com/image/61260706/).)
+
+The notice records a pledge, not proof of payment, residence, parentage or a family relationship to another subscriber.
+
+This may concern [Glasgow-1983](https://www.wikitree.com/wiki/Glasgow-1983). Estimated c.1763 Irish birth fits age, but later South Carolina household context supplies no Cookstown link.
+<!-- queue-record-integration-2026-10-17:end -->

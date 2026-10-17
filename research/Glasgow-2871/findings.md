@@ -108,3 +108,47 @@ Inspect local tax, probate, land and original list/meeting records; compare the 
 ## Identity assessment — newspaper candidates withdrawn, 6 October 2026
 
 - [The Carlisle Gazette, and the Western Repository of Knowledge, 1793-03-06, p.1](https://www.newspapers.com/image/1033763029/): no longer a candidate for this profile. A Carlisle post-office list headed 1 January 1793 includes letters for John Glasgow, care of William Brown, Esq. No WikiTree profile can be identified. Cumberland County-born John Glasgow (Glasgow-3726) is a newly noted regional possibility; the earlier namesake comparisons are weak or unlikely.
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+A possible identification concerns John Glasgow, Nottingham merchant and vendue attendee. John Glasgow signed a notice for a 2 September 1760 public vendue for creditors of deceased William Graham, including a 200-acre patent tract on the Susquehanna near Shepard's Ferry in Cecil County, Maryland; he also intended to open a store in Nottingham by the end of September. (Pennsylvania Gazette, 14 August 1760, p.3, image 39404812; [record](https://www.newspapers.com/image/39404812/).) The notice names no kin or origin. It does not establish Irish birth or migration. The identification remains uncertain.
+
+### Possible John Glascow, Chester County land and committee
+John Glascow is an adjoining landholder in a West-Nottingham Township, Chester County execution-sale notice for 22½ acres, late Michael Dintz’s estate, bounded by Abraham Bunting, John Glascow and others. ([The Pennsylvania Gazette, 1773-04-28, p.1](https://www.newspapers.com/image/39401494/).) ([The Pennsylvania Gazette, 1773-05-05, p.5](https://www.newspapers.com/image/39401765/).)
+
+John Glascow is appointed to provide for distressed families of Associators in actual service by the Chester County Committee of Inspection and Observation, in a resolution dated 13 August 1776. ([The Pennsylvania Gazette, 1776-08-28, p.3](https://www.newspapers.com/image/39398635/).)
+
+The adjoining-owner and committee appointments may concern one man but do not name his parents or wife. They require an active adult in 1773 and 1776; the John who died in May 1769 cannot be that living participant.
+
+This may concern [Glasgow-2871](https://www.wikitree.com/wiki/Glasgow-2871). Adult at the 1776 roster date and later located in Chester County, Pennsylvania. His listed parents are John Glasgow (Glasgow-2870) and Mary Cranmer; that father died in 1769, so the candidate is not excluded. No source ties this son to the 1776 appointment roster or establishes that his surname spelling was Glafcow.
+
+### Possible John Glasgow, Carlisle postal addressee, 1793
+John Glasgow, care of William Brown, Esq., is an addressee in the Carlisle post-office list headed 1 January 1793. ([The Carlisle Gazette, and the Western Repository of Knowledge, 1793-03-06, p.1](https://www.newspapers.com/image/1033763029/).)
+
+"Care of William Brown, Esq." is the address qualification, not evidence of kinship. A postal entry alone does not establish that its addressee was alive on the list date.
+
+This may concern [Glasgow-2871](https://www.wikitree.com/wiki/Glasgow-2871). Pennsylvania regional/age comparison only. Exact 1792 death permits posthumous mail; no Carlisle or William Brown connection.
+
+### Possible John Glasgow, Kensing-/ton postal entry, 1769
+John Glasgow, Kensing- / ton, is an addressee in letters remaining at Philadelphia post office. ([The Pennsylvania Gazette, 1769-10-26, p.1](https://www.newspapers.com/image/39396485/).)
+
+The place is printed over two lines as Kensing-/ton. The list does not establish a modern jurisdiction or family; it could include mail for a deceased addressee.
+
+This may concern [Glasgow-2871](https://www.wikitree.com/wiki/Glasgow-2871). Chronological/regional namesake; no identifying Kensing-/ton connection.
+
+### Possible John Glasgow, Nottingham/Chester postal and near-Oxford book records, 1758–1771
+John Glasgow, Nottingham, is an addressee in letters remaining at Philadelphia post office. ([The Pennsylvania Gazette, 1758-01-12, p.1](https://www.newspapers.com/image/39389283/).)
+
+John Glasgow, in Nottingham Township, Chester County, is an addressee in letters remaining at Chester post office. ([The Pennsylvania Journal, or, Weekly Advertiser, 1765-10-17, p.1](https://www.newspapers.com/image/1033731085/).)
+
+John Glasgow, Nottingham, is an addressee in letters remaining at Chester post office. ([The Pennsylvania Gazette, 1765-11-28, p.4](https://www.newspapers.com/image/39406491/).)
+
+John Glasgow near Oxford is listed among people taking in subscriptions for De Jure Regni; advertisement dated 22 May 1766. ([The Pennsylvania Gazette, 1766-05-29, p.4](https://www.newspapers.com/image/39391550/).)
+
+John Glasgow, in West Nottingham, Chester County, and William Glasgow are separate addressees in the Charles-Town, Maryland, post-office list headed 1 October 1771. ([Maryland Gazette, 1771-10-24, p.3](https://www.newspapers.com/image/41041559/).)
+
+These entries form a qualified regional comparison, not a proved single life. A John who died in May 1769 could be the earlier collector/addressee; the 1771 letters could concern his surviving son, another man or posthumous mail. The separately listed William is not proved to be a relative.
+
+This may concern [Glasgow-2871](https://www.wikitree.com/wiki/Glasgow-2871). Compatible adult/Chester County namesake, especially for 1771 after the elder’s recorded 1769 death; no individual postal or book-agent connection.
+<!-- queue-record-integration-2026-10-17:end -->

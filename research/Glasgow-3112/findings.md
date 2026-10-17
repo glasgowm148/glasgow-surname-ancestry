@@ -33,3 +33,11 @@ Source: Old Parish Registers, banns and marriages; exact surname Glasgow through
 ## 1610–1650 sweep — reviewed 15 October 2026
 
 The authenticated Findmypast/Scottish Genealogy Society transcript [SCOT/OPR/BAP/4473472](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4473472), re-opened 15 October 2026, gives **26 November 1649**, father **John Glasgow**, Kirknewton & East Calder, **OPR 689/20, p.5**. The earlier sweep wrongly labelled this a ScotlandsPeople date. The maintained FamilySearch-based account gives **11 November 1646**. These could reflect a transcription or record-matching error; the original pages are needed to decide. Another child’s April 1649 baptism does not resolve the conflict by itself, and no preferred date or new sibling relationship is established here.
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+A possible identification concerns Margaret Glasgow. The banns/marriage index records Margrat Glasgow and John Aiton on 18 October 1693 at Cambusnethan. (Scotland’s People: Old Parish Registers — banns and marriages: OPR 628/10 / 344; [record](https://www.scotlandspeople.gov.uk/).) The original parish register image has not been inspected. The combined index date does not by itself identify the precise event type. The identification remains uncertain.
+
+A possible identification concerns Margaret Glasgow. The banns/marriage index records Margaret Glasgow and John Tailzer on 18 December 1690 at Walston. (Scotland’s People: Old Parish Registers — banns and marriages: OPR 658/10 / 206; [record](https://www.scotlandspeople.gov.uk/).) The original parish register image has not been inspected. The combined index date does not by itself identify the precise event type. The identification remains uncertain.
+<!-- queue-record-integration-2026-10-17:end -->
