@@ -13,8 +13,7 @@ class ProfileTreeLinksTest(unittest.TestCase):
     def test_core_script_builds_links_for_tree_people(self):
         text = CORE.read_text(encoding="utf-8")
         self.assertEqual(text.count("nav.id='profile-tree-links'"), 1)
-        for href in ("'/onetree/#view=all&sun='", "'&view=family'", "'&view=family&lens=ancestors'",
-                     "'&view=all'", "'&view=lanes'"):
+        for href in ("'/onetree/#view=all&sun='", "'&view=family'", "'&view=all'", "'&view=lanes'"):
             self.assertIn(href, text)
         self.assertIn("me.tree!==true", text)
         self.assertIn(".dossier-header .dossier-actions", text)
@@ -30,6 +29,17 @@ class ProfileTreeLinksTest(unittest.TestCase):
         out = next(new for old, new in PATCHES if old.startswith("if(id&&P.has(id))"))
         self.assertIn("['ancestors','close'].includes(lens)", out)
         self.assertIn("v==='lanes'||v==='all'", out)
+
+    def test_family_view_is_one_tree(self):
+        # Descendants and ancestors are one hourglass tree; the old lenses are not offered.
+        text = CORE.read_text(encoding="utf-8")
+        self.assertIn("label:'Family tree'", text)
+        self.assertNotIn("lens=ancestors", text)
+        tree = next(new for old, new in PATCHES if old.startswith("function makeFamily("))
+        self.assertIn("if(TREE)return makeTree(id);", tree)
+        for piece in ("function treeUI()", "data-tree=\"up\"", "data-tree=\"down\"", "data-tree=\"sibs\"",
+                      "function treeElbow(", "function treeRowLabel("):
+            self.assertIn(piece, tree)
 
     def test_family_lines_counts_distinct_relatives(self):
         model = {"people": [
