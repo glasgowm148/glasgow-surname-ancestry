@@ -19,6 +19,13 @@ class ProfileTreeLinksTest(unittest.TestCase):
         self.assertIn("me.tree!==true", text)
         self.assertIn(".dossier-header .dossier-actions", text)
 
+    def test_saved_tree_view_only_restores_the_same_request(self):
+        # A link asking for another view (e.g. Whole tree after Descendants) must not be
+        # overridden by the camera saved for this tab; reloads and Back still restore it.
+        text = CORE.read_text(encoding="utf-8")
+        self.assertIn("sameAsk=!asked||askKey(saved?.path)===askKey('#'+asked)", text)
+        self.assertIn("if(saved&&sameAsk&&", text)
+
     def test_atlas_hash_opens_lens_and_timeline(self):
         out = next(new for old, new in PATCHES if old.startswith("if(id&&P.has(id))"))
         self.assertIn("['ancestors','close'].includes(lens)", out)
