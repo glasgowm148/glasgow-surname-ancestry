@@ -1,5 +1,7 @@
 # James Glasgow, North Carolina office, postal and land-warrant records to 1799
 
+DRAFT RETIRED — the record is represented by [[Glasgow-634]]. Source-specific identity and ancestry qualifications remain in the evidence below.
+
 <!-- identity-review-2026-10-17 -->
 ## Current identity disposition — 17 October 2026
 

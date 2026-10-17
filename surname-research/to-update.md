@@ -156,13 +156,11 @@ All 275 retained newspaper notices were re-researched against WikiTree (nine reg
 - `surname-research/new-people/pre1800_george-glasgow-second-lieutenant-1774.md` — HOLD
 - `surname-research/new-people/pre1800_james-glasco-omagh.md` — HOLD
 - `surname-research/new-people/pre1800_james-glasgow-marsh-creek-list-1795.md` — HOLD
-- `surname-research/new-people/pre1800_james-glasgow-north-carolina-records-1787-1795.md` — HOLD
 - `surname-research/new-people/pre1800_john-glasco-irish-rosters.md` — HOLD
 - `surname-research/new-people/pre1800_nathaniel-r-glascoe-kingsessing.md` — HOLD
 - `surname-research/new-people/pre1800_robert-andrew-glasgow-calder-family-1772.md` — HOLD
 - `surname-research/new-people/pre1800_robert-glasgow-cecil-plantation-notice-1786.md` — HOLD
 - `surname-research/new-people/pre1800_robert-glasgow-old-bailey-1751.md` — READY TO CREATE
-- `surname-research/new-people/pre1800_samuel-glascow-old-bailey.md` — READY TO CREATE
 - `surname-research/new-people/pre1800_samuel-glasgow-london-amicable.md` — READY TO CREATE
 - `surname-research/new-people/pre1800_thomas-glascoe-tinicum.md` — HOLD
 - `surname-research/new-people/pre1800_thomas-glasgow-kentucky-postal-1799.md` — HOLD
@@ -1983,3 +1981,10 @@ Existing-profile searches and their limits are recorded in each complete sourced
 | Sarah Glasgow, daughter of William of Currituck | SUGGESTED NEW | [Draft](../research/queue-review-2026-10-17/drafts/early-families/1746_United_States_North_Carolina_Currituck_Sarah_Glasgow.md) |
 
 <!-- queue-new-profile-suggestions-2026-10-17:end -->
+
+## Resolved source drafts — 17 October 2026
+
+| Profile | Status | Archived evidence draft |
+| --- | --- | --- |
+| [Glasgow-3175](https://www.wikitree.com/wiki/Glasgow-3175) | RESOLVED | [Complete archived draft](../research/Glasgow-3175/pre1800_samuel-glascow-old-bailey.md) — use the existing profile, retaining the recorded qualifications. |
+| [Glasgow-634](https://www.wikitree.com/wiki/Glasgow-634) | RESOLVED | [Complete archived draft](../research/Glasgow-634/pre1800_james-glasgow-north-carolina-records-1787-1795.md) — use the existing profile, retaining the recorded qualifications. |

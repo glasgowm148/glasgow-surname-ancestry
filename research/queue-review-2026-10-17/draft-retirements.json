@@ -1,0 +1,16 @@
+{
+  "reviewed_on": "2026-10-17",
+  "reason": "Confirmed record destinations; no duplicate creation. Frozen baseline/input locators remain historical and resolve through this move ledger.",
+  "moves": [
+    {
+      "old_path": "surname-research/new-people/pre1800_samuel-glascow-old-bailey.md",
+      "current_path": "research/Glasgow-3175/pre1800_samuel-glascow-old-bailey.md",
+      "profile_id": "Glasgow-3175"
+    },
+    {
+      "old_path": "surname-research/new-people/pre1800_james-glasgow-north-carolina-records-1787-1795.md",
+      "current_path": "research/Glasgow-634/pre1800_james-glasgow-north-carolina-records-1787-1795.md",
+      "profile_id": "Glasgow-634"
+    }
+  ]
+}

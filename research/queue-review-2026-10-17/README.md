@@ -31,3 +31,7 @@ subject accounts.
 
 All synchronization is local. No live WikiTree edits, profile creations,
 messages, merges, pushes or production deployment were performed.
+
+Two source drafts with confirmed record destinations were moved from the creation
+folder to Glasgow-3175 and Glasgow-634. `draft-retirements.json` preserves the old
+locators appearing in the frozen input evidence.
