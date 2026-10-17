@@ -4030,7 +4030,11 @@ def _extract_profile_draft(audit: dict) -> str:
     if not path or PROJECT_ROOT not in path.parents or not path.exists():
         return ""
     text = path.read_text(encoding="utf-8")
-    fenced = re.search(r"```wikitext\s*\n(.*?)\n```", text, re.S | re.I)
+    # A complete native biography can itself contain a quoted text block.
+    # Extract only a fence that actually encloses the profile, not that quote.
+    fenced = next((match for match in re.finditer(
+        r"```(?:wikitext|text|wiki)\s*\n(.*?)\n```", text, re.S | re.I
+    ) if "== Biography ==" in match.group(1)), None)
     if fenced:
         return fenced.group(1).strip()
     marker = re.search(r"^## Paste-ready biography\s*$", text, re.M | re.I)

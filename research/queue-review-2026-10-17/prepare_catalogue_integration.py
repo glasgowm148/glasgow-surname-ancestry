@@ -32,6 +32,8 @@ def main():
         # Keep parallel newspaper issues and editorial source notes accessible
         # in the complete draft as well as the evidence account.
         draft = subject['wikitext']
+        draft = re.split(r'^```|^##\s', draft, maxsplit=1, flags=re.M)[0].rstrip()
+        subject['wikitext'] = draft
         missing_sources = {s['url']: s['title'] for f in subject['facts'] for s in f['sources']
                            if s['url'].startswith(('https://', 'http://')) and s['url'] not in draft}
         if missing_sources:

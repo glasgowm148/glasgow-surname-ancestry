@@ -107,6 +107,15 @@ The deed does not give her birth date. No compatible profile survived the docume
                 else:
                     self.entry[field] = original
 
+    def test_rejects_editorial_footer_even_when_the_biography_is_complete(self):
+        for footer in ('\n```\n\n## Relationship and source cautions\nDo not copy this.',
+                       '\n\n## Identity review — editing log\nNot profile text.'):
+            self.entry['draft_wikitext'] = self.draft + footer
+            (self.root / self.entry['draft_path']).write_text(self.entry['draft_wikitext'])
+            self.save()
+            with self.assertRaisesRegex(ValueError, 'editorial Markdown'):
+                module.apply_creations(self.root)
+
     def test_rejects_canonical_collision_with_linked_profile(self):
         data = self.root / "www/data"
         data.mkdir()

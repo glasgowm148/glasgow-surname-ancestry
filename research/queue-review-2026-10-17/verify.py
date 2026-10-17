@@ -31,6 +31,7 @@ for person in suggestions:
     assert review['status'] == 'no_compatible_profile' and not review.get('profile_ids')
     assert all(s in person['draft_wikitext'] for s in ('== Biography ==', '== Sources ==', '<references />', '<ref'))
     assert re.search(r'https?://', person['draft_wikitext'])
+    assert '```' not in person['draft_wikitext'] and not re.search(r'^##\s', person['draft_wikitext'], re.M)
     path = ROOT / 'www' / person['url'].split('#')[0].lstrip('/') / 'index.html'
     assert path.is_file() and 'id="' + person['url'].split('#')[1] + '"' in path.read_text()
     assert person['name'] in (ROOT / 'surname-research/to-update.md').read_text()

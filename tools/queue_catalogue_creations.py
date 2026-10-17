@@ -59,6 +59,8 @@ def reviewed_people(root=ROOT):
         if entry.get("likely_living") or entry.get("living") or entry.get("private"):
             raise ValueError(f"{slug}: non-public or living subject")
         draft = entry["draft_wikitext"]
+        if "```" in draft or re.search(r"^##(?:\s|$)", draft, re.M):
+            raise ValueError(f"{slug}: editorial Markdown must stay outside the paste-ready draft")
         surname = next(iter(entry["last_names_at_birth"]), "")
         if not catalogue._is_complete_profile_draft(draft, subject_surname=surname):
             raise ValueError(f"{slug}: complete sourced WikiTree draft required")

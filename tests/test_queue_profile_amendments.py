@@ -11,6 +11,16 @@ from tools.build_research_catalog import _restore_captured_named_ref_definitions
 
 
 class ReviewedQueueAmendmentsTests(unittest.TestCase):
+    def test_text_fenced_handoff_extracts_only_native_biography(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory).resolve()
+            native = '== Biography ==\nA recorded person.<ref>Original record.</ref>\n== Sources ==\n<references />'
+            (root / 'draft.md').write_text('# Handoff\n\n```text\n' + native + '\n```\n\n## Relationship cautions\nEditing notes.')
+            with patch.object(catalogue, 'PROJECT_ROOT', root):
+                self.assertEqual(catalogue._extract_profile_draft({'draft_path': 'draft.md'}), native)
+                (root / 'native.wiki').write_text(native + '\n\n```text\nA source quotation.\n```\n\nA further source.')
+                self.assertIn('A further source.', catalogue._extract_profile_draft({'draft_path': 'native.wiki'}))
+
     def test_queue_cards_keep_filters_on_the_catalogue_route(self):
         with tempfile.TemporaryDirectory() as directory:
             web = Path(directory)

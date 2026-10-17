@@ -44,6 +44,8 @@ The rare full name, Southwark proceedings and Hazard episode support a probable 
 * [https://www.newspapers.com/image/971384823/ The Gloucester Journal, 1746-09-02, p.2].
 * [https://www.newspapers.com/image/1214319476/ The Weekly Worcester Journal, 1747-05-08, p.2].
 
+* [https://lyoninmourning.dhil.lib.sfu.ca/GLASM1.html Lyon in Mourning database: Nicholas Glascoe], citing Richard Hayes, “Biographical Dictionary of Irishmen in France: Part VI”, Studies 32, no.126 (1943), p.250. Secondary biographical reference; its birth and career details require comparison with contemporary trial and military records.
+
 ## Identity review — 6 October 2026
 
 No compatible WikiTree profile after a duplicate search; **READY TO CREATE** once the biography below is checked.
