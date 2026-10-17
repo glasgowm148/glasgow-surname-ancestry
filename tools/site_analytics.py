@@ -11,10 +11,10 @@ WEB = Path(__file__).resolve().parents[1] / "www"
 MEASUREMENT_ID = "G-JB207MGBMX"
 HEAD = re.compile(r"(<head\b[^>]*>)\s*", re.I)
 MANAGED_TAG = re.compile(
-    r"\s*<!-- site-analytics:start -->.*?<!-- site-analytics:end -->\s*", re.S
+    r"(?<!\s)\s*<!-- site-analytics:start -->.*?<!-- site-analytics:end -->\s*", re.S
 )
 LEGACY_TAG = re.compile(
-    rf"\s*<script\b[^>]*src=[\"']https://www\.googletagmanager\.com/gtag/js\?id={re.escape(MEASUREMENT_ID)}[\"'][^>]*>\s*</script>\s*"
+    rf"(?<!\s)\s*<script\b[^>]*src=[\"']https://www\.googletagmanager\.com/gtag/js\?id={re.escape(MEASUREMENT_ID)}[\"'][^>]*>\s*</script>\s*"
     rf"<script\b[^>]*>.*?gtag\(['\"]config['\"],\s*['\"]{re.escape(MEASUREMENT_ID)}['\"]\).*?</script>\s*",
     re.I | re.S,
 )
@@ -35,6 +35,8 @@ GOOGLE_TAG = f"""
 
 def without_analytics(html: str) -> str:
     """Remove only the project-managed tag, preserving source HTML."""
+    # Start only at the beginning of a whitespace run. Retrying every suffix
+    # makes a long indentation run quadratic on large generated pages.
     return LEGACY_TAG.sub("", MANAGED_TAG.sub("", html))
 
 

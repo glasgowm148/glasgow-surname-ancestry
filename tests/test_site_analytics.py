@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from pathlib import Path
 import tempfile
+import time
 import unittest
 
 from tools import repair_publication_policy, site_analytics
@@ -15,6 +16,17 @@ MANAGED = """<!-- site-analytics:start -->
 
 
 class SiteAnalyticsTests(unittest.TestCase):
+    def test_long_whitespace_preserves_content_without_quadratic_scan(self):
+        html = '<head><title>Keep</title></head><pre>' + ' ' * 100_000 + '</pre>'
+        started = time.monotonic()
+        self.assertEqual(html, site_analytics.without_analytics(html))
+        self.assertLess(time.monotonic() - started, 2)
+
+    def test_legacy_tag_removal_preserves_other_scripts(self):
+        legacy = site_analytics.GOOGLE_TAG.split('<!-- Google tag (gtag.js) -->')[1].split('<!-- site-analytics:end -->')[0]
+        before = '<head>\n  ' + legacy + '<script>keep()</script></head>'
+        self.assertEqual('<head><script>keep()</script></head>', site_analytics.without_analytics(before))
+
     def test_injection_is_stable_with_original_head_whitespace(self):
         for space in ('\n  ', '\n\n', '\t\n'):
             html = '<html><head>' + space + '<title>Original</title></head></html>'
