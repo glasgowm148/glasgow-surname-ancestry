@@ -33,6 +33,27 @@ class PublicFamiliesTests(unittest.TestCase):
         with patch('tools.branch_connectivity.load_public_nodes', return_value=(nodes, edges, {'multiple_fathers': list(ambiguous)})):
             return apply_public_families(people, self.site, assessments=assessments)
 
+    def test_probable_working_father_preserves_selected_provenance(self):
+        father = dict(id='Father-1', role='father', status='probable', hypothesis=True,
+                      assertion_id='A-selected', reason='Reviewed holding and witness')
+        people = [dict(id='Child-1', parents=[father]),
+                  dict(id='Father-1', parents=[], childrenRecorded=[])]
+        self.run_sync(people, {'Child-1': [
+            dict(id='Father-1', relationship='father', status='probable')
+        ]})
+        self.assertEqual(people[0]['parents'], [father])
+
+    def test_working_father_grade_disagreement_is_rejected(self):
+        for selected, published in [('probable', 'uncertain'), ('uncertain', 'probable')]:
+            with self.subTest(selected=selected, published=published):
+                people = [dict(id='Child-1', parents=[dict(
+                    id='Father-1', role='father', status=selected, hypothesis=True)]),
+                    dict(id='Father-1', parents=[], childrenRecorded=[])]
+                with self.assertRaisesRegex(ValueError, 'Working father disagrees'):
+                    self.run_sync(people, {'Child-1': [
+                        dict(id='Father-1', relationship='father', status=published)
+                    ]})
+
     def test_reviewed_mother_updates_beside_an_unchanged_working_father(self):
         father = dict(id='Father-1', role='father', status='uncertain', hypothesis=True)
         people = [dict(id='Child-1', parents=[father, dict(id='Mother-1', role='mother', status='unmarked')]),

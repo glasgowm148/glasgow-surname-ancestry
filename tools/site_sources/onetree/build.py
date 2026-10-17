@@ -475,7 +475,9 @@ def apply_public_families(people: list[dict], site_root: Path, cutoff: int = 185
         # Retain selected-hypothesis provenance and prior-parent history when
         # the current dossier still selects the same parent and uncertainty.
         if len(before) == len(after) == 1 and before[0].get('hypothesis'):
-            if before[0].get('id') != after[0].get('id') or after[0]['status'] != 'uncertain':
+            if (before[0].get('id') != after[0].get('id')
+                    or after[0]['status'] not in {'uncertain', 'probable'}
+                    or before[0].get('status') != after[0]['status']):
                 raise ValueError('Working father disagrees with public dossier: ' + ident)
             continue
         signature = lambda rows: [(r.get('id') or '', r.get('status')) for r in rows]
