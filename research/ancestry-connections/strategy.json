@@ -3605,7 +3605,57 @@
       "local_family_edges_added": 2,
       "paternal_edges_added": 1,
       "certainty_upgrades": 0,
-      "reviewed": "2026-10-17"
+      "reviewed": "2026-10-17",
+      "quantitative_effect": {
+        "cutoff": 1850,
+        "cohort_population": 1786,
+        "current_cohort": {
+          "population": {
+            "before": 1786,
+            "after": 1786
+          },
+          "edge_count": {
+            "before": 1360,
+            "after": 1361
+          },
+          "component_count": {
+            "before": 428,
+            "after": 427
+          },
+          "largest_component_size": {
+            "before": 1062,
+            "after": 1068
+          },
+          "connected_pairs_percent": {
+            "before": 35.42190896515381,
+            "after": 35.821656770210886
+          }
+        },
+        "fixed_original_cohort": {
+          "population": {
+            "before": 1776,
+            "after": 1776
+          },
+          "edge_count": {
+            "before": 1359,
+            "after": 1360
+          },
+          "component_count": {
+            "before": 420,
+            "after": 419
+          },
+          "largest_component_size": {
+            "before": 1060,
+            "after": 1066
+          },
+          "connected_pairs_percent": {
+            "before": 35.687476208602966,
+            "after": 36.09097830224591
+          }
+        },
+        "supported_and_confident_changes": 0,
+        "interpretation": "A conditional six-account branch connection; account-based metrics do not establish the adult identity or make the selected parents documented."
+      }
     }
   ],
   "source_basis": "Initial priorities reconcile existing medieval bridge research, the pre-1550 relationship audit and the resolved public catalogue. They are current working comparisons, not newly discovered kinship records."
