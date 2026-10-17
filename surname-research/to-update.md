@@ -1850,3 +1850,14 @@ The August completion entries remain historical. The live parent fields are now 
 | [Archibald Glasgow, Glasgow burgess](https://www.wikitree.com/wiki/Glasgow-1097) | OPEN | Explain the preferred uncertain adult parents and documented record household; retain alternative parentage and separate Robert identities. |
 | [Isobell Newlands](https://www.wikitree.com/wiki/Newlands-647) | OPEN | Explain the preferred uncertain adult parents and documented record household; retain alternative parentage and separate Robert identities. |
 | [Robert Glasgow, son named in the 1598 testament](https://www.wikitree.com/wiki/Glasgow-4006) | OPEN | Explain the preferred uncertain adult parents and documented record household; retain alternative parentage and separate Robert identities. |
+
+
+## Parish parent review — 17 October 2026
+
+| [Alexander Glasgow, Kirknewton 1673](https://www.wikitree.com/wiki/Glasgow-1314) | OPEN | Add the cited parish-parent assessment and review existing certainty marks; preserve other relationships, dates and complete text. |
+| [Alexander Glasgow, Kirknewton householder](https://www.wikitree.com/wiki/Glasgow-3118) | OPEN | Add the cited parish-parent assessment and review existing certainty marks; preserve other relationships, dates and complete text. |
+| [George Glasgow, Kilwinning 1719](https://www.wikitree.com/wiki/Glasgow-1070) | OPEN | Add the cited parish-parent assessment and review existing certainty marks; preserve other relationships, dates and complete text. |
+| [Hugh Glasgow, Kilwinning 1716](https://www.wikitree.com/wiki/Glasgow-1071) | OPEN | Add the cited parish-parent assessment and review existing certainty marks; preserve other relationships, dates and complete text. |
+| [Jean Glasgow, Kilwinning 1722](https://www.wikitree.com/wiki/Glasgow-1072) | OPEN | Add the cited parish-parent assessment and review existing certainty marks; preserve other relationships, dates and complete text. |
+| [Robert Glasgow, Kilwinning father](https://www.wikitree.com/wiki/Glasgow-1068) | OPEN | Add the cited parish-parent assessment and review existing certainty marks; preserve other relationships, dates and complete text. |
+| [Mary Simpson or Simson](https://www.wikitree.com/wiki/Simpson-18136) | OPEN | Add the cited parish-parent assessment and review existing certainty marks; preserve other relationships, dates and complete text. |

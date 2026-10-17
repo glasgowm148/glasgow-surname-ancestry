@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+**Family review, 17 October 2026:** The 1673 Alexander’s father link is now **probable**, identifying the indexed same-parish father with this 1667 adult. Andrew-1546 and the older John-3610 route retain their uncertainty.
+
 [James Glasgow (Glasgow-1150)](https://www.wikitree.com/wiki/Glasgow-1150)
 cannot be ruled out biologically, but the automated score materially overstates
 the case. James married Bessie Whyte at Edinburgh on 6 July 1649 and their
@@ -33,3 +35,15 @@ without an original baptism, testament or same-parish household record.
 Source: Old Parish Registers, banns and marriages; exact surname Glasgow through 1700, 55 supplied results. Original images not inspected for this batch; combined index dates do not by themselves establish ceremony dates.
 
 The 30 September 2026 review replaces the earlier name-and-chronology assignment of the 1665 occurrence with the record-defined existing couple Glasgow-1152 and Anderson-56713. It does not establish whether Glasgow-3118 and Glasgow-1152 represent different people; that separate identity question remains open. No merge or relationship change is proposed for Glasgow-3118. The 1667 occurrence and the other research assessments above are unchanged.
+
+## Parish family review — 17 October 2026
+
+Alexander’s 1673 Kirknewton birth/baptism index explicitly names father Alexander Glasgow. The existing Alexander-3118 account is the same-parish man indexed marrying Margaret Smith in 1667, six years earlier, with a compatible father generation and a later Agnes child association in 1677. The exact father name, parish and ordered household chronology together favour that existing adult as the named father. Assess the attachment as probable rather than leaving it ungraded. This is an inference identifying the indexed father with the 1667 adult; the child entry alone does not identify that adult by wife, trade or property.
+
+Another Alexander could have fathered the 1673 child. The marriage and baptism supply no inspected cross-reference, and the father’s circa-1650 birth is an estimate, not an age statement. Margaret Smith is not named as mother in the reviewed 1673 entry and receives no maternity upgrade. Andrew-1546 remains an uncertain proposed son of the older Alexander. Alexander-1141 remains an unproved child of the 1673 Alexander; the latter himself remains a possible older father behind the 1721–1732 child series. The 1673 birth/baptism dates, the 1701 and 1705 marriages and the later children’s maternity questions are retained. The older John-3610 father route is not strengthened.
+
+Seven existing local assessments are strengthened: one probable Kirknewton father and six documented Kilwinning parent roles. Four paternal grades enter the probable-or-stronger calculation, of which three enter the confidently marked calculation; mothers do not join paternal surname components. The Kirknewton child side has 33 pre-1850 profile accounts and George’s has 21, but those downstream uncertain links are not upgraded by these parent records. Existing selected working parents, the fixed cohort and all other grades remain unchanged.
+
+Sources: [Kirknewton Alexander: FamilySearch VQ4K-X9V, birth 7 July and baptism 20 July 1673, named father Alexander; previously reviewed index](https://www.familysearch.org/ark:/61903/1:1:VQ4K-X9V); [Alexander Glasgow and Margaret Smith, Kirknewton 1667; previously cited marriage index XY9W-TPB](https://familysearch.org/ark:/61903/1:1:XY9W-TPB).
+
+[Full family assessment and remaining questions](/branches/early-scottish-records/#chapter-parish-household-confidence).

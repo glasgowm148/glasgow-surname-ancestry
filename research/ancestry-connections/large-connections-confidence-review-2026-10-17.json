@@ -1,0 +1,135 @@
+{
+  "reviewed": "2026-10-17",
+  "scope": "Largest existing weak joins considered before parish-grade upgrades",
+  "counting": "Child-side sizes use the unchanged pre-1850 working cohort. They overlap and are not additive; they do not measure certainty.",
+  "unchanged_largest_joins": [
+    {
+      "child": "Glasgow-1095",
+      "father": "record-john-glasgw-stirling-1475",
+      "child_side_profiles": 1034,
+      "status": "uncertain",
+      "reason": "The maintained Stirling/Saltmarket comparison retains provisional identity and father-versus-other-degree alternatives; no kinship clause or shared holding establishes the proposed degree.",
+      "source": "research/ancestry-connections/strategy.json#stirling-saltmarket"
+    },
+    {
+      "child": "Glasgow-3296",
+      "father": "Glasgow-1029",
+      "child_side_profiles": 316,
+      "status": "uncertain",
+      "reason": "The Montfoid, Mid Calder and Quothquan adult identities remain qualified. The 1650 testament names sister Bessie, not a parent; no evidence reviewed here identifies Stephen as father.",
+      "source": "research/Glasgow-3296/findings.md"
+    },
+    {
+      "child": "Glasgow-3163",
+      "father": "Glasgow-1093",
+      "child_side_profiles": 300,
+      "status": "possible",
+      "reason": "No reviewed record names Andrew’s father. The previously proposed Andrew in the 1577 Hirmenschelis testament was corrected to Marjory; that reading supplies no parentage support.",
+      "source": "research/Glasgow-3163/findings.md"
+    }
+  ],
+  "strengthened_parish_links": [
+    {
+      "subject_id": "Glasgow-1314",
+      "relative_id": "Glasgow-3118",
+      "relationship": "father",
+      "before": "unmarked",
+      "after": "probable",
+      "assertion_id": "C-review-20261017-parish-glasgow-1314-father",
+      "basis": "Alexander’s 1673 Kirknewton birth/baptism index explicitly names father Alexander Glasgow. The existing Alexander-3118 account is the same-parish man indexed marrying Margaret Smith in 1667, six years earlier, with a compatible father generation and a later Agnes child association in 1677. The exact father name, parish and ordered household chronology together favour that existing adult as the named father. Assess the attachment as probable rather than leaving it ungraded. This is an inference identifying the indexed father with the 1667 adult; the child entry alone does not identify that adult by wife, trade or property.",
+      "limitations": "Another Alexander could have fathered the 1673 child. The marriage and baptism supply no inspected cross-reference, and the father’s circa-1650 birth is an estimate, not an age statement. Margaret Smith is not named as mother in the reviewed 1673 entry and receives no maternity upgrade. Andrew-1546 remains an uncertain proposed son of the older Alexander. Alexander-1141 remains an unproved child of the 1673 Alexander; the latter himself remains a possible older father behind the 1721–1732 child series. The 1673 birth/baptism dates, the 1701 and 1705 marriages and the later children’s maternity questions are retained. The older John-3610 father route is not strengthened.",
+      "new_attachment": false,
+      "live_flag_changed": false
+    },
+    {
+      "subject_id": "Glasgow-1071",
+      "relative_id": "Glasgow-1068",
+      "relationship": "father",
+      "before": "unmarked",
+      "after": "proved",
+      "assertion_id": "C-review-20261017-parish-glasgow-1071-father",
+      "basis": "The accepted Kilwinning parish transcripts name Robert Glasgow and Mary Simson as the parents of Hugh in 1716, George in 1719 and Jean in 1722. The existing 1715 Kilwinning marriage index names Robert Glasgow and Mary Simpson; ordinary Simson/Simpson spelling variation, the repeated parental pair and the ordered 1715–1722 family sequence identify one record-defined household. George and Jean also share Byrehill residence. These records document both parents for each indexed child, not merely a spouse inferred as mother. The three child profiles already represent those checked entries, so their father and mother assessments can be marked documented.",
+      "limitations": "These are previously accepted derivative register transcripts and indexes; no fresh original image reading or new record discovery is claimed. The three transcripts derive from one parish register and are not independent sources. Hugh’s transcript has no residence field; Byrehill is not newly assigned to him. The FMP page references and the separately retained ScotlandsPeople references remain literal provider locators. This household proof does not newly identify the adult Robert with the 1678 child, prove ancestry above either parent, or identify any child with a later adult. George’s merchant, Manchester inventor and artillery comparisons remain separate; James-1120 and the later Covington family do not receive a new parentage grade. No date, birthplace, spouse, occupation, live parent field or saved certainty flag changes.",
+      "new_attachment": false,
+      "live_flag_changed": false
+    },
+    {
+      "subject_id": "Glasgow-1071",
+      "relative_id": "Simpson-18136",
+      "relationship": "mother",
+      "before": "unmarked",
+      "after": "proved",
+      "assertion_id": "C-review-20261017-parish-glasgow-1071-mother",
+      "basis": "The accepted Kilwinning parish transcripts name Robert Glasgow and Mary Simson as the parents of Hugh in 1716, George in 1719 and Jean in 1722. The existing 1715 Kilwinning marriage index names Robert Glasgow and Mary Simpson; ordinary Simson/Simpson spelling variation, the repeated parental pair and the ordered 1715–1722 family sequence identify one record-defined household. George and Jean also share Byrehill residence. These records document both parents for each indexed child, not merely a spouse inferred as mother. The three child profiles already represent those checked entries, so their father and mother assessments can be marked documented.",
+      "limitations": "These are previously accepted derivative register transcripts and indexes; no fresh original image reading or new record discovery is claimed. The three transcripts derive from one parish register and are not independent sources. Hugh’s transcript has no residence field; Byrehill is not newly assigned to him. The FMP page references and the separately retained ScotlandsPeople references remain literal provider locators. This household proof does not newly identify the adult Robert with the 1678 child, prove ancestry above either parent, or identify any child with a later adult. George’s merchant, Manchester inventor and artillery comparisons remain separate; James-1120 and the later Covington family do not receive a new parentage grade. No date, birthplace, spouse, occupation, live parent field or saved certainty flag changes.",
+      "new_attachment": false,
+      "live_flag_changed": false
+    },
+    {
+      "subject_id": "Glasgow-1070",
+      "relative_id": "Glasgow-1068",
+      "relationship": "father",
+      "before": "unmarked",
+      "after": "proved",
+      "assertion_id": "C-review-20261017-parish-glasgow-1070-father",
+      "basis": "The accepted Kilwinning parish transcripts name Robert Glasgow and Mary Simson as the parents of Hugh in 1716, George in 1719 and Jean in 1722. The existing 1715 Kilwinning marriage index names Robert Glasgow and Mary Simpson; ordinary Simson/Simpson spelling variation, the repeated parental pair and the ordered 1715–1722 family sequence identify one record-defined household. George and Jean also share Byrehill residence. These records document both parents for each indexed child, not merely a spouse inferred as mother. The three child profiles already represent those checked entries, so their father and mother assessments can be marked documented.",
+      "limitations": "These are previously accepted derivative register transcripts and indexes; no fresh original image reading or new record discovery is claimed. The three transcripts derive from one parish register and are not independent sources. Hugh’s transcript has no residence field; Byrehill is not newly assigned to him. The FMP page references and the separately retained ScotlandsPeople references remain literal provider locators. This household proof does not newly identify the adult Robert with the 1678 child, prove ancestry above either parent, or identify any child with a later adult. George’s merchant, Manchester inventor and artillery comparisons remain separate; James-1120 and the later Covington family do not receive a new parentage grade. No date, birthplace, spouse, occupation, live parent field or saved certainty flag changes.",
+      "new_attachment": false,
+      "live_flag_changed": false
+    },
+    {
+      "subject_id": "Glasgow-1070",
+      "relative_id": "Simpson-18136",
+      "relationship": "mother",
+      "before": "unmarked",
+      "after": "proved",
+      "assertion_id": "C-review-20261017-parish-glasgow-1070-mother",
+      "basis": "The accepted Kilwinning parish transcripts name Robert Glasgow and Mary Simson as the parents of Hugh in 1716, George in 1719 and Jean in 1722. The existing 1715 Kilwinning marriage index names Robert Glasgow and Mary Simpson; ordinary Simson/Simpson spelling variation, the repeated parental pair and the ordered 1715–1722 family sequence identify one record-defined household. George and Jean also share Byrehill residence. These records document both parents for each indexed child, not merely a spouse inferred as mother. The three child profiles already represent those checked entries, so their father and mother assessments can be marked documented.",
+      "limitations": "These are previously accepted derivative register transcripts and indexes; no fresh original image reading or new record discovery is claimed. The three transcripts derive from one parish register and are not independent sources. Hugh’s transcript has no residence field; Byrehill is not newly assigned to him. The FMP page references and the separately retained ScotlandsPeople references remain literal provider locators. This household proof does not newly identify the adult Robert with the 1678 child, prove ancestry above either parent, or identify any child with a later adult. George’s merchant, Manchester inventor and artillery comparisons remain separate; James-1120 and the later Covington family do not receive a new parentage grade. No date, birthplace, spouse, occupation, live parent field or saved certainty flag changes.",
+      "new_attachment": false,
+      "live_flag_changed": false
+    },
+    {
+      "subject_id": "Glasgow-1072",
+      "relative_id": "Glasgow-1068",
+      "relationship": "father",
+      "before": "unmarked",
+      "after": "proved",
+      "assertion_id": "C-review-20261017-parish-glasgow-1072-father",
+      "basis": "The accepted Kilwinning parish transcripts name Robert Glasgow and Mary Simson as the parents of Hugh in 1716, George in 1719 and Jean in 1722. The existing 1715 Kilwinning marriage index names Robert Glasgow and Mary Simpson; ordinary Simson/Simpson spelling variation, the repeated parental pair and the ordered 1715–1722 family sequence identify one record-defined household. George and Jean also share Byrehill residence. These records document both parents for each indexed child, not merely a spouse inferred as mother. The three child profiles already represent those checked entries, so their father and mother assessments can be marked documented.",
+      "limitations": "These are previously accepted derivative register transcripts and indexes; no fresh original image reading or new record discovery is claimed. The three transcripts derive from one parish register and are not independent sources. Hugh’s transcript has no residence field; Byrehill is not newly assigned to him. The FMP page references and the separately retained ScotlandsPeople references remain literal provider locators. This household proof does not newly identify the adult Robert with the 1678 child, prove ancestry above either parent, or identify any child with a later adult. George’s merchant, Manchester inventor and artillery comparisons remain separate; James-1120 and the later Covington family do not receive a new parentage grade. No date, birthplace, spouse, occupation, live parent field or saved certainty flag changes.",
+      "new_attachment": false,
+      "live_flag_changed": false
+    },
+    {
+      "subject_id": "Glasgow-1072",
+      "relative_id": "Simpson-18136",
+      "relationship": "mother",
+      "before": "unmarked",
+      "after": "proved",
+      "assertion_id": "C-review-20261017-parish-glasgow-1072-mother",
+      "basis": "The accepted Kilwinning parish transcripts name Robert Glasgow and Mary Simson as the parents of Hugh in 1716, George in 1719 and Jean in 1722. The existing 1715 Kilwinning marriage index names Robert Glasgow and Mary Simpson; ordinary Simson/Simpson spelling variation, the repeated parental pair and the ordered 1715–1722 family sequence identify one record-defined household. George and Jean also share Byrehill residence. These records document both parents for each indexed child, not merely a spouse inferred as mother. The three child profiles already represent those checked entries, so their father and mother assessments can be marked documented.",
+      "limitations": "These are previously accepted derivative register transcripts and indexes; no fresh original image reading or new record discovery is claimed. The three transcripts derive from one parish register and are not independent sources. Hugh’s transcript has no residence field; Byrehill is not newly assigned to him. The FMP page references and the separately retained ScotlandsPeople references remain literal provider locators. This household proof does not newly identify the adult Robert with the 1678 child, prove ancestry above either parent, or identify any child with a later adult. George’s merchant, Manchester inventor and artillery comparisons remain separate; James-1120 and the later Covington family do not receive a new parentage grade. No date, birthplace, spouse, occupation, live parent field or saved certainty flag changes.",
+      "new_attachment": false,
+      "live_flag_changed": false
+    }
+  ],
+  "public_context": "/branches/early-scottish-records/#chapter-parish-household-confidence",
+  "source_scope": "Existing maintained parish indexes/transcripts and earlier source assessments, with fresh anonymous public-profile capture. No new original manuscript inspection.",
+  "candidate_checks": [
+    {
+      "subject": "Glasgow-1314",
+      "scope": "Current public catalogue: given name Alexander, Kirknewton/Calder in birth place, death place or recorded-in fields, birth year <=1660 or unknown.",
+      "result": [
+        "Glasgow-3118"
+      ],
+      "limitation": "Known local catalogue coverage only; not an exhaustive population search and not an exclusion of men without a recorded locality."
+    },
+    {
+      "subject": "Glasgow-1068",
+      "checked_reference": "Glasgow-1056",
+      "result": "The retained Similar person pointer leads to Hugh Glasgow, estimated 1692, with John/Spark parents and Kilpatrick spouse. It does not supply another Robert/Mary parent pair or establish a duplicate.",
+      "source": "www/people/glasgow-1056.json"
+    }
+  ]
+}
