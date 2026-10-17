@@ -4863,5 +4863,41 @@
         "role": "Named mother"
       }
     }
+  },
+  {
+    "record_id": "geneanet-mwells-martinsburg-parentage",
+    "record_type": "contributed pedigree statement",
+    "date": "Tree inspected 17 October 2026; reports 1769 birth",
+    "year": null,
+    "place": "Ireland; later Martinsburg, New York",
+    "source_title": "mwells, Geneanet family tree, Robert Glasgow (1769–1858), inspected 17 October 2026; contributed parentage, not a contemporary record",
+    "source_url": "https://gw.geneanet.org/mwells?lang=en&n=glasgow&oc=0&p=robert&type=fiche",
+    "source_quality": "tree_only",
+    "status": "Modern family-tree assertion inspected; historical parentage unverified",
+    "note": "The Geneanet entry already cited in Robert’s saved biography was inspected directly. It represents the man reported born in 1769 in Ireland and dead at Martinsburg on 26 November 1858, with the same wife and children. It explicitly attaches John Glasgow, born 1745 in Ireland, and Margaret, entered under the surname Nee, as parents. John’s own page cites only Ancestry Family Trees. This verifies what the contributed tree says; it does not verify historical paternity, either parent’s birth, or Margaret’s surname. The page gives Ireland, not County Tyrone. Robert’s more specific Tyrone origin remains an inherited local-profile claim. The stated John is only possibly Glasgow-2990.",
+    "profiles": {
+      "Glasgow-1189": {
+        "role": "Reported son"
+      },
+      "Glasgow-2990": {
+        "role": "Possible identity of contributed father, not proved"
+      }
+    }
+  },
+  {
+    "record_id": "derryloran-john-drumearn-1766",
+    "record_type": "religious census householder return",
+    "date": "1766",
+    "year": 1766,
+    "place": "Drumearn, Derryloran, County Tyrone, Ireland",
+    "source_title": "National Archives of Ireland, IHP/1/665, 1766 Derryloran religious return; maintained original-return review reused, not newly inspected",
+    "source_url": "https://virtualtreasury.ie/item/NAI-IHP-1-665",
+    "status": "Maintained original-return review reused",
+    "note": "John Glasco follows two Jas/Jams Glasco households. No age, parent, wife or child stated. This record does not name Robert.",
+    "profiles": {
+      "Glasgow-2990": {
+        "role": "Named householder"
+      }
+    }
   }
 ]

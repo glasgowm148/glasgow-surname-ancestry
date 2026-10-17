@@ -2314,3 +2314,9 @@ Burial-defined Walter remains on source-verification HOLD in the existing creati
 | [Robert Glasgow of Leitholm](https://www.wikitree.com/wiki/Glasgow-3706) | OPEN | Add the 1779 Eccles marriage and earlier child; suggest James Glasgow-1238 as possible father (34%), retaining John/Agnes Spark and other alternatives. |
 | [James Glasgow of Stichill](https://www.wikitree.com/wiki/Glasgow-1238) | OPEN | Add the possible Leitholm son Robert (34%) and preserve the sourced Stichill family. The superseded Castle clergy comparison belongs to Glasgow-1140. |
 | [Agnes Whitehead](https://www.wikitree.com/wiki/Whitehead-9630) | OPEN | Add the checked 4 April 1779 Eccles marriage and 1779 child citation; distinguish profile birth claims from the record. |
+
+
+## Drumearn and Martinsburg — 17 October 2026
+
+| [Robert Glasgow of Martinsburg](https://www.wikitree.com/wiki/Glasgow-1189) | OPEN | Add John Glasgow-2990 of Drumearn as possible father (31%) of the Martinsburg Robert; retain the contributed-parentage and identity limits. Preserve earlier newspaper comparisons as qualified, separate identities. |
+| [John Glasco of Drumearn](https://www.wikitree.com/wiki/Glasgow-2990) | OPEN | Add the possible Martinsburg son Robert Glasgow-1189 (31%); preserve the documented 1766 householder and uncertain older ancestry. Preserve earlier newspaper comparisons as qualified, separate identities. |

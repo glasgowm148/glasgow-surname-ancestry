@@ -892,8 +892,8 @@
     },
     "Glasgow-1189": {
       "draft_path": "research/Glasgow-1189/queue-review-2026-10-17.wiki",
-      "summary": "Add the cited record account: Possible Robert Glasgow, Cookstown reward subscriber, 1796. Retain the stated identity and relationship limits.",
-      "work_queue_summary": "Add the cited record account: Possible Robert Glasgow, Cookstown reward subscriber, 1796. Retain the stated identity and relationship limits.",
+      "summary": "Add John Glasgow-2990 of Drumearn as possible father (31%) of the Martinsburg Robert; retain the contributed-parentage and identity limits. Preserve earlier newspaper comparisons as qualified, separate identities.",
+      "work_queue_summary": "Add John Glasgow-2990 of Drumearn as possible father (31%) of the Martinsburg Robert; retain the contributed-parentage and identity limits. Preserve earlier newspaper comparisons as qualified, separate identities.",
       "queued_at": "2026-10-17",
       "status": "OPEN",
       "pending": true,
@@ -902,7 +902,22 @@
         "subject-newspapers-early-glasgow-robert-glasgow-cookstown-reward-1796"
       ],
       "private_comparison": false,
-      "prior_work_summary": ""
+      "prior_work_summary": "",
+      "manual_update": true,
+      "significance": 78,
+      "preservation_review_path": "research/ancestry-connections/drumearn-martinsburg-working-family-preservation-2026-10-17.json",
+      "reviewed_narrative_reduction": true,
+      "preserve_captured_detail": false,
+      "relationship_changes": [
+        {
+          "action": "add",
+          "relationship": "father",
+          "relative_id": "Glasgow-2990",
+          "status": "possible",
+          "assertion_id": "C-working-20261017-drumearn-john-robert-martinsburg",
+          "scope": "31% joint subjective belief; contributed John father and possible Drumearn identity, not a named child in the census."
+        }
+      ]
     },
     "Glasgow-12": {
       "draft_path": "research/Glasgow-12/queue-review-2026-10-17.wiki",
@@ -2142,8 +2157,8 @@
     },
     "Glasgow-2990": {
       "draft_path": "research/Glasgow-2990/queue-review-2026-10-17.wiki",
-      "summary": "Add the cited record accounts: John Glasco, charged at Bow Street; John Glascow, London chairman; John Glasgow, Loughinsholin freeholder, 1831. Retain the stated identity and relationship limits.",
-      "work_queue_summary": "Add the cited record accounts: John Glasco, charged at Bow Street; John Glascow, London chairman; John Glasgow, Loughinsholin freeholder, 1831. Retain the stated identity and relationship limits.",
+      "summary": "Add the possible Martinsburg son Robert Glasgow-1189 (31%); preserve the documented 1766 householder and uncertain older ancestry. Preserve earlier newspaper comparisons as qualified, separate identities.",
+      "work_queue_summary": "Add the possible Martinsburg son Robert Glasgow-1189 (31%); preserve the documented 1766 householder and uncertain older ancestry. Preserve earlier newspaper comparisons as qualified, separate identities.",
       "queued_at": "2026-10-17",
       "status": "OPEN",
       "pending": true,
@@ -2154,7 +2169,12 @@
         "subject-newspapers-irish-1800-1850-john-loughinsholin-freeholder"
       ],
       "private_comparison": false,
-      "prior_work_summary": ""
+      "prior_work_summary": "",
+      "manual_update": true,
+      "significance": 56,
+      "preservation_review_path": "research/ancestry-connections/drumearn-martinsburg-working-family-preservation-2026-10-17.json",
+      "reviewed_narrative_reduction": true,
+      "preserve_captured_detail": false
     },
     "Glasgow-3000": {
       "draft_path": "research/Glasgow-3000/queue-review-2026-10-17.wiki",

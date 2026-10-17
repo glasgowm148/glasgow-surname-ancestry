@@ -3988,6 +3988,55 @@
       "counted_as_new_connection": true,
       "reviewed": "2026-10-17",
       "certainty_upgrades": 0
+    },
+    {
+      "id": "drumearn-martinsburg-working-family",
+      "year": 1766,
+      "title": "Drumearn to Martinsburg: possible John father, 31%",
+      "status": "Selected possible father; contributed parent name, unproved householder identity",
+      "people": [
+        {
+          "name": "Robert Glasgow of Martinsburg",
+          "url": "/people/glasgow-1189.html"
+        },
+        {
+          "name": "John Glasco of Drumearn",
+          "url": "/people/glasgow-2990.html"
+        }
+      ],
+      "basis": "Select John Glasco of Drumearn (Glasgow-2990) as Robert Glasgow-1189’s possible working father, at 31% subjective confidence. The specific reported father name John favours a John comparison over the automated leading candidate James Glasgow-1970. The actual 1766 Derryloran return places John at Drumearn beside two James Glasco households, three years before Robert’s estimated birth. That supplies a real Tyrone father-generation account compatible with the reported origin. John’s circa-1750 local estimate and the contributed father’s 1745 year are both unproved; either permits fatherhood around 1769, and no date is changed to fit. The estimate assesses the whole proposition that the documented householder was the reported father. It is not a rating of the census record, a statistical probability, or a product of the uncertain ancestry above John.",
+      "next_test": "Trace the source of the John/Margaret attachment behind the contributed tree. Inspect the 1803 Caughnawaga baptism and Robert’s American naturalisation, land, probate or family papers for an actual Irish locality or named parent. Compare Drumearn estate/tenancy records and collateral emigrants with the West Calder and Larne alternatives. Keep the eighteenth-century parent question distinct from later descendant record work.",
+      "record_references": [
+        "mwells, Geneanet family tree, Robert Glasgow (1769–1858), inspected 17 October 2026; contributed parentage, not a contemporary record",
+        "mwells, Geneanet family tree, John Glasgow (1745–), inspected 17 October 2026; Ireland birth and Margaret Nee spouse; only Ancestry Family Trees cited",
+        "National Archives of Ireland, IHP/1/665, 1766 Derryloran religious return; maintained original-return review reused, not newly inspected",
+        "Robert Glasgow-1189, captured WikiTree biography and family; Tyrone birth remains a profile claim"
+      ],
+      "sources": [
+        {
+          "label": "mwells, Geneanet family tree, Robert Glasgow (1769–1858), inspected 17 October 2026; contributed parentage, not a contemporary record",
+          "url": "https://gw.geneanet.org/mwells?lang=en&n=glasgow&oc=0&p=robert&type=fiche"
+        },
+        {
+          "label": "mwells, Geneanet family tree, John Glasgow (1745–), inspected 17 October 2026; Ireland birth and Margaret Nee spouse; only Ancestry Family Trees cited",
+          "url": "https://gw.geneanet.org/mwells?lang=en&n=glasgow&oc=1&p=john"
+        },
+        {
+          "label": "National Archives of Ireland, IHP/1/665, 1766 Derryloran religious return; maintained original-return review reused, not newly inspected",
+          "url": "https://virtualtreasury.ie/item/NAI-IHP-1-665"
+        },
+        {
+          "label": "Robert Glasgow-1189, captured WikiTree biography and family; Tyrone birth remains a profile claim",
+          "url": "https://www.wikitree.com/wiki/Glasgow-1189"
+        }
+      ],
+      "working_selection": true,
+      "assertion_ids": [
+        "C-working-20261017-drumearn-john-robert-martinsburg"
+      ],
+      "counted_as_new_connection": true,
+      "reviewed": "2026-10-17",
+      "certainty_upgrades": 0
     }
   ],
   "source_basis": "Initial priorities reconcile existing medieval bridge research, the pre-1550 relationship audit and the resolved public catalogue. They are current working comparisons, not newly discovered kinship records."
