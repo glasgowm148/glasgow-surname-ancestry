@@ -11,7 +11,12 @@
     const query = byId('head-search').value.trim().toLowerCase();
     const values = [[number(summary.component_count),'separate paternal branches'],[number(summary.unattached_multi_child_roots.length),'unattached fathers with 2+ children'],[summary.largest_component_percent.toFixed(1)+'%','people in the largest branch'],[summary.connected_pairs_percent.toFixed(2)+'%','pairs connected through fathers']];
     byId('connectivity-stats').innerHTML = values.map(([value,label]) => `<div><strong>${esc(value)}</strong><span>${esc(label)}</span></div>`).join('');
-    byId('cohort-detail').textContent = `${number(summary.population)} public surname bearers; ${number(summary.edge_count)} father–child links. Both views use the same people.`;
+    byId('cohort-detail').textContent = `${number(summary.population)} public surname bearers; ${number(summary.edge_count)} father–child links. All views use the same people.`;
+    byId('link-view-note').textContent = data.views[view].description;
+    byId('threshold-comparison').innerHTML = Object.keys(data.views).map(key => {
+      const row = data.cohorts[cutoff][key], label = esc(data.views[key].label);
+      return `<tr><th scope="row">${key===view?'<strong>'+label+'</strong>':label}</th><td>${number(row.component_count)}</td><td>${number(row.largest_component_size)}</td><td>${row.connected_pairs_percent.toFixed(2)}%</td></tr>`;
+    }).join('');
     const roots = summary.family_roots.filter(r => (!early || (r.year !== null && r.year <= data.early_cutoff)) && (!query || `${r.name} ${r.id}`.toLowerCase().includes(query)));
     byId('head-count').textContent = `${number(roots.length)} ${early?'early ':''}family heads shown, oldest first`;
     byId('family-head-rows').innerHTML = roots.length ? roots.map(r => `<tr><td><a href="${esc(r.url)}">${esc(r.name)}</a><small>${esc(r.id)}</small></td><td>${esc(r.year ?? 'Undated')}<small>${esc(r.year_basis || 'ancestor of dated person')} · ${esc(r.year_status)}</small></td><td>${number(r.child_count)}</td><td>${number(r.descendant_count)}</td></tr>`).join('') : '<tr><td colspan="4">No family head matches these choices.</td></tr>';
@@ -22,7 +27,7 @@
   }
   const params = new URLSearchParams(location.search);
   if (data.cohorts[params.get('through')]) byId('progress-cutoff').value=params.get('through');
-  if (['working','confident'].includes(params.get('links'))) byId('progress-view').value=params.get('links');
+  if (Object.keys(data.views).includes(params.get('links'))) byId('progress-view').value=params.get('links');
   ['progress-cutoff','progress-view','early-heads'].forEach(id => byId(id).addEventListener('change',update));
   byId('head-search').addEventListener('input',update);
   update();

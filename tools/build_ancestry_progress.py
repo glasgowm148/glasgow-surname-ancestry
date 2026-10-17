@@ -14,7 +14,7 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
-from tools.branch_connectivity import METHOD_VERSION, load_public_nodes, summarize
+from tools.branch_connectivity import CONFIDENT, SUPPORTED, MEASUREMENT_VIEWS, METHOD_VERSION, load_public_nodes, summarize
 from tools.documentary_ancestry import load_people
 from tools.free_space_edition import shell_page
 from tools.stamp_asset_versions import VERSIONED_ASSET, asset_path, content_hash
@@ -22,6 +22,16 @@ from tools.stamp_asset_versions import VERSIONED_ASSET, asset_path, content_hash
 WORK = ROOT / "research/ancestry-connections"
 WEB = ROOT / "www"
 ROUTE = "/onetree/progress/"
+LINK_VIEWS = {
+    'working': {'label': 'Working pedigree, including uncertain links',
+                'description': 'Counts working parents, including uncertain and ungraded links. Competing fathers and cyclic links remain excluded.'},
+    'supported': {'label': 'Probable or stronger',
+                  'description': 'Counts probable, strongly supported and confidently marked links. Probable parentage remains inferred. These percentages measure connectivity, not the probability that a pedigree is correct.',
+                  'included_grades': sorted(SUPPORTED)},
+    'confident': {'label': 'Confidently marked links',
+                  'description': 'Counts confidently marked and strongly supported links. A saved certainty flag does not mean every source has been independently re-audited.',
+                  'included_grades': sorted(CONFIDENT)},
+}
 
 
 def compact(summary):
@@ -84,6 +94,18 @@ def root_rows(roots):
     )
 
 
+def comparison_rows(cohort, selected='working'):
+    rows = []
+    for view in MEASUREMENT_VIEWS:
+        summary = cohort[view]
+        label = escape(LINK_VIEWS[view]['label'])
+        if view == selected:
+            label = '<strong>' + label + '</strong>'
+        rows.append(f"<tr><th scope='row'>{label}</th><td>{summary['component_count']:,}</td>"
+                    f"<td>{summary['largest_component_size']:,}</td><td>{summary['connected_pairs_percent']:.2f}%</td></tr>")
+    return ''.join(rows)
+
+
 def build(create_baseline=False):
     strategy = json.loads((WORK / "strategy.json").read_text())
     documentary = load_people(WORK / 'documentary-people.json')
@@ -94,9 +116,10 @@ def build(create_baseline=False):
     cohorts = {}
     for cutoff in strategy["cutoffs"]:
         working = summarize(nodes, edges, cutoff)
-        # Both grades use exactly the same people, so their percentages compare fairly.
-        confident = summarize(nodes, edges, cutoff, "confident", cohort_ids=working["cohort_ids"])
-        cohorts[str(cutoff)] = {"working": working, "confident": confident}
+        # Every threshold uses exactly the same people, including isolated profiles.
+        cohorts[str(cutoff)] = {'working': working, **{
+            view: summarize(nodes, edges, cutoff, view, cohort_ids=working['cohort_ids'])
+            for view in MEASUREMENT_VIEWS if view != 'working'}}
     primary = cohorts[str(strategy["primary_cutoff"])]
     fingerprint = hashlib.sha256(json.dumps({"nodes": nodes, "edges": edges}, sort_keys=True).encode()).hexdigest()
     baseline_path = WORK / "baseline-2026-10-15.json"
@@ -118,12 +141,14 @@ def build(create_baseline=False):
     fixed_ids = set(baseline["cohort_ids"]) & nodes.keys()
     fixed = {
         view: compact(summarize(nodes, edges, baseline["cutoff"], view, cohort_ids=fixed_ids))
-        for view in ["working", "confident"]
+        for view in MEASUREMENT_VIEWS
     }
     history_path = WORK / "progress-history.json"
     history = json.loads(history_path.read_text()) if history_path.exists() else {"schema_version": 1, "snapshots": []}
     previous_version = history['snapshots'][-1].get('method_version') if history['snapshots'] else None
-    if not history["snapshots"] or history["snapshots"][-1]["input_fingerprint"] != fingerprint or previous_version != METHOD_VERSION:
+    new_view = bool(history['snapshots']) and any(
+        view not in history['snapshots'][-1]['metrics'] for view in MEASUREMENT_VIEWS)
+    if not history["snapshots"] or history["snapshots"][-1]["input_fingerprint"] != fingerprint or previous_version != METHOD_VERSION or new_view:
         correction = previous_version is not None and previous_version != METHOD_VERSION
         history["snapshots"].append(
             dict(
@@ -133,6 +158,9 @@ def build(create_baseline=False):
                         genealogical_connections_added=0,
                         note='Existing saved WikiTree certainty flags are now classified; no new relationship or evidence grade was asserted.')
                    if correction else {}),
+                **(dict(event_type='additional_confidence_view', genealogical_connections_added=0,
+                        note='Probable-or-stronger connectivity is measured separately. Existing assessments, prior measurements and the original baseline are unchanged.')
+                   if new_view and not correction and history['snapshots'][-1]['input_fingerprint'] == fingerprint else {}),
                 input_fingerprint=fingerprint,
                 metrics={v: compact(s) for v, s in primary.items()},
                 fixed_cohort=fixed,
@@ -143,6 +171,7 @@ def build(create_baseline=False):
         schema_version=1,
         reviewed=history["snapshots"][-1]["date"],
         method_version=METHOD_VERSION,
+        link_views=LINK_VIEWS,
         strategy=strategy,
         input_fingerprint=fingerprint,
         quality=quality,
@@ -158,6 +187,7 @@ def build(create_baseline=False):
             missing_ids=sorted(set(baseline["cohort_ids"]) - nodes.keys()),
             added_ids=sorted(set(primary["working"]["cohort_ids"]) - set(baseline["cohort_ids"])),
             confident_baseline_comparable=baseline.get('method_version') == METHOD_VERSION,
+            supported_baseline_available='supported' in baseline.get('metrics', {}),
         ),
         progress_history=history["snapshots"],
     )
@@ -233,15 +263,18 @@ def build(create_baseline=False):
         },
         primary_cutoff=strategy["primary_cutoff"],
         early_cutoff=strategy["early_priority_cutoff"],
+        views=LINK_VIEWS,
     )
     payload = json.dumps(client, ensure_ascii=False, separators=(",", ":")).replace("<", "\\u003c")
     options = "".join(
         f'<option value="{c}"' + (" selected" if c == strategy["primary_cutoff"] else "") + f">Through {c}</option>"
         for c in strategy["cutoffs"]
     )
+    view_options = ''.join(f'<option value="{view}">{escape(LINK_VIEWS[view]["label"])}</option>'
+                           for view in MEASUREMENT_VIEWS)
     main = f"""<main class="r-main ancestry-progress" id="main">
 <header class="r-page-head"><span class="r-kicker">Glasgow ancestry programme · {report["reviewed"]}</span><h1>Connect the oldest branches.</h1><p class="lead">{escape(strategy["objective"])}</p><p>{escape(strategy["common_origin"])}</p><p class="progress-actions"><a href="/onetree/#view=all">Explore the whole tree →</a><a href="/branches/early-scottish-records/">Early Scottish evidence</a><a href="#early-connections">First connections to investigate</a></p></header>
-<section aria-labelledby="connectivity-title"><h2 id="connectivity-title">How connected is the family?</h2><div class="progress-controls"><label>Historical cohort <select id="progress-cutoff">{options}</select></label><label>Links counted <select id="progress-view"><option value="working">Working pedigree, including uncertain links</option><option value="confident">Confidently marked links</option></select></label></div><div class="connectivity-stats" id="connectivity-stats">{metrics_html(selected)}</div><p id="cohort-detail" aria-live="polite">{selected["population"]:,} public surname bearers; {selected["edge_count"]:,} father–child links. Both views use the same people.</p><p>{escape(strategy["metrics"]["target"])}</p><p>Smaller branch and unattached-father counts mean fewer gaps; larger connected-pair and largest-branch percentages mean more of the family is joined. A tentative connection remains tentative.</p></section>
+<section aria-labelledby="connectivity-title"><h2 id="connectivity-title">How connected is the family?</h2><div class="progress-controls"><label>Historical cohort <select id="progress-cutoff">{options}</select></label><label>Links counted <select id="progress-view">{view_options}</select></label></div><p id="link-view-note" aria-live="polite">{escape(LINK_VIEWS['working']['description'])}</p><div class="connectivity-stats" id="connectivity-stats">{metrics_html(selected)}</div><p id="cohort-detail" aria-live="polite">{selected["population"]:,} public surname bearers; {selected["edge_count"]:,} father–child links. All views use the same people.</p><div class="progress-table-wrap"><table><caption>Compare the same people at each link threshold</caption><thead><tr><th>Links counted</th><th>Branches</th><th>People in largest branch</th><th>Connected pairs</th></tr></thead><tbody id="threshold-comparison">{comparison_rows(primary)}</tbody></table></div><p>Probable assessments can strengthen the middle measure while the confidently marked measure stays separate. The original baseline has no probable-or-stronger measurement; this series starts with the current review. An unmarked link is a review gap rather than a disproof.</p><p>{escape(strategy["metrics"]["target"])}</p><p>Smaller branch and unattached-father counts mean fewer gaps; larger connected-pair and largest-branch percentages mean more of the family is joined. A tentative connection remains tentative.</p></section>
 {confidence_note}
 {publication_html}
 <section aria-labelledby="working-map-title"><h2 id="working-map-title">One family, with the missing joins visible</h2><p>The shared-origin model gathers the branches below one ancestral lineage. Dotted lines mean an unknown route through generations; they are research targets and do not change the measured pedigree.</p><div id="working-origin-map" class="working-origin-map"></div><noscript><p>The earliest branch heads and their descendants appear in the table below. Each belongs to the shared-origin working model; the intervening generations remain open.</p></noscript></section>

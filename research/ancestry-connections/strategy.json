@@ -35,9 +35,10 @@
     "components": "Separate paternal components, including isolated surname bearers. Mothers, spouses and marriage connections cannot join surname branches.",
     "connected_pairs": "100 × sum(component size × (component size − 1)) / (population × (population − 1)).",
     "largest_component": "Percentage of the selected historical surname cohort in its largest paternal component.",
-    "confidence": "Show confidently marked links and the working pedigree separately. Existing tree grades are not a claim that every underlying record has been independently audited.",
+    "confidence": "Show confidently marked, probable-or-stronger and full working links separately on identical cohorts. These are thresholds over recorded assessments, not probability weights; an unmarked link is a review gap rather than a disproof.",
     "baseline": "Preserve the initial cohort IDs and input fingerprint. Compare the same surviving baseline people as well as current totals; report additions and missing people separately. Do not improve the score with a virtual founder, invented parent or incompatible alternative fathers.",
-    "target": "One connected paternal component and 100% connected pairs in the working pedigree; a complete pedigree can retain one earliest family head. Keep the strongly assessed result separate."
+    "target": "One connected paternal component and 100% connected pairs in the working pedigree; a complete pedigree can retain one earliest family head. Keep the strongly assessed result separate.",
+    "supported": "Count probable plus all confident grades, with the same paternal-component formula, cohort and documentary-connector rules. Keep the original baseline intact; this added series has no initial baseline value."
   },
   "early_connections": [
     {

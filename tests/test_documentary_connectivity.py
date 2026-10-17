@@ -18,8 +18,8 @@ class DocumentaryConnectivityTests(unittest.TestCase):
             "father": node("father", year=1400, cohort_member=False),
         }
         edges = [
-            {"child": "child-a", "father": "father", "status": "uncertain"},
-            {"child": "child-b", "father": "father", "status": "uncertain"},
+            {"child": "child-a", "father": "father", "status": "probable"},
+            {"child": "child-b", "father": "father", "status": "probable"},
         ]
         result = summarize(nodes, edges, 1650)
         self.assertEqual(result["cohort_ids"], ["child-a", "child-b"])
@@ -27,6 +27,8 @@ class DocumentaryConnectivityTests(unittest.TestCase):
         self.assertEqual(result["largest_component_size"], 2)
         self.assertEqual(result["connected_pairs_percent"], 100)
         self.assertEqual(result["connector_ids"], ["father"])
+        supported = summarize(nodes, edges, 1650, view='supported', cohort_ids=result['cohort_ids'])
+        self.assertEqual(supported, result)
         confident = summarize(nodes, edges, 1650, view="confident")
         self.assertEqual(confident["population"], 2)
         self.assertEqual(confident["component_count"], 2)

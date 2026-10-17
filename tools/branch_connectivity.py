@@ -15,6 +15,8 @@ from tools.documentary_ancestry import load_chronology, load_people, metric_node
 CONFIDENT = frozenset(
     {"certain", "confident", "confirmed", "proved", "documented", "strongly_supported", "dna_confirmed"}
 )
+SUPPORTED = CONFIDENT | {'probable'}
+MEASUREMENT_VIEWS = ('working', 'supported', 'confident')
 METHOD_VERSION = 3
 EXCLUDED = frozenset(
     {
@@ -210,9 +212,10 @@ def load_public_nodes(site_root: Path, variants: set[str]):
 
 
 def summarize(nodes, edges, cutoff, view="working", cohort_ids=None):
-    if view not in {"working", "confident"}:
-        raise ValueError("view must be working or confident")
-    eligible_edges = [e for e in edges if view == "working" or e["status"] in CONFIDENT]
+    if view not in MEASUREMENT_VIEWS:
+        raise ValueError("view must be working, supported or confident")
+    grades = SUPPORTED if view == 'supported' else CONFIDENT
+    eligible_edges = [e for e in edges if view == "working" or e["status"] in grades]
     future = set()
     if cohort_ids is None:
         cohort = {i for i, n in nodes.items() if n.get('cohort_member') is not False

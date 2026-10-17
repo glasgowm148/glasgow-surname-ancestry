@@ -74,6 +74,35 @@ class T(unittest.TestCase):
         self.assertEqual((s["population"], s["family_roots"][0]["child_count"]), (3, 2))
         self.assertAlmostEqual(summarize(n, e, 1700, "confident")["connected_pairs_percent"], 33.3333333, 4)
 
+    def test_probable_threshold_tracks_grade_changes_without_new_connections(self):
+        self.add('F', 1570)
+        self.add('A', 1600, parents=(('F', 'proved'),))
+        self.add('B', 1620, parents=(('A', 'probable'),))
+        self.add('C', 1640, parents=(('B', 'uncertain'),))
+        self.add('D', 1645, parents=(('C', 'unmarked'),))
+        nodes, edges, _ = self.finish()
+        cohort = summarize(nodes, edges, 1650)['cohort_ids']
+        before = {view: summarize(nodes, edges, 1650, view, cohort_ids=cohort)
+                  for view in ['working', 'supported', 'confident']}
+        self.assertEqual([before[v]['edge_count'] for v in ['confident', 'supported', 'working']], [1, 2, 4])
+        self.assertEqual(before['supported']['largest_component_size'], 3)
+        self.assertEqual(before['supported']['connected_pairs_percent'], 30)
+        self.assertEqual(before['supported']['cohort_ids'], before['confident']['cohort_ids'])
+        next(e for e in edges if e['child']=='C')['status'] = 'probable'
+        after = {view: summarize(nodes, edges, 1650, view, cohort_ids=cohort) for view in before}
+        self.assertEqual(after['supported']['connected_pairs_percent'], 60)
+        for view in ['working', 'confident']:
+            for key in ['population', 'cohort_ids', 'edge_count', 'component_count', 'connected_pairs_percent']:
+                self.assertEqual(before[view][key], after[view][key])
+
+    def test_probable_threshold_excludes_cycles_and_invalid_views(self):
+        self.add('A', 1600, parents=(('B', 'probable'),))
+        self.add('B', 1590, parents=(('A', 'probable'),))
+        nodes, edges, _ = self.finish()
+        self.assertEqual(summarize(nodes, edges, 1650, 'supported')['edge_count'], 0)
+        with self.assertRaises(ValueError):
+            summarize(nodes, edges, 1650, 'invented')
+
     def test_mother_spouse_alias_and_duplicate(self):
         self.add("A", 1600, parents=(("OLD", "strongly_supported"), ("F", "uncertain")), gender="Female")
         self.add("F", 1570, extra={"alternate_ids": ["OLD"]})
