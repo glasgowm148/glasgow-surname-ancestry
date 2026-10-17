@@ -586,19 +586,25 @@
   },
   {
     "record_id": "nrs-cc8-8-32-andrew-1598",
-    "association": "Andrew Glasgow names his daughter Jonet in his testament",
+    "association": "Andrew Glasgow’s testament-named household: wife Elizat, son Robert and daughter Jonet",
     "date": "6 February 1597/8; confirmed 10 July 1598",
     "year": 1598,
     "place": "[Corsoun?], parish [Calder Cleir?], Midlothian, Scotland",
     "source_url": "https://www.scotlandspeople.gov.uk/search-records/legal-records/wills",
     "status": "Original NRS register images inspected; selected family clauses freshly reviewed 27 September 2026",
-    "note": "NRS Edinburgh Commissary Court CC8/8/32, images 123–124. The distribution clause names his son and [dochter… struck through] Marione, Jonet, Isobell within the children’s provision. Direct daughter evidence; no connection to the 1624 Ramsy marriage is stated. Working reading: /research/transcriptions/andrew-1598/.",
+    "note": "NRS Edinburgh Commissary Court CC8/8/32, images 123–124. The distribution clause names his son and [dochter… struck through] Marione, Jonet, Isobell within the children’s provision. Direct daughter evidence; no connection to the 1624 Ramsy marriage is stated. Working reading: /research/transcriptions/andrew-1598/. The accepted selected clause expressly calls Robert his son by Elizat his wife. Robert-4006 is the record-defined son; the Duddingston Robert-1156 is an uncertain later identity, not a separately proved son. No new original-image inspection in this batch.",
     "profiles": {
       "Glasgow-3163": {
         "role": "Testator and father"
       },
       "Glasgow-3183": {
         "role": "Named daughter; 1624 bride attribution separately probable"
+      },
+      "Stevinsoun-2": {
+        "role": "Named wife and mother of the recorded son"
+      },
+      "Glasgow-4006": {
+        "role": "Named son by Elizat; adult identity separately uncertain"
       }
     }
   },
@@ -3602,6 +3608,27 @@
       },
       "Glasgow-649": {
         "role": "deceased brother"
+      }
+    }
+  },
+  {
+    "record_id": "duddingston-robert-captured-parents-2026-10-17",
+    "date": "Existing tree links rechecked 17 October 2026",
+    "place": "No parental locality proved for the Duddingston adult",
+    "source_title": "Captured uncertain parent attachments, not a contemporary parent record",
+    "source_url": "https://www.wikitree.com/wiki/Glasgow-1156",
+    "source_type": "Unverified tree attachment",
+    "status": "Retained alternatives; no biological exclusion",
+    "note": "Archibald-1097 and Isobell Newlands-647 remain the live attached uncertain parents, but are not the preferred local working pair.",
+    "profiles": {
+      "Glasgow-1156": {
+        "role": "Profile account"
+      },
+      "Glasgow-1097": {
+        "role": "Uncertain attached father; now unselected locally"
+      },
+      "Newlands-647": {
+        "role": "Possible attached mother; now unselected locally"
       }
     }
   }

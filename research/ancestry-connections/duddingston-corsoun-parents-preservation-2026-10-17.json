@@ -1,0 +1,131 @@
+{
+  "reviewed": "2026-10-17",
+  "scope": "Duddingston’s Robert: the Corsoun household as preferred uncertain parents",
+  "profiles": {
+    "Glasgow-1156": {
+      "current_sha256": "154e8bca788c4ce3701275696bc3904ba8e6d7b9b62ddaf5c2b422ddfa0f2572",
+      "proposed_sha256": "c8e1d6f6446a7faa5ee155067c00207eb62fa02f7958214acb3f89e798dadb4f",
+      "all_substantive_passages_accounted_for": true,
+      "complete_current_and_prior_proposals_preserved": true,
+      "captured_source_urls_preserved": 4,
+      "private_comparison": false,
+      "passages": [
+        "Complete capture and maintained passages and references retained; trailing spaces normalized.",
+        "Adult parent choices remain uncertain; record-household documentary roles and saved redirects kept distinct."
+      ]
+    },
+    "Glasgow-3163": {
+      "current_sha256": "aef9b947f096edefad201c464c3198635f58a7f91ec8de607b605fd1e8cc1729",
+      "proposed_sha256": "76a7dd42a8894a7015fbd2e4276fca9eb74909882eb9931e3cfbfb2dc50b90e7",
+      "all_substantive_passages_accounted_for": true,
+      "complete_current_and_prior_proposals_preserved": true,
+      "captured_source_urls_preserved": 2,
+      "private_comparison": false,
+      "passages": [
+        "Complete capture and maintained passages and references retained; trailing spaces normalized.",
+        "Adult parent choices remain uncertain; record-household documentary roles and saved redirects kept distinct."
+      ]
+    },
+    "Stevinsoun-2": {
+      "current_sha256": "2d154f47478d9b0b653186c3d10f218ccba896469b00e72c12c78445def28b51",
+      "proposed_sha256": "896fd9a3ce696ef9dfffa1b733ab07ebfee8e7bd65a00e84d831dac5ac9e37a4",
+      "all_substantive_passages_accounted_for": true,
+      "complete_current_and_prior_proposals_preserved": true,
+      "captured_source_urls_preserved": 1,
+      "private_comparison": false,
+      "passages": [
+        "Complete capture and maintained passages and references retained; trailing spaces normalized.",
+        "Adult parent choices remain uncertain; record-household documentary roles and saved redirects kept distinct."
+      ]
+    },
+    "Glasgow-1097": {
+      "current_sha256": "9874aab1b988fbc6bb0b33f22106f71445dcbb02e1539bf847535e6515b3cecb",
+      "proposed_sha256": "14d2f124745ca576115cade8f9af2a8f36e3836421d296308512aae0a97c4f95",
+      "all_substantive_passages_accounted_for": true,
+      "complete_current_and_prior_proposals_preserved": true,
+      "captured_source_urls_preserved": 5,
+      "private_comparison": false,
+      "passages": [
+        "Complete capture and maintained passages and references retained; trailing spaces normalized.",
+        "Adult parent choices remain uncertain; record-household documentary roles and saved redirects kept distinct."
+      ]
+    },
+    "Newlands-647": {
+      "current_sha256": "3d92814f44fc825aad04987044c0b1d06dcd838c902f6d72160b264d0b48365b",
+      "proposed_sha256": "6008c61ffcca1b06211cdae46ef65998789d77dc3c9f0ae440ed37ba950157ca",
+      "all_substantive_passages_accounted_for": true,
+      "complete_current_and_prior_proposals_preserved": true,
+      "captured_source_urls_preserved": 15,
+      "private_comparison": true,
+      "passages": [
+        "Complete capture and maintained passages and references retained; trailing spaces normalized.",
+        "Adult parent choices remain uncertain; record-household documentary roles and saved redirects kept distinct."
+      ]
+    },
+    "Glasgow-4006": {
+      "current_sha256": "c1de877755089bceb3c092510b68dfcffa267d107db172ec889a7ec19df56b38",
+      "proposed_sha256": "390d01b6171c7c4d51a7de05cb3506c8d1dc3495e452485c5b90efaf1e57ebc2",
+      "all_substantive_passages_accounted_for": true,
+      "complete_current_and_prior_proposals_preserved": true,
+      "captured_source_urls_preserved": 1,
+      "private_comparison": false,
+      "passages": [
+        "Complete capture and maintained passages and references retained; trailing spaces normalized.",
+        "Adult parent choices remain uncertain; record-household documentary roles and saved redirects kept distinct."
+      ]
+    }
+  },
+  "working_parent_changes": [
+    {
+      "subject_id": "Glasgow-1156",
+      "relationship": "father",
+      "before_relative_id": "Glasgow-1097",
+      "relative_id": "Glasgow-3163",
+      "before": "uncertain",
+      "after": "uncertain",
+      "assertion_id": "C-working-20261017-duddingston-corsoun-father",
+      "action": "replace_working_parent",
+      "new_attachment": false,
+      "live_flag_changed": false,
+      "basis": "The preferred local working parents of the Duddingston Robert are now Andrew Glasgow and Elizat Stevinsoun, through possible identity with their recorded son Robert-4006. The accepted 1597/8 testament expressly names Robert as Andrew’s son by Elizat and makes provision until he reached age. A minor then can fit the adult generation of the Robert buried at Duddingston in 1647 and the probable father of James the Edinburgh weaver. The retained circa-1582 and 1597/before-1597 dates are estimates or bounds, not two exact birth records in conflict. On the maintained, queried Calder-area reading of Andrew’s residence, this offers a positive named-child family candidate in the relevant broad Lothian comparison. The earlier Archibald/Isobell pair has no record naming the Duddingston Robert as its child. Prefer the recorded Corsoun family as the uncertain route, with both former parents retained as alternatives.",
+      "limitations": "The 1598 child and the Duddingston adult remain separate WikiTree profiles with an uncertain identity comparison; no merge is inferred. No holding, occupation, wife or named-relative bridge equates them, and the Corsoun/Calder place reading itself remains queried. A different local Robert, including the separate Ninian-son account Robert-1027, remains a comparison. Ninian’s son keeps his proved parents and is not conflated with Andrew’s named son. Elizat’s maternity is direct for the recorded child only; it is uncertain for the Duddingston adult because it depends on the same identity hypothesis. Archibald’s and Isobell’s biological parentage is not disproved. James-1150’s probable father assessment, all other selected families, and the adult’s existing vital fields remain unchanged. Two modern Robert accounts can represent one historical son; they are not independent evidence for two sons."
+    },
+    {
+      "subject_id": "Glasgow-1156",
+      "relationship": "mother",
+      "before_relative_id": "Newlands-647",
+      "relative_id": "Stevinsoun-2",
+      "before": "uncertain",
+      "after": "uncertain",
+      "assertion_id": "C-working-20261017-duddingston-corsoun-mother",
+      "action": "replace_working_parent",
+      "new_attachment": false,
+      "live_flag_changed": false,
+      "basis": "The preferred local working parents of the Duddingston Robert are now Andrew Glasgow and Elizat Stevinsoun, through possible identity with their recorded son Robert-4006. The accepted 1597/8 testament expressly names Robert as Andrew’s son by Elizat and makes provision until he reached age. A minor then can fit the adult generation of the Robert buried at Duddingston in 1647 and the probable father of James the Edinburgh weaver. The retained circa-1582 and 1597/before-1597 dates are estimates or bounds, not two exact birth records in conflict. On the maintained, queried Calder-area reading of Andrew’s residence, this offers a positive named-child family candidate in the relevant broad Lothian comparison. The earlier Archibald/Isobell pair has no record naming the Duddingston Robert as its child. Prefer the recorded Corsoun family as the uncertain route, with both former parents retained as alternatives.",
+      "limitations": "The 1598 child and the Duddingston adult remain separate WikiTree profiles with an uncertain identity comparison; no merge is inferred. No holding, occupation, wife or named-relative bridge equates them, and the Corsoun/Calder place reading itself remains queried. A different local Robert, including the separate Ninian-son account Robert-1027, remains a comparison. Ninian’s son keeps his proved parents and is not conflated with Andrew’s named son. Elizat’s maternity is direct for the recorded child only; it is uncertain for the Duddingston adult because it depends on the same identity hypothesis. Archibald’s and Isobell’s biological parentage is not disproved. James-1150’s probable father assessment, all other selected families, and the adult’s existing vital fields remain unchanged. Two modern Robert accounts can represent one historical son; they are not independent evidence for two sons."
+    }
+  ],
+  "documented_grade_changes": [
+    {
+      "subject_id": "Glasgow-4006",
+      "relative_id": "Stevinsoun-2",
+      "relationship": "mother",
+      "before": "unmarked",
+      "after": "certain",
+      "assertion_id": "C-reviewed-20261017-corsoun-record-mother",
+      "basis": "The accepted 1597/8 testament explicitly names Robert as Andrew’s son by Elizat his wife. This documents the record-defined family roles; no later adult identity or exact birth date is established.",
+      "live_flag_changed": false
+    },
+    {
+      "subject_id": "Glasgow-3163",
+      "relative_id": "Stevinsoun-2",
+      "relationship": "spouse",
+      "before": "unknown",
+      "after": "certain",
+      "assertion_id": "C-reviewed-20261017-corsoun-record-spouse",
+      "basis": "The accepted 1597/8 testament explicitly names Robert as Andrew’s son by Elizat his wife. This documents the record-defined family roles; no later adult identity or exact birth date is established.",
+      "live_flag_changed": false
+    }
+  ],
+  "source_inspection": "Accepted 27 September selected testament reading reused; no new manuscript inspection. Both existing redirects checked anonymously 17 October."
+}

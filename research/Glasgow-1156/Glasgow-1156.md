@@ -2,6 +2,7 @@
 [[Category:Glasgow Name Study]]
 
 == Biography ==
+'''Preferred working family, 17 October 2026:''' Andrew Glasgow-3163 and Elizat Stevinsoun-2 are now the selected '''uncertain local parents''' of Robert Glasgow-1156 through his possible identity with their testament-proved son Robert Glasgow-4006. Archibald Glasgow-1097 and Isobell Newlands-647 remain unselected uncertain/possible alternatives. The two Robert profiles remain separate; the recorded son’s documented parentage does not make the adult identification certain.<ref name="CorsounFamilyReview" />
 '''Robert Glasgow''' was buried in the parish of Duddingston, Midlothian, Scotland, on '''17 January 1647'''.<ref name="RobertBurial">Church of Scotland, Old Parish Registers, Duddingston deaths and burials, burial of Robert Glasgow, 17 January 1647, parish number 684, reference 60/47, ''ScotlandsPeople''.</ref>
 
 His date and place of birth have not been identified.
@@ -9,6 +10,24 @@ His date and place of birth have not been identified.
 The burial entry does not state Robert's age, occupation, residence, spouse, parentage or children. It should not be assumed that every contemporary man named Robert Glasgow in Midlothian was the same person.
 
 == Research Notes ==
+=== Duddingston–Corsoun family review — 17 October 2026 ===
+
+The preferred local working parents of the Duddingston Robert are now Andrew Glasgow and Elizat Stevinsoun, through possible identity with their recorded son Robert-4006. The accepted 1597/8 testament expressly names Robert as Andrew’s son by Elizat and makes provision until he reached age. A minor then can fit the adult generation of the Robert buried at Duddingston in 1647 and the probable father of James the Edinburgh weaver. The retained circa-1582 and 1597/before-1597 dates are estimates or bounds, not two exact birth records in conflict. On the maintained, queried Calder-area reading of Andrew’s residence, this offers a positive named-child family candidate in the relevant broad Lothian comparison. The earlier Archibald/Isobell pair has no record naming the Duddingston Robert as its child. Prefer the recorded Corsoun family as the uncertain route, with both former parents retained as alternatives.
+
+The 1598 child and the Duddingston adult remain separate WikiTree profiles with an uncertain identity comparison; no merge is inferred. No holding, occupation, wife or named-relative bridge equates them, and the Corsoun/Calder place reading itself remains queried. A different local Robert, including the separate Ninian-son account Robert-1027, remains a comparison. Ninian’s son keeps his proved parents and is not conflated with Andrew’s named son. Elizat’s maternity is direct for the recorded child only; it is uncertain for the Duddingston adult because it depends on the same identity hypothesis. Archibald’s and Isobell’s biological parentage is not disproved. James-1150’s probable father assessment, all other selected families, and the adult’s existing vital fields remain unchanged. Two modern Robert accounts can represent one historical son; they are not independent evidence for two sons.
+
+One paternal and one maternal working choice are replaced, affecting a child side of 64 pre-1850 profiles. This improves the source basis of the preferred route, without raising either adult parent link above uncertain. Existing live parent fields and flags remain unchanged. The record-son’s already-confident father is reaffirmed, while Elizat’s recorded motherhood and the Andrew–Elizat spouse relationship receive formal documented assessments. The main view also reconciles already-completed profile redirects and the previously corrected public 1598 household; these are publication repairs, not new historical people or newly discovered records.
+
+<ref name="CorsounFamilyReview">[https://www.scotlandspeople.gov.uk/search-records/legal-records/wills Andrew Glasgow testament, NRS CC8/8/32, images 123–124, made 6 February 1597/8 and confirmed 10 July 1598; accepted selected family-clause reading reviewed 27 September 2026, reused here]; [https://archive.org/details/scottishrecordso28scotuoft/page/71/mode/2up Grant, Edinburgh apprentices, printed p.71: James, son of Robert, Wester Duddingston association, 16 June 1641; existing reviewed reading]; [https://www.wikitree.com/wiki/Glasgow-1156 Robert Glasgow of Duddingston: 17 January 1647 burial and the separate probable father assessment for James the weaver; existing source account]. The accepted selected reading was previously checked; no new image reading is claimed.</ref>
+
+[https://glasgow.phenotype.dev/branches/research-calder-testament-household/#duddingston-corsoun-parents Full parent comparison and publication corrections].
+
+
+=== Earlier maintained research retained ===
+
+The dated comparison below records the current local choices; earlier readings and proposals are retained with their citations.
+
+<blockquote>
 === Additional maintained research and prior wording ===
 
 These earlier research passages and citations are retained in full. Their possible or uncertain father wording is superseded by the probable assessment dated 17 October 2026; the underlying records and separate family questions remain part of the account.
@@ -69,7 +88,6 @@ GD150/2027–2060 or GD150/320–493 connecting Andrew's land and son Robert to 
 later Duddingston household.
 </blockquote>
 
-
 === Duddingston father assessment — 17 October 2026 ===
 
 [[Glasgow-1156|Robert Glasgow of Duddingston]] is now assessed as the probable father of [[Glasgow-1150|James Glasgow, Edinburgh weaver]], the Edinburgh weaver. Grant’s 16 June 1641 apprenticeship names James’s father Robert and places the entry at Wester Duddingston with William Crichtoun and master William Sclaitter. The 20 June 1649 burgess admission repeats Sclaitter’s name and the exact apprenticeship date, securely connecting the recorded son to the adult weaver. The Robert buried at Duddingston on 17 January 1647 fits the father’s name, parish and preceding generation, six years after the apprenticeship and before James’s independent household began in 1649. Taken together, the specific local father and the Duddingston burial favour one Robert over an otherwise unattested second contemporary Robert in that parish. The previous assessment treated the lack of a unique identifier as a reason to stop at plausible; the combined argument warrants probable, while remaining an inference.
@@ -78,8 +96,6 @@ The apprenticeship proves James’s father was Robert; identifying that father w
 
 This is a stronger local assessment of an existing father, not a new attachment, newly found source or live WikiTree save. The fixed pre-1850 working tree has 63 retained profiles below James and 972 on the other side of this edge; 61,236 connected pairs depend on it. These overlapping branch-impact counts measure priority, not a probability or 63 independently verified people. Working family membership and confidently marked connectivity are unchanged because probable remains below the confident grades. The prior effective uncertain flag, ungraded local assessment and plausible narrative are preserved. The printed 1641 apprenticeship page was re-read for this review; the burgess and burial citations use the maintained earlier source reviews, with the burial seen as an index rather than the original register. [https://glasgow.phenotype.dev/branches/early-scottish-records/#duddingston-probable-father Confidence review and source limits]. <ref>Combined existing family evidence: [https://archive.org/details/scottishrecordso28scotuoft/page/71/mode/2up Grant, Register of Apprentices of Edinburgh (1906), printed p.71: James, father Robert, Wester Duddingston, William Sclaitter, 16 June 1641; printed page re-read]; [https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/roll_of_edinburgh_burgesses_1406_to_1700.pdf#page=218 Watson, Roll of Edinburgh Burgesses (1929), printed p.208 (PDF p.218): James the weaver, 20 June 1649, matching Sclaitter and 16 June 1641 apprenticeship]; [https://www.scotlandspeople.gov.uk/ NRS Duddingston OPR deaths/burials 684/60/47: Robert Glasgow, 17 January 1647; indexed citation, original image not inspected for this review]. The printed apprenticeship page was re-read; other source reviews retain their stated scope. The burial-register image was not inspected for this review.</ref>
 
-
-
 === Previous father assessment — superseded 17 October 2026 ===
 
 The earlier possible/uncertain wording is retained as assessment history; the probable local assessment above replaces it.
@@ -87,9 +103,14 @@ The earlier possible/uncertain wording is retained as assessment history; the pr
 <blockquote>
 The matching surname, Duddingston locality and compatible dates make the father named in 1641 a plausible candidate for the man buried there in 1647.
 
-If James remains attached as a son of this Robert, the relationship should be marked uncertain.
-
 James Glasgow is the only proposed child supported by a contemporary record naming a father called Robert Glasgow in Wester Duddingston. Even that identification remains uncertain because the apprenticeship record does not directly connect the father to the 1647 burial.
+</blockquote>
+
+The matching name, Duddingston association and compatible 1647 burial, combined with the exact 1641 apprenticeship cross-reference in the 1649 burgess admission, favour this Robert as the probable father of the Edinburgh weaver.
+
+James is now assessed locally as a probable son. The live WikiTree father flag remains uncertain because the burial-to-father identity is inferred rather than documented.
+
+James Glasgow is the only proposed child supported by a contemporary record naming a father called Robert Glasgow in Wester Duddingston. The combined record argument now makes him a probable son of this burial account; no other child is upgraded.
 </blockquote>
 
 
@@ -120,11 +141,11 @@ The record directly proves that:
 * Robert was then a servant to William Crichtoun; and
 * James was apprenticed to William Sclaitter.
 
-The matching name, Duddingston association and compatible 1647 burial, combined with the exact 1641 apprenticeship cross-reference in the 1649 burgess admission, favour this Robert as the probable father of the Edinburgh weaver.
+The matching surname, Duddingston locality and compatible dates make the father named in 1641 a plausible candidate for the man buried there in 1647.
 
 The identification is not proved. Neither record supplies Robert's age, wife, occupation beyond the 1641 description, or another distinguishing relationship that securely joins the two entries.
 
-James is now assessed locally as a probable son. The live WikiTree father flag remains uncertain because the burial-to-father identity is inferred rather than documented.
+If James remains attached as a son of this Robert, the relationship should be marked uncertain.
 
 === James Glasgow the Edinburgh weaver ===
 
@@ -210,7 +231,7 @@ There is also no evidence that Robert migrated from the burgh of Glasgow to Edin
 
 No inspected record identifies the wife of the Robert buried in 1647.
 
-James Glasgow is the only proposed child supported by a contemporary record naming a father called Robert Glasgow in Wester Duddingston. The combined record argument now makes him a probable son of this burial account; no other child is upgraded.
+James Glasgow is the only proposed child supported by a contemporary record naming a father called Robert Glasgow in Wester Duddingston. Even that identification remains uncertain because the apprenticeship record does not directly connect the father to the 1647 burial.
 
 No other children should be attached without independent evidence.
 

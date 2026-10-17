@@ -4,6 +4,8 @@ Last updated: 2026-10-17
 
 ## Current conclusion
 
+**Earlier ancestry review, 17 October 2026:** Robert-1156’s preferred local parents are now the uncertain Andrew/Elizat pair through possible identity with their recorded son Robert-4006. This changes neither James’s probable father assessment nor his mother. [Full comparison](/branches/research-calder-testament-household/#duddingston-corsoun-parents).
+
 Reviewed: 2026-10-17
 
 **Duddingston family review, 17 October 2026:** Robert Glasgow-1156 is now the **probable father** of the Edinburgh weaver James Glasgow-1150, on the combined apprenticeship, burgess and burial evidence. The existing live father flag remains uncertain; Robert’s ancestry and James’s mother are assessed separately. [Evidence and alternatives](/branches/early-scottish-records/#duddingston-probable-father).

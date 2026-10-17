@@ -28745,6 +28745,130 @@
         "research/relationship_assessments.json",
         "research/ancestry-connections/tyrone-traditional-fathers-preservation-2026-10-17.json"
       ]
+    },
+    {
+      "id": "duddingston-corsoun-parents-2026-10-17",
+      "found_on": "2026-10-17",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Revised the preferred parents above the 64-profile Duddingston branch to Andrew and Elizat, both uncertain through the existing record-son identity candidate. Separately formalized the testament’s documented mother and spouse roles and reconciled the already corrected household in the main tree.",
+      "qualification": "The 1598 child and the Duddingston adult remain separate WikiTree profiles with an uncertain identity comparison; no merge is inferred. No holding, occupation, wife or named-relative bridge equates them, and the Corsoun/Calder place reading itself remains queried. A different local Robert, including the separate Ninian-son account Robert-1027, remains a comparison. Ninian’s son keeps his proved parents and is not conflated with Andrew’s named son. Elizat’s maternity is direct for the recorded child only; it is uncertain for the Duddingston adult because it depends on the same identity hypothesis. Archibald’s and Isobell’s biological parentage is not disproved. James-1150’s probable father assessment, all other selected families, and the adult’s existing vital fields remain unchanged. Two modern Robert accounts can represent one historical son; they are not independent evidence for two sons. One paternal and one maternal working choice are replaced, affecting a child side of 64 pre-1850 profiles. This improves the source basis of the preferred route, without raising either adult parent link above uncertain. Existing live parent fields and flags remain unchanged. The record-son’s already-confident father is reaffirmed, while Elizat’s recorded motherhood and the Andrew–Elizat spouse relationship receive formal documented assessments. The main view also reconciles already-completed profile redirects and the previously corrected public 1598 household; these are publication repairs, not new historical people or newly discovered records.",
+      "relationship_change_count": 0,
+      "working_parent_changes": [
+        {
+          "subject_id": "Glasgow-1156",
+          "relationship": "father",
+          "before_relative_id": "Glasgow-1097",
+          "relative_id": "Glasgow-3163",
+          "before": "uncertain",
+          "after": "uncertain",
+          "assertion_id": "C-working-20261017-duddingston-corsoun-father",
+          "action": "replace_working_parent",
+          "new_attachment": false,
+          "live_flag_changed": false,
+          "basis": "The preferred local working parents of the Duddingston Robert are now Andrew Glasgow and Elizat Stevinsoun, through possible identity with their recorded son Robert-4006. The accepted 1597/8 testament expressly names Robert as Andrew’s son by Elizat and makes provision until he reached age. A minor then can fit the adult generation of the Robert buried at Duddingston in 1647 and the probable father of James the Edinburgh weaver. The retained circa-1582 and 1597/before-1597 dates are estimates or bounds, not two exact birth records in conflict. On the maintained, queried Calder-area reading of Andrew’s residence, this offers a positive named-child family candidate in the relevant broad Lothian comparison. The earlier Archibald/Isobell pair has no record naming the Duddingston Robert as its child. Prefer the recorded Corsoun family as the uncertain route, with both former parents retained as alternatives.",
+          "limitations": "The 1598 child and the Duddingston adult remain separate WikiTree profiles with an uncertain identity comparison; no merge is inferred. No holding, occupation, wife or named-relative bridge equates them, and the Corsoun/Calder place reading itself remains queried. A different local Robert, including the separate Ninian-son account Robert-1027, remains a comparison. Ninian’s son keeps his proved parents and is not conflated with Andrew’s named son. Elizat’s maternity is direct for the recorded child only; it is uncertain for the Duddingston adult because it depends on the same identity hypothesis. Archibald’s and Isobell’s biological parentage is not disproved. James-1150’s probable father assessment, all other selected families, and the adult’s existing vital fields remain unchanged. Two modern Robert accounts can represent one historical son; they are not independent evidence for two sons."
+        },
+        {
+          "subject_id": "Glasgow-1156",
+          "relationship": "mother",
+          "before_relative_id": "Newlands-647",
+          "relative_id": "Stevinsoun-2",
+          "before": "uncertain",
+          "after": "uncertain",
+          "assertion_id": "C-working-20261017-duddingston-corsoun-mother",
+          "action": "replace_working_parent",
+          "new_attachment": false,
+          "live_flag_changed": false,
+          "basis": "The preferred local working parents of the Duddingston Robert are now Andrew Glasgow and Elizat Stevinsoun, through possible identity with their recorded son Robert-4006. The accepted 1597/8 testament expressly names Robert as Andrew’s son by Elizat and makes provision until he reached age. A minor then can fit the adult generation of the Robert buried at Duddingston in 1647 and the probable father of James the Edinburgh weaver. The retained circa-1582 and 1597/before-1597 dates are estimates or bounds, not two exact birth records in conflict. On the maintained, queried Calder-area reading of Andrew’s residence, this offers a positive named-child family candidate in the relevant broad Lothian comparison. The earlier Archibald/Isobell pair has no record naming the Duddingston Robert as its child. Prefer the recorded Corsoun family as the uncertain route, with both former parents retained as alternatives.",
+          "limitations": "The 1598 child and the Duddingston adult remain separate WikiTree profiles with an uncertain identity comparison; no merge is inferred. No holding, occupation, wife or named-relative bridge equates them, and the Corsoun/Calder place reading itself remains queried. A different local Robert, including the separate Ninian-son account Robert-1027, remains a comparison. Ninian’s son keeps his proved parents and is not conflated with Andrew’s named son. Elizat’s maternity is direct for the recorded child only; it is uncertain for the Duddingston adult because it depends on the same identity hypothesis. Archibald’s and Isobell’s biological parentage is not disproved. James-1150’s probable father assessment, all other selected families, and the adult’s existing vital fields remain unchanged. Two modern Robert accounts can represent one historical son; they are not independent evidence for two sons."
+        }
+      ],
+      "relationship_changes": [
+        {
+          "relationship": "mother",
+          "subject_id": "Glasgow-4006",
+          "relative_id": "Stevinsoun-2",
+          "subject": "Robert Glasgow, son named in the 1598 testament (Glasgow-4006)",
+          "relative": "Elizat Stevinsoun (Stevinsoun-2)",
+          "before": "unmarked",
+          "after": "certain",
+          "explanation": "The accepted 1597/8 testament explicitly names Robert as Andrew’s son by Elizat his wife. This documents the record-defined family roles; no later adult identity or exact birth date is established. This formalizes the record-defined household only; the Duddingston identity remains uncertain and no live field changed.",
+          "previous_status_provenance": [
+            "Pre-batch public assessment unknown/ungraded; the record-son’s saved Mother flag was blank.",
+            "The already-linked spouse pair had no prior local certainty assessment."
+          ],
+          "assertion_id": "C-reviewed-20261017-corsoun-record-mother"
+        },
+        {
+          "relationship": "spouse",
+          "subject_id": "Glasgow-3163",
+          "relative_id": "Stevinsoun-2",
+          "subject": "Andrew Glasgow of the queried Corsoun/Calder household (Glasgow-3163)",
+          "relative": "Elizat Stevinsoun (Stevinsoun-2)",
+          "before": "unknown",
+          "after": "certain",
+          "explanation": "The accepted 1597/8 testament explicitly names Robert as Andrew’s son by Elizat his wife. This documents the record-defined family roles; no later adult identity or exact birth date is established. This formalizes the record-defined household only; the Duddingston identity remains uncertain and no live field changed.",
+          "previous_status_provenance": [
+            "Pre-batch public assessment unknown/ungraded; the record-son’s saved Mother flag was blank.",
+            "The already-linked spouse pair had no prior local certainty assessment."
+          ],
+          "assertion_id": "C-reviewed-20261017-corsoun-record-spouse"
+        }
+      ],
+      "certainty_upgrades": 2,
+      "already_certain_relationships_reaffirmed": 1,
+      "people": [
+        {
+          "id": "Glasgow-1156",
+          "name": "Robert Glasgow, Duddingston account",
+          "url": "/people/glasgow-1156.html"
+        },
+        {
+          "id": "Glasgow-3163",
+          "name": "Andrew Glasgow of the queried Corsoun/Calder household",
+          "url": "/people/glasgow-3163.html"
+        },
+        {
+          "id": "Stevinsoun-2",
+          "name": "Elizat Stevinsoun",
+          "url": "/people/stevinsoun-2.html"
+        },
+        {
+          "id": "Glasgow-1097",
+          "name": "Archibald Glasgow, Glasgow burgess",
+          "url": "/people/glasgow-1097.html"
+        },
+        {
+          "id": "Newlands-647",
+          "name": "Isobell Newlands",
+          "url": "/people/newlands-647.html"
+        },
+        {
+          "id": "Glasgow-4006",
+          "name": "Robert Glasgow, son named in the 1598 testament",
+          "url": "/people/glasgow-4006.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Andrew Glasgow testament, NRS CC8/8/32, images 123–124, made 6 February 1597/8 and confirmed 10 July 1598; accepted selected family-clause reading reviewed 27 September 2026, reused here",
+          "url": "https://www.scotlandspeople.gov.uk/search-records/legal-records/wills"
+        },
+        {
+          "title": "Grant, Edinburgh apprentices, printed p.71: James, son of Robert, Wester Duddingston association, 16 June 1641; existing reviewed reading",
+          "url": "https://archive.org/details/scottishrecordso28scotuoft/page/71/mode/2up"
+        },
+        {
+          "title": "Robert Glasgow of Duddingston: 17 January 1647 burial and the separate probable father assessment for James the weaver; existing source account",
+          "url": "https://www.wikitree.com/wiki/Glasgow-1156"
+        }
+      ],
+      "detail_url": "/branches/research-calder-testament-household/#duddingston-corsoun-parents",
+      "provenance": [
+        "research/relationship_assessments.json",
+        "research/ancestry-connections/duddingston-corsoun-parents-preservation-2026-10-17.json"
+      ]
     }
   ]
 }

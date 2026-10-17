@@ -6,6 +6,32 @@ from tools.sync_ancestry_atlas import overlay_model
 
 
 class AtlasWorkingTests(unittest.TestCase):
+    def test_reviewed_family_alias_uses_canonical_account_without_merging_facts(self):
+        old = {'meta': {}, 'landmarks': [], 'sections': [], 'people': [
+            {'id': '@smaller-families', 'kind': 'group'},
+            {'id': 'Father-1', 'kind': 'person', 'partners': [
+                {'id': 'Alias-1', 'role': 'spouse', 'name': 'Superseded name'}]},
+            {'id': 'Child-1', 'kind': 'person', 'parents': [
+                {'id': 'Alias-1', 'role': 'mother', 'status': 'uncertain'}], 'edge': {'parent': 'Alias-1'}},
+            {'id': 'Alias-1', 'kind': 'person', 'name': 'Superseded name', 'born': 1540}]}
+        fresh = deepcopy(old)
+        fresh['people'] = [p for p in fresh['people'] if p['id'] != 'Alias-1']
+        fresh['people'].append(dict(id='Mother-1', kind='person', name='Canonical mother', born=1560,
+                                   parents=[], partners=[{'id': 'Father-1'}], edge={'parent': '@smaller-families'}))
+        fresh['meta'].update(date='2026-10-17', reviewedFamilyAliases={'Alias-1': 'Mother-1'})
+        result = overlay_model(old, fresh)
+        people = {p['id']: p for p in result['people']}
+        self.assertNotIn('Alias-1', people)
+        self.assertEqual(people['Mother-1']['born'], 1560)
+        self.assertEqual(people['Child-1']['parents'][0]['id'], 'Mother-1')
+        self.assertEqual(people['Child-1']['parents'][0]['status'], 'uncertain')
+        self.assertEqual(people['Child-1']['edge']['parent'], 'Mother-1')
+        self.assertEqual(people['Father-1']['partners'][0]['previous_profile_id'], 'Alias-1')
+        self.assertEqual(result, overlay_model(result, fresh))
+        invalid = deepcopy(fresh); invalid['meta']['reviewedFamilyAliases'] = {'Alias-1': 'Absent-1'}
+        with self.assertRaisesRegex(ValueError, 'canonical public model targets'):
+            overlay_model(old, invalid)
+
     def test_scoped_recorded_mother_missing_from_main_is_restored(self):
         old = {'meta': {}, 'landmarks': [], 'sections': [], 'people': [
             {'id': '@smaller-families', 'kind': 'group'},

@@ -298,6 +298,12 @@ def apply_recorded_family_restorations(people: list[dict], assessments: list[dic
         parents = [r for r in by_id[child]['parents'] if r.get('role') == 'father']
         if len(parents) != 1 or parents[0].get('id') != father:
             raise ValueError('Family restoration must match the captured father')
+        names = restoration.get('name_corrections') or {}
+        if any(ident not in (child, father) or not isinstance(name, str) or not name.strip()
+               for ident, name in names.items()):
+            raise ValueError('Recorded family name corrections must identify the reviewed child or father')
+        for ident, name in names.items():
+            by_id[ident].update(name=name, first=name.split()[0])
         parents[0].update(status=assessment['status'], inModel=True,
             source='reviewed_recorded_family', assertion_id=assessment['assertion_id'],
             reason=assessment['basis'])
@@ -309,6 +315,26 @@ def apply_recorded_family_restorations(people: list[dict], assessments: list[dic
                          'assertion_id': assessment['assertion_id'], 'reason': assessment['basis']})
         changed.update([child, father])
     return sorted(changed)
+
+
+def reviewed_family_aliases(assessments: list[dict], aliases: dict, public_ids: set[str]) -> dict:
+    """Publish only explicitly reviewed, previously saved family redirects."""
+    result = {}
+    for assessment in assessments:
+        restoration = assessment.get('tree_family_restoration') or {}
+        for old, current in (restoration.get('profile_aliases') or {}).items():
+            if (assessment.get('publication_status') != 'approved'
+                    or assessment.get('status') not in {'proved', 'confident', 'strongly_supported'}
+                    or restoration.get('previously_confident') is not True
+                    or not assessment.get('source_ids') or not assessment.get('assertion_id')
+                    or old == current or aliases.get(old) != current or current not in public_ids):
+                raise ValueError('Reviewed family alias must match an approved recorded family and saved public redirect')
+            if old in result and result[old] != current:
+                raise ValueError('Conflicting reviewed family aliases')
+            result[old] = current
+    if set(result) & set(result.values()):
+        raise ValueError('Reviewed family aliases must resolve directly to canonical profiles')
+    return result
 
 
 def apply_reviewed_parent_replacements(people: list[dict], assessments: list[dict]) -> list[str]:
@@ -604,6 +630,7 @@ def generate_model(catalogue_path: Path, prior: dict) -> dict:
     aliases_path = ROOT / 'data/wikitree/live-profile-overrides.json'
     parent_aliases = json.loads(aliases_path.read_text()).get('redirects', {}) if aliases_path.exists() else {}
     restored_family_ids = apply_recorded_family_restorations(people, assessments)
+    family_aliases = reviewed_family_aliases(assessments, parent_aliases, {p['id'] for p in people})
     reviewed_parent_ids = apply_reviewed_parent_replacements(people, assessments)
     hypotheses = apply_working_hypotheses(people, assessments, parent_aliases)
     maternal_hypotheses = apply_working_mothers(people, assessments)
@@ -738,6 +765,7 @@ def generate_model(catalogue_path: Path, prior: dict) -> dict:
             "reviewedFamilyRestorationIds": restored_family_ids,
             "workingParentAlternativeIds": sorted({r['id'] for p in people for r in p.get('priorWorkingParents', [])}),
             "workingMotherIds": sorted({r['id'] for p in people for r in p.get('parents', []) if r.get('role') == 'mother' and r.get('hypothesis')}),
+            "reviewedFamilyAliases": family_aliases,
             "reviewedChronologyDisplay": {r['id']: {k: v for k, v in r.get('tree_display', {}).items()
                 if k in CHRONOLOGY_DISPLAY_FIELDS} for r in chronology if r['id'] in people_by_id},
             **public_family_sync,

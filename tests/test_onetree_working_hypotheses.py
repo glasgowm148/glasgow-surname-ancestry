@@ -4,7 +4,7 @@ import unittest
 from copy import deepcopy
 
 from tools.approved_restorations import documentary_renderer
-from tools.site_sources.onetree.build import apply_working_hypotheses, apply_working_mothers, apply_recorded_family_restorations
+from tools.site_sources.onetree.build import apply_working_hypotheses, apply_working_mothers, apply_recorded_family_restorations, reviewed_family_aliases
 
 
 def people(*ids):
@@ -18,6 +18,21 @@ def assessment(child, father, **extra):
 
 
 class WorkingHypothesisTests(unittest.TestCase):
+    def test_family_aliases_require_saved_canonical_redirects_and_record_review(self):
+        a = assessment('Child-1', 'Father-1', people=['Child-1', 'Father-1'], status='proved',
+                       source_ids=['S-1'], tree_family_restoration=dict(child='Child-1', father='Father-1',
+                       previously_confident=True, profile_aliases={'Alias-1': 'Mother-1'}))
+        self.assertEqual(reviewed_family_aliases([a], {'Alias-1': 'Mother-1'}, {'Mother-1'}),
+                         {'Alias-1': 'Mother-1'})
+        for aliases, public, change in [({}, {'Mother-1'}, {}),
+                                       ({'Alias-1': 'Elsewhere-1'}, {'Mother-1'}, {}),
+                                       ({'Alias-1': 'Mother-1'}, set(), {}),
+                                       ({'Alias-1': 'Mother-1'}, {'Mother-1'}, {'publication_status': 'draft'}),
+                                       ({'Alias-1': 'Mother-1'}, {'Mother-1'}, {'source_ids': []})]:
+            with self.subTest(aliases=aliases, public=public, change=change):
+                with self.assertRaisesRegex(ValueError, 'saved public redirect'):
+                    reviewed_family_aliases([dict(a, **change)], aliases, public)
+
     def maternal_replacement_case(self):
         model = people('Child-1', 'Father-1', 'OldMother-1', 'NewMother-1')
         model[0]['parents'] = [dict(id='Father-1', role='father', status='uncertain', hypothesis=True),
@@ -186,8 +201,16 @@ class WorkingHypothesisTests(unittest.TestCase):
                 'basis': 'Existing reviewed record', 'source_ids': ['S-record'],
                 'perspectives': {'Child-1': {'relationship': 'father'}},
                 'tree_family_restoration': {'child': 'Child-1', 'father': 'Father-1', 'previously_confident': True}}
+        item['tree_family_restoration']['name_corrections'] = {'Child-1': 'Reviewed Child'}
         self.assertEqual(apply_recorded_family_restorations(model, [item]), ['Child-1', 'Father-1'])
+        self.assertEqual(model[0]['name'], 'Reviewed Child')
+        self.assertEqual(model[0]['first'], 'Reviewed')
+        self.assertEqual(model[1]['childrenRecorded'][0]['name'], 'Reviewed Child')
         self.assertEqual(model[1]['childrenRecorded'][0]['status'], 'proved')
+        item['tree_family_restoration']['name_corrections'] = {'Other-1': 'Unreviewed'}
+        with self.assertRaisesRegex(ValueError, 'reviewed child or father'):
+            apply_recorded_family_restorations(model, [item])
+        item['tree_family_restoration'].pop('name_corrections')
         item['tree_family_restoration']['previously_confident'] = False
         with self.assertRaisesRegex(ValueError, 'already-confident'):
             apply_recorded_family_restorations(model, [item])

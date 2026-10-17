@@ -1840,3 +1840,13 @@ The August completion entries remain historical. The live parent fields are now 
 | [Hugh Glasgow, elder Tyrone–Londonderry weaver](https://www.wikitree.com/wiki/Glasgow-548) | OPEN | Explain the two probable traditional father roles; preserve independent Scottish, 1740 and Leitrim identity questions and unmarked live flags. |
 | [John Glasgow, Tyrone family-history account](https://www.wikitree.com/wiki/Glasgow-551) | OPEN | Explain the two probable traditional father roles; preserve independent Scottish, 1740 and Leitrim identity questions and unmarked live flags. |
 | [William Glasgow, traditional Scottish ancestor account](https://www.wikitree.com/wiki/Glasgow-591) | OPEN | Explain the two probable traditional father roles; preserve independent Scottish, 1740 and Leitrim identity questions and unmarked live flags. |
+
+
+## Duddingston–Corsoun family review — 17 October 2026
+
+| [Robert Glasgow, Duddingston account](https://www.wikitree.com/wiki/Glasgow-1156) | OPEN | Explain the preferred uncertain adult parents and documented record household; retain alternative parentage and separate Robert identities. |
+| [Andrew Glasgow of the queried Corsoun/Calder household](https://www.wikitree.com/wiki/Glasgow-3163) | OPEN | Explain the preferred uncertain adult parents and documented record household; retain alternative parentage and separate Robert identities. |
+| [Elizat Stevinsoun](https://www.wikitree.com/wiki/Stevinsoun-2) | OPEN | Explain the preferred uncertain adult parents and documented record household; retain alternative parentage and separate Robert identities. |
+| [Archibald Glasgow, Glasgow burgess](https://www.wikitree.com/wiki/Glasgow-1097) | OPEN | Explain the preferred uncertain adult parents and documented record household; retain alternative parentage and separate Robert identities. |
+| [Isobell Newlands](https://www.wikitree.com/wiki/Newlands-647) | OPEN | Explain the preferred uncertain adult parents and documented record household; retain alternative parentage and separate Robert identities. |
+| [Robert Glasgow, son named in the 1598 testament](https://www.wikitree.com/wiki/Glasgow-4006) | OPEN | Explain the preferred uncertain adult parents and documented record household; retain alternative parentage and separate Robert identities. |

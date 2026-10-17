@@ -45,6 +45,31 @@ def overlay_model(retained: dict, fresh: dict) -> dict:
     refresh = selected | set(result['meta'].get('workingOverlayIds', [])) | documentary | reviewed | set(result['meta'].get('reviewedParentReplacementIds', []))
     refresh |= restored | set(result['meta'].get('reviewedFamilyRestorationIds', []))
     existing = {p['id']: p for p in result['people']}
+    aliases = fresh['meta'].get('reviewedFamilyAliases', {})
+    if any(old == current or current not in incoming or current in aliases for old, current in aliases.items()):
+        raise ValueError('Reviewed family aliases need canonical public model targets')
+    for old, current in aliases.items():
+        existing.setdefault(current, deepcopy(incoming[current]))
+        existing.pop(old, None)
+    for person in existing.values():
+        for group in ('parents', 'partners', 'childrenRecorded'):
+            rows = person.get(group, [])
+            present = {(r.get('id'), r.get('role')) for r in rows if r.get('id') not in aliases}
+            projected = []
+            for row in rows:
+                if row.get('id') in aliases:
+                    current = aliases[row['id']]
+                    if (current, row.get('role')) in present:
+                        continue
+                    row = dict(row, id=current, name=incoming[current]['name'], inModel=True,
+                               previous_profile_id=row['id'])
+                    present.add((current, row.get('role')))
+                projected.append(row)
+            if group in person:
+                person[group] = projected
+        edge = person.get('edge', {})
+        if edge.get('parent') in aliases:
+            edge['parent'] = aliases[edge['parent']]
     mother_ids = set(fresh['meta'].get('workingMotherIds', []))
     for child, mothers in maternal_scope.items():
         recorded = [r.get('id') for r in existing.get(child, {}).get('parents', []) if r.get('role') == 'mother']
@@ -168,6 +193,7 @@ def overlay_model(retained: dict, fresh: dict) -> dict:
     result['landmarks'] = list(dict.fromkeys(result['landmarks'] + sorted(documentary)))
     people = [p for p in result['people'] if p.get('kind') == 'person']
     result['meta'].update(people=len(people), groups=len(sections),
+                          reviewedFamilyAliases=deepcopy(aliases),
                           hypotheses=len(selected), documentaryPeople=len(documentary),
                           identityHypotheses=fresh['meta'].get('identityHypotheses', 0),
                           reviewedParentReplacementIds=sorted(reviewed),
