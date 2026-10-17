@@ -270,6 +270,7 @@ def related_profile(value: dict) -> dict:
         "birth_location": value.get("BirthLocation") or "",
         "death_date": value.get("DeathDate") or "",
         "death_location": value.get("DeathLocation") or "",
+        **({"IsLiving": value["IsLiving"]} if "IsLiving" in value else {}),
         "marriage_date": value.get("marriage_date") or value.get("MarriageDate") or "",
         "marriage_location": value.get("marriage_location") or value.get("MarriageLocation") or "",
     }
@@ -389,7 +390,7 @@ def main() -> int:
         try:
             relatives = post_wikitree({
                 "action": "getRelatives", "keys": ",".join(batch),
-                "fields": "Id,PageId,Name,FirstName,MiddleName,LastNameAtBirth,LastNameCurrent,RealName,LongName,BirthName,BirthDate,BirthLocation,DeathDate,DeathLocation,Father,Mother",
+                "fields": "Id,PageId,Name,FirstName,MiddleName,LastNameAtBirth,LastNameCurrent,RealName,LongName,BirthName,BirthDate,BirthLocation,DeathDate,DeathLocation,Father,Mother,Privacy,IsLiving",
                 "getParents": "1", "getChildren": "1", "getSiblings": "1", "getSpouses": "1",
             })
             items = extract_person_items(relatives)

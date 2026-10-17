@@ -62,6 +62,19 @@ class PublicPrivacyTests(unittest.TestCase):
         self.assertTrue(capture["assessment_flags"]["_structural_placeholder"])
         self.assertEqual(capture, self.policy.capture(capture))
 
+    def test_explicit_living_status_wins_missing_or_stale_dates(self):
+        for flag in (1, True, "1", "true"):
+            self.assertTrue(likely_living({"IsLiving": flag}))
+            self.assertTrue(likely_living({"profile_fields": {
+                "IsLiving": flag, "BirthDate": "1800-01-01", "DeathLocation": "Old claim"}}))
+        for flag in (0, False, "0", "false", None):
+            self.assertFalse(likely_living({"IsLiving": flag}))
+        policy = from_sources({"profiles": {"Example-300": {
+            "profile_id": "Example-300", "profile_fields": {"IsLiving": "1"}}}}, {})
+        self.assertIn("example-300", policy.blocked)
+        self.assertNotIn("Example-300", json.dumps(policy.project({
+            "people": [{"id": "Example-300", "name": "Private Example"}]})))
+
     def test_casefolded_lookup_covers_nested_mirrors(self):
         value = {"imported": {"relations": [{"id": "EXAMPLE-200", "name": "Private Example", "url": "https://example.org"}]}}
         projected = self.policy.project(value)

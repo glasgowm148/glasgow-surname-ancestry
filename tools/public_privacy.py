@@ -65,7 +65,9 @@ def likely_living(*rows, year=None):
     """
     rows = [row for row in rows if isinstance(row, dict)]
     rows += [row["profile_fields"] for row in rows if isinstance(row.get("profile_fields"), dict)]
-    if any(row.get("likely_living") or row.get("withheld") for row in rows):
+    if any(row.get("likely_living") or row.get("withheld") or
+           str(row.get("IsLiving", "")).strip().casefold() in {"1", "true"}
+           for row in rows):
         return True
     if any(_value(row, "death_date", "DeathDate") or _value(row, "death_location", "DeathLocation") for row in rows):
         return False
