@@ -30104,6 +30104,72 @@
       "provenance": [
         "research/ancestry-connections/gordon-household-confidence-2026-10-17.json"
       ]
+    },
+    {
+      "id": "whitecastle-quothquan-working-family-2026-10-17",
+      "found_on": "2026-10-17",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "The Whitecastle James was reported imprisoned in July 1672, not fined in 1670. The printed decree and named Biggar-area neighbours support a probable Libberton setting. A conditional uncertain father in the existing Quothquan family is now selected through the possible Lindsaylands identity.",
+      "qualification": "The printed decree in Robert Wodrow’s 1721 History, volume I, appendix no. XLVII, pp.133–134, is dated 27 July 1672 in both its heading and Latin opening. It names “James Glasgow in Whitecastle” among people imprisoned for refusing the oath. The monetary fines there belong to Mr James Duncan and the Countess of Wigtoun, not to James Glasgow. William Crookshank’s 1751 summary, volume I p.285, places the same named group under 24 July 1672; preserve that day discrepancy and prefer the printed decree’s 27 July for this source account. Neither source supports the old 1670 date. The two books recount the same proceeding and are not independent evidence of two imprisonments. The surrounding Biggar/Boghall group names men in Biggar, Carwood, Edmonstoun, Worslyd and Carstairs. This favours the Whitecastle in Libberton parish over a location guessed merely from general Covenanter activity. J. L. Davidson’s published article title locates West Whitecastle Farm in Libberton, Lanarkshire (Proceedings of the Society of Antiquaries of Scotland 108, p.383; title checked in the journal’s search-indexed contents, full article not inspected). This supports the Libberton place identification, in the same parish setting as Quothquan and near Biggar’s Lindsaylands; it does not identify a seventeenth-century occupier. This is a probable interpretation of James’s residence, not a parish supplied literally by the decree. White Castle in Garvald and Bara, East Lothian, is a real alternative place. The decree also deals with a Perthshire group; document order alone does not put every accused person in Clydesdale. There are two dependent gaps: Whitecastle James is not proved to be the Lindsaylands weaver, and John’s paternity of James-3332 is itself unproved. John’s 1685 Quothquan testament names his widow but no child; the absence of James, if dead by 1680, would not exclude this model. James-3332’s possible identity with the 1624 weaver would invalidate this particular later-life route, because the 1624 decedent cannot be the man present in 1672. James-1150, the Edinburgh weaver, remains an alternative adult identification for the later weaver rather than being excluded from an unsupported birth estimate; another local James or a different kinship degree remains possible. The old Marion-baptism role error supplies no positive parentage for James-1376, and the Duffe household James-2682 is not merged. The 1738 Edinburgh Castle lead is unselected and incompatible with a death by 1680 if this weaver identity is right. No 1680 original was newly read: the maintained case has only the supplied wills index, and no linked manuscript or transcription. Neither a marriage nor a mother is supplied. Jonet Kinnie, John’s widow, is not automatically James’s mother. Keep both James profiles separate; they may represent one man, not two proved brothers. The fixed historical cohort and all names, dates, places, spouses, existing father choices and live WikiTree fields are preserved. The circa-1650 birth on James-1376 is an estimate; the newly checked occurrence is in 1672, not a pre-1650 record. One selected uncertain father connects this previously isolated account locally. Supported and confident paternal measurements remain unchanged. Working counts concern retained profile accounts and may include the unresolved duplicate represented by the two James profiles; a gained connection is not another proved person or a proved pedigree. The 27/24 July discrepancy and imprisonment-versus-fine correction remain visible beside the family hypothesis.",
+      "relationship_changes": [],
+      "certainty_upgrades": 0,
+      "working_fathers_added": 1,
+      "people": [
+        {
+          "id": "Glasgow-1376",
+          "name": "James Glasgow of Whitecastle",
+          "url": "/people/glasgow-1376.html"
+        },
+        {
+          "id": "Glasgow-3332",
+          "name": "James Glasgow, possible Lindsaylands weaver",
+          "url": "/people/glasgow-3332.html"
+        },
+        {
+          "id": "Glasgow-1086",
+          "name": "John Glasgow of Quothquan",
+          "url": "/people/glasgow-1086.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Robert Wodrow, History of the Sufferings of the Church of Scotland (1721), vol.I, appendix no.XLVII, pp.133–134, decree headed 27 July 1672; printed page images freshly inspected",
+          "url": "https://archive.org/details/bim_eighteenth-century_the-history-of-the-suffe_wodrow-robert_1721_1/page/n794/mode/2up"
+        },
+        {
+          "title": "Wodrow, same decree, printed p.134: James Glasgow in Whitecastle and reported imprisonment; image freshly inspected",
+          "url": "https://archive.org/details/bim_eighteenth-century_the-history-of-the-suffe_wodrow-robert_1721_1/page/n795/mode/2up"
+        },
+        {
+          "title": "William Crookshank, History of the State and Sufferings of the Church of Scotland (1751), vol.I p.285: same group under 24 July 1672; printed page freshly inspected",
+          "url": "https://archive.org/details/bim_eighteenth-century_the-history-of-the-state_crookshank-william_1751_1/page/n308/mode/1up"
+        },
+        {
+          "title": "J. L. Davidson, “Note on a carved stone found within the fort on West Whitecastle Farm, Libberton, Lanarkshire”, PSAS 108 (1979), p.383: published title checked in search-indexed journal contents; full article not inspected; locality only",
+          "url": "https://journals.socantscot.org/index.php/psas/issue/view/239"
+        },
+        {
+          "title": "Historic Environment Scotland SM756, White Castle fort, Garvald and Bara, East Lothian: alternative place, not the selected location",
+          "url": "https://portal.historicenvironment.scot/designation/SM756"
+        },
+        {
+          "title": "Francis J. Grant, Commissariot Record of Lanark (1903), pp.38/99: James Glasgow, weaver at Back of Lindsaylands, 10 November 1680; previously inspected index",
+          "url": "https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/the_commissariot_record_of_lanark__register_of_testaments__1595-1800_~_1903.pdf"
+        },
+        {
+          "title": "Edinburgh apprentice entry 7 May 1690, scored out: James son of deceased James Glasgow, Lindsayland weaver; maintained transcript, not a newly inspected original",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FEDINBURGH%2FAPPRENTICES%2F0005159%2F1&tab=this"
+        },
+        {
+          "title": "John Glasgow of Quothquan, 25 March 1685, NRS CC14/5/12, images67–68; supplied working transcription names widow but no child, reused here",
+          "url": "https://www.scotlandspeople.gov.uk/search-records/legal-records/wills"
+        }
+      ],
+      "detail_url": "/branches/early-scottish-records/#chapter-whitecastle-quothquan-working-family",
+      "provenance": [
+        "research/ancestry-connections/whitecastle-quothquan-working-family-2026-10-17.json"
+      ]
     }
   ]
 }

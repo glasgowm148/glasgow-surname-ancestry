@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "reviewed": "2026-10-17",
+  "cutoff": 1850,
+  "method_version": 3,
+  "scope": "Whitecastle James: a Clydesdale setting and provisional Quothquan family",
+  "input_fingerprint": "8af58b31ffd882a3eb992074991dc51f66314fa25922de5dcb3fd6a1ef2d6a72",
+  "models": {
+    "main": {
+      "checked_historical_profiles": 1777,
+      "all_profiles_checked": 4520,
+      "matched_paternal_edges": 1359,
+      "changed_father_fields": 1,
+      "changed_mother_fields": 0,
+      "added_historical_profiles": [],
+      "all_other_parent_rows_unchanged": true,
+      "all_existing_reciprocal_child_rows_unchanged": true,
+      "held_four_father_cases_unchanged": true,
+      "unresolved_identity_dependency": "Glasgow-3332"
+    },
+    "standalone": {
+      "checked_historical_profiles": 1777,
+      "all_profiles_checked": 4671,
+      "matched_paternal_edges": 1359,
+      "changed_father_fields": 1,
+      "changed_mother_fields": 0,
+      "added_historical_profiles": [],
+      "all_other_parent_rows_unchanged": true,
+      "all_existing_reciprocal_child_rows_unchanged": true,
+      "held_four_father_cases_unchanged": true,
+      "unresolved_identity_dependency": "Glasgow-3332"
+    }
+  },
+  "genealogical_connections_added": 1,
+  "paternal_connections_added": 1,
+  "maternal_connections_added": 0,
+  "certainty_upgrades": 0,
+  "publication_summary": "The July 1672 Whitecastle occurrence has a probable Libberton setting. One conditional uncertain father attaches James-1376 to John-1086 through possible identity with James-3332; this is not a certainty upgrade or a profile merge. Supported and confident measurements, all other parents, reciprocal existing children, live fields, vital data and DNA are unchanged. The two James accounts may duplicate one man. Printed decree 27 July and Crookshank 24 July remain distinguished; imprisonment is not a fine.",
+  "comparison": "/branches/early-scottish-records/#chapter-whitecastle-quothquan-working-family",
+  "verification": {
+    "all_cohort_membership_unchanged": true,
+    "all_cohort_metrics_independently_rederived": true,
+    "before_metrics_reconstructed_without_new_working_link": true,
+    "supported_and_confident_metrics_unchanged": true,
+    "fixed_baseline_unchanged": true,
+    "all_live_fields_and_flags_unchanged": true,
+    "dna_payloads_unchanged": true,
+    "complete_public_profile_comparisons": 3,
+    "public_pending_updates": 269
+  },
+  "next_metric_check": {
+    "status": "RESOLVED",
+    "saved_confident_tree_flags_not_used_by_current_metric": 0,
+    "review": "/data/ancestry-confidence-method-review.json",
+    "scope": "Four competing-father cases remain held."
+  },
+  "measurements": {
+    "working": {
+      "before": {
+        "edge_count": 1358,
+        "component_count": 421,
+        "largest_component_size": 1059,
+        "connected_pairs_percent": 35.58026231070688
+      },
+      "after": {
+        "edge_count": 1359,
+        "component_count": 420,
+        "largest_component_size": 1061,
+        "connected_pairs_percent": 35.714484884434235
+      }
+    },
+    "supported": {
+      "before": {
+        "edge_count": 378,
+        "component_count": 1400,
+        "largest_component_size": 46,
+        "connected_pairs_percent": 0.20044664811125137
+      },
+      "after": {
+        "edge_count": 378,
+        "component_count": 1400,
+        "largest_component_size": 46,
+        "connected_pairs_percent": 0.20044664811125137
+      }
+    },
+    "confident": {
+      "before": {
+        "edge_count": 359,
+        "component_count": 1418,
+        "largest_component_size": 43,
+        "connected_pairs_percent": 0.1679366479591578
+      },
+      "after": {
+        "edge_count": 359,
+        "component_count": 1418,
+        "largest_component_size": 43,
+        "connected_pairs_percent": 0.1679366479591578
+      }
+    }
+  }
+}

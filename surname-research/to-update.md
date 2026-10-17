@@ -1939,3 +1939,10 @@ The August completion entries remain historical. The live parent fields are now 
 | [Robert Glasgow, 1673 Gordon child](https://www.wikitree.com/wiki/Glasgow-3106) | OPEN | Add the combined Polwarth–Gordon household evidence: father named in child indexes, Agnes Watt probable mother; preserve date/place conflicts and later identity limits. |
 | [Agnes Glasgow, 1676 Gordon child](https://www.wikitree.com/wiki/Glasgow-3363) | OPEN | Add the combined Polwarth–Gordon household evidence: father named in child indexes, Agnes Watt probable mother; preserve date/place conflicts and later identity limits. |
 | [Margaret Glasgow, 1679 Gordon child](https://www.wikitree.com/wiki/Glasgow-3365) | OPEN | Add the combined Polwarth–Gordon household evidence: father named in child indexes, Agnes Watt probable mother; preserve date/place conflicts and later identity limits. |
+
+
+## Whitecastle and Quothquan family — 17 October 2026
+
+| [James Glasgow of Whitecastle](https://www.wikitree.com/wiki/Glasgow-1376) | OPEN | Correct July 1672 imprisonment and probable Libberton setting; review the conditional uncertain father and possible duplicate James identity, with no mother or merge. |
+| [James Glasgow, possible Lindsaylands weaver](https://www.wikitree.com/wiki/Glasgow-3332) | OPEN | Correct July 1672 imprisonment and probable Libberton setting; review the conditional uncertain father and possible duplicate James identity, with no mother or merge. |
+| [John Glasgow of Quothquan](https://www.wikitree.com/wiki/Glasgow-1086) | OPEN | Correct July 1672 imprisonment and probable Libberton setting; review the conditional uncertain father and possible duplicate James identity, with no mother or merge. |

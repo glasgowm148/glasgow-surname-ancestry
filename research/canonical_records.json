@@ -4137,5 +4137,61 @@
         "role": "Probable mother inferred from household, not named in index"
       }
     }
+  },
+  {
+    "record_id": "whitecastle-james-decree-1672",
+    "record_type": "printed transcription of Privy Council decree",
+    "date": "27 July 1672 decree; Crookshank summary gives 24 July",
+    "year": 1672,
+    "place": "Whitecastle, probably Libberton, Lanarkshire; hearing at Holyroodhouse",
+    "source_title": "Robert Wodrow, History of the Sufferings of the Church of Scotland (1721), vol.I, appendix no.XLVII, pp.133–134, decree headed 27 July 1672; printed page images freshly inspected",
+    "source_url": "https://archive.org/details/bim_eighteenth-century_the-history-of-the-suffe_wodrow-robert_1721_1/page/n794/mode/2up",
+    "reference": "Wodrow vol.I appendix XLVII, pp.133–134; Crookshank vol.I p.285",
+    "status": "Printed decree and summary page images inspected 17 October 2026; original Council register not inspected",
+    "note": "The printed decree in Robert Wodrow’s 1721 History, volume I, appendix no. XLVII, pp.133–134, is dated 27 July 1672 in both its heading and Latin opening. It names “James Glasgow in Whitecastle” among people imprisoned for refusing the oath. The monetary fines there belong to Mr James Duncan and the Countess of Wigtoun, not to James Glasgow. William Crookshank’s 1751 summary, volume I p.285, places the same named group under 24 July 1672; preserve that day discrepancy and prefer the printed decree’s 27 July for this source account. Neither source supports the old 1670 date. The two books recount the same proceeding and are not independent evidence of two imprisonments. The surrounding Biggar/Boghall group names men in Biggar, Carwood, Edmonstoun, Worslyd and Carstairs. This favours the Whitecastle in Libberton parish over a location guessed merely from general Covenanter activity. J. L. Davidson’s published article title locates West Whitecastle Farm in Libberton, Lanarkshire (Proceedings of the Society of Antiquaries of Scotland 108, p.383; title checked in the journal’s search-indexed contents, full article not inspected). This supports the Libberton place identification, in the same parish setting as Quothquan and near Biggar’s Lindsaylands; it does not identify a seventeenth-century occupier. This is a probable interpretation of James’s residence, not a parish supplied literally by the decree. White Castle in Garvald and Bara, East Lothian, is a real alternative place. The decree also deals with a Perthshire group; document order alone does not put every accused person in Clydesdale. No kinship is stated.",
+    "profiles": {
+      "Glasgow-1376": {
+        "role": "James Glasgow in Whitecastle, reported imprisoned for refusing oath"
+      },
+      "Glasgow-3332": {
+        "role": "Possible same person only; not an additional accused person"
+      }
+    }
+  },
+  {
+    "record_id": "lindsayland-james-apprentice-1690",
+    "record_type": "apprentice-register transcription",
+    "date": "7 May 1690",
+    "year": 1690,
+    "place": "Edinburgh; father in Lindsayland",
+    "source_title": "Edinburgh apprentice entry 7 May 1690, scored out: James son of deceased James Glasgow, Lindsayland weaver; maintained transcript, not a newly inspected original",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FEDINBURGH%2FAPPRENTICES%2F0005159%2F1&tab=this",
+    "status": "Maintained earlier transcript reused; scored-out entry; original register not newly inspected",
+    "note": "Names deceased father James Glasgow, weaver in Lindsayland. Probably the indexed 1680 weaver. James-3332 and Whitecastle identities remain possible, not proved.",
+    "profiles": {
+      "Glasgow-3332": {
+        "role": "Possible identity of named deceased father"
+      },
+      "Glasgow-1376": {
+        "role": "Possible earlier Whitecastle identity of the father"
+      }
+    }
+  },
+  {
+    "record_id": "quothquan-john-testament-1685",
+    "record_type": "testament dative working transcription",
+    "date": "25 March 1685",
+    "year": 1685,
+    "place": "Quothquan, Libberton parish",
+    "source_title": "John Glasgow of Quothquan, 25 March 1685, NRS CC14/5/12, images67–68; supplied working transcription names widow but no child, reused here",
+    "source_url": "https://www.scotlandspeople.gov.uk/search-records/legal-records/wills",
+    "reference": "CC14/5/12, images67–68",
+    "status": "Supplied working transcription reused; widow surname provisionally Kinnie",
+    "note": "Names widow Jonet; no child or parent. No newly proved James son.",
+    "profiles": {
+      "Glasgow-1086": {
+        "role": "Deceased householder"
+      }
+    }
   }
 ]

@@ -1,0 +1,41 @@
+{
+  "reviewed": "2026-10-17",
+  "scope": "Whitecastle James: a Clydesdale setting and provisional Quothquan family",
+  "profiles": {
+    "Glasgow-1376": {
+      "current_sha256": "1f651444b4eb9b0af32d1de260f500e2bea795b95327459d04c9f7830d272141",
+      "proposed_sha256": "6b1ac7a92a38f63d57361e46ad22bff47e0fbdac7e01cff80d0d6eb0e91a5f66",
+      "all_substantive_passages_accounted_for": true,
+      "complete_current_and_prior_proposals_preserved": false,
+      "private_comparison": false,
+      "passages": [
+        "All distinct captured source URLs retained and bibliographically identified.",
+        "The 1657 Marion role error, Edinburgh weaver and Duffe comparisons, 1672 imprisonment, Duncan identity, Whitecastle alternatives, 1680 index and 1738 namesake are all accounted for.",
+        "The repeated uncited geography speculation and erroneous 1670 fine assertion are superseded explicitly.",
+        "No captured structured dates, places, relatives or certainty flags are edited; this is a complete proposed biography."
+      ]
+    },
+    "Glasgow-3332": {
+      "current_sha256": "721d6b35fb997431ea38281a19f7ab47379c190a2b130fb12d3c98d82349325d",
+      "proposed_sha256": "63018e1ca1359c382740c76641c075ecccea781232220e1f6f1e04c924ece889",
+      "all_substantive_passages_accounted_for": true,
+      "complete_current_and_prior_proposals_preserved": true,
+      "private_comparison": false,
+      "passages": [
+        "Captured and earlier maintained complete texts preserved, with an additive dated identity assessment.",
+        "No structured dates, places, family fields or parent certainty changed."
+      ]
+    },
+    "Glasgow-1086": {
+      "current_sha256": "1c7316ba02b848d29b6042c60f4dec7aecccf41687011388a839416132e8f8a3",
+      "proposed_sha256": "c372b6a63ed2765030c5789cb6c0a99973f11b3d1932fdc8b9aba9daa7bf1c22",
+      "all_substantive_passages_accounted_for": true,
+      "complete_current_and_prior_proposals_preserved": true,
+      "private_comparison": false,
+      "passages": [
+        "Captured and earlier maintained complete texts preserved, with an additive dated identity assessment.",
+        "No structured dates, places, family fields or parent certainty changed."
+      ]
+    }
+  }
+}
