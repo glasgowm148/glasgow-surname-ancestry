@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "reviewed_on": "2026-10-15",
+  "reviewed_on": "2026-10-17",
   "groups": [
     {
       "slug": "rathmalton-1673",
@@ -14349,6 +14349,93 @@
             ],
             "genealogical_parent_change": false
           }
+        }
+      ]
+    },
+    {
+      "slug": "currituck-1746",
+      "title": "William’s Currituck household: two documented daughters and one probable Caleb identity",
+      "introduction": "William’s 1746 Currituck will expressly names Caleb as his son and Abiah and Elizabeth as daughters. The existing Abiah and Elizabeth profiles share the named father, Currituck setting and compatible childhood generation; neither has a conflicting identity. Their father links are documented. The two Caleb profiles repeat the same FamilySearch identity and later Pasquotank will account, indicating possible duplicates. Both fit William’s named son sufficiently for probable father assessments, but they represent one historical son candidate, not two independently proved sons.",
+      "people": [
+        {
+          "anchor": "sarah-glasgow",
+          "name": "Sarah Glasgow, daughter of William of Currituck",
+          "status": "HOLD — sourced daughter account; modern profile identity unresolved",
+          "identity_note": "The will directly identifies Sarah as William’s daughter. No compatible modern historical profile was established in the checked scope; this draft preserves her family role without creating or merging a profile. The two Scottish baptism candidates name a different father, John.",
+          "minimum_fields": "Name Sarah Glasgow; born before 30 September 1746; associated with Currituck, North Carolina; father William Glasgow; mother, birth date, marriage and death unknown.",
+          "facts": [
+            {
+              "finding": "William’s 1746 will calls Sarah his daughter and gives her a contingent land interest and cattle in a mark given by an unnamed grandfather. Neither the grandfather nor Sarah’s mother is identified.",
+              "sources": [
+                {
+                  "title": "William Glasgow will, 30 September 1746; proved 7 April 1747, North Carolina State Archives MARS 12.96.1.805; NCGenWeb published transcription checked 17 October 2026",
+                  "url": "https://www.ncgenweb.us/currituck/wills/glasgowwilliam1746.html"
+                }
+              ]
+            },
+            {
+              "finding": "Family assessment: The will survives here through a checked published transcription; the manuscript has not been newly inspected. Abiah’s competing 1730/1738 estimates and Elizabeth’s 1741 date are not proved by it. Caleb’s conflicting 1726/circa-1740 births, 1781/1804 deaths and Gregory/Sawyer spouse accounts remain unresolved. The 1803 Pasquotank will does not name Lemuel; his very uncertain selected link to Caleb-363 and alternative Caleb-830 retain that grade. Susanah is William’s named wife, but the will does not establish her as mother of every child; no mother is upgraded. Lowdenner is not equated with the named Sarah or unborn child. William’s own father remains unproved.",
+              "sources": [
+                {
+                  "title": "William Glasgow will, 30 September 1746; proved 7 April 1747, North Carolina State Archives MARS 12.96.1.805; NCGenWeb published transcription checked 17 October 2026",
+                  "url": "https://www.ncgenweb.us/currituck/wills/glasgowwilliam1746.html"
+                },
+                {
+                  "title": "The two Caleb accounts and their separate identity questions",
+                  "url": "/people/glasgow-363.html"
+                },
+                {
+                  "title": "Alternative Caleb account",
+                  "url": "/people/glasgow-830.html"
+                }
+              ]
+            },
+            {
+              "finding": "Four existing profile father assessments are strengthened: two ungraded links become documented and two ungraded Caleb profile links become probable. These are three historical child roles, including one Caleb role represented by possible duplicate profiles. No new parent attachment, merge, live WikiTree save or vital-date correction is made. All other paternal and maternal grades remain unchanged.",
+              "sources": [
+                {
+                  "title": "William’s family assessment and complete comparison",
+                  "url": "/people/glasgow-428.html"
+                }
+              ]
+            }
+          ],
+          "candidates": [],
+          "duplicate_check": [
+            "Glasgow-2451: the February 1726 Kilwinning baptism names John Glasgow-1927 as father, conflicting with William’s daughter.",
+            "Glasgow-4122: the July 1726 Irvine baptism names John Glasgow-1077 as father, conflicting with William’s daughter. The matching Irvine record-only entry is the same event, not another Sarah.",
+            "The direct child list, approved historical catalogue and local reviewed-note index were checked. This is a bounded identity review; it does not establish that no compatible profile exists elsewhere.",
+            "Do not equate Sarah with Lowdenner, infer a mother from the testator’s wife, or name the grandfather from a witness surname."
+          ],
+          "next_test": "Check Sarah’s subsequent marriage or land disposal against the contingent bequest before creating or joining a modern profile.",
+          "related_profiles": [
+            {
+              "id": "Glasgow-428",
+              "name": "William Glasgow of Currituck",
+              "relationship": "documented father"
+            },
+            {
+              "id": "Glasco-39",
+              "name": "Abiah Glasco",
+              "relationship": "documented paternal sister"
+            },
+            {
+              "id": "Glasco-40",
+              "name": "Elizabeth Glasco",
+              "relationship": "documented paternal sister"
+            },
+            {
+              "id": "Glasgow-363",
+              "name": "Caleb Glasgow, older Currituck account",
+              "relationship": "probable brother account; possible duplicate of Glasgow-830"
+            },
+            {
+              "id": "Glasgow-830",
+              "name": "Caleb Glasgow, Pasquotank account",
+              "relationship": "probable brother account; possible duplicate of Glasgow-363"
+            }
+          ],
+          "wikitext": "== Biography ==\n\nSarah Glasgow was a daughter of [[Glasgow-428|William Glasgow]] of Currituck, North Carolina. Her father named her in his will of 30 September 1746, proved 7 April 1747.<ref name=\"William1746\">[https://www.ncgenweb.us/currituck/wills/glasgowwilliam1746.html William Glasgow will, 30 September 1746; proved 7 April 1747, North Carolina State Archives MARS 12.96.1.805; NCGenWeb published transcription checked 17 October 2026].</ref>\n\n== Research Notes ==\n\nHer mother, exact dates and later identity remain unknown. The will names her paternal siblings Caleb, Abiah and Elizabeth; the identification of the adult Caleb profiles remains probable. The unnamed grandfather and the wife’s unborn child are not assigned modern identities. This sourced record account is held for matching; it does not authorize a new or merged live profile.\n\n== Sources ==\n<references />"
         }
       ]
     }

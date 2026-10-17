@@ -7654,5 +7654,273 @@
       "reassessment": "Existing uncertain father → probable local assessment; no new attachment or live certainty change.",
       "identity_scope": "Faris’s Moneymore father core on Glasgow-1024; no upgrade to the Corvanaghan identity or imported biographical package."
     }
+  },
+  {
+    "assertion_id": "C-review-20261017-currituck-father-glasgow-363",
+    "people": [
+      "Glasgow-363",
+      "Glasgow-428"
+    ],
+    "profile_names": {
+      "Glasgow-363": "Caleb Glasgow, older Currituck account",
+      "Glasgow-428": "William Glasgow of Currituck"
+    },
+    "status": "probable",
+    "hypothesis_status": "probable",
+    "working_selection": false,
+    "allow_new_relationship": false,
+    "publication_status": "approved",
+    "assessment_date": "2026-10-17",
+    "evidence_grade": "Probable father: named child in the 1746 will; adult identity qualified",
+    "claim": "William Glasgow of Currituck is probably the father of Caleb Glasgow, older Currituck account",
+    "basis": "William’s 1746 Currituck will expressly names Caleb as his son and Abiah and Elizabeth as daughters. The existing Abiah and Elizabeth profiles share the named father, Currituck setting and compatible childhood generation; neither has a conflicting identity. Their father links are documented. The two Caleb profiles repeat the same FamilySearch identity and later Pasquotank will account, indicating possible duplicates. Both fit William’s named son sufficiently for probable father assessments, but they represent one historical son candidate, not two independently proved sons.",
+    "limitations": "The will survives here through a checked published transcription; the manuscript has not been newly inspected. Abiah’s competing 1730/1738 estimates and Elizabeth’s 1741 date are not proved by it. Caleb’s conflicting 1726/circa-1740 births, 1781/1804 deaths and Gregory/Sawyer spouse accounts remain unresolved. The 1803 Pasquotank will does not name Lemuel; his very uncertain selected link to Caleb-363 and alternative Caleb-830 retain that grade. Susanah is William’s named wife, but the will does not establish her as mother of every child; no mother is upgraded. Lowdenner is not equated with the named Sarah or unborn child. William’s own father remains unproved.",
+    "source_ids": [
+      "currituck-william-will-1746-1747"
+    ],
+    "model_note": "The will survives here through a checked published transcription; the manuscript has not been newly inspected. Abiah’s competing 1730/1738 estimates and Elizabeth’s 1741 date are not proved by it. Caleb’s conflicting 1726/circa-1740 births, 1781/1804 deaths and Gregory/Sawyer spouse accounts remain unresolved. The 1803 Pasquotank will does not name Lemuel; his very uncertain selected link to Caleb-363 and alternative Caleb-830 retain that grade. Susanah is William’s named wife, but the will does not establish her as mother of every child; no mother is upgraded. Lowdenner is not equated with the named Sarah or unborn child. William’s own father remains unproved.",
+    "assessment_history": [
+      {
+        "status": "unknown",
+        "assessment_status": "unknown/ungraded",
+        "tree_status": "unmarked",
+        "source_basis": [
+          "research/Glasgow-428/findings.md"
+        ],
+        "live_wikitree_recheck": "Anonymous refresh, 17 October 2026: William is attached; no marked father certainty flag. No live edit."
+      }
+    ],
+    "perspectives": {
+      "Glasgow-363": {
+        "relationship": "father",
+        "status_label": "Probable father; Currituck will",
+        "reason": "William’s 1746 Currituck will expressly names Caleb as his son and Abiah and Elizabeth as daughters. The existing Abiah and Elizabeth profiles share the named father, Currituck setting and compatible childhood generation; neither has a conflicting identity. Their father links are documented. The two Caleb profiles repeat the same FamilySearch identity and later Pasquotank will account, indicating possible duplicates. Both fit William’s named son sufficiently for probable father assessments, but they represent one historical son candidate, not two independently proved sons. The will survives here through a checked published transcription; the manuscript has not been newly inspected. Abiah’s competing 1730/1738 estimates and Elizabeth’s 1741 date are not proved by it. Caleb’s conflicting 1726/circa-1740 births, 1781/1804 deaths and Gregory/Sawyer spouse accounts remain unresolved. The 1803 Pasquotank will does not name Lemuel; his very uncertain selected link to Caleb-363 and alternative Caleb-830 retain that grade. Susanah is William’s named wife, but the will does not establish her as mother of every child; no mother is upgraded. Lowdenner is not equated with the named Sarah or unborn child. William’s own father remains unproved."
+      },
+      "Glasgow-428": {
+        "relationship": "son",
+        "status_label": "Probable son",
+        "reason": "William’s 1746 Currituck will expressly names Caleb as his son and Abiah and Elizabeth as daughters. The existing Abiah and Elizabeth profiles share the named father, Currituck setting and compatible childhood generation; neither has a conflicting identity. Their father links are documented. The two Caleb profiles repeat the same FamilySearch identity and later Pasquotank will account, indicating possible duplicates. Both fit William’s named son sufficiently for probable father assessments, but they represent one historical son candidate, not two independently proved sons. The will survives here through a checked published transcription; the manuscript has not been newly inspected. Abiah’s competing 1730/1738 estimates and Elizabeth’s 1741 date are not proved by it. Caleb’s conflicting 1726/circa-1740 births, 1781/1804 deaths and Gregory/Sawyer spouse accounts remain unresolved. The 1803 Pasquotank will does not name Lemuel; his very uncertain selected link to Caleb-363 and alternative Caleb-830 retain that grade. Susanah is William’s named wife, but the will does not establish her as mother of every child; no mother is upgraded. Lowdenner is not equated with the named Sarah or unborn child. William’s own father remains unproved."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "William’s Currituck household: two documented daughters and one probable Caleb identity",
+        "href": "/research/subjects/currituck-1746/#sarah-glasgow"
+      }
+    ],
+    "provenance": {
+      "prior_assessment": {
+        "status": "unknown",
+        "assessment_status": "unknown/ungraded",
+        "tree_status": "unmarked",
+        "source_basis": [
+          "research/Glasgow-428/findings.md"
+        ],
+        "live_wikitree_recheck": "Anonymous refresh, 17 October 2026: William is attached; no marked father certainty flag. No live edit."
+      },
+      "reassessment": "Existing ungraded father → probable local assessment; no new attachment or live save.",
+      "identity_scope": "One Caleb role with two possible duplicate modern accounts; no duplicate merge or vital/maternal endorsement."
+    }
+  },
+  {
+    "assertion_id": "C-review-20261017-currituck-father-glasgow-830",
+    "people": [
+      "Glasgow-830",
+      "Glasgow-428"
+    ],
+    "profile_names": {
+      "Glasgow-830": "Caleb Glasgow, Pasquotank account",
+      "Glasgow-428": "William Glasgow of Currituck"
+    },
+    "status": "probable",
+    "hypothesis_status": "probable",
+    "working_selection": false,
+    "allow_new_relationship": false,
+    "publication_status": "approved",
+    "assessment_date": "2026-10-17",
+    "evidence_grade": "Probable father: named child in the 1746 will; adult identity qualified",
+    "claim": "William Glasgow of Currituck is probably the father of Caleb Glasgow, Pasquotank account",
+    "basis": "William’s 1746 Currituck will expressly names Caleb as his son and Abiah and Elizabeth as daughters. The existing Abiah and Elizabeth profiles share the named father, Currituck setting and compatible childhood generation; neither has a conflicting identity. Their father links are documented. The two Caleb profiles repeat the same FamilySearch identity and later Pasquotank will account, indicating possible duplicates. Both fit William’s named son sufficiently for probable father assessments, but they represent one historical son candidate, not two independently proved sons.",
+    "limitations": "The will survives here through a checked published transcription; the manuscript has not been newly inspected. Abiah’s competing 1730/1738 estimates and Elizabeth’s 1741 date are not proved by it. Caleb’s conflicting 1726/circa-1740 births, 1781/1804 deaths and Gregory/Sawyer spouse accounts remain unresolved. The 1803 Pasquotank will does not name Lemuel; his very uncertain selected link to Caleb-363 and alternative Caleb-830 retain that grade. Susanah is William’s named wife, but the will does not establish her as mother of every child; no mother is upgraded. Lowdenner is not equated with the named Sarah or unborn child. William’s own father remains unproved.",
+    "source_ids": [
+      "currituck-william-will-1746-1747"
+    ],
+    "model_note": "The will survives here through a checked published transcription; the manuscript has not been newly inspected. Abiah’s competing 1730/1738 estimates and Elizabeth’s 1741 date are not proved by it. Caleb’s conflicting 1726/circa-1740 births, 1781/1804 deaths and Gregory/Sawyer spouse accounts remain unresolved. The 1803 Pasquotank will does not name Lemuel; his very uncertain selected link to Caleb-363 and alternative Caleb-830 retain that grade. Susanah is William’s named wife, but the will does not establish her as mother of every child; no mother is upgraded. Lowdenner is not equated with the named Sarah or unborn child. William’s own father remains unproved.",
+    "assessment_history": [
+      {
+        "status": "unknown",
+        "assessment_status": "unknown/ungraded",
+        "tree_status": "unmarked",
+        "source_basis": [
+          "research/Glasgow-428/findings.md"
+        ],
+        "live_wikitree_recheck": "Anonymous refresh, 17 October 2026: William is attached; no marked father certainty flag. No live edit."
+      }
+    ],
+    "perspectives": {
+      "Glasgow-830": {
+        "relationship": "father",
+        "status_label": "Probable father; Currituck will",
+        "reason": "William’s 1746 Currituck will expressly names Caleb as his son and Abiah and Elizabeth as daughters. The existing Abiah and Elizabeth profiles share the named father, Currituck setting and compatible childhood generation; neither has a conflicting identity. Their father links are documented. The two Caleb profiles repeat the same FamilySearch identity and later Pasquotank will account, indicating possible duplicates. Both fit William’s named son sufficiently for probable father assessments, but they represent one historical son candidate, not two independently proved sons. The will survives here through a checked published transcription; the manuscript has not been newly inspected. Abiah’s competing 1730/1738 estimates and Elizabeth’s 1741 date are not proved by it. Caleb’s conflicting 1726/circa-1740 births, 1781/1804 deaths and Gregory/Sawyer spouse accounts remain unresolved. The 1803 Pasquotank will does not name Lemuel; his very uncertain selected link to Caleb-363 and alternative Caleb-830 retain that grade. Susanah is William’s named wife, but the will does not establish her as mother of every child; no mother is upgraded. Lowdenner is not equated with the named Sarah or unborn child. William’s own father remains unproved."
+      },
+      "Glasgow-428": {
+        "relationship": "son",
+        "status_label": "Probable son",
+        "reason": "William’s 1746 Currituck will expressly names Caleb as his son and Abiah and Elizabeth as daughters. The existing Abiah and Elizabeth profiles share the named father, Currituck setting and compatible childhood generation; neither has a conflicting identity. Their father links are documented. The two Caleb profiles repeat the same FamilySearch identity and later Pasquotank will account, indicating possible duplicates. Both fit William’s named son sufficiently for probable father assessments, but they represent one historical son candidate, not two independently proved sons. The will survives here through a checked published transcription; the manuscript has not been newly inspected. Abiah’s competing 1730/1738 estimates and Elizabeth’s 1741 date are not proved by it. Caleb’s conflicting 1726/circa-1740 births, 1781/1804 deaths and Gregory/Sawyer spouse accounts remain unresolved. The 1803 Pasquotank will does not name Lemuel; his very uncertain selected link to Caleb-363 and alternative Caleb-830 retain that grade. Susanah is William’s named wife, but the will does not establish her as mother of every child; no mother is upgraded. Lowdenner is not equated with the named Sarah or unborn child. William’s own father remains unproved."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "William’s Currituck household: two documented daughters and one probable Caleb identity",
+        "href": "/research/subjects/currituck-1746/#sarah-glasgow"
+      }
+    ],
+    "provenance": {
+      "prior_assessment": {
+        "status": "unknown",
+        "assessment_status": "unknown/ungraded",
+        "tree_status": "unmarked",
+        "source_basis": [
+          "research/Glasgow-428/findings.md"
+        ],
+        "live_wikitree_recheck": "Anonymous refresh, 17 October 2026: William is attached; no marked father certainty flag. No live edit."
+      },
+      "reassessment": "Existing ungraded father → probable local assessment; no new attachment or live save.",
+      "identity_scope": "One Caleb role with two possible duplicate modern accounts; no duplicate merge or vital/maternal endorsement."
+    }
+  },
+  {
+    "assertion_id": "C-review-20261017-currituck-father-glasco-39",
+    "people": [
+      "Glasco-39",
+      "Glasgow-428"
+    ],
+    "profile_names": {
+      "Glasco-39": "Abiah Glasco",
+      "Glasgow-428": "William Glasgow of Currituck"
+    },
+    "status": "proved",
+    "hypothesis_status": "proved",
+    "working_selection": false,
+    "allow_new_relationship": false,
+    "publication_status": "approved",
+    "assessment_date": "2026-10-17",
+    "evidence_grade": "Documented father: named child in the 1746 will",
+    "claim": "William Glasgow of Currituck is the father of Abiah Glasco",
+    "basis": "William’s 1746 Currituck will expressly names Caleb as his son and Abiah and Elizabeth as daughters. The existing Abiah and Elizabeth profiles share the named father, Currituck setting and compatible childhood generation; neither has a conflicting identity. Their father links are documented. The two Caleb profiles repeat the same FamilySearch identity and later Pasquotank will account, indicating possible duplicates. Both fit William’s named son sufficiently for probable father assessments, but they represent one historical son candidate, not two independently proved sons.",
+    "limitations": "The will survives here through a checked published transcription; the manuscript has not been newly inspected. Abiah’s competing 1730/1738 estimates and Elizabeth’s 1741 date are not proved by it. Caleb’s conflicting 1726/circa-1740 births, 1781/1804 deaths and Gregory/Sawyer spouse accounts remain unresolved. The 1803 Pasquotank will does not name Lemuel; his very uncertain selected link to Caleb-363 and alternative Caleb-830 retain that grade. Susanah is William’s named wife, but the will does not establish her as mother of every child; no mother is upgraded. Lowdenner is not equated with the named Sarah or unborn child. William’s own father remains unproved.",
+    "source_ids": [
+      "currituck-william-will-1746-1747"
+    ],
+    "model_note": "The will survives here through a checked published transcription; the manuscript has not been newly inspected. Abiah’s competing 1730/1738 estimates and Elizabeth’s 1741 date are not proved by it. Caleb’s conflicting 1726/circa-1740 births, 1781/1804 deaths and Gregory/Sawyer spouse accounts remain unresolved. The 1803 Pasquotank will does not name Lemuel; his very uncertain selected link to Caleb-363 and alternative Caleb-830 retain that grade. Susanah is William’s named wife, but the will does not establish her as mother of every child; no mother is upgraded. Lowdenner is not equated with the named Sarah or unborn child. William’s own father remains unproved.",
+    "assessment_history": [
+      {
+        "status": "unknown",
+        "assessment_status": "unknown/ungraded",
+        "tree_status": "unmarked",
+        "source_basis": [
+          "research/Glasgow-428/findings.md"
+        ],
+        "live_wikitree_recheck": "Anonymous refresh, 17 October 2026: William is attached; no marked father certainty flag. No live edit."
+      }
+    ],
+    "perspectives": {
+      "Glasco-39": {
+        "relationship": "father",
+        "status_label": "Documented father; Currituck will",
+        "reason": "William’s 1746 Currituck will expressly names Caleb as his son and Abiah and Elizabeth as daughters. The existing Abiah and Elizabeth profiles share the named father, Currituck setting and compatible childhood generation; neither has a conflicting identity. Their father links are documented. The two Caleb profiles repeat the same FamilySearch identity and later Pasquotank will account, indicating possible duplicates. Both fit William’s named son sufficiently for probable father assessments, but they represent one historical son candidate, not two independently proved sons. The will survives here through a checked published transcription; the manuscript has not been newly inspected. Abiah’s competing 1730/1738 estimates and Elizabeth’s 1741 date are not proved by it. Caleb’s conflicting 1726/circa-1740 births, 1781/1804 deaths and Gregory/Sawyer spouse accounts remain unresolved. The 1803 Pasquotank will does not name Lemuel; his very uncertain selected link to Caleb-363 and alternative Caleb-830 retain that grade. Susanah is William’s named wife, but the will does not establish her as mother of every child; no mother is upgraded. Lowdenner is not equated with the named Sarah or unborn child. William’s own father remains unproved."
+      },
+      "Glasgow-428": {
+        "relationship": "daughter",
+        "status_label": "Documented daughter",
+        "reason": "William’s 1746 Currituck will expressly names Caleb as his son and Abiah and Elizabeth as daughters. The existing Abiah and Elizabeth profiles share the named father, Currituck setting and compatible childhood generation; neither has a conflicting identity. Their father links are documented. The two Caleb profiles repeat the same FamilySearch identity and later Pasquotank will account, indicating possible duplicates. Both fit William’s named son sufficiently for probable father assessments, but they represent one historical son candidate, not two independently proved sons. The will survives here through a checked published transcription; the manuscript has not been newly inspected. Abiah’s competing 1730/1738 estimates and Elizabeth’s 1741 date are not proved by it. Caleb’s conflicting 1726/circa-1740 births, 1781/1804 deaths and Gregory/Sawyer spouse accounts remain unresolved. The 1803 Pasquotank will does not name Lemuel; his very uncertain selected link to Caleb-363 and alternative Caleb-830 retain that grade. Susanah is William’s named wife, but the will does not establish her as mother of every child; no mother is upgraded. Lowdenner is not equated with the named Sarah or unborn child. William’s own father remains unproved."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "William’s Currituck household: two documented daughters and one probable Caleb identity",
+        "href": "/research/subjects/currituck-1746/#sarah-glasgow"
+      }
+    ],
+    "provenance": {
+      "prior_assessment": {
+        "status": "unknown",
+        "assessment_status": "unknown/ungraded",
+        "tree_status": "unmarked",
+        "source_basis": [
+          "research/Glasgow-428/findings.md"
+        ],
+        "live_wikitree_recheck": "Anonymous refresh, 17 October 2026: William is attached; no marked father certainty flag. No live edit."
+      },
+      "reassessment": "Existing ungraded father → documented local assessment; no new attachment or live save.",
+      "identity_scope": "One Caleb role with two possible duplicate modern accounts; no duplicate merge or vital/maternal endorsement."
+    }
+  },
+  {
+    "assertion_id": "C-review-20261017-currituck-father-glasco-40",
+    "people": [
+      "Glasco-40",
+      "Glasgow-428"
+    ],
+    "profile_names": {
+      "Glasco-40": "Elizabeth Glasco",
+      "Glasgow-428": "William Glasgow of Currituck"
+    },
+    "status": "proved",
+    "hypothesis_status": "proved",
+    "working_selection": false,
+    "allow_new_relationship": false,
+    "publication_status": "approved",
+    "assessment_date": "2026-10-17",
+    "evidence_grade": "Documented father: named child in the 1746 will",
+    "claim": "William Glasgow of Currituck is the father of Elizabeth Glasco",
+    "basis": "William’s 1746 Currituck will expressly names Caleb as his son and Abiah and Elizabeth as daughters. The existing Abiah and Elizabeth profiles share the named father, Currituck setting and compatible childhood generation; neither has a conflicting identity. Their father links are documented. The two Caleb profiles repeat the same FamilySearch identity and later Pasquotank will account, indicating possible duplicates. Both fit William’s named son sufficiently for probable father assessments, but they represent one historical son candidate, not two independently proved sons.",
+    "limitations": "The will survives here through a checked published transcription; the manuscript has not been newly inspected. Abiah’s competing 1730/1738 estimates and Elizabeth’s 1741 date are not proved by it. Caleb’s conflicting 1726/circa-1740 births, 1781/1804 deaths and Gregory/Sawyer spouse accounts remain unresolved. The 1803 Pasquotank will does not name Lemuel; his very uncertain selected link to Caleb-363 and alternative Caleb-830 retain that grade. Susanah is William’s named wife, but the will does not establish her as mother of every child; no mother is upgraded. Lowdenner is not equated with the named Sarah or unborn child. William’s own father remains unproved.",
+    "source_ids": [
+      "currituck-william-will-1746-1747"
+    ],
+    "model_note": "The will survives here through a checked published transcription; the manuscript has not been newly inspected. Abiah’s competing 1730/1738 estimates and Elizabeth’s 1741 date are not proved by it. Caleb’s conflicting 1726/circa-1740 births, 1781/1804 deaths and Gregory/Sawyer spouse accounts remain unresolved. The 1803 Pasquotank will does not name Lemuel; his very uncertain selected link to Caleb-363 and alternative Caleb-830 retain that grade. Susanah is William’s named wife, but the will does not establish her as mother of every child; no mother is upgraded. Lowdenner is not equated with the named Sarah or unborn child. William’s own father remains unproved.",
+    "assessment_history": [
+      {
+        "status": "unknown",
+        "assessment_status": "unknown/ungraded",
+        "tree_status": "unmarked",
+        "source_basis": [
+          "research/Glasgow-428/findings.md"
+        ],
+        "live_wikitree_recheck": "Anonymous refresh, 17 October 2026: William is attached; no marked father certainty flag. No live edit."
+      }
+    ],
+    "perspectives": {
+      "Glasco-40": {
+        "relationship": "father",
+        "status_label": "Documented father; Currituck will",
+        "reason": "William’s 1746 Currituck will expressly names Caleb as his son and Abiah and Elizabeth as daughters. The existing Abiah and Elizabeth profiles share the named father, Currituck setting and compatible childhood generation; neither has a conflicting identity. Their father links are documented. The two Caleb profiles repeat the same FamilySearch identity and later Pasquotank will account, indicating possible duplicates. Both fit William’s named son sufficiently for probable father assessments, but they represent one historical son candidate, not two independently proved sons. The will survives here through a checked published transcription; the manuscript has not been newly inspected. Abiah’s competing 1730/1738 estimates and Elizabeth’s 1741 date are not proved by it. Caleb’s conflicting 1726/circa-1740 births, 1781/1804 deaths and Gregory/Sawyer spouse accounts remain unresolved. The 1803 Pasquotank will does not name Lemuel; his very uncertain selected link to Caleb-363 and alternative Caleb-830 retain that grade. Susanah is William’s named wife, but the will does not establish her as mother of every child; no mother is upgraded. Lowdenner is not equated with the named Sarah or unborn child. William’s own father remains unproved."
+      },
+      "Glasgow-428": {
+        "relationship": "daughter",
+        "status_label": "Documented daughter",
+        "reason": "William’s 1746 Currituck will expressly names Caleb as his son and Abiah and Elizabeth as daughters. The existing Abiah and Elizabeth profiles share the named father, Currituck setting and compatible childhood generation; neither has a conflicting identity. Their father links are documented. The two Caleb profiles repeat the same FamilySearch identity and later Pasquotank will account, indicating possible duplicates. Both fit William’s named son sufficiently for probable father assessments, but they represent one historical son candidate, not two independently proved sons. The will survives here through a checked published transcription; the manuscript has not been newly inspected. Abiah’s competing 1730/1738 estimates and Elizabeth’s 1741 date are not proved by it. Caleb’s conflicting 1726/circa-1740 births, 1781/1804 deaths and Gregory/Sawyer spouse accounts remain unresolved. The 1803 Pasquotank will does not name Lemuel; his very uncertain selected link to Caleb-363 and alternative Caleb-830 retain that grade. Susanah is William’s named wife, but the will does not establish her as mother of every child; no mother is upgraded. Lowdenner is not equated with the named Sarah or unborn child. William’s own father remains unproved."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "William’s Currituck household: two documented daughters and one probable Caleb identity",
+        "href": "/research/subjects/currituck-1746/#sarah-glasgow"
+      }
+    ],
+    "provenance": {
+      "prior_assessment": {
+        "status": "unknown",
+        "assessment_status": "unknown/ungraded",
+        "tree_status": "unmarked",
+        "source_basis": [
+          "research/Glasgow-428/findings.md"
+        ],
+        "live_wikitree_recheck": "Anonymous refresh, 17 October 2026: William is attached; no marked father certainty flag. No live edit."
+      },
+      "reassessment": "Existing ungraded father → documented local assessment; no new attachment or live save.",
+      "identity_scope": "One Caleb role with two possible duplicate modern accounts; no duplicate merge or vital/maternal endorsement."
+    }
   }
 ]

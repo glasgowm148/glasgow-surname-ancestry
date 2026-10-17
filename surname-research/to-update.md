@@ -1824,3 +1824,12 @@ The August completion entries remain historical. The live parent fields are now 
 | [Arthur Glasgow, Rockbridge](https://www.wikitree.com/wiki/Glasgow-649) | OPEN | Explain the probable Moneymore father; preserve the earlier uncertain assessment and independent maternity/identity questions. |
 | [Joseph Glasgow, Wythe County](https://www.wikitree.com/wiki/Glasgow-1543) | OPEN | Explain the probable Moneymore father; preserve the earlier uncertain assessment and independent maternity/identity questions. |
 | [James Glasgow, Moneymore father account](https://www.wikitree.com/wiki/Glasgow-1024) | OPEN | Explain the probable Moneymore father; preserve the earlier uncertain assessment and independent maternity/identity questions. |
+
+
+## Currituck will father review — 17 October 2026
+
+| [Caleb Glasgow, older Currituck account](https://www.wikitree.com/wiki/Glasgow-363) | OPEN | Cite the will father assessment; preserve separate Caleb identity, maternal and date uncertainties. |
+| [Caleb Glasgow, Pasquotank account](https://www.wikitree.com/wiki/Glasgow-830) | OPEN | Cite the will father assessment; preserve separate Caleb identity, maternal and date uncertainties. |
+| [Abiah Glasco](https://www.wikitree.com/wiki/Glasco-39) | OPEN | Cite the will father assessment; preserve separate Caleb identity, maternal and date uncertainties. |
+| [Elizabeth Glasco](https://www.wikitree.com/wiki/Glasco-40) | OPEN | Cite the will father assessment; preserve separate Caleb identity, maternal and date uncertainties. |
+| [William Glasgow of Currituck](https://www.wikitree.com/wiki/Glasgow-428) | OPEN | Cite the will father assessment; preserve separate Caleb identity, maternal and date uncertainties. |
