@@ -2292,3 +2292,10 @@ Existing-profile searches and their limits are recorded in each complete sourced
 | [Williamson-14321](https://www.wikitree.com/wiki/Williamson-14321) | OPEN | [Complete proposed biography](/people/williamson-14321.html#wikitree-update): add the cited record passages with their identity qualifications. |
 | [Woodside-784](https://www.wikitree.com/wiki/Woodside-784) | OPEN | [Complete proposed biography](/people/woodside-784.html#wikitree-update): add the cited record passages with their identity qualifications. |
 <!-- queue-amendments-2026-10-17:end -->
+
+## Leithford household review — 17 October 2026
+
+| [William Glasgow](https://www.wikitree.com/wiki/Glasgow-1087) | OPEN | Add probable68% Leithford household comparison and the separate source-verified record role; complete revised biography prepared. |
+| [Walter Glasgow](https://www.wikitree.com/wiki/Glasgow-1554) | OPEN | Preserve both baptism years and distinguish the earlier burial with its probable household; complete revised biography prepared. |
+
+Burial-defined Walter remains on source-verification HOLD in the existing creation draft; no live creation or merge is proposed before original-year verification.

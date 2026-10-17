@@ -10,7 +10,7 @@ William Glasgow was christened at Mid Calder, Midlothian, on 24 December 1609; d
 
 The Leithford burial names a father William but does not prove that he is this William. Walter’s June 1647 burial and September 1647/1649 baptism remain separate occurrences.
 
-## Current conclusion — 27 September 2026
+## Dated assessment — 27 September 2026
 
 Glasgow-2453 was merged into this profile on 27 September 2026. William baptised at Mid Calder in 1609 is the best identified candidate for the adult William named as father of Johne and Issobel at Mid Calder in 1648. Age and parish fit, and no stronger competitor was found. This is an inferred cross-record identification, not wording in either register. The former adult child cluster, source citations and uncertain family links were retained.
 
@@ -80,7 +80,7 @@ transfer their children to Glasgow-1087 merely because his age and locality fit.
    documented gaps.
 
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-74ff22efa93c -->
-## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-74ff22efa93c
+## Dated assessment — Findmypast Glasgow surname evidence fmp-glasgow-74ff22efa93c
 
 The transcript-validated baptism record for **William Glasgow**, 24 Dec 1609, Mid Calder, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
 
@@ -131,3 +131,7 @@ The Kirknewton/East Calder burial transcript indexes Walter Glasgow on 4 June 16
 
 This buried Walter cannot be assigned on the present chronology to [Walter Glasgow](https://www.wikitree.com/wiki/Glasgow-1554), whose competing baptism readings are 23 September 1647 and 23 September 1649: both fall after the June burial. The year headings and entries in OPR 689/20 need comparison before concluding that the two Walters were siblings or creating a duplicate. A reused forename within a family is possible, but neither common parentage nor an infant age is established by the burial. The burial date is not an exact death date.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Leithford household comparison — 17 October 2026
+
+The burial transcript explicitly names father William. The later Walter’s baptism names William at the same Leithford residence and register, supporting one household and reuse of the name after the June 1647 burial. William-1087’s 1609 Mid Calder childhood and possible 1648 fatherhood make him the preferred existing identity, at 68%. The exact-locality household link is stronger than county-level alternatives, but the cross-parish adult identity remains inferred. Another William of Leithford is the principal rival. No mother, age, exact death date or identity merge is inferred; retain both 1647/1649 baptism readings and the source-verification hold. The documentary father role is 98%; the shared-household comparison is 84%, with the profile-level father selection 68%. These are distinct scopes. [Complete burial account](/people/record-queue-early-scotland-1650-walter-buried-1647.html).

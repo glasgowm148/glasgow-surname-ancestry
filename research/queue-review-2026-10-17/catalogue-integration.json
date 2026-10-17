@@ -559,9 +559,8 @@
       "prior_work_summary": ""
     },
     "Glasgow-1087": {
-      "draft_path": "research/Glasgow-1087/queue-review-2026-10-17.wiki",
-      "summary": "Add the cited record account: Possible father at the Leithford burial, 1647. Retain the stated identity and relationship limits.",
-      "work_queue_summary": "Add the cited record account: Possible father at the Leithford burial, 1647. Retain the stated identity and relationship limits.",
+      "draft_path": "research/Glasgow-1087/leithford-review-2026-10-17.wiki",
+      "summary": "Add the probable Leithford household comparison,68%; preserve disputed baptism years and source-verification hold.",
       "queued_at": "2026-10-17",
       "status": "OPEN",
       "pending": true,
@@ -570,7 +569,9 @@
         "subject-early-scotland-1650-walter-buried-1647--father-william"
       ],
       "private_comparison": false,
-      "prior_work_summary": ""
+      "prior_work_summary": "",
+      "preservation_review_path": "research/queue-review-2026-10-17/leithford-preservation.json",
+      "significance": 65
     },
     "Glasgow-1088": {
       "draft_path": "research/Glasgow-1088/queue-review-2026-10-17.wiki",
@@ -4782,6 +4783,14 @@
       "preservation_review_path": "research/queue-review-2026-10-17/astra-ancestry-preservation.json",
       "significance": 50,
       "summary": "Reconcile the reviewed family/identity assessment, individual percentages and retained alternatives; preserve the complete sourced biography."
+    },
+    "Glasgow-1554": {
+      "status": "OPEN",
+      "queued_at": "2026-10-17",
+      "draft_path": "research/Glasgow-1554/leithford-review-2026-10-17.wiki",
+      "preservation_review_path": "research/queue-review-2026-10-17/leithford-preservation.json",
+      "summary": "Add the probable Leithford household comparison,68%; preserve disputed baptism years and source-verification hold.",
+      "significance": 65
     }
   },
   "reviewed_on": "2026-10-17",
@@ -5063,8 +5072,8 @@
       "source_subject_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1625437",
       "research_subject_url": "/research/subjects/early-scotland-1650/#walter-buried-1647",
       "draft_path": "research/queue-review-2026-10-17/drafts/early-families/1647_Scotland_Leithford_Walter_Glasgow.md",
-      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nWalter Glasgow was indexed as buried on 4 June 1647 in the Kirknewton/East Calder register, with residence Leithford and next of kin William Glasgow, relationship “Son to”. The original is not inspected; burial is not an exact death date.<ref>Findmypast/SGS, Walter Glasgow, burial 4 June 1647, Leithford; OPR 689/20; https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1625437.</ref>\n\n== Research Notes ==\nThe burial precedes both proposed 23 September 1647/1649 baptism dates for Glasgow-1554. It cannot be assigned to that later-born/baptised child on the current chronology. Reuse of the name within one family is possible, but the adult father’s identity and relationship between the two Walters remain unproved.\nInspect OPR 689/20 for the burial and both baptism readings; verify any year heading or transcription error before treating the two Walters as proved siblings or creating a new person.\n\n== Sources ==\n<references />",
-      "assessment": "No compatible child profile was found in the inherited Walter search. Glasgow-1087 is William, a candidate for the recorded father, and cannot be the buried Walter. The existing Walter Glasgow-1554 has competing September 1647/1649 baptism readings, both after the June 1647 burial; it is excluded on the current event chronology, with original-year verification still required before live creation or any merger. Prepare one separate sourced burial account, not a fabricated older sibling claim. The transcript directly identifies Walter as William's son; the specific father identity remains only possible and no mother or age is inferred.",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nWalter Glasgow was indexed as buried on 4 June 1647 in the Kirknewton/East Calder register, with residence Leithford and next of kin William Glasgow, relationship “Son to”. The original is not inspected; burial is not an exact death date.<ref>Findmypast/SGS, Walter Glasgow, burial 4 June 1647, Leithford; OPR 689/20; https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1625437.</ref>\n\n== Research Notes ==\nThe burial precedes both proposed 23 September 1647/1649 baptism dates for Glasgow-1554. It cannot be assigned to that later-born/baptised child on the current chronology. Reuse of the name within one family is possible, but the adult father’s identity and relationship between the two Walters remain unproved.\nInspect OPR 689/20 for the burial and both baptism readings; verify any year heading or transcription error before treating the two Walters as proved siblings or creating a new person.\n\n=== Preferred father and the two Walters — 17 October 2026 ===\n\n[[Glasgow-1087|William Glasgow]] is the selected probable father, at 68% subjective confidence. The transcript’s explicit William father role is assessed at 98%; the same-father Leithford household comparison with the later [[Glasgow-1554|Walter]] is 84%. The 68% identification with the Mid Calder man is a separate, weaker inference; these figures are not independent probabilities. No mother is assigned.\n\nThe burial and later baptism name William and the exact Leithford residence, with the same register reference. The later baptism follows the burial under either disputed year, consistent with reuse of a dead child’s name. Another William of Leithford remains the principal alternative; William-3517 and William-1556 lack this local household chain, while the older Leith mealmaker William-3075 is weaker geographically, not excluded solely because he died before the burial.\n\nThe two Walters remain separate record accounts pending original-year verification. This source-verification HOLD remains in force; no live creation, merge, exact death date or infant age follows.<ref>Findmypast/SGS, Walter Glasgow burial, 4 June 1647, Leithford, OPR 689/20, https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1625437; Walter Glasgow baptism indexed 23 September 1647, same residence/reference, https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4473489. Supplied ScotlandsPeople OPR 690/10/19 and FamilySearch https://www.familysearch.org/ark:/61903/1:1:VQ4K-FWL instead give 23 September 1649. William’s Mid Calder christening, 24 December 1609, OPR 694/10/15: https://www.familysearch.org/ark:/61903/1:1:X1B2-3LV. Maintained provider readings reused; originals not inspected in this review.</ref>\n\n== Sources ==\n<references />",
+      "assessment": "The burial transcript explicitly names father William. The later Walter’s baptism names William at the same Leithford residence and register, supporting one household and reuse of the name after the June 1647 burial. William-1087’s 1609 Mid Calder childhood and possible 1648 fatherhood make him the preferred existing identity, at 68%. The exact-locality household link is stronger than county-level alternatives, but the cross-parish adult identity remains inferred. Another William of Leithford is the principal rival. No mother, age, exact death date or identity merge is inferred; retain both 1647/1649 baptism readings and the source-verification hold.",
       "creation_status": "hold_source_verification",
       "reviewed_at": "2026-10-17",
       "first_names": [
@@ -5074,7 +5083,7 @@
         "Glasgow"
       ],
       "last_names_current": [],
-      "gender": "",
+      "gender": "Male",
       "birth": "before 1647-06-04",
       "birth_note": "",
       "death": "on or before 1647-06-04",
@@ -5098,7 +5107,28 @@
           "record_precision": "Documented event context",
           "location_basis": "Record location; not automatically a birth or death place"
         }
-      ]
+      ],
+      "relationship_changes": [
+        {
+          "action": "add",
+          "relationship": "father",
+          "relative_id": "Glasgow-1087",
+          "status": "probable",
+          "before": "unknown",
+          "after": "probable",
+          "assertion_id": "C-working-20261017-leithford-walter-william1087-father",
+          "basis": "The burial transcript explicitly names father William. The later Walter’s baptism names William at the same Leithford residence and register, supporting one household and reuse of the name after the June 1647 burial. William-1087’s 1609 Mid Calder childhood and possible 1648 fatherhood make him the preferred existing identity, at 68%. The exact-locality household link is stronger than county-level alternatives, but the cross-parish adult identity remains inferred. Another William of Leithford is the principal rival. No mother, age, exact death date or identity merge is inferred; retain both 1647/1649 baptism readings and the source-verification hold.",
+          "source_ids": [
+            "leithford-walter-burial-1647",
+            "leithford-walter-baptism-disputed-year",
+            "midcalder-william-baptism-1609"
+          ]
+        }
+      ],
+      "historical_basis": {
+        "latest_birth_year": 1647,
+        "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1625437"
+      }
     },
     {
       "subject_id": "subject-gortereghy-elder-and-anderson-alexander-elder",

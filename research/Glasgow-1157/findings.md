@@ -1,0 +1,7 @@
+# Findings: Glasgow-1157
+
+## Current conclusion
+
+**Father review, 17 October 2026:** retain [Glasgow-1557](https://www.wikitree.com/wiki/Glasgow-1557) at **5%** (uncertain). The estimated generations could fit, but neither Robert’s Scottish origin nor his1612 birth is established. Edward has genuine Inveresk child records1609/1615; no record or combined household evidence places Robert among those children. Virginia compiled-family names and dates cannot independently validate the Scottish father they were arranged beneath. No supported migration, shared occupation, property title, witness or family-network connection bridges Inveresk and Virginia. This reviews an existing attachment; it is not a new father or a newly confident relationship.
+
+Sources and role limits: [printed p33;Virginia Patent Book1 p290;7October1635,Robert Glascocke,200acres,Elizabeth City County,south side main river,adjoining LtCheeseman,transportation of4servants](https://archive.org/details/cavalierspioneer00nuge/page/33/mode/2up); [printed p111;Virginia Patent Book1 p658;10June1639,Robert Glascocke,50acres,Lower New Norfolk County,western branch Elizabeth River,above JonathanLangworth;transportation of IszabellaDixon](https://archive.org/details/cavalierspioneer00nuge/page/111/mode/2up); [printed p84;LowerNorfolk court order6July1640:minister to preach alternate Sundays at RobertGlascocke house pending church](https://archive.org/details/lowernorfolkcoun01newy/page/84/mode/2up).

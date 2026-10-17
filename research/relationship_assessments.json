@@ -12417,5 +12417,78 @@
         "url": "/people/record-bessie-lanark-1650.html"
       }
     }
+  },
+  {
+    "assertion_id": "C-working-20261017-leithford-walter-william1087-father",
+    "people": [
+      "record-queue-early-scotland-1650-walter-buried-1647",
+      "Glasgow-1087"
+    ],
+    "profile_names": {
+      "record-queue-early-scotland-1650-walter-buried-1647": "Walter Glasgow of Leithford, buried in 1647",
+      "Glasgow-1087": "William Glasgow"
+    },
+    "publication_status": "approved",
+    "status": "probable",
+    "evidence_grade": "Probable, 68%; identity-dependent inference",
+    "allow_new_relationship": true,
+    "working_selection": true,
+    "reviewed": "2026-10-17",
+    "source_ids": [
+      "leithford-walter-burial-1647",
+      "leithford-walter-baptism-disputed-year",
+      "midcalder-william-baptism-1609"
+    ],
+    "basis": "The burial transcript explicitly names father William. The later Walter’s baptism names William at the same Leithford residence and register, supporting one household and reuse of the name after the June 1647 burial. William-1087’s 1609 Mid Calder childhood and possible 1648 fatherhood make him the preferred existing identity, at 68%. The exact-locality household link is stronger than county-level alternatives, but the cross-parish adult identity remains inferred. Another William of Leithford is the principal rival. No mother, age, exact death date or identity merge is inferred; retain both 1647/1649 baptism readings and the source-verification hold.",
+    "analysis_links": [
+      {
+        "label": "Burial account and family comparison",
+        "href": "/people/record-queue-early-scotland-1650-walter-buried-1647.html"
+      }
+    ],
+    "perspectives": {
+      "record-queue-early-scotland-1650-walter-buried-1647": {
+        "relationship": "father",
+        "reason": "The burial transcript explicitly names father William. The later Walter’s baptism names William at the same Leithford residence and register, supporting one household and reuse of the name after the June 1647 burial. William-1087’s 1609 Mid Calder childhood and possible 1648 fatherhood make him the preferred existing identity, at 68%. The exact-locality household link is stronger than county-level alternatives, but the cross-parish adult identity remains inferred. Another William of Leithford is the principal rival. No mother, age, exact death date or identity merge is inferred; retain both 1647/1649 baptism readings and the source-verification hold."
+      },
+      "Glasgow-1087": {
+        "relationship": "son",
+        "reason": "The burial transcript explicitly names father William. The later Walter’s baptism names William at the same Leithford residence and register, supporting one household and reuse of the name after the June 1647 burial. William-1087’s 1609 Mid Calder childhood and possible 1648 fatherhood make him the preferred existing identity, at 68%. The exact-locality household link is stronger than county-level alternatives, but the cross-parish adult identity remains inferred. Another William of Leithford is the principal rival. No mother, age, exact death date or identity merge is inferred; retain both 1647/1649 baptism readings and the source-verification hold."
+      }
+    }
+  },
+  {
+    "assertion_id": "C-review-20261017-euphame1167-glassfuird-father",
+    "people": [
+      "Glasgow-1167",
+      "Glassfuird-2"
+    ],
+    "profile_names": {
+      "Glasgow-1167": "Euphame Glasgow",
+      "Glassfuird-2": "John Glassford"
+    },
+    "publication_status": "approved",
+    "status": "probable",
+    "reviewed": "2026-10-17",
+    "source_ids": [
+      "edinburgh-euphame-index-1634"
+    ],
+    "basis": "The1634 Edinburgh entry names Johnne Glasgow and Jonet Moriell. The unusually specific mother name matches the slater’s1619 Edinburgh marriage to Janet/Jonet Murriell. Seven attached Edinburgh children form the existing Glassford/Murriell household, whereas the rival Glasgow/Mathie household has the wrong mother and the Kilwinning minister has wifeJean Blair. Marriage1619 and child1634 are chronologically coherent. The1613 slater apprenticeship with masterWalter Murriall adds coherent occupation/associate evidence for the father identity, but is a separate upstream identification. The explicit Glasgow index spelling conflicts with Glassfuird/Glassford. It could be a genuine surname reading, an indexing variant or an erroneous household assignment; original1634 image remains uninspected. Do not broaden allowed Glasgow variants to Glassford/Glassfuird to improve the metric; project surname boundary requires an actual primary-record bridge. The1671 Eupham/Effie Glasgow–Alexander Hutcheson/Hutcshesone marriage entries are possible later identities only and do not prove the1634 child’s surname or parents.",
+    "analysis_links": [
+      {
+        "label": "Surname and household comparison",
+        "href": "/people/glasgow-1167.html#research-findings"
+      }
+    ],
+    "perspectives": {
+      "Glasgow-1167": {
+        "relationship": "father",
+        "reason": "The1634 Edinburgh entry names Johnne Glasgow and Jonet Moriell. The unusually specific mother name matches the slater’s1619 Edinburgh marriage to Janet/Jonet Murriell. Seven attached Edinburgh children form the existing Glassford/Murriell household, whereas the rival Glasgow/Mathie household has the wrong mother and the Kilwinning minister has wifeJean Blair. Marriage1619 and child1634 are chronologically coherent. The1613 slater apprenticeship with masterWalter Murriall adds coherent occupation/associate evidence for the father identity, but is a separate upstream identification. The explicit Glasgow index spelling conflicts with Glassfuird/Glassford. It could be a genuine surname reading, an indexing variant or an erroneous household assignment; original1634 image remains uninspected. Do not broaden allowed Glasgow variants to Glassford/Glassfuird to improve the metric; project surname boundary requires an actual primary-record bridge. The1671 Eupham/Effie Glasgow–Alexander Hutcheson/Hutcshesone marriage entries are possible later identities only and do not prove the1634 child’s surname or parents."
+      },
+      "Glassfuird-2": {
+        "relationship": "daughter",
+        "reason": "The1634 Edinburgh entry names Johnne Glasgow and Jonet Moriell. The unusually specific mother name matches the slater’s1619 Edinburgh marriage to Janet/Jonet Murriell. Seven attached Edinburgh children form the existing Glassford/Murriell household, whereas the rival Glasgow/Mathie household has the wrong mother and the Kilwinning minister has wifeJean Blair. Marriage1619 and child1634 are chronologically coherent. The1613 slater apprenticeship with masterWalter Murriall adds coherent occupation/associate evidence for the father identity, but is a separate upstream identification. The explicit Glasgow index spelling conflicts with Glassfuird/Glassford. It could be a genuine surname reading, an indexing variant or an erroneous household assignment; original1634 image remains uninspected. Do not broaden allowed Glasgow variants to Glassford/Glassfuird to improve the metric; project surname boundary requires an actual primary-record bridge. The1671 Eupham/Effie Glasgow–Alexander Hutcheson/Hutcshesone marriage entries are possible later identities only and do not prove the1634 child’s surname or parents."
+      }
+    }
   }
 ]

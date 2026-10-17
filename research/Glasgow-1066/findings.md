@@ -2,6 +2,10 @@
 
 ## Current conclusion
 
+**Father review, 17 October 2026:** retain [Glasgow-1604](https://www.wikitree.com/wiki/Glasgow-1604) at **31%** (uncertain). Hew's own household is anchored at Kilwinning in the 1676 and 1678 child material; a father belonging to John's approximate 1626 generation is chronologically reasonable. The existing John-1604 claim is more locally economical than moving Hew into Robert-1078's Glasgow-city family. Kilwinning locality is a closer fit than the minister's wider Ayrshire setting, warranting 31% rather than the minister's 26%. Yet John's Kilwinning identity is itself inherited, no baptism or adult record names Hew's father, and no proved sibling independently connects Hew to John or the minister. Repeated downstream household entries establish Hew's adult identity, not his parentage. The John-Hugh naming sequence supplies only weak conditional context. This reviews an existing attachment; it is not a new father or a newly confident relationship.
+
+Sources and role limits: [Ancestry tree: inherited John-1604 account](https://www.ancestry.co.uk/family-tree/person/tree/26875475/person/152122295783/facts); [ScotlandsPeople OPR599,10/23,FR34; Findmypast SCOT/OPR/BAP/3624324; FamilySearch XTVY-FQ2](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3624324&tab=this).
+
 Reviewed: 2026-10-16
 
 **Selected working families,16 October2026:** James of Kilwinning Glasgow-3105 is placed under John Glasgow-3375, uncertain; Hugh of Irvine Glasgow-3109 is placed under Hew Glasgow-1066 and Margaret Lachland-2 through the 1676 child comparison, both uncertain. James’s mother stays unknown; all alternative identities remain open. [Evidence and alternatives](/branches/early-scottish-records/#ayrshire-family-heads).

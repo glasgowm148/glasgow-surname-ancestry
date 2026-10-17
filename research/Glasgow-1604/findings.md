@@ -2,6 +2,10 @@
 
 ## Current conclusion
 
+**Father review, 17 October 2026:** retain [Glasgow-1603](https://www.wikitree.com/wiki/Glasgow-1603) at **23%** (uncertain). Hugh c1600 and John c1626 form a compatible father-son generation. Their inherited Ayrshire/Kilwinning setting, and the later Kilwinning Hew household, make the existing Hugh-to-John-to-Hew sequence a coherent preferred working hypothesis. The inherited tree supplies a specific claim rather than only a surname coincidence. However both early profiles' identities, dates, locality and relationship derive from the same Ancestry reconstruction, so these are correlated premises rather than independent corroboration. The downstream Hew name is modest supporting context, conditional on John's own uncertain fatherhood. No inspected contemporary event securely identifies either early profile or connects their households. Therefore retain the useful selected family at 23%, below possible/probable; no evidential upgrade has occurred. This reviews an existing attachment; it is not a new father or a newly confident relationship.
+
+Sources and role limits: [Ancestry tree: inherited John-1604 account](https://www.ancestry.co.uk/family-tree/person/tree/26875475/person/152122295783/facts); [Ancestry tree: inherited Hugh-1603 account](https://www.ancestry.co.uk/family-tree/person/tree/26875475/person/152122296144/facts); [ScotlandsPeople OPR599,10/23,FR34; Findmypast SCOT/OPR/BAP/3624324; FamilySearch XTVY-FQ2](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3624324&tab=this).
+
 
 **Upstream family review, 17 October 2026:** The selected route above Hugh Glasgow-1603 now runs through John Glasgow-3193 of Corsankell/Kilwinning, uncertain, with James Glasgow-991 retained as an alternative. This does not strengthen John’s own relationship to Hugh or settle his inherited life dates.
 
@@ -12,7 +16,7 @@ Reviewed: 2026-10-16
 **Working selection, 16 October 2026:** Glasgow-1604 is selected as Rev. Glasgow-1073’s uncertain local father. Glasgow-1078 remains an unselected uncertain alternative. No mother, duplicate merge or documented ancestry path is inferred. [Evidence and limits](/branches/research-kilbirnie-minister/#selected-working-father).
 
 
-## Current conclusion — 27 September 2026
+## Dated assessment — 27 September 2026
 
 **Merged Glasgow-3145 into this profile on 27 September 2026.** Both profiles represented an unsourced John born about 1626; neither had an independent event establishing a second man. The surviving profile retains uncertain Hugh Glasgow-1603 as attached father and three adult sons. Glasgow-3145’s alternative James Glasgow-991/Christina Bie parentage survives in the merged biography as an unproved hypothesis, not a combined parent couple. The approximate 1664 death remains unsourced.
 

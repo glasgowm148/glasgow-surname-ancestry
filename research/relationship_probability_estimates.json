@@ -2270,6 +2270,529 @@
       "prior_assessment": {
         "status": "Unselected documentary person; brother John’s Stephen father already22% uncertain"
       }
+    },
+    {
+      "subject_id": "Glasgow-3163",
+      "relative_id": "Glasgow-1093",
+      "relationship": "father",
+      "percent": 32,
+      "assessment_status": "possible",
+      "basis": "John of Glasgow was a married adult by 1534 and had documented children in the succeeding generation. Andrew's estimated circa1540 generation fits a son, and a cadet son's rural household is compatible with that family. Yet the existing evidence supplies no shared parcel, rent, occupation, named kin or distinctive associate that positively joins Andrew to this particular John. The current attached brother John-3181 cannot supply independent proof: his own connection to John-1093 is uncertain and his accepted testament reading names Katherine and Marjory, not an Andrew. Retain John-1093 as the strongest currently named working hypothesis at 32%, while an unidentified local father or a collateral burgh connection remains collectively more plausible than this one exact father claim.",
+      "source_ids": [
+        "nrs-cc8-8-32-andrew-1598",
+        "glasgow-protocol-1196-1534"
+      ],
+      "source_references": [
+        {
+          "locator": "NRS Edinburgh Commissary Court CC8/8/32, images123–124; will6February1597/8, death7February1597/8, confirmation10July1598",
+          "url": "https://www.scotlandspeople.gov.uk/search-records/legal-records/wills",
+          "supports": "Andrew's rural Corstoun/[Corsoun?], Caldercleir household; spouse Elizat; son Robert and daughters; land use until Robert reached age. This defines Andrew's own household and a generational comparison.",
+          "limits": "The succession is Andrew-to-Robert, not John-to-Andrew. The tenure word remains uncertain; do not infer hereditary title. No accepted clause names Andrew's father. A minor son and conditional pregnancy in1598 do not establish Andrew's birth year or make an older father impossible."
+        },
+        {
+          "locator": "Renwick, Abstracts of Protocols of the Town Clerks of Glasgow, vol. IV, protocol1196, printed p. 72,31December1534",
+          "url": "https://archive.org/details/abstractsprotoc08robegoog/page/n84/mode/2up",
+          "supports": "John-1093 is a married son of William and Esbell by 1534; c.1510 is a reasonable estimated generation.",
+          "limits": "Names no Andrew and gives John no age. Estimated c.1510/c.1540 dates cannot be counted as independent records of a30-year father-son gap."
+        },
+        {
+          "locator": "Renwick, vol.III protocol748,13May1563; protocol847,24August1565; vol.VI protocol2189,17June1575",
+          "urls": [
+            "https://archive.org/details/abstractsprotoc06scogoog/page/n52/mode/2up",
+            "https://archive.org/details/abstractsprotoc06scogoog/page/n85/mode/2up"
+          ],
+          "supports": "Defines the Glasgow family through documented John junior, William and Stephen, and the continuing Jonet Spreull household.",
+          "limits": "Andrew appears in none of these accepted family clauses. This omission is not an exclusion: they concern specific property acts, not a complete list of children. The proved siblings' evidence cannot transfer to Andrew without independent sibling evidence."
+        },
+        {
+          "locator": "NRS CC8/8/5, images276–277, John of Hirmenschelis testament; accepted human reading retained28September2026",
+          "url": "https://www.scotlandspeople.gov.uk/search-records/legal-records/wills",
+          "supports": "A nearby rural Glasgow household; possible collateral comparison. Queried James Stevinsoun landlord and Andrew's James Stevinsoun associate may warrant further comparison.",
+          "limits": "Accepted children are Katherine and Marjory. Superseded Androw/Andrew reading supplies zero positive support for Andrew-3163 as John's child. The Stevinsoun landlord reading and identification are uncertain; the common associate name cannot currently identify Andrew's father. John-3181's own father and identity with the recorded burgh son remain separate hypotheses."
+        },
+        {
+          "locator": "Grant, Commissariot of Edinburgh: Register of Testaments1514–1600, printed p.108; Findmypast SCOT/WILLS/057425",
+          "urls": [
+            "https://archive.org/details/scottishrecordso01scotuoft/page/n117/mode/1up",
+            "https://www.findmypast.co.uk/transcript?id=SCOT%2FWILLS%2F057425&tab=this"
+          ],
+          "supports": "Confirms indexed Corstoun/Caldercleir description and1598 confirmation.",
+          "limits": "Derivative witnesses to the same testament, not independent parentage evidence."
+        }
+      ],
+      "reviewed": "2026-10-17",
+      "review_kind": "individual calibration of an existing father; no topology change"
+    },
+    {
+      "subject_id": "Glasgow-1604",
+      "relative_id": "Glasgow-1603",
+      "relationship": "father",
+      "percent": 23,
+      "assessment_status": "uncertain",
+      "basis": "Hugh c1600 and John c1626 form a compatible father-son generation. Their inherited Ayrshire/Kilwinning setting, and the later Kilwinning Hew household, make the existing Hugh-to-John-to-Hew sequence a coherent preferred working hypothesis. The inherited tree supplies a specific claim rather than only a surname coincidence. However both early profiles' identities, dates, locality and relationship derive from the same Ancestry reconstruction, so these are correlated premises rather than independent corroboration. The downstream Hew name is modest supporting context, conditional on John's own uncertain fatherhood. No inspected contemporary event securely identifies either early profile or connects their households. Therefore retain the useful selected family at 23%, below possible/probable; no evidential upgrade has occurred.",
+      "source_ids": [],
+      "source_references": [
+        {
+          "title": "Ancestry tree: inherited John-1604 account",
+          "url": "https://www.ancestry.co.uk/family-tree/person/tree/26875475/person/152122295783/facts",
+          "role": "Origin of c1626/c1664, Hugh father and attached family; unverified tree claim, not contemporary evidence."
+        },
+        {
+          "title": "Ancestry tree: inherited Hugh-1603 account",
+          "url": "https://www.ancestry.co.uk/family-tree/person/tree/26875475/person/152122296144/facts",
+          "role": "Correlated earlier-generation scaffold; not independent corroboration of S1."
+        },
+        {
+          "title": "Kilwinning1676 indexed Hew child",
+          "locator": "ScotlandsPeople OPR599,10/23,FR34; Findmypast SCOT/OPR/BAP/3624324; FamilySearch XTVY-FQ2",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3624324&tab=this",
+          "role": "ChildHew1067, named fatherHew1066, motherMargaretLachland. Supplied full index reports24May; older biography reports5May. Reported marriage24May requires original event-type verification. No grandfather named."
+        },
+        {
+          "title": "Register of Deeds1677 Name and Designation, volXVII printed p80",
+          "locator": "FamilySearch007830797 Item3 image48; DurieOffice42 p148; NRS RD3/42 p148; recorded8March1677",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS39-S9V2-4?view=fullText&keywords=HUGH+Glasgow&searchForm=simple&lang=en&groupId=M9QN-ZQ3",
+          "role": "Hugh Glasgow preacher, grantee in Transl.; no age, parish or kin. Hugh1603 and Hew1066 remain comparisons, not established identities. The original deed is unread."
+        }
+      ],
+      "reviewed": "2026-10-17",
+      "review_kind": "individual calibration of an existing father; no topology change"
+    },
+    {
+      "subject_id": "Glasgow-1066",
+      "relative_id": "Glasgow-1604",
+      "relationship": "father",
+      "percent": 31,
+      "assessment_status": "uncertain",
+      "basis": "Hew's own household is anchored at Kilwinning in the 1676 and 1678 child material; a father belonging to John's approximate 1626 generation is chronologically reasonable. The existing John-1604 claim is more locally economical than moving Hew into Robert-1078's Glasgow-city family. Kilwinning locality is a closer fit than the minister's wider Ayrshire setting, warranting 31% rather than the minister's 26%. Yet John's Kilwinning identity is itself inherited, no baptism or adult record names Hew's father, and no proved sibling independently connects Hew to John or the minister. Repeated downstream household entries establish Hew's adult identity, not his parentage. The John-Hugh naming sequence supplies only weak conditional context.",
+      "source_ids": [
+        "kilwinning-hew-parent-index-1676"
+      ],
+      "source_references": [
+        {
+          "title": "Ancestry tree: inherited John-1604 account",
+          "url": "https://www.ancestry.co.uk/family-tree/person/tree/26875475/person/152122295783/facts",
+          "role": "Origin of c1626/c1664, Hugh father and attached family; unverified tree claim, not contemporary evidence."
+        },
+        {
+          "title": "Kilwinning1676 indexed Hew child",
+          "locator": "ScotlandsPeople OPR599,10/23,FR34; Findmypast SCOT/OPR/BAP/3624324; FamilySearch XTVY-FQ2",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3624324&tab=this",
+          "role": "ChildHew1067, named fatherHew1066, motherMargaretLachland. Supplied full index reports24May; older biography reports5May. Reported marriage24May requires original event-type verification. No grandfather named."
+        },
+        {
+          "title": "Kilwinning baptism of Robert,1December1678",
+          "locator": "Kilwinning parish599; retained citation in research/Glasgow-1066/Glasgow-1066.md",
+          "role": "Further adult-household anchor for Hew1066; no grandfather clause."
+        },
+        {
+          "title": "Existing Kilbirnie working-family review16October2026",
+          "role": "Maintained comparative argument and limits, not a separate historical record."
+        }
+      ],
+      "reviewed": "2026-10-17",
+      "review_kind": "individual calibration of an existing father; no topology change"
+    },
+    {
+      "subject_id": "Glasgow-3118",
+      "relative_id": "Glasgow-3610",
+      "relationship": "father",
+      "percent": 26,
+      "assessment_status": "uncertain",
+      "basis": "Retain John-3610 at 26% as a useful, low-confidence local father hypothesis. The 1649 baptism puts an adult father John Glasgow under the same Kirknewton/East Calder catalogue label as Alexander’s 1667 marriage to Margaret Smith. An adult father in 1649 is chronologically compatible with fathering a man marrying in 1667. The common surname, local continuity and compatible generation support retaining the attachment, but there is no independently documented sibling, household residence, holding, trade or witness joining the two men. Alexander’s circa 1650 birth is estimated from the marriage, not a baptism or recorded age. A 17-year-old marriage is possible, but an older groom also fits; the model must not force 1650. Nearby contemporary William and John households leave substantial alternatives.26% weighs those specific strengths and gaps; it is not a band midpoint or a product of the separate upstream probability.",
+      "source_ids": [
+        "kirknewton-johne-1649-father-johne",
+        "opr-kirknewton-alexander-1673"
+      ],
+      "source_references": [
+        {
+          "reference": "OPR 690/10/54, FR 37,18 October 1667; Alexander Glasgow/Margaret Smith",
+          "url": "https://familysearch.org/ark:/61903/1:1:XY9W-TPB"
+        },
+        {
+          "reference": "OPR 690/10/14, FR 15,22 April 1649; Johne, father Johne",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:VQ4K-X6G"
+        },
+        {
+          "reference": "OPR 690/10/75; birth 7 July/baptism 20 July 1673; father Alexander",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:VQ4K-X9V"
+        },
+        {
+          "reference": "OPR 690/10/77;28 February 1677; Agnes, father Alexander",
+          "url": "https://www.scotlandspeople.gov.uk/"
+        },
+        {
+          "reference": "OPR 689/10/301 FR 260;3 September 1637; Allexander Glasgow/Jannet Clerk",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:VQ4V-LM5"
+        },
+        {
+          "reference": "OPR 685/1/440/78 FR 991;16 June 1665; Alexander Glasgow/Issobell Anderson",
+          "url": "https://www.scotlandspeople.gov.uk/"
+        },
+        {
+          "reference": "OPR 685/2/30/77 FR 619;12 August 1666; Thomas, Alexander Glasgow/Issobell Andersone. Retain separate 8 August profile date until original resolves birth/baptism.",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:XT5G-Z49"
+        },
+        {
+          "reference": "OPR 685/2/30/86 FR 631;11 October 1674; Marie, Alexander Glasgow/Issobell Andersone; FMP SCOT/OPR/BAP/0702947",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0702947&tab=this"
+        },
+        {
+          "reference": "1648 Mid Calder OPR 694/10/94;1649 Kirknewton/East Calder Walter, father William; household identity qualified",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:VQ4K-FWL"
+        },
+        {
+          "reference": "Paton, Edinburgh Marriages, printedp 267: James,weaver/Bessie Whyte 6 July 1649; James,weaver/Agnes Duncan 11 November 1653",
+          "url": "https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/register_of_marriages_for_the_parish_of_edinburgh_1595-1700_~_1898.pdf#page=277"
+        }
+      ],
+      "reviewed": "2026-10-17",
+      "review_kind": "individual calibration of an existing father; no topology change"
+    },
+    {
+      "subject_id": "Glasgow-1157",
+      "relative_id": "Glasgow-1557",
+      "relationship": "father",
+      "percent": 5,
+      "assessment_status": "uncertain",
+      "basis": "The estimated generations could fit, but neither Robert’s Scottish origin nor his1612 birth is established. Edward has genuine Inveresk child records1609/1615; no record or combined household evidence places Robert among those children. Virginia compiled-family names and dates cannot independently validate the Scottish father they were arranged beneath. No supported migration, shared occupation, property title, witness or family-network connection bridges Inveresk and Virginia.",
+      "source_ids": [],
+      "source_references": [
+        {
+          "title": "Nugent,Cavaliers and Pioneers,vol1(1934)",
+          "locator": "printed p33;Virginia Patent Book1 p290;7October1635,Robert Glascocke,200acres,Elizabeth City County,south side main river,adjoining LtCheeseman,transportation of4servants",
+          "url": "https://archive.org/details/cavalierspioneer00nuge/page/33/mode/2up",
+          "type": "Published patent abstract"
+        },
+        {
+          "title": "Nugent,Cavaliers and Pioneers,vol1(1934)",
+          "locator": "printed p111;Virginia Patent Book1 p658;10June1639,Robert Glascocke,50acres,Lower New Norfolk County,western branch Elizabeth River,above JonathanLangworth;transportation of IszabellaDixon",
+          "url": "https://archive.org/details/cavalierspioneer00nuge/page/111/mode/2up",
+          "type": "Published patent abstract"
+        },
+        {
+          "title": "EdwardWJames,The Lower Norfolk County Virginia Antiquary,vol1(1895)",
+          "locator": "printed p84;LowerNorfolk court order6July1640:minister to preach alternate Sundays at RobertGlascocke house pending church",
+          "url": "https://archive.org/details/lowernorfolkcoun01newy/page/84/mode/2up",
+          "type": "Published court-order transcription"
+        },
+        {
+          "title": "CharlesFlemingMcIntosh,Brief Abstract of Lower Norfolk County and Norfolk County Wills,1637–1710(1914)",
+          "locator": "printed p149;NorfolkBook5 fol215;JohnGamon will4October1693,proved15March1693/4;DanielGlasco son-in-law,Mary daughter and wife,80acres RichfordSwamp",
+          "url": "https://archive.org/details/briefabstractofl01mcin/page/149/mode/2up"
+        },
+        {
+          "title": "ThomasRudolphTopping,Topping/Latham Family History and Allied Families:Generation to Generation(1994)",
+          "locator": "FamilySearch DigitalLibrary book154949;page of asserted Robert/Ann family not specified in maintained citation",
+          "url": "https://www.familysearch.org/library/books/records/item/154949-topping-latham-family-history-and-allied-families-alligood-brewer-chilton-ethridge-glasgow-satchwell-shavender-sillery-wiggins-windley-and-winstead-generation-to-generation",
+          "type": "Late compiled family history"
+        },
+        {
+          "title": "LegacyTreeGenealogists,Research Report,1March2016",
+          "locator": "pp3–4:DanielGamon marriage and unsupported online Robert/Ann parentage;pp4–10:later-line YDNA discussion",
+          "url": "https://www.legacytree.com/wp-content/uploads/T1508095.CLIENTGlasgow1508.report.public.pdf",
+          "type": "Modern research report"
+        }
+      ],
+      "reviewed": "2026-10-17",
+      "review_kind": "individual calibration of an existing father; no topology change"
+    },
+    {
+      "subject_id": "Glasgow-1025",
+      "relative_id": "Glasgow-1026",
+      "relationship": "father",
+      "percent": 12,
+      "assessment_status": "uncertain",
+      "basis": "The corrected older William householder is chronologically capable of fathering a James around 1700: a nominal 40-year interval fits, and the proposed child falls within William's reconstructed 1682–1705 family span. But James has no identified Kirknewton baptism, occupation, property, marriage or named associate connecting him to that household. His Tyrone/Moneymore setting and William's alleged Tyrone death are inherited fields, not an independently established migration. The proposed James generation is itself unanchored. The 12% estimate grants limited weight to an existing pedigree hypothesis with a viable generation, while the absence of a specific identity or family connection and numerous Irish/Scottish alternatives dominate. It is not a band midpoint or a statistical frequency.",
+      "source_ids": [
+        "kirknewton-bessie-1682-william-household",
+        "james-drumcarn-will-index-1759"
+      ],
+      "source_references": [
+        {
+          "reference": "PRONI Name Search, Armagh diocesan wills index: James Glasgow, Drumcarn, County Tyrone, 17 January 1759; no age or kin; date meaning/profile identity unresolved",
+          "url": "https://www.proni.gov.uk/name-search"
+        },
+        {
+          "reference": "1740 Protestant householders, Derryloran: Jas Glasgo records 14391/list128 and 14393/list130; Wm Glascy 14466/list203; Wm Glasgow 14571/list308; PDF p.119",
+          "url": "https://www.billmacafee.com/1740returns/1740religiousreturnsulstername.pdf"
+        },
+        {
+          "reference": "1766 Derryloran return, NAI IHP/1/665; RCBL MS23 transcript pp.162–163: two Jas Glasgo and Jn Glasgo at Drumearn",
+          "url": "https://virtualtreasury.ie/item/NAI-IHP-1-665"
+        },
+        {
+          "reference": "David Faris, The Glasgow Family of Adams County, Ohio (1990), WorldCat catalogue father attribution",
+          "url": "https://search.worldcat.org/title/22731567"
+        },
+        {
+          "reference": "Robert Glasgow pension declaration R4057, 1834: County Derry birth in 1749, Virginia arrival 1769, no parents named",
+          "url": "https://revwarapps.org/r4057.pdf"
+        },
+        {
+          "reference": "Kirknewton Bessie baptism, 21 April 1682, FamilySearch VQ4K-ZQN; John, 29 November 1702, VQ4K-XZ7; William, 22 April 1705, VQ4K-FY9",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:VQ4K-ZQN"
+        }
+      ],
+      "reviewed": "2026-10-17",
+      "review_kind": "individual calibration of an existing father; no topology change"
+    },
+    {
+      "subject_id": "Glasgow-1024",
+      "relative_id": "Glasgow-1025",
+      "relationship": "father",
+      "percent": 18,
+      "assessment_status": "uncertain",
+      "basis": "The proposed c.1700/c.1722 generation is biologically ordinary and the inherited accounts concern the same wider Tyrone–south Derry family investigation. That is a somewhat more coherent local hypothesis than the unbridged Scottish William route. Nevertheless, the apparent father generation rests on the pedigree itself: Faris names Robert's father James of Moneymore, not that man's father; the 1759 index supplies no kin or age; the 1740/1766 households do not identify either profile. The 18% estimate retains modest weight for a compatible inherited local pedigree but incorporates the material possibility that the two James accounts duplicate one adult rather than represent father and son. It is an individual subjective assessment, not a bucket midpoint.",
+      "source_ids": [
+        "james-drumcarn-will-index-1759",
+        "moneymore-james-faris-family-attribution",
+        "faris-1806-joseph-arthur-robert-brothers",
+        "corvanaghan-james-householder-1766"
+      ],
+      "source_references": [
+        {
+          "reference": "PRONI Name Search, Armagh diocesan wills index: James Glasgow, Drumcarn, County Tyrone, 17 January 1759; no age or kin; date meaning/profile identity unresolved",
+          "url": "https://www.proni.gov.uk/name-search"
+        },
+        {
+          "reference": "1740 Protestant householders, Derryloran: Jas Glasgo records 14391/list128 and 14393/list130; Wm Glascy 14466/list203; Wm Glasgow 14571/list308; PDF p.119",
+          "url": "https://www.billmacafee.com/1740returns/1740religiousreturnsulstername.pdf"
+        },
+        {
+          "reference": "1766 Derryloran return, NAI IHP/1/665; RCBL MS23 transcript pp.162–163: two Jas Glasgo and Jn Glasgo at Drumearn",
+          "url": "https://virtualtreasury.ie/item/NAI-IHP-1-665"
+        },
+        {
+          "reference": "David Faris, The Glasgow Family of Adams County, Ohio (1990), WorldCat catalogue father attribution",
+          "url": "https://search.worldcat.org/title/22731567"
+        },
+        {
+          "reference": "Robert Glasgow pension declaration R4057, 1834: County Derry birth in 1749, Virginia arrival 1769, no parents named",
+          "url": "https://revwarapps.org/r4057.pdf"
+        },
+        {
+          "reference": "Kirknewton Bessie baptism, 21 April 1682, FamilySearch VQ4K-ZQN; John, 29 November 1702, VQ4K-XZ7; William, 22 April 1705, VQ4K-FY9",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:VQ4K-ZQN"
+        }
+      ],
+      "reviewed": "2026-10-17",
+      "review_kind": "individual calibration of an existing father; no topology change"
+    },
+    {
+      "subject_id": "Glasgow-1081",
+      "relative_id": "Glasgow-3970",
+      "relationship": "father",
+      "percent": 24,
+      "assessment_status": "uncertain",
+      "basis": "The Larne Robert is an actual earlier east-Antrim adult, and James is an actual Kilwaughter householder in 1669 within the same small regional setting. Retain the existing named older-family model rather than an anonymous intermediary. The Scottish James recorded in 1645 with father Robert is a compatible secondary comparison, but only conditionally: neither that child’s identity with the Kilwaughter householder nor its father’s identity with the Larne Robert is established. Neither the 1653 examinations nor 1669 roll names the proposed relationship, mother, age, trade, holding or shared associate. James’s probable 1669-to 1726 identity is distinct from fatherhood and cannot upgrade it automatically. The previously selected Scottish ancestry of Larne Robert is another conditional identity, not corroboration for this child. Jo and James’s adjacency and recurring district support family association but do not show that both were sons of Robert.",
+      "source_ids": [
+        "larne-robert-examination-1653"
+      ],
+      "source_references": [
+        {
+          "source": "1641 Depositions, TCD MS838 fol153r, Con O’Sheale examination21 April 1653, item42821; related examinations fol208r/131r/218r",
+          "url": "https://1641dep.abdn.ac.uk/items/show/42821.html"
+        },
+        {
+          "source": "PRONI T/307/A; W.Macafee 1669 Antrim hearth-roll transcription, PDF p36, records 5347–5348",
+          "url": "https://www.billmacafee.com/1660shearthmoneyrolls/1669hearthmoneyrollsantrim.pdf"
+        },
+        {
+          "source": "Glasgow OPR644/1,40/56, James Glasgow25 November 1645; father Robert Glasgow, mother Jonet Cunningham; FamilySearch VQHK-VMK",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:VQHK-VMK"
+        },
+        {
+          "source": "Classon Porter, Congregational Memoirs: Larne and Kilwaughter, The Christian Unitarian2(1863),pp410–414, especially412–413",
+          "url": "https://archive.org/details/christianunitari0002unse/page/412/mode/1up"
+        },
+        {
+          "source": "Porter, Christian Unitarian3(1864),pp16–19",
+          "url": "https://archive.org/details/christianunitari0003unse/page/18/mode/1up"
+        },
+        {
+          "source": "Porter, Christian Unitarian3(1864),pp197–198; Connor probate index James Glasgow,Kilwater,1727",
+          "url": "https://archive.org/details/christianunitari0003unse/page/197/mode/1up"
+        },
+        {
+          "source": "Archived Early Glasgows narrative and source notes",
+          "url": "https://web.archive.org/web/20101124184247/http://lifesweaving.com/Glasgow/Kilwaughter/TheirStory2.html"
+        }
+      ],
+      "reviewed": "2026-10-17",
+      "review_kind": "individual calibration of an existing father; no topology change"
+    },
+    {
+      "subject_id": "Glasgow-1502",
+      "relative_id": "Glasgow-1081",
+      "relationship": "father",
+      "percent": 27,
+      "assessment_status": "uncertain",
+      "basis": "James and Robert are real named participants in the same Larne/Kilwaughter congregation around 1700–1701, and a householder already established in 1669 can have an adult son acting as stipend bondsman in 1700. That gives the proposed father a stronger institutional connection than mere regional surname similarity. Retain it as one useful working explanation, with no decisive preference over all alternatives because Robert’s age and parentage are unknown. South Side and Kilwochter are distinct districts in the minutes. This weakens a shared-household argument; it is not an exclusion of kinship. A representative district is not a birth statement or proof of a continuously held private estate. Robert’s circa 1675 birth is an estimate; no recorded age puts him a generation below James. Robert could be a contemporary brother/cousin or belong to a later family. The printed source identifies public/congregational functions, not a common trade or inherited property. No private tenancy succession joins the two. The apparent pedigree source explicitly calls the younger cohort possible/presumed brothers and older Robert a candidate father; repeating that arrangement is not independent evidence. Naming Robert after a supposed grandfather would assume the preceding uncertain father link, so it contributes no independent upgrade.",
+      "source_ids": [],
+      "source_references": [
+        {
+          "source": "1641 Depositions, TCD MS838 fol153r, Con O’Sheale examination21 April 1653, item42821; related examinations fol208r/131r/218r",
+          "url": "https://1641dep.abdn.ac.uk/items/show/42821.html"
+        },
+        {
+          "source": "PRONI T/307/A; W.Macafee 1669 Antrim hearth-roll transcription, PDF p36, records 5347–5348",
+          "url": "https://www.billmacafee.com/1660shearthmoneyrolls/1669hearthmoneyrollsantrim.pdf"
+        },
+        {
+          "source": "Glasgow OPR644/1,40/56, James Glasgow25 November 1645; father Robert Glasgow, mother Jonet Cunningham; FamilySearch VQHK-VMK",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:VQHK-VMK"
+        },
+        {
+          "source": "Classon Porter, Congregational Memoirs: Larne and Kilwaughter, The Christian Unitarian2(1863),pp410–414, especially412–413",
+          "url": "https://archive.org/details/christianunitari0002unse/page/412/mode/1up"
+        },
+        {
+          "source": "Porter, Christian Unitarian3(1864),pp16–19",
+          "url": "https://archive.org/details/christianunitari0003unse/page/18/mode/1up"
+        },
+        {
+          "source": "Porter, Christian Unitarian3(1864),pp197–198; Connor probate index James Glasgow,Kilwater,1727",
+          "url": "https://archive.org/details/christianunitari0003unse/page/197/mode/1up"
+        },
+        {
+          "source": "Archived Early Glasgows narrative and source notes",
+          "url": "https://web.archive.org/web/20101124184247/http://lifesweaving.com/Glasgow/Kilwaughter/TheirStory2.html"
+        }
+      ],
+      "reviewed": "2026-10-17",
+      "review_kind": "individual calibration of an existing father; no topology change"
+    },
+    {
+      "subject_id": "Glasgow-3107",
+      "relative_id": "Glasgow-1084",
+      "relationship": "father",
+      "percent": 24,
+      "assessment_status": "uncertain",
+      "basis": "John's 1616 Mid Calder childhood, proposed adulthood as the Edinburgh whipman married to Issobell Porteous in 1642, and recorded fatherhood in 1643 place him in a plausible father generation for a man marrying in 1663. A James born roughly 1640–45 would fit that adult's family chronology. This is chronological compatibility, not independent evidence supplied by James's estimated birth year. The first recorded Gordon son is John in 1666. That modestly favours a paternal John. If the 1616 child is the 1642 adult, John's recorded father James also gives a compatible James–John–James–John sequence. These common names provide limited support, and the grandfather echo depends on the unresolved child-to-adult identity; it must not be counted as an independently proved multi-generation chain. The 1642 John/Issobell marriage and the 1643 daughter form a concrete candidate household rather than a father chosen solely from a tree name. The 1652 Anne attribution would extend it into the right period, but currently rests on a FamilySearch tree citation and is not equal-quality parish evidence. The separate 1638 John/Helen Patoune household is a provisional earlier identity, not another independent confirmation of the selected father. James's 1663 Polwarth marriage and the six Gordon children in 1666–79 strongly support his own local adult household. They do not locate his childhood or identify relatives in Midlothian. The chosen John is the best of the examined named father candidates, but the aggregate chance of another father remains greater. No source currently distinguishes him from all reasonable alternatives sufficiently for an upgrade.",
+      "source_ids": [
+        "polwarth-james-waitte-marriage-1663",
+        "gordon-john-james-index-1666"
+      ],
+      "source_references": [
+        {
+          "record": "18 June 1663, James Glasgow and Agnes Waitte, Polwarth OPR 754/10/62, FR37",
+          "url": "https://familysearch.org/ark:/61903/1:1:XTL8-X6D",
+          "status": "Previously accepted SP/FamilySearch index presentations; same event, not independent sources; original uninspected"
+        },
+        {
+          "record": "29 April 1666, John, father James Glasgow, Gordon",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:XTBS-Z9H",
+          "status": "Previously accepted child index; source for first known son's name"
+        },
+        {
+          "record": "Gordon children: Patrike 4 August 1667 OPR742/10/140; Jean16 April1671 742/10/184; Robert1 April1673 742/10/201; Agnes29 October1676 742/10/236; Margrat24 May1679 742/10/299",
+          "status": "Existing accepted derivative entries; father roles recorded, Polwarth adult identity probable"
+        },
+        {
+          "record": "John Glasgow, Mid Calder,18 February1616, father James, OPR694/10/28; FMP SCOT/OPR/BAP/4585960, OPR694/1 item3 p13 (date variant10 ?1616); R_686309696 andR_694113518 give18February",
+          "url": "https://familysearch.org/ark:/61903/1:1:X1BL-JXY",
+          "status": "Accepted indexes/transcript; same baptism, mother not stated; adult identity separate"
+        },
+        {
+          "record": "Johnne Glasgow and Issobell Porteous,30 June1642, Edinburgh OPR685/1/430/244, FR848; SRS Edinburgh Marriages1595–1700 printedp267: John, whipman",
+          "url": "https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/register_of_marriages_for_the_parish_of_edinburgh_1595-1700_~_1898.pdf#page=277",
+          "status": "Existing accepted index and published transcription; no new page inspection"
+        },
+        {
+          "record": "Issobell,4 April1643, Edinburgh, John Glasgow and Issobell Porteous",
+          "url": "https://familysearch.org/ark:/61903/1:1:X1YN-JHD",
+          "status": "Accepted derivative parish index; no reference to James"
+        },
+        {
+          "record": "Anne, attributed20 June1652, Kirknewton/EastCalder",
+          "url": "https://www.familysearch.org/tree/person/details/4XPK-FW2",
+          "status": "Tree-only lead, not verified parish entry; no independent sibling proof for James"
+        },
+        {
+          "record": "Johne,11 January1638, Duddingston, Johne Glasgow/Helene Patoune, OPR684 FR38",
+          "url": "https://www.scotlandspeople.gov.uk/",
+          "status": "Accepted supplied child index; father’s identification with1642 groom provisional"
+        },
+        {
+          "record": "Elizabeth Glasgow,17 August1656, and William Glasgow,4 April1658, Polwarth, each father William",
+          "urls": [
+            "https://www.familysearch.org/ark:/61903/1:1:XYL3-24Q",
+            "https://www.familysearch.org/ark:/61903/1:1:XTBH-RJS"
+          ],
+          "status": "Accepted derivative indexes; father identity unresolved"
+        },
+        {
+          "record": "William Glasgow, born20 and baptised21 August1639, Inveresk; Thomas Glasgow/Agnes Thomson; OPR689/1 item1; suppliedSP689/10/332 FR291",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4437421&tab=this",
+          "status": "Previously validated transcript; excludes this child as James’s father on existing birth chronology"
+        }
+      ],
+      "reviewed": "2026-10-17",
+      "review_kind": "individual calibration of an existing father; no topology change"
+    },
+    {
+      "subject_id": "Glasgow-4095",
+      "relative_id": "Glasgow-3163",
+      "relationship": "father",
+      "percent": 99,
+      "assessment_status": "proved",
+      "basis": "Andrew’s 1598 testament explicitly names Marion as his daughter. This is the record-defined child, with no transfer to a later namesake or inference of her mother. The father was already marked confident; 99% completes the individual rating and is not a new father or upgrade.",
+      "source_ids": [
+        "nrs-cc8-8-32-andrew-1598"
+      ],
+      "source_references": [
+        {
+          "reference": "NRS CC8/8/32, images 123–124, testament of Andrew Glasgow, confirmed 10 July 1598",
+          "url": "https://www.scotlandspeople.gov.uk/search-records/legal-records/wills"
+        }
+      ],
+      "reviewed": "2026-10-17",
+      "review_kind": "individual calibration of an existing father; no topology change"
+    },
+    {
+      "subject_id": "Glasgow-1167",
+      "relative_id": "Glassfuird-2",
+      "relationship": "father",
+      "percent": 83,
+      "assessment_status": "probable",
+      "basis": "The1634 Edinburgh entry names Johnne Glasgow and Jonet Moriell. The unusually specific mother name matches the slater’s1619 Edinburgh marriage to Janet/Jonet Murriell. Seven attached Edinburgh children form the existing Glassford/Murriell household, whereas the rival Glasgow/Mathie household has the wrong mother and the Kilwinning minister has wifeJean Blair. Marriage1619 and child1634 are chronologically coherent. The1613 slater apprenticeship with masterWalter Murriall adds coherent occupation/associate evidence for the father identity, but is a separate upstream identification. The explicit Glasgow index spelling conflicts with Glassfuird/Glassford. It could be a genuine surname reading, an indexing variant or an erroneous household assignment; original1634 image remains uninspected. Do not broaden allowed Glasgow variants to Glassford/Glassfuird to improve the metric; project surname boundary requires an actual primary-record bridge. The1671 Eupham/Effie Glasgow–Alexander Hutcheson/Hutcshesone marriage entries are possible later identities only and do not prove the1634 child’s surname or parents.",
+      "source_ids": [
+        "edinburgh-euphame-index-1634"
+      ],
+      "source_references": [
+        {
+          "locator": "ScotlandsPeople supplied OPR births/baptisms,30 March1634, Edinburgh,685/1,40/202,FR1037; Johnne Glasgow/Jonet Moriell; FamilySearch X1Y9-V87 cited in maintained review",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:X1Y9-V87"
+        },
+        {
+          "locator": "Henry Paton(ed.), Edinburgh Marriages1595–1700(1905),p268; John Glassford,slater,Janet Murriell,15 July1619",
+          "url": "https://archive.org/stream/scottishrecordso16scotuoft/scottishrecordso16scotuoft_djvu.txt"
+        },
+        {
+          "locator": "Francis J. Grant(ed.), Edinburgh Apprentices1583–1666(1906),p71; John Glassfuird,son oflateJohn,millerDalrymills,toWalterMurriall,slater,28 April1613",
+          "url": "https://archive.org/stream/registerofappren35edin/registerofappren35edin_djvu.txt"
+        }
+      ],
+      "reviewed": "2026-10-17",
+      "review_kind": "individual calibration of an existing father; no topology change",
+      "assertion_id": "C-review-20261017-euphame1167-glassfuird-father"
+    },
+    {
+      "subject_id": "record-queue-early-scotland-1650-walter-buried-1647",
+      "relative_id": "Glasgow-1087",
+      "relationship": "father",
+      "percent": 68,
+      "assessment_status": "probable",
+      "assertion_id": "C-working-20261017-leithford-walter-william1087-father",
+      "basis": "The burial transcript explicitly names father William. The later Walter’s baptism names William at the same Leithford residence and register, supporting one household and reuse of the name after the June 1647 burial. William-1087’s 1609 Mid Calder childhood and possible 1648 fatherhood make him the preferred existing identity, at 68%. The exact-locality household link is stronger than county-level alternatives, but the cross-parish adult identity remains inferred. Another William of Leithford is the principal rival. No mother, age, exact death date or identity merge is inferred; retain both 1647/1649 baptism readings and the source-verification hold.",
+      "source_ids": [
+        "leithford-walter-burial-1647",
+        "leithford-walter-baptism-disputed-year",
+        "midcalder-william-baptism-1609"
+      ],
+      "reviewed": "2026-10-17",
+      "scope": "Identity of the recorded William with William-1087; not the separate 98% transcript father role or 84% same-household comparison."
     }
   ]
 }

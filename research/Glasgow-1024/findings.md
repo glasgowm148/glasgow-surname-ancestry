@@ -29,6 +29,10 @@ The working conclusion is that `Glasgow-1024` is a composite of a late father tr
 
 ## Current conclusion
 
+**Father review, 17 October 2026:** retain [Glasgow-1025](https://www.wikitree.com/wiki/Glasgow-1025) at **18%** (uncertain). The proposed c.1700/c.1722 generation is biologically ordinary and the inherited accounts concern the same wider Tyrone–south Derry family investigation. That is a somewhat more coherent local hypothesis than the unbridged Scottish William route. Nevertheless, the apparent father generation rests on the pedigree itself: Faris names Robert's father James of Moneymore, not that man's father; the 1759 index supplies no kin or age; the 1740/1766 households do not identify either profile. The 18% estimate retains modest weight for a compatible inherited local pedigree but incorporates the material possibility that the two James accounts duplicate one adult rather than represent father and son. It is an individual subjective assessment, not a bucket midpoint. This reviews an existing attachment; it is not a new father or a newly confident relationship.
+
+Sources and role limits: [PRONI Name Search, Armagh diocesan wills index: James Glasgow, Drumcarn, County Tyrone, 17 January 1759; no age or kin; date meaning/profile identity unresolved](https://www.proni.gov.uk/name-search); [1740 Protestant householders, Derryloran: Jas Glasgo records 14391/list128 and 14393/list130; Wm Glascy 14466/list203; Wm Glasgow 14571/list308; PDF p.119](https://www.billmacafee.com/1740returns/1740religiousreturnsulstername.pdf); [1766 Derryloran return, NAI IHP/1/665; RCBL MS23 transcript pp.162–163: two Jas Glasgo and Jn Glasgo at Drumearn](https://virtualtreasury.ie/item/NAI-IHP-1-665).
+
 **Father assessment, 17 October 2026:** James Glasgow-1024, representing the Moneymore father account, is now assessed as the **probable father** of Robert Glasgow-12, Arthur Glasgow-649 and Joseph Glasgow-1543. The specific father attribution and established sibling group support the inference. Other identity, ancestry and maternity questions retain their earlier uncertainty.
 
 Reviewed: 2026-10-16
@@ -181,7 +185,7 @@ Examples include the [1766 Larne ropemaker deed](https://www.familysearch.org/ar
 
 5 October 2026 candidate review: Estimated birth c. 1722 and Moneymore context are compatible; neither identifies the Omagh publican. [James Glasco of Omagh’s 1786 marriage and 1793 business notices](/research/subjects/newspapers-early-glasgow/#james-glasco-omagh) are retained as documentary evidence. This profile is a possible candidate; no spouse, parent, occupation or place is attached. The 1786 groom and 1793 contact are probably the same man, with no proved profile bridge.
 
-## Current conclusion — pre-1800 original newspapers, 5 October 2026
+## Dated assessment — pre-1800 original newspapers, 5 October 2026
 
 James Glascow, Fogs Manor postal addressee: possible, weaker. Estimated c.1722 birth is chronologically plausible; death date absent. Irish location is not a concrete contradiction. The postal record states no occupation. No existing person is identified. The postal addressee, 1777 shipmaster and Irish James occurrences remain separate; the record gives no maritime occupation. No parent, spouse or migration amendment follows.
 
@@ -193,7 +197,7 @@ James Glascow, Fogs Manor, is listed among letters remaining in the Philadelphia
 
 Identify the historical Fogs Manor address from contemporary postal, land and tax records; compare original family evidence before assigning a profile.
 
-## Current conclusion — pre-1800 original newspapers, 5 October 2026
+## Dated assessment — pre-1800 original newspapers, 5 October 2026
 
 James Glascow, master of Greenwich Packet: possible, weaker. Estimated c.1722 birth is chronologically plausible; death date absent. Irish location is not a concrete contradiction. Glasgow-4124 is a possible occupational comparison with a 1733 mariner record, separated by 44 years. No likely identity is proved, and no link to the 1757 addressee or Irish James records is established. No parent, spouse or migration amendment follows.
 
@@ -205,7 +209,7 @@ Greenwich Packet: James Glascow, master; James Young, owner; from Philadelphia t
 
 Check the report’s overall heading, prize/admiralty records and original vessel/master papers. Bridge to any profile by residence, signatures or family evidence.
 
-## Current conclusion — postal and certificate originals, 5 October 2026
+## Dated assessment — postal and certificate originals, 5 October 2026
 
 James Glasgow, Edinburgh game certificate, 1789: Birth c.1722, estimated, County Londonderry; death date not recorded. Chronologically possible, but no Edinburgh/certificate bridge is documented. This Edinburgh certificate holder remains separate from the other James records. Glasgow-4124 and other chronologically compatible profiles have no certificate bridge. Glasgow-804’s exact recorded May 1788 death conflicts with an issued-since-September-1789 certificate if the death is correctly attributed; Glasgow-1144’s estimated c.1793 death is not a precise boundary. No relationship change follows.
 

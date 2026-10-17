@@ -118,14 +118,30 @@ class T(unittest.TestCase):
                 with self.assertRaisesRegex(ValueError, 'Duplicate documentary ancestor'):
                     self.finish()
 
+    def test_source_hold_keeps_existing_public_cohort_membership(self):
+        self.pending_documentary_account(dossier_changes={'creation_status': 'hold_source_verification'})
+        nodes, edges, quality = self.finish()
+        self.assertEqual(len(nodes), 3)
+        self.assertTrue(nodes['record-parent'].get('cohort_member', True))
+        self.assertEqual(nodes['record-parent']['birth_year'], 1600)
+        self.assertEqual(nodes['record-parent']['year'], 1600)
+        result = summarize(nodes, edges, 1650)
+        self.assertEqual(result['population'], 3)
+        self.assertEqual(result['cohort_ids'], ['Child', 'Grandparent', 'record-parent'])
+        self.assertEqual(result['component_count'], 1)
+        self.assertEqual(quality['multiple_fathers'], [])
+
     def test_pending_account_rejects_private_or_living_flags_despite_old_birth_basis(self):
-        for scope in ('row_changes', 'dossier_changes', 'document_changes'):
-            for flag in ('private', 'living', 'likely_living'):
-                with self.subTest(scope=scope, flag=flag):
-                    self.rows = []
-                    self.pending_documentary_account(**{scope: {flag: True}})
-                    with self.assertRaisesRegex(ValueError, 'Duplicate documentary ancestor'):
-                        self.finish()
+        for status in ('identity_hold', 'hold_source_verification'):
+            for scope in ('row_changes', 'dossier_changes', 'document_changes'):
+                for flag in ('private', 'living', 'likely_living'):
+                    with self.subTest(status=status, scope=scope, flag=flag):
+                        self.rows = []
+                        changes = {'dossier_changes': {'creation_status': status}}
+                        changes.setdefault(scope, {})[flag] = True
+                        self.pending_documentary_account(**changes)
+                        with self.assertRaisesRegex(ValueError, 'Duplicate documentary ancestor'):
+                            self.finish()
 
     def test_saved_tree_flags_are_used_without_overriding_research(self):
         self.assertEqual(relationship_status({'status':'unknown','tree_status':'confident'}), ('confident','saved_wikitree_flag'))

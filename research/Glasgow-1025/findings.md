@@ -4,6 +4,10 @@ Last updated: 2026-10-16
 
 ## Current conclusion
 
+**Father review, 17 October 2026:** retain [Glasgow-1026](https://www.wikitree.com/wiki/Glasgow-1026) at **12%** (uncertain). The corrected older William householder is chronologically capable of fathering a James around 1700: a nominal 40-year interval fits, and the proposed child falls within William's reconstructed 1682–1705 family span. But James has no identified Kirknewton baptism, occupation, property, marriage or named associate connecting him to that household. His Tyrone/Moneymore setting and William's alleged Tyrone death are inherited fields, not an independently established migration. The proposed James generation is itself unanchored. The 12% estimate grants limited weight to an existing pedigree hypothesis with a viable generation, while the absence of a specific identity or family connection and numerous Irish/Scottish alternatives dominate. It is not a band midpoint or a statistical frequency. This reviews an existing attachment; it is not a new father or a newly confident relationship.
+
+Sources and role limits: [PRONI Name Search, Armagh diocesan wills index: James Glasgow, Drumcarn, County Tyrone, 17 January 1759; no age or kin; date meaning/profile identity unresolved](https://www.proni.gov.uk/name-search); [1740 Protestant householders, Derryloran: Jas Glasgo records 14391/list128 and 14393/list130; Wm Glascy 14466/list203; Wm Glasgow 14571/list308; PDF p.119](https://www.billmacafee.com/1740returns/1740religiousreturnsulstername.pdf); [1766 Derryloran return, NAI IHP/1/665; RCBL MS23 transcript pp.162–163: two Jas Glasgo and Jn Glasgo at Drumearn](https://virtualtreasury.ie/item/NAI-IHP-1-665).
+
 
 **Cookstown family extension, 17 October 2026:** The Mitchell-family James Glasgow-1970 is an **uncertain working son** of this older pedigree account, conditional on the existing possible Corvanaghan/Moneymore identities. The reviewed 1759 index says **Drumcarn**, names no kin and does not identify this profile or prove the father choice.
 

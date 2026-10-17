@@ -2,6 +2,10 @@
 
 ## Current conclusion
 
+**Father review, 17 October 2026:** retain [Glasgow-3610](https://www.wikitree.com/wiki/Glasgow-3610) at **26%** (uncertain). Retain John-3610 at 26% as a useful, low-confidence local father hypothesis. The 1649 baptism puts an adult father John Glasgow under the same Kirknewton/East Calder catalogue label as Alexander’s 1667 marriage to Margaret Smith. An adult father in 1649 is chronologically compatible with fathering a man marrying in 1667. The common surname, local continuity and compatible generation support retaining the attachment, but there is no independently documented sibling, household residence, holding, trade or witness joining the two men. Alexander’s circa 1650 birth is estimated from the marriage, not a baptism or recorded age. A 17-year-old marriage is possible, but an older groom also fits; the model must not force 1650. Nearby contemporary William and John households leave substantial alternatives.26% weighs those specific strengths and gaps; it is not a band midpoint or a product of the separate upstream probability. This reviews an existing attachment; it is not a new father or a newly confident relationship.
+
+Sources and role limits: [OPR 690/10/54, FR 37,18 October 1667; Alexander Glasgow/Margaret Smith](https://familysearch.org/ark:/61903/1:1:XY9W-TPB); [OPR 690/10/14, FR 15,22 April 1649; Johne, father Johne](https://www.familysearch.org/ark:/61903/1:1:VQ4K-X6G); [OPR 690/10/75; birth 7 July/baptism 20 July 1673; father Alexander](https://www.familysearch.org/ark:/61903/1:1:VQ4K-X9V).
+
 **Family review, 17 October 2026:** The 1673 Alexander’s father link is now **probable**, identifying the indexed same-parish father with this 1667 adult. Andrew-1546 and the older John-3610 route retain their uncertainty.
 
 [James Glasgow (Glasgow-1150)](https://www.wikitree.com/wiki/Glasgow-1150)

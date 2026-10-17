@@ -2,6 +2,10 @@
 
 ## Current conclusion
 
+**Father review, 17 October 2026:** retain [Glasgow-3163](https://www.wikitree.com/wiki/Glasgow-3163) at **99%** (proved). Andrew’s 1598 testament explicitly names Marion as his daughter. This is the record-defined child, with no transfer to a later namesake or inference of her mother. The father was already marked confident; 99% completes the individual rating and is not a new father or upgrade. This reviews an existing attachment; it is not a new father or a newly confident relationship.
+
+Sources and role limits: [NRS CC8/8/32, images 123–124, testament of Andrew Glasgow, confirmed 10 July 1598](https://www.scotlandspeople.gov.uk/search-records/legal-records/wills).
+
 WikiTree parent-status audit, 27 September 2026: Andrew Glasgow (Glasgow-3163) is now marked confident as Marion’s father. His 1597/8 testament directly names Marion among his daughters; Elizat Stevinsoun’s maternity remains separately uncertain.
 
 Andrew Glasgow's 1597/8 testament directly names a daughter Marion. This

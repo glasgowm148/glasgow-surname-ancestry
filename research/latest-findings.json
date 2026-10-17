@@ -31594,6 +31594,59 @@
         "research/canonical_records.json",
         "research/relationship_assessments.json"
       ]
+    },
+    {
+      "id": "leithford-walter-probable-william-family-2026-10-17",
+      "found_on": "2026-10-17",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "The Walter buried at Leithford on 4 June 1647 is placed provisionally under William Glasgow-1087, at 68% confidence.",
+      "qualification": "The burial transcript explicitly names father William. The later Walter’s baptism names William at the same Leithford residence and register, supporting one household and reuse of the name after the June 1647 burial. William-1087’s 1609 Mid Calder childhood and possible 1648 fatherhood make him the preferred existing identity, at 68%. The exact-locality household link is stronger than county-level alternatives, but the cross-parish adult identity remains inferred. Another William of Leithford is the principal rival. No mother, age, exact death date or identity merge is inferred; retain both 1647/1649 baptism readings and the source-verification hold. The transcript’s named-father role is 98%; the shared Leithford household comparison is 84%. This is a new selected family connection from previously reviewed transcripts, not a new original reading or a confident upgrade.",
+      "people": [
+        {
+          "id": "record-queue-early-scotland-1650-walter-buried-1647",
+          "name": "Walter Glasgow of Leithford, buried in 1647",
+          "url": "/people/record-queue-early-scotland-1650-walter-buried-1647.html"
+        },
+        {
+          "id": "Glasgow-1087",
+          "name": "William Glasgow",
+          "url": "/people/glasgow-1087.html"
+        },
+        {
+          "id": "Glasgow-1554",
+          "name": "Walter Glasgow, later baptism",
+          "url": "/people/glasgow-1554.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Findmypast/Scottish Genealogy Society, Walter Glasgow, burial4 June1647, Leithford, son to William Glasgow, OPR689/20",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1625437"
+        },
+        {
+          "title": "Findmypast/SGS baptism23 September1647, Walter Glasgow, fatherWilliam, Leithford, OPR689/20; maintained transcript reopened15 October2026",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4473489"
+        },
+        {
+          "title": "Supplied ScotlandsPeople baptism index23 September1649, OPR690/10/19, FR16; FamilySearch VQ4K-FWL agrees on1649",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:VQ4K-FWL"
+        },
+        {
+          "title": "William christened24 December1609, fatherJhone, Mid Calder, OPR694/10/15; FamilySearch X1B2-3LV",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:X1B2-3LV"
+        },
+        {
+          "title": "Mid Calder OPR694/10/94, Johne and Issobel, fatherWilliam,3 February1648; reported entry, original uninspected",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:X1BV-Z9H"
+        }
+      ],
+      "detail_url": "/people/record-queue-early-scotland-1650-walter-buried-1647.html",
+      "provenance": [
+        "research/queue-review-2026-10-17/catalogue-integration.json",
+        "research/Glasgow-1087/findings.md",
+        "research/Glasgow-1554/findings.md"
+      ]
     }
   ]
 }

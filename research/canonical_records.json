@@ -4757,5 +4757,73 @@
       }
     },
     "status": "Maintained reading reused for the 17 October 2026 review; no new original inspection."
+  },
+  {
+    "record_id": "leithford-walter-burial-1647",
+    "association": "Findmypast/Scottish Genealogy Society, Walter Glasgow, burial4 June1647, Leithford, son to William Glasgow, OPR689/20",
+    "date": "1647-06-04",
+    "year": 1647,
+    "place": "Leithford",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1625437",
+    "status": "reported",
+    "note": "Previously inspected provider transcript/index reading reused. Original register uninspected; disputed baptism years retained. Names in these records do not by themselves identify the father across parishes.",
+    "role": "Source-specific family occurrence",
+    "profiles": {
+      "record-queue-early-scotland-1650-walter-buried-1647": {
+        "role": "record subject",
+        "status": "reported"
+      }
+    }
+  },
+  {
+    "record_id": "leithford-walter-baptism-disputed-year",
+    "association": "Findmypast/SGS baptism23 September1647, Walter Glasgow, fatherWilliam, Leithford, OPR689/20; maintained transcript reopened15 October2026",
+    "date": null,
+    "year": null,
+    "place": "Leithford",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4473489",
+    "status": "reported",
+    "note": "Previously inspected provider transcript/index reading reused. Original register uninspected; disputed baptism years retained. Names in these records do not by themselves identify the father across parishes.",
+    "role": "Source-specific family occurrence",
+    "profiles": {
+      "Glasgow-1554": {
+        "role": "record subject",
+        "status": "reported"
+      }
+    }
+  },
+  {
+    "record_id": "midcalder-william-baptism-1609",
+    "association": "William christened24 December1609, fatherJhone, Mid Calder, OPR694/10/15; FamilySearch X1B2-3LV",
+    "date": null,
+    "year": null,
+    "place": "Mid Calder",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:X1B2-3LV",
+    "status": "reported",
+    "note": "Previously inspected provider transcript/index reading reused. Original register uninspected; disputed baptism years retained. Names in these records do not by themselves identify the father across parishes.",
+    "role": "Source-specific family occurrence",
+    "profiles": {
+      "Glasgow-1087": {
+        "role": "record subject",
+        "status": "reported"
+      }
+    }
+  },
+  {
+    "record_id": "edinburgh-euphame-index-1634",
+    "association": "Euphame, 30 March 1634, Edinburgh OPR 685/1,40/202,FR1037; supplied index names Johnne Glasgow and Jonet Moriell",
+    "date": "1634-03-30",
+    "year": 1634,
+    "place": "Edinburgh",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:X1Y9-V87",
+    "status": "reported",
+    "note": "Supplied ScotlandsPeople/FamilySearch index reused; original uninspected. Recorded Glasgow spelling retained. Identification of the father with the Glassford/Murriell slater household is inferred; no general surname-variant bridge is asserted.",
+    "role": "Indexed child and named parents",
+    "profiles": {
+      "Glasgow-1167": {
+        "role": "indexed child",
+        "status": "reported"
+      }
+    }
   }
 ]

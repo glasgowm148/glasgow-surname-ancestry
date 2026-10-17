@@ -2136,6 +2136,7 @@ _LEGACY_ANCHORS = (
     ("research-note-7c611d6cb679", ("research-note-3ae1f9ef708b",)),
     # John-3927's dated newspaper assessment replaced a second overall conclusion.
     ("research-note-6a79d73e7b23", ("research-note-0fc2075e9901",)),
+    ("research-note-bc1eb7d92ddb", ("research-note-ed922f7cb83d",)),
 )
 
 

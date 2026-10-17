@@ -3875,6 +3875,46 @@
         ],
         "interpretation": "One conditional paternal connection between retained profile accounts. Its 18% assessment is separate from the connectivity percentage. Saltmarket status calibration reduces confident totals independently and is not a new genealogical connection."
       }
+    },
+    {
+      "id": "leithford-walter-1647-working-father",
+      "year": 1647,
+      "title": "Walter’s burial joins the Leithford William family",
+      "status": "New probable working father,68%; source verification on HOLD",
+      "people": [
+        {
+          "name": "Walter Glasgow of Leithford, buried in 1647",
+          "url": "/people/record-queue-early-scotland-1650-walter-buried-1647.html"
+        },
+        {
+          "name": "William Glasgow",
+          "url": "/people/glasgow-1087.html"
+        }
+      ],
+      "basis": "The burial transcript explicitly names father William. The later Walter’s baptism names William at the same Leithford residence and register, supporting one household and reuse of the name after the June 1647 burial. William-1087’s 1609 Mid Calder childhood and possible 1648 fatherhood make him the preferred existing identity, at 68%. The exact-locality household link is stronger than county-level alternatives, but the cross-parish adult identity remains inferred. Another William of Leithford is the principal rival. No mother, age, exact death date or identity merge is inferred; retain both 1647/1649 baptism readings and the source-verification hold.",
+      "next_test": "Inspect OPR689/20 and690/10/19 year headings; compare the1647 burial and disputed September1647/1649 baptism before live profile creation or merging accounts.",
+      "sources": [
+        {
+          "label": "Findmypast/SGS,Leithford burial4June1647,OPR689/20",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1625437"
+        },
+        {
+          "label": "The two Walter readings",
+          "url": "/people/glasgow-1554.html#research-findings"
+        }
+      ],
+      "record_references": [
+        "OPR689/20,burial4June1647",
+        "OPR689/20,baptism23September1647 versus690/10/19,23September1649",
+        "MidCalder694/10/15,William24December1609"
+      ],
+      "counted_as_new_connection": true,
+      "reviewed": "2026-10-17",
+      "working_selection": true,
+      "assertion_ids": [
+        "C-working-20261017-leithford-walter-william1087-father"
+      ],
+      "metric_note": "One existing burial-defined account joins the paternal tree conditionally; no new distinct person, mother, merge or confident father is asserted."
     }
   ],
   "source_basis": "Initial priorities reconcile existing medieval bridge research, the pre-1550 relationship audit and the resolved public catalogue. They are current working comparisons, not newly discovered kinship records."

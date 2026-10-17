@@ -12,7 +12,7 @@ Reviewed: 17 October 2026. This is a local draft; no live profile has been creat
 - **Birthplace:** Leithford, Kirknewton/East Calder, Scotland (uncertain inference from burial residence, not proved birthplace)
 - **Death:** On or before 4 June 1647; no exact death day
 - **Burial:** 4 June 1647, Kirknewton/East Calder; residence Leithford
-- **Father:** William Glasgow, directly indexed; Glasgow-1087 is a possible adult identity
+- **Father:** William Glasgow, directly indexed; Glasgow-1087 is the probable adult identity at68%, with source verification still on HOLD
 - **Mother:** Unknown
 
 ## Duplicate audit
@@ -29,6 +29,14 @@ Walter Glasgow was indexed as buried on 4 June 1647 in the Kirknewton/East Calde
 == Research Notes ==
 The burial precedes both proposed 23 September 1647/1649 baptism dates for Glasgow-1554. It cannot be assigned to that later-born/baptised child on the current chronology. Reuse of the name within one family is possible, but the adult father’s identity and relationship between the two Walters remain unproved.
 Inspect OPR 689/20 for the burial and both baptism readings; verify any year heading or transcription error before treating the two Walters as proved siblings or creating a new person.
+
+=== Preferred father and the two Walters — 17 October 2026 ===
+
+[[Glasgow-1087|William Glasgow]] is the selected probable father, at 68% subjective confidence. The transcript’s explicit William father role is assessed at 98%; the same-father Leithford household comparison with the later [[Glasgow-1554|Walter]] is 84%. The 68% identification with the Mid Calder man is a separate, weaker inference; these figures are not independent probabilities. No mother is assigned.
+
+The burial and later baptism name William and the exact Leithford residence, with the same register reference. The later baptism follows the burial under either disputed year, consistent with reuse of a dead child’s name. Another William of Leithford remains the principal alternative; William-3517 and William-1556 lack this local household chain, while the older Leith mealmaker William-3075 is weaker geographically, not excluded solely because he died before the burial.
+
+The two Walters remain separate record accounts pending original-year verification. This source-verification HOLD remains in force; no live creation, merge, exact death date or infant age follows.<ref>Findmypast/SGS, Walter Glasgow burial, 4 June 1647, Leithford, OPR 689/20, https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1625437; Walter Glasgow baptism indexed 23 September 1647, same residence/reference, https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4473489. Supplied ScotlandsPeople OPR 690/10/19 and FamilySearch https://www.familysearch.org/ark:/61903/1:1:VQ4K-FWL instead give 23 September 1649. William’s Mid Calder christening, 24 December 1609, OPR 694/10/15: https://www.familysearch.org/ark:/61903/1:1:X1B2-3LV. Maintained provider readings reused; originals not inspected in this review.</ref>
 
 == Sources ==
 <references />

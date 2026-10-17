@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "reviewed": "2026-10-17",
+  "profiles": {
+    "Glasgow-1087": {
+      "current_sha256": "88de76f4488ee106190164e1af64738ecfb810ad4ffdc0020675fe08bd9bcc35",
+      "proposed_sha256": "341a88829e2f0d9cbb0ef5385c72847a61e16a477fbc2f6ece97880fcddab96c",
+      "all_substantive_passages_accounted_for": true,
+      "preserved": "The entire effective prior replacement is retained verbatim. One dated source-backed family hypothesis is added before Sources; no historical passages, people or citations removed.",
+      "prior_replacement_sha256": "43bafa8c3103a4abcc4e9fa2d19a5072440589bb7ed50e48b5e7384a2519011e"
+    },
+    "Glasgow-1554": {
+      "current_sha256": "e4c2c0c1cbba152301ccb0c2e010c16250d7dfc82730f0087dc63d7c8f982514",
+      "proposed_sha256": "b19ad21816770b67a876d444edb5c495b6814efcf1e7eff9608d25a6ad8d8fbc",
+      "all_substantive_passages_accounted_for": true,
+      "preserved": "The entire effective prior replacement is retained verbatim. One dated source-backed family hypothesis is added before Sources; no historical passages, people or citations removed.",
+      "prior_replacement_sha256": "e4c2c0c1cbba152301ccb0c2e010c16250d7dfc82730f0087dc63d7c8f982514"
+    }
+  },
+  "formatting_note": "Entire effective prior replacement texts are retained, including inherited end-of-line formatting; the dated Leithford note is additive."
+}
