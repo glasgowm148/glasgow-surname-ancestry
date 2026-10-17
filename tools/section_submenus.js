@@ -52,6 +52,17 @@
     // Keep initialization single so it cannot append duplicate rail navigation.
     if (rail.dataset.sectionSubmenusReady === 'true') return;
     rail.dataset.sectionSubmenusReady = 'true';
+    // Keep older generated readers discoverable without a full catalogue rebuild.
+    const drawer = rail.closest('.g-rail');
+    if (drawer && !drawer.querySelector('a[href="/sitemap/"]')) {
+      const link = document.createElement('a');
+      link.href = '/sitemap/';
+      link.className = 'g-sitemap-link';
+      link.textContent = 'Site map';
+      const utility = drawer.querySelector('.g-rail-bottom,.repair-quick-links');
+      if (utility) utility.prepend(link);
+      else rail.after(link);
+    }
     const mobileNav = mobileNavigation(rail);
     const primary = [...rail.querySelectorAll(':scope > .g-nav-link')];
     const clean = path => path.replace(/index\.html$/, '').replace(/\/$/, '') || '/';
@@ -60,7 +71,7 @@
       [/^\/latest-findings(\/|$)/, '/latest-findings/'],
       [/^\/(sources|records|research\/transcriptions)(\/|$)/, '/sources/'],
       [/^\/(research|sources|records|events|free-space|compare|connections|candidate-matches)(\/|$)/, '/research/'],
-      [/^\/(about|evidence|resources|coverage|statistics|data|changes|privacy|feedback|status)(\/|$)/, '/about/'],
+      [/^\/(about|evidence|resources|coverage|statistics|data|changes|privacy|feedback|status|sitemap)(\/|$)/, '/about/'],
       [/^\/(branches|places)(\/|$)/, '/branches/'],
       [/^\/(catalogue|people|early-records)(\/|\.|$)/, '/catalogue/'],
       // Timeline is part of the Y-DNA section; Map is part of the Atlas.

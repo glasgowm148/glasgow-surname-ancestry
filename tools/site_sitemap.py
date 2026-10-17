@@ -8,6 +8,8 @@ that the underlying research changed.
 from __future__ import annotations
 
 from datetime import date
+import hashlib
+from html import escape, unescape
 from html.parser import HTMLParser
 import json
 import os
@@ -38,6 +40,139 @@ EXCLUDED_PREFIXES = {
     "/research/queue/": "research workroom: leads, not findings",
     "/candidate-matches/": "research workroom: ranked leads, not findings",
 }
+
+READER_GROUPS = (
+    ("people", "People and catalogue", ("catalogue", "people", "early-records")),
+    ("families", "Families and places", ("branches", "places")),
+    ("tree", "Family tree and DNA", ("onetree", "map", "dna", "ydna", "timeline", "connections")),
+    ("sources", "Records and sources", ("sources", "records", "research/transcriptions")),
+    ("research", "Research and findings", ("research", "latest-findings", "free-space", "compare", "candidate-matches")),
+    ("about", "About and help", ()),
+)
+
+
+def reader_group(route):
+    for key, _, roots in READER_GROUPS:
+        if any(route == "/" + root + "/" or route.startswith("/" + root + "/") for root in roots):
+            return key
+    return "about"
+
+
+def directory_route(route):
+    """Individual entities remain in their existing complete public directories."""
+    if re.fullmatch(r"/people/[^/]+\.html|/places/[^/]+\.html|/sources/s-[a-f0-9]{16}/", route):
+        return False
+    if re.search(r"/(?:page/\d+/|page-\d+\.html)$", route):
+        return False
+    return route != "/sitemap/"
+
+
+def reader_pages(site_root, entries):
+    """Use approved XML readers plus explicitly published public workrooms.
+
+    Search-engine exclusion is not a reason to hide a public research tool from
+    readers. Private/unlisted files are never discovered by crawling here.
+    """
+    routes = set(entries)
+    registered = {row[1]: row for row in PUBLIC_ROUTES}
+    for candidate in registered:
+        if candidate.startswith(tuple(EXCLUDED_PREFIXES)):
+            result = safe_route(candidate, site_root)
+            if result:
+                routes.add(result[0])
+    rows = []
+    for route in sorted(routes):
+        if not directory_route(route):
+            continue
+        if route in registered:
+            title, _, _, description, _ = registered[route]
+        else:
+            _, path = safe_route(route, site_root)
+            with path.open() as handle:
+                head = handle.read(65_536).split("</head>", 1)[0]
+            match = re.search(r"<title\b[^>]*>(.*?)</title>", head, re.I | re.S)
+            title = unescape(re.sub(r"<[^>]+>", "", match[1])) if match else route.strip("/").replace("-", " ")
+            title = re.sub(r"\s*[·|]\s*(?:The )?Glasgow Surname Project\s*$", "", title, flags=re.I)
+            description = ""
+        rows.append(dict(url=route, title=" ".join(title.split()), description=description, group=reader_group(route)))
+    return sorted(rows, key=lambda row: (row["title"].casefold(), row["url"]))
+
+
+def build_reader_sitemap(site_root, entries):
+    """Render a searchable human directory from the same publication boundary."""
+    site_root = Path(site_root)
+    rows = reader_pages(site_root, entries)
+    cards = []
+    for label, url in (
+        ("People", "/catalogue/"),
+        ("Places", "/places/"),
+        ("Source references", "/sources/browse/"),
+    ):
+        target = safe_route(url, site_root)
+        if target:
+            cards.append(f'<a href="{escape(target[0])}"><strong>{label}</strong><small>Browse the complete directory →</small></a>')
+    sections = []
+    jumps = []
+    for key, title, _ in READER_GROUPS:
+        members = [row for row in rows if row["group"] == key]
+        if not members:
+            continue
+        jumps.append(f'<a href="#{key}">{escape(title)}</a>')
+        links = []
+        for row in members:
+            description = f'<small>{escape(row["description"])}</small>' if row["description"] else ""
+            links.append(f'<li><a href="{escape(row["url"], quote=True)}">{escape(row["title"])}</a>{description}</li>')
+        sections.append(f'<section class="sitemap-group" id="{key}"><h2>{escape(title)} <small>({len(members):,})</small></h2>'
+                        f'<details><summary>Browse {len(members):,} pages</summary><ul>{"".join(links)}</ul></details></section>')
+    assets = {}
+    for extension in ("css", "js"):
+        content = (ROOT / "tools/site_sources" / f"sitemap.{extension}").read_text()
+        target = site_root / "assets/unified" / f"sitemap.{extension}"
+        target.parent.mkdir(parents=True, exist_ok=True)
+        if not target.exists() or target.read_text() != content:
+            target.write_text(content)
+        assets[extension] = "/assets/unified/" + target.name + "?v=" + hashlib.sha256(content.encode()).hexdigest()[:10]
+    body = ('<main id="main" class="sitemap-main"><header><p class="kicker">Explore the project</p><h1>Site map</h1>'
+            '<p>Find family studies, historical records and research tools. '
+            '<a href="/catalogue/">The research catalogue</a> brings together people, evidence, relationships and proposed WikiTree updates.</p></header>'
+            '<p class="sitemap-work"><a href="/catalogue/?needsUpdate=1#catalogue-filters">WikiTree updates</a> · '
+            '<a href="/catalogue/?missingProfile=1#catalogue-filters">No WikiTree link</a> · '
+            '<a href="/catalogue/#research-queue">Held and pending research</a></p>'
+            f'<div class="sitemap-directories">{"".join(cards)}</div>'
+            '<p>Individual people, places and source references are listed in the complete directories above. '
+            'The sections below link to the site’s guides, studies and tools.</p>'
+            f'<nav class="sitemap-jumps" aria-label="Site map sections">{"".join(jumps)}</nav>'
+            '<div class="sitemap-search" hidden><label for="sitemap-search">Find a page</label>'
+            '<input type="search" id="sitemap-search" placeholder="Try Scottish families, wills or confidence…" autocomplete="off">'
+            f'<p id="sitemap-count" role="status">{len(rows):,} pages</p></div>'
+            f'{"".join(sections)}<p id="sitemap-empty" hidden>No pages match. Try another name or topic.</p>'
+            '<p class="sitemap-footer"><a href="/sitemap.xml">XML sitemap</a> · '
+            '<a href="/feedback/">Report a missing page or broken link</a></p></main>')
+    page = ('<!doctype html><html lang="en"><head><meta charset="utf-8">'
+            '<meta name="viewport" content="width=device-width,initial-scale=1"><title>Site map · Glasgow Surname Project</title>'
+            f'<link rel="canonical" href="{SITE_URL}/sitemap/">'
+            f'<link rel="stylesheet" href="{assets["css"]}"></head><body>{body}'
+            f'<script src="{assets["js"]}" defer></script></body></html>')
+    if (site_root / "resources/index.html").is_file():
+        from tools.repair_primary_navigation import repair_reader_shell_page, repair_site_identity_page, repair_nav_only_page
+        relative = Path("sitemap/index.html")
+        page = repair_reader_shell_page(page, relative, (site_root / "resources/index.html").read_text())
+        page = repair_site_identity_page(page, relative)
+        page = repair_nav_only_page(page, relative)
+    path = site_root / "sitemap/index.html"
+    # A targeted build can follow a shared-search update without a site-wide
+    # finalizer. Stamp this reader against the actual local assets as well.
+    from tools.stamp_asset_versions import VERSIONED_ASSET, asset_path, content_hash
+    def version(match):
+        target = asset_path(site_root, path, match["url"])
+        if target is None or not target.is_file():
+            return match[0]
+        return f'{match["quote"]}{match["url"]}?v={content_hash(target)}{match["quote"]}'
+    page = VERSIONED_ASSET.sub(version, page)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    if not path.exists() or path.read_text() != page:
+        path.write_text(page)
+    return len(rows)
 
 
 def source_browse_pages(site_root):
@@ -188,6 +323,8 @@ def sitemap_entries(site_root=ROOT / "www"):
 def build_sitemap(site_root=ROOT / "www") -> dict[str, int]:
     site_root = Path(site_root)
     entries = sitemap_entries(site_root)
+    reader_count = build_reader_sitemap(site_root, entries)
+    entries["/sitemap/"] = None
     ET.register_namespace("", NAMESPACE)
     urlset = ET.Element(f"{{{NAMESPACE}}}urlset")
     for route, modified in sorted(entries.items()):
@@ -200,7 +337,7 @@ def build_sitemap(site_root=ROOT / "www") -> dict[str, int]:
     path = site_root / "sitemap.xml"
     if not path.exists() or path.read_text() != content:
         path.write_text(content)
-    return {"sitemap_urls": len(entries)}
+    return {"sitemap_urls": len(entries), "sitemap_reader_pages": reader_count}
 
 
 if __name__ == "__main__":

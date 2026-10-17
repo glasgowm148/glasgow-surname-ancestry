@@ -1,11 +1,12 @@
 """Sitemap coverage must follow public publication boundaries and clean routes."""
 import json
+import hashlib
 from pathlib import Path
 import tempfile
 import unittest
 import xml.etree.ElementTree as ET
 
-from tools.site_sitemap import build_sitemap, safe_route, sitemap_entries
+from tools.site_sitemap import build_sitemap, safe_route, sitemap_entries, reader_pages
 
 
 class SitemapTests(unittest.TestCase):
@@ -65,7 +66,12 @@ class SitemapTests(unittest.TestCase):
             self.assertEqual(entries["/research/dated/"], "2026-01-02")
             self.assertIsNone(entries["/research/future/"])
             self.assertIsNone(entries["/"])
-            self.assertEqual(build_sitemap(site)["sitemap_urls"], len(entries))
+            self.assertEqual(build_sitemap(site)["sitemap_urls"], len(entries) + 1)
+            reader = (site / "sitemap/index.html").read_text()
+            self.assertIn('href="/branches/public-family/"', reader)
+            self.assertIn('href="/free-space/approved-study/"', reader)
+            for fragment in ("living-1", "private-1", "unlisted-1", "noindex", "private/notes"):
+                self.assertNotIn(fragment, reader)
             first = (site / "sitemap.xml").read_bytes()
             build_sitemap(site)
             self.assertEqual(first, (site / "sitemap.xml").read_bytes())
@@ -73,6 +79,52 @@ class SitemapTests(unittest.TestCase):
             urls = [node.text for node in parsed.findall("{*}url/{*}loc")]
             self.assertEqual(len(urls), len(set(urls)))
             self.assertFalse(any(url.endswith("index.html") for url in urls))
+            self.assertIn("https://glasgow.phenotype.dev/sitemap/", urls)
+
+    def test_reader_directory_reuses_public_indexes_and_exposes_public_workrooms(self):
+        with tempfile.TemporaryDirectory() as directory:
+            site = Path(directory)
+            def page(route, title="Study", head=""):
+                path = site / route
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_text(f'<html><head><title>{title}</title>{head}</head><body><main>Research</main></body></html>')
+            page("catalogue/index.html")
+            page("research/queue/index.html", head='<meta name="robots" content="noindex">')
+            page("candidate-matches/index.html", head='<meta name="robots" content="noindex">')
+            page("research/hidden/index.html", head='<meta name="robots" content="noindex">')
+            page("research/argument/index.html", "A &amp; B &lt;script&gt; · Glasgow Surname Project")
+            page("onetree/progress/index.html")
+            page("resources/index.html")
+            asset = site / "assets/unified/site.js"
+            asset.parent.mkdir(parents=True)
+            asset.write_text("/* current shared search */")
+            template = site / "resources/index.html"
+            template.write_text(template.read_text().replace('</head>', '<script src="/assets/unified/site.js?v=old" defer></script></head>'))
+            page("people/public-1.html")
+            page("people/living-1.html")
+            (site / "data").mkdir()
+            (site / "data/people-index.json").write_text(json.dumps([
+                {"html_url": "/people/public-1.html"},
+                {"html_url": "/people/living-1.html", "living": True},
+            ]))
+            entries = sitemap_entries(site)
+            self.assertNotIn("/research/queue/", entries)
+            rows = reader_pages(site, entries)
+            routes = {row["url"] for row in rows}
+            self.assertIn("/research/queue/", routes)
+            self.assertIn("/candidate-matches/", routes)
+            self.assertIn("/onetree/progress/", routes)
+            self.assertNotIn("/research/hidden/", routes)
+            self.assertNotIn("/people/public-1.html", routes)
+            build_sitemap(site)
+            first = (site / "sitemap/index.html").read_bytes()
+            self.assertIn(b'A &amp; B &lt;script&gt;', first)
+            self.assertIn(b'<a href="/catalogue/"><strong>People</strong>', first)
+            self.assertNotIn(b'living-1', first)
+            self.assertNotIn(b'A & B <script>', first)
+            self.assertIn(f'/assets/unified/site.js?v={hashlib.sha256(asset.read_bytes()).hexdigest()[:10]}'.encode(), first)
+            build_sitemap(site)
+            self.assertEqual(first, (site / "sitemap/index.html").read_bytes())
 
     def test_external_symlink_and_nonreader_artifacts_are_refused(self):
         with tempfile.TemporaryDirectory() as directory:

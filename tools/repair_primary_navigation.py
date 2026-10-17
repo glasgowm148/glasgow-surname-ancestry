@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Render the shared primary rail and retain older page repairs."""
 import argparse
+import hashlib
 from collections import Counter
 from pathlib import Path
 import re
@@ -89,7 +90,7 @@ SECTION_SUBMENU_ITEMS = {
 SECTION_ROOTS = {
     'about': '/about/', 'changes': '/about/', 'coverage': '/about/', 'data': '/about/',
     'evidence': '/about/', 'feedback': '/about/', 'privacy': '/about/', 'resources': '/about/',
-    'statistics': '/about/', 'status': '/about/',
+    'statistics': '/about/', 'status': '/about/', 'sitemap': '/about/',
     'branches': '/branches/',
     'catalogue': '/catalogue/', 'early-records': '/catalogue/', 'people': '/catalogue/',
     'map': '/onetree/', 'onetree': '/onetree/', 'places': '/branches/',
@@ -253,6 +254,7 @@ def is_excluded(path: Path) -> bool:
 
 
 READER_SHELL_ROUTES = {
+    'sitemap/index.html': ('Site map', 'Find sections, family studies, records and research tools in the Glasgow Surname Project.'),
     'catalogue/index.html': ('Find a person', 'Search the Glasgow Surname Project people catalogue and its research filters.'),
     'catalogue.html': ('Find a person', 'Search the Glasgow Surname Project people catalogue and its research filters.'),
     'catalogue/advanced.html': ('Find a person', 'Search the Glasgow Surname Project people catalogue and its research filters.'),
@@ -471,6 +473,8 @@ def reorder_atlas_views(page: str) -> str:
 
 def update_section_submenu_references(page: str) -> str:
     """Use one cache version and one deferred submenu script per rail page."""
+    versions = {ext: hashlib.sha256((Path(__file__).parent / f'section_submenus.{ext}').read_bytes()).hexdigest()[:10]
+                for ext in ('css', 'js')}
     css = re.compile(r'<link\b(?=[^>]*\bhref="[^"]*assets/unified/section-submenus\.css(?:\?[^"]*)?")[^>]*>', re.S)
     script = re.compile(r'<script\b(?=[^>]*\bsrc="[^"]*assets/unified/section-submenus\.js(?:\?[^"]*)?")[^>]*>\s*</script>', re.S)
     found = False
@@ -480,13 +484,13 @@ def update_section_submenu_references(page: str) -> str:
         if found:
             return ''
         found = True
-        return '<link rel="stylesheet" href="/assets/unified/section-submenus.css?v=4">'
+        return f'<link rel="stylesheet" href="/assets/unified/section-submenus.css?v={versions["css"]}">'
 
     page = css.sub(stylesheet, page)
     if not found:
-        page = page.replace('</head>', '<link rel="stylesheet" href="/assets/unified/section-submenus.css?v=4"></head>', 1)
+        page = page.replace('</head>', f'<link rel="stylesheet" href="/assets/unified/section-submenus.css?v={versions["css"]}"></head>', 1)
     page = script.sub('', page)
-    return page.replace('</body>', '<script src="/assets/unified/section-submenus.js?v=4" defer></script></body>', 1)
+    return page.replace('</body>', f'<script src="/assets/unified/section-submenus.js?v={versions["js"]}" defer></script></body>', 1)
 
 
 def repair_nav_only_page(page: str, relative: Path) -> str:

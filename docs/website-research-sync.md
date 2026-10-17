@@ -229,8 +229,8 @@ research section does not replace that integration.
   narrow changes rather than running a broad pipeline unnecessarily.
 
 For a new public route or research type, update maintained navigation, search
-data and the approved sitemap pipeline in `tools/site_sitemap.py`; include the
-forthcoming reader `/sitemap/` when available. Verify discovery links and route
+data and the approved sitemap pipeline in `tools/site_sitemap.py`; refresh the
+reader `/sitemap/`. Verify discovery links and route
 availability rather than assuming an index entry makes a page accessible. Keep
 canonical subject IDs and links stable. Preserve
 useful previous conclusions as explicitly superseded history, not competing

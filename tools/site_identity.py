@@ -167,8 +167,8 @@ def footer_html() -> str:
 
 
 def rail_bottom_html() -> str:
-    """Rail foot: no repeated menu links, just the project line."""
-    return ('<div class="g-rail-bottom"><div class="v3-rail-note">'
+    """Rail foot with the site-wide page directory and project line."""
+    return ('<div class="g-rail-bottom"><a class="g-sitemap-link" href="/sitemap/">Site map</a><div class="v3-rail-note">'
             f'<span>{escape(SITE_NAME)}</span><p>{escape(SITE_RAIL_NOTE)}</p></div></div>')
 
 

@@ -146,6 +146,7 @@ class NavigationTests(unittest.TestCase):
         self.assertNotIn("Glasgow archive", result)
         self.assertNotIn('href="/early-records/">Early records', result)
         self.assertIn('href="/connections/">Find a connection', result)
+        self.assertIn('class="g-sitemap-link" href="/sitemap/">Site map</a>', result)
         self.assertNotIn("Latest research", result)
         self.assertEqual(result, nav.repair_site_identity_page(result, Path("people/glasgow-951.html")))
 
