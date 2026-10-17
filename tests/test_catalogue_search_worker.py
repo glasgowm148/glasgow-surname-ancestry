@@ -13,6 +13,23 @@ ROOT=Path(__file__).parents[1]
 
 
 class CatalogueWorkerParityTests(unittest.TestCase):
+    def test_new_fathers_outrank_existing_parent_confidence_changes(self):
+        source = (ROOT / 'tools/catalogue_search.js').read_text()
+        helper = source[source.index('  const changeBand='):source.index('  const esc=')]
+        helper += source[source.index('  function sortValue('):source.index('  function sortHeader(')]
+        script = helper + '''
+let sortMode='updatePriority:desc';
+const item=(id,action,relationship,status,value,significance)=>({id,_name:id,needs_wikitree_update:true,wikitree_update_significance:significance,
+ wikitree_update_relationship_changes:action?[{action,relationship,status,probability:{value}}]:[]});
+const rows=[item('confidence','regrade','father','proved',.99,100),item('plain',null,null,null,null,96),
+ item('new-probable','add','father','probable',.82,80),item('new-confident','add','father','proved',.96,10),
+ item('new-uncertain','add','father','uncertain',.28,90),item('mother','add','mother','proved',.99,90),
+ item('replacement','replace','father','proved',.98,5)];
+console.log(JSON.stringify(rows.sort((a,b)=>comparePeople(a,b,{})).map(p=>p.id)));
+'''
+        self.assertEqual(json.loads(subprocess.check_output(['node','-e',script],text=True)),
+                         ['replacement','new-confident','new-probable','new-uncertain','mother','plain','confidence'])
+
     def test_exact_values_order_within_one_confidence_band(self):
         source = (ROOT / 'tools/catalogue_search.js').read_text()
         helper = source[source.index('  const changeBand='):source.index('  const esc=')]
@@ -131,11 +148,12 @@ const defaults={query:[],phrase:'',exact:false,name:'',first:'',last:'',lastScop
 const cases=[{q:'glasgow'}, {q:'Alice Yorkshire'}, {q:'register'}, {q:'Glasco',exact:true},
  {gender:'female'}, {sibling:'bob'}, {location:'yorkshire',locationType:'bio'}, {location:'antrim',locationType:'marriage'},
  {excluded:['united states']}, {cluster:'group alpha'}, {flags:{missingFather:true}}, {from:1801,to:1802},
- {father:'father glasgow'}, {last:'glasco',lastScope:'birth'}, {spouse:'jane brown'}, {sourceQuality:'original'}, {changeRelationship:'father',changeConfidence:'confident'}, {changeRelationship:'father',changeAction:'regrade'}, {changeConfidence:'uncertain'}, {changeRelationship:'mother',changeConfidence:'confident'}];
+ {father:'father glasgow'}, {last:'glasco',lastScope:'birth'}, {spouse:'jane brown'}, {sourceQuality:'original'}, {changeRelationship:'father',changeConfidence:'confident'}, {changeRelationship:'father',changeAction:'regrade'}, {changeRelationship:'father',changeAction:'topology'}, {changeConfidence:'uncertain'}, {changeRelationship:'mother',changeConfidence:'confident'}];
 (async()=>{await worker.self.onmessage({data:{type:'load',id:1,url:'fast',advancedUrl:'advanced'}});
  if(responses.get(1).error)throw Error(responses.get(1).error);
+ for(const p of responses.get(1).result){const r=raw.find(r=>r.id===p.id);if(JSON.stringify(p.wikitree_update_relationship_changes)!==JSON.stringify(r.wikitree_update_relationship_changes)||p.needs_wikitree_update!==r.needs_wikitree_update)throw Error('Father totals require metadata for unhydrated rows')}
  let checks=0;
- for(const test of cases)for(const mode of ['relevance','name:desc','birth:asc','spouse:asc','significance:desc','fatherConfidence:desc','changeConfidence:asc']){
+ for(const test of cases)for(const mode of ['relevance','name:desc','birth:asc','spouse:asc','significance:desc','updatePriority:desc','fatherConfidence:desc','changeConfidence:asc']){
   const filters={...defaults,...test,flags:{...test.flags}};
   original.input=test.q||'';original.exact=filters.exact;
   filters.phrase=vm.runInContext('(exact?normaliseLiteral:normalise)(input)',original);
@@ -160,7 +178,7 @@ const cases=[{q:'glasgow'}, {q:'Alice Yorkshire'}, {q:'register'}, {q:'Glasco',e
                            cwd=ROOT,env={**os.environ,'PYTHONHASHSEED':'73'},check=True,capture_output=True)
             self.assertEqual(before,(site/'data/catalogue-search-fast.json').read_bytes(),'Rebuilds must keep content hashes stable across Python processes')
             output=subprocess.check_output(['node','-e',script,str(site),str(baseline_path)],text=True)
-            self.assertEqual(int(output),140)
+            self.assertEqual(int(output),168)
 
 
 if __name__=='__main__':unittest.main()

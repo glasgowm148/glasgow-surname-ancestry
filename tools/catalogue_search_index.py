@@ -26,7 +26,7 @@ const fs=require('node:fs');
 const rows=prepare(JSON.parse(fs.readFileSync(process.argv[1],'utf8')));
 for(const p of rows){
  p._search=[...new Set(p._search.split(' '))].join(' ');
- p._sortValues=Object.fromEntries(['name','birth','death','birthLocation','deathLocation','spouse','father','mother','recorded','cluster','profile','significance','fatherConfidence','changeConfidence'].map(k=>[k,sortValue(p,k)]));
+ p._sortValues=Object.fromEntries(['name','birth','death','birthLocation','deathLocation','spouse','father','mother','recorded','cluster','profile','significance','updatePriority','fatherConfidence','changeConfidence'].map(k=>[k,sortValue(p,k)]));
  p._identityExactTokens=[...p._identityExactTokens];
 }
 process.stdout.write(JSON.stringify(rows));
@@ -51,7 +51,7 @@ process.stdout.write(JSON.stringify(rows));
     compact = [{k:v for k,v in p.items() if k.startswith('_') or k in keep} for p in rows]
     search, location_search = {}, {}
     advanced = []
-    sort_keys = ['name','birth','death','birthLocation','deathLocation','spouse','father','mother','recorded','cluster','profile','significance','fatherConfidence','changeConfidence']
+    sort_keys = ['name','birth','death','birthLocation','deathLocation','spouse','father','mother','recorded','cluster','profile','significance','updatePriority','fatherConfidence','changeConfidence']
     for i, person in enumerate(compact):
         for word in dict.fromkeys(person.pop('_search').split()): search.setdefault(word, []).append(i)
         for word in dict.fromkeys(person['_location'].split()): location_search.setdefault(word, []).append(i)

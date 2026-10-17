@@ -159,7 +159,7 @@ def search_panel_html(cluster_options: str, record_type_options: str, region_opt
         '<option value="">Any relationship change</option><option value="father">Father</option><option value="mother">Mother</option>'
         '<option value="spouse">Spouse</option><option value="child">Child</option><option value="sibling">Sibling</option></select></label>'
         '<label><span>Relationship change</span><select id="catalogue-change-action">'
-        '<option value="">Any change</option><option value="add">New relationship</option><option value="replace">Replaced relationship</option>'
+        '<option value="">Any change</option><option value="topology">New / replaced relative</option><option value="add">New relationship</option><option value="replace">Replaced relationship</option>'
         '<option value="regrade">Confidence changed</option></select></label>'
         '<label><span>New confidence</span><select id="catalogue-change-confidence">'
         '<option value="">Any confidence</option><option value="confident">Confident ·90–99%</option><option value="probable">Probable ·60–89%</option>'
@@ -253,6 +253,8 @@ def apply_layout(page: str) -> str:
     page = page.replace(hero.group(0), hero_html(total), 1)
     page = place_statistics_above_search(page)
     page = compact_statistics(page)
+    page = page.replace('Open significance-ranked table', 'Open priority-ranked table')
+    page = page.replace('profiles ranked by significance, with', 'profiles ranked by update priority, with')
     # The evidence legend follows the shared vocabulary (tools/evidence_labels.py).
     try:
         from build_research_catalog import _catalogue_legend_html

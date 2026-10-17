@@ -11,7 +11,7 @@ self.onmessage=async({data})=>{
   if(data.type==='load'){
    const response=await fetch(data.url);if(!response.ok)throw Error('Search index returned '+response.status);
    const payload=await response.json();if(payload.schema_version!==1||!Array.isArray(payload.rows))throw Error('Invalid search index');
-   search=payload.search;locationSearch=payload.location_search;advancedUrl=data.advancedUrl;people=payload.rows.map(row=>{const p=Object.fromEntries(payload.fields.map((k,i)=>[k,unpack(row[i],payload.strings)]));p._identityExactTokens=new Set(p._identityExactTokens);p._sortValues=Object.fromEntries(payload.sort_keys.map((k,i)=>[k,p._sortValues[i]]));return p});result=people.map(p=>({id:p.id,name:p.name,_name:p._name,_detailShard:p._detailShard}));
+   search=payload.search;locationSearch=payload.location_search;advancedUrl=data.advancedUrl;people=payload.rows.map(row=>{const p=Object.fromEntries(payload.fields.map((k,i)=>[k,unpack(row[i],payload.strings)]));p._identityExactTokens=new Set(p._identityExactTokens);p._sortValues=Object.fromEntries(payload.sort_keys.map((k,i)=>[k,p._sortValues[i]]));return p});result=people.map(p=>({id:p.id,name:p.name,_name:p._name,_detailShard:p._detailShard,needs_wikitree_update:p.needs_wikitree_update,wikitree_update_relationship_changes:p.wikitree_update_relationship_changes}));
   }else if(data.type==='filter'){sortMode=data.sortMode||'name:asc';const filters=data.filters;
    if(filters.location||filters.excluded.length||filters.sibling)await advanced();
    const sets=filters.exact?[]:filters.query.map(t=>matching(t,search));

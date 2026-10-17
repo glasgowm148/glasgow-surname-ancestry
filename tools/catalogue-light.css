@@ -345,3 +345,5 @@ html.catalogue-sheet-open{overflow:hidden}
 .catalogue-result-table-wrap{position:relative}
 
 .catalogue-relationship-badge small{font:inherit;white-space:nowrap}.catalogue-probability{display:inline-block;font-size:.72rem;font-weight:700;white-space:nowrap}
+
+.catalogue-father-work{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 18px;margin:10px 0 16px;padding:12px 14px;border:1px solid #b9cbb9;border-left:4px solid #175c3a;border-radius:6px;background:#f2f6ed;color:#203e2e;font-size:.8rem;line-height:1.5}.catalogue-father-work strong{flex-basis:100%}.catalogue-father-work a{color:#175c3a;text-decoration:underline;text-underline-offset:2px}.catalogue-father-work a:hover,.catalogue-father-work a:focus-visible{color:#102c20;text-decoration-thickness:2px}
