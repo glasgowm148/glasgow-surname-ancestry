@@ -61,3 +61,10 @@ Margaret's baptism at Glasgow High Kirk on 6 May 1610 names John Bornes and Davi
 The profile material gives two transposed dates for her marriage to [James Stewart (Stewart-62608)](https://www.wikitree.com/wiki/Stewart-62608): 7 April 1632 in the structured field and 4 July 1632 in the biography, both attributed to Glasgow OPR 644/1, reference 230/109. Neither date should be treated as settled until the register entry is read. The 1633 burgess admission above proves the marriage itself.
 
 Recorded in `research/Glasgow-1100/Glasgow-1100.md` (legacy draft, last committed 7 September 2026); carried into this file on 7 October 2026.
+
+<!-- findmypast-studies-sweep-2026-10-07 pre1600-pass2 -->
+## Second pre-1610 pass (2026-10-07): citation fixes
+
+- Vol. IX of Renwick's protocols is Archibald Hegate's, not "Henry Gibsone's".
+- "No. 2921" (p.103) and "No. 2932" (p.107) should be **2903** and **2916**.
+- "Vol XI, Protocol No. 3453, 13 Nov 1598" should be **3492**.

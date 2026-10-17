@@ -196,6 +196,12 @@ OCR- and snippet-level negatives only; the underlying manuscripts were not read.
 
 Recorded in `research/pre-1700-2026-09-30/scottish/search-handoff.md` (30 September 2026); carried into this file on 7 October 2026.
 
+<!-- findmypast-studies-sweep-2026-10-07 pre1600-pass2 -->
+## Second pre-1610 pass (2026-10-07)
+
+- Renwick, *Abstracts of Protocols of the Town Clerks of Glasgow* XI 3700 (16 Sep 1600): "the lands of q. William Glasgu on the west" of the Patersone fore tenement, north side of the Briggate. Not yet captured. Which William is meant is not proved; [[Glasgow-3522]] is another candidate.
+- Citation fix: the research brief cites "vol. 5, protocols 1611 and 1724–1725" (the Howe men). They are in **vol. VI**.
+
 
 ## Working family extension — 15 October 2026
 

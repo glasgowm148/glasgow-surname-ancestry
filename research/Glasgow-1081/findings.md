@@ -140,6 +140,17 @@ In the printed General Synod rolls the ruling elder on the Larne minister's row 
 
 The ruling elder James Glasgow printed in the Antrim lists in 1698, 1703 and 1705 sat beside the ministers of Drumaul and Duneane, not Larne, and is represented separately as Glasgow-3967; he is probably not this James.
 
+<!-- findmypast-studies-sweep-2026-10-07 pre1600-pass4 -->
+## Fourth pass (2026-10-15): Dobson, *Scots-Irish Links 1575–1725* Pt 4 p.36
+
+Read from the Findmypast page transcript `US/GPC/TRANSATLANTICMIGRATION/9780806352565/00040`. Neither entry is in the corpus yet; how they link to this James is not established.
+- "GLASGOW, JAMES, in the Barony of Glenarm, 1650s." [NAS GD154/512, GD154/525]. Dobson's entry shows that GD154/525, so far only listed as an archive target, names a Glasgow. This is the earliest Glenarm/Kilwaughter-area Glasgow found, before the 1669 hearth roll.
+- "GLASGOW, JOHN, witness, Kilwaghter, 1691." [NAS GD154/528/1].
+- Glenarm trade from the same books:
+  - Hugh (Pt 3 p.72, NAS E72/3/3) or John (Pt 4 p.36, NAS E71/3/3) Glasgow, passenger on the *Venture of Glenarm* at Ayr, 30 Oct 1673. The two books disagree on the forename and the reference.
+  - John Glasgow, merchant on the *John of Glenarme* at Irvine, 9 Aug 1682 (Pt 3 p.72, NAS E72/12/5).
+- Follow-ups: NRS GD154/512, /525 and /528/1 (Agnew of Lochnaw papers); E71/3/3, E72/3/3 and E72/12/5 (port books).
+
 ## Larne working family — 16 October 2026
 
 Select Robert Glasgow-1027 and Jonet Cunningham-20923 as the uncertain working father and mother of Robert Glaskow of Larne, Glasgow-3970, through the existing possible identity with their son Robert Glasgow-1078, baptised at Glasgow on 17 November 1618. The 1653 Larne account gives no age or parents, and its before-1625 birth boundary permits the 1618 child; that child would have been about 23 during the alleged 1641 events and 35 in 1653. The Scottish child has no established later fate that excludes this adult account. Choose the already recorded possible identity as the working family explanation, at low confidence. The baptism names both parents, so the maternal selection is assessed from that same explicit child clause, not from a Cunningham surname association in Ulster. Both adult parent links depend on the uncertain identity and remain uncertain; the baptism’s direct parentage must not be transferred as proof of the Larne man’s origins.

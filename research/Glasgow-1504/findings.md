@@ -85,6 +85,11 @@ The reviewed draft reports a James Glasgowe at Altilevelly in Raloo parish on a 
 
 Recorded in `research/Glasgow-1504/Glasgow-1504.md` (undated legacy draft); carried into this file on 7 October 2026.
 
+<!-- findmypast-studies-sweep-2026-10-07 pre1600-pass4 -->
+## Fourth pass (2026-10-15): Irish Prerogative index
+
+- `IRE/DIOC/WILL/00377282` (image IRE/DIOC/007246596/00718) is an undated Prerogative will index entry for William Glasgow of Larne. It names Chas Dawson Stewart and Alexr Holmes. The year needs the image. Not in the corpus; which Larne William it is has not been worked out.
+
 ## Scope of the Larne will-index lead — 17 October 2026
 
 Findmypast entry [IRE/DIOC/WILL/00377282](https://www.findmypast.co.uk/transcript?id=IRE%2FDIOC%2FWILL%2F00377282&tab=this), names **William**, not this James. It is an associated Larne family lead, with the William's identity and date unresolved; it is not a testament or death record assigned to James. No parentage or dates change on that basis.

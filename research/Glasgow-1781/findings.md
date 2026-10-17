@@ -120,6 +120,13 @@ Sources: [Belfast News-Letter, 21 August 1840, p.2](https://www.newspapers.com/i
 - Designated a General Assembly missionary to India by the Presbytery of Belfast, Jan 1842. — Freeman's Journal 14 Jan 1842, image 1050136610 ([Freeman's Journal and Daily Commercial Advertiser, 1842-01-14, p.1](https://www.newspapers.com/image/1050136610/))
 - At Rajkot by 16 May 1842. — Belfast News-Letter 29 Jul 1842, image 390558014 ([Belfast News-Letter, 1842-07-29, p.2](https://www.newspapers.com/image/390558014/))
 
+<!-- findmypast-studies-sweep-2026-10-07 pre1600-pass2 -->
+## Source found (2026-10-07)
+
+- *Memoirs of the Fultons of Lisburn* (1903) p.35: "Jane, bap. 3rd October 1822; m., 1842 or 1843, Adam Glasgow, and emigrated to New Zealand". She was the daughter of Francis Abbott Thompson of Lisburn and Jane Fulton.
+- The same page says that as a widow she lived in Dunedin with her unmarried daughter Frances. Her elder son William was "formerly Secretary to Government, now Inspector of Customs" in Wellington, and her younger son James was a banker.
+- Conflicts to resolve: the 30 Dec 1841 marriage notice, and the New Zealand emigration against the India-mission context.
+
 <!-- queue-record-integration-2026-10-17:start -->
 ## Record findings and identity limits — 17 October 2026
 

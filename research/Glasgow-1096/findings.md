@@ -154,6 +154,28 @@ Glasgow-3919 was merged into this profile as the leading identity of Robert Glas
 
 Find a deed or other contemporary entry that names the Kilbride occupier with Margaret Rowand, his fisher trade, or the Glasgow tenement. The old Kilbride profile's about-1560 birth was only an adult-status estimate, not a separate birth record.
 
+<!-- findmypast-studies-sweep-2026-10-07 pre1600-recheck -->
+## Citation check (2026-10-07)
+
+- The research brief and the live biography quote "an annual rent of 20 shillings from the property of James Young … lands of the late William Glasgow on the south" as *Liber Protocollorum M. Cuthberti Simonis* vol. II p.87. That is wrong:
+  - Vol. II p.87 is protocols 112–113 of 1505.
+  - Vol. II ends in 1513 and never mentions Young.
+- The same file labels Renwick's *Abstracts of Protocols of the Town Clerks of Glasgow* (archive.org `abstractsprotoc08robegoog`) as "Liber protocollorum Vol. II, Record 1058".
+- The clause almost certainly comes from Renwick. Re-verify it there and correct the citation; the claim itself is not disputed.
+
+<!-- findmypast-studies-sweep-2026-10-07 pre1600-pass2 -->
+## Second pre-1610 pass (2026-10-07)
+
+These Robert Glasgw entries in Renwick, *Abstracts of Protocols of the Town Clerks of Glasgow* are not yet captured. Which entries are this Robert and which are Robert, fisher (father of Ninian, [[Glasgow-3188]]) is not proved.
+- II 545 (18 Apr 1560): "the lands of Robert Glesgw on the north" of Archinbald Lyoune's two-booth tenement.
+- V 1363 (19 Apr 1560): "of Robert Glasgw on the south … the lands of John Glasgw on the west" (Dunlop back tenement).
+- Witness: III 785 (21 Apr 1564); IV 1009 (21 Nov 1569); V 1431 (1 May 1562), 1454 (18 Mar 1562-3), 1574–1575 (28 Nov 1567), 1599 (7 Sep 1568).
+- **IV 1048 (30 Oct 1575): Robert Glesgw holds a tack of the Burrowfeild lands. This shows he was alive in Oct 1575.**
+- **VIII 2509 (11 May 1583): "the lands sometime of Robert Glasgu on the north", north side of the Bridgegait.**
+- Burgh accounts 1573–4 (*Extracts from the Records of the Burgh of Glasgow* I p.463): the treasurer is discharged "as restand and nocht in vse of payment of Robert Glasgw tenement".
+
+**Citation fix.** evidence_index cites "Vol. I, Record 1058". Protocol 1058 is in **vol. IV** (Michael Fleming appendix).
+
 ## Marion and Ninian: family-role correction — 16 October 2026
 
 Ninian’s 1613 testament calls Marioun Glasgow his sister. The 1596 burgess roll names Ninian as Robert Glasgow’s second son. The combined statements, shared surname and compatible chronology support Robert as Marion’s confidently inferred father. This was already the approved conclusion on 28 September 2026; the current correction retires an erroneous Ninian-as-father rendering and restores the documented sibling role. No new record or certainty upgrade is claimed.

@@ -184,6 +184,21 @@ Next records: first, read the GD20/1/512 catalogue entry itself and copy its exa
 
 Recorded in `archive/dump/TheGlasgows.md` (undated Checkvist notes; the same text is in `archive/dump/checkvistExport.md`); carried into this file on 7 October 2026.
 
+<!-- findmypast-studies-sweep-2026-10-07 pre1600-recheck -->
+## Glasgow burgess roll (2026-10-07)
+
+- **New:** "Mr John Glasgow, minister at Kilbirnie" was admitted burgess and guild brother of Glasgow gratis in 1705, probably 9 Jan. Source: *Burgesses & Guild Brethren of Glasgow 1573–1750* (SRS vol. 43, 1925) p.260 (https://archive.org/details/scottishrecordso43scotuoft), and Findmypast index `SCOT/BURGESS/0025939`.
+
+<!-- findmypast-studies-sweep-2026-10-07 pre1600-pass2 -->
+## Second pre-1610 pass (2026-10-07)
+
+- "Joannes Glasgow" signed for chamber keys at Glasgow College some time after June 1649 (*Munimenta* III p.540). Assignment to this John is not proved.
+
+<!-- findmypast-studies-sweep-2026-10-07 to1650-pass5 -->
+## 1610–1650 sweep (2026-10-15)
+
+- Joannes Glasgow's chamber-key receipt (*Munimenta* III p.540) falls between receipts of 14 May and 26 Dec 1649, so it can be dated to 1649.
+
 ## Kilbirnie working-family selection — 16 October 2026
 
 Select Glasgow-1604 as the uncertain working father of Rev. Glasgow-1073. The minister’s approximate 1653 birth fits an approximate 1626 father generation, and his Kilbirnie ministry and Robertland-Cunningham marriage belong to the Ayrshire setting of the Kilwinning profile. This adopts the leading existing-profile comparison already recorded in the research. Glasgow-1604’s attached adult sons have Kilwinning and Ayr households, making this a more economical local family placement than importing the minister into Glasgow-1078’s Glasgow-city household. No inspected record names the minister’s father; the preference rests on generation and locality, with low confidence.

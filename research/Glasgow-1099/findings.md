@@ -76,6 +76,19 @@ The entry gives no description of George. Its attribution to this George is **po
 
 Recorded in `archive/dump/TheGlasgows.md` (Checkvist export, 10 March 2025); carried into this file on 7 October 2026.
 
+<!-- findmypast-studies-sweep-2026-10-07 pre1600-pass2 -->
+## Second pre-1610 pass (2026-10-07)
+
+- **Privy Council, 1606.** *RPC* VII p.648 (Acta Caut.): a band subscribed at Glasgow on 13 Aug [1606] makes "George Glasgow, merchant, burgess" of Glasgow cautioner in £200 for James Lichtbody, maltman, burgess, "to enter in ward in the town of Dundie". Witnesses: Andro Stark, Symone Stewart, James Fischer and Archibald Patersoun. This is probably this George, but that is not proved.
+- Glasgow college rental c.1580–90 (*Munimenta* I pp.169–170): a later hand adds George Glasgw as occupant of the Dowhill acres. This is a new source for a holding already known from the protocols.
+
+<!-- findmypast-studies-sweep-2026-10-07 pre1600-pass3 -->
+## Third pre-1610 pass (2026-10-08)
+
+- **Dean of Guild roll, 14 Feb 1605.** Under the Letter of Guildry, "Georg Glasgow" is on the merchant side, between Robert Dazell and Andro Steelie. Sources: Crawfurd, *Sketch of the Trades' House* (1858) pp.49–51 (archive.org `asketchriseandp00crawgoog`); *View of the Merchants House of Glasgow* (1866) p.90 (`viewofmerchantsh00glasuoft`).
+- **House in the Briggait.** The crafts' hospital "auld rentell" lists "George Glasgowis hous in Briggait" (Lumsden, *Records of the Trades House of Glasgow 1605–1678*, p.24, copied 1609). The 1614 copy has "George Glasgw his hous in Briggait" (p.57).
+- Both are probably this George; neither has been cited before.
+
 ## Scottish–Donegal family confidence review — 17 October 2026
 
 Prefer the Glasgow child baptised on 19 June 1614 and the Archibaldus Glasgua who graduated M.A. in 1635 as the earlier identity of the Donegal cleric. The uncommon full name, compatible age at graduation, clerical career and 1639 Irish clerk occurrence form a coherent Scottish-to-Irish career. A baptism in 1614 places him at about 21 in 1635 and 25 in 1639. These are conditional ages, not separately recorded ages. No incompatible parentage or simultaneous Scottish household is identified for this proposed cleric. The other known same-generation Scottish Archibald, the Leith man Glasgow-3078, has a separately traced craft career: apprentice to cordiner Thomas Park in October 1639 and shoemaker/heir in May 1647. That positive career sequence makes him a weaker fit to the 1635 graduate and Irish clerk than the 1614 Glasgow child. It is a ranking argument, not an absolute exclusion or an assertion that a man could never change occupation. The Irish testator is securely the Ramelton/Rathmalton cleric by exact name, residence and profession. Assess his existing George Glasgow and Margaret Steuart parent links as probable, reflecting the probable Scottish childhood identification. The baptism explicitly names both parents, so maternity has its own record basis rather than being inferred from George’s spouse field.

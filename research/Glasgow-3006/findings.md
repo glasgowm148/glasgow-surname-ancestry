@@ -27,6 +27,12 @@ Next records: read the original OPR 596/1 entry (Findmypast page 79; the audit a
 
 Recorded in `research/findmypast-glasgow-audit/hold-identity-resolution-2026-09-06.md` (6 September 2026) and its override in `research/findmypast-glasgow-audit/catalogue-integration-overrides.json` (undated; committed by 8 September 2026); carried into this file on 7 October 2026.
 
+<!-- findmypast-studies-sweep-2026-10-07 pre1600-pass3 -->
+## Third pass (2026-10-08)
+
+- Dobie, *Examination of the Claim of John Lindsay Crawfurd* pp.102–104: Lord Garnock's genuine letter of 23 Mar 1720 is addressed "To Robt. Glasgow, Kilbirnie, Beith".
+- New detail: the same pages call Robert the "maternal grandfather" of James Smith at Todhills, parish of Dalry.
+
 ## Scope of the 1720 Robert Glasgow lead — 17 October 2026
 
 The lead from Dobie, *Examination of the Claim of John Lindsay Crawfurd*, pp. 102–104, concerns an adult **Robert Glasgow in 1720**, not John, whose competing baptism-index years here are 1730 and 1731. The attached father, [Robert Glasgow (Glasgow-1075)](https://www.wikitree.com/wiki/Glasgow-1075), is a compatible family candidate for that Robert; the quotation alone does not resolve his identity. The reported maternal-grandfather relationship belongs to Robert and James Smith, not to this John. Treat it as associated family evidence pending identification, without assigning a new child or grandchild to John.

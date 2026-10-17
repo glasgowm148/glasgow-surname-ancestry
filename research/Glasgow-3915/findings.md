@@ -68,3 +68,8 @@ There are substantial cautions:
 ## Birth-estimate audit - 21 August 2026
 
 The live structured birth was corrected to **about 1525, uncertain**. Elizabeth was already a widow in the 1552 record; the source supplies no birth year. The earlier `before` value remains only a strict chronological boundary, not the most useful estimated birth. No biography, relationship, source or other structured field was changed in this audit.
+
+<!-- findmypast-studies-sweep-2026-10-07 pre1600-pass2 -->
+## Second pre-1610 pass (2026-10-07)
+
+- *RMS* IV no. 739 (19 Dec 1552) is cited as p.164. In the scan, the p.164 heading comes before no. 738, so no. 739 is probably on **p.165**. Check against the page image.

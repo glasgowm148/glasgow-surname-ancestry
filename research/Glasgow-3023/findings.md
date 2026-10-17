@@ -39,6 +39,11 @@ Father assessment: **John Glasgw of Stirling selected as an uncertain, low-confi
   bearer is documented.
 - Son of a named main-branch profile: **not established**.
 
+<!-- findmypast-studies-sweep-2026-10-07 pre1600-pass2 -->
+## Second pre-1610 pass (2026-10-07)
+
+- Pitcairn, *Criminal Trials* I pt 1 p.*19, prints "Feb. 26, 1494-5" under the running head "6 Jac. IV". Regnal year 6 ends in June 1494, so the year (1494 or 1495) should be checked against JC1/1.
+
 ## Selected Stirling working family — 15 October 2026
 
 Select son, at low confidence, from the existing son/brother/nephew comparison with John Glasgw of Stirling. John’s adult activity in 1475–1480 is compatible with fathering a man killed before the 1494/95 proceeding. The rare surname in the same late-fifteenth-century record horizon makes this named household a useful provisional placement; no invented intermediary is needed. The father choice supplies a revisable one-generation model, rather than claiming that the court record names John.

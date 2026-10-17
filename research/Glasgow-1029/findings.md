@@ -70,6 +70,32 @@ The father assessment "confirmed by record" stands on protocol 2189. It names St
 
 Recorded in `research/Spreull-4/findings.md` (27 September 2026) and `research/free-space-pages/deep-evidence-audit.md` (7 September 2026); carried into this file on 7 October 2026.
 
+<!-- findmypast-studies-sweep-2026-10-07 pre1600-pass2 -->
+## Second pre-1610 pass (2026-10-07)
+
+**Water bailie date settled.** *Extracts from the Records of the Burgh of Glasgow* I (1876) p.146, **4 Oct 1589**: "The prouest, baillies, and counsall hes electit Stevin Glasgw watter baillie for this yeir". This answers the open question above: it is 4 Oct, not 2 Oct, and the leet was of three, not two. Protocol X 3301 (5 Nov 1589) styles him "Stephen Glasgw, water bailie (aque ballivo)".
+
+**Records not previously captured:**
+- Renwick, *Abstracts of Protocols of the Town Clerks of Glasgow*:
+  - VIII 2435 (28 Jun 1582): witness, citizen.
+  - **VIII 2466 (15 Jan 1582-3): occupier of two rood-lands in Crapnestok.**
+  - **IX 2774 (10 Sep 1585): "the lands of Stephen Glesgow on the north" of the Duneing tenement, north side of the Trongate.**
+  - Witness: IX 2742, 2817, 2871, 2886, 2961, 2962, 2973, 2977; X 3037, 3108, 3110, 3148, 3149.
+  - Note to IX 3013, p.149 ("Sexto die Januarij 1586"): "Stephane Glasgw, burges thar", in the Matho Hereot sasine (Provansyde).
+  - X 3155 (22 May 1591): "Stenn Glasgw, burges".
+  - Raw-only so far: VIII 2428, IX 2818.
+- **Privy Council, Sept 1592.** *RPC* V p.566:
+  - Johnne Spreull of Ladymure became cautioner in 500 merks "for Stevin Glasgu, burgess of Glasgu, not to intercommune with Matheu Hereot during his rebellion". Hereot had been denounced for the slaughter of Andro Ros.
+  - Stephen also witnessed a band dated 1 Sep at Glasgow.
+  - The Spreull cautioner fits his mother Jonet Spreull (protocol 2189), but that link is not proved.
+- **College of Glasgow rental, c.1580–90.** *Munimenta Universitatis Glasguensis* I:
+  - p.172: "Twa aikers of land in Provansyd sett in few to Margret Graham spowse to Stevin Glasgw".
+  - p.180: "Tenement of Stevin Glasgw Jhon Scott baxter vj s.".
+- **Possible match: "Stephen Glasco", 1578.** *Calendar of State Papers relating to Scotland* IX (1586–88) no. 417, p.513:
+  - Restitution of 108 hogsheads of herring robbed on 3 Aug 1578 by the pirate Robert Hickes from a Leith ship was made to "Stephen Glasco, procurer for th'owners".
+  - The owners were Edinburgh merchants, so this man is not proved to be Stephen of Glasgow.
+- **Incorporation date fix.** "Stephanus Glasgw" is incorporated in *Munimenta* II p.175 under the heading "Die xxij Octobris … 1555", probably 22 Oct 1556. `surname-research/pre-1700/evidence-register.md` gives "24 Oct 1556", but that date heads the next group.
+
 
 ## Selected uncertain family — 16 October 2026
 

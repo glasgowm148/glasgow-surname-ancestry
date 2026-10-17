@@ -84,6 +84,11 @@ Reason: The Mid Calder baptism index of 18 February 1616 names James Glasgow as 
 
 Source summary: The Mid Calder baptism index of 18 February 1616 names James Glasgow as father; NRS OPR 694/10/28. Later adult identities are assessed separately. Saved on WikiTree and verified in the live edit form on 28 September 2026; only the father certainty and its explanation were updated.
 
+<!-- findmypast-studies-sweep-2026-10-07 pre1600-pass4 -->
+## Fourth pass (2026-10-15)
+
+- *Edinburgh Marriages 1595–1700* (SRS) p.267: "John, whipman — Isobel Porteous, 30 June 1642". The occupation and the printed date are new to the corpus.
+
 <!-- queue-record-integration-2026-10-17:start -->
 ## Record findings and identity limits — 17 October 2026
 

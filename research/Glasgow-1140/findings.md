@@ -66,3 +66,8 @@ A former story gave this James Glasgow an Irish career. It does not concern him.
 Source: James Dobie, [*Examination of the Claim of John Lindsay Crawfurd*](https://deriv.nls.uk/dcn23/9537/95375734.23.pdf) (1831), pp. 102–106; NRS RH15/120/178. Seen as a derivative account, cited in the maintained name-study draft (`research/free-space-pages/edition/glasgow-name-study-057c2f.wiki`); not re-inspected for this note. Grade: excluded. Do not place James in an Irish family on this evidence.
 
 Recorded in `research/pre-1730-unlinked-record-audit.md` (undated; last committed 8 September 2026) and the name-study draft; carried into this file on 7 October 2026.
+
+<!-- findmypast-studies-sweep-2026-10-07 pre1600-pass3 -->
+## Third pass (2026-10-08): extra citation
+
+- *Fasti* viii 35 (Edinburgh Castle addenda): "JAMES GLASGOW, son of John G., [17]38 min. of Kilbirnie—[Edin. Com. Deeds, xxxvi, 5th Jan. 1758.]". Neither this page nor the Commissary Deeds reference was cited before.

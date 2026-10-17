@@ -112,3 +112,25 @@ Glasgow protocol 2189 of **17 June 1575** records **Stephen Glasgow, son of the 
 Jonet Spreull is this John's documented wife (protocol 1196 of 1534, and protocol 847 of 1565 reserving liferent to John and Jonet). The entry therefore shows that this John was **dead by 17 June 1575** and that [Stephen Glasgow (Glasgow-1029)](https://www.wikitree.com/wiki/Glasgow-1029) was his son by Jonet. The abstract does not repeat John's own parentage, so identifying its John with this profile rests on Jonet being named. The free-space page *John Glasgow-1* gives "dead before 8 November 1575"; that date comes from a derivative abstract with no protocol number (see Glasgow-1029's findings), and the June date should be used.
 
 Recorded in `research/Spreull-4/findings.md` (27 September 2026) and `research/free-space-pages/deep-evidence-audit.md` (7 September 2026); carried into this file on 7 October 2026.
+
+<!-- findmypast-studies-sweep-2026-10-07 pre1600-recheck -->
+## Burgh Records check (2026-10-07)
+
+- The 1589 water-bailie election belongs to his son Stephen, [[Glasgow-1029]], and is recorded there (*Extracts from the Records of the Burgh of Glasgow* I p.146, 4 Oct 1589).
+- Citation fix: the 1555 Zowng/Crownare entry is *Liber Protocollorum* **vol. I** p.160, not vol. 2.
+
+<!-- findmypast-studies-sweep-2026-10-07 pre1600-pass2 -->
+## Second pre-1610 pass (2026-10-07)
+
+These "q. [late] John Glasgw" boundary entries in Renwick, *Abstracts of Protocols of the Town Clerks of Glasgow* are not yet captured:
+- III 786 (23 Apr 1564): "the lands or tenement of John Glesgw on the east".
+- V 1363 (19 Apr 1560): John Glasgw on the west.
+- After his death:
+  - VIII 2314 (10 Aug 1576).
+  - X 3063 (21 Sep 1587).
+  - X 3093 (16 Feb 1587-8).
+  - All three are on the north side of the Bridgegait.
+
+**Citation fixes:**
+- The research brief and evidence_index (also Graham-38221) cite "vol. 6" for 2 Apr, 15 Jul and 1 Sep 1586 and 2 Mar 1598-9. These are **vol. IX nos. 2838, 2903, 2916 and vol. XI no. 3533**.
+- Protocol 307 is dated 5 Aug 1556, not 6 Aug.

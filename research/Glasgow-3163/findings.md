@@ -174,6 +174,18 @@ The earlier draft also reads a Johne Sandelandis in the confirmation and a closi
 
 Recorded in `research/Glasgow-3163/Glasgow-3163.md` (27 September 2026), checked against the maintained transcription; carried into this file on 7 October 2026.
 
+<!-- findmypast-studies-sweep-2026-10-07 pre1600-pass2 -->
+## Second pre-1610 pass (2026-10-07): citation fix
+
+- The research brief's "Vol. VIII (1900), Record 2867" and "Record 2893" are **vol. IX, nos. 2903 and 2916**.
+
+<!-- findmypast-studies-sweep-2026-10-07 pre1600-pass3 -->
+## Third pre-1610 pass (2026-10-08): Calder neighbour
+
+- **George Glasgw in Mureistoun (Murieston, Mid Calder parish), 1586.** He is on the roll of Calder-Comitis barony tenants ordered to the wappinschaw on the hill of Calder on 4 Aug 1586. The roll is in an Act of the Baron Court dated 19 Apr 1586: "George glasgw, in mureistoun".
+- Sources: Maidment, *Analecta Scotica* I (1834) art. CXVI pp.395–400, Glasgw on p.399 (archive.org `analectascotica00maidgoog`); abridged in McCall, *History and Antiquities of the Parish of Mid-Calder* (1894) pp.15–16.
+- Murieston lies near Corston and Hermand, but his link to Andrew is not proved.
+
 
 ## Selected working descendants —15 October2026
 
