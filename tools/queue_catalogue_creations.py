@@ -19,6 +19,10 @@ import sys
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import build_research_catalog as catalogue
 from catalogue_machine_data import build_machine_models, build_network, compact_resolver_row
+try:
+    from relationship_update_changes import normalise_change
+except ModuleNotFoundError:
+    from tools.relationship_update_changes import normalise_change
 
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = Path("research/queue-review-2026-10-17/catalogue-integration.json")
@@ -128,7 +132,10 @@ def decorate_person(person, entry):
                   creation_subject_id=entry["subject_id"], creation_assessment=entry["assessment"],
                   creation_draft_path=entry["draft_path"], creation_draft_wikitext=entry["draft_wikitext"],
                   creation_source_url=entry["source_subject_url"],
-                  creation_historical_basis=deepcopy(entry.get("historical_basis") or {}))
+                  creation_historical_basis=deepcopy(entry.get("historical_basis") or {}),
+                  creation_relationship_changes=[normalise_change(change, entry["catalogue_id"])
+                                                 for change in entry.get("relationship_changes", [])])
+    person["creation_relationship_changes"] = [c for c in person["creation_relationship_changes"] if c]
     for key in ("first_names", "last_names_at_birth", "last_names_current"):
         person[key] = deepcopy(entry[key])
     for key in ("gender", "birth", "birth_note", "birth_location", "birth_location_note", "death", "death_location"):
@@ -156,6 +163,7 @@ def creation_update(person):
         "draft_wikitext": person.get("creation_draft_wikitext") or "",
         "remote_wikitext": "", "remote_captured_at": "", "remote_revision": "",
         "assessment": person.get("creation_assessment") or "",
+        "relationship_changes": deepcopy(person.get("creation_relationship_changes") or []),
     }
 
 
@@ -190,7 +198,8 @@ def _search_row(person, dossier):
                estimated_location=bool(person["birth_location_note"]), has_profile=False, wikitree_free_space_url="", profile_disposition="",
                has_wikitree_destination=False, missing_profile=True, creation_ready=person["creation_ready"], pending_profile_creation=True,
                creation_status=person["creation_status"], profile_work_status=person["profile_work_status"], profile_work_candidate_count=0, needs_wikitree_update=True,
-               wikitree_update_significance=update["significance"], wikitree_update_summary=update["summary"], wikitree_update_relationship_changes=[],
+               wikitree_update_significance=update["significance"], wikitree_update_summary=update["summary"],
+               wikitree_update_relationship_changes=deepcopy(update.get("relationship_changes") or []),
                has_original_record="original" in qualities, has_open_questions=bool(dossier["open_questions"]), uncertain_identity=False,
                source_qualities=qualities, claim_statuses=catalogue._unique(c.get("status") for c in dossier["claims"]),
                record_types=catalogue._catalogue_record_types(person), record_count=len(person["records"]), woman_married_glasgow=False, evidence_terms=[])

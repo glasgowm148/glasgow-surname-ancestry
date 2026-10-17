@@ -154,6 +154,20 @@ The deed does not give her birth date. No compatible profile survived the docume
         self.assertEqual(module.creation_update(person)["action"], "create_new_profile")
         self.assertIsNone(module.creation_update({"profile_ids": ["Glasgow-123"]}))
 
+    def test_explicit_relationship_change_survives_creation_and_search_row(self):
+        self.entry["relationship_changes"] = [{"action": "add", "relationship": "father",
+                                                "relative_id": "Glasgow-428", "status": "proved"}]
+        self.save()
+        module.apply_creations(self.root)
+        dossier = self.read(f"people/{self.slug}.json")
+        row = self.read("data/catalogue-search-index.json")[0]
+        changes = dossier["wikitree_update"]["relationship_changes"]
+        self.assertEqual(changes[0]["relative_id"], "Glasgow-428")
+        self.assertEqual(changes[0]["relationship"], "father")
+        self.assertEqual(changes[0]["confidence_band"], "confident")
+        self.assertEqual(changes[0]["probability"]["minimum"], .9)
+        self.assertEqual(row["wikitree_update_relationship_changes"], changes)
+
 
 if __name__ == "__main__":
     unittest.main()
