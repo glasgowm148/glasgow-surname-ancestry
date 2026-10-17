@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "reviewed": "2026-10-17",
+  "cutoff": 1850,
+  "method_version": 3,
+  "scope": "Hugh’s 137-profile branch: prefer the local Corsankell family",
+  "input_fingerprint": "dd46ed93196f6b8baea6dc927d1f8288602809ba0045031a19008e41bbbdf0e6",
+  "models": {
+    "main": {
+      "checked_historical_profiles": 1777,
+      "all_public_model_profiles_checked": 4520,
+      "matched_paternal_edges": 1356,
+      "changed_father_fields": 1,
+      "changed_mother_fields": 0,
+      "added_historical_profiles": [],
+      "unresolved_father_cases": [
+        "Glasgow-1367",
+        "Glasgow-2908",
+        "Glasgow-867",
+        "Glasgow-951"
+      ]
+    },
+    "standalone": {
+      "checked_historical_profiles": 1777,
+      "all_public_model_profiles_checked": 4671,
+      "matched_paternal_edges": 1356,
+      "changed_father_fields": 1,
+      "changed_mother_fields": 0,
+      "added_historical_profiles": [],
+      "unresolved_father_cases": [
+        "Glasgow-1367",
+        "Glasgow-2908",
+        "Glasgow-867",
+        "Glasgow-951"
+      ]
+    }
+  },
+  "genealogical_connections_added": 0,
+  "paternal_connections_added": 0,
+  "maternal_connections_added": 0,
+  "certainty_upgrades": 0,
+  "confidence_assessments_strengthened": 0,
+  "preferred_parent_placements_revised": 1,
+  "working_parent_changes": [
+    {
+      "subject_id": "Glasgow-1603",
+      "relative_id": "Glasgow-3193",
+      "before_relative_id": "Glasgow-991",
+      "relationship": "father",
+      "before": "uncertain",
+      "after": "uncertain",
+      "action": "replace_working_parent",
+      "assertion_id": "C-working-20261017-ayrshire-hugh-john",
+      "basis": "Prefer John Glasgow-3193 of the Corsankell/Kilwinning family as Hugh Glasgow-1603’s uncertain working father. This materializes the leading Ayrshire placement already argued in the maintained five-generation map. The 1571 Corsinkell deed expressly names John as James elder’s son; the earlier Kilwinning tenant appearances are attributed to him as probable. Hugh’s surviving profile account describes an Ayrshire progenitor, his son’s account is centred on Kilwinning, and the following households lie in Kilwinning, Ayr and Kilbirnie. These successive local settings favour the documented nearby family over the existing Mid Calder/Inveresk father attachment, which depends on an online tree and has no movement, household or property bridge. A John-to-Hugh-to-John sequence is compatible supporting context, not a naming rule. Father is selected as a revisable one-generation model, rather than leaving the previously preferred local route only in prose.",
+      "limitations": "Hugh remains a tree-derived generation: no inspected contemporary record securely identifies him, names his father or establishes his own c.1600 birth. John’s before-1540 boundary means a birth for Hugh near 1600 would make him an older father, around 60 or more; a grandson or collateral position may fit better. Neither date is changed to fit. An earlier Hugh birth is possible but is not adopted as a new estimate, and no missing person is invented. The 1571 John is documented as a son, while his additional Kilwinning identity is only probable. John’s brother James Glasgow-3921, another local Glasgow family, an omitted generation and the former James Glasgow-991 placement remain alternatives. This is stronger locality reasoning, not a probable or proved father assessment. The 1677 deed-index Hugh, preacher of the gospel, remains an unresolved identity comparison and supplies no evidence for this father choice.",
+      "new_attachment": false,
+      "live_flag_changed": false
+    }
+  ],
+  "publication_summary": "Hugh’s 137-profile pre-1850 branch now follows the preferred local Corsankell–Kilwinning route under John-3193, uncertain, replacing James of Mid Calder. The old father remains an uncertain alternative; exact generation, all vital data and descendant grades remain unchanged. The earlier 216-profile James impact is a dated snapshot; his remaining branch has 79 profiles. Working component/pair coverage and supported/confident connectivity are unchanged.",
+  "comparison": "/branches/research-corsankell-household/#chapter-ayrshire-hugh-preferred-family",
+  "next_metric_check": {
+    "status": "RESOLVED",
+    "saved_confident_tree_flags_not_used_by_current_metric": 0,
+    "review": "/data/ancestry-confidence-method-review.json",
+    "scope": "Four competing-father cases remain held."
+  },
+  "verification": {
+    "all_cohort_membership_unchanged": true,
+    "all_numerical_connectivity_unchanged": true,
+    "existing_names_and_vitals_unchanged": true,
+    "all_other_parent_rows_unchanged": true,
+    "held_four_father_cases_full_flags_unchanged": true,
+    "all_live_fields_and_flags_unchanged": true,
+    "dna_payloads_unchanged": true,
+    "public_pending_updates": 255,
+    "complete_profile_comparisons": 5,
+    "public_complete_profile_comparisons": 5,
+    "private_complete_profile_comparisons": 0,
+    "public_profile_models_synchronized": 5
+  },
+  "branch_impact": {
+    "Hugh": 137,
+    "James_before": 216,
+    "James_after": 79
+  },
+  "supported_connectivity": {
+    "before": {
+      "population": 1777,
+      "edge_count": 373,
+      "component_count": 1405,
+      "largest_component_size": 46,
+      "connected_pairs_percent": 0.19848210619172915
+    },
+    "after": {
+      "population": 1777,
+      "edge_count": 373,
+      "component_count": 1405,
+      "largest_component_size": 46,
+      "connected_pairs_percent": 0.19848210619172915
+    }
+  },
+  "confident_connectivity": {
+    "before": {
+      "edge_count": 355,
+      "component_count": 1422,
+      "connected_pairs_percent": 0.16603547835962018
+    },
+    "after": {
+      "edge_count": 355,
+      "component_count": 1422,
+      "connected_pairs_percent": 0.16603547835962018
+    }
+  }
+}

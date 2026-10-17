@@ -2,7 +2,7 @@
 [[Category:Glasgow Name Study]]
 
 == Biography ==
-'''Preferred father review, 17 October 2026:''' George of Mureistoun is now James’s '''probable local father''', from the combined 1586 holding and 1605 witness/household evidence. [[Glasgow-3163|Andrew Glasgow]] is retained as an unselected uncertain alternative. The George merchant identification and upstream ancestry remain weaker, separate questions.<ref name="MuriestonFatherReview" />
+'''Ayrshire branch review, 17 October 2026:''' [[Glasgow-1603|Hugh Glasgow]] is no longer selected locally as James’s son. John of Corsankell/Kilwinning is preferred as uncertain father; James remains an unselected uncertain alternative. James’s Mid Calder/Fisherrow identity and his own probable Mureistoun father are unchanged.<ref name="AyrshireHughFamily" />
 James Glasgow was born circa 1585, likely in Scotland. This estimate is based on the birth year of his first known child in 1605. He appears in baptismal records as a father residing in Midlothian, Scotland, between 1605 and 1618, with records showing activity in two distinct parishes: Mid Calder (OPR parish #694) and Inveresk with Musselburgh.<ref>A patron submission to the LDS Church suggested a birth location of Inveresk, but this requires stronger sourcing. See Research Notes.</ref>
 
 The mother of his children is not named in these specific records. James is recorded as the father of the following six children, with the location alternating between the two parishes:
@@ -19,6 +19,27 @@ The pattern of baptisms/births alternating between Mid Calder and Inveresk with 
 The date and location of James Glasgow's death are currently unknown.
 
 == Research Notes ==
+=== Preferred Ayrshire family — 17 October 2026 ===
+
+Prefer [[Glasgow-3193|John Glasgow]] of the Corsankell/Kilwinning family as [[Glasgow-1603|Hugh Glasgow]]’s uncertain working father. This materializes the leading Ayrshire placement already argued in the maintained five-generation map. The 1571 Corsinkell deed expressly names John as James elder’s son; the earlier Kilwinning tenant appearances are attributed to him as probable. Hugh’s surviving profile account describes an Ayrshire progenitor, his son’s account is centred on Kilwinning, and the following households lie in Kilwinning, Ayr and Kilbirnie. These successive local settings favour the documented nearby family over the existing Mid Calder/Inveresk father attachment, which depends on an online tree and has no movement, household or property bridge. A John-to-Hugh-to-John sequence is compatible supporting context, not a naming rule. Father is selected as a revisable one-generation model, rather than leaving the previously preferred local route only in prose.
+
+Hugh remains a tree-derived generation: no inspected contemporary record securely identifies him, names his father or establishes his own c.1600 birth. John’s before-1540 boundary means a birth for Hugh near 1600 would make him an older father, around 60 or more; a grandson or collateral position may fit better. Neither date is changed to fit. An earlier Hugh birth is possible but is not adopted as a new estimate, and no missing person is invented. The 1571 John is documented as a son, while his additional Kilwinning identity is only probable. John’s brother [[Glasgow-3921|James Glasgow]], another local Glasgow family, an omitted generation and the former [[Glasgow-991|James Glasgow]] placement remain alternatives. This is stronger locality reasoning, not a probable or proved father assessment. The 1677 deed-index Hugh, preacher of the gospel, remains an unresolved identity comparison and supplies no evidence for this father choice.
+
+The existing 137-profile pre-1850 working child side is rerouted from James of Mid Calder to John of Corsankell; descendants retain every earlier identity and relationship qualification. No mother, spouse, merge, new person or changed vital field is selected. Hugh-to-[[Glasgow-1604|John]] and the minister’s separate father and duplicate questions are unchanged. Shared Y-DNA can motivate the extended-family model but cannot identify this father. Both proposed fathers already belong to the same working component: cohort membership, working component and pair coverage, supported connectivity and confidently marked connectivity remain unchanged. This is a better-supported placement within the working tree, not a newly connected component or confidence upgrade. No new source inspection or live WikiTree save is claimed.
+
+<ref name="AyrshireHughFamily">[https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD39%2F5%2F59 NRS GD39/5/59, 9 February 1571: James elder of Corsinkell and sons James and John; accepted archival catalogue abstract, original deed uninspected]; [https://aanhs.org/wp-content/uploads/2018/05/people-of-ayrshire.pdf Sanderson, The People of Sixteenth Century Ayrshire (1987), teind lists 1559–60, pp.331 and333: Corsankell and Kilwinning households; maintained source review reused]; [https://electricscotland.com/bible/fastiecclesiaesc03scot.pdf Scott, Fasti Ecclesiae Scoticanae vol. 3, p.103: the later Kilbirnie minister’s Ayrshire career; establishes setting, not ancestry].</ref>
+
+[https://glasgow.phenotype.dev/branches/research-corsankell-household/#chapter-ayrshire-hugh-preferred-family Family comparison and retained alternatives].
+
+
+=== Earlier maintained research retained ===
+
+The dated Ayrshire review supersedes the earlier selected route through Mid Calder. Other evidence and source limits are retained.
+
+<blockquote>
+'''Preferred father review, 17 October 2026:''' George of Mureistoun is now James’s '''probable local father''', from the combined 1586 holding and 1605 witness/household evidence. [[Glasgow-3163|Andrew Glasgow]] is retained as an unselected uncertain alternative. The George merchant identification and upstream ancestry remain weaker, separate questions.<ref name="MuriestonFatherReview" />
+James Glasgow was born circa 1585, likely in Scotland. This estimate is based on the birth year of his first known child in 1605. He appears in baptismal records as a father residing in Midlothian, Scotland, between 1605 and 1618, with records showing activity in two distinct parishes: Mid Calder (OPR parish #694) and Inveresk with Musselburgh.<ref>A patron submission to the LDS Church suggested a birth location of Inveresk, but this requires stronger sourcing. See Research Notes.</ref>
+
 === Murieston family review — 17 October 2026 ===
 
 Prefer the named George of Mureistoun as [[Glasgow-991|James Glasgow]]’s probable father. George is recorded at Mureistoun in the 1586 Calder obligation; the accepted 1605 original-register reading places James’s household in probable Muirestoun and names an adult George Glasgow as witness to the baptism of James’s son George. The earlier review already assessed the two adult George occurrences as probably one man. The same uncommon surname, the probable same holding across nineteen years, and the older name-bearer’s personal participation in the younger household favour lineal family continuity. Father is the preferred degree: an older established man followed by James’s child-bearing household is a normal two-generation sequence, and the child’s George name is compatible with that reconstruction. This is a combined locality/household inference, not three independent proofs or a compulsory naming rule.
@@ -34,7 +55,6 @@ James’s former selected Andrew father becomes an uncertain alternative; George
 <ref name="MuriestonFatherReview">[https://archive.org/details/analectascotica00maidgoog Maidment, Analecta Scotica I (1834), art.CXVI pp.395–396,399: Calder act 19 April1586, George Glasgw in Mureistoun; printed pages visually checked15October2026, court manuscript unread]; [https://www.scotlandspeople.gov.uk/search-records/church-registers/church-births-baptisms Mid Calder OPR694/10 p.7, 17February1605: George child of James in probable Muirestoun; adult witnesses George Glasgow and John Smith; owner-held original page reread16October2026]; [https://archive.org/details/abstractsprotoc01scogoog/page/n113/mode/2up Renwick, Glasgow Protocols vol.9, protocol2903, printed p.103, 15July1586: George heir of deceased father William; accepted earlier reading]; [https://archive.org/details/abstractsprotoc01scogoog/page/n116/mode/2up Renwick, vol.9, protocol2916, printed p.107, 1September1586: George’s mother Margaret Herbesoun and curator Stephen; accepted earlier reading].</ref>
 
 [https://glasgow.phenotype.dev/branches/research-calder-inveresk-james/#chapter-murieston-preferred-father Family review and separate identity grades].
-
 
 === Earlier maintained research retained ===
 
@@ -53,8 +73,6 @@ The Mid Calder and Inveresk baptism sequences may still represent one mobile fat
 <ref name="FisherrowFamilyReview">[https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481057&seq=193 SRO Indexes 38, Edinburgh etc. sasines 1624–1630, printed pp.187–188, visually checked 15 October 2026; 8 July 1624, 9/135, and 11 July 1625, 10/171, are recording dates]; [https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4435828&tab=this Marioune Glasgow, 17 March 1630, named father Alexander; accepted Findmypast transcript SCOT/OPR/BAP/4435828, OPR 689/1 p.191]; [https://www.scotlandspeople.gov.uk/search-records/church-registers/church-births-baptisms ScotlandsPeople supplied OPR index: Johnne 25 November 1632, 689/10/226; Bessie 22 March 1635, 689/10/263; Allexander and named parents Alexander/Jannet Clerk, 3 September 1637, 689/10/301, FR260; accepted 10 September review]; [https://www.findmypast.co.uk/transcript?id=R_686177762&tab=this William Glasgow, Inveresk 1614, father James, no mother supplied; accepted Findmypast transcript R_686177762].</ref>
 
 [https://glasgow.phenotype.dev/branches/research-calder-inveresk-james/#chapter-fisherrow-family-confidence Parish family assessment and retained questions].
-
-=== Earlier maintained research retained ===
 
 The dated Fisherrow family review supersedes earlier parent and spouse assessments only. Earlier factual passages and separate questions are retained below.
 
@@ -127,6 +145,7 @@ Compare the other Mid Calder baptism pages for the same holding and witnesses, t
 [[Glasgow-3163|Andrew Glasgow of Calder]] is selected as the working father in the local research model. Andrew’s documented rural Calder household is the preferred working anchor for James’s nearby Mid Calder family. He was alive across the estimated1575–1586 birth interval of all three Lothian fathers; Hermand John’s1577 death would require an earlier birth estimate for David. That favours this coherent provisional family without excluding the other father. Andrew was alive until1598 and the uncertain generations allow James to be an older son. This uses the actual Calder setting and compatible family sequence, not the withdrawn assertion that the testament named James. James’s Inveresk/Fisherrow identity remains a separate uncertainty.
 
 This is a hypothesis from existing material, not a parent named in a newly found record. John of Hermand-3181 is another plausible older local father. The George named at Mureistoun1586 and the George witness1605 are a competing father/relative lead; identifying that George with merchant1099 would require additional identity assumptions and young fatherhood. None is excluded. Andrew’s omission of James weakens this model; it does not disprove an older son. No mother or live WikiTree parent-field change is implied. The earlier proof-based rationale remains superseded where corrected.
+</blockquote>
 </blockquote>
 </blockquote>
 

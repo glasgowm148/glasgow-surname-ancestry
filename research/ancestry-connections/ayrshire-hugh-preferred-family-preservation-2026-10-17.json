@@ -1,0 +1,62 @@
+{
+  "reviewed": "2026-10-17",
+  "scope": "Hugh’s 137-profile branch: prefer the local Corsankell family",
+  "profiles": {
+    "Glasgow-1603": {
+      "current_sha256": "1d1aa572c0b4bc1f1e7063e4423cbe51442bc0e04971a15df542c4d6ba32542d",
+      "proposed_sha256": "16879edcc83c46f2957b53e36e930874c827e1295285761117e661dc44e5b5b9",
+      "all_substantive_passages_accounted_for": true,
+      "complete_current_and_prior_proposals_preserved": true,
+      "captured_source_urls_preserved": 4,
+      "private_comparison": false
+    },
+    "Glasgow-3193": {
+      "current_sha256": "43ad03494b29b7d95314595e0281ee703f73e83aee0054e8b9b4e329f98c2839",
+      "proposed_sha256": "232038a47188a894acaae647daf82a7109034cae6b43ef4f17f36a9a16dc7684",
+      "all_substantive_passages_accounted_for": true,
+      "complete_current_and_prior_proposals_preserved": true,
+      "captured_source_urls_preserved": 3,
+      "private_comparison": false
+    },
+    "Glasgow-991": {
+      "current_sha256": "4d7377712e90b27e867f943fab2b73e82988130c3b0f42765f4c434c2cc05b71",
+      "proposed_sha256": "c56ad7467852a71e09d8e721be0212a703bf946b8e07aa562efa098557c8179b",
+      "all_substantive_passages_accounted_for": true,
+      "complete_current_and_prior_proposals_preserved": true,
+      "captured_source_urls_preserved": 10,
+      "private_comparison": false
+    },
+    "Glasgow-1604": {
+      "current_sha256": "8adcae06777a05e931aded720658521e1d6341b5e2c0ba242b5759888fc6dd57",
+      "proposed_sha256": "7e0470588078f442fc432499affa3bf501d07db13a0dd1cd7b9d50f0f6f3f25a",
+      "all_substantive_passages_accounted_for": true,
+      "complete_current_and_prior_proposals_preserved": true,
+      "captured_source_urls_preserved": 2,
+      "private_comparison": false
+    },
+    "Glasgow-1073": {
+      "current_sha256": "5065e41aae1d20b9e78f8f946370f8435422e54c0c5cb4aaf8eb6989831d5d58",
+      "proposed_sha256": "a4112341f805ef30d2378362f4fe226ff193252087479f22acdc7e9b9f0177bc",
+      "all_substantive_passages_accounted_for": true,
+      "complete_current_and_prior_proposals_preserved": true,
+      "captured_source_urls_preserved": 11,
+      "private_comparison": false
+    }
+  },
+  "prior_assessments": [
+    {
+      "subject_id": "Glasgow-1603",
+      "relative_id": "Glasgow-3193",
+      "before_relative_id": "Glasgow-991",
+      "relationship": "father",
+      "before": "uncertain",
+      "after": "uncertain",
+      "action": "replace_working_parent",
+      "assertion_id": "C-working-20261017-ayrshire-hugh-john",
+      "basis": "Prefer John Glasgow-3193 of the Corsankell/Kilwinning family as Hugh Glasgow-1603’s uncertain working father. This materializes the leading Ayrshire placement already argued in the maintained five-generation map. The 1571 Corsinkell deed expressly names John as James elder’s son; the earlier Kilwinning tenant appearances are attributed to him as probable. Hugh’s surviving profile account describes an Ayrshire progenitor, his son’s account is centred on Kilwinning, and the following households lie in Kilwinning, Ayr and Kilbirnie. These successive local settings favour the documented nearby family over the existing Mid Calder/Inveresk father attachment, which depends on an online tree and has no movement, household or property bridge. A John-to-Hugh-to-John sequence is compatible supporting context, not a naming rule. Father is selected as a revisable one-generation model, rather than leaving the previously preferred local route only in prose.",
+      "limitations": "Hugh remains a tree-derived generation: no inspected contemporary record securely identifies him, names his father or establishes his own c.1600 birth. John’s before-1540 boundary means a birth for Hugh near 1600 would make him an older father, around 60 or more; a grandson or collateral position may fit better. Neither date is changed to fit. An earlier Hugh birth is possible but is not adopted as a new estimate, and no missing person is invented. The 1571 John is documented as a son, while his additional Kilwinning identity is only probable. John’s brother James Glasgow-3921, another local Glasgow family, an omitted generation and the former James Glasgow-991 placement remain alternatives. This is stronger locality reasoning, not a probable or proved father assessment. The 1677 deed-index Hugh, preacher of the gospel, remains an unresolved identity comparison and supplies no evidence for this father choice.",
+      "new_attachment": false,
+      "live_flag_changed": false
+    }
+  ]
+}

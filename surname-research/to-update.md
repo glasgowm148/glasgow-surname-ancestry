@@ -1895,3 +1895,12 @@ The August completion entries remain historical. The live parent fields are now 
 | [Andrew Glasgow of Corsoun](https://www.wikitree.com/wiki/Glasgow-3163) | OPEN | Add the sourced family confidence assessment; preserve other dates, relationships and complete text. |
 | [George Glasgow, Glasgow merchant](https://www.wikitree.com/wiki/Glasgow-1099) | OPEN | Add the sourced family confidence assessment; preserve other dates, relationships and complete text. |
 | [William Glasgow, father of the merchant George](https://www.wikitree.com/wiki/Glasgow-3522) | OPEN | Add the sourced family confidence assessment; preserve other dates, relationships and complete text. |
+
+
+## Preferred Ayrshire route — 17 October 2026
+
+| [Hugh Glasgow](https://www.wikitree.com/wiki/Glasgow-1603) | OPEN | Add the sourced preferred Ayrshire placement and retained alternative; preserve other relationships, dates and full text. |
+| [John Glasgow of Corsankell and Kilwinning](https://www.wikitree.com/wiki/Glasgow-3193) | OPEN | Add the sourced preferred Ayrshire placement and retained alternative; preserve other relationships, dates and full text. |
+| [James Glasgow of Mid Calder and Fisherrow](https://www.wikitree.com/wiki/Glasgow-991) | OPEN | Add the sourced preferred Ayrshire placement and retained alternative; preserve other relationships, dates and full text. |
+| [John Glasgow of Kilwinning](https://www.wikitree.com/wiki/Glasgow-1604) | OPEN | Add the sourced preferred Ayrshire placement and retained alternative; preserve other relationships, dates and full text. |
+| [Rev. John Glasgow of Kilbirnie](https://www.wikitree.com/wiki/Glasgow-1073) | OPEN | Add the sourced preferred Ayrshire placement and retained alternative; preserve other relationships, dates and full text. |

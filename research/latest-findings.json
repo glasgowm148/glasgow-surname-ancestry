@@ -29609,6 +29609,79 @@
         "research/relationship_assessments.json",
         "research/ancestry-connections/murieston-preferred-father-preservation-2026-10-17.json"
       ]
+    },
+    {
+      "id": "ayrshire-hugh-preferred-family-2026-10-17",
+      "found_on": "2026-10-17",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "The 137-profile Hugh Glasgow branch now follows the previously preferred Corsankell–Kilwinning family through John Glasgow-3193 as uncertain father. The unsupported Mid Calder James attachment is retained as an alternative.",
+      "qualification": "Hugh remains a tree-derived generation: no inspected contemporary record securely identifies him, names his father or establishes his own c.1600 birth. John’s before-1540 boundary means a birth for Hugh near 1600 would make him an older father, around 60 or more; a grandson or collateral position may fit better. Neither date is changed to fit. An earlier Hugh birth is possible but is not adopted as a new estimate, and no missing person is invented. The 1571 John is documented as a son, while his additional Kilwinning identity is only probable. John’s brother James Glasgow-3921, another local Glasgow family, an omitted generation and the former James Glasgow-991 placement remain alternatives. This is stronger locality reasoning, not a probable or proved father assessment. The 1677 deed-index Hugh, preacher of the gospel, remains an unresolved identity comparison and supplies no evidence for this father choice. The existing 137-profile pre-1850 working child side is rerouted from James of Mid Calder to John of Corsankell; descendants retain every earlier identity and relationship qualification. No mother, spouse, merge, new person or changed vital field is selected. Hugh-to-John-1604 and the minister’s separate father and duplicate questions are unchanged. Shared Y-DNA can motivate the extended-family model but cannot identify this father. Both proposed fathers already belong to the same working component: cohort membership, working component and pair coverage, supported connectivity and confidently marked connectivity remain unchanged. This is a better-supported placement within the working tree, not a newly connected component or confidence upgrade. No new source inspection or live WikiTree save is claimed.",
+      "relationship_changes": [],
+      "working_parent_changes": [
+        {
+          "subject_id": "Glasgow-1603",
+          "relative_id": "Glasgow-3193",
+          "before_relative_id": "Glasgow-991",
+          "relationship": "father",
+          "before": "uncertain",
+          "after": "uncertain",
+          "action": "replace_working_parent",
+          "assertion_id": "C-working-20261017-ayrshire-hugh-john",
+          "basis": "Prefer John Glasgow-3193 of the Corsankell/Kilwinning family as Hugh Glasgow-1603’s uncertain working father. This materializes the leading Ayrshire placement already argued in the maintained five-generation map. The 1571 Corsinkell deed expressly names John as James elder’s son; the earlier Kilwinning tenant appearances are attributed to him as probable. Hugh’s surviving profile account describes an Ayrshire progenitor, his son’s account is centred on Kilwinning, and the following households lie in Kilwinning, Ayr and Kilbirnie. These successive local settings favour the documented nearby family over the existing Mid Calder/Inveresk father attachment, which depends on an online tree and has no movement, household or property bridge. A John-to-Hugh-to-John sequence is compatible supporting context, not a naming rule. Father is selected as a revisable one-generation model, rather than leaving the previously preferred local route only in prose.",
+          "limitations": "Hugh remains a tree-derived generation: no inspected contemporary record securely identifies him, names his father or establishes his own c.1600 birth. John’s before-1540 boundary means a birth for Hugh near 1600 would make him an older father, around 60 or more; a grandson or collateral position may fit better. Neither date is changed to fit. An earlier Hugh birth is possible but is not adopted as a new estimate, and no missing person is invented. The 1571 John is documented as a son, while his additional Kilwinning identity is only probable. John’s brother James Glasgow-3921, another local Glasgow family, an omitted generation and the former James Glasgow-991 placement remain alternatives. This is stronger locality reasoning, not a probable or proved father assessment. The 1677 deed-index Hugh, preacher of the gospel, remains an unresolved identity comparison and supplies no evidence for this father choice.",
+          "new_attachment": false,
+          "live_flag_changed": false
+        }
+      ],
+      "certainty_upgrades": 0,
+      "confidence_assessments_strengthened": 0,
+      "people": [
+        {
+          "id": "Glasgow-1603",
+          "name": "Hugh Glasgow",
+          "url": "/people/glasgow-1603.html"
+        },
+        {
+          "id": "Glasgow-3193",
+          "name": "John Glasgow of Corsankell and Kilwinning",
+          "url": "/people/glasgow-3193.html"
+        },
+        {
+          "id": "Glasgow-991",
+          "name": "James Glasgow of Mid Calder and Fisherrow",
+          "url": "/people/glasgow-991.html"
+        },
+        {
+          "id": "Glasgow-1604",
+          "name": "John Glasgow of Kilwinning",
+          "url": "/people/glasgow-1604.html"
+        },
+        {
+          "id": "Glasgow-1073",
+          "name": "Rev. John Glasgow of Kilbirnie",
+          "url": "/people/glasgow-1073.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "NRS GD39/5/59, 9 February 1571: James elder of Corsinkell and sons James and John; accepted archival catalogue abstract, original deed uninspected",
+          "url": "https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD39%2F5%2F59"
+        },
+        {
+          "title": "Sanderson, The People of Sixteenth Century Ayrshire (1987), teind lists 1559–60, pp.331 and333: Corsankell and Kilwinning households; maintained source review reused",
+          "url": "https://aanhs.org/wp-content/uploads/2018/05/people-of-ayrshire.pdf"
+        },
+        {
+          "title": "Scott, Fasti Ecclesiae Scoticanae vol. 3, p.103: the later Kilbirnie minister’s Ayrshire career; establishes setting, not ancestry",
+          "url": "https://electricscotland.com/bible/fastiecclesiaesc03scot.pdf"
+        }
+      ],
+      "detail_url": "/branches/research-corsankell-household/#chapter-ayrshire-hugh-preferred-family",
+      "provenance": [
+        "research/relationship_assessments.json",
+        "surname-research/clusters/early-scotland-glasgow-1098-map.md"
+      ]
     }
   ]
 }
