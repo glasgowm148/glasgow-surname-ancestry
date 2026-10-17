@@ -104,6 +104,15 @@ Therefore entry 1272 is best described as **in an Inishrush-linked collector clu
 4. Search surviving Tamlaght O'Crilly/Kilrea Presbyterian session, communion, baptism and marriage material for a McCullough-Glasgow household before 1760.
 
 
+<!-- findmypast-studies-sweep-2026-10-07 -->
+## Source findings
+
+### Findmypast sweep — 7 October 2026
+
+- **Known record, Findmypast form only.** Findmypast's *Ireland, Census of Protestant Householders 1740* indexes **Hugh (1) Glasgow** and **Hugh (2) Glasgow** in Tamlaghtocrilly, barony of Loughinsholin (`IRE/PRONI/1740PH/G/00359` and `/00360`). The index gives no townland, collector order or neighbours, so it cannot separate the two men any further than the Macafee and Torrens transcriptions already do. Note that Findmypast cites the source as "T808/1528 and T716/9", not the `T808/15258` used above; the difference looks like a typing error in the index and should be checked before either reference is quoted.
+- Searches that found nothing: no Findmypast record (wills, deeds, valuation, marriage licence bonds, newspapers) names a Hugh Glasgow in Tamlaght O'Crilly, Inishrush or Portglenone between 1741 and 1850. The Irish Hugh Glasgow probate entries of 1825 and 1833 (`IRE/DIOC/WILL/00011507`, `IRE/INREV/WILLS/0148379/1`, `IRE/ENEC001/26354`) all belong to Hugh of Drumgreenagh, County Armagh (`Glasgow-4012`), who died on 22 February 1825; they are not this family. British Newspaper Archive searches for "Hugh Glasgow" with Tamlaght, Innisrush or Portglenone returned nothing, so the 1772 Belfast News-Letter subscriber list was not found again in the BNA OCR.
+
+
 ## Hugh–McCullough parentage assessment — 17 October 2026
 
 Hugh Glasgow-548 and Margaret McCullough-1964 are assessed as the probable parents of Hugh Glasgow-540, the emigrant whose Pennsylvania will was made in 1827 and proved in 1831. William Melanchthon Glasgow’s family history, p.2, explicitly names the elder Hugh and Margaret as the married parents of John, Robert and their youngest son Hugh, born in County Londonderry in 1739. Page 3 follows this younger Hugh’s household through John, whom the author calls his grandfather, and its emigration in 1796. This is specific descendant testimony about a named family, rather than a parent invented from dates or a shared surname. The younger Hugh’s recorded will independently names the same four sons John, Hugh, Alexander and Robert, and daughter Nancy, within the corresponding Pennsylvania household. That agreement supports the family history’s identification of the emigrant and the reliability of its nearer family relationships. It does not independently name his parents. The explicit family account, consistent household identity and feasible generations together warrant probable parentage rather than leaving the father and mother ungraded.

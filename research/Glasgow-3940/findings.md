@@ -69,3 +69,10 @@ Mary's reported ages (28 at marriage in 1871, 60 in 1901, 72 in 1911) place her 
 > An unnamed child of Alex Glasgow and Molly McAughern of Gortereagh was recorded in the Rasharkin Presbyterian baptism transcription in 1838. The child is not listed in the family's 1851 census return, but that return also omits their daughter Mary, who was living, so the absence is not evidence of an early death. Mary's later ages place her birth about 1838–41 and she may be this child; the original register entry has not been examined.
 
 Queued locally; not saved on WikiTree. The profile's "before 1841" death date should be reviewed in the same edit.
+
+<!-- glasgow-951-findmypast-sweep-2026-10-07 -->
+## Source findings
+
+### Findmypast sweep — 7 October 2026
+
+Findmypast's index of the 1851 Rasharkin deaths section has no death entry for Alexander's household (family 35). The only Lisnagaver Glasgow death indexed is Eliza, aged 1, of Thomas's family 37 (`IRE/CENSUS/1841-1851/44468`). So the 1851 return does not record this unnamed 1838 child as dying between 1841 and 1851. That fits either death before 1841 or survival elsewhere, and does not support "died before 1841". This is index-level; the original deaths page should be checked. Source: [Findmypast sweep report](../Glasgow-951/findmypast-sweep-2026-10-07.md).

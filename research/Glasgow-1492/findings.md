@@ -77,6 +77,16 @@ A notice dated Baltimore, 19 October 1777, signed Joseph Ford, orders absent sol
 
 - [Aurora General Advertiser, 1791-09-21, p.2](https://www.newspapers.com/image/584905489/): no longer a candidate for this profile. Samuel Glasgow is listed under Washington County among Pennsylvania justices of the peace in commission on 1 September 1791. County records identify him as Samuel Glasgow, Esquire, of Hanover Township: commissioned 7 May 1788, previously a Peters Township wheelwright, and still a JP in the 1800 Hanover assessment. Glasgow-3175 (died 1801, Hanover Township) is the better candidate, but Glasgow-1134 (later of Hanover, Beaver County) has not been excluded, so the match stays possible.
 
+<!-- findmypast-studies-sweep-2026-10-07 -->
+## Source findings
+
+### Findmypast sweep — 7 October 2026
+- **Adds detail to the known 1766 entry:** Findmypast's index of the 1766 Religious Census (PRONI T808/15264 etc.) gives "Sam Glasgo", Protestant, townland **Gortin**, Derryloran (IRE/PRONI/1766RC/G/00422). The separate "Sam Glasgoe" at Whitehill, Kildress, is IRE/PRONI/1766RC/G/00425. The index adds no age or relatives.
+- **Later context, not identity:** a Samuel Glasgow lived in the same small group of townlands seventy to ninety years later. "Saml Glasgow" is in the Killycurragh Valuation Office field book of 27 Nov 1834 (IRE/CENSUS/VALUEBOOKS/183583). William, son of Samuel Glasgow, died at Gortin on 18 March 1854, aged 8 (Londonderry Standard, 30 March 1854; IRE notice FN-D-8030132A). Silas Glasgow of Killycurragh, son of Samuel, married Isabella Loughlin in 1855 (Coleraine Chronicle, 8 September 1855; FN-M-9E888343). Griffith's Valuation lists Samuel Glasgow at Gortin, Derryloran. This shows that the name Samuel kept recurring at Gortin and Killycurragh. It does not connect the 1766 householder to them or to this profile.
+
+### Searches that found nothing
+- Findmypast all-record search on the Moneymore place keyword (17 results) found no Glasgow before 1835. The BNA search "samuel glasgow" + moneymore found only the known 1845 tenant-right farmer, a Samuel Glasgow, Esq., P.L.G., who seconded a resolution at the Moneymore Tenant League meeting of 14 March 1851 (Freeman's Journal, 27 March 1851, BL/0000056/18510327/014), and the 1855 marriage of Samuel Glasgow, merchant of Cookstown, to Fanny Stewart Cathcart. None of these is old enough to be this Samuel.
+
 <!-- queue-record-integration-2026-10-17:start -->
 ## Record findings and identity limits — 17 October 2026
 

@@ -43,6 +43,14 @@ father-son or uncle-nephew link.
   profile or create another person from it.
 - The family history's August 1796 emigration passage concerns this Hugh's household. It should not be transferred to his father `Glasgow-548`.
 
+
+<!-- findmypast-studies-sweep-2026-10-07 -->
+## Source findings
+
+### Findmypast sweep — 7 October 2026
+
+- Searches that found nothing: Findmypast has no Irish record of this Hugh before the family's 1796 emigration. The Irish Hugh Glasgow probate entries of 1825 and 1833 belong to Hugh of Drumgreenagh, County Armagh (`Glasgow-4012`), not this man. The only Tamlaght O'Crilly Hughs on Findmypast are the two 1740 householders (`IRE/PRONI/1740PH/G/00359`, `/00360`), who are an earlier generation. British Newspaper Archive searches for "Hugh Glasgow" with Tamlaght, Innisrush or Portglenone returned nothing.
+
 <!-- repo-integration-audit-2026-10-07:L11-018 -->
 ## Next records — probate continuation, recorded 16 July 2026
 

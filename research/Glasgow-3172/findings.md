@@ -72,6 +72,13 @@ PRONI T/828/15, was not recovered: the catalogue returned HTTP 403. That is an
 access limit, not evidence that the surviving extract lacks kin. No new relative
 is established. [Search scope and handoff](../larne-proof-2026-09-21/early-james.md).
 
+<!-- findmypast-studies-sweep-2026-10-07 -->
+## Source findings
+
+### Findmypast sweep — 7 October 2026
+
+- **Searches that found nothing new:** no new Findmypast record for a seventeenth-century Belfast James Glasgow/Glasco was found. The only near match in the earlier pre-1750 audit is an Exchequer bill entry for "James Campbell or Glasgow", 1672 (`IRE/COURT/EXCHEQUER/0001633855`), already classed there as a non-exact hit; it gives no Belfast link.
+
 <!-- repo-integration-audit-2026-10-07:L13-014 -->
 ## Source findings — Macartney letters, 1667 and 1679
 
@@ -83,6 +90,16 @@ is established. [Search scope and handoff](../larne-proof-2026-09-21/early-james
 The letters are cited by date in the 21 September profile draft; how they were seen is not stated. The draft grades the 1686 Belfast will reference (`T/828/15`) as probably his but not conclusive until the extract is read, and 1686 is not proved to be a death or probate date.
 
 Recorded in `research/Glasgow-3172/larne-proof-2026-09-21.wiki` (21 September 2026); carried into this file on 7 October 2026.
+
+<!-- findmypast-studies-sweep-2026-10-07 pre1600-pass3 -->
+## Third pass (2026-10-08)
+
+- Belfast Town Book: "James Glasco Marriner Admitted and sworne a ffree Comoner", 21 Jan 1669/70. In the archive.org text it comes before the p.271 heading, so it may be at the foot of p.270. Check against the scan.
+
+<!-- findmypast-studies-sweep-2026-10-07 pre1600-pass4 -->
+## Fourth pass (2026-10-15)
+
+- Dobson, *Scots-Irish Links* Pt 4 p.36 [NAS E71/3/2–3]: "master of the James of Donaghadie at the port of Ayr on 26 August 1667; master of the James of Belfast at the port of Ayr on 13 October 1673". These two Ayr port-book entries probably belong to this Captain James; neither was in the corpus.
 
 ## Larne working family — 16 October 2026
 

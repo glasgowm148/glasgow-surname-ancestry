@@ -64,6 +64,14 @@ Two primary memorial images strengthen and extend the Aghadonvane identification
 The uncommon residence and status make both records secure matches to this profile. They show James active in the local landed and marriage-settlement network in 1779–1780; they do not identify his spouse or children.
 
 
+<!-- findmypast-studies-sweep-2026-10-07 -->
+## Source findings
+
+### Findmypast sweep — 7 October 2026
+
+- **Adds detail: the 1782 entry is an intestate Prerogative administration.** *Betham's Genealogical Abstracts* (National Archives of Ireland; notebook "Prerog. Admons. (Int.) G. 1776–1800") abstracts an administration dated **24 January 1782** for **James Glasgow, gent., of Aghadonvane, County Leitrim**, with **Catherine** recorded as his spouse (Findmypast `IRE/NAI/GENABS/00401119/1` for James and `/2` for Catherine; image S2/IRE/NAI/007634676/00583). This answers the open question above: the 1782 event is an intestate administration in the Prerogative Court, not a will. Findmypast's index marks James as "Dead: No", which is probably an indexing default. Read the abstract image to confirm that James was the intestate and Catherine the administratrix (widow) before giving a death date of "before 24 January 1782".
+
+
 ## Selected uncertain family — 16 October 2026
 
 James Glasgow-3124 of Aghadonvane already has John Glasgow-3960 attached as father, without a certainty mark. That existing link remains unproved and is not a new connection or a confidence upgrade. John’s 1728 Johnston/McGowan associations can be compared with James’s 1779 lease and marriage-articles witnesses: a repeated local social network supports investigating continuity, not the exact father–son relationship. The 15 August 1779 lease, registered 10 August 1780, names James as esquire of Aghadonvane and uses Robert and William, young sons of James Johnston of Kinlough, as measuring lives. Those lives are not called Glasgow relatives. The 2 October 1779 marriage articles name James Glasgow, Edmund/Edmond Connolly and Andrew McGowan as witnesses. James’s present circa-1750 birth would make the circa-1705 John about 45 at his birth; both dates are estimates. An older James or a different generation remains possible. No intervening ancestor is invented.

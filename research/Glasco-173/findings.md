@@ -61,6 +61,16 @@ The notice supplies residence but no age, relatives or migration link to this Du
 
 - [Aurora General Advertiser, 1799-04-09, p.3](https://www.newspapers.com/image/586542475/): no longer a candidate for this profile. 'STOP THIEF': Thomas Glascoe reports $115 stolen from his house on Tinicum Island, near Chester on the Delaware, on 31 March 1799, by a man calling himself William Steel (notice dated 9 April 1799). No WikiTree profile fits this Thomas Glascoe; the Dublin-born Glasco profiles have no American record.
 
+<!-- findmypast-studies-sweep-2026-10-07 -->
+## Source findings
+
+### Findmypast sweep — 7 October 2026
+
+- **New (context):** St Michan's Roman Catholic register also has **Elizabeth**, baptised 12 February 1744, parents **James Glasco and Catherine** (`IRE/PRS/BAP/3193307`), showing an earlier Glasco household in the same parish as Sarah's 1760 baptism. No link to Thomas is stated.
+- **New, weakens the attached son:** *Hibernian Journal*, 11 January 1773, p.2 (BNA `BL/0000817/17730111/005`), repeated in the same paper on 8, 10 and 22 February, 3, 5 and 22 March and 7 and 9 April 1773, and in *Saunders's News-Letter*, 12 March 1773, p.3 (`BL/0001057/17730312/016`). Full-page OCR of the 5 March issue (`BL/0000817/17730305/010`) reads, with long-s normalised: "THOMAS GLASCO, who served Apprenticeship to his Father, Philip Glasco, late [of] Christ-Church-lane, Watch-maker, and since had several Years Practice in London, takes this Method of informing his Friends and the Public, that he carries on the usual [business] at his said Father's House". The watchmaker Thomas named his father as Philip Glasco. If [[Glasco-144]] is the watchmaker, this profile cannot be his father. If he is not, the edge is still unsourced.
+- **Candidate, unproved:** Dublin diocesan wills and grants index, **Catherine Glasco**, 1760 (`IRE/IET0090/0424/212`). This could be this Thomas's wife or the elder Philip's wife (died early 1760); the index gives no residence or husband.
+- **Searches that found nothing:** no Thomas-and-Catherine Glasco baptism other than Sarah's was found in the Findmypast Irish Catholic parish index for Dublin 1720–1820.
+
 <!-- queue-record-integration-2026-10-17:start -->
 ## Record findings and identity limits — 17 October 2026
 

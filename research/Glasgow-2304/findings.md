@@ -94,6 +94,12 @@ The common-father comparison is withdrawn: it tested a scenario that was not pro
 
 These are proposals for the WikiTree date fields and are queued for review; nothing has been changed on WikiTree.
 
+<!-- findmypast-studies-sweep-2026-10-07 -->
+## Source findings
+
+### Findmypast sweep — 7 October 2026
+- Searches that found nothing: the British Newspaper Archive search "archibald glasgow" (first 200 of 15,321 read; nearly all are Scottish men named Archibald from the city of Glasgow) found nothing for Archibald of Kilwaughter or Newberry. Findmypast's captured Irish record sets hold no Archibald Glasgow in County Antrim before 1840. Nothing found bears on his missing adult son or on Robert of Tennessee.
+
 <!-- repo-integration-audit-2026-10-07:L16-011 -->
 ## Unresolved — Mary's maiden surname, 7 October 2026
 

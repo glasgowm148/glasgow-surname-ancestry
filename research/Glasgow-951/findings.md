@@ -3434,6 +3434,18 @@ Confirm that each tester is willing to upgrade and that a usable sample is held.
 
 The public-page placements cited here are summarised readings of 6 October 2026 and should be confirmed on the [project page](https://www.familytreedna.com/public/Glasgow?iframe=ydna-results-overview) before ordering.
 
+<!-- glasgow-951-findmypast-sweep-2026-10-07 -->
+## Source findings
+
+### Findmypast sweep — 7 October 2026
+
+The full report is [Findmypast sweep report](../Glasgow-951/findmypast-sweep-2026-10-07.md). Findings that bear on this profile:
+
+- **Son Robert (Glasgow-938), 1901:** a boarder, widower, aged 60, in his son Alexander's household at 58 East Rose Street, Camlachie, which was also his 1902 death address (Findmypast transcript `GBC/1901/0036891791`). The "different Robert Glasgow in the 1901 census" note in the Glasgow-938 biography is wrong. This completes the Scottish chain from 1871 to 1902 at index level.
+- **1851 Rasharkin deaths table:** Findmypast's index of the Rasharkin deaths section has one Lisnagaver Glasgow death: Eliza, daughter, aged 1, of Thomas's family (family 37), `IRE/CENSUS/1841-1851/44468`. No death is indexed against Alexander's family (35). The return therefore does not record the first James (born 1837) or the unnamed 1838 child (Glasgow-3940) as dying between 1841 and 1851. This is index-level only; the original page should be checked.
+- **Lizzie of John's cited branch:** a new candidate is **Elizabeth Glasgow**, head of household, 80, single, born Northern Ireland, at Cohoes Ward 3, Albany County, New York, in the 1940 US census, and in the same house in 1935 (`USC/1940/1558009575`). Cohoes adjoins West Troy, where the 1880 candidate Lizzie Glasgow, 21, was a servant (`USC/1880/1000137198536`). A Lizzie Glasgow, 22, of Ireland, arrived at New York on the *Algeria* in 1878 (`US/PASS/NY/012214849261`). Unproved; her death record would test it.
+- **Not found:** no BNA death notice for Alexander (1888) or Mary (1892); no Findmypast index entry for Alexander and Mary's marriage; no McCaughan record naming Mary's parents.
+
 <!-- repo-integration-audit-2026-10-07:L04-001 -->
 ## Recommended correction — Hugh Macaw's birth date in the Rasharkin transcription, 30 September 2026
 

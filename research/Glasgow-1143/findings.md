@@ -282,6 +282,12 @@ The recommendation of 6 October 2026 is, first and at no cost, to obtain through
 
 A result that is FT25406-positive and FT20271-negative would put this family outside FT20271, assuming the testers' reported pedigrees are correct. A result inside FT20271 is consistent with any route and proves none. No result can name a father. [Full recommendation](/people/glasgow-951.html#next-research).
 
+<!-- findmypast-studies-sweep-2026-10-07 -->
+## Source findings
+
+### Findmypast sweep — 7 October 2026
+- Searches that found nothing: Findmypast record searches keyed to Kilwaughter, Ballykeel, Raloo, Carncastle and Glenarm returned no Glasgow-surname records of any period (Glenarm returned only Glass entries). Larne returned only four civil entries after 1870. The all-Glasgow County Antrim search for 1700–1840 holds nothing from east Antrim. In the British Newspaper Archive, "glasgow" with Kilwaughter for 1738–1830 (13 hits), "robert glasgow" with Larne (first 200 of 1,442) and "glasgow" with Larne for 1765–1775 found no notice naming Robert, Rachel or the Ballykeel holding. Nothing found bears on the founding household or on Robert's father. A 1773 Larne sailing to Charleston under Robert Shutter is recorded under James Glasgow-1144.
+
 <!-- repo-integration-audit-2026-10-07:L10-004 -->
 ## Source findings — Y-STR comparison with the R-FT20271 lines, 12 August 2026
 

@@ -40,3 +40,11 @@ concretely contradicted and must not be deleted without an evidenced replacement
 The public biography now includes both extracted baptism indexes, retains Cross
 as explicitly uncertain, and records the Irish register gap. No person or
 location was changed.
+
+<!-- findmypast-studies-sweep-2026-10-07 -->
+## Source findings
+
+### Findmypast sweep — 7 October 2026
+
+### Searches that found nothing
+- A Findmypast search for Charles Glasgow (variants on) in Ireland, 1680–1780, returned five records, none of them a Glasgow. The two dated ones are a Charles Glass in the 1740 Protestant Householders at Tamlaght Finlagan, Ballykelly (IRE/PRONI/1740PH/G/00366) and a Charles Glass in a 1740 Court of Exchequer bill book, Dublin. The only County Londonderry Glasgow households in the 1740 index are Hugh (1) and Hugh (2) at Tamlaght O'Crilly. The Glasgow-surname place searches for Killycurragh and Ballynasollus found no Charles. Their earliest Glasgow entries are the 1766 William at Killycurragh and the 1834 Valuation Office field book (Saml Glasgow, Killycurragh). No place search was run for Cross. Nothing bridges the South Leith child to Ireland.

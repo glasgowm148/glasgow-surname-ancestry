@@ -246,6 +246,13 @@ Seen as: a later researcher's abstract copied into the owner's notes; the origin
 
 Recorded in `archive/dump/TheGlasgows.md` (owner's checklist export of 10 March 2025); carried into this file on 7 October 2026.
 
+<!-- findmypast-studies-sweep-2026-10-07 -->
+## Source findings
+
+### Findmypast sweep — 7 October 2026
+- **New context, not a passenger record: a Larne ship for Charleston in 1773 had a Shutter as master.** *Belfast News-Letter*, 5 March 1773, p. 3 (BNA article BL/0000038/17730305/011). Full-page OCR: "For CHARLESTOWN in SOUTH-CAROLINA. THE Ship JUPITER, Robert Shutter, Master, shortly expected in this Harbour from Baltimore, will be clear to sail from hence for the Port aforesaid the 10th of May next. Those that intend taking their Passage by said Vessel, are desired to apply to John Montgomery and Co. of Larne, Andrew Thompson of Newry, or Thomas Bark[...; OCR unclear] ... on Saturday, in Ballymena." No Glasgow is named. It shows a Larne-based sailing to South Carolina in May 1773, fitting the reported 1772/73 migration of James's family, and links it to the Shutter family, who already had a business connection with the Larne Glasgows (1749 mortgage). It does not show that James or anyone of his household sailed on her. This record was not in the research corpus.
+- Searches that found nothing: Findmypast record searches keyed to Kilwaughter, Ballykeel, Raloo and Carncastle returned no Glasgow-surname records of any period. The British Newspaper Archive searches "glasgow" with Larne for 1765–1775 (11 hits: the 1768 rope-walk advertisement and the 1773 Jupiter notice above), "james glasgow" with Kilwaughter (28 hits), "glasgow" with Kilwaughter for 1738–1830 (13 hits) and "glasgow" with "larne carolina" (first 200 of 3,991 read) found no notice naming James, Robert or Archibald Glasgow, no 1772 petition text and no emigrant passenger list.
+
 <!-- queue-record-integration-2026-10-17:start -->
 ## Record findings and identity limits — 17 October 2026
 

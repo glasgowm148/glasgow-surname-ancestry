@@ -124,6 +124,17 @@ James Anderson, husband of the probable sister Elizabeth (Glasgow-4071), died at
 - [New York State Death Index, 1891](https://archive.org/details/New_York_State_Death_Index_1891): the only Glasgow is Sarah, Newburgh, 14 October; the only Glasco is Julia, Newburgh. Nancy's death at Plattsburgh on 31 October 1891 is not indexed under either spelling, so no state death certificate naming her parents is identified. The Plattsburgh town or village clerk's register is the remaining route.
 - New York State Historic Newspapers: the site was behind a browser verification page on 6 October 2026 and was not searched further. Of the earlier Clinton County result lists, 76 of 96 Nancy results and 33 of 53 `Glas*` results remain unread.
 
+<!-- glasgow-951-findmypast-sweep-2026-10-07 -->
+## Source findings
+
+### Findmypast sweep — 7 October 2026
+
+- **Clinton County Glasgows:** the only Irish-born Glasgow man found in Clinton County during Nancy's lifetime is **Robert Glascow**, 35 (born c.1825, Ireland), at Ellenburgh in the 1860 US census. He was with wife Martha, 26 (born Canada), and children Jane 8, John 6, Martha 4, Robert 2 and David under 1 (Findmypast transcript `USC/1860/0000669197382`). No link to Nancy is shown. He is a lead for the citation's American kin.
+- **Possible arrival, weak:** Nancy Glasgow, 46 (born c.1803), arrived at New York from Belfast on the *Marianne* on 2 July 1849, with Wm, Matilda, Jane, Henry, Adam, Isaac, Benjamin, Alexander and James Glasgow (`US/MIGR/PASSENGERLIST/304240`; also *Irish Famine Immigrants*). The age is about 12–17 years too old for Nancy (aged 65 in 1880, 50 in 1870), so this is not adopted.
+- **Searches that found nothing:** Plattsburgh Glasgow/Glascow records other than Nancy's 1870 and 1880 census entries; Margaret Kennedy and Robert Anderson in Plattsburgh (the 1850 Robert Anderson, 21, was born in New York); Walworth household records add nothing new.
+
+Source: [Findmypast sweep report](../Glasgow-951/findmypast-sweep-2026-10-07.md).
+
 <!-- repo-integration-audit-2026-10-07:L02-007 -->
 ## Identity assessment — Illinois James G. Glasgow excluded, 15 September 2026
 

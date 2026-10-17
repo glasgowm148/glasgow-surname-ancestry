@@ -68,6 +68,12 @@ On WikiTree Hugh's line continues Hugh → John Glasgow-4179 of Larne → John G
 
 Naming gives the route no support: Hugh, a recurring Larne forename, occurs nowhere among John farmer's probable children or documented grandchildren. The absence excludes nothing. No relationship is changed. [Full comparison](/people/glasgow-951.html#larne-reconstruction).
 
+<!-- findmypast-studies-sweep-2026-10-07 -->
+## Source findings
+
+### Findmypast sweep — 7 October 2026
+- Searches that found nothing: the British Newspaper Archive search "hugh glasgow" with Larne (first 200 of 445 read) and the same search limited to 1738–1830 (one irrelevant hit) found no notice of Hugh, his 1767 death, his widow Ann or the Newtown tenements. Findmypast's Hugh Glasgow searches for Ireland, 1730–1850, hold no Larne record: the wills and administrations indexed for 1825–1833 belong to Hugh Glasgow of Drumgreenagh, County Armagh (IRE/DIOC/WILL/00011507, IRE/INREV/WILLS/0148379/1, died 22 February 1825), and the 1740 Hughs are in Tamlaght O'Crilly. Nothing found bears on Hugh's parentage or on John-4179 as his son.
+
 <!-- repo-integration-audit-2026-10-07:L13-006 -->
 ## Unresolved — possible Dublin baptism, 1704
 

@@ -87,6 +87,17 @@ the actionable threshold unless a specific parish, migration or relationship
 record joins the two men.
 
 
+<!-- findmypast-studies-sweep-2026-10-07 -->
+## Source findings
+
+### Findmypast sweep — 7 October 2026
+
+- Searches that found nothing for the Irish leads: Findmypast has **no** Glasgow-surname record keyed to Cavankilgreen, Augher, Gortigillagh or Ballybogey. The County Tyrone and County Leitrim surname searches (1700–1860) found no earlier William than the 1740 Derryloran householder (`IRE/PRONI/1740PH/G/00361`), who is already in the Derryloran research (`Glasgow-2990`) and is not linked to this profile. Newspaper searches for "William Glasgow" with Clogher found nothing.
+- **New, unlinked: Clogher diocesan marriage licence bond, 1747.** Findmypast's *Ireland Diocesan and Prerogative Marriage Licence Bonds Indexes* lists **Martha Glascow** and **Daniel Viridet**, diocese of **Clogher**, 1747 (`IRE/DIOC/MAR44039`; index image IRE/DIOC/007246529/00118). The index gives no residence or parents. It is the only eighteenth-century Glasgow entry found for Clogher diocese, which covers south Tyrone, but nothing connects Martha to the 1725 Cavankilgreen occupier or to this William.
+- **Adds detail to the Leitrim lead.** *Betham's Genealogical Abstracts* (Prerogative administrations, intestate, "G" 1776–1800) has an entry dated **24 January 1782** for **James Glasgow, gent., of Aghadonvane, County Leitrim**, with **Catherine** as his spouse (`IRE/NAI/GENABS/00401119/1` and `/2`; image S2/IRE/NAI/007634676/00583). Aghadunvane was one of the lands in the 1728 Johnston-network deed that John Glasgow of Gortigillagh witnessed, so this keeps a gentry Glasgow family on the same Leitrim lands fifty years later. It is evidence for the Leitrim family (`Glasgow-3124`), not for a descent from this William.
+- Pennsylvania (1730–1800): Findmypast's indexes show Glasgow taxpayers in Chester County from 1751 (James, Samuel, John, Nathaniel, Margaret and a widow), a 1743 Chester County indictment of a John Glascow, and 1790 census households across the state. None states an Irish origin or names a father, so none can be tied to the Robert c.1710 or James William 1731 Y-DNA lines without other evidence.
+
+
 ## Selected uncertain family — 16 October 2026
 
 Glasgow-2462 is the proposed, very uncertain working father of the traditional Ulster ancestor Glasgow-591 and the Cavers Covenanter Glasgow-4138. This carries the existing possible identity with the Polwarth child Glasgow-1605 into a concrete local family model. The Polwarth index names the child’s father as William Glasgow, and Glasgow-2462 is already attached to that child with uncertainty. The three younger profile accounts are retained as possible stages of one life, not three proved brothers. Neither new father attachment is independent support for the other: both depend on the same child/adult identity and on the unproved identification of the named Polwarth father with the Inveresk man.

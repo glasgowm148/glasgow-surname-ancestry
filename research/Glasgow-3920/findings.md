@@ -28,6 +28,14 @@ An inscription at Kilclone, County Meath, reported in 1892 by the Association fo
 
 Recorded in `surname-research/clusters/kilclone-meath-glasco-family.md` (17 July 2026); carried into this file on 7 October 2026.
 
+<!-- findmypast-studies-sweep-2026-10-07 -->
+## Source findings
+
+### Findmypast sweep — 7 October 2026
+
+- **Minor:** Findmypast's *Ireland, Memorials of the Dead* index has only two Glasco entries for Kilclone, **Patrick** (`IRE/MEMDEAD/008202`) and **James** (`IRE/MEMDEAD/008199`), both on image `IRE/MEMDEAD/VOL2/00000210`. The index gives no age or date for Patrick and gives James a death year of **1736**, which agrees with neither date in the published inscription (1 November 1738 for Richard and William; May 1754 for Patrick). It is very probably an indexing error; the published text should be preferred until the image is read.
+- **Searches that found nothing:** no other Glasco/Glasgow record of any kind is indexed for Kilclone or for County Meath before 1800 (searches `glasco_meath`, `place_kilclone`). BNA snippet searches for "glasco" with "kilclone" returned nothing, and with "meath" returned only nineteenth-century items (a Thomas Glasco among occupiers of part of Kilbrew, County Meath, in a 1817 Dublin Evening Post sale notice, `BL/0000435/18170607/033`; Owen Glasco of "Baddinstown", 1841, already known). Neither is linked to this family.
+
 
 ## Selected uncertain family — 16 October 2026
 

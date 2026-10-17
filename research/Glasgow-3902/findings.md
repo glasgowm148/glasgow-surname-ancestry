@@ -360,6 +360,16 @@ It does not by itself connect the Lisnagaver family. Alexander Glasgow-951's pro
 
 No relationship is changed. [Full comparison](/people/glasgow-951.html#larne-reconstruction).
 
+
+<!-- findmypast-studies-sweep-2026-10-07 -->
+## Source findings
+
+### Findmypast sweep — 7 October 2026
+
+- **New: Valuation Office field book, 9 May 1832.** Findmypast's *Ireland Valuation Office Books* indexes **Adam Glascow** at **Inishrush**, Tamlaght O'Crilly, barony of Loughinsholin, in a **Field Book** with valuation date **9 May 1832** (National Archives of Ireland `OL/4/1093`, film `MFGS/54/52`; record `IRE/CENSUS/VALUEBOOKS/1849510`, image IRE/CENSUS/1821-51/007250657/00373 in a book running images 00342–00401). This is about eighteen months earlier than the 1833 tithe book and is independent of it. The index gives no lessor, acreage or valuation; read the image for those. No other Glasgow, Glasco or Glascow appears in the Valuation Office Books for Inishrush or Tamlaght O'Crilly.
+- **Adds detail to the known 1831 census entry.** Findmypast's own index of the 1831 return has two copies of Adam's entry (`IRE/CENSUS/1821-1831/154457` and `/267001`, from two different microfilm copies, images 007246494/00092 and 007246634/00412). Both give Innisrush, house 91, folio 44, one family, **3 males and 5 females, 8 Presbyterians**. This is a third index reading that agrees with MacAfee rather than Torrens on denomination. It is still an index; the original return should settle the column.
+- Searches that found nothing: British Newspaper Archive name searches for "Adam Glasgow" or "Adam Glasco" with Innisrush, and a broad "Adam Glasgow" search filtered to before 1870, found no notice of this Adam. In those results "Adam Glasgow" before 1870 was the Irish Presbyterian missionary Rev. Adam Glasgow (India), who is a different man.
+
 <!-- repo-integration-audit-2026-10-07:L11-008 -->
 ## Unresolved — 1844 death notice, recorded 16 July 2026
 

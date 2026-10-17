@@ -20,6 +20,14 @@ century Donegal working cluster, not the seventeenth-century count.
 | [Parliamentary report, printed p. 201](https://archive.org/details/parliamentarypa27commgoog/page/200/mode/1up) | Lists James Glasgow in the Killybegs collector-account material under 1728. | Direct for name, function/locality context and accounting date; silent on birth, parentage and death. |
 | [Thomas Glasgow (Glasgow-3556) Donegal case](../Glasgow-3556/findings.md) | Thomas was an adult Raphoe deed actor in 1692-1695. | Makes an adjacent-generation relationship possible, but no record links Thomas and James. |
 
+<!-- findmypast-studies-sweep-2026-10-07 -->
+## Source findings
+
+### Findmypast sweep — 7 October 2026
+
+- **Searches that found nothing:** Findmypast surname searches keyed to Killybegs returned only Glass entries, and a BNA search for "james glasgow" with "killybegs" found no relevant notice. No record of the 1728 collector-account James was found in Findmypast.
+- **Possible collateral, unproved:** Raphoe diocesan marriage licence bond, **Rebecca Glasco** to **Jas Dogherty**, 1741 (`IRE/DIOC/MAR186149`) — a Glasco in the same diocese, not linked.
+
 ## Killybegs source and working-family review — 17 October 2026
 
 The inspected printed return identifies James Glasgow under Killybegs, opposite the year 1728, with a balance of £34 5s 6d. Its full heading is an account of deceased and dismissed tax collectors’ balances in Ireland as at 5 January 1826, under Land and Assessed Taxes. The entry is therefore retrospective. It is not a customs-collector appointment, an assertion that James lived in 1826, or a recorded birth or death in 1728. The precise meaning of the unlabelled year column is not stated on the inspected pages. Printed p.198 supplies the return heading and p.201 the James entry; Internet Archive leaves 216 and 219 were visually checked on 17 October 2026. The item’s inconsistent catalogue date is not used as the document’s date.

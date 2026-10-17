@@ -63,6 +63,16 @@ The notice supplies residence but no age, relatives or migration link to this Du
 
 - [Aurora General Advertiser, 1799-04-09, p.3](https://www.newspapers.com/image/586542475/): no longer a candidate for this profile. 'STOP THIEF': Thomas Glascoe reports $115 stolen from his house on Tinicum Island, near Chester on the Delaware, on 31 March 1799, by a man calling himself William Steel (notice dated 9 April 1799). No WikiTree profile fits this Thomas Glascoe; the Dublin-born Glasco profiles have no American record.
 
+<!-- findmypast-studies-sweep-2026-10-07 -->
+## Source findings
+
+### Findmypast sweep — 7 October 2026
+
+- **New: the 1779 bride's name and two children.** St Michan's Roman Catholic register, Dublin: **Mary**, baptised 5 December 1781, parents **Thomas Glasco and Elizabeth** (`IRE/PRS/BAP/3211466`, image `IRE/PRS/MICROFILM08829-08/0064`); **John**, baptised 17 September 1784, parents **Thomas Glasco and Eliza Hynes** (`IRE/PRS/BAP/3212705`, image `.../0083`). This is the first record found giving Miss Hynes's forename (Elizabeth/Eliza) and children for that marriage. St Michan's is the parish of Ormond Quay, where the watchmaker was at No. 20 in 1783, so these are very probably the watchmaker's children. Neither entry gives trade or address.
+- **Adds detail to the known 1785 licence:** the Dublin diocesan marriage licence index has **Thomas Glasco** and **Mary King**, 1785, p.216 (`IRE/IET0090/0424/012`). If this is the same Thomas, Eliza (Hynes) must have died between September 1784 and 1785; no burial has been found. The licence is not evidence that this profile's Thomas was born about 1766.
+- **New, bearing on parentage:** *Hibernian Journal*, 11 January 1773, p.2 (BNA `BL/0000817/17730111/005`), repeated in the same paper on 8, 10 and 22 February, 3, 5 and 22 March and 7 and 9 April 1773, and in *Saunders's News-Letter*, 12 March 1773, p.3 (`BL/0001057/17730312/016`). Full-page OCR of the 5 March issue (`BL/0000817/17730305/010`) reads, with long-s normalised: "THOMAS GLASCO, who served Apprenticeship to his Father, Philip Glasco, late [of] Christ-Church-lane, Watch-maker, and since had several Years Practice in London, takes this Method of informing his Friends and the Public, that he carries on the usual [business] at his said Father's House". The watchmaker of Christ Church Lane and later Ormond Quay was therefore very probably the son of Philip Glasco, watchmaker, not of [[Glasco-144]]. Whether this profile is that watchmaker is still unproved, but the attached father is now harder to sustain if he is.
+- **Treble Almanack 1783** lists Thomas Glasco in the Dublin Directory (`IRE/IE0005/173/001`); this is the same entry as the known Watson's 1783 listing.
+
 <!-- queue-record-integration-2026-10-17:start -->
 ## Record findings and identity limits — 17 October 2026
 

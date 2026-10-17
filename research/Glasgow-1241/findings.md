@@ -50,6 +50,17 @@ Profile prose and trees remain leads; inspect the cited record before treating a
 - [https://www.familysearch.org/ark:/61903/1:1:WGC9-DT2M](https://www.familysearch.org/ark:/61903/1:1:WGC9-DT2M)
 - [https://www.virtualtreasury.ie/item/PROI-DKPRI-26-7](https://www.virtualtreasury.ie/item/PROI-DKPRI-26-7)
 
+<!-- findmypast-studies-sweep-2026-10-07 -->
+## Source findings
+
+### Findmypast sweep — 7 October 2026
+
+- **New: a son named in print.** *Hibernian Journal*, 11 January 1773, p.2 (BNA `BL/0000817/17730111/005`), repeated in the same paper on 8, 10 and 22 February, 3, 5 and 22 March and 7 and 9 April 1773, and in *Saunders's News-Letter*, 12 March 1773, p.3 (`BL/0001057/17730312/016`). Full-page OCR of the 5 March issue (`BL/0000817/17730305/010`) reads, with long-s normalised: "THOMAS GLASCO, who served Apprenticeship to his Father, Philip Glasco, late [of] Christ-Church-lane, Watch-maker, and since had several Years Practice in London, takes this Method of informing his Friends and the Public, that he carries on the usual [business] at his said Father's House". This is the first record found that names a child of a Christ Church Lane Philip Glasco and gives the son's trade history. "Late" in early 1773 fits the elder Philip, whose death the Dublin Gazette reported in October 1772; Philip junior had died in December 1770 and, born about 1740, is very unlikely to have had a son who had already finished an apprenticeship and several years in London. The advertisement does not say "senior", so the identification of the father with the elder Philip is strongly probable, not stated. It gives no Scottish origin and does not bridge the Uphall baptism.
+- **New (index only): court and probate entries for Philip Glasco in Dublin.** Findmypast indexes Philip Glasco in the Equity Exchequer Bill Books on 9 March 1743 (vol. 45, p.185, `IRE/COURT/EXCHEQUER/0001369387`), on the same page as an **Ellinr Glasco** (`IRE/COURT/EXCHEQUER/0001369388`); in the Chancery Bill Books on 7 December 1749 (vol. 32, p.228, `IRE/COURT/CHANCERY/0000398412`); and in the Exchequer Bill Books on 20 December 1760 (vol. 62, p.154, `IRE/COURT/EXCHEQUER/0002199803`). The index gives no role, residence or trade. Ellinor is a candidate earlier wife or relative of the elder Philip (his marriage to the widow Mangan was reported in 1750), not proved.
+- **New (index only):** a Chancery bill of 3 November 1777 (vol. 43, p.190) indexes **Philip Glasco** and **Thomas Glasco** on the same page (`IRE/COURT/CHANCERY/0001223970`, `IRE/COURT/CHANCERY/0001223973`). Both Philips were dead by then, so this is probably litigation over a Philip's estate with Thomas as a party; the roles must be read from the image (`IRE/COURT/CHANCERY/007635217/00808`).
+- **Adds detail to the known 1772 will entry:** the Dublin diocesan wills and grants index (Deputy Keeper's 26th/30th/31st Reports) has two Philip Glasco entries for 1772 (`IRE/IET0090/0424/215`, `/216`) and two for 1777 (`/217`, `/218`). Findmypast transcribes no residence or grant type; the 1777 pair may be a later grant on the same estate.
+- **Candidate, unproved:** the same index has **Catherine Glasco**, 1760 (`IRE/IET0090/0424/212`). The elder Philip's wife died in early 1760 (Faulkner's, 2 Feb 1760); if her forename was Catherine (as the attached Mangan-824 profile has it) this could be her grant, but Glasco-173's wife Catherine was also living in Dublin in 1760, so no assignment is made.
+
 
 ## Selected uncertain family — 16 October 2026
 

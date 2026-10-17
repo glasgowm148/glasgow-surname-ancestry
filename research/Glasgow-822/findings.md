@@ -264,6 +264,16 @@ Seen as an image of the original register. It proves the dates and the parent fa
 
 Recorded in `research/free-space-pages/missing-evidence-analysis.md` (29 August 2026); carried into this file on 7 October 2026.
 
+
+<!-- findmypast-studies-sweep-2026-10-07 -->
+## Source findings
+
+### Findmypast sweep — 7 October 2026
+
+- **Adds detail to the known 1831 census entry for the probable same man (`Glasgow-3927`).** Findmypast's index of the 1831 return gives John Glasco at Innisrush, house 2, folio 41, 4 males and 4 females, and in one of its two copies **8 Presbyterians** (`IRE/CENSUS/1821-1831/154369`; duplicate `/266913` has no denomination). This supports the Presbyterian reading, which suits a Covenanter family, but it is an index, not the original.
+- Negative: the Valuation Office field book for Inishrush (9 May 1832, `OL/4/1093`) indexes Adam Glascow and no John.
+- Searches that found nothing: British Newspaper Archive searches for "John Glasgow"/"John Glasco" with Innisrush, Desertoghill or Garvagh, and for Glasgow with Drimbolg, found no notice of John or his family. The Drimbolg hits were all about the city of Glasgow or its ministers.
+
 <!-- repo-integration-audit-2026-10-07:L11-012 -->
 ## Recommended correction — title of the 1890 McKeown biography, 7 October 2026
 

@@ -113,6 +113,14 @@ The transcript-validated court record record for **Thomas Glasgow**, 02/03/1692,
 Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
 <!-- END FMP-GLASGOW-fmp-glasgow-d086eba57157 -->
 
+<!-- findmypast-studies-sweep-2026-10-07 -->
+## Source findings
+
+### Findmypast sweep — 7 October 2026
+
+- **Searches that found nothing:** Findmypast surname searches (variants on) keyed to Lifford, Clonleigh, Raphoe and Killybegs returned no Glasgow/Glasco/Glascow record of the 17th or early 18th century; Lifford and Killybegs produced only Glass entries, Clonleigh nothing. The three Dublin bill-book entries (1684, 1692, 1701) are already in the 2026 pre-1750 audit and in this file. A BNA search for "thomas glasgow" with "lifford" found nothing relevant.
+- **Possible collateral, unproved:** the Raphoe diocesan marriage licence bond index has **Rebecca Glasco** and **Jas Dogherty**, 1741 (`IRE/DIOC/MAR186149`). It is not in the earlier audit (which used the exact spelling Glasgow). It shows the Glasco spelling in Raphoe diocese a generation after Thomas; nothing links her to him.
+
 ## Earlier cleric records — filing correction, 15 October 2026
 
 The 1647–1661 records of Mr Archibald Glasgow belong in [Archibald Glasgow’s research](https://www.wikitree.com/wiki/Glasgow-1101). They are not events in Thomas’s life. Their possible relevance to Thomas depends on the separately assessed father–son identification; no new relationship certainty follows.

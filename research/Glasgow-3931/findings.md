@@ -63,3 +63,12 @@ The live structured birth was corrected to **about 1720, uncertain**. The 1740 P
 **Birth: about 1719 or earlier** (estimate): he was a householder in the 1740 Protestant householders' return and is assumed to have been at least 21. A value of "about 1720" would make him a householder at 20.
 
 These are proposals for the WikiTree date fields and are queued for review; nothing has been changed on WikiTree.
+
+
+<!-- findmypast-studies-sweep-2026-10-07 -->
+## Source findings
+
+### Findmypast sweep — 7 October 2026
+
+- **Known record, Findmypast form only.** Findmypast indexes this man and the second Hugh as **Hugh (1)** and **Hugh (2) Glasgow**, Tamlaghtocrilly, 1740 (`IRE/PRONI/1740PH/G/00359` and `/00360`). The index has no townland or collector order and does not say which of the two is entry 1195; it adds nothing that separates the two men.
+- Searches that found nothing: no other Findmypast record names a Hugh Glasgow in Tamlaght O'Crilly or Inishrush after 1740.

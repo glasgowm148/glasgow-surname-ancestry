@@ -39,6 +39,14 @@ Profile prose and trees remain leads; inspect the cited record before treating a
 
 The live structured birth was corrected to **about 1730, uncertain**. The 1754 Kilclone record identifies James as an adult but supplies no birth year. The earlier `before` value remains only a strict chronological boundary, not the most useful estimated birth. No biography, relationship, source or other structured field was changed in this audit.
 
+<!-- findmypast-studies-sweep-2026-10-07 -->
+## Source findings
+
+### Findmypast sweep — 7 October 2026
+
+- **Minor:** Findmypast indexes this James Glasco on the Kilclone memorial (`IRE/MEMDEAD/008199`, image `IRE/MEMDEAD/VOL2/00000210`) with a death year of **1736**. The published inscription says James erected the stone, which names deaths in 1738 and 1754, so 1736 cannot be his death year; treat it as an index error.
+- **Searches that found nothing:** no other Meath or Kilclone Glasco record before 1800 on Findmypast or in BNA snippets.
+
 
 ## Selected uncertain family — 16 October 2026
 

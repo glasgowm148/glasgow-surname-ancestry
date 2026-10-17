@@ -357,6 +357,14 @@ civil records remain cited.
 
 In the WikiTree snapshot of 28 September 2026, John Glasgow-1022's father is John Glasgow-3959 of Ballyboggy (uncertain), and John Glasgow-867 and Samuel Glasgow-2908 are attached to John Glasgow-4090, the record-defined John Glasgow, farmer. John-1022 is a disfavoured identity for that father: his 1851 Glenleslie household records a daughter Nancy who died in 1847 aged 36, while Nancy of Plattsburgh, Alexander Glasgow-951's probable sister, lived to 1891. The attachment to William Glasgow-1505 of Larne described above is historical, and the "William of Larne → John of Glenleslie → John of Lisnagaver" route no longer describes either the tree or the research.
 
+
+<!-- findmypast-studies-sweep-2026-10-07 -->
+## Source findings
+
+### Findmypast sweep — 7 October 2026
+
+- **New candidate for the 1851 nephew John: a Glenleslie Catholic marriage, 1835.** Findmypast's *Ireland Roman Catholic Parish Marriages* (National Library of Ireland registers, Glenravel, diocese of Down and Connor) records **John Glasgow of Glenleslie** marrying **Ann Reley of Glenleslie** on **11 February 1835** (`IRE/PRS/MAR/0404145/1`; NLI register vtls000633181, microfilm 05474-01). The same index records the baptism of **Hugh**, son of **John Glasgow** and **Ann(e)**, on **31 July 1836** at Glenravel; the two copies give the mother's surname as **Kelay** (`IRE/PRS/BAP/1894487`) and **Kelso**, with the address Skerry (`IRE/PRS/BAP/1896519`). These are probably misreadings of the same entry, and Kelay could be a misreading of Reley, but that is not proved. The 1851 nephew John, aged 40, married, was said to have married in 1839, not 1835, and Robert `Glasgow-1367`'s son John, also 40, was in America. So this John is a third candidate who may or may not be either of them. Read the NLI register images before using any of this.
+
 <!-- repo-integration-audit-2026-10-07:L12-016 -->
 ## Identity assessment — the resident nephew and Glasgow-3474, 7 October 2026
 

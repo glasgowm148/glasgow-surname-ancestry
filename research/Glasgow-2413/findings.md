@@ -76,6 +76,19 @@ Profile prose and trees remain leads; inspect the cited record before treating a
 - [original marriage return](https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1888/10763/5925382.pdf)
 - [IrishGenealogy.ie index](https://www.irishgenealogy.ie/view/?record_id=cima-2455742)
 
+<!-- glasgow-951-findmypast-sweep-2026-10-07 -->
+## Source findings
+
+### Findmypast sweep — 7 October 2026
+
+**A Watervliet candidate, near Troy.** In the 1910 US census, Watervliet Ward 1, Albany County, New York, **Daniel Glasgow**, 50 (born c.1860), born Ireland, both parents born Ireland, married, immigration year 1890, was a lodger in James Holmes's household (Findmypast transcript `USC/1910/004972898/00195/009`). The Albany County Naturalization Index has a **Daniel Glasgow** in Book 3, page 242 (`US/NY/ALBANYCO/NATIDX/019593`).
+
+- Watervliet (formerly West Troy) lies across the Hudson from Troy, where the existing candidate Daniel Glascow, cemetery labourer, died. The 1890 arrival year fits the twin daughters' 1889 birth returns, which describe Daniel as residing in New York; census arrival years are often approximate. A married man boarding alone also fits a wife left at Tamlaght.
+- The age is a caution. A birth c.1860 should be compared with the age on the 1888 marriage return; the profile title currently gives born 1870.
+- Next step: the naturalization file (Book 3, p.242) for birth date, place and arrival. Unproved.
+
+Source: [Findmypast sweep report](../Glasgow-951/findmypast-sweep-2026-10-07.md).
+
 <!-- larne-kilwaughter-audit-2026-10-06:followup-neely -->
 ## Relationship assessment — the Neely name in the 1846 marriage, 6 October 2026
 

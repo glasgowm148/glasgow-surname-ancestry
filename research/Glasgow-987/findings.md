@@ -230,6 +230,17 @@ A 30 March 1889 Exchequer judgment (creditor Robert Wilson, trading as Louden & 
 
 The published [Kilrea Girls' National School register](https://genealogy.torrens.org/BannValley/church/KilreaCOI/NatSchoolGirls.html), entry 53, records in 1871 **Sarah Glasgow**, aged 9, residence "Ballyconley", parent or guardian "Widow"; the religion column is blank. Thomas died on 21 June 1870 and his widow Mary Ann later held the Ballydonnelly flax-mill plot. The entry probably records their daughter Sarah (Glasgow-3975) living with her mother at Ballydonnelly the year after Thomas died. It is the first record placing a Glasgow household in residence at Ballydonnelly, and bears on the "John Glasgow, late of Baladonly" of the 1892 citation. The townland spelling is the transcriber's, the original register has not been seen, and no father is named, so the identification is probable, not proved.
 
+<!-- glasgow-951-findmypast-sweep-2026-10-07 -->
+## Source findings
+
+### Findmypast sweep — 7 October 2026: date and place of Mary Ann's remarriage
+
+- *Coleraine Chronicle*, 23 February 1889, p.1 (BNA `BL/0001283/18890223/002`): "Smith and Glasgow — At Ballymena, on the 18th inst., John Smith, formerly of Moneydie [Perthshire, per the Findmypast index], but now of Rosdernat [Rosedermot], Cloughmills, to Mrs. Glasgow, Lisnagaver, Rasharkin." The civil marriage index has **Mary Anne Glasgow**, Ballymena, January–March 1889, vol. 1, p.127; John Smith is among the names on the same index page (`IRE/BMD/M/614399501`).
+- *Ballymena Observer*, 29 March 1889, p.3 (BNA `BL/0001426/18890329/067`): Samuel Hood, auctioneer, Church Street, Ballymena, was instructed by "Mrs. Smith (late Mrs. Glasgow), of Lisnagaver" to sell on the premises on Monday 1 April 1889. The sale comprised hay, two stacks of corn, pits of potatoes and the entire household furniture, including a sofa, two glass cases, bedsteads and **three eight-day clocks**.
+- Together these date the remarriage to **18 February 1889** and show the Lisnagaver household being sold up on 1 April 1889, six weeks after the wedding and two days after the 30 March Exchequer judgment. They add **Moneydie, Perthshire** as John Smith's earlier home. The clocks are suggestive of the Kilrea watch-and-clock-making family context, but they are not evidence of it.
+
+Source: [Findmypast sweep report](../Glasgow-951/findmypast-sweep-2026-10-07.md).
+
 <!-- larne-kilwaughter-audit-2026-10-06:followup-neely -->
 ## Relationship assessment — the Neely name in the 1846 marriage, 6 October 2026
 

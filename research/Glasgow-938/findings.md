@@ -89,6 +89,20 @@ The [6 January 1892 notice](https://www.newspapers.com/image/388125998/) calls J
 
 The same notice joins the Robert Glasgow of 534 Gallowgate to Rasharkin through his wife's name, age and death, so the Scottish identity bridge no longer depends on the two unread Bridgeton birth images. Those images, and the original of his reported 1902 death, remain worth reading for dates and informants.
 
+<!-- glasgow-951-findmypast-sweep-2026-10-07 -->
+## Source findings
+
+### Findmypast sweep — 7 October 2026
+
+**Robert was living at his death address in the 1901 Scotland census.** Findmypast transcript `GBC/1901/0036891791` (1901 England, Wales & Scotland Census): **Robert Glasgow**, boarder, widower, 60, annuitant, born Ireland, at **58 East Rose Street, Camlachie, Glasgow**. The household is headed by **Alexander Glasgow**, 29, with wife Mary, 35, and children Thomas 10, Jane G 8, John C 6, Archibald C 3 and Alexander 0. A second boarder is **Matilda Glasgow**, 11, born Glasgow (`GBC/1901/0036891792`).
+
+- 58 East Rose Street is the address of Robert's death on 27 November 1902. Alexander, 29, fits Robert's son Glasgow-937, born 22 April 1871 at 36 Graham Street. Matilda fits the daughter listed in the 1891 Gallowgate household.
+- **Correction needed:** the biography's research note says "A different Robert Glasgow appears in the 1901 census with children Matilda, John C, Archibald C, and Alexander. That set does not match this profile." That reading is wrong. Those people are Robert's son, grandchildren and daughter, and Robert is a boarder in his son's home.
+- The household chain now runs without a gap: 1871 at 36 Graham Street (indexed "Glasco"), 1881 at 59 McKechnie Street, 1891 at 534 Gallowgate, the 6 January 1892 notice ("formerly of Rasharkin"), 1901 at 58 East Rose Street, and death there in 1902. This is index-level; the original 1901 return has not been viewed.
+- The 1871 return (`GBC/1871/0024559614`) also lists **William Glasco**, son, 12, born Ireland c.1859. That is before the 5 April 1866 marriage to Jane Graham, so his parentage should be checked on the original.
+
+Source: [Findmypast sweep report](../Glasgow-951/findmypast-sweep-2026-10-07.md).
+
 <!-- repo-integration-audit-2026-10-07:L12-014 -->
 ## Identity assessment — the Gortereghy Robert, 23 September 2026
 

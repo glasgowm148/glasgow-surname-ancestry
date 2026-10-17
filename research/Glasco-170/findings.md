@@ -22,3 +22,10 @@ Seek an original record bridge before attaching family relationships.
 ### Newspaper identity review — 6 October 2026
 
 - Styled 'Rev.' in Dec 1780, when Michael Rogers was ordered to pay ten guineas, to be given to public charities, for assaulting him. This is his latest dated appearance alive; a 1781 Prerogative marriage licence 'Susannah Glasco and Dionysius Dowling' is indexed (quoted on Mangan-824), so he probably died between Dec 1780 and 1781, earlier than the June 1784 bound now on the profile. — Freeman's Journal 12 Dec 1780 (newspapers.com image 1050050300); Prerogative marriage licence index 1781, p.151, as quoted on WikiTree Mangan-824 ([The Public Register, or, Freeman's Journal, 1780-12-12, p.6](https://www.newspapers.com/image/1050050300/))
+
+<!-- findmypast-studies-sweep-2026-10-07 -->
+## Source findings
+
+### Findmypast sweep — 7 October 2026
+
+- Betham's Genealogical Abstracts, Dublin marriage licences 1777–1806 (NAI; Findmypast `IRE/NAI/GENABS/00291978/2`): licence dated **29 May 1784** for **Susannah Glasco**, of Monkstown, diocese of Dublin, to marry **Dionysius Dowling**, of Trinity College. This gives an exact date and residence for the marriage known so far only from a secondary account. The licence does not name her parents. Further index entries: `IRE/IET0090/0424/011`, `/0327/044`. See the [study report](../findmypast-studies-2026-10-07/dublin-donegal-meath-cork.md).

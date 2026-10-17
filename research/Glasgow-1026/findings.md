@@ -106,6 +106,14 @@ actionable threshold absent a same-parish or original relationship record.
 
 - Glasgow-2867 (Robert Glasgow, master of John and Archibald) — son of — Glasgow-1026 (William Glasgow) and McCook-217 (Ann McCook): **research note only** (WikiTree now: linked uncertain (Father/Mother DataStatus 10, not confident)). The notice states no parentage at all ('the Snow John and Archibald, of Glasgow, Robert Glasgow, Master'). No inspected record supports the existing parent links; research/Glasgow-2867/findings.md concludes they are online-tree claims. Note only: the newspaper gives no support for these links. ([The Pennsylvania Gazette, 1754-03-19, p.2](https://www.newspapers.com/image/39398244/))
 
+<!-- findmypast-studies-sweep-2026-10-07 -->
+## Source findings
+
+### Findmypast sweep — 7 October 2026
+
+### Searches that found nothing
+- A Findmypast all-record search for the Glasgow surname (variants on) with the Moneymore place keyword returned 17 records. The earliest is the marriage of Esther Glasgow to John McCanny at Tamlaght by Moneymore on 12 March 1835 (Ireland Marriages 1619–1898, R_795107790/2). No William, Robert or Walter Glasgow is placed at Moneymore before 1850. The only 1766 Glasgow in Artrea parish, which includes Moneymore, is John Glasgoe, Dissenter, at Edernagh (IRE/PRONI/1766RC/G/00424; already known). The County Londonderry Glasgow search for 1700–1860 found no 18th-century Moneymore entry. Findmypast holds no Irish evidence for William Walter, and no record reconciles the competing fathers.
+
 
 ## Selected uncertain Lothian family —16 October2026
 

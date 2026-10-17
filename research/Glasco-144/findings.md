@@ -65,6 +65,16 @@ The notice supplies residence but no age, relatives or migration link to this Du
 
 - [Aurora General Advertiser, 1799-04-09, p.3](https://www.newspapers.com/image/586542475/): no longer a candidate for this profile. 'STOP THIEF': Thomas Glascoe reports $115 stolen from his house on Tinicum Island, near Chester on the Delaware, on 31 March 1799, by a man calling himself William Steel (notice dated 9 April 1799). No WikiTree profile fits this Thomas Glascoe; the Dublin-born Glasco profiles have no American record.
 
+<!-- findmypast-studies-sweep-2026-10-07 -->
+## Source findings
+
+### Findmypast sweep — 7 October 2026
+
+- **Corrects the description of the 1773 marriage source:** Findmypast's index of the marriage of **Thos Glasco** and **Margt Duffy**, 12 December 1773, St Audoen's, Dublin (`IRE/PRS/MAR/0623479/1`, image `IRE/PRS/MICROFILM06778-06/0061`) is from the **Roman Catholic** parish register of St Audoen's (National Library of Ireland microfilm 06778-06), not a Church of Ireland register. The transcript gives no witnesses, residence or trade.
+- **New, bearing on identity:** *Hibernian Journal*, 11 January 1773, p.2 (BNA `BL/0000817/17730111/005`), repeated in the same paper on 8, 10 and 22 February, 3, 5 and 22 March and 7 and 9 April 1773, and in *Saunders's News-Letter*, 12 March 1773, p.3 (`BL/0001057/17730312/016`). Full-page OCR of the 5 March issue (`BL/0000817/17730305/010`) reads, with long-s normalised: "THOMAS GLASCO, who served Apprenticeship to his Father, Philip Glasco, late [of] Christ-Church-lane, Watch-maker, and since had several Years Practice in London, takes this Method of informing his Friends and the Public, that he carries on the usual [business] at his said Father's House". So a Thomas Glasco, trained by his father Philip and recently back from London, was setting up at his late father's house in Christ Church Lane in January–April 1773. St Audoen's is beside Christ Church Lane, and the marriage to Margaret Duffy followed in December 1773. This makes it **possible** that the 1773 groom was the watchmaker, but neither record names the other. If he was, his father was Philip Glasco, not [[Glasco-173]].
+- **Candidate, unproved:** the Dublin diocesan wills and grants index has a **Margaret Glasco**, 1777 (`IRE/IET0090/0424/214`), with no residence. Margaret (Duffy) was alive when her father's will was made in 1774; a 1777 grant for her would explain how a Thomas Glasco was free to marry Miss Hynes in 1779, but the index alone does not show which Margaret this is.
+- **New (index only):** Chancery bill, 3 November 1777 (vol. 43, p.190), indexes Thomas Glasco on the same page as Philip Glasco (`IRE/COURT/CHANCERY/0001223973`, `/0001223970`).
+
 <!-- queue-record-integration-2026-10-17:start -->
 ## Record findings and identity limits — 17 October 2026
 

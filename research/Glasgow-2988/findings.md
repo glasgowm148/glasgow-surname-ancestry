@@ -137,6 +137,16 @@ Compare original local tax, land, probate and institutional records, preserving 
 
 - [The Edinburgh Advertiser, 1789-12-11, p.8](https://www.newspapers.com/image/601822968/): no longer a candidate for this profile. Dec 1789 Mid-Lothian game-certificate list: 'Glasgow, James, Esq; Edinburgh'. Best lead is James Glasgow (Glasgow-1142), St Vincent planter and brother of Robert of Montgreenan, who died in Calder parish near Edinburgh, but this is unproved.
 
+<!-- findmypast-studies-sweep-2026-10-07 -->
+## Source findings
+
+### Findmypast sweep — 7 October 2026
+- **Index discrepancy:** Findmypast's index of the 1740 Protestant Householders (PRONI T808/1528 and T716/9) has only **three** Derryloran Glasgow households: James (1) Glasgo, James (2) Glasgo and William Glasgow (IRE/PRONI/1740PH/G/00357, 00358, 00361). Macafee's transcription has four, with two Williams. The next index number, 00362, is John Glask of Clogh, County Antrim. Before relying on the count of four, check the second William against the original return.
+- **Known, confirmed:** the 1766 index gives James (1) Glasgo, James (2) Glasgo and John Glasgo at Drumearn, Sam at Gortin and William at Killycurragh (Derryloran), with James Glasgow at Corvanaghan, Kildress (IRE/PRONI/1766RC/G/00419–00423, 00426). The 1775 Dissenters' Petition has James Glasgow, Cookstown Congregation (PRONI T808/15307; IRE/PRONI/1775DP/G/00118). None of these gives an age or relatives.
+
+### Searches that found nothing
+- Findmypast has no Glasgow record for Derryloran or Kildress between the 1775 petition and the 1834 Valuation Office field books, apart from the 1825 Cookstown executors' notice (see Glasgow-2656). Nothing found matches a later Cookstown profile to a particular 1740 householder.
+
 
 ## Selected uncertain family — 16 October 2026
 

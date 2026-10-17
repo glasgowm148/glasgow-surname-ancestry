@@ -215,6 +215,12 @@ These are proposals for the WikiTree date fields and are queued for review; noth
 
 No record joins William to John Glasgow, farmer, the probable father of Alexander Glasgow-951. William as John farmer's father is unresolved, with no record. The older version of that route ran through John Glasgow-1022 of Glenleslie and needs John, farmer, to be that John, which is disfavoured: John-1022's 1851 household records a daughter Nancy who died in 1847 aged 36, while Nancy of Plattsburgh, Alexander's probable sister, lived to 1891. In the WikiTree snapshot of 28 September 2026 John-1022's father is John Glasgow-3959 of Ballyboggy (uncertain), so his earlier attachment to William is historical. No relationship is changed. [Full comparison](/people/glasgow-951.html#larne-reconstruction).
 
+<!-- findmypast-studies-sweep-2026-10-07 -->
+## Source findings
+
+### Findmypast sweep — 7 October 2026
+- Searches that found nothing: the British Newspaper Archive searches "william glasgow" with Larne (first 200 of 2,387) and the same search limited to 1738–1830 (22 hits) found no notice of a Larne merchant William Glasgow. The only early hit is a 1798 *Belfast News-Letter* advertisement for "the Brig William, William Glasgow, Master", sailing from Belfast to Bristol (BL/0000038/17981019/070). It falls below a separate Larne passenger notice on the same page and has no stated Larne connection, so it is not evidence for this William. The 1768 and 1802 notices of a James Glasgow of Larne (see Glasgow-1509) do not name William.
+
 <!-- queue-identity-review-2026-10-17:start -->
 ## Documentary identity review — 17 October 2026
 

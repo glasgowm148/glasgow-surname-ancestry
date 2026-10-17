@@ -23,6 +23,14 @@ Reviewed: 2026-10-16
 - Watchmaker of Christ-church-lane, Dublin, styled 'junior' in Sep 1765, when his wife died. — Freeman's Journal 28 Sep 1765 p3 (image 1050029120) ([The Public Register, or, Freeman's Journal, 1765-09-28, p.3](https://www.newspapers.com/image/1050029120/))
 - Married Teresa Plunkett, reported Sep 1768. Watchmaker of Christ-church-lane. — Freeman's Journal 20 Sep 1768 p3 (image 1050148115) ([The Public Register, or, Freeman's Journal, 1768-09-20, p.3](https://www.newspapers.com/image/1050148115/))
 
+<!-- findmypast-studies-sweep-2026-10-07 -->
+## Source findings
+
+### Findmypast sweep — 7 October 2026
+
+- **Adds detail (index only):** Findmypast indexes **Philip Glasco Jun** and **Mary Glasco** on the same page of the Chancery Bill Books, 11 February 1765 (vol. 38, p.53; `IRE/COURT/CHANCERY/0000834604`, `IRE/COURT/CHANCERY/0000834605`). This fits his first wife Mary (Braccan-2), whose death as wife of Philip Glasco junior was reported in September 1765. The index gives no role or relationship, so the pairing is probable, not stated.
+- **Context:** *Hibernian Journal*, 11 January 1773, p.2 (BNA `BL/0000817/17730111/005`), repeated in the same paper on 8, 10 and 22 February, 3, 5 and 22 March and 7 and 9 April 1773, and in *Saunders's News-Letter*, 12 March 1773, p.3 (`BL/0001057/17730312/016`). Full-page OCR of the 5 March issue (`BL/0000817/17730305/010`) reads, with long-s normalised: "THOMAS GLASCO, who served Apprenticeship to his Father, Philip Glasco, late [of] Christ-Church-lane, Watch-maker, and since had several Years Practice in London, takes this Method of informing his Friends and the Public, that he carries on the usual [business] at his said Father's House". The father there is very probably the elder Philip (died 1772), not this Philip, because a son of Philip junior (born about 1740) could not have finished an apprenticeship and several years' London practice by 1773.
+
 
 ## Selected uncertain family — 16 October 2026
 

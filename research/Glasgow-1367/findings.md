@@ -417,6 +417,21 @@ Glasgow tenancy began. Direct acreage matching is unsafe without the rent roll
 and maps because Cunningham and statute measure differ and the 1834 tithe did
 not necessarily cover the whole townland.
 
+<!-- glasgow-951-findmypast-sweep-2026-10-07 -->
+## Source findings
+
+### Findmypast sweep — 7 October 2026
+
+Findmypast's *Ireland Diocesan and Prerogative Wills & Administrations Indexes* lists **Robert Glasgow**, residence Dunaghy, Kilconway, Antrim, 1854, under **Prerogative Indexes to Wills & Administrations** (`IRE/DIOC/WILL/00186040`; index image IRE/DIOC/007246586/00231). The existing PRONI note gives a Connor diocesan index entry for the Glenleslie Robert, also 1854. A Prerogative entry means the grant may also be recorded in Prerogative will books or abstracts (for example the Betham abstracts), which are worth checking even though the original will is lost. Source: [Findmypast sweep report](../Glasgow-951/findmypast-sweep-2026-10-07.md).
+
+
+<!-- findmypast-studies-sweep-2026-10-07 -->
+## Source findings
+
+### Findmypast sweep — 7 October 2026
+
+- **New, candidate only: a Glenleslie John Glasgow married in the Catholic chapel, 1835.** Glenravel Roman Catholic registers (NLI, via Findmypast `IRE/PRS/MAR/0404145/1`) record John Glasgow of Glenleslie marrying Ann Reley of Glenleslie on 11 February 1835, and a son Hugh baptised 31 July 1836 (`IRE/PRS/BAP/1894487`, `/1896519`; the mother's surname is indexed as Kelay or Kelso). Robert's son John, aged 40 and in America in 1851, was born about 1811 and could be this man. So could John-1022's married nephew of the same age, or another John. Nothing in the entries names John's father. This differs from the Prerogative will index entry added earlier today.
+
 <!-- repo-integration-audit-2026-10-07:L12-012 -->
 ## Source findings — the 1868 Ballymoney death read from the register, 23 September 2026
 

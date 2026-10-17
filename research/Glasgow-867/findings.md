@@ -118,6 +118,19 @@ Source: [National Archives of Ireland, 1851 census, Lisnagaver house 34](https:/
 
 In the WikiTree snapshot of 28 September 2026, John Glasgow-1022's father is John Glasgow-3959 of Ballyboggy (uncertain), and John Glasgow-867 and Samuel Glasgow-2908 are attached to John Glasgow-4090, the record-defined John Glasgow, farmer. John-1022 is a disfavoured identity for that father: his 1851 Glenleslie household records a daughter Nancy who died in 1847 aged 36, while Nancy of Plattsburgh, Alexander Glasgow-951's probable sister, lived to 1891. The attachment to William Glasgow-1505 of Larne described above is historical, and the "William of Larne → John of Glenleslie → John of Lisnagaver" route no longer describes either the tree or the research.
 
+<!-- glasgow-951-findmypast-sweep-2026-10-07 -->
+## Source findings
+
+### Findmypast sweep — 7 October 2026: a candidate for "Lizzie"
+
+The citation's "Lizzie", child of John Glasgow, now has a later-life candidate. **Elizabeth Glasgow**, head of household, 80 (born c.1860), single, born Northern Ireland, was at Cohoes Ward 3, Albany County, New York, in the 1940 US census, in the same house in 1935 (Findmypast transcript `USC/1940/1558009575`).
+
+- Cohoes adjoins West Troy, where Lizzie Glasgow, 21, an Irish-born domestic with both parents born in Ireland, was in James O. Wood's household in 1880 (`USC/1880/1000137198536`).
+- A Lizzie Glasgow, 22, of Ireland, arrived at New York on the *Algeria* in 1878 (`US/PASS/NY/012214849261`).
+- Ages differ by a few years across the records. Her death record in Cohoes (1940s) is the test for her parents. Unproved.
+
+Source: [Findmypast sweep report](../Glasgow-951/findmypast-sweep-2026-10-07.md).
+
 <!-- repo-integration-audit-2026-10-07:L12-015 -->
 ## Recommended correction — John's death in 1885, 7 October 2026
 

@@ -193,6 +193,16 @@ A request by parishioners of St Andrew’s parish in Dublin, including St Mark�
 - [The Carlisle Gazette, and the Western Repository of Knowledge, 1793-03-06, p.1](https://www.newspapers.com/image/1033763029/): no longer a candidate for this profile. A Carlisle post-office list headed 1 January 1793 includes letters for John Glasgow, care of William Brown, Esq. No WikiTree profile can be identified. Cumberland County-born John Glasgow (Glasgow-3726) is a newly noted regional possibility; the earlier namesake comparisons are weak or unlikely.
 - [The North American (Philadelphia), 1799-09-10, p.3](https://www.newspapers.com/image/587806805/): no longer a candidate for this profile. John Glasgow is listed under Allegheny Township in a township-grouped list of Huntingdon County election-meeting participants (September 1799). Allegheny Township passed into Cambria County in 1804, where Glasgow-664 (John Glasgow, 1777–1845) was enumerated in Allegheny Township in 1820 and died at Glasgow, Cambria County. That makes Glasgow-664 a stronger possible match than before. An older John Glasgo, head of a Huntingdon County household in 1790, has no profile and competes.
 
+
+<!-- findmypast-studies-sweep-2026-10-07 -->
+## Source findings
+
+### Findmypast sweep — 7 October 2026
+
+- **Adds detail to the known 1831 census entry.** Findmypast's index of the 1831 return has two copies of John Glasco's entry (`IRE/CENSUS/1821-1831/154369` and `/266913`; images 007246494/00089 and 007246634/00409): Innisrush, house 2, folio 41, one family, 4 males and 4 females. The first copy records **8 Presbyterians**; the second leaves the denomination blank. This favours MacAfee's Presbyterian reading over Torrens's, but the original return is still needed.
+- **Negative: no John in the Valuation Office field book.** The Valuation Office Books for Inishrush (field book, valuation date 9 May 1832, `OL/4/1093`) index only Adam Glascow. Together with John's absence from the 1833 tithe book, this suggests that John was not a separately valued occupier of land at Inishrush in 1832–33. It does not say why.
+- Searches that found nothing for the 1796 Desertoghill flax grower: Findmypast has no Glasgow-surname records keyed to Desertoghill or Garvagh before 1900 (only a 1911 Garvaghy, County Down, family), and British Newspaper Archive searches for "John Glasgow" or "John Glasco" with Desertoghill, Garvagh or Innisrush returned no articles. The 1796 identity question remains open.
+
 <!-- repo-integration-audit-2026-10-07:L11-031 -->
 ## Recommended correction — Lavina Glasgow's birth date, 7 October 2026
 
