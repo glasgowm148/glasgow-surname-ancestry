@@ -8,9 +8,9 @@ import re
 from pathlib import Path
 
 try:
-    from catalogue_field_status import field_statuses
+    from catalogue_field_status import FIELDS, field_statuses
 except ModuleNotFoundError:
-    from tools.catalogue_field_status import field_statuses
+    from tools.catalogue_field_status import FIELDS, field_statuses
 
 try:
     from dossier_resolution import GENERATED_ANSWERS
@@ -77,8 +77,16 @@ def marriage_locations(person: dict, dossier: dict) -> list[str]:
 
 
 def enrichment(person: dict, dossier: dict) -> dict:
+    statuses = field_statuses(person)
+    for review in sorted(dossier.get("research_assessments") or [],
+                         key=lambda item: (item.get("reviewed", ""), item.get("id", ""))):
+        if review.get("status") != "approved" or review.get("derived_from") != "documentary_chronology":
+            continue
+        projection = review.get("catalogue_projection") or {}
+        statuses.update({field: status for field, status in (projection.get("field_statuses") or {}).items()
+                         if field in FIELDS})
     return {
-        "field_statuses": field_statuses(person),
+        "field_statuses": statuses,
         "marriage_locations": marriage_locations(person, dossier),
         "biography_text": biography_text(dossier),
     }

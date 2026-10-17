@@ -35,6 +35,21 @@ class CatalogueLocationSearchTest(unittest.TestCase):
     self.assertNotIn("unique biography phrase", " ".join(fields["marriage_locations"]).lower())
 
 
+  def test_approved_chronology_status_overrides_stale_import_estimate(self):
+    person = {"birth": "c. 1650", "birth_location": "Example parish (uncertain)"}
+    dossier = {"research_assessments": [
+        {"id": "later-pending", "reviewed": "2026-02-01", "status": "pending",
+         "derived_from": "documentary_chronology",
+         "catalogue_projection": {"field_statuses": {"birth": "certain"}}},
+        {"id": "approved", "reviewed": "2026-01-01", "status": "approved",
+         "derived_from": "documentary_chronology",
+         "catalogue_projection": {"birth": "Unknown", "field_statuses": {"birth": "unknown"}}},
+    ]}
+    fields = enrichment(person, dossier)
+    self.assertEqual(fields["field_statuses"]["birth"], "unknown")
+    self.assertEqual(fields["field_statuses"]["birth_location"], "uncertain")
+    self.assertEqual(enrichment(person, {})["field_statuses"]["birth"], "estimated")
+
   def test_targeted_refresh_updates_json_and_javascript_index(self):
     with tempfile.TemporaryDirectory() as temporary:
         root = Path(temporary)
