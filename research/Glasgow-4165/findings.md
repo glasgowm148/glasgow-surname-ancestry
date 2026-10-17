@@ -109,3 +109,49 @@ The 1687 child, 1728 groom and Irvine father may be different men. The match of 
 - [Isabel, Irvine 26 April 1741: George Glasgow and Margt](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3575036&tab=this)
 - [Magdalen, Irvine 29 March 1743: George Glasgow and Margt](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3575189&tab=this)
 - [Mary, Irvine 21 April 1745: George Glasgow and Margt](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3575366&tab=this)
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### Possible George Glasgow, Glasgow merchant and Nethermains notices, 1767–1777
+A partnership notice for the Incle Manufactory in Glasgow states that George Glasgow, merchant there, had previously given up management; future business is to be carried on under Archibald Ingram, Thomas Dunmoor and Co. ([The Caledonian Mercury, 1767-12-30, p.3](https://www.newspapers.com/image/395728376/).)
+
+A private-sale advertisement describes Nether-Mains, Nethermains Dean, Nethermains Niven and other lands at Kilwinning as belonging to George Glasgow, merchant in Glasgow, offering them by roup at James Shaw’s, Irvine, on the second Tuesday of July. ([The Caledonian Mercury, 1768-06-04, p.3](https://www.newspapers.com/image/395710454/).) ([The Caledonian Mercury, 1768-06-06, p.3](https://www.newspapers.com/image/395710860/).) ([The Caledonian Mercury, 1768-06-08, p.4](https://www.newspapers.com/image/395711931/).) ([The Caledonian Mercury, 1768-06-11, p.4](https://www.newspapers.com/image/395712064/).) ([The Caledonian Mercury, 1768-06-15, p.4](https://www.newspapers.com/image/395712307/).) ([The Caledonian Mercury, 1768-06-18, p.4](https://www.newspapers.com/image/395712406/).) ([The Caledonian Mercury, 1768-06-20, p.4](https://www.newspapers.com/image/395712488/).) ([The Caledonian Mercury, 1768-06-25, p.4](https://www.newspapers.com/image/395712778/).) ([The Caledonian Mercury, 1768-06-29, p.4](https://www.newspapers.com/image/395713367/).) ([The Caledonian Mercury, 1768-07-02, p.4](https://www.newspapers.com/image/395713587/).) ([The Caledonian Mercury, 1768-07-04, p.4](https://www.newspapers.com/image/395713737/).) ([The Caledonian Mercury, 1768-07-06, p.4](https://www.newspapers.com/image/395713876/).) ([The Caledonian Mercury, 1768-07-11, p.4](https://www.newspapers.com/image/395714417/).)
+
+A notice concerning the sale of Nether Mains and other subjects belonging to George Glasgow announces an adjournment, with a future paper to give the new sale day. ([The Caledonian Mercury, 1777-06-23, p.3](https://www.newspapers.com/image/395682715/).)
+
+A judicial-sale notice by adjournment, under authority of the Lords of Council and Session, advertises Nether Mains and other lands which belonged to George Glasgow for 8 August next. ([The Caledonian Mercury, 1777-07-26, p.3](https://www.newspapers.com/image/395686198/).)
+
+An adjourned judicial-sale notice names George Glasgow of Nethermains as former holder of Littleward, Fence and Oxenward parcels offered for 28 November 1777. ([The Caledonian Mercury, 1777-11-24, p.4](https://www.newspapers.com/image/395696322/).)
+
+A judicial-sale notice offers Oxenward near Kilwinning, which belonged to George Glasgow of Nether Mains, for 19 December 1777. ([The Caledonian Mercury, 1777-12-13, p.3](https://www.newspapers.com/image/395699045/).)
+
+These notices describe successive proposed sales and adjournments, not a proved transfer, bankruptcy or death. The later wording "belonged" permits a deceased former owner. The Kilwinning landholder and Glasgow merchant are treated as one provisional subject; no identification with the Manchester inventor or artillery officers follows.
+
+This may concern [Glasgow-4165](https://www.wikitree.com/wiki/Glasgow-4165). Uncertain birth before 1722 and Irvine family context permit an older adult; no patent, mercantile or army-service identification. Kilwinning/Irvine locality is compatible, not a deed or merchant identification.
+
+### Possible George Glasgow, Manchester cloth patent, 1762
+George Glasgow, of Manchester, is reported granted royal letters patent for fourteen years for the sole manufacture and vending of his cloth imitating women’s stitched stays. ([The Caledonian Mercury, 1762-07-24, p.3](https://www.newspapers.com/image/395740363/).) ([The Leeds Intelligencer and Yorkshire General Advertiser, 1762-07-20, p.2](https://www.newspapers.com/image/404028614/).) ([The Newcastle Weekly Courant, 1762-07-24, p.1](https://www.newspapers.com/image/404022055/).)
+
+The report supplies Manchester and the invention, but no age, family or link to the Nethermains merchant. It does not independently establish a grant day or subsequent manufacture.
+
+This may concern [Glasgow-4165](https://www.wikitree.com/wiki/Glasgow-4165). Uncertain birth before 1722 and Irvine family context permit an older adult; no patent, mercantile or army-service identification.
+
+### Possible George Glasgow, Royal Artillery reports, 1771–1795
+A Royal Regiment of Artillery promotion report names Second Lieutenant George Glasgow to be First Lieutenant in the room of Francis Downman, preferred. ([The Caledonian Mercury, 1771-09-07, p.1](https://www.newspapers.com/image/395686209/).)
+
+An Office of Ordnance notice names Captain-Lieutenant George Glasgow to be Captain in the Royal Regiment of Artillery, vice Wright. ([The Caledonian Mercury, 1793-10-05, p.2](https://www.newspapers.com/image/395737286/).) ([The Observer, 1793-10-06, p.1](https://www.newspapers.com/image/257580089/).)
+
+A War Office notice dated 15 May 1795 names Captain George Glasgow, artillery, among captains appointed to be majors in the army. ([The Caledonian Mercury, 1795-05-21, p.2](https://www.newspapers.com/image/395709939/).)
+
+The shared name, artillery service and progressive ranks make one career plausible. Personal continuity across the twenty-two years is unproved. The 1795 notice announces promotion to majors in the army; it does not itself name a family or establish a technical brevet designation.
+
+This may concern [Glasgow-4165](https://www.wikitree.com/wiki/Glasgow-4165). Uncertain birth before 1722 permits an older adult, without an artillery-service connection. Before is an upper birth bound, not an exact 1722 year.
+
+### Possible George Glasgow, unassigned Second Lieutenant appointment, 1774
+George Glasgow, gentleman, is reported appointed Second Lieutenant, vice Second Lieutenant Barnes, promoted. ([The Caledonian Mercury, 1774-09-24, p.2](https://www.newspapers.com/image/395693121/).)
+
+No regiment is stated in the appointment paragraph. It cannot safely be joined to the George Glasgow already reported as an artillery first lieutenant in 1771; the lower rank is not evidence of a demotion.
+
+This may concern [Glasgow-4165](https://www.wikitree.com/wiki/Glasgow-4165). Uncertain birth before 1722 permits an older adult; no individual service or regiment connection.
+<!-- queue-record-integration-2026-10-17:end -->

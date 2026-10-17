@@ -31,3 +31,15 @@ The [UCL LBS entry for Robert Glasgow late Robertson](https://www.ucl.ac.uk/lbs/
 Seen as: a copied catalogue summary, not inspected originals; the 1841 household is quoted from that summary. A death in January 1845 agrees with the son's succession in 1845 and with 'the late Robert Glasgow of Montgreenan' in September 1847. The named daughters Anne and Charlotte Marie Cecilia support his identification as father of the 1847 brides. Next record: NRS SC70/1/69/533.
 
 Recorded in `archive/dump/TheGlasgows.md` (owner's checklist export of 10 March 2025); carried into this file on 7 October 2026.
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### Paisley double marriage, 1847
+
+A notice published on 2 September 1847 reports two marriages at Paisley on the 25th ultimo, interpreted as 25 August. George Sherbrooke Airey, Royal Navy lieutenant and son of the late Lieutenant-General Sir George Airey, married Anne, second daughter of the late Robert Glasgow. At the same time Rev George Drake, son of Rev John Drake, rector of Stourton, married Charlotte Maria Cecilia, youngest daughter of the late Robert Glasgow of Montgreenan, Ayr. No mother is named. ([Freeman’s Journal and Daily Commercial Advertiser, 2 September 1847, p. 4, marriages](https://www.newspapers.com/image/401331272/).)
+
+The combination of the Montgreenan designation, Robert Robertson’s later Glasgow surname, death in 1845, and daughters Anne and Charlotte Marie Cecilia supports identification with this family. Charlotte’s distinctive full name and Drake married surname are especially strong. The newspaper directly states its father and spouse relationships; the profile assignments remain qualified and no mother is inferred.
+
+Compatible family profiles are [Robert Robertson, later Glasgow](https://www.wikitree.com/wiki/Robertson-30564), [Anne Glasgow](https://www.wikitree.com/wiki/Glasgow-3000), [Charlotte Marie Cecilia Glasgow](https://www.wikitree.com/wiki/Glasgow-3003) and [Rev George Drake](https://www.wikitree.com/wiki/Drake-13873).
+<!-- queue-record-integration-2026-10-17:end -->

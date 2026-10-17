@@ -77,3 +77,34 @@ Sources: [Public Ledger or Daily Register of Commerce and Intelligence, 1760-04-
 [Full record account and comparison](/research/subjects/newspapers-early-glasgow/#william-glascoe-old-bailey-1760). This assessment proposes no live WikiTree edit.
 
 <!-- queue-identity-review-2026-10-17:end -->
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### Possible William Glascoe / Glascow, 1760 defendant
+William Glascoe is among prisoners reported sentenced to transportation after Old Bailey trials, for stealing a sack of malt from a warehouse, valued in the newspaper at £4 10s. ([Public Ledger or Daily Register of Commerce and Intelligence, 1760-04-18, p.2](https://www.newspapers.com/image/35690357/).)
+
+The newspaper uses Glascoe; the associated Old Bailey case uses Glascow. The case association does not establish the defendant’s origin, family or identity with the later Maryland man.
+
+This may concern [Glasgow-4101](https://www.wikitree.com/wiki/Glasgow-4101). The recorded before 1733-06-12 birth at Dundonald, Ayrshire, Scotland is chronologically compatible. The newspaper gives no family or individual identifier connecting this occurrence to Glasgow-4101.
+
+### Possible William Glasgow, master of the Lady Forbes
+William Glasgow is named as master of the Lady Forbes in the Sutton shipping casualty report. ([The Public Register, or, Freeman's Journal, 1768-01-23, p.2](https://www.newspapers.com/image/1050136699/).) ([The Caledonian Mercury, 1768-02-06, p.2](https://www.newspapers.com/image/395700744/).)
+
+The January 1768 report says the rum-carrying Lady Forbes, bound for Waterford, was driven ashore near Sutton and the crew were saved. The ship’s Glasgow home port does not give William’s birthplace. No identity with the later brig William or Falmouth master follows.
+
+This may concern [Glasgow-4101](https://www.wikitree.com/wiki/Glasgow-4101). Birth before 12 June 1733; Dundonald baptism. Chronologically compatible, but no master, vessel or maritime identification.
+
+### Possible William Glasgow, Philadelphia and Charles-Town postal lists, 1759–1771
+William Glasgow, Cecil County, is listed among letters remaining in the Philadelphia post office. ([The Pennsylvania Gazette, 1759-08-09, p.1](https://www.newspapers.com/image/39399295/).)
+
+William Glasgow is listed among letters remaining in the Philadelphia post office in February 1763. ([The Pennsylvania Gazette, 1763-02-24, p.1](https://www.newspapers.com/image/39390517/).)
+
+William Glasgow is listed among letters remaining in the Philadelphia post office in October 1765. ([The Pennsylvania Gazette, 1765-10-10, p.4](https://www.newspapers.com/image/39405824/).)
+
+William Glasgow is separately listed in the Charles-Town, Maryland, post-office letters notice headed 1 October 1771, beside an entry for John Glasgow of West Nottingham. ([Maryland Gazette, 1771-10-24, p.3](https://www.newspapers.com/image/41041559/).)
+
+Cecil County explicitly qualifies the 1759 entry only. In 1763 "Pennsylvania" follows James Gillispie; in 1765 "Forks of Delaware" qualifies William Greenlee, not William Glasgow. The entries may concern different men, and co-listing with John in 1771 does not prove a family relationship.
+
+This may concern [Glasgow-4101](https://www.wikitree.com/wiki/Glasgow-4101). Birth before 12 June 1733, Dundonald, permits these dates; no Cecil County or postal identification.
+<!-- queue-record-integration-2026-10-17:end -->

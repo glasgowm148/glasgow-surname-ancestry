@@ -68,3 +68,9 @@ James could instead be a son of the Irvine John-2475/Isabell Kyle family, Michae
 - [James’s complete Irvine household and retained 1723 Marion Rae entry](https://www.wikitree.com/wiki/Glasgow-4158)
 - [Philip junior profile: current biography capture checked16 October2026](https://www.wikitree.com/wiki/Glasgow-3932)
 - [Robert Glasgow-3897: correct Kilrea subject retaining the entire misplaced biography](https://www.wikitree.com/wiki/Glasgow-3897)
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+A possible identification concerns James Glasgow, master of the Prosperity of Irvine. James Glasgow is named in the Greenock arrival list headed “Greenock, August 12”: “The Prosperity of Irvine, James Glasgow, from Northcopen.” The item was published in The Caledonian Mercury on 18 August 1740, page 3. (The Caledonian Mercury, 18 August 1740, page 3, Greenock shipping list; [record](https://www.newspapers.com/image/394559372/).) The ship–homeport–master–origin format supports reading James as the shipmaster. No age, relatives or personal residence are stated. Irvine is the ship’s homeport and Greenock the reporting locality; neither proves James’s birthplace. Northcopen is retained without an unverified modern-place identification. The identification remains uncertain.
+<!-- queue-record-integration-2026-10-17:end -->

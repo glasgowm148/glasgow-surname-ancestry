@@ -60,3 +60,15 @@ Original image not inspected for this batch. The combined collection’s date do
 The pre-1700 graph-claim audit of 27 July 2026 reviewed a graph-based proposal to give Agnes [Christina Bie (Bie-55)](https://www.wikitree.com/wiki/Bie-55) as her mother and **rejected** it. Agnes's 22 February 1618 Inveresk entry (OPR 689/10/91; Findmypast R_686182151 and R_693571192) names only her father James in the exposed index, and Christina Bie's profile is a collaborative-tree reconstruction. Two wives have been alleged for James, and estimated ages cannot choose between them. Seen as index only. The rejection is for want of evidence; it does not disprove Christina Bie. Agnes's mother remains unknown until the original register entry or another record names her.
 
 Recorded in `surname-research/pre-1700/graph-claim-audit-2026-07-27.md` (27 July 2026); carried into this file on 7 October 2026.
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+A possible identification concerns Agnes Glasgow. The banns/marriage index records Agnes Glasgow and James Swan on 12 May 1666 at Kirknewton and East Calder. (Scotland’s People: Old Parish Registers — banns and marriages: OPR 690/10 / 55; [record](https://www.scotlandspeople.gov.uk/).) The original parish register image has not been inspected. The combined index date does not by itself identify the precise event type. The identification remains uncertain.
+
+A possible identification concerns Agnes Glasgow. The banns/marriage index records Agnas Glasgow and William Anderson on 5 July 1666 at Longformacus. (Scotland’s People: Old Parish Registers — banns and marriages: OPR 750/10 / 79; [record](https://www.scotlandspeople.gov.uk/).) The original parish register image has not been inspected. The combined index date does not by itself identify the precise event type. The identification remains uncertain.
+
+A possible identification concerns Agnes Glasgow. The banns/marriage index records Agnes Glasgow and Patrik Paul on 8 July 1670 at Kirknewton and East Calder. (Scotland’s People: Old Parish Registers — banns and marriages: OPR 690/10 / 64; [record](https://www.scotlandspeople.gov.uk/).) The original parish register image has not been inspected. The combined index date does not by itself identify the precise event type. The identification remains uncertain.
+
+A possible identification concerns Agnes Glasgow. The banns/marriage index records Agnes Glasgow and William Thomsone on 15 December 1681 at Carstairs. (Scotland’s People: Old Parish Registers — banns and marriages: OPR 633/10 / 66; [record](https://www.scotlandspeople.gov.uk/).) The original parish register image has not been inspected. The combined index date does not by itself identify the precise event type. The identification remains uncertain.
+<!-- queue-record-integration-2026-10-17:end -->

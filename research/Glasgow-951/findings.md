@@ -3456,3 +3456,9 @@ Recorded in `research/Glasgow-951/research-log-2026-09-17-live.md` (17 September
 The source-table row for [Samuel Glasgow's civil death, 17 August 1875](https://www.irishgenealogy.ie/view/?record_id=cide-7225943) names the woman present at death as "Elizabeth Rose". The original register page (Dreen, Ballymoney union, 1875 deaths, page 104, entries 279–280; [image](https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1875/020616/7233288.pdf), copy saved under [Glasgow-2908](../Glasgow-2908/findings.md)) reads **Elizabeth Ross**, signing by mark, as two separate readings of the original image found. The same Elizabeth Ross informed for Robert Ross, aged eight, who died at Lisnagaver on 8 August 1875 (entry 279). The entry states no kinship between Elizabeth and Samuel and creates no Glasgow–Ross relationship. The identity conclusion (Glasgow-2908 and Glasgow-3472 are one man) is unaffected.
 
 Recorded in `chatgpt_dump/Alexander_Glasgow_second_pass_2026-09-04.md` (4 September 2026); carried into this file on 7 October 2026.
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+A possible identification concerns Alexander Glasco. Prescott deed C114 names Alexander Glasco of Rochester, express agent, as the son of James, the Prescott carpenter. (Inspected historical source; [record](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LQRC-Y).) Original deed inspected. This is a separate Alexander; it does not identify [Alexander-951](https://www.wikitree.com/wiki/Alexander-951). The identification remains uncertain.
+<!-- queue-record-integration-2026-10-17:end -->

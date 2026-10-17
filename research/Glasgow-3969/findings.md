@@ -20,3 +20,9 @@ Scotland's People OPR index: James Glasgow and Issabell Ross, 12 January 1691, B
 Source: Old Parish Registers, banns and marriages; exact surname Glasgow through 1700, 55 supplied results. Original images not inspected for this batch; combined index dates do not by themselves establish ceremony dates.
 
 This batch adds supporting evidence or a qualified comparison only; it raises no additional WikiTree amendment for this profile.
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+A possible identification concerns James Glasgow. The 11 June 1674 Irvine inquest for Robert Hunter of Hunterstoun’s service as heir includes James Glasgow in Didup. (Shaw, Some Family Papers of the Hunters of Hunterston, printed p.62 entry89; [record](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM7-J962-6).) Printed retour extract inspected; underlying original uninspected. FamilySearch’s Linlithgow1546–1564 title is a catalogue mismatch. The extract gives James no age, trade, relatives or vital date. The identification remains uncertain.
+<!-- queue-record-integration-2026-10-17:end -->

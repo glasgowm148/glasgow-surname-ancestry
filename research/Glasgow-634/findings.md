@@ -212,3 +212,147 @@ A Halifax, North Carolina proclamation dated 21 January, printed 8 February 1798
 - Named in December 1799 as 'the late Secretary' in the commissioners' report on irregular military land warrants. — Raleigh Minerva, 1799-12-17, p.2 (https://www.newspapers.com/image/59123711/) ([Raleigh Minerva, 1799-12-17, p.2](https://www.newspapers.com/image/59123711/))
 - A conveyance dated 20 July 1785, reproduced in his December 1799 reply to the land-fraud charges, purports to transfer to him Francis Harrison's claimed rights as heir-at-law in the military lands of Stephen and James Harrison, witnessed by Samuel Holladay. — Raleigh Minerva, 1799-12-24, p.4 (https://www.newspapers.com/image/59123730/) ([Raleigh Minerva, 1799-12-24, p.4](https://www.newspapers.com/image/59123730/))
 - By late December 1799 he was the only person arrested among those the legislative committee considered offenders in the military land-warrant frauds. — Raleigh Minerva, 1799-12-31, p.4 (https://www.newspapers.com/image/59123741/) ([Raleigh Minerva, 1799-12-31, p.4](https://www.newspapers.com/image/59123741/))
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### Possible James Glasgow, Hackman affair witness, 1779
+James Glasgow and Andrew Doyle, styled chairmen, are named among persons examined in the Hackman/Miss Ray affair; Glasgow reportedly removed the pistol and gave it to Halliburton. ([Gloucester Journal, 1779-04-12, p.3](https://www.newspapers.com/image/970974651/).) ([Berrow's Worcester Journal, 1779-04-15, p.1](https://www.newspapers.com/image/1211966255/).) ([Jackson’s Oxford Journal, 1779-04-10, p.3](https://www.newspapers.com/image/396539533/).)
+
+"Chairmen" is the recorded word, not a statement that James chaired a meeting. The account gives no age, parents or connection to the American and maritime namesakes.
+
+This may concern [Glasgow-634](https://www.wikitree.com/wiki/Glasgow-634). Adult chronology permits 1779; no London identification.
+
+### Possible James Glasgow, Lancaster postal addressee, 1773
+James Glasgow (2) is listed among letters remaining in Lancaster’s post office. ([The Pennsylvania Gazette, 1773-07-21, p.4](https://www.newspapers.com/image/39403087/).)
+
+The office heading does not establish James’s household or county of residence, and the printed "(2)" does not distinguish a second man of that name.
+
+This may concern [Glasgow-634](https://www.wikitree.com/wiki/Glasgow-634). Uncertain 1735 Maryland birth permits 1773; no Lancaster postal connection.
+
+### Possible James Glasgow, Marsh creek Carlisle list, 1795
+James Glasgow, Marsh creek, appears in a Carlisle names/address list reprinted in July–August 1795. ([Kline's Carlisle Weekly Gazette, 1795-07-15, p.3](https://www.newspapers.com/image/1033874474/).) ([Kline's Carlisle Weekly Gazette, 1795-07-29, p.4](https://www.newspapers.com/image/1033874483/).) ([Kline's Carlisle Weekly Gazette, 1795-08-12, p.4](https://www.newspapers.com/image/1033874491/).)
+
+The three issues repeat one list. The Marsh creek qualifier is not evidence of kinship or continuity with the Lancaster and North Carolina namesakes. Postal correspondence can remain after an addressee’s death.
+
+This may concern [Glasgow-634](https://www.wikitree.com/wiki/Glasgow-634). Adult chronology fits, but North Carolina office context does not identify this Marsh creek addressee.
+
+### Contemporary North Carolina notices
+James Glasgow is named with Kingston Lodge No.3 and as Grand Secretary among elected and installed North Carolina Grand Lodge officers, at a Tarborough convention on 9–11 December 1787. ([The Columbian Herald, or Independent Courier of North-America, 1788-01-07, p.2](https://www.newspapers.com/image/604128613/).)
+
+James Glasgow, Contentney, is an addressee in letters remaining at Newbern post office, notice dated 19 March 1788. ([The State Gazette of North-Carolina, 1788-03-27, p.3](https://www.newspapers.com/image/55578590/).)
+
+A Newbern report dated 16 April 1788 lists James Glasgow among Dobbs County candidates supposed to favor the federal constitution for the Hillsborough convention. ([Independent Gazetteer, 1788-05-13, p.2](https://www.newspapers.com/image/39934415/).) ([Poulson's American Daily Advertiser, 1788-05-12, p.2](https://www.newspapers.com/image/1034014506/).) ([The Carlisle Gazette, and the Western Repository of Knowledge, 1788-05-21, p.3](https://www.newspapers.com/image/1033759470/).) ([Pittsburgh Weekly Gazette, 1788-06-07, p.2](https://www.newspapers.com/image/96046987/).)
+
+James Glasgow, Esq., is reported chosen Secretary of State of North Carolina. ([The State Gazette of North-Carolina, 1788-12-04, p.3](https://www.newspapers.com/image/55579319/).)
+
+A Fayetteville Grand Lodge report names James Glasgow, Esq., as elected Grand Senior Warden for the ensuing year. ([The Independent Gazetteer, 1788-12-23, p.2](https://www.newspapers.com/image/39935175/).) ([Poulson's American Daily Advertiser, 1788-12-24, p.3](https://www.newspapers.com/image/1034010137/).)
+
+An Edenton report dated 17 December 1789 names James Glasgow as Deputy Grand Master among North Carolina Grand Lodge officers appointed for the ensuing year. ([The State Gazette of North-Carolina, 1789-12-17, p.3](https://www.newspapers.com/image/55583318/).)
+
+A Newbern report dated 31 December names the Honorable James Glasgow as appointed Secretary of State by the North Carolina legislature. ([The North American, 1792-01-25, p.1](https://www.newspapers.com/image/602495286/).) ([The Pennsylvania Herald, and York General Advertiser, 1792-01-25, p.2](https://www.newspapers.com/image/773748049/).)
+
+Hon. James Glasgow, Raleigh, is an addressee in a post-office letters list dated 1 October 1795. ([The North-Carolina Journal, 1795-10-26, p.4](https://www.newspapers.com/image/66180042/).) ([The North-Carolina Journal, 1795-11-02, p.4](https://www.newspapers.com/image/66180058/).)
+
+James Glasgow, Fayetteville, is an addressee in letters remaining at Fayetteville post office, list dated 5 November 1793. ([The Encyclopedian Instructor, 1793-11-19, p.1](https://www.newspapers.com/image/56018161/).)
+
+James Glasgow, Esq., is an addressee in a Raleigh post-office letters list headed 1 January 1795, as printed in 1796 issues. ([The North-Carolina Journal, 1796-01-11, p.3](https://www.newspapers.com/image/66180229/).) ([The North-Carolina Journal, 1796-01-25, p.4](https://www.newspapers.com/image/66180258/).) ([The North-Carolina Journal, 1796-02-01, p.4](https://www.newspapers.com/image/66180273/).)
+
+Col. James Glasgow, at Raleigh, is an addressee in letters remaining at Raleigh post office, list dated 1 April 1796. ([The North-Carolina Journal, 1796-05-16, p.4](https://www.newspapers.com/image/66180487/).)
+
+Hon. James Glasgow is an addressee in letters remaining at Raleigh post office, list dated 1 July 1796. ([The North-Carolina Journal, 1796-07-25, p.3](https://www.newspapers.com/image/66180641/).)
+
+James Glasgow, Muscadine Mathews and John Gray Blount are named signatories for holders of western land entries in a petition dated Raleigh, 23 December 1796. ([The North American, 1797-02-18, p.3](https://www.newspapers.com/image/467046163/).) ([The Washington Gazette, 1797-03-04, p.3](https://www.newspapers.com/image/1043526013/).)
+
+Wm. White of Lenoir is reported elected North Carolina Secretary of State in the room of James Glasgow, resigned. ([North American, 1798-12-24, p.3](https://www.newspapers.com/image/593171969/).) ([Newbern Gazette, 1798-12-08, p.3](https://www.newspapers.com/image/55650665/).)
+
+A University notice dated 10 May 1799 names Mr. James Glasgow, Newbern, among trustees who would form the visitation committee for the planned 4 July examination. ([North-Carolina Gazette and Wilmington Weekly Post-Boy, 1799-06-13, p.2](https://www.newspapers.com/image/55411407/).)
+
+A commissioners’ report names James Glasgow, Esq., the late Secretary, while attributing irregular military land warrants to him. ([Raleigh Minerva, 1799-12-17, p.2](https://www.newspapers.com/image/59123711/).) ([Weekly Raleigh Register, 1799-12-24, p.4](https://www.newspapers.com/image/59183269/).) ([Weekly Raleigh Register, 1799-12-24, p.4](https://www.newspapers.com/image/584304066/).)
+
+The Raleigh Minerva continuation names James Glasgow in allegations about a warrant and assignment involving soldier James Harrison and witness Samuel Holladay, and grants issued by the Secretary to himself. ([Raleigh Minerva, 1799-12-17, p.3](https://www.newspapers.com/image/59123714/).)
+
+James Glasgow, Esq., 4, is an addressee in a Raleigh post-office letters list headed April 1, reprinted in April–May 1797 issues. ([North-Carolina Journal, 1797-04-17, p.3](https://www.newspapers.com/image/66181214/).) ([North-Carolina Journal, 1797-04-24, p.3](https://www.newspapers.com/image/66181232/).) ([North-Carolina Journal, 1797-05-08, p.4](https://www.newspapers.com/image/66181274/).)
+
+An Edenton proclamation dated February 1 reports that a chest belonging to James Glasgow, containing Secretary of State’s office papers, was thrown from a State-House window during a burglary attempt; the thieves had no time to carry it away. ([State Gazette of North Carolina, 1798-02-01, p.3](https://www.newspapers.com/image/55230363/).)
+
+A printed response to warrant accusations reproduces a conveyance dated 20 July 1785, purporting to transfer Francis Harrison’s claimed heir-at-law rights in Stephen and James Harrison’s military lands to James Glasgow, witnessed by Samuel Holladay. ([Raleigh Minerva, 1799-12-24, p.4](https://www.newspapers.com/image/59123730/).) ([Weekly Raleigh Register, 1799-12-31, p.4](https://www.newspapers.com/image/59183273/).) ([Weekly Raleigh Register, 1799-12-31, p.4](https://www.newspapers.com/image/584304080/).)
+
+The Register says it has seen a reply by Mr. Glasgow to the land-fraud charges and plans to print it in a future paper. ([Weekly Raleigh Register, 1799-12-24, p.3](https://www.newspapers.com/image/59183268/).)
+
+A committee report says that among those it considered offenders in the land-warrant matter, none had been arrested except James Glasgow. ([Raleigh Minerva, 1799-12-31, p.4](https://www.newspapers.com/image/59123741/).)
+
+A legislative debate reports a proposed amendment to include James Glasgow’s case if it should be thought proper to bring him to trial. ([Weekly Raleigh Register, 1799-12-31, p.1](https://www.newspapers.com/image/59183270/).)
+
+James Glasgow is an addressee in letters remaining at Newbern post office, list headed 1 July 1794. ([The North Carolina Gazette, or, Impartial Intelligencer, and Weekly General Advertiser, 1794-07-12, p.1](https://www.newspapers.com/image/55395393/).) ([The North Carolina Gazette, or, Impartial Intelligencer, and Weekly General Advertiser, 1794-08-02, p.4](https://www.newspapers.com/image/55395474/).)
+
+James Glasgow, Sec’ry, signs by Governor Richard Caswell’s command a North Carolina proclamation dated Newbern 10 January 1778 concerning the snow Diamond’s cargo after its wreck near Ocracoke Bar. ([The North-Carolina Weekly Gazette, 1778-01-16, p.2](https://www.newspapers.com/image/55455707/).)
+
+James Glasgow, Sec’ry, signs by Governor Richard Caswell’s command a North Carolina proclamation dated Newbern 14 January 1778 announcing the qualification of superior-court clerks. ([The North-Carolina Weekly Gazette, 1778-01-16, p.3](https://www.newspapers.com/image/55455713/).)
+
+A Halifax, North Carolina proclamation dated 21 January, printed 8 February 1798, names James Glasgow, Esq., as owner of a chest containing papers appertaining to the Secretary of State’s office; it reports thieves threw it into the yard and left it unopened. ([The North American, 1798-02-08, p.2](https://www.newspapers.com/image/593170107/).)
+
+The expressly named secretary and former secretary agree with James Glasgow’s documented North Carolina office. Masonic, postal, university and petition occurrences have their own identity limits: a name or title alone does not identify every occurrence. The land-warrant allegations, an arrest and proposed trial must be distinguished from a conviction; an attributed conveyance or printed reply is not an independently verified transaction.
+
+### Contemporary North Carolina office and land-warrant notices
+James Glasgow, Esq., is reported chosen Secretary of State of North Carolina. ([The State Gazette of North-Carolina, 1788-12-04, p.3](https://www.newspapers.com/image/55579319/).)
+
+A Newbern report dated 31 December names the Honorable James Glasgow as appointed Secretary of State by the North Carolina legislature. ([The North American, 1792-01-25, p.1](https://www.newspapers.com/image/602495286/).) ([The Pennsylvania Herald, and York General Advertiser, 1792-01-25, p.2](https://www.newspapers.com/image/773748049/).)
+
+Wm. White of Lenoir is reported elected North Carolina Secretary of State in the room of James Glasgow, resigned. ([North American, 1798-12-24, p.3](https://www.newspapers.com/image/593171969/).) ([Newbern Gazette, 1798-12-08, p.3](https://www.newspapers.com/image/55650665/).)
+
+A commissioners’ report names James Glasgow, Esq., the late Secretary, while attributing irregular military land warrants to him. ([Raleigh Minerva, 1799-12-17, p.2](https://www.newspapers.com/image/59123711/).) ([Weekly Raleigh Register, 1799-12-24, p.4](https://www.newspapers.com/image/59183269/).) ([Weekly Raleigh Register, 1799-12-24, p.4](https://www.newspapers.com/image/584304066/).)
+
+The Raleigh Minerva continuation names James Glasgow in allegations about a warrant and assignment involving soldier James Harrison and witness Samuel Holladay, and grants issued by the Secretary to himself. ([Raleigh Minerva, 1799-12-17, p.3](https://www.newspapers.com/image/59123714/).)
+
+An Edenton proclamation dated February 1 reports that a chest belonging to James Glasgow, containing Secretary of State’s office papers, was thrown from a State-House window during a burglary attempt; the thieves had no time to carry it away. ([State Gazette of North Carolina, 1798-02-01, p.3](https://www.newspapers.com/image/55230363/).)
+
+A printed response to warrant accusations reproduces a conveyance dated 20 July 1785, purporting to transfer Francis Harrison’s claimed heir-at-law rights in Stephen and James Harrison’s military lands to James Glasgow, witnessed by Samuel Holladay. ([Raleigh Minerva, 1799-12-24, p.4](https://www.newspapers.com/image/59123730/).) ([Weekly Raleigh Register, 1799-12-31, p.4](https://www.newspapers.com/image/59183273/).) ([Weekly Raleigh Register, 1799-12-31, p.4](https://www.newspapers.com/image/584304080/).)
+
+The Register says it has seen a reply by Mr. Glasgow to the land-fraud charges and plans to print it in a future paper. ([Weekly Raleigh Register, 1799-12-24, p.3](https://www.newspapers.com/image/59183268/).)
+
+A committee report says that among those it considered offenders in the land-warrant matter, none had been arrested except James Glasgow. ([Raleigh Minerva, 1799-12-31, p.4](https://www.newspapers.com/image/59123741/).)
+
+A legislative debate reports a proposed amendment to include James Glasgow’s case if it should be thought proper to bring him to trial. ([Weekly Raleigh Register, 1799-12-31, p.1](https://www.newspapers.com/image/59183270/).)
+
+James Glasgow, Sec’ry, signs by Governor Richard Caswell’s command a North Carolina proclamation dated Newbern 10 January 1778 concerning the snow Diamond’s cargo after its wreck near Ocracoke Bar. ([The North-Carolina Weekly Gazette, 1778-01-16, p.2](https://www.newspapers.com/image/55455707/).)
+
+James Glasgow, Sec’ry, signs by Governor Richard Caswell’s command a North Carolina proclamation dated Newbern 14 January 1778 announcing the qualification of superior-court clerks. ([The North-Carolina Weekly Gazette, 1778-01-16, p.3](https://www.newspapers.com/image/55455713/).)
+
+A Halifax, North Carolina proclamation dated 21 January, printed 8 February 1798, names James Glasgow, Esq., as owner of a chest containing papers appertaining to the Secretary of State’s office; it reports thieves threw it into the yard and left it unopened. ([The North American, 1798-02-08, p.2](https://www.newspapers.com/image/593170107/).)
+
+The reports distinguish allegations about land warrants, Glasgow’s printed response, his arrest and a proposed trial. None of those procedural steps alone proves a conviction or the truth of the attributed 1785 conveyance. The two chest incidents retain their separate printed dates and places.
+
+### Possible Masonic, postal and other North Carolina occurrences
+These notices are compatible with the secretary’s North Carolina life; their identification with him is individually probable or possible rather than established by the shared name alone.
+
+James Glasgow is named with Kingston Lodge No.3 and as Grand Secretary among elected and installed North Carolina Grand Lodge officers, at a Tarborough convention on 9–11 December 1787. ([The Columbian Herald, or Independent Courier of North-America, 1788-01-07, p.2](https://www.newspapers.com/image/604128613/).)
+
+James Glasgow, Contentney, is an addressee in letters remaining at Newbern post office, notice dated 19 March 1788. ([The State Gazette of North-Carolina, 1788-03-27, p.3](https://www.newspapers.com/image/55578590/).)
+
+A Newbern report dated 16 April 1788 lists James Glasgow among Dobbs County candidates supposed to favor the federal constitution for the Hillsborough convention. ([Independent Gazetteer, 1788-05-13, p.2](https://www.newspapers.com/image/39934415/).) ([Poulson's American Daily Advertiser, 1788-05-12, p.2](https://www.newspapers.com/image/1034014506/).) ([The Carlisle Gazette, and the Western Repository of Knowledge, 1788-05-21, p.3](https://www.newspapers.com/image/1033759470/).) ([Pittsburgh Weekly Gazette, 1788-06-07, p.2](https://www.newspapers.com/image/96046987/).)
+
+A Fayetteville Grand Lodge report names James Glasgow, Esq., as elected Grand Senior Warden for the ensuing year. ([The Independent Gazetteer, 1788-12-23, p.2](https://www.newspapers.com/image/39935175/).) ([Poulson's American Daily Advertiser, 1788-12-24, p.3](https://www.newspapers.com/image/1034010137/).)
+
+An Edenton report dated 17 December 1789 names James Glasgow as Deputy Grand Master among North Carolina Grand Lodge officers appointed for the ensuing year. ([The State Gazette of North-Carolina, 1789-12-17, p.3](https://www.newspapers.com/image/55583318/).)
+
+Hon. James Glasgow, Raleigh, is an addressee in a post-office letters list dated 1 October 1795. ([The North-Carolina Journal, 1795-10-26, p.4](https://www.newspapers.com/image/66180042/).) ([The North-Carolina Journal, 1795-11-02, p.4](https://www.newspapers.com/image/66180058/).)
+
+James Glasgow, Fayetteville, is an addressee in letters remaining at Fayetteville post office, list dated 5 November 1793. ([The Encyclopedian Instructor, 1793-11-19, p.1](https://www.newspapers.com/image/56018161/).)
+
+James Glasgow, Esq., is an addressee in a Raleigh post-office letters list headed 1 January 1795, as printed in 1796 issues. ([The North-Carolina Journal, 1796-01-11, p.3](https://www.newspapers.com/image/66180229/).) ([The North-Carolina Journal, 1796-01-25, p.4](https://www.newspapers.com/image/66180258/).) ([The North-Carolina Journal, 1796-02-01, p.4](https://www.newspapers.com/image/66180273/).)
+
+Col. James Glasgow, at Raleigh, is an addressee in letters remaining at Raleigh post office, list dated 1 April 1796. ([The North-Carolina Journal, 1796-05-16, p.4](https://www.newspapers.com/image/66180487/).)
+
+Hon. James Glasgow is an addressee in letters remaining at Raleigh post office, list dated 1 July 1796. ([The North-Carolina Journal, 1796-07-25, p.3](https://www.newspapers.com/image/66180641/).)
+
+James Glasgow, Muscadine Mathews and John Gray Blount are named signatories for holders of western land entries in a petition dated Raleigh, 23 December 1796. ([The North American, 1797-02-18, p.3](https://www.newspapers.com/image/467046163/).) ([The Washington Gazette, 1797-03-04, p.3](https://www.newspapers.com/image/1043526013/).)
+
+A University notice dated 10 May 1799 names Mr. James Glasgow, Newbern, among trustees who would form the visitation committee for the planned 4 July examination. ([North-Carolina Gazette and Wilmington Weekly Post-Boy, 1799-06-13, p.2](https://www.newspapers.com/image/55411407/).)
+
+James Glasgow, Esq., 4, is an addressee in a Raleigh post-office letters list headed April 1, reprinted in April–May 1797 issues. ([North-Carolina Journal, 1797-04-17, p.3](https://www.newspapers.com/image/66181214/).) ([North-Carolina Journal, 1797-04-24, p.3](https://www.newspapers.com/image/66181232/).) ([North-Carolina Journal, 1797-05-08, p.4](https://www.newspapers.com/image/66181274/).)
+
+James Glasgow is an addressee in letters remaining at Newbern post office, list headed 1 July 1794. ([The North Carolina Gazette, or, Impartial Intelligencer, and Weekly General Advertiser, 1794-07-12, p.1](https://www.newspapers.com/image/55395393/).) ([The North Carolina Gazette, or, Impartial Intelligencer, and Weekly General Advertiser, 1794-08-02, p.4](https://www.newspapers.com/image/55395474/).)
+
+Postal lists do not prove residence, presence or receipt of correspondence. In particular, the list headed 1 January 1795 was printed in 1796; its printed year is preserved. Appointment to a planned university visitation committee does not prove attendance. Neither the petition nor a lodge office establishes a family relationship.
+<!-- queue-record-integration-2026-10-17:end -->

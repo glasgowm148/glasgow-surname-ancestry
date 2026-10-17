@@ -15,3 +15,9 @@ The supplied OPR banns and marriages index row 29, dated **1676-06-16**, is assi
 **Confidence:** Matched to the represented existing couple. Original register image not inspected in this batch. The collection combines banns and marriages; the indexed date is not independently established as the ceremony date. This finding makes no new birth, parentage or child-identity inference.
 
 **Recommended action:** Preserve the existing spouse connection and add the index occurrence and citation to both biographies. Inspect the original register before treating the combined-index date as a proved wedding date or setting a certain ceremony date.
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+The banns/marriage index records Anna Glasgow and Thomas Gray on 16 June 1676 at Kirknewton and East Calder. (Scotland’s People: Old Parish Registers — banns and marriages: OPR 690/10 / 80; [record](https://www.scotlandspeople.gov.uk/).) The original parish register image has not been inspected. The combined index date does not by itself identify the precise event type.
+<!-- queue-record-integration-2026-10-17:end -->

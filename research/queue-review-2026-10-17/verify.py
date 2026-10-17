@@ -43,6 +43,26 @@ for row in progress['baseline_results'].values():
 expected = build_public_data(read('surname-research/indexes/glasgow-newspaper-review.json'))
 assert read('www/data/glasgow-newspaper-review.json') == expected
 full = read('www/data/catalogue-search-index.json')
+integration = read('research/queue-review-2026-10-17/catalogue-integration.json')
+full_by_id = {row['id']: row for row in full}
+for person in integration['new_people']:
+    slug = person['catalogue_id']
+    assert full_by_id[slug]['missing_profile'] and full_by_id[slug]['needs_wikitree_update'], slug
+    dossier = read('www/people/' + slug + '.json')
+    assert dossier['wikitree_update']['new_profile'], slug
+    assert dossier['wikitree_update']['draft_wikitext'] == person['draft_wikitext'], slug
+for ident, amendment in integration['profile_updates'].items():
+    slug = ident.casefold()
+    assert slug in full_by_id and full_by_id[slug]['needs_wikitree_update'], ident
+    dossier = read('www/people/' + slug + '.json')
+    update = dossier.get('wikitree_update') or {}
+    if amendment.get('private_comparison'):
+        assert update.get('comparison_withheld') and update.get('public_addition_wikitext'), ident
+        assert not update.get('remote_wikitext') and not update.get('draft_wikitext'), ident
+    else:
+        assert update.get('draft_wikitext', '').strip() == (ROOT / amendment['draft_path']).read_text().strip(), ident
+    assert any('Record findings and identity limits' in s['title']
+               for f in dossier['research_findings'] for s in f['sections']), ident
 packed = read('www/data/catalogue-search-fast.json')
 def unpack(v):
     if isinstance(v, int) and not isinstance(v, bool) and v < 0:
@@ -51,7 +71,11 @@ def unpack(v):
 fast = [dict(zip(packed['fields'], map(unpack, values))) for values in packed['rows']]
 assert {r['id'] for r in full if r.get('needs_wikitree_update')} == {
     r['id'] for r in fast if r.get('needs_wikitree_update')}
+assert {r['id'] for r in full if r.get('missing_profile')} == {
+    r['id'] for r in fast if r.get('missing_profile')}
 print(json.dumps(dict(reviewed=511, remaining=0, public_rows=len(queue['rows']),
                       suggested_new_people=len(suggestions),
                       baseline_dispositions=dict(Counter(r['disposition'] for r in progress['baseline_results'].values())),
-                      existing_profile_amendments=sum(bool(r.get('needs_wikitree_update')) for r in full)), indent=2))
+                      integrated_profile_amendments=len(integration['profile_updates']),
+                      main_missing_profile_count=sum(bool(r.get('missing_profile')) for r in full),
+                      main_wikitree_update_count=sum(bool(r.get('needs_wikitree_update')) for r in full)), indent=2))

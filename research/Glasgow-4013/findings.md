@@ -39,3 +39,9 @@ These are proposals for the WikiTree date fields and are queued for review; noth
 The original recital in an [indenture of 25 March 1874](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS54-77Q4-H), registered 24 August 1874 (original image inspected), traces James Glasgow's lease of 2 October 1779 of a 24-foot tenement on the north side of Newtown of Larne to a renewal of 25 February 1832 to **Anne Glasgow and Jane Glasgow**. It shows title succession, not stated descent. The profile-link audit lists this profile and Glasgow-3929 as **possible** matches for the 1832 Jane. The fit depends on which Jane this profile is (see the vital-dates section above): the Jane of the 1844 Larne probate index would fit an adult lessee in 1832, while the Jane who died in 1873 aged 50 would have been about nine. James-3991's wife Jane died in 1820 and cannot be the 1832 lessee. Anne may be [Ann Glasgow (Glasgow-3992)](https://www.wikitree.com/wiki/Glasgow-3992), also only a candidate. Next record: the 1832 renewal itself, for relationship wording and intervening assignments.
 
 Recorded in `research/latest-findings.json` (21 September 2026); carried into this file on 7 October 2026.
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+A possible identification concerns Jane Glasgow. An 1874 indenture traces James Glasgow’s 2 October 1779 Newtown of Larne lease to a 25 February 1832 renewal to Anne and Jane Glasgow. (Inspected historical source; [record](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS54-77Q4-H).) Original recital inspected. It establishes title succession, not stated descent; James and both women’s identities remain unresolved. The identification remains uncertain.
+<!-- queue-record-integration-2026-10-17:end -->

@@ -140,3 +140,9 @@ Current public profile biographies were checked alongside the maintained histori
 The informant in [death entry 348](https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1888/06179/4766466.pdf) reads **Mary Glasgow**, her mark, daughter, present at death, Gortahar. The forename matches the registrar's "Mary" in entries 345, 330 and 358 and differs from his "Nancy" in entry 355. The 24 August reading was right and the 13 September change to Nancy was the error. Ann is therefore not the informant, and no "Nancy" alias needs to be found for her. The informant was most probably her sister Mary (Glasgow-3167), by then Mrs Elder of Gortahar. Details are in the 6 October source audit in `research/Glasgow-951/findings.md`.
 
 The live profile's research note still says that "Nancy Glasgow" registered the death. A replacement paragraph is queued locally; nothing has been saved on WikiTree.
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+A possible identification concerns Ann Glasgow. The original civil birth return records Mary Ellen, a female child born at Lisnagaver on 14 February 1867. The mother is Mary Glasgow; no father is entered. (Ballymoney/Ahoghill civil birth register 1867; [record](https://www.irishgenealogy.ie/files/civil/birth_returns/births_1867/03501/2286677.pdf).) The identification remains uncertain.
+<!-- queue-record-integration-2026-10-17:end -->

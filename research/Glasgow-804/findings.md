@@ -21,3 +21,14 @@ Compare original local tax, land, probate and institutional records, preserving 
 ## Current conclusion — newspaper identity review, 6 October 2026
 
 - [The South-Carolina and American General Gazette, 1775-08-25, p.1](https://www.newspapers.com/image/605068969/): James Glasgow (letter addressee, Charlestown SC) — **possible** match. Glasgow-804 (b. 11 Nov 1735 Ayr; d. 19 May 1788 Newberry SC) has a 1769 South Carolina passenger-list index entry, so he was in the colony in 1775: compatible, no bridge. Glasgow-1144 (b. 1731 Kilwaughter; d. c.1793 Newberry) has children born in County Antrim in 1772, 1773 and 1775 on his own profile, so he was most likely still in Ireland in August 1775 - unlikely (letters can await an expected immigrant, so not excluded). Glasgow-634 was in North Carolina (weak).
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### Possible James Glasgow, Charlestown postal addressee, 1775
+James Glasgow and Ezekiel Glasgow appear in the list of letters remaining in Charlestown’s General Post Office, dated 21 August 1775. ([The South-Carolina and American General Gazette, 1775-08-25, p.1](https://www.newspapers.com/image/605068969/).)
+
+The list does not state James’s residence or age and proves no relationship to the co-listed Ezekiel.
+
+This may concern [Glasgow-804](https://www.wikitree.com/wiki/Glasgow-804). Born 11 Nov 1735, Ayr, exact; died 19 May 1788, Newberry, South Carolina, exact. A James Glasgow documented in South Carolina and alive during 1775 is geographically and chronologically compatible with a Charleston addressee. No record connects him to this post-office entry. His exact 1788 death is a concrete conflict with identifying him as the James Glasgow listed in Edinburgh in December 1789.
+<!-- queue-record-integration-2026-10-17:end -->

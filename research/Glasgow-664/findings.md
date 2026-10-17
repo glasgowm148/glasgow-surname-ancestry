@@ -25,3 +25,14 @@ Inspect local tax, probate, land and original list/meeting records; compare the 
 ## Relationship assessment — newspaper identity review, 6 October 2026
 
 - John Glasgow (Allegheny Township, 1799) — possible same person as, or possible kin of — Glasgow-664 / unprofiled John Glasgo (Huntingdon County 1790): **research note only** (WikiTree now: not linked). No kinship is stated in the notice. The 1790 Huntingdon John Glasgo household had five boys under 16, and Glasgow-664 (b. c.1777) is later in the same Allegheny Township. A father–son connection is a hypothesis for the Huntingdon/Cambria tax and land records, not a proposal. ([The North American (Philadelphia), 1799-09-10, p.3](https://www.newspapers.com/image/587806805/))
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### Possible John Glasgow, Allegheny Township list in Huntingdon County context, 1799
+John Glasgow is named under Allegheny Township in a township-grouped list accompanying Huntingdon County election-meeting material. ([The North American (Philadelphia), 1799-09-10, p.3](https://www.newspapers.com/image/587806805/).) ([Pennsylvania Weekly Telegraph (Oracle of Dauphin and Harrisburgh Advertiser), 1799-09-18, p.2](https://www.newspapers.com/image/1140587856/).)
+
+The two issues repeat one list. Allegheny Township was then in Huntingdon County and later in Cambria County, so the county labels are compatible. The list does not establish a father-and-son relationship with a 1790 household head.
+
+This may concern [Glasgow-664](https://www.wikitree.com/wiki/Glasgow-664). Profile exact birth 10 November 1777, Daill, Argyll, and death 21 May 1845, Glasgow, Cambria, Pennsylvania, fit the period. Its existing spouse has a profile-stated Huntingdon birthplace, a tree lead only; later Cambria locality and adult chronology make this a stronger regional candidate, without a direct connection to the township list.
+<!-- queue-record-integration-2026-10-17:end -->

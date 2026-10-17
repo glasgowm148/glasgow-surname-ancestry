@@ -65,3 +65,11 @@ From the Larne monument as published in 1900 ([*Ulster Journal of Archaeology*, 
 - **Ann** (Glasgow-3992): died 25 May 1832 aged 64, so born 26 May 1767 to 25 May 1768. The stone calls her the daughter of "the last named", Jane; on these dates James was 19 to 21 and Jane 25 to 27 at Ann's birth, so James's fatherhood of Ann is inferred from the shared stone and surname.
 
 These are proposals for the WikiTree date fields and are queued for review; nothing has been changed on WikiTree.
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+A possible identification concerns James Glasgow. An 1874 indenture traces James Glasgow’s 2 October 1779 Newtown of Larne lease to a 25 February 1832 renewal to Anne and Jane Glasgow. (Inspected historical source; [record](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS54-77Q4-H).) Original recital inspected. It establishes title succession, not stated descent; James and both women’s identities remain unresolved. The identification remains uncertain.
+
+A possible identification concerns James Glasgow. The separate memorial 173108 records James Glasgow, ropemaker, assigning a messuage to John Hill on 28 March 1768; its witnessing James Glasgow is described as farmer. (Inspected historical source; [record](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJW-DDD6); Inspected historical source; [record](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJW-DDDL).) Original occupation checked. The same-day ropewalk and messuage assignments are different instruments. Whether the farmer and tanner witnesses are one man is unresolved. The identification remains uncertain.
+<!-- queue-record-integration-2026-10-17:end -->

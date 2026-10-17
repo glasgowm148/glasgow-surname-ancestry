@@ -18,3 +18,13 @@ Last updated: 2026-10-05
 ### Newspaper identity review — 6 October 2026
 
 - Probably the Jane Glasgow who gave evidence at the Antrim Assizes in July 1838 as mother of Anne Armstrong (d. 23 June 1838 at Ballyclug); alive and a widow in 1838. — Freeman's Journal, 27 July 1838, p. 3 (newspapers.com image 1050122635) ([Freeman’s Journal and Daily Commercial Advertiser, 1838-07-27, p.3](https://www.newspapers.com/image/1050122635/))
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### Jane Glasgow in the Antrim Assizes report, 1838
+
+An Antrim Assizes report names Jane Glasgow as mother of Anne Armstrong, wife of John Armstrong; John’s mother was Euphemia Armstrong. Anne’s death is reported on 23 June 1838 at printed Bally-cluck. Her birth surname and age are not given. William M’Gowan was acquitted: this is an accusation and acquittal, not a finding of guilt. ([Freeman’s Journal and Daily Commercial Advertiser, 27 July 1838, p. 3, Antrim Assizes](https://www.newspapers.com/image/1050122635/).)
+
+The Antrim/Racavan context and memorial naming daughter Jane Armstrong make Jane McClure Glasgow a compatible mother candidate, although the newspaper names Anne, not Jane. [Jane Glasgow Armstrong](https://www.wikitree.com/wiki/Glasgow-1779) is the daughter named on that memorial, not automatically the witness mother; her reported 1837 death also conflicts with appearing in 1838. The newspaper’s Jane–Anne relationship is direct; assigning it to this Jane remains uncertain.
+<!-- queue-record-integration-2026-10-17:end -->

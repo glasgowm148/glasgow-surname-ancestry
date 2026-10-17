@@ -1,0 +1,34 @@
+{
+  "reviewed": 511,
+  "remaining_identity_reviews": 0,
+  "percent_complete": 100,
+  "catalogue_people": 4886,
+  "missing_profile": {
+    "before": 63,
+    "after": 90
+  },
+  "needs_update": {
+    "before": 269,
+    "after": 495
+  },
+  "new_people": 27,
+  "creation_ready": 25,
+  "source_verification_holds": 2,
+  "existing_profile_amendments": 287,
+  "existing_queued_drafts_revised": 88,
+  "additional_existing_profile_amendments": 199,
+  "already_covered": 8,
+  "private_complete_comparisons": 5,
+  "exact_rendered_copy_fields_verified": 314,
+  "unit_tests": 24,
+  "research_publication_new_failures": 0,
+  "internal_link_new_pairs": 0,
+  "main_catalogue_metadata_placeholders": 0,
+  "public_queue_rows": 698,
+  "live_wikitree_writes": 0,
+  "deployment": "local only",
+  "qmd_preexisting_withheld_notes": [
+    "research/Glasgow-2917/findings.md",
+    "research/Glasgow-3172/findings.md"
+  ]
+}

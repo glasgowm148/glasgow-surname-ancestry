@@ -27,3 +27,13 @@ Sources: [Belfast News-Letter, 18 February 1864, p.2](https://www.newspapers.com
 [Full record account and comparison](/research/subjects/newspapers-pre1900-20261004/#wilhelmina-pike). This assessment proposes no live WikiTree edit.
 
 <!-- queue-identity-review-2026-10-17:end -->
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### Wilhelmina Pike’s marriage, 1864
+
+A notice states that Benjamin Glasgow of Drapersfield, Cookstown, married Wilhelmina, eldest daughter of Richard Pike, Esq., of Beechgrove, Dungannon, at Dungannon on 16 February 1864. The newspaper names her father, but gives neither her age nor her mother. ([Belfast News-Letter, 18 February 1864, p.2](https://www.newspapers.com/image/387828785/).)
+
+The distinctive name, father [Richard Pike](https://www.wikitree.com/wiki/Pike-9902) of Beechgrove, and age 21 in 1864 strongly support the identification with Wilhemina/Wilhelmina born at Torren Hill on 11 November 1842. The newspaper does not identify her mother, and the later Margaret George Glasgow marriage notice does not establish that Wilhelmina was Margaret George’s mother.
+<!-- queue-record-integration-2026-10-17:end -->

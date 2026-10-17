@@ -305,3 +305,16 @@ Recorded in `research/Glasgow-822/source-audits/letter-associates-and-covenanter
 The 1886 obituary of Jane Neill, wife of John's son Arthur Glasgow (`Glasgow-1608`), as transcribed on her [Hiltner page](https://hiltner.com/mckeown/getperson.php?personID=I460&tree=tree1), says she joined Rev. William Kennedy McKay's Presbyterian congregation at Portglenone at about eighteen, around 1833. McKay also officiated at the 14 January 1842 marriage of Adam Glasgow's sixth daughter Nancy to John Kyle of Tyanee. This is a concrete overlap between the church networks of John's family and Adam's, but Jane was an in-law and neither notice states any Glasgow kinship. PRONI `D2594` holds McKay and First Portglenone papers (see also [NLI Sources](https://sources.nli.ie/Record/MS_UR_086186?lng=en&print=1)); no pre-1845 marriage register or member roll survives to test John and Adam.
 
 Recorded in `research/Glasgow-822/source-audits/direct-link-loop-2026-07-21.md` (21 July 2026); carried into this file on 7 October 2026.
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### Possible John Glasco in Irish rosters, 1798–1799
+John Glasco is PRESENT at the Black-Rock Association meeting 8 May 1798. ([The Public Register, or, Freeman's Journal, 1798-05-29, p.4](https://www.newspapers.com/image/1214061848/).)
+
+John Glasco appears in the 24 September 1799 roster, continued beneath an earlier COUNTY OF LONDONDERRY heading. ([The Public Register, or, Freeman's Journal, 1799-09-24, p.2](https://www.newspapers.com/image/1214179229/).)
+
+The two entries retain separate identities: the 1798 Black-Rock attendee is not proved to be the 1799 County Londonderry roster bearer. A shared surname and county do not establish relatives.
+
+This may concern [Glasgow-822](https://www.wikitree.com/wiki/Glasgow-822). Possible 1767 Irish-born Londonderry connection; no roster link.
+<!-- queue-record-integration-2026-10-17:end -->

@@ -46,3 +46,9 @@ circumstantial evidence, not an explicit brother-in-law statement.
 - Retain Isobella Glasgow as the record-proved spouse.
 - Add no parents until the fisher is distinguished from the barker/baker and
   connected to an earlier Herbesoun household by property or a kin term.
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+A possible identification concerns Archibald Herbertsoun. Protocol 2370, dated 18 January 1581/82, places Archibald Herbertsoun, fisher, in a tenement on the south side of Bridgegait, beside Ninian Schyre’s property and the little common green. (Archibald Herbertsoun, fisher: Bridgegait boundary; [record](https://archive.org/details/abstractsprotoc00scogoog/page/n60/mode/2up).) Printed protocol pages visually inspected. Name, trade and street support a probable occurrence of Isobella’s husband; the entry names neither Isobella nor a Glasgow relative, and the tenement has not been matched to the earlier title. The identification remains uncertain.
+<!-- queue-record-integration-2026-10-17:end -->

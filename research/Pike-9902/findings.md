@@ -26,3 +26,13 @@ Sources: [Belfast News-Letter, 18 February 1864, p.2](https://www.newspapers.com
 [Full record account and comparison](/research/subjects/newspapers-pre1900-20261004/#richard-pike). This assessment proposes no live WikiTree edit.
 
 <!-- queue-identity-review-2026-10-17:end -->
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### Richard Pike’s daughter’s marriage, 1864
+
+A notice states that Benjamin Glasgow of Drapersfield, Cookstown, married Wilhelmina, eldest daughter of Richard Pike, Esq., of Beechgrove, Dungannon, at Dungannon on 16 February 1864. ([Belfast News-Letter, 18 February 1864, p.2](https://www.newspapers.com/image/387828785/).)
+
+The distinctive Wilhelmina name, Richard father and Beechgrove/Dungannon location strongly fit the existing Richard–Wilhelmina family. The Quaker birth transcription gives Wilhelmina born at Torren Hill on 11 November 1842 to Richard and Margaret. The newspaper names her father independently; the underlying Quaker image has not been newly inspected.
+<!-- queue-record-integration-2026-10-17:end -->

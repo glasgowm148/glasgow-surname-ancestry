@@ -82,3 +82,39 @@ Inspect brig Ann ownership, port entry/clearance, passenger and shipping registe
 - [The Columbian Herald, or, The Independent Courier of North-America, 1788-01-28, p.2](https://www.newspapers.com/image/604128637/): no longer a candidate for this profile. A Charleston marine list of January 1788 enters the brig Ann inward from Larne, with a master surnamed Glasgow. The master's forename is not given and he cannot be identified on WikiTree. The Larne-born William Glasgow (Glasgow-3324) remains only a possible comparison.
 - [The Pennsylvania Journal, or, Weekly Advertiser, 1788-02-13, p.2](https://www.newspapers.com/image/1034014648/): no longer a candidate for this profile. Philadelphia papers of February 1788 reprint a report that the brig Ann, Capt. Glasgow, arrived from Larne with nearly 200 passengers in good health, praising the captain's humanity. This is the same surname-only master as the Charleston marine-list entries. He remains unidentified.
 - [The Columbian Herald, or, The Independent Courier of North-America, 1788-02-18, p.2](https://www.newspapers.com/image/604128661/): no longer a candidate for this profile. A Charleston marine list of February 1788 records the brig Ann cleared out for Georgetown, with master Glasgow. This is the same surname-only master as the January arrival from Larne, and he is unidentified.
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### Possible Captain Glasgow, brig Ann and Larne passenger reports, 1788
+The brig Ann is listed inward with Glasgow as master and Larne as origin. ([The Columbian Herald, or, The Independent Courier of North-America, 1788-01-28, p.2](https://www.newspapers.com/image/604128637/).)
+
+The brig Ann, Captain Glasgow, is reported arriving from Larne after a tedious passage with near 200 passengers in good health; the report praises the captain’s humane and generous behaviour. ([The Pennsylvania Journal, or, Weekly Advertiser, 1788-02-13, p.2](https://www.newspapers.com/image/1034014648/).) ([The Independent Gazetteer, 1788-02-16, p.2](https://www.newspapers.com/image/39957255/).)
+
+The brig Ann is listed cleared out with Glasgow as master and Georgetown as destination. ([The Columbian Herald, or, The Independent Courier of North-America, 1788-02-18, p.2](https://www.newspapers.com/image/604128661/).)
+
+The passenger reports repeat one notice. The inward and outward entries may concern the same captain, but none gives his forename or family; Larne is the voyage origin, not a recorded birthplace.
+
+This may concern [Glasgow-4124](https://www.wikitree.com/wiki/Glasgow-4124). Prior research reports a 1733 mariners-list surgeon; no later life, brig Ann or Larne connection. No James forename in the 1788 notices.
+
+### Possible James Glascow, Fogs Manor postal addressee
+James Glascow, Fogs Manor, is listed among letters remaining in the Philadelphia post office. ([The Pennsylvania Gazette, 1757-04-07, p.1](https://www.newspapers.com/image/39395391/).)
+
+Fogs Manor is the printed address qualifier. A neighbouring "Phil. Co." in a separate alphabetic column is not this man’s address. The list states no occupation, so it does not identify him as the later Greenwich Packet master.
+
+This may concern [Glasgow-4124](https://www.wikitree.com/wiki/Glasgow-4124). Before-1733 James Glasgow mariner/surgeon of Swift of Sheerness is chronologically compatible and occupationally relevant. The ship, route, region, and 44-year documentary gap provide no demonstrated identity link. The postal record states no occupation.
+
+### Possible James Glascow, master of Greenwich Packet
+Greenwich Packet: James Glascow, master; James Young, owner; from Philadelphia to Winyew, Carolina; with rum, bread, flour and porter. ([The Public Advertiser, 1777-05-14, p.2](https://www.newspapers.com/image/34421452/).) ([The Ipswich Journal, 1777-05-17, p.1](https://www.newspapers.com/image/396765804/).) ([The Gloucester Journal, 1777-05-19, p.1](https://www.newspapers.com/image/971522063/).)
+
+James Young is the separate vessel owner, not another form of the master’s name. Three issues repeat one voyage report. Neither the route nor the cargo establishes the master’s family or identifies him with the 1757 Fogs Manor addressee.
+
+This may concern [Glasgow-4124](https://www.wikitree.com/wiki/Glasgow-4124). Before-1733 James Glasgow mariner/surgeon of Swift of Sheerness is chronologically compatible and occupationally relevant. The ship, route, region, and 44-year documentary gap provide no demonstrated identity link.
+
+### Possible James Glasgow, Edinburgh game certificate, 1789
+James Glasgow, Esq., Edinburgh, appears in the Mid-Lothian game-duty list of certificates issued since 8 September 1789. ([The Edinburgh Advertiser, 1789-12-11, p.8](https://www.newspapers.com/image/601822968/).)
+
+The list gives an Edinburgh designation but no age or relatives; it is not evidence of a military or maritime career.
+
+This may concern [Glasgow-4124](https://www.wikitree.com/wiki/Glasgow-4124). Birth before 1733, uncertain, Saltoun, East Lothian; death not recorded. Chronology and Scottish locality make this a possible candidate, but no evidence links him to the Edinburgh game-certificate entry or establishes Esq status.
+<!-- queue-record-integration-2026-10-17:end -->

@@ -50,3 +50,14 @@ Two very uncertain parent hypotheses join one existing seven-profile family to t
 - [Maryland State Archives,Samuel Glasgow,MSA SC 3520-17195,Owen Lourie 2016: authored probate summary,read 16 October 2026; original wills not inspected](https://msa.maryland.gov/megafile/msa/speccol/sc3500/sc3520/017100/017195/html/17195bio.html)
 - [Baltimore Gazette & Daily Advertiser,23 June 1837,p.4,col.5,as cited in the captured Robert/Apphia biographies; image reference Find a Grave 105585399,not newly inspected](https://www.findagrave.com/memorial/105585399)
 - [James Glasgow profile: preserved Glencorse OPR 687,10/121,14 February 1720 citation and unresolved colonial identity](https://www.wikitree.com/wiki/Glasgow-2868)
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### Possible Robert Glasgow, Cecil County plantation notice, 1786
+A notice dated North Susquehanna hundred, Cecil county, Maryland, 10 February 1786 offers a 260-acre plantation for public vendue on 10 March, with immediate possession given by Robert Glasgow and Joshua Hartshorn. ([The Pennsylvania Gazette, 1786-02-15, p.1](https://www.newspapers.com/image/41024006/).) ([The Pennsylvania Gazette, 1786-03-01, p.4](https://www.newspapers.com/image/41024088/).)
+
+The two issues advertise one planned sale. Robert’s role as owner, agent or another participant is not specified; the notice proves neither a completed sale nor kinship with Joshua Hartshorn.
+
+This may concern [Glasgow-395](https://www.wikitree.com/wiki/Glasgow-395). The recorded estimates place Robert's birth c. 1750 and death c. 1800, with Harford County, Maryland location; age and regional context make him the best comparison lead for a 1786 Cecil County appearance. No cited record ties him to the plantation, Hartshorn, or Cecil County.
+<!-- queue-record-integration-2026-10-17:end -->

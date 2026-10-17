@@ -60,3 +60,16 @@ One very uncertain father is newly selected, conditional on treating the two Joh
 - [Registry of Deeds, marriage articles 2 October 1779, witness James Glasgow of Aghadonvane; previously reviewed image](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJ4-W935-7)
 - [Findmypast, Betham’s Genealogical Abstracts, James Glasgow, administration 24 January 1782; prior transcript finding, image not checked here](https://www.findmypast.co.uk/transcript?id=IRE%2FNAI%2FGENABS%2F00401119%2F1)
 - [Debrett’s Baronetage, Montgomery pedigree, James Glasgow of Aughadenvarn and daughter Jemima; existing published-pedigree citation](https://archive.org/details/debrettsbaroneta25lond/page/n851/mode/2up)
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### Possible John Glascow, Chester County land and committee
+John Glascow is an adjoining landholder in a West-Nottingham Township, Chester County execution-sale notice for 22½ acres, late Michael Dintz’s estate, bounded by Abraham Bunting, John Glascow and others. ([The Pennsylvania Gazette, 1773-04-28, p.1](https://www.newspapers.com/image/39401494/).) ([The Pennsylvania Gazette, 1773-05-05, p.5](https://www.newspapers.com/image/39401765/).)
+
+John Glascow is appointed to provide for distressed families of Associators in actual service by the Chester County Committee of Inspection and Observation, in a resolution dated 13 August 1776. ([The Pennsylvania Gazette, 1776-08-28, p.3](https://www.newspapers.com/image/39398635/).)
+
+The adjoining-owner and committee appointments may concern one man but do not name his parents or wife. They require an active adult in 1773 and 1776; the John who died in May 1769 cannot be that living participant.
+
+This may concern [Glasgow-3960](https://www.wikitree.com/wiki/Glasgow-3960). Chronologically compatible with no recorded death before 1776. A son is listed, but no Pennsylvania, occupation, or roster connection.
+<!-- queue-record-integration-2026-10-17:end -->

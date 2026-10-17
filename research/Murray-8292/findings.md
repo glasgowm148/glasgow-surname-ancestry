@@ -14,3 +14,14 @@ Sources: [The Public Register, or, Freeman's Journal, 1786-09-05, p.3](https://w
 [Full record account and comparison](/research/subjects/newspapers-early-glasgow/#jane-murray-omagh). This assessment proposes no live WikiTree edit.
 
 <!-- queue-identity-review-2026-10-17:end -->
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### Possible Jane Murray of Omagh
+A marriage notice published on 5 September 1786 names Jane Murray of Omagh, aged sixteen, as bride of James Glasco, an Omagh publican aged sixty-one. ([The Public Register, or, Freeman's Journal, 1786-09-05, p.3](https://www.newspapers.com/image/1050075355/).)
+
+Her reported age suggests birth about 1769–1770. The notice names no parents and gives no exact marriage day or subsequent history. A later marriage to a different husband is not by itself proof that she was a different woman.
+
+This may concern [Murray-8292](https://www.wikitree.com/wiki/Murray-8292). The approximate 1770 birth is compatible with Jane’s reported age. Her recorded marriage to [Thomas Ramage](https://www.wikitree.com/wiki/Ramage-410) does not establish an Omagh or Glasco connection; a remarriage remains possible.
+<!-- queue-record-integration-2026-10-17:end -->

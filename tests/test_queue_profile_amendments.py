@@ -4,11 +4,27 @@ import tempfile
 from pathlib import Path
 from unittest.mock import patch
 from tools import build_research_catalog as catalogue
+from tools import sync_catalogue_research as sync
+from bs4 import BeautifulSoup
 from tools.queue_profile_amendments import merge_amendments, public_additive_update, additive_update_panel
 from tools.build_research_catalog import _restore_captured_named_ref_definitions
 
 
 class ReviewedQueueAmendmentsTests(unittest.TestCase):
+    def test_queue_cards_keep_filters_on_the_catalogue_route(self):
+        with tempfile.TemporaryDirectory() as directory:
+            web = Path(directory)
+            (web / 'catalogue').mkdir()
+            markup = '<a href="/?missingProfile=1">No profile</a><a href="?needsUpdate=1">Updates</a>'
+            for relative in ('catalogue.html', 'catalogue/index.html', 'catalogue/advanced.html'):
+                (web / relative).write_text(markup)
+            with patch.object(sync, 'WEB', web):
+                sync.refresh_catalogue_summaries([])
+            for relative in ('catalogue.html', 'catalogue/index.html', 'catalogue/advanced.html'):
+                links = BeautifulSoup((web / relative).read_text(), 'html.parser').select('a')
+                self.assertEqual(links[0]['href'], '/catalogue/?missingProfile=1&sort=birth%3Aasc#catalogue-filters')
+                self.assertEqual(links[1]['href'], '/catalogue/?needsUpdate=1&sort=significance%3Adesc#catalogue-filters')
+
     def test_public_capture_supplies_name_and_vitals_for_placeholder_metadata(self):
         evidence = {'profiles': {'Glasgow-1': {'privacy': 60, 'profile_fields': {
             'Name': 'Glasgow-1', 'FirstName': 'James', 'LastNameAtBirth': 'Glasgow',

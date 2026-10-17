@@ -29,3 +29,14 @@ Sources: [Aurora General Advertiser, 1799-09-13, p.2](https://www.newspapers.com
 [Full record account and comparison](/research/subjects/newspapers-early-glasgow/#nathaniel-r-glascoe-kingsessing). This assessment proposes no live WikiTree edit.
 
 <!-- queue-identity-review-2026-10-17:end -->
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### Possible Nathaniel R. Glascoe, Kingsessing committee
+Nathaniel R. Glascoe is named in the Kingsessing township committee to act with the county committee and carry the preceding resolutions into effect. ([Aurora General Advertiser, 1799-09-13, p.2](https://www.newspapers.com/image/586545170/).)
+
+The initial R. is recorded. The paragraph gives no age, family or origin. It does not by itself connect the committee member with either the Livingston Nathaniel or the Drumgreenagh farmer.
+
+This may concern [Glasgow-4014](https://www.wikitree.com/wiki/Glasgow-4014). Nathaniel was a Drumgreenagh farmer witnessing a deed in 1786 and appears in the 1809 Drumgreenagh probate index. No exact death or simultaneous 1799 Irish act excludes the comparison, but neither record supplies R. or a Kingsessing connection.
+<!-- queue-record-integration-2026-10-17:end -->

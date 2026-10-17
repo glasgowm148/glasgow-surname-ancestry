@@ -261,6 +261,12 @@ def refresh_catalogue_summaries(rows):
         path = WEB / relative
         old = path.read_text(encoding="utf-8")
         soup = BeautifulSoup(old, "html.parser")
+        for link in soup.select('a[href]'):
+            href = link["href"]
+            if href.startswith(("?missingProfile=", "/?missingProfile=")):
+                link["href"] = "/catalogue/?missingProfile=1&sort=birth%3Aasc#catalogue-filters"
+            elif href.startswith(("?needsUpdate=", "/?needsUpdate=")):
+                link["href"] = "/catalogue/?needsUpdate=1&sort=significance%3Adesc#catalogue-filters"
         hero = soup.select_one(".catalogue-hero .lede")
         if hero:
             hero.string = f"Search {len(rows):,} historical people connected with the Glasgow surname."

@@ -20,3 +20,16 @@ Inspect original Chester County land, tax and committee papers, township residen
 
 - [The Pennsylvania Gazette, 1773-04-28, p.1](https://www.newspapers.com/image/39401494/): no longer a candidate for this profile. John Glascow is the neighbouring landholder of Michael Dintz's 22.5-acre West Nottingham tract in an April 1773 sheriff's sale. The only John taxed as a West Nottingham landholder in 1773 is the continuing storekeeper/landholder whose holding passes to Hugh Glasgow in 1793, i.e. probably Glasgow-2871.
 - [The Pennsylvania Gazette, 1776-08-28, p.3](https://www.newspapers.com/image/39398635/): no longer a candidate for this profile. John Glascow is appointed (13 Aug 1776) by the Chester County Committee of Inspection to provide for distressed families of Associators. Several Johns were taxed in Chester County in 1775-76 (West Nottingham landholder, East Nottingham landholder, East Bradford freeman), so the appointee is only possibly the West Nottingham man, Glasgow-2871.
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### Possible John Glascow, Chester County land and committee
+John Glascow is an adjoining landholder in a West-Nottingham Township, Chester County execution-sale notice for 22½ acres, late Michael Dintz’s estate, bounded by Abraham Bunting, John Glascow and others. ([The Pennsylvania Gazette, 1773-04-28, p.1](https://www.newspapers.com/image/39401494/).) ([The Pennsylvania Gazette, 1773-05-05, p.5](https://www.newspapers.com/image/39401765/).)
+
+John Glascow is appointed to provide for distressed families of Associators in actual service by the Chester County Committee of Inspection and Observation, in a resolution dated 13 August 1776. ([The Pennsylvania Gazette, 1776-08-28, p.3](https://www.newspapers.com/image/39398635/).)
+
+The adjoining-owner and committee appointments may concern one man but do not name his parents or wife. They require an active adult in 1773 and 1776; the John who died in May 1769 cannot be that living participant.
+
+This may concern [Glasgow-4027](https://www.wikitree.com/wiki/Glasgow-4027). possible, geographically relevant but chronology uncertain. Potentially alive and adult in August 1776; a Pennsylvania location and compatible time range make him worth comparing. The death qualifier permits death either before or after the roster date, so it is not a concrete exclusion. Public tree lists parents James Glasgow II (Glasgow-1024) and Mary Harkness, but this tree relationship is unmarked/uncertain and supplies no link to the roster.
+<!-- queue-record-integration-2026-10-17:end -->

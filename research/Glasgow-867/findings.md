@@ -128,3 +128,9 @@ This is probably the death of this John. He was a married farmer of Lisnagaver; 
 Next record: a photograph or fresh reading of the Rasharkin Second Presbyterian stone.
 
 Recorded in `research/Glasgow-951/research-log-2026-09-17-live.md` (17 September 2026), `research/Glasgow-3474/findings.md` (29 August 2026) and `research/Glasgow-951/findings.md` (23 September 2026); carried into this file on 7 October 2026.
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+A possible identification concerns John Glasgow, Drogheda sub-constable, 1850. Sub-constable John Glasgow, explicitly of the Drogheda police, appears in a court report on 19 October 1850. He found the prisoner running away with a bag of meal in an oatmeal-theft case. John is the police witness, not the accused. (The Drogheda Argus and Leinster Journal, 19 October 1850, p.2, court theft report; [record](https://www.newspapers.com/image/1259561281/).) Occupation and police station are explicit; age, birthplace, relatives and exact service dates are unstated. [Glasgow-2056](https://www.wikitree.com/wiki/Glasgow-2056), [Glasgow-2537](https://www.wikitree.com/wiki/Glasgow-2537) and [Glasgow-867](https://www.wikitree.com/wiki/Glasgow-867) are adult chronology comparisons only, with no checked constabulary connection. An administrative Drogheda probate label on a different John lead is not evidence of Drogheda residence or police service. Royal Irish Constabulary service records and local directories are the next identity tests. The identification remains uncertain.
+<!-- queue-record-integration-2026-10-17:end -->

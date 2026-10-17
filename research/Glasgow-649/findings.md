@@ -100,3 +100,14 @@ The following wording records the prior assessment, replaced by the probable loc
 > It must not be used
 > to validate the internally conflicted live profile Glasgow-1024 or the wholly
 > derivative James-3305.
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### Possible A. Glascow, 1794 arrival
+A. Glascow from Glasgow is named with H. Jurriens from Riga and J. Mark from Königsbergen in a shipping-arrival report for 24 June 1794, under the Rotterdam dateline of 25 June. ([Rotterdamse courant, 26 June 1794, p.2](https://www.newspapers.com/image/1335425007/).)
+
+Only the initial A. is given. The list probably names a shipmaster, but it does not state a vessel, full forename, sex, family or personal origin. Glasgow is the departure port. P. L. Markwaarden in the following entry is a different person.
+
+This may concern [Glasgow-649](https://www.wikitree.com/wiki/Glasgow-649). Adult in 1794 and later migration is recorded in the known account account, but no maritime occupation or link to Rotterdam is known. Retained only as an age-compatible namesake lead.
+<!-- queue-record-integration-2026-10-17:end -->

@@ -94,3 +94,16 @@ The PRONI catalogue of lease `D2223/15/56` names John's co-lessee as **James Wie
 Bounded negative results, 6 August 2026: live WikiTree searches for John Glasgow, Glask, Glasco and Glascow with early County Antrim dates found no compatible earlier profile; [Glasgow-1022](https://www.wikitree.com/wiki/Glasgow-1022), [Glasgow-1146](https://www.wikitree.com/wiki/Glasgow-1146) and [Glasgow-1657](https://www.wikitree.com/wiki/Glasgow-1657) were born too late to be the 1740 householder. The repository's One Tree export and research files held no profile for James or John Wier of Ballyboggy and no Antrim Weir/Wier of a compatible generation, and none of the 75 locally captured descendants of John Glasgow of Glenleslie (Glasgow-1022) had a Weir/Wier spouse or middle name. This is a negative from the repository snapshot, not proof that no Glasgow–Wier marriage occurred. The repository's positive Glasgow–Weir links (Stevenston 1605, seventeenth-century Midlothian, and later County Tyrone) are separate clusters.
 
 Recorded in `research/Glasgow-3959/1740_Ireland_Ballyboggy_John_Glasgow.md` (6 August 2026); carried into this file on 7 October 2026.
+
+<!-- queue-record-integration-2026-10-17:start -->
+## Record findings and identity limits — 17 October 2026
+
+### Possible John Glascow, Chester County land and committee
+John Glascow is an adjoining landholder in a West-Nottingham Township, Chester County execution-sale notice for 22½ acres, late Michael Dintz’s estate, bounded by Abraham Bunting, John Glascow and others. ([The Pennsylvania Gazette, 1773-04-28, p.1](https://www.newspapers.com/image/39401494/).) ([The Pennsylvania Gazette, 1773-05-05, p.5](https://www.newspapers.com/image/39401765/).)
+
+John Glascow is appointed to provide for distressed families of Associators in actual service by the Chester County Committee of Inspection and Observation, in a resolution dated 13 August 1776. ([The Pennsylvania Gazette, 1776-08-28, p.3](https://www.newspapers.com/image/39398635/).)
+
+The adjoining-owner and committee appointments may concern one man but do not name his parents or wife. They require an active adult in 1773 and 1776; the John who died in May 1769 cannot be that living participant.
+
+This may concern [Glasgow-3959](https://www.wikitree.com/wiki/Glasgow-3959). Chronologically compatible; no death date or place/occupation detail to conflict with the Pennsylvania appearance. No U.S. or appointment linkage found.
+<!-- queue-record-integration-2026-10-17:end -->
