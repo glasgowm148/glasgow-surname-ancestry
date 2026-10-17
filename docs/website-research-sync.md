@@ -2,10 +2,30 @@
 
 ## Contract
 
-The website is the primary, current account of this project's research. Source
-records and maintained repo files supply evidence and reproducible inputs; they
-must not hold important conclusions that readers cannot discover on the site.
-The website is not itself a primary historical source.
+The research catalogue is the canonical current research account and shared
+model. The rest of the site presents cohesive derived views of its people,
+records, relationships and conclusions. Source records and maintained repo
+files supply evidence and reproducible inputs; they must not hold important
+conclusions that readers cannot discover through the catalogue. The website is
+not itself a primary historical source.
+
+Reuse existing person, draft and source IDs. Check existing profiles and compatible
+candidates before creating a complete sourced public draft; retain tentative
+candidates unless concrete evidence conflicts. Consolidate compatible records
+rather than creating a person per fact. Use the existing structured relationship
+tags, individual confidence percentages, status, provenance and pending amendment
+fields; never create parallel models, pages or registries merely for a batch.
+Studies may provide a distinct research argument with a stated rationale, but
+must link bidirectionally to catalogue subjects/records and reconcile their
+conclusions with the shared model. `/latest-findings/` is the dated discovery
+log, not another current account.
+
+Use the maintained relationship assertions in `research/relationship_assessments.json`
+and reviewed pair-specific estimates in `research/relationship_probability_estimates.json`,
+through their existing builders and schemas. Preserve assertion IDs, previous
+assessments, alternatives and source scope. Reuse the current relationship action,
+confidence and pending-work fields consumed by the catalogue and tree builders;
+do not introduce a second grading scale or derive tags by parsing new prose.
 
 Research work is not complete until its public-safe results are visible in the
 appropriate local `www/` pages and data. Synchronize after each coherent research
@@ -14,8 +34,8 @@ Do not wait for a separate website-update request.
 
 This is a required agent workflow, not a background file watcher. The current
 builders do not automatically ingest every research document. A new research
-format must be connected to the existing public model or given an appropriate
-visible research section in the same task.
+format must feed the existing catalogue model in the same task; a supplementary
+research section does not replace that integration.
 
 ## Research-to-site handoff
 
@@ -23,13 +43,17 @@ visible research section in the same task.
    open questions in their maintained source files. Keep original citations and
    a dated account of material changes. Reconcile conflicting accounts using
    evidence and superseding findings, not whichever file was built last.
-2. Identify every affected public surface: person dossier, records, family or
+2. Integrate substantive findings into main catalogue fields, filter membership,
+   complete sourced drafts and the shared existing relationship model. Identify
+   every affected public surface: person dossier, records, family or
    locality study, early records, research groups, main questions, map, DNA or
    Timeline. Update overview claims as well as detailed dossiers.
-3. Update the durable rendering inputs and synchronize the relevant pages and
-   data. Do not apply only a generated HTML edit that the next repair will undo.
-4. Read the result in its actual public context. Check affected links, filters
-   and visible qualifications, and desktop/mobile layout where changed. A JSON
+3. Update the durable rendering inputs and regenerate affected trees/pages and
+   data with targeted builders. Do not apply only a generated HTML edit that the
+   next repair will undo.
+4. Read the result in its actual public context. Check affected links, actual
+   filter membership/counts, full/compact index agreement, complete drafts and
+   visible qualifications, and desktop/mobile layout where changed. A JSON
    field, repository file or link in a general directory is not a substitute for
    integrating a material finding into the relevant account.
 5. Report what is synchronized locally, what has actually been published live,
@@ -204,8 +228,11 @@ visible research section in the same task.
   the catalogue builder or discover all new research. Use targeted helpers for
   narrow changes rather than running a broad pipeline unnecessarily.
 
-For a new public page or research type, update its discovery routes and search
-data as appropriate. Keep canonical subject IDs and links stable. Preserve
+For a new public route or research type, update maintained navigation, search
+data and the approved sitemap pipeline in `tools/site_sitemap.py`; include the
+forthcoming reader `/sitemap/` when available. Verify discovery links and route
+availability rather than assuming an index entry makes a page accessible. Keep
+canonical subject IDs and links stable. Preserve
 useful previous conclusions as explicitly superseded history, not competing
 current statements.
 
