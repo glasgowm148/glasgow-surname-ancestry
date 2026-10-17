@@ -1872,3 +1872,12 @@ The August completion entries remain historical. The live parent fields are now 
 | [Johnne Glasgow, Inveresk 1632](https://www.wikitree.com/wiki/Glasgow-1151) | OPEN | Add the cited Fisherrow family assessment and review existing certainty marks; preserve other relationships, dates and complete text. |
 | [Marioune Glasgow, Inveresk 1630](https://www.wikitree.com/wiki/Glasgow-1429) | OPEN | Add the cited Fisherrow family assessment and review existing certainty marks; preserve other relationships, dates and complete text. |
 | [Bessie Glasgow, Inveresk 1635](https://www.wikitree.com/wiki/Glasgow-1155) | OPEN | Add the cited Fisherrow family assessment and review existing certainty marks; preserve other relationships, dates and complete text. |
+
+
+## Scottish–Donegal family review — 17 October 2026
+
+| [Archibald Glasgow, Ramelton cleric](https://www.wikitree.com/wiki/Glasgow-1101) | OPEN | Add the sourced family confidence assessment; preserve other dates, relationships and complete text. |
+| [Thomas Glasgow of Lifford and Raphoe](https://www.wikitree.com/wiki/Glasgow-3556) | OPEN | Add the sourced family confidence assessment; preserve other dates, relationships and complete text. |
+| [George Glasgow, Glasgow burgess](https://www.wikitree.com/wiki/Glasgow-1099) | OPEN | Add the sourced family confidence assessment; preserve other dates, relationships and complete text. |
+| [Margaret Stewart or Steuart](https://www.wikitree.com/wiki/Stewart-65226) | OPEN | Add the sourced family confidence assessment; preserve other dates, relationships and complete text. |
+| [Elizabeth, Archibald’s wife](https://www.wikitree.com/wiki/Unknown-761582) | OPEN | Add the sourced family confidence assessment; preserve other dates, relationships and complete text. |

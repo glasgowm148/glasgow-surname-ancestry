@@ -1,22 +1,9 @@
-# Paste-ready replacement: [Thomas Glasgow (Glasgow-3556)](https://www.wikitree.com/wiki/Glasgow-3556)
-
-## Structured fields
-
-- **Birth:** before about 1671, uncertain; Lifford, Clonleigh, County Donegal,
-  Ireland, uncertain locality lead rather than proved birthplace
-- **Death:** after 15 May 1701, uncertain; place unknown
-- **Father:** [[Glasgow-1101|Archibald Glasgow]], uncertain; retain as uncertain
-- **Children:** [[Glasgow-1136|Nathaniel Glasgow]] and
-  [[Glasgow-3966|George Glasgow]], uncertain; retain as uncertain
-
-## Complete WikiTree markup
-
-```wikitext
 [[Category:Glasgow Name Study]]
 {{Estimated Date}}
 
 == Biography ==
-The date and place of birth of '''Thomas Glasgow''' are unknown. Because he was recorded as an adult in January 1684 and styled an esquire by 1689, he was probably born before about 1671. Lifford is an uncertain birthplace hypothesis based on his earliest stated locality; the record does not prove that he was born there. No inspected record identifies his wife or children. His probable father connection is discussed below.
+'''Father confidence review, 17 October 2026:''' [[Glasgow-1101|Archibald Glasgow]] of Rathmalton is now the '''probable father''' of Thomas of Lifford/Raphoe. This formalizes the earlier strongly probable match to the eldest son named in Betham’s abstract; a further unique identifier is a next test, not a prerequisite for the probable local grade. The live father flag remains uncertain.<ref name="DonegalFamilyReview" />
+The date and place of birth of '''Thomas Glasgow''' are unknown. Because he was recorded as an adult in January 1684 and styled an esquire by 1689, he was probably born before about 1671. Lifford may be retained in the structured birth-place field as uncertain because it is his earliest stated locality, but the record does not prove that he was born there. No inspected record identifies his wife, children or parents.
 
 On 22 January 1684 Thomas Glasgow was indexed as defendant in an Exchequer proceeding brought by a Bryson or Brison described as “of Raphoe.”<ref name="Exch1684">National Archives of Ireland, Equity Exchequer Bill Book 1684–1686, vol. 5, p. 102, 22 January 1684; [https://search.findmypast.co.uk/record?id=IRE%2FCOURT%2FEXCHEQUER%2F007635147%2F00191&parentid=IRE%2FCOURT%2FEXCHEQUER%2F0001584141 image] and [https://www.findmypast.co.uk/transcript?id=IRE%2FCOURT%2FEXCHEQUER%2F0001584141&tab=this transcript].</ref>
 
@@ -50,13 +37,11 @@ The rare surname, Esquire designation, exact Raphoe reference and repeated Abrah
 | Birth before about 1671; death after 15 May 1701
 | Uncertain bounds inferred from adult status and the latest dated proceeding
 |-
-| Relationship to [[Glasgow-1101|Archibald]], [[Glasgow-1136|Nathaniel]] or [[Glasgow-3966|George]]
-| Archibald as father is strongly probable but the son-to-Lifford identity remains uncertain; Thomas as father of Nathaniel or George is unproved
+| Relationship to Archibald, Nathaniel or George
+| Unproved; retain existing links only as uncertain
 |}
 
 == Identity and Status ==
-
-The newly inspected archival transcription of a c.1700 Lifford estate paper describes Thomas Glascoe, Esq., buying a previously mortgaged interest from Hugh Hamill for £3,216, with Abraham Creighton and John Hamilton as sureties. Litigation and a subsequent purchase by Creighton followed.<ref>Public Record Office of Northern Ireland, D1939/21/3, c.1700 Lifford estate paper; [https://apps.proni.gov.uk/eCatNI_IE/SearchPage.aspx eCatalogue], search exact reference. Catalogue transcription inspected 30 September 2026; manuscript image not inspected.</ref> This purchase is documented; beneficial ownership and precise roles in every other deed remain separate questions.
 
 The references to Thomas Glasgow of '''Lifford''', '''Ballindroight''' and '''Shannon''' almost certainly concern the same man.
 
@@ -81,11 +66,9 @@ He should therefore be described as an esquire and legal or property actor. The 
 
 == Family and Relationship Research ==
 
-Betham's pre-destruction abstract of the April 1673 will of [[Glasgow-1101|Archibald Glasgow of Rathmalton, County Donegal, clerk]] explicitly names Thomas Glasgow as his eldest son and Margaret as his only daughter.<ref>National Library of Ireland, GO MS 225, William Betham, Old Series vol. 3 (1808), p. 90, digital image 97, microfilm POS 1219; [https://catalogue.nli.ie/Record/vtls000540633 catalogue and digitised manuscript], inspected 30 September 2026. A genealogical will abstract, not the complete original.</ref> Identifying that son with this Lifford/Raphoe man is strongly probable, but the abstract gives him no residence, estate, age or wife. The identification remains uncertain pending a distinctive identity connection. No inspected record proves Thomas's fatherhood of [[Glasgow-1136|Nathaniel Glasgow]] or [[Glasgow-3966|George Glasgow]].
-
 The available records name Thomas Glasgow, Abraham Creighton, James Creighton and several other parties to the transactions.
 
-The court and deed records do not identify Thomas’s:
+They do not identify Thomas’s:
 
 * father or mother;
 * wife;
@@ -97,15 +80,29 @@ The court and deed records do not identify Thomas’s:
 
 No family relationship between Thomas and the Creightons is given. Their repeated appearance together establishes a continuing legal and financial association, not kinship.
 
-The compatible chronology, Donegal geography and Glasgow/Glascoe/Glascow surname forms support identifying the eldest son in Betham’s abstract with this Thomas. The abstract establishes a son named Thomas, but does not supply a distinctive Lifford residence, estate, age or wife. It therefore strengthens the former son-or-younger-relative hypothesis without proving that specific identity or Archibald’s Scottish origin.
+No inspected record proves that Thomas was a son, brother, nephew or other relative of [[Glasgow-1101|Archibald Glasgow M.A. (1614–bef.1677)]].
+
+The chronology and geography allow Thomas to have been a son or younger relative of the Archibald Glasgow who served as a clergyman in County Donegal and whose will was proved in 1677. That remains a research hypothesis only.
 
 No inspected record proves that Thomas was the father of [[Glasgow-1136|Nathaniel Glasgow M.A. (died 1743)]].
 
-The proposed line from [[Glasgow-1101|Archibald Glasgow]] through Thomas Glasgow of Lifford, Ballindroight and Shannon to [[Glasgow-1136|Nathaniel Glasgow]] still has two limits: Archibald’s named son Thomas is not distinctively identified with this man, and no record proves Thomas’s fatherhood of Nathaniel. The first link is now strongly probable; the second remains unproved.
+The proposed line:
 
-[[Glasgow-3001|James Glasgow]] appearing in Killybegs account material in 1728 may belong to an adjacent generation of the Donegal family. The entry does not identify James as Thomas’s son or other relative.
+Archibald Glasgow
+|
+?
+|
+Thomas Glasgow of Lifford, Ballindroight and Shannon
+|
+?
+|
+Nathaniel Glasgow
 
-Chronology, geography, naming patterns and unsourced family trees alone do not establish a spouse or child of Thomas.
+remains unsupported by direct kinship evidence. Each question mark represents a missing documentary link.
+
+A '''James Glasgow''' appearing in Killybegs account material in 1728 may belong to an adjacent generation of the Donegal family. The entry does not identify James as Thomas’s son or other relative.
+
+No spouse or child should be attached to Thomas from chronology, geography, naming patterns or unsourced family trees alone.
 
 == Distinction from Other Men Named Thomas Glasgow ==
 
@@ -123,10 +120,10 @@ He was alive on '''25 November 1695''', when he was named in the memorandum conc
 
 No will, administration, burial entry or record naming his heirs has yet been identified.
 
-The supported date bounds are:
+His profile should therefore use:
 
 * birth probably before 1671, based on adult status by 1689, with birthplace unknown; and
-* death after 15 May 1701, place unknown.
+* death after 25 November 1695, place unknown.
 
 The year 1670 and County Donegal should not be presented as a certain birth date and place without an independent source.
 
@@ -141,6 +138,86 @@ The year 1670 and County Donegal should not be presented as a certain birth date
 The place-name Ballindroight may represent Ballindrait or another historical spelling. The original deeds and contemporary maps should be consulted before standardising the location.
 
 == Research Notes ==
+=== Scottish–Donegal family review — 17 October 2026 ===
+
+Prefer the Glasgow child baptised on 19 June 1614 and the Archibaldus Glasgua who graduated M.A. in 1635 as the earlier identity of the Donegal cleric. The uncommon full name, compatible age at graduation, clerical career and 1639 Irish clerk occurrence form a coherent Scottish-to-Irish career. A baptism in 1614 places him at about 21 in 1635 and 25 in 1639. These are conditional ages, not separately recorded ages. No incompatible parentage or simultaneous Scottish household is identified for this proposed cleric. The other known same-generation Scottish Archibald, the Leith man [[Glasgow-3078]], has a separately traced craft career: apprentice to cordiner Thomas Park in October 1639 and shoemaker/heir in May 1647. That positive career sequence makes him a weaker fit to the 1635 graduate and Irish clerk than the 1614 Glasgow child. It is a ranking argument, not an absolute exclusion or an assertion that a man could never change occupation. The Irish testator is securely the Ramelton/Rathmalton cleric by exact name, residence and profession. Assess his existing [[Glasgow-1099|George Glasgow]] and [[Stewart-65226|Margaret Steuart]] parent links as probable, reflecting the probable Scottish childhood identification. The baptism explicitly names both parents, so maternity has its own record basis rather than being inferred from George’s spouse field.
+
+No Irish record reviewed names Archibald’s Scottish parents or university. The graduation and 1639 clerk entry do not themselves state the 1614 baptism date. Another Archibald remains possible. This is a preferred combined identity, not documented migration or proof that every early Scottish and Irish occurrence is one man. The quoted baptism witnesses are reused from the maintained reading, not newly checked against an image. Margaret’s own Stewart ancestry, George’s wider family, and the 1647–1661 ministry chronology retain their existing grades.
+
+Betham’s inspected abstract of the April 1673 will of [[Glasgow-1101|Archibald Glasgow]], clerk of Rathmalton, explicitly identifies [[Glasgow-3556|Thomas Glasgow]] as his eldest son. Prefer the existing Thomas of Lifford/Raphoe account for that son: the exact uncommon name, the adjacent Donegal setting and the next adult generation fit the independently documented Raphoe-linked court case of 1684, Lifford occurrence of 1689 and Ballindrait/Shannon deeds of 1692–1695. The 1692 Creighton court association and later estate material strengthen the continuity of that adult Thomas account; they are not independent statements of his parentage. The full local and generational fit warrants a probable father link to Archibald. A further unique estate or household identifier would strengthen it, but its absence does not require leaving this coherent family at merely uncertain.
+
+Betham gives the son no age, residence, spouse or estate. He could be another Thomas, so the Lifford identification remains inferred rather than documented. The profile’s before-1671/circa-1670 birth estimates are not ages supplied by the abstract or court records and are not used as proof of either identity or exclusion. No maternity is assigned to Thomas from Elizabeth’s status as Archibald’s wife. Nathaniel and George remain Thomas’s separately assessed children; the later Killybegs James and Belfast Captain James are not made relatives by this review.
+
+Betham’s inspected pre-destruction abstract explicitly identifies Elizabeth as wife of [[Glasgow-1101|Archibald Glasgow]], clerk of Rathmalton. The existing Elizabeth account represents that record-defined wife, while Archibald’s Irish identity is secured by exact name, clerical designation and residence. The spouse relationship is documented independently of the probable Scottish baptism and Thomas-to-Lifford identifications. The provisionally read M’Auley surname is retained as a reading, not installed as a certain surname.
+
+The abstract is not the complete will; April 1673 is the will date and 1677 the separate probate index date. It does not establish a wedding date, Elizabeth’s birth or parents, or her maternity of every named child. Her existing profile name and estimates are preserved.
+
+Four existing assessments change: two probable Scottish parent links for Archibald, a probable Archibald–Thomas father link, and a documented Archibald–Elizabeth marriage. This is a confidence review of existing attachments, not four new relatives. No live WikiTree save, identity merge, new mother for Thomas or new manuscript inspection is claimed. The Irish male line has four pre-1850 profile accounts including its current descendants; those descendants’ own uncertain links are not upgraded wholesale.
+
+<ref name="DonegalFamilyReview">[https://www.scotlandspeople.gov.uk/search-records/church-registers/church-births-baptisms Glasgow High Kirk baptism, Archibald, 19 June 1614; OPR 644/1 10/133; supplied index and maintained reading naming George Glasgow and Margaret Steuart]; [https://universitystory.gla.ac.uk/people?search=&surname=Glas&forename= University of Glasgow, University Story: Archibaldus Glasgua, M.A. 1635; existing graduate citation]; [https://catalogue.nli.ie/Record/vtls000540633 William Betham, Old Series vol.3, NLI GO MS225, handwritten p.90, viewer image97; April1673 Archibald Glasgow will abstract, inspected30September2026]; [https://glasgow.phenotype.dev/people/glasgow-3556.html#sources Thomas’s maintained source table: 1684 Raphoe court association, 1689 Lifford occurrence and 1692–1695 Creighton/Shannon estate records].; [https://archive.org/details/scottishrecordso28scotuoft/page/71/mode/2up Leith Archibald comparison: Grant, Edinburgh Apprentices p.71, 23 October 1639; compare the 1647 shoemaker retour in Glasgow-3078’s maintained source table].</ref>
+
+[https://glasgow.phenotype.dev/branches/research-irish-belfast-donegal/#chapter-donegal-family-confidence Family review and separate identity grades].
+
+
+=== Earlier maintained research retained ===
+
+The dated family review supersedes earlier confidence wording only. Other evidence and source limits are retained.
+
+<blockquote>
+# Paste-ready replacement: [https://www.wikitree.com/wiki/Glasgow-3556 Thomas Glasgow (Glasgow-3556)]
+
+## Structured fields
+
+- '''Birth:''' before about 1671, uncertain; Lifford, Clonleigh, County Donegal,
+  Ireland, uncertain locality lead rather than proved birthplace
+- '''Death:''' after 15 May 1701, uncertain; place unknown
+- '''Father:''' [[Glasgow-1101|Archibald Glasgow]], uncertain; retain as uncertain
+- '''Children:''' [[Glasgow-1136|Nathaniel Glasgow]] and
+  [[Glasgow-3966|George Glasgow]], uncertain; retain as uncertain
+
+## Complete WikiTree markup
+
+<pre>
+[[Category:Glasgow Name Study]]
+{{Estimated Date}}
+
+The date and place of birth of '''Thomas Glasgow''' are unknown. Because he was recorded as an adult in January 1684 and styled an esquire by 1689, he was probably born before about 1671. Lifford is an uncertain birthplace hypothesis based on his earliest stated locality; the record does not prove that he was born there. No inspected record identifies his wife or children. His probable father connection is discussed below.
+
+{| class="wikitable" style="padding:5px; width:100%;"
+|+ '''Evidence summary'''
+|-
+! style="background-color:#E1F0B4;" | Point
+! style="background-color:#E1F0B4;" | Assessment
+|-
+| Same Thomas in the 1684–1701 court and deed sequence
+| High confidence from rare name, Esquire title, Raphoe locality and Abraham Creighton association
+|-
+| Birth before about 1671; death after 15 May 1701
+| Uncertain bounds inferred from adult status and the latest dated proceeding
+|-
+| Relationship to [[Glasgow-1101|Archibald]], [[Glasgow-1136|Nathaniel]] or [[Glasgow-3966|George]]
+| Archibald as father is strongly probable but the son-to-Lifford identity remains uncertain; Thomas as father of Nathaniel or George is unproved
+|}
+
+The newly inspected archival transcription of a c.1700 Lifford estate paper describes Thomas Glascoe, Esq., buying a previously mortgaged interest from Hugh Hamill for £3,216, with Abraham Creighton and John Hamilton as sureties. Litigation and a subsequent purchase by Creighton followed.<ref>Public Record Office of Northern Ireland, D1939/21/3, c.1700 Lifford estate paper; [https://apps.proni.gov.uk/eCatNI_IE/SearchPage.aspx eCatalogue], search exact reference. Catalogue transcription inspected 30 September 2026; manuscript image not inspected.</ref> This purchase is documented; beneficial ownership and precise roles in every other deed remain separate questions.
+
+Betham's pre-destruction abstract of the April 1673 will of [[Glasgow-1101|Archibald Glasgow of Rathmalton, County Donegal, clerk]] explicitly names Thomas Glasgow as his eldest son and Margaret as his only daughter.<ref>National Library of Ireland, GO MS 225, William Betham, Old Series vol. 3 (1808), p. 90, digital image 97, microfilm POS 1219; [https://catalogue.nli.ie/Record/vtls000540633 catalogue and digitised manuscript], inspected 30 September 2026. A genealogical will abstract, not the complete original.</ref> Identifying that son with this Lifford/Raphoe man is strongly probable, but the abstract gives him no residence, estate, age or wife. The identification remains uncertain pending a distinctive identity connection. No inspected record proves Thomas's fatherhood of [[Glasgow-1136|Nathaniel Glasgow]] or [[Glasgow-3966|George Glasgow]].
+
+The court and deed records do not identify Thomas’s:
+
+The compatible chronology, Donegal geography and Glasgow/Glascoe/Glascow surname forms support identifying the eldest son in Betham’s abstract with this Thomas. The abstract establishes a son named Thomas, but does not supply a distinctive Lifford residence, estate, age or wife. It therefore strengthens the former son-or-younger-relative hypothesis without proving that specific identity or Archibald’s Scottish origin.
+
+The proposed line from [[Glasgow-1101|Archibald Glasgow]] through Thomas Glasgow of Lifford, Ballindroight and Shannon to [[Glasgow-1136|Nathaniel Glasgow]] still has two limits: Archibald’s named son Thomas is not distinctively identified with this man, and no record proves Thomas’s fatherhood of Nathaniel. The first link is now strongly probable; the second remains unproved.
+
+[[Glasgow-3001|James Glasgow]] appearing in Killybegs account material in 1728 may belong to an adjacent generation of the Donegal family. The entry does not identify James as Thomas’s son or other relative.
+
+Chronology, geography, naming patterns and unsourced family trees alone do not establish a spouse or child of Thomas.
+
+The supported date bounds are:
+
+* birth probably before 1671, based on adult status by 1689, with birthplace unknown; and
+* death after 15 May 1701, place unknown.
+
 === Earlier assessments and their limits ===
 
 The earlier assessment stated: “No inspected record proves that Thomas was a son, brother, nephew or other relative of Archibald Glasgow M.A. (1614–bef.1677).” It allowed a son or younger relative of the Donegal clergyman whose will was proved in 1677, but described the Archibald–Thomas–Nathaniel line as unsupported by direct kinship evidence. That broad assessment is superseded in part by Betham’s abstract of the April 1673 will: the testator explicitly had an eldest son Thomas. What remains unproved is that son’s identity with the Lifford man and any Thomas–Nathaniel link. The age, Scottish origin and denomination attributed to Archibald require their own evidence; they do not follow from this abstract.
@@ -150,6 +227,22 @@ The former after-25-November-1695 death bound came from the £6,000 bond memoran
 === Search of the surviving registered will book ===
 
 The surviving 1664–1684 prerogative will book is accessible. Its visible G index (image 542 of 547) and all nine full-text Glas* matches were checked on 30 September 2026 without locating Archibald’s particular will. The full manuscript has not been read, so this does not establish that the will is absent or destroyed.<ref>National Archives of Ireland, prerogative wills 1664–1684, FamilySearch DGS 8096787, [https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJ8-FDT8 image 542, G index].</ref>
+
+His birth date and place are unknown. His adult status in 1689 supports a probable birth before 1671, and the records show that he was alive after 15 May 1701.
+
+No inspected record identifies his wife, children, heirs or siblings for this Lifford man. Betham explicitly names Archibald’s eldest son Thomas and only daughter Margaret; identifying that Thomas with this man is strongly probable, but not distinctively proved. His father attachment remains uncertain. No relationship to [[Glasgow-1136|Nathaniel Glasgow of Golan or Fintona]], [[Glasgow-3966|George Glasgow]], [[Glasgow-3001|James Glasgow of Killybegs]], or [[Glasgow-1103|the Scottish Thomas baptised in 1612]] is proved.
+
+* ''The State of the Protestants of Ireland under the Late King James's Government'', p. 275.
+* PRONI D1939/18/1/3, lease and release, 25–26 May 1693.
+* PRONI D1939/18/3/25, bond, deed of defeasance, letter and memorandum, 26 May 1693 and 25 November 1695.
+* PRONI D1939/18/7/1, counterpart release, 26 May 1693.
+* PRONI D1939/18/8/1, counterpart deed of partition, 23 December 1692.
+* PRONI D1939/18/11/16, copy bond for performance of covenant, 26 May 1694.
+</pre>
+
+Suggested edit summary: ''Add newly inspected eldest-son abstract and Lifford purchase account; retain the uncertain father identity.''
+</blockquote>
+
 
 === Current evidence assessment ===
 
@@ -201,9 +294,9 @@ Thomas Glasgow was a genuine adult Donegal figure documented at Lifford in 1689 
 
 He was styled an esquire and participated in substantial legal and financial transactions with Abraham and James Creighton. The documents do not establish that he owned every property named.
 
-His birth date and place are unknown. His adult status in 1689 supports a probable birth before 1671, and the records show that he was alive after 15 May 1701.
+His birth date and place are unknown. His adult status in 1689 supports a probable birth before 1671, and the records show that he was alive after 25 November 1695.
 
-No inspected record identifies his wife, children, heirs or siblings for this Lifford man. Betham explicitly names Archibald’s eldest son Thomas and only daughter Margaret; identifying that Thomas with this man is strongly probable, but not distinctively proved. His father attachment remains uncertain. No relationship to [[Glasgow-1136|Nathaniel Glasgow of Golan or Fintona]], [[Glasgow-3966|George Glasgow]], [[Glasgow-3001|James Glasgow of Killybegs]], or [[Glasgow-1103|the Scottish Thomas baptised in 1612]] is proved.
+No inspected record identifies his wife, children, parents, heirs or siblings. No relationship to Archibald Glasgow of Ramelton, Nathaniel Glasgow of Golan or Fintona, the later Killybegs James Glasgow, or the Scottish Thomas baptised in 1612 has been proved.
 
 == Sources ==
 <references />
@@ -214,6 +307,3 @@ No inspected record identifies his wife, children, heirs or siblings for this Li
 * PRONI D1939/18/7/1, counterpart release, 26 May 1693.
 * PRONI D1939/18/8/1, counterpart deed of partition, 23 December 1692.
 * PRONI D1939/18/11/16, copy bond for performance of covenant, 26 May 1694.
-```
-
-Suggested edit summary: `Add newly inspected eldest-son abstract and Lifford purchase account; retain the uncertain father identity.`

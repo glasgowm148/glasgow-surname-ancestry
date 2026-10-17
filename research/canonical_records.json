@@ -961,8 +961,8 @@
     "year": 1673,
     "place": "Rathmalton/Ramelton, County Donegal",
     "source_url": "https://catalogue.nli.ie/Record/vtls000540633",
-    "status": "Inspected pre-destruction will abstract; son-to-Lifford identity strongly probable",
-    "note": "William Betham, Old Series vol. 3 (1808), NLI GO MS 225, p. 90, image 97: Archibald Glasgow, clerk, wife Elizabeth (provisional surname M’Auley), Thomas Glasgow eldest son and Margaret only daughter. Will date distinct from 1677 probate. The son has no residence or estate; matching him to Glasgow-3556 remains strongly probable and its father status uncertain. Complete original will not inspected.",
+    "status": "Inspected pre-destruction abstract; documented spouse; probable Lifford son identity",
+    "note": "William Betham, Old Series vol. 3 (1808), NLI GO MS 225, p. 90, image 97: Archibald Glasgow, clerk, wife Elizabeth (provisional surname M’Auley), Thomas Glasgow eldest son and Margaret only daughter. Will date distinct from 1677 probate. The son has no residence or estate; matching him to Glasgow-3556 is formally probable locally, with its separate live father flag still uncertain. Complete original will not inspected.",
     "role": "Will abstract",
     "profiles": {
       "Glasgow-1101": {
@@ -970,10 +970,34 @@
         "timeline_group": "Life events"
       },
       "Glasgow-3556": {
-        "role": "Strongly probable identity of named eldest son; not certain",
-        "timeline_group": "Possible connections"
+        "role": "Probable identity of the explicitly named eldest son Thomas",
+        "timeline_group": "Family records",
+        "assessment": "probable"
+      },
+      "Unknown-761582": {
+        "role": "Explicitly named wife Elizabeth; surname provisionally M’Auley",
+        "assessment": "proved",
+        "timeline_group": "Family records"
       }
-    }
+    },
+    "assessment_history": [
+      {
+        "reviewed": "2026-10-17",
+        "profiles": {
+          "Glasgow-1101": {
+            "role": "Testator; explicitly father of eldest son Thomas",
+            "timeline_group": "Life events"
+          },
+          "Glasgow-3556": {
+            "role": "Strongly probable identity of named eldest son; not certain",
+            "timeline_group": "Possible connections"
+          }
+        },
+        "note": "William Betham, Old Series vol. 3 (1808), NLI GO MS 225, p. 90, image 97: Archibald Glasgow, clerk, wife Elizabeth (provisional surname M’Auley), Thomas Glasgow eldest son and Margaret only daughter. Will date distinct from 1677 probate. The son has no residence or estate; matching him to Glasgow-3556 remains strongly probable and its father status uncertain. Complete original will not inspected.",
+        "status": "Inspected pre-destruction will abstract; son-to-Lifford identity strongly probable",
+        "basis": "Earlier strongly probable identity and uncertain father status retained before formal regrading."
+      }
+    ]
   },
   {
     "record_id": "lifford-thomas-glascoe-estate-c1700",
@@ -3834,6 +3858,34 @@
       },
       "Clerk-296": {
         "role": "Named mother, Jannet Clerk"
+      }
+    }
+  },
+  {
+    "record_id": "archibald-glasgow-1614-named-parents",
+    "association": "Archibald’s Glasgow baptism names George Glasgow and Margaret Steuart",
+    "date": "19 June 1614",
+    "year": 1614,
+    "place": "Glasgow High Kirk, Lanarkshire",
+    "source_url": "https://www.scotlandspeople.gov.uk/search-records/church-registers/church-births-baptisms",
+    "status": "Supplied index and maintained reading reused; probable Scottish-to-Irish identity",
+    "note": "OPR 644/1 10/133. Named parents George Glasgow and Margaret Steuart. The record-defined child’s parents are explicit; identifying him with the Donegal cleric is probable. No fresh image inspection or parentage of Margaret inferred.",
+    "role": "Baptism index",
+    "profiles": {
+      "Glasgow-1101": {
+        "role": "Named child; probable earlier identity of Donegal cleric",
+        "assessment": "probable",
+        "timeline_group": "Life events"
+      },
+      "Glasgow-1099": {
+        "role": "Named father of the Scottish child",
+        "assessment": "proved",
+        "timeline_group": "Family records"
+      },
+      "Stewart-65226": {
+        "role": "Named mother of the Scottish child",
+        "assessment": "proved",
+        "timeline_group": "Family records"
       }
     }
   }

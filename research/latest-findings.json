@@ -29328,6 +29328,137 @@
         "research/relationship_assessments.json",
         "research/ancestry-connections/fisherrow-family-confidence-preservation-2026-10-17.json"
       ]
+    },
+    {
+      "id": "donegal-family-confidence-2026-10-17",
+      "found_on": "2026-10-17",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Archibald of Ramelton now has probable Scottish parents George Glasgow and Margaret Steuart, a probable eldest son Thomas of Lifford/Raphoe, and documented wife Elizabeth. The Scottish and Lifford identities are inferred from combined records.",
+      "qualification": "No Irish record reviewed names Archibald’s Scottish parents or university. The graduation and 1639 clerk entry do not themselves state the 1614 baptism date. Another Archibald remains possible. This is a preferred combined identity, not documented migration or proof that every early Scottish and Irish occurrence is one man. The quoted baptism witnesses are reused from the maintained reading, not newly checked against an image. Margaret’s own Stewart ancestry, George’s wider family, and the 1647–1661 ministry chronology retain their existing grades. Betham gives the son no age, residence, spouse or estate. He could be another Thomas, so the Lifford identification remains inferred rather than documented. The profile’s before-1671/circa-1670 birth estimates are not ages supplied by the abstract or court records and are not used as proof of either identity or exclusion. No maternity is assigned to Thomas from Elizabeth’s status as Archibald’s wife. Nathaniel and George remain Thomas’s separately assessed children; the later Killybegs James and Belfast Captain James are not made relatives by this review. The abstract is not the complete will; April 1673 is the will date and 1677 the separate probate index date. It does not establish a wedding date, Elizabeth’s birth or parents, or her maternity of every named child. Her existing profile name and estimates are preserved.",
+      "relationship_changes": [
+        {
+          "relationship": "spouse",
+          "subject_id": "Glasgow-1101",
+          "relative_id": "Unknown-761582",
+          "subject": "Archibald Glasgow, Ramelton cleric",
+          "relative": "Elizabeth, Archibald’s wife",
+          "before": "unknown",
+          "after": "certain",
+          "assessment_after": "proved",
+          "explanation": "Betham’s inspected pre-destruction abstract explicitly identifies Elizabeth as wife of Archibald Glasgow, clerk of Rathmalton. The existing Elizabeth account represents that record-defined wife, while Archibald’s Irish identity is secured by exact name, clerical designation and residence. The spouse relationship is documented independently of the probable Scottish baptism and Thomas-to-Lifford identifications. The provisionally read M’Auley surname is retained as a reading, not installed as a certain surname. The abstract is not the complete will; April 1673 is the will date and 1677 the separate probate index date. It does not establish a wedding date, Elizabeth’s birth or parents, or her maternity of every named child. Her existing profile name and estimates are preserved.",
+          "previous_status_provenance": [
+            "Pre-batch public spouse assessment explicitly unknown; saved spouse flag unmarked. Anonymous Open profile refresh, 17 October 2026."
+          ],
+          "assertion_id": "C-review-20261017-donegal-glasgow-1101-spouse"
+        }
+      ],
+      "relationship_grade_changes": [
+        {
+          "subject_id": "Glasgow-1101",
+          "relative_id": "Glasgow-1099",
+          "relationship": "father",
+          "before": "uncertain",
+          "after": "probable",
+          "assertion_id": "C-review-20261017-donegal-glasgow-1101-father",
+          "basis": "Prefer the Glasgow child baptised on 19 June 1614 and the Archibaldus Glasgua who graduated M.A. in 1635 as the earlier identity of the Donegal cleric. The uncommon full name, compatible age at graduation, clerical career and 1639 Irish clerk occurrence form a coherent Scottish-to-Irish career. A baptism in 1614 places him at about 21 in 1635 and 25 in 1639. These are conditional ages, not separately recorded ages. No incompatible parentage or simultaneous Scottish household is identified for this proposed cleric. The other known same-generation Scottish Archibald, the Leith man Glasgow-3078, has a separately traced craft career: apprentice to cordiner Thomas Park in October 1639 and shoemaker/heir in May 1647. That positive career sequence makes him a weaker fit to the 1635 graduate and Irish clerk than the 1614 Glasgow child. It is a ranking argument, not an absolute exclusion or an assertion that a man could never change occupation. The Irish testator is securely the Ramelton/Rathmalton cleric by exact name, residence and profession. Assess his existing George Glasgow and Margaret Steuart parent links as probable, reflecting the probable Scottish childhood identification. The baptism explicitly names both parents, so maternity has its own record basis rather than being inferred from George’s spouse field.",
+          "limitations": "No Irish record reviewed names Archibald’s Scottish parents or university. The graduation and 1639 clerk entry do not themselves state the 1614 baptism date. Another Archibald remains possible. This is a preferred combined identity, not documented migration or proof that every early Scottish and Irish occurrence is one man. The quoted baptism witnesses are reused from the maintained reading, not newly checked against an image. Margaret’s own Stewart ancestry, George’s wider family, and the 1647–1661 ministry chronology retain their existing grades.",
+          "new_attachment": false,
+          "live_flag_changed": false
+        },
+        {
+          "subject_id": "Glasgow-1101",
+          "relative_id": "Stewart-65226",
+          "relationship": "mother",
+          "before": "uncertain",
+          "after": "probable",
+          "assertion_id": "C-review-20261017-donegal-glasgow-1101-mother",
+          "basis": "Prefer the Glasgow child baptised on 19 June 1614 and the Archibaldus Glasgua who graduated M.A. in 1635 as the earlier identity of the Donegal cleric. The uncommon full name, compatible age at graduation, clerical career and 1639 Irish clerk occurrence form a coherent Scottish-to-Irish career. A baptism in 1614 places him at about 21 in 1635 and 25 in 1639. These are conditional ages, not separately recorded ages. No incompatible parentage or simultaneous Scottish household is identified for this proposed cleric. The other known same-generation Scottish Archibald, the Leith man Glasgow-3078, has a separately traced craft career: apprentice to cordiner Thomas Park in October 1639 and shoemaker/heir in May 1647. That positive career sequence makes him a weaker fit to the 1635 graduate and Irish clerk than the 1614 Glasgow child. It is a ranking argument, not an absolute exclusion or an assertion that a man could never change occupation. The Irish testator is securely the Ramelton/Rathmalton cleric by exact name, residence and profession. Assess his existing George Glasgow and Margaret Steuart parent links as probable, reflecting the probable Scottish childhood identification. The baptism explicitly names both parents, so maternity has its own record basis rather than being inferred from George’s spouse field.",
+          "limitations": "No Irish record reviewed names Archibald’s Scottish parents or university. The graduation and 1639 clerk entry do not themselves state the 1614 baptism date. Another Archibald remains possible. This is a preferred combined identity, not documented migration or proof that every early Scottish and Irish occurrence is one man. The quoted baptism witnesses are reused from the maintained reading, not newly checked against an image. Margaret’s own Stewart ancestry, George’s wider family, and the 1647–1661 ministry chronology retain their existing grades.",
+          "new_attachment": false,
+          "live_flag_changed": false
+        },
+        {
+          "subject_id": "Glasgow-3556",
+          "relative_id": "Glasgow-1101",
+          "relationship": "father",
+          "before": "uncertain",
+          "after": "probable",
+          "assertion_id": "C-review-20261017-donegal-glasgow-3556-father",
+          "basis": "Betham’s inspected abstract of the April 1673 will of Archibald Glasgow, clerk of Rathmalton, explicitly identifies Thomas Glasgow as his eldest son. Prefer the existing Thomas of Lifford/Raphoe account for that son: the exact uncommon name, the adjacent Donegal setting and the next adult generation fit the independently documented Raphoe-linked court case of 1684, Lifford occurrence of 1689 and Ballindrait/Shannon deeds of 1692–1695. The 1692 Creighton court association and later estate material strengthen the continuity of that adult Thomas account; they are not independent statements of his parentage. The full local and generational fit warrants a probable father link to Archibald. A further unique estate or household identifier would strengthen it, but its absence does not require leaving this coherent family at merely uncertain.",
+          "limitations": "Betham gives the son no age, residence, spouse or estate. He could be another Thomas, so the Lifford identification remains inferred rather than documented. The profile’s before-1671/circa-1670 birth estimates are not ages supplied by the abstract or court records and are not used as proof of either identity or exclusion. No maternity is assigned to Thomas from Elizabeth’s status as Archibald’s wife. Nathaniel and George remain Thomas’s separately assessed children; the later Killybegs James and Belfast Captain James are not made relatives by this review.",
+          "new_attachment": false,
+          "live_flag_changed": false
+        },
+        {
+          "subject_id": "Glasgow-1101",
+          "relative_id": "Unknown-761582",
+          "relationship": "spouse",
+          "before": "unknown",
+          "after": "proved",
+          "assertion_id": "C-review-20261017-donegal-glasgow-1101-spouse",
+          "basis": "Betham’s inspected pre-destruction abstract explicitly identifies Elizabeth as wife of Archibald Glasgow, clerk of Rathmalton. The existing Elizabeth account represents that record-defined wife, while Archibald’s Irish identity is secured by exact name, clerical designation and residence. The spouse relationship is documented independently of the probable Scottish baptism and Thomas-to-Lifford identifications. The provisionally read M’Auley surname is retained as a reading, not installed as a certain surname.",
+          "limitations": "The abstract is not the complete will; April 1673 is the will date and 1677 the separate probate index date. It does not establish a wedding date, Elizabeth’s birth or parents, or her maternity of every named child. Her existing profile name and estimates are preserved.",
+          "new_attachment": false,
+          "live_flag_changed": false
+        }
+      ],
+      "certainty_upgrades": 1,
+      "confidence_assessments_strengthened": 3,
+      "people": [
+        {
+          "id": "Glasgow-1101",
+          "name": "Archibald Glasgow, Ramelton cleric",
+          "url": "/people/glasgow-1101.html"
+        },
+        {
+          "id": "Glasgow-3556",
+          "name": "Thomas Glasgow of Lifford and Raphoe",
+          "url": "/people/glasgow-3556.html"
+        },
+        {
+          "id": "Glasgow-1099",
+          "name": "George Glasgow, Glasgow burgess",
+          "url": "/people/glasgow-1099.html"
+        },
+        {
+          "id": "Stewart-65226",
+          "name": "Margaret Stewart or Steuart",
+          "url": "/people/stewart-65226.html"
+        },
+        {
+          "id": "Unknown-761582",
+          "name": "Elizabeth, Archibald’s wife",
+          "url": "/people/unknown-761582.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Glasgow High Kirk baptism, Archibald, 19 June 1614; OPR 644/1 10/133; supplied index and maintained reading naming George Glasgow and Margaret Steuart",
+          "url": "https://www.scotlandspeople.gov.uk/search-records/church-registers/church-births-baptisms"
+        },
+        {
+          "title": "University of Glasgow, University Story: Archibaldus Glasgua, M.A. 1635; existing graduate citation",
+          "url": "https://universitystory.gla.ac.uk/people?search=&surname=Glas&forename="
+        },
+        {
+          "title": "William Betham, Old Series vol.3, NLI GO MS225, handwritten p.90, viewer image97; April1673 Archibald Glasgow will abstract, inspected30September2026",
+          "url": "https://catalogue.nli.ie/Record/vtls000540633"
+        },
+        {
+          "title": "Thomas’s maintained source table: 1684 Raphoe court association, 1689 Lifford occurrence and 1692–1695 Creighton/Shannon estate records",
+          "url": "https://glasgow.phenotype.dev/people/glasgow-3556.html#sources"
+        },
+        {
+          "title": "Leith Archibald comparison: Grant, Edinburgh Apprentices p.71, 23 October 1639; compare the 1647 shoemaker retour in Glasgow-3078’s maintained source table",
+          "url": "https://archive.org/details/scottishrecordso28scotuoft/page/71/mode/2up"
+        }
+      ],
+      "detail_url": "/branches/research-irish-belfast-donegal/#chapter-donegal-family-confidence",
+      "provenance": [
+        "research/relationship_assessments.json",
+        "research/ancestry-connections/donegal-family-confidence-preservation-2026-10-17.json"
+      ]
     }
   ]
 }
