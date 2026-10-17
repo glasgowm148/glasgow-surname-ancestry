@@ -6,6 +6,39 @@ from tools.sync_ancestry_atlas import overlay_model
 
 
 class AtlasWorkingTests(unittest.TestCase):
+    def test_existing_mother_grade_is_scoped_reciprocal_and_reversible(self):
+        old = {'meta': {}, 'landmarks': [], 'sections': [], 'people': [
+            {'id': '@smaller-families', 'kind': 'group'},
+            {'id': 'Child-1', 'kind': 'person', 'parents': [
+                {'id': 'Father-1', 'role': 'father', 'status': 'confident'},
+                {'id': 'Mother-1', 'role': 'mother', 'status': 'unmarked'}]},
+            {'id': 'Father-1', 'kind': 'person', 'childrenRecorded': [{'id': 'Child-1'}]},
+            {'id': 'Mother-1', 'kind': 'person', 'born': 1700, 'note': 'Approved account',
+             'childrenRecorded': [{'id': 'Other-1'}]},
+            {'id': 'Child-2', 'kind': 'person', 'parents': [
+                {'id': 'Mother-2', 'role': 'mother', 'status': 'unmarked'}]},
+            {'id': 'Mother-2', 'kind': 'person', 'childrenRecorded': [{'id': 'Child-2'}]}]}
+        fresh = deepcopy(old)
+        fresh['meta'].update(date='2026-10-17', publicFamilyScopeIds=['Child-1', 'Child-2'],
+                             publicFamilyRelatedIds=['Father-1', 'Mother-1'],
+                             publicMotherGradeScope={'Child-1': ['Mother-1']})
+        fresh['people'][1]['parents'][1]['status'] = 'probable'
+        fresh['people'][3].update(born=1710, note='Short import')
+        fresh['people'][3]['childrenRecorded'].append({'id': 'Child-1', 'status': 'probable'})
+        fresh['people'][4]['parents'][0]['status'] = 'proved'  # Outside the reviewed scope.
+        out = overlay_model(old, fresh)
+        self.assertEqual(next(r for r in out['people'][1]['parents'] if r['role'] == 'mother')['status'], 'probable')
+        self.assertEqual(out['people'][4]['parents'][0]['status'], 'unmarked')
+        self.assertEqual((out['people'][3]['born'], out['people'][3]['note']), (1700, 'Approved account'))
+        self.assertEqual(out['people'][3]['childrenRecorded'][-1]['status'], 'probable')
+        self.assertEqual(overlay_model(out, fresh), out)
+        fresh['meta']['publicMotherGradeScope'] = {}
+        fresh['people'][1]['parents'][1]['status'] = 'unmarked'
+        fresh['people'][3]['childrenRecorded'][-1]['status'] = 'unmarked'
+        reverted = overlay_model(out, fresh)
+        self.assertEqual(next(r for r in reverted['people'][1]['parents'] if r['role'] == 'mother')['status'], 'unmarked')
+        self.assertEqual(reverted['people'][3]['childrenRecorded'][-1]['status'], 'unmarked')
+
     def test_reviewed_birthplace_can_be_cleared_without_changing_map_context(self):
         old = {'meta': {}, 'landmarks': [], 'sections': [], 'people': [
             {'id': '@root', 'kind': 'group'},

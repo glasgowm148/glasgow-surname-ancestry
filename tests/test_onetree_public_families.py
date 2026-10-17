@@ -15,7 +15,7 @@ class PublicFamiliesTests(unittest.TestCase):
     def tearDown(self):
         self.tmp.cleanup()
 
-    def run_sync(self, people, families, ambiguous=(), years=None):
+    def run_sync(self, people, families, ambiguous=(), years=None, assessments=None):
         for person in people:
             person.setdefault('name', person['id'])
         nodes = {}
@@ -31,7 +31,43 @@ class PublicFamiliesTests(unittest.TestCase):
             edges += [dict(child=ident, father=r['id'], status=r.get('status', 'unknown'))
                       for r in parents if r.get('relationship') == 'father' and ident not in ambiguous]
         with patch('tools.branch_connectivity.load_public_nodes', return_value=(nodes, edges, {'multiple_fathers': list(ambiguous)})):
-            return apply_public_families(people, self.site)
+            return apply_public_families(people, self.site, assessments=assessments)
+
+    def test_reviewed_mother_updates_beside_an_unchanged_working_father(self):
+        father = dict(id='Father-1', role='father', status='uncertain', hypothesis=True)
+        people = [dict(id='Child-1', parents=[father, dict(id='Mother-1', role='mother', status='unmarked')]),
+                  dict(id='Father-1', parents=[], childrenRecorded=[]),
+                  dict(id='Mother-1', parents=[], childrenRecorded=[{'id': 'Other-1'}], note='Retain account')]
+        assessment = dict(assertion_id='A-mother', people=['Child-1', 'Mother-1'], publication_status='approved',
+                          perspectives={'Child-1': {'relationship': 'mother'}})
+        result = self.run_sync(people, {'Child-1': [
+            dict(id='Father-1', relationship='father', status='uncertain'),
+            dict(id='Mother-1', relationship='mother', status='probable', assertion_id='A-mother')
+        ]}, assessments=[assessment])
+        self.assertEqual(people[0]['parents'][0], father)
+        self.assertEqual(people[0]['parents'][1]['status'], 'probable')
+        self.assertEqual(people[2]['note'], 'Retain account')
+        self.assertEqual(people[2]['childrenRecorded'][0], {'id': 'Other-1'})
+        self.assertEqual(people[2]['childrenRecorded'][1]['status'], 'probable')
+        self.assertEqual(result['publicMotherGradeScope'], {'Child-1': ['Mother-1']})
+        self.assertEqual(result['publicMotherGradeSyncIds'], ['Child-1'])
+
+    def test_maternal_grade_sync_cannot_select_or_invent_a_mother(self):
+        for changes, publication in [({}, 'draft'), ({'id': 'Other-1'}, 'approved'),
+                                     ({'current': False}, 'approved'), ({'withheld': True}, 'approved'),
+                                     ({'status': 'unknown'}, 'approved')]:
+            with self.subTest(changes=changes, publication=publication):
+                mother = dict(id='Mother-1', role='mother', status='uncertain')
+                people = [dict(id='Child-1', parents=[mother]),
+                          dict(id='Mother-1', parents=[], childrenRecorded=[])]
+                row = dict(id='Mother-1', relationship='mother', status='probable', assertion_id='A-mother')
+                row.update(changes)
+                assessment = dict(assertion_id='A-mother', people=['Child-1', row['id']],
+                                  publication_status=publication,
+                                  perspectives={'Child-1': {'relationship': 'mother'}})
+                result = self.run_sync(people, {'Child-1': [row]}, assessments=[assessment])
+                self.assertEqual(people[0]['parents'], [mother])
+                self.assertEqual(result['publicMotherGradeScope'], {})
 
     def test_replaces_old_parent_and_preserves_recorded_grade_and_mother(self):
         mother = {'id': 'Mother-1', 'role': 'mother', 'status': 'uncertain'}

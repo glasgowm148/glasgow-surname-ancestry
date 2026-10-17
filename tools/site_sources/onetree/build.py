@@ -335,8 +335,9 @@ def apply_reviewed_parent_replacements(people: list[dict], assessments: list[dic
     return sorted(changed)
 
 
-def apply_public_families(people: list[dict], site_root: Path, cutoff: int = 1850) -> dict:
-    """Reconcile historical fathers with published dossiers, retaining their grades.
+def apply_public_families(people: list[dict], site_root: Path, cutoff: int = 1850,
+                          assessments: list[dict] | None = None) -> dict:
+    """Reconcile historical fathers and reviewed existing maternal grades.
 
     The aggregate catalogue can predate targeted dossier publications. Neither a
     raw export nor an old atlas attachment supersedes those published decisions.
@@ -442,6 +443,39 @@ def apply_public_families(people: list[dict], site_root: Path, cutoff: int = 185
                 parent['childrenRecorded'].append(dict(id=ident, name=person['name'], role='child',
                     status=row['status'], inModel=True, source='current_public_dossier'))
         person['publicFamilySource'] = nodes[ident]['url']
+    approved = {a['assertion_id']: a for a in assessments or []
+                if a.get('publication_status') == 'approved' and not a.get('working_selection')}
+    maternal_scope, maternal_changed = {}, []
+    for ident, dossier in dossiers.items():
+        person = by_id[ident]
+        current = [r for r in (dossier.get('relationships') or {}).get('parents', [])
+                   if r.get('relationship') == 'mother' and not r.get('withheld')
+                   and r.get('current') is not False and r.get('lifecycle') in (None, 'current')
+                   and r.get('display') not in ('historical', 'superseded')
+                   and r.get('publication_status') not in ('withheld', 'blocked', 'rejected')
+                   and r.get('status') not in EXCLUDED | {'unknown', 'unassessed', 'unmarked', None}]
+        before = [r for r in person.get('parents', []) if r.get('role') == 'mother']
+        if len(current) != 1 or len(before) != 1 or before[0].get('hypothesis'):
+            continue
+        row = current[0]
+        assessment = approved.get(row.get('assertion_id'))
+        if (not assessment or row.get('id') != before[0].get('id')
+                or ident not in assessment.get('people', [])
+                or row.get('id') not in assessment.get('people', [])
+                or assessment.get('perspectives', {}).get(ident, {}).get('relationship') != 'mother'):
+            continue  # This path changes a grade, never the attached mother.
+        maternal_scope[ident] = [row['id']]
+        after = parent_row(row)
+        if before[0].get('status') != after['status']:
+            maternal_changed.append(ident)
+        person['parents'] = [after if r is before[0] else r for r in person['parents']]
+        parent = by_id.get(row['id'])
+        if parent is not None:
+            related.add(parent['id'])
+            children = parent.setdefault('childrenRecorded', [])
+            children[:] = [r for r in children if r.get('id') != ident]
+            children.append(dict(id=ident, name=person['name'], role='child', status=after['status'],
+                                 inModel=True, source='current_public_dossier'))
     for person in people:
         for row in person.get('parents', []):
             row['inModel'] = bool(row.get('id') in by_id and not row.get('withheld'))
@@ -458,6 +492,7 @@ def apply_public_families(people: list[dict], site_root: Path, cutoff: int = 185
                 children.append(dict(id=person['id'], name=person['name'], role='child',
                     status=row['status'], inModel=True, source='current_public_dossier'))
     return dict(publicFamilySyncIds=sorted(changed), publicFamilyRelatedIds=sorted(related),
+                publicMotherGradeScope=maternal_scope, publicMotherGradeSyncIds=sorted(maternal_changed),
                 publicFamilyNewIds=sorted(added), publicFatherHoldIds=sorted(held),
                 publicFamilyScopeIds=sorted(dossiers), publicFamilyCutoff=cutoff,
                 publicFamilyChecked=len(dossiers))
@@ -543,7 +578,7 @@ def generate_model(catalogue_path: Path, prior: dict) -> dict:
     reviewed_parent_ids = apply_reviewed_parent_replacements(people, assessments)
     hypotheses = apply_working_hypotheses(people, assessments, parent_aliases)
     maternal_hypotheses = apply_working_mothers(people, assessments)
-    public_family_sync = apply_public_families(people, ROOT / 'www')
+    public_family_sync = apply_public_families(people, ROOT / 'www', assessments=assessments)
 
     # One real parent drives the drawing. Both remain in the relationship list.
     chosen: dict[str, dict] = {}

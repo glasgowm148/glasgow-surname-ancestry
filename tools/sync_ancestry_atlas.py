@@ -40,6 +40,8 @@ def overlay_model(retained: dict, fresh: dict) -> dict:
     restored = set(fresh['meta'].get('reviewedFamilyRestorationIds', []))
     public_families = set(fresh['meta'].get('publicFamilyScopeIds', fresh['meta'].get('publicFamilySyncIds', [])))
     previous_public = set(result['meta'].get('publicFamilyScopeIds', result['meta'].get('publicFamilySyncIds', [])))
+    maternal_scope = fresh['meta'].get('publicMotherGradeScope', {})
+    previous_maternal_scope = result['meta'].get('publicMotherGradeScope', {})
     refresh = selected | set(result['meta'].get('workingOverlayIds', [])) | documentary | reviewed | set(result['meta'].get('reviewedParentReplacementIds', []))
     refresh |= restored | set(result['meta'].get('reviewedFamilyRestorationIds', []))
     existing = {p['id']: p for p in result['people']}
@@ -65,6 +67,13 @@ def overlay_model(retained: dict, fresh: dict) -> dict:
             # geographic annotations and public DNA material.
             existing[ident]['parents'] = ([r for r in existing[ident].get('parents', []) if r.get('role') != 'father']
                                          + deepcopy([r for r in incoming[ident].get('parents', []) if r.get('role') == 'father']))
+            for mother in set(maternal_scope.get(ident, [])) | set(previous_maternal_scope.get(ident, [])):
+                rows = [r for r in incoming[ident].get('parents', [])
+                        if r.get('role') == 'mother' and r.get('id') == mother]
+                if len(rows) == 1:
+                    existing[ident]['parents'] = [deepcopy(rows[0])
+                        if r.get('role') == 'mother' and r.get('id') == mother else r
+                        for r in existing[ident]['parents']]
             for key in ('priorPublishedFathers', 'publicFamilySource', 'publicFatherAlternatives'):
                 if key in incoming[ident]:
                     existing[ident][key] = deepcopy(incoming[ident][key])
@@ -157,9 +166,9 @@ def overlay_model(retained: dict, fresh: dict) -> dict:
                           maternalHypotheses=fresh['meta'].get('maternalHypotheses', 0),
                           parentRelationships=sum(len(p.get('parents', [])) for p in people),
                           workingOverlayIds=sorted(selected),
-                          **{k: deepcopy(v) for k, v in fresh['meta'].items() if k.startswith('publicFamily') or k == 'publicFatherHoldIds'},
+                          **{k: deepcopy(v) for k, v in fresh['meta'].items() if k.startswith(('publicFamily', 'publicMotherGrade')) or k == 'publicFatherHoldIds'},
                           workingUpdated=fresh['meta']['date'],
-                          workingMethod='Selected uncertain connections and historical father fields are synchronized from current public dossiers. Existing research grades and approved atlas accounts are retained; this publication reconciliation is not a new genealogical inference.')
+                          workingMethod='Selected uncertain connections, historical father fields and approved existing maternal grades are synchronized from current public dossiers. Approved atlas accounts are retained; publication reconciliation is not a new genealogical inference.')
     return result
 
 
