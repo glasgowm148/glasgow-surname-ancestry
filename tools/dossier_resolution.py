@@ -104,6 +104,9 @@ def resolve_presentation(profile_id: str, dossier: dict, model: dict, authored: 
     approved = [a for a in dossier.get("research_assessments") or []
                 if str(a.get("subject") or profile_id).casefold() == profile_id.casefold()
                 and a.get("status") == "approved"]
+    # A scoped date/relationship correction need not supply an overall account.
+    # Only written assessment summaries can supersede the maintained conclusion.
+    summaries = [a for a in approved if str(a.get("summary") or "").strip()]
     findings = current_findings(dossier)
     issues = []
     state = "none"
@@ -112,14 +115,14 @@ def resolve_presentation(profile_id: str, dossier: dict, model: dict, authored: 
     summary_markdown = ""
     assessment_date = authored.get("assessment_date") or ""
 
-    if len(approved) > 1:
-        summaries = {str(a.get("summary") or "").strip() for a in approved}
-        if len(summaries) > 1:
+    if len(summaries) > 1:
+        answers = {str(a["summary"]).strip() for a in summaries}
+        if len(answers) > 1:
             state = "conflict"
             issues.append("More than one approved assessment has a different summary; editorial reconciliation is required.")
         else:
             state = "resolved"
-    elif approved:
+    elif summaries:
         state = "resolved"
     elif findings:
         # This is an explicit maintained heading from the research catalogue,
@@ -139,11 +142,14 @@ def resolve_presentation(profile_id: str, dossier: dict, model: dict, authored: 
             # exists, but nobody has written the summary yet. Not a conflict.
             state = "unmapped"
             issues.append("Dated topic conclusions are recorded, but no overall conclusion has been written.")
+    elif approved:
+        state = "resolved"
 
     if approved:
         basis.append("approved structured assessment")
-        summary = str(approved[-1].get("summary") or "").strip()
         assessment_date = assessment_date or str(approved[-1].get("reviewed") or "")
+    if summaries:
+        summary = str(summaries[-1]["summary"]).strip()
     elif findings and state == "resolved":
         basis.append("maintained Current conclusion finding")
         summary_markdown = _summary_markdown(findings[0].get("markdown") or "")

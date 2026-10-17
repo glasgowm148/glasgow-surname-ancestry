@@ -86,6 +86,29 @@ class FindingsTemplateRows(unittest.TestCase):
 
 
 class ConclusionResolution(unittest.TestCase):
+    def test_scoped_vital_assessment_retains_the_written_conclusion(self):
+        dossier = _dossier('Current conclusion')
+        dossier['research_assessments'] = [{'subject': 'X-1', 'status': 'approved',
+            'reviewed': '2026-10-17', 'vitals': {'birth': {'date': 'before 1611-05-06'}}}]
+        result = resolve_presentation('X-1', dossier, {})
+        self.assertEqual('resolved', result['resolution']['state'])
+        self.assertEqual('Text of Current conclusion.', result['opening'])
+        self.assertEqual('2026-10-17', result['assessment_date'])
+
+    def test_scoped_assessment_does_not_hide_conflicting_conclusions(self):
+        dossier = _dossier('Current conclusion', 'Conclusion')
+        dossier['research_assessments'] = [{'subject': 'X-1', 'status': 'approved', 'vitals': {}}]
+        self.assertEqual('conflict', resolve_presentation('X-1', dossier, {})['resolution']['state'])
+
+    def test_explicit_assessment_summary_still_controls_the_account(self):
+        dossier = _dossier('Current conclusion')
+        dossier['research_assessments'] = [
+            {'subject': 'X-1', 'status': 'approved', 'summary': 'The reviewed overall account.'},
+            {'subject': 'X-1', 'status': 'approved', 'vitals': {'birth': {'date': 'before 1611'}}}]
+        result = resolve_presentation('X-1', dossier, {})
+        self.assertEqual('resolved', result['resolution']['state'])
+        self.assertEqual('The reviewed overall account.', result['opening'])
+
     def test_single_conclusion_resolves(self):
         result = resolve_presentation('X-1', _dossier('Current conclusion'), {})
         self.assertEqual('resolved', result['resolution']['state'])

@@ -45,7 +45,13 @@
     "original_exact_birthday_retained_in_import": true,
     "packed_main_model_lossless": true,
     "all_cohort_measurements_unchanged": true,
-    "all_other_model_vitals_and_dna_unchanged": true
+    "all_other_model_vitals_and_dna_unchanged": true,
+    "reader_regression_tests_passed": 32,
+    "scoped_date_assessment_retains_written_conclusion": true,
+    "rendered_cathrin_overview_http_200": true,
+    "browser_preview": "Unavailable: browser automation could not attach; rendered HTML and data checked.",
+    "publication_new_failures": 0,
+    "internal_link_new_baseline_pairs": 0
   },
   "next_metric_check": {
     "status": "CLOSED",
