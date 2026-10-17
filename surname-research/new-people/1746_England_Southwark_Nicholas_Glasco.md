@@ -35,6 +35,15 @@ The rare full name, Southwark proceedings and Hazard episode support a probable 
 == Sources ==
 <references />
 
+* [https://www.newspapers.com/image/1214317674/ The Weekly Worcester Journal, 1746-06-27, p.2].
+* [https://www.newspapers.com/image/1248442280/ Salisbury Journal (The Salisbury Journal, or Weekly Advertiser), 1746-06-30, p.2].
+* [https://www.newspapers.com/image/1214317998/ The Weekly Worcester Journal, 1746-08-22, p.4].
+* [https://www.newspapers.com/image/394540938/ The Derby Mercury, 1746-08-22, p.4].
+* [https://www.newspapers.com/image/1248442315/ Salisbury Journal (The Salisbury Journal, or Weekly Advertiser), 1746-09-01, p.1].
+* [https://www.newspapers.com/image/979338997/ The Western Flying Post; or, Sherborne and Yeovil Mercury (The Sherborne Mercury, or Weekly Advertiser), 1746-09-01, p.2].
+* [https://www.newspapers.com/image/971384823/ The Gloucester Journal, 1746-09-02, p.2].
+* [https://www.newspapers.com/image/1214319476/ The Weekly Worcester Journal, 1747-05-08, p.2].
+
 ## Identity review — 6 October 2026
 
 No compatible WikiTree profile after a duplicate search; **READY TO CREATE** once the biography below is checked.

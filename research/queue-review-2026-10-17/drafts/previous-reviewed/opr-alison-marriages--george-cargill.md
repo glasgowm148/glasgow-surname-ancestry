@@ -36,4 +36,6 @@ The printed page identifies George Cargill as bookseller and Alison as his bride
 
 == Sources ==
 <references />
+
+* [https://electricscotland.com/history/records/scottishrecordso16scotuoft.pdf#page=9 Same edition, unnumbered Prefatory Note, PDF p.9].
 ```

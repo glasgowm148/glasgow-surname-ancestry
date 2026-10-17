@@ -65,6 +65,8 @@ def update_data(update):
         "draft_wikitext": draft,
         "manual_update": bool(update.get("manual_update")),
         "pending": bool(update.get("pending", True)),
+        **({key: update[key] for key in ("new_profile", "action", "assessment", "profile_url")
+            if key in update} if update.get("new_profile") else {}),
         **({"relationship_changes": update["relationship_changes"]} if update.get("relationship_changes") else {}),
         **({"application_review": {key: update["application_review"][key]
                                    for key in ("reviewed_on", "status", "assessment")
@@ -268,6 +270,13 @@ def refresh_catalogue_summaries(rows):
             label, count = link.find("strong"), link.find("span")
             if label and count and plain(label) in {"Needs updated on WikiTree", "WikiTree profiles to update"}:
                 count.string = f"{len(pending):,} profiles ranked by significance, with paste-ready or exact manual corrections"
+        missing = [row for row in rows if row.get("missing_profile")]
+        for link in soup.select('a.browse-card[href*="missingProfile"]'):
+            count = link.find("span")
+            if count:
+                ready = sum(row.get("profile_work_status") == "creation_ready" for row in missing)
+                held = len(missing) - ready
+                count.string = f"{len(missing):,} documentary identities without confirmed destinations: {ready:,} creation-ready and {held:,} with identity, source or supporting-page work remaining"
         preview = soup.select_one(".wikitree-update-preview")
         if preview:
             description = preview.find("p", recursive=False)
@@ -278,10 +287,12 @@ def refresh_catalogue_summaries(rows):
                 grid.clear()
                 for row in pending[:8]:
                     ident = read_json(WEB / "people" / (row["id"] + ".json"))["wikitree_update"]["profile_id"]
+                    destination = (f'<a href="https://www.wikitree.com/wiki/{ident}">{ident}</a>'
+                                   if row.get("has_profile") else "New profile draft")
                     grid.append(BeautifulSoup(
                         f'<article><div><p class="kicker">Significance {row["wikitree_update_significance"]}/100</p>'
                         f'<h3><a href="/people/{row["id"]}.html#wikitree-update">{escape(row["name"])}</a></h3>'
-                        f'<p><a href="https://www.wikitree.com/wiki/{ident}">{ident}</a></p></div>'
+                        f'<p>{destination}</p></div>'
                         f'<p>{escape(row["wikitree_update_summary"])}</p></article>', "html.parser"))
         if str(soup) != old:
             path.write_text(str(soup), encoding="utf-8")

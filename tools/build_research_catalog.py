@@ -464,6 +464,7 @@ def sync_generated_profile_work_status() -> dict[str, int]:
         if profile_id in public_profile_ids and not _policy.contains_private_id("\n".join(
             str(update.get(key) or "") for key in ("summary", "remote_wikitext", "proposed_wikitext", "draft_wikitext")))
     )
+    update_count += sum(bool(person.get("pending_profile_creation")) for person in people)
     for path in (WEB_DIR / "catalogue.html", WEB_DIR / "catalogue" / "index.html", WEB_DIR / "catalogue" / "advanced.html", artifact_path, WEB_DIR / "statistics" / "index.html"):
         html = artifact["html"] if path == artifact_path else path.read_text(encoding="utf-8")
         updated = re.sub(
@@ -3954,10 +3955,16 @@ def _wikitree_evidence_html(captures: list[dict], id_to_slug: dict[str, str]) ->
 
 
 def _load_catalogue_profile_audit() -> dict:
-    if not WIKITREE_CATALOGUE_PROFILE_AUDIT.exists():
-        return {"audited_at": "", "entries": {}}
-    payload = json.loads(WIKITREE_CATALOGUE_PROFILE_AUDIT.read_text(encoding="utf-8"))
-    return payload if isinstance(payload.get("entries"), dict) else {"audited_at": "", "entries": {}}
+    payload = (json.loads(WIKITREE_CATALOGUE_PROFILE_AUDIT.read_text(encoding="utf-8"))
+               if WIKITREE_CATALOGUE_PROFILE_AUDIT.exists() else {"audited_at": "", "entries": {}})
+    if not isinstance(payload.get("entries"), dict):
+        payload = {"audited_at": "", "entries": {}}
+    try:
+        from queue_catalogue_creations import reviewed_audits
+    except ModuleNotFoundError:
+        from tools.queue_catalogue_creations import reviewed_audits
+    payload["entries"].update(reviewed_audits(PROJECT_ROOT))
+    return payload
 
 
 def _load_catalogue_profile_links() -> dict:
@@ -4383,7 +4390,7 @@ def _normalise_complete_wikitree_profile(
 _REF_OPEN_RE = re.compile(r"<ref\b(?P<attrs>[^>]*)>", re.I)
 _REF_CLOSE_RE = re.compile(r"</ref\s*>", re.I)
 _REF_NAME_RE = re.compile(
-    r"\bname\s*=\s*(?P<quote>[\"'])(?P<name>[^\"']+)(?P=quote)", re.I
+    r"\bname\s*=\s*(?:(?P<quote>[\"'])(?P<name>[^\"']+)(?P=quote)|(?P<unquoted>[^\s/\"'>]+))", re.I
 )
 
 
@@ -4403,7 +4410,7 @@ def _named_ref_parts(text: str) -> tuple[dict[str, str], dict[str, list[tuple[in
         name_match = _REF_NAME_RE.search(opening.group("attrs"))
         if not name_match:
             continue
-        name = name_match.group("name")
+        name = name_match.group("name") or name_match.group("unquoted")
         if opening.group("attrs").rstrip().endswith("/"):
             usages[name].append(opening.span())
             continue
@@ -4780,6 +4787,13 @@ def _load_profile_updates(wikitree_evidence: dict, report: list | None = None) -
     specifications.update(payload.get("entries", {}))
     completed_live_profiles = set(payload.get("completed_live_profiles", []))
     reopened_profiles = set(payload.get("reopened_completed_profiles", {}))
+    try:
+        from queue_profile_amendments import reviewed_amendments, merge_amendments
+    except ModuleNotFoundError:
+        from tools.queue_profile_amendments import reviewed_amendments, merge_amendments
+    reopened_profiles.update(merge_amendments(
+        specifications, reviewed_amendments(PROJECT_ROOT), captures, report
+    ))
     updates = {}
     try:
         from relationship_update_changes import pending_changes
@@ -4991,6 +5005,12 @@ def _profile_update_controls(markup: str) -> str:
 def _profile_update_html(update: dict | None) -> str:
     if not update:
         return ""
+    if update.get("new_profile"):
+        try:
+            from queue_catalogue_creations import creation_panel
+        except ModuleNotFoundError:
+            from tools.queue_catalogue_creations import creation_panel
+        return creation_panel(update)
     review = update.get("application_review") or {}
     review_note = (
         '<p class="workbench-audit profile-application-review"><strong>Application review, '
@@ -6210,6 +6230,14 @@ input.addEventListener('input',apply);scoreInput.addEventListener('input',apply)
 
 
 def build_research_catalog(records: list[dict], profiles: dict[str, dict], edges: list[list[str]], descendant_counts: dict[str, int], early_bearers: list[dict], ydna_timeline: list[dict], export_paths: list[Path], location_index: dict[str, list[str]] | None = None, root_links: dict[str, list[list[object]]] | None = None) -> dict[str, int]:
+    try:
+        from queue_catalogue_creations import reviewed_people, reviewed_records, decorate_person, creation_update
+    except ModuleNotFoundError:
+        from tools.queue_catalogue_creations import reviewed_people, reviewed_records, decorate_person, creation_update
+    reviewed_creations = {entry["catalogue_id"]: entry for entry in reviewed_people(PROJECT_ROOT)}
+    reviewed_rows = reviewed_records(PROJECT_ROOT)
+    creation_keys = {row["supplement_id"] for row in reviewed_rows}
+    records = [row for row in records if row.get("supplement_id") not in creation_keys] + reviewed_rows
     wikitree_evidence = _load_wikitree_evidence()
     profile_updates = _load_profile_updates(wikitree_evidence)
     profile_audit_payload = _load_catalogue_profile_audit()
@@ -6220,6 +6248,9 @@ def build_research_catalog(records: list[dict], profiles: dict[str, dict], edges
         records, profiles, edges, descendant_counts, wikitree_evidence,
         profile_seed_ids=set(profile_updates) | catalogue_research_case_ids(),
     )
+    for person in people:
+        if person["catalogue_id"] in reviewed_creations:
+            decorate_person(person, reviewed_creations[person["catalogue_id"]])
     public_people = [person for person in people if not person["likely_living"]]
     pre1500_draft_paths = {
         "record-medieval-1283-alexander-richard-constable": "surname-research/free-space-pages/Alexander_son_of_Richard_constable_of_Glasgow.md",
@@ -6369,6 +6400,11 @@ def build_research_catalog(records: list[dict], profiles: dict[str, dict], edges
                                        if key in update["application_review"]}}
                if update.get("application_review") else {}),
         }
+    for person in public_people:
+        creation = creation_update(person)
+        if creation:
+            profile_updates_by_catalogue[person["catalogue_id"]] = creation
+            dossiers[person["catalogue_id"]]["wikitree_update"] = creation
     candidate_worklist = _write_candidate_match_worklist(dossiers)
     location_to_slug = {
         record["location_id"]: _slug(record["location_id"])

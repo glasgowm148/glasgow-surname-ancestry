@@ -1,0 +1,4403 @@
+{
+  "reviewed_on": "2026-10-17",
+  "scope": "Bounded inventory from current progress/reports and current www catalogue indexes; no research redo. Queue rows and suggested subjects are not unique-person proofs.",
+  "counts": {
+    "suggested_subjects": 27,
+    "creation_ready": 25,
+    "hold_source_verification": 2,
+    "current_missing_profile_total": 63,
+    "current_needs_update_total": 269,
+    "expected_missing_profile_total_if_all_27_integrated": 90,
+    "expected_total_if_only_25_creation_ready_integrated": 88,
+    "matched_candidate_profile_ids": 300,
+    "candidate_rows_present": 241,
+    "candidate_needs_update": 96,
+    "candidate_missing_main_row": 59,
+    "candidate_present_without_needs_update": 145
+  },
+  "suggested_subjects": [
+    {
+      "subject_id": "subject-ballymena-hillis-elder-1857-alex-hillis",
+      "name": "Alex Hillis",
+      "draft_path": "research/queue-review-2026-10-17/drafts/previous-reviewed/ballymena-hillis-elder-1857--alex-hillis.md",
+      "public_url": "/research/subjects/ballymena-hillis-elder-1857/#alex-hillis",
+      "structured_identity": {
+        "first_names": [
+          "Alex"
+        ],
+        "last_name_at_birth": "Hillis",
+        "last_name_status": "explicit_or_record_name",
+        "gender": "male",
+        "gender_status": "explicit_groom_role"
+      },
+      "structured_vitals": {
+        "birth": null,
+        "death": null,
+        "date_basis": "Only values stated as exact, reported, or explicit bounds in the draft; blank means unknown.",
+        "birthplace": null
+      },
+      "documentary_event": {
+        "year_or_date": "1857-07-07",
+        "place": "Ballymena, County Antrim, Ireland",
+        "event_type": "marriage",
+        "place_status": "recorded_or_qualified_context",
+        "source_citation_urls": [
+          "https://www.rootschat.com/forum/index.php?topic=214109.0"
+        ]
+      },
+      "existing_catalogue_ids": [],
+      "proposed_stable_id": "record-queue-ballymena-hillis-elder-1857-alex-hillis",
+      "creation_status": "creation_ready",
+      "draft_exists": true,
+      "main_catalogue_row_present": false
+    },
+    {
+      "subject_id": "subject-ballymoney-elder-mccaughey-1887-jane-adams-mccaughey",
+      "name": "Jane Adams McCaughey",
+      "draft_path": "research/queue-review-2026-10-17/drafts/previous-reviewed/ballymoney-elder-mccaughey-1887--jane-adams-mccaughey.md",
+      "public_url": "/research/subjects/ballymoney-elder-mccaughey-1887/#jane-adams-mccaughey",
+      "structured_identity": {
+        "first_names": [
+          "Jane"
+        ],
+        "last_name_at_birth": "McCaughey",
+        "last_name_status": "explicit_or_record_name",
+        "gender": "female",
+        "gender_status": "explicit_bride_role"
+      },
+      "structured_vitals": {
+        "birth": null,
+        "death": null,
+        "date_basis": "Only values stated as exact, reported, or explicit bounds in the draft; blank means unknown.",
+        "birthplace": null
+      },
+      "documentary_event": {
+        "year_or_date": "1887-07-13",
+        "place": "Ballymoney/Garvaghey, County Antrim, Ireland",
+        "event_type": "marriage",
+        "place_status": "recorded_or_qualified_context",
+        "source_citation_urls": [
+          "https://www.rootschat.com/forum/index.php?topic=214109.0"
+        ]
+      },
+      "existing_catalogue_ids": [],
+      "proposed_stable_id": "record-queue-ballymoney-elder-mccaughey-1887-jane-adams-mccaughey",
+      "creation_status": "creation_ready",
+      "draft_exists": true,
+      "main_catalogue_row_present": false
+    },
+    {
+      "subject_id": "subject-carnwath-1524-1532-thomas-quothquan",
+      "name": "Thomas Glasgow of Quothquan, 1527/28",
+      "draft_path": "research/queue-review-2026-10-17/drafts/early-families/1528_Scotland_Quothquan_Thomas_Glasgow.md",
+      "public_url": "/research/subjects/carnwath-1524-1532/#thomas-quothquan",
+      "structured_identity": {
+        "first_names": [
+          "Thomas"
+        ],
+        "last_name_at_birth": "Glasgow",
+        "last_name_status": "explicit_or_record_name",
+        "gender": "male",
+        "gender_status": "explicit_record_sex"
+      },
+      "structured_vitals": {
+        "birth": {
+          "value": "before 1528-02-07",
+          "status": "before_bound"
+        },
+        "death": {
+          "value": "after 1528-05-20",
+          "status": "after_bound"
+        },
+        "date_basis": "Only values stated as exact, reported, or explicit bounds in the draft; blank means unknown.",
+        "birthplace": {
+          "value": "Quothquan, Lanarkshire, Scotland",
+          "status": "uncertain_from_event",
+          "basis": "Event location is separately documented; draft does not establish a birth place."
+        }
+      },
+      "documentary_event": {
+        "year_or_date": "1527/28",
+        "place": "Quothquan, Lanarkshire, Scotland",
+        "event_type": "court/tenancy",
+        "place_status": "recorded_or_qualified_context",
+        "source_citation_urls": [
+          "https://deriv.nls.uk/dcn23/1271/7974/127179749.23.pdf#page=193"
+        ]
+      },
+      "existing_catalogue_ids": [],
+      "proposed_stable_id": "record-queue-carnwath-1524-1532-thomas-quothquan",
+      "creation_status": "creation_ready",
+      "draft_exists": true,
+      "main_catalogue_row_present": false
+    },
+    {
+      "subject_id": "subject-currituck-1746-sarah-glasgow",
+      "name": "Sarah Glasgow, daughter of William of Currituck",
+      "draft_path": "research/queue-review-2026-10-17/drafts/early-families/1746_United_States_North_Carolina_Currituck_Sarah_Glasgow.md",
+      "public_url": "/research/subjects/currituck-1746/#sarah-glasgow",
+      "structured_identity": {
+        "first_names": [
+          "Sarah"
+        ],
+        "last_name_at_birth": "Glasgow",
+        "last_name_status": "explicit_or_record_name",
+        "gender": "female",
+        "gender_status": "explicit_daughter_role"
+      },
+      "structured_vitals": {
+        "birth": {
+          "value": "before 1746-09-30",
+          "status": "before_bound"
+        },
+        "death": {
+          "value": "after 1746-09-30",
+          "status": "after_bound"
+        },
+        "date_basis": "Only values stated as exact, reported, or explicit bounds in the draft; blank means unknown.",
+        "birthplace": {
+          "value": "Currituck, North Carolina",
+          "status": "uncertain_from_event",
+          "basis": "Event location is separately documented; draft does not establish a birth place."
+        }
+      },
+      "documentary_event": {
+        "year_or_date": "1746-09-30",
+        "place": "Currituck, North Carolina",
+        "event_type": "will",
+        "place_status": "recorded_or_qualified_context",
+        "source_citation_urls": [
+          "https://www.ncgenweb.us/currituck/wills/glasgowwilliam1746.html"
+        ]
+      },
+      "existing_catalogue_ids": [],
+      "proposed_stable_id": "record-queue-currituck-1746-sarah-glasgow",
+      "creation_status": "creation_ready",
+      "draft_exists": true,
+      "main_catalogue_row_present": false
+    },
+    {
+      "subject_id": "subject-early-scotland-1650-issobella-miral",
+      "name": "Issobella Miral",
+      "draft_path": "research/queue-review-2026-10-17/drafts/early-families/1639_Scotland_Haddington_Issobella_Miral.md",
+      "public_url": "/research/subjects/early-scotland-1650/#issobella-miral",
+      "structured_identity": {
+        "first_names": [
+          "Issobella"
+        ],
+        "last_name_at_birth": "Miral",
+        "last_name_status": "explicit_or_record_name",
+        "gender": "female",
+        "gender_status": "explicit_mother_role"
+      },
+      "structured_vitals": {
+        "birth": {
+          "value": "before 1639-11-26",
+          "status": "before_bound"
+        },
+        "death": null,
+        "date_basis": "Only values stated as exact, reported, or explicit bounds in the draft; blank means unknown.",
+        "birthplace": {
+          "value": "Haddington, Scotland",
+          "status": "uncertain_from_event",
+          "basis": "Event location is separately documented; draft does not establish a birth place."
+        }
+      },
+      "documentary_event": {
+        "year_or_date": "1639-11-26",
+        "place": "Haddington, Scotland",
+        "event_type": "birth/baptism",
+        "place_status": "recorded_or_qualified_context",
+        "source_citation_urls": [
+          "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4675742"
+        ]
+      },
+      "existing_catalogue_ids": [],
+      "proposed_stable_id": "record-queue-early-scotland-1650-issobella-miral",
+      "creation_status": "hold_source_verification",
+      "draft_exists": true,
+      "main_catalogue_row_present": false
+    },
+    {
+      "subject_id": "subject-early-scotland-1650-walter-buried-1647",
+      "name": "Walter Glasgow of Leithford, buried in 1647",
+      "draft_path": "research/queue-review-2026-10-17/drafts/early-families/1647_Scotland_Leithford_Walter_Glasgow.md",
+      "public_url": "/research/subjects/early-scotland-1650/#walter-buried-1647",
+      "structured_identity": {
+        "first_names": [
+          "Walter"
+        ],
+        "last_name_at_birth": "Glasgow",
+        "last_name_status": "explicit_or_record_name",
+        "gender": "male",
+        "gender_status": "explicit_record_sex"
+      },
+      "structured_vitals": {
+        "birth": {
+          "value": "before 1647-06-04",
+          "status": "before_bound"
+        },
+        "death": {
+          "value": "on or before 1647-06-04",
+          "status": "upper_bound"
+        },
+        "date_basis": "Only values stated as exact, reported, or explicit bounds in the draft; blank means unknown.",
+        "birthplace": {
+          "value": "Leithford, Kirknewton/East Calder, Scotland",
+          "status": "uncertain_from_event",
+          "basis": "Event location is separately documented; draft does not establish a birth place."
+        }
+      },
+      "documentary_event": {
+        "year_or_date": "1647-06-04",
+        "place": "Leithford, Kirknewton/East Calder, Scotland",
+        "event_type": "burial",
+        "place_status": "recorded_or_qualified_context",
+        "source_citation_urls": [
+          "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1625437"
+        ]
+      },
+      "existing_catalogue_ids": [],
+      "proposed_stable_id": "record-queue-early-scotland-1650-walter-buried-1647",
+      "creation_status": "hold_source_verification",
+      "draft_exists": true,
+      "main_catalogue_row_present": false
+    },
+    {
+      "subject_id": "subject-gortereghy-elder-and-anderson-alexander-elder",
+      "name": "Alexander Elder",
+      "draft_path": "research/queue-review-2026-10-17/drafts/previous-reviewed/gortereghy-elder-and-anderson--alexander-elder.md",
+      "public_url": "/research/subjects/gortereghy-elder-and-anderson/#alexander-elder",
+      "structured_identity": {
+        "first_names": [
+          "Alexander"
+        ],
+        "last_name_at_birth": "Elder",
+        "last_name_status": "explicit_or_record_name",
+        "gender": "male",
+        "gender_status": "explicit_groom_role"
+      },
+      "structured_vitals": {
+        "birth": null,
+        "death": null,
+        "date_basis": "Only values stated as exact, reported, or explicit bounds in the draft; blank means unknown.",
+        "birthplace": null
+      },
+      "documentary_event": {
+        "year_or_date": "1908-06-18",
+        "place": "Gortereghy, County Antrim, Ireland",
+        "event_type": "marriage/census",
+        "place_status": "recorded_or_qualified_context",
+        "source_citation_urls": [
+          "https://www.rootschat.com/forum/index.php?topic=214109.0"
+        ]
+      },
+      "existing_catalogue_ids": [],
+      "proposed_stable_id": "record-queue-gortereghy-elder-and-anderson-alexander-elder",
+      "creation_status": "creation_ready",
+      "draft_exists": true,
+      "main_catalogue_row_present": false
+    },
+    {
+      "subject_id": "subject-gortereghy-elder-and-anderson-sarah-elder",
+      "name": "Sarah Elder",
+      "draft_path": "research/queue-review-2026-10-17/drafts/previous-reviewed/gortereghy-elder-and-anderson--sarah-elder.md",
+      "public_url": "/research/subjects/gortereghy-elder-and-anderson/#sarah-elder",
+      "structured_identity": {
+        "first_names": [
+          "Sarah"
+        ],
+        "last_name_at_birth": "Elder",
+        "last_name_status": "explicit_or_record_name",
+        "gender": "female",
+        "gender_status": "explicit_bride_role"
+      },
+      "structured_vitals": {
+        "birth": null,
+        "death": null,
+        "date_basis": "Only values stated as exact, reported, or explicit bounds in the draft; blank means unknown.",
+        "birthplace": null
+      },
+      "documentary_event": {
+        "year_or_date": "1893-09-28",
+        "place": "Gortereghy, County Antrim, Ireland",
+        "event_type": "marriage",
+        "place_status": "recorded_or_qualified_context",
+        "source_citation_urls": [
+          "https://www.rootschat.com/forum/index.php?topic=214109.0"
+        ]
+      },
+      "existing_catalogue_ids": [],
+      "proposed_stable_id": "record-queue-gortereghy-elder-and-anderson-sarah-elder",
+      "creation_status": "creation_ready",
+      "draft_exists": true,
+      "main_catalogue_row_present": false
+    },
+    {
+      "subject_id": "subject-gortereghy-elder-households-1911-ellen-elder",
+      "name": "Ellen Elder",
+      "draft_path": "research/queue-review-2026-10-17/drafts/previous-reviewed/gortereghy-elder-households-1911--ellen-elder.md",
+      "public_url": "/research/subjects/gortereghy-elder-households-1911/#ellen-elder",
+      "structured_identity": {
+        "first_names": [
+          "Ellen"
+        ],
+        "last_name_at_birth": "Elder",
+        "last_name_status": "explicit_or_record_name",
+        "gender": "female",
+        "gender_status": "explicit_niece_role"
+      },
+      "structured_vitals": {
+        "birth": null,
+        "death": null,
+        "date_basis": "Only values stated as exact, reported, or explicit bounds in the draft; blank means unknown.",
+        "birthplace": null
+      },
+      "documentary_event": {
+        "year_or_date": "1911",
+        "place": "Gortereghy, County Antrim, Ireland",
+        "event_type": "census",
+        "place_status": "recorded_or_qualified_context",
+        "source_citation_urls": [
+          "https://api-census.nationalarchives.ie/census/image/nai001390154.pdf"
+        ]
+      },
+      "existing_catalogue_ids": [],
+      "proposed_stable_id": "record-queue-gortereghy-elder-households-1911-ellen-elder",
+      "creation_status": "creation_ready",
+      "draft_exists": true,
+      "main_catalogue_row_present": false
+    },
+    {
+      "subject_id": "subject-gortereghy-mccaughern-household-1911-caroline-mccaughern",
+      "name": "Caroline McCaughern",
+      "draft_path": "research/queue-review-2026-10-17/drafts/previous-reviewed/gortereghy-mccaughern-household-1911--caroline-mccaughern.md",
+      "public_url": "/research/subjects/gortereghy-mccaughern-household-1911/#caroline-mccaughern",
+      "structured_identity": {
+        "first_names": [
+          "Caroline"
+        ],
+        "last_name_at_birth": "McCaughern",
+        "last_name_status": "explicit_or_record_name",
+        "gender": "female",
+        "gender_status": "explicit_daughter_role"
+      },
+      "structured_vitals": {
+        "birth": null,
+        "death": null,
+        "date_basis": "Only values stated as exact, reported, or explicit bounds in the draft; blank means unknown.",
+        "birthplace": null
+      },
+      "documentary_event": {
+        "year_or_date": "1911",
+        "place": "Gortereghy, County Antrim, Ireland",
+        "event_type": "census",
+        "place_status": "recorded_or_qualified_context",
+        "source_citation_urls": [
+          "https://api-census.nationalarchives.ie/census/image/nai001390134.pdf"
+        ]
+      },
+      "existing_catalogue_ids": [],
+      "proposed_stable_id": "record-queue-gortereghy-mccaughern-household-1911-caroline-mccaughern",
+      "creation_status": "creation_ready",
+      "draft_exists": true,
+      "main_catalogue_row_present": false
+    },
+    {
+      "subject_id": "subject-gortereghy-mccaughern-household-1911-geo-mulholland",
+      "name": "Geo Mulholland",
+      "draft_path": "research/queue-review-2026-10-17/drafts/previous-reviewed/gortereghy-mccaughern-household-1911--geo-mulholland.md",
+      "public_url": "/research/subjects/gortereghy-mccaughern-household-1911/#geo-mulholland",
+      "structured_identity": {
+        "first_names": [
+          "Geo"
+        ],
+        "last_name_at_birth": "Mulholland",
+        "last_name_status": "explicit_or_record_name",
+        "gender": "male",
+        "gender_status": "explicit_grandson_role"
+      },
+      "structured_vitals": {
+        "birth": null,
+        "death": null,
+        "date_basis": "Only values stated as exact, reported, or explicit bounds in the draft; blank means unknown.",
+        "birthplace": null
+      },
+      "documentary_event": {
+        "year_or_date": "1911",
+        "place": "Gortereghy, County Antrim, Ireland",
+        "event_type": "census",
+        "place_status": "recorded_or_qualified_context",
+        "source_citation_urls": [
+          "https://api-census.nationalarchives.ie/census/image/nai001390134.pdf"
+        ]
+      },
+      "existing_catalogue_ids": [],
+      "proposed_stable_id": "record-queue-gortereghy-mccaughern-household-1911-geo-mulholland",
+      "creation_status": "creation_ready",
+      "draft_exists": true,
+      "main_catalogue_row_present": false
+    },
+    {
+      "subject_id": "subject-gortereghy-mccaughern-household-1911-jas-alex-mccaughern",
+      "name": "Jas Alex McCaughern",
+      "draft_path": "research/queue-review-2026-10-17/drafts/previous-reviewed/gortereghy-mccaughern-household-1911--jas-alex-mccaughern.md",
+      "public_url": "/research/subjects/gortereghy-mccaughern-household-1911/#jas-alex-mccaughern",
+      "structured_identity": {
+        "first_names": [
+          "Jas"
+        ],
+        "last_name_at_birth": "McCaughern",
+        "last_name_status": "explicit_or_record_name",
+        "gender": "male",
+        "gender_status": "explicit_son_role"
+      },
+      "structured_vitals": {
+        "birth": null,
+        "death": null,
+        "date_basis": "Only values stated as exact, reported, or explicit bounds in the draft; blank means unknown.",
+        "birthplace": null
+      },
+      "documentary_event": {
+        "year_or_date": "1911",
+        "place": "Gortereghy, County Antrim, Ireland",
+        "event_type": "census",
+        "place_status": "recorded_or_qualified_context",
+        "source_citation_urls": [
+          "https://api-census.nationalarchives.ie/census/image/nai001390134.pdf"
+        ]
+      },
+      "existing_catalogue_ids": [],
+      "proposed_stable_id": "record-queue-gortereghy-mccaughern-household-1911-jas-alex-mccaughern",
+      "creation_status": "creation_ready",
+      "draft_exists": true,
+      "main_catalogue_row_present": false
+    },
+    {
+      "subject_id": "subject-gortereghy-mccaughern-household-1911-matilda-mulholland",
+      "name": "Matilda Mulholland",
+      "draft_path": "research/queue-review-2026-10-17/drafts/previous-reviewed/gortereghy-mccaughern-household-1911--matilda-mulholland.md",
+      "public_url": "/research/subjects/gortereghy-mccaughern-household-1911/#matilda-mulholland",
+      "structured_identity": {
+        "first_names": [
+          "Matilda"
+        ],
+        "last_name_at_birth": "Mulholland",
+        "last_name_status": "explicit_or_record_name",
+        "gender": "female",
+        "gender_status": "explicit_daughter_role"
+      },
+      "structured_vitals": {
+        "birth": null,
+        "death": null,
+        "date_basis": "Only values stated as exact, reported, or explicit bounds in the draft; blank means unknown.",
+        "birthplace": null
+      },
+      "documentary_event": {
+        "year_or_date": "1911",
+        "place": "Gortereghy, County Antrim, Ireland",
+        "event_type": "census",
+        "place_status": "recorded_or_qualified_context",
+        "source_citation_urls": [
+          "https://api-census.nationalarchives.ie/census/image/nai001390134.pdf"
+        ]
+      },
+      "existing_catalogue_ids": [],
+      "proposed_stable_id": "record-queue-gortereghy-mccaughern-household-1911-matilda-mulholland",
+      "creation_status": "creation_ready",
+      "draft_exists": true,
+      "main_catalogue_row_present": false
+    },
+    {
+      "subject_id": "subject-gortereghy-mccaughern-household-1911-sara-jane-mccaughern",
+      "name": "Sara Jane McCaughern",
+      "draft_path": "research/queue-review-2026-10-17/drafts/previous-reviewed/gortereghy-mccaughern-household-1911--sara-jane-mccaughern.md",
+      "public_url": "/research/subjects/gortereghy-mccaughern-household-1911/#sara-jane-mccaughern",
+      "structured_identity": {
+        "first_names": [
+          "Sara"
+        ],
+        "last_name_at_birth": "McCaughern",
+        "last_name_status": "explicit_or_record_name",
+        "gender": "female",
+        "gender_status": "explicit_daughter_role"
+      },
+      "structured_vitals": {
+        "birth": null,
+        "death": null,
+        "date_basis": "Only values stated as exact, reported, or explicit bounds in the draft; blank means unknown.",
+        "birthplace": null
+      },
+      "documentary_event": {
+        "year_or_date": "1911",
+        "place": "Gortereghy, County Antrim, Ireland",
+        "event_type": "census",
+        "place_status": "recorded_or_qualified_context",
+        "source_citation_urls": [
+          "https://api-census.nationalarchives.ie/census/image/nai001390134.pdf"
+        ]
+      },
+      "existing_catalogue_ids": [],
+      "proposed_stable_id": "record-queue-gortereghy-mccaughern-household-1911-sara-jane-mccaughern",
+      "creation_status": "creation_ready",
+      "draft_exists": true,
+      "main_catalogue_row_present": false
+    },
+    {
+      "subject_id": "subject-kilraughts-montgomery-mccaughey-1839-jane-mccaughey",
+      "name": "Jane McCaughey",
+      "draft_path": "research/queue-review-2026-10-17/drafts/previous-reviewed/kilraughts-montgomery-mccaughey-1839--jane-mccaughey.md",
+      "public_url": "/research/subjects/kilraughts-montgomery-mccaughey-1839/#jane-mccaughey",
+      "structured_identity": {
+        "first_names": [
+          "Jane"
+        ],
+        "last_name_at_birth": "McCaughey",
+        "last_name_status": "explicit_or_record_name",
+        "gender": "female",
+        "gender_status": "explicit_wife_role"
+      },
+      "structured_vitals": {
+        "birth": null,
+        "death": null,
+        "date_basis": "Only values stated as exact, reported, or explicit bounds in the draft; blank means unknown.",
+        "birthplace": null
+      },
+      "documentary_event": {
+        "year_or_date": "1839",
+        "place": "Kilraughts, County Antrim, Ireland",
+        "event_type": "marriage/family account",
+        "place_status": "recorded_or_qualified_context",
+        "source_citation_urls": [
+          "https://www.rootschat.com/forum/index.php?topic=214109.0"
+        ]
+      },
+      "existing_catalogue_ids": [],
+      "proposed_stable_id": "record-queue-kilraughts-montgomery-mccaughey-1839-jane-mccaughey",
+      "creation_status": "creation_ready",
+      "draft_exists": true,
+      "main_catalogue_row_present": false
+    },
+    {
+      "subject_id": "subject-lisnagaver-macaw-kilpatrick-1839-hugh-macaw",
+      "name": "Hugh Macaw",
+      "draft_path": "research/queue-review-2026-10-17/drafts/previous-reviewed/lisnagaver-macaw-kilpatrick-1839--hugh-macaw.md",
+      "public_url": "/research/subjects/lisnagaver-macaw-kilpatrick-1839/#hugh-macaw",
+      "structured_identity": {
+        "first_names": [
+          "Hugh"
+        ],
+        "last_name_at_birth": "Macaw",
+        "last_name_status": "explicit_or_record_name",
+        "gender": "male",
+        "gender_status": "explicit_son_role"
+      },
+      "structured_vitals": {
+        "birth": {
+          "value": "1839-02-03",
+          "status": "transcription_reading"
+        },
+        "death": null,
+        "date_basis": "Only values stated as exact, reported, or explicit bounds in the draft; blank means unknown.",
+        "birthplace": {
+          "value": "Lisnagaver, County Antrim, Ireland",
+          "status": "uncertain_from_event",
+          "basis": "Event location is separately documented; draft does not establish a birth place."
+        }
+      },
+      "documentary_event": {
+        "year_or_date": "1839-02-03",
+        "place": "Lisnagaver, County Antrim, Ireland",
+        "event_type": "birth/baptism",
+        "place_status": "recorded_or_qualified_context",
+        "source_citation_urls": [
+          "https://genealogy.torrens.org/BannValley/church/RasharkinP/Baptisms_1834.html"
+        ]
+      },
+      "existing_catalogue_ids": [],
+      "proposed_stable_id": "record-queue-lisnagaver-macaw-kilpatrick-1839-hugh-macaw",
+      "creation_status": "creation_ready",
+      "draft_exists": true,
+      "main_catalogue_row_present": false
+    },
+    {
+      "subject_id": "subject-newspapers-early-glasgow-nicholas-glasco-southwark",
+      "name": "Nicholas Glasco / Glascoe",
+      "draft_path": "surname-research/new-people/1746_England_Southwark_Nicholas_Glasco.md",
+      "public_url": "/research/subjects/newspapers-early-glasgow/#nicholas-glasco-southwark",
+      "structured_identity": {
+        "first_names": [
+          "Nicholas"
+        ],
+        "last_name_at_birth": "Glasco/Glascoe",
+        "last_name_status": "explicit_or_record_name",
+        "gender": "male",
+        "gender_status": "explicit_Mr_role"
+      },
+      "structured_vitals": {
+        "birth": null,
+        "death": null,
+        "date_basis": "Only values stated as exact, reported, or explicit bounds in the draft; blank means unknown.",
+        "birthplace": null
+      },
+      "documentary_event": {
+        "year_or_date": "1746",
+        "place": "Southwark, London, England",
+        "event_type": "newspaper/proceedings",
+        "place_status": "recorded_or_qualified_context",
+        "source_citation_urls": []
+      },
+      "existing_catalogue_ids": [],
+      "proposed_stable_id": "record-queue-newspapers-early-glasgow-nicholas-glasco-southwark",
+      "creation_status": "creation_ready",
+      "draft_exists": true,
+      "main_catalogue_row_present": false
+    },
+    {
+      "subject_id": "subject-newspapers-irish-1800-1850-george-senior-artillery",
+      "name": "George Glasgow, senior Royal Artillery officer, 1811–1819",
+      "draft_path": "research/queue-review-2026-10-17/drafts/later-newspapers/george-senior-artillery.md",
+      "public_url": "/research/subjects/newspapers-irish-1800-1850/#george-senior-artillery",
+      "structured_identity": {
+        "first_names": [
+          "George"
+        ],
+        "last_name_at_birth": "Glasgow",
+        "last_name_status": "explicit_or_record_name",
+        "gender": "unknown",
+        "gender_status": "unknown_not_stated_for_subject"
+      },
+      "structured_vitals": {
+        "birth": null,
+        "death": {
+          "value": "1820-10-28",
+          "status": "reported"
+        },
+        "date_basis": "Only values stated as exact, reported, or explicit bounds in the draft; blank means unknown.",
+        "birthplace": null
+      },
+      "documentary_event": {
+        "year_or_date": "1811-1819",
+        "place": "England/Royal Artillery",
+        "event_type": "newspaper/biography",
+        "place_status": "recorded_or_qualified_context",
+        "source_citation_urls": [
+          "https://www.biographi.ca/en/bio/glasgow_george_5E.html"
+        ]
+      },
+      "existing_catalogue_ids": [],
+      "proposed_stable_id": "record-queue-newspapers-irish-1800-1850-george-senior-artillery",
+      "creation_status": "creation_ready",
+      "draft_exists": true,
+      "main_catalogue_row_present": false
+    },
+    {
+      "subject_id": "subject-newspapers-irish-1800-1850-james-larne-demerara",
+      "name": "James Glasgow, Larne native who died in Demerara, 1839",
+      "draft_path": "research/queue-review-2026-10-17/drafts/previous-reviewed/newspapers-irish-1800-1850--james-larne-demerara.md",
+      "public_url": "/research/subjects/newspapers-irish-1800-1850/#james-larne-demerara",
+      "structured_identity": {
+        "first_names": [
+          "James"
+        ],
+        "last_name_at_birth": "Glasgow",
+        "last_name_status": "explicit_or_record_name",
+        "gender": "male",
+        "gender_status": "explicit_Esq_role"
+      },
+      "structured_vitals": {
+        "birth": null,
+        "death": {
+          "value": "1839-06-13",
+          "status": "reported"
+        },
+        "date_basis": "Only values stated as exact, reported, or explicit bounds in the draft; blank means unknown.",
+        "birthplace": null
+      },
+      "documentary_event": {
+        "year_or_date": "1839-06-13",
+        "place": "Bank Hall, printed Wakenham, Demerara",
+        "event_type": "death notice",
+        "place_status": "recorded_or_qualified_context",
+        "source_citation_urls": [
+          "https://www.newspapers.com/image/390552249/"
+        ]
+      },
+      "existing_catalogue_ids": [],
+      "proposed_stable_id": "record-queue-newspapers-irish-1800-1850-james-larne-demerara",
+      "creation_status": "creation_ready",
+      "draft_exists": true,
+      "main_catalogue_row_present": false
+    },
+    {
+      "subject_id": "subject-newspapers-irish-1800-1850-owen-glasco-meath-repeal-association-1841-1843",
+      "name": "Owen Glasco, Meath Repeal Association records, 1841–1843",
+      "draft_path": "research/queue-review-2026-10-17/drafts/later-newspapers/owen-glasco-meath-repeal-association-1841-1843.md",
+      "public_url": "/research/subjects/newspapers-irish-1800-1850/#owen-glasco-meath-repeal-association-1841-1843",
+      "structured_identity": {
+        "first_names": [
+          "Owen"
+        ],
+        "last_name_at_birth": "Glasco",
+        "last_name_status": "explicit_or_record_name",
+        "gender": "male",
+        "gender_status": "explicit_Mr_role"
+      },
+      "structured_vitals": {
+        "birth": null,
+        "death": null,
+        "date_basis": "Only values stated as exact, reported, or explicit bounds in the draft; blank means unknown.",
+        "birthplace": null
+      },
+      "documentary_event": {
+        "year_or_date": "1841-1843",
+        "place": "Baddinstown/Raddinstown, County Meath, Ireland",
+        "event_type": "newspaper/association lists",
+        "place_status": "recorded_or_qualified_context",
+        "source_citation_urls": [
+          "https://www.newspapers.com/image/1050131561/"
+        ]
+      },
+      "existing_catalogue_ids": [],
+      "proposed_stable_id": "record-queue-newspapers-irish-1800-1850-owen-glasco-meath-repeal-association-1841-1843",
+      "creation_status": "creation_ready",
+      "draft_exists": true,
+      "main_catalogue_row_present": false
+    },
+    {
+      "subject_id": "subject-newspapers-pre1900-20261004-margaret-george",
+      "name": "Margaret George Glasgow, daughter of Drapersfield Benjamin",
+      "draft_path": "research/queue-review-2026-10-17/drafts/later-newspapers/margaret-george.md",
+      "public_url": "/research/subjects/newspapers-pre1900-20261004/#margaret-george",
+      "structured_identity": {
+        "first_names": [
+          "Margaret"
+        ],
+        "last_name_at_birth": "Glasgow",
+        "last_name_status": "explicit_or_record_name",
+        "gender": "female",
+        "gender_status": "explicit_daughter_role"
+      },
+      "structured_vitals": {
+        "birth": null,
+        "death": null,
+        "date_basis": "Only values stated as exact, reported, or explicit bounds in the draft; blank means unknown.",
+        "birthplace": null
+      },
+      "documentary_event": {
+        "year_or_date": "1891-10-05",
+        "place": "New York, United States",
+        "event_type": "marriage notice",
+        "place_status": "recorded_or_qualified_context",
+        "source_citation_urls": [
+          "https://www.newspapers.com/image/388748472/"
+        ]
+      },
+      "existing_catalogue_ids": [],
+      "proposed_stable_id": "record-queue-newspapers-pre1900-20261004-margaret-george",
+      "creation_status": "creation_ready",
+      "draft_exists": true,
+      "main_catalogue_row_present": false
+    },
+    {
+      "subject_id": "subject-opr-agnes-marriages-patrik-paul",
+      "name": "Patrik Paul",
+      "draft_path": "research/queue-review-2026-10-17/drafts/previous-reviewed/opr-agnes-marriages--patrik-paul.md",
+      "public_url": "/research/subjects/opr-agnes-marriages/#patrik-paul",
+      "structured_identity": {
+        "first_names": [
+          "Patrik"
+        ],
+        "last_name_at_birth": "Paul",
+        "last_name_status": "explicit_or_record_name",
+        "gender": "unknown",
+        "gender_status": "unknown_not_stated_for_subject"
+      },
+      "structured_vitals": {
+        "birth": null,
+        "death": null,
+        "date_basis": "Only values stated as exact, reported, or explicit bounds in the draft; blank means unknown.",
+        "birthplace": {
+          "value": "Kirknewton and East Calder, Scotland",
+          "status": "uncertain_from_event",
+          "basis": "Event location is separately documented; draft does not establish a birth place."
+        }
+      },
+      "documentary_event": {
+        "year_or_date": "1670-07-08",
+        "place": "Kirknewton and East Calder, Scotland",
+        "event_type": "banns/marriage index",
+        "place_status": "recorded_or_qualified_context",
+        "source_citation_urls": [
+          "https://www.scotlandspeople.gov.uk/"
+        ]
+      },
+      "existing_catalogue_ids": [],
+      "proposed_stable_id": "record-queue-opr-agnes-marriages-patrik-paul",
+      "creation_status": "creation_ready",
+      "draft_exists": true,
+      "main_catalogue_row_present": false
+    },
+    {
+      "subject_id": "subject-opr-alison-marriages-alison-glasgow",
+      "name": "Alison Glasgow",
+      "draft_path": "research/queue-review-2026-10-17/drafts/previous-reviewed/opr-alison-marriages--alison-glasgow.md",
+      "public_url": "/research/subjects/opr-alison-marriages/#alison-glasgow",
+      "structured_identity": {
+        "first_names": [
+          "Alison"
+        ],
+        "last_name_at_birth": "Glasgow",
+        "last_name_status": "explicit_or_record_name",
+        "gender": "female",
+        "gender_status": "explicit_bride_role"
+      },
+      "structured_vitals": {
+        "birth": null,
+        "death": null,
+        "date_basis": "Only values stated as exact, reported, or explicit bounds in the draft; blank means unknown.",
+        "birthplace": {
+          "value": "Edinburgh, Scotland",
+          "status": "uncertain_from_event",
+          "basis": "Event location is separately documented; draft does not establish a birth place."
+        }
+      },
+      "documentary_event": {
+        "year_or_date": "1651-03-11; 1672-11-14",
+        "place": "Edinburgh, Scotland",
+        "event_type": "banns/marriage index",
+        "place_status": "recorded_or_qualified_context",
+        "source_citation_urls": [
+          "https://www.scotlandspeople.gov.uk/"
+        ]
+      },
+      "existing_catalogue_ids": [],
+      "proposed_stable_id": "record-queue-opr-alison-marriages-alison-glasgow",
+      "creation_status": "creation_ready",
+      "draft_exists": true,
+      "main_catalogue_row_present": false
+    },
+    {
+      "subject_id": "subject-opr-alison-marriages-george-cargill",
+      "name": "George Cargill",
+      "draft_path": "research/queue-review-2026-10-17/drafts/previous-reviewed/opr-alison-marriages--george-cargill.md",
+      "public_url": "/research/subjects/opr-alison-marriages/#george-cargill",
+      "structured_identity": {
+        "first_names": [
+          "George"
+        ],
+        "last_name_at_birth": "Cargill",
+        "last_name_status": "explicit_or_record_name",
+        "gender": "male",
+        "gender_status": "explicit_groom_role"
+      },
+      "structured_vitals": {
+        "birth": null,
+        "death": null,
+        "date_basis": "Only values stated as exact, reported, or explicit bounds in the draft; blank means unknown.",
+        "birthplace": {
+          "value": "Edinburgh, Scotland",
+          "status": "uncertain_from_event",
+          "basis": "Event location is separately documented; draft does not establish a birth place."
+        }
+      },
+      "documentary_event": {
+        "year_or_date": "1651-03-11",
+        "place": "Edinburgh, Scotland",
+        "event_type": "banns/marriage index",
+        "place_status": "recorded_or_qualified_context",
+        "source_citation_urls": [
+          "https://electricscotland.com/history/records/scottishrecordso16scotuoft.pdf#page=126"
+        ]
+      },
+      "existing_catalogue_ids": [],
+      "proposed_stable_id": "record-queue-opr-alison-marriages-george-cargill",
+      "creation_status": "creation_ready",
+      "draft_exists": true,
+      "main_catalogue_row_present": false
+    },
+    {
+      "subject_id": "subject-opr-jean-marriages-robert-aliesone",
+      "name": "Robert Aliesone",
+      "draft_path": "research/queue-review-2026-10-17/drafts/previous-reviewed/opr-jean-marriages--robert-aliesone.md",
+      "public_url": "/research/subjects/opr-jean-marriages/#robert-aliesone",
+      "structured_identity": {
+        "first_names": [
+          "Robert"
+        ],
+        "last_name_at_birth": "Aliesone",
+        "last_name_status": "explicit_or_record_name",
+        "gender": "unknown",
+        "gender_status": "unknown_not_stated_for_subject"
+      },
+      "structured_vitals": {
+        "birth": null,
+        "death": null,
+        "date_basis": "Only values stated as exact, reported, or explicit bounds in the draft; blank means unknown.",
+        "birthplace": {
+          "value": "St Monance, Fife, Scotland",
+          "status": "uncertain_from_event",
+          "basis": "Event location is separately documented; draft does not establish a birth place."
+        }
+      },
+      "documentary_event": {
+        "year_or_date": "1652-05-28",
+        "place": "St Monance, Fife, Scotland",
+        "event_type": "banns/marriage index",
+        "place_status": "recorded_or_qualified_context",
+        "source_citation_urls": [
+          "https://www.scotlandspeople.gov.uk/"
+        ]
+      },
+      "existing_catalogue_ids": [],
+      "proposed_stable_id": "record-queue-opr-jean-marriages-robert-aliesone",
+      "creation_status": "creation_ready",
+      "draft_exists": true,
+      "main_catalogue_row_present": false
+    },
+    {
+      "subject_id": "subject-opr-thomas-marriages-gyles-spence",
+      "name": "Gyles Spence",
+      "draft_path": "research/queue-review-2026-10-17/drafts/previous-reviewed/opr-thomas-marriages--gyles-spence.md",
+      "public_url": "/research/subjects/opr-thomas-marriages/#gyles-spence",
+      "structured_identity": {
+        "first_names": [
+          "Gyles"
+        ],
+        "last_name_at_birth": "Spence",
+        "last_name_status": "explicit_or_record_name",
+        "gender": "unknown",
+        "gender_status": "unknown_not_stated_for_subject"
+      },
+      "structured_vitals": {
+        "birth": null,
+        "death": null,
+        "date_basis": "Only values stated as exact, reported, or explicit bounds in the draft; blank means unknown.",
+        "birthplace": {
+          "value": "Carstairs, Scotland",
+          "status": "uncertain_from_event",
+          "basis": "Event location is separately documented; draft does not establish a birth place."
+        }
+      },
+      "documentary_event": {
+        "year_or_date": "1679-07-24",
+        "place": "Carstairs, Scotland",
+        "event_type": "banns/marriage index",
+        "place_status": "recorded_or_qualified_context",
+        "source_citation_urls": [
+          "https://www.scotlandspeople.gov.uk/"
+        ]
+      },
+      "existing_catalogue_ids": [],
+      "proposed_stable_id": "record-queue-opr-thomas-marriages-gyles-spence",
+      "creation_status": "creation_ready",
+      "draft_exists": true,
+      "main_catalogue_row_present": false
+    },
+    {
+      "subject_id": "subject-rasharkin-directory-1912-peter-mccaughern",
+      "name": "Peter McCaughern",
+      "draft_path": "research/queue-review-2026-10-17/drafts/previous-reviewed/rasharkin-directory-1912--peter-mccaughern.md",
+      "public_url": "/research/subjects/rasharkin-directory-1912/#peter-mccaughern",
+      "structured_identity": {
+        "first_names": [
+          "Peter"
+        ],
+        "last_name_at_birth": "McCaughern",
+        "last_name_status": "explicit_or_record_name",
+        "gender": "male",
+        "gender_status": "explicit_census_role"
+      },
+      "structured_vitals": {
+        "birth": null,
+        "death": null,
+        "date_basis": "Only values stated as exact, reported, or explicit bounds in the draft; blank means unknown.",
+        "birthplace": null
+      },
+      "documentary_event": {
+        "year_or_date": "1912",
+        "place": "Rasharkin, County Antrim, Ireland",
+        "event_type": "directory/census comparison",
+        "place_status": "recorded_or_qualified_context",
+        "source_citation_urls": [
+          "https://lennonwylie.co.uk/PT191214.htm"
+        ]
+      },
+      "existing_catalogue_ids": [],
+      "proposed_stable_id": "record-queue-rasharkin-directory-1912-peter-mccaughern",
+      "creation_status": "creation_ready",
+      "draft_exists": true,
+      "main_catalogue_row_present": false
+    }
+  ],
+  "matched_candidate_inventory": [
+    {
+      "profile_id": "Alexander-7545",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": false,
+      "needs_update": false,
+      "catalogue_id": null,
+      "catalogue_profile_work_status": null,
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Anderson-3241",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": false,
+      "needs_update": false,
+      "catalogue_id": null,
+      "catalogue_profile_work_status": null,
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Anderson-3493",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": false,
+      "needs_update": false,
+      "catalogue_id": null,
+      "catalogue_profile_work_status": null,
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Anderson-47669",
+      "review_statuses": [
+        "matched",
+        "partly_matched"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "anderson-47669",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Anderson-47673",
+      "review_statuses": [
+        "compatible_candidate",
+        "partly_matched"
+      ],
+      "main_catalogue_row": false,
+      "needs_update": false,
+      "catalogue_id": null,
+      "catalogue_profile_work_status": null,
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Anderson-56713",
+      "review_statuses": [
+        "matched"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "anderson-56713",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Ayton-398",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": false,
+      "needs_update": false,
+      "catalogue_id": null,
+      "catalogue_profile_work_status": null,
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Bie-55",
+      "review_statuses": [
+        "compatible_candidate",
+        "partly_matched"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "bie-55",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Bruce-3507",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": false,
+      "needs_update": false,
+      "catalogue_id": null,
+      "catalogue_profile_work_status": null,
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Bruce-6113",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": false,
+      "needs_update": false,
+      "catalogue_id": null,
+      "catalogue_profile_work_status": null,
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Caldwell-12289",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": false,
+      "needs_update": false,
+      "catalogue_id": null,
+      "catalogue_profile_work_status": null,
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Clerk-296",
+      "review_statuses": [
+        "matched",
+        "partly_matched"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "clerk-296",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Drake-13873",
+      "review_statuses": [
+        "partly_matched"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "drake-13873",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Duffy-6026",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "duffy-6026",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Dysart-1893",
+      "review_statuses": [
+        "compatible_candidate",
+        "partly_matched"
+      ],
+      "main_catalogue_row": false,
+      "needs_update": false,
+      "catalogue_id": null,
+      "catalogue_profile_work_status": null,
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Elder-1585",
+      "review_statuses": [
+        "compatible_candidate",
+        "partly_matched"
+      ],
+      "main_catalogue_row": false,
+      "needs_update": false,
+      "catalogue_id": null,
+      "catalogue_profile_work_status": null,
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Elder-3949",
+      "review_statuses": [
+        "compatible_candidate",
+        "partly_matched"
+      ],
+      "main_catalogue_row": false,
+      "needs_update": false,
+      "catalogue_id": null,
+      "catalogue_profile_work_status": null,
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Elder-3950",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": false,
+      "needs_update": false,
+      "catalogue_id": null,
+      "catalogue_profile_work_status": null,
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Elder-3951",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": false,
+      "needs_update": false,
+      "catalogue_id": null,
+      "catalogue_profile_work_status": null,
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Elder-4387",
+      "review_statuses": [
+        "partly_matched"
+      ],
+      "main_catalogue_row": false,
+      "needs_update": false,
+      "catalogue_id": null,
+      "catalogue_profile_work_status": null,
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Elder-4828",
+      "review_statuses": [
+        "compatible_candidate",
+        "partly_matched"
+      ],
+      "main_catalogue_row": false,
+      "needs_update": false,
+      "catalogue_id": null,
+      "catalogue_profile_work_status": null,
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Elder-5598",
+      "review_statuses": [
+        "compatible_candidate",
+        "partly_matched"
+      ],
+      "main_catalogue_row": false,
+      "needs_update": false,
+      "catalogue_id": null,
+      "catalogue_profile_work_status": null,
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Elder-5907",
+      "review_statuses": [
+        "partly_matched"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "elder-5907",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Elder-7144",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": false,
+      "needs_update": false,
+      "catalogue_id": null,
+      "catalogue_profile_work_status": null,
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Elder-7230",
+      "review_statuses": [
+        "partly_matched"
+      ],
+      "main_catalogue_row": false,
+      "needs_update": false,
+      "catalogue_id": null,
+      "catalogue_profile_work_status": null,
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Elder-7251",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": false,
+      "needs_update": false,
+      "catalogue_id": null,
+      "catalogue_profile_work_status": null,
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Elder-741",
+      "review_statuses": [
+        "compatible_candidate",
+        "partly_matched"
+      ],
+      "main_catalogue_row": false,
+      "needs_update": false,
+      "catalogue_id": null,
+      "catalogue_profile_work_status": null,
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Gammon-934",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "gammon-934",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasco-143",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasco-143",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasco-144",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasco-144",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasco-148",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasco-148",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasco-173",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasco-173",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-1024",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-1024",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-1025",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-1025",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-1027",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-1027",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-1030",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-1030",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-1058",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-1058",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-1066",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-1066",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-1070",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-1070",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-1076",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-1076",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-1084",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-1084",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-1087",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-1087",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-1088",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-1088",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-1089",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-1089",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-1095",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-1095",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-1096",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-1096",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-1098",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-1098",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-1099",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-1099",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-1100",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-1100",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-1104",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-1104",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-1124",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-1124",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-1133",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-1133",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-1134",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-1134",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-1135",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-1135",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-1140",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-1140",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-1143",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-1143",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-1144",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-1144",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-1146",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-1146",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-1148",
+      "review_statuses": [
+        "matched",
+        "partly_matched"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-1148",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-1150",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-1150",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-1152",
+      "review_statuses": [
+        "matched"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-1152",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-1154",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-1154",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-1160",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-1160",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-1163",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-1163",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-1167",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-1167",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-1189",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-1189",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-12",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-12",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-1218",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-1218",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-1222",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-1222",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-1226",
+      "review_statuses": [
+        "compatible_candidate",
+        "partly_matched"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-1226",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-1238",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-1238",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-1309",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-1309",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-1312",
+      "review_statuses": [
+        "compatible_candidate",
+        "partly_matched"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-1312",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-1316",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-1316",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-1333",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-1333",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-1351",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-1351",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-1353",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-1353",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-1387",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-1387",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-1407",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-1407",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-1408",
+      "review_statuses": [
+        "compatible_candidate",
+        "partly_matched"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-1408",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-1428",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-1428",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-1430",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-1430",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-1432",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-1432",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-1438",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-1438",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-1439",
+      "review_statuses": [
+        "matched"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-1439",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-1441",
+      "review_statuses": [
+        "compatible_candidate",
+        "partly_matched"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-1441",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-1442",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-1442",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-1445",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-1445",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-1452",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-1452",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-1453",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-1453",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-1463",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-1463",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-1481",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-1481",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-1492",
+      "review_statuses": [
+        "compatible_candidate",
+        "matched"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-1492",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-1496",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-1496",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-1505",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-1505",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-1509",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-1509",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-1520",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-1520",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-1522",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-1522",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-1524",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-1524",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-1529",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-1529",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-1531",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-1531",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-1536",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-1536",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-1544",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-1544",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-1557",
+      "review_statuses": [
+        "compatible_candidate",
+        "partly_matched"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-1557",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-1559",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-1559",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-1561",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-1561",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-1562",
+      "review_statuses": [
+        "compatible_candidate",
+        "partly_matched"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-1562",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-1603",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-1603",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-1604",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-1604",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-1620",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-1620",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-1622",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-1622",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-1657",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-1657",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-1675",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-1675",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-1698",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-1698",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-1737",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-1737",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-1780",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-1780",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-1781",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-1781",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-1968",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-1968",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-1970",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-1970",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-1983",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-1983",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-2054",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-2054",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-2056",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-2056",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-2058",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-2058",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-2059",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-2059",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-2425",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-2425",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-2426",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-2426",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-2454",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-2454",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-2460",
+      "review_statuses": [
+        "compatible_candidate",
+        "partly_matched"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-2460",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-2461",
+      "review_statuses": [
+        "compatible_candidate",
+        "partly_matched"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-2461",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-2468",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-2468",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-2473",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-2473",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-2474",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-2474",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-2537",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-2537",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-2566",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-2566",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-2656",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-2656",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-2715",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-2715",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-2771",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-2771",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-2844",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-2844",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-2846",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-2846",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-2868",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-2868",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-2870",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-2870",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-2871",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-2871",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-2898",
+      "review_statuses": [
+        "matched"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-2898",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-2901",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-2901",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-2908",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-2908",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-2915",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-2915",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-2965",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-2965",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-2981",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-2981",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-2988",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-2988",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-2990",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-2990",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-3000",
+      "review_statuses": [
+        "partly_matched"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-3000",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-3003",
+      "review_statuses": [
+        "partly_matched"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-3003",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-3014",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-3014",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-3025",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-3025",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-3033",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-3033",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-3049",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-3049",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-3050",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-3050",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-3052",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-3052",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-3055",
+      "review_statuses": [
+        "compatible_candidate",
+        "partly_matched"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-3055",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-3062",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-3062",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-3075",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-3075",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-3083",
+      "review_statuses": [
+        "compatible_candidate",
+        "partly_matched"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-3083",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-3088",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-3088",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-3091",
+      "review_statuses": [
+        "compatible_candidate",
+        "partly_matched"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-3091",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-3092",
+      "review_statuses": [
+        "compatible_candidate",
+        "partly_matched"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-3092",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-3105",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-3105",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-3107",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-3107",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-3109",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-3109",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-3112",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-3112",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-3127",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-3127",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-3140",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-3140",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-3143",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-3143",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-3165",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-3165",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-3166",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-3166",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-3167",
+      "review_statuses": [
+        "compatible_candidate",
+        "partly_matched"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-3167",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-3172",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-3172",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-3175",
+      "review_statuses": [
+        "compatible_candidate",
+        "matched"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-3175",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-3186",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-3186",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-3187",
+      "review_statuses": [
+        "compatible_candidate",
+        "partly_matched"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-3187",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-3196",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-3196",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-3290",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-3290",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-3293",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-3293",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-3312",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-3312",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-3313",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-3313",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-3322",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-3322",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-3324",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-3324",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-3326",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-3326",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-3358",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-3358",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-3364",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-3364",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-3365",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-3365",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-3366",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-3366",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-3372",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-3372",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-3373",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-3373",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-3412",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-3412",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-3413",
+      "review_statuses": [
+        "compatible_candidate",
+        "partly_matched"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-3413",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-3444",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-3444",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-3457",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-3457",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-3501",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-3501",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-3514",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-3514",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-3524",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-3524",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-3528",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-3528",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-3592",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-3592",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-3598",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-3598",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-3743",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-3743",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-3785",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-3785",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-3814",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-3814",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-3902",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-3902",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-3927",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-3927",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-3929",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-3929",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-3941",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-3941",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-3944",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-3944",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-395",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-395",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-3952",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-3952",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-3959",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-3959",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-3960",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-3960",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-3969",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-3969",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-3971",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-3971",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-3986",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-3986",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-3991",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-3991",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-3992",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-3992",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-4013",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-4013",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-4014",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-4014",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-4027",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-4027",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-4090",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-4090",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-4093",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-4093",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-4095",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-4095",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-4100",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-4100",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-4101",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-4101",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-4111",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-4111",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-4112",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-4112",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-4113",
+      "review_statuses": [
+        "compatible_candidate",
+        "partly_matched"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-4113",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-4119",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-4119",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-4120",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-4120",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-4123",
+      "review_statuses": [
+        "compatible_candidate",
+        "partly_matched"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-4123",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-4124",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-4124",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-4129",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-4129",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-4130",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-4130",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-4133",
+      "review_statuses": [
+        "compatible_candidate",
+        "partly_matched"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-4133",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-4137",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-4137",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-4151",
+      "review_statuses": [
+        "compatible_candidate",
+        "partly_matched"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-4151",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-4157",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": false,
+      "needs_update": false,
+      "catalogue_id": null,
+      "catalogue_profile_work_status": null,
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-4158",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-4158",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-4165",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-4165",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-4179",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-4179",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-4269",
+      "review_statuses": [
+        "matched",
+        "partly_matched"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-4269",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-438",
+      "review_statuses": [
+        "compatible_candidate",
+        "partly_matched"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-438",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-549",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-549",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-585",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-585",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-634",
+      "review_statuses": [
+        "compatible_candidate",
+        "matched"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-634",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-649",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-649",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-664",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-664",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-804",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-804",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Glasgow-822",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-822-arthur-2480",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-867",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-867",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-951",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-951",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-991",
+      "review_statuses": [
+        "compatible_candidate",
+        "partly_matched"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "glasgow-991",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Glasgow-993",
+      "review_statuses": [
+        "compatible_candidate",
+        "partly_matched"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "glasgow-993",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Gray-27691",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": false,
+      "needs_update": false,
+      "catalogue_id": null,
+      "catalogue_profile_work_status": null,
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Gray-32439",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": false,
+      "needs_update": false,
+      "catalogue_id": null,
+      "catalogue_profile_work_status": null,
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Grey-2711",
+      "review_statuses": [
+        "matched"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "grey-2711",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Hay-867",
+      "review_statuses": [
+        "compatible_candidate",
+        "partly_matched"
+      ],
+      "main_catalogue_row": false,
+      "needs_update": false,
+      "catalogue_id": null,
+      "catalogue_profile_work_status": null,
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Herbison-475",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "herbison-475",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Hutcheson-361",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": false,
+      "needs_update": false,
+      "catalogue_id": null,
+      "catalogue_profile_work_status": null,
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Kilpatrick-3023",
+      "review_statuses": [
+        "compatible_candidate",
+        "partly_matched"
+      ],
+      "main_catalogue_row": false,
+      "needs_update": false,
+      "catalogue_id": null,
+      "catalogue_profile_work_status": null,
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "King-67628",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": false,
+      "catalogue_id": "king-67628",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Linton-898",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": false,
+      "needs_update": false,
+      "catalogue_id": null,
+      "catalogue_profile_work_status": null,
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Linton-931",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": false,
+      "needs_update": false,
+      "catalogue_id": null,
+      "catalogue_profile_work_status": null,
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Matthew-330",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": false,
+      "needs_update": false,
+      "catalogue_id": null,
+      "catalogue_profile_work_status": null,
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "McCarnagh-4",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": false,
+      "needs_update": false,
+      "catalogue_id": null,
+      "catalogue_profile_work_status": null,
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "McCaughan-13",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": false,
+      "needs_update": false,
+      "catalogue_id": null,
+      "catalogue_profile_work_status": null,
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "McCaughey-204",
+      "review_statuses": [
+        "compatible_candidate",
+        "partly_matched"
+      ],
+      "main_catalogue_row": false,
+      "needs_update": false,
+      "catalogue_id": null,
+      "catalogue_profile_work_status": null,
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "McCaw-216",
+      "review_statuses": [
+        "compatible_candidate",
+        "partly_matched"
+      ],
+      "main_catalogue_row": false,
+      "needs_update": false,
+      "catalogue_id": null,
+      "catalogue_profile_work_status": null,
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "McCaw-443",
+      "review_statuses": [
+        "compatible_candidate",
+        "partly_matched"
+      ],
+      "main_catalogue_row": false,
+      "needs_update": false,
+      "catalogue_id": null,
+      "catalogue_profile_work_status": null,
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "McClure-6341",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "mcclure-6341",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Mitchell-54981",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": false,
+      "needs_update": false,
+      "catalogue_id": null,
+      "catalogue_profile_work_status": null,
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Montgomery-17848",
+      "review_statuses": [
+        "compatible_candidate",
+        "partly_matched"
+      ],
+      "main_catalogue_row": false,
+      "needs_update": false,
+      "catalogue_id": null,
+      "catalogue_profile_work_status": null,
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Montgomery-2456",
+      "review_statuses": [
+        "compatible_candidate",
+        "partly_matched"
+      ],
+      "main_catalogue_row": false,
+      "needs_update": false,
+      "catalogue_id": null,
+      "catalogue_profile_work_status": null,
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Murray-20839",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": false,
+      "needs_update": false,
+      "catalogue_id": null,
+      "catalogue_profile_work_status": null,
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Murray-2283",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": false,
+      "needs_update": false,
+      "catalogue_id": null,
+      "catalogue_profile_work_status": null,
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Murray-34126",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": false,
+      "needs_update": false,
+      "catalogue_id": null,
+      "catalogue_profile_work_status": null,
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Murray-8292",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": false,
+      "needs_update": false,
+      "catalogue_id": null,
+      "catalogue_profile_work_status": null,
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Patterson-14390",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": false,
+      "needs_update": false,
+      "catalogue_id": null,
+      "catalogue_profile_work_status": null,
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Patterson-32389",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": false,
+      "needs_update": false,
+      "catalogue_id": null,
+      "catalogue_profile_work_status": null,
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Pike-9902",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": false,
+      "needs_update": false,
+      "catalogue_id": null,
+      "catalogue_profile_work_status": null,
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Pike-9903",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": false,
+      "needs_update": false,
+      "catalogue_id": null,
+      "catalogue_profile_work_status": null,
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Reid-24609",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": false,
+      "needs_update": false,
+      "catalogue_id": null,
+      "catalogue_profile_work_status": null,
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Robertson-30564",
+      "review_statuses": [
+        "partly_matched"
+      ],
+      "main_catalogue_row": true,
+      "needs_update": true,
+      "catalogue_id": "robertson-30564",
+      "catalogue_profile_work_status": "linked_existing",
+      "likely_draft_integration_gap": false
+    },
+    {
+      "profile_id": "Ross-13124",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": false,
+      "needs_update": false,
+      "catalogue_id": null,
+      "catalogue_profile_work_status": null,
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Ross-29596",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": false,
+      "needs_update": false,
+      "catalogue_id": null,
+      "catalogue_profile_work_status": null,
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Sneddon-710",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": false,
+      "needs_update": false,
+      "catalogue_id": null,
+      "catalogue_profile_work_status": null,
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Stuart-11578",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": false,
+      "needs_update": false,
+      "catalogue_id": null,
+      "catalogue_profile_work_status": null,
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Swan-736",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": false,
+      "needs_update": false,
+      "catalogue_id": null,
+      "catalogue_profile_work_status": null,
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Taylor-32027",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": false,
+      "needs_update": false,
+      "catalogue_id": null,
+      "catalogue_profile_work_status": null,
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Thomson-263",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": false,
+      "needs_update": false,
+      "catalogue_id": null,
+      "catalogue_profile_work_status": null,
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Thomson-3009",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": false,
+      "needs_update": false,
+      "catalogue_id": null,
+      "catalogue_profile_work_status": null,
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Todd-7464",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": false,
+      "needs_update": false,
+      "catalogue_id": null,
+      "catalogue_profile_work_status": null,
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Wallace-17947",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": false,
+      "needs_update": false,
+      "catalogue_id": null,
+      "catalogue_profile_work_status": null,
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Wallace-3457",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": false,
+      "needs_update": false,
+      "catalogue_id": null,
+      "catalogue_profile_work_status": null,
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Williamson-14321",
+      "review_statuses": [
+        "compatible_candidate",
+        "partly_matched"
+      ],
+      "main_catalogue_row": false,
+      "needs_update": false,
+      "catalogue_id": null,
+      "catalogue_profile_work_status": null,
+      "likely_draft_integration_gap": true
+    },
+    {
+      "profile_id": "Woodside-784",
+      "review_statuses": [
+        "compatible_candidate"
+      ],
+      "main_catalogue_row": false,
+      "needs_update": false,
+      "catalogue_id": null,
+      "catalogue_profile_work_status": null,
+      "likely_draft_integration_gap": true
+    }
+  ],
+  "pipeline_recommendations": [
+    "Integrate each suggested_people entry by subject_id into the maintained documentary-person source/catalogue input, preserving draft_path and public_url; allocate the proposed stable ID only at the main catalogue layer.",
+    "Deduplicate paired baseline rows through subject_id/canonical subject, while retaining record-specific mappings; do not create one main row per 511 queue rows.",
+    "Keep hold_source_verification subjects visible as holds until their source checks complete; do not count them as confirmed WikiTree profiles.",
+    "For 300 reviewed candidate profile IDs, reconcile the 59 absent main rows and the 145 present-but-not-needsUpdate rows before claiming update-draft coverage. The 96 already in needsUpdate are likely integrated."
+  ],
+  "issues": [
+    {
+      "kind": "main_catalogue_missing_suggested_subjects",
+      "count": 27,
+      "expected_missing_profile_delta_if_all_integrated": 27,
+      "expected_missing_profile_total_if_all_integrated": 90
+    },
+    {
+      "kind": "reviewed_candidates_not_fully_in_update_index",
+      "missing_main_rows": 59,
+      "present_without_needs_update": 145
+    }
+  ],
+  "hold_subjects": {
+    "subject-early-scotland-1650-issobella-miral": "Hold: verify the literal Findmypast/OPR surname reading “Miral” against the original OPR 709/1 p.208 before creation; the draft reports a transcript-based mother account only.",
+    "subject-early-scotland-1650-walter-buried-1647": "Hold: verify the original OPR 689/20 burial and year headings before creation; the indexed 4 June 1647 burial conflicts with proposed later baptism dates and does not establish an exact death date."
+  }
+}

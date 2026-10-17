@@ -270,6 +270,8 @@ def _profile_update_panel(update: dict | None) -> str:
         from build_research_catalog import _profile_update_html
     except ModuleNotFoundError:
         from tools.build_research_catalog import _profile_update_html
+    if update.get("new_profile"):
+        return _profile_update_html(update)
     normalised = {
         **update,
         "proposed_wikitext": update.get("proposed_wikitext") or update.get("draft_wikitext") or "",
