@@ -3660,8 +3660,8 @@
     },
     "Glasgow-664": {
       "draft_path": "research/Glasgow-664/queue-review-2026-10-17.wiki",
-      "summary": "Add the cited record account: Possible John Glasgow, Allegheny Township list in Huntingdon County context, 1799. Retain the stated identity and relationship limits.",
-      "work_queue_summary": "Add the cited record account: Possible John Glasgow, Allegheny Township list in Huntingdon County context, 1799. Retain the stated identity and relationship limits.",
+      "summary": "Add John Glasgow-1549 of Sinking Valley as possible father (57%) of John Glasgow-664; explain the contributed son report and identity limits.",
+      "work_queue_summary": "Add John Glasgow-1549 of Sinking Valley as possible father (57%) of John Glasgow-664; explain the contributed son report and identity limits.",
       "queued_at": "2026-10-17",
       "status": "OPEN",
       "pending": true,
@@ -3670,7 +3670,26 @@
         "subject-newspapers-early-glasgow-john-glasgow-allegheny-township-list-1799"
       ],
       "private_comparison": false,
-      "prior_work_summary": ""
+      "prior_work_summary": "",
+      "profile_id": "Glasgow-664",
+      "remote_captured_at": "2026-08-07T09:54:35+00:00",
+      "remote_revision": "20210313131836",
+      "remote_wikitext": "== Biography == \n\nJohn was born about 1790 ''(date of birth is a placeholder / guess)''.  John S. Glasgow married Elizabeth Jane Bell.<ref>See references for his children,</ref>\nJohn was born in 1777. He passed away in 1845. \n\n:Name:\tJohn Glasgow\n:Home in 1820 <ref>1820 U S Census; Census Place: Allegheny, Cambria, Pennsylvania; Page: 174; NARA Roll: M33_98; Image: 189</ref>:\tAllegheny, Cambria, Pennsylvania\n::Enumeration Date:\tAugust 7, 1820\n:: Males - Under 10:\t2\n:: Males - 26 thru 44:\t2\n:: Females - Under 10:\t3\n:: Females - 10 thru 15:\t1\n:: Foreigners not Naturalized:\t1\n:: All Other Persons Except Indians not Taxed:\t9\n\n== Sources ==\n<references />\n\n\n* Robert E. Black",
+      "manual_update": true,
+      "significance": 80,
+      "preservation_review_path": "research/ancestry-connections/huntingdon-cambria-working-family-preservation-2026-10-17.json",
+      "reviewed_narrative_reduction": true,
+      "preserve_captured_detail": false,
+      "relationship_changes": [
+        {
+          "action": "add",
+          "relationship": "father",
+          "relative_id": "Glasgow-1549",
+          "status": "possible",
+          "assertion_id": "C-working-20261017-huntingdon-john1549-john664",
+          "scope": "57% subjective belief in the reported missing son’s identification with the Cambria adult; no inspected parent clause in a primary record."
+        }
+      ]
     },
     "Glasgow-804": {
       "draft_path": "research/Glasgow-804/queue-review-2026-10-17.wiki",
@@ -4872,6 +4891,24 @@
       "manual_update": true,
       "findings_path": "research/Whitehead-9630/findings.md",
       "preservation_review_path": "research/ancestry-connections/leitholm-stichill-working-family-preservation-2026-10-17.json",
+      "reviewed_narrative_reduction": true,
+      "preserve_captured_detail": false
+    },
+    "Glasgow-1549": {
+      "profile_id": "Glasgow-1549",
+      "remote_captured_at": "2026-08-07T09:54:35+00:00",
+      "remote_revision": "20230608200141",
+      "remote_wikitext": "== Biography ==\nJohn Glasgow was the progenitor of the Glasgow family in Blair, Cambria, Clearfield and Huntingdon Counties of Central Pennsylvania. John Glasgow (who is being designated as John Glasgow the 1st) and his wife Margaret Hunter were prominent citizens of Glasgow, Scotland. They and their two young sons Richard and John(2) sailed for America in 1781.\n\nThe exact year when John Glasgow and his wife came to America was established when Margaret had a son, William, on the voyage over. In the Census records the place of birth for William Glasgow is shown as the Ocean, or the Atlantic Ocean and the year of birth as 1781. \n\nIt is not known what ship they sailed or specifically what the reason was for their leaving their homeland. One account has them sailing from Ireland and landing in Delaware. \n\nThis could be accurate as in the late 1600s, England had sent groups of Scotch to Ireland to defend the various interests of England. The Scotch established themselves in Ireland, then England deliberately crushed Irish commerce and industries by enacting laws prohibiting the export of cattle, milk, butter, cheese, and later woolens. \n\nThe English treatment of Ireland had tow results as far as immigration: (1) the economy of Ireland gradually declined which resulted in lower standard of living and (2) among the Scotch-Irish, dislike of the English grew. THe American Revolution received much sympathy in the Presbyterians who were prohibited from holding office. Most Scots were Presbyterians. \n\nConsider the economic climate in Ireland compared to what the Scotch in Ireland perceived the climate to be in America. In the New Country there was untold quantities of land available, just for moving onto it and improving it; wild game in large quantities, with no prohibition on shooting it; timber and firewood is unlimited amounts (lumber was scarce in Ireland).\n\nIt is not wonder that the people immigrated to America where life certainly was difficult and harsh but no more so than they had been used to in Ireland; and they had much more control of their destiny here. \n\nIt is hard for us to imagine what life was like for the early immigrants as they arrived and settled in this area. We have no detailed record of the Glasgows early experiences in this country. \n== Sources ==\n<references />\n* https://www.familysearch.org/tree/person/details/G7MK-866\n* Will of John Glasgow. \"Pennsylvania Probate Records, 1683-1994,\" images, <i>FamilySearch</i> (https://familysearch.org/ark:/61903/3:1:3QS7-L99B-T8NH?cc=1999196&wc=9PM6-7MN%3A268496101%2C268530601 : 3 July 2014), Huntingdon > Wills 1822-1847 vol 3-4 > image 103 of 607; county courthouses, Pennsylvania.",
+      "draft_path": "research/Glasgow-1549/queue-review-2026-10-17.wiki",
+      "summary": "Add the possible Cambria son John Glasgow-664 (57%); preserve the contributed family account and distinguish the uninspected will citation.",
+      "work_queue_summary": "Add the possible Cambria son John Glasgow-664 (57%); preserve the contributed family account and distinguish the uninspected will citation.",
+      "queued_at": "2026-10-17",
+      "status": "OPEN",
+      "pending": true,
+      "manual_update": true,
+      "significance": 60,
+      "findings_path": "research/Glasgow-1549/findings.md",
+      "preservation_review_path": "research/ancestry-connections/huntingdon-cambria-working-family-preservation-2026-10-17.json",
       "reviewed_narrative_reduction": true,
       "preserve_captured_detail": false
     }

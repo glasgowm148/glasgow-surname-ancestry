@@ -2320,3 +2320,9 @@ Burial-defined Walter remains on source-verification HOLD in the existing creati
 
 | [Robert Glasgow of Martinsburg](https://www.wikitree.com/wiki/Glasgow-1189) | OPEN | Add John Glasgow-2990 of Drumearn as possible father (31%) of the Martinsburg Robert; retain the contributed-parentage and identity limits. Preserve earlier newspaper comparisons as qualified, separate identities. |
 | [John Glasco of Drumearn](https://www.wikitree.com/wiki/Glasgow-2990) | OPEN | Add the possible Martinsburg son Robert Glasgow-1189 (31%); preserve the documented 1766 householder and uncertain older ancestry. Preserve earlier newspaper comparisons as qualified, separate identities. |
+
+
+## Huntingdon and Cambria — 17 October 2026
+
+| [John S. Glasgow Jr. of Cambria](https://www.wikitree.com/wiki/Glasgow-664) | OPEN | Add John Glasgow-1549 of Sinking Valley as possible father (57%) of John Glasgow-664; explain the contributed son report and identity limits. |
+| [John Glasgow of Sinking Valley](https://www.wikitree.com/wiki/Glasgow-1549) | OPEN | Add the possible Cambria son John Glasgow-664 (57%); preserve the contributed family account and distinguish the uninspected will citation. |

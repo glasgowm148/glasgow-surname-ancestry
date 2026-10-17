@@ -9833,6 +9833,179 @@
       "event_type": "working_connection",
       "genealogical_connections_added": 1,
       "note": "One new possible father: Robert Glasgow-1189 to John Glasgow-2990, subjective 31%. No confidence upgrades or new cohort members."
+    },
+    {
+      "date": "2026-10-17",
+      "method_version": 3,
+      "input_fingerprint": "0af46d0a9d376f87f5fb3cee8bd2a1f7df67206170fac46bcb26c1a870cafb11",
+      "metrics": {
+        "working": {
+          "population": 1786,
+          "edge_count": 1375,
+          "component_count": 413,
+          "largest_component_size": 1123,
+          "largest_component_percent": 62.87793952967525,
+          "connected_pairs_percent": 39.58475663501683,
+          "edge_status_counts": {
+            "confident": 309,
+            "dna_confirmed": 1,
+            "possible": 16,
+            "probable": 25,
+            "proved": 35,
+            "strongly_supported": 16,
+            "uncertain": 173,
+            "unmarked": 800
+          },
+          "quality": {
+            "cycles": [],
+            "cycle_edges_excluded": 0,
+            "later_born_ancestors_excluded": [],
+            "undated_ancestors": []
+          },
+          "connector_ids": [
+            "record-george-mureistoun-1586",
+            "record-john-glasgw-stirling-1475"
+          ],
+          "unattached_multi_child_roots": 40,
+          "family_root_count": 47
+        },
+        "supported": {
+          "population": 1786,
+          "edge_count": 386,
+          "component_count": 1401,
+          "largest_component_size": 46,
+          "largest_component_percent": 2.5755879059350506,
+          "connected_pairs_percent": 0.1999993726493957,
+          "edge_status_counts": {
+            "confident": 309,
+            "dna_confirmed": 1,
+            "probable": 25,
+            "proved": 35,
+            "strongly_supported": 16
+          },
+          "quality": {
+            "cycles": [],
+            "cycle_edges_excluded": 0,
+            "later_born_ancestors_excluded": [],
+            "undated_ancestors": []
+          },
+          "connector_ids": [
+            "record-george-mureistoun-1586"
+          ],
+          "unattached_multi_child_roots": 42,
+          "family_root_count": 54
+        },
+        "confident": {
+          "population": 1786,
+          "edge_count": 361,
+          "component_count": 1425,
+          "largest_component_size": 26,
+          "largest_component_percent": 1.4557670772676372,
+          "connected_pairs_percent": 0.13770345764285558,
+          "edge_status_counts": {
+            "confident": 309,
+            "dna_confirmed": 1,
+            "proved": 35,
+            "strongly_supported": 16
+          },
+          "quality": {
+            "cycles": [],
+            "cycle_edges_excluded": 0,
+            "later_born_ancestors_excluded": [],
+            "undated_ancestors": []
+          },
+          "unattached_multi_child_roots": 48,
+          "family_root_count": 56
+        }
+      },
+      "fixed_cohort": {
+        "working": {
+          "population": 1776,
+          "edge_count": 1373,
+          "component_count": 406,
+          "largest_component_size": 1120,
+          "largest_component_percent": 63.06306306306306,
+          "connected_pairs_percent": 39.81855094531151,
+          "edge_status_counts": {
+            "confident": 309,
+            "dna_confirmed": 1,
+            "possible": 16,
+            "probable": 24,
+            "proved": 34,
+            "strongly_supported": 16,
+            "uncertain": 173,
+            "unmarked": 800
+          },
+          "quality": {
+            "cycles": [],
+            "cycle_edges_excluded": 0,
+            "later_born_ancestors_excluded": [],
+            "undated_ancestors": []
+          },
+          "connector_ids": [
+            "Glasgow-4152",
+            "record-george-mureistoun-1586",
+            "record-john-glasgw-stirling-1475"
+          ],
+          "unattached_multi_child_roots": 40,
+          "family_root_count": 47
+        },
+        "supported": {
+          "population": 1776,
+          "edge_count": 384,
+          "component_count": 1394,
+          "largest_component_size": 46,
+          "largest_component_percent": 2.59009009009009,
+          "connected_pairs_percent": 0.20162415937063824,
+          "edge_status_counts": {
+            "confident": 309,
+            "dna_confirmed": 1,
+            "probable": 24,
+            "proved": 34,
+            "strongly_supported": 16
+          },
+          "quality": {
+            "cycles": [],
+            "cycle_edges_excluded": 0,
+            "later_born_ancestors_excluded": [],
+            "undated_ancestors": []
+          },
+          "connector_ids": [
+            "Glasgow-4152",
+            "record-george-mureistoun-1586"
+          ],
+          "unattached_multi_child_roots": 42,
+          "family_root_count": 54
+        },
+        "confident": {
+          "population": 1776,
+          "edge_count": 360,
+          "component_count": 1417,
+          "largest_component_size": 26,
+          "largest_component_percent": 1.4639639639639639,
+          "connected_pairs_percent": 0.13894175866006853,
+          "edge_status_counts": {
+            "confident": 309,
+            "dna_confirmed": 1,
+            "proved": 34,
+            "strongly_supported": 16
+          },
+          "quality": {
+            "cycles": [],
+            "cycle_edges_excluded": 0,
+            "later_born_ancestors_excluded": [],
+            "undated_ancestors": []
+          },
+          "connector_ids": [
+            "Glasgow-4152"
+          ],
+          "unattached_multi_child_roots": 48,
+          "family_root_count": 56
+        }
+      },
+      "event_type": "working_connection",
+      "genealogical_connections_added": 1,
+      "note": "One new possible father: John Glasgow-664 to John Glasgow-1549, subjective 57%. No confidence upgrades or new cohort members."
     }
   ]
 }

@@ -4899,5 +4899,45 @@
         "role": "Named householder"
       }
     }
+  },
+  {
+    "record_id": "huntingdon-john1549-reported-son-john",
+    "record_type": "contributed family account",
+    "date": "Reports 1781 journey; reviewed 17 October 2026",
+    "year": 1781,
+    "place": "Scotland to central Pennsylvania; exact ports unverified",
+    "source_title": "John Glasgow-1549, contributed family account in the saved public WikiTree biography: John and Margaret Hunter travelled in 1781 with young sons Richard and John (2); reviewed 17 October 2026; underlying family source unidentified",
+    "source_url": "https://www.wikitree.com/wiki/Glasgow-1549",
+    "source_quality": "tree_only",
+    "status": "Contributed report, not independently documented",
+    "note": "The saved biography of John Glasgow-1549 explicitly reports that he and Margaret Hunter sailed for America in 1781 with two young sons, Richard and John (2), and that William was born during the voyage. Its attached children include Richard, William, Matthew and Taylor Wilson, but no John. This is an overlooked, specific family attribution in a contributed account, not a newly discovered passenger list or inspected birth record. The underlying source of the travel and son statements is not identified. The separate will citation must not be presented as having proved those statements: its image could not be inspected in this review.",
+    "profiles": {
+      "Glasgow-1549": {
+        "role": "Reported father"
+      },
+      "Glasgow-664": {
+        "role": "Possible identity of the reported young son John (2)"
+      }
+    }
+  },
+  {
+    "record_id": "huntingdon-john-glasgo-census-1790",
+    "record_type": "census householder return, online transcription",
+    "date": "1790",
+    "year": 1790,
+    "place": "Huntingdon County, Pennsylvania, United States",
+    "source_title": "Pamela Myers-Grewell, transcriber, and April Phillips, proofreader, USGenWeb Census Project, 1790 Huntingdon County return, page 116 line 7, John Glasgo; online transcription inspected 17 October 2026, original census image uninspected",
+    "source_url": "https://www.us-census.org/pub/usgenweb/census/pa/huntingdon/1790/pgs-110-to-133.txt",
+    "source_quality": "derivative",
+    "status": "Named published transcription inspected; original image uninspected",
+    "note": "Page116 line7: John Glasgo; one male16+, five males under16, one female. No township or unnamed person’s relationship established. No identity selection of the head.",
+    "profiles": {
+      "Glasgow-1549": {
+        "role": "Possible household-head identity"
+      },
+      "Glasgow-664": {
+        "role": "Possible unnamed boy, not named by census"
+      }
+    }
   }
 ]
