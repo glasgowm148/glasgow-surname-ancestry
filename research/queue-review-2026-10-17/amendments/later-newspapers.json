@@ -1,0 +1,3687 @@
+{
+  "reviewed_on": "2026-10-17",
+  "lane": "later-newspapers",
+  "scope": "Actual captured/full proposed biography comparison and sourced native additions; no shared files or live profiles edited. All additions remain candidate-scoped where identity is unresolved.",
+  "entries": [
+    {
+      "profile_id": "Glasgow-3501",
+      "status": "needs_amendment",
+      "review_ids": [
+        "draft-1825-united-kingdom-84th-regiment-edward-george-glasgow",
+        "draft-1826-ireland-place-not-stated-edward-george-glasgow",
+        "subject-newspapers-irish-1800-1850-edward-george-army"
+      ],
+      "capture": {
+        "path": "tmp/queue-review-2026-10-17/later-newspapers/profile-Glasgow-3501.json",
+        "json_pointer": "/profile/bio",
+        "captured_at": "2026-10-17",
+        "sha256": "c2d5b810a2725f93a53c61ecadbb56d53e6efd1df7689b8af092d8c09b54bc28",
+        "characters": 604,
+        "approved_open_nonliving": true
+      },
+      "current_proposed": null,
+      "insertions": [
+        {
+          "placement": "research_notes",
+          "wikitext": "=== Edward George Glasgow, army officer, 1825–1826 ===\n\nAn April 1825 notice names Lieutenant Edward George Glasgow, formerly on half-pay of the 49th Regiment, among appointments to lieutenants in the 84th Regiment. In June 1826 John James Peck was appointed from the 89th Foot in his place; Edward George retired upon half-pay of the 18th Light Dragoons.<ref>[https://www.newspapers.com/image/1050085864/ Freeman’s Journal, 1825-04-20, p.3].</ref><ref>[https://www.newspapers.com/image/1050134797/ Freeman’s Journal and Daily Commercial Advertiser, 20 June 1826, p. 1, 84th Regiment retirement notice].</ref>\n\nThe rare full name distinguishes the officer from George Mark Glasgow, but the officer is not yet joined to the passenger arriving in New York in 1850. A reported Emily Caroline widow notice of December 1849 would be a material conflict if its identity is verified; that notice remains a lead rather than a newly inspected source.",
+          "review_ids": [
+            "draft-1826-ireland-place-not-stated-edward-george-glasgow",
+            "subject-newspapers-irish-1800-1850-edward-george-army",
+            "draft-1825-united-kingdom-84th-regiment-edward-george-glasgow"
+          ],
+          "canonical_person": "edward-george-army",
+          "status": "needs_amendment",
+          "coverage_reason": "The actual captured/proposed texts do not contain the complete cited record account and its identity limits. Existing citation overlap is itemized below; no generic name-only update is requested.",
+          "source_comparison": [
+            {
+              "source": {
+                "title": "Freeman’s Journal, 1825-04-20, p.3",
+                "url": "https://www.newspapers.com/image/1050085864/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Freeman’s Journal and Daily Commercial Advertiser, 20 June 1826, p. 1, 84th Regiment retirement notice",
+                "url": "https://www.newspapers.com/image/1050134797/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            }
+          ],
+          "missing_citation_urls": [
+            "https://www.newspapers.com/image/1050085864/",
+            "https://www.newspapers.com/image/1050134797/"
+          ],
+          "structured_changes": []
+        }
+      ],
+      "already_covered": [],
+      "source_paths": [
+        {
+          "path": "research/latest-findings-subjects/subjects.json",
+          "json_pointer": "/groups/33/people/22"
+        },
+        {
+          "path": "research/newspapers-degree-military-agents-2026-10-04.md"
+        },
+        {
+          "path": "surname-research/new-people/1825_United_Kingdom_84th_Regiment_Edward_George_Glasgow.md"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "Freeman’s Journal, 1825-04-20, p.3",
+          "url": "https://www.newspapers.com/image/1050085864/"
+        },
+        {
+          "title": "Freeman’s Journal and Daily Commercial Advertiser, 20 June 1826, p. 1, 84th Regiment retirement notice",
+          "url": "https://www.newspapers.com/image/1050134797/"
+        }
+      ],
+      "assembly_requirements": [
+        "Preserve every distinct existing source and all substantive captured/proposed detail.",
+        "Integrate this record account under Research Notes; candidate identity does not authorize structured family, date or place replacement."
+      ],
+      "candidate_record_scopes": [
+        {
+          "canonical_person": "edward-george-army",
+          "selected_target": "Glasgow-3501",
+          "rival_profile_ids": [],
+          "identity_status": "compatible_candidate",
+          "instruction": "This is a source-defined record account with an explicit identity hypothesis. Do not copy its people or relationships into rivals as established facts."
+        }
+      ],
+      "insertion_draft_path": "research/queue-review-2026-10-17/amendments/later-newspapers/Glasgow-3501.wiki"
+    },
+    {
+      "profile_id": "Glasgow-3986",
+      "status": "needs_amendment",
+      "review_ids": [
+        "draft-1820-ireland-dublin-report-heading-james-glasgow",
+        "draft-1822-ireland-at-mr-james-m-master-s-busines-james-glasgow",
+        "draft-1822-ireland-belfast-advertisement-location-james-glasgow",
+        "draft-1823-ireland-north-street-sample-location-c-james-glasgow",
+        "draft-1828-ireland-no-rosemary-street-belfast-for-mr-james-glasgow"
+      ],
+      "capture": {
+        "path": "tmp/queue-review-2026-10-17/later-newspapers/profile-Glasgow-3986.json",
+        "json_pointer": "/profile/bio",
+        "captured_at": "2026-10-17",
+        "sha256": "ec3b3abfe7c776ef9a27f73bab0a625299f59183fa51d0f5da418e99e2e4a5d3",
+        "characters": 3108,
+        "approved_open_nonliving": true
+      },
+      "current_proposed": {
+        "path": "research/Glasgow-3986/Glasgow-3986.md",
+        "sha256": "4b1ec59b3b767efd460d671b5d7251ea4b5fe9d6137698c9503947c729006309",
+        "characters": 3111
+      },
+      "insertions": [
+        {
+          "placement": "research_notes",
+          "wikitext": "=== Belfast grocer and tobacco seller, 1820–1828 ===\n\nJames Glasgow was plaintiff against Maxwell Lepper and Clotworthy Dobbin in a Court of Exchequer report headed Dublin, 22 June 1820. Belfast tobacco advertisements of March and August 1822 and May 1823 name James Glasgow; the latter two direct buyers to James M’Master’s, North Street. A March 1828 notice offers the shop and stores at 32 Rosemary Street, formerly occupied by James Glasgow. The shared trade and contacts support one Belfast trading cluster, with the plaintiff’s identity less certain.<ref>[https://www.newspapers.com/image/61258711/ The Irishman, 30 June 1820, p. 2, Exchequer report headed Dublin, 22 June].</ref><ref>[https://www.newspapers.com/image/61259036/ The Irishman, 15 March 1822, p. 2, tobacco advertisement dated Belfast, 9 March].</ref><ref>[https://www.newspapers.com/image/61260054/ The Irishman, 23 August 1822, p. 3, tobacco advertisement dated 20 August].</ref><ref>[https://www.newspapers.com/image/61261904/ The Irishman, 30 May 1823, p. 3, tobacco advertisement dated 27 May].</ref><ref>[https://www.newspapers.com/image/390544933/ Belfast News-Letter, 1 April 1828, p. 3, Rosemary Street premises].</ref>\n\nThe Larne merchant is a compatible candidate for the Belfast grocer. The two towns’ business associations are not mutually exclusive, but no family or deed yet proves the identification. Rosemary Street numbers 20, 2 and 32 in the directory/advertisement transcriptions remain unreconciled. The plaintiff is the least securely joined part of the cluster.",
+          "review_ids": [
+            "draft-1823-ireland-north-street-sample-location-c-james-glasgow",
+            "draft-1820-ireland-dublin-report-heading-james-glasgow",
+            "draft-1822-ireland-at-mr-james-m-master-s-busines-james-glasgow",
+            "draft-1822-ireland-belfast-advertisement-location-james-glasgow",
+            "draft-1828-ireland-no-rosemary-street-belfast-for-mr-james-glasgow"
+          ],
+          "canonical_person": "james-belfast-grocer-cluster",
+          "status": "needs_amendment",
+          "coverage_reason": "The actual captured/proposed texts do not contain the complete cited record account and its identity limits. Existing citation overlap is itemized below; no generic name-only update is requested.",
+          "source_comparison": [
+            {
+              "source": {
+                "title": "The Irishman, 30 June 1820, p. 2, Exchequer report headed Dublin, 22 June",
+                "url": "https://www.newspapers.com/image/61258711/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "The Irishman, 15 March 1822, p. 2, tobacco advertisement dated Belfast, 9 March",
+                "url": "https://www.newspapers.com/image/61259036/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "The Irishman, 23 August 1822, p. 3, tobacco advertisement dated 20 August",
+                "url": "https://www.newspapers.com/image/61260054/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "The Irishman, 30 May 1823, p. 3, tobacco advertisement dated 27 May",
+                "url": "https://www.newspapers.com/image/61261904/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Belfast News-Letter, 1 April 1828, p. 3, Rosemary Street premises",
+                "url": "https://www.newspapers.com/image/390544933/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            }
+          ],
+          "missing_citation_urls": [
+            "https://www.newspapers.com/image/61258711/",
+            "https://www.newspapers.com/image/61259036/",
+            "https://www.newspapers.com/image/61260054/",
+            "https://www.newspapers.com/image/61261904/",
+            "https://www.newspapers.com/image/390544933/"
+          ],
+          "structured_changes": []
+        }
+      ],
+      "already_covered": [],
+      "source_paths": [
+        {
+          "path": "surname-research/new-people/1822_Ireland_Belfast_advertisement_location_James_Glasgow.md"
+        },
+        {
+          "path": "surname-research/new-people/1820_Ireland_Dublin_report_heading_James_Glasgow.md"
+        },
+        {
+          "path": "surname-research/new-people/1828_Ireland_No_Rosemary_Street_Belfast_for_Mr_James_Glasgow.md"
+        },
+        {
+          "path": "surname-research/new-people/1822_Ireland_at_Mr_James_M_Master_s_busines_James_Glasgow.md"
+        },
+        {
+          "path": "surname-research/new-people/1823_Ireland_North_Street_sample_location_c_James_Glasgow.md"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "The Irishman, 30 June 1820, p. 2, Exchequer report headed Dublin, 22 June",
+          "url": "https://www.newspapers.com/image/61258711/"
+        },
+        {
+          "title": "The Irishman, 15 March 1822, p. 2, tobacco advertisement dated Belfast, 9 March",
+          "url": "https://www.newspapers.com/image/61259036/"
+        },
+        {
+          "title": "The Irishman, 23 August 1822, p. 3, tobacco advertisement dated 20 August",
+          "url": "https://www.newspapers.com/image/61260054/"
+        },
+        {
+          "title": "The Irishman, 30 May 1823, p. 3, tobacco advertisement dated 27 May",
+          "url": "https://www.newspapers.com/image/61261904/"
+        },
+        {
+          "title": "Belfast News-Letter, 1 April 1828, p. 3, Rosemary Street premises",
+          "url": "https://www.newspapers.com/image/390544933/"
+        }
+      ],
+      "assembly_requirements": [
+        "Preserve every distinct existing source and all substantive captured/proposed detail.",
+        "Integrate this record account under Research Notes; candidate identity does not authorize structured family, date or place replacement."
+      ],
+      "candidate_record_scopes": [
+        {
+          "canonical_person": "james-belfast-grocer-cluster",
+          "selected_target": "Glasgow-3986",
+          "rival_profile_ids": [],
+          "identity_status": "compatible_candidate",
+          "instruction": "This is a source-defined record account with an explicit identity hypothesis. Do not copy its people or relationships into rivals as established facts."
+        }
+      ],
+      "insertion_draft_path": "research/queue-review-2026-10-17/amendments/later-newspapers/Glasgow-3986.wiki"
+    },
+    {
+      "profile_id": "Robertson-30564",
+      "status": "needs_amendment",
+      "review_ids": [
+        "subject-newspapers-irish-1800-1850-montgreenan-double-marriage-1847"
+      ],
+      "capture": {
+        "path": "data/wikitree/profile-evidence.json",
+        "json_pointer": "/profiles/Robertson-30564/biography_wikitext",
+        "captured_at": "2026-08-30T11:49:55+00:00",
+        "sha256": "07c9a6a46c5d3242b17238c0206c25717ec484141e8a16f206ae8920c8f8c0e7",
+        "characters": 4861,
+        "approved_open_nonliving": true
+      },
+      "current_proposed": null,
+      "insertions": [
+        {
+          "placement": "research_notes",
+          "wikitext": "=== Paisley double marriage, 1847 ===\n\nA notice published on 2 September 1847 reports two marriages at Paisley on the 25th ultimo, interpreted as 25 August. George Sherbrooke Airey, Royal Navy lieutenant and son of the late Lieutenant-General Sir George Airey, married Anne, second daughter of the late Robert Glasgow. At the same time Rev George Drake, son of Rev John Drake, rector of Stourton, married Charlotte Maria Cecilia, youngest daughter of the late Robert Glasgow of Montgreenan, Ayr. No mother is named.<ref>[https://www.newspapers.com/image/401331272/ Freeman’s Journal and Daily Commercial Advertiser, 2 September 1847, p. 4, marriages].</ref>\n\nThe combination of the Montgreenan designation, Robert Robertson’s later Glasgow surname, death in 1845, and daughters Anne and Charlotte Marie Cecilia supports identification with this family. Charlotte’s distinctive full name and Drake married surname are especially strong. The newspaper directly states its father and spouse relationships; the profile assignments remain qualified and no mother is inferred.\n\nCompatible family profiles are [[Robertson-30564|Robert Robertson, later Glasgow]], [[Glasgow-3000|Anne Glasgow]], [[Glasgow-3003|Charlotte Marie Cecilia Glasgow]] and [[Drake-13873|Rev George Drake]].",
+          "review_ids": [
+            "subject-newspapers-irish-1800-1850-montgreenan-double-marriage-1847"
+          ],
+          "canonical_person": "montgreenan-double-marriage-1847",
+          "status": "needs_amendment",
+          "coverage_reason": "The actual captured/proposed texts do not contain the complete cited record account and its identity limits. Existing citation overlap is itemized below; no generic name-only update is requested.",
+          "source_comparison": [
+            {
+              "source": {
+                "title": "Freeman’s Journal and Daily Commercial Advertiser, 2 September 1847, p. 4, marriages",
+                "url": "https://www.newspapers.com/image/401331272/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            }
+          ],
+          "missing_citation_urls": [
+            "https://www.newspapers.com/image/401331272/"
+          ],
+          "structured_changes": []
+        }
+      ],
+      "already_covered": [],
+      "source_paths": [
+        {
+          "path": "research/latest-findings-subjects/subjects.json",
+          "json_pointer": "/groups/33/people/28"
+        },
+        {
+          "path": "research/newspapers-irish-1847-montgreenan-marriages.md"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "Freeman’s Journal and Daily Commercial Advertiser, 2 September 1847, p. 4, marriages",
+          "url": "https://www.newspapers.com/image/401331272/"
+        }
+      ],
+      "assembly_requirements": [
+        "Preserve every distinct existing source and all substantive captured/proposed detail.",
+        "Integrate this record account under Research Notes; candidate identity does not authorize structured family, date or place replacement."
+      ],
+      "candidate_record_scopes": [
+        {
+          "canonical_person": "montgreenan-double-marriage-1847",
+          "selected_target": "Robertson-30564",
+          "rival_profile_ids": [
+            "Glasgow-3000",
+            "Glasgow-3003",
+            "Drake-13873"
+          ],
+          "identity_status": "compatible_candidate",
+          "instruction": "This is a source-defined record account with an explicit identity hypothesis. Do not copy its people or relationships into rivals as established facts."
+        }
+      ],
+      "insertion_draft_path": "research/queue-review-2026-10-17/amendments/later-newspapers/Robertson-30564.wiki"
+    },
+    {
+      "profile_id": "Glasgow-3000",
+      "status": "needs_amendment",
+      "review_ids": [
+        "subject-newspapers-irish-1800-1850-montgreenan-double-marriage-1847"
+      ],
+      "capture": {
+        "path": "data/wikitree/profile-evidence.json",
+        "json_pointer": "/profiles/Glasgow-3000/biography_wikitext",
+        "captured_at": "2026-09-07T21:05:55+00:00",
+        "sha256": "50b8cfc89a1650aaec107db19ca439b179d78e64fcee8be77e71b06bcfb69610",
+        "characters": 179,
+        "approved_open_nonliving": true
+      },
+      "current_proposed": null,
+      "insertions": [
+        {
+          "placement": "research_notes",
+          "wikitext": "=== Paisley double marriage, 1847 ===\n\nA notice published on 2 September 1847 reports two marriages at Paisley on the 25th ultimo, interpreted as 25 August. George Sherbrooke Airey, Royal Navy lieutenant and son of the late Lieutenant-General Sir George Airey, married Anne, second daughter of the late Robert Glasgow. At the same time Rev George Drake, son of Rev John Drake, rector of Stourton, married Charlotte Maria Cecilia, youngest daughter of the late Robert Glasgow of Montgreenan, Ayr. No mother is named.<ref>[https://www.newspapers.com/image/401331272/ Freeman’s Journal and Daily Commercial Advertiser, 2 September 1847, p. 4, marriages].</ref>\n\nThe combination of the Montgreenan designation, Robert Robertson’s later Glasgow surname, death in 1845, and daughters Anne and Charlotte Marie Cecilia supports identification with this family. Charlotte’s distinctive full name and Drake married surname are especially strong. The newspaper directly states its father and spouse relationships; the profile assignments remain qualified and no mother is inferred.\n\nCompatible family profiles are [[Robertson-30564|Robert Robertson, later Glasgow]], [[Glasgow-3000|Anne Glasgow]], [[Glasgow-3003|Charlotte Marie Cecilia Glasgow]] and [[Drake-13873|Rev George Drake]].",
+          "review_ids": [
+            "subject-newspapers-irish-1800-1850-montgreenan-double-marriage-1847"
+          ],
+          "canonical_person": "montgreenan-double-marriage-1847",
+          "status": "needs_amendment",
+          "coverage_reason": "The actual captured/proposed texts do not contain the complete cited record account and its identity limits. Existing citation overlap is itemized below; no generic name-only update is requested.",
+          "source_comparison": [
+            {
+              "source": {
+                "title": "Freeman’s Journal and Daily Commercial Advertiser, 2 September 1847, p. 4, marriages",
+                "url": "https://www.newspapers.com/image/401331272/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            }
+          ],
+          "missing_citation_urls": [
+            "https://www.newspapers.com/image/401331272/"
+          ],
+          "structured_changes": []
+        }
+      ],
+      "already_covered": [],
+      "source_paths": [
+        {
+          "path": "research/latest-findings-subjects/subjects.json",
+          "json_pointer": "/groups/33/people/28"
+        },
+        {
+          "path": "research/newspapers-irish-1847-montgreenan-marriages.md"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "Freeman’s Journal and Daily Commercial Advertiser, 2 September 1847, p. 4, marriages",
+          "url": "https://www.newspapers.com/image/401331272/"
+        }
+      ],
+      "assembly_requirements": [
+        "Preserve every distinct existing source and all substantive captured/proposed detail.",
+        "Integrate this record account under Research Notes; candidate identity does not authorize structured family, date or place replacement."
+      ],
+      "candidate_record_scopes": [
+        {
+          "canonical_person": "montgreenan-double-marriage-1847",
+          "selected_target": "Glasgow-3000",
+          "rival_profile_ids": [
+            "Robertson-30564",
+            "Glasgow-3003",
+            "Drake-13873"
+          ],
+          "identity_status": "compatible_candidate",
+          "instruction": "This is a source-defined record account with an explicit identity hypothesis. Do not copy its people or relationships into rivals as established facts."
+        }
+      ],
+      "insertion_draft_path": "research/queue-review-2026-10-17/amendments/later-newspapers/Glasgow-3000.wiki"
+    },
+    {
+      "profile_id": "Glasgow-3003",
+      "status": "needs_amendment",
+      "review_ids": [
+        "subject-newspapers-irish-1800-1850-montgreenan-double-marriage-1847"
+      ],
+      "capture": {
+        "path": "data/wikitree/profile-evidence.json",
+        "json_pointer": "/profiles/Glasgow-3003/biography_wikitext",
+        "captured_at": "2026-09-07T21:05:55+00:00",
+        "sha256": "3cba7a4eded6653fb6ac4881f3d6157668d808e3623747c5a170e2a238754013",
+        "characters": 238,
+        "approved_open_nonliving": true
+      },
+      "current_proposed": null,
+      "insertions": [
+        {
+          "placement": "research_notes",
+          "wikitext": "=== Paisley double marriage, 1847 ===\n\nA notice published on 2 September 1847 reports two marriages at Paisley on the 25th ultimo, interpreted as 25 August. George Sherbrooke Airey, Royal Navy lieutenant and son of the late Lieutenant-General Sir George Airey, married Anne, second daughter of the late Robert Glasgow. At the same time Rev George Drake, son of Rev John Drake, rector of Stourton, married Charlotte Maria Cecilia, youngest daughter of the late Robert Glasgow of Montgreenan, Ayr. No mother is named.<ref>[https://www.newspapers.com/image/401331272/ Freeman’s Journal and Daily Commercial Advertiser, 2 September 1847, p. 4, marriages].</ref>\n\nThe combination of the Montgreenan designation, Robert Robertson’s later Glasgow surname, death in 1845, and daughters Anne and Charlotte Marie Cecilia supports identification with this family. Charlotte’s distinctive full name and Drake married surname are especially strong. The newspaper directly states its father and spouse relationships; the profile assignments remain qualified and no mother is inferred.\n\nCompatible family profiles are [[Robertson-30564|Robert Robertson, later Glasgow]], [[Glasgow-3000|Anne Glasgow]], [[Glasgow-3003|Charlotte Marie Cecilia Glasgow]] and [[Drake-13873|Rev George Drake]].",
+          "review_ids": [
+            "subject-newspapers-irish-1800-1850-montgreenan-double-marriage-1847"
+          ],
+          "canonical_person": "montgreenan-double-marriage-1847",
+          "status": "needs_amendment",
+          "coverage_reason": "The actual captured/proposed texts do not contain the complete cited record account and its identity limits. Existing citation overlap is itemized below; no generic name-only update is requested.",
+          "source_comparison": [
+            {
+              "source": {
+                "title": "Freeman’s Journal and Daily Commercial Advertiser, 2 September 1847, p. 4, marriages",
+                "url": "https://www.newspapers.com/image/401331272/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            }
+          ],
+          "missing_citation_urls": [
+            "https://www.newspapers.com/image/401331272/"
+          ],
+          "structured_changes": []
+        }
+      ],
+      "already_covered": [],
+      "source_paths": [
+        {
+          "path": "research/latest-findings-subjects/subjects.json",
+          "json_pointer": "/groups/33/people/28"
+        },
+        {
+          "path": "research/newspapers-irish-1847-montgreenan-marriages.md"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "Freeman’s Journal and Daily Commercial Advertiser, 2 September 1847, p. 4, marriages",
+          "url": "https://www.newspapers.com/image/401331272/"
+        }
+      ],
+      "assembly_requirements": [
+        "Preserve every distinct existing source and all substantive captured/proposed detail.",
+        "Integrate this record account under Research Notes; candidate identity does not authorize structured family, date or place replacement."
+      ],
+      "candidate_record_scopes": [
+        {
+          "canonical_person": "montgreenan-double-marriage-1847",
+          "selected_target": "Glasgow-3003",
+          "rival_profile_ids": [
+            "Robertson-30564",
+            "Glasgow-3000",
+            "Drake-13873"
+          ],
+          "identity_status": "compatible_candidate",
+          "instruction": "This is a source-defined record account with an explicit identity hypothesis. Do not copy its people or relationships into rivals as established facts."
+        }
+      ],
+      "insertion_draft_path": "research/queue-review-2026-10-17/amendments/later-newspapers/Glasgow-3003.wiki"
+    },
+    {
+      "profile_id": "Drake-13873",
+      "status": "needs_amendment",
+      "review_ids": [
+        "subject-newspapers-irish-1800-1850-montgreenan-double-marriage-1847"
+      ],
+      "capture": {
+        "path": "data/wikitree/profile-evidence.json",
+        "json_pointer": "/profiles/Drake-13873/biography_wikitext",
+        "captured_at": "2026-09-07T21:05:55+00:00",
+        "sha256": "559490e6a9020422903162e6a9b4b3fb8602c5824acd74bf0a6a978807408e74",
+        "characters": 99,
+        "approved_open_nonliving": true
+      },
+      "current_proposed": null,
+      "insertions": [
+        {
+          "placement": "research_notes",
+          "wikitext": "=== Paisley double marriage, 1847 ===\n\nA notice published on 2 September 1847 reports two marriages at Paisley on the 25th ultimo, interpreted as 25 August. George Sherbrooke Airey, Royal Navy lieutenant and son of the late Lieutenant-General Sir George Airey, married Anne, second daughter of the late Robert Glasgow. At the same time Rev George Drake, son of Rev John Drake, rector of Stourton, married Charlotte Maria Cecilia, youngest daughter of the late Robert Glasgow of Montgreenan, Ayr. No mother is named.<ref>[https://www.newspapers.com/image/401331272/ Freeman’s Journal and Daily Commercial Advertiser, 2 September 1847, p. 4, marriages].</ref>\n\nThe combination of the Montgreenan designation, Robert Robertson’s later Glasgow surname, death in 1845, and daughters Anne and Charlotte Marie Cecilia supports identification with this family. Charlotte’s distinctive full name and Drake married surname are especially strong. The newspaper directly states its father and spouse relationships; the profile assignments remain qualified and no mother is inferred.\n\nCompatible family profiles are [[Robertson-30564|Robert Robertson, later Glasgow]], [[Glasgow-3000|Anne Glasgow]], [[Glasgow-3003|Charlotte Marie Cecilia Glasgow]] and [[Drake-13873|Rev George Drake]].",
+          "review_ids": [
+            "subject-newspapers-irish-1800-1850-montgreenan-double-marriage-1847"
+          ],
+          "canonical_person": "montgreenan-double-marriage-1847",
+          "status": "needs_amendment",
+          "coverage_reason": "The actual captured/proposed texts do not contain the complete cited record account and its identity limits. Existing citation overlap is itemized below; no generic name-only update is requested.",
+          "source_comparison": [
+            {
+              "source": {
+                "title": "Freeman’s Journal and Daily Commercial Advertiser, 2 September 1847, p. 4, marriages",
+                "url": "https://www.newspapers.com/image/401331272/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            }
+          ],
+          "missing_citation_urls": [
+            "https://www.newspapers.com/image/401331272/"
+          ],
+          "structured_changes": []
+        }
+      ],
+      "already_covered": [],
+      "source_paths": [
+        {
+          "path": "research/latest-findings-subjects/subjects.json",
+          "json_pointer": "/groups/33/people/28"
+        },
+        {
+          "path": "research/newspapers-irish-1847-montgreenan-marriages.md"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "Freeman’s Journal and Daily Commercial Advertiser, 2 September 1847, p. 4, marriages",
+          "url": "https://www.newspapers.com/image/401331272/"
+        }
+      ],
+      "assembly_requirements": [
+        "Preserve every distinct existing source and all substantive captured/proposed detail.",
+        "Integrate this record account under Research Notes; candidate identity does not authorize structured family, date or place replacement."
+      ],
+      "candidate_record_scopes": [
+        {
+          "canonical_person": "montgreenan-double-marriage-1847",
+          "selected_target": "Drake-13873",
+          "rival_profile_ids": [
+            "Robertson-30564",
+            "Glasgow-3000",
+            "Glasgow-3003"
+          ],
+          "identity_status": "compatible_candidate",
+          "instruction": "This is a source-defined record account with an explicit identity hypothesis. Do not copy its people or relationships into rivals as established facts."
+        }
+      ],
+      "insertion_draft_path": "research/queue-review-2026-10-17/amendments/later-newspapers/Drake-13873.wiki"
+    },
+    {
+      "profile_id": "Glasgow-3412",
+      "status": "needs_amendment",
+      "review_ids": [
+        "draft-1858-ireland-cookstown-benjamin-drapersfield"
+      ],
+      "capture": {
+        "path": "data/wikitree/profile-evidence.json",
+        "json_pointer": "/profiles/Glasgow-3412/biography_wikitext",
+        "captured_at": "2026-08-07T09:54:35+00:00",
+        "sha256": "431875a9d94b7bde9e21d9b35316034dad068a18a06652c95eb09c7474d4f331",
+        "characters": 238,
+        "approved_open_nonliving": true
+      },
+      "current_proposed": null,
+      "insertions": [
+        {
+          "placement": "research_notes",
+          "wikitext": "=== Drapersfield merchant and mill family, 1858–1891 ===\n\nIn the July 1858 mill-water action, witness Benjamin Glasgow named Robert as his father, said he had managed his father’s mill since 1850, and dated Robert’s death to 1856. Benjamin was a mill partner and co-plaintiff with William Glasgow. A December 1869 property advertisement names Benjamin of Drapersfield, and a contemporary July 1870 report credits him with granting the use of a field at Cookstown. Benjamin of Drapersfield married Wilhelmina, eldest daughter of Richard Pike of Beechgrove, Dungannon, at Dungannon on 16 February 1864. A notice of 1891 explicitly describes Benjamin of Hull as formerly of Drapersfield and names his eldest daughter Margaret George, who married W. Brooke Broadbent in New York on 5 October. Her mother is unstated.<ref>[https://www.newspapers.com/image/390574459/ Belfast News-Letter, 22 July 1858, p.3, Benjamin’s sworn testimony].</ref><ref>[https://www.newspapers.com/image/390575046/ Belfast News-Letter, 23 July 1858, p.4].</ref><ref>[https://www.newspapers.com/image/388287498/ Belfast News-Letter, 22 December 1869, p.2].</ref><ref>[https://www.newspapers.com/image/387881589/ Belfast News-Letter, 15 July 1870, p.4].</ref><ref>[https://www.newspapers.com/image/387828785/ Belfast News-Letter, 18 February 1864, p.2].</ref><ref>[https://www.newspapers.com/image/388748472/ Belfast News-Letter, 16 October 1891, p.1].</ref>\n\nThe documentary merchant’s identity remains unresolved. A Scottish surgery degree in 1826 does not itself exclude later mill management, but no record joins the graduate Benjamin to Drapersfield. The alternate [[Glasgow-2566|Benjamin Glasgow]] was described as a bachelor and son of George in his 1876 marriage; these are material conflicts with the Robert father and 1864 marriage. [[Glasgow-2059|Benjamin Glasgow]] died in February 1870, before the contemporary July action. The 1891 notice bridges Hull and Drapersfield, but does not identify Margaret George’s mother.",
+          "review_ids": [
+            "draft-1858-ireland-cookstown-benjamin-drapersfield"
+          ],
+          "canonical_person": "benjamin-drapersfield",
+          "status": "needs_amendment",
+          "coverage_reason": "The actual captured/proposed texts do not contain the complete cited record account and its identity limits. Existing citation overlap is itemized below; no generic name-only update is requested.",
+          "source_comparison": [
+            {
+              "source": {
+                "title": "Belfast News-Letter, 22 July 1858, p.3, Benjamin’s sworn testimony",
+                "url": "https://www.newspapers.com/image/390574459/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Belfast News-Letter, 23 July 1858, p.4",
+                "url": "https://www.newspapers.com/image/390575046/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Belfast News-Letter, 22 December 1869, p.2",
+                "url": "https://www.newspapers.com/image/388287498/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Belfast News-Letter, 15 July 1870, p.4",
+                "url": "https://www.newspapers.com/image/387881589/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Belfast News-Letter, 18 February 1864, p.2",
+                "url": "https://www.newspapers.com/image/387828785/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Belfast News-Letter, 16 October 1891, p.1",
+                "url": "https://www.newspapers.com/image/388748472/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            }
+          ],
+          "missing_citation_urls": [
+            "https://www.newspapers.com/image/390574459/",
+            "https://www.newspapers.com/image/390575046/",
+            "https://www.newspapers.com/image/388287498/",
+            "https://www.newspapers.com/image/387881589/",
+            "https://www.newspapers.com/image/387828785/",
+            "https://www.newspapers.com/image/388748472/"
+          ],
+          "structured_changes": []
+        }
+      ],
+      "already_covered": [],
+      "source_paths": [
+        {
+          "path": "research/latest-findings-subjects/subjects.json",
+          "json_pointer": "/groups/31/people/5"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "Belfast News-Letter, 22 July 1858, p.3, Benjamin’s sworn testimony",
+          "url": "https://www.newspapers.com/image/390574459/"
+        },
+        {
+          "title": "Belfast News-Letter, 23 July 1858, p.4",
+          "url": "https://www.newspapers.com/image/390575046/"
+        },
+        {
+          "title": "Belfast News-Letter, 22 December 1869, p.2",
+          "url": "https://www.newspapers.com/image/388287498/"
+        },
+        {
+          "title": "Belfast News-Letter, 15 July 1870, p.4",
+          "url": "https://www.newspapers.com/image/387881589/"
+        },
+        {
+          "title": "Belfast News-Letter, 18 February 1864, p.2",
+          "url": "https://www.newspapers.com/image/387828785/"
+        },
+        {
+          "title": "Belfast News-Letter, 16 October 1891, p.1",
+          "url": "https://www.newspapers.com/image/388748472/"
+        }
+      ],
+      "assembly_requirements": [
+        "Preserve every distinct existing source and all substantive captured/proposed detail.",
+        "Integrate this record account under Research Notes; candidate identity does not authorize structured family, date or place replacement."
+      ],
+      "candidate_record_scopes": [
+        {
+          "canonical_person": "benjamin-drapersfield",
+          "selected_target": "Glasgow-3412",
+          "rival_profile_ids": [
+            "Glasgow-2566"
+          ],
+          "identity_status": "compatible_candidate",
+          "instruction": "This is a source-defined record account with an explicit identity hypothesis. Do not copy its people or relationships into rivals as established facts."
+        }
+      ],
+      "insertion_draft_path": "research/queue-review-2026-10-17/amendments/later-newspapers/Glasgow-3412.wiki"
+    },
+    {
+      "profile_id": "Glasgow-2771",
+      "status": "needs_amendment",
+      "review_ids": [
+        "draft-1875-ireland-parsonstown-emma-parsonstown",
+        "subject-william-glasgow-irish-newspapers-emma-parsonstown"
+      ],
+      "capture": {
+        "path": "tmp/queue-review-2026-10-17/later-newspapers/profile-Glasgow-2771.json",
+        "json_pointer": "/profile/bio",
+        "captured_at": "2026-10-17",
+        "sha256": "9bd33c1b482388686d8568a4c0e787c04f6124ecb0af86be22e71a20a06611fd",
+        "characters": 1759,
+        "approved_open_nonliving": true
+      },
+      "current_proposed": null,
+      "insertions": [
+        {
+          "placement": "research_notes",
+          "wikitext": "=== Emma Glasgow’s marriage at Belfast, 1875 ===\n\nA notice reports that Emma, daughter of the late William Alexander Glasgow, married William, second son of Robert Treacy, on 4 September 1875 at St Thomas’s Church, Belfast, with Rev T. J. Welland officiating. Both spouses were of Parsonstown. The notice states neither Emma’s age nor her mother.<ref>[https://www.newspapers.com/image/1265675182/ Belfast Evening Telegraph, 4 September 1875, p.2].</ref>\n\nIdentification with the woman reportedly born about 1815 in South Carolina remains weak. The attached Robert and Nancy parentage is an unproved reconstruction from unnamed census women, so it is not a documentary exclusion; a marriage at about 60 is also not ruled out by an age-free notice. The alternative father candidate [[Glasgow-1387|William Glasgow]], born about 1810, could not father this Emma on those dates. He would require a different, later-born bride: these are competing family hypotheses, not an asserted parent–child pair.",
+          "review_ids": [
+            "subject-william-glasgow-irish-newspapers-emma-parsonstown",
+            "draft-1875-ireland-parsonstown-emma-parsonstown"
+          ],
+          "canonical_person": "emma-parsonstown",
+          "status": "needs_amendment",
+          "coverage_reason": "The actual captured/proposed texts do not contain the complete cited record account and its identity limits. Existing citation overlap is itemized below; no generic name-only update is requested.",
+          "source_comparison": [
+            {
+              "source": {
+                "title": "Belfast Evening Telegraph, 4 September 1875, p.2",
+                "url": "https://www.newspapers.com/image/1265675182/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            }
+          ],
+          "missing_citation_urls": [
+            "https://www.newspapers.com/image/1265675182/"
+          ],
+          "structured_changes": []
+        }
+      ],
+      "already_covered": [],
+      "source_paths": [
+        {
+          "path": "research/latest-findings-subjects/subjects.json",
+          "json_pointer": "/groups/31/people/8"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "Belfast Evening Telegraph, 4 September 1875, p.2",
+          "url": "https://www.newspapers.com/image/1265675182/"
+        }
+      ],
+      "assembly_requirements": [
+        "Preserve every distinct existing source and all substantive captured/proposed detail.",
+        "Integrate this record account under Research Notes; candidate identity does not authorize structured family, date or place replacement."
+      ],
+      "candidate_record_scopes": [
+        {
+          "canonical_person": "emma-parsonstown",
+          "selected_target": "Glasgow-2771",
+          "rival_profile_ids": [],
+          "identity_status": "compatible_candidate",
+          "instruction": "This is a source-defined record account with an explicit identity hypothesis. Do not copy its people or relationships into rivals as established facts."
+        }
+      ],
+      "insertion_draft_path": "research/queue-review-2026-10-17/amendments/later-newspapers/Glasgow-2771.wiki"
+    },
+    {
+      "profile_id": "Glasgow-3127",
+      "status": "needs_amendment",
+      "review_ids": [
+        "draft-1825-united-kingdom-royal-artillery-george-mark-glasgow",
+        "subject-newspapers-irish-1800-1850-george-mark-artillery"
+      ],
+      "capture": {
+        "path": "tmp/queue-review-2026-10-17/later-newspapers/profile-Glasgow-3127.json",
+        "json_pointer": "/profile/bio",
+        "captured_at": "2026-10-17",
+        "sha256": "b984ea49d1334f5c6e3f3cc6b80adda92c36677f15a0a180a9b4741b9d8aed2f",
+        "characters": 4091,
+        "approved_open_nonliving": true
+      },
+      "current_proposed": null,
+      "insertions": [
+        {
+          "placement": "research_notes",
+          "wikitext": "=== George Mark Glasgow, Royal Artillery appointments ===\n\nA February 1825 notice names George Mark Glasgow as a First Lieutenant of the Royal Regiment of Artillery returning from half-pay. An Office of Ordnance notice dated 16 January 1837, reported on 24 January, names First Lieutenant George Mark Glasgow appointed Second Captain. Full name, corps and rank progression support career continuity, although neither notice supplies parents or a household.<ref>[https://www.newspapers.com/image/1050087237/ Freeman’s Journal, 1825-02-16, p.3].</ref><ref>[https://www.newspapers.com/image/390543080/ Belfast News-Letter, 24 January 1837, p. 1 (Office of Ordnance list dated 16 January)].</ref>\n\nThe exact full name and Royal Artillery career make this a strong compatible officer identification. [[Glasgow-3785|George Mark Glasgow]], born in Quebec in 1795 and reported dead in Kingston in 1851, remains a true rival; his 1851 death conflicts with the account of Madeline’s father being late by her 1846 marriage. [[Glasgow-1536|George Glasgow of Barony]] is a weaker proposed identity. These may not all be joined to one career without original service and family evidence.",
+          "review_ids": [
+            "subject-newspapers-irish-1800-1850-george-mark-artillery",
+            "draft-1825-united-kingdom-royal-artillery-george-mark-glasgow"
+          ],
+          "canonical_person": "george-mark-artillery",
+          "status": "needs_amendment",
+          "coverage_reason": "The actual captured/proposed texts do not contain the complete cited record account and its identity limits. Existing citation overlap is itemized below; no generic name-only update is requested.",
+          "source_comparison": [
+            {
+              "source": {
+                "title": "Freeman’s Journal, 1825-02-16, p.3",
+                "url": "https://www.newspapers.com/image/1050087237/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Belfast News-Letter, 24 January 1837, p. 1 (Office of Ordnance list dated 16 January)",
+                "url": "https://www.newspapers.com/image/390543080/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            }
+          ],
+          "missing_citation_urls": [
+            "https://www.newspapers.com/image/1050087237/",
+            "https://www.newspapers.com/image/390543080/"
+          ],
+          "structured_changes": []
+        }
+      ],
+      "already_covered": [],
+      "source_paths": [
+        {
+          "path": "research/latest-findings-subjects/subjects.json",
+          "json_pointer": "/groups/33/people/21"
+        },
+        {
+          "path": "research/newspapers-degree-military-agents-2026-10-04.md"
+        },
+        {
+          "path": "surname-research/new-people/1825_United_Kingdom_Royal_Artillery_George_Mark_Glasgow.md"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "Freeman’s Journal, 1825-02-16, p.3",
+          "url": "https://www.newspapers.com/image/1050087237/"
+        },
+        {
+          "title": "Belfast News-Letter, 24 January 1837, p. 1 (Office of Ordnance list dated 16 January)",
+          "url": "https://www.newspapers.com/image/390543080/"
+        }
+      ],
+      "assembly_requirements": [
+        "Preserve every distinct existing source and all substantive captured/proposed detail.",
+        "Integrate this record account under Research Notes; candidate identity does not authorize structured family, date or place replacement."
+      ],
+      "candidate_record_scopes": [
+        {
+          "canonical_person": "george-mark-artillery",
+          "selected_target": "Glasgow-3127",
+          "rival_profile_ids": [
+            "Glasgow-3785",
+            "Glasgow-1536"
+          ],
+          "identity_status": "compatible_candidate",
+          "instruction": "This is a source-defined record account with an explicit identity hypothesis. Do not copy its people or relationships into rivals as established facts."
+        }
+      ],
+      "insertion_draft_path": "research/queue-review-2026-10-17/amendments/later-newspapers/Glasgow-3127.wiki"
+    },
+    {
+      "profile_id": "Glasgow-3927",
+      "status": "needs_amendment",
+      "review_ids": [
+        "draft-1838-ireland-dublin-j-glasco-st-andrews-appeal",
+        "subject-newspapers-irish-1800-1850-j-glasco-st-andrews-annuity-appeal-1838"
+      ],
+      "capture": {
+        "path": "data/wikitree/profile-evidence.json",
+        "json_pointer": "/profiles/Glasgow-3927/biography_wikitext",
+        "captured_at": "2026-09-27T03:22:58+00:00",
+        "sha256": "3e9aff95fd6d170c1690efd9200b895d9858340ac024109db1278c407a4cea7b",
+        "characters": 11553,
+        "approved_open_nonliving": true
+      },
+      "current_proposed": {
+        "path": "research/Glasgow-3927/Glasgow-3927.md",
+        "sha256": "beef29467d5f7459f3aff0653d4cead7be7d98ad508567e031706444889db71b",
+        "characters": 11556
+      },
+      "insertions": [
+        {
+          "placement": "research_notes",
+          "wikitext": "=== Dublin parish appeal, 1838 ===\n\nJ. Glasco signed a request by parishioners of St Andrew’s, including St Mark’s, St Peter’s and St Anne’s, for a meeting at the Corn Exchange Rooms at 3 p.m. on 27 November 1838 to arrange collection for O’Connell’s Annuity. The 27 November issue reprints the same planned event; it is not a second act. The notice supplies no expanded forename, age, occupation, family, residence or proof of attendance.<ref>[https://www.newspapers.com/image/1050145535/ Freeman's Journal and Daily Commercial Advertiser, 1838-11-26, p.1].</ref><ref>[https://www.newspapers.com/image/1050145680/ Freeman's Journal and Daily Commercial Advertiser, 1838-11-27, p.1].</ref>\n\nThe 1831 Inishrush John Glasco is only an initial-and-period comparison, not a proved Dublin signatory. His proposed identification with [[Glasgow-822|John Glasgow]] would introduce Ohio residence from 1833, materially weakening an 1838 Dublin assignment. The printed J. is not expanded as fact.",
+          "review_ids": [
+            "subject-newspapers-irish-1800-1850-j-glasco-st-andrews-annuity-appeal-1838",
+            "draft-1838-ireland-dublin-j-glasco-st-andrews-appeal"
+          ],
+          "canonical_person": "j-glasco-st-andrews-annuity-appeal-1838",
+          "status": "needs_amendment",
+          "coverage_reason": "The actual captured/proposed texts do not contain the complete cited record account and its identity limits. Existing citation overlap is itemized below; no generic name-only update is requested.",
+          "source_comparison": [
+            {
+              "source": {
+                "title": "Freeman's Journal and Daily Commercial Advertiser, 1838-11-26, p.1",
+                "url": "https://www.newspapers.com/image/1050145535/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Freeman's Journal and Daily Commercial Advertiser, 1838-11-27, p.1",
+                "url": "https://www.newspapers.com/image/1050145680/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            }
+          ],
+          "missing_citation_urls": [
+            "https://www.newspapers.com/image/1050145535/",
+            "https://www.newspapers.com/image/1050145680/"
+          ],
+          "structured_changes": []
+        }
+      ],
+      "already_covered": [],
+      "source_paths": [
+        {
+          "path": "research/latest-findings-subjects/subjects.json",
+          "json_pointer": "/groups/33/people/26"
+        },
+        {
+          "path": "surname-research/new-people/1838_Ireland_Dublin_J_Glasco_St_Andrews_appeal.md"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "Freeman's Journal and Daily Commercial Advertiser, 1838-11-26, p.1",
+          "url": "https://www.newspapers.com/image/1050145535/"
+        },
+        {
+          "title": "Freeman's Journal and Daily Commercial Advertiser, 1838-11-27, p.1",
+          "url": "https://www.newspapers.com/image/1050145680/"
+        }
+      ],
+      "assembly_requirements": [
+        "Preserve every distinct existing source and all substantive captured/proposed detail.",
+        "Integrate this record account under Research Notes; candidate identity does not authorize structured family, date or place replacement."
+      ],
+      "candidate_record_scopes": [
+        {
+          "canonical_person": "j-glasco-st-andrews-annuity-appeal-1838",
+          "selected_target": "Glasgow-3927",
+          "rival_profile_ids": [],
+          "identity_status": "compatible_candidate",
+          "instruction": "This is a source-defined record account with an explicit identity hypothesis. Do not copy its people or relationships into rivals as established facts."
+        }
+      ],
+      "insertion_draft_path": "research/queue-review-2026-10-17/amendments/later-newspapers/Glasgow-3927.wiki"
+    },
+    {
+      "profile_id": "Glasgow-2058",
+      "status": "needs_amendment",
+      "review_ids": [
+        "draft-1816-ireland-military-john-glasco",
+        "draft-1848-ireland-cookstown-john-glasgow",
+        "subject-newspapers-irish-1800-1850-john-glasco-army-surgeons"
+      ],
+      "capture": {
+        "path": "data/wikitree/profile-evidence.json",
+        "json_pointer": "/profiles/Glasgow-2058/biography_wikitext",
+        "captured_at": "2026-08-29T08:53:47+00:00",
+        "sha256": "b90361ce337f6d6a75ada5afde858db666606b2c5eb7362c16fcedd324a07fda",
+        "characters": 2536,
+        "approved_open_nonliving": true
+      },
+      "current_proposed": {
+        "path": "research/william-newspaper-profile-drafts-2026-10-04/Glasgow-2058.wiki",
+        "sha256": "c3a13dccfb5743b364b4084ac36137c25f7c07314f536fc5b18d93ffbd4a4e01",
+        "characters": 4015
+      },
+      "insertions": [
+        {
+          "placement": "research_notes",
+          "wikitext": "=== Military surgeons J. and John Glasco, 1816–1839 ===\n\nAn appointment dated 8 February 1816 names Assistant Surgeon J. Glasco of the 59th Foot as surgeon. An October 1822 notice places Surgeon John Glasco, from half-pay of the 59th, in the 60th Foot. A June 1825 Hospital Staff notice names Staff-Surgeon John Glasco for brevet deputy inspector; in 1826 a replacement succeeded the promoted 60th Foot surgeon Glasco, and a separate August notice names John Glasco, senior, retiring upon half-pay. In December 1836 Staff-Surgeon John Glasco, recently employed at Grenada, was appointed surgeon of the Liverpool Recruiting District. A Liverpool subscription in 1838 names Staff-Surgeon Glasco, and a September 1839 notice names John Glasco retiring upon half-pay. The senior retiree and later staff surgeon may be different men.<ref>[https://www.newspapers.com/image/1050078150/ Freeman's Journal and Daily Commercial Advertiser, 1816-02-28, p.3].</ref><ref>[https://www.newspapers.com/image/1050080149/ Freeman's Journal and Daily Commercial Advertiser, 1822-10-02, p.4].</ref><ref>[https://www.newspapers.com/image/1050086323/ Freeman's Journal and Daily Commercial Advertiser, 1825-06-21, p.3].</ref><ref>[https://www.newspapers.com/image/1050127796/ Freeman's Journal and Daily Commercial Advertiser, 1826-05-16, p.3].</ref><ref>[https://www.newspapers.com/image/1050043397/ Freeman's Journal and Daily Commercial Advertiser, 1826-08-18, p.1].</ref><ref>[https://www.newspapers.com/image/1050083649/ Freeman's Journal and Daily Commercial Advertiser, 1836-12-30, p.1].</ref><ref>[https://www.newspapers.com/image/1050130719/ Freeman's Journal and Daily Commercial Advertiser, 1838-08-31, p.2].</ref><ref>[https://www.newspapers.com/image/1259428783/ The Drogheda Argus and Leinster Journal, 1839-09-28, p.4].</ref>\n\nThe later Cookstown merchant’s birth estimate fits the service period but supplies no military bridge. The 59th Foot descriptions support probable continuity between 1816 and 1822; senior in 1826 remains material, and the later Liverpool surgeon may be a second man. [[Glasgow-3927|John Glasco of Inishrush]] is another weak comparison. [[Glasgow-822|John Glasgow]] has Ohio evidence from 1833 that conflicts with the later Liverpool sequence. No service record proves these candidates to be the surgeons.",
+          "review_ids": [
+            "subject-newspapers-irish-1800-1850-john-glasco-army-surgeons",
+            "draft-1816-ireland-military-john-glasco"
+          ],
+          "canonical_person": "john-glasco-army-surgeons",
+          "status": "needs_amendment",
+          "coverage_reason": "The actual captured/proposed texts do not contain the complete cited record account and its identity limits. Existing citation overlap is itemized below; no generic name-only update is requested.",
+          "source_comparison": [
+            {
+              "source": {
+                "title": "Freeman's Journal and Daily Commercial Advertiser, 1816-02-28, p.3",
+                "url": "https://www.newspapers.com/image/1050078150/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Freeman's Journal and Daily Commercial Advertiser, 1822-10-02, p.4",
+                "url": "https://www.newspapers.com/image/1050080149/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Freeman's Journal and Daily Commercial Advertiser, 1825-06-21, p.3",
+                "url": "https://www.newspapers.com/image/1050086323/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Freeman's Journal and Daily Commercial Advertiser, 1826-05-16, p.3",
+                "url": "https://www.newspapers.com/image/1050127796/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Freeman's Journal and Daily Commercial Advertiser, 1826-08-18, p.1",
+                "url": "https://www.newspapers.com/image/1050043397/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Freeman's Journal and Daily Commercial Advertiser, 1836-12-30, p.1",
+                "url": "https://www.newspapers.com/image/1050083649/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Freeman's Journal and Daily Commercial Advertiser, 1838-08-31, p.2",
+                "url": "https://www.newspapers.com/image/1050130719/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "The Drogheda Argus and Leinster Journal, 1839-09-28, p.4",
+                "url": "https://www.newspapers.com/image/1259428783/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            }
+          ],
+          "missing_citation_urls": [
+            "https://www.newspapers.com/image/1050078150/",
+            "https://www.newspapers.com/image/1050080149/",
+            "https://www.newspapers.com/image/1050086323/",
+            "https://www.newspapers.com/image/1050127796/",
+            "https://www.newspapers.com/image/1050043397/",
+            "https://www.newspapers.com/image/1050083649/",
+            "https://www.newspapers.com/image/1050130719/",
+            "https://www.newspapers.com/image/1259428783/"
+          ],
+          "structured_changes": []
+        },
+        {
+          "placement": "research_notes",
+          "wikitext": "=== John Glasgow, Cookstown tea and coffee agent, 1848–1850 ===\n\nJohn Glasgow, expressly styled merchant at Cookstown, appears in John Cassell coffee-agent advertisements from September 1848 and in the Russian Company’s Caravan Tea and Arabian Coffee agency list in February and April 1849. Further Cassell advertisements in 1849 and 1850 name John or Jno. Glasgow at Cookstown for coffee and tea. The repeated lists give no age, relatives or street address.<ref>[https://www.newspapers.com/image/1256974148/ The Sligo Champion, 30 September 1848, p.3, John Cassell coffee agents].</ref><ref>[https://www.newspapers.com/image/390559166/ Belfast News-Letter, 2 February 1849, p.3, Russian Company tea and coffee agents].</ref><ref>[https://www.newspapers.com/image/390559823/ Belfast News-Letter, 20 February 1849, p.3, John Cassell coffee agents].</ref><ref>[https://www.newspapers.com/image/1257358494/ Impartial Reporter and Farmers’ Journal, 22 February 1849, p.3, John Cassell coffee agents].</ref><ref>[https://www.newspapers.com/image/390562652/ Belfast News-Letter, 1849-04-13, p.3].</ref><ref>[https://www.newspapers.com/image/1257358629/ Impartial Reporter and Farmers’ Journal, 31 May 1849, p.3, John Cassell agents].</ref><ref>[https://www.newspapers.com/image/1256975442/ The Sligo Champion, 3 November 1849, p. 1, John Cassell coffee agents].</ref><ref>[https://www.newspapers.com/image/1256975114/ The Sligo Champion, 28 July 1849, p. 3, John Cassell coffee agents].</ref><ref>[https://www.newspapers.com/image/390563426/ Belfast News-Letter, 5 November 1850, p.3, John Cassell coffee agents, Cookstown].</ref><ref>[https://www.newspapers.com/image/390556388/ Belfast News-Letter, 22 February 1850, p.3, Cassell tea and coffee agents].</ref><ref>[https://www.newspapers.com/image/390556799/ Belfast News-Letter, 8 March 1850, p.3, John Cassell coffee and tea agents].</ref><ref>[https://www.newspapers.com/image/1256976506/ The Sligo Champion, 1850-08-17, p.3, John Cassell coffee agents].</ref><ref>[https://www.newspapers.com/image/390562655/ Belfast News-Letter, 1850-10-04, p.3, John Cassell coffee agents].</ref><ref>[https://www.newspapers.com/image/1369100894/ The Fermanagh Mail, and Enniskillen Chronicle, 5 September 1850, p. 3, John Cassell appointed agents].</ref>\n\nThe agency notices fit John’s name, Cookstown district and merchant occupation independently given in Benjamin’s 1856 marriage. They do not name Benjamin or Henry, so the household identification remains compatible rather than proved. [[Glasgow-1968|John Glasgow]] is a weaker comparison because the reported move to Michigan in 1844 or 1848 conflicts with a continuing Irish agency; probate year alone does not establish his death.",
+          "review_ids": [
+            "draft-1848-ireland-cookstown-john-glasgow"
+          ],
+          "canonical_person": "john-cookstown-coffee",
+          "status": "needs_amendment",
+          "coverage_reason": "The actual captured/proposed texts do not contain the complete cited record account and its identity limits. Existing citation overlap is itemized below; no generic name-only update is requested.",
+          "source_comparison": [
+            {
+              "source": {
+                "title": "The Sligo Champion, 30 September 1848, p.3, John Cassell coffee agents",
+                "url": "https://www.newspapers.com/image/1256974148/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Belfast News-Letter, 2 February 1849, p.3, Russian Company tea and coffee agents",
+                "url": "https://www.newspapers.com/image/390559166/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Belfast News-Letter, 20 February 1849, p.3, John Cassell coffee agents",
+                "url": "https://www.newspapers.com/image/390559823/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Impartial Reporter and Farmers’ Journal, 22 February 1849, p.3, John Cassell coffee agents",
+                "url": "https://www.newspapers.com/image/1257358494/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Belfast News-Letter, 1849-04-13, p.3",
+                "url": "https://www.newspapers.com/image/390562652/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Impartial Reporter and Farmers’ Journal, 31 May 1849, p.3, John Cassell agents",
+                "url": "https://www.newspapers.com/image/1257358629/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "The Sligo Champion, 3 November 1849, p. 1, John Cassell coffee agents",
+                "url": "https://www.newspapers.com/image/1256975442/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "The Sligo Champion, 28 July 1849, p. 3, John Cassell coffee agents",
+                "url": "https://www.newspapers.com/image/1256975114/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Belfast News-Letter, 5 November 1850, p.3, John Cassell coffee agents, Cookstown",
+                "url": "https://www.newspapers.com/image/390563426/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Belfast News-Letter, 22 February 1850, p.3, Cassell tea and coffee agents",
+                "url": "https://www.newspapers.com/image/390556388/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Belfast News-Letter, 8 March 1850, p.3, John Cassell coffee and tea agents",
+                "url": "https://www.newspapers.com/image/390556799/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "The Sligo Champion, 1850-08-17, p.3, John Cassell coffee agents",
+                "url": "https://www.newspapers.com/image/1256976506/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Belfast News-Letter, 1850-10-04, p.3, John Cassell coffee agents",
+                "url": "https://www.newspapers.com/image/390562655/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "The Fermanagh Mail, and Enniskillen Chronicle, 5 September 1850, p. 3, John Cassell appointed agents",
+                "url": "https://www.newspapers.com/image/1369100894/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            }
+          ],
+          "missing_citation_urls": [
+            "https://www.newspapers.com/image/1256974148/",
+            "https://www.newspapers.com/image/390559166/",
+            "https://www.newspapers.com/image/390559823/",
+            "https://www.newspapers.com/image/1257358494/",
+            "https://www.newspapers.com/image/390562652/",
+            "https://www.newspapers.com/image/1257358629/",
+            "https://www.newspapers.com/image/1256975442/",
+            "https://www.newspapers.com/image/1256975114/",
+            "https://www.newspapers.com/image/390563426/",
+            "https://www.newspapers.com/image/390556388/",
+            "https://www.newspapers.com/image/390556799/",
+            "https://www.newspapers.com/image/1256976506/",
+            "https://www.newspapers.com/image/390562655/",
+            "https://www.newspapers.com/image/1369100894/"
+          ],
+          "structured_changes": []
+        }
+      ],
+      "already_covered": [],
+      "source_paths": [
+        {
+          "path": "research/latest-findings-subjects/subjects.json",
+          "json_pointer": "/groups/33/people/24"
+        },
+        {
+          "path": "surname-research/new-people/1816_Ireland_Military_John_Glasco.md"
+        },
+        {
+          "path": "research/latest-findings-subjects/subjects.json",
+          "json_pointer": "/groups/33/people/15"
+        },
+        {
+          "path": "surname-research/new-people/1848_Ireland_Cookstown_John_Glasgow.md"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "Freeman's Journal and Daily Commercial Advertiser, 1816-02-28, p.3",
+          "url": "https://www.newspapers.com/image/1050078150/"
+        },
+        {
+          "title": "Freeman's Journal and Daily Commercial Advertiser, 1822-10-02, p.4",
+          "url": "https://www.newspapers.com/image/1050080149/"
+        },
+        {
+          "title": "Freeman's Journal and Daily Commercial Advertiser, 1825-06-21, p.3",
+          "url": "https://www.newspapers.com/image/1050086323/"
+        },
+        {
+          "title": "Freeman's Journal and Daily Commercial Advertiser, 1826-05-16, p.3",
+          "url": "https://www.newspapers.com/image/1050127796/"
+        },
+        {
+          "title": "Freeman's Journal and Daily Commercial Advertiser, 1826-08-18, p.1",
+          "url": "https://www.newspapers.com/image/1050043397/"
+        },
+        {
+          "title": "Freeman's Journal and Daily Commercial Advertiser, 1836-12-30, p.1",
+          "url": "https://www.newspapers.com/image/1050083649/"
+        },
+        {
+          "title": "Freeman's Journal and Daily Commercial Advertiser, 1838-08-31, p.2",
+          "url": "https://www.newspapers.com/image/1050130719/"
+        },
+        {
+          "title": "The Drogheda Argus and Leinster Journal, 1839-09-28, p.4",
+          "url": "https://www.newspapers.com/image/1259428783/"
+        },
+        {
+          "title": "The Sligo Champion, 30 September 1848, p.3, John Cassell coffee agents",
+          "url": "https://www.newspapers.com/image/1256974148/"
+        },
+        {
+          "title": "Belfast News-Letter, 2 February 1849, p.3, Russian Company tea and coffee agents",
+          "url": "https://www.newspapers.com/image/390559166/"
+        },
+        {
+          "title": "Belfast News-Letter, 20 February 1849, p.3, John Cassell coffee agents",
+          "url": "https://www.newspapers.com/image/390559823/"
+        },
+        {
+          "title": "Impartial Reporter and Farmers’ Journal, 22 February 1849, p.3, John Cassell coffee agents",
+          "url": "https://www.newspapers.com/image/1257358494/"
+        },
+        {
+          "title": "Belfast News-Letter, 1849-04-13, p.3",
+          "url": "https://www.newspapers.com/image/390562652/"
+        },
+        {
+          "title": "Impartial Reporter and Farmers’ Journal, 31 May 1849, p.3, John Cassell agents",
+          "url": "https://www.newspapers.com/image/1257358629/"
+        },
+        {
+          "title": "The Sligo Champion, 3 November 1849, p. 1, John Cassell coffee agents",
+          "url": "https://www.newspapers.com/image/1256975442/"
+        },
+        {
+          "title": "The Sligo Champion, 28 July 1849, p. 3, John Cassell coffee agents",
+          "url": "https://www.newspapers.com/image/1256975114/"
+        },
+        {
+          "title": "Belfast News-Letter, 5 November 1850, p.3, John Cassell coffee agents, Cookstown",
+          "url": "https://www.newspapers.com/image/390563426/"
+        },
+        {
+          "title": "Belfast News-Letter, 22 February 1850, p.3, Cassell tea and coffee agents",
+          "url": "https://www.newspapers.com/image/390556388/"
+        },
+        {
+          "title": "Belfast News-Letter, 8 March 1850, p.3, John Cassell coffee and tea agents",
+          "url": "https://www.newspapers.com/image/390556799/"
+        },
+        {
+          "title": "The Sligo Champion, 1850-08-17, p.3, John Cassell coffee agents",
+          "url": "https://www.newspapers.com/image/1256976506/"
+        },
+        {
+          "title": "Belfast News-Letter, 1850-10-04, p.3, John Cassell coffee agents",
+          "url": "https://www.newspapers.com/image/390562655/"
+        },
+        {
+          "title": "The Fermanagh Mail, and Enniskillen Chronicle, 5 September 1850, p. 3, John Cassell appointed agents",
+          "url": "https://www.newspapers.com/image/1369100894/"
+        }
+      ],
+      "assembly_requirements": [
+        "Preserve every distinct existing source and all substantive captured/proposed detail.",
+        "Integrate this record account under Research Notes; candidate identity does not authorize structured family, date or place replacement."
+      ],
+      "candidate_record_scopes": [
+        {
+          "canonical_person": "john-glasco-army-surgeons",
+          "selected_target": "Glasgow-2058",
+          "rival_profile_ids": [
+            "Glasgow-3927"
+          ],
+          "identity_status": "compatible_candidate",
+          "instruction": "This is a source-defined record account with an explicit identity hypothesis. Do not copy its people or relationships into rivals as established facts."
+        },
+        {
+          "canonical_person": "john-cookstown-coffee",
+          "selected_target": "Glasgow-2058",
+          "rival_profile_ids": [
+            "Glasgow-1968"
+          ],
+          "identity_status": "compatible_candidate",
+          "instruction": "This is a source-defined record account with an explicit identity hypothesis. Do not copy its people or relationships into rivals as established facts."
+        }
+      ],
+      "insertion_draft_path": "research/queue-review-2026-10-17/amendments/later-newspapers/Glasgow-2058.wiki"
+    },
+    {
+      "profile_id": "Glasgow-3444",
+      "status": "needs_amendment",
+      "review_ids": [
+        "subject-newspapers-irish-1800-1850-james-cookstown-cassell-tea"
+      ],
+      "capture": {
+        "path": "tmp/queue-review-2026-10-17/later-newspapers/profile-Glasgow-3444.json",
+        "json_pointer": "/profile/bio",
+        "captured_at": "2026-10-17",
+        "sha256": "9a052f7959f5e064d4e98781530d19938217e9b2a0497ee0c23d8fe641d299ac",
+        "characters": 6363,
+        "approved_open_nonliving": true
+      },
+      "current_proposed": null,
+      "insertions": [
+        {
+          "placement": "research_notes",
+          "wikitext": "=== James Glasgow, Cookstown tea agent, 1849 ===\n\nEleven inspected issues from 23 June to 25 October 1849 name James Glasgow, merchant at Cookstown, in John Cassell’s agent lists, including five-shilling tea. Repeated advertisements document a trading role, not eleven people or independent family proofs. No age, relatives or street address is supplied; the separately named John Glasgow agency remains distinct.<ref>[https://www.newspapers.com/image/1256974996/ The Sligo Champion, 1849-06-23, p. 1, Cookstown James Glasgow agent-list entry].</ref><ref>[https://www.newspapers.com/image/1256975013/ The Sligo Champion, 1849-06-30, p. 1, Cookstown James Glasgow agent-list entry].</ref><ref>[https://www.newspapers.com/image/1369100143/ The Fermanagh Mail, and Enniskillen Chronicle, 1849-08-23, p. 1, Cookstown James Glasgow agent-list entry].</ref><ref>[https://www.newspapers.com/image/1369100155/ The Fermanagh Mail, and Enniskillen Chronicle, 1849-08-30, p. 1, Cookstown James Glasgow agent-list entry].</ref><ref>[https://www.newspapers.com/image/1369100180/ The Fermanagh Mail, and Enniskillen Chronicle, 1849-09-13, p. 1, Cookstown James Glasgow agent-list entry].</ref><ref>[https://www.newspapers.com/image/1369100191/ The Fermanagh Mail, and Enniskillen Chronicle, 1849-09-20, p. 1, Cookstown James Glasgow agent-list entry].</ref><ref>[https://www.newspapers.com/image/1369100202/ The Fermanagh Mail, and Enniskillen Chronicle, 1849-09-27, p. 1, Cookstown James Glasgow agent-list entry].</ref><ref>[https://www.newspapers.com/image/1369100214/ The Fermanagh Mail, and Enniskillen Chronicle, 1849-10-04, p. 1, Cookstown James Glasgow agent-list entry].</ref><ref>[https://www.newspapers.com/image/1369100225/ The Fermanagh Mail, and Enniskillen Chronicle, 1849-10-11, p. 1, Cookstown James Glasgow agent-list entry].</ref><ref>[https://www.newspapers.com/image/1369100236/ The Fermanagh Mail, and Enniskillen Chronicle, 1849-10-18, p. 1, Cookstown James Glasgow agent-list entry].</ref><ref>[https://www.newspapers.com/image/1369100248/ The Fermanagh Mail, and Enniskillen Chronicle, 1849-10-25, p. 1, Cookstown James Glasgow agent-list entry].</ref>\n\nThe Cookstown chronology supports this as a possible identity. [[Glasgow-3196|James Glasgow]] remains an alternative: his description as farmer in his son’s 1859 marriage does not exclude earlier trading. The advertisements identify neither household, and repeated notices do not establish a relationship to the separately named John Glasgow.",
+          "review_ids": [
+            "subject-newspapers-irish-1800-1850-james-cookstown-cassell-tea"
+          ],
+          "canonical_person": "james-cookstown-cassell-tea",
+          "status": "needs_amendment",
+          "coverage_reason": "The actual captured/proposed texts do not contain the complete cited record account and its identity limits. Existing citation overlap is itemized below; no generic name-only update is requested.",
+          "source_comparison": [
+            {
+              "source": {
+                "title": "The Sligo Champion, 1849-06-23, p. 1, Cookstown James Glasgow agent-list entry",
+                "url": "https://www.newspapers.com/image/1256974996/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "The Sligo Champion, 1849-06-30, p. 1, Cookstown James Glasgow agent-list entry",
+                "url": "https://www.newspapers.com/image/1256975013/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "The Fermanagh Mail, and Enniskillen Chronicle, 1849-08-23, p. 1, Cookstown James Glasgow agent-list entry",
+                "url": "https://www.newspapers.com/image/1369100143/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "The Fermanagh Mail, and Enniskillen Chronicle, 1849-08-30, p. 1, Cookstown James Glasgow agent-list entry",
+                "url": "https://www.newspapers.com/image/1369100155/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "The Fermanagh Mail, and Enniskillen Chronicle, 1849-09-13, p. 1, Cookstown James Glasgow agent-list entry",
+                "url": "https://www.newspapers.com/image/1369100180/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "The Fermanagh Mail, and Enniskillen Chronicle, 1849-09-20, p. 1, Cookstown James Glasgow agent-list entry",
+                "url": "https://www.newspapers.com/image/1369100191/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "The Fermanagh Mail, and Enniskillen Chronicle, 1849-09-27, p. 1, Cookstown James Glasgow agent-list entry",
+                "url": "https://www.newspapers.com/image/1369100202/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "The Fermanagh Mail, and Enniskillen Chronicle, 1849-10-04, p. 1, Cookstown James Glasgow agent-list entry",
+                "url": "https://www.newspapers.com/image/1369100214/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "The Fermanagh Mail, and Enniskillen Chronicle, 1849-10-11, p. 1, Cookstown James Glasgow agent-list entry",
+                "url": "https://www.newspapers.com/image/1369100225/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "The Fermanagh Mail, and Enniskillen Chronicle, 1849-10-18, p. 1, Cookstown James Glasgow agent-list entry",
+                "url": "https://www.newspapers.com/image/1369100236/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "The Fermanagh Mail, and Enniskillen Chronicle, 1849-10-25, p. 1, Cookstown James Glasgow agent-list entry",
+                "url": "https://www.newspapers.com/image/1369100248/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            }
+          ],
+          "missing_citation_urls": [
+            "https://www.newspapers.com/image/1256974996/",
+            "https://www.newspapers.com/image/1256975013/",
+            "https://www.newspapers.com/image/1369100143/",
+            "https://www.newspapers.com/image/1369100155/",
+            "https://www.newspapers.com/image/1369100180/",
+            "https://www.newspapers.com/image/1369100191/",
+            "https://www.newspapers.com/image/1369100202/",
+            "https://www.newspapers.com/image/1369100214/",
+            "https://www.newspapers.com/image/1369100225/",
+            "https://www.newspapers.com/image/1369100236/",
+            "https://www.newspapers.com/image/1369100248/"
+          ],
+          "structured_changes": []
+        }
+      ],
+      "already_covered": [],
+      "source_paths": [
+        {
+          "path": "research/latest-findings-subjects/subjects.json",
+          "json_pointer": "/groups/33/people/29"
+        },
+        {
+          "path": "artifacts/pre1850-continuation-20261005/phase-1850-common-ie-short/james-cookstown-merchant-issue-queue.json"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "The Sligo Champion, 1849-06-23, p. 1, Cookstown James Glasgow agent-list entry",
+          "url": "https://www.newspapers.com/image/1256974996/"
+        },
+        {
+          "title": "The Sligo Champion, 1849-06-30, p. 1, Cookstown James Glasgow agent-list entry",
+          "url": "https://www.newspapers.com/image/1256975013/"
+        },
+        {
+          "title": "The Fermanagh Mail, and Enniskillen Chronicle, 1849-08-23, p. 1, Cookstown James Glasgow agent-list entry",
+          "url": "https://www.newspapers.com/image/1369100143/"
+        },
+        {
+          "title": "The Fermanagh Mail, and Enniskillen Chronicle, 1849-08-30, p. 1, Cookstown James Glasgow agent-list entry",
+          "url": "https://www.newspapers.com/image/1369100155/"
+        },
+        {
+          "title": "The Fermanagh Mail, and Enniskillen Chronicle, 1849-09-13, p. 1, Cookstown James Glasgow agent-list entry",
+          "url": "https://www.newspapers.com/image/1369100180/"
+        },
+        {
+          "title": "The Fermanagh Mail, and Enniskillen Chronicle, 1849-09-20, p. 1, Cookstown James Glasgow agent-list entry",
+          "url": "https://www.newspapers.com/image/1369100191/"
+        },
+        {
+          "title": "The Fermanagh Mail, and Enniskillen Chronicle, 1849-09-27, p. 1, Cookstown James Glasgow agent-list entry",
+          "url": "https://www.newspapers.com/image/1369100202/"
+        },
+        {
+          "title": "The Fermanagh Mail, and Enniskillen Chronicle, 1849-10-04, p. 1, Cookstown James Glasgow agent-list entry",
+          "url": "https://www.newspapers.com/image/1369100214/"
+        },
+        {
+          "title": "The Fermanagh Mail, and Enniskillen Chronicle, 1849-10-11, p. 1, Cookstown James Glasgow agent-list entry",
+          "url": "https://www.newspapers.com/image/1369100225/"
+        },
+        {
+          "title": "The Fermanagh Mail, and Enniskillen Chronicle, 1849-10-18, p. 1, Cookstown James Glasgow agent-list entry",
+          "url": "https://www.newspapers.com/image/1369100236/"
+        },
+        {
+          "title": "The Fermanagh Mail, and Enniskillen Chronicle, 1849-10-25, p. 1, Cookstown James Glasgow agent-list entry",
+          "url": "https://www.newspapers.com/image/1369100248/"
+        }
+      ],
+      "assembly_requirements": [
+        "Preserve every distinct existing source and all substantive captured/proposed detail.",
+        "Integrate this record account under Research Notes; candidate identity does not authorize structured family, date or place replacement."
+      ],
+      "candidate_record_scopes": [
+        {
+          "canonical_person": "james-cookstown-cassell-tea",
+          "selected_target": "Glasgow-3444",
+          "rival_profile_ids": [
+            "Glasgow-3196"
+          ],
+          "identity_status": "compatible_candidate",
+          "instruction": "This is a source-defined record account with an explicit identity hypothesis. Do not copy its people or relationships into rivals as established facts."
+        }
+      ],
+      "insertion_draft_path": "research/queue-review-2026-10-17/amendments/later-newspapers/Glasgow-3444.wiki",
+      "other_notes_compared": [
+        {
+          "path": "research/Glasgow-3444/Glasgow-3444.md",
+          "sha256": "695d7cead28af6aeb42d56d939c0da3ad0a16e4ef1de2b988b11531b1db40cb9",
+          "characters": 445,
+          "kind": "update notes, not a complete proposed biography",
+          "source_citation_coverage": "None of this lane’s original newspaper image citations occurs in these notes."
+        }
+      ]
+    },
+    {
+      "profile_id": "McClure-6341",
+      "status": "needs_amendment",
+      "review_ids": [
+        "subject-anne-armstrong-jane-glasgow-antrim-assizes-1838-jane-glasgow-mother-anne"
+      ],
+      "capture": {
+        "path": "tmp/queue-review-2026-10-17/later-newspapers/profile-McClure-6341.json",
+        "json_pointer": "/profile/bio",
+        "captured_at": "2026-10-17",
+        "sha256": "d6a83b6fc063f49fb4dc91026982c5b352b727e9250ad0f62c1bccadcd4dbf1d",
+        "characters": 755,
+        "approved_open_nonliving": true
+      },
+      "current_proposed": null,
+      "insertions": [
+        {
+          "placement": "research_notes",
+          "wikitext": "=== Jane Glasgow in the Antrim Assizes report, 1838 ===\n\nAn Antrim Assizes report names Jane Glasgow as mother of Anne Armstrong, wife of John Armstrong; John’s mother was Euphemia Armstrong. Anne’s death is reported on 23 June 1838 at printed Bally-cluck. Her birth surname and age are not given. William M’Gowan was acquitted: this is an accusation and acquittal, not a finding of guilt.<ref>[https://www.newspapers.com/image/1050122635/ Freeman’s Journal and Daily Commercial Advertiser, 27 July 1838, p. 3, Antrim Assizes].</ref>\n\nThe Antrim/Racavan context and memorial naming daughter Jane Armstrong make Jane McClure Glasgow a compatible mother candidate, although the newspaper names Anne, not Jane. [[Glasgow-1779|Jane Glasgow Armstrong]] is the daughter named on that memorial, not automatically the witness mother; her reported 1837 death also conflicts with appearing in 1838. The newspaper’s Jane–Anne relationship is direct; assigning it to this Jane remains uncertain.",
+          "review_ids": [
+            "subject-anne-armstrong-jane-glasgow-antrim-assizes-1838-jane-glasgow-mother-anne"
+          ],
+          "canonical_person": "jane-glasgow-mother-anne",
+          "status": "needs_amendment",
+          "coverage_reason": "The actual captured/proposed texts do not contain the complete cited record account and its identity limits. Existing citation overlap is itemized below; no generic name-only update is requested.",
+          "source_comparison": [
+            {
+              "source": {
+                "title": "Freeman’s Journal and Daily Commercial Advertiser, 27 July 1838, p. 3, Antrim Assizes",
+                "url": "https://www.newspapers.com/image/1050122635/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            }
+          ],
+          "missing_citation_urls": [
+            "https://www.newspapers.com/image/1050122635/"
+          ],
+          "structured_changes": []
+        }
+      ],
+      "already_covered": [],
+      "source_paths": [
+        {
+          "path": "research/latest-findings-subjects/subjects.json",
+          "json_pointer": "/groups/34/people/0"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "Freeman’s Journal and Daily Commercial Advertiser, 27 July 1838, p. 3, Antrim Assizes",
+          "url": "https://www.newspapers.com/image/1050122635/"
+        }
+      ],
+      "assembly_requirements": [
+        "Preserve every distinct existing source and all substantive captured/proposed detail.",
+        "Integrate this record account under Research Notes; candidate identity does not authorize structured family, date or place replacement."
+      ],
+      "candidate_record_scopes": [
+        {
+          "canonical_person": "jane-glasgow-mother-anne",
+          "selected_target": "McClure-6341",
+          "rival_profile_ids": [],
+          "identity_status": "compatible_candidate",
+          "instruction": "This is a source-defined record account with an explicit identity hypothesis. Do not copy its people or relationships into rivals as established facts."
+        }
+      ],
+      "insertion_draft_path": "research/queue-review-2026-10-17/amendments/later-newspapers/McClure-6341.wiki"
+    },
+    {
+      "profile_id": "Glasgow-1781",
+      "status": "needs_amendment",
+      "review_ids": [
+        "subject-newspapers-irish-1800-1850-rev-aj-glasgow-belfast-speech-1841"
+      ],
+      "capture": {
+        "path": "tmp/queue-review-2026-10-17/later-newspapers/profile-Glasgow-1781.json",
+        "json_pointer": "/profile/bio",
+        "captured_at": "2026-10-17",
+        "sha256": "3dd41df2b412b9c2eec6d37b537607bff45f6802a068d3c737b241aed538b2c7",
+        "characters": 4047,
+        "approved_open_nonliving": true
+      },
+      "current_proposed": null,
+      "insertions": [
+        {
+          "placement": "research_notes",
+          "wikitext": "=== Rev A. J. Glasgow’s Belfast speech, 1841 ===\n\nAt an entertainment for retiring elocution teacher Robert L. Rogers, held at the Royal Temperance Hotel, Waring Street, Belfast, Rev A. J. Glasgow spoke on 8 April 1841 about elocution for candidates for the sacred ministry. The report also describes classes in Rev Dr Cooke’s church. The initials are printed A. J.; no forename expansion, congregation, age, family or birthplace is supplied.<ref>[https://www.newspapers.com/image/390557883/ Belfast News-Letter, 20 April 1841, p.2; report of event on 8 April].</ref>\n\nAdam Dickie Glasgow’s Belfast Presbyterian ministry makes him a compatible speaker, but the printed J. differs materially from his otherwise documented D. The letter was visually distinguished in the original article and is not silently corrected. [[Glasgow-1780|James McClure Glasgow]] was in Bombay with his family in spring 1841 and is strongly disfavoured.",
+          "review_ids": [
+            "subject-newspapers-irish-1800-1850-rev-aj-glasgow-belfast-speech-1841"
+          ],
+          "canonical_person": "rev-aj-glasgow-belfast-speech-1841",
+          "status": "needs_amendment",
+          "coverage_reason": "The actual captured/proposed texts do not contain the complete cited record account and its identity limits. Existing citation overlap is itemized below; no generic name-only update is requested.",
+          "source_comparison": [
+            {
+              "source": {
+                "title": "Belfast News-Letter, 20 April 1841, p.2; report of event on 8 April",
+                "url": "https://www.newspapers.com/image/390557883/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            }
+          ],
+          "missing_citation_urls": [
+            "https://www.newspapers.com/image/390557883/"
+          ],
+          "structured_changes": []
+        }
+      ],
+      "already_covered": [],
+      "source_paths": [
+        {
+          "path": "research/latest-findings-subjects/subjects.json",
+          "json_pointer": "/groups/33/people/23"
+        },
+        {
+          "path": "surname-research/new-people/1841_Ireland_Belfast_A_J_Glasgow.md"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "Belfast News-Letter, 20 April 1841, p.2; report of event on 8 April",
+          "url": "https://www.newspapers.com/image/390557883/"
+        }
+      ],
+      "assembly_requirements": [
+        "Preserve every distinct existing source and all substantive captured/proposed detail.",
+        "Integrate this record account under Research Notes; candidate identity does not authorize structured family, date or place replacement."
+      ],
+      "candidate_record_scopes": [
+        {
+          "canonical_person": "rev-aj-glasgow-belfast-speech-1841",
+          "selected_target": "Glasgow-1781",
+          "rival_profile_ids": [],
+          "identity_status": "compatible_candidate",
+          "instruction": "This is a source-defined record account with an explicit identity hypothesis. Do not copy its people or relationships into rivals as established facts."
+        }
+      ],
+      "insertion_draft_path": "research/queue-review-2026-10-17/amendments/later-newspapers/Glasgow-1781.wiki",
+      "other_notes_compared": [
+        {
+          "path": "research/Glasgow-1781/Glasgow-1781.md",
+          "sha256": "bf3c389835541ed4efe3be7e2c5d81d39241e6abfe4e796a26bef48430e0f09a",
+          "characters": 605,
+          "kind": "update notes, not a complete proposed biography",
+          "source_citation_coverage": "None of this lane’s original newspaper image citations occurs in these notes."
+        }
+      ]
+    },
+    {
+      "profile_id": "Pike-9902",
+      "status": "needs_amendment",
+      "review_ids": [
+        "subject-newspapers-pre1900-20261004-richard-pike"
+      ],
+      "capture": {
+        "path": "tmp/queue-review-2026-10-17/later-newspapers/profile-Pike-9902.json",
+        "json_pointer": "/profile/bio",
+        "captured_at": "2026-10-17",
+        "sha256": "bd5ffc9930f252e5ba39b6240de403c9936d1768a54da495f681e2ad1b5ddbd9",
+        "characters": 4357,
+        "approved_open_nonliving": true
+      },
+      "current_proposed": null,
+      "insertions": [
+        {
+          "placement": "research_notes",
+          "wikitext": "=== Richard Pike’s daughter’s marriage, 1864 ===\n\nA notice states that Benjamin Glasgow of Drapersfield, Cookstown, married Wilhelmina, eldest daughter of Richard Pike, Esq., of Beechgrove, Dungannon, at Dungannon on 16 February 1864.<ref>[https://www.newspapers.com/image/387828785/ Belfast News-Letter, 18 February 1864, p.2].</ref>\n\nThe distinctive Wilhelmina name, Richard father and Beechgrove/Dungannon location strongly fit the existing Richard–Wilhelmina family. The Quaker birth transcription gives Wilhelmina born at Torren Hill on 11 November 1842 to Richard and Margaret. The newspaper names her father independently; the underlying Quaker image has not been newly inspected.",
+          "review_ids": [
+            "subject-newspapers-pre1900-20261004-richard-pike"
+          ],
+          "canonical_person": "richard-pike",
+          "status": "needs_amendment",
+          "coverage_reason": "The actual captured/proposed texts do not contain the complete cited record account and its identity limits. Existing citation overlap is itemized below; no generic name-only update is requested.",
+          "source_comparison": [
+            {
+              "source": {
+                "title": "Belfast News-Letter, 18 February 1864, p.2",
+                "url": "https://www.newspapers.com/image/387828785/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            }
+          ],
+          "missing_citation_urls": [
+            "https://www.newspapers.com/image/387828785/"
+          ],
+          "structured_changes": []
+        }
+      ],
+      "already_covered": [],
+      "source_paths": [
+        {
+          "path": "research/latest-findings-subjects/subjects.json",
+          "json_pointer": "/groups/32/people/1"
+        },
+        {
+          "path": "research/newspapers-pre1900-associates-2026-10-04.md"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "Belfast News-Letter, 18 February 1864, p.2",
+          "url": "https://www.newspapers.com/image/387828785/"
+        }
+      ],
+      "assembly_requirements": [
+        "Preserve every distinct existing source and all substantive captured/proposed detail.",
+        "Integrate this record account under Research Notes; candidate identity does not authorize structured family, date or place replacement."
+      ],
+      "candidate_record_scopes": [
+        {
+          "canonical_person": "richard-pike",
+          "selected_target": "Pike-9902",
+          "rival_profile_ids": [],
+          "identity_status": "compatible_candidate",
+          "instruction": "This is a source-defined record account with an explicit identity hypothesis. Do not copy its people or relationships into rivals as established facts."
+        }
+      ],
+      "insertion_draft_path": "research/queue-review-2026-10-17/amendments/later-newspapers/Pike-9902.wiki"
+    },
+    {
+      "profile_id": "Glasgow-2656",
+      "status": "needs_amendment",
+      "review_ids": [
+        "draft-1858-ireland-cookstown-robert-mill",
+        "subject-william-glasgow-irish-newspapers-robert-mill"
+      ],
+      "capture": {
+        "path": "tmp/queue-review-2026-10-17/later-newspapers/profile-Glasgow-2656.json",
+        "json_pointer": "/profile/bio",
+        "captured_at": "2026-10-17",
+        "sha256": "f0e330e56b78216f17ef788d9a4a4264a1a207ef7a193a9a558bcd48ae128e67",
+        "characters": 176,
+        "approved_open_nonliving": true
+      },
+      "current_proposed": null,
+      "insertions": [
+        {
+          "placement": "research_notes",
+          "wikitext": "=== Robert Glasgow and the Drapersfield mill family ===\n\nThe 1858 case recalls an 1842 action brought by Robert Glasgow and James Woods, trading as Glasgow and Woods. In his named testimony Benjamin Glasgow called Robert his father, said he had managed his father’s mill since 1850, and said Robert died in 1856. A separate letting notice dated 16 January 1864, issued by Benjamin and William Glasgow of Drapersfield Mills, describes premises formerly occupied by the late Robert Glasgow; continuity with the earlier partner remains probable rather than explicit.<ref>[https://www.newspapers.com/image/390574459/ Belfast News-Letter, 22 July 1858, p.3, Benjamin’s sworn testimony].</ref><ref>[https://www.newspapers.com/image/387805714/ Belfast News-Letter, 19 January 1864, p.2].</ref>\n\nThe testimony’s 1856 death and Cookstown district agree with Robert’s recorded Tullyveagh death. [[Glasgow-3941|Robert Glasgow of Coltrim]] remains a weaker alternative; his 1831 census is not a proved death date. The record-level Robert–Benjamin father relationship is direct, but the profile identification and a brother relationship involving co-plaintiff William remain qualified. Margaret George is not named as a mother.",
+          "review_ids": [
+            "subject-william-glasgow-irish-newspapers-robert-mill",
+            "draft-1858-ireland-cookstown-robert-mill"
+          ],
+          "canonical_person": "robert-mill",
+          "status": "needs_amendment",
+          "coverage_reason": "The actual captured/proposed texts do not contain the complete cited record account and its identity limits. Existing citation overlap is itemized below; no generic name-only update is requested.",
+          "source_comparison": [
+            {
+              "source": {
+                "title": "Belfast News-Letter, 22 July 1858, p.3, Benjamin’s sworn testimony",
+                "url": "https://www.newspapers.com/image/390574459/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Belfast News-Letter, 19 January 1864, p.2",
+                "url": "https://www.newspapers.com/image/387805714/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            }
+          ],
+          "missing_citation_urls": [
+            "https://www.newspapers.com/image/390574459/",
+            "https://www.newspapers.com/image/387805714/"
+          ],
+          "structured_changes": []
+        }
+      ],
+      "already_covered": [],
+      "source_paths": [
+        {
+          "path": "research/latest-findings-subjects/subjects.json",
+          "json_pointer": "/groups/31/people/6"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "Belfast News-Letter, 22 July 1858, p.3, Benjamin’s sworn testimony",
+          "url": "https://www.newspapers.com/image/390574459/"
+        },
+        {
+          "title": "Belfast News-Letter, 19 January 1864, p.2",
+          "url": "https://www.newspapers.com/image/387805714/"
+        }
+      ],
+      "assembly_requirements": [
+        "Preserve every distinct existing source and all substantive captured/proposed detail.",
+        "Integrate this record account under Research Notes; candidate identity does not authorize structured family, date or place replacement."
+      ],
+      "candidate_record_scopes": [
+        {
+          "canonical_person": "robert-mill",
+          "selected_target": "Glasgow-2656",
+          "rival_profile_ids": [
+            "Glasgow-3941"
+          ],
+          "identity_status": "compatible_candidate",
+          "instruction": "This is a source-defined record account with an explicit identity hypothesis. Do not copy its people or relationships into rivals as established facts."
+        }
+      ],
+      "insertion_draft_path": "research/queue-review-2026-10-17/amendments/later-newspapers/Glasgow-2656.wiki",
+      "other_notes_compared": [
+        {
+          "path": "research/Glasgow-2656/Glasgow-2656.md",
+          "sha256": "424498db09cdc3630d305809560351fcd004242ff1b7835aa07a9007020f381e",
+          "characters": 442,
+          "kind": "update notes, not a complete proposed biography",
+          "source_citation_coverage": "None of this lane’s original newspaper image citations occurs in these notes."
+        }
+      ]
+    },
+    {
+      "profile_id": "Pike-9903",
+      "status": "needs_amendment",
+      "review_ids": [
+        "subject-newspapers-pre1900-20261004-wilhelmina-pike"
+      ],
+      "capture": {
+        "path": "tmp/queue-review-2026-10-17/later-newspapers/profile-Pike-9903-from-father.json",
+        "json_pointer": "/profile/bio",
+        "captured_at": "2026-10-17",
+        "sha256": "68e156cb19511b243a9c47e817bbe32f3dcb65209984d280cd677e70ffc799dd",
+        "characters": 1241,
+        "approved_open_nonliving": true
+      },
+      "current_proposed": null,
+      "insertions": [
+        {
+          "placement": "research_notes",
+          "wikitext": "=== Wilhelmina Pike’s marriage, 1864 ===\n\nA notice states that Benjamin Glasgow of Drapersfield, Cookstown, married Wilhelmina, eldest daughter of Richard Pike, Esq., of Beechgrove, Dungannon, at Dungannon on 16 February 1864. The newspaper names her father, but gives neither her age nor her mother.<ref>[https://www.newspapers.com/image/387828785/ Belfast News-Letter, 18 February 1864, p.2].</ref>\n\nThe distinctive name, father [[Pike-9902|Richard Pike]] of Beechgrove, and age 21 in 1864 strongly support the identification with Wilhemina/Wilhelmina born at Torren Hill on 11 November 1842. The newspaper does not identify her mother, and the later Margaret George Glasgow marriage notice does not establish that Wilhelmina was Margaret George’s mother.",
+          "review_ids": [
+            "subject-newspapers-pre1900-20261004-wilhelmina-pike"
+          ],
+          "canonical_person": "wilhelmina-pike",
+          "status": "needs_amendment",
+          "coverage_reason": "The actual captured/proposed texts do not contain the complete cited record account and its identity limits. Existing citation overlap is itemized below; no generic name-only update is requested.",
+          "source_comparison": [
+            {
+              "source": {
+                "title": "Belfast News-Letter, 18 February 1864, p.2",
+                "url": "https://www.newspapers.com/image/387828785/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            }
+          ],
+          "missing_citation_urls": [
+            "https://www.newspapers.com/image/387828785/"
+          ],
+          "structured_changes": []
+        }
+      ],
+      "already_covered": [],
+      "source_paths": [
+        {
+          "path": "research/latest-findings-subjects/subjects.json",
+          "json_pointer": "/groups/32/people/0"
+        },
+        {
+          "path": "research/newspapers-pre1900-associates-2026-10-04.md"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "Belfast News-Letter, 18 February 1864, p.2",
+          "url": "https://www.newspapers.com/image/387828785/"
+        }
+      ],
+      "assembly_requirements": [
+        "Preserve every distinct existing source and all substantive captured/proposed detail.",
+        "Integrate this record account under Research Notes; candidate identity does not authorize structured family, date or place replacement."
+      ],
+      "candidate_record_scopes": [
+        {
+          "canonical_person": "wilhelmina-pike",
+          "selected_target": "Pike-9903",
+          "rival_profile_ids": [],
+          "identity_status": "compatible_candidate",
+          "instruction": "This is a source-defined record account with an explicit identity hypothesis. Do not copy its people or relationships into rivals as established facts."
+        }
+      ],
+      "insertion_draft_path": "research/queue-review-2026-10-17/amendments/later-newspapers/Pike-9903.wiki"
+    },
+    {
+      "profile_id": "Glasgow-1387",
+      "status": "needs_amendment",
+      "review_ids": [
+        "draft-1875-ireland-parsonstown-william-alexander-parsonstown",
+        "subject-william-glasgow-irish-newspapers-william-alexander-parsonstown"
+      ],
+      "capture": {
+        "path": "data/wikitree/profile-evidence.json",
+        "json_pointer": "/profiles/Glasgow-1387/biography_wikitext",
+        "captured_at": "2026-09-27T03:22:58+00:00",
+        "sha256": "dc64f69b9bfa11b19c33e2128b5444e1efbde57b177478d8d5f30e82b116e681",
+        "characters": 2309,
+        "approved_open_nonliving": true
+      },
+      "current_proposed": null,
+      "insertions": [
+        {
+          "placement": "research_notes",
+          "wikitext": "=== Late William Alexander Glasgow, named in 1875 ===\n\nEmma’s marriage notice names her father as the late William Alexander Glasgow. She married William, second son of Robert Treacy, on 4 September 1875 at St Thomas’s Church, Belfast. Both spouses were of Parsonstown; that wording does not state her late father’s own residence, birthplace or place of death. His age, occupation, wife and parents are unstated.<ref>[https://www.newspapers.com/image/1265675182/ Belfast Evening Telegraph, 4 September 1875, p.2].</ref>\n\nAn ordinary William with no recorded middle name remains compatible. The Belfast death in 1874 and a possible later daughter fit this family comparison; the 1851 household’s absence of Emma does not exclude a child born later. The source does not identify this William as William Alexander. [[Glasgow-1737|William Glasgow of Killycurragh]], [[Glasgow-1675|William Glasgow who died in Ohio in 1855]], and [[Glasgow-3952|William Glasgow associated with County Limerick]] remain lower comparisons. The c.1815 [[Glasgow-2771|Emma Glasgow]] hypothesis cannot be combined with this William’s c.1810 birth.",
+          "review_ids": [
+            "subject-william-glasgow-irish-newspapers-william-alexander-parsonstown",
+            "draft-1875-ireland-parsonstown-william-alexander-parsonstown"
+          ],
+          "canonical_person": "william-alexander-parsonstown",
+          "status": "needs_amendment",
+          "coverage_reason": "The actual captured/proposed texts do not contain the complete cited record account and its identity limits. Existing citation overlap is itemized below; no generic name-only update is requested.",
+          "source_comparison": [
+            {
+              "source": {
+                "title": "Belfast Evening Telegraph, 4 September 1875, p.2",
+                "url": "https://www.newspapers.com/image/1265675182/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            }
+          ],
+          "missing_citation_urls": [
+            "https://www.newspapers.com/image/1265675182/"
+          ],
+          "structured_changes": []
+        }
+      ],
+      "already_covered": [],
+      "source_paths": [
+        {
+          "path": "research/latest-findings-subjects/subjects.json",
+          "json_pointer": "/groups/31/people/7"
+        },
+        {
+          "path": "research/queue-review-2026-10-17/drafts/later-newspapers/william-alexander-parsonstown.md"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "Belfast Evening Telegraph, 4 September 1875, p.2",
+          "url": "https://www.newspapers.com/image/1265675182/"
+        }
+      ],
+      "assembly_requirements": [
+        "Preserve every distinct existing source and all substantive captured/proposed detail.",
+        "Integrate this record account under Research Notes; candidate identity does not authorize structured family, date or place replacement."
+      ],
+      "candidate_record_scopes": [
+        {
+          "canonical_person": "william-alexander-parsonstown",
+          "selected_target": "Glasgow-1387",
+          "rival_profile_ids": [
+            "Glasgow-1737",
+            "Glasgow-1675",
+            "Glasgow-3952"
+          ],
+          "identity_status": "compatible_candidate",
+          "instruction": "This is a source-defined record account with an explicit identity hypothesis. Do not copy its people or relationships into rivals as established facts."
+        }
+      ],
+      "insertion_draft_path": "research/queue-review-2026-10-17/amendments/later-newspapers/Glasgow-1387.wiki"
+    },
+    {
+      "profile_id": "Glasgow-3814",
+      "status": "needs_amendment",
+      "review_ids": [
+        "draft-1820-ireland-belfast-belfast-grocer",
+        "draft-1858-ireland-cookstown-cookstown-uncle",
+        "subject-william-glasgow-irish-newspapers-belfast-grocer"
+      ],
+      "capture": {
+        "path": "tmp/queue-review-2026-10-17/later-newspapers/profile-Glasgow-3814.json",
+        "json_pointer": "/profile/bio",
+        "captured_at": "2026-10-17",
+        "sha256": "3fb55ff106713fc256befdde90aa5d330a930d4f51ed921f481cd09a33019dcf",
+        "characters": 654,
+        "approved_open_nonliving": true
+      },
+      "current_proposed": {
+        "path": "research/william-newspaper-profile-drafts-2026-10-04/Glasgow-3814.wiki",
+        "sha256": "b010541dafd668bc1b7a95273660aa115cb65ed7d89dd0daf13ad9d86954114b",
+        "characters": 1938
+      },
+      "insertions": [
+        {
+          "placement": "research_notes",
+          "wikitext": "=== William Glasgow’s Belfast grocery business, 1820 ===\n\nIn 1820 William Glasgow advertised that he had moved his shop and stores from Rosemary Street to 34 Smith Street, Belfast. The advertisement describes a commercial address; it supplies no age or family and does not establish a birthplace.<ref>[https://www.newspapers.com/image/61259418/ The Irishman, 3 November 1820, p.1].</ref><ref>[https://www.newspapers.com/image/61258642/ The Irishman, 16 June 1820, p.3].</ref><ref>[https://www.newspapers.com/image/61258687/ The Irishman, 23 June 1820, p. 3, reprint of 15 June Belfast banks notice].</ref>\n\nThe retired Cookstown merchant’s estimated 1796 birth is compatible with an adult grocer in 1820. The same trade makes an earlier Belfast period possible, but neither residence continuity nor a family clause establishes identity. The later Cookstown senior witness is also not proved by this advertisement.",
+          "review_ids": [
+            "subject-william-glasgow-irish-newspapers-belfast-grocer",
+            "draft-1820-ireland-belfast-belfast-grocer"
+          ],
+          "canonical_person": "belfast-grocer",
+          "status": "needs_amendment",
+          "coverage_reason": "The actual captured/proposed texts do not contain the complete cited record account and its identity limits. Existing citation overlap is itemized below; no generic name-only update is requested.",
+          "source_comparison": [
+            {
+              "source": {
+                "title": "The Irishman, 3 November 1820, p.1",
+                "url": "https://www.newspapers.com/image/61259418/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "The Irishman, 16 June 1820, p.3",
+                "url": "https://www.newspapers.com/image/61258642/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "The Irishman, 23 June 1820, p. 3, reprint of 15 June Belfast banks notice",
+                "url": "https://www.newspapers.com/image/61258687/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            }
+          ],
+          "missing_citation_urls": [
+            "https://www.newspapers.com/image/61259418/",
+            "https://www.newspapers.com/image/61258642/",
+            "https://www.newspapers.com/image/61258687/"
+          ],
+          "structured_changes": []
+        },
+        {
+          "placement": "research_notes",
+          "wikitext": "=== Senior William Glasgow and the mill family ===\n\nA report describes the retirement of William Glasgow of Cookstown on 1 January 1856 and a presentation by commercial friends at the Imperial Hotel, Belfast. In the 1858 mill case Benjamin Glasgow’s evidence describes his companion as witness’s uncle, Mr. Glasgow, senior; identification as William belongs to the separate case context. Counsel’s reference to Robert’s sons supports, but does not directly state, a brother relationship between the two co-plaintiffs. A November 1846 Claggan church collection names Wm. Glasgow among Cookstown collectors and donors; it does not distinguish the local namesakes.<ref>[https://www.newspapers.com/image/390574459/ Belfast News-Letter, 22 July 1858, p.3, Benjamin’s sworn testimony].</ref><ref>[https://www.newspapers.com/image/390544967/ Belfast News-Letter, 4 January 1856, p.1].</ref><ref>[https://www.newspapers.com/image/390561508/ Belfast News-Letter, 10 November 1846, p.4, Claggan Presbyterian Church opening].</ref>\n\nThe retired-merchant occupation, locality and age in the 1883 death return make the retirement identification strong and the uncle identification compatible. The uncle’s paternal or maternal side is unstated. [[Glasgow-585|William Glasgow of Montober]] remains a weaker candidate. The 1846 collection gives no kinship or address distinguishing the local Williams.",
+          "review_ids": [
+            "draft-1858-ireland-cookstown-cookstown-uncle"
+          ],
+          "canonical_person": "cookstown-uncle",
+          "status": "needs_amendment",
+          "coverage_reason": "The actual captured/proposed texts do not contain the complete cited record account and its identity limits. Existing citation overlap is itemized below; no generic name-only update is requested.",
+          "source_comparison": [
+            {
+              "source": {
+                "title": "Belfast News-Letter, 22 July 1858, p.3, Benjamin’s sworn testimony",
+                "url": "https://www.newspapers.com/image/390574459/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [
+                {
+                  "path": "research/william-newspaper-profile-drafts-2026-10-04/Glasgow-3814.wiki",
+                  "json_pointer": null,
+                  "line": 14,
+                  "excerpt": "In 1858 a senior William Glasgow testified as uncle of the plaintiffs Benjamin and William Glasgow in a Cookstown mill dispute.<ref>[https://www.newspapers.com/image/390574459/ Belfast News-Letter, 22 July 1858, p.3].</ref> The full viewer identifies Benjamin as son of the late Robert Glasgow; counsel’s reference to Robert’s sons supports a qualified brother inference for co-plaintiff William. The uncle’s side of the family is unstated. This retired merchant remains a strong compatible candidate",
+                  "url": "https://www.newspapers.com/image/390574459/"
+                }
+              ],
+              "assessment": "Citation found; fact-level coverage assessed separately, not assumed from URL presence."
+            },
+            {
+              "source": {
+                "title": "Belfast News-Letter, 4 January 1856, p.1",
+                "url": "https://www.newspapers.com/image/390544967/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [
+                {
+                  "path": "research/william-newspaper-profile-drafts-2026-10-04/Glasgow-3814.wiki",
+                  "json_pointer": null,
+                  "line": 12,
+                  "excerpt": "A Belfast News-Letter report describes William Glasgow, Esq., of Cookstown retiring from business on 1 January 1856. Commercial friends met at the Imperial Hotel, Belfast, and presented a silver ewer and cake basket.<ref>[https://www.newspapers.com/image/390544967/ Belfast News-Letter, 4 January 1856, p.1].</ref> His name, district, age and retired-merchant occupation in the 1883 death return make this a strong possible identification.<ref>[https://www.irishgenealogy.ie/files/civil/deaths_return",
+                  "url": "https://www.newspapers.com/image/390544967/"
+                }
+              ],
+              "assessment": "Citation found; fact-level coverage assessed separately, not assumed from URL presence."
+            },
+            {
+              "source": {
+                "title": "Belfast News-Letter, 10 November 1846, p.4, Claggan Presbyterian Church opening",
+                "url": "https://www.newspapers.com/image/390561508/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            }
+          ],
+          "missing_citation_urls": [
+            "https://www.newspapers.com/image/390561508/"
+          ],
+          "structured_changes": []
+        }
+      ],
+      "already_covered": [
+        {
+          "path": "research/william-newspaper-profile-drafts-2026-10-04/Glasgow-3814.wiki",
+          "line": 12,
+          "fact": "1 January 1856 retirement and Imperial Hotel presentation",
+          "url": "https://www.newspapers.com/image/390544967/",
+          "note": "Already present only in proposed text, not the capture.",
+          "excerpt": "A Belfast News-Letter report describes William Glasgow, Esq., of Cookstown retiring from business on 1 January 1856. Commercial friends met at the Imperial Hotel, Belfast, and presented a silver ewer and cake basket.<ref>[https://www.newspapers.com/image/390544967/ Belfast News-Letter, 4 January 1856, p.1].</ref> His name, district, age and retired-merchant occupation in the 1883 death return make this a strong possible identification.<ref>[https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1883/06356/4823575.pdf Cookstown civil death return, 4 July 1883, printed p.300, entry 244].</ref>"
+        },
+        {
+          "path": "research/william-newspaper-profile-drafts-2026-10-04/Glasgow-3814.wiki",
+          "line": 14,
+          "fact": "1858 mill case source and compatible senior witness",
+          "url": "https://www.newspapers.com/image/390574459/",
+          "note": "Source present, but proposed wording calls him uncle of both plaintiffs; exact named-Benjamin scope requires correction.",
+          "excerpt": "In 1858 a senior William Glasgow testified as uncle of the plaintiffs Benjamin and William Glasgow in a Cookstown mill dispute.<ref>[https://www.newspapers.com/image/390574459/ Belfast News-Letter, 22 July 1858, p.3].</ref> The full viewer identifies Benjamin as son of the late Robert Glasgow; counsel’s reference to Robert’s sons supports a qualified brother inference for co-plaintiff William. The uncle’s side of the family is unstated. This retired merchant remains a strong compatible candidate for the senior witness, but no inspected will or deed yet joins him to the nephews."
+        }
+      ],
+      "source_paths": [
+        {
+          "path": "research/latest-findings-subjects/subjects.json",
+          "json_pointer": "/groups/31/people/2"
+        },
+        {
+          "path": "research/latest-findings-subjects/subjects.json",
+          "json_pointer": "/groups/31/people/3"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "The Irishman, 3 November 1820, p.1",
+          "url": "https://www.newspapers.com/image/61259418/"
+        },
+        {
+          "title": "The Irishman, 16 June 1820, p.3",
+          "url": "https://www.newspapers.com/image/61258642/"
+        },
+        {
+          "title": "The Irishman, 23 June 1820, p. 3, reprint of 15 June Belfast banks notice",
+          "url": "https://www.newspapers.com/image/61258687/"
+        },
+        {
+          "title": "Belfast News-Letter, 22 July 1858, p.3, Benjamin’s sworn testimony",
+          "url": "https://www.newspapers.com/image/390574459/"
+        },
+        {
+          "title": "Belfast News-Letter, 4 January 1856, p.1",
+          "url": "https://www.newspapers.com/image/390544967/"
+        },
+        {
+          "title": "Belfast News-Letter, 10 November 1846, p.4, Claggan Presbyterian Church opening",
+          "url": "https://www.newspapers.com/image/390561508/"
+        }
+      ],
+      "assembly_requirements": [
+        "Preserve every distinct existing source and all substantive captured/proposed detail.",
+        "Integrate this record account under Research Notes; candidate identity does not authorize structured family, date or place replacement."
+      ],
+      "candidate_record_scopes": [
+        {
+          "canonical_person": "belfast-grocer",
+          "selected_target": "Glasgow-3814",
+          "rival_profile_ids": [],
+          "identity_status": "compatible_candidate",
+          "instruction": "This is a source-defined record account with an explicit identity hypothesis. Do not copy its people or relationships into rivals as established facts."
+        },
+        {
+          "canonical_person": "cookstown-uncle",
+          "selected_target": "Glasgow-3814",
+          "rival_profile_ids": [
+            "Glasgow-585"
+          ],
+          "identity_status": "compatible_candidate",
+          "instruction": "This is a source-defined record account with an explicit identity hypothesis. Do not copy its people or relationships into rivals as established facts."
+        }
+      ],
+      "insertion_draft_path": "research/queue-review-2026-10-17/amendments/later-newspapers/Glasgow-3814.wiki",
+      "replacements": [
+        {
+          "path": "research/william-newspaper-profile-drafts-2026-10-04/Glasgow-3814.wiki",
+          "old": "In 1858 a senior William Glasgow testified as uncle of the plaintiffs Benjamin and William Glasgow in a Cookstown mill dispute.",
+          "new": "In the 1858 Cookstown mill dispute, Benjamin Glasgow described a companion as “witness’s uncle, Mr. Glasgow, sen.”; identification as William belongs to the separate case context. Extending the uncle relationship to co-plaintiff William depends on the qualified brother inference.",
+          "reason": "The original names Benjamin as witness; it does not directly call the senior man uncle of both plaintiffs."
+        }
+      ]
+    },
+    {
+      "profile_id": "Glasgow-1737",
+      "status": "needs_amendment",
+      "review_ids": [
+        "draft-1858-ireland-cookstown-cookstown-william-partner",
+        "subject-william-glasgow-irish-newspapers-cookstown-william-partner"
+      ],
+      "capture": {
+        "path": "data/wikitree/profile-evidence.json",
+        "json_pointer": "/profiles/Glasgow-1737/biography_wikitext",
+        "captured_at": "2026-08-07T09:54:35+00:00",
+        "sha256": "540e9513393a0641e2dd2ab1e82691df9ac85ecb1eccc51d435912d0aa734ec7",
+        "characters": 1455,
+        "approved_open_nonliving": true
+      },
+      "current_proposed": null,
+      "insertions": [
+        {
+          "placement": "research_notes",
+          "wikitext": "=== William Glasgow, Drapersfield mill partner ===\n\nBenjamin and William Glasgow were co-plaintiffs in the 1858 River Ardtrea mill-water dispute against John Sloan. Benjamin’s testimony explicitly identified his own father as Robert, deceased in 1856; counsel’s reference to Robert’s sons supports a qualified brother inference for William. An advertisement dated 16 January 1864 names Benjamin and William Glasgow of Drapersfield Mills offering premises formerly occupied by the late Robert. A later court report describes their cheque for £71 12s 7d in favour of John Finlay junior.<ref>[https://www.newspapers.com/image/390574459/ Belfast News-Letter, 22 July 1858, p.3, Benjamin’s sworn testimony].</ref><ref>[https://www.newspapers.com/image/390575046/ Belfast News-Letter, 23 July 1858, p.4].</ref><ref>[https://www.newspapers.com/image/387805714/ Belfast News-Letter, 19 January 1864, p.2].</ref><ref>[https://www.newspapers.com/image/387904527/ Belfast News-Letter, 11 August 1866, p.4].</ref>\n\nThe adult period and Killycurragh district fit, but William’s own 1846 marriage names father David, whereas the mill evidence supports a qualified inference that the partner was Robert’s son. That source conflict prevents treating the partner as certainly this William. The senior William uncle is a separate man; counsel did not identify which plaintiff was a minor.",
+          "review_ids": [
+            "subject-william-glasgow-irish-newspapers-cookstown-william-partner",
+            "draft-1858-ireland-cookstown-cookstown-william-partner"
+          ],
+          "canonical_person": "cookstown-william-partner",
+          "status": "needs_amendment",
+          "coverage_reason": "The actual captured/proposed texts do not contain the complete cited record account and its identity limits. Existing citation overlap is itemized below; no generic name-only update is requested.",
+          "source_comparison": [
+            {
+              "source": {
+                "title": "Belfast News-Letter, 22 July 1858, p.3, Benjamin’s sworn testimony",
+                "url": "https://www.newspapers.com/image/390574459/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Belfast News-Letter, 23 July 1858, p.4",
+                "url": "https://www.newspapers.com/image/390575046/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Belfast News-Letter, 19 January 1864, p.2",
+                "url": "https://www.newspapers.com/image/387805714/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Belfast News-Letter, 11 August 1866, p.4",
+                "url": "https://www.newspapers.com/image/387904527/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            }
+          ],
+          "missing_citation_urls": [
+            "https://www.newspapers.com/image/390574459/",
+            "https://www.newspapers.com/image/390575046/",
+            "https://www.newspapers.com/image/387805714/",
+            "https://www.newspapers.com/image/387904527/"
+          ],
+          "structured_changes": []
+        }
+      ],
+      "already_covered": [],
+      "source_paths": [
+        {
+          "path": "research/latest-findings-subjects/subjects.json",
+          "json_pointer": "/groups/31/people/4"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "Belfast News-Letter, 22 July 1858, p.3, Benjamin’s sworn testimony",
+          "url": "https://www.newspapers.com/image/390574459/"
+        },
+        {
+          "title": "Belfast News-Letter, 23 July 1858, p.4",
+          "url": "https://www.newspapers.com/image/390575046/"
+        },
+        {
+          "title": "Belfast News-Letter, 19 January 1864, p.2",
+          "url": "https://www.newspapers.com/image/387805714/"
+        },
+        {
+          "title": "Belfast News-Letter, 11 August 1866, p.4",
+          "url": "https://www.newspapers.com/image/387904527/"
+        }
+      ],
+      "assembly_requirements": [
+        "Preserve every distinct existing source and all substantive captured/proposed detail.",
+        "Integrate this record account under Research Notes; candidate identity does not authorize structured family, date or place replacement."
+      ],
+      "candidate_record_scopes": [
+        {
+          "canonical_person": "cookstown-william-partner",
+          "selected_target": "Glasgow-1737",
+          "rival_profile_ids": [],
+          "identity_status": "compatible_candidate",
+          "instruction": "This is a source-defined record account with an explicit identity hypothesis. Do not copy its people or relationships into rivals as established facts."
+        }
+      ],
+      "insertion_draft_path": "research/queue-review-2026-10-17/amendments/later-newspapers/Glasgow-1737.wiki"
+    },
+    {
+      "profile_id": "Glasgow-2915",
+      "status": "needs_amendment",
+      "review_ids": [
+        "subject-william-glasgow-irish-newspapers-kildress-william"
+      ],
+      "capture": {
+        "path": "data/wikitree/profile-evidence.json",
+        "json_pointer": "/profiles/Glasgow-2915/biography_wikitext",
+        "captured_at": "2026-09-07T21:05:55+00:00",
+        "sha256": "5fb31af5eecdee38f1d0cbfc6c73abc074b415b37120977d7dfdd4c8da3736c0",
+        "characters": 1466,
+        "approved_open_nonliving": true
+      },
+      "current_proposed": {
+        "path": "research/william-newspaper-profile-drafts-2026-10-04/Glasgow-2915.wiki",
+        "sha256": "7762b52d623df941c3cdc2cc1ceeac51eadc17c9cd51119b23332afaa5847c2e",
+        "characters": 2068
+      },
+      "insertions": [
+        {
+          "placement": "research_notes",
+          "wikitext": "=== Further publication of the Kildress resolutions, 1793 ===\n\nA further issue repeats the Kildress resolutions naming Hugh Faulkner and William Glasgow as delegates and Glasgow taking the chair. The meeting date is 16 January 1793, established by the complete headed account; the 30 January issue date is a publication date, not another meeting. No spouse, parent or birthplace is stated.<ref>[https://www.newspapers.com/image/72019090/ Northern Star, 23 January 1793, p.2].</ref><ref>[https://www.newspapers.com/image/72019250/ Northern Star, 26 January 1793, p.4, repeated Kildress resolutions].</ref><ref>[https://www.newspapers.com/image/72019314/ Northern Star, 1793-01-30, p.4].</ref>\n\nThe repeated publication supplies no new family relationship. The reported c.1760 birth and Cookstown association support a compatible delegate identification, but the notice proves neither his attached father nor spouse.",
+          "review_ids": [
+            "subject-william-glasgow-irish-newspapers-kildress-william"
+          ],
+          "canonical_person": "kildress-william",
+          "status": "needs_amendment",
+          "coverage_reason": "The actual captured/proposed texts do not contain the complete cited record account and its identity limits. Existing citation overlap is itemized below; no generic name-only update is requested.",
+          "source_comparison": [
+            {
+              "source": {
+                "title": "Northern Star, 23 January 1793, p.2",
+                "url": "https://www.newspapers.com/image/72019090/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [
+                {
+                  "path": "research/william-newspaper-profile-drafts-2026-10-04/Glasgow-2915.wiki",
+                  "json_pointer": null,
+                  "line": 15,
+                  "excerpt": "The Northern Star report of a meeting at Kildress church on 16 January 1793 names William Glasgow and Hugh Faulkner as delegates to the Dungannon meeting on parliamentary reform. William subsequently took the chair and signed the thanks resolution.<ref>[https://www.newspapers.com/image/72019090/ Northern Star, 23 January 1793, p.2].</ref> The reported birth about 1760 and Cookstown association make this a compatible identity candidate, but the notice states no age, wife, father or precise reside",
+                  "url": "https://www.newspapers.com/image/72019090/"
+                }
+              ],
+              "assessment": "Citation found; fact-level coverage assessed separately, not assumed from URL presence."
+            },
+            {
+              "source": {
+                "title": "Northern Star, 26 January 1793, p.4, repeated Kildress resolutions",
+                "url": "https://www.newspapers.com/image/72019250/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Northern Star, 1793-01-30, p.4",
+                "url": "https://www.newspapers.com/image/72019314/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            }
+          ],
+          "missing_citation_urls": [
+            "https://www.newspapers.com/image/72019250/",
+            "https://www.newspapers.com/image/72019314/"
+          ],
+          "structured_changes": []
+        }
+      ],
+      "already_covered": [
+        {
+          "path": "research/william-newspaper-profile-drafts-2026-10-04/Glasgow-2915.wiki",
+          "line": 15,
+          "fact": "16 January 1793 Kildress delegation, chairmanship and thanks resolution",
+          "url": "https://www.newspapers.com/image/72019090/",
+          "note": "Role already present in proposed full text; additional reprint citation/date distinction remains missing.",
+          "excerpt": "The Northern Star report of a meeting at Kildress church on 16 January 1793 names William Glasgow and Hugh Faulkner as delegates to the Dungannon meeting on parliamentary reform. William subsequently took the chair and signed the thanks resolution.<ref>[https://www.newspapers.com/image/72019090/ Northern Star, 23 January 1793, p.2].</ref> The reported birth about 1760 and Cookstown association make this a compatible identity candidate, but the notice states no age, wife, father or precise residence. It does not establish either attached relationship."
+        }
+      ],
+      "source_paths": [
+        {
+          "path": "research/latest-findings-subjects/subjects.json",
+          "json_pointer": "/groups/31/people/1"
+        },
+        {
+          "path": "surname-research/new-people/1793_Ireland_Kildress_kildress_william.md"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "Northern Star, 23 January 1793, p.2",
+          "url": "https://www.newspapers.com/image/72019090/"
+        },
+        {
+          "title": "Northern Star, 26 January 1793, p.4, repeated Kildress resolutions",
+          "url": "https://www.newspapers.com/image/72019250/"
+        },
+        {
+          "title": "Northern Star, 1793-01-30, p.4",
+          "url": "https://www.newspapers.com/image/72019314/"
+        }
+      ],
+      "assembly_requirements": [
+        "Preserve every distinct existing source and all substantive captured/proposed detail.",
+        "Integrate this record account under Research Notes; candidate identity does not authorize structured family, date or place replacement."
+      ],
+      "candidate_record_scopes": [
+        {
+          "canonical_person": "kildress-william",
+          "selected_target": "Glasgow-2915",
+          "rival_profile_ids": [],
+          "identity_status": "compatible_candidate",
+          "instruction": "This is a source-defined record account with an explicit identity hypothesis. Do not copy its people or relationships into rivals as established facts."
+        }
+      ],
+      "insertion_draft_path": "research/queue-review-2026-10-17/amendments/later-newspapers/Glasgow-2915.wiki"
+    },
+    {
+      "profile_id": "Glasgow-3324",
+      "status": "needs_amendment",
+      "review_ids": [
+        "subject-william-glasgow-irish-newspapers-captain-william"
+      ],
+      "capture": {
+        "path": "data/wikitree/profile-evidence.json",
+        "json_pointer": "/profiles/Glasgow-3324/biography_wikitext",
+        "captured_at": "2026-09-27T03:22:58+00:00",
+        "sha256": "caed86d74d3ee37c9a496641a281de23b846bff36b413d2d495c4b1809e12c6a",
+        "characters": 3315,
+        "approved_open_nonliving": true
+      },
+      "current_proposed": {
+        "path": "research/william-newspaper-profile-drafts-2026-10-04/Glasgow-3324.wiki",
+        "sha256": "dc706e003fd2e0a23d603b8d4b2cf593249984a91a88f2fe2ccac26626645f1d",
+        "characters": 3976
+      },
+      "insertions": [
+        {
+          "placement": "research_notes",
+          "wikitext": "=== Further shipping evidence, 1792–1797 ===\n\nAdditional advertisements in April and May 1792 explicitly name William Glasgow as master of the brig William for Rotterdam and return voyages; other named-master advertisements concern Oporto and Bordeaux. Surname-only arrival and cargo notices continue the William/Captain Glasgow trading sequence through 1796–1797, with probable rather than proved continuity. A February 1793 report describes departure from Bordeaux immediately before an embargo; it does not prove that the ship was captured or detained. Distinct notices name William Glasgow as master of the Jean in 1793 and 1794, including a safe arrival at Derry from London. Jean and William are different vessels, with compatible but unproved continuity of master. Several apparent advertisement/issue-date conflicts arise from the Northern Star’s printed issue ranges; the printed range and notice date should retain their separate meanings. Voyage ports and merchant addresses are not personal residence or family evidence.<ref>[https://www.newspapers.com/image/72014483/ Northern Star, 21 April 1792, p.1].</ref><ref>[https://www.newspapers.com/image/72014572/ Northern Star, 25 April 1792, p.1].</ref><ref>[https://www.newspapers.com/image/72014689/ Northern Star, 28 April 1792, p.3].</ref><ref>[https://www.newspapers.com/image/72014781/ Northern Star, 2 May 1792, p.4].</ref><ref>[https://www.newspapers.com/image/72014784/ Northern Star, 5 May 1792, p.1].</ref><ref>[https://www.newspapers.com/image/72015499/ Northern Star, 28 July 1792, p.1].</ref><ref>[https://www.newspapers.com/image/72015521/ Northern Star, 28 July 1792, p.5].</ref><ref>[https://www.newspapers.com/image/72017846/ Northern Star, 1792-12-12, p.1].</ref><ref>[https://www.newspapers.com/image/72015527/ Northern Star, 1792-08-01, p.1].</ref><ref>[https://www.newspapers.com/image/72017668/ Northern Star, 5 December 1792, p.2].</ref><ref>[https://www.newspapers.com/image/72017751/ Northern Star, 8 December 1792, p.1].</ref><ref>[https://www.newspapers.com/image/61256880/ Northern Star, 7 January 1796, p.3].</ref><ref>[https://www.newspapers.com/image/61256896/ Northern Star, 11 January 1796, p.1].</ref><ref>[https://www.newspapers.com/image/61256932/ Northern Star, 14 January 1796, p.1].</ref><ref>[https://www.newspapers.com/image/72012833/ Northern Star, 1792-01-18, p.4].</ref><ref>[https://www.newspapers.com/image/72013663/ Northern Star, 1792-03-10, p.3].</ref><ref>[https://www.newspapers.com/image/72014445/ Northern Star, 1792-04-18, p.3].</ref><ref>[https://www.newspapers.com/image/72015437/ Northern Star, 1792-07-18, p.3].</ref><ref>[https://www.newspapers.com/image/72015451/ Northern Star, 1792-07-21, p.1].</ref><ref>[https://www.newspapers.com/image/72015480/ Northern Star, 1792-07-25, p.1].</ref><ref>[https://www.newspapers.com/image/72015583/ Northern Star, 1792-08-08, p.1].</ref><ref>[https://www.newspapers.com/image/72015837/ Northern Star, 1792-09-15, p.3].</ref><ref>[https://www.newspapers.com/image/72016002/ Northern Star, 1792-09-26, p.4].</ref><ref>[https://www.newspapers.com/image/72016067/ Northern Star, 1792-10-03, p.1].</ref><ref>[https://www.newspapers.com/image/72017601/ Northern Star, 1792-12-01, p.3].</ref><ref>[https://www.newspapers.com/image/72017937/ Northern Star, 1792-12-15, p.1].</ref><ref>[https://www.newspapers.com/image/72018049/ Northern Star, 1792-12-19, p.1].</ref><ref>[https://www.newspapers.com/image/72018143/ Northern Star, 1792-12-22, p.1].</ref><ref>[https://www.newspapers.com/image/72018327/ Northern Star, 1792-12-26, p.4].</ref><ref>[https://www.newspapers.com/image/72018438/ Northern Star, 1793-01-02, p.1].</ref><ref>[https://www.newspapers.com/image/72018546/ Northern Star, 1793-01-05, p.1].</ref><ref>[https://www.newspapers.com/image/72018636/ Northern Star, 1793-01-09, p.1].</ref><ref>[https://www.newspapers.com/image/72019727/ Northern Star, 1793-02-20, p.3].</ref><ref>[https://www.newspapers.com/image/72022133/ Northern Star, 1793-09-21, p.3].</ref><ref>[https://www.newspapers.com/image/72023508/ Northern Star, 1793-12-12, p.3].</ref><ref>[https://www.newspapers.com/image/61260098/ The Northern Star, 1794-04-07, p.4].</ref><ref>[https://www.newspapers.com/image/61258955/ The Northern Star, 1796-07-04, p.3].</ref><ref>[https://www.newspapers.com/image/61258993/ The Northern Star, 1796-07-08, p.4].</ref><ref>[https://www.newspapers.com/image/61259009/ The Northern Star, 1796-07-11, p.2].</ref><ref>[https://www.newspapers.com/image/61259057/ The Northern Star, 1796-07-15, p.2].</ref><ref>[https://www.newspapers.com/image/61258985/ The Northern Star, 1796-07-08, p.3].</ref><ref>[https://www.newspapers.com/image/61259369/ The Northern Star, 1796-08-12, p.1].</ref><ref>[https://www.newspapers.com/image/61259519/ The Northern Star, 1796-08-29, p.1].</ref><ref>[https://www.newspapers.com/image/61260443/ The Northern Star, 1796-11-14, p.4].</ref><ref>[https://www.newspapers.com/image/61261058/ The Northern Star, 1797-01-16, p.1].</ref><ref>[https://www.newspapers.com/image/61259959/ The Northern Star, 1796-10-10, p.3].</ref><ref>[https://www.newspapers.com/image/61259973/ Northern Star original masthead, 1796-10-14].</ref><ref>[https://www.newspapers.com/image/61259988/ The Northern Star, 1796-10-14, p.3].</ref><ref>[https://www.newspapers.com/image/61258934/ Northern Star original masthead, 1796-07-04].</ref><ref>[https://www.newspapers.com/image/61259940/ Northern Star original masthead, 1796-10-10].</ref><ref>[https://www.newspapers.com/image/61256863/ Northern Star original masthead, 1796-01-07].</ref>\n\nThe captain remains a compatible identification with William of Larne, supported by age, coastal locality and the inherited occupational suggestion. No advertisement names his wife or a personal Larne residence. The named master of the Jean may be the same man, but the vessel names do not prove it. The will dated 6 December 1815 remains the useful family-and-occupation test.",
+          "review_ids": [
+            "subject-william-glasgow-irish-newspapers-captain-william"
+          ],
+          "canonical_person": "captain-william",
+          "status": "needs_amendment",
+          "coverage_reason": "The actual captured/proposed texts do not contain the complete cited record account and its identity limits. Existing citation overlap is itemized below; no generic name-only update is requested.",
+          "source_comparison": [
+            {
+              "source": {
+                "title": "Northern Star, 21 April 1792, p.1",
+                "url": "https://www.newspapers.com/image/72014483/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Northern Star, 25 April 1792, p.1",
+                "url": "https://www.newspapers.com/image/72014572/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Northern Star, 28 April 1792, p.3",
+                "url": "https://www.newspapers.com/image/72014689/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Northern Star, 2 May 1792, p.4",
+                "url": "https://www.newspapers.com/image/72014781/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Northern Star, 5 May 1792, p.1",
+                "url": "https://www.newspapers.com/image/72014784/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Northern Star, 28 July 1792, p.1",
+                "url": "https://www.newspapers.com/image/72015499/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [
+                {
+                  "path": "research/william-newspaper-profile-drafts-2026-10-04/Glasgow-3324.wiki",
+                  "json_pointer": null,
+                  "line": 25,
+                  "excerpt": "The Northern Star names Wm. Glasgow as master of the brig William in advertisements for voyages from Belfast to Oporto in July 1792 and Bordeaux in December 1792.<ref>[https://www.newspapers.com/image/72015499/ Northern Star, 28 July 1792, p.1].</ref><ref>[https://www.newspapers.com/image/72017846/ Northern Star, 12 December 1792, p.1].</ref> These inspected notices substantiate the existence of the same-name captain mentioned in the family chronology, but they do not give his family or a Larne ",
+                  "url": "https://www.newspapers.com/image/72015499/"
+                }
+              ],
+              "assessment": "Citation found; fact-level coverage assessed separately, not assumed from URL presence."
+            },
+            {
+              "source": {
+                "title": "Northern Star, 28 July 1792, p.5",
+                "url": "https://www.newspapers.com/image/72015521/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Northern Star, 1792-12-12, p.1",
+                "url": "https://www.newspapers.com/image/72017846/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [
+                {
+                  "path": "research/william-newspaper-profile-drafts-2026-10-04/Glasgow-3324.wiki",
+                  "json_pointer": null,
+                  "line": 25,
+                  "excerpt": "The Northern Star names Wm. Glasgow as master of the brig William in advertisements for voyages from Belfast to Oporto in July 1792 and Bordeaux in December 1792.<ref>[https://www.newspapers.com/image/72015499/ Northern Star, 28 July 1792, p.1].</ref><ref>[https://www.newspapers.com/image/72017846/ Northern Star, 12 December 1792, p.1].</ref> These inspected notices substantiate the existence of the same-name captain mentioned in the family chronology, but they do not give his family or a Larne ",
+                  "url": "https://www.newspapers.com/image/72017846/"
+                }
+              ],
+              "assessment": "Citation found; fact-level coverage assessed separately, not assumed from URL presence."
+            },
+            {
+              "source": {
+                "title": "Northern Star, 1792-08-01, p.1",
+                "url": "https://www.newspapers.com/image/72015527/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Northern Star, 5 December 1792, p.2",
+                "url": "https://www.newspapers.com/image/72017668/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Northern Star, 8 December 1792, p.1",
+                "url": "https://www.newspapers.com/image/72017751/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Northern Star, 7 January 1796, p.3",
+                "url": "https://www.newspapers.com/image/61256880/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Northern Star, 11 January 1796, p.1",
+                "url": "https://www.newspapers.com/image/61256896/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Northern Star, 14 January 1796, p.1",
+                "url": "https://www.newspapers.com/image/61256932/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Northern Star, 1792-01-18, p.4",
+                "url": "https://www.newspapers.com/image/72012833/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Northern Star, 1792-03-10, p.3",
+                "url": "https://www.newspapers.com/image/72013663/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Northern Star, 1792-04-18, p.3",
+                "url": "https://www.newspapers.com/image/72014445/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Northern Star, 1792-07-18, p.3",
+                "url": "https://www.newspapers.com/image/72015437/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Northern Star, 1792-07-21, p.1",
+                "url": "https://www.newspapers.com/image/72015451/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Northern Star, 1792-07-25, p.1",
+                "url": "https://www.newspapers.com/image/72015480/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Northern Star, 1792-08-08, p.1",
+                "url": "https://www.newspapers.com/image/72015583/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Northern Star, 1792-09-15, p.3",
+                "url": "https://www.newspapers.com/image/72015837/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Northern Star, 1792-09-26, p.4",
+                "url": "https://www.newspapers.com/image/72016002/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Northern Star, 1792-10-03, p.1",
+                "url": "https://www.newspapers.com/image/72016067/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Northern Star, 1792-12-01, p.3",
+                "url": "https://www.newspapers.com/image/72017601/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Northern Star, 1792-12-15, p.1",
+                "url": "https://www.newspapers.com/image/72017937/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Northern Star, 1792-12-19, p.1",
+                "url": "https://www.newspapers.com/image/72018049/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Northern Star, 1792-12-22, p.1",
+                "url": "https://www.newspapers.com/image/72018143/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Northern Star, 1792-12-26, p.4",
+                "url": "https://www.newspapers.com/image/72018327/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Northern Star, 1793-01-02, p.1",
+                "url": "https://www.newspapers.com/image/72018438/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Northern Star, 1793-01-05, p.1",
+                "url": "https://www.newspapers.com/image/72018546/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Northern Star, 1793-01-09, p.1",
+                "url": "https://www.newspapers.com/image/72018636/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Northern Star, 1793-02-20, p.3",
+                "url": "https://www.newspapers.com/image/72019727/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Northern Star, 1793-09-21, p.3",
+                "url": "https://www.newspapers.com/image/72022133/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Northern Star, 1793-12-12, p.3",
+                "url": "https://www.newspapers.com/image/72023508/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "The Northern Star, 1794-04-07, p.4",
+                "url": "https://www.newspapers.com/image/61260098/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "The Northern Star, 1796-07-04, p.3",
+                "url": "https://www.newspapers.com/image/61258955/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "The Northern Star, 1796-07-08, p.4",
+                "url": "https://www.newspapers.com/image/61258993/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "The Northern Star, 1796-07-11, p.2",
+                "url": "https://www.newspapers.com/image/61259009/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "The Northern Star, 1796-07-15, p.2",
+                "url": "https://www.newspapers.com/image/61259057/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "The Northern Star, 1796-07-08, p.3",
+                "url": "https://www.newspapers.com/image/61258985/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "The Northern Star, 1796-08-12, p.1",
+                "url": "https://www.newspapers.com/image/61259369/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "The Northern Star, 1796-08-29, p.1",
+                "url": "https://www.newspapers.com/image/61259519/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "The Northern Star, 1796-11-14, p.4",
+                "url": "https://www.newspapers.com/image/61260443/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "The Northern Star, 1797-01-16, p.1",
+                "url": "https://www.newspapers.com/image/61261058/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "The Northern Star, 1796-10-10, p.3",
+                "url": "https://www.newspapers.com/image/61259959/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Northern Star original masthead, 1796-10-14",
+                "url": "https://www.newspapers.com/image/61259973/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "The Northern Star, 1796-10-14, p.3",
+                "url": "https://www.newspapers.com/image/61259988/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Northern Star original masthead, 1796-07-04",
+                "url": "https://www.newspapers.com/image/61258934/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Northern Star original masthead, 1796-10-10",
+                "url": "https://www.newspapers.com/image/61259940/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            },
+            {
+              "source": {
+                "title": "Northern Star original masthead, 1796-01-07",
+                "url": "https://www.newspapers.com/image/61256863/"
+              },
+              "capture_locations": [],
+              "proposed_locations": [],
+              "assessment": "Citation absent from both compared texts."
+            }
+          ],
+          "missing_citation_urls": [
+            "https://www.newspapers.com/image/72014483/",
+            "https://www.newspapers.com/image/72014572/",
+            "https://www.newspapers.com/image/72014689/",
+            "https://www.newspapers.com/image/72014781/",
+            "https://www.newspapers.com/image/72014784/",
+            "https://www.newspapers.com/image/72015521/",
+            "https://www.newspapers.com/image/72015527/",
+            "https://www.newspapers.com/image/72017668/",
+            "https://www.newspapers.com/image/72017751/",
+            "https://www.newspapers.com/image/61256880/",
+            "https://www.newspapers.com/image/61256896/",
+            "https://www.newspapers.com/image/61256932/",
+            "https://www.newspapers.com/image/72012833/",
+            "https://www.newspapers.com/image/72013663/",
+            "https://www.newspapers.com/image/72014445/",
+            "https://www.newspapers.com/image/72015437/",
+            "https://www.newspapers.com/image/72015451/",
+            "https://www.newspapers.com/image/72015480/",
+            "https://www.newspapers.com/image/72015583/",
+            "https://www.newspapers.com/image/72015837/",
+            "https://www.newspapers.com/image/72016002/",
+            "https://www.newspapers.com/image/72016067/",
+            "https://www.newspapers.com/image/72017601/",
+            "https://www.newspapers.com/image/72017937/",
+            "https://www.newspapers.com/image/72018049/",
+            "https://www.newspapers.com/image/72018143/",
+            "https://www.newspapers.com/image/72018327/",
+            "https://www.newspapers.com/image/72018438/",
+            "https://www.newspapers.com/image/72018546/",
+            "https://www.newspapers.com/image/72018636/",
+            "https://www.newspapers.com/image/72019727/",
+            "https://www.newspapers.com/image/72022133/",
+            "https://www.newspapers.com/image/72023508/",
+            "https://www.newspapers.com/image/61260098/",
+            "https://www.newspapers.com/image/61258955/",
+            "https://www.newspapers.com/image/61258993/",
+            "https://www.newspapers.com/image/61259009/",
+            "https://www.newspapers.com/image/61259057/",
+            "https://www.newspapers.com/image/61258985/",
+            "https://www.newspapers.com/image/61259369/",
+            "https://www.newspapers.com/image/61259519/",
+            "https://www.newspapers.com/image/61260443/",
+            "https://www.newspapers.com/image/61261058/",
+            "https://www.newspapers.com/image/61259959/",
+            "https://www.newspapers.com/image/61259973/",
+            "https://www.newspapers.com/image/61259988/",
+            "https://www.newspapers.com/image/61258934/",
+            "https://www.newspapers.com/image/61259940/",
+            "https://www.newspapers.com/image/61256863/"
+          ],
+          "structured_changes": []
+        }
+      ],
+      "already_covered": [
+        {
+          "path": "research/william-newspaper-profile-drafts-2026-10-04/Glasgow-3324.wiki",
+          "line": 25,
+          "fact": "Wm. Glasgow master of William, July Oporto and December Bordeaux 1792 advertisements",
+          "url": "https://www.newspapers.com/image/72015499/",
+          "note": "Only these first two voyage examples are present; the Rotterdam/Jean/later cargo/masthead evidence is missing.",
+          "excerpt": "The Northern Star names Wm. Glasgow as master of the brig William in advertisements for voyages from Belfast to Oporto in July 1792 and Bordeaux in December 1792.<ref>[https://www.newspapers.com/image/72015499/ Northern Star, 28 July 1792, p.1].</ref><ref>[https://www.newspapers.com/image/72017846/ Northern Star, 12 December 1792, p.1].</ref> These inspected notices substantiate the existence of the same-name captain mentioned in the family chronology, but they do not give his family or a Larne residence. Identification with this William remains unproved; the 1815 will is the next useful test."
+        }
+      ],
+      "source_paths": [
+        {
+          "path": "research/latest-findings-subjects/subjects.json",
+          "json_pointer": "/groups/31/people/0"
+        },
+        {
+          "path": "surname-research/new-people/1792_Ireland_Belfast_shipping_captain_william.md"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "Northern Star, 21 April 1792, p.1",
+          "url": "https://www.newspapers.com/image/72014483/"
+        },
+        {
+          "title": "Northern Star, 25 April 1792, p.1",
+          "url": "https://www.newspapers.com/image/72014572/"
+        },
+        {
+          "title": "Northern Star, 28 April 1792, p.3",
+          "url": "https://www.newspapers.com/image/72014689/"
+        },
+        {
+          "title": "Northern Star, 2 May 1792, p.4",
+          "url": "https://www.newspapers.com/image/72014781/"
+        },
+        {
+          "title": "Northern Star, 5 May 1792, p.1",
+          "url": "https://www.newspapers.com/image/72014784/"
+        },
+        {
+          "title": "Northern Star, 28 July 1792, p.1",
+          "url": "https://www.newspapers.com/image/72015499/"
+        },
+        {
+          "title": "Northern Star, 28 July 1792, p.5",
+          "url": "https://www.newspapers.com/image/72015521/"
+        },
+        {
+          "title": "Northern Star, 1792-12-12, p.1",
+          "url": "https://www.newspapers.com/image/72017846/"
+        },
+        {
+          "title": "Northern Star, 1792-08-01, p.1",
+          "url": "https://www.newspapers.com/image/72015527/"
+        },
+        {
+          "title": "Northern Star, 5 December 1792, p.2",
+          "url": "https://www.newspapers.com/image/72017668/"
+        },
+        {
+          "title": "Northern Star, 8 December 1792, p.1",
+          "url": "https://www.newspapers.com/image/72017751/"
+        },
+        {
+          "title": "Northern Star, 7 January 1796, p.3",
+          "url": "https://www.newspapers.com/image/61256880/"
+        },
+        {
+          "title": "Northern Star, 11 January 1796, p.1",
+          "url": "https://www.newspapers.com/image/61256896/"
+        },
+        {
+          "title": "Northern Star, 14 January 1796, p.1",
+          "url": "https://www.newspapers.com/image/61256932/"
+        },
+        {
+          "title": "Northern Star, 1792-01-18, p.4",
+          "url": "https://www.newspapers.com/image/72012833/"
+        },
+        {
+          "title": "Northern Star, 1792-03-10, p.3",
+          "url": "https://www.newspapers.com/image/72013663/"
+        },
+        {
+          "title": "Northern Star, 1792-04-18, p.3",
+          "url": "https://www.newspapers.com/image/72014445/"
+        },
+        {
+          "title": "Northern Star, 1792-07-18, p.3",
+          "url": "https://www.newspapers.com/image/72015437/"
+        },
+        {
+          "title": "Northern Star, 1792-07-21, p.1",
+          "url": "https://www.newspapers.com/image/72015451/"
+        },
+        {
+          "title": "Northern Star, 1792-07-25, p.1",
+          "url": "https://www.newspapers.com/image/72015480/"
+        },
+        {
+          "title": "Northern Star, 1792-08-08, p.1",
+          "url": "https://www.newspapers.com/image/72015583/"
+        },
+        {
+          "title": "Northern Star, 1792-09-15, p.3",
+          "url": "https://www.newspapers.com/image/72015837/"
+        },
+        {
+          "title": "Northern Star, 1792-09-26, p.4",
+          "url": "https://www.newspapers.com/image/72016002/"
+        },
+        {
+          "title": "Northern Star, 1792-10-03, p.1",
+          "url": "https://www.newspapers.com/image/72016067/"
+        },
+        {
+          "title": "Northern Star, 1792-12-01, p.3",
+          "url": "https://www.newspapers.com/image/72017601/"
+        },
+        {
+          "title": "Northern Star, 1792-12-15, p.1",
+          "url": "https://www.newspapers.com/image/72017937/"
+        },
+        {
+          "title": "Northern Star, 1792-12-19, p.1",
+          "url": "https://www.newspapers.com/image/72018049/"
+        },
+        {
+          "title": "Northern Star, 1792-12-22, p.1",
+          "url": "https://www.newspapers.com/image/72018143/"
+        },
+        {
+          "title": "Northern Star, 1792-12-26, p.4",
+          "url": "https://www.newspapers.com/image/72018327/"
+        },
+        {
+          "title": "Northern Star, 1793-01-02, p.1",
+          "url": "https://www.newspapers.com/image/72018438/"
+        },
+        {
+          "title": "Northern Star, 1793-01-05, p.1",
+          "url": "https://www.newspapers.com/image/72018546/"
+        },
+        {
+          "title": "Northern Star, 1793-01-09, p.1",
+          "url": "https://www.newspapers.com/image/72018636/"
+        },
+        {
+          "title": "Northern Star, 1793-02-20, p.3",
+          "url": "https://www.newspapers.com/image/72019727/"
+        },
+        {
+          "title": "Northern Star, 1793-09-21, p.3",
+          "url": "https://www.newspapers.com/image/72022133/"
+        },
+        {
+          "title": "Northern Star, 1793-12-12, p.3",
+          "url": "https://www.newspapers.com/image/72023508/"
+        },
+        {
+          "title": "The Northern Star, 1794-04-07, p.4",
+          "url": "https://www.newspapers.com/image/61260098/"
+        },
+        {
+          "title": "The Northern Star, 1796-07-04, p.3",
+          "url": "https://www.newspapers.com/image/61258955/"
+        },
+        {
+          "title": "The Northern Star, 1796-07-08, p.4",
+          "url": "https://www.newspapers.com/image/61258993/"
+        },
+        {
+          "title": "The Northern Star, 1796-07-11, p.2",
+          "url": "https://www.newspapers.com/image/61259009/"
+        },
+        {
+          "title": "The Northern Star, 1796-07-15, p.2",
+          "url": "https://www.newspapers.com/image/61259057/"
+        },
+        {
+          "title": "The Northern Star, 1796-07-08, p.3",
+          "url": "https://www.newspapers.com/image/61258985/"
+        },
+        {
+          "title": "The Northern Star, 1796-08-12, p.1",
+          "url": "https://www.newspapers.com/image/61259369/"
+        },
+        {
+          "title": "The Northern Star, 1796-08-29, p.1",
+          "url": "https://www.newspapers.com/image/61259519/"
+        },
+        {
+          "title": "The Northern Star, 1796-11-14, p.4",
+          "url": "https://www.newspapers.com/image/61260443/"
+        },
+        {
+          "title": "The Northern Star, 1797-01-16, p.1",
+          "url": "https://www.newspapers.com/image/61261058/"
+        },
+        {
+          "title": "The Northern Star, 1796-10-10, p.3",
+          "url": "https://www.newspapers.com/image/61259959/"
+        },
+        {
+          "title": "Northern Star original masthead, 1796-10-14",
+          "url": "https://www.newspapers.com/image/61259973/"
+        },
+        {
+          "title": "The Northern Star, 1796-10-14, p.3",
+          "url": "https://www.newspapers.com/image/61259988/"
+        },
+        {
+          "title": "Northern Star original masthead, 1796-07-04",
+          "url": "https://www.newspapers.com/image/61258934/"
+        },
+        {
+          "title": "Northern Star original masthead, 1796-10-10",
+          "url": "https://www.newspapers.com/image/61259940/"
+        },
+        {
+          "title": "Northern Star original masthead, 1796-01-07",
+          "url": "https://www.newspapers.com/image/61256863/"
+        }
+      ],
+      "assembly_requirements": [
+        "Preserve every distinct existing source and all substantive captured/proposed detail.",
+        "Integrate this record account under Research Notes; candidate identity does not authorize structured family, date or place replacement."
+      ],
+      "candidate_record_scopes": [
+        {
+          "canonical_person": "captain-william",
+          "selected_target": "Glasgow-3324",
+          "rival_profile_ids": [],
+          "identity_status": "compatible_candidate",
+          "instruction": "This is a source-defined record account with an explicit identity hypothesis. Do not copy its people or relationships into rivals as established facts."
+        }
+      ],
+      "insertion_draft_path": "research/queue-review-2026-10-17/amendments/later-newspapers/Glasgow-3324.wiki"
+    }
+  ],
+  "case_results": [
+    {
+      "canonical_person": "edward-george-army",
+      "review_ids": [
+        "draft-1826-ireland-place-not-stated-edward-george-glasgow",
+        "subject-newspapers-irish-1800-1850-edward-george-army",
+        "draft-1825-united-kingdom-84th-regiment-edward-george-glasgow"
+      ],
+      "target_profile_ids": [
+        "Glasgow-3501"
+      ],
+      "rival_profile_ids": [],
+      "status": "needs_amendment"
+    },
+    {
+      "canonical_person": "james-belfast-grocer-cluster",
+      "review_ids": [
+        "draft-1823-ireland-north-street-sample-location-c-james-glasgow",
+        "draft-1820-ireland-dublin-report-heading-james-glasgow",
+        "draft-1822-ireland-at-mr-james-m-master-s-busines-james-glasgow",
+        "draft-1822-ireland-belfast-advertisement-location-james-glasgow",
+        "draft-1828-ireland-no-rosemary-street-belfast-for-mr-james-glasgow"
+      ],
+      "target_profile_ids": [
+        "Glasgow-3986"
+      ],
+      "rival_profile_ids": [],
+      "status": "needs_amendment"
+    },
+    {
+      "canonical_person": "montgreenan-double-marriage-1847",
+      "review_ids": [
+        "subject-newspapers-irish-1800-1850-montgreenan-double-marriage-1847"
+      ],
+      "target_profile_ids": [
+        "Robertson-30564",
+        "Glasgow-3000",
+        "Glasgow-3003",
+        "Drake-13873"
+      ],
+      "rival_profile_ids": [],
+      "status": "needs_amendment"
+    },
+    {
+      "canonical_person": "benjamin-drapersfield",
+      "review_ids": [
+        "draft-1858-ireland-cookstown-benjamin-drapersfield"
+      ],
+      "target_profile_ids": [
+        "Glasgow-3412"
+      ],
+      "rival_profile_ids": [
+        "Glasgow-2566"
+      ],
+      "status": "needs_amendment"
+    },
+    {
+      "canonical_person": "emma-parsonstown",
+      "review_ids": [
+        "subject-william-glasgow-irish-newspapers-emma-parsonstown",
+        "draft-1875-ireland-parsonstown-emma-parsonstown"
+      ],
+      "target_profile_ids": [
+        "Glasgow-2771"
+      ],
+      "rival_profile_ids": [],
+      "status": "needs_amendment"
+    },
+    {
+      "canonical_person": "george-mark-artillery",
+      "review_ids": [
+        "subject-newspapers-irish-1800-1850-george-mark-artillery",
+        "draft-1825-united-kingdom-royal-artillery-george-mark-glasgow"
+      ],
+      "target_profile_ids": [
+        "Glasgow-3127"
+      ],
+      "rival_profile_ids": [
+        "Glasgow-3785",
+        "Glasgow-1536"
+      ],
+      "status": "needs_amendment"
+    },
+    {
+      "canonical_person": "j-glasco-st-andrews-annuity-appeal-1838",
+      "review_ids": [
+        "subject-newspapers-irish-1800-1850-j-glasco-st-andrews-annuity-appeal-1838",
+        "draft-1838-ireland-dublin-j-glasco-st-andrews-appeal"
+      ],
+      "target_profile_ids": [
+        "Glasgow-3927"
+      ],
+      "rival_profile_ids": [],
+      "status": "needs_amendment"
+    },
+    {
+      "canonical_person": "john-glasco-army-surgeons",
+      "review_ids": [
+        "subject-newspapers-irish-1800-1850-john-glasco-army-surgeons",
+        "draft-1816-ireland-military-john-glasco"
+      ],
+      "target_profile_ids": [
+        "Glasgow-2058"
+      ],
+      "rival_profile_ids": [
+        "Glasgow-3927"
+      ],
+      "status": "needs_amendment"
+    },
+    {
+      "canonical_person": "james-cookstown-cassell-tea",
+      "review_ids": [
+        "subject-newspapers-irish-1800-1850-james-cookstown-cassell-tea"
+      ],
+      "target_profile_ids": [
+        "Glasgow-3444"
+      ],
+      "rival_profile_ids": [
+        "Glasgow-3196"
+      ],
+      "status": "needs_amendment"
+    },
+    {
+      "canonical_person": "jane-glasgow-mother-anne",
+      "review_ids": [
+        "subject-anne-armstrong-jane-glasgow-antrim-assizes-1838-jane-glasgow-mother-anne"
+      ],
+      "target_profile_ids": [
+        "McClure-6341"
+      ],
+      "rival_profile_ids": [],
+      "status": "needs_amendment"
+    },
+    {
+      "canonical_person": "john-cookstown-coffee",
+      "review_ids": [
+        "draft-1848-ireland-cookstown-john-glasgow"
+      ],
+      "target_profile_ids": [
+        "Glasgow-2058"
+      ],
+      "rival_profile_ids": [
+        "Glasgow-1968"
+      ],
+      "status": "needs_amendment"
+    },
+    {
+      "canonical_person": "rev-aj-glasgow-belfast-speech-1841",
+      "review_ids": [
+        "subject-newspapers-irish-1800-1850-rev-aj-glasgow-belfast-speech-1841"
+      ],
+      "target_profile_ids": [
+        "Glasgow-1781"
+      ],
+      "rival_profile_ids": [],
+      "status": "needs_amendment"
+    },
+    {
+      "canonical_person": "richard-pike",
+      "review_ids": [
+        "subject-newspapers-pre1900-20261004-richard-pike"
+      ],
+      "target_profile_ids": [
+        "Pike-9902"
+      ],
+      "rival_profile_ids": [],
+      "status": "needs_amendment"
+    },
+    {
+      "canonical_person": "robert-mill",
+      "review_ids": [
+        "subject-william-glasgow-irish-newspapers-robert-mill",
+        "draft-1858-ireland-cookstown-robert-mill"
+      ],
+      "target_profile_ids": [
+        "Glasgow-2656"
+      ],
+      "rival_profile_ids": [
+        "Glasgow-3941"
+      ],
+      "status": "needs_amendment"
+    },
+    {
+      "canonical_person": "wilhelmina-pike",
+      "review_ids": [
+        "subject-newspapers-pre1900-20261004-wilhelmina-pike"
+      ],
+      "target_profile_ids": [
+        "Pike-9903"
+      ],
+      "rival_profile_ids": [],
+      "status": "needs_amendment"
+    },
+    {
+      "canonical_person": "william-alexander-parsonstown",
+      "review_ids": [
+        "subject-william-glasgow-irish-newspapers-william-alexander-parsonstown",
+        "draft-1875-ireland-parsonstown-william-alexander-parsonstown"
+      ],
+      "target_profile_ids": [
+        "Glasgow-1387"
+      ],
+      "rival_profile_ids": [
+        "Glasgow-1737",
+        "Glasgow-1675",
+        "Glasgow-3952"
+      ],
+      "status": "needs_amendment"
+    },
+    {
+      "canonical_person": "belfast-grocer",
+      "review_ids": [
+        "subject-william-glasgow-irish-newspapers-belfast-grocer",
+        "draft-1820-ireland-belfast-belfast-grocer"
+      ],
+      "target_profile_ids": [
+        "Glasgow-3814"
+      ],
+      "rival_profile_ids": [],
+      "status": "needs_amendment"
+    },
+    {
+      "canonical_person": "cookstown-william-partner",
+      "review_ids": [
+        "subject-william-glasgow-irish-newspapers-cookstown-william-partner",
+        "draft-1858-ireland-cookstown-cookstown-william-partner"
+      ],
+      "target_profile_ids": [
+        "Glasgow-1737"
+      ],
+      "rival_profile_ids": [],
+      "status": "needs_amendment"
+    },
+    {
+      "canonical_person": "kildress-william",
+      "review_ids": [
+        "subject-william-glasgow-irish-newspapers-kildress-william"
+      ],
+      "target_profile_ids": [
+        "Glasgow-2915"
+      ],
+      "rival_profile_ids": [],
+      "status": "needs_amendment"
+    },
+    {
+      "canonical_person": "captain-william",
+      "review_ids": [
+        "subject-william-glasgow-irish-newspapers-captain-william"
+      ],
+      "target_profile_ids": [
+        "Glasgow-3324"
+      ],
+      "rival_profile_ids": [],
+      "status": "needs_amendment"
+    },
+    {
+      "canonical_person": "cookstown-uncle",
+      "review_ids": [
+        "draft-1858-ireland-cookstown-cookstown-uncle"
+      ],
+      "target_profile_ids": [
+        "Glasgow-3814"
+      ],
+      "rival_profile_ids": [
+        "Glasgow-585"
+      ],
+      "status": "needs_amendment"
+    }
+  ],
+  "capture_access": [
+    {
+      "path": "tmp/queue-review-2026-10-17/later-newspapers/profile-Glasgow-3501.json",
+      "json_pointer": "/profile/bio",
+      "captured_at": "2026-10-17",
+      "sha256": "c2d5b810a2725f93a53c61ecadbb56d53e6efd1df7689b8af092d8c09b54bc28",
+      "characters": 604,
+      "approved_open_nonliving": true
+    },
+    {
+      "path": "tmp/queue-review-2026-10-17/later-newspapers/profile-Glasgow-3986.json",
+      "json_pointer": "/profile/bio",
+      "captured_at": "2026-10-17",
+      "sha256": "ec3b3abfe7c776ef9a27f73bab0a625299f59183fa51d0f5da418e99e2e4a5d3",
+      "characters": 3108,
+      "approved_open_nonliving": true
+    },
+    {
+      "path": "tmp/queue-review-2026-10-17/later-newspapers/profile-Glasgow-2771.json",
+      "json_pointer": "/profile/bio",
+      "captured_at": "2026-10-17",
+      "sha256": "9bd33c1b482388686d8568a4c0e787c04f6124ecb0af86be22e71a20a06611fd",
+      "characters": 1759,
+      "approved_open_nonliving": true
+    },
+    {
+      "path": "tmp/queue-review-2026-10-17/later-newspapers/profile-Glasgow-3127.json",
+      "json_pointer": "/profile/bio",
+      "captured_at": "2026-10-17",
+      "sha256": "b984ea49d1334f5c6e3f3cc6b80adda92c36677f15a0a180a9b4741b9d8aed2f",
+      "characters": 4091,
+      "approved_open_nonliving": true
+    },
+    {
+      "path": "tmp/queue-review-2026-10-17/later-newspapers/profile-Glasgow-3444.json",
+      "json_pointer": "/profile/bio",
+      "captured_at": "2026-10-17",
+      "sha256": "9a052f7959f5e064d4e98781530d19938217e9b2a0497ee0c23d8fe641d299ac",
+      "characters": 6363,
+      "approved_open_nonliving": true
+    },
+    {
+      "path": "tmp/queue-review-2026-10-17/later-newspapers/profile-McClure-6341.json",
+      "json_pointer": "/profile/bio",
+      "captured_at": "2026-10-17",
+      "sha256": "d6a83b6fc063f49fb4dc91026982c5b352b727e9250ad0f62c1bccadcd4dbf1d",
+      "characters": 755,
+      "approved_open_nonliving": true
+    },
+    {
+      "path": "tmp/queue-review-2026-10-17/later-newspapers/profile-Glasgow-1781.json",
+      "json_pointer": "/profile/bio",
+      "captured_at": "2026-10-17",
+      "sha256": "3dd41df2b412b9c2eec6d37b537607bff45f6802a068d3c737b241aed538b2c7",
+      "characters": 4047,
+      "approved_open_nonliving": true
+    },
+    {
+      "path": "tmp/queue-review-2026-10-17/later-newspapers/profile-Pike-9902.json",
+      "json_pointer": "/profile/bio",
+      "captured_at": "2026-10-17",
+      "sha256": "bd5ffc9930f252e5ba39b6240de403c9936d1768a54da495f681e2ad1b5ddbd9",
+      "characters": 4357,
+      "approved_open_nonliving": true
+    },
+    {
+      "path": "tmp/queue-review-2026-10-17/later-newspapers/profile-Glasgow-2656.json",
+      "json_pointer": "/profile/bio",
+      "captured_at": "2026-10-17",
+      "sha256": "f0e330e56b78216f17ef788d9a4a4264a1a207ef7a193a9a558bcd48ae128e67",
+      "characters": 176,
+      "approved_open_nonliving": true
+    },
+    {
+      "path": "tmp/queue-review-2026-10-17/later-newspapers/profile-Pike-9903-from-father.json",
+      "json_pointer": "/profile/bio",
+      "captured_at": "2026-10-17",
+      "sha256": "68e156cb19511b243a9c47e817bbe32f3dcb65209984d280cd677e70ffc799dd",
+      "characters": 1241,
+      "approved_open_nonliving": true
+    },
+    {
+      "path": "tmp/queue-review-2026-10-17/later-newspapers/profile-Glasgow-3814.json",
+      "json_pointer": "/profile/bio",
+      "captured_at": "2026-10-17",
+      "sha256": "3fb55ff106713fc256befdde90aa5d330a930d4f51ed921f481cd09a33019dcf",
+      "characters": 654,
+      "approved_open_nonliving": true
+    }
+  ],
+  "issues": [
+    {
+      "id": "assembly",
+      "assessment": "These .wiki files are insertion text, not complete replacements. Main must combine them with the effective complete proposed or captured biography and preserve all sourced content before queueing the actual amendment."
+    },
+    {
+      "id": "family-chronology",
+      "assessment": "Emma-2771 circa1815 and William-1387 circa1810 cannot form a parent–child pair. Both dossiers carry the same1875notice only as explicitly competing identity hypotheses. No relationship or vital fields are changed."
+    },
+    {
+      "id": "fresh-capture-access",
+      "assessment": "Pike-9902/Pike-9903 and several freshest current captures are scoped cache JSONs rather than global profile-evidence entries. Load only their root profile/bio after checking Open/nonliving; do not publish raw captures."
+    }
+  ]
+}

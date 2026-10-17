@@ -1,0 +1,590 @@
+{
+  "reviewed_on": "2026-10-17",
+  "scope": "14 selected existing early-family accounts; substantive record prose compared with actual captured and effective proposed biographies. Insertions preserve all current prose and citations.",
+  "profiles": [
+    {
+      "profile_id": "Glasgow-1099",
+      "status": "needs_amendment",
+      "review_ids": [
+        "subject-murieston-1586-1605-george-mureistoun"
+      ],
+      "source_paths": [
+        "research/queue-review-2026-10-17/early-families.json",
+        "research/latest-findings-subjects/subjects.json#murieston-1586-1605/george-mureistoun",
+        "www/people/glasgow-1099.json#/wikitree_update/draft_wikitext",
+        "research/Glasgow-1099/Glasgow-1099.md"
+      ],
+      "source_refs": [
+        {
+          "title": "Maidment, Analecta Scotica I (1834), art.CXVI, pp.395–396,399; printed pages visually inspected 15 October 2026",
+          "url": "https://archive.org/details/analectascotica00maidgoog"
+        },
+        {
+          "title": "NRS Mid Calder OPR 694/10 p.7, 17 February 1605; owner-held original page reread 15 October 2026",
+          "url": "https://www.scotlandspeople.gov.uk/"
+        },
+        {
+          "title": "Maidment, Analecta Scotica I (1834), art.CXVI pp.395–396,399: Calder act 19 April1586, George Glasgw in Mureistoun; printed pages visually checked15October2026, court manuscript unread",
+          "url": "https://archive.org/details/analectascotica00maidgoog"
+        },
+        {
+          "title": "Mid Calder OPR694/10 p.7, 17February1605: George child of James in probable Muirestoun; adult witnesses George Glasgow and John Smith; owner-held original page reread16October2026",
+          "url": "https://www.scotlandspeople.gov.uk/search-records/church-registers/church-births-baptisms"
+        },
+        {
+          "title": "Renwick, Glasgow Protocols vol.9, protocol2903, printed p.103, 15July1586: George heir of deceased father William; accepted earlier reading",
+          "url": "https://archive.org/details/abstractsprotoc01scogoog/page/n113/mode/2up"
+        },
+        {
+          "title": "Renwick, vol.9, protocol2916, printed p.107, 1September1586: George’s mother Margaret Herbesoun and curator Stephen; accepted earlier reading",
+          "url": "https://archive.org/details/abstractsprotoc01scogoog/page/n116/mode/2up"
+        }
+      ],
+      "compared_biographies": {
+        "current_capture": "www/people/glasgow-1099.json#/wikitree_update/remote_wikitext",
+        "effective_proposed": "www/people/glasgow-1099.json#/wikitree_update/draft_wikitext",
+        "effective_sha256": "4f30d237f3b2fcf29ee9565ebefc751a81e255f1e8774bba93de575779500799",
+        "effective_length": 25133
+      },
+      "insertions": [
+        {
+          "placement": "research_notes",
+          "wikitext": "=== Mureistoun muster obligation ===\n\nOne possible identity for George is the George Glasgw named at Mureistoun in the Calder act of 19 April 1586. The act ordered him, with other named men, to muster on 4 August; it does not establish that he attended.<ref name=\"EarlyMureistoun1586\">James Maidment, ed., Analecta Scotica, vol.1 (1834), article CXVI, printed pp.395–396,399; act of 19 April 1586; printed pages visually verified 15 October 2026, original court book not inspected; [https://archive.org/details/analectascotica00maidgoog].</ref>\n\nThe probable association between that man and the adult George who witnessed James Glasgow’s child’s baptism on 17 February 1605 is separate from identifying either occurrence with this Glasgow merchant. The merchant’s minority in 1586 is a real age constraint, while James’s circa-1575 birth is an unsupported estimate. Neither a Mureistoun holding nor movement between Calder and Glasgow is proved for the merchant.\n",
+          "review_ids": [
+            "subject-murieston-1586-1605-george-mureistoun"
+          ]
+        }
+      ],
+      "coverage": [
+        {
+          "path": "www/people/glasgow-1099.json#/wikitree_update/draft_wikitext",
+          "heading": "Murieston family review — 17 October 2026",
+          "lines": [
+            69,
+            83
+          ],
+          "reason": "Already includes the preferred probable father model, merchant identity limit, 1605 witness evidence and protocol-defined age. Missing detail is the 19 April act’s specified 4 August muster, now added without implying attendance."
+        }
+      ]
+    },
+    {
+      "profile_id": "Glasgow-2454",
+      "status": "needs_amendment",
+      "review_ids": [
+        "subject-early-scotland-1650-issobell-glasgow"
+      ],
+      "source_paths": [
+        "research/queue-review-2026-10-17/early-families.json",
+        "research/latest-findings-subjects/subjects.json#early-scotland-1650/issobell-glasgow",
+        "tmp/queue-review-2026-10-17/early-families/Glasgow-2454.json#/0/profile/bio",
+        "data/wikitree/profile-evidence.json#/profiles/Glasgow-2454/biography_wikitext"
+      ],
+      "source_refs": [
+        {
+          "title": "Findmypast/SGS, Issobell Glasgow, Haddington, born 24 and baptised 26 November 1639; OPR 709/1 p.208",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4675742"
+        }
+      ],
+      "compared_biographies": {
+        "current_capture": "tmp/queue-review-2026-10-17/early-families/Glasgow-2454.json#/0/profile/bio",
+        "effective_proposed": "tmp/queue-review-2026-10-17/early-families/Glasgow-2454.json#/0/profile/bio",
+        "effective_sha256": "507793b802dcc1e63a310b789b3a4933e710f52e15368a75d8c0d01fe30a5c81",
+        "effective_length": 652
+      },
+      "insertions": [
+        {
+          "placement": "research_notes",
+          "wikitext": "=== Possible earlier Haddington record ===\n\nA Haddington transcript records Issobell Glasgow born on 24 November 1639 and baptised on 26 November, with parents named Wm Glasgow and Issobella Miral.<ref name=\"EarlyHaddington1639\">Findmypast/Scottish Genealogy Society, Issobell Glasgow, born 24 and baptised 26 November 1639, Haddington; OPR 709/1 p.208, transcript SCOT/OPR/BAP/4675742; original register not inspected; [https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4675742].</ref> Miral is the literal provider reading; the original maternal surname has not been checked.\n\nThis is a possible earlier record of the Issobell baptised at Mid Calder on 3 February 1648: the child’s name and father William agree, and a baptism date does not independently prove a birthday. The nine-year interval and different parish nevertheless make the identity weak; a second or delayed baptism is a possibility rather than a recorded explanation. The Haddington entry directly proves its own indexed parental pair, without identifying its father with [[Glasgow-1087|William Glasgow of Mid Calder]]. [[Glasgow-3075|William Glasgow, the Leith mealmaker]], and [[Glasgow-3517|William Glasgow, the Inveresk child of 1614]], are separate compatible adult comparisons. None is made the Haddington father as a fact. [[Anderson-56713|Issobell Anderson]], who married Allexander Glasgow at Edinburgh in 1665, represents a different birth-surname account; she is not identified with this Glasgow-born child merely from her later married name.\n",
+          "review_ids": [
+            "subject-early-scotland-1650-issobell-glasgow"
+          ]
+        }
+      ],
+      "coverage": []
+    },
+    {
+      "profile_id": "Glasgow-991",
+      "status": "needs_amendment",
+      "review_ids": [
+        "subject-early-scotland-1650-fisherrow-household",
+        "subject-early-scotland-1650-fisherrow-household--james"
+      ],
+      "source_paths": [
+        "research/queue-review-2026-10-17/early-families.json",
+        "research/latest-findings-subjects/subjects.json#early-scotland-1650/fisherrow-household",
+        "www/people/glasgow-991.json#/wikitree_update/draft_wikitext",
+        "research/Glasgow-991/Glasgow-991.md"
+      ],
+      "source_refs": [
+        {
+          "title": "SRO Indexes 38, Edinburgh etc. sasines 1624–1630, printed pp. 187–188",
+          "url": "https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481057&seq=193"
+        }
+      ],
+      "compared_biographies": {
+        "current_capture": "www/people/glasgow-991.json#/wikitree_update/remote_wikitext",
+        "effective_proposed": "www/people/glasgow-991.json#/wikitree_update/draft_wikitext",
+        "effective_sha256": "c56ad7467852a71e09d8e721be0212a703bf946b8e07aa562efa098557c8179b",
+        "effective_length": 35778
+      },
+      "insertions": [
+        {
+          "placement": "research_notes",
+          "wikitext": "=== Fisherrow property associates ===\n\nThe sasine index places James, tailor in Fischerraw and burgess of Musselburgh, with his son [[Glasgow-1148|Alexander Glasgow]]. It distinguishes James’s wife [[Bie-55|Christina Bye]] from Alexander’s wife [[Clerk-296|Janet Clerk]]. Edward Glasgow in Fischerraw shares the 8 July 1624 recording reference, 9/135; the other early reference is 10/171, recorded 11 July 1625.<ref name=\"EarlyFisherrow1624\">Scottish Record Office, Indexes no.38, Edinburgh etc. sasines 1624–1630, printed pp.187–188; 8 July 1624, RS25 vol.9 fol.135, and 11 July 1625, vol.10 fol.171, are recording dates; printed pages visually inspected 15 October 2026, original instruments unread; [https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481057&seq=193].</ref>\n\nThe Edward could be [[Glasgow-1557|Edward Glasgow]], already an Inveresk father in 1615, or [[Glasgow-994|Eduard Glasgow]], indexed as James’s child in 1609. [[Glasgow-1558|Edward Glasgow]], baptised in 1615, is a further possibility: minority alone does not exclude involvement in a land instrument. The index does not state Edward’s relationship or capacity, and the association does not prove a Corsankell connection.\n\nThe later index associates Alexander in Fischerraw with a James Glasgow described as a weaver at 33/258, 33/360 and 34/287, recorded on 14 February and 15 May 1646 and 10 February 1647. Edward also shares 33/258.<ref name=\"EarlyFisherrow1646\">Scottish Record Office, Indexes no.44 (1958), Edinburgh etc. register of sasines 1644–1653, printed pp.159–160; RS25 33/258, recorded 14 February 1646; 33/360, 15 May 1646; 34/287, 10 February 1647; printed columns visually inspected 15 October 2026, original instruments unread; [https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481222&seq=167].</ref> The weaver could be a later phase of the tailor’s career, but [[Glasgow-1150|James Glasgow, the Edinburgh weaver]], and [[Glasgow-3923|James Glasgow, Alexander’s 1626 son]], are separate competing identities. A changed trade is not a concrete exclusion; repeated folio associations do not establish fatherhood or brotherhood.\n",
+          "review_ids": [
+            "subject-early-scotland-1650-fisherrow-household",
+            "subject-early-scotland-1650-fisherrow-household--james"
+          ]
+        }
+      ],
+      "coverage": []
+    },
+    {
+      "profile_id": "Bie-55",
+      "status": "already_covered",
+      "review_ids": [
+        "subject-early-scotland-1650-fisherrow-household",
+        "subject-early-scotland-1650-fisherrow-household--christina"
+      ],
+      "source_paths": [
+        "research/queue-review-2026-10-17/early-families.json",
+        "research/latest-findings-subjects/subjects.json#early-scotland-1650/fisherrow-household",
+        "www/people/bie-55.json#/wikitree_update/draft_wikitext",
+        "research/Bie-55/Bie-55.md"
+      ],
+      "source_refs": [
+        {
+          "title": "SRO Indexes 38, Edinburgh etc. sasines 1624–1630, printed pp. 187–188",
+          "url": "https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481057&seq=193"
+        }
+      ],
+      "compared_biographies": {
+        "current_capture": "www/people/bie-55.json#/wikitree_update/remote_wikitext",
+        "effective_proposed": "www/people/bie-55.json#/wikitree_update/draft_wikitext",
+        "effective_sha256": "81ec68315eb4208e6ca046621ddf6743b6fdd3367bac2df8f9b74551ae117b5d",
+        "effective_length": 3452
+      },
+      "insertions": [],
+      "coverage": [
+        {
+          "path": "www/people/bie-55.json#/wikitree_update/draft_wikitext",
+          "heading": "Fisherrow family review — 17 October 2026",
+          "lines": [
+            7,
+            15
+          ],
+          "reason": "The proposed biography already explicitly identifies Christina Bye as the Fisherrow tailor James’s named wife, compares Bye/Bie and the Inveresk family, preserves the unproved 1589/New Aberdour tradition and independent maternity limits, and cites both exact early recording references."
+        }
+      ]
+    },
+    {
+      "profile_id": "Clerk-296",
+      "status": "already_covered",
+      "review_ids": [
+        "subject-early-scotland-1650-fisherrow-household",
+        "subject-early-scotland-1650-fisherrow-household--janet"
+      ],
+      "source_paths": [
+        "research/queue-review-2026-10-17/early-families.json",
+        "research/latest-findings-subjects/subjects.json#early-scotland-1650/fisherrow-household",
+        "www/people/clerk-296.json#/wikitree_update/draft_wikitext",
+        "research/Clerk-296/Clerk-296.md"
+      ],
+      "source_refs": [
+        {
+          "title": "SRO Indexes 38, Edinburgh etc. sasines 1624–1630, printed pp. 187–188",
+          "url": "https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481057&seq=193"
+        }
+      ],
+      "compared_biographies": {
+        "current_capture": "www/people/clerk-296.json#/wikitree_update/remote_wikitext",
+        "effective_proposed": "www/people/clerk-296.json#/wikitree_update/draft_wikitext",
+        "effective_sha256": "263053c735a214c9ecc2c2c322ca8d7fc6037fa4bcfb310b3ecfbc7f85262c52",
+        "effective_length": 2852
+      },
+      "insertions": [],
+      "coverage": [
+        {
+          "path": "www/people/clerk-296.json#/wikitree_update/draft_wikitext",
+          "heading": "Fisherrow family review — 17 October 2026",
+          "lines": [
+            6,
+            14
+          ],
+          "reason": "The proposed biography already explicitly identifies Janet as Alexander’s wife, distinguishes Christina as James’s wife, compares the independently named 1637 couple and cites 9/135 and 10/171 with their recording dates. No new record has been assigned to Janet herself from the later male property associates."
+        }
+      ]
+    },
+    {
+      "profile_id": "Glasgow-1148",
+      "status": "needs_amendment",
+      "review_ids": [
+        "subject-early-scotland-1650-fisherrow-household",
+        "subject-early-scotland-1650-fisherrow-household--alexander"
+      ],
+      "source_paths": [
+        "research/queue-review-2026-10-17/early-families.json",
+        "research/latest-findings-subjects/subjects.json#early-scotland-1650/fisherrow-household",
+        "www/people/glasgow-1148.json#/wikitree_update/draft_wikitext",
+        "research/Glasgow-1148/Glasgow-1148.md"
+      ],
+      "source_refs": [
+        {
+          "title": "SRO Indexes 38, Edinburgh etc. sasines 1624–1630, printed pp. 187–188",
+          "url": "https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481057&seq=193"
+        }
+      ],
+      "compared_biographies": {
+        "current_capture": "www/people/glasgow-1148.json#/wikitree_update/remote_wikitext",
+        "effective_proposed": "www/people/glasgow-1148.json#/wikitree_update/draft_wikitext",
+        "effective_sha256": "1be39a848ee39c48a76a722fda3c1497476bb04187d56eb55331c299ac93f7a1",
+        "effective_length": 7081
+      },
+      "insertions": [
+        {
+          "placement": "research_notes",
+          "wikitext": "=== Later Fisherrow sasine-index references ===\n\nThe later sasine index associates Alexander in Fischerraw, burgess of Musselburgh, with James Glasgow, weaver, at 33/258, recorded 14 February 1646; 33/360, recorded 15 May 1646; and 34/287, recorded 10 February 1647. Edward Glasgow also shares 33/258.<ref name=\"EarlyFisherrow1646\">Scottish Record Office, Indexes no.44 (1958), Edinburgh etc. register of sasines 1644–1653, printed pp.159–160; RS25 33/258, recorded 14 February 1646; 33/360, 15 May 1646; 34/287, 10 February 1647; printed columns visually inspected 15 October 2026, original instruments unread; [https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481222&seq=167].</ref> These are three distinct register references; some are repeated on the index continuation. The neighbouring 16 June 1646 date belongs to Isobel Givan’s entry, not Alexander’s.\n\nThe index does not say that the weaver was Alexander’s father or son. [[Glasgow-1150|James Glasgow, the Edinburgh weaver]], is the leading possible identity because of his documented trade and regional career; [[Glasgow-3923|James Glasgow, Alexander’s son baptised in 1626]], is a genuine local rival. Their separately recorded fathers, Robert and Alexander, distinguish their profile accounts. Alexander’s father [[Glasgow-991|James Glasgow]], the tailor, is another possible comparison if his trade changed. Edward’s identity remains open among [[Glasgow-1557|Edward Glasgow]], [[Glasgow-994|Eduard Glasgow]] and [[Glasgow-1558|Edward Glasgow]]. No kinship follows from a shared reference.\n",
+          "review_ids": [
+            "subject-early-scotland-1650-fisherrow-household",
+            "subject-early-scotland-1650-fisherrow-household--alexander"
+          ]
+        }
+      ],
+      "coverage": [],
+      "necessary_corrections": [
+        {
+          "old": "Parish and sasine records confirm that Alexander was the son of James Glasgow, tailor and burgess of Musselburgh, and his wife Janet Clerk. Property transactions recorded in 1624 and 1625 further support this identification.",
+          "new": "The printed sasine index identifies Alexander as son of James Glasgow, tailor in Fischerraw and burgess of Musselburgh. It names Janet Clerk as Alexander’s wife and Christina Bye as James’s wife. The entries were recorded in 1624 and 1625.<ref name=\"FisherrowFamilyReview\" />",
+          "reason": "The existing sentence can make Janet the mother/wife of James; the visually checked source distinguishes the two spouses."
+        },
+        {
+          "old": "* [[Glasgow-1150|James Glasgow]] — baptized 19 March 1626, father: Alexander Glasgow",
+          "new": "* [[Glasgow-3923|James Glasgow]] — baptized 19 March 1626, father: Alexander Glasgow",
+          "reason": "The 1641 apprentice Glasgow-1150 expressly has father Robert; the 1626 Inveresk child is the distinct Glasgow-3923 account."
+        },
+        {
+          "old": "\"Alexander, son of James Glasgow, tailor, burgess of Musselburgh, and his spouse Janet Clerk\" — 8 July 1624, 11 July 1625.",
+          "new": "Alexander, son of James Glasgow, tailor in Fischerraw and burgess of Musselburgh; Janet Clerk is Alexander’s spouse, while Christina Bye is James’s spouse. The index gives recording dates 8 July 1624 (9/135) and 11 July 1625 (10/171).",
+          "reason": "Use an attributed paraphrase, not an asserted verbatim quotation with ambiguous spouse grammar; remove surrounding blockquote markup when replacing."
+        },
+        {
+          "old": "These transactions name all three generations and place them in Musselburgh’s trades community.",
+          "new": "The index names two generations and their spouses in the Musselburgh trades community; it does not name a third generation or supply the underlying instruments’ execution dates.",
+          "reason": "Only father and son are named; a third generation is unsupported."
+        }
+      ]
+    },
+    {
+      "profile_id": "Glasgow-1557",
+      "status": "needs_amendment",
+      "review_ids": [
+        "subject-early-scotland-1650-fisherrow-household",
+        "subject-early-scotland-1650-fisherrow-household--edward"
+      ],
+      "source_paths": [
+        "research/queue-review-2026-10-17/early-families.json",
+        "research/latest-findings-subjects/subjects.json#early-scotland-1650/fisherrow-household",
+        "www/people/glasgow-1557.json#/wikitree_update/draft_wikitext"
+      ],
+      "source_refs": [
+        {
+          "title": "SRO Indexes 38, Edinburgh etc. sasines 1624–1630, printed pp. 187–188",
+          "url": "https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481057&seq=193"
+        }
+      ],
+      "compared_biographies": {
+        "current_capture": "www/people/glasgow-1557.json#/wikitree_update/remote_wikitext",
+        "effective_proposed": "www/people/glasgow-1557.json#/wikitree_update/draft_wikitext",
+        "effective_sha256": "8ebed12b4817c877a88f48f06481eaa649817b7976c35327629bf11d663fad6a",
+        "effective_length": 2691
+      },
+      "insertions": [
+        {
+          "placement": "research_notes",
+          "wikitext": "=== Possible Fisherrow sasine appearances ===\n\nAn Edward Glasgow in Fischerraw shares reference 9/135 with [[Glasgow-1148|Alexander Glasgow]] and Alexander’s father James, tailor in Fischerraw and burgess of Musselburgh; the recording date is 8 July 1624.<ref name=\"EarlyFisherrow1624\">Scottish Record Office, Indexes no.38, Edinburgh etc. sasines 1624–1630, printed pp.187–188; 8 July 1624, RS25 vol.9 fol.135, and 11 July 1625, vol.10 fol.171, are recording dates; printed pages visually inspected 15 October 2026, original instruments unread; [https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481057&seq=193].</ref> This Edward is a possible identity for the Inveresk father represented here. A man already father of a child in 1615 fits an adult property association in 1624, without relying on either the circa-1570 or circa-1583 birth estimate.\n\nEdward also shares the later reference 33/258, recorded 14 February 1646, with Alexander and James Glasgow, weaver.<ref name=\"EarlyFisherrow1646\">Scottish Record Office, Indexes no.44 (1958), Edinburgh etc. register of sasines 1644–1653, printed pp.159–160; RS25 33/258, recorded 14 February 1646; 33/360, 15 May 1646; 34/287, 10 February 1647; printed columns visually inspected 15 October 2026, original instruments unread; [https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481222&seq=167].</ref> The actual register instruments have not been inspected. They may identify a party, predecessor, witness or another capacity; the index association supplies neither a kinship nor proof of continued ownership.\n\n[[Glasgow-994|Eduard Glasgow]], baptised in 1609 as James’s son, is a genuine alternative within James’s proposed household. [[Glasgow-1558|Edward Glasgow]], baptised in 1615 as this Edward’s son, is another alternative, particularly in 1646. A minor could be named in a land instrument, so the younger men are not excluded merely by age. These occurrences do not identify this Edward’s father or connect the Fisherrow family to Corsankell as a fact.\n",
+          "review_ids": [
+            "subject-early-scotland-1650-fisherrow-household",
+            "subject-early-scotland-1650-fisherrow-household--edward"
+          ]
+        }
+      ],
+      "coverage": []
+    },
+    {
+      "profile_id": "Glasgow-1150",
+      "status": "needs_amendment",
+      "review_ids": [
+        "subject-early-scotland-1650-james-weaver-1646"
+      ],
+      "source_paths": [
+        "research/queue-review-2026-10-17/early-families.json",
+        "research/latest-findings-subjects/subjects.json#early-scotland-1650/james-weaver-1646",
+        "www/people/glasgow-1150.json#/wikitree_update/draft_wikitext",
+        "research/Glasgow-1150/Glasgow-1150.md"
+      ],
+      "source_refs": [
+        {
+          "title": "SRO Indexes 44 (1958), Edinburgh etc. register of sasines 1644–1653, printed pp.159–160",
+          "url": "https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481222&seq=167"
+        },
+        {
+          "title": "Index continuation, printed p.160",
+          "url": "https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481222&seq=168"
+        }
+      ],
+      "compared_biographies": {
+        "current_capture": "www/people/glasgow-1150.json#/wikitree_update/remote_wikitext",
+        "effective_proposed": "www/people/glasgow-1150.json#/wikitree_update/draft_wikitext",
+        "effective_sha256": "78138a5d08190d8017033b58a01261696725a72baa90f659c095253cae3e57de",
+        "effective_length": 20119
+      },
+      "insertions": [
+        {
+          "placement": "research_notes",
+          "wikitext": "=== Possible Fisherrow property appearances, 1646–1647 ===\n\nA James Glasgow described as a weaver appears in the Edinburgh particular sasine index with [[Glasgow-1148|Alexander Glasgow]] in Fischerraw, burgess of Musselburgh. Their shared references are 33/258, recorded 14 February 1646; 33/360, recorded 15 May 1646; and 34/287, recorded 10 February 1647. Edward Glasgow also shares 33/258.<ref name=\"EarlyFisherrow1646\">Scottish Record Office, Indexes no.44 (1958), Edinburgh etc. register of sasines 1644–1653, printed pp.159–160; RS25 33/258, recorded 14 February 1646; 33/360, 15 May 1646; 34/287, 10 February 1647; printed columns visually inspected 15 October 2026, original instruments unread; [https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481222&seq=167].</ref> Some references recur on the next printed page; those repetitions are not extra events. The adjacent 16 June 1646 date is Isobel Givan’s, not Alexander’s.\n\nThe documented Edinburgh weaver is the leading possible identity for this indexed James: trade, regional setting and the interval between his 1641 apprenticeship and 1649 burgess admission fit. The index itself does not give James’s own residence, father, spouse or role in the instrument. Alexander’s son [[Glasgow-3923|James Glasgow]], baptised at Inveresk in 1626, is a real rival; his father Alexander differs from this weaver’s apprenticeship-proved father Robert of Wester Duddingston. [[Glasgow-991|James Glasgow]], the earlier Fisherrow tailor, could have changed trade. [[Glasgow-3332|James Glasgow]], associated tentatively with the later Lindsaylands weaver, is a weaker comparison whose estimated birth is not a hard exclusion. [[Glasgow-3910|James Glasgow of Quothquan]] had died by 1624 and cannot be a living party in 1646, though an unread deed could mention a deceased predecessor. The instruments, not repeated index references, must decide capacity and kinship.\n",
+          "review_ids": [
+            "subject-early-scotland-1650-james-weaver-1646"
+          ]
+        }
+      ],
+      "coverage": []
+    },
+    {
+      "profile_id": "Glasgow-1095",
+      "status": "needs_amendment",
+      "review_ids": [
+        "subject-carnwath-1524-1532-john-quothquan"
+      ],
+      "source_paths": [
+        "research/queue-review-2026-10-17/early-families.json",
+        "research/latest-findings-subjects/subjects.json#carnwath-1524-1532/john-quothquan",
+        "www/people/glasgow-1095.json#/wikitree_update/draft_wikitext",
+        "research/Glasgow-1095/Glasgow-1095.md"
+      ],
+      "source_refs": [
+        {
+          "title": "William Croft Dickinson (ed.), Court Book of the Barony of Carnwath 1523–1542 (1937), printed pp.31–32, 35–36 and Appendix B p.cxix; PDF 160–161",
+          "url": "https://deriv.nls.uk/dcn23/1271/7974/127179749.23.pdf#page=160"
+        },
+        {
+          "title": "William Croft Dickinson (ed.), Court Book of the Barony of Carnwath 1523–1542 (1937), printed pp.136–139; Appendix B p.cxxii; PDF 265–268",
+          "url": "https://deriv.nls.uk/dcn23/1271/7974/127179749.23.pdf#page=265"
+        },
+        {
+          "title": "William Croft Dickinson (ed.), Court Book of the Barony of Carnwath 1523–1542 (1937), printed pp.142–144; Appendix B p.cxxii; PDF 271–273",
+          "url": "https://deriv.nls.uk/dcn23/1271/7974/127179749.23.pdf#page=271"
+        },
+        {
+          "title": "Dickinson (1937), printed pp.40–41,51–52,115–117; Appendix B pp.cxix,cxxi; PDF170,181,244–246",
+          "url": "https://deriv.nls.uk/dcn23/1271/7974/127179749.23.pdf#page=246"
+        }
+      ],
+      "compared_biographies": {
+        "current_capture": "www/people/glasgow-1095.json#/wikitree_update/remote_wikitext",
+        "effective_proposed": "www/people/glasgow-1095.json#/wikitree_update/draft_wikitext",
+        "effective_sha256": "0434bf57ae20555c87b36adaba1ab32307214310fe08687da6479b800f613ee4",
+        "effective_length": 13238
+      },
+      "insertions": [
+        {
+          "placement": "research_notes",
+          "wikitext": "=== Possible Quothquan tenant, 1525–1532 ===\n\nThe following Lanarkshire tenant is a possible identity for the older John represented provisionally in this account. The court entries are consolidated as one local documentary career, without treating their byname or tenancy as proof of the Saltmarket identity.\n\n14 March 1524/25: Jhon of Glesquho is among men fined for failure to appear at the head court. On 15 March [1525/26], Jhon Glesquho is explicitly included among all the tenants of Quodquen, again for nonappearance. The latter heading omits the year; the bracketed year follows Appendix B.<ref>William Croft Dickinson (ed.), Court Book of the Barony of Carnwath 1523–1542 (1937), printed pp.31–32, 35–36 and Appendix B p.cxix; PDF 160–161; https://deriv.nls.uk/dcn23/1271/7974/127179749.23.pdf#page=160. Printed edition inspected 15 October 2026; original manuscript uninspected.</ref>\n\n6 February 1531/32: Costin Thomsone stands surety for Jhone Glasgw’s goods. The same court names Jhone of Glasgw among Upper Quothquan tenants who forcibly recovered seized property from the barony officer after he reached Libberton. After their nonappearance and witness evidence, the court decreed forfeiture of their tenancies, holdings and movable goods on the lord’s lands, with imprisonment for a year at his will. This records a decree, not proof that imprisonment was carried out.<ref>William Croft Dickinson (ed.), Court Book of the Barony of Carnwath 1523–1542 (1937), printed pp.136–139; Appendix B p.cxxii; PDF 265–268; https://deriv.nls.uk/dcn23/1271/7974/127179749.23.pdf#page=265. Printed edition inspected 15 October 2026; original manuscript uninspected.</ref>\n\n8 October 1532: Jhone Glasgw appears with the Upper Quothquan group in a judgment for breaking an arrestment on malt belonging to James Atzesone, held in Robert Cowan’s barn at Libberton.<ref>William Croft Dickinson (ed.), Court Book of the Barony of Carnwath 1523–1542 (1937), printed pp.142–144; Appendix B p.cxxii; PDF 271–273; https://deriv.nls.uk/dcn23/1271/7974/127179749.23.pdf#page=271. Printed edition inspected 15 October 2026; original manuscript uninspected.</ref>\n\nThe remaining indexed John passages include tenant nonappearance on May 1526 (day unresolved) and 22 January 1526/27, followed by a claim against Jhone Kello on 13 October 1530, deferred to the next court. The last record gives an adversary, not a relative. The recurring tenant names support the consolidated local identity but do not prove an inherited tenancy. The May header prints 15 May while Appendix B lists 26 May; no exact day is adopted.<ref>Dickinson (1937), printed pp.40–41,51–52,115–117; Appendix B pp.cxix,cxxi; PDF170,181,244–246; https://deriv.nls.uk/dcn23/1271/7974/127179749.23.pdf#page=246. Printed edition inspected 15 October 2026; original manuscript uninspected.</ref>\n\nThe recurrence of the name, Upper Quothquan locality and Kello, Justice, Robeson and Thomson associates supports one John across these meetings. No entry names his parent, wife or child. The provisional Saltmarket John’s estimated chronology is compatible, while [[Glasgow-1093|John Glasgow]], adult and married by 1534, is a genuine alternative whose approximate birth does not exclude the earlier tenant. [[Glasgow-3181|John of Hirmanscheillis]] and [[Glasgow-3193|John, son of James elder of Corsankell]], remain weaker long-career comparisons. [[Glasgow-3910|James Glasgow, the seventeenth-century Quothquan weaver]], is a possible later family connection with missing generations. Thomas of Quothquan may have been a relative; no fatherhood, brotherhood or inherited tenancy is proved.\n",
+          "review_ids": [
+            "subject-carnwath-1524-1532-john-quothquan"
+          ]
+        }
+      ],
+      "coverage": []
+    },
+    {
+      "profile_id": "Glasgow-1027",
+      "status": "needs_amendment",
+      "review_ids": [
+        "subject-early-scotland-1650-robert-tanner"
+      ],
+      "source_paths": [
+        "research/queue-review-2026-10-17/early-families.json",
+        "research/latest-findings-subjects/subjects.json#early-scotland-1650/robert-tanner",
+        "www/people/glasgow-1027.json#/wikitree_update/draft_wikitext",
+        "research/Glasgow-1027/Glasgow-1027.md"
+      ],
+      "source_refs": [
+        {
+          "title": "Register of the Privy Council of Scotland, XIII, printed p. 246",
+          "url": "https://babel.hathitrust.org/cgi/pt?id=mdp.35112103825313&seq=334"
+        }
+      ],
+      "compared_biographies": {
+        "current_capture": "www/people/glasgow-1027.json#/wikitree_update/remote_wikitext",
+        "effective_proposed": "www/people/glasgow-1027.json#/wikitree_update/draft_wikitext",
+        "effective_sha256": "f9b5fa993ad7fb06bc7a0d4fd87afd216065052355f0bc67e7414a8784ef6175",
+        "effective_length": 16038
+      },
+      "insertions": [
+        {
+          "placement": "research_notes",
+          "wikitext": "=== Possible tanner occurrence, 1623 ===\n\nThe Register of the Privy Council, volume XIII, printed p.246, reportedly names Robert Glasgow among the Glasgow tanners who left the trade after a proposed reform. The original passage has not been newly inspected, so that reading remains qualified.<ref name=\"EarlyTanner1623\">Register of the Privy Council of Scotland, vol.XIII, printed p.246; [https://babel.hathitrust.org/cgi/pt?id=mdp.35112103825313&seq=334 digitised volume]. Reported printed-index text; original historical page not inspected in this review.</ref>\n\nRobert is the leading possible existing identity because his Glasgow adult career and probable 1613 cordiner admission fit the place and period. Cordiners and tanners performed distinct leather trades; the cordiner record does not prove the tanner occupation. [[Glasgow-1156|Robert Glasgow, buried at Duddingston in 1647]], is a weaker but surviving comparison, with no recorded age or trade to exclude him. The separately reported 1630s payment occurrences do not automatically identify the tanner. Craft admissions, burgess records and sasines could distinguish these men; no new parentage or occupation is asserted from this possible match.\n",
+          "review_ids": [
+            "subject-early-scotland-1650-robert-tanner"
+          ]
+        }
+      ],
+      "coverage": []
+    },
+    {
+      "profile_id": "Glasgow-1096",
+      "status": "needs_amendment",
+      "review_ids": [
+        "subject-carnwath-1524-1532-robert-carnwath"
+      ],
+      "source_paths": [
+        "research/queue-review-2026-10-17/early-families.json",
+        "research/latest-findings-subjects/subjects.json#carnwath-1524-1532/robert-carnwath",
+        "tmp/queue-review-2026-10-17/early-families/Glasgow-1096.json#/0/profile/bio",
+        "data/wikitree/profile-evidence.json#/profiles/Glasgow-1096/biography_wikitext"
+      ],
+      "source_refs": [
+        {
+          "title": "William Croft Dickinson (ed.), Court Book of the Barony of Carnwath 1523–1542 (1937), printed pp.9–11; Appendix B p.cxviii; PDF 138–140",
+          "url": "https://deriv.nls.uk/dcn23/1271/7974/127179749.23.pdf#page=138"
+        }
+      ],
+      "compared_biographies": {
+        "current_capture": "tmp/queue-review-2026-10-17/early-families/Glasgow-1096.json#/0/profile/bio",
+        "effective_proposed": "tmp/queue-review-2026-10-17/early-families/Glasgow-1096.json#/0/profile/bio",
+        "effective_sha256": "74ac4f5245f878aa86bd0a01dfe3a070740dc7c330bc107bdc5ec4b4f1add1ac",
+        "effective_length": 14121
+      },
+      "insertions": [
+        {
+          "placement": "research_notes",
+          "wikitext": "=== Possible Carnwath court occurrence, 1524 ===\n\nA possible earlier appearance is Robert Glesquho, named first in abbreviated form as robe and then as Robert, in the Carnwath barony court. The entry supplies no age, residence, occupation or relative.\n\n12 April 1524: John Chanslar pursued Robert Glesquho over sixteen shillings and a boll of bere. The inquest ordered Robert to pay two bolls and two pecks of oats, and a boll and a peck of bere. The dating follows the court header on p.9, corrected to 1524 in Appendix B.<ref>William Croft Dickinson (ed.), Court Book of the Barony of Carnwath 1523–1542 (1937), printed pp.9–11; Appendix B p.cxviii; PDF 138–140; https://deriv.nls.uk/dcn23/1271/7974/127179749.23.pdf#page=138. Printed transcription inspected 15 October 2026; original manuscript not inspected.</ref>\n\nIdentification with this Glasgow burgess and fisher would require a birth earlier than the estimated circa 1520 date and a long adult career continuing from 1524 to the later burgh/property records. The estimate is not an exclusion, but no shared property or relative proves the identity. [[Glasgow-4063|Robert Glasgow of Holkham]] remains another compatible account: his birth is unknown, and his reported death on 23 March 1559 Old Style belongs to 1560 in modern year numbering. No Scottish–Norfolk connection is established. The grain award neither makes the litigant a farmer nor places him with the Quothquan tenants John and Thomas.\n",
+          "review_ids": [
+            "subject-carnwath-1524-1532-robert-carnwath"
+          ]
+        }
+      ],
+      "coverage": []
+    },
+    {
+      "profile_id": "Glasgow-1087",
+      "status": "needs_amendment",
+      "review_ids": [
+        "subject-early-scotland-1650-walter-buried-1647--father-william"
+      ],
+      "source_paths": [
+        "research/queue-review-2026-10-17/early-families.json",
+        "research/latest-findings-subjects/subjects.json#early-scotland-1650/walter-buried-1647",
+        "tmp/queue-review-2026-10-17/early-families/Glasgow-1087.json#/0/profile/bio",
+        "data/wikitree/profile-evidence.json#/profiles/Glasgow-1087/biography_wikitext"
+      ],
+      "source_refs": [
+        {
+          "title": "Findmypast/SGS, Walter Glasgow, burial 4 June 1647, Leithford; OPR 689/20",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1625437"
+        }
+      ],
+      "compared_biographies": {
+        "current_capture": "tmp/queue-review-2026-10-17/early-families/Glasgow-1087.json#/0/profile/bio",
+        "effective_proposed": "tmp/queue-review-2026-10-17/early-families/Glasgow-1087.json#/0/profile/bio",
+        "effective_sha256": "88de76f4488ee106190164e1af64738ecfb810ad4ffdc0020675fe08bd9bcc35",
+        "effective_length": 14656
+      },
+      "insertions": [
+        {
+          "placement": "research_notes",
+          "wikitext": "=== Possible father at the Leithford burial, 1647 ===\n\nThe Kirknewton/East Calder burial transcript indexes Walter Glasgow on 4 June 1647, residence Leithford, as “Son to” William Glasgow.<ref name=\"EarlyLeithford1647\">Findmypast/Scottish Genealogy Society, Walter Glasgow, burial 4 June 1647, Leithford, OPR 689/20, transcript SCOT/OPR/BUR/1625437; original register uninspected; [https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1625437].</ref> This directly identifies a documentary father William, but gives no age, occupation, spouse or mother. The Mid Calder William is the leading possible existing identity through the nearby household and compatible chronology; the transcript does not itself prove that identification.\n\nThis buried Walter cannot be assigned on the present chronology to [[Glasgow-1554|Walter Glasgow]], whose competing baptism readings are 23 September 1647 and 23 September 1649: both fall after the June burial. The year headings and entries in OPR 689/20 need comparison before concluding that the two Walters were siblings or creating a duplicate. A reused forename within a family is possible, but neither common parentage nor an infant age is established by the burial. The burial date is not an exact death date.\n",
+          "review_ids": [
+            "subject-early-scotland-1650-walter-buried-1647--father-william"
+          ]
+        }
+      ],
+      "coverage": []
+    },
+    {
+      "profile_id": "Glasgow-1098",
+      "status": "needs_amendment",
+      "review_ids": [
+        "subject-carnwath-1524-1532-william-carnwath"
+      ],
+      "source_paths": [
+        "research/queue-review-2026-10-17/early-families.json",
+        "research/latest-findings-subjects/subjects.json#carnwath-1524-1532/william-carnwath",
+        "www/people/glasgow-1098.json#/wikitree_update/draft_wikitext",
+        "research/Glasgow-1098/Glasgow-1098.md"
+      ],
+      "source_refs": [
+        {
+          "title": "William Croft Dickinson (ed.), Court Book of the Barony of Carnwath 1523–1542 (1937), printed pp.14–17; Appendix B p.cxviii; PDF 143–146",
+          "url": "https://deriv.nls.uk/dcn23/1271/7974/127179749.23.pdf#page=143"
+        }
+      ],
+      "compared_biographies": {
+        "current_capture": "www/people/glasgow-1098.json#/wikitree_update/remote_wikitext",
+        "effective_proposed": "www/people/glasgow-1098.json#/wikitree_update/draft_wikitext",
+        "effective_sha256": "0ea66abd50cca880b51d34adbdac4e4ee315661b50b33451114091929e80c0a4",
+        "effective_length": 18301
+      },
+      "insertions": [
+        {
+          "placement": "research_notes",
+          "wikitext": "=== Possible Carnwath witness, 1524 ===\n\nThe William recorded as ville Glesquho in the Carnwath court is a possible earlier identity for this man, whose birth date is unknown and who had an adult married son by 1534.\n\n7 June 1524: the court continued a violent-blood case against Roben Ake and James Scot, ordering witnesses including ville Glesquho to be called. The next court header, 21 June 1524, comes below this passage and is not its date.<ref>William Croft Dickinson (ed.), Court Book of the Barony of Carnwath 1523–1542 (1937), printed pp.14–17; Appendix B p.cxviii; PDF 143–146; https://deriv.nls.uk/dcn23/1271/7974/127179749.23.pdf#page=143. Printed transcription inspected 15 October 2026; original manuscript not inspected.</ref>\n\nThe witness is named with John Vyld and Robert Chanslar in the case involving Roben Ake and James Scot, but no residence, trade or relative is stated. The chronology fits this William before his death bound in March 1535/36. The possible 1526 remission involving William Glasgow and James Somervile is a further comparison, not an identity bridge. [[Glasgow-3522|William Glasgow, son of John]], is a weaker rival: his later sixteenth-century career would require a considerably earlier birth and long life to fit 1524, but his estimated circa 1540 birth alone is not an exclusion. No Quothquan residence or relationship to the court’s other Glasgows is inferred.\n",
+          "review_ids": [
+            "subject-carnwath-1524-1532-william-carnwath"
+          ]
+        }
+      ],
+      "coverage": []
+    },
+    {
+      "profile_id": "Glasgow-3075",
+      "status": "needs_amendment",
+      "review_ids": [
+        "subject-early-scotland-1650-william-haddington"
+      ],
+      "source_paths": [
+        "research/queue-review-2026-10-17/early-families.json",
+        "research/latest-findings-subjects/subjects.json#early-scotland-1650/william-haddington",
+        "www/people/glasgow-3075.json#/wikitree_update/draft_wikitext",
+        "research/Glasgow-3075/Glasgow-3075.md"
+      ],
+      "source_refs": [
+        {
+          "title": "Findmypast/SGS, Issobell Glasgow, Haddington, born 24 and baptised 26 November 1639; OPR 709/1 p.208",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4675742"
+        }
+      ],
+      "compared_biographies": {
+        "current_capture": "www/people/glasgow-3075.json#/wikitree_update/remote_wikitext",
+        "effective_proposed": "www/people/glasgow-3075.json#/wikitree_update/draft_wikitext",
+        "effective_sha256": "0b4aa5c0921833aadad39b867f7fbd9c3d8865703b5e67f0a5533dc5836a17e1",
+        "effective_length": 18163
+      },
+      "insertions": [
+        {
+          "placement": "research_notes",
+          "wikitext": "=== Possible Haddington household, 1639 ===\n\nWm Glasgow is named as father of Issobell, born on 24 November and baptised on 26 November 1639 at Haddington, with mother indexed as Issobella Miral.<ref name=\"EarlyHaddington1639\">Findmypast/Scottish Genealogy Society, Issobell Glasgow, born 24 and baptised 26 November 1639, Haddington; OPR 709/1 p.208, transcript SCOT/OPR/BAP/4675742; original register not inspected; [https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4675742].</ref> The parental names belong directly to that indexed event; Miral has not been normalized to another surname without the original.\n\nThe Leith mealmaker is the leading possible existing identity for Wm because his established eastern-Lothian adult household and September 1644 death fit 1639. His Catherine Fraser and Christian Scot household comparisons neither prove nor by themselves exclude the Haddington occurrence; no remarriage, widowhood or overlapping marriage is inferred. [[Glasgow-1087|William Glasgow of Mid Calder]] and [[Glasgow-3517|William Glasgow, baptised Inveresk in 1614]], are genuine adult alternatives. No occupation or parish-to-parish bridge in the Haddington transcript chooses among them. The named child’s possible identification with [[Glasgow-2454|Issobell Glasgow of Mid Calder]] is a separate, weak later-life comparison; it does not downgrade the direct parental statement in the Haddington event.\n",
+          "review_ids": [
+            "subject-early-scotland-1650-william-haddington"
+          ]
+        }
+      ],
+      "coverage": []
+    }
+  ],
+  "issues": [
+    {
+      "profile_id": "Glasgow-1148",
+      "severity": "must_reconcile",
+      "assessment": "Current effective proposed biography still links the 1626 son to James-1150, ambiguously makes Janet Clerk James’s wife, and claims three generations. Exact source-supported corrections supplied; do not append new notes while leaving those live assertions in the full replacement."
+    },
+    {
+      "kind": "source_status",
+      "assessment": "No new manuscript reading claimed. The RPC tanner passage remains a reported uninspected reading; Haddington and Leithford are provider transcripts. Carnwath and sasine printed readings reuse the verified 15 October work. Add records as qualified comparisons in Research Notes where profile identity remains possible."
+    },
+    {
+      "kind": "preservation",
+      "assessment": "Main should merge insertions into the latest effective full draft, preserving all current narrative and distinct citations. Proposed full biographies already contain unrelated amendments; no replacement copy was made here to avoid overwriting another lane."
+    }
+  ]
+}

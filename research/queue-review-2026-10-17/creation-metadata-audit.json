@@ -1,0 +1,68 @@
+{
+  "reviewed_on": "2026-10-17",
+  "scope": "Independent audit of catalogue-integration.json new_people metadata against each original draft; no network or source edits.",
+  "verified": {
+    "new_people_total": 27,
+    "creation_ready": 25,
+    "source_holds": 2,
+    "catalogue_ids_unique": true,
+    "subject_ids_unique": true,
+    "draft_paths_present": true,
+    "source_records_with_urls": 27,
+    "gender_values_nonempty": 0,
+    "all_candidate_ids_use_record_queue_prefix": true,
+    "filter_count_arithmetic": "63 + 27 = 90; 63 + 25 = 88",
+    "profile_updates_total": 287
+  },
+  "issues": [
+    {
+      "kind": "unsupported_birth_metadata",
+      "count": 4,
+      "rows": [
+        {
+          "subject_id": "subject-gortereghy-elder-and-anderson-alexander-elder",
+          "name": "Alexander Elder",
+          "manifest_birth": "before 1888",
+          "reason": "draft minimum fields explicitly says birth date remains unknown; age-based estimate was promoted into birth field"
+        },
+        {
+          "subject_id": "subject-gortereghy-elder-households-1911-ellen-elder",
+          "name": "Ellen Elder",
+          "manifest_birth": "about 1873",
+          "reason": "draft minimum fields explicitly says birth date remains unknown; age-based estimate was promoted into birth field"
+        },
+        {
+          "subject_id": "subject-gortereghy-mccaughern-household-1911-matilda-mulholland",
+          "name": "Matilda Mulholland",
+          "manifest_birth": "about 1859",
+          "reason": "draft minimum fields explicitly says birth date remains unknown; age-based estimate was promoted into birth field"
+        },
+        {
+          "subject_id": "subject-rasharkin-directory-1912-peter-mccaughern",
+          "name": "Peter McCaughern",
+          "manifest_birth": "about 1863",
+          "reason": "draft minimum fields explicitly says birth date remains unknown; age-based estimate was promoted into birth field"
+        }
+      ]
+    },
+    {
+      "kind": "ambiguous_composite_lnab",
+      "count": 1,
+      "rows": [
+        {
+          "subject_id": "subject-newspapers-early-glasgow-nicholas-glasco-southwark",
+          "name": "Nicholas Glasco / Glascoe",
+          "last_names_at_birth": [
+            "Glasco/Glascoe"
+          ],
+          "reason": "composite recorded surname variants are not a single defensible LNAB"
+        }
+      ]
+    },
+    {
+      "kind": "needs_update_filter_not_explicit_in_manifest",
+      "count": 27,
+      "detail": "All 27 are expected to be included in both filters, but catalogue-integration.json has no needsUpdate/missingProfile boolean to independently verify."
+    }
+  ]
+}
