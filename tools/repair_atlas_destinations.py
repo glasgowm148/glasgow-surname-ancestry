@@ -9,6 +9,8 @@ WikiTree merges and the published catalogue.  Two failure modes produced
   -> link to the surviving profile's catalogue page and record ``redirectedTo``;
 * people with no published catalogue page -> ``catalogueId: null`` so the Atlas
   links to their WikiTree profile instead.
+* documentary people -> preserve an existing explicit local dossier, including
+  Free-space pages, without inventing a WikiTree person profile.
 
 Idempotent; touches only ``catalogueId``/``redirectedTo`` fields.
 
@@ -22,6 +24,7 @@ import json
 import re
 import sys
 from pathlib import Path
+from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 WEB = ROOT / "www"
@@ -31,6 +34,17 @@ STANDALONE = WEB / "assets/research/atlas-standalone.html"
 
 def page_exists(slug: str) -> bool:
     return bool(slug) and ((WEB / "people" / f"{slug}.html").exists() or (WEB / "people" / slug / "index.html").exists())
+
+
+def documentary_page_exists(person: dict) -> bool:
+    """Record-only people can link to an explicit local Free-space dossier."""
+    url = person.get("catalogueUrl") or ""
+    if not person.get("documentary") or not url.startswith("/") or url.startswith("//"):
+        return False
+    path = (WEB / urlsplit(url).path.lstrip("/")).resolve()
+    if not path.is_relative_to(WEB.resolve()):
+        return False
+    return (path.suffix == ".html" and path.is_file()) or (path / "index.html").is_file()
 
 
 def redirects() -> dict[str, str]:
@@ -44,7 +58,7 @@ def repair_people(people: list[dict], merged: dict[str, str]) -> list[str]:
         if person.get("kind") != "person":
             continue
         slug = person.get("catalogueId") or ""
-        if page_exists(slug):
+        if page_exists(slug) or documentary_page_exists(person):
             continue
         target = merged.get(person["id"])
         target_slug = target.lower() if target else ""

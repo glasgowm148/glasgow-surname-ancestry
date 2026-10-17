@@ -168,3 +168,7 @@ From the re-read transcription of NRS Edinburgh Commissary Court CC8/8/5, images
 Queried readings are marked [?]. The landlord's surname is uncertain, so a link with the James Stevinsoun of Andrew Glasgow-3163's 1597/8 testament is a lead only (inference). These are associates and estate details; they prove no relationship.
 
 Recorded in `research/Glasgow-3181/Glasgow-3181.md` (8 September 2026), checked against the 10 September 2026 re-read; carried into this file on 7 October 2026.
+
+## Correction to the dated index note — 17 October 2026
+
+The 8 October “Third pre-1610 pass” note preserves a superseded lead. The accepted reading remains **Katherine and Marjory**, as recorded in the Current conclusion and the [maintained illustrated reading of NRS CC8/8/5, images 276–277](/research/transcriptions/john-1577/#passage-john-widow-children). It does not supply a son Andrew or establish a link to Andrew Glasgow-3163. Its reported “24 May” index date is also not adopted: the maintained record account and Findmypast transcript SCOT/WILLS/057444 use **4 May 1577**. This publication reconciliation adds no relationship and changes no certainty grade.

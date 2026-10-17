@@ -166,3 +166,7 @@ The transcript-validated testament/probate record for **Katherine Glasgow**, ind
 
 Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Thomas Weir is explicitly her husband. William, James and Jonet Weir are very probably their children from the combined minority, executor and representation evidence, but the record does not state that relationship explicitly. Their completed duplicate audits found no compatible profiles; create three distinct profiles from the linked drafts with both parent relationships uncertain.
 <!-- END FMP-GLASGOW-fmp-glasgow-26c2dd21572c -->
+
+## Scope of the minister ancestry note — 17 October 2026
+
+The Fasti ancestry check concerns the claimed ancestry of [Rev. John Glasgow (Glasgow-1073)](https://www.wikitree.com/wiki/Glasgow-1073), not an event in Katherine's life. It supplies no new parentage for Katherine. The minister's own findings retain the distinction between his documented wife and the unsupported Cunningham ancestry claim.

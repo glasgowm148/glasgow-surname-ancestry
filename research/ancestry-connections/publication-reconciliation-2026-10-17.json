@@ -1,0 +1,100 @@
+{
+  "reviewed_on": "2026-10-17",
+  "scope": "Publication reconciliation following the probable-or-stronger connectivity view",
+  "source_notes": "Pre-existing owner additions retained in the working tree, not committed as this batch\u2019s research",
+  "refreshed_profiles": [
+    "Glasgow-1084",
+    "Glasgow-1093",
+    "Glasgow-1099",
+    "Glasgow-1100",
+    "Glasgow-1140",
+    "Glasgow-1495",
+    "Glasgow-1504",
+    "Glasgow-1781",
+    "Glasgow-3006",
+    "Glasgow-3181",
+    "Glasgow-3915"
+  ],
+  "qualifications_added": [
+    "Glasgow-1495",
+    "Glasgow-1504",
+    "Glasgow-3006",
+    "Glasgow-3181"
+  ],
+  "genealogical_connections_added": 0,
+  "certainty_grades_changed": 0,
+  "pending_wikitree_updates": 232,
+  "catalogue_people": 4801,
+  "source_hashes": {
+    "Glasgow-1084": "68454290bc6b71a4eca62fe0cbfd20ec47629d5e4e4849ca9a4858ae1a7a6b8c",
+    "Glasgow-1093": "4541f7d1fea38e6f94e664160be5744a1f3cd858e17173e553ca10dc31a140d1",
+    "Glasgow-1099": "53243e76ef46805f9c733927914e274560686a092709d6a26ba9e09967b141d1",
+    "Glasgow-1100": "04140a3461b29b7db7aff90a83eddeb0a4c3f75a56b631ee90cc622fa63518fa",
+    "Glasgow-1140": "10ee965dcedf307a0a97fc8dbea4eb295d8c48e54264bf307873a1ef4926ccce",
+    "Glasgow-1495": "392011b0575f1a819f4223c9004a3efe7a13e56c71aba1ee254e774eae5bdc0b",
+    "Glasgow-1504": "a23f8e033a76c4537285c97bbfee209b4a9cb47bd3e53ba9677f2d2901429efd",
+    "Glasgow-1781": "0aef0e1ad20a773ca9f31d2de506ba534c5c122450085f541b5731d4ccdd7ede",
+    "Glasgow-3006": "91adb83eef453b9f2c826c99c4f064a3a72a088fdbacf5fe851f39dd40e34f00",
+    "Glasgow-3181": "d69e22f316cfc98d872ee14fb1a0f81ae999939deeb069f171a2e986b98d4527",
+    "Glasgow-3915": "17f96898bd3e48da22b7efe28aa829a01325697090d82d8a9044aca6c23297e5"
+  },
+  "verification": {
+    "new_publication_failures": 0,
+    "all_11_profile_vitals_and_parents_preserved": true,
+    "all_11_profile_update_proposals_preserved": true,
+    "full_and_compact_update_membership_preserved": true,
+    "all_connectivity_cohorts_thresholds_and_baseline_preserved": true
+  },
+  "live_deployment": false,
+  "archive_verification": {
+    "archive": "dist/glasgow-site-20261017-022244.tar.gz",
+    "bytes": 291887432,
+    "decimal_MB": 291.887432,
+    "sha256": "114fc0d9b027137bfd9e4fc0591586dc38f9871e471913373029b0a02b1c346c",
+    "verified_manifest_files": 80705,
+    "all_archived_files_match_current_site": true,
+    "live_deployment": false,
+    "older_archives_moved_recoverably": 1
+  },
+  "staging_verification": {
+    "verified_cache_only_tracked_pages": 16440,
+    "preexisting_owner_paths_retained": 74,
+    "preexisting_paths_partially_staged": [
+      "research/Glasgow-1495/findings.md",
+      "research/Glasgow-1504/findings.md",
+      "research/Glasgow-3006/findings.md",
+      "research/Glasgow-3181/findings.md",
+      "www/catalogue/advanced.html",
+      "www/catalogue/index.html"
+    ],
+    "new_builder_and_template_privacy_checks_passed": true
+  },
+  "release_repairs": {
+    "standalone_inline_annotations_omitted": true,
+    "all_other_embedded_genealogy_fields_unchanged": true,
+    "all_approved_model_annotations_preserved": true,
+    "analytics_pages_normalized": [
+      "catalogue/advanced.html",
+      "catalogue/index.html",
+      "catalogue.html",
+      "people/glasgow-951.html",
+      "people/research-material/glasgow-3075-36609c009d939a59/index.html",
+      "people/research-material/glasgow-951-1a4b54b1293e27bf/index.html",
+      "people/research-material/glasgow-951-62ef9ce7538549e3/index.html",
+      "people/research-material/glasgow-951-d6c20addc394190e/index.html"
+    ],
+    "new_publication_permission": false,
+    "browser_verification": {
+      "desktop_study_panel_visible": true,
+      "mobile_viewport_width": 390,
+      "mobile_page_scroll_width": 390,
+      "mobile_study_link_fully_visible": true,
+      "temporary_tabs_closed_and_viewport_reset": true
+    }
+  },
+  "documentary_destination_check": {
+    "existing_explicit_local_dossier_preserved": true,
+    "regression_tests_passed": 3,
+    "tree_models_changed": false
+  }
+}

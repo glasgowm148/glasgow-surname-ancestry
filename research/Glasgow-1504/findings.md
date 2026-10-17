@@ -84,3 +84,7 @@ The PRONI eCatalogue description for `D2977/3A/4/81/116`, the lease of 30 August
 The reviewed draft reports a James Glasgowe at Altilevelly in Raloo parish on a 1747 map, citing the derivative online chronology already used here for the 1727 marriage (its reference is labelled "entries for 1727–1740", so the 1747 attribution needs checking). Raloo Presbyterians attended the Larne congregation, so this may be the same James (inference), but the map entry as reported gives no age or family, and the map itself has not been identified or inspected. Grade: possible same-name occurrence only.
 
 Recorded in `research/Glasgow-1504/Glasgow-1504.md` (undated legacy draft); carried into this file on 7 October 2026.
+
+## Scope of the Larne will-index lead — 17 October 2026
+
+Findmypast entry [IRE/DIOC/WILL/00377282](https://www.findmypast.co.uk/transcript?id=IRE%2FDIOC%2FWILL%2F00377282&tab=this), names **William**, not this James. It is an associated Larne family lead, with the William's identity and date unresolved; it is not a testament or death record assigned to James. No parentage or dates change on that basis.

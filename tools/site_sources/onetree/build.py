@@ -761,6 +761,11 @@ def validate(model: dict) -> dict:
     }
 
 
+def embedded_model(model: dict) -> dict:
+    """The standalone HTML has no approval for individual DNA annotations."""
+    return {key: value for key, value in model.items() if key != 'dna'}
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--catalogue-data", type=Path, default=ROOT / "www" / "data" / "people.json")
@@ -784,7 +789,7 @@ def main() -> None:
         if template.count("__MODEL__") != 1:
             raise ValueError("Template needs exactly one __MODEL__ placeholder.")
         args.model.write_text(json.dumps(model, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-        data = json.dumps(model, ensure_ascii=False, separators=(",", ":")).replace("<", r"\u003c")
+        data = json.dumps(embedded_model(model), ensure_ascii=False, separators=(",", ":")).replace("<", r"\u003c")
         args.output.write_text(template.replace("__MODEL__", data), encoding="utf-8")
         args.qa.write_text(json.dumps({"generated": date.today().isoformat(), **checks}, indent=2) + "\n", encoding="utf-8")
         with args.ids.open("w", encoding="utf-8", newline="") as handle:
