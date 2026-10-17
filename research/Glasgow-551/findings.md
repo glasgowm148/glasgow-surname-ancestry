@@ -1,13 +1,15 @@
 # Findings: [John Glasgow (Glasgow-551), born 1681, Scotland](https://www.wikitree.com/wiki/Glasgow-551)
 
-Last updated: 2026-10-16
+Last updated: 2026-10-17
 
 Record every useful result and negative search here as it is found.
 Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
-Reviewed: 2026-10-16
+**Earlier Tyrone parentage review, 17 October 2026:** William Glasgow-591 is assessed as the probable father of John Glasgow-551, and John as the probable father of Hugh Glasgow-548, within the explicit family-history pedigree. These are tradition-based probable roles, not documented identifications of the Scottish candidates, the Leitrim witness or either 1740 Hugh.
+
+Reviewed: 2026-10-17
 
 **Selected very uncertain Leitrim–Tyrone model, 16 October 2026:** John Glasgow-3960 is provisionally placed as a son of the traditional John Glasgow-551, using their existing estimated generations. Identity between the two Johns remains a live alternative. The 1728 witness record names no father; James Glasgow-3124’s existing paternal link remains unproved. [Evidence and alternatives](/branches/research-irish-belfast-donegal/#leitrim-tyrone-working-family).
 
@@ -45,3 +47,17 @@ One very uncertain father is newly selected, conditional on treating the two Joh
 - [Registry of Deeds, marriage articles 2 October 1779, witness James Glasgow of Aghadonvane; previously reviewed image](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJ4-W935-7)
 - [Findmypast, Betham’s Genealogical Abstracts, James Glasgow, administration 24 January 1782; prior transcript finding, image not checked here](https://www.findmypast.co.uk/transcript?id=IRE%2FNAI%2FGENABS%2F00401119%2F1)
 - [Debrett’s Baronetage, Montgomery pedigree, James Glasgow of Aughadenvarn and daughter Jemima; existing published-pedigree citation](https://archive.org/details/debrettsbaroneta25lond/page/n851/mode/2up)
+
+## Earlier Tyrone father review — 17 October 2026
+
+The family history explicitly calls John a son of William and introduces Hugh, the Tyrone-born weaver, among John’s sons. These are specific parent statements in a continuous pedigree, not parents supplied from a shared surname. The nearer part of that account identifies the Hugh–McCullough family and the younger Hugh’s Pennsylvania household, whose children agree with the independently inspected 1827 will. That household correlation supports the account’s family knowledge without independently proving the two earlier fathers. With the retained generations compatible and no conflicting parent account identified for these traditional roles, William–John and John–Hugh warrant probable local assessments. The preference is for the particular family-history accounts, not an identification with other same-name Scottish or Irish records.
+
+Both earlier father names come from one later family narrative; they are not two independent confirmations. John’s circa-1681 birth is calculated and William’s circa-1655/1656 date is estimated, so neither is corroboration. The 1740 return cannot distinguish the two Hugh householders or name their parents. No contemporary record identifies John-551 or William-591 in these roles. The narrative’s Cameron surname-origin and 1689 military story are unverified and are not used as parentage evidence. William’s selected uncertain Inveresk/Cavers identity and Robert-2462 father hypothesis remain separate. John-3960’s very uncertain placement and the alternative that the two Johns are one person remain unchanged. No mother, wife, new date, migration or exact 1740 identity is inferred.
+
+Two existing unmarked/ungraded father links become probable local assessments. No new attachment, documented/certain upgrade, merge or live WikiTree edit is made. Their child sides contain 47 and 43 pre-1850 profiles respectively; these nested impacts overlap and must not be added. All other parent IDs and grades, including the older Scottish and Leitrim hypotheses, are preserved.
+
+Sources: [History of the Glasgow Family, attributed to Melanchthon Glasgow: project-held scan, printed p.2 (PDF p.2), visually checked 17 October 2026; contemporary Irish parent records not cited](https://www.wikitree.com/photo.php/0/0a/Glasgow-590.pdf); [Hugh Glasgow’s 1827 Pennsylvania will, proved 1831: previously inspected household comparison; it does not name the earlier fathers](https://www.familysearch.org/ark:/61903/3:1:3QS7-L991-GV6H?cc=1999196).
+
+The source inspection used the existing scanned project copy. Online re-fetch was unavailable; no new contemporary parent record is claimed.
+
+[Full pedigree assessment and retained alternatives](/branches/research-irish-tamlaght/#tyrone-traditional-fathers).

@@ -1,0 +1,140 @@
+{
+  "reviewed": "2026-10-17",
+  "cutoff": 1850,
+  "method_version": 3,
+  "input_fingerprint": "2527b12264d39980e2717fbb959429895768b1507c17358f94139edae1caa7dc",
+  "scope": "The earlier Tyrone pedigree: probable William–John–Hugh father roles",
+  "genealogical_connections_added": 0,
+  "paternal_connections_added": 0,
+  "maternal_connections_added": 0,
+  "certainty_upgrades": 0,
+  "working_fathers": 57,
+  "working_mothers": 9,
+  "models": {
+    "main": {
+      "checked_historical_profiles": 1777,
+      "all_public_model_profiles_checked": 4520,
+      "changed_father_fields": 0,
+      "changed_mother_fields": 0,
+      "father_grades_changed": 2,
+      "mother_grades_changed": 0,
+      "matched_paternal_edges": 1354,
+      "added_historical_profiles": [],
+      "unresolved_father_cases": [
+        "Glasgow-1367",
+        "Glasgow-2908",
+        "Glasgow-867",
+        "Glasgow-951"
+      ]
+    },
+    "standalone": {
+      "checked_historical_profiles": 1777,
+      "all_public_model_profiles_checked": 4670,
+      "changed_father_fields": 0,
+      "changed_mother_fields": 0,
+      "father_grades_changed": 2,
+      "mother_grades_changed": 0,
+      "matched_paternal_edges": 1354,
+      "added_historical_profiles": [],
+      "unresolved_father_cases": [
+        "Glasgow-1367",
+        "Glasgow-2908",
+        "Glasgow-867",
+        "Glasgow-951"
+      ]
+    }
+  },
+  "publication_summary": "The family history explicitly calls John a son of William and introduces Hugh, the Tyrone-born weaver, among John’s sons. These are specific parent statements in a continuous pedigree, not parents supplied from a shared surname. The nearer part of that account identifies the Hugh–McCullough family and the younger Hugh’s Pennsylvania household, whose children agree with the independently inspected 1827 will. That household correlation supports the account’s family knowledge without independently proving the two earlier fathers. With the retained generations compatible and no conflicting parent account identified for these traditional roles, William–John and John–Hugh warrant probable local assessments. The preference is for the particular family-history accounts, not an identification with other same-name Scottish or Irish records. Both earlier father names come from one later family narrative; they are not two independent confirmations. John’s circa-1681 birth is calculated and William’s circa-1655/1656 date is estimated, so neither is corroboration. The 1740 return cannot distinguish the two Hugh householders or name their parents. No contemporary record identifies John-551 or William-591 in these roles. The narrative’s Cameron surname-origin and 1689 military story are unverified and are not used as parentage evidence. William’s selected uncertain Inveresk/Cavers identity and Robert-2462 father hypothesis remain separate. John-3960’s very uncertain placement and the alternative that the two Johns are one person remain unchanged. No mother, wife, new date, migration or exact 1740 identity is inferred. Two existing unmarked/ungraded father links become probable local assessments. No new attachment, documented/certain upgrade, merge or live WikiTree edit is made. Their child sides contain 47 and 43 pre-1850 profiles respectively; these nested impacts overlap and must not be added. All other parent IDs and grades, including the older Scottish and Leitrim hypotheses, are preserved.",
+  "comparison": "/branches/research-irish-tamlaght/#tyrone-traditional-fathers",
+  "catalogue_parent_projection": {
+    "reviewed_profiles": 3,
+    "father_assessments_checked": 2,
+    "differences": [],
+    "scope": "Three affected complete comparison dossiers; two probable traditional fathers, no new attachment."
+  },
+  "verification": {
+    "public_pending_updates": 237,
+    "complete_profile_comparisons": 3,
+    "public_complete_profile_comparisons": 3,
+    "private_complete_profile_comparisons": 0,
+    "all_working_confident_and_supported_cohort_membership_unchanged": true,
+    "all_parent_ids_and_vitals_unchanged": true,
+    "all_other_father_grades_unchanged": true,
+    "all_mother_grades_unchanged": true,
+    "held_four_father_cases_with_full_flags_unchanged": true,
+    "leitrim_selected_hypothesis_unchanged": true,
+    "earlier_scottish_and_1740_identities_not_upgraded": true,
+    "live_flags_unchanged": true,
+    "browser_checked": {
+      "main_whole_tree": "Hugh-548’s father John-551 and John-551’s father William-591 both visibly probable.",
+      "catalogue": "John-551’s father column visibly probable; earlier very uncertain child amendment retained; queue remains 237."
+    }
+  },
+  "unresolved_parentage_review": {
+    "status": "OPEN",
+    "case_ids": [
+      "Glasgow-1367",
+      "Glasgow-2908",
+      "Glasgow-867",
+      "Glasgow-951"
+    ],
+    "confident_flag_among_competing_candidates": [
+      "Glasgow-867"
+    ],
+    "scope": "Four other competing-father cases retain their existing grades; no selection is made for them."
+  },
+  "next_metric_check": {
+    "status": "RESOLVED",
+    "saved_confident_tree_flags_not_used_by_current_metric": 0,
+    "review": "/data/ancestry-confidence-method-review.json",
+    "scope": "Status fallback; four other competing-father cases remain open."
+  },
+  "confidence_assessments_strengthened": 2,
+  "local_chronology_corrections": 0,
+  "parent_grade_changes": [
+    {
+      "subject_id": "Glasgow-548",
+      "relative_id": "Glasgow-551",
+      "relationship": "father",
+      "before": "unknown",
+      "prior_local_assessment": "unknown/ungraded; saved certainty unmarked",
+      "after": "probable",
+      "assertion_id": "C-review-20261017-tyrone-traditional-father-glasgow-548",
+      "basis": "The family history explicitly calls John a son of William and introduces Hugh, the Tyrone-born weaver, among John’s sons. These are specific parent statements in a continuous pedigree, not parents supplied from a shared surname. The nearer part of that account identifies the Hugh–McCullough family and the younger Hugh’s Pennsylvania household, whose children agree with the independently inspected 1827 will. That household correlation supports the account’s family knowledge without independently proving the two earlier fathers. With the retained generations compatible and no conflicting parent account identified for these traditional roles, William–John and John–Hugh warrant probable local assessments. The preference is for the particular family-history accounts, not an identification with other same-name Scottish or Irish records.",
+      "limitations": "Both earlier father names come from one later family narrative; they are not two independent confirmations. John’s circa-1681 birth is calculated and William’s circa-1655/1656 date is estimated, so neither is corroboration. The 1740 return cannot distinguish the two Hugh householders or name their parents. No contemporary record identifies John-551 or William-591 in these roles. The narrative’s Cameron surname-origin and 1689 military story are unverified and are not used as parentage evidence. William’s selected uncertain Inveresk/Cavers identity and Robert-2462 father hypothesis remain separate. John-3960’s very uncertain placement and the alternative that the two Johns are one person remain unchanged. No mother, wife, new date, migration or exact 1740 identity is inferred.",
+      "new_attachment": false,
+      "live_flag_changed": false
+    },
+    {
+      "subject_id": "Glasgow-551",
+      "relative_id": "Glasgow-591",
+      "relationship": "father",
+      "before": "unknown",
+      "prior_local_assessment": "unknown/ungraded; saved certainty unmarked",
+      "after": "probable",
+      "assertion_id": "C-review-20261017-tyrone-traditional-father-glasgow-551",
+      "basis": "The family history explicitly calls John a son of William and introduces Hugh, the Tyrone-born weaver, among John’s sons. These are specific parent statements in a continuous pedigree, not parents supplied from a shared surname. The nearer part of that account identifies the Hugh–McCullough family and the younger Hugh’s Pennsylvania household, whose children agree with the independently inspected 1827 will. That household correlation supports the account’s family knowledge without independently proving the two earlier fathers. With the retained generations compatible and no conflicting parent account identified for these traditional roles, William–John and John–Hugh warrant probable local assessments. The preference is for the particular family-history accounts, not an identification with other same-name Scottish or Irish records.",
+      "limitations": "Both earlier father names come from one later family narrative; they are not two independent confirmations. John’s circa-1681 birth is calculated and William’s circa-1655/1656 date is estimated, so neither is corroboration. The 1740 return cannot distinguish the two Hugh householders or name their parents. No contemporary record identifies John-551 or William-591 in these roles. The narrative’s Cameron surname-origin and 1689 military story are unverified and are not used as parentage evidence. William’s selected uncertain Inveresk/Cavers identity and Robert-2462 father hypothesis remain separate. John-3960’s very uncertain placement and the alternative that the two Johns are one person remain unchanged. No mother, wife, new date, migration or exact 1740 identity is inferred.",
+      "new_attachment": false,
+      "live_flag_changed": false
+    }
+  ],
+  "maternal_publication_reconciliation": [],
+  "supported_connectivity": {
+    "before": {
+      "population": 1777,
+      "edge_count": 360,
+      "component_count": 1417,
+      "largest_component_size": 44,
+      "connected_pairs_percent": 0.18244890923562843
+    },
+    "after": {
+      "population": 1777,
+      "edge_count": 362,
+      "component_count": 1415,
+      "largest_component_size": 44,
+      "connected_pairs_percent": 0.18289251547552055
+    }
+  },
+  "traditional_father_roles_assessed": 2
+}

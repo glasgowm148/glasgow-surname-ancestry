@@ -1833,3 +1833,10 @@ The August completion entries remain historical. The live parent fields are now 
 | [Abiah Glasco](https://www.wikitree.com/wiki/Glasco-39) | OPEN | Cite the will father assessment; preserve separate Caleb identity, maternal and date uncertainties. |
 | [Elizabeth Glasco](https://www.wikitree.com/wiki/Glasco-40) | OPEN | Cite the will father assessment; preserve separate Caleb identity, maternal and date uncertainties. |
 | [William Glasgow of Currituck](https://www.wikitree.com/wiki/Glasgow-428) | OPEN | Cite the will father assessment; preserve separate Caleb identity, maternal and date uncertainties. |
+
+
+## Earlier Tyrone probable father roles — 17 October 2026
+
+| [Hugh Glasgow, elder Tyrone–Londonderry weaver](https://www.wikitree.com/wiki/Glasgow-548) | OPEN | Explain the two probable traditional father roles; preserve independent Scottish, 1740 and Leitrim identity questions and unmarked live flags. |
+| [John Glasgow, Tyrone family-history account](https://www.wikitree.com/wiki/Glasgow-551) | OPEN | Explain the two probable traditional father roles; preserve independent Scottish, 1740 and Leitrim identity questions and unmarked live flags. |
+| [William Glasgow, traditional Scottish ancestor account](https://www.wikitree.com/wiki/Glasgow-591) | OPEN | Explain the two probable traditional father roles; preserve independent Scottish, 1740 and Leitrim identity questions and unmarked live flags. |

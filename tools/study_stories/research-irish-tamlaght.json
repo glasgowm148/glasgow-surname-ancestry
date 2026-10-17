@@ -2,7 +2,7 @@
   "id": "research-irish-tamlaght",
   "kicker": "Irish locality study",
   "title": "Tamlaght O’Crilly: the Hugh households",
-  "standfirst": "The Pennsylvania emigrant Hugh is now assessed as the probable son of Hugh Glasgow and Margaret McCullough. The two 1740 Hugh household identities remain open.",
+  "standfirst": "The Pennsylvania emigrant Hugh is now assessed as the probable son of Hugh Glasgow and Margaret McCullough. The two 1740 Hugh household identities remain open. The earlier William–John–Hugh pedigree is assessed as probable within the family account, with its separate identity questions retained.",
   "status": {
     "label": "Probable parents; 1740 identities open",
     "tone": "unresolved"
@@ -32,6 +32,39 @@
   "question": "Which, if any, later Glasgow family belongs to each documented Hugh household?",
   "answer": "The explicit descendant account and independently matching Pennsylvania household support probable Hugh–McCullough parentage for the younger emigrant Hugh. The 1740 return establishes an older local surname generation, but neither entry is identified conclusively with his father. The older John and William ancestry remains separate and unproved.",
   "chapters": [
+    {
+      "id": "tyrone-traditional-fathers",
+      "anchor_alias": "tyrone-traditional-fathers",
+      "period": "Earlier traditional generations · two probable fathers",
+      "title": "The earlier Tyrone pedigree: probable William–John–Hugh father roles",
+      "body": [
+        "The family history explicitly calls John a son of William and introduces Hugh, the Tyrone-born weaver, among John’s sons. These are specific parent statements in a continuous pedigree, not parents supplied from a shared surname. The nearer part of that account identifies the Hugh–McCullough family and the younger Hugh’s Pennsylvania household, whose children agree with the independently inspected 1827 will. That household correlation supports the account’s family knowledge without independently proving the two earlier fathers. With the retained generations compatible and no conflicting parent account identified for these traditional roles, William–John and John–Hugh warrant probable local assessments. The preference is for the particular family-history accounts, not an identification with other same-name Scottish or Irish records.",
+        "Both earlier father names come from one later family narrative; they are not two independent confirmations. John’s circa-1681 birth is calculated and William’s circa-1655/1656 date is estimated, so neither is corroboration. The 1740 return cannot distinguish the two Hugh householders or name their parents. No contemporary record identifies John-551 or William-591 in these roles. The narrative’s Cameron surname-origin and 1689 military story are unverified and are not used as parentage evidence. William’s selected uncertain Inveresk/Cavers identity and Robert-2462 father hypothesis remain separate. John-3960’s very uncertain placement and the alternative that the two Johns are one person remain unchanged. No mother, wife, new date, migration or exact 1740 identity is inferred.",
+        "Two existing unmarked/ungraded father links become probable local assessments. No new attachment, documented/certain upgrade, merge or live WikiTree edit is made. Their child sides contain 47 and 43 pre-1850 profiles respectively; these nested impacts overlap and must not be added. All other parent IDs and grades, including the older Scottish and Leitrim hypotheses, are preserved."
+      ],
+      "evidence": [
+        {
+          "label": "History of the Glasgow Family, attributed to Melanchthon Glasgow: project-held scan, printed p.2 (PDF p.2), visually checked 17 October 2026; contemporary Irish parent records not cited",
+          "url": "https://www.wikitree.com/photo.php/0/0a/Glasgow-590.pdf"
+        },
+        {
+          "label": "Hugh Glasgow’s 1827 Pennsylvania will, proved 1831: previously inspected household comparison; it does not name the earlier fathers",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L991-GV6H?cc=1999196"
+        },
+        {
+          "label": "Hugh Glasgow, elder Tyrone–Londonderry weaver — current assessment and complete comparison",
+          "url": "/people/glasgow-548.html"
+        },
+        {
+          "label": "John Glasgow, Tyrone family-history account — current assessment and complete comparison",
+          "url": "/people/glasgow-551.html"
+        },
+        {
+          "label": "William Glasgow, traditional Scottish ancestor account — current assessment and complete comparison",
+          "url": "/people/glasgow-591.html"
+        }
+      ]
+    },
     {
       "id": "hugh-mccullough-probable-parents",
       "anchor_alias": "hugh-mccullough-probable-parents",
@@ -164,7 +197,7 @@
       "period": "late account and 1827 will",
       "title": "A family history stays qualified",
       "body": [
-        "A much later family history describes an older Hugh, Margaret McCullough and a younger Hugh. It is a research lead, not a record selecting either 1740 man.",
+        "The later family history now supports probable traditional father roles and the separately assessed Hugh–McCullough parents. It does not select either 1740 householder or make the Scottish and Leitrim identities certain.",
         "The younger Hugh’s 1827 will establishes his later Pennsylvania household, but does not name his parents or an Irish connection to the recorded householders."
       ],
       "cluster": "later-tradition",

@@ -1,10 +1,12 @@
 # Findings: Glasgow-591
 
-Last updated: 2026-08-12
+Last updated: 2026-10-17
 
 ## Current conclusion
 
-Reviewed: 2026-10-16
+**Earlier Tyrone parentage review, 17 October 2026:** William Glasgow-591 is assessed as the probable father of John Glasgow-551, and John as the probable father of Hugh Glasgow-548, within the explicit family-history pedigree. These are tradition-based probable roles, not documented identifications of the Scottish candidates, the Leitrim witness or either 1740 Hugh.
+
+Reviewed: 2026-10-17
 
 **Selected conditional family, 16 October 2026:** Glasgow-591 and the Cavers man Glasgow-4138 are placed under Glasgow-2462 through possible identity with the Polwarth child Glasgow-1605. Both new father links are very uncertain and share the same unproved premises; no mother or identity merge is selected. [Evidence and alternatives](/branches/early-scottish-records/#polwarth-cavers-ulster-working-family).
 
@@ -111,3 +113,17 @@ Two very uncertain local father hypotheses are selected from existing research; 
 - [Waddell, Annals of Augusta County, 1886 p.5 note 1; late blanket Ulster claim](https://en.wikisource.org/wiki/Page:Annals_of_Augusta_County.djvu/21)
 - [Waddell, revised Annals, 1902 p.8; some survivors, neither Glasgow named](https://archive.org/stream/annalsofaugustac00wadd/annalsofaugustac00wadd_djvu.txt)
 - [Holden and Thompson, The Covenanters in Ulster, pp.6–7; modern secondary associate/route evidence](https://ulster-scots.com/wp-content/uploads/2023/11/USCN-Covenanters-in-Ulster-Tabloid.pdf)
+
+## Earlier Tyrone father review — 17 October 2026
+
+The family history explicitly calls John a son of William and introduces Hugh, the Tyrone-born weaver, among John’s sons. These are specific parent statements in a continuous pedigree, not parents supplied from a shared surname. The nearer part of that account identifies the Hugh–McCullough family and the younger Hugh’s Pennsylvania household, whose children agree with the independently inspected 1827 will. That household correlation supports the account’s family knowledge without independently proving the two earlier fathers. With the retained generations compatible and no conflicting parent account identified for these traditional roles, William–John and John–Hugh warrant probable local assessments. The preference is for the particular family-history accounts, not an identification with other same-name Scottish or Irish records.
+
+Both earlier father names come from one later family narrative; they are not two independent confirmations. John’s circa-1681 birth is calculated and William’s circa-1655/1656 date is estimated, so neither is corroboration. The 1740 return cannot distinguish the two Hugh householders or name their parents. No contemporary record identifies John-551 or William-591 in these roles. The narrative’s Cameron surname-origin and 1689 military story are unverified and are not used as parentage evidence. William’s selected uncertain Inveresk/Cavers identity and Robert-2462 father hypothesis remain separate. John-3960’s very uncertain placement and the alternative that the two Johns are one person remain unchanged. No mother, wife, new date, migration or exact 1740 identity is inferred.
+
+Two existing unmarked/ungraded father links become probable local assessments. No new attachment, documented/certain upgrade, merge or live WikiTree edit is made. Their child sides contain 47 and 43 pre-1850 profiles respectively; these nested impacts overlap and must not be added. All other parent IDs and grades, including the older Scottish and Leitrim hypotheses, are preserved.
+
+Sources: [History of the Glasgow Family, attributed to Melanchthon Glasgow: project-held scan, printed p.2 (PDF p.2), visually checked 17 October 2026; contemporary Irish parent records not cited](https://www.wikitree.com/photo.php/0/0a/Glasgow-590.pdf); [Hugh Glasgow’s 1827 Pennsylvania will, proved 1831: previously inspected household comparison; it does not name the earlier fathers](https://www.familysearch.org/ark:/61903/3:1:3QS7-L991-GV6H?cc=1999196).
+
+The source inspection used the existing scanned project copy. Online re-fetch was unavailable; no new contemporary parent record is claimed.
+
+[Full pedigree assessment and retained alternatives](/branches/research-irish-tamlaght/#tyrone-traditional-fathers).
