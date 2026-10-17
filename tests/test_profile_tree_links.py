@@ -37,8 +37,12 @@ class ProfileTreeLinksTest(unittest.TestCase):
         self.assertNotIn("lens=ancestors", text)
         tree = next(new for old, new in PATCHES if old.startswith("function makeFamily("))
         self.assertIn("if(TREE)return makeTree(id);", tree)
+        # Fold buttons replace the "+n" badges and toggle one line at a time.
+        self.assertTrue(any(new.endswith("expandFamily(h.id,h);else clickTimer=setTimeout(()=>openPerson(h.id,false),210)") for old, new in PATCHES))
+        self.assertTrue(any("if(n.hidden&&!scene.tree){" in new for old, new in PATCHES))
         for piece in ("function treeUI()", "data-tree=\"up\"", "data-tree=\"down\"", "data-tree=\"sibs\"",
-                      "function treeElbow(", "function treeRowLabel("):
+                      "data-tree=\"orient\" data-o=\"v\"", "data-tree=\"orient\" data-o=\"h\"",
+                      "function treeButtons(", "function treeToggle(", "function treeElbow(", "function treeRowLabel("):
             self.assertIn(piece, tree)
 
     def test_family_lines_counts_distinct_relatives(self):
