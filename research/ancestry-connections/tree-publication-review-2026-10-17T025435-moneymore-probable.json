@@ -1,0 +1,161 @@
+{
+  "reviewed": "2026-10-17",
+  "cutoff": 1850,
+  "method_version": 3,
+  "input_fingerprint": "94c50308d32af3d1032f0c21eff2262e4825e0bf0aee62987f5878160d14070c",
+  "scope": "James of Moneymore: probable father of Robert, Arthur and Joseph",
+  "genealogical_connections_added": 0,
+  "paternal_connections_added": 0,
+  "maternal_connections_added": 0,
+  "certainty_upgrades": 0,
+  "working_fathers": 57,
+  "working_mothers": 9,
+  "models": {
+    "main": {
+      "checked_historical_profiles": 1777,
+      "all_public_model_profiles_checked": 4521,
+      "changed_father_fields": 0,
+      "changed_mother_fields": 0,
+      "father_grades_changed": 3,
+      "mother_grades_changed": 0,
+      "matched_paternal_edges": 1354,
+      "added_historical_profiles": [],
+      "unresolved_father_cases": [
+        "Glasgow-1367",
+        "Glasgow-2908",
+        "Glasgow-867",
+        "Glasgow-951"
+      ]
+    },
+    "standalone": {
+      "checked_historical_profiles": 1777,
+      "all_public_model_profiles_checked": 4671,
+      "changed_father_fields": 0,
+      "changed_mother_fields": 0,
+      "father_grades_changed": 3,
+      "mother_grades_changed": 0,
+      "matched_paternal_edges": 1354,
+      "added_historical_profiles": [],
+      "unresolved_father_cases": [
+        "Glasgow-1367",
+        "Glasgow-2908",
+        "Glasgow-867",
+        "Glasgow-951"
+      ]
+    }
+  },
+  "publication_summary": "Three existing father links change from an uncertain saved WikiTree flag and an ungraded/unknown local assessment to a formal probable local grade. No parent is newly attached, no live flag changes and no new working-tree component is created. All mothers remain separately uncertain; James’s own parents are unchanged. This is an inference from the combined existing evidence, not a newly discovered parent record. The existing Moneymore father account, Glasgow-1024, is assessed as the probable father of Robert Glasgow-12 and, by inference through their established brotherhood, Arthur Glasgow-649 and Joseph Glasgow-1543. The catalogue description of David Faris’s 1990 genealogy explicitly identifies the Adams County emigrant Robert (1749–1839) as a son of a James resident at Moneymore. It identifies a particular father and son, rather than offering a same-name local candidate. The family letter of 6 November 1806 printed by Faris names Arthur and Robert as Joseph’s brothers; Joseph’s 1831 will independently identifies Arthur as his deceased brother and the younger Robert as Arthur’s son. These sources distinguish the two Roberts and establish the sibling group to which the father attribution can reasonably extend. Robert’s pension supports the County Derry setting and 1769 migration. The approximate generations are compatible; the circa-1722 birth estimate is not independent evidence. The positive father attribution and established family group together warrant probable parentage, while remaining below documented or certain.",
+  "comparison": "/branches/research-irish-moneymore/#moneymore-probable-father",
+  "catalogue_parent_projection": {
+    "reviewed_profiles": 192,
+    "selected_parent_assertions_checked": 66,
+    "differences": []
+  },
+  "verification": {
+    "public_pending_updates": 235,
+    "complete_profile_comparisons": 4,
+    "public_complete_profile_comparisons": 3,
+    "private_complete_profile_comparisons": 1,
+    "all_working_and_confident_cohort_membership_unchanged": true,
+    "all_parent_ids_and_vitals_unchanged": true,
+    "all_other_father_grades_unchanged": true,
+    "all_mother_grades_unchanged": true,
+    "approved_chronology_displays_checked": 8,
+    "browser_main_whole_tree": {
+      "route": "/onetree/#view=all",
+      "robert_father_probable_visible": true,
+      "mary_harkness_uncertain_visible": true,
+      "james_own_parents_still_uncertain": true,
+      "three_probable_sons_visible": "Robert, Arthur, Joseph",
+      "other_children_not_upgraded": true,
+      "temporary_tab_closed": true
+    },
+    "held_competing_father_rows_and_saved_flags_unchanged": true,
+    "browser_catalogue": {
+      "needs_update_filter_count": 235,
+      "new_robert_arthur_joseph_rows_visible": true,
+      "father_probable_mother_uncertain_visible": true,
+      "temporary_tab_closed": true
+    }
+  },
+  "unresolved_parentage_review": {
+    "status": "OPEN",
+    "case_ids": [
+      "Glasgow-1367",
+      "Glasgow-2908",
+      "Glasgow-867",
+      "Glasgow-951"
+    ],
+    "confident_flag_among_competing_candidates": [
+      "Glasgow-867"
+    ],
+    "scope": "Four other competing-father cases retain their existing grades; no selection is made for them."
+  },
+  "next_metric_check": {
+    "status": "RESOLVED",
+    "saved_confident_tree_flags_not_used_by_current_metric": 0,
+    "review": "/data/ancestry-confidence-method-review.json",
+    "scope": "Status fallback; four other competing-father cases remain open."
+  },
+  "confidence_assessments_strengthened": 3,
+  "local_chronology_corrections": 0,
+  "parent_grade_changes": [
+    {
+      "subject_id": "Glasgow-12",
+      "relative_id": "Glasgow-1024",
+      "relationship": "father",
+      "before": "uncertain",
+      "prior_local_assessment": "unknown/ungraded; saved tree flag uncertain",
+      "after": "probable",
+      "assertion_id": "C-review-20261017-moneymore-father-glasgow-12",
+      "basis": "The existing Moneymore father account, Glasgow-1024, is assessed as the probable father of Robert Glasgow-12 and, by inference through their established brotherhood, Arthur Glasgow-649 and Joseph Glasgow-1543. The catalogue description of David Faris’s 1990 genealogy explicitly identifies the Adams County emigrant Robert (1749–1839) as a son of a James resident at Moneymore. It identifies a particular father and son, rather than offering a same-name local candidate. The family letter of 6 November 1806 printed by Faris names Arthur and Robert as Joseph’s brothers; Joseph’s 1831 will independently identifies Arthur as his deceased brother and the younger Robert as Arthur’s son. These sources distinguish the two Roberts and establish the sibling group to which the father attribution can reasonably extend. Robert’s pension supports the County Derry setting and 1769 migration. The approximate generations are compatible; the circa-1722 birth estimate is not independent evidence. The positive father attribution and established family group together warrant probable parentage, while remaining below documented or certain.",
+      "limitations": "The father attribution survives here through a catalogue abstract of a retrospective genealogy; the book’s underlying parentage notes and a contemporary Irish parent record have not been inspected. The letter and will corroborate the sibling group, not the father’s name independently. Glasgow-1024 is used for its record-defined Moneymore father role: the inherited dates, Mary Harkness marriage, 1770 immigration, 1804 naturalisation, older James pedigree and proposed Corvanaghan identity are separate questions. The Corvanaghan identity and older father remain very uncertain. No probability is assigned to those claims by this review. The same father is inferred across the three established paternal-surname siblings; no evidence for different fathers has been identified. Other proposed siblings, including James-3305, John and Mary, and the proposed Adam connection are not upgraded.",
+      "new_attachment": false,
+      "live_flag_changed": false
+    },
+    {
+      "subject_id": "Glasgow-649",
+      "relative_id": "Glasgow-1024",
+      "relationship": "father",
+      "before": "uncertain",
+      "prior_local_assessment": "unknown/ungraded; saved tree flag uncertain",
+      "after": "probable",
+      "assertion_id": "C-review-20261017-moneymore-father-glasgow-649",
+      "basis": "The existing Moneymore father account, Glasgow-1024, is assessed as the probable father of Robert Glasgow-12 and, by inference through their established brotherhood, Arthur Glasgow-649 and Joseph Glasgow-1543. The catalogue description of David Faris’s 1990 genealogy explicitly identifies the Adams County emigrant Robert (1749–1839) as a son of a James resident at Moneymore. It identifies a particular father and son, rather than offering a same-name local candidate. The family letter of 6 November 1806 printed by Faris names Arthur and Robert as Joseph’s brothers; Joseph’s 1831 will independently identifies Arthur as his deceased brother and the younger Robert as Arthur’s son. These sources distinguish the two Roberts and establish the sibling group to which the father attribution can reasonably extend. Robert’s pension supports the County Derry setting and 1769 migration. The approximate generations are compatible; the circa-1722 birth estimate is not independent evidence. The positive father attribution and established family group together warrant probable parentage, while remaining below documented or certain.",
+      "limitations": "The father attribution survives here through a catalogue abstract of a retrospective genealogy; the book’s underlying parentage notes and a contemporary Irish parent record have not been inspected. The letter and will corroborate the sibling group, not the father’s name independently. Glasgow-1024 is used for its record-defined Moneymore father role: the inherited dates, Mary Harkness marriage, 1770 immigration, 1804 naturalisation, older James pedigree and proposed Corvanaghan identity are separate questions. The Corvanaghan identity and older father remain very uncertain. No probability is assigned to those claims by this review. The same father is inferred across the three established paternal-surname siblings; no evidence for different fathers has been identified. Other proposed siblings, including James-3305, John and Mary, and the proposed Adam connection are not upgraded.",
+      "new_attachment": false,
+      "live_flag_changed": false
+    },
+    {
+      "subject_id": "Glasgow-1543",
+      "relative_id": "Glasgow-1024",
+      "relationship": "father",
+      "before": "uncertain",
+      "prior_local_assessment": "unknown/ungraded; saved tree flag uncertain",
+      "after": "probable",
+      "assertion_id": "C-review-20261017-moneymore-father-glasgow-1543",
+      "basis": "The existing Moneymore father account, Glasgow-1024, is assessed as the probable father of Robert Glasgow-12 and, by inference through their established brotherhood, Arthur Glasgow-649 and Joseph Glasgow-1543. The catalogue description of David Faris’s 1990 genealogy explicitly identifies the Adams County emigrant Robert (1749–1839) as a son of a James resident at Moneymore. It identifies a particular father and son, rather than offering a same-name local candidate. The family letter of 6 November 1806 printed by Faris names Arthur and Robert as Joseph’s brothers; Joseph’s 1831 will independently identifies Arthur as his deceased brother and the younger Robert as Arthur’s son. These sources distinguish the two Roberts and establish the sibling group to which the father attribution can reasonably extend. Robert’s pension supports the County Derry setting and 1769 migration. The approximate generations are compatible; the circa-1722 birth estimate is not independent evidence. The positive father attribution and established family group together warrant probable parentage, while remaining below documented or certain.",
+      "limitations": "The father attribution survives here through a catalogue abstract of a retrospective genealogy; the book’s underlying parentage notes and a contemporary Irish parent record have not been inspected. The letter and will corroborate the sibling group, not the father’s name independently. Glasgow-1024 is used for its record-defined Moneymore father role: the inherited dates, Mary Harkness marriage, 1770 immigration, 1804 naturalisation, older James pedigree and proposed Corvanaghan identity are separate questions. The Corvanaghan identity and older father remain very uncertain. No probability is assigned to those claims by this review. The same father is inferred across the three established paternal-surname siblings; no evidence for different fathers has been identified. Other proposed siblings, including James-3305, John and Mary, and the proposed Adam connection are not upgraded.",
+      "new_attachment": false,
+      "live_flag_changed": false
+    }
+  ],
+  "maternal_publication_reconciliation": [],
+  "supported_connectivity": {
+    "before": {
+      "population": 1777,
+      "edge_count": 353,
+      "component_count": 1424,
+      "largest_component_size": 44,
+      "connected_pairs_percent": 0.1694575836387879
+    },
+    "after": {
+      "population": 1777,
+      "edge_count": 356,
+      "component_count": 1421,
+      "largest_component_size": 44,
+      "connected_pairs_percent": 0.18181518603578253
+    },
+    "additional_connected_pairs": 195
+  }
+}

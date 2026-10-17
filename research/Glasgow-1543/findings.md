@@ -1,6 +1,6 @@
 # Findings: [Joseph Glasgow (Glasgow-1543), Wythe County, Virginia](https://www.wikitree.com/wiki/Glasgow-1543)
 
-Last updated: 2026-10-07
+Last updated: 2026-10-17
 
 ## Integrated conclusion
 
@@ -11,7 +11,7 @@ Joseph executed his will on 2 April 1831 and was dead when it was presented on 1
 | Claim | Assessment | Basis |
 |---|---|---|
 | Arthur and Robert as brothers | Proved | 1806 letter and Joseph's testamentary description of Arthur |
-| James of Moneymore as father | Plausible, unproved | Faris's derivative statement about Robert |
+| James of Moneymore as father | Probable, 17 October review | Explicit family-history attribution plus established brotherhood; underlying parentage notes uninspected |
 | Mary Harkness as mother | Unsupported | Compiled-tree attachment only |
 | John of Peters Township as another brother | Credible hypothesis | Joseph witnessed John's 1779 will in the Pennsylvania network |
 | Betty as Joseph's wife | Strong but indirect | Joint 1806 letter from “Joseph and Betty Glasgow” |
@@ -33,10 +33,12 @@ John Glasgow of Peters Township is sufficiently identified by his 1779 will to b
 
 ## Current conclusion
 
+**Father assessment, 17 October 2026:** James Glasgow-1024, representing the Moneymore father account, is now assessed as the **probable father** of Robert Glasgow-12, Arthur Glasgow-649 and Joseph Glasgow-1543. The specific father attribution and established sibling group support the inference. Other identity, ancestry and maternity questions retain their earlier uncertainty.
+
 Joseph is proved to be a brother of
 [Arthur Glasgow (Glasgow-649)](https://www.wikitree.com/wiki/Glasgow-649) and
 [Robert Glasgow (Glasgow-12)](https://www.wikitree.com/wiki/Glasgow-12).
-His current parents remain unproved.
+James of Moneymore is now assessed as his probable father through the specific attribution for Robert and their established brotherhood. Mary Harkness remains independently uncertain.
 
 Faris prints a letter dated 6 November 1806 from Joseph and Betty Glasgow to
 Arthur, using explicit brother language for Arthur and Robert. Joseph's own
@@ -97,3 +99,23 @@ Recorded in `research/Glasgow-1543/Glasgow-1543.md` (undated legacy draft); carr
 A published index and abstract gives the will of John Glasgow of Peters Township, Cumberland County, Pennsylvania, as dated 14 March and proved 3 September 1779, Will Book C, p. 161. It names his wife Ann, daughters whose names appear as "Lates" (possibly Lettice) and Agnes, a son Joseph, and an unborn child. The witnesses included Joseph Glasgow, James Neely and Mary Arter ([published index and abstract](https://www.sampubco.com/wills/pa/pacumberland01.htm)). Seen as a published abstract; the original will and probate packet have not been inspected. Witnessing does not prove kinship, so John remains a strong secondary sibling hypothesis for Joseph, not an attached brother.
 
 Recorded in `research/Glasgow-1543/Glasgow-1543.md` (undated legacy draft); carried into this file on 7 October 2026.
+
+## Probable Moneymore father — 17 October 2026
+
+The existing Moneymore father account, Glasgow-1024, is assessed as the probable father of Robert Glasgow-12 and, by inference through their established brotherhood, Arthur Glasgow-649 and Joseph Glasgow-1543. The catalogue description of David Faris’s 1990 genealogy explicitly identifies the Adams County emigrant Robert (1749–1839) as a son of a James resident at Moneymore. It identifies a particular father and son, rather than offering a same-name local candidate. The family letter of 6 November 1806 printed by Faris names Arthur and Robert as Joseph’s brothers; Joseph’s 1831 will independently identifies Arthur as his deceased brother and the younger Robert as Arthur’s son. These sources distinguish the two Roberts and establish the sibling group to which the father attribution can reasonably extend. Robert’s pension supports the County Derry setting and 1769 migration. The approximate generations are compatible; the circa-1722 birth estimate is not independent evidence. The positive father attribution and established family group together warrant probable parentage, while remaining below documented or certain.
+
+The father attribution survives here through a catalogue abstract of a retrospective genealogy; the book’s underlying parentage notes and a contemporary Irish parent record have not been inspected. The letter and will corroborate the sibling group, not the father’s name independently. Glasgow-1024 is used for its record-defined Moneymore father role: the inherited dates, Mary Harkness marriage, 1770 immigration, 1804 naturalisation, older James pedigree and proposed Corvanaghan identity are separate questions. The Corvanaghan identity and older father remain very uncertain. No probability is assigned to those claims by this review. The same father is inferred across the three established paternal-surname siblings; no evidence for different fathers has been identified. Other proposed siblings, including James-3305, John and Mary, and the proposed Adam connection are not upgraded.
+
+Three existing father links change from an uncertain saved WikiTree flag and an ungraded/unknown local assessment to a formal probable local grade. No parent is newly attached, no live flag changes and no new working-tree component is created. All mothers remain separately uncertain; James’s own parents are unchanged. This is an inference from the combined existing evidence, not a newly discovered parent record.
+
+Sources: [David Faris, The Glasgow Family of Adams County, Ohio (1990): WorldCat catalogue abstract, father attribution checked 17 October 2026; underlying book notes uninspected](https://search.worldcat.org/title/22731567); [1806 Joseph-and-Betty-to-Arthur family letter, published transcription in Faris, pp.14–19, already in the maintained sibling study](/people/glasgow-12.html); [Joseph Glasgow will, 2 April 1831; Wythe Will Book 4, pp.1–3, published transcription checked 17 October 2026](https://swvirginians.wordpress.com/2014/12/12/joseph-glasgow-pulaski-co-va-will-of-1831/); [Robert Glasgow Revolutionary War pension R4057: County Derry birth and 1769 migration; existing maintained reading](https://revwarapps.org/r4057.pdf).
+
+[Full family comparison](/branches/research-irish-moneymore/#moneymore-probable-father).
+
+## Earlier father assessment — superseded 17 October 2026
+
+The following wording records the prior assessment, replaced by the probable local grade above. Its separate identity and maternity cautions remain applicable.
+
+> | James of Moneymore as father | Plausible, unproved | Faris's derivative statement about Robert |
+
+> His current parents remain unproved.

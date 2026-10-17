@@ -1,6 +1,6 @@
 # Findings: [James Glasgow (Glasgow-1024)](https://www.wikitree.com/wiki/Glasgow-1024)
 
-Last updated: 2026-10-16
+Last updated: 2026-10-17
 
 > **Draft only.** Make no live WikiTree changes while research on [Glasgow-3305](https://www.wikitree.com/wiki/Glasgow-3305) is active.
 
@@ -29,6 +29,8 @@ The working conclusion is that `Glasgow-1024` is a composite of a late father tr
 
 ## Current conclusion
 
+**Father assessment, 17 October 2026:** James Glasgow-1024, representing the Moneymore father account, is now assessed as the **probable father** of Robert Glasgow-12, Arthur Glasgow-649 and Joseph Glasgow-1543. The specific father attribution and established sibling group support the inference. Other identity, ancestry and maternity questions retain their earlier uncertainty.
+
 Reviewed: 2026-10-16
 
 **Selected very uncertain Corvanaghan–Moneymore model,16 October 2026:** James Glasgow-2988 is placed under James Glasgow-1025 through possible identity with the Moneymore James Glasgow-1024. The older pedigree remains unproved, the Mitchell-family identity remains an alternative, and no mother or migration is inferred. [Evidence and alternatives](/branches/research-irish-derryloran/#corvanaghan-moneymore-working-family).
@@ -37,13 +39,13 @@ This profile conflates an unproved **James Glasgow of Moneymore** with several s
 
 The 1831 death should be removed. St Luran's register records a different [James Glasgow of Cookstown (Glasgow-4024)](https://www.wikitree.com/wiki/Glasgow-4024), buried 13 March 1831 aged 40. He was created as an unconnected profile on 20 August 2026.
 
-Live verification on 21 August 2026 confirmed that the revised WikiTree biography is now in place. It removes the suffix II and structured 1831 death, preserves and qualifies the complete 1770 immigration and 1804 naturalisation references, includes the candidate matrix, and treats the proposed family links as uncertain. No further profile update from the local draft remains outstanding.
+Live verification on 21 August 2026 confirmed that the revised WikiTree biography is now in place. It removes the suffix II and structured 1831 death, preserves and qualifies the complete 1770 immigration and 1804 naturalisation references, includes the candidate matrix, and treats the proposed family links as uncertain. That live completion concerned the earlier draft. The separate 17 October probable-father explanation is now queued locally; no new live save is claimed.
 
 ## Evidence assessment
 
 | Claim | Assessment | Reason |
 |---|---|---|
-| Robert's father was James of Moneymore | Plausible, unproved | Faris states it; no contemporary parentage record found |
+| Robert’s father was James of Moneymore | Probable, 17 October review | Specific family-history attribution, identified emigrant and established sibling cluster; no contemporary father record found |
 | Arthur, Robert, and Joseph were brothers | Well supported | 1806 letter and Joseph's will |
 | All proposed siblings were Glasgow-1024's children | Unproved | Sibling evidence does not identify their father |
 | Mary Harkness was his wife | Unproved | No contemporary family record found |
@@ -68,7 +70,7 @@ Live verification on 21 August 2026 confirmed that the revised WikiTree biograph
 - Remove suffix `II` and the 1721 birth estimate.
 - Set birth, birthplace, death, and death place unknown.
 - Keep [Mary Harkness (Harkness-1149)](https://www.wikitree.com/wiki/Harkness-1149) uncertain.
-- Keep [Robert (Glasgow-12)](https://www.wikitree.com/wiki/Glasgow-12), [Arthur (Glasgow-649)](https://www.wikitree.com/wiki/Glasgow-649), [Joseph (Glasgow-1543)](https://www.wikitree.com/wiki/Glasgow-1543), and [James (Glasgow-3305)](https://www.wikitree.com/wiki/Glasgow-3305) uncertain.
+- Assess Robert Glasgow-12, Arthur Glasgow-649 and Joseph Glasgow-1543 as probable sons of the Moneymore father core. Keep James Glasgow-3305 and other proposed children uncertain.
 - Keep proposed parents [Glasgow-1025](https://www.wikitree.com/wiki/Glasgow-1025) and [Rutherford-4861](https://www.wikitree.com/wiki/Rutherford-4861) uncertain.
 
 ## Checked sources
@@ -267,3 +269,25 @@ One very uncertain father is newly selected through a possible Moneymore identit
 - [PRONI name-search detail previously reviewed: James Glasgow,Drumcarn,17 January 1759; testator identity unresolved](https://www.proni.gov.uk/name-search)
 - [W.Macafee,1740 Protestant householders index,Derryloran; multiple James and William households, no kinship](https://www.billmacafee.com/1740returns/1740religiousreturnsulstername.pdf)
 - [National Archives of Ireland,IHP/1/665,1766 Derryloran return: two Jas.Glasgo at Drumearn; distinct occurrences](https://virtualtreasury.ie/item/NAI-IHP-1-665)
+
+## Probable Moneymore father — 17 October 2026
+
+The existing Moneymore father account, Glasgow-1024, is assessed as the probable father of Robert Glasgow-12 and, by inference through their established brotherhood, Arthur Glasgow-649 and Joseph Glasgow-1543. The catalogue description of David Faris’s 1990 genealogy explicitly identifies the Adams County emigrant Robert (1749–1839) as a son of a James resident at Moneymore. It identifies a particular father and son, rather than offering a same-name local candidate. The family letter of 6 November 1806 printed by Faris names Arthur and Robert as Joseph’s brothers; Joseph’s 1831 will independently identifies Arthur as his deceased brother and the younger Robert as Arthur’s son. These sources distinguish the two Roberts and establish the sibling group to which the father attribution can reasonably extend. Robert’s pension supports the County Derry setting and 1769 migration. The approximate generations are compatible; the circa-1722 birth estimate is not independent evidence. The positive father attribution and established family group together warrant probable parentage, while remaining below documented or certain.
+
+The father attribution survives here through a catalogue abstract of a retrospective genealogy; the book’s underlying parentage notes and a contemporary Irish parent record have not been inspected. The letter and will corroborate the sibling group, not the father’s name independently. Glasgow-1024 is used for its record-defined Moneymore father role: the inherited dates, Mary Harkness marriage, 1770 immigration, 1804 naturalisation, older James pedigree and proposed Corvanaghan identity are separate questions. The Corvanaghan identity and older father remain very uncertain. No probability is assigned to those claims by this review. The same father is inferred across the three established paternal-surname siblings; no evidence for different fathers has been identified. Other proposed siblings, including James-3305, John and Mary, and the proposed Adam connection are not upgraded.
+
+Three existing father links change from an uncertain saved WikiTree flag and an ungraded/unknown local assessment to a formal probable local grade. No parent is newly attached, no live flag changes and no new working-tree component is created. All mothers remain separately uncertain; James’s own parents are unchanged. This is an inference from the combined existing evidence, not a newly discovered parent record.
+
+Sources: [David Faris, The Glasgow Family of Adams County, Ohio (1990): WorldCat catalogue abstract, father attribution checked 17 October 2026; underlying book notes uninspected](https://search.worldcat.org/title/22731567); [1806 Joseph-and-Betty-to-Arthur family letter, published transcription in Faris, pp.14–19, already in the maintained sibling study](/people/glasgow-12.html); [Joseph Glasgow will, 2 April 1831; Wythe Will Book 4, pp.1–3, published transcription checked 17 October 2026](https://swvirginians.wordpress.com/2014/12/12/joseph-glasgow-pulaski-co-va-will-of-1831/); [Robert Glasgow Revolutionary War pension R4057: County Derry birth and 1769 migration; existing maintained reading](https://revwarapps.org/r4057.pdf).
+
+[Full family comparison](/branches/research-irish-moneymore/#moneymore-probable-father).
+
+## Earlier father assessment — superseded 17 October 2026
+
+The following wording records the prior assessment, replaced by the probable local grade above. Its separate identity and maternity cautions remain applicable.
+
+> | Robert's father was James of Moneymore | Plausible, unproved | Faris states it; no contemporary parentage record found |
+
+> - Keep [Robert (Glasgow-12)](https://www.wikitree.com/wiki/Glasgow-12), [Arthur (Glasgow-649)](https://www.wikitree.com/wiki/Glasgow-649), [Joseph (Glasgow-1543)](https://www.wikitree.com/wiki/Glasgow-1543), and [James (Glasgow-3305)](https://www.wikitree.com/wiki/Glasgow-3305) uncertain.
+
+> No further profile update from the local draft remains outstanding.

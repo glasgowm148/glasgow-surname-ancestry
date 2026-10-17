@@ -3289,8 +3289,8 @@
     "place": "Moneymore, County Londonderry",
     "source_title": "David Faris,The Glasgow Family of Adams County,Ohio(1990),catalogue; inherited Moneymore father attribution, underlying evidence not inspected",
     "source_url": "https://search.worldcat.org/title/22731567",
-    "status": "Inherited later family-history attribution; underlying evidence not inspected",
-    "note": "Names Robert’s father as James of Moneymore; does not prove the Corvanaghan identity, an older James father or migration package.",
+    "status": "Catalogue father attribution verified 17 October 2026; retrospective source, underlying book evidence uninspected",
+    "note": "The catalogue explicitly names the Adams County emigrant’s Moneymore father. The combined family argument is assessed probable locally; it does not establish the Corvanaghan identity, older ancestry, dates or migration package.",
     "profiles": {
       "Glasgow-1024": {
         "role": "account for reported Moneymore father"
@@ -3541,6 +3541,43 @@
       "Glasgow-540": {
         "role": "Testator; household identity check",
         "timeline_group": "Family records"
+      }
+    }
+  },
+  {
+    "record_id": "faris-1806-joseph-arthur-robert-brothers",
+    "date": "6 November 1806",
+    "place": "Wythe and Rockbridge counties, Virginia",
+    "source_title": "Joseph and Betty Glasgow to Arthur Glasgow, in Faris (1990), pp.14–19; previously maintained published transcription",
+    "source_url": "https://search.worldcat.org/title/22731567",
+    "status": "Contemporary letter in a later transcription; original uninspected",
+    "note": "Explicit brother language connects Arthur and emigrant Robert to Joseph. No father named.",
+    "profiles": {
+      "Glasgow-12": {
+        "role": "named brother"
+      },
+      "Glasgow-649": {
+        "role": "named brother"
+      },
+      "Glasgow-1543": {
+        "role": "named brother"
+      }
+    }
+  },
+  {
+    "record_id": "wythe-joseph-glasgow-will-1831",
+    "date": "2 April 1831; proved April–May 1831",
+    "place": "Wythe County, Virginia",
+    "source_title": "Joseph Glasgow will, Wythe Will Book 4, pp.1–3; published transcription rechecked 17 October 2026",
+    "source_url": "https://swvirginians.wordpress.com/2014/12/12/joseph-glasgow-pulaski-co-va-will-of-1831/",
+    "status": "Record transcription; original volume catalogued, not newly inspected",
+    "note": "Joseph names his deceased brother Arthur and Arthur’s son Robert, the testator’s nephew. This corroborates brotherhood and distinguishes the younger Robert. It does not name Joseph’s father.",
+    "profiles": {
+      "Glasgow-1543": {
+        "role": "testator"
+      },
+      "Glasgow-649": {
+        "role": "deceased brother"
       }
     }
   }

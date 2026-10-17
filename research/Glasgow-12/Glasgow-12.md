@@ -1,0 +1,356 @@
+[[Category:Glasgow Name Study]]
+
+[[Category:Tranquility Cemetery, Tranquility, Ohio]]
+[[Category: Adams County, Ohio]]
+[[Category: Ohio Appalachians]]
+== Biography ==
+'''Father assessment, 17 October 2026:''' The Moneymore father account, [[Glasgow-1024|James Glasgow]], is assessed as the probable father of [[Glasgow-12|Robert]], [[Glasgow-649|Arthur]] and [[Glasgow-1543|Joseph]]. This is an inference from the specific family-history father attribution and their established brotherhood; other identity, ancestry and maternity questions retain their separate uncertainty.<ref name="MoneymoreFatherReview" />
+{{1776 Sticker | rank= Private | unit= Rockbridge County Militia, Virginia Militia, American Revolution}}
+{{Society Ancestor|society=DAR|ancestor=A045310}}
+
+=== Early Life ===
+Robert Glasgow was born to [[Glasgow-1024|James Glasgow II (abt.1721-abt.1803)]] & [[Harkness-1149|Mary (Harkness) Glasgow (abt.1725-)]] in  County Derry, Ireland, probably near the town of Moneymore. <ref>Robert Glasgow U.S. and International Marriage Records, 1560-1900  - gives birth year</ref>
+
+Robert had 5 siblings:
+
+* [[Glasgow-3305|James Glasgow (abt.1740-)]]
+* [[Glasgow-4027|John Glasgow]]
+* [[Glasgow-1543|Joseph Glasgow (abt.1735-)]]
+* [[Glasgow-649|Arthur Glasgow (abt.1750-1822)]]
+* [[Glasgow-4030|Mary Glasgow, possibly Mary Arter]]
+
+
+=== Immigration to US and Residences Shortly Thereafter ===
+Robert emigrated to Nottingham, Chester, Pennsylvania in 1769 per his pension application.<ref>U.S., Revolutionary War Pension and Bounty-Land Warrant Application Files, 1800-1900</ref>
+
+"in 1779, ten years after the arrival of Robert Glasgow in Nottingham, John Glasgow, who was recorded as having had land in Cecil County, Maryland, was residing in Peters Township, Cumberland County, Pennsylvania in 1780. The first record of Robert Glasgow in America also appears in the Peters Township records that year. John Glasgow in the rates of Peters Township for 1779 was listed with 170 acres,  2 horses and 2 cattle, where Robert Glasgow had 50 acres with 2 horses and 2 cattle. Neither was listed as having Negroes.<ref>Pennsylvania archives, 3rd series, Vol. xx, p 213</ref>. John Glasgow died the same year leaving a will dated 14 Mar 1779 and proved 3 Sep 1779. His will mentions wife Ann, and children, Lettice, Agnes, Jospeh and a child 'not yet born'. Executors were wife Ann Glasgow and Thomas Cellers and witnesses Joseph Glasgow, James Neely and Mary Arter.<ref>Cumberland County Wills, Book C, Page 161</ref>. As the rate payers also include Robert and Arthur Glasgow there can be no doubt that with John and Joseph Glasgow and [[Glasgow-4030|Mary Arter]] these are the four brothers and sister of those names recorded by Mrs. Francis. In 1780 John's widow Ann was listed as having 106 acres, 1 horse and 2 cattle, Robert Glasgow with 82 acres, 2 horses and 2 cattle, and Joseph Glasgow with 1 horse and  1 cattle. Arthur Glasgow was listed as a freeman. These records strongly suggest that John Glasgow was the oldest brother and Arthur the youngest. John Glasgow's widow Ann was later married to David Collins removing with him to Virginia and then to Ohio."<ref>Faris, David, The Glasgow Family of Adams County, Ohio (Baltimore, MD, Gateway Press, Inc., 1990), pp 14, 15</ref>
+
+"It is evident that soon after making the tax list in Cumberland County in 1780 Robert Glasgow, probably accompanied by his surviving brothers Arthur and Joseph, removed to Rockbridge County, Virginia, where according to his statement in his pension application he was first drafted in September, 1780 for service in the Revolutionary War."<ref>Faris, David, The Glasgow Family of Adams County, Ohio (Baltimore, MD, Gateway Press, Inc., 1990), p 15</ref>
+
+
+=== Marriage and Family Life ===
+Robert married [[Barclay-56|Rosannah (Barclay) Glasgow (1756-1807)]] circa 1769 in Pennsylvania.<ref>Robert Glasgow U.S. and International Marriage Records, 1560-1900. NEED CONFIRMATION - International Marriage Record is not definitive. Did not find at Presbyterian Church history site. (searched 24 Jan 2020) </ref>
+
+* Hadassah Esther (b.1776), m. David Dryden
+* William (b.1778), m. Rhoda N. Montgomery
+* Joseph (b.1780), m. Ann Nancy Glasgow
+* Nancy (b.1781), m. Thomas McClelland
+* Robert (b.1781), m. Rosannah Finley
+*  Jane (b.1785), m. Thomas Patton
+*  Rhoda (b.1791), m. Samuel S. Finley
+* Phoebe (b.1793), m. Robert Steele Finley
+*  John (b.1795), m. Margaret Finley, Elizabeth Kirkpatrick, Nancy Patton
+*  James (b.1799), m. Mary McNeil, Sally Lyle
+
+Rosanna Barclay Glasgow was "last recorded in 1897. She had died before 13 Aug 1812 when Robert Glasgow was married for the second time by the Rev William Baldridge to Peggy Wright.<ref>
+'''Marriage''':"U.S. and International Marriage Records, 1560-1900"<br/>
+Source number: 1716.000; Source type: Electronic Database; Number of Pages: 1; Submitter Code: ATW<br/>
+{{Ancestry Record|7836|472370}} (accessed 10 July 2026)<br/>
+Robert Glasgow marriage to Peggy Wright in 1812 in OH.
+</ref> Robert and Peggy Glasgow appear in the Adams County records  when on 29 Dec 1813 they sold twenty five acres on the West Fork of Brush Creek (bordering the land of Joseph Glasgow) to James Magill for sixty five dollars. No further record of Peggy Glasgow has been found. Peggy (Wright) Glasgow doubtless died before 2 Feb 1839 when Robert Glasgow made his will without mentioning her."<ref>* Faris, David, The Glasgow Family of Adams County, Ohio (Baltimore, MD, Gateway Press, Inc., 1990), p. 23</ref>
+
+
+=== Military Service in the Revolutionary War ===
+In September 1780, Robert was drafted into the Virginia militia for the Revolutionary War. His application for a military pension states that he was drafted multiple times, but ultimately served approximately six months.  He was in the 11th Regiment in Virginia.<ref>U.S., Revolutionary War Rolls, 1775-1783) on 5 May 1775-1783 in Virginia, United States. {{Ancestry Record|4282|152042}} (accessed 10 July 2026)<br/>
+Name: Robert Glascow; Gender: Male; Military Date: 5 May 1775-1783; Military Place: Virginia, USA; State or Army Served: Virginia; Regiment: 11th Regiment; Rank: Private. </ref>
+
+After the war he was given bounty land of 1000 acres in Adams County, Ohio, which was part of the Virginia Military Reserve.  He did a scouting expedition in 1796 and moved to Adams County in 1806.
+
+His pension was denied as he had no proof substantiating his service and had less than six months of service.<ref>U.S., Revolutionary War Pension and Bounty-Land Warrant Application Files, 1800-1900</ref>
+
+He is included in the DAR Ancestor Database as Ancestor A045310.<ref>https://services.dar.org/public/dar_research/search_adb/default.cfm</ref>
+
+
+=== Residences in Pennsylvania and Virginia after the War===
+Robert was listed in a tax record in 1780 in Peters, Cumberland,  Pennsylvania.<ref>
+'''Tax Record''':
+"Pennsylvania, U.S., Tax and Exoneration, 1768-1801"<br/>
+Pennsylvania Historical & Museum Commission; Records of the Office of the Comptroller General, RG-4; Tax & Exoneration Lists, 1762-1794; Microfilm Roll: 324<br/>
+{{Ancestry Sharing|64590066|7b22746f6b656e223a22463151306c457a5438397342375746676d30392b497a5575357635786c6d314a4d675550416e364d67684d3d222c22746f6b656e5f76657273696f6e223a225632227d}} - {{Ancestry Record|2497|1070140}} (accessed 10 July 2026)<br/>
+Name: Robert Glasgow; Year: 1780; Town or Ward: Peters; County: Cumberland; Archive Rollname: 324.
+</ref>
+
+ In 1782, Robert, Joseph and Arthur were listed as taxpayers in Rockbridge County, Virginia. Arthur and Joseph were each listed with 3 horses and 7 cattle; Robert was listed with 2 horses and 5 cattle.<ref>Morton, Oren F., A History of Rockbridge County, Virginia (Staunton, VA, The McClure Company, Inc, 1920) p 370-372</ref>
+
+"Robert, Arthur  and Joseph Glasgow continued to reside in Virginia during the years after the end of the Revolutionary War. It is evident that Robert and Arthur sometime in the 1790s became interested in land newly opened to settlement. Before the Revolution the Commonwealth of Virginia had claimed the territory west of the Allegheny Mountains and north of the Ohio River, the so-called Northwest Territory.<ref>Faris, David, The Glasgow Family of Adams County, Ohio (Baltimore, MD, Gateway Press, Inc., 1990), p 17</ref>
+
+
+===Move to Adams County, Ohio===
+Robert was awarded 1,000 acres of bounty land from his Revolutionary War service on the waters of the West Fork of Brush Creek in what was then called the Virginia Military District.
+
+In 1796, Robert carried out a scouting trip to the new Northwest Territory. "As a result of this scouting, at least two children of Robert Glasgow, Nancy (Glasgow) McClelland and William Glasgow removed to Adams County, Ohio in time to plant crops in the spring of 1805 and to report to Virginia of their progress."<ref>ibid, p18</ref>
+
+"In  October, 1806, Robert Glasgow and his wagon train of relatives and friends passed through Wythe County, Virginia, visiting with his brother Joseph who wrote this letter to their brother Arthur in Rockbridge County:
+
+'Joseph and Betty Glasgow, Wythe County, Nov the sixth, 1806 to Mr. Arthur Glasgow, Rockbridge County, North River (to the care of John McCorkle one mile from Buffalo Creek Tavern):
+
+Der brother and Sister: I now sit down to relate a few things unto you in the first place brother robert and all the friends came on Monday the 27 of Oct: and left shis on wednsey. They were all in good health except ester dredon. She was very unwell....."<ref>ibid, p 19 - there is more to the letter but this relates to Roberts family</ref>'
+
+Included in the wagon train were all the other children of Robert Glasgow and their families, with the exception of Robert's son Joseph who was also son-in-law of Robert's brother Arthur. Joseph Glasgow made his own scouting trip to Ohio. Francis Thomas Glasgow (1829-1916), grandson of Arthur Glasgow, stated in 1913 that Joseph had 'followed his fathers family to Adams County, Ohio in the fall of 1806' but instead of traveling by way of Wythe County had gone 'by way of Greenbrier and Kanawha'."<ref>Ibid, p 19</ref>
+
+
+===Religion===
+
+That Robert Glasgow and his family were Presbyterians is fairly certain.  In "The Glasgow Family of Adams County, Ohio" by David Faris he has a long section on page 22 which states that they were originally Covenanters.  He quotes the book "A History of Adams County, Ohio: From Its Earliest Settlement to the Present Time, Including Character Sketches of the Prominent Persons Identified with the First Century of the Country's Growth" by Nelson Wiley Evans & Emmons B Stivers about their role in the Brush Creek congregation of Covenanters (or Brush Creek church" with this sentence: "Among the most prominent families of Covenanters might be perpetuated the names of Reid, Burns, Glasgow, Milligan, Stevenson, Hemphill, Montgomery, Wright, Thompson, Wickerham, McKinley, Torrence, Foster, Mitechell, Copeland, Bayles, George, Ralston, Fulton, McIntire and many other worthies."<ref>Evans, Nelson Wiley; Stivers, Emmons B, A History of Adams County, Ohio: From Its Earliest Settlement to the Present Time, Including Character Sketches of the Prominent Persons Identified with the First Century of the Country's Growth ... (West Union, OH, E.B. Stivers, 1900), pp 417-418</ref>
+
+But that same book (Nelson & Stivers" has this quote:
+
+"Churches TRANQUILITY UP CHURCH This is the oldest church organization in the township and was formed in 1807 with John Milligan John Mc Cullough James Montgomery Alexander McCullough Robert Elliott James Wright David McCreight Sr David McCreight Jr Robert Glasgow and Joseph Glasgow and their families as members The first church building called Hopewell Metting House was a log structure erected about 1810 and was used for a church house for this congregation for forty years when in 1853 it was supplanted by the present frame building The congregation is a very large and wealthy one and was originally known as West Fork Association See history of UP Church under Wayne Township SCOTT TOWNSHIP 459"<ref>Evans, Nelson Wiley; Stivers, Emmons B, A History of Adams County, Ohio: From Its Earliest Settlement to the Present Time, Including Character Sketches of the Prominent Persons Identified with the First Century of the Country's Growth ... (West Union, OH, E.B. Stivers, 1900), p. 459</ref>
+
+So perhaps Robert was more associated with the latter and his son William with Brush Creek. But they were definitely Covenanter Presbyterians who later became more moderate Presbyterians.
+
+
+===Tax and Census Records in Adams County, Ohio===
+
+====Tax Records====
+
+Robert was in a tax record in 1807 in Adams, Ohio, United States.<ref>
+'''Tax Record''':
+"Ohio, U.S., Compiled Census and Census Substitutes Index, 1790-1890"<br/>
+Original data: Jackson, Ronald V., Accelerated Indexing Systems, comp.. Ohio Census, 1790-1890. Compiled and digitized by Mr. Jackson and AIS from microfilmed schedules of the U.S. Federal Decennial Census, territorial/state censuses, and/or census substitutes; Page: 038<br/>
+{{Ancestry Record|3567|23820133}} (accessed 10 July 2026)<br/>
+Name: Robert Glasgo; Residence Date: 1807; Residence Place: Adams, Ohio, USA; Record Type: Tax List; Database: OH Early Census Index.
+</ref>
+Robert was in a tax record in 1808 in Wayne, Adams, Ohio, United States.<ref>
+'''Tax Record''':
+"Ohio, U.S., Compiled Census and Census Substitutes Index, 1790-1890"<br/>
+Original data: Jackson, Ronald V., Accelerated Indexing Systems, comp.. Ohio Census, 1790-1890. Compiled and digitized by Mr. Jackson and AIS from microfilmed schedules of the U.S. Federal Decennial Census, territorial/state censuses, and/or census substitutes; Page: 018<br/>
+{{Ancestry Record|3567|23827511}} (accessed 10 July 2026)<br/>
+Name: Robert Glasgow; Residence Date: 1808; Residence Place: Wayne, Adams, Ohio, USA; Record Type: Tax List; Database: OH Early Census Index.
+</ref>
+
+Robert was in a tax record in 1809 in Adams, Ohio, United States.<ref>
+'''Tax Record''':
+"Ohio, U.S., Compiled Census and Census Substitutes Index, 1790-1890"<br/>
+Original data: Jackson, Ronald V., Accelerated Indexing Systems, comp.. Ohio Census, 1790-1890. Compiled and digitized by Mr. Jackson and AIS from microfilmed schedules of the U.S. Federal Decennial Census, territorial/state censuses, and/or census substitutes; Page: 018<br/>
+{{Ancestry Record|3567|23820137}} (accessed 10 July 2026)<br/>
+Name: Robert Glasgow; Residence Date: 1809; Residence Place: Adams, Ohio, USA; Record Type: Tax List; Database: OH Early Census Index.
+</ref>
+
+Robert was in a tax record in 1810 in Adams, Ohio, United States.<ref>
+'''Tax Record''':
+"Ohio, U.S., Compiled Census and Census Substitutes Index, 1790-1890"<br/>
+Original data: Jackson, Ronald V., Accelerated Indexing Systems, comp.. Ohio Census, 1790-1890. Compiled and digitized by Mr. Jackson and AIS from microfilmed schedules of the U.S. Federal Decennial Census, territorial/state censuses, and/or census substitutes; Page: 026<br/>
+{{Ancestry Record|3567|23817059}} (accessed 10 July 2026)<br/>
+Name: Robert Glasgow; Residence Date: 1810; Residence Place: Adams, Ohio, USA; Record Type: Tax List; Database: OH 1810 Washington Co. Census Index.
+</ref>
+
+====Census Records====
+
+In the 1820 census, Robert was in Scott, Adams, Ohio, United States.<ref>
+'''1820 Census''':
+"1820 United States Federal Census"<br/>
+Fourth Census of the United States, 1820; Census Place: Scott, Adams, Ohio; Page: 72; NARA Roll: M33_86; Image: 50<br/>
+{{Ancestry Sharing|64590051|7b22746f6b656e223a2242307a756430754f4661626c6638466954547266715042495a4b42457a4979485939463139746d637545513d222c22746f6b656e5f76657273696f6e223a225632227d}} - {{Ancestry Record|7734|317741}} (accessed 10 July 2026)<br/>
+Robert Glasgow in Scott, Adams, Ohio, USA.
+</ref>
+
+In the 1830 census, Robert was in Wayne, Adams, Ohio.<ref>
+'''1830 Census''':
+"1830 United States Federal Census"<br/>
+Year: 1830; Census Place: Wayne, Adams, Ohio; Series: M19; Roll: 126; Page: 59; Family History Library Film: 0337937<br/>
+{{Ancestry Sharing|64590054|7b22746f6b656e223a22425972546d62586531694276647957356d78634e316c5771416e2b5750754c494950532b5a3578735144773d222c22746f6b656e5f76657273696f6e223a225632227d}} - {{Ancestry Record|8058|1682762}} (accessed 10 July 2026)<br/>
+Robert Glasgow in Wayne, Adams, Ohio.
+</ref>
+
+In the 1840 census, Robert was in Scott, Adams, Ohio.<ref>
+'''1840 Census''':
+"1840 United States Federal Census"<br/>
+Year: 1840; Census Place: Scott, Adams, Ohio; Roll: 375; Page: 81; Family History Library Film: 0020158<br/>
+{{Ancestry Sharing|64590055|7b22746f6b656e223a227667327244423376305636776e4b6b43734e2f643051644c46783937587a6470394835726a7970397453513d222c22746f6b656e5f76657273696f6e223a225632227d}} - {{Ancestry Record|8057|2584388}} (accessed 10 July 2026)<br/>
+Robert Glasgow in Scott, Adams, Ohio.
+</ref>
+
+Robt was enumerated in a non-population schedule on 31 Aug 1850 in Tiffin, Adams, Ohio, United States.<ref>
+'''1850 Non-population Census''':
+"U.S., Selected Federal Census Non-Population Schedules, 1850-1880"<br/>
+National Archives at Washington, DC; Washington, DC; Non-population Census Schedules for Ohio, 1850-1880.; NAID: 2791276; Record Group Number: 29; Record Group Title: Records of the Bureau of the Census, 1790-2007; Line Number: 3<br/>
+{{Ancestry Sharing|64590075|7b22746f6b656e223a2269347467376d6e2f35762f594b486368706332712f364a4d52734579486d6d444b645561475a4c3133546f3d222c22746f6b656e5f76657273696f6e223a225632227d}} - {{Ancestry Record|1276|5703912}} (accessed 10 July 2026)<br/>
+Name: Robt Glasgow; Enumeration Date: 31 Aug 1850; Place: Tiffin, Adams, Ohio, USA; Schedule Type: Agriculture.
+</ref>
+
+
+===Death and Burial===
+Robert likely died shortly before the probate of his will on 5 Aug 1839 and was buried at Tranquility Cemetery, Tranquility, Adams County, Ohio, United States.<ref>
+'''Burial''':
+"U.S., Find a Grave® Index, 1600s-Current"<br/>
+{{FindAGrave|39990939}}<br/>
+{{Ancestry Record|60525|28412781}} (accessed 10 July 2026)<br/>
+Robert Glasgow burial (died on 5 Aug 1839) at Tranquility Cemetery, Tranquility, Adams County, Ohio, United States of America. Born in Feb 1749.
+</ref><ref>
+'''Burial''':
+"Abstract of Graves of Revolutionary Patriots"<br/>
+Abstract of Graves of Revolutionary Patriots; Volume: 2<br/>
+{{Ancestry Record|4110|20947}} (accessed 10 July 2026)<br/>
+Robert Glasgow burial in Tranquility Cem, nr Seaman, Adams Co OH 83.
+</ref>
+
+Per David Faris "In the 1980s a modern gravestone was erected at the location of the R.G. stone."<ref>* Faris, David, The Glasgow Family of Adams County, Ohio (Baltimore, MD, Gateway Press, Inc., 1990), p. 23</ref>  The current caretaker of the cemetery told me that he believes the American Legion ordered the stone.
+
+== Research Notes ==
+=== Probable Moneymore father — 17 October 2026 ===
+
+The existing Moneymore father account, Glasgow-1024, is assessed as the probable father of Robert Glasgow-12 and, by inference through their established brotherhood, Arthur Glasgow-649 and Joseph Glasgow-1543. The catalogue description of David Faris’s 1990 genealogy explicitly identifies the Adams County emigrant Robert (1749–1839) as a son of a James resident at Moneymore. It identifies a particular father and son, rather than offering a same-name local candidate. The family letter of 6 November 1806 printed by Faris names Arthur and Robert as Joseph’s brothers; Joseph’s 1831 will independently identifies Arthur as his deceased brother and the younger Robert as Arthur’s son. These sources distinguish the two Roberts and establish the sibling group to which the father attribution can reasonably extend. Robert’s pension supports the County Derry setting and 1769 migration. The approximate generations are compatible; the circa-1722 birth estimate is not independent evidence. The positive father attribution and established family group together warrant probable parentage, while remaining below documented or certain.
+
+The father attribution survives here through a catalogue abstract of a retrospective genealogy; the book’s underlying parentage notes and a contemporary Irish parent record have not been inspected. The letter and will corroborate the sibling group, not the father’s name independently. Glasgow-1024 is used for its record-defined Moneymore father role: the inherited dates, Mary Harkness marriage, 1770 immigration, 1804 naturalisation, older James pedigree and proposed Corvanaghan identity are separate questions. The Corvanaghan identity and older father remain very uncertain. No probability is assigned to those claims by this review. The same father is inferred across the three established paternal-surname siblings; no evidence for different fathers has been identified. Other proposed siblings, including James-3305, John and Mary, and the proposed Adam connection are not upgraded.
+
+Three existing father links change from an uncertain saved WikiTree flag and an ungraded/unknown local assessment to a formal probable local grade. No parent is newly attached, no live flag changes and no new working-tree component is created. All mothers remain separately uncertain; James’s own parents are unchanged. This is an inference from the combined existing evidence, not a newly discovered parent record.
+
+<ref name="MoneymoreFatherReview">Combined existing family evidence: [https://search.worldcat.org/title/22731567 David Faris, The Glasgow Family of Adams County, Ohio (1990): WorldCat catalogue abstract, father attribution checked 17 October 2026; underlying book notes uninspected]; [https://glasgow.phenotype.dev/people/glasgow-12.html 1806 Joseph-and-Betty-to-Arthur family letter, published transcription in Faris, pp.14–19, already in the maintained sibling study]; [https://swvirginians.wordpress.com/2014/12/12/joseph-glasgow-pulaski-co-va-will-of-1831/ Joseph Glasgow will, 2 April 1831; Wythe Will Book 4, pp.1–3, published transcription checked 17 October 2026]; [https://revwarapps.org/r4057.pdf Robert Glasgow Revolutionary War pension R4057: County Derry birth and 1769 migration; existing maintained reading]. Catalogue attribution and will transcription checked 17 October 2026; the original parentage notes and original 1806 letter were not newly inspected.</ref>
+
+[https://glasgow.phenotype.dev/branches/research-irish-moneymore/#moneymore-probable-father Full father assessment and alternatives].
+
+
+=== Retained maintained research and earlier wording ===
+
+Earlier wording is retained with its citations; the dated probable-father assessment supersedes its uncertain paternal labels while preserving independent identity and maternity limits.
+
+<blockquote>
+* [[Glasgow-3305|James Glasgow (abt.1740-)]]
+* [[Glasgow-4027|John Glasgow]]
+* [[Glasgow-1543|Joseph Glasgow (abt.1735-)]]
+* [[Glasgow-649|Arthur Glasgow (abt.1750-1822)]]
+* [[Glasgow-4030|Mary Glasgow, possibly Mary Arter]]
+
+* Hadassah Esther (b.1776), m. David Dryden
+* William (b.1778), m. Rhoda N. Montgomery
+* Joseph (b.1780), m. Ann Nancy Glasgow
+* Nancy (b.1781), m. Thomas McClelland
+* Robert (b.1781), m. Rosannah Finley
+*  Jane (b.1785), m. Thomas Patton
+*  Rhoda (b.1791), m. Samuel S. Finley
+* Phoebe (b.1793), m. Robert Steele Finley
+*  John (b.1795), m. Margaret Finley, Elizabeth Kirkpatrick, Nancy Patton
+*  James (b.1799), m. Mary McNeil, Sally Lyle
+
+: Source: [[#S-269701049]]
+:: Page:  Ancestry Family Trees
+:: Note:
+:: Data:
+::: Text:  http://trees.ancestry.com/pt/AMTCitationRedir.aspx?tid=9639887&pid=704143694
+
+: Source <span id='S-2093025178'>S-2093025178</span>
+: Repository: [[#R-269701050]]
+: Title:  Historical Register of Virginians in the Revolution
+: Note:
+: APID:  48423::0
+
+: Source <span id='S-2101078828'>S-2101078828</span>
+: Repository: [[#R-269701050]]
+: Title:  American Revolutionary War Rejected Pensions
+: Author:  Ancestry.com
+: Publication:  Online publication - Provo, UT, USA: Ancestry.com Operations Inc, 2000.Original data - Rejected or Suspended Applications for Revolutionary War Pensions. Washington, D.C.: n.p., 1852.Original data: Rejected or Suspended Applications for Revolutionary War P
+: Note:
+: APID:  4329::0
+
+: Source <span id='S-2133737094'>S-2133737094</span>
+: Repository: [[#R-269701050]]
+: Title:  Millennium File
+: Author:  Heritage Consulting
+: Publication:  Online publication - Provo, UT, USA: Ancestry.com Operations Inc, 2003.Original data - Heritage Consulting. The Millennium File. Salt Lake City, UT, USA: Heritage Consulting.Original data: Heritage Consulting. The Millennium File. Salt Lake City, UT, USA:
+: Note:
+: APID:  7249::0
+
+: Source <span id='S-244420631'>S-244420631</span>
+: Repository: [[#R-269701050]]
+: Title:  U.S. and International Marriage Records, 1560-1900
+: Author:  Yates Publishing
+: Publication:  Online publication - Provo, UT, USA: The Generations Network, Inc., 2004.Original data - This unique collection of records was extracted from a variety of sources including family group sheets and electronic databases. Originally, the information was deriv
+: Note:
+: APID:  7836::0
+</blockquote>
+
+
+* Sons of the American Revolution Membership Applications, 1889-1970. Louisville, Kentucky: National Society of the Sons of the American Revolution. Microfilm, 508 rolls. Volume 334. Ancestry.com. U.S., Sons of the American Revolution Membership Applications, 1889-1970 [database on-line]. Provo, UT, USA: Ancestry.com Operations, Inc., 2011. SAR application for James Harold Irving, images 346-347. SAR Member: 66741.
+
+: Source: [[#S-269701049]]
+:: Page:  Ancestry Family Trees
+:: Note:
+:: Data:
+::: Text:  http://trees.ancestry.com/pt/AMTCitationRedir.aspx?tid=9639887&pid=704143694
+
+: Source <span id='S-2093025178'>S-2093025178</span>
+: Repository: [[#R-269701050]]
+: Title:  Historical Register of Virginians in the Revolution
+: Note:
+: APID:  48423::0
+
+: Repository <span id='R-269701050'>R-269701050</span>
+: Name:  Ancestry.com
+: Address:  http://www.Ancestry.com
+: Note:
+
+: Source <span id='S-2101078828'>S-2101078828</span>
+: Repository: [[#R-269701050]]
+: Title:  American Revolutionary War Rejected Pensions
+: Author:  Ancestry.com
+: Publication:  Online publication - Provo, UT, USA: Ancestry.com Operations Inc, 2000.Original data - Rejected or Suspended Applications for Revolutionary War Pensions. Washington, D.C.: n.p., 1852.Original data: Rejected or Suspended Applications for Revolutionary War P
+: Note:
+: APID:  4329::0
+
+: Source <span id='S-2133737094'>S-2133737094</span>
+: Repository: [[#R-269701050]]
+: Title:  Millennium File
+: Author:  Heritage Consulting
+: Publication:  Online publication - Provo, UT, USA: Ancestry.com Operations Inc, 2003.Original data - Heritage Consulting. The Millennium File. Salt Lake City, UT, USA: Heritage Consulting.Original data: Heritage Consulting. The Millennium File. Salt Lake City, UT, USA:
+: Note:
+: APID:  7249::0
+
+: Source <span id='S-244420631'>S-244420631</span>
+: Repository: [[#R-269701050]]
+: Title:  U.S. and International Marriage Records, 1560-1900
+: Author:  Yates Publishing
+: Publication:  Online publication - Provo, UT, USA: The Generations Network, Inc., 2004.Original data - This unique collection of records was extracted from a variety of sources including family group sheets and electronic databases. Originally, the information was deriv
+: Note:
+: APID:  7836::0
+
+https://gw.geneanet.org/belfast8?lang=en&p=robert&n=glasgow
+* "Virginia, County Marriage Records, 1771-1989," database with images, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:66D8-XBCR : 28 June 2022), Robert Glasgow in entry for Thomas Patton, 17 Apr 1805; citing Marriage, Virginia, United States, Circuit court clerk offices, Virginia.
+* DUPLICATE _ NEEDS TO BE MERGED
+
+
+Robert was in a family history or pedigree on 8 May 1947 in Adams, Ohio.<ref>
+'''Family History or Pedigree''':
+"U.S., Sons of the American Revolution Membership Applications, 1889-1970"<br/>
+Volume: 334<br/>
+{{Ancestry Sharing|64590079|7b22746f6b656e223a22564747624a4d6f67546e726938444f434b3031336f3358396464596a6e364b4c794b53744e6279486d32553d222c22746f6b656e5f76657273696f6e223a225632227d}} - {{Ancestry Record|2204|659922}} (accessed 10 July 2026)<br/>
+Name: Robert Glasgow; Birth Date: 1749; Birth Place: Derry, Ireland; Death Date: 1834; Death Place: Adams, Ohio; SAR Membership: 66741; Role: Ancestor; Application Date: 8 May 1947; Spouse: Rosannah Uster Glasgow; Children: Robert Uster Glasgow.
+</ref>
+
+Robert was in a family history or pedigree on 9 May 1952 in Adams, Ohio.<ref>
+'''Family History or Pedigree''':
+"U.S., Sons of the American Revolution Membership Applications, 1889-1970"<br/>
+Original data: Sons of the American Revolution Membership Applications, 1889-1970. Louisville, Kentucky: National Society of the Sons of the American Revolution. Microfilm, 508 rolls<br/>
+{{Ancestry Sharing|64590076|7b22746f6b656e223a22334463764153315158366139665a742f7578786159576347756877507349464e43574c53715072596e436f3d222c22746f6b656e5f76657273696f6e223a225632227d}} - {{Ancestry Record|2204|769027}} (accessed 10 July 2026)<br/>
+Name: Robert Glasgow; Birth Date: 1749; Birth Place: Derry, Ireland; Death Date: 1834; Death Place: Adams, Ohio; SAR Membership: 75059; Role: Ancestor; Application Date: 9 May 1952; Spouse: Rosanna Uster; Children: Joseph Glasgow.
+</ref>
+
+He was in a record of historical record of Virginiana in the Revolution.<ref>
+'''Record''':
+{{Ancestry Record|48423|338531}} (accessed 10 July 2026).
+</ref>
+
+He was in a record of First Families in America.<ref>
+'''Record''':
+{{Ancestry Record|48081|187112}} (accessed 10 July 2026).
+</ref>
+
+He was in a record of The Official roster of the soldiers of the American Revolution buried in the state of Ohio.<ref>
+'''Record''':
+{{Ancestry Record|20105|475}} (accessed 10 July 2026).
+</ref>
+
+=== Current research ===
+
+Robert's parents and grandparents are still unproved, but his relationship to [[Glasgow-649|Arthur Glasgow]] and [[Glasgow-1543|Joseph Glasgow]] is now strong enough to mark the three men as '''certain brothers in profile prose'''. WikiTree cannot encode a sibling edge independently, so this does not make their present shared parents certain.
+
+David Faris transcribed a family letter dated 6 November 1806 from Joseph and Betty Glasgow in Wythe County to Arthur Glasgow in Rockbridge County. Joseph addressed Arthur as his brother and referred to “brother robert.” The wording is contemporary relationship evidence, although the original letter still needs to be located and inspected.
+
+Joseph's 1831 will independently calls the younger Robert Glasgow his nephew and the son of Joseph's deceased brother Arthur. That directly proves Joseph and Arthur were brothers. Together, the letter and will establish the Robert–Arthur–Joseph sibling cluster.
+
+The evidence does '''not''' identify the brothers' father with [[Glasgow-1024|James Glasgow]] or their mother with [[Harkness-1149|Mary Harkness]]. Faris calls Robert a son of “James Glasgow of Moneymore,” but the live James profile has conflicting dates and migration/death narratives and may combine more than one man.
+
+This assessment draws on the cited records and public source material.<ref name="ProjectSource1">[https://revwarapps.org/r4057.pdf Robert's Revolutionary War pension file R4057].</ref><ref name="ProjectSource2">[https://search.worldcat.org/title/22731567 WorldCat record].</ref><ref name="ProjectSource3">[https://swvirginians.wordpress.com/2014/12/12/joseph-glasgow-pulaski-co-va-will-of-1831/ Joseph Glasgow's 1831 will transcription].</ref><ref name="ProjectSource4">[https://www.lva.virginia.gov/collections/ccmf/VA/VA305 Wythe County Will Book 4, pp. 1–3, LVA Reel 14].</ref><ref name="ProjectSource5">[https://old.lva.virginia.gov/ChanceryImg/163-Rockbridge/BOX%20016/163_1833_005_0089.pdf Arthur Glasgow estate agreement, 19 September 1822, Rockbridge chancery case 1833-005, image 89].</ref>
+
+== Sources ==
+<references />

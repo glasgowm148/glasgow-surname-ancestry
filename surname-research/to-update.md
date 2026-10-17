@@ -1816,3 +1816,11 @@ The August completion entries remain historical. The live parent fields are now 
 | [Hugh Glasgow, Pennsylvania emigrant](https://www.wikitree.com/wiki/Glasgow-540) | OPEN | Explain probable Hugh–McCullough parentage from the explicit family account and household check; retain independent source limitations. |
 | [Hugh Glasgow, elder Irish weaver](https://www.wikitree.com/wiki/Glasgow-548) | OPEN | Explain probable Hugh–McCullough parentage from the explicit family account and household check; retain independent source limitations. |
 | [Margaret McCullough](https://www.wikitree.com/wiki/McCullough-1964) | OPEN | Explain probable Hugh–McCullough parentage from the explicit family account and household check; retain independent source limitations. |
+
+
+## Moneymore probable father — 17 October 2026
+
+| [Robert Glasgow, Adams County emigrant](https://www.wikitree.com/wiki/Glasgow-12) | OPEN | Explain the probable Moneymore father; preserve the earlier uncertain assessment and independent maternity/identity questions. |
+| [Arthur Glasgow, Rockbridge](https://www.wikitree.com/wiki/Glasgow-649) | OPEN | Explain the probable Moneymore father; preserve the earlier uncertain assessment and independent maternity/identity questions. |
+| [Joseph Glasgow, Wythe County](https://www.wikitree.com/wiki/Glasgow-1543) | OPEN | Explain the probable Moneymore father; preserve the earlier uncertain assessment and independent maternity/identity questions. |
+| [James Glasgow, Moneymore father account](https://www.wikitree.com/wiki/Glasgow-1024) | OPEN | Explain the probable Moneymore father; preserve the earlier uncertain assessment and independent maternity/identity questions. |
