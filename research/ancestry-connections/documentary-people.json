@@ -606,6 +606,54 @@
           "death_location": "uncertain"
         }
       }
+    },
+    {
+      "id": "Glasgow-1538",
+      "publication_status": "approved",
+      "assessment_id": "chronology-robert-brash-20261017",
+      "reviewed": "2026-10-17",
+      "source_ids": [
+        "wandell-robert-james-marion-1760",
+        "barony-robert-jack-brash-sequence-1789-1839",
+        "glasgow-robert-birth-candidate-1784"
+      ],
+      "birth_year": 1760,
+      "year": 1760,
+      "year_basis": "probable child identity; baptism supplies a birth boundary",
+      "year_status": "before baptism; probable identity",
+      "reason": "The selected probable identity is the Robert baptised at Wandell and Lamington on 17 February 1760, conditional on the older Brash widower sequence. Show a probable birth boundary before that baptism, not an exact birthday. The 13 September 1784 date belongs to another compatible child index with no adult link and remains a competing identity in the biography and reversible captured/imported view. The live WikiTree birth value is unchanged. This is an explicit local chronology assessment, dependent on the same 62% identity as the parent suggestions. Glasgow remains the inherited uncertain birthplace; a baptism at Wandell and Lamington does not establish a birthplace there.",
+      "vitals": {
+        "birth": {
+          "date": "Before 17 February 1760",
+          "display_date": "Before 17 February 1760 (probable identity)",
+          "place": "Glasgow, Lanarkshire, Scotland",
+          "status": "probable",
+          "place_status": "uncertain",
+          "qualifier": "The selected probable identity is the Robert baptised at Wandell and Lamington on 17 February 1760, conditional on the older Brash widower sequence. Show a probable birth boundary before that baptism, not an exact birthday. The 13 September 1784 date belongs to another compatible child index with no adult link and remains a competing identity in the biography and reversible captured/imported view. The live WikiTree birth value is unchanged. This is an explicit local chronology assessment, dependent on the same 62% identity as the parent suggestions. Glasgow remains the inherited uncertain birthplace; a baptism at Wandell and Lamington does not establish a birthplace there.",
+          "source_url": "https://www.familysearch.org/ark:/61903/1:1:XTFT-KJ9"
+        }
+      },
+      "tree_display": {
+        "born": 1760,
+        "birthDisplay": "before 1760 (probable identity)",
+        "bornApprox": true,
+        "year": 1760
+      },
+      "catalogue_projection": {
+        "birth": "Before 17 February 1760 (probable identity)",
+        "birth_year": 1760,
+        "birth_note": "The selected probable identity is the Robert baptised at Wandell and Lamington on 17 February 1760, conditional on the older Brash widower sequence. Show a probable birth boundary before that baptism, not an exact birthday. The 13 September 1784 date belongs to another compatible child index with no adult link and remains a competing identity in the biography and reversible captured/imported view. The live WikiTree birth value is unchanged. This is an explicit local chronology assessment, dependent on the same 62% identity as the parent suggestions. Glasgow remains the inherited uncertain birthplace; a baptism at Wandell and Lamington does not establish a birthplace there.",
+        "birth_location_note": "Inherited Glasgow birthplace remains unproved; Wandell and Lamington is the candidate baptism place.",
+        "date_years": [
+          1760
+        ],
+        "field_statuses": {
+          "birth": "probable",
+          "birth_location": "uncertain",
+          "death": "unknown",
+          "death_location": "unknown"
+        }
+      }
     }
   ]
 }

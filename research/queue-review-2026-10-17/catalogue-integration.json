@@ -4379,6 +4379,72 @@
       "significance": 45,
       "summary": "Explain the possible identity of the Mid Calder son John with the Kirkliston husband; retain the original sourced account and distinguish the conditional new child from two separate Johns.",
       "draft_path": "research/Mill-357/Mill-357.md"
+    },
+    "Glasgow-1538": {
+      "queued_at": "2026-10-17",
+      "status": "OPEN",
+      "significance": 82,
+      "summary": "Review new probable father James Glasgow-1120 and mother Marion Saidler/Sadler-2849, 62% each, through the older Brash widower and 1760 baptism comparison; retain competing births and do not merge. The local birth is before the 1760 baptism under that probable identity; retain 1784 as the competing child and captured value.",
+      "draft_path": "research/Glasgow-1538/Glasgow-1538.md",
+      "relationship_changes": [
+        {
+          "action": "add",
+          "relationship": "father",
+          "relative_id": "Glasgow-1120",
+          "status": "probable",
+          "assertion_id": "C-working-20261017-robert-brash-father",
+          "before": "unknown",
+          "after": "probable",
+          "basis": "Robert Glasgow-1538, Margaret Brash’s husband, is probably the older widower represented by Robert Glasgow-1530. Both accounts claim the same Barony marriage, 6 November 1803, OPR 622/70/252. The older account has a coherent local sequence: marriage to Elizabeth Jack in 1789, her death or burial in 1802, marriage to Margaret Brash in 1803, and a Glasgow weaver’s burial or death in 1839 aged 79. That age favours the Robert baptised at Wandell and Lamington on 17 February 1760, whose indexed parents are James Glasgow and Marion Saidler, over the 1755, 1758 and 1784 births. James Glasgow-1120 and Marion Sadler-2849 are therefore selected as probable working parents of Robert-1538, at 62% each.",
+          "source_ids": [
+            "wandell-robert-james-marion-1760",
+            "barony-robert-jack-brash-sequence-1789-1839",
+            "calton-alexander-robert-brash-1861",
+            "glasgow-robert-birth-candidate-1784"
+          ]
+        },
+        {
+          "action": "add",
+          "relationship": "mother",
+          "relative_id": "Sadler-2849",
+          "status": "probable",
+          "assertion_id": "C-working-20261017-robert-brash-mother",
+          "before": "unknown",
+          "after": "probable",
+          "basis": "Robert Glasgow-1538, Margaret Brash’s husband, is probably the older widower represented by Robert Glasgow-1530. Both accounts claim the same Barony marriage, 6 November 1803, OPR 622/70/252. The older account has a coherent local sequence: marriage to Elizabeth Jack in 1789, her death or burial in 1802, marriage to Margaret Brash in 1803, and a Glasgow weaver’s burial or death in 1839 aged 79. That age favours the Robert baptised at Wandell and Lamington on 17 February 1760, whose indexed parents are James Glasgow and Marion Saidler, over the 1755, 1758 and 1784 births. James Glasgow-1120 and Marion Sadler-2849 are therefore selected as probable working parents of Robert-1538, at 62% each.",
+          "source_ids": [
+            "wandell-robert-james-marion-1760",
+            "barony-robert-jack-brash-sequence-1789-1839",
+            "calton-alexander-robert-brash-1861",
+            "glasgow-robert-birth-candidate-1784"
+          ]
+        }
+      ],
+      "preservation_review_path": "research/queue-review-2026-10-17/robert-brash-preservation.json"
+    },
+    "Glasgow-1530": {
+      "queued_at": "2026-10-17",
+      "status": "OPEN",
+      "significance": 47,
+      "summary": "Explain the conditional Robert/Brash identity and probable 62% parent suggestion; retain the complete earlier account and distinguish record roles from unresolved later identities.",
+      "draft_path": "research/Glasgow-1530/Glasgow-1530.md",
+      "preservation_review_path": "research/queue-review-2026-10-17/robert-brash-preservation.json"
+    },
+    "Glasgow-1120": {
+      "queued_at": "2026-10-17",
+      "status": "OPEN",
+      "significance": 47,
+      "summary": "Explain the conditional Robert/Brash identity and probable 62% parent suggestion; retain the complete earlier account and distinguish record roles from unresolved later identities.",
+      "draft_path": "research/Glasgow-1120/Glasgow-1120.md",
+      "preservation_review_path": "research/queue-review-2026-10-17/robert-brash-preservation.json"
+    },
+    "Sadler-2849": {
+      "queued_at": "2026-10-17",
+      "status": "OPEN",
+      "significance": 47,
+      "summary": "Explain the conditional Robert/Brash identity and probable 62% parent suggestion; retain the complete earlier account and distinguish record roles from unresolved later identities.",
+      "draft_path": "research/Sadler-2849/Sadler-2849.md",
+      "preservation_review_path": "research/queue-review-2026-10-17/robert-brash-preservation.json"
     }
   },
   "reviewed_on": "2026-10-17",

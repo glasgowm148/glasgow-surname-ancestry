@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "reviewed": "2026-10-17",
+  "scope": "Complete captured and effective proposed historical biographies; source and narrative preservation, with expressly superseded inference recommendations.",
+  "profiles": {
+    "Glasgow-1538": {
+      "current_sha256": "34602c07f6d5d3992691c1bb63dc445248000b9f6b96fe71ea30f23071ac5ec4",
+      "proposed_sha256": "e0d6253fd34ed6a04a09637f30913420bb252a04c3cc2bdbf19dab5dbb0da777",
+      "all_substantive_passages_accounted_for": true,
+      "preserved": "All captured historical events, source citations/URLs, named relatives, competing identities, negative search limits and quoted record details are retained. The complete biography replaces the earlier short amendment notes.",
+      "reconciled": "Earlier blank-parent recommendations, James/Jean Simpson priority and the 1780–1784 working estimate are dated as superseded. The 1784 child remains an alternative; before the1760 baptism is the explicit probable local identity boundary. Existing children and the1819 marriage remain unproved.",
+      "sources_reviewed": "Maintained index citations/earlier record readings reused; no fresh original-image inspection."
+    },
+    "Glasgow-1530": {
+      "current_sha256": "9cb451c1dfdd27c0c927010579838465998c5b2fe67a5919dd489935f3fd8168",
+      "proposed_sha256": "73f81e5e349685527a8ae007943c426b52b8656d2feb222b73be925311993888",
+      "all_substantive_passages_accounted_for": true,
+      "preserved": "All captured historical events, source citations/URLs, named relatives, competing identities, negative search limits and quoted record details are retained. The complete biography replaces the earlier short amendment notes.",
+      "reconciled": "Existing biography preserved, with a conditional Robert/Brash family research note. Marion’s inherited own parents and birth/death statements are explicitly unsourced; no new independent identification is claimed.",
+      "sources_reviewed": "Maintained index citations/earlier record readings reused; no fresh original-image inspection."
+    },
+    "Glasgow-1120": {
+      "current_sha256": "27135a6d47db70057c88d36ff1a82b2cc3e258e89b792885561167e41322f360",
+      "proposed_sha256": "1f787da0b6d30483964ad4ee6b4757510bf3f8c846879dc992c210ff8f7cdd87",
+      "all_substantive_passages_accounted_for": true,
+      "preserved": "All captured historical events, source citations/URLs, named relatives, competing identities, negative search limits and quoted record details are retained. The complete biography replaces the earlier short amendment notes.",
+      "reconciled": "Existing biography preserved, with a conditional Robert/Brash family research note. Marion’s inherited own parents and birth/death statements are explicitly unsourced; no new independent identification is claimed.",
+      "sources_reviewed": "Maintained index citations/earlier record readings reused; no fresh original-image inspection."
+    },
+    "Sadler-2849": {
+      "current_sha256": "ba053fce07caacb2ec96cfefb2f8f76f29f43cb3038d0f2175749205a5e5e81e",
+      "proposed_sha256": "0b46b413d49e44fa79bf578d37dc40ebc2fc8d3542d10c0f768e6a449723bea6",
+      "all_substantive_passages_accounted_for": true,
+      "preserved": "All captured historical events, source citations/URLs, named relatives, competing identities, negative search limits and quoted record details are retained. The complete biography replaces the earlier short amendment notes.",
+      "reconciled": "Existing biography preserved, with a conditional Robert/Brash family research note. Marion’s inherited own parents and birth/death statements are explicitly unsourced; no new independent identification is claimed.",
+      "sources_reviewed": "Maintained index citations/earlier record readings reused; no fresh original-image inspection."
+    }
+  },
+  "formatting_note": "Original captured line endings, including seven trailing-space lines in the three newly completed biographies, are intentionally retained. The whitespace check allows those inherited end-of-line spaces; no source or narrative passage is dropped for formatting."
+}

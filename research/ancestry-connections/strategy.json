@@ -3656,6 +3656,137 @@
         "supported_and_confident_changes": 0,
         "interpretation": "A conditional six-account branch connection; account-based metrics do not establish the adult identity or make the selected parents documented."
       }
+    },
+    {
+      "id": "robert-brash-older-widower",
+      "year": 1760,
+      "title": "Robert and Margaret Brash: probable older family",
+      "status": "Selected probable father and mother · 62% each",
+      "people": [
+        {
+          "name": "Robert Glasgow, Margaret Brash’s husband",
+          "url": "/people/glasgow-1538.html"
+        },
+        {
+          "name": "Robert Glasgow, older widower",
+          "url": "/people/glasgow-1530.html"
+        },
+        {
+          "name": "James Glasgow",
+          "url": "/people/glasgow-1120.html"
+        },
+        {
+          "name": "Marion Saidler",
+          "url": "/people/sadler-2849.html"
+        }
+      ],
+      "basis": "Robert Glasgow-1538, Margaret Brash’s husband, is probably the older widower represented by Robert Glasgow-1530. Both accounts claim the same Barony marriage, 6 November 1803, OPR 622/70/252. The older account has a coherent local sequence: marriage to Elizabeth Jack in 1789, her death or burial in 1802, marriage to Margaret Brash in 1803, and a Glasgow weaver’s burial or death in 1839 aged 79. That age favours the Robert baptised at Wandell and Lamington on 17 February 1760, whose indexed parents are James Glasgow and Marion Saidler, over the 1755, 1758 and 1784 births. James Glasgow-1120 and Marion Sadler-2849 are therefore selected as probable working parents of Robert-1538, at 62% each. The two profiles’ identical marriage citation is one event claimed twice, not independent proof that the men are identical. Neither the child-to-adult bridge nor the linkage of the 1839 weaver to the groom has been proved. The 1758 Livingston child of Abraham Glasgow and Janet Cunnyngham, the 1755 Mid Calder child of Andrew Glasgow and Janet Young, and the 1784 Glasgow child remain compatible alternatives; burial ages may be approximate. Robert-2963 and the James Glasgow-1142/Jean Simpson family remain a weaker derivative-tree comparison, not an excluded family. Robert-1538 and Robert-1530 remain separate accounts that may represent one adult, not evidence of two sons with the same name. The local working birth is now before the 17 February 1760 baptism, explicitly a probable identity rather than an exact birthday. The captured WikiTree 13 September 1784 value is retained in the comparison and as a competing child record; no live date was changed. The 62% assessments concern the 1760 named-parent roles; James-1120’s identification with the 1738 child and his earlier ancestry remain separate inherited uncertainties. Marion is assessed from the named mother in the baptism, not inferred solely from James’s spouse. Both percentages depend on the same identity chain and are not independent probabilities. This review reuses maintained index citations and earlier contributors’ readings; no original register image was newly inspected. Alexander-2822’s 1861 marriage names Robert and Margaret, but does not identify Robert’s parents. Ralph-1537 and the other attached children are not strengthened by this selection; the 1819 Janet Gilmour groom remains unproved.",
+      "next_test": "Compare the 1803 marriage with the 1789 marriage, 1802 burial and 1839 weaver burial; test 1755, 1758 and 1760 baptism identities and Alexander’s civil parent information.",
+      "record_references": [
+        "wandell-robert-james-marion-1760",
+        "barony-robert-jack-brash-sequence-1789-1839",
+        "calton-alexander-robert-brash-1861",
+        "glasgow-robert-birth-candidate-1784"
+      ],
+      "sources": [
+        {
+          "url": "https://www.familysearch.org/ark:/61903/1:1:XTFT-KJ9",
+          "label": "FamilySearch, Scotland Births and Baptisms: Robert Glasgow, 17 February 1760, Wandell and Lamington; James Glasgow and Marion Saidler (maintained index citation)"
+        },
+        {
+          "url": "https://www.scotlandspeople.gov.uk/search-records/church-registers",
+          "label": "ScotlandsPeople OPR: Barony 622/70/79 (1789), Glasgow 644/1/640/107 (1802), Barony 622/70/252 (1803), Glasgow 644/1/670/67 (1839); maintained indexed readings"
+        },
+        {
+          "url": "https://www.scotlandspeople.gov.uk/",
+          "label": "ScotlandsPeople statutory marriage: Alexander Glasgow and Elizabeth Becket, Calton 644/4/154, 30 April 1861; earlier contributor’s image reading"
+        },
+        {
+          "url": "https://www.familysearch.org/ark:/61903/1:1:X1WW-D8B",
+          "label": "FamilySearch: Robert Glasgow, 13 September 1784, Glasgow; no parents in the supplied index"
+        }
+      ],
+      "assertion_ids": [
+        "C-working-20261017-robert-brash-father",
+        "C-working-20261017-robert-brash-mother"
+      ],
+      "counted_as_new_connection": true,
+      "local_family_edges_added": 2,
+      "paternal_edges_added": 1,
+      "certainty_upgrades": 0,
+      "reviewed": "2026-10-17",
+      "quantitative_effect": {
+        "cutoff": 1850,
+        "cohort_population": 1786,
+        "current_cohort": {
+          "population": {
+            "before": 1786,
+            "after": 1786
+          },
+          "edge_count": {
+            "before": 1361,
+            "after": 1362
+          },
+          "component_count": {
+            "before": 427,
+            "after": 426
+          },
+          "largest_component_size": {
+            "before": 1068,
+            "after": 1082
+          },
+          "connected_pairs_percent": {
+            "before": 35.821656770210886,
+            "after": 36.75967139375347
+          }
+        },
+        "fixed_original_cohort": {
+          "population": {
+            "before": 1776,
+            "after": 1776
+          },
+          "edge_count": {
+            "before": 1360,
+            "after": 1361
+          },
+          "component_count": {
+            "before": 419,
+            "after": 418
+          },
+          "largest_component_size": {
+            "before": 1066,
+            "after": 1080
+          },
+          "connected_pairs_percent": {
+            "before": 36.09097830224591,
+            "after": 37.03781246034767
+          }
+        },
+        "supported_change": {
+          "population": {
+            "before": 1786,
+            "after": 1786
+          },
+          "edge_count": {
+            "before": 379,
+            "after": 380
+          },
+          "component_count": {
+            "before": 1408,
+            "after": 1407
+          },
+          "largest_component_size": {
+            "before": 46,
+            "after": 46
+          },
+          "connected_pairs_percent": {
+            "before": 0.19874467144080477,
+            "after": 0.19880740650123432
+          }
+        },
+        "confident_changes": 0,
+        "interpretation": "One conditional paternal connection joins existing profile accounts, some possibly representing the same adult. The metric does not prove every descendant link or the proposed adult identity."
+      }
     }
   ],
   "source_basis": "Initial priorities reconcile existing medieval bridge research, the pre-1550 relationship audit and the resolved public catalogue. They are current working comparisons, not newly discovered kinship records."

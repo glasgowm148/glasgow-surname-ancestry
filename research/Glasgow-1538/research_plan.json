@@ -47,18 +47,36 @@
         "https://familysearch.org/ark:/61903/1:1:XTT2-44Y",
         "https://www.familysearch.org/ark:/61903/1:1:XTG4-H5W"
       ]
+    },
+    {
+      "claim": "Selected local probable father James Glasgow-1120 and mother Marion Saidler/Sadler-2849, 62% each, on 17 October 2026.",
+      "confidence": "probable; exact subjective assessment 62% per parent",
+      "reasoning": "The preferred adult identity is the older widower Robert-1530, through the same 1803 Brash marriage and coherent 1789–1839 sequence. Age 79 in 1839 favours the 1760 child whose indexed parents are James and Marion. The adult and baptism bridges remain inferred, both parents share that identity uncertainty, and James’s own 1738 childhood is not strengthened. Competing 1755, 1758, 1784 and James/Jean Simpson accounts remain open. No original page was newly inspected or live profile edited.",
+      "sources": [
+        "https://www.familysearch.org/ark:/61903/1:1:XTFT-KJ9",
+        "https://www.scotlandspeople.gov.uk/search-records/church-registers"
+      ]
+    },
+    {
+      "claim": "Local working birth boundary before 17 February 1760, probable identity; captured 1784 date retained as an alternative.",
+      "confidence": "probable; same 62% identity chain",
+      "reasoning": "The selected probable identity is the Robert baptised at Wandell and Lamington on 17 February 1760, conditional on the older Brash widower sequence. Show a probable birth boundary before that baptism, not an exact birthday. The 13 September 1784 date belongs to another compatible child index with no adult link and remains a competing identity in the biography and reversible captured/imported view. The live WikiTree birth value is unchanged. This is an explicit local chronology assessment, dependent on the same 62% identity as the parent suggestions. Glasgow remains the inherited uncertain birthplace; a baptism at Wandell and Lamington does not establish a birthplace there.",
+      "sources": [
+        "https://www.familysearch.org/ark:/61903/1:1:XTFT-KJ9",
+        "https://www.familysearch.org/ark:/61903/1:1:X1WW-D8B"
+      ]
     }
   ],
   "objective": "Establish the identity and documented family of Glasgow-1538, separating sourced facts from tree assertions.",
   "questions": [
     {
-      "answer": "Two WikiTree profiles claim the same 1803 marriage. Glasgow-1530 currently has the stronger chronology, but original register images and identifying details are still required.",
+      "answer": "Robert-1530’s older widower sequence is the selected leading adult identity. The same 1803 marriage is one event claimed twice, not independent proof; original identifying details and competing baptisms remain tests.",
       "id": "identity",
       "question": "Which records prove the subject's identity across events?",
       "status": "open"
     },
     {
-      "answer": "",
+      "answer": "Selected probable working parents are James Glasgow-1120 and Marion Saidler/Sadler-2849, 62% each, from the 1760 baptism conditional on the older adult identity. No merge or proved parentage; see current findings and structured assessments.",
       "id": "parents",
       "question": "Which original or indexed records identify the parents?",
       "status": "open"

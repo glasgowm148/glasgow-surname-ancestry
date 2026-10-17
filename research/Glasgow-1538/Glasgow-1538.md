@@ -1,17 +1,426 @@
-# WikiTree update notes: Glasgow-1538
+[[Category:Glasgow Name Study]]
 
-## Suggested additions
+[[Category:Glasgow, Lanarkshire]]
 
-| Fact missing from profile | Source | Confidence |
-| --- | --- | --- |
-| A Robert Glasgow married Margaret Brash in Barony parish on or after 6 November 1803, but the index does not distinguish the two competing WikiTree Robert profiles. | ScotlandsPeople, parish 622, reference 70/252 | High for event; unresolved identity |
-| A Robert Glasgow, weaver, aged 79, died or was buried in Glasgow on 9 September 1839. | ScotlandsPeople, parish 644/1, reference 670/67 | High for event; unresolved identity |
+== Biography ==
+{{Scotland Sticker}}
 
-## Suggested corrections
+Robert Glasgow was associated with Glasgow and Barony parish, Lanarkshire, during the early nineteenth century. His exact birth, parents, occupation, and death have not been established.
 
-Do not assign the 1803 marriage or 1839 burial to this profile until the original
-entries and the competing `Glasgow-1530` identity have been reconciled.
+A child named Robert Glasgow was born on 13 September 1784 in Glasgow, Lanarkshire.<ref>"Scotland, Births and Baptisms, 1564–1950," database, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:X1WW-D8B : accessed 15 July 2026), Robert Glasgow, born 13 September 1784, Glasgow, Lanarkshire, Scotland.</ref> This is a possible birth record for the subject of this profile, based on the name, place, and estimated age. The indexed record gives no parents, occupation, address, or later identifying information. No known record connects the child born in 1784 directly to the man who married Margaret Brash, so the identification remains uncertain.
 
-## Do not add as fact
+Robert Glasgow married [[Brash-171|Margaret Brash]] on 6 November 1803 in Barony parish, Lanarkshire.<ref>"Church of Scotland, Old Parish Registers — Marriages and Banns," Scotland's People (https://www.scotlandspeople.gov.uk/ : accessed 20 October 2021), Robert Glasgow and Margaret Brash, 6 November 1803, Barony, parish number 622, reference 622/70 252.</ref>
 
-- Do not infer parents from the current duplicate-profile structure.
+Robert and Margaret were the parents of [[Glasgow-2822|Alexander Glasgow]], born about 1812 or 1813 in Glasgow. Alexander's statutory marriage record of 1861 named his parents as Robert Glasgow and Margaret Brash.<ref>"Statutory Register of Marriages," database, National Records of Scotland, Scotland's People (https://www.scotlandspeople.gov.uk/ : accessed 25 January 2024), Alexander Glasgow and Elizabeth Becket, 30 April 1861, Calton, Glasgow, reference 644/4/154; the record names Alexander's parents as Robert Glasgow and Margaret Brash, with Margaret's surname reportedly difficult to read on the image.</ref>
+
+Alexander worked as a flesher, master flesher, and butcher in Barony, Calton, and Bridgeton. His documented occupation supports a family tradition that one branch of Robert's descendants entered the butchering trade.
+
+[[Glasgow-1537|Ralph Glasgow]], born about 1809, has also been identified in online trees as a son of Robert and Margaret. Ralph's records establish his marriage and several of his children, but none of the presently supplied records names Ralph's own parents. His relationship to Robert and Margaret therefore remains unproved.
+
+A Robert Glasgow married [[Gilmour-965|Janet Gilmour]] in Barony in 1819. It has not been established that this was the same Robert who married Margaret Brash in 1803.
+
+Robert's date and place of death remain unknown.
+
+== Children ==
+
+The following child is supported by a contemporary record naming both parents:
+
+* [[Glasgow-2822|Alexander Glasgow]], born about 1812 or 1813 in Glasgow and died on 4 October 1875 in Rothesay, Bute.
+
+The following attached child is plausible but not yet proved:
+
+* [[Glasgow-1537|Ralph Glasgow]], born about 1809 in Glasgow and died on 1 January 1887 in Dennistoun, Lanarkshire.
+
+The following profiles are attached as children in online trees but presently lack records establishing their parentage:
+
+* [[Glasgow-1539|Margaret Glasgow]], born about 1821
+* [[Glasgow-1540|Janet Glasgow]], born in October 1828
+* [[Glasgow-1541|Elizabeth Glasgow]], born about 1830
+* [[Glasgow-1542|Mary Glasgow]], born about 1832
+
+Tree structure alone should not be treated as proof of these relationships.
+
+== Research Notes ==
+
+=== Genealogical conclusion ===
+
+The principal unresolved question is Robert's identity, not simply the names of his parents.
+
+The marriage of Robert Glasgow and Margaret Brash in 1803 is documented. Their son Alexander's 1861 marriage independently confirms that a couple named Robert Glasgow and Margaret Brash were his parents.
+
+The exact birth date of 13 September 1784 is not independently connected to that couple. It belongs to a child of the correct name born in the correct general area, but the available index does not identify the child's parents or provide evidence of his later life.
+
+The July 2026 assessment left the parent fields blank. The selected local working assessment below now prefers James Glasgow and Marion Saidler, at 62% each, while retaining identity uncertainty.
+
+The earlier leading hypothesis was James Glasgow and Jean Simpson. It remains an alternative, superseded in priority by the older widower and 1760 baptism comparison below.
+
+=== Possible birth on 13 September 1784 ===
+
+Robert's FamilySearch profile, 9QMG-R4T, contains one attached source:
+
+* [https://www.familysearch.org/tree/person/details/9QMG-R4T FamilySearch profile 9QMG-R4T]
+* [https://www.familysearch.org/tree/person/sources/9QMG-R4T FamilySearch sources]
+* [https://www.familysearch.org/ark:/61903/1:1:X1WW-D8B Indexed birth record]
+
+The FamilySearch Detail View gives the following information:
+
+* Name: Robert Glasgow
+* Sex: Male
+* Event type: Birth
+* Event date: 13 September 1784
+* Event place: Glasgow, Lanarkshire, Scotland
+* Original place wording: Glasgow, Lanark, Scotland
+* Image: unavailable
+* Parents: not stated
+
+The source citation reads:
+
+<blockquote>
+"Scotland, Births and Baptisms, 1564-1950", FamilySearch, Robert Glasgow, 1784.
+</blockquote>
+
+FamilySearch notes that the extracted record was used to create the person in Family Tree. The source therefore proves that a child named Robert Glasgow was born in Glasgow on that date. It does not prove that the child later married Margaret Brash.
+
+The profile's birth date and place should be marked uncertain.
+
+A safer data-field description would be:
+
+<blockquote>
+Earlier proposed estimate, now superseded as a preferred birth conclusion: born about 1780–1784, probably in or near Glasgow, Lanarkshire. The 1760 child is now preferred conditionally; the preferred local working boundary is before the 17 February 1760 baptism, with probable identity. The live birth field is unchanged.
+</blockquote>
+
+The exact 1784 date may remain in the biography as a candidate record.
+
+=== Candidate parents: James Glasgow and Jean Simpson ===
+
+No contemporary record presently names Robert's parents.
+
+Two derivative traditions point toward a father named James Glasgow:
+
+* A GEDCOM linked from Alexander Glasgow's profile identifies Alexander's paternal grandfather as [[Glasgow-1120|James Glasgow]], born about 1738.<ref>[https://app.gedmatch.com/GEDCom/individual_detail.php?id_family=4939679&id_ged=I382288854998 GEDCOM entry referring to Alexander Glasgow's ancestry]</ref>
+* A separate WikiTree research note identifies [[Glasgow-2963|Robert Glasgow]], born about 1780, as a son of [[Glasgow-1142|James Glasgow]] and [[Simpson-19200|Jean Simpson]].
+
+The Robert born about 1780 would have been approximately twenty-three years old at the 1803 marriage, which is chronologically plausible.
+
+The apparent agreement on the name James is suggestive but cannot presently be treated as independent proof. The GEDCOM and the WikiTree profiles may derive from the same undocumented family tree.
+
+It has also not been established whether [[Glasgow-1120|James Glasgow]] and [[Glasgow-1142|James Glasgow]] represent:
+
+* the same man under duplicate profiles;
+* related men of the same name; or
+* entirely different individuals.
+
+An FTDNA relationship to the James Glasgow and Jean Simpson branch has been reported in a WikiTree research note. However, the supplied material does not include kit numbers, test type, segment data, total shared DNA, the tested relationship path, or an explanation of the reported distance values. The DNA statement therefore supports further investigation but does not prove Robert's parents.
+
+James Glasgow and Jean Simpson were the earlier leading candidate parents. They remain a derivative-tree alternative; the selected probable parents are now James Glasgow-1120 and Marion Saidler, through the older adult identity.
+
+=== Scottish naming pattern ===
+
+Scottish naming patterns provide only weak clues in this case.
+
+The presently proposed sons are:
+
+* Ralph, born about 1809
+* Alexander, born about 1812 or 1813
+
+If Ralph and Alexander were the first and second surviving sons, the usual naming pattern might suggest that Robert's father was named Ralph and Margaret's father was named Alexander.
+
+That inference is unsafe because:
+
+* Ralph has not yet been proved to be their son;
+* Robert and Margaret married in 1803, leaving several years in which earlier children may have been born;
+* an earlier son named James or Robert may have died young;
+* the complete baptismal sequence has not been reconstructed;
+* Margaret Brash's parents have not been established.
+
+The names James and Ralph should both be included in searches for Robert's father, but neither is established by naming custom.
+
+=== Marriage to Margaret Brash ===
+
+Robert Glasgow and [[Brash-171|Margaret Brash]] married on 6 November 1803 in Barony parish.
+
+The marriage is supported by the Old Parish Register reference:
+
+<blockquote>
+Barony, parish 622, register 622/70, page or entry 252.
+</blockquote>
+
+The original image should be checked for:
+
+* the parties' parishes or residences;
+* Robert's occupation;
+* whether the entry records banns or marriage;
+* witnesses;
+* cautioners;
+* addresses;
+* any marginal notation.
+
+Alexander Glasgow's 1861 statutory marriage provides independent evidence that a Robert Glasgow and Margaret Brash were his parents.
+
+=== Documented son Alexander Glasgow ===
+
+[[Glasgow-2822|Alexander Glasgow]] is the only presently attached child whose parentage is supported by a contemporary record naming Robert and Margaret.
+
+Alexander was born in Glasgow about 1812 or 1813.
+
+In 1841 he was living on Ann Street in Barony and working as a flesher.<ref>"1841 Scotland Census," database, {{Ancestry Record|1004|2603732}} (accessed 17 June 2025), Alexr Glasgow, age 25, flesher, Ann Street, Barony, Lanarkshire; citing parish number 622, enumeration district 13B, page 7, line 1055.</ref>
+
+In 1851 he was living at 167 Main Street, Calton, and was described as a flesher employing one man.<ref>"1851 Scotland Census," database, {{Ancestry Record|1076|1867759}} (accessed 25 January 2024), Alexander Glasgow, age 38, flesher employing one man, 167 Main Street, Calton, Lanarkshire; citing Calton parish, enumeration district 22A, page 14, household schedule 56.</ref>
+
+In 1861 he was a master flesher living at 99 Dalmarnock Road. His son Alexander was an apprentice butcher.<ref>"1861 Scotland Census," database, {{Ancestry Record|1080|1059078}} (accessed 25 January 2024), Alexander Glasgow, age 48, master flesher, and Alexander Glasgow, age 15, apprentice butcher, 99 Dalmarnock Road, Glasgow Calton; citing registration number 644/3, enumeration district 58, page 2, household schedule 10.</ref>
+
+In 1871 he was a butcher living at 12 Adelphi Street, Bridgeton.<ref>"1871 Scotland Census," database, {{Ancestry Record|1104|4222003}} (accessed 25 January 2024), Alexander Glasgow, age 58, butcher, 12 Adelphi Street, Glasgow Bridgeton; citing registration number 644/3, enumeration district 130, page 1, household schedule 6.</ref>
+
+Alexander died in 1875 in Rothesay, Bute.
+
+The original image of his 1861 marriage should be transcribed in full. In addition to the parent names, it may state:
+
+* Robert's occupation;
+* whether Robert was deceased;
+* whether Margaret was deceased;
+* the witnesses;
+* the exact reading of Margaret's maiden surname.
+
+Alexander's 1875 statutory death certificate should also be obtained because it may repeat the parent names and give Robert's occupation.
+
+=== Ralph Glasgow ===
+
+[[Glasgow-1537|Ralph Glasgow]] was born about 1809 in Glasgow and died on 1 January 1887.
+
+His WikiTree data fields attach him to this Robert and Margaret Brash. However, his biography names a different profile, `Glasgow-1530`, as his father. This discrepancy should be corrected only after the parentage is proved.
+
+Ralph's FamilySearch profile is:
+
+* [https://www.familysearch.org/tree/person/details/9QX2-3ZW FamilySearch profile 9QX2-3ZW]
+* [https://www.familysearch.org/tree/person/sources/9QX2-3ZW FamilySearch sources]
+
+Six sources are attached.
+
+==== Marriage, 1828 ====
+
+Ralph married Ann McLean on 24 August 1828 in Barony parish.<ref>"Scotland, Marriages, 1561–1910," database, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:XTT2-44B : accessed 15 July 2026), Ralph Glasgow and Ann McLean, 24 August 1828, Barony, Lanarkshire.</ref>
+
+FamilySearch source date:
+
+<blockquote>
+24 August 1828
+</blockquote>
+
+Citation:
+
+<blockquote>
+"Scotland, Marriages, 1561-1910", FamilySearch, Ralph Glasgow, 1828.
+</blockquote>
+
+This proves Ralph's marriage but does not identify his parents.
+
+==== Son Alexander, 1837 ====
+
+Ralph was named in the baptismal record of Alexander Glasgow, baptised on 22 October 1837 in Rutherglen.<ref>"Scotland, Births and Baptisms, 1564–1950," database, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:XTG4-H5W : accessed 15 July 2026), Alexander Glasgow, son of Ralph Glasgow and Ann McLean, baptised 22 October 1837, Rutherglen, Lanarkshire.</ref>
+
+This establishes Ralph as Alexander's father but does not identify Ralph's parents.
+
+==== Questionable 1857 source ====
+
+A Scottish civil-registration source dated 30 December 1857 is attached to Ralph.
+
+The source title names Ralph Glasgow, but the citation reads:
+
+<blockquote>
+Entry for William Brittan and William Brittan, 30 December 1857.
+</blockquote>
+
+This appears to be misattached or incorrectly indexed. It should not be used as evidence for Ralph or Robert without examination of the underlying record.
+
+==== Son Alexander's marriage, 1858 ====
+
+A civil-registration record dated 2 March 1858 concerns Alexander Glasgow and Ralph Glasgow.<ref>"Scotland, Civil Registration, 1855–1875, 1881, 1891," database, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:6TGY-SP9F : accessed 15 July 2026), entry for Alexander Glasgow and Ralph Glasgow, 2 March 1858.</ref>
+
+The citation is consistent with Ralph being the father of Alexander Glasgow, who was working as a flesher.
+
+The shared occupation and Bridgeton location create a plausible connection with the documented family of [[Glasgow-2822|Alexander Glasgow]], but occupation and proximity do not by themselves prove that Ralph and Alexander were brothers.
+
+==== Son Robert's marriage, 1867 ====
+
+A civil-registration source dated 11 April 1867 concerns Robert Glasgow and Ralph Glasgow.<ref>"Scotland, Civil Registration, 1855–1875, 1881, 1891," database, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:X9TW-Y47Z : accessed 15 July 2026), entry for Robert Glasgow and Ralph Glasgow, 11 April 1867.</ref>
+
+Robert was described as a coal miner. This supports the family tradition that one later branch entered mining.
+
+It does not identify Ralph's parents.
+
+==== Daughter Janet's death, 1926 ====
+
+A Michigan death-certificate source dated 8 June 1926 concerns Janet Whiteford and Ralph Glasgow.<ref>"Michigan, Death Certificates, 1921–1952," database, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:KFQB-CQ2 : accessed 15 July 2026), entry for Janet Whiteford and Ralph Glasgow, 8 June 1926.</ref>
+
+This appears to identify Ralph as Janet's father but does not identify Ralph's parents.
+
+==== Assessment of Ralph's parentage ====
+
+The following points support Ralph as a possible son of Robert and Margaret:
+
+* he was born in Glasgow at a date consistent with the 1803 marriage;
+* he married in Barony;
+* his descendants were associated with Bridgeton;
+* one son became a flesher;
+* another son became a coal miner;
+* those occupations correspond with later family tradition.
+
+The following evidence is missing:
+
+* a baptism naming Robert Glasgow and Margaret Brash;
+* a marriage record naming Ralph's parents;
+* a death record naming Ralph's parents;
+* a probate or burial record connecting Ralph to Robert;
+* direct evidence that Ralph and the documented Alexander were brothers.
+
+Ralph's 1887 statutory death certificate is the most important next document. If it names Robert Glasgow and Margaret Brash as his parents, the relationship can be upgraded from uncertain to proved, subject to the reliability of the informant.
+
+=== Possible marriage to Janet Gilmour ===
+
+A Robert Glasgow married [[Gilmour-965|Janet Gilmour]] on 14 February 1819 in Barony parish.<ref>"Church of Scotland, Old Parish Registers — Marriages and Banns," Scotland's People (https://www.scotlandspeople.gov.uk/ : accessed 20 October 2021), Robert Glasgow and Janet Gilmour, 14 February 1819, Barony, parish number 622, reference 622/70 475.</ref>
+
+The name and parish make this a possible second marriage for Margaret Brash's husband.
+
+However, no available evidence establishes that the groom in 1819 was the same man who married Margaret in 1803.
+
+Before treating this as a second marriage, the following questions must be answered:
+
+* Had Margaret Brash died before February 1819?
+* Did the 1803 and 1819 entries give the same occupation?
+* Did they give the same residence?
+* Were any witnesses or cautioners repeated?
+* Can the children attributed to each couple be found in the parish registers?
+* Was there more than one adult Robert Glasgow in Barony?
+
+The marriage to Janet should remain an uncertain same-name possibility.
+
+=== Janet Gilmour death discrepancy ===
+
+Janet's WikiTree data field gives a death year of 1845.
+
+Her biography instead reports:
+
+* burial: 26 May 1843;
+* place: Calton, Glasgow;
+* age: 51;
+* cause: dropsy.
+
+The original burial entry should be obtained and checked. If the burial information is correct, a birth around 1791 or 1792 would be indicated, rather than 1794.
+
+Neither date should be treated as certain until the original record is examined.
+
+=== Later attached children ===
+
+[[Glasgow-1539|Margaret Glasgow]], [[Glasgow-1541|Elizabeth Glasgow]], and [[Glasgow-1542|Mary Glasgow]] are attached as children of Robert and Janet Gilmour. Their current profiles contain no records naming their parents.
+
+[[Glasgow-1540|Janet Glasgow]] is internally contradictory:
+
+* her structured WikiTree relationship identifies Margaret Brash as her mother;
+* her biography identifies Janet Gilmour as her mother;
+* her FamilySearch profile, LB8L-GPR, has no attached sources.
+
+Her relationship should not be used as evidence for either marriage.
+
+Original baptism, marriage, or death records naming the parents are required before these children can be assigned confidently to Robert.
+
+=== Former parents Hugh Glasgow and Sarah Blair ===
+
+Robert was previously attached as a son of [[Glasgow-540|Hugh Glasgow]] and [[Blair-3693|Sarah Blair]].
+
+That relationship was removed because no cited record named them as Robert's parents.
+
+The proposed family was geographically problematic:
+
+* Hugh and Sarah's known family was associated with Ireland and later the United States;
+* this Robert's documented family was associated with Glasgow and Barony;
+* he appeared to be the only child assigned a Scottish birth;
+* no evidence showed Hugh and Sarah living in Glasgow;
+* the family apparently included another son named Robert without evidence that an earlier Robert had died.
+
+The following individuals formerly shown as Robert's siblings belong to the Irish-American family and should not be treated as his siblings without documentary evidence:
+
+* [[Glasgow-209|John Glasgow]]
+* [[Glasgow-542|Clatworthy Glasgow]]
+* [[Glasgow-539|Hugh Glasgow]]
+* [[Glasgow-543|Nancy Glasgow Cunningham]]
+
+Hugh Glasgow and Sarah Blair are not presently credible parents for this Robert.
+
+=== Irish Glasgow families ===
+
+There were numerous Glasgow families in Antrim and Tyrone during the relevant period.
+
+DNA or surname-study connections to those families could indicate a shared earlier ancestor. They do not, by themselves, prove that the Robert who married Margaret Brash:
+
+* was born in Ireland;
+* was a son of a particular Irish couple;
+* migrated from Ireland to Glasgow; or
+* belonged to the Hugh Glasgow and Sarah Blair family.
+
+Any proposed Irish connection must be supported by a documented chain from Robert or one of his proved descendants.
+
+=== Family tradition ===
+
+A family account states:
+
+<blockquote>
+Robert Glasgow married Margaret Brash in Barony parish on 6 November 1803. The family lived in Bridgeton and later divided into butchering and mining branches. The mining branch moved east to Prestonpans, East Lothian.
+</blockquote>
+
+The surviving evidence supports part of this tradition:
+
+* Robert and Margaret's marriage is documented.
+* Their son Alexander became a flesher and butcher in Bridgeton.
+* Ralph's descendants included a flesher and a coal miner.
+
+The evidence does not yet prove:
+
+* that Ralph was Robert and Margaret's son;
+* that the 1819 groom was the same Robert;
+* the identity of the mining branch that moved to Prestonpans; or
+* Robert's parents.
+
+=== Research priorities ===
+
+The following records should be obtained in this order:
+
+# Ralph Glasgow's 1887 statutory death certificate.
+# Alexander Glasgow's 1875 statutory death certificate.
+# A full transcription of Alexander's 1861 marriage certificate, reference 644/4/154.
+# The original 1803 marriage entry for Robert Glasgow and Margaret Brash, reference 622/70 252.
+# The original 1819 marriage entry for Robert Glasgow and Janet Gilmour, reference 622/70 475.
+# All Glasgow baptisms in Barony and neighbouring Glasgow parishes between 1803 and 1835 where the father was Robert.
+# A search for Margaret Brash's death or burial before 1819.
+# Janet Gilmour or Glasgow's original burial entry from May 1843.
+# Ralph's marriage entry and all available records giving his occupation and residence.
+# Trade directories, burgess records, valuation records, tax lists, or incorporations relating to fleshers or butchers named Glasgow.
+# The original record behind the proposed birth of [[Glasgow-2963|Robert Glasgow]].
+# A comparison of [[Glasgow-1120|James Glasgow]] and [[Glasgow-1142|James Glasgow]] to determine whether they are duplicates.
+# Documentary evidence for the marriage and children of James Glasgow and [[Simpson-19200|Jean Simpson]].
+# The underlying data for the reported FTDNA relationship, including kit numbers, test type, shared DNA, and documented relationship paths.
+
+=== Earlier working hypothesis — July 2026 ===
+
+Robert was probably born between about 1780 and 1784, likely in or near Glasgow, Lanarkshire.
+
+The child born in Glasgow on 13 September 1784 is a plausible but unproved identity.
+
+The strongest available parent lead is:
+
+* father: James Glasgow
+* possible mother: Jean Simpson
+
+That hypothesis is based on derivative family-tree material and a reported DNA connection. It is not yet supported by a contemporary record naming Robert's parents.
+
+That was the July 2026 recommendation. The October comparison below now selects an explicitly probable local working family, rather than treating the absence of a direct adult parent clause as a bar to inference.
+
+=== Probable older family ===
+
+The leading identification is with [[Glasgow-1530|Robert Glasgow]], the older widower who also claims the 6 November 1803 marriage to [[Brash-295|Margaret Brash]]. The two Margaret accounts, including [[Brash-171]], and the two Robert accounts have not been merged. The earlier marriage to [[Jack-2557|Elizabeth Jack]] in 1789, her 1802 burial and the 1839 Glasgow weaver’s age of 79 form a coherent sequence.<ref>ScotlandsPeople, Church of Scotland Old Parish Registers: Barony marriage 1789, 622/70/79; Elizabeth Jack death or burial, Glasgow, 18 November 1802, 644/1/640/107; Robert Glasgow and Margaret Brash, Barony, on or after 6 November 1803, 622/70/252, frame 1858; Robert Glasgow, weaver, age 79, Glasgow, 9 September 1839, 644/1/670/67. Maintained index citations reused; original pages not newly inspected.</ref>
+
+That burial age favours the Robert baptised at Wandell and Lamington on 17 February 1760, son of [[Glasgow-1120|James Glasgow]] and [[Sadler-2849|Marion Saidler (Sadler)]].<ref>“Scotland Births and Baptisms, 1564–1950,” FamilySearch, [https://www.familysearch.org/ark:/61903/1:1:XTFT-KJ9 Robert Glasgow, 17 February 1760], Wandell and Lamington, Lanarkshire; indexed parents James Glasgow and Marion Saidler. Existing citation reused; original register not inspected for this assessment.</ref> Both parents are selected as probable at 62%, an individual subjective assessment of the combined identity argument. The two percentages share the same unresolved identity chain. James’s identification with the 1738 Covington child remains a separate uncertainty.
+
+The same marriage cited on two profiles is not independent confirmation. The burial may concern another man and ages may be approximate. The 1758 Livingston child of Abraham Glasgow and Janet Cunnyngham, the 1755 Mid Calder child of Andrew Glasgow and Janet Young, the 1784 Glasgow child, and the [[Glasgow-2963|Robert]] associated with [[Glasgow-1142|James Glasgow]] and [[Simpson-19200|Jean Simpson]] remain alternatives. The preferred local working birth is before the 17 February 1760 baptism, conditional on that probable identity. The 13 September 1784 child remains an alternative and the live WikiTree field is unchanged. Existing child relationships are not strengthened by this selection. The two Robert accounts may represent one man, not two different sons. Alexander’s parent clause supports the Brash household; it does not settle Robert’s birth, Ralph’s parentage or the Janet Gilmour marriage.
+
+== Sources ==
+<references />
