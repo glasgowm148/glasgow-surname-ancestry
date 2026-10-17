@@ -1,0 +1,513 @@
+{
+  "schema_version": 1,
+  "reviewed": "2026-10-18",
+  "cutoff": 1850,
+  "method_version": 3,
+  "input_fingerprint": "c0af2d95772635e3bf631542e016214f8b42b821dc53d227611e7853272d834f",
+  "scope": "Dublin: Philip is the preferred father of Thomas, 67%",
+  "publication_summary": "One probable father replacement,67%, brings Thomas-144 and his already-attached son into the main working component. Former father remains alternative. No new person, source discovery, confident edge or live edit.",
+  "models": {
+    "main": {
+      "checked_historical_profiles": 1787,
+      "matched_paternal_edges": 1376,
+      "changed_father_fields": 1,
+      "changed_mother_fields": 0,
+      "added_historical_profiles": []
+    },
+    "standalone": {
+      "checked_historical_profiles": 1787,
+      "matched_paternal_edges": 1376,
+      "changed_father_fields": 1,
+      "changed_mother_fields": 0,
+      "added_historical_profiles": []
+    }
+  },
+  "working_parent_changes": [
+    {
+      "subject_id": "Glasco-144",
+      "relative_id": "Glasco-146",
+      "before_relative_id": "Glasco-173",
+      "relationship": "father",
+      "before": "unmarked",
+      "after": "probable",
+      "action": "replace_working_parent",
+      "assertion_id": "C-working-20261018-dublin-thomas-philip-father",
+      "probability_percent": 67,
+      "basis": "Select Philip Glasco-146, the provisional elder Dublin watchmaker account, as the probable working father of Thomas Glasco-144 at 67% subjective confidence. The maintained reading of the 1773 advertisement explicitly says that Thomas served his apprenticeship to his father Philip Glasco and subsequently practised in London before returning to his father’s Christ-Church-lane house. Thomas’s 12 December 1773 marriage to Margaret Duffy at neighbouring St Audoen’s supplies a particular same-name adult, same year and immediate locality, rather than a Scotland-wide name comparison. A young tradesman returning to the family business and marrying later that year is the preferred explanation. The later Christ-Church-lane to 20 Ormond Quay sequence supports continuity of the watchmaking business. The separate marriage and apprenticeship evidence together justify preferring Philip to the unsupported Thomas-173 father attachment.",
+      "limitations": "The 67% rates the complete profile-level father proposition, including identification of the 1773 groom with the advertised watchmaker and of the named Philip with the elder account. Neither the marriage index nor the Duffy pedigree gives Thomas’s trade, address or father’s forename. The advertisement is reused from the 7 October full-page OCR reading; its original image was not newly inspected. The older Philip account contains some junior events, so the elder/junior distinction remains material. Thomas’s circa 1753 birth is an estimate: age twenty would make completed apprenticeship plus several years in London compressed, favouring a somewhat older adult without establishing a replacement birth year. No date is changed. The rare surname, close locality and year are correlated clues, not independent parent statements.",
+      "live_flag_changed": false
+    }
+  ],
+  "paternal_connections_added": 0,
+  "preferred_parent_placements_revised": 1,
+  "certainty_upgrades": 0,
+  "saved_live_flags_changed": false,
+  "comparisons": {
+    "1500": {
+      "working": {
+        "population": [
+          2,
+          2
+        ],
+        "edge_count": [
+          2,
+          2
+        ],
+        "component_count": [
+          1,
+          1
+        ],
+        "largest_component_size": [
+          2,
+          2
+        ]
+      },
+      "supported": {
+        "population": [
+          2,
+          2
+        ],
+        "edge_count": [
+          0,
+          0
+        ],
+        "component_count": [
+          2,
+          2
+        ],
+        "largest_component_size": [
+          1,
+          1
+        ]
+      },
+      "confident": {
+        "population": [
+          2,
+          2
+        ],
+        "edge_count": [
+          0,
+          0
+        ],
+        "component_count": [
+          2,
+          2
+        ],
+        "largest_component_size": [
+          1,
+          1
+        ]
+      }
+    },
+    "1550": {
+      "working": {
+        "population": [
+          19,
+          19
+        ],
+        "edge_count": [
+          18,
+          18
+        ],
+        "component_count": [
+          2,
+          2
+        ],
+        "largest_component_size": [
+          18,
+          18
+        ]
+      },
+      "supported": {
+        "population": [
+          19,
+          19
+        ],
+        "edge_count": [
+          10,
+          10
+        ],
+        "component_count": [
+          9,
+          9
+        ],
+        "largest_component_size": [
+          9,
+          9
+        ]
+      },
+      "confident": {
+        "population": [
+          19,
+          19
+        ],
+        "edge_count": [
+          6,
+          6
+        ],
+        "component_count": [
+          13,
+          13
+        ],
+        "largest_component_size": [
+          4,
+          4
+        ]
+      }
+    },
+    "1600": {
+      "working": {
+        "population": [
+          52,
+          52
+        ],
+        "edge_count": [
+          49,
+          49
+        ],
+        "component_count": [
+          5,
+          5
+        ],
+        "largest_component_size": [
+          48,
+          48
+        ]
+      },
+      "supported": {
+        "population": [
+          52,
+          52
+        ],
+        "edge_count": [
+          22,
+          22
+        ],
+        "component_count": [
+          31,
+          31
+        ],
+        "largest_component_size": [
+          14,
+          14
+        ]
+      },
+      "confident": {
+        "population": [
+          52,
+          52
+        ],
+        "edge_count": [
+          17,
+          17
+        ],
+        "component_count": [
+          35,
+          35
+        ],
+        "largest_component_size": [
+          6,
+          6
+        ]
+      }
+    },
+    "1650": {
+      "working": {
+        "population": [
+          163,
+          163
+        ],
+        "edge_count": [
+          157,
+          157
+        ],
+        "component_count": [
+          8,
+          8
+        ],
+        "largest_component_size": [
+          156,
+          156
+        ]
+      },
+      "supported": {
+        "population": [
+          163,
+          163
+        ],
+        "edge_count": [
+          83,
+          83
+        ],
+        "component_count": [
+          81,
+          81
+        ],
+        "largest_component_size": [
+          40,
+          40
+        ]
+      },
+      "confident": {
+        "population": [
+          163,
+          163
+        ],
+        "edge_count": [
+          74,
+          74
+        ],
+        "component_count": [
+          89,
+          89
+        ],
+        "largest_component_size": [
+          21,
+          21
+        ]
+      }
+    },
+    "1700": {
+      "working": {
+        "population": [
+          307,
+          307
+        ],
+        "edge_count": [
+          284,
+          284
+        ],
+        "component_count": [
+          25,
+          25
+        ],
+        "largest_component_size": [
+          280,
+          280
+        ]
+      },
+      "supported": {
+        "population": [
+          307,
+          307
+        ],
+        "edge_count": [
+          141,
+          141
+        ],
+        "component_count": [
+          167,
+          167
+        ],
+        "largest_component_size": [
+          44,
+          44
+        ]
+      },
+      "confident": {
+        "population": [
+          307,
+          307
+        ],
+        "edge_count": [
+          129,
+          129
+        ],
+        "component_count": [
+          178,
+          178
+        ],
+        "largest_component_size": [
+          24,
+          24
+        ]
+      }
+    },
+    "1750": {
+      "working": {
+        "population": [
+          591,
+          591
+        ],
+        "edge_count": [
+          532,
+          532
+        ],
+        "component_count": [
+          61,
+          61
+        ],
+        "largest_component_size": [
+          522,
+          522
+        ]
+      },
+      "supported": {
+        "population": [
+          591,
+          591
+        ],
+        "edge_count": [
+          207,
+          207
+        ],
+        "component_count": [
+          385,
+          385
+        ],
+        "largest_component_size": [
+          46,
+          46
+        ]
+      },
+      "confident": {
+        "population": [
+          591,
+          591
+        ],
+        "edge_count": [
+          189,
+          189
+        ],
+        "component_count": [
+          402,
+          402
+        ],
+        "largest_component_size": [
+          26,
+          26
+        ]
+      }
+    },
+    "1800": {
+      "working": {
+        "population": [
+          919,
+          919
+        ],
+        "edge_count": [
+          754,
+          754
+        ],
+        "component_count": [
+          167,
+          167
+        ],
+        "largest_component_size": [
+          727,
+          729
+        ]
+      },
+      "supported": {
+        "population": [
+          919,
+          919
+        ],
+        "edge_count": [
+          256,
+          257
+        ],
+        "component_count": [
+          664,
+          663
+        ],
+        "largest_component_size": [
+          46,
+          46
+        ]
+      },
+      "confident": {
+        "population": [
+          919,
+          919
+        ],
+        "edge_count": [
+          233,
+          233
+        ],
+        "component_count": [
+          686,
+          686
+        ],
+        "largest_component_size": [
+          26,
+          26
+        ]
+      }
+    },
+    "1850": {
+      "working": {
+        "population": [
+          1787,
+          1787
+        ],
+        "edge_count": [
+          1377,
+          1377
+        ],
+        "component_count": [
+          412,
+          412
+        ],
+        "largest_component_size": [
+          1123,
+          1125
+        ]
+      },
+      "supported": {
+        "population": [
+          1787,
+          1787
+        ],
+        "edge_count": [
+          387,
+          388
+        ],
+        "component_count": [
+          1401,
+          1400
+        ],
+        "largest_component_size": [
+          46,
+          46
+        ]
+      },
+      "confident": {
+        "population": [
+          1787,
+          1787
+        ],
+        "edge_count": [
+          362,
+          362
+        ],
+        "component_count": [
+          1425,
+          1425
+        ],
+        "largest_component_size": [
+          26,
+          26
+        ]
+      }
+    }
+  },
+  "pending_profiles": [
+    517,
+    517
+  ],
+  "next_metric_check": {
+    "status": "CLOSED",
+    "saved_confident_tree_flags_not_used_by_current_metric": 0
+  },
+  "verification": {
+    "full_and_compact_pending_filters_agree": true,
+    "replacement_badge_probability": 0.67,
+    "replacement_badge_relative": "Glasco-146",
+    "all_other_parents_and_vitals_preserved": true,
+    "all_historical_father_fields_checked": true,
+    "packed_main_model_lossless": true,
+    "complete_comparisons": 4,
+    "all_cohort_memberships_unchanged": true
+  }
+}

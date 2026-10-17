@@ -2340,3 +2340,11 @@ Burial-defined Walter remains on source-verification HOLD in the existing creati
 | [John Glasgow (Glasgow-4125)](https://www.wikitree.com/wiki/Glasgow-4125) | OPEN | Assess existing Torryburn father and mother as documented, each 98%; no new parent attachment. |
 | [James Glasgow (Glasgow-4176)](https://www.wikitree.com/wiki/Glasgow-4176) | OPEN | Clarify the single-entry Torryburn family evidence and estimated parent dates. |
 | [Jean Mitchell (Mitchell-58830)](https://www.wikitree.com/wiki/Mitchell-58830) | OPEN | Clarify the single-entry Torryburn family evidence and estimated parent dates. |
+
+
+## Dublin probable father — 18 October 2026
+
+| [Thomas Glasco, Margaret Duffy’s husband](https://www.wikitree.com/wiki/Glasco-144) | OPEN | Philip Glasco-146 replaces Thomas Glasco-173 as the selected probable father, 67%. The 1773 Dublin groom/watchmaker identity is preferred, not proved. |
+| [Philip Glasco, elder Dublin watchmaker](https://www.wikitree.com/wiki/Glasco-146) | OPEN | Thomas Glasco-144 is selected as a probable son, 67%, through the named-father advertisement and the local 1773 marriage comparison. This does not strengthen Philip’s uncertain Scottish ancestry. |
+| [Thomas Glasco, father with Catherine in 1760](https://www.wikitree.com/wiki/Glasco-173) | OPEN | Thomas’s attached son Glasco-144 now follows Philip Glasco-146 in the local working tree, at 67%; this former father attachment is retained as an ungraded alternative. Thomas’s 1760 Sarah/Catherine household remains a separate record account. |
+| [Thomas Glasco, Mary King’s husband](https://www.wikitree.com/wiki/Glasco-143) | OPEN | The existing Thomas-144 father remains ungraded. His father’s proposed father is now Philip Glasco-146 at 67%; this supplies no new proof for the Mary King licence or this man’s identity. |

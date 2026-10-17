@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "reviewed": "2026-10-17",
+  "reviewed": "2026-10-18",
   "method": "subjective_evidence_assessment",
   "note": "Individual estimates of belief from the maintained evidence and stated alternatives, not measured frequencies. The confidence categories are guides. Record-specific estimates do not certify an unresolved later identity. Unreviewed contributor marks have no assigned percentage.",
   "estimates": [
@@ -2880,6 +2880,20 @@
         "fmp-glasgow-b8c8c6842a85"
       ],
       "reviewed": "2026-10-17"
+    },
+    {
+      "subject_id": "Glasco-144",
+      "relative_id": "Glasco-146",
+      "relationship": "father",
+      "percent": 67,
+      "assessment_status": "probable",
+      "assertion_id": "C-working-20261018-dublin-thomas-philip-father",
+      "basis": "Select Philip Glasco-146, the provisional elder Dublin watchmaker account, as the probable working father of Thomas Glasco-144 at 67% subjective confidence. The maintained reading of the 1773 advertisement explicitly says that Thomas served his apprenticeship to his father Philip Glasco and subsequently practised in London before returning to his father’s Christ-Church-lane house. Thomas’s 12 December 1773 marriage to Margaret Duffy at neighbouring St Audoen’s supplies a particular same-name adult, same year and immediate locality, rather than a Scotland-wide name comparison. A young tradesman returning to the family business and marrying later that year is the preferred explanation. The later Christ-Church-lane to 20 Ormond Quay sequence supports continuity of the watchmaking business. The separate marriage and apprenticeship evidence together justify preferring Philip to the unsupported Thomas-173 father attachment. The 67% rates the complete profile-level father proposition, including identification of the 1773 groom with the advertised watchmaker and of the named Philip with the elder account. Neither the marriage index nor the Duffy pedigree gives Thomas’s trade, address or father’s forename. The advertisement is reused from the 7 October full-page OCR reading; its original image was not newly inspected. The older Philip account contains some junior events, so the elder/junior distinction remains material. Thomas’s circa 1753 birth is an estimate: age twenty would make completed apprenticeship plus several years in London compressed, favouring a somewhat older adult without establishing a replacement birth year. No date is changed. The rare surname, close locality and year are correlated clues, not independent parent statements.",
+      "source_ids": [
+        "dublin-thomas-philip-advertisement-1773",
+        "dublin-thomas-duffy-marriage-1773"
+      ],
+      "reviewed": "2026-10-18"
     }
   ]
 }

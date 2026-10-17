@@ -1,0 +1,70 @@
+{
+  "reviewed": "2026-10-18",
+  "scope": "Dublin: Philip is the preferred father of Thomas, 67%",
+  "profiles": {
+    "Glasco-144": {
+      "current_sha256": "26696115f301033d32260a28be4e665f6b6713615f26848c6d825f65b03910f2",
+      "proposed_sha256": "fa45c5ade9ba175d29799ecf77e69da208093bc71d6088ea748acc62ff3fcfdf",
+      "all_substantive_passages_accounted_for": true,
+      "all_prior_proposal_and_capture_passages_preserved": true,
+      "passages": [
+        "Retain complete current and prior proposed biography, all sources, Duffy relatives, marriage/date contradictions, trade and newspaper candidates.",
+        "New dated working inference supersedes earlier no-selected-identity instructions without deleting historical assessments.",
+        "Retain separate ungraded mother and child, competing Thomas profiles, elder/junior Philip identity and uncertain Scottish ancestry.",
+        "The captured bare Virtual Treasury URL remains intact inside the earlier maintained labelled source link; this is formatting, with no source or substantive passage removed."
+      ]
+    },
+    "Glasco-146": {
+      "current_sha256": "fb75272980f710634a8ea0ec5918f126e47e0b8a0827bc5fe4322b3e9e0c785d",
+      "proposed_sha256": "3f8fcadb58c26bc2703c2da5c3630abecc5409eacc35572134e3677c266bd159",
+      "all_substantive_passages_accounted_for": true,
+      "all_prior_proposal_and_capture_passages_preserved": true,
+      "passages": [
+        "Retain complete current and prior proposed biography, all sources, Duffy relatives, marriage/date contradictions, trade and newspaper candidates.",
+        "New dated working inference supersedes earlier no-selected-identity instructions without deleting historical assessments.",
+        "Retain separate ungraded mother and child, competing Thomas profiles, elder/junior Philip identity and uncertain Scottish ancestry.",
+        "The captured bare Virtual Treasury URL remains intact inside the earlier maintained labelled source link; this is formatting, with no source or substantive passage removed."
+      ]
+    },
+    "Glasco-173": {
+      "current_sha256": "c6f0b44b03563b4ef9d28cd0923855cb8e1a407813d5b8d55bb9aec75457b358",
+      "proposed_sha256": "35d99a432324d5c6643aa570575d7e2bdf59abb5d9f8c45b2b7006ae108b4f05",
+      "all_substantive_passages_accounted_for": true,
+      "all_prior_proposal_and_capture_passages_preserved": true,
+      "passages": [
+        "Retain complete current and prior proposed biography, all sources, Duffy relatives, marriage/date contradictions, trade and newspaper candidates.",
+        "New dated working inference supersedes earlier no-selected-identity instructions without deleting historical assessments.",
+        "Retain separate ungraded mother and child, competing Thomas profiles, elder/junior Philip identity and uncertain Scottish ancestry.",
+        "The captured bare Virtual Treasury URL remains intact inside the earlier maintained labelled source link; this is formatting, with no source or substantive passage removed."
+      ]
+    },
+    "Glasco-143": {
+      "current_sha256": "99412541254131b4dabf84cec7a079fcba1a2ef20b0f1e5b0319d8c950157bf5",
+      "proposed_sha256": "5b01e740e3697c6e4701e505d2658bb6db8afb786b1222e85460876baf460581",
+      "all_substantive_passages_accounted_for": true,
+      "all_prior_proposal_and_capture_passages_preserved": true,
+      "passages": [
+        "Retain complete current and prior proposed biography, all sources, Duffy relatives, marriage/date contradictions, trade and newspaper candidates.",
+        "New dated working inference supersedes earlier no-selected-identity instructions without deleting historical assessments.",
+        "Retain separate ungraded mother and child, competing Thomas profiles, elder/junior Philip identity and uncertain Scottish ancestry.",
+        "The captured bare Virtual Treasury URL remains intact inside the earlier maintained labelled source link; this is formatting, with no source or substantive passage removed."
+      ]
+    }
+  },
+  "prior_assessments": [
+    {
+      "subject_id": "Glasco-144",
+      "relative_id": "Glasco-146",
+      "before_relative_id": "Glasco-173",
+      "relationship": "father",
+      "before": "unmarked",
+      "after": "probable",
+      "action": "replace_working_parent",
+      "assertion_id": "C-working-20261018-dublin-thomas-philip-father",
+      "probability_percent": 67,
+      "basis": "Select Philip Glasco-146, the provisional elder Dublin watchmaker account, as the probable working father of Thomas Glasco-144 at 67% subjective confidence. The maintained reading of the 1773 advertisement explicitly says that Thomas served his apprenticeship to his father Philip Glasco and subsequently practised in London before returning to his father’s Christ-Church-lane house. Thomas’s 12 December 1773 marriage to Margaret Duffy at neighbouring St Audoen’s supplies a particular same-name adult, same year and immediate locality, rather than a Scotland-wide name comparison. A young tradesman returning to the family business and marrying later that year is the preferred explanation. The later Christ-Church-lane to 20 Ormond Quay sequence supports continuity of the watchmaking business. The separate marriage and apprenticeship evidence together justify preferring Philip to the unsupported Thomas-173 father attachment.",
+      "limitations": "The 67% rates the complete profile-level father proposition, including identification of the 1773 groom with the advertised watchmaker and of the named Philip with the elder account. Neither the marriage index nor the Duffy pedigree gives Thomas’s trade, address or father’s forename. The advertisement is reused from the 7 October full-page OCR reading; its original image was not newly inspected. The older Philip account contains some junior events, so the elder/junior distinction remains material. Thomas’s circa 1753 birth is an estimate: age twenty would make completed apprenticeship plus several years in London compressed, favouring a somewhat older adult without establishing a replacement birth year. No date is changed. The rare surname, close locality and year are correlated clues, not independent parent statements.",
+      "live_flag_changed": false
+    }
+  ]
+}

@@ -30,6 +30,53 @@
   "answer": "Start with the 1447–1455 Glasgow burgess, the Stirling John of 1475–1480, Alan in the late-fifteenth-century justice record, and the Saltmarket family. The Saltmarket John-to-William property succession is the leading father hypothesis, followed by a proved father–son generation. These working connections guide a single-family reconstruction while the missing identities and generations are tested. The local working tree now selects the Stirling John as an uncertain father of the Saltmarket candidate and, more tentatively, Alan Glasgw. The imported John profile’s identity and Alan’s exact collateral degree remain open.",
   "chapters": [
     {
+      "id": "dublin-thomas-probable-father",
+      "period": "1773 · probable replacement father, 67%",
+      "title": "Dublin: Philip is the preferred father of Thomas, 67%",
+      "body": [
+        "Research rationale: use the combined Dublin family and trade evidence to select a useful working parent, with its unresolved identities explicit.",
+        "Select Philip Glasco-146, the provisional elder Dublin watchmaker account, as the probable working father of Thomas Glasco-144 at 67% subjective confidence. The maintained reading of the 1773 advertisement explicitly says that Thomas served his apprenticeship to his father Philip Glasco and subsequently practised in London before returning to his father’s Christ-Church-lane house. Thomas’s 12 December 1773 marriage to Margaret Duffy at neighbouring St Audoen’s supplies a particular same-name adult, same year and immediate locality, rather than a Scotland-wide name comparison. A young tradesman returning to the family business and marrying later that year is the preferred explanation. The later Christ-Church-lane to 20 Ormond Quay sequence supports continuity of the watchmaking business. The separate marriage and apprenticeship evidence together justify preferring Philip to the unsupported Thomas-173 father attachment.",
+        "The 67% rates the complete profile-level father proposition, including identification of the 1773 groom with the advertised watchmaker and of the named Philip with the elder account. Neither the marriage index nor the Duffy pedigree gives Thomas’s trade, address or father’s forename. The advertisement is reused from the 7 October full-page OCR reading; its original image was not newly inspected. The older Philip account contains some junior events, so the elder/junior distinction remains material. Thomas’s circa 1753 birth is an estimate: age twenty would make completed apprenticeship plus several years in London compressed, favouring a somewhat older adult without establishing a replacement birth year. No date is changed. The rare surname, close locality and year are correlated clues, not independent parent statements.",
+        "Retain Thomas Glasco-173 as an unselected, previously ungraded father alternative, and retain a distinct unrepresented Thomas watchmaker as an identity alternative. Thomas-173, father with Catherine of Sarah in 1760, is chronologically compatible with the trade cluster, but connecting that household to the 1773 groom adds an unsupported generation, whereas the advertisement names Philip. Thomas-143 could represent the tradesman only if his very weak circa 1766 estimate is revised; the date is not a hard exclusion. The 1779 Miss Hynes marriage and the 1785 Mary King licence may concern remarriages, but no spouse death or identity bridge establishes that sequence. No merge, new wife or new child follows.",
+        "The current Catherine Mangan mother attachment and Thomas-143 child attachment remain separately ungraded; Philip’s spouse is not thereby proved to be Thomas’s mother. The selected father replaces one existing local working attachment. Two already-catalogued descendants move into the main working component; the old Thomas-173 account remains separate. No new person, live WikiTree edit or confidence-only upgrade is claimed. The earlier Scottish ancestry assigned to Philip remains uncertain and does not become probable through this change.",
+        "Check the original 1773 advertisement and marriage entry, the Duffy 1774/1775 probate papers, and Thomas’s London apprenticeship/freedom records for trade, address or named kin. Seek the 1777 Margaret Glasco grant and the full 1777 Philip/Thomas chancery bill before accepting a Duffy–Hynes remarriage or a precise Philip generation."
+      ],
+      "evidence": [
+        {
+          "label": "Thomas Glasco, Margaret Duffy’s husband",
+          "url": "/people/glasco-144.html"
+        },
+        {
+          "label": "Philip Glasco, elder Dublin watchmaker",
+          "url": "/people/glasco-146.html"
+        },
+        {
+          "label": "Thomas Glasco, father with Catherine in 1760",
+          "url": "/people/glasco-173.html"
+        },
+        {
+          "label": "Thomas Glasco, Mary King’s husband",
+          "url": "/people/glasco-143.html"
+        },
+        {
+          "label": "Hibernian Journal, 11 January 1773, p.2; repeated 5 March 1773: Thomas names his father Philip; maintained 7 October full-page OCR reading, not a fresh image inspection",
+          "url": "https://www.britishnewspaperarchive.co.uk/viewer/bl/0000817/17730111/005"
+        },
+        {
+          "label": "Findmypast, Thos Glasco and Margt Duffy, St Audoen’s RC, 12 December 1773, IRE/PRS/MAR/0623479/1; maintained transcript, NLI film 06778-06",
+          "url": "https://www.findmypast.co.uk/transcript?id=IRE%2FPRS%2FMAR%2F0623479%2F1"
+        },
+        {
+          "label": "Duffy pedigree, NLI: Margaret, wife of Thomas Glascoe; father Patrick of Back Lane, will 9 April 1774, proved June 1775; maintained reading",
+          "url": "https://catalogue.nli.ie/Record/vtls000541072"
+        },
+        {
+          "label": "Watson’s 1783 directory: Thomas Glasco, watchmaker, 20 Ormond Quay; maintained transcription",
+          "url": "https://www.swilson.info/wat1783tr.php?brw=sur&brwkey=Glasco"
+        }
+      ]
+    },
+    {
       "id": "torryburn-1689-family",
       "period": "1689 · documented parents, 98%",
       "title": "Torryburn: John, James and Jean Mitchell",
@@ -2881,5 +2928,5 @@
     }
   ],
   "sources_note": "Overview synthesized from the maintained early Scottish research, component-study findings and the existing public research links; record subjects remain distinct from profile identities.",
-  "reviewed_on": "2026-10-17"
+  "reviewed_on": "2026-10-18"
 }

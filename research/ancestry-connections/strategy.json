@@ -4182,6 +4182,57 @@
         "Torryburn OPR 458/2, item 4, 15 October 1689",
         "Findmypast SCOT/OPR/BAP/2618062, captured 3 September 2026"
       ]
+    },
+    {
+      "id": "dublin-thomas-probable-father",
+      "year": 1773,
+      "title": "Dublin: Philip is the preferred father of Thomas, 67%",
+      "status": "Selected probable replacement father, 67%; former father retained alternative",
+      "people": [
+        {
+          "name": "Thomas Glasco, Margaret Duffy’s husband",
+          "url": "/people/glasco-144.html"
+        },
+        {
+          "name": "Philip Glasco, elder Dublin watchmaker",
+          "url": "/people/glasco-146.html"
+        },
+        {
+          "name": "Thomas Glasco, father with Catherine in 1760",
+          "url": "/people/glasco-173.html"
+        },
+        {
+          "name": "Thomas Glasco, Mary King’s husband",
+          "url": "/people/glasco-143.html"
+        }
+      ],
+      "basis": "Select Philip Glasco-146, the provisional elder Dublin watchmaker account, as the probable working father of Thomas Glasco-144 at 67% subjective confidence. The maintained reading of the 1773 advertisement explicitly says that Thomas served his apprenticeship to his father Philip Glasco and subsequently practised in London before returning to his father’s Christ-Church-lane house. Thomas’s 12 December 1773 marriage to Margaret Duffy at neighbouring St Audoen’s supplies a particular same-name adult, same year and immediate locality, rather than a Scotland-wide name comparison. A young tradesman returning to the family business and marrying later that year is the preferred explanation. The later Christ-Church-lane to 20 Ormond Quay sequence supports continuity of the watchmaking business. The separate marriage and apprenticeship evidence together justify preferring Philip to the unsupported Thomas-173 father attachment. The 67% rates the complete profile-level father proposition, including identification of the 1773 groom with the advertised watchmaker and of the named Philip with the elder account. Neither the marriage index nor the Duffy pedigree gives Thomas’s trade, address or father’s forename. The advertisement is reused from the 7 October full-page OCR reading; its original image was not newly inspected. The older Philip account contains some junior events, so the elder/junior distinction remains material. Thomas’s circa 1753 birth is an estimate: age twenty would make completed apprenticeship plus several years in London compressed, favouring a somewhat older adult without establishing a replacement birth year. No date is changed. The rare surname, close locality and year are correlated clues, not independent parent statements.",
+      "next_test": "Check the original 1773 advertisement and marriage entry, the Duffy 1774/1775 probate papers, and Thomas’s London apprenticeship/freedom records for trade, address or named kin. Seek the 1777 Margaret Glasco grant and the full 1777 Philip/Thomas chancery bill before accepting a Duffy–Hynes remarriage or a precise Philip generation.",
+      "sources": [
+        {
+          "label": "Hibernian Journal, 11 January 1773, p.2; repeated 5 March 1773: Thomas names his father Philip; maintained 7 October full-page OCR reading, not a fresh image inspection",
+          "url": "https://www.britishnewspaperarchive.co.uk/viewer/bl/0000817/17730111/005"
+        },
+        {
+          "label": "Findmypast, Thos Glasco and Margt Duffy, St Audoen’s RC, 12 December 1773, IRE/PRS/MAR/0623479/1; maintained transcript, NLI film 06778-06",
+          "url": "https://www.findmypast.co.uk/transcript?id=IRE%2FPRS%2FMAR%2F0623479%2F1"
+        },
+        {
+          "label": "Duffy pedigree, NLI: Margaret, wife of Thomas Glascoe; father Patrick of Back Lane, will 9 April 1774, proved June 1775; maintained reading",
+          "url": "https://catalogue.nli.ie/Record/vtls000541072"
+        },
+        {
+          "label": "Watson’s 1783 directory: Thomas Glasco, watchmaker, 20 Ormond Quay; maintained transcription",
+          "url": "https://www.swilson.info/wat1783tr.php?brw=sur&brwkey=Glasco"
+        }
+      ],
+      "record_references": [
+        "dublin-thomas-philip-advertisement-1773",
+        "dublin-thomas-duffy-marriage-1773"
+      ],
+      "working_selection": true,
+      "assertion_id": "C-working-20261018-dublin-thomas-philip-father",
+      "reviewed": "2026-10-18"
     }
   ],
   "source_basis": "Initial priorities reconcile existing medieval bridge research, the pre-1550 relationship audit and the resolved public catalogue. They are current working comparisons, not newly discovered kinship records."

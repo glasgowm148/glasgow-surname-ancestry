@@ -12876,5 +12876,124 @@
       "live_flag_changed": false,
       "genealogical_connections_added": 0
     }
+  },
+  {
+    "assertion_id": "C-alternative-20261018-dublin-thomas-former-father",
+    "people": [
+      "Glasco-144",
+      "Glasco-173"
+    ],
+    "profile_names": {
+      "Glasco-144": "Thomas Glasco, Margaret Duffy’s husband",
+      "Glasco-146": "Philip Glasco, elder Dublin watchmaker",
+      "Glasco-173": "Thomas Glasco, father with Catherine in 1760",
+      "Glasco-143": "Thomas Glasco, Mary King’s husband"
+    },
+    "status": "uncertain",
+    "publication_status": "approved",
+    "working_selection": false,
+    "allow_new_relationship": false,
+    "lifecycle": "alternative",
+    "display": "alternative",
+    "assessment_date": "2026-10-18",
+    "basis": "Retain Thomas Glasco-173 as an unselected, previously ungraded father alternative, and retain a distinct unrepresented Thomas watchmaker as an identity alternative. Thomas-173, father with Catherine of Sarah in 1760, is chronologically compatible with the trade cluster, but connecting that household to the 1773 groom adds an unsupported generation, whereas the advertisement names Philip. Thomas-143 could represent the tradesman only if his very weak circa 1766 estimate is revised; the date is not a hard exclusion. The 1779 Miss Hynes marriage and the 1785 Mary King licence may concern remarriages, but no spouse death or identity bridge establishes that sequence. No merge, new wife or new child follows.",
+    "assessment_history": [
+      {
+        "relative_id": "Glasco-173",
+        "status": "unknown",
+        "tree_status": "unmarked",
+        "saved_flag": "",
+        "source_basis": "Retained public WikiTree capture and prior public dossier; existing father not individually graded."
+      }
+    ],
+    "perspectives": {
+      "Glasco-144": {
+        "relationship": "father",
+        "status_label": "Uncertain alternative; previously ungraded, no percentage assigned",
+        "reason": "Retain Thomas Glasco-173 as an unselected, previously ungraded father alternative, and retain a distinct unrepresented Thomas watchmaker as an identity alternative. Thomas-173, father with Catherine of Sarah in 1760, is chronologically compatible with the trade cluster, but connecting that household to the 1773 groom adds an unsupported generation, whereas the advertisement names Philip. Thomas-143 could represent the tradesman only if his very weak circa 1766 estimate is revised; the date is not a hard exclusion. The 1779 Miss Hynes marriage and the 1785 Mary King licence may concern remarriages, but no spouse death or identity bridge establishes that sequence. No merge, new wife or new child follows."
+      },
+      "Glasco-173": {
+        "relationship": "son",
+        "status_label": "Uncertain alternative; previously ungraded, no percentage assigned",
+        "reason": "Retain Thomas Glasco-173 as an unselected, previously ungraded father alternative, and retain a distinct unrepresented Thomas watchmaker as an identity alternative. Thomas-173, father with Catherine of Sarah in 1760, is chronologically compatible with the trade cluster, but connecting that household to the 1773 groom adds an unsupported generation, whereas the advertisement names Philip. Thomas-143 could represent the tradesman only if his very weak circa 1766 estimate is revised; the date is not a hard exclusion. The 1779 Miss Hynes marriage and the 1785 Mary King licence may concern remarriages, but no spouse death or identity bridge establishes that sequence. No merge, new wife or new child follows."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Dublin: Philip is the preferred father of Thomas, 67%",
+        "href": "/branches/research-irish-belfast-donegal/#chapter-dublin-thomas-probable-father"
+      }
+    ],
+    "claim": "Uncertain former father, retained alternative; originally ungraded and still unrated numerically",
+    "source_ids": [
+      "dublin-thomas-duffy-marriage-1773"
+    ],
+    "provenance": {
+      "captured_parent": "https://www.wikitree.com/wiki/Glasco-144",
+      "source_scope": "The marriage identifies the groom but gives no named father; it does not substantiate Thomas-173. The prior father comes from the captured tree, preserved in assessment_history. Current alternative is explicitly uncertain, without an invented percentage."
+    }
+  },
+  {
+    "assertion_id": "C-working-20261018-dublin-thomas-philip-father",
+    "people": [
+      "Glasco-144",
+      "Glasco-146"
+    ],
+    "profile_names": {
+      "Glasco-144": "Thomas Glasco, Margaret Duffy’s husband",
+      "Glasco-146": "Philip Glasco, elder Dublin watchmaker",
+      "Glasco-173": "Thomas Glasco, father with Catherine in 1760",
+      "Glasco-143": "Thomas Glasco, Mary King’s husband"
+    },
+    "status": "probable",
+    "hypothesis_status": "probable",
+    "working_selection": true,
+    "allow_new_relationship": true,
+    "publication_status": "approved",
+    "assessment_date": "2026-10-18",
+    "evidence_grade": "Probable combined identity and named-father inference, 67%",
+    "basis": "Select Philip Glasco-146, the provisional elder Dublin watchmaker account, as the probable working father of Thomas Glasco-144 at 67% subjective confidence. The maintained reading of the 1773 advertisement explicitly says that Thomas served his apprenticeship to his father Philip Glasco and subsequently practised in London before returning to his father’s Christ-Church-lane house. Thomas’s 12 December 1773 marriage to Margaret Duffy at neighbouring St Audoen’s supplies a particular same-name adult, same year and immediate locality, rather than a Scotland-wide name comparison. A young tradesman returning to the family business and marrying later that year is the preferred explanation. The later Christ-Church-lane to 20 Ormond Quay sequence supports continuity of the watchmaking business. The separate marriage and apprenticeship evidence together justify preferring Philip to the unsupported Thomas-173 father attachment.",
+    "limitations": "The 67% rates the complete profile-level father proposition, including identification of the 1773 groom with the advertised watchmaker and of the named Philip with the elder account. Neither the marriage index nor the Duffy pedigree gives Thomas’s trade, address or father’s forename. The advertisement is reused from the 7 October full-page OCR reading; its original image was not newly inspected. The older Philip account contains some junior events, so the elder/junior distinction remains material. Thomas’s circa 1753 birth is an estimate: age twenty would make completed apprenticeship plus several years in London compressed, favouring a somewhat older adult without establishing a replacement birth year. No date is changed. The rare surname, close locality and year are correlated clues, not independent parent statements. Retain Thomas Glasco-173 as an unselected, previously ungraded father alternative, and retain a distinct unrepresented Thomas watchmaker as an identity alternative. Thomas-173, father with Catherine of Sarah in 1760, is chronologically compatible with the trade cluster, but connecting that household to the 1773 groom adds an unsupported generation, whereas the advertisement names Philip. Thomas-143 could represent the tradesman only if his very weak circa 1766 estimate is revised; the date is not a hard exclusion. The 1779 Miss Hynes marriage and the 1785 Mary King licence may concern remarriages, but no spouse death or identity bridge establishes that sequence. No merge, new wife or new child follows. The current Catherine Mangan mother attachment and Thomas-143 child attachment remain separately ungraded; Philip’s spouse is not thereby proved to be Thomas’s mother. The selected father replaces one existing local working attachment. Two already-catalogued descendants move into the main working component; the old Thomas-173 account remains separate. No new person, live WikiTree edit or confidence-only upgrade is claimed. The earlier Scottish ancestry assigned to Philip remains uncertain and does not become probable through this change.",
+    "source_ids": [
+      "dublin-thomas-philip-advertisement-1773",
+      "dublin-thomas-duffy-marriage-1773"
+    ],
+    "working_parent_replacement": {
+      "previous_parent": "Glasco-173",
+      "alternative_assertion_id": "C-alternative-20261018-dublin-thomas-former-father",
+      "reason": "Prefer the named Philip father through the particular 1773 Dublin trade/marriage comparison."
+    },
+    "assessment_history": [
+      {
+        "relative_id": "Glasco-173",
+        "status": "unknown",
+        "tree_status": "unmarked",
+        "saved_flag": "",
+        "source_basis": "Retained public WikiTree capture and prior public dossier; existing father not individually graded."
+      }
+    ],
+    "perspectives": {
+      "Glasco-144": {
+        "relationship": "father",
+        "status_label": "Probable working father, 67%",
+        "reason": "Select Philip Glasco-146, the provisional elder Dublin watchmaker account, as the probable working father of Thomas Glasco-144 at 67% subjective confidence. The maintained reading of the 1773 advertisement explicitly says that Thomas served his apprenticeship to his father Philip Glasco and subsequently practised in London before returning to his father’s Christ-Church-lane house. Thomas’s 12 December 1773 marriage to Margaret Duffy at neighbouring St Audoen’s supplies a particular same-name adult, same year and immediate locality, rather than a Scotland-wide name comparison. A young tradesman returning to the family business and marrying later that year is the preferred explanation. The later Christ-Church-lane to 20 Ormond Quay sequence supports continuity of the watchmaking business. The separate marriage and apprenticeship evidence together justify preferring Philip to the unsupported Thomas-173 father attachment."
+      },
+      "Glasco-146": {
+        "relationship": "son",
+        "status_label": "Probable working son, 67%",
+        "reason": "Select Philip Glasco-146, the provisional elder Dublin watchmaker account, as the probable working father of Thomas Glasco-144 at 67% subjective confidence. The maintained reading of the 1773 advertisement explicitly says that Thomas served his apprenticeship to his father Philip Glasco and subsequently practised in London before returning to his father’s Christ-Church-lane house. Thomas’s 12 December 1773 marriage to Margaret Duffy at neighbouring St Audoen’s supplies a particular same-name adult, same year and immediate locality, rather than a Scotland-wide name comparison. A young tradesman returning to the family business and marrying later that year is the preferred explanation. The later Christ-Church-lane to 20 Ormond Quay sequence supports continuity of the watchmaking business. The separate marriage and apprenticeship evidence together justify preferring Philip to the unsupported Thomas-173 father attachment."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Dublin: Philip is the preferred father of Thomas, 67%",
+        "href": "/branches/research-irish-belfast-donegal/#chapter-dublin-thomas-probable-father"
+      }
+    ],
+    "provenance": {
+      "review_scope": "Existing-source combined identity inference; original newspaper image not newly inspected.",
+      "live_flag_changed": false
+    },
+    "claim": "Selected probable Philip father, 67%"
   }
 ]

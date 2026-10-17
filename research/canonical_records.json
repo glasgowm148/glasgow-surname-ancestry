@@ -5019,5 +5019,42 @@
         "role": "named mother"
       }
     }
+  },
+  {
+    "record_id": "dublin-thomas-philip-advertisement-1773",
+    "record_type": "newspaper advertisement",
+    "date": "1773-01-11",
+    "year": 1773,
+    "place": "Christ-Church-lane, Dublin, Ireland",
+    "source_title": "Hibernian Journal, 11 January 1773, p.2; repeated 5 March 1773: Thomas names his father Philip; maintained 7 October full-page OCR reading, not a fresh image inspection",
+    "source_url": "https://www.britishnewspaperarchive.co.uk/viewer/bl/0000817/17730111/005",
+    "source_quality": "contemporary source via maintained OCR",
+    "status": "Prior source reading reassessed; original image uninspected in this review",
+    "note": "Repeated advertisements are one claim. Thomas explicitly names his father Philip; profile assignments are probable combined identities, not explicit profile identifiers. London is reported practice, not a new sourced residence field.",
+    "profiles": {
+      "Glasco-144": {
+        "role": "advertised son, probable identity"
+      },
+      "Glasco-146": {
+        "role": "named father, preferred elder account"
+      }
+    }
+  },
+  {
+    "record_id": "dublin-thomas-duffy-marriage-1773",
+    "record_type": "marriage",
+    "date": "1773-12-12",
+    "year": 1773,
+    "place": "St Audoen’s, Dublin, Ireland",
+    "source_title": "Findmypast, Thos Glasco and Margt Duffy, St Audoen’s RC, 12 December 1773, IRE/PRS/MAR/0623479/1; maintained transcript, NLI film 06778-06",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=IRE%2FPRS%2FMAR%2F0623479%2F1",
+    "source_quality": "maintained derivative index",
+    "status": "Reused maintained 7 October transcript; original uninspected",
+    "note": "Thos Glasco/Margt Duffy; no occupation, residence or named father in the maintained FMP transcript. Older COI label is superseded by RC collection identification.",
+    "profiles": {
+      "Glasco-144": {
+        "role": "groom"
+      }
+    }
   }
 ]
