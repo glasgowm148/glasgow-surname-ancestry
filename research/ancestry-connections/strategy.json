@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "reviewed": "2026-10-15",
+  "reviewed": "2026-10-17",
   "objective": "Connect the Glasgow surname branches into one extended family tree, developing and testing tentative connections from the earliest records first.",
   "common_origin": "The owner reports that all men tested share the Glasgow Y-DNA lineage. A shared paternal origin around 1400–1450, possibly earlier, is the working research model; the founder, date and intervening generations remain to be identified.",
   "variants": [
@@ -3552,6 +3552,60 @@
       "local_family_edges_added": 1,
       "reviewed": "2026-10-17",
       "certainty_upgrades": 0
+    },
+    {
+      "id": "kirkliston-midcalder-john",
+      "year": 1750,
+      "title": "John of Kirkliston: possible Thomas and Janet parents",
+      "status": "Selected possible father and mother · 42% each",
+      "people": [
+        {
+          "name": "John Glasgow of Kirkliston",
+          "url": "/people/glasgow-159.html"
+        },
+        {
+          "name": "John Glasgow of Mid Calder, 1750",
+          "url": "/people/glasgow-2980.html"
+        },
+        {
+          "name": "Thomas Glasgow",
+          "url": "/people/glasgow-1023.html"
+        },
+        {
+          "name": "Janet Mill",
+          "url": "/people/mill-357.html"
+        }
+      ],
+      "basis": "Select Thomas Glasgow-1023 and Janet Mill-357 as possible working parents of John Glasgow-159, each at 42%, conditional on the Kirkliston husband being the John represented by Glasgow-2980 at Mid Calder in 1750. The Mid Calder account already identifies that named couple. A man recorded in 1750 could marry in 1785 at about 35 and father the Kirkliston children in 1786–1797. The catalogue’s circa-1761 birth for the husband is an unsupported estimate, not an age that excludes him. Mid Calder/Livingston and Kirkliston form a compatible Lothian labouring-family route. The first recorded son Thomas (1786) and later daughter Janet (1790) repeat both proposed parents’ names, giving this couple a modest positive advantage over the other local John households. The identifying step is an inference: no inspected record takes the 1750 child to Kirkliston or names the husband’s parents. The Thomas/Janet naming fit is supporting context, not a compulsory naming rule or two independent proofs. John-3581 (Kirknewton 1755, John/Mary Robertson), John-3480 (Kirknewton/East Calder 1751, John/Christian Meek) and John-2846 (West Calder 1747, John/Margaret Anderson) all remain compatible. Their blank later lives do not exclude them. John-1304’s estimated 1771 childhood and Muckle household make him a weaker comparison, without proving that the estimate or any first-marriage assumption is right. Another unindexed John remains possible. The 1750 FamilySearch index citations were reused from maintained captures; this review reached the provider’s sign-in page and did not inspect the original register. The two index URLs refer to one event, not independent corroboration. John-2980 and John-159 remain separate accounts that may represent one man; the selected parents do not establish two distinct sons named John. The husband’s birth field stays circa 1761, explicitly unproved, until identity is resolved. Thomas’s Kilwinning childhood and the family’s earlier ancestry are separate inherited identifications and are not strengthened. The same 42% applies to each parent because both depend on that one child-to-adult identity; these are not independent probabilities.",
+      "next_test": "Compare the 1785 Kirkliston marriage and children’s original entries for residence, witnesses and a link to the 1750 Mid Calder household; test all surviving John candidates before a merge or birth correction.",
+      "record_references": [
+        "midcalder-john-thomas-mill-1750",
+        "kirkliston-john-gray-family-1785-1797",
+        "kirkliston-millrig-john-1798"
+      ],
+      "sources": [
+        {
+          "url": "https://www.familysearch.org/ark:/61903/1:1:X1BL-JFM",
+          "label": "FamilySearch, Scotland Births and Baptisms: John Glasgow, Mid Calder, 1750; index cited in John’s captured biography (not freshly accessible)"
+        },
+        {
+          "url": "https://www.familysearch.org/ark:/61903/1:1:X1BL-JX1",
+          "label": "FamilySearch, Janet Mill in John Glasgow’s 1750 Mid Calder entry; parent-side citation to the same event, not independent evidence"
+        },
+        {
+          "url": "https://www.newspapers.com/image/601860386/",
+          "label": "The Edinburgh Advertiser, 20 July 1798, p.6: John Glasgow, labourer, Millrig; maintained 6 October original-image review reused"
+        }
+      ],
+      "assertion_ids": [
+        "C-working-20261017-kirkliston-john-father",
+        "C-working-20261017-kirkliston-john-mother"
+      ],
+      "counted_as_new_connection": true,
+      "local_family_edges_added": 2,
+      "paternal_edges_added": 1,
+      "certainty_upgrades": 0,
+      "reviewed": "2026-10-17"
     }
   ],
   "source_basis": "Initial priorities reconcile existing medieval bridge research, the pre-1550 relationship audit and the resolved public catalogue. They are current working comparisons, not newly discovered kinship records."

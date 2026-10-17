@@ -1,0 +1,13 @@
+# Findings: Glasgow-2980
+
+## Current conclusion
+
+The Mid Calder John-2980 may be the later Kirkliston husband John-159. Both accounts are retained; no merge or date replacement is selected.
+
+## Kirkliston family comparison — 17 October 2026
+
+Select Thomas Glasgow-1023 and Janet Mill-357 as possible working parents of John Glasgow-159, each at 42%, conditional on the Kirkliston husband being the John represented by Glasgow-2980 at Mid Calder in 1750. The Mid Calder account already identifies that named couple. A man recorded in 1750 could marry in 1785 at about 35 and father the Kirkliston children in 1786–1797. The catalogue’s circa-1761 birth for the husband is an unsupported estimate, not an age that excludes him. Mid Calder/Livingston and Kirkliston form a compatible Lothian labouring-family route. The first recorded son Thomas (1786) and later daughter Janet (1790) repeat both proposed parents’ names, giving this couple a modest positive advantage over the other local John households.
+
+The identifying step is an inference: no inspected record takes the 1750 child to Kirkliston or names the husband’s parents. The Thomas/Janet naming fit is supporting context, not a compulsory naming rule or two independent proofs. John-3581 (Kirknewton 1755, John/Mary Robertson), John-3480 (Kirknewton/East Calder 1751, John/Christian Meek) and John-2846 (West Calder 1747, John/Margaret Anderson) all remain compatible. Their blank later lives do not exclude them. John-1304’s estimated 1771 childhood and Muckle household make him a weaker comparison, without proving that the estimate or any first-marriage assumption is right. Another unindexed John remains possible. The 1750 FamilySearch index citations were reused from maintained captures; this review reached the provider’s sign-in page and did not inspect the original register. The two index URLs refer to one event, not independent corroboration. John-2980 and John-159 remain separate accounts that may represent one man; the selected parents do not establish two distinct sons named John. The husband’s birth field stays circa 1761, explicitly unproved, until identity is resolved. Thomas’s Kilwinning childhood and the family’s earlier ancestry are separate inherited identifications and are not strengthened. The same 42% applies to each parent because both depend on that one child-to-adult identity; these are not independent probabilities.
+
+The full candidate comparison and source references are with [John of Kirkliston](/people/glasgow-159.html#research-update). This is a selected possible family connection; it does not prove two sons named John or improve the earlier Kilwinning ancestry.

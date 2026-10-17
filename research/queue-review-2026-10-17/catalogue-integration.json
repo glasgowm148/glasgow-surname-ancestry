@@ -4333,6 +4333,52 @@
       ],
       "private_comparison": false,
       "prior_work_summary": ""
+    },
+    "Glasgow-159": {
+      "significance": 79,
+      "summary": "Review new possible father Thomas Glasgow and mother Janet Mill, each 42%, through the 1750 Mid Calder child comparison; retain the other local John identities and existing Millrig newspaper amendment. No birth change or merge.",
+      "queued_at": "2026-10-17",
+      "status": "OPEN",
+      "draft_path": "research/Glasgow-159/Glasgow-159.md",
+      "relationship_changes": [
+        {
+          "action": "add",
+          "relationship": "father",
+          "relative_id": "Glasgow-1023",
+          "status": "possible",
+          "assertion_id": "C-working-20261017-kirkliston-john-father",
+          "before": "unknown",
+          "after": "possible",
+          "basis": "Select Thomas Glasgow-1023 and Janet Mill-357 as possible working parents of John Glasgow-159, each at 42%, conditional on the Kirkliston husband being the John represented by Glasgow-2980 at Mid Calder in 1750. The Mid Calder account already identifies that named couple. A man recorded in 1750 could marry in 1785 at about 35 and father the Kirkliston children in 1786–1797. The catalogue’s circa-1761 birth for the husband is an unsupported estimate, not an age that excludes him. Mid Calder/Livingston and Kirkliston form a compatible Lothian labouring-family route. The first recorded son Thomas (1786) and later daughter Janet (1790) repeat both proposed parents’ names, giving this couple a modest positive advantage over the other local John households.",
+          "source_ids": [
+            "midcalder-john-thomas-mill-1750",
+            "kirkliston-john-gray-family-1785-1797",
+            "kirkliston-millrig-john-1798"
+          ]
+        },
+        {
+          "action": "add",
+          "relationship": "mother",
+          "relative_id": "Mill-357",
+          "status": "possible",
+          "assertion_id": "C-working-20261017-kirkliston-john-mother",
+          "before": "unknown",
+          "after": "possible",
+          "basis": "Select Thomas Glasgow-1023 and Janet Mill-357 as possible working parents of John Glasgow-159, each at 42%, conditional on the Kirkliston husband being the John represented by Glasgow-2980 at Mid Calder in 1750. The Mid Calder account already identifies that named couple. A man recorded in 1750 could marry in 1785 at about 35 and father the Kirkliston children in 1786–1797. The catalogue’s circa-1761 birth for the husband is an unsupported estimate, not an age that excludes him. Mid Calder/Livingston and Kirkliston form a compatible Lothian labouring-family route. The first recorded son Thomas (1786) and later daughter Janet (1790) repeat both proposed parents’ names, giving this couple a modest positive advantage over the other local John households.",
+          "source_ids": [
+            "midcalder-john-thomas-mill-1750",
+            "kirkliston-john-gray-family-1785-1797",
+            "kirkliston-millrig-john-1798"
+          ]
+        }
+      ]
+    },
+    "Mill-357": {
+      "queued_at": "2026-10-17",
+      "status": "OPEN",
+      "significance": 45,
+      "summary": "Explain the possible identity of the Mid Calder son John with the Kirkliston husband; retain the original sourced account and distinguish the conditional new child from two separate Johns.",
+      "draft_path": "research/Mill-357/Mill-357.md"
     }
   },
   "reviewed_on": "2026-10-17",

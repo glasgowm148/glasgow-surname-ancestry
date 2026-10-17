@@ -4193,5 +4193,71 @@
         "role": "Deceased householder"
       }
     }
+  },
+  {
+    "record_id": "midcalder-john-thomas-mill-1750",
+    "record_type": "parish baptism index cited in maintained profiles",
+    "date": "18 March 1750",
+    "year": 1750,
+    "place": "Mid Calder, Midlothian",
+    "source_title": "FamilySearch, Scotland Births and Baptisms: John Glasgow, Mid Calder, 1750; index cited in John’s captured biography (not freshly accessible)",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:X1BL-JFM",
+    "reference": "FamilySearch X1BL-JFM; parent-side citation X1BL-JX1",
+    "status": "Maintained index citation reused; original register uninspected; event-date role not newly verified",
+    "note": "The captured John account identifies Thomas Glasgow and Janet Mill as parents. Adult identity at Kirkliston remains possible; the alternate citation is the same event.",
+    "profiles": {
+      "Glasgow-2980": {
+        "role": "Recorded child"
+      },
+      "Glasgow-1023": {
+        "role": "Named father as cited"
+      },
+      "Mill-357": {
+        "role": "Named mother as cited"
+      }
+    }
+  },
+  {
+    "record_id": "kirkliston-john-gray-family-1785-1797",
+    "record_type": "parish-register household as cited in maintained profiles",
+    "date": "1785–1797",
+    "year": 1785,
+    "place": "Kirkliston, West Lothian",
+    "source_title": "Kirkliston OPR: John Glassgow/Agnas Gray marriage, 19 September 1785 (667/00 0020 0441), and children Thomas 1786, Mary 1788, Janet 1790, unnamed child c1797; maintained profile citations",
+    "source_url": "https://www.scotlandspeople.gov.uk/search-records/church-registers",
+    "reference": "OPR 667; Thomas 1786: 667/00 0020 020; individual page citations retained in the linked profiles",
+    "status": "Existing indexed/profile citations reused; no fresh original-page inspection",
+    "note": "Establishes the named Kirkliston household, not the husband’s birth or parents.",
+    "profiles": {
+      "Glasgow-159": {
+        "role": "Husband and father"
+      },
+      "Gray-6937": {
+        "role": "Wife and mother"
+      },
+      "Glasgow-160": {
+        "role": "Son Thomas"
+      },
+      "Glasgow-144": {
+        "role": "Daughter Janet"
+      }
+    }
+  },
+  {
+    "record_id": "kirkliston-millrig-john-1798",
+    "record_type": "newspaper subscriber list",
+    "date": "20 July 1798",
+    "year": 1798,
+    "place": "Millrig, Kirkliston parish",
+    "source_title": "The Edinburgh Advertiser, 20 July 1798, p.6: John Glasgow, labourer, Millrig; maintained 6 October original-image review reused",
+    "source_url": "https://www.newspapers.com/image/601860386/",
+    "reference": "p.6, image 601860386",
+    "status": "Original-image assessment of 6 October reused; probable adult identification",
+    "note": "Names John Glasgow, labourer, Millrig. No parents, age or birthplace.",
+    "profiles": {
+      "Glasgow-159": {
+        "role": "Probable subscriber identity"
+      }
+    }
   }
 ]
