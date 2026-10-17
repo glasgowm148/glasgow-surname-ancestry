@@ -6,7 +6,7 @@ This reference preserves the original project skill sections for tasks in this a
 
 - When asked to conduct actual research, perform readily accessible surname-variant, parent-only and relevant record-index searches before handing them back as suggested next steps. Identify searches not performed and concrete access gaps explicitly; an ordinary web-search miss is not a search of the underlying record collection.
 - In research replies and handoffs, give the actual search terms and collection scope instead of vague phrases such as "broader searches". For archive searches, explain whether a hit identifies a person, a certificate or a whole volume, and provide enough detail to repeat unfinished searches.
-- Follow the project's model routing: delegate file inventories, literal index extraction, formatting, citation-field comparisons and routine synchronization checks to `gpt-5.6-luna` when delegation saves work. Keep identity judgments and substantive drafting with the model appropriate to their complexity.
+- Follow the project's native-app model routing: delegate file inventories, literal index extraction, formatting, citation-field comparisons and routine synchronization checks to a low-cost native agent when delegation saves work. Keep identity judgments and substantive drafting with the native model and reasoning level appropriate to their complexity; do not switch apps or providers to obtain a named model.
 - Separate mechanical work from research judgments rather than assigning an entire mixed batch to a more expensive model. Reuse verified captures, request concise handoffs, and avoid duplicate investigations or broad reviews after focused checks pass.
 
 

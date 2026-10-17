@@ -38,13 +38,11 @@
 
 ## Sub-agent model routing
 
-Use cost-aware delegation for bounded, independent work that can proceed in parallel; it is authorized without further approval. Keep trivial or tightly coupled work local, assign non-overlapping ownership, share only needed context and request concise handoffs. Choose the cheapest reliable model:
+Use cost-aware delegation for bounded, independent work that can proceed in parallel; it is authorized without further approval. Keep trivial or tightly coupled work local, assign non-overlapping ownership, share only needed context and request concise handoffs.
 
-- `gpt-5.6-luna` for menial, deterministic, low-risk work: file discovery, formatting, simple data extraction, mechanical edits, and straightforward tests.
-- `gpt-5.6-terra` for ordinary implementation, investigation, and multi-step work that is not especially difficult or risky.
-- Claude Opus 5.5 (OpenCode `task` sub-agents, or provider `opencode` with model `openrouter/anthropic/claude-opus-5.5`) for hard, ambiguous, security-sensitive, architectural, cross-cutting, design-heavy or reasoning-heavy work. It costs about half as much as `gpt-6-astra`; do not use Astra (corrected by the user, 24 Sep 2026).
+Use subagents native to the current app and its available models (owner correction, 17 October 2026). In Codex, use Codex's native agent tools; do not launch OpenCode or OpenRouter to obtain Claude agents. Claude/Opus routing applies only when working in Claude Code. When the current workflow itself uses OpenRouter, use its configured provider and the owner's OpenRouter balance; never switch providers merely to follow a model name in project guidance.
 
-When uncertain, use Terra; choose Opus 5.5 when a mistake would be costly or substantial judgment is required. The orchestrator owns decisions and integration. Delegation does not authorize work or verification outside the requested scope.
+Choose the cheapest reliable native model and reasoning level: low-cost agents for deterministic extraction, discovery, formatting and simple checks; ordinary reasoning for routine implementation and investigation; stronger reasoning for ambiguous identities, architecture, security or other costly judgments. Do not use Astra (owner correction, 24 September 2026). The orchestrator owns decisions and integration. Delegation does not authorize work or verification outside the requested scope.
 
 ## Live WikiTree editing via the local CDP browser
 
