@@ -2299,3 +2299,11 @@ Existing-profile searches and their limits are recorded in each complete sourced
 | [Walter Glasgow](https://www.wikitree.com/wiki/Glasgow-1554) | OPEN | Preserve both baptism years and distinguish the earlier burial with its probable household; complete revised biography prepared. |
 
 Burial-defined Walter remains on source-verification HOLD in the existing creation draft; no live creation or merge is proposed before original-year verification.
+
+## 17 October 2026 — Fisherrow cited-source scope
+
+| Profile | Status | Change |
+| --- | --- | --- |
+| [Cathrin Glasgow](https://www.wikitree.com/wiki/Glasgow-3321) | OPEN | Correct the submitted IGI family’s mother name to Christina Bie and distinguish its christening claim from an original record; preserve parent fields and uncertainty. |
+| [William Glasgow](https://www.wikitree.com/wiki/Glasgow-3517) | OPEN | Explain that the 1614 provider index names father James but no mother; preserve current attachments and saved grades. |
+| [James Glasgow](https://www.wikitree.com/wiki/Glasgow-991) | OPEN | Reconcile the preferred Mureistoun father and Fisherrow family arguments; remove the unverified claim of a named mother in William’s index. |

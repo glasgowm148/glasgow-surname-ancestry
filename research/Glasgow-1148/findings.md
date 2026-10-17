@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Reviewed: 2026-10-17
+
 **Family review, 17 October 2026:** James Glasgow-991 is now Alexander’s **probable father** in the preferred Fisherrow family account. Janet Clerk is his **documented wife**. The earlier uncertain father assessment is retained below as history.
 
 **Earlier summary, superseded as to the father grade; retained as review history:**
@@ -77,7 +79,7 @@ The printed sasine index places Janet Clerk with Alexander, while Christina Bye 
 
 The Inveresk entries name Alexander Glasgow as father of Marioune in 1630, Johnne in 1632 and Bessie in 1635. They fall within the 1626–1637 series already represented by the Fisherrow Alexander’s family. The 1624–1625 sasines identify his wife Janet Clerk, and the 1637 child entry repeats that parental pair. The repeated father, parish, ordered child series and independently named couple strongly support this Alexander as the father in all three entries. This is confident family reconstruction from the combined records, not an assertion that each earlier entry names his occupation or wife.
 
-The Mid Calder and Inveresk baptism sequences may still represent one mobile father or two contemporaries; no occupation or property recital joins them. The profile’s birth and death places remain inherited claims. The 1614 FamilySearch citation’s claimed mother has not been verified: the provider record requires sign-in, while the inspected FMP and supplied ScotlandsPeople entries name James but no mother. That maternal claim is not used as independent support. Christina’s 1589 New Aberdour birth is tree-derived. Naming her as James’s wife in 1624 does not establish her as Alexander’s or William’s mother. The Andrew-3163 and Murieston-George ancestry alternatives retain their grades.
+The Mid Calder and Inveresk baptism sequences may still represent one mobile father or two contemporaries; no occupation or property recital joins them. The profile’s birth and death places remain inherited claims. The signed-in FamilySearch record VQ4V-K87 was inspected on 17 October 2026: it names William, father James and the 10 July 1614 Inveresk event, but no mother. It therefore supplies no independent evidence for Christina Bie’s maternity, consistent with the FMP and supplied ScotlandsPeople entries. The earlier citation-based claim that this record named her is withdrawn; the underlying parish image remains uninspected. Christina’s 1589 New Aberdour birth is tree-derived. Naming her as James’s wife in 1624 does not establish her as Alexander’s or William’s mother. The Andrew-3163 and Murieston-George ancestry alternatives retain their grades.
 
 No mother is named in the three reviewed child entries, so their maternal grades stay unchanged. Bessie’s 22 March index date and existing 20 March birth field remain unreconciled; no date is changed. The later identities of these children, James-3923 versus the Edinburgh weaver James-1150, and the Edward property associations remain separate. Existing confident father settings for James-3923, Robert-1149 and Allexander-1152 are retained, not counted as new upgrades. Original sasines and parish images were not newly inspected.
 
@@ -106,3 +108,11 @@ Alexander, son of James Glasgow, tailor in Fischerraw and burgess of Musselburgh
 
 The index names two generations and their spouses in the Musselburgh trades community; it does not name a third generation or supply the underlying instruments’ execution dates. Only father and son are named; a third generation is unsupported.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Source findings — cited FamilySearch records checked, 17 October 2026
+
+The signed-in [William Glasgow record VQ4V-K87](https://www.familysearch.org/ark:/61903/1:1:VQ4V-K87), in *Scotland, Births and Baptisms, 1564–1950*, names William’s father as James Glasgow and gives a 10 July 1614 event at Inveresk with Musselburgh. It labels the event Birth, but supplies **no mother**. The page reports the image unavailable; this is a provider-index reading, not inspection of the parish register. The supplied ScotlandsPeople locator remains OPR 689/10/63. FMP R_686177762 and R_693575447 are parallel derivative entries, not independent records proving a mother.
+
+The separate [Catherin Glasgow IGI submission M52D-TJJ](https://www.familysearch.org/ark:/61903/2:1:M52D-TJJ) reports a 6 May 1611 christening at Inveresk and names James Glasgow and Christina **Bie**, not Adamson, as parents. Batch A25031-7 and film 470,979 are shown, and its sole source is labelled Patron Submissions. Its James 1574 and Christina 1578 estimates are contributor claims, not birth records. The former prose naming Christina Adamson is corrected in the prepared replacement; the existing structured mother is already Bie-55. The original baptism and the submission’s underlying evidence remain unverified.
+
+These checks correct the scope and wording of cited sources. Cathrin’s local birth display now uses a conditional boundary from the reported christening; the original exact birthday is retained as imported provenance. They add no father, mother, family join, identity merge or confidence upgrade. James/Christina’s probable Fisherrow identification and James’s separate Mureistoun father hypothesis keep their current percentages. The open question is contemporary evidence identifying Christina as a child’s mother, not whether the 1614 provider page mentions her; it does not.

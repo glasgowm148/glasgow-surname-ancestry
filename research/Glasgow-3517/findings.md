@@ -1,9 +1,11 @@
 # Glasgow-3517 research findings
 
-Last updated: 2026-09-10
+Last updated: 2026-10-17
 
 
-## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-c608ee62fa8a
+## Current conclusion
+
+Reviewed: 2026-10-17
 
 The transcript-validated baptism record for **William Glasgow**, 1614, Inveresk with Musselburgh, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
 
@@ -31,3 +33,11 @@ Add the record as supporting evidence while preserving all existing sources and 
 Original image not inspected for this batch. The combined collection’s date does not automatically establish a birthday. Names alone do not uniquely identify attached parents or connect a child with a later adult. An omitted parent or indexed gender U remains unspecified in this source.
 
 **Next action:** No additional WikiTree update from this row; preserve any existing pending work.
+
+## Source findings — cited FamilySearch records checked, 17 October 2026
+
+The signed-in [William Glasgow record VQ4V-K87](https://www.familysearch.org/ark:/61903/1:1:VQ4V-K87), in *Scotland, Births and Baptisms, 1564–1950*, names William’s father as James Glasgow and gives a 10 July 1614 event at Inveresk with Musselburgh. It labels the event Birth, but supplies **no mother**. The page reports the image unavailable; this is a provider-index reading, not inspection of the parish register. The supplied ScotlandsPeople locator remains OPR 689/10/63. FMP R_686177762 and R_693575447 are parallel derivative entries, not independent records proving a mother.
+
+The separate [Catherin Glasgow IGI submission M52D-TJJ](https://www.familysearch.org/ark:/61903/2:1:M52D-TJJ) reports a 6 May 1611 christening at Inveresk and names James Glasgow and Christina **Bie**, not Adamson, as parents. Batch A25031-7 and film 470,979 are shown, and its sole source is labelled Patron Submissions. Its James 1574 and Christina 1578 estimates are contributor claims, not birth records. The former prose naming Christina Adamson is corrected in the prepared replacement; the existing structured mother is already Bie-55. The original baptism and the submission’s underlying evidence remain unverified.
+
+These checks correct the scope and wording of cited sources. Cathrin’s local birth display now uses a conditional boundary from the reported christening; the original exact birthday is retained as imported provenance. They add no father, mother, family join, identity merge or confidence upgrade. James/Christina’s probable Fisherrow identification and James’s separate Mureistoun father hypothesis keep their current percentages. The open question is contemporary evidence identifying Christina as a child’s mother, not whether the 1614 provider page mentions her; it does not.

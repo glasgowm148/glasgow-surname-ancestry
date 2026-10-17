@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "reviewed": "2026-10-17",
+  "cutoff": 1850,
+  "method_version": 3,
+  "input_fingerprint": "2b1ab6248959c83abd8255b20153faba6d60173040e8ffe6cd3e6d14a2c9373b",
+  "scope": "Fisherrow cited-source checks and Cathrin’s reported christening",
+  "models": {
+    "main": {
+      "checked_historical_profiles": 1786,
+      "all_profiles_checked": 4531,
+      "matched_paternal_edges": 1371,
+      "changed_father_fields": 0,
+      "changed_mother_fields": 0,
+      "added_historical_profiles": [],
+      "all_existing_parent_ids_grades_and_probabilities_unchanged": true,
+      "qualified_birth_display_ids": [
+        "Glasgow-3321"
+      ]
+    },
+    "standalone": {
+      "checked_historical_profiles": 1786,
+      "all_profiles_checked": 4683,
+      "matched_paternal_edges": 1371,
+      "changed_father_fields": 0,
+      "changed_mother_fields": 0,
+      "added_historical_profiles": [],
+      "all_existing_parent_ids_grades_and_probabilities_unchanged": true,
+      "qualified_birth_display_ids": [
+        "Glasgow-3321"
+      ]
+    }
+  },
+  "genealogical_connections_added": 0,
+  "paternal_connections_added": 0,
+  "maternal_connections_added": 0,
+  "certainty_upgrades": 0,
+  "publication_summary": "Two cited-source corrections distinguish a 1614 father-only index from a 1611 contributed IGI family. Cathrin’s birthday is now qualified by the submitted christening. Both viewers retain every parent ID, relationship grade, individual probability and reciprocal child link. All connectivity measurements and cohort memberships are unchanged.",
+  "comparison": "/people/glasgow-3321.html#research-findings",
+  "verification": {
+    "full_and_compact_pending_filters_agree": true,
+    "new_pending_biography_amendments": 2,
+    "no_new_relationship_badges": true,
+    "all_existing_dossier_evidence_preserved": true,
+    "original_exact_birthday_retained_in_import": true,
+    "packed_main_model_lossless": true,
+    "all_cohort_measurements_unchanged": true,
+    "all_other_model_vitals_and_dna_unchanged": true
+  },
+  "next_metric_check": {
+    "status": "CLOSED",
+    "saved_confident_tree_flags_not_used_by_current_metric": 0
+  },
+  "measurements": {
+    "working": {
+      "before": {
+        "population": 1786,
+        "edge_count": 1372,
+        "component_count": 416,
+        "largest_component_size": 1106
+      },
+      "after": {
+        "population": 1786,
+        "edge_count": 1372,
+        "component_count": 416,
+        "largest_component_size": 1106
+      }
+    },
+    "supported": {
+      "before": {
+        "population": 1786,
+        "edge_count": 386,
+        "component_count": 1401,
+        "largest_component_size": 46
+      },
+      "after": {
+        "population": 1786,
+        "edge_count": 386,
+        "component_count": 1401,
+        "largest_component_size": 46
+      }
+    },
+    "confident": {
+      "before": {
+        "population": 1786,
+        "edge_count": 361,
+        "component_count": 1425,
+        "largest_component_size": 26
+      },
+      "after": {
+        "population": 1786,
+        "edge_count": 361,
+        "component_count": 1425,
+        "largest_component_size": 26
+      }
+    }
+  }
+}

@@ -853,6 +853,45 @@
         "previous_place_route": "/places/cross-ballymoney.html",
         "reassignment_html": "<section class=\"dossier-section\"><h1>Cross: corrected parish identification</h1><p>John Glasgow’s 1836 notice names Cross near Broughshane. His record was previously mapped to the different Cross in Ballymoney parish. The association is now shown at the <a href=\"/places/ballyclug-parish.html\">Ballyclug parish representative point</a>, pending an exact townland coordinate.</p><p>This is his recorded residence in 1836, not his birthplace. His birthplace remains County Antrim, with no exact locality established. <a href=\"/people/glasgow-1657.html\">Read John Glasgow’s sourced account</a>.</p></section>"
       }
+    },
+    {
+      "id": "Glasgow-3321",
+      "publication_status": "approved",
+      "assessment_id": "chronology-cathrin-submitted-christening-20261017",
+      "reviewed": "2026-10-17",
+      "source_ids": [
+        "E-2b89b34d5004"
+      ],
+      "year": 1611,
+      "birth_year": 1611,
+      "year_basis": "reported christening",
+      "year_status": "unverified contributed genealogy",
+      "reason": "Conditional birth boundary from the contributed IGI report of a 6 May 1611 christening. The original baptism is unverified, the birthday is unknown, and Inveresk is the reported christening parish rather than a proved birthplace.",
+      "vitals": {
+        "birth": {
+          "date": "before 1611-05-06",
+          "display_date": "By 6 May 1611 (reported christening)",
+          "place": "Inveresk, Midlothian, Scotland",
+          "status": "uncertain",
+          "place_status": "uncertain",
+          "qualifier": "Conditional birth boundary from the contributed IGI report of a 6 May 1611 christening. The original baptism is unverified, the birthday is unknown, and Inveresk is the reported christening parish rather than a proved birthplace.",
+          "source_url": "https://www.familysearch.org/ark:/61903/2:1:M52D-TJJ"
+        }
+      },
+      "tree_display": {
+        "born": 1611,
+        "year": 1611,
+        "bornApprox": true,
+        "birthDisplay": "By 6 May 1611 (reported christening)",
+        "lifeLabel": "Reported christening 6 May 1611; birthday unknown"
+      },
+      "catalogue_projection": {
+        "birth": "By 6 May 1611 (reported christening)",
+        "birth_year": 1611,
+        "birth_note": "Conditional birth boundary from the contributed IGI report of a 6 May 1611 christening. The original baptism is unverified, the birthday is unknown, and Inveresk is the reported christening parish rather than a proved birthplace.",
+        "birth_location": "Inveresk, Midlothian, Scotland",
+        "birth_location_note": "Reported christening parish retained provisionally; birthplace unproved."
+      }
     }
   ]
 }

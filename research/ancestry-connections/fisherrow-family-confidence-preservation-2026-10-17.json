@@ -28,7 +28,7 @@
     },
     "Bie-55": {
       "current_sha256": "d66c6dfe0221567bc8f3bb0c5921c8e9d1bff531b212f830acf54057f222b856",
-      "proposed_sha256": "81ec68315eb4208e6ca046621ddf6743b6fdd3367bac2df8f9b74551ae117b5d",
+      "proposed_sha256": "cbcfd7a4ed15426150b016a120933431a7532273ba2188b85670a7e0432b0257",
       "all_substantive_passages_accounted_for": true,
       "complete_current_and_prior_proposals_preserved": true,
       "captured_source_urls_preserved": 3,
@@ -36,6 +36,18 @@
       "passages": [
         "All substantive current/prior passages, source URLs, named refs and family comparisons retained.",
         "Six explicit family assessments change; prior wording is retained with the dated review taking precedence. Maternal grades, other relatives and vital fields are preserved. Known family names in the new note link to checked existing profiles."
+      ],
+      "source_scope_followup_reviews": [
+        {
+          "reviewed": "2026-10-17",
+          "previous_proposed_sha256": "81ec68315eb4208e6ca046621ddf6743b6fdd3367bac2df8f9b74551ae117b5d",
+          "basis": "Only the previously unverified maternal-source sentence is corrected and a cited source-scope note appended; all other prior draft text and current/prior source identities are retained. No grades, parent fields or vital data change."
+        },
+        {
+          "reviewed": "2026-10-17",
+          "previous_proposed_sha256": "43b8f0a48b43654178fe36c8fd8f2dba26667bb0c6cf6c23158e5c78f5272e5c",
+          "basis": "Only the previously unverified maternal-source sentence is corrected and a cited source-scope note appended; all other prior draft text and current/prior source identities are retained. No grades, parent fields or vital data change."
+        }
       ]
     },
     "Clerk-296": {
