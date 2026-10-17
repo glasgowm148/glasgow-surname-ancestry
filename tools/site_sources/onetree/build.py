@@ -120,7 +120,7 @@ def apply_working_hypotheses(people: list[dict], assessments: list[dict], parent
             continue  # Maternal selections are validated separately below.
         if not (assessment.get("working_selection") is True
                 and assessment.get("publication_status") == "approved"
-                and assessment.get("status") == "uncertain"
+                and assessment.get("status") in {"uncertain", "probable"}
                 and assessment.get("allow_new_relationship") is True):
             continue
         perspectives = assessment.get("perspectives") or {}
@@ -188,7 +188,7 @@ def apply_working_hypotheses(people: list[dict], assessments: list[dict], parent
             by_id[child]['parents'] = [row for row in by_id[child]['parents'] if row not in aliases
                                       and not (row.get('role') == 'father' and row.get('id') == father)]
         by_id[child]["parents"].append({
-            "id": father, "name": by_id[father]["name"], "role": "father", "status": "uncertain",
+            "id": father, "name": by_id[father]["name"], "role": "father", "status": assessment['status'],
             "inModel": True, "reason": assessment.get("basis") or "", "source": "local_working_hypothesis",
             "assertion_id": assessment.get("assertion_id"), "analysis_links": assessment.get("analysis_links") or [],
             "hypothesis": True,
@@ -197,7 +197,7 @@ def apply_working_hypotheses(people: list[dict], assessments: list[dict], parent
         previous = next((row for row in children if row.get('id') == child), {})
         children[:] = [row for row in children if row.get('id') != child]
         children.append({**previous, 'id': child, 'name': by_id[child]['name'], 'role': 'child',
-                         'inModel': True, 'status': 'uncertain', 'hypothesis': True,
+                         'inModel': True, 'status': assessment['status'], 'hypothesis': True,
                          'source': 'local_working_hypothesis', 'assertion_id': assessment.get('assertion_id'),
                          'reason': assessment.get('basis') or ''})
     return len(selected)

@@ -85,6 +85,10 @@ def documentary_renderer(page):
         return page
     for old, new in replacements.items():
         page = page.replace(old, new)
+    page = page.replace("Selected uncertain working ${esc(r.role||'parent')}.</b>",
+                        "Selected ${r.status==='probable'?'probable':'uncertain'} working ${esc(r.role||'parent')}.</b>")
+    page = page.replace("Selected ${r.status==='probable'?'probable':'uncertain'} working father.</b>",
+                        "Selected ${r.status==='probable'?'probable':'uncertain'} working ${esc(r.role||'parent')}.</b>")
     return page
 
 

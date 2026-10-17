@@ -35,6 +35,18 @@ class DocumentaryIdentityTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'explicit graded identity'):
             self.load(person)
 
+    def test_probable_identity_can_link_to_a_complete_research_subject(self):
+        person = self.person()
+        person['url'] = '/research/subjects/example-records/#named-adult'
+        person['identity_selection']['status'] = 'probable'
+        node = metric_node(self.load(person))
+        self.assertIn('probable combined identity', node['year_status'])
+        self.assertFalse(node['cohort_member'])
+        self.assertIsNone(node['birth_year'])
+        person['url'] = '//example.test/unreviewed'
+        with self.assertRaisesRegex(ValueError, 'complete public research account'):
+            self.load(person)
+
     def test_uncited_or_duplicated_groups_are_rejected(self):
         person = self.person()
         person['source_ids'] = ['act-a']

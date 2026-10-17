@@ -38,6 +38,26 @@ class T(unittest.TestCase):
         d = {"vitals": {"birth": {"date": "1700"}, "death": {"date": "1800"}}, "evidence": [{"date": "1600"}]}
         self.assertEqual(_dated(d)[0][:2], (1600, "dated evidence"))
 
+    def test_probable_named_parent_is_loaded_without_inflating_population(self):
+        self.add('Example-1', 1520)
+        (self.t / 'assets/research').mkdir(parents=True)
+        (self.t / 'data/ancestry-documentary-people.json').write_text(json.dumps({'people': [
+            {'id': 'record-parent', 'name': 'Named parent', 'publication_status': 'approved',
+             'url': '/research/subjects/example/#parent', 'first_record_year': 1500, 'source_ids': ['S-1']}
+        ]}))
+        (self.t / 'assets/research/relationship-assessments.json').write_text(json.dumps([
+            {'assertion_id': 'A-1', 'working_selection': True, 'publication_status': 'approved',
+             'status': 'probable', 'allow_new_relationship': True,
+             'perspectives': {'Example-1': {'relationship': 'father'}, 'record-parent': {'relationship': 'son'}}}
+        ]))
+        nodes, edges, _ = self.finish()
+        self.assertEqual(edges[0]['status'], 'probable')
+        supported = summarize(nodes, edges, 1650, view='supported')
+        self.assertEqual(supported['population'], 1)
+        self.assertEqual(supported['edge_count'], 1)
+        self.assertEqual(supported['connector_ids'], ['record-parent'])
+        self.assertEqual(summarize(nodes, edges, 1650, view='confident')['edge_count'], 0)
+
     def test_saved_tree_flags_are_used_without_overriding_research(self):
         self.assertEqual(relationship_status({'status':'unknown','tree_status':'confident'}), ('confident','saved_wikitree_flag'))
         self.assertEqual(relationship_status({'status':'unknown','tree_status':'DNA-confirmed'})[0], 'dna_confirmed')

@@ -18,6 +18,18 @@ def assessment(child, father, **extra):
 
 
 class WorkingHypothesisTests(unittest.TestCase):
+    def test_probable_working_father_keeps_grade_and_reciprocal_link(self):
+        model = people('Child-1', 'Father-1')
+        proposal = assessment('Child-1', 'Father-1', status='probable', source_ids=['S-1'])
+        self.assertEqual(apply_working_hypotheses(model, [proposal]), 1)
+        self.assertEqual(model[0]['parents'][0]['status'], 'probable')
+        self.assertEqual(model[1]['childrenRecorded'][0]['status'], 'probable')
+        expression = documentary_renderer("p.parents.map(relationHTML).join('')")
+        script = "const esc=s=>s;const relationHTML=r=>'';const p={parents:[{role:'father',hypothesis:true,status:'probable'}]};console.log(JSON.stringify(" + expression + "));"
+        rendered = json.loads(subprocess.check_output(['node', '-e', script], text=True))
+        self.assertIn('Selected probable working father.', rendered)
+        self.assertNotIn('Selected uncertain', rendered)
+
     def test_family_aliases_require_saved_canonical_redirects_and_record_review(self):
         a = assessment('Child-1', 'Father-1', people=['Child-1', 'Father-1'], status='proved',
                        source_ids=['S-1'], tree_family_restoration=dict(child='Child-1', father='Father-1',

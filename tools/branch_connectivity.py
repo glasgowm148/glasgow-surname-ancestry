@@ -179,14 +179,14 @@ def load_public_nodes(site_root: Path, variants: set[str]):
         for assessment in json.loads(shared_path.read_text()):
             if not (assessment.get('working_selection') is True
                     and assessment.get('publication_status') == 'approved'
-                    and assessment.get('status') == 'uncertain'
+                    and assessment.get('status') in {'uncertain', 'probable'}
                     and assessment.get('allow_new_relationship') is True):
                 continue
             views = assessment.get('perspectives') or {}
             child = next((p for p, v in views.items() if v.get('relationship') == 'father'), None)
             father = next((p for p, v in views.items() if v.get('relationship') != 'father'), None)
             if child in nodes and father in nodes and {child, father} & documentary_ids:
-                raw.append(dict(child=child, father=father, status='uncertain',
+                raw.append(dict(child=child, father=father, status=assessment['status'],
                                 basis=assessment.get('basis', ''), assertion_id=assessment['assertion_id']))
     by_child = defaultdict(dict)
     all_fathers = defaultdict(set)

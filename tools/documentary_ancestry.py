@@ -16,7 +16,7 @@ def load_people(path: Path) -> list[dict]:
         seen.add(ident)
         if person.get('publication_status') != 'approved' or not person.get('source_ids'):
             raise ValueError(f'Documentary person needs approved named records: {ident}')
-        if not re.fullmatch(r'/free-space/[a-z0-9-]+/', person.get('url', '')):
+        if not re.fullmatch(r'/(?:free-space/[a-z0-9-]+/|research/subjects/[a-z0-9-]+/(?:#[a-z0-9-]+)?)', person.get('url', '')):
             raise ValueError(f'Documentary person needs a complete public research account: {ident}')
         if not isinstance(person.get('first_record_year'), int) or not person.get('name'):
             raise ValueError(f'Documentary person needs a name and record year: {ident}')
@@ -24,7 +24,7 @@ def load_people(path: Path) -> list[dict]:
         if len(groups) > 1:
             selection = person.get('identity_selection') or {}
             if not (selection.get('selected') is True and selection.get('model') == 'same_person'
-                    and selection.get('status') in {'uncertain', 'strongly_supported', 'proved'}
+                    and selection.get('status') in {'uncertain', 'probable', 'strongly_supported', 'proved'}
                     and selection.get('id') and selection.get('basis') and selection.get('limitations')):
                 raise ValueError(f'Combined record groups need an explicit graded identity selection: {ident}')
             group_ids = [g.get('id') for g in groups]
@@ -40,11 +40,12 @@ def load_people(path: Path) -> list[dict]:
 
 
 def metric_node(person: dict) -> dict:
-    uncertain_identity = (person.get('identity_selection') or {}).get('status') == 'uncertain'
+    identity_status = (person.get('identity_selection') or {}).get('status')
+    identity_note = f'; {identity_status} combined identity' if identity_status in {'uncertain', 'probable'} else ''
     return dict(id=person['id'], name=person['name'], url=person['url'],
                 gender=person.get('gender', ''), birth_year=None, death_year=None,
                 birth_status=None, year=person['first_record_year'],
-                year_basis='dated evidence', year_status='record date; uncertain combined identity' if uncertain_identity else 'record date',
+                year_basis='dated evidence', year_status='record date' + identity_note,
                 first_record_year=person['first_record_year'], cohort_member=False)
 
 
