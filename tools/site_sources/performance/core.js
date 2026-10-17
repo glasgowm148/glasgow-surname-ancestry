@@ -96,3 +96,58 @@ for(const d of $$('details[data-r-fragment]'))d.addEventListener('toggle',()=>{i
 window.GlasgowFragmentLoad=loadFragment;revealHash();
 window.GlasgowResearch={$,all:$$,esc,norm,json,registry,branches,person,original,record,canonical,safeURL,storage,toast,badge,country,palette,dates,ready,context:()=>context,scoped,scopeIds,search,request,previewPerson,previewRecord,previewEvidence,peekButton,addPeekButtons,showPreview,previewBody:()=>$('.r-preview-body',createPreview()),closePreview:()=>preview?.close(),setPersonContext};
 })();
+/* Profile tree links: every person page that is in the family tree gets a row of
+   links to that person's tree views (family sun, descendants, ancestors, whole
+   tree, timeline). Built here, in the shared profile script, so profile pages
+   themselves never need regenerating. Counts come from
+   /assets/research/tree-research-status.json ("lines"); without it every link shows. */
+(()=>{'use strict';
+const host=document.querySelector('.dossier-header .dossier-actions');
+let me=null;try{me=JSON.parse(document.body?.dataset.gPerson||'null')}catch{}
+if(!host||!me||!me.id||me.tree!==true||document.getElementById('profile-tree-links'))return;
+const id=String(me.id),enc=encodeURIComponent(id),at='/onetree/#person='+enc;
+if(!document.getElementById('profile-tree-links-css')){const st=document.createElement('style');st.id='profile-tree-links-css';st.textContent=
+'.profile-tree-links{--ptl-fg:#315a43;--ptl-bd:#b8cbbd;--ptl-bg:#fffef9;--ptl-gold:#a77a16;--ptl-fs:.9rem;--ptl-rad:6px;margin:14px 0 0;display:flex;flex-wrap:wrap;align-items:center;gap:8px}'+
+'.profile-tree-links>.ptl-label{flex:0 0 100%;font-size:.72rem;letter-spacing:.09em;text-transform:uppercase;color:var(--ptl-gold);font-weight:600}'+
+'.profile-tree-links a{display:inline-flex;align-items:center;gap:6px;min-height:36px;padding:6px 12px;border:1px solid var(--ptl-bd);border-radius:var(--ptl-rad);background:var(--ptl-bg);color:var(--ptl-fg);font-size:var(--ptl-fs);text-decoration:none;line-height:1.2}'+
+'.profile-tree-links a:hover,.profile-tree-links a:focus-visible{background:color-mix(in srgb,var(--ptl-fg) 12%,var(--ptl-bg))}'+
+'.profile-tree-links a.ptl-sun{border-color:var(--ptl-gold);background:color-mix(in srgb,var(--ptl-gold) 16%,var(--ptl-bg))}'+
+'.profile-tree-links a.ptl-sun:hover,.profile-tree-links a.ptl-sun:focus-visible{background:color-mix(in srgb,var(--ptl-gold) 30%,var(--ptl-bg))}'+
+'.profile-tree-links a.ptl-sun svg{color:var(--ptl-gold)}'+
+'.profile-tree-links a small{color:inherit!important;opacity:.8;font-size:.85em;font-weight:400}'+
+'.profile-tree-links svg{width:15px;height:15px;flex:0 0 auto}'+
+'@media (max-width:560px){.profile-tree-links a{flex:1 1 auto;justify-content:center}}';
+document.head.append(st)}
+const ic={
+sun:'<svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="2.4" fill="currentColor"/><circle cx="8" cy="8" r="4.6" fill="none" stroke="currentColor" stroke-width="1.2" opacity=".7"/><circle cx="8" cy="8" r="7" fill="none" stroke="currentColor" stroke-width="1.1" opacity=".45"/></svg>',
+down:'<svg viewBox="0 0 16 16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="8" cy="3" r="1.8" fill="currentColor"/><path d="M8 5v3M3.5 8h9M3.5 8v3M12.5 8v3M8 8v3"/><circle cx="3.5" cy="12.6" r="1.5"/><circle cx="8" cy="12.6" r="1.5"/><circle cx="12.5" cy="12.6" r="1.5"/></svg>',
+up:'<svg viewBox="0 0 16 16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="8" cy="13" r="1.8" fill="currentColor"/><path d="M8 11V8M4 8h8M4 8V5M12 8V5"/><circle cx="4" cy="3.4" r="1.5"/><circle cx="12" cy="3.4" r="1.5"/></svg>',
+all:'<svg viewBox="0 0 16 16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.3"><circle cx="8" cy="8" r="6.3"/><circle cx="8" cy="8" r="1.6" fill="currentColor"/><path d="M8 1.7v4.7M2 8h4.4M14 8H9.6M8 14.3V9.6"/></svg>',
+time:'<svg viewBox="0 0 16 16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M1.5 4h9M4 8h10.5M2.5 12h7"/><circle cx="10.5" cy="4" r="1.3" fill="currentColor"/><circle cx="4" cy="8" r="1.3" fill="currentColor"/><circle cx="9.5" cy="12" r="1.3" fill="currentColor"/></svg>'};
+const name=String(me.name||'this person');
+const items=[
+ {k:'sun',cls:'ptl-sun',href:'/onetree/#view=all&sun='+enc,label:'Family sun',title:'All of '+name+'’s recorded descendants as rings, one ring per generation',needs:'d'},
+ {k:'down',href:at+'&view=family',label:'Descendants',title:'Family tree downward from '+name,needs:'d'},
+ {k:'up',href:at+'&view=family&lens=ancestors',label:'Ancestors',title:'Family tree upward from '+name,needs:'a'},
+ {k:'all',href:at+'&view=all',label:'Whole tree',title:'Find '+name+' in the whole Glasgow tree'},
+ {k:'time',href:at+'&view=lanes',label:'Timeline',title:name+' on the family timeline'}];
+const nav=document.createElement('nav');nav.id='profile-tree-links';nav.className='profile-tree-links';nav.setAttribute('aria-label','Family tree views for '+name);
+const lab=document.createElement('span');lab.className='ptl-label';lab.textContent='In the family tree';nav.append(lab);
+const els={};
+for(const it of items){const a=document.createElement('a');a.href=it.href;a.title=it.title;a.dataset.view=it.k;if(it.cls)a.className=it.cls;a.innerHTML=ic[it.k]+'<span>'+it.label+'</span>';nav.append(a);els[it.k]=a}
+host.after(nav);
+/* Follow the header's own button and kicker colours, so the row fits light and dark headers alike. */
+try{const ref=host.querySelector('a:nth-child(2)')||host.querySelector('a'),cs=ref&&getComputedStyle(ref),kick=document.querySelector('.dossier-header .kicker');
+ if(cs){const clear=c=>!c||c==='transparent'||/rgba\([^)]*,\s*0\)$/.test(c);nav.style.setProperty('--ptl-fg',cs.color);nav.style.setProperty('--ptl-bd',cs.borderTopColor);
+  nav.style.setProperty('--ptl-bg',clear(cs.backgroundColor)?'transparent':cs.backgroundColor);nav.style.setProperty('--ptl-fs',cs.fontSize);nav.style.setProperty('--ptl-rad',cs.borderTopLeftRadius)}
+ if(kick)nav.style.setProperty('--ptl-gold',getComputedStyle(kick).color)}catch{}
+const plural=(n,w)=>n.toLocaleString('en-GB')+' '+w+(n===1?'':'s');
+fetch('/assets/research/tree-research-status.json',{credentials:'same-origin'}).then(r=>r.ok?r.json():null).then(data=>{
+ const lines=data&&data.lines;if(!lines)return;
+ const [d,a]=lines[id]||[0,0];
+ for(const it of items){if(!it.needs)continue;const n=it.needs==='d'?d:a,el=els[it.k];
+  if(!n){el.remove();continue}
+  const s=document.createElement('small');s.textContent=it.needs==='d'?plural(n,'descendant'):plural(n,'ancestor');
+  if(it.k!=='down')el.append(s)}
+}).catch(()=>{});
+})();

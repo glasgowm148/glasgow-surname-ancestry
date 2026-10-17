@@ -595,6 +595,10 @@ PATCHES = [
     # 18. Family sun from the profile panel.
     ("${icon('tree')}Read the family</button></section>`;",
      "${icon('tree')}Read the family</button>${(FAMILY.children.get(p.id)||[]).length?` <button class=\"tool-btn\" data-action=\"sun\" data-id=\"${esc(p.id)}\">☀ Descendants as a family sun</button>`:''}</section>`;"),
+    # 19. Profile links (#person=ID&view=family&lens=ancestors|close, &view=lanes) open the asked-for view.
+    ("if(id&&P.has(id)){if(v==='family')goFamily(id);else openPerson(id,true)}",
+     "if(id&&P.has(id)){const lens=params.get('lens');if(v==='family')goFamily(id,['ancestors','close'].includes(lens)?lens:'descendants');"
+     "else if(v==='lanes'||v==='all'){if(state.view!==v)goView(v,false);openPerson(id,true)}else openPerson(id,true)}"),
 ]
 
 

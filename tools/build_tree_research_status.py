@@ -18,6 +18,11 @@ flags, dates and counts, never research text:
 - ``d``: research-check codes that need an editor's decision for this person
   (from ``tools/check_research_publication.py``; see ``DECISION_CODES``).
 
+``lines`` maps each person with recorded descendants or ancestors in the tree to
+``[descendants, ancestors]`` (distinct people, counted the way the atlas links
+parents). Profile pages use it to show only the tree views that have something
+to show (``tools/site_sources/performance/core.js``).
+
 Run after a research batch; ``tools/build_latest_findings.py`` calls it at the
 end of every run, so the tree follows the latest findings automatically.
 
@@ -86,6 +91,40 @@ def decision_items(root: Path) -> list[tuple[str, str]]:
     return [(item.subject, item.code) for item in checker.items if item.code in DECISION_CODES]
 
 
+def family_lines(model: dict) -> dict[str, list[int]]:
+    """``{id: [descendants, ancestors]}`` for people with either, as the atlas links them."""
+    people = {p["id"]: p for p in model["people"] if p.get("kind") == "person"}
+    parents: dict[str, list[str]] = {}
+    children: dict[str, list[str]] = {ident: [] for ident in people}
+    for ident, person in people.items():
+        seen: list[str] = []
+        for rel in person.get("parents") or []:
+            other = rel.get("id")
+            if (rel.get("withheld") or other not in people or other == ident
+                    or rel.get("status") == "non-biological" or other in seen):
+                continue
+            seen.append(other)
+            children[other].append(ident)
+        parents[ident] = seen
+
+    def reach(start: str, links: dict[str, list[str]]) -> int:
+        found, todo = set(), list(links.get(start, ()))
+        while todo:
+            ident = todo.pop()
+            if ident in found or ident == start:
+                continue
+            found.add(ident)
+            todo.extend(links.get(ident, ()))
+        return len(found)
+
+    lines = {}
+    for ident in sorted(people):
+        down, up = reach(ident, children), reach(ident, parents)
+        if down or up:
+            lines[ident] = [down, up]
+    return lines
+
+
 def build(root: Path = ROOT, checks: bool = True) -> dict:
     model = json.loads((root / MODEL).read_text(encoding="utf-8"))
     public = {p["id"] for p in model["people"] if p.get("kind") == "person"}
@@ -152,11 +191,13 @@ def build(root: Path = ROOT, checks: bool = True) -> dict:
         "schema_version": 1,
         "generated": date.today().isoformat(),
         "about": "Research flags for people in the public tree: findings file, newest dated finding, "
-                 "WikiTree update queue state and research-check items needing a decision. No research text.",
+                 "WikiTree update queue state and research-check items needing a decision; "
+                 "lines: [descendants, ancestors] per person. No research text.",
         "decisionLabels": DECISION_CODES,
         "decisionsChecked": checks,
         "counts": counts,
         "people": dict(sorted(people.items())),
+        "lines": family_lines(model),
     }
 
 
