@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "reviewed": "2026-10-17",
+  "cutoff": 1850,
+  "method_version": 3,
+  "scope": "Kilwaughter: James’s 1669–1726 continuity is probable",
+  "input_fingerprint": "2d17104e5fac05de2449dfb7014343a05f259e3acf49960b49bd550a687c0461",
+  "models": {
+    "main": {
+      "all_profiles_checked": 4520,
+      "checked_historical_profiles": 1777,
+      "matched_paternal_edges": 1358,
+      "changed_father_fields": 0,
+      "changed_mother_fields": 0,
+      "added_historical_profiles": [],
+      "all_parent_and_child_relationships_unchanged": true,
+      "all_identity_and_vital_fields_unchanged": true,
+      "james_child_side_profiles": 104,
+      "raw_display_descendants_in_cohort": 105,
+      "raw_display_scope": "Raw model routes preserve held parents and can traverse nodes outside the measured cutoff; impact is separately derived from the eligible public metric graph.",
+      "held_four_father_cases_unchanged": true
+    },
+    "standalone": {
+      "all_profiles_checked": 4671,
+      "checked_historical_profiles": 1777,
+      "matched_paternal_edges": 1358,
+      "changed_father_fields": 0,
+      "changed_mother_fields": 0,
+      "added_historical_profiles": [],
+      "all_parent_and_child_relationships_unchanged": true,
+      "all_identity_and_vital_fields_unchanged": true,
+      "james_child_side_profiles": 104,
+      "raw_display_descendants_in_cohort": 104,
+      "raw_display_scope": "Raw model routes preserve held parents and can traverse nodes outside the measured cutoff; impact is separately derived from the eligible public metric graph.",
+      "held_four_father_cases_unchanged": true
+    }
+  },
+  "genealogical_connections_added": 0,
+  "paternal_connections_added": 0,
+  "maternal_connections_added": 0,
+  "certainty_upgrades": 0,
+  "confidence_assessments_strengthened": 1,
+  "identity_changes": [
+    {
+      "subject_id": "Glasgow-1081",
+      "before": "unresolved continuity",
+      "after": "probable",
+      "scope": "1669 Kilwaughter Demesne householder to 1701 overseer and 1726 elder only",
+      "basis": "The preferred identification is one James Glasgow from the Kilwaughter Demesne hearth household of 1669 to the Kilwaughter overseer of probably 29 May 1701 and the later elder marked deceased in 1726. Assess that continuity as probable rather than unresolved. The hearth roll places Jo and James Glascho consecutively in the same demesne, records 5347–5348. The later congregational extracts again contain both names acting for Kilwaughter: John senior in 1700 and an unmarked John in 1700/01, whose individual identity remains open, and James as overseer in probably 1701. John’s already-probable continuity supplies a coherent parallel ageing household, rather than leaving James’s later occurrence as an isolated name match. James’s later elder, 1722 commissioner and 1727 Kilwater probate-index accounts were already assessed as probably one man. The repeated local pairing, the particular district served and an ordinary adult generation in 1700/01 together favour continuity over an otherwise unattested replacement James. The preference uses the combined local sequence; no literal same-man clause is required.",
+      "limitations": "The inference is not documented identity. The later men never occur together in the same reviewed minute, the 1669 roll does not state a kin relationship, and similar spellings are not independent identifiers. Kilwaughter Demesne and the later Kilwaughter district are compatible but not identical address statements. A father-and-son succession or another local James remains possible. Assuming an adult aged at least 21 in 1669 would make James at least about 74 in 1722 and 78 in 1726; those are conditional age calculations, not recorded ages or a new birth bound. His local commission in 1722 is compatible with advanced age, but the long career is the strongest reason for caution. No age at death, occupation, holding or named relative equates the occurrences. The missing 1701–1721 session sequence leaves a real gap. Porter’s 1699–1701 extracts are a printed transcription of a manuscript copy; the later extracts and lost probate index do not independently prove the earlier identity. The probable grade is an overall inference across the groups, not the product of independent probabilities. Neither the 1726 death annotation nor the 1727 probate is newly assigned to a separate earlier James; they remain events of the later elder whose identification with the 1669 man is now probable.",
+      "previous_status_provenance": "research/Glasgow-1081/findings.md, Identity assessment — one James or two, 6 October 2026; original unresolved wording retained below the dated review."
+    }
+  ],
+  "publication_summary": "James Glasgow’s 1669 Kilwaughter household and the later overseer/elder are now probably one man, from the combined John–James local sequence. One identity assessment strengthened; no new father, mother, merge or parent certainty upgrade. John’s own continuity was already probable. All working, supported and confident paternal connectivity remains unchanged; the affected existing child side contains 104 retained pre-1850 profile accounts.",
+  "comparison": "/branches/larne-kilwaughter/#chapter-kilwaughter-continuity-confidence",
+  "verification": {
+    "all_cohort_metrics_unchanged": true,
+    "cohort_metrics_independently_rederived": true,
+    "fixed_baseline_unchanged": true,
+    "all_live_fields_and_flags_unchanged": true,
+    "dna_payloads_unchanged": true,
+    "complete_public_profile_comparisons": 2,
+    "public_pending_updates": 259
+  },
+  "next_metric_check": {
+    "status": "RESOLVED",
+    "saved_confident_tree_flags_not_used_by_current_metric": 0,
+    "review": "/data/ancestry-confidence-method-review.json",
+    "scope": "Four competing-father cases remain held."
+  }
+}

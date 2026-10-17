@@ -1914,3 +1914,9 @@ The August completion entries remain historical. The live parent fields are now 
 | [John Glasgow of the Hillsdale family](https://www.wikitree.com/wiki/Glasgow-1968) | OPEN | Add two qualified working father links and separately probable Hillsdale core; retain all conflicts, alternatives and complete text. |
 | [James Glasgow of Corvanaghan](https://www.wikitree.com/wiki/Glasgow-2988) | OPEN | Add two qualified working father links and separately probable Hillsdale core; retain all conflicts, alternatives and complete text. |
 | [Unknown Mitchell, wife of the Cookstown James](https://www.wikitree.com/wiki/Mitchell-34480) | OPEN | Add two qualified working father links and separately probable Hillsdale core; retain all conflicts, alternatives and complete text. |
+
+
+## Kilwaughter continuity confidence — 17 October 2026
+
+| [James Glasgow of Kilwaughter](https://www.wikitree.com/wiki/Glasgow-1081) | OPEN | Add probable James continuity across 1669–1726 and its limits; John continuity already probable, parent and kinship grades unchanged. |
+| [John Glasgow senior of Kilwaughter](https://www.wikitree.com/wiki/Glasgow-3913) | OPEN | Add probable James continuity across 1669–1726 and its limits; John continuity already probable, parent and kinship grades unchanged. |

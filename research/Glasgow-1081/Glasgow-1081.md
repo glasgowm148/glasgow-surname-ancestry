@@ -1,4 +1,433 @@
-# WikiTree handoff: [James Glasgow (Glasgow-1081)](https://www.wikitree.com/wiki/Glasgow-1081)
+[[Category:Glasgow Name Study]]
 
-The current evidence, live-profile delta and paste-ready update are consolidated
-in [findings.md](findings.md). Do not use older detached update notes.
+== Biography ==
+{{Estimated Date}}
+'''James Glasgow'''—also recorded as '''James Glascho'''—was a householder, congregational officer and later Presbyterian ruling elder associated with '''Kilwaughter, County Antrim, Ireland'''. A James Glascho was recorded there in the 1669 Hearth Money Roll; James Glasgow appears in congregational affairs by 1700, and a later session list records James Glasgow deceased in '''1726'''. This profile provisionally brings those occurrences together, but continuity across the 57-year interval has not been proved and a same-name successor remains possible. A 1727 Connor diocesan probate index entry for James Glasgow of Kilwater is a strong follow-on match, although the original probate record is lost and supplies no relatives.
+
+His parents, birthplace and exact date of birth are not known.
+
+=== Robert Glasgow at Larne in 1653 ===
+
+A 1653 deposition records a '''Robert Glaskow''' as living at '''Larne, County Antrim'''.<ref>1641 Depositions Project, examination mentioning Robert Glaskow "living in Larne," 1653, [https://1641dep.abdn.ac.uk/items/show/42821.html 1641 Depositions Project, item 42821].</ref>
+
+In evidence concerning the death of Teige O'Sheale, a witness stated that he had heard that James Browne and Robert Glaskow, then living in Larne, had found O'Sheale. The account attributes the shooting to James Browne rather than directly to Robert.
+
+This is an important early occurrence of the Glasgow surname in Larne before James's appearance in the 1669 Hearth Money Roll.
+
+The record does not give Robert's age, birthplace, occupation, wife, children or relationship to James Glasgow.
+
+Robert may have belonged to the same Larne and Kilwaughter Glasgow family, and he could theoretically have been James's father, uncle or another close relative. At present no surviving evidence establishes the relationship.
+
+=== Kilwaughter householder in 1669 ===
+
+The 1669 County Antrim Hearth Money Roll records '''Jo. Glascho''' and '''James Glascho''' in Kilwaughter parish.<ref>Public Record Office of Northern Ireland, 1669 County Antrim Hearth Money Roll, T/307/A; W. Macafee, [https://www.billmacafee.com/1660shearthmoneyrolls/1669hearthmoneyrollsantrim.pdf transcription of the 1669 County Antrim Hearth Money Roll], records 5347–5348, PDF p. 36.</ref>
+
+Their consecutive entries, shared surname and shared parish strongly suggest a close association.
+
+The record itself gives no relationship. John may have been James's brother, father, son or another relative.
+
+Macafee's database standardises the locality as '''Kilwaughter Demesne''', but the transmitted townland field in the transcription is '''Unnamed'''. The safest description is therefore that James and John were recorded in '''Kilwaughter parish, in the section standardised by Macafee as the Demesne'''.
+
+Macafee's online material is several stages removed from the destroyed original rolls. The surviving database derives from earlier copies of the original records and should therefore be treated as a transcription rather than an image of the original assessment.<ref>W. Macafee, [https://www.billmacafee.com/17centurydatabases.htm Seventeenth-Century Census Substitutes], discussion of the provenance and transcription history of the surviving hearth-money material.</ref>
+
+The published transcription should not by itself be cited for a statement that James was taxed for exactly one hearth unless the number of hearths has been checked directly against PRONI T/307/A.
+
+The form ''Glascho'' is an historical or transmitted spelling of Glasgow. It should not be described as specifically Gaelic on the evidence of the hearth roll alone.
+
+=== Larne and Kilwaughter Presbyterian congregation ===
+
+James became a prominent member of the Presbyterian congregation serving Larne and Kilwaughter, sometimes known as the Head of the Town congregation.
+
+Surviving extracts from the congregational records show a cluster of adult Glasgow men involved in its affairs about 1700:<ref>Classon Porter, "Congregational Memoirs: Larne and Kilwaughter," ''The Christian Unitarian'' 2 (1863), pp. 409–414, [https://archive.org/details/christianunitari0002unse Internet Archive]; and 3 (1864), pp. 15–19, 196–198 and 379–380, [https://archive.org/details/christianunitari0003unse Internet Archive].</ref>
+
+* '''John Glasgow''' — associated with Kilwaughter in arrangements concerning ploughing and repairs.
+* '''James Glasgow''' — appointed to oversee building work for the Kilwaughter households.
+* '''Robert Glasgow''' — associated with the south side of the water in congregational arrangements.
+
+This demonstrates that James was not an isolated Glasgow resident. Several adult men of the surname were established within the congregation at the same period.
+
+No surviving congregational entry, however, explicitly describes John or Robert as James's brother, father or son.
+
+The John active about 1700 may be the '''Jo. Glascho''' recorded immediately beside James in 1669, but that identification is not directly proved.
+
+The Robert active about 1700 should not automatically be identified with the Robert living at Larne in 1653.
+
+=== Congregational officer in 1700 ===
+
+In 1700 James Glasgow was appointed an overseer for the Kilwaughter district.
+
+He participated in arrangements for work performed for the minister and supervised the construction of office-houses on behalf of the Kilwaughter households.<ref>Classon Porter, "Congregational Memoirs: Larne and Kilwaughter," ''The Christian Unitarian'' 3 (1864), [https://archive.org/details/christianunitari0003unse Internet Archive].</ref>
+
+His position indicates that he was a trusted and established member of the local Presbyterian community.
+
+The surviving elder roster associated with the early ministry of William Ogilvie does '''not''' include James Glasgow.
+
+James should therefore not be described as a proved ruling elder in 1700.
+
+His documented position at that date was a congregational or district overseer chosen to supervise practical affairs.
+
+=== Later ruling elder ===
+
+James later became a member of the '''session''' of the Larne and Kilwaughter congregation.
+
+A surviving cumulative session list covering the period beginning in 1721 includes '''James Glasgow''' among the members and carries the later annotation that he was '''deceased 1726'''.<ref>Classon Porter, "Congregational Memoirs: Larne and Kilwaughter," ''The Christian Unitarian'' 3 (1864), [https://archive.org/details/christianunitari0003unse Internet Archive], extracts from the Larne and Kilwaughter session records.</ref>
+
+Membership of a Presbyterian session establishes that James served as a '''ruling elder'''.
+
+Because the surviving session list was cumulative and the earlier session book for part of the period is missing, the exact year in which James became an elder is not known.
+
+The evidence supports the following sequence:
+
+* '''1669''' — householder in Kilwaughter parish.
+* '''1700''' — congregational overseer for Kilwaughter, but not included in the surviving early elder roster.
+* '''Between 1701 and 1726''' — became a ruling elder.
+* '''1721–1726''' — included in the surviving cumulative session list.
+* '''1726''' — recorded as deceased.
+
+It is therefore safest to describe him as a Presbyterian ruling elder '''later in life''', rather than assigning that office to him from 1700.
+
+=== Presbytery commissioner in 1722 ===
+
+In 1722 James Glasgow was one of six men attending Presbytery as commissioners from the Larne and Kilwaughter congregation.
+
+The same entry names '''Brice Blair''' separately as the congregation's elder for that particular meeting.<ref>Classon Porter, "Congregational Memoirs: Larne and Kilwaughter," ''The Christian Unitarian'' 3 (1864), [https://archive.org/details/christianunitari0003unse Internet Archive].</ref>
+
+James's participation as commissioner demonstrates his continuing importance in congregational government, but this 1722 entry alone should not be used as the primary proof that he was a ruling elder.
+
+His status as ruling elder is independently established by his inclusion in the session list.
+
+=== Death ===
+
+The session list annotates James Glasgow as:
+
+:'''deceased 1726'''
+
+This is the best surviving evidence for his year of death.<ref>Classon Porter, "Congregational Memoirs: Larne and Kilwaughter," ''The Christian Unitarian'' 3 (1864), [https://archive.org/details/christianunitari0003unse Internet Archive].</ref>
+
+His death should therefore be recorded as:
+
+* '''1726'''.
+* Exact date unknown.
+* Place uncertain, probably in or near Kilwaughter, County Antrim.
+
+There is no need to use "about 1726" if the session annotation itself explicitly gives the year.
+
+=== Probate ===
+
+The Connor diocesan wills index contains a 1727 probate entry for:
+
+:'''James Glasgow, Kilwater'''
+
+The combination of surname, locality and date makes this a very strong match for the James Glasgow recorded as deceased in 1726.<ref>Public Record Office of Northern Ireland, pre-1858 wills index, "Glasgow, James, Kilwater," Diocese of Connor, 1727, [https://apps.proni.gov.uk/ProniNames_IE/SearchPage.aspx PRONI Name Search].</ref>
+
+The original will or administration document does not appear to survive.
+
+The index therefore cannot presently identify his widow, children, executor, beneficiaries, brothers, other relatives or property.
+
+The most likely reconstruction is that James died in 1726 and probate proceedings followed in 1727.
+
+=== Associated Glasgow men ===
+
+Several Glasgow men can be associated with the Larne and Kilwaughter congregation during James's lifetime or soon afterwards.
+
+==== John Glasgow ====
+
+[[Glasgow-3913|'''John Glasgow''']] appears immediately before James in the 1669 Hearth Money Roll and was involved in Kilwaughter congregational arrangements about 1700.<ref>W. Macafee, [https://www.billmacafee.com/1660shearthmoneyrolls/1669hearthmoneyrollsantrim.pdf 1669 County Antrim Hearth Money Roll], records 5347–5348; Classon Porter, "Congregational Memoirs: Larne and Kilwaughter," ''The Christian Unitarian'' 3 (1864), [https://archive.org/details/christianunitari0003unse Internet Archive].</ref>
+
+He was probably a close relative of James.
+
+Possible relationships include:
+
+* Brother.
+* Father.
+* Son.
+* Another close relative.
+
+No surviving record specifies the relationship.
+
+A brother or close collateral relationship is plausible, but should not be presented as proved.
+
+==== Robert Glasgow ====
+
+A '''Robert Glasgow''' was active within the Larne and Kilwaughter congregation about 1700 on the south side of the water.<ref>Classon Porter, "Congregational Memoirs: Larne and Kilwaughter," ''The Christian Unitarian'' 3 (1864), [https://archive.org/details/christianunitari0003unse Internet Archive].</ref>
+
+A later '''Robert Glasgow''' also appears among the members of the session. A 1747 congregational minute records his removal from the session after he refused the required public discipline following fornication.<ref>Classon Porter, "Congregational Memoirs: Larne and Kilwaughter," ''The Christian Unitarian'' 3 (1864), [https://archive.org/details/christianunitari0003unse Internet Archive].</ref>
+
+It is not yet proved that the Robert active in 1700 and the later ruling elder were the same man.
+
+Neither is proved to have been James's son.
+
+==== Hugh Glasgow ====
+
+A later '''Hugh Glasgow''' appears as a member of the session and was recorded as deceased on '''8 July 1767'''.<ref>Classon Porter, "Congregational Memoirs: Larne and Kilwaughter," ''The Christian Unitarian'' 3 (1864), [https://archive.org/details/christianunitari0003unse Internet Archive].</ref>
+
+His membership of the same congregation and surname make him a likely member of the wider Kilwaughter Glasgow family.
+
+No surviving record proves him to have been James's son.
+
+=== Possible children and later generations ===
+
+No child of James Glasgow has yet been proved by a surviving primary or near-primary record.
+
+Several later Glasgow men associated with Kilwaughter may have been descendants or close relatives:
+
+* '''[[Glasgow-1499|Hugh Glasgow]]''' (about 1705–1767).
+* '''[[Glasgow-1504|James Glasgow]]''' (about 1707– ), possibly the man who married Sara Muray in 1727.
+* '''[[Glasgow-1505|William Glasgow]]''' (about 1708–about 1783).
+* '''[[Glasgow-1143|Robert Glasgow]]''' (about 1710–about 1772).
+
+Their presence demonstrates continuity of the Glasgow surname in the Kilwaughter area but does not establish parentage.
+
+Any children attached to James should remain marked '''uncertain''' unless supported by additional evidence.
+
+In particular, '''[[Glasgow-1469|James Glasgow]]''', reportedly born in 1736, cannot be a biological son of this James if the elder James was deceased in 1726. Either the relationship or one of the dates must be incorrect.
+=== Possible son: James Glasgow of Randalstown and Duneane ===
+
+'''[[Glasgow-1081|James Glasgow]]''', the ruling elder associated with Randalstown or Drummaul in 1698 and 1703 and probably Duneane in 1705, has been attached as an '''uncertain son''' of James Glasgow of Kilwaughter.
+
+The relationship is not stated in any surviving record. It is nevertheless chronologically and geographically plausible. James of Kilwaughter was already an independent householder in 1669, while the younger James first appears as a ruling elder in 1698. A son born during the 1660s or 1670s would fit that chronology comfortably.
+
+The 1669 County Antrim Hearth Money Roll also makes a family connection worth considering. Macafee's transcription records only three householders standardised under the surname Glasgow: Elizabeth ''Glascho'' at Glenarm and James and Jo. ''Glascho'' at Kilwaughter. No householder standardised as Glasgow appears in Drummaul or Duneane.<ref>W. Macafee, [https://www.billmacafee.com/1660shearthmoneyrolls/1669hearthmoneyrollsantrim.pdf transcription of the 1669 County Antrim Hearth Money Roll], entries for Elizabeth, James and Jo. Glascho.</ref>
+
+The later appearance of a James Glasgow as a Presbyterian ruling elder in western County Antrim could therefore represent a younger member of the established Kilwaughter-area Glasgow family who had moved west.
+
+James of Kilwaughter is presently treated as the possible father because the chronology works and the repeated given name is consistent with a father-son relationship. However, '''[[Glasgow-3913|John Glasgow]]''', recorded beside James at Kilwaughter in 1669, or another member of the same family could also have been the younger James's father.
+
+The parent-child relationship should therefore remain marked '''uncertain''' unless estate, congregational, probate or other evidence explicitly establishes it.
+
+=== Identity assessment ===
+
+The following records form a possible Kilwaughter sequence; they do not yet prove one continuous individual:
+
+:'''1669''' — James Glascho, Kilwaughter householder.
+:'''1700''' — James Glasgow, Kilwaughter congregational overseer.
+:'''By 1721–1726''' — James Glasgow, member of the Larne and Kilwaughter session and therefore a ruling elder.
+:'''1722''' — James Glasgow, commissioner to Presbytery.
+:'''1726''' — James Glasgow recorded deceased.
+:'''1727''' — James Glasgow of Kilwater, probate indexed in the Diocese of Connor.
+
+No single surviving document explicitly states that all these records concern the same man.
+
+Name, place and congregation support a working continuity hypothesis. However, an adult householder in 1669 surviving to 1726 would have been at least about 78. That is possible, but a same-name successor needs explicit testing in leases, rent rolls and church originals. The 1726 death and 1727 probate alignment is stronger than the unbridged 1669-to-1700 identity link.
+
+== Research Notes ==
+=== Kilwaughter identity review — 17 October 2026 ===
+
+'''Identity review, 17 October 2026:''' The 1669 Kilwaughter James and the later overseer/elder are now assessed as '''probably one man''', from the combined John–James local sequence. This strengthens the identity supporting the branch; his father, children and exact kinship to John are not upgraded.
+
+The preferred identification is one James Glasgow from the Kilwaughter Demesne hearth household of 1669 to the Kilwaughter overseer of probably 29 May 1701 and the later elder marked deceased in 1726. Assess that continuity as probable rather than unresolved. The hearth roll places Jo and James Glascho consecutively in the same demesne, records 5347–5348. The later congregational extracts again contain both names acting for Kilwaughter: John senior in 1700 and an unmarked John in 1700/01, whose individual identity remains open, and James as overseer in probably 1701. John’s already-probable continuity supplies a coherent parallel ageing household, rather than leaving James’s later occurrence as an isolated name match. James’s later elder, 1722 commissioner and 1727 Kilwater probate-index accounts were already assessed as probably one man. The repeated local pairing, the particular district served and an ordinary adult generation in 1700/01 together favour continuity over an otherwise unattested replacement James. The preference uses the combined local sequence; no literal same-man clause is required.
+
+The inference is not documented identity. The later men never occur together in the same reviewed minute, the 1669 roll does not state a kin relationship, and similar spellings are not independent identifiers. Kilwaughter Demesne and the later Kilwaughter district are compatible but not identical address statements. A father-and-son succession or another local James remains possible. Assuming an adult aged at least 21 in 1669 would make James at least about 74 in 1722 and 78 in 1726; those are conditional age calculations, not recorded ages or a new birth bound. His local commission in 1722 is compatible with advanced age, but the long career is the strongest reason for caution. No age at death, occupation, holding or named relative equates the occurrences. The missing 1701–1721 session sequence leaves a real gap. Porter’s 1699–1701 extracts are a printed transcription of a manuscript copy; the later extracts and lost probate index do not independently prove the earlier identity. The probable grade is an overall inference across the groups, not the product of independent probabilities. Neither the 1726 death annotation nor the 1727 probate is newly assigned to a separate earlier James; they remain events of the later elder whose identification with the 1669 man is now probable.
+
+This strengthens the identity at the head of James’s existing 104-profile pre-1850 working branch. The number describes retained profile accounts, including uncertain descendants and unresolved identities. John’s 1669-to-1700 identity was already probable and is not counted as a new upgrade. Exact kinship between John and James remains possible: brother, father and son, uncle and nephew or cousin are not distinguished. Glasgow-3970 of Larne remains their uncertain proposed father. The Scottish Robert and James comparisons, the later South Side family represented by Glasgow-1502 and all mothers retain their separate assessments. No father or mother is regraded, no profile is merged, and no birth, death or place field is changed. Working, supported and confidently marked paternal connectivity are unchanged. This is a re-evaluation of the maintained source readings, not a newly found record or fresh original inspection. Nothing is saved to live WikiTree.
+
+<ref name="KilwaughterContinuity2026">[https://www.billmacafee.com/1660shearthmoneyrolls/1669hearthmoneyrollsantrim.pdf Macafee, 1669 Antrim Hearth Money Roll, PRONI T/307/A, PDF p.36, records 5347–5348: adjacent Jo and James Glascho at Kilwaughter Demesne; maintained review reused]; [https://archive.org/details/christianunitari0002unse/page/411/mode/1up Classon Porter, The Christian Unitarian 2 (1863), pp.410–414: John Glasgow senior in 1700; page-image review of 6 October 2026 reused]; [https://archive.org/details/christianunitari0003unse/page/18/mode/1up Porter, The Christian Unitarian 3 (1864), pp.16–19: Kilwaughter John and James’s overseer entry, probably 29 May 1701; maintained dated review reused]; [https://archive.org/details/christianunitari0003unse/page/197/mode/1up Porter, The Christian Unitarian 3 (1864), pp.197–198: James elder, deceased 1726, and commissioner in 1722; maintained page-image review reused]; [https://apps.proni.gov.uk/ProniNames_IE/SearchPage.aspx PRONI Name Search, Connor wills index: James Glasgow, Kilwater, 1727; previously inspected index, original reported lost].</ref>
+
+[https://glasgow.phenotype.dev/branches/larne-kilwaughter/#chapter-kilwaughter-continuity-confidence Full comparison and remaining questions].
+
+
+=== Possible Scottish identity ===
+
+The Scottish child now represented separately by [[Glasgow-3971|James Glasgow]] was recorded in a Glasgow parish index in November 1645 as a child of '''[[Glasgow-1078|Robert Glasgow]]''' and '''[[Cunningham-22604|Jonet Cunningham]]'''.<ref>"Scotland, Births and Baptisms, 1564-1950," FamilySearch database, James Glasgow, November 1645, parents Robert Glasgow and Jonet Cunningham, [https://www.familysearch.org/ark:/61903/1:1:VQHK-VMK FamilySearch record VQHK-VMK]; derived from the Glasgow Old Parish Register.</ref>
+
+Derivative references give both '''11 November''' and '''25 November 1645'''. The original register page has not yet been examined, so it is unclear whether these represent birth, baptism, registration or an indexing difference.
+
+Until the original page is reviewed, the safest statement concerning this Scottish child is only '''November 1645'''.
+
+The chronology is compatible with the Kilwaughter man. If born in November 1645, he would have been about twenty-three or twenty-four when recorded as an independent householder in 1669, about fifty-five in 1700, and about eighty at his death in 1726.
+
+Chronological compatibility is not evidence of identity.
+
+No known record states that James of Kilwaughter:
+
+* Was born in Glasgow.
+* Was a son of Robert Glasgow.
+* Was a son of Jonet Cunningham.
+* Migrated from Scotland to Ireland.
+* Was related to the Robert Glaskow recorded at Larne in 1653.
+
+The proposed identification of [[Glasgow-3971|the Scottish James]] with this Kilwaughter man remains an open, low-to-moderate hypothesis. The profiles should remain separate and must not be merged without a record bridging origin, kinship or migration.
+
+=== Parentage assessment ===
+
+The parents of James Glasgow of Kilwaughter are presently '''unknown'''.
+
+'''[[Glasgow-1078|Robert Glasgow]]''' and '''[[Cunningham-22604|Jonet Cunningham]]''' should not presently be described as his probable or established parents.
+
+They were the parents of a James Glasgow recorded in Glasgow in November 1645.<ref>"Scotland, Births and Baptisms, 1564-1950," FamilySearch database, [https://www.familysearch.org/ark:/61903/1:1:VQHK-VMK James Glasgow, November 1645], parents Robert Glasgow and Jonet Cunningham.</ref>
+
+What remains unproved is whether that child was James of Kilwaughter.
+
+There is also a separate unproved proposition that the Scottish father Robert Glasgow was identical with the Robert Glaskow living at Larne in 1653.
+
+The proposed pedigree therefore requires both of the following identifications to be correct:
+
+* The Scottish James recorded in 1645 was James of Kilwaughter.
+* The Scottish Robert Glasgow was Robert Glaskow of Larne in 1653.
+
+Neither has yet been demonstrated by a record naming origins, kinship or migration.
+
+The Scottish couple may remain in Research Notes as candidate parents, but attaching them as parents on the profile risks turning a plausible hypothesis into copied genealogical fact.
+
+=== Current Irish reconstruction ===
+
+The strongest current reconstruction is:
+
+:'''Robert Glaskow''' — living at Larne in 1653; relationship to the later Kilwaughter Glasgows unknown.
+:'''John Glasgow''' — Kilwaughter in 1669 and probably the John active there about 1700.
+:'''James Glasgow''' — Kilwaughter in 1669; overseer in 1700; later ruling elder; died 1726.
+:'''Robert Glasgow''' — active in the Larne and Kilwaughter congregation about 1700; relationship unknown.
+
+These records establish a local Glasgow surname cluster and probable kinship network. They do '''not''' establish parent-child relationships.
+
+=== Scottish hypothesis ===
+
+The separate working hypothesis is:
+
+:'''[[Glasgow-1078|Robert Glasgow]]''' married '''[[Cunningham-22604|Jonet Cunningham]]'''.
+:* Their son '''James Glasgow''' was recorded at Glasgow in November 1645.
+:* That James may subsequently have migrated to County Antrim.
+:* He may have been the James Glasgow recorded at Kilwaughter from 1669.
+
+This remains unproved.
+
+=== Evidence against merging with the western elder ===
+
+The General Synod records give the following sequence:<ref>Presbyterian Church in Ireland, ''Records of the General Synod of Ulster, from 1691 to 1820'', vol. 1 (Belfast, 1890), [https://archive.org/details/recordsofgeneral01pres Internet Archive].</ref>
+
+* '''1698''' — William Taylor / James Glasgow.
+* '''1703''' — William Taylor / James Glasgow.
+* '''1703''' — William Ogilvie / James Caldwell.
+* '''1705''' — James Scott / James Glasgow.
+* '''1705''' — William Taylor / Robert King.
+
+William Taylor was minister of Randalstown or Drummaul.
+
+William Ogilvie was minister of Larne and Kilwaughter.
+
+James Scott was minister of Duneane.
+
+The placement of James Glasgow beside Taylor in 1698 and 1703, followed by Scott in 1705, strongly favours a western-Antrim identity separate from James of Kilwaughter.
+
+=== Not to be confused with ===
+
+James of Kilwaughter should not presently be merged with:
+
+* The '''James Glasgow''' who served as ruling elder for Randalstown in 1698 and 1703 and probably Duneane in 1705.
+* [[Glasgow-1376|James Glasgow (bef.1657-)]], the Covenanter.
+* [[Glasgow-3077|James Glasgow (1640-)]].
+* Other contemporary Scottish men of the name.
+
+=== Date and place guidance ===
+
+Recommended profile data:
+
+* '''Birth:''' uncertain; exact date unknown.
+* '''Birthplace:''' unknown.
+* '''Parents:''' unknown.
+* '''Residence:''' Kilwaughter parish, County Antrim, by 1669.
+* '''Religion:''' Presbyterian.
+* '''Occupation/status:''' householder; congregational overseer; later ruling elder.
+* '''Death:''' 1726, exact date unknown.
+* '''Death place:''' uncertain, probably County Antrim.
+* '''Probate:''' Diocese of Connor, 1727.
+
+If the profile requires a birth estimate, a conservative form would be:
+
+:'''Birth before 1649, place unknown'''
+
+This is based only on his appearance as an independent householder in 1669.
+
+Alternatively, '''November 1645, uncertain''' could be retained only if the profile is explicitly using the proposed Scottish identity as an uncertain working hypothesis.
+
+=== Record-loss caution ===
+
+The surviving evidence is affected by substantial record loss.
+
+The original Irish hearth-money rolls were destroyed in the 1922 Public Record Office fire. The surviving County Antrim material derives through earlier copies rather than the original rolls.<ref>W. Macafee, [https://www.billmacafee.com/17centurydatabases.htm Seventeenth-Century Census Substitutes].</ref>
+
+Many pre-1858 Irish wills were also destroyed.
+
+Absence of explicit family relationships in the surviving sources therefore does not imply that such records never existed.
+
+=== Research priorities ===
+
+'''Kilwaughter estate papers and rentals'''
+
+* PRONI D282.
+* NRS GD154/505–534.
+* Search leases, renewals, rentals and named lives involving James, John and Robert Glasgow.
+* A lease identifying "James, son of Robert Glasgow" or equivalent wording would be decisive.
+
+'''Original Larne and Kilwaughter session books'''
+
+* PRONI MIC1B/6A/1B and associated volumes.
+* Inspect the cumulative elder list and the original annotation beside James.
+* Search every surviving entry from 1721 through 1727 for his admission as elder, illness, death, burial costs, mortcloth payments, widow, executor or relatives.
+* Porter's articles are extracts rather than a diplomatic transcription and may omit genealogically useful details.
+
+'''1666 County Antrim subsidy roll'''
+
+* PRONI T/808/14889.
+* Search separately for Glasgow, Glascho, Glaskow, Glass and similar forms.
+* This may establish James, John or Robert in Kilwaughter before 1669.
+
+'''1727 probate substitutes'''
+
+* Betham abstracts.
+* Crosslé manuscripts.
+* Groves collection.
+* Thrift abstracts.
+* Surviving Connor diocesan administration material.
+* Search for an executor, widow, legatees or property description.
+
+'''Registry of Deeds'''
+
+* Search from 1709 onward for Glasgow grantors, lessees, witnesses and memorials involving Kilwaughter or the Agnew estate.
+* Particular attention should be given to deeds after James's death where a widow, son, heir or executor renewed or assigned a lease.
+
+'''Original Glasgow Old Parish Register page'''
+
+* Examine the original page containing the November 1645 entry.
+* Determine whether 11 and 25 November represent birth and baptism.
+* Record any residence, occupation or witnesses supplied.
+* Search surrounding entries and siblings of the Scottish James for names later appearing in County Antrim.
+* National Records of Scotland guidance: [https://www.nrscotland.gov.uk/learning-and-events/research-guides/old-parish-registers/ Old Parish Registers research guide].
+
+'''Glasgow burgess records'''
+
+* Examine the complete 1655 absent-burgess material, Glasgow City Archives C1/1/13.
+* Evidence explicitly placing Robert Glasgow in Ireland, Larne or Carrickfergus would materially strengthen the Scottish hypothesis.
+* A bare statement that he was absent would not establish migration to County Antrim.
+
+=== Belfast namesake and possible collateral ===
+[[Glasgow-3172|Captain James Glasgow of Belfast]] may have been a younger relative of [[Glasgow-3970|Robert Glaskow of Larne]] and a collateral of this Kilwaughter household. Belfast, Larne and Kilwaughter form a plausible north-east Antrim corridor, but no record states the relationship.<ref>Public Record Office of Northern Ireland, MIC19/2, maritime material for Captain James Glasgow or Glascow; T/828/15, will extract for James Glasgow of Belfast, 1686.</ref>
+
+The two profiles remain separate because their identity has not been established. The Belfast testamentary reference carries the year 1686, but that has not been verified as a death or probate date; a will date alone cannot exclude survival into the 1720s. Read the full Belfast extract before treating chronology as decisive evidence against identity.
+
+=== Precise early estate targets ===
+
+National Records of Scotland's Agnew catalogue identifies Kilwaghter tenant goods and livestock and a rental, c.1653 (GD154/514-515); rentals, c.1690 (GD154/525, two items); rent rolls and accounts, November 1692 (GD154/530, three items); and rent rolls and accounts, 1693-1708 (GD154/532, eight items). The inspected item descriptions state Open / On site. These are concrete targets for testing the 1669-to-1700 continuity and possible family succession, but their tenant names and original contents have not yet been read; the catalogue itself establishes no Glasgow occurrence or relationship.<ref>National Records of Scotland, Agnew family of Lochnaw papers, GD154/514, 515, 525, 530 and 532; item descriptions inspected 21 September 2026. [https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD154%2F532&st=1&tc=y&tl=n&tn=n&tp=n GD154/532 catalogue entry].</ref>
+
+== Sources ==
+<references />
+
+* '''1641 Depositions Project.''' 1653 examination mentioning Robert Glaskow as living in Larne. [https://1641dep.abdn.ac.uk/items/show/42821.html Item 42821].
+
+* '''Public Record Office of Northern Ireland.''' 1669 County Antrim Hearth Money Roll, T/307/A.
+
+* '''Macafee, W.''' 1669 County Antrim Hearth Money Roll transcription. Entries for Jo. Glascho and James Glascho, records 5347–5348. [https://www.billmacafee.com/1660shearthmoneyrolls/1669hearthmoneyrollsantrim.pdf PDF transcription].
+
+* '''Macafee, W.''' "Seventeenth-Century Census Substitutes." [https://www.billmacafee.com/17centurydatabases.htm Bill Macafee website].
+
+* '''Porter, Classon.''' "Congregational Memoirs: Larne and Kilwaughter." ''The Christian Unitarian'', vol. 2 (1863), pp. 409–414. [https://archive.org/details/christianunitari0002unse Internet Archive].
+
+* '''Porter, Classon.''' "Congregational Memoirs: Larne and Kilwaughter." ''The Christian Unitarian'', vol. 3 (1864), pp. 15–19, 196–198, 379–380. [https://archive.org/details/christianunitari0003unse Internet Archive].
+
+* '''Presbyterian Church in Ireland.''' ''Records of the General Synod of Ulster, from 1691 to 1820'', vol. 1. Belfast, 1890. [https://archive.org/details/recordsofgeneral01pres Internet Archive]. [https://archive.org/stream/recordsofgeneral01pres/recordsofgeneral01pres_djvu.txt Searchable OCR text].
+
+* '''Public Record Office of Northern Ireland.''' Pre-1858 wills index, "Glasgow, James, Kilwater," Diocese of Connor, 1727. [https://apps.proni.gov.uk/ProniNames_IE/SearchPage.aspx PRONI Name Search].
+
+* '''FamilySearch.''' "Scotland, Births and Baptisms, 1564-1950," James Glasgow, November 1645, parents Robert Glasgow and Jonet Cunningham, record VQHK-VMK. [https://www.familysearch.org/ark:/61903/1:1:VQHK-VMK FamilySearch].
+
+* '''National Records of Scotland.''' "Old Parish Registers." [https://www.nrscotland.gov.uk/learning-and-events/research-guides/old-parish-registers/ Research guide].
