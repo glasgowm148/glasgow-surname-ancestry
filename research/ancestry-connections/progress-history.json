@@ -10179,6 +10179,182 @@
       "event_type": "working_connection",
       "genealogical_connections_added": 1,
       "note": "One new possible father: John Glasgow-3094 to James Glasgow-3523, subjective 41%. No confidence upgrades or new cohort members."
+    },
+    {
+      "date": "2026-10-18",
+      "method_version": 3,
+      "input_fingerprint": "da8831dea94ec2b81ee894933bc9cc6b779b4ec5560d616898c7ed101bb120e3",
+      "metrics": {
+        "working": {
+          "population": 1787,
+          "edge_count": 1377,
+          "component_count": 412,
+          "largest_component_size": 1123,
+          "largest_component_percent": 62.84275321768327,
+          "connected_pairs_percent": 39.54089225970068,
+          "edge_status_counts": {
+            "confident": 309,
+            "dna_confirmed": 1,
+            "possible": 17,
+            "probable": 25,
+            "proved": 36,
+            "strongly_supported": 16,
+            "uncertain": 173,
+            "unmarked": 800
+          },
+          "quality": {
+            "cycles": [],
+            "cycle_edges_excluded": 0,
+            "later_born_ancestors_excluded": [],
+            "undated_ancestors": []
+          },
+          "connector_ids": [
+            "record-george-mureistoun-1586",
+            "record-john-glasgw-stirling-1475"
+          ],
+          "unattached_multi_child_roots": 39,
+          "family_root_count": 47
+        },
+        "supported": {
+          "population": 1787,
+          "edge_count": 387,
+          "component_count": 1401,
+          "largest_component_size": 46,
+          "largest_component_percent": 2.574146614437605,
+          "connected_pairs_percent": 0.19983819936319983,
+          "edge_status_counts": {
+            "confident": 309,
+            "dna_confirmed": 1,
+            "probable": 25,
+            "proved": 36,
+            "strongly_supported": 16
+          },
+          "quality": {
+            "cycles": [],
+            "cycle_edges_excluded": 0,
+            "later_born_ancestors_excluded": [],
+            "undated_ancestors": []
+          },
+          "connector_ids": [
+            "record-george-mureistoun-1586"
+          ],
+          "unattached_multi_child_roots": 42,
+          "family_root_count": 54
+        },
+        "confident": {
+          "population": 1787,
+          "edge_count": 362,
+          "component_count": 1425,
+          "largest_component_size": 26,
+          "largest_component_percent": 1.4549524342473419,
+          "connected_pairs_percent": 0.13761200558218464,
+          "edge_status_counts": {
+            "confident": 309,
+            "dna_confirmed": 1,
+            "proved": 36,
+            "strongly_supported": 16
+          },
+          "quality": {
+            "cycles": [],
+            "cycle_edges_excluded": 0,
+            "later_born_ancestors_excluded": [],
+            "undated_ancestors": []
+          },
+          "unattached_multi_child_roots": 48,
+          "family_root_count": 56
+        }
+      },
+      "fixed_cohort": {
+        "working": {
+          "population": 1776,
+          "edge_count": 1375,
+          "component_count": 405,
+          "largest_component_size": 1120,
+          "largest_component_percent": 63.06306306306306,
+          "connected_pairs_percent": 39.818931607664005,
+          "edge_status_counts": {
+            "confident": 309,
+            "dna_confirmed": 1,
+            "possible": 17,
+            "probable": 24,
+            "proved": 35,
+            "strongly_supported": 16,
+            "uncertain": 173,
+            "unmarked": 800
+          },
+          "quality": {
+            "cycles": [],
+            "cycle_edges_excluded": 0,
+            "later_born_ancestors_excluded": [],
+            "undated_ancestors": []
+          },
+          "connector_ids": [
+            "Glasgow-4152",
+            "Glasgow-4176",
+            "record-george-mureistoun-1586",
+            "record-john-glasgw-stirling-1475"
+          ],
+          "unattached_multi_child_roots": 39,
+          "family_root_count": 47
+        },
+        "supported": {
+          "population": 1776,
+          "edge_count": 385,
+          "component_count": 1394,
+          "largest_component_size": 46,
+          "largest_component_percent": 2.59009009009009,
+          "connected_pairs_percent": 0.20162415937063824,
+          "edge_status_counts": {
+            "confident": 309,
+            "dna_confirmed": 1,
+            "probable": 24,
+            "proved": 35,
+            "strongly_supported": 16
+          },
+          "quality": {
+            "cycles": [],
+            "cycle_edges_excluded": 0,
+            "later_born_ancestors_excluded": [],
+            "undated_ancestors": []
+          },
+          "connector_ids": [
+            "Glasgow-4152",
+            "Glasgow-4176",
+            "record-george-mureistoun-1586"
+          ],
+          "unattached_multi_child_roots": 42,
+          "family_root_count": 54
+        },
+        "confident": {
+          "population": 1776,
+          "edge_count": 361,
+          "component_count": 1417,
+          "largest_component_size": 26,
+          "largest_component_percent": 1.4639639639639639,
+          "connected_pairs_percent": 0.13894175866006853,
+          "edge_status_counts": {
+            "confident": 309,
+            "dna_confirmed": 1,
+            "proved": 35,
+            "strongly_supported": 16
+          },
+          "quality": {
+            "cycles": [],
+            "cycle_edges_excluded": 0,
+            "later_born_ancestors_excluded": [],
+            "undated_ancestors": []
+          },
+          "connector_ids": [
+            "Glasgow-4152",
+            "Glasgow-4176"
+          ],
+          "unattached_multi_child_roots": 48,
+          "family_root_count": 56
+        }
+      },
+      "event_type": "publication_reconciliation",
+      "genealogical_connections_added": 0,
+      "note": "Torryburn 1689: restore existing James-4176 father and Jean Mitchell-58830 mother; assess each named record role documented, 98%. One existing historical father account enters the public cohort. No new genealogical connection or early-trunk join."
     }
   ]
 }

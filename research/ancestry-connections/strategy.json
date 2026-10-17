@@ -4149,6 +4149,39 @@
       "counted_as_new_connection": true,
       "reviewed": "2026-10-17",
       "certainty_upgrades": 0
+    },
+    {
+      "id": "torryburn-1689-family",
+      "year": 1689,
+      "title": "Torryburn: restore the named family before testing older ancestry",
+      "status": "Documented parents, 98%; earlier ancestry unresolved",
+      "people": [
+        {
+          "name": "John Glasgow",
+          "url": "/people/glasgow-4125.html"
+        },
+        {
+          "name": "James Glasgow",
+          "url": "/people/glasgow-4176.html"
+        },
+        {
+          "name": "Jean Mitchell",
+          "url": "/people/mitchell-58830.html"
+        }
+      ],
+      "basis": "The maintained Findmypast transcript of the 15 October 1689 Torryburn baptism names John Glasgow, father James Glasgow and mother Jean Mitchell. James-4176 and Mitchell-58830 were created specifically for those named adults and their current public biographies define them by this same event. No later adult identity or guessed parent generation is needed to identify these record roles. Assess each parent–child relationship as documented, 98% subjective confidence, allowing for an uninspected original and derivative transcription.",
+      "next_test": "Inspect OPR 458/2, item 4 for residence, witnesses and exact wording; then compare the same register for the couple’s marriage and other children. Search the exact James Glasgow/Jean Mitchell pair and literal surname variants before selecting a birth family. No specifically supported earlier Fife household emerged from the bounded current catalogue comparison; a web search is not a search of the parish register.",
+      "genealogical_connections_added": 0,
+      "sources": [
+        {
+          "label": "Torryburn 1689 baptism transcript, OPR 458/2 item 4",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F2618062&tab=this"
+        }
+      ],
+      "record_references": [
+        "Torryburn OPR 458/2, item 4, 15 October 1689",
+        "Findmypast SCOT/OPR/BAP/2618062, captured 3 September 2026"
+      ]
     }
   ],
   "source_basis": "Initial priorities reconcile existing medieval bridge research, the pre-1550 relationship audit and the resolved public catalogue. They are current working comparisons, not newly discovered kinship records."

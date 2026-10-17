@@ -12784,5 +12784,97 @@
       "source_scope": "Maintained marriage and baptism citations reused; the original printed Dalziel parish boundary description newly inspected. No new kinship record.",
       "live_wikitree_status": "Unchanged; local working hypothesis only."
     }
+  },
+  {
+    "assertion_id": "C-reviewed-20261017-torryburn-john-father",
+    "people": [
+      "Glasgow-4125",
+      "Glasgow-4176"
+    ],
+    "profile_names": {
+      "Glasgow-4125": "John Glasgow",
+      "Glasgow-4176": "James Glasgow",
+      "Mitchell-58830": "Jean Mitchell"
+    },
+    "status": "proved",
+    "publication_status": "approved",
+    "assessment_date": "2026-10-17",
+    "allow_new_relationship": true,
+    "working_selection": false,
+    "basis": "The maintained Findmypast transcript of the 15 October 1689 Torryburn baptism names John Glasgow, father James Glasgow and mother Jean Mitchell. James-4176 and Mitchell-58830 were created specifically for those named adults and their current public biographies define them by this same event. No later adult identity or guessed parent generation is needed to identify these record roles. Assess each parent–child relationship as documented, 98% subjective confidence, allowing for an uninspected original and derivative transcription.",
+    "limitations": "This is one register entry, not several independent sources or a recurring series. The transcript was captured on 3 September 2026 and is reused; the original OPR 458/2 image has not been inspected. The parents’ before-1670 dates are inherited age estimates, not recorded ages or hard biological bounds; Torryburn is event context, not a proved birthplace. No marriage date, further child, occupation, parent of James or Jean, or link to another Glasgow family is established. John’s later life remains unknown. The existing live family links are retained; no live edits, mergers or new people are made.",
+    "record_scope": "The three people defined by the 1689 Torryburn baptism; no cross-record adult identity.",
+    "source_ids": [
+      "fmp-glasgow-b8c8c6842a85"
+    ],
+    "perspectives": {
+      "Glasgow-4125": {
+        "relationship": "father",
+        "reason": "The maintained Findmypast transcript of the 15 October 1689 Torryburn baptism names John Glasgow, father James Glasgow and mother Jean Mitchell. James-4176 and Mitchell-58830 were created specifically for those named adults and their current public biographies define them by this same event. No later adult identity or guessed parent generation is needed to identify these record roles. Assess each parent–child relationship as documented, 98% subjective confidence, allowing for an uninspected original and derivative transcription."
+      },
+      "Glasgow-4176": {
+        "relationship": "son",
+        "reason": "The maintained Findmypast transcript of the 15 October 1689 Torryburn baptism names John Glasgow, father James Glasgow and mother Jean Mitchell. James-4176 and Mitchell-58830 were created specifically for those named adults and their current public biographies define them by this same event. No later adult identity or guessed parent generation is needed to identify these record roles. Assess each parent–child relationship as documented, 98% subjective confidence, allowing for an uninspected original and derivative transcription."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Torryburn baptism and family",
+        "href": "/people/glasgow-4125.html#research-findings"
+      }
+    ],
+    "provenance": {
+      "prior_assessment": "Existing WikiTree parent, explicitly unmarked in anonymous getPeople DataStatus Father on 2026-10-17",
+      "source_scope": "Maintained 2026-09-03 transcript reassessed; current public family fields checked, original register uninspected.",
+      "confidence_upgrade": true,
+      "live_flag_changed": false,
+      "genealogical_connections_added": 0
+    }
+  },
+  {
+    "assertion_id": "C-reviewed-20261017-torryburn-john-mother",
+    "people": [
+      "Glasgow-4125",
+      "Mitchell-58830"
+    ],
+    "profile_names": {
+      "Glasgow-4125": "John Glasgow",
+      "Glasgow-4176": "James Glasgow",
+      "Mitchell-58830": "Jean Mitchell"
+    },
+    "status": "proved",
+    "publication_status": "approved",
+    "assessment_date": "2026-10-17",
+    "allow_new_relationship": true,
+    "working_selection": false,
+    "basis": "The maintained Findmypast transcript of the 15 October 1689 Torryburn baptism names John Glasgow, father James Glasgow and mother Jean Mitchell. James-4176 and Mitchell-58830 were created specifically for those named adults and their current public biographies define them by this same event. No later adult identity or guessed parent generation is needed to identify these record roles. Assess each parent–child relationship as documented, 98% subjective confidence, allowing for an uninspected original and derivative transcription.",
+    "limitations": "This is one register entry, not several independent sources or a recurring series. The transcript was captured on 3 September 2026 and is reused; the original OPR 458/2 image has not been inspected. The parents’ before-1670 dates are inherited age estimates, not recorded ages or hard biological bounds; Torryburn is event context, not a proved birthplace. No marriage date, further child, occupation, parent of James or Jean, or link to another Glasgow family is established. John’s later life remains unknown. The existing live family links are retained; no live edits, mergers or new people are made.",
+    "record_scope": "The three people defined by the 1689 Torryburn baptism; no cross-record adult identity.",
+    "source_ids": [
+      "fmp-glasgow-b8c8c6842a85"
+    ],
+    "perspectives": {
+      "Glasgow-4125": {
+        "relationship": "mother",
+        "reason": "The maintained Findmypast transcript of the 15 October 1689 Torryburn baptism names John Glasgow, father James Glasgow and mother Jean Mitchell. James-4176 and Mitchell-58830 were created specifically for those named adults and their current public biographies define them by this same event. No later adult identity or guessed parent generation is needed to identify these record roles. Assess each parent–child relationship as documented, 98% subjective confidence, allowing for an uninspected original and derivative transcription."
+      },
+      "Mitchell-58830": {
+        "relationship": "son",
+        "reason": "The maintained Findmypast transcript of the 15 October 1689 Torryburn baptism names John Glasgow, father James Glasgow and mother Jean Mitchell. James-4176 and Mitchell-58830 were created specifically for those named adults and their current public biographies define them by this same event. No later adult identity or guessed parent generation is needed to identify these record roles. Assess each parent–child relationship as documented, 98% subjective confidence, allowing for an uninspected original and derivative transcription."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Torryburn baptism and family",
+        "href": "/people/glasgow-4125.html#research-findings"
+      }
+    ],
+    "provenance": {
+      "prior_assessment": "Existing WikiTree parent, explicitly unmarked in anonymous getPeople DataStatus Mother on 2026-10-17",
+      "source_scope": "Maintained 2026-09-03 transcript reassessed; current public family fields checked, original register uninspected.",
+      "confidence_upgrade": true,
+      "live_flag_changed": false,
+      "genealogical_connections_added": 0
+    }
   }
 ]

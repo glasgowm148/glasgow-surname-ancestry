@@ -4996,5 +4996,28 @@
         "role": "Parish context only,not named"
       }
     }
+  },
+  {
+    "record_id": "fmp-glasgow-b8c8c6842a85",
+    "record_type": "baptism",
+    "date": "1689-10-15",
+    "year": 1689,
+    "place": "Torryburn, Fife, Scotland",
+    "source_title": "Findmypast, Scotland, Parish Births & Baptisms 1564–1929, Torryburn, Fife, OPR 458/2, item 4: John Glasgow, baptised 15 October 1689; parents James Glasgow and Jean Mitchell; transcript SCOT/OPR/BAP/2618062, captured 3 September 2026.",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F2618062&tab=this",
+    "source_quality": "derivative",
+    "status": "Maintained captured transcript reassessed 17 October 2026; original register uninspected",
+    "note": "Named household only; no later identities, marriage or parents’ ages stated.",
+    "profiles": {
+      "Glasgow-4125": {
+        "role": "baptised child"
+      },
+      "Glasgow-4176": {
+        "role": "named father"
+      },
+      "Mitchell-58830": {
+        "role": "named mother"
+      }
+    }
   }
 ]

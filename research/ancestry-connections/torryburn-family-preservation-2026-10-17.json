@@ -1,0 +1,39 @@
+{
+  "reviewed": "2026-10-17",
+  "method": "Full public biographies preserved; an additive source-scope note precedes Sources. No original passage or distinct citation removed.",
+  "profiles": {
+    "Glasgow-4125": {
+      "current_sha256": "a9adf1cd2bf0b9711d8df68784fb82fb9797a2e3e1971753e55b831ed2c2a9d1",
+      "proposed_sha256": "929311c01ae305a6c63db95c6a8d8fd4c0c02e11c17562ae682bce812e5e774e",
+      "all_substantive_passages_accounted_for": true,
+      "passages_preserved": true,
+      "source_urls_preserved": true,
+      "material_changes": [
+        "Add source and identity scope; retain every captured passage and citation."
+      ],
+      "formatting_note": "Normal builder whitespace removes blank lines after section headings; every substantive captured line and distinct source is preserved."
+    },
+    "Glasgow-4176": {
+      "current_sha256": "f847ab86744abae30fb75d798027bfe63a8b389672d63de7b7236977851ca6f8",
+      "proposed_sha256": "ff2ca277aae9c223a620be358184751303c01a9f5044756b2cc5e055fa51aefd",
+      "all_substantive_passages_accounted_for": true,
+      "passages_preserved": true,
+      "source_urls_preserved": true,
+      "material_changes": [
+        "Add source and identity scope; retain every captured passage and citation."
+      ],
+      "formatting_note": "Normal builder whitespace removes blank lines after section headings; every substantive captured line and distinct source is preserved."
+    },
+    "Mitchell-58830": {
+      "current_sha256": "e4699e16ec200221c8e7c6a461a6ac1a5b40510effafa442fc78a40a9b5f1263",
+      "proposed_sha256": "7b5195628e8e89b608078f52b883bf7faa6060c674a65595ae95d8c43d07d661",
+      "all_substantive_passages_accounted_for": true,
+      "passages_preserved": true,
+      "source_urls_preserved": true,
+      "material_changes": [
+        "Add source and identity scope; retain every captured passage and citation."
+      ],
+      "formatting_note": "Normal builder whitespace removes blank lines after section headings; every substantive captured line and distinct source is preserved."
+    }
+  }
+}

@@ -2333,3 +2333,10 @@ Burial-defined Walter remains on source-verification HOLD in the existing creati
 | [John Glasgow, Ann Clerk household](https://www.wikitree.com/wiki/Glasgow-3094) | OPEN | Add James Glasgow-3523 of Dalziel as possible father (41%); retain unknown mother and competing generational models. |
 | [James Glasgow, Dalziel 1719](https://www.wikitree.com/wiki/Glasgow-3523) | OPEN | Add the possible Cambusnethan son John Glasgow-3094 (41%); keep the 1719 child and later adult identity separate. |
 | [Samuel Glasgow, Dalziel father](https://www.wikitree.com/wiki/Glasgow-3166) | OPEN | Lead with the indexed 1719 Dalziel father role and possible grandson through James; preserve the separate weak London comparison and current father grades. |
+
+
+## Torryburn family review — 17 October 2026
+
+| [John Glasgow (Glasgow-4125)](https://www.wikitree.com/wiki/Glasgow-4125) | OPEN | Assess existing Torryburn father and mother as documented, each 98%; no new parent attachment. |
+| [James Glasgow (Glasgow-4176)](https://www.wikitree.com/wiki/Glasgow-4176) | OPEN | Clarify the single-entry Torryburn family evidence and estimated parent dates. |
+| [Jean Mitchell (Mitchell-58830)](https://www.wikitree.com/wiki/Mitchell-58830) | OPEN | Clarify the single-entry Torryburn family evidence and estimated parent dates. |
