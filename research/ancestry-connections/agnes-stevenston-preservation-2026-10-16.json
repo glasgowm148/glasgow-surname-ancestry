@@ -4,7 +4,7 @@
   "profiles": {
     "Glasgow-3178": {
       "current_sha256": "11339315a779893e2b6cb1d6f5db4bacaf2f26e7d22b09e5301b434ea9419bb2",
-      "proposed_sha256": "6b9d07e623908254c4e75f193c9ba3227461141879f8d38e0cf7b0f8f9f1f3af",
+      "proposed_sha256": "764fcd935fdd288c0ed1d29a32301d5bfc44c77a3e435f841490bd999d83808c",
       "all_substantive_passages_accounted_for": true,
       "passages": [
         "Every substantive captured passage, named person, source and qualification is retained. Standard template/heading normalization and Markdown-to-native-WikiTree link conversion change formatting only.",
@@ -15,11 +15,23 @@
       "source_urls_retained": [
         "https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/browsetreeview.aspx?reference=RS11).",
         "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS3Q-47SZ-P?view=fullText&keywords=GLASGOW&searchForm=advanced&lang=en&groupId=M9QN-ZXH"
-      ]
+      ],
+      "previous_preservation_checks": [
+        {
+          "reviewed": "2026-10-16",
+          "current_sha256": "11339315a779893e2b6cb1d6f5db4bacaf2f26e7d22b09e5301b434ea9419bb2",
+          "proposed_sha256": "6b9d07e623908254c4e75f193c9ba3227461141879f8d38e0cf7b0f8f9f1f3af"
+        }
+      ],
+      "followup_review": {
+        "reviewed": "2026-10-18",
+        "basis": "Complete preceding proposal retained apart from explicitly corrected date/forename sentence; Agnes receives a cited source-check note. Captured facts, every named person, source and prior family assessment preserved.",
+        "source": "research/Glasgow-3178/findings.md"
+      }
     },
     "Glasgow-3921": {
       "current_sha256": "a2bb163dec0f9e59a7cdc9a077d7d0b18992cbbea1c4769e2b61bc0cce111a8d",
-      "proposed_sha256": "af66706b5392e89680f487ea9a6f62e13836770b83fad52489aad2b682bb28bb",
+      "proposed_sha256": "9b9a7f38e9198548ce72df05151cfde29181c8cfb08a2a4a471289db52e1591b",
       "all_substantive_passages_accounted_for": true,
       "passages": [
         "Every substantive captured passage, named person, source and qualification is retained. Standard template/heading normalization and Markdown-to-native-WikiTree link conversion change formatting only.",
@@ -35,7 +47,19 @@
         "https://books.google.com/books?id=PiVDAAAAcAAJ",
         "https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/browsetreeview.aspx?reference=C22",
         "https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD39%2F5%2F59"
-      ]
+      ],
+      "previous_preservation_checks": [
+        {
+          "reviewed": "2026-10-16",
+          "current_sha256": "a2bb163dec0f9e59a7cdc9a077d7d0b18992cbbea1c4769e2b61bc0cce111a8d",
+          "proposed_sha256": "af66706b5392e89680f487ea9a6f62e13836770b83fad52489aad2b682bb28bb"
+        }
+      ],
+      "followup_review": {
+        "reviewed": "2026-10-18",
+        "basis": "Complete preceding proposal retained apart from explicitly corrected date/forename sentence; Agnes receives a cited source-check note. Captured facts, every named person, source and prior family assessment preserved.",
+        "source": "research/Glasgow-3178/findings.md"
+      }
     }
   },
   "queue_reopening": {

@@ -28,7 +28,7 @@ not of James elder. No inspected record calls Agnes a daughter of any of these
 people. Both parents have therefore been detached and left blank rather than
 converting the cross-generation placement into another unproved relationship.
 
-A reported 19 May 1606 sasine index occurrence is compatible with Agnes and John Logan’s 1601 record. The unnamed Stevenston elder of 1613 is a separate, unidentified local subject.
+A reported 19 May 1606 sasine index occurrence is compatible with Agnes and John Logan’s 1601 record. The unnamed Stevenston elder is printed under 1613, probably in error for 1616; the inspected printed page leaves his forename blank. He is a separate local subject.
 
 ## Source findings
 
@@ -81,7 +81,7 @@ Recorded in `research/transcriptions/source-recovery-2026-09-10.md` (10 Septembe
 
 The earlier sweep reports a second Ayr sasine-index occurrence for **Agnes Glasgow/Glesgow**, spouse of John Logane in Milneburne, Stevenston, **19 May 1606**, vol.3 fol.315: SRO Indexes no.23, p.86 ([index page](https://babel.hathitrust.org/cgi/pt?id=inu.30000125667166&seq=96)). It is compatible with the known 1601 occurrence, pending the original instrument.
 
-A separate Stevenston kirk entry of **28 January 1613** names an elder only as **Glasgow**: Robert Broun’s protocol book, no.XXXII, *Ayrshire and Galloway Collections*, pp.191–192. This is local context, not an event or occupation assigned to Agnes. The page image is needed to recover a forename; no family connection follows from the surname.
+The earlier sweep reported the Stevenston elder under 28 January 1613. The printed-page inspection of 18 October 2026 below supersedes the expectation that this edition could reveal a forename and qualifies its date.
 
 ## Agnes’s Stevenston working family — 16 October 2026
 
@@ -89,8 +89,17 @@ Select James Glasgow younger (Glasgow-3921), the Corsankell tenant, as Agnes’s
 
 No record names Agnes’s father. Parish, generation and the existing family comparisons support only a low-confidence choice. The 1601 entry is a land-record registration, not a marriage date or an age statement; Agnes may already have been married for many years. As an illustration only, a married woman aged about 20–35 in 1601 would have been born about 1566–1581, making James younger about 26–41 and James elder about 51–66 at her birth. These are comparison assumptions, not birth estimates or exclusions. James elder remains an alternative father if Agnes was older. Edward Glasgow-1557 or another local Glasgow remains an alternative, especially if the unproved sisterhood with Jonet Glasgow-1494 is established. Edward’s own approximate 1570 birth makes that father generation less comfortable for a woman already married in 1601, but the estimate is not a hard conflict.
 
-Neither the two women’s sisterhood nor the two Logan husbands’ brotherhood is documented. Under the selected James-younger father and the existing uncertain James → Edward → Jonet chain, Agnes could instead be Jonet’s aunt; that is a conditional model consequence, not a new proved kinship. Margaret Smith is not selected as Agnes’s mother, and her 1632 husband is not proved identical to the Corsankell man. The unnamed Stevenston elder of 1613 remains unidentified. No identity merge or live relationship edit is made.
+Neither the two women’s sisterhood nor the two Logan husbands’ brotherhood is documented. Under the selected James-younger father and the existing uncertain James → Edward → Jonet chain, Agnes could instead be Jonet’s aunt; that is a conditional model consequence, not a new proved kinship. Margaret Smith is not selected as Agnes’s mother, and her 1632 husband is not proved identical to the Corsankell man. The unnamed Stevenston elder is printed under 1613, probably in error for 1616; the inspected printed page leaves his forename blank. No identity merge or live relationship edit is made.
 
 Agnes’s captured WikiTree birth field is blank. The public c.1610 display was an unsupported inherited estimate and cannot date a woman probably already married in 1601. Her actual birth remains unknown; “before 1601” is a conditional outer boundary from the probable sasine identity. The 1628 testament date is not an exact death date. Stevenston is in Ayrshire; the corrected death locality is an uncertain inference from her stated residence, not a recorded place of death.
 
 Existing sources: [1601 sasine index, p.128](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS3Q-47SZ-P?view=fullText&keywords=GLASGOW&searchForm=advanced&lang=en&groupId=M9QN-ZXH); [1628 testament index](https://www.findmypast.co.uk/transcript?id=SCOT%2FWILLS%2F057424&tab=this); [1559–60 Corsankell list, p.331](https://aanhs.org/wp-content/uploads/2018/05/people-of-ayrshire.pdf#page=36); [1571 father–son deed, GD39/5/59](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD39%2F5%2F59). No new original inspection. [Full comparison](/branches/early-scottish-records/#agnes-stevenston-family).
+
+
+## Stevenston elder: printed pages checked — 18 October 2026
+
+[Robert Broun protocol XXXII: Stevenston elder, printed pp.191–192 (1894 volume)](https://archive.org/details/archologicaland05unkngoog/page/n219/mode/1up); [date clause, printed p.191](https://archive.org/details/archologicaland05unkngoog/page/n218/mode/1up). *Archæological and Historical Collections Relating to Ayrshire & Galloway* (1894), “Protocol Book of Robert Broun,” no.XXXII, printed pp.191–192; PDF pp.219–220 (one-based). Both page images were visually inspected.
+
+The printed page leaves a visible blank before “Glasgow elderis”; it supplies no forename. Page 191 prints 28 January 1613 but also says Sunday and gives regnal years xlix and xiij. The immediately preceding instrument is dated 3 January 1616 and the following one 31 January 1616. The printed year is therefore internally suspect: 28 January 1616 was Sunday in the Julian calendar, whereas 28 January 1613 was Thursday. Prefer 1616 provisionally, retaining 1613 as the printed reading until the manuscript is checked.
+
+This is an unidentified male elder, not an occupation or event assigned to Agnes. The printed-page check cannot recover his forename or identify him as Hugh Glasgow-1603, James, John or Edward. An original manuscript or an independently dated account of the institution is needed; the manuscript has not been inspected. No kinship percentage or parent selection changes.

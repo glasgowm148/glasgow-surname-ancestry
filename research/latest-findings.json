@@ -32903,6 +32903,36 @@
       "genealogical_connections_added": 0,
       "new_transcript_inspections": 1,
       "new_source_discoveries": 0
+    },
+    {
+      "id": "stevenston-elder-printed-name-blank-date-conflict",
+      "found_on": "2026-10-18",
+      "kind": "biographical",
+      "status": "qualified",
+      "finding": "The Stevenston Glasgow kirk elder’s forename is blank in the printed protocol book. Its printed 1613 date conflicts with the stated weekday, regnal years and adjacent 1616 instruments; 28 January 1616 is the preferred provisional reading.",
+      "qualification": "This is an unidentified male elder, not an occupation or event assigned to Agnes. The printed-page check cannot recover his forename or identify him as Hugh Glasgow-1603, James, John or Edward. An original manuscript or an independently dated account of the institution is needed; the manuscript has not been inspected. No kinship percentage or parent selection changes. This is a correction to an existing early research lead, not a newly discovered father or an identification of Agnes with the elder.",
+      "people": [
+        {
+          "id": "Glasgow-3178",
+          "name": "Agnes Glasgow — local family context only",
+          "url": "/people/glasgow-3178.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Robert Broun protocol XXXII: Stevenston elder, printed pp.191–192 (1894 volume)",
+          "url": "https://archive.org/details/archologicaland05unkngoog/page/n219/mode/1up"
+        },
+        {
+          "title": "Date clause, printed p.191",
+          "url": "https://archive.org/details/archologicaland05unkngoog/page/n218/mode/1up"
+        }
+      ],
+      "detail_url": "/people/glasgow-3178.html",
+      "provenance": [
+        "research/Glasgow-3178/findings.md",
+        "research/findmypast-studies-2026-10-07/early-pre1550.md"
+      ]
     }
   ]
 }

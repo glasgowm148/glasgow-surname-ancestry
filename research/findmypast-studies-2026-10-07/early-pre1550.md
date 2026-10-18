@@ -367,7 +367,7 @@ Sections: `tmp/fmp-studies/a_sections/p5_*.md`.
 |---|---|---|---|
 | William Glascoe/Glascow m. Catherine Fraith/Fraser | 10 Jul 1610, South Leith | OPR 692/2/9 (SCOT/OPR/MAR/1447177/1) | [[Glasgow-3075]] |
 | James Glasgow, weaver in Quothquan | Defender in Symentoun's complaint (acts of 1607–08, heard 1612) | *RPC* IX p.342 | [[Glasgow-3910]] |
-| An elder named only as "Glasgow", Stevenston kirk | 28 Jan 1613, at Mr John Bell's institution | Broun protocol book no. XXXII, *Ayr & Galloway Coll.* pp.191–2 | [[Glasgow-3178]] (context) |
+| An elder named only as "Glasgow", Stevenston kirk | Printed 28 Jan 1613; probably 28 Jan 1616 (weekday, regnal years and adjacent entries); forename blank in print, images checked 18 Oct 2026 | [Broun protocol book no. XXXII, *Ayr & Galloway Coll.* (1894), pp.191–192](https://archive.org/details/archologicaland05unkngoog/page/n219/mode/1up) | [[Glasgow-3178]] (context) |
 | **Robert Glasgow, tanner, Glasgow** | 1623: listed as having left the trade over the tanning patent | *RPC* XIII p.246 | [[Glasgow-1027]]? |
 | Robert Glasgw, town officer | **11 Jun 1625** (not 1675 as the corpus has it) | Burgh Records I p.347 | [[Glasgow-1027]] (re-date) |
 | James Glasgow, tailor, Fisherrow, and **Christina Bye**; son Alexander and his wife Janet Clerk; Edward Glasgow | Sasines 1624–25 | SRO sasine index no. 38 pp.187–8 | [[Glasgow-1148]], [[Glasgow-1557]] (candidate) |
