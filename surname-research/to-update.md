@@ -2348,3 +2348,11 @@ Burial-defined Walter remains on source-verification HOLD in the existing creati
 | [Philip Glasco, elder Dublin watchmaker](https://www.wikitree.com/wiki/Glasco-146) | OPEN | Thomas Glasco-144 is selected as a probable son, 67%, through the named-father advertisement and the local 1773 marriage comparison. This does not strengthen Philip’s uncertain Scottish ancestry. |
 | [Thomas Glasco, father with Catherine in 1760](https://www.wikitree.com/wiki/Glasco-173) | OPEN | Thomas’s attached son Glasco-144 now follows Philip Glasco-146 in the local working tree, at 67%; this former father attachment is retained as an ungraded alternative. Thomas’s 1760 Sarah/Catherine household remains a separate record account. |
 | [Thomas Glasco, Mary King’s husband](https://www.wikitree.com/wiki/Glasco-143) | OPEN | The existing Thomas-144 father remains ungraded. His father’s proposed father is now Philip Glasco-146 at 67%; this supplies no new proof for the Mary King licence or this man’s identity. |
+
+
+## Edinburgh apprentice family review —18 October2026
+
+| [James Glasgow, apothecary apprentice in 1696](https://www.wikitree.com/wiki/Glasgow-4114) | OPEN | James Glasgow-1150 is selected as this apprentice’s new probable father,76%. The live structured father remains blank. Existing profile verified; no duplicate creation. |
+| [James Glasgow, Edinburgh weaver and burgess](https://www.wikitree.com/wiki/Glasgow-1150) | OPEN | The1696 apothecary apprentice James Glasgow-4114 is selected as a probable son,76%. His mother and the1690 comparison remain unresolved. Existing profile verified; no duplicate creation. |
+| [James Glasgow, Lindsayland apprentice in 1690](https://www.wikitree.com/wiki/Glasgow-4131) | OPEN | This is the existing1690 apprentice profile,not a person still to create. His father is named James,the deceased Lindsayland weaver; no father profile is selected. Existing profile verified; no duplicate creation. |
+| [James Glasgow of Whitecastle](https://www.wikitree.com/wiki/Glasgow-1376) | OPEN | The categorical exclusion from the1696 apprentice is withdrawn. The old1657 baptism error does not disprove an adult identity; Whitecastle chronology makes the match weaker. Existing parentage is unchanged. Existing profile verified; no duplicate creation. |

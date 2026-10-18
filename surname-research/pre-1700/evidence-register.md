@@ -521,7 +521,7 @@ Source scrape/transcript audit remains **INCOMPLETE**; this section covers only 
 | `fmp-glasgow-49148041a172` | James Glasgow, 14 Jul 1689, Kilwinning | `SCOT/OPR/BAP/3625064` | existing_profile: Glasgow-3104 |
 | `fmp-glasgow-356a7e52dad2` | Jannet Glasgow, 01 Feb 1689, Kilwinning | `SCOT/OPR/BAP/3625022` | existing_profile: Glasgow-1433 |
 | `fmp-glasgow-b8c8c6842a85` | John Glasgow, 15 Oct 1689, Torryburn | `SCOT/OPR/BAP/2618062` | new_person: research/Glasgow-4125/1689_Scotland_Torryburn_John_Glasgow.md |
-| `fmp-glasgow-cc9a54fb3b86` | James Glasgow, 7 May 1690, Edinburgh | `SCOT/EDINBURGH/APPRENTICES/0005159/1` | new_person: research/Glasgow-4131/1690_Scotland_Edinburgh_James_Glasgow.md |
+| `fmp-glasgow-cc9a54fb3b86` | James Glasgow, 7 May 1690, Edinburgh | `SCOT/EDINBURGH/APPRENTICES/0005159/1` | existing_profile: Glasgow-4131; reviewed18 October2026 |
 | `fmp-glasgow-797144230166` | John Glasgow, 09 Dec 1690, Kilbirnie | `SCOT/OPR/BAP/3585655` | existing_profile: Glasgow-1077 |
 | `fmp-glasgow-ee7b6f8c8dbe` | Elizabeth Glasgow, 17 Apr 1691, Kilbirnie | `SCOT/OPR/BAP/3585699` | existing_profile: Glasgow-1153 |
 | `fmp-glasgow-bbae38da8bd2` | Margaret Glasgow, 17 Apr 1691, Kilbirnie | `SCOT/OPR/BAP/3585700` | existing_profile: Glasgow-1154 |
@@ -529,7 +529,7 @@ Source scrape/transcript audit remains **INCOMPLETE**; this section covers only 
 | `fmp-glasgow-ad30a52bccad` | James Glasgow, 18 Oct 1693, Edinburgh | `SCOT/EDINBURGH/APPRENTICES/0010259/2` | existing_profile: Glasgow-1150 |
 | `fmp-glasgow-d33ed1d5cc49` | Robert Glasgow, 17 Oct 1693, Kilbirnie | `SCOT/OPR/BAP/3585750` | existing_profile: Glasgow-1075 |
 | `fmp-glasgow-6a0d2f01d70f` | Alexander Glasgow, 15 Jul 1695, Kilbirnie | `SCOT/OPR/BAP/3585780` | existing_profile: Glasgow-3514 |
-| `fmp-glasgow-59dea07d1fbb` | James Glasgow, 22 Apr 1696, Edinburgh | `SCOT/EDINBURGH/APPRENTICES/0005161/1` | new_person: research/Glasgow-4114/1696_Scotland_Edinburgh_James_Glasgow.md |
+| `fmp-glasgow-59dea07d1fbb` | James Glasgow, 22 Apr 1696, Edinburgh | `SCOT/EDINBURGH/APPRENTICES/0005161/1` | existing_profile: Glasgow-4114; reviewed18 October2026 |
 | `fmp-glasgow-4f35a440ff3b` | Jeane Glasgow, 16 Apr 1697, Kilbirnie | `SCOT/OPR/BAP/3585797` | existing_profile: Glasgow-1436 |
 | `fmp-glasgow-acb584e39d2b` | Peter Glasgow, 23 May 1699, Edinburgh | `SCOT/OPR/BAP/0595199` | existing_profile: Glasgow-3102 |
 | `fmp-glasgow-1d1ee2ce10d6` | Thomas Glasgow, 11 Oct 1699, Edinburgh | `SCOT/EDINBURGH/APPRENTICES/0005163/1` | existing_profile: Glasgow-3285 |

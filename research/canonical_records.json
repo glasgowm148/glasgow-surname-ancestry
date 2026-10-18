@@ -5056,5 +5056,59 @@
         "role": "groom"
       }
     }
+  },
+  {
+    "record_id": "fmp-glasgow-59dea07d1fbb",
+    "record_type": "apprenticeship",
+    "date": "1696-04-22",
+    "year": 1696,
+    "place": "Edinburgh,Scotland",
+    "source_title": "Watson,Register of Edinburgh Apprentices,1666–1700(1929),p.37",
+    "source_url": "https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/edinburgh_apprentices_~_1666_to_1700_~_1929.pdf#page=47",
+    "source_quality": "published archival transcription",
+    "status": "Printed page visually inspected18 October2026; underlying manuscript uninspected",
+    "note": "James,son of James Glasgow,weaver and burgess,to Wm.Adam,apothecary and burgess. Father-profile identity probable,76%.",
+    "profiles": {
+      "Glasgow-4114": {
+        "role": "record-defined apprentice"
+      },
+      "Glasgow-1150": {
+        "role": "probable identity of named father"
+      }
+    }
+  },
+  {
+    "record_id": "fmp-glasgow-cc9a54fb3b86",
+    "record_type": "apprenticeship",
+    "date": "1690-05-07",
+    "year": 1690,
+    "place": "Edinburgh,Scotland",
+    "source_title": "Watson,Register of Edinburgh Apprentices,1666–1700(1929),p.37",
+    "source_url": "https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/edinburgh_apprentices_~_1666_to_1700_~_1929.pdf#page=47",
+    "source_quality": "published archival transcription",
+    "status": "Printed page visually inspected18 October2026; underlying manuscript uninspected",
+    "note": "James,son of deceased James Glasgow,weaver in Lindsayland,to Wm.Brown,cordiner in Portsburgh and tanner; entry scored out. No named father profile selected.",
+    "profiles": {
+      "Glasgow-4131": {
+        "role": "record-defined apprentice"
+      }
+    }
+  },
+  {
+    "record_id": "edinburgh-weaver-master-1693",
+    "record_type": "apprenticeship",
+    "date": "1693-10-18",
+    "year": 1693,
+    "place": "Edinburgh,Scotland",
+    "source_title": "Watson,Register of Edinburgh Apprentices,1666–1700(1929),p.72",
+    "source_url": "https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/edinburgh_apprentices_~_1666_to_1700_~_1929.pdf#page=82",
+    "source_quality": "published archival transcription",
+    "status": "Printed page visually inspected18 October2026; underlying manuscript uninspected",
+    "note": "John Paterson,son of James Paterson,workman,to James Glasgow,weaver and burgess; no new Glasgow parent clause.",
+    "profiles": {
+      "Glasgow-1150": {
+        "role": "probable same-name master"
+      }
+    }
   }
 ]

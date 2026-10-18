@@ -1,0 +1,520 @@
+{
+  "schema_version": 1,
+  "reviewed": "2026-10-18",
+  "cutoff": 1850,
+  "method_version": 3,
+  "input_fingerprint": "e071ace8af7bb4e15faceef853c53a868fa2de90317d03c77514cef467932664",
+  "scope": "Edinburgh: the 1696 apprentice’s probable father, 76%",
+  "publication_summary": "One genuinely outstanding new father suggestion,76%, for an existing1696 apprentice. Two existing profiles enter the measured cohort; the1690 father remains unselected. This is not a reduction in fixed-cohort orphan branches or a confident-edge increase.",
+  "models": {
+    "main": {
+      "checked_historical_profiles": 1789,
+      "matched_paternal_edges": 1377,
+      "added_historical_profiles": [
+        "Glasgow-4114",
+        "Glasgow-4131"
+      ],
+      "changed_father_fields": 1,
+      "changed_mother_fields": 0,
+      "all_previous_parent_fields_preserved": true
+    },
+    "standalone": {
+      "checked_historical_profiles": 1789,
+      "matched_paternal_edges": 1377,
+      "added_historical_profiles": [
+        "Glasgow-4114",
+        "Glasgow-4131"
+      ],
+      "changed_father_fields": 1,
+      "changed_mother_fields": 0,
+      "all_previous_parent_fields_preserved": true
+    }
+  },
+  "working_parent_changes": [
+    {
+      "subject_id": "Glasgow-4114",
+      "relative_id": "Glasgow-1150",
+      "relationship": "father",
+      "before": "absent",
+      "after": "probable",
+      "action": "add_working_parent",
+      "assertion_id": "C-working-20261018-edinburgh-apothecary-father",
+      "probability_percent": 76,
+      "basis": "Select the Edinburgh weaver and burgess James Glasgow-1150 as the probable father of the record-defined 1696 apprentice James Glasgow-4114, at 76% subjective confidence. Printed page 37 names the apprentice’s father as James Glasgow, weaver and burgess. Name, occupation, civic status and Edinburgh setting identify a particular established craftsman rather than just a same-name Scottish father. The maintained 1641 apprenticeship and 1649 burgess cross-reference securely establish James-1150 as a weaver and burgess; printed page 72 also records a James Glasgow, weaver and burgess, taking John Paterson as apprentice on 18 October 1693. The maintained burgess-roll review found one matching admission, although an index cannot rule out another man. This makes James-1150 the preferred father-profile match. The child account itself is defined by the 22 April 1696 entry, so no later-life identification is needed for that child.",
+      "live_flag_changed": false
+    }
+  ],
+  "paternal_connections_added": 1,
+  "certainty_upgrades": 0,
+  "existing_profiles_added_to_measurement": 2,
+  "saved_live_flags_changed": false,
+  "comparisons": {
+    "1500": {
+      "working": {
+        "population": [
+          2,
+          2
+        ],
+        "edge_count": [
+          2,
+          2
+        ],
+        "component_count": [
+          1,
+          1
+        ],
+        "largest_component_size": [
+          2,
+          2
+        ]
+      },
+      "supported": {
+        "population": [
+          2,
+          2
+        ],
+        "edge_count": [
+          0,
+          0
+        ],
+        "component_count": [
+          2,
+          2
+        ],
+        "largest_component_size": [
+          1,
+          1
+        ]
+      },
+      "confident": {
+        "population": [
+          2,
+          2
+        ],
+        "edge_count": [
+          0,
+          0
+        ],
+        "component_count": [
+          2,
+          2
+        ],
+        "largest_component_size": [
+          1,
+          1
+        ]
+      }
+    },
+    "1550": {
+      "working": {
+        "population": [
+          19,
+          19
+        ],
+        "edge_count": [
+          18,
+          18
+        ],
+        "component_count": [
+          2,
+          2
+        ],
+        "largest_component_size": [
+          18,
+          18
+        ]
+      },
+      "supported": {
+        "population": [
+          19,
+          19
+        ],
+        "edge_count": [
+          10,
+          10
+        ],
+        "component_count": [
+          9,
+          9
+        ],
+        "largest_component_size": [
+          9,
+          9
+        ]
+      },
+      "confident": {
+        "population": [
+          19,
+          19
+        ],
+        "edge_count": [
+          6,
+          6
+        ],
+        "component_count": [
+          13,
+          13
+        ],
+        "largest_component_size": [
+          4,
+          4
+        ]
+      }
+    },
+    "1600": {
+      "working": {
+        "population": [
+          52,
+          52
+        ],
+        "edge_count": [
+          49,
+          49
+        ],
+        "component_count": [
+          5,
+          5
+        ],
+        "largest_component_size": [
+          48,
+          48
+        ]
+      },
+      "supported": {
+        "population": [
+          52,
+          52
+        ],
+        "edge_count": [
+          22,
+          22
+        ],
+        "component_count": [
+          31,
+          31
+        ],
+        "largest_component_size": [
+          14,
+          14
+        ]
+      },
+      "confident": {
+        "population": [
+          52,
+          52
+        ],
+        "edge_count": [
+          17,
+          17
+        ],
+        "component_count": [
+          35,
+          35
+        ],
+        "largest_component_size": [
+          6,
+          6
+        ]
+      }
+    },
+    "1650": {
+      "working": {
+        "population": [
+          163,
+          163
+        ],
+        "edge_count": [
+          157,
+          157
+        ],
+        "component_count": [
+          8,
+          8
+        ],
+        "largest_component_size": [
+          156,
+          156
+        ]
+      },
+      "supported": {
+        "population": [
+          163,
+          163
+        ],
+        "edge_count": [
+          83,
+          83
+        ],
+        "component_count": [
+          81,
+          81
+        ],
+        "largest_component_size": [
+          40,
+          40
+        ]
+      },
+      "confident": {
+        "population": [
+          163,
+          163
+        ],
+        "edge_count": [
+          74,
+          74
+        ],
+        "component_count": [
+          89,
+          89
+        ],
+        "largest_component_size": [
+          21,
+          21
+        ]
+      }
+    },
+    "1700": {
+      "working": {
+        "population": [
+          307,
+          309
+        ],
+        "edge_count": [
+          284,
+          285
+        ],
+        "component_count": [
+          25,
+          26
+        ],
+        "largest_component_size": [
+          280,
+          281
+        ]
+      },
+      "supported": {
+        "population": [
+          307,
+          309
+        ],
+        "edge_count": [
+          141,
+          142
+        ],
+        "component_count": [
+          167,
+          168
+        ],
+        "largest_component_size": [
+          44,
+          44
+        ]
+      },
+      "confident": {
+        "population": [
+          307,
+          309
+        ],
+        "edge_count": [
+          129,
+          129
+        ],
+        "component_count": [
+          178,
+          180
+        ],
+        "largest_component_size": [
+          24,
+          24
+        ]
+      }
+    },
+    "1750": {
+      "working": {
+        "population": [
+          591,
+          593
+        ],
+        "edge_count": [
+          532,
+          533
+        ],
+        "component_count": [
+          61,
+          62
+        ],
+        "largest_component_size": [
+          522,
+          523
+        ]
+      },
+      "supported": {
+        "population": [
+          591,
+          593
+        ],
+        "edge_count": [
+          207,
+          208
+        ],
+        "component_count": [
+          385,
+          386
+        ],
+        "largest_component_size": [
+          46,
+          46
+        ]
+      },
+      "confident": {
+        "population": [
+          591,
+          593
+        ],
+        "edge_count": [
+          189,
+          189
+        ],
+        "component_count": [
+          402,
+          404
+        ],
+        "largest_component_size": [
+          26,
+          26
+        ]
+      }
+    },
+    "1800": {
+      "working": {
+        "population": [
+          919,
+          921
+        ],
+        "edge_count": [
+          754,
+          755
+        ],
+        "component_count": [
+          167,
+          168
+        ],
+        "largest_component_size": [
+          729,
+          730
+        ]
+      },
+      "supported": {
+        "population": [
+          919,
+          921
+        ],
+        "edge_count": [
+          257,
+          258
+        ],
+        "component_count": [
+          663,
+          664
+        ],
+        "largest_component_size": [
+          46,
+          46
+        ]
+      },
+      "confident": {
+        "population": [
+          919,
+          921
+        ],
+        "edge_count": [
+          233,
+          233
+        ],
+        "component_count": [
+          686,
+          688
+        ],
+        "largest_component_size": [
+          26,
+          26
+        ]
+      }
+    },
+    "1850": {
+      "working": {
+        "population": [
+          1787,
+          1789
+        ],
+        "edge_count": [
+          1377,
+          1378
+        ],
+        "component_count": [
+          412,
+          413
+        ],
+        "largest_component_size": [
+          1125,
+          1126
+        ]
+      },
+      "supported": {
+        "population": [
+          1787,
+          1789
+        ],
+        "edge_count": [
+          388,
+          389
+        ],
+        "component_count": [
+          1400,
+          1401
+        ],
+        "largest_component_size": [
+          46,
+          46
+        ]
+      },
+      "confident": {
+        "population": [
+          1787,
+          1789
+        ],
+        "edge_count": [
+          362,
+          362
+        ],
+        "component_count": [
+          1425,
+          1427
+        ],
+        "largest_component_size": [
+          26,
+          26
+        ]
+      }
+    }
+  },
+  "pending_profiles": [
+    517,
+    519
+  ],
+  "next_metric_check": {
+    "status": "CLOSED",
+    "saved_confident_tree_flags_not_used_by_current_metric": 0
+  },
+  "verification": {
+    "full_and_compact_filters_agree": true,
+    "new_father_probability": 0.76,
+    "new_father_relative": "Glasgow-1150",
+    "two_duplicate_creation_suggestions_retired": true,
+    "all_previous_parents_and_vitals_preserved": true,
+    "all_historical_father_fields_checked": true,
+    "packed_main_model_lossless": true,
+    "complete_comparisons": 4,
+    "fixed_baseline_metrics_unchanged": true
+  }
+}
