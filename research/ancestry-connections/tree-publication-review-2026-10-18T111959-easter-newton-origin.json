@@ -1,0 +1,648 @@
+{
+  "schema_version": 1,
+  "reviewed": "2026-10-18",
+  "cutoff": 1850,
+  "method_version": 3,
+  "input_fingerprint": "66d9f5aeca9cb46c8a98f214579456458a3ff5311c61ba0d16250b897750ad5d",
+  "scope": "Easter Newtoun: prefer the James father route, 40%",
+  "publication_summary": "One preferred local father hypothesis revised28%→40%; old28% retained alternative. New father proposal against empty saved WikiTree Father, no live edit or new component join.",
+  "models": {
+    "main": {
+      "checked_historical_profiles": 1789,
+      "matched_paternal_edges": 1380,
+      "changed_father_fields": 1,
+      "changed_mother_fields": 0,
+      "added_historical_profiles": []
+    },
+    "standalone": {
+      "checked_historical_profiles": 1789,
+      "matched_paternal_edges": 1380,
+      "changed_father_fields": 1,
+      "changed_mother_fields": 0,
+      "added_historical_profiles": []
+    }
+  },
+  "working_parent_changes": [
+    {
+      "subject_id": "Glasgow-3610",
+      "relative_id": "Glasgow-991",
+      "previous_relative_id": "Glasgow-3296",
+      "relationship": "father",
+      "action": "replace_local_hypothesis",
+      "before": "uncertain",
+      "after": "possible",
+      "previous_probability_percent": 28,
+      "probability_percent": 40,
+      "assertion_id": "C-working-20261018-easter-newton-john-james-father",
+      "basis": "Prefer James Glasgow-991 as the possible working father of the Easter Newtoun adult John Glasgow-3610 at 40% subjective confidence, through the adult’s possible identity with John Glasgow-1084, the Mid Calder child of 1616. The 1616 index names James as father. The existing 1616-child account already carries the specific later-family attribution to Annah and the proposed 1642 Porteous marriage and 1643 Edinburgh child. The inspected 1649 and 1652 transcripts now place the named father Johne at Easter Newtoune/Easter Newtoun, supporting one adult household. This makes the existing 1616-family comparison a more economical preferred reconstruction than the 1608 route: the latter requires both the 1608 child’s identification with this adult and the identification of his named Mid Calder father with the Quothquan testator John-3296. Neither route is proved. The inherited Annah attribution is not independent corroboration of the new residence reading.",
+      "limitations": "The 40% is a combined judgement about James’s fatherhood of the later adult, not the 98% record-defined fatherhood of the 1616 child. The existing 42% childhood-to-adult comparison remains a distinct scoped assessment; these values are not independent measurements and are not mechanically multiplied. Both childhood dates fit an adult father in 1649: about 33 if baptised near birth in 1616, about 41 if in 1608. Neither childhood transcript supplies a residence, occupation or mother. The retained published Edinburgh marriage entry calls the 1642 groom a whipman but supplies no parents or residence to distinguish the candidates. The 1643 child names John and Issobell Porteous; the 1652 Annah transcript names no mother. A household, property, occupation or witness bridge to either childhood is still missing. Another local John, including the retained Linlithgow comparisons, or an unrepresented family remains possible. Robert-4006 remains a father-generation alternative. William-1087 remains a removed unsupported father, not biologically excluded merely by a 1609 baptism. John-1084 and John-3610 may be duplicate accounts, not two proved distinct sons named John; no merge is performed. Mothers remain separately assessed.",
+      "previous_status_provenance": {
+        "assertion_id": "C-working-20261015-glasgow-3610-glasgow-3296",
+        "publication_status": "approved",
+        "working_selection": true,
+        "child": "Glasgow-3610",
+        "father": "Glasgow-3296",
+        "status": "uncertain",
+        "basis": "The child Jhone baptised at Mid Calder on 26 June 1608 would have been about 40–41 when Johne was named as father in neighbouring Kirknewton/East Calder on 22 April 1649. The shared forename, adjacent locality and compatible generation favour retaining John Glasgow-3296 as the selected uncertain father at 28%. The child-to-adult identity and the older Mid Calder-to-Quothquan identity remain separate uncertainties; no shared holding, trade, spouse, witness or proved sibling supplies a discriminating bridge. The 1609 William baptism provides local context, not independent proof of the 1649 adult identity.",
+        "source_ids": [
+          "midcalder-jhone-1608-father-jhone",
+          "kirknewton-johne-1649-father-johne"
+        ],
+        "probability": {
+          "band": "uncertain",
+          "label": "Uncertain/speculative · 28%",
+          "minimum": 0.01,
+          "maximum": 0.29,
+          "rank": 1,
+          "value": 0.28,
+          "method": "individual_evidence_assessment",
+          "origin": "research",
+          "basis": "The child Jhone baptised at Mid Calder on 26 June 1608 would have been about 40–41 when Johne was named as father in neighbouring Kirknewton/East Calder on 22 April 1649. The shared forename, adjacent locality and compatible generation favour retaining John Glasgow-3296 as the selected uncertain father at 28%. The child-to-adult identity and the older Mid Calder-to-Quothquan identity remain separate uncertainties; no shared holding, trade, spouse, witness or proved sibling supplies a discriminating bridge. The 1609 William baptism provides local context, not independent proof of the 1649 adult identity. John-1086 primarily represents the 1685 Quothquan decedent, only possibly the 1608 child; John-3296 primarily represents the 1650 Quothquan decedent, only possibly the Mid Calder father. The 1650 omission of children is not an exclusion. John-1084, the 1616 child of James-991, is a substantive compatible adult-identity alternative through its 1642 Porteous marriage, 1643 Edinburgh child and tree-only 1652 Kirknewton/East Calder child. Keep James-991 an unselected father alternative conditional on that identity, without percentage, merger or maternity assignment. Robert-4006 remains a father-generation alternative; John-3056 a compatible childhood comparison. William-1087 remains an unsupported removed father, not biologically excluded merely by his 1609 baptism. Margaret-3112 has disputed 1646/1649 readings; Alexander-3118 has an estimated circa-1650 birth from a 1667 marriage, not a baptism. Use the secure 1649 occurrence, not a proved 1646–1650 series.",
+          "reviewed": "2026-10-17",
+          "source_ids": [
+            "midcalder-jhone-1608-father-jhone",
+            "kirknewton-johne-1649-father-johne"
+          ],
+          "assertion_id": "C-working-20261015-glasgow-3610-glasgow-3296"
+        },
+        "reviewed": "2026-10-17"
+      },
+      "saved_wikitree_father": 0,
+      "outstanding_wikitree_action": "add",
+      "live_flag_changed": false
+    }
+  ],
+  "paternal_connections_added": 0,
+  "new_father_attachments": 1,
+  "father_replacements": 0,
+  "local_father_replacements": 1,
+  "working_profiles_joined": 0,
+  "certainty_upgrades": 0,
+  "saved_live_flags_changed": false,
+  "comparisons": {
+    "1500": {
+      "working": {
+        "population": [
+          2,
+          2
+        ],
+        "edge_count": [
+          2,
+          2
+        ],
+        "component_count": [
+          1,
+          1
+        ],
+        "largest_component_size": [
+          2,
+          2
+        ],
+        "connected_pairs_percent": [
+          100.0,
+          100.0
+        ]
+      },
+      "supported": {
+        "population": [
+          2,
+          2
+        ],
+        "edge_count": [
+          0,
+          0
+        ],
+        "component_count": [
+          2,
+          2
+        ],
+        "largest_component_size": [
+          1,
+          1
+        ],
+        "connected_pairs_percent": [
+          0.0,
+          0.0
+        ]
+      },
+      "confident": {
+        "population": [
+          2,
+          2
+        ],
+        "edge_count": [
+          0,
+          0
+        ],
+        "component_count": [
+          2,
+          2
+        ],
+        "largest_component_size": [
+          1,
+          1
+        ],
+        "connected_pairs_percent": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "1550": {
+      "working": {
+        "population": [
+          19,
+          19
+        ],
+        "edge_count": [
+          18,
+          18
+        ],
+        "component_count": [
+          2,
+          2
+        ],
+        "largest_component_size": [
+          18,
+          18
+        ],
+        "connected_pairs_percent": [
+          89.47368421052632,
+          89.47368421052632
+        ]
+      },
+      "supported": {
+        "population": [
+          19,
+          19
+        ],
+        "edge_count": [
+          10,
+          10
+        ],
+        "component_count": [
+          9,
+          9
+        ],
+        "largest_component_size": [
+          9,
+          9
+        ],
+        "connected_pairs_percent": [
+          22.80701754385965,
+          22.80701754385965
+        ]
+      },
+      "confident": {
+        "population": [
+          19,
+          19
+        ],
+        "edge_count": [
+          6,
+          6
+        ],
+        "component_count": [
+          13,
+          13
+        ],
+        "largest_component_size": [
+          4,
+          4
+        ],
+        "connected_pairs_percent": [
+          5.847953216374269,
+          5.847953216374269
+        ]
+      }
+    },
+    "1600": {
+      "working": {
+        "population": [
+          52,
+          52
+        ],
+        "edge_count": [
+          49,
+          49
+        ],
+        "component_count": [
+          5,
+          5
+        ],
+        "largest_component_size": [
+          48,
+          48
+        ],
+        "connected_pairs_percent": [
+          85.06787330316742,
+          85.06787330316742
+        ]
+      },
+      "supported": {
+        "population": [
+          52,
+          52
+        ],
+        "edge_count": [
+          22,
+          22
+        ],
+        "component_count": [
+          31,
+          31
+        ],
+        "largest_component_size": [
+          14,
+          14
+        ],
+        "connected_pairs_percent": [
+          8.069381598793363,
+          8.069381598793363
+        ]
+      },
+      "confident": {
+        "population": [
+          52,
+          52
+        ],
+        "edge_count": [
+          17,
+          17
+        ],
+        "component_count": [
+          35,
+          35
+        ],
+        "largest_component_size": [
+          6,
+          6
+        ],
+        "connected_pairs_percent": [
+          3.092006033182504,
+          3.092006033182504
+        ]
+      }
+    },
+    "1650": {
+      "working": {
+        "population": [
+          163,
+          163
+        ],
+        "edge_count": [
+          157,
+          157
+        ],
+        "component_count": [
+          8,
+          8
+        ],
+        "largest_component_size": [
+          156,
+          156
+        ],
+        "connected_pairs_percent": [
+          91.57009770506703,
+          91.57009770506703
+        ]
+      },
+      "supported": {
+        "population": [
+          163,
+          163
+        ],
+        "edge_count": [
+          83,
+          83
+        ],
+        "component_count": [
+          81,
+          81
+        ],
+        "largest_component_size": [
+          40,
+          40
+        ],
+        "connected_pairs_percent": [
+          7.119594031659472,
+          7.119594031659472
+        ]
+      },
+      "confident": {
+        "population": [
+          163,
+          163
+        ],
+        "edge_count": [
+          74,
+          74
+        ],
+        "component_count": [
+          89,
+          89
+        ],
+        "largest_component_size": [
+          21,
+          21
+        ],
+        "connected_pairs_percent": [
+          3.1432250246156177,
+          3.1432250246156177
+        ]
+      }
+    },
+    "1700": {
+      "working": {
+        "population": [
+          309,
+          309
+        ],
+        "edge_count": [
+          285,
+          285
+        ],
+        "component_count": [
+          26,
+          26
+        ],
+        "largest_component_size": [
+          281,
+          281
+        ],
+        "connected_pairs_percent": [
+          82.67767830874627,
+          82.67767830874627
+        ]
+      },
+      "supported": {
+        "population": [
+          309,
+          309
+        ],
+        "edge_count": [
+          143,
+          143
+        ],
+        "component_count": [
+          167,
+          167
+        ],
+        "largest_component_size": [
+          44,
+          44
+        ],
+        "connected_pairs_percent": [
+          2.910519900811163,
+          2.910519900811163
+        ]
+      },
+      "confident": {
+        "population": [
+          309,
+          309
+        ],
+        "edge_count": [
+          130,
+          130
+        ],
+        "component_count": [
+          179,
+          179
+        ],
+        "largest_component_size": [
+          24,
+          24
+        ],
+        "connected_pairs_percent": [
+          1.4521077627873744,
+          1.4521077627873744
+        ]
+      }
+    },
+    "1750": {
+      "working": {
+        "population": [
+          593,
+          593
+        ],
+        "edge_count": [
+          537,
+          537
+        ],
+        "component_count": [
+          58,
+          58
+        ],
+        "largest_component_size": [
+          527,
+          527
+        ],
+        "connected_pairs_percent": [
+          78.96745818330979,
+          78.96745818330979
+        ]
+      },
+      "supported": {
+        "population": [
+          593,
+          593
+        ],
+        "edge_count": [
+          213,
+          213
+        ],
+        "component_count": [
+          381,
+          381
+        ],
+        "largest_component_size": [
+          46,
+          46
+        ],
+        "connected_pairs_percent": [
+          1.1018185132856297,
+          1.1018185132856297
+        ]
+      },
+      "confident": {
+        "population": [
+          593,
+          593
+        ],
+        "edge_count": [
+          194,
+          194
+        ],
+        "component_count": [
+          399,
+          399
+        ],
+        "largest_component_size": [
+          26,
+          26
+        ],
+        "connected_pairs_percent": [
+          0.6574449660453033,
+          0.6574449660453033
+        ]
+      }
+    },
+    "1800": {
+      "working": {
+        "population": [
+          921,
+          921
+        ],
+        "edge_count": [
+          759,
+          759
+        ],
+        "component_count": [
+          164,
+          164
+        ],
+        "largest_component_size": [
+          734,
+          734
+        ],
+        "connected_pairs_percent": [
+          63.504225086153994,
+          63.504225086153994
+        ]
+      },
+      "supported": {
+        "population": [
+          921,
+          921
+        ],
+        "edge_count": [
+          263,
+          263
+        ],
+        "component_count": [
+          659,
+          659
+        ],
+        "largest_component_size": [
+          46,
+          46
+        ],
+        "connected_pairs_percent": [
+          0.574045224944531,
+          0.574045224944531
+        ]
+      },
+      "confident": {
+        "population": [
+          921,
+          921
+        ],
+        "edge_count": [
+          238,
+          238
+        ],
+        "component_count": [
+          683,
+          683
+        ],
+        "largest_component_size": [
+          26,
+          26
+        ],
+        "connected_pairs_percent": [
+          0.35948638058820753,
+          0.35948638058820753
+        ]
+      }
+    },
+    "1850": {
+      "working": {
+        "population": [
+          1789,
+          1789
+        ],
+        "edge_count": [
+          1381,
+          1381
+        ],
+        "component_count": [
+          410,
+          410
+        ],
+        "largest_component_size": [
+          1130,
+          1130
+        ],
+        "connected_pairs_percent": [
+          39.9398886808898,
+          39.9398886808898
+        ]
+      },
+      "supported": {
+        "population": [
+          1789,
+          1789
+        ],
+        "edge_count": [
+          394,
+          394
+        ],
+        "component_count": [
+          1396,
+          1396
+        ],
+        "largest_component_size": [
+          46,
+          46
+        ],
+        "connected_pairs_percent": [
+          0.20176745035220206,
+          0.20176745035220206
+        ]
+      },
+      "confident": {
+        "population": [
+          1789,
+          1789
+        ],
+        "edge_count": [
+          367,
+          367
+        ],
+        "component_count": [
+          1422,
+          1422
+        ],
+        "largest_component_size": [
+          26,
+          26
+        ],
+        "connected_pairs_percent": [
+          0.1379296546256454,
+          0.1379296546256454
+        ]
+      }
+    }
+  },
+  "pending_profiles": [
+    533,
+    533
+  ],
+  "next_metric_check": {
+    "status": "CLOSED",
+    "saved_confident_tree_flags_not_used_by_current_metric": 0
+  },
+  "verification": {
+    "full_and_compact_pending_filters_agree": true,
+    "new_father_badge_probability": 0.4,
+    "new_father_badge_relative": "Glasgow-991",
+    "previous_father_alternative_probability": 0.28,
+    "alternative_not_selected_in_metrics_or_models": true,
+    "all_historical_father_fields_checked": true,
+    "packed_main_model_lossless": true,
+    "complete_comparisons": 8,
+    "all_cohort_memberships_unchanged": true,
+    "unrelated_and_recorded_child_grades_unchanged": true
+  }
+}

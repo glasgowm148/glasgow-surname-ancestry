@@ -2430,3 +2430,15 @@ Burial-defined Walter remains on source-verification HOLD in the existing creati
 | [Glasgow-1084](https://www.wikitree.com/wiki/Glasgow-1084) | OPEN | The 1616 child remains a possible identity for the Easter Newtoun adult, 42%; Annah’s selected local father account is now John-3610, 96%. |
 | [Glasgow-3012](https://www.wikitree.com/wiki/Glasgow-3012) | OPEN | The 1649 baptism places father Johne at Easter Newtoune; the matching 1652 household strengthens continuity without changing the existing 98% father role. |
 | [Glasgow-3112](https://www.wikitree.com/wiki/Glasgow-3112) | OPEN | The inspected Findmypast transcript places the 26 November 1649 event at Kirknewton/East Calder; the 1646 date conflict and precise household remain unresolved. |
+
+
+## Easter Newtoun working ancestry — 18 October 2026
+
+| [John Glasgow, Easter Newtoun father](https://www.wikitree.com/wiki/Glasgow-3610) | OPEN | Select James Glasgow-991 as possible father, 40%; retain the former John-3296 route as an unselected alternative, 28%. |
+| [James Glasgow, Mid Calder father](https://www.wikitree.com/wiki/Glasgow-991) | OPEN | Possible father of the Easter Newtoun adult John-3610, 40%, through a potential identity with his recorded 1616 son John-1084; not two proved distinct sons. |
+| [John Glasgow, Quothquan testator of 1650](https://www.wikitree.com/wiki/Glasgow-3296) | OPEN | The former selected father route to Easter Newtoun John-3610 remains an unselected uncertain alternative, 28%; James-991 is preferred at 40%. His own uncertain Stephen father, 22%, and proved sister Bessie, 99%, are unchanged. |
+| [John Glasgow, Mid Calder child of 1616](https://www.wikitree.com/wiki/Glasgow-1084) | OPEN | The recorded father James-991 remains 98%; the possible adult identity, 42%, now supplies the preferred possible ancestry route for John-3610 at 40%. |
+| [John Glasgow, Quothquan testator of 1685](https://www.wikitree.com/wiki/Glasgow-1086) | OPEN | The 1608 child/1685 Quothquan identity remains uncertain. Its conditional route to Easter Newtoun is retained as an alternative, not disproved; the Whitecastle family selection is unchanged. |
+| [Annah or Anne Glasgow](https://www.wikitree.com/wiki/Glasgow-1439) | OPEN | The selected record-defined father John-3610 remains 96%; his own possible father is now James-991, 40%. Her mother and later identity remain separately unresolved. |
+| [John Glasgow, baptised in 1649](https://www.wikitree.com/wiki/Glasgow-3012) | OPEN | The selected record-defined father John-3610 remains 98%; his own possible father is now James-991, 40%, without changing this child’s later identity assessment. |
+| [Margaret Glasgow, disputed baptism date](https://www.wikitree.com/wiki/Glasgow-3112) | OPEN | The 1646/1649 date discrepancy and exact household remain unresolved. The possible James-991 route above her existing father account does not prove her household identity or maternity. |

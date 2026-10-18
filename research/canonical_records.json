@@ -924,26 +924,38 @@
   {
     "record_id": "review-reference-c-father-audit-20260928-glasgow-991-glasgow-1084",
     "association": "Reviewed relationship source reference",
-    "source_title": "The Mid Calder baptism index of 18 February 1616 names James Glasgow as father; NRS OPR 694/10/28. Later adult identities are assessed separately.",
-    "source_url": "/people/glasgow-1084.html#archive-tools",
-    "source_type": "reviewed_reference",
-    "status": "Reference recorded in reviewed assessment; consult the cited record",
-    "note": "The Mid Calder baptism index of 18 February 1616 names James Glasgow as father; NRS OPR 694/10/28. Later adult identities are assessed separately.",
+    "source_title": "Findmypast, John, Mid Calder baptism, retained 1616 transcript; father James, OPR 694/1 item 3 p.13; date differs from supplied ScotlandsPeople index",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4585960&tab=this",
+    "source_type": "Parish baptism transcript and supplied index",
+    "status": "Named father; later adult identity remains possible",
+    "note": "This reassessment reuses held evidence; it adds no newly inspected source. The retained Findmypast 1616 transcript reads “10 ?1616”, OPR 694/1 item 3 p.13; the supplied ScotlandsPeople index gives 18 February 1616, OPR 694/10/28. Preserve that discrepancy pending original comparison. The 1608 transcript gives 26 June, OPR 694/1 item 3 p.5. The 1649/1652 Findmypast pages, inspected on 18 October, give OPR 689/20 item 1 pp.5 and 13; supplied ScotlandsPeople references are 690/10/14 and 690/10/32. No original register was newly inspected. Repeated indexes of an event are not independent witnesses. The recorded child is John-1084; this is not a definite 1616 occurrence or birth date for John-3610.",
     "profiles": {
       "Glasgow-991": {
-        "role": "Source cited by reviewed relationship",
+        "role": "Named father of the record-defined child",
         "assessment_id": "C-father-audit-20260928-glasgow-991-glasgow-1084"
       },
       "Glasgow-1084": {
-        "role": "Source cited by reviewed relationship",
+        "role": "Baptised child; later adult identity assessed separately",
         "assessment_id": "C-father-audit-20260928-glasgow-991-glasgow-1084"
       }
     },
     "provenance": {
       "assessment_id": "C-father-audit-20260928-glasgow-991-glasgow-1084",
       "reviewed": "2026-09-28",
-      "basis": "Existing reviewed citation; no new record inspection or genealogical assertion."
-    }
+      "basis": "Existing reviewed citation; no new record inspection or genealogical assertion.",
+      "previous_review_reference": {
+        "source_title": "The Mid Calder baptism index of 18 February 1616 names James Glasgow as father; NRS OPR 694/10/28. Later adult identities are assessed separately.",
+        "source_url": "/people/glasgow-1084.html#archive-tools",
+        "source_type": "reviewed_reference",
+        "status": "Reference recorded in reviewed assessment; consult the cited record",
+        "note": "The Mid Calder baptism index of 18 February 1616 names James Glasgow as father; NRS OPR 694/10/28. Later adult identities are assessed separately."
+      },
+      "reassessed": "2026-10-18"
+    },
+    "record_type": "baptism",
+    "year": 1616,
+    "place": "Mid Calder, Midlothian, Scotland",
+    "source_status": "Retained transcript captured 3 September 2026 and supplied index reused; original uninspected"
   },
   {
     "record_id": "review-reference-c-father-audit-20260928-glassford-289-glassfuird-1",

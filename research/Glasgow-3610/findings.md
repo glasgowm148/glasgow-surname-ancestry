@@ -2,6 +2,24 @@
 
 ## Current conclusion
 
+Reviewed: 2026-10-18. **Select James Glasgow-991 as possible father, 40%; retain the former John-3296 route as an unselected alternative, 28%.**
+
+Prefer James Glasgow-991 as the possible working father of the Easter Newtoun adult John Glasgow-3610 at 40% subjective confidence, through the adult’s possible identity with John Glasgow-1084, the Mid Calder child of 1616. The 1616 index names James as father. The existing 1616-child account already carries the specific later-family attribution to Annah and the proposed 1642 Porteous marriage and 1643 Edinburgh child. The inspected 1649 and 1652 transcripts now place the named father Johne at Easter Newtoune/Easter Newtoun, supporting one adult household. This makes the existing 1616-family comparison a more economical preferred reconstruction than the 1608 route: the latter requires both the 1608 child’s identification with this adult and the identification of his named Mid Calder father with the Quothquan testator John-3296. Neither route is proved. The inherited Annah attribution is not independent corroboration of the new residence reading.
+
+The 40% is a combined judgement about James’s fatherhood of the later adult, not the 98% record-defined fatherhood of the 1616 child. The existing 42% childhood-to-adult comparison remains a distinct scoped assessment; these values are not independent measurements and are not mechanically multiplied. Both childhood dates fit an adult father in 1649: about 33 if baptised near birth in 1616, about 41 if in 1608. Neither childhood transcript supplies a residence, occupation or mother. The retained published Edinburgh marriage entry calls the 1642 groom a whipman but supplies no parents or residence to distinguish the candidates. The 1643 child names John and Issobell Porteous; the 1652 Annah transcript names no mother. A household, property, occupation or witness bridge to either childhood is still missing. Another local John, including the retained Linlithgow comparisons, or an unrepresented family remains possible. Robert-4006 remains a father-generation alternative. William-1087 remains a removed unsupported father, not biologically excluded merely by a 1609 baptism. John-1084 and John-3610 may be duplicate accounts, not two proved distinct sons named John; no merge is performed. Mothers remain separately assessed.
+
+This reassessment reuses held evidence; it adds no newly inspected source. The retained Findmypast 1616 transcript reads “10 ?1616”, OPR 694/1 item 3 p.13; the supplied ScotlandsPeople index gives 18 February 1616, OPR 694/10/28. Preserve that discrepancy pending original comparison. The 1608 transcript gives 26 June, OPR 694/1 item 3 p.5. The 1649/1652 Findmypast pages, inspected on 18 October, give OPR 689/20 item 1 pp.5 and 13; supplied ScotlandsPeople references are 690/10/14 and 690/10/32. No original register was newly inspected. Repeated indexes of an event are not independent witnesses.
+
+The selected local father changes from John-3296, uncertain 28%, to James-991, possible 40%. The previous selection and its sources remain available as an alternative. Fresh public WikiTree capture has no father attached to John-3610, so the outstanding live proposal is a new possible father, not replacement of a live father. No live edit is made. This revises the ancestry route above 309 fixed pre-1850 profile accounts (253,689 connected pairs depend on the old edge); those overlapping accounts are not 309 proved unique people. It adds no component join. Confident and supported connectivity do not increase. James’s own probable Mureistoun father, 82%, John-1084’s recorded father, 98%, Annah’s record-defined father, 96%, and John-3012’s father, 98%, retain their grades. John-3610’s before-1629 birth bound and all other vital fields and mothers are preserved.
+
+[Current ancestry comparison](/branches/early-scottish-records/#chapter-easter-newton-working-ancestry).
+
+## Earlier research retained
+
+The earlier sections below retain their dated evidence and reasoning. Statements selecting John-3296 or saying the 28% upstream route is unchanged are superseded by the current James-991 selection above. Other family conclusions remain in force.
+
+### Earlier conclusion retained — superseded where noted
+
 Reviewed: 2026-10-18. **The 1649 John and 1652 Annah records share father Johne at Easter Newtoun; Annah is a strongly supported daughter, 96%.**
 
 Prefer John Glasgow-3610, the adult father in the 1649 Kirknewton baptism, as Annah Glasgow-1439’s father at 96% subjective confidence. Findmypast’s transcript of John’s 22 April 1649 baptism names father Johne Glasgow and residence Easter Newtoune. Its transcript of Annah’s 20 June 1652 baptism names father Johne Glasgow and residence Easter Newtoun. The matching uncommon full paternal name, specific residence, parish and three-year interval strongly support one household. This is a combined identity inference across two child records, not a literal statement that the children were siblings. A different Johne in the same settlement or a transcription error remains possible.
@@ -121,3 +139,15 @@ Compare the original 1649 and 1652 entries, their register references and neighb
 - [Findmypast, Scotland Parish Births & Baptisms, Annah, 20 June 1652, Kirknewton and East Calder, provider OPR 689/20 item 1 p.13; transcript inspected 18 October 2026, original uninspected](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4473604)
 - [Findmypast, Scotland Parish Births & Baptisms, Margaret, 26 November 1649, Kirknewton and East Calder, provider OPR 689/20 item 1 p.5; transcript inspected 18 October 2026, original uninspected](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4473472)
 - [Findmypast, Annah, 20 June 1652, R_686208660; additional index version, mother blank; inspected 18 October 2026](https://www.findmypast.co.uk/transcript?id=R_686208660)
+
+
+## Working ancestry reassessment — 18 October 2026
+
+Prioritise a discriminating household link for the Easter Newtoun adult: compare original 1649/1652 entries and their neighbours, then any 1642 marriage details, kirk-session, land or inheritance evidence tying him to James’s Mid Calder family. Test the 1608/Quothquan route in parallel. A mother or a precise holding would be more useful than another generic name match.
+
+- [Findmypast, John, Mid Calder baptism, retained 1616 transcript; father James, OPR 694/1 item 3 p.13; date differs from supplied ScotlandsPeople index](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4585960&tab=this)
+- [Findmypast, Jhone, Mid Calder, 26 June 1608; father Jhone, OPR 694/1 item 3 p.5; retained transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4585634&tab=this)
+- [Findmypast, John, 22 April 1649, father Johne at Easter Newtoune; transcript inspected 18 October 2026](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4473470)
+- [Findmypast, Annah, 20 June 1652, father Johne at Easter Newtoun; transcript inspected 18 October 2026](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4473604)
+- [Paton, Register of Marriages for the Parish of Edinburgh 1595–1700, printed p.267: John Glasgow, whipman, and Isobel Porteous, 30 June 1642; retained extract, no new page inspection](https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/register_of_marriages_for_the_parish_of_edinburgh_1595-1700_~_1898.pdf)
+- [FamilySearch, Isobell, Edinburgh, 4 April 1643; parents John Glasgow and Issobell Porteous; retained citation](https://www.familysearch.org/ark:/61903/1:1:X1YN-JHD)

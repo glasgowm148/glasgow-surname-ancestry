@@ -1,9 +1,21 @@
 # Findings: John Glasgow (Glasgow-1086), Quothquan testament 1685
 
+## Current conclusion
+
+Reviewed: 2026-10-18. **The 1608 child/1685 Quothquan identity remains uncertain. Its conditional route to Easter Newtoun is retained as an alternative, not disproved; the Whitecastle family selection is unchanged.**
+
+The 1608 child/1685 Quothquan identity remains uncertain. Its conditional route to Easter Newtoun is retained as an alternative, not disproved; the Whitecastle family selection is unchanged. The linked household and childhood propositions have distinct scopes; no mother or downstream certainty is inherited from the new ancestry preference.
+
+[Current ancestry comparison](/branches/early-scottish-records/#chapter-easter-newton-working-ancestry).
+
+## Earlier research retained
+
+The earlier sections below retain their dated evidence and reasoning. Statements selecting John-3296 or saying the 28% upstream route is unchanged are superseded by the current James-991 selection above. Other family conclusions remain in force.
+
 Last updated: 2026-10-17
 
 
-## Current conclusion
+### Earlier conclusion retained — superseded where noted
 
 **Whitecastle working family, 17 October 2026:** John is selected as uncertain working father of James-1376 only through that man’s possible identity with the already attached James-3332/Lindsaylands account. This is one conditional family placement across possible duplicate profiles, not a second documented son.
 
@@ -105,3 +117,15 @@ The fixed historical cohort and all names, dates, places, spouses, existing fath
 Sources: [Robert Wodrow, History of the Sufferings of the Church of Scotland (1721), vol.I, appendix no.XLVII, pp.133–134, decree headed 27 July 1672; printed page images freshly inspected](https://archive.org/details/bim_eighteenth-century_the-history-of-the-suffe_wodrow-robert_1721_1/page/n794/mode/2up); [Wodrow, same decree, printed p.134: James Glasgow in Whitecastle and reported imprisonment; image freshly inspected](https://archive.org/details/bim_eighteenth-century_the-history-of-the-suffe_wodrow-robert_1721_1/page/n795/mode/2up); [William Crookshank, History of the State and Sufferings of the Church of Scotland (1751), vol.I p.285: same group under 24 July 1672; printed page freshly inspected](https://archive.org/details/bim_eighteenth-century_the-history-of-the-state_crookshank-william_1751_1/page/n308/mode/1up); [J. L. Davidson, “Note on a carved stone found within the fort on West Whitecastle Farm, Libberton, Lanarkshire”, PSAS 108 (1979), p.383: published title checked in search-indexed journal contents; full article not inspected; locality only](https://journals.socantscot.org/index.php/psas/issue/view/239); [Historic Environment Scotland SM756, White Castle fort, Garvald and Bara, East Lothian: alternative place, not the selected location](https://portal.historicenvironment.scot/designation/SM756); [Francis J. Grant, Commissariot Record of Lanark (1903), pp.38/99: James Glasgow, weaver at Back of Lindsaylands, 10 November 1680; previously inspected index](https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/the_commissariot_record_of_lanark__register_of_testaments__1595-1800_~_1903.pdf); [Edinburgh apprentice entry 7 May 1690, scored out: James son of deceased James Glasgow, Lindsayland weaver; maintained transcript, not a newly inspected original](https://www.findmypast.co.uk/transcript?id=SCOT%2FEDINBURGH%2FAPPRENTICES%2F0005159%2F1&tab=this); [John Glasgow of Quothquan, 25 March 1685, NRS CC14/5/12, images67–68; supplied working transcription names widow but no child, reused here](https://www.scotlandspeople.gov.uk/search-records/legal-records/wills).
 
 [Full identity and family comparison](/branches/early-scottish-records/#chapter-whitecastle-quothquan-working-family).
+
+
+## Working ancestry reassessment — 18 October 2026
+
+Prioritise a discriminating household link for the Easter Newtoun adult: compare original 1649/1652 entries and their neighbours, then any 1642 marriage details, kirk-session, land or inheritance evidence tying him to James’s Mid Calder family. Test the 1608/Quothquan route in parallel. A mother or a precise holding would be more useful than another generic name match.
+
+- [Findmypast, John, Mid Calder baptism, retained 1616 transcript; father James, OPR 694/1 item 3 p.13; date differs from supplied ScotlandsPeople index](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4585960&tab=this)
+- [Findmypast, Jhone, Mid Calder, 26 June 1608; father Jhone, OPR 694/1 item 3 p.5; retained transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4585634&tab=this)
+- [Findmypast, John, 22 April 1649, father Johne at Easter Newtoune; transcript inspected 18 October 2026](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4473470)
+- [Findmypast, Annah, 20 June 1652, father Johne at Easter Newtoun; transcript inspected 18 October 2026](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4473604)
+- [Paton, Register of Marriages for the Parish of Edinburgh 1595–1700, printed p.267: John Glasgow, whipman, and Isobel Porteous, 30 June 1642; retained extract, no new page inspection](https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/register_of_marriages_for_the_parish_of_edinburgh_1595-1700_~_1898.pdf)
+- [FamilySearch, Isobell, Edinburgh, 4 April 1643; parents John Glasgow and Issobell Porteous; retained citation](https://www.familysearch.org/ark:/61903/1:1:X1YN-JHD)

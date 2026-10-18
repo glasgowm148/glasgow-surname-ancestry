@@ -12332,6 +12332,190 @@
       "certainty_upgrades": 0,
       "new_source_discoveries": 0,
       "note": "Easter Newtoun: Annah1439 father profile replaced locally1084→3610 at96%, through matching named father and specific residence in1649/1652. Old1616-child identity42% retained alternative. No new branch, new biological-father discovery, upstream upgrade, merge, vital or mother change."
+    },
+    {
+      "date": "2026-10-18",
+      "method_version": 3,
+      "input_fingerprint": "66d9f5aeca9cb46c8a98f214579456458a3ff5311c61ba0d16250b897750ad5d",
+      "metrics": {
+        "working": {
+          "population": 1789,
+          "edge_count": 1381,
+          "component_count": 410,
+          "largest_component_size": 1130,
+          "largest_component_percent": 63.163778647288986,
+          "connected_pairs_percent": 39.9398886808898,
+          "edge_status_counts": {
+            "confident": 308,
+            "dna_confirmed": 1,
+            "possible": 21,
+            "probable": 27,
+            "proved": 41,
+            "strongly_supported": 17,
+            "uncertain": 170,
+            "unmarked": 796
+          },
+          "quality": {
+            "cycles": [],
+            "cycle_edges_excluded": 0,
+            "later_born_ancestors_excluded": [],
+            "undated_ancestors": []
+          },
+          "connector_ids": [
+            "record-george-mureistoun-1586",
+            "record-john-glasgw-stirling-1475"
+          ],
+          "unattached_multi_child_roots": 40,
+          "family_root_count": 47
+        },
+        "supported": {
+          "population": 1789,
+          "edge_count": 394,
+          "component_count": 1396,
+          "largest_component_size": 46,
+          "largest_component_percent": 2.57126886528787,
+          "connected_pairs_percent": 0.20176745035220206,
+          "edge_status_counts": {
+            "confident": 308,
+            "dna_confirmed": 1,
+            "probable": 27,
+            "proved": 41,
+            "strongly_supported": 17
+          },
+          "quality": {
+            "cycles": [],
+            "cycle_edges_excluded": 0,
+            "later_born_ancestors_excluded": [],
+            "undated_ancestors": []
+          },
+          "connector_ids": [
+            "record-george-mureistoun-1586"
+          ],
+          "unattached_multi_child_roots": 44,
+          "family_root_count": 55
+        },
+        "confident": {
+          "population": 1789,
+          "edge_count": 367,
+          "component_count": 1422,
+          "largest_component_size": 26,
+          "largest_component_percent": 1.4533258803801006,
+          "connected_pairs_percent": 0.1379296546256454,
+          "edge_status_counts": {
+            "confident": 308,
+            "dna_confirmed": 1,
+            "proved": 41,
+            "strongly_supported": 17
+          },
+          "quality": {
+            "cycles": [],
+            "cycle_edges_excluded": 0,
+            "later_born_ancestors_excluded": [],
+            "undated_ancestors": []
+          },
+          "unattached_multi_child_roots": 50,
+          "family_root_count": 57
+        }
+      },
+      "fixed_cohort": {
+        "working": {
+          "population": 1776,
+          "edge_count": 1378,
+          "component_count": 403,
+          "largest_component_size": 1125,
+          "largest_component_percent": 63.3445945945946,
+          "connected_pairs_percent": 40.16933130313412,
+          "edge_status_counts": {
+            "confident": 308,
+            "dna_confirmed": 1,
+            "possible": 21,
+            "probable": 25,
+            "proved": 40,
+            "strongly_supported": 17,
+            "uncertain": 170,
+            "unmarked": 796
+          },
+          "quality": {
+            "cycles": [],
+            "cycle_edges_excluded": 0,
+            "later_born_ancestors_excluded": [],
+            "undated_ancestors": []
+          },
+          "connector_ids": [
+            "Glasgow-4152",
+            "Glasgow-4157",
+            "Glasgow-4176",
+            "record-george-mureistoun-1586",
+            "record-john-glasgw-stirling-1475"
+          ],
+          "unattached_multi_child_roots": 40,
+          "family_root_count": 47
+        },
+        "supported": {
+          "population": 1776,
+          "edge_count": 391,
+          "component_count": 1389,
+          "largest_component_size": 46,
+          "largest_component_percent": 2.59009009009009,
+          "connected_pairs_percent": 0.2021317091739627,
+          "edge_status_counts": {
+            "confident": 308,
+            "dna_confirmed": 1,
+            "probable": 25,
+            "proved": 40,
+            "strongly_supported": 17
+          },
+          "quality": {
+            "cycles": [],
+            "cycle_edges_excluded": 0,
+            "later_born_ancestors_excluded": [],
+            "undated_ancestors": []
+          },
+          "connector_ids": [
+            "Glasgow-4152",
+            "Glasgow-4157",
+            "Glasgow-4176",
+            "record-george-mureistoun-1586"
+          ],
+          "unattached_multi_child_roots": 44,
+          "family_root_count": 55
+        },
+        "confident": {
+          "population": 1776,
+          "edge_count": 366,
+          "component_count": 1413,
+          "largest_component_size": 26,
+          "largest_component_percent": 1.4639639639639639,
+          "connected_pairs_percent": 0.13938586473797743,
+          "edge_status_counts": {
+            "confident": 308,
+            "dna_confirmed": 1,
+            "proved": 40,
+            "strongly_supported": 17
+          },
+          "quality": {
+            "cycles": [],
+            "cycle_edges_excluded": 0,
+            "later_born_ancestors_excluded": [],
+            "undated_ancestors": []
+          },
+          "connector_ids": [
+            "Glasgow-4152",
+            "Glasgow-4157",
+            "Glasgow-4176"
+          ],
+          "unattached_multi_child_roots": 50,
+          "family_root_count": 57
+        }
+      },
+      "event_type": "working_parent_hypothesis_replacement",
+      "new_father_attachments": 1,
+      "father_replacements": 0,
+      "local_father_replacements": 1,
+      "working_profiles_joined": 0,
+      "certainty_upgrades": 0,
+      "new_source_discoveries": 0,
+      "note": "Easter Newtoun adult3610: prefer James991 as possible father40%; previous local father3296 remains alternative28%. Saved WikiTree Father0 means one outstanding new-father proposal, not a live father replacement.309 historical profile accounts affected; no new component join, confident upgrade, merge, vital or mother change."
     }
   ]
 }
