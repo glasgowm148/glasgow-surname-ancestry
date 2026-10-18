@@ -2442,3 +2442,11 @@ Burial-defined Walter remains on source-verification HOLD in the existing creati
 | [Annah or Anne Glasgow](https://www.wikitree.com/wiki/Glasgow-1439) | OPEN | The selected record-defined father John-3610 remains 96%; his own possible father is now James-991, 40%. Her mother and later identity remain separately unresolved. |
 | [John Glasgow, baptised in 1649](https://www.wikitree.com/wiki/Glasgow-3012) | OPEN | The selected record-defined father John-3610 remains 98%; his own possible father is now James-991, 40%, without changing this child’s later identity assessment. |
 | [Margaret Glasgow, disputed baptism date](https://www.wikitree.com/wiki/Glasgow-3112) | OPEN | The 1646/1649 date discrepancy and exact household remain unresolved. The possible James-991 route above her existing father account does not prove her household identity or maternity. |
+
+
+## Dalziel banns — 18 October 2026
+
+| [Samuel Glasgow, Dalziel father](https://www.wikitree.com/wiki/Glasgow-3166) | OPEN | Add1716 banns context; intended couple88%; no mother assignment or father upgrade. |
+| [James Glasgow, Dalziel 1719](https://www.wikitree.com/wiki/Glasgow-3523) | OPEN | Add1716 banns context; intended couple88%; no mother assignment or father upgrade. |
+
+- Janet Broun — identity HOLD; [complete sourced draft](research/Glasgow-3166/1716_Scotland_Dalziel_Janet_Broun.md); resolve surviving undated profile comparisons before creation.

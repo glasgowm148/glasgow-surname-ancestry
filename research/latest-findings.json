@@ -32865,6 +32865,44 @@
       "new_source_discoveries": 0,
       "new_transcript_inspections": 0,
       "working_profiles_joined": 0
+    },
+    {
+      "id": "dalziel-samuel-janet-banns-20261018",
+      "found_on": "2026-10-18",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "Dalziel banns name Samuel Glasgow and Janet Broun, 1716. Both are recorded as resident in Dalziel; probable identity of the groom with James’s father,88%.",
+      "qualification": "Janet is a possible maternal lead for James Glasgow-3523, not his assigned mother: banns alone neither prove a completed marriage nor establish the mother of a later child. Samuel’s own parents remain unknown. The existing James-to-John Glasgow-3094 working father proposal remains possible at 41%; the new banns do not bridge the seventy-year identity gap. All birth/death fields, mothers and existing father grades are preserved. No new paternal component is joined and no certainty upgrade is counted. A bounded anonymous WikiTree search on 18 October 2026 used FirstName Janet, LastName Broun and BirthDate 1685, returning 93 fuzzy matches on one page; this was not an exhaustive worldwide search. The nine Open, non-living exact-Janet Brown/Burn results were inspected with their biographies and spouse context. A local historical catalogue check for Janet/Jonet/Jennet/Jean/Jane Brown/Broun found no established match. Missing fields are not exclusions. Held index metadata newly checked at transcript level; repeated provider indexes are one event.",
+      "people": [
+        {
+          "id": "Glasgow-3166",
+          "name": "Samuel Glasgow, Dalziel father",
+          "url": "/people/glasgow-3166.html"
+        },
+        {
+          "id": "Glasgow-3523",
+          "name": "James Glasgow, Dalziel 1719",
+          "url": "/people/glasgow-3523.html"
+        },
+        {
+          "id": "record-janet-broun-dalziel-1716",
+          "name": "Janet Broun, Dalziel banns 1716",
+          "url": "/people/record-janet-broun-dalziel-1716.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Dalziel parish banns, Samuel Glasgow and Janet Broun, 23 June 1716, OPR 639/1 item 2 p.71",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FMAR%2F1215123%2F1"
+        }
+      ],
+      "detail_url": "/branches/early-scottish-records/#chapter-dalziel-cambusnethan-working-family",
+      "relationship_changes": [],
+      "certainty_upgrades": 0,
+      "new_father_attachments": 0,
+      "genealogical_connections_added": 0,
+      "new_transcript_inspections": 1,
+      "new_source_discoveries": 0
     }
   ]
 }

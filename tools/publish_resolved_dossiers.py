@@ -453,6 +453,7 @@ def publish(root=ROOT / 'www'):
         before = deepcopy(payload)
         if isinstance(payload, list):
             payload = [resolve_index_row(row, reviewed) for row in payload]
+            project_catalogue_spouses(payload, reviewed)
             if path.name == 'people-index.json':
                 payload = [compact_resolver_row(row) for row in payload]
         elif 'candidates' in payload:

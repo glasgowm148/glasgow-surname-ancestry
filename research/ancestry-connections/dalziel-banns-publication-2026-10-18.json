@@ -1,0 +1,26 @@
+{
+  "reviewed": "2026-10-18",
+  "new_transcript_inspections": 1,
+  "new_paternal_joins": 0,
+  "pending_before": 533,
+  "pending_after": 534,
+  "catalogue_rows_added": 1,
+  "record_associations_added": 2,
+  "models": {
+    "main": {
+      "new_record_people": 1,
+      "existing_parent_rows_unchanged": 4539,
+      "couple_probability": 88
+    },
+    "standalone": {
+      "new_record_people": 1,
+      "existing_parent_rows_unchanged": 4691,
+      "couple_probability": 88
+    }
+  },
+  "connectivity_unchanged": true,
+  "complete_drafts_preserved": [
+    "Glasgow-3166",
+    "Glasgow-3523"
+  ]
+}

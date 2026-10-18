@@ -5643,5 +5643,31 @@
         "role": "Compatible child account; competing 1646 date unresolved"
       }
     }
+  },
+  {
+    "record_id": "dalziel-samuel-janet-banns-1716",
+    "record_type": "marriage_banns",
+    "date": "1716-06-23",
+    "year": 1716,
+    "place": "Dalziel, Lanarkshire, Scotland",
+    "source_title": "Dalziel parish banns, Samuel Glasgow and Janet Broun, 23 June 1716, OPR 639/1 item 2 p.71",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FMAR%2F1215123%2F1",
+    "source_type": "Parish marriage-banns transcript",
+    "source_status": "Transcript inspected 18 October 2026; original uninspected",
+    "status": "Inspected transcript; intended couple explicit, groom identity probable",
+    "note": "The Findmypast transcript records Samuel Glasgow and Janet Broun, both resident in Dalziel, in banns dated 23 June 1716: OPR 639/1, item 2, p.71. It gives marriage year 1716 but no separate ceremony date, ages, occupations or parents. The transcript was inspected on 18 October 2026; the original register was not inspected. Prefer the 1716 Dalziel groom as Samuel Glasgow-3166, the father named in James’s 1719 Dalziel baptism index. The same full name, exact parish and three-year interval make one household more likely than two contemporaneous Samuel Glasgows. The selected working couple is assessed as probable at 88% subjective confidence, including the groom-to-profile identity. This rates the proposed couple identified by banns, not proof of a completed wedding. The record-defined intended couple is explicit; the link to the later father is inferred, without a residence below parish level or a named parent. Janet is a possible maternal lead for James Glasgow-3523, not his assigned mother: banns alone neither prove a completed marriage nor establish the mother of a later child. Samuel’s own parents remain unknown. The existing James-to-John Glasgow-3094 working father proposal remains possible at 41%; the new banns do not bridge the seventy-year identity gap. All birth/death fields, mothers and existing father grades are preserved. No new paternal component is joined and no certainty upgrade is counted.",
+    "profiles": {
+      "Glasgow-3166": {
+        "role": "Probable identity of named groom, 88%"
+      },
+      "record-janet-broun-dalziel-1716": {
+        "role": "Named intended bride; existing-profile identity unresolved"
+      }
+    },
+    "derivative_index_leads": [
+      "SCOT/OPR/MAR/1215123/1",
+      "R_694628026/1"
+    ],
+    "independent_event_count": 1
   }
 ]

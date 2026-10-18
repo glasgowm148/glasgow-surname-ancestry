@@ -14758,5 +14758,72 @@
       "saved_wikitree_father": 0,
       "previous_assertion_id": "C-working-20261015-glasgow-3610-glasgow-3296"
     }
+  },
+  {
+    "assertion_id": "C-working-20261018-dalziel-samuel-janet-banns",
+    "people": [
+      "Glasgow-3166",
+      "record-janet-broun-dalziel-1716"
+    ],
+    "profile_names": {
+      "Glasgow-3166": "Samuel Glasgow, Dalziel father",
+      "Glasgow-3523": "James Glasgow, Dalziel 1719",
+      "record-janet-broun-dalziel-1716": "Janet Broun, Dalziel banns 1716"
+    },
+    "profile_urls": {
+      "record-janet-broun-dalziel-1716": {
+        "url": "/people/record-janet-broun-dalziel-1716.html"
+      }
+    },
+    "status": "probable",
+    "allow_new_relationship": true,
+    "publication_status": "approved",
+    "assessment_date": "2026-10-18",
+    "claim": "Samuel-3166 and Janet Broun are the probable working couple of the 1716 Dalziel banns, 88%.",
+    "basis": "Prefer the 1716 Dalziel groom as Samuel Glasgow-3166, the father named in James’s 1719 Dalziel baptism index. The same full name, exact parish and three-year interval make one household more likely than two contemporaneous Samuel Glasgows. The selected working couple is assessed as probable at 88% subjective confidence, including the groom-to-profile identity. This rates the proposed couple identified by banns, not proof of a completed wedding. The record-defined intended couple is explicit; the link to the later father is inferred, without a residence below parish level or a named parent.",
+    "limitations": "Janet is a possible maternal lead for James Glasgow-3523, not his assigned mother: banns alone neither prove a completed marriage nor establish the mother of a later child. Samuel’s own parents remain unknown. The existing James-to-John Glasgow-3094 working father proposal remains possible at 41%; the new banns do not bridge the seventy-year identity gap. All birth/death fields, mothers and existing father grades are preserved. No new paternal component is joined and no certainty upgrade is counted.",
+    "record_scope": "Intended couple in banns; completed marriage and maternity unproved.",
+    "source_ids": [
+      "dalziel-samuel-janet-banns-1716"
+    ],
+    "analysis_links": [
+      {
+        "label": "Dalziel banns name Samuel Glasgow and Janet Broun, 1716",
+        "href": "/branches/early-scottish-records/#chapter-dalziel-cambusnethan-working-family"
+      }
+    ],
+    "perspectives": {
+      "Glasgow-3166": {
+        "relationship": "spouse",
+        "status_label": "Probable intended spouse · 88%",
+        "reason": "Prefer the 1716 Dalziel groom as Samuel Glasgow-3166, the father named in James’s 1719 Dalziel baptism index. The same full name, exact parish and three-year interval make one household more likely than two contemporaneous Samuel Glasgows. The selected working couple is assessed as probable at 88% subjective confidence, including the groom-to-profile identity. This rates the proposed couple identified by banns, not proof of a completed wedding. The record-defined intended couple is explicit; the link to the later father is inferred, without a residence below parish level or a named parent."
+      },
+      "record-janet-broun-dalziel-1716": {
+        "relationship": "spouse",
+        "status_label": "Probable intended spouse · 88%",
+        "reason": "Prefer the 1716 Dalziel groom as Samuel Glasgow-3166, the father named in James’s 1719 Dalziel baptism index. The same full name, exact parish and three-year interval make one household more likely than two contemporaneous Samuel Glasgows. The selected working couple is assessed as probable at 88% subjective confidence, including the groom-to-profile identity. This rates the proposed couple identified by banns, not proof of a completed wedding. The record-defined intended couple is explicit; the link to the later father is inferred, without a residence below parish level or a named parent."
+      }
+    },
+    "provenance": {
+      "prior_status": "No spouse in fresh public WikiTree capture for Samuel; no existing documentary Janet account.",
+      "scope": "New transcript inspection of held index metadata; no paternal join."
+    },
+    "probability": {
+      "band": "probable",
+      "label": "Probable · 88%",
+      "minimum": 0.6,
+      "maximum": 0.89,
+      "rank": 3,
+      "value": 0.88,
+      "method": "individual_evidence_assessment",
+      "origin": "research",
+      "scope": "Janet is a possible maternal lead for James Glasgow-3523, not his assigned mother: banns alone neither prove a completed marriage nor establish the mother of a later child. Samuel’s own parents remain unknown. The existing James-to-John Glasgow-3094 working father proposal remains possible at 41%; the new banns do not bridge the seventy-year identity gap. All birth/death fields, mothers and existing father grades are preserved. No new paternal component is joined and no certainty upgrade is counted. Intended couple, not a dated proved wedding.",
+      "basis": "Prefer the 1716 Dalziel groom as Samuel Glasgow-3166, the father named in James’s 1719 Dalziel baptism index. The same full name, exact parish and three-year interval make one household more likely than two contemporaneous Samuel Glasgows. The selected working couple is assessed as probable at 88% subjective confidence, including the groom-to-profile identity. This rates the proposed couple identified by banns, not proof of a completed wedding. The record-defined intended couple is explicit; the link to the later father is inferred, without a residence below parish level or a named parent.",
+      "reviewed": "2026-10-18",
+      "source_ids": [
+        "dalziel-samuel-janet-banns-1716"
+      ],
+      "assertion_id": "C-working-20261018-dalziel-samuel-janet-banns"
+    }
   }
 ]

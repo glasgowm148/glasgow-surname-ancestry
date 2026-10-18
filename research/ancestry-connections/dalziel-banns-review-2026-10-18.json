@@ -1,0 +1,46 @@
+{
+  "reviewed": "2026-10-18",
+  "source_id": "dalziel-samuel-janet-banns-1716",
+  "profile_ids": [
+    "Glasgow-3166",
+    "Glasgow-3523"
+  ],
+  "documentary_id": "record-janet-broun-dalziel-1716",
+  "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FMAR%2F1215123%2F1",
+  "transcript_inspections": 1,
+  "original_inspections": 0,
+  "held_metadata_newly_inspected": true,
+  "record_fields": {
+    "date": "1716-06-23",
+    "date_role": "banns",
+    "spouse": "Janet Broun",
+    "residences": [
+      "Dalziel",
+      "Dalziel"
+    ],
+    "reference": "OPR639/1 item2 p71"
+  },
+  "identity_percent": 88,
+  "basis": "Prefer the 1716 Dalziel groom as Samuel Glasgow-3166, the father named in James’s 1719 Dalziel baptism index. The same full name, exact parish and three-year interval make one household more likely than two contemporaneous Samuel Glasgows. The selected working couple is assessed as probable at 88% subjective confidence, including the groom-to-profile identity. This rates the proposed couple identified by banns, not proof of a completed wedding. The record-defined intended couple is explicit; the link to the later father is inferred, without a residence below parish level or a named parent.",
+  "limitations": "Janet is a possible maternal lead for James Glasgow-3523, not his assigned mother: banns alone neither prove a completed marriage nor establish the mother of a later child. Samuel’s own parents remain unknown. The existing James-to-John Glasgow-3094 working father proposal remains possible at 41%; the new banns do not bridge the seventy-year identity gap. All birth/death fields, mothers and existing father grades are preserved. No new paternal component is joined and no certainty upgrade is counted.",
+  "search_scope": "A bounded anonymous WikiTree search on 18 October 2026 used FirstName Janet, LastName Broun and BirthDate 1685, returning 93 fuzzy matches on one page; this was not an exhaustive worldwide search. The nine Open, non-living exact-Janet Brown/Burn results were inspected with their biographies and spouse context. A local historical catalogue check for Janet/Jonet/Jennet/Jean/Jane Brown/Broun found no established match. Missing fields are not exclusions.",
+  "surviving_candidates": {
+    "Brown-4507": "Unresolved low-information comparison: Janet Brown, undated wife of William Leishman; the empty biography gives no chronology or locality conflict. No positive Dalziel identification.",
+    "Brown-4583": "Unresolved low-information comparison: Janet Brown, no dates or family in the retrieved biography. No positive Dalziel identification; missing fields do not exclude her.",
+    "Brown-18629": "Unresolved low-information comparison: Janet Brown, undated spouse of Sinclair-1202. No positive Dalziel identification or concrete conflict established.",
+    "Brown-206625": "Exceptionally weak comparison: Aberdeen marriage in 1770 and death in 1828 would require an extraordinary lifespan for an adult in 1716. Retained conditionally because no birth is supplied; not a selected identity."
+  },
+  "opposed_or_later_households": {
+    "Brown-52254": "Recorded death in 1711 conflicts with the 1716 banns, subject to checking that death evidence.",
+    "Brown-98967": "The cited Prestonpans Manners family continues through children in 1714, 1717, 1720, 1723 and 1728. This positive overlapping household opposes identification with the Dalziel bride; do not merge without revising that evidence.",
+    "Burn-18": "Biography dates her Walker marriage to 17 July 1862, a different historical household.",
+    "Burn-4": "Spouse context is John Mayne, born about 1787 in South Carolina; a later household, with no positive 1716 Dalziel identification.",
+    "Brown-6203": "Cited marriage to Earl Barbee is 10 September 1932, a different historical household."
+  },
+  "fresh_live_father": {
+    "Glasgow-3166": 0,
+    "Glasgow-3523": "Glasgow-3166"
+  },
+  "live_mothers_preserved": true,
+  "new_paternal_joins": 0
+}

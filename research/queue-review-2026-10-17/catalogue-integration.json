@@ -2628,10 +2628,10 @@
       "prior_work_summary": ""
     },
     "Glasgow-3166": {
-      "draft_path": "research/Glasgow-3166/queue-review-2026-10-17.wiki",
-      "summary": "Lead with the indexed 1719 Dalziel father role and possible grandson through James; preserve the separate weak London comparison and current father grades.",
-      "work_queue_summary": "Lead with the indexed 1719 Dalziel father role and possible grandson through James; preserve the separate weak London comparison and current father grades.",
-      "queued_at": "2026-10-17",
+      "draft_path": "research/Glasgow-3166/dalziel-banns-2026-10-18.wiki",
+      "summary": "Add the inspected 1716 Dalziel banns naming Janet Broun; probable intended couple88%, no maternity assignment. Preserve prior research and the later41% father hypothesis.",
+      "work_queue_summary": "Add the 1716 Dalziel banns and qualified household comparison.",
+      "queued_at": "2026-10-18",
       "status": "OPEN",
       "pending": true,
       "findings_path": "research/Glasgow-3166/findings.md",
@@ -2642,14 +2642,27 @@
       "private_comparison": false,
       "prior_work_summary": "",
       "profile_id": "Glasgow-3166",
-      "remote_captured_at": "2026-08-07T09:54:35+00:00",
+      "remote_captured_at": "2026-10-18",
       "remote_revision": "20250629054701",
       "remote_wikitext": "== Biography ==\nBased on the record of his son Christening: Mar 15 1719 - Dalziel, Lanark, Scotland Father: Samuel Glasgow he would've been born before 1701\n== Sources ==\n<references />",
       "manual_update": true,
       "significance": 60,
-      "preservation_review_path": "research/ancestry-connections/dalziel-cambusnethan-working-family-preservation-2026-10-17.json",
+      "preservation_review_path": "research/ancestry-connections/dalziel-banns-preservation-2026-10-18.json",
       "reviewed_narrative_reduction": true,
-      "preserve_captured_detail": false
+      "preserve_captured_detail": false,
+      "relationship_changes": [
+        {
+          "action": "add",
+          "relationship": "spouse",
+          "relative_id": "record-janet-broun-dalziel-1716",
+          "relative_url": "/people/record-janet-broun-dalziel-1716.html",
+          "status": "probable",
+          "previous_status": "absent",
+          "assertion_id": "C-working-20261018-dalziel-samuel-janet-banns",
+          "scope": "Intended couple88%; no completed ceremony or maternity proved."
+        }
+      ],
+      "biography_rechecked_at": "2026-10-18"
     },
     "Glasgow-3167": {
       "draft_path": "research/Glasgow-3167/queue-review-2026-10-17.wiki",
@@ -5219,21 +5232,23 @@
     },
     "Glasgow-3523": {
       "profile_id": "Glasgow-3523",
-      "remote_captured_at": "2026-08-07T09:54:35+00:00",
+      "remote_captured_at": "2026-10-18",
       "remote_revision": "20250629055901",
       "remote_wikitext": "== Biography ==\n\nJames was born or baptized 15 Mar 1719 in Dalziel. He was the son of [[Glasgow-3166|Samuel Glasgow]].<ref>Dalziel Parish, Church of Scotland, \"Old Parish Registers Births and Baptisms,\" database, National Records of Scotland ([https://www.scotlandspeople.gov.uk ScotlandsPeople] : accessed 29 Jun 2025), James Glasgow birth or baptism 15 Mar 1719, son of Samuel Glasgow; citing Ref 10 / 28, parish 639.</ref><ref>\"Scotland, Births and Baptisms, 1564-1950\", , FamilySearch (https://www.familysearch.org/ark:/61903/1:1:XTLJ-PML : 16 September 2021), James Glasgow, 1719.</ref>\n== Sources ==\n<references />\n* Source:\nScotland, Births and Baptisms, 1564-1950\nMyHeritage.com [online database], MyHeritage Ltd.\nhttps://www.myheritage.com/research/collection-30226/scotland-births-baptisms-1564-1950\n\nRecord:\nhttps://www.myheritage.com/research/record-30226-294967/james-glasgow-in-scotland-births-baptisms\nJames Glasgow\nCountry: United Kingdom; State: Scotland; Film: 1066588\n\nCitation:\nJames Glasgow\nChristening: Mar 15 1719 - Dalziel, Lanark, Scotland\nFather: Samuel Glasgow",
-      "draft_path": "research/Glasgow-3523/queue-review-2026-10-17.wiki",
-      "summary": "Add the possible Cambusnethan son John Glasgow-3094 (41%); keep the 1719 child and later adult identity separate.",
-      "work_queue_summary": "Add the possible Cambusnethan son John Glasgow-3094 (41%); keep the 1719 child and later adult identity separate.",
-      "queued_at": "2026-10-17",
+      "draft_path": "research/Glasgow-3523/dalziel-banns-2026-10-18.wiki",
+      "summary": "Add the inspected 1716 Dalziel banns naming Janet Broun; probable intended couple88%, no maternity assignment. Preserve prior research and the later41% father hypothesis.",
+      "work_queue_summary": "Add the 1716 Dalziel banns and qualified household comparison.",
+      "queued_at": "2026-10-18",
       "status": "OPEN",
       "pending": true,
       "manual_update": true,
       "significance": 60,
       "findings_path": "research/Glasgow-3523/findings.md",
-      "preservation_review_path": "research/ancestry-connections/dalziel-cambusnethan-working-family-preservation-2026-10-17.json",
+      "preservation_review_path": "research/ancestry-connections/dalziel-banns-preservation-2026-10-18.json",
       "reviewed_narrative_reduction": true,
-      "preserve_captured_detail": false
+      "preserve_captured_detail": false,
+      "relationship_changes": [],
+      "biography_rechecked_at": "2026-10-18"
     },
     "Glasgow-4125": {
       "profile_id": "Glasgow-4125",
@@ -8535,6 +8550,87 @@
           "status": "proved",
           "assertion_id": "C-role-20261018-prescott-mary-robert",
           "scope": "Record-defined brother/sister; existing-profile identity remains unresolved."
+        }
+      ]
+    },
+    {
+      "subject_id": "janet-broun-dalziel-1716",
+      "catalogue_id": "record-janet-broun-dalziel-1716",
+      "name": "Janet Broun, Dalziel banns 1716",
+      "source_subject_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FMAR%2F1215123%2F1",
+      "research_subject_url": "/people/record-janet-broun-dalziel-1716.html",
+      "draft_path": "research/Glasgow-3166/1716_Scotland_Dalziel_Janet_Broun.md",
+      "draft_wikitext": "[[Category:Scotland, Glasgow Name Study]]\n== Biography ==\n'''Janet Broun''' was resident in Dalziel, Lanarkshire, Scotland, when marriage banns named her with Samuel Glasgow, also resident in Dalziel, on 23 June 1716. The transcript gives marriage year 1716 but no separate ceremony date.<ref name=\"Dalziel1716\">Church of Scotland, Dalziel, Old Parish Registers, OPR 639/1, item 2, p.71, range 1648–1819; [https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FMAR%2F1215123%2F1 Findmypast, Scotland, Parish Marriages &amp; Banns 1561–1893], Samuel Glasgow and Janet Broun, banns 23 June 1716. Transcript inspected 18 October 2026; original register uninspected.</ref>\n\nThe groom is probably [[Glasgow-3166|Samuel Glasgow]], the father named in the baptism index for [[Glasgow-3523|James Glasgow]] at Dalziel on 15 March 1719. Their shared parish, full name and close dates support one household. This identification is assessed at 88% subjective confidence; the banns do not establish that a wedding took place.<ref name=\"Dalziel1716\" /><ref>Dalziel Parish, Church of Scotland, Old Parish Registers Births and Baptisms, parish 639, Ref 10/28; [https://www.familysearch.org/ark:/61903/1:1:XTLJ-PML FamilySearch, Scotland Births and Baptisms], James Glasgow, 1719; maintained index citation, original not newly inspected.</ref>\n\nHer birth, death and parents are unknown. Broun is her recorded surname; the transcript does not establish her last name at birth or whether she had previously married. Brown is a spelling to test, not an additional recorded form in this transcript.\n\n== Research Notes ==\nJanet is a possible maternal lead for James, but no mother is assigned from the banns alone. Samuel's own parentage is unresolved. The proposed later Cambusnethan connection remains at 41% and is not strengthened by a new parent clause here.\n\nIdentity remains on '''HOLD''' before profile creation. A bounded anonymous WikiTree search on 18 October 2026 used FirstName Janet, LastName Broun and BirthDate 1685, returning 93 fuzzy matches on one page; this was not an exhaustive worldwide search. The nine Open, non-living exact-Janet Brown/Burn results were inspected with their biographies and spouse context. A local historical catalogue check for Janet/Jonet/Jennet/Jean/Jane Brown/Broun found no established match. Missing fields are not exclusions.\n\n* [[Brown-4507|Janet Brown]] — Unresolved low-information comparison: Janet Brown, undated wife of William Leishman; the empty biography gives no chronology or locality conflict. No positive Dalziel identification.\n* [[Brown-4583|Janet Brown]] — Unresolved low-information comparison: Janet Brown, no dates or family in the retrieved biography. No positive Dalziel identification; missing fields do not exclude her.\n* [[Brown-18629|Janet Brown]] — Unresolved low-information comparison: Janet Brown, undated spouse of Sinclair-1202. No positive Dalziel identification or concrete conflict established.\n* [[Brown-206625|Janet Brown]] — Exceptionally weak comparison: Aberdeen marriage in 1770 and death in 1828 would require an extraordinary lifespan for an adult in 1716. Retained conditionally because no birth is supplied; not a selected identity.\n\n[[Brown-98967]] represents a documented overlapping Prestonpans Manners household; [[Brown-52254]] has a recorded 1711 death. They are opposed by positive conflicting evidence, not rejected for absent fields. Other returned profiles belong to substantially later households. The original Dalziel entries and the undated candidate families should be compared before creating or merging a profile.\n\n== Sources ==\n<references />",
+      "assessment": "The Findmypast transcript records Samuel Glasgow and Janet Broun, both resident in Dalziel, in banns dated 23 June 1716: OPR 639/1, item 2, p.71. It gives marriage year 1716 but no separate ceremony date, ages, occupations or parents. The transcript was inspected on 18 October 2026; the original register was not inspected. Prefer the 1716 Dalziel groom as Samuel Glasgow-3166, the father named in James’s 1719 Dalziel baptism index. The same full name, exact parish and three-year interval make one household more likely than two contemporaneous Samuel Glasgows. The selected working couple is assessed as probable at 88% subjective confidence, including the groom-to-profile identity. This rates the proposed couple identified by banns, not proof of a completed wedding. The record-defined intended couple is explicit; the link to the later father is inferred, without a residence below parish level or a named parent. Janet is a possible maternal lead for James Glasgow-3523, not his assigned mother: banns alone neither prove a completed marriage nor establish the mother of a later child. Samuel’s own parents remain unknown. The existing James-to-John Glasgow-3094 working father proposal remains possible at 41%; the new banns do not bridge the seventy-year identity gap. All birth/death fields, mothers and existing father grades are preserved. No new paternal component is joined and no certainty upgrade is counted. A bounded anonymous WikiTree search on 18 October 2026 used FirstName Janet, LastName Broun and BirthDate 1685, returning 93 fuzzy matches on one page; this was not an exhaustive worldwide search. The nine Open, non-living exact-Janet Brown/Burn results were inspected with their biographies and spouse context. A local historical catalogue check for Janet/Jonet/Jennet/Jean/Jane Brown/Broun found no established match. Missing fields are not exclusions.",
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-10-18",
+      "first_names": [
+        "Janet"
+      ],
+      "last_names_at_birth": [
+        "Unknown"
+      ],
+      "last_names_current": [
+        "Broun"
+      ],
+      "gender": "Female",
+      "birth": "",
+      "birth_note": "Birth unknown; recorded as an intended bride in 1716.",
+      "death": "",
+      "birth_location": "",
+      "birth_location_note": "Dalziel is a residence, not an established birthplace.",
+      "death_location": "",
+      "historical_basis": {
+        "status": "identity_hold",
+        "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FMAR%2F1215123%2F1",
+        "latest_birth_year": 1716,
+        "note": "Existence in 1716 establishes historical status; this is not a birth estimate."
+      },
+      "candidates": [
+        {
+          "profile_id": "Brown-4507",
+          "url": "https://www.wikitree.com/wiki/Brown-4507",
+          "name": "Janet Brown (Brown-4507)",
+          "assessment": "Unresolved low-information comparison: Janet Brown, undated wife of William Leishman; the empty biography gives no chronology or locality conflict. No positive Dalziel identification.",
+          "reason": "Unresolved low-information comparison: Janet Brown, undated wife of William Leishman; the empty biography gives no chronology or locality conflict. No positive Dalziel identification."
+        },
+        {
+          "profile_id": "Brown-4583",
+          "url": "https://www.wikitree.com/wiki/Brown-4583",
+          "name": "Janet Brown (Brown-4583)",
+          "assessment": "Unresolved low-information comparison: Janet Brown, no dates or family in the retrieved biography. No positive Dalziel identification; missing fields do not exclude her.",
+          "reason": "Unresolved low-information comparison: Janet Brown, no dates or family in the retrieved biography. No positive Dalziel identification; missing fields do not exclude her."
+        },
+        {
+          "profile_id": "Brown-18629",
+          "url": "https://www.wikitree.com/wiki/Brown-18629",
+          "name": "Janet Brown (Brown-18629)",
+          "assessment": "Unresolved low-information comparison: Janet Brown, undated spouse of Sinclair-1202. No positive Dalziel identification or concrete conflict established.",
+          "reason": "Unresolved low-information comparison: Janet Brown, undated spouse of Sinclair-1202. No positive Dalziel identification or concrete conflict established."
+        },
+        {
+          "profile_id": "Brown-206625",
+          "url": "https://www.wikitree.com/wiki/Brown-206625",
+          "name": "Janet Brown (Brown-206625)",
+          "assessment": "Exceptionally weak comparison: Aberdeen marriage in 1770 and death in 1828 would require an extraordinary lifespan for an adult in 1716. Retained conditionally because no birth is supplied; not a selected identity.",
+          "reason": "Exceptionally weak comparison: Aberdeen marriage in 1770 and death in 1828 would require an extraordinary lifespan for an adult in 1716. Retained conditionally because no birth is supplied; not a selected identity."
+        }
+      ],
+      "records": [
+        {
+          "year": "1716-06-23",
+          "filter_year": 1716,
+          "family_group": "Dalziel Samuel Glasgow household",
+          "region": "Scotland",
+          "record_location": "Dalziel, Lanarkshire, Scotland",
+          "association": "Marriage banns name Samuel Glasgow and Janet Broun, both resident in Dalziel.",
+          "note": "The Findmypast transcript records Samuel Glasgow and Janet Broun, both resident in Dalziel, in banns dated 23 June 1716: OPR 639/1, item 2, p.71. It gives marriage year 1716 but no separate ceremony date, ages, occupations or parents. The transcript was inspected on 18 October 2026; the original register was not inspected. Prefer the 1716 Dalziel groom as Samuel Glasgow-3166, the father named in James’s 1719 Dalziel baptism index. The same full name, exact parish and three-year interval make one household more likely than two contemporaneous Samuel Glasgows. The selected working couple is assessed as probable at 88% subjective confidence, including the groom-to-profile identity. This rates the proposed couple identified by banns, not proof of a completed wedding. The record-defined intended couple is explicit; the link to the later father is inferred, without a residence below parish level or a named parent. Janet is a possible maternal lead for James Glasgow-3523, not his assigned mother: banns alone neither prove a completed marriage nor establish the mother of a later child. Samuel’s own parents remain unknown. The existing James-to-John Glasgow-3094 working father proposal remains possible at 41%; the new banns do not bridge the seventy-year identity gap. All birth/death fields, mothers and existing father grades are preserved. No new paternal component is joined and no certainty upgrade is counted.",
+          "source_title": "Dalziel parish banns, Samuel Glasgow and Janet Broun, 23 June 1716, OPR 639/1 item 2 p.71",
+          "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FMAR%2F1215123%2F1",
+          "source_type": "explicit",
+          "source_status": "Transcript inspected 18 October 2026; original uninspected",
+          "record_precision": "Banns date; separate ceremony date not supplied",
+          "location_basis": "Recorded residence and parish; not birthplace"
         }
       ]
     }
