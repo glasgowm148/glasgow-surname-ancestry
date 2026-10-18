@@ -146,15 +146,32 @@ def apply_working_hypotheses(people: list[dict], assessments: list[dict], parent
         prior = replacement.get('previous_parent')
         alternative = approved.get(replacement.get('alternative_assertion_id'), {})
         replaces = bool(replacement)
-        if replaces and (len(existing) != 1 or existing[0].get('id') != prior or prior == father
-                or existing[0].get('status') not in {'uncertain', 'unmarked', 'unknown'}
-                or not prior or existing[0].get('withheld')
+        # A prior local selection may be absent from the saved WikiTree field.
+        # Require its retained approved decision before changing that selection.
+        local_prior = replacement.get('previous_parent_source') == 'local_working_hypothesis'
+        previous_selection = alternative.get('previous_working_selection') or {}
+        reviewed_local = (local_prior and prior in by_id
+                and previous_selection.get('working_selection') is True
+                and previous_selection.get('publication_status') == 'approved'
+                and previous_selection.get('assertion_id') == alternative.get('assertion_id')
+                and previous_selection.get('child') == child and previous_selection.get('father') == prior
+                and previous_selection.get('status') == 'uncertain'
+                and previous_selection.get('basis') and previous_selection.get('source_ids')
+                and set(previous_selection['source_ids']) <= set(alternative.get('source_ids') or []))
+        captured_prior = (len(existing) == 1 and existing[0].get('id') == prior
+                and existing[0].get('status') in {'uncertain', 'unmarked', 'unknown'}
+                and not existing[0].get('withheld'))
+        compatible_local = (not existing or (len(existing) == 1 and not existing[0].get('withheld')
+                and existing[0].get('id') == father
+                and existing[0].get('status') in {assessment['status'], 'unmarked', 'unknown'}))
+        if replaces and (not (captured_prior or (reviewed_local and compatible_local))
+                or (local_prior and not reviewed_local) or prior == father or not prior
                 or not assessment.get('source_ids') or not replacement.get('reason')
                 or set(alternative.get('people', [])) != {child, prior}
                 or alternative.get('lifecycle') != 'alternative'
                 or alternative.get('status') != 'uncertain' or not alternative.get('source_ids')
                 or alternative.get('perspectives', {}).get(child, {}).get('relationship') != 'father'):
-            raise ValueError('Working parent replacement requires the captured father and a retained uncertain alternative')
+            raise ValueError('Working parent replacement requires the captured father or a reviewed local selection, and a retained uncertain alternative')
         if existing and not replaces and any(row.get('id') != father and row not in aliases for row in existing):
             raise ValueError(f"Working hypothesis {assessment.get('assertion_id', '<unknown>')} conflicts with existing father of {child}")
         if not existing or aliases or replaces:
@@ -176,14 +193,28 @@ def apply_working_hypotheses(people: list[dict], assessments: list[dict], parent
         replacement = assessment.get('working_parent_replacement') or {}
         if replacement:
             prior = replacement['previous_parent']
-            by_id[child]['priorWorkingParents'] = [r.copy() for r in by_id[child]['parents'] if r.get('role') == 'father']
+            history = [r.copy() for r in by_id[child]['parents']
+                       if r.get('role') == 'father' and r.get('id') == prior]
+            if replacement.get('previous_parent_source') == 'local_working_hypothesis':
+                previous = approved[replacement['alternative_assertion_id']]['previous_working_selection']
+                if not history:
+                    history = [dict(id=prior, name=by_id[prior]['name'], role='father',
+                                    status=previous['status'], hypothesis=True,
+                                    assertion_id=previous['assertion_id'], reason=previous['basis'],
+                                    source='local_working_hypothesis')]
+                saved = by_id[child].setdefault('priorWorkingParents', [])
+                saved.extend(r for r in history if not any(
+                    old.get('id') == r['id'] and old.get('role') == 'father' for old in saved))
+            else:
+                by_id[child]['priorWorkingParents'] = history
             by_id[child]['parents'] = [r for r in by_id[child]['parents'] if r.get('role') != 'father']
             if prior in by_id:
                 previous_children = by_id[prior].get('childrenRecorded', [])
                 by_id[prior]['priorWorkingChildren'] = [r.copy() for r in previous_children if r.get('id') == child]
                 by_id[prior]['childrenRecorded'] = [r for r in previous_children if r.get('id') != child]
         if assessment.get('model_note'):
-            by_id[child]['note'] = (by_id[child].get('note', '') + ' ' + assessment['model_note']).strip()
+            if assessment['model_note'] not in by_id[child].get('note', ''):
+                by_id[child]['note'] = (by_id[child].get('note', '') + ' ' + assessment['model_note']).strip()
         if aliases:
             by_id[child]['parentAliasResolutions'] = [dict(original=row.copy(), canonical_id=father,
                 original_profile_id=row.get('id') or assessment['parent_alias_resolution']['original_id'],

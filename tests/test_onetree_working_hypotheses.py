@@ -18,6 +18,78 @@ def assessment(child, father, **extra):
 
 
 class WorkingHypothesisTests(unittest.TestCase):
+    def local_replacement_case(self):
+        model = people('Child-1', 'OldFather-1', 'NewFather-1')
+        model[1]['childrenRecorded'] = [{'id': 'Child-1'}, {'id': 'Other-1'}]
+        previous = dict(assertion_id='A-old', publication_status='approved', working_selection=True,
+                        child='Child-1', father='OldFather-1', status='uncertain',
+                        basis='Earlier reviewed comparison', source_ids=['S-old'])
+        alternative = dict(assertion_id='A-old', people=['Child-1', 'OldFather-1'],
+                           publication_status='approved', lifecycle='alternative', status='uncertain',
+                           source_ids=['S-old'], previous_working_selection=previous,
+                           perspectives={'Child-1': {'relationship': 'father'}})
+        selected = assessment('Child-1', 'NewFather-1', people=['Child-1', 'NewFather-1'],
+                              status='possible', source_ids=['S-new'], model_note='Revised local family.',
+                              working_parent_replacement=dict(previous_parent='OldFather-1',
+                                  previous_parent_source='local_working_hypothesis',
+                                  alternative_assertion_id='A-old', reason='Better combined identity fit'))
+        return model, alternative, selected
+
+    def test_replaces_a_reviewed_local_selection_without_a_captured_father(self):
+        model, alternative, selected = self.local_replacement_case()
+        self.assertEqual(apply_working_hypotheses(model, [alternative, selected]), 1)
+        self.assertEqual([p['id'] for p in model[0]['parents']], ['NewFather-1'])
+        self.assertEqual(model[0]['priorWorkingParents'][0]['id'], 'OldFather-1')
+        self.assertEqual(model[0]['priorWorkingParents'][0]['reason'], 'Earlier reviewed comparison')
+        self.assertEqual(model[1]['childrenRecorded'], [{'id': 'Other-1'}])
+        self.assertEqual(model[2]['childrenRecorded'][0]['id'], 'Child-1')
+        # A repeat build can already contain the selected parent; preserve one history row.
+        self.assertEqual(apply_working_hypotheses(model, [alternative, selected]), 1)
+        self.assertEqual([p['id'] for p in model[0]['parents']], ['NewFather-1'])
+        self.assertEqual(len(model[0]['priorWorkingParents']), 1)
+        self.assertEqual(model[0]['note'], 'Revised local family.')
+
+    def test_local_replacement_requires_the_prior_approved_selection(self):
+        for key in ['working_selection', 'publication_status', 'assertion_id', 'child',
+                    'father', 'status', 'basis', 'source_ids']:
+            with self.subTest(key=key):
+                model, alternative, selected = self.local_replacement_case()
+                alternative['previous_working_selection'].pop(key)
+                before = deepcopy(model)
+                with self.assertRaisesRegex(ValueError, 'reviewed local selection'):
+                    apply_working_hypotheses(model, [alternative, selected])
+                self.assertEqual(model, before)
+
+    def test_local_replacement_does_not_override_another_captured_parent(self):
+        model, alternative, selected = self.local_replacement_case()
+        model[0]['parents'] = [dict(id='OtherFather-1', role='father', status='unmarked')]
+        before = deepcopy(model)
+        with self.assertRaisesRegex(ValueError, 'captured father'):
+            apply_working_hypotheses(model, [alternative, selected])
+        self.assertEqual(model, before)
+
+    def test_local_replacement_preserves_a_confident_captured_parent(self):
+        model, alternative, selected = self.local_replacement_case()
+        model[0]['parents'] = [dict(id='OldFather-1', role='father', status='confident')]
+        before = deepcopy(model)
+        with self.assertRaisesRegex(ValueError, 'captured father'):
+            apply_working_hypotheses(model, [alternative, selected])
+        self.assertEqual(model, before)
+
+    def test_local_replacement_requires_retained_sources_and_checks_cycles(self):
+        model, alternative, selected = self.local_replacement_case()
+        alternative['source_ids'] = ['Unrelated-source']
+        before = deepcopy(model)
+        with self.assertRaisesRegex(ValueError, 'reviewed local selection'):
+            apply_working_hypotheses(model, [alternative, selected])
+        self.assertEqual(model, before)
+        model, alternative, selected = self.local_replacement_case()
+        model[2]['parents'] = [dict(id='Child-1', role='father', status='uncertain')]
+        before = deepcopy(model)
+        with self.assertRaisesRegex(ValueError, 'paternal cycle'):
+            apply_working_hypotheses(model, [alternative, selected])
+        self.assertEqual(model, before)
+
     def test_possible_and_probable_parents_keep_both_reciprocal_grades(self):
         for grade in ['possible', 'probable']:
             with self.subTest(grade=grade):
