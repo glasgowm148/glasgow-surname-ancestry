@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "reviewed": "2026-10-17",
+  "reviewed": "2026-10-18",
   "objective": "Connect the Glasgow surname branches into one extended family tree, developing and testing tentative connections from the earliest records first.",
   "common_origin": "The owner reports that all men tested share the Glasgow Y-DNA lineage. A shared paternal origin around 1400–1450, possibly earlier, is the working research model; the founder, date and intervening generations remain to be identified.",
   "variants": [
@@ -4316,6 +4316,50 @@
       ],
       "working_selection": false,
       "assertion_id": "C-reviewed-20261018-edinburgh-apprentice-brothers",
+      "reviewed": "2026-10-18"
+    },
+    {
+      "id": "currituck-daniel-tax-returns",
+      "year": 1718,
+      "title": "Two taxable Daniels in Currituck, 1718–1719",
+      "status": "Two tax entries distinguished; existing William father possible, 42%",
+      "people": [
+        {
+          "name": "William Glasgow of Currituck",
+          "url": "/people/glasgow-428.html"
+        },
+        {
+          "name": "Daniel Glasgow, older tree account",
+          "url": "/people/glasgow-1158.html"
+        },
+        {
+          "name": "Daniel Glasco, Mary Gamon husband account",
+          "url": "/people/glasgow-3322.html"
+        }
+      ],
+      "basis": "Retain Daniel Glasgow-1158 as William Glasgow-428’s possible working father at 42% subjective confidence. The established early Daniel name in the Norfolk–Currituck region, the 1693 Daniel/Mary Gamon household and the later Currituck Daniel tax entries provide a plausible older local family for William’s 1738 and 1746 household. William’s inherited circa-1685 birth is an estimate, not a recorded age. The existing older Daniel account is a useful provisional choice, but the evidence does not identify the taxpayer as that profile or name William as his son. The two contemporary Daniels make the adult identification materially less specific than a single-name reconstruction suggests. These are newly reviewed published transcriptions attributed to NCSA Colonial Court Records, Taxes & Accounts, CCR 190; manuscript images were not inspected. Senior and Junior distinguish the two entries and suggest relative age, but do not state father and son. The two years support retaining at least two record-defined Daniels, without supplying their exact ages, wives, children or a physical household arrangement. The similar 1715 and 1719 acreages are a possible continuity clue, not proof of the same tract or man. The existing profiles Daniel Glasgow-1158 and Daniel Glasgow-3322 are compatible comparison accounts, not automatic matches to Senior and Junior respectively. Both are attached to Robert-1157 in the current tree and may themselves duplicate one adult; the fact that the returns contain two Daniels does not prove that these two profiles represent those two men. Daniel-3322’s account represents the Mary Gamon husband named in 1693. The 1729 Norfolk Daniel/Mary deed is a further compatible identity, not a proved continuation into either Currituck taxpayer. Daniel-1158’s inherited 1712 death remains unverified: it cannot establish which later Daniel is excluded, nor should a later same-name entry automatically extend his life. Preserve both profiles and their vital fields while testing these identities.",
+      "next_test": "Trace the 260/250-acre Currituck property separately from the 80 acres at Richford Swamp in the 1693 Gamon will and the 100-acre 1729 Norfolk/Princess Anne conveyance. An acreage resemblance is not a title chain. Compare deeds, cattle marks and associated people for the two Daniels before allocating either taxpayer to a modern profile or treating the unnamed grandfather in William’s will as Daniel.",
+      "sources": [
+        {
+          "label": "Stuart Chaplain, NCGenWeb transcription of Currituck 1715 land taxes, 27 March entry; North Carolina State Archives, Colonial Court Records, Taxes & Accounts, CCR 190",
+          "url": "https://www.ncgenweb.us/currituck/tax/1715land.html"
+        },
+        {
+          "label": "Stuart Chaplain, NCGenWeb transcription of Currituck 1718 levies, third displayed section; NCSA Colonial Court Records, Taxes & Accounts, CCR 190",
+          "url": "https://www.ncgenweb.us/currituck/tax/1718levies.html"
+        },
+        {
+          "label": "Stuart Chaplain, NCGenWeb transcription of Currituck 1719 levies and land tax, first displayed section; NCSA Colonial Court Records, Taxes & Accounts, CCR 190",
+          "url": "https://www.ncgenweb.us/currituck/tax/1719levies.html"
+        }
+      ],
+      "record_references": [
+        "currituck-daniel-tax-1715",
+        "currituck-daniels-levies-1718",
+        "currituck-daniels-tax-1719"
+      ],
+      "working_selection": true,
+      "assertion_id": "C-review-20261018-currituck-william-daniel-father",
       "reviewed": "2026-10-18"
     }
   ],

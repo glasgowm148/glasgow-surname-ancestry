@@ -2938,6 +2938,39 @@
       ],
       "reviewed": "2026-10-18",
       "scope": "Shared father inferred from apprenticeship descriptions; maternity and baptism-profile identity separately unresolved."
+    },
+    {
+      "subject_id": "Glasgow-428",
+      "relative_id": "Glasgow-1158",
+      "relationship": "father",
+      "percent": 42,
+      "assessment_status": "possible",
+      "assertion_id": "C-review-20261018-currituck-william-daniel-father",
+      "basis": "Retain Daniel Glasgow-1158 as William Glasgow-428’s possible working father at 42% subjective confidence. The established early Daniel name in the Norfolk–Currituck region, the 1693 Daniel/Mary Gamon household and the later Currituck Daniel tax entries provide a plausible older local family for William’s 1738 and 1746 household. William’s inherited circa-1685 birth is an estimate, not a recorded age. The existing older Daniel account is a useful provisional choice, but the evidence does not identify the taxpayer as that profile or name William as his son. The two contemporary Daniels make the adult identification materially less specific than a single-name reconstruction suggests. 42% is the first individual assessment of this existing father placement, not an increase from a previous numerical probability or a newly discovered father. A younger local Daniel, another Glasgow father, or a collateral relationship remains possible; the two modern Daniel accounts could also duplicate the same man. William’s 1746 will names his children and an unnamed grandfather of Sarah, but does not identify that grandfather as paternal or as Daniel. No mother, Scottish origin, Robert ancestry, father replacement, merge or vital-date change is selected. The tax suffixes alone are not a basis for connecting the two Daniels as father and son.",
+      "source_ids": [
+        "currituck-daniel-tax-1715",
+        "currituck-daniels-levies-1718",
+        "currituck-daniels-tax-1719",
+        "currituck-william-will-1746-1747"
+      ],
+      "reviewed": "2026-10-18"
+    },
+    {
+      "subject_id": "Glasgow-1158",
+      "relative_id": "Glasgow-428",
+      "relationship": "child",
+      "percent": 42,
+      "assessment_status": "possible",
+      "assertion_id": "C-review-20261018-currituck-william-daniel-father",
+      "basis": "Retain Daniel Glasgow-1158 as William Glasgow-428’s possible working father at 42% subjective confidence. The established early Daniel name in the Norfolk–Currituck region, the 1693 Daniel/Mary Gamon household and the later Currituck Daniel tax entries provide a plausible older local family for William’s 1738 and 1746 household. William’s inherited circa-1685 birth is an estimate, not a recorded age. The existing older Daniel account is a useful provisional choice, but the evidence does not identify the taxpayer as that profile or name William as his son. The two contemporary Daniels make the adult identification materially less specific than a single-name reconstruction suggests. 42% is the first individual assessment of this existing father placement, not an increase from a previous numerical probability or a newly discovered father. A younger local Daniel, another Glasgow father, or a collateral relationship remains possible; the two modern Daniel accounts could also duplicate the same man. William’s 1746 will names his children and an unnamed grandfather of Sarah, but does not identify that grandfather as paternal or as Daniel. No mother, Scottish origin, Robert ancestry, father replacement, merge or vital-date change is selected. The tax suffixes alone are not a basis for connecting the two Daniels as father and son.",
+      "source_ids": [
+        "currituck-daniel-tax-1715",
+        "currituck-daniels-levies-1718",
+        "currituck-daniels-tax-1719",
+        "currituck-william-will-1746-1747"
+      ],
+      "reviewed": "2026-10-18",
+      "scope": "Reciprocal display of the same William428→Daniel1158 father assessment,42%; not another historical relationship or independent assessment."
     }
   ]
 }

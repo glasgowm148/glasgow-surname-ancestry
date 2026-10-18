@@ -1,0 +1,37 @@
+[[Category:Glasgow Name Study]]
+
+== Biography ==
+This account has inherited an estimated birth about 1653 and a Robert Glasgow ancestry from contributed trees. Neither is established by an inspected birth or parentage record. The earlier biography stated: “Daniel was born about 1653. He is the son of [[Glasgow-1156|Robert Glasgow]].”
+
+<blockquote>Citation:<ref>https://www.myheritage.com/research/record-40001-1388724143/robert-glasgow-in-familysearch-family-tree</ref>
+
+Robert Glasgow
+
+Birth: 1612 - Scotland, United Kingdom
+
+Death: 1690 - Currituck, Currituck, North Carolina, United States
+
+Wife: Ann Glasgow (born Johnson)
+
+Children: Robert Glasgow, Thomas Glasgow, William Daniel Glasgow, Daniel
+Glasgow</blockquote>
+
+* Possibly related to the Daniel who is listed here<ref>https://www.virtualtreasury.ie/item/DGZ-1751-135</ref> as transporting tobacco from Virginia to Ireland.
+== Research Notes ==
+=== Two Daniels in Currituck ===
+The 1718–1719 Currituck tax returns distinguish Senior and Junior. This profile is a compatible candidate, not an identified taxpayer. Its 1712 death and Robert ancestry remain unverified. The proposed fatherhood of William-428 is possible, 42%.
+
+The published Currituck tax transcriptions distinguish two contemporary Daniels. The 1718 levy list separately enters Daniell Glasco Ser. and Daniel Glasco Jur., each assessed for one tithable and 15 shillings. The 1719 return repeats the distinction: Senior has one tract of 250 acres and land tax of 6s 3d; Junior’s land columns are blank. Blank columns are not proof that Junior owned no land. The 1715 land-tax return separately records Daniell Glasco paying 6s 6d on one 260-acre tract on 27 March.
+
+These are newly reviewed published transcriptions attributed to NCSA Colonial Court Records, Taxes & Accounts, CCR 190; manuscript images were not inspected. Senior and Junior distinguish the two entries and suggest relative age, but do not state father and son. The two years support retaining at least two record-defined Daniels, without supplying their exact ages, wives, children or a physical household arrangement. The similar 1715 and 1719 acreages are a possible continuity clue, not proof of the same tract or man.
+
+The existing profiles Daniel [[Glasgow-1158]] and Daniel [[Glasgow-3322]] are compatible comparison accounts, not automatic matches to Senior and Junior respectively. Both are attached to Robert-1157 in the current tree and may themselves duplicate one adult; the fact that the returns contain two Daniels does not prove that these two profiles represent those two men. Daniel-3322’s account represents the Mary Gamon husband named in 1693. The 1729 Norfolk Daniel/Mary deed is a further compatible identity, not a proved continuation into either Currituck taxpayer. Daniel-1158’s inherited 1712 death remains unverified: it cannot establish which later Daniel is excluded, nor should a later same-name entry automatically extend his life. Preserve both profiles and their vital fields while testing these identities.
+
+Retain Daniel [[Glasgow-1158]] as William [[Glasgow-428]]’s possible working father at 42% subjective confidence. The established early Daniel name in the Norfolk–Currituck region, the 1693 Daniel/Mary Gamon household and the later Currituck Daniel tax entries provide a plausible older local family for William’s 1738 and 1746 household. William’s inherited circa-1685 birth is an estimate, not a recorded age. The existing older Daniel account is a useful provisional choice, but the evidence does not identify the taxpayer as that profile or name William as his son. The two contemporary Daniels make the adult identification materially less specific than a single-name reconstruction suggests.
+
+42% is the first individual assessment of this existing father placement, not an increase from a previous numerical probability or a newly discovered father. A younger local Daniel, another Glasgow father, or a collateral relationship remains possible; the two modern Daniel accounts could also duplicate the same man. William’s 1746 will names his children and an unnamed grandfather of Sarah, but does not identify that grandfather as paternal or as Daniel. No mother, Scottish origin, Robert ancestry, father replacement, merge or vital-date change is selected. The tax suffixes alone are not a basis for connecting the two Daniels as father and son.
+
+Trace the 260/250-acre Currituck property separately from the 80 acres at Richford Swamp in the 1693 Gamon will and the 100-acre 1729 Norfolk/Princess Anne conveyance. An acreage resemblance is not a title chain. Compare deeds, cattle marks and associated people for the two Daniels before allocating either taxpayer to a modern profile or treating the unnamed grandfather in William’s will as Daniel.<ref name="CurrituckTaxReview">[https://www.ncgenweb.us/currituck/tax/1715land.html Stuart Chaplain, NCGenWeb transcription of Currituck 1715 land taxes, 27 March entry; North Carolina State Archives, Colonial Court Records, Taxes & Accounts, CCR 190]; [https://www.ncgenweb.us/currituck/tax/1718levies.html Stuart Chaplain, NCGenWeb transcription of Currituck 1718 levies, third displayed section; NCSA Colonial Court Records, Taxes & Accounts, CCR 190]; [https://www.ncgenweb.us/currituck/tax/1719levies.html Stuart Chaplain, NCGenWeb transcription of Currituck 1719 levies and land tax, first displayed section; NCSA Colonial Court Records, Taxes & Accounts, CCR 190]. Tax transcriptions checked 18 October 2026; manuscripts not inspected. Earlier context reused: Charles F. McIntosh, Brief Abstract of Lower Norfolk County and Norfolk County Wills1637–1710 (1914), p.149, John Gamon will4 October1693, proved15 March1694, independently inspected30 September2026 and cited in [https://www.legacytree.com/wp-content/uploads/T1508095.CLIENTGlasgow1508.report.public.pdf LegacyTree2016 report p.3]; [https://www.ncgenweb.us/currituck/wills/glasgowwilliam1746.html William Glasgow will30 September1746, proved7 April1747, previously reviewed transcription].</ref>
+
+== Sources ==
+<references />

@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "reviewed": "2026-10-18",
+  "cutoff": 1850,
+  "method_version": 3,
+  "input_fingerprint": "778752e75988dabc6cd358c7e8e720a927c96900043c718e74dbfebd9d56f70b",
+  "scope": "Currituck tax returns and the existing Daniel–William father hypothesis",
+  "publication_summary": "Three newly reviewed Currituck tax returns distinguish two Daniels in1718–1719. Existing Daniel1158 father placement for William428 individually assessed possible42%; no new parent, identity allocation or confidence upgrade. All numerical connectivity metrics and fixed/current cohorts unchanged; working edge status changes from unmarked to possible.",
+  "models": {
+    "main": {
+      "checked_historical_profiles": 1789,
+      "matched_paternal_edges": 1377,
+      "parent_assignments_changed": 0,
+      "all_previous_vitals_preserved": true,
+      "reviewed_father_probability": 0.42
+    },
+    "standalone": {
+      "checked_historical_profiles": 1789,
+      "matched_paternal_edges": 1377,
+      "parent_assignments_changed": 0,
+      "all_previous_vitals_preserved": true,
+      "reviewed_father_probability": 0.42
+    }
+  },
+  "working_parent_changes": [],
+  "paternal_connections_added": 0,
+  "collateral_connections_added": 0,
+  "certainty_upgrades": 0,
+  "existing_profiles_added_to_measurement": 0,
+  "saved_live_flags_changed": false,
+  "pending_profiles": [
+    521,
+    522
+  ],
+  "next_metric_check": {
+    "status": "CLOSED",
+    "saved_confident_tree_flags_not_used_by_current_metric": 0
+  },
+  "verification": {
+    "full_and_compact_filters_agree": true,
+    "reviewed_father_probability": 0.42,
+    "no_false_new_father_badge": true,
+    "all_previous_parent_assignments_and_vitals_preserved": true,
+    "all_historical_father_fields_checked": true,
+    "packed_main_model_lossless": true,
+    "complete_comparisons": 3,
+    "fixed_and_current_numeric_metrics_and_cohorts_unchanged": true,
+    "three_profile_HTTP_checks": true,
+    "study_anchor_checked": true,
+    "three_canonical_tax_sources": true,
+    "fresh_public_captures_match": true,
+    "reciprocal_child_and_pending_tags_match": true
+  },
+  "earlier_source_checks": {
+    "quothquan1650": "Supplied CC14/5/5 images65–66 reviewed, including debt-list structure. Thomas and William appearances already in the biography; no new named kinship selected and no revised reading published. Stephen father remains22%.",
+    "fisherrow1637_1643": "HathiTrust no42 is limited/search-only; no original or printed entry read. Existing1624/1646 readings and assessments unchanged."
+  }
+}

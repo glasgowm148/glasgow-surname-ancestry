@@ -4,6 +4,8 @@ Last updated: 2026-10-17
 
 ## Current conclusion
 
+Reviewed: 18 October 2026. **Daniel-1158 remains the selected possible father, 42%; this first individual estimate does not add or replace a father. The 1718–1719 returns distinguish two Daniels, and neither is automatically William’s parent.**
+
 **Sarah’s missing family connection, 17 October 2026:** The [record-defined Sarah](/people/record-queue-currituck-1746-sarah-glasgow.html) is now connected locally as William’s daughter, with a 99% father assessment from his explicit 1746 will. Her sourced draft already named William; this adds the omitted tree edge. It is separate from the four existing-profile confidence reviews below. Her mother and later identity remain unknown.
 
 **Father review, 17 October 2026:** William Glasgow-428 is the documented father of Abiah Glasco-39 and Elizabeth Glasco-40, and the probable father for the two potentially duplicate Caleb accounts, Glasgow-363 and Glasgow-830. The will directly identifies the child roles; the Caleb adult identities remain qualified.
@@ -112,3 +114,24 @@ William Glasgow’s will dated 30 September 1746 expressly calls Sarah his daugh
 The [complete Sarah account and creation draft](/people/record-queue-currituck-1746-sarah-glasgow.html) now carry an explicit new confident father instruction linking [William Glasgow](https://www.wikitree.com/wiki/Glasgow-428). This is one missing local family edge added from already reviewed evidence, not an uncertain-to-certain upgrade of a previously attached father. No live profile has been created or edited. The earlier review’s statement that it made no new attachments remains true of that earlier batch.
 
 Source: [William Glasgow will, 30 September 1746; proved 7 April 1747, North Carolina State Archives MARS 12.96.1.805; published transcription](https://www.ncgenweb.us/currituck/wills/glasgowwilliam1746.html).
+
+
+## Two Daniels in the Currituck tax returns — 18 October 2026
+
+The published Currituck tax transcriptions distinguish two contemporary Daniels. The 1718 levy list separately enters Daniell Glasco Ser. and Daniel Glasco Jur., each assessed for one tithable and 15 shillings. The 1719 return repeats the distinction: Senior has one tract of 250 acres and land tax of 6s 3d; Junior’s land columns are blank. Blank columns are not proof that Junior owned no land. The 1715 land-tax return separately records Daniell Glasco paying 6s 6d on one 260-acre tract on 27 March.
+
+These are newly reviewed published transcriptions attributed to NCSA Colonial Court Records, Taxes & Accounts, CCR 190; manuscript images were not inspected. Senior and Junior distinguish the two entries and suggest relative age, but do not state father and son. The two years support retaining at least two record-defined Daniels, without supplying their exact ages, wives, children or a physical household arrangement. The similar 1715 and 1719 acreages are a possible continuity clue, not proof of the same tract or man.
+
+The existing profiles Daniel Glasgow-1158 and Daniel Glasgow-3322 are compatible comparison accounts, not automatic matches to Senior and Junior respectively. Both are attached to Robert-1157 in the current tree and may themselves duplicate one adult; the fact that the returns contain two Daniels does not prove that these two profiles represent those two men. Daniel-3322’s account represents the Mary Gamon husband named in 1693. The 1729 Norfolk Daniel/Mary deed is a further compatible identity, not a proved continuation into either Currituck taxpayer. Daniel-1158’s inherited 1712 death remains unverified: it cannot establish which later Daniel is excluded, nor should a later same-name entry automatically extend his life. Preserve both profiles and their vital fields while testing these identities.
+
+Retain Daniel Glasgow-1158 as William Glasgow-428’s possible working father at 42% subjective confidence. The established early Daniel name in the Norfolk–Currituck region, the 1693 Daniel/Mary Gamon household and the later Currituck Daniel tax entries provide a plausible older local family for William’s 1738 and 1746 household. William’s inherited circa-1685 birth is an estimate, not a recorded age. The existing older Daniel account is a useful provisional choice, but the evidence does not identify the taxpayer as that profile or name William as his son. The two contemporary Daniels make the adult identification materially less specific than a single-name reconstruction suggests.
+
+42% is the first individual assessment of this existing father placement, not an increase from a previous numerical probability or a newly discovered father. A younger local Daniel, another Glasgow father, or a collateral relationship remains possible; the two modern Daniel accounts could also duplicate the same man. William’s 1746 will names his children and an unnamed grandfather of Sarah, but does not identify that grandfather as paternal or as Daniel. No mother, Scottish origin, Robert ancestry, father replacement, merge or vital-date change is selected. The tax suffixes alone are not a basis for connecting the two Daniels as father and son.
+
+Trace the 260/250-acre Currituck property separately from the 80 acres at Richford Swamp in the 1693 Gamon will and the 100-acre 1729 Norfolk/Princess Anne conveyance. An acreage resemblance is not a title chain. Compare deeds, cattle marks and associated people for the two Daniels before allocating either taxpayer to a modern profile or treating the unnamed grandfather in William’s will as Daniel.
+
+- [Stuart Chaplain, NCGenWeb transcription of Currituck 1715 land taxes, 27 March entry; North Carolina State Archives, Colonial Court Records, Taxes & Accounts, CCR 190](https://www.ncgenweb.us/currituck/tax/1715land.html) — Daniell Glasco: one tract, 260 acres, tax 6s 6d.
+- [Stuart Chaplain, NCGenWeb transcription of Currituck 1718 levies, third displayed section; NCSA Colonial Court Records, Taxes & Accounts, CCR 190](https://www.ncgenweb.us/currituck/tax/1718levies.html) — Daniell Glasco Ser. and Daniel Glasco Jur. are separately entered, each assessed for one tithable and 15 shillings.
+- [Stuart Chaplain, NCGenWeb transcription of Currituck 1719 levies and land tax, first displayed section; NCSA Colonial Court Records, Taxes & Accounts, CCR 190](https://www.ncgenweb.us/currituck/tax/1719levies.html) — Daniel Glasco Jur. and Daniel Glasco Ser. are separate entries, each assessed for one tithable and 15 shillings. Senior has one tract of 250 acres, land tax 6s 3d; Junior’s land columns are blank.
+
+[Family comparison](/branches/early-scottish-records/#chapter-currituck-daniel-tax-returns).

@@ -32157,6 +32157,51 @@
       "collateral_connections_added": 1,
       "new_source_discoveries": 1,
       "paternal_connectivity_changed": false
+    },
+    {
+      "id": "currituck-daniel-tax-returns-20261018",
+      "found_on": "2026-10-18",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "The Currituck 1718 and 1719 tax returns separately name Daniel Glasco Senior and Junior. The 1719 Senior entry lists 250 acres; Junior’s land columns are blank. A 1715 return lists a Daniel with 260 acres.",
+      "qualification": "These are newly reviewed published transcriptions attributed to NCSA Colonial Court Records, Taxes & Accounts, CCR 190; manuscript images were not inspected. Senior and Junior distinguish the two entries and suggest relative age, but do not state father and son. The two years support retaining at least two record-defined Daniels, without supplying their exact ages, wives, children or a physical household arrangement. The similar 1715 and 1719 acreages are a possible continuity clue, not proof of the same tract or man. The existing profiles Daniel Glasgow-1158 and Daniel Glasgow-3322 are compatible comparison accounts, not automatic matches to Senior and Junior respectively. Both are attached to Robert-1157 in the current tree and may themselves duplicate one adult; the fact that the returns contain two Daniels does not prove that these two profiles represent those two men. Daniel-3322’s account represents the Mary Gamon husband named in 1693. The 1729 Norfolk Daniel/Mary deed is a further compatible identity, not a proved continuation into either Currituck taxpayer. Daniel-1158’s inherited 1712 death remains unverified: it cannot establish which later Daniel is excluded, nor should a later same-name entry automatically extend his life. Preserve both profiles and their vital fields while testing these identities. 42% is the first individual assessment of this existing father placement, not an increase from a previous numerical probability or a newly discovered father. A younger local Daniel, another Glasgow father, or a collateral relationship remains possible; the two modern Daniel accounts could also duplicate the same man. William’s 1746 will names his children and an unnamed grandfather of Sarah, but does not identify that grandfather as paternal or as Daniel. No mother, Scottish origin, Robert ancestry, father replacement, merge or vital-date change is selected. The tax suffixes alone are not a basis for connecting the two Daniels as father and son.",
+      "people": [
+        {
+          "id": "Glasgow-428",
+          "name": "William Glasgow of Currituck",
+          "url": "/people/glasgow-428.html"
+        },
+        {
+          "id": "Glasgow-1158",
+          "name": "Daniel Glasgow, older tree account",
+          "url": "/people/glasgow-1158.html"
+        },
+        {
+          "id": "Glasgow-3322",
+          "name": "Daniel Glasco, Mary Gamon husband account",
+          "url": "/people/glasgow-3322.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Stuart Chaplain, NCGenWeb transcription of Currituck 1715 land taxes, 27 March entry; North Carolina State Archives, Colonial Court Records, Taxes & Accounts, CCR 190",
+          "url": "https://www.ncgenweb.us/currituck/tax/1715land.html"
+        },
+        {
+          "title": "Stuart Chaplain, NCGenWeb transcription of Currituck 1718 levies, third displayed section; NCSA Colonial Court Records, Taxes & Accounts, CCR 190",
+          "url": "https://www.ncgenweb.us/currituck/tax/1718levies.html"
+        },
+        {
+          "title": "Stuart Chaplain, NCGenWeb transcription of Currituck 1719 levies and land tax, first displayed section; NCSA Colonial Court Records, Taxes & Accounts, CCR 190",
+          "url": "https://www.ncgenweb.us/currituck/tax/1719levies.html"
+        }
+      ],
+      "detail_url": "/branches/early-scottish-records/#chapter-currituck-daniel-tax-returns",
+      "relationship_changes": [],
+      "certainty_upgrades": 0,
+      "genealogical_connections_added": 0,
+      "new_source_discoveries": 3,
+      "paternal_connectivity_changed": false
     }
   ]
 }

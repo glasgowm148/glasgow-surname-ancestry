@@ -5150,5 +5150,65 @@
         "role": "father conditional on baptism/apprenticeship identification"
       }
     }
+  },
+  {
+    "record_id": "currituck-daniel-tax-1715",
+    "record_type": "tax",
+    "date": "1715-03-27",
+    "year": 1715,
+    "place": "Currituck County, North Carolina",
+    "source_title": "Stuart Chaplain, NCGenWeb transcription of Currituck 1715 land taxes, 27 March entry; North Carolina State Archives, Colonial Court Records, Taxes & Accounts, CCR 190",
+    "source_url": "https://www.ncgenweb.us/currituck/tax/1715land.html",
+    "source_quality": "published archival transcription",
+    "status": "NCGenWeb transcription read 18 October 2026; original manuscripts uninspected; taxpayer-profile identities unresolved",
+    "note": "Daniell Glasco: one tract, 260 acres, tax 6s 6d. These are newly reviewed published transcriptions attributed to NCSA Colonial Court Records, Taxes & Accounts, CCR 190; manuscript images were not inspected. Senior and Junior distinguish the two entries and suggest relative age, but do not state father and son. The two years support retaining at least two record-defined Daniels, without supplying their exact ages, wives, children or a physical household arrangement. The similar 1715 and 1719 acreages are a possible continuity clue, not proof of the same tract or man.",
+    "profiles": {
+      "Glasgow-1158": {
+        "role": "compatible taxpayer identity only; not assigned to Senior"
+      },
+      "Glasgow-3322": {
+        "role": "compatible taxpayer identity only; not assigned to Junior"
+      }
+    }
+  },
+  {
+    "record_id": "currituck-daniels-levies-1718",
+    "record_type": "tax",
+    "date": "1718",
+    "year": 1718,
+    "place": "Currituck County, North Carolina",
+    "source_title": "Stuart Chaplain, NCGenWeb transcription of Currituck 1718 levies, third displayed section; NCSA Colonial Court Records, Taxes & Accounts, CCR 190",
+    "source_url": "https://www.ncgenweb.us/currituck/tax/1718levies.html",
+    "source_quality": "published archival transcription",
+    "status": "NCGenWeb transcription read 18 October 2026; original manuscripts uninspected; taxpayer-profile identities unresolved",
+    "note": "Daniell Glasco Ser. and Daniel Glasco Jur. are separately entered, each assessed for one tithable and 15 shillings. These are newly reviewed published transcriptions attributed to NCSA Colonial Court Records, Taxes & Accounts, CCR 190; manuscript images were not inspected. Senior and Junior distinguish the two entries and suggest relative age, but do not state father and son. The two years support retaining at least two record-defined Daniels, without supplying their exact ages, wives, children or a physical household arrangement. The similar 1715 and 1719 acreages are a possible continuity clue, not proof of the same tract or man.",
+    "profiles": {
+      "Glasgow-1158": {
+        "role": "compatible taxpayer identity only; not assigned to Senior"
+      },
+      "Glasgow-3322": {
+        "role": "compatible taxpayer identity only; not assigned to Junior"
+      }
+    }
+  },
+  {
+    "record_id": "currituck-daniels-tax-1719",
+    "record_type": "tax",
+    "date": "1719",
+    "year": 1719,
+    "place": "Currituck County, North Carolina",
+    "source_title": "Stuart Chaplain, NCGenWeb transcription of Currituck 1719 levies and land tax, first displayed section; NCSA Colonial Court Records, Taxes & Accounts, CCR 190",
+    "source_url": "https://www.ncgenweb.us/currituck/tax/1719levies.html",
+    "source_quality": "published archival transcription",
+    "status": "NCGenWeb transcription read 18 October 2026; original manuscripts uninspected; taxpayer-profile identities unresolved",
+    "note": "Daniel Glasco Jur. and Daniel Glasco Ser. are separate entries, each assessed for one tithable and 15 shillings. Senior has one tract of 250 acres, land tax 6s 3d; Junior’s land columns are blank. These are newly reviewed published transcriptions attributed to NCSA Colonial Court Records, Taxes & Accounts, CCR 190; manuscript images were not inspected. Senior and Junior distinguish the two entries and suggest relative age, but do not state father and son. The two years support retaining at least two record-defined Daniels, without supplying their exact ages, wives, children or a physical household arrangement. The similar 1715 and 1719 acreages are a possible continuity clue, not proof of the same tract or man.",
+    "profiles": {
+      "Glasgow-1158": {
+        "role": "compatible taxpayer identity only; not assigned to Senior"
+      },
+      "Glasgow-3322": {
+        "role": "compatible taxpayer identity only; not assigned to Junior"
+      }
+    }
   }
 ]

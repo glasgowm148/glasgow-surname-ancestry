@@ -2365,3 +2365,10 @@ Burial-defined Walter remains on source-verification HOLD in the existing creati
 | [James Glasgow, Edinburgh weaver](https://www.wikitree.com/wiki/Glasgow-1150) | OPEN | Agnes Duncan was buried on 21 January 1674 as wife of James the weaver. Remarriage before the Duffe children is compatible. The two late apprentice sons are assessed as probable brothers, 79%, without merging the two father accounts. |
 | [James Glasgow, Duffe household](https://www.wikitree.com/wiki/Glasgow-2682) | OPEN | The older Edinburgh weaver James Glasgow-1150 is a compatible possible identity: Agnes Duncan’s 1674 burial precedes the Duffe children. The 1696 James and 1699 Thomas apprentices are probable brothers, 79%. The current speculative Johnne father is conditional on this being a distinct younger James. |
 | [Agnes Duncan, wife of James Glasgow](https://www.wikitree.com/wiki/Duncan-16106) | OPEN | Agnes Duncan, wife of James Glasgow the weaver, was buried in Greyfriars on 21 January 1674. This is a burial date, not an exact death date; her indexed 1653 marriage and the family’s later identity questions remain separate. |
+
+
+## Currituck Daniel tax returns — 18 October 2026
+
+| [William Glasgow of Currituck](https://www.wikitree.com/wiki/Glasgow-428) | OPEN | Daniel-1158 remains the selected possible father, 42%; this first individual estimate does not add or replace a father. The 1718–1719 returns distinguish two Daniels, and neither is automatically William’s parent. |
+| [Daniel Glasgow, older tree account](https://www.wikitree.com/wiki/Glasgow-1158) | OPEN | The 1718–1719 Currituck tax returns distinguish Senior and Junior. This profile is a compatible candidate, not an identified taxpayer. Its 1712 death and Robert ancestry remain unverified. The proposed fatherhood of William-428 is possible, 42%. |
+| [Daniel Glasco, Mary Gamon husband account](https://www.wikitree.com/wiki/Glasgow-3322) | OPEN | The 1693 Mary Gamon husband remains this profile’s primary record identity. The two Currituck Daniels of 1718–1719 are compatible comparisons; this profile is not automatically Junior or distinct from Daniel-1158. |
