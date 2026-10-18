@@ -279,6 +279,13 @@ def apply_creations(root=ROOT):
             if old.get("catalogue_id") == person["catalogue_id"] and old.get("profile_ids"):
                 raise ValueError(f"{person['catalogue_id']}: existing-profile canonical ID collision")
     dossiers, resolver = build_machine_models(people)
+    try:
+        from publish_resolved_dossiers import resolve
+    except ModuleNotFoundError:
+        from tools.publish_resolved_dossiers import resolve
+    assessments = _read(web / "assets/research/assessments.json", {}).get("assessments", [])
+    shared = _read(root / "research/relationship_assessments.json", [])
+    dossiers = {slug: resolve(dossier, assessments, shared) for slug, dossier in dossiers.items()}
     searches = []
     public_index = _read(web / "data/people-index.json", [])
     links = {p["id"]: p.get("catalogue_id") or p.get("slug") or p["id"].lower() for p in public_index}

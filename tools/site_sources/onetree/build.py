@@ -740,7 +740,7 @@ def generate_model(catalogue_path: Path, prior: dict) -> dict:
     for person in documentary:
         if person['id'] in public_ids:
             raise ValueError(f'Duplicate documentary ancestor: {person["id"]}')
-        place = LOCATION_BY_ID['scotland']
+        place = LOCATION_BY_ID[person.get('location_region', 'scotland')]
         people.append(dict(id=person['id'], name=person['name'], kind='person',
                            born=None, died=None, birthDisplay='', deathDisplay='',
                            birthplace='', deathplace='', sex=person.get('gender', ''),
@@ -748,7 +748,7 @@ def generate_model(catalogue_path: Path, prior: dict) -> dict:
                            note=person['summary'], first=person['name'].split()[0],
                            birthSurname='Glasgow', currentSurname='Glasgow', bornApprox=False,
                            year=person['first_record_year'], catalogueId=person['id'],
-                           locationRegion='scotland', locationLabel=place['label'], locationColor=place['color'],
+                           locationRegion=place['id'], locationLabel=place['label'], locationColor=place['color'],
                            birthLocationRegion='other', deathLocationRegion='other',
                            cluster=person.get('record_place', ''), documentary=True,
                            recordUrl=person['url'], catalogueUrl=person['url'], wikitreeUrl=person.get('wikitree_url', ''),

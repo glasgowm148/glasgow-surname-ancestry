@@ -49,7 +49,7 @@ def merge_amendments(specifications, amendments, captures, report=None):
 
 def public_additive_update(update):
     """Expose safe additions without exposing a private captured biography."""
-    return {key: update[key] for key in ('profile_id', 'profile_url', 'significance', 'pending') if key in update} | {
+    return {key: update[key] for key in ('profile_id', 'profile_url', 'significance', 'pending', 'relationship_changes') if key in update} | {
         'summary': 'Add the cited historical record account, retaining its identity qualifications.',
         'comparison_withheld': True, 'manual_update': True,
         'public_addition_wikitext': update['public_addition_wikitext'],

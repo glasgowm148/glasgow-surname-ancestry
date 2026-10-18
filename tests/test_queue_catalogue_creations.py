@@ -98,6 +98,33 @@ The deed does not give her birth date. No compatible profile survived the docume
         self.assertEqual(len(self.read("data/people-index.json")), 1)
         self.assertEqual(self.read(f"people/{self.slug}.json")["research_findings"][0]["sections"][0]["markdown"], self.entry["assessment"])
 
+    def test_fresh_page_shows_approved_family_without_captured_attachments(self):
+        brother = 'record-peter-glasgow-1775'
+        assessments = [{
+            'assertion_id': 'C-test-record-siblings', 'people': [self.slug, brother],
+            'publication_status': 'approved', 'status': 'proved', 'allow_new_relationship': True,
+            'profile_names': {brother: 'Peter Glasgow'},
+            'profile_urls': {brother: {'url': f'/people/{brother}.html'}},
+            'claim': 'Jane and Peter are siblings', 'basis': 'Named in the deed.',
+            'source_ids': ['test-deed-1775'],
+            'perspectives': {self.slug: {'relationship': 'sibling', 'reason': 'Named in the deed.'},
+                             brother: {'relationship': 'sibling', 'reason': 'Named in the deed.'}},
+        }]
+        path = self.root / 'research/relationship_assessments.json'
+        path.write_text(json.dumps(assessments))
+        module.apply_creations(self.root)
+        soup = BeautifulSoup((self.root / f'www/people/{self.slug}.html').read_text(), 'html.parser')
+        family = soup.select_one('#family')
+        self.assertIn('Siblings', family.get_text())
+        self.assertIn('Peter Glasgow', family.get_text())
+        self.assertIsNotNone(family.select_one(f'a[href="/people/{brother}.html"]'))
+        self.assertNotIn('No family attachments', family.get_text())
+        self.assertNotIn('wikitree.com/wiki/record-', str(family))
+        siblings = self.read(f'people/{self.slug}.json')['relationships']['siblings']
+        self.assertEqual([row['id'] for row in siblings], [brother])
+        network = self.read(f'people/{self.slug}.network.json')
+        self.assertTrue(any(row['id'] == brother for row in network['relationships']))
+
     def test_rejects_uncited_incomplete_or_nonhistorical_entries_before_writes(self):
         for field, value in (("draft_wikitext", "== Biography ==\nEmpty"), ("records", []), ("living", True)):
             with self.subTest(field=field):

@@ -63,6 +63,8 @@ class ReviewedQueueAmendmentsTests(unittest.TestCase):
     def test_private_comparison_retains_pending_public_additions_without_raw_text(self):
         update = dict(profile_id='Glasgow-1', pending=True, significance=60,
                       remote_wikitext='Private captured family', proposed_wikitext='Private full replacement',
+                      relationship_changes=[dict(action='add', relationship='father',
+                                                 relative_id='Glasgow-2', status='uncertain')],
                       public_addition_wikitext='A sourced historical record.<ref>Original source.</ref>')
         safe = public_additive_update(update)
         panel = additive_update_panel(safe)
@@ -71,6 +73,10 @@ class ReviewedQueueAmendmentsTests(unittest.TestCase):
         self.assertNotIn('Private full replacement', panel)
         self.assertIn('Sourced additions only', panel)
         self.assertIn('Original source.', panel)
+        public = sync.update_data(safe)
+        self.assertEqual(public['relationship_changes'], update['relationship_changes'])
+        self.assertEqual(public['remote_wikitext'], '')
+        self.assertEqual(public['draft_wikitext'], '')
 
     def test_valid_unquoted_citation_definition_satisfies_quoted_reuse(self):
         text = '<ref name=Protocols1903-1904>Original source.</ref> Later.<ref name="Protocols1903-1904" />'

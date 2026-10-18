@@ -99,6 +99,17 @@ def reviewed_inclusion_cases(cases, amendments, evidence, metadata):
 
 
 def page_shell(person, dossier, findings, links):
+    # A fresh record account starts without captured relatives. Render the same
+    # approved relationships that the subsequent machine-data resolver applies.
+    try:
+        from publish_resolved_dossiers import resolve
+    except ModuleNotFoundError:
+        from tools.publish_resolved_dossiers import resolve
+    shared = ROOT / "research/relationship_assessments.json"
+    registry = WEB / "assets/research/assessments.json"
+    dossier = resolve(dossier,
+                      read_json(registry).get("assessments", []) if registry.exists() else [],
+                      read_json(shared) if shared.exists() else [])
     # Reuse only the current site's shared shell, removing all subject content.
     soup = BeautifulSoup((WEB / "people/glasgow-1521.html").read_text(), "html.parser")
     ident, slug, name = dossier["id"], person["catalogue_id"], person["name"]
@@ -125,8 +136,8 @@ def page_shell(person, dossier, findings, links):
             if "William Glasgow" in child.get_text():
                 child.string = name
     family_rows = []
-    for label, key in (("Parents", "parents"), ("Spouses", "spouses"), ("Children", "children")):
-        relatives = dossier["relationships"][key]
+    for label, key in (("Parents", "parents"), ("Spouses", "spouses"), ("Children", "children"), ("Siblings", "siblings")):
+        relatives = dossier["relationships"].get(key, [])
         if not relatives:
             continue
         values = []
@@ -134,7 +145,7 @@ def page_shell(person, dossier, findings, links):
             rid = relative.get("id", "")
             if not rid:
                 continue
-            href = f'/people/{links[rid]}.html' if rid in links else catalogue.WIKITREE_URL + rid
+            href = relative.get("url") or (f'/people/{links[rid]}.html' if rid in links else catalogue.WIKITREE_URL + rid)
             state = relative.get("status") or relative.get("tree_status") or "unmarked"
             shown = relative.get("tree_status_label") or relative.get("status_label")
             status = evidence_labels.normalise_status_label(state, shown) if shown else evidence_labels.label(state)
