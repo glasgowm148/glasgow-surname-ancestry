@@ -471,6 +471,11 @@ def apply_public_families(people: list[dict], site_root: Path, cutoff: int = 185
 
     for ident in added:
         relationships = dossiers[ident].get('relationships') or {}
+        if add_only:
+            # A later pass no longer sees these people as newly added. Carry
+            # their published mothers now, while leaving existing nodes alone.
+            by_id[ident]['parents'] = [parent_row(r) for r in relationships.get('parents', [])
+                                      if r.get('relationship') == 'mother' and not r.get('withheld')]
         for key, role in [('partners', 'spouse'), ('childrenRecorded', 'child')]:
             rows = relationships.get('spouses' if role == 'spouse' else 'children') or []
             by_id[ident][key] = [{**r, 'role': role, 'inModel': r.get('id') in by_id}

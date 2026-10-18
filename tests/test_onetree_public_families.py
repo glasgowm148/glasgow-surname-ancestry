@@ -63,6 +63,25 @@ class PublicFamiliesTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'conflicts with existing father'):
             apply_working_hypotheses(people, [self.selected_father()])
 
+    def test_seeded_child_keeps_published_mother_through_full_sync(self):
+        people = []
+        families = {'Child-1': [
+            dict(id='Father-1', relationship='father', status='possible'),
+            dict(id='Mother-1', relationship='mother', status='unmarked')],
+            'Father-1': []}
+        self.run_sync(people, families, add_only=True)
+        child = next(p for p in people if p['id'] == 'Child-1')
+        self.assertEqual([(p['id'], p['role']) for p in child['parents']],
+                         [('Mother-1', 'mother')])
+        self.assertFalse(child['parents'][0]['inModel'])
+        apply_working_hypotheses(people, [self.selected_father()])
+        self.run_sync(people, families)
+        self.assertEqual([(p['id'], p['role']) for p in child['parents']],
+                         [('Mother-1', 'mother'), ('Father-1', 'father')])
+        before = copy.deepcopy(people)
+        self.run_sync(people, families)
+        self.assertEqual(people, before)
+
     def test_seeding_keeps_the_historical_cutoff(self):
         people = []
         self.run_sync(people, {'Child-1': [], 'Father-1': []},
