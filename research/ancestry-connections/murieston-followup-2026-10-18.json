@@ -1,0 +1,33 @@
+{
+  "reviewed": "2026-10-18",
+  "scope": "Mureistoun highest-impact father route follow-up",
+  "probabilities_unchanged": {
+    "George_to_James": 82,
+    "William_to_Mureistoun_George": 26
+  },
+  "child_side_profile_accounts": 390,
+  "new_source_discoveries": 0,
+  "new_original_inspections": 0,
+  "relationship_changes": [],
+  "coverage": [
+    {
+      "source": "H.B.McCall, History and Antiquities of Mid-Calder (1894)",
+      "url": "https://archive.org/details/historyantiquiti00mcal",
+      "method": "Complete downloaded OCR screened for Glasgow/Glasgw and Mureistoun variants; no exhaustive visual search asserted",
+      "sha256": "b4850a22b728122ea852a1fa412df34b02a36805b3691493c9e4689d95ebfd0a",
+      "result": "Existing1586 repetition; no new kinship lead"
+    },
+    {
+      "source": "NLS MS.3724 and linked MS.3725 description",
+      "url": "https://manuscripts.nls.uk/repositories/2/archival_objects/37880",
+      "method": "Catalogue description only; manuscript/transcript unread",
+      "next": "Title-production court pp.1–15 and chronological court pp.23–189"
+    }
+  ],
+  "publication": "Reconciles a stale16October selected-father statement and supplies existing individual percentages; not a new genealogical connection.",
+  "draft_repairs": [
+    "James-991 → Glasgow-991",
+    "William-3522 → Glasgow-3522",
+    "circa-1575 retained as ordinary estimate wording, not an invented profile link"
+  ]
+}

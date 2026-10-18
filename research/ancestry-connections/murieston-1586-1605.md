@@ -1,8 +1,17 @@
 # Murieston Glasgow group, 1586–1605
 
-Reviewed: 2026-10-16
+Reviewed: 2026-10-18
 
 ## Current conclusion
+
+Reviewed: 2026-10-18. **George of Mureistoun is James Glasgow-991’s selected probable father, 82%.** Andrew Glasgow-3163 is an unselected uncertain alternative. The combined 1586 holding and 1605 baptism-witness argument supports that preference; neither record states the kinship. Father, uncle, brother, other kinsman and neighbour remain alternatives.
+
+George’s own selected father is **William Glasgow-3522, uncertain, 26%**, entirely conditional on the possible identity with the merchant George Glasgow-1099. The merchant’s proved father role must not be transferred as proved to the Mureistoun man. His minority in 1586 and James’s unrecorded birth remain material constraints. No birth date, mother or identity is changed to force the route.
+
+The current fixed pre-1850 graph has 390 profile accounts on the child side of each of these nested links. Their impacts overlap and must not be added. The 18 October sweep adds no new kinship evidence and changes no percentage, relationship or connectivity measure. The dated 16 October discussion below predates the selected George father and is retained as history.
+
+### Earlier conclusion — 16 October 2026, superseded for the father selection
+
 
 The preferred working identification is that George Glasgw in Mureistoun in the 1586 Calder muster obligation was the adult George Glasgow who witnessed the 17 February 1605 baptism of George, son of James Glasgow in provisionally read Muirestoun. The 1605 household points to the same holding as the earlier George, within the same parish setting. The surname is specific to this local comparison, and a 19-year interval is straightforward for one adult career. A child bearing George’s name and an adult George participating in his baptism make a continuing local family association more economical than two unconnected Georges. Together these observations warrant probable rather than merely possible cross-record identity. They do not amount to independent proofs of every step.
 
@@ -47,3 +56,10 @@ The 1586–1605 identity is now probable, following the 16 October reassessment;
 ## Confidence history — 16 October 2026
 
 Previously possible on 15 October; now probable after evaluating the combined holding, household and career argument. This is a changed assessment of existing evidence, with a fresh reading of the 1605 original; it is not a new source discovery.
+
+
+## Follow-up coverage — 18 October 2026
+
+The complete available OCR of McCall’s 1894 parish history was screened for Glasgow/Glasgw and Mureistoun variants. It yielded the already-held 1586 muster-list repetition and no new kinship lead. This is OCR screening, not a claim that every manuscript or printed page was visually searched. The Murieston tenant extracts identify other surnames; they are not Glasgow surname records.
+
+The NLS description of [MS.3724](https://manuscripts.nls.uk/repositories/2/archival_objects/37880) locates the 1586 title-production courts at pp.1–15 and the chronological court sequence at pp.23–189, with a 1592–1594 gap. No manuscript or modern transcript text was obtained in this sweep. MS.3724 and MS.3725 remain the discriminating household/tenure targets. No newly inspected original or new source discovery is claimed.
