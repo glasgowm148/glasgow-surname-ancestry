@@ -394,7 +394,7 @@ def apply_reviewed_parent_replacements(people: list[dict], assessments: list[dic
 
 
 def apply_public_families(people: list[dict], site_root: Path, cutoff: int = 1850,
-                          assessments: list[dict] | None = None) -> dict:
+                          assessments: list[dict] | None = None, *, add_only: bool = False) -> dict:
     """Reconcile historical fathers and explicitly reviewed maternal claims.
 
     The aggregate catalogue can predate targeted dossier publications. Neither a
@@ -475,6 +475,11 @@ def apply_public_families(people: list[dict], site_root: Path, cutoff: int = 185
             rows = relationships.get('spouses' if role == 'spouse' else 'children') or []
             by_id[ident][key] = [{**r, 'role': role, 'inModel': r.get('id') in by_id}
                                 for r in rows if not r.get('withheld')]
+
+    if add_only:
+        # Make historical dossier endpoints available before validating selected
+        # links. Existing parents must remain intact for conflict checks.
+        return dict(publicFamilyNewIds=sorted(added))
 
     for ident, dossier in dossiers.items():
         person = by_id[ident]
@@ -760,12 +765,15 @@ def generate_model(catalogue_path: Path, prior: dict) -> dict:
         assessments = []
     aliases_path = ROOT / 'data/wikitree/live-profile-overrides.json'
     parent_aliases = json.loads(aliases_path.read_text()).get('redirects', {}) if aliases_path.exists() else {}
+    seeded_public = apply_public_families(people, ROOT / 'www', assessments=assessments, add_only=True)
     restored_family_ids = apply_recorded_family_restorations(people, assessments)
     family_aliases = reviewed_family_aliases(assessments, parent_aliases, {p['id'] for p in people})
     reviewed_parent_ids = apply_reviewed_parent_replacements(people, assessments)
     hypotheses = apply_working_hypotheses(people, assessments, parent_aliases)
     maternal_hypotheses = apply_working_mothers(people, assessments)
     public_family_sync = apply_public_families(people, ROOT / 'www', assessments=assessments)
+    public_family_sync['publicFamilyNewIds'] = sorted(set(
+        seeded_public['publicFamilyNewIds'] + public_family_sync['publicFamilyNewIds']))
     public_family_sync.update(apply_captured_parent_aliases(people, ROOT / 'www', parent_aliases))
     public_family_sync.update(apply_public_siblings(people, assessments))
 

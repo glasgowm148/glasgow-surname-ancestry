@@ -4,7 +4,7 @@ import tempfile
 import unittest
 from pathlib import Path
 from unittest.mock import patch
-from tools.site_sources.onetree.build import apply_public_families
+from tools.site_sources.onetree.build import apply_public_families, apply_working_hypotheses
 
 
 class PublicFamiliesTests(unittest.TestCase):
@@ -16,7 +16,7 @@ class PublicFamiliesTests(unittest.TestCase):
     def tearDown(self):
         self.tmp.cleanup()
 
-    def run_sync(self, people, families, ambiguous=(), years=None, assessments=None):
+    def run_sync(self, people, families, ambiguous=(), years=None, assessments=None, add_only=False):
         for person in people:
             person.setdefault('name', person['id'])
         nodes = {}
@@ -32,7 +32,44 @@ class PublicFamiliesTests(unittest.TestCase):
             edges += [dict(child=ident, father=r['id'], status=r.get('status', 'unknown'))
                       for r in parents if r.get('relationship') == 'father' and ident not in ambiguous]
         with patch('tools.branch_connectivity.load_public_nodes', return_value=(nodes, edges, {'multiple_fathers': list(ambiguous)})):
-            return apply_public_families(people, self.site, assessments=assessments)
+            return apply_public_families(people, self.site, assessments=assessments, add_only=add_only)
+
+    def selected_father(self):
+        return dict(assertion_id='A-selected', publication_status='approved',
+                    working_selection=True, allow_new_relationship=True, status='possible',
+                    basis='Reviewed local household', source_ids=['Baptism-1'],
+                    perspectives={'Child-1': {'relationship': 'father'},
+                                  'Father-1': {'relationship': 'son'}})
+
+    def test_missing_historical_endpoints_are_seeded_before_working_validation(self):
+        people = []
+        families = {'Child-1': [dict(id='Father-1', relationship='father', status='possible')],
+                    'Father-1': []}
+        seeded = self.run_sync(people, families, add_only=True)
+        self.assertEqual(seeded['publicFamilyNewIds'], ['Child-1', 'Father-1'])
+        self.assertTrue(all(p['parents'] == [] for p in people))
+        self.assertEqual(apply_working_hypotheses(people, [self.selected_father()]), 1)
+        self.run_sync(people, families)
+        child = next(p for p in people if p['id'] == 'Child-1')
+        self.assertEqual(child['parents'][0]['id'], 'Father-1')
+        self.assertTrue(child['parents'][0]['hypothesis'])
+
+    def test_seeding_does_not_hide_a_conflicting_existing_father(self):
+        people = [dict(id='Child-1', parents=[dict(id='Old-1', role='father', status='unmarked')]),
+                  dict(id='Old-1', parents=[])]
+        previous = copy.deepcopy(people[0]['parents'])
+        self.run_sync(people, {'Child-1': [], 'Father-1': []}, add_only=True)
+        self.assertEqual(people[0]['parents'], previous)
+        with self.assertRaisesRegex(ValueError, 'conflicts with existing father'):
+            apply_working_hypotheses(people, [self.selected_father()])
+
+    def test_seeding_keeps_the_historical_cutoff(self):
+        people = []
+        self.run_sync(people, {'Child-1': [], 'Father-1': []},
+                      years={'Child-1': 1900, 'Father-1': 1800}, add_only=True)
+        self.assertEqual([p['id'] for p in people], ['Father-1'])
+        with self.assertRaisesRegex(ValueError, 'endpoint outside'):
+            apply_working_hypotheses(people, [self.selected_father()])
 
     def test_tentative_working_father_preserves_selected_provenance(self):
         for grade in ['possible', 'probable']:
