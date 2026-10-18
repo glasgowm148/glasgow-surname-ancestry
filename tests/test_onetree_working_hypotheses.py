@@ -23,7 +23,8 @@ class WorkingHypothesisTests(unittest.TestCase):
         model[1]['childrenRecorded'] = [{'id': 'Child-1'}, {'id': 'Other-1'}]
         previous = dict(assertion_id='A-old', publication_status='approved', working_selection=True,
                         child='Child-1', father='OldFather-1', status='uncertain',
-                        basis='Earlier reviewed comparison', source_ids=['S-old'])
+                        basis='Earlier reviewed comparison', source_ids=['S-old'],
+                        probability={'value': .28, 'label': 'Uncertain · 28%'})
         alternative = dict(assertion_id='A-old', people=['Child-1', 'OldFather-1'],
                            publication_status='approved', lifecycle='alternative', status='uncertain',
                            source_ids=['S-old'], previous_working_selection=previous,
@@ -41,6 +42,7 @@ class WorkingHypothesisTests(unittest.TestCase):
         self.assertEqual([p['id'] for p in model[0]['parents']], ['NewFather-1'])
         self.assertEqual(model[0]['priorWorkingParents'][0]['id'], 'OldFather-1')
         self.assertEqual(model[0]['priorWorkingParents'][0]['reason'], 'Earlier reviewed comparison')
+        self.assertEqual(model[0]['priorWorkingParents'][0]['probability']['value'], .28)
         self.assertEqual(model[1]['childrenRecorded'], [{'id': 'Other-1'}])
         self.assertEqual(model[2]['childrenRecorded'][0]['id'], 'Child-1')
         # A repeat build can already contain the selected parent; preserve one history row.

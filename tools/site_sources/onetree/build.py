@@ -202,6 +202,9 @@ def apply_working_hypotheses(people: list[dict], assessments: list[dict], parent
                                     status=previous['status'], hypothesis=True,
                                     assertion_id=previous['assertion_id'], reason=previous['basis'],
                                     source='local_working_hypothesis')]
+                if previous.get('probability'):
+                    for row in history:
+                        row['probability'] = deepcopy(previous['probability'])
                 saved = by_id[child].setdefault('priorWorkingParents', [])
                 saved.extend(r for r in history if not any(
                     old.get('id') == r['id'] and old.get('role') == 'father' for old in saved))
