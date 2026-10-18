@@ -596,6 +596,43 @@ def apply_public_families(people: list[dict], site_root: Path, cutoff: int = 185
                 publicFamilyChecked=len(dossiers))
 
 
+def apply_public_siblings(people: list[dict], assessments: list[dict]) -> dict:
+    """Carry reviewed collateral links without fabricating a shared parent.
+
+    Raw sibling snapshots may inherit an unreviewed father. Only an approved,
+    sourced, reciprocal sibling assessment supplies this independent display.
+    Paternal connectivity continues to count parent rows alone.
+    """
+    from tools.relationship_probability import probability_for_relationship
+    by_id = {p['id']: p for p in people}
+    scope = set()
+    for person in people:
+        person.pop('siblings', None)
+    for assessment in assessments:
+        pair = assessment.get('people', [])
+        if (assessment.get('publication_status') != 'approved' or len(pair) != 2
+                or not assessment.get('source_ids') or not assessment.get('assertion_id')
+                or not assessment.get('basis')
+                or assessment.get('display') in {'alternative', 'historical', 'superseded'}
+                or assessment.get('lifecycle') in {'alternative', 'historical', 'superseded'}
+                or (assessment.get('status') not in {'proved', 'confident', 'strongly_supported', 'probable'}
+                    and not assessment.get('working_selection'))
+                or not all(ident in by_id for ident in pair)
+                or not all(assessment.get('perspectives', {}).get(ident, {}).get('relationship') == 'sibling'
+                           for ident in pair)):
+            continue
+        for subject, relative in (pair, pair[::-1]):
+            row = dict(id=relative, name=by_id[relative]['name'], role='sibling', inModel=True,
+                       status=assessment['status'], assertion_id=assessment['assertion_id'],
+                       reason=assessment['basis'], source_ids=assessment['source_ids'],
+                       probability=probability_for_relationship(assessment, subject, relative, 'sibling'),
+                       analysis_links=assessment.get('analysis_links', []))
+            row['statusLabel'] = row['probability']['label']
+            by_id[subject].setdefault('siblings', []).append(row)
+            scope.add(subject)
+    return {'publicSiblingScopeIds': sorted(scope)}
+
+
 def apply_captured_parent_aliases(people: list[dict], site_root: Path, redirects: dict) -> dict:
     """Recover existing raw parent fields only when saved redirects prove identity.
 
@@ -730,6 +767,7 @@ def generate_model(catalogue_path: Path, prior: dict) -> dict:
     maternal_hypotheses = apply_working_mothers(people, assessments)
     public_family_sync = apply_public_families(people, ROOT / 'www', assessments=assessments)
     public_family_sync.update(apply_captured_parent_aliases(people, ROOT / 'www', parent_aliases))
+    public_family_sync.update(apply_public_siblings(people, assessments))
 
     # One real parent drives the drawing. Both remain in the relationship list.
     chosen: dict[str, dict] = {}

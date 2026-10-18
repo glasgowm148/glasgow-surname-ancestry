@@ -63,6 +63,21 @@ class RelationshipProbabilityTests(unittest.TestCase):
 
 
 class ModelProbabilityTests(unittest.TestCase):
+    def test_existing_exact_label_is_not_repeated_in_either_direction(self):
+        from copy import deepcopy
+        from unittest.mock import patch
+        from tools.relationship_probability import annotate_model
+        model = {'people': [
+            {'id': 'C', 'parents': [{'id': 'P', 'role': 'father', 'status': 'proved',
+                                    'statusLabel': 'Confident father ·99%'}]},
+            {'id': 'P', 'childrenRecorded': [{'id': 'C', 'statusLabel': 'Confident child ·99%'}]}]}
+        with patch('tools.relationship_probability.probability_for_relationship',
+                   return_value={'value': .99, 'label': 'Confident · 99%'}):
+            annotate_model(model)
+            self.assertEqual(model['people'][0]['parents'][0]['statusLabel'], 'Confident father · 99%')
+            self.assertEqual(model['people'][1]['childrenRecorded'][0]['statusLabel'], 'Confident child · 99%')
+            self.assertEqual(annotate_model(deepcopy(model)), model)
+
     def test_legacy_dual_parent_role_keeps_father_rating_separate(self):
         from tools.relationship_probability import annotate_model
         model={'people':[{'id':'C','parents':[{'id':'P','role':'father','status':'unmarked'},{'id':'P','role':'mother','status':'confident'}]}, {'id':'P','childrenRecorded':[{'id':'C'}]}]}

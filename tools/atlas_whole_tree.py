@@ -535,9 +535,10 @@ function makeTree(id){
   u.L=L;u.R=R;return u}
  function placeUnit(u,cx){let a=cx-unitW(u)/2;for(const pid of [u.id,...u.partners]){map.get(pid).a=a;a+=CA+G.couple}u.kids.forEach((k,i)=>placeUnit(k,cx+u.koff[i]))}
  const rootParents=(FAMILY.parents.get(id)||[]).slice().sort((a,b)=>(a.role==='father'?0:1)-(b.role==='father'?0:1));
+ const explicitSiblings=(P.get(id)?.siblings||[]).filter(r=>r&&r.id&&r.id!==id&&P.has(r.id));
  const rootUnit=unit(id,0,openD(id,state.treeDown>0),true),older=[],younger=[];
- if(state.treeSibs){const set=new Set();for(const r of rootParents)for(const c of FAMILY.children.get(r.id)||[])if(c!==id)set.add(c);
-  for(const s of [...set].sort(byYear)){if(map.has(s))continue;if(!room())break;(byYear(s,id)<0?older:younger).push(unit(s,0,openD(s,false),openD(s,false)))}}
+ if(state.treeSibs){const set=new Set(explicitSiblings.map(r=>r.id));for(const r of rootParents)for(const c of FAMILY.children.get(r.id)||[])if(c!==id)set.add(c);
+  for(const s of [...set].sort(byYear)){if(map.has(s))continue;if(!room())break;(byYear(s,id)<0?older:younger).push(unit(s,0,openD(s,false),openD(s,false)));map.get(s).familyRole='Sibling'}}
  lay(rootUnit);placeUnit(rootUnit,0);
  // Siblings stand beside the person; an unfolded sibling's family is packed alongside.
  const aL=rootUnit.L.slice(),aR=rootUnit.R.slice();
@@ -583,6 +584,11 @@ function makeTree(id){
   edges.push({a:A.id,b:B.id,geo:B.geo,colour:B.colour,type,status:null,role:type==='partner'?'spouse':'co-parent',points:pts})}
  for(const p of FAMILY.pairs.values())partner(p.a,p.b,'partner');
  for(const p of FAMILY.coPairs.values())if(p.children.some(c=>map.has(c)))partner(p.a,p.b,'coparent');
+ for(const r of explicitSiblings){const A=map.get(id),B=map.get(r.id);if(!A||!B||A.row!==B.row)continue;const left=A.a<B.a?A:B,right=left===A?B:A,gap=between(left,right);let pts;
+  if(O==='v')pts=gap?[left.x+cw-20,left.y,left.x+cw-20,left.y-44,right.x+20,right.y-44,right.x+20,right.y]:[left.x+cw,left.y+ch/2,left.x+cw+(right.x-left.x-cw)/3,left.y+ch/2,left.x+cw+(right.x-left.x-cw)*2/3,right.y+ch/2,right.x,right.y+ch/2];
+  else pts=gap?[left.x+cw,left.y+ch-12,left.x+cw+38,left.y+ch-12,right.x+cw+38,right.y+12,right.x+cw,right.y+12]:[left.x+16,left.y+ch,left.x+16,left.y+ch+(right.y-left.y-ch)/3,left.x+16,left.y+ch+(right.y-left.y-ch)*2/3,right.x+16,right.y];
+  const pill=treePill(r,'Sibling');if(pill)pills.push({...pill,x:(left.x+right.x+cw)/2,y:O==='v'?left.y-45:left.y+ch/2,align:'c'});
+  edges.push({a:id,b:r.id,geo:B.geo,colour:B.colour,type:'sibling',status:r.status,role:'sibling',points:pts});}
  const result={id:++sceneSerial,type:'family',tree:true,orient:O,G,rows:[...rows.keys()].sort((a,b)=>a-b),rowNodes:rows,pills,nodes,map,edges,root:id,bounds:boundsOf(nodes.flatMap(n=>[{x:n.x-46,y:n.y-46},{x:n.x+cw+46,y:n.y+ch+46}]),10),groups:[],truncated};
  prepareScene(result);treeChunks(result);return result;
 }
@@ -592,7 +598,7 @@ function treeElbow(e){const [ox,oy,bx,by,,,cx,cy]=e.points,path=new Path2D();pat
   path.lineTo(bx-dx*r,oy);path.arcTo(bx,oy,bx,oy+dy*r,r);path.lineTo(bx,cy-dy*r);path.arcTo(bx,cy,bx+(cx<bx?-1:1)*r,cy,r);path.lineTo(cx,cy);return path}
  if(Math.abs(cx-ox)<1){path.lineTo(cx,cy);return path}const r=Math.min(10,Math.abs(cx-ox)/2,Math.abs(by-oy)),dir=cx>ox?1:-1;
  path.lineTo(ox,by-r);path.arcTo(ox,by,ox+dir*r,by,r);path.lineTo(cx-dir*r,by);path.arcTo(cx,by,cx,by+r,r);path.lineTo(cx,cy);return path}
-function treeChunks(s){for(const e of s.edges)if(e.type==='recorded')e.path=treeElbow(e);
+function treeChunks(s){for(const e of s.edges){if(e.type==='recorded')e.path=treeElbow(e);else if(e.type==='sibling'){const p=e.points;e.path=new Path2D();e.path.moveTo(p[0],p[1]);for(let i=2;i<p.length;i+=2)e.path.lineTo(p[i],p[i+1])}}
  for(const mode of ['first','journeys']){const chunks=new Map();for(const e of s.edges){if(e.contextOnly)continue;const key=[e.colour,e.type,e.status==='uncertain'?'u':''].join('|');
   if(!chunks.has(key))chunks.set(key,{path:new Path2D(),geo:e.geo,type:e.type,colour:e.colour,uncertain:e.status==='uncertain',pts:[]});const ch=chunks.get(key);ch.path.addPath(e.path);ch.pts.push({x:e.box.x,y:e.box.y},{x:e.box.x+e.box.w,y:e.box.y+e.box.h})}
   s.chunkModes[mode]=[...chunks.values()].map(ch=>{ch.box=boundsOf(ch.pts,4);delete ch.pts;return ch})}
@@ -645,6 +651,10 @@ function treeRebuild(anchor,refit){if(state.view!=='family'||!state.familyRoot)r
 
 
 PATCHES = [
+    ("chunk.type==='coparent'?[1/cam.k,4/cam.k]:", "chunk.type==='sibling'?[5/cam.k,2/cam.k]:chunk.type==='coparent'?[1/cam.k,4/cam.k]:"),
+    ("e.type==='coparent'?[1/cam.k,4/cam.k]:", "e.type==='sibling'?[5/cam.k,2/cam.k]:e.type==='coparent'?[1/cam.k,4/cam.k]:"),
+    ("chunk.type==='coparent'?[1/k,3/k]:", "chunk.type==='sibling'?[5/k,2/k]:chunk.type==='coparent'?[1/k,3/k]:"),
+    ("e.type==='coparent'?[1/k,4/k]:", "e.type==='sibling'?[5/k,2/k]:e.type==='coparent'?[1/k,4/k]:"),
     # 1. Layout CSS, injected once at start-up.
     ("(() => {\nconst D=window.GlasgowAtlasModel;",
      "(() => {\n" + STYLE_JS + "const D=window.GlasgowAtlasModel;"),
@@ -819,6 +829,9 @@ PATCHES = [
     ("textContent=family?'Click a profile · use + badges to unfold · F to fit'", "textContent=family?(scene?.tree?'Click a profile · round buttons open or fold a line · F to fit':'Click a profile · use + badges to unfold · F to fit')"),
     ("$$('[data-lens]').forEach(b=>b.classList.toggle('active',b.dataset.lens===state.lens));",
      "$$('[data-lens]').forEach(b=>b.classList.toggle('active',b.dataset.lens===state.lens));treeUI();"),
+    # Assessed collateral relationships stay visible in the selected-person notebook.
+    ("$('#detail-content').innerHTML=body;resize();",
+     "if(p.siblings?.length&&!body.includes('Assessed siblings'))body+=`<section class=\"detail-section\"><h3>Assessed siblings</h3>${p.siblings.map(relationHTML).join('')}</section>`;$('#detail-content').innerHTML=body;resize();"),
 ]
 
 
@@ -826,6 +839,15 @@ def whole_tree_renderer(page: str) -> str:
     """Apply the canopy fixes once; pages without the canopy pass through."""
     if 'function drawCanopy(' not in page:
         return page
+    # An existing generated renderer may contain an older hourglass block.
+    # Replace our bounded block before applying anchors; reinserting it at
+    # makeFamily would otherwise duplicate const TREE and break the viewer.
+    start = page.find('\n/* One family tree (hourglass, as in Tree Prism):')
+    if start >= 0 and TREE_JS not in page:
+        end = page.find("function makeFamily(id,lens='descendants'){", start)
+        if end < 0 or page.find('const TREE=', start, end) < 0:
+            raise ValueError('Existing generated family-tree block has no safe boundary')
+        page = page[:start] + TREE_JS + page[end:]
     for old, new in PATCHES:
         if new in page:
             continue

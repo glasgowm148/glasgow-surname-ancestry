@@ -2,7 +2,7 @@ import unittest
 from pathlib import Path
 
 from tools.approved_restorations import approved_document, documentary_renderer, entries, source, usable_tester_panel
-from tools.atlas_whole_tree import MARKER, PATCHES, whole_tree_renderer
+from tools.atlas_whole_tree import MARKER, PATCHES, TREE_JS, whole_tree_renderer
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -26,6 +26,14 @@ class WholeTreeRendererTest(unittest.TestCase):
         page = documentary_renderer(usable_tester_panel(self.original))
         self.assertEqual(documentary_renderer(page), page)
         self.assertEqual(whole_tree_renderer(page), page)
+
+    def test_old_generated_family_block_is_replaced_without_duplicate_javascript(self):
+        page = documentary_renderer(usable_tester_panel(self.original))
+        previous = page.replace(TREE_JS, TREE_JS.replace('const explicitSiblings=', 'const previousSiblings='))
+        self.assertNotEqual(previous, page)
+        upgraded = documentary_renderer(previous)
+        self.assertEqual(upgraded, page)
+        self.assertEqual(upgraded.count('const TREE='), 1)
 
     def test_camera_easing_cannot_run_backwards(self):
         page = whole_tree_renderer(self.original)

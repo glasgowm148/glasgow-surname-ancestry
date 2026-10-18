@@ -6,6 +6,7 @@ from typing import Any
 from functools import lru_cache
 from pathlib import Path
 import json
+import re
 
 SCALE_NOTE = (
     "Individual subjective estimates from the maintained evidence, not measured "
@@ -98,6 +99,12 @@ def percentage_text(rating):
     return f"{round(rating['value'] * 100)}%" if rating.get('value') is not None else 'Not individually rated'
 
 
+def _rated_label(base, rating):
+    """A reviewed display may already carry its individual percentage."""
+    base = re.sub(r'(?:\s*·\s*(?:\d+%|Not individually rated))+$', '', base)
+    return base + ' · ' + percentage_text(rating)
+
+
 def annotate_model(model: dict[str, Any]) -> dict[str, Any]:
     """Assign the same bands to both directions of public parent links."""
     try:
@@ -114,8 +121,7 @@ def annotate_model(model: dict[str, Any]) -> dict[str, Any]:
             if not row.get('assessmentLabel') and not row.get('statusLabel') and rating['origin'] == 'wikitree':
                 base = evidence_labels.label(row.get('tree_status') or row.get('status'))
             row['assessmentLabel'] = base
-            band = percentage_text(rating)
-            row['statusLabel'] = base + ' · ' + band
+            row['statusLabel'] = _rated_label(base, rating)
             parent = people.get(row.get('id'), {})
             for inverse in parent.get('childrenRecorded', []):
                 if inverse.get('id') == child['id']:
@@ -124,7 +130,7 @@ def annotate_model(model: dict[str, Any]) -> dict[str, Any]:
                     inverse['probability'] = dict(rating)
                     inverse_base = inverse.get('assessmentLabel') or inverse.get('statusLabel') or base.replace('father', 'child').replace('mother', 'child')
                     inverse['assessmentLabel'] = inverse_base
-                    inverse['statusLabel'] = inverse_base + ' · ' + band
+                    inverse['statusLabel'] = _rated_label(inverse_base, rating)
     for (parent_id, child_id), roles in inverse_roles.items():
         inverse = next(r for r in people[parent_id]['childrenRecorded'] if r.get('id') == child_id)
         inverse.pop('probability_by_role', None)

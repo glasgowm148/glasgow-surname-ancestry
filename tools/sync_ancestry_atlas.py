@@ -47,6 +47,8 @@ def overlay_model(retained: dict, fresh: dict) -> dict:
     refresh = selected | set(result['meta'].get('workingOverlayIds', [])) | documentary | reviewed | set(result['meta'].get('reviewedParentReplacementIds', []))
     refresh |= restored | set(result['meta'].get('reviewedFamilyRestorationIds', []))
     existing = {p['id']: p for p in result['people']}
+    sibling_scope = (set(fresh['meta'].get('publicSiblingScopeIds', []))
+                     | set(result['meta'].get('publicSiblingScopeIds', [])))
     aliases = fresh['meta'].get('reviewedFamilyAliases', {})
     if any(old == current or current not in incoming or current in aliases for old, current in aliases.items()):
         raise ValueError('Reviewed family aliases need canonical public model targets')
@@ -128,6 +130,14 @@ def overlay_model(retained: dict, fresh: dict) -> dict:
                 type='hypothesis' if options[0].get('hypothesis') else 'recorded', status=options[0].get('status', 'unmarked'))
                 if options else dict(parent='@smaller-families', type='group', semantic='collection'))
     managed_children = selected | prior_selected | public_families | previous_public
+    for ident in sibling_scope:
+        if ident not in incoming:
+            raise ValueError('Reviewed sibling absent from current public model: ' + ident)
+        existing.setdefault(ident, deepcopy(incoming[ident]))
+        if incoming[ident].get('siblings'):
+            existing[ident]['siblings'] = deepcopy(incoming[ident]['siblings'])
+        else:
+            existing[ident].pop('siblings', None)
     family_parents = {incoming[i].get('edge', {}).get('parent') for i in selected}
     family_parents |= {prior_people[i].get('edge', {}).get('parent') for i in prior_selected if i in prior_people}
     alternative_parents = set(fresh['meta'].get('workingParentAlternativeIds', []))
@@ -212,7 +222,7 @@ def overlay_model(retained: dict, fresh: dict) -> dict:
                           maternalHypotheses=fresh['meta'].get('maternalHypotheses', 0),
                           parentRelationships=sum(len(p.get('parents', [])) for p in people),
                           workingOverlayIds=sorted(selected),
-                          **{k: deepcopy(v) for k, v in fresh['meta'].items() if k.startswith(('publicFamily', 'publicMotherGrade')) or k == 'publicFatherHoldIds'},
+                          **{k: deepcopy(v) for k, v in fresh['meta'].items() if k.startswith(('publicFamily', 'publicMotherGrade')) or k in {'publicFatherHoldIds', 'publicSiblingScopeIds'}},
                           workingUpdated=fresh['meta']['date'],
                           workingMethod='Selected uncertain connections, historical father fields and approved existing maternal grades are synchronized from current public dossiers. Approved atlas accounts are retained; publication reconciliation is not a new genealogical inference.')
     return result
