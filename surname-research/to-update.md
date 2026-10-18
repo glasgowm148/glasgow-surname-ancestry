@@ -2421,3 +2421,12 @@ Burial-defined Walter remains on source-verification HOLD in the existing creati
 | [Glasgow-4100](https://www.wikitree.com/wiki/Glasgow-4100) | OPEN | The1711 child is the preferred possible identity for Helen Nasmith’s partner4157; the implied John father is58%, not proved. |
 | [Glasgow-4158](https://www.wikitree.com/wiki/Glasgow-4158) | OPEN | This James remains an unselected 26% father alternative for4157 through his 1721 son; his current upstream father is unchanged. |
 | [Glasgow-4129](https://www.wikitree.com/wiki/Glasgow-4129) | OPEN | The1721 child remains a compatible unselected identity for Helen Nasmith’s partner; that father model is26%. |
+
+
+## Easter Newtoun household — 18 October 2026
+
+| [Glasgow-1439](https://www.wikitree.com/wiki/Glasgow-1439) | OPEN | Prefer the record-defined Easter Newtoun father John-3610, 96%, replacing the ungraded John-1084 assignment locally. |
+| [Glasgow-3610](https://www.wikitree.com/wiki/Glasgow-3610) | OPEN | The 1649 John and 1652 Annah records share father Johne at Easter Newtoun; Annah is a strongly supported daughter, 96%. |
+| [Glasgow-1084](https://www.wikitree.com/wiki/Glasgow-1084) | OPEN | The 1616 child remains a possible identity for the Easter Newtoun adult, 42%; Annah’s selected local father account is now John-3610, 96%. |
+| [Glasgow-3012](https://www.wikitree.com/wiki/Glasgow-3012) | OPEN | The 1649 baptism places father Johne at Easter Newtoune; the matching 1652 household strengthens continuity without changing the existing 98% father role. |
+| [Glasgow-3112](https://www.wikitree.com/wiki/Glasgow-3112) | OPEN | The inspected Findmypast transcript places the 26 November 1649 event at Kirknewton/East Calder; the 1646 date conflict and precise household remain unresolved. |

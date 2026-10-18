@@ -1839,15 +1839,25 @@
     "source_title": "Johne Glasgow baptism, father Johne",
     "source_url": "https://familysearch.org/ark:/61903/1:1:VQ4K-X6G",
     "source_type": "Existing parish index/transcript",
-    "source_status": "Previously maintained record account; no new inspection claimed15 October2026",
+    "source_status": "Existing FamilySearch citation retained; Findmypast transcript inspected 18 October 2026; original uninspected",
     "status": "Documentary father/child wording; adult identities qualified",
-    "note": "This identifies the recorded adult father and child, not the adult father’s own parents. Used as context for the separately labelled working hypothesis, not direct proof of that hypothesis.",
+    "note": "This identifies the recorded adult father and child, not the adult father’s own parents. Used as context for the separately labelled working hypothesis, not direct proof of that hypothesis. New transcript residence supports the same adult father in the 1652 Annah record, not his own ancestry.",
     "profiles": {
       "Glasgow-3610": {
         "role": "Compatible profile for the adult father named in the child record; own parentage not stated",
         "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-3012": {
+        "role": "Baptised child; adult identity separate"
       }
-    }
+    },
+    "additional_sources": [
+      {
+        "title": "Findmypast, Scotland Parish Births & Baptisms, John, 22 April 1649, Kirknewton and East Calder, provider OPR 689/20 item 1 p.5; transcript inspected 18 October 2026, original uninspected",
+        "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4473470"
+      }
+    ],
+    "residence": "Easter Newtoune"
   },
   {
     "record_id": "stevenston-michael-sasine-1549",
@@ -5578,6 +5588,47 @@
       },
       "Kyle-2471": {
         "role": "Named mother"
+      }
+    }
+  },
+  {
+    "record_id": "kirknewton-annah-easter-newton-1652",
+    "record_type": "baptism",
+    "date": "1652-06-20",
+    "year": 1652,
+    "place": "Kirknewton and East Calder, Midlothian, Scotland",
+    "residence": "Easter Newtoun",
+    "source_title": "Findmypast, Scotland Parish Births & Baptisms, Annah, 20 June 1652, Kirknewton and East Calder, provider OPR 689/20 item 1 p.13; transcript inspected 18 October 2026, original uninspected",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4473604",
+    "source_type": "Parish baptism transcript",
+    "source_status": "Transcript inspected 18 October 2026; original uninspected",
+    "status": "Named father in derivative transcript; profile identities scoped",
+    "note": "Johne named; mother omitted. Same residence as the 1649 John transcript supports one household. Original parish reference requires comparison.",
+    "profiles": {
+      "Glasgow-1439": {
+        "role": "Baptised child"
+      },
+      "Glasgow-3610": {
+        "role": "Strongly supported identity of the named adult father"
+      }
+    }
+  },
+  {
+    "record_id": "kirknewton-margaret-index-1649",
+    "record_type": "baptism",
+    "date": "1649-11-26",
+    "year": 1649,
+    "place": "Kirknewton and East Calder, Midlothian, Scotland",
+    "residence": "",
+    "source_title": "Findmypast, Scotland Parish Births & Baptisms, Margaret, 26 November 1649, Kirknewton and East Calder, provider OPR 689/20 item 1 p.5; transcript inspected 18 October 2026, original uninspected",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4473472",
+    "source_type": "Parish baptism transcript",
+    "source_status": "Transcript inspected 18 October 2026; original uninspected",
+    "status": "Named father in derivative transcript; profile identities scoped",
+    "note": "Names father John; residence not supplied. Do not call this a Duddingston entry or use it as a proved Easter Newtoun sibling.",
+    "profiles": {
+      "Glasgow-3112": {
+        "role": "Compatible child account; competing 1646 date unresolved"
       }
     }
   }

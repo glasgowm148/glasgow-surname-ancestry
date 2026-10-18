@@ -4477,6 +4477,53 @@
       "working_selection": true,
       "assertion_id": "C-working-20261018-irvine-james-john-father",
       "reviewed": "2026-10-18"
+    },
+    {
+      "id": "easter-newton-johne-household",
+      "year": 1649,
+      "title": "Easter Newtoun: Annah and John share the same father",
+      "status": "Confident father-profile replacement96%; alternative child identity42%",
+      "people": [
+        {
+          "name": "Glasgow-1439",
+          "url": "/people/glasgow-1439.html"
+        },
+        {
+          "name": "Glasgow-3610",
+          "url": "/people/glasgow-3610.html"
+        },
+        {
+          "name": "Glasgow-1084",
+          "url": "/people/glasgow-1084.html"
+        },
+        {
+          "name": "Glasgow-3012",
+          "url": "/people/glasgow-3012.html"
+        },
+        {
+          "name": "Glasgow-3112",
+          "url": "/people/glasgow-3112.html"
+        }
+      ],
+      "basis": "Prefer John Glasgow-3610, the adult father in the 1649 Kirknewton baptism, as Annah Glasgow-1439’s father at 96% subjective confidence. Findmypast’s transcript of John’s 22 April 1649 baptism names father Johne Glasgow and residence Easter Newtoune. Its transcript of Annah’s 20 June 1652 baptism names father Johne Glasgow and residence Easter Newtoun. The matching uncommon full paternal name, specific residence, parish and three-year interval strongly support one household. This is a combined identity inference across two child records, not a literal statement that the children were siblings. A different Johne in the same settlement or a transcription error remains possible. The 96% concerns the record-defined father of the 1652 child and his identification with the adult father of the 1649 child. It does not identify that adult with the John baptised at Mid Calder in 1616, prove his own father, or establish Annah’s later identity as the 1676 bride. The transcripts name no mother. Issobell Porteous’s existing maternal attachment remains separately unproved; no maternity is transferred to other children. The earlier John-1084 account may represent the same adult, but its 1616-child-to-adult identity remains possible at 42%, rather than established. These are overlapping profile-identity propositions, not mutually exclusive biological fathers; the percentages must not be added or treated as independent evidence. Retain that account as an alternative and resolve the possible duplicate before any live family change. No profiles are merged.",
+      "next_test": "Inspect the original1649/1652 entries and reconcile the register references; seek a mother, occupation or witness bridging the adult to a childhood. Upstream28% father selection remains unchanged.",
+      "sources": [
+        {
+          "label": "Findmypast, John,22 April1649, Easter Newtoune; transcript inspected18 October2026",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4473470"
+        },
+        {
+          "label": "Findmypast, Annah,20 June1652, Easter Newtoun; transcript inspected18 October2026",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4473604"
+        }
+      ],
+      "record_references": [
+        "kirknewton-johne-1649-father-johne",
+        "kirknewton-annah-easter-newton-1652"
+      ],
+      "working_selection": false,
+      "assertion_id": "C-role-20261018-easter-newton-annah-father",
+      "reviewed": "2026-10-18"
     }
   ],
   "source_basis": "Initial priorities reconcile existing medieval bridge research, the pre-1550 relationship audit and the resolved public catalogue. They are current working comparisons, not newly discovered kinship records."

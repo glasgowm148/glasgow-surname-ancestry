@@ -14435,5 +14435,150 @@
     },
     "lifecycle": "alternative",
     "display": "alternative"
+  },
+  {
+    "assertion_id": "C-role-20261018-easter-newton-annah-father",
+    "people": [
+      "Glasgow-1439",
+      "Glasgow-3610"
+    ],
+    "profile_names": {
+      "Glasgow-1439": "Annah or Anne Glasgow",
+      "Glasgow-3610": "John Glasgow, Easter Newtoun father",
+      "Glasgow-1084": "John Glasgow, 1616 child and later-household account",
+      "Glasgow-3012": "John Glasgow, baptised 1649",
+      "Glasgow-3112": "Margaret Glasgow, disputed baptism date"
+    },
+    "status": "strongly_supported",
+    "working_selection": false,
+    "allow_new_relationship": true,
+    "publication_status": "approved",
+    "assessment_date": "2026-10-18",
+    "evidence_grade": "Strongly supported record-defined father identity, 96%",
+    "basis": "Prefer John Glasgow-3610, the adult father in the 1649 Kirknewton baptism, as Annah Glasgow-1439’s father at 96% subjective confidence. Findmypast’s transcript of John’s 22 April 1649 baptism names father Johne Glasgow and residence Easter Newtoune. Its transcript of Annah’s 20 June 1652 baptism names father Johne Glasgow and residence Easter Newtoun. The matching uncommon full paternal name, specific residence, parish and three-year interval strongly support one household. This is a combined identity inference across two child records, not a literal statement that the children were siblings. A different Johne in the same settlement or a transcription error remains possible.",
+    "limitations": "The 96% concerns the record-defined father of the 1652 child and his identification with the adult father of the 1649 child. It does not identify that adult with the John baptised at Mid Calder in 1616, prove his own father, or establish Annah’s later identity as the 1676 bride. The transcripts name no mother. Issobell Porteous’s existing maternal attachment remains separately unproved; no maternity is transferred to other children. The earlier John-1084 account may represent the same adult, but its 1616-child-to-adult identity remains possible at 42%, rather than established. These are overlapping profile-identity propositions, not mutually exclusive biological fathers; the percentages must not be added or treated as independent evidence. Retain that account as an alternative and resolve the possible duplicate before any live family change. No profiles are merged. The Findmypast transcript pages were inspected on 18 October 2026; the parish originals were not inspected. The provider gives archive OPR 689/20, item 1, pages 5 and 13, while the supplied ScotlandsPeople index gives parish 690, references 10/14 and 10/32. Preserve that reference discrepancy for original comparison. Both Findmypast pages label the place Kirknewton and East Calder. The extra indexed version of Annah’s baptism, R_686208660, also names Johne and leaves the mother blank; it is another derivative of the same event, not independent corroboration. The September daily-limit responses are historical access failures; these targeted transcript retries now succeeded, without completing the wider Findmypast audit. This is one proposed confident father-profile replacement, not a newly discovered biological father, a new birth event, a new connected branch or an upgrade of John-3610’s own 28% father hypothesis. His earlier 1608-child comparison, John-3296 father, the conditional 1616-child/James-991 alternative and all other ancestry grades remain unchanged. John-3012’s existing 98% father role remains unchanged. All birth and death fields, mothers and saved WikiTree family fields are preserved. Margaret-3112’s competing 1646/1649 readings are unresolved: her 26 November 1649 Findmypast transcript names John and Kirknewton/East Calder, but gives no residence. It does not independently place her in the Easter Newtoun household.",
+    "source_ids": [
+      "kirknewton-johne-1649-father-johne",
+      "kirknewton-annah-easter-newton-1652"
+    ],
+    "assessment_history": [
+      {
+        "assessment_status": "unknown",
+        "tree_status": "unmarked",
+        "relative_id": "Glasgow-1084",
+        "percent": null,
+        "saved_flag": "",
+        "source_basis": "Anonymous public WikiTree getPeople 18 October 2026 confirms John-1084 attached; before-batch dossier records an unassessed, unmarked tree father. No previous individual percentage."
+      }
+    ],
+    "record_scope": "1652 child and Easter Newtoun adult father; no proved 1616 identity or ancestry",
+    "perspectives": {
+      "Glasgow-1439": {
+        "relationship": "father",
+        "status_label": "Strongly supported father",
+        "reason": "Prefer John Glasgow-3610, the adult father in the 1649 Kirknewton baptism, as Annah Glasgow-1439’s father at 96% subjective confidence. Findmypast’s transcript of John’s 22 April 1649 baptism names father Johne Glasgow and residence Easter Newtoune. Its transcript of Annah’s 20 June 1652 baptism names father Johne Glasgow and residence Easter Newtoun. The matching uncommon full paternal name, specific residence, parish and three-year interval strongly support one household. This is a combined identity inference across two child records, not a literal statement that the children were siblings. A different Johne in the same settlement or a transcription error remains possible. The 96% concerns the record-defined father of the 1652 child and his identification with the adult father of the 1649 child. It does not identify that adult with the John baptised at Mid Calder in 1616, prove his own father, or establish Annah’s later identity as the 1676 bride. The transcripts name no mother. Issobell Porteous’s existing maternal attachment remains separately unproved; no maternity is transferred to other children. The earlier John-1084 account may represent the same adult, but its 1616-child-to-adult identity remains possible at 42%, rather than established. These are overlapping profile-identity propositions, not mutually exclusive biological fathers; the percentages must not be added or treated as independent evidence. Retain that account as an alternative and resolve the possible duplicate before any live family change. No profiles are merged."
+      },
+      "Glasgow-3610": {
+        "relationship": "daughter",
+        "status_label": "Strongly supported daughter",
+        "reason": "Prefer John Glasgow-3610, the adult father in the 1649 Kirknewton baptism, as Annah Glasgow-1439’s father at 96% subjective confidence. Findmypast’s transcript of John’s 22 April 1649 baptism names father Johne Glasgow and residence Easter Newtoune. Its transcript of Annah’s 20 June 1652 baptism names father Johne Glasgow and residence Easter Newtoun. The matching uncommon full paternal name, specific residence, parish and three-year interval strongly support one household. This is a combined identity inference across two child records, not a literal statement that the children were siblings. A different Johne in the same settlement or a transcription error remains possible. The 96% concerns the record-defined father of the 1652 child and his identification with the adult father of the 1649 child. It does not identify that adult with the John baptised at Mid Calder in 1616, prove his own father, or establish Annah’s later identity as the 1676 bride. The transcripts name no mother. Issobell Porteous’s existing maternal attachment remains separately unproved; no maternity is transferred to other children. The earlier John-1084 account may represent the same adult, but its 1616-child-to-adult identity remains possible at 42%, rather than established. These are overlapping profile-identity propositions, not mutually exclusive biological fathers; the percentages must not be added or treated as independent evidence. Retain that account as an alternative and resolve the possible duplicate before any live family change. No profiles are merged."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Easter Newtoun: Annah and John share the same father",
+        "href": "/branches/early-scottish-records/#chapter-easter-newton-johne-household"
+      }
+    ],
+    "probability": {
+      "value": 0.96,
+      "basis": "Prefer John Glasgow-3610, the adult father in the 1649 Kirknewton baptism, as Annah Glasgow-1439’s father at 96% subjective confidence. Findmypast’s transcript of John’s 22 April 1649 baptism names father Johne Glasgow and residence Easter Newtoune. Its transcript of Annah’s 20 June 1652 baptism names father Johne Glasgow and residence Easter Newtoun. The matching uncommon full paternal name, specific residence, parish and three-year interval strongly support one household. This is a combined identity inference across two child records, not a literal statement that the children were siblings. A different Johne in the same settlement or a transcription error remains possible.",
+      "reviewed": "2026-10-18",
+      "source_ids": [
+        "kirknewton-johne-1649-father-johne",
+        "kirknewton-annah-easter-newton-1652"
+      ],
+      "scope": "The 96% concerns the record-defined father of the 1652 child and his identification with the adult father of the 1649 child. It does not identify that adult with the John baptised at Mid Calder in 1616, prove his own father, or establish Annah’s later identity as the 1676 bride. The transcripts name no mother. Issobell Porteous’s existing maternal attachment remains separately unproved; no maternity is transferred to other children. The earlier John-1084 account may represent the same adult, but its 1616-child-to-adult identity remains possible at 42%, rather than established. These are overlapping profile-identity propositions, not mutually exclusive biological fathers; the percentages must not be added or treated as independent evidence. Retain that account as an alternative and resolve the possible duplicate before any live family change. No profiles are merged."
+    },
+    "provenance": {
+      "review_scope": "New transcript residence comparison; original registers uninspected",
+      "live_flag_changed": false
+    },
+    "working_parent_replacement": {
+      "previous_parent": "Glasgow-1084",
+      "alternative_assertion_id": "C-alternative-20261018-annah-1616-john-father",
+      "reason": "Prefer John Glasgow-3610, the adult father in the 1649 Kirknewton baptism, as Annah Glasgow-1439’s father at 96% subjective confidence. Findmypast’s transcript of John’s 22 April 1649 baptism names father Johne Glasgow and residence Easter Newtoune. Its transcript of Annah’s 20 June 1652 baptism names father Johne Glasgow and residence Easter Newtoun. The matching uncommon full paternal name, specific residence, parish and three-year interval strongly support one household. This is a combined identity inference across two child records, not a literal statement that the children were siblings. A different Johne in the same settlement or a transcription error remains possible."
+    }
+  },
+  {
+    "assertion_id": "C-alternative-20261018-annah-1616-john-father",
+    "people": [
+      "Glasgow-1439",
+      "Glasgow-1084"
+    ],
+    "profile_names": {
+      "Glasgow-1439": "Annah or Anne Glasgow",
+      "Glasgow-3610": "John Glasgow, Easter Newtoun father",
+      "Glasgow-1084": "John Glasgow, 1616 child and later-household account",
+      "Glasgow-3012": "John Glasgow, baptised 1649",
+      "Glasgow-3112": "Margaret Glasgow, disputed baptism date"
+    },
+    "status": "possible",
+    "working_selection": false,
+    "allow_new_relationship": true,
+    "publication_status": "approved",
+    "assessment_date": "2026-10-18",
+    "evidence_grade": "Possible earlier-profile identity, 42%",
+    "basis": "John Glasgow-1084 remains a possible 1616-child identity for Annah’s adult father, 42%. The existing family reconstruction, compatible adult age and Mid Calder–Edinburgh–Kirknewton sequence support comparison, but the 1652 record gives no mother or childhood detail connecting its father to the 1616 child. The record-defined Easter Newtoun father account3610 is preferred for the child’s local father field; the two accounts may be duplicates.",
+    "limitations": "The 96% concerns the record-defined father of the 1652 child and his identification with the adult father of the 1649 child. It does not identify that adult with the John baptised at Mid Calder in 1616, prove his own father, or establish Annah’s later identity as the 1676 bride. The transcripts name no mother. Issobell Porteous’s existing maternal attachment remains separately unproved; no maternity is transferred to other children. The earlier John-1084 account may represent the same adult, but its 1616-child-to-adult identity remains possible at 42%, rather than established. These are overlapping profile-identity propositions, not mutually exclusive biological fathers; the percentages must not be added or treated as independent evidence. Retain that account as an alternative and resolve the possible duplicate before any live family change. No profiles are merged. The Findmypast transcript pages were inspected on 18 October 2026; the parish originals were not inspected. The provider gives archive OPR 689/20, item 1, pages 5 and 13, while the supplied ScotlandsPeople index gives parish 690, references 10/14 and 10/32. Preserve that reference discrepancy for original comparison. Both Findmypast pages label the place Kirknewton and East Calder. The extra indexed version of Annah’s baptism, R_686208660, also names Johne and leaves the mother blank; it is another derivative of the same event, not independent corroboration. The September daily-limit responses are historical access failures; these targeted transcript retries now succeeded, without completing the wider Findmypast audit. This is one proposed confident father-profile replacement, not a newly discovered biological father, a new birth event, a new connected branch or an upgrade of John-3610’s own 28% father hypothesis. His earlier 1608-child comparison, John-3296 father, the conditional 1616-child/James-991 alternative and all other ancestry grades remain unchanged. John-3012’s existing 98% father role remains unchanged. All birth and death fields, mothers and saved WikiTree family fields are preserved. Margaret-3112’s competing 1646/1649 readings are unresolved: her 26 November 1649 Findmypast transcript names John and Kirknewton/East Calder, but gives no residence. It does not independently place her in the Easter Newtoun household.",
+    "source_ids": [
+      "kirknewton-johne-1649-father-johne",
+      "kirknewton-annah-easter-newton-1652"
+    ],
+    "assessment_history": [
+      {
+        "assessment_status": "unknown",
+        "tree_status": "unmarked",
+        "relative_id": "Glasgow-1084",
+        "percent": null,
+        "saved_flag": "",
+        "source_basis": "Anonymous public WikiTree getPeople 18 October 2026 confirms John-1084 attached; before-batch dossier records an unassessed, unmarked tree father. No previous individual percentage."
+      }
+    ],
+    "record_scope": "1652 child and Easter Newtoun adult father; no proved 1616 identity or ancestry",
+    "perspectives": {
+      "Glasgow-1439": {
+        "relationship": "father",
+        "status_label": "Alternative earlier-profile identity",
+        "reason": "John Glasgow-1084 remains a possible 1616-child identity for Annah’s adult father, 42%. The existing family reconstruction, compatible adult age and Mid Calder–Edinburgh–Kirknewton sequence support comparison, but the 1652 record gives no mother or childhood detail connecting its father to the 1616 child. The record-defined Easter Newtoun father account3610 is preferred for the child’s local father field; the two accounts may be duplicates. The 96% concerns the record-defined father of the 1652 child and his identification with the adult father of the 1649 child. It does not identify that adult with the John baptised at Mid Calder in 1616, prove his own father, or establish Annah’s later identity as the 1676 bride. The transcripts name no mother. Issobell Porteous’s existing maternal attachment remains separately unproved; no maternity is transferred to other children. The earlier John-1084 account may represent the same adult, but its 1616-child-to-adult identity remains possible at 42%, rather than established. These are overlapping profile-identity propositions, not mutually exclusive biological fathers; the percentages must not be added or treated as independent evidence. Retain that account as an alternative and resolve the possible duplicate before any live family change. No profiles are merged."
+      },
+      "Glasgow-1084": {
+        "relationship": "daughter",
+        "status_label": "Alternative child assignment",
+        "reason": "John Glasgow-1084 remains a possible 1616-child identity for Annah’s adult father, 42%. The existing family reconstruction, compatible adult age and Mid Calder–Edinburgh–Kirknewton sequence support comparison, but the 1652 record gives no mother or childhood detail connecting its father to the 1616 child. The record-defined Easter Newtoun father account3610 is preferred for the child’s local father field; the two accounts may be duplicates. The 96% concerns the record-defined father of the 1652 child and his identification with the adult father of the 1649 child. It does not identify that adult with the John baptised at Mid Calder in 1616, prove his own father, or establish Annah’s later identity as the 1676 bride. The transcripts name no mother. Issobell Porteous’s existing maternal attachment remains separately unproved; no maternity is transferred to other children. The earlier John-1084 account may represent the same adult, but its 1616-child-to-adult identity remains possible at 42%, rather than established. These are overlapping profile-identity propositions, not mutually exclusive biological fathers; the percentages must not be added or treated as independent evidence. Retain that account as an alternative and resolve the possible duplicate before any live family change. No profiles are merged."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Easter Newtoun: Annah and John share the same father",
+        "href": "/branches/early-scottish-records/#chapter-easter-newton-johne-household"
+      }
+    ],
+    "probability": {
+      "value": 0.42,
+      "basis": "John Glasgow-1084 remains a possible 1616-child identity for Annah’s adult father, 42%. The existing family reconstruction, compatible adult age and Mid Calder–Edinburgh–Kirknewton sequence support comparison, but the 1652 record gives no mother or childhood detail connecting its father to the 1616 child. The record-defined Easter Newtoun father account3610 is preferred for the child’s local father field; the two accounts may be duplicates.",
+      "reviewed": "2026-10-18",
+      "source_ids": [
+        "kirknewton-johne-1649-father-johne",
+        "kirknewton-annah-easter-newton-1652"
+      ],
+      "scope": "The 96% concerns the record-defined father of the 1652 child and his identification with the adult father of the 1649 child. It does not identify that adult with the John baptised at Mid Calder in 1616, prove his own father, or establish Annah’s later identity as the 1676 bride. The transcripts name no mother. Issobell Porteous’s existing maternal attachment remains separately unproved; no maternity is transferred to other children. The earlier John-1084 account may represent the same adult, but its 1616-child-to-adult identity remains possible at 42%, rather than established. These are overlapping profile-identity propositions, not mutually exclusive biological fathers; the percentages must not be added or treated as independent evidence. Retain that account as an alternative and resolve the possible duplicate before any live family change. No profiles are merged."
+    },
+    "provenance": {
+      "review_scope": "New transcript residence comparison; original registers uninspected",
+      "live_flag_changed": false
+    },
+    "lifecycle": "alternative",
+    "display": "alternative"
   }
 ]
