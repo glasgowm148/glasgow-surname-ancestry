@@ -1,0 +1,66 @@
+{
+  "reviewed": "2026-10-18",
+  "profiles": {
+    "Glasgow-1546": {
+      "current_sha256": "26b97ff38967d162e54e1175423e0ff3b197e5a3473787af605acef133f1182c",
+      "proposed_sha256": "f6900ebc367ce46eec4365570557b179767fe188174af7b2dd362dec448ec40b",
+      "draft_path": "research/Glasgow-1546/Glasgow-1546.md",
+      "all_substantive_passages_accounted_for": true,
+      "all_original_citations_preserved": true,
+      "preservation_basis": "Complete earlier proposal retained around an added record-role assessment; dates and later adult comparisons preserved.",
+      "previous_preservation_review_path": null
+    },
+    "Glasgow-3118": {
+      "current_sha256": "540b843763cfea1712aa2983f81f1a5081159d5208a379c6dfb8f40a16d68275",
+      "proposed_sha256": "02263ec4ddc93c38038001be6c764771204ffda4e2e969dbfd26212b19c168c1",
+      "draft_path": "research/Glasgow-3118/Glasgow-3118.md",
+      "all_substantive_passages_accounted_for": true,
+      "all_original_citations_preserved": true,
+      "preservation_basis": "Andrew’s estimate is retained with its evidence scope, and his original citation is retained. Alexander’s complete prior proposal is preserved around an added family review. No structured vital or family change.",
+      "previous_preservation_review_path": "research/ancestry-connections/parish-household-confidence-preservation-2026-10-17.json"
+    },
+    "Glasgow-1547": {
+      "current_sha256": "f6877d6d1fd57158fbbaffec2a257b2c8f68ecf511e125d1b98feaf100d625a8",
+      "proposed_sha256": "f7e253db2bc5ccaa6df741fd56ed1b5e571d44b38a60f23a284ff2079e804e2b",
+      "draft_path": "research/Glasgow-1547/Glasgow-1547.md",
+      "all_substantive_passages_accounted_for": true,
+      "all_original_citations_preserved": true,
+      "preservation_basis": "Complete earlier proposal retained around an added record-role assessment; dates and later adult comparisons preserved.",
+      "previous_preservation_review_path": "research/ancestry-connections/west-calder-anderson-working-family-preservation-2026-10-16.json"
+    }
+  },
+  "mapped_record_provenance": {
+    "input_path": "www/map/data/records.csv",
+    "canonical_record_id": "kirknewton-andrew-cook-1700",
+    "reviewed_source_row": {
+      "person": "Andrew Glasgow",
+      "profile_id": "Glasgow-1546",
+      "region": "Scotland",
+      "family_group": "Scotland One-Tree profile leads",
+      "subcluster": "One-Tree profile cohort",
+      "evidence": "Parish marriage index",
+      "year": "1700",
+      "filter_year": "1700",
+      "association": "Andreu Glasgou and Christian Cook: marriage indexed 14 June 1700",
+      "note": "Marriage transcript inspected 18 October 2026; no image available. It names neither parent of the groom. Same-parish family reconstruction is assessed separately.",
+      "location_id": "kirknewton",
+      "record_location": "Kirknewton — West Lothian",
+      "record_precision": "Settlement/parish centrepoint",
+      "location_basis": "The profile identifies Kirknewton but no property.",
+      "latitude": "55.887",
+      "longitude": "-3.419",
+      "supplement_id": "",
+      "birth_date": "",
+      "birth_status": "",
+      "death_date": "",
+      "death_status": "",
+      "birth_location": "",
+      "death_location": "",
+      "gender": "",
+      "source_title": "Andreu Glasgou and Christian Cook, marriage index, 14 June 1700, Kirknewton and East Calder; FamilySearch XY9W-VZX; transcript inspected 18 October 2026, image unavailable",
+      "source_url": "https://www.familysearch.org/ark:/61903/1:1:XY9W-VZX",
+      "source_type": "parish-marriage-index",
+      "source_status": "FamilySearch transcript inspected; original unavailable. No groom parentage stated."
+    }
+  }
+}

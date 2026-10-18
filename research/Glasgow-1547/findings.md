@@ -4,6 +4,8 @@ Last updated: 2026-10-16
 
 ## Current conclusion
 
+**Named record roles, 18 October 2026:** The checked 1702 christening index explicitly names Andreu Glasgou as father of James Glasgou at Kirknewton and East Calder on 20 September 1702. Andrew-1546’s original cited source is this same named-father entry, and James-1547 is the child account. Their record-defined father–son relationship is assessed as documented at 99% subjective confidence. This does not identify the child with a later adult or strengthen Andrew’s own possible father. These are newly graded existing relationships, previously unmarked, rather than new parent attachments or new source discoveries. FamilySearch transcripts were inspected 18 October 2026; original images are unavailable there. The 1702 displayed birth field contains only “9”, which does not independently establish the full 9 September date retained on James’s profile. James’s possible later-life identities and his descendants’ parent questions remain separate. [Family assessment](/branches/early-scottish-records/#chapter-kirknewton-andrew-father).
+
 Reviewed: 2026-10-16
 
 **Selected uncertain West Calder family, 16 October 2026:** John Glasgow-2847, husband of Margaret Anderson, is placed under James Glasgow-3526 through possible identity with the 1717 Kirknewton child John Glasgow-3525. James Glasgow-1547 remains an alternative father account. The adult’s circa 1730 birth is an estimate; no mother or new vital date is supplied. [Evidence and alternatives](/branches/early-scottish-records/#west-calder-anderson-working-family).
@@ -31,3 +33,11 @@ One uncertain father is newly selected through a possible child-to-adult identit
 - [FamilySearch, James Glasgow,1702, Kirknewton, Andrew Glasgow; alternative childhood for the 1717 father](https://www.familysearch.org/ark:/61903/1:1:VQ4K-6MQ)
 - [FamilySearch, John Glasgow,1702, Kirknewton, father William; competing John childhood already used for the Meek-household hypothesis](https://www.familysearch.org/ark:/61903/1:1:VQ4K-XZ7)
 - [MyHeritage, John Glasgow,18 August 1751, Kirknewton, John Glasgow/Christian Meek; distinct household comparison](https://www.myheritage.com/research/record-30226-356058/john-glasgow-in-scotland-births-baptisms)
+
+
+## Checked Kirknewton record roles — 18 October 2026
+
+The checked 1702 christening index explicitly names Andreu Glasgou as father of James Glasgou at Kirknewton and East Calder on 20 September 1702. Andrew-1546’s original cited source is this same named-father entry, and James-1547 is the child account. Their record-defined father–son relationship is assessed as documented at 99% subjective confidence. This does not identify the child with a later adult or strengthen Andrew’s own possible father. The checked marriage index names Andreu Glasgou and Christian Cook at Kirknewton and East Calder on 14 June 1700. The existing Andrew-1546 and Cook-36136 accounts carry this exact couple, parish and date. Their record-defined spouse relationship is assessed as documented at 99% subjective confidence. The 1702 child index does not name a mother; no maternal relationship is upgraded. These are newly graded existing relationships, previously unmarked, rather than new parent attachments or new source discoveries. FamilySearch transcripts were inspected 18 October 2026; original images are unavailable there. The 1702 displayed birth field contains only “9”, which does not independently establish the full 9 September date retained on James’s profile. James’s possible later-life identities and his descendants’ parent questions remain separate.
+
+- [FamilySearch, Andreu Glasgou in James’s 1702 christening entry; transcript checked, no image available](https://www.familysearch.org/ark:/61903/1:1:VQ4K-6MQ)
+- [FamilySearch, Andreu Glasgou and Christian Cook, 14 June 1700; marriage transcript checked, no image available](https://www.familysearch.org/ark:/61903/1:1:XY9W-VZX)

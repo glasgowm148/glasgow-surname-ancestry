@@ -2392,3 +2392,15 @@ Burial-defined Walter remains on source-verification HOLD in the existing creati
 
 | [Alexander Glasgow, proposed father](https://www.wikitree.com/wiki/Glasgow-3904) | OPEN | Preserve the earlier Larne father review and add John and Mary as conditional Prescott children at 27%, with the original sibling evidence distinguished from late parent tradition. |
 | [Robert Glasgow of Prescott](https://www.wikitree.com/wiki/Glasgow-4150) | OPEN | Add the two sourced Prescott sibling accounts, John watchmaker 98% and Mary Black 99%; retain the existing Alexander father hypothesis at 27% and all earlier pending work. |
+
+
+## Kirknewton Andrew father assessment — 18 October 2026
+
+| [Glasgow-1546](https://www.wikitree.com/wiki/Glasgow-1546) | OPEN | Explain the existing Alexander–Andrew attachment at 58%, possible, and the 1700/1702 household evidence; no new father or certain upgrade. |
+| [Glasgow-3118](https://www.wikitree.com/wiki/Glasgow-3118) | OPEN | Explain the existing Alexander–Andrew attachment at 58%, possible, and the 1700/1702 household evidence; no new father or certain upgrade. |
+
+
+## Kirknewton named record roles — 18 October 2026
+
+| [James Glasgow](https://www.wikitree.com/wiki/Glasgow-1547) | OPEN | Grade existing Andrew father at 99% for the 1702 child, retaining separate later-identity questions. |
+| [Andrew Glasgow](https://www.wikitree.com/wiki/Glasgow-1546) | OPEN | Record the checked 1700 Christian Cook spouse and 1702 James son at 99%; own Alexander father remains possible 58%. |

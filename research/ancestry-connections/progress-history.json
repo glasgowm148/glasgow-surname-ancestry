@@ -11606,6 +11606,185 @@
       "record_defined_sibling_links_added": 2,
       "existing_profiles_added_to_measurement": 0,
       "note": "Integrate John the Prescott watchmaker and Mary Black as Robert4150’s siblings, 98% and 99%, from the already known will/deeds. Both record accounts remain on identity hold. Extend the existing Alexander3904 father hypothesis to both at 27%, without an independent parent source, invented birth date or mother. No fixed/current cohort, existing-profile connectivity score, source-discovery total or confident-father count improves."
+    },
+    {
+      "date": "2026-10-18",
+      "method_version": 3,
+      "input_fingerprint": "8a632f639be452ec46f01431c6f636b19dd2c90c662f97dc3e144959e2a4ee47",
+      "metrics": {
+        "working": {
+          "population": 1789,
+          "edge_count": 1377,
+          "component_count": 414,
+          "largest_component_size": 1126,
+          "largest_component_percent": 62.940190050307436,
+          "connected_pairs_percent": 39.65790194364517,
+          "edge_status_counts": {
+            "confident": 308,
+            "dna_confirmed": 1,
+            "possible": 19,
+            "probable": 27,
+            "proved": 38,
+            "strongly_supported": 16,
+            "uncertain": 171,
+            "unmarked": 797
+          },
+          "quality": {
+            "cycles": [],
+            "cycle_edges_excluded": 0,
+            "later_born_ancestors_excluded": [],
+            "undated_ancestors": []
+          },
+          "connector_ids": [
+            "record-george-mureistoun-1586",
+            "record-john-glasgw-stirling-1475"
+          ],
+          "unattached_multi_child_roots": 40,
+          "family_root_count": 47
+        },
+        "supported": {
+          "population": 1789,
+          "edge_count": 390,
+          "component_count": 1400,
+          "largest_component_size": 46,
+          "largest_component_percent": 2.57126886528787,
+          "connected_pairs_percent": 0.20120472737322165,
+          "edge_status_counts": {
+            "confident": 308,
+            "dna_confirmed": 1,
+            "probable": 27,
+            "proved": 38,
+            "strongly_supported": 16
+          },
+          "quality": {
+            "cycles": [],
+            "cycle_edges_excluded": 0,
+            "later_born_ancestors_excluded": [],
+            "undated_ancestors": []
+          },
+          "connector_ids": [
+            "record-george-mureistoun-1586"
+          ],
+          "unattached_multi_child_roots": 42,
+          "family_root_count": 54
+        },
+        "confident": {
+          "population": 1789,
+          "edge_count": 363,
+          "component_count": 1426,
+          "largest_component_size": 26,
+          "largest_component_percent": 1.4533258803801006,
+          "connected_pairs_percent": 0.137366931646665,
+          "edge_status_counts": {
+            "confident": 308,
+            "dna_confirmed": 1,
+            "proved": 38,
+            "strongly_supported": 16
+          },
+          "quality": {
+            "cycles": [],
+            "cycle_edges_excluded": 0,
+            "later_born_ancestors_excluded": [],
+            "undated_ancestors": []
+          },
+          "unattached_multi_child_roots": 48,
+          "family_root_count": 56
+        }
+      },
+      "fixed_cohort": {
+        "working": {
+          "population": 1776,
+          "edge_count": 1374,
+          "component_count": 406,
+          "largest_component_size": 1122,
+          "largest_component_percent": 63.17567567567568,
+          "connected_pairs_percent": 39.95558939220911,
+          "edge_status_counts": {
+            "confident": 308,
+            "dna_confirmed": 1,
+            "possible": 19,
+            "probable": 25,
+            "proved": 37,
+            "strongly_supported": 16,
+            "uncertain": 171,
+            "unmarked": 797
+          },
+          "quality": {
+            "cycles": [],
+            "cycle_edges_excluded": 0,
+            "later_born_ancestors_excluded": [],
+            "undated_ancestors": []
+          },
+          "connector_ids": [
+            "Glasgow-4152",
+            "Glasgow-4176",
+            "record-george-mureistoun-1586",
+            "record-john-glasgw-stirling-1475"
+          ],
+          "unattached_multi_child_roots": 40,
+          "family_root_count": 47
+        },
+        "supported": {
+          "population": 1776,
+          "edge_count": 387,
+          "component_count": 1392,
+          "largest_component_size": 46,
+          "largest_component_percent": 2.59009009009009,
+          "connected_pairs_percent": 0.20175104682146935,
+          "edge_status_counts": {
+            "confident": 308,
+            "dna_confirmed": 1,
+            "probable": 25,
+            "proved": 37,
+            "strongly_supported": 16
+          },
+          "quality": {
+            "cycles": [],
+            "cycle_edges_excluded": 0,
+            "later_born_ancestors_excluded": [],
+            "undated_ancestors": []
+          },
+          "connector_ids": [
+            "Glasgow-4152",
+            "Glasgow-4176",
+            "record-george-mureistoun-1586"
+          ],
+          "unattached_multi_child_roots": 42,
+          "family_root_count": 54
+        },
+        "confident": {
+          "population": 1776,
+          "edge_count": 362,
+          "component_count": 1416,
+          "largest_component_size": 26,
+          "largest_component_percent": 1.4639639639639639,
+          "connected_pairs_percent": 0.13900520238548408,
+          "edge_status_counts": {
+            "confident": 308,
+            "dna_confirmed": 1,
+            "proved": 37,
+            "strongly_supported": 16
+          },
+          "quality": {
+            "cycles": [],
+            "cycle_edges_excluded": 0,
+            "later_born_ancestors_excluded": [],
+            "undated_ancestors": []
+          },
+          "connector_ids": [
+            "Glasgow-4152",
+            "Glasgow-4176"
+          ],
+          "unattached_multi_child_roots": 48,
+          "family_root_count": 56
+        }
+      },
+      "event_type": "relationship_reassessment",
+      "genealogical_connections_added": 0,
+      "paternal_connections_added": 0,
+      "certainty_upgrades": 2,
+      "confident_father_roles_added": 1,
+      "note": "Review the existing Alexander3118–Andrew1546 father at possible 58%. Two already-linked record-defined relationships are newly graded 99%: Andrew as father of the 1702 James1547 and Andrew’s 1700 Christian Cook spouse. These were unmarked, not newly attached. The father role adds one edge to supported/confident views from 1750 onward; working topology, cohorts, all vital fields and mother assignments are unchanged. No new source discovery or live edit. The child’s later adult identity remains separate."
     }
   ]
 }

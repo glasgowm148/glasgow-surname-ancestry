@@ -32350,6 +32350,85 @@
       "genealogical_connections_added": 0,
       "record_defined_sibling_links_added": 2,
       "new_source_discoveries": 0
+    },
+    {
+      "id": "kirknewton-named-roles-20261018",
+      "found_on": "2026-10-18",
+      "kind": "relationship",
+      "status": "confirmed",
+      "finding": "Kirknewton’s 1700 marriage and 1702 christening explicitly identify the couple and father: two existing record-defined relationships are newly graded confident at 99%.",
+      "qualification": "These are newly graded existing relationships, previously unmarked, rather than new parent attachments or new source discoveries. FamilySearch transcripts were inspected 18 October 2026; original images are unavailable there. The 1702 displayed birth field contains only “9”, which does not independently establish the full 9 September date retained on James’s profile. James’s possible later-life identities and his descendants’ parent questions remain separate. Andrew’s own Alexander father is a separate possible inference, 58%.",
+      "people": [
+        {
+          "id": "Glasgow-1546",
+          "name": "Andrew Glasgow",
+          "url": "/people/glasgow-1546.html"
+        },
+        {
+          "id": "Glasgow-1547",
+          "name": "James Glasgow, 1702 child",
+          "url": "/people/glasgow-1547.html"
+        },
+        {
+          "id": "Cook-36136",
+          "name": "Christian Cook",
+          "url": "https://www.wikitree.com/wiki/Cook-36136"
+        },
+        {
+          "id": "Glasgow-3118",
+          "name": "Alexander Glasgow, possible father of Andrew",
+          "url": "/people/glasgow-3118.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "FamilySearch: Andreu Glasgou named as James’s father, 1702 christening; transcript checked, original unavailable",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:VQ4K-6MQ"
+        },
+        {
+          "title": "FamilySearch: Andreu Glasgou and Christian Cook, 14 June 1700; marriage transcript checked, original unavailable",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:XY9W-VZX"
+        }
+      ],
+      "detail_url": "/branches/early-scottish-records/#chapter-kirknewton-andrew-father",
+      "relationship_changes": [
+        {
+          "action": "regrade",
+          "relationship": "father",
+          "subject_id": "Glasgow-1547",
+          "relative_id": "Glasgow-1546",
+          "subject": "James Glasgow",
+          "relative": "Andrew Glasgow",
+          "before": "unmarked",
+          "after": "certain",
+          "assessment_after": "proved",
+          "status": "proved",
+          "assertion_id": "C-role-20261018-kirknewton-father",
+          "explanation": "The checked 1702 christening index explicitly names Andreu Glasgou as father of James Glasgou at Kirknewton and East Calder on 20 September 1702. Andrew-1546’s original cited source is this same named-father entry, and James-1547 is the child account. Their record-defined father–son relationship is assessed as documented at 99% subjective confidence. This does not identify the child with a later adult or strengthen Andrew’s own possible father.",
+          "previous_status_provenance": "Before-batch public dossier and anonymous Open historical live profile check, 18 October 2026; existing relationship, blank certainty flag.",
+          "scope": "99%, existing record-defined relationship; no new attachment or live edit."
+        },
+        {
+          "action": "regrade",
+          "relationship": "spouse",
+          "subject_id": "Glasgow-1546",
+          "relative_id": "Cook-36136",
+          "subject": "Andrew Glasgow",
+          "relative": "Christian Cook",
+          "before": "unmarked",
+          "after": "certain",
+          "assessment_after": "proved",
+          "status": "proved",
+          "assertion_id": "C-role-20261018-kirknewton-spouse",
+          "explanation": "The checked marriage index names Andreu Glasgou and Christian Cook at Kirknewton and East Calder on 14 June 1700. The existing Andrew-1546 and Cook-36136 accounts carry this exact couple, parish and date. Their record-defined spouse relationship is assessed as documented at 99% subjective confidence. The 1702 child index does not name a mother; no maternal relationship is upgraded.",
+          "previous_status_provenance": "Before-batch public dossier and anonymous Open historical live profile check, 18 October 2026; existing relationship, blank certainty flag.",
+          "scope": "99%, existing record-defined relationship; no new attachment or live edit."
+        }
+      ],
+      "certainty_upgrades": 2,
+      "genealogical_connections_added": 0,
+      "new_father_attachments": 0,
+      "new_source_discoveries": 0
     }
   ]
 }

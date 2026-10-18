@@ -5371,5 +5371,95 @@
         "role": "Expressly named sister 99%"
       }
     }
+  },
+  {
+    "record_id": "kirknewton-andrew-cook-1700",
+    "association": "Andreu Glasgou and Christian Cook marriage",
+    "date": "14 June 1700",
+    "year": 1700,
+    "place": "Kirknewton and East Calder, Midlothian, Scotland",
+    "source_title": "FamilySearch Scotland Marriages,1561–1910,XY9W-VZX",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:XY9W-VZX",
+    "record_type": "marriage",
+    "source_type": "Parish marriage index",
+    "status": "Transcript inspected 18 October 2026; no image available",
+    "source_status": "Derivative parish index inspected; original unavailable",
+    "note": "Names the existing Andrew Glasgow-1546/Christian Cook couple, date and parish. Names neither groom parent. Spouse role 99%; no maternal inference for the 1702 child. Previously cited source newly checked, not a new source discovery.",
+    "profiles": {
+      "Glasgow-1546": {
+        "role": "Groom, recorded Andreu Glasgou",
+        "timeline_group": "Life events"
+      },
+      "Cook-36136": {
+        "role": "Bride, Christian Cook",
+        "timeline_group": "Life events"
+      }
+    }
+  },
+  {
+    "record_id": "kirknewton-james-andrew-1702",
+    "association": "James Glasgou christening; father Andreu Glasgou",
+    "date": "20 September 1702",
+    "year": 1702,
+    "place": "Kirknewton and East Calder, Midlothian, Scotland",
+    "source_title": "FamilySearch Scotland Births and Baptisms,1564–1950,VQ4K-6MQ,father entry",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:VQ4K-6MQ",
+    "record_type": "baptism",
+    "source_type": "Parish christening index",
+    "status": "Transcript inspected 18 October 2026; image unavailable",
+    "source_status": "Derivative parish index inspected; original unavailable",
+    "note": "Explicitly names Andreu Glasgou as James Glasgou’s father. The existing father and child accounts are defined by this citation: father role 99%. No mother or paternal grandparent named. The displayed birth field contains only 9, not a complete date. Does not identify James with a later adult. Previously cited source, not a new source discovery.",
+    "profiles": {
+      "Glasgow-1547": {
+        "role": "Christened child, James Glasgou",
+        "timeline_group": "Life events"
+      },
+      "Glasgow-1546": {
+        "role": "Named father, Andreu Glasgou",
+        "timeline_group": "Records mentioning this person"
+      }
+    }
+  },
+  {
+    "record_id": "kirknewton-alexander-smith-1667",
+    "association": "Alexander Glasgow and Margaret Smith marriage",
+    "date": "18 October 1667",
+    "year": 1667,
+    "place": "Kirknewton, Scotland",
+    "source_title": "FamilySearch Scotland Marriages,1561–1910,XY9W-TPB; maintained citation",
+    "source_url": "https://familysearch.org/ark:/61903/1:1:XY9W-TPB",
+    "record_type": "marriage",
+    "source_type": "Parish marriage index",
+    "status": "Previously accepted citation reused; not newly inspected",
+    "note": "Defines the local older Alexander household used in the possible Andrew father comparison. Does not name Andrew or identify Andrew’s parents. No confidence upgrade to this record or its parties is claimed.",
+    "profiles": {
+      "Glasgow-3118": {
+        "role": "Groom, existing Kirknewton adult account"
+      },
+      "Smith-230509": {
+        "role": "Bride, Margaret Smith"
+      }
+    }
+  },
+  {
+    "record_id": "opr-kirknewton-agnes-1677",
+    "association": "Agnes Glasgow, Kirknewton, father Alexander",
+    "date": "28 February 1677",
+    "year": 1677,
+    "place": "Kirknewton and East Calder, Scotland",
+    "source_title": "ScotlandsPeople OPR690,10/77, supplied births/baptisms index row18",
+    "source_url": "https://www.scotlandspeople.gov.uk/search-records/church-registers",
+    "record_type": "baptism",
+    "source_type": "Supplied parish index",
+    "status": "Supplied index reviewed 10 September 2026; reused, original uninspected",
+    "note": "Names father Alexander Glasgow for Agnes. Used as household context, without a new parental or maternal certainty upgrade; does not name Andrew.",
+    "profiles": {
+      "Glasgow-1312": {
+        "role": "Indexed child, Agnes Glasgow"
+      },
+      "Glasgow-3118": {
+        "role": "Proposed identification of named father Alexander, existing household"
+      }
+    }
   }
 ]

@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "reviewed": "2026-10-18",
+  "cutoff": 1850,
+  "method_version": 3,
+  "input_fingerprint": "8a632f639be452ec46f01431c6f636b19dd2c90c662f97dc3e144959e2a4ee47",
+  "scope": "Existing Kirknewton ancestry reviewed at 58%; named father and spouse roles at 99%",
+  "publication_summary": "Review the existing Alexander3118–Andrew1546 father at possible 58%. Two already-linked record-defined relationships are newly graded 99%: Andrew as father of the 1702 James1547 and Andrew’s 1700 Christian Cook spouse. These were unmarked, not newly attached. The father role adds one edge to supported/confident views from 1750 onward; working topology, cohorts, all vital fields and mother assignments are unchanged. No new source discovery or live edit. The child’s later adult identity remains separate.",
+  "models": {
+    "main": {
+      "checked_historical_profiles": 1789,
+      "matched_paternal_edges": 1376,
+      "added_historical_profiles": [],
+      "changed_father_fields": 0,
+      "all_previous_vitals_and_parent_choices_preserved": true
+    },
+    "standalone": {
+      "checked_historical_profiles": 1789,
+      "matched_paternal_edges": 1376,
+      "added_historical_profiles": [],
+      "changed_father_fields": 0,
+      "all_previous_vitals_and_parent_choices_preserved": true
+    }
+  },
+  "paternal_connections_added": 0,
+  "certainty_upgrades": 2,
+  "new_confident_father_roles": 1,
+  "new_father_attachments": 0,
+  "saved_live_flags_changed": false,
+  "pending_profiles": [
+    528,
+    529
+  ],
+  "metric_changes": {
+    "1500": {
+      "working": {},
+      "supported": {},
+      "confident": {}
+    },
+    "1550": {
+      "working": {},
+      "supported": {},
+      "confident": {}
+    },
+    "1600": {
+      "working": {},
+      "supported": {},
+      "confident": {}
+    },
+    "1650": {
+      "working": {},
+      "supported": {},
+      "confident": {}
+    },
+    "1700": {
+      "working": {},
+      "supported": {},
+      "confident": {}
+    },
+    "1750": {
+      "working": {},
+      "supported": {
+        "edge_count": [
+          208,
+          209
+        ],
+        "component_count": [
+          386,
+          385
+        ],
+        "connected_pairs_percent": [
+          1.0961214165261384,
+          1.0966911262020873
+        ]
+      },
+      "confident": {
+        "edge_count": [
+          189,
+          190
+        ],
+        "component_count": [
+          404,
+          403
+        ],
+        "connected_pairs_percent": [
+          0.651747869285812,
+          0.6523175789617611
+        ]
+      }
+    },
+    "1800": {
+      "working": {},
+      "supported": {
+        "edge_count": [
+          258,
+          259
+        ],
+        "component_count": [
+          664,
+          663
+        ],
+        "connected_pairs_percent": [
+          0.5716848416182788,
+          0.571920879950904
+        ]
+      },
+      "confident": {
+        "edge_count": [
+          233,
+          234
+        ],
+        "component_count": [
+          688,
+          687
+        ],
+        "connected_pairs_percent": [
+          0.3571259972619553,
+          0.3573620355945806
+        ]
+      }
+    },
+    "1850": {
+      "working": {},
+      "supported": {
+        "edge_count": [
+          389,
+          390
+        ],
+        "component_count": [
+          1401,
+          1400
+        ],
+        "connected_pairs_percent": [
+          0.20114220259777937,
+          0.20120472737322165
+        ]
+      },
+      "confident": {
+        "edge_count": [
+          362,
+          363
+        ],
+        "component_count": [
+          1427,
+          1426
+        ],
+        "connected_pairs_percent": [
+          0.13730440687122272,
+          0.137366931646665
+        ]
+      }
+    }
+  },
+  "next_metric_check": {
+    "status": "CLOSED",
+    "saved_confident_tree_flags_not_used_by_current_metric": 0
+  },
+  "verification": {
+    "full_and_compact_filters_agree": true,
+    "all_historical_father_fields_checked": true,
+    "packed_main_model_lossless": true,
+    "all_vitals_and_parent_choices_preserved": true,
+    "original_images_unavailable": true
+  }
+}

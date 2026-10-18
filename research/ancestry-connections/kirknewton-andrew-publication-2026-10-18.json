@@ -1,0 +1,152 @@
+{
+  "reviewed_at": "2026-10-18T07:22:50.897328+01:00",
+  "scope": "Existing Kirknewton ancestry reviewed at 58%; named father and spouse roles at 99%",
+  "new_fathers": 0,
+  "new_confident_relationships": 2,
+  "new_confident_father_roles": 1,
+  "vital_or_parent_choice_changes": 0,
+  "cohort_changes": 0,
+  "checks": "Three full dossiers/proposals, reciprocal estimates, preserved public vitals/parents, full/compact pending membership, both tree models, study and source-record projection.",
+  "counts": {
+    "primary_1850_working": {
+      "population": 1789,
+      "edge_count": 1377,
+      "component_count": 414,
+      "largest_component_size": 1126,
+      "connected_pairs_percent": 39.65790194364517
+    },
+    "pending_before": 528,
+    "pending_after": 529,
+    "metric_deltas": {
+      "1500": {
+        "working": {},
+        "supported": {},
+        "confident": {}
+      },
+      "1550": {
+        "working": {},
+        "supported": {},
+        "confident": {}
+      },
+      "1600": {
+        "working": {},
+        "supported": {},
+        "confident": {}
+      },
+      "1650": {
+        "working": {},
+        "supported": {},
+        "confident": {}
+      },
+      "1700": {
+        "working": {},
+        "supported": {},
+        "confident": {}
+      },
+      "1750": {
+        "working": {},
+        "supported": {
+          "edge_count": [
+            208,
+            209
+          ],
+          "component_count": [
+            386,
+            385
+          ],
+          "connected_pairs_percent": [
+            1.0961214165261384,
+            1.0966911262020873
+          ]
+        },
+        "confident": {
+          "edge_count": [
+            189,
+            190
+          ],
+          "component_count": [
+            404,
+            403
+          ],
+          "connected_pairs_percent": [
+            0.651747869285812,
+            0.6523175789617611
+          ]
+        }
+      },
+      "1800": {
+        "working": {},
+        "supported": {
+          "edge_count": [
+            258,
+            259
+          ],
+          "component_count": [
+            664,
+            663
+          ],
+          "connected_pairs_percent": [
+            0.5716848416182788,
+            0.571920879950904
+          ]
+        },
+        "confident": {
+          "edge_count": [
+            233,
+            234
+          ],
+          "component_count": [
+            688,
+            687
+          ],
+          "connected_pairs_percent": [
+            0.3571259972619553,
+            0.3573620355945806
+          ]
+        }
+      },
+      "1850": {
+        "working": {},
+        "supported": {
+          "edge_count": [
+            389,
+            390
+          ],
+          "component_count": [
+            1401,
+            1400
+          ],
+          "connected_pairs_percent": [
+            0.20114220259777937,
+            0.20120472737322165
+          ]
+        },
+        "confident": {
+          "edge_count": [
+            362,
+            363
+          ],
+          "component_count": [
+            1427,
+            1426
+          ],
+          "connected_pairs_percent": [
+            0.13730440687122272,
+            0.137366931646665
+          ]
+        }
+      }
+    }
+  },
+  "source_scope": "1700 marriage and 1702 father-role FamilySearch transcripts inspected; no original images available; older parish citations reused.",
+  "latest_findings": "Two existing ungraded record-defined relationships newly confident; no new source discovery or parent attachment. Speculative 58% ancestry kept separate.",
+  "verification_results": {
+    "focused_tests_passed": 63,
+    "new_research_publication_failures": 0,
+    "new_internal_link_pairs": 0,
+    "fixed_internal_link_pairs": 1,
+    "browser_family_labels_checked": true,
+    "browser_filtered_catalogue_row": "Not visually verified: the local page opened but further browser inspection timed out. Full and compact filtered memberships and relationship-change fields agree in the data checks.",
+    "asset_stamp_converged": true
+  }
+}

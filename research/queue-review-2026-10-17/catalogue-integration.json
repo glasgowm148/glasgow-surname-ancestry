@@ -5586,6 +5586,117 @@
         }
       ],
       "remote_wikitext": "{{Estimated Date}}\n[[Category:Glasgow Name Study]]\n\n== Biography ==\n\n'''Robert Glasgow''' was an early shipbuilder at Prescott, Upper Canada, later Canada West. Prescott heritage material identifies him as the builder of the Centre Street house now known as Glasgow House.<ref name=\"PrescottHeritage\">Town of Prescott, [https://www.prescott.ca/media/3dtiztjk/council-agenda-june-16-2025.pdf ''Council Agenda, 16 June 2025''], heritage-designation material for 388 Centre Street, “Glasgow House.”</ref> A later property history dates the building to about 1835.<ref name=\"Recorder\">Theresa Taylor, [https://www.theresataylor.com/wp-content/uploads/2017/06/Auction-all-for-others-Brockville-Recorder.pdf “Auction all for others,”] ''Brockville Recorder & Times'', 22 February 2017.</ref>\n\nRobert made his will on 9 October 1849. The registered copy divides his estate into six shares: one each for his brothers Daniel, [[Glasgow-4010|Samuel]], John and Thomas Glasgow, one collectively for the children of his brother James, and one for his sister Mary Glasgow.<ref name=\"Will1849\">FamilySearch, ''Land records of Grenville County, 1822–1955'', film 008200419, image 35, registered copy of the will of Robert Glasgow of Prescott, dated October 1849 and registered in 1856, [https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWY9-S image 3Q9M-CSLG-LWY9-S]; original image inspected 8 September 2026.</ref>\n\nThe explicit sibling language makes Samuel Robert's brother, not his son. The later statement that Robert left the house to six “children” and that a son Samuel acquired the other shares appears to have misread the six-share title chain.<ref name=\"Will1849\" /><ref name=\"Recorder\" />\n\nLocal history reports that Robert died at Prescott in 1856.<ref name=\"Recorder\" /> The 1856 date is compatible with an 1849 will: 1849 is the date on which the will was made, while 1856 is the reported death and registration period.\n\n== Research Notes ==\n\n=== The 1842 census lead ===\n\nA modern index reports a Robert Glasgow in Augusta in the 1842 Canada West census. The image formerly cited for that claim, frame <code>004569584_00050</code>, was inspected at full resolution and contains no readable Robert Glasgow entry.<ref>Library and Archives Canada, [https://central.bac-lac.gc.ca/.item/?app=Census1842&op=img&id=004569584_00050 1842 Census of Canada West, image 004569584_00050], inspected 13 August 2026.</ref> It is not used here as evidence for Robert's identity.\n\n=== Family interpretation ===\n\nThe will's named beneficiaries are Robert's siblings and the children of one brother. It does not name Robert's parents, spouse or children. The 30 July 1861 conveyance, B465, identifies the will’s Daniel as the Kilrea watchmaker and Thomas as the Lisnagaver farmer, with wives Margaret and Mary Anne. This establishes the Irish sibling identities when read with the will; it does not name their parents or identify Alexander of Lisnagaver as another brother.<ref>[https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWB8-D Prescott land register, volume B, memorial 465, pp.397–398, DGS 008200419, images 240–241].</ref>\n\nThe 1861 deed identifies the brothers as [[Glasgow-3896|Daniel of Kilrea]] and [[Glasgow-987|Thomas of Lisnagaver]]. The original 15 September 1869 deed, C298, identifies the sister as Mary Black, formerly Glasgow, and names six children, including John and Rose Ann Black of Drumoolish.<ref>[https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LQTY-K Prescott land register, volume C, memorial 298, pp.476–482, DGS 008200420, images 277–280].</ref> John of Prescott, watchmaker, remains an unassigned profile identity. James the Prescott carpenter is a property-based comparison for brother James, but their identity is not yet proved; the will does not say James was deceased.\n\nRobert's actual birthplace is unknown. His birth is estimated only far enough before about 1835 for him to have worked as a shipbuilder and built the house. His brother Samuel was recorded as Irish-born in the original 1851 Prescott census.<ref>Library and Archives Canada, [https://central.bac-lac.gc.ca/.item/?app=Census1851&op=img&id=e002351566 1851 Census of Canada West, Prescott, page 31, lines 11–18, image e002351566], Samuel Glasgow household.</ref> Ireland is therefore a usable uncertain creation-field location from Robert's documented immediate-family context; it is not a statement that Robert's birthplace has been found. Prescott should be entered as an uncertain death place from the local history, not as a birthplace.\n\n=== Duplicate audit ===\n\nThe local One Tree export, current project index and live WikiTree name results were reviewed in August and September 2026. No compatible Prescott shipbuilder profile was found. [[Glasgow-1367|Robert Glasgow of Glenleslie]], [[Glasgow-1171|Robert Glasgow of New York]], [[Glasgow-1983|Robert Glasgow of South Carolina]], [[Glasgow-1189|Robert Glasgow of Ohio]] and [[Glasgow-2769|Robert Glasgow of Tennessee]] have incompatible documented lives. Create Robert unconnected; the sibling link to Samuel can be expressed in the biographies until their parents are identified.\n\n== Sources ==\n\n<references />"
+    },
+    "Glasgow-1546": {
+      "profile_id": "Glasgow-1546",
+      "queued_at": "2026-10-18",
+      "biography_rechecked_at": "2026-10-18",
+      "status": "OPEN",
+      "pending": true,
+      "manual_update": true,
+      "summary": "Explain the checked Kirknewton record roles at 99%, distinguish the possible 58% ancestry and retain the existing date and later-identity questions.",
+      "work_queue_summary": "Existing record-defined relationships newly graded confident; no new father attachment.",
+      "significance": 78,
+      "draft_path": "research/Glasgow-1546/Glasgow-1546.md",
+      "findings_path": "research/Glasgow-1546/findings.md",
+      "remote_wikitext": "== Biography ==\nAndrew was born about 1685. \n== Sources ==\n<references />\n* https://www.familysearch.org/ark:/61903/1:1:VQ4K-6MQ",
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "preservation_review_path": "research/ancestry-connections/kirknewton-andrew-preservation-2026-10-18.json",
+      "relationship_changes": [
+        {
+          "action": "regrade",
+          "relationship": "father",
+          "relative_id": "Glasgow-3118",
+          "status": "possible",
+          "previous_status": "uncertain",
+          "assertion_id": "C-review-20261018-kirknewton-andrew-father",
+          "scope": "Existing father attachment assessed at 58%; previously no individual estimate. No new father or live flag change."
+        },
+        {
+          "action": "regrade",
+          "relationship": "spouse",
+          "relative_id": "Cook-36136",
+          "status": "proved",
+          "previous_status": "unmarked",
+          "assertion_id": "C-role-20261018-kirknewton-spouse",
+          "scope": "99%, existing record-defined relationship; no new attachment or live edit."
+        },
+        {
+          "action": "regrade",
+          "relationship": "child",
+          "relative_id": "Glasgow-1547",
+          "status": "proved",
+          "previous_status": "unmarked",
+          "assertion_id": "C-role-20261018-kirknewton-father",
+          "scope": "99%, existing record-defined relationship; no new attachment or live edit."
+        }
+      ]
+    },
+    "Glasgow-3118": {
+      "queued_at": "2026-10-18",
+      "status": "OPEN",
+      "significance": 84,
+      "summary": "Explain the possible Alexander–Andrew father link at 58%, the checked 1700 marriage and 1702 named-father role, and the unsupported 1685 birth estimate; preserve other pending work.",
+      "manual_update": true,
+      "draft_path": "research/Glasgow-3118/Glasgow-3118.md",
+      "preservation_review_path": "research/ancestry-connections/kirknewton-andrew-preservation-2026-10-18.json",
+      "reviewed_narrative_reduction": true,
+      "preserve_captured_detail": false,
+      "relationship_changes": [
+        {
+          "action": "regrade",
+          "relationship": "child",
+          "status": "probable",
+          "previous_status": "unmarked",
+          "relative_id": "Glasgow-1314",
+          "assertion_id": "C-review-20261017-parish-glasgow-1314-father",
+          "scope": "Existing parent pair assessed from the parish records; no live certainty flag changed."
+        },
+        {
+          "action": "regrade",
+          "relationship": "child",
+          "relative_id": "Glasgow-1546",
+          "status": "possible",
+          "previous_status": "uncertain",
+          "assertion_id": "C-review-20261018-kirknewton-andrew-father",
+          "scope": "Existing father attachment assessed at 58%; previously no individual estimate. No new father or live flag change."
+        }
+      ],
+      "profile_id": "Glasgow-3118",
+      "biography_rechecked_at": "2026-10-18",
+      "pending": true,
+      "work_queue_summary": "Explain the possible Alexander–Andrew father link at 58%, the checked 1700 marriage and 1702 named-father role, and the unsupported 1685 birth estimate; preserve other pending work.",
+      "findings_path": "research/Glasgow-3118/findings.md",
+      "remote_wikitext": "== Biography ==\n\nAlexander was born in 1650. \n== Sources ==\n<references />\n* \"Scotland Marriages, 1561-1910\", , FamilySearch (https://familysearch.org/ark:/61903/1:1:XY9W-TPB : 11 February 2020), Alexander Glasgow, 1667."
+    },
+    "Glasgow-1547": {
+      "queued_at": "2026-10-18",
+      "status": "OPEN",
+      "significance": 78,
+      "summary": "Explain the checked Kirknewton record roles at 99%, distinguish the possible 58% ancestry and retain the existing date and later-identity questions.",
+      "manual_update": true,
+      "draft_path": "research/Glasgow-1547/Glasgow-1547.md",
+      "preservation_review_path": "research/ancestry-connections/kirknewton-andrew-preservation-2026-10-18.json",
+      "reviewed_narrative_reduction": true,
+      "preserve_captured_detail": false,
+      "relationship_changes": [
+        {
+          "action": "regrade",
+          "relationship": "father",
+          "relative_id": "Glasgow-1546",
+          "status": "proved",
+          "previous_status": "unmarked",
+          "assertion_id": "C-role-20261018-kirknewton-father",
+          "scope": "99%, existing record-defined relationship; no new attachment or live edit."
+        }
+      ],
+      "profile_id": "Glasgow-1547",
+      "biography_rechecked_at": "2026-10-18",
+      "pending": true,
+      "work_queue_summary": "Existing record-defined relationships newly graded confident; no new father attachment.",
+      "findings_path": "research/Glasgow-1547/findings.md",
+      "remote_wikitext": "== Biography ==\nJames was born before 1702. He is the son of [[Glasgow-1546|Andrew Glasgow]]. \n== Sources ==\n<references />\n* https://www.familysearch.org/ark:/61903/1:1:VQ4K-6MQ"
     }
   },
   "reviewed_on": "2026-10-17",
