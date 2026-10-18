@@ -99,6 +99,9 @@ The deed does not give her birth date. No compatible profile survived the docume
         self.assertEqual(self.read(f"people/{self.slug}.json")["research_findings"][0]["sections"][0]["markdown"], self.entry["assessment"])
 
     def test_fresh_page_shows_approved_family_without_captured_attachments(self):
+        study = '/branches/scottish-deeds/#chapter-family'
+        self.entry['assessment'] += f' [Family study]({study}). [Local notes](research/private.md).'
+        self.save()
         brother = 'record-peter-glasgow-1775'
         assessments = [{
             'assertion_id': 'C-test-record-siblings', 'people': [self.slug, brother],
@@ -120,6 +123,8 @@ The deed does not give her birth date. No compatible profile survived the docume
         self.assertIsNotNone(family.select_one(f'a[href="/people/{brother}.html"]'))
         self.assertNotIn('No family attachments', family.get_text())
         self.assertNotIn('wikitree.com/wiki/record-', str(family))
+        self.assertIsNotNone(soup.select_one(f'a[href="{study}"]'))
+        self.assertIsNone(soup.select_one('a[href="research/private.md"]'))
         siblings = self.read(f'people/{self.slug}.json')['relationships']['siblings']
         self.assertEqual([row['id'] for row in siblings], [brother])
         network = self.read(f'people/{self.slug}.network.json')

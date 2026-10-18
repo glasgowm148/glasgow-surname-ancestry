@@ -788,7 +788,9 @@ def _inline_findings(text: str, id_to_slug: dict[str, str]) -> str:
             if linked_id:
                 href = f'/people/{id_to_slug[linked_id]}.html' if linked_id in id_to_slug else WIKITREE_URL + quote(linked_id)
                 rendered.append(f'<a href="{escape(href, quote=True)}">{plain(label)}</a>')
-            elif url.startswith(("https://", "http://")):
+            elif (url.startswith(("https://", "http://"))
+                  or (re.fullmatch(r"/(?:people|branches)/[A-Za-z0-9_./-]+(?:#[A-Za-z0-9_-]+)?", url)
+                      and ".." not in url.split("#", 1)[0].split("/"))):
                 rendered.append(f'<a href="{escape(url, quote=True)}">{plain(label)}</a>')
             else:
                 rendered.append(f'<span class="local-artifact" title="Local research artifact; not published">{plain(label)}</span>')
