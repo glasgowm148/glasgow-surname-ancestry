@@ -31,6 +31,35 @@ except ModuleNotFoundError:  # Package imports used by focused checks.
 MANIFEST = ROOT / "data/wikitree/research-catalogue-cases.json"
 
 
+def retain_case_context(fresh, previous):
+    """Refresh evidence without discarding an existing reviewed family account.
+
+    A small inclusion build lacks the full mapped family context. Relationship
+    assessments are applied afterwards by the normal dossier resolver.
+    """
+    result = deepcopy(previous)
+    for field in ("evidence", "claims"):
+        rows = {item["id"]: deepcopy(item) for item in previous.get(field, [])}
+        rows.update({item["id"]: deepcopy(item) for item in fresh.get(field, [])})
+        result[field] = list(rows.values())
+    summaries = {(item.get("title"), item.get("url")): deepcopy(item)
+                 for item in previous.get("source_summary", [])}
+    summaries.update({(item.get("title"), item.get("url")): deepcopy(item)
+                      for item in fresh.get("source_summary", [])})
+    result["source_summary"] = list(summaries.values())
+    return result
+
+
+def retain_catalogue_context(fresh, previous):
+    """Keep mapped roots, locations and family fields during a case refresh."""
+    result = {**fresh, **deepcopy(previous)}
+    for field in ("source_qualities", "claim_statuses"):
+        result[field] = catalogue._unique([
+            *previous.get(field, []), *fresh.get(field, []),
+        ])
+    return result
+
+
 
 def reviewed_inclusion_cases(cases, amendments, evidence, metadata):
     """Add reviewed canonical profile IDs without overriding exclusions/aliases.
@@ -205,7 +234,10 @@ def main():
         seed_ids = {ident for ident in seed_ids if ident in requested}
         seed_ids.update(c["profile_id"] for key, c in cases.items()
                         if key in requested and c["status"] == "include")
-    metadata = family.profile_metadata([], seed_ids)
+    mapped_records = family.load_records() if args.refresh else []
+    if mapped_records:
+        family.apply_catalogue_profile_links(mapped_records)
+    metadata = family.profile_metadata(mapped_records, seed_ids)
     cases = reviewed_inclusion_cases(cases, amendments, evidence, metadata)
     if args.profiles:
         requested = set(args.profiles)
@@ -217,7 +249,12 @@ def main():
             raise ValueError("Profiles require reviewed inclusion: " + ", ".join(sorted(requested - eligible)))
     wanted = {c["profile_id"] for c in cases.values() if c["status"] == "include"}
     documentary = [c["record"] for c in cases.values() if c["status"] == "include_record"]
-    people = catalogue._build_people(documentary, metadata, [], {}, evidence, profile_seed_ids=wanted)
+    selected_records = [row for row in mapped_records
+                        if wanted.intersection(catalogue._ids(row.get("profile_id", "")))]
+    edges = family.relationship_edges(mapped_records) if mapped_records else []
+    _, descendant_counts, _ = family.root_metadata(mapped_records, edges)
+    people = catalogue._build_people(selected_records + documentary, metadata, edges,
+                                     descendant_counts, evidence, profile_seed_ids=wanted)
     people = [p for p in people if not p["likely_living"]]
     available = {p["profile_ids"][0] for p in people if p["profile_ids"]}
     if wanted - available:
@@ -243,8 +280,10 @@ def main():
         previous_dossier_path = WEB / f"people/{slug}.json"
         if args.refresh and previous_dossier_path.exists():
             previous_dossier = read_json(previous_dossier_path)
-            if previous_dossier.get("wikitree_update"):
-                dossier["wikitree_update"] = previous_dossier["wikitree_update"]
+            dossier = retain_case_context(dossier, previous_dossier)
+            dossiers[slug] = dossier
+            person["name"] = dossier["name"]
+            next(item for item in index if item["id"] == ident)["name"] = dossier["name"]
         source_ids = [key for key, value in cases.items() if value.get("profile_id") == ident and value["status"] in {"include", "include_record"}]
         findings = catalogue._load_research_findings(list(dict.fromkeys([ident, *source_ids])))
         dossier["research_findings"] = findings
@@ -278,9 +317,7 @@ def main():
                        profile_work_status="identity_hold", uncertain_identity=True,
                        evidence=["Historical baptism; WikiTree identity unresolved"], record_count=len(person["records"]))
         if previous_row:
-            for field, value in previous_row.items():
-                if field.startswith("wikitree_update_") or field == "needs_wikitree_update":
-                    row[field] = value
+            row = retain_catalogue_context(row, previous_row)
             search = [value for value in search if value["id"] != slug]
         search.append(row)
         created.append(ident)
