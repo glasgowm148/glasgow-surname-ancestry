@@ -2372,3 +2372,10 @@ Burial-defined Walter remains on source-verification HOLD in the existing creati
 | [William Glasgow of Currituck](https://www.wikitree.com/wiki/Glasgow-428) | OPEN | Daniel-1158 remains the selected possible father, 42%; this first individual estimate does not add or replace a father. The 1718–1719 returns distinguish two Daniels, and neither is automatically William’s parent. |
 | [Daniel Glasgow, older tree account](https://www.wikitree.com/wiki/Glasgow-1158) | OPEN | The 1718–1719 Currituck tax returns distinguish Senior and Junior. This profile is a compatible candidate, not an identified taxpayer. Its 1712 death and Robert ancestry remain unverified. The proposed fatherhood of William-428 is possible, 42%. |
 | [Daniel Glasco, Mary Gamon husband account](https://www.wikitree.com/wiki/Glasgow-3322) | OPEN | The 1693 Mary Gamon husband remains this profile’s primary record identity. The two Currituck Daniels of 1718–1719 are compatible comparisons; this profile is not automatically Junior or distinct from Daniel-1158. |
+
+
+## Larne ropemaker’s preferred father —18 October2026
+
+| [James Glasgow, Larne ropemaker](https://www.wikitree.com/wiki/Glasgow-1509) | OPEN | Hugh Glasgow-1499 is now the selected possible father,52%, replacing William-1505 locally. William remains an uncertain alternative,27%. The repeated James forename is a substantial caution, not proof of an infant death; no mother or vital field changes. |
+| [Hugh Glasgow, Larne elder and merchant](https://www.wikitree.com/wiki/Glasgow-1499) | OPEN | James Glasgow-1509, the older Larne ropemaker, is now selected as a possible son,52%, from the reported1737/1762 family account and the Glasgow–Shutter network. The younger James-3991 remains separate. Ann is not newly assigned as mother. |
+| [William Glasgow, older Larne merchant](https://www.wikitree.com/wiki/Glasgow-1505) | OPEN | William is retained as an uncertain father alternative for the Larne ropemaker James-1509,27%. Hugh-1499 is now the preferred possible father,52%. The1760 William witness remains positive association evidence with an unresolved identity, not a father clause. |

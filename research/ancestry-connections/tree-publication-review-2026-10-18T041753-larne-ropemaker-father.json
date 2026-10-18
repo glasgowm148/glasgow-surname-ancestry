@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "reviewed": "2026-10-18",
+  "cutoff": 1850,
+  "method_version": 3,
+  "input_fingerprint": "d8cc92af9e5f1f8857d1866a790c382028f24dbf24865bce325fe0ec02cf4aa2",
+  "scope": "Select Hugh Glasgow-1499 as the preferred possible father of James Glasgow-1509, the older Belfast/Larne ropemaker, at 52% subjective confidence, replacing William Glasgow-1505 in the local working tree. The archived chronology explicitly places a James, son of Hugh, at New Town/Larne in 1737 and identifies its reported 1762 Janet Shutter groom with that James. Hugh is an independently documented Larne merchant and elder, jointly leasing Newtown property in1736 and dealing with Hugh Shutter in the original1749 mortgage. The later James/Janet account and the distinctive Jane Shutter name in the younger William’s monument fit a recurring Glasgow–Shutter network. These combined named-parent, locality, generation and family-association clues favour Hugh over retaining a William father without a named-son record.",
+  "publication_summary": "Replace the older Larne ropemaker James1509’s selected William1505 father with Hugh1499,possible52%. Retain William as an uncertain alternative27%; no mother or vital change. The49-profile child side was already in the same working component; all numeric connectivity metrics and fixed/current cohorts unchanged. No live edit or new source discovery.",
+  "models": {
+    "main": {
+      "checked_historical_profiles": 1789,
+      "matched_paternal_edges": 1377,
+      "selected_parent_replacements": 1,
+      "all_previous_vitals_preserved": true,
+      "selected_father_probability": 0.52
+    },
+    "standalone": {
+      "checked_historical_profiles": 1789,
+      "matched_paternal_edges": 1377,
+      "selected_parent_replacements": 1,
+      "all_previous_vitals_preserved": true,
+      "selected_father_probability": 0.52
+    }
+  },
+  "working_parent_changes": [
+    {
+      "child": "Glasgow-1509",
+      "before": "Glasgow-1505",
+      "after": "Glasgow-1499"
+    }
+  ],
+  "paternal_connections_added": 0,
+  "working_parent_replacements": 1,
+  "collateral_connections_added": 0,
+  "certainty_upgrades": 0,
+  "existing_profiles_added_to_measurement": 0,
+  "saved_live_flags_changed": false,
+  "pending_profiles": [
+    522,
+    522
+  ],
+  "next_metric_check": {
+    "status": "CLOSED",
+    "saved_confident_tree_flags_not_used_by_current_metric": 0
+  },
+  "verification": {
+    "full_and_compact_filters_agree": true,
+    "selected_father_probability": 0.52,
+    "alternative_father_probability": 0.27,
+    "real_replacement_tag_and_relative_link": true,
+    "other_parent_assignments_and_all_vitals_preserved": true,
+    "all_historical_father_fields_checked": true,
+    "packed_main_model_lossless": true,
+    "complete_comparisons": 3,
+    "fixed_and_current_numeric_metrics_and_cohorts_unchanged": true,
+    "three_profile_HTTP_checks": true,
+    "study_anchor_checked": true,
+    "fresh_public_captures_match": true
+  }
+}

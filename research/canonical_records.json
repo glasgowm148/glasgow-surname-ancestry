@@ -5210,5 +5210,62 @@
         "role": "compatible taxpayer identity only; not assigned to Junior"
       }
     }
+  },
+  {
+    "record_id": "larne-james-hugh-1737-reported",
+    "record_type": "family record",
+    "year": 1737,
+    "date": "1737",
+    "place": "Larne,County Antrim",
+    "source_title": "Donna Jean Glasgow, Life’s Weaving, archived Kilwaughter/Larne chronology, 1737 and1762 entries; reread18 October2026; derivative reconstruction, original register and reported stone not inspected",
+    "source_url": "https://web.archive.org/web/20101124184247id_/http://lifesweaving.com/Glasgow/Kilwaughter/Timeline.html",
+    "source_quality": "derivative chronology",
+    "status": "Existing evidence reviewed18 October2026; relationship scope qualified",
+    "note": "The derivative chronology assigns the1737 James and reported1762 Janet Shutter groom to Hugh. One source tradition; original entries and alleged stone unread. Rereading does not prove the adult identity.",
+    "profiles": {
+      "Glasgow-1509": {
+        "role": "preferred possible adult identification,52%"
+      },
+      "Glasgow-1499": {
+        "role": "preferred possible named-father identity,52%"
+      }
+    }
+  },
+  {
+    "record_id": "larne-hugh-shutter-mortgage-1749",
+    "record_type": "land",
+    "year": 1749,
+    "date": "1749",
+    "place": "Larne,County Antrim",
+    "source_title": "Registry of Deeds memorial97407, mortgage6 November1749, FamilySearch image449; original reading of21 September2026 reused",
+    "source_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSH3-7XCG",
+    "source_quality": "previously inspected original or published inscription",
+    "status": "Existing evidence reviewed18 October2026; relationship scope qualified",
+    "note": "Hugh Glasgow and Hugh Shutter in a mortgage; no relationship to Janet Shutter or the ropemaker stated. Existing original reading reused.",
+    "profiles": {
+      "Glasgow-1499": {
+        "role": "maintained Larne merchant identity"
+      }
+    }
+  },
+  {
+    "record_id": "larne-hugh-ann-family-monument",
+    "record_type": "family record",
+    "year": 1767,
+    "date": "1767",
+    "place": "Larne,County Antrim",
+    "source_title": "Bigger and Hughes, Larne churchyard inscriptions, Ulster Journal of Archaeology, second series6, pp.47–48; previously inspected published monument transcription reused",
+    "source_url": "https://archive.org/details/ulsterjournalofa06ulstiala/page/47/mode/1up",
+    "source_quality": "previously inspected original or published inscription",
+    "status": "Existing evidence reviewed18 October2026; relationship scope qualified",
+    "note": "Hugh and Ann family inscription, including separately named James died1812 aged64. It supplies no explicit death of the reported1737 child.",
+    "profiles": {
+      "Glasgow-1499": {
+        "role": "commemorated father"
+      },
+      "Glasgow-3991": {
+        "role": "younger monument son, kept separate"
+      }
+    }
   }
 ]

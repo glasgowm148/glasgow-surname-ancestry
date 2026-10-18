@@ -1,8 +1,10 @@
 # Findings: [William Glasgow (Glasgow-1505), Larne, died about 1783](https://www.wikitree.com/wiki/Glasgow-1505)
 
-Last updated: 2026-10-07
+Last updated: 2026-10-18
 
 ## Current conclusion
+
+Reviewed: 2026-10-18. **William is retained as an uncertain father alternative for the Larne ropemaker James-1509,27%. Hugh-1499 is now the preferred possible father,52%. The1760 William witness remains positive association evidence with an unresolved identity, not a father clause.**
 
 William is a real, distinct older Larne man. A published transcript of the
 Larne and Kilwaughter congregational accounts probably identifies him as
@@ -33,9 +35,8 @@ strong property association and a possible descendant chain, but none of the
 catalogue abstracts states that William and Hugh were brothers or identifies
 Elizabeth's husband.
 
-William's current descendants remain useful working hypotheses, not a proved
-line. James `Glasgow-1509`, born or recorded about 1737 and later associated
-with the Larne rope trade, is a chronologically plausible uncertain son. A
+The descendant hypotheses previously carried below William remain unproved; the18 October2026 review selects Hugh as James-1509’s father and keeps William as an alternative. James `Glasgow-1509`, born or recorded about 1737 and later associated
+with the Larne rope trade, remains a chronologically plausible but now unselected son hypothesis,27%. A
 derivative register chronology instead calls the 1737 James a son of Hugh, so
 the original `MIC/1B/6` entry is decisive. James `Glasgow-3986`, born about
 1773, is far more naturally a grandson or later descendant than William's
@@ -256,3 +257,26 @@ The January 1768 report says the rum-carrying Lady Forbes, bound for Waterford, 
 
 This may concern [Glasgow-1505](https://www.wikitree.com/wiki/Glasgow-1505). Older Larne William, estimated birth and death; alive in this period as a working hypothesis. No Lady Forbes connection is established.
 <!-- queue-record-integration-2026-10-17:end -->
+
+
+## Preferred father for the Larne ropemaker — 18 October 2026
+
+Select Hugh Glasgow-1499 as the preferred possible father of James Glasgow-1509, the older Belfast/Larne ropemaker, at 52% subjective confidence, replacing William Glasgow-1505 in the local working tree. The archived chronology explicitly places a James, son of Hugh, at New Town/Larne in 1737 and identifies its reported 1762 Janet Shutter groom with that James. Hugh is an independently documented Larne merchant and elder, jointly leasing Newtown property in1736 and dealing with Hugh Shutter in the original1749 mortgage. The later James/Janet account and the distinctive Jane Shutter name in the younger William’s monument fit a recurring Glasgow–Shutter network. These combined named-parent, locality, generation and family-association clues favour Hugh over retaining a William father without a named-son record.
+
+This is a preferred working identification, not a proved father clause for the adult ropemaker. The chronology is one derivative reconstruction: its1737 child,1762 groom and reported1737–1802 stone must not be counted as three independent confirmations. The adult’s1737 birth may itself derive from that reconstruction; the independent1773 affidavit establishes only birth before27 October1743. The original1737 entry,1762 marriage and alleged James/Janet stone remain uninspected. Hugh Shutter’s relationship to Janet is unknown, and a business association does not identify a father-in-law. A different Hugh remains possible. No mother is selected: Ann is not established as the1737 child’s mother by the reviewed account.
+
+The monument’s separately recorded James Glasgow-3991, son of Hugh and Ann, died in1812 aged64 and belongs to the younger1747/48 generation. That is a serious rival explanation: the reported1737 child could have died and the name been used again. It is not a recorded death of that earlier child. Withdraw the categorical earlier inference that the1737 James must have died young. Do not equate the two James profiles, invent a second wife, or infer surviving brothers with the same forename as an established fact. The older ropemaker was already an adult in1760–1761 and over thirty in1773, so he remains distinct from the younger monument/tanner comparison.
+
+Retain William Glasgow-1505 as an unselected uncertain father alternative at27%, preserving his earlier possible but individually unrated placement. A William Glasgow, Larne merchant, witnessed the1760 ropewalk lease, which is genuine positive association with James; the witness is not expressly called his father and may be the older William or another adult namesake. William and Hugh’s joint1736/1757 property activity makes a wider family or business relationship plausible without choosing its degree. William could be father, uncle or another associate. The specific reported Hugh-son identification and Hugh–Shutter connection now favour Hugh, but do not exclude William. The percentages express comparative research judgment, not a measured frequency or independent-source calculation.
+
+One selected father is replaced locally. The child-side working branch contains49 retained pre-1850 profile accounts, including James and uncertain descendants; their own grades are unchanged. This is not49 new or proved relationships. The men were already in the same working component, so no component merger or new genealogical connection is claimed. No vital date, place, spouse, mother, identity merge or live WikiTree field changes. Hugh’s own uncertain ancestry and James’s Inishrush descendants retain their prior assessments.
+
+The next discriminators are the original1737 entry,1762 marriage, full James/Janet monument and any surviving1737-child death or later household recital. The1760 William witness must be identified separately rather than silently assigned to the older William. A document naming a parent, sibling or inherited holding would test the preferred model; its absence is not an automatic exclusion.
+
+- [Donna Jean Glasgow, Life’s Weaving, archived Kilwaughter/Larne chronology, 1737 and1762 entries; reread18 October2026; derivative reconstruction, original register and reported stone not inspected](https://web.archive.org/web/20101124184247id_/http://lifesweaving.com/Glasgow/Kilwaughter/Timeline.html)
+- [Registry of Deeds memorial97407, mortgage6 November1749, FamilySearch image449; original reading of21 September2026 reused](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSH3-7XCG)
+- [Registry of Deeds,10 September1760 Gardenmore ropewalk lease, registered24 November1763; maintained original reading reused](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSH3-S7XZ-8)
+- [Registry affidavit27 October1773, registered15 November: James of Larne aged upwards of thirty; maintained original reading reused](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSH3-M72W-M)
+- [Bigger and Hughes, Larne churchyard inscriptions, Ulster Journal of Archaeology, second series6, pp.47–48; previously inspected published monument transcription reused](https://archive.org/details/ulsterjournalofa06ulstiala/page/47/mode/1up)
+
+[Complete family comparison](/branches/larne-kilwaughter/#chapter-larne-ropemaker-preferred-father).
