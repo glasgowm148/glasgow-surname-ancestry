@@ -5488,6 +5488,104 @@
       "preserve_captured_detail": false,
       "reviewed_narrative_reduction": true,
       "relationship_changes": []
+    },
+    "Glasgow-3904": {
+      "significance": 90,
+      "summary": "Preserve the earlier Larne father review and add John and Mary as conditional Prescott children at 27%, with the original sibling evidence distinguished from late parent tradition.",
+      "work_queue_summary": "Preserve the earlier Larne father review and add John and Mary as conditional Prescott children at 27%, with the original sibling evidence distinguished from late parent tradition.",
+      "preserve_captured_detail": false,
+      "draft_path": "data/private/wikitree-updates/Glasgow-3904-20261018.wiki",
+      "biography_rechecked_at": "2026-10-18",
+      "queued_at": "2026-10-18",
+      "status": "OPEN",
+      "manual_update": true,
+      "preservation_review_path": "research/ancestry-connections/prescott-siblings-preservation-2026-10-18.json",
+      "reviewed_narrative_reduction": true,
+      "relationship_changes": [
+        {
+          "action": "add",
+          "relationship": "father",
+          "status": "uncertain",
+          "relative_id": "Glasgow-1509",
+          "assertion_id": "C-working-20261016-larne-inishrush-working-family-alexander-father"
+        },
+        {
+          "action": "add",
+          "relationship": "child",
+          "relative_id": "record-john-prescott-watchmaker",
+          "status": "uncertain",
+          "assertion_id": "C-working-20261018-prescott-john-father",
+          "scope": "Cited narrative family addition; record account remains on identity hold, not a ready live family-field attachment."
+        },
+        {
+          "action": "add",
+          "relationship": "child",
+          "relative_id": "record-mary-glasgow-black",
+          "status": "uncertain",
+          "assertion_id": "C-working-20261018-prescott-mary-father",
+          "scope": "Cited narrative family addition; record account remains on identity hold, not a ready live family-field attachment."
+        }
+      ],
+      "profile_id": "Glasgow-3904",
+      "pending": true,
+      "findings_path": "research/Glasgow-3904/findings.md",
+      "private_comparison": true,
+      "public_addition_wikitext": "=== Prescott sibling family reviewed 18 October 2026 ===\nJohn Glasgow, Prescott watchmaker with wife Jane in deed B13, is selected as Robert [[Glasgow-4150]]’s brother at 98% subjective confidence. Robert’s 1849 will gives brother John one sixth. John and Jane’s 1856 deed transfers an undivided one sixth of the same Dibble Street lots to Samuel, who is another will-named brother. The exact locality, buyer, parcels and fraction identify the grantor strongly; B13 does not itself expressly call John Robert’s brother. John’s birth, death and parents are not named, and his identity with an existing John profile is unresolved.\n\nMary Black, formerly Mary Glasgow, is Robert’s sister at 99% subjective confidence: C298 expressly states that relationship and traces her six children’s interests to Robert’s will, which names his sister Mary. Her children were John Black and Rose Ann Black of Drumoolish, Jane Miller and Agnes Black of Newburgh, Thomasina Montgomery of Legrand, Iowa, and Elizabeth Black, formerly of Newburgh. John’s wife Martha, Jane’s husband Robert Miller and Thomasina’s husband Mathew Montgomery also joined. Elizabeth, not Mary, is expressly deceased unmarried and intestate; her five siblings convey her share as heirs. Mary’s own birth, death, residence and husband’s forename remain unknown.\n\nExtend the existing Alexander [[Glasgow-3904]] father hypothesis to John and Mary at 27%, uncertain, conditional on their documented membership in the Prescott sibling family. Thomas-987 and Daniel-3896 already carry this father, and Samuel-4010 and Robert-4150 already have the same selected uncertain hypothesis. Its basis remains the single late descendant tradition naming Alexander as Thomas’s father, with compatible generation and sibling inference. The original will and deeds name no parent. These two extensions supply no independent parent testimony and do not raise the existing estimate; no mother is selected.\n\nThese are two previously unstructured record accounts recovered from evidence already researched in September, not two newly discovered sources or two proven additional distinct people. John retains six unselected compatible or weak existing-profile comparisons; later residence, spouse or death elsewhere is not by itself an exclusion of a possible migrant. No Mary Black/Glasgow match is established in the bounded local historical catalogue check. Both accounts remain on identity hold before any new WikiTree profile creation. Record dates are not birth dates.\n\nResolve John against the retained profile candidates using Jane, his watchmaking trade and the exact Prescott household. Compare the six Black children’s Irish and North American records for an identification of Mary and her husband. A contemporary source naming a parent remains the decisive question for Alexander; the later accounts cannot be counted twice.<ref name=\"PrescottSiblingReview18Oct2026\">[https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWY9-S Robert Glasgow’s will, B12, 9 October 1849, registered 13 November 1856; volume B, pp. 9–10, images 35–36]; [https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWYM-6 John and Jane Glasgow to Samuel, B13, 30 October 1856, registered 13 November 1856; volume B, pp. 10–11, image 36]; [https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LQTY-K Mary Black’s children to Mary Eno Glasgow, C298, 15 September 1869, registered 1 July 1870; volume C, pp. 477–482, images 277–280]. The relationship clauses were reread 18 October 2026; later C298 execution details reuse the original inspection of 13 September 2026.</ref>\n",
+      "public_addition_path": "research/Glasgow-3904/prescott-siblings-amendment-2026-10-18.wiki"
+    },
+    "Glasgow-4150": {
+      "significance": 96,
+      "summary": "Add the two sourced Prescott sibling accounts, John watchmaker 98% and Mary Black 99%; retain the existing Alexander father hypothesis at 27% and all earlier pending work.",
+      "work_queue_summary": "Add the two sourced Prescott sibling accounts, John watchmaker 98% and Mary Black 99%; retain the existing Alexander father hypothesis at 27% and all earlier pending work.",
+      "draft_path": "research/Glasgow-4150/Glasgow-4150.md",
+      "preserve_captured_detail": false,
+      "application_review": {
+        "reviewed_on": "2026-09-30",
+        "status": "prepared_for_managed_review",
+        "assessment": "Full current biography compared passage by passage with the reconciled draft: facts, named relatives, quotations, citations, search scope and uncertainty accounted for. Supported corrections are recorded in the preservation audit. Proposed edits remain unsaved.",
+        "capture_matches": true,
+        "sources_preserved": true,
+        "live_saved": false,
+        "all_substantive_passages_accounted_for": true,
+        "preservation_audit_path": "research/profile-preservation-audit-2026-09-30/audit.md"
+      },
+      "reviewed_narrative_reduction": true,
+      "complete_captured_biography_reconciled": true,
+      "biography_rechecked_at": "2026-10-18",
+      "status": "OPEN",
+      "preservation_review_path": "research/ancestry-connections/prescott-siblings-preservation-2026-10-18.json",
+      "profile_id": "Glasgow-4150",
+      "queued_at": "2026-10-18",
+      "pending": true,
+      "manual_update": true,
+      "findings_path": "research/Glasgow-4150/findings.md",
+      "relationship_changes": [
+        {
+          "action": "add",
+          "relationship": "father",
+          "relative_id": "Glasgow-3904",
+          "status": "uncertain",
+          "assertion_id": "C-prescott-father-hypothesis-glasgow-4150",
+          "scope": "Previously selected father hypothesis remains pending: fresh public capture still has no father. Metadata reconciliation only; confidence unchanged at 27%, not a newly discovered father."
+        },
+        {
+          "action": "add",
+          "relationship": "sibling",
+          "relative_id": "record-john-prescott-watchmaker",
+          "status": "strongly_supported",
+          "assertion_id": "C-role-20261018-prescott-john-robert",
+          "scope": "Cited narrative family addition; record account remains on identity hold, not a ready live family-field attachment."
+        },
+        {
+          "action": "add",
+          "relationship": "sibling",
+          "relative_id": "record-mary-glasgow-black",
+          "status": "proved",
+          "assertion_id": "C-role-20261018-prescott-mary-robert",
+          "scope": "Cited narrative family addition; record account remains on identity hold, not a ready live family-field attachment."
+        }
+      ],
+      "remote_wikitext": "{{Estimated Date}}\n[[Category:Glasgow Name Study]]\n\n== Biography ==\n\n'''Robert Glasgow''' was an early shipbuilder at Prescott, Upper Canada, later Canada West. Prescott heritage material identifies him as the builder of the Centre Street house now known as Glasgow House.<ref name=\"PrescottHeritage\">Town of Prescott, [https://www.prescott.ca/media/3dtiztjk/council-agenda-june-16-2025.pdf ''Council Agenda, 16 June 2025''], heritage-designation material for 388 Centre Street, “Glasgow House.”</ref> A later property history dates the building to about 1835.<ref name=\"Recorder\">Theresa Taylor, [https://www.theresataylor.com/wp-content/uploads/2017/06/Auction-all-for-others-Brockville-Recorder.pdf “Auction all for others,”] ''Brockville Recorder & Times'', 22 February 2017.</ref>\n\nRobert made his will on 9 October 1849. The registered copy divides his estate into six shares: one each for his brothers Daniel, [[Glasgow-4010|Samuel]], John and Thomas Glasgow, one collectively for the children of his brother James, and one for his sister Mary Glasgow.<ref name=\"Will1849\">FamilySearch, ''Land records of Grenville County, 1822–1955'', film 008200419, image 35, registered copy of the will of Robert Glasgow of Prescott, dated October 1849 and registered in 1856, [https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWY9-S image 3Q9M-CSLG-LWY9-S]; original image inspected 8 September 2026.</ref>\n\nThe explicit sibling language makes Samuel Robert's brother, not his son. The later statement that Robert left the house to six “children” and that a son Samuel acquired the other shares appears to have misread the six-share title chain.<ref name=\"Will1849\" /><ref name=\"Recorder\" />\n\nLocal history reports that Robert died at Prescott in 1856.<ref name=\"Recorder\" /> The 1856 date is compatible with an 1849 will: 1849 is the date on which the will was made, while 1856 is the reported death and registration period.\n\n== Research Notes ==\n\n=== The 1842 census lead ===\n\nA modern index reports a Robert Glasgow in Augusta in the 1842 Canada West census. The image formerly cited for that claim, frame <code>004569584_00050</code>, was inspected at full resolution and contains no readable Robert Glasgow entry.<ref>Library and Archives Canada, [https://central.bac-lac.gc.ca/.item/?app=Census1842&op=img&id=004569584_00050 1842 Census of Canada West, image 004569584_00050], inspected 13 August 2026.</ref> It is not used here as evidence for Robert's identity.\n\n=== Family interpretation ===\n\nThe will's named beneficiaries are Robert's siblings and the children of one brother. It does not name Robert's parents, spouse or children. The 30 July 1861 conveyance, B465, identifies the will’s Daniel as the Kilrea watchmaker and Thomas as the Lisnagaver farmer, with wives Margaret and Mary Anne. This establishes the Irish sibling identities when read with the will; it does not name their parents or identify Alexander of Lisnagaver as another brother.<ref>[https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWB8-D Prescott land register, volume B, memorial 465, pp.397–398, DGS 008200419, images 240–241].</ref>\n\nThe 1861 deed identifies the brothers as [[Glasgow-3896|Daniel of Kilrea]] and [[Glasgow-987|Thomas of Lisnagaver]]. The original 15 September 1869 deed, C298, identifies the sister as Mary Black, formerly Glasgow, and names six children, including John and Rose Ann Black of Drumoolish.<ref>[https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LQTY-K Prescott land register, volume C, memorial 298, pp.476–482, DGS 008200420, images 277–280].</ref> John of Prescott, watchmaker, remains an unassigned profile identity. James the Prescott carpenter is a property-based comparison for brother James, but their identity is not yet proved; the will does not say James was deceased.\n\nRobert's actual birthplace is unknown. His birth is estimated only far enough before about 1835 for him to have worked as a shipbuilder and built the house. His brother Samuel was recorded as Irish-born in the original 1851 Prescott census.<ref>Library and Archives Canada, [https://central.bac-lac.gc.ca/.item/?app=Census1851&op=img&id=e002351566 1851 Census of Canada West, Prescott, page 31, lines 11–18, image e002351566], Samuel Glasgow household.</ref> Ireland is therefore a usable uncertain creation-field location from Robert's documented immediate-family context; it is not a statement that Robert's birthplace has been found. Prescott should be entered as an uncertain death place from the local history, not as a birthplace.\n\n=== Duplicate audit ===\n\nThe local One Tree export, current project index and live WikiTree name results were reviewed in August and September 2026. No compatible Prescott shipbuilder profile was found. [[Glasgow-1367|Robert Glasgow of Glenleslie]], [[Glasgow-1171|Robert Glasgow of New York]], [[Glasgow-1983|Robert Glasgow of South Carolina]], [[Glasgow-1189|Robert Glasgow of Ohio]] and [[Glasgow-2769|Robert Glasgow of Tennessee]] have incompatible documented lives. Create Robert unconnected; the sibling link to Samuel can be expressed in the biographies until their parents are identified.\n\n== Sources ==\n\n<references />"
     }
   },
   "reviewed_on": "2026-10-17",
@@ -7770,6 +7868,219 @@
           "evidence": "Documented sibling and executrix roles; candidate profile identity unresolved.",
           "record_precision": "Recorded residence",
           "location_basis": "Bessie explicitly described in Quodquen; not birth or death place."
+        }
+      ]
+    },
+    {
+      "subject_id": "john-prescott-watchmaker",
+      "catalogue_id": "record-john-prescott-watchmaker",
+      "name": "John Glasgow/Glasco, Prescott watchmaker",
+      "source_subject_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWYM-6",
+      "research_subject_url": "/people/record-john-prescott-watchmaker.html",
+      "draft_path": "surname-research/new-people/1849_Canada_Prescott_John_Glasgow_watchmaker.md",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\nReviewed: 2026-10-18. The documents establish a John Glasgow/Glasco of Prescott, watchmaker, as the brother-beneficiary named in Robert Glasgow's will and the grantor in B13. His identification with any existing John Glasgow profile is unresolved. Retain all six checked comparisons; none is selected or excluded by migration alone.\n\n== Profile fields and identity hold ==\n\n* First name: John; last name at birth: Glasgow (record spelling varies Glasgow/Glasco); male.\n* Birth and death: unknown. The first known dated appearance is the will of 9 October 1849; this is not a birth-year estimate. Alive and conveying land on 30 October 1856.\n* Birthplace and death place: unknown. Recorded residence: Prescott, Canada West (now Ontario), in 1856. Occupation in B13: watchmaker.\n* Wife: Jane, releasing dower in B13; surname and further identity unknown.\n* Brother: [[Glasgow-4150|Robert Glasgow of Prescott]], identified by the will and matched deed share.\n\n=== Biography ==\n\n'''John Glasgow''', also recorded as John Glasco, was a brother of [[Glasgow-4150|Robert Glasgow of Prescott]], Canada West. Robert's will, dated 9 October 1849, gives one sixth of his estate to his brother John. The same will names brothers Daniel, Samuel and Thomas, sister Mary, and the children of brother James as beneficiaries.<ref name=\"will\">Robert Glasgow of Prescott, will dated 9 October 1849, registered 13 November 1856, Prescott land registry, volume B, instrument B12, printed pp. 9–10, images 35–36; [https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWY9-S FamilySearch image 35], [https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWYM-6 image 36]. The original clauses and date line were visually inspected 18 October 2026.</ref>\n\nOn 30 October 1856, John Glasgow/Glasco of Prescott, described as a watchmaker, and his wife Jane conveyed their one-sixth interest to Samuel Glasgow, Prescott merchant, for £125. Jane released her dower interest. The conveyance covers Town Lot 12 on the south side of Dibble Street and part of Lot 11, a 3,400-square-foot strip. The deed was registered 13 November 1856.<ref name=\"b13\">Indenture B13, dated 30 October 1856, registered 13 November 1856, Prescott land registry, volume B, printed pp. 10–11, image 36; [https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWYM-6 FamilySearch image 36]. Original instrument visually inspected 18 October 2026.</ref>\n\nThe records establish his Prescott residence and watchmaking occupation by 1856. They do not establish his birth date or place, death, parents, or Jane's surname.\n\n== Research Notes ==\n\nThe identification of the will's brother-beneficiary with B13's grantor is '''strongly supported (98% subjective confidence)''': the deed transfers exactly the one-sixth share allocated to John in the will, in the same Prescott property, seven years later. The will's registration request was witnessed by Alexander Glasgow; his role was witness, not beneficiary.<ref name=\"will\" /><ref name=\"b13\" />\n\n[[Glasgow-3904|Alexander Glasgow-3904]] is the same tentative father hypothesis used for the related Prescott brothers Thomas, Daniel, Samuel and Robert. Extending that existing hypothesis to John is assessed at '''27%''', uncertain. It is not independent support for Alexander's paternity and must not raise the existing estimate. No mother is inferred. The will names no parents.\n\nNo existing John profile is selected. All six comparisons above remain open because an earlier or later residence elsewhere does not establish incompatible identity for a possible migrant. Further linking evidence could come from Canadian vital, religious, occupational or property records connecting a candidate's spouse/household to Jane and the Prescott share.\n\nThe 2007 online discussion supplies the derivative tradition naming Alexander and Rosanna as Thomas Glasgow’s parents, not a newly inspected record; it is retained as context only and does not establish this identity.<ref>“Glasgow Family,” Genes Reunited discussion board, 2007, https://www.genesreunited.co.uk/boards/board/general_topics/thread/465937 (prior review reused; not freshly inspected for this draft).</ref>\n\n== Sources ==\n\n<references />",
+      "assessment": "John Glasgow, Prescott watchmaker with wife Jane in deed B13, is selected as Robert Glasgow-4150’s brother at 98% subjective confidence. Robert’s 1849 will gives brother John one sixth. John and Jane’s 1856 deed transfers an undivided one sixth of the same Dibble Street lots to Samuel, who is another will-named brother. The exact locality, buyer, parcels and fraction identify the grantor strongly; B13 does not itself expressly call John Robert’s brother. John’s birth, death and parents are not named, and his identity with an existing John profile is unresolved. Extend the existing Alexander Glasgow-3904 father hypothesis to John and Mary at 27%, uncertain, conditional on their documented membership in the Prescott sibling family. Thomas-987 and Daniel-3896 already carry this father, and Samuel-4010 and Robert-4150 already have the same selected uncertain hypothesis. Its basis remains the single late descendant tradition naming Alexander as Thomas’s father, with compatible generation and sibling inference. The original will and deeds name no parent. These two extensions supply no independent parent testimony and do not raise the existing estimate; no mother is selected. These are two previously unstructured record accounts recovered from evidence already researched in September, not two newly discovered sources or two proven additional distinct people. John retains six unselected compatible or weak existing-profile comparisons; later residence, spouse or death elsewhere is not by itself an exclusion of a possible migrant. No Mary Black/Glasgow match is established in the bounded local historical catalogue check. Both accounts remain on identity hold before any new WikiTree profile creation. Record dates are not birth dates. [Prescott family comparison](/branches/lisnagaver-rasharkin/#chapter-prescott-john-mary-siblings).",
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-10-18",
+      "first_names": [
+        "John"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "Male",
+      "birth": "",
+      "birth_note": "Unknown; earliest dated record is not a birth estimate.",
+      "death": "",
+      "birth_location": "",
+      "birth_location_note": "Unknown. Record locations are not established birthplaces.",
+      "death_location": "",
+      "historical_basis": {
+        "status": "identity_hold",
+        "source_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWYM-6",
+        "note": "Named sibling in the 1849 will establishes existence by 1849. This is an upper bound for historical eligibility, not a birth estimate; birth and death fields stay unknown. Existing-profile identity remains on hold.",
+        "latest_birth_year": 1849
+      },
+      "candidates": [
+        {
+          "profile_id": "Glasgow-1968",
+          "name": "John Glasgow",
+          "url": "https://www.wikitree.com/wiki/Glasgow-1968",
+          "status": "compatible_candidate",
+          "reason": "Jane Unknown; Cookstown, c.1778; no established Prescott link. Retained unselected; migration is not excluded."
+        },
+        {
+          "profile_id": "Glasgow-3051",
+          "name": "John Glasgow",
+          "url": "https://www.wikitree.com/wiki/Glasgow-3051",
+          "status": "compatible_candidate",
+          "reason": "Janet Gemmill; Kilmarnock, 1791; alternate marriage not ruled out. Retained unselected; migration is not excluded."
+        },
+        {
+          "profile_id": "Glasgow-2537",
+          "name": "John Glasgow",
+          "url": "https://www.wikitree.com/wiki/Glasgow-2537",
+          "status": "compatible_candidate",
+          "reason": "Mary Jane Jordan; Gortin c.1815, later Cookstown; migration not excluded. Retained unselected; migration is not excluded."
+        },
+        {
+          "profile_id": "Glasgow-1699",
+          "name": "John Glasgow",
+          "url": "https://www.wikitree.com/wiki/Glasgow-1699",
+          "status": "compatible_candidate",
+          "reason": "Ann Jane Ferguson; Ireland c.1824, later Cookstown; migration not excluded. Retained unselected; migration is not excluded."
+        },
+        {
+          "profile_id": "Glasgow-2604",
+          "name": "John Glasgow",
+          "url": "https://www.wikitree.com/wiki/Glasgow-2604",
+          "status": "compatible_candidate",
+          "reason": "Janet McIvor; Manchester c.1827, later New Zealand; migration not excluded. Retained unselected; migration is not excluded."
+        },
+        {
+          "profile_id": "Glasgow-1186",
+          "name": "John Glasgow",
+          "url": "https://www.wikitree.com/wiki/Glasgow-1186",
+          "status": "compatible_candidate",
+          "reason": "Janet Peffers; Athelstaneford 1827, later Pencaitland; migration not excluded. Retained unselected; migration is not excluded."
+        }
+      ],
+      "records": [
+        {
+          "year": "1849-10-09",
+          "filter_year": 1849,
+          "family_group": "Lisnagaver–Prescott siblings",
+          "region": "Ontario, Canada",
+          "record_location": "Prescott, Canada West",
+          "association": "Brother John receives one sixth in Robert’s will.",
+          "note": "John Glasgow, Prescott watchmaker with wife Jane in deed B13, is selected as Robert Glasgow-4150’s brother at 98% subjective confidence. Robert’s 1849 will gives brother John one sixth. John and Jane’s 1856 deed transfers an undivided one sixth of the same Dibble Street lots to Samuel, who is another will-named brother. The exact locality, buyer, parcels and fraction identify the grantor strongly; B13 does not itself expressly call John Robert’s brother. John’s birth, death and parents are not named, and his identity with an existing John profile is unresolved.",
+          "source_title": "Robert Glasgow’s will, B12, 9 October 1849, registered 13 November 1856; volume B, pp. 9–10, images 35–36",
+          "source_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWY9-S",
+          "source_type": "Original registered will",
+          "source_status": "Family clause visually reread 18 October 2026; original review September 2026.",
+          "record_precision": "Named sibling; no birth date or parents",
+          "location_basis": "Testator and property location; not subject’s birthplace or presumed residence."
+        },
+        {
+          "year": "1856-10-30",
+          "filter_year": 1856,
+          "family_group": "Prescott Glasgow siblings and shares, 1849–1870",
+          "region": "Canada West (Ontario); Ireland and North America",
+          "record_location": "Prescott, Canada West (Ontario)",
+          "association": "John Glasgow/Glasco of Prescott, watchmaker; brother-beneficiary in Robert Glasgow will dated 9 October 1849 and grantor with wife Jane in B13 dated 30 October 1856.",
+          "note": "B13 conveys the one-sixth share allocated to John, brother of Robert, in B12. The record-defined relationship is strongly supported at 98%. John is a Prescott watchmaker; wife Jane joins and releases dower. No profile identity is selected. Six local candidate profiles are retained as unselected comparisons; migration is not an exclusion.",
+          "source_title": "Prescott land registry, volume B, instrument B13, 30 October 1856, registered 13 November 1856, pp. 10–11, image 36",
+          "source_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWYM-6",
+          "source_type": "Original land instrument",
+          "source_status": "Original instrument visually inspected 18 October 2026; see paired will B12 image 35–36.",
+          "evidence": "B13 conveys the one-sixth share allocated to John, brother of Robert, in B12. The record-defined relationship is strongly supported at 98%. John is a Prescott watchmaker; wife Jane joins and releases dower. No profile identity is selected. Six local candidate profiles are retained as unselected comparisons; migration is not an exclusion.",
+          "record_precision": "Named relationship and property conveyance",
+          "location_basis": "Place of record/property and named child residences; not birth or death locations."
+        }
+      ],
+      "relationship_changes": [
+        {
+          "action": "add",
+          "relationship": "father",
+          "relative_id": "Glasgow-3904",
+          "status": "uncertain",
+          "assertion_id": "C-working-20261018-prescott-john-father",
+          "scope": "Selected family hypothesis 27%; identity hold, not a confident new father."
+        },
+        {
+          "action": "add",
+          "relationship": "sibling",
+          "relative_id": "Glasgow-4150",
+          "status": "strongly_supported",
+          "assertion_id": "C-role-20261018-prescott-john-robert",
+          "scope": "Record-defined brother/sister; existing-profile identity remains unresolved."
+        }
+      ]
+    },
+    {
+      "subject_id": "mary-glasgow-black",
+      "catalogue_id": "record-mary-glasgow-black",
+      "name": "Mary Black, formerly Glasgow, sister of Robert of Prescott",
+      "source_subject_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LQTY-K",
+      "research_subject_url": "/people/record-mary-glasgow-black.html",
+      "draft_path": "surname-research/new-people/1849_Ireland_Mary_Glasgow_Black.md",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\nReviewed: 2026-10-18. Robert Glasgow's will names his sister Mary as a beneficiary; deed C298 identifies Mary Black, formerly Mary Glasgow, as Robert's sister and identifies her six children. The identity among existing profiles is unresolved. Do not invent a forename for her husband or treat “Mr Black” as a separate structured person.\n\n== Profile fields and identity hold ==\n\n* First name: Mary; last name at birth: Glasgow; married name Black; female.\n* Birth and death: unknown. First dated record in this account: Robert's will, 9 October 1849. No death for Mary is established; she was represented through her children in C298, dated 15 September 1869.\n* Birthplace and death place: unknown. Places associated with her children in C298 include Drumoolish, County Londonderry; Newburgh, Orange County, New York; and Legrand, Marshall County, Iowa. These are not Mary's own residence or birthplaces.\n* Spouse: a Black, forename unknown. The record does not name him as a grantor or establish his identity.\n* Brother: [[Glasgow-4150|Robert Glasgow of Prescott]], expressly identified by the will and C298.\n\n== Existing-profile comparison ==\n\nNo established Mary Black, formerly Glasgow, match was found in the local historical catalogue. The bounded review found only an unrelated false positive, Anna Mary (Stever) Glasgow, whose spouse was Samuel Black Glasgow. This was a local catalogue check, not an exhaustive worldwide search. No candidate is selected or definitively excluded.\n\n== Biography ==\n\n'''Mary Glasgow''' was the sister of [[Glasgow-4150|Robert Glasgow of Prescott]], Canada West. In his will dated 9 October 1849, Robert gives one sixth of his estate to his sister Mary and a separate one sixth collectively to the children of his brother James.<ref name=\"will\">Robert Glasgow of Prescott, will dated 9 October 1849, registered 13 November 1856, Prescott land registry, volume B, instrument B12, printed pp. 9–10, images 35–36; [https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWY9-S FamilySearch image 35], [https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWYM-6 image 36]. Original clauses and date line visually inspected 18 October 2026.</ref>\n\nA deed dated 15 September 1869 identifies her as “Mary Black, formerly Mary Glasgow,” sister of the late Robert Glasgow of Prescott. Registered on 1 July 1870, C298 conveys the shares of her six children to Mary Eno Glasgow, widow of Samuel Glasgow of Prescott, for $800. The deed expressly traces the children's interests to Robert's will: each had one sixth of Mary's one-sixth share. The property was Town Lot 12 and part of Lot 11 on the south side of Dibble Street in Prescott.<ref name=\"c298\">Grant and quitclaim C298, dated 15 September 1869, registered 1 July 1870, Prescott land registry, volume C, pp. 477–482, images 277–280; [https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LQTY-K FamilySearch image 277], [https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LQT5-R image 278], [https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LQTP-M image 279], [https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LQT2-C image 280]. The relationship clause on printed p. 477 was visually reread 18 October 2026; later execution details reuse the maintained original inspection of 13 September 2026.</ref>\n\nThe six children named in C298 are:\n\n* John Black, yeoman of Drumoolish, County Londonderry, Ireland; his wife Martha Black also joined the conveyance to release dower.\n* Rose Ann Black, spinster of Drumoolish.\n* Jane Miller of Newburgh, Orange County, New York; her husband Robert Miller, yeoman, joined.\n* Agnes Black, spinster of Newburgh.\n* Thomasina Montgomery of Legrand, Marshall County, Iowa; her husband Mathew Montgomery, yeoman, joined.\n* Elizabeth Black, formerly of Newburgh, spinster, deceased unmarried and intestate. The deed calls the five living children her lawful brother, sisters and heirs. They conveyed her inherited share along with their own.\n\nThe deed records execution in stages: John, Rose Ann and Martha at Coleraine on 27 November 1869; Jane Miller and Thomasina Montgomery at Newburgh on 29 April 1870; and Agnes's separate attestation at Coleraine, sworn 4 June 1870. These are execution places and dates, not Mary's residence. Rose Ann signed by mark in the registered copy.<ref name=\"c298\" />\n\nNo source cited here establishes Mary's birth or death, her husband's forename, or the identity of her parents beyond the documented sibling relationship to Robert.\n\n== Research Notes ==\n\nMary's relationship as sister of Robert is '''proved (99%)''' by the direct statement in C298; Robert's 1849 will independently names a sister Mary, and C298 also traces the children's six shares to that will. The documents establish one consistent record-defined relationship, not a proven match to any existing Mary Glasgow profile.<ref name=\"will\" /><ref name=\"c298\" />\n\n[[Glasgow-3904|Alexander Glasgow-3904]] is the tentative father hypothesis already applied to the related Prescott brothers Thomas, Daniel, Samuel and Robert. Extending that same hypothesis to their documented sister Mary is assessed at '''27%''', uncertain. This adds no independent support for the father's identity and does not change the existing estimate. Her mother remains unknown; the records do not name either parent.\n\nThe local historical catalogue check did not identify an established Mary Black/Glasgow profile. It was not a comprehensive search of all WikiTree profiles or records. Further work could compare Irish and North American records for the named children, while keeping each child's stated residence distinct from Mary's unknown residence.\n\nThe 2007 online discussion supplies the derivative tradition naming Alexander and Rosanna as Thomas Glasgow’s parents, not a newly inspected original; it is retained only as context and does not establish Mary's identity.<ref>“Glasgow Family,” Genes Reunited discussion board, 2007, https://www.genesreunited.co.uk/boards/board/general_topics/thread/465937 (prior review reused; not freshly inspected for this draft).</ref>\n\n== Sources ==\n\n<references />",
+      "assessment": "Mary Black, formerly Mary Glasgow, is Robert’s sister at 99% subjective confidence: C298 expressly states that relationship and traces her six children’s interests to Robert’s will, which names his sister Mary. Her children were John Black and Rose Ann Black of Drumoolish, Jane Miller and Agnes Black of Newburgh, Thomasina Montgomery of Legrand, Iowa, and Elizabeth Black, formerly of Newburgh. John’s wife Martha, Jane’s husband Robert Miller and Thomasina’s husband Mathew Montgomery also joined. Elizabeth, not Mary, is expressly deceased unmarried and intestate; her five siblings convey her share as heirs. Mary’s own birth, death, residence and husband’s forename remain unknown. Extend the existing Alexander Glasgow-3904 father hypothesis to John and Mary at 27%, uncertain, conditional on their documented membership in the Prescott sibling family. Thomas-987 and Daniel-3896 already carry this father, and Samuel-4010 and Robert-4150 already have the same selected uncertain hypothesis. Its basis remains the single late descendant tradition naming Alexander as Thomas’s father, with compatible generation and sibling inference. The original will and deeds name no parent. These two extensions supply no independent parent testimony and do not raise the existing estimate; no mother is selected. These are two previously unstructured record accounts recovered from evidence already researched in September, not two newly discovered sources or two proven additional distinct people. John retains six unselected compatible or weak existing-profile comparisons; later residence, spouse or death elsewhere is not by itself an exclusion of a possible migrant. No Mary Black/Glasgow match is established in the bounded local historical catalogue check. Both accounts remain on identity hold before any new WikiTree profile creation. Record dates are not birth dates. [Prescott family comparison](/branches/lisnagaver-rasharkin/#chapter-prescott-john-mary-siblings).",
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-10-18",
+      "first_names": [
+        "Mary"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [
+        "Black"
+      ],
+      "gender": "Female",
+      "birth": "",
+      "birth_note": "Unknown; earliest dated record is not a birth estimate.",
+      "death": "",
+      "birth_location": "",
+      "birth_location_note": "Unknown. Record locations are not established birthplaces.",
+      "death_location": "",
+      "historical_basis": {
+        "status": "identity_hold",
+        "source_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LQTY-K",
+        "note": "Named sibling in the 1849 will establishes existence by 1849. This is an upper bound for historical eligibility, not a birth estimate; birth and death fields stay unknown. Existing-profile identity remains on hold.",
+        "latest_birth_year": 1849
+      },
+      "candidates": [],
+      "records": [
+        {
+          "year": "1849-10-09",
+          "filter_year": 1849,
+          "family_group": "Lisnagaver–Prescott siblings",
+          "region": "Ontario, Canada",
+          "record_location": "Prescott, Canada West",
+          "association": "Sister Mary receives one sixth in Robert’s will, separately from the James children’s sixth.",
+          "note": "Mary Black, formerly Mary Glasgow, is Robert’s sister at 99% subjective confidence: C298 expressly states that relationship and traces her six children’s interests to Robert’s will, which names his sister Mary. Her children were John Black and Rose Ann Black of Drumoolish, Jane Miller and Agnes Black of Newburgh, Thomasina Montgomery of Legrand, Iowa, and Elizabeth Black, formerly of Newburgh. John’s wife Martha, Jane’s husband Robert Miller and Thomasina’s husband Mathew Montgomery also joined. Elizabeth, not Mary, is expressly deceased unmarried and intestate; her five siblings convey her share as heirs. Mary’s own birth, death, residence and husband’s forename remain unknown.",
+          "source_title": "Robert Glasgow’s will, B12, 9 October 1849, registered 13 November 1856; volume B, pp. 9–10, images 35–36",
+          "source_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWY9-S",
+          "source_type": "Original registered will",
+          "source_status": "Family clause visually reread 18 October 2026; original review September 2026.",
+          "record_precision": "Named sibling; no birth date or parents",
+          "location_basis": "Testator and property location; not subject’s birthplace or presumed residence."
+        },
+        {
+          "year": "1869-09-15",
+          "filter_year": 1869,
+          "family_group": "Prescott Glasgow siblings and shares, 1849–1870",
+          "region": "Canada West (Ontario); Ireland and North America",
+          "record_location": "Prescott, Canada West (Ontario); children recorded in Ireland, New York and Iowa",
+          "association": "Mary Black, formerly Mary Glasgow, expressly called sister of the late Robert Glasgow of Prescott in C298; six children convey her share derived from his will.",
+          "note": "C298 calls Mary Black formerly Mary Glasgow, sister of Robert Glasgow, and identifies John, Rose Ann, Jane Miller, Agnes, Thomasina Montgomery and Elizabeth. Five living children transfer Elizabeth’s inherited share. The deed traces their interests to Robert’s will. Mary’s own residence, death and husband’s forename are not established.",
+          "source_title": "Prescott land registry, volume C, instrument C298, 15 September 1869, registered 1 July 1870, pp. 477–482, images 277–280",
+          "source_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LQTY-K",
+          "source_type": "Original land instrument",
+          "source_status": "Relationship clause visually reread 18 October 2026; execution details reused from original inspection 13 September 2026.",
+          "evidence": "C298 calls Mary Black formerly Mary Glasgow, sister of Robert Glasgow, and identifies John, Rose Ann, Jane Miller, Agnes, Thomasina Montgomery and Elizabeth. Five living children transfer Elizabeth’s inherited share. The deed traces their interests to Robert’s will. Mary’s own residence, death and husband’s forename are not established.",
+          "record_precision": "Named relationship and property conveyance",
+          "location_basis": "Place of record/property and named child residences; not birth or death locations."
+        }
+      ],
+      "relationship_changes": [
+        {
+          "action": "add",
+          "relationship": "father",
+          "relative_id": "Glasgow-3904",
+          "status": "uncertain",
+          "assertion_id": "C-working-20261018-prescott-mary-father",
+          "scope": "Selected family hypothesis 27%; identity hold, not a confident new father."
+        },
+        {
+          "action": "add",
+          "relationship": "sibling",
+          "relative_id": "Glasgow-4150",
+          "status": "proved",
+          "assertion_id": "C-role-20261018-prescott-mary-robert",
+          "scope": "Record-defined brother/sister; existing-profile identity remains unresolved."
         }
       ]
     }

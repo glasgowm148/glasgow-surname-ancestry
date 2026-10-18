@@ -1,6 +1,10 @@
 # Findings: Robert Glasgow (Glasgow-4150)
 
-Last updated: 2026-10-07
+Last updated: 2026-10-18
+
+## Current conclusion
+
+Reviewed: 2026-10-18. Robert’s brother John, the Prescott watchmaker with wife Jane, is strongly supported at 98%; his sister Mary Black, formerly Glasgow, is proved at 99%. Their [John](/people/record-john-prescott-watchmaker.html) and [Mary](/people/record-mary-glasgow-black.html) record accounts now carry these relationships in the local family view while their existing-profile identities remain on hold. Alexander Glasgow-3904 remains the selected uncertain father at 27%; the original will and deeds do not name a parent. This extends the existing family hypothesis without a confidence upgrade. [Full sibling evidence and alternatives](/branches/lisnagaver-rasharkin/#chapter-prescott-john-mary-siblings).
 
 ## Source findings
 
@@ -39,3 +43,24 @@ Robert's [will of 9 October 1849](https://www.familysearch.org/ark:/61903/3:1:3Q
 Prescott deeds name **James Glasco, formerly of Prescott, carpenter**, as father of Eliza Jane ([B395, 23 November 1860](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWR4-5)), Mary ([B601, 27 June 1863](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWBS-7)) and Alexander, express agent of Rochester ([C114, 25 March 1868](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LQRC-Y)), each conveying an interest in the same Centre Street property to Samuel or his widow. That the carpenter is Robert's brother James is **probable** on this property evidence, not proved: no deed states the kinship or derives the interest from the will, and the daughters' one-ninth and the son's one-eighteenth interests do not reconcile simply with a single one-sixth share. Full deed table: `research/Glasgow-951/findings.md`.
 
 Recorded in `research/latest-findings-subjects/prescott-rochester-james-family/james-glasgow.md` (30 September 2026), with deed details from `research/Glasgow-951/findings.md`; carried into this file on 7 October 2026.
+
+
+## Prescott siblings structured — 18 October 2026
+
+John Glasgow, Prescott watchmaker with wife Jane in deed B13, is selected as Robert Glasgow-4150’s brother at 98% subjective confidence. Robert’s 1849 will gives brother John one sixth. John and Jane’s 1856 deed transfers an undivided one sixth of the same Dibble Street lots to Samuel, who is another will-named brother. The exact locality, buyer, parcels and fraction identify the grantor strongly; B13 does not itself expressly call John Robert’s brother. John’s birth, death and parents are not named, and his identity with an existing John profile is unresolved.
+
+Mary Black, formerly Mary Glasgow, is Robert’s sister at 99% subjective confidence: C298 expressly states that relationship and traces her six children’s interests to Robert’s will, which names his sister Mary. Her children were John Black and Rose Ann Black of Drumoolish, Jane Miller and Agnes Black of Newburgh, Thomasina Montgomery of Legrand, Iowa, and Elizabeth Black, formerly of Newburgh. John’s wife Martha, Jane’s husband Robert Miller and Thomasina’s husband Mathew Montgomery also joined. Elizabeth, not Mary, is expressly deceased unmarried and intestate; her five siblings convey her share as heirs. Mary’s own birth, death, residence and husband’s forename remain unknown.
+
+Extend the existing Alexander Glasgow-3904 father hypothesis to John and Mary at 27%, uncertain, conditional on their documented membership in the Prescott sibling family. Thomas-987 and Daniel-3896 already carry this father, and Samuel-4010 and Robert-4150 already have the same selected uncertain hypothesis. Its basis remains the single late descendant tradition naming Alexander as Thomas’s father, with compatible generation and sibling inference. The original will and deeds name no parent. These two extensions supply no independent parent testimony and do not raise the existing estimate; no mother is selected.
+
+These are two previously unstructured record accounts recovered from evidence already researched in September, not two newly discovered sources or two proven additional distinct people. John retains six unselected compatible or weak existing-profile comparisons; later residence, spouse or death elsewhere is not by itself an exclusion of a possible migrant. No Mary Black/Glasgow match is established in the bounded local historical catalogue check. Both accounts remain on identity hold before any new WikiTree profile creation. Record dates are not birth dates.
+
+Two strong sibling relationships enter the structured catalogue and family views: John–Robert 98% and Mary–Robert 99%. Two tentative father extensions to record accounts are 27%; no new confident father is established. The fixed and current historical-profile cohorts are unchanged: record-only identity accounts are not counted as newly distinct profiles or an improvement in paternal connectivity. Existing Robert–Alexander confidence and the earlier Larne reconstruction are unchanged.
+
+Resolve John against the retained profile candidates using Jane, his watchmaking trade and the exact Prescott household. Compare the six Black children’s Irish and North American records for an identification of Mary and her husband. A contemporary source naming a parent remains the decisive question for Alexander; the later accounts cannot be counted twice.
+
+- [Robert Glasgow’s will, B12, 9 October 1849, registered 13 November 1856; volume B, pp. 9–10, images 35–36](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWY9-S)
+- [John and Jane Glasgow to Samuel, B13, 30 October 1856, registered 13 November 1856; volume B, pp. 10–11, image 36](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWYM-6)
+- [Mary Black’s children to Mary Eno Glasgow, C298, 15 September 1869, registered 1 July 1870; volume C, pp. 477–482, images 277–280](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LQTY-K)
+
+[John’s record account](/people/record-john-prescott-watchmaker.html) · [Mary’s record account](/people/record-mary-glasgow-black.html) · [Family comparison](/branches/lisnagaver-rasharkin/#chapter-prescott-john-mary-siblings).

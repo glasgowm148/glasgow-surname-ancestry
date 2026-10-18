@@ -1,0 +1,167 @@
+{
+  "reviewed": "2026-10-18",
+  "scope": "Broader data-dependent legacy suite; 84 tests, seven failures. Focused integration tests and publication gates recorded separately. These failures are retained, not silently treated as passes.",
+  "baseline_archive": "dist/glasgow-site-20261018-051430.tar.gz",
+  "baseline_archive_values": {
+    "people_index_bytes": 7833101,
+    "indexed_records": 4876,
+    "health_records": 4877
+  },
+  "before_profile_work_statuses": {
+    "linked_existing": 4783,
+    "creation_ready": 79,
+    "free_space_only": 4,
+    "linked_free_space": 6,
+    "unreviewed": 1,
+    "existing_profile_candidate": 1,
+    "existing_profile": 13,
+    "identity_hold": 3
+  },
+  "before_people_search_disagreements": [
+    {
+      "id": "glasgow-3178",
+      "field": "birth",
+      "people_value": "c. 1610 (estimated)",
+      "search_value": "Unknown; married by 1601 (probable)"
+    },
+    {
+      "id": "glasgow-3178",
+      "field": "death",
+      "people_value": "c. 1628",
+      "search_value": "Dead by 4 March 1628"
+    },
+    {
+      "id": "glasgow-3178",
+      "field": "death_location",
+      "people_value": "Stevenson, Lanarkshire, Scotland",
+      "search_value": "Stevenston, Ayrshire, Scotland (inferred)"
+    },
+    {
+      "id": "hartshorne-320",
+      "field": "birth",
+      "people_value": "c. 1766 (estimated)",
+      "search_value": "Unknown"
+    },
+    {
+      "id": "glasgow-3321",
+      "field": "birth",
+      "people_value": "1611-05-06",
+      "search_value": "By 6 May 1611 (reported christening)"
+    },
+    {
+      "id": "glasgow-3910",
+      "field": "birth",
+      "people_value": "c. 1605",
+      "search_value": "Before 1595 (estimated adult bound)"
+    },
+    {
+      "id": "glasgow-3910",
+      "field": "death",
+      "people_value": "1624-07-26",
+      "search_value": "Dead by 26 July 1624"
+    },
+    {
+      "id": "glasgow-3910",
+      "field": "death_location",
+      "people_value": "Quothquan, Libberton, Lanarkshire",
+      "search_value": ""
+    },
+    {
+      "id": "glasgow-3001",
+      "field": "birth",
+      "people_value": "c. 1650",
+      "search_value": "Unknown"
+    },
+    {
+      "id": "glasgow-3186",
+      "field": "birth",
+      "people_value": "1610",
+      "search_value": "c. 1610"
+    },
+    {
+      "id": "glasgow-3186",
+      "field": "death_location",
+      "people_value": "South Leith, Midlothian, Scotland",
+      "search_value": ""
+    },
+    {
+      "id": "glasco-146",
+      "field": "death",
+      "people_value": "after 1772",
+      "search_value": "1772 (elder identity uncertain)"
+    },
+    {
+      "id": "glasco-146",
+      "field": "death_location",
+      "people_value": "County Dublin, Ireland",
+      "search_value": "Dublin, Ireland"
+    },
+    {
+      "id": "glasgow-1538",
+      "field": "birth",
+      "people_value": "1784-09-13",
+      "search_value": "Before 17 February 1760 (probable identity)"
+    },
+    {
+      "id": "glasgow-1098",
+      "field": "birth",
+      "people_value": "c. 1516 (estimated)",
+      "search_value": "Unknown"
+    },
+    {
+      "id": "glasgow-1098",
+      "field": "birth_location",
+      "people_value": "Glasgow, Lanarkshire, Scotland",
+      "search_value": "Unknown"
+    },
+    {
+      "id": "glasgow-1098",
+      "field": "death_location",
+      "people_value": "High Street, Merchant City, Glasgow, Lanarkshire, Scotland",
+      "search_value": "Unknown"
+    },
+    {
+      "id": "glasgow-4152",
+      "field": "birth",
+      "people_value": "1600",
+      "search_value": "Unknown"
+    },
+    {
+      "id": "glasgow-4152",
+      "field": "birth_location",
+      "people_value": "Saltcoats, Ayrshire, Scotland, uncertain and inferred only",
+      "search_value": "Saltcoats, Ayrshire, Scotland (inferred)"
+    },
+    {
+      "id": "glasgow-4152",
+      "field": "death",
+      "people_value": "",
+      "search_value": "December 1636"
+    },
+    {
+      "id": "glasgow-4152",
+      "field": "death_location",
+      "people_value": "",
+      "search_value": "Saltcoats, Ayrshire, Scotland (inferred)"
+    }
+  ],
+  "failures": [
+    "FAIL: test_all_profile_updates_have_balanced_and_resolved_ref_tags (tests.test_research_catalog.ResearchCatalogueTest.test_all_profile_updates_have_balanced_and_resolved_ref_tags)",
+    "FAIL: test_case_findings_and_similar_people_are_integrated (tests.test_research_catalog.ResearchCatalogueTest.test_case_findings_and_similar_people_are_integrated)",
+    "FAIL: test_catalogue_is_complete_and_crawlable (tests.test_research_catalog.ResearchCatalogueTest.test_catalogue_is_complete_and_crawlable)",
+    "FAIL: test_full_profile_rewrites_do_not_discard_captured_narrative (tests.test_research_catalog.ResearchCatalogueTest.test_full_profile_rewrites_do_not_discard_captured_narrative)",
+    "FAIL: test_machine_dossiers_are_integral_compact_and_private (tests.test_research_catalog.ResearchCatalogueTest.test_machine_dossiers_are_integral_compact_and_private)",
+    "FAIL: test_public_records_places_comparison_and_status (tests.test_research_catalog.ResearchCatalogueTest.test_public_records_places_comparison_and_status)",
+    "FAIL: test_reviewed_full_replacements_bypass_captured_detail_merge (tests.test_research_catalog.ResearchCatalogueTest.test_reviewed_full_replacements_bypass_captured_detail_merge) (profile_id='Glasgow-1030')"
+  ],
+  "interpretation": {
+    "references": "Legacy quoted-reference matcher flags valid unquoted reference definitions in the unchanged Glasgow-1096 proposal. This batch does not change that profile.",
+    "profile_work_statuses": "The pre-batch index already had 79 creation-ready entries; the legacy audit calculation expects 54. This batch adds two explicit identity holds.",
+    "catalogue_fields": "The pre-batch catalogue already disagrees with its reviewed search projection; see captured mismatches.",
+    "draft_content": "Legacy rejection of project-site citations concerns an unchanged older John proposal, not these four accounts.",
+    "compact_size": "The prior verified release already exceeds the old byte threshold. No threshold is relaxed.",
+    "health_records": "The prior release already has a one-record mismatch between health metadata and the frozen record index.",
+    "replacement_marker": "The unchanged Glasgow-1030 proposal lacks the literal marker expected by the legacy test."
+  },
+  "retained_baseline_archive": "tmp/prior-site-bundles-2026-10-18/glasgow-site-20261018-051430.tar.gz"
+}

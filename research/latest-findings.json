@@ -32300,6 +32300,56 @@
       "genealogical_connections_added": 0,
       "relationship_degree_corrections": 1,
       "new_source_discoveries": 0
+    },
+    {
+      "id": "prescott-john-mary-siblings-20261018",
+      "found_on": "2026-10-18",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "The Prescott watchmaker John and Mary Black are integrated as Robert Glasgow-4150’s siblings, 98% and 99%, from the existing will and deeds.",
+      "qualification": "These are two previously unstructured record accounts recovered from evidence already researched in September, not two newly discovered sources or two proven additional distinct people. John retains six unselected compatible or weak existing-profile comparisons; later residence, spouse or death elsewhere is not by itself an exclusion of a possible migrant. No Mary Black/Glasgow match is established in the bounded local historical catalogue check. Both accounts remain on identity hold before any new WikiTree profile creation. Record dates are not birth dates. Extend the existing Alexander Glasgow-3904 father hypothesis to John and Mary at 27%, uncertain, conditional on their documented membership in the Prescott sibling family. Thomas-987 and Daniel-3896 already carry this father, and Samuel-4010 and Robert-4150 already have the same selected uncertain hypothesis. Its basis remains the single late descendant tradition naming Alexander as Thomas’s father, with compatible generation and sibling inference. The original will and deeds name no parent. These two extensions supply no independent parent testimony and do not raise the existing estimate; no mother is selected. Two strong sibling relationships enter the structured catalogue and family views: John–Robert 98% and Mary–Robert 99%. Two tentative father extensions to record accounts are 27%; no new confident father is established. The fixed and current historical-profile cohorts are unchanged: record-only identity accounts are not counted as newly distinct profiles or an improvement in paternal connectivity. Existing Robert–Alexander confidence and the earlier Larne reconstruction are unchanged.",
+      "people": [
+        {
+          "id": "Glasgow-3904",
+          "name": "Alexander Glasgow, proposed father",
+          "url": "/people/glasgow-3904.html"
+        },
+        {
+          "id": "Glasgow-4150",
+          "name": "Robert Glasgow of Prescott",
+          "url": "/people/glasgow-4150.html"
+        },
+        {
+          "id": "record-john-prescott-watchmaker",
+          "name": "John Glasgow, Prescott watchmaker",
+          "url": "/people/record-john-prescott-watchmaker.html"
+        },
+        {
+          "id": "record-mary-glasgow-black",
+          "name": "Mary Black, formerly Glasgow",
+          "url": "/people/record-mary-glasgow-black.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Robert Glasgow’s will, B12, 9 October 1849, registered 13 November 1856; volume B, pp. 9–10, images 35–36",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWY9-S"
+        },
+        {
+          "title": "John and Jane Glasgow to Samuel, B13, 30 October 1856, registered 13 November 1856; volume B, pp. 10–11, image 36",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LWYM-6"
+        },
+        {
+          "title": "Mary Black’s children to Mary Eno Glasgow, C298, 15 September 1869, registered 1 July 1870; volume C, pp. 477–482, images 277–280",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LQTY-K"
+        }
+      ],
+      "detail_url": "/branches/lisnagaver-rasharkin/#chapter-prescott-john-mary-siblings",
+      "relationship_changes": [],
+      "certainty_upgrades": 0,
+      "genealogical_connections_added": 0,
+      "record_defined_sibling_links_added": 2,
+      "new_source_discoveries": 0
     }
   ]
 }

@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "reviewed": "2026-10-18",
+  "cutoff": 1850,
+  "method_version": 3,
+  "input_fingerprint": "9d410c3c8b16446d4fbd319feb99825ba9c3b96ce94008767042af1511d6546b",
+  "scope": "John Glasgow, Prescott watchmaker with wife Jane in deed B13, is selected as Robert Glasgow-4150’s brother at 98% subjective confidence. Robert’s 1849 will gives brother John one sixth. John and Jane’s 1856 deed transfers an undivided one sixth of the same Dibble Street lots to Samuel, who is another will-named brother. The exact locality, buyer, parcels and fraction identify the grantor strongly; B13 does not itself expressly call John Robert’s brother. John’s birth, death and parents are not named, and his identity with an existing John profile is unresolved. Mary Black, formerly Mary Glasgow, is Robert’s sister at 99% subjective confidence: C298 expressly states that relationship and traces her six children’s interests to Robert’s will, which names his sister Mary. Her children were John Black and Rose Ann Black of Drumoolish, Jane Miller and Agnes Black of Newburgh, Thomasina Montgomery of Legrand, Iowa, and Elizabeth Black, formerly of Newburgh. John’s wife Martha, Jane’s husband Robert Miller and Thomasina’s husband Mathew Montgomery also joined. Elizabeth, not Mary, is expressly deceased unmarried and intestate; her five siblings convey her share as heirs. Mary’s own birth, death, residence and husband’s forename remain unknown.",
+  "publication_summary": "Integrate John the Prescott watchmaker and Mary Black as Robert4150’s siblings, 98% and 99%, from the already known will/deeds. Both record accounts remain on identity hold. Extend the existing Alexander3904 father hypothesis to both at 27%, without an independent parent source, invented birth date or mother. No fixed/current cohort, existing-profile connectivity score, source-discovery total or confident-father count improves.",
+  "models": {
+    "main": {
+      "checked_historical_profiles": 1789,
+      "matched_paternal_edges": 1376,
+      "record_accounts_added": 2,
+      "all_previous_vitals_and_parents_preserved": true,
+      "sibling_probabilities": [
+        0.98,
+        0.99
+      ],
+      "conditional_father_probability": 0.27
+    },
+    "standalone": {
+      "checked_historical_profiles": 1789,
+      "matched_paternal_edges": 1376,
+      "record_accounts_added": 2,
+      "all_previous_vitals_and_parents_preserved": true,
+      "sibling_probabilities": [
+        0.98,
+        0.99
+      ],
+      "conditional_father_probability": 0.27
+    }
+  },
+  "paternal_connections_added": 0,
+  "collateral_connections_added": 0,
+  "record_defined_sibling_links_added": 2,
+  "certainty_upgrades": 0,
+  "existing_profiles_added_to_measurement": 0,
+  "saved_live_flags_changed": false,
+  "pending_profiles": [
+    525,
+    528
+  ],
+  "metric_changes": {},
+  "next_metric_check": {
+    "status": "CLOSED",
+    "saved_confident_tree_flags_not_used_by_current_metric": 0
+  },
+  "verification": {
+    "full_and_compact_filters_agree": true,
+    "held_complete_record_accounts": 2,
+    "private_complete_replacement_verified": true,
+    "other_parent_assignments_and_all_vitals_preserved": true,
+    "all_historical_father_fields_checked": true,
+    "packed_main_model_lossless": true,
+    "all_cohort_metrics_unchanged": true,
+    "four_profile_HTTP_checks": true,
+    "study_anchor_and_reader_sitemap_checked": true,
+    "main_whole_tree_browser_checked": true,
+    "main_tree_search_and_selected_family_verified": true,
+    "catalogue_john_pending_result_verified": true,
+    "catalogue_mary_both_filters_verified": true,
+    "main_tree_browser_errors": 0,
+    "focused_tests_passed": 91
+  },
+  "legacy_suite": {
+    "tests": 84,
+    "failures": 7,
+    "status": "Pre-existing discrepancies recorded separately; not treated as passes.",
+    "review": "research/ancestry-connections/prescott-verification-baseline-2026-10-18.json"
+  }
+}

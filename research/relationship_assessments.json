@@ -13528,5 +13528,301 @@
       "prior_status": "WikiTree Father DataStatus20,already confident,confirmed18 October2026.",
       "scope": "Individual calibration only; zero new fathers or confident upgrades."
     }
+  },
+  {
+    "people": [
+      "record-john-prescott-watchmaker",
+      "Glasgow-4150"
+    ],
+    "profile_names": {
+      "Glasgow-3904": "Alexander Glasgow, proposed father",
+      "Glasgow-4150": "Robert Glasgow of Prescott",
+      "record-john-prescott-watchmaker": "John Glasgow, Prescott watchmaker",
+      "record-mary-glasgow-black": "Mary Black, formerly Glasgow"
+    },
+    "profile_urls": {
+      "record-john-prescott-watchmaker": {
+        "url": "/people/record-john-prescott-watchmaker.html"
+      },
+      "record-mary-glasgow-black": {
+        "url": "/people/record-mary-glasgow-black.html"
+      }
+    },
+    "publication_status": "approved",
+    "assessment_date": "2026-10-18",
+    "allow_new_relationship": true,
+    "analysis_links": [
+      {
+        "label": "John the watchmaker and Mary Black: Robert’s documented siblings",
+        "href": "/branches/lisnagaver-rasharkin/#chapter-prescott-john-mary-siblings"
+      }
+    ],
+    "provenance": {
+      "scope": "Already inspected original records newly integrated into structured family; not a new source or individual discovery.",
+      "prior_status": "Sibling named in narrative, absent as structured record account."
+    },
+    "assertion_id": "C-role-20261018-prescott-john-robert",
+    "status": "strongly_supported",
+    "claim": "John Glasgow, Prescott watchmaker is Robert’s sibling",
+    "basis": "John Glasgow, Prescott watchmaker with wife Jane in deed B13, is selected as Robert Glasgow-4150’s brother at 98% subjective confidence. Robert’s 1849 will gives brother John one sixth. John and Jane’s 1856 deed transfers an undivided one sixth of the same Dibble Street lots to Samuel, who is another will-named brother. The exact locality, buyer, parcels and fraction identify the grantor strongly; B13 does not itself expressly call John Robert’s brother. John’s birth, death and parents are not named, and his identity with an existing John profile is unresolved.",
+    "limitations": "These are two previously unstructured record accounts recovered from evidence already researched in September, not two newly discovered sources or two proven additional distinct people. John retains six unselected compatible or weak existing-profile comparisons; later residence, spouse or death elsewhere is not by itself an exclusion of a possible migrant. No Mary Black/Glasgow match is established in the bounded local historical catalogue check. Both accounts remain on identity hold before any new WikiTree profile creation. Record dates are not birth dates.",
+    "source_ids": [
+      "prescott-will-1849",
+      "prescott-deed-b13"
+    ],
+    "probability": {
+      "band": "confident",
+      "label": "Confident · 98%",
+      "minimum": 0.9,
+      "maximum": 0.99,
+      "rank": 4,
+      "value": 0.98,
+      "method": "individual_evidence_assessment",
+      "origin": "research",
+      "basis": "John Glasgow, Prescott watchmaker with wife Jane in deed B13, is selected as Robert Glasgow-4150’s brother at 98% subjective confidence. Robert’s 1849 will gives brother John one sixth. John and Jane’s 1856 deed transfers an undivided one sixth of the same Dibble Street lots to Samuel, who is another will-named brother. The exact locality, buyer, parcels and fraction identify the grantor strongly; B13 does not itself expressly call John Robert’s brother. John’s birth, death and parents are not named, and his identity with an existing John profile is unresolved.",
+      "reviewed": "2026-10-18",
+      "source_ids": [
+        "prescott-will-1849",
+        "prescott-deed-b13"
+      ],
+      "assertion_id": "C-role-20261018-prescott-john-robert",
+      "scope": "Record-defined family; unresolved existing-profile identity. Father extension inherits one family tradition, not independent testimony."
+    },
+    "perspectives": {
+      "record-john-prescott-watchmaker": {
+        "relationship": "sibling",
+        "status_label": "Confident brother · 98%",
+        "reason": "John Glasgow, Prescott watchmaker with wife Jane in deed B13, is selected as Robert Glasgow-4150’s brother at 98% subjective confidence. Robert’s 1849 will gives brother John one sixth. John and Jane’s 1856 deed transfers an undivided one sixth of the same Dibble Street lots to Samuel, who is another will-named brother. The exact locality, buyer, parcels and fraction identify the grantor strongly; B13 does not itself expressly call John Robert’s brother. John’s birth, death and parents are not named, and his identity with an existing John profile is unresolved."
+      },
+      "Glasgow-4150": {
+        "relationship": "sibling",
+        "status_label": "Confident brother · 98%",
+        "reason": "John Glasgow, Prescott watchmaker with wife Jane in deed B13, is selected as Robert Glasgow-4150’s brother at 98% subjective confidence. Robert’s 1849 will gives brother John one sixth. John and Jane’s 1856 deed transfers an undivided one sixth of the same Dibble Street lots to Samuel, who is another will-named brother. The exact locality, buyer, parcels and fraction identify the grantor strongly; B13 does not itself expressly call John Robert’s brother. John’s birth, death and parents are not named, and his identity with an existing John profile is unresolved."
+      }
+    }
+  },
+  {
+    "people": [
+      "record-john-prescott-watchmaker",
+      "Glasgow-3904"
+    ],
+    "profile_names": {
+      "Glasgow-3904": "Alexander Glasgow, proposed father",
+      "Glasgow-4150": "Robert Glasgow of Prescott",
+      "record-john-prescott-watchmaker": "John Glasgow, Prescott watchmaker",
+      "record-mary-glasgow-black": "Mary Black, formerly Glasgow"
+    },
+    "profile_urls": {
+      "record-john-prescott-watchmaker": {
+        "url": "/people/record-john-prescott-watchmaker.html"
+      },
+      "record-mary-glasgow-black": {
+        "url": "/people/record-mary-glasgow-black.html"
+      }
+    },
+    "publication_status": "approved",
+    "assessment_date": "2026-10-18",
+    "allow_new_relationship": true,
+    "analysis_links": [
+      {
+        "label": "John the watchmaker and Mary Black: Robert’s documented siblings",
+        "href": "/branches/lisnagaver-rasharkin/#chapter-prescott-john-mary-siblings"
+      }
+    ],
+    "provenance": {
+      "scope": "Already inspected original records newly integrated into structured family; not a new source or individual discovery.",
+      "prior_status": "Sibling named in narrative, absent as structured record account."
+    },
+    "assertion_id": "C-working-20261018-prescott-john-father",
+    "status": "uncertain",
+    "hypothesis_status": "possible",
+    "working_selection": true,
+    "claim": "Alexander is the selected uncertain father of John Glasgow, Prescott watchmaker",
+    "basis": "Extend the existing Alexander Glasgow-3904 father hypothesis to John and Mary at 27%, uncertain, conditional on their documented membership in the Prescott sibling family. Thomas-987 and Daniel-3896 already carry this father, and Samuel-4010 and Robert-4150 already have the same selected uncertain hypothesis. Its basis remains the single late descendant tradition naming Alexander as Thomas’s father, with compatible generation and sibling inference. The original will and deeds name no parent. These two extensions supply no independent parent testimony and do not raise the existing estimate; no mother is selected.",
+    "limitations": "These are two previously unstructured record accounts recovered from evidence already researched in September, not two newly discovered sources or two proven additional distinct people. John retains six unselected compatible or weak existing-profile comparisons; later residence, spouse or death elsewhere is not by itself an exclusion of a possible migrant. No Mary Black/Glasgow match is established in the bounded local historical catalogue check. Both accounts remain on identity hold before any new WikiTree profile creation. Record dates are not birth dates. The father is not named in an original record; 27% does not become independent evidence through repetition across siblings.",
+    "source_ids": [
+      "prescott-will-1849",
+      "prescott-deed-b13",
+      "prescott-father-tradition"
+    ],
+    "probability": {
+      "band": "uncertain",
+      "label": "Uncertain/speculative · 27%",
+      "minimum": 0.01,
+      "maximum": 0.29,
+      "rank": 1,
+      "value": 0.27,
+      "method": "individual_evidence_assessment",
+      "origin": "research",
+      "basis": "Extend the existing Alexander Glasgow-3904 father hypothesis to John and Mary at 27%, uncertain, conditional on their documented membership in the Prescott sibling family. Thomas-987 and Daniel-3896 already carry this father, and Samuel-4010 and Robert-4150 already have the same selected uncertain hypothesis. Its basis remains the single late descendant tradition naming Alexander as Thomas’s father, with compatible generation and sibling inference. The original will and deeds name no parent. These two extensions supply no independent parent testimony and do not raise the existing estimate; no mother is selected.",
+      "reviewed": "2026-10-18",
+      "source_ids": [
+        "prescott-will-1849",
+        "prescott-deed-b13",
+        "prescott-father-tradition"
+      ],
+      "assertion_id": "C-working-20261018-prescott-john-father",
+      "scope": "Record-defined family; unresolved existing-profile identity. Father extension inherits one family tradition, not independent testimony."
+    },
+    "perspectives": {
+      "record-john-prescott-watchmaker": {
+        "relationship": "father",
+        "status_label": "Uncertain father · 27%",
+        "reason": "Extend the existing Alexander Glasgow-3904 father hypothesis to John and Mary at 27%, uncertain, conditional on their documented membership in the Prescott sibling family. Thomas-987 and Daniel-3896 already carry this father, and Samuel-4010 and Robert-4150 already have the same selected uncertain hypothesis. Its basis remains the single late descendant tradition naming Alexander as Thomas’s father, with compatible generation and sibling inference. The original will and deeds name no parent. These two extensions supply no independent parent testimony and do not raise the existing estimate; no mother is selected."
+      },
+      "Glasgow-3904": {
+        "relationship": "son",
+        "status_label": "Uncertain child · 27%",
+        "reason": "Extend the existing Alexander Glasgow-3904 father hypothesis to John and Mary at 27%, uncertain, conditional on their documented membership in the Prescott sibling family. Thomas-987 and Daniel-3896 already carry this father, and Samuel-4010 and Robert-4150 already have the same selected uncertain hypothesis. Its basis remains the single late descendant tradition naming Alexander as Thomas’s father, with compatible generation and sibling inference. The original will and deeds name no parent. These two extensions supply no independent parent testimony and do not raise the existing estimate; no mother is selected."
+      }
+    }
+  },
+  {
+    "people": [
+      "record-mary-glasgow-black",
+      "Glasgow-4150"
+    ],
+    "profile_names": {
+      "Glasgow-3904": "Alexander Glasgow, proposed father",
+      "Glasgow-4150": "Robert Glasgow of Prescott",
+      "record-john-prescott-watchmaker": "John Glasgow, Prescott watchmaker",
+      "record-mary-glasgow-black": "Mary Black, formerly Glasgow"
+    },
+    "profile_urls": {
+      "record-john-prescott-watchmaker": {
+        "url": "/people/record-john-prescott-watchmaker.html"
+      },
+      "record-mary-glasgow-black": {
+        "url": "/people/record-mary-glasgow-black.html"
+      }
+    },
+    "publication_status": "approved",
+    "assessment_date": "2026-10-18",
+    "allow_new_relationship": true,
+    "analysis_links": [
+      {
+        "label": "John the watchmaker and Mary Black: Robert’s documented siblings",
+        "href": "/branches/lisnagaver-rasharkin/#chapter-prescott-john-mary-siblings"
+      }
+    ],
+    "provenance": {
+      "scope": "Already inspected original records newly integrated into structured family; not a new source or individual discovery.",
+      "prior_status": "Sibling named in narrative, absent as structured record account."
+    },
+    "assertion_id": "C-role-20261018-prescott-mary-robert",
+    "status": "proved",
+    "claim": "Mary Black, formerly Glasgow is Robert’s sibling",
+    "basis": "Mary Black, formerly Mary Glasgow, is Robert’s sister at 99% subjective confidence: C298 expressly states that relationship and traces her six children’s interests to Robert’s will, which names his sister Mary. Her children were John Black and Rose Ann Black of Drumoolish, Jane Miller and Agnes Black of Newburgh, Thomasina Montgomery of Legrand, Iowa, and Elizabeth Black, formerly of Newburgh. John’s wife Martha, Jane’s husband Robert Miller and Thomasina’s husband Mathew Montgomery also joined. Elizabeth, not Mary, is expressly deceased unmarried and intestate; her five siblings convey her share as heirs. Mary’s own birth, death, residence and husband’s forename remain unknown.",
+    "limitations": "These are two previously unstructured record accounts recovered from evidence already researched in September, not two newly discovered sources or two proven additional distinct people. John retains six unselected compatible or weak existing-profile comparisons; later residence, spouse or death elsewhere is not by itself an exclusion of a possible migrant. No Mary Black/Glasgow match is established in the bounded local historical catalogue check. Both accounts remain on identity hold before any new WikiTree profile creation. Record dates are not birth dates.",
+    "source_ids": [
+      "prescott-will-1849",
+      "prescott-deed-c298"
+    ],
+    "probability": {
+      "band": "confident",
+      "label": "Confident · 99%",
+      "minimum": 0.9,
+      "maximum": 0.99,
+      "rank": 4,
+      "value": 0.99,
+      "method": "individual_evidence_assessment",
+      "origin": "research",
+      "basis": "Mary Black, formerly Mary Glasgow, is Robert’s sister at 99% subjective confidence: C298 expressly states that relationship and traces her six children’s interests to Robert’s will, which names his sister Mary. Her children were John Black and Rose Ann Black of Drumoolish, Jane Miller and Agnes Black of Newburgh, Thomasina Montgomery of Legrand, Iowa, and Elizabeth Black, formerly of Newburgh. John’s wife Martha, Jane’s husband Robert Miller and Thomasina’s husband Mathew Montgomery also joined. Elizabeth, not Mary, is expressly deceased unmarried and intestate; her five siblings convey her share as heirs. Mary’s own birth, death, residence and husband’s forename remain unknown.",
+      "reviewed": "2026-10-18",
+      "source_ids": [
+        "prescott-will-1849",
+        "prescott-deed-c298"
+      ],
+      "assertion_id": "C-role-20261018-prescott-mary-robert",
+      "scope": "Record-defined family; unresolved existing-profile identity. Father extension inherits one family tradition, not independent testimony."
+    },
+    "perspectives": {
+      "record-mary-glasgow-black": {
+        "relationship": "sibling",
+        "status_label": "Confident brother · 99%",
+        "reason": "Mary Black, formerly Mary Glasgow, is Robert’s sister at 99% subjective confidence: C298 expressly states that relationship and traces her six children’s interests to Robert’s will, which names his sister Mary. Her children were John Black and Rose Ann Black of Drumoolish, Jane Miller and Agnes Black of Newburgh, Thomasina Montgomery of Legrand, Iowa, and Elizabeth Black, formerly of Newburgh. John’s wife Martha, Jane’s husband Robert Miller and Thomasina’s husband Mathew Montgomery also joined. Elizabeth, not Mary, is expressly deceased unmarried and intestate; her five siblings convey her share as heirs. Mary’s own birth, death, residence and husband’s forename remain unknown."
+      },
+      "Glasgow-4150": {
+        "relationship": "sibling",
+        "status_label": "Confident sister · 99%",
+        "reason": "Mary Black, formerly Mary Glasgow, is Robert’s sister at 99% subjective confidence: C298 expressly states that relationship and traces her six children’s interests to Robert’s will, which names his sister Mary. Her children were John Black and Rose Ann Black of Drumoolish, Jane Miller and Agnes Black of Newburgh, Thomasina Montgomery of Legrand, Iowa, and Elizabeth Black, formerly of Newburgh. John’s wife Martha, Jane’s husband Robert Miller and Thomasina’s husband Mathew Montgomery also joined. Elizabeth, not Mary, is expressly deceased unmarried and intestate; her five siblings convey her share as heirs. Mary’s own birth, death, residence and husband’s forename remain unknown."
+      }
+    }
+  },
+  {
+    "people": [
+      "record-mary-glasgow-black",
+      "Glasgow-3904"
+    ],
+    "profile_names": {
+      "Glasgow-3904": "Alexander Glasgow, proposed father",
+      "Glasgow-4150": "Robert Glasgow of Prescott",
+      "record-john-prescott-watchmaker": "John Glasgow, Prescott watchmaker",
+      "record-mary-glasgow-black": "Mary Black, formerly Glasgow"
+    },
+    "profile_urls": {
+      "record-john-prescott-watchmaker": {
+        "url": "/people/record-john-prescott-watchmaker.html"
+      },
+      "record-mary-glasgow-black": {
+        "url": "/people/record-mary-glasgow-black.html"
+      }
+    },
+    "publication_status": "approved",
+    "assessment_date": "2026-10-18",
+    "allow_new_relationship": true,
+    "analysis_links": [
+      {
+        "label": "John the watchmaker and Mary Black: Robert’s documented siblings",
+        "href": "/branches/lisnagaver-rasharkin/#chapter-prescott-john-mary-siblings"
+      }
+    ],
+    "provenance": {
+      "scope": "Already inspected original records newly integrated into structured family; not a new source or individual discovery.",
+      "prior_status": "Sibling named in narrative, absent as structured record account."
+    },
+    "assertion_id": "C-working-20261018-prescott-mary-father",
+    "status": "uncertain",
+    "hypothesis_status": "possible",
+    "working_selection": true,
+    "claim": "Alexander is the selected uncertain father of Mary Black, formerly Glasgow",
+    "basis": "Extend the existing Alexander Glasgow-3904 father hypothesis to John and Mary at 27%, uncertain, conditional on their documented membership in the Prescott sibling family. Thomas-987 and Daniel-3896 already carry this father, and Samuel-4010 and Robert-4150 already have the same selected uncertain hypothesis. Its basis remains the single late descendant tradition naming Alexander as Thomas’s father, with compatible generation and sibling inference. The original will and deeds name no parent. These two extensions supply no independent parent testimony and do not raise the existing estimate; no mother is selected.",
+    "limitations": "These are two previously unstructured record accounts recovered from evidence already researched in September, not two newly discovered sources or two proven additional distinct people. John retains six unselected compatible or weak existing-profile comparisons; later residence, spouse or death elsewhere is not by itself an exclusion of a possible migrant. No Mary Black/Glasgow match is established in the bounded local historical catalogue check. Both accounts remain on identity hold before any new WikiTree profile creation. Record dates are not birth dates. The father is not named in an original record; 27% does not become independent evidence through repetition across siblings.",
+    "source_ids": [
+      "prescott-will-1849",
+      "prescott-deed-c298",
+      "prescott-father-tradition"
+    ],
+    "probability": {
+      "band": "uncertain",
+      "label": "Uncertain/speculative · 27%",
+      "minimum": 0.01,
+      "maximum": 0.29,
+      "rank": 1,
+      "value": 0.27,
+      "method": "individual_evidence_assessment",
+      "origin": "research",
+      "basis": "Extend the existing Alexander Glasgow-3904 father hypothesis to John and Mary at 27%, uncertain, conditional on their documented membership in the Prescott sibling family. Thomas-987 and Daniel-3896 already carry this father, and Samuel-4010 and Robert-4150 already have the same selected uncertain hypothesis. Its basis remains the single late descendant tradition naming Alexander as Thomas’s father, with compatible generation and sibling inference. The original will and deeds name no parent. These two extensions supply no independent parent testimony and do not raise the existing estimate; no mother is selected.",
+      "reviewed": "2026-10-18",
+      "source_ids": [
+        "prescott-will-1849",
+        "prescott-deed-c298",
+        "prescott-father-tradition"
+      ],
+      "assertion_id": "C-working-20261018-prescott-mary-father",
+      "scope": "Record-defined family; unresolved existing-profile identity. Father extension inherits one family tradition, not independent testimony."
+    },
+    "perspectives": {
+      "record-mary-glasgow-black": {
+        "relationship": "father",
+        "status_label": "Uncertain father · 27%",
+        "reason": "Extend the existing Alexander Glasgow-3904 father hypothesis to John and Mary at 27%, uncertain, conditional on their documented membership in the Prescott sibling family. Thomas-987 and Daniel-3896 already carry this father, and Samuel-4010 and Robert-4150 already have the same selected uncertain hypothesis. Its basis remains the single late descendant tradition naming Alexander as Thomas’s father, with compatible generation and sibling inference. The original will and deeds name no parent. These two extensions supply no independent parent testimony and do not raise the existing estimate; no mother is selected."
+      },
+      "Glasgow-3904": {
+        "relationship": "daughter",
+        "status_label": "Uncertain child · 27%",
+        "reason": "Extend the existing Alexander Glasgow-3904 father hypothesis to John and Mary at 27%, uncertain, conditional on their documented membership in the Prescott sibling family. Thomas-987 and Daniel-3896 already carry this father, and Samuel-4010 and Robert-4150 already have the same selected uncertain hypothesis. Its basis remains the single late descendant tradition naming Alexander as Thomas’s father, with compatible generation and sibling inference. The original will and deeds name no parent. These two extensions supply no independent parent testimony and do not raise the existing estimate; no mother is selected."
+      }
+    }
   }
 ]

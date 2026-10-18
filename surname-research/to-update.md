@@ -2386,3 +2386,9 @@ Burial-defined Walter remains on source-verification HOLD in the existing creati
 | [Hugh Glasgow, weaver](https://www.wikitree.com/wiki/Glasgow-3956) | OPEN | Hugh is selected as the Glenleslie Robert’s probable brother,74%, replacing the old uncertain son placement locally. His own parents remain unknown. The inference depends on identifying Mary’s1862 marriage with Robert’s1851 niece. |
 | [Robert Glasgow, Glenleslie identity](https://www.wikitree.com/wiki/Glasgow-1367) | OPEN | Hugh Glasgow-3956 is selected as a probable brother,74%, of the1851 Glenleslie Robert; the old uncertain son interpretation is superseded locally. This does not resolve this account’s Lisnagaver identity or other attached children. |
 | [Mary Glasgow, later Montgomery](https://www.wikitree.com/wiki/Glasgow-3957) | OPEN | Hugh Glasgow-3956 already represents Mary’s record-named father: confident99% for the1862 marriage role. Her probable identification as Robert’s1851 niece supports Hugh and Robert as brothers,74%; her father is not a new attachment. |
+
+
+## Prescott sibling integration — 18 October 2026
+
+| [Alexander Glasgow, proposed father](https://www.wikitree.com/wiki/Glasgow-3904) | OPEN | Preserve the earlier Larne father review and add John and Mary as conditional Prescott children at 27%, with the original sibling evidence distinguished from late parent tradition. |
+| [Robert Glasgow of Prescott](https://www.wikitree.com/wiki/Glasgow-4150) | OPEN | Add the two sourced Prescott sibling accounts, John watchmaker 98% and Mary Black 99%; retain the existing Alexander father hypothesis at 27% and all earlier pending work. |

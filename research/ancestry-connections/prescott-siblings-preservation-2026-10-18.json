@@ -1,0 +1,32 @@
+{
+  "reviewed": "2026-10-18",
+  "scope": "John the watchmaker and Mary Black: Robert’s documented siblings",
+  "profiles": {
+    "Glasgow-3904": {
+      "current_sha256": "bac3d125e4e3e43d64e17818286ebf138cd0dd8dcf5c83cfefbb0a42c5b9267d",
+      "prior_proposal_sha256": "d00c1b7b5120fed4bb25bc27a48c6a3d0316dbdf71a7ba18e2fe34bdc002b5a5",
+      "proposed_sha256": "bdc840ebb0548584a2e5a3b5b62dd60f618515466d602a92679ad4c578d94296",
+      "draft_path": "data/private/wikitree-updates/Glasgow-3904-20261018.wiki",
+      "private_comparison": true,
+      "all_prior_proposal_content_retained": true,
+      "preservation_basis": "Complete previous proposed biography retained verbatim around an added dated historical family review. Previous preservation review remains applicable; fresh current public biography unchanged from stored capture. No raw private biography serialized in the maintained manifest.",
+      "previous_preservation_review_path": "research/ancestry-connections/larne-inishrush-working-family-preservation-2026-10-16.json",
+      "all_substantive_passages_accounted_for": true,
+      "normalization_review": "Standard complete-profile normalization removed one blank line after the Research Notes heading. All preceding substantive proposal text is retained. The complete diff remains private.",
+      "prior_proposal_hash_scope": "Maintained prior proposal file, including any Markdown handoff wrapper; proposed_sha256 hashes only the extracted paste-ready biography."
+    },
+    "Glasgow-4150": {
+      "current_sha256": "cbf9a913e84d4a4e80524b01a7f0a46fe674e078d5fe63a9a84758f27f63a111",
+      "prior_proposal_sha256": "b85d348ad8a84fee8bf35413199b8ce3b7ce5c3eb66e05d4c3a6522248de5abc",
+      "proposed_sha256": "eb83e0f53758a7dbff85db5b0b0e7bf6a255d00869f183407bd58e7303dd5873",
+      "draft_path": "research/Glasgow-4150/Glasgow-4150.md",
+      "private_comparison": false,
+      "all_prior_proposal_content_retained": true,
+      "preservation_basis": "Complete previous proposed biography retained verbatim around an added dated historical family review. Previous preservation review remains applicable; fresh current public biography unchanged from stored capture. No raw private biography serialized in the maintained manifest.",
+      "previous_preservation_review_path": "research/profile-preservation-audit-2026-09-30/preservation-review.json",
+      "all_substantive_passages_accounted_for": true,
+      "normalization_review": "Standard complete-profile normalization removed one blank line after the Research Notes heading. All preceding substantive proposal text is retained. The complete diff remains private.",
+      "prior_proposal_hash_scope": "Maintained prior proposal file, including any Markdown handoff wrapper; proposed_sha256 hashes only the extracted paste-ready biography."
+    }
+  }
+}
