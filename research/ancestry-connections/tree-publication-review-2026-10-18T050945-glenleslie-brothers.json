@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "reviewed": "2026-10-18",
+  "cutoff": 1850,
+  "method_version": 3,
+  "input_fingerprint": "f22d84102c2d3c49f2bde6643dbd194dd860039ae5df8d2e2ac1dc1bca283eaa",
+  "scope": "Select Hugh Glasgow-3956, the father named by Mary at her1862 marriage, as a probable brother of the1851 Glenleslie Robert represented within Glasgow-1367, at74% subjective confidence. Replace the existing uncertain father–son interpretation locally. The original1851 return expressly calls the unmarried34-year-old Antrim-born linen weaver Mary Glasgow Robert’s niece. The1862 Ballymena marriage expressly names the bride Mary Glasgow’s father as Hugh Glasgow,weaver. A same-surname niece whose father shares her weaving trade gives a coherent paternal-brother explanation; Hugh can belong to Robert’s generation without an invented intervening father. This promotes a long-recorded conditional inference into a selected working relationship, rather than discovering a new source or a new named relative.",
+  "publication_summary": "Replace Hugh3956’s captured uncertain father Robert1367 with a selected probable brother relationship74%,limited to GlenleslieRobert and the probableMary3957 census/marriage match. Retain father role as historical alternative17%. Calibrate already-confident Mary–Hugh father99%; no new father or certainty upgrade. Strict paternal metrics lose the old father edge rather than counting a sibling as descent; cohort and earlier1750-and-before numeric metrics unchanged. No live edit or new source discovery.",
+  "models": {
+    "main": {
+      "checked_historical_profiles": 1789,
+      "matched_paternal_edges": 1376,
+      "relationship_degree_corrections": 1,
+      "all_previous_vitals_preserved": true,
+      "probable_brother_probability": 0.74,
+      "existing_record_father_probability": 0.99
+    },
+    "standalone": {
+      "checked_historical_profiles": 1789,
+      "matched_paternal_edges": 1376,
+      "relationship_degree_corrections": 1,
+      "all_previous_vitals_preserved": true,
+      "probable_brother_probability": 0.74,
+      "existing_record_father_probability": 0.99
+    }
+  },
+  "paternal_connections_added": 0,
+  "collateral_connections_added": 0,
+  "relationship_degree_corrections": 1,
+  "certainty_upgrades": 0,
+  "existing_profiles_added_to_measurement": 0,
+  "saved_live_flags_changed": false,
+  "pending_profiles": [
+    522,
+    525
+  ],
+  "metric_changes": {
+    "1850 working": {
+      "edge_count": [
+        1378,
+        1377
+      ],
+      "component_count": [
+        413,
+        414
+      ],
+      "connected_pairs_percent": [
+        39.66315402478232,
+        39.65790194364517
+      ]
+    }
+  },
+  "next_metric_check": {
+    "status": "CLOSED",
+    "saved_confident_tree_flags_not_used_by_current_metric": 0
+  },
+  "verification": {
+    "full_and_compact_filters_agree": true,
+    "real_sibling_replacement_tags_and_relative_links": true,
+    "other_parent_assignments_and_all_vitals_preserved": true,
+    "all_historical_father_fields_checked": true,
+    "packed_main_model_lossless": true,
+    "complete_comparisons": 3,
+    "cohorts_and_pre1750_metrics_unchanged": true,
+    "three_profile_HTTP_checks": true,
+    "study_anchor_checked": true,
+    "fresh_public_captures_match": true
+  }
+}

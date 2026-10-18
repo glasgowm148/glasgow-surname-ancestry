@@ -5267,5 +5267,65 @@
         "role": "younger monument son, kept separate"
       }
     }
+  },
+  {
+    "record_id": "SRC-282759b8fa75",
+    "record_type": "census",
+    "year": 1851,
+    "date": "1851",
+    "place": "Glenleslie,County Antrim",
+    "source_title": "1851 Irish census,Antrim,Dunaghy,Glenleslie,household23,original return,page1; reread18 October2026: Robert72 and Mary34,niece",
+    "source_url": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=31235&census_year=1851",
+    "source_quality": "original",
+    "status": "Original reread18 October2026;identity qualifications retained",
+    "note": "The74% is a combined judgment about identity and relationship, not a calculated frequency. The census niece and1862 bride are probably, not certainly, the same Mary: the register gives full age and a residence apparently recorded as unknown, not a specific Glenleslie locator. The1851 age implies birth about1816/17; the1898 death age79 implies1818/19, a real one-to-three-year discrepancy. That death names Mary Montgomery,a labourer’s widow,and son John; it does not name her husband Thomas or give her maiden surname, so it is supporting context rather than independent proof of the full identity. Mary could instead be a different woman, and niece could express a maternal or marriage connection. No inspected record expressly calls Hugh Robert’s brother or names Hugh’s own parents.",
+    "profiles": {
+      "Glasgow-3957": {
+        "role": "Probable identity as census niece;not proved"
+      },
+      "Glasgow-1367": {
+        "role": "Glenleslie head,identity with Lisnagaver unresolved"
+      },
+      "Glasgow-3956": {
+        "role": "Probable brother inferred through Mary’s identity;not named in census"
+      }
+    }
+  },
+  {
+    "record_id": "SRC-29b29aae4d17",
+    "record_type": "marriage",
+    "year": 1862,
+    "date": "1862",
+    "place": "Ballymena district,County Antrim",
+    "source_title": "Civil marriage register,Ballymena,page62,entry174,Thomas Montgomery and Mary Glasgow,13 September1862; original reread18 October2026",
+    "source_url": "https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1862/09623/5489617.pdf",
+    "source_quality": "original",
+    "status": "Original reread18 October2026;identity qualifications retained",
+    "note": "Page62,entry174,13 September1862. Father Hugh Glasgow,weaver;full-age bride,residence apparently unknown.",
+    "profiles": {
+      "Glasgow-3957": {
+        "role": "Bride"
+      },
+      "Glasgow-3956": {
+        "role": "Expressly named father Hugh Glasgow,weaver"
+      }
+    }
+  },
+  {
+    "record_id": "SRC-121a33d0736c",
+    "record_type": "death",
+    "year": 1898,
+    "date": "1898",
+    "place": "Ballymena district,County Antrim",
+    "source_title": "Civil death register,Ballymena,page94,entry493,Mary Montgomery,22 March1898,Crankill,age79; original reread18 October2026",
+    "source_url": "https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1898/05842/4654852.pdf",
+    "source_quality": "original",
+    "status": "Original reread18 October2026;identity qualifications retained",
+    "note": "The74% is a combined judgment about identity and relationship, not a calculated frequency. The census niece and1862 bride are probably, not certainly, the same Mary: the register gives full age and a residence apparently recorded as unknown, not a specific Glenleslie locator. The1851 age implies birth about1816/17; the1898 death age79 implies1818/19, a real one-to-three-year discrepancy. That death names Mary Montgomery,a labourer’s widow,and son John; it does not name her husband Thomas or give her maiden surname, so it is supporting context rather than independent proof of the full identity. Mary could instead be a different woman, and niece could express a maternal or marriage connection. No inspected record expressly calls Hugh Robert’s brother or names Hugh’s own parents.",
+    "profiles": {
+      "Glasgow-3957": {
+        "role": "Probable later death identity;husband and maiden surname unnamed"
+      }
+    }
   }
 ]

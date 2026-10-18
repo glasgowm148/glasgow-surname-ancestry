@@ -2379,3 +2379,10 @@ Burial-defined Walter remains on source-verification HOLD in the existing creati
 | [James Glasgow, Larne ropemaker](https://www.wikitree.com/wiki/Glasgow-1509) | OPEN | Hugh Glasgow-1499 is now the selected possible father,52%, replacing William-1505 locally. William remains an uncertain alternative,27%. The repeated James forename is a substantial caution, not proof of an infant death; no mother or vital field changes. |
 | [Hugh Glasgow, Larne elder and merchant](https://www.wikitree.com/wiki/Glasgow-1499) | OPEN | James Glasgow-1509, the older Larne ropemaker, is now selected as a possible son,52%, from the reported1737/1762 family account and the Glasgow–Shutter network. The younger James-3991 remains separate. Ann is not newly assigned as mother. |
 | [William Glasgow, older Larne merchant](https://www.wikitree.com/wiki/Glasgow-1505) | OPEN | William is retained as an uncertain father alternative for the Larne ropemaker James-1509,27%. Hugh-1499 is now the preferred possible father,52%. The1760 William witness remains positive association evidence with an unresolved identity, not a father clause. |
+
+
+## Glenleslie brother correction —18 October2026
+
+| [Hugh Glasgow, weaver](https://www.wikitree.com/wiki/Glasgow-3956) | OPEN | Hugh is selected as the Glenleslie Robert’s probable brother,74%, replacing the old uncertain son placement locally. His own parents remain unknown. The inference depends on identifying Mary’s1862 marriage with Robert’s1851 niece. |
+| [Robert Glasgow, Glenleslie identity](https://www.wikitree.com/wiki/Glasgow-1367) | OPEN | Hugh Glasgow-3956 is selected as a probable brother,74%, of the1851 Glenleslie Robert; the old uncertain son interpretation is superseded locally. This does not resolve this account’s Lisnagaver identity or other attached children. |
+| [Mary Glasgow, later Montgomery](https://www.wikitree.com/wiki/Glasgow-3957) | OPEN | Hugh Glasgow-3956 already represents Mary’s record-named father: confident99% for the1862 marriage role. Her probable identification as Robert’s1851 niece supports Hugh and Robert as brothers,74%; her father is not a new attachment. |

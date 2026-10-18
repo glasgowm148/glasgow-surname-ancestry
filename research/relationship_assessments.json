@@ -13347,5 +13347,186 @@
         "reason": "Retain the former selected placement explicitly, now secondary to the reported Hugh-son identification."
       }
     ]
+  },
+  {
+    "profile_names": {
+      "Glasgow-3956": "Hugh Glasgow, weaver",
+      "Glasgow-1367": "Robert Glasgow, Glenleslie identity",
+      "Glasgow-3957": "Mary Glasgow, later Montgomery"
+    },
+    "publication_status": "approved",
+    "assessment_date": "2026-10-18",
+    "analysis_links": [
+      {
+        "label": "Hugh and Robert at Glenleslie: probable brothers,74%",
+        "href": "/branches/lisnagaver-rasharkin/#chapter-glenleslie-hugh-robert-brothers"
+      }
+    ],
+    "assertion_id": "C-role-20261018-glenleslie-hugh-robert-brothers",
+    "people": [
+      "Glasgow-3956",
+      "Glasgow-1367"
+    ],
+    "status": "probable",
+    "hypothesis_status": "probable",
+    "allow_new_relationship": true,
+    "claim": "Hugh and the Glenleslie Robert were probably brothers,74%,rather than father and son",
+    "basis": "Select Hugh Glasgow-3956, the father named by Mary at her1862 marriage, as a probable brother of the1851 Glenleslie Robert represented within Glasgow-1367, at74% subjective confidence. Replace the existing uncertain father–son interpretation locally. The original1851 return expressly calls the unmarried34-year-old Antrim-born linen weaver Mary Glasgow Robert’s niece. The1862 Ballymena marriage expressly names the bride Mary Glasgow’s father as Hugh Glasgow,weaver. A same-surname niece whose father shares her weaving trade gives a coherent paternal-brother explanation; Hugh can belong to Robert’s generation without an invented intervening father. This promotes a long-recorded conditional inference into a selected working relationship, rather than discovering a new source or a new named relative.",
+    "limitations": "The74% is a combined judgment about identity and relationship, not a calculated frequency. The census niece and1862 bride are probably, not certainly, the same Mary: the register gives full age and a residence apparently recorded as unknown, not a specific Glenleslie locator. The1851 age implies birth about1816/17; the1898 death age79 implies1818/19, a real one-to-three-year discrepancy. That death names Mary Montgomery,a labourer’s widow,and son John; it does not name her husband Thomas or give her maiden surname, so it is supporting context rather than independent proof of the full identity. Mary could instead be a different woman, and niece could express a maternal or marriage connection. No inspected record expressly calls Hugh Robert’s brother or names Hugh’s own parents. This assessment concerns the Robert actually recorded at Glenleslie in1851. Glasgow-1367 also carries unresolved Lisnagaver and other identity comparisons; the brother inference neither identifies those property holders nor validates all children attached to that composite account. Hugh junior and Eliza’s1852/1854 Liminary marriages each name a Hugh Glasgow,weaver, but their father’s identity with Mary’s father remains a separate family reconstruction. Their shared residence supports their own sibling comparison; it does not independently prove Mary’s Glenleslie identity. No mother, new parent, shared anonymous parent, vital date, identity merge or live WikiTree field is added. The previous captured father link from Hugh to Robert was explicitly uncertain and had no individual percentage. On this review, that father–son interpretation is retained as a less likely alternative explanation at17%, rather than treated as biologically disproved. Its earlier claim and original capture remain inspectable. It would require the census niece to be a different Mary, a non-paternal niece relationship, or a different family identification. The selected brother interpretation and the residual father interpretation are competing roles for the same two accounts, not two simultaneous links. These percentages do not exhaust all possible identities and relationships. One existing relationship changes degree: uncertain father–son becomes probable brothers,74%. It adds zero new fathers and zero newly connected person pairs to the working family. Strict paternal connectivity must lose the old father edge; siblinghood is shown separately and is not counted as descent. Mary’s already confidently marked father Hugh is individually assessed99% for the express1862 record role; this is calibration of an existing confident relationship, not a new father or a certainty upgrade.",
+    "source_ids": [
+      "SRC-282759b8fa75",
+      "SRC-29b29aae4d17",
+      "SRC-121a33d0736c"
+    ],
+    "probability": {
+      "band": "probable",
+      "label": "Probable · 74%",
+      "minimum": 0.6,
+      "maximum": 0.89,
+      "rank": 3,
+      "value": 0.74,
+      "method": "individual_evidence_assessment",
+      "origin": "research",
+      "basis": "Select Hugh Glasgow-3956, the father named by Mary at her1862 marriage, as a probable brother of the1851 Glenleslie Robert represented within Glasgow-1367, at74% subjective confidence. Replace the existing uncertain father–son interpretation locally. The original1851 return expressly calls the unmarried34-year-old Antrim-born linen weaver Mary Glasgow Robert’s niece. The1862 Ballymena marriage expressly names the bride Mary Glasgow’s father as Hugh Glasgow,weaver. A same-surname niece whose father shares her weaving trade gives a coherent paternal-brother explanation; Hugh can belong to Robert’s generation without an invented intervening father. This promotes a long-recorded conditional inference into a selected working relationship, rather than discovering a new source or a new named relative. The74% is a combined judgment about identity and relationship, not a calculated frequency. The census niece and1862 bride are probably, not certainly, the same Mary: the register gives full age and a residence apparently recorded as unknown, not a specific Glenleslie locator. The1851 age implies birth about1816/17; the1898 death age79 implies1818/19, a real one-to-three-year discrepancy. That death names Mary Montgomery,a labourer’s widow,and son John; it does not name her husband Thomas or give her maiden surname, so it is supporting context rather than independent proof of the full identity. Mary could instead be a different woman, and niece could express a maternal or marriage connection. No inspected record expressly calls Hugh Robert’s brother or names Hugh’s own parents. This assessment concerns the Robert actually recorded at Glenleslie in1851. Glasgow-1367 also carries unresolved Lisnagaver and other identity comparisons; the brother inference neither identifies those property holders nor validates all children attached to that composite account. Hugh junior and Eliza’s1852/1854 Liminary marriages each name a Hugh Glasgow,weaver, but their father’s identity with Mary’s father remains a separate family reconstruction. Their shared residence supports their own sibling comparison; it does not independently prove Mary’s Glenleslie identity. No mother, new parent, shared anonymous parent, vital date, identity merge or live WikiTree field is added.",
+      "reviewed": "2026-10-18",
+      "source_ids": [
+        "SRC-282759b8fa75",
+        "SRC-29b29aae4d17",
+        "SRC-121a33d0736c"
+      ],
+      "assertion_id": "C-role-20261018-glenleslie-hugh-robert-brothers",
+      "scope": "One reviewed pair with reciprocal display; exact record role and adult identity distinguished."
+    },
+    "perspectives": {
+      "Glasgow-3956": {
+        "relationship": "sibling",
+        "status_label": "Probable brother ·74%",
+        "reason": "Select Hugh Glasgow-3956, the father named by Mary at her1862 marriage, as a probable brother of the1851 Glenleslie Robert represented within Glasgow-1367, at74% subjective confidence. Replace the existing uncertain father–son interpretation locally. The original1851 return expressly calls the unmarried34-year-old Antrim-born linen weaver Mary Glasgow Robert’s niece. The1862 Ballymena marriage expressly names the bride Mary Glasgow’s father as Hugh Glasgow,weaver. A same-surname niece whose father shares her weaving trade gives a coherent paternal-brother explanation; Hugh can belong to Robert’s generation without an invented intervening father. This promotes a long-recorded conditional inference into a selected working relationship, rather than discovering a new source or a new named relative."
+      },
+      "Glasgow-1367": {
+        "relationship": "sibling",
+        "status_label": "Probable brother ·74%",
+        "reason": "Select Hugh Glasgow-3956, the father named by Mary at her1862 marriage, as a probable brother of the1851 Glenleslie Robert represented within Glasgow-1367, at74% subjective confidence. Replace the existing uncertain father–son interpretation locally. The original1851 return expressly calls the unmarried34-year-old Antrim-born linen weaver Mary Glasgow Robert’s niece. The1862 Ballymena marriage expressly names the bride Mary Glasgow’s father as Hugh Glasgow,weaver. A same-surname niece whose father shares her weaving trade gives a coherent paternal-brother explanation; Hugh can belong to Robert’s generation without an invented intervening father. This promotes a long-recorded conditional inference into a selected working relationship, rather than discovering a new source or a new named relative."
+      }
+    },
+    "role_correction": {
+      "Glasgow-3956": {
+        "from": [
+          "father"
+        ],
+        "to": "sibling"
+      },
+      "Glasgow-1367": {
+        "from": [
+          "son",
+          "child"
+        ],
+        "to": "sibling"
+      }
+    },
+    "historical_assertions": [
+      {
+        "profile_id": "Glasgow-3956",
+        "claim_id": "C-3aaf4babfa88",
+        "label": "Superseded uncertain father interpretation; residual alternative17%",
+        "original_status": "unknown",
+        "original_tree_status": "uncertain",
+        "original_claim": "Robert Glasgow was Hugh’s uncertain father",
+        "scope": "The previous captured father link from Hugh to Robert was explicitly uncertain and had no individual percentage. On this review, that father–son interpretation is retained as a less likely alternative explanation at17%, rather than treated as biologically disproved. Its earlier claim and original capture remain inspectable. It would require the census niece to be a different Mary, a non-paternal niece relationship, or a different family identification. The selected brother interpretation and the residual father interpretation are competing roles for the same two accounts, not two simultaneous links. These percentages do not exhaust all possible identities and relationships."
+      },
+      {
+        "profile_id": "Glasgow-1367",
+        "claim_id": "C-5c95bdb7e734",
+        "label": "Superseded reciprocal son interpretation",
+        "original_status": "unknown",
+        "original_tree_status": "unmarked",
+        "original_claim": "Hugh was Robert’s son",
+        "scope": "Reciprocal imported child row; not an independent assessment."
+      }
+    ],
+    "assessment_history": [
+      {
+        "reviewed": "2026-10-18",
+        "prior_assessment": {
+          "relationship": "father",
+          "status": "uncertain",
+          "percent": null,
+          "source": "Public dossier and fresh WikiTree father-field capture,18 October2026"
+        },
+        "current_alternative": {
+          "relationship": "father",
+          "status": "uncertain",
+          "percent": 17
+        },
+        "reason": "The previous captured father link from Hugh to Robert was explicitly uncertain and had no individual percentage. On this review, that father–son interpretation is retained as a less likely alternative explanation at17%, rather than treated as biologically disproved. Its earlier claim and original capture remain inspectable. It would require the census niece to be a different Mary, a non-paternal niece relationship, or a different family identification. The selected brother interpretation and the residual father interpretation are competing roles for the same two accounts, not two simultaneous links. These percentages do not exhaust all possible identities and relationships."
+      }
+    ],
+    "provenance": {
+      "prior_status": "Captured uncertain father and unmarked reciprocal child; probable-brother inference already recorded13 August2026 but not materialised.",
+      "live_capture_rechecked": "2026-10-18",
+      "scope": "One selected degree correction; no new father,source discovery or proved identity."
+    }
+  },
+  {
+    "profile_names": {
+      "Glasgow-3956": "Hugh Glasgow, weaver",
+      "Glasgow-1367": "Robert Glasgow, Glenleslie identity",
+      "Glasgow-3957": "Mary Glasgow, later Montgomery"
+    },
+    "publication_status": "approved",
+    "assessment_date": "2026-10-18",
+    "analysis_links": [
+      {
+        "label": "Hugh and Robert at Glenleslie: probable brothers,74%",
+        "href": "/branches/lisnagaver-rasharkin/#chapter-glenleslie-hugh-robert-brothers"
+      }
+    ],
+    "assertion_id": "C-review-20261018-mary-hugh-record-father",
+    "people": [
+      "Glasgow-3957",
+      "Glasgow-3956"
+    ],
+    "status": "proved",
+    "allow_new_relationship": true,
+    "claim": "Mary’s1862 marriage names Hugh Glasgow,weaver,as her father",
+    "basis": "The inspected original entry174 names Hugh Glasgow,weaver,as the bride Mary Glasgow’s father. Hugh3956 represents this record-named man. The link was already attached and confidently marked;99% is an individual calibration,not a new parent or grade upgrade.",
+    "limitations": "Does not establish Mary’s identity with the1851 niece or identify the father of the Liminary children.",
+    "source_ids": [
+      "SRC-29b29aae4d17"
+    ],
+    "probability": {
+      "band": "confident",
+      "label": "Confident · 99%",
+      "minimum": 0.9,
+      "maximum": 0.99,
+      "rank": 4,
+      "value": 0.99,
+      "method": "individual_evidence_assessment",
+      "origin": "research",
+      "basis": "The1862 marriage explicitly names Hugh Glasgow,weaver,as Mary’s father. This profile represents that named father. It does not prove that the other Liminary fathers are the same Hugh or identify the census niece.",
+      "reviewed": "2026-10-18",
+      "source_ids": [
+        "SRC-29b29aae4d17"
+      ],
+      "assertion_id": "C-review-20261018-mary-hugh-record-father",
+      "scope": "One reviewed pair with reciprocal display; exact record role and adult identity distinguished."
+    },
+    "record_scope": "Mary’s1862 named father; other children and census identity assessed separately",
+    "perspectives": {
+      "Glasgow-3957": {
+        "relationship": "father",
+        "status_label": "Confident father ·99%",
+        "reason": "1862 original marriage names Hugh Glasgow,weaver; already confidently attached."
+      },
+      "Glasgow-3956": {
+        "relationship": "daughter",
+        "status_label": "Confident daughter ·99%",
+        "reason": "Reciprocal express1862 father clause; already confidently attached."
+      }
+    },
+    "provenance": {
+      "prior_status": "WikiTree Father DataStatus20,already confident,confirmed18 October2026.",
+      "scope": "Individual calibration only; zero new fathers or confident upgrades."
+    }
   }
 ]

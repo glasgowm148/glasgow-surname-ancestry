@@ -32255,6 +32255,51 @@
       "genealogical_connections_added": 0,
       "working_parent_replacements": 1,
       "new_source_discoveries": 0
+    },
+    {
+      "id": "glenleslie-hugh-robert-brothers-20261018",
+      "found_on": "2026-10-18",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Hugh Glasgow-3956 and the Glenleslie Robert within Glasgow-1367 are selected as probable brothers,74%,replacing the existing uncertain father–son interpretation locally.",
+      "qualification": "The74% is a combined judgment about identity and relationship, not a calculated frequency. The census niece and1862 bride are probably, not certainly, the same Mary: the register gives full age and a residence apparently recorded as unknown, not a specific Glenleslie locator. The1851 age implies birth about1816/17; the1898 death age79 implies1818/19, a real one-to-three-year discrepancy. That death names Mary Montgomery,a labourer’s widow,and son John; it does not name her husband Thomas or give her maiden surname, so it is supporting context rather than independent proof of the full identity. Mary could instead be a different woman, and niece could express a maternal or marriage connection. No inspected record expressly calls Hugh Robert’s brother or names Hugh’s own parents. This assessment concerns the Robert actually recorded at Glenleslie in1851. Glasgow-1367 also carries unresolved Lisnagaver and other identity comparisons; the brother inference neither identifies those property holders nor validates all children attached to that composite account. Hugh junior and Eliza’s1852/1854 Liminary marriages each name a Hugh Glasgow,weaver, but their father’s identity with Mary’s father remains a separate family reconstruction. Their shared residence supports their own sibling comparison; it does not independently prove Mary’s Glenleslie identity. No mother, new parent, shared anonymous parent, vital date, identity merge or live WikiTree field is added. One existing relationship changes degree: uncertain father–son becomes probable brothers,74%. It adds zero new fathers and zero newly connected person pairs to the working family. Strict paternal connectivity must lose the old father edge; siblinghood is shown separately and is not counted as descent. Mary’s already confidently marked father Hugh is individually assessed99% for the express1862 record role; this is calibration of an existing confident relationship, not a new father or a certainty upgrade.",
+      "people": [
+        {
+          "id": "Glasgow-3956",
+          "name": "Hugh Glasgow, weaver",
+          "url": "/people/glasgow-3956.html"
+        },
+        {
+          "id": "Glasgow-1367",
+          "name": "Robert Glasgow, Glenleslie identity",
+          "url": "/people/glasgow-1367.html"
+        },
+        {
+          "id": "Glasgow-3957",
+          "name": "Mary Glasgow, later Montgomery",
+          "url": "/people/glasgow-3957.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "1851 Irish census,Antrim,Dunaghy,Glenleslie,household23,original return,page1; reread18 October2026: Robert72 and Mary34,niece",
+          "url": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=31235&census_year=1851"
+        },
+        {
+          "title": "Civil marriage register,Ballymena,page62,entry174,Thomas Montgomery and Mary Glasgow,13 September1862; original reread18 October2026",
+          "url": "https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1862/09623/5489617.pdf"
+        },
+        {
+          "title": "Civil death register,Ballymena,page94,entry493,Mary Montgomery,22 March1898,Crankill,age79; original reread18 October2026",
+          "url": "https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1898/05842/4654852.pdf"
+        }
+      ],
+      "detail_url": "/branches/lisnagaver-rasharkin/#chapter-glenleslie-hugh-robert-brothers",
+      "relationship_changes": [],
+      "certainty_upgrades": 0,
+      "genealogical_connections_added": 0,
+      "relationship_degree_corrections": 1,
+      "new_source_discoveries": 0
     }
   ]
 }
