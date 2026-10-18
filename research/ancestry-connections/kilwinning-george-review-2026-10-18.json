@@ -1,0 +1,47 @@
+{
+  "reviewed": "2026-10-18",
+  "scope": "Kilwinning George: select a possible Leith father, 43%",
+  "assertion_id": "C-working-20261018-kilwinning-george-archibald",
+  "new_father_percent": 43,
+  "record_father_percent": 98,
+  "transcript_inspections": 3,
+  "original_inspections": 0,
+  "source_ids": [
+    "leith-george-1658-ard-watsone",
+    "kilwinning-marie-1688-george-willie",
+    "kilwinning-george-gardiner-1678"
+  ],
+  "basis": "Select Archibald Glasgow-3078 as George Glasgow-3120’s possible working father at 43% subjective confidence, through possible identity with the Leith child George Glasgow-2714. The unattached George is the record-defined father with Jannet Willie at Kilwinning in 1688. His own biography cross-references George-2714, and Marie’s biography already links that other George as her father while her structured field names George-3120. These are dependent inherited identity suggestions, not independent historical witnesses. The 1658 child would be about twenty at the recorded 1678 Kilwinning marriage and thirty at Marie’s 1688 baptism. The latter George account’s circa-1660 birth is only an estimate and does not exclude the 1658 child. Prefer this already identified childhood/father route to inventing a new parent or treating the two George accounts as demonstrably unrelated.",
+  "limitations": "The 43% rates the whole proposed father link to the 1688 adult, including the unresolved childhood and household identities. No record names that adult’s parents or carries the Leith child to Kilwinning. Jean Gardiner, Isobell/Jonet Young and Jannet Willie remain separately recorded women; no remarriage, alias or combined household is established. Another local George or another father remains possible. George-1082 of Mid Calder, George-1090 of Glasgow, George-1560 of Linlithgow and George-3100 of Campbeltown remain weaker chronological comparisons; different recorded settings and missing later records are not exclusions. Keep George-3120 and George-2714 as separate accounts and retain all spouses and children; the added son account does not establish two distinct George sons of Archibald. Agnes Watsone is named as the 1658 child’s mother, but no maternal attachment is selected for George-3120 in this paternal working comparison. Existing mothers, all vital fields and the uncertainty of Archibald’s own wider identity are preserved.",
+  "fresh_live_parents": {
+    "Glasgow-3120": {
+      "father": 0,
+      "mother": 0,
+      "father_status": ""
+    },
+    "Glasgow-3078": {
+      "father": 44209965,
+      "mother": 44214412,
+      "father_status": "20"
+    },
+    "Glasgow-2714": {
+      "father": 44210281,
+      "mother": 44210286,
+      "father_status": "20"
+    },
+    "Glasgow-3090": {
+      "father": 44215243,
+      "mother": 28998721,
+      "father_status": ""
+    },
+    "Willie-202": {
+      "father": 0,
+      "mother": 0,
+      "father_status": ""
+    }
+  },
+  "new_father_selections": 1,
+  "live_edits": 0,
+  "source_notes": "The1658 transcript was blocked by the provider limit in the3 September capture; it was actually inspected18 October. The new inference does not rely on the blocked capture.",
+  "previous_goal_turn": "Progress: committed and published the printed Stevenston source correction; no paternal join in that earlier turn."
+}

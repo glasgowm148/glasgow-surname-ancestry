@@ -1,0 +1,66 @@
+{
+  "reviewed": "2026-10-18",
+  "new_father_percent": 43,
+  "record_father_percent": 98,
+  "metrics": {
+    "1700": {
+      "population": [
+        309,
+        309
+      ],
+      "edge_count": [
+        285,
+        286
+      ],
+      "component_count": [
+        26,
+        25
+      ],
+      "largest_component_size": [
+        281,
+        283
+      ],
+      "connected_pairs_percent": [
+        82.67767830874627,
+        83.85869793636783
+      ]
+    },
+    "1850": {
+      "population": [
+        1789,
+        1789
+      ],
+      "edge_count": [
+        1381,
+        1382
+      ],
+      "component_count": [
+        410,
+        409
+      ],
+      "largest_component_size": [
+        1130,
+        1132
+      ],
+      "connected_pairs_percent": [
+        39.9398886808898,
+        40.081194673389334
+      ]
+    }
+  },
+  "all_model_vitals_preserved": true,
+  "all_model_parent_ids_preserved_except_new_father": true,
+  "dossier_vitals_mothers_spouses_existing_children_preserved": true,
+  "full_and_compact_pending_membership_equal": true,
+  "new_pending_count": 537,
+  "old_pending_count": 534,
+  "main_packed_model_matches_full": true,
+  "draft_hashes_verified": true,
+  "live_edits": 0,
+  "browser_checks": {
+    "main_whole_tree": "Verified actual /onetree/#person=Glasgow-3120&view=all: Archibald parent Possible43% and ancestry route displayed.",
+    "catalogue": "Verified two related results: new possible father43% links to Glasgow-3078; father now confident98% links to Glasgow-3120. George row precedes Marie row.",
+    "possible_filter_click": "Observation timed out; no successful filter interaction claimed. Full/compact relationship metadata and needsUpdate membership verified separately."
+  },
+  "draft_formatting": "Trailing whitespace only removed; substantive content preserved and draft publication rechecked."
+}

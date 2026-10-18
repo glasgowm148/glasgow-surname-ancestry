@@ -2450,3 +2450,10 @@ Burial-defined Walter remains on source-verification HOLD in the existing creati
 | [James Glasgow, Dalziel 1719](https://www.wikitree.com/wiki/Glasgow-3523) | OPEN | Add1716 banns context; intended couple88%; no mother assignment or father upgrade. |
 
 - Janet Broun — identity HOLD; [complete sourced draft](research/Glasgow-3166/1716_Scotland_Dalziel_Janet_Broun.md); resolve surviving undated profile comparisons before creation.
+
+
+## Leith–Kilwinning George — 18 October 2026
+
+| [George Glasgow, Kilwinning father in 1688](https://www.wikitree.com/wiki/Glasgow-3120) | OPEN | New possible father Archibald Glasgow-3078, 43%; retain the two George accounts and all household alternatives. |
+| [Archibald Glasgow of Leith](https://www.wikitree.com/wiki/Glasgow-3078) | OPEN | Possible additional George account, 43%; potentially the same son as George-2714, not a proved second son. |
+| [Marie Glasgow, baptised in 1688](https://www.wikitree.com/wiki/Glasgow-3090) | OPEN | Record-defined father George-3120, 98%; existing live father unmarked. George-2714 remains an identity alternative. |

@@ -3721,6 +3721,94 @@
       ],
       "reviewed": "2026-10-18",
       "scope": "Janet is a possible maternal lead for James Glasgow-3523, not his assigned mother: banns alone neither prove a completed marriage nor establish the mother of a later child. Samuel’s own parents remain unknown. The existing James-to-John Glasgow-3094 working father proposal remains possible at 41%; the new banns do not bridge the seventy-year identity gap. All birth/death fields, mothers and existing father grades are preserved. No new paternal component is joined and no certainty upgrade is counted. Intended couple, not a dated proved wedding."
+    },
+    {
+      "subject_id": "Glasgow-3120",
+      "relative_id": "Glasgow-3078",
+      "relationship": "father",
+      "percent": 43,
+      "assessment_status": "possible",
+      "assertion_id": "C-working-20261018-kilwinning-george-archibald",
+      "basis": "Select Archibald Glasgow-3078 as George Glasgow-3120’s possible working father at 43% subjective confidence, through possible identity with the Leith child George Glasgow-2714. The unattached George is the record-defined father with Jannet Willie at Kilwinning in 1688. His own biography cross-references George-2714, and Marie’s biography already links that other George as her father while her structured field names George-3120. These are dependent inherited identity suggestions, not independent historical witnesses. The 1658 child would be about twenty at the recorded 1678 Kilwinning marriage and thirty at Marie’s 1688 baptism. The latter George account’s circa-1660 birth is only an estimate and does not exclude the 1658 child. Prefer this already identified childhood/father route to inventing a new parent or treating the two George accounts as demonstrably unrelated.",
+      "source_ids": [
+        "leith-george-1658-ard-watsone",
+        "kilwinning-marie-1688-george-willie",
+        "kilwinning-george-gardiner-1678"
+      ],
+      "reviewed": "2026-10-18",
+      "scope": "The 43% rates the whole proposed father link to the 1688 adult, including the unresolved childhood and household identities. No record names that adult’s parents or carries the Leith child to Kilwinning. Jean Gardiner, Isobell/Jonet Young and Jannet Willie remain separately recorded women; no remarriage, alias or combined household is established. Another local George or another father remains possible. George-1082 of Mid Calder, George-1090 of Glasgow, George-1560 of Linlithgow and George-3100 of Campbeltown remain weaker chronological comparisons; different recorded settings and missing later records are not exclusions. Keep George-3120 and George-2714 as separate accounts and retain all spouses and children; the added son account does not establish two distinct George sons of Archibald. Agnes Watsone is named as the 1658 child’s mother, but no maternal attachment is selected for George-3120 in this paternal working comparison. Existing mothers, all vital fields and the uncertainty of Archibald’s own wider identity are preserved."
+    },
+    {
+      "subject_id": "Glasgow-3078",
+      "relative_id": "Glasgow-3120",
+      "relationship": "child",
+      "percent": 43,
+      "assessment_status": "possible",
+      "assertion_id": "C-working-20261018-kilwinning-george-archibald",
+      "basis": "Select Archibald Glasgow-3078 as George Glasgow-3120’s possible working father at 43% subjective confidence, through possible identity with the Leith child George Glasgow-2714. The unattached George is the record-defined father with Jannet Willie at Kilwinning in 1688. His own biography cross-references George-2714, and Marie’s biography already links that other George as her father while her structured field names George-3120. These are dependent inherited identity suggestions, not independent historical witnesses. The 1658 child would be about twenty at the recorded 1678 Kilwinning marriage and thirty at Marie’s 1688 baptism. The latter George account’s circa-1660 birth is only an estimate and does not exclude the 1658 child. Prefer this already identified childhood/father route to inventing a new parent or treating the two George accounts as demonstrably unrelated.",
+      "source_ids": [
+        "leith-george-1658-ard-watsone",
+        "kilwinning-marie-1688-george-willie",
+        "kilwinning-george-gardiner-1678"
+      ],
+      "reviewed": "2026-10-18",
+      "scope": "The 43% rates the whole proposed father link to the 1688 adult, including the unresolved childhood and household identities. No record names that adult’s parents or carries the Leith child to Kilwinning. Jean Gardiner, Isobell/Jonet Young and Jannet Willie remain separately recorded women; no remarriage, alias or combined household is established. Another local George or another father remains possible. George-1082 of Mid Calder, George-1090 of Glasgow, George-1560 of Linlithgow and George-3100 of Campbeltown remain weaker chronological comparisons; different recorded settings and missing later records are not exclusions. Keep George-3120 and George-2714 as separate accounts and retain all spouses and children; the added son account does not establish two distinct George sons of Archibald. Agnes Watsone is named as the 1658 child’s mother, but no maternal attachment is selected for George-3120 in this paternal working comparison. Existing mothers, all vital fields and the uncertainty of Archibald’s own wider identity are preserved."
+    },
+    {
+      "subject_id": "Glasgow-2714",
+      "relative_id": "Glasgow-3078",
+      "relationship": "father",
+      "percent": 98,
+      "assessment_status": "strongly_supported",
+      "assertion_id": "C-role-20261018-leith-george-father",
+      "basis": "The 16 May 1658 transcript names Ard Glasgow and Agnes Watsone; Archibald’s separately inspected 1662 testament names a lawful son George. This rates the existing Leith record-defined child/father relationship, not the child’s identification with either Kilwinning adult.",
+      "source_ids": [
+        "leith-george-1658-ard-watsone"
+      ],
+      "reviewed": "2026-10-18",
+      "scope": "Leith child of 1658; father already marked certain on WikiTree. Adult identity remains unresolved."
+    },
+    {
+      "subject_id": "Glasgow-3078",
+      "relative_id": "Glasgow-2714",
+      "relationship": "child",
+      "percent": 98,
+      "assessment_status": "strongly_supported",
+      "assertion_id": "C-role-20261018-leith-george-father",
+      "basis": "The 16 May 1658 transcript names Ard Glasgow and Agnes Watsone; Archibald’s separately inspected 1662 testament names a lawful son George. This rates the existing Leith record-defined child/father relationship, not the child’s identification with either Kilwinning adult.",
+      "source_ids": [
+        "leith-george-1658-ard-watsone"
+      ],
+      "reviewed": "2026-10-18",
+      "scope": "Leith child of 1658; father already marked certain on WikiTree. Adult identity remains unresolved."
+    },
+    {
+      "subject_id": "Glasgow-3090",
+      "relative_id": "Glasgow-3120",
+      "relationship": "father",
+      "percent": 98,
+      "assessment_status": "strongly_supported",
+      "assertion_id": "C-role-20261018-kilwinning-marie-father",
+      "basis": "The 29 July 1688 transcript names George Glasgow and Jannet Willie. George-3120 is the existing account defined by this parent pair and Marie; no additional later identity is required to identify this record-defined father.",
+      "source_ids": [
+        "kilwinning-marie-1688-george-willie"
+      ],
+      "reviewed": "2026-10-18",
+      "scope": "Father named in Marie’s 1688 baptism; no proof of the father’s own childhood or parents."
+    },
+    {
+      "subject_id": "Glasgow-3120",
+      "relative_id": "Glasgow-3090",
+      "relationship": "child",
+      "percent": 98,
+      "assessment_status": "strongly_supported",
+      "assertion_id": "C-role-20261018-kilwinning-marie-father",
+      "basis": "The 29 July 1688 transcript names George Glasgow and Jannet Willie. George-3120 is the existing account defined by this parent pair and Marie; no additional later identity is required to identify this record-defined father.",
+      "source_ids": [
+        "kilwinning-marie-1688-george-willie"
+      ],
+      "reviewed": "2026-10-18",
+      "scope": "Father named in Marie’s 1688 baptism; no proof of the father’s own childhood or parents."
     }
   ]
 }
