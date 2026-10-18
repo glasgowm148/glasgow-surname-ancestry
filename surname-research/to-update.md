@@ -2412,3 +2412,12 @@ Burial-defined Walter remains on source-verification HOLD in the existing creati
 | [Glasgow-4157](https://www.wikitree.com/wiki/Glasgow-4157) | OPEN | James is the documented father of the Irvine John, Allan and Susanna household, each 98%; Allan’s father field is missing. |
 | [Glasgow-4116](https://www.wikitree.com/wiki/Glasgow-4116) | OPEN | Existing father James Glasgow-4157 is documented at 98%, previously ungraded; no new attachment. |
 | [Glasgow-4128](https://www.wikitree.com/wiki/Glasgow-4128) | OPEN | Existing father James Glasgow-4157 is documented at 98%, previously ungraded; retain the maternal Macsmith reading. |
+
+
+## Irvine possible upstream father —18 October 2026
+
+| [Glasgow-4157](https://www.wikitree.com/wiki/Glasgow-4157) | OPEN | John Glasgow-2475 is the selected possible father, 58%; James Glasgow-4158 remains an unselected 26% alternative. |
+| [Glasgow-2475](https://www.wikitree.com/wiki/Glasgow-2475) | OPEN | James Glasgow-4157 is a possible son, 58%, through the 1711 baptism identity; no new certainty for John’s own father. |
+| [Glasgow-4100](https://www.wikitree.com/wiki/Glasgow-4100) | OPEN | The1711 child is the preferred possible identity for Helen Nasmith’s partner4157; the implied John father is58%, not proved. |
+| [Glasgow-4158](https://www.wikitree.com/wiki/Glasgow-4158) | OPEN | This James remains an unselected 26% father alternative for4157 through his 1721 son; his current upstream father is unchanged. |
+| [Glasgow-4129](https://www.wikitree.com/wiki/Glasgow-4129) | OPEN | The1721 child remains a compatible unselected identity for Helen Nasmith’s partner; that father model is26%. |

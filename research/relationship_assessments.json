@@ -14283,5 +14283,157 @@
       "review_scope": "Existing baptism transcripts and record-defined household, no shipmaster identity selected",
       "live_flag_changed": false
     }
+  },
+  {
+    "assertion_id": "C-working-20261018-irvine-james-john-father",
+    "people": [
+      "Glasgow-4157",
+      "Glasgow-2475"
+    ],
+    "profile_names": {
+      "Glasgow-4157": "James Glasgow, Helen Nasmith household",
+      "Glasgow-2475": "John Glasgow, Irvine Kyle household",
+      "Glasgow-4100": "James Glasgow, baptised 1711",
+      "Glasgow-4158": "James Glasgow, Irvine Rae household",
+      "Glasgow-4129": "James Glasgow, baptised 1721"
+    },
+    "status": "possible",
+    "hypothesis_status": "possible",
+    "working_selection": true,
+    "allow_new_relationship": true,
+    "publication_status": "approved",
+    "assessment_date": "2026-10-18",
+    "evidence_grade": "Possible combined identity and father inference",
+    "basis": "Select John Glasgow-2475 of the Irvine Isabell Kyle/Kelle household as the possible working father of James Glasgow-4157, Helen Nasmith’s partner, at 58% subjective confidence. The leading explanation identifies the later James with John and Isabell’s James, baptised at Irvine on 19 August 1711 (Glasgow-4100). This joins a specific recorded birth family to a specific later household in the same parish. Assuming infant baptism, that James would be about thirty when John was born in August 1741 and about thirty-five at Susanna’s 1747 birth. The later household’s first known son is John, agreeing with the proposed paternal grandfather. Same-parish continuity, a comfortable adult chronology and this modest naming clue together favour this family over the younger 1721 comparison. None independently proves the identification.",
+    "limitations": "The 58% assesses the complete father proposition, including the uncertain baptism-to-adult identity. No source names the 1741–1747 father’s own parents, and no residence, trade or witness links the households. Baptism is not necessarily near birth, John is a common forename, and the first known child is not necessarily the eldest child. The 1711 and 1721 ages are illustrative infant-baptism assumptions, not recorded ages. James Glasgow-4157’s before-1722 birth is an inherited adult-age estimate, not a 1722 birth or a hard biological boundary. Do not use that estimate to prefer or exclude a candidate. All dates and identities remain unchanged. The original registers are uninspected; maintained Findmypast transcripts are being reassessed, not newly discovered. Retain James Glasgow-4158 as an unselected alternative father at 26%, through possible identification of Helen Nasmith’s partner with his son James Glasgow-4129, baptised at Irvine on 11 April 1721 to James and Margaret Rae. If baptised as an infant, he would be about twenty at the 1741 child’s birth: young but fully possible, not excluded. The Rae household and its Margaret/Marion distinction remain as previously assessed. James Glasgow-1932, baptised at Kilwinning in 1707 to John Glasgow and Mary Gemill, and James Glasgow-1131, indexed at Kilbirnie in 1718 to John Glasgow and Agnes Ferguson, remain broader compatible comparisons; their father’s name could also explain a John child, so naming is not unique. An unrepresented family is also possible. No new individual percentages are assigned to these unselected broader identity comparisons. Another compatible model identifies Helen Nasmith’s partner with the older Rae-household James Glasgow-4158 himself, after a different partnership. His inherited age estimate would make him at least about thirty-nine in 1741, which does not exclude this model. No spouse death or remarriage is established. This is distinct from the 26% model making the later man a son of James Glasgow-4158; neither identity is merged. Hugh Glasgow-3109’s existing uncertain attachment belongs to the elder account and is not transferred to James Glasgow-4157. This is one newly selected possible father, not a confident relationship or a source discovery. The Irvine James, John, Allan and Susanna household provisionally joins the larger working component; supported and confident connectivity do not gain this 58% edge. James’s documented fatherhood of the three children remains separately 98%. His identification with the Prosperity shipmaster in 1740 remains unresolved and supplies no family bridge. John Glasgow-2475’s own uncertain upstream pedigree is not strengthened. Isabell Kyle is not selected as James Glasgow-4157’s mother. Glasgow-4100 and Glasgow-4157 may be two accounts of one person: no merge is performed and the working profile count is not a count of distinct proved people or two independently established James brothers. Resolve the possible duplicate before any live attachment or merger.",
+    "source_ids": [
+      "irvine-james-kyle-1711",
+      "irvine-james-rae-father-1721",
+      "irvine-nasmith-john-1741",
+      "irvine-nasmith-allan-1743",
+      "irvine-nasmith-susanna-1747"
+    ],
+    "assessment_history": [
+      {
+        "assessment_status": "unknown",
+        "tree_status": "absent",
+        "relative_id": null,
+        "saved_flag": "",
+        "percent": null,
+        "source_basis": "Anonymous public WikiTree getPeople 18 October 2026 confirms Father=0; before-batch canonical dossier has no selected father. No prior individual estimate."
+      }
+    ],
+    "perspectives": {
+      "Glasgow-4157": {
+        "relationship": "father",
+        "status_label": "Possible working father",
+        "reason": "Select John Glasgow-2475 of the Irvine Isabell Kyle/Kelle household as the possible working father of James Glasgow-4157, Helen Nasmith’s partner, at 58% subjective confidence. The leading explanation identifies the later James with John and Isabell’s James, baptised at Irvine on 19 August 1711 (Glasgow-4100). This joins a specific recorded birth family to a specific later household in the same parish. Assuming infant baptism, that James would be about thirty when John was born in August 1741 and about thirty-five at Susanna’s 1747 birth. The later household’s first known son is John, agreeing with the proposed paternal grandfather. Same-parish continuity, a comfortable adult chronology and this modest naming clue together favour this family over the younger 1721 comparison. None independently proves the identification. The 58% assesses the complete father proposition, including the uncertain baptism-to-adult identity. No source names the 1741–1747 father’s own parents, and no residence, trade or witness links the households. Baptism is not necessarily near birth, John is a common forename, and the first known child is not necessarily the eldest child. The 1711 and 1721 ages are illustrative infant-baptism assumptions, not recorded ages. James Glasgow-4157’s before-1722 birth is an inherited adult-age estimate, not a 1722 birth or a hard biological boundary. Do not use that estimate to prefer or exclude a candidate. All dates and identities remain unchanged. The original registers are uninspected; maintained Findmypast transcripts are being reassessed, not newly discovered. This is one newly selected possible father, not a confident relationship or a source discovery. The Irvine James, John, Allan and Susanna household provisionally joins the larger working component; supported and confident connectivity do not gain this 58% edge. James’s documented fatherhood of the three children remains separately 98%. His identification with the Prosperity shipmaster in 1740 remains unresolved and supplies no family bridge. John Glasgow-2475’s own uncertain upstream pedigree is not strengthened. Isabell Kyle is not selected as James Glasgow-4157’s mother. Glasgow-4100 and Glasgow-4157 may be two accounts of one person: no merge is performed and the working profile count is not a count of distinct proved people or two independently established James brothers. Resolve the possible duplicate before any live attachment or merger."
+      },
+      "Glasgow-2475": {
+        "relationship": "son",
+        "status_label": "Possible working son",
+        "reason": "Select John Glasgow-2475 of the Irvine Isabell Kyle/Kelle household as the possible working father of James Glasgow-4157, Helen Nasmith’s partner, at 58% subjective confidence. The leading explanation identifies the later James with John and Isabell’s James, baptised at Irvine on 19 August 1711 (Glasgow-4100). This joins a specific recorded birth family to a specific later household in the same parish. Assuming infant baptism, that James would be about thirty when John was born in August 1741 and about thirty-five at Susanna’s 1747 birth. The later household’s first known son is John, agreeing with the proposed paternal grandfather. Same-parish continuity, a comfortable adult chronology and this modest naming clue together favour this family over the younger 1721 comparison. None independently proves the identification. The 58% assesses the complete father proposition, including the uncertain baptism-to-adult identity. No source names the 1741–1747 father’s own parents, and no residence, trade or witness links the households. Baptism is not necessarily near birth, John is a common forename, and the first known child is not necessarily the eldest child. The 1711 and 1721 ages are illustrative infant-baptism assumptions, not recorded ages. James Glasgow-4157’s before-1722 birth is an inherited adult-age estimate, not a 1722 birth or a hard biological boundary. Do not use that estimate to prefer or exclude a candidate. All dates and identities remain unchanged. The original registers are uninspected; maintained Findmypast transcripts are being reassessed, not newly discovered. This is one newly selected possible father, not a confident relationship or a source discovery. The Irvine James, John, Allan and Susanna household provisionally joins the larger working component; supported and confident connectivity do not gain this 58% edge. James’s documented fatherhood of the three children remains separately 98%. His identification with the Prosperity shipmaster in 1740 remains unresolved and supplies no family bridge. John Glasgow-2475’s own uncertain upstream pedigree is not strengthened. Isabell Kyle is not selected as James Glasgow-4157’s mother. Glasgow-4100 and Glasgow-4157 may be two accounts of one person: no merge is performed and the working profile count is not a count of distinct proved people or two independently established James brothers. Resolve the possible duplicate before any live attachment or merger."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Irvine: John is James’s possible father, 58%",
+        "href": "/branches/early-scottish-records/#chapter-irvine-james-upstream"
+      }
+    ],
+    "probability": {
+      "value": 0.58,
+      "basis": "Select John Glasgow-2475 of the Irvine Isabell Kyle/Kelle household as the possible working father of James Glasgow-4157, Helen Nasmith’s partner, at 58% subjective confidence. The leading explanation identifies the later James with John and Isabell’s James, baptised at Irvine on 19 August 1711 (Glasgow-4100). This joins a specific recorded birth family to a specific later household in the same parish. Assuming infant baptism, that James would be about thirty when John was born in August 1741 and about thirty-five at Susanna’s 1747 birth. The later household’s first known son is John, agreeing with the proposed paternal grandfather. Same-parish continuity, a comfortable adult chronology and this modest naming clue together favour this family over the younger 1721 comparison. None independently proves the identification.",
+      "reviewed": "2026-10-18",
+      "source_ids": [
+        "irvine-james-kyle-1711",
+        "irvine-james-rae-father-1721",
+        "irvine-nasmith-john-1741",
+        "irvine-nasmith-allan-1743",
+        "irvine-nasmith-susanna-1747"
+      ],
+      "scope": "The 58% assesses the complete father proposition, including the uncertain baptism-to-adult identity. No source names the 1741–1747 father’s own parents, and no residence, trade or witness links the households. Baptism is not necessarily near birth, John is a common forename, and the first known child is not necessarily the eldest child. The 1711 and 1721 ages are illustrative infant-baptism assumptions, not recorded ages. James Glasgow-4157’s before-1722 birth is an inherited adult-age estimate, not a 1722 birth or a hard biological boundary. Do not use that estimate to prefer or exclude a candidate. All dates and identities remain unchanged. The original registers are uninspected; maintained Findmypast transcripts are being reassessed, not newly discovered."
+    },
+    "provenance": {
+      "review_scope": "Combined identity inference from maintained parish transcripts; no original newly inspected",
+      "live_flag_changed": false
+    }
+  },
+  {
+    "assertion_id": "C-alternative-20261018-irvine-james-rae-father",
+    "people": [
+      "Glasgow-4157",
+      "Glasgow-4158"
+    ],
+    "profile_names": {
+      "Glasgow-4157": "James Glasgow, Helen Nasmith household",
+      "Glasgow-2475": "John Glasgow, Irvine Kyle household",
+      "Glasgow-4100": "James Glasgow, baptised 1711",
+      "Glasgow-4158": "James Glasgow, Irvine Rae household",
+      "Glasgow-4129": "James Glasgow, baptised 1721"
+    },
+    "status": "uncertain",
+    "hypothesis_status": "uncertain",
+    "working_selection": false,
+    "allow_new_relationship": true,
+    "publication_status": "approved",
+    "assessment_date": "2026-10-18",
+    "evidence_grade": "Unselected alternative father identity",
+    "basis": "Retain James Glasgow-4158 as an unselected alternative father at 26%, through possible identification of Helen Nasmith’s partner with his son James Glasgow-4129, baptised at Irvine on 11 April 1721 to James and Margaret Rae. If baptised as an infant, he would be about twenty at the 1741 child’s birth: young but fully possible, not excluded. The Rae household and its Margaret/Marion distinction remain as previously assessed. James Glasgow-1932, baptised at Kilwinning in 1707 to John Glasgow and Mary Gemill, and James Glasgow-1131, indexed at Kilbirnie in 1718 to John Glasgow and Agnes Ferguson, remain broader compatible comparisons; their father’s name could also explain a John child, so naming is not unique. An unrepresented family is also possible. No new individual percentages are assigned to these unselected broader identity comparisons. Another compatible model identifies Helen Nasmith’s partner with the older Rae-household James Glasgow-4158 himself, after a different partnership. His inherited age estimate would make him at least about thirty-nine in 1741, which does not exclude this model. No spouse death or remarriage is established. This is distinct from the 26% model making the later man a son of James Glasgow-4158; neither identity is merged. Hugh Glasgow-3109’s existing uncertain attachment belongs to the elder account and is not transferred to James Glasgow-4157.",
+    "limitations": "The 58% assesses the complete father proposition, including the uncertain baptism-to-adult identity. No source names the 1741–1747 father’s own parents, and no residence, trade or witness links the households. Baptism is not necessarily near birth, John is a common forename, and the first known child is not necessarily the eldest child. The 1711 and 1721 ages are illustrative infant-baptism assumptions, not recorded ages. James Glasgow-4157’s before-1722 birth is an inherited adult-age estimate, not a 1722 birth or a hard biological boundary. Do not use that estimate to prefer or exclude a candidate. All dates and identities remain unchanged. The original registers are uninspected; maintained Findmypast transcripts are being reassessed, not newly discovered. Retain James Glasgow-4158 as an unselected alternative father at 26%, through possible identification of Helen Nasmith’s partner with his son James Glasgow-4129, baptised at Irvine on 11 April 1721 to James and Margaret Rae. If baptised as an infant, he would be about twenty at the 1741 child’s birth: young but fully possible, not excluded. The Rae household and its Margaret/Marion distinction remain as previously assessed. James Glasgow-1932, baptised at Kilwinning in 1707 to John Glasgow and Mary Gemill, and James Glasgow-1131, indexed at Kilbirnie in 1718 to John Glasgow and Agnes Ferguson, remain broader compatible comparisons; their father’s name could also explain a John child, so naming is not unique. An unrepresented family is also possible. No new individual percentages are assigned to these unselected broader identity comparisons. Another compatible model identifies Helen Nasmith’s partner with the older Rae-household James Glasgow-4158 himself, after a different partnership. His inherited age estimate would make him at least about thirty-nine in 1741, which does not exclude this model. No spouse death or remarriage is established. This is distinct from the 26% model making the later man a son of James Glasgow-4158; neither identity is merged. Hugh Glasgow-3109’s existing uncertain attachment belongs to the elder account and is not transferred to James Glasgow-4157. This is one newly selected possible father, not a confident relationship or a source discovery. The Irvine James, John, Allan and Susanna household provisionally joins the larger working component; supported and confident connectivity do not gain this 58% edge. James’s documented fatherhood of the three children remains separately 98%. His identification with the Prosperity shipmaster in 1740 remains unresolved and supplies no family bridge. John Glasgow-2475’s own uncertain upstream pedigree is not strengthened. Isabell Kyle is not selected as James Glasgow-4157’s mother. Glasgow-4100 and Glasgow-4157 may be two accounts of one person: no merge is performed and the working profile count is not a count of distinct proved people or two independently established James brothers. Resolve the possible duplicate before any live attachment or merger.",
+    "source_ids": [
+      "irvine-james-kyle-1711",
+      "irvine-james-rae-father-1721",
+      "irvine-nasmith-john-1741",
+      "irvine-nasmith-allan-1743",
+      "irvine-nasmith-susanna-1747"
+    ],
+    "assessment_history": [
+      {
+        "assessment_status": "unknown",
+        "tree_status": "absent",
+        "relative_id": null,
+        "saved_flag": "",
+        "percent": null,
+        "source_basis": "Anonymous public WikiTree getPeople 18 October 2026 confirms Father=0; before-batch canonical dossier has no selected father. No prior individual estimate."
+      }
+    ],
+    "perspectives": {
+      "Glasgow-4157": {
+        "relationship": "father",
+        "status_label": "Unselected alternative father",
+        "reason": "Retain James Glasgow-4158 as an unselected alternative father at 26%, through possible identification of Helen Nasmith’s partner with his son James Glasgow-4129, baptised at Irvine on 11 April 1721 to James and Margaret Rae. If baptised as an infant, he would be about twenty at the 1741 child’s birth: young but fully possible, not excluded. The Rae household and its Margaret/Marion distinction remain as previously assessed. James Glasgow-1932, baptised at Kilwinning in 1707 to John Glasgow and Mary Gemill, and James Glasgow-1131, indexed at Kilbirnie in 1718 to John Glasgow and Agnes Ferguson, remain broader compatible comparisons; their father’s name could also explain a John child, so naming is not unique. An unrepresented family is also possible. No new individual percentages are assigned to these unselected broader identity comparisons. Another compatible model identifies Helen Nasmith’s partner with the older Rae-household James Glasgow-4158 himself, after a different partnership. His inherited age estimate would make him at least about thirty-nine in 1741, which does not exclude this model. No spouse death or remarriage is established. This is distinct from the 26% model making the later man a son of James Glasgow-4158; neither identity is merged. Hugh Glasgow-3109’s existing uncertain attachment belongs to the elder account and is not transferred to James Glasgow-4157. The 58% assesses the complete father proposition, including the uncertain baptism-to-adult identity. No source names the 1741–1747 father’s own parents, and no residence, trade or witness links the households. Baptism is not necessarily near birth, John is a common forename, and the first known child is not necessarily the eldest child. The 1711 and 1721 ages are illustrative infant-baptism assumptions, not recorded ages. James Glasgow-4157’s before-1722 birth is an inherited adult-age estimate, not a 1722 birth or a hard biological boundary. Do not use that estimate to prefer or exclude a candidate. All dates and identities remain unchanged. The original registers are uninspected; maintained Findmypast transcripts are being reassessed, not newly discovered. This is one newly selected possible father, not a confident relationship or a source discovery. The Irvine James, John, Allan and Susanna household provisionally joins the larger working component; supported and confident connectivity do not gain this 58% edge. James’s documented fatherhood of the three children remains separately 98%. His identification with the Prosperity shipmaster in 1740 remains unresolved and supplies no family bridge. John Glasgow-2475’s own uncertain upstream pedigree is not strengthened. Isabell Kyle is not selected as James Glasgow-4157’s mother. Glasgow-4100 and Glasgow-4157 may be two accounts of one person: no merge is performed and the working profile count is not a count of distinct proved people or two independently established James brothers. Resolve the possible duplicate before any live attachment or merger."
+      },
+      "Glasgow-4158": {
+        "relationship": "son",
+        "status_label": "Unselected alternative son",
+        "reason": "Retain James Glasgow-4158 as an unselected alternative father at 26%, through possible identification of Helen Nasmith’s partner with his son James Glasgow-4129, baptised at Irvine on 11 April 1721 to James and Margaret Rae. If baptised as an infant, he would be about twenty at the 1741 child’s birth: young but fully possible, not excluded. The Rae household and its Margaret/Marion distinction remain as previously assessed. James Glasgow-1932, baptised at Kilwinning in 1707 to John Glasgow and Mary Gemill, and James Glasgow-1131, indexed at Kilbirnie in 1718 to John Glasgow and Agnes Ferguson, remain broader compatible comparisons; their father’s name could also explain a John child, so naming is not unique. An unrepresented family is also possible. No new individual percentages are assigned to these unselected broader identity comparisons. Another compatible model identifies Helen Nasmith’s partner with the older Rae-household James Glasgow-4158 himself, after a different partnership. His inherited age estimate would make him at least about thirty-nine in 1741, which does not exclude this model. No spouse death or remarriage is established. This is distinct from the 26% model making the later man a son of James Glasgow-4158; neither identity is merged. Hugh Glasgow-3109’s existing uncertain attachment belongs to the elder account and is not transferred to James Glasgow-4157. The 58% assesses the complete father proposition, including the uncertain baptism-to-adult identity. No source names the 1741–1747 father’s own parents, and no residence, trade or witness links the households. Baptism is not necessarily near birth, John is a common forename, and the first known child is not necessarily the eldest child. The 1711 and 1721 ages are illustrative infant-baptism assumptions, not recorded ages. James Glasgow-4157’s before-1722 birth is an inherited adult-age estimate, not a 1722 birth or a hard biological boundary. Do not use that estimate to prefer or exclude a candidate. All dates and identities remain unchanged. The original registers are uninspected; maintained Findmypast transcripts are being reassessed, not newly discovered. This is one newly selected possible father, not a confident relationship or a source discovery. The Irvine James, John, Allan and Susanna household provisionally joins the larger working component; supported and confident connectivity do not gain this 58% edge. James’s documented fatherhood of the three children remains separately 98%. His identification with the Prosperity shipmaster in 1740 remains unresolved and supplies no family bridge. John Glasgow-2475’s own uncertain upstream pedigree is not strengthened. Isabell Kyle is not selected as James Glasgow-4157’s mother. Glasgow-4100 and Glasgow-4157 may be two accounts of one person: no merge is performed and the working profile count is not a count of distinct proved people or two independently established James brothers. Resolve the possible duplicate before any live attachment or merger."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Irvine: John is James’s possible father, 58%",
+        "href": "/branches/early-scottish-records/#chapter-irvine-james-upstream"
+      }
+    ],
+    "probability": {
+      "value": 0.26,
+      "basis": "Retain James Glasgow-4158 as an unselected alternative father at 26%, through possible identification of Helen Nasmith’s partner with his son James Glasgow-4129, baptised at Irvine on 11 April 1721 to James and Margaret Rae. If baptised as an infant, he would be about twenty at the 1741 child’s birth: young but fully possible, not excluded. The Rae household and its Margaret/Marion distinction remain as previously assessed. James Glasgow-1932, baptised at Kilwinning in 1707 to John Glasgow and Mary Gemill, and James Glasgow-1131, indexed at Kilbirnie in 1718 to John Glasgow and Agnes Ferguson, remain broader compatible comparisons; their father’s name could also explain a John child, so naming is not unique. An unrepresented family is also possible. No new individual percentages are assigned to these unselected broader identity comparisons. Another compatible model identifies Helen Nasmith’s partner with the older Rae-household James Glasgow-4158 himself, after a different partnership. His inherited age estimate would make him at least about thirty-nine in 1741, which does not exclude this model. No spouse death or remarriage is established. This is distinct from the 26% model making the later man a son of James Glasgow-4158; neither identity is merged. Hugh Glasgow-3109’s existing uncertain attachment belongs to the elder account and is not transferred to James Glasgow-4157.",
+      "reviewed": "2026-10-18",
+      "source_ids": [
+        "irvine-james-kyle-1711",
+        "irvine-james-rae-father-1721",
+        "irvine-nasmith-john-1741",
+        "irvine-nasmith-allan-1743",
+        "irvine-nasmith-susanna-1747"
+      ],
+      "scope": "The 58% assesses the complete father proposition, including the uncertain baptism-to-adult identity. No source names the 1741–1747 father’s own parents, and no residence, trade or witness links the households. Baptism is not necessarily near birth, John is a common forename, and the first known child is not necessarily the eldest child. The 1711 and 1721 ages are illustrative infant-baptism assumptions, not recorded ages. James Glasgow-4157’s before-1722 birth is an inherited adult-age estimate, not a 1722 birth or a hard biological boundary. Do not use that estimate to prefer or exclude a candidate. All dates and identities remain unchanged. The original registers are uninspected; maintained Findmypast transcripts are being reassessed, not newly discovered."
+    },
+    "provenance": {
+      "review_scope": "Combined identity inference from maintained parish transcripts; no original newly inspected",
+      "live_flag_changed": false
+    },
+    "lifecycle": "alternative",
+    "display": "alternative"
   }
 ]

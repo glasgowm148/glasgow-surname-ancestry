@@ -5533,5 +5533,52 @@
         "role": "Named mother, indexed Nasmith/Macsmith"
       }
     }
+  },
+  {
+    "record_id": "irvine-james-kyle-1711",
+    "record_type": "baptism",
+    "date": "1711-08-19",
+    "year": 1711,
+    "place": "Irvine, Ayrshire, Scotland",
+    "source_title": "Findmypast, Irvine OPR595/1 p.16, James Glasgow baptism, 19 August 1711; parents John Glasgow and Isabell Kelle; SCOT/OPR/BAP/3572963, maintained transcript",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3572963&tab=this",
+    "source_type": "Parish baptism transcript",
+    "source_status": "Maintained 3 September 2026 transcript reused; original uninspected",
+    "status": "Baptism directly names John Glasgow and Isabell Kelle; later adult identity possible58%",
+    "note": "This identifies the child account Glasgow-4100. Identifying that child with the Nasmith-household adult4157 is a separate possible inference, not an explicit register statement.",
+    "profiles": {
+      "Glasgow-4100": {
+        "role": "Baptised child"
+      },
+      "Glasgow-2475": {
+        "role": "Named father"
+      },
+      "Kyle-2471": {
+        "role": "Named mother"
+      }
+    }
+  },
+  {
+    "record_id": "irvine-william-kyle-1706",
+    "record_type": "birth/baptism index",
+    "year": 1706,
+    "date": "16 April 1706 (indexed date)",
+    "place": "Irvine, Ayrshire, Scotland",
+    "source_title": "FamilySearch, Scotland Births and Baptisms, 1564–1950, William Glasgow in 1706, parents John Glasgow and Isabell Kyle/Keil; batch C11595-2, film 1041383, reference 2:16D87RQ; maintained citation on Glasgow-3408, underlying record not newly inspected.",
+    "source_url": "https://familysearch.org/ark:/61903/1:1:XY8Z-PGS",
+    "source_type": "Maintained parish-index citation",
+    "source_status": "Held citation reused; original/index not newly inspected",
+    "note": "Supports correcting the 1706 child pointer from older Glasgow-3080 to Glasgow-3408. Does not establish John’s own father or alter any vital field.",
+    "profiles": {
+      "Glasgow-3408": {
+        "role": "Indexed child"
+      },
+      "Glasgow-2475": {
+        "role": "Named father"
+      },
+      "Kyle-2471": {
+        "role": "Named mother"
+      }
+    }
   }
 ]

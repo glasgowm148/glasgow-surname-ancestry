@@ -1,0 +1,621 @@
+{
+  "schema_version": 1,
+  "reviewed": "2026-10-18",
+  "cutoff": 1850,
+  "method_version": 3,
+  "input_fingerprint": "a85cf724b5b211c094b04286fc84f15317aec0f40df4cdec958183a0f77138bf",
+  "scope": "Irvine: John is James’s possible father, 58%",
+  "publication_summary": "One possible father58% connects four existing profile accounts to the main working component; unselected alternative26%, possible duplicate retained. No source discovery or certainty upgrade.",
+  "models": {
+    "main": {
+      "checked_historical_profiles": 1789,
+      "matched_paternal_edges": 1380,
+      "changed_father_fields": 1,
+      "changed_mother_fields": 0,
+      "added_historical_profiles": []
+    },
+    "standalone": {
+      "checked_historical_profiles": 1789,
+      "matched_paternal_edges": 1380,
+      "changed_father_fields": 1,
+      "changed_mother_fields": 0,
+      "added_historical_profiles": []
+    }
+  },
+  "working_parent_changes": [
+    {
+      "subject_id": "Glasgow-4157",
+      "relative_id": "Glasgow-2475",
+      "relationship": "father",
+      "action": "add",
+      "before": "absent",
+      "after": "possible",
+      "probability_percent": 58,
+      "assertion_id": "C-working-20261018-irvine-james-john-father",
+      "basis": "Select John Glasgow-2475 of the Irvine Isabell Kyle/Kelle household as the possible working father of James Glasgow-4157, Helen Nasmith’s partner, at 58% subjective confidence. The leading explanation identifies the later James with John and Isabell’s James, baptised at Irvine on 19 August 1711 (Glasgow-4100). This joins a specific recorded birth family to a specific later household in the same parish. Assuming infant baptism, that James would be about thirty when John was born in August 1741 and about thirty-five at Susanna’s 1747 birth. The later household’s first known son is John, agreeing with the proposed paternal grandfather. Same-parish continuity, a comfortable adult chronology and this modest naming clue together favour this family over the younger 1721 comparison. None independently proves the identification.",
+      "limitations": "The 58% assesses the complete father proposition, including the uncertain baptism-to-adult identity. No source names the 1741–1747 father’s own parents, and no residence, trade or witness links the households. Baptism is not necessarily near birth, John is a common forename, and the first known child is not necessarily the eldest child. The 1711 and 1721 ages are illustrative infant-baptism assumptions, not recorded ages. James Glasgow-4157’s before-1722 birth is an inherited adult-age estimate, not a 1722 birth or a hard biological boundary. Do not use that estimate to prefer or exclude a candidate. All dates and identities remain unchanged. The original registers are uninspected; maintained Findmypast transcripts are being reassessed, not newly discovered.",
+      "previous_status_provenance": {
+        "assessment_status": "unknown",
+        "tree_status": "absent",
+        "relative_id": null,
+        "saved_flag": "",
+        "percent": null,
+        "source_basis": "Anonymous public WikiTree getPeople 18 October 2026 confirms Father=0; before-batch canonical dossier has no selected father. No prior individual estimate."
+      },
+      "live_flag_changed": false
+    }
+  ],
+  "paternal_connections_added": 1,
+  "new_father_attachments": 1,
+  "working_profiles_joined": 4,
+  "certainty_upgrades": 0,
+  "saved_live_flags_changed": false,
+  "comparisons": {
+    "1500": {
+      "working": {
+        "population": [
+          2,
+          2
+        ],
+        "edge_count": [
+          2,
+          2
+        ],
+        "component_count": [
+          1,
+          1
+        ],
+        "largest_component_size": [
+          2,
+          2
+        ],
+        "connected_pairs_percent": [
+          100.0,
+          100.0
+        ]
+      },
+      "supported": {
+        "population": [
+          2,
+          2
+        ],
+        "edge_count": [
+          0,
+          0
+        ],
+        "component_count": [
+          2,
+          2
+        ],
+        "largest_component_size": [
+          1,
+          1
+        ],
+        "connected_pairs_percent": [
+          0.0,
+          0.0
+        ]
+      },
+      "confident": {
+        "population": [
+          2,
+          2
+        ],
+        "edge_count": [
+          0,
+          0
+        ],
+        "component_count": [
+          2,
+          2
+        ],
+        "largest_component_size": [
+          1,
+          1
+        ],
+        "connected_pairs_percent": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "1550": {
+      "working": {
+        "population": [
+          19,
+          19
+        ],
+        "edge_count": [
+          18,
+          18
+        ],
+        "component_count": [
+          2,
+          2
+        ],
+        "largest_component_size": [
+          18,
+          18
+        ],
+        "connected_pairs_percent": [
+          89.47368421052632,
+          89.47368421052632
+        ]
+      },
+      "supported": {
+        "population": [
+          19,
+          19
+        ],
+        "edge_count": [
+          10,
+          10
+        ],
+        "component_count": [
+          9,
+          9
+        ],
+        "largest_component_size": [
+          9,
+          9
+        ],
+        "connected_pairs_percent": [
+          22.80701754385965,
+          22.80701754385965
+        ]
+      },
+      "confident": {
+        "population": [
+          19,
+          19
+        ],
+        "edge_count": [
+          6,
+          6
+        ],
+        "component_count": [
+          13,
+          13
+        ],
+        "largest_component_size": [
+          4,
+          4
+        ],
+        "connected_pairs_percent": [
+          5.847953216374269,
+          5.847953216374269
+        ]
+      }
+    },
+    "1600": {
+      "working": {
+        "population": [
+          52,
+          52
+        ],
+        "edge_count": [
+          49,
+          49
+        ],
+        "component_count": [
+          5,
+          5
+        ],
+        "largest_component_size": [
+          48,
+          48
+        ],
+        "connected_pairs_percent": [
+          85.06787330316742,
+          85.06787330316742
+        ]
+      },
+      "supported": {
+        "population": [
+          52,
+          52
+        ],
+        "edge_count": [
+          22,
+          22
+        ],
+        "component_count": [
+          31,
+          31
+        ],
+        "largest_component_size": [
+          14,
+          14
+        ],
+        "connected_pairs_percent": [
+          8.069381598793363,
+          8.069381598793363
+        ]
+      },
+      "confident": {
+        "population": [
+          52,
+          52
+        ],
+        "edge_count": [
+          17,
+          17
+        ],
+        "component_count": [
+          35,
+          35
+        ],
+        "largest_component_size": [
+          6,
+          6
+        ],
+        "connected_pairs_percent": [
+          3.092006033182504,
+          3.092006033182504
+        ]
+      }
+    },
+    "1650": {
+      "working": {
+        "population": [
+          163,
+          163
+        ],
+        "edge_count": [
+          157,
+          157
+        ],
+        "component_count": [
+          8,
+          8
+        ],
+        "largest_component_size": [
+          156,
+          156
+        ],
+        "connected_pairs_percent": [
+          91.57009770506703,
+          91.57009770506703
+        ]
+      },
+      "supported": {
+        "population": [
+          163,
+          163
+        ],
+        "edge_count": [
+          83,
+          83
+        ],
+        "component_count": [
+          81,
+          81
+        ],
+        "largest_component_size": [
+          40,
+          40
+        ],
+        "connected_pairs_percent": [
+          7.119594031659472,
+          7.119594031659472
+        ]
+      },
+      "confident": {
+        "population": [
+          163,
+          163
+        ],
+        "edge_count": [
+          74,
+          74
+        ],
+        "component_count": [
+          89,
+          89
+        ],
+        "largest_component_size": [
+          21,
+          21
+        ],
+        "connected_pairs_percent": [
+          3.1432250246156177,
+          3.1432250246156177
+        ]
+      }
+    },
+    "1700": {
+      "working": {
+        "population": [
+          309,
+          309
+        ],
+        "edge_count": [
+          285,
+          285
+        ],
+        "component_count": [
+          26,
+          26
+        ],
+        "largest_component_size": [
+          281,
+          281
+        ],
+        "connected_pairs_percent": [
+          82.67767830874627,
+          82.67767830874627
+        ]
+      },
+      "supported": {
+        "population": [
+          309,
+          309
+        ],
+        "edge_count": [
+          142,
+          142
+        ],
+        "component_count": [
+          168,
+          168
+        ],
+        "largest_component_size": [
+          44,
+          44
+        ],
+        "connected_pairs_percent": [
+          2.904215525574749,
+          2.904215525574749
+        ]
+      },
+      "confident": {
+        "population": [
+          309,
+          309
+        ],
+        "edge_count": [
+          129,
+          129
+        ],
+        "component_count": [
+          180,
+          180
+        ],
+        "largest_component_size": [
+          24,
+          24
+        ],
+        "connected_pairs_percent": [
+          1.4458033875509604,
+          1.4458033875509604
+        ]
+      }
+    },
+    "1750": {
+      "working": {
+        "population": [
+          593,
+          593
+        ],
+        "edge_count": [
+          536,
+          537
+        ],
+        "component_count": [
+          59,
+          58
+        ],
+        "largest_component_size": [
+          523,
+          527
+        ],
+        "connected_pairs_percent": [
+          77.77562554122419,
+          78.96745818330979
+        ]
+      },
+      "supported": {
+        "population": [
+          593,
+          593
+        ],
+        "edge_count": [
+          212,
+          212
+        ],
+        "component_count": [
+          382,
+          382
+        ],
+        "largest_component_size": [
+          46,
+          46
+        ],
+        "connected_pairs_percent": [
+          1.1001093842577823,
+          1.1001093842577823
+        ]
+      },
+      "confident": {
+        "population": [
+          593,
+          593
+        ],
+        "edge_count": [
+          193,
+          193
+        ],
+        "component_count": [
+          400,
+          400
+        ],
+        "largest_component_size": [
+          26,
+          26
+        ],
+        "connected_pairs_percent": [
+          0.6557358370174559,
+          0.6557358370174559
+        ]
+      }
+    },
+    "1800": {
+      "working": {
+        "population": [
+          921,
+          921
+        ],
+        "edge_count": [
+          758,
+          759
+        ],
+        "component_count": [
+          165,
+          164
+        ],
+        "largest_component_size": [
+          730,
+          734
+        ],
+        "connected_pairs_percent": [
+          62.814993154888356,
+          63.504225086153994
+        ]
+      },
+      "supported": {
+        "population": [
+          921,
+          921
+        ],
+        "edge_count": [
+          262,
+          262
+        ],
+        "component_count": [
+          660,
+          660
+        ],
+        "largest_component_size": [
+          46,
+          46
+        ],
+        "connected_pairs_percent": [
+          0.5733371099466553,
+          0.5733371099466553
+        ]
+      },
+      "confident": {
+        "population": [
+          921,
+          921
+        ],
+        "edge_count": [
+          237,
+          237
+        ],
+        "component_count": [
+          684,
+          684
+        ],
+        "largest_component_size": [
+          26,
+          26
+        ],
+        "connected_pairs_percent": [
+          0.3587782655903319,
+          0.3587782655903319
+        ]
+      }
+    },
+    "1850": {
+      "working": {
+        "population": [
+          1789,
+          1789
+        ],
+        "edge_count": [
+          1380,
+          1381
+        ],
+        "component_count": [
+          411,
+          410
+        ],
+        "largest_component_size": [
+          1126,
+          1130
+        ],
+        "connected_pairs_percent": [
+          39.65827709229782,
+          39.9398886808898
+        ]
+      },
+      "supported": {
+        "population": [
+          1789,
+          1789
+        ],
+        "edge_count": [
+          393,
+          393
+        ],
+        "component_count": [
+          1397,
+          1397
+        ],
+        "largest_component_size": [
+          46,
+          46
+        ],
+        "connected_pairs_percent": [
+          0.20157987602587527,
+          0.20157987602587527
+        ]
+      },
+      "confident": {
+        "population": [
+          1789,
+          1789
+        ],
+        "edge_count": [
+          366,
+          366
+        ],
+        "component_count": [
+          1423,
+          1423
+        ],
+        "largest_component_size": [
+          26,
+          26
+        ],
+        "connected_pairs_percent": [
+          0.13774208029931861,
+          0.13774208029931861
+        ]
+      }
+    }
+  },
+  "pending_profiles": [
+    532,
+    533
+  ],
+  "next_metric_check": {
+    "status": "CLOSED",
+    "saved_confident_tree_flags_not_used_by_current_metric": 0
+  },
+  "verification": {
+    "full_and_compact_pending_filters_agree": true,
+    "new_father_badge_probability": 0.58,
+    "new_father_badge_relative": "Glasgow-2475",
+    "alternative_not_selected_in_metrics_or_models": true,
+    "all_historical_father_fields_checked": true,
+    "packed_main_model_lossless": true,
+    "complete_comparisons": 5,
+    "public_complete_comparisons": 4,
+    "private_complete_comparisons": 1,
+    "private_comparison_subject": "Glasgow-4100",
+    "all_cohort_memberships_unchanged": true,
+    "documented_child_roles_remain_98_percent": true
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "reviewed": "2026-10-18",
+  "scope": "Irvine: John is James’s possible father, 58%",
+  "profiles": {
+    "Glasgow-4157": {
+      "current_sha256": "e4c725a5d7dba9a6d757fba9cbbf8a7ba3b303c6084ca7f709a373e683fc52f7",
+      "proposed_sha256": "f282ad034ded516ecc36314367fb985bad15654e51afe619c2f3e8ffb843317d",
+      "draft_path": "research/Glasgow-4157/irvine-upstream-2026-10-18.wiki",
+      "all_substantive_passages_accounted_for": true,
+      "all_prior_proposal_and_capture_passages_preserved": true,
+      "preservation_basis": "Complete fresh capture and effective previous proposal preserved around an additive possible-birth-family argument. Existing98% child roles, all names/dates/citations, shipmaster comparison, personal-recollection passage and earlier uncertain pedigree remain inspectable."
+    },
+    "Glasgow-2475": {
+      "current_sha256": "7c2eec0c67ad806b7af11c3296973f4047998222f976fc5988bdb9e852d46b29",
+      "proposed_sha256": "e7e14cca94ade01faf3ba6d6ff7e578a2048c30809a8d1c2b2eb102fa699e621",
+      "draft_path": "research/Glasgow-2475/irvine-upstream-2026-10-18.wiki",
+      "all_substantive_passages_accounted_for": true,
+      "all_prior_proposal_and_capture_passages_preserved": true,
+      "preservation_basis": "Complete fresh capture and effective previous proposal preserved around an additive possible-birth-family argument. Existing98% child roles, all names/dates/citations, shipmaster comparison, personal-recollection passage and earlier uncertain pedigree remain inspectable.",
+      "supported_corrections": [
+        {
+          "captured_passage": "* [[Glasgow-3080|William Glasgow]]",
+          "replacement_passage": "* [[Glasgow-3408|William Glasgow]]",
+          "basis": "The held1706child citation explicitly identifies John and Isabell as parents of Glasgow-3408; older Glasgow-3080 is an upstream uncertain father in captured family fields. Same child fact retained with corrected existing-profile target;3080preserved in separate Research Notes."
+        }
+      ]
+    },
+    "Glasgow-4100": {
+      "current_sha256": "80374321b34fec9496b6227f53011ea7e20f45e6b9c7846a735c3cd3cd0a38d1",
+      "proposed_sha256": "b2adbcea737881f705b89dcfe6649211005c33aaf24a80f71a1458e893ff6147",
+      "draft_path": "data/private/irvine-upstream-2026-10-18/Glasgow-4100.wiki",
+      "all_substantive_passages_accounted_for": true,
+      "all_prior_proposal_and_capture_passages_preserved": true,
+      "preservation_basis": "Complete capture and replacement preserved privately because the captured biography contains a living-profile reference. Historical public addition preserves the earlier safe addition and appends the full new identity comparison; no private source is published.",
+      "private_comparison": true,
+      "public_addition_sha256": "0b4068ad11b03fcd823e6577cbf226352fa420d74695227460fed3303f9d660e"
+    },
+    "Glasgow-4158": {
+      "current_sha256": "1faceb42a8b5c32dd885d933d7afe074e350c454c99e98ce2d779b3d686b85bd",
+      "proposed_sha256": "d302d5f898c0b4708d7e025cc68ad6d142da398397195eb53542bfe41050b43a",
+      "draft_path": "research/Glasgow-4158/irvine-upstream-2026-10-18.wiki",
+      "all_substantive_passages_accounted_for": true,
+      "all_prior_proposal_and_capture_passages_preserved": true,
+      "preservation_basis": "Complete fresh capture and effective previous proposal preserved around an additive possible-birth-family argument. Existing98% child roles, all names/dates/citations, shipmaster comparison, personal-recollection passage and earlier uncertain pedigree remain inspectable."
+    },
+    "Glasgow-4129": {
+      "current_sha256": "de7ae33a026dca1da371c725bb2b6544a7e60f0f6b25323e95635e4e643223fe",
+      "proposed_sha256": "52f4fe3844b6705db5f0edd715a4334638b29b30ee312411375166c540b27f97",
+      "draft_path": "research/Glasgow-4129/irvine-upstream-2026-10-18.wiki",
+      "all_substantive_passages_accounted_for": true,
+      "all_prior_proposal_and_capture_passages_preserved": true,
+      "preservation_basis": "Complete fresh capture and effective previous proposal preserved around an additive possible-birth-family argument. Existing98% child roles, all names/dates/citations, shipmaster comparison, personal-recollection passage and earlier uncertain pedigree remain inspectable."
+    }
+  },
+  "previous_assessment": {
+    "assessment_status": "unknown",
+    "tree_status": "absent",
+    "relative_id": null,
+    "saved_flag": "",
+    "percent": null,
+    "source_basis": "Anonymous public WikiTree getPeople 18 October 2026 confirms Father=0; before-batch canonical dossier has no selected father. No prior individual estimate."
+  }
+}
