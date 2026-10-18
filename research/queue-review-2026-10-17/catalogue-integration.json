@@ -3611,10 +3611,10 @@
       "prior_work_summary": "Review the Saltcoats family’s selected uncertain upstream father, retained alternatives and unknown birth; preserve the daughters’ already-confident father links. No new mother or certainty upgrade."
     },
     "Glasgow-4157": {
-      "draft_path": "research/Glasgow-4157/queue-review-2026-10-17.wiki",
-      "summary": "Add the cited record account: James Glasgow, master of the Prosperity of Irvine. Retain the stated identity and relationship limits.",
-      "work_queue_summary": "Add the cited record account: James Glasgow, master of the Prosperity of Irvine. Retain the stated identity and relationship limits.",
-      "queued_at": "2026-10-17",
+      "draft_path": "research/Glasgow-4157/irvine-household-2026-10-18.wiki",
+      "summary": "James is the documented father of the Irvine John, Allan and Susanna household, each 98%; Allan’s father field is missing. Preserve the distinct possible 1740 shipmaster identity and source limitations.",
+      "work_queue_summary": "James is the documented father of the Irvine John, Allan and Susanna household, each 98%; Allan’s father field is missing.",
+      "queued_at": "2026-10-18",
       "status": "OPEN",
       "pending": true,
       "findings_path": "research/Glasgow-4157/findings.md",
@@ -3622,7 +3622,44 @@
         "subject-newspapers-early-glasgow-james-glasgow-prosperity"
       ],
       "private_comparison": false,
-      "prior_work_summary": ""
+      "prior_work_summary": "",
+      "profile_id": "Glasgow-4157",
+      "biography_rechecked_at": "2026-10-18",
+      "manual_update": true,
+      "significance": 74,
+      "remote_wikitext": "[[Category:Glasgow Name Study]]\n{{Estimated Date}}\n\n== Biography ==\n\n'''James Glasgow''' lived at Irvine, Ayrshire, where the parish register names him as the father of three children baptised between 1741 and 1747. Their mother was [[Nasmith-38|Helen Nasmith]], named in the same entries:\n\n* [[Glasgow-4116|John Glasgow]], baptised 6 August 1741\n* [[Glasgow-4110|Allan Glasgow]], baptised 22 May 1743\n* [[Glasgow-4128|Susanna Glasgow]], baptised 29 March 1747\n\nNo birth or baptism record for James himself has been found, so his birth is placed before 1722, the year by which he must have been born to father John in 1741. Irvine is inferred from his children's baptisms and is not independently recorded.<ref name=\"IrvineOPR\">Findmypast, ''Scotland, Parish Births & Baptisms 1564–1929'', Irvine, Ayrshire, Old Parish Register OPR 595/1; the individual baptism entries are cited on each child's profile, for example [https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3575071&tab=this John Glasgow, 1741].</ref>\n\n== Research Notes ==\n\nJames and Helen are linked only by the recurring father and mother names in the Irvine register. No record of James's own parents, birth or death has been found.\n\n== Sources ==\n\n<references />",
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "preservation_review_path": "research/ancestry-connections/irvine-nasmith-father-preservation-2026-10-18.json",
+      "relationship_changes": [
+        {
+          "action": "regrade",
+          "relationship": "child",
+          "relative_id": "Glasgow-4116",
+          "status": "proved",
+          "previous_status": "unmarked",
+          "assertion_id": "C-role-20261018-irvine-john-father",
+          "scope": "James is the documented father of the Irvine John, Allan and Susanna household, each 98%; Allan’s father field is missing."
+        },
+        {
+          "action": "add",
+          "relationship": "child",
+          "relative_id": "Glasgow-4110",
+          "status": "proved",
+          "previous_status": "absent",
+          "assertion_id": "C-role-20261018-irvine-allan-father",
+          "scope": "James is the documented father of the Irvine John, Allan and Susanna household, each 98%; Allan’s father field is missing."
+        },
+        {
+          "action": "regrade",
+          "relationship": "child",
+          "relative_id": "Glasgow-4128",
+          "status": "proved",
+          "previous_status": "unmarked",
+          "assertion_id": "C-role-20261018-irvine-susanna-father",
+          "scope": "James is the documented father of the Irvine John, Allan and Susanna household, each 98%; Allan’s father field is missing."
+        }
+      ]
     },
     "Glasgow-4158": {
       "draft_path": "research/Glasgow-4158/queue-review-2026-10-17.wiki",
@@ -5697,6 +5734,90 @@
       "work_queue_summary": "Existing record-defined relationships newly graded confident; no new father attachment.",
       "findings_path": "research/Glasgow-1547/findings.md",
       "remote_wikitext": "== Biography ==\nJames was born before 1702. He is the son of [[Glasgow-1546|Andrew Glasgow]]. \n== Sources ==\n<references />\n* https://www.familysearch.org/ark:/61903/1:1:VQ4K-6MQ"
+    },
+    "Glasgow-4110": {
+      "profile_id": "Glasgow-4110",
+      "queued_at": "2026-10-18",
+      "biography_rechecked_at": "2026-10-18",
+      "status": "OPEN",
+      "pending": true,
+      "manual_update": true,
+      "summary": "Add James Glasgow-4157 as Allan’s missing father, documented at 98%. Preserve the distinct possible 1740 shipmaster identity and source limitations.",
+      "work_queue_summary": "Add James Glasgow-4157 as Allan’s missing father, documented at 98%.",
+      "significance": 90,
+      "draft_path": "research/Glasgow-4110/irvine-household-2026-10-18.wiki",
+      "findings_path": "research/Glasgow-4110/findings.md",
+      "remote_wikitext": "[[Category:Glasgow Name Study]]\n{{Estimated Date}}\n\n== Biography ==\n\n'''Allan Glasgow''' was born on 15 May 1743 and baptised at Irvine, Ayrshire, on 22 May 1743. The parish register names his father as [[Glasgow-4157|James Glasgow]] and his mother as [[Nasmith-37|Helen Nasmith]].<ref name=\"FMP1\" /> The register records both dates; Irvine is inferred from the baptism and is not independently recorded.\n\nAllan Glasgow was one of the children recorded to James Glasgow and Helen Nasmith in the Irvine register, alongside [[Glasgow-4116|John]] (1741), [[Glasgow-4128|Susanna]] (1747).\n\n== Research Notes ==\n\nThe baptism is the only record found for Allan Glasgow; it establishes his parents and baptism but gives no later life, marriage or death.\n\n== Sources ==\n\n<ref name=\"FMP1\">[https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3575202&tab=this Findmypast transcript], Archive reference: OPR 595/1; Baptism date: 22 May 1743; Baptism year: 1743; Birth date: 15 May 1743; Birth year: 1743; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Country: Scotland; County: Ayrshire; Father's first name(s): James; Father's last name: Glasgow; First name(s): Allan; Item: 1; Last name: Glasgow; Mother's first name(s): Helen; Mother's last name: Nasmith; Place: Irvine; Record set: Scotland, Parish Births & Baptisms 1564-1929; Register year range: 1687-1788; Subcategory: Parish Baptisms (captured 2026-09-03T23:39:15.338Z).</ref>\n\n<references />",
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "preservation_review_path": "research/ancestry-connections/irvine-nasmith-father-preservation-2026-10-18.json",
+      "relationship_changes": [
+        {
+          "action": "add",
+          "relationship": "father",
+          "relative_id": "Glasgow-4157",
+          "status": "proved",
+          "previous_status": "absent",
+          "assertion_id": "C-role-20261018-irvine-allan-father",
+          "scope": "Add James Glasgow-4157 as Allan’s missing father, documented at 98%."
+        }
+      ]
+    },
+    "Glasgow-4116": {
+      "profile_id": "Glasgow-4116",
+      "queued_at": "2026-10-18",
+      "biography_rechecked_at": "2026-10-18",
+      "status": "OPEN",
+      "pending": true,
+      "manual_update": true,
+      "summary": "Existing father James Glasgow-4157 is documented at 98%, previously ungraded; no new attachment. Preserve the distinct possible 1740 shipmaster identity and source limitations.",
+      "work_queue_summary": "Existing father James Glasgow-4157 is documented at 98%, previously ungraded; no new attachment.",
+      "significance": 74,
+      "draft_path": "research/Glasgow-4116/irvine-household-2026-10-18.wiki",
+      "findings_path": "research/Glasgow-4116/findings.md",
+      "remote_wikitext": "[[Category:Glasgow Name Study]]\n{{Estimated Date}}\n\n== Biography ==\n\n'''John Glasgow''' was born on 02 Aug 1741 and baptised at Irvine, Ayrshire, on 06 Aug 1741. The parish register names his father as [[Glasgow-4157|James Glasgow]] and his mother as [[Nasmith-37|Helen Nasmith]].<ref name=\"FMP1\" /> The register records both dates; Irvine is inferred from the baptism and is not independently recorded.\n\nJohn Glasgow was one of the children recorded to James Glasgow and Helen Nasmith in the Irvine register, alongside [[Glasgow-4110|Allan]] (1743), [[Glasgow-4128|Susanna]] (1747).\n\n== Research Notes ==\n\nThe baptism is the only record found for John Glasgow. A search of live WikiTree profiles found no compatible match; [[Glasgow-3314|John]] belongs to a different family and is not this person.\n\n== Sources ==\n\n<ref name=\"FMP1\">[https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3575071&tab=this Findmypast transcript], Archive reference: OPR 595/1; Baptism date: 06 Aug 1741; Baptism year: 1741; Birth date: 02 Aug 1741; Birth year: 1741; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Country: Scotland; County: Ayrshire; Father's first name(s): James; Father's last name: Glasgow; First name(s): John; Item: 1; Last name: Glasgow; Mother's first name(s): Helen; Mother's last name: Nasmith; Place: Irvine; Record set: Scotland, Parish Births & Baptisms 1564-1929; Register year range: 1687-1788; Subcategory: Parish Baptisms (captured 2026-09-03T23:36:06.929Z).</ref>\n\n<references />",
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "preservation_review_path": "research/ancestry-connections/irvine-nasmith-father-preservation-2026-10-18.json",
+      "relationship_changes": [
+        {
+          "action": "regrade",
+          "relationship": "father",
+          "relative_id": "Glasgow-4157",
+          "status": "proved",
+          "previous_status": "unmarked",
+          "assertion_id": "C-role-20261018-irvine-john-father",
+          "scope": "Existing father James Glasgow-4157 is documented at 98%, previously ungraded; no new attachment."
+        }
+      ]
+    },
+    "Glasgow-4128": {
+      "profile_id": "Glasgow-4128",
+      "queued_at": "2026-10-18",
+      "biography_rechecked_at": "2026-10-18",
+      "status": "OPEN",
+      "pending": true,
+      "manual_update": true,
+      "summary": "Existing father James Glasgow-4157 is documented at 98%, previously ungraded; retain the maternal Macsmith reading. Preserve the distinct possible 1740 shipmaster identity and source limitations.",
+      "work_queue_summary": "Existing father James Glasgow-4157 is documented at 98%, previously ungraded; retain the maternal Macsmith reading.",
+      "significance": 74,
+      "draft_path": "research/Glasgow-4128/irvine-household-2026-10-18.wiki",
+      "findings_path": "research/Glasgow-4128/findings.md",
+      "remote_wikitext": "[[Category:Glasgow Name Study]]\n{{Estimated Date}}\n\n== Biography ==\n\n'''Susanna Glasgow''' was born on 28 Mar 1747 and baptised at Irvine, Ayrshire, on 29 Mar 1747. The parish register names her father as [[Glasgow-4157|James Glasgow]] and her mother as [[Nasmith-37|Helen Nasmith]].<ref name=\"FMP1\" /> The register records both dates; Irvine is inferred from the baptism and is not independently recorded.\n\nSusanna Glasgow was one of the children recorded to James Glasgow and Helen Nasmith in the Irvine register, alongside [[Glasgow-4116|John]] (1741), [[Glasgow-4110|Allan]] (1743).\n\n== Research Notes ==\n\nThe baptism is the only record found for Susanna Glasgow; it establishes her parents and baptism but gives no later life, marriage or death.\n\n== Sources ==\n\n<ref name=\"FMP1\">[https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3575478&tab=this Findmypast transcript], Archive reference: OPR 595/1; Baptism date: 29 Mar 1747; Baptism year: 1747; Birth date: 28 Mar 1747; Birth year: 1747; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Country: Scotland; County: Ayrshire; Father's first name(s): Jas; Father's last name: Glasgow; First name(s): Susanna; Item: 1; Last name: Glasgow; Mother's first name(s): Helen; Mother's last name: Macsmith; Page: 62; Place: Irvine; Record set: Scotland, Parish Births & Baptisms 1564-1929; Register year range: 1687-1788; Subcategory: Parish Baptisms (captured 2026-09-03T23:39:19.676Z).</ref>\n\n<references />",
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "preservation_review_path": "research/ancestry-connections/irvine-nasmith-father-preservation-2026-10-18.json",
+      "relationship_changes": [
+        {
+          "action": "regrade",
+          "relationship": "father",
+          "relative_id": "Glasgow-4157",
+          "status": "proved",
+          "previous_status": "unmarked",
+          "assertion_id": "C-role-20261018-irvine-susanna-father",
+          "scope": "Existing father James Glasgow-4157 is documented at 98%, previously ungraded; retain the maternal Macsmith reading."
+        }
+      ]
     }
   },
   "reviewed_on": "2026-10-17",

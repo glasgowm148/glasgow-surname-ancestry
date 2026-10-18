@@ -2404,3 +2404,11 @@ Burial-defined Walter remains on source-verification HOLD in the existing creati
 
 | [James Glasgow](https://www.wikitree.com/wiki/Glasgow-1547) | OPEN | Grade existing Andrew father at 99% for the 1702 child, retaining separate later-identity questions. |
 | [Andrew Glasgow](https://www.wikitree.com/wiki/Glasgow-1546) | OPEN | Record the checked 1700 Christian Cook spouse and 1702 James son at 99%; own Alexander father remains possible 58%. |
+
+
+## Irvine Nasmith household — 18 October 2026
+
+| [Glasgow-4110](https://www.wikitree.com/wiki/Glasgow-4110) | OPEN | Add James Glasgow-4157 as Allan’s missing father, documented at 98%. |
+| [Glasgow-4157](https://www.wikitree.com/wiki/Glasgow-4157) | OPEN | James is the documented father of the Irvine John, Allan and Susanna household, each 98%; Allan’s father field is missing. |
+| [Glasgow-4116](https://www.wikitree.com/wiki/Glasgow-4116) | OPEN | Existing father James Glasgow-4157 is documented at 98%, previously ungraded; no new attachment. |
+| [Glasgow-4128](https://www.wikitree.com/wiki/Glasgow-4128) | OPEN | Existing father James Glasgow-4157 is documented at 98%, previously ungraded; retain the maternal Macsmith reading. |

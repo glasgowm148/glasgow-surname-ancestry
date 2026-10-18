@@ -1,0 +1,100 @@
+{
+  "reviewed": "2026-10-18",
+  "scope": "Irvine: Allan’s missing father, James, 98%",
+  "profiles": {
+    "Glasgow-4110": {
+      "current_sha256": "5a70c75f2dfab52bbcf0e4e9d6a04dc83caddc92a02c25545d1b08a1b01d9274",
+      "proposed_sha256": "3ba4af37d22879d547ae08f95eb088306087fd7c40cac89cf36972183d36a1b7",
+      "draft_path": "research/Glasgow-4110/irvine-household-2026-10-18.wiki",
+      "all_substantive_passages_accounted_for": true,
+      "all_prior_proposal_and_capture_passages_preserved": true,
+      "preservation_basis": "Complete capture and effective prior draft preserved with additive named-household assessment; shipping identity remains possible, chronology and maternal variant retained."
+    },
+    "Glasgow-4157": {
+      "current_sha256": "e4c725a5d7dba9a6d757fba9cbbf8a7ba3b303c6084ca7f709a373e683fc52f7",
+      "proposed_sha256": "6456a36b461b5f1c81e6faf5e4347c5dabcb57387eb42f5f902956f9bc7ae638",
+      "draft_path": "research/Glasgow-4157/irvine-household-2026-10-18.wiki",
+      "all_substantive_passages_accounted_for": true,
+      "all_prior_proposal_and_capture_passages_preserved": true,
+      "preservation_basis": "Complete capture and effective prior draft preserved with additive named-household assessment; shipping identity remains possible, chronology and maternal variant retained."
+    },
+    "Glasgow-4116": {
+      "current_sha256": "f450a76c487a2c7de99371b72437a91665cde62ea8af6b211baa0cf58a3bb7cc",
+      "proposed_sha256": "950bea68275a320be3bb01c6177ef4d350ec129574bbbc3e0cfd349d014ad130",
+      "draft_path": "research/Glasgow-4116/irvine-household-2026-10-18.wiki",
+      "all_substantive_passages_accounted_for": true,
+      "all_prior_proposal_and_capture_passages_preserved": true,
+      "preservation_basis": "Complete capture and effective prior draft preserved with additive named-household assessment; shipping identity remains possible, chronology and maternal variant retained."
+    },
+    "Glasgow-4128": {
+      "current_sha256": "f800f1be94d258ba2a5c023ba4aa8a58b2f6af23d4fab35134b2e76d781567fd",
+      "proposed_sha256": "d444a05340de00fafdab129a38f37f109fbe6722ae07b3b56bd07261322d4fdb",
+      "draft_path": "research/Glasgow-4128/irvine-household-2026-10-18.wiki",
+      "all_substantive_passages_accounted_for": true,
+      "all_prior_proposal_and_capture_passages_preserved": true,
+      "preservation_basis": "Complete capture and effective prior draft preserved with additive named-household assessment; shipping identity remains possible, chronology and maternal variant retained."
+    }
+  },
+  "prior_assessments": [
+    {
+      "subject_id": "Glasgow-4116",
+      "relative_id": "Glasgow-4157",
+      "relationship": "father",
+      "action": "regrade",
+      "before": "unmarked",
+      "after": "proved",
+      "probability_percent": 98,
+      "assertion_id": "C-role-20261018-irvine-john-father",
+      "basis": "James Glasgow-4157 is the documented father of Allan Glasgow-4110 at 98% subjective confidence. Allan’s maintained Findmypast baptism transcript explicitly names James Glasgow and Helen Nasmith at Irvine on 22 May 1743, with birth on 15 May. James-4157 is the existing adult account defined by this same three-child household, not a name-only match to a separately known shipmaster. John’s 1741 baptism names James Glasgow and Helen Nasmith, and Susanna’s 1747 entry names Jas Glasgow and Helen Macsmith. The shared parish, father, maternal forename and compatible sequence support one household, with Macsmith retained as the indexed maternal variant. Allan’s own entry supplies the father directly; the siblings independently support the identification.",
+      "previous_status_provenance": {
+        "assessment_status": "unknown",
+        "tree_status": "unmarked",
+        "saved_flag": "",
+        "relative_id": "Glasgow-4157",
+        "percent": null,
+        "source_basis": "Fresh anonymous public WikiTree getPeople, 18 October 2026: Father=51576950. Existing biography and maintained transcript name the couple."
+      },
+      "live_flag_changed": false
+    },
+    {
+      "subject_id": "Glasgow-4110",
+      "relative_id": "Glasgow-4157",
+      "relationship": "father",
+      "action": "add",
+      "before": "absent",
+      "after": "proved",
+      "probability_percent": 98,
+      "assertion_id": "C-role-20261018-irvine-allan-father",
+      "basis": "James Glasgow-4157 is the documented father of Allan Glasgow-4110 at 98% subjective confidence. Allan’s maintained Findmypast baptism transcript explicitly names James Glasgow and Helen Nasmith at Irvine on 22 May 1743, with birth on 15 May. James-4157 is the existing adult account defined by this same three-child household, not a name-only match to a separately known shipmaster. John’s 1741 baptism names James Glasgow and Helen Nasmith, and Susanna’s 1747 entry names Jas Glasgow and Helen Macsmith. The shared parish, father, maternal forename and compatible sequence support one household, with Macsmith retained as the indexed maternal variant. Allan’s own entry supplies the father directly; the siblings independently support the identification.",
+      "previous_status_provenance": {
+        "assessment_status": "unknown",
+        "tree_status": "absent",
+        "saved_flag": "",
+        "relative_id": null,
+        "percent": null,
+        "source_basis": "Fresh anonymous public WikiTree getPeople, 18 October 2026: Father=0. Existing biography and maintained transcript name the couple."
+      },
+      "live_flag_changed": false
+    },
+    {
+      "subject_id": "Glasgow-4128",
+      "relative_id": "Glasgow-4157",
+      "relationship": "father",
+      "action": "regrade",
+      "before": "unmarked",
+      "after": "proved",
+      "probability_percent": 98,
+      "assertion_id": "C-role-20261018-irvine-susanna-father",
+      "basis": "James Glasgow-4157 is the documented father of Allan Glasgow-4110 at 98% subjective confidence. Allan’s maintained Findmypast baptism transcript explicitly names James Glasgow and Helen Nasmith at Irvine on 22 May 1743, with birth on 15 May. James-4157 is the existing adult account defined by this same three-child household, not a name-only match to a separately known shipmaster. John’s 1741 baptism names James Glasgow and Helen Nasmith, and Susanna’s 1747 entry names Jas Glasgow and Helen Macsmith. The shared parish, father, maternal forename and compatible sequence support one household, with Macsmith retained as the indexed maternal variant. Allan’s own entry supplies the father directly; the siblings independently support the identification.",
+      "previous_status_provenance": {
+        "assessment_status": "unknown",
+        "tree_status": "unmarked",
+        "saved_flag": "",
+        "relative_id": "Glasgow-4157",
+        "percent": null,
+        "source_basis": "Fresh anonymous public WikiTree getPeople, 18 October 2026: Father=51576950. Existing biography and maintained transcript name the couple."
+      },
+      "live_flag_changed": false
+    }
+  ]
+}
