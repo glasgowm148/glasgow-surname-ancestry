@@ -5,6 +5,7 @@ from unittest.mock import patch
 
 from tools.site_sources.onetree.build import apply_public_spouses, apply_working_hypotheses
 from tools.sync_ancestry_atlas import overlay_model
+from tools.publish_resolved_dossiers import project_catalogue_spouses
 
 
 class ReviewedSpousesTests(unittest.TestCase):
@@ -76,6 +77,30 @@ class ReviewedSpousesTests(unittest.TestCase):
         previous = deepcopy(self.people)
         self.sync(self.people, [self.assessment])
         self.assertEqual(self.people, previous)
+
+    def test_catalogue_cells_and_filter_fields_include_and_can_retire_proposed_spouse(self):
+        rows = [dict(id='a-1', profile_ids=['A-1'], spouses=[dict(id='Other-1', name='Recorded partner')]),
+                dict(catalogue_id='record-bride', profile_ids=[], spouses=[])]
+        original = deepcopy(rows)
+        reviewed = {i.casefold(): dict(relationships={'spouses': [dict(
+            id=other, name=other, url='/people/'+other.lower()+'.html', probability={'value': .88},
+            relationship_source='shared_research_assertion', allow_new_relationship=True,
+            status='probable', record_scope='Banns; no ceremony date.')]})
+            for i, other in [('A-1', 'record-bride'), ('record-bride', 'A-1')]}
+        project_catalogue_spouses(rows, reviewed)
+        self.assertEqual([r['id'] for r in rows[0]['spouses']], ['Other-1', 'record-bride'])
+        self.assertEqual(rows[1]['spouses'][0]['id'], 'A-1')
+        self.assertEqual(rows[0]['spouses'][-1]['probability']['value'], .88)
+        previous = deepcopy(rows)
+        self.assertEqual(project_catalogue_spouses(rows, reviewed), previous)
+        project_catalogue_spouses(rows, {})
+        self.assertEqual(rows, original)
+
+    def test_catalogue_does_not_project_an_alternative_couple(self):
+        rows = [dict(id='a-1', spouses=[])]
+        reviewed = {'a-1': dict(relationships={'spouses': [dict(id='record-bride', status='possible',
+            display='alternative', relationship_source='shared_research_assertion', allow_new_relationship=True)]})}
+        self.assertEqual(project_catalogue_spouses(rows, reviewed), [dict(id='a-1', spouses=[])])
 
 
 if __name__ == '__main__':

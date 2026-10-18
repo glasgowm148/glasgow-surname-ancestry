@@ -286,6 +286,8 @@ def apply_creations(root=ROOT):
     assessments = _read(web / "assets/research/assessments.json", {}).get("assessments", [])
     shared = _read(root / "research/relationship_assessments.json", [])
     dossiers = {slug: resolve(dossier, assessments, shared) for slug, dossier in dossiers.items()}
+    from tools.publish_resolved_dossiers import project_catalogue_spouses
+    project_catalogue_spouses(people, {d['id'].casefold(): d for d in dossiers.values()})
     searches = []
     public_index = _read(web / "data/people-index.json", [])
     links = {p["id"]: p.get("catalogue_id") or p.get("slug") or p["id"].lower() for p in public_index}

@@ -373,6 +373,38 @@ def project_catalogue_parents(rows, reviewed):
     return rows
 
 
+def project_catalogue_spouses(rows, reviewed):
+    """Keep proposed couples visible in catalogue cells, retaining captured partners."""
+    for row in rows:
+        identifiers = row.get('profile_ids') or [row.get('id') or row.get('catalogue_id', '')]
+        dossier = next((reviewed[i.casefold()] for i in identifiers if i.casefold() in reviewed), {})
+        proposals = [r for r in dossier.get('relationships', {}).get('spouses', [])
+                     if r.get('relationship_source') == 'shared_research_assertion'
+                     and r.get('allow_new_relationship') and not r.get('withheld')
+                     and r.get('display') not in {'alternative', 'historical', 'superseded'}
+                     and r.get('lifecycle') not in {'alternative', 'historical', 'superseded'}
+                     and r.get('status') not in {'excluded', 'rejected', 'non-biological'}]
+        prior = row.get('spouse_review')
+        if not proposals and not prior:
+            continue
+        originals = deepcopy(prior['original_fields'] if prior else row.get('spouses', []))
+        if not proposals:
+            row['spouses'] = originals
+            row.pop('spouse_review', None)
+            continue
+        partners = {r['id']: r for r in originals if r.get('id')}
+        for proposal in proposals:
+            ident = proposal['id']
+            partners[ident] = {**partners.get(ident, {}), **{
+                key: deepcopy(proposal[key]) for key in (
+                    'id', 'name', 'url', 'wikitree_url', 'status', 'probability',
+                    'record_scope', 'claim_id', 'relationship_source', 'source_ids')
+                if key in proposal}}
+        row['spouses'] = list(partners.values())
+        row['spouse_review'] = {'original_fields': originals}
+    return rows
+
+
 def publish(root=ROOT / 'www'):
     path = root / 'assets/research/assessments.json'
     registry = json.loads(path.read_text())
@@ -454,6 +486,7 @@ def publish(root=ROOT / 'www'):
             schema_path.write_text(json.dumps(schema, indent=2) + '\n')
     if search_path.exists():
         project_catalogue_parents(search, reviewed)
+        project_catalogue_spouses(search, reviewed)
         for row in search:
             for role in ('father', 'mother'):
                 for parent in row.get(role, []):
@@ -471,6 +504,13 @@ def publish(root=ROOT / 'www'):
                 except ModuleNotFoundError:
                     from tools.catalogue_search_index import refresh as refresh_browser_index
                 refresh_browser_index(root)
+    people_path = root / 'data/people.json'
+    if people_path.exists():
+        people = json.loads(people_path.read_text())
+        before = deepcopy(people)
+        project_catalogue_spouses(people['people'], reviewed)
+        if people != before:
+            people_path.write_text(json.dumps(people, ensure_ascii=False, separators=(',', ':')) + '\n')
     return changed
 
 
