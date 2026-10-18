@@ -9,6 +9,25 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class ResearchQueueTests(unittest.TestCase):
+    def test_registered_identity_holds_retain_candidates_and_review_date(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            batch = root / 'research/batch'; batch.mkdir(parents=True)
+            (root / 'research/research-queue-matches.json').write_text(json.dumps({'current_batch': 'research/batch/baseline.json'}))
+            (batch / 'baseline.json').write_text(json.dumps({'rows': []}))
+            (batch / 'progress.json').write_text(json.dumps({'reviewed_on': '2026-10-17', 'baseline_results': {}}))
+            path = root / 'research/queue-review-2026-10-17/catalogue-integration.json'; path.parent.mkdir()
+            path.write_text(json.dumps({'new_people': [
+                dict(catalogue_id='record-john', subject_id='john', creation_status='identity_hold', reviewed_at='2026-10-18', candidates=[dict(profile_id='Glasgow-2', status='compatible_candidate')]),
+                dict(catalogue_id='record-mary', subject_id='mary', creation_status='identity_hold', reviewed_at='2026-10-18', candidates=[])]}))
+            rows = [dict(id='update-record-'+i, kind='Profile identity', status='On hold', assessment='Reviewed, unresolved identity.') for i in ['john', 'mary']]
+            apply_batch_progress(rows, root)
+            self.assertEqual(rows[0]['match_review']['status'], 'compatible_candidate')
+            self.assertEqual(rows[0]['match_review']['profile_ids'], ['Glasgow-2'])
+            self.assertEqual(rows[1]['match_review']['status'], 'identity_hold')
+            self.assertEqual(rows[1]['match_review']['reviewed_on'], '2026-10-18')
+            self.assertEqual(rows[1]['status'], 'On hold')
+
     def test_progress_counts_frozen_items_without_finishing_amendments(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)

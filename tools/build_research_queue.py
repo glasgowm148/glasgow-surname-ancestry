@@ -32,6 +32,7 @@ def status_words(status):
     return STATUS_WORDS.get(status, status)
 
 MATCH_LABELS = {'matched': 'Matched profile', 'compatible_candidate': 'Compatible candidate',
+                'identity_hold': 'Identity unresolved', 'hold_source_verification': 'Source verification pending',
                 'partly_matched': 'Partly matched',
                 'no_compatible_profile': 'No compatible profile found', 'unnamed_record': 'Unnamed record',
                 'already_linked': 'Already linked', 'research_question': 'Linked research question',
@@ -54,6 +55,7 @@ def apply_batch_progress(rows, root=ROOT):
     member_ids = {m['id']: r['id'] for r in baseline for m in r.get('members', [r])}
     integration_path = root / 'research/queue-review-2026-10-17/catalogue-integration.json'
     integration = json.loads(integration_path.read_text()) if integration_path.exists() else {}
+    creations = {'update-' + p['catalogue_id']: p for p in integration.get('new_people', [])}
     derived = {'update-' + ident.casefold(): ('existing_profile', ident)
                for ident in integration.get('profile_updates', {})}
     derived.update({'update-' + p['catalogue_id']: ('new_profile', p['subject_id'])
@@ -65,9 +67,18 @@ def apply_batch_progress(rows, root=ROOT):
         if row['id'] in derived:
             disposition, ident = derived[row['id']]
             checked = [{'disposition': disposition}]
-            row['match_review'] = dict(status='already_linked' if disposition == 'existing_profile' else 'no_compatible_profile',
-                                       profile_ids=[ident] if disposition == 'existing_profile' else [],
-                                       reviewed_on='2026-10-17', assessment=row['assessment'])
+            creation = creations.get(row['id'], {})
+            candidates = [c.get('profile_id') or c.get('id') for c in creation.get('candidates', [])
+                          if c.get('status') not in {'excluded', 'rejected', 'contradicted'}]
+            candidates = [i for i in candidates if i]
+            status = 'already_linked' if disposition == 'existing_profile' else 'no_compatible_profile'
+            if creation.get('creation_status') == 'identity_hold':
+                status = 'compatible_candidate' if candidates else 'identity_hold'
+            elif creation.get('creation_status') == 'hold_source_verification':
+                status = 'hold_source_verification'
+            row['match_review'] = dict(status=status,
+                                       profile_ids=[ident] if disposition == 'existing_profile' else candidates,
+                                       reviewed_on=(creation.get('reviewed_at') or integration.get('profile_updates', {}).get(ident, {}).get('biography_rechecked_at') or '2026-10-17'), assessment=row['assessment'])
             row['match_review']['label'] = MATCH_LABELS[row['match_review']['status']]
         done = bool(checked) and all(r.get('disposition') in complete for r in checked)
         row['identity_review'] = dict(complete=done, baseline_ids=sorted(ids),
@@ -187,6 +198,9 @@ def render_new_profiles(suggestions):
 
 def collect(web=ROOT / 'www', root=ROOT):
     rows, drafts, used_files, fingerprints = [], [], set(), set()
+    integration = root / 'research/queue-review-2026-10-17/catalogue-integration.json'
+    if integration.exists():
+        used_files.update(p['draft_path'] for p in json.loads(integration.read_text()).get('new_people', []))
     overrides=json.loads((root/'research/research-queue-overrides.json').read_text()).get('draft_replacements',{})
     def add(ident, name, kind, status, assessment, url, profiles=(), sources=()):
         rows.append(dict(id=ident, name=name, kind=kind, status=status,
@@ -256,8 +270,9 @@ def collect(web=ROOT / 'www', root=ROOT):
             review = update.get('application_review') or {}
             if review.get('assessment'):
                 assessment += ' Application review (' + review.get('reviewed_on', 'undated') + '): ' + review['assessment']
-            add('update-' + person['id'].lower(), person['name'], 'WikiTree amendment',
-                'Pending update', assessment,
+            new_profile = update.get('new_profile')
+            add('update-' + person['id'].lower(), person['name'], 'Profile identity' if new_profile else 'WikiTree amendment',
+                ('Draft review' if person.get('creation_ready') else 'On hold') if new_profile else 'Pending update', assessment,
                 urlparse(person['canonical_url']).path + '#wikitree-update', [] if update.get('new_profile') else [person['id']])
     for slug, name, date, question, context in questions.QUESTIONS:
         add('question-' + slug, name, 'Research question', 'Open question', question,
