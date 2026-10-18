@@ -677,6 +677,39 @@ def apply_public_siblings(people: list[dict], assessments: list[dict]) -> dict:
     return {'publicSiblingScopeIds': sorted(scope)}
 
 
+def apply_public_spouses(people: list[dict], assessments: list[dict]) -> dict:
+    """Publish explicit couple proposals without deriving parents or a wedding date."""
+    from tools.relationship_probability import probability_for_relationship
+    by_id = {p['id']: p for p in people}
+    scope = set()
+    for assessment in assessments:
+        pair = assessment.get('people', [])
+        if (assessment.get('publication_status') != 'approved'
+                or not assessment.get('allow_new_relationship') or len(pair) != 2
+                or not assessment.get('source_ids') or not assessment.get('assertion_id')
+                or not assessment.get('basis')
+                or assessment.get('display') in {'alternative', 'historical', 'superseded'}
+                or assessment.get('lifecycle') in {'alternative', 'historical', 'superseded'}
+                or assessment.get('status') not in {'proved', 'confident', 'strongly_supported', 'probable', 'possible', 'uncertain'}
+                or not all(ident in by_id for ident in pair)
+                or not all(assessment.get('perspectives', {}).get(ident, {}).get('relationship') == 'spouse'
+                           for ident in pair)):
+            continue
+        for subject, relative in (pair, pair[::-1]):
+            partners = by_id[subject].setdefault('partners', [])
+            previous = next((r for r in partners if r.get('id') == relative), {})
+            partners[:] = [r for r in partners if r.get('id') != relative]
+            partners.append(dict(previous, id=relative, name=by_id[relative]['name'], role='spouse',
+                inModel=True, source='reviewed_public_spouse', status=assessment['status'], assertion_id=assessment['assertion_id'],
+                reason=assessment['basis'], source_ids=assessment['source_ids'],
+                recordScope=assessment.get('record_scope', ''),
+                probability=probability_for_relationship(assessment, subject, relative, 'spouse'),
+                statusLabel=assessment.get('perspectives', {}).get(subject, {}).get('status_label', ''),
+                analysis_links=assessment.get('analysis_links', [])))
+            scope.add(subject)
+    return {'publicSpouseScopeIds': sorted(scope)}
+
+
 def apply_captured_parent_aliases(people: list[dict], site_root: Path, redirects: dict) -> dict:
     """Recover existing raw parent fields only when saved redirects prove identity.
 
@@ -790,7 +823,8 @@ def generate_model(catalogue_path: Path, prior: dict) -> dict:
                            birthplace='', deathplace='', sex=person.get('gender', ''),
                            parents=[], partners=[], childrenRecorded=[],
                            note=person['summary'], first=person['name'].split()[0],
-                           birthSurname='Glasgow', currentSurname='Glasgow', bornApprox=False,
+                           birthSurname=person.get('birth_surname', 'Glasgow'),
+                           currentSurname=person.get('current_surname', 'Glasgow'), bornApprox=False,
                            year=person['first_record_year'], catalogueId=person['id'],
                            locationRegion=place['id'], locationLabel=place['label'], locationColor=place['color'],
                            birthLocationRegion='other', deathLocationRegion='other',
@@ -815,6 +849,7 @@ def generate_model(catalogue_path: Path, prior: dict) -> dict:
         seeded_public['publicFamilyNewIds'] + public_family_sync['publicFamilyNewIds']))
     public_family_sync.update(apply_captured_parent_aliases(people, ROOT / 'www', parent_aliases))
     public_family_sync.update(apply_public_siblings(people, assessments))
+    public_family_sync.update(apply_public_spouses(people, assessments))
 
     # One real parent drives the drawing. Both remain in the relationship list.
     chosen: dict[str, dict] = {}
