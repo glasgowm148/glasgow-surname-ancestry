@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "reviewed": "2026-10-18",
+  "cutoff": 1850,
+  "method_version": 3,
+  "input_fingerprint": "4b918b0721b5d9773867b02f437171ee6dd25093ea11999801b9df7eb6ecab89",
+  "scope": "Edinburgh apprentice brothers and1674 Greyfriars burial",
+  "publication_summary": "Select the1696 James and1699 Thomas apprentices as probable brothers,79%. Agnes Duncan’s1674 burial makes successive wives compatible; adult James1150/2682 identity remains open. Existing father percentages76%/26%,both tree topologies,and all fixed/cohort metrics remain unchanged. No live edit or new WikiTree person.",
+  "models": {
+    "main": {
+      "checked_historical_profiles": 1789,
+      "matched_paternal_edges": 1377,
+      "changed_father_fields": 0,
+      "changed_mother_fields": 0,
+      "all_previous_parent_assignments_and_vitals_preserved": true
+    },
+    "standalone": {
+      "checked_historical_profiles": 1789,
+      "matched_paternal_edges": 1377,
+      "changed_father_fields": 0,
+      "changed_mother_fields": 0,
+      "all_previous_parent_assignments_and_vitals_preserved": true
+    }
+  },
+  "working_parent_changes": [],
+  "paternal_connections_added": 0,
+  "collateral_connections_added": 1,
+  "certainty_upgrades": 0,
+  "existing_profiles_added_to_measurement": 0,
+  "saved_live_flags_changed": false,
+  "derived_root_metadata_changes": [
+    {
+      "id": "Glasgow-2682",
+      "field": "first_record_year",
+      "before": 1655,
+      "after": null,
+      "basis": "Targeted dossier refresh no longer treats the circa1655 birth estimate as a dated record. Birth/vital fields and all numeric connectivity measures remain unchanged."
+    }
+  ],
+  "pending_profiles": [
+    519,
+    521
+  ],
+  "next_metric_check": {
+    "status": "CLOSED",
+    "saved_confident_tree_flags_not_used_by_current_metric": 0
+  },
+  "verification": {
+    "full_and_compact_filters_agree": true,
+    "reciprocal_sibling_probability": 0.79,
+    "existing_father_probabilities_preserved": [
+      0.76,
+      0.26
+    ],
+    "all_previous_parent_assignments_and_vitals_preserved": true,
+    "all_historical_father_fields_checked": true,
+    "packed_main_model_lossless": true,
+    "complete_comparisons": 5,
+    "fixed_and_current_numeric_metrics_and_cohorts_unchanged": true,
+    "five_profile_HTTP_checks": true,
+    "study_anchor_checked": true
+  }
+}

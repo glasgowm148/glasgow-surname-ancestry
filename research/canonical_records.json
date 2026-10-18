@@ -5110,5 +5110,45 @@
         "role": "probable same-name master"
       }
     }
+  },
+  {
+    "record_id": "greyfriars-agnes-duncan-1674",
+    "record_type": "burial",
+    "date": "1674-01-21",
+    "year": 1674,
+    "place": "Greyfriars,Edinburgh,Scotland",
+    "source_title": "Henry Paton (ed.),Register of interments in Greyfriars,1658–1700(1902),printed pp.196,252; PDF pp.212,268",
+    "source_url": "https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/register_of_internments_~_greyfriars_churchyard_1658-1700_~_1898.pdf#page=268",
+    "source_quality": "published archival transcription",
+    "status": "Both printed entries visually inspected18 October2026; same burial cross-indexed; original manuscript uninspected",
+    "note": "Agnes Duncan,wife of James Glasgow,weaver. Supports burial date and spouse identification; no exact death date or Duffe remarriage recorded.",
+    "profiles": {
+      "Duncan-16106": {
+        "role": "buried wife"
+      },
+      "Glasgow-1150": {
+        "role": "strongly supported husband identity"
+      }
+    }
+  },
+  {
+    "record_id": "fmp-glasgow-1d1ee2ce10d6",
+    "record_type": "apprenticeship",
+    "date": "1699-10-11",
+    "year": 1699,
+    "place": "Edinburgh,Scotland",
+    "source_title": "Watson,Register of Edinburgh Apprentices1666–1700(1929),printed p.37",
+    "source_url": "https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/edinburgh_apprentices_~_1666_to_1700_~_1929.pdf#page=47",
+    "source_quality": "published archival transcription",
+    "status": "Printed page visually inspected18 October2026; original manuscript uninspected",
+    "note": "Thomas,youngest son of James Glasgow,weaver(B),to James Affleck,baxter(B). Baptismal profile match maintained; probable brother of1696 apprentice,79%.",
+    "profiles": {
+      "Glasgow-3285": {
+        "role": "maintained apprentice-profile match"
+      },
+      "Glasgow-2682": {
+        "role": "father conditional on baptism/apprenticeship identification"
+      }
+    }
   }
 ]

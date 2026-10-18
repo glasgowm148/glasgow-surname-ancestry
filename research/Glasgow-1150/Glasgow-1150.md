@@ -44,6 +44,14 @@ This directly establishes Marion as James's daughter.
 James's date and place of death have not been identified. The maintained master-apprentice records place him alive on 18 October 1693; their full citations are retained below.
 
 == Research Notes ==
+=== Edinburgh apprentice family ===
+[[Duncan-16106|Agnes Duncan]], wife of James Glasgow, weaver, was buried in Greyfriars on 21 January 1674. The printed register also records unnamed children of James the weaver buried on 16 January 1687 (stillborn) and 18 March 1690. Their mothers and individual baptismal identities are unstated.
+
+Agnes’s burial precedes the children of [[Glasgow-2682|James Glasgow]] and [[Duffe-18|Isobell Duffe]], first recorded in 1677. The two James accounts may represent one man with successive marriages. The older craftsman would have been a late father; the Duffe husband’s circa-1655 birth is only an estimate, not a conflicting age record. No marriage, address or explicit wife clause establishes their identity.
+
+The late apprentices [[Glasgow-4114|James]] (1696) and [[Glasgow-3285|Thomas]] (1699) are assessed as probable brothers, 79%, from their identical father-name, weaving trade and burgess status. Their entries do not name a mother. James-4114’s selected father-profile identification remains probable 76%; the sibling inference does not independently prove the father’s identity or transfer either wife as mother.<ref name="EdinburghBrothersReview">[https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/edinburgh_apprentices_~_1666_to_1700_~_1929.pdf#page=47 Watson, Edinburgh Apprentices (1929), printed p.37, PDF p.47: James1696 and Thomas1699; printed page visually checked18 October2026]; [https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/register_of_internments_~_greyfriars_churchyard_1658-1700_~_1898.pdf#page=268 Paton, Greyfriars interments1658–1700 (1902), printed p.252, PDF p.268: Agnes Duncan and James the weaver’s unnamed children; visually checked18 October2026]; [https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/register_of_internments_~_greyfriars_churchyard_1658-1700_~_1898.pdf#page=212 Paton, same register, printed p.196, PDF p.212: Agnes Duncan, wife of James Glasgow,weaver,21 January1674; cross-index of same burial, not independent corroboration].</ref>
+
+
 === Apprentice family review —18 October2026 ===
 
 The1696 apothecary apprentice James [[Glasgow-4114]] is selected as a probable son,76%. His mother and the1690 comparison remain unresolved.

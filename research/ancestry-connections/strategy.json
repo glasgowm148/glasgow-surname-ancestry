@@ -4285,6 +4285,38 @@
       "working_selection": true,
       "assertion_id": "C-working-20261018-edinburgh-apothecary-father",
       "reviewed": "2026-10-18"
+    },
+    {
+      "id": "edinburgh-apprentice-brothers",
+      "year": 1696,
+      "title": "Edinburgh apprentice brothers,probable79%; possible duplicate father accounts",
+      "status": "Probable collateral link; paternal connectivity unchanged",
+      "people": [
+        {
+          "name": "James,1696 apprentice",
+          "url": "/people/glasgow-4114.html"
+        },
+        {
+          "name": "Thomas,1699 apprentice",
+          "url": "/people/glasgow-3285.html"
+        }
+      ],
+      "basis": "James Glasgow-4114, apprenticed to William Adam, apothecary, on 22 April 1696, and Thomas Glasgow-3285, assigned to the baxter apprenticeship of 11 October 1699, are selected as probable brothers at 79% subjective confidence. Both entries name their father as James Glasgow, weaver and burgess of Edinburgh. The matching personal name, craft and civic status, in the same register only three years apart, favour one father. Thomas is expressly the youngest son. His 13 November 1684 baptism fits entry at almost fifteen, while the Duffe household has sons James baptised in 1679 and 1680, fitting the 1696 entry at about seventeen or sixteen. This is a coherent sibling group rather than a name-only regional comparison. The 79% assesses the profile-to-profile sibling inference, not a literal brother clause or measured frequency. The apprentice entries do not name a mother, address or the father’s admission date; two matching craftsmen remain possible. Thomas’s apprenticeship-to-baptism identity is a maintained assignment, supported by age and locality rather than a repeated birth date. Do not choose between the 1679 and 1680 James children, merge either with James-4114, or transfer Isobell Duffe as his mother. The 1690 Lindsayland apprentice James-4131 remains a compatible comparison, including the possibility of a cancelled first apprenticeship. If that identity is established, its deceased father must be reconciled with the master appearing in 1693.",
+      "next_test": "Seek a wife,address or prior-marriage clause tying the Duffe husband to the older weaver; Agnes Duncan’s1674 burial makes successive marriages compatible.",
+      "sources": [
+        {
+          "label": "Watson,apprentices p.37",
+          "url": "https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/edinburgh_apprentices_~_1666_to_1700_~_1929.pdf#page=47"
+        }
+      ],
+      "record_references": [
+        "fmp-glasgow-59dea07d1fbb",
+        "fmp-glasgow-1d1ee2ce10d6",
+        "greyfriars-agnes-duncan-1674"
+      ],
+      "working_selection": false,
+      "assertion_id": "C-reviewed-20261018-edinburgh-apprentice-brothers",
+      "reviewed": "2026-10-18"
     }
   ],
   "source_basis": "Initial priorities reconcile existing medieval bridge research, the pre-1550 relationship audit and the resolved public catalogue. They are current working comparisons, not newly discovered kinship records."

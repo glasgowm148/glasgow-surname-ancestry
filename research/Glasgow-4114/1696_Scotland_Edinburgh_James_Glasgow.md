@@ -1,15 +1,3 @@
-> **EXISTING WIKITREE PROFILE — DO NOT CREATE AGAIN**
-
-# [James Glasgow, apothecary apprentice in 1696](https://www.wikitree.com/wiki/Glasgow-4114)
-
-## Current review
-
-James Glasgow-1150 is selected as this apprentice’s new probable father,76%. The live structured father remains blank.
-
-The earlier claim that the 1690 and 1696 apprentices must be different men is withdrawn. The 1690 entry explicitly calls its Lindsayland weaver father deceased and says that the apprenticeship was scored out. The 1696 entry omits a death qualification; silence does not prove that father alive. A cancelled cordiner apprenticeship followed by an apothecary apprenticeship six years later is compatible with one man, although not established. The matching apprentice/father names and father’s weaving trade support testing that possibility; burgess status is given only for the 1696 father and the two masters differ. Keep the two existing profiles distinct pending an identifier; do not create them again. If they prove to be one child, the selected James-1150 father would need reconsideration because the 1690 father was dead whereas the Edinburgh master appears in 1693. This alternative limits the father assessment rather than being erased.
-
-## Paste-ready biography
-
 [[Category:Glasgow Name Study]]
 {{Estimated Date}}
 
@@ -19,6 +7,14 @@ The earlier claim that the 1690 and 1696 apprentices must be different men is wi
 On 22 April 1696 James, son of James Glasgow, weaver and burgess, was entered as apprentice to William Adam, apothecary and burgess of Edinburgh.<ref name="Apprentice1696">Henry Paton, ed., [https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/edinburgh_apprentices_~_1666_to_1700_~_1929.pdf ''Register of Apprentices of the City of Edinburgh, 1666–1700''] (Scottish Record Society, 1929), printed p. 37, entry dated 22 April 1696; see also Findmypast, [https://www.findmypast.co.uk/transcript?id=SCOT%2FEDINBURGH%2FAPPRENTICES%2F0005161%2F1&tab=this transcript SCOT/EDINBURGH/APPRENTICES/0005161/1], captured 3 September 2026.</ref>
 
 == Research Notes ==
+=== Edinburgh apprentice family ===
+[[Glasgow-3285|Thomas Glasgow]], the baxter apprentice entered on 11 October 1699, was probably James’s brother (79% subjective confidence). Both apprenticeship entries describe their father as James Glasgow, weaver and burgess of Edinburgh. Their entry dates are only three years apart, and Thomas is called the youngest son. Thomas’s identification with the child baptised to [[Glasgow-2682|James Glasgow]] and [[Duffe-18|Isobell Duffe]] in 1684 fits an apprenticeship at almost fifteen. The Duffe household’s sons James, baptised in 1679 and 1680, fit the 1696 entry at seventeen or sixteen. Neither is individually identified with this apprentice.
+
+The shared paternal description supports brotherhood, but neither entry names a mother or address. Two matching craftsmen remain possible, and the Thomas apprenticeship-to-baptism match is an inference. [[Glasgow-1150|James the older Edinburgh weaver]] remains the preferred father-profile match at 76%. His possible identity with the Duffe husband is unresolved; Isobell is not thereby established as this James’s mother.
+
+[[Duncan-16106|Agnes Duncan]], wife of James the weaver, was buried on 21 January 1674, before the Duffe children begin in 1677. Successive marriages are chronologically compatible. The older craftsman’s late fatherhood remains relevant, while the Duffe husband’s circa-1655 birth is an estimate rather than a recorded age. The possible identification with the cancelled 1690 apprentice [[Glasgow-4131|James Glasgow]] also remains open; that entry’s deceased father would require reconciliation with the master recorded in 1693.<ref name="EdinburghBrothersReview">[https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/edinburgh_apprentices_~_1666_to_1700_~_1929.pdf#page=47 Watson, Edinburgh Apprentices (1929), printed p.37, PDF p.47: James1696 and Thomas1699; printed page visually checked18 October2026]; [https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/register_of_internments_~_greyfriars_churchyard_1658-1700_~_1898.pdf#page=268 Paton, Greyfriars interments1658–1700 (1902), printed p.252, PDF p.268: Agnes Duncan and James the weaver’s unnamed children; visually checked18 October2026]; [https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/register_of_internments_~_greyfriars_churchyard_1658-1700_~_1898.pdf#page=212 Paton, same register, printed p.196, PDF p.212: Agnes Duncan, wife of James Glasgow,weaver,21 January1674; cross-index of same burial, not independent corroboration].</ref>
+
+
 === Apprentice family review —18 October2026 ===
 
 James [[Glasgow-1150]] is selected as this apprentice’s new probable father,76%. The live structured father remains blank.
