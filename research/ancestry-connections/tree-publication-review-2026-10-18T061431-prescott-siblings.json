@@ -60,7 +60,9 @@
     "catalogue_john_pending_result_verified": true,
     "catalogue_mary_both_filters_verified": true,
     "main_tree_browser_errors": 0,
-    "focused_tests_passed": 91
+    "focused_tests_passed": 100,
+    "canonical_queue_ownership_verified": true,
+    "identity_holds_preserve_candidate_status_and_review_date": true
   },
   "legacy_suite": {
     "tests": 84,
