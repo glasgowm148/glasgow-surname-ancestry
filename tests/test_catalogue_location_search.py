@@ -55,12 +55,12 @@ class CatalogueLocationSearchTest(unittest.TestCase):
         root = Path(temporary)
         (root / "www/data").mkdir(parents=True)
         (root / "www/people").mkdir()
-        person = {"catalogue_id": "Example-2", "profile_ids": [], "spouses": []}
+        person = {"catalogue_id": "example-2", "profile_ids": [], "spouses": []}
         (root / "www/data/people.json").write_text(json.dumps({"people": [person]}))
         (root / "www/people/example-2.json").write_text(json.dumps({
             "presentation": {"opening": "Bio-only needle term."},
         }))
-        (root / "www/data/catalogue-search-index.json").write_text(json.dumps([{"id": "Example-2"}]))
+        (root / "www/data/catalogue-search-index.json").write_text(json.dumps([{"id": "example-2"}]))
         (root / "www/data/people-index.js").write_text("window.glasgowPeopleIndex=[];\n")
 
         self.assertEqual(refresh_search_indexes(root), 1)
