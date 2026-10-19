@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated": "2026-10-07",
+ "generated": "2026-10-19",
  "about": "Failing items of tools/check_research_publication.py tolerated for now. This list should only shrink: fix an item and run --update-baseline. Keys are 'subject|key'.",
  "counts": {
   "FOLDER_NOT_READ": 6,
@@ -8,8 +8,8 @@
   "OPENING_FALLBACK": 1,
   "PAGE_NOT_RESYNCED": 1,
   "PREAMBLE_NOT_PUBLISHED": 14,
-  "QUEUE_ENTRY_DROPPED": 7,
-  "REGISTER_ENTRY_DROPPED": 5,
+  "QUEUE_ENTRY_DROPPED": 4,
+  "REGISTER_ENTRY_DROPPED": 3,
   "SOURCE_ONLY_IN_INTERNAL_SECTION": 23
  },
  "items": {
@@ -50,17 +50,12 @@
   ],
   "QUEUE_ENTRY_DROPPED": [
    "Dunlop-2144|no_capture",
-   "Glasco-147|no_capture",
    "Glasgow-4293|no_capture",
    "Glasgow-4340|no_capture",
-   "Pike-9902|no_capture",
-   "Pike-9903|no_capture",
    "Plunkett-2805|no_capture"
   ],
   "REGISTER_ENTRY_DROPPED": [
    "Glasgow-3015|5c523d3e96",
-   "Glasgow-3992|f54877fa74",
-   "McCullough-1964|01544fc1d6",
    "Murray-20395|cdeb0de984",
    "Unknown-763421|e8df6d2b79"
   ],

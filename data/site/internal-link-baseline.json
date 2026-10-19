@@ -1,13 +1,10 @@
 {
- "count": 5,
+ "count": 4,
  "description": "Known broken internal links as (source page, target path) pairs. tools/check_internal_links.py fails on any pair not listed here. Only --update-baseline changes this file, and it only removes pairs.",
  "pairs": {
   "research/transcriptions/early-families/index.html": [
    "/research/transcriptions/early-families/research/Glasgow-3078/Glasgow-3078.md",
    "/research/transcriptions/early-families/research/Glasgow-3078/findings.md"
-  ],
-  "sources/census/australia/index.html": [
-   "/sources/census/australia/1911/"
   ],
   "ydna/glasgow-ydna-story-source/reference/original-upload.html": [
    "/ydna/glasgow-ydna-story-source/timeline.html"
