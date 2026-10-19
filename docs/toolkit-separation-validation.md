@@ -36,7 +36,9 @@ Passed:
 
 - Base/development dependency installation loads toolkit `0.2.0` from the pinned submodule.
 - All 11 toolkit integration tests and 6 private research-bundle compatibility tests.
-- A fresh Glasgow Git clone, with the exact submodule seeded from the independent local repository, installed only `requirements/base.txt` plus constraints in a new virtual environment and passed all 17 integration tests. No development extras or pre-existing environment were required.
+- Full local discovery: 908 tests, 902 passed and 6 skipped, with the generated research/site checks enabled. Ruff and CSV/JSON validation passed. The Linux fixture correction also passed its separate three-test module locally.
+- A fresh recursive clone from public GitHub at Glasgow commit `180d55f42e1a51310fc0608f94430c5f290f2dcb` fetched the exact published submodule, installed only `requirements/base.txt` plus constraints in a new virtual environment and passed all 17 integration tests and `pip check`. No local URL overrides, development extras or pre-existing environment were required.
+- Hosted [Glasgow CI](https://github.com/glasgowm148/glasgow-surname-ancestry/actions/runs/39271275762) passed Python 3.12, Python 3.13 and browser jobs. Each Python job collected 908 tests, with 200 explicitly skipped for absent local artifacts; fixture checks remained active. A Linux-only filename-case mismatch in a fictional fixture was corrected.
 - Ruff and public CSV/JSON data validation.
 - Browser fixture smoke: 9 pages, zero failures.
 - Real-site browser checks: 12 pages across mobile and desktop, zero JavaScript errors; the loaded tree was additionally checked at both widths and screenshots inspected.
@@ -77,6 +79,6 @@ The publication gates reported zero new research failures and zero new broken pa
 
 ## Publication boundary
 
-The toolkit repository, `v0.2.0` tag and GitHub release are public, with wheel and source archives attached. A hosted tag clone and hosted CI verified upstream availability before Glasgow publication. Package-index publication and deployment of the Glasgow website are separate actions; neither is performed by a Git push.
+Both repositories are public and their completed implementation commits are pushed. The toolkit's `v0.2.0` tag and GitHub release include wheel and source archives. A hosted tag clone and hosted CI verified upstream availability before Glasgow publication; the public recursive consumer clone then verified the dependency without local substitutions. Package-index publication and deployment of the Glasgow website are separate actions; neither was performed.
 
 The release builds a general research website from the supported export fields. It cannot recreate missing archive research, original source images, researched family studies or DNA findings from a tree export alone. See the standalone README and import-format guide for the supported subset and publication controls.
