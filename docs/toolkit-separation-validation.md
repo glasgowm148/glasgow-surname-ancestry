@@ -21,6 +21,7 @@ Passed:
 
 - Base/development dependency installation loads toolkit `0.2.0` from the pinned submodule.
 - All 11 toolkit integration tests and 6 private research-bundle compatibility tests.
+- A fresh Glasgow Git clone, with the exact submodule seeded from the independent local repository, installed only `requirements/base.txt` plus constraints in a new virtual environment and passed all 17 integration tests. No development extras or pre-existing environment were required.
 - Ruff and public CSV/JSON data validation.
 - Browser fixture smoke: 9 pages, zero failures.
 - Research-publication gate: zero new failing items against the existing baseline.
@@ -41,7 +42,7 @@ Passed:
 - `test_site_experience`
 - `test_sync_catalogue_privacy`
 
-The failing methods were checked against unchanged Glasgow revision `e0cf4d2aec` and its original toolkit `0.1.0`, using the same local research/site inputs. They also fail before the dependency upgrade. Three research-catalogue checks are sensitive to symlink resolution; those were additionally checked at their original paths, with unchanged implementation/test files and the original toolkit imported explicitly. This avoids attributing temporary-worktree path errors to the migration.
+The failing methods were checked against unchanged Glasgow revision `e0cf4d2aec` and its original toolkit `0.1.0`, using the same local research/site inputs. They also fail before the dependency upgrade. Three research-catalogue checks are sensitive to symlink resolution; those were additionally checked at their original paths, with unchanged implementation/test files and the original toolkit imported explicitly. This avoids attributing temporary-worktree path errors to the migration. A comparison of all 339 failure/error identities then matched the pre-upgrade outcomes exactly: zero new identities and zero removed identities.
 
 Representative existing issues include disagreement between catalogue snapshot counts, a missing canonical profile destination, historical relationship output inconsistencies and an outdated route expectation. No historical research, generated Glasgow site output or test baseline was rewritten to mask these failures. The focused tests for changed dependency/identity paths pass.
 
