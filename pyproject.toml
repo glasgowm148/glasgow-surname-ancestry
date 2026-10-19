@@ -4,7 +4,7 @@ version = "0.0.0"
 description = "Glasgow surname research project using genealogy-research-workbench."
 requires-python = ">=3.11"
 dependencies = [
-  "genealogy-research-workbench>=0.2.0,<0.3.0",
+  "genealogy-research-workbench>=0.3.0,<0.4.0",
   "markdown-it-py>=3.0,<4",
   "beautifulsoup4>=4.12,<5",
 ]
