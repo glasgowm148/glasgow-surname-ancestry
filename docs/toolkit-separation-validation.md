@@ -136,3 +136,25 @@ Results with 0.3.0:
 - **Public clone with the new pin and these changes (Python 3.13):** 908 tests, 200 skipped for absent private artifacts. One error came from a missing `rsync` binary in that environment, not from the code.
 
 Not yet done: the toolkit commits are local. Push them, and tag `v0.3.0` if wanted, before pushing the Glasgow commit that pins `afb4aa3`.
+
+### Follow-up, 20 October 2026
+
+The toolkit pin moved to `85264b2` (still 0.3.0). It adds:
+
+- `Study` records with study pages;
+- a dated findings log with an Atom feed;
+- a Families & branches page;
+- `Place.precision`;
+- `genealogy.sitecheck`, the link checker generalised from Glasgow's release gate.
+
+Changes on the Glasgow side:
+
+- **Link checker:** `tools/check_internal_links.py` now runs on the shared checker. Its JSON report for the current local site was identical before and after the change (7 broken links in 4 baselined pairs; 62 person-page anchors).
+- **Living-person screen:** `tools/public_privacy.py` reads birth dates with the shared rule. The blocked set over the 10,948 local profiles is unchanged at 241. Only approximate or bounded recent births are newly treated as possibly living.
+- **Evidence labels:** the toolkit's grades now map onto the Glasgow evidence scale.
+- **Baselines:** five fixed research-publication items and one fixed link pair were removed.
+
+Results:
+
+- Glasgow: 909 tests, 0 failures, 6 skips.
+- Toolkit: 120 tests on Python 3.11 and 3.13, with 5 skips; the 5 browser tests pass.
