@@ -1,325 +1,182 @@
-# Glasgow Surname Ancestry
+<div align="center">
 
-Evidence-led genealogy research, WikiTree profile maintenance, and interactive
-ancestry tools for the Glasgow surname and its variants.
+<img src="docs/images/readme/banner.svg" alt="Glasgow Surname Project — people, places, and the records that connect them" width="100%">
 
-This is the Glasgow research project, not the general-purpose toolkit. It consumes
-the platform-neutral `genealogy-research-workbench` package for shared genealogy
-models, research cases, exports and adapter contracts. WikiTree and One-Tree are
-project adapters; GEDCOM, FamilySearch, archives, spreadsheets/OCR and DNA are
-also supported adapter categories. Glasgow-specific branding, surname variants,
-privacy boundaries and paths live in [`genealogy.toml`](genealogy.toml).
-The established family exporter now delegates WikiTree HTTP retry, WAF and
-response validation, family-capture normalisation and neutral case persistence
-to toolkit adapter services while retaining this project's application ID,
-headers, case naming and command interface.
+**One surname. Centuries of records. Thousands of connected lives.**
 
-The bundled workbench source is installed by the development requirements used
-for local checks and CI:
+[Explore the website](https://glasgow.phenotype.dev/) · [Take the tour](#a-look-around) · [Run locally](#get-started) · [Research workflow](docs/research-workflow.md)
+
+[![CI](https://github.com/glasgowm148/glasgow-surname-ancestry/actions/workflows/ci.yml/badge.svg)](https://github.com/glasgowm148/glasgow-surname-ancestry/actions/workflows/ci.yml)
+![Python 3.11+](https://img.shields.io/badge/Python-3.11%2B-2f5848?style=flat-square)
+![Evidence-led genealogy](https://img.shields.io/badge/Genealogy-evidence--led-94783f?style=flat-square)
+
+</div>
+
+The **Glasgow Surname Project** follows people named Glasgow and its variants through Scotland, Ulster, and the places their families settled. It brings together historical records, family reconstruction, WikiTree research, and Y-DNA interpretation in a public, searchable website.
+
+Behind the site is a Python research workbench: durable cases, source citations, relationship assessments, profile drafts, and tools that turn those findings into connected pages. The question running through it all is simple: **what do the records actually support?**
+
+[![The Glasgow Surname Project homepage, with research entry points and a colourful family-tree preview](docs/images/readme/home.webp)](https://glasgow.phenotype.dev/)
+
+## A look around
+
+### A whole family tree, with room to explore
+
+Zoom from the complete tree into a household. Switch between the whole tree, branch cards, timeline, and Y-DNA views; follow named family branches and open the people behind the dots.
+
+[![Interactive radial family tree with country colours, family branches, year controls, and Y-DNA markers](docs/images/readme/family-tree.webp)](https://glasgow.phenotype.dev/onetree/)
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<h3>Find a person</h3>
+<a href="https://glasgow.phenotype.dev/catalogue/"><img src="docs/images/readme/people.webp" alt="People catalogue with name, relatives, date, place, and evidence filters" width="100%"></a>
+<p>Search thousands of historical people by name, dates, place, relatives, and evidence. See relationship assessments and outstanding WikiTree amendments alongside the results.</p>
+</td>
+<td width="50%" valign="top">
+<h3>Put records on the map</h3>
+<a href="https://glasgow.phenotype.dev/map/"><img src="docs/images/readme/map.webp" alt="World map of Glasgow record associations, with country and date filters" width="100%"></a>
+<p>Explore where people were recorded, from local places to country summaries. Location precision stays visible, so a regional point is never mistaken for an exact address.</p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3>Read the evidence</h3>
+<a href="https://glasgow.phenotype.dev/people/glasgow-540.html"><img src="docs/images/readme/profile.webp" alt="Historical person dossier with family links, evidence labels, and research navigation" width="100%"></a>
+<p>Person pages connect family, sources, current conclusions, and unresolved questions. Supported relationships and uncertain hypotheses retain their own labels.</p>
+</td>
+<td width="50%" valign="top">
+<h3>Follow a study</h3>
+<a href="https://glasgow.phenotype.dev/free-space/"><img src="docs/images/readme/studies.webp" alt="WikiTree study library organised into collections for early names, Scottish records, Irish branches, and DNA" width="100%"></a>
+<p>Browse sourced studies by family, place, period, or topic. The local WikiTree study edition brings related records and research questions into one reading experience.</p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3>Connect DNA and documentary research</h3>
+<a href="https://glasgow.phenotype.dev/ydna/"><img src="docs/images/readme/ydna.webp" alt="Y-DNA research overview showing genetic branches alongside documentary and historical interpretation" width="100%"></a>
+<p>Explore paternal-line branches, comparisons, and research priorities, with genetic estimates, documented ancestry, and historical interpretation explained separately.</p>
+</td>
+<td width="50%" valign="top">
+<h3>See what changed</h3>
+<a href="https://glasgow.phenotype.dev/latest-findings/"><img src="docs/images/readme/latest-findings.webp" alt="Dated findings log with search, filters, research summaries, and linked subjects" width="100%"></a>
+<p>The latest-findings log connects discoveries to the people and sources they concern. Follow a new conclusion back to the fuller current account.</p>
+</td>
+</tr>
+</table>
+
+Screenshots were captured from the local website on **19 October 2026** at 1440 × 1000. They show those pages’ individual data snapshots; the live site may differ. Select an image to visit its corresponding page.
+
+**More ways in:** [Families & places](https://glasgow.phenotype.dev/branches/) · [Records & sources](https://glasgow.phenotype.dev/sources/) · [Find a connection](https://glasgow.phenotype.dev/connections/) · [Compare people](https://glasgow.phenotype.dev/compare/) · [How to read the evidence](https://glasgow.phenotype.dev/evidence/)
+
+## How the research becomes a website
+
+```text
+Historical records + WikiTree captures
+                  ↓
+Research cases · citations · questions · relationship assessments
+                  ↓
+Canonical research catalogue
+                  ↓
+People · family tree · maps · studies · latest findings
+                  ↓
+Reviewed profile drafts and WikiTree amendments
+```
+
+Findings keep their provenance, confidence, and open questions. A relationship imported from a tree is a research lead until assessed against records. Local profile drafts and comparisons make proposed amendments reviewable before a live WikiTree edit.
+
+This repository owns the Glasgow research, branding, website, and source policies. Shared genealogy models and adapter services come from the bundled **genealogy-research-workbench** package; [`genealogy.toml`](genealogy.toml) defines the project overlay. See the [toolkit boundary](docs/toolkit-migration.md).
+
+## Get started
+
+**Want to browse?** [Open the public website](https://glasgow.phenotype.dev/)—no installation needed.
+
+**Want to work on the project?** Use Python **3.11+**, Git, and Make. From a terminal:
 
 ```bash
-python -m pip install -r requirements/base.txt -r requirements/dev.txt -c requirements/constraints.txt
-```
-
-For development with a separate toolkit checkout, install that editable link
-after the bundled requirements. The
-`requirements/toolkit-local.txt` shorthand assumes the toolkit repository is
-checked out at `../genealogy-research-workbench` relative to this repository.
-If it lives elsewhere, install that checkout explicitly:
-
-```bash
-python -m pip install -e /path/to/genealogy-research-workbench
-```
-
-When the checkout is adjacent, the equivalent command is:
-
-```bash
-python -m pip install -r requirements/toolkit-local.txt
-```
-
-The project metadata retains the versioned dependency for a future published
-workbench release. The existing scripts and Makefile commands below remain
-unchanged; reading the overlay does not rebuild the catalogue:
-
-```bash
-python tools/genealogy_project.py
-```
-
-An explicit compatibility bridge can normalise a supplied legacy One-Tree JSON
-file and write a privacy-filtered JSON projection without touching `www/` or
-starting a rebuild:
-
-```bash
-.venv/bin/python tools/genealogy_bridge.py --input /path/to/legacy.json \
-  --export-output /path/to/filtered.json
-```
-
-The established WikiTree family exporter also has an opt-in neutral handoff,
-so a normal capture can be saved as a toolkit case without changing its legacy
-Markdown or JSON outputs:
-
-```bash
-.venv/bin/python src/wikitree_family_export.py Example-1 \
-  --toolkit-case-directory /path/to/cases
-```
-
-Iterative research mode has a separate opt-in dual write. It first maintains
-the established `research_state.json`, `research_plan.json`,
-`evidence_index.json`, `research_brief.md`, and `findings.md`, then writes and
-verifies a private neutral toolkit bundle at an explicit, different directory:
-
-```bash
-.venv/bin/python src/wikitree_family_export.py Example-1 \
-  --research-dir /path/to/legacy-case \
-  --toolkit-research-bundle /path/to/private-toolkit-bundle
-```
-
-The neutral bundle records private typed facts, questions and findings plus
-checksummed legacy-artifact and work-queue provenance. It does not copy raw
-captures, biographies, FamilySearch page bodies, or the free-form Markdown
-bodies, and it cannot be written over the legacy research directory.
-
-Existing research folders can be migrated later without rerunning a scrape or
-sync command. This standalone command accepts exactly one source and one
-different destination; it is offline and does not rebuild the catalogue:
-
-```bash
-.venv/bin/python tools/migrate_research_bundle.py \
-  --research-dir /path/to/legacy-case \
-  --bundle-dir /path/to/private-toolkit-bundle
-```
-
-The repository is organized into source code, tools, tests, durable data,
-generated artifacts, the interactive map, and two established research trees.
-See [`docs/repository-structure.md`](docs/repository-structure.md) for the layout
-and [`docs/research-workflow.md`](docs/research-workflow.md) for the full research rules.
-
-### Optional free-model agent runner
-
-AI-assisted work can be routed through OpenRouter's free-model router without
-adding an LLM dependency to the toolkit. Copy [`.env.example`](.env.example)
-to `.env`, set `OPENROUTER_API_KEY`, and run:
-
-```bash
-.venv/bin/python tools/openrouter_agent.py --agent research \
-  "Summarise the evidence and list unresolved questions."
-```
-
-The `research`, `review`, and `mechanical` roles all default to
-`stealth/union-alpha`.
-Explicit overrides are accepted only for known free models or models ending in
-`:free`, so this helper cannot accidentally route a request to a paid model.
-Defaults are also recorded in [`config/openrouter.toml`](config/openrouter.toml).
-
-The implemented toolkit boundary and remaining compatibility migration are recorded
-in [`docs/toolkit-migration.md`](docs/toolkit-migration.md).
-
-For surname-wide work, start with
-[`surname-research/INDEX.md`](surname-research/INDEX.md). It joins individual
-cases to early profiles, location clusters, and explicit relationship hypotheses.
-
-WikiTree research is the default path. It uses the API only and does not start
-FamilySearch or Playwright.
-
-Install the lightweight dependencies:
-
-```bash
-python -m pip install -r requirements/base.txt
-```
-
-Create a case containing the subject, children, and grandchildren:
-
-```bash
-python src/wikitree_family_export.py Glasgow-3905 \
-  --research-dir research/Glasgow-3905 \
-  --descendant-depth 2
-```
-
-Depth 2 fetches the root and each child. The child captures include their
-children, so grandchildren are indexed without expanding into great-grandchildren.
-
-The original one-shot WikiTree export remains available:
-
-```bash
-python src/wikitree_family_export.py Glasgow-1538
-```
-
-For iterative AI-assisted research, create a durable case. The first command
-below imports an existing export without making network requests:
-
-```bash
-python src/wikitree_family_export.py Glasgow-1538 \
-  --research-dir research/Glasgow-1538 \
-  --import-ai-export artifacts/profile-exports/Glasgow-1538_ai_export.md
-```
-
-The case contains:
-
-- `research_brief.md`: compact dossier to give an AI for analysis.
-- `findings.md`: durable source-to-finding research log; never overwritten.
-- `<WikiTree-ID>.md`: sourced facts and corrections absent from the current profile,
-  queued for manual WikiTree review; user edits are never overwritten.
-- `research_plan.json`: AI-editable questions, findings, web searches and scrape targets.
-- `evidence_index.json`: deduplicated profile and evidence index.
-- `captures/`: immutable raw responses retained for provenance.
-- `research_state.json`: internal run history; do not edit it manually.
-
-## Iteration
-
-1. Ask the AI to read `research_brief.md` and `research_plan.json`.
-2. The exporter scaffolds `<WikiTree-ID>.md` as a manual-review delta file. The AI
-   records evidence assessments in `findings.md` and `research_plan.json`, then adds
-   only supported facts or corrections missing from the current WikiTree page.
-3. When more tree evidence is needed, the AI adds a pending target:
-
-```json
-{
-  "kind": "wikitree",
-  "id": "Glasgow-540",
-  "reason": "Test the former-parent hypothesis against this family.",
-  "status": "pending"
-}
-```
-
-FamilySearch is optional and deliberately separate from the main WikiTree loop.
-Install it only when needed:
-
-```bash
-python -m pip install -r requirements/browser.txt
-playwright install chromium
-```
-
-To queue a FamilySearch source page, associate its PID with its WikiTree profile:
-
-```json
-{
-  "kind": "familysearch",
-  "id": "9QX2-3ZW",
-  "profile_id": "Glasgow-1537",
-  "reason": "Inspect records that may name Ralph's parents.",
-  "status": "pending"
-}
-```
-
-4. Consume pending WikiTree targets and rebuild the brief:
-
-```bash
-python src/wikitree_family_export.py Glasgow-1538 \
-  --research-dir research/Glasgow-1538
-```
-
-Use the existing logged-in Chrome session when FamilySearch targets are pending:
-
-```bash
-python src/wikitree_family_export.py Glasgow-1538 \
-  --research-dir research/Glasgow-1538 \
-  --familysearch-cdp
-```
-
-If nothing is pending, rerunning only rebuilds the index and brief. Use
-`--research-refresh` when a fresh root capture is intentionally required.
-Research cases under `research/` also rebuild the surname-wide navigation indexes.
-
-Regenerate only those indexes with:
-
-```bash
-.venv/bin/python src/surname_research_index.py
-```
-
-Run the offline tests with:
-
-```bash
-python -m unittest discover -s tests -v
-```
-
-For the standard local quality gate, install the development tool once and run:
-
-```bash
+git clone https://github.com/glasgowm148/glasgow-surname-ancestry.git
+cd glasgow-surname-ancestry
+python3 -m venv .venv
+source .venv/bin/activate
 python -m pip install -r requirements/base.txt -r requirements/dev.txt -c requirements/constraints.txt
 make check
 ```
 
-`make check` runs safe Ruff correctness checks, validates the public CSV/JSON
-contracts, and runs the offline test suite. `make build` is deliberately
-separate because it refreshes the One-Tree map and thousands of generated
-catalogue pages:
+The development requirements install the bundled workbench source; a separate toolkit checkout is optional. `make check` runs Ruff, data validation, and offline tests, plus research-publication and site-link checks when their local inputs are available.
+
+### Preview an existing local website
+
+The complete generated `www/` site and its raw input datasets are **not included in a fresh clone**. If you have the built site locally, serve it over HTTP so root-relative links and data requests resolve:
 
 ```bash
-make build
+python -m http.server 8000 --bind 127.0.0.1 --directory www
 ```
 
-Keep source code, research notes, generated output, and data refreshes in
-separate commits. Never reset or stash another contributor's in-progress
-working-tree changes just to make a generated build clean.
+Open [localhost:8000](http://localhost:8000/). Use the [build and deployment guide](docs/public-catalogue-deployment.md) when preparing the full site from local data. Builds and deployment are separate steps; there is no automatic deployment.
 
-Rebuild and test the interactive map with:
+### Start a WikiTree research case
+
+The normal capture workflow uses the WikiTree API. It does not require a logged-in browser.
 
 ```bash
-.venv/bin/python tools/sync_wikitree_profile_evidence.py
-.venv/bin/python tools/sync_onetree_ireland_uk_to_1900.py
-.venv/bin/python tools/build_family_map.py
-.venv/bin/python tests/test_family_map.py
+python src/wikitree_family_export.py Glasgow-1538 \
+  --research-dir research/Glasgow-1538 \
+  --descendant-depth 2
 ```
 
-For ordinary WikiTree tree edits, use the incremental change scanner instead
-of waiting for another full One-Tree export:
+Depth 2 captures the subject and each child; those family responses also index the grandchildren. A case keeps a compact brief, a durable findings log, a research plan, an evidence index, and immutable raw captures.
 
-```bash
-.venv/bin/python tools/sync_recent_wikitree_changes.py --apply --refresh-evidence --rebuild
-```
+Continue with the [research workflow](docs/research-workflow.md) for evidence standards and publication, or the [command-line guide](docs/command-line.md) for imports, queued targets, optional FamilySearch capture, and toolkit handoffs.
 
-The first pass compares the current WikiTree `Touched` value for every locally
-known profile. Only changed profiles and newly connected immediate relatives
-are saved to `data/wikitree/live-profile-overrides.json`; the underlying
-One-Tree exports remain untouched. Parent/child edges, dossiers, networks and
-the map are then rebuilt from the merged view.
+## Useful commands
 
-To discover new or disconnected profiles, save the public
-`Special:NetworkFeed` result as HTML and include it:
+Run from the repository root with `.venv` activated. Build commands require the corresponding local datasets.
 
-```bash
-.venv/bin/python tools/sync_recent_wikitree_changes.py \
-  --feed-html ~/Downloads/wikitree-network-feed.html \
-  --apply --refresh-evidence --rebuild
-```
+| Task | Command |
+| --- | --- |
+| Standard quality gate | `make check` |
+| Offline unit tests | `make test` |
+| Research → website consistency | `make check-research` |
+| Built-site internal links | `make check-links` |
+| Browser smoke check without private data | `python -m playwright install chromium` then `python tools/check_site_quality.py --fixture-smoke` |
+| Browser checks against the built site | `make check-browser` |
+| Regenerate surname research indexes | `python src/surname_research_index.py` |
+| Read the project configuration | `python tools/genealogy_project.py` |
+| Refresh One-Tree data and rebuild the catalogue/map | `make build` |
 
-The feed is used only to discover profile IDs; current genealogy is always
-retrieved from WikiTree's read-only API. Run without `--apply` for a dry-run
-change report. IDs which have since been deleted, merged or made private are
-reported as warnings and do not prevent the remaining public tree from being
-rebuilt.
+`make build` can regenerate thousands of pages. For ordinary research changes, use the targeted builders in the [website synchronization guide](docs/website-research-sync.md). For incremental WikiTree refreshes and advanced exporter recipes, see the [command-line guide](docs/command-line.md#checks-and-website-builds).
 
-`sync_wikitree_profile_evidence.py` defaults to the Irish pre-1700 cohort and
-captures full public WikiTree biographies, citations, source URLs, categories,
-profile locations, and immediate relationships. It writes durable case captures
-and `data/wikitree/profile-evidence.json`; the catalogue publishes the historical
-subset as `www/data/wikitree-profile-evidence.json`. WikiTree profile prose is a
-research lead, not independent evidence.
+## Find your way through the repository
 
-Use `--scope all-historical --no-research-cases` for the resumable full-catalogue
-refresh. Completed profiles are cached and skipped unless `--refresh` is supplied.
+| Location | What lives there |
+| --- | --- |
+| [`research/`](research/) | Individual research cases, findings, and profile drafts |
+| [`surname-research/INDEX.md`](surname-research/INDEX.md) | Surname-wide research, locality clusters, and relationship hypotheses |
+| [`src/`](src/) | WikiTree exporter and surname research indexing |
+| [`tools/`](tools/) | Site builders, synchronization, validation, and research utilities |
+| [`tests/`](tests/) | Offline regression tests and browser checks |
+| [`data/`](data/) | Maintained inputs and local datasets; raw exports stay untracked |
+| [`www/`](www/) | Built website and selected maintained site files |
+| [`vendor/genealogy-research-workbench/`](vendor/genealogy-research-workbench/) | Bundled shared genealogy toolkit |
 
-WikiTree's AWS WAF challenges generic script user agents with an empty HTTP 202
-response. The shared API client uses same-site browser request headers and the
-`GlasgowSurnameResearch` application ID, and reports a WAF challenge explicitly
-if WikiTree blocks the request before `api.php` processes it.
+## Read next
 
-The One-Tree sync includes every date in the merged exports; the legacy script name is retained for compatibility.
-The map build also regenerates the static catalogue under `www/people/`, the
-machine-readable person exports under `www/data/`, and `robots.txt`,
-`sitemap.xml`, `llms.txt`, and the standalone One Tree viewer under
-`www/onetree/glasgow-one-tree-polished/` so profile redirects cannot leave the
-viewer pointing at missing catalogue pages.
-The public catalogue omits likely-living people (no recorded death and a birth
-within the last 120 years), records export provenance, derives named children
-from reversed parent links, and produces a citation backlog wherever the map
-dataset has only profile or local provenance.
+| Guide | Use it for |
+| --- | --- |
+| [Research workflow](docs/research-workflow.md) | Starting a case, assessing evidence, and preparing supported amendments |
+| [Command-line recipes](docs/command-line.md) | Export/import, research iteration, browser capture, refreshes, and toolkit integration |
+| [Website research synchronization](docs/website-research-sync.md) | Keeping findings, catalogue, drafts, and public views aligned |
+| [Evidence labels](docs/evidence-labels.md) | Understanding status, confidence, and provenance |
+| [Repository structure](docs/repository-structure.md) | Detailed ownership and directory layout |
+| [Research tooling](docs/genealogy-tooling.md) | Local search, source integrations, setup, and rollback |
+| [Build reproducibility](docs/build-reproducibility.md) | Build inputs, ordering, and repeatability |
+| [Deployment](docs/public-catalogue-deployment.md) | Release preparation and live verification |
+| [Privacy policy](docs/privacy-policy.md) | What can appear in public outputs |
 
-Upload [`www/`](www/) as the website root, or open [`www/index.html`](www/index.html) locally. The generated map is at [`www/map/index.html`](www/map/index.html) and the crawlable catalogue has a flat entry point at [`www/catalogue.html`](www/catalogue.html) plus [`www/people/index.html`](www/people/index.html).
+## Contribute a record, correction, or improvement
 
-## Public repository boundaries
+For research, include the original source citation, the person or family it concerns, what it supports, and what remains uncertain. Keep namesakes and competing parent hypotheses distinct. For code or presentation changes, include reproduction steps and run the checks relevant to the change.
 
-This repository publishes code, documentation, and durable historical research
-notes. Raw genealogy exports, downloaded source documents, browser captures,
-generated websites, temporary artifacts, credentials, and raw Y-DNA test data
-remain local and are excluded by `.gitignore`.
+[Open an issue](https://github.com/glasgowm148/glasgow-surname-ancestry/issues) or [review the WikiTree Glasgow Name Study](https://www.wikitree.com/wiki/Space:Glasgow_Name_Study).
+
+**Public by design, selective by necessity.** Code, documentation, and durable historical research belong here. Living-person information, credentials, raw DNA, browser state, raw captures, and restricted or licensed source material do not belong in public outputs. The complete generated website and raw datasets stay local, as defined in [`.gitignore`](.gitignore) and the [privacy policy](docs/privacy-policy.md).

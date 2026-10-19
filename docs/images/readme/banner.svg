@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="320" viewBox="0 0 1440 320" role="img" aria-labelledby="title desc">
+  <title id="title">Glasgow Surname Project</title>
+  <desc id="desc">A forest-green and gold banner with a branching tree emblem. Scotland, Ulster, and beyond. People, places, and the records that connect them.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#193d32"/><stop offset="1" stop-color="#2f5848"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#bba974" stop-opacity=".14"/><stop offset="1" stop-color="#bba974" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1440" height="320" rx="12" fill="url(#bg)"/>
+  <circle cx="1200" cy="160" r="300" fill="url(#glow)"/>
+  <g fill="none" stroke="#c3b583" stroke-width="1" opacity=".2">
+    <circle cx="1270" cy="164" r="104"/><circle cx="1270" cy="164" r="161"/><circle cx="1270" cy="164" r="219"/>
+    <path d="m1070 276 200-112-89-118m89 118 148-90m-148 90 135 127m-135-127-40 156m40-156 170 17m-170-17-225-40m225 40 31-164"/>
+  </g>
+  <g fill="#c3b583" opacity=".5"><circle cx="1070" cy="276" r="4"/><circle cx="1181" cy="46" r="4"/><circle cx="1418" cy="74" r="4"/><circle cx="1405" cy="291" r="4"/><circle cx="1045" cy="124" r="4"/><circle cx="1270" cy="164" r="6"/></g>
+  <g transform="translate(62 74)" stroke="#e3d8b2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M0 164V67a56 56 0 0 1 112 0v97Z" stroke-width="2"/>
+    <path d="M56 147V50m0 65-29-25m29 8 29-29m-29 63 33-20m-33-33L36 60" stroke-width="2.4"/>
+    <g stroke-width="1.8"><circle cx="56" cy="40" r="7"/><circle cx="26" cy="82" r="7"/><circle cx="90" cy="61" r="7"/><circle cx="95" cy="106" r="7"/><circle cx="31" cy="53" r="6"/></g>
+  </g>
+  <text x="214" y="86" fill="#d7c58f" font-family="Arial, sans-serif" font-size="13" letter-spacing="4">SCOTLAND · ULSTER · BEYOND</text>
+  <text x="209" y="157" fill="#f6f3e8" font-family="Georgia, serif" font-size="64">Glasgow Surname Project</text>
+  <text x="214" y="207" fill="#e5e8d9" font-family="Georgia, serif" font-size="24">People, places, and the records that connect them.</text>
+  <path d="M214 236h672" stroke="#a8b18d" stroke-opacity=".45"/>
+  <text x="214" y="267" fill="#d5dfcb" font-family="Arial, sans-serif" font-size="12" letter-spacing="2">HISTORICAL RESEARCH  /  FAMILY CONNECTIONS  /  OPEN QUESTIONS</text>
+</svg>
