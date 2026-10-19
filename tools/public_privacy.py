@@ -81,19 +81,30 @@ def likely_living(*rows, year=None):
            or re.fullmatch(r"\d{3}0s", str(_value(row, "death_date_decade", "DeathDateDecade")))
            for row in rows):
         return False
+    from genealogy.dates import wikitree_date
+    from genealogy.publication import HISTORICAL_YEARS, birth_upper_year
+
+    current = year or date.today().year
     years = []
     recent_decade = False
     for row in rows:
-        match = re.match(r"^(\d{4})", str(_value(row, "birth_date", "BirthDate")))
-        if match and int(match[1]):
+        # The toolkit's date reading: exact years, bounds and approximate dates
+        # (ABT 1990 counts as up to 2000). Unreadable values fall back to a
+        # leading year, then to a redacted birth decade.
+        birth = wikitree_date(str(_value(row, "birth_date", "BirthDate")) or None)
+        upper = birth_upper_year(birth)
+        match = re.match(r"^(\d{4})", birth or "")
+        if upper is not None:
+            years.append(upper)
+        elif match and int(match[1]):
             years.append(int(match[1]))
         else:
             decade = re.fullmatch(r"(\d{3}0)s", str(_value(row, "birth_date_decade", "BirthDateDecade")))
             if decade:
                 # The latest possible birth controls this conservative screen.
                 latest = int(decade[1]) + 9
-                recent_decade |= latest >= (year or date.today().year) - 120
-    return recent_decade or bool(years and min(years) >= (year or date.today().year) - 120)
+                recent_decade |= latest >= current - HISTORICAL_YEARS
+    return recent_decade or bool(years and min(years) >= current - HISTORICAL_YEARS)
 
 
 class PublicPrivacy:
