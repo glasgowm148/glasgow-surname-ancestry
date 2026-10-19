@@ -68,7 +68,7 @@ class ToolkitIntegrationTests(unittest.TestCase):
                 load_project_config(config_path)
 
     def test_configured_toolkit_cli_validates_only_the_isolated_fixture(self):
-        command = [str(ROOT / ".venv/bin/genealogy"), "--project", str(ROOT), "validate"]
+        command = [sys.executable, "-m", "genealogy", "--project", str(ROOT), "validate"]
         result = subprocess.run(command, cwd=ROOT, check=False, capture_output=True, text=True)
         self.assertEqual(result.returncode, 0, result.stderr)
         self.assertIn("Research case is valid", result.stdout)
@@ -157,6 +157,22 @@ class ToolkitIntegrationTests(unittest.TestCase):
         })
         self.assertEqual(len(case.records("Person")), 2)
         self.assertTrue(case.records("Relationship"))
+
+    def test_bridge_uses_upstream_identity_for_generic_namesakes_and_claims(self):
+        case = normalise_legacy_onetree({
+            "people": [
+                {"id": "first", "name": "Invented Namesake", "DeathDate": "1900", "Privacy": 60},
+                {"id": "second", "name": "Invented Namesake", "DeathDate": "1880", "Privacy": 60},
+            ],
+            "relationships": [{"id": "parent", "subject_id": "first", "object_id": "second",
+                               "kind": "parent", "Privacy": 60}],
+            "claims": [{"id": "claim", "subject_id": "first", "predicate": "was-recorded",
+                        "value": "synthetic example", "sensitivity": "public"}],
+        })
+        self.assertEqual({"one-tree:person:first", "one-tree:person:second"},
+                         {person.id for person in case.records("Person")})
+        self.assertEqual("one-tree:person:first", case.records("Claim")[0].subject_id)
+        self.assertEqual("one-tree:person:second", case.records("Relationship")[0].object_id)
 
     def test_legacy_overlay_cli_contract_remains_available(self):
         result = subprocess.run(

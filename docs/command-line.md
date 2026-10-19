@@ -20,15 +20,16 @@ response validation, family-capture normalisation and neutral case persistence
 to toolkit adapter services while retaining this project's application ID,
 headers, case naming and command interface.
 
-The bundled workbench source is installed by the development requirements used
-for local checks and CI:
+The independent workbench repository is pinned as a Git submodule. Initialise
+it before installing the base and development requirements used for checks and CI:
 
 ```bash
+git submodule update --init --recursive
 python -m pip install -r requirements/base.txt -r requirements/dev.txt -c requirements/constraints.txt
 ```
 
 For development with a separate toolkit checkout, install that editable link
-after the bundled requirements. The
+after the normal requirements. The
 `requirements/toolkit-local.txt` shorthand assumes the toolkit repository is
 checked out at `../genealogy-research-workbench` relative to this repository.
 If it lives elsewhere, install that checkout explicitly:
@@ -43,8 +44,9 @@ When the checkout is adjacent, the equivalent command is:
 python -m pip install -r requirements/toolkit-local.txt
 ```
 
-The project metadata retains the versioned dependency for a future published
-workbench release. The existing scripts and Makefile commands below remain
+The project metadata declares compatibility with toolkit `0.2.x`; the Git
+submodule supplies the exact source commit without relying on an unpublished
+package-index release. See [dependency management](toolkit-dependency.md). The existing scripts and Makefile commands below remain
 unchanged; reading the overlay does not rebuild the catalogue:
 
 ```bash

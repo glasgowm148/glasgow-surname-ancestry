@@ -1,9 +1,17 @@
-# Genealogy toolkit split
+# Genealogy toolkit separation
 
-The reusable system lives in the ordinary sibling repository
-`../genealogy-research-workbench`. This repository remains the Glasgow surname
-research project and consumes toolkit version `0.1.x` (or the sibling checkout
-through `requirements/toolkit-local.txt` during development).
+The authoritative reusable system is now an independent, MIT-licensed
+`genealogy-research-workbench` repository. Glasgow consumes toolkit `0.2.x`
+through a pinned Git submodule at `vendor/genealogy-research-workbench/`, replacing
+the former copied source snapshot. See [dependency management](toolkit-dependency.md)
+for initialisation, upgrades and release order.
+
+The standalone toolkit now offers a local GEDCOM/OneTree upload workflow and
+a connected generic website: people search and dossiers, whole-tree/family/branch
+views, timelines, supplied-coordinate maps, sources, research, comparisons,
+connection paths and public data downloads. It has a fictional demo, package
+builds, MIT licensing and its own tests/CI. These generic views do not replace
+Glasgow’s existing researched site automatically.
 
 ## Extracted platform-neutral responsibilities
 
@@ -45,8 +53,11 @@ handoff; neutral entity filtering, validation and storage remain in the toolkit.
 Remaining WikiTree API requests in that exporter now pass through the toolkit's generic
 `WikiTreeHttpClient`; Glasgow retains its own app ID, request headers and error
 surface. The Glasgow overlay loader requires the toolkit's validated
-`ProjectConfig`; it has no raw-TOML fallback. Other production paths can migrate
-incrementally after the toolkit has a published package and cross-repository CI.
+`ProjectConfig`; it has no raw-TOML fallback. Glasgow compatibility wrappers retain their established command and data
+contracts; the standalone toolkit owns generic model/adapter behaviour. Its
+canonical OneTree identity helper is also used by the Glasgow bridge, avoiding
+a second set of person-ID rules. The pinned submodule makes local source and
+CI installs reproducible without assuming a package-index release exists.
 The legacy research-state, plan and evidence-index files remain authoritative
 because several Glasgow tools consume their version-1 schemas. Research mode
 now offers an additive `--toolkit-research-bundle DIRECTORY` transition. When
@@ -89,4 +100,6 @@ eligible for public access, while lower values are restricted. A record is still
 withheld unless its person is deceased and all referenced records are public.
 Raw DNA is rejected before a portable case or export can be written.
 
-No catalogue rebuild was performed as part of this split.
+The separation changes software ownership and dependency installation. It does
+not publish a site or change historical research; no Glasgow catalogue rebuild
+is required for the dependency transition.

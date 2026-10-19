@@ -1,0 +1,3 @@
+# Independent toolkit repository, pinned by the Git submodule commit.
+# Initialise it with: git submodule update --init --recursive
+-e ./vendor/genealogy-research-workbench

@@ -15,6 +15,7 @@ import sys
 from typing import Any, Iterable, Mapping
 
 from genealogy.adapters import OneTreeAdapter
+from genealogy.adapters.onetree import onetree_external_id
 from genealogy.case import CaseStore, ResearchCase
 from genealogy.config import ProjectConfig
 from genealogy.exports import project_for_public_export
@@ -171,12 +172,9 @@ def _id(row: Mapping[str, Any], section: str) -> str:
 
 def _adapter_external_id(row: Mapping[str, Any]) -> str:
     """Mirror the One-Tree adapter's provider-identity selection."""
-    for wanted in ("name", "profile_id", "id"):
-        for key, value in row.items():
-            if str(key).casefold() == wanted and isinstance(value, (str, int)) and not isinstance(value, bool):
-                text = str(value).strip()
-                if text:
-                    return text
+    identity = onetree_external_id(row)
+    if identity:
+        return identity
     raise ValueError("legacy person row needs Name, profile_id, or id")
 
 

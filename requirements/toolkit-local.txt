@@ -1,6 +1,5 @@
-# Development-only adjacent checkout. This relative path is valid when
-# genealogy-research-workbench is checked out beside this repository. For a
-# checkout elsewhere, install it explicitly with `pip install -e PATH` before
-# installing this project's base requirements. Released installs use the
-# versioned dependency declared in pyproject.toml instead.
+# Optional development override, installed AFTER the normal base/dev requirements.
+# This shorthand assumes a toolkit checkout adjacent to the Glasgow repository.
+# For another location: python -m pip install -e /path/to/genealogy-research-workbench
+# Normal installs use the toolkit Git submodule pinned by the Glasgow repository.
 -e ../genealogy-research-workbench

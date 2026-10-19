@@ -15,6 +15,8 @@ jobs:
         python-version: ["3.12", "3.13"]
     steps:
       - uses: actions/checkout@v4
+        with:
+          submodules: recursive
       - uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python-version }}
@@ -23,6 +25,8 @@ jobs:
             requirements/base.txt
             requirements/constraints.txt
             requirements/dev.txt
+            requirements/toolkit.txt
+            .gitmodules
       - uses: actions/setup-node@v4
         with:
           node-version: 20
@@ -33,6 +37,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          submodules: recursive
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -41,6 +47,8 @@ jobs:
             requirements/base.txt
             requirements/constraints.txt
             requirements/dev.txt
+            requirements/toolkit.txt
+            .gitmodules
       - uses: actions/setup-node@v4
         with:
           node-version: 20

@@ -85,7 +85,7 @@ Reviewed profile drafts and WikiTree amendments
 
 Findings keep their provenance, confidence, and open questions. A relationship imported from a tree is a research lead until assessed against records. Local profile drafts and comparisons make proposed amendments reviewable before a live WikiTree edit.
 
-This repository owns the Glasgow research, branding, website, and source policies. Shared genealogy models and adapter services come from the bundled **genealogy-research-workbench** package; [`genealogy.toml`](genealogy.toml) defines the project overlay. See the [toolkit boundary](docs/toolkit-migration.md).
+This repository owns the Glasgow research, branding, website, and source policies. Shared genealogy models, adapters, and the reusable site builder live in the independent **genealogy-research-workbench** repository, pinned here as a Git submodule; [`genealogy.toml`](genealogy.toml) defines the project overlay. See the [toolkit boundary](docs/toolkit-migration.md).
 
 ## Get started
 
@@ -94,7 +94,7 @@ This repository owns the Glasgow research, branding, website, and source policie
 **Want to work on the project?** Use Python **3.11+**, Git, and Make. From a terminal:
 
 ```bash
-git clone https://github.com/glasgowm148/glasgow-surname-ancestry.git
+git clone --recurse-submodules https://github.com/glasgowm148/glasgow-surname-ancestry.git
 cd glasgow-surname-ancestry
 python3 -m venv .venv
 source .venv/bin/activate
@@ -102,7 +102,7 @@ python -m pip install -r requirements/base.txt -r requirements/dev.txt -c requir
 make check
 ```
 
-The development requirements install the bundled workbench source; a separate toolkit checkout is optional. `make check` runs Ruff, data validation, and offline tests, plus research-publication and site-link checks when their local inputs are available.
+The base requirements install the toolkit from its pinned Git submodule. For an existing clone, first run `git submodule update --init --recursive`. A separate editable toolkit checkout is optional; see [dependency updates](docs/toolkit-dependency.md). `make check` runs Ruff, data validation, and offline tests, plus research-publication and site-link checks when their local inputs are available.
 
 ### Preview an existing local website
 
@@ -157,7 +157,7 @@ Run from the repository root with `.venv` activated. Build commands require the 
 | [`tests/`](tests/) | Offline regression tests and browser checks |
 | [`data/`](data/) | Maintained inputs and local datasets; raw exports stay untracked |
 | [`www/`](www/) | Built website and selected maintained site files |
-| [`vendor/genealogy-research-workbench/`](vendor/genealogy-research-workbench/) | Bundled shared genealogy toolkit |
+| [`vendor/genealogy-research-workbench/`](vendor/genealogy-research-workbench/) | Independent toolkit Git submodule, pinned to a reviewed commit |
 
 ## Read next
 
@@ -169,6 +169,7 @@ Run from the repository root with `.venv` activated. Build commands require the 
 | [Evidence labels](docs/evidence-labels.md) | Understanding status, confidence, and provenance |
 | [Repository structure](docs/repository-structure.md) | Detailed ownership and directory layout |
 | [Research tooling](docs/genealogy-tooling.md) | Local search, source integrations, setup, and rollback |
+| [Toolkit dependency](docs/toolkit-dependency.md) | Initialisation, local development, upgrades, and release order |
 | [Build reproducibility](docs/build-reproducibility.md) | Build inputs, ordering, and repeatability |
 | [Deployment](docs/public-catalogue-deployment.md) | Release preparation and live verification |
 | [Privacy policy](docs/privacy-policy.md) | What can appear in public outputs |
