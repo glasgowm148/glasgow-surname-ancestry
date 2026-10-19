@@ -158,3 +158,10 @@ Results:
 
 - Glasgow: 909 tests, 0 failures, 6 skips.
 - Toolkit: 120 tests on Python 3.11 and 3.13, with 5 skips; the 5 browser tests pass.
+
+Later the same morning:
+
+- **Accessibility:** an axe-core WCAG 2.1 A/AA audit of every toolkit page type at desktop and mobile widths found only colour-contrast failures (muted and eyebrow text below 4.5:1). Both are fixed, and the audit now runs in the toolkit's browser tests and CI.
+- **Places:** the toolkit groups places by recorded country or region.
+- **Estimates:** relationships accept an optional assessed percentage estimate.
+- **Pin:** the pin is the final local `v0.3.0` tag, `21a45d4`. The toolkit has 123 tests, 6 opt-in skips, and its 6 browser checks, including the accessibility audit, pass.

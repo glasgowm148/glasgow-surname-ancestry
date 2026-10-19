@@ -2,7 +2,7 @@
 
 This compares what the Glasgow site does with what the reusable
 [genealogy-research-workbench](https://github.com/glasgowm148/genealogy-research-workbench)
-(0.3.0 at `85264b2`, pinned in `vendor/`) builds from someone else's GEDCOM or OneTree export.
+(`v0.3.0`, pinned in `vendor/`) builds from someone else's GEDCOM or OneTree export.
 It was checked against the toolkit code, its fictional demo and imports of the
 real local exports. Those imports were inspected locally and read-only; no real
 data entered the toolkit repository.
@@ -22,11 +22,11 @@ Classes used below:
 | Person dossiers | Resolved model, family, evidence labels, conclusions, open questions | Names, life dates, family (parents, partners and marriages, children, siblings), events, claims with citations and evidence, linked research | Reusable. Written conclusions need research (`Finding` records). |
 | Sources and citations | Source collections, approved PDFs, captures | Bibliography (title, author, publication, repository), citation locators, assessments | Reusable. Images, transcriptions and licensed text need research and rights. |
 | Evidence and claims | Claim and evidence model, `/evidence/` label guide | Claim, Citation and Evidence records; one label vocabulary; `evidence.html` guide | Reusable |
-| Relationship confidence | Graded states, percentage bands, reviewed probability estimates | Documented/probable/possible/disproved/unassessed; the tree's own marks shown as "tree-marked …" | Reusable. Percentage estimates are not modelled, and each estimate needs research. |
+| Relationship confidence | Graded states, percentage bands, reviewed probability estimates | Documented/probable/possible/disproved/unassessed; optional assessed `estimate` shown as "Probable (70%)"; the tree's own marks shown as "tree-marked …" | Reusable. Each estimate needs research; Glasgow's band scale stays Glasgow-specific. |
 | Alternatives and relationship roles | Competing fathers and hypotheses kept with their own grades | Step, adoptive, foster and non-biological roles; "competing parent records" notice; `Hypothesis` records | Reusable |
 | Family tree and branches | Radial whole tree, country colours, named branches, Y-DNA markers | Whole-tree canvas, family focus, branch cards, birth-year slider; a **Families & branches** page of surname groups and connected groups | Reusable. Hand-named branches and country colours are Glasgow-specific; Y-DNA needs research. |
 | Timelines | Study timelines, dated events | Filterable event timeline; approximate dates kept as supplied | Reusable |
-| Maps | Atlas with location precision, country summaries, Irish/Scottish gazetteer | Offline map of supplied coordinates with a `precision` field; broad locations are drawn as dashed rings; GeoJSON | Reusable. Country summaries are missing; the gazetteer data is Glasgow-specific. No geocoding by design. |
+| Maps | Atlas with location precision, country summaries, Irish/Scottish gazetteer | Offline map of supplied coordinates with a `precision` field; broad locations are drawn as dashed rings; places grouped and summarised by recorded country or region; GeoJSON | Reusable. The gazetteer data is Glasgow-specific. No geocoding by design. |
 | Comparisons and connections | Compare people; shortest connection | Same, over public recorded relationships | Reusable |
 | Research studies | Free-space edition, study pages with rationale and linked subjects | `Study` records: rationale, escaped Markdown body with `[[record]]` references, conclusion, linked subjects; study pages and index with links both ways | Reusable. The content needs research; WikiTree free-space import is Glasgow-specific. |
 | Findings log | `/latest-findings/` dated discovery log and feed | `Finding.recorded_on`; a dated Latest findings log, newest first; an Atom feed when `site.base_url` is set | Reusable |
@@ -41,8 +41,7 @@ Classes used below:
 A GEDCOM or OneTree file holds tree assertions. Without further research the
 workbench cannot produce:
 
-- assessed relationship confidence;
-- percentage estimates;
+- assessed relationship confidence and percentage estimates (the workbench displays these once recorded);
 - studies and written conclusions (the workbench now publishes these once written);
 - source images or transcriptions;
 - location precision beyond the supplied coordinates;
