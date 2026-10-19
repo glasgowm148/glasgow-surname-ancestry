@@ -39,39 +39,29 @@ from __future__ import annotations
 
 import argparse
 from collections import Counter, defaultdict
-from concurrent.futures import ProcessPoolExecutor
-from html import unescape
 import json
-import os
 from pathlib import Path
 import posixpath
 import re
 import sys
 import time
-from urllib.parse import unquote, urljoin, urlsplit
+from urllib.parse import urlsplit
+
+from genealogy.sitecheck import (  # noqa: F401  (resolve/page_url/site_files are part of this tool's API)
+    LinkCheckOptions, check_site, page_url, pairs_of, read_baseline, resolve, site_files,
+    write_baseline as _write_baseline,
+)
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE_HOST = "glasgow.phenotype.dev"
 LOCAL_HOSTS = {SITE_HOST, "www." + SITE_HOST}
 DEFAULT_BASELINE = ROOT / "data/site/internal-link-baseline.json"
-SCHEMA_VERSION = 1
 EXAMPLES = 8
 
-_COMMENT = re.compile(r"<!--.*?-->", re.S)
-_RAW_BODY = re.compile(r"(<(script|style|textarea)\b[^>]*>).*?</\2\s*>", re.I | re.S)
-_TAG = re.compile(r"<([a-zA-Z][a-zA-Z0-9-]*)(\s[^>]*)>", re.S)
-_ATTR = re.compile(r"""(?:^|\s)(href|src|srcset|poster|data-r-fragment)\s*=\s*(?:"([^"]*)"|'([^']*)'|([^\s"'>]+))""", re.I)
-_BASE = re.compile(r"""<base\b[^>]*?\bhref\s*=\s*["']([^"']*)["']""", re.I)
-_ID = re.compile(r"""\s(?:id|name)\s*=\s*["']([^"']+)["']""", re.I)
-_LAZY_ANCHORS = re.compile(r"""data-r-fragment-anchors\s*=\s*["']([^"']*)["']""", re.I)
-_PERSON_PAGE = re.compile(r"people/[^/]+\.html")
 _FRAGMENT_FILE = re.compile(r"assets/research/fragments/(.+?)-(?:[0-9a-f]{16}|technical)\.html")
-_SKIP_SCHEMES = ("mailto:", "tel:", "javascript:", "data:", "blob:", "about:", "sms:", "file:")
-_TEMPLATE = ("${", "{{", "<%", "' +", "\" +")
 _PROFILE_ID = re.compile(r"[A-Za-z][A-Za-z_'’]*(?:-[A-Za-z][A-Za-z_'’]*)*-\d+")
 _ASSET_SUFFIXES = {".css", ".js", ".mjs", ".png", ".jpg", ".jpeg", ".gif", ".svg", ".webp", ".ico", ".woff",
                    ".woff2", ".ttf", ".json", ".csv", ".txt", ".pdf", ".xml", ".mp4", ".webm", ".geojson"}
-_SKIP_TAGS = {"base", "form"}
 # Generated under hashed names; see ``check`` for how unreferenced ones are treated.
 GENERATED_PREFIXES = ("assets/research/fragments/", "people/research-material/")
 
@@ -125,115 +115,26 @@ CAUSES = {
     },
 }
 
-_FILES: frozenset = frozenset()
-
-
-def _init(files: frozenset) -> None:
-    global _FILES
-    _FILES = files
-
-
-def page_url(relative: str) -> str:
-    if relative == "index.html":
-        return "/"
-    if relative.endswith("/index.html"):
-        return "/" + relative[: -len("index.html")]
-    return "/" + relative
-
-
-def resolve(path: str, files) -> tuple[str | None, str]:
-    """Return (file served for this URL path or None, how)."""
-    decoded = unquote(path or "/")
-    if not decoded.startswith("/"):
-        decoded = "/" + decoded
-    slash = decoded.endswith("/")
-    normal = posixpath.normpath(decoded)
-    if normal.startswith("//") or ".." in normal.split("/"):
-        return None, "outside-site"
-    rel = normal.lstrip("/")
-    if rel in ("", "."):
-        return ("index.html", "dir") if "index.html" in files else (None, "missing")
-    if slash:
-        candidate = rel + "/index.html"
-        return (candidate, "dir") if candidate in files else (None, "missing")
-    if rel in files:
-        return rel, "file"
-    if rel + "/index.html" in files:
-        return rel + "/index.html", "dir-noslash"
-    if rel + ".html" in files:
-        return None, "html-fallback"
-    return None, "missing"
-
-
-def _values(name: str, raw: str) -> list[str]:
-    value = unescape(raw).strip()
-    if name.lower() == "srcset":
-        return [part.strip().split()[0] for part in value.split(",") if part.strip()]
-    return [value]
-
-
-def scan(relative: str, site_root: str) -> dict:
-    """Check one page. Returns broken links, person-page anchors and counts."""
-    text = Path(site_root, relative).read_text(encoding="utf-8", errors="replace")
+def fragment_base(relative: str, text: str) -> str | None:
+    """A lazy research fragment resolves against the person page it is inserted into."""
     fragment = _FRAGMENT_FILE.fullmatch(relative)
     if fragment and "<head" not in text[:4000].lower():
-        base = f"https://{SITE_HOST}/people/{fragment.group(1)}.html"
-    else:
-        base = f"https://{SITE_HOST}{page_url(relative)}"
-        match = _BASE.search(text)
-        if match:
-            base = urljoin(base, unescape(match.group(1)).strip())
-    clean = _RAW_BODY.sub(lambda m: m.group(1), _COMMENT.sub(" ", text))
-    broken, anchors, checked, internal = [], [], 0, 0
-    refs = set()
-    cache = {}
-    for tag in _TAG.finditer(clean):
-        name, attrs = tag.group(1).lower(), tag.group(2)
-        if name in _SKIP_TAGS or not ("href" in attrs or "src" in attrs or "poster" in attrs or "data-r-fragment" in attrs):
-            continue
-        for attr in _ATTR.finditer(attrs):
-            raw = next(g for g in attr.groups()[1:] if g is not None)
-            for value in _values(attr.group(1), raw):
-                checked += 1
-                low = value.lower()
-                if not value or value.startswith("#") or low.startswith(_SKIP_SCHEMES) or any(t in value for t in _TEMPLATE):
-                    continue
-                try:
-                    parts = urlsplit(urljoin(base, value))
-                except ValueError:
-                    broken.append((name, attr.group(1).lower(), value[:300], value[:300], "invalid-url"))
-                    continue
-                if parts.scheme not in ("http", "https") or parts.netloc.lower() not in LOCAL_HOSTS:
-                    continue
-                internal += 1
-                path = parts.path or "/"
-                if path not in cache:
-                    cache[path] = resolve(path, _FILES)
-                target, how = cache[path]
-                if target is None:
-                    broken.append((name, attr.group(1).lower(), value[:300], unquote(path), how))
-                    continue
-                if target.startswith(GENERATED_PREFIXES):
-                    refs.add(target)
-                if parts.fragment and _PERSON_PAGE.fullmatch(target) and target != relative:
-                    anchors.append((target, unquote(parts.fragment), value[:300]))
-    ids = None
-    if _PERSON_PAGE.fullmatch(relative):
-        ids = set(_ID.findall(clean))
-        for listed in _LAZY_ANCHORS.findall(clean):
-            ids.update(listed.split())
-        ids = sorted(ids)
-    return {"page": relative, "broken": broken, "anchors": anchors, "ids": ids,
-            "checked": checked, "internal": internal, "refs": sorted(refs)}
+        return f"https://{SITE_HOST}/people/{fragment.group(1)}.html"
+    return None
 
 
-def site_files(site_root: Path) -> frozenset:
-    files = []
-    for directory, _, names in os.walk(site_root):
-        prefix = Path(directory).relative_to(site_root).as_posix()
-        prefix = "" if prefix == "." else prefix + "/"
-        files.extend(prefix + name for name in names)
-    return frozenset(files)
+# The generic resolution, scanning, anchor and reachability rules live in the
+# toolkit's genealogy.sitecheck; Glasgow supplies its host, the lazy fragment
+# attributes and the person-page anchor scope.
+OPTIONS = LinkCheckOptions(
+    host=SITE_HOST,
+    extra_hosts=("www." + SITE_HOST,),
+    attributes=("href", "src", "srcset", "poster", "data-r-fragment"),
+    anchor_pages=r"people/[^/]+\.html",
+    id_list_attributes=("data-r-fragment-anchors",),
+    generated_prefixes=GENERATED_PREFIXES,
+    base_for=fragment_base,
+)
 
 
 def source_pattern(relative: str) -> str:
@@ -279,56 +180,12 @@ def classify(page: str, value: str, target: str, how: str, files) -> str:
 def check(site_root: Path, jobs: int | None = None) -> dict:
     """Scan the site and return all results (no baseline logic)."""
     started = time.time()
-    site_root = Path(site_root)
-    files = site_files(site_root)
-    pages = sorted(f for f in files if f.endswith(".html"))
-    jobs = jobs if jobs is not None else max(1, min(8, (os.cpu_count() or 2) // 2))
-    if jobs <= 1:
-        _init(files)
-        results = [scan(page, str(site_root)) for page in pages]
-    else:
-        with ProcessPoolExecutor(max_workers=jobs, initializer=_init, initargs=(files,)) as pool:
-            results = list(pool.map(scan, pages, [str(site_root)] * len(pages), chunksize=64))
-    broken, ids, anchor_refs = [], {}, []
-    checked = internal = 0
-    # Lazy-loaded fragments and reader pages are written under hashed names and
-    # earlier builds leave old ones behind. Only those some page still leads to
-    # can be reached by a reader, so only those are checked.
-    reachable, frontier = set(), set()
-    for result in results:
-        if not result["page"].startswith(GENERATED_PREFIXES):
-            frontier.update(result["refs"])
-    by_page = {result["page"]: result for result in results}
-    while frontier:
-        page = frontier.pop()
-        if page in reachable:
-            continue
-        reachable.add(page)
-        frontier.update(ref for ref in (by_page.get(page) or {}).get("refs", []) if ref not in reachable)
-    unreferenced = sorted(result["page"] for result in results
-                          if result["page"].startswith(GENERATED_PREFIXES) and result["page"] not in reachable)
-    skipped = set(unreferenced)
-    for result in results:
-        if result["page"] in skipped:
-            continue
-        checked += result["checked"]
-        internal += result["internal"]
-        if result["ids"] is not None:
-            ids[result["page"]] = set(result["ids"])
-        for tag, attr, value, target, how in result["broken"]:
-            broken.append({"page": result["page"], "tag": tag, "attr": attr, "href": value, "target": target,
-                           "cause": classify(result["page"], value, target, how, files)})
-        anchor_refs.extend((result["page"], *ref) for ref in result["anchors"])
-    missing_anchors = [{"page": page, "href": value, "target": target, "anchor": anchor}
-                       for page, target, anchor, value in anchor_refs if anchor not in ids.get(target, set())]
-    return {"site": str(site_root), "pages": len(pages), "references_checked": checked, "internal_references": internal,
-            "broken": broken, "anchor_references": len(anchor_refs), "missing_anchors": missing_anchors,
-            "unreferenced_generated_pages": unreferenced,
-            "elapsed_seconds": round(time.time() - started, 1)}
-
-
-def pairs_of(broken: list[dict]) -> set[tuple[str, str]]:
-    return {(row["page"], row["target"]) for row in broken}
+    result = check_site(Path(site_root), OPTIONS, jobs)
+    files = result.pop("files")
+    for row in result["broken"]:
+        row["cause"] = classify(row["page"], row["href"], row["target"], row.pop("how"), files)
+    result["elapsed_seconds"] = round(time.time() - started, 1)
+    return result
 
 
 def summarise(broken: list[dict]) -> list[dict]:
@@ -360,27 +217,13 @@ def summarise(broken: list[dict]) -> list[dict]:
     return summary
 
 
-def read_baseline(path: Path) -> set[tuple[str, str]] | None:
-    if not path.exists():
-        return None
-    data = json.loads(path.read_text(encoding="utf-8"))
-    return {(page, target) for page, targets in (data.get("pairs") or {}).items() for target in targets}
+BASELINE_DESCRIPTION = ("Known broken internal links as (source page, target path) pairs. "
+                        "tools/check_internal_links.py fails on any pair not listed here. "
+                        "Only --update-baseline changes this file, and it only removes pairs.")
 
 
 def write_baseline(path: Path, pairs: set[tuple[str, str]]) -> None:
-    grouped = defaultdict(list)
-    for page, target in sorted(pairs):
-        grouped[page].append(target)
-    payload = {
-        "schema_version": SCHEMA_VERSION,
-        "description": "Known broken internal links as (source page, target path) pairs. "
-                       "tools/check_internal_links.py fails on any pair not listed here. "
-                       "Only --update-baseline changes this file, and it only removes pairs.",
-        "count": len(pairs),
-        "pairs": dict(grouped),
-    }
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(payload, ensure_ascii=False, indent=1, sort_keys=True) + "\n", encoding="utf-8")
+    _write_baseline(path, pairs, BASELINE_DESCRIPTION)
 
 
 def main(argv=None) -> int:
