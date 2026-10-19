@@ -1,7 +1,7 @@
 # Genealogy toolkit separation
 
 The authoritative reusable system is now an independent, MIT-licensed
-`genealogy-research-workbench` repository. Glasgow consumes toolkit `0.2.x`
+`genealogy-research-workbench` repository. Glasgow consumes toolkit `0.3.x`
 through a pinned Git submodule at `vendor/genealogy-research-workbench/`, replacing
 the former copied source snapshot. See [dependency management](toolkit-dependency.md)
 for initialisation, upgrades and release order.

@@ -82,3 +82,57 @@ The publication gates reported zero new research failures and zero new broken pa
 Both repositories are public and their completed implementation commits are pushed. The toolkit's `v0.2.0` tag and GitHub release include wheel and source archives. A hosted tag clone and hosted CI verified upstream availability before Glasgow publication; the public recursive consumer clone then verified the dependency without local substitutions. Package-index publication and deployment of the Glasgow website are separate actions; neither was performed.
 
 The release builds a general research website from the supported export fields. It cannot recreate missing archive research, original source images, researched family studies or DNA findings from a tree export alone. See the standalone README and import-format guide for the supported subset and publication controls.
+
+## Independent re-verification and toolkit 0.3.0 — 19 October 2026 (evening)
+
+The earlier claims were re-run rather than assumed. Checks ran in a Linux VM with Python 3.12 against the local checkouts, and in a separate cloud environment with Python 3.11 and 3.13 against public clones.
+
+Confirmed:
+
+- **Toolkit 0.2.0:** 91 tests, 4 opt-in browser tests skipped; the 4 browser tests pass. The hosted `v0.2.0` tag and `main` resolve to `cc7a3d8`.
+- **Glasgow:** 908 tests, 0 failures, 6 skips with local artifacts present.
+- **Fresh public recursive clone:** fetches the pinned submodule, installs from base requirements only and passes `pip check` and the 17 integration tests.
+- **Sibling-checkout override:** works.
+- **Toolkit boundary:** the toolkit contains no Glasgow imports, paths or identifiers.
+
+Found and corrected:
+
+- **WikiTree's own GEDCOM export could not be imported.** Raw line breaks inside notes produced 205 invalid lines. The "four real exports" were two desktop GEDCOMs and two OneTree files; this third format was untested.
+- **Relationship roles were flattened.** Family Tree Maker `_FREL Step` and WikiTree non-biological parent links were imported as plain parents, and the tree's own uncertain/confident marks were discarded.
+- **Uncertainty was lost from WikiTree dates.** `YYYY-00-00` dates could not be assessed, and guess/before/after qualifiers were dropped.
+- **OneTree couples were doubled.** Each couple was imported twice, and marriages were not imported.
+- **Non-UTF-8 files were rejected outright.** GEDCOM files declaring ANSI or ANSEL could not be imported at all.
+- **Updating from a newer export lost research.** It required `--replace`, which discarded added research without a backup.
+- **The fictional demo drew its tree upside down.** It stored parent links from parent to child, against the documented child → parent direction, so the README's family-tree screenshot showed descendants as ancestors.
+- **The submodule's local `v0.2.0` tag was stale.** It pointed at the pre-release commit `0a0872f`, not the published tag. It now matches the published tag object.
+- **Glasgow code issues.**
+  - `sync_recent_wikitree_changes.py` used a 100-year living-person rule where every other screen uses 120 years.
+  - `sync_catalogue_research.py` first tried to import a toolkit module that does not exist.
+  - Three GRONI tools hard-coded `/Users/m/Downloads/...`; the path can now be overridden with `GLASGOW_CIVIL_RECORDS_CSV`.
+  - `check_site_quality.py` hard-coded the macOS Chrome path; `GLASGOW_BROWSER_EXECUTABLE` can now select another browser.
+
+Toolkit 0.3.0 (local commits `1c63d9c`, `9542dba`, `83570c6`, `afb4aa3`) fixes the toolkit issues and adds:
+
+- family dossiers;
+- an evidence-label guide;
+- a shared data script;
+- a surname filter;
+- a public GEDCOM download;
+- an optional XML sitemap.
+
+The [changelog](../vendor/genealogy-research-workbench/CHANGELOG.md) and [parity matrix](toolkit-parity.md) give the details. One deliberate policy change applies: an approximate birth (`ABT 1800`) now counts as up to ten years later (1810) under the unchanged 120-year rule.
+
+Results with 0.3.0:
+
+- **Toolkit:** 112 tests, 5 opt-in browser tests skipped (Python 3.11, 3.12 and 3.13); the 5 browser tests pass at desktop and mobile widths, including from `file://`.
+- **Packages:** the wheel and source distribution build. An installed-wheel `init → import → build` of the fictional GEDCOM produced 42 dossiers. The source distribution ships the examples and screenshots.
+- **Real local exports (read-only):** all six now import, including the WikiTree GEDCOM. No withheld person's ID appears in any generated file. Counts are in the parity matrix.
+- **Glasgow with the new pin:**
+  - 908 tests, 0 failures, 6 skips.
+  - Ruff and data validation pass.
+  - The research-publication gate shows 0 new failures (5 baseline items now fixed and not yet removed from the baseline).
+  - The link gate shows 0 new broken pairs (1 fixed).
+  - The browser fixture smoke check passes (9 pages, 0 failures).
+- **Public clone with the new pin and these changes (Python 3.13):** 908 tests, 200 skipped for absent private artifacts. One error came from a missing `rsync` binary in that environment, not from the code.
+
+Not yet done: the toolkit commits are local. Push them, and tag `v0.3.0` if wanted, before pushing the Glasgow commit that pins `afb4aa3`.

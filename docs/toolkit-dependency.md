@@ -1,8 +1,10 @@
 # Toolkit dependency management
 
-The reusable [genealogy-research-workbench](https://github.com/glasgowm148/genealogy-research-workbench) is an independent MIT-licensed repository. Glasgow uses it through a **Git submodule pinned to a reviewed commit** at `vendor/genealogy-research-workbench/`. This replaces the old copied source snapshot. There is one maintained source, and the parent Git commit records exactly which toolkit revision it uses. The published [v0.2.0 release](https://github.com/glasgowm148/genealogy-research-workbench/releases/tag/v0.2.0) is commit `cc7a3d8c657e5813c26f136005c36179e96ee56e`.
+The reusable [genealogy-research-workbench](https://github.com/glasgowm148/genealogy-research-workbench) is an independent MIT-licensed repository. Glasgow uses it through a **Git submodule pinned to a reviewed commit** at `vendor/genealogy-research-workbench/`. This replaces the old copied source snapshot. There is one maintained source, and the parent Git commit records exactly which toolkit revision it uses. The pin is toolkit commit `afb4aa34abd870e7f0d97c3cc690bc18aace3f6c` (version 0.3.0, not yet tagged or published). The previous published [v0.2.0 release](https://github.com/glasgowm148/genealogy-research-workbench/releases/tag/v0.2.0) is commit `cc7a3d8c657e5813c26f136005c36179e96ee56e`.
 
-`pyproject.toml` declares compatibility with `genealogy-research-workbench>=0.2.0,<0.3.0`. `requirements/base.txt` includes `requirements/toolkit.txt`, which installs the submodule as the Python package. Runtime installation therefore gets the dependency without relying on the development requirements or a package-index publication. CI checks out submodules recursively.
+> **Before sharing this pin:** push the toolkit commits, and tag `v0.3.0` if desired, before pushing a Glasgow commit that references them. A fresh `git clone --recurse-submodules` or CI checkout cannot fetch a submodule commit that exists only on this computer.
+
+`pyproject.toml` declares compatibility with `genealogy-research-workbench>=0.3.0,<0.4.0`. `requirements/base.txt` includes `requirements/toolkit.txt`, which installs the submodule as the Python package. Runtime installation therefore gets the dependency without relying on the development requirements or a package-index publication. CI checks out submodules recursively.
 
 ## Clone or initialise
 
@@ -49,7 +51,7 @@ make check
 
 4. Commit the updated submodule pointer and any required Glasgow integration changes. Update the compatible version bound if needed. Browser-check affected site paths when the integration changes them.
 
-The toolkit’s generated generic website does not replace Glasgow’s hand-researched site automatically. Existing Glasgow exporters/bridges use shared toolkit services; Glasgow retains its research catalogue, profile drafts and specialised site builders.
+The toolkit’s generated generic website does not replace Glasgow’s hand-researched site automatically. Existing Glasgow exporters/bridges use shared toolkit services; Glasgow retains its research catalogue, profile drafts and specialised site builders. Shared helpers now used directly include `genealogy.dates.wikitree_date` (WikiTree `YYYY-00-00` placeholders, in the family exporter and surname index) and `genealogy.publication.is_historical_birth` (the single 120-year rule, in the recent-changes sync). [Parity](toolkit-parity.md) lists what remains Glasgow-specific.
 
 ## Publication and release order
 

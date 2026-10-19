@@ -85,7 +85,7 @@ Reviewed profile drafts and WikiTree amendments
 
 Findings keep their provenance, confidence, and open questions. A relationship imported from a tree is a research lead until assessed against records. Local profile drafts and comparisons make proposed amendments reviewable before a live WikiTree edit.
 
-This repository owns the Glasgow research, branding, website, and source policies. Shared genealogy models, adapters, and the reusable site builder live in the independent [**genealogy-research-workbench**](https://github.com/glasgowm148/genealogy-research-workbench) repository, pinned here as a Git submodule; [`genealogy.toml`](genealogy.toml) defines the project overlay. To build a site from your own GEDCOM or OneTree file, start with the [toolkit’s v0.2.0 release](https://github.com/glasgowm148/genealogy-research-workbench/releases/tag/v0.2.0). See the [toolkit boundary](docs/toolkit-migration.md).
+This repository owns the Glasgow research, branding, website, and source policies. Shared genealogy models, adapters, and the reusable site builder live in the independent [**genealogy-research-workbench**](https://github.com/glasgowm148/genealogy-research-workbench) repository, pinned here as a Git submodule; [`genealogy.toml`](genealogy.toml) defines the project overlay. To build a site from your own GEDCOM or OneTree file, start with the [toolkit’s README](https://github.com/glasgowm148/genealogy-research-workbench#readme). See the [toolkit boundary](docs/toolkit-migration.md) and the [feature-parity matrix](docs/toolkit-parity.md), which shows what an export alone can recreate.
 
 ## Get started
 
