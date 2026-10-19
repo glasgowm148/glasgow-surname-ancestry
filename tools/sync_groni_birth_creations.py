@@ -8,10 +8,11 @@ logs are retained as source inputs.
 from __future__ import annotations
 import argparse, csv, json, shutil
 from datetime import date
+import os
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-MASTER = Path('/Users/m/Downloads/glasgow_civil_records_master.csv')
+MASTER = Path(os.environ.get('GLASGOW_CIVIL_RECORDS_CSV', Path.home() / 'Downloads/glasgow_civil_records_master.csv'))
 CASES = ROOT/'data/wikitree/research-catalogue-cases.json'
 RESEARCH = ROOT/'research'
 INDEX = ROOT/'surname-research/indexes'

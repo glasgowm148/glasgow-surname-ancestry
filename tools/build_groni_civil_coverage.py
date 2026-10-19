@@ -2,6 +2,7 @@
 """Build a row-level ledger for the supplied GRONI civil CSV."""
 import csv, json, html
 from collections import Counter
+import os
 from pathlib import Path
 try:
     from catalogue_theme import CATALOGUE_ASSET_VERSION
@@ -9,7 +10,7 @@ except ModuleNotFoundError:
     from tools.catalogue_theme import CATALOGUE_ASSET_VERSION
 
 ROOT = Path(__file__).resolve().parents[1]
-MASTER = Path('/Users/m/Downloads/glasgow_civil_records_master.csv')
+MASTER = Path(os.environ.get('GLASGOW_CIVIL_RECORDS_CSV', Path.home() / 'Downloads/glasgow_civil_records_master.csv'))
 OUT = ROOT/'surname-research/indexes/groni-civil-registration-coverage-2026-09-23.csv'
 OUTJSON = ROOT/'surname-research/indexes/groni-civil-registration-coverage-2026-09-23.json'
 WEBJSON = ROOT/'www/records/data/groni-civil-registration-coverage-2026-09-23.json'

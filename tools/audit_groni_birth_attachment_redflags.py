@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """Read-only audit of existing GRONI birth attachments."""
-import csv,json,re,sys
+import csv,json,os,re,sys
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'src'))
 from wikitree_family_export import post_wikitree
-MASTER={r['registration_number']:r for r in csv.DictReader(open('/Users/m/Downloads/glasgow_civil_records_master.csv',newline=''))}
+MASTER={r['registration_number']:r for r in csv.DictReader(open(os.environ.get('GLASGOW_CIVIL_RECORDS_CSV', Path.home()/'Downloads/glasgow_civil_records_master.csv'),newline=''))}
 def main():
   patches=json.load(open('/tmp/groni-existing-combined-live-patches.json'))['patches']
   extras=[]

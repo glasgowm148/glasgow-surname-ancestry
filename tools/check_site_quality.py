@@ -5,6 +5,7 @@ import argparse
 from functools import partial
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 import json
+import os
 from pathlib import Path
 import shutil
 import sys
@@ -15,7 +16,9 @@ from playwright.sync_api import sync_playwright
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT))
-CHROME = Path('/Applications/Google Chrome.app/Contents/MacOS/Google Chrome')
+# A local Chrome is used when present; GLASGOW_BROWSER_EXECUTABLE selects another
+# Chromium build, otherwise Playwright's managed browser is launched.
+CHROME = Path(os.environ.get('GLASGOW_BROWSER_EXECUTABLE', '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'))
 AXE = ROOT/'tests/vendor/axe-core-4.x/axe.min.js'
 OBSERVERS = """window.auditTasks=[];window.auditCLS=0;
 new PerformanceObserver(l=>{for(const e of l.getEntries())auditTasks.push(e.duration)}).observe({type:'longtask',buffered:true});
