@@ -88,6 +88,8 @@ ALIASES = {
     "documented": "proved", "strongly-supported": "strongly_supported", "supported": "strongly_supported",
     "dna-confirmed": "dna_confirmed", "non-biological": "non_biological",
     "unknown": "unmarked", "unassessed": "unmarked", "": "unmarked",
+    # Toolkit grades and claim statuses (genealogy.labels), so shared records read alike.
+    "disproved": "contradicted", "rejected": "contradicted",
 }
 
 # Values of WikiTree's parent ``data_status`` field.

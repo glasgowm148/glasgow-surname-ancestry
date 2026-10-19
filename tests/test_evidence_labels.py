@@ -182,3 +182,16 @@ class PublishedSurfaceTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class ToolkitVocabularyTests(unittest.TestCase):
+    def test_toolkit_grades_map_to_the_glasgow_scale_without_upgrading(self):
+        from genealogy import labels as toolkit
+        expected = {"documented": "Documented", "probable": "Probable", "possible": "Possible",
+                    "disproved": "Contradicted", "unknown": "Unassessed tree link"}
+        for key, text in expected.items():
+            with self.subTest(key=key):
+                self.assertTrue(ev.describe(key, "state")["mapped"])
+                self.assertEqual(text, ev.describe(key, "state")["text"])
+        self.assertEqual("Unassessed tree link", ev.describe(toolkit.confidence_label("unknown", relationship=True))["text"])
+        self.assertEqual("Contradicted", ev.describe("rejected", "state")["text"])
