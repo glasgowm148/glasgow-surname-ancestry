@@ -204,14 +204,20 @@ def year_from_date(value) -> int | None:
 
 
 def is_public_historical(profile: dict, current_year: int | None = None) -> bool:
-    """Keep newly discovered overrides public and historical by default."""
+    """Keep newly discovered overrides public and historical by default.
+
+    Uses the toolkit's single 120-year publication rule (previously 100 years
+    here, unlike every other Glasgow privacy screen).
+    """
+    from genealogy.dates import wikitree_date
+    from genealogy.publication import is_historical_birth
+
     privacy = int(profile.get("Privacy") or 0)
     if privacy < 50:
         return False
     if year_from_date(profile.get("DeathDate")) or profile.get("DeathLocation"):
         return True
-    birth_year = year_from_date(profile.get("BirthDate"))
-    return bool(birth_year and birth_year <= (current_year or datetime.now().year) - 100)
+    return is_historical_birth(wikitree_date(profile.get("BirthDate")), current_year=current_year or datetime.now().year)
 
 
 def run_command(command: list[str]) -> None:

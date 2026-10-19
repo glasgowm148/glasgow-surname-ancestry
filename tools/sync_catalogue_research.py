@@ -419,10 +419,7 @@ def main():
         # Repair stale derivatives even when profile bodies need no changes.
         from tools.catalogue_search_index import refresh as refresh_catalogue_search
         refresh_catalogue_search(WEB)
-        try:
-            from genealogy.batch_complete import refresh_after_batch
-        except ModuleNotFoundError:
-            from tools.genealogy.batch_complete import refresh_after_batch
+        from tools.genealogy.batch_complete import refresh_after_batch
         index_exit = refresh_after_batch()
     print(json.dumps({"checked": checked, "refreshed" if args.write else "stale": report,
                       "missing_public_cases": missing,

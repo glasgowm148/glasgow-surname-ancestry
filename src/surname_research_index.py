@@ -10,6 +10,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Callable
 
+from genealogy.dates import wikitree_date
 from openpyxl import load_workbook
 
 
@@ -71,13 +72,9 @@ def text(value: Any, default: str = "unknown") -> str:
 
 def clean_date(value: Any) -> str:
     value = text(value)
-    if re.fullmatch(r"0000(?:-00(?:-00)?)?", value):
+    if re.fullmatch(r"0000(?:-00)?", value):
         return "unknown"
-    if re.fullmatch(r"\d{4}-00-00", value):
-        return value[:4]
-    if re.fullmatch(r"\d{4}-\d{2}-00", value):
-        return value[:7]
-    return value
+    return wikitree_date(value) or ("unknown" if value else value)
 
 
 def birth_year(profile: dict[str, Any]) -> int | None:

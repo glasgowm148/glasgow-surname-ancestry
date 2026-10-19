@@ -1178,18 +1178,10 @@ def terminal_wikitree_id_link(
 
 
 def clean_date(value: Any) -> str:
-    if not value:
-        return "unknown"
+    """WikiTree ``YYYY-00-00`` placeholders as readable text; ``0000-00-00`` is unknown."""
+    from genealogy.dates import wikitree_date
 
-    text = str(value)
-
-    if re.fullmatch(r"\d{4}-00-00", text):
-        return text[:4]
-
-    if re.fullmatch(r"\d{4}-\d{2}-00", text):
-        return text[:7]
-
-    return text
+    return wikitree_date(str(value) if value else None) or "unknown"
 
 
 def scalar(value: Any) -> str:
