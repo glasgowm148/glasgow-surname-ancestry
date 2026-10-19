@@ -6,11 +6,13 @@ from urllib.parse import urlsplit
 
 from bs4 import BeautifulSoup
 from tests._site_html import read_html
+from tests._generated_data import requires_generated_data
 from tools.repair_person_hierarchy import _assessed_relation, _editorial, _profile_data
 
 ROOT = Path(__file__).resolve().parents[1]
 
 
+@requires_generated_data
 class DossierParentsTests(unittest.TestCase):
     def page(self, profile):
         return BeautifulSoup(read_html(ROOT / 'www/people' / f'{profile.lower()}.html'), 'html.parser')
@@ -37,7 +39,12 @@ class DossierParentsTests(unittest.TestCase):
     def test_missing_name_and_death_remain_separate_from_confirmed_parents(self):
         unknown = self.page('Glasgow-3940')
         self.assertIn('neither a forename nor exact', unknown.select_one('#overview').text)
-        self.assertIn('inferred boundary', unknown.select_one('.dossier-life').text)
+        # The October review withdrew the old census-absence death boundary.
+        self.assertIn('before-1841 inference was withdrawn', unknown.select_one('.dossier-life').text)
+        dossier = json.loads((ROOT / 'www/people/glasgow-3940.json').read_text())
+        self.assertIsNone(dossier['vitals']['death']['date'])
+        self.assertEqual('unknown', dossier['vitals']['death']['status'])
+        self.assertEqual('before 1841', dossier['imported']['sections']['vitals']['death']['date'])
         self.assertIn('No death or burial', self.page('Glasgow-3939').select_one('#question-death-boundary').text)
         later = _assessed_relation('Glasgow-951', {'id': 'Glasgow-973', 'status': 'strongly_supported'}, 'children')
         self.assertEqual('proved', later['status'])

@@ -1,6 +1,7 @@
 """Source and data contracts for the filtered People catalogue map."""
 
 import json
+from tests._generated_data import requires_generated_data
 from pathlib import Path
 import unittest
 
@@ -9,6 +10,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class CatalogueMapSourceTests(unittest.TestCase):
+    @requires_generated_data
     def test_map_joins_only_filtered_catalogue_ids_to_supplied_points(self):
         people = json.loads((ROOT / "www/data/catalogue-search-index.json").read_text())
         points = json.loads((ROOT / "www/assets/research/map-points.json").read_text())

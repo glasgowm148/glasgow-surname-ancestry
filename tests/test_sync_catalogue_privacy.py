@@ -13,6 +13,24 @@ from tools.sync_catalogue_research import public_findings, refresh_catalogue_sum
 
 
 class TargetedFindingsPrivacyTests(unittest.TestCase):
+    def test_workbench_preserves_existing_profile_hold_count(self):
+        rows = [{'name': str(i), 'missing_profile': True, 'profile_work_status': status}
+                for i, status in enumerate(['creation_ready', 'creation_ready',
+                                            'existing_profile_candidate', 'identity_hold'])]
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            for route in ['catalogue.html', 'catalogue/index.html', 'catalogue/advanced.html']:
+                path = root / route
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_text('<html><body><a class="browse-card" href="/?missingProfile=1">'
+                                '<span>Old workbench count</span></a></body></html>')
+            with patch('tools.sync_catalogue_research.WEB', root):
+                refresh_catalogue_summaries(rows)
+            page = (root / 'catalogue.html').read_text()
+            self.assertIn('4 documentary identities without confirmed destinations', page)
+            self.assertIn('2 creation-ready, 1 possible existing-profile matches on HOLD', page)
+            self.assertIn('1 with identity, source or supporting-page work remaining', page)
+
     def test_update_card_count_survives_reader_label_and_clean_route(self):
         rows = [{'name': str(i), 'needs_wikitree_update': i < 2,
                  'wikitree_update_significance': 50} for i in range(3)]
@@ -30,7 +48,7 @@ class TargetedFindingsPrivacyTests(unittest.TestCase):
             for route in ['catalogue.html', 'catalogue/index.html', 'catalogue/advanced.html']:
                 page = (root / route).read_text()
                 self.assertIn('2 profiles ranked by significance', page)
-                self.assertIn('href="/?needsUpdate=1"', page)
+                self.assertIn('href="/catalogue/?needsUpdate=1&amp;sort=significance%3Adesc#catalogue-filters"', page)
                 self.assertNotIn('108 profiles', page)
 
     def test_script_can_import_browser_refresh_outside_checkout(self):

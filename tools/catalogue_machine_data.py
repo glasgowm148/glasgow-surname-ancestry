@@ -33,15 +33,36 @@ GLASGOW_SURNAME_VARIANTS = frozenset({
 
 
 def compact_resolver_row(row: dict) -> dict:
-    """Omit empty optional discovery fields; keep every populated assertion.
+    """Keep operational discovery fields without copying dossier narratives.
 
     Absent optional values mean unknown/empty. Full dossiers and retained
     import snapshots remain unchanged, including explicit unresolved vitals.
     """
     required = {"schema_version", "id", "alternate_ids", "catalogue_id", "name",
                 "html_url", "json_url", "network_url"}
-    return {key: value for key, value in row.items()
-            if key in required or value not in (None, "", [], {})}
+    compact = {key: value for key, value in row.items()
+               if key != "reviewed_vitals" and
+               (key in required or value not in (None, "", [], {}))}
+    # A reviewed row needs relationship states for matching, not a second copy
+    # of every source argument and previous assessment. Those remain available
+    # in its linked dossier. Retain imported fields for reversible resolution.
+    if "reviewed_relationships" in compact:
+        fields = {"id", "name", "relationship", "status", "status_label",
+                  "tree_status", "tree_status_label", "assertion_id", "claim_id",
+                  "working_selection", "lifecycle", "display",
+                  "relationship_source", "probability"}
+        compact["reviewed_relationships"] = {
+            group: [{key: (
+                {k: v for k, v in value.items()
+                 if k in {"value", "band", "minimum", "maximum", "method"}}
+                if key == "probability" and isinstance(value, dict) else value
+            ) for key, value in relation.items() if key in fields}
+                    for relation in relations]
+            for group, relations in compact["reviewed_relationships"].items() if relations
+        }
+        if not compact["reviewed_relationships"]:
+            compact.pop("reviewed_relationships")
+    return compact
 
 
 def _normal_match_text(value: str) -> str:

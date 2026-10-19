@@ -37,7 +37,7 @@ class ReopenedProfileUpdatesTest(unittest.TestCase):
                          'addition_wikitext': 'A newly documented brother.<ref>[https://example.org/record Original register].</ref>'}},
                      'reopened_completed_profiles': {'Glasgow-1': {'reopened_at': '2026-09-30'}}}
             path.write_text(json.dumps(queue))
-            with patch.object(catalogue, 'PROFILE_UPDATE_QUEUE', path):
+            with patch.object(catalogue, 'PROFILE_UPDATE_QUEUE', path), patch.object(catalogue, 'PROJECT_ROOT', Path(directory)):
                 update = catalogue._load_profile_updates(evidence)['Glasgow-1']
                 self.assertIn('newly documented brother', update['proposed_wikitext'])
                 self.assertEqual(biography, update['remote_wikitext'])

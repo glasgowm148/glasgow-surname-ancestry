@@ -4,6 +4,8 @@ import json
 import re
 import unittest
 
+from tests._generated_data import requires_generated_data
+
 from bs4 import BeautifulSoup
 from tests._site_html import read_html
 
@@ -29,6 +31,7 @@ class DossierCleanupTests(unittest.TestCase):
     def text(self, node):
         return node.get_text(" ", strip=True)
 
+    @requires_generated_data
     def test_acceptance_pages_keep_collapsed_evidence_and_family_structure(self):
         for slug in SLUGS:
             with self.subTest(slug=slug):
@@ -45,6 +48,7 @@ class DossierCleanupTests(unittest.TestCase):
                 # visible and linked without a click (was: all closed).
                 self.assertTrue(all("open" in group.attrs for group in groups))
 
+    @requires_generated_data
     def test_local_source_related_and_parent_links_resolve_in_main(self):
         for slug in SLUGS:
             with self.subTest(slug=slug):
@@ -56,6 +60,7 @@ class DossierCleanupTests(unittest.TestCase):
                 for link in links:
                     self.assertIn(link["href"][1:], targets, link)
 
+    @requires_generated_data
     def test_historical_timeline_is_one_date_sorted_sequence_with_groups(self):
         for slug in SLUGS:
             with self.subTest(slug=slug):
@@ -73,6 +78,7 @@ class DossierCleanupTests(unittest.TestCase):
             sorted(dates, key=_date_sort_key),
         )
 
+    @requires_generated_data
     def test_public_presentation_exports_the_same_scoped_facts_and_basis(self):
         from tools.repair_person_hierarchy import _current_vitals, _profile_data, _assessed_relation
         for slug in SLUGS:
@@ -88,6 +94,7 @@ class DossierCleanupTests(unittest.TestCase):
         self.assertEqual("conflict", robert["resolution"]["state"])
         self.assertEqual("identity-dependent", robert["vitals"]["birth"]["status"])
 
+    @requires_generated_data
     def test_james_birth_adult_identity_and_death_boundary_are_separate(self):
         soup = self.page("glasgow-3939")
         identity_node = soup.select_one("#question-identity")
@@ -108,6 +115,7 @@ class DossierCleanupTests(unittest.TestCase):
         self.assertIn("inferred", death.casefold())
         self.assertIn("no death or burial", death.casefold())
 
+    @requires_generated_data
     def test_thomas_network_evidence_is_canonical_and_legacy_deep_links_remain(self):
         soup = self.page("glasgow-951")
         network = soup.select_one("#question-thomas-network")
@@ -121,6 +129,7 @@ class DossierCleanupTests(unittest.TestCase):
             self.assertIsNotNone(redirect)
             self.assertEqual(f"#{canonical}", redirect.get("href"))
 
+    @requires_generated_data
     def test_robert_keeps_conflict_qualified_vitals_and_open_father_hypothesis(self):
         soup = self.page("glasgow-1367")
         visible = self.text(soup.select_one(".person-dossier-readable"))
@@ -130,6 +139,7 @@ class DossierCleanupTests(unittest.TestCase):
         self.assertIn("Open father hypothesis", self.text(father))
         self.assertNotIn("non-biological", self.text(father).casefold())
 
+    @requires_generated_data
     def test_mary_thomas_samuel_and_letter_regressions(self):
         mary = self.page("mccaughan-222")
         alexander = self.page("glasgow-951")

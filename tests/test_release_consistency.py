@@ -11,6 +11,27 @@ spec.loader.exec_module(consistency)
 
 
 class ReleaseConsistencyTests(unittest.TestCase):
+    def test_record_and_place_totals_follow_the_published_indexes(self):
+        with tempfile.TemporaryDirectory() as directory:
+            web = Path(directory)
+            (web / "data").mkdir()
+            for filename, value in {
+                'catalogue-search-index.json': [], 'people.json': {'people': []},
+                'records-index.json': [{}, {}], 'places-index.json': [{}],
+            }.items():
+                (web / 'data' / filename).write_text(json.dumps(value))
+            (web / 'health.json').write_text(json.dumps({'counts': {'people': 0, 'records': 1, 'places': 2}}))
+            (web / 'status.html').write_text('<strong>1</strong><span>Mapped records</span><strong>2</strong><span>Research places</span>')
+            original, consistency.WEB = consistency.WEB, web
+            try:
+                self.assertEqual(4, len(consistency.check(fix=False)))
+                consistency.check(fix=True)
+                self.assertEqual([], consistency.check(fix=False))
+                self.assertEqual({'people': 0, 'records': 2, 'places': 1},
+                                 json.loads((web / 'health.json').read_text())['counts'])
+            finally:
+                consistency.WEB = original
+
     def test_detects_and_fixes_stale_totals(self):
         with tempfile.TemporaryDirectory() as directory:
             web = Path(directory)

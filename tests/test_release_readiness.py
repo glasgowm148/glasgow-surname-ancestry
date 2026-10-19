@@ -1,6 +1,9 @@
 import importlib.util
+from datetime import date
 from pathlib import Path
 import unittest
+
+from tests._generated_data import requires_generated_data
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -22,19 +25,23 @@ class ReleaseReadinessTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             helper.homepage_count('<h1>Unrecognised layout</h1>', 456)
 
+    @requires_generated_data
     def test_release_data_is_current_and_explicit(self):
         helper = module()
         health, manifest, generated = helper.release_data()
-        self.assertEqual(health["counts"]["people"], next(row["count"] for row in manifest["datasets"] if row["name"] == "people"))
+        datasets = {row['name']: row['count'] for row in manifest['datasets']}
+        for name in ('people', 'records'):
+            self.assertEqual(health['counts'][name], datasets[name], name)
         self.assertEqual("2026-09-27", generated.isoformat())
 
     def test_snapshot_keeps_catalogue_identity_and_separate_snapshots(self):
         helper = module()
         page = '<a class="g-snapshot-link" href="/status/" title="Old">Catalogue · old</a>'
-        repaired = helper.snapshot(page, helper.release_data()[2])
+        repaired = helper.snapshot(page, date(2026, 9, 27))
         self.assertIn("Catalogue · 27 Sep 2026", repaired)
         self.assertIn("Tree and DNA have separate snapshot dates.", repaired)
 
+    @requires_generated_data
     def test_changes_feed_uses_dated_native_research_updates(self):
         helper = module()
         updates = helper.research_updates()
@@ -45,7 +52,7 @@ class ReleaseReadinessTests(unittest.TestCase):
 
     def test_snapshot_without_title_and_about_dates(self):
         helper = module()
-        generated = helper.release_data()[2]
+        generated = date(2026, 9, 27)
         page = '<a class="g-snapshot-link" href="/status/">Catalogue · old</a>'
         fixed = helper.snapshot(page, generated)
         self.assertIn('Catalogue · 27 Sep 2026', fixed)

@@ -3,7 +3,10 @@ from pathlib import Path
 import re
 import tempfile
 import unittest
+
 from unittest.mock import patch
+
+from tests._generated_data import requires_generated_data
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -43,6 +46,7 @@ class PrimaryNavigationTests(unittest.TestCase):
         self.assertIn('href="/about/" aria-current="page"', statistics)
         self.assertIn('<a href="/statistics/" aria-current="location">Statistics</a>', statistics)
 
+    @requires_generated_data
     def test_sample_rails_have_exactly_the_canonical_links(self):
         for relative in (
             "index.html", "catalogue/index.html", "branches/index.html",

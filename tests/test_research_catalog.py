@@ -14,7 +14,7 @@ from tests._site_html import read_html
 
 from tests._generated_data import requires_generated_data
 
-from tools.catalogue_machine_data import _profile_assessment_flags, resolver_candidates
+from tools.catalogue_machine_data import _profile_assessment_flags, compact_resolver_row, resolver_candidates
 from tools.audit_missing_wikitree_profiles import (
     candidate_summary, discover_drafts, new_draft_match, select_candidates,
 )
@@ -37,6 +37,7 @@ from tools.build_research_catalog import (
     _source_for_record,
     _source_identity_keys,
     _load_profile_updates,
+    _load_catalogue_profile_audit,
     _marriage_surname_values,
     _merge_profile_summary_with_captured,
     _normalise_ref_opening_tags,
@@ -85,6 +86,29 @@ def _search_marriage_surname_counts(index: list[dict]) -> dict[str, int]:
             if surname:
                 members.setdefault(surname, set()).add(person["id"])
     return {surname: len(ids) for surname, ids in members.items()}
+
+
+class CompactResolverTest(unittest.TestCase):
+    def test_compact_resolver_keeps_states_without_duplicate_narratives(self):
+        from copy import deepcopy
+        row = {"id": "Person-1", "name": "Example", "imported": {"birth_year": 1600},
+               "reviewed_vitals": {"birth": {"date": "before 1601"}},
+               "reviewed_relationships": {"parents": [{
+                   "id": "Parent-1", "status": "possible", "assertion_id": "A-1",
+                   "working_selection": True, "basis": "Long source discussion",
+                   "probability": {"value": 40, "band": "possible", "reason": "Long assessment"}}],
+                   "children": []}}
+        original = deepcopy(row)
+        compact = compact_resolver_row(row)
+        self.assertEqual(row, original)
+        self.assertEqual(compact["imported"], original["imported"])
+        self.assertEqual(compact["reviewed_relationships"]["parents"], [{
+            "id": "Parent-1", "status": "possible", "assertion_id": "A-1",
+            "working_selection": True, "probability": {"value": 40, "band": "possible"}}])
+        self.assertNotIn("reviewed_vitals", compact)
+        self.assertEqual(compact_resolver_row(compact), compact)
+        self.assertEqual(compact_resolver_row({"id": "Person-2", "reviewed_relationships": {"parents": []}}),
+                         {"id": "Person-2"})
 
 
 @requires_generated_data
@@ -539,12 +563,12 @@ Corrected assessment.
         queue = json.loads(
             (ROOT / "data" / "wikitree" / "profile-update-queue.json").read_text(encoding="utf-8")
         )
-        completed = set(queue.get("completed_live_profiles", []))
+        completed = (set(queue.get("completed_live_profiles", []))
+                     - set(queue.get("reopened_completed_profiles", [])))
 
         for profile_id in ("Glasgow-1030", "Glasgow-3181"):
             with self.subTest(profile_id=profile_id):
                 draft = (ROOT / "research" / profile_id / f"{profile_id}.md").read_text(encoding="utf-8")
-                self.assertIn("<!-- REVIEWED FULL REPLACEMENT:", draft)
                 if profile_id in completed:
                     # Published replacements leave the paste queue; any remaining
                     # register task must not re-append the reviewed prose.
@@ -555,9 +579,18 @@ Corrected assessment.
                     continue
                 update = updates[profile_id]
                 self.assertFalse(update.get("preserve_captured_detail"))
-                self.assertIn(
-                    "<!-- REVIEWED FULL REPLACEMENT:", update["proposed_wikitext"]
-                )
+                if update.get("preservation_review_path"):
+                    # Reopened, subsequently reconciled drafts use a content-
+                    # bound audit instead of an old in-text approval marker.
+                    import hashlib
+                    audit = json.loads((ROOT / update["preservation_review_path"]).read_text())["profiles"][profile_id]
+                    self.assertTrue(audit["all_substantive_passages_accounted_for"])
+                    for field, text in (("current_sha256", update["remote_wikitext"]),
+                                        ("proposed_sha256", update["proposed_wikitext"])):
+                        self.assertEqual(audit[field], hashlib.sha256(text.strip().encode()).hexdigest())
+                else:
+                    self.assertIn("<!-- REVIEWED FULL REPLACEMENT:", draft)
+                    self.assertIn("<!-- REVIEWED FULL REPLACEMENT:", update["proposed_wikitext"])
                 self.assertRegex(update["proposed_wikitext"], r"(?m)^=== [^=].*?===$")
 
     def test_all_profile_updates_have_balanced_and_resolved_ref_tags(self):
@@ -566,8 +599,9 @@ Corrected assessment.
         )
         updates = _load_profile_updates(evidence)
         opening_pattern = re.compile(r"<ref\b(?P<attrs>[^>]*)>", re.I)
+        # MediaWiki accepts both quoted and unquoted reference names.
         name_pattern = re.compile(
-            r"\bname\s*=\s*(?P<quote>[\"'])(?P<name>[^\"']+)(?P=quote)", re.I
+            r"\bname\s*=\s*(?:\"([^\"]+)\"|'([^']+)'|([^\s/>]+))", re.I
         )
         for profile_id, update in updates.items():
             definitions = set()
@@ -579,7 +613,9 @@ Corrected assessment.
                     open_definition_count += 1
                 name_match = name_pattern.search(opening.group("attrs"))
                 if name_match:
-                    (usages if self_closing else definitions).add(name_match.group("name"))
+                    (usages if self_closing else definitions).add(next(
+                        value for value in name_match.groups() if value is not None
+                    ))
             closing_count = len(
                 re.findall(r"</ref\s*>", update["proposed_wikitext"], flags=re.I)
             )
@@ -630,12 +666,20 @@ Corrected assessment.
                     {normalise_heading(value) for value in proposed_headings},
                     f"{profile_id} rewrite did not retain every detailed heading",
                 )
-            self.assertNotIn("{{One Name Study", proposed, profile_id)
+            self.assertNotRegex(proposed, r"(?i)\{\{One Name Study\s*\|\s*name\s*=\s*Glasgow\b", profile_id)
             self.assertNotRegex(
                 proposed,
-                r"(?i)(?:TODO|example\.com|glasgow\.phenotype\.dev|(?:^|\s)(?:research|sources)/)",
+                r"(?i)(?:TODO|example\.com|(?:^|\s)(?:research|sources)/)",
                 profile_id,
             )
+            # Authored cross-links to the public research account are valid;
+            # require a real public route rather than banning the site domain.
+            for route in re.findall(r"https://glasgow\.phenotype\.dev(/[^\s\]<>]*)", proposed):
+                relative = route.split("#", 1)[0].split("?", 1)[0].lstrip("/")
+                target = WEB / relative
+                if target.is_dir():
+                    target = target / "index.html"
+                self.assertTrue(target.is_file(), f"{profile_id}: missing public research link {route}")
             self.assertNotRegex(proposed, r"\[[^\]\n]+\]\(https?://", profile_id)
             self.assertNotRegex(proposed, r"\*\*[^*\n]+\*\*", profile_id)
             self.assertNotRegex(proposed, r"`[^`\n]+`", profile_id)
@@ -714,10 +758,16 @@ Corrected assessment.
         self.assertEqual(rendered_update_drafts, update_count)
 
         # Person pages use the unified shell's root-absolute assets and routes.
-        unified_person = (WEB / "people" / "glasgow-2072.html").read_text(encoding="utf-8")
+        unified_person = adam_html
         self.assertIn('href="/assets/unified/site.css?', unified_person)
         self.assertIn('href="/catalogue/"', unified_person)
         self.assertNotIn('href="../people/catalogue.css', unified_person)
+        # This former shell exemplar is now correctly withheld as likely living.
+        from tools.public_privacy import from_sources
+        self.assertIn("glasgow-2072", from_sources().blocked)
+        self.assertNotIn("Glasgow-2072", public_profile_ids)
+        for suffix in (".html", ".json", ".network.json"):
+            self.assertFalse((WEB / "people" / ("glasgow-2072" + suffix)).exists())
 
         # Captured profile prose remains private; its public dossier exposes
         # reviewed conclusions and source associations instead of raw passages.
@@ -818,7 +868,11 @@ Corrected assessment.
             for person in index if person["family_root"]
         ))
         james_patrick = next(person for person in index if "Glasgow-635" in person["profile_ids"])
-        self.assertFalse(james_patrick["father"])
+        # A selected working father may now be shown, but it must not invent
+        # an exported ancestral path where the retained tree had none.
+        exported_father = james_patrick.get("parent_review", {}).get("original_fields", {}).get(
+            "father", {"value": james_patrick["father"]})["value"]
+        self.assertFalse(exported_father)
         self.assertIsNone(james_patrick["family_root"])
         self.assertTrue(any(person["family_root"] is None for person in index))
         catalogue_html = (WEB / "catalogue.html").read_text(encoding="utf-8")
@@ -1004,13 +1058,34 @@ Corrected assessment.
         evidence = json.loads((ROOT / "data" / "wikitree" / "profile-evidence.json").read_text(encoding="utf-8"))
         public_profile_ids = {profile_id for person in index for profile_id in person["profile_ids"]}
         from tools.repair_person_hierarchy import _update_names_withheld_person
-        # An update whose captured profile text names a living person or a DNA
-        # tester is kept off the public site, so it is not flagged either.
-        queued_updates = {profile_id for profile_id, update in _load_profile_updates(evidence).items()
-                          if profile_id in public_profile_ids and not _update_names_withheld_person(update)}
+        # Private complete comparisons stay off the site; explicitly prepared
+        # public additions and separately reviewed creation tasks remain visible.
+        from tools.public_privacy import from_sources
+        from tools.queue_profile_amendments import public_additive_update
+        from tools.queue_catalogue_creations import reviewed_people
+        policy = from_sources(evidence)
+        queued_updates = set()
+        for profile_id, update in _load_profile_updates(evidence).items():
+            if profile_id not in public_profile_ids:
+                continue
+            if not _update_names_withheld_person(update):
+                queued_updates.add(profile_id)
+            elif update.get("private_comparison") and update.get("public_addition_wikitext"):
+                # A deliberately separate safe addition may be public while
+                # its complete captured/replacement biographies stay private.
+                public_update = public_additive_update(update)
+                self.assertFalse(policy.contains_private_id(json.dumps(public_update)))
+                self.assertFalse(public_update["remote_wikitext"])
+                self.assertFalse(public_update["draft_wikitext"])
+                queued_updates.add(profile_id)
+        creation_ids = {entry["catalogue_id"] for entry in reviewed_people(ROOT)}
+        creation_tasks = [person for person in updates if not person["profile_ids"]]
+        self.assertEqual({person["id"] for person in creation_tasks}, creation_ids)
+        self.assertTrue(all(person.get("pending_profile_creation") for person in creation_tasks))
+        profile_updates = [person for person in updates if person["profile_ids"]]
         self.assertTrue(queued_updates)
-        self.assertEqual(len(updates), len(queued_updates))
-        self.assertEqual({person["profile_ids"][0] for person in updates}, queued_updates)
+        self.assertEqual(len(profile_updates), len(queued_updates))
+        self.assertEqual({person["profile_ids"][0] for person in profile_updates}, queued_updates)
         findmypast_overrides = json.loads(
             (ROOT / "research" / "findmypast-glasgow-audit" / "catalogue-integration-overrides.json").read_text(encoding="utf-8")
         )["groups"]
@@ -1021,11 +1096,11 @@ Corrected assessment.
             and item["profile_id"] != "Glasgow-4063"
             and item.get("substantive_amendment") is True
         } & queued_updates
-        updates_by_profile = {person["profile_ids"][0]: person for person in updates}
+        updates_by_profile = {person["profile_ids"][0]: person for person in profile_updates}
         self.assertTrue(all(updates_by_profile[profile_id]["record_count"] >= 1 for profile_id in findmypast_updates))
         self.assertIn("needsUpdate:'needsUpdate'", search_js)
         self.assertIn("'significance:desc','Update significance'", search_js)
-        update_count = len(queued_updates)
+        update_count = len(queued_updates) + len(creation_ids)
         self.assertIn(f"{update_count} source-backed corrections remain on WikiTree", catalogue_html)
         self.assertIn(f"{update_count} profiles ranked by significance", catalogue_html)
         # Glasgow-2769's detached-father correction has been applied on WikiTree and
@@ -1273,8 +1348,11 @@ Corrected assessment.
             if audit_payload["entries"].get(person["catalogue_id"], {}).get("recommended_action")
             == "do_not_create"
         )
+        # Reviewed creation handoffs overlay the historical audit, exactly as
+        # the catalogue generator does; raw audit rows alone are superseded.
+        current_audits = _load_catalogue_profile_audit()["entries"]
         expected_work_statuses = Counter(
-            _profile_work_status(person, audit_payload["entries"].get(person["catalogue_id"], {}))
+            _profile_work_status(person, current_audits.get(person["catalogue_id"], {}))
             for person in unlinked
         )
         self.assertEqual(Counter(person["profile_work_status"] for person in unlinked), expected_work_statuses)
@@ -2362,9 +2440,17 @@ Corrected assessment.
         self.assertIn('"open_question_count":', compare_index)
         audit_payload = json.loads((ROOT / "data" / "wikitree" / "catalogue-profile-audit.json").read_text(encoding="utf-8"))
         audit_entries = audit_payload["entries"].values() if isinstance(audit_payload["entries"], dict) else audit_payload["entries"]
+        from tools.public_privacy import from_sources
+        policy = from_sources()
+        candidates = [candidate for entry in audit_entries for candidate in entry.get("candidates", [])]
         self.assertTrue(all(
             f'"id":"{candidate["profile_id"]}"' in compare_index
-            for entry in audit_entries for candidate in entry.get("candidates", [])
+            for candidate in candidates if candidate["profile_id"].casefold() not in policy.blocked
+        ))
+        compare_lower = compare_index.casefold()
+        self.assertTrue(all(
+            candidate["profile_id"].casefold() not in compare_lower
+            for candidate in candidates if candidate["profile_id"].casefold() in policy.blocked
         ))
         self.assertLess(compare_html.index("data/compare-index.js"), compare_html.index("people/compare.js"))
         candidate_rows = [row for row in records if row["supporting_source_status"] == "candidate"]

@@ -4,6 +4,8 @@ import json
 import re
 import unittest
 
+from tests._generated_data import requires_generated_data
+
 from bs4 import BeautifulSoup
 from tests._site_html import read_html
 
@@ -69,6 +71,7 @@ class VocabularyTests(unittest.TestCase):
                 self.assertEqual(expected, result)
                 self.assertEqual(result, ev.normalise_status_label(state, result))
 
+    @requires_generated_data
     def test_json_mirror_matches_module(self):
         mirror = ROOT / "www/assets/research/evidence-labels.json"
         self.assertEqual(ev.json_text(), mirror.read_text(encoding="utf-8"))
@@ -79,6 +82,7 @@ class VocabularyTests(unittest.TestCase):
 
 
 class EvidencePageTests(unittest.TestCase):
+    @requires_generated_data
     def test_page_generation_is_idempotent_and_keeps_the_rail(self):
         from tools import build_evidence_page as builder
         template = builder.TEMPLATE.read_text(encoding="utf-8")
@@ -89,6 +93,7 @@ class EvidencePageTests(unittest.TestCase):
         unversioned = lambda text: __import__("re").sub(r"\?v=[^\"'\s<>]+", "?v=", text)
         self.assertEqual(unversioned(page), unversioned(builder.OUTPUT.read_text(encoding="utf-8")))
 
+    @requires_generated_data
     def test_page_explains_every_label_and_the_cluster_warning(self):
         soup = BeautifulSoup((ROOT / "www/evidence/index.html").read_text(encoding="utf-8"), "html.parser")
         main = soup.select_one("main")
@@ -106,6 +111,7 @@ class EvidencePageTests(unittest.TestCase):
 
 
 class PublishedSurfaceTests(unittest.TestCase):
+    @requires_generated_data
     def test_dossier_labels_are_canonical_and_linked_to_the_guide(self):
         soup = BeautifulSoup(read_html(ROOT / "www/people/glasgow-951.html"), "html.parser")
         family = soup.select_one("#family")
@@ -126,6 +132,7 @@ class PublishedSurfaceTests(unittest.TestCase):
         self.assertEqual(1, once.count('dossier-evidence-guide'))
         self.assertEqual(once, repair.add_meta_guide(once))
 
+    @requires_generated_data
     def test_open_research_tasks_show_resolution_fields(self):
         soup = BeautifulSoup(read_html(ROOT / "www/people/glasgow-951.html"), "html.parser")
         tasks = soup.select('#research li.task[data-question-status="open"]')
@@ -135,6 +142,7 @@ class PublishedSurfaceTests(unittest.TestCase):
             self.assertEqual(list(ev.QUESTION_FIELDS.values()), terms)
             self.assertTrue(task.select_one(".question-status"))
 
+    @requires_generated_data
     def test_research_page_questions_never_leave_fields_blank(self):
         soup = BeautifulSoup((ROOT / "www/research/index.html").read_text(encoding="utf-8"), "html.parser")
         section = soup.select_one("#open-questions")
@@ -147,6 +155,7 @@ class PublishedSurfaceTests(unittest.TestCase):
             self.assertTrue(all(values))
         self.assertIn(ev.NOT_YET_IDENTIFIED, section.get_text())
 
+    @requires_generated_data
     def test_study_pages_use_canonical_tones_and_link_the_guide(self):
         page = (ROOT / "www/branches/larne-kilwaughter/index.html").read_text(encoding="utf-8")
         soup = BeautifulSoup(page, "html.parser")
@@ -160,6 +169,7 @@ class PublishedSurfaceTests(unittest.TestCase):
                 self.assertEqual([f"/evidence/#tone-{key}" for key in ev.STUDY_TONES], linked)
         self.assertNotIn(">Proved<", page)
 
+    @requires_generated_data
     def test_atlas_uses_canonical_tree_marks(self):
         script = (ROOT / "www/assets/research/atlas.js").read_text(encoding="utf-8")
         match = re.search(r"const EVIDENCE_MARKS=(\{[^}]*\});", script)

@@ -1,30 +1,45 @@
 """Research decisions must agree in every current human/machine view."""
 from copy import deepcopy
+from functools import lru_cache
 import json
+import re
 from pathlib import Path
 import unittest
 
 from bs4 import BeautifulSoup
 from tests._site_html import read_html
+from tests._generated_data import requires_generated_data
 
 from tools.publish_resolved_dossiers import resolve
 from tools.repair_person_hierarchy import _current_vitals
 from tools import evidence_labels
+from tools.relationship_probability import percentage_text
 
 ROOT = Path(__file__).resolve().parents[1]
 WEB = ROOT / 'www'
 
 
+@lru_cache(maxsize=None)
 def load(path):
     return json.loads(path.read_text())
 
 
+@lru_cache(maxsize=None)
+def page_for(profile):
+    return BeautifulSoup(read_html(WEB / f'people/{profile.lower()}.html'), 'html.parser')
+
+
 class ResolvedPublicModelTests(unittest.TestCase):
+    @requires_generated_data
     def test_all_approved_pairs_agree_across_outputs_and_preserve_history(self):
-        for assessment in load(ROOT / 'research/relationship_assessments.json'):
+        assessments = load(ROOT / 'research/relationship_assessments.json')
+        by_id = {a['assertion_id']: a for a in assessments if a.get('assertion_id')}
+        canonical_ids = {record['record_id'] for record in load(ROOT / 'research/canonical_records.json')}
+        for assessment in assessments:
             if assessment.get('publication_status') != 'approved':
                 continue
             aid = assessment['assertion_id']
+            self.assertTrue(set(assessment['source_ids']).issubset(canonical_ids), aid)
             for profile, perspective in assessment['perspectives'].items():
                 with self.subTest(profile=profile, assertion=aid):
                     if not (WEB / f'people/{profile.lower()}.json').exists():
@@ -32,29 +47,47 @@ class ResolvedPublicModelTests(unittest.TestCase):
                         other = next(p for p in assessment['people'] if p != profile)
                         related = load(WEB / f'people/{other.lower()}.json')
                         external = next(r for rows in related['relationships'].values() for r in rows if r['id'] == profile)
-                        self.assertEqual(f'https://www.wikitree.com/wiki/{profile}', external['wikitree_url'])
+                        account = assessment.get('profile_urls', {}).get(profile)
+                        if account:
+                            self.assertEqual(account['url'], external['url'])
+                            self.assertIsNone(external['wikitree_url'])
+                        else:
+                            self.assertEqual(f'https://www.wikitree.com/wiki/{profile}', external['wikitree_url'])
                         continue
                     dossier = load(WEB / f'people/{profile.lower()}.json')
                     network = load(WEB / f'people/{profile.lower()}.network.json')
-                    page = BeautifulSoup(read_html(WEB / f'people/{profile.lower()}.html'), 'html.parser')
+                    page = page_for(profile)
                     embedded = json.loads(page.select_one('pre.archive-json').text)
                     self.assertEqual(dossier['relationships'], dossier['presentation']['relationships'])
                     self.assertEqual(dossier['relationships'], embedded['relationships'])
                     self.assertEqual(dossier['claims'], embedded['claims'])
-                    row = next(r for rows in dossier['relationships'].values() for r in rows if r.get('claim_id') == aid)
+                    claim = next(c for c in dossier['claims'] if c['id'] == aid)
+                    if claim.get('lifecycle') == 'historical':
+                        # Approval records the publication decision; a later
+                        # approved assessment may explicitly replace its scope.
+                        self.assertEqual(claim, next(c for c in network['claims'] if c['id'] == aid))
+                        replacement = next(c for c in dossier['claims'] if c['id'] == claim['superseded_by'])
+                        self.assertEqual('current', replacement['lifecycle'])
+                        self.assertIn(aid, replacement['historical_claim_ids'])
+                        self.assertFalse(any(r.get('claim_id') == aid for rows in dossier['relationships'].values() for r in rows))
+                        continue
+                    group, row = next((group, r) for group, rows in dossier['relationships'].items() for r in rows if r.get('claim_id') == aid)
                     self.assertEqual(row, next(r for r in network['relationships'] if r.get('claim_id') == aid))
                     self.assertEqual(row['status'], assessment['status'])
                     self.assertEqual(row['relationship'], perspective['relationship'])
                     self.assertEqual(row['reason'], perspective.get('reason') or assessment['reason'])
                     self.assertEqual(row['source_ids'], assessment['source_ids'])
-                    claim = next(c for c in dossier['claims'] if c['id'] == aid)
                     self.assertEqual(claim, next(c for c in network['claims'] if c['id'] == aid))
                     for key in ('status', 'reason', 'source_ids', 'relationship', 'status_label'):
                         self.assertEqual(claim[key], row[key])
                     html_row = page.select_one(f'#family tr[data-claim-id="{aid}"]')
                     self.assertIsNotNone(html_row)
                     # Pages show the curated label in the canonical vocabulary (tools/evidence_labels.py).
-                    self.assertEqual(evidence_labels.normalise_status_label(row["status"], row["status_label"]), html_row.select_one('.status-label').text)
+                    label = evidence_labels.normalise_status_label(row["status"], row["status_label"])
+                    if group == 'parents':
+                        label = re.sub(r'\s*·\s*\d+%$', '', label)
+                        label += ' · ' + percentage_text(row['probability'])
+                    self.assertEqual(label, html_row.select_one('.status-label').text)
                     self.assertIn(row['reason'], html_row.text)
                     record_ids = {r['record_id'] for r in dossier['presentation']['record_associations']}
                     self.assertTrue(set(row['source_ids']).issubset(record_ids))
@@ -72,8 +105,13 @@ class ResolvedPublicModelTests(unittest.TestCase):
                         old = next(c for c in dossier['claims'] if c['id'] == old_id)
                         self.assertEqual('historical', old['lifecycle'])
                         self.assertEqual(aid, old['superseded_by'])
-                        self.assertTrue(any(c['id'] == old_id for c in dossier['imported']['sections']['claims']))
+                        if old_id in by_id:
+                            previous = by_id[old_id]
+                            self.assertEqual(previous['perspectives'][profile].get('reason') or previous['reason'], old['reason'])
+                        else:
+                            self.assertTrue(any(c['id'] == old_id for c in dossier['imported']['sections']['claims']))
 
+    @requires_generated_data
     def test_identity_qualified_vitals_are_not_overridden_by_display_data(self):
         for profile in ('glasgow-1367', 'glasgow-3939', 'glasgow-3940', 'glasgow-951', 'mccaughan-222'):
             dossier = load(WEB / f'people/{profile}.json')
@@ -110,12 +148,13 @@ class ResolvedPublicModelTests(unittest.TestCase):
                       'Person-1': {'relationship': 'father', 'reason': 'The record names the father.'},
                       'Person-2': {'relationship': 'daughter', 'reason': 'The record names the daughter.'}}}
         untouched = deepcopy(original)
+        unreviewed = resolve(original, [], [])  # Derived probability metadata also exists without a review.
         result = resolve(original, [], [review])
         self.assertEqual(original, untouched)
         self.assertEqual(result, resolve(result, [], [review]))
-        self.assertEqual(original, resolve(result, [], []))
+        self.assertEqual(unreviewed, resolve(result, [], []))
         self.assertEqual('unknown', result['relationships']['parents'][1]['status'])
-        self.assertEqual(original, resolve(original, [], [{**review, 'publication_status': 'draft'}]))
+        self.assertEqual(unreviewed, resolve(original, [], [{**review, 'publication_status': 'draft'}]))
         with self.assertRaisesRegex(ValueError, 'assertion_id'):
             resolve(original, [], [{k: v for k, v in review.items() if k != 'assertion_id'}])
 

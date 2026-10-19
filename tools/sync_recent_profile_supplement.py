@@ -5,8 +5,40 @@ from __future__ import annotations
 
 import csv
 import json
+from pathlib import Path
 
-from project_paths import MAP_RECORDS, MAP_RECENT_PROFILE_SUPPLEMENT, atomic_write_csv
+try:
+    from tools.project_paths import MAP_RECORDS, MAP_RECENT_PROFILE_SUPPLEMENT, WIKITREE_LIVE_OVERRIDES, atomic_write_csv, atomic_write_text, normalized_profile_redirects
+    from tools.public_privacy import from_sources
+except ModuleNotFoundError:
+    from project_paths import MAP_RECORDS, MAP_RECENT_PROFILE_SUPPLEMENT, WIKITREE_LIVE_OVERRIDES, atomic_write_csv, atomic_write_text, normalized_profile_redirects
+    from public_privacy import from_sources
+
+
+SOURCE = Path(__file__).with_name('site_sources') / 'map/recent-profile-supplement.json'
+
+
+def public_supplement(source, policy, redirects):
+    """Publish the complete maintained cohort with current privacy and merges."""
+    result = policy.project(source)
+    for profile in result['profiles']:
+        ident = profile['profile_id']
+        profile['profile_id'] = redirects.get(ident, ident)
+    result['already_mapped_profile_ids'] = [redirects.get(ident, ident)
+                                           for ident in result['already_mapped_profile_ids']]
+    return policy.project(result)
+
+
+def publish_source(source_path=SOURCE, target=MAP_RECENT_PROFILE_SUPPLEMENT, *, policy=None, redirects=None):
+    if redirects is None:
+        live = json.loads(WIKITREE_LIVE_OVERRIDES.read_text(encoding='utf-8'))
+        redirects = normalized_profile_redirects(live.get('redirects', {}))
+    result = public_supplement(json.loads(source_path.read_text(encoding='utf-8')),
+                               policy or from_sources(), redirects)
+    content = json.dumps(result, ensure_ascii=False, indent=2) + '\n'
+    if not target.exists() or target.read_text(encoding='utf-8') != content:
+        atomic_write_text(target, content)
+    return result
 
 
 EXTRA_FIELDS = (
@@ -35,8 +67,11 @@ PROFILE_RECONCILIATIONS = {
 }
 
 
-def main() -> None:
-    source = json.loads(MAP_RECENT_PROFILE_SUPPLEMENT.read_text(encoding="utf-8"))
+def main(*, source_only=False) -> None:
+    source = publish_source()
+    if source_only:
+        print(f"Published {len(source['profiles'])} public historical supplement profiles")
+        return
     group = source["family_group"]
     with MAP_RECORDS.open(encoding="utf-8-sig", newline="") as handle:
         reader = csv.DictReader(handle)
@@ -79,4 +114,7 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main()
+    import argparse
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--source-only', action='store_true', help='refresh the public manifest without rewriting map rows')
+    main(source_only=parser.parse_args().source_only)

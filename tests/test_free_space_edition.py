@@ -1,4 +1,5 @@
 import json,tempfile,unittest
+from tests._generated_data import requires_generated_data
 from pathlib import Path
 from unittest.mock import patch
 from bs4 import BeautifulSoup
@@ -25,7 +26,7 @@ class FreeSpaceEditionTests(unittest.TestCase):
             root=Path(d);source_file=root/'source.wiki';source_file.write_text('Original source')
             meta={'wikitreeId':'Space:Study','title':'Study','category':'Families and case studies','localFile':'source.wiki'}
             source={'pages':[meta],'capturedAt':'2026-08-29'}
-            with patch.object(edition,'ROOT',root),patch.object(edition,'EDITION',root/'edition.json'):
+            with patch.object(edition,'from_sources',return_value=PublicPrivacy({})),patch.object(edition,'ROOT',root),patch.object(edition,'EDITION',root/'edition.json'):
                 page=edition.prepare([meta],source,{'studies':[]})[0];local=root/page['editionFile'];local.write_text('Local correction')
                 source_file.write_text('Remote/source refresh')
                 for _ in range(2):edition.prepare([meta],source,{'studies':[]});self.assertEqual(local.read_text(),'Local correction')
@@ -39,11 +40,13 @@ class FreeSpaceEditionTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as d:
             p=Path(d)/'local.wiki';p.write_text('Maintained local account')
             page={'wikitreeId':'Space:Study','editionFile':str(p)}
-            first=compare(page,'Different remote account',{})
-            second=compare(page,'Different remote account',first)
+            with patch('tools.sync_free_space_edition.from_sources',return_value=PublicPrivacy({})):
+                first=compare(page,'Different remote account',{})
+                second=compare(page,'Different remote account',first)
             self.assertIn('First comparison',second['status'])
             self.assertIsNone(second['basePublicText'])
 
+    @requires_generated_data
     def test_all_public_entries_have_local_reading_pages_and_safe_drafts(self):
         root=Path(__file__).resolve().parents[1];rows=json.loads((root/'www/assets/research/free-space-index.json').read_text())
         self.assertEqual(len(rows),85);self.assertEqual(len({r['wikitreeId'] for r in rows}),85)

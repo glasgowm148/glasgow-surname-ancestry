@@ -1,6 +1,8 @@
 """Reader wording must preserve research content, links and reading tools."""
 import unittest
 
+from tests._generated_data import requires_generated_data
+
 from bs4 import BeautifulSoup
 from tools import repair_reader_guidance as guidance
 
@@ -21,6 +23,7 @@ class ReaderGuidanceTests(unittest.TestCase):
         self.assertEqual(before.a['href'], after.a['href'])
         self.assertEqual(revised, guidance.public_labels(revised))
 
+    @requires_generated_data
     def test_home_reading_route_is_idempotent_and_keeps_the_map_and_tree(self):
         page = (guidance.WEB / 'index.html').read_text()
         revised = guidance.home_page(page)

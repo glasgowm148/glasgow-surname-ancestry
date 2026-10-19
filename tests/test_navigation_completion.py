@@ -3,6 +3,8 @@ from pathlib import Path
 import re
 import unittest
 
+from tests._generated_data import requires_generated_data
+
 
 ROOT = Path(__file__).resolve().parents[1]
 SPEC = importlib.util.spec_from_file_location(
@@ -36,6 +38,7 @@ class NavigationCompletionTests(unittest.TestCase):
         submenu_start = nav.index('class="g-section-subnav"')
         self.assertIn('</a><div class="g-section-subnav"', nav[selected_start:submenu_start + 32])
 
+    @requires_generated_data
     def test_about_shell_repair_is_idempotent_and_preserves_page_content(self):
         for route, marker in (
             ("changes/index.html", "Catalogue change log"),
@@ -78,6 +81,7 @@ class NavigationCompletionTests(unittest.TestCase):
         self.assertIn("addEventListener('popstate', schedule)", js)
         self.assertIn("document.body.classList.remove('g-nav-open')", js)
 
+    @requires_generated_data
     def test_reader_shell_preserves_place_main_assets_and_resolves_base_links(self):
         route = Path("places/corvanaghan.html")
         original = (ROOT / "www" / route).read_text(encoding="utf-8")
@@ -92,6 +96,7 @@ class NavigationCompletionTests(unittest.TestCase):
         self.assertIn('href="/map/', repaired)
         self.assertEqual(repaired, NAV.repair_reader_shell_page(repaired, route))
 
+    @requires_generated_data
     def test_reader_shell_covers_clean_and_legacy_about_research_routes(self):
         for route in (
             "status/index.html", "status.html", "compare/index.html", "compare.html",
@@ -107,6 +112,7 @@ class NavigationCompletionTests(unittest.TestCase):
             if 'id="g-navigation"' not in original:
                 self.assertNotIn('<base ', repaired, route)
 
+    @requires_generated_data
     def test_reader_shell_preserves_catalogue_form_and_filter_controls(self):
         for route in ("catalogue.html", "catalogue/advanced.html"):
             original = (ROOT / "www" / route).read_text(encoding="utf-8")
@@ -127,6 +133,7 @@ class NavigationCompletionTests(unittest.TestCase):
             self.assertEqual(original.replace('g-unified g-kind-about v3-site custom','g-unified v3-site custom g-kind-catalogue'), corrected)
             self.assertEqual(corrected, NAV.repair_reader_shell_page(corrected, Path(route)))
 
+    @requires_generated_data
     def test_reader_shell_covers_public_people_readers_and_skips_merges(self):
         for route, section in (
             ("people/index.html", 'g-kind-catalogue'),

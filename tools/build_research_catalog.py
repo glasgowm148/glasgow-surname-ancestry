@@ -468,7 +468,7 @@ def sync_generated_profile_work_status() -> dict[str, int]:
     for path in (WEB_DIR / "catalogue.html", WEB_DIR / "catalogue" / "index.html", WEB_DIR / "catalogue" / "advanced.html", artifact_path, WEB_DIR / "statistics" / "index.html"):
         html = artifact["html"] if path == artifact_path else path.read_text(encoding="utf-8")
         updated = re.sub(
-            r"\d{1,3}(?:,\d{3})* documentary identities without confirmed destinations: .*? awaiting review",
+            r"\d{1,3}(?:,\d{3})* documentary identities without confirmed destinations: [^<]*",
             workbench,
             html,
         )
@@ -3815,7 +3815,7 @@ def _unified_records_page(title: str, description: str, body: str) -> str:
     page = shell[:shell_main.start()] + f'<main id="main" class="r-main v3-records">{body}</main>' + shell[shell_main.end():]
     page = re.sub(r'<body\b[^>]*>', '<body data-r-integrated="3" class="g-unified g-kind-research r-v2 v3-site" data-g-path="/records/index.html" data-v3="true" data-repair="3.1-repair-1">', page, count=1, flags=re.I)
     metadata = (
-        (r"<title\b[^>]*>[\s\S]*?</title>", f"<title>{escape(title)} · Glasgow</title>"),
+        (r"<title\b[^>]*>[\s\S]*?</title>", f"<title>{escape(title)} · Glasgow Surname Project</title>"),
         (r'<meta\b(?=[^>]*\bname=["\']description["\'])[^>]*>', f'<meta name="description" content="{escape(description, quote=True)}">'),
         (r'<link\b(?=[^>]*\brel=["\']canonical["\'])[^>]*>', f'<link rel="canonical" href="{SITE_URL}/records/">'),
     )

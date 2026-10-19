@@ -57,4 +57,4 @@ A submodule commit must exist in the toolkit’s remote for a fresh external clo
 
 ## Verification at the separation
 
-See the [19 October 2026 validation record](toolkit-separation-validation.md) for package, fresh-clone, import/build, browser and consumer results. The focused dependency checks pass; Glasgow’s full test suite has separately verified existing research/site failures, which remain visible rather than being baselined away.
+See the [19 October 2026 validation record](toolkit-separation-validation.md) for package, fresh-clone, import/build, browser and consumer results, including repairs to the pre-existing research/site failures.

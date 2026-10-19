@@ -50,6 +50,7 @@ class RecordsPageTests(unittest.TestCase):
             with patch.object(build_research_catalog, 'WEB_DIR', root):
                 page = build_research_catalog._unified_records_page('Research records', 'Find records', records_body(RECORDS))
             self.check_assets(page)
+            self.assertIn('<title>Research records · Glasgow Surname Project</title>', page)
             self.assertIn('id="record-query"', page)
             self.assertIn('id="record-sort"', page)
 

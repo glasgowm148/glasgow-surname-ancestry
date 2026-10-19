@@ -4,6 +4,8 @@ import json
 from pathlib import Path
 import unittest
 
+from tests._generated_data import requires_generated_data
+
 from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -30,6 +32,7 @@ class RegionalStudyTests(unittest.TestCase):
         # Families still appear in every region represented by their records.
         self.assertEqual(list(EXPECTED), helper.branch_topic_ids({'id': 'family-example', 'kind': 'family'}, countries))
 
+    @requires_generated_data
     def test_all_regional_pages_show_only_geographic_local_studies(self):
         branches = json.loads((ROOT / 'www/assets/research/branches.json').read_text())
         for region, studies in EXPECTED.items():
@@ -42,6 +45,7 @@ class RegionalStudyTests(unittest.TestCase):
                                      {a['href'] for a in headings[0].parent.select('a')})
                 self.assertEqual(studies, {b['id'] for b in branches if b['kind'] == 'place' and region in b['topic_ids']})
 
+    @requires_generated_data
     def test_directory_filters_and_family_navigation_use_same_geography(self):
         directory = json.loads((ROOT / 'www/assets/research/branches-directory.json').read_text())
         for group in directory['groups']:

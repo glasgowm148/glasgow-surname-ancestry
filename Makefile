@@ -36,10 +36,10 @@ check-research:
 
 # Internal links of the built site (tools/check_internal_links.py, lane I2).
 check-links:
-	@if [ -f tools/check_internal_links.py ] && [ -f $(LINK_BASELINE) ] && [ -d www ]; then \
+	@if [ -f tools/check_internal_links.py ] && [ -f $(LINK_BASELINE) ] && [ -f www/data/people.json ]; then \
 		$(PYTHON) tools/check_internal_links.py --site www --baseline $(LINK_BASELINE); \
 	else \
-		echo "check-links skipped: tools/check_internal_links.py, $(LINK_BASELINE) or www/ is not there yet."; \
+		echo "check-links skipped: link checker, baseline or generated www/data/people.json is not there yet."; \
 	fi
 
 check-browser:

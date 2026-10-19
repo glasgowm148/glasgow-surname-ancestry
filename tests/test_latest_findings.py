@@ -1,4 +1,5 @@
 import copy
+from tests._generated_data import requires_generated_data
 import json
 from pathlib import Path
 import tempfile
@@ -116,6 +117,7 @@ class LatestFindingsTests(unittest.TestCase):
         self.assertIsNotNone(rendered.select_one('a[href="/research/subjects/example/#person"]'))
         self.assertNotIn('Former incompatible-profile dismissal', rendered.get_text())
 
+    @requires_generated_data
     def test_current_ledger_has_visible_evidence_and_newest_first_order(self):
         rows = findings.load_findings()
         page = BeautifulSoup((findings.WEB / 'latest-findings/index.html').read_text(), 'html.parser')

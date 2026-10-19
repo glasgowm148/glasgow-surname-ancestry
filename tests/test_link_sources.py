@@ -5,7 +5,7 @@ from pathlib import Path
 from unittest.mock import patch
 
 from tools import build_statistics_page, build_study_pages
-from tools.public_privacy import WITHHELD_TEXT, PublicPrivacy, safe_href
+from tools.public_privacy import WITHHELD, WITHHELD_TEXT, PublicPrivacy, safe_href
 
 
 class StudyPagePersonLinkTests(unittest.TestCase):
@@ -47,9 +47,14 @@ class PrivacyPlaceholderLinkTests(unittest.TestCase):
                'html_url': '/people/example-200.html', 'json_url': '/people/example-200.json',
                'network_url': '/people/example-200.network.json', 'canonical_url': 'https://x/people/example-200.html',
                'selection_id': 'example-200', 'mother_id': 'Example-200', 'name': 'Ann Example'}
+        self.assertEqual(WITHHELD, self.policy.project(row))
+        # A public subject's links to private relatives are blanked independently.
+        row.update(id='Historical-1', catalogue_id='historical-1', slug='historical-1')
         projected = self.policy.project(row)
         for key in row:
-            if key != 'name':
+            if key in ('id', 'catalogue_id', 'slug', 'name'):
+                self.assertEqual(row[key], projected[key], key)
+            else:
                 self.assertEqual('', projected[key], key)
         self.assertNotIn(WITHHELD_TEXT, str(projected))
 

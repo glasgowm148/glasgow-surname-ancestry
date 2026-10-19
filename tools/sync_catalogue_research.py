@@ -283,8 +283,9 @@ def refresh_catalogue_summaries(rows):
             count = link.find("span")
             if count:
                 ready = sum(row.get("profile_work_status") == "creation_ready" for row in missing)
-                held = len(missing) - ready
-                count.string = f"{len(missing):,} documentary identities without confirmed destinations: {ready:,} creation-ready and {held:,} with identity, source or supporting-page work remaining"
+                candidates = sum(row.get("profile_work_status") == "existing_profile_candidate" for row in missing)
+                held = len(missing) - ready - candidates
+                count.string = f"{len(missing):,} documentary identities without confirmed destinations: {ready:,} creation-ready, {candidates:,} possible existing-profile matches on HOLD, and {held:,} with identity, source or supporting-page work remaining"
         preview = soup.select_one(".wikitree-update-preview")
         if preview:
             description = preview.find("p", recursive=False)

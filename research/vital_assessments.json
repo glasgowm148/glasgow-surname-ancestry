@@ -1,0 +1,601 @@
+{
+  "schema_version": 1,
+  "assessments": [
+    {
+      "schema_version": 3,
+      "id": "alexander-951-reviewed-position",
+      "subject": "Glasgow-951",
+      "status": "approved",
+      "reviewed": "2026-09-13",
+      "basis": "Original death entry 348 and original 1851 census re-inspected 13 September 2026; compared with maintained family records and Glenleslie namesake evidence. The informant’s forename in entry 348 was re-read on 6 October 2026 against the same registrar’s adjacent entries: Mary, not Nancy.",
+      "source": {
+        "url": "/people/glasgow-951.json",
+        "section": "research_findings / Current conclusion / 13 September 2026"
+      },
+      "summary": "Alexander’s Lisnagaver household and children are documented; the 1888 Gortahar death remains probable. Current parentage review favours John Glasgow, farmer, indirectly through Nancy’s probable sibling network; Alexander’s own father is not directly named.",
+      "vitals": {
+        "death": {
+          "date": "1888-05-16",
+          "place": "Gortahar",
+          "status": "strongly_supported",
+          "country": "ireland",
+          "label": "Probable identification",
+          "note": "Original entry 348 names the informant as Mary Glasgow, daughter, of Gortahar; the forename was read as Nancy until 6 October 2026. The Elder-family bridge supports this match; recorded age 84 conflicts with census age 40 in 1851. Glenleslie Glasgow-2385 is a weaker alternative, not conclusively excluded.",
+          "source_url": "https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1888/06179/4766466.pdf"
+        }
+      },
+      "relationships": [
+        {
+          "target": "McCaughan-222",
+          "group": "spouses",
+          "status": "proved",
+          "label": "Documented wife"
+        },
+        {
+          "target": "Glasgow-938",
+          "group": "children",
+          "status": "proved",
+          "label": "Documented child"
+        },
+        {
+          "target": "Glasgow-3167",
+          "group": "children",
+          "status": "proved",
+          "label": "Documented child"
+        },
+        {
+          "target": "Glasgow-438",
+          "group": "children",
+          "status": "proved",
+          "label": "Documented child"
+        },
+        {
+          "target": "Glasgow-973",
+          "group": "children",
+          "status": "proved",
+          "label": "Documented child"
+        },
+        {
+          "target": "Glasgow-1367",
+          "group": "parents",
+          "status": "superseded",
+          "label": "Earlier proposal; not established",
+          "display": "alternative"
+        },
+        {
+          "target": "Unknown-540856",
+          "group": "parents",
+          "status": "unknown",
+          "label": "Imported attachment; not established",
+          "display": "alternative"
+        },
+        {
+          "target": "Glasgow-3904",
+          "group": "parents",
+          "status": "possible",
+          "label": "Weaker parentage alternative",
+          "display": "alternative"
+        }
+      ],
+      "question": "Can an independent sibling parent statement or a relationship-bearing estate record test the probable father John Glasgow, farmer? His Desertoghill identity and Alexander’s mother remain unresolved.",
+      "supersedes": [
+        "Imported death place: Glasgow, Lanarkshire, Scotland, United Kingdom",
+        "Atlas numeric death year: 1861",
+        "Imported Robert/Catherine attachments do not establish parentage."
+      ],
+      "events": [
+        {
+          "evidence_id": "E-579b3a72a59a",
+          "kind": "mention",
+          "date": "1866-04-05",
+          "label": "Named as Robert’s father",
+          "place": "Churchtown, Tamlaght O’Crilly, County Londonderry",
+          "role": "Father of the groom",
+          "event_type": "marriage",
+          "note": "Robert Glasgow’s marriage to Jane Graham names his father Alexander, a farmer. The imported evidence combines this marriage with the 1851 census; this date is the marriage date, not an event in Alexander’s own marital history.",
+          "participants": [
+            {
+              "id": "Glasgow-938",
+              "role": "Groom"
+            },
+            {
+              "id": "Graham-21720",
+              "role": "Bride"
+            },
+            {
+              "id": "Glasgow-951",
+              "role": "Father of the groom"
+            }
+          ]
+        },
+        {
+          "evidence_id": "E-d57ea52d5952",
+          "kind": "personal",
+          "date": "1851",
+          "label": "Farmer at Lisnagaver",
+          "role": "Head of household",
+          "event_type": "census",
+          "participants": [
+            {
+              "id": "Glasgow-951",
+              "role": "Head of household"
+            }
+          ]
+        },
+        {
+          "evidence_id": "E-1167ee55ceaa",
+          "kind": "family",
+          "label": "Earlier Gortereagh baptism references",
+          "role": "Father in the documented baptism sequence",
+          "note": "Rasharkin entries 75, 106 and 203 identify the same Alex/Alexander and Mary/Molly family at Gortereagh and Lisnagaver. The 1838 child remains unnamed; this is separate from the documented parents."
+        }
+      ],
+      "records_policy": {
+        "superseded_places": [
+          "scotland",
+          "wicklow"
+        ],
+        "note": "Retained imported association. The maintained assessment favours the Gortahar death; the Scottish migration is documented for the next generation."
+      },
+      "vital_qualifications": {
+        "death": "probable identification; age and informant identity unresolved"
+      },
+      "parentage_reviewed": "2026-09-29"
+    },
+    {
+      "schema_version": 3,
+      "id": "robert-1367-reviewed-vitals",
+      "subject": "Glasgow-1367",
+      "status": "approved",
+      "reviewed": "2026-09-12",
+      "scope": "vitals",
+      "basis": "Explicitly approved migration of the already-reviewed identity-qualified vital facts; no new research or identity resolution.",
+      "source": {
+        "url": "/people/glasgow-1367.json",
+        "section": "research_findings / Current conclusion; Lisnagaver land-sequence correction - 24 August 2026; presentation assessed 25 August 2026"
+      },
+      "provenance": "Maintained Glasgow-1367 findings and presentation: the Glenleslie census-and-probate account and the Lisnagaver working-profile decision remain unreconciled.",
+      "summary": "The 1834 Lisnagaver occupier has no resolved birth or death date or place. Glenleslie vital facts remain conditional on an unproved identity bridge; County Tyrone is an imported assertion.",
+      "vitals": {
+        "birth": {
+          "date": null,
+          "place": null,
+          "status": "identity-dependent",
+          "display_date": "c. 1779",
+          "qualifier": "Glenleslie man only; transfer to Lisnagaver unproved",
+          "source_ids": [
+            "SRC-282759b8fa75"
+          ],
+          "alternatives": [
+            {
+              "id": "robert-1367-birth-glenleslie-census",
+              "date": "c. 1779",
+              "place": "County Antrim, Ireland",
+              "status": "identity-dependent",
+              "qualifier": "Glenleslie household 23: age 72 in 1851 implies birth about 1778–1779; Antrim birthplace recorded. Identity with the Lisnagaver occupier is unproved.",
+              "source_ids": [
+                "SRC-282759b8fa75"
+              ],
+              "source_url": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=31234&census_year=1851",
+              "provenance": "Original 1851 census inspected in maintained findings; presentation record census-robert-1851."
+            },
+            {
+              "id": "robert-1367-birth-imported-tyrone",
+              "date": null,
+              "place": "County Tyrone, Ireland",
+              "status": "imported-unverified",
+              "qualifier": "Imported profile birthplace assertion, not an inspected birth record or an established birthplace for the Lisnagaver occupier.",
+              "source_url": "/people/glasgow-1367.json",
+              "provenance": "Preserved imported profile fields; explicitly distinguished from the Glenleslie census in the reviewed presentation. No underlying birth-record source identified."
+            }
+          ]
+        },
+        "death": {
+          "date": null,
+          "place": null,
+          "status": "identity-dependent",
+          "display_date": "c. 1852",
+          "qualifier": "Glenleslie man only; transfer to Lisnagaver unproved",
+          "source_ids": [
+            "SRC-96a8d04b5960"
+          ],
+          "alternatives": [
+            {
+              "id": "robert-1367-death-glenleslie-probate",
+              "date": "c. 1852",
+              "place": null,
+              "status": "identity-dependent",
+              "qualifier": "The probate copy says Glenleslie Robert died in or about 1852. Glenleslie identifies the will's locality, not a proved death place; identity with the Lisnagaver occupier is unproved.",
+              "source_ids": [
+                "SRC-96a8d04b5960"
+              ],
+              "source_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJ8-MQQJ?view=fullText",
+              "provenance": "National Archives of Ireland probate copy, FamilySearch image 229; will made at Glenleslie 3 February 1851, proved 13 February 1854. Maintained Current conclusion and presentation record will-robert-1854."
+            }
+          ]
+        }
+      },
+      "relationships": [
+        {
+          "target": "Glasgow-951",
+          "group": "children",
+          "status": "possible",
+          "label": "Open son hypothesis",
+          "display": "hypothesis"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-3939-reviewed-vital-qualifications",
+      "subject": "Glasgow-3939",
+      "status": "approved",
+      "scope": "vital qualifications",
+      "basis": "The existing maintained death-boundary interpretation, migrated from presentation fields without changing the estimate.",
+      "source": {
+        "url": "/people/glasgow-3939.html#question-death-boundary",
+        "section": "Maintained death-boundary assessment"
+      },
+      "vital_qualifications": {
+        "death": "inferred boundary; no death or burial record located"
+      }
+    },
+    {
+      "id": "glasgow-3940-reviewed-vital-qualifications",
+      "subject": "Glasgow-3940",
+      "status": "approved",
+      "scope": "withdrawn death inference",
+      "basis": "The death-boundary interpretation was reviewed on 6 October 2026. The 1851 return that lacks this child also omits the living daughter Mary, so it no longer supports a death before 1841.",
+      "source": {
+        "url": "/people/glasgow-3940.html#question-death-boundary",
+        "section": "Maintained death-boundary assessment"
+      },
+      "vital_qualifications": {
+        "death": "no death or burial record located; the before-1841 inference was withdrawn on 6 October 2026"
+      },
+      "reviewed": "2026-10-06",
+      "vitals": {
+        "death": {
+          "date": null,
+          "place": null,
+          "status": "unknown"
+        }
+      },
+      "catalogue_projection": {
+        "death": "Death unknown",
+        "death_year": null,
+        "date_years": [
+          1838
+        ],
+        "field_statuses": {
+          "birth": "unmarked",
+          "birth_location": "unmarked",
+          "death": "unknown"
+        }
+      }
+    },
+    {
+      "id": "mary-mccaughan-222-death-identification",
+      "subject": "McCaughan-222",
+      "status": "approved",
+      "reviewed": "2026-09-12",
+      "scope": "death-record identification and date precision",
+      "basis": "The 5 September master integration explicitly calls the Gortahar later-life identification through Mary Elder high confidence; the 24 August family analysis supplies the marriage-to-death identity bridge. Original entry 234 was inspected on 12 September and corrects the earlier 27 February transcription to 17 February 1892.",
+      "source": {
+        "url": "/people/mccaughan-222.html#question-identity",
+        "section": "Death-record identity; maintained master assessment and original civil returns"
+      },
+      "vitals": {
+        "death": {
+          "date": "1892-02-17",
+          "place": "Gortahar, Rasharkin, County Antrim, Ireland",
+          "status": "exact",
+          "date_precision": "day",
+          "identification_status": "strongly_supported",
+          "qualifier": "high-confidence identification; date corrected against original register",
+          "source_ids": [
+            "death-mary-1892",
+            "marriage-mary-1871"
+          ],
+          "record_source": "/assets/research/canonical-records.json",
+          "source_url": "https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1892/06049/4723532.pdf",
+          "identification_basis": "The deceased was a widow whose daughter Mary Elder informed the death. The 1871 Lisnagaver bride Mary Glasgow married Robert Elder and named Alexander Glasgow, farmer, as father; Elder subsequently succeeded to Alexander's lot 25. This family bridge, not locality alone, supports the maintained high-confidence identification.",
+          "limitations": "The death return does not name a husband or maiden surname. Its reported age of 89 conflicts with the profile's c.1811 birth estimate. The identification is a combined-record inference, not an explicit McCaughan name statement.",
+          "date_reading_status": "corrected_against_original",
+          "date_readings": [
+            {
+              "date": "1892-02-17",
+              "basis": "Entry 234 reads Seventeenth February 1892; original image inspected 12 September 2026 and independently checked.",
+              "source_url": "https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1892/06049/4723532.pdf"
+            },
+            {
+              "date": "1892-02-27",
+              "basis": "Superseded earlier maintained transcription."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "mary-glasgow-3167-reviewed-death-boundary",
+      "subject": "Glasgow-3167",
+      "status": "approved",
+      "reviewed": "2026-09-12",
+      "scope": "death boundary",
+      "basis": "Mary Elder personally informed her mother's original civil death entry on 17 February 1892. This corrects the earlier maintained 27 February transcription while retaining an open-ended death boundary for Mary herself.",
+      "source": {
+        "url": "/people/glasgow-3167.html#source-death-mary-1892",
+        "section": "Mother's original civil death return"
+      },
+      "vitals": {
+        "death": {
+          "date": "after 1892-02-17",
+          "place": null,
+          "status": "uncertain",
+          "qualifier": "last documented at her mother's death; own death not established",
+          "source_ids": [
+            "death-mary-1892"
+          ],
+          "source_url": "https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1892/06049/4723532.pdf"
+        }
+      }
+    },
+    {
+      "id": "mary-jane-boyd-18548-reviewed-vitals",
+      "subject": "Boyd-18548",
+      "status": "approved",
+      "reviewed": "2026-09-12",
+      "scope": "birth estimate, death record identification and family identity",
+      "basis": "Original marriage, birth and census records identify the memorial family; the memorial age supplies the revised birth estimate.",
+      "source": {
+        "url": "/people/boyd-18548.html#question-identity",
+        "section": "Maintained identity assessment"
+      },
+      "vitals": {
+        "birth": {
+          "date": "1865-00-00",
+          "display_date": "c. 1865",
+          "place": "Tamlaght, Aghadowey, County Londonderry, Ireland",
+          "status": "estimated",
+          "qualifier": "estimated from memorial age 93 at death",
+          "source_ids": [
+            "marriage-daniel-neely-1888",
+            "memorial-drimbolg-boyd"
+          ]
+        },
+        "death": {
+          "date": "1958-09-17",
+          "place": "County Londonderry, Northern Ireland",
+          "status": "exact",
+          "qualifier": "memorial transcription; original stone and civil return uninspected",
+          "source_ids": [
+            "memorial-drimbolg-boyd"
+          ],
+          "source_url": "https://genealogy.torrens.org/BannValley/church/Drimbolg/graveyard.html"
+        }
+      }
+    },
+    {
+      "id": "sarah-glasgow-2414-reviewed-birth",
+      "subject": "Glasgow-2414",
+      "status": "approved",
+      "reviewed": "2026-09-12",
+      "scope": "birth date correction",
+      "basis": "Original civil entry 370 records 8 September; entry 371 on the next page records Elizabeth on 9 September.",
+      "source": {
+        "url": "/people/glasgow-2414.html#question-birth-date",
+        "section": "Maintained birth-date assessment"
+      },
+      "vitals": {
+        "birth": {
+          "date": "1889-09-08",
+          "place": "Tamlaght, Kilrea, County Londonderry, Ireland",
+          "status": "exact",
+          "source_ids": [
+            "birth-sarah-glasgow-1889"
+          ],
+          "source_url": "https://civilrecords.irishgenealogy.ie/churchrecords/images/birth_returns/births_1889/02466/1915876.pdf"
+        }
+      }
+    },
+    {
+      "id": "elizabeth-glasgow-2415-reviewed-vitals",
+      "subject": "Glasgow-2415",
+      "status": "approved",
+      "reviewed": "2026-09-12",
+      "scope": "birth and death record identification",
+      "basis": "Original birth and census records combined with the distinctive memorial name and niece relationship.",
+      "source": {
+        "url": "/people/glasgow-2415.html#question-identity",
+        "section": "Maintained identity assessment"
+      },
+      "vitals": {
+        "birth": {
+          "date": "1889-09-09",
+          "place": "Tamlaght, Kilrea, County Londonderry, Ireland",
+          "status": "exact",
+          "source_ids": [
+            "birth-elizabeth-glasgow-1889"
+          ],
+          "source_url": "https://civilrecords.irishgenealogy.ie/churchrecords/images/birth_returns/births_1889/02466/1915877.pdf"
+        },
+        "death": {
+          "date": "1933-01-04",
+          "place": "County Londonderry, Northern Ireland",
+          "status": "exact",
+          "qualifier": "memorial transcription; original stone and civil return uninspected",
+          "source_ids": [
+            "memorial-drimbolg-boyd"
+          ],
+          "source_url": "https://genealogy.torrens.org/BannValley/church/Drimbolg/graveyard.html"
+        }
+      }
+    },
+    {
+      "schema_version": 3,
+      "id": "glasgow-938-census-birth-assessment",
+      "subject": "Glasgow-938",
+      "status": "approved",
+      "reviewed": "2026-09-13",
+      "basis": "Publishes the existing 5 September maintained finding; census age 10 and 1866 marriage age 25 support an estimated birth, not 6 November 1840.",
+      "summary": "Robert is documented as Alexander and Mary’s son. His birth is estimated about 1840–41; the imported exact date is unsupported.",
+      "source": {
+        "url": "https://civilrecords.irishgenealogy.ie/churchrecords/images/marriage_returns/marriages_1866/11531/8240963.pdf"
+      },
+      "vitals": {
+        "birth": {
+          "date": "about 1840–1841",
+          "place": "County Antrim, Ireland",
+          "status": "estimated",
+          "note": "Aged 10 in the 1851 census and 25 at marriage in April 1866; no source establishes 6 November 1840."
+        }
+      },
+      "vital_qualifications": {
+        "birth": "estimated from census and marriage ages; exact date unproved",
+        "death": "reported date; Scottish original and identity bridge not yet verified"
+      }
+    },
+    {
+      "schema_version": 3,
+      "id": "glasgow-3589-marjory-relationship-assessment",
+      "subject": "Glasgow-3589",
+      "status": "approved",
+      "reviewed": "2026-09-21",
+      "scope": "accepted testament reading and parent qualifications",
+      "basis": "Accepted human reading of NRS CC8/8/5, images 276–277, maintained in research/Glasgow-3589/findings.md; no new identity or vital conclusion.",
+      "source": {
+        "url": "/people/glasgow-3589.html",
+        "section": "research_findings / Current conclusion"
+      },
+      "summary": "The testament names Marjory as John Glasgow's lawful child. It does not establish her inherited c.1575 birth estimate or Hirmanscheillis location, a later identity, or Margaret Hutcheson's maternity.",
+      "relationships": [
+        {
+          "target": "Glasgow-3181",
+          "group": "parents",
+          "status": "proved",
+          "label": "Documented father"
+        },
+        {
+          "target": "Hutcheson-1656",
+          "group": "parents",
+          "status": "possible",
+          "label": "Uncertain mother"
+        }
+      ],
+      "vital_qualifications": {
+        "birth": "inherited estimated date and place; the testament establishes neither a birth event nor Marjorie's birthplace"
+      }
+    },
+    {
+      "schema_version": 3,
+      "id": "glasgow-3478-birth-month-conflict-2026-09-21",
+      "subject": "Glasgow-3478",
+      "status": "approved",
+      "reviewed": "2026-09-21",
+      "scope": "birth-date confidence only",
+      "basis": "Saved Findmypast transcript SCOT/OPR/BAP/3574782 gives 4 September 1738; the current MyHeritage-based biography gives 4 October 1738. Originals remain to be compared; live date confidence changed to uncertain and verified 21 September.",
+      "source": {
+        "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3574782&tab=this"
+      },
+      "summary": "The 1738 birth month is unresolved between September and October. The existing 4 October value is retained provisionally and marked uncertain; no identity change is justified without the original registers.",
+      "vitals": {
+        "birth": {
+          "date": "1738-10-04",
+          "place": "Irvine, Ayrshire, Scotland",
+          "status": "uncertain",
+          "qualifier": "Retained provisional date; September and October readings conflict."
+        }
+      }
+    },
+    {
+      "schema_version": 3,
+      "id": "hugh1499-john4179-uncertain-son-2026-09-21",
+      "subject": "Glasgow-1499",
+      "status": "approved",
+      "reviewed": "2026-09-21",
+      "scope": "Low-confidence father hypothesis only; approval means publish assessment, not proof of kinship.",
+      "basis": "Compatible Larne household and estimated generation; no record names John as Hugh’s son. User requested uncertain live attachment, verified with father status10 and no mother.",
+      "source": {
+        "url": "https://www.wikitree.com/wiki/Glasgow-4179"
+      },
+      "summary": "John of Larne is a possible son with low confidence. Older William remains viable; Ann’s maternity does not follow.",
+      "relationships": [
+        {
+          "target": "Glasgow-4179",
+          "group": "children",
+          "status": "possible",
+          "label": "Possible son; low confidence",
+          "display": "proposed"
+        }
+      ]
+    },
+    {
+      "id": "glasgow-3172-death-boundary-2026-09-21",
+      "subject": "Glasgow-3172",
+      "status": "approved",
+      "reviewed": "2026-09-21",
+      "basis": "Last documented maritime activity is 8 November 1679. The 1686 will date does not prove death. Full Save and public readback verified 21 September 2026.",
+      "vitals": {
+        "death": {
+          "date": "1679-11-08",
+          "display_date": "After 8 November 1679",
+          "place": "Belfast, Ireland",
+          "status": "after",
+          "place_status": "uncertain",
+          "country": "ireland",
+          "note": "Last documented maritime activity is 8 November 1679. The 1686 will date does not prove death. Full Save and public readback verified 21 September 2026.",
+          "source_url": "https://www.wikitree.com/wiki/Glasgow-3172"
+        }
+      },
+      "vital_qualifications": {
+        "birth": "Birthplace uncertain; not established by the maritime records."
+      }
+    },
+    {
+      "id": "glasgow-4070-death-notice-20260929",
+      "subject": "Glasgow-4070",
+      "status": "approved",
+      "reviewed": "2026-09-29",
+      "basis": "Original Plattsburgh Sentinel, 6 November 1891, p. 8, visually inspected; compared with Nancy’s original January 1889 will age.",
+      "source_url": "https://www.nyshistoricnewspapers.org/?a=d&d=plts18911106-01.1.8",
+      "summary": "Contemporary notice corroborates 31 October 1891 death at Plattsburgh and reports about 75; birth-age conflict with the will remains unresolved.",
+      "vitals": {
+        "birth": {
+          "date": null,
+          "display_date": "Birth year unresolved",
+          "place": null,
+          "status": "uncertain",
+          "label": "Conflicting approximate ages",
+          "note": "Death notice says about 75 in October 1891; will says about 68 in January 1889. These are alternative estimates, not proved endpoints of a birth interval. Maintained census indexes report 30 in 1860, 50 in 1870 and 65 in 1880, implying further estimates; these ages do not define a proved birth interval.",
+          "source_url": "https://www.nyshistoricnewspapers.org/?a=d&d=plts18911106-01.1.8"
+        },
+        "death": {
+          "date": "1891-10-31",
+          "display_date": "31 October 1891",
+          "place": "Plattsburgh, Clinton County, New York",
+          "status": "certain",
+          "country": "united_states",
+          "source_url": "https://www.nyshistoricnewspapers.org/?a=d&d=plts18911106-01.1.8",
+          "note": "Original contemporary death notice gives exact date and town; independently agrees with cemetery transcription."
+        }
+      }
+    },
+    {
+      "id": "glasgow-4093-birth-unestablished-20260929",
+      "subject": "Glasgow-4093",
+      "status": "approved",
+      "reviewed": "2026-09-29",
+      "basis": "Citation-defined research subject with no identified birth record; live WikiTree API confirms blank birth date. Withdraw an unsupported catalogue estimate, without asserting another birth.",
+      "source_url": "https://www.nyshistoricnewspapers.org/?a=d&d=plts18920226-01.1.6",
+      "summary": "Mary’s birth date and birthplace are unestablished. The new Scottish indexed mother is a candidate, not an identified family connection.",
+      "vitals": {
+        "birth": {
+          "date": null,
+          "display_date": "Birth date not established",
+          "place": null,
+          "status": "uncertain",
+          "note": "The citation names only the children of Mary Thompson; it supplies no birth date or birthplace. The former catalogue estimate 1874 was not record evidence."
+        }
+      }
+    }
+  ]
+}

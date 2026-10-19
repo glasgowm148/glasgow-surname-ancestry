@@ -3,7 +3,10 @@ import json
 from pathlib import Path
 import tempfile
 import unittest
+
 from unittest.mock import patch
+
+from tests._generated_data import requires_generated_data
 from collections import Counter
 from bs4 import BeautifulSoup
 
@@ -35,6 +38,7 @@ class StudyPagesTests(unittest.TestCase):
         ids = [node['id'] for node in page.select('[id]')]
         self.assertEqual(len(ids), len(set(ids)))
 
+    @requires_generated_data
     def test_generated_pages(self):
         studies = study_manifest()
         self.assertTrue(studies)
@@ -162,6 +166,7 @@ class StudyPagesTests(unittest.TestCase):
             self.assertIsNotNone(soup.table)
             self.assertEqual('https://example.org',soup.a['href'])
 
+    @requires_generated_data
     def test_repair_is_idempotent(self):
         # Run on a copy: tests must never rewrite the published site.
         import shutil

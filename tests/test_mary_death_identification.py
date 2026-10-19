@@ -1,5 +1,6 @@
 """A precise death date is distinct from the assessed record-to-person identity."""
 import json
+from tests._generated_data import requires_generated_data
 from pathlib import Path
 import unittest
 
@@ -10,6 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 WEB = ROOT / 'www'
 
 
+@requires_generated_data
 class MaryDeathIdentificationTests(unittest.TestCase):
     def test_identity_and_date_precision_agree_in_every_output(self):
         dossier = json.loads((WEB / 'people/mccaughan-222.json').read_text())

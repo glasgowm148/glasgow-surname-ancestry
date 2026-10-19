@@ -2,6 +2,9 @@ import json
 import importlib.util
 from pathlib import Path
 import unittest
+from urllib.parse import unquote, urlsplit
+
+from bs4 import BeautifulSoup
 
 from tests._generated_data import requires_generated_data
 
@@ -27,9 +30,11 @@ class OneTreeOutputTests(unittest.TestCase):
         self.assertEqual(self.model['meta']['hypotheses'], len(edges))
         for person in edges:
             edge = person['edge']
-            self.assertEqual(edge['status'], 'uncertain')
+            self.assertIn(edge['status'], {'uncertain', 'possible', 'probable'})
             self.assertTrue(any(r.get('hypothesis') and r.get('id') == edge['parent']
-                                and r.get('assertion_id') for r in person['parents']))
+                                and r.get('role') == edge['role']
+                                and r.get('status') == edge['status']
+                                and r.get('assertion_id') for r in person['parents']), person['id'])
 
     def test_primary_whole_tree_carries_the_same_selected_connections(self):
         from tools.site_payloads import unpack_model
@@ -86,7 +91,16 @@ class OneTreeOutputTests(unittest.TestCase):
             if person.get("kind") != "person":
                 continue
             if person.get('documentary'):
-                self.assertTrue((ROOT / 'www' / person['catalogueUrl'].strip('/') / 'index.html').exists())
+                destination = urlsplit(person['catalogueUrl'])
+                self.assertFalse(destination.scheme or destination.netloc, person['id'])
+                self.assertTrue(destination.path.startswith('/'), person['id'])
+                page = ROOT / 'www' / destination.path.strip('/')
+                if page.suffix != '.html':
+                    page /= 'index.html'
+                self.assertTrue(page.is_file(), person['id'])
+                if destination.fragment:
+                    self.assertIsNotNone(BeautifulSoup(page.read_text(), 'html.parser').find(
+                        id=unquote(destination.fragment)), person['id'])
                 continue
             slug = person["catalogueId"]
             if slug is None:

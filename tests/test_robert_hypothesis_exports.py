@@ -7,8 +7,10 @@ from urllib.parse import urlsplit
 
 from bs4 import BeautifulSoup
 from tests._site_html import read_html
+from tests._generated_data import requires_generated_data
 from tools.publish_resolved_dossiers import resolve
 from tools import evidence_labels
+from tools.relationship_probability import percentage_text
 
 ROOT = Path(__file__).resolve().parents[1]
 WEB = ROOT / 'www'
@@ -20,6 +22,7 @@ def load(path):
 
 
 class RobertHypothesisExportsTests(unittest.TestCase):
+    @requires_generated_data
     def test_meaning_agrees_across_html_dossier_and_network(self):
         assessment = next(a for a in load(ROOT / 'research/relationship_assessments.json')
                           if a.get('assertion_id') == ASSERTION)
@@ -42,7 +45,10 @@ class RobertHypothesisExportsTests(unittest.TestCase):
             self.assertIn('no ages, wife or kinship', row['limitations'])
             node = html.select_one(f'#family tr[data-claim-id="{ASSERTION}"]')
             # Pages show the curated label in the canonical vocabulary (tools/evidence_labels.py).
-            self.assertEqual(evidence_labels.normalise_status_label(row["status"], row["status_label"]), node.select_one('.status-label').text)
+            label = evidence_labels.normalise_status_label(row["status"], row["status_label"])
+            if group == 'parents':
+                label += ' · ' + percentage_text(row['probability'])
+            self.assertEqual(label, node.select_one('.status-label').text)
             self.assertIn(row['reason'], node.text)
             for document in (dossier, network):
                 claim = next(c for c in document['claims'] if c['id'] == ASSERTION)
@@ -64,6 +70,7 @@ class RobertHypothesisExportsTests(unittest.TestCase):
                 self.assertIsNotNone(page.find(id=url.fragment))
                 self.assertTrue(node.select(f'a[href="{link["href"]}"]'))
 
+    @requires_generated_data
     def test_current_comparison_and_identity_scope_do_not_restore_the_couple(self):
         dossier = load(WEB / 'people/glasgow-951.json')
         parents = dossier['relationships']['parents']
@@ -87,6 +94,7 @@ class RobertHypothesisExportsTests(unittest.TestCase):
         self.assertEqual('identity-dependent', robert['vitals']['birth']['status'])
         self.assertIn('transfer to Lisnagaver unproved', robert['vitals']['birth']['qualifier'])
 
+    @requires_generated_data
     def test_resolution_is_idempotent_and_not_a_global_status_replacement(self):
         shared = load(ROOT / 'research/relationship_assessments.json')
         reviews = load(WEB / 'assets/research/assessments.json')['assessments']
@@ -97,8 +105,16 @@ class RobertHypothesisExportsTests(unittest.TestCase):
             self.assertEqual(before, dossier)
             self.assertEqual(current, resolve(current, reviews, shared))
             self.assertEqual(before['imported'], current['imported'])
+
+    def test_unrelated_hypothesis_does_not_replace_superseded_status(self):
+        shared = [{'people': ['Example-1', 'Example-2'], 'publication_status': 'approved',
+                   'assertion_id': 'unrelated-hypothesis', 'status': 'possible'}]
         other = {'id': 'Other-1', 'relationships': {'parents': [{'id': 'Other-2', 'status': 'superseded'}]}, 'claims': []}
-        self.assertEqual(other, resolve(other, [], shared))
+        resolved = resolve(other, [], shared)
+        rating = resolved['relationships']['parents'][0].pop('probability')
+        self.assertEqual('unrated', rating['band'])
+        self.assertIsNone(rating['value'])
+        self.assertEqual(other, resolved)
 
 
 if __name__ == '__main__':

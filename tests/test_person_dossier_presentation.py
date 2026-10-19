@@ -3,7 +3,10 @@ import json
 import re
 import tempfile
 import unittest
+
 from unittest.mock import patch
+
+from tests._generated_data import requires_generated_data
 
 from bs4 import BeautifulSoup
 from tests._site_html import read_html
@@ -16,6 +19,7 @@ class PersonDossierPresentationTests(unittest.TestCase):
     def page(self, slug):
         return BeautifulSoup(read_html(ROOT / "www/people" / f"{slug}.html"), "html.parser")
 
+    @requires_generated_data
     def test_evidence_questions_keep_reading_inset(self):
         """The dossier override must not reset expanded evidence cards to edge-to-edge text."""
         stylesheet = (ROOT / "www/assets/repair/person-hierarchy.css").read_text(encoding="utf-8")
@@ -83,6 +87,7 @@ class PersonDossierPresentationTests(unittest.TestCase):
 
     def test_completed_comparison_uses_captured_biography_as_draft(self):
         from tools.sync_catalogue_research import completed_comparisons
+        from tools.public_privacy import PublicPrivacy
 
         result = completed_comparisons(
             {"profiles": {"Glasgow-1": {
@@ -92,6 +97,7 @@ class PersonDossierPresentationTests(unittest.TestCase):
                 "biography_wikitext": "current biography",
             }}},
             {"completed_live_profiles": ["Glasgow-1"], "entries": {}},
+            PublicPrivacy({}),
         )
         self.assertEqual("current biography", result["Glasgow-1"]["remote_wikitext"])
         self.assertEqual("current biography", result["Glasgow-1"]["draft_wikitext"])
@@ -260,6 +266,7 @@ class PersonDossierPresentationTests(unittest.TestCase):
         self.assertIsNotNone(soup.select_one("#reading-group-additional-evidence #new"))
         self.assertEqual(["#overview", "#short-account", "#full-research", "#archive-tools"], [a["href"] for a in soup.select(".dossier-toc a")])
 
+    @requires_generated_data
     def test_acceptance_page_has_one_current_view_and_complete_documentary_list(self):
         soup = self.page("glasgow-951")
         main = soup.select_one("main")
@@ -291,6 +298,7 @@ class PersonDossierPresentationTests(unittest.TestCase):
             self.assertEqual("archive-tools", main.select_one("#" + ident).find_parent(id="archive-tools")["id"])
         self.assertFalse(main.select("#next-research .candidate-score"))
 
+    @requires_generated_data
     def test_family_diagram_retains_each_child_account_and_uncertainty(self):
         """Visual connections preserve the table's facts, profile links and limits."""
         from tools.repair_person_hierarchy import _biography_sections_html
@@ -313,6 +321,7 @@ class PersonDossierPresentationTests(unittest.TestCase):
         self.assertIn("relationship is unknown", trail.get_text())
         self.assertTrue(all(node.select_one("a[href]") for node in trail.select("li")))
 
+    @requires_generated_data
     def test_important_arguments_are_visible_outside_the_source_notebook(self):
         """The default account must explain the research, rather than hide its findings."""
         soup = self.page("glasgow-951")
@@ -336,6 +345,7 @@ class PersonDossierPresentationTests(unittest.TestCase):
         for node in soup.select("#parents-account .visual-chain li, #death-account .visual-chain li"):
             self.assertTrue(node.select_one("a[href]"))
 
+    @requires_generated_data
     def test_guided_account_exposes_source_readings_with_provenance(self):
         """A reader can inspect each claim and distinguish a record from an inference."""
         soup = self.page("glasgow-951")
@@ -373,6 +383,7 @@ class PersonDossierPresentationTests(unittest.TestCase):
         self.assertNotIn("source-snippet", rendered)
         self.assertNotIn("{{snippets:", rendered)
 
+    @requires_generated_data
     def test_estate_diagram_distinguishes_recorded_kin_words_from_sibling_inference(self):
         soup = self.page("glasgow-951")
         diagram = soup.select_one("#parents-account .visual-kinship")
@@ -391,6 +402,7 @@ class PersonDossierPresentationTests(unittest.TestCase):
         self.assertNotIn("{{visuals", account.get_text())
         self.assertIsNone(diagram.find_parent("details"))
 
+    @requires_generated_data
     def test_census_strip_keeps_household_order_separate_from_a_pedigree(self):
         diagram = self.page("glasgow-951").select_one("#places-account .visual-households")
         self.assertEqual(["House 34", "House 35", "House 36", "House 37"], [label.get_text() for label in diagram.select(".evidence-state")])
@@ -400,6 +412,7 @@ class PersonDossierPresentationTests(unittest.TestCase):
         self.assertIn("not a property map or pedigree", diagram.figcaption.get_text())
         self.assertIsNone(diagram.find_parent("details"))
 
+    @requires_generated_data
     def test_folded_studies_have_visible_material_findings_and_qualifications(self):
         """Important unresolved identities and adverse evidence cannot live only in a notebook."""
         soup = self.page("glasgow-951")
@@ -427,6 +440,7 @@ class PersonDossierPresentationTests(unittest.TestCase):
         self.assertEqual(source_ids, set(guide["visible_coverage"]))
         self.assertTrue(all(soup.select_one('#' + ident + '.account-section') for ids in guide["visible_coverage"].values() for ident in ids))
 
+    @requires_generated_data
     def test_property_shares_compare_equal_units_without_counting_children(self):
         diagram = self.page("glasgow-951").select_one(".visual-shares")
         self.assertEqual([18, 18], [len(strip.select('.share-unit')) for strip in diagram.select('.share-strip')])
@@ -434,6 +448,7 @@ class PersonDossierPresentationTests(unittest.TestCase):
         self.assertEqual(["3 of 18 equal parts", "4 of 18 equal parts"], [strip["aria-label"] for strip in diagram.select('.share-strip')])
         self.assertIn("no complete child count follows", self.page("glasgow-951").select_one('#connections-account').get_text())
 
+    @requires_generated_data
     def test_relationship_qualifiers_and_links_are_preserved(self):
         soup = self.page("glasgow-951")
         family = soup.select_one("#family")
@@ -452,6 +467,7 @@ class PersonDossierPresentationTests(unittest.TestCase):
         for link in soup.select("a[href]"):
             self.assertNotIn("/people/people/", link["href"])
 
+    @requires_generated_data
     def test_sources_backlink_and_archive_boundary(self):
         soup = self.page("glasgow-951")
         from tools.repair_person_hierarchy import _record_rows
@@ -471,6 +487,7 @@ class PersonDossierPresentationTests(unittest.TestCase):
         self.assertNotIn("<ref", visible_text)
         self.assertIn("[[", archive_text)
 
+    @requires_generated_data
     def test_record_level_explanations_and_thomas_bridge_are_specific(self):
         soup = self.page("glasgow-951")
         identity = soup.select_one("#question-identity")
@@ -485,6 +502,7 @@ class PersonDossierPresentationTests(unittest.TestCase):
         self.assertIn("Daniel Neely Glasgow and Mary Jane Boyd marriage", titles)
         self.assertIn("does not state how Alexander is related", thomas.get_text())
 
+    @requires_generated_data
     def test_dates_relationships_and_actions_use_shared_maintained_model(self):
         target = self.page("glasgow-951")
         child = self.page("glasgow-3167")
@@ -501,6 +519,7 @@ class PersonDossierPresentationTests(unittest.TestCase):
                 self.assertFalse(action.get("href", "").endswith(".json"))
                 self.assertNotIn("network.json", action.get("href", ""))
 
+    @requires_generated_data
     def test_resolved_research_is_not_rendered_as_missing(self):
         for slug in ("glasgow-951", "glasgow-3167", "glasgow-987", "glasgow-1367"):
             text = self.page(slug).select_one("#overview").get_text(" ", strip=True)
@@ -510,6 +529,7 @@ class PersonDossierPresentationTests(unittest.TestCase):
             self.assertNotIn("assessment status", text.casefold())
             self.assertNotIn("not yet mapped", text.casefold())
 
+    @requires_generated_data
     def test_reciprocal_roles_dates_and_current_corrections(self):
         target = self.page("glasgow-951")
         child = self.page("glasgow-3167")
@@ -525,6 +545,7 @@ class PersonDossierPresentationTests(unittest.TestCase):
         years = [next(iter(re.findall(r"\b(\d{4})\b", row.select_one("td").get_text(" ", strip=True))), "9999") for row in children]
         self.assertEqual(sorted(years), years)
 
+    @requires_generated_data
     def test_linked_current_accounts_and_source_backlinks(self):
         pages = {slug: self.page(slug) for slug in ("glasgow-3167", "glasgow-987", "glasgow-1367", "glasgow-3939", "mccaughan-222")}
         self.assertIn("1871 Lisnagaver bride", pages["glasgow-3167"].select_one("#overview").get_text())
@@ -540,6 +561,7 @@ class PersonDossierPresentationTests(unittest.TestCase):
                 if target and target != "#":
                     self.assertIn(target, anchors, (soup.select_one("h1").get_text(strip=True), target))
 
+    @requires_generated_data
     def test_source_specific_semantics_are_not_generic_fillers(self):
         soup = self.page("glasgow-951")
         identity = soup.select_one("#question-identity")
@@ -553,6 +575,7 @@ class PersonDossierPresentationTests(unittest.TestCase):
         self.assertIn("Daniel Neely Glasgow and Mary Jane Boyd marriage", titles)
         self.assertTrue(soup.select_one("#source-will-daniel-1871 a[href^='#record-will-daniel-1871']"))
 
+    @requires_generated_data
     def test_source_urls_and_wikitree_export_are_preserved(self):
         soup = self.page("glasgow-951")
         self.assertTrue(soup.select_one("#source-baptism-james-1837"))
@@ -576,6 +599,7 @@ class PersonDossierPresentationTests(unittest.TestCase):
         self.assertIn("p29041.htm#i290407", str(archive))
         self.assertIn("Baptisms_1834.html", str(archive))
 
+    @requires_generated_data
     def test_sparse_and_linked_pages_use_the_same_safe_shell(self):
         for slug in ("glasgow-973", "glasgow-3940"):
             soup = self.page(slug)
@@ -596,6 +620,7 @@ class PersonDossierPresentationTests(unittest.TestCase):
             for section in soup.select(".dossier-section"):
                 self.assertTrue(section.get_text(" ", strip=True))
 
+    @requires_generated_data
     def test_samuel_original_records_preserve_unexplained_surname_conflict(self):
         soup = self.page("glasgow-3167")
         archive = soup.select_one("#archive-tools")
@@ -616,6 +641,7 @@ class PersonDossierPresentationTests(unittest.TestCase):
         presentation = (ROOT / "research/Glasgow-3167/presentation.json").read_text(encoding="utf-8")
         self.assertIn("birth-samuel-1908", presentation)
 
+    @requires_generated_data
     def test_jane_elder_birth_resolves_identity_and_census_age_conflict(self):
         soup = self.page("glasgow-3167")
         current = soup.get_text(" ", strip=True)
@@ -626,6 +652,7 @@ class PersonDossierPresentationTests(unittest.TestCase):
         self.assertIn("1911 age is too low", current)
         self.assertTrue(soup.select_one("#source-birth-jane-elder-1878"))
 
+    @requires_generated_data
     def test_claim_level_correction_does_not_mark_archive_sections_superseded(self):
         for slug, correction_id in (("glasgow-951", "correction-acreage-subdivision"), ("glasgow-1367", "correction-acreage-near-match")):
             soup = self.page(slug)
@@ -637,6 +664,7 @@ class PersonDossierPresentationTests(unittest.TestCase):
             self.assertNotIn("superseded", correction.find_parent("details").select_one("summary").get_text().casefold())
         self.assertNotIn("64-to-63-acre comparison", self.page("glasgow-951").select_one("#evidence").get_text())
 
+    @requires_generated_data
     def test_reviewed_relationships_are_reciprocal_and_record_backed(self):
         thomas = self.page("glasgow-987")
         daniel = thomas.select_one("#family a[href='/people/glasgow-3896.html']").find_parent("tr")
@@ -656,6 +684,7 @@ class PersonDossierPresentationTests(unittest.TestCase):
         reverse = self.page("glasgow-3896").select_one("#family a[href='/people/glasgow-987.html']").find_parent("tr")
         self.assertIn("Documented sibling", reverse.get_text())
 
+    @requires_generated_data
     def test_shared_canonical_records_populate_sparse_source_registers(self):
         mccaughan = self.page("mccaughan-222")
         james = self.page("glasgow-3939")
@@ -667,6 +696,7 @@ class PersonDossierPresentationTests(unittest.TestCase):
             for link in soup.select(".source-links a[href^='#']"):
                 self.assertIsNotNone(soup.select_one(link["href"]))
 
+    @requires_generated_data
     def test_existing_letter_generates_remaining_examination_task(self):
         soup = self.page("glasgow-951")
         research = soup.select_one("#research").get_text(" ", strip=True)
@@ -681,6 +711,7 @@ class PersonDossierPresentationTests(unittest.TestCase):
         self.assertNotRegex(research, r"\b(?:obtain|acquire)\b.{0,120}\b(?:letter|20 March 1847)\b")
         self.assertNotIn("Obtain and read the original 20 March 1847", research)
 
+    @requires_generated_data
     def test_identity_limitations_do_not_require_modern_profile_ids(self):
         for slug in ("glasgow-3939", "mccaughan-222"):
             soup = self.page(slug)
@@ -689,6 +720,7 @@ class PersonDossierPresentationTests(unittest.TestCase):
             self.assertNotIn("WikiTree profile", limitations)
         self.assertNotIn("One-Tree export profile fields", self.page("glasgow-3939").get_text())
 
+    @requires_generated_data
     def test_person_specific_record_roles_and_no_duplicate_occurrence(self):
         alexander = self.page("glasgow-951")
         mary = self.page("mccaughan-222")
@@ -703,6 +735,7 @@ class PersonDossierPresentationTests(unittest.TestCase):
         self.assertIn("Record of the presumed spouse's death", collateral.get_text())
         self.assertNotIn("Subject", collateral.get_text())
 
+    @requires_generated_data
     def test_ranges_sort_by_normalised_start_year(self):
         soup = self.page("glasgow-951")
         records = soup.select_one("#timeline")
@@ -710,6 +743,7 @@ class PersonDossierPresentationTests(unittest.TestCase):
         self.assertLess(titles.index("Griffith's Valuation: Alexander at Lisnagaver"), titles.index("Lisnagaver household 35 census return"))
         self.assertLess(titles.index("Lisnagaver household 35 census return"), titles.index("PRONI valuation revision books, Lisnagaver lot 25"))
 
+    @requires_generated_data
     def test_robert_scope_remains_explicitly_unresolved(self):
         soup = self.page("glasgow-1367")
         text = soup.select_one("#overview").get_text(" ", strip=True)

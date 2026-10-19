@@ -4,10 +4,11 @@ import json
 from pathlib import Path
 import tempfile
 import unittest
+from unittest.mock import patch
 
 from tools import repair_public_dna
 from tools.site_sources.ydna_story import build as ydna_build
-from tools.public_ydna_research import STUDY, approved_inputs, study_is_approved
+from tools.public_ydna_research import PRIVATE, STUDY, LINES, approved_inputs, study_is_approved
 from tools.public_privacy import PublicPrivacy, tester_identifier_pattern
 from tools.repair_public_mirrors import repair as repair_mirrors
 
@@ -47,7 +48,19 @@ def renderer(relative: str) -> str:
     return script
 
 
+requires_approved_study = unittest.skipUnless(
+    all((PRIVATE / relative).is_file() for relative in (STUDY, LINES)),
+    "requires local approved private Y-DNA inputs",
+)
+requires_approved_atlas = unittest.skipUnless(
+    (repair_public_dna.ROOT / "data/private/publication-source-archives/original-upload.html").is_file()
+    and (repair_public_dna.ROOT / "data/private/approved-restoration-sources/assets/research/atlas-model.json").is_file(),
+    "requires local approved restoration source archives",
+)
+
+
 class PublicDnaRepairTests(unittest.TestCase):
+    @requires_approved_atlas
     def test_public_atlas_preserves_approved_tester_models_and_controls(self) -> None:
         web = repair_public_dna.WEB
         from tools.approved_restorations import audit, entries, source
@@ -61,6 +74,7 @@ class PublicDnaRepairTests(unittest.TestCase):
         self.assertIn('id="repair-tester-panel"', (web / "onetree/index.html").read_text())
         self.assertIn('dnaMarkers:()=>[...DNA.values()]', (web / "assets/research/atlas.js").read_text())
 
+    @requires_approved_atlas
     def test_restoration_approval_rejects_changed_or_unscoped_payloads(self):
         from tools.approved_restorations import approved_document, entries, source
         path = 'assets/research/atlas-model.json'
@@ -82,7 +96,8 @@ class PublicDnaRepairTests(unittest.TestCase):
         self.assertEqual(['REFERENCE-KIT'], rendered['kits'])
         self.assertNotIn('Private name', json.dumps(rendered))
 
-    def test_safe_renderer_excludes_tester_fields(self) -> None:
+    @patch("tools.public_ydna_research.approved_inputs", return_value=None)
+    def test_safe_renderer_excludes_tester_fields(self, _approved_inputs) -> None:
         page = ydna_build.render(study(), canonical="https://example.test/ydna/")
         for identifier in ("KIT-REFERENCE", "KIT-A", "KIT-B", "research-data"):
             self.assertNotIn(identifier, page)
@@ -90,6 +105,7 @@ class PublicDnaRepairTests(unittest.TestCase):
         self.assertIn('href="/people/Glasgow-951/"', page)
         self.assertIn("R-FT20271", page)
 
+    @requires_approved_study
     def test_curated_approval_does_not_authorize_new_tester_records(self) -> None:
         inputs = approved_inputs()
         self.assertIsNotNone(inputs)
@@ -101,6 +117,7 @@ class PublicDnaRepairTests(unittest.TestCase):
         self.assertNotIn("research-data", page)
         self.assertNotIn("UNAPPROVED-TESTER", page)
 
+    @requires_approved_study
     def test_privacy_mirror_exception_is_scoped_and_keeps_living_filter(self) -> None:
         data = approved_inputs()[STUDY]
         page = ydna_build.render(data, canonical="https://example.test/ydna/")
@@ -124,7 +141,8 @@ class PublicDnaRepairTests(unittest.TestCase):
             self.assertNotIn(identifier, other.read_text())
             self.assertTrue(policy.contains_private_id(identifier))
 
-    def test_repair_archives_private_sources_then_withholds_public_assets(self) -> None:
+    @patch("tools.public_ydna_research.approved_inputs", return_value=None)
+    def test_repair_archives_private_sources_then_withholds_public_assets(self, _approved_inputs) -> None:
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
             web = root / "www"

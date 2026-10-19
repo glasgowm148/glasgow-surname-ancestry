@@ -3,6 +3,7 @@ from pathlib import Path
 import unittest
 import json
 import tempfile
+from unittest.mock import patch
 
 spec = importlib.util.spec_from_file_location('resolver', Path(__file__).resolve().parents[1] / 'tools/publish_resolved_dossiers.py')
 module = importlib.util.module_from_spec(spec)
@@ -10,6 +11,114 @@ spec.loader.exec_module(module)
 
 
 class ResolvedDossierTests(unittest.TestCase):
+    def test_removed_father_releases_primary_root_without_losing_export_leads(self):
+        from copy import deepcopy
+        root = {'id': 'Root-1', 'catalogued_members': 3}
+        original = [{'id': f'child-{i}', 'father': [{'id': 'Father-1'}],
+                     'mother': [], 'missing_father': False, 'missing_mother': True,
+                     'family_root': deepcopy(root), 'family_roots': [deepcopy(root)]}
+                    for i in range(3)]
+        reviewed = {'child-0': {'relationships': {'parents': []}}}
+        result = module.project_catalogue_parents(deepcopy(original), reviewed)
+        self.assertIsNone(result[0]['family_root'])
+        self.assertEqual(result[0]['family_roots'], [{'id': 'Root-1', 'catalogued_members': 0}])
+        self.assertEqual(result[0]['parent_review']['original_fields']['family_roots']['value'], [root])
+        self.assertEqual(result[1]['family_root']['catalogued_members'], 2)
+        self.assertEqual(result[1]['family_roots'][0]['catalogued_members'], 2)
+        self.assertEqual(module.project_catalogue_parents(deepcopy(result), reviewed), result)
+        self.assertEqual(module.project_catalogue_parents(result, {}), original)
+
+    def test_new_source_claim_survives_restoring_an_older_review_import(self):
+        original = {'id': 'Example-1', 'vitals': {'birth': {'date': '1800'}}, 'claims': [], 'evidence': []}
+        review = {'id': 'review', 'subject': 'Example-1', 'status': 'approved',
+                  'vitals': {'birth': {'date': None, 'status': 'unknown'}}}
+        current = module.resolve(original, [review])
+        claim = {'id': 'source-claim', 'type': 'recorded_occurrence', 'status': 'unknown',
+                 'claim': 'A derivative source describes the household; parentage is unknown.',
+                 'evidence_ids': ['source-evidence'], 'provenance': 'profile-provenance'}
+        evidence = {'id': 'source-evidence', 'claim_ids': ['source-claim'], 'source': {'url': 'https://example.org/record'}}
+        current['claims'].append(claim)
+        current['evidence'].append(evidence)
+        resolved = module.resolve(current, [review])
+        self.assertIn(claim, resolved['claims'])
+        self.assertIn(claim, resolved['imported']['sections']['claims'])
+        self.assertEqual([evidence], resolved['evidence'])
+        self.assertEqual(resolved, module.resolve(resolved, [review]))
+        revoked = module.resolve(resolved, [])
+        self.assertIn(claim, revoked['claims'])
+        self.assertEqual([evidence], revoked['evidence'])
+        shared = {'assertion_id': 'family-review', 'people': ['Example-1', 'Example-2'],
+                  'publication_status': 'approved', 'status': 'possible', 'allow_new_relationship': True,
+                  'source_ids': ['family-record'], 'perspectives': {
+                      'Example-1': {'relationship': 'father', 'reason': 'An explicitly possible family.'}}}
+        shared_only = module.resolve(current, [], [shared])
+        self.assertIn(claim, shared_only['claims'])
+        self.assertIn(claim, shared_only['imported']['sections']['claims'])
+        self.assertEqual(shared_only, module.resolve(shared_only, [], [shared]))
+
+    def test_unknown_vital_location_projection_keeps_blank_filters_and_original_source(self):
+        rows = [{'id': 'Example-1', 'birth_location': 'Earlier claim', 'death_location': 'Earlier claim'}]
+        review = {'id': 'review', 'subject': 'Example-1', 'status': 'approved',
+                  'catalogue_projection': {'birth_location': 'Unknown', 'death_location': ' unknown ',
+                                           'birth_location_note': 'No birthplace recorded.'}}
+        module.project_catalogue_vitals(rows, [review])
+        self.assertEqual('', rows[0]['birth_location'])
+        self.assertEqual('', rows[0]['death_location'])
+        self.assertEqual('No birthplace recorded.', rows[0]['birth_location_note'])
+        self.assertEqual('Earlier claim', rows[0]['vital_review']['original_fields']['birth_location']['value'])
+        self.assertEqual('Unknown', review['catalogue_projection']['birth_location'])
+
+    def test_durable_register_replaces_its_rows_and_revokes_without_dropping_other_reviews(self):
+        old = {'id': 'review', 'subject': 'Person-1', 'status': 'approved', 'vitals': {'death': {'date': '1841'}}}
+        other = {'id': 'other', 'subject': 'Person-2', 'status': 'approved'}
+        current = {**old, 'vitals': {'death': {'date': None, 'status': 'unknown'}}}
+        registry = {'schema_version': 1, 'assessments': [old, other]}
+        merged = module.merge_maintained_assessments(registry, [current])
+        self.assertEqual([current, other], merged['assessments'])
+        self.assertEqual(merged, module.merge_maintained_assessments(merged, [current]))
+        self.assertEqual([other], module.merge_maintained_assessments(merged, [])['assessments'])
+        self.assertEqual([old, other], registry['assessments'])
+        with self.assertRaisesRegex(ValueError, 'unique IDs'):
+            module.merge_maintained_assessments(registry, [current, current])
+
+    def test_publish_reads_durable_register_and_revokes_removed_source_row(self):
+        with tempfile.TemporaryDirectory() as temp:
+            project = Path(temp)
+            root = project / 'www'
+            original = {'id': 'Person-1', 'vitals': {'death': {'date': 'before 1841'}}, 'claims': []}
+            review = {'id': 'withdrawal', 'subject': 'Person-1', 'status': 'approved',
+                      'vitals': {'death': {'date': None, 'status': 'unknown'}}}
+            files = {'www/people/person-1.json': original,
+                     'www/data/ancestry-documentary-people.json': {'chronology': []},
+                     'research/vital_assessments.json': {'assessments': [review]},
+                     'research/relationship_assessments.json': [],
+                     'research/canonical_records.json': [],
+                     'research/relationship_probability_estimates.json': {'estimates': []},
+                     'research/ancestry-connections/documentary-people.json': {'chronology': []}}
+            for name, value in files.items():
+                path = project / name
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_text(json.dumps(value))
+            with patch.object(module, 'ROOT', project):
+                module.publish(root)
+                current = json.loads((root / 'people/person-1.json').read_text())
+                self.assertIsNone(current['vitals']['death']['date'])
+                self.assertEqual(original['vitals'], current['imported']['sections']['vitals'])
+                (project / 'research/vital_assessments.json').write_text('{"assessments": []}')
+                module.publish(root)
+            self.assertEqual(original, json.loads((root / 'people/person-1.json').read_text()))
+
+    def test_explicit_withdrawal_projection_updates_catalogue_and_restores_import(self):
+        original = [{'profile_ids': ['Person-1'], 'death': 'before 1841', 'death_year': 1841}]
+        review = {'subject': 'Person-1', 'id': 'withdrawn-boundary', 'status': 'approved',
+                  'catalogue_projection': {'death': 'Death unknown', 'death_year': None}}
+        rows = json.loads(json.dumps(original))
+        module.project_catalogue_vitals(rows, [review])
+        self.assertIsNone(rows[0]['death_year'])
+        self.assertEqual('Death unknown', rows[0]['death'])
+        module.project_catalogue_vitals(rows, [])
+        self.assertEqual(original, rows)
+
     def test_catalogue_parents_follow_assessments_and_restore_on_withdrawal(self):
         from copy import deepcopy
         original = [{'id': 'child-1', 'father': [], 'missing_father': True,
@@ -61,6 +170,7 @@ class ResolvedDossierTests(unittest.TestCase):
             search=[{'id':'person-1','profile_ids':['Person-1'],'birth':'c. 1610','birth_year':1610,'date_years':[1610]}]
             files={'people/person-1.json':original,'assets/research/assessments.json':{'assessments':[]},
                    'data/catalogue-search-index.json':search,
+                   'data/people.json':{'people':search},
                    'data/ancestry-documentary-people.json':{'chronology':[dict(id='Person-1',publication_status='approved',
                        source_ids=['sasine-1601'],assessment_id='chronology-1',reviewed='2026-10-16',reason='Probable married household in 1601',
                        vitals={'birth':{'date':'before 1601','status':'uncertain'}},
@@ -75,12 +185,16 @@ class ResolvedDossierTests(unittest.TestCase):
             self.assertEqual(registry['assessments'][0]['id'],'chronology-1')
             projected=json.loads((root/'data/catalogue-search-index.json').read_text())[0]
             self.assertIsNone(projected['birth_year']);self.assertEqual(projected['date_years'],[1601])
+            bulk=json.loads((root/'data/people.json').read_text())['people'][0]
+            for field in ('birth', 'birth_year', 'date_years', 'vital_review'):
+                self.assertEqual(bulk[field], projected[field])
             frozen=(root/'people/person-1.json').read_bytes();module.publish(root)
             self.assertEqual((root/'people/person-1.json').read_bytes(),frozen)
             (root/'data/ancestry-documentary-people.json').write_text('{"chronology":[]}')
             module.publish(root)
             self.assertEqual(json.loads((root/'people/person-1.json').read_text()),original)
             self.assertEqual(json.loads((root/'data/catalogue-search-index.json').read_text()),search)
+            self.assertEqual(json.loads((root/'data/people.json').read_text())['people'],search)
 
     def test_corrected_sibling_role_retires_parent_row_and_preserves_history(self):
         original = {'id': 'Person-1', 'relationships': {

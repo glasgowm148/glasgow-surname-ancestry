@@ -1,5 +1,6 @@
 """Reader presentation keeps historical qualifications and complete evidence."""
 import copy
+from tests._generated_data import requires_generated_data
 import json
 from pathlib import Path
 import unittest
@@ -12,6 +13,7 @@ from tools import repair_research_questions as questions
 
 
 class ReaderAuditRepairsTests(unittest.TestCase):
+    @requires_generated_data
     def test_reviewed_index_is_visible_without_upgrading_tree_relationships(self):
         page = BeautifulSoup(people.render_person_dossier('Glasgow-3080'), 'html.parser')
         overview = page.select_one('#overview').get_text(' ', strip=True)
@@ -24,6 +26,7 @@ class ReaderAuditRepairsTests(unittest.TestCase):
         self.assertIn('Unassessed father link', page.get_text())
         self.assertIn('Supplied OPR births and baptisms: row 16', page.select_one('#archive-tools').get_text())
 
+    @requires_generated_data
     def test_finding_and_candidate_assessments_are_distinct_and_grades_unchanged(self):
         item = next(row for row in findings.load_findings() if row['status'] == 'confirmed'
                     and any('identity qualified' in person.get('role', '') for person in row['people']))

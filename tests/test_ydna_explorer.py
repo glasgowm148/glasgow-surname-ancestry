@@ -4,10 +4,11 @@ from __future__ import annotations
 from pathlib import Path
 import json
 import unittest
+from unittest.mock import patch
 
 from bs4 import BeautifulSoup
 from tools import repair_public_dna
-from tools.public_ydna_research import approved_document, approved_inputs, STUDY
+from tools.public_ydna_research import approved_document, approved_inputs, PRIVATE, STUDY, LINES
 from tools.site_sources.ydna_story import build as ydna_build
 
 
@@ -34,7 +35,14 @@ def private_fixture() -> dict[str, object]:
     }
 
 
+requires_approved_study = unittest.skipUnless(
+    all((PRIVATE / relative).is_file() for relative in (STUDY, LINES)),
+    "requires local approved private Y-DNA inputs",
+)
+
+
 class YdnaExplorerTests(unittest.TestCase):
+    @requires_approved_study
     def test_public_summary_keeps_historical_links_and_uncertainty(self) -> None:
         page = PUBLIC.read_text(encoding="utf-8")
         # The original curated explorer now has exact publication approval.
@@ -64,6 +72,7 @@ class YdnaExplorerTests(unittest.TestCase):
         ):
             self.assertIn(wording, summary)
 
+    @requires_approved_study
     def test_public_routes_do_not_embed_or_offer_tester_level_assets(self) -> None:
         for path in (PUBLIC, LEGACY_STORY):
             page = path.read_text(encoding="utf-8")
@@ -77,7 +86,8 @@ class YdnaExplorerTests(unittest.TestCase):
                 self.assertTrue(approved_document(relative, path.read_text(encoding="utf-8")), relative)
         self.assertEqual([], repair_public_dna.audit(ROOT / "www", repair_public_dna.PRIVATE_ROOT))
 
-    def test_renderer_discards_private_fixture_fields(self) -> None:
+    @patch("tools.public_ydna_research.approved_inputs", return_value=None)
+    def test_renderer_discards_private_fixture_fields(self, _approved_inputs) -> None:
         page = ydna_build.render(private_fixture(), canonical="https://example.test/ydna/")
         for private_value in ("private-reference", "private-test-a", "private-test-b", '"pairs"', '"kits"'):
             self.assertNotIn(private_value, page)

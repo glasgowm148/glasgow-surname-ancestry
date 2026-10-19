@@ -3,6 +3,8 @@ import json
 from pathlib import Path
 import unittest
 
+from tests._generated_data import requires_generated_data
+
 from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -16,6 +18,7 @@ def module():
 
 
 class BranchesDirectoryTests(unittest.TestCase):
+    @requires_generated_data
     def test_generated_directory_contract(self):
         directory = json.loads((ROOT / 'www/assets/research/branches-directory.json').read_text())
         groups = directory['groups']
@@ -28,6 +31,7 @@ class BranchesDirectoryTests(unittest.TestCase):
         self.assertTrue(all((group['lat'] is None and group['lon'] is None) == (group['precision'] == 'none') for group in groups))
         self.assertEqual(6, len(directory['regions']))
 
+    @requires_generated_data
     def test_static_page_has_unique_study_cards_and_map_assets(self):
         soup = BeautifulSoup((ROOT / 'www/branches/index.html').read_text(), 'html.parser')
         cards = soup.select('.bd-card[data-group-id]')
@@ -36,6 +40,7 @@ class BranchesDirectoryTests(unittest.TestCase):
         self.assertIsNotNone(soup.select_one('link[href^="/assets/research/branches-directory.css?v="]'))
         self.assertIsNotNone(soup.select_one('script[src^="/assets/research/branches-directory.js?v="]'))
 
+    @requires_generated_data
     def test_priority_map_territories_link_to_existing_studies(self):
         soup = BeautifulSoup((ROOT / 'www/branches/index.html').read_text(), 'html.parser')
         shapes = soup.select('#study-map a.bd-territory[data-territory]')

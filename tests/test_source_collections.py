@@ -1,5 +1,7 @@
 """Check source migration, reference parity and approved excerpt boundaries."""
+from functools import cached_property
 import hashlib
+from tests._generated_data import requires_generated_data
 import json
 from pathlib import Path
 import struct
@@ -23,12 +25,19 @@ def test_png(width=549, height=83):
 
 
 class SourceCollectionsTests(unittest.TestCase):
-    @classmethod
-    def setUpClass(cls):
-        cls.rows = json.loads((WEB/'assets/sources/collection-index.json').read_text())
-        cls.pages = json.loads((WEB/'assets/sources/collection-pages.json').read_text())
-        cls.newspapers = json.loads((WEB/'data/glasgow-newspaper-review.json').read_text())
+    @cached_property
+    def rows(self):
+        return json.loads((WEB/'assets/sources/collection-index.json').read_text())
 
+    @cached_property
+    def pages(self):
+        return json.loads((WEB/'assets/sources/collection-pages.json').read_text())
+
+    @cached_property
+    def newspapers(self):
+        return json.loads((WEB/'data/glasgow-newspaper-review.json').read_text())
+
+    @requires_generated_data
     def test_every_public_reference_has_a_type_and_preserved_reader(self):
         original = json.loads((WEB/'assets/v3/source-index.json').read_text())
         self.assertEqual({r['id'] for r in original}, {r['id'] for r in self.rows})
@@ -38,6 +47,7 @@ class SourceCollectionsTests(unittest.TestCase):
             self.assertTrue((WEB/'sources'/row['id']/'index.html').exists(), row['id'])
         self.assertEqual(len(self.rows), self.pages['reference_items'])
 
+    @requires_generated_data
     def test_every_generated_collection_is_real_and_browsable_without_javascript(self):
         for route in self.pages['pages']:
             path = WEB/route.lstrip('/')/'index.html'
@@ -49,6 +59,7 @@ class SourceCollectionsTests(unittest.TestCase):
                 self.assertIn('Complete collection index', page)
                 self.assertIn('Year unresolved', page)
 
+    @requires_generated_data
     def test_1851_irish_census_keeps_coverage_and_actual_evidence_together(self):
         page = (WEB/'sources/census/ireland/1851/index.html').read_text()
         for term in ('1851 Irish Census', 'one Belfast ward', 'Fermanagh', 'heads-of-household index', '1922', 'deaths since 1841', 'National Archives', 'Original / provider link'):
@@ -57,6 +68,7 @@ class SourceCollectionsTests(unittest.TestCase):
         self.assertTrue(expected)
         for ident in expected: self.assertIn('/sources/'+ident+'/', page)
 
+    @requires_generated_data
     def test_census_year_pages_include_shared_references_and_linked_people(self):
         census = [r for r in self.rows if 'census' in r['categories']]
         for row in census:
@@ -73,6 +85,7 @@ class SourceCollectionsTests(unittest.TestCase):
         self.assertIn('Alexander Glasgow', page)
         self.assertIn('not a complete surname search', page)
 
+    @requires_generated_data
     def test_census_access_dates_and_emigrant_birthplaces_do_not_create_year_pages(self):
         census = [r for r in self.rows if 'census' in r['categories']]
         overseas = next(r for r in census if r['id']=='s-4b3536e47ecee8f9')
@@ -83,6 +96,7 @@ class SourceCollectionsTests(unittest.TestCase):
         self.assertIn(scottish['id'], (WEB/'sources/census/scotland/1841/index.html').read_text())
         self.assertFalse((WEB/'sources/census/ireland/2026/index.html').exists())
 
+    @requires_generated_data
     def test_newspaper_review_preserves_all_rows_and_uncertainty(self):
         page = (WEB/'sources/newspapers/index.html').read_text()
         soup = BeautifulSoup(page, 'html.parser')
@@ -112,6 +126,7 @@ class SourceCollectionsTests(unittest.TestCase):
             self.assertIn('Evidence and identity limits', card.get_text())
             self.assertIsNotNone(card.select_one('.sc-assessment p'))
 
+    @requires_generated_data
     def test_only_hash_approved_bounded_clips_are_public(self):
         manifest = json.loads((ROOT/'research/source-library/newspaper-clippings.json').read_text())
         self.assertIn('explicitly requested', manifest['authorization'])
@@ -132,7 +147,8 @@ class SourceCollectionsTests(unittest.TestCase):
         self.assertIn('exact image ID pending',gallery.get_text())
 
     def test_search_logs_do_not_claim_missing_retained_excerpts(self):
-        row = dict(self.newspapers['rows'][0])
+        row = dict(image_id='fixture', date='1800-01-01', paper='Example paper', page=1,
+                   source_url='https://example.org/notice', reading='An indexed surname passage.')
         for status, message in [
             ('reading pending', 'Unverified search lead'),
             ('place or ship', 'other-surname OCR match; excluded from surname evidence'),
@@ -244,6 +260,7 @@ class SourceCollectionsTests(unittest.TestCase):
         self.assertIn('https://b', html)
         self.assertIn('Repeated notice — 2 original issues', html)
 
+    @requires_generated_data
     def test_profile_links_use_candidate_label_without_inventing_identity(self):
         row = {'profile_ids': ['Glasgow-2375'], 'assessment': 'Compatible candidate; identity remains unresolved.'}
         html = newspaper_card({**row, 'image_id':'x', 'date':'1800-01-01', 'paper':'Paper', 'page':1,
@@ -278,12 +295,14 @@ class SourceCollectionsTests(unittest.TestCase):
         self.assertIn('record subject', checked)
         self.assertIn('checked chronology', checked)
 
+    @requires_generated_data
     def test_profile_candidates_show_recorded_life_dates(self):
         html = profile_links({'profile_ids': ['Glasgow-951', 'Glasgow-3904']}, WEB)
         self.assertIn('b. c. 1811; d. 1888', html)
         self.assertIn('b. c. 1770; d. ?', html)
         self.assertIn('href="/people/glasgow-951.html"', html)
 
+    @requires_generated_data
     def test_candidate_dates_preserve_dossier_boundaries(self):
         html = profile_links({'profile_ids': ['Glasco-170', 'Glasco-148', 'Glasgow-3944']}, WEB)
         self.assertIn('b. before 1766; d. before 1784', html)
@@ -403,6 +422,7 @@ class SourceCollectionsTests(unittest.TestCase):
         self.assertEqual(len(soup.select('figure')), 3)
         self.assertEqual({img['src'] for img in soup.select('figure img')}, {'/a.png', '/a-more.png', '/b.png'})
 
+    @requires_generated_data
     def test_all_retained_pre1800_pages_have_visible_excerpts(self):
         soup = BeautifulSoup((WEB/'sources/newspapers/index.html').read_text(), 'html.parser')
         early = [r for r in self.newspapers['rows'] if r['status']=='confirmed surname' and r['date'][:4].isdigit() and int(r['date'][:4])<1800]
@@ -424,6 +444,7 @@ class SourceCollectionsTests(unittest.TestCase):
         self.assertEqual(len({img['src'] for img in cargo.select('figure img')}), expected_cargo_excerpts)
         self.assertIn('Separate cargo advertisement', cargo.get_text())
 
+    @requires_generated_data
     def test_parish_and_civil_collections_keep_full_tables(self):
         for kind,n in [('births',127),('marriages',55),('deaths',7)]:
             page = (WEB/f'sources/{kind}/scotland/opr-to-1700/index.html').read_text()
@@ -439,6 +460,7 @@ class SourceCollectionsTests(unittest.TestCase):
         self.assertIn('Paid certificates were not consulted',groni)
         self.assertGreater(len(BeautifulSoup(groni,'html.parser').select('table tbody tr')),150)
 
+    @requires_generated_data
     def test_moved_collections_and_downloads_have_no_dead_local_links(self):
         for route in ['newspapers','births/scotland/opr-to-1700','marriages/scotland/opr-to-1700','deaths/scotland/opr-to-1700','deaths/ireland/civil-1864-1900','deaths/ireland/groni-matches']:
             soup=BeautifulSoup((WEB/'sources'/route/'index.html').read_text(),'html.parser')

@@ -5,6 +5,7 @@ from pathlib import Path
 import tempfile
 import unittest
 from bs4 import BeautifulSoup
+from tests._generated_data import requires_generated_data
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -38,6 +39,7 @@ class SiteExperienceTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             helper.insert_after_page_header('<main></main><header>Outside</header>', section)
 
+    @requires_generated_data
     def test_generated_presentation_contracts(self):
         summary, failures = module('audit_site_experience').audit()
         self.assertGreater(summary['experience_checks'], 25)
@@ -74,6 +76,7 @@ class SiteExperienceTests(unittest.TestCase):
         self.assertFalse(page.links('/hidden')[0].exposed())
         self.assertFalse(page.links('/also-hidden')[0].exposed())
 
+    @requires_generated_data
     def test_locality_groups_use_reviewed_membership(self):
         branches = {row['id']: row for row in json.loads((ROOT / 'www/assets/research/branches.json').read_text())}
         larne = branches['larne-kilwaughter']
@@ -97,6 +100,7 @@ class SiteExperienceTests(unittest.TestCase):
         packed_people = {row[packed['fields'].index('slug')]: dict(zip(packed['fields'], row)) for row in packed['rows']}
         self.assertEqual('Hugh Glasgow', packed_people['glasgow-1503']['name'])
 
+    @requires_generated_data
     def test_locality_pages_show_established_families(self):
         expected = {
             'lisnagaver-rasharkin': ('Alexander Glasgow and Mary McCaughan', 'Thomas and Daniel Glasgow'),
@@ -120,6 +124,7 @@ class SiteExperienceTests(unittest.TestCase):
         self.assertIn('does not place Rasharkin people in this locality group', larne_text)
         self.assertIn('Hugh Glasgow', larne_text)
 
+    @requires_generated_data
     def test_alexander_locality_links_to_branch(self):
         soup = BeautifulSoup((ROOT / 'www/people/glasgow-951.html').read_text(), 'html.parser')
         link = soup.select_one('.dossier-locality a')

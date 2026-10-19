@@ -161,6 +161,17 @@ def _restore_historical_import(dossier):
 
 
 def resolve(dossier, assessments, shared_assessments=()):
+    # A later source refresh can add evidence and its original occurrence claim
+    # after an import snapshot was saved. Retain the pair before either person
+    # or shared assessments restore that snapshot.
+    if dossier.get('imported'):
+        referenced = {cid for item in dossier.get('evidence', []) for cid in item.get('claim_ids', [])}
+        retained = {claim['id'] for claim in dossier['imported']['sections'].get('claims', [])}
+        additions = [deepcopy(claim) for claim in dossier.get('claims', [])
+                     if claim['id'] in referenced and claim['id'] not in retained]
+        if additions:
+            dossier = deepcopy(dossier)
+            dossier['imported']['sections'].setdefault('claims', []).extend(additions)
     dossier = _restore_historical_import(dossier)
     for assessment in shared_assessments:
         if assessment.get('publication_status') == 'approved' and not assessment.get('assertion_id'):
@@ -318,7 +329,6 @@ def project_catalogue_vitals(rows, assessments):
             else: row.pop(key, None)
         ids = {str(i).casefold() for i in row.get('profile_ids', []) or [row.get('id', '')]}
         reviews = [a for a in assessments if a.get('status') == 'approved'
-                   and a.get('derived_from') == 'documentary_chronology'
                    and str(a.get('subject', '')).casefold() in ids and a.get('catalogue_projection')]
         originals = {}
         for review in reviews:
@@ -327,6 +337,8 @@ def project_catalogue_vitals(rows, assessments):
                 raise ValueError('Catalogue vital projection contains non-vital fields')
             for key, value in projection.items():
                 originals.setdefault(key, {'present': key in row, 'value': deepcopy(row.get(key))})
+                if key in {'birth_location', 'death_location'} and isinstance(value, str) and value.strip().casefold() == 'unknown':
+                    value = ''
                 row[key] = deepcopy(value)
         if reviews:
             row['vital_review'] = {'assessment_ids': [a['id'] for a in reviews], 'original_fields': originals}
@@ -335,7 +347,7 @@ def project_catalogue_vitals(rows, assessments):
 
 def project_catalogue_parents(rows, reviewed):
     """Use the current assessed parents in search, retaining reversible imports."""
-    fields = ('father', 'mother', 'missing_father', 'missing_mother')
+    fields = ('father', 'mother', 'missing_father', 'missing_mother', 'family_root', 'family_roots')
     for row in rows:
         prior = row.pop('parent_review', {})
         for key, original in prior.get('original_fields', {}).items():
@@ -370,6 +382,22 @@ def project_catalogue_parents(rows, reviewed):
             row[role] = parents
             row['missing_' + role] = not parents
         row['parent_review'] = {'original_fields': originals}
+        # The exported roots remain historical leads, but a removed father
+        # cannot continue assigning the subject to a current paternal branch.
+        if ('family_root' in row and not any(
+                parent.get('id') and not parent.get('outside_export')
+                for parent in row.get('father', []))):
+            row['family_root'] = None
+    counts = {}
+    for row in rows:
+        if root := row.get('family_root'):
+            counts[root['id']] = counts.get(root['id'], 0) + 1
+    for row in rows:
+        primary = row.get('family_root')
+        for root in row.get('family_roots', []):
+            root['catalogued_members'] = counts.get(root['id'], 0) if primary and primary['id'] == root['id'] else 0
+        if primary and 'catalogued_members' in primary:
+            primary['catalogued_members'] = counts[primary['id']]
     return rows
 
 
@@ -405,9 +433,37 @@ def project_catalogue_spouses(rows, reviewed):
     return rows
 
 
+def merge_maintained_assessments(registry, maintained):
+    """Replace the durable register's own rows; retain unrelated publications."""
+    source = {row['id']: deepcopy(row) for row in maintained}
+    if len(source) != len(maintained) or any(not key or not row.get('subject') for key, row in source.items()):
+        raise ValueError('Maintained assessments need unique IDs and subjects')
+    result = deepcopy(registry)
+    previous = set(registry.get('maintained_assessment_ids', []))
+    rows = []
+    for row in registry.get('assessments', []):
+        if row['id'] in source:
+            rows.append(source.pop(row['id']))
+        elif row['id'] not in previous:
+            rows.append(deepcopy(row))
+    rows.extend(source.values())
+    result['assessments'] = rows
+    result['maintained_assessment_ids'] = [row['id'] for row in maintained]
+    return result
+
+
 def publish(root=ROOT / 'www'):
     path = root / 'assets/research/assessments.json'
-    registry = json.loads(path.read_text())
+    maintained_path = ROOT / 'research/vital_assessments.json'
+    has_maintained_source = root.resolve() == (ROOT / 'www').resolve() and maintained_path.exists()
+    registry = (json.loads(path.read_text()) if path.exists() or not has_maintained_source
+                else {'schema_version': 1, 'assessments': []})
+    if has_maintained_source:
+        merged = merge_maintained_assessments(registry, json.loads(maintained_path.read_text())['assessments'])
+        if merged != registry:
+            registry = merged
+            path.parent.mkdir(parents=True, exist_ok=True)
+            path.write_text(json.dumps(registry, ensure_ascii=False, indent=2) + '\n')
     try:
         from documentary_ancestry import vital_assessments
     except ModuleNotFoundError:
@@ -509,6 +565,7 @@ def publish(root=ROOT / 'www'):
     if people_path.exists():
         people = json.loads(people_path.read_text())
         before = deepcopy(people)
+        project_catalogue_vitals(people['people'], assessments)
         project_catalogue_spouses(people['people'], reviewed)
         if people != before:
             people_path.write_text(json.dumps(people, ensure_ascii=False, separators=(',', ':')) + '\n')

@@ -1,0 +1,649 @@
+{
+  "as_of": "2026-08-30",
+  "family_group": "Recent WikiTree profile additions (August 2026)",
+  "note": "Profiles reported from M Glasgow's recent-edit list and reconciled to their live WikiTree IDs through the public API; Glasgow-3956 was reclassified from the stale Joseph supplement to its current mapped Hugh identity on 30 August 2026.",
+  "already_mapped_profile_ids": [
+    "Glasgow-3549",
+    "Glasgow-1124",
+    "Glasgow-1030",
+    "Glasgow-2847",
+    "Glasgow-1139",
+    "Glasgow-3124",
+    "Glasgow-1543",
+    "Glasgow-1052",
+    "Glasgow-3140",
+    "Glasgow-1367",
+    "Glasgow-1053",
+    "Glasgow-2058",
+    "Glasgow-1735",
+    "Glasgow-951",
+    "Glasgow-3167",
+    "Glasgow-1022",
+    "Glasgow-1368",
+    "Glasgow-2406",
+    "Glasgow-1371",
+    "Glasgow-2908",
+    "Glasgow-867",
+    "Glasgow-1419",
+    "Glasgow-1420",
+    "Glasgow-3896",
+    "Glasgow-1421",
+    "Glasgow-1361",
+    "Glasgow-987",
+    "Glasgow-2413",
+    "Glasgow-1362",
+    "Glasgow-782",
+    "Glasgow-3904",
+    "Glasgow-3449",
+    "Glasgow-3135",
+    "Glasgow-1623",
+    "Glasgow-822",
+    "Glasgow-1156",
+    "Glasgow-1157",
+    "Glasgow-3654",
+    "Glasgow-1790",
+    "Glasgow-1444",
+    "Glasgow-569",
+    "Glasgow-3815",
+    "Glasgow-2290",
+    "Glasgow-2289",
+    "Glasgow-3375",
+    "Glasgow-3956",
+    "Glasgow-3023"
+  ],
+  "profiles": [
+    {
+      "supplement_id": "william-1725-tyrone",
+      "person": "William Glasgow",
+      "profile_id": "Glasgow-3962",
+      "gender": "Male",
+      "birth_date": "1725-00-00",
+      "birth_status": "guess",
+      "death_date": "",
+      "death_status": "",
+      "birth_location": "County Tyrone, Ireland",
+      "death_location": "",
+      "filter_year": 1725,
+      "year": "c. 1725",
+      "events": [
+        {
+          "region": "Ireland",
+          "location_id": "county_tyrone_reference",
+          "record_location": "County Tyrone — exact locality unproved",
+          "record_precision": "County-level representative point",
+          "location_basis": "The profile supplies County Tyrone but no parish or townland.",
+          "latitude": 54.6,
+          "longitude": -7.3
+        }
+      ]
+    },
+    {
+      "supplement_id": "william-1704-ayrshire",
+      "person": "William Glasgow",
+      "profile_id": "Glasgow-3549",
+      "gender": "Male",
+      "birth_date": "1704-08-20",
+      "birth_status": "",
+      "death_date": "",
+      "death_status": "",
+      "birth_location": "Ayrshire, Scotland",
+      "death_location": "",
+      "filter_year": 1704,
+      "year": "20 Aug 1704",
+      "events": [
+        {
+          "region": "Scotland",
+          "location_id": "ayrshire_reference",
+          "record_location": "Ayrshire — exact locality unproved",
+          "record_precision": "County-level representative point",
+          "location_basis": "The profile supplies Ayrshire but no parish or property.",
+          "latitude": 55.4,
+          "longitude": -4.5
+        }
+      ]
+    },
+    {
+      "supplement_id": "elizabeth-1651-antrim",
+      "person": "Elizabeth Glasgow",
+      "profile_id": "Glasgow-3961",
+      "gender": "Female",
+      "birth_date": "1651-00-00",
+      "birth_status": "before",
+      "death_date": "",
+      "death_status": "",
+      "birth_location": "County Antrim, Ireland",
+      "death_location": "",
+      "filter_year": 1650,
+      "year": "before 1651",
+      "events": [
+        {
+          "region": "Ireland",
+          "location_id": "county_antrim_reference",
+          "record_location": "County Antrim — exact locality unproved",
+          "record_precision": "County-level representative point",
+          "location_basis": "The profile supplies County Antrim but no parish or townland.",
+          "latitude": 54.85,
+          "longitude": -6.15
+        }
+      ]
+    },
+    {
+      "supplement_id": "john-1705-antrim",
+      "person": "John Glasgow",
+      "profile_id": "Glasgow-3959",
+      "gender": "Male",
+      "birth_date": "1705-00-00",
+      "birth_status": "guess",
+      "death_date": "",
+      "death_status": "",
+      "birth_location": "County Antrim, Ireland",
+      "death_location": "",
+      "filter_year": 1705,
+      "year": "c. 1705",
+      "events": [
+        {
+          "region": "Ireland",
+          "location_id": "county_antrim_reference",
+          "record_location": "County Antrim — exact locality unproved",
+          "record_precision": "County-level representative point",
+          "location_basis": "The profile supplies County Antrim but no parish or townland.",
+          "latitude": 54.85,
+          "longitude": -6.15
+        }
+      ]
+    },
+    {
+      "supplement_id": "john-1707-leitrim",
+      "person": "John Glasgow",
+      "profile_id": "Glasgow-3960",
+      "gender": "Male",
+      "birth_date": "1707-00-00",
+      "birth_status": "before",
+      "death_date": "",
+      "death_status": "",
+      "birth_location": "County Leitrim, Ireland",
+      "death_location": "",
+      "filter_year": 1706,
+      "year": "before 1707",
+      "events": [
+        {
+          "region": "Ireland",
+          "location_id": "county_leitrim_reference",
+          "record_location": "County Leitrim — exact locality unproved",
+          "record_precision": "County-level representative point",
+          "location_basis": "The profile supplies County Leitrim but no parish or townland.",
+          "latitude": 54.008333,
+          "longitude": -8.045833
+        }
+      ]
+    },
+    {
+      "supplement_id": "jemima-montgomery-1790",
+      "person": "Jemima (Glasgow) Montgomery",
+      "profile_id": "Glasgow-3958",
+      "gender": "Female",
+      "birth_date": "1790-00-00",
+      "birth_status": "before",
+      "death_date": "",
+      "death_status": "",
+      "birth_location": "County Leitrim, Ireland",
+      "death_location": "",
+      "filter_year": 1789,
+      "year": "before 1790",
+      "events": [
+        {
+          "region": "Ireland",
+          "location_id": "county_leitrim_reference",
+          "record_location": "County Leitrim — exact locality unproved",
+          "record_precision": "County-level representative point",
+          "location_basis": "The profile supplies County Leitrim but no parish or townland.",
+          "latitude": 54.008333,
+          "longitude": -8.045833
+        }
+      ]
+    },
+    {
+      "supplement_id": "mary-montgomery-1817",
+      "person": "Mary (Glasgow) Montgomery",
+      "profile_id": "Glasgow-3957",
+      "gender": "Female",
+      "birth_date": "1817-00-00",
+      "birth_status": "",
+      "death_date": "1898-00-00",
+      "death_status": "",
+      "birth_location": "Ireland",
+      "death_location": "Crankill, Craigs, County Antrim, Ireland",
+      "filter_year": 1817,
+      "year": "1817–1898",
+      "events": [
+        {
+          "region": "Ireland",
+          "location_id": "ireland_unspecified",
+          "record_location": "Ireland — exact locality unproved",
+          "record_precision": "Country-level representative point",
+          "location_basis": "The profile supplies Ireland but no birth county, parish or townland.",
+          "latitude": 53.42,
+          "longitude": -7.94
+        },
+        {
+          "region": "Ireland",
+          "location_id": "county_antrim_reference",
+          "record_location": "Crankill, Craigs, County Antrim — locality not yet geocoded",
+          "record_precision": "County-level representative point",
+          "location_basis": "The profile supplies Crankill/Craigs; the point remains at county level pending a securely matched locality.",
+          "latitude": 54.85,
+          "longitude": -6.15
+        }
+      ]
+    },
+    {
+      "supplement_id": "samuel-1822-unlocated",
+      "person": "Samuel Glasgow",
+      "profile_id": "Glasgow-1052",
+      "gender": "Male",
+      "birth_date": "1822-00-00",
+      "birth_status": "guess",
+      "death_date": "",
+      "death_status": "",
+      "birth_location": "",
+      "death_location": "",
+      "filter_year": 1822,
+      "year": "c. 1822",
+      "events": [
+        {
+          "region": "Unspecified",
+          "location_id": "unlocated_recent_profiles",
+          "record_location": "Location not supplied — profile holding point",
+          "record_precision": "Non-geographic holding point",
+          "location_basis": "Not evidence of residence; shown offshore only so this unlocated profile remains selectable in the map and table.",
+          "latitude": 54.0,
+          "longitude": -12.0
+        }
+      ]
+    },
+    {
+      "supplement_id": "unknown-young-1818",
+      "person": "Unknown (Glasgow) Young",
+      "profile_id": "Glasgow-3955",
+      "gender": "Female",
+      "birth_date": "1818-00-00",
+      "birth_status": "before",
+      "death_date": "",
+      "death_status": "",
+      "birth_location": "",
+      "death_location": "",
+      "filter_year": 1817,
+      "year": "before 1818",
+      "events": [
+        {
+          "region": "Unspecified",
+          "location_id": "unlocated_recent_profiles",
+          "record_location": "Location not supplied — profile holding point",
+          "record_precision": "Non-geographic holding point",
+          "location_basis": "Not evidence of residence; shown offshore only so this unlocated profile remains selectable in the map and table.",
+          "latitude": 54.0,
+          "longitude": -12.0
+        }
+      ]
+    },
+    {
+      "supplement_id": "mary-ann-mccleery-1851",
+      "person": "Mary Ann (Glasgow) McCleery",
+      "profile_id": "Glasgow-3954",
+      "gender": "Female",
+      "birth_date": "1851-00-00",
+      "birth_status": "before",
+      "death_date": "",
+      "death_status": "",
+      "birth_location": "",
+      "death_location": "",
+      "filter_year": 1850,
+      "year": "before 1851",
+      "events": [
+        {
+          "region": "Unspecified",
+          "location_id": "unlocated_recent_profiles",
+          "record_location": "Location not supplied — profile holding point",
+          "record_precision": "Non-geographic holding point",
+          "location_basis": "Not evidence of residence; shown offshore only so this unlocated profile remains selectable in the map and table.",
+          "latitude": 54.0,
+          "longitude": -12.0
+        }
+      ]
+    },
+    {
+      "supplement_id": "ann-mccleery-1838",
+      "person": "Ann (Glasgow) McCleery",
+      "profile_id": "Glasgow-3950",
+      "gender": "Female",
+      "birth_date": "1838-00-00",
+      "birth_status": "before",
+      "death_date": "",
+      "death_status": "",
+      "birth_location": "Ireland",
+      "death_location": "",
+      "filter_year": 1837,
+      "year": "before 1838",
+      "events": [
+        {
+          "region": "Ireland",
+          "location_id": "ireland_unspecified",
+          "record_location": "Ireland — exact locality unproved",
+          "record_precision": "Country-level representative point",
+          "location_basis": "The profile supplies Ireland but no county, parish or townland.",
+          "latitude": 53.42,
+          "longitude": -7.94
+        }
+      ]
+    },
+    {
+      "supplement_id": "henry-1820-unlocated",
+      "person": "Henry Glasgow",
+      "profile_id": "Glasgow-3953",
+      "gender": "Male",
+      "birth_date": "1820-00-00",
+      "birth_status": "before",
+      "death_date": "",
+      "death_status": "",
+      "birth_location": "",
+      "death_location": "",
+      "filter_year": 1819,
+      "year": "before 1820",
+      "events": [
+        {
+          "region": "Unspecified",
+          "location_id": "unlocated_recent_profiles",
+          "record_location": "Location not supplied — profile holding point",
+          "record_precision": "Non-geographic holding point",
+          "location_basis": "Not evidence of residence; shown offshore only so this unlocated profile remains selectable in the map and table.",
+          "latitude": 54.0,
+          "longitude": -12.0
+        }
+      ]
+    },
+    {
+      "supplement_id": "annie-mitchell-1838",
+      "person": "Annie (Glasgow) Mitchell",
+      "profile_id": "Glasgow-3951",
+      "gender": "Female",
+      "birth_date": "1838-00-00",
+      "birth_status": "",
+      "death_date": "",
+      "death_status": "",
+      "birth_location": "County Limerick, Ireland",
+      "death_location": "",
+      "filter_year": 1838,
+      "year": "1838",
+      "events": [
+        {
+          "region": "Ireland",
+          "location_id": "county_limerick_reference",
+          "record_location": "County Limerick — exact locality unproved",
+          "record_precision": "County-level representative point",
+          "location_basis": "The profile supplies County Limerick but no parish or townland.",
+          "latitude": 52.66,
+          "longitude": -8.63
+        }
+      ]
+    },
+    {
+      "supplement_id": "william-1820-limerick",
+      "person": "William Glasgow",
+      "profile_id": "Glasgow-3952",
+      "gender": "Male",
+      "birth_date": "1820-00-00",
+      "birth_status": "",
+      "death_date": "",
+      "death_status": "",
+      "birth_location": "Ireland",
+      "death_location": "County Limerick, Ireland",
+      "filter_year": 1820,
+      "year": "1820",
+      "events": [
+        {
+          "region": "Ireland",
+          "location_id": "ireland_unspecified",
+          "record_location": "Ireland — exact locality unproved",
+          "record_precision": "Country-level representative point",
+          "location_basis": "The profile supplies Ireland but no birth county, parish or townland.",
+          "latitude": 53.42,
+          "longitude": -7.94
+        },
+        {
+          "region": "Ireland",
+          "location_id": "county_limerick_reference",
+          "record_location": "County Limerick — exact locality unproved",
+          "record_precision": "County-level representative point",
+          "location_basis": "The profile supplies County Limerick as the death location but no parish or townland.",
+          "latitude": 52.66,
+          "longitude": -8.63
+        }
+      ]
+    },
+    {
+      "supplement_id": "william-james-1870-ballymoney",
+      "person": "William James Glasgow",
+      "profile_id": "Glasgow-1421",
+      "gender": "Male",
+      "birth_date": "1870-05-09",
+      "birth_status": "",
+      "death_date": "",
+      "death_status": "",
+      "birth_location": "Ballymoney, County Antrim, Ireland",
+      "death_location": "",
+      "filter_year": 1870,
+      "year": "9 May 1870",
+      "events": [
+        {
+          "region": "Ireland",
+          "location_id": "ballymoney_town",
+          "record_location": "Ballymoney",
+          "record_precision": "Settlement centrepoint",
+          "location_basis": "The profile identifies Ballymoney but no street or property.",
+          "latitude": 55.066667,
+          "longitude": -6.513889
+        }
+      ]
+    },
+    {
+      "supplement_id": "john-1784-tipperary",
+      "person": "John Glasgow",
+      "profile_id": "Glasgow-3946",
+      "gender": "Male",
+      "birth_date": "1784-00-00",
+      "birth_status": "",
+      "death_date": "1871-00-00",
+      "death_status": "",
+      "birth_location": "",
+      "death_location": "County Tipperary, Ireland",
+      "filter_year": 1784,
+      "year": "1784–1871",
+      "events": [
+        {
+          "region": "Ireland",
+          "location_id": "county_tipperary_reference",
+          "record_location": "County Tipperary — exact locality unproved",
+          "record_precision": "County-level representative point",
+          "location_basis": "The profile supplies County Tipperary but no parish or townland.",
+          "latitude": 52.47,
+          "longitude": -8.16
+        }
+      ]
+    },
+    {
+      "supplement_id": "james-1726-unlocated",
+      "person": "James Glasgow",
+      "profile_id": "Glasgow-3944",
+      "gender": "Male",
+      "birth_date": "1726-00-00",
+      "birth_status": "before",
+      "death_date": "",
+      "death_status": "",
+      "birth_location": "",
+      "death_location": "",
+      "filter_year": 1725,
+      "year": "before 1726",
+      "events": [
+        {
+          "region": "Unspecified",
+          "location_id": "unlocated_recent_profiles",
+          "record_location": "Location not supplied — profile holding point",
+          "record_precision": "Non-geographic holding point",
+          "location_basis": "Not evidence of residence; shown offshore only so this unlocated profile remains selectable in the map and table.",
+          "latitude": 54.0,
+          "longitude": -12.0
+        }
+      ]
+    },
+    {
+      "supplement_id": "elizabeth-1744-dublin",
+      "person": "Elizabeth Glasgow",
+      "profile_id": "Glasgow-3945",
+      "gender": "Female",
+      "birth_date": "1744-02-12",
+      "birth_status": "",
+      "death_date": "",
+      "death_status": "",
+      "birth_location": "County Dublin, Ireland",
+      "death_location": "",
+      "filter_year": 1744,
+      "year": "12 Feb 1744",
+      "events": [
+        {
+          "region": "Ireland",
+          "location_id": "dublin_city",
+          "record_location": "County Dublin — exact locality unproved",
+          "record_precision": "County-level representative point",
+          "location_basis": "The profile supplies County Dublin but no parish or property.",
+          "latitude": 53.3498,
+          "longitude": -6.2603
+        }
+      ]
+    },
+    {
+      "supplement_id": "thomas-d1725-dublin",
+      "person": "Thomas Glasgow",
+      "profile_id": "Glasgow-3943",
+      "gender": "Male",
+      "birth_date": "1707-00-00",
+      "birth_status": "guess",
+      "death_date": "1725-10-06",
+      "death_status": "",
+      "birth_location": "",
+      "death_location": "County Dublin, Ireland",
+      "filter_year": 1707,
+      "year": "d. 6 Oct 1725",
+      "events": [
+        {
+          "region": "Ireland",
+          "location_id": "dublin_city",
+          "record_location": "County Dublin — exact locality unproved",
+          "record_precision": "County-level representative point",
+          "location_basis": "The profile supplies County Dublin but no parish or property. Birth is estimated as age 18 at the dated death entry because no birth date is supplied.",
+          "latitude": 53.3498,
+          "longitude": -6.2603
+        }
+      ]
+    },
+    {
+      "supplement_id": "katherine-d1713-dublin",
+      "person": "Katherine Glasgow",
+      "profile_id": "Glasgow-3942",
+      "gender": "Female",
+      "birth_date": "1695-00-00",
+      "birth_status": "guess",
+      "death_date": "1713-11-03",
+      "death_status": "",
+      "birth_location": "",
+      "death_location": "Dublin, Ireland",
+      "filter_year": 1695,
+      "year": "d. 3 Nov 1713",
+      "events": [
+        {
+          "region": "Ireland",
+          "location_id": "dublin_city",
+          "record_location": "Dublin",
+          "record_precision": "City centrepoint",
+          "location_basis": "The profile supplies Dublin but no parish or property. Birth is estimated as age 18 at the dated death entry because no birth date is supplied.",
+          "latitude": 53.3498,
+          "longitude": -6.2603
+        }
+      ]
+    },
+    {
+      "supplement_id": "daniel-1675-unlocated",
+      "person": "Daniel Glasgow",
+      "profile_id": "Glasgow-3322",
+      "gender": "Male",
+      "birth_date": "1675-00-00",
+      "birth_status": "before",
+      "death_date": "",
+      "death_status": "",
+      "birth_location": "",
+      "death_location": "",
+      "filter_year": 1674,
+      "year": "before 1675",
+      "events": [
+        {
+          "region": "Unspecified",
+          "location_id": "unlocated_recent_profiles",
+          "record_location": "Location not supplied — profile holding point",
+          "record_precision": "Non-geographic holding point",
+          "location_basis": "Not evidence of residence; shown offshore only so this unlocated profile remains selectable in the map and table.",
+          "latitude": 54.0,
+          "longitude": -12.0
+        }
+      ]
+    },
+    {
+      "supplement_id": "robert-1634-unlocated",
+      "person": "Robert Glasgow",
+      "profile_id": "Glasgow-3938",
+      "gender": "Male",
+      "birth_date": "1634-00-00",
+      "birth_status": "before",
+      "death_date": "",
+      "death_status": "",
+      "birth_location": "",
+      "death_location": "",
+      "filter_year": 1633,
+      "year": "before 1634",
+      "events": [
+        {
+          "region": "Unspecified",
+          "location_id": "unlocated_recent_profiles",
+          "record_location": "Location not supplied — profile holding point",
+          "record_precision": "Non-geographic holding point",
+          "location_basis": "Not evidence of residence; shown offshore only so this unlocated profile remains selectable in the map and table.",
+          "latitude": 54.0,
+          "longitude": -12.0
+        }
+      ]
+    },
+    {
+      "supplement_id": "isaac-1860-funchal",
+      "person": "Isaac Glasgow",
+      "profile_id": "Glasgow-569",
+      "gender": "Male",
+      "birth_date": "1860-00-00",
+      "birth_status": "guess",
+      "death_date": "",
+      "death_status": "",
+      "birth_location": "Funchal, Madeira, Portugal",
+      "death_location": "",
+      "filter_year": 1860,
+      "year": "c. 1860",
+      "events": [
+        {
+          "region": "Portugal",
+          "location_id": "funchal_madeira",
+          "record_location": "Funchal, Madeira, Portugal",
+          "record_precision": "Settlement centrepoint",
+          "location_basis": "The profile identifies Funchal but no street or property.",
+          "latitude": 32.6509,
+          "longitude": -16.9087
+        }
+      ]
+    }
+  ]
+}

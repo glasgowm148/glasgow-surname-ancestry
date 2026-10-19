@@ -1,12 +1,12 @@
 # Toolkit separation validation — 19 October 2026
 
-The standalone `genealogy-research-workbench` release is `v0.2.0`, commit `0a0872f5f02d612859c92e67c384b6e9c9bdfd21`. Glasgow consumes that exact commit as a Git submodule, with a compatible Python package requirement of `>=0.2.0,<0.3.0`.
+The published [genealogy-research-workbench v0.2.0 release](https://github.com/glasgowm148/genealogy-research-workbench/releases/tag/v0.2.0) is commit `cc7a3d8c657e5813c26f136005c36179e96ee56e`. Glasgow consumes that exact commit as a Git submodule, with a compatible Python package requirement of `>=0.2.0,<0.3.0`.
 
 ## Standalone toolkit
 
-Local checks used Python 3.14.7 on macOS. CI is configured for Python 3.11–3.14; those remote jobs have not been run as part of this local handoff.
+Local core checks used Python 3.14.7 on macOS; the separate browser run used Python 3.12. Hosted [main CI](https://github.com/glasgowm148/genealogy-research-workbench/actions/runs/39258877834) and [tag CI](https://github.com/glasgowm148/genealogy-research-workbench/actions/runs/39258878404) both passed all five jobs: package/tests on Python 3.11–3.14, plus browser checks.
 
-- `make check`: 90 tests collected, 86 passed and 4 opt-in browser tests skipped; Ruff passed.
+- `make check`: 91 tests collected, 87 passed and 4 opt-in browser tests skipped; Ruff passed.
 - Separate browser suite: all 4 tests passed, covering desktop/mobile routes, no-JavaScript records, people search/pagination, whole-tree/family/branch views, comparisons, connections, timeline/source filters, map controls and real GEDCOM/OneTree uploads.
 - Wheel and source distributions built successfully. Package contents include project templates, website assets, MIT licence and data notices; private workspaces and generated test output are excluded.
 - A fresh Git clone was built into a wheel, installed outside the source checkout, and exercised through `init → import → validate → build`. The GEDCOM demo produced 42 people and 3 reviewed sources; the OneTree demo produced 42 people. The installed package loaded from the fresh virtual environment, not the working source tree.
@@ -14,6 +14,21 @@ Local checks used Python 3.14.7 on macOS. CI is configured for Python 3.11–3.1
 - A synthetic 5,000-person case built a 63 MB site in approximately 54 seconds. The whole tree and catalogue became ready in approximately 3.3 and 2.5 seconds locally, with no browser errors. These are local smoke measurements, not hosting/network performance guarantees.
 
 The final release retains an empty seed case in both project templates, even though generated projects correctly ignore private `cases/` contents. Fresh-clone verification caught and confirmed this packaging detail.
+
+### Real-export checks
+
+Two existing GEDCOM files and two OneTree exports were tested in isolated local directories. The reusable repository, fixtures and release contain none of their data.
+
+| Input | Imported people | Public preview people | Withheld people | Public relationships | Public events |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Legacy GEDCOM | 169 | 136 | 33 | 214 | 319 |
+| Desktop GEDCOM | 2,079 | 1,460 | 619 | 2,260 | 2,983 |
+| Independent OneTree tree | 238 | 139 | 99 | 146 | 278 |
+| Large OneTree tree | 4,394 | 3,133 | 1,261 | 4,042 | 6,266 |
+
+Each passed default-private import, explicit deceased-person review, case validation, relationship endpoint checks, withheld narrative/quotation checks, full site generation and dossier counts. Original input hashes remained unchanged. Missing relatives are omitted with warnings, and locations without coordinates remain unmapped. Neither GEDCOM supplied source records; OneTree biography markup is not normalised into source citations. The fictional installed-wheel GEDCOM separately verified its three sources and citation workflow.
+
+These inputs exposed a false raw-DNA rejection of opaque external record IDs containing `VCF`. The release fixes that exact key-shape collision and retains recursive rejection of genetic fields beneath those IDs. Regression tests cover both behaviours. A fresh clone of the hosted `v0.2.0` tag confirmed the exact commit and both seed cases; a separate installed wheel imported and built both 42-person examples outside the source checkout.
 
 ## Glasgow consumer
 
@@ -24,13 +39,14 @@ Passed:
 - A fresh Glasgow Git clone, with the exact submodule seeded from the independent local repository, installed only `requirements/base.txt` plus constraints in a new virtual environment and passed all 17 integration tests. No development extras or pre-existing environment were required.
 - Ruff and public CSV/JSON data validation.
 - Browser fixture smoke: 9 pages, zero failures.
+- Real-site browser checks: 12 pages across mobile and desktop, zero JavaScript errors; the loaded tree was additionally checked at both widths and screenshots inspected.
 - Research-publication gate: zero new failing items against the existing baseline.
 - Internal-link gate: zero new broken page-target pairs against the existing baseline.
 - Changed documentation references and Git submodule/tag agreement.
 
-### Existing full-suite failures
+### Pre-repair full-suite baseline
 
-`make check` is **not green**: 871 tests ran, with 328 assertion failures, 11 errors and 6 skips. Subtests account for most of these results; they occur in 18 distinct test methods across the following existing modules:
+Before the follow-up repair, `make check` ran 871 tests, with 328 assertion failures, 11 errors and 6 skips. Subtests account for most of these results; they occurred in 18 distinct test methods across the following existing modules:
 
 - `test_resolved_public_model`
 - `test_research_catalog`
@@ -44,10 +60,23 @@ Passed:
 
 The failing methods were checked against unchanged Glasgow revision `e0cf4d2aec` and its original toolkit `0.1.0`, using the same local research/site inputs. They also fail before the dependency upgrade. Three research-catalogue checks are sensitive to symlink resolution; those were additionally checked at their original paths, with unchanged implementation/test files and the original toolkit imported explicitly. This avoids attributing temporary-worktree path errors to the migration. A comparison of all 339 failure/error identities then matched the pre-upgrade outcomes exactly: zero new identities and zero removed identities.
 
-Representative existing issues include disagreement between catalogue snapshot counts, a missing canonical profile destination, historical relationship output inconsistencies and an outdated route expectation. No historical research, generated Glasgow site output or test baseline was rewritten to mask these failures. The focused tests for changed dependency/identity paths pass.
+Representative issues included disagreement between catalogue snapshot counts, relationship output inconsistencies and an outdated route expectation. The initial separation did not rewrite historical research, generated Glasgow output or test baselines to mask them. The owner subsequently authorised repairing the existing failures and publishing both repositories.
+
+### Follow-up repairs
+
+- Reviewed relationships, curated labels and percentages now agree across HTML, dossiers, network exports and embedded archives. Eight original source claims were recovered with exactly the existing builder's IDs; the all-dossier audit found no dangling evidence/claim references. The six intentionally withheld resolver entries remain placeholders.
+- Existing vital assessments now have a maintained source in `research/vital_assessments.json`, including the previously published withdrawal of the unnamed child's death bound. Unknown location placeholders remain in source history and notes rather than becoming searchable places.
+- The compact resolver retains operational relationship states and imported history without duplicating dossier narratives. Its 5,103,668 bytes fit the unchanged 5,352,600-byte budget. Workbench summaries retain candidate HOLD counts and use the maintained review overlay.
+- The living-person screen recognises redacted birth decades. It removed 27 newly identified likely living subjects from public views, leaving 4,866 catalogue/search entries. Projection now preserves packed-table positions and map tuples, removes direct private pages and orphaned private rows, and retains valid historical namesakes and aliases.
+- The maintained modern-map synchroniser reattaches supplied profile leads without geocoding or changing their precision. Map references and record-detail ownership are checked together. Withheld ghost nodes are removed from tree models; previously approved DNA is restored only from authenticated originals in three existing approved paths, with living identifiers still rejected and no approval hashes changed.
+- Runtime setup declares Beautiful Soup. Clean-checkout tests use fictional fixtures wherever possible and explicitly mark checks needing ignored local research/site artifacts. Those checks remain enabled locally. The link gate likewise requires generated site data, rather than testing an incomplete Git checkout as a built website. Neither research nor link baselines were expanded.
+- Removed reviewed fathers no longer leave a current paternal root attached; retained export roots and prior counts remain reversible. Queue checks distinguish full amendments, privacy-safe additions and reviewed creation tasks. All public comparison candidates remain represented, while blocked candidates and direct subject routes remain absent.
+- The complete 23-profile historical map supplement now has a maintained source. Its existing coverage checks remain unchanged; publication filters privacy before and after normalising merged identifiers.
+
+The publication gates reported zero new research failures and zero new broken page-target pairs. The existing link baseline still contains seven broken references (four page-target pairs); 62 missing person-page anchors remain outside that gate. Asset stamping settled with zero stale references.
 
 ## Publication boundary
 
-No repository was pushed and no website was deployed. The toolkit remote/commit must be published before another person or CI can fetch Glasgow’s new submodule. Publish the toolkit first, then the Glasgow consumer commit. Local dependency checks can seed the submodule from the standalone checkout; that does not verify a hosted upstream fetch.
+The toolkit repository, `v0.2.0` tag and GitHub release are public, with wheel and source archives attached. A hosted tag clone and hosted CI verified upstream availability before Glasgow publication. Package-index publication and deployment of the Glasgow website are separate actions; neither is performed by a Git push.
 
 The release builds a general research website from the supported export fields. It cannot recreate missing archive research, original source images, researched family studies or DNA findings from a tree export alone. See the standalone README and import-format guide for the supported subset and publication controls.

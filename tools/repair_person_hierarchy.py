@@ -761,7 +761,7 @@ def _role_label(relation: dict, group: str, state: str) -> str:
     Wording comes from the shared vocabulary in ``tools/evidence_labels.py``;
     a curated qualification is kept but always carries the canonical term.
     """
-    if relation.get('lifecycle') == 'current' and relation.get('status_label'):
+    if relation.get('lifecycle') in {'current', 'alternative'} and relation.get('status_label'):
         return evidence_labels.normalise_status_label(state, relation['status_label'])
     role = str(relation.get("relationship") or "").casefold()
     if relation.get("hypothesis_status") == "open":
@@ -904,15 +904,14 @@ def _family_html(profile_id: str, dossier: dict, model: dict, index: dict, edito
             label = _role_label(relation, key, state)
             if key == 'parents':
                 try:
-                    from relationship_probability import probability_for_relationship, percentage_text
+                    from relationship_probability import probability_for_relationship, _rated_label
                 except ModuleNotFoundError:
-                    from tools.relationship_probability import probability_for_relationship, percentage_text
+                    from tools.relationship_probability import probability_for_relationship, _rated_label
                 rating = probability_for_relationship(relation, profile_id)
-                band = percentage_text(rating)
                 if rating['origin'] == 'wikitree':
                     grade = rating['label'].split(' (')[0]
                     label += ' · WikiTree: ' + grade
-                label += ' · ' + band
+                label = _rated_label(label, rating)
             if relation.get("display") == "alternative" and state in {"unknown", "unassessed"}:
                 label = evidence_labels.normalise_status_label(state, "Earlier tree proposal; not established")
             if relation.get("display") == "proposed":

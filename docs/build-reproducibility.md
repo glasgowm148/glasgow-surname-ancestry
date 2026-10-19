@@ -15,11 +15,18 @@ route to one reproducible build.
 
 Steps are listed in the order they must run.
 
+The recent-edit supplement is maintained in
+`tools/site_sources/map/recent-profile-supplement.json`. Run
+`tools/sync_recent_profile_supplement.py --source-only` to restore its complete
+public manifest using the current privacy policy and merge redirects, without
+rewriting map rows. Omit the flag when synchronizing its CSV events as well.
+
 | # | Step (command) | Required inputs | Writes | Safe to rerun alone? |
 |---|---|---|---|---|
 | 1 | `tools/sync_onetree_ireland_uk_to_1900.py` (`make build`, part 1) | `data/exports/one-tree/ONT_Glas*.json`, `data/wikitree/live-profile-overrides.json`, the existing `www/map/data/records.csv`, geocode cache | `www/map/data/records.csv` (One-Tree lead rows regenerated; researched rows kept), `www/map/data/audits/*` | Yes. It is incremental and fails if a qualifying profile stays unmapped. `--geocode` needs the network. |
 | 2 | `tools/build_family_map.py` (`make build`, part 2) | `records.csv`, the exports, `data/wikitree/*.json`, `research/**`, `surname-research/**` | `www/index.html` stats, `www/map/index.html` (only for a legacy shell) and, via `build_research_catalog()`: `www/catalogue*.html`, all of `www/people/**`, `www/data/**`, `www/records|places/**`, `sitemap.xml`, `robots.txt`, `llms.txt`, `_headers` | **No** in isolation. It regenerates about 4,700 person pages in the *pre-unified* layout and must be followed by step 4. |
 | 2a | `tools/site_sources/onetree/build.py` (called at the end of step 2) | `www/data/people.json`, the exports | `model.json`, `qa-summary.json`, `wikitree-ids.csv` in the public One Tree directory | Yes. Its HTML now goes to a scratch file (fixed in this audit; see D3). |
+| 2b | `tools/sync_onetree_map_assets.py` | Maintained map CSV, public catalogue index/dossiers, local profile privacy metadata and existing modern map assets | Compact record index, record-detail JSON and modern map points; adds missing public historical profile leads and removes withheld record associations | Yes, after CSV sync and `tools/public_privacy.py`. Retains reviewed records and supplied coordinates/precision; never geocodes or rebuilds the catalogue. Run the privacy pass again after other dossier writers, then refresh release indexes/manifests. |
 | 3 | `tools/audit_missing_wikitree_profiles.py [--apply-new-draft-matches]` | `people.json`, `records.csv`, drafts, **live WikiTree API** | `data/wikitree/catalogue-profile-audit.json` (+ `catalogue-profile-links.json` with `--apply…`) | Yes, but it needs the network. Run it before step 2 when drafts change. |
 | 4 | `tools/repair_unified_site.py` | all of `www/` **and `www_old/`** | Runs, in order: people/records/catalogue/local-route/project-route/free-space/UI repairs; `repair_site_experience`; 17 presentation helpers (`repair_timeline_navigation` … `build_branches_directory`, `build_study_pages`, `build_statistics_page`, `repair_person_hierarchy`, `repair_primary_navigation`, `repair_research_questions`, `repair_exploration_layout`); the Irish death index and three OPR review publishers; `site_analytics`; and `publish_research_release.publish()` | **Cannot run.** `main()` exits with status 2 because `www_old/` is absent. With the guard bypassed, `repair_records` and `restore_archival_snapshots` still fail (see D6). |
 | 5 | Targeted publishers run by hand after research batches (`add_research_case_dossiers.py`, `publish_resolved_dossiers.py`, `sync_catalogue_research.py`, `build_research_catalog.sync_generated_marriage_statistics()`, `publish_groni_*`, `build_evidence_page.py`, …) | Research files and existing `www` | Individual pages, panels and JSON indexes | Mostly idempotent, but each assumes the markup left by an earlier step. |
@@ -32,6 +39,9 @@ Inputs that no generator produces (hand-maintained or orphaned artefacts):
   and `researchUrl` fields; the last copy was made on 8 September. No tool writes it.
 - `www/assets/research/record-index.json` is the compact record index read by
   `repair_records`. It contains IDs that are missing from `www/data/records-index.json`.
+  `sync_onetree_map_assets.py` now maintains missing One-Tree lead coverage and
+  removes withheld associations, while preserving the existing reviewed rows.
+  It still requires those existing assets and is not a from-scratch renderer.
 - The page shells for `www/map/index.html`, `www/onetree/index.html`,
   `www/timeline/index.html` and the unified home page have no generator. Repairs
   patch them in place.

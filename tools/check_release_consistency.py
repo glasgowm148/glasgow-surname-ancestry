@@ -27,13 +27,18 @@ PAGES = ("catalogue.html", "catalogue/index.html", "catalogue/advanced.html", "p
 
 def expected_totals() -> dict[str, int]:
     index = json.loads((WEB / "data/catalogue-search-index.json").read_text(encoding="utf-8"))
-    return {
+    totals = {
         "Historical people": len(index),
         "Exported family roots": len({p["family_root"]["id"] for p in index if p.get("family_root")}),
         "People linked to a root": sum(1 for p in index if p.get("family_root")),
         "People with original evidence": sum(1 for p in index if p.get("has_original_record")),
         "Creation-ready profiles": sum(1 for p in index if p.get("profile_work_status") == "creation_ready"),
     }
+    for label, filename in (("Mapped records", "records-index.json"), ("Research places", "places-index.json")):
+        path = WEB / "data" / filename
+        if path.exists():
+            totals[label] = len(json.loads(path.read_text(encoding="utf-8")))
+    return totals
 
 
 STAT = r'(<strong>)([\d,]+)(</strong><span>{label}</span>)'
@@ -53,11 +58,16 @@ def check(fix: bool) -> list[str]:
     if health_path.exists():
         health = json.loads(health_path.read_text(encoding="utf-8"))
         counts = health.get("counts", {})
-        if counts.get("people") not in (None, people):
-            problems.append(f"health.json people: {counts['people']:,} != {people:,}")
-            if fix:
-                counts["people"] = people
-                health_path.write_text(json.dumps(health, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        changed = False
+        for key, label in (("people", "Historical people"), ("records", "Mapped records"), ("places", "Research places")):
+            expected = totals.get(label)
+            if expected is not None and counts.get(key) not in (None, expected):
+                problems.append(f"health.json {key}: {counts[key]:,} != {expected:,}")
+                if fix:
+                    counts[key] = expected
+                    changed = True
+        if changed:
+            health_path.write_text(json.dumps(health, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     for relative in PAGES:
         path = WEB / relative
         if not path.exists():

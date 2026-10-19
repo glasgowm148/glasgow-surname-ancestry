@@ -1,11 +1,55 @@
 import json
+from pathlib import Path
+import tempfile
 import unittest
 
-from tools.public_privacy import PublicPrivacy, likely_living, evidence_envelope, from_sources, tester_identifier_pattern
+from tools.public_privacy import PublicPrivacy, likely_living, evidence_envelope, from_sources, tester_identifier_pattern, remove_withheld_subject_routes, repair_orphaned_subjects, refresh_positional_search_mirrors, refresh_registry_mirror, remove_withheld_model_nodes
 from tools.build_research_catalog import _wikitree_evidence_html, _likely_living, _build_people
 
 
 class PublicPrivacyTests(unittest.TestCase):
+    def test_old_withheld_nodes_are_removed_without_losing_groups_or_people(self):
+        with tempfile.TemporaryDirectory() as directory:
+            web = Path(directory)
+            path = web / 'assets/research/atlas-model.json'
+            path.parent.mkdir(parents=True)
+            public = [{'id': '@group', 'kind': 'group'}, {'id': 'Example-100', 'kind': 'person'}]
+            path.write_text(json.dumps({'meta': {'people': 2}, 'people': public + [{'id': '', 'withheld': True}]}))
+            self.assertEqual(1, remove_withheld_model_nodes(web)['withheld_model_nodes'])
+            self.assertEqual({'meta': {'people': 1}, 'people': public}, json.loads(path.read_text()))
+            self.assertEqual(0, remove_withheld_model_nodes(web)['model_privacy_files'])
+
+    def test_map_items_drop_whole_private_or_malformed_tuples(self):
+        public = ['public', 'Example-100', 1800, False]
+        point = {'lat': 55, 'lon': -3, 'items': [public, ['private', 'Example-200', 1980, False], ['broken', 1980, False]]}
+        expected = {**point, 'items': [public]}
+        self.assertEqual(expected, self.policy.project(point))
+        self.assertEqual(expected, self.policy.project(self.policy.project(point)))
+    def test_packed_model_projection_retains_string_table_references(self):
+        from tools.site_payloads import pack_model, unpack_model
+        public = {'id': 'Example-100', 'name': 'Historical subject', 'birth': '1800'}
+        value = {'people': [{'id': 'Example-200', 'name': 'Private name'}, public]}
+        projected = self.policy.project(pack_model(value))
+        self.assertEqual({'people': [public]}, unpack_model(projected))
+        self.assertEqual(projected, self.policy.project(projected))
+
+    def test_search_terms_named_fields_and_rows_are_not_packed_tables(self):
+        postings = {'fields': [1, 3], 'rows': [2, 4], 'public': [3]}
+        self.assertEqual(postings, self.policy.project(postings))
+
+    def test_prepared_search_strings_and_postings_are_remapped_together(self):
+        table = {'schema_version': 1, 'fields': ['id', 'name'],
+                 'strings': ['Example-200', 'Private Example', 'Example-100', 'Historic subject'],
+                 'rows': [[-1, -2], [-3, -4]], 'search': {'shared': [0, 1], 'private': [0], 'historic': [1]},
+                 'location_search': {'place': [1]}, 'sort_keys': ['name']}
+        expected = {'schema_version': 1, 'fields': ['id', 'name'],
+                    'strings': ['Example-100', 'Historic subject'], 'rows': [[-1, -2]],
+                    'search': {'shared': [0], 'historic': [0]}, 'location_search': {'place': [0]},
+                    'sort_keys': ['name']}
+        projected = self.policy.project(table)
+        self.assertEqual(expected, projected)
+        self.assertEqual(projected, self.policy.project(projected))
+
     def test_packed_table_projection_preserves_field_positions(self):
         fields = ['id', 'title', 'members', 'records', 'citations']
         value = {'fields': fields, 'rows': [
@@ -46,6 +90,96 @@ class PublicPrivacyTests(unittest.TestCase):
         self.assertFalse(likely_living({"BirthDate": "1950-00-00", "DeathDate": "2000-01-01"}, year=2026))
         self.assertFalse(likely_living({"BirthDate": "0000-00-00"}, year=2026))
         self.assertTrue(likely_living({"likely_living": True, "DeathDate": "2000-01-01"}))
+
+    def test_redacted_birth_decades_still_screen_modern_profiles(self):
+        self.assertTrue(likely_living({'BirthDateDecade': '1980s', 'DeathDateDecade': 'unknown'}, year=2026))
+        self.assertTrue(likely_living({'profile_fields': {'BirthDate': '0000-00-00', 'BirthDateDecade': '1980s'}}, year=2026))
+        self.assertTrue(likely_living({'birth_date_decade': '1900s'}, year=2026))
+        self.assertFalse(likely_living({'BirthDateDecade': '1890s'}, year=2026))
+        self.assertFalse(likely_living({'BirthDateDecade': '1980s', 'DeathDateDecade': '2000s'}, year=2026))
+        self.assertFalse(likely_living({'BirthDate': '1800-01-01', 'BirthDateDecade': '1980s'}, year=2026))
+        self.assertTrue(likely_living({'BirthDate': '1800-01-01'}, {'BirthDateDecade': '1980s'}, year=2026))
+
+    def test_withheld_subject_routes_remove_names_without_identifiers(self):
+        with tempfile.TemporaryDirectory() as directory:
+            web = Path(directory)
+            (web / 'people/private-1').mkdir(parents=True)
+            (web / 'people/private-1.html').write_text('<h1>Private name without identifier</h1>')
+            (web / 'people/private-1/index.html').write_text('<h1>Private name</h1>')
+            (web / 'people/historical-1.html').write_text('Historical subject')
+            policy = PublicPrivacy({'Private-1': {'BirthDateDecade': '1980s'}})
+            people = [{'profile_ids': ['Private-1'], 'catalogue_id': 'private-1'}]
+            self.assertEqual(2, remove_withheld_subject_routes(web, people, policy))
+            self.assertEqual(0, remove_withheld_subject_routes(web, people, policy))
+            self.assertEqual('Historical subject', (web / 'people/historical-1.html').read_text())
+
+    def test_withheld_route_cleanup_does_not_follow_external_directories(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            web, outside = root / 'web', root / 'outside'
+            web.mkdir(); outside.mkdir()
+            (web / 'people').symlink_to(outside, target_is_directory=True)
+            private = outside / 'private-1.html'
+            private.write_text('Outside the public site')
+            policy = PublicPrivacy({'Private-1': {'BirthDateDecade': '1980s'}})
+            with self.assertRaisesRegex(ValueError, 'escapes public site'):
+                remove_withheld_subject_routes(web, [{'profile_ids': ['Private-1'], 'catalogue_id': 'private-1'}], policy)
+            self.assertTrue(private.is_file())
+
+    def test_private_record_rows_are_removed_whole_in_all_index_schemas(self):
+        rows = [{'id': 'hash', 'p': 'Example-200', 'person': 'Name without identifier'},
+                {'record_id': 'hash2', 'catalogue_id': 'example-200', 'person': 'Name without identifier'},
+                {'id': 'example-200', 'name': 'Name without identifier'},
+                {'id': 'historic', 'name': 'Historical subject'}]
+        self.assertEqual([rows[-1]], self.policy.project(rows))
+        self.assertEqual([rows[-1]], self.policy.project(self.policy.project(rows)))
+
+    def test_old_blanked_identifiers_cannot_leave_private_names_in_mirrors(self):
+        safe = {'id': 'Example-100', 'catalogue_id': 'example-100', 'person': 'Private Example'}
+        orphan = {'record_id': 'hash', 'catalogue_id': '', 'person': 'Private Example'}
+        self.assertEqual([safe], self.policy.project([orphan, safe]))
+        self.assertEqual({'slug': 'historical', 'name': 'Private Example'},
+                         self.policy.project({'slug': 'historical', 'name': 'Private Example'}))
+        with tempfile.TemporaryDirectory() as directory:
+            web = Path(directory)
+            (web / 'index.json').write_text(json.dumps([orphan, safe]))
+            (web / 'detail.json').write_text(json.dumps(orphan))
+            self.assertEqual({'orphan_mirrors': 1, 'orphan_subject_files': 1}, repair_orphaned_subjects(web, self.policy))
+            self.assertEqual([safe], json.loads((web / 'index.json').read_text()))
+            self.assertEqual({'orphan_mirrors': 0, 'orphan_subject_files': 0}, repair_orphaned_subjects(web, self.policy))
+
+    def test_positional_search_caches_regenerate_without_private_cells(self):
+        with tempfile.TemporaryDirectory() as directory:
+            web = Path(directory)
+            (web / 'assets/research').mkdir(parents=True)
+            (web / 'assets/v3').mkdir()
+            public = {'id': 'Example-100', 'name': 'Private Example', 'url': '/people/example-100.html',
+                      'meta': '1800', 'search': 'historical', 'life': '1800', 'place': 'Scotland'}
+            (web / 'assets/research/search-people.json').write_text(json.dumps([public, self.child]))
+            for relative in ('search-people.json', 'people-quick.json'):
+                (web / 'assets/v3' / relative).write_text(json.dumps([['Private Example', 'broken cells']]))
+            self.assertEqual(2, refresh_positional_search_mirrors(web, self.policy)['positional_search_mirrors'])
+            self.assertEqual([['Example-100', 'Private Example', '1800', 'Scotland', 'example-100']],
+                             json.loads((web / 'assets/v3/people-quick.json').read_text()))
+            self.assertEqual(0, refresh_positional_search_mirrors(web, self.policy)['positional_search_mirrors'])
+
+    def test_registry_restores_checked_owner_and_rebuilds_packed_rows(self):
+        with tempfile.TemporaryDirectory() as directory:
+            web = Path(directory)
+            for folder in ('assets/research', 'assets/v3', 'data', 'people'):
+                (web / folder).mkdir(parents=True)
+            owner = {'id': 'example-100', 'name': 'Historical subject'}
+            (web / 'data/catalogue-search-index.json').write_text(json.dumps([owner]))
+            (web / 'people/example-100.json').write_text('{}')
+            row = {'id': 'Example-100', 'selection_id': 'Example-100',
+                   'slug': 'Private family details withheld.', 'name': owner['name'], 'url': ''}
+            (web / 'assets/research/registry.json').write_text(json.dumps([row, {'id': '', 'withheld': True}]))
+            (web / 'assets/v3/registry-packed.json').write_text(json.dumps({'fields': ['slug', 'name'], 'rows': []}))
+            result = refresh_registry_mirror(web, self.policy)
+            self.assertEqual((1, 1), (result['registry_withheld_rows'], result['registry_restored_aliases']))
+            self.assertEqual([['example-100', owner['name']]],
+                             json.loads((web / 'assets/v3/registry-packed.json').read_text())['rows'])
+            self.assertEqual(0, refresh_registry_mirror(web, self.policy)['registry_files'])
 
     def test_capture_and_all_export_sinks_withhold_private_details(self):
         capture = self.policy.capture(self.capture)

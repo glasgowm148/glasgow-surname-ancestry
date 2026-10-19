@@ -1,4 +1,5 @@
 import unittest
+from tests._generated_data import requires_generated_data
 import json
 import tempfile
 from pathlib import Path
@@ -142,6 +143,7 @@ class ResearchQueueTests(unittest.TestCase):
             self.assertEqual('2026-09-30', rows[0]['match_review']['reviewed_on'])
             self.assertEqual('https://www.wikitree.com/wiki/Glasgow-1152', profile_href('Glasgow-1152', root))
 
+    @requires_generated_data
     def test_registers_are_joined_and_completed_updates_excluded(self):
         rows, drafts = collect()
         self.assertGreater(len(rows), 100)

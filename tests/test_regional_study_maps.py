@@ -4,6 +4,8 @@ from pathlib import Path
 import re
 import unittest
 
+from tests._generated_data import requires_generated_data
+
 from bs4 import BeautifulSoup
 
 
@@ -74,6 +76,7 @@ class RegionalStudyMapTests(unittest.TestCase):
         self.assertIn("Australia & New Zealand", soup.select_one("svg")["aria-label"])
         self.assertIn("Queensland", shapes[0]["aria-label"])
 
+    @requires_generated_data
     def test_generated_regional_pages_have_complete_map_contract(self):
         for rid in REGIONS:
             with self.subTest(region=rid):
@@ -99,6 +102,7 @@ class RegionalStudyMapTests(unittest.TestCase):
                 children = soup.main.find_all(recursive=False)
                 self.assertEqual('study-map', children[1].get('id'), rid)
 
+    @requires_generated_data
     def test_other_page_excludes_known_core_regions(self):
         metadata = json.loads((ROOT / "www/assets/research/regional-study-maps.json").read_text())
         countries = {area['name'] for area in metadata['other-family-places']['areas']}

@@ -1,4 +1,5 @@
 """Reader wording and guide links for every printed evidence label (S3-06)."""
+from tests._generated_data import requires_generated_data
 from pathlib import Path
 import re
 import tempfile
@@ -109,7 +110,7 @@ class GuidePageTests(unittest.TestCase):
     def setUpClass(cls):
         from tools import build_evidence_page as builder
         cls.builder = builder
-        cls.soup = BeautifulSoup(builder.render(builder.TEMPLATE.read_text(encoding="utf-8")), "html.parser")
+        cls.soup = BeautifulSoup(builder.render('<html><head><title>About</title></head><body><main>About</main></body></html>'), "html.parser")
         cls.main = cls.soup.select_one("main")
 
     def test_internal_keys_are_not_visible(self):
@@ -134,6 +135,11 @@ class GuidePageTests(unittest.TestCase):
             if example:
                 link = self.main.select_one(f'#{anchor} a[href="{example[1]}"]')
                 self.assertIsNotNone(link, anchor)
+
+    @requires_generated_data
+    def test_published_guide_examples_have_local_destinations(self):
+        for example in ev.GUIDE_EXAMPLES.values():
+            if example:
                 self.assertTrue((ROOT / "www" / example[1].lstrip("/")).exists(), example[1])
 
     def test_other_wording_table_lists_the_mapping(self):

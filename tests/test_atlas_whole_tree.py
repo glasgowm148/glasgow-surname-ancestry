@@ -1,16 +1,19 @@
 import unittest
 from pathlib import Path
 
+from tests._generated_data import requires_generated_data
+
 from tools.approved_restorations import approved_document, documentary_renderer, entries, source, usable_tester_panel
 from tools.atlas_whole_tree import MARKER, PATCHES, TREE_JS, whole_tree_renderer
 
 ROOT = Path(__file__).resolve().parents[1]
 
 
+@requires_generated_data
 class WholeTreeRendererTest(unittest.TestCase):
     def setUp(self):
         entry = entries().get('assets/research/atlas.js')
-        if entry is None:
+        if entry is None or not (ROOT / entry['source']).is_file():
             self.skipTest('approved atlas renderer source is not available')
         self.original = source(entry)
 
@@ -65,14 +68,16 @@ class WholeTreeRendererTest(unittest.TestCase):
                       'function exportMarked(', 'function markFilter(', "data-key-mode=\"all\"", "case 'hunt':openHunt()", '${rsLine(p.id)}', 'a link needs a record'):
             self.assertIn(token, page)
 
-    def test_pages_without_the_canopy_pass_through(self):
-        self.assertEqual(whole_tree_renderer('const x=1;'), 'const x=1;')
-
     def test_public_renderer_matches_the_approved_transform(self):
         path = ROOT / 'www/assets/research/atlas.js'
         if not path.exists():
             self.skipTest('local site not built')
         self.assertTrue(approved_document('assets/research/atlas.js', path.read_text()))
+
+
+class WholeTreePassThroughTest(unittest.TestCase):
+    def test_pages_without_the_canopy_pass_through(self):
+        self.assertEqual(whole_tree_renderer('const x=1;'), 'const x=1;')
 
 
 if __name__ == '__main__':

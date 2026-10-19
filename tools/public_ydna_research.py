@@ -107,3 +107,47 @@ def audit_approved_research(web: Path, private: Path = PRIVATE) -> list[str]:
         from approved_restorations import audit as audit_restorations
     failures.extend(audit_restorations(web, private))
     return failures
+
+
+APPROVED_ATLAS_MODELS = (
+    "assets/research/atlas-model.json",
+    "assets/research/atlas-import.json",
+    "onetree/glasgow-one-tree-polished-3/model.json",
+)
+
+
+def approved_atlas_dna(relative: str, policy, private: Path = PRIVATE):
+    """Return only hash-authenticated, previously approved non-living DNA data."""
+    if relative not in APPROVED_ATLAS_MODELS:
+        return None
+    try:
+        from tools.approved_restorations import entries, source
+    except ModuleNotFoundError:
+        from approved_restorations import entries, source
+    entry = entries(private).get(relative)
+    if entry is None or entry.get("kind") != "atlas-model":
+        return None
+    dna = json.loads(source(entry))["dna"]
+    # Approval covers tester references, never a newly identified living person.
+    if policy.contains_private_id(json.dumps(dna, ensure_ascii=False), include_testers=False):
+        return None
+    return dna
+
+
+def restore_approved_atlas_dna(web: Path, policy, private: Path = PRIVATE) -> int:
+    """Restore approved DNA only; preserve every current genealogy/model field."""
+    changed = 0
+    for relative in APPROVED_ATLAS_MODELS:
+        path = web / relative
+        if not path.is_file():
+            continue
+        dna = approved_atlas_dna(relative, policy, private)
+        if dna is None:
+            continue
+        current = json.loads(path.read_text(encoding="utf-8"))
+        if current.get("dna") == dna:
+            continue
+        current["dna"] = dna
+        path.write_text(json.dumps(current, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
+        changed += 1
+    return changed

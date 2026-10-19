@@ -1,3 +1,5 @@
+from pathlib import Path
+import tempfile
 import unittest
 from unittest.mock import patch
 
@@ -61,6 +63,18 @@ old &lt;tag&gt;</textarea></details>
 new &lt;tag&gt;</textarea>
         </section></main></body></html>"""
         replacement = "<html><body><main><section id='overview'><h2>Overview</h2></section></main></body></html>"
+        directory = tempfile.TemporaryDirectory()
+        self.addCleanup(directory.cleanup)
+        web = Path(directory.name)
+        (web / "people").mkdir()
+        (web / "people/glasgow-992.json").write_text('{}')
+        from tools.public_privacy import PublicPrivacy
+        privacy_patch = patch.object(renderer, "_PRIVACY_POLICY", PublicPrivacy({}))
+        privacy_patch.start()
+        self.addCleanup(privacy_patch.stop)
+        web_patch = patch.object(renderer, "WEB", web)
+        web_patch.start()
+        self.addCleanup(web_patch.stop)
         with patch.object(renderer, "_replace_main", return_value=replacement):
             migrated, changed = renderer.revise(legacy, "Glasgow-992")
         self.assertTrue(changed)
