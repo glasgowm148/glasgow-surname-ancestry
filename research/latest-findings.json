@@ -33132,7 +33132,7 @@
       "kind": "relationship",
       "status": "qualified",
       "finding": "Killycurragh family letter: select William as working father of James (82%) and Samuel (66%).",
-      "qualification": "The percentages assess each entire father-to-profile proposition, including identification of the named son with the later profile; they are subjective comparative judgments, not measured frequencies. The original letter and holding succession remain unverified. Samuel’s circa-1800 birth is an estimate, and a materially older Samuel or a later same-name descendant is possible. His wife Anne’s approximate 1801 birth and their children in the 1820s–1830s do not date Samuel himself. A nephew or later tenant could share the name and townland. Do not transfer a recorded relationship to a later adult merely from the letter’s parent clause. William’s birth, death and own parents remain unknown. Miss Cunningham is retained as William’s reported wife, without selecting her as either profile’s mother. No existing person is merged or redated, and no live WikiTree edit has been made.",
+      "qualification": "The percentages assess each entire father-to-profile proposition, including identification of the named son with the later profile; they are subjective comparative judgments, not measured frequencies. The original letter and holding succession remain unverified. Samuel’s circa-1800 birth is an estimate, and a materially older Samuel or a later same-name descendant is possible. His wife Anne’s approximate 1801 birth and their children in the 1820s–1830s do not date Samuel himself. A nephew or later tenant could share the name and townland. Do not transfer a recorded relationship to a later adult merely from the letter’s parent clause. William’s birth and death remain unknown. The letter names an older William as his father; the specific Kirknewton profile is a 36% possibility. His mother remains unidentified. Miss Cunningham is retained as William’s reported wife, without selecting her as either profile’s mother. No existing person is merged or redated, and no live WikiTree edit has been made.",
       "people": [
         {
           "id": "Glasgow-4145",
@@ -33316,6 +33316,65 @@
       "new_original_inspections": 0,
       "newly_inspected_transcripts": 6,
       "existing_confident_roles_individually_rated": 1
+    },
+    {
+      "id": "killycurragh-generations-coleraine-20261020",
+      "found_on": "2026-10-20",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Connect the Killycurragh generations and Coleraine couple: John’s father94%, Margaret’s father84%, grandfather’s Scottish candidate36%; reassess James’s existing father12%→32%.",
+      "qualification": "These are exact subjective assessments of complete relationship-and-identity propositions, not measured probabilities. The family letter is undated and unsigned and is read through Albert Rutherford’s published transcription of a photocopy, not an inspected PRONI original. The minister list is a derivative compilation whose independence from the family tradition is unproved. The Scottish adult identities remain possible: neither the letter nor the 1705 baptism supplies a migration, occupation, property or witness bridge between Kirknewton and Tyrone. The letter’s three-son family and second-cousin statement are internally consistent clues from one source, not independent corroborations. Existing people, vital fields and mothers are preserved. Miss Cunningham and Anne Rutherford are reported maternal names, not transferred to existing maternal profiles. The letter’s first-settler story is family tradition, not proof of the first Glasgow in Tyrone or of the surname’s origin. The confident94% father is the minister’s Irish documentary father, not the possible Scottish bridge. New documentary accounts may overlap existing profiles; no live WikiTree save or original manuscript inspection.",
+      "people": [
+        {
+          "id": "record-william-glasgow-killycurragh-t1959",
+          "name": "William Glasgow, Killycurragh family-letter grandfather",
+          "url": "/people/record-william-glasgow-killycurragh-t1959.html"
+        },
+        {
+          "id": "record-john-glasgow-new-row-1801",
+          "name": "Rev. John Glasgow of New Row, Coleraine",
+          "url": "/people/record-john-glasgow-new-row-1801.html"
+        },
+        {
+          "id": "record-margaret-glasgow-coleraine-1817",
+          "name": "Margaret Glasgow, wife of the Coleraine minister",
+          "url": "/people/record-margaret-glasgow-coleraine-1817.html"
+        },
+        {
+          "id": "Glasgow-1318",
+          "name": "William Glasgow",
+          "url": "/people/glasgow-1318.html"
+        },
+        {
+          "id": "Glasgow-2426",
+          "name": "William Glasgow",
+          "url": "/people/glasgow-2426.html"
+        },
+        {
+          "id": "Glasgow-1025",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-1025.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "PRONI T1959/3, anonymous family letter; Albert Rutherford transcription, read in browser 20 October 2026; original uninspected",
+          "url": "https://www.genealogy.com/forum/surnames/topics/rutherford/5445/"
+        },
+        {
+          "title": "Linda Bailey, Presbyterian Ministers in Co. Tyrone, John Glasgow from Orritor → New Row, 1796–1801; derivative compilation read 20 October 2026",
+          "url": "https://cotyrone.com/churchrecord/ministers-pres.html"
+        }
+      ],
+      "detail_url": "/people/record-william-glasgow-killycurragh-t1959.html",
+      "new_father_attachments": 3,
+      "new_profile_accounts": 2,
+      "new_source_discoveries": 0,
+      "new_original_inspections": 0,
+      "existing_father_reassessments": 1,
+      "new_spouse_selections": 1,
+      "genealogical_connections_added": 4,
+      "certainty_upgrades": 0
     }
   ]
 }

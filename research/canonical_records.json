@@ -5980,23 +5980,58 @@
     "record_type": "family_letter",
     "date": "",
     "place": "Killycurragh, Derryloran, County Tyrone, Ireland",
-    "source_title": "PRONI T1959/3, undated unsigned Glasgow–Rutherford family letter; earlier published transcription account reused, original uninspected",
+    "source_title": "PRONI T1959/3, anonymous family letter; Albert Rutherford transcription, read in browser 20 October 2026; original uninspected",
     "source_url": "https://www.genealogy.com/forum/surnames/topics/rutherford/5445/",
     "source_type": "Derivative family-letter transcription",
-    "source_status": "Earlier reviewed account reused; original uninspected; public transcript returned HTTP 403 on 20 October 2026",
+    "source_status": "Published transcription freshly read in browser 20 October 2026; earlier HTTP 403 resolved; original uninspected",
     "profiles": {
       "record-william-glasgow-killycurragh-t1959": {
-        "role": "Named paternal grandfather William, husband of Miss Cunningham; documentary account, identity unresolved"
+        "role": "Named paternal grandfather, Cunningham husband; distinct from his own father William",
+        "timeline_group": "Family recollection"
       },
       "Glasgow-4145": {
-        "role": "Probable identification of the paternal uncle James, whole father proposition 82%"
+        "role": "Existing later-son identification retained at 82%",
+        "timeline_group": "Family recollection"
       },
       "Glasgow-1698": {
-        "role": "Probable identification of the son Samuel, whole father proposition 66%"
+        "role": "Existing later-son identification retained at 66%",
+        "timeline_group": "Family recollection"
+      },
+      "record-john-glasgow-new-row-1801": {
+        "role": "Named minister son; matched to New Row compilation, father 94%",
+        "timeline_group": "Family recollection"
+      },
+      "record-margaret-glasgow-coleraine-1817": {
+        "role": "Named wife and mother of writer, died 1817; father-profile match 84%",
+        "timeline_group": "Family recollection"
+      },
+      "Glasgow-1318": {
+        "role": "Possible identity of older Killycurragh William, whole father proposition 36%",
+        "timeline_group": "Possible connections"
+      },
+      "Glasgow-1025": {
+        "role": "James/Margaret Rutherford family-account comparison; no 1759 testator identification",
+        "timeline_group": "Possible connections"
+      },
+      "Glasgow-1026": {
+        "role": "Irish father-role comparison only; the Kirknewton adult is not identified by this letter",
+        "timeline_group": "Possible connections"
+      },
+      "Glasgow-2426": {
+        "role": "Probable maternal-grandfather account, whole daughter proposition 84%",
+        "timeline_group": "Possible connections"
       }
     },
-    "notes": "The maintained reading of PRONI T1959/3 describes the writer’s paternal grandfather William Glasgow of Killycurragh and his wife, an unidentified Miss Cunningham of Omagh. Their sons included James and Samuel, who remained on the family farm; Samuel occupied the parental house. The writer’s father was the minister who died in July 1801. This is an undated, unsigned family recollection known through a published transcription, not an original newly inspected in this review. The public transcription returned HTTP 403 when rechecked today; the earlier source account is reused explicitly. The percentages assess each entire father-to-profile proposition, including identification of the named son with the later profile; they are subjective comparative judgments, not measured frequencies. The original letter and holding succession remain unverified. Samuel’s circa-1800 birth is an estimate, and a materially older Samuel or a later same-name descendant is possible. His wife Anne’s approximate 1801 birth and their children in the 1820s–1830s do not date Samuel himself. A nephew or later tenant could share the name and townland. Do not transfer a recorded relationship to a later adult merely from the letter’s parent clause. William’s birth, death and own parents remain unknown. Miss Cunningham is retained as William’s reported wife, without selecting her as either profile’s mother. No existing person is merged or redated, and no live WikiTree edit has been made.",
-    "reviewed_at": "2026-10-20"
+    "notes": "The freshly read published transcription of PRONI T1959/3 distinguishes an older William of Killycurragh, the writer’s paternal great-grandfather, from his son William, the writer’s paternal grandfather and husband of Miss Cunningham. The younger William is the Cunningham husband, whose sons included James and Samuel. His son John married Margaret Glasgow after ordination at Coleraine and died at his father’s house in Orritor in July 1801. The surviving child, the anonymous writer, was born five months later; Margaret died in 1817. The separate church compilation identifies John Glasgow from Orritor, ordained at New Row, Coleraine, on 8 March 1796 and dead on 13 July 1801. The shared ministry, origin, name and death month strongly identify the husband. The writer separately describes Margaret’s father William as a son of James Glasgow and Margaret Rutherford; the two parental lines must not be collapsed into one grandfather. These are exact subjective assessments of complete relationship-and-identity propositions, not measured probabilities. The family letter is undated and unsigned and is read through Albert Rutherford’s published transcription of a photocopy, not an inspected PRONI original. The minister list is a derivative compilation whose independence from the family tradition is unproved. The Scottish adult identities remain possible: neither the letter nor the 1705 baptism supplies a migration, occupation, property or witness bridge between Kirknewton and Tyrone. The letter’s three-son family and second-cousin statement are internally consistent clues from one source, not independent corroborations. Existing people, vital fields and mothers are preserved. Miss Cunningham and Anne Rutherford are reported maternal names, not transferred to existing maternal profiles. The letter’s first-settler story is family tradition, not proof of the first Glasgow in Tyrone or of the surname’s origin.",
+    "reviewed_at": "2026-10-20",
+    "assessment_history": [
+      {
+        "reviewed": "2026-10-20",
+        "previous_source_status": "Earlier reviewed account reused; original uninspected; public transcript returned HTTP 403 on 20 October 2026",
+        "previous_notes": "The maintained reading of PRONI T1959/3 describes the writer’s paternal grandfather William Glasgow of Killycurragh and his wife, an unidentified Miss Cunningham of Omagh. Their sons included James and Samuel, who remained on the family farm; Samuel occupied the parental house. The writer’s father was the minister who died in July 1801. This is an undated, unsigned family recollection known through a published transcription, not an original newly inspected in this review. An earlier HTTP 403 check failed; the published transcription was subsequently read in the browser on 20 October 2026. The original letter remains uninspected. The percentages assess each entire father-to-profile proposition, including identification of the named son with the later profile; they are subjective comparative judgments, not measured frequencies. The original letter and holding succession remain unverified. Samuel’s circa-1800 birth is an estimate, and a materially older Samuel or a later same-name descendant is possible. His wife Anne’s approximate 1801 birth and their children in the 1820s–1830s do not date Samuel himself. A nephew or later tenant could share the name and townland. Do not transfer a recorded relationship to a later adult merely from the letter’s parent clause. William’s birth and death remain unknown. The letter names an older William as his father; the specific Kirknewton profile is a 36% possibility. His mother remains unidentified. Miss Cunningham is retained as William’s reported wife, without selecting her as either profile’s mother. No existing person is merged or redated, and no live WikiTree edit has been made.",
+        "change": "Browser access succeeded; distinguish two Killycurragh William generations and both grandfathers."
+      }
+    ]
   },
   {
     "record_id": "kirknewton-william-william-child-1705",
@@ -6064,6 +6099,24 @@
     "profiles": {
       "Glasgow-3025": {
         "role": "Recorded child; possible later bride"
+      }
+    }
+  },
+  {
+    "record_id": "new-row-john-glasgow-ministry-1796-1801",
+    "record_type": "ministry",
+    "date": "8 March 1796; 13 July 1801",
+    "year": 1796,
+    "place": "New Row, Coleraine, County Londonderry, Ireland",
+    "source_title": "Linda Bailey, Presbyterian Ministers in Co. Tyrone, John Glasgow from Orritor → New Row, 1796–1801; derivative compilation read 20 October 2026",
+    "source_url": "https://cotyrone.com/churchrecord/ministers-pres.html",
+    "source_type": "Derivative minister compilation",
+    "source_status": "Table entry read 20 October 2026; original congregation record uninspected",
+    "status": "Strongly supported minister identity; parentage comes from separate family-letter transcription",
+    "note": "John Glasgow from Orritor, Cookstown, ordained at New Row, Coleraine on 8 March 1796; died 13 July 1801. No parent clause. The name, ministry, origin and death month match the family-letter father.",
+    "profiles": {
+      "record-john-glasgow-new-row-1801": {
+        "role": "Named minister; strongly supported identity match"
       }
     }
   }

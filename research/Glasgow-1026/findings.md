@@ -2,6 +2,10 @@
 
 ## Current conclusion
 
+Reviewed: 2026-10-20
+
+**Killycurragh generations:** James-1025’s existing son relationship is now possible at 32%; the Killycurragh route remains a qualified Scottish identity hypothesis. [Family sequence and source limits](/free-space/glasgow-of-killycurragh-early-c19-aa9477/).
+
 The fresh public WikiTree capture marks Ann McCook’s motherhood confident(flag 20). The local review explicitly downgrades that inherited certainty to an unselected uncertain alternative: the child sources cited for it name only William. This is a reassessment of a tree flag, not proof that Ann could not be Bessie’s mother; no live flag or relationship is changed. William’s existing confident father role for Bessie is individually rated 98%, without counting it as new certainty.
 
 Reviewed: 2026-10-20. **Probable intended spouse Marion-3025, 69%; new 1681 couple selected. Own father remains 24%.**
@@ -222,3 +226,14 @@ Inspect the original OPR entries for residence, maternal wording and witnesses, 
 - [Findmypast, William Glasgow and Marion Glasgow, banns 10 June 1681; OPR689/20 item 1 p 39; transcript inspected 20 October 2026](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FMAR%2F1434226%2F1&tab=this)
 - [FamilySearch VQ4K-H5K, Marion Glasgow, indexed 1655, father William; held citation reused, conflicting indexed dates retained](https://www.familysearch.org/ark:/61903/1:1:VQ4K-H5K)
 - [FamilySearch VQ4K-ZQN, Bessie 1682, named father William only; held inspected citation reused](https://www.familysearch.org/ark:/61903/1:1:VQ4K-ZQN)
+
+
+## Killycurragh generations and Coleraine couple — 20 October 2026
+
+The freshly read published transcription of PRONI T1959/3 distinguishes an older William of Killycurragh, the writer’s paternal great-grandfather, from his son William, the writer’s paternal grandfather and husband of Miss Cunningham. The younger William is the Cunningham husband, whose sons included James and Samuel. His son John married Margaret Glasgow after ordination at Coleraine and died at his father’s house in Orritor in July 1801. The surviving child, the anonymous writer, was born five months later; Margaret died in 1817. The separate church compilation identifies John Glasgow from Orritor, ordained at New Row, Coleraine, on 8 March 1796 and dead on 13 July 1801. The shared ministry, origin, name and death month strongly identify the husband. The writer separately describes Margaret’s father William as a son of James Glasgow and Margaret Rutherford; the two parental lines must not be collapsed into one grandfather.
+
+Reassess James Glasgow-1025’s existing William Glasgow-1026 father hypothesis from 12% to 32% (possible). The newly read full family-letter sequence explicitly supplies James, husband of Margaret Rutherford, as a son of the Tullycoll/Tullyall William, with brothers John and William. This adds a named father role and a three-son comparison to the compatible Kirknewton William/John baptisms. It supports testing that household more than chronology alone did. The letter-defined Irish father has not been identified with the Kirknewton adult, and the James profile’s estimated generation and 1759 Drumcarn probate identity remain unproved. No independent migration or property bridge has been found. The old 12% assessment and its sources remain in the history; no live father attachment is changed.
+
+These are exact subjective assessments of complete relationship-and-identity propositions, not measured probabilities. The family letter is undated and unsigned and is read through Albert Rutherford’s published transcription of a photocopy, not an inspected PRONI original. The minister list is a derivative compilation whose independence from the family tradition is unproved. The Scottish adult identities remain possible: neither the letter nor the 1705 baptism supplies a migration, occupation, property or witness bridge between Kirknewton and Tyrone. The letter’s three-son family and second-cousin statement are internally consistent clues from one source, not independent corroborations. Existing people, vital fields and mothers are preserved. Miss Cunningham and Anne Rutherford are reported maternal names, not transferred to existing maternal profiles. The letter’s first-settler story is family tradition, not proof of the first Glasgow in Tyrone or of the surname’s origin.
+
+[PRONI T1959/3, anonymous family letter; Albert Rutherford transcription, read in browser 20 October 2026; original uninspected](https://www.genealogy.com/forum/surnames/topics/rutherford/5445/); [Linda Bailey, Presbyterian Ministers in Co. Tyrone, John Glasgow from Orritor → New Row, 1796–1801; derivative compilation read 20 October 2026](https://cotyrone.com/churchrecord/ministers-pres.html).

@@ -26,7 +26,7 @@
     }
   ],
   "question": "Can Irish evidence identify William Walter Glasgow or reconcile the competing attached fathers?",
-  "answer": "Working update, 16 October 2026: the Corvanaghan James is provisionally identified with the Moneymore James and placed under the latter’s already uncertain older James father. This inherits uncertainty in both identity and pedigree; it does not establish a mother or migration. The 1759 Drumcarn will identity and Mitchell-family alternative remain unresolved. The older William retains the selected uncertain John-3610 father. John of the Calder/Meek household is now placed under William as a possible adult identity of the 1702 child, also uncertain. This adds a Scottish family comparison, not an Irish migration record. The current Moneymore-labelled tree is not a confirmed Irish lineage. The profile formerly identified with the 1671 Kirknewton child has been separated; the older William’s parentage and claimed migration remain unproved, while later profiles rely on derivative trees and conflicting father attachments.",
+  "answer": "Working update, 16 October 2026: the Corvanaghan James is provisionally identified with the Moneymore James and placed under the latter’s already uncertain older James father. This inherits uncertainty in both identity and pedigree; it does not establish a mother or migration. The 1759 Drumcarn will identity and Mitchell-family alternative remain unresolved. The older William retains the selected uncertain John-3610 father. John of the Calder/Meek household is now placed under William as a possible adult identity of the 1702 child, also uncertain. This adds a Scottish family comparison, not an Irish migration record. The current Moneymore-labelled tree is not a confirmed Irish lineage. The profile formerly identified with the 1671 Kirknewton child has been separated; the older William’s parentage and claimed migration remain unproved, while later profiles rely on derivative trees and conflicting father attachments. 20 October 2026: Killycurragh gains a selected possible Kirknewton connection at 36%, and James-1025’s existing father is reassessed to 32%. The minister’s Irish father is 94% and Margaret’s is 84%; the Scottish identities remain unproved. See the linked Killycurragh generations review.",
   "chapters": [
     {
       "id": "moneymore-probable-father",
@@ -165,13 +165,18 @@
       "title": "No demonstrated Irish bridge",
       "body": [
         "No inspected record places the older William, spouse or children at Moneymore. The 1740 Derryloran return records local Glasgow households, but it does not identify this family.",
-        "A 1759 probate index for a James at Drumearn is useful local evidence, not a parentage or migration record."
+        "A 1759 probate index for a James at Drumearn is useful local evidence, not a parentage or migration record.",
+        "Working connection added on 20 October 2026: the letter’s older Killycurragh William is tentatively identified with the 1705 Kirknewton child William Glasgow-1318. This places the Cunningham husband under him at 36%, while James Glasgow-1025’s existing father Glasgow-1026 rises from 12% to 32%. The letter explicitly supplies brothers James, John and William under an older William; the compatible Scottish baptisms support a non-exclusive cluster comparison. The Irish documentary father of Rev. John of Coleraine is assessed at 94%, and Margaret’s father William Glasgow-2426 at 84%. The two Irish grandfathers William remain separate. No Scottish migration, adult identity or 1759 testator identity is proved; the circa-1735 estimate for William-2426 also conflicts with the letter’s eldest-son description and remains unchanged pending evidence."
       ],
       "cluster": "william",
       "evidence": [
         {
           "label": "1740 Ulster returns",
           "url": "https://www.billmacafee.com/1740returns/1740religiousreturnsulstername.pdf"
+        },
+        {
+          "label": "Killycurragh generations: full source basis, exact probabilities and unresolved identities",
+          "url": "/free-space/glasgow-of-killycurragh-early-c19-aa9477/#two-william-generations-and-the-coleraine-couple-20-october-2026"
         }
       ]
     },
@@ -320,5 +325,5 @@
     }
   ],
   "sources_note": "Public-safe working assessments: research/Glasgow-1026/findings.md, research/Glasgow-1492/findings.md, research/Glasgow-2425/findings.md and research/Glasgow-2426/findings.md.",
-  "reviewed_on": "2026-10-17"
+  "reviewed_on": "2026-10-20"
 }

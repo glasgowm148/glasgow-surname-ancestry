@@ -5,6 +5,10 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
+Reviewed: 2026-10-20
+
+**Killycurragh generations:** New probable daughter Margaret, wife of Rev. John of Coleraine, 84%; distinguish the letter’s two William grandfathers. [Family sequence and source limits](/free-space/glasgow-of-killycurragh-early-c19-aa9477/).
+
 The entered place “Moneymore, Galway, Connacht” combines a real locality name
 with the wrong county for the Moneymore used by this family reconstruction. The
 project tree provides no inspected original record proving William's birth,
@@ -102,3 +106,14 @@ Cecil County explicitly qualifies the 1759 entry only. In 1763 "Pennsylvania" fo
 
 This may concern [Glasgow-2426](https://www.wikitree.com/wiki/Glasgow-2426). Estimated 1735 birth and later United States context are unproved family account; no postal identification. The Moneymore County Galway field is disputed.
 <!-- queue-record-integration-2026-10-17:end -->
+
+
+## Killycurragh generations and Coleraine couple — 20 October 2026
+
+The freshly read published transcription of PRONI T1959/3 distinguishes an older William of Killycurragh, the writer’s paternal great-grandfather, from his son William, the writer’s paternal grandfather and husband of Miss Cunningham. The younger William is the Cunningham husband, whose sons included James and Samuel. His son John married Margaret Glasgow after ordination at Coleraine and died at his father’s house in Orritor in July 1801. The surviving child, the anonymous writer, was born five months later; Margaret died in 1817. The separate church compilation identifies John Glasgow from Orritor, ordained at New Row, Coleraine, on 8 March 1796 and dead on 13 July 1801. The shared ministry, origin, name and death month strongly identify the husband. The writer separately describes Margaret’s father William as a son of James Glasgow and Margaret Rutherford; the two parental lines must not be collapsed into one grandfather.
+
+Select William Glasgow-2426 as Margaret Glasgow’s probable father at 84%. That profile represents William, son of James Glasgow-1025 and Margaret Rutherford, which matches the letter’s maternal-grandfather family position. The letter explicitly names the eldest daughter Margaret as the minister’s wife and the writer’s mother. The profile’s circa-1735 birth and circa-1829 United States death are inherited claims, not exclusionary records and not corrected here. The letter calls William an eldest son; the circa-1735 estimate conflicts with the earlier estimated births of his attached brothers. Those unverified estimates require checking and are preserved here. This is the maternal grandfather, distinct from the Cunningham husband. Original records and an independent adult-life bridge remain to be found.
+
+These are exact subjective assessments of complete relationship-and-identity propositions, not measured probabilities. The family letter is undated and unsigned and is read through Albert Rutherford’s published transcription of a photocopy, not an inspected PRONI original. The minister list is a derivative compilation whose independence from the family tradition is unproved. The Scottish adult identities remain possible: neither the letter nor the 1705 baptism supplies a migration, occupation, property or witness bridge between Kirknewton and Tyrone. The letter’s three-son family and second-cousin statement are internally consistent clues from one source, not independent corroborations. Existing people, vital fields and mothers are preserved. Miss Cunningham and Anne Rutherford are reported maternal names, not transferred to existing maternal profiles. The letter’s first-settler story is family tradition, not proof of the first Glasgow in Tyrone or of the surname’s origin.
+
+[PRONI T1959/3, anonymous family letter; Albert Rutherford transcription, read in browser 20 October 2026; original uninspected](https://www.genealogy.com/forum/surnames/topics/rutherford/5445/); [Linda Bailey, Presbyterian Ministers in Co. Tyrone, John Glasgow from Orritor → New Row, 1796–1801; derivative compilation read 20 October 2026](https://cotyrone.com/churchrecord/ministers-pres.html).

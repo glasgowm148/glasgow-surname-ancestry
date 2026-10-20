@@ -2,6 +2,10 @@
 
 ## Current conclusion
 
+Reviewed: 2026-10-20
+
+**Killycurragh generations:** New possible son: the Killycurragh Cunningham husband, 36%; Scottish child-to-adult identity remains unproved. [Family sequence and source limits](/free-space/glasgow-of-killycurragh-early-c19-aa9477/).
+
 Reviewed: 2026-10-20.
 
 William Glasgou was christened on 22 April 1705 at Kirknewton and East Calder, according to the inspected FamilySearch and Findmypast indexes. The father is William; neither names a mother. The existing Ann McCook attachment is retained as an unproved tree claim. No original image or later adult identity was established.
@@ -24,3 +28,14 @@ Inspect the original OPR entries for residence, maternal wording and witnesses, 
 - [FamilySearch VQ4K-FY9: William Glasgou, christened 22 April 1705; father William, no mother](https://www.familysearch.org/ark:/61903/1:1:VQ4K-FY9)
 
 [William’s combined household assessment](/people/glasgow-1026.html#research-findings).
+
+
+## Killycurragh generations and Coleraine couple — 20 October 2026
+
+The freshly read published transcription of PRONI T1959/3 distinguishes an older William of Killycurragh, the writer’s paternal great-grandfather, from his son William, the writer’s paternal grandfather and husband of Miss Cunningham. The younger William is the Cunningham husband, whose sons included James and Samuel. His son John married Margaret Glasgow after ordination at Coleraine and died at his father’s house in Orritor in July 1801. The surviving child, the anonymous writer, was born five months later; Margaret died in 1817. The separate church compilation identifies John Glasgow from Orritor, ordained at New Row, Coleraine, on 8 March 1796 and dead on 13 July 1801. The shared ministry, origin, name and death month strongly identify the husband. The writer separately describes Margaret’s father William as a son of James Glasgow and Margaret Rutherford; the two parental lines must not be collapsed into one grandfather.
+
+Select William Glasgow-1318 as the possible father of the letter-defined Cunningham husband at 36%. The letter supplies an older Killycurragh William, son of the Tullycoll/Tullyall William and brother of James (husband of Margaret Rutherford) and John (husband of Anne Mason). The 1705 Kirknewton child William has a named father William and a generation compatible with being grandfather of the minister ordained in 1796. The 1702 John baptism supplies a compatible second named son in that Scottish father cluster; the existing James-1025 family supplies the Irish James comparison. This is a positive but non-exclusive family-cluster hypothesis. The Scottish child’s adult identity and migration remain unproved. The 36% includes that identity uncertainty; it is not a confident Scottish–Irish bridge.
+
+These are exact subjective assessments of complete relationship-and-identity propositions, not measured probabilities. The family letter is undated and unsigned and is read through Albert Rutherford’s published transcription of a photocopy, not an inspected PRONI original. The minister list is a derivative compilation whose independence from the family tradition is unproved. The Scottish adult identities remain possible: neither the letter nor the 1705 baptism supplies a migration, occupation, property or witness bridge between Kirknewton and Tyrone. The letter’s three-son family and second-cousin statement are internally consistent clues from one source, not independent corroborations. Existing people, vital fields and mothers are preserved. Miss Cunningham and Anne Rutherford are reported maternal names, not transferred to existing maternal profiles. The letter’s first-settler story is family tradition, not proof of the first Glasgow in Tyrone or of the surname’s origin.
+
+[PRONI T1959/3, anonymous family letter; Albert Rutherford transcription, read in browser 20 October 2026; original uninspected](https://www.genealogy.com/forum/surnames/topics/rutherford/5445/); [Linda Bailey, Presbyterian Ministers in Co. Tyrone, John Glasgow from Orritor → New Row, 1796–1801; derivative compilation read 20 October 2026](https://cotyrone.com/churchrecord/ministers-pres.html).

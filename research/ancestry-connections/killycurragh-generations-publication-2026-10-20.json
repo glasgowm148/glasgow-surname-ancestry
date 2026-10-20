@@ -1,0 +1,73 @@
+{
+  "reviewed": "2026-10-20",
+  "new_documentary_accounts": [
+    "record-john-glasgow-new-row-1801",
+    "record-margaret-glasgow-coleraine-1817"
+  ],
+  "new_father_percentages": {
+    "record-william-glasgow-killycurragh-t1959": 36,
+    "record-john-glasgow-new-row-1801": 94,
+    "record-margaret-glasgow-coleraine-1817": 84
+  },
+  "existing_father_reassessment": {
+    "subject": "Glasgow-1025",
+    "previous": 12,
+    "percent": 32
+  },
+  "existing_samuel_james_fathers_unchanged": [
+    66,
+    82
+  ],
+  "all_existing_vital_fields_and_mothers_preserved": true,
+  "main_and_standalone_models_verified": true,
+  "packed_matches_full": true,
+  "full_and_compact_pending_membership_equal": true,
+  "new_father_filter_membership_and_exact_bands_verified": true,
+  "complete_local_proposals_and_prior_public_citations_verified": true,
+  "private_comparisons_withheld_public_additions_verified": true,
+  "known_private_genetic_markers_absent": true,
+  "new_routes_in_approved_sitemap_and_reader_catalogue": true,
+  "live_edits": 0,
+  "working_1850_before": {
+    "population": 1791,
+    "edge_count": 1387,
+    "component_count": 406,
+    "largest_component_size": 1133,
+    "connected_pairs_percent": 40.06382003125497
+  },
+  "working_1850_after": {
+    "population": 1793,
+    "edge_count": 1390,
+    "component_count": 405,
+    "largest_component_size": 1142,
+    "connected_pairs_percent": 40.610123197354795
+  },
+  "validation": {
+    "unit_tests_passed": 18,
+    "new_publication_failures": 0,
+    "existing_publication_baseline_items": 2,
+    "new_broken_link_pairs": 0,
+    "existing_broken_link_pairs": 4,
+    "release_totals_consistent": true,
+    "browser_checked": [
+      "confident father filter: John, 94%",
+      "possible father filter: grandfather William, 36%, linked to Glasgow-1318 on WikiTree",
+      "whole-tree selected father: William-1318, 36%",
+      "complete minister creation draft with identity hold",
+      "Killycurragh source study and progress totals"
+    ],
+    "remaining_overview_warnings": [
+      "story:research-stevenston-estate-network"
+    ]
+  },
+  "new_spouse_percent": 94,
+  "new_genealogical_connections": 4,
+  "new_father_placements": 3,
+  "new_original_inspections": 0,
+  "affected_studies": [
+    "early-scottish-records",
+    "research-irish-belfast-donegal",
+    "research-irish-derryloran",
+    "research-irish-moneymore"
+  ]
+}

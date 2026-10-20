@@ -15450,5 +15450,425 @@
         "reason": "The previously inspected 1682 child transcripts explicitly name William Glasgow as Bessie’s father. Bessie-1545 is the child account and William-1026 represents that older named-father account. Assess this record-defined father role at 98% subjective confidence. The fresh WikiTree capture already marks the father confident(flag 20); this adds an individual evidence-based percentage, not a newly confident father or a new father attachment. It does not identify that adult’s own father or prove a continuous 1682–1705 household."
       }
     }
+  },
+  {
+    "assertion_id": "C-working-20261020-killycurragh-older-william-father",
+    "people": [
+      "record-william-glasgow-killycurragh-t1959",
+      "Glasgow-1318"
+    ],
+    "profile_names": {
+      "record-william-glasgow-killycurragh-t1959": "William Glasgow, Killycurragh family-letter grandfather",
+      "Glasgow-1318": "William Glasgow"
+    },
+    "status": "possible",
+    "hypothesis_status": "possible",
+    "publication_status": "approved",
+    "working_selection": true,
+    "allow_new_relationship": true,
+    "assessment_date": "2026-10-20",
+    "claim": "Select William Glasgow-1318 as the possible father of the letter-defined Cunningham husband at 36%",
+    "basis": "Select William Glasgow-1318 as the possible father of the letter-defined Cunningham husband at 36%. The letter supplies an older Killycurragh William, son of the Tullycoll/Tullyall William and brother of James (husband of Margaret Rutherford) and John (husband of Anne Mason). The 1705 Kirknewton child William has a named father William and a generation compatible with being grandfather of the minister ordained in 1796. The 1702 John baptism supplies a compatible second named son in that Scottish father cluster; the existing James-1025 family supplies the Irish James comparison. This is a positive but non-exclusive family-cluster hypothesis. The Scottish child’s adult identity and migration remain unproved. The 36% includes that identity uncertainty; it is not a confident Scottish–Irish bridge.",
+    "limitations": "These are exact subjective assessments of complete relationship-and-identity propositions, not measured probabilities. The family letter is undated and unsigned and is read through Albert Rutherford’s published transcription of a photocopy, not an inspected PRONI original. The minister list is a derivative compilation whose independence from the family tradition is unproved. The Scottish adult identities remain possible: neither the letter nor the 1705 baptism supplies a migration, occupation, property or witness bridge between Kirknewton and Tyrone. The letter’s three-son family and second-cousin statement are internally consistent clues from one source, not independent corroborations. Existing people, vital fields and mothers are preserved. Miss Cunningham and Anne Rutherford are reported maternal names, not transferred to existing maternal profiles. The letter’s first-settler story is family tradition, not proof of the first Glasgow in Tyrone or of the surname’s origin.",
+    "source_ids": [
+      "killycurragh-glasgow-family-letter-t1959-3",
+      "kirknewton-william-william-child-1705",
+      "calder-john-william-child-1702"
+    ],
+    "analysis_links": [
+      {
+        "label": "Killycurragh family generations",
+        "href": "/free-space/glasgow-of-killycurragh-early-c19-aa9477/"
+      }
+    ],
+    "perspectives": {
+      "record-william-glasgow-killycurragh-t1959": {
+        "relationship": "father",
+        "status_label": "Possible father · 36%",
+        "reason": "Select William Glasgow-1318 as the possible father of the letter-defined Cunningham husband at 36%. The letter supplies an older Killycurragh William, son of the Tullycoll/Tullyall William and brother of James (husband of Margaret Rutherford) and John (husband of Anne Mason). The 1705 Kirknewton child William has a named father William and a generation compatible with being grandfather of the minister ordained in 1796. The 1702 John baptism supplies a compatible second named son in that Scottish father cluster; the existing James-1025 family supplies the Irish James comparison. This is a positive but non-exclusive family-cluster hypothesis. The Scottish child’s adult identity and migration remain unproved. The 36% includes that identity uncertainty; it is not a confident Scottish–Irish bridge."
+      },
+      "Glasgow-1318": {
+        "relationship": "son",
+        "status_label": "Possible son · 36%",
+        "reason": "Select William Glasgow-1318 as the possible father of the letter-defined Cunningham husband at 36%. The letter supplies an older Killycurragh William, son of the Tullycoll/Tullyall William and brother of James (husband of Margaret Rutherford) and John (husband of Anne Mason). The 1705 Kirknewton child William has a named father William and a generation compatible with being grandfather of the minister ordained in 1796. The 1702 John baptism supplies a compatible second named son in that Scottish father cluster; the existing James-1025 family supplies the Irish James comparison. This is a positive but non-exclusive family-cluster hypothesis. The Scottish child’s adult identity and migration remain unproved. The 36% includes that identity uncertainty; it is not a confident Scottish–Irish bridge."
+      }
+    },
+    "probability": {
+      "band": "possible",
+      "label": "Possible · 36%",
+      "minimum": 0.3,
+      "maximum": 0.59,
+      "rank": 2,
+      "value": 0.36,
+      "method": "individual_evidence_assessment",
+      "origin": "research",
+      "basis": "Select William Glasgow-1318 as the possible father of the letter-defined Cunningham husband at 36%. The letter supplies an older Killycurragh William, son of the Tullycoll/Tullyall William and brother of James (husband of Margaret Rutherford) and John (husband of Anne Mason). The 1705 Kirknewton child William has a named father William and a generation compatible with being grandfather of the minister ordained in 1796. The 1702 John baptism supplies a compatible second named son in that Scottish father cluster; the existing James-1025 family supplies the Irish James comparison. This is a positive but non-exclusive family-cluster hypothesis. The Scottish child’s adult identity and migration remain unproved. The 36% includes that identity uncertainty; it is not a confident Scottish–Irish bridge.",
+      "reviewed": "2026-10-20",
+      "source_ids": [
+        "killycurragh-glasgow-family-letter-t1959-3",
+        "kirknewton-william-william-child-1705",
+        "calder-john-william-child-1702"
+      ],
+      "assertion_id": "C-working-20261020-killycurragh-older-william-father",
+      "scope": "These are exact subjective assessments of complete relationship-and-identity propositions, not measured probabilities. The family letter is undated and unsigned and is read through Albert Rutherford’s published transcription of a photocopy, not an inspected PRONI original. The minister list is a derivative compilation whose independence from the family tradition is unproved. The Scottish adult identities remain possible: neither the letter nor the 1705 baptism supplies a migration, occupation, property or witness bridge between Kirknewton and Tyrone. The letter’s three-son family and second-cousin statement are internally consistent clues from one source, not independent corroborations. Existing people, vital fields and mothers are preserved. Miss Cunningham and Anne Rutherford are reported maternal names, not transferred to existing maternal profiles. The letter’s first-settler story is family tradition, not proof of the first Glasgow in Tyrone or of the surname’s origin."
+    }
+  },
+  {
+    "assertion_id": "C-working-20261020-coleraine-john-father",
+    "people": [
+      "record-john-glasgow-new-row-1801",
+      "record-william-glasgow-killycurragh-t1959"
+    ],
+    "profile_names": {
+      "record-john-glasgow-new-row-1801": "Rev. John Glasgow of New Row, Coleraine",
+      "record-william-glasgow-killycurragh-t1959": "William Glasgow, Killycurragh family-letter grandfather"
+    },
+    "status": "strongly_supported",
+    "hypothesis_status": "strongly_supported",
+    "publication_status": "approved",
+    "working_selection": true,
+    "allow_new_relationship": true,
+    "assessment_date": "2026-10-20",
+    "claim": "Select the letter-defined William of Killycurragh as Rev",
+    "basis": "Select the letter-defined William of Killycurragh as Rev. John Glasgow’s father at 94% (strongly supported). The writer explicitly gives the writer’s father John, the writer’s paternal grandfather William and his Cunningham marriage. John’s Coleraine ordination, Orritor origin and July 1801 death match the separate New Row minister entry. This concerns the minister’s record-defined identity; it does not identify his grandfather with a Scottish baptism or upgrade his brothers’ later-profile matches.",
+    "limitations": "These are exact subjective assessments of complete relationship-and-identity propositions, not measured probabilities. The family letter is undated and unsigned and is read through Albert Rutherford’s published transcription of a photocopy, not an inspected PRONI original. The minister list is a derivative compilation whose independence from the family tradition is unproved. The Scottish adult identities remain possible: neither the letter nor the 1705 baptism supplies a migration, occupation, property or witness bridge between Kirknewton and Tyrone. The letter’s three-son family and second-cousin statement are internally consistent clues from one source, not independent corroborations. Existing people, vital fields and mothers are preserved. Miss Cunningham and Anne Rutherford are reported maternal names, not transferred to existing maternal profiles. The letter’s first-settler story is family tradition, not proof of the first Glasgow in Tyrone or of the surname’s origin.",
+    "source_ids": [
+      "killycurragh-glasgow-family-letter-t1959-3",
+      "new-row-john-glasgow-ministry-1796-1801"
+    ],
+    "analysis_links": [
+      {
+        "label": "Killycurragh family generations",
+        "href": "/free-space/glasgow-of-killycurragh-early-c19-aa9477/"
+      }
+    ],
+    "perspectives": {
+      "record-john-glasgow-new-row-1801": {
+        "relationship": "father",
+        "status_label": "Strongly supported father · 94%",
+        "reason": "Select the letter-defined William of Killycurragh as Rev. John Glasgow’s father at 94% (strongly supported). The writer explicitly gives the writer’s father John, the writer’s paternal grandfather William and his Cunningham marriage. John’s Coleraine ordination, Orritor origin and July 1801 death match the separate New Row minister entry. This concerns the minister’s record-defined identity; it does not identify his grandfather with a Scottish baptism or upgrade his brothers’ later-profile matches."
+      },
+      "record-william-glasgow-killycurragh-t1959": {
+        "relationship": "son",
+        "status_label": "Strongly supported son · 94%",
+        "reason": "Select the letter-defined William of Killycurragh as Rev. John Glasgow’s father at 94% (strongly supported). The writer explicitly gives the writer’s father John, the writer’s paternal grandfather William and his Cunningham marriage. John’s Coleraine ordination, Orritor origin and July 1801 death match the separate New Row minister entry. This concerns the minister’s record-defined identity; it does not identify his grandfather with a Scottish baptism or upgrade his brothers’ later-profile matches."
+      }
+    },
+    "probability": {
+      "band": "confident",
+      "label": "Confident · 94%",
+      "minimum": 0.9,
+      "maximum": 0.99,
+      "rank": 4,
+      "value": 0.94,
+      "method": "individual_evidence_assessment",
+      "origin": "research",
+      "basis": "Select the letter-defined William of Killycurragh as Rev. John Glasgow’s father at 94% (strongly supported). The writer explicitly gives the writer’s father John, the writer’s paternal grandfather William and his Cunningham marriage. John’s Coleraine ordination, Orritor origin and July 1801 death match the separate New Row minister entry. This concerns the minister’s record-defined identity; it does not identify his grandfather with a Scottish baptism or upgrade his brothers’ later-profile matches.",
+      "reviewed": "2026-10-20",
+      "source_ids": [
+        "killycurragh-glasgow-family-letter-t1959-3",
+        "new-row-john-glasgow-ministry-1796-1801"
+      ],
+      "assertion_id": "C-working-20261020-coleraine-john-father",
+      "scope": "These are exact subjective assessments of complete relationship-and-identity propositions, not measured probabilities. The family letter is undated and unsigned and is read through Albert Rutherford’s published transcription of a photocopy, not an inspected PRONI original. The minister list is a derivative compilation whose independence from the family tradition is unproved. The Scottish adult identities remain possible: neither the letter nor the 1705 baptism supplies a migration, occupation, property or witness bridge between Kirknewton and Tyrone. The letter’s three-son family and second-cousin statement are internally consistent clues from one source, not independent corroborations. Existing people, vital fields and mothers are preserved. Miss Cunningham and Anne Rutherford are reported maternal names, not transferred to existing maternal profiles. The letter’s first-settler story is family tradition, not proof of the first Glasgow in Tyrone or of the surname’s origin."
+    }
+  },
+  {
+    "assertion_id": "C-working-20261020-coleraine-margaret-father",
+    "people": [
+      "record-margaret-glasgow-coleraine-1817",
+      "Glasgow-2426"
+    ],
+    "profile_names": {
+      "record-margaret-glasgow-coleraine-1817": "Margaret Glasgow, wife of the Coleraine minister",
+      "Glasgow-2426": "William Glasgow"
+    },
+    "status": "probable",
+    "hypothesis_status": "probable",
+    "publication_status": "approved",
+    "working_selection": true,
+    "allow_new_relationship": true,
+    "assessment_date": "2026-10-20",
+    "claim": "Select William Glasgow-2426 as Margaret Glasgow’s probable father at 84%",
+    "basis": "Select William Glasgow-2426 as Margaret Glasgow’s probable father at 84%. That profile represents William, son of James Glasgow-1025 and Margaret Rutherford, which matches the letter’s maternal-grandfather family position. The letter explicitly names the eldest daughter Margaret as the minister’s wife and the writer’s mother. The profile’s circa-1735 birth and circa-1829 United States death are inherited claims, not exclusionary records and not corrected here. The letter calls William an eldest son; the circa-1735 estimate conflicts with the earlier estimated births of his attached brothers. Those unverified estimates require checking and are preserved here. This is the maternal grandfather, distinct from the Cunningham husband. Original records and an independent adult-life bridge remain to be found.",
+    "limitations": "These are exact subjective assessments of complete relationship-and-identity propositions, not measured probabilities. The family letter is undated and unsigned and is read through Albert Rutherford’s published transcription of a photocopy, not an inspected PRONI original. The minister list is a derivative compilation whose independence from the family tradition is unproved. The Scottish adult identities remain possible: neither the letter nor the 1705 baptism supplies a migration, occupation, property or witness bridge between Kirknewton and Tyrone. The letter’s three-son family and second-cousin statement are internally consistent clues from one source, not independent corroborations. Existing people, vital fields and mothers are preserved. Miss Cunningham and Anne Rutherford are reported maternal names, not transferred to existing maternal profiles. The letter’s first-settler story is family tradition, not proof of the first Glasgow in Tyrone or of the surname’s origin.",
+    "source_ids": [
+      "killycurragh-glasgow-family-letter-t1959-3"
+    ],
+    "analysis_links": [
+      {
+        "label": "Killycurragh family generations",
+        "href": "/free-space/glasgow-of-killycurragh-early-c19-aa9477/"
+      }
+    ],
+    "perspectives": {
+      "record-margaret-glasgow-coleraine-1817": {
+        "relationship": "father",
+        "status_label": "Probable father · 84%",
+        "reason": "Select William Glasgow-2426 as Margaret Glasgow’s probable father at 84%. That profile represents William, son of James Glasgow-1025 and Margaret Rutherford, which matches the letter’s maternal-grandfather family position. The letter explicitly names the eldest daughter Margaret as the minister’s wife and the writer’s mother. The profile’s circa-1735 birth and circa-1829 United States death are inherited claims, not exclusionary records and not corrected here. The letter calls William an eldest son; the circa-1735 estimate conflicts with the earlier estimated births of his attached brothers. Those unverified estimates require checking and are preserved here. This is the maternal grandfather, distinct from the Cunningham husband. Original records and an independent adult-life bridge remain to be found."
+      },
+      "Glasgow-2426": {
+        "relationship": "daughter",
+        "status_label": "Probable daughter · 84%",
+        "reason": "Select William Glasgow-2426 as Margaret Glasgow’s probable father at 84%. That profile represents William, son of James Glasgow-1025 and Margaret Rutherford, which matches the letter’s maternal-grandfather family position. The letter explicitly names the eldest daughter Margaret as the minister’s wife and the writer’s mother. The profile’s circa-1735 birth and circa-1829 United States death are inherited claims, not exclusionary records and not corrected here. The letter calls William an eldest son; the circa-1735 estimate conflicts with the earlier estimated births of his attached brothers. Those unverified estimates require checking and are preserved here. This is the maternal grandfather, distinct from the Cunningham husband. Original records and an independent adult-life bridge remain to be found."
+      }
+    },
+    "probability": {
+      "band": "probable",
+      "label": "Probable · 84%",
+      "minimum": 0.6,
+      "maximum": 0.89,
+      "rank": 3,
+      "value": 0.84,
+      "method": "individual_evidence_assessment",
+      "origin": "research",
+      "basis": "Select William Glasgow-2426 as Margaret Glasgow’s probable father at 84%. That profile represents William, son of James Glasgow-1025 and Margaret Rutherford, which matches the letter’s maternal-grandfather family position. The letter explicitly names the eldest daughter Margaret as the minister’s wife and the writer’s mother. The profile’s circa-1735 birth and circa-1829 United States death are inherited claims, not exclusionary records and not corrected here. The letter calls William an eldest son; the circa-1735 estimate conflicts with the earlier estimated births of his attached brothers. Those unverified estimates require checking and are preserved here. This is the maternal grandfather, distinct from the Cunningham husband. Original records and an independent adult-life bridge remain to be found.",
+      "reviewed": "2026-10-20",
+      "source_ids": [
+        "killycurragh-glasgow-family-letter-t1959-3"
+      ],
+      "assertion_id": "C-working-20261020-coleraine-margaret-father",
+      "scope": "These are exact subjective assessments of complete relationship-and-identity propositions, not measured probabilities. The family letter is undated and unsigned and is read through Albert Rutherford’s published transcription of a photocopy, not an inspected PRONI original. The minister list is a derivative compilation whose independence from the family tradition is unproved. The Scottish adult identities remain possible: neither the letter nor the 1705 baptism supplies a migration, occupation, property or witness bridge between Kirknewton and Tyrone. The letter’s three-son family and second-cousin statement are internally consistent clues from one source, not independent corroborations. Existing people, vital fields and mothers are preserved. Miss Cunningham and Anne Rutherford are reported maternal names, not transferred to existing maternal profiles. The letter’s first-settler story is family tradition, not proof of the first Glasgow in Tyrone or of the surname’s origin."
+    }
+  },
+  {
+    "assertion_id": "C-working-20261020-coleraine-john-margaret-spouses",
+    "people": [
+      "record-john-glasgow-new-row-1801",
+      "record-margaret-glasgow-coleraine-1817"
+    ],
+    "profile_names": {
+      "record-john-glasgow-new-row-1801": "Rev. John Glasgow of New Row, Coleraine",
+      "record-margaret-glasgow-coleraine-1817": "Margaret Glasgow, wife of the Coleraine minister"
+    },
+    "status": "strongly_supported",
+    "hypothesis_status": "strongly_supported",
+    "publication_status": "approved",
+    "working_selection": true,
+    "allow_new_relationship": true,
+    "assessment_date": "2026-10-20",
+    "claim": "Select Rev",
+    "basis": "Select Rev. John Glasgow and Margaret Glasgow as strongly supported spouses at 94%. The writer expressly describes their marriage after his Coleraine ordination and an earlier daughter and the later-born writer; the minister’s separate church-list entry fits the stated July 1801 death. No precise wedding date is supplied.",
+    "limitations": "These are exact subjective assessments of complete relationship-and-identity propositions, not measured probabilities. The family letter is undated and unsigned and is read through Albert Rutherford’s published transcription of a photocopy, not an inspected PRONI original. The minister list is a derivative compilation whose independence from the family tradition is unproved. The Scottish adult identities remain possible: neither the letter nor the 1705 baptism supplies a migration, occupation, property or witness bridge between Kirknewton and Tyrone. The letter’s three-son family and second-cousin statement are internally consistent clues from one source, not independent corroborations. Existing people, vital fields and mothers are preserved. Miss Cunningham and Anne Rutherford are reported maternal names, not transferred to existing maternal profiles. The letter’s first-settler story is family tradition, not proof of the first Glasgow in Tyrone or of the surname’s origin.",
+    "source_ids": [
+      "killycurragh-glasgow-family-letter-t1959-3",
+      "new-row-john-glasgow-ministry-1796-1801"
+    ],
+    "analysis_links": [
+      {
+        "label": "Killycurragh family generations",
+        "href": "/free-space/glasgow-of-killycurragh-early-c19-aa9477/"
+      }
+    ],
+    "perspectives": {
+      "record-john-glasgow-new-row-1801": {
+        "relationship": "spouse",
+        "status_label": "Strongly supported spouse · 94%",
+        "reason": "Select Rev. John Glasgow and Margaret Glasgow as strongly supported spouses at 94%. The writer expressly describes their marriage after his Coleraine ordination and an earlier daughter and the later-born writer; the minister’s separate church-list entry fits the stated July 1801 death. No precise wedding date is supplied."
+      },
+      "record-margaret-glasgow-coleraine-1817": {
+        "relationship": "spouse",
+        "status_label": "Strongly supported spouse · 94%",
+        "reason": "Select Rev. John Glasgow and Margaret Glasgow as strongly supported spouses at 94%. The writer expressly describes their marriage after his Coleraine ordination and an earlier daughter and the later-born writer; the minister’s separate church-list entry fits the stated July 1801 death. No precise wedding date is supplied."
+      }
+    },
+    "probability": {
+      "band": "confident",
+      "label": "Confident · 94%",
+      "minimum": 0.9,
+      "maximum": 0.99,
+      "rank": 4,
+      "value": 0.94,
+      "method": "individual_evidence_assessment",
+      "origin": "research",
+      "basis": "Select Rev. John Glasgow and Margaret Glasgow as strongly supported spouses at 94%. The writer expressly describes their marriage after his Coleraine ordination and an earlier daughter and the later-born writer; the minister’s separate church-list entry fits the stated July 1801 death. No precise wedding date is supplied.",
+      "reviewed": "2026-10-20",
+      "source_ids": [
+        "killycurragh-glasgow-family-letter-t1959-3",
+        "new-row-john-glasgow-ministry-1796-1801"
+      ],
+      "assertion_id": "C-working-20261020-coleraine-john-margaret-spouses",
+      "scope": "These are exact subjective assessments of complete relationship-and-identity propositions, not measured probabilities. The family letter is undated and unsigned and is read through Albert Rutherford’s published transcription of a photocopy, not an inspected PRONI original. The minister list is a derivative compilation whose independence from the family tradition is unproved. The Scottish adult identities remain possible: neither the letter nor the 1705 baptism supplies a migration, occupation, property or witness bridge between Kirknewton and Tyrone. The letter’s three-son family and second-cousin statement are internally consistent clues from one source, not independent corroborations. Existing people, vital fields and mothers are preserved. Miss Cunningham and Anne Rutherford are reported maternal names, not transferred to existing maternal profiles. The letter’s first-settler story is family tradition, not proof of the first Glasgow in Tyrone or of the surname’s origin."
+    }
+  },
+  {
+    "assertion_id": "C-review-20261020-killycurragh-james-william-brothers",
+    "people": [
+      "Glasgow-1025",
+      "Glasgow-1318"
+    ],
+    "profile_names": {
+      "Glasgow-1025": "James Glasgow",
+      "Glasgow-1318": "William Glasgow"
+    },
+    "status": "possible",
+    "hypothesis_status": "possible",
+    "publication_status": "approved",
+    "working_selection": true,
+    "allow_new_relationship": false,
+    "assessment_date": "2026-10-20",
+    "claim": "Assess James Glasgow-1025 and William Glasgow-1318 as possible brothers at 38%, scoped to the proposed Irish adult identities",
+    "basis": "Assess James Glasgow-1025 and William Glasgow-1318 as possible brothers at 38%, scoped to the proposed Irish adult identities. The letter expressly makes its James/Margaret Rutherford husband and older Killycurragh William brothers, while the Scottish William is a compatible younger-generation candidate. Their existing shared father field does not prove that adult identification. This and the 32%/36% father assessments reuse the same cluster evidence and must not be treated as independent measurements.",
+    "limitations": "These are exact subjective assessments of complete relationship-and-identity propositions, not measured probabilities. The family letter is undated and unsigned and is read through Albert Rutherford’s published transcription of a photocopy, not an inspected PRONI original. The minister list is a derivative compilation whose independence from the family tradition is unproved. The Scottish adult identities remain possible: neither the letter nor the 1705 baptism supplies a migration, occupation, property or witness bridge between Kirknewton and Tyrone. The letter’s three-son family and second-cousin statement are internally consistent clues from one source, not independent corroborations. Existing people, vital fields and mothers are preserved. Miss Cunningham and Anne Rutherford are reported maternal names, not transferred to existing maternal profiles. The letter’s first-settler story is family tradition, not proof of the first Glasgow in Tyrone or of the surname’s origin.",
+    "source_ids": [
+      "killycurragh-glasgow-family-letter-t1959-3",
+      "kirknewton-william-william-child-1705",
+      "calder-john-william-child-1702"
+    ],
+    "analysis_links": [
+      {
+        "label": "Killycurragh family generations",
+        "href": "/free-space/glasgow-of-killycurragh-early-c19-aa9477/"
+      }
+    ],
+    "perspectives": {
+      "Glasgow-1025": {
+        "relationship": "sibling",
+        "status_label": "Possible sibling · 38%",
+        "reason": "Assess James Glasgow-1025 and William Glasgow-1318 as possible brothers at 38%, scoped to the proposed Irish adult identities. The letter expressly makes its James/Margaret Rutherford husband and older Killycurragh William brothers, while the Scottish William is a compatible younger-generation candidate. Their existing shared father field does not prove that adult identification. This and the 32%/36% father assessments reuse the same cluster evidence and must not be treated as independent measurements."
+      },
+      "Glasgow-1318": {
+        "relationship": "sibling",
+        "status_label": "Possible sibling · 38%",
+        "reason": "Assess James Glasgow-1025 and William Glasgow-1318 as possible brothers at 38%, scoped to the proposed Irish adult identities. The letter expressly makes its James/Margaret Rutherford husband and older Killycurragh William brothers, while the Scottish William is a compatible younger-generation candidate. Their existing shared father field does not prove that adult identification. This and the 32%/36% father assessments reuse the same cluster evidence and must not be treated as independent measurements."
+      }
+    },
+    "probability": {
+      "band": "possible",
+      "label": "Possible · 38%",
+      "minimum": 0.3,
+      "maximum": 0.59,
+      "rank": 2,
+      "value": 0.38,
+      "method": "individual_evidence_assessment",
+      "origin": "research",
+      "basis": "Assess James Glasgow-1025 and William Glasgow-1318 as possible brothers at 38%, scoped to the proposed Irish adult identities. The letter expressly makes its James/Margaret Rutherford husband and older Killycurragh William brothers, while the Scottish William is a compatible younger-generation candidate. Their existing shared father field does not prove that adult identification. This and the 32%/36% father assessments reuse the same cluster evidence and must not be treated as independent measurements.",
+      "reviewed": "2026-10-20",
+      "source_ids": [
+        "killycurragh-glasgow-family-letter-t1959-3",
+        "kirknewton-william-william-child-1705",
+        "calder-john-william-child-1702"
+      ],
+      "assertion_id": "C-review-20261020-killycurragh-james-william-brothers",
+      "scope": "These are exact subjective assessments of complete relationship-and-identity propositions, not measured probabilities. The family letter is undated and unsigned and is read through Albert Rutherford’s published transcription of a photocopy, not an inspected PRONI original. The minister list is a derivative compilation whose independence from the family tradition is unproved. The Scottish adult identities remain possible: neither the letter nor the 1705 baptism supplies a migration, occupation, property or witness bridge between Kirknewton and Tyrone. The letter’s three-son family and second-cousin statement are internally consistent clues from one source, not independent corroborations. Existing people, vital fields and mothers are preserved. Miss Cunningham and Anne Rutherford are reported maternal names, not transferred to existing maternal profiles. The letter’s first-settler story is family tradition, not proof of the first Glasgow in Tyrone or of the surname’s origin."
+    }
+  },
+  {
+    "assertion_id": "C-review-20261020-james1025-william-father-cluster",
+    "people": [
+      "Glasgow-1025",
+      "Glasgow-1026"
+    ],
+    "profile_names": {
+      "Glasgow-1025": "James Glasgow",
+      "Glasgow-1026": "William Walter Glasgow"
+    },
+    "status": "possible",
+    "hypothesis_status": "possible",
+    "publication_status": "approved",
+    "working_selection": true,
+    "allow_new_relationship": false,
+    "assessment_date": "2026-10-20",
+    "claim": "Reassess James Glasgow-1025’s existing William Glasgow-1026 father hypothesis from 12% to 32% (possible)",
+    "basis": "Reassess James Glasgow-1025’s existing William Glasgow-1026 father hypothesis from 12% to 32% (possible). The newly read full family-letter sequence explicitly supplies James, husband of Margaret Rutherford, as a son of the Tullycoll/Tullyall William, with brothers John and William. This adds a named father role and a three-son comparison to the compatible Kirknewton William/John baptisms. It supports testing that household more than chronology alone did. The letter-defined Irish father has not been identified with the Kirknewton adult, and the James profile’s estimated generation and 1759 Drumcarn probate identity remain unproved. No independent migration or property bridge has been found. The old 12% assessment and its sources remain in the history; no live father attachment is changed.",
+    "limitations": "These are exact subjective assessments of complete relationship-and-identity propositions, not measured probabilities. The family letter is undated and unsigned and is read through Albert Rutherford’s published transcription of a photocopy, not an inspected PRONI original. The minister list is a derivative compilation whose independence from the family tradition is unproved. The Scottish adult identities remain possible: neither the letter nor the 1705 baptism supplies a migration, occupation, property or witness bridge between Kirknewton and Tyrone. The letter’s three-son family and second-cousin statement are internally consistent clues from one source, not independent corroborations. Existing people, vital fields and mothers are preserved. Miss Cunningham and Anne Rutherford are reported maternal names, not transferred to existing maternal profiles. The letter’s first-settler story is family tradition, not proof of the first Glasgow in Tyrone or of the surname’s origin.",
+    "source_ids": [
+      "kirknewton-bessie-1682-william-household",
+      "james-drumcarn-will-index-1759",
+      "killycurragh-glasgow-family-letter-t1959-3",
+      "kirknewton-william-william-child-1705",
+      "calder-john-william-child-1702"
+    ],
+    "analysis_links": [
+      {
+        "label": "Killycurragh family generations",
+        "href": "/free-space/glasgow-of-killycurragh-early-c19-aa9477/"
+      }
+    ],
+    "perspectives": {
+      "Glasgow-1025": {
+        "relationship": "father",
+        "status_label": "Possible father · 32%",
+        "reason": "Reassess James Glasgow-1025’s existing William Glasgow-1026 father hypothesis from 12% to 32% (possible). The newly read full family-letter sequence explicitly supplies James, husband of Margaret Rutherford, as a son of the Tullycoll/Tullyall William, with brothers John and William. This adds a named father role and a three-son comparison to the compatible Kirknewton William/John baptisms. It supports testing that household more than chronology alone did. The letter-defined Irish father has not been identified with the Kirknewton adult, and the James profile’s estimated generation and 1759 Drumcarn probate identity remain unproved. No independent migration or property bridge has been found. The old 12% assessment and its sources remain in the history; no live father attachment is changed."
+      },
+      "Glasgow-1026": {
+        "relationship": "son",
+        "status_label": "Possible son · 32%",
+        "reason": "Reassess James Glasgow-1025’s existing William Glasgow-1026 father hypothesis from 12% to 32% (possible). The newly read full family-letter sequence explicitly supplies James, husband of Margaret Rutherford, as a son of the Tullycoll/Tullyall William, with brothers John and William. This adds a named father role and a three-son comparison to the compatible Kirknewton William/John baptisms. It supports testing that household more than chronology alone did. The letter-defined Irish father has not been identified with the Kirknewton adult, and the James profile’s estimated generation and 1759 Drumcarn probate identity remain unproved. No independent migration or property bridge has been found. The old 12% assessment and its sources remain in the history; no live father attachment is changed."
+      }
+    },
+    "assessment_history": [
+      {
+        "reviewed": "2026-10-17",
+        "status": "uncertain",
+        "percent": 12,
+        "basis": "The corrected older William householder is chronologically capable of fathering a James around 1700: a nominal 40-year interval fits, and the proposed child falls within William's reconstructed 1682–1705 family span. But James has no identified Kirknewton baptism, occupation, property, marriage or named associate connecting him to that household. His Tyrone/Moneymore setting and William's alleged Tyrone death are inherited fields, not an independently established migration. The proposed James generation is itself unanchored. The 12% estimate grants limited weight to an existing pedigree hypothesis with a viable generation, while the absence of a specific identity or family connection and numerous Irish/Scottish alternatives dominate. It is not a band midpoint or a statistical frequency.",
+        "source_ids": [
+          "kirknewton-bessie-1682-william-household",
+          "james-drumcarn-will-index-1759"
+        ],
+        "prior_estimate": {
+          "subject_id": "Glasgow-1025",
+          "relative_id": "Glasgow-1026",
+          "relationship": "father",
+          "percent": 12,
+          "assessment_status": "uncertain",
+          "basis": "The corrected older William householder is chronologically capable of fathering a James around 1700: a nominal 40-year interval fits, and the proposed child falls within William's reconstructed 1682–1705 family span. But James has no identified Kirknewton baptism, occupation, property, marriage or named associate connecting him to that household. His Tyrone/Moneymore setting and William's alleged Tyrone death are inherited fields, not an independently established migration. The proposed James generation is itself unanchored. The 12% estimate grants limited weight to an existing pedigree hypothesis with a viable generation, while the absence of a specific identity or family connection and numerous Irish/Scottish alternatives dominate. It is not a band midpoint or a statistical frequency.",
+          "source_ids": [
+            "kirknewton-bessie-1682-william-household",
+            "james-drumcarn-will-index-1759"
+          ],
+          "source_references": [
+            {
+              "reference": "PRONI Name Search, Armagh diocesan wills index: James Glasgow, Drumcarn, County Tyrone, 17 January 1759; no age or kin; date meaning/profile identity unresolved",
+              "url": "https://www.proni.gov.uk/name-search"
+            },
+            {
+              "reference": "1740 Protestant householders, Derryloran: Jas Glasgo records 14391/list128 and 14393/list130; Wm Glascy 14466/list203; Wm Glasgow 14571/list308; PDF p.119",
+              "url": "https://www.billmacafee.com/1740returns/1740religiousreturnsulstername.pdf"
+            },
+            {
+              "reference": "1766 Derryloran return, NAI IHP/1/665; RCBL MS23 transcript pp.162–163: two Jas Glasgo and Jn Glasgo at Drumearn",
+              "url": "https://virtualtreasury.ie/item/NAI-IHP-1-665"
+            },
+            {
+              "reference": "David Faris, The Glasgow Family of Adams County, Ohio (1990), WorldCat catalogue father attribution",
+              "url": "https://search.worldcat.org/title/22731567"
+            },
+            {
+              "reference": "Robert Glasgow pension declaration R4057, 1834: County Derry birth in 1749, Virginia arrival 1769, no parents named",
+              "url": "https://revwarapps.org/r4057.pdf"
+            },
+            {
+              "reference": "Kirknewton Bessie baptism, 21 April 1682, FamilySearch VQ4K-ZQN; John, 29 November 1702, VQ4K-XZ7; William, 22 April 1705, VQ4K-FY9",
+              "url": "https://www.familysearch.org/ark:/61903/1:1:VQ4K-ZQN"
+            }
+          ],
+          "reviewed": "2026-10-17",
+          "review_kind": "individual calibration of an existing father; no topology change"
+        }
+      }
+    ],
+    "probability": {
+      "band": "possible",
+      "label": "Possible · 32%",
+      "minimum": 0.3,
+      "maximum": 0.59,
+      "rank": 2,
+      "value": 0.32,
+      "method": "individual_evidence_assessment",
+      "origin": "research",
+      "basis": "Reassess James Glasgow-1025’s existing William Glasgow-1026 father hypothesis from 12% to 32% (possible). The newly read full family-letter sequence explicitly supplies James, husband of Margaret Rutherford, as a son of the Tullycoll/Tullyall William, with brothers John and William. This adds a named father role and a three-son comparison to the compatible Kirknewton William/John baptisms. It supports testing that household more than chronology alone did. The letter-defined Irish father has not been identified with the Kirknewton adult, and the James profile’s estimated generation and 1759 Drumcarn probate identity remain unproved. No independent migration or property bridge has been found. The old 12% assessment and its sources remain in the history; no live father attachment is changed.",
+      "reviewed": "2026-10-20",
+      "source_ids": [
+        "kirknewton-bessie-1682-william-household",
+        "james-drumcarn-will-index-1759",
+        "killycurragh-glasgow-family-letter-t1959-3",
+        "kirknewton-william-william-child-1705",
+        "calder-john-william-child-1702"
+      ],
+      "assertion_id": "C-review-20261020-james1025-william-father-cluster",
+      "scope": "These are exact subjective assessments of complete relationship-and-identity propositions, not measured probabilities. The family letter is undated and unsigned and is read through Albert Rutherford’s published transcription of a photocopy, not an inspected PRONI original. The minister list is a derivative compilation whose independence from the family tradition is unproved. The Scottish adult identities remain possible: neither the letter nor the 1705 baptism supplies a migration, occupation, property or witness bridge between Kirknewton and Tyrone. The letter’s three-son family and second-cousin statement are internally consistent clues from one source, not independent corroborations. Existing people, vital fields and mothers are preserved. Miss Cunningham and Anne Rutherford are reported maternal names, not transferred to existing maternal profiles. The letter’s first-settler story is family tradition, not proof of the first Glasgow in Tyrone or of the surname’s origin."
+    }
   }
 ]

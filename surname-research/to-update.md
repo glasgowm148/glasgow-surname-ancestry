@@ -2505,3 +2505,13 @@ Burial-defined Walter remains on source-verification HOLD in the existing creati
 | [Glasgow-428](https://www.wikitree.com/wiki/Glasgow-428) | OPEN | Withdraw provisional William predecessor reading after enlarged original-deed inspection; retain possible father Daniel-1158 for William-428 at 42%, no attachment or certainty change. |
 | [Glasgow-1158](https://www.wikitree.com/wiki/Glasgow-1158) | OPEN | Withdraw provisional William predecessor reading after enlarged original-deed inspection; retain possible father Daniel-1158 for William-428 at 42%, no attachment or certainty change. |
 | [Glasgow-3322](https://www.wikitree.com/wiki/Glasgow-3322) | OPEN | Withdraw provisional William predecessor reading after enlarged original-deed inspection; retain possible father Daniel-1158 for William-428 at 42%, no attachment or certainty change. |
+
+
+## Killycurragh generations and Coleraine couple —20 October2026
+
+| [William Glasgow](https://www.wikitree.com/wiki/Glasgow-1318) | OPEN | New possible son: the Killycurragh Cunningham husband, 36%; Scottish child-to-adult identity remains unproved. |
+| [James Glasgow](https://www.wikitree.com/wiki/Glasgow-1025) | OPEN | Existing father William-1026 reassessed from 12% to 32%, possible; new full-letter family context, migration still unproved. |
+| [William Walter Glasgow](https://www.wikitree.com/wiki/Glasgow-1026) | OPEN | James-1025’s existing son relationship is now possible at 32%; the Killycurragh route remains a qualified Scottish identity hypothesis. |
+| [William Glasgow](https://www.wikitree.com/wiki/Glasgow-2426) | OPEN | New probable daughter Margaret, wife of Rev. John of Coleraine, 84%; distinguish the letter’s two William grandfathers. |
+| [Samuel Glasgow](https://www.wikitree.com/wiki/Glasgow-1698) | OPEN | Existing father remains 66%; the named grandfather now has a possible 36% father candidate and a strongly supported minister son. |
+| [James Glasgow](https://www.wikitree.com/wiki/Glasgow-4145) | OPEN | Existing father remains 82%; distinguish the two Killycurragh William generations and the minister’s 94% father role. |
