@@ -135,7 +135,7 @@ Results with 0.3.0:
   - The browser fixture smoke check passes (9 pages, 0 failures).
 - **Public clone with the new pin and these changes (Python 3.13):** 908 tests, 200 skipped for absent private artifacts. One error came from a missing `rsync` binary in that environment, not from the code.
 
-Not yet done: the toolkit commits are local. Push them, and tag `v0.3.0` if wanted, before pushing the Glasgow commit that pins `afb4aa3`.
+The toolkit commits were later published (see below).
 
 ### Follow-up, 20 October 2026
 
@@ -165,3 +165,16 @@ Later the same morning:
 - **Places:** the toolkit groups places by recorded country or region.
 - **Estimates:** relationships accept an optional assessed percentage estimate.
 - **Pin:** the pin is the final local `v0.3.0` tag, `21a45d4`. The toolkit has 123 tests, 6 opt-in skips, and its 6 browser checks, including the accessibility audit, pass.
+
+### Publication, 20 October 2026
+
+The toolkit was pushed first, then Glasgow:
+
+- **Toolkit:** `main` and the `v0.3.0` tag resolve to `21a45d4`. The v0.3.0 GitHub release carries the wheel and source archive.
+- **Glasgow:** `main` is at `9ff9d4e`.
+
+Hosted checks:
+
+- **CI:** passed for the toolkit's [`main`](https://github.com/glasgowm148/genealogy-research-workbench/actions/runs/39398507876) and [tag](https://github.com/glasgowm148/genealogy-research-workbench/actions/runs/39398507850) runs (Python 3.11–3.14 package/test jobs and the browser job with the axe audit), and for [Glasgow](https://github.com/glasgowm148/glasgow-surname-ancestry/actions/runs/39398522329).
+- **Fresh public clone:** a recursive clone of Glasgow fetched the published `v0.3.0` submodule, installed from base requirements only, and passed `pip check` and the toolkit integration, link-checker, privacy and evidence-label tests.
+- **Release package:** the downloaded release wheel installed on Python 3.11, imported the fictional GEDCOM and built a 42-person site with no broken links.
