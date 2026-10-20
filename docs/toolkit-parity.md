@@ -2,7 +2,7 @@
 
 This compares what the Glasgow site does with what the reusable
 [genealogy-research-workbench](https://github.com/glasgowm148/genealogy-research-workbench)
-(`v0.3.0`, pinned in `vendor/`) builds from someone else's GEDCOM or OneTree export.
+(`v0.4.0`, pinned in `vendor/`) builds from someone else's GEDCOM or OneTree export.
 It was checked against the toolkit code, its fictional demo and imports of the
 real local exports. Those imports were inspected locally and read-only; no real
 data entered the toolkit repository.
@@ -16,7 +16,7 @@ Classes used below:
 
 ## Matrix
 
-| Capability | Glasgow site | Workbench 0.3.0 | Class |
+| Capability | Glasgow site | Workbench 0.4.0 | Class |
 | --- | --- | --- | --- |
 | People catalogue, search and filters | Name, relative, date, place and evidence filters; worker search shards | Search across names, relatives, places and events; surname, year-range and evidence filters; sort; pagination | Reusable. Sharded search indexes are only needed well beyond about 5,000 people. |
 | Person dossiers | Resolved model, family, evidence labels, conclusions, open questions | Names, life dates, family (parents, partners and marriages, children, siblings), events, claims with citations and evidence, linked research | Reusable. Written conclusions need research (`Finding` records). |
@@ -29,12 +29,36 @@ Classes used below:
 | Maps | Atlas with location precision, country summaries, Irish/Scottish gazetteer | Offline map of supplied coordinates with a `precision` field; broad locations are drawn as dashed rings; places grouped and summarised by recorded country or region; GeoJSON | Reusable. The gazetteer data is Glasgow-specific. No geocoding by design. |
 | Comparisons and connections | Compare people; shortest connection | Same, over public recorded relationships | Reusable |
 | Research studies | Free-space edition, study pages with rationale and linked subjects | `Study` records: rationale, escaped Markdown body with `[[record]]` references, conclusion, linked subjects; study pages and index with links both ways | Reusable. The content needs research; WikiTree free-space import is Glasgow-specific. |
-| Findings log | `/latest-findings/` dated discovery log and feed | `Finding.recorded_on`; a dated Latest findings log, newest first; an Atom feed when `site.base_url` is set | Reusable |
+| Findings log | `/latest-findings/` dated discovery log and feed | `Finding.recorded_on`; a dated Latest findings log, newest first; an Atom feed when `site.base_url` is set | Reusable. Glasgow's feed is written by the shared `genealogy.feeds.atom_feed`. |
 | Drafts and outstanding work | WikiTree profile drafts, diffs, amendment queue and register | Open questions, hypotheses and draft findings listed first | Reusable for research work. The WikiTree editing workflow stays in Glasgow. |
 | Privacy filtering | `PublicPrivacy` repair of legacy JSON, search tables and routes | One fail-closed projection feeding every page, the data script, GEDCOM, GeoJSON, CSV and sitemap | Reusable. Glasgow's repairs are specific to its legacy data shapes. |
 | Sitemaps and downloads | XML sitemap, reader sitemap, client-side GEDCOM | `sitemap.html`; `sitemap.xml` and canonical links with `site.base_url`; JSON, CSV, GeoJSON, GEDCOM 5.5.1 | Reusable |
 | DNA | Y-DNA branches, comparisons, priorities | Adapter boundary only; raw DNA is rejected | Needs research, and stays optional |
+| Import formats and media | WikiTree API captures, GEDCOM, OneTree | GEDCOM 5.5.1 and 7, GEDCOM 7 `.gdz` archives, OneTree JSON. Archive media stay in the private copy and are never published | Reusable. Publishing media needs rights review, which is research. |
 | Internal link checking | `tools/check_internal_links.py` with a baseline | `genealogy.sitecheck` and `genealogy check-links`, with a ratcheting baseline | Reusable. Glasgow's checker now uses it and adds its own cause classification. |
+
+## Page-by-page adoption of shared code
+
+Glasgow's pages are built by its own tools from WikiTree captures, research
+ledgers and the existing `www/` shell. The workbench builds every page from one
+`ResearchCase`. Replacing a Glasgow builder with a workbench page would mean
+moving Glasgow's research into case records first. So adoption is per piece:
+a shared function is used where its output is identical or strictly better,
+and it is checked against the real build before it lands.
+
+| Page | Glasgow builder | Shared code used | Not adopted, and why |
+| --- | --- | --- | --- |
+| Latest findings (`/latest-findings/`, `feed.xml`) | `tools/build_latest_findings.py` from `research/latest-findings.json` | `genealogy.feeds.atom_feed` writes the feed. The output was byte-identical for all 864 findings before and after the change. | The page, kinds, statuses and pagination stay in Glasgow. Glasgow's ledger has fields (`kind`, `qualification`, `relationship_changes`) that `Finding` does not have. |
+| Evidence guide and badges (`/evidence/`) | `tools/evidence_labels.py` | `genealogy.labels` vocabulary for toolkit grades and claim statuses | Glasgow's percentage bands and legacy aliases stay local. |
+| Studies (`/branches/<study>/`, free-space edition) | `tools/build_study_pages.py`, `tools/free_space_edition.py` | None | Study prose is WikiTree wikitext parsed with `mwparserfromhell`. The workbench's `genealogy.markup` is a Markdown subset with `[[record-id]]` references, so it would change the text. Glasgow's study layout (timelines, connection diagrams, locator maps) has no workbench equivalent. |
+| Branches (`/branches/`) | `tools/build_branches_directory.py` | None | Branches are hand-named, with Y-DNA and country colours. The workbench's surname and connected-family groups are computed, so they would replace curated content. |
+| Internal links | `tools/check_internal_links.py` | `genealogy.sitecheck` | Glasgow keeps its cause classification and baseline. |
+
+Next candidates, in order of risk:
+
+1. **Dossier family roles.** Glasgow could use `genealogy.labels.parent_role`/`child_role` for step, adoptive and foster wording. The check: compare every dossier's family section before and after.
+2. **Findings as case records.** Write `research/latest-findings.json` rows as toolkit `Finding` records through `tools/genealogy_bridge.py`, with Glasgow-only fields kept in the ledger. The ledger stays the source until the two agree for every row.
+3. **Studies.** Adoption needs a wikitext-to-Markdown conversion that keeps every reference. Until that exists, Glasgow's builder is the right tool.
 
 ## What an export cannot recreate
 
