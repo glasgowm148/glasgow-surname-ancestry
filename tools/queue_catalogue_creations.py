@@ -286,7 +286,7 @@ def apply_creations(root=ROOT):
     assessments = _read(web / "assets/research/assessments.json", {}).get("assessments", [])
     shared = _read(root / "research/relationship_assessments.json", [])
     dossiers = {slug: resolve(dossier, assessments, shared) for slug, dossier in dossiers.items()}
-    from tools.publish_resolved_dossiers import project_catalogue_spouses
+    from tools.publish_resolved_dossiers import project_catalogue_spouses, project_catalogue_parents
     project_catalogue_spouses(people, {d['id'].casefold(): d for d in dossiers.values()})
     searches = []
     public_index = _read(web / "data/people-index.json", [])
@@ -322,6 +322,7 @@ def apply_creations(root=ROOT):
             from tools.site_analytics import with_analytics
             (web / f"people/{slug}.html").write_text(with_analytics(str(soup)), encoding="utf-8")
             searches.append(_search_row(person, dossier))
+        project_catalogue_parents(searches, {d["id"].casefold(): d for d in dossiers.values()})
         # Context assets belong to complete sites; tiny build fixtures may omit them.
         if (web / "assets/research/registry.json").exists():
             cases.publish_context(people, dossiers)

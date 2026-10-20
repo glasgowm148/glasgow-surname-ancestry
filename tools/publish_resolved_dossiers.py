@@ -428,6 +428,9 @@ def project_catalogue_spouses(rows, reviewed):
                     'id', 'name', 'url', 'wikitree_url', 'status', 'probability',
                     'record_scope', 'claim_id', 'relationship_source', 'source_ids')
                 if key in proposal}}
+            partners[ident]['certainty'] = proposal.get('status') or 'unmarked'
+            partners[ident]['certainty_label'] = (proposal.get('status_label')
+                or partners[ident]['certainty'].replace('_', ' '))
         row['spouses'] = list(partners.values())
         row['spouse_review'] = {'original_fields': originals}
     return rows

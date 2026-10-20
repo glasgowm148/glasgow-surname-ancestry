@@ -91,6 +91,8 @@ class ReviewedSpousesTests(unittest.TestCase):
         self.assertEqual([r['id'] for r in rows[0]['spouses']], ['Other-1', 'record-bride'])
         self.assertEqual(rows[1]['spouses'][0]['id'], 'A-1')
         self.assertEqual(rows[0]['spouses'][-1]['probability']['value'], .88)
+        self.assertEqual(rows[0]['spouses'][-1]['certainty'], 'probable')
+        self.assertEqual(rows[0]['spouses'][-1]['certainty_label'], 'probable')
         previous = deepcopy(rows)
         self.assertEqual(project_catalogue_spouses(rows, reviewed), previous)
         project_catalogue_spouses(rows, {})

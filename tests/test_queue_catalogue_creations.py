@@ -53,6 +53,31 @@ The deed does not give her birth date. No compatible profile survived the docume
     def read(self, relative):
         return json.loads((self.root / "www" / relative).read_text())
 
+    def test_creation_search_uses_reviewed_father_and_keeps_unknown_mother(self):
+        assessment = {
+            "assertion_id": "C-reviewed-jane-father", "people": [self.slug, "Glasgow-9001"],
+            "profile_names": {self.slug: "Jane Glasgow", "Glasgow-9001": "William Glasgow"},
+            "status": "strongly_supported", "publication_status": "approved",
+            "working_selection": True, "allow_new_relationship": True,
+            "basis": "Reviewed deed identifies Jane's father.",
+            "source_ids": ["test-deed-1775"],
+            "perspectives": {
+                self.slug: {"relationship": "father", "reason": "The reviewed deed names her father."},
+                "Glasgow-9001": {"relationship": "daughter", "reason": "The reviewed deed names Jane."},
+            },
+        }
+        path = self.root / "research/relationship_assessments.json"
+        path.write_text(json.dumps([assessment]))
+        for _ in range(2):
+            module.apply_creations(self.root)
+            dossier = self.read(f"people/{self.slug}.json")
+            row = self.read("data/catalogue-search-index.json")[0]
+            self.assertEqual(dossier["relationships"]["parents"][0]["id"], "Glasgow-9001")
+            self.assertEqual([p["id"] for p in row["father"]], ["Glasgow-9001"])
+            self.assertFalse(row["missing_father"])
+            self.assertTrue(row["missing_mother"])
+            self.assertEqual(row["mother"], [])
+
     def test_integrates_main_filters_complete_draft_evidence_and_is_idempotent(self):
         self.assertEqual(module.apply_creations(self.root)["count"], 1)
         module.apply_creations(self.root)
