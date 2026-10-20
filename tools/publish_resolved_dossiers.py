@@ -494,7 +494,10 @@ def publish(root=ROOT / 'www'):
             continue
         original = json.loads(path.read_text())
         resolved = resolve(original, assessments, shared)
-        if resolved.get('data_view') == 'reviewed':
+        # A superseded record subject's redirect stub carries the id of the
+        # person it now points to; only that person's own dossier feeds the
+        # network and index projections.
+        if resolved.get('data_view') == 'reviewed' and not resolved.get('redirect_to'):
             reviewed[resolved['id'].casefold()] = resolved
         if resolved != original:
             path.write_text(json.dumps(resolved, ensure_ascii=False, separators=(',', ':')) + '\n')

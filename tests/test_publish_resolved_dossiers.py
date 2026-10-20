@@ -163,6 +163,30 @@ class ResolvedDossierTests(unittest.TestCase):
         self.assertEqual(resolved['relationships']['parents'][0]['status'],'uncertain')
         self.assertEqual(resolved['imported']['sections']['relationships'],original['relationships'])
 
+    def test_redirect_stub_sharing_an_id_does_not_replace_the_dossier_in_projections(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            row = {'id': 'Parent-2', 'name': 'A parent', 'claim_id': 'claim-1', 'json_url': '/people/parent-2.json',
+                   'historical_claim_ids': ['claim-0']}
+            dossier = {'id': 'Person-1', 'data_view': 'reviewed', 'relationships': {'parents': [row]},
+                       'claims': [], 'research_assessments': []}
+            stub = {'id': 'Person-1', 'status': 'superseded', 'redirect_to': '/people/person-1.json', 'data_view': 'reviewed',
+                    'relationships': {'parents': [{'id': 'Parent-2', 'name': 'A parent', 'claim_id': 'claim-1'}]},
+                    'claims': [], 'research_assessments': []}
+            files = {'people/person-1.json': dossier, 'people/record-zz-retired.json': stub,
+                     'people/person-1.network.json': {'person': {'id': 'Person-1'}, 'relationships': []},
+                     'assets/research/assessments.json': {'assessments': []}}
+            for name, value in files.items():
+                path = root / name
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_text(json.dumps(value))
+            module.publish(root)
+            network = json.loads((root / 'people/person-1.network.json').read_text())
+            published = json.loads((root / 'people/person-1.json').read_text())
+            self.assertEqual(published['relationships']['parents'], network['relationships'])
+            self.assertEqual('/people/parent-2.json', network['relationships'][0]['json_url'])
+            self.assertEqual(['claim-0'], network['relationships'][0]['historical_claim_ids'])
+
     def test_chronology_vitals_are_published_and_revocable(self):
         with tempfile.TemporaryDirectory() as temp:
             root=Path(temp)
