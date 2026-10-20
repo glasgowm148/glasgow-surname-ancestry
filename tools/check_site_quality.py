@@ -3,6 +3,7 @@
 from __future__ import annotations
 import argparse
 from functools import partial
+from contextlib import contextmanager
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 import json
 import os
@@ -57,6 +58,19 @@ def fixture(site):
            'sources':[{'title':'Inspected register','url':'https://example.org/register'}],
            'detail_url':'/people/glasgow-1.html'} for i in range(60)]
     ledger=site.parent/'ledger.json';ledger.write_text(json.dumps({'findings':rows}));repair(site,ledger)
+
+
+class Quiet(SimpleHTTPRequestHandler):
+    def log_message(self,*args):pass
+
+
+@contextmanager
+def serve(site):
+    """Serve a built site on a free local port for the duration of the check."""
+    server=ThreadingHTTPServer(('127.0.0.1',0),partial(Quiet,directory=str(site)))
+    thread=threading.Thread(target=server.serve_forever,daemon=True);thread.start()
+    try:yield f'http://127.0.0.1:{server.server_port}'
+    finally:server.shutdown();server.server_close();thread.join()
 
 
 def check(base, fixture_mode=False):
@@ -123,20 +137,19 @@ def check(base, fixture_mode=False):
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--base-url',default='http://127.0.0.1:8765')
+    parser.add_argument('--base-url',help='check a running server instead of serving the built www/ folder')
     parser.add_argument('--fixture-smoke',action='store_true')
     args=parser.parse_args()
     if args.fixture_smoke:
         with tempfile.TemporaryDirectory() as directory:
             site=Path(directory)/'www';fixture(site)
-            class Quiet(SimpleHTTPRequestHandler):
-                def log_message(self,*args):pass
-            server=ThreadingHTTPServer(('127.0.0.1',0),partial(Quiet,directory=str(site)))
-            threading.Thread(target=server.serve_forever,daemon=True).start()
-            try:result=check(f'http://127.0.0.1:{server.server_port}',True)
-            finally:server.shutdown();server.server_close()
-    else:
+            with serve(site) as base:result=check(base,True)
+    elif args.base_url:
         result=check(args.base_url.rstrip('/'))
+    else:
+        if not (ROOT/'www/catalogue/index.html').is_file():
+            parser.error('www/ has no built site; build it first or pass --base-url')
+        with serve(ROOT/'www') as base:result=check(base)
     report=ROOT/'artifacts'/('site-quality-fixture-report.json' if args.fixture_smoke else 'site-quality-report.json');report.parent.mkdir(exist_ok=True)
     report.write_text(json.dumps(result,indent=2)+'\n')
     print(json.dumps({'pages':len(result['measurements']),'failures':result['failures'],'report':str(report)}))
