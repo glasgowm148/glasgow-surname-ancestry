@@ -2463,3 +2463,9 @@ Burial-defined Walter remains on source-verification HOLD in the existing creati
 
 | [James Glasgow, Govan nailer](https://www.wikitree.com/wiki/Glasgow-1483) | OPEN | New probable father Samuel Glasgow-3063, 78%; Govan baptism parent pair and two generations of nailers. |
 | [Samuel Glasgow, Govan nailer](https://www.wikitree.com/wiki/Glasgow-3063) | OPEN | Probable son James Glasgow-1483, 78%; joins his seven-child family to the older Govan nailer. |
+
+
+## Drumgreenagh working father — 20 October 2026
+
+| [John Glasgow, later Drumgreenagh farmer](https://www.wikitree.com/wiki/Glasgow-3439) | OPEN | New probable father John Glasgow-4031, 64%; same Drumgreenagh name, farming occupation and compatible generation. |
+| [John Glasgow, Drumgreenagh farmer in 1786](https://www.wikitree.com/wiki/Glasgow-4031) | OPEN | Probable son John Glasgow-3439, 64%; no mother assigned and no exact farm succession claimed. |

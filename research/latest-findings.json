@@ -33047,6 +33047,43 @@
       "genealogical_connections_added": 1,
       "new_transcript_inspections": 4,
       "new_source_discoveries": 1
+    },
+    {
+      "id": "drumgreenagh-john-probable-father-20261020",
+      "found_on": "2026-10-20",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Drumgreenagh: an earlier John as probable father, 64%. Select the named 1786 Drumgreenagh farmer as the later household’s probable father, using existing locality, occupation and chronology evidence.",
+      "qualification": "No source names the younger John’s father. The older man’s purchased property was at Lislea, although he resided at Drumgreenagh; no inspected title chain proves that he and the 1839 farmer occupied the same farm. The 1828 Drumgreenagh John probate-index entry is not treated as a proved death, inheritance or link between them: its document type, individual identity and surviving text remain unresolved. Nathaniel-4014 is another older local relative and possible father; an uncle, other collateral, another John, or another unrepresented father remains possible. Both 1786 adults lack recorded ages. The younger John’s 1794 birth is uncertain and has no recovered primary age source in this review, so it cannot absolutely exclude his being the 1786 man at an older age. The preferred father model keeps the two accounts separate without claiming that distinction proved or merging them. Jane Murphy is the older John’s documented wife, but is not assigned as the younger John’s mother. All vital fields, spouses, children and earlier parent grades remain unchanged. The 64% is an individual comparative judgment for this entire father-profile proposition, including the profile and generation assumptions, not a measured probability.",
+      "people": [
+        {
+          "id": "Glasgow-3439",
+          "name": "John Glasgow, later Drumgreenagh farmer",
+          "url": "/people/glasgow-3439.html"
+        },
+        {
+          "id": "Glasgow-4031",
+          "name": "John Glasgow, Drumgreenagh farmer in 1786",
+          "url": "/people/glasgow-4031.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Registry of Deeds, John Glasgow and Jane Murphy; deed 13 February 1786, registered 22 December 1792; previously inspected account reused",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJW-VDTD"
+        },
+        {
+          "title": "Ireland, Ulster Freeholders: John Glasgow, farmer, Drumgreenagh, 1839; PRONI T/808/14961 vol.123 p.1 line151; held citation, original not rechecked",
+          "url": "https://www.findmypast.co.uk/search/results?datasetname=ireland%2C%20ulster%20freeholders&firstname=john&lastname=glasgow"
+        }
+      ],
+      "detail_url": "/people/glasgow-3439.html#research-findings",
+      "relationship_changes": [],
+      "certainty_upgrades": 0,
+      "new_father_attachments": 1,
+      "genealogical_connections_added": 1,
+      "new_source_discoveries": 0,
+      "new_original_inspections": 0
     }
   ]
 }

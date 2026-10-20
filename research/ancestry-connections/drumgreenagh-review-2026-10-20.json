@@ -1,0 +1,35 @@
+{
+  "reviewed": "2026-10-20",
+  "assertion_id": "C-working-20261020-drumgreenagh-john-father",
+  "percent": 64,
+  "basis": "Select the older Drumgreenagh farmer John Glasgow-4031 as the probable working father of the later farmer John Glasgow-3439, at 64% subjective confidence. The combined argument is the same full name, the same specific townland and farming occupation, and a normal two-generation chronology. The older John was already a married farmer in 1786; the younger account’s approximate 1794 birth fits a child of that household. It is a more specific family comparison than a generic same-surname Armagh or Scottish father. Prefer this direct local lineal model over leaving the later four-child household disconnected from its already identified earlier surname household. The connection is an inference from the combined evidence, not a parent clause or an implication of the connectivity score.",
+  "limitations": "No source names the younger John’s father. The older man’s purchased property was at Lislea, although he resided at Drumgreenagh; no inspected title chain proves that he and the 1839 farmer occupied the same farm. The 1828 Drumgreenagh John probate-index entry is not treated as a proved death, inheritance or link between them: its document type, individual identity and surviving text remain unresolved. Nathaniel-4014 is another older local relative and possible father; an uncle, other collateral, another John, or another unrepresented father remains possible. Both 1786 adults lack recorded ages. The younger John’s 1794 birth is uncertain and has no recovered primary age source in this review, so it cannot absolutely exclude his being the 1786 man at an older age. The preferred father model keeps the two accounts separate without claiming that distinction proved or merging them. Jane Murphy is the older John’s documented wife, but is not assigned as the younger John’s mother. All vital fields, spouses, children and earlier parent grades remain unchanged. The 64% is an individual comparative judgment for this entire father-profile proposition, including the profile and generation assumptions, not a measured probability.",
+  "sources": [
+    {
+      "title": "Registry of Deeds, John Glasgow and Jane Murphy; deed 13 February 1786, registered 22 December 1792; previously inspected account reused",
+      "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJW-VDTD"
+    },
+    {
+      "title": "Ireland, Ulster Freeholders: John Glasgow, farmer, Drumgreenagh, 1839; PRONI T/808/14961 vol.123 p.1 line151; held citation, original not rechecked",
+      "url": "https://www.findmypast.co.uk/search/results?datasetname=ireland%2C%20ulster%20freeholders&firstname=john&lastname=glasgow"
+    }
+  ],
+  "new_father_selections": 1,
+  "new_source_inspections": 0,
+  "new_confident_links": 0,
+  "live_edits": 0,
+  "fresh_live_parents": {
+    "Glasgow-3439": {
+      "father": 0,
+      "mother": 0,
+      "father_status": ""
+    },
+    "Glasgow-4031": {
+      "father": 0,
+      "mother": 0,
+      "father_status": ""
+    }
+  },
+  "previous_goal_turn": "Progress: new Govan father selection committed as52bf1860f4a; nine-person component materialised.",
+  "scouting": "Revalidated seven early unjoined accounts and largest existing links; no unsupported medieval father selected."
+}

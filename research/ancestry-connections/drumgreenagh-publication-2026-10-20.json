@@ -1,0 +1,234 @@
+{
+  "reviewed": "2026-10-20",
+  "new_father_percent": 64,
+  "new_father_selections": 1,
+  "confidence_only_upgrades": 0,
+  "metrics": {
+    "1500": {
+      "population": [
+        2,
+        2
+      ],
+      "edge_count": [
+        2,
+        2
+      ],
+      "component_count": [
+        1,
+        1
+      ],
+      "largest_component_size": [
+        2,
+        2
+      ],
+      "connected_pairs_percent": [
+        100.0,
+        100.0
+      ]
+    },
+    "1550": {
+      "population": [
+        19,
+        19
+      ],
+      "edge_count": [
+        18,
+        18
+      ],
+      "component_count": [
+        2,
+        2
+      ],
+      "largest_component_size": [
+        18,
+        18
+      ],
+      "connected_pairs_percent": [
+        89.47368421052632,
+        89.47368421052632
+      ]
+    },
+    "1600": {
+      "population": [
+        52,
+        52
+      ],
+      "edge_count": [
+        49,
+        49
+      ],
+      "component_count": [
+        5,
+        5
+      ],
+      "largest_component_size": [
+        48,
+        48
+      ],
+      "connected_pairs_percent": [
+        85.06787330316742,
+        85.06787330316742
+      ]
+    },
+    "1650": {
+      "population": [
+        163,
+        163
+      ],
+      "edge_count": [
+        157,
+        157
+      ],
+      "component_count": [
+        8,
+        8
+      ],
+      "largest_component_size": [
+        156,
+        156
+      ],
+      "connected_pairs_percent": [
+        91.57009770506703,
+        91.57009770506703
+      ]
+    },
+    "1700": {
+      "population": [
+        309,
+        309
+      ],
+      "edge_count": [
+        286,
+        286
+      ],
+      "component_count": [
+        25,
+        25
+      ],
+      "largest_component_size": [
+        283,
+        283
+      ],
+      "connected_pairs_percent": [
+        83.85869793636783,
+        83.85869793636783
+      ]
+    },
+    "1750": {
+      "population": [
+        593,
+        593
+      ],
+      "edge_count": [
+        538,
+        538
+      ],
+      "component_count": [
+        57,
+        57
+      ],
+      "largest_component_size": [
+        529,
+        529
+      ],
+      "connected_pairs_percent": [
+        79.56793218176017,
+        79.56793218176017
+      ]
+    },
+    "1800": {
+      "population": [
+        921,
+        921
+      ],
+      "edge_count": [
+        761,
+        762
+      ],
+      "component_count": [
+        162,
+        161
+      ],
+      "largest_component_size": [
+        736,
+        736
+      ],
+      "connected_pairs_percent": [
+        63.85096539678044,
+        63.85120143511306
+      ]
+    },
+    "1850": {
+      "population": [
+        1789,
+        1789
+      ],
+      "edge_count": [
+        1383,
+        1384
+      ],
+      "component_count": [
+        408,
+        407
+      ],
+      "largest_component_size": [
+        1132,
+        1132
+      ],
+      "connected_pairs_percent": [
+        40.081694871592866,
+        40.08200749547008
+      ]
+    }
+  },
+  "all_model_vitals_preserved": true,
+  "all_parent_ids_preserved_except_one_new_father": true,
+  "dossier_mothers_spouses_children_preserved": true,
+  "full_and_compact_pending_membership_equal": true,
+  "main_packed_model_matches_full": true,
+  "draft_hashes_verified": true,
+  "pending_count_before": 539,
+  "pending_count_after": 541,
+  "live_edits": 0,
+  "joined_component": {
+    "before_sizes": [
+      5,
+      1
+    ],
+    "after_size": 6,
+    "members": [
+      "Glasgow-4031",
+      "Glasgow-3439",
+      "Glasgow-3430",
+      "Glasgow-3440",
+      "Glasgow-3441",
+      "Glasgow-3442"
+    ]
+  },
+  "browser_verification": {
+    "catalogue_url": "http://127.0.0.1:8876/catalogue/?q=Glasgow-3439&needsUpdate=1#catalogue-filters",
+    "filtered_results": 2,
+    "father_badge": "new probable father64%",
+    "father_badge_target": "https://www.wikitree.com/wiki/Glasgow-4031",
+    "queue_total": 541,
+    "main_tree_url": "http://127.0.0.1:8876/onetree/#person=Glasgow-3439&view=all",
+    "main_tree_parent": "John Glasgow before1768\u2013after1786 \u00b7 father \u00b7 Probable \u00b764%",
+    "main_tree_linked_descendants": 12,
+    "family_branch_url": "http://127.0.0.1:8876/branches/family-glasgow-3439/",
+    "family_branch_parent": "John Glasgow, Drumgreenagh farmer in1786 \u00b7 Father \u00b7 Probable64%",
+    "family_branch_selected_person_and_children_preserved": true
+  },
+  "checks": {
+    "research_publication_new_failures": 0,
+    "internal_links_new_broken_page_target_pairs": 0,
+    "existing_broken_page_pairs": 4,
+    "branch_sync": "Dry run, selected hypothesis, alternative exclusion, saved WikiTree certainty without invented percentage, preservation and idempotence verified",
+    "branch_sync_regression_test": "tests/test_family_branch_parent_sync.py,1test passed",
+    "sync_fix_commit": "31986528275",
+    "edition": "Irish branches reading body and outgoing comparison rebuilt"
+  },
+  "local_search_refresh": {
+    "qmd": "Successful;3 public summaries updated",
+    "pdf": "Separate unchanged PDF corpus warm-up failed; no PDF source added or changed"
+  }
+}

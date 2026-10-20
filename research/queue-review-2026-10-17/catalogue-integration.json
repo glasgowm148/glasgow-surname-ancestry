@@ -6205,6 +6205,66 @@
       "preserve_captured_detail": false,
       "reviewed_narrative_reduction": true,
       "preservation_review_path": "research/ancestry-connections/govan-nailers-preservation-2026-10-20.json"
+    },
+    "Glasgow-3439": {
+      "profile_id": "Glasgow-3439",
+      "queued_at": "2026-10-20",
+      "biography_rechecked_at": "2026-10-20",
+      "remote_captured_at": "2026-10-20",
+      "remote_wikitext": "== Biography ==\n\nJohn Glasgow was born about 1794 (exact birthplace not yet proven). He worked as a farmer and was recorded in '''Drumgreenagh''' townland, Derrynoose parish, County Armagh, in 1839.<ref name=\"Freeholders1839\">\"Ireland, Ulster Freeholders,\" entry for '''John Glasgow''', farmer, Drumgreenagh, Armagh, 1839; reference T/808/14961, vol. 123, p. 1, line 151.</ref>\n\nA holding at Drumgreenagh/Killyreavy associated with the Glasgow name appears again in the land valuation compiled 1 Dec 1864 (after John’s death), with landlord '''William Kirk'''.<ref name=\"Griffiths1864\">''Ireland, Griffith’s Valuation, 1847–1864'', Derrynoose parish (Killyreavy/Drumgreenagh), entry dated 1 Dec 1864; occupier recorded as Glasgow; landlord William Kirk.</ref>\n\nKnown children—identified from Irish civil marriage records that name their father as '''John Glasgow'''—include:\n* '''Mary Jane Glasgow''', married '''Samuel Boyd''' on 15 Jun 1854 at Derrynoose, County Armagh.<ref name=\"Mary1854\">\"Ireland, Civil Registration, 1845–1913,\" marriage of '''Samuel Boyd''' & '''Mary Jane Glasgow''', 15 Jun 1854, Derrynoose, Armagh; FamilySearch ARK: https://familysearch.org/ark:/61903/1:1:QGV8-X359</ref><ref>\"Ireland, Marriages, 1619–1898,\" index entry naming father '''John Glasgow'''; FamilySearch ARK: https://familysearch.org/ark:/61903/1:1:FGXJ-4YD</ref>\n* '''Sarah Anne Glasgow''', married '''James Sloan''' on 5 Dec 1862 (record names her father as '''John Glasgow''').<ref name=\"Sarah1862\">\"Ireland, Civil Registration, 1845–1913,\" marriage of '''James Sloan''' & '''Sarah Anne Glasgow''', 5 Dec 1862; FamilySearch ARK: https://familysearch.org/ark:/61903/1:1:QGV8-J5BV</ref>\n* '''Elizabeth Glasgow''', married '''Thomas Lennon''' on 15 Jan 1868 (indexed also as '''Glasson''' and '''Leemon''').<ref name=\"Elizabeth1868\">\"Ireland, Marriages, 1619–1898,\" marriage of '''Thomas Lennon''' & '''Elizabeth Glasgow''', 15 Jan 1868; FamilySearch ARK: https://familysearch.org/ark:/61903/1:1:FGZ6-YGT</ref><ref>\"Ireland, Civil Registration, 1845–1913,\" variant index ('''Elizabeth Glasson''' to '''Thomas Leemon'''), 15 Jan 1868; FamilySearch ARK: https://familysearch.org/ark:/61903/1:1:QGY7-Z684</ref>\n\nJohn is reported to have died on '''30 Apr 1849''' (citation still needed).\nA marriage for Elizabeth Glasgow and Leemon was registered on 15 January 1868 in the Armagh district.<ref>[https://geni.nidirect.gov.uk/search/marriage GRONI civil marriage index], 15 January 1868, Armagh district, M/1868/Q1/86/2/26.</ref>\n\n== Research Notes ==\n* '''Residence & Land''' — The 1839 freeholder entry for a farmer '''John Glasgow''' in Drumgreenagh aligns with later valuation evidence in Killyreavy/Drumgreenagh, Derrynoose parish, where the landlord was '''William Kirk'''. The 1864 valuation date is post-mortem for John and likely reflects continuity of the family holding rather than John himself.<ref name=\"Freeholders1839\" /><ref name=\"Griffiths1864\" />\n* '''Children''' — Mary Jane (1854), Sarah Anne (1862), and Elizabeth (1868) are securely linked as his children via marriage records that explicitly name their father as '''John Glasgow'''. Additional Glasgow marriages in the area (e.g., a '''Samuel Glasgow''' indexed 23 Mar 1870) may indicate further children; evidence not yet evaluated.\n* '''Name & Place Variants''' — Surname appears as '''Glasgow''' and occasionally '''Glasson''' in indexes; bridegroom Lennon is indexed as '''Lennon/Leemon'''. Townland appears as '''Drumgreenagh/Drumgreeney''' within the civil parish of '''Derrynoose''' (sometimes written '''Killyreavy''').\n* '''To Do''' — Seek Church of Ireland or Presbyterian registers for Derrynoose/Keady area for baptisms and burial; consult PRONI Freeholders books, Tithe Applotment (1820s–1830s), and Valuation Revision Books for chain of occupancy; locate primary source for the stated death date (30 Apr 1849).\n\n=== Earlier Drumgreenagh namesake ===\nA deed made on 13 February 1786 identifies [[Glasgow-4031|an older John Glasgow]] as a farmer at Drumgreenagh and husband of Jane Murphy. He cannot be this profile, who was born about 1794. The shared residence makes an older-family relationship plausible, but the deed names no child and does not prove that the older John was this John's father.<ref>Registry of Deeds, Ireland, memorial of deed of assignment, David Murphy to John Glasgow, deed dated 13 February 1786, registered 22 December 1792; [https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJW-VDTD FamilySearch image].</ref>\n\nAn 1828 probate-index entry also names John Glasgow of Drumgreenagh, County Armagh. This profile was later documented in the same townland, but his 1849 death prevents treating an 1828 administration as his death without inspecting the record type. The entry may concern the older namesake, but that identity is not yet proved.<ref>[https://apps.proni.gov.uk/ProniNames_IE/SearchPage.aspx PRONI Names, Pre-1858 Wills and Admons search], John Glasgow, Drumgreenagh, 1828.</ref>\n\n== Sources ==\n<references />\n* FamilySearch profile source list for John Glasgow (KZFC-VKJ): https://www.familysearch.org/en/tree/person/sources/KZFC-VKJ",
+      "draft_path": "research/Glasgow-3439/drumgreenagh-father-2026-10-20.wiki",
+      "findings_path": "research/Glasgow-3439/findings.md",
+      "summary": "New probable father John Glasgow-4031, 64%; same Drumgreenagh name, farming occupation and compatible generation.",
+      "work_queue_summary": "New probable father John Glasgow-4031, 64%; same Drumgreenagh name, farming occupation and compatible generation.",
+      "significance": 75,
+      "status": "OPEN",
+      "pending": true,
+      "manual_update": true,
+      "relationship_changes": [
+        {
+          "action": "add",
+          "relationship": "father",
+          "relative_id": "Glasgow-4031",
+          "status": "probable",
+          "before": "absent",
+          "assertion_id": "C-working-20261020-drumgreenagh-john-father",
+          "previous_status_provenance": "Anonymous WikiTree getPeople,20 October2026: younger John Father=0.",
+          "scope": "New probable father John Glasgow-4031, 64%; same Drumgreenagh name, farming occupation and compatible generation."
+        }
+      ],
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "preservation_review_path": "research/ancestry-connections/drumgreenagh-preservation-2026-10-20.json"
+    },
+    "Glasgow-4031": {
+      "profile_id": "Glasgow-4031",
+      "queued_at": "2026-10-20",
+      "biography_rechecked_at": "2026-10-20",
+      "remote_captured_at": "2026-10-20",
+      "remote_wikitext": "[[Category:Glasgow Name Study]]\n\n{{Estimated Date}}\n\n== Biography ==\n'''John Glasgow''' was a farmer at '''Drumgreenagh, County Armagh'''. A deed of assignment dated 13 February 1786 identifies his wife as '''Jane Murphy''', daughter of the late '''Thomas Murphy'''. The deed recites that Thomas died intestate leaving a widow and five children, and that a one-fifth share of land at Lislea fell to Jane.<ref name=\"Deed1786\">Registry of Deeds, Ireland, memorial of deed of assignment, David Murphy to John Glasgow, deed dated 13 February 1786, registered 22 December 1792; [https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJW-VDTD FamilySearch image].</ref>\n\nFor £25, David Murphy assigned John two acres, one rood and thirty-five perches at Lislea, with the associated renewal rights. The memorial was registered on 22 December 1792. William Henry and [[Glasgow-4014|Nathaniel Glasgow of Drumgreenagh]], farmer, witnessed the transaction.<ref name=\"Deed1786\" />\n\nJohn's birth is shown only as before 1768, an estimated boundary consistent with his being married and transacting land in 1786. His death occurred after the deed date; no exact death record has been identified.\n\n== Research Notes ==\nThis John cannot be [[Glasgow-3439|John Glasgow born about 1794]], who belonged to a later Drumgreenagh generation. The shared residence makes a family relationship plausible, but the 1786 memorial names no child of John and Jane.\n\nThe memorial also states no relationship between John and Nathaniel Glasgow.\n\n== Sources ==\n<references />",
+      "draft_path": "research/Glasgow-4031/drumgreenagh-father-2026-10-20.wiki",
+      "findings_path": "research/Glasgow-4031/findings.md",
+      "summary": "Probable son John Glasgow-3439, 64%; no mother assigned and no exact farm succession claimed.",
+      "work_queue_summary": "Probable son John Glasgow-3439, 64%; no mother assigned and no exact farm succession claimed.",
+      "significance": 68,
+      "status": "OPEN",
+      "pending": true,
+      "manual_update": true,
+      "relationship_changes": [
+        {
+          "action": "add",
+          "relationship": "child",
+          "relative_id": "Glasgow-3439",
+          "status": "probable",
+          "before": "absent",
+          "assertion_id": "C-working-20261020-drumgreenagh-john-father",
+          "previous_status_provenance": "Anonymous WikiTree getPeople,20 October2026: younger John Father=0.",
+          "scope": "Probable son John Glasgow-3439, 64%; no mother assigned and no exact farm succession claimed."
+        }
+      ],
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "preservation_review_path": "research/ancestry-connections/drumgreenagh-preservation-2026-10-20.json"
     }
   },
   "reviewed_on": "2026-10-17",

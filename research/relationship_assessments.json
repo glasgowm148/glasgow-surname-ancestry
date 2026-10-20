@@ -15003,5 +15003,60 @@
       "prior_status": "No attached father in fresh anonymous WikiTree capture",
       "live_flag_changed": false
     }
+  },
+  {
+    "assertion_id": "C-working-20261020-drumgreenagh-john-father",
+    "people": [
+      "Glasgow-3439",
+      "Glasgow-4031"
+    ],
+    "profile_names": {
+      "Glasgow-3439": "John Glasgow, later Drumgreenagh farmer",
+      "Glasgow-4031": "John Glasgow, Drumgreenagh farmer in 1786",
+      "Glasgow-4014": "Nathaniel Glasgow, Drumgreenagh witness"
+    },
+    "status": "probable",
+    "hypothesis_status": "probable",
+    "publication_status": "approved",
+    "working_selection": true,
+    "allow_new_relationship": true,
+    "assessment_date": "2026-10-20",
+    "claim": "Drumgreenagh: an earlier John as probable father, 64%",
+    "basis": "Select the older Drumgreenagh farmer John Glasgow-4031 as the probable working father of the later farmer John Glasgow-3439, at 64% subjective confidence. The combined argument is the same full name, the same specific townland and farming occupation, and a normal two-generation chronology. The older John was already a married farmer in 1786; the younger account’s approximate 1794 birth fits a child of that household. It is a more specific family comparison than a generic same-surname Armagh or Scottish father. Prefer this direct local lineal model over leaving the later four-child household disconnected from its already identified earlier surname household. The connection is an inference from the combined evidence, not a parent clause or an implication of the connectivity score.",
+    "limitations": "No source names the younger John’s father. The older man’s purchased property was at Lislea, although he resided at Drumgreenagh; no inspected title chain proves that he and the 1839 farmer occupied the same farm. The 1828 Drumgreenagh John probate-index entry is not treated as a proved death, inheritance or link between them: its document type, individual identity and surviving text remain unresolved. Nathaniel-4014 is another older local relative and possible father; an uncle, other collateral, another John, or another unrepresented father remains possible. Both 1786 adults lack recorded ages. The younger John’s 1794 birth is uncertain and has no recovered primary age source in this review, so it cannot absolutely exclude his being the 1786 man at an older age. The preferred father model keeps the two accounts separate without claiming that distinction proved or merging them. Jane Murphy is the older John’s documented wife, but is not assigned as the younger John’s mother. All vital fields, spouses, children and earlier parent grades remain unchanged. The 64% is an individual comparative judgment for this entire father-profile proposition, including the profile and generation assumptions, not a measured probability.",
+    "record_scope": "Selected local father hypothesis from existing townland, occupation and chronology evidence; no new source inspection",
+    "source_ids": [
+      "drumgreenagh-john-murphy-deed-1786",
+      "drumgreenagh-john-freeholder-1839"
+    ],
+    "analysis_links": [
+      {
+        "label": "Drumgreenagh: an earlier John as probable father, 64%",
+        "href": "/people/glasgow-3439.html#research-findings"
+      },
+      {
+        "label": "Early Irish branches: source discussion",
+        "href": "/free-space/glasgow-branches-in-early-ireland-069bf5/"
+      }
+    ],
+    "perspectives": {
+      "Glasgow-3439": {
+        "relationship": "father",
+        "status_label": "Probable father · 64%",
+        "reason": "Select the older Drumgreenagh farmer John Glasgow-4031 as the probable working father of the later farmer John Glasgow-3439, at 64% subjective confidence. The combined argument is the same full name, the same specific townland and farming occupation, and a normal two-generation chronology. The older John was already a married farmer in 1786; the younger account’s approximate 1794 birth fits a child of that household. It is a more specific family comparison than a generic same-surname Armagh or Scottish father. Prefer this direct local lineal model over leaving the later four-child household disconnected from its already identified earlier surname household. The connection is an inference from the combined evidence, not a parent clause or an implication of the connectivity score."
+      },
+      "Glasgow-4031": {
+        "relationship": "son",
+        "status_label": "Probable son · 64%",
+        "reason": "Select the older Drumgreenagh farmer John Glasgow-4031 as the probable working father of the later farmer John Glasgow-3439, at 64% subjective confidence. The combined argument is the same full name, the same specific townland and farming occupation, and a normal two-generation chronology. The older John was already a married farmer in 1786; the younger account’s approximate 1794 birth fits a child of that household. It is a more specific family comparison than a generic same-surname Armagh or Scottish father. Prefer this direct local lineal model over leaving the later four-child household disconnected from its already identified earlier surname household. The connection is an inference from the combined evidence, not a parent clause or an implication of the connectivity score."
+      }
+    },
+    "provenance": {
+      "saved_wikitree_father": 0,
+      "saved_father_status": "",
+      "anonymous_capture_reviewed": "2026-10-20",
+      "prior_status": "No father attached in current anonymous WikiTree capture; earlier notes allowed kinship but required an explicit parent record before attaching",
+      "live_flag_changed": false
+    }
   }
 ]
