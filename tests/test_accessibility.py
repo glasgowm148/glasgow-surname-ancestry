@@ -134,8 +134,8 @@ class _QuietHandler(SimpleHTTPRequestHandler):
 class AccessibilityTests(unittest.TestCase):
     def test_no_new_critical_or_serious_violations(self):
         site = ROOT / "www"
-        missing = [route for _, route, *_ in TARGETS if not ((site / route.lstrip("/")).is_file()
-                   or (site / route.lstrip("/") / "index.html").is_file())]
+        paths = dict.fromkeys(route.split("#")[0].split("?")[0].lstrip("/") for _, route, *_ in TARGETS)
+        missing = [path or "/" for path in paths if not ((site / path).is_file() or (site / path / "index.html").is_file())]
         if missing:
             self.skipTest(f"built site pages missing: {', '.join(missing)}")
         server = ThreadingHTTPServer(("127.0.0.1", 0), partial(_QuietHandler, directory=str(site)))
