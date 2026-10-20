@@ -195,6 +195,38 @@ class WorkingHypothesisTests(unittest.TestCase):
             apply_working_mothers(model, [alternative, selected])
         self.assertEqual(model, before)
 
+    def test_maternal_replacement_can_reassess_an_inherited_confidence_flag(self):
+        model, alternative, selected = self.maternal_replacement_case()
+        model[0]['parents'][1]['status'] = 'confident'
+        alternative['assessment_history'] = [dict(tree_status='confident', saved_flag='20')]
+        selected['working_parent_replacement']['previous_parent_review'] = dict(
+            previous_status='confident', reviewed_status='uncertain', saved_flag='20',
+            source_ids=['S-1'], reason='Cited child entry names only the father.')
+        before = deepcopy(model)
+        for field in ['reason', 'source_ids', 'saved_flag', 'reviewed_status']:
+            with self.subTest(missing=field):
+                incomplete = deepcopy(selected)
+                incomplete['working_parent_replacement']['previous_parent_review'].pop(field)
+                unchanged = deepcopy(before)
+                with self.assertRaisesRegex(ValueError, 'captured mother'):
+                    apply_working_mothers(unchanged, [alternative, incomplete])
+                self.assertEqual(unchanged, before)
+        self.assertEqual(apply_working_mothers(model, [alternative, selected]), 1)
+        self.assertEqual(model[0]['priorWorkingParents'][-1]['status'], 'confident')
+        self.assertEqual(model[0]['parents'][-1]['id'], 'NewMother-1')
+
+    def test_maternal_hypothesis_does_not_override_a_research_confident_parent(self):
+        model, alternative, selected = self.maternal_replacement_case()
+        model[0]['parents'][1].update(status='confident', assertion_id='A-documented-mother')
+        alternative['assessment_history'] = [dict(tree_status='confident', saved_flag='20')]
+        selected['working_parent_replacement']['previous_parent_review'] = dict(
+            previous_status='confident', reviewed_status='uncertain', saved_flag='20',
+            source_ids=['S-1'], reason='Different hypothesis preferred.')
+        before = deepcopy(model)
+        with self.assertRaisesRegex(ValueError, 'captured mother'):
+            apply_working_mothers(model, [alternative, selected])
+        self.assertEqual(model, before)
+
     def test_maternal_replacement_rejects_unsafe_or_unretained_parents_atomically(self):
         def missing_alternative(m, a, s): a['publication_status'] = 'draft'
         def wrong_role(m, a, s): a['perspectives']['Child-1']['relationship'] = 'father'

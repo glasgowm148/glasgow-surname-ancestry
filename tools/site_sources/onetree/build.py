@@ -264,8 +264,22 @@ def apply_working_mothers(people: list[dict], assessments: list[dict]) -> int:
         if replacement:
             prior = replacement.get('previous_parent')
             alternative = approved.get(replacement.get('alternative_assertion_id'), {})
+            review = replacement.get('previous_parent_review') or {}
+            # An inherited certainty flag can be reassessed from its cited
+            # records. Require an explicit downgrade and retained provenance;
+            # a new hypothesis alone cannot override a confident parent.
+            reviewed_tree_flag = (len(existing) == 1
+                and existing[0].get('status') == 'confident'
+                and not existing[0].get('assertion_id')
+                and review.get('previous_status') == 'confident'
+                and review.get('reviewed_status') == 'uncertain'
+                and str(review.get('saved_flag')) == '20'
+                and review.get('reason') and review.get('source_ids')
+                and set(review['source_ids']) <= set(alternative.get('source_ids', []))
+                and any(h.get('tree_status') == 'confident' and str(h.get('saved_flag')) == '20'
+                        for h in alternative.get('assessment_history', [])))
             if (len(existing) != 1 or existing[0].get('id') != prior or prior == mother
-                    or existing[0].get('status') not in {'uncertain', 'unmarked', 'unknown'}
+                    or (existing[0].get('status') not in {'uncertain', 'unmarked', 'unknown'} and not reviewed_tree_flag)
                     or not prior or existing[0].get('withheld') or not replacement.get('reason')
                     or set(alternative.get('people', [])) != {child, prior}
                     or alternative.get('lifecycle') != 'alternative'
