@@ -155,7 +155,8 @@ def apply_working_hypotheses(people: list[dict], assessments: list[dict], parent
                 and previous_selection.get('publication_status') == 'approved'
                 and previous_selection.get('assertion_id') == alternative.get('assertion_id')
                 and previous_selection.get('child') == child and previous_selection.get('father') == prior
-                and previous_selection.get('status') == 'uncertain'
+                and previous_selection.get('status') in {'uncertain', 'possible', 'probable'}
+                and alternative.get('status') == previous_selection['status']
                 and previous_selection.get('basis') and previous_selection.get('source_ids')
                 and set(previous_selection['source_ids']) <= set(alternative.get('source_ids') or []))
         captured_prior = (len(existing) == 1 and existing[0].get('id') == prior
@@ -169,9 +170,10 @@ def apply_working_hypotheses(people: list[dict], assessments: list[dict], parent
                 or not assessment.get('source_ids') or not replacement.get('reason')
                 or set(alternative.get('people', [])) != {child, prior}
                 or alternative.get('lifecycle') != 'alternative'
-                or alternative.get('status') != 'uncertain' or not alternative.get('source_ids')
+                or alternative.get('status') not in ({'uncertain', 'possible', 'probable'} if local_prior else {'uncertain'})
+                or not alternative.get('source_ids')
                 or alternative.get('perspectives', {}).get(child, {}).get('relationship') != 'father'):
-            raise ValueError('Working parent replacement requires the captured father or a reviewed local selection, and a retained uncertain alternative')
+            raise ValueError('Working parent replacement requires the captured father or a reviewed local selection, and a retained alternative with its prior grade')
         if existing and not replaces and any(row.get('id') != father and row not in aliases for row in existing):
             raise ValueError(f"Working hypothesis {assessment.get('assertion_id', '<unknown>')} conflicts with existing father of {child}")
         if not existing or aliases or replaces:

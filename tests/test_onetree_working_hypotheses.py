@@ -62,6 +62,32 @@ class WorkingHypothesisTests(unittest.TestCase):
                     apply_working_hypotheses(model, [alternative, selected])
                 self.assertEqual(model, before)
 
+    def test_local_replacement_retains_possible_and_probable_prior_grades(self):
+        for grade, percent in [('possible', .48), ('probable', .76)]:
+            with self.subTest(grade=grade):
+                model, alternative, selected = self.local_replacement_case()
+                alternative['status'] = grade
+                previous = alternative['previous_working_selection']
+                previous.update(status=grade, probability={'value': percent})
+                selected['status'] = 'probable'
+                self.assertEqual(apply_working_hypotheses(model, [alternative, selected]), 1)
+                old = model[0]['priorWorkingParents'][0]
+                self.assertEqual((old['status'], old['probability']['value']), (grade, percent))
+                self.assertEqual(model[0]['parents'][0]['id'], 'NewFather-1')
+                self.assertEqual(model[1]['childrenRecorded'], [{'id': 'Other-1'}])
+
+    def test_local_replacement_rejects_changed_or_confident_prior_grades(self):
+        for previous_grade, retained_grade in [('probable', 'uncertain'), ('possible', 'probable'),
+                                               ('confident', 'confident'), ('proved', 'proved')]:
+            with self.subTest(previous=previous_grade, retained=retained_grade):
+                model, alternative, selected = self.local_replacement_case()
+                alternative['previous_working_selection']['status'] = previous_grade
+                alternative['status'] = retained_grade
+                before = deepcopy(model)
+                with self.assertRaisesRegex(ValueError, 'prior grade'):
+                    apply_working_hypotheses(model, [alternative, selected])
+                self.assertEqual(model, before)
+
     def test_local_replacement_does_not_override_another_captured_parent(self):
         model, alternative, selected = self.local_replacement_case()
         model[0]['parents'] = [dict(id='OtherFather-1', role='father', status='unmarked')]
@@ -329,7 +355,7 @@ class WorkingHypothesisTests(unittest.TestCase):
         alternative={'assertion_id':'A-old','people':['Child-1','Old-1'],'publication_status':'approved',
                      'status':'uncertain','lifecycle':'alternative','source_ids':['S-1'],
                      'perspectives':{'Child-1':{'relationship':'father'}}}
-        with self.assertRaisesRegex(ValueError,'retained uncertain alternative'):
+        with self.assertRaisesRegex(ValueError,'retained alternative'):
             apply_working_hypotheses(model,[proposal])
         self.assertEqual(apply_working_hypotheses(model,[alternative,proposal]),1)
         self.assertIn(mother,model[0]['parents'])
@@ -338,7 +364,7 @@ class WorkingHypothesisTests(unittest.TestCase):
         self.assertEqual(model[1]['priorWorkingChildren'][0]['id'],'Child-1')
         self.assertIn('Possible duplicate',model[0]['note'])
         model[0]['parents']=[{'id':'Old-1','role':'father','status':'confident'}]
-        with self.assertRaisesRegex(ValueError,'retained uncertain alternative'):
+        with self.assertRaisesRegex(ValueError,'retained alternative'):
             apply_working_hypotheses(model,[alternative,proposal])
 
     def test_replacement_of_captured_parent_outside_model_preserves_capture(self):
@@ -357,7 +383,7 @@ class WorkingHypothesisTests(unittest.TestCase):
         self.assertEqual(model[1]['childrenRecorded'][0]['id'], 'Child-1')
         self.assertEqual({p['id'] for p in model}, {'Child-1', 'New-1'})
         model[0]['parents'] = [{**original, 'withheld': True}]
-        with self.assertRaisesRegex(ValueError, 'retained uncertain alternative'):
+        with self.assertRaisesRegex(ValueError, 'retained alternative'):
             apply_working_hypotheses(model, [alternative, proposal])
 
     def test_recorded_family_restoration_requires_captured_father_and_prior_grade(self):
