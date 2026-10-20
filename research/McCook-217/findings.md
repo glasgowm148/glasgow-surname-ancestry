@@ -5,10 +5,31 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
-No sourced conclusion recorded yet.
+Reviewed: 2026-10-20.
+
+**Source-scope correction, 20 October 2026:** The inspected 1682 and 1705 FamilySearch entries and the three Findmypast baptism transcripts name only father William. They do not name Ann McCook. Retain Ann’s existing attachments as unproved; the John-3610 → William-1026 working father remains 24%. Earlier wording claiming these citations name Ann is superseded.
+
+Ann remains the attached spouse of William Glasgow-1026 and mother of children in the inherited tree, but the inspected child indexes do not name her. No contemporary marriage or maternal identification is established in this review.
 
 ## Source findings
 
-| Source | Finding | Assessment |
-| --- | --- | --- |
-| _Add a URL, archive reference, or local artifact_ | _State exactly what the source establishes_ | _Direct, indirect, negative, or exclusionary evidence_ |
+The current record assessment and inspected citations are set out below.
+
+
+## Source findings — Kirknewton household check, 20 October 2026
+
+The Findmypast transcripts inspected on 20 October 2026 name William Glasgow as father of Bessie (21 April 1682), John (29 November 1702) and William (22 April 1705), all at Kirknewton and East Calder. None displays a mother, residence within the parish, occupation or witnesses. Bessie’s transcript gives OPR 689/20, item 1, page 39; the two later transcripts give the same archive reference and item but no page. This provider reference differs from the supplied ScotlandsPeople parish 690 references and must be reconciled against the original. No original register image was inspected.
+
+The FamilySearch citations previously used to say William and Ann McCook were both recorded as parents were also inspected. VQ4K-ZQN is the father entry for Bessie, linked to child VQ4K-ZQF; it names William only. VQ4K-FY9 records the child William Glasgou and his father William, without a mother. Both display “Image Unavailable”. These indexes therefore do not establish Ann’s maternity or the couple’s marriage. The older claim that those citations name Ann is superseded; the earlier attached family and all citations remain available for comparison. An omitted mother is not evidence excluding Ann.
+
+Retain Ann McCook’s existing spouse and maternal attachments as unproved tree claims; no person is detached or redated. The three same-name father entries do not alone establish one continuous 1682–1705 household. They supply no bridge to the older John Glasgow-3610’s Easter Newtoun household, so the selected John-to-William father hypothesis remains uncertain at 24%. The 1702 transcript supports 29 November as its baptism date, but does not resolve John-1544’s separate before-11-November field; no vital field is changed. This is a source-scope correction, not a new baptism discovery, father selection, confidence upgrade or component join.
+
+Inspect the original OPR entries for residence, maternal wording and witnesses, and seek an independently sourced William/Ann marriage or family record. Preserve the distinction between a father explicitly named in a child record and identification of that father across later households.
+
+- [Findmypast: Bessie Glasgow, baptism 21 April 1682, father William; OPR 689/20 item 1 p.39](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4473863&tab=this)
+- [Findmypast: John Glasgow, baptism 29 November 1702, father William; OPR 689/20 item 1](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4473915&tab=this)
+- [Findmypast: William Glasgow, baptism 22 April 1705, father William; OPR 689/20 item 1](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4473941&tab=this)
+- [FamilySearch VQ4K-ZQN: William in Bessie’s 1682 entry; child link VQ4K-ZQF; father only](https://www.familysearch.org/ark:/61903/1:1:VQ4K-ZQN)
+- [FamilySearch VQ4K-FY9: William Glasgou, christened 22 April 1705; father William, no mother](https://www.familysearch.org/ark:/61903/1:1:VQ4K-FY9)
+
+[William’s combined household assessment](/people/glasgow-1026.html#research-findings).

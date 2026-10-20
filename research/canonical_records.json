@@ -2552,25 +2552,38 @@
   },
   {
     "record_id": "kirknewton-bessie-1682-william-household",
-    "association": "Bessie, Kirknewton,21 April 1682; William and Ann household",
+    "association": "Bessie, Kirknewton, 21 April 1682; named father William, mother omitted",
     "date": "21 April 1682",
     "year": 1682,
     "place": "Kirknewton",
-    "source_title": "Bessie, Kirknewton,21 April 1682; William and Ann household",
+    "source_title": "FamilySearch VQ4K-ZQN: William in Bessie’s 1682 entry; child link VQ4K-ZQF; father only",
     "source_url": "https://www.familysearch.org/ark:/61903/1:1:VQ4K-ZQN",
-    "status": "Existing index/captured-profile review",
-    "note": "Existing household evidence for the older William; not the 1671 child’s parentage.",
+    "status": "FamilySearch and Findmypast transcripts inspected20October2026; original uninspected",
+    "note": "The FamilySearch citations previously used to say William and Ann McCook were both recorded as parents were also inspected. VQ4K-ZQN is the father entry for Bessie, linked to child VQ4K-ZQF; it names William only. VQ4K-FY9 records the child William Glasgou and his father William, without a mother. Both display “Image Unavailable”. These indexes therefore do not establish Ann’s maternity or the couple’s marriage. The older claim that those citations name Ann is superseded; the earlier attached family and all citations remain available for comparison. An omitted mother is not evidence excluding Ann. The Findmypast transcripts inspected on 20 October 2026 name William Glasgow as father of Bessie (21 April 1682), John (29 November 1702) and William (22 April 1705), all at Kirknewton and East Calder. None displays a mother, residence within the parish, occupation or witnesses. Bessie’s transcript gives OPR 689/20, item 1, page 39; the two later transcripts give the same archive reference and item but no page. This provider reference differs from the supplied ScotlandsPeople parish 690 references and must be reconciled against the original. No original register image was inspected.",
     "profiles": {
       "Glasgow-1026": {
         "role": "father in existing household review"
       },
       "McCook-217": {
-        "role": "mother in existing household review"
+        "role": "Attached maternal candidate in existing tree; not named by the inspected record"
       },
       "Glasgow-1545": {
         "role": "indexed child"
       }
-    }
+    },
+    "assessment_history": [
+      {
+        "reviewed": "2026-10-20",
+        "previous_association": "Bessie, Kirknewton,21 April 1682; William and Ann household",
+        "previous_note": "Existing household evidence for the older William; not the 1671 child’s parentage.",
+        "previous_maternal_role": "mother in existing household review",
+        "resolution": "Inspected indexes name father only; prior maternal attribution is an unproved tree claim."
+      }
+    ],
+    "source_urls": [
+      "https://www.familysearch.org/ark:/61903/1:1:VQ4K-ZQN",
+      "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4473863&tab=this"
+    ]
   },
   {
     "record_id": "kilwinning-hew-parent-index-1676",
@@ -3100,8 +3113,8 @@
     "place": "Kirknewton and East Calder",
     "source_title": "John, Kirknewton 1702: named father William; FamilySearch index",
     "source_url": "https://www.familysearch.org/ark:/61903/1:1:VQ4K-XZ7",
-    "status": "Previously cited child index; current adult identity uncertain",
-    "note": "Names father William; current William-1026 identity remains qualified. Ann not independently named in reviewed citation.",
+    "status": "Findmypast transcript inspected20October2026; original uninspected",
+    "note": "Names father William; current William-1026 identity remains qualified. Ann not independently named in reviewed citation. Findmypast4473915 gives baptism29November1702, fatherWilliam, no mother or residence. This does not change the child’s separate before11November field.",
     "profiles": {
       "Glasgow-1544": {
         "role": "child account"
@@ -3109,7 +3122,11 @@
       "Glasgow-1026": {
         "role": "existing uncertain identity of named William"
       }
-    }
+    },
+    "source_urls": [
+      "https://www.familysearch.org/ark:/61903/1:1:VQ4K-XZ7",
+      "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4473915&tab=this"
+    ]
   },
   {
     "record_id": "calder-john-jean-father-1730",
@@ -5932,5 +5949,31 @@
     },
     "notes": "The maintained reading of PRONI T1959/3 describes the writer’s paternal grandfather William Glasgow of Killycurragh and his wife, an unidentified Miss Cunningham of Omagh. Their sons included James and Samuel, who remained on the family farm; Samuel occupied the parental house. The writer’s father was the minister who died in July 1801. This is an undated, unsigned family recollection known through a published transcription, not an original newly inspected in this review. The public transcription returned HTTP 403 when rechecked today; the earlier source account is reused explicitly. The percentages assess each entire father-to-profile proposition, including identification of the named son with the later profile; they are subjective comparative judgments, not measured frequencies. The original letter and holding succession remain unverified. Samuel’s circa-1800 birth is an estimate, and a materially older Samuel or a later same-name descendant is possible. His wife Anne’s approximate 1801 birth and their children in the 1820s–1830s do not date Samuel himself. A nephew or later tenant could share the name and townland. Do not transfer a recorded relationship to a later adult merely from the letter’s parent clause. William’s birth, death and own parents remain unknown. Miss Cunningham is retained as William’s reported wife, without selecting her as either profile’s mother. No existing person is merged or redated, and no live WikiTree edit has been made.",
     "reviewed_at": "2026-10-20"
+  },
+  {
+    "record_id": "kirknewton-william-william-child-1705",
+    "record_type": "baptism",
+    "date": "1705-04-22",
+    "year": 1705,
+    "place": "Kirknewton and East Calder, Midlothian, Scotland",
+    "source_title": "FamilySearch VQ4K-FY9: William Glasgou, christened 22 April 1705; father William, no mother",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:VQ4K-FY9",
+    "source_urls": [
+      "https://www.familysearch.org/ark:/61903/1:1:VQ4K-FY9",
+      "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4473941&tab=this"
+    ],
+    "status": "FamilySearch and Findmypast transcripts inspected20October2026; original image unavailable",
+    "note": "Names father William Glasgou/Glasgow, no mother. Current father-profile identity and Ann’s maternity remain separately qualified; not a new event discovery.",
+    "profiles": {
+      "Glasgow-1318": {
+        "role": "Indexed child"
+      },
+      "Glasgow-1026": {
+        "role": "Existing profile attribution of named father William; household identity qualified"
+      },
+      "McCook-217": {
+        "role": "Attached maternal candidate in existing tree; not named by the inspected record"
+      }
+    }
   }
 ]

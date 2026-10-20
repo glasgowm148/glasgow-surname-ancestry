@@ -6315,6 +6315,97 @@
       "preserve_captured_detail": false,
       "reviewed_narrative_reduction": true,
       "preservation_review_path": "research/ancestry-connections/killycurragh-preservation-2026-10-20.json"
+    },
+    "Glasgow-1026": {
+      "significance": 98,
+      "summary": "Correct the unsupported claim that the1682/1705 indexes name Ann McCook; retain existing family attachments as unproved. John-to-William father24% unchanged. Review the newly selected uncertain Lothian father, retained alternatives and independently unknown mother. Earlier completed corrections remain completed. Review the uncertain Michael→Robert and James→older-William father models; preserve the 1547 alternative and qualify the tree-held Helen date without changing current family fields. Review selected uncertain Calder/Irvine parents and the full child/adult comparisons. Preserve the Guthrie/Meek household distinction, the two George generations, source-date discrepancies and earlier amendments. No live merge, new spouse or confidence upgrade.",
+      "manual_update": true,
+      "queued_at": "2026-10-20",
+      "status": "OPEN",
+      "draft_path": "research/Glasgow-1026/kirknewton-index-review-2026-10-20.wiki",
+      "preservation_review_path": "research/ancestry-connections/kirknewton-index-preservation-2026-10-20.json",
+      "reviewed_narrative_reduction": true,
+      "preserve_captured_detail": false,
+      "relationship_changes": [
+        {
+          "action": "add",
+          "relationship": "father",
+          "status": "uncertain",
+          "relative_id": "Glasgow-3610",
+          "assertion_id": "C-working-20261016-lothian-heads-william"
+        },
+        {
+          "action": "add",
+          "relationship": "child",
+          "status": "uncertain",
+          "relative_id": "Glasgow-3526",
+          "assertion_id": "C-working-20261016-irvine-calder-heads-james-father"
+        },
+        {
+          "action": "add",
+          "relationship": "child",
+          "status": "uncertain",
+          "relative_id": "Glasgow-3481",
+          "assertion_id": "C-working-20261016-calder-irvine-working-family-john-father"
+        }
+      ],
+      "profile_id": "Glasgow-1026",
+      "findings_path": "research/Glasgow-1026/findings.md",
+      "pending": true,
+      "work_queue_summary": "Correct the unsupported claim that the1682/1705 indexes name Ann McCook; retain existing family attachments as unproved. John-to-William father24% unchanged.",
+      "remote_wikitext": "== Biography ==\n\n'''William Glasgow''' was married to [[McCook-217|Ann McCook]]. They were living in or associated with Kirknewton parish, Midlothian, Scotland, by 1682.\n\nTheir daughter [[Glasgow-1545|Bessie Glasgow]] was recorded there on 21 April 1682, daughter of William Glasgow and Ann McCook.<ref name=\"Bessie1682\">\"Scotland, Births and Baptisms, 1564-1950,\" database, FamilySearch, Bessie Glasgow, 1682; [https://www.familysearch.org/ark:/61903/1:1:VQ4K-ZQN FamilySearch record].</ref>\n\nWilliam and Ann were also recorded as the parents of [[Glasgow-1318|William Glasgow]], baptised on 22 April 1705.<ref name=\"William1705\">\"Scotland, Births and Baptisms, 1564-1950,\" database, FamilySearch, William Glasgow, 1705; [https://familysearch.org/ark:/61903/1:1:VQ4K-FY9 FamilySearch record].</ref>\n\nWilliam's own birth, parentage and death have not yet been established from contemporary evidence.\n\n== Research Notes ==\n\n=== Identity ===\n\nThis William was previously conflated with [[Glasgow-3974|William Glasgow]], who was baptised on 24 September 1671 as a son of Andro Glasgow.<ref name=\"William1671\">\"Scotland, Births and Baptisms, 1564-1950,\" database, FamilySearch, William Glasgow, baptised 24 September 1671, son of Andro Glasgow; [https://familysearch.org/ark:/61903/1:1:VQ4K-F2B FamilySearch record].</ref>\n\nThe two men cannot reasonably be the same person. [[Glasgow-1545|Bessie Glasgow]] was recorded as the daughter of William Glasgow and Ann McCook in April 1682,<ref name=\"Bessie1682\" /> when the William baptised in September 1671 was only ten years old.\n\nThe 1671 baptism and the parentage by Andro Glasgow therefore belong to [[Glasgow-3974|William Glasgow]], not this profile.\n\nNo contemporary evidence has yet been found establishing this William's date or place of birth or identifying his parents. The former structured father [[Glasgow-1554|Walter Glasgow]] was disconnected on 26 September 2026. Walter was christened in 1649, only about eleven years before this William's estimated birth, and no cited record names Walter as his father.<ref name=\"Walter1649\">FamilySearch, “Scotland, Births and Baptisms, 1564–1950,” Walter Glasgow, christened 23 September 1649 in the Kirknewton/East Calder index, [https://www.familysearch.org/ark:/61903/1:1:VQ4K-FWL record VQ4K-FWL].</ref>\n\n=== Marriage ===\n\nWilliam was married to [[McCook-217|Ann McCook]].\n\nNo contemporary marriage entry for the couple has yet been identified. Their relationship is nevertheless supported by parish records naming them together as the parents of children in 1682 and 1705.<ref name=\"Bessie1682\" /><ref name=\"William1705\" />\n\nAnn's currently estimated birth date should be checked separately against the 1682 record, since she was already Bessie's mother by that date.\n\n=== Children ===\n\n{| class=\"wikitable sortable\" style=\"width:100%;\"\n|+ '''Children and claimed children'''\n! Child\n! Evidence\n! Assessment\n|-\n| [[Glasgow-1545|Bessie Glasgow]]\n| Recorded on 21 April 1682 as daughter of William Glasgow and Ann McCook.<ref name=\"Bessie1682\" />\n| '''Supported.'''\n|-\n| [[Glasgow-1546|Andrew Glasgow]]\n| Was previously attached to this family, but is no longer connected; the cited evidence requires checking for an explicit statement of parentage.\n| '''Unresolved.'''\n|-\n| [[Glasgow-2867|Robert Glasgow]]\n| Later records identify a Robert Glasgow, but no contemporary evidence currently cited establishes him as a son of William and Ann.\n| '''Unresolved.'''\n|-\n| [[Glasgow-1025|James Glasgow]]\n| A 1759 probate-index entry identifies James Glasgow of Drumearn, County Tyrone, but does not itself identify his parents.\n| '''Unresolved.'''\n|-\n| [[Glasgow-1544|John Glasgow]]\n| Baptised on 29 November 1702 as a son of a William Glasgow.<ref name=\"John1702\">\"Scotland, Births and Baptisms, 1564-1950,\" database, FamilySearch, John Glasgow, baptised 29 November 1702, son of William Glasgow; [https://www.familysearch.org/ark:/61903/1:1:VQ4K-XZ7 FamilySearch record].</ref>\n| '''Possible.''' The indexed record needs checking against the original register to determine whether the father was this William and whether Ann was John's mother.\n|-\n| [[Glasgow-1318|William Glasgow]]\n| Baptised on 22 April 1705, son of William Glasgow and Ann McCook.<ref name=\"William1705\" />\n| '''Supported.'''\n|}\n\n=== Drummore and \"Walter\" ===\n\nLater online genealogies describe this man as '''William Walter Glasgow''' and associate him with Drummore. No contemporary source has yet been identified establishing either the middle name \"Walter\" or a Drummore birthplace or residence.\n\nThese claims should remain research leads rather than established facts.\n\n=== Ireland ===\n\nLater pedigrees connect this family with County Tyrone, Ireland. The presently identified records do not establish when or whether William himself migrated to Ireland.\n\nThe 1759 probate-index entry for [[Glasgow-1025|James Glasgow]] places James at Drumearn, County Tyrone, but does not by itself establish James as William's son or prove a Scottish-to-Irish migration by this William.\n\n=== Priority Research ===\n\n* '''Priority 1 — inspect Bessie's original 1682 parish entry.'''\n** Obtain the original Kirknewton Old Parish Register entry behind the FamilySearch index.\n** Record the exact wording, residence, father's occupation and witnesses.\n** Confirm the spelling of Ann's surname in the original record.\n\n* '''Priority 1 — locate the marriage of William and Ann.'''\n** Search Kirknewton and neighbouring Midlothian parishes before April 1682.\n** Search surname variants including Glasgow, Glasgo, Glascow and Glassgow.\n** Search McCook and contemporary spelling variants.\n** A marriage entry could establish William's residence, parish of origin or other identifying information.\n\n* '''Priority 1 — inspect the original 1705 baptism of [[Glasgow-1318|William Glasgow]].'''\n** Confirm both parents' names in the original register.\n** Compare residence and witnesses with Bessie's 1682 entry.\n\n* '''Priority 2 — reconstruct the complete William and Ann household.'''\n** Inspect every Glasgow baptism in Kirknewton and neighbouring parishes between about 1680 and 1710.\n** Resolve the parentage of [[Glasgow-1546|Andrew Glasgow]] and [[Glasgow-1544|John Glasgow]] from their original records rather than existing tree relationships.\n\n* '''Priority 2 — investigate the County Tyrone connection.'''\n** Work backwards from the earliest securely documented members of the Glasgow family in County Tyrone.\n** Look specifically for records naming Scottish relatives, places of origin, executors, beneficiaries or other associates capable of linking the Irish family to William and Ann.\n\n== Sources ==\n\n<references />",
+      "remote_captured_at": "2026-09-26T22:29:10+00:00"
+    },
+    "Glasgow-1545": {
+      "profile_id": "Glasgow-1545",
+      "draft_path": "research/Glasgow-1545/kirknewton-index-review-2026-10-20.wiki",
+      "findings_path": "research/Glasgow-1545/findings.md",
+      "queued_at": "2026-10-20",
+      "status": "OPEN",
+      "pending": true,
+      "manual_update": true,
+      "summary": "Add inspected baptism-index wording: father William is named; Ann McCook is not. Retain current attachments and distinguish tree claims from the cited records. ",
+      "work_queue_summary": "Add inspected baptism-index wording: father William is named; Ann McCook is not. Retain current attachments and distinguish tree claims from the cited records.",
+      "significance": 45,
+      "remote_wikitext": "== Biography ==\nBessie was born before 1682. She is the daughter of [[Glasgow-1026|William Glasgow]] and [[McCook-217|Ann McCook]]. \n== Sources ==\n<references />\n* https://www.familysearch.org/ark:/61903/1:1:VQ4K-ZQN",
+      "remote_captured_at": "2026-08-09T11:27:23+00:00",
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "preservation_review_path": "research/ancestry-connections/kirknewton-index-preservation-2026-10-20.json"
+    },
+    "Glasgow-1318": {
+      "profile_id": "Glasgow-1318",
+      "draft_path": "research/Glasgow-1318/kirknewton-index-review-2026-10-20.wiki",
+      "findings_path": "research/Glasgow-1318/findings.md",
+      "queued_at": "2026-10-20",
+      "status": "OPEN",
+      "pending": true,
+      "manual_update": true,
+      "summary": "Add inspected baptism-index wording: father William is named; Ann McCook is not. Retain current attachments and distinguish tree claims from the cited records. ",
+      "work_queue_summary": "Add inspected baptism-index wording: father William is named; Ann McCook is not. Retain current attachments and distinguish tree claims from the cited records.",
+      "significance": 45,
+      "remote_wikitext": "== Biography ==\n\nWilliam Glasgow was baptized on 22 April 1705 in Kirknewton and East Calder, Midlothian, Scotland. He was the son of a William Glasgow <ref>Scotland, Births and Baptisms, 1564-1950. FamilySearch database. https://familysearch.org/ark:/61903/1:1:VQ4K-FY9 (accessed 2025).</ref>\n\n== Sources ==\n<references />",
+      "remote_captured_at": "2026-08-09T11:27:23+00:00",
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "preservation_review_path": "research/ancestry-connections/kirknewton-index-preservation-2026-10-20.json"
+    },
+    "McCook-217": {
+      "profile_id": "McCook-217",
+      "draft_path": "research/McCook-217/kirknewton-index-review-2026-10-20.wiki",
+      "findings_path": "research/McCook-217/findings.md",
+      "queued_at": "2026-10-20",
+      "status": "OPEN",
+      "pending": true,
+      "manual_update": true,
+      "summary": "Add inspected baptism-index wording: father William is named; Ann McCook is not. Retain current attachments and distinguish tree claims from the cited records. ",
+      "work_queue_summary": "Add inspected baptism-index wording: father William is named; Ann McCook is not. Retain current attachments and distinguish tree claims from the cited records.",
+      "significance": 45,
+      "remote_wikitext": "== Biography ==\n{{Unsourced}}\nAnn was born about 1670.\n\n\n\n\n== Sources ==\n<references />\n\n\n* \"Family Tree,\" database, <i>FamilySearch</i> (http://familysearch.org : modified 18 September 2023, 16:38), entry for Ann McCook (PID https://beta.familysearch.org/ark:/61903/4:1:L6JR-38T ); contributed by various users.",
+      "remote_captured_at": "2026-08-11T11:27:28+00:00",
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "preservation_review_path": "research/ancestry-connections/kirknewton-index-preservation-2026-10-20.json"
     }
   },
   "reviewed_on": "2026-10-17",

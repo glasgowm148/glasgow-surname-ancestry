@@ -33122,6 +33122,66 @@
       "genealogical_connections_added": 2,
       "new_source_discoveries": 0,
       "new_original_inspections": 0
+    },
+    {
+      "id": "kirknewton-index-parent-scope-20261020",
+      "found_on": "2026-10-20",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Kirknewton1682/1705 citations name father William, not Ann McCook. Correct the earlier maternal source claim; retain the family attachments as unproved.",
+      "qualification": "Retain Ann McCook’s existing spouse and maternal attachments as unproved tree claims; no person is detached or redated. The three same-name father entries do not alone establish one continuous 1682–1705 household. They supply no bridge to the older John Glasgow-3610’s Easter Newtoun household, so the selected John-to-William father hypothesis remains uncertain at 24%. The 1702 transcript supports 29 November as its baptism date, but does not resolve John-1544’s separate before-11-November field; no vital field is changed. This is a source-scope correction, not a new baptism discovery, father selection, confidence upgrade or component join.",
+      "people": [
+        {
+          "id": "Glasgow-1026",
+          "name": "William Glasgow",
+          "url": "/people/glasgow-1026.html"
+        },
+        {
+          "id": "Glasgow-1545",
+          "name": "Bessie Glasgow",
+          "url": "/people/glasgow-1545.html"
+        },
+        {
+          "id": "Glasgow-1318",
+          "name": "William Glasgow",
+          "url": "/people/glasgow-1318.html"
+        },
+        {
+          "id": "McCook-217",
+          "name": "Ann McCook",
+          "url": "/people/mccook-217.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Findmypast: Bessie Glasgow, baptism 21 April 1682, father William; OPR 689/20 item 1 p.39",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4473863&tab=this"
+        },
+        {
+          "title": "Findmypast: John Glasgow, baptism 29 November 1702, father William; OPR 689/20 item 1",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4473915&tab=this"
+        },
+        {
+          "title": "Findmypast: William Glasgow, baptism 22 April 1705, father William; OPR 689/20 item 1",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4473941&tab=this"
+        },
+        {
+          "title": "FamilySearch VQ4K-ZQN: William in Bessie’s 1682 entry; child link VQ4K-ZQF; father only",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:VQ4K-ZQN"
+        },
+        {
+          "title": "FamilySearch VQ4K-FY9: William Glasgou, christened 22 April 1705; father William, no mother",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:VQ4K-FY9"
+        }
+      ],
+      "detail_url": "/people/glasgow-1026.html#research-findings",
+      "relationship_changes": [],
+      "certainty_upgrades": 0,
+      "new_father_attachments": 0,
+      "genealogical_connections_added": 0,
+      "new_source_discoveries": 0,
+      "new_transcript_inspections": 5,
+      "new_original_inspections": 0
     }
   ]
 }

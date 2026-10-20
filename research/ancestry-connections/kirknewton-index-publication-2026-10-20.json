@@ -1,0 +1,29 @@
+{
+  "reviewed": "2026-10-20",
+  "all_vitals_and_family_attachments_preserved": true,
+  "father_percent_unchanged": 24,
+  "both_full_tree_models_unchanged": true,
+  "main_packed_model_matches_full": true,
+  "connectivity_metrics_unchanged": true,
+  "full_compact_update_membership_equal": true,
+  "complete_drafts_and_hashes_verified": true,
+  "canonical_maternal_source_role_corrected_with_history": true,
+  "pending_count_before": 543,
+  "pending_count_after": 546,
+  "new_father_selections": 0,
+  "confidence_upgrades": 0,
+  "transcript_inspections": 5,
+  "underlying_known_events": 3,
+  "original_inspections": 0,
+  "live_edits": 0,
+  "browser_checks": {
+    "new_pending_subject": "Glasgow-1545; one result under needsUpdate=1",
+    "existing_father_flag": "Glasgow-1026: one result under add/father/uncertain; 24%, links to WikiTree Glasgow-3610",
+    "visible_source_correction": true
+  },
+  "local_research_cache_refresh": "Completed successfully after final public dossier integration",
+  "release_totals_check": "passed",
+  "research_publication_check": "zero failures; existing dated-overview warnings retained",
+  "publication": "Local site only; no push, deployment or live WikiTree edit",
+  "link_check": "Passed against the maintained baseline; no new broken-link pairs"
+}

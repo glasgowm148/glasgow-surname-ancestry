@@ -2475,3 +2475,11 @@ Burial-defined Walter remains on source-verification HOLD in the existing creati
 
 | [James Glasgow, Killycarragh probate subject](https://www.wikitree.com/wiki/Glasgow-4145) | OPEN | New probable father William, 82%; local documentary draft, identity unresolved. |
 | [Samuel Glasgow of Killycurragh](https://www.wikitree.com/wiki/Glasgow-1698) | OPEN | New probable father William, 66%; local documentary draft, identity unresolved. |
+
+
+## Kirknewton index wording —20October2026
+
+| [Glasgow-1026](https://www.wikitree.com/wiki/Glasgow-1026) | OPEN | Correct/qualify the Ann McCook source attribution; inspected baptism indexes name father William only. Preserve existing attachments. |
+| [Glasgow-1545](https://www.wikitree.com/wiki/Glasgow-1545) | OPEN | Correct/qualify the Ann McCook source attribution; inspected baptism indexes name father William only. Preserve existing attachments. |
+| [Glasgow-1318](https://www.wikitree.com/wiki/Glasgow-1318) | OPEN | Correct/qualify the Ann McCook source attribution; inspected baptism indexes name father William only. Preserve existing attachments. |
+| [McCook-217](https://www.wikitree.com/wiki/McCook-217) | OPEN | Correct/qualify the Ann McCook source attribution; inspected baptism indexes name father William only. Preserve existing attachments. |
