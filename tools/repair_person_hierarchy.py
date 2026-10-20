@@ -1400,6 +1400,27 @@ def _inline_text_html(value: str) -> str:
     return "".join(out)
 
 
+def _figure_size(payload: bytes, filename: str) -> tuple[int, int] | None:
+    """Intrinsic size of a figure, so the browser reserves its space before it loads."""
+    if filename.endswith(".svg"):
+        head = payload[:2000].decode("utf-8", "replace")
+        tag = re.search(r"<svg\b[^>]*>", head)
+        if not tag:
+            return None
+        width, height = (re.search(rf'\s{name}="([0-9.]+)(?:px)?"', tag[0]) for name in ("width", "height"))
+        if width and height:
+            return round(float(width[1])), round(float(height[1]))
+        box = re.search(r'viewBox="\s*[-0-9.]+[\s,]+[-0-9.]+[\s,]+([0-9.]+)[\s,]+([0-9.]+)\s*"', tag[0])
+        return (round(float(box[1])), round(float(box[2]))) if box else None
+    if filename.endswith(".png") and payload[:8] == b"\x89PNG\r\n\x1a\n" and payload[12:16] == b"IHDR":
+        return int.from_bytes(payload[16:20], "big"), int.from_bytes(payload[20:24], "big")
+    return None
+
+
+def _size_attributes(size: tuple[int, int] | None) -> str:
+    return f' width="{size[0]}" height="{size[1]}"' if size else ""
+
+
 def _biography_figure_html(profile_id: str, figure: dict) -> str:
     """Publish a maintained local illustration and give it an accessible caption."""
     filename = str(figure.get("file") or "")
@@ -1424,10 +1445,11 @@ def _biography_figure_html(profile_id: str, figure: dict) -> str:
             if not mobile_destination.exists() or mobile_destination.read_bytes() != mobile_bytes:
                 mobile_destination.write_bytes(mobile_bytes)
             mobile_href = "/" + mobile_destination.relative_to(WEB).as_posix()
-            mobile_source = f'<source media="(max-width:680px)" srcset="{mobile_href}">'
+            mobile_size = _size_attributes(_figure_size(mobile_bytes, mobile))
+            mobile_source = f'<source media="(max-width:680px)" srcset="{mobile_href}"{mobile_size}>'
     caption = _safe_markdown_html(str(figure.get("caption") or ""), f"/research/{profile_id}/")
     alt = escape(str(figure.get("alt") or figure.get("title") or "Evidence diagram"), quote=True)
-    return f'<figure class="biography-figure"><a href="{href}" aria-label="Open illustration at full size"><picture>{mobile_source}<img src="{href}" alt="{alt}" loading="lazy"></picture></a><figcaption>{caption}</figcaption></figure>'
+    return f'<figure class="biography-figure"><a href="{href}" aria-label="Open illustration at full size"><picture>{mobile_source}<img src="{href}"{_size_attributes(_figure_size(payload, filename))} alt="{alt}" loading="lazy"></picture></a><figcaption>{caption}</figcaption></figure>'
 
 
 def _record_excerpt_html(profile_id: str, excerpt_id: str) -> str:

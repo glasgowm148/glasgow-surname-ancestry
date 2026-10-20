@@ -168,6 +168,27 @@ class PersonDossierPresentationTests(unittest.TestCase):
         self.assertEqual("Finding", table.select("tbody td")[1].get("data-label"))
         self.assertTrue(table.select_one("caption"))
 
+    def test_biography_figures_reserve_their_size(self):
+        """Width and height come from the figure itself, so a lazy image cannot shift the page."""
+        import struct
+        import tools.repair_person_hierarchy as renderer
+
+        png = b"\x89PNG\r\n\x1a\n" + struct.pack(">I", 13) + b"IHDR" + struct.pack(">II", 640, 480) + b"\x08\x02\x00\x00\x00"
+        svg = b'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 555" role="img"><title>T</title></svg>'
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            figures = root / "research/Example-1/figures"
+            figures.mkdir(parents=True)
+            (figures / "map.png").write_bytes(png)
+            (figures / "map-mobile.svg").write_bytes(svg)
+            (figures / "odd.webp").write_bytes(b"RIFF-not-parsed")
+            with patch.object(renderer, "ROOT", root), patch.object(renderer, "WEB", root / "www"):
+                soup = BeautifulSoup(renderer._biography_figure_html("Example-1", {"file": "map.png", "mobile_file": "map-mobile.svg", "alt": "Map"}), "html.parser")
+                unknown = BeautifulSoup(renderer._biography_figure_html("Example-1", {"file": "odd.webp", "alt": "Odd"}), "html.parser")
+        self.assertEqual(("640", "480"), (soup.img["width"], soup.img["height"]))
+        self.assertEqual(("360", "555"), (soup.source["width"], soup.source["height"]))
+        self.assertNotIn("width", unknown.img.attrs)
+
     def test_biography_figures_copy_local_assets_and_reject_invalid_files(self):
         """Figure markers render authored local evidence while unsafe or absent files stay empty."""
         import tools.repair_person_hierarchy as renderer
