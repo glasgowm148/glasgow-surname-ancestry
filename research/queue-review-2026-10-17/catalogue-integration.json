@@ -862,11 +862,63 @@
       "prior_work_summary": ""
     },
     "Glasgow-1148": {
-      "draft_path": "research/Glasgow-1148/queue-review-2026-10-17.wiki",
-      "summary": "Cite the Fisherrow family review: probable Fisherrow father/couple match, documented Janet spouse and strongly supported Inveresk fathers; retain separate adult identities and older ancestry.\n\nAdd the cited record account: Later Fisherrow sasine-index references. Retain the stated identity and relationship limits.",
-      "work_queue_summary": "Cite the Fisherrow family review: probable Fisherrow father/couple match, documented Janet spouse and strongly supported Inveresk fathers; retain separate adult identities and older ancestry.\n\nAdd the cited record account: Later Fisherrow sasine-index references. Retain the stated identity and relationship limits.",
-      "queued_at": "2026-10-17",
+      "queued_at": "2026-10-20",
       "status": "OPEN",
+      "significance": 84,
+      "summary": "Existing confident son James-3923 individually assessed 98%; possible 1716 writer identity kept separate.",
+      "manual_update": true,
+      "draft_path": "research/Glasgow-1148/fisherrow-murieston-2026-10-20.wiki",
+      "preservation_review_path": "research/ancestry-connections/fisherrow-murieston-preservation-2026-10-20.json",
+      "reviewed_narrative_reduction": true,
+      "preserve_captured_detail": false,
+      "relationship_changes": [
+        {
+          "action": "regrade",
+          "relationship": "father",
+          "status": "probable",
+          "previous_status": "uncertain",
+          "relative_id": "Glasgow-991",
+          "assertion_id": "C-review-20261017-fisherrow-glasgow-1148-father",
+          "scope": "Existing family role reassessed from the combined sasine/parish record group; no live field or certainty flag changed."
+        },
+        {
+          "action": "regrade",
+          "relationship": "spouse",
+          "status": "proved",
+          "previous_status": "unknown",
+          "relative_id": "Clerk-296",
+          "assertion_id": "C-review-20261017-fisherrow-glasgow-1148-spouse",
+          "scope": "Existing family role reassessed from the combined sasine/parish record group; no live field or certainty flag changed."
+        },
+        {
+          "action": "regrade",
+          "relationship": "child",
+          "status": "strongly_supported",
+          "previous_status": "unmarked",
+          "relative_id": "Glasgow-1151",
+          "assertion_id": "C-review-20261017-fisherrow-glasgow-1151-father",
+          "scope": "Existing family role reassessed from the combined sasine/parish record group; no live field or certainty flag changed."
+        },
+        {
+          "action": "regrade",
+          "relationship": "child",
+          "status": "strongly_supported",
+          "previous_status": "unmarked",
+          "relative_id": "Glasgow-1429",
+          "assertion_id": "C-review-20261017-fisherrow-glasgow-1429-father",
+          "scope": "Existing family role reassessed from the combined sasine/parish record group; no live field or certainty flag changed."
+        },
+        {
+          "action": "regrade",
+          "relationship": "child",
+          "status": "strongly_supported",
+          "previous_status": "unmarked",
+          "relative_id": "Glasgow-1155",
+          "assertion_id": "C-review-20261017-fisherrow-glasgow-1155-father",
+          "scope": "Existing family role reassessed from the combined sasine/parish record group; no live field or certainty flag changed."
+        }
+      ],
+      "work_queue_summary": "Existing confident son James-3923 individually assessed 98%; possible 1716 writer identity kept separate.",
       "pending": true,
       "findings_path": "research/Glasgow-1148/findings.md",
       "review_ids": [
@@ -874,7 +926,8 @@
         "subject-early-scotland-1650-fisherrow-household--alexander"
       ],
       "private_comparison": false,
-      "prior_work_summary": "Cite the Fisherrow family review: probable Fisherrow father/couple match, documented Janet spouse and strongly supported Inveresk fathers; retain separate adult identities and older ancestry."
+      "prior_work_summary": "Cite the Fisherrow family review: probable Fisherrow father/couple match, documented Janet spouse and strongly supported Inveresk fathers; retain separate adult identities and older ancestry.",
+      "profile_id": "Glasgow-1148"
     },
     "Glasgow-1150": {
       "draft_path": "research/Glasgow-1150/Glasgow-1150.md",
@@ -1614,9 +1667,9 @@
       "prior_work_summary": "Review selected uncertain Calder/Irvine parents and the full child/adult comparisons. Preserve the Guthrie/Meek household distinction, the two George generations, source-date discrepancies and earlier amendments. No live merge, new spouse or confidence upgrade."
     },
     "Glasgow-1557": {
-      "draft_path": "research/Glasgow-1557/Glasgow-1557.md",
-      "summary": "Add 9/135 as a qualified Fisherrow candidate association and test of the Corsankell connection; identity, exact kinship and existing father remain uncertain. Add the qualified 1646 33/258 association, retaining Edward-1558 as a candidate.\n\nAdd the cited record account: Possible Fisherrow sasine appearances. Retain the stated identity and relationship limits. Reconcile the reviewed family/identity assessment, individual percentages and retained alternatives; preserve the complete sourced biography.",
-      "queued_at": "2026-10-17",
+      "draft_path": "research/Glasgow-1557/fisherrow-murieston-2026-10-20.wiki",
+      "summary": "Preferred uncertain father George of Mureistoun 26%, replacing Corsankell James 18%; old father retained as alternative.",
+      "queued_at": "2026-10-20",
       "status": "OPEN",
       "pending": true,
       "findings_path": "research/Glasgow-1557/findings.md",
@@ -1626,9 +1679,29 @@
       ],
       "private_comparison": false,
       "prior_work_summary": "Add 9/135 as a qualified Fisherrow candidate association and test of the Corsankell connection; identity, exact kinship and existing father remain uncertain. Add the qualified 1646 33/258 association, retaining Edward-1558 as a candidate.",
-      "preservation_review_path": "research/queue-review-2026-10-17/astra-ancestry-preservation.json",
+      "preservation_review_path": "research/ancestry-connections/fisherrow-murieston-preservation-2026-10-20.json",
       "significance": 50,
-      "relationship_changes": []
+      "relationship_changes": [
+        {
+          "action": "replace",
+          "relationship": "father",
+          "relative_id": "record-george-mureistoun-1586",
+          "relative_name": "George Glasgow of Mureistoun",
+          "relative_url": "/research/subjects/murieston-1586-1605/#george-mureistoun",
+          "status": "uncertain",
+          "previous_relative_id": "Glasgow-3921",
+          "previous_status": "uncertain",
+          "previous_probability_percent": 18,
+          "assertion_id": "C-working-20261020-edward1557-murieston-george",
+          "scope": "Prefer the recorded George of Mureistoun as Edward Glasgow-1557’s uncertain working father at 26%, replacing the 18% Corsankell James selection. The preferred reconstruction makes Edward and James Glasgow-991 brothers. The 1624 Fisherrow index places Edward at the same RS25 9/135 reference as James the tailor and his son Alexander. Edward-1557 is the preferred 1624 identity at 56%; both Edward and the James family have Inveresk children in 1609, and James’s child Eduard supplies a compatible naming echo. A close local family explains this combined association better than the present unsupported Ayrshire-origin route. George is an already recorded older local candidate and James’s selected probable father at 82%; he is not an invented common ancestor. Brothers are the preferred degree for the two contemporary fathers, rather than a proved relationship.",
+          "previous_status_provenance": "Current captured father James-3921 and reviewed17 October 18% assessment retained as alternative."
+        }
+      ],
+      "profile_id": "Glasgow-1557",
+      "work_queue_summary": "Preferred uncertain father George of Mureistoun 26%, replacing Corsankell James 18%; old father retained as alternative.",
+      "manual_update": true,
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true
     },
     "Glasgow-1559": {
       "draft_path": "research/Glasgow-1559/queue-review-2026-10-17.wiki",
@@ -4088,10 +4161,10 @@
       "prior_work_summary": "Correct the 1888 death informant from Nancy to Mary Glasgow and add the 6 October source audit: James Anderson’s Gortahar death, Robert’s survival in January 1892 and the living daughter omitted in 1851. Also add the inspected Nancy death notice, original 1829 freehold application and qualified 1861 Lisnagaver occurrence; retain competing identities, date readings and approximate ages without changing family links."
     },
     "Glasgow-991": {
-      "draft_path": "research/Glasgow-991/easter-newton-origin-2026-10-18.wiki",
-      "summary": "Possible father of the Easter Newtoun adult John-3610, 40%, through a potential identity with his recorded 1616 son John-1084; not two proved distinct sons. Preserve all record detail and earlier qualified alternatives.",
-      "work_queue_summary": "Possible father of the Easter Newtoun adult John-3610, 40%, through a potential identity with his recorded 1616 son John-1084; not two proved distinct sons.",
-      "queued_at": "2026-10-18",
+      "draft_path": "research/Glasgow-991/fisherrow-murieston-2026-10-20.wiki",
+      "summary": "New uncertain brother route through father George: Edward 26%; James’s own father 82% unchanged.",
+      "work_queue_summary": "New uncertain brother route through father George: Edward 26%; James’s own father 82% unchanged.",
+      "queued_at": "2026-10-20",
       "status": "OPEN",
       "pending": true,
       "findings_path": "research/Glasgow-991/findings.md",
@@ -4107,7 +4180,7 @@
       "significance": 70,
       "preserve_captured_detail": false,
       "reviewed_narrative_reduction": true,
-      "preservation_review_path": "research/ancestry-connections/easter-newton-working-ancestry-preservation-2026-10-18.json",
+      "preservation_review_path": "research/ancestry-connections/fisherrow-murieston-preservation-2026-10-20.json",
       "relationship_changes": [
         {
           "action": "regrade",
@@ -6592,6 +6665,45 @@
       "findings_path": "research/Glasgow-3332/findings.md",
       "work_queue_summary": "Possible son James Glasgow-4131, 46%; recorded father role separated from the unresolved 1680/profile identification.",
       "pending": true
+    },
+    "Glasgow-3921": {
+      "queued_at": "2026-10-20",
+      "significance": 78,
+      "summary": "Edward’s preferred father changes to George 26%; this James remains an uncertain 18% alternative.",
+      "manual_update": true,
+      "draft_path": "research/Glasgow-3921/fisherrow-murieston-2026-10-20.wiki",
+      "preservation_review_path": "research/ancestry-connections/fisherrow-murieston-preservation-2026-10-20.json",
+      "reviewed_narrative_reduction": true,
+      "preserve_captured_detail": false,
+      "relationship_changes": [
+        {
+          "action": "add",
+          "relationship": "child",
+          "status": "uncertain",
+          "relative_id": "Glasgow-3178",
+          "assertion_id": "C-working-20261016-agnes-stevenston-james-younger"
+        }
+      ],
+      "profile_id": "Glasgow-3921",
+      "findings_path": "research/Glasgow-3921/findings.md",
+      "work_queue_summary": "Edward’s preferred father changes to George 26%; this James remains an uncertain 18% alternative.",
+      "status": "OPEN",
+      "pending": true
+    },
+    "Glasgow-3923": {
+      "profile_id": "Glasgow-3923",
+      "queued_at": "2026-10-20",
+      "draft_path": "research/Glasgow-3923/fisherrow-murieston-2026-10-20.wiki",
+      "findings_path": "research/Glasgow-3923/findings.md",
+      "summary": "New possible 1716 Edinburgh writer identification 45%; existing confident father Alexander individually assessed 98%.",
+      "work_queue_summary": "New possible 1716 Edinburgh writer identification 45%; existing confident father Alexander individually assessed 98%.",
+      "status": "OPEN",
+      "pending": true,
+      "manual_update": true,
+      "relationship_changes": [],
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "preservation_review_path": "research/ancestry-connections/fisherrow-murieston-preservation-2026-10-20.json"
     }
   },
   "reviewed_on": "2026-10-17",

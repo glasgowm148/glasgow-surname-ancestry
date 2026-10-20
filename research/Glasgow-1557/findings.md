@@ -1,9 +1,17 @@
 # Findings: [Edward Glasgow (Glasgow-1557), born 1570, Scotland](https://www.wikitree.com/wiki/Glasgow-1557)
 
+Last updated: 2026-10-20
+
 Record every useful result and negative search here as it is found.
 Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
+
+Reviewed: 2026-10-20. **Preferred uncertain father George of Mureistoun 26%, replacing Corsankell James 18%; old father retained as alternative.**
+
+Prefer [George of Mureistoun](/research/subjects/murieston-1586-1605/#george-mureistoun) as Edward’s uncertain working father at **26%**, making Edward and [James Glasgow-991](/people/glasgow-991.html) proposed brothers. Their Inveresk families and the shared 1624 Fisherrow sasine reference favour a local family reconstruction; the index does not state their kinship. [James of Corsankell](/people/glasgow-3921.html) remains an **18% alternative**. Margaret Smith’s separate uncertain mother attachment is unchanged.
+
+### Earlier account retained — superseded for Edward’s selected father
 
 Reviewed: 2026-10-17
 
@@ -74,3 +82,13 @@ The [1644–1653 printed index, pp.159–160](https://babel.hathitrust.org/cgi/p
 James-3921 remains Edward’s uncertain father at **18%**, without a replacement. His generation fits, but the proposed Ayrshire bridge depends on other uncertain attachments. [Jonet Glasgow-1494](https://www.wikitree.com/wiki/Glasgow-1494)’s Stevenston testament index names her husband George Logan, not Edward (2 September 1628, **CC9/7/22**); [Mary Glasgow-3539](https://www.wikitree.com/wiki/Glasgow-3539)’s entry names her husband James Montgomerie, sailor in Saltcoats, without a parent (Grant, *Commissariot Record of Glasgow*, [p.196](https://archive.org/details/scottishrecordso07scotuoft/page/196/mode/2up), 24 October 1677). Their existing father attachments cannot independently establish Edward’s Ayrshire origin. The **9 February 1571 deed, [GD39/5/59](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD39%2F5%2F59)**, proves James younger’s own father, not Edward’s. James-991 is a near-contemporary father rather than a better replacement for Edward’s father; a new Mureistoun ancestry for Edward would require both an unresolved identity and an unsupported degree of kinship. No mother, sibling, new person, family topology or live certainty mark changes.
 
 This review reuses the existing inspected index/transcript readings. Original sasines remain unread. The unresolved questions are Edward’s capacity in each instrument, whether the two appearances concern the same man, and his origin; no further source discovery is claimed.
+
+
+## Fisherrow and Murieston family review — 20 October 2026
+
+Prefer the recorded [George of Mureistoun](/research/subjects/murieston-1586-1605/#george-mureistoun) as [Edward Glasgow](/people/glasgow-1557.html)’s uncertain working father at 26%, replacing the 18% Corsankell James selection. The preferred reconstruction makes Edward and [James Glasgow](/people/glasgow-991.html) brothers. The 1624 Fisherrow index places Edward at the same RS25 9/135 reference as James the tailor and his son Alexander. Edward-1557 is the preferred 1624 identity at 56%; both Edward and the James family have Inveresk children in 1609, and James’s child Eduard supplies a compatible naming echo. A close local family explains this combined association better than the present unsupported Ayrshire-origin route. George is an already recorded older local candidate and James’s selected probable father at 82%; he is not an invented common ancestor. Brothers are the preferred degree for the two contemporary fathers, rather than a proved relationship. The 26% is an exact subjective assessment of the complete father-and-identity proposition, not a measured probability. Edward’s identity in 1624, James’s Mid Calder–Fisherrow identity, their precise degree of kinship and George’s paternity all remain open. The index gives Edward no capacity or kin clause; shared folio, local births and naming are correlated clues, not independent proofs. Cousins, uncle/nephew, an older Edward as James’s father, and another local father remain alternatives. [Eduard Glasgow](/people/glasgow-994.html) and [Edward Glasgow](/people/glasgow-1558.html) survive as the indexed Edward. The circa 1570/1575 birth years are estimates; if George is the merchant born 1565–1572, fatherhood requires later births for Edward and James, not those conventional estimates. No dates are changed to force that route. George’s own [William Glasgow](/people/glasgow-3522.html) father 26% and possible merchant identity are unchanged. [Margaret Smith](/people/smith-374110.html) remains the separately uncertain imported mother; she is not selected as George’s spouse. No biological exclusion of Corsankell James or new Scottish–American proof is claimed.
+
+[1624printed index,pp.187–188](https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481057&seq=193); [Maidment,Analecta ScoticaI,art.CXVI,pp.395–396,399](https://archive.org/details/analectascotica00maidgoog); [1626Inveresk transcript](https://www.findmypast.co.uk/transcript?id=R_686178012&tab=this); [1716Edinburgh burial transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F0189706&tab=this).
+
+
+[George Glasgow-1099](/people/glasgow-1099.html) remains the leading compatible existing-profile comparison for the Mureistoun man. The 26% father hypothesis concerns the record-defined George; connecting the merchant as Edward’s WikiTree father requires resolving that separate identity. No duplicate George profile is proposed.

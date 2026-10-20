@@ -4,6 +4,8 @@ Reviewed: 2026-10-18
 
 ## Current conclusion
 
+Reviewed:20 October 2026. Edward Glasgow-1557 is now George’s selected uncertain son at 26%, choosing a brother route alongside James-991. The earlier 18% Corsankell father remains an alternative. James’s82% father and George’s own 26% upstream father are unchanged.
+
 Reviewed: 2026-10-18. **George of Mureistoun is James Glasgow-991’s selected probable father, 82%.** Andrew Glasgow-3163 is an unselected uncertain alternative. The combined 1586 holding and 1605 baptism-witness argument supports that preference; neither record states the kinship. Father, uncle, brother, other kinsman and neighbour remain alternatives.
 
 George’s own selected father is **William Glasgow-3522, uncertain, 26%**, entirely conditional on the possible identity with the merchant George Glasgow-1099. The merchant’s proved father role must not be transferred as proved to the Mureistoun man. His minority in 1586 and James’s unrecorded birth remain material constraints. No birth date, mother or identity is changed to force the route.
@@ -63,3 +65,12 @@ Previously possible on 15 October; now probable after evaluating the combined ho
 The complete available OCR of McCall’s 1894 parish history was screened for Glasgow/Glasgw and Mureistoun variants. It yielded the already-held 1586 muster-list repetition and no new kinship lead. This is OCR screening, not a claim that every manuscript or printed page was visually searched. The Murieston tenant extracts identify other surnames; they are not Glasgow surname records.
 
 The NLS description of [MS.3724](https://manuscripts.nls.uk/repositories/2/archival_objects/37880) locates the 1586 title-production courts at pp.1–15 and the chronological court sequence at pp.23–189, with a 1592–1594 gap. No manuscript or modern transcript text was obtained in this sweep. MS.3724 and MS.3725 remain the discriminating household/tenure targets. No newly inspected original or new source discovery is claimed.
+
+
+## Edward and the Fisherrow family —20 October 2026
+
+Prefer the recorded George of Mureistoun as Edward Glasgow-1557’s uncertain working father at 26%, replacing the 18% Corsankell James selection. The preferred reconstruction makes Edward and James Glasgow-991 brothers. The 1624 Fisherrow index places Edward at the same RS25 9/135 reference as James the tailor and his son Alexander. Edward-1557 is the preferred 1624 identity at 56%; both Edward and the James family have Inveresk children in 1609, and James’s child Eduard supplies a compatible naming echo. A close local family explains this combined association better than the present unsupported Ayrshire-origin route. George is an already recorded older local candidate and James’s selected probable father at 82%; he is not an invented common ancestor. Brothers are the preferred degree for the two contemporary fathers, rather than a proved relationship.
+
+The 26% is an exact subjective assessment of the complete father-and-identity proposition, not a measured probability. Edward’s identity in 1624, James’s Mid Calder–Fisherrow identity, their precise degree of kinship and George’s paternity all remain open. The index gives Edward no capacity or kin clause; shared folio, local births and naming are correlated clues, not independent proofs. Cousins, uncle/nephew, an older Edward as James’s father, and another local father remain alternatives. Eduard-994 and Edward-1558 survive as the indexed Edward. The circa 1570/1575 birth years are estimates; if George is the merchant born 1565–1572, fatherhood requires later births for Edward and James, not those conventional estimates. No dates are changed to force that route. George’s own William-3522 father 26% and possible merchant identity are unchanged. Margaret Smith remains the separately uncertain imported mother; she is not selected as George’s spouse. No biological exclusion of Corsankell James or new Scottish–American proof is claimed.
+
+[Edward’s current account](/people/glasgow-1557.html); [James’s current account](/people/glasgow-991.html); [1624 sasine index](https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481057&seq=193).

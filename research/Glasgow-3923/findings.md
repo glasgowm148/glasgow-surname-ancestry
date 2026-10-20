@@ -1,8 +1,12 @@
 # Findings: [James Glasgow (Glasgow-3923), baptised 19 March 1626, Inveresk and Musselburgh](https://www.wikitree.com/wiki/Glasgow-3923)
 
-Last updated: 2026-09-10
+Last updated: 2026-10-20
 
 ## Current conclusion
+
+Reviewed: 2026-10-20. **New possible 1716 Edinburgh writer identification 45%; existing confident father Alexander individually assessed 98%.**
+
+The Inveresk baptism identifies James as [Alexander Glasgow’s](/people/glasgow-1148.html) son; this already-confident fatherhood is individually rated **98%**. The newly inspected Findmypast transcript for the Edinburgh writer who died on 11 October 1716, aged 87, is a **45% possible adult identity**. No parent, spouse or career bridge identifies that writer as this child, so the death and occupation remain candidate evidence. Jannet Clerk’s separately uncertain mother attachment is unchanged; [James Glasgow-1150](/people/glasgow-1150.html) remains the distinct Edinburgh weaver.
 
 Reviewed: 2026-10-15
 
@@ -21,7 +25,7 @@ whose 1641 apprenticeship names father Robert Glasgow of Wester Duddingston.
 |---|---|---|
 | FamilySearch, “Scotland, Births and Baptisms, 1564-1950,” [James Glasgow, 19 March 1626](https://familysearch.org/ark:/61903/1:1:VQ4V-GQW) | James Glasgow was baptised on 19 March 1626 at Inveresk and Musselburgh, son of Alexander Glasgow. | Direct baptism evidence for father, date and place. The existing Jannet Clerk mother attachment comes from the reconstructed Inveresk household rather than this index transcription alone. |
 | Grant, *Register of Apprentices of the City of Edinburgh, 1583-1666*, printed p. 71, [16 June 1641](https://archive.org/details/scottishrecordso28scotuoft/page/71/mode/2up) | The later Edinburgh weaver was explicitly son of Robert Glasgow of Wester Duddingston. | Excludes Glasgow-3923 from the record-defined Edinburgh-weaver identity. |
-| Findmypast, [Scotland Parish Births & Baptisms 1564-1929, James Glasgow, birth year 1626](https://www.findmypast.co.uk/transcript?id=R_686178012) | James Glasgow, born at Inveresk with Musselburgh, Midlothian; residence Inveresk; father Alexander Glasgow. | Independent surname-only index transcript matching Glasgow-3923; the transcript does not display a baptism date. |
+| Findmypast, [Scotland Parish Births & Baptisms 1564-1929, James Glasgow, birth year 1626](https://www.findmypast.co.uk/transcript?id=R_686178012) | James Glasgow, born at Inveresk with Musselburgh, Midlothian; residence Inveresk; father Alexander Glasgow. | Derivative index transcript matching Glasgow-3923; the transcript does not display a baptism date. |
 
 ## WikiTree update instructions
 
@@ -85,3 +89,10 @@ Original image not inspected for this batch. The combined collection’s date do
 The visually checked [SRO Indexes 44 (1958), Edinburgh etc. register of sasines 1644–1653, printed pp.159–160](https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481222&seq=167), pp.159–160, indexes James Glasgow, **weaver**, with Alexander in Fischerraw, burgess of Musselburgh, at three unique registration references: **14 February 1646, 33/258; 15 May 1646, 33/360; 10 February 1647, 34/287**. Edward also shares the first. No father or separate residence is supplied for James. This Inveresk child is a compatible candidate: he was about twenty in 1646 if baptised near birth, and minority alone does not exclude a land transaction. No inspected record establishes his trade.
 
 [The Edinburgh weaver James-1150](https://www.wikitree.com/wiki/Glasgow-1150), whose apprenticeship names father Robert of Wester Duddingston, and the older [James-991](https://www.wikitree.com/wiki/Glasgow-991) are also comparisons. The matching surname and Alexander association cannot override the distinct fathers documented for the two younger men. Inspect the original instruments for James’s capacity and kinship. No occupation, spouse, child or later identity is attached here.
+
+
+## Fisherrow and Murieston family review — 20 October 2026
+
+[Alexander Glasgow](/people/glasgow-1148.html)’s existing fatherhood of [James Glasgow](/people/glasgow-3923.html) is individually assessed at 98%, strongly supported, within the record-defined Inveresk family. The freshly re-read Findmypast R_686178012 gives James, birth year 1626, Inveresk with Musselburgh, father Alexander Glasgow and no mother or baptism date. The maintained FamilySearch VQ4V-GQW citation supplies19 March 1626. These derivatives are not independent witnesses to the baptism. The saved WikiTree father was already confident; this is a numeric assessment, not a new father or outstanding certainty upgrade. The proposed 1716 writer identity is assessed separately and does not change this child’s parentage. Findmypast SCOT/OPR/BUR/0189706 reports James Glasgow, writer, died11 October 1716 and buried14 October 1716, aged87; OPR685_1/86, item2, p.318, Edinburgh. Its 1629 birth year is calculated from age, not a recorded birth. Prefer this as a possible later identity of the Inveresk child James-3923 at 45%: the uncommon name, Midlothian setting and a three-year difference from the 1626 baptism make a useful comparison. No occupation is otherwise established for that child. This remains below probable: there is no parent, spouse, residence or career bridge, and another unrepresented James is a substantial possibility. [James Glasgow, the Edinburgh weaver](/people/glasgow-1150.html) is the separately recorded Edinburgh weaver, son of Robert of Wester Duddingston; [James Glasgow, the Biggar comparison](/people/glasgow-3332.html) is the unresolved Biggar/Quothquan/Lindsaylands weaver comparison. Their different occupations and age estimates weaken these matches without excluding them. Findmypast’s suggested records are automated leads, not corroboration. The 1716 death and writer occupation remain a candidate association; no structured birth or death field is changed.
+
+[1624printed index,pp.187–188](https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481057&seq=193); [Maidment,Analecta ScoticaI,art.CXVI,pp.395–396,399](https://archive.org/details/analectascotica00maidgoog); [1626Inveresk transcript](https://www.findmypast.co.uk/transcript?id=R_686178012&tab=this); [1716Edinburgh burial transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F0189706&tab=this).

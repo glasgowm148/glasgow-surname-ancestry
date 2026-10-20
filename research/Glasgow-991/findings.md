@@ -2,6 +2,10 @@
 
 ## Current conclusion
 
+Reviewed: 2026-10-20. **New uncertain brother route through father George: Edward 26%; James’s own father 82% unchanged.**
+
+[George of Mureistoun](/research/subjects/murieston-1586-1605/#george-mureistoun) remains James’s **probable father, 82%**. The new working reconstruction places [Edward Glasgow-1557](/people/glasgow-1557.html) under the same father at **26%**, making them proposed brothers; the shared Fisherrow reference and local families support the hypothesis without stating that degree of kinship. James’s **40% possible fatherhood** of the Easter Newtoun adult John-3610, through the proposed identity with his recorded son John-1084, is unchanged.
+
 Reviewed: 2026-10-18. **Possible father of the Easter Newtoun adult John-3610, 40%, through a potential identity with his recorded 1616 son John-1084; not two proved distinct sons.**
 
 Prefer James Glasgow-991 as the possible working father of the Easter Newtoun adult John Glasgow-3610 at 40% subjective confidence, through the adult’s possible identity with John Glasgow-1084, the Mid Calder child of 1616. The 1616 index names James as father. The existing 1616-child account already carries the specific later-family attribution to Annah and the proposed 1642 Porteous marriage and 1643 Edinburgh child. The inspected 1649 and 1652 transcripts now place the named father Johne at Easter Newtoune/Easter Newtoun, supporting one adult household. This makes the existing 1616-family comparison a more economical preferred reconstruction than the 1608 route: the latter requires both the 1608 child’s identification with this adult and the identification of his named Mid Calder father with the Quothquan testator John-3296. Neither route is proved. The inherited Annah attribution is not independent corroboration of the new residence reading.
@@ -18,7 +22,7 @@ The selected local father changes from John-3296, uncertain 28%, to James-991, p
 
 The earlier sections below retain their dated evidence and reasoning. Statements selecting John-3296 or saying the 28% upstream route is unchanged are superseded by the current James-991 selection above. Other family conclusions remain in force.
 
-Last updated: 2026-10-17
+Last updated: 2026-10-20
 
 ### Earlier conclusion retained — superseded where noted
 
@@ -223,3 +227,10 @@ Prioritise a discriminating household link for the Easter Newtoun adult: compare
 - [Findmypast, Annah, 20 June 1652, father Johne at Easter Newtoun; transcript inspected 18 October 2026](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4473604)
 - [Paton, Register of Marriages for the Parish of Edinburgh 1595–1700, printed p.267: John Glasgow, whipman, and Isobel Porteous, 30 June 1642; retained extract, no new page inspection](https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/register_of_marriages_for_the_parish_of_edinburgh_1595-1700_~_1898.pdf)
 - [FamilySearch, Isobell, Edinburgh, 4 April 1643; parents John Glasgow and Issobell Porteous; retained citation](https://www.familysearch.org/ark:/61903/1:1:X1YN-JHD)
+
+
+## Fisherrow and Murieston family review — 20 October 2026
+
+Edward-1557 is now placed under [George of Mureistoun](/research/subjects/murieston-1586-1605/#george-mureistoun) at 26%, choosing a brother reconstruction alongside this James. James’s own 82% George father and 84% Fisherrow Alexander father assessments are unchanged. This is not proof of brotherhood. Prefer the recorded George of Mureistoun as [Edward Glasgow](/people/glasgow-1557.html)’s uncertain working father at 26%, replacing the 18% Corsankell James selection. The preferred reconstruction makes Edward and [James Glasgow](/people/glasgow-991.html) brothers. The 1624 Fisherrow index places Edward at the same RS25 9/135 reference as James the tailor and his son Alexander. Edward-1557 is the preferred 1624 identity at 56%; both Edward and the James family have Inveresk children in 1609, and James’s child Eduard supplies a compatible naming echo. A close local family explains this combined association better than the present unsupported Ayrshire-origin route. George is an already recorded older local candidate and James’s selected probable father at 82%; he is not an invented common ancestor. Brothers are the preferred degree for the two contemporary fathers, rather than a proved relationship. The 26% is an exact subjective assessment of the complete father-and-identity proposition, not a measured probability. Edward’s identity in 1624, James’s Mid Calder–Fisherrow identity, their precise degree of kinship and George’s paternity all remain open. The index gives Edward no capacity or kin clause; shared folio, local births and naming are correlated clues, not independent proofs. Cousins, uncle/nephew, an older Edward as James’s father, and another local father remain alternatives. [Eduard Glasgow](/people/glasgow-994.html) and [Edward Glasgow](/people/glasgow-1558.html) survive as the indexed Edward. The circa 1570/1575 birth years are estimates; if George is the merchant born 1565–1572, fatherhood requires later births for Edward and James, not those conventional estimates. No dates are changed to force that route. George’s own [William Glasgow](/people/glasgow-3522.html) father 26% and possible merchant identity are unchanged. [Margaret Smith](/people/smith-374110.html) remains the separately uncertain imported mother; she is not selected as George’s spouse. No biological exclusion of Corsankell James or new Scottish–American proof is claimed.
+
+[1624printed index,pp.187–188](https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481057&seq=193); [Maidment,Analecta ScoticaI,art.CXVI,pp.395–396,399](https://archive.org/details/analectascotica00maidgoog); [1626Inveresk transcript](https://www.findmypast.co.uk/transcript?id=R_686178012&tab=this); [1716Edinburgh burial transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F0189706&tab=this).

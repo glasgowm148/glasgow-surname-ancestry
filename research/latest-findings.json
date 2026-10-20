@@ -33375,6 +33375,69 @@
       "new_spouse_selections": 1,
       "genealogical_connections_added": 4,
       "certainty_upgrades": 0
+    },
+    {
+      "id": "fisherrow-murieston-edward-writer-20261020",
+      "found_on": "2026-10-20",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Prefer George of Mureistoun as Edward’s uncertain father 26%, replacing the 18% Corsankell route; new possible 1716 writer identity for the 1626 James child 45%.",
+      "qualification": "The 26% is an exact subjective assessment of the complete father-and-identity proposition, not a measured probability. Edward’s identity in 1624, James’s Mid Calder–Fisherrow identity, their precise degree of kinship and George’s paternity all remain open. The index gives Edward no capacity or kin clause; shared folio, local births and naming are correlated clues, not independent proofs. Cousins, uncle/nephew, an older Edward as James’s father, and another local father remain alternatives. Eduard-994 and Edward-1558 survive as the indexed Edward. The circa 1570/1575 birth years are estimates; if George is the merchant born 1565–1572, fatherhood requires later births for Edward and James, not those conventional estimates. No dates are changed to force that route. George’s own William-3522 father 26% and possible merchant identity are unchanged. Margaret Smith remains the separately uncertain imported mother; she is not selected as George’s spouse. No biological exclusion of Corsankell James or new Scottish–American proof is claimed. Findmypast SCOT/OPR/BUR/0189706 reports James Glasgow, writer, died11 October 1716 and buried14 October 1716, aged87; OPR685_1/86, item2, p.318, Edinburgh. Its 1629 birth year is calculated from age, not a recorded birth. Prefer this as a possible later identity of the Inveresk child James-3923 at 45%: the uncommon name, Midlothian setting and a three-year difference from the 1626 baptism make a useful comparison. No occupation is otherwise established for that child. This remains below probable: there is no parent, spouse, residence or career bridge, and another unrepresented James is a substantial possibility. James-1150 is the separately recorded Edinburgh weaver, son of Robert of Wester Duddingston; James-3332 is the unresolved Biggar/Quothquan/Lindsaylands weaver comparison. Their different occupations and age estimates weaken these matches without excluding them. Findmypast’s suggested records are automated leads, not corroboration. The 1716 death and writer occupation remain a candidate association; no structured birth or death field is changed. Alexander’s98% father role was already marked confident on WikiTree; no certainty upgrade or new component join is claimed.",
+      "people": [
+        {
+          "id": "Glasgow-1557",
+          "name": "Edward Glasgow",
+          "url": "/people/glasgow-1557.html"
+        },
+        {
+          "id": "Glasgow-3921",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-3921.html"
+        },
+        {
+          "id": "Glasgow-991",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-991.html"
+        },
+        {
+          "id": "Glasgow-1148",
+          "name": "Alexander Glasgow",
+          "url": "/people/glasgow-1148.html"
+        },
+        {
+          "id": "Glasgow-3923",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-3923.html"
+        },
+        {
+          "id": "record-george-mureistoun-1586",
+          "name": "George Glasgow of Mureistoun",
+          "url": "/research/subjects/murieston-1586-1605/#george-mureistoun"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fisherrow sasine index1624–1630,pp.187–188",
+          "url": "https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481057&seq=193"
+        },
+        {
+          "title": "Findmypast 1716 Edinburgh writer burial,provider transcript newly read",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F0189706&tab=this"
+        },
+        {
+          "title": "Findmypast 1626 Inveresk child and named father,index re-read",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_686178012&tab=this"
+        }
+      ],
+      "detail_url": "/people/glasgow-1557.html",
+      "new_father_attachments": 0,
+      "father_replacements": 1,
+      "genealogical_connections_added": 1,
+      "certainty_upgrades": 0,
+      "new_source_discoveries": 1,
+      "newly_inspected_transcripts": 2,
+      "new_original_inspections": 0,
+      "existing_confident_roles_individually_rated": 1
     }
   ]
 }

@@ -14140,6 +14140,190 @@
           "family_root_count": 57
         }
       }
+    },
+    {
+      "date": "2026-10-20",
+      "method_version": 3,
+      "input_fingerprint": "bf327113851a39a1e93f9791a9b631fd8b07bfcc5697a8bb234c09f73747139d",
+      "metrics": {
+        "working": {
+          "population": 1793,
+          "edge_count": 1390,
+          "component_count": 405,
+          "largest_component_size": 1142,
+          "largest_component_percent": 63.69213608477412,
+          "connected_pairs_percent": 40.610123197354795,
+          "edge_status_counts": {
+            "confident": 305,
+            "dna_confirmed": 1,
+            "possible": 25,
+            "probable": 32,
+            "proved": 42,
+            "strongly_supported": 21,
+            "uncertain": 169,
+            "unmarked": 795
+          },
+          "quality": {
+            "cycles": [],
+            "cycle_edges_excluded": 0,
+            "later_born_ancestors_excluded": [],
+            "undated_ancestors": [
+              "record-william-glasgow-killycurragh-t1959"
+            ]
+          },
+          "connector_ids": [
+            "record-george-mureistoun-1586",
+            "record-john-glasgw-stirling-1475"
+          ],
+          "unattached_multi_child_roots": 37,
+          "family_root_count": 46
+        },
+        "supported": {
+          "population": 1793,
+          "edge_count": 401,
+          "component_count": 1393,
+          "largest_component_size": 46,
+          "largest_component_percent": 2.56553262688232,
+          "connected_pairs_percent": 0.2020506334156641,
+          "edge_status_counts": {
+            "confident": 305,
+            "dna_confirmed": 1,
+            "probable": 32,
+            "proved": 42,
+            "strongly_supported": 21
+          },
+          "quality": {
+            "cycles": [],
+            "cycle_edges_excluded": 0,
+            "later_born_ancestors_excluded": [],
+            "undated_ancestors": [
+              "record-william-glasgow-killycurragh-t1959"
+            ]
+          },
+          "connector_ids": [
+            "record-george-mureistoun-1586"
+          ],
+          "unattached_multi_child_roots": 44,
+          "family_root_count": 55
+        },
+        "confident": {
+          "population": 1793,
+          "edge_count": 369,
+          "component_count": 1424,
+          "largest_component_size": 26,
+          "largest_component_percent": 1.4500836586726158,
+          "connected_pairs_percent": 0.1374392478686957,
+          "edge_status_counts": {
+            "confident": 305,
+            "dna_confirmed": 1,
+            "proved": 42,
+            "strongly_supported": 21
+          },
+          "quality": {
+            "cycles": [],
+            "cycle_edges_excluded": 0,
+            "later_born_ancestors_excluded": [],
+            "undated_ancestors": [
+              "record-william-glasgow-killycurragh-t1959"
+            ]
+          },
+          "unattached_multi_child_roots": 50,
+          "family_root_count": 57
+        }
+      },
+      "fixed_cohort": {
+        "working": {
+          "population": 1776,
+          "edge_count": 1383,
+          "component_count": 399,
+          "largest_component_size": 1132,
+          "largest_component_percent": 63.73873873873874,
+          "connected_pairs_percent": 40.670409846466185,
+          "edge_status_counts": {
+            "confident": 305,
+            "dna_confirmed": 1,
+            "possible": 24,
+            "probable": 28,
+            "proved": 41,
+            "strongly_supported": 20,
+            "uncertain": 169,
+            "unmarked": 795
+          },
+          "quality": {
+            "cycles": [],
+            "cycle_edges_excluded": 0,
+            "later_born_ancestors_excluded": [],
+            "undated_ancestors": []
+          },
+          "connector_ids": [
+            "Glasgow-4152",
+            "Glasgow-4157",
+            "Glasgow-4176",
+            "record-george-mureistoun-1586",
+            "record-john-glasgw-stirling-1475",
+            "record-william-glasgow-killycurragh-t1959"
+          ],
+          "unattached_multi_child_roots": 37,
+          "family_root_count": 46
+        },
+        "supported": {
+          "population": 1776,
+          "edge_count": 395,
+          "component_count": 1386,
+          "largest_component_size": 46,
+          "largest_component_percent": 2.59009009009009,
+          "connected_pairs_percent": 0.20232204035020937,
+          "edge_status_counts": {
+            "confident": 305,
+            "dna_confirmed": 1,
+            "probable": 28,
+            "proved": 41,
+            "strongly_supported": 20
+          },
+          "quality": {
+            "cycles": [],
+            "cycle_edges_excluded": 0,
+            "later_born_ancestors_excluded": [],
+            "undated_ancestors": []
+          },
+          "connector_ids": [
+            "Glasgow-4152",
+            "Glasgow-4157",
+            "Glasgow-4176",
+            "record-george-mureistoun-1586",
+            "record-william-glasgow-killycurragh-t1959"
+          ],
+          "unattached_multi_child_roots": 43,
+          "family_root_count": 55
+        },
+        "confident": {
+          "population": 1776,
+          "edge_count": 367,
+          "component_count": 1412,
+          "largest_component_size": 26,
+          "largest_component_percent": 1.4639639639639639,
+          "connected_pairs_percent": 0.13944930846339296,
+          "edge_status_counts": {
+            "confident": 305,
+            "dna_confirmed": 1,
+            "proved": 41,
+            "strongly_supported": 20
+          },
+          "quality": {
+            "cycles": [],
+            "cycle_edges_excluded": 0,
+            "later_born_ancestors_excluded": [],
+            "undated_ancestors": []
+          },
+          "connector_ids": [
+            "Glasgow-4152",
+            "Glasgow-4157",
+            "Glasgow-4176"
+          ],
+          "unattached_multi_child_roots": 50,
+          "family_root_count": 57
+        }
+      }
     }
   ]
 }

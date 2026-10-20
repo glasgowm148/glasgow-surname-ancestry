@@ -1,6 +1,12 @@
 # Findings: [Alexander Glasgow](https://www.wikitree.com/wiki/Glasgow-1148)
 
+Last updated: 2026-10-20
+
 ## Current conclusion
+
+Reviewed: 2026-10-20. **Existing confident son James-3923 individually assessed 98%; possible 1716 writer identity kept separate.**
+
+[James Glasgow-991](/people/glasgow-991.html) remains Alexander’s **probable father, 84%**, and Janet Clerk his documented wife. Alexander’s already-confident fatherhood of the Inveresk child [James Glasgow-3923](/people/glasgow-3923.html) is now individually rated **98%**. That child’s possible identity as the Edinburgh writer who died in 1716 is assessed separately at **45%**; no new father or live certainty upgrade is proposed for the child.
 
 Reviewed: 2026-10-17
 
@@ -116,3 +122,10 @@ The signed-in [William Glasgow record VQ4V-K87](https://www.familysearch.org/ark
 The separate [Catherin Glasgow IGI submission M52D-TJJ](https://www.familysearch.org/ark:/61903/2:1:M52D-TJJ) reports a 6 May 1611 christening at Inveresk and names James Glasgow and Christina **Bie**, not Adamson, as parents. Batch A25031-7 and film 470,979 are shown, and its sole source is labelled Patron Submissions. Its James 1574 and Christina 1578 estimates are contributor claims, not birth records. The former prose naming Christina Adamson is corrected in the prepared replacement; the existing structured mother is already Bie-55. The original baptism and the submission’s underlying evidence remain unverified.
 
 These checks correct the scope and wording of cited sources. Cathrin’s local birth display now uses a conditional boundary from the reported christening; the original exact birthday is retained as imported provenance. They add no father, mother, family join, identity merge or confidence upgrade. James/Christina’s probable Fisherrow identification and James’s separate Mureistoun father hypothesis keep their current percentages. The open question is contemporary evidence identifying Christina as a child’s mother, not whether the 1614 provider page mentions her; it does not.
+
+
+## Fisherrow and Murieston family review — 20 October 2026
+
+[Alexander Glasgow](/people/glasgow-1148.html)’s existing fatherhood of [James Glasgow](/people/glasgow-3923.html) is individually assessed at 98%, strongly supported, within the record-defined Inveresk family. The freshly re-read Findmypast R_686178012 gives James, birth year 1626, Inveresk with Musselburgh, father Alexander Glasgow and no mother or baptism date. The maintained FamilySearch VQ4V-GQW citation supplies19 March 1626. These derivatives are not independent witnesses to the baptism. The saved WikiTree father was already confident; this is a numeric assessment, not a new father or outstanding certainty upgrade. The proposed 1716 writer identity is assessed separately and does not change this child’s parentage. Findmypast SCOT/OPR/BUR/0189706 reports James Glasgow, writer, died11 October 1716 and buried14 October 1716, aged87; OPR685_1/86, item2, p.318, Edinburgh. Its 1629 birth year is calculated from age, not a recorded birth. Prefer this as a possible later identity of the Inveresk child James-3923 at 45%: the uncommon name, Midlothian setting and a three-year difference from the 1626 baptism make a useful comparison. No occupation is otherwise established for that child. This remains below probable: there is no parent, spouse, residence or career bridge, and another unrepresented James is a substantial possibility. [James Glasgow, the Edinburgh weaver](/people/glasgow-1150.html) is the separately recorded Edinburgh weaver, son of Robert of Wester Duddingston; [James Glasgow, the Biggar comparison](/people/glasgow-3332.html) is the unresolved Biggar/Quothquan/Lindsaylands weaver comparison. Their different occupations and age estimates weaken these matches without excluding them. Findmypast’s suggested records are automated leads, not corroboration. The 1716 death and writer occupation remain a candidate association; no structured birth or death field is changed.
+
+[1624printed index,pp.187–188](https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481057&seq=193); [Maidment,Analecta ScoticaI,art.CXVI,pp.395–396,399](https://archive.org/details/analectascotica00maidgoog); [1626Inveresk transcript](https://www.findmypast.co.uk/transcript?id=R_686178012&tab=this); [1716Edinburgh burial transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F0189706&tab=this).

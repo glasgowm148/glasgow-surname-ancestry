@@ -2515,3 +2515,14 @@ Burial-defined Walter remains on source-verification HOLD in the existing creati
 | [William Glasgow](https://www.wikitree.com/wiki/Glasgow-2426) | OPEN | New probable daughter Margaret, wife of Rev. John of Coleraine, 84%; distinguish the letter’s two William grandfathers. |
 | [Samuel Glasgow](https://www.wikitree.com/wiki/Glasgow-1698) | OPEN | Existing father remains 66%; the named grandfather now has a possible 36% father candidate and a strongly supported minister son. |
 | [James Glasgow](https://www.wikitree.com/wiki/Glasgow-4145) | OPEN | Existing father remains 82%; distinguish the two Killycurragh William generations and the minister’s 94% father role. |
+
+
+## 20 October 2026—Fisherrow and Murieston
+
+| Profile | Status | Change |
+|---|---|---|
+| [Edward Glasgow](https://www.wikitree.com/wiki/Glasgow-1557) | OPEN | Preferred uncertain father George of Mureistoun 26%, replacing Corsankell James 18%; old father retained as alternative. |
+| [James Glasgow](https://www.wikitree.com/wiki/Glasgow-3921) | OPEN | Edward’s preferred father changes to George 26%; this James remains an uncertain 18% alternative. |
+| [James Glasgow](https://www.wikitree.com/wiki/Glasgow-991) | OPEN | New uncertain brother route through father George: Edward 26%; James’s own father 82% unchanged. |
+| [Alexander Glasgow](https://www.wikitree.com/wiki/Glasgow-1148) | OPEN | Existing confident son James-3923 individually assessed 98%; possible 1716 writer identity kept separate. |
+| [James Glasgow](https://www.wikitree.com/wiki/Glasgow-3923) | OPEN | New possible 1716 Edinburgh writer identification 45%; existing confident father Alexander individually assessed 98%. |

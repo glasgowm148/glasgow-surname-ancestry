@@ -1,0 +1,62 @@
+{
+  "reviewed": "2026-10-20",
+  "new_father": {
+    "child": "Glasgow-1557",
+    "father": "record-george-mureistoun-1586",
+    "percent": 26
+  },
+  "former_father": {
+    "id": "Glasgow-3921",
+    "percent": 18,
+    "retained": "uncertain alternative"
+  },
+  "new_writer_record_identity_percent": 45,
+  "existing_confident_child_role_percent": 98,
+  "certainty_upgrades": 0,
+  "new_component_joins": 0,
+  "all_existing_vitals_mothers_spouses_and_other_fathers_preserved": true,
+  "main_standalone_and_packed_models_verified": true,
+  "full_compact_pending_membership_equal": true,
+  "no_invented_wikitree_url_for_documentary_father": true,
+  "candidate_writer_record_in_main_record_catalogue": true,
+  "paternal_distance_between_edward_and_james_before": 7,
+  "paternal_distance_between_edward_and_james_after": 2,
+  "previous_paternal_path": [
+    "Glasgow-1557",
+    "Glasgow-3921",
+    "Glasgow-1168",
+    "Glasgow-1098",
+    "Glasgow-1093",
+    "Glasgow-3522",
+    "record-george-mureistoun-1586",
+    "Glasgow-991"
+  ],
+  "selected_paternal_path": [
+    "Glasgow-1557",
+    "record-george-mureistoun-1586",
+    "Glasgow-991"
+  ],
+  "working_1850": {
+    "population": 1793,
+    "component_count": 405,
+    "largest_component_size": 1142,
+    "connected_pairs_percent": 40.610123197354795
+  },
+  "live_edits": 0,
+  "validation": {
+    "new_publication_failures": 0,
+    "new_broken_link_pairs": 0,
+    "release_totals_consistent": true,
+    "browser_checked": [
+      "Edward replacement father filter: George of Mureistoun, uncertain 26%, correct source account link",
+      "Main Whole tree selected father: George,26%; other parent and spouse preserved",
+      "James-3923 possible writer identity45% and existing confident father98%",
+      "Current subject account and profile review summaries dated20October"
+    ],
+    "existing_warnings": [
+      "story:research-corsankell-household",
+      "story:research-kilbirnie-minister",
+      "story:research-saltmarket-succession"
+    ]
+  }
+}
