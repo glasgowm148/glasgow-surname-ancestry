@@ -5,6 +5,9 @@
 William’s inherited birth estimate is about 1685. [[Glasgow-1158|Daniel Glasgow]] remains his possible working father, assessed at 42%; no inspected record names his father.
 
 == Research Notes ==
+=== Title-clause reinspection, 20 October 2026 ===
+The enlarged original of Daniel Glasco’s 1729 deed describes the land as now in Daniel’s tenure and occupation. It does not name William as a predecessor or identify a father. The earlier possible William reading is withdrawn. Mary is explicitly Daniel’s wife, and the tract is part of Henry Slade’s 330-acre patent. This remains a compatible comparison for [[Glasgow-3322|Daniel Glasgow]], Mary Gamon’s husband in 1693, rather than a proved lifetime identity. The title chain from the Gamon property is still missing. [[Glasgow-1158|Daniel Glasgow]] remains [[Glasgow-428|William Glasgow]]’s possible working father at 42%; this inspection supplies no additional paternity evidence.<ref name="DanielDeedTitle20261020">Princess Anne County, Deeds and Wills Book 4, Part 1 (1724–1735), manuscript p.207, DGS 7645780, image 150; original image reinspected 20 October 2026. https://www.familysearch.org/ark:/61903/3:1:3QS7-99PX-F3DX. Original deed body and acknowledgment reinspected at enlarged resolution on 20 October 2026. The possible William predecessor reading is withdrawn: the title clause describes Daniel’s tenure and occupation. No father is named. Exact execution dating and profile identity remain unresolved; personal acknowledgment, rather than registration alone, establishes survival to 3 September 1729.</ref>
+
 === Two Daniels in Currituck ===
 Daniel-1158 remains the selected possible father, 42%; this first individual estimate does not add or replace a father. The 1718–1719 returns distinguish two Daniels, and neither is automatically William’s parent.
 

@@ -4,6 +4,10 @@ Last updated: 17 October 2026
 
 ## Current conclusion
 
+Reviewed: 2026-10-20
+
+**Title-clause review, 20 October 2026:** The enlarged original of Daniel Glasco’s 1729 deed describes the land as now in Daniel’s tenure and occupation. It does not name William as a predecessor or identify a father. The earlier possible William reading is withdrawn. Mary is explicitly Daniel’s wife, and the tract is part of Henry Slade’s 330-acre patent. This remains a compatible comparison for Daniel Glasgow-3322, Mary Gamon’s husband in 1693, rather than a proved lifetime identity. The title chain from the Gamon property is still missing. Daniel Glasgow-1158 remains William Glasgow-428’s possible working father at 42%; this inspection supplies no additional paternity evidence.
+
 Reviewed: 18 October 2026. **The 1693 Mary Gamon husband remains this profile’s primary record identity. The two Currituck Daniels of 1718–1719 are compatible comparisons; this profile is not automatically Junior or distinct from Daniel-1158.**
 
 The cited records below are assessed separately from the identity of this profile. The proposed biography preserves those qualifications.
@@ -36,3 +40,9 @@ Trace the 260/250-acre Currituck property separately from the 80 acres at Richfo
 - [Stuart Chaplain, NCGenWeb transcription of Currituck 1719 levies and land tax, first displayed section; NCSA Colonial Court Records, Taxes & Accounts, CCR 190](https://www.ncgenweb.us/currituck/tax/1719levies.html) — Daniel Glasco Jur. and Daniel Glasco Ser. are separate entries, each assessed for one tithable and 15 shillings. Senior has one tract of 250 acres, land tax 6s 3d; Junior’s land columns are blank.
 
 [Family comparison](/branches/early-scottish-records/#chapter-currituck-daniel-tax-returns).
+
+## Daniel deed title-clause review — 20 October 2026
+
+The enlarged original of Daniel Glasco’s 1729 deed describes the land as now in Daniel’s tenure and occupation. It does not name William as a predecessor or identify a father. The earlier possible William reading is withdrawn. Mary is explicitly Daniel’s wife, and the tract is part of Henry Slade’s 330-acre patent. This remains a compatible comparison for Daniel Glasgow-3322, Mary Gamon’s husband in 1693, rather than a proved lifetime identity. The title chain from the Gamon property is still missing. Daniel Glasgow-1158 remains William Glasgow-428’s possible working father at 42%; this inspection supplies no additional paternity evidence.
+
+[Princess Anne County, Deeds and Wills Book 4, Part 1 (1724–1735), manuscript p.207, DGS 7645780, image 150; original image reinspected 20 October 2026.](https://www.familysearch.org/ark:/61903/3:1:3QS7-99PX-F3DX). The image was read directly; no new historical deed or father attachment is claimed. The 1718–1719 Senior/Junior tax distinction remains unchanged.

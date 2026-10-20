@@ -2498,3 +2498,10 @@ Burial-defined Walter remains on source-verification HOLD in the existing creati
 | [Bessie Glasgow](https://www.wikitree.com/wiki/Glasgow-1545) | OPEN | Replace the local maternal selection with Marion-3025, 54%; Ann McCook retained as an alternative. |
 | [Ann McCook](https://www.wikitree.com/wiki/McCook-217) | OPEN | Bessie’s inherited maternity retained as an unselected alternative; other relationships unchanged. |
 | [Andrew Glasgow](https://www.wikitree.com/wiki/Glasgow-1546) | OPEN | The 1700 Cook entries are banns; new 18 May entry and 14 June qualification, father remains 58%. |
+
+
+## Daniel deed title review — 20 October 2026
+
+| [Glasgow-428](https://www.wikitree.com/wiki/Glasgow-428) | OPEN | Withdraw provisional William predecessor reading after enlarged original-deed inspection; retain possible father Daniel-1158 for William-428 at 42%, no attachment or certainty change. |
+| [Glasgow-1158](https://www.wikitree.com/wiki/Glasgow-1158) | OPEN | Withdraw provisional William predecessor reading after enlarged original-deed inspection; retain possible father Daniel-1158 for William-428 at 42%, no attachment or certainty change. |
+| [Glasgow-3322](https://www.wikitree.com/wiki/Glasgow-3322) | OPEN | Withdraw provisional William predecessor reading after enlarged original-deed inspection; retain possible father Daniel-1158 for William-428 at 42%, no attachment or certainty change. |

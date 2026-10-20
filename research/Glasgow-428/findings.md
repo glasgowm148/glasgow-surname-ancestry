@@ -1,8 +1,12 @@
 # Findings: William Glasgow (Glasgow-428)
 
-Last updated: 2026-10-17
+Last updated: 2026-10-20
 
 ## Current conclusion
+
+Reviewed: 2026-10-20
+
+**Title-clause review, 20 October 2026:** The enlarged original of Daniel Glasco’s 1729 deed describes the land as now in Daniel’s tenure and occupation. It does not name William as a predecessor or identify a father. The earlier possible William reading is withdrawn. Mary is explicitly Daniel’s wife, and the tract is part of Henry Slade’s 330-acre patent. This remains a compatible comparison for Daniel Glasgow-3322, Mary Gamon’s husband in 1693, rather than a proved lifetime identity. The title chain from the Gamon property is still missing. Daniel Glasgow-1158 remains William Glasgow-428’s possible working father at 42%; this inspection supplies no additional paternity evidence.
 
 Reviewed: 18 October 2026. **Daniel-1158 remains the selected possible father, 42%; this first individual estimate does not add or replace a father. The 1718–1719 returns distinguish two Daniels, and neither is automatically William’s parent.**
 
@@ -32,7 +36,7 @@ evidence for William's own children, not evidence that Daniel was his father.
 | [John Moncrief will, 22 Jun 1712; proved 14 Apr 1713](https://www.ncgenweb.us/currituck/wills/moncriefjohn1712.html) (North Carolina State Archives, MARS 12.96.1.1508) | Daniel Glascoe signed as witness and later proved the will. | Direct evidence that Daniel was active in Currituck in 1712; no relationship to William or father clause. Named online transcription inspected; the original manuscript image was not located or inspected in this batch. |
 | LegacyTree, *Glasgow1508* (2016), pp. 3–4 | Cites Charles F. McIntosh, *Brief Abstract of Lower Norfolk County and Norfolk County Wills, 1637–1710*, p. 149, for John Gamon’s 1693 will: Daniel Glasco is Mary Gamon’s son-in-law and receives land with her. | Secondary research report pointing to the abstract. It establishes a spouse/in-law lead, not Daniel’s father. The report PDF is locally saved at `research/pre-1700-2026-09-30/sources/legacytree-glasgow1508-public.pdf`; the cited McIntosh entry was subsequently independently inspected in its [1914 volume](https://archive.org/details/briefabstractofl01mcin), p. 149, on 30 September 2026. It confirms an in-law relationship, not the father of Daniel or William. |
 | Charles F. McIntosh, *Brief Abstracts of Norfolk County Wills, 1710–1753* (1922), [FamilySearch book 166084](https://www.familysearch.org/library/books/viewer/166084/), printed pp. 122, 331; inspected 30 Sep 2026 | Daneill Glasco witnessed Richard Johnson's Norfolk County will dated 26 February 1729/30. The index prints “Glases, Daniell, 122.” | A new, qualified Norfolk locality lead. No kinship is stated; identity with Daniel-1158 or Daniel-3322 is unproved. The witness was active at the will date, not necessarily its 18 September 1730 probate. The printed abstract was inspected, not the original will manuscript. |
-| [Princess Anne County, Deeds and Wills Book 4, Part 1, 1724–1735, manuscript p. 207](https://www.familysearch.org/ark:/61903/3:1:3QS7-99PX-F3DX), DGS 7645780; inspected 30 Sep 2026 | A deed recorded 3 September 1729 describes Daniel Glasco/Glascow, Norfolk County planter, conveying 100 acres to Richard Linton with the consent of Mary his wife. The tract forms part of Henry Slade's 330-acre patent. | Original court-recorded image read at limited resolution alongside the machine transcript. Exact execution dates and a possible William name in the title recital require sharper images. This supplies a household/property lead, not a father clause or a proved identification with either Daniel profile. William-428 is not named. |
+| [Princess Anne County, Deeds and Wills Book 4, Part 1, 1724–1735, manuscript p. 207](https://www.familysearch.org/ark:/61903/3:1:3QS7-99PX-F3DX), DGS 7645780; inspected 30 Sep 2026 | A deed recorded 3 September 1729 describes Daniel Glasco/Glascow, Norfolk County planter, conveying 100 acres to Richard Linton with the consent of Mary his wife. The tract forms part of Henry Slade's 330-acre patent. | Original deed body and acknowledgment reinspected at enlarged resolution on 20 October 2026. The possible William predecessor reading is withdrawn: the title clause describes Daniel’s tenure and occupation. No father is named. Exact execution dating and profile identity remain unresolved; personal acknowledgment, rather than registration alone, establishes survival to 3 September 1729. William-428 is not named. |
 
 ## Identity and relationship assessments
 
@@ -135,3 +139,9 @@ Trace the 260/250-acre Currituck property separately from the 80 acres at Richfo
 - [Stuart Chaplain, NCGenWeb transcription of Currituck 1719 levies and land tax, first displayed section; NCSA Colonial Court Records, Taxes & Accounts, CCR 190](https://www.ncgenweb.us/currituck/tax/1719levies.html) — Daniel Glasco Jur. and Daniel Glasco Ser. are separate entries, each assessed for one tithable and 15 shillings. Senior has one tract of 250 acres, land tax 6s 3d; Junior’s land columns are blank.
 
 [Family comparison](/branches/early-scottish-records/#chapter-currituck-daniel-tax-returns).
+
+## Daniel deed title-clause review — 20 October 2026
+
+The enlarged original of Daniel Glasco’s 1729 deed describes the land as now in Daniel’s tenure and occupation. It does not name William as a predecessor or identify a father. The earlier possible William reading is withdrawn. Mary is explicitly Daniel’s wife, and the tract is part of Henry Slade’s 330-acre patent. This remains a compatible comparison for Daniel Glasgow-3322, Mary Gamon’s husband in 1693, rather than a proved lifetime identity. The title chain from the Gamon property is still missing. Daniel Glasgow-1158 remains William Glasgow-428’s possible working father at 42%; this inspection supplies no additional paternity evidence.
+
+[Princess Anne County, Deeds and Wills Book 4, Part 1 (1724–1735), manuscript p.207, DGS 7645780, image 150; original image reinspected 20 October 2026.](https://www.familysearch.org/ark:/61903/3:1:3QS7-99PX-F3DX). The image was read directly; no new historical deed or father attachment is claimed. The 1718–1719 Senior/Junior tax distinction remains unchanged.

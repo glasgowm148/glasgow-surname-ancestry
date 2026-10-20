@@ -3,6 +3,47 @@
   "scope": "Explicitly dated, recoverable concrete record findings, supported factual corrections, reviewed relationship assessments and selected working family connections. Dates and explicit date ranges are research retrieval, supplied-record review, original-reading or explicitly dated relationship-review dates stated in maintained evidence, not historical event dates or file modification. Entries based on earlier checked readings identify that reuse and do not imply fresh original inspection. Selected uncertain links retain their individual probabilities, dependencies, alternatives and prior assessment; record-defined kinship is distinguished from adult identity. Undated conclusions, pure confirmations, unselected speculative parent rankings, negative searches and routine profile/build activity are excluded. This is a recoverable dated history, not an exhaustive account of all past research.",
   "findings": [
     {
+      "id": "daniel-deed-title-review-20261020",
+      "found_on": "2026-10-20",
+      "kind": "property",
+      "finding": "The original 1729 Daniel Glasco deed does not name a William predecessor: the earlier provisional reading is withdrawn. The clause describes Daniel’s tenure and occupation. The selected Daniel-1158 → William-428 father hypothesis remains possible, 42%.",
+      "status": "qualified",
+      "qualification": "Original deed body and acknowledgment reinspected at enlarged resolution on 20 October 2026. The possible William predecessor reading is withdrawn: the title clause describes Daniel’s tenure and occupation. No father is named. Exact execution dating and profile identity remain unresolved; personal acknowledgment, rather than registration alone, establishes survival to 3 September 1729. This is a corrected reading of an already known deed, not a new record or new family connection.",
+      "people": [
+        {
+          "id": "Glasgow-428",
+          "name": "William Glasgow",
+          "role": "Existing father-hypothesis review; no attachment change",
+          "url": "/people/glasgow-428.html"
+        },
+        {
+          "id": "Glasgow-1158",
+          "name": "William Daniel Glasgow",
+          "role": "Existing father-hypothesis review; no attachment change",
+          "url": "/people/glasgow-1158.html"
+        },
+        {
+          "id": "Glasgow-3322",
+          "name": "Daniel Glasgow",
+          "role": "Existing father-hypothesis review; no attachment change",
+          "url": "/people/glasgow-3322.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Princess Anne County, Deeds and Wills Book4 Part1 (1724–1735), manuscript p.207, DGS7645780",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-99PX-F3DX"
+        }
+      ],
+      "detail_url": "/people/glasgow-428.html",
+      "provenance": [
+        "research/canonical_records.json",
+        "research/Glasgow-428/findings.md",
+        "research/Glasgow-1158/findings.md",
+        "research/Glasgow-3322/findings.md"
+      ]
+    },
+    {
       "id": "larne-session-extracts-belong-to-1700-1701",
       "found_on": "2026-10-06",
       "kind": "record",
@@ -950,7 +991,7 @@
       "kind": "property",
       "finding": "Daniel Glasco, Norfolk planter, conveyed 100 acres to Richard Linton with the consent of Mary, explicitly his wife. The court endorsement says Daniel personally acknowledged the deed on 3 September 1729, establishing survival to that date.",
       "status": "qualified",
-      "qualification": "Inspected original deed endorsement. No father is stated; profile identification and the earlier William title recital remain qualified. Registration alone is not used as a life boundary.",
+      "qualification": "Original deed body and acknowledgment reinspected at enlarged resolution on 20 October 2026. The possible William predecessor reading is withdrawn: the title clause describes Daniel’s tenure and occupation. No father is named. Exact execution dating and profile identity remain unresolved; personal acknowledgment, rather than registration alone, establishes survival to 3 September 1729.",
       "people": [
         {
           "name": "Daniel Glasco",
