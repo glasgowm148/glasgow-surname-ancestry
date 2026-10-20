@@ -171,3 +171,26 @@ class ResearchQueueTests(unittest.TestCase):
         self.assertEqual('A < B', soup.select_one('tbody a').text)
         self.assertIn('<script>alert(1)</script>', soup.select_one('tbody').text)
         self.assertIsNone(soup.select_one('details').get('open'))
+
+    def test_catalogue_section_leaves_rows_to_a_file_and_the_full_page(self):
+        from tools.build_research_queue import QUEUE_PAGE, QUEUE_ROWS, publish_full_queue
+        row = dict(id='test', name='A < B', kind='Profile identity', status='On hold',
+                   assessment='<script>alert(1)</script>', url='/research/subjects/test/', profiles=[], sources=[])
+        lazy = BeautifulSoup(render([row], lazy_rows=QUEUE_ROWS), 'html.parser')
+        self.assertEqual([], lazy.select('tbody tr'))
+        self.assertEqual(QUEUE_ROWS, lazy.select_one('tbody')['data-rows'])
+        self.assertEqual(QUEUE_PAGE, lazy.select_one('.rq-full a')['href'])
+        self.assertIn('1 research items', lazy.select_one('#rq-count').text)
+        template = ('<!doctype html><html lang="en"><head><title>T</title></head>'
+                    '<body><main><h1>About</h1></main></body></html>')
+        with tempfile.TemporaryDirectory() as directory:
+            web = Path(directory)
+            (web / 'data').mkdir()
+            publish_full_queue(web, template, [row], None)
+            rows = BeautifulSoup(json.loads((web / QUEUE_ROWS.lstrip('/')).read_text())['html'], 'html.parser')
+            self.assertEqual('A < B', rows.select_one('a').text)
+            self.assertIsNone(rows.select_one('script'))
+            page = BeautifulSoup((web / 'research/queue/index.html').read_text(), 'html.parser')
+            self.assertEqual(1, len(page.select('#research-queue tbody tr')))
+            self.assertIsNotNone(page.select_one('#research-queue details').get('open'))
+            self.assertIsNone(page.select_one('.rq-full'))
