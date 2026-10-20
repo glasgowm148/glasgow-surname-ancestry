@@ -8,6 +8,8 @@ import json
 from pathlib import Path
 import re
 
+from genealogy.feeds import FeedEntry, atom_feed as shared_atom_feed
+
 try:
     from tools.repair_primary_navigation import NAV, render_primary_navigation
     from tools.publish_clean_urls import _with_base
@@ -278,26 +280,19 @@ def findings_for(subject, kind='people', web=WEB):
 
 def atom_feed(rows, size=FEED_SIZE):
     """An Atom feed of the newest findings. Deterministic: no build timestamp."""
-    x = lambda value: escape(str(value), quote=True)
     entries = []
     for row in rows[:size]:
         people = ', '.join(p['name'] for p in row['people']) or 'Unnamed record subject'
         summary = row['finding'] + (f" Limits: {row['qualification']}" if row.get('qualification') else '') + f' People: {people}.'
-        entries.append(
-            f'<entry><title>{x(row["found_on"])}: {x(_summary(row["finding"], 110))}</title>'
-            f'<link rel="alternate" type="text/html" href="{SITE_URL}{x(row["_page_url"])}#finding-{x(row["id"])}"/>'
-            f'<id>tag:glasgow.phenotype.dev,2026:finding-{x(row["id"])}</id>'
-            f'<published>{row["found_on"]}T00:00:00Z</published><updated>{row["found_on"]}T00:00:00Z</updated>'
-            f'<category term="{x(row["kind"])}" label="{x(KINDS[row["kind"]])}"/>'
-            f'<summary type="text">{x(summary)}</summary></entry>')
-    updated = rows[0]['found_on'] if rows else '2026-01-01'
-    return ('<?xml version="1.0" encoding="utf-8"?>\n<feed xmlns="http://www.w3.org/2005/Atom">'
-            '<title>Latest findings · Glasgow Surname Project</title>'
-            '<subtitle>New records and supported corrections from the Glasgow surname research, newest first.</subtitle>'
-            f'<link rel="self" type="application/atom+xml" href="{SITE_URL}{FEED_URL}"/>'
-            f'<link rel="alternate" type="text/html" href="{SITE_URL}/latest-findings/"/>'
-            f'<id>{SITE_URL}/latest-findings/</id><updated>{updated}T00:00:00Z</updated>'
-            '<author><name>Glasgow Surname Project</name></author>' + ''.join(entries) + '</feed>\n')
+        entries.append(FeedEntry(
+            id=f'tag:glasgow.phenotype.dev,2026:finding-{row["id"]}', title=f'{row["found_on"]}: {_summary(row["finding"], 110)}',
+            link=f'{SITE_URL}{row["_page_url"]}#finding-{row["id"]}', published=row['found_on'], updated=row['found_on'],
+            category=(row['kind'], KINDS[row['kind']]), summary=summary))
+    return shared_atom_feed(
+        title='Latest findings · Glasgow Surname Project',
+        subtitle='New records and supported corrections from the Glasgow surname research, newest first.',
+        self_url=f'{SITE_URL}{FEED_URL}', alternate=f'{SITE_URL}/latest-findings/', feed_id=f'{SITE_URL}/latest-findings/',
+        updated=rows[0]['found_on'] if rows else '2026-01-01', author='Glasgow Surname Project', entries=entries)
 
 
 def _table(rows):
