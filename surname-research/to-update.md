@@ -2538,3 +2538,16 @@ Burial-defined Walter remains on source-verification HOLD in the existing creati
 | [Thomas Glasgow](https://www.wikitree.com/wiki/Glasgow-3285) | OPEN | Youngest-son description fits the Duffe household; probable brother James’s selected father is the shared household account, 82%. |
 | [James Glasgow](https://www.wikitree.com/wiki/Glasgow-3103) | OPEN | The 1696 apothecary apprentice is a compatible later identity; the separate 1679 and 1680 baptisms and Dobie marriage question remain unresolved. |
 | [James Glasgow](https://www.wikitree.com/wiki/Glasgow-3368) | OPEN | The 1696 apothecary apprentice is a compatible later identity; no adult family or apprenticeship is assigned to this baptism. |
+
+
+## Peters Township family review —20October2026
+
+| [John Glasgow](https://www.wikitree.com/wiki/Glasgow-4027) | OPEN | Peters Township family: two strongly supported child links at 98%, Nancy/Agnes only possible at37%, and James of Moneymore now probable father at76%. |
+| [Lates Glasgow](https://www.wikitree.com/wiki/Glasgow-4028) | OPEN | John of Peters Township is the strongly supported father, 98%; this record-defined daughter remains Lates, with Lettice only a possible reading. |
+| [Joseph Glasgow](https://www.wikitree.com/wiki/Glasgow-4029) | OPEN | John of Peters Township is the strongly supported father, 98%; the child Joseph remains distinct from the adult will witness. |
+| [Nancy Glascoe](https://www.wikitree.com/wiki/Glascoe-11) | OPEN | John of Peters Township remains a possible father at37%, conditional on identifying Nancy with the will’s daughter Agnes. No Maryland-to-Pennsylvania identity bridge is established. |
+| [Ann Unknown](https://www.wikitree.com/wiki/Unknown-764130) | OPEN | The checked 1779 abstract names Ann as John’s wife. It does not explicitly identify her as mother of his children; existing maternal attachments remain unassessed. |
+| [James Glasgow II](https://www.wikitree.com/wiki/Glasgow-1024) | OPEN | Extend James of Moneymore’s probable fatherhood to the preferred fourth-brother account John of Peters Township, at76%; the other three sons remain85% and James’s own older father remains18%. |
+| [Robert Glasgow](https://www.wikitree.com/wiki/Glasgow-12) | OPEN | John of Peters Township is assessed as a probable brother at83%. The established Robert–Arthur–Joseph brotherhood and their James-of-Moneymore father ratings are unchanged. |
+| [Arthur Glasgow](https://www.wikitree.com/wiki/Glasgow-649) | OPEN | John of Peters Township is assessed as a probable brother at83%. The established Robert–Arthur–Joseph brotherhood and their James-of-Moneymore father ratings are unchanged. |
+| [Joseph Glasgow](https://www.wikitree.com/wiki/Glasgow-1543) | OPEN | John of Peters Township is assessed as a probable brother at83%. The established Robert–Arthur–Joseph brotherhood and their James-of-Moneymore father ratings are unchanged. |

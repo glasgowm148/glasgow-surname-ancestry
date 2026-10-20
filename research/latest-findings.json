@@ -33507,6 +33507,118 @@
       "certainty_upgrades": 0,
       "new_source_discoveries": 0,
       "new_original_inspections": 0
+    },
+    {
+      "id": "peters-will-family-20261020",
+      "found_on": "2026-10-20",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "John of Peters Township’s two record-defined children have strongly supported father links at 98%; his James-of-Moneymore father is now probable76%, while Nancy/Agnes remains possible 37%.",
+      "qualification": "The original will and probate packet remain uninspected. The checked abstract gives 1779, not the execution/probate days; existing 14 March and 3 September date limits are preserved from the earlier cited profile account, not newly verified. The will index verifies John’s locator, Cumberland Will Book C, p.161, but supplies no relatives. Ann is named as wife, not expressly mother of the children; her existing maternal attachments remain unassessed. Nancy (Glascoe) Wright is only a possible identification of Agnes: an approximately 1778 birth fits a child alive in 1779 and Agnes/Nancy can be compatible name forms, but the later Maryland/Indiana household has no inspected parent, guardianship or estate bridge to Peters Township. Her existing John father is therefore possible at 37%, not confident. The witness Joseph is not proved to be Joseph of Wythe County. The family-history article may depend on Faris and is not independent corroboration of his genealogy. The older James-1025 father of James-1024 remains 18%; no Scottish migration, Mary Harkness maternity, new mother, identity merge or live edit follows. Exact percentages express individual subjective judgments, not measured frequencies or multiplied independent probabilities. The existing child profiles and attached fathers are reused. Their omission from the local catalogue is publication reconciliation, not newly discovered parentage.",
+      "people": [
+        {
+          "id": "Glasgow-4027",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-4027.html"
+        },
+        {
+          "id": "Glasgow-4028",
+          "name": "Lates Glasgow",
+          "url": "/people/glasgow-4028.html"
+        },
+        {
+          "id": "Glasgow-4029",
+          "name": "Joseph Glasgow",
+          "url": "/people/glasgow-4029.html"
+        },
+        {
+          "id": "Glascoe-11",
+          "name": "Nancy Glascoe",
+          "url": "/people/glascoe-11.html"
+        },
+        {
+          "id": "Unknown-764130",
+          "name": "Ann Unknown",
+          "url": "/people/unknown-764130.html"
+        },
+        {
+          "id": "Glasgow-1024",
+          "name": "James Glasgow II",
+          "url": "/people/glasgow-1024.html"
+        },
+        {
+          "id": "Glasgow-12",
+          "name": "Robert Glasgow",
+          "url": "/people/glasgow-12.html"
+        },
+        {
+          "id": "Glasgow-649",
+          "name": "Arthur Glasgow",
+          "url": "/people/glasgow-649.html"
+        },
+        {
+          "id": "Glasgow-1543",
+          "name": "Joseph Glasgow",
+          "url": "/people/glasgow-1543.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Virginia Shannon Fendrick, American Revolutionary Soldiers of Franklin County, Pennsylvania (1944), printed p.88, PDF p.88, Joseph Glassgo entry; page visually checked 20 October 2026",
+          "url": "https://tile.loc.gov/storage-services/service/gdc/gdclccn/57/05/15/50/57051550/57051550.pdf#page=88"
+        },
+        {
+          "title": "Cumberland will-book index: John Glasgow, C161; checked 20 October 2026",
+          "url": "https://www.sampubco.com/wills/pa/pacumberland01.htm"
+        },
+        {
+          "title": "Joyce Wilson, Our Ancestors of Adams County,29March2024; secondary account checked 20 October 2026",
+          "url": "https://www.peoplesdefender.com/2024/03/29/our-ancestors-of-adams-county-3/"
+        }
+      ],
+      "detail_url": "/branches/research-irish-moneymore/#chapter-peters-will-family",
+      "new_father_attachments": 0,
+      "father_replacements": 0,
+      "genealogical_connections_added": 0,
+      "certainty_upgrades": 2,
+      "new_source_discoveries": 1,
+      "new_original_inspections": 0,
+      "relationship_changes": [
+        {
+          "subject_id": "Glasgow-4028",
+          "relationship": "father",
+          "action": "regrade",
+          "relative_id": "Glasgow-4027",
+          "relative_name": "John Glasgow",
+          "before": "unmarked",
+          "after": "certain",
+          "assessment_after": "strongly_supported",
+          "probability_percent": 98,
+          "assertion_id": "C-reviewed-20261020-peters-glasgow-4028-father",
+          "previous_status_provenance": "Public WikiTree capture20 October 2026: same attached father; unmarked. Prior local assessment: unknown.",
+          "scope": "Record-defined child role",
+          "subject": "Lates Glasgow (Glasgow-4028)",
+          "relative": "John Glasgow (Glasgow-4027)",
+          "explanation": "The inspected 1944abstract explicitly identifies this record-defined child’s father. Strongly supported98%; original manuscript uninspected. Same existing parent; previously unmarked."
+        },
+        {
+          "subject_id": "Glasgow-4029",
+          "relationship": "father",
+          "action": "regrade",
+          "relative_id": "Glasgow-4027",
+          "relative_name": "John Glasgow",
+          "before": "unmarked",
+          "after": "certain",
+          "assessment_after": "strongly_supported",
+          "probability_percent": 98,
+          "assertion_id": "C-reviewed-20261020-peters-glasgow-4029-father",
+          "previous_status_provenance": "Public WikiTree capture20 October 2026: same attached father; unmarked. Prior local assessment: unknown.",
+          "scope": "Record-defined child role",
+          "subject": "Joseph Glasgow (Glasgow-4029)",
+          "relative": "John Glasgow (Glasgow-4027)",
+          "explanation": "The inspected 1944abstract explicitly identifies this record-defined child’s father. Strongly supported98%; original manuscript uninspected. Same existing parent; previously unmarked."
+        }
+      ]
     }
   ]
 }

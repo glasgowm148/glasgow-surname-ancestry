@@ -466,11 +466,45 @@
       "relationship_changes": []
     },
     "Glasgow-1024": {
-      "draft_path": "data/wikitree/queue-review-2026-10-17/Glasgow-1024.wiki",
-      "summary": "Add the cited record accounts: Possible James Glasco of Omagh; Possible James Glascow, Fogs Manor postal addressee; Possible James Glascow, master of Greenwich Packet; and 1 other record accounts. Retain the stated identity and relationship limits.",
-      "work_queue_summary": "Add the cited record accounts: Possible James Glasco of Omagh; Possible James Glascow, Fogs Manor postal addressee; Possible James Glascow, master of Greenwich Packet; and 1 other record accounts. Retain the stated identity and relationship limits.",
-      "queued_at": "2026-10-17",
+      "queued_at": "2026-10-20",
       "status": "OPEN",
+      "significance": 65,
+      "summary": "Extend James of Moneymore’s probable fatherhood to the preferred fourth-brother account John of Peters Township, at 76%; the other three sons remain 85% and James’s own older father remains 18%.",
+      "manual_update": true,
+      "draft_path": "data/private/peters-family-2026-10-20/Glasgow-1024.wiki",
+      "preservation_review_path": "research/ancestry-connections/peters-family-preservation-2026-10-20.json",
+      "reviewed_narrative_reduction": true,
+      "preserve_captured_detail": false,
+      "relationship_changes": [
+        {
+          "action": "regrade",
+          "relationship": "child",
+          "status": "probable",
+          "previous_status": "uncertain",
+          "relative_id": "Glasgow-12",
+          "assertion_id": "C-review-20261017-moneymore-father-glasgow-12",
+          "scope": "Probable local assessment in biography; live uncertain parent control retained."
+        },
+        {
+          "action": "regrade",
+          "relationship": "child",
+          "status": "probable",
+          "previous_status": "uncertain",
+          "relative_id": "Glasgow-649",
+          "assertion_id": "C-review-20261017-moneymore-father-glasgow-649",
+          "scope": "Probable local assessment in biography; live uncertain parent control retained."
+        },
+        {
+          "action": "regrade",
+          "relationship": "child",
+          "status": "probable",
+          "previous_status": "uncertain",
+          "relative_id": "Glasgow-1543",
+          "assertion_id": "C-review-20261017-moneymore-father-glasgow-1543",
+          "scope": "Probable local assessment in biography; live uncertain parent control retained."
+        }
+      ],
+      "work_queue_summary": "Extend James of Moneymore’s probable fatherhood to the preferred fourth-brother account John of Peters Township, at 76%; the other three sons remain 85% and James’s own older father remains 18%.",
       "pending": true,
       "findings_path": "research/Glasgow-1024/findings.md",
       "review_ids": [
@@ -480,8 +514,9 @@
         "subject-newspapers-early-glasgow-james-glasgow-edinburgh-game-1789"
       ],
       "private_comparison": true,
-      "public_addition_wikitext": "=== Possible James Glasco of Omagh ===\nThe 1786 marriage column names James Glasco, Omagh publican aged 61, and Jane Murray of the same place aged 16.<ref>[https://www.newspapers.com/image/1050075355/ The Public Register, or, Freeman's Journal, 1786-09-05, p.3].</ref>\n\nThree 1793 Hope advertisements name James Glasco, Omagh, as a freight/passage contact; the 25 May issue adds a sailing delay.<ref>[https://www.newspapers.com/image/72021067/ The Northern Star, 1793-05-11, p.1].</ref><ref>[https://www.newspapers.com/image/72021086/ The Northern Star, 1793-05-18, p.4].</ref><ref>[https://www.newspapers.com/image/72021100/ The Northern Star, 1793-05-25, p.1].</ref>\n\nThe marriage was reported by 5 September 1786; the exact ceremony day is not given. James’s reported age suggests birth about 1724–1725. The same uncommon name and Omagh business context support, without proving, continuity with the 1793 contact. The notices do not name his parents or establish a previous marriage.\n\nThis may concern [[Glasgow-1024]]. Estimated birth c.1722 and Moneymore context are compatible; neither identifies the Omagh publican.\n\n=== Possible James Glascow, Fogs Manor postal addressee ===\nJames Glascow, Fogs Manor, is listed among letters remaining in the Philadelphia post office.<ref>[https://www.newspapers.com/image/39395391/ The Pennsylvania Gazette, 1757-04-07, p.1].</ref>\n\nFogs Manor is the printed address qualifier. A neighbouring \"Phil. Co.\" in a separate alphabetic column is not this man’s address. The list states no occupation, so it does not identify him as the later Greenwich Packet master.\n\nThis may concern [[Glasgow-1024]]. Estimated c.1722 birth is chronologically plausible; death date absent. Irish location is not a concrete contradiction. The postal record states no occupation.\n\n=== Possible James Glascow, master of Greenwich Packet ===\nGreenwich Packet: James Glascow, master; James Young, owner; from Philadelphia to Winyew, Carolina; with rum, bread, flour and porter.<ref>[https://www.newspapers.com/image/34421452/ The Public Advertiser, 1777-05-14, p.2].</ref><ref>[https://www.newspapers.com/image/396765804/ The Ipswich Journal, 1777-05-17, p.1].</ref><ref>[https://www.newspapers.com/image/971522063/ The Gloucester Journal, 1777-05-19, p.1].</ref>\n\nJames Young is the separate vessel owner, not another form of the master’s name. Three issues repeat one voyage report. Neither the route nor the cargo establishes the master’s family or identifies him with the 1757 Fogs Manor addressee.\n\nThis may concern [[Glasgow-1024]]. Estimated c.1722 birth is chronologically plausible; death date absent. Irish location is not a concrete contradiction.\n\n=== Possible James Glasgow, Edinburgh game certificate, 1789 ===\nJames Glasgow, Esq., Edinburgh, appears in the Mid-Lothian game-duty list of certificates issued since 8 September 1789.<ref>[https://www.newspapers.com/image/601822968/ The Edinburgh Advertiser, 1789-12-11, p.8].</ref>\n\nThe list gives an Edinburgh designation but no age or relatives; it is not evidence of a military or maritime career.\n\nThis may concern [[Glasgow-1024]]. Birth c.1722, estimated, County Londonderry; death date not recorded. Chronologically possible, but no Edinburgh/certificate connection is documented.",
-      "prior_work_summary": ""
+      "public_addition_wikitext": "=== Peters Township family review,20 October 2026 ===\n\nExtend James of Moneymore’s probable fatherhood to the preferred fourth-brother account John of Peters Township, at 76%; the other three sons remain 85% and James’s own older father remains 18%.\n\nFendrick’s checked 1944 abstract of the 1779 Peters Township will identifies John Glasgow’s wife Ann, daughters Lates and Agnes, and son Joseph. [[Glasgow-4028|Lates Glasgow]] and [[Glasgow-4029|Joseph Glasgow]] are the existing record-defined daughter and son accounts, not speculative later adult identifications. Assess John as their father at 98% each, strongly supported by the explicit abstracted relationship and matching will context. The manuscript has not been inspected, so this does not certify the spelling or completeness of the abstract. Joseph the son is distinct from the adult Joseph who witnessed the will.\n\nAssess James of Moneymore, [[Glasgow-1024|James Glasgow II]], as John of Peters Township’s probable father at 76%. The 2024 Adams County family account specifically identifies the John who died in 1779 as brother of Robert, Arthur and Joseph. Fendrick’s abstract independently supplies a contemporary Joseph Glasgow witness in John’s Peters Township will; James Neely’s presence also fits the later Neely-associated emigrant family. Faris’s catalogue description identifies Robert’s father as James of Moneymore and reports four emigrant brothers. Together these identify a specific compatible family, rather than only another local James. Extend that probable father across the preferred fourth-brother identification, while rating John lower than the three established brothers because his place in that group depends partly on the later account and witness identification. Assess the John-to-each-established-brother relationship as probable at 83%.\n\nThe original will and probate packet remain uninspected. The checked abstract gives 1779, not the execution/probate days; existing 14 March and 3 September date limits are preserved from the earlier cited profile account, not newly verified. The will index verifies John’s locator, Cumberland Will Book C, p.161, but supplies no relatives. Ann is named as wife, not expressly mother of the children; her existing maternal attachments remain unassessed. Nancy (Glascoe) Wright is only a possible identification of Agnes: an approximately 1778 birth fits a child alive in 1779 and Agnes/Nancy can be compatible name forms, but the later Maryland/Indiana household has no inspected parent, guardianship or estate bridge to Peters Township. Her existing John father is therefore possible at 37%, not confident. The witness Joseph is not proved to be Joseph of Wythe County. The family-history article may depend on Faris and is not independent corroboration of his genealogy. The older James-1025 father of James-1024 remains 18%; no Scottish migration, Mary Harkness maternity, new mother, identity merge or live edit follows. Exact percentages express individual subjective judgments, not measured frequencies or multiplied independent probabilities.<ref>[https://tile.loc.gov/storage-services/service/gdc/gdclccn/57/05/15/50/57051550/57051550.pdf#page=88 Virginia Shannon Fendrick, American Revolutionary Soldiers of Franklin County, Pennsylvania (1944), printed p.88, PDF p.88, Joseph Glassgo entry; page visually checked 20 October 2026]; [https://www.sampubco.com/wills/pa/pacumberland01.htm Cumberland will-book index: John Glasgow, C161; checked 20 October 2026]; [https://www.peoplesdefender.com/2024/03/29/our-ancestors-of-adams-county-3/ Joyce Wilson, Our Ancestors of Adams County,29March2024; secondary account checked 20 October 2026]. The 1944 abstract, not the original will, was inspected.</ref>\n\n=== Possible James Glasco of Omagh ===\nThe 1786 marriage column names James Glasco, Omagh publican aged 61, and Jane Murray of the same place aged 16.<ref>[https://www.newspapers.com/image/1050075355/ The Public Register, or, Freeman's Journal, 1786-09-05, p.3].</ref>\n\nThree 1793 Hope advertisements name James Glasco, Omagh, as a freight/passage contact; the 25 May issue adds a sailing delay.<ref>[https://www.newspapers.com/image/72021067/ The Northern Star, 1793-05-11, p.1].</ref><ref>[https://www.newspapers.com/image/72021086/ The Northern Star, 1793-05-18, p.4].</ref><ref>[https://www.newspapers.com/image/72021100/ The Northern Star, 1793-05-25, p.1].</ref>\n\nThe marriage was reported by 5 September 1786; the exact ceremony day is not given. James’s reported age suggests birth about 1724–1725. The same uncommon name and Omagh business context support, without proving, continuity with the 1793 contact. The notices do not name his parents or establish a previous marriage.\n\nThis may concern [[Glasgow-1024]]. Estimated birth c.1722 and Moneymore context are compatible; neither identifies the Omagh publican.\n\n=== Possible James Glascow, Fogs Manor postal addressee ===\nJames Glascow, Fogs Manor, is listed among letters remaining in the Philadelphia post office.<ref>[https://www.newspapers.com/image/39395391/ The Pennsylvania Gazette, 1757-04-07, p.1].</ref>\n\nFogs Manor is the printed address qualifier. A neighbouring \"Phil. Co.\" in a separate alphabetic column is not this man’s address. The list states no occupation, so it does not identify him as the later Greenwich Packet master.\n\nThis may concern [[Glasgow-1024]]. Estimated c.1722 birth is chronologically plausible; death date absent. Irish location is not a concrete contradiction. The postal record states no occupation.\n\n=== Possible James Glascow, master of Greenwich Packet ===\nGreenwich Packet: James Glascow, master; James Young, owner; from Philadelphia to Winyew, Carolina; with rum, bread, flour and porter.<ref>[https://www.newspapers.com/image/34421452/ The Public Advertiser, 1777-05-14, p.2].</ref><ref>[https://www.newspapers.com/image/396765804/ The Ipswich Journal, 1777-05-17, p.1].</ref><ref>[https://www.newspapers.com/image/971522063/ The Gloucester Journal, 1777-05-19, p.1].</ref>\n\nJames Young is the separate vessel owner, not another form of the master’s name. Three issues repeat one voyage report. Neither the route nor the cargo establishes the master’s family or identifies him with the 1757 Fogs Manor addressee.\n\nThis may concern [[Glasgow-1024]]. Estimated c.1722 birth is chronologically plausible; death date absent. Irish location is not a concrete contradiction.\n\n=== Possible James Glasgow, Edinburgh game certificate, 1789 ===\nJames Glasgow, Esq., Edinburgh, appears in the Mid-Lothian game-duty list of certificates issued since 8 September 1789.<ref>[https://www.newspapers.com/image/601822968/ The Edinburgh Advertiser, 1789-12-11, p.8].</ref>\n\nThe list gives an Edinburgh designation but no age or relatives; it is not evidence of a military or maritime career.\n\nThis may concern [[Glasgow-1024]]. Birth c.1722, estimated, County Londonderry; death date not recorded. Chronologically possible, but no Edinburgh/certificate connection is documented.",
+      "prior_work_summary": "",
+      "profile_id": "Glasgow-1024"
     },
     "Glasgow-1025": {
       "queued_at": "2026-10-20",
@@ -1067,18 +1102,35 @@
       ]
     },
     "Glasgow-12": {
-      "draft_path": "research/Glasgow-12/queue-review-2026-10-17.wiki",
-      "summary": "Explain the probable Moneymore father from the explicit family-history attribution and established brothers; retain separate identity, ancestry and maternity limits.\n\nAdd the cited record account: Robert Glasgow, Loughinsholin freeholder, 1831. Retain the stated identity and relationship limits.",
-      "work_queue_summary": "Explain the probable Moneymore father from the explicit family-history attribution and established brothers; retain separate identity, ancestry and maternity limits.\n\nAdd the cited record account: Robert Glasgow, Loughinsholin freeholder, 1831. Retain the stated identity and relationship limits.",
-      "queued_at": "2026-10-17",
+      "queued_at": "2026-10-20",
       "status": "OPEN",
+      "significance": 95,
+      "summary": "John of Peters Township is assessed as a probable brother at83%. The established Robert–Arthur–Joseph brotherhood and their James-of-Moneymore father ratings are unchanged.",
+      "manual_update": true,
+      "draft_path": "research/Glasgow-12/peters-family-2026-10-20.wiki",
+      "preservation_review_path": "research/ancestry-connections/peters-family-preservation-2026-10-20.json",
+      "reviewed_narrative_reduction": true,
+      "preserve_captured_detail": false,
+      "relationship_changes": [
+        {
+          "action": "regrade",
+          "relationship": "father",
+          "status": "probable",
+          "previous_status": "uncertain",
+          "relative_id": "Glasgow-1024",
+          "assertion_id": "C-review-20261017-moneymore-father-glasgow-12",
+          "scope": "Probable local assessment in biography; live uncertain parent control retained."
+        }
+      ],
+      "work_queue_summary": "John of Peters Township is assessed as a probable brother at83%. The established Robert–Arthur–Joseph brotherhood and their James-of-Moneymore father ratings are unchanged.",
       "pending": true,
       "findings_path": "research/Glasgow-12/findings.md",
       "review_ids": [
         "subject-newspapers-irish-1800-1850-robert-loughinsholin-freeholder"
       ],
       "private_comparison": false,
-      "prior_work_summary": "Explain the probable Moneymore father from the explicit family-history attribution and established brothers; retain separate identity, ancestry and maternity limits."
+      "prior_work_summary": "Explain the probable Moneymore father from the explicit family-history attribution and established brothers; retain separate identity, ancestry and maternity limits.",
+      "profile_id": "Glasgow-12"
     },
     "Glasgow-1218": {
       "draft_path": "research/Glasgow-1218/queue-review-2026-10-17.wiki",
@@ -3547,10 +3599,10 @@
       "prior_work_summary": ""
     },
     "Glasgow-4027": {
-      "draft_path": "research/Glasgow-4027/queue-review-2026-10-17.wiki",
-      "summary": "Add the cited record account: Possible John Glascow, Chester County land and committee. Retain the stated identity and relationship limits.",
-      "work_queue_summary": "Add the cited record account: Possible John Glascow, Chester County land and committee. Retain the stated identity and relationship limits.",
-      "queued_at": "2026-10-17",
+      "draft_path": "research/Glasgow-4027/peters-family-2026-10-20.wiki",
+      "summary": "Peters Township family: two strongly supported child links at 98%, Nancy/Agnes only possible at 37%, and James of Moneymore now probable father at 76%.",
+      "work_queue_summary": "Peters Township family: two strongly supported child links at 98%, Nancy/Agnes only possible at 37%, and James of Moneymore now probable father at 76%.",
+      "queued_at": "2026-10-20",
       "status": "OPEN",
       "pending": true,
       "findings_path": "research/Glasgow-4027/findings.md",
@@ -3558,7 +3610,28 @@
         "subject-newspapers-early-glasgow-john-glascow-chester-county"
       ],
       "private_comparison": false,
-      "prior_work_summary": ""
+      "prior_work_summary": "",
+      "profile_id": "Glasgow-4027",
+      "manual_update": true,
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "preservation_review_path": "research/ancestry-connections/peters-family-preservation-2026-10-20.json",
+      "relationship_changes": [
+        {
+          "subject_id": "Glasgow-4027",
+          "relationship": "father",
+          "action": "regrade",
+          "relative_id": "Glasgow-1024",
+          "relative_name": "James Glasgow II",
+          "before": "uncertain",
+          "after": "probable",
+          "assessment_after": "probable",
+          "probability_percent": 76,
+          "assertion_id": "C-reviewed-20261020-peters-glasgow-4027-father",
+          "previous_status_provenance": "Public WikiTree capture20October2026: same attached father; uncertain. Prior local assessment: unknown.",
+          "scope": "Combined profile and family identification"
+        }
+      ]
     },
     "Glasgow-4090": {
       "draft_path": "research/Glasgow-4090/queue-review-2026-10-17.wiki",
@@ -4038,18 +4111,35 @@
       "prior_work_summary": ""
     },
     "Glasgow-649": {
-      "draft_path": "research/Glasgow-649/queue-review-2026-10-17.wiki",
-      "summary": "Explain the probable Moneymore father from the explicit family-history attribution and established brothers; retain separate identity, ancestry and maternity limits.\n\nAdd the cited record account: Possible A. Retain the stated identity and relationship limits.",
-      "work_queue_summary": "Explain the probable Moneymore father from the explicit family-history attribution and established brothers; retain separate identity, ancestry and maternity limits.\n\nAdd the cited record account: Possible A. Retain the stated identity and relationship limits.",
-      "queued_at": "2026-10-17",
+      "queued_at": "2026-10-20",
       "status": "OPEN",
+      "significance": 85,
+      "summary": "John of Peters Township is assessed as a probable brother at83%. The established Robert–Arthur–Joseph brotherhood and their James-of-Moneymore father ratings are unchanged.",
+      "manual_update": true,
+      "draft_path": "research/Glasgow-649/peters-family-2026-10-20.wiki",
+      "preservation_review_path": "research/ancestry-connections/peters-family-preservation-2026-10-20.json",
+      "reviewed_narrative_reduction": true,
+      "preserve_captured_detail": false,
+      "relationship_changes": [
+        {
+          "action": "regrade",
+          "relationship": "father",
+          "status": "probable",
+          "previous_status": "uncertain",
+          "relative_id": "Glasgow-1024",
+          "assertion_id": "C-review-20261017-moneymore-father-glasgow-649",
+          "scope": "Probable local assessment in biography; live uncertain parent control retained."
+        }
+      ],
+      "work_queue_summary": "John of Peters Township is assessed as a probable brother at83%. The established Robert–Arthur–Joseph brotherhood and their James-of-Moneymore father ratings are unchanged.",
       "pending": true,
       "findings_path": "research/Glasgow-649/findings.md",
       "review_ids": [
         "subject-newspapers-early-glasgow-a-glascow-dutch-arrival-1794"
       ],
       "private_comparison": false,
-      "prior_work_summary": "Explain the probable Moneymore father from the explicit family-history attribution and established brothers; retain separate identity, ancestry and maternity limits."
+      "prior_work_summary": "Explain the probable Moneymore father from the explicit family-history attribution and established brothers; retain separate identity, ancestry and maternity limits.",
+      "profile_id": "Glasgow-649"
     },
     "Glasgow-664": {
       "draft_path": "research/Glasgow-664/queue-review-2026-10-17.wiki",
@@ -6743,9 +6833,144 @@
       "preserve_captured_detail": false,
       "reviewed_narrative_reduction": true,
       "preservation_review_path": "research/ancestry-connections/duffe-apprentice-preservation-2026-10-20.json"
+    },
+    "Glasgow-4028": {
+      "profile_id": "Glasgow-4028",
+      "queued_at": "2026-10-20",
+      "draft_path": "research/Glasgow-4028/peters-family-2026-10-20.wiki",
+      "findings_path": "research/Glasgow-4028/findings.md",
+      "summary": "John of Peters Township is the strongly supported father, 98%; this record-defined daughter remains Lates, with Lettice only a possible reading.",
+      "work_queue_summary": "John of Peters Township is the strongly supported father, 98%; this record-defined daughter remains Lates, with Lettice only a possible reading.",
+      "prior_work_summary": "",
+      "status": "OPEN",
+      "pending": true,
+      "manual_update": true,
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "preservation_review_path": "research/ancestry-connections/peters-family-preservation-2026-10-20.json",
+      "relationship_changes": [
+        {
+          "subject_id": "Glasgow-4028",
+          "relationship": "father",
+          "action": "regrade",
+          "relative_id": "Glasgow-4027",
+          "relative_name": "John Glasgow",
+          "before": "unmarked",
+          "after": "strongly_supported",
+          "assessment_after": "strongly_supported",
+          "probability_percent": 98,
+          "assertion_id": "C-reviewed-20261020-peters-glasgow-4028-father",
+          "previous_status_provenance": "Public WikiTree capture20October2026: same attached father; unmarked. Prior local assessment: unknown.",
+          "scope": "Record-defined child role"
+        }
+      ]
+    },
+    "Glasgow-4029": {
+      "profile_id": "Glasgow-4029",
+      "queued_at": "2026-10-20",
+      "draft_path": "research/Glasgow-4029/peters-family-2026-10-20.wiki",
+      "findings_path": "research/Glasgow-4029/findings.md",
+      "summary": "John of Peters Township is the strongly supported father, 98%; the child Joseph remains distinct from the adult will witness.",
+      "work_queue_summary": "John of Peters Township is the strongly supported father, 98%; the child Joseph remains distinct from the adult will witness.",
+      "prior_work_summary": "",
+      "status": "OPEN",
+      "pending": true,
+      "manual_update": true,
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "preservation_review_path": "research/ancestry-connections/peters-family-preservation-2026-10-20.json",
+      "relationship_changes": [
+        {
+          "subject_id": "Glasgow-4029",
+          "relationship": "father",
+          "action": "regrade",
+          "relative_id": "Glasgow-4027",
+          "relative_name": "John Glasgow",
+          "before": "unmarked",
+          "after": "strongly_supported",
+          "assessment_after": "strongly_supported",
+          "probability_percent": 98,
+          "assertion_id": "C-reviewed-20261020-peters-glasgow-4029-father",
+          "previous_status_provenance": "Public WikiTree capture20October2026: same attached father; unmarked. Prior local assessment: unknown.",
+          "scope": "Record-defined child role"
+        }
+      ]
+    },
+    "Glascoe-11": {
+      "profile_id": "Glascoe-11",
+      "queued_at": "2026-10-20",
+      "draft_path": "research/Glascoe-11/peters-family-2026-10-20.wiki",
+      "findings_path": "research/Glascoe-11/findings.md",
+      "summary": "John of Peters Township remains a possible father at 37%, conditional on identifying Nancy with the will’s daughter Agnes. No Maryland-to-Pennsylvania identity bridge is established.",
+      "work_queue_summary": "John of Peters Township remains a possible father at 37%, conditional on identifying Nancy with the will’s daughter Agnes. No Maryland-to-Pennsylvania identity bridge is established.",
+      "prior_work_summary": "",
+      "status": "OPEN",
+      "pending": true,
+      "manual_update": true,
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "preservation_review_path": "research/ancestry-connections/peters-family-preservation-2026-10-20.json",
+      "relationship_changes": [
+        {
+          "subject_id": "Glascoe-11",
+          "relationship": "father",
+          "action": "regrade",
+          "relative_id": "Glasgow-4027",
+          "relative_name": "John Glasgow",
+          "before": "uncertain",
+          "after": "possible",
+          "assessment_after": "possible",
+          "probability_percent": 37,
+          "assertion_id": "C-reviewed-20261020-peters-glascoe-11-father",
+          "previous_status_provenance": "Public WikiTree capture20October2026: same attached father; uncertain. Prior local assessment: unknown.",
+          "scope": "Combined profile and family identification"
+        }
+      ]
+    },
+    "Unknown-764130": {
+      "profile_id": "Unknown-764130",
+      "queued_at": "2026-10-20",
+      "draft_path": "research/Unknown-764130/peters-family-2026-10-20.wiki",
+      "findings_path": "research/Unknown-764130/findings.md",
+      "summary": "The checked 1779 abstract names Ann as John’s wife. It does not explicitly identify her as mother of his children; existing maternal attachments remain unassessed.",
+      "work_queue_summary": "The checked 1779 abstract names Ann as John’s wife. It does not explicitly identify her as mother of his children; existing maternal attachments remain unassessed.",
+      "prior_work_summary": "",
+      "status": "OPEN",
+      "pending": true,
+      "manual_update": true,
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "preservation_review_path": "research/ancestry-connections/peters-family-preservation-2026-10-20.json"
+    },
+    "Glasgow-1543": {
+      "queued_at": "2026-10-20",
+      "status": "OPEN",
+      "significance": 85,
+      "summary": "John of Peters Township is assessed as a probable brother at83%. The established Robert–Arthur–Joseph brotherhood and their James-of-Moneymore father ratings are unchanged.",
+      "manual_update": true,
+      "draft_path": "research/Glasgow-1543/peters-family-2026-10-20.wiki",
+      "preservation_review_path": "research/ancestry-connections/peters-family-preservation-2026-10-20.json",
+      "reviewed_narrative_reduction": true,
+      "preserve_captured_detail": false,
+      "relationship_changes": [
+        {
+          "action": "regrade",
+          "relationship": "father",
+          "status": "probable",
+          "previous_status": "uncertain",
+          "relative_id": "Glasgow-1024",
+          "assertion_id": "C-review-20261017-moneymore-father-glasgow-1543",
+          "scope": "Probable local assessment in biography; live uncertain parent control retained."
+        }
+      ],
+      "profile_id": "Glasgow-1543",
+      "findings_path": "research/Glasgow-1543/findings.md",
+      "work_queue_summary": "John of Peters Township is assessed as a probable brother at83%. The established Robert–Arthur–Joseph brotherhood and their James-of-Moneymore father ratings are unchanged.",
+      "prior_work_summary": "Explain the probable Moneymore father from the explicit family-history attribution and established brothers; retain separate identity, ancestry and maternity limits.",
+      "pending": true
     }
   },
-  "reviewed_on": "2026-10-17",
+  "reviewed_on": "2026-10-20",
   "new_people": [
     {
       "subject_id": "subject-ballymena-hillis-elder-1857-alex-hillis",

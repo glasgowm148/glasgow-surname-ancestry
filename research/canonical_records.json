@@ -6178,5 +6178,34 @@
         "role": "Indexed father; matched within the Inveresk family"
       }
     }
+  },
+  {
+    "record_id": "peters-john-will-1779-fendrick-1944",
+    "association": "John Glasgow of Peters Township: wife and children in the1779will abstract",
+    "date": "1779",
+    "year": 1779,
+    "place": "Peters Township, Cumberland County, Pennsylvania",
+    "source_url": "https://tile.loc.gov/storage-services/service/gdc/gdclccn/57/05/15/50/57051550/57051550.pdf#page=88",
+    "status": "Visually checked1944published abstract; original will uninspected",
+    "note": "Fendrick’s checked 1944 abstract of the 1779 Peters Township will identifies John Glasgow’s wife Ann, daughters Lates and Agnes, and son Joseph. Glasgow-4028 and Glasgow-4029 are the existing record-defined daughter and son accounts, not speculative later adult identifications. Assess John as their father at 98% each, strongly supported by the explicit abstracted relationship and matching will context. The manuscript has not been inspected, so this does not certify the spelling or completeness of the abstract. Joseph the son is distinct from the adult Joseph who witnessed the will. The original will and probate packet remain uninspected. The checked abstract gives 1779, not the execution/probate days; existing 14 March and 3 September date limits are preserved from the earlier cited profile account, not newly verified. The will index verifies John’s locator, Cumberland Will Book C, p.161, but supplies no relatives. Ann is named as wife, not expressly mother of the children; her existing maternal attachments remain unassessed. Nancy (Glascoe) Wright is only a possible identification of Agnes: an approximately 1778 birth fits a child alive in 1779 and Agnes/Nancy can be compatible name forms, but the later Maryland/Indiana household has no inspected parent, guardianship or estate bridge to Peters Township. Her existing John father is therefore possible at 37%, not confident. The witness Joseph is not proved to be Joseph of Wythe County. The family-history article may depend on Faris and is not independent corroboration of his genealogy. The older James-1025 father of James-1024 remains 18%; no Scottish migration, Mary Harkness maternity, new mother, identity merge or live edit follows. Exact percentages express individual subjective judgments, not measured frequencies or multiplied independent probabilities.",
+    "role": "Will abstract",
+    "profiles": {
+      "Glasgow-4027": {
+        "role": "Testator and father"
+      },
+      "Glasgow-4028": {
+        "role": "Daughter, printed as Lates"
+      },
+      "Glasgow-4029": {
+        "role": "Son Joseph; distinct from witness"
+      },
+      "Unknown-764130": {
+        "role": "Wife Ann; maternity not stated"
+      },
+      "Glascoe-11": {
+        "role": "Possible later identity of daughter Agnes;37%father-profile proposition",
+        "status": "possible"
+      }
+    }
   }
 ]

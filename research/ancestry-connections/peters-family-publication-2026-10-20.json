@@ -1,0 +1,192 @@
+{
+  "reviewed": "2026-10-21",
+  "father_ratings": {
+    "Glasgow-4028": 98,
+    "Glasgow-4029": 98,
+    "Glasgow-4027": 76,
+    "Glascoe-11": 37
+  },
+  "new_genealogical_father_attachments": 0,
+  "previously_unmarked_to_strongly_supported": 2,
+  "probable_father_extension": 1,
+  "publication_reconciliations": [
+    "Glasgow-4028",
+    "Glasgow-4029",
+    "Glascoe-11",
+    "Unknown-764130"
+  ],
+  "main_standalone_and_packed_models_agree": true,
+  "prior_vitals_mothers_spouses_and_unrelated_father_grades_preserved": true,
+  "full_compact_filter_membership_equal": true,
+  "pending_update_count": 554,
+  "complete_proposals_verified": 9,
+  "private_comparison_withheld": true,
+  "source_inspection": "Fendrick1944 p88 derivative will abstract; original1779will not inspected",
+  "metric_changes": [
+    {
+      "through": "1800",
+      "view": "working",
+      "metric": "population",
+      "before": 923,
+      "after": 926
+    },
+    {
+      "through": "1800",
+      "view": "working",
+      "metric": "edge_count",
+      "before": 766,
+      "after": 769
+    },
+    {
+      "through": "1800",
+      "view": "working",
+      "metric": "largest_component_size",
+      "before": 740,
+      "after": 743
+    },
+    {
+      "through": "1800",
+      "view": "working",
+      "metric": "connected_pairs_percent",
+      "before": 64.26793700631958,
+      "after": 64.37102329110968
+    },
+    {
+      "through": "1800",
+      "view": "supported",
+      "metric": "population",
+      "before": 923,
+      "after": 926
+    },
+    {
+      "through": "1800",
+      "view": "supported",
+      "metric": "edge_count",
+      "before": 268,
+      "after": 271
+    },
+    {
+      "through": "1800",
+      "view": "supported",
+      "metric": "connected_pairs_percent",
+      "before": 0.5682686138523113,
+      "after": 0.5786001984706088
+    },
+    {
+      "through": "1800",
+      "view": "confident",
+      "metric": "population",
+      "before": 923,
+      "after": 926
+    },
+    {
+      "through": "1800",
+      "view": "confident",
+      "metric": "edge_count",
+      "before": 240,
+      "after": 242
+    },
+    {
+      "through": "1800",
+      "view": "confident",
+      "metric": "component_count",
+      "before": 683,
+      "after": 684
+    },
+    {
+      "through": "1800",
+      "view": "confident",
+      "metric": "connected_pairs_percent",
+      "before": 0.3583993532360524,
+      "after": 0.35678010624014944
+    },
+    {
+      "through": "1850",
+      "view": "working",
+      "metric": "population",
+      "before": 1793,
+      "after": 1796
+    },
+    {
+      "through": "1850",
+      "view": "working",
+      "metric": "edge_count",
+      "before": 1390,
+      "after": 1393
+    },
+    {
+      "through": "1850",
+      "view": "working",
+      "metric": "largest_component_size",
+      "before": 1142,
+      "after": 1145
+    },
+    {
+      "through": "1850",
+      "view": "working",
+      "metric": "connected_pairs_percent",
+      "before": 40.610123197354795,
+      "after": 40.68725921422412
+    },
+    {
+      "through": "1850",
+      "view": "supported",
+      "metric": "population",
+      "before": 1793,
+      "after": 1796
+    },
+    {
+      "through": "1850",
+      "view": "supported",
+      "metric": "edge_count",
+      "before": 401,
+      "after": 404
+    },
+    {
+      "through": "1850",
+      "view": "supported",
+      "metric": "connected_pairs_percent",
+      "before": 0.20074346665604334,
+      "after": 0.20528441414222878
+    },
+    {
+      "through": "1850",
+      "view": "confident",
+      "metric": "population",
+      "before": 1793,
+      "after": 1796
+    },
+    {
+      "through": "1850",
+      "view": "confident",
+      "metric": "edge_count",
+      "before": 369,
+      "after": 371
+    },
+    {
+      "through": "1850",
+      "view": "confident",
+      "metric": "component_count",
+      "before": 1424,
+      "after": 1425
+    },
+    {
+      "through": "1850",
+      "view": "confident",
+      "metric": "connected_pairs_percent",
+      "before": 0.1374392478686957,
+      "after": 0.1371664671104466
+    }
+  ],
+  "live_edits": 0,
+  "validation": {
+    "new_publication_failures": 0,
+    "new_internal_link_pairs": 0,
+    "release_totals_consistent": true,
+    "browser_verified": [
+      "Lates dossier: father John strongly supported98%, mother Ann unassessed",
+      "Actual main /onetree/#person=Glasgow-4028&view=all: selected Lates with John98% and Ann unassessed; no console errors"
+    ],
+    "note": "Chrome browser control detached during verification; the actual Whole tree was then checked successfully in the in-app browser."
+  }
+}

@@ -4,6 +4,12 @@ Last updated: 2026-10-17
 
 ## Current conclusion
 
+Reviewed 20 October 2026. John of Peters Township is assessed as a probable brother at83%. The established Robert–Arthur–Joseph brotherhood and their James-of-Moneymore father ratings are unchanged.
+
+Assess James of Moneymore, [James Glasgow II (Glasgow-1024)](/people/glasgow-1024.html), as John of Peters Township’s probable father at 76%. The 2024 Adams County family account specifically identifies the John who died in 1779 as brother of Robert, Arthur and Joseph. Fendrick’s abstract independently supplies a contemporary Joseph Glasgow witness in John’s Peters Township will; James Neely’s presence also fits the later Neely-associated emigrant family. Faris’s catalogue description identifies Robert’s father as James of Moneymore and reports four emigrant brothers. Together these identify a specific compatible family, rather than only another local James. Extend that probable father across the preferred fourth-brother identification, while rating John lower than the three established brothers because his place in that group depends partly on the later account and witness identification. Assess the John-to-each-established-brother relationship as probable at 83%.
+
+### Earlier account retained — current assessment above
+
 **Father assessment, 17 October 2026:** James Glasgow-1024, representing the Moneymore father account, is now assessed as the **probable father** of Robert Glasgow-12, Arthur Glasgow-649 and Joseph Glasgow-1543. The specific father attribution and established sibling group support the inference. Other identity, ancestry and maternity questions retain their earlier uncertainty.
 
 [Arthur Glasgow (Glasgow-649), born about 1750, later Rockbridge County,
@@ -111,3 +117,16 @@ Only the initial A. is given. The list probably names a shipmaster, but it does 
 
 This may concern [Glasgow-649](https://www.wikitree.com/wiki/Glasgow-649). Adult in 1794 and later migration is recorded in the known account account, but no maritime occupation or link to Rotterdam is known. Retained only as an age-compatible namesake lead.
 <!-- queue-record-integration-2026-10-17:end -->
+
+
+## Peters Township family assessment —20 October 2026
+
+Fendrick’s checked 1944 abstract of the 1779 Peters Township will identifies John Glasgow’s wife Ann, daughters Lates and Agnes, and son Joseph. [Lates Glasgow (Glasgow-4028)](/people/glasgow-4028.html) and [Joseph Glasgow (Glasgow-4029)](/people/glasgow-4029.html) are the existing record-defined daughter and son accounts, not speculative later adult identifications. Assess John as their father at 98% each, strongly supported by the explicit abstracted relationship and matching will context. The manuscript has not been inspected, so this does not certify the spelling or completeness of the abstract. Joseph the son is distinct from the adult Joseph who witnessed the will.
+
+Assess James of Moneymore, [James Glasgow II (Glasgow-1024)](/people/glasgow-1024.html), as John of Peters Township’s probable father at 76%. The 2024 Adams County family account specifically identifies the John who died in 1779 as brother of Robert, Arthur and Joseph. Fendrick’s abstract independently supplies a contemporary Joseph Glasgow witness in John’s Peters Township will; James Neely’s presence also fits the later Neely-associated emigrant family. Faris’s catalogue description identifies Robert’s father as James of Moneymore and reports four emigrant brothers. Together these identify a specific compatible family, rather than only another local James. Extend that probable father across the preferred fourth-brother identification, while rating John lower than the three established brothers because his place in that group depends partly on the later account and witness identification. Assess the John-to-each-established-brother relationship as probable at 83%.
+
+The original will and probate packet remain uninspected. The checked abstract gives 1779, not the execution/probate days; existing 14 March and 3 September date limits are preserved from the earlier cited profile account, not newly verified. The will index verifies John’s locator, Cumberland Will Book C, p.161, but supplies no relatives. Ann is named as wife, not expressly mother of the children; her existing maternal attachments remain unassessed. Nancy (Glascoe) Wright is only a possible identification of Agnes: an approximately 1778 birth fits a child alive in 1779 and Agnes/Nancy can be compatible name forms, but the later Maryland/Indiana household has no inspected parent, guardianship or estate bridge to Peters Township. Her existing John father is therefore possible at 37%, not confident. The witness Joseph is not proved to be Joseph of Wythe County. The family-history article may depend on Faris and is not independent corroboration of his genealogy. The older James-1025 father of James-1024 remains 18%; no Scottish migration, Mary Harkness maternity, new mother, identity merge or live edit follows. Exact percentages express individual subjective judgments, not measured frequencies or multiplied independent probabilities.
+
+[Virginia Shannon Fendrick, American Revolutionary Soldiers of Franklin County, Pennsylvania (1944), printed p.88, PDF p.88, Joseph Glassgo entry; page visually checked 20 October 2026](https://tile.loc.gov/storage-services/service/gdc/gdclccn/57/05/15/50/57051550/57051550.pdf#page=88); [Cumberland will-book index: John Glasgow, C161; checked 20 October 2026](https://www.sampubco.com/wills/pa/pacumberland01.htm); [Joyce Wilson, Our Ancestors of Adams County,29March2024; secondary account checked 20 October 2026](https://www.peoplesdefender.com/2024/03/29/our-ancestors-of-adams-county-3/).
+
+[Family reconstruction and next discriminating records](/branches/research-irish-moneymore/#chapter-peters-will-family).
