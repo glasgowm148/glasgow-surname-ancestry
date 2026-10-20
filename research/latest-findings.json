@@ -33438,6 +33438,75 @@
       "newly_inspected_transcripts": 2,
       "new_original_inspections": 0,
       "existing_confident_roles_individually_rated": 1
+    },
+    {
+      "id": "duffe-apothecary-preferred-father-20261020",
+      "found_on": "2026-10-20",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Prefer the Duffe household’s James Glasgow-2682 as the 1696 apothecary apprentice’s father, probable 82%, instead of the earlier 76% selection of the older weaver account.",
+      "qualification": "The 82% assesses the complete father-profile proposition, including Thomas’s inferred apprentice-to-baptism identity and the inferred common father. These clues are related and are considered together, not multiplied as independent confirmations. Neither apprentice entry names a mother, address, father’s admission date or birth date. Another matching family remains possible. The 1679 mother’s Elizabeth/Isobell attribution is retained with its existing qualification. The 1679 and 1680 James profiles remain separate, and neither is selected as the apprentice or Jean Dobie’s husband. Isobell Duffe is not assigned as James-4114’s mother. The possible cancelled 1690 Lindsayland apprenticeship remains unresolved; its father was deceased, while a same-name Edinburgh master appears in 1693. The 1691 baptism alone does not prove its father alive. James-2682’s speculative Johnne-1151 ancestry at 26%, James-1150’s probable Robert-1156 ancestry at 86%, and all vital fields are unchanged. This is a revised local selection; the live father remains blank, so the pending WikiTree action is a new father addition, not replacement of a live parent. The sibling assessment remains 79%.",
+      "people": [
+        {
+          "id": "Glasgow-4114",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-4114.html"
+        },
+        {
+          "id": "Glasgow-2682",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-2682.html"
+        },
+        {
+          "id": "Glasgow-1150",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-1150.html"
+        },
+        {
+          "id": "Glasgow-3285",
+          "name": "Thomas Glasgow",
+          "url": "/people/glasgow-3285.html"
+        },
+        {
+          "id": "Glasgow-3103",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-3103.html"
+        },
+        {
+          "id": "Glasgow-3368",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-3368.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Watson, Edinburgh Apprentices (1929), printed p.37, PDF p.47: James 1696 and Thomas 1699; printed page inspected 18 October, reused",
+          "url": "https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/edinburgh_apprentices_~_1666_to_1700_~_1929.pdf#page=47"
+        },
+        {
+          "title": "Thomas, 13 November 1684: maintained FamilySearch baptism citation",
+          "url": "https://familysearch.org/ark:/61903/1:1:VQC9-N9X"
+        },
+        {
+          "title": "James, 16 March 1679: retained separate child comparison",
+          "url": "https://familysearch.org/ark:/61903/1:1:VQC9-Q9J"
+        },
+        {
+          "title": "James, 18 April 1680: retained separate child comparison",
+          "url": "https://familysearch.org/ark:/61903/1:1:VQC9-8S4"
+        },
+        {
+          "title": "Margaret, 20 March 1691: later daughter, not a younger son",
+          "url": "https://familysearch.org/ark:/61903/1:1:FM3W-XBN"
+        }
+      ],
+      "detail_url": "/people/glasgow-4114.html",
+      "new_father_attachments": 0,
+      "father_replacements": 1,
+      "genealogical_connections_added": 0,
+      "certainty_upgrades": 0,
+      "new_source_discoveries": 0,
+      "new_original_inspections": 0
     }
   ]
 }

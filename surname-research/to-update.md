@@ -2526,3 +2526,15 @@ Burial-defined Walter remains on source-verification HOLD in the existing creati
 | [James Glasgow](https://www.wikitree.com/wiki/Glasgow-991) | OPEN | New uncertain brother route through father George: Edward 26%; James’s own father 82% unchanged. |
 | [Alexander Glasgow](https://www.wikitree.com/wiki/Glasgow-1148) | OPEN | Existing confident son James-3923 individually assessed 98%; possible 1716 writer identity kept separate. |
 | [James Glasgow](https://www.wikitree.com/wiki/Glasgow-3923) | OPEN | New possible 1716 Edinburgh writer identification 45%; existing confident father Alexander individually assessed 98%. |
+
+
+## 20 October 2026 — Edinburgh Duffe household and apprentices
+
+| Profile | Status | Change |
+|---|---|---|
+| [James Glasgow](https://www.wikitree.com/wiki/Glasgow-4114) | OPEN | New proposed father: James Glasgow-2682 of the Duffe household, probable 82%; old local 76% father retained as a compatible identity. |
+| [James Glasgow](https://www.wikitree.com/wiki/Glasgow-2682) | OPEN | Preferred father of the 1696 apothecary apprentice, probable 82%; own Johnne father remains uncertain 26%. |
+| [James Glasgow](https://www.wikitree.com/wiki/Glasgow-1150) | OPEN | Former selected father of the 1696 apprentice retained at 76% as a compatible same-adult account; Duffe father now preferred at 82%. |
+| [Thomas Glasgow](https://www.wikitree.com/wiki/Glasgow-3285) | OPEN | Youngest-son description fits the Duffe household; probable brother James’s selected father is the shared household account, 82%. |
+| [James Glasgow](https://www.wikitree.com/wiki/Glasgow-3103) | OPEN | The 1696 apothecary apprentice is a compatible later identity; the separate 1679 and 1680 baptisms and Dobie marriage question remain unresolved. |
+| [James Glasgow](https://www.wikitree.com/wiki/Glasgow-3368) | OPEN | The 1696 apothecary apprentice is a compatible later identity; no adult family or apprenticeship is assigned to this baptism. |

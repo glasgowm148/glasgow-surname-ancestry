@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "reviewed": "2026-10-18",
+  "reviewed": "2026-10-20",
   "objective": "Connect the Glasgow surname branches into one extended family tree, developing and testing tentative connections from the earliest records first.",
   "common_origin": "The owner reports that all men tested share the Glasgow Y-DNA lineage. A shared paternal origin around 1400–1450, possibly earlier, is the working research model; the founder, date and intervening generations remain to be identified.",
   "variants": [
@@ -4237,44 +4237,56 @@
     {
       "id": "edinburgh-apothecary-probable-father",
       "year": 1696,
-      "title": "Edinburgh: the 1696 apprentice’s probable father, 76%",
-      "status": "New proposed father,probable76%;1690 father remains unidentified",
+      "title": "Edinburgh: prefer the Duffe household father, 82%",
+      "status": "New proposed WikiTree father, probable82%; former local76% father retained as compatible adult identity",
       "people": [
         {
-          "name": "James Glasgow, apothecary apprentice in 1696",
+          "name": "James Glasgow (Glasgow-4114)",
           "url": "/people/glasgow-4114.html"
         },
         {
-          "name": "James Glasgow, Edinburgh weaver and burgess",
+          "name": "James Glasgow (Glasgow-2682)",
+          "url": "/people/glasgow-2682.html"
+        },
+        {
+          "name": "James Glasgow (Glasgow-1150)",
           "url": "/people/glasgow-1150.html"
         },
         {
-          "name": "James Glasgow, Lindsayland apprentice in 1690",
-          "url": "/people/glasgow-4131.html"
+          "name": "Thomas Glasgow (Glasgow-3285)",
+          "url": "/people/glasgow-3285.html"
         },
         {
-          "name": "James Glasgow of Whitecastle",
-          "url": "/people/glasgow-1376.html"
+          "name": "James Glasgow (Glasgow-3103)",
+          "url": "/people/glasgow-3103.html"
+        },
+        {
+          "name": "James Glasgow (Glasgow-3368)",
+          "url": "/people/glasgow-3368.html"
         }
       ],
-      "basis": "Select the Edinburgh weaver and burgess James Glasgow-1150 as the probable father of the record-defined 1696 apprentice James Glasgow-4114, at 76% subjective confidence. Printed page 37 names the apprentice’s father as James Glasgow, weaver and burgess. Name, occupation, civic status and Edinburgh setting identify a particular established craftsman rather than just a same-name Scottish father. The maintained 1641 apprenticeship and 1649 burgess cross-reference securely establish James-1150 as a weaver and burgess; printed page 72 also records a James Glasgow, weaver and burgess, taking John Paterson as apprentice on 18 October 1693. The maintained burgess-roll review found one matching admission, although an index cannot rule out another man. This makes James-1150 the preferred father-profile match. The child account itself is defined by the 22 April 1696 entry, so no later-life identification is needed for that child. The 76% is an individual research judgment for the whole father-profile identification, not a measured frequency. The published entry proves a father called James, weaver and burgess; it does not supply his apprenticeship date, wife, home address or age. Another matching craftsman, including a Lindsaylands man who also held burgess rights, remains possible. The circa-1680 child date and circa-1620 father date are estimates, not recorded ages; the nominal sixty-year interval makes late fatherhood relevant but is not a contradiction. James’s 1641 apprenticeship supplies no exact birth year. The younger James’s mother remains unknown: neither Bessie Whyte nor Agnes Duncan is transferred merely because she married the proposed father. The father’s existing probable Robert ancestry and all other family grades remain unchanged.",
-      "next_test": "Check the original indentures for cancellation, endorsement or a repeated identifier; compare the 1690 and 1696 apprentices before merging them. Seek the weaver’s testament or incorporation family entry for wife and sons. The 1696 master reads Wm. Adam, not the Findmypast transcript’s Adamson. A score-out does not establish a death.",
+      "basis": "Prefer James Glasgow-2682, the father account defined by the Edinburgh Duffe household, as the 1696 apothecary apprentice James Glasgow-4114’s probable father at 82% subjective confidence. The 1696 James and 1699 Thomas entries name their father as James Glasgow, weaver and burgess. Thomas’s maintained identification with the 13 November 1684 child of James and Isobell Duffe gives an entry age of almost fifteen. The household’s James children of 16 March 1679 and 18 April 1680 fit the 1696 entry at seventeen or sixteen. Thomas is the youngest recorded son in this family, consistent with the 1699 indenture’s youngest-son description; the later recorded child, Margaret in 1691, is a daughter. This household-specific age and sibling order gives a better father-profile fit than selecting the older craftsman solely through the repeated occupational description. The James-1150 account remains compatible as another account of this same adult, not an excluded or necessarily different biological father. The 82% assesses the complete father-profile proposition, including Thomas’s inferred apprentice-to-baptism identity and the inferred common father. These clues are related and are considered together, not multiplied as independent confirmations. Neither apprentice entry names a mother, address, father’s admission date or birth date. Another matching family remains possible. The 1679 mother’s Elizabeth/Isobell attribution is retained with its existing qualification. The 1679 and 1680 James profiles remain separate, and neither is selected as the apprentice or Jean Dobie’s husband. Isobell Duffe is not assigned as James-4114’s mother. The possible cancelled 1690 Lindsayland apprenticeship remains unresolved; its father was deceased, while a same-name Edinburgh master appears in 1693. The 1691 baptism alone does not prove its father alive. James-2682’s speculative Johnne-1151 ancestry at 26%, James-1150’s probable Robert-1156 ancestry at 86%, and all vital fields are unchanged. This is a revised local selection; the live father remains blank, so the pending WikiTree action is a new father addition, not replacement of a live parent. The sibling assessment remains 79%.",
+      "next_test": "Find a mother, address or admission identifier connecting the apprentice entries to the Duffe baptisms; test the older weaver’s possible same-adult identity and retain the cancelled 1690 apprenticeship.",
       "sources": [
         {
-          "label": "Charles B. Boog Watson (ed.), Register of Edinburgh Apprentices,1666–1700 (1929), printed p.37, PDF p.47: four Glasgow entries; printed page visually checked 18 October 2026",
+          "label": "Watson, Edinburgh Apprentices (1929), printed p.37, PDF p.47: James 1696 and Thomas 1699; printed page inspected 18 October, reused",
           "url": "https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/edinburgh_apprentices_~_1666_to_1700_~_1929.pdf#page=47"
         },
         {
-          "label": "Watson, same register, printed p.72, PDF p.82: James Glasgow,weaver and burgess, master of John Paterson,18 October1693; printed page visually checked 18 October2026",
-          "url": "https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/edinburgh_apprentices_~_1666_to_1700_~_1929.pdf#page=82"
+          "label": "Thomas, 13 November 1684: maintained FamilySearch baptism citation",
+          "url": "https://familysearch.org/ark:/61903/1:1:VQC9-N9X"
         },
         {
-          "label": "Findmypast transcript SCOT/EDINBURGH/APPRENTICES/0005161/1,22 April1696; maintained capture3 September2026",
-          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FEDINBURGH%2FAPPRENTICES%2F0005161%2F1&tab=this"
+          "label": "James, 16 March 1679: retained separate child comparison",
+          "url": "https://familysearch.org/ark:/61903/1:1:VQC9-Q9J"
         },
         {
-          "label": "Findmypast transcript SCOT/EDINBURGH/APPRENTICES/0005159/1,7 May1690; maintained capture3 September2026",
-          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FEDINBURGH%2FAPPRENTICES%2F0005159%2F1&tab=this"
+          "label": "James, 18 April 1680: retained separate child comparison",
+          "url": "https://familysearch.org/ark:/61903/1:1:VQC9-8S4"
+        },
+        {
+          "label": "Margaret, 20 March 1691: later daughter, not a younger son",
+          "url": "https://familysearch.org/ark:/61903/1:1:FM3W-XBN"
         }
       ],
       "record_references": [
@@ -4283,8 +4295,8 @@
         "edinburgh-weaver-master-1693"
       ],
       "working_selection": true,
-      "assertion_id": "C-working-20261018-edinburgh-apothecary-father",
-      "reviewed": "2026-10-18"
+      "assertion_id": "C-working-20261020-duffe-apothecary-father",
+      "reviewed": "2026-10-20"
     },
     {
       "id": "edinburgh-apprentice-brothers",

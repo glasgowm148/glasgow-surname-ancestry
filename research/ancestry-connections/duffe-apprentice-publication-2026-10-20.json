@@ -1,0 +1,79 @@
+{
+  "reviewed": "2026-10-20",
+  "selected_father": {
+    "child": "Glasgow-4114",
+    "father": "Glasgow-2682",
+    "percent": 82
+  },
+  "former_father": {
+    "id": "Glasgow-1150",
+    "percent": 76,
+    "retained_status": "probable alternative",
+    "identity_question": "May represent the same adult as the selected household father."
+  },
+  "pending_wikitree_action": "add father to blank saved field",
+  "sibling_percent_unchanged": 79,
+  "new_component_joins": 0,
+  "new_original_inspections": 0,
+  "all_vitals_mothers_spouses_and_other_fathers_preserved": true,
+  "main_standalone_and_packed_models_agree": true,
+  "full_compact_pending_membership_equal": true,
+  "pending_updates_before": 549,
+  "pending_updates_after": 550,
+  "supported_metric_changes": [
+    {
+      "through": "1700",
+      "view": "supported",
+      "pairs_before": 2.912621359223301,
+      "pairs_after": 2.9021140671626107,
+      "largest_before": 44,
+      "largest_after": 44
+    },
+    {
+      "through": "1750",
+      "view": "supported",
+      "pairs_before": 1.1023882229615787,
+      "pairs_after": 1.094412287498291,
+      "largest_before": 46,
+      "largest_after": 46
+    },
+    {
+      "through": "1800",
+      "view": "supported",
+      "pairs_before": 0.5729689332390135,
+      "pairs_after": 0.5682686138523113,
+      "largest_before": 46,
+      "largest_after": 46
+    },
+    {
+      "through": "1850",
+      "view": "supported",
+      "pairs_before": 0.2020506334156641,
+      "pairs_after": 0.20074346665604334,
+      "largest_before": 46,
+      "largest_after": 46
+    }
+  ],
+  "working_1850": {
+    "population": 1793,
+    "component_count": 405,
+    "largest_component_size": 1142,
+    "connected_pairs_percent": 40.610123197354795
+  },
+  "live_edits": 0,
+  "validation": {
+    "tree_tests_passed": 35,
+    "existing_presentation_tests_passed": 42,
+    "new_alternative_presentation_tests_passed": 2,
+    "new_publication_failures": 0,
+    "new_broken_link_pairs": 0,
+    "release_totals_consistent": true,
+    "browser_checked": [
+      "New probable father82% catalogue filter: one result, correct WikiTree father2682 link",
+      "Main Whole tree father2682,82%, siblingThomas79%, no assigned mother",
+      "Current profile has one selected father and a separate earlier76% alternative",
+      "Complete drafts and current review summaries"
+    ],
+    "existing_warnings": []
+  }
+}

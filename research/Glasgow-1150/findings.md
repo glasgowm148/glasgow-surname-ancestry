@@ -2,6 +2,12 @@
 
 ## Current conclusion
 
+Reviewed 20 October 2026. Former selected father of the 1696 apprentice retained at 76% as a compatible same-adult account; Duffe father now preferred at 82%.
+
+Prefer [James Glasgow (Glasgow-2682)](/people/glasgow-2682.html), the father account defined by the Edinburgh Duffe household, as the 1696 apothecary apprentice [James Glasgow (Glasgow-4114)](/people/glasgow-4114.html)’s probable father at 82% subjective confidence. The 1696 James and 1699 Thomas entries name their father as James Glasgow, weaver and burgess. Thomas’s maintained identification with the 13 November 1684 child of James and Isobell Duffe gives an entry age of almost fifteen. The household’s James children of 16 March 1679 and 18 April 1680 fit the 1696 entry at seventeen or sixteen. Thomas is the youngest recorded son in this family, consistent with the 1699 indenture’s youngest-son description; the later recorded child, Margaret in 1691, is a daughter. This household-specific age and sibling order gives a better father-profile fit than selecting the older craftsman solely through the repeated occupational description. The James-1150 account remains compatible as another account of this same adult, not an excluded or necessarily different biological father.
+
+### Earlier account retained — superseded for the apprentice’s selected father
+
 Reviewed 18 October 2026. **Agnes Duncan was buried on 21 January 1674 as wife of James the weaver. Remarriage before the Duffe children is compatible. The two late apprentice sons are assessed as probable brothers, 79%, without merging the two father accounts.**
 
 Reviewed18 October2026. **The1696 apothecary apprentice James Glasgow-4114 is selected as a probable son,76%. His mother and the1690 comparison remain unresolved.**
@@ -35,7 +41,7 @@ Check the original indentures for cancellation, endorsement or a repeated identi
 The dated review above supersedes prior categorical apprentice exclusions. Other findings and relationship assessments remain in force.
 
 
-Last updated: 2026-10-17
+Last updated: 2026-10-20
 
 ### Earlier conclusion
 
@@ -325,3 +331,10 @@ The useful next discriminator is a weavers’ incorporation, testament or baptis
 - [Paton, same register, printed p.196, PDF p.212: Agnes Duncan, wife of James Glasgow,weaver,21 January1674; cross-index of same burial, not independent corroboration](https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/register_of_internments_~_greyfriars_churchyard_1658-1700_~_1898.pdf#page=212)
 
 [Family comparison](/branches/research-calder-inveresk-james/#chapter-edinburgh-apprentice-brothers).
+
+
+## Duffe household and apothecary apprentice — 20 October 2026
+
+Prefer [James Glasgow (Glasgow-2682)](/people/glasgow-2682.html), the father account defined by the Edinburgh Duffe household, as the 1696 apothecary apprentice [James Glasgow (Glasgow-4114)](/people/glasgow-4114.html)’s probable father at 82% subjective confidence. The 1696 James and 1699 Thomas entries name their father as James Glasgow, weaver and burgess. Thomas’s maintained identification with the 13 November 1684 child of James and Isobell Duffe gives an entry age of almost fifteen. The household’s James children of 16 March 1679 and 18 April 1680 fit the 1696 entry at seventeen or sixteen. Thomas is the youngest recorded son in this family, consistent with the 1699 indenture’s youngest-son description; the later recorded child, Margaret in 1691, is a daughter. This household-specific age and sibling order gives a better father-profile fit than selecting the older craftsman solely through the repeated occupational description. The James-1150 account remains compatible as another account of this same adult, not an excluded or necessarily different biological father. The 82% assesses the complete father-profile proposition, including Thomas’s inferred apprentice-to-baptism identity and the inferred common father. These clues are related and are considered together, not multiplied as independent confirmations. Neither apprentice entry names a mother, address, father’s admission date or birth date. Another matching family remains possible. The 1679 mother’s Elizabeth/Isobell attribution is retained with its existing qualification. The 1679 and 1680 James profiles remain separate, and neither is selected as the apprentice or Jean Dobie’s husband. Isobell Duffe is not assigned as James-4114’s mother. The possible cancelled 1690 Lindsayland apprenticeship remains unresolved; its father was deceased, while a same-name Edinburgh master appears in 1693. The 1691 baptism alone does not prove its father alive. James-2682’s speculative Johnne-1151 ancestry at 26%, James-1150’s probable Robert-1156 ancestry at 86%, and all vital fields are unchanged. This is a revised local selection; the live father remains blank, so the pending WikiTree action is a new father addition, not replacement of a live parent. The sibling assessment remains 79%.
+
+[Watson, Edinburgh Apprentices (1929), printed p.37, PDF p.47: James 1696 and Thomas 1699; printed page inspected 18 October, reused](https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/edinburgh_apprentices_~_1666_to_1700_~_1929.pdf#page=47); [Thomas, 13 November 1684: maintained FamilySearch baptism citation](https://familysearch.org/ark:/61903/1:1:VQC9-N9X); [James, 16 March 1679: retained separate child comparison](https://familysearch.org/ark:/61903/1:1:VQC9-Q9J); [James, 18 April 1680: retained separate child comparison](https://familysearch.org/ark:/61903/1:1:VQC9-8S4); [Margaret, 20 March 1691: later daughter, not a younger son](https://familysearch.org/ark:/61903/1:1:FM3W-XBN).

@@ -1,8 +1,14 @@
 # Findings: [James Glasgow (Glasgow-3368), baptised 1680](https://www.wikitree.com/wiki/Glasgow-3368)
 
-Last updated: 2026-09-10
+Last updated: 2026-10-20
 
-## Conclusion
+## Current conclusion
+
+Reviewed 20 October 2026. The 1696 apothecary apprentice is a compatible later identity; no adult family or apprenticeship is assigned to this baptism.
+
+This 1680 child remains a compatible childhood comparison for the 1696 apothecary apprentice [James Glasgow-4114](/people/glasgow-4114.html), whose preferred father account is now [James Glasgow-2682](/people/glasgow-2682.html), probable 82%. The 1679 [same-name child](/people/glasgow-3103.html) remains separate. Name reuse favours testing this child as the survivor but does not identify the apprentice or Jean Dobie’s husband. No adult records, spouse or new mother are transferred.
+
+### Earlier account retained — superseded for the apprentice’s selected father
 
 The 18 April 1680 baptism is a separate event to the same parents who had a son
 James in March 1679. Name reuse makes the 1680 child the likelier survivor, but
@@ -52,3 +58,10 @@ Provenance: exact-surname Glasgow search, year range to 1700, 127 supplied resul
 Original image not inspected for this batch. The combined collection’s date does not automatically establish a birthday. Names alone do not uniquely identify attached parents or connect a child with a later adult. An omitted parent or indexed gender U remains unspecified in this source.
 
 **Next action:** No additional WikiTree update from this row; preserve any existing pending work.
+
+
+## Duffe household and apothecary apprentice — 20 October 2026
+
+This 1680 child remains a compatible childhood comparison for the 1696 apothecary apprentice [James Glasgow-4114](/people/glasgow-4114.html), whose preferred father account is now [James Glasgow-2682](/people/glasgow-2682.html), probable 82%. The 1679 [same-name child](/people/glasgow-3103.html) remains separate. Name reuse favours testing this child as the survivor but does not identify the apprentice or Jean Dobie’s husband. No adult records, spouse or new mother are transferred.
+
+[Watson, Edinburgh Apprentices (1929), printed p.37, PDF p.47: James 1696 and Thomas 1699; printed page inspected 18 October, reused](https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/edinburgh_apprentices_~_1666_to_1700_~_1929.pdf#page=47); [Thomas, 13 November 1684: maintained FamilySearch baptism citation](https://familysearch.org/ark:/61903/1:1:VQC9-N9X); [James, 16 March 1679: retained separate child comparison](https://familysearch.org/ark:/61903/1:1:VQC9-Q9J); [James, 18 April 1680: retained separate child comparison](https://familysearch.org/ark:/61903/1:1:VQC9-8S4); [Margaret, 20 March 1691: later daughter, not a younger son](https://familysearch.org/ark:/61903/1:1:FM3W-XBN).
