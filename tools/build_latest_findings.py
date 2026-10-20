@@ -39,6 +39,8 @@ FEED_URL = '/latest-findings/feed.xml'
 FEED_LINK = f'<link rel="alternate" type="application/atom+xml" title="Latest findings · Glasgow Surname Project" href="{FEED_URL}">'
 FEED_SIZE = 50
 FINDINGS_PER_PAGE = 50
+# The opening page shows fewer, keeping it well inside the 500 KB page budget.
+LATEST_SHOWN = 30
 # Per-subject export for other builders: read it with findings_for().
 SUBJECT_INDEX = 'data/findings-by-subject.json'
 
@@ -205,9 +207,10 @@ def render_main(rows, total=None, page_number=None, studies=(), browse=False, pl
     follow = f'<p class="lf-follow"><a href="{FEED_URL}">Follow new findings (Atom feed)</a>{routes}</p>'
     pages = max(1, (total + FINDINGS_PER_PAGE - 1) // FINDINGS_PER_PAGE)
     if page_number is None:
-        # The newest findings cover the top archive page and, unless it is full,
-        # the newest part of the one before; "Older" continues from there.
-        older = pages - 1 if pages > 1 else None
+        # "Older" continues on the newest archive page unless the opening page
+        # already shows all of it, then on the page before.
+        on_top_page = total - (pages - 1) * FINDINGS_PER_PAGE
+        older = pages if on_top_page > len(rows) else (pages - 1 or None)
         newer = None
         position = f'Newest {len(rows)} of {total:,} findings'
         place_label = 'Latest findings'
@@ -428,7 +431,7 @@ def repair(web=WEB, ledger=LEDGER):
                            key=lambda p: (p['name'].casefold(), p['slug']))
     browse = bool(study_options or subjects['places'])
     page = (web / 'about/index.html').read_text(encoding='utf-8')
-    page, count = re.subn(r'<main\b[^>]*>.*?</main>', lambda _: render_main(rows[:FINDINGS_PER_PAGE], len(rows), None, study_options, browse, place_options), page, count=1, flags=re.S)
+    page, count = re.subn(r'<main\b[^>]*>.*?</main>', lambda _: render_main(rows[:LATEST_SHOWN], len(rows), None, study_options, browse, place_options), page, count=1, flags=re.S)
     if count != 1:
         raise ValueError('The site template has no main element')
     page = re.sub(r'<title>.*?</title>', '<title>Latest findings · Glasgow Surname Project</title>', page, count=1, flags=re.S)
@@ -475,7 +478,7 @@ def repair(web=WEB, ledger=LEDGER):
     for row in rows:
         archive.setdefault(int(row['_page_url'].rstrip('/').rsplit('/', 1)[1]), []).append(row)
     for number in [None, *sorted(archive)]:
-        selected = rows[:FINDINGS_PER_PAGE] if number is None else archive[number]
+        selected = rows[:LATEST_SHOWN] if number is None else archive[number]
         rendered = re.sub(r'<main\b[^>]*>.*?</main>', lambda _: render_main(selected, len(rows), number, study_options, browse, place_options), page, count=1, flags=re.S)
         if number is not None:
             rendered = rendered.replace('https://glasgow.phenotype.dev/latest-findings/', 'https://glasgow.phenotype.dev' + page_url(number), 1)
@@ -513,6 +516,12 @@ def repair(web=WEB, ledger=LEDGER):
                 from build_tree_research_status import write as write_tree_status
             write_tree_status(ROOT)
             changed['tree_research_status'] += 1
+            # Person pages carry the descendant counts in their tree-view links.
+            try:
+                from tools.profile_tree_links import apply as refresh_tree_links
+            except ModuleNotFoundError:
+                from profile_tree_links import apply as refresh_tree_links
+            changed['profile_tree_links'] += refresh_tree_links(web)['changed']
         except Exception as error:  # the findings pages are already written
             print(f'tree research status not refreshed: {error}')
     return changed

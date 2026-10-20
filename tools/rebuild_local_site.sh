@@ -68,6 +68,7 @@ step 1 check-research      $PY tools/check_research_publication.py --baseline da
 step 1 check-release       $PY tools/check_release_consistency.py
 step 1 check-links         $PY tools/check_internal_links.py --site www --baseline data/site/internal-link-baseline.json
 step 1 check-finding-links $PY tools/relink_finding_anchors.py --check
+step 1 check-tree-links    $PY tools/profile_tree_links.py --check
 step 1 check-experience    $PY tools/audit_site_experience.py
 step 1 check-asset-stamps  $PY tools/stamp_asset_versions.py --check
 step 1 check-privacy       $PY tools/check_publication_boundary.py

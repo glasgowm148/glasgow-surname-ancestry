@@ -87,7 +87,7 @@ research section does not replace that integration.
   `people[].draft_url` for an additional evidence draft alongside a directly
   linked candidate profile. Update any superseded unmatched assessment in its
   maintained record review and public study, retaining dated history.
-  `/latest-findings/` shows the newest 50 findings. Archive pages
+  `/latest-findings/` shows the newest 30 findings (`LATEST_SHOWN`). Archive pages
   (`/latest-findings/page/N/`) are numbered from the earliest finding, so a
   finding never changes page as newer ones arrive. Link a finding with
   `build_latest_findings.page_urls` (or the `url` in

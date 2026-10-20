@@ -128,7 +128,7 @@ def check(base, fixture_mode=False):
             context.close()
         nojs=browser.new_context(java_script_enabled=False)
         page=nojs.new_page();page.goto(base+'/latest-findings/')
-        require(page.locator('#lf-rows tr').count()==50,'No-JS findings root must contain 50 real rows')
+        require(page.locator('#lf-rows tr').count()==30,'No-JS findings root must contain the 30 newest rows')
         page.locator('#lf-next').click();require(re.search(r'/latest-findings/page/\d+/$',page.url),'No-JS pagination did not navigate')
         require(page.locator('#lf-rows tr').count()>0,'No-JS second page is empty')
         nojs.close();browser.close()

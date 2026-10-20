@@ -1,4 +1,5 @@
 import copy
+from datetime import date, timedelta
 from tests._generated_data import requires_generated_data
 import json
 from pathlib import Path
@@ -122,7 +123,7 @@ class LatestFindingsTests(unittest.TestCase):
         rows = findings.load_findings()
         page = BeautifulSoup((findings.WEB / 'latest-findings/index.html').read_text(), 'html.parser')
         # The opening page repeats the newest findings; the archive pages hold each finding once.
-        self.assertEqual([f"finding-{row['id']}" for row in rows[:findings.FINDINGS_PER_PAGE]], [r['id'] for r in page.select('#lf-rows > tr')])
+        self.assertEqual([f"finding-{row['id']}" for row in rows[:findings.LATEST_SHOWN]], [r['id'] for r in page.select('#lf-rows > tr')])
         rendered = []
         for page_path in sorted((findings.WEB / 'latest-findings/page').glob('*/index.html')):
             rendered.extend(BeautifulSoup(page_path.read_text(), 'html.parser').select('#lf-rows > tr'))
@@ -171,7 +172,7 @@ class LatestFindingsTests(unittest.TestCase):
                 for index in range(count):
                     item = copy.deepcopy(row)
                     item['id'] = f'finding-{index:03d}'
-                    item['found_on'] = f'2026-09-{30 - index // 2:02d}'
+                    item['found_on'] = (date(2026, 9, 30) - timedelta(days=index // 2)).isoformat()
                     item['finding'] = f'Finding {index}'
                     rows.append(item)
                 return rows
@@ -180,8 +181,8 @@ class LatestFindingsTests(unittest.TestCase):
             ledger.write_text(json.dumps({'findings': ledger_rows(53)}))
             findings.repair(web, ledger)
             root, page1, page2 = read('latest-findings/index.html'), read('latest-findings/page/1/index.html'), read('latest-findings/page/2/index.html')
-            # The newest 50 open the log; archive page 1 holds the earliest 50, page 2 the newest 3.
-            self.assertEqual([f'finding-{i:03d}' for i in range(50)], ids(root))
+            # The newest 30 open the log; archive page 1 holds the earliest 50, page 2 the newest 3.
+            self.assertEqual([f'finding-{i:03d}' for i in range(30)], ids(root))
             self.assertEqual([f'finding-{i:03d}' for i in range(3, 53)], ids(page1))
             self.assertEqual([f'finding-{i:03d}' for i in range(3)], ids(page2))
             self.assertIsNone(root.select_one('noscript li'))
@@ -193,6 +194,12 @@ class LatestFindingsTests(unittest.TestCase):
             self.assertEqual('true', page1.select_one('#lf-next')['aria-disabled'])
             self.assertEqual('https://glasgow.phenotype.dev/latest-findings/page/2/', page2.select_one('link[rel="canonical"]')['href'])
             self.assertIn('/latest-findings/page/1/#finding-finding-010', [a['href'] for a in root.select('a.lf-date')])
+            # When the newest archive page holds more than the opening page shows, Older goes there first.
+            ledger.write_text(json.dumps({'findings': ledger_rows(90)}))
+            findings.repair(web, ledger)
+            self.assertEqual('/latest-findings/page/2/', read('latest-findings/index.html').select_one('#lf-next')['href'])
+            ledger.write_text(json.dumps({'findings': ledger_rows(53)}))
+            findings.repair(web, ledger)
             manifest = {r['id']: r['url'] for r in json.loads((web / 'data/latest-findings-index.json').read_text())}
             self.assertEqual('/latest-findings/page/2/', manifest['finding-finding-000'])
             self.assertEqual(findings.page_urls(ledger_rows(53))['finding-010'], '/latest-findings/page/1/#finding-finding-010')
