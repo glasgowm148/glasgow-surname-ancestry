@@ -33002,6 +33002,51 @@
       "genealogical_connections_added": 1,
       "new_transcript_inspections": 3,
       "new_source_discoveries": 0
+    },
+    {
+      "id": "govan-nailers-samuel-james-20261020",
+      "found_on": "2026-10-20",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Govan nailers: Samuel is James’s probable father, 78%. Two inspected baptism transcripts name Samuel Glasgow and Lilias Stewart; the separate adult burials identify two Govan nailers.",
+      "qualification": "The 78% assesses the whole proposed father-profile link, including both identifications: the 1790 child as the adult nailer, and the named father as the nailer buried in 1818. Neither burial names a parent or child, and the baptism transcripts give no paternal occupation. Age 42 in September 1833 is approximately a year younger than the 1790 child; the circa-1790 birth on James’s profile is not an exact independent record. Another Samuel or another James remains possible. A contributed Ancestry tree links this same Jane Cunningham family to Samuel and Lilias, but gives an incompatible circa-1850 death for James; it is a comparison lead, not independent confirmation or authority to replace the 1833 burial. FamilySearch’s contributed Lilias account estimates her partner Samuel at 1763, whereas the buried nailer’s age implies about 1753; no underlying birth record was checked for that estimate. Do not merge those accounts on that basis. Lilias is the named mother of the indexed child, but no maternal attachment or new mother profile is selected here. All existing vital fields, spouses and children are preserved.",
+      "people": [
+        {
+          "id": "Glasgow-1483",
+          "name": "James Glasgow, Govan nailer",
+          "url": "/people/glasgow-1483.html"
+        },
+        {
+          "id": "Glasgow-3063",
+          "name": "Samuel Glasgow, Govan nailer",
+          "url": "/people/glasgow-3063.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Govan James baptism, 1790; Samuel Glasgow and Lilias Stewart; OPR 646/2 item 2 p.69, transcript date 22 March",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3976076&tab=this"
+        },
+        {
+          "title": "Govan James baptism, same parent pair; FamilySearch-derived transcript date 25 April 1790",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_688515992&tab=this"
+        },
+        {
+          "title": "James Glasgow, Govan burial 8 September 1833, aged 42, nailer, Glasgow residence",
+          "url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FGLASGOW%2FBUR%2F093130&tab=this"
+        },
+        {
+          "title": "Samuel Glasgow, Govan burial 7 December 1818, aged 65, nailer, Glasgow residence",
+          "url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FGLASGOW%2FBUR%2F093131&tab=this"
+        }
+      ],
+      "detail_url": "/branches/early-scottish-records/#chapter-govan-nailers-samuel-james",
+      "relationship_changes": [],
+      "certainty_upgrades": 0,
+      "new_father_attachments": 1,
+      "genealogical_connections_added": 1,
+      "new_transcript_inspections": 4,
+      "new_source_discoveries": 1
     }
   ]
 }

@@ -6145,6 +6145,66 @@
       "preserve_captured_detail": false,
       "reviewed_narrative_reduction": true,
       "preservation_review_path": "research/ancestry-connections/kilwinning-george-preservation-2026-10-18.json"
+    },
+    "Glasgow-1483": {
+      "profile_id": "Glasgow-1483",
+      "queued_at": "2026-10-20",
+      "biography_rechecked_at": "2026-10-20",
+      "remote_captured_at": "2026-10-20",
+      "remote_wikitext": "== Biography ==\nJames was born about 1790.\n\n\nJames Glasgow\n\n    Record Type: Deaths & Burials\n    Data Set: Govan Burial Index\n    Buried: 8 September 1833\n    Location: Britain & Ireland, Govan, Lanarkshire, Scotland\n    Surnames: Glasgow\n    Reference: A007\n\nAged: 42: nailer: Cause of Death: inflammatory dis. : Formerly residing in Glasgow.\n\n== Sources ==\n<references />\n* https://familysearch.org/ark:/61903/1:1:X19Z-FM8",
+      "draft_path": "research/Glasgow-1483/govan-nailers-2026-10-20.wiki",
+      "findings_path": "research/Glasgow-1483/findings.md",
+      "summary": "New probable father Samuel Glasgow-3063, 78%; Govan baptism parent pair and two generations of nailers.",
+      "work_queue_summary": "New probable father Samuel Glasgow-3063, 78%; Govan baptism parent pair and two generations of nailers.",
+      "significance": 85,
+      "status": "OPEN",
+      "pending": true,
+      "manual_update": true,
+      "relationship_changes": [
+        {
+          "action": "add",
+          "relationship": "father",
+          "relative_id": "Glasgow-3063",
+          "status": "probable",
+          "before": "absent",
+          "assertion_id": "C-working-20261020-govan-nailer-father",
+          "previous_status_provenance": "Anonymous WikiTree getPeople, 20 October 2026: James Father=0.",
+          "scope": "New probable father Samuel Glasgow-3063, 78%; Govan baptism parent pair and two generations of nailers."
+        }
+      ],
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "preservation_review_path": "research/ancestry-connections/govan-nailers-preservation-2026-10-20.json"
+    },
+    "Glasgow-3063": {
+      "profile_id": "Glasgow-3063",
+      "queued_at": "2026-10-20",
+      "biography_rechecked_at": "2026-10-20",
+      "remote_captured_at": "2026-10-20",
+      "remote_wikitext": "== Biography ==\n\nSamuel was born in 1753. \n== Sources ==\n<references />\n* Samuel Glasgow\n\n    Record Type: Deaths & Burials\n    Data Set: Govan Burial Index\n    Buried: 7 December 1818\n    Location: Britain & Ireland, Govan, Lanarkshire, Scotland\n    Surnames: Glasgow\n    Reference: GO11\n\nAged: 65: nailer: Cause of Death: infirm. of old age: Formerly residing in Glasgow.",
+      "draft_path": "research/Glasgow-3063/govan-nailers-2026-10-20.wiki",
+      "findings_path": "research/Glasgow-3063/findings.md",
+      "summary": "Probable son James Glasgow-1483, 78%; joins his seven-child family to the older Govan nailer.",
+      "work_queue_summary": "Probable son James Glasgow-1483, 78%; joins his seven-child family to the older Govan nailer.",
+      "significance": 78,
+      "status": "OPEN",
+      "pending": true,
+      "manual_update": true,
+      "relationship_changes": [
+        {
+          "action": "add",
+          "relationship": "child",
+          "relative_id": "Glasgow-1483",
+          "status": "probable",
+          "before": "absent",
+          "assertion_id": "C-working-20261020-govan-nailer-father",
+          "previous_status_provenance": "Anonymous WikiTree getPeople, 20 October 2026: James Father=0.",
+          "scope": "Probable son James Glasgow-1483, 78%; joins his seven-child family to the older Govan nailer."
+        }
+      ],
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "preservation_review_path": "research/ancestry-connections/govan-nailers-preservation-2026-10-20.json"
     }
   },
   "reviewed_on": "2026-10-17",

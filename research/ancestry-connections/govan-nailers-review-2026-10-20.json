@@ -1,0 +1,56 @@
+{
+  "reviewed": "2026-10-20",
+  "assertion_id": "C-working-20261020-govan-nailer-father",
+  "percent": 78,
+  "basis": "Select Samuel Glasgow-3063 as James Glasgow-1483’s probable working father at 78% subjective confidence. The 1790 Govan child has a named father Samuel. The existing adult James account represents the Govan nailer buried in 1833, while Samuel-3063 represents the older Govan nailer buried in 1818. The same surname, parish, Glasgow residence and specific trade favour a father–son occupational family. Samuel would have been about 37 at the baptism; James’s burial age implies about 1790–1791, close to the indexed child. James and Jean Cunningham’s existing children include Samuel and Lillias, matching the baptism parent pair. Naming supports the combined argument but is not proof. This identifies an existing father candidate for James’s seven-child family instead of creating another Samuel.",
+  "limitations": "The 78% assesses the whole proposed father-profile link, including both identifications: the 1790 child as the adult nailer, and the named father as the nailer buried in 1818. Neither burial names a parent or child, and the baptism transcripts give no paternal occupation. Age 42 in September 1833 is approximately a year younger than the 1790 child; the circa-1790 birth on James’s profile is not an exact independent record. Another Samuel or another James remains possible. A contributed Ancestry tree links this same Jane Cunningham family to Samuel and Lilias, but gives an incompatible circa-1850 death for James; it is a comparison lead, not independent confirmation or authority to replace the 1833 burial. FamilySearch’s contributed Lilias account estimates her partner Samuel at 1763, whereas the buried nailer’s age implies about 1753; no underlying birth record was checked for that estimate. Do not merge those accounts on that basis. Lilias is the named mother of the indexed child, but no maternal attachment or new mother profile is selected here. All existing vital fields, spouses and children are preserved.",
+  "alternative": "John Glasgow-2721’s biography suggests the Govan James as a possible brother and names its own father John Glasgow-3034. The cited Samuel Glasgow journal’s machine text at viewer image 28 (printed page 22), under “Other information in this book”, lists a James born 1793 but does not itself establish that he is James-1483 or explicitly call him John’s brother. The page image was not successfully inspected, so that text remains a lead. The John route is retained as an unselected identity alternative; the independently indexed Govan child and the two nailer burials currently favour Samuel. Do not alter John-2721’s attached father or join the two James identities as proved.",
+  "sources": [
+    {
+      "title": "Govan James baptism, 1790; Samuel Glasgow and Lilias Stewart; OPR 646/2 item 2 p.69, transcript date 22 March",
+      "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3976076&tab=this"
+    },
+    {
+      "title": "Govan James baptism, same parent pair; FamilySearch-derived transcript date 25 April 1790",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_688515992&tab=this"
+    },
+    {
+      "title": "James Glasgow, Govan burial 8 September 1833, aged 42, nailer, Glasgow residence",
+      "url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FGLASGOW%2FBUR%2F093130&tab=this"
+    },
+    {
+      "title": "Samuel Glasgow, Govan burial 7 December 1818, aged 65, nailer, Glasgow residence",
+      "url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FGLASGOW%2FBUR%2F093131&tab=this"
+    },
+    {
+      "title": "Contributed James Glasgow tree: Jane Cunningham family; useful parentage lead but conflicting circa-1850 death",
+      "url": "https://www.ancestry.com/genealogy/records/james-glasgow-24-1tkzv0m"
+    },
+    {
+      "title": "Contributed Lilias Stewart account; partner Samuel estimated 1763, birth source unverified",
+      "url": "https://ancestors.familysearch.org/en/K81S-7JB/lilias-stewart-1766"
+    },
+    {
+      "title": "Jean L. Nelson Siemens, Samuel Glasgow journal, FamilySearch book 395015, viewer image 28 / printed p.22; machine text only",
+      "url": "https://www.familysearch.org/library/books/viewer/395015/?offset=0#page=28&viewer=picture&o=ocr"
+    }
+  ],
+  "transcript_inspections": 4,
+  "new_baptism_events": 1,
+  "original_inspections": 0,
+  "existing_burials_rechecked": 2,
+  "new_father_selections": 1,
+  "live_edits": 0,
+  "fresh_live_parents": {
+    "Glasgow-1483": {
+      "father": 0,
+      "mother": 0,
+      "father_status": ""
+    },
+    "Glasgow-3063": {
+      "father": 0,
+      "mother": 0,
+      "father_status": ""
+    }
+  }
+}

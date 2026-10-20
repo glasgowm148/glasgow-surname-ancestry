@@ -14952,5 +14952,56 @@
       "anonymous_capture_reviewed": "2026-10-18",
       "live_flag_changed": false
     }
+  },
+  {
+    "assertion_id": "C-working-20261020-govan-nailer-father",
+    "people": [
+      "Glasgow-1483",
+      "Glasgow-3063"
+    ],
+    "profile_names": {
+      "Glasgow-1483": "James Glasgow, Govan nailer",
+      "Glasgow-3063": "Samuel Glasgow, Govan nailer"
+    },
+    "status": "probable",
+    "hypothesis_status": "probable",
+    "publication_status": "approved",
+    "working_selection": true,
+    "allow_new_relationship": true,
+    "assessment_date": "2026-10-20",
+    "claim": "Govan nailers: Samuel is James’s probable father, 78%",
+    "basis": "Select Samuel Glasgow-3063 as James Glasgow-1483’s probable working father at 78% subjective confidence. The 1790 Govan child has a named father Samuel. The existing adult James account represents the Govan nailer buried in 1833, while Samuel-3063 represents the older Govan nailer buried in 1818. The same surname, parish, Glasgow residence and specific trade favour a father–son occupational family. Samuel would have been about 37 at the baptism; James’s burial age implies about 1790–1791, close to the indexed child. James and Jean Cunningham’s existing children include Samuel and Lillias, matching the baptism parent pair. Naming supports the combined argument but is not proof. This identifies an existing father candidate for James’s seven-child family instead of creating another Samuel.",
+    "limitations": "The 78% assesses the whole proposed father-profile link, including both identifications: the 1790 child as the adult nailer, and the named father as the nailer buried in 1818. Neither burial names a parent or child, and the baptism transcripts give no paternal occupation. Age 42 in September 1833 is approximately a year younger than the 1790 child; the circa-1790 birth on James’s profile is not an exact independent record. Another Samuel or another James remains possible. A contributed Ancestry tree links this same Jane Cunningham family to Samuel and Lilias, but gives an incompatible circa-1850 death for James; it is a comparison lead, not independent confirmation or authority to replace the 1833 burial. FamilySearch’s contributed Lilias account estimates her partner Samuel at 1763, whereas the buried nailer’s age implies about 1753; no underlying birth record was checked for that estimate. Do not merge those accounts on that basis. Lilias is the named mother of the indexed child, but no maternal attachment or new mother profile is selected here. All existing vital fields, spouses and children are preserved. John Glasgow-2721’s biography suggests the Govan James as a possible brother and names its own father John Glasgow-3034. The cited Samuel Glasgow journal’s machine text at viewer image 28 (printed page 22), under “Other information in this book”, lists a James born 1793 but does not itself establish that he is James-1483 or explicitly call him John’s brother. The page image was not successfully inspected, so that text remains a lead. The John route is retained as an unselected identity alternative; the independently indexed Govan child and the two nailer burials currently favour Samuel. Do not alter John-2721’s attached father or join the two James identities as proved.",
+    "record_scope": "Whole cross-record father-profile identification; named baptism role alone does not establish later identities.",
+    "source_ids": [
+      "govan-james-1790-samuel-stewart",
+      "govan-james-nailer-burial-1833",
+      "govan-samuel-nailer-burial-1818"
+    ],
+    "analysis_links": [
+      {
+        "label": "Govan nailers: Samuel is James’s probable father, 78%",
+        "href": "/branches/early-scottish-records/#chapter-govan-nailers-samuel-james"
+      }
+    ],
+    "perspectives": {
+      "Glasgow-1483": {
+        "relationship": "father",
+        "status_label": "Probable father · 78%",
+        "reason": "Select Samuel Glasgow-3063 as James Glasgow-1483’s probable working father at 78% subjective confidence. The 1790 Govan child has a named father Samuel. The existing adult James account represents the Govan nailer buried in 1833, while Samuel-3063 represents the older Govan nailer buried in 1818. The same surname, parish, Glasgow residence and specific trade favour a father–son occupational family. Samuel would have been about 37 at the baptism; James’s burial age implies about 1790–1791, close to the indexed child. James and Jean Cunningham’s existing children include Samuel and Lillias, matching the baptism parent pair. Naming supports the combined argument but is not proof. This identifies an existing father candidate for James’s seven-child family instead of creating another Samuel."
+      },
+      "Glasgow-3063": {
+        "relationship": "son",
+        "status_label": "Probable son · 78%",
+        "reason": "Select Samuel Glasgow-3063 as James Glasgow-1483’s probable working father at 78% subjective confidence. The 1790 Govan child has a named father Samuel. The existing adult James account represents the Govan nailer buried in 1833, while Samuel-3063 represents the older Govan nailer buried in 1818. The same surname, parish, Glasgow residence and specific trade favour a father–son occupational family. Samuel would have been about 37 at the baptism; James’s burial age implies about 1790–1791, close to the indexed child. James and Jean Cunningham’s existing children include Samuel and Lillias, matching the baptism parent pair. Naming supports the combined argument but is not proof. This identifies an existing father candidate for James’s seven-child family instead of creating another Samuel."
+      }
+    },
+    "provenance": {
+      "saved_wikitree_father": 0,
+      "saved_father_status": "",
+      "anonymous_capture_reviewed": "2026-10-20",
+      "prior_status": "No attached father in fresh anonymous WikiTree capture",
+      "live_flag_changed": false
+    }
   }
 ]

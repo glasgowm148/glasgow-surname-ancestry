@@ -2457,3 +2457,9 @@ Burial-defined Walter remains on source-verification HOLD in the existing creati
 | [George Glasgow, Kilwinning father in 1688](https://www.wikitree.com/wiki/Glasgow-3120) | OPEN | New possible father Archibald Glasgow-3078, 43%; retain the two George accounts and all household alternatives. |
 | [Archibald Glasgow of Leith](https://www.wikitree.com/wiki/Glasgow-3078) | OPEN | Possible additional George account, 43%; potentially the same son as George-2714, not a proved second son. |
 | [Marie Glasgow, baptised in 1688](https://www.wikitree.com/wiki/Glasgow-3090) | OPEN | Record-defined father George-3120, 98%; existing live father unmarked. George-2714 remains an identity alternative. |
+
+
+## Govan nailers — 20 October 2026
+
+| [James Glasgow, Govan nailer](https://www.wikitree.com/wiki/Glasgow-1483) | OPEN | New probable father Samuel Glasgow-3063, 78%; Govan baptism parent pair and two generations of nailers. |
+| [Samuel Glasgow, Govan nailer](https://www.wikitree.com/wiki/Glasgow-3063) | OPEN | Probable son James Glasgow-1483, 78%; joins his seven-child family to the older Govan nailer. |

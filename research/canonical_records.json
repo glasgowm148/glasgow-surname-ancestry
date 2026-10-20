@@ -5801,5 +5801,72 @@
     "source_url": "https://www.familysearch.org/ark:/61903/1:1:XTBH-LM1",
     "status": "Maintained citation reused; no new original inspection",
     "note": "Source metadata reconciled from the 17 October 2026 findings for Glasgow-1238 and Glasgow-3706. No indexed entry names Robert as James’s son. The 1765 same-couple continuity remains unproved."
+  },
+  {
+    "record_id": "govan-james-1790-samuel-stewart",
+    "record_type": "baptism",
+    "date": "1790",
+    "year": 1790,
+    "place": "Govan, Lanarkshire, Scotland",
+    "source_title": "Govan James baptism, 1790; Samuel Glasgow and Lilias Stewart; OPR 646/2 item 2 p.69, transcript date 22 March",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3976076&tab=this",
+    "source_type": "Parish index transcript",
+    "source_status": "Transcript inspected 20 October 2026; original register uninspected",
+    "status": "Named record roles explicit; cross-record identities probable 78%",
+    "profiles": {
+      "Glasgow-1483": {
+        "role": "Probable identification of named child, assessed within the whole father link at 78%"
+      },
+      "Glasgow-3063": {
+        "role": "Probable identification of named father Samuel, assessed within the whole father link at 78%"
+      }
+    },
+    "note": "Two Findmypast baptism transcripts name James Glasgow’s parents as Samuel Glasgow and Lilias Stewart at Govan in 1790. SCOT/OPR/BAP/3976076 gives 22 March 1790, OPR 646/2, item 2, page 69, register range 1756–1819; R_688515992 gives 25 April 1790. Treat them as versions of one baptism lead, not two independent witnesses or two children. The date disagreement remains unresolved. Separate inspected burial transcripts record James, nailer, resident Glasgow, buried at Govan on 8 September 1833 aged 42, and Samuel, nailer, resident Glasgow, buried at Govan on 7 December 1818 aged 65. These are burial dates, not established death dates. All four transcripts were inspected on 20 October 2026; no original register image was inspected. The 78% assesses the whole proposed father-profile link, including both identifications: the 1790 child as the adult nailer, and the named father as the nailer buried in 1818. Neither burial names a parent or child, and the baptism transcripts give no paternal occupation. Age 42 in September 1833 is approximately a year younger than the 1790 child; the circa-1790 birth on James’s profile is not an exact independent record. Another Samuel or another James remains possible. A contributed Ancestry tree links this same Jane Cunningham family to Samuel and Lilias, but gives an incompatible circa-1850 death for James; it is a comparison lead, not independent confirmation or authority to replace the 1833 burial. FamilySearch’s contributed Lilias account estimates her partner Samuel at 1763, whereas the buried nailer’s age implies about 1753; no underlying birth record was checked for that estimate. Do not merge those accounts on that basis. Lilias is the named mother of the indexed child, but no maternal attachment or new mother profile is selected here. All existing vital fields, spouses and children are preserved.",
+    "independent_event_count": 1,
+    "alternative_source_urls": [
+      "https://www.findmypast.co.uk/transcript?id=R_688515992&tab=this"
+    ],
+    "date_variants": [
+      "1790-03-22",
+      "1790-04-25"
+    ]
+  },
+  {
+    "record_id": "govan-james-nailer-burial-1833",
+    "record_type": "burial",
+    "date": "1833-09-08",
+    "year": 1833,
+    "place": "Govan, Lanarkshire, Scotland",
+    "source_title": "James Glasgow, Govan burial 8 September 1833, aged 42, nailer, Glasgow residence",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FGLASGOW%2FBUR%2F093130&tab=this",
+    "source_type": "Parish index transcript",
+    "source_status": "Transcript inspected 20 October 2026; original register uninspected",
+    "status": "Named record roles explicit; cross-record identities probable 78%",
+    "profiles": {
+      "Glasgow-1483": {
+        "role": "Record-defined buried nailer, aged 42; residence Glasgow"
+      }
+    },
+    "note": "Two Findmypast baptism transcripts name James Glasgow’s parents as Samuel Glasgow and Lilias Stewart at Govan in 1790. SCOT/OPR/BAP/3976076 gives 22 March 1790, OPR 646/2, item 2, page 69, register range 1756–1819; R_688515992 gives 25 April 1790. Treat them as versions of one baptism lead, not two independent witnesses or two children. The date disagreement remains unresolved. Separate inspected burial transcripts record James, nailer, resident Glasgow, buried at Govan on 8 September 1833 aged 42, and Samuel, nailer, resident Glasgow, buried at Govan on 7 December 1818 aged 65. These are burial dates, not established death dates. All four transcripts were inspected on 20 October 2026; no original register image was inspected. The 78% assesses the whole proposed father-profile link, including both identifications: the 1790 child as the adult nailer, and the named father as the nailer buried in 1818. Neither burial names a parent or child, and the baptism transcripts give no paternal occupation. Age 42 in September 1833 is approximately a year younger than the 1790 child; the circa-1790 birth on James’s profile is not an exact independent record. Another Samuel or another James remains possible. A contributed Ancestry tree links this same Jane Cunningham family to Samuel and Lilias, but gives an incompatible circa-1850 death for James; it is a comparison lead, not independent confirmation or authority to replace the 1833 burial. FamilySearch’s contributed Lilias account estimates her partner Samuel at 1763, whereas the buried nailer’s age implies about 1753; no underlying birth record was checked for that estimate. Do not merge those accounts on that basis. Lilias is the named mother of the indexed child, but no maternal attachment or new mother profile is selected here. All existing vital fields, spouses and children are preserved.",
+    "independent_event_count": 1
+  },
+  {
+    "record_id": "govan-samuel-nailer-burial-1818",
+    "record_type": "burial",
+    "date": "1818-12-07",
+    "year": 1818,
+    "place": "Govan, Lanarkshire, Scotland",
+    "source_title": "Samuel Glasgow, Govan burial 7 December 1818, aged 65, nailer, Glasgow residence",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FGLASGOW%2FBUR%2F093131&tab=this",
+    "source_type": "Parish index transcript",
+    "source_status": "Transcript inspected 20 October 2026; original register uninspected",
+    "status": "Named record roles explicit; cross-record identities probable 78%",
+    "profiles": {
+      "Glasgow-3063": {
+        "role": "Record-defined buried nailer, aged 65; residence Glasgow"
+      }
+    },
+    "note": "Two Findmypast baptism transcripts name James Glasgow’s parents as Samuel Glasgow and Lilias Stewart at Govan in 1790. SCOT/OPR/BAP/3976076 gives 22 March 1790, OPR 646/2, item 2, page 69, register range 1756–1819; R_688515992 gives 25 April 1790. Treat them as versions of one baptism lead, not two independent witnesses or two children. The date disagreement remains unresolved. Separate inspected burial transcripts record James, nailer, resident Glasgow, buried at Govan on 8 September 1833 aged 42, and Samuel, nailer, resident Glasgow, buried at Govan on 7 December 1818 aged 65. These are burial dates, not established death dates. All four transcripts were inspected on 20 October 2026; no original register image was inspected. The 78% assesses the whole proposed father-profile link, including both identifications: the 1790 child as the adult nailer, and the named father as the nailer buried in 1818. Neither burial names a parent or child, and the baptism transcripts give no paternal occupation. Age 42 in September 1833 is approximately a year younger than the 1790 child; the circa-1790 birth on James’s profile is not an exact independent record. Another Samuel or another James remains possible. A contributed Ancestry tree links this same Jane Cunningham family to Samuel and Lilias, but gives an incompatible circa-1850 death for James; it is a comparison lead, not independent confirmation or authority to replace the 1833 burial. FamilySearch’s contributed Lilias account estimates her partner Samuel at 1763, whereas the buried nailer’s age implies about 1753; no underlying birth record was checked for that estimate. Do not merge those accounts on that basis. Lilias is the named mother of the indexed child, but no maternal attachment or new mother profile is selected here. All existing vital fields, spouses and children are preserved.",
+    "independent_event_count": 1
   }
 ]

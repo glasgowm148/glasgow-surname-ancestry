@@ -1,0 +1,236 @@
+{
+  "reviewed": "2026-10-20",
+  "new_father_percent": 78,
+  "new_father_selections": 1,
+  "confidence_only_upgrades": 0,
+  "metrics": {
+    "1500": {
+      "population": [
+        2,
+        2
+      ],
+      "edge_count": [
+        2,
+        2
+      ],
+      "component_count": [
+        1,
+        1
+      ],
+      "largest_component_size": [
+        2,
+        2
+      ],
+      "connected_pairs_percent": [
+        100.0,
+        100.0
+      ]
+    },
+    "1550": {
+      "population": [
+        19,
+        19
+      ],
+      "edge_count": [
+        18,
+        18
+      ],
+      "component_count": [
+        2,
+        2
+      ],
+      "largest_component_size": [
+        18,
+        18
+      ],
+      "connected_pairs_percent": [
+        89.47368421052632,
+        89.47368421052632
+      ]
+    },
+    "1600": {
+      "population": [
+        52,
+        52
+      ],
+      "edge_count": [
+        49,
+        49
+      ],
+      "component_count": [
+        5,
+        5
+      ],
+      "largest_component_size": [
+        48,
+        48
+      ],
+      "connected_pairs_percent": [
+        85.06787330316742,
+        85.06787330316742
+      ]
+    },
+    "1650": {
+      "population": [
+        163,
+        163
+      ],
+      "edge_count": [
+        157,
+        157
+      ],
+      "component_count": [
+        8,
+        8
+      ],
+      "largest_component_size": [
+        156,
+        156
+      ],
+      "connected_pairs_percent": [
+        91.57009770506703,
+        91.57009770506703
+      ]
+    },
+    "1700": {
+      "population": [
+        309,
+        309
+      ],
+      "edge_count": [
+        286,
+        286
+      ],
+      "component_count": [
+        25,
+        25
+      ],
+      "largest_component_size": [
+        283,
+        283
+      ],
+      "connected_pairs_percent": [
+        83.85869793636783,
+        83.85869793636783
+      ]
+    },
+    "1750": {
+      "population": [
+        593,
+        593
+      ],
+      "edge_count": [
+        538,
+        538
+      ],
+      "component_count": [
+        57,
+        57
+      ],
+      "largest_component_size": [
+        529,
+        529
+      ],
+      "connected_pairs_percent": [
+        79.56793218176017,
+        79.56793218176017
+      ]
+    },
+    "1800": {
+      "population": [
+        921,
+        921
+      ],
+      "edge_count": [
+        760,
+        761
+      ],
+      "component_count": [
+        163,
+        162
+      ],
+      "largest_component_size": [
+        736,
+        736
+      ],
+      "connected_pairs_percent": [
+        63.850729358447815,
+        63.85096539678044
+      ]
+    },
+    "1850": {
+      "population": [
+        1789,
+        1789
+      ],
+      "edge_count": [
+        1382,
+        1383
+      ],
+      "component_count": [
+        409,
+        408
+      ],
+      "largest_component_size": [
+        1132,
+        1132
+      ],
+      "connected_pairs_percent": [
+        40.081194673389334,
+        40.081694871592866
+      ]
+    }
+  },
+  "all_model_vitals_preserved": true,
+  "all_parent_ids_preserved_except_one_new_father": true,
+  "dossier_mothers_spouses_children_preserved": true,
+  "full_and_compact_pending_membership_equal": true,
+  "main_packed_model_matches_full": true,
+  "draft_hashes_verified": true,
+  "pending_count_before": 537,
+  "pending_count_after": 539,
+  "live_edits": 0,
+  "browser_verification": {
+    "catalogue_url": "http://127.0.0.1:8876/catalogue/?q=Glasgow-1483&needsUpdate=1#catalogue-filters",
+    "father_badge": "new probable father 78%",
+    "father_badge_target": "https://www.wikitree.com/wiki/Glasgow-3063",
+    "visible_queue_total": 539,
+    "related_filtered_results": 3,
+    "main_tree_url": "http://127.0.0.1:8876/onetree/#person=Glasgow-1483&view=all",
+    "main_tree_father": "Samuel Glasgow \u00b7 father \u00b7 Probable \u00b7 78%",
+    "main_tree_ancestry_route": "Samuel 1753 \u2192 James 1790",
+    "main_tree_linked_descendants": 7
+  },
+  "local_search_refresh": {
+    "qmd": "Updated successfully; 17 changed public summaries indexed",
+    "pdf": "Refresh failed during the unchanged PDF corpus warm-up; no PDF files added or changed in this batch",
+    "publication_check": "Zero new failures for both affected profiles"
+  },
+  "joined_component": {
+    "before_sizes": [
+      8,
+      1
+    ],
+    "after_size": 9,
+    "members": [
+      "Glasgow-1483",
+      "Glasgow-1484",
+      "Glasgow-1485",
+      "Glasgow-1486",
+      "Glasgow-1487",
+      "Glasgow-1488",
+      "Glasgow-1489",
+      "Glasgow-3033",
+      "Glasgow-3063"
+    ]
+  },
+  "checks": {
+    "research_publication_new_failures": 0,
+    "internal_links_new_broken_page_target_pairs": 0,
+    "internal_links_existing_broken_pairs": 4,
+    "affected_people_missing_anchor_targets": 0,
+    "main_and_standalone_models": "Verified all prior vital fields and parent IDs; only the selected father changed",
+    "full_and_compact_catalogue": "Pending membership and relationship metadata agree",
+    "drafts": "Complete captures and substantive prior proposals preserved; hashes verified"
+  }
+}
