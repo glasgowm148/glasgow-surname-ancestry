@@ -40,3 +40,8 @@ data. Keep the existing spouse and date while the second entry remains on HOLD.
 | [Scotland’s People](https://www.scotlandspeople.gov.uk/), 1687-07-30, Kilwinning, OPR 599/10 / 324 | JOHN GLASGOW; BESSIE SMITH/FR232 (FR232) | The existing John/Bessie attachment matches 30 July 1687; the adjacent 6 August blank-name entry supplies a new possible companion record. |
 
 Source: Old Parish Registers, banns and marriages; exact surname Glasgow through 1700, 55 supplied results. Original images not inspected for this batch; combined index dates do not by themselves establish ceremony dates.
+
+
+## Source check — 20 October 2026
+
+[Findmypast R_694397346/1](https://www.findmypast.co.uk/transcript?id=R_694397346%2F1&tab=this), inspected transcript: John Glasgow and Bessie Smith, 30 July 1687, Kilwinning. The FamilySearch-derived transcript confirms the existing couple/date but supplies no age, parent, occupation or residence within the parish. Its marriage label does not resolve whether the original entry records banns or a ceremony. No new parent or WikiTree amendment is proposed from this supporting version. Original uninspected.

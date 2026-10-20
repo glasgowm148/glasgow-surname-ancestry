@@ -2,6 +2,24 @@
 
 ## Current conclusion
 
+Compared accounts: [James, proposed father](https://www.wikitree.com/wiki/Glasgow-3332); [James, 1690 apprentice](https://www.wikitree.com/wiki/Glasgow-4131); [James of Whitecastle](https://www.wikitree.com/wiki/Glasgow-1376); [James, Edinburgh weaver](https://www.wikitree.com/wiki/Glasgow-1150); [James, 1696 apprentice](https://www.wikitree.com/wiki/Glasgow-4114); [John, earlier father hypothesis](https://www.wikitree.com/wiki/Glasgow-1086); [Robert, Carnwath hypothesis](https://www.wikitree.com/wiki/Glasgow-3407).
+
+Reviewed: 2026-10-20. **New possible father James Glasgow-3332, 46%; the explicit Lindsayland-weaver father is identified with this existing candidate provisionally.**
+
+Select James Glasgow-3332 as the possible working father of the 1690 apprentice James Glasgow-4131, at 46% subjective confidence. The apprentice’s father is expressly named. His uncommon full name, weaving occupation, specific Lindsayland residence and death before 1690 strongly favour identification with the weaver indexed at Back of Lindsaylands in 1680. Glasgow-3332 is an existing compatible account already compared with that later Biggar weaver; prefer this qualified reuse to creating another same-name father. The overall 46% applies to identifying the named documentary father with that profile, including its unresolved adult identity; it does not express doubt about the explicit father–son wording. The supporting locality and trade are one combined identity argument, not independent proofs.
+
+Glasgow-3332’s independent identity is unresolved. Its estimated 1630/1634 birth and Biggar birthplace do not independently prove the 1680 match, and its inherited John-1086 parent and 1648 Johne child attachments cannot be used circularly to establish it. The alternative 1624 Quothquan-weaver identification is retained; that much earlier decedent is a poor father-generation fit for an ordinary 1690 apprenticeship, but the apprentice has no recorded age. Whitecastle James-1376 remains a compatible possible identity of the later weaver, potentially the same man as James-3332, with no merge. The Edinburgh weaver James-1150 remains a weaker comparison: identifying him with the master active in 1693 would conflict with the father being dead in 1690, but that master’s identity is itself inferred. The 1690 apprentice may still be the 1696 apprentice James-4114 after a cancelled first indenture; the different master and the father’s death must be reconciled before merging them. The 1696 father proposal stays unchanged. No mother, spouse or vital field is transferred or altered. James-3332’s 25% father and Robert-3407’s 23% father hypothesis remain unchanged; the two proposed sons are not proved brothers. This adds one selected profile connection, not a newly discovered son, independent source, or proved pedigree.
+
+Watson’s printed Edinburgh apprentice register, p.37 (PDF p.47), names James as son of the deceased James Glasgow, weaver in Lindsayland. On 7 May 1690 he was entered to William Brown, cordiner in Portsburgh and tanner, burgess; the entry was scored out. The held printed-page image was visually rechecked on 20 October 2026. The entry gives neither the son’s age nor his mother, and cancellation does not establish his death. Grant’s previously inspected Lanark testament index, pp.38/99, records James Glasgow, weaver at Back of Lindsaylands, Biggar parish, on 10 November 1680 (CC14/5/10, testament dative). That is a confirmation/registration date, not an exact death date; its original manuscript remains unread.
+
+Read the 1680 testament for spouse and children, and compare the original 1690/1696 indentures for a repeated identifier or cancellation endorsement. Test the 1648 father and Whitecastle identities separately. A younger apprentice generation is a surviving alternative route for the later Carnwath household, not an automatically inserted father.
+
+[Lindsaylands family comparison](/branches/early-scottish-records/#carnwath-lindsaylands-working-family).
+
+
+
+## Earlier dated conclusion — superseded where noted
+
 Reviewed18 October2026. **This is the existing1690 apprentice profile,not a person still to create. His father is named James,the deceased Lindsayland weaver; no father profile is selected.**
 
 Select the Edinburgh weaver and burgess James Glasgow-1150 as the probable father of the record-defined 1696 apprentice James Glasgow-4114, at 76% subjective confidence. Printed page 37 names the apprentice’s father as James Glasgow, weaver and burgess. Name, occupation, civic status and Edinburgh setting identify a particular established craftsman rather than just a same-name Scottish father. The maintained 1641 apprenticeship and 1649 burgess cross-reference securely establish James-1150 as a weaver and burgess; printed page 72 also records a James Glasgow, weaver and burgess, taking John Paterson as apprentice on 18 October 1693. The maintained burgess-roll review found one matching admission, although an index cannot rule out another man. This makes James-1150 the preferred father-profile match. The child account itself is defined by the 22 April 1696 entry, so no later-life identification is needed for that child.
@@ -27,3 +45,9 @@ This materialises a father already favoured in the apprentice’s live biography
 ## Next questions
 
 Check the original indentures for cancellation, endorsement or a repeated identifier; compare the 1690 and 1696 apprentices before merging them. Seek the weaver’s testament or incorporation family entry for wife and sons. The 1696 master reads Wm. Adam, not the Findmypast transcript’s Adamson. A score-out does not establish a death.
+
+
+## Lindsaylands sources re-evaluated — 20 October 2026
+
+- [Watson, Register of Edinburgh Apprentices, 1666–1700 (1929), printed p.37 / PDF p.47; held page visually rechecked 20 October 2026](https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/edinburgh_apprentices_~_1666_to_1700_~_1929.pdf#page=47)
+- [Grant, Commissariot Record of Lanark (1903), pp.38/99; 1680 Lindsaylands weaver; held index account reused](https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/the_commissariot_record_of_lanark__register_of_testaments__1595-1800_~_1903.pdf)

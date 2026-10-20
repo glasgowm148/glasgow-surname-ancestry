@@ -4418,16 +4418,27 @@
     "place": "Edinburgh; father in Lindsayland",
     "source_title": "Edinburgh apprentice entry 7 May 1690, scored out: James son of deceased James Glasgow, Lindsayland weaver; maintained transcript, not a newly inspected original",
     "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FEDINBURGH%2FAPPRENTICES%2F0005159%2F1&tab=this",
-    "status": "Maintained earlier transcript reused; scored-out entry; original register not newly inspected",
-    "note": "Names deceased father James Glasgow, weaver in Lindsayland. Probably the indexed 1680 weaver. James-3332 and Whitecastle identities remain possible, not proved.",
+    "status": "Printed-page reading rechecked 20 October 2026; existing father-profile hypothesis possible 46%; original manuscript uninspected",
+    "note": "Select James Glasgow-3332 as the possible working father of the 1690 apprentice James Glasgow-4131, at 46% subjective confidence. The apprentice’s father is expressly named. His uncommon full name, weaving occupation, specific Lindsayland residence and death before 1690 strongly favour identification with the weaver indexed at Back of Lindsaylands in 1680. Glasgow-3332 is an existing compatible account already compared with that later Biggar weaver; prefer this qualified reuse to creating another same-name father. The overall 46% applies to identifying the named documentary father with that profile, including its unresolved adult identity; it does not express doubt about the explicit father–son wording. The supporting locality and trade are one combined identity argument, not independent proofs. Glasgow-3332’s independent identity is unresolved. Its estimated 1630/1634 birth and Biggar birthplace do not independently prove the 1680 match, and its inherited John-1086 parent and 1648 Johne child attachments cannot be used circularly to establish it. The alternative 1624 Quothquan-weaver identification is retained; that much earlier decedent is a poor father-generation fit for an ordinary 1690 apprenticeship, but the apprentice has no recorded age. Whitecastle James-1376 remains a compatible possible identity of the later weaver, potentially the same man as James-3332, with no merge. The Edinburgh weaver James-1150 remains a weaker comparison: identifying him with the master active in 1693 would conflict with the father being dead in 1690, but that master’s identity is itself inferred. The 1690 apprentice may still be the 1696 apprentice James-4114 after a cancelled first indenture; the different master and the father’s death must be reconciled before merging them. The 1696 father proposal stays unchanged. No mother, spouse or vital field is transferred or altered. James-3332’s 25% father and Robert-3407’s 23% father hypothesis remain unchanged; the two proposed sons are not proved brothers. This adds one selected profile connection, not a newly discovered son, independent source, or proved pedigree.",
     "profiles": {
       "Glasgow-3332": {
-        "role": "Possible identity of named deceased father"
+        "role": "Selected possible identity of the named father; 46%"
       },
       "Glasgow-1376": {
         "role": "Possible earlier Whitecastle identity of the father"
+      },
+      "Glasgow-4131": {
+        "role": "Record-defined apprentice and expressly named son"
       }
-    }
+    },
+    "assessment_history": [
+      {
+        "reviewed": "2026-10-20",
+        "previous_note": "Names deceased father James Glasgow, weaver in Lindsayland. Probably the indexed 1680 weaver. James-3332 and Whitecastle identities remain possible, not proved.",
+        "change": "Select existing father candidate James-3332 at46%; preserve record/profile identity distinction."
+      }
+    ],
+    "same_event_note": "Both canonical references describe the same 7 May 1690 entry and are not independent events."
   },
   {
     "record_id": "quothquan-john-testament-1685",
@@ -5125,13 +5136,24 @@
     "source_title": "Watson,Register of Edinburgh Apprentices,1666–1700(1929),p.37",
     "source_url": "https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/edinburgh_apprentices_~_1666_to_1700_~_1929.pdf#page=47",
     "source_quality": "published archival transcription",
-    "status": "Printed page visually inspected18 October2026; underlying manuscript uninspected",
-    "note": "James,son of deceased James Glasgow,weaver in Lindsayland,to Wm.Brown,cordiner in Portsburgh and tanner; entry scored out. No named father profile selected.",
+    "status": "Printed-page reading rechecked 20 October 2026; existing father-profile hypothesis possible 46%; original manuscript uninspected",
+    "note": "Select James Glasgow-3332 as the possible working father of the 1690 apprentice James Glasgow-4131, at 46% subjective confidence. The apprentice’s father is expressly named. His uncommon full name, weaving occupation, specific Lindsayland residence and death before 1690 strongly favour identification with the weaver indexed at Back of Lindsaylands in 1680. Glasgow-3332 is an existing compatible account already compared with that later Biggar weaver; prefer this qualified reuse to creating another same-name father. The overall 46% applies to identifying the named documentary father with that profile, including its unresolved adult identity; it does not express doubt about the explicit father–son wording. The supporting locality and trade are one combined identity argument, not independent proofs. Glasgow-3332’s independent identity is unresolved. Its estimated 1630/1634 birth and Biggar birthplace do not independently prove the 1680 match, and its inherited John-1086 parent and 1648 Johne child attachments cannot be used circularly to establish it. The alternative 1624 Quothquan-weaver identification is retained; that much earlier decedent is a poor father-generation fit for an ordinary 1690 apprenticeship, but the apprentice has no recorded age. Whitecastle James-1376 remains a compatible possible identity of the later weaver, potentially the same man as James-3332, with no merge. The Edinburgh weaver James-1150 remains a weaker comparison: identifying him with the master active in 1693 would conflict with the father being dead in 1690, but that master’s identity is itself inferred. The 1690 apprentice may still be the 1696 apprentice James-4114 after a cancelled first indenture; the different master and the father’s death must be reconciled before merging them. The 1696 father proposal stays unchanged. No mother, spouse or vital field is transferred or altered. James-3332’s 25% father and Robert-3407’s 23% father hypothesis remain unchanged; the two proposed sons are not proved brothers. This adds one selected profile connection, not a newly discovered son, independent source, or proved pedigree.",
     "profiles": {
       "Glasgow-4131": {
-        "role": "record-defined apprentice"
+        "role": "Record-defined apprentice and expressly named son"
+      },
+      "Glasgow-3332": {
+        "role": "Selected possible identity of the named father; 46%"
       }
-    }
+    },
+    "assessment_history": [
+      {
+        "reviewed": "2026-10-20",
+        "previous_note": "James,son of deceased James Glasgow,weaver in Lindsayland,to Wm.Brown,cordiner in Portsburgh and tanner; entry scored out. No named father profile selected.",
+        "change": "Select existing father candidate James-3332 at46%; preserve record/profile identity distinction."
+      }
+    ],
+    "same_event_note": "Both canonical references describe the same 7 May 1690 entry and are not independent events."
   },
   {
     "record_id": "edinburgh-weaver-master-1693",

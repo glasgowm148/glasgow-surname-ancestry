@@ -5407,20 +5407,33 @@
     },
     "Glasgow-4131": {
       "profile_id": "Glasgow-4131",
-      "queued_at": "2026-10-18",
+      "queued_at": "2026-10-20",
       "status": "OPEN",
       "pending": true,
       "manual_update": true,
-      "summary": "This is the existing1690 apprentice profile,not a person still to create. His father is named James,the deceased Lindsayland weaver; no father profile is selected. Retain competing apprentice identities and source scope.",
-      "work_queue_summary": "This is the existing1690 apprentice profile,not a person still to create. His father is named James,the deceased Lindsayland weaver; no father profile is selected.",
-      "significance": 60,
-      "draft_path": "research/Glasgow-4131/1690_Scotland_Edinburgh_James_Glasgow.md",
+      "summary": "New possible father James Glasgow-3332, 46%; the explicit Lindsayland-weaver father is identified with this existing candidate provisionally.",
+      "work_queue_summary": "New possible father James Glasgow-3332, 46%; the explicit Lindsayland-weaver father is identified with this existing candidate provisionally.",
+      "significance": 75,
+      "draft_path": "research/Glasgow-4131/lindsaylands-father-2026-10-20.wiki",
       "remote_wikitext": "[[Category:Glasgow Name Study]]\n{{Estimated Date}}\n\n== Biography ==\n\n'''James Glasgow''' was probably born about 1674. This is an uncertain estimate from his entry into an apprenticeship in 1690; his age was not recorded. His birthplace is unknown. Lindsayland in Biggar parish is usable only as an uncertain location inferred from his father's stated residence.\n\nOn 7 May 1690 James, son of the deceased James Glasgow, weaver in Lindsayland, was entered as apprentice to William Brown, a cordiner and tanner in Portsburgh and an Edinburgh burgess. The entry was scored out.<ref name=\"Apprentice1690\">Henry Paton, ed., [https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/edinburgh_apprentices_~_1666_to_1700_~_1929.pdf ''Register of Apprentices of the City of Edinburgh, 1666–1700''] (Scottish Record Society, 1929), printed p. 37, entry dated 7 May 1690; see also Findmypast, [https://www.findmypast.co.uk/transcript?id=SCOT%2FEDINBURGH%2FAPPRENTICES%2F0005159%2F1&tab=this transcript SCOT/EDINBURGH/APPRENTICES/0005159/1], captured 3 September 2026.</ref>\n\nThe scoring-out shows that this apprenticeship was cancelled or did not proceed in its entered form. It does not show that James died.\n\n== Research Notes ==\n\nThe father is probably the James Glasgow, weaver at Back of Lindsaylands, whose testament was registered in the Lanark Commissary Court on 10 November 1680.<ref>Francis J. Grant, ed., [https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/the_commissariot_record_of_lanark__register_of_testaments_1595-1800_~_1903.pdf ''The Commissariot Record of Lanark: Register of Testaments, 1595–1800''] (Scottish Record Society, 1903), printed p. 38.</ref> The exact name, occupation, distinctive locality and prior death make that documentary identity strong, but the testament must be inspected before attaching a profile or naming the apprentice's mother.\n\nThis James is not the apprentice entered in 1696: the 1690 father was already dead, whereas the 1696 father was a living weaver and burgess. [[Glasgow-3076|James Glasgow]], born at Edinburgh in 1661, is excluded because his profile supplies no Lindsayland or correct-father bridge and he would have been unusually old for this entry.\n\n== Sources ==\n<references />",
       "findings_path": "research/Glasgow-4131/findings.md",
-      "preservation_review_path": "research/ancestry-connections/edinburgh-apothecary-probable-father-preservation-2026-10-18.json",
+      "preservation_review_path": "research/ancestry-connections/lindsaylands-apprentice-preservation-2026-10-20.json",
       "preserve_captured_detail": false,
       "reviewed_narrative_reduction": true,
-      "relationship_changes": []
+      "relationship_changes": [
+        {
+          "action": "add",
+          "relationship": "father",
+          "relative_id": "Glasgow-3332",
+          "status": "possible",
+          "before": "absent",
+          "assertion_id": "C-working-20261020-lindsaylands-apprentice-father",
+          "previous_status_provenance": "Fresh anonymous WikiTree getPeople20October2026: apprentice Father=0.",
+          "scope": "New possible father James Glasgow-3332, 46%; the explicit Lindsayland-weaver father is identified with this existing candidate provisionally."
+        }
+      ],
+      "biography_rechecked_at": "2026-10-20",
+      "remote_captured_at": "2026-10-20"
     },
     "Glasgow-1376": {
       "queued_at": "2026-10-18",
@@ -6406,6 +6419,43 @@
       "preserve_captured_detail": false,
       "reviewed_narrative_reduction": true,
       "preservation_review_path": "research/ancestry-connections/kirknewton-index-preservation-2026-10-20.json"
+    },
+    "Glasgow-3332": {
+      "queued_at": "2026-10-20",
+      "status": "OPEN",
+      "significance": 82,
+      "summary": "Possible son James Glasgow-4131, 46%; recorded father role separated from the unresolved 1680/profile identification.",
+      "manual_update": true,
+      "draft_path": "research/Glasgow-3332/lindsaylands-father-2026-10-20.wiki",
+      "preservation_review_path": "research/ancestry-connections/lindsaylands-apprentice-preservation-2026-10-20.json",
+      "reviewed_narrative_reduction": true,
+      "preserve_captured_detail": false,
+      "relationship_changes": [
+        {
+          "action": "add",
+          "relationship": "child",
+          "status": "uncertain",
+          "relative_id": "Glasgow-3407",
+          "assertion_id": "C-working-20261016-carnwath-lindsaylands-working-family-robert-father"
+        },
+        {
+          "action": "add",
+          "relationship": "child",
+          "relative_id": "Glasgow-4131",
+          "status": "possible",
+          "before": "absent",
+          "assertion_id": "C-working-20261020-lindsaylands-apprentice-father",
+          "previous_status_provenance": "Fresh anonymous WikiTree getPeople20October2026: apprentice Father=0.",
+          "scope": "Possible son James Glasgow-4131, 46%; recorded father role separated from the unresolved 1680/profile identification."
+        }
+      ],
+      "profile_id": "Glasgow-3332",
+      "biography_rechecked_at": "2026-10-20",
+      "remote_captured_at": "2026-10-20",
+      "remote_wikitext": "'''⚠️ Paleographic Warning:'''\n\nThis profile is based on a testament written in 17th-century Secretary Hand. Due to the ornate and inconsistent handwriting style, all names, places, and relationships should be considered '''tentative''' and subject to '''revision''' pending further document comparison or corroboration. Interpretations are paleographically informed but speculative.\n== Biography == \n\nJames was born in 1634. He is the son of [[Glasgow-1086|John Glasgow]] and [[Unknown-717333|Isobel Unknown]].\n\nJames was born in 1630. He is the son of [[Glasgow-1086|John Glasgow]].\n\n== Research Notes ==\nThe profile's estimated birth in 1634 means this James cannot be the man whose testament was recorded in 1624. A James Glasgow, weaver at Back of Lindsaylands, had a testament recorded in 1680; this profile is a chronological candidate for that later man, but no reviewed record joins the identities.<ref>Francis J. Grant, ed., ''The Commissariot Record of Lanark: Register of Testaments, 1595–1800'', pp. 38, 99, entries for James Glasgow.</ref>\n\nThe attached parents, child, birth estimate and Biggar birthplace are retained as uncertain pending a fresh reading of the original 1662 estate material. The connected John Glasgow profiles have been conflated, so the existing family links should not be treated as proved.\n\n== Sources ==\n<references />\n\n* Testament and will of [[Glasgow-1086|John Glasgow (abt.1610-abt.1685)]]\n* \"Scotland, Births and Baptisms, 1564-1950\", database, FamilySearch (https://familysearch.org/ark:/61903/1:1:X1BL-JXR : 12 February 2020), Jamis Glasgoe in entry for Johne Glasgoe, 1648.",
+      "findings_path": "research/Glasgow-3332/findings.md",
+      "work_queue_summary": "Possible son James Glasgow-4131, 46%; recorded father role separated from the unresolved 1680/profile identification.",
+      "pending": true
     }
   },
   "reviewed_on": "2026-10-17",

@@ -2483,3 +2483,9 @@ Burial-defined Walter remains on source-verification HOLD in the existing creati
 | [Glasgow-1545](https://www.wikitree.com/wiki/Glasgow-1545) | OPEN | Correct/qualify the Ann McCook source attribution; inspected baptism indexes name father William only. Preserve existing attachments. |
 | [Glasgow-1318](https://www.wikitree.com/wiki/Glasgow-1318) | OPEN | Correct/qualify the Ann McCook source attribution; inspected baptism indexes name father William only. Preserve existing attachments. |
 | [McCook-217](https://www.wikitree.com/wiki/McCook-217) | OPEN | Correct/qualify the Ann McCook source attribution; inspected baptism indexes name father William only. Preserve existing attachments. |
+
+
+## Lindsaylands apprentice father — 20 October 2026
+
+| [James Glasgow, the 1690 apprentice](https://www.wikitree.com/wiki/Glasgow-4131) | OPEN | New possible father James Glasgow-3332, 46%; the explicit Lindsayland-weaver father is identified with this existing candidate provisionally. |
+| [James Glasgow, candidate Lindsaylands weaver](https://www.wikitree.com/wiki/Glasgow-3332) | OPEN | Possible son James Glasgow-4131, 46%; recorded father role separated from the unresolved 1680/profile identification. |

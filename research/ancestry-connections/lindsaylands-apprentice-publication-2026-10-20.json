@@ -1,0 +1,208 @@
+{
+  "reviewed": "2026-10-20",
+  "new_father_percent": 46,
+  "new_father_selections": 1,
+  "confidence_only_upgrades": 0,
+  "metrics": {
+    "1500": {
+      "population": [
+        2,
+        2
+      ],
+      "edge_count": [
+        2,
+        2
+      ],
+      "component_count": [
+        1,
+        1
+      ],
+      "largest_component_size": [
+        2,
+        2
+      ],
+      "connected_pairs_percent": [
+        100.0,
+        100.0
+      ]
+    },
+    "1550": {
+      "population": [
+        19,
+        19
+      ],
+      "edge_count": [
+        18,
+        18
+      ],
+      "component_count": [
+        2,
+        2
+      ],
+      "largest_component_size": [
+        18,
+        18
+      ],
+      "connected_pairs_percent": [
+        89.47368421052632,
+        89.47368421052632
+      ]
+    },
+    "1600": {
+      "population": [
+        52,
+        52
+      ],
+      "edge_count": [
+        49,
+        49
+      ],
+      "component_count": [
+        5,
+        5
+      ],
+      "largest_component_size": [
+        48,
+        48
+      ],
+      "connected_pairs_percent": [
+        85.06787330316742,
+        85.06787330316742
+      ]
+    },
+    "1650": {
+      "population": [
+        163,
+        163
+      ],
+      "edge_count": [
+        157,
+        157
+      ],
+      "component_count": [
+        8,
+        8
+      ],
+      "largest_component_size": [
+        156,
+        156
+      ],
+      "connected_pairs_percent": [
+        91.57009770506703,
+        91.57009770506703
+      ]
+    },
+    "1700": {
+      "population": [
+        309,
+        309
+      ],
+      "edge_count": [
+        286,
+        287
+      ],
+      "component_count": [
+        25,
+        24
+      ],
+      "largest_component_size": [
+        283,
+        284
+      ],
+      "connected_pairs_percent": [
+        83.85869793636783,
+        84.4534106670029
+      ]
+    },
+    "1750": {
+      "population": [
+        593,
+        593
+      ],
+      "edge_count": [
+        538,
+        539
+      ],
+      "component_count": [
+        57,
+        56
+      ],
+      "largest_component_size": [
+        529,
+        530
+      ],
+      "connected_pairs_percent": [
+        79.56793218176017,
+        79.86930860033726
+      ]
+    },
+    "1800": {
+      "population": [
+        922,
+        922
+      ],
+      "edge_count": [
+        763,
+        764
+      ],
+      "component_count": [
+        161,
+        160
+      ],
+      "largest_component_size": [
+        736,
+        737
+      ],
+      "connected_pairs_percent": [
+        63.712931101485935,
+        63.886278472187875
+      ]
+    },
+    "1850": {
+      "population": [
+        1791,
+        1791
+      ],
+      "edge_count": [
+        1386,
+        1387
+      ],
+      "component_count": [
+        407,
+        406
+      ],
+      "largest_component_size": [
+        1132,
+        1133
+      ],
+      "connected_pairs_percent": [
+        39.99320001622014,
+        40.06382003125497
+      ]
+    }
+  },
+  "all_model_vitals_preserved": true,
+  "all_parent_ids_preserved_except_one_new_father": true,
+  "dossier_mothers_spouses_children_preserved": true,
+  "full_and_compact_pending_membership_equal": true,
+  "main_packed_model_matches_full": true,
+  "draft_hashes_verified": true,
+  "pending_count_before": 546,
+  "pending_count_after": 546,
+  "live_edits": 0,
+  "supported_and_confident_metrics_unchanged": true,
+  "browser_checks": [
+    "Catalogue exact new/possible/father filter: one result, child Glasgow-4131, 46%, father tag links to Glasgow-3332 on WikiTree",
+    "Main Whole tree: father Glasgow-3332, Possible46%",
+    "Reciprocal parent family: James1690 apprentice46%, existing Robert23% and John25% retained",
+    "Existing Lindsaylands study:46% selection and23% limitation visible"
+  ],
+  "checks": {
+    "research_publication": "PASS,3 IDs;0 failing items",
+    "internal_links": "PASS,0 new broken pairs; existing4 pairs retained",
+    "release_consistency": "PASS"
+  },
+  "publication_warning": "Calder testament overview retains its earlier review date; its conditional Lindsaylands/Libberton ancestry conclusions remain applicable. This apprentice selection supplies no proof of those older links.",
+  "draft_review": "Both complete drafts retain all captured source URLs and named references; compared profiles now explicitly linked.",
+  "local_synchronization_only": true
+}
