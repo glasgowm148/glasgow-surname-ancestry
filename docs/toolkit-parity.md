@@ -54,11 +54,11 @@ and it is checked against the real build before it lands.
 | Branches (`/branches/`) | `tools/build_branches_directory.py` | None | Branches are hand-named, with Y-DNA and country colours. The workbench's surname and connected-family groups are computed, so they would replace curated content. |
 | Internal links | `tools/check_internal_links.py` | `genealogy.sitecheck` | Glasgow keeps its cause classification and baseline. |
 
-Next candidates, in order of risk:
+Candidates checked on 20 October 2026:
 
-1. **Dossier family roles.** Glasgow could use `genealogy.labels.parent_role`/`child_role` for step, adoptive and foster wording. The check: compare every dossier's family section before and after.
-2. **Findings as case records.** Write `research/latest-findings.json` rows as toolkit `Finding` records through `tools/genealogy_bridge.py`, with Glasgow-only fields kept in the ledger. The ledger stays the source until the two agree for every row.
-3. **Studies.** Adoption needs a wikitext-to-Markdown conversion that keeps every reference. Until that exists, Glasgow's builder is the right tool.
+- **Dossier family roles: not adopted.** Glasgow's data has no step, adoptive or foster parent links. "Adopted" appears only in quoted source text. Its WikiTree non-biological marks already print as "Tree-marked non-biological … link" through `tools/evidence_labels.py`. Switching to `genealogy.labels.parent_role` would change that wording without adding information.
+- **Findings as case records: deferred.** Mirroring `research/latest-findings.json` into toolkit `Finding` records would have no reader yet: no Glasgow page or export reads a case. It becomes worthwhile when a Glasgow page is built from a case. Then the ledger's `kind`, `qualification` and `relationship_changes` fields need a home in the toolkit model first.
+- **Studies: not adopted.** Adoption needs a wikitext-to-Markdown conversion that keeps every reference. Until that exists, Glasgow's builder is the right tool.
 
 ## What an export cannot recreate
 
