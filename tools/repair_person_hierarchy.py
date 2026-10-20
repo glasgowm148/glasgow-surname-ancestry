@@ -2790,6 +2790,12 @@ def repair(profile_ids=None):
     _INDEX_CACHE = None
     counts = {"person_hierarchy": 0}; asset = WEB / "assets/repair/person-hierarchy.css"; asset.parent.mkdir(parents=True, exist_ok=True)
     if not asset.exists() or asset.read_text(encoding="utf-8") != CSS: asset.write_text(CSS, encoding="utf-8")
+    try:
+        from tools.profile_tree_links import add_to_page as add_tree_links, load_lines as tree_lines
+    except ModuleNotFoundError:
+        from profile_tree_links import add_to_page as add_tree_links, load_lines as tree_lines
+    # The tree-view links are written into the page, not added after it renders.
+    lines = tree_lines(WEB)
     for path in sorted((WEB / "people").glob("*.html")):
         if profile_ids and path.stem not in {value.casefold() for value in profile_ids}:
             continue
@@ -2807,6 +2813,7 @@ def repair(profile_ids=None):
         dossier = _load_json(path.with_suffix(".json"), {})
         profile_id_hint = str(dossier.get("id") or "")
         updated, _ = revise(text, profile_id_hint)
+        updated = add_tree_links(updated, lines)
         if updated != text: path.write_text(updated, encoding="utf-8"); counts["person_hierarchy"] += 1
         # This is the same resolved account the HTML uses, not another
         # hand-maintained summary. Keep imports and original notes untouched.
