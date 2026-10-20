@@ -87,6 +87,13 @@ research section does not replace that integration.
   `people[].draft_url` for an additional evidence draft alongside a directly
   linked candidate profile. Update any superseded unmatched assessment in its
   maintained record review and public study, retaining dated history.
+  `/latest-findings/` shows the newest 50 findings. Archive pages
+  (`/latest-findings/page/N/`) are numbered from the earliest finding, so a
+  finding never changes page as newer ones arrive. Link a finding with
+  `build_latest_findings.page_urls` (or the `url` in
+  `www/data/findings-by-subject.json`), never `/latest-findings/#finding-…`.
+  `tools/relink_finding_anchors.py` corrects links in pages built before the
+  change; `--check` reports any out-of-date link.
   The findings builder also writes an Atom feed (`/latest-findings/feed.xml`),
   per-study pages (`/latest-findings/studies/<study-id>/`), a by-place page
   (`/latest-findings/places/`) and `www/data/findings-by-subject.json` (findings

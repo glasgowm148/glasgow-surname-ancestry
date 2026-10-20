@@ -8,11 +8,13 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[1]; sys.path.insert(0, str(ROOT))
 from tools.free_space_edition import shell_page
+from tools.build_latest_findings import page_urls
 
 
 def build(web=ROOT/'www'):
     ledger=json.loads((ROOT/'research/latest-findings.json').read_text())
     audit=json.loads((ROOT/'research/historical-relationship-audit-2026-09-30.json').read_text())
+    finding_urls=page_urls(ledger['findings'])
     changes=[(f,c) for f in ledger['findings'] for c in f.get('relationship_changes',[])]
     unmarked=sum(c['before']=='unmarked' for f,c in changes)
     def person(value):
@@ -24,7 +26,7 @@ def build(web=ROOT/'www'):
     rows=[]
     for f,c in sorted(changes,key=lambda x:x[0]['found_on'],reverse=True):
         before='Unmarked (previously ungraded)' if c['before']=='unmarked' else c['before'].capitalize()
-        rows.append(f'<tr><td>{f["found_on"]}</td><td>{person(c["subject"])}</td><td>{escape(c["relationship"].capitalize())}: {person(c["relative"])}</td><td>{before} → Certain</td><td>{escape(c["explanation"])}<p><a href="/latest-findings/#finding-{f["id"]}">Finding and source references →</a></p></td></tr>')
+        rows.append(f'<tr><td>{f["found_on"]}</td><td>{person(c["subject"])}</td><td>{escape(c["relationship"].capitalize())}: {person(c["relative"])}</td><td>{before} → Certain</td><td>{escape(c["explanation"])}<p><a href="{finding_urls[f["id"]]}">Finding and source references →</a></p></td></tr>')
     missing=[]
     for c in audit['confident_status_without_recoverable_prior_grade']:
         missing.append('<li>'+person(c['subject'])+' — '+person(c['relative'])+': '+escape(c.get('evidence',c.get('evidence_basis','Current confidence is recorded; the previous grade is unavailable.')))+'</li>')

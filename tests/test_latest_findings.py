@@ -121,10 +121,13 @@ class LatestFindingsTests(unittest.TestCase):
     def test_current_ledger_has_visible_evidence_and_newest_first_order(self):
         rows = findings.load_findings()
         page = BeautifulSoup((findings.WEB / 'latest-findings/index.html').read_text(), 'html.parser')
-        rendered = page.select('#lf-rows > tr')
+        # The opening page repeats the newest findings; the archive pages hold each finding once.
+        self.assertEqual([f"finding-{row['id']}" for row in rows[:findings.FINDINGS_PER_PAGE]], [r['id'] for r in page.select('#lf-rows > tr')])
+        rendered = []
         for page_path in sorted((findings.WEB / 'latest-findings/page').glob('*/index.html')):
             rendered.extend(BeautifulSoup(page_path.read_text(), 'html.parser').select('#lf-rows > tr'))
         self.assertEqual(len(rows), len(rendered))
+        self.assertEqual(len(rows), len({r['id'] for r in rendered}))
         # Static pages are checked as a complete catalogue; their page-local order is
         # asserted by the pagination fixture above, while this protects the full set.
         self.assertEqual(sorted(row['found_on'] for row in rows), sorted(row['data-date'] for row in rendered))
@@ -160,28 +163,52 @@ class LatestFindingsTests(unittest.TestCase):
                 ledger.write_text(json.dumps({'findings': [invalid]}))
                 with self.assertRaises(ValueError): findings.load_findings(ledger, web)
 
-    def test_static_pagination_keeps_root_first_fifty_and_links_every_other_finding(self):
+    def test_archive_pages_count_from_the_earliest_finding_and_keep_links_stable(self):
         with tempfile.TemporaryDirectory() as directory:
             web, ledger, row = self.fixture(directory)
-            rows = []
-            for index in range(53):
-                item = copy.deepcopy(row)
-                item['id'] = f'finding-{index:03d}'
-                item['found_on'] = f'2026-09-{30 - index // 2:02d}'
-                item['finding'] = f'Finding {index}'
-                rows.append(item)
-            ledger.write_text(json.dumps({'findings': rows}))
+            def ledger_rows(count):
+                rows = []
+                for index in range(count):
+                    item = copy.deepcopy(row)
+                    item['id'] = f'finding-{index:03d}'
+                    item['found_on'] = f'2026-09-{30 - index // 2:02d}'
+                    item['finding'] = f'Finding {index}'
+                    rows.append(item)
+                return rows
+            ids = lambda soup: [r['id'][8:] for r in soup.select('#lf-rows > tr')]
+            read = lambda path: BeautifulSoup((web / path).read_text(), 'html.parser')
+            ledger.write_text(json.dumps({'findings': ledger_rows(53)}))
             findings.repair(web, ledger)
-            root = BeautifulSoup((web / 'latest-findings/index.html').read_text(), 'html.parser')
-            page2 = BeautifulSoup((web / 'latest-findings/page/2/index.html').read_text(), 'html.parser')
-            self.assertEqual(50, len(root.select('#lf-rows > tr')))
-            self.assertEqual(3, len(page2.select('#lf-rows > tr')))
-            self.assertEqual([f'finding-{i:03d}' for i in range(50)], [r['id'][8:] for r in root.select('#lf-rows > tr')])
-            self.assertEqual([f'finding-{i:03d}' for i in range(50, 53)], [r['id'][8:] for r in page2.select('#lf-rows > tr')])
-            self.assertEqual(1, len(root.select('noscript li#finding-finding-050')))
-            self.assertIn('/latest-findings/page/2/#finding-finding-050', root.select_one('noscript a')['href'])
+            root, page1, page2 = read('latest-findings/index.html'), read('latest-findings/page/1/index.html'), read('latest-findings/page/2/index.html')
+            # The newest 50 open the log; archive page 1 holds the earliest 50, page 2 the newest 3.
+            self.assertEqual([f'finding-{i:03d}' for i in range(50)], ids(root))
+            self.assertEqual([f'finding-{i:03d}' for i in range(3, 53)], ids(page1))
+            self.assertEqual([f'finding-{i:03d}' for i in range(3)], ids(page2))
+            self.assertIsNone(root.select_one('noscript li'))
+            self.assertEqual('/latest-findings/page/1/', root.select_one('#lf-next')['href'])
+            self.assertEqual('true', root.select_one('#lf-prev')['aria-disabled'])
+            self.assertEqual('/latest-findings/', page2.select_one('#lf-prev')['href'])
+            self.assertEqual('/latest-findings/page/1/', page2.select_one('#lf-next')['href'])
+            self.assertEqual('/latest-findings/page/2/', page1.select_one('#lf-prev')['href'])
+            self.assertEqual('true', page1.select_one('#lf-next')['aria-disabled'])
             self.assertEqual('https://glasgow.phenotype.dev/latest-findings/page/2/', page2.select_one('link[rel="canonical"]')['href'])
-
+            self.assertIn('/latest-findings/page/1/#finding-finding-010', [a['href'] for a in root.select('a.lf-date')])
+            manifest = {r['id']: r['url'] for r in json.loads((web / 'data/latest-findings-index.json').read_text())}
+            self.assertEqual('/latest-findings/page/2/', manifest['finding-finding-000'])
+            self.assertEqual(findings.page_urls(ledger_rows(53))['finding-010'], '/latest-findings/page/1/#finding-finding-010')
+            # Newer findings never move an older one to another page.
+            newer = ledger_rows(53)
+            for index in range(60):
+                item = copy.deepcopy(row)
+                item['id'] = f'later-{index:03d}'
+                item['found_on'] = '2026-10-15'
+                newer.append(item)
+            ledger.write_text(json.dumps({'findings': newer}))
+            findings.repair(web, ledger)
+            self.assertEqual([f'finding-{i:03d}' for i in range(3, 53)], ids(read('latest-findings/page/1/index.html')))
+            self.assertIn('finding-finding-000', [r['id'] for r in read('latest-findings/page/2/index.html').select('#lf-rows > tr')])
+            self.assertTrue((web / 'latest-findings/page/3/index.html').is_file())
+            self.assertFalse((web / 'latest-findings/page/4/index.html').exists())
 
 if __name__ == '__main__':
     unittest.main()

@@ -56,7 +56,7 @@ How each relation is derived (also written to the index as ``derivation``)
 - sources: ``www/assets/v3/sources/<id>.json`` (the data the source reader
   and ``tools/publish_static_sources.py`` render), people from citations,
   records and events, kept only when ``www/sources/<id>/index.html`` exists.
-- findings: ``research/latest-findings.json``, ordered and paged exactly as
+- findings: ``research/latest-findings.json``, ordered and paged (stable archive pages) exactly as
   ``tools/build_latest_findings.py`` does (50 rows a page).
 - research: person links and WikiTree IDs inside ``<main>`` of the built
   ``www/research/{subjects,queue,transcriptions}/*/`` and
@@ -399,7 +399,9 @@ def _findings(ledger: Path, people: _People):
             rows.append((-found.toordinal(), item["id"], item))
     rows.sort(key=lambda row: (row[0], row[1]))
     for index, (_, ident, item) in enumerate(rows):
-        page = "/latest-findings/" if index < FINDINGS_PER_PAGE else f"/latest-findings/page/{index // FINDINGS_PER_PAGE + 1}/"
+        # Archive pages are numbered from the earliest finding, so this link
+        # stays right as newer findings arrive (build_latest_findings.stable_page).
+        page = f"/latest-findings/page/{(len(rows) - 1 - index) // FINDINGS_PER_PAGE + 1}/"
         entry = {"date": item["found_on"], "title": _finding_title(item["finding"]), "url": f"{page}#finding-{ident}"}
         seen = set()
         for person in item.get("people") or []:

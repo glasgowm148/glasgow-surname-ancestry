@@ -132,6 +132,15 @@ class BacklinkIndexTest(unittest.TestCase):
         options.update(kwargs)
         return backlinks.build(p["site"], **options)
 
+    def test_finding_links_match_the_findings_pages(self):
+        from tools.build_latest_findings import page_urls
+        index = self.build()
+        expected = page_urls(json.loads(self.paths["ledger"].read_text())["findings"])
+        links = [entry["url"] for person in index["people"].values() for entry in person.get("findings", [])]
+        self.assertTrue(links)
+        for url in links:
+            self.assertEqual(expected[url.split("#finding-", 1)[1]], url)
+
     def test_person_relations(self):
         index = self.build()
         adam = index["people"]["Glasgow-1"]
@@ -143,8 +152,9 @@ class BacklinkIndexTest(unittest.TestCase):
         self.assertEqual([s["url"] for s in adam["sources"]], ["/sources/s-1/", "/sources/s-2/", "/sources/s-4/"])
         self.assertEqual(adam["sources_total"], 3)
         self.assertEqual(adam["findings"], [
-            {"date": "2026-10-06", "title": "Adam leased Ballykeel in 1739.", "url": "/latest-findings/#finding-newest"},
-            {"date": "2025-05-01", "title": "Bea married in 1720.", "url": "/latest-findings/page/2/#finding-older"},
+            # Archive pages count from the earliest finding: the oldest is on page 1.
+            {"date": "2026-10-06", "title": "Adam leased Ballykeel in 1739.", "url": "/latest-findings/page/2/#finding-newest"},
+            {"date": "2025-05-01", "title": "Bea married in 1720.", "url": "/latest-findings/page/1/#finding-older"},
         ])
         self.assertEqual(adam["research"], [{"title": "Glasgow notes", "url": "/free-space/notes-abc/"}])
         anchor = backlinks.research_note_anchor("/research/Smith-2/findings.md", "Current conclusion")

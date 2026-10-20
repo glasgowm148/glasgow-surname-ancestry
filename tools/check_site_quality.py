@@ -8,6 +8,7 @@ from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 import json
 import os
 from pathlib import Path
+import re
 import shutil
 import sys
 import tempfile
@@ -128,7 +129,7 @@ def check(base, fixture_mode=False):
         nojs=browser.new_context(java_script_enabled=False)
         page=nojs.new_page();page.goto(base+'/latest-findings/')
         require(page.locator('#lf-rows tr').count()==50,'No-JS findings root must contain 50 real rows')
-        page.locator('#lf-next').click();require('/page/2/' in page.url,'No-JS pagination did not navigate')
+        page.locator('#lf-next').click();require(re.search(r'/latest-findings/page/\d+/$',page.url),'No-JS pagination did not navigate')
         require(page.locator('#lf-rows tr').count()>0,'No-JS second page is empty')
         nojs.close();browser.close()
     require(not errors,'Browser errors: '+ '; '.join(sorted(set(errors))))
