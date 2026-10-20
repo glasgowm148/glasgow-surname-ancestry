@@ -6,11 +6,14 @@ that case from the Glasgow One-Tree export plus the research Glasgow
 maintains in its own formats, so the toolkit can rebuild as much of the
 Glasgow site as its model can express, and so the gaps can be measured:
 
-- ``research/canonical_records.json``: Source and Citation records;
+- ``research/canonical_records.json``: Source and Citation records, with
+  Glasgow's reading of each record as the citation's abstract;
 - ``research/relationship_assessments.json`` and
   ``relationship_probability_estimates.json``: a Claim with Evidence, a
   confidence and an estimate on the matching tree relationship (or a new
-  research relationship when the tree has none);
+  research relationship when the tree has none). Glasgow's grades
+  (``tools/evidence_labels.py``) become the project's own grades, with
+  Glasgow's labels and meanings;
 - ``research/latest-findings.json``: dated Finding records;
 - ``research/<profile>/findings.md``: one Study per person, from the sections
   Glasgow publishes (editing logs and captured WikiTree pages stay out);
@@ -48,7 +51,7 @@ import sys
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
-from genealogy.case import CaseStore, validate_case  # noqa: E402
+from genealogy.case import CaseStore, grade_errors, validate_case  # noqa: E402
 from genealogy.cli import initialize_project  # noqa: E402
 from genealogy.config import ProjectConfig  # noqa: E402
 from genealogy.importing import import_file  # noqa: E402
@@ -65,12 +68,17 @@ CATALOGUE = ROOT / "www/data/people.json"
 DEFAULT_PROJECT = ROOT / "data/private/toolkit-build"
 PUBLIC = Sensitivity.PUBLIC
 
-# Glasgow grades → the workbench vocabulary. "Strongly supported" and
-# "uncertain" have no workbench equivalent; they map to the nearest grade
-# and are counted in the report.
+try:
+    from tools.evidence_labels import STATES, canonical_key  # noqa: E402
+except ModuleNotFoundError:  # run from tools/
+    from evidence_labels import STATES, canonical_key  # noqa: E402
+
+# Glasgow's research grades (keys of ``evidence_labels.STATES``) and the
+# standard workbench grade each counts as. Each becomes a project grade with
+# Glasgow's own label and meaning.
 GRADES = {"proved": Confidence.DOCUMENTED, "strongly_supported": Confidence.PROBABLE,
           "probable": Confidence.PROBABLE, "possible": Confidence.POSSIBLE,
-          "uncertain": Confidence.POSSIBLE, "disproved": Confidence.DISPROVED}
+          "uncertain": Confidence.POSSIBLE, "contradicted": Confidence.DISPROVED}
 PARENT_ROLES = {"father", "mother", "parent"}
 PARTNER_ROLES = {"husband", "wife", "spouse", "partner"}
 FINDING_STATUS = {"confirmed": "reviewed", "qualified": "qualified"}
@@ -101,6 +109,12 @@ class Translator:
             self.relationships[(record.kind, record.subject_id, record.object_id)] = record
         self.report: Counter[str] = Counter()
         self.gaps: Counter[str] = Counter()
+        self.used_grades: set[str] = set()
+
+    def grades(self) -> dict[str, dict[str, str]]:
+        """The ``[grades]`` table for the grades used, in Glasgow's order."""
+        return {key: {"label": state["label"], "meaning": state["meaning"], "confidence": GRADES[key].value}
+                for key, state in STATES.items() if key in self.used_grades}
 
     def pid(self, profile: str | None) -> str | None:
         return self.alias.get(str(profile or "").casefold())
@@ -177,13 +191,17 @@ class Translator:
                             source_type=row.get("role") or "record", url=row.get("source_url") or None,
                             sensitivity=PUBLIC)
             locator = "; ".join(str(row[key]) for key in ("date", "place") if row.get(key))
+            reading = " ".join(str(row.get("note") or "").split()) or None
+            if reading and self.private(reading):
+                self.gaps["record readings naming a withheld profile, left out"] += 1
+                reading = None
             citation = Citation(id=f"glasgow:citation:{rid}", source_id=source.id, locator=locator or None,
-                                sensitivity=PUBLIC)
+                                abstract=reading, sensitivity=PUBLIC)
             self.case.add_many([source, citation])
             citations[rid] = citation.id
             self.report["sources from canonical records"] += 1
-            if row.get("note"):
-                self.gaps["record readings (canonical record notes) not carried: no field for a reading"] += 1
+            if reading:
+                self.report["record readings carried as citation abstracts"] += 1
         return citations
 
     # -- relationship assessments -----------------------------------------
@@ -211,18 +229,21 @@ class Translator:
             if self.private(row.get("basis") or ""):
                 self.gaps["assessments whose basis names a withheld profile"] += 1
                 continue
-            status = str(row.get("status"))
-            confidence = GRADES.get(status, Confidence.UNKNOWN)
-            if status in ("strongly_supported", "uncertain"):
-                self.gaps[f"'{status}' grade shown as {confidence.value}"] += 1
+            grade = canonical_key(row.get("status"))
+            if grade in GRADES:
+                confidence = GRADES[grade]
+                self.used_grades.add(grade)
+            else:
+                confidence, grade = Confidence.UNKNOWN, None
+                self.gaps[f"assessments with the state '{row.get('status')}', left unassessed"] += 1
             cited = [citations[s] for s in row.get("source_ids", []) if s in citations]
             claim = Claim(id=f"glasgow:claim:{aid}", subject_id=subject, predicate=kind, value=obj,
                           citation_ids=cited, status=ClaimStatus.SUPPORTED if confidence in (
                               Confidence.DOCUMENTED, Confidence.PROBABLE) else ClaimStatus.ASSERTED,
-                          confidence=confidence, rationale=row.get("basis"), sensitivity=PUBLIC)
+                          confidence=confidence, grade=grade, rationale=row.get("basis"), sensitivity=PUBLIC)
             records = [claim] + [Evidence(id=f"glasgow:evidence:{aid}:{n}", claim_id=claim.id, citation_id=cid,
                                           assessment=row.get("basis") or "Reviewed record.", confidence=confidence,
-                                          sensitivity=PUBLIC) for n, cid in enumerate(cited)]
+                                          grade=grade, sensitivity=PUBLIC) for n, cid in enumerate(cited)]
             self.case.add_many(records)
             existing = self.relationships.get((kind, subject, obj)) or (
                 self.relationships.get((kind, obj, subject)) if kind == "spouse" else None)
@@ -232,7 +253,7 @@ class Translator:
                 self.case.add(existing)
                 self.relationships[(kind, subject, obj)] = existing
                 self.report["research relationships not in the tree export"] += 1
-            existing.confidence = confidence
+            existing.confidence, existing.grade = confidence, grade
             existing.claim_ids = sorted(set(existing.claim_ids) | {claim.id})
             if aid in percent:
                 existing.estimate = percent[aid]
@@ -353,7 +374,12 @@ def build_case(project: Path, *, one_tree: Path = ONE_TREE, research: Path = RES
     except ModuleNotFoundError:
         from build_research_catalog import _load_research_findings
     t.notes(research, lambda profile: _load_research_findings([profile]))
-    errors = validate_case(case)
+    grades = t.grades()
+    with (project / "genealogy.toml").open("a", encoding="utf-8") as handle:
+        for key, grade in grades.items():
+            handle.write(f"\n[grades.{key}]\n" + "".join(f"{name} = {json.dumps(grade[name], ensure_ascii=False)}\n"
+                                                         for name in ("label", "meaning", "confidence")))
+    errors = validate_case(case) + grade_errors(case, ProjectConfig.load(project / "genealogy.toml").grades)
     if errors:
         raise ValueError("translated case is invalid:\n" + "\n".join(errors[:20]))
     store.save(case)

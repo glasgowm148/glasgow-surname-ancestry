@@ -3,6 +3,7 @@ import unittest
 
 from genealogy.case import ResearchCase
 from genealogy.models import Confidence, Person, Relationship, Sensitivity
+from tools.evidence_labels import STATES
 from tools.toolkit_research_case import Translator, person_id
 
 
@@ -31,12 +32,36 @@ class TranslatorTests(unittest.TestCase):
             {"assertion_id": "a3", "people": ["Fable-1", "record-x"], "status": "proved", "perspectives": {}},
         ], [{"assertion_id": "a1", "percent": 85}], citations)
         tree = next(r for r in c.records("Relationship") if r.id == "one-tree:relationship:Fable-2:father")
-        self.assertEqual((Confidence.PROBABLE, 85), (tree.confidence, tree.estimate))
+        self.assertEqual((Confidence.PROBABLE, "strongly_supported", 85), (tree.confidence, tree.grade, tree.estimate))
         self.assertEqual(["glasgow:claim:a1"], tree.claim_ids)
+        self.assertEqual("strongly_supported", c.records("Claim")[0].grade)
         added = next(r for r in c.records("Relationship") if r.id == "glasgow:relationship:a2")
         self.assertEqual((person_id("Fable-3"), person_id("Fable-2"), "parent"), (added.subject_id, added.object_id, added.kind))
+        self.assertEqual((Confidence.POSSIBLE, "possible"), (added.confidence, added.grade))
         self.assertEqual(1, t.gaps["assessments naming a person who is not public"])
-        self.assertEqual(1, t.gaps["'strongly_supported' grade shown as probable"])
+        # Only the grades in use are defined, with Glasgow's own wording.
+        self.assertEqual(["strongly_supported", "possible"], list(t.grades()))
+        self.assertEqual({"label": STATES["strongly_supported"]["label"], "meaning": STATES["strongly_supported"]["meaning"],
+                          "confidence": "probable"}, t.grades()["strongly_supported"])
+
+    def test_disproved_assessments_use_the_contradicted_grade(self):
+        c = case()
+        t = Translator(c)
+        t.assessments([{"assertion_id": "a1", "people": ["Fable-1", "Fable-2"], "status": "disproved", "basis": "Dates cannot fit.",
+                        "source_ids": [], "perspectives": {"Fable-1": {"relationship": "son"}, "Fable-2": {"relationship": "father"}}}], [], {})
+        tree = next(r for r in c.records("Relationship") if r.id == "one-tree:relationship:Fable-2:father")
+        self.assertEqual((Confidence.DISPROVED, "contradicted"), (tree.confidence, tree.grade))
+
+    def test_record_readings_become_citation_abstracts_unless_they_name_a_withheld_profile(self):
+        c = case()
+        t = Translator(c, private=lambda text: "Hidden-9" in str(text))
+        t.records([{"record_id": "r1", "association": "Invented baptism", "note": "Entry 7  names Ada,\n daughter of Bram."},
+                   {"record_id": "r2", "association": "Invented letter", "note": "Mentions Hidden-9."}])
+        abstracts = {r.id: r.abstract for r in c.records("Citation")}
+        self.assertEqual("Entry 7 names Ada, daughter of Bram.", abstracts["glasgow:citation:r1"])
+        self.assertIsNone(abstracts["glasgow:citation:r2"])
+        self.assertEqual(1, t.report["record readings carried as citation abstracts"])
+        self.assertEqual(1, t.gaps["record readings naming a withheld profile, left out"])
 
     def test_notes_keep_known_people_as_references_and_flatten_the_rest(self):
         t = Translator(case())

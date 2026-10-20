@@ -2,7 +2,7 @@
 
 This compares what the Glasgow site does with what the reusable
 [genealogy-research-workbench](https://github.com/glasgowm148/genealogy-research-workbench)
-(`v0.5.0`, pinned in `vendor/`) builds from someone else's GEDCOM or OneTree export.
+(`v0.6.0`, pinned in `vendor/`) builds from someone else's GEDCOM or OneTree export.
 It was checked against the toolkit code, its fictional demo and imports of the
 real local exports. Those imports were inspected locally and read-only; no real
 data entered the toolkit repository.
@@ -16,16 +16,16 @@ Classes used below:
 
 ## Matrix
 
-| Capability | Glasgow site | Workbench 0.5.0 | Class |
+| Capability | Glasgow site | Workbench 0.6.0 | Class |
 | --- | --- | --- | --- |
-| People catalogue, search and filters | Name, relative, date, place and evidence filters; worker search shards | Search across names, relatives, places and events; surname, year-range and evidence filters; sort; pagination | Reusable. Sharded search indexes are only needed well beyond about 5,000 people. |
+| People catalogue, search and filters | Name, relative, date, place and evidence filters; worker search shards | Search across names, relatives, places and events; surname, year-range and evidence filters; sort; pagination. Past 300 people the page writes its first 100 and pages the rest; the search covers everyone | Reusable. Sharded search indexes are only needed well beyond about 5,000 people. |
 | Person dossiers | Resolved model, family, evidence labels, conclusions, open questions | Names, life dates, family (parents, partners and marriages, children, siblings), events, claims with citations and evidence, linked research | Reusable. Written conclusions need research (`Finding` records). |
-| Sources and citations | Source collections, approved PDFs, captures | Bibliography (title, author, publication, repository), citation locators, assessments | Reusable. Images, transcriptions and licensed text need research and rights. |
+| Sources and citations | Source collections, approved PDFs, captures, a reading of each record | Bibliography (title, author, publication, repository), citation locators and abstracts (the researcher's reading of a record), assessments | Reusable. Images, transcriptions and licensed text need research and rights. |
 | Evidence and claims | Claim and evidence model, `/evidence/` label guide | Claim, Citation and Evidence records; one label vocabulary; `evidence.html` guide | Reusable |
-| Relationship confidence | Graded states, percentage bands, reviewed probability estimates | Documented/probable/possible/disproved/unassessed; optional assessed `estimate` shown as "Probable (70%)"; the tree's own marks shown as "tree-marked …" | Reusable. Each estimate needs research; Glasgow's band scale stays Glasgow-specific. |
+| Relationship confidence | Graded states, percentage bands, reviewed probability estimates | Documented/probable/possible/disproved/unassessed, plus a project's own grades defined in `genealogy.toml` (each counted as a standard grade); optional assessed `estimate` shown as "Probable (70%)"; the tree's own marks shown as "tree-marked …" | Reusable. Each estimate needs research; Glasgow's band scale stays Glasgow-specific. |
 | Alternatives and relationship roles | Competing fathers and hypotheses kept with their own grades | Step, adoptive, foster and non-biological roles; "competing parent records" notice; `Hypothesis` records | Reusable |
 | Family tree and branches | Radial whole tree, country colours, named branches, Y-DNA markers | Whole-tree canvas, family focus, branch cards, birth-year slider; a **Families & branches** page of surname groups and connected groups | Reusable. Hand-named branches and country colours are Glasgow-specific; Y-DNA needs research. |
-| Timelines | Study timelines, dated events | Filterable event timeline; approximate dates kept as supplied | Reusable |
+| Timelines | Study timelines, dated events | Filterable event timeline; approximate dates kept as supplied. Past 300 events, a page per decade and a search across all of them | Reusable |
 | Maps | Atlas with location precision, country summaries, Irish/Scottish gazetteer | Offline map of supplied coordinates with a `precision` field; broad locations are drawn as dashed rings; places grouped and summarised by recorded country or region; GeoJSON | Reusable. The gazetteer data is Glasgow-specific. No geocoding by design. |
 | Comparisons and connections | Compare people; shortest connection | Same, over public recorded relationships | Reusable |
 | Research studies | Free-space edition, study pages with rationale and linked subjects | `Study` records: rationale, escaped Markdown body with `[[record]]` references, conclusion, linked subjects; study pages and index with links both ways | Reusable. The content needs research; WikiTree free-space import is Glasgow-specific. |
@@ -75,27 +75,31 @@ first:
   withheld.";
 - any other record whose text names a withheld profile is left out.
 
-Totals only, 20 October 2026, with workbench 0.5.0:
+Totals only, 20 October 2026, with workbench 0.6.0:
 
 | Glasgow research | Maintained | In the workbench site | What is left out, and why |
 | --- | ---: | ---: | --- |
-| People | 4,867 public in the catalogue | 4,832 | The One-Tree export (4,065 public), plus 767 catalogue people it lacks, 97 of them record subjects. 830 family links come from the catalogue |
-| Canonical records → sources | 282 | 282 | Record readings have no published field (281) |
-| Relationship assessments | 292 | 246 graded links, 178 with a percentage | 34 name a person who is not public; 12 sibling assessments. "Uncertain" (100) and "strongly supported" (16) show as possible and probable |
-| Dated findings | 871 | 641, all with their records and type; 602 with stated limits | 230 concern only people who are not public |
+| People | 4,869 public in the catalogue | 4,834 | The One-Tree export (4,065 public), plus 769 catalogue people it lacks, 99 of them record subjects. 831 family links come from the catalogue |
+| Canonical records → sources | 285 | 285, with 284 readings as citation abstracts | None. Every reading is already published in `www/assets/research/canonical-records.json` |
+| Relationship assessments | 301 | 253, with Glasgow's grades and wording; 185 with a percentage | 35 name a person who is not public; 13 sibling assessments |
+| Dated findings | 874 | 644, all with their records and type | 230 concern only people who are not public |
 | Research notes → studies | 1,251 | 1,063, with 489 tables | 162 are about people who are not public; 26 have no reader-facing section; 60 paragraphs withheld |
 
-The build has 5,944 pages and no broken links. No generated file names a
-withheld profile, and no name in it is absent from Glasgow's own published
-pages. The findings log opens with the newest 30 findings, with 13 archive
-pages.
+Glasgow's grades come from `tools/evidence_labels.py`: Documented, Strongly
+supported, Probable, Possible and Uncertain keep Glasgow's labels and
+meanings on every page and in the evidence guide, each counted as the
+nearest workbench grade.
 
-Still to do, in order of what they recover:
+The build has 6,175 pages and no broken links. No page is over Glasgow's
+500 KB budget: the catalogue, timeline, places and sources pages write one
+page of records and keep the rest on paged pages, and the shared data
+script is 5.5 MB (17.6 MB with 0.5.0). No generated file names a withheld
+profile.
 
-1. **Project-defined confidence grades**, so "uncertain" and "strongly supported" survive (116 links).
-2. **A published reading of a record**: Glasgow's abstract of each canonical record (281). The workbench keeps transcriptions private by design, so this needs its own field.
-3. **Scale.** At 4,800 people the timeline (2.9 MB), tree (2.6 MB), places (2.3 MB), catalogue (1.7 MB) and research notebook (1.3 MB) pages are far over Glasgow's 500 KB page budget. They need the paging and on-demand loading Glasgow uses.
-4. **Sibling relationships** (12).
+Still to do:
+
+1. **Sibling relationships** (13).
+2. **Larger single pages that are Glasgow's content**: the longest study (460 KB) and the studies index (400 KB) are within budget but would need paging as the research grows.
 
 ## What an export cannot recreate
 
