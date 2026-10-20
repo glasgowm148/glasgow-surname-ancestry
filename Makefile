@@ -4,7 +4,7 @@ RUFF ?= $(if $(wildcard $(dir $(PYTHON))ruff),$(dir $(PYTHON))ruff,ruff)
 RESEARCH_BASELINE ?= data/site/research-publication-baseline.json
 LINK_BASELINE ?= data/site/internal-link-baseline.json
 
-.PHONY: test validate validate-strict lint check check-browser check-research check-links build rebuild-local build-ancestry-progress
+.PHONY: test validate validate-strict lint check check-browser check-accessibility check-research check-links build rebuild-local build-ancestry-progress
 
 # Recompute branch connectivity from the resolved public person dossiers.
 build-ancestry-progress:
@@ -44,6 +44,10 @@ check-links:
 
 check-browser:
 	$(PYTHON) tools/check_site_quality.py
+
+# WCAG 2.1 A/AA audit of the built www/ site (needs Playwright's Chromium or Chrome).
+check-accessibility:
+	GLASGOW_ACCESSIBILITY_TESTS=1 $(PYTHON) -m unittest tests.test_accessibility -v
 
 # This is intentionally separate from `check`: it regenerates thousands of
 # static pages and should only be run when source data changes.
