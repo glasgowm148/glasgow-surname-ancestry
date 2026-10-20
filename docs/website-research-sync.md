@@ -165,6 +165,11 @@ research section does not replace that integration.
   manifest; `tools/add_research_case_dossiers.py` publishes included historical
   cases and their search/context entries. These tools never infer that every
   research file requires a WikiTree amendment.
+  The same targeted sync refreshes parent rows on existing family branch pages
+  whose entry person was checked. It uses the public dossier's current parent
+  assessments and individual percentages, preserving the route, selected person,
+  partners and descendants. This does not create relationships or new branches.
+  Read-only mode reports stale parent rows; `--write` updates them.
 - Full catalogue generation, when needed:
   `.venv/bin/python tools/build_family_map.py`. This is broader than a person
   update and regenerates several datasets and views. First reconcile manual

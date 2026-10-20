@@ -30,6 +30,58 @@ except ModuleNotFoundError:
 WEB = ROOT / "www"
 
 
+def refresh_family_branch_parents(profile_ids, *, site_root=WEB, write=False):
+    """Refresh existing family entry points from current public parent assessments."""
+    requested = {str(ident).casefold() for ident in profile_ids}
+    branch_path = site_root / 'assets/research/branches.json'
+    if not branch_path.is_file():
+        return []
+    branches = read_json(branch_path)
+    changed = []
+    for branch in branches:
+        ident = str(branch.get('rootId') or branch.get('root') or '')
+        if ident.casefold() not in requested:
+            continue
+        person_path = site_root / 'people' / (ident.lower() + '.json')
+        page_path = site_root / 'branches' / branch['id'] / 'index.html'
+        if not person_path.is_file() or not page_path.is_file():
+            continue
+        person = read_json(person_path)
+        page = BeautifulSoup(page_path.read_text(encoding='utf-8'), 'html.parser')
+        tree = page.select_one('.r-family-tree')
+        row = tree.find('div', class_='r-family-row', recursive=False) if tree else None
+        if row is None:
+            continue
+        parents = [p for p in person.get('relationships', {}).get('parents', [])
+                   if p.get('display') not in {'hidden', 'withheld', 'historical', 'alternative', 'superseded'}
+                   and p.get('lifecycle') not in {'historical', 'alternative', 'superseded', 'retired'}]
+        cards = []
+        for parent in parents:
+            name = escape(str(parent.get('name') or parent.get('id') or 'Parent'))
+            href = str(parent.get('url') or parent.get('wikitree_url') or '')
+            link = (f'<a data-r-person-link="{escape(str(parent.get("id") or ""), quote=True)}" '
+                    f'href="{escape(href, quote=True)}">{name}</a>') if href.startswith(('/', 'https://')) else name
+            probability = parent.get('probability') or {}
+            label = parent.get('status_label') or 'Unassessed parent'
+            if parent.get('status') in (None, 'unknown') and parent.get('tree_status_label'):
+                label = parent['tree_status_label']
+            if probability.get('value') is not None:
+                label = probability.get('label') or f'{label} · {probability["value"] * 100:g}%'
+            cards.append(f'<div class="r-family-person">{link}'
+                         f'<span class="r-caption">{escape(str(parent.get("relationship") or "parent").title())}</span>'
+                         f'<span class="r-chip" data-status="{escape(str(parent.get("status") or "unknown"), quote=True)}">'
+                         f'{escape(str(label))}</span></div>')
+        markup = '<div class="r-family-row">' + (''.join(cards) or '<span class="r-caption">No parents attached in this model</span>') + '</div>'
+        replacement = BeautifulSoup(markup, 'html.parser').div
+        if str(row) == str(replacement):
+            continue
+        changed.append(branch['id'])
+        if write:
+            row.replace_with(replacement)
+            page_path.write_text(str(page), encoding='utf-8')
+    return changed
+
+
 def public_findings(identifiers, policy):
     """Apply the public boundary to maintained notes before dossier rendering."""
     return policy.project(catalogue._load_research_findings(identifiers))
@@ -324,6 +376,7 @@ def main():
     manifest_path = ROOT / "data/wikitree/research-catalogue-cases.json"
     cases = read_json(manifest_path).get("cases", {}) if manifest_path.exists() else {}
     report, missing, checked, refreshed_profiles = {}, [], 0, []
+    branch_profiles = set()
     no_research_section = []
     updates_withheld = []
     for ident in sorted(requested):
@@ -379,6 +432,7 @@ def main():
             continue
         issues = discrepancies(dossier, soup, findings, update, by_slug[slug], links, comparison)
         checked += 1
+        branch_profiles.add(dossier['id'])
         if not issues:
             continue
         report[ident] = issues
@@ -413,6 +467,7 @@ def main():
         from repair_person_hierarchy import repair as repair_person_hierarchy
         repair_person_hierarchy(refreshed_profiles)
         refresh_catalogue_summaries(rows)
+    branch_changes = refresh_family_branch_parents(branch_profiles, write=args.write)
     index_exit = 0
     if args.write and not missing:
         # The browser reads the compact worker index and detail shards.
@@ -424,7 +479,8 @@ def main():
     print(json.dumps({"checked": checked, "refreshed" if args.write else "stale": report,
                       "missing_public_cases": missing,
                       "pages_without_research_section": no_research_section,
-                      "updates_withheld_for_privacy": updates_withheld}, indent=2))
+                      "updates_withheld_for_privacy": updates_withheld,
+                      "refreshed_family_branches" if args.write else "stale_family_branches": branch_changes}, indent=2))
     # What the builders will still not publish for these profiles (text above
     # the first heading, sources only in editing logs, no overall conclusion,
     # register or queue entries dropped). Printed on stderr so the JSON above
@@ -438,7 +494,7 @@ def main():
         check_args += ["--id", *args.profiles]
     with contextlib.redirect_stdout(sys.stderr):
         publication_exit = check_publication(check_args)
-    return int(bool(missing or (report and not args.write) or index_exit or publication_exit))
+    return int(bool(missing or ((report or branch_changes) and not args.write) or index_exit or publication_exit))
 
 
 if __name__ == "__main__":
