@@ -60,6 +60,32 @@ Candidates checked on 20 October 2026:
 - **Findings as case records: deferred.** Mirroring `research/latest-findings.json` into toolkit `Finding` records would have no reader yet: no Glasgow page or export reads a case. It becomes worthwhile when a Glasgow page is built from a case. Then the ledger's `kind`, `qualification` and `relationship_changes` fields need a home in the toolkit model first.
 - **Studies: not adopted.** Adoption needs a wikitext-to-Markdown conversion that keeps every reference. Until that exists, Glasgow's builder is the right tool.
 
+## Rebuilding the Glasgow site from its research (20 October 2026)
+
+`tools/toolkit_research_case.py` makes a workbench case from the One-Tree
+export plus Glasgow's own research files. `genealogy build` then builds a
+whole site from it. The project is private (default
+`data/private/toolkit-build/`) and never committed. First run, totals only:
+
+| Glasgow research | Maintained | In the workbench site | Main reason for the gap |
+| --- | ---: | ---: | --- |
+| People (One-Tree export) | 4,394 | 4,065 public | Same publication rules as the site |
+| Canonical records → sources and citations | 280 | 280 | Record readings have no field (279) |
+| Relationship assessments → graded links | 288 | 168, 128 with a percentage | 117 name record subjects or people missing from the August export. "Strongly supported" and "uncertain" have no workbench grade |
+| Dated findings | 869 | 514 | 355 concern only record subjects. Limitations, sources and finding types have no field |
+| Per-person research notes → studies | 1,251 | 699 | 549 are for record subjects or newer profiles. 2,654 table lines appear as plain text |
+
+The build has 4,778 pages and no broken links. Its findings log is one 615 KB
+page.
+
+Next, in order of what they recover:
+
+1. **People beyond the tree export.** Add record subjects and newer profiles as people from Glasgow's catalogue. This recovers about 355 findings, 549 notes and 117 assessments.
+2. **Workbench `Finding` fields** for limitations, cited sources and finding type, which affect nearly every finding.
+3. **Tables in research prose.**
+4. **A paged findings log with stable archive pages**, the design Glasgow now uses.
+5. **Project-defined confidence grades**, so "strongly supported" and "uncertain" survive.
+
 ## What an export cannot recreate
 
 A GEDCOM or OneTree file holds tree assertions. Without further research the
