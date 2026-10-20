@@ -148,7 +148,7 @@ def build(create_baseline=False):
     previous_version = history['snapshots'][-1].get('method_version') if history['snapshots'] else None
     new_view = bool(history['snapshots']) and any(
         view not in history['snapshots'][-1]['metrics'] for view in MEASUREMENT_VIEWS)
-    if not history["snapshots"] or history["snapshots"][-1]["input_fingerprint"] != fingerprint or previous_version != METHOD_VERSION or new_view:
+    if not history["snapshots"] or history["snapshots"][-1]["input_fingerprint"] != fingerprint or previous_version != METHOD_VERSION or new_view or history['snapshots'][-1]['date'] != date.today().isoformat():
         correction = previous_version is not None and previous_version != METHOD_VERSION
         history["snapshots"].append(
             dict(
@@ -166,6 +166,15 @@ def build(create_baseline=False):
                 fixed_cohort=fixed,
             )
         )
+        write_json(history_path, history)
+    # Record dated cutoff measurements from now on; never reconstruct old dates
+    # using today's pedigree. Older snapshots retain their fixed-cohort history.
+    cutoff_history = {
+        str(cutoff): {view: compact(summary) for view, summary in pair.items()}
+        for cutoff, pair in cohorts.items()
+    }
+    if history['snapshots'][-1].get('cohorts') != cutoff_history:
+        history['snapshots'][-1]['cohorts'] = cutoff_history
         write_json(history_path, history)
     report = dict(
         schema_version=1,
@@ -269,6 +278,12 @@ def build(create_baseline=False):
         primary_cutoff=strategy["primary_cutoff"],
         early_cutoff=strategy["early_priority_cutoff"],
         views=LINK_VIEWS,
+        history_method_version=METHOD_VERSION,
+        history_baseline=dict(cutoff=baseline['cutoff'], population=len(baseline['cohort_ids'])),
+        progress_history=[
+            {key: row[key] for key in ('date', 'method_version', 'fixed_cohort', 'cohorts') if key in row}
+            for row in history['snapshots']
+        ],
     )
     payload = json.dumps(client, ensure_ascii=False, separators=(",", ":")).replace("<", "\\u003c")
     options = "".join(
@@ -289,6 +304,17 @@ def build(create_baseline=False):
 <section aria-labelledby="cohorts-title"><h2 id="cohorts-title">Track the earlier generations separately</h2><p>The working pedigree at each cutoff. Estimated vital dates remain estimates. Undated fathers of included people enter by ancestry; unrelated undated entries stay outside the dated cohorts.</p><div class="progress-table-wrap"><table><thead><tr><th>Cutoff</th><th>People</th><th>Branches</th><th>Unattached fathers, 2+ children</th><th>Connected pairs</th></tr></thead><tbody>{cohort_rows}</tbody></table></div></section>
 <section aria-labelledby="baseline-title"><h2 id="baseline-title">Track the same baseline people</h2><p>Initial baseline: {baseline["captured"]}, through {baseline["cutoff"]}, {len(baseline["cohort_ids"]):,} people. On those same surviving baseline people, the working connected-pair score is {fixed["working"]["connected_pairs_percent"]:.2f}% (initially {baseline["metrics"]["working"]["connected_pairs_percent"]:.2f}%). New cohort people: {len(report["fixed_cohort"]["added_ids"])}; missing baseline people: {len(report["fixed_cohort"]["missing_ids"])}.</p><p>A connection between two components joins every cross-branch pair. The score is 100 × Σ n(n−1) ÷ N(N−1), where n is each paternal component's size and N is the cohort. The common-origin model stays outside the measurements.</p><p>Confidence grades come from the current resolved public dossiers. A confidently marked tree link is not a claim that every underlying source has been independently re-audited. Women born with the surname count; their fathers can join the paternal family, while spouses and maternal paths cannot.</p><p>Coverage: {report["available_surname_people"]:,} public surname profiles and {report["documentary_ancestors"]} separately listed documentary ancestors available; {report["undated_surname_people"]:,} have no usable structured date before ancestry closure; {len(quality["missing_dossiers"])} dossiers unavailable; {len(quality["multiple_fathers"])} competing-father cases held out; {len(quality["cycles"])} paternal cycles flagged. Cyclic edges are excluded from the score. Named documentary ancestors with complete public research accounts can connect these profiles. They are listed separately as connectors and never increase the profile denominator. An unnamed conceptual ancestor cannot connect branches in this measure.</p><p>{escape(strategy["later_records"])}</p><p class="progress-actions"><a href="/data/ancestry-connectivity.json">Current measurements and research queue (JSON)</a><a href="/data/ancestry-connectivity-baseline.json">Fixed initial baseline (JSON)</a></p></section>
 <script type="application/json" id="ancestry-progress-data">{payload}</script></main>"""
+    history_html = f'''<section id="progress-history" class="progress-history" aria-labelledby="history-title">
+<h2 id="history-title">Confidence and connectivity over time</h2>
+<p>Track the number of confident connections and whether they join larger families. Each point is the last saved measurement that day; reassessments can move a line down as well as up.</p>
+<div class="progress-controls"><label>History cohort <select id="history-cohort"><option value="fixed">Fixed baseline · {len(baseline['cohort_ids']):,} people through {baseline['cutoff']}</option><option value="selected">Selected historical cohort</option></select></label><label>Measure <select id="history-metric"><option value="edge_count">Father–child links</option><option value="largest_component_size">People in largest branch</option><option value="connected_pairs_percent">Connected pairs (%)</option><option value="component_count">Separate paternal components</option></select></label></div>
+<fieldset class="history-legend"><legend>Confidence levels shown</legend><label class="history-confident"><input id="history-confident" type="checkbox" checked> Confident</label><label class="history-supported"><input id="history-supported" type="checkbox" checked> Probable or stronger</label><label class="history-working"><input id="history-working" type="checkbox"> Working, including uncertain</label></fieldset>
+<p id="history-scope" class="source-line"></p><div id="history-chart"></div><div id="history-changes" class="history-changes" aria-live="polite"></div><p id="history-note" class="source-line"></p>
+<details><summary>View snapshot data</summary><div class="progress-table-wrap"><table><caption id="history-table-caption">Daily measurements</caption><thead id="history-table-head"></thead><tbody id="history-table-body"></tbody></table></div></details>
+<noscript><p>Enable JavaScript to explore the chart, or <a href="/data/ancestry-connectivity.json">read the dated measurements</a>.</p></noscript>
+</section>'''
+    main = main.replace('<section aria-labelledby="connectivity-title">', history_html + '<section aria-labelledby="connectivity-title">', 1)
+    main = main.replace('<a href="#early-connections">', '<a href="#progress-history">Progress chart</a><a href="#early-connections">', 1)
     page = shell_page((WEB / "about/index.html").read_text(), main, "Glasgow ancestry progress", ROUTE + "index.html")
     page = page.replace(
         "</head>", '<link rel="stylesheet" href="/assets/research/ancestry-progress.css?v=current"></head>'
