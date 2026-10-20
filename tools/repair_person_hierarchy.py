@@ -846,6 +846,8 @@ def _shared_relationship_assessment(profile_id: str, relation: dict) -> dict | N
 
 
 def _assessed_relation(profile_id: str, relation: dict, group: str) -> dict:
+    if relation.get('display') in {'alternative', 'historical', 'superseded'} or relation.get('lifecycle') in {'alternative', 'historical', 'superseded'}:
+        return relation
     return _shared_relationship_assessment(profile_id, relation) or relation
 
 
@@ -881,11 +883,23 @@ def _family_html(profile_id: str, dossier: dict, model: dict, index: dict, edito
             groups.append((configured.get("key") or "family", configured.get("title") or "Family", values))
     else:
         groups = [("parents", "Parents", relations.get("parents", [])), ("spouses", "Spouse or partner", relations.get("spouses", [])), ("children", "Children", relations.get("children", [])), ("siblings", "Brothers and sisters", relations.get("siblings", []))]
+    current_groups, earlier_groups = [], []
+    for key, title, values in groups:
+        current, earlier = [], []
+        for relation in values:
+            inactive = (relation.get('display') in {'alternative', 'historical', 'superseded'}
+                        or relation.get('lifecycle') in {'alternative', 'historical', 'superseded'})
+            (earlier if inactive else current).append(relation)
+        current_groups.append((key, title, current))
+        if earlier:
+            earlier_groups.append(('alternative-' + key, 'Earlier and alternative ' + title.lower(), earlier))
+    groups = current_groups + earlier_groups
     out = []
     for key, title, values in groups:
         if not values:
             continue
-        if key == "children":
+        role_group = key.removeprefix('alternative-')
+        if role_group == "children":
             def child_sort(item):
                 rid = item.get("id") if isinstance(item, dict) else ""
                 _, child_model, _ = _profile_data(str(rid)) if rid else ({}, {}, {})
@@ -895,14 +909,17 @@ def _family_html(profile_id: str, dossier: dict, model: dict, index: dict, edito
             values = sorted(values, key=child_sort)
         rendered = []
         for original in values:
-            relation = _assessed_relation(profile_id, original, key)
+            relation = _assessed_relation(profile_id, original, role_group)
             rid = relation.get("id") or ""
             href = person_href(relation.get("url"), rid) if rid else ""
             name = relation.get("name") or rid or "Unnamed person"
             person = _link_text(href, name) if href else escape(name)
             state = relation.get("status") or relation.get("tree_status") or "unassessed"
-            label = _role_label(relation, key, state)
-            if key == 'parents':
+            label = _role_label(relation, role_group, state)
+            if key.startswith('alternative-'):
+                role = relation.get('relationship') or 'relationship'
+                label = 'Earlier or alternative ' + role + ' · ' + evidence_labels.label(state)
+            if role_group == 'parents':
                 try:
                     from relationship_probability import probability_for_relationship, _rated_label
                 except ModuleNotFoundError:
@@ -916,8 +933,8 @@ def _family_html(profile_id: str, dossier: dict, model: dict, index: dict, edito
                 label = evidence_labels.normalise_status_label(state, "Earlier tree proposal; not established")
             if relation.get("display") == "proposed":
                 label = evidence_labels.normalise_status_label(state, relation.get("status_label") or "Uncertain working hypothesis")
-            relationship = relation.get("relationship") or ("parent" if key == "parents" else "child" if key == "children" else "partner")
-            reason = _relation_reason(editorial, relation, key)
+            relationship = relation.get("relationship") or ("parent" if role_group == "parents" else "child" if role_group == "children" else "partner")
+            reason = _relation_reason(editorial, relation, role_group)
             source_links = []
             source_ids = list((editorial.get("family_sources") or {}).get(rid, []))
             source_ids.extend(relation.get("source_ids") or relation.get("evidence_ids") or [])
@@ -930,7 +947,7 @@ def _family_html(profile_id: str, dossier: dict, model: dict, index: dict, edito
             rendered.append(f'<tr data-state="{escape(_status_class(state))}"{claim_attr}><td>{person}<br><span class="relation-note">{escape(_family_dates(relation, index))}</span></td><td>{escape(relationship)}</td><td>{evidence_labels.label_html(state, "state", css=f"status-label status-{_status_class(state)}", text=label)}</td><td>{escape(reason)}{link_html}</td></tr>')
         previews = []
         for item in values:
-            relation = _assessed_relation(profile_id, item, key)
+            relation = _assessed_relation(profile_id, item, role_group)
             confirmed = relation.get("status") == "proved"
             name = str(item.get("name") or item.get("id") or "Unnamed")
             dates = _family_dates(relation, index)
