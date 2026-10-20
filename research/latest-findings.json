@@ -33084,6 +33084,44 @@
       "genealogical_connections_added": 1,
       "new_source_discoveries": 0,
       "new_original_inspections": 0
+    },
+    {
+      "id": "killycurragh-family-letter-fathers-20261020",
+      "found_on": "2026-10-20",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Killycurragh family letter: select William as working father of James (82%) and Samuel (66%).",
+      "qualification": "The percentages assess each entire father-to-profile proposition, including identification of the named son with the later profile; they are subjective comparative judgments, not measured frequencies. The original letter and holding succession remain unverified. Samuel’s circa-1800 birth is an estimate, and a materially older Samuel or a later same-name descendant is possible. His wife Anne’s approximate 1801 birth and their children in the 1820s–1830s do not date Samuel himself. A nephew or later tenant could share the name and townland. Do not transfer a recorded relationship to a later adult merely from the letter’s parent clause. William’s birth, death and own parents remain unknown. Miss Cunningham is retained as William’s reported wife, without selecting her as either profile’s mother. No existing person is merged or redated, and no live WikiTree edit has been made.",
+      "people": [
+        {
+          "id": "Glasgow-4145",
+          "name": "James Glasgow, Killycarragh probate subject",
+          "url": "/people/glasgow-4145.html"
+        },
+        {
+          "id": "Glasgow-1698",
+          "name": "Samuel Glasgow of Killycurragh",
+          "url": "/people/glasgow-1698.html"
+        },
+        {
+          "id": "record-william-glasgow-killycurragh-t1959",
+          "name": "William Glasgow, Killycurragh family-letter grandfather",
+          "url": "/people/record-william-glasgow-killycurragh-t1959.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "PRONI T1959/3, undated unsigned Glasgow–Rutherford family letter; earlier published transcription account reused, original uninspected",
+          "url": "https://www.genealogy.com/forum/surnames/topics/rutherford/5445/"
+        }
+      ],
+      "detail_url": "/people/glasgow-1698.html#research-findings",
+      "relationship_changes": [],
+      "certainty_upgrades": 0,
+      "new_father_attachments": 2,
+      "genealogical_connections_added": 2,
+      "new_source_discoveries": 0,
+      "new_original_inspections": 0
     }
   ]
 }

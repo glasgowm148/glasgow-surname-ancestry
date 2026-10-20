@@ -2469,3 +2469,9 @@ Burial-defined Walter remains on source-verification HOLD in the existing creati
 
 | [John Glasgow, later Drumgreenagh farmer](https://www.wikitree.com/wiki/Glasgow-3439) | OPEN | New probable father John Glasgow-4031, 64%; same Drumgreenagh name, farming occupation and compatible generation. |
 | [John Glasgow, Drumgreenagh farmer in 1786](https://www.wikitree.com/wiki/Glasgow-4031) | OPEN | Probable son John Glasgow-3439, 64%; no mother assigned and no exact farm succession claimed. |
+
+
+## Killycurragh family-letter fathers — 20 October 2026
+
+| [James Glasgow, Killycarragh probate subject](https://www.wikitree.com/wiki/Glasgow-4145) | OPEN | New probable father William, 82%; local documentary draft, identity unresolved. |
+| [Samuel Glasgow of Killycurragh](https://www.wikitree.com/wiki/Glasgow-1698) | OPEN | New probable father William, 66%; local documentary draft, identity unresolved. |

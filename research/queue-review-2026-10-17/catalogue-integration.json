@@ -1700,10 +1700,10 @@
       "significance": 50
     },
     "Glasgow-1698": {
-      "draft_path": "data/wikitree/queue-review-2026-10-17/Glasgow-1698.wiki",
-      "summary": "Add the cited record account: Samuel Glasgow, farmer examined at Moneymore. Retain the stated identity and relationship limits.",
-      "work_queue_summary": "Add the cited record account: Samuel Glasgow, farmer examined at Moneymore. Retain the stated identity and relationship limits.",
-      "queued_at": "2026-10-17",
+      "draft_path": "research/Glasgow-1698/killycurragh-father-2026-10-20.wiki",
+      "summary": "New probable father William of Killycurragh, 66%; documentary identity retained pending profile matching.",
+      "work_queue_summary": "Prefer the William named in PRONI T1959/3 as Samuel Glasgow-1698’s probable working father, at 66% confidence. The positive case combines the expressly named Samuel in the letter, the exact Killycurragh family-farm setting, and the later Samuel’s documented farmer/probate household there in 1857. It replaces an unnecessary blanket hold with a testable family placement. The identity is less secure than James’s: there is no traced lease succession or age for the letter’s Samuel, and the current birth estimate may represent a later generation.",
+      "queued_at": "2026-10-20",
       "status": "OPEN",
       "pending": true,
       "findings_path": "research/Glasgow-1698/findings.md",
@@ -1711,8 +1711,28 @@
         "subject-newspapers-irish-1800-1850-samuel-moneymore"
       ],
       "private_comparison": true,
-      "public_addition_wikitext": "A possible identification concerns Samuel Glasgow, farmer examined at Moneymore. An 1845 tenant-right discussion quotes Samuel Glasgow, described as an intelligent farmer examined at Moneymore, advocating secure tenure and protection against rent charged on improvements. He described seeing reclamation on Sir Thomas Staples’s land in his neighbourhood.<ref>Freeman’s Journal and Daily Commercial Advertiser, 19 March 1845, p. 1, Ulster tenant-right discussion; [https://www.newspapers.com/image/1050103241/ record]; Freeman’s Journal and Daily Commercial Advertiser, 19 March 1845, p. 1, alternate archive image of tenant-right passage; [https://www.newspapers.com/image/1380777866/ record].</ref> Moneymore is where he was examined, not an explicit home townland. The date of his examination, age and relatives are unstated. Cookstown farmers [[Glasgow-2054]] and [[Glasgow-1698]] are compatible; [[Glasgow-2908|Lisnagaver Glasgow]] is a weaker regional comparison, without a locality or occupation bridge. No connection to Lisnagaver is established. The identification remains uncertain.",
-      "prior_work_summary": ""
+      "public_addition_wikitext": "A possible identification concerns Samuel Glasgow, farmer examined at Moneymore. An 1845 tenant-right discussion quotes Samuel Glasgow, described as an intelligent farmer examined at Moneymore, advocating secure tenure and protection against rent charged on improvements. He described seeing reclamation on Sir Thomas Staples’s land in his neighbourhood.<ref>Freeman’s Journal and Daily Commercial Advertiser, 19 March 1845, p. 1, Ulster tenant-right discussion; [https://www.newspapers.com/image/1050103241/ record]; Freeman’s Journal and Daily Commercial Advertiser, 19 March 1845, p. 1, alternate archive image of tenant-right passage; [https://www.newspapers.com/image/1380777866/ record].</ref> Moneymore is where he was examined, not an explicit home townland. The date of his examination, age and relatives are unstated. Cookstown farmers [[Glasgow-2054]] and [[Glasgow-1698]] are compatible; [[Glasgow-2908|Lisnagaver Glasgow]] is a weaker regional comparison, without a locality or occupation bridge. No connection to Lisnagaver is established. The identification remains uncertain.\n\n=== Working father review, 20 October 2026 ===\n\nPrefer the William named in PRONI T1959/3 as Samuel Glasgow-1698’s probable working father, at 66% confidence. The positive case combines the expressly named Samuel in the letter, the exact Killycurragh family-farm setting, and the later Samuel’s documented farmer/probate household there in 1857. It replaces an unnecessary blanket hold with a testable family placement. The identity is less secure than James’s: there is no traced lease succession or age for the letter’s Samuel, and the current birth estimate may represent a later generation.\n\nThe percentages assess each entire father-to-profile proposition, including identification of the named son with the later profile; they are subjective comparative judgments, not measured frequencies. The original letter and holding succession remain unverified. Samuel’s circa-1800 birth is an estimate, and a materially older Samuel or a later same-name descendant is possible. His wife Anne’s approximate 1801 birth and their children in the 1820s–1830s do not date Samuel himself. A nephew or later tenant could share the name and townland. Do not transfer a recorded relationship to a later adult merely from the letter’s parent clause. William’s birth, death and own parents remain unknown. Miss Cunningham is retained as William’s reported wife, without selecting her as either profile’s mother. No existing person is merged or redated, and no live WikiTree edit has been made.\n\nInspect PRONI T1959/3 and associated family papers; test William’s identity against existing candidates and trace the Killycurragh holding through leases, rentals and valuation revisions. Establish Samuel’s age independently. The 1836 index date is probate information, not James’s exact death date.<ref>PRONI T1959/3; [https://www.genealogy.com/forum/surnames/topics/rutherford/5445/ published family-letter transcription], earlier reviewed account reused; original not newly inspected. [https://glasgow.phenotype.dev/people/record-william-glasgow-killycurragh-t1959.html Sourced William Glasgow draft and identity comparisons].</ref>",
+      "prior_work_summary": "",
+      "profile_id": "Glasgow-1698",
+      "biography_rechecked_at": "2026-10-20",
+      "remote_captured_at": "2026-10-20",
+      "significance": 76,
+      "manual_update": true,
+      "relationship_changes": [
+        {
+          "action": "add",
+          "relationship": "father",
+          "relative_id": "record-william-glasgow-killycurragh-t1959",
+          "status": "probable",
+          "before": "absent",
+          "assertion_id": "C-working-20261020-killycurragh-1698-father",
+          "previous_status_provenance": "Anonymous WikiTree getPeople,20 October 2026: Father=0.",
+          "scope": "Prefer the William named in PRONI T1959/3 as Samuel Glasgow-1698’s probable working father, at 66% confidence. The positive case combines the expressly named Samuel in the letter, the exact Killycurragh family-farm setting, and the later Samuel’s documented farmer/probate household there in 1857. It replaces an unnecessary blanket hold with a testable family placement. The identity is less secure than James’s: there is no traced lease succession or age for the letter’s Samuel, and the current birth estimate may represent a later generation."
+        }
+      ],
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "preservation_review_path": "research/ancestry-connections/killycurragh-preservation-2026-10-20.json"
     },
     "Glasgow-1737": {
       "draft_path": "research/Glasgow-1737/queue-review-2026-10-17.wiki",
@@ -6265,6 +6285,36 @@
       "preserve_captured_detail": false,
       "reviewed_narrative_reduction": true,
       "preservation_review_path": "research/ancestry-connections/drumgreenagh-preservation-2026-10-20.json"
+    },
+    "Glasgow-4145": {
+      "profile_id": "Glasgow-4145",
+      "queued_at": "2026-10-20",
+      "biography_rechecked_at": "2026-10-20",
+      "remote_captured_at": "2026-10-20",
+      "remote_wikitext": "[[Category:Glasgow Name Study]]\n{{Estimated Date}}\n\n== Biography ==\n\n'''James Glasgow''' was recorded at Killycarragh, County Tyrone, in the Public Record Office of Northern Ireland's index of pre-1858 wills and administrations. The entry is indexed under 21 March 1836.<ref name=\"Killycarragh1836\">Public Record Office of Northern Ireland, [https://apps.proni.gov.uk/ProniNames_IE/SearchPage.aspx PRONI Names], ''Pre-1858 Wills and Admons'', search result for James Glasgow, Killycarragh, 21 March 1836, accessed 7 September 2026. The result's item-detail URL is session-bound and the original probate document does not survive.</ref>\n\nThe index date should not be treated as an exact death date. The entry establishes a probate subject named James Glasgow and his recorded residence, but it supplies no age, occupation or relatives.<ref name=\"Killycarragh1836\" />\n\nA later family statement preserved as PRONI T1959/3 describes the writer's paternal grandfather, William Glasgow of Killycurragh, as the husband of an unidentified Miss Cunningham of Omagh and father of five sons and three daughters. The writer said that her father and a brother William were educated together; William became a physician in England. Three other sons—apparently Henry, James and Samuel—“lived and died on [the] farm in Killycurragh,” with Samuel remaining in their parents' house.<ref name=\"T1959\">Public Record Office of Northern Ireland, T1959/3, photocopy of an undated and unsigned Glasgow–Rutherford family letter preserved with papers of the 1890s; online transcription by Albert Rutherford reproduced by Gary Harding, [https://www.genealogy.com/forum/surnames/topics/rutherford/5445/ “Rutherfords and Glasgows in Co. Tyrone, Ireland”], 9 January 2005.</ref>\n\nThat relationship-defined James is the strongest and probable identity for the same-named Killycarragh probate subject. The letter's writer was born five months after her father, Rev. John Glasgow of Orritor, died in July 1801, placing the named James in the correct generation.<ref name=\"T1959\" /> A Presbyterian-ministers compilation independently identifies John Glasgow of Orritor as the minister ordained at New Row, Coleraine, on 8 March 1796 and records his death on 13 July 1801.<ref name=\"RevJohn\">[https://cotyrone.com/churchrecord/ministers-pres.html “Presbyterian Ministers in Co. Tyrone”], entry for John Glasgow of Orritor and New Row, Coleraine, citing his ordination on 8 March 1796 and death on 13 July 1801.</ref>\n\n== Research Notes ==\n\nThe index spells the residence ''Killycarragh''. It is probably the townland now rendered Killycurragh in the Oritor electoral division and Derryloran parish. The T1959/3 statement independently places the writer's uncle James on the family farm at Killycurragh and says that he died there. The combined name, place, generation and death evidence supports one probable identity, although the original probate document is lost and the family letter is known only through an online transcription.\n\nThe St Luran register records a James Glasgow living at Orritor Craigs in 1829, when a child was baptised to him and Mary Anne of Drumcann.<ref name=\"Derryloran1829\">Representative Church Body Library, [https://www.churchofireland.org/cmsfiles/pdf/AboutUs/library/AngRecord/DerryloranVol1.pdf ''Derryloran Parish Register, Volume 1''], baptism no. 466, 5 April 1829.</ref> He is a useful locality candidate for the 1836 estate, but the shared forename and neighbouring residence do not prove that the two records concern the same person.\n\n=== Duplicate audit ===\n\nThe local One Tree export and live WikiTree data were searched again in September 2026. The strongest automated place-name result is demonstrably not the deceased man:\n\n* [[Glasgow-1701|James Glasgow junior]] lived at Killycurragh but died there on 27 July 1875. His exact-place match is valuable for local context, not identity with the 1836 probate subject.\n* [[Glasgow-1702|James Glasgow of Ballynasollus]] died in 1882 and cannot be this man.\n* [[Glasgow-3444|James Glasgow of Cookstown]] died in 1866 and cannot be this man.\n* [[Glasgow-1165|James Glasgow]] belongs to the separately documented family of John Glasgow and Mary Arthur. His family Bible records his death on 20 April 1823 and gives no Killycurragh connection. The earlier death alone would not exclude a delayed probate entry, but the incompatible relationship-defined family does.\n* [[Glasgow-2989|James Glasgow of Derryloran]] is an older local candidate whose death is unresolved, but no source on the profile places him at Killycarragh or identifies him through relatives or property.\n\nNo current WikiTree profile is proved to represent this 1836 estate. The surviving index is too slight to show whether the subject was the 1829 Orritor Craigs householder, the older unresolved Derryloran man, or another member of the several contemporary Glasgow households.\n\nThe new family discriminator resolves the creation question even though it does not prove an exact birth date. None of the searched profiles represents the son of William Glasgow of Killycurragh and Miss Cunningham who lived and died on the family farm. [[Glasgow-2989|James of Derryloran]] is an older, relationship-free reconstruction, while the exact-place [[Glasgow-1701|James]] lived until 1875. Creating this man unconnected, with the probable family placement in Research Notes, avoids both conflation and omission.\n\n[[Glasgow-1698|Samuel Glasgow]], born about 1800 and reported to have died at\nKillycurragh in 1857, is the strongest live candidate for the brother Samuel\nwhom T1959/3 says remained in his parents' Killycurragh house. This is a useful\nprobable sibling identity, not proof of a shared parent attachment. By contrast,\n[[Glasgow-1675|William Glasgow of Killycurragh]] became a Presbyterian elder and\nemigrated to Ohio; that documented life does not fit the letter's physician\nWilliam who practised in London and Hull.\n\n=== Further research ===\n\nInspect the original T1959/3 photocopy, the rest of <code>T1959/1-8</code>, <code>D1413/3a-b</code> and <code>T1762</code>, then trace the Killycurragh holding through Derryloran rentals, deeds and valuation material. Those records may supply James's dates, heirs and his mother's forename. They are still required before making structured parent or sibling attachments, but not before creating the distinct record bearer.\n\n== Sources ==\n\n<references />",
+      "draft_path": "research/Glasgow-4145/killycurragh-father-2026-10-20.wiki",
+      "findings_path": "research/Glasgow-4145/findings.md",
+      "summary": "New probable father William of Killycurragh, 82%; documentary identity retained pending profile matching.",
+      "work_queue_summary": "Prefer the William named in PRONI T1959/3 as James Glasgow-4145’s probable working father, at 82% confidence. The letter’s paternal uncle James lived and died on the Killycurragh farm, matching the name, specific locality, generation and deceased status of the probate subject indexed at Killycarragh on 21 March 1836. The letter supplies the parent relationship absent from that index. The whole match remains inferred because the original probate document is lost and the letter is derivative; another local James remains possible.",
+      "significance": 82,
+      "status": "OPEN",
+      "pending": true,
+      "manual_update": true,
+      "relationship_changes": [
+        {
+          "action": "add",
+          "relationship": "father",
+          "relative_id": "record-william-glasgow-killycurragh-t1959",
+          "status": "probable",
+          "before": "absent",
+          "assertion_id": "C-working-20261020-killycurragh-4145-father",
+          "previous_status_provenance": "Anonymous WikiTree getPeople,20 October 2026: Father=0.",
+          "scope": "Prefer the William named in PRONI T1959/3 as James Glasgow-4145’s probable working father, at 82% confidence. The letter’s paternal uncle James lived and died on the Killycurragh farm, matching the name, specific locality, generation and deceased status of the probate subject indexed at Killycarragh on 21 March 1836. The letter supplies the parent relationship absent from that index. The whole match remains inferred because the original probate document is lost and the letter is derivative; another local James remains possible."
+        }
+      ],
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "preservation_review_path": "research/ancestry-connections/killycurragh-preservation-2026-10-20.json"
     }
   },
   "reviewed_on": "2026-10-17",
@@ -8841,6 +8891,68 @@
           "source_status": "Transcript inspected 18 October 2026; original uninspected",
           "record_precision": "Banns date; separate ceremony date not supplied",
           "location_basis": "Recorded residence and parish; not birthplace"
+        }
+      ]
+    },
+    {
+      "subject_id": "william-glasgow-killycurragh-t1959",
+      "catalogue_id": "record-william-glasgow-killycurragh-t1959",
+      "name": "William Glasgow, Killycurragh family-letter grandfather",
+      "source_subject_url": "https://www.genealogy.com/forum/surnames/topics/rutherford/5445/",
+      "research_subject_url": "/people/record-william-glasgow-killycurragh-t1959.html",
+      "draft_path": "research/Glasgow-1698/william-killycurragh-family-letter-2026-10-20.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\n'''William Glasgow''' of Killycurragh, County Tyrone, is named as the paternal grandfather in the undated family letter preserved as PRONI T1959/3. It reports his marriage to an unidentified Miss Cunningham of Omagh, five sons and three daughters, and sons James and Samuel who remained on the family farm.<ref name=\"FamilyLetter\">Public Record Office of Northern Ireland, T1959/3, photocopy of an undated and unsigned family letter among papers of the 1890s; Albert Rutherford transcription reproduced by Gary Harding, [https://www.genealogy.com/forum/surnames/topics/rutherford/5445/ Rutherfords and Glasgows in Co. Tyrone, Ireland], 9 January 2005. Earlier reviewed account reused on 20 October 2026; original uninspected, online transcription unavailable (HTTP 403) at recheck.</ref>\n\nHis birth, death, birthplace and own parents are unknown. The reported parental home was Killycurragh; no exact property or life dates are inferred. The family’s 1796 ministerial generation establishes historical context, not a recorded date for William.<ref>[https://cotyrone.com/churchrecord/ministers-pres.html Presbyterian Ministers in Co. Tyrone], John Glasgow from Orritor, ordained New Row 8 March 1796, died 13 July 1801; derivative compilation.</ref>\n\n== Research Notes ==\n\nPrefer the William named in PRONI T1959/3 as James Glasgow-4145’s probable working father, at 82% confidence. The letter’s paternal uncle James lived and died on the Killycurragh farm, matching the name, specific locality, generation and deceased status of the probate subject indexed at Killycarragh on 21 March 1836. The letter supplies the parent relationship absent from that index. The whole match remains inferred because the original probate document is lost and the letter is derivative; another local James remains possible.<ref name=\"FamilyLetter\" />\n\nPrefer the William named in PRONI T1959/3 as Samuel Glasgow-1698’s probable working father, at 66% confidence. The positive case combines the expressly named Samuel in the letter, the exact Killycurragh family-farm setting, and the later Samuel’s documented farmer/probate household there in 1857. It replaces an unnecessary blanket hold with a testable family placement. The identity is less secure than James’s: there is no traced lease succession or age for the letter’s Samuel, and the current birth estimate may represent a later generation.<ref name=\"FamilyLetter\" />\n\nThe percentages assess each entire father-to-profile proposition, including identification of the named son with the later profile; they are subjective comparative judgments, not measured frequencies. The original letter and holding succession remain unverified. Samuel’s circa-1800 birth is an estimate, and a materially older Samuel or a later same-name descendant is possible. His wife Anne’s approximate 1801 birth and their children in the 1820s–1830s do not date Samuel himself. A nephew or later tenant could share the name and townland. Do not transfer a recorded relationship to a later adult merely from the letter’s parent clause. William’s birth, death and own parents remain unknown. Miss Cunningham is retained as William’s reported wife, without selecting her as either profile’s mother. No existing person is merged or redated, and no live WikiTree edit has been made.\n\nIdentity remains unresolved before creating a separate WikiTree profile. This is a documentary account for the working family, not a conclusion that William is a new unique person.\n\n[[Glasgow-2426]] — Compatible broad generation and Moneymore-area family reconstruction. The current circa-1829 United States death conflicts with the letter’s parental home/death account if correct, but that death is an unverified tree claim and does not establish exclusion. No selected identity or ancestral transfer follows.\n\n[[Glasgow-2915]] — Compatible Cookstown-area father generation if the estimated 1760 birth is earlier. His reported wife Margaret Mitchell differs from Miss Cunningham; a prior marriage is possible but unproved. Missing family fields are not an exclusion. No selected identity or ancestral transfer follows.\n\nInspect PRONI T1959/3 and associated family papers; test William’s identity against existing candidates and trace the Killycurragh holding through leases, rentals and valuation revisions. Establish Samuel’s age independently. The 1836 index date is probate information, not James’s exact death date.\n\n[https://glasgow.phenotype.dev/free-space/glasgow-of-killycurragh-early-c19-aa9477/ Killycurragh household study and current family discussion].\n\n== Sources ==\n<references />",
+      "assessment": "The maintained reading of PRONI T1959/3 describes the writer’s paternal grandfather William Glasgow of Killycurragh and his wife, an unidentified Miss Cunningham of Omagh. Their sons included James and Samuel, who remained on the family farm; Samuel occupied the parental house. The writer’s father was the minister who died in July 1801. This is an undated, unsigned family recollection known through a published transcription, not an original newly inspected in this review. The public transcription returned HTTP 403 when rechecked today; the earlier source account is reused explicitly. Prefer the William named in PRONI T1959/3 as James Glasgow-4145’s probable working father, at 82% confidence. The letter’s paternal uncle James lived and died on the Killycurragh farm, matching the name, specific locality, generation and deceased status of the probate subject indexed at Killycarragh on 21 March 1836. The letter supplies the parent relationship absent from that index. The whole match remains inferred because the original probate document is lost and the letter is derivative; another local James remains possible. Prefer the William named in PRONI T1959/3 as Samuel Glasgow-1698’s probable working father, at 66% confidence. The positive case combines the expressly named Samuel in the letter, the exact Killycurragh family-farm setting, and the later Samuel’s documented farmer/probate household there in 1857. It replaces an unnecessary blanket hold with a testable family placement. The identity is less secure than James’s: there is no traced lease succession or age for the letter’s Samuel, and the current birth estimate may represent a later generation. The percentages assess each entire father-to-profile proposition, including identification of the named son with the later profile; they are subjective comparative judgments, not measured frequencies. The original letter and holding succession remain unverified. Samuel’s circa-1800 birth is an estimate, and a materially older Samuel or a later same-name descendant is possible. His wife Anne’s approximate 1801 birth and their children in the 1820s–1830s do not date Samuel himself. A nephew or later tenant could share the name and townland. Do not transfer a recorded relationship to a later adult merely from the letter’s parent clause. William’s birth, death and own parents remain unknown. Miss Cunningham is retained as William’s reported wife, without selecting her as either profile’s mother. No existing person is merged or redated, and no live WikiTree edit has been made. Inspect PRONI T1959/3 and associated family papers; test William’s identity against existing candidates and trace the Killycurragh holding through leases, rentals and valuation revisions. Establish Samuel’s age independently. The 1836 index date is probate information, not James’s exact death date.",
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-10-20",
+      "first_names": [
+        "William"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [
+        "Glasgow"
+      ],
+      "gender": "Male",
+      "birth": "",
+      "birth_note": "Unknown; father of an adult minister ordained in 1796. No birth year is supplied.",
+      "birth_location": "",
+      "death": "",
+      "death_location": "",
+      "historical_basis": {
+        "status": "historical",
+        "source_url": "https://www.genealogy.com/forum/surnames/topics/rutherford/5445/",
+        "latest_birth_year": 1796,
+        "note": "The letter identifies him as father of an adult minister ordained in 1796. This is a conservative existence bound, not a birthday or proved residence in 1796."
+      },
+      "candidates": [
+        {
+          "profile_id": "Glasgow-2426",
+          "url": "https://www.wikitree.com/wiki/Glasgow-2426",
+          "name": "William Glasgow (Glasgow-2426)",
+          "assessment": "Compatible broad generation and Moneymore-area family reconstruction. The current circa-1829 United States death conflicts with the letter’s parental home/death account if correct, but that death is an unverified tree claim and does not establish exclusion. No selected identity or ancestral transfer follows."
+        },
+        {
+          "profile_id": "Glasgow-2915",
+          "url": "https://www.wikitree.com/wiki/Glasgow-2915",
+          "name": "William Glasgow (Glasgow-2915)",
+          "assessment": "Compatible Cookstown-area father generation if the estimated 1760 birth is earlier. His reported wife Margaret Mitchell differs from Miss Cunningham; a prior marriage is possible but unproved. Missing family fields are not an exclusion. No selected identity or ancestral transfer follows."
+        }
+      ],
+      "records": [
+        {
+          "year": "",
+          "filter_year": null,
+          "family_group": "Killycurragh family-letter household",
+          "region": "Ireland",
+          "record_location": "Killycurragh, Derryloran, County Tyrone, Ireland",
+          "association": "Family letter names William as father of James and Samuel; profile identities remain qualified.",
+          "note": "The maintained reading of PRONI T1959/3 describes the writer’s paternal grandfather William Glasgow of Killycurragh and his wife, an unidentified Miss Cunningham of Omagh. Their sons included James and Samuel, who remained on the family farm; Samuel occupied the parental house. The writer’s father was the minister who died in July 1801. This is an undated, unsigned family recollection known through a published transcription, not an original newly inspected in this review. The public transcription returned HTTP 403 when rechecked today; the earlier source account is reused explicitly. The percentages assess each entire father-to-profile proposition, including identification of the named son with the later profile; they are subjective comparative judgments, not measured frequencies. The original letter and holding succession remain unverified. Samuel’s circa-1800 birth is an estimate, and a materially older Samuel or a later same-name descendant is possible. His wife Anne’s approximate 1801 birth and their children in the 1820s–1830s do not date Samuel himself. A nephew or later tenant could share the name and townland. Do not transfer a recorded relationship to a later adult merely from the letter’s parent clause. William’s birth, death and own parents remain unknown. Miss Cunningham is retained as William’s reported wife, without selecting her as either profile’s mother. No existing person is merged or redated, and no live WikiTree edit has been made.",
+          "source_title": "PRONI T1959/3, undated unsigned Glasgow–Rutherford family letter; earlier published transcription account reused, original uninspected",
+          "source_url": "https://www.genealogy.com/forum/surnames/topics/rutherford/5445/",
+          "source_type": "family_letter",
+          "source_status": "Earlier reviewed derivative account; original uninspected"
         }
       ]
     }

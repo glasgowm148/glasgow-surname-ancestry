@@ -1,0 +1,49 @@
+{
+  "reviewed": "2026-10-20",
+  "father_account": "record-william-glasgow-killycurragh-t1959",
+  "father_identity_status": "Unresolved; existing candidates retained, no new unique identity asserted",
+  "proposals": {
+    "Glasgow-4145": 82,
+    "Glasgow-1698": 66
+  },
+  "basis": {
+    "Glasgow-1698": "Prefer the William named in PRONI T1959/3 as Samuel Glasgow-1698’s probable working father, at 66% confidence. The positive case combines the expressly named Samuel in the letter, the exact Killycurragh family-farm setting, and the later Samuel’s documented farmer/probate household there in 1857. It replaces an unnecessary blanket hold with a testable family placement. The identity is less secure than James’s: there is no traced lease succession or age for the letter’s Samuel, and the current birth estimate may represent a later generation.",
+    "Glasgow-4145": "Prefer the William named in PRONI T1959/3 as James Glasgow-4145’s probable working father, at 82% confidence. The letter’s paternal uncle James lived and died on the Killycurragh farm, matching the name, specific locality, generation and deceased status of the probate subject indexed at Killycarragh on 21 March 1836. The letter supplies the parent relationship absent from that index. The whole match remains inferred because the original probate document is lost and the letter is derivative; another local James remains possible."
+  },
+  "limitations": "The percentages assess each entire father-to-profile proposition, including identification of the named son with the later profile; they are subjective comparative judgments, not measured frequencies. The original letter and holding succession remain unverified. Samuel’s circa-1800 birth is an estimate, and a materially older Samuel or a later same-name descendant is possible. His wife Anne’s approximate 1801 birth and their children in the 1820s–1830s do not date Samuel himself. A nephew or later tenant could share the name and townland. Do not transfer a recorded relationship to a later adult merely from the letter’s parent clause. William’s birth, death and own parents remain unknown. Miss Cunningham is retained as William’s reported wife, without selecting her as either profile’s mother. No existing person is merged or redated, and no live WikiTree edit has been made.",
+  "sources": [
+    {
+      "title": "PRONI T1959/3, undated unsigned Glasgow–Rutherford family letter; earlier published transcription account reused, original uninspected",
+      "url": "https://www.genealogy.com/forum/surnames/topics/rutherford/5445/"
+    }
+  ],
+  "candidates": [
+    {
+      "profile_id": "Glasgow-2426",
+      "url": "https://www.wikitree.com/wiki/Glasgow-2426",
+      "name": "William Glasgow (Glasgow-2426)",
+      "assessment": "Compatible broad generation and Moneymore-area family reconstruction. The current circa-1829 United States death conflicts with the letter’s parental home/death account if correct, but that death is an unverified tree claim and does not establish exclusion. No selected identity or ancestral transfer follows."
+    },
+    {
+      "profile_id": "Glasgow-2915",
+      "url": "https://www.wikitree.com/wiki/Glasgow-2915",
+      "name": "William Glasgow (Glasgow-2915)",
+      "assessment": "Compatible Cookstown-area father generation if the estimated 1760 birth is earlier. His reported wife Margaret Mitchell differs from Miss Cunningham; a prior marriage is possible but unproved. Missing family fields are not an exclusion. No selected identity or ancestral transfer follows."
+    }
+  ],
+  "new_original_inspections": 0,
+  "new_live_saves": 0,
+  "search_scope": "Local public historical catalogue: William Glasgow birth/bound 1700–1770, including all Tyrone/Cookstown/Moneymore entries; Scottish entries retained as unplaced comparisons, no absent-field exclusions. Fresh anonymous Open non-living profiles1698/4145/4146 checked;4145was missing from the local catalogue and is reconciled. No global duplicate search claimed.",
+  "scouting_dispositions": {
+    "Glasgow-45": "Cited Dan Williams history and source notes read; father unnamed, no new father proposal.",
+    "Glasgow-3593": "Scottish David3456 remains compatible; no migration/kin bridge found.",
+    "Glasgow-1657": "Cross near Broughshane not the Cross/Derry reconstruction; no named father selected."
+  },
+  "catalogue_reconciliation": {
+    "retired_catalogue_id": "record-james-glasgow-killycurragh-1836-probate-occurrence",
+    "existing_profile_id": "Glasgow-4145",
+    "basis": "Identical1836 probate-index citation and letter-defined paternal-uncle account, checked against fresh Open profile. Old creation suggestion retired; source preserved on James.",
+    "is_genealogical_connection": false
+  },
+  "privacy_presentation": "Samuel’s inherited private comparison remains withheld. The current historical additions are public; a safe complete maintained proposal omits the private comparison passage, whose owner copy is kept only under data/private."
+}

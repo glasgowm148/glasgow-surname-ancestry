@@ -1,4 +1,4 @@
-> **READY TO CREATE — PRONI T1959/3 distinguishes a paternal uncle James who lived and died on the Killycurragh farm. No compatible WikiTree profile represents that man. Keep the proposed parentage evidence-based and unstructured until the parents have profiles.**
+> **EXISTING PROFILE — [Glasgow-4145](https://www.wikitree.com/wiki/Glasgow-4145), verified Open and non-living on 20 October 2026. Do not create again. The earlier creation handoff below is retained as history. The current complete replacement is `killycurragh-father-2026-10-20.wiki`: William of the family letter is the probable working father at 82%, with identity candidates retained and no mother selected.**
 
 # James Glasgow of Killycarragh/Killycurragh, County Tyrone, 1836
 

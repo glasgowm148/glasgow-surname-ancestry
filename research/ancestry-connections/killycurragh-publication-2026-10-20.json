@@ -1,0 +1,212 @@
+{
+  "reviewed": "2026-10-20",
+  "new_father_proposals": {
+    "Glasgow-4145": 82,
+    "Glasgow-1698": 66
+  },
+  "father_identity": "Unresolved documentary account; existing candidates retained",
+  "new_unique_people_asserted": 0,
+  "existing_profile_newly_included_locally": "Glasgow-4145",
+  "confidence_only_upgrades": 0,
+  "metrics": {
+    "1500": {
+      "population": [
+        2,
+        2
+      ],
+      "edge_count": [
+        2,
+        2
+      ],
+      "component_count": [
+        1,
+        1
+      ],
+      "largest_component_size": [
+        2,
+        2
+      ],
+      "connected_pairs_percent": [
+        100.0,
+        100.0
+      ]
+    },
+    "1550": {
+      "population": [
+        19,
+        19
+      ],
+      "edge_count": [
+        18,
+        18
+      ],
+      "component_count": [
+        2,
+        2
+      ],
+      "largest_component_size": [
+        18,
+        18
+      ],
+      "connected_pairs_percent": [
+        89.47368421052632,
+        89.47368421052632
+      ]
+    },
+    "1600": {
+      "population": [
+        52,
+        52
+      ],
+      "edge_count": [
+        49,
+        49
+      ],
+      "component_count": [
+        5,
+        5
+      ],
+      "largest_component_size": [
+        48,
+        48
+      ],
+      "connected_pairs_percent": [
+        85.06787330316742,
+        85.06787330316742
+      ]
+    },
+    "1650": {
+      "population": [
+        163,
+        163
+      ],
+      "edge_count": [
+        157,
+        157
+      ],
+      "component_count": [
+        8,
+        8
+      ],
+      "largest_component_size": [
+        156,
+        156
+      ],
+      "connected_pairs_percent": [
+        91.57009770506703,
+        91.57009770506703
+      ]
+    },
+    "1700": {
+      "population": [
+        309,
+        309
+      ],
+      "edge_count": [
+        286,
+        286
+      ],
+      "component_count": [
+        25,
+        25
+      ],
+      "largest_component_size": [
+        283,
+        283
+      ],
+      "connected_pairs_percent": [
+        83.85869793636783,
+        83.85869793636783
+      ]
+    },
+    "1750": {
+      "population": [
+        593,
+        593
+      ],
+      "edge_count": [
+        538,
+        538
+      ],
+      "component_count": [
+        57,
+        57
+      ],
+      "largest_component_size": [
+        529,
+        529
+      ],
+      "connected_pairs_percent": [
+        79.56793218176017,
+        79.56793218176017
+      ]
+    },
+    "1800": {
+      "population": [
+        921,
+        922
+      ],
+      "edge_count": [
+        762,
+        763
+      ],
+      "component_count": [
+        161,
+        161
+      ],
+      "largest_component_size": [
+        736,
+        736
+      ],
+      "connected_pairs_percent": [
+        63.85120143511306,
+        63.712931101485935
+      ]
+    },
+    "1850": {
+      "population": [
+        1789,
+        1791
+      ],
+      "edge_count": [
+        1384,
+        1386
+      ],
+      "component_count": [
+        407,
+        407
+      ],
+      "largest_component_size": [
+        1132,
+        1132
+      ],
+      "connected_pairs_percent": [
+        40.08200749547008,
+        39.99320001622014
+      ]
+    }
+  },
+  "old_vitals_and_other_parents_preserved": true,
+  "full_compact_pending_membership_equal": true,
+  "main_packed_matches_full": true,
+  "draft_hashes_verified": true,
+  "new_routes_in_xml_sitemap": true,
+  "reader_sitemap_links_complete_catalogue": true,
+  "coverage_note": "Two father proposals and two newly measured accounts form a seven-account family. Components and main pedigree size stay unchanged; no merge between previously counted components is claimed.",
+  "pending_before": 541,
+  "pending_after": 543,
+  "live_saves": 0,
+  "validation": {
+    "research_publication_new_failures": 0,
+    "new_broken_link_pairs": 0,
+    "pre_existing_broken_link_pairs": 4,
+    "person_anchor_diagnostics": 63,
+    "release_consistency": "passed",
+    "browser_checks": [
+      "Both catalogue new-probable-father rows,82% then66%, under townland/action/confidence filters",
+      "Main Whole tree selected James4145, fatherWilliam probable82%",
+      "Complete sourced father draft, retained candidate identities and both children66%/82%"
+    ],
+    "optional_genealogy_refresh": "Native hook returned1 after successful QMD update output; separate PDF/cache completion remains unresolved. Last complete refresh-state file is18October, so its warmed status is not treated as current."
+  }
+}

@@ -15058,5 +15058,113 @@
       "prior_status": "No father attached in current anonymous WikiTree capture; earlier notes allowed kinship but required an explicit parent record before attaching",
       "live_flag_changed": false
     }
+  },
+  {
+    "assertion_id": "C-working-20261020-killycurragh-1698-father",
+    "people": [
+      "Glasgow-1698",
+      "record-william-glasgow-killycurragh-t1959"
+    ],
+    "profile_names": {
+      "record-william-glasgow-killycurragh-t1959": "William Glasgow, Killycurragh family-letter grandfather",
+      "Glasgow-1698": "Samuel Glasgow of Killycurragh",
+      "Glasgow-4145": "James Glasgow, Killycarragh probate subject"
+    },
+    "status": "probable",
+    "hypothesis_status": "probable",
+    "publication_status": "approved",
+    "working_selection": true,
+    "allow_new_relationship": true,
+    "assessment_date": "2026-10-20",
+    "claim": "Killycurragh family-letter father, 66%",
+    "basis": "Prefer the William named in PRONI T1959/3 as Samuel Glasgow-1698’s probable working father, at 66% confidence. The positive case combines the expressly named Samuel in the letter, the exact Killycurragh family-farm setting, and the later Samuel’s documented farmer/probate household there in 1857. It replaces an unnecessary blanket hold with a testable family placement. The identity is less secure than James’s: there is no traced lease succession or age for the letter’s Samuel, and the current birth estimate may represent a later generation.",
+    "limitations": "The percentages assess each entire father-to-profile proposition, including identification of the named son with the later profile; they are subjective comparative judgments, not measured frequencies. The original letter and holding succession remain unverified. Samuel’s circa-1800 birth is an estimate, and a materially older Samuel or a later same-name descendant is possible. His wife Anne’s approximate 1801 birth and their children in the 1820s–1830s do not date Samuel himself. A nephew or later tenant could share the name and townland. Do not transfer a recorded relationship to a later adult merely from the letter’s parent clause. William’s birth, death and own parents remain unknown. Miss Cunningham is retained as William’s reported wife, without selecting her as either profile’s mother. No existing person is merged or redated, and no live WikiTree edit has been made.",
+    "record_scope": "Working father is the documentary William, not an identified Scottish or American namesake. Earlier reviewed source accounts reconsidered; no new original inspection.",
+    "source_ids": [
+      "killycurragh-glasgow-family-letter-t1959-3"
+    ],
+    "analysis_links": [
+      {
+        "label": "Killycurragh household study",
+        "href": "/free-space/glasgow-of-killycurragh-early-c19-aa9477/"
+      },
+      {
+        "label": "Current father assessment",
+        "href": "/people/glasgow-1698.html#research-findings"
+      }
+    ],
+    "perspectives": {
+      "Glasgow-1698": {
+        "relationship": "father",
+        "status_label": "Probable father · 66%",
+        "reason": "Prefer the William named in PRONI T1959/3 as Samuel Glasgow-1698’s probable working father, at 66% confidence. The positive case combines the expressly named Samuel in the letter, the exact Killycurragh family-farm setting, and the later Samuel’s documented farmer/probate household there in 1857. It replaces an unnecessary blanket hold with a testable family placement. The identity is less secure than James’s: there is no traced lease succession or age for the letter’s Samuel, and the current birth estimate may represent a later generation."
+      },
+      "record-william-glasgow-killycurragh-t1959": {
+        "relationship": "son",
+        "status_label": "Probable son · 66%",
+        "reason": "Prefer the William named in PRONI T1959/3 as Samuel Glasgow-1698’s probable working father, at 66% confidence. The positive case combines the expressly named Samuel in the letter, the exact Killycurragh family-farm setting, and the later Samuel’s documented farmer/probate household there in 1857. It replaces an unnecessary blanket hold with a testable family placement. The identity is less secure than James’s: there is no traced lease succession or age for the letter’s Samuel, and the current birth estimate may represent a later generation."
+      }
+    },
+    "provenance": {
+      "saved_wikitree_father": 0,
+      "saved_father_status": "",
+      "anonymous_capture_reviewed": "2026-10-20",
+      "prior_status": "No father attached; prior draft required original/corroborating evidence before any structured link.",
+      "live_flag_changed": false
+    }
+  },
+  {
+    "assertion_id": "C-working-20261020-killycurragh-4145-father",
+    "people": [
+      "Glasgow-4145",
+      "record-william-glasgow-killycurragh-t1959"
+    ],
+    "profile_names": {
+      "record-william-glasgow-killycurragh-t1959": "William Glasgow, Killycurragh family-letter grandfather",
+      "Glasgow-1698": "Samuel Glasgow of Killycurragh",
+      "Glasgow-4145": "James Glasgow, Killycarragh probate subject"
+    },
+    "status": "probable",
+    "hypothesis_status": "probable",
+    "publication_status": "approved",
+    "working_selection": true,
+    "allow_new_relationship": true,
+    "assessment_date": "2026-10-20",
+    "claim": "Killycurragh family-letter father, 82%",
+    "basis": "Prefer the William named in PRONI T1959/3 as James Glasgow-4145’s probable working father, at 82% confidence. The letter’s paternal uncle James lived and died on the Killycurragh farm, matching the name, specific locality, generation and deceased status of the probate subject indexed at Killycarragh on 21 March 1836. The letter supplies the parent relationship absent from that index. The whole match remains inferred because the original probate document is lost and the letter is derivative; another local James remains possible.",
+    "limitations": "The percentages assess each entire father-to-profile proposition, including identification of the named son with the later profile; they are subjective comparative judgments, not measured frequencies. The original letter and holding succession remain unverified. Samuel’s circa-1800 birth is an estimate, and a materially older Samuel or a later same-name descendant is possible. His wife Anne’s approximate 1801 birth and their children in the 1820s–1830s do not date Samuel himself. A nephew or later tenant could share the name and townland. Do not transfer a recorded relationship to a later adult merely from the letter’s parent clause. William’s birth, death and own parents remain unknown. Miss Cunningham is retained as William’s reported wife, without selecting her as either profile’s mother. No existing person is merged or redated, and no live WikiTree edit has been made.",
+    "record_scope": "Working father is the documentary William, not an identified Scottish or American namesake. Earlier reviewed source accounts reconsidered; no new original inspection.",
+    "source_ids": [
+      "killycurragh-glasgow-family-letter-t1959-3"
+    ],
+    "analysis_links": [
+      {
+        "label": "Killycurragh household study",
+        "href": "/free-space/glasgow-of-killycurragh-early-c19-aa9477/"
+      },
+      {
+        "label": "Current father assessment",
+        "href": "/people/glasgow-4145.html#research-findings"
+      }
+    ],
+    "perspectives": {
+      "Glasgow-4145": {
+        "relationship": "father",
+        "status_label": "Probable father · 82%",
+        "reason": "Prefer the William named in PRONI T1959/3 as James Glasgow-4145’s probable working father, at 82% confidence. The letter’s paternal uncle James lived and died on the Killycurragh farm, matching the name, specific locality, generation and deceased status of the probate subject indexed at Killycarragh on 21 March 1836. The letter supplies the parent relationship absent from that index. The whole match remains inferred because the original probate document is lost and the letter is derivative; another local James remains possible."
+      },
+      "record-william-glasgow-killycurragh-t1959": {
+        "relationship": "son",
+        "status_label": "Probable son · 82%",
+        "reason": "Prefer the William named in PRONI T1959/3 as James Glasgow-4145’s probable working father, at 82% confidence. The letter’s paternal uncle James lived and died on the Killycurragh farm, matching the name, specific locality, generation and deceased status of the probate subject indexed at Killycarragh on 21 March 1836. The letter supplies the parent relationship absent from that index. The whole match remains inferred because the original probate document is lost and the letter is derivative; another local James remains possible."
+      }
+    },
+    "provenance": {
+      "saved_wikitree_father": 0,
+      "saved_father_status": "",
+      "anonymous_capture_reviewed": "2026-10-20",
+      "prior_status": "No father attached; prior draft required original/corroborating evidence before any structured link.",
+      "live_flag_changed": false
+    }
   }
 ]
