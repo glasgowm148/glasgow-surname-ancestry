@@ -2489,3 +2489,12 @@ Burial-defined Walter remains on source-verification HOLD in the existing creati
 
 | [James Glasgow, the 1690 apprentice](https://www.wikitree.com/wiki/Glasgow-4131) | OPEN | New possible father James Glasgow-3332, 46%; the explicit Lindsayland-weaver father is identified with this existing candidate provisionally. |
 | [James Glasgow, candidate Lindsaylands weaver](https://www.wikitree.com/wiki/Glasgow-3332) | OPEN | Possible son James Glasgow-4131, 46%; recorded father role separated from the unresolved 1680/profile identification. |
+
+
+## Kirknewton couple and maternal comparison —20 October 2026
+
+| [William Glasgow, older Kirknewton householder](https://www.wikitree.com/wiki/Glasgow-1026) | OPEN | Probable intended spouse Marion-3025, 69%; new 1681 couple selected. Own father remains 24%. |
+| [Marion Glasgow, recorded in 1655](https://www.wikitree.com/wiki/Glasgow-3025) | OPEN | Probable intended spouse William-1026, 69%; possible daughter Bessie-1545, 54%. |
+| [Bessie Glasgow](https://www.wikitree.com/wiki/Glasgow-1545) | OPEN | Replace the local maternal selection with Marion-3025, 54%; Ann McCook retained as an alternative. |
+| [Ann McCook](https://www.wikitree.com/wiki/McCook-217) | OPEN | Bessie’s inherited maternity retained as an unselected alternative; other relationships unchanged. |
+| [Andrew Glasgow](https://www.wikitree.com/wiki/Glasgow-1546) | OPEN | The 1700 Cook entries are banns; new 18 May entry and 14 June qualification, father remains 58%. |

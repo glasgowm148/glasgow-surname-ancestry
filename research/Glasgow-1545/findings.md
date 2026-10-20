@@ -1,11 +1,33 @@
 # Findings: [Glasgow-1545](https://www.wikitree.com/wiki/Glasgow-1545)
 
+## Current conclusion
+
+The fresh public WikiTree capture marks Ann McCook’s motherhood confident(flag 20). The local review explicitly downgrades that inherited certainty to an unselected uncertain alternative: the child sources cited for it name only William. This is a reassessment of a tree flag, not proof that Ann could not be Bessie’s mother; no live flag or relationship is changed. William’s existing confident father role for Bessie is individually rated 98%, without counting it as new certainty.
+
+Reviewed: 2026-10-20. **Replace the local maternal selection with Marion-3025, 54%; Ann McCook retained as an alternative.**
+
+Select William Glasgow-1026 and Marion Glasgow-3025 as the probable intended couple of the 1681 banns, at 69% subjective confidence for the combined profile identification. William’s record-defined Kirknewton father account is established by Bessie’s 21 April 1682 baptism, about ten months later. The same uncommon full paternal name, parish and close sequence favour identifying that father with the groom. Marion-3025 is the existing local child account indexed in 1655, whose name, parish and ordinary mid-twenties adult generation make her the leading bride comparison. Prefer this qualified reuse of two compatible existing accounts to leaving the recorded couple unconnected or creating another William and Marion. This selects the intended couple; it does not prove a completed wedding or a ceremony date.
+
+Select Marion Glasgow-3025 as Bessie Glasgow-1545’s possible working mother, at 54% subjective confidence, replacing Ann McCook-217 locally while retaining Ann as an unselected alternative. The 1681 named couple followed by the same-parish William’s child in April 1682 supplies positive contemporary household evidence that Ann’s inherited attachment lacks. The mother is omitted in Bessie’s inspected indexes. The lower 54% includes the bride/profile identity, groom/father identity, completion or continuation of the union, and maternity; it is not direct record wording. This is a new preferred maternal hypothesis, not a documented maternity upgrade. Ann is not biologically disproved, and her other attached children and spouse hypothesis retain their prior status.
+
+Findmypast’s transcript names William Glasgow and Marion Glasgow in banns dated 10 June 1681 at Kirknewton and East Calder, OPR 689/20, item 1, p.39. It gives marriage year 1681, without a separate wedding date, ages, parents, occupations or residence within the parish. This transcript was inspected on 20 October 2026. Marion’s existing findings already contained the same couple/date from the supplied ScotlandsPeople index, OPR 690/10/82, FR51; these are derivatives of one event, not independent corroboration. The original remains uninspected and the archive-reference discrepancy unresolved.
+
+The alternative explanations remain: another William could be the groom or Bessie’s father; the bride could be another Marion, including the compatible Inveresk Marion-1429/Marione-3049 or Edinburgh Marion-3143 accounts. The earlier 1664 William banns item supplies another adult-couple comparison, not proof of one man’s remarriage. The older William-1087 remains a possible groom comparison if the bride is a different Marion; Marion-3025’s own William-1087 father identification is ungraded and cannot be used circularly to exclude that possibility. William-3974’s recorded 1671 childhood makes him a poor ordinary groom comparison for 1681, without validating the older man’s estimated 1660 birth. Marion’s 11 October/4 November 1655 date discrepancy is retained. Neither a shared surname nor a presumed cousin marriage proves the couple’s ancestry. The pair and maternity share identity premises and are correlated assessments, not independent proofs or mechanically multiplied probabilities. William’s John-3610 father remains 24%; no mother is transferred to his later children, no biological father is changed, and all vital fields remain unchanged.
+
+Inspect the original 1681 banns and 1682 baptism for residence, witnesses, maternal wording and any marriage completion note; reconcile both providers’ register references. Test the 1664 groom separately and compare the other Marion households. Seek an independent William/Ann record for the retained alternative.
+
+Compared accounts: [Glasgow-1026](https://www.wikitree.com/wiki/Glasgow-1026); [Glasgow-3025](https://www.wikitree.com/wiki/Glasgow-3025); [Glasgow-1545](https://www.wikitree.com/wiki/Glasgow-1545); [McCook-217](https://www.wikitree.com/wiki/McCook-217); [Glasgow-1087](https://www.wikitree.com/wiki/Glasgow-1087); [Glasgow-3974](https://www.wikitree.com/wiki/Glasgow-3974); [Glasgow-1429](https://www.wikitree.com/wiki/Glasgow-1429); [Glasgow-3049](https://www.wikitree.com/wiki/Glasgow-3049); [Glasgow-3143](https://www.wikitree.com/wiki/Glasgow-3143); [Glasgow-3610](https://www.wikitree.com/wiki/Glasgow-3610).
+
+[Family comparison](/branches/early-scottish-records/#chapter-lothian-family-heads).
+
+
+
 Last updated: 2026-10-07
 
 
 <!-- opr-birth-review-row-63 -->
 
-## Current conclusion
+## Earlier dated conclusion — superseded where noted
 
 Reviewed: 2026-10-20.
 
@@ -44,3 +66,10 @@ Inspect the original OPR entries for residence, maternal wording and witnesses, 
 - [FamilySearch VQ4K-FY9: William Glasgou, christened 22 April 1705; father William, no mother](https://www.familysearch.org/ark:/61903/1:1:VQ4K-FY9)
 
 [William’s combined household assessment](/people/glasgow-1026.html#research-findings).
+
+
+## Source check —20 October 2026
+
+- [Findmypast, William Glasgow and Marion Glasgow, banns 10 June 1681; OPR689/20 item 1 p 39; transcript inspected 20 October 2026](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FMAR%2F1434226%2F1&tab=this)
+- [FamilySearch VQ4K-H5K, Marion Glasgow, indexed 1655, father William; held citation reused, conflicting indexed dates retained](https://www.familysearch.org/ark:/61903/1:1:VQ4K-H5K)
+- [FamilySearch VQ4K-ZQN, Bessie 1682, named father William only; held inspected citation reused](https://www.familysearch.org/ark:/61903/1:1:VQ4K-ZQN)

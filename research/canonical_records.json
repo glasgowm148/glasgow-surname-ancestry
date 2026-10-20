@@ -2558,17 +2558,20 @@
     "place": "Kirknewton",
     "source_title": "FamilySearch VQ4K-ZQN: William in Bessie’s 1682 entry; child link VQ4K-ZQF; father only",
     "source_url": "https://www.familysearch.org/ark:/61903/1:1:VQ4K-ZQN",
-    "status": "FamilySearch and Findmypast transcripts inspected20October2026; original uninspected",
-    "note": "The FamilySearch citations previously used to say William and Ann McCook were both recorded as parents were also inspected. VQ4K-ZQN is the father entry for Bessie, linked to child VQ4K-ZQF; it names William only. VQ4K-FY9 records the child William Glasgou and his father William, without a mother. Both display “Image Unavailable”. These indexes therefore do not establish Ann’s maternity or the couple’s marriage. The older claim that those citations name Ann is superseded; the earlier attached family and all citations remain available for comparison. An omitted mother is not evidence excluding Ann. The Findmypast transcripts inspected on 20 October 2026 name William Glasgow as father of Bessie (21 April 1682), John (29 November 1702) and William (22 April 1705), all at Kirknewton and East Calder. None displays a mother, residence within the parish, occupation or witnesses. Bessie’s transcript gives OPR 689/20, item 1, page 39; the two later transcripts give the same archive reference and item but no page. This provider reference differs from the supplied ScotlandsPeople parish 690 references and must be reconciled against the original. No original register image was inspected.",
+    "status": "FamilySearch and Findmypast transcripts inspected 20 October 2026; original uninspected",
+    "note": "The FamilySearch citations previously used to say William and Ann McCook were both recorded as parents were also inspected. VQ4K-ZQN is the father entry for Bessie, linked to child VQ4K-ZQF; it names William only. VQ4K-FY9 records the child William Glasgou and his father William, without a mother. Both display “Image Unavailable”. These indexes therefore do not establish Ann’s maternity or the couple’s marriage. The older claim that those citations name Ann is superseded; the earlier attached family and all citations remain available for comparison. An omitted mother is not evidence excluding Ann. The Findmypast transcripts inspected on 20 October 2026 name William Glasgow as father of Bessie (21 April 1682), John (29 November 1702) and William (22 April 1705), all at Kirknewton and East Calder. None displays a mother, residence within the parish, occupation or witnesses. Bessie’s transcript gives OPR 689/20, item 1, page 39; the two later transcripts give the same archive reference and item but no page. This provider reference differs from the supplied ScotlandsPeople parish 690 references and must be reconciled against the original. No original register image was inspected. Select Marion Glasgow-3025 as Bessie Glasgow-1545’s possible working mother, at 54% subjective confidence, replacing Ann McCook-217 locally while retaining Ann as an unselected alternative. The 1681 named couple followed by the same-parish William’s child in April 1682 supplies positive contemporary household evidence that Ann’s inherited attachment lacks. The mother is omitted in Bessie’s inspected indexes. The lower 54% includes the bride/profile identity, groom/father identity, completion or continuation of the union, and maternity; it is not direct record wording. This is a new preferred maternal hypothesis, not a documented maternity upgrade. Ann is not biologically disproved, and her other attached children and spouse hypothesis retain their prior status. The fresh public WikiTree capture marks Ann McCook’s motherhood confident(flag 20). The local review explicitly downgrades that inherited certainty to an unselected uncertain alternative: the child sources cited for it name only William. This is a reassessment of a tree flag, not proof that Ann could not be Bessie’s mother; no live flag or relationship is changed. William’s existing confident father role for Bessie is individually rated 98%, without counting it as new certainty. The previously inspected 1682 child transcripts explicitly name William Glasgow as Bessie’s father. Bessie-1545 is the child account and William-1026 represents that older named-father account. Assess this record-defined father role at 98% subjective confidence. The fresh WikiTree capture already marks the father confident(flag 20); this adds an individual evidence-based percentage, not a newly confident father or a new father attachment. It does not identify that adult’s own father or prove a continuous 1682–1705 household.",
     "profiles": {
       "Glasgow-1026": {
         "role": "father in existing household review"
       },
       "McCook-217": {
-        "role": "Attached maternal candidate in existing tree; not named by the inspected record"
+        "role": "Retained unselected inherited maternal alternative; not named in child entry"
       },
       "Glasgow-1545": {
         "role": "indexed child"
+      },
+      "Glasgow-3025": {
+        "role": "Selected possible mother, 54%, inferred from 1681 couple; not named in child entry"
       }
     },
     "assessment_history": [
@@ -2578,6 +2581,11 @@
         "previous_note": "Existing household evidence for the older William; not the 1671 child’s parentage.",
         "previous_maternal_role": "mother in existing household review",
         "resolution": "Inspected indexes name father only; prior maternal attribution is an unproved tree claim."
+      },
+      {
+        "reviewed": "2026-10-20",
+        "previous_note": "The FamilySearch citations previously used to say William and Ann McCook were both recorded as parents were also inspected. VQ4K-ZQN is the father entry for Bessie, linked to child VQ4K-ZQF; it names William only. VQ4K-FY9 records the child William Glasgou and his father William, without a mother. Both display “Image Unavailable”. These indexes therefore do not establish Ann’s maternity or the couple’s marriage. The older claim that those citations name Ann is superseded; the earlier attached family and all citations remain available for comparison. An omitted mother is not evidence excluding Ann. The Findmypast transcripts inspected on 20 October 2026 name William Glasgow as father of Bessie (21 April 1682), John (29 November 1702) and William (22 April 1705), all at Kirknewton and East Calder. None displays a mother, residence within the parish, occupation or witnesses. Bessie’s transcript gives OPR 689/20, item 1, page 39; the two later transcripts give the same archive reference and item but no page. This provider reference differs from the supplied ScotlandsPeople parish 690 references and must be reconciled against the original. No original register image was inspected.",
+        "change": "Select a possible Marion maternity,54%, from the1681 couple; mother still omitted in child record."
       }
     ],
     "source_urls": [
@@ -5436,16 +5444,16 @@
   {
     "record_id": "kirknewton-andrew-cook-1700",
     "association": "Andreu Glasgou and Christian Cook marriage",
-    "date": "14 June 1700",
+    "date": "Banns 18 May and 14 June 1700; prior marriage index 14 June 1700",
     "year": 1700,
     "place": "Kirknewton and East Calder, Midlothian, Scotland",
-    "source_title": "FamilySearch Scotland Marriages,1561–1910,XY9W-VZX",
+    "source_title": "FamilySearch Scotland Marriages, 1561–1910,XY9W-VZX",
     "source_url": "https://www.familysearch.org/ark:/61903/1:1:XY9W-VZX",
-    "record_type": "marriage",
+    "record_type": "banns",
     "source_type": "Parish marriage index",
-    "status": "Transcript inspected 18 October 2026; no image available",
+    "status": "FamilySearch index previously checked; two Findmypast transcripts inspected 20 October 2026; original uninspected",
     "source_status": "Derivative parish index inspected; original unavailable",
-    "note": "Names the existing Andrew Glasgow-1546/Christian Cook couple, date and parish. Names neither groom parent. Spouse role 99%; no maternal inference for the 1702 child. Previously cited source newly checked, not a new source discovery.",
+    "note": "Findmypast transcripts inspected on 20 October 2026 give Andrew Glasgow and Christian/Chtian Cook in banns dated 18 May and 14 June 1700, both OPR 689/20, item 1, p.39. The earlier entry gives both residences only as Kirk Newton and East Calder. Neither names parents or an occupation; no separate solemnization date is supplied. The already cited FamilySearch marriage index gives 14 June. Retain that indexed association with the new banns qualification, without changing a structured date, the record-defined intended-couple grade of 99%, or Andrew’s possible Alexander-3118 father at 58%. The two entries concern one proposed union, not two wives or independent proofs of parentage.",
     "profiles": {
       "Glasgow-1546": {
         "role": "Groom, recorded Andreu Glasgou",
@@ -5455,7 +5463,17 @@
         "role": "Bride, Christian Cook",
         "timeline_group": "Life events"
       }
-    }
+    },
+    "assessment_history": [
+      {
+        "reviewed": "2026-10-20",
+        "previous_note": "Names the existing Andrew Glasgow-1546/Christian Cook couple, date and parish. Names neither groom parent. Spouse role 99%; no maternal inference for the 1702 child. Previously cited source newly checked, not a new source discovery."
+      }
+    ],
+    "additional_source_urls": [
+      "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FMAR%2F1434237%2F1&tab=this",
+      "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FMAR%2F1434239%2F1&tab=this"
+    ]
   },
   {
     "record_id": "kirknewton-james-andrew-1702",
@@ -5995,6 +6013,49 @@
       },
       "McCook-217": {
         "role": "Attached maternal candidate in existing tree; not named by the inspected record"
+      }
+    }
+  },
+  {
+    "record_id": "kirknewton-william-marion-banns-1681",
+    "association": "William Glasgow and Marion Glasgow, Kirknewton banns 1681",
+    "date": "10 June 1681",
+    "year": 1681,
+    "place": "Kirknewton and East Calder, Midlothian, Scotland",
+    "source_title": "Findmypast, William Glasgow and Marion Glasgow, banns 10 June 1681; OPR689/20 item 1 p 39; transcript inspected 20 October 2026",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FMAR%2F1434226%2F1&tab=this",
+    "record_type": "banns",
+    "source_type": "Parish transcript/index",
+    "status": "Transcript inspected 20 October 2026; original uninspected; identities inferred",
+    "note": "Findmypast’s transcript names William Glasgow and Marion Glasgow in banns dated 10 June 1681 at Kirknewton and East Calder, OPR 689/20, item 1, p.39. It gives marriage year 1681, without a separate wedding date, ages, parents, occupations or residence within the parish. This transcript was inspected on 20 October 2026. Marion’s existing findings already contained the same couple/date from the supplied ScotlandsPeople index, OPR 690/10/82, FR51; these are derivatives of one event, not independent corroboration. The original remains uninspected and the archive-reference discrepancy unresolved. Select William Glasgow-1026 and Marion Glasgow-3025 as the probable intended couple of the 1681 banns, at 69% subjective confidence for the combined profile identification. William’s record-defined Kirknewton father account is established by Bessie’s 21 April 1682 baptism, about ten months later. The same uncommon full paternal name, parish and close sequence favour identifying that father with the groom. Marion-3025 is the existing local child account indexed in 1655, whose name, parish and ordinary mid-twenties adult generation make her the leading bride comparison. Prefer this qualified reuse of two compatible existing accounts to leaving the recorded couple unconnected or creating another William and Marion. This selects the intended couple; it does not prove a completed wedding or a ceremony date. Select Marion Glasgow-3025 as Bessie Glasgow-1545’s possible working mother, at 54% subjective confidence, replacing Ann McCook-217 locally while retaining Ann as an unselected alternative. The 1681 named couple followed by the same-parish William’s child in April 1682 supplies positive contemporary household evidence that Ann’s inherited attachment lacks. The mother is omitted in Bessie’s inspected indexes. The lower 54% includes the bride/profile identity, groom/father identity, completion or continuation of the union, and maternity; it is not direct record wording. This is a new preferred maternal hypothesis, not a documented maternity upgrade. Ann is not biologically disproved, and her other attached children and spouse hypothesis retain their prior status.",
+    "profiles": {
+      "Glasgow-1026": {
+        "role": "Probable identification of named groom; 69%"
+      },
+      "Glasgow-3025": {
+        "role": "Probable identification of named bride; 69%"
+      },
+      "Glasgow-1545": {
+        "role": "Possible later child of couple; mother 54%; not named in banns"
+      },
+      "McCook-217": {
+        "role": "Retained alternative wife/mother; not named in this record"
+      }
+    }
+  },
+  {
+    "record_id": "kirknewton-marion-daughter-william-1655",
+    "association": "Marion Glasgow, 1655, named father William",
+    "date": "11 October / 4 November 1655, unreconciled index dates",
+    "year": 1655,
+    "place": "Kirknewton and East Calder, Scotland",
+    "source_title": "FamilySearch VQ4K-H5K, Marion Glasgow, indexed 1655, father William; held citation reused, conflicting indexed dates retained",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:VQ4K-H5K",
+    "status": "Previously maintained citation reused; no new source inspection",
+    "note": "The existing Marion-3025 account uses 11 October 1655; supplied ScotlandsPeople row 97 gives 4 November 1655, OPR690/10/37. Retain both for original comparison. Father William is named; identification with William-1087 and the later bride are separate inferences. No father upgrade or date change.",
+    "profiles": {
+      "Glasgow-3025": {
+        "role": "Recorded child; possible later bride"
       }
     }
   }

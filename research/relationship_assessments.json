@@ -15220,5 +15220,219 @@
       "prior_status": "No selected father profile; documentary father James already named in the1690 source",
       "live_flag_changed": false
     }
+  },
+  {
+    "profile_names": {
+      "Glasgow-1026": "William Glasgow, older Kirknewton householder",
+      "Glasgow-3025": "Marion Glasgow, recorded in 1655",
+      "Glasgow-1545": "Bessie Glasgow",
+      "McCook-217": "Ann McCook"
+    },
+    "publication_status": "approved",
+    "assessment_date": "2026-10-20",
+    "analysis_links": [
+      {
+        "label": "Kirknewton: the 1681 couple and Bessie’s possible mother",
+        "href": "/people/glasgow-1545.html#research-findings"
+      },
+      {
+        "label": "Kirknewton family comparison",
+        "href": "/branches/early-scottish-records/#chapter-lothian-family-heads"
+      }
+    ],
+    "assertion_id": "C-working-20261020-kirknewton-william-marion-spouses",
+    "people": [
+      "Glasgow-1026",
+      "Glasgow-3025"
+    ],
+    "status": "probable",
+    "allow_new_relationship": true,
+    "claim": "Probable 1681 intended couple, 69%",
+    "basis": "Select William Glasgow-1026 and Marion Glasgow-3025 as the probable intended couple of the 1681 banns, at 69% subjective confidence for the combined profile identification. William’s record-defined Kirknewton father account is established by Bessie’s 21 April 1682 baptism, about ten months later. The same uncommon full paternal name, parish and close sequence favour identifying that father with the groom. Marion-3025 is the existing local child account indexed in 1655, whose name, parish and ordinary mid-twenties adult generation make her the leading bride comparison. Prefer this qualified reuse of two compatible existing accounts to leaving the recorded couple unconnected or creating another William and Marion. This selects the intended couple; it does not prove a completed wedding or a ceremony date.",
+    "limitations": "The alternative explanations remain: another William could be the groom or Bessie’s father; the bride could be another Marion, including the compatible Inveresk Marion-1429/Marione-3049 or Edinburgh Marion-3143 accounts. The earlier 1664 William banns item supplies another adult-couple comparison, not proof of one man’s remarriage. The older William-1087 remains a possible groom comparison if the bride is a different Marion; Marion-3025’s own William-1087 father identification is ungraded and cannot be used circularly to exclude that possibility. William-3974’s recorded 1671 childhood makes him a poor ordinary groom comparison for 1681, without validating the older man’s estimated 1660 birth. Marion’s 11 October/4 November 1655 date discrepancy is retained. Neither a shared surname nor a presumed cousin marriage proves the couple’s ancestry. The pair and maternity share identity premises and are correlated assessments, not independent proofs or mechanically multiplied probabilities. William’s John-3610 father remains 24%; no mother is transferred to his later children, no biological father is changed, and all vital fields remain unchanged.",
+    "record_scope": "Intended couple in banns; combined profile identities 69%; no completed wedding date proved.",
+    "source_ids": [
+      "kirknewton-william-marion-banns-1681",
+      "kirknewton-marion-daughter-william-1655",
+      "kirknewton-bessie-1682-william-household"
+    ],
+    "perspectives": {
+      "Glasgow-1026": {
+        "relationship": "spouse",
+        "status_label": "Probable intended spouse · 69%",
+        "reason": "Select William Glasgow-1026 and Marion Glasgow-3025 as the probable intended couple of the 1681 banns, at 69% subjective confidence for the combined profile identification. William’s record-defined Kirknewton father account is established by Bessie’s 21 April 1682 baptism, about ten months later. The same uncommon full paternal name, parish and close sequence favour identifying that father with the groom. Marion-3025 is the existing local child account indexed in 1655, whose name, parish and ordinary mid-twenties adult generation make her the leading bride comparison. Prefer this qualified reuse of two compatible existing accounts to leaving the recorded couple unconnected or creating another William and Marion. This selects the intended couple; it does not prove a completed wedding or a ceremony date."
+      },
+      "Glasgow-3025": {
+        "relationship": "spouse",
+        "status_label": "Probable intended spouse · 69%",
+        "reason": "Select William Glasgow-1026 and Marion Glasgow-3025 as the probable intended couple of the 1681 banns, at 69% subjective confidence for the combined profile identification. William’s record-defined Kirknewton father account is established by Bessie’s 21 April 1682 baptism, about ten months later. The same uncommon full paternal name, parish and close sequence favour identifying that father with the groom. Marion-3025 is the existing local child account indexed in 1655, whose name, parish and ordinary mid-twenties adult generation make her the leading bride comparison. Prefer this qualified reuse of two compatible existing accounts to leaving the recorded couple unconnected or creating another William and Marion. This selects the intended couple; it does not prove a completed wedding or a ceremony date."
+      }
+    }
+  },
+  {
+    "profile_names": {
+      "Glasgow-1026": "William Glasgow, older Kirknewton householder",
+      "Glasgow-3025": "Marion Glasgow, recorded in 1655",
+      "Glasgow-1545": "Bessie Glasgow",
+      "McCook-217": "Ann McCook"
+    },
+    "publication_status": "approved",
+    "assessment_date": "2026-10-20",
+    "analysis_links": [
+      {
+        "label": "Kirknewton: the 1681 couple and Bessie’s possible mother",
+        "href": "/people/glasgow-1545.html#research-findings"
+      },
+      {
+        "label": "Kirknewton family comparison",
+        "href": "/branches/early-scottish-records/#chapter-lothian-family-heads"
+      }
+    ],
+    "assertion_id": "C-working-20261020-bessie-ann-alternative",
+    "people": [
+      "Glasgow-1545",
+      "McCook-217"
+    ],
+    "status": "uncertain",
+    "hypothesis_status": "possible",
+    "lifecycle": "alternative",
+    "display": "alternative",
+    "working_selection": false,
+    "allow_new_relationship": false,
+    "source_ids": [
+      "kirknewton-bessie-1682-william-household"
+    ],
+    "reason": "Retained unselected tree mother. Inspected child transcripts omit a mother; Ann’s maternity is not disproved. Prefer the contemporary 1681 Marion couple for Bessie only.",
+    "assessment_history": [
+      {
+        "status": "unknown",
+        "tree_status": "confident",
+        "saved_flag": "20",
+        "source_basis": "Fresh anonymous WikiTree capture 20 October 2026: Mother 20 confident. Reviewed child citations name only William; no inspected maternal clause."
+      }
+    ],
+    "perspectives": {
+      "Glasgow-1545": {
+        "relationship": "mother",
+        "status_label": "Unselected inherited maternal alternative"
+      },
+      "McCook-217": {
+        "relationship": "daughter",
+        "status_label": "Unselected inherited daughter alternative"
+      }
+    }
+  },
+  {
+    "profile_names": {
+      "Glasgow-1026": "William Glasgow, older Kirknewton householder",
+      "Glasgow-3025": "Marion Glasgow, recorded in 1655",
+      "Glasgow-1545": "Bessie Glasgow",
+      "McCook-217": "Ann McCook"
+    },
+    "publication_status": "approved",
+    "assessment_date": "2026-10-20",
+    "analysis_links": [
+      {
+        "label": "Kirknewton: the 1681 couple and Bessie’s possible mother",
+        "href": "/people/glasgow-1545.html#research-findings"
+      },
+      {
+        "label": "Kirknewton family comparison",
+        "href": "/branches/early-scottish-records/#chapter-lothian-family-heads"
+      }
+    ],
+    "assertion_id": "C-working-20261020-bessie-marion-mother",
+    "people": [
+      "Glasgow-1545",
+      "Glasgow-3025"
+    ],
+    "status": "possible",
+    "hypothesis_status": "possible",
+    "working_selection": true,
+    "allow_new_relationship": true,
+    "claim": "Bessie’s possible Marion mother, 54%",
+    "basis": "Select Marion Glasgow-3025 as Bessie Glasgow-1545’s possible working mother, at 54% subjective confidence, replacing Ann McCook-217 locally while retaining Ann as an unselected alternative. The 1681 named couple followed by the same-parish William’s child in April 1682 supplies positive contemporary household evidence that Ann’s inherited attachment lacks. The mother is omitted in Bessie’s inspected indexes. The lower 54% includes the bride/profile identity, groom/father identity, completion or continuation of the union, and maternity; it is not direct record wording. This is a new preferred maternal hypothesis, not a documented maternity upgrade. Ann is not biologically disproved, and her other attached children and spouse hypothesis retain their prior status.",
+    "limitations": "The alternative explanations remain: another William could be the groom or Bessie’s father; the bride could be another Marion, including the compatible Inveresk Marion-1429/Marione-3049 or Edinburgh Marion-3143 accounts. The earlier 1664 William banns item supplies another adult-couple comparison, not proof of one man’s remarriage. The older William-1087 remains a possible groom comparison if the bride is a different Marion; Marion-3025’s own William-1087 father identification is ungraded and cannot be used circularly to exclude that possibility. William-3974’s recorded 1671 childhood makes him a poor ordinary groom comparison for 1681, without validating the older man’s estimated 1660 birth. Marion’s 11 October/4 November 1655 date discrepancy is retained. Neither a shared surname nor a presumed cousin marriage proves the couple’s ancestry. The pair and maternity share identity premises and are correlated assessments, not independent proofs or mechanically multiplied probabilities. William’s John-3610 father remains 24%; no mother is transferred to his later children, no biological father is changed, and all vital fields remain unchanged.",
+    "record_scope": "Maternity inferred from the 1681 couple and 1682 father-only child record; 54%.",
+    "source_ids": [
+      "kirknewton-william-marion-banns-1681",
+      "kirknewton-marion-daughter-william-1655",
+      "kirknewton-bessie-1682-william-household"
+    ],
+    "working_parent_replacement": {
+      "previous_parent": "McCook-217",
+      "alternative_assertion_id": "C-working-20261020-bessie-ann-alternative",
+      "reason": "The named contemporary couple is preferred to an inherited maternal attachment unsupported by the inspected child records.",
+      "previous_parent_review": {
+        "previous_status": "confident",
+        "reviewed_status": "uncertain",
+        "saved_flag": "20",
+        "source_ids": [
+          "kirknewton-bessie-1682-william-household"
+        ],
+        "reason": "The cited child records were inspected and name William alone. The inherited maternal certainty lacks a supporting clause; the contemporary 1681 Marion couple is now preferred tentatively."
+      }
+    },
+    "assessment_history": [
+      {
+        "status": "unknown",
+        "relative_id": "McCook-217",
+        "tree_status": "confident",
+        "saved_flag": "20",
+        "source_basis": "Fresh anonymous WikiTree capture 20 October 2026: Mother 20 confident. Reviewed child citations name only William; no inspected maternal clause."
+      }
+    ],
+    "perspectives": {
+      "Glasgow-1545": {
+        "relationship": "mother",
+        "status_label": "Selected possible mother · 54%",
+        "reason": "Select Marion Glasgow-3025 as Bessie Glasgow-1545’s possible working mother, at 54% subjective confidence, replacing Ann McCook-217 locally while retaining Ann as an unselected alternative. The 1681 named couple followed by the same-parish William’s child in April 1682 supplies positive contemporary household evidence that Ann’s inherited attachment lacks. The mother is omitted in Bessie’s inspected indexes. The lower 54% includes the bride/profile identity, groom/father identity, completion or continuation of the union, and maternity; it is not direct record wording. This is a new preferred maternal hypothesis, not a documented maternity upgrade. Ann is not biologically disproved, and her other attached children and spouse hypothesis retain their prior status."
+      },
+      "Glasgow-3025": {
+        "relationship": "daughter",
+        "status_label": "Possible daughter · 54%",
+        "reason": "Select Marion Glasgow-3025 as Bessie Glasgow-1545’s possible working mother, at 54% subjective confidence, replacing Ann McCook-217 locally while retaining Ann as an unselected alternative. The 1681 named couple followed by the same-parish William’s child in April 1682 supplies positive contemporary household evidence that Ann’s inherited attachment lacks. The mother is omitted in Bessie’s inspected indexes. The lower 54% includes the bride/profile identity, groom/father identity, completion or continuation of the union, and maternity; it is not direct record wording. This is a new preferred maternal hypothesis, not a documented maternity upgrade. Ann is not biologically disproved, and her other attached children and spouse hypothesis retain their prior status."
+      }
+    }
+  },
+  {
+    "assertion_id": "C-role-20261020-bessie-william-father",
+    "people": [
+      "Glasgow-1545",
+      "Glasgow-1026"
+    ],
+    "profile_names": {
+      "Glasgow-1545": "Bessie Glasgow",
+      "Glasgow-1026": "William Glasgow, older Kirknewton father"
+    },
+    "status": "proved",
+    "publication_status": "approved",
+    "assessment_date": "2026-10-20",
+    "claim": "Bessie’s already tree-confident named father, 98%",
+    "basis": "The previously inspected 1682 child transcripts explicitly name William Glasgow as Bessie’s father. Bessie-1545 is the child account and William-1026 represents that older named-father account. Assess this record-defined father role at 98% subjective confidence. The fresh WikiTree capture already marks the father confident(flag 20); this adds an individual evidence-based percentage, not a newly confident father or a new father attachment. It does not identify that adult’s own father or prove a continuous 1682–1705 household.",
+    "record_scope": "Record-defined 1682 father role only; existing WikiTree certainty 20 retained, not newly confident.",
+    "source_ids": [
+      "kirknewton-bessie-1682-william-household"
+    ],
+    "assessment_history": [
+      {
+        "status": "unknown",
+        "tree_status": "confident",
+        "saved_flag": "20",
+        "source_basis": "Fresh public WikiTree capture 20 October 2026; existing named-father citation."
+      }
+    ],
+    "perspectives": {
+      "Glasgow-1545": {
+        "relationship": "father",
+        "status_label": "Documented father · 98%",
+        "reason": "The previously inspected 1682 child transcripts explicitly name William Glasgow as Bessie’s father. Bessie-1545 is the child account and William-1026 represents that older named-father account. Assess this record-defined father role at 98% subjective confidence. The fresh WikiTree capture already marks the father confident(flag 20); this adds an individual evidence-based percentage, not a newly confident father or a new father attachment. It does not identify that adult’s own father or prove a continuous 1682–1705 household."
+      },
+      "Glasgow-1026": {
+        "relationship": "daughter",
+        "status_label": "Documented daughter · 98%",
+        "reason": "The previously inspected 1682 child transcripts explicitly name William Glasgow as Bessie’s father. Bessie-1545 is the child account and William-1026 represents that older named-father account. Assess this record-defined father role at 98% subjective confidence. The fresh WikiTree capture already marks the father confident(flag 20); this adds an individual evidence-based percentage, not a newly confident father or a new father attachment. It does not identify that adult’s own father or prove a continuous 1682–1705 household."
+      }
+    }
   }
 ]

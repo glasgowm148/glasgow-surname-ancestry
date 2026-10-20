@@ -1,0 +1,68 @@
+{
+  "reviewed": "2026-10-20",
+  "new_spouse_selection_percent": 69,
+  "maternal_replacement_percent": 54,
+  "already_confident_father_individually_rated": 98,
+  "new_father_selections": 0,
+  "new_certainty_upgrades": 0,
+  "prior_maternal_confident_flag_retained": true,
+  "all_vitals_preserved": true,
+  "all_parent_ids_preserved_except_one_reviewed_mother": true,
+  "all_spouse_ids_preserved_plus_one_reciprocal_couple": true,
+  "paternal_connectivity_metrics_all_thresholds_unchanged": true,
+  "full_and_compact_pending_membership_equal": true,
+  "main_packed_model_matches_full": true,
+  "complete_proposals_and_captured_citations_verified": true,
+  "pending_count_before": 546,
+  "pending_count_after": 546,
+  "live_edits": 0,
+  "working_metrics": {
+    "1650": {
+      "population": 163,
+      "edge_count": 157,
+      "component_count": 8,
+      "largest_component_size": 156,
+      "connected_pairs_percent": 91.57009770506703
+    },
+    "1700": {
+      "population": 309,
+      "edge_count": 287,
+      "component_count": 24,
+      "largest_component_size": 284,
+      "connected_pairs_percent": 84.4534106670029
+    },
+    "1850": {
+      "population": 1791,
+      "edge_count": 1387,
+      "component_count": 406,
+      "largest_component_size": 1133,
+      "connected_pairs_percent": 40.06382003125497
+    }
+  },
+  "checks": {
+    "unit_tests": "33 passed: maternal hypotheses, reviewed replacements and retained certainty history",
+    "research_publication": "PASS,5 touched profiles;0 failing items",
+    "internal_links": "PASS,0 new broken pairs;existing4 pairs retained",
+    "release_consistency": "PASS"
+  },
+  "browser_checks": [
+    "Mother replacement/possible filter:one Bessie-1545 result;54% tag links to Marion-3025 on WikiTree;already-confident father98% has no new-father tag",
+    "New spouse/probable filter:both reciprocal William/Marion rows,69%, plus Marion’s possible child54%",
+    "Main Whole tree:Bessie’s motherMarion54%,fatherWilliam98%;Marion’s family shows intended spouse69% and daughter54%",
+    "Existing early Scottish study:69% couple,54% maternity and source-account link visible",
+    "Marion’s current account distinguishes separate public profilesWilliam-1556 andWilliam-1087;no alias or merge claimed"
+  ],
+  "retained_overview_warnings": {
+    "studies": [
+      "research-irish-moneymore",
+      "research-stevenston-estate-network"
+    ],
+    "reason": "Dated wider studies retain uncertain Irish migration/Scottish ancestry and no assigned mother for the1702 John. This Bessie-only maternal choice changes neither conclusion; the wider17-member review has not been claimed complete."
+  },
+  "local_synchronization_only": true,
+  "deployment_performed": false,
+  "model_support_commits": [
+    "79542bbc728",
+    "a2f5f4aced1"
+  ]
+}
