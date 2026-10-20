@@ -176,6 +176,25 @@ class WorkingHypothesisTests(unittest.TestCase):
         self.assertEqual(model[2]['priorWorkingChildren'], [{'id': 'Earlier-1'}, {'id': 'Child-1', 'status': 'unmarked'}])
         self.assertEqual(model[3]['childrenRecorded'][0]['id'], 'Child-1')
 
+    def test_maternal_selection_is_independent_of_a_paternal_hypothesis(self):
+        for father in [[], [dict(id='Father-1', role='father', status='unmarked')]]:
+            with self.subTest(father=father):
+                model, alternative, selected = self.maternal_replacement_case()
+                model[0]['parents'] = deepcopy(father) + [model[0]['parents'][1]]
+                self.assertEqual(apply_working_mothers(model, [alternative, selected]), 1)
+                self.assertEqual(model[0]['parents'][:-1], father)
+                self.assertEqual(model[0]['parents'][-1]['id'], 'NewMother-1')
+                self.assertEqual(model[3]['childrenRecorded'][0]['id'], 'Child-1')
+
+    def test_independent_mother_still_requires_reviewed_replacement(self):
+        model, alternative, selected = self.maternal_replacement_case()
+        model[0]['parents'][0].pop('hypothesis')
+        selected.pop('working_parent_replacement')
+        before = deepcopy(model)
+        with self.assertRaisesRegex(ValueError, 'reviewed replacement'):
+            apply_working_mothers(model, [alternative, selected])
+        self.assertEqual(model, before)
+
     def test_maternal_replacement_rejects_unsafe_or_unretained_parents_atomically(self):
         def missing_alternative(m, a, s): a['publication_status'] = 'draft'
         def wrong_role(m, a, s): a['perspectives']['Child-1']['relationship'] = 'father'

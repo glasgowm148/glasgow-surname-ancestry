@@ -272,8 +272,8 @@ def apply_working_mothers(people: list[dict], assessments: list[dict]) -> int:
                     or alternative.get('status') != 'uncertain' or not alternative.get('source_ids')
                     or alternative.get('perspectives', {}).get(child, {}).get('relationship') != 'mother'):
                 raise ValueError('Working mother replacement requires the captured mother and a retained uncertain alternative')
-        if (existing and not replacement) or not any(r.get('role') == 'father' and r.get('hypothesis') for r in parents):
-            raise ValueError('Working mother needs an empty maternal field beside a selected father')
+        if existing and not replacement:
+            raise ValueError('Working mother needs an empty maternal field or a reviewed replacement')
         children.add(child)
         selected.append((child, mother, a))
     proposed = {child: mother for child, mother, _ in selected}
