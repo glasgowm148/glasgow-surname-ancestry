@@ -21,6 +21,20 @@ Historical claims remain qualified where the evidence is incomplete. A person
 who supplies a correction or an enquiry chooses what information to include;
 the project uses it to assess that request.
 
+WikiTree profile privacy is respected as the profile manager set it. A
+capture below `Privacy` 50 is never published: only its profile link, capture
+dates and a "restricted capture withheld" note appear. On 20 October 2026 the
+project owner approved the following for profiles below 50 that remain on the
+public index:
+
+- **Privacy 40** ("Private with Public Biography and Family Tree"): published
+  as now.
+- **Privacy 35** ("Private with Public Family Tree"): tree facts only, meaning
+  names, dates as WikiTree shows them, relatives and places, with no biography,
+  research narrative, record excerpts or figures. All ten such profiles were
+  already in that form. `tests/test_wikitree_privacy_levels.py` fails if one
+  gains more.
+
 Raw WikiTree narratives and restricted captures stay in local research storage.
 Public citations and historical fields are filtered independently of the raw
 captures; potentially living relatives are withheld in HTML, JSON and exports.
