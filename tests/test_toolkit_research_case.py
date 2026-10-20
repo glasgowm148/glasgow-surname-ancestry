@@ -35,13 +35,13 @@ class TranslatorTests(unittest.TestCase):
         self.assertEqual(["glasgow:claim:a1"], tree.claim_ids)
         added = next(r for r in c.records("Relationship") if r.id == "glasgow:relationship:a2")
         self.assertEqual((person_id("Fable-3"), person_id("Fable-2"), "parent"), (added.subject_id, added.object_id, added.kind))
-        self.assertEqual(1, t.gaps["assessments naming a record subject or person outside the tree export"])
+        self.assertEqual(1, t.gaps["assessments naming a person who is not public"])
         self.assertEqual(1, t.gaps["'strongly_supported' grade shown as probable"])
 
     def test_notes_keep_known_people_as_references_and_flatten_the_rest(self):
         t = Translator(case())
         text = t.markdown("<!-- private --> See [[Fable-1|Ada]], [[Nobody-9]], [[Category:Fable Name Study]], [[1]], "
-                          "[a file](../Fable-1/notes.md) and [a record](https://example.org/r).\n| a | b |\n")
+                          "[a file](../Fable-1/notes.md) and [a record](https://example.org/r).\n| a | b |\n|---|---|\n| 1 | 2 |\n")
         self.assertIn("[[one-tree:person:Fable-1|Ada]]", text)
         self.assertIn("Nobody-9", text)
         self.assertIn("Category:Fable Name Study", text)
@@ -50,7 +50,7 @@ class TranslatorTests(unittest.TestCase):
         self.assertNotIn("notes.md", text)
         self.assertIn("[a record](https://example.org/r)", text)
         self.assertNotIn("private", text)
-        self.assertEqual(1, t.gaps["note table lines shown as plain text: no table support"])
+        self.assertEqual(1, t.report["tables in research notes"])
 
     def test_findings_link_known_people_and_keep_their_limits(self):
         c = case()
@@ -63,8 +63,48 @@ class TranslatorTests(unittest.TestCase):
         finding = c.records("Finding")[0]
         self.assertEqual([person_id("Fable-1")], finding.related_ids)
         self.assertEqual(("qualified", "2026-10-01"), (finding.status, finding.recorded_on))
-        self.assertIn("Limits: The register is a copy.", finding.conclusion)
+        self.assertEqual(("Ada was baptised.", "The register is a copy.", "vital"), (finding.conclusion, finding.limitations, finding.kind))
+        self.assertEqual(1, len(finding.citation_ids))
+        self.assertEqual("https://example.org", next(s for s in c.records("Source") if s.id.startswith("glasgow:source:url:")).url)
         self.assertEqual(1, len(c.records("Finding")))
+
+    def test_text_naming_a_withheld_profile_is_never_carried(self):
+        c = case()
+        t = Translator(c, private=lambda text: "Hidden-9" in str(text))
+        body = t.markdown("Ada's line is public.\n\nShe is an ancestor of [H (Hidden-9)](https://www.wikitree.com/wiki/Hidden-9).\n\nMore.")
+        self.assertNotIn("Hidden-9", body)
+        self.assertIn("Private family details withheld.", body)
+        self.assertIn("Ada's line is public.", body)
+        t.findings([{"id": "f1", "found_on": "2026-10-01", "status": "confirmed", "finding": "Hidden-9 is her grandson.",
+                     "people": [{"id": "Fable-1"}], "sources": []}])
+        t.records([{"record_id": "r1", "association": "Letter from Hidden-9"}])
+        self.assertEqual([], c.records("Finding"))
+        self.assertEqual([], [r for r in c.records("Source") if "Hidden-9" in r.title])
+        self.assertEqual(1, t.gaps["findings naming a withheld profile"])
+
+    def test_catalogue_people_join_the_case_with_their_aliases_and_family(self):
+        c = case()
+        t = Translator(c)
+        t.catalogue([
+            {"catalogue_id": "fable-1", "profile_ids": ["Fable-1", "Fable-1a"], "likely_living": False, "name": "Ada"},
+            {"catalogue_id": "record-bea", "profile_ids": [], "likely_living": False, "name": "Bea Fable",
+             "last_names_at_birth": ["Fable"], "birth": "c. 1790", "birth_location": "Invented Parish", "death": "Date not established",
+             "father": [{"id": "Fable-1a"}], "mother": [{"id": "Hidden-1", "withheld": True}], "spouses": [{"id": "Fable-3"}]},
+            {"catalogue_id": "living-1", "profile_ids": ["Living-1"], "likely_living": True, "name": "Someone"},
+        ])
+        bea = person_id("record-bea")
+        self.assertEqual(bea, t.pid("RECORD-BEA"))
+        self.assertEqual(person_id("Fable-1"), t.pid("Fable-1a"))
+        self.assertFalse(t.known("Living-1"))
+        person = next(p for p in c.records("Person") if p.id == bea)
+        self.assertEqual(["Bea Fable"], [n.value for n in person.names])
+        events = {e.kind: e for e in c.records("Event") if bea in e.participant_ids}
+        self.assertEqual(["birth"], sorted(events))
+        self.assertEqual("c. 1790", events["birth"].date)
+        links = {(r.kind, r.subject_id, r.object_id) for r in c.records("Relationship")}
+        self.assertIn(("parent", bea, person_id("Fable-1")), links)
+        self.assertIn(("spouse", bea, person_id("Fable-3")), links)
+        self.assertFalse(any("Hidden-1" in r.object_id for r in c.records("Relationship")))
 
 
 if __name__ == "__main__":

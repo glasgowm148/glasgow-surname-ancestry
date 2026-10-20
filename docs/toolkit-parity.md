@@ -2,7 +2,7 @@
 
 This compares what the Glasgow site does with what the reusable
 [genealogy-research-workbench](https://github.com/glasgowm148/genealogy-research-workbench)
-(`v0.4.0`, pinned in `vendor/`) builds from someone else's GEDCOM or OneTree export.
+(`v0.5.0`, pinned in `vendor/`) builds from someone else's GEDCOM or OneTree export.
 It was checked against the toolkit code, its fictional demo and imports of the
 real local exports. Those imports were inspected locally and read-only; no real
 data entered the toolkit repository.
@@ -16,7 +16,7 @@ Classes used below:
 
 ## Matrix
 
-| Capability | Glasgow site | Workbench 0.4.0 | Class |
+| Capability | Glasgow site | Workbench 0.5.0 | Class |
 | --- | --- | --- | --- |
 | People catalogue, search and filters | Name, relative, date, place and evidence filters; worker search shards | Search across names, relatives, places and events; surname, year-range and evidence filters; sort; pagination | Reusable. Sharded search indexes are only needed well beyond about 5,000 people. |
 | Person dossiers | Resolved model, family, evidence labels, conclusions, open questions | Names, life dates, family (parents, partners and marriages, children, siblings), events, claims with citations and evidence, linked research | Reusable. Written conclusions need research (`Finding` records). |
@@ -60,31 +60,42 @@ Candidates checked on 20 October 2026:
 - **Findings as case records: deferred.** Mirroring `research/latest-findings.json` into toolkit `Finding` records would have no reader yet: no Glasgow page or export reads a case. It becomes worthwhile when a Glasgow page is built from a case. Then the ledger's `kind`, `qualification` and `relationship_changes` fields need a home in the toolkit model first.
 - **Studies: not adopted.** Adoption needs a wikitext-to-Markdown conversion that keeps every reference. Until that exists, Glasgow's builder is the right tool.
 
-## Rebuilding the Glasgow site from its research (20 October 2026)
+## Rebuilding the Glasgow site from its research
 
 `tools/toolkit_research_case.py` makes a workbench case from the One-Tree
-export plus Glasgow's own research files. `genealogy build` then builds a
-whole site from it. The project is private (default
-`data/private/toolkit-build/`) and never committed. First run, totals only:
+export, Glasgow's public catalogue and its research files. `genealogy build`
+then builds a whole site from that case. The project is private (default
+`data/private/toolkit-build/`) and never committed. Glasgow's own rules apply
+first:
 
-| Glasgow research | Maintained | In the workbench site | Main reason for the gap |
+- research notes come from the sections Glasgow publishes
+  (`build_research_catalog._load_research_findings`), so editing logs and
+  captured WikiTree pages stay out;
+- a note paragraph naming a withheld profile becomes "Private family details
+  withheld.";
+- any other record whose text names a withheld profile is left out.
+
+Totals only, 20 October 2026, with workbench 0.5.0:
+
+| Glasgow research | Maintained | In the workbench site | What is left out, and why |
 | --- | ---: | ---: | --- |
-| People (One-Tree export) | 4,394 | 4,065 public | Same publication rules as the site |
-| Canonical records → sources and citations | 280 | 280 | Record readings have no field (279) |
-| Relationship assessments → graded links | 288 | 168, 128 with a percentage | 117 name record subjects or people missing from the August export. "Strongly supported" and "uncertain" have no workbench grade |
-| Dated findings | 869 | 514 | 355 concern only record subjects. Limitations, sources and finding types have no field |
-| Per-person research notes → studies | 1,251 | 699 | 549 are for record subjects or newer profiles. 2,654 table lines appear as plain text |
+| People | 4,867 public in the catalogue | 4,832 | The One-Tree export (4,065 public), plus 767 catalogue people it lacks, 97 of them record subjects. 830 family links come from the catalogue |
+| Canonical records → sources | 282 | 282 | Record readings have no published field (281) |
+| Relationship assessments | 292 | 246 graded links, 178 with a percentage | 34 name a person who is not public; 12 sibling assessments. "Uncertain" (100) and "strongly supported" (16) show as possible and probable |
+| Dated findings | 871 | 641, all with their records and type; 602 with stated limits | 230 concern only people who are not public |
+| Research notes → studies | 1,251 | 1,063, with 489 tables | 162 are about people who are not public; 26 have no reader-facing section; 60 paragraphs withheld |
 
-The build has 4,778 pages and no broken links. Its findings log is one 615 KB
-page.
+The build has 5,944 pages and no broken links. No generated file names a
+withheld profile, and no name in it is absent from Glasgow's own published
+pages. The findings log opens with the newest 30 findings, with 13 archive
+pages.
 
-Next, in order of what they recover:
+Still to do, in order of what they recover:
 
-1. **People beyond the tree export.** Add record subjects and newer profiles as people from Glasgow's catalogue. This recovers about 355 findings, 549 notes and 117 assessments.
-2. **Workbench `Finding` fields** for limitations, cited sources and finding type, which affect nearly every finding.
-3. **Tables in research prose.**
-4. **A paged findings log with stable archive pages**, the design Glasgow now uses.
-5. **Project-defined confidence grades**, so "strongly supported" and "uncertain" survive.
+1. **Project-defined confidence grades**, so "uncertain" and "strongly supported" survive (116 links).
+2. **A published reading of a record**: Glasgow's abstract of each canonical record (281). The workbench keeps transcriptions private by design, so this needs its own field.
+3. **Scale.** At 4,800 people the timeline (2.9 MB), tree (2.6 MB), places (2.3 MB), catalogue (1.7 MB) and research notebook (1.3 MB) pages are far over Glasgow's 500 KB page budget. They need the paging and on-demand loading Glasgow uses.
+4. **Sibling relationships** (12).
 
 ## What an export cannot recreate
 
