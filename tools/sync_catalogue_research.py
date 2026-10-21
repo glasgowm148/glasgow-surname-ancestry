@@ -186,6 +186,14 @@ def discrepancies(dossier, soup, findings, update, row, links, comparison=None):
         # The shared presentation reads the refreshed dossier model and keeps
         # the full finding text in Archive and tools; the old per-category
         # disclosure checks no longer describe the primary reading view.
+        # A relationship-only assessment need not change findings or the
+        # update queue. Check its rendered section as well as those inputs.
+        rendered = render_person_dossier(dossier['id'])
+        if rendered:
+            expected_family = BeautifulSoup(rendered, 'html.parser').select_one('#family')
+            visible_family = soup.select_one('#family')
+            if expected_family is not None and str(expected_family) != str(visible_family):
+                issues.append('visible relationships')
         desired = update_data(update)
         if dossier.get("wikitree_update") != desired:
             issues.append("update data")

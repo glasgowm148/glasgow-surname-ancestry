@@ -1,0 +1,165 @@
+{
+  "reviewed": "2026-10-21",
+  "scope": "First individual percentage and structured publication of an already confident, already attached relationship. The 99% is a subjective assessment of the explicit kinship and maintained record-to-profile identification, not a measured frequency. Printed protocol abstracts were visually rechecked; manuscripts were not inspected. No new father, mother, identity merge, certainty upgrade or live WikiTree amendment is claimed.",
+  "relationships": [
+    {
+      "assertion_id": "C-align-20261021-civic-william3522-father",
+      "child": "Glasgow-3522",
+      "parent": "Glasgow-1093",
+      "relationship": "father",
+      "percent": 99,
+      "previous": {
+        "research_status": "unknown",
+        "tree_status": "confident",
+        "saved_wikitree_flag": "20",
+        "prior_probability_percent": null,
+        "prior_claim_id": "C-2e0065710d27",
+        "prior_basis": "tree"
+      },
+      "citation": {
+        "source_id": "glasgow-protocol-847-1565",
+        "source_url": "https://archive.org/details/abstractsprotoc06scogoog/page/n85/mode/2up",
+        "edition": "Robert Renwick, Abstracts of Protocols of the Town Clerks of Glasgow",
+        "volume": 3,
+        "protocol": 847,
+        "printed_page": 73,
+        "pdf_page": 86,
+        "reviewed": "2026-10-21",
+        "inspected": "Printed abstract page image",
+        "original_manuscript_inspected": false
+      }
+    },
+    {
+      "assertion_id": "C-align-20261021-civic-stephen1029-father",
+      "child": "Glasgow-1029",
+      "parent": "Glasgow-1093",
+      "relationship": "father",
+      "percent": 99,
+      "previous": {
+        "research_status": "unknown",
+        "tree_status": "confident",
+        "saved_wikitree_flag": "20",
+        "prior_probability_percent": null,
+        "prior_claim_id": "C-edd1d0d6f138",
+        "prior_basis": "tree"
+      },
+      "citation": {
+        "source_id": "glasgow-protocol-2189-1575",
+        "source_url": "https://archive.org/details/abstractsprotoc00robegoog/page/n126/mode/2up",
+        "edition": "Robert Renwick, Abstracts of Protocols of the Town Clerks of Glasgow",
+        "volume": 7,
+        "protocol": 2189,
+        "printed_page": 110,
+        "pdf_page": 127,
+        "reviewed": "2026-10-21",
+        "inspected": "Printed abstract page image",
+        "original_manuscript_inspected": false
+      }
+    },
+    {
+      "assertion_id": "C-align-20261021-civic-george1099-father",
+      "child": "Glasgow-1099",
+      "parent": "Glasgow-3522",
+      "relationship": "father",
+      "percent": 99,
+      "previous": {
+        "research_status": "unknown",
+        "tree_status": "confident",
+        "saved_wikitree_flag": "20",
+        "prior_probability_percent": null,
+        "prior_claim_id": "C-20ad983398ff",
+        "prior_basis": "tree"
+      },
+      "citation": {
+        "source_id": "glasgow-protocol-2903-1586",
+        "source_url": "https://archive.org/details/abstractsprotoc01scogoog/page/n113/mode/2up",
+        "edition": "Robert Renwick, Abstracts of Protocols of the Town Clerks of Glasgow",
+        "volume": 9,
+        "protocol": 2903,
+        "printed_page": 103,
+        "pdf_page": 114,
+        "reviewed": "2026-10-21",
+        "inspected": "Printed abstract page image",
+        "original_manuscript_inspected": false
+      }
+    },
+    {
+      "assertion_id": "C-align-20261021-civic-stephen1029-mother",
+      "child": "Glasgow-1029",
+      "parent": "Spreull-4",
+      "relationship": "mother",
+      "percent": 99,
+      "previous": {
+        "research_status": "unknown",
+        "tree_status": "confident",
+        "saved_wikitree_flag": "20",
+        "prior_probability_percent": null,
+        "prior_claim_id": "C-1b8928eceac1",
+        "prior_basis": "tree"
+      },
+      "citation": {
+        "source_id": "glasgow-protocol-2189-1575",
+        "source_url": "https://archive.org/details/abstractsprotoc00robegoog/page/n126/mode/2up",
+        "edition": "Robert Renwick, Abstracts of Protocols of the Town Clerks of Glasgow",
+        "volume": 7,
+        "protocol": 2189,
+        "printed_page": 110,
+        "pdf_page": 127,
+        "reviewed": "2026-10-21",
+        "inspected": "Printed abstract page image",
+        "original_manuscript_inspected": false
+      }
+    }
+  ],
+  "genealogical_connections_added": 0,
+  "confidence_upgrades": 0,
+  "new_source_discoveries": 0,
+  "first_individually_rated_father_links": 3,
+  "first_individually_rated_mother_links": 1,
+  "fixed_cohort_before": {
+    "working": {
+      "rated_edge_count": 181,
+      "unrated_edge_count": 1204,
+      "rated_edges_percent": 13.068592057761732,
+      "mean_percent": 55.171270718232044
+    },
+    "supported": {
+      "rated_edge_count": 81,
+      "unrated_edge_count": 319,
+      "rated_edges_percent": 20.25,
+      "mean_percent": 91.20987654320987
+    },
+    "confident": {
+      "rated_edge_count": 53,
+      "unrated_edge_count": 316,
+      "rated_edges_percent": 14.363143631436314,
+      "mean_percent": 98.28301886792453
+    }
+  },
+  "fixed_cohort_after": {
+    "working": {
+      "rated_edge_count": 184,
+      "unrated_edge_count": 1201,
+      "rated_edges_percent": 13.28519855595668,
+      "mean_percent": 55.88586956521739
+    },
+    "supported": {
+      "rated_edge_count": 84,
+      "unrated_edge_count": 316,
+      "rated_edges_percent": 21.0,
+      "mean_percent": 91.48809523809524
+    },
+    "confident": {
+      "rated_edge_count": 56,
+      "unrated_edge_count": 313,
+      "rated_edges_percent": 15.176151761517616,
+      "mean_percent": 98.32142857142857
+    }
+  },
+  "all_cohort_connectivity_unchanged": true,
+  "main_standalone_packed_verified": true,
+  "pending_amendments_unchanged": true,
+  "pending_update_count": 568,
+  "discovery_log_unchanged": true,
+  "original_record_count": 4894
+}

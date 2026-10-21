@@ -17408,5 +17408,281 @@
       "saved_wikitree_father": 0,
       "previous_assertion_id": "C-working-20261016-lothian-heads-james"
     }
+  },
+  {
+    "assertion_id": "C-align-20261021-civic-william3522-father",
+    "people": [
+      "Glasgow-3522",
+      "Glasgow-1093"
+    ],
+    "status": "proved",
+    "publication_status": "approved",
+    "assessment_date": "2026-10-21",
+    "allow_new_relationship": false,
+    "claim": "Glasgow-1093 is the documented father of Glasgow-3522",
+    "basis": "Protocol 847 (24 August 1565) expressly identifies William as the son of John Glesgw senior, burgess, while reserving John and Jonet Sprewile’s liferents. The maintained identification combines the continuing civic household, the 1564–1565 witness association and Stephen’s later role in George’s inheritance. This grades the established civic-family pair, not the later Mureistoun identity.",
+    "limitations": "First individual percentage and structured publication of an already confident, already attached relationship. The 99% is a subjective assessment of the explicit kinship and maintained record-to-profile identification, not a measured frequency. Printed protocol abstracts were visually rechecked; manuscripts were not inspected. No new father, mother, identity merge, certainty upgrade or live WikiTree amendment is claimed.",
+    "source_ids": [
+      "glasgow-protocol-847-1565"
+    ],
+    "probability": {
+      "value": 0.99,
+      "method": "individual_evidence_assessment",
+      "origin": "research",
+      "basis": "Protocol 847 (24 August 1565) expressly identifies William as the son of John Glesgw senior, burgess, while reserving John and Jonet Sprewile’s liferents. The maintained identification combines the continuing civic household, the 1564–1565 witness association and Stephen’s later role in George’s inheritance. This grades the established civic-family pair, not the later Mureistoun identity.",
+      "reviewed": "2026-10-21",
+      "source_ids": [
+        "glasgow-protocol-847-1565"
+      ],
+      "scope": "First individual percentage and structured publication of an already confident, already attached relationship. The 99% is a subjective assessment of the explicit kinship and maintained record-to-profile identification, not a measured frequency. Printed protocol abstracts were visually rechecked; manuscripts were not inspected. No new father, mother, identity merge, certainty upgrade or live WikiTree amendment is claimed."
+    },
+    "perspectives": {
+      "Glasgow-3522": {
+        "relationship": "father",
+        "reason": "Protocol 847 (24 August 1565) expressly identifies William as the son of John Glesgw senior, burgess, while reserving John and Jonet Sprewile’s liferents. The maintained identification combines the continuing civic household, the 1564–1565 witness association and Stephen’s later role in George’s inheritance. This grades the established civic-family pair, not the later Mureistoun identity."
+      },
+      "Glasgow-1093": {
+        "relationship": "son",
+        "reason": "Protocol 847 (24 August 1565) expressly identifies William as the son of John Glesgw senior, burgess, while reserving John and Jonet Sprewile’s liferents. The maintained identification combines the continuing civic household, the 1564–1565 witness association and Stephen’s later role in George’s inheritance. This grades the established civic-family pair, not the later Mureistoun identity."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Existing record and family account",
+        "href": "/people/glasgow-3522.html#research-findings"
+      }
+    ],
+    "provenance": {
+      "prior_assessment": {
+        "research_status": "unknown",
+        "tree_status": "confident",
+        "saved_wikitree_flag": "20",
+        "prior_probability_percent": null,
+        "prior_claim_id": "C-2e0065710d27",
+        "prior_basis": "tree"
+      },
+      "review_type": "existing_confident_grade_alignment",
+      "live_flag_changed": false,
+      "genealogical_connections_added": 0,
+      "verification": {
+        "source_id": "glasgow-protocol-847-1565",
+        "source_url": "https://archive.org/details/abstractsprotoc06scogoog/page/n85/mode/2up",
+        "edition": "Robert Renwick, Abstracts of Protocols of the Town Clerks of Glasgow",
+        "volume": 3,
+        "protocol": 847,
+        "printed_page": 73,
+        "pdf_page": 86,
+        "reviewed": "2026-10-21",
+        "inspected": "Printed abstract page image",
+        "original_manuscript_inspected": false
+      }
+    }
+  },
+  {
+    "assertion_id": "C-align-20261021-civic-stephen1029-father",
+    "people": [
+      "Glasgow-1029",
+      "Glasgow-1093"
+    ],
+    "status": "proved",
+    "publication_status": "approved",
+    "assessment_date": "2026-10-21",
+    "allow_new_relationship": false,
+    "claim": "Glasgow-1093 is the documented father of Glasgow-1029",
+    "basis": "Protocol 2189 (17 June 1575) expressly calls Stephen Glasgw the son of deceased John Glasgw and names Jonet Spreull as his mother and liferentrix. The parents and inherited Saltmarket property identify the maintained civic family. This does not identify Stephen’s own possible children or turn the Quothquan reconstruction into proof.",
+    "limitations": "First individual percentage and structured publication of an already confident, already attached relationship. The 99% is a subjective assessment of the explicit kinship and maintained record-to-profile identification, not a measured frequency. Printed protocol abstracts were visually rechecked; manuscripts were not inspected. No new father, mother, identity merge, certainty upgrade or live WikiTree amendment is claimed.",
+    "source_ids": [
+      "glasgow-protocol-2189-1575"
+    ],
+    "probability": {
+      "value": 0.99,
+      "method": "individual_evidence_assessment",
+      "origin": "research",
+      "basis": "Protocol 2189 (17 June 1575) expressly calls Stephen Glasgw the son of deceased John Glasgw and names Jonet Spreull as his mother and liferentrix. The parents and inherited Saltmarket property identify the maintained civic family. This does not identify Stephen’s own possible children or turn the Quothquan reconstruction into proof.",
+      "reviewed": "2026-10-21",
+      "source_ids": [
+        "glasgow-protocol-2189-1575"
+      ],
+      "scope": "First individual percentage and structured publication of an already confident, already attached relationship. The 99% is a subjective assessment of the explicit kinship and maintained record-to-profile identification, not a measured frequency. Printed protocol abstracts were visually rechecked; manuscripts were not inspected. No new father, mother, identity merge, certainty upgrade or live WikiTree amendment is claimed."
+    },
+    "perspectives": {
+      "Glasgow-1029": {
+        "relationship": "father",
+        "reason": "Protocol 2189 (17 June 1575) expressly calls Stephen Glasgw the son of deceased John Glasgw and names Jonet Spreull as his mother and liferentrix. The parents and inherited Saltmarket property identify the maintained civic family. This does not identify Stephen’s own possible children or turn the Quothquan reconstruction into proof."
+      },
+      "Glasgow-1093": {
+        "relationship": "son",
+        "reason": "Protocol 2189 (17 June 1575) expressly calls Stephen Glasgw the son of deceased John Glasgw and names Jonet Spreull as his mother and liferentrix. The parents and inherited Saltmarket property identify the maintained civic family. This does not identify Stephen’s own possible children or turn the Quothquan reconstruction into proof."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Existing record and family account",
+        "href": "/people/glasgow-1029.html#research-findings"
+      }
+    ],
+    "provenance": {
+      "prior_assessment": {
+        "research_status": "unknown",
+        "tree_status": "confident",
+        "saved_wikitree_flag": "20",
+        "prior_probability_percent": null,
+        "prior_claim_id": "C-edd1d0d6f138",
+        "prior_basis": "tree"
+      },
+      "review_type": "existing_confident_grade_alignment",
+      "live_flag_changed": false,
+      "genealogical_connections_added": 0,
+      "verification": {
+        "source_id": "glasgow-protocol-2189-1575",
+        "source_url": "https://archive.org/details/abstractsprotoc00robegoog/page/n126/mode/2up",
+        "edition": "Robert Renwick, Abstracts of Protocols of the Town Clerks of Glasgow",
+        "volume": 7,
+        "protocol": 2189,
+        "printed_page": 110,
+        "pdf_page": 127,
+        "reviewed": "2026-10-21",
+        "inspected": "Printed abstract page image",
+        "original_manuscript_inspected": false
+      }
+    }
+  },
+  {
+    "assertion_id": "C-align-20261021-civic-george1099-father",
+    "people": [
+      "Glasgow-1099",
+      "Glasgow-3522"
+    ],
+    "status": "proved",
+    "publication_status": "approved",
+    "assessment_date": "2026-10-21",
+    "allow_new_relationship": false,
+    "claim": "Glasgow-3522 is the documented father of Glasgow-1099",
+    "basis": "Protocol 2903 (15 July 1586) expressly identifies George Glasgw as heir of deceased William Glasgw, his father. Protocol 2916 and the maintained inheritance/witness comparison secure this record-defined family. This does not establish George’s identity with the adult George of Mureistoun, whose separate uncertain attachment remains unchanged.",
+    "limitations": "First individual percentage and structured publication of an already confident, already attached relationship. The 99% is a subjective assessment of the explicit kinship and maintained record-to-profile identification, not a measured frequency. Printed protocol abstracts were visually rechecked; manuscripts were not inspected. No new father, mother, identity merge, certainty upgrade or live WikiTree amendment is claimed.",
+    "source_ids": [
+      "glasgow-protocol-2903-1586"
+    ],
+    "probability": {
+      "value": 0.99,
+      "method": "individual_evidence_assessment",
+      "origin": "research",
+      "basis": "Protocol 2903 (15 July 1586) expressly identifies George Glasgw as heir of deceased William Glasgw, his father. Protocol 2916 and the maintained inheritance/witness comparison secure this record-defined family. This does not establish George’s identity with the adult George of Mureistoun, whose separate uncertain attachment remains unchanged.",
+      "reviewed": "2026-10-21",
+      "source_ids": [
+        "glasgow-protocol-2903-1586"
+      ],
+      "scope": "First individual percentage and structured publication of an already confident, already attached relationship. The 99% is a subjective assessment of the explicit kinship and maintained record-to-profile identification, not a measured frequency. Printed protocol abstracts were visually rechecked; manuscripts were not inspected. No new father, mother, identity merge, certainty upgrade or live WikiTree amendment is claimed."
+    },
+    "perspectives": {
+      "Glasgow-1099": {
+        "relationship": "father",
+        "reason": "Protocol 2903 (15 July 1586) expressly identifies George Glasgw as heir of deceased William Glasgw, his father. Protocol 2916 and the maintained inheritance/witness comparison secure this record-defined family. This does not establish George’s identity with the adult George of Mureistoun, whose separate uncertain attachment remains unchanged."
+      },
+      "Glasgow-3522": {
+        "relationship": "son",
+        "reason": "Protocol 2903 (15 July 1586) expressly identifies George Glasgw as heir of deceased William Glasgw, his father. Protocol 2916 and the maintained inheritance/witness comparison secure this record-defined family. This does not establish George’s identity with the adult George of Mureistoun, whose separate uncertain attachment remains unchanged."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Existing record and family account",
+        "href": "/people/glasgow-1099.html#research-findings"
+      }
+    ],
+    "provenance": {
+      "prior_assessment": {
+        "research_status": "unknown",
+        "tree_status": "confident",
+        "saved_wikitree_flag": "20",
+        "prior_probability_percent": null,
+        "prior_claim_id": "C-20ad983398ff",
+        "prior_basis": "tree"
+      },
+      "review_type": "existing_confident_grade_alignment",
+      "live_flag_changed": false,
+      "genealogical_connections_added": 0,
+      "verification": {
+        "source_id": "glasgow-protocol-2903-1586",
+        "source_url": "https://archive.org/details/abstractsprotoc01scogoog/page/n113/mode/2up",
+        "edition": "Robert Renwick, Abstracts of Protocols of the Town Clerks of Glasgow",
+        "volume": 9,
+        "protocol": 2903,
+        "printed_page": 103,
+        "pdf_page": 114,
+        "reviewed": "2026-10-21",
+        "inspected": "Printed abstract page image",
+        "original_manuscript_inspected": false
+      }
+    }
+  },
+  {
+    "assertion_id": "C-align-20261021-civic-stephen1029-mother",
+    "people": [
+      "Glasgow-1029",
+      "Spreull-4"
+    ],
+    "status": "proved",
+    "publication_status": "approved",
+    "assessment_date": "2026-10-21",
+    "allow_new_relationship": false,
+    "claim": "Spreull-4 is the documented mother of Glasgow-1029",
+    "basis": "Protocol 2189 (17 June 1575) expressly calls Jonet Spreull Stephen Glasgw’s mother and liferentrix, and identifies his deceased father John. This directly names Stephen’s mother; it does not convert the separately inferred maternity of William into an express mother clause.",
+    "limitations": "First individual percentage and structured publication of an already confident, already attached relationship. The 99% is a subjective assessment of the explicit kinship and maintained record-to-profile identification, not a measured frequency. Printed protocol abstracts were visually rechecked; manuscripts were not inspected. No new father, mother, identity merge, certainty upgrade or live WikiTree amendment is claimed.",
+    "source_ids": [
+      "glasgow-protocol-2189-1575"
+    ],
+    "probability": {
+      "value": 0.99,
+      "method": "individual_evidence_assessment",
+      "origin": "research",
+      "basis": "Protocol 2189 (17 June 1575) expressly calls Jonet Spreull Stephen Glasgw’s mother and liferentrix, and identifies his deceased father John. This directly names Stephen’s mother; it does not convert the separately inferred maternity of William into an express mother clause.",
+      "reviewed": "2026-10-21",
+      "source_ids": [
+        "glasgow-protocol-2189-1575"
+      ],
+      "scope": "First individual percentage and structured publication of an already confident, already attached relationship. The 99% is a subjective assessment of the explicit kinship and maintained record-to-profile identification, not a measured frequency. Printed protocol abstracts were visually rechecked; manuscripts were not inspected. No new father, mother, identity merge, certainty upgrade or live WikiTree amendment is claimed."
+    },
+    "perspectives": {
+      "Glasgow-1029": {
+        "relationship": "mother",
+        "reason": "Protocol 2189 (17 June 1575) expressly calls Jonet Spreull Stephen Glasgw’s mother and liferentrix, and identifies his deceased father John. This directly names Stephen’s mother; it does not convert the separately inferred maternity of William into an express mother clause."
+      },
+      "Spreull-4": {
+        "relationship": "son",
+        "reason": "Protocol 2189 (17 June 1575) expressly calls Jonet Spreull Stephen Glasgw’s mother and liferentrix, and identifies his deceased father John. This directly names Stephen’s mother; it does not convert the separately inferred maternity of William into an express mother clause."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Existing record and family account",
+        "href": "/people/glasgow-1029.html#research-findings"
+      }
+    ],
+    "provenance": {
+      "prior_assessment": {
+        "research_status": "unknown",
+        "tree_status": "confident",
+        "saved_wikitree_flag": "20",
+        "prior_probability_percent": null,
+        "prior_claim_id": "C-1b8928eceac1",
+        "prior_basis": "tree"
+      },
+      "review_type": "existing_confident_grade_alignment",
+      "live_flag_changed": false,
+      "genealogical_connections_added": 0,
+      "verification": {
+        "source_id": "glasgow-protocol-2189-1575",
+        "source_url": "https://archive.org/details/abstractsprotoc00robegoog/page/n126/mode/2up",
+        "edition": "Robert Renwick, Abstracts of Protocols of the Town Clerks of Glasgow",
+        "volume": 7,
+        "protocol": 2189,
+        "printed_page": 110,
+        "pdf_page": 127,
+        "reviewed": "2026-10-21",
+        "inspected": "Printed abstract page image",
+        "original_manuscript_inspected": false
+      }
+    }
   }
 ]
