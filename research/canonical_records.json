@@ -6460,5 +6460,63 @@
       }
     },
     "note": "Geo Glascoe was buried at Holy Trinity, Berwick upon Tweed, Northumberland, on 3 July 1589. The name, parish and exact date identify the existing George Glascoe-36 account. This is a burial date, not an exact death date. The transcript supplies no age, relatives or occupation; its synthetic birth-range search fields are not recorded ages or birth evidence. Scottish origin and named parentage remain unproved."
+  },
+  {
+    "record_id": "opr-birth-030",
+    "association": "James Glasgow, Edinburgh 1679 — named Duffe parents",
+    "date": "16 March 1679",
+    "year": 1679,
+    "place": "Edinburgh, Scotland",
+    "source_title": "ScotlandsPeople supplied OPR births/baptisms row 30: James Glasgow, 16 March 1679, Edinburgh 685/1,80/245, FR2500; James Glasgow/Elizabeth Duffe; index supplied 10 September 2026",
+    "source_url": "https://www.scotlandspeople.gov.uk/search-records/church-registers/church-births-baptisms",
+    "record_type": "birth/baptism index",
+    "source_type": "Supplied parish index",
+    "source_quality": "derivative",
+    "status": "Supplied index reviewed; manuscript not inspected",
+    "note": "Index names child James, father James Glasgow and mother Elizabeth Duffe. OPR 685/1,80/245, FR2500. The two childhood entries remain separate. Their identification with the 1696 apprentice and the Elizabeth/Isobell maternal identification are inferred, not stated by this entry.",
+    "profiles": {
+      "Glasgow-3103": {
+        "role": "Indexed child; later apprenticeship identity unproved"
+      },
+      "Glasgow-2682": {
+        "role": "Existing father account for the named James Glasgow"
+      },
+      "Duffe-18": {
+        "role": "Existing qualified Duffe maternal account; Elizabeth/Isobell identity not newly proved"
+      },
+      "Glasgow-4114": {
+        "role": "Possible later identity of this child; no specific baptism selected",
+        "identification_status": "possible"
+      }
+    }
+  },
+  {
+    "record_id": "opr-birth-039",
+    "association": "James Glasgow, Edinburgh 1680 — named Duffe parents",
+    "date": "18 April 1680",
+    "year": 1680,
+    "place": "Edinburgh, Scotland",
+    "source_title": "ScotlandsPeople supplied OPR births/baptisms row 39: James Glasgow, 18 April 1680, Edinburgh 685/1,90/21, FR2584; James Glasgow/Issobell Duff; index supplied 10 September 2026",
+    "source_url": "https://www.scotlandspeople.gov.uk/search-records/church-registers/church-births-baptisms",
+    "record_type": "birth/baptism index",
+    "source_type": "Supplied parish index",
+    "source_quality": "derivative",
+    "status": "Supplied index reviewed; manuscript not inspected",
+    "note": "Index names child James, father James Glasgow and mother Issobell Duff. OPR 685/1,90/21, FR2584. The two childhood entries remain separate. Their identification with the 1696 apprentice and the Elizabeth/Isobell maternal identification are inferred, not stated by this entry.",
+    "profiles": {
+      "Glasgow-3368": {
+        "role": "Indexed child; later apprenticeship identity unproved"
+      },
+      "Glasgow-2682": {
+        "role": "Existing father account for the named James Glasgow"
+      },
+      "Duffe-18": {
+        "role": "Existing qualified Duffe maternal account; Elizabeth/Isobell identity not newly proved"
+      },
+      "Glasgow-4114": {
+        "role": "Possible later identity of this child; no specific baptism selected",
+        "identification_status": "possible"
+      }
+    }
   }
 ]

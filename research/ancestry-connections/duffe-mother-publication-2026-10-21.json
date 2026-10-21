@@ -1,0 +1,32 @@
+{
+  "reviewed": "2026-10-21",
+  "new_local_relationship": {
+    "subject": "Glasgow-4114",
+    "relative": "Duffe-18",
+    "relationship": "mother",
+    "status": "probable",
+    "percent": 72
+  },
+  "father_assessments_unchanged": true,
+  "vitals_unchanged": true,
+  "child_profiles_unmerged": true,
+  "full_compact_filter_agreement": true,
+  "main_standalone_packed_agreement": true,
+  "pending_update_count": 567,
+  "new_father_attachments": 0,
+  "new_mother_attachments": 1,
+  "new_paternal_component_joins": 0,
+  "new_source_discoveries": 0,
+  "reused_source_records_published": [
+    "opr-birth-030",
+    "opr-birth-039"
+  ],
+  "paternal_metrics_unchanged": true,
+  "fixed_confident_links": 369,
+  "fixed_supported_links": 399,
+  "source_access_review": {
+    "duddingston_father_percent_retained": 86,
+    "original_burial": "684/60/47, still uninspected; browser access failed and no local image located",
+    "fisherrow_father_percent_retained": 84
+  }
+}

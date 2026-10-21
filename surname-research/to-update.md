@@ -2585,3 +2585,9 @@ Burial-defined Walter remains on source-verification HOLD in the existing creati
 ## Berwick burial — 2026-10-21
 
 | [George Glascoe (Glascoe-36)](https://www.wikitree.com/wiki/Glascoe-36) | OPEN | Add the correct National Burial Index citation, 3 July 1589, Holy Trinity, Berwick; qualify exact death and age claims, retain the distinct Margaret citation and reconcile the Mureistoun/Alan comparisons. Complete proposal: `research/Glascoe-36/berwick-burial-2026-10-21.wiki`. No new father. |
+
+
+## 21 October 2026 — Edinburgh apprentice maternal hypothesis
+
+| [James Glasgow (Glasgow-4114)](https://www.wikitree.com/wiki/Glasgow-4114) | OPEN | Add probable mother Duffe-18,72%, alongside existing new father proposal2682,82%; preserve both child comparisons and alias uncertainty. |
+| [Isobell/Elizabeth Duffe (Duffe-18)](https://www.wikitree.com/wiki/Duffe-18) | OPEN | Add probable son James-4114,72%, through the qualified maternal household; no child merge or confident maternal claim. |

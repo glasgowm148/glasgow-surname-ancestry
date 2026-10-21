@@ -5696,17 +5696,17 @@
     },
     "Glasgow-4114": {
       "profile_id": "Glasgow-4114",
-      "queued_at": "2026-10-20",
+      "queued_at": "2026-10-21",
       "status": "OPEN",
       "pending": true,
       "manual_update": true,
-      "summary": "New proposed father: James Glasgow-2682 of the Duffe household, probable 82%; old local 76% father retained as a compatible identity.",
-      "work_queue_summary": "New proposed father: James Glasgow-2682 of the Duffe household, probable 82%; old local 76% father retained as a compatible identity.",
+      "summary": "Existing new father proposal James-2682,82%, plus new probable mother Duffe-18,72%; both retain explicit identity limits.",
+      "work_queue_summary": "Existing new father proposal James-2682,82%, plus new probable mother Duffe-18,72%; both retain explicit identity limits.",
       "significance": 88,
       "draft_path": "research/Glasgow-4114/duffe-apprentice-2026-10-20.wiki",
       "remote_wikitext": "[[Category:Glasgow Name Study]]\n{{Estimated Date}}\n\n== Biography ==\n\n'''James Glasgow''' was probably born about 1680. This is an uncertain estimate from his 1696 apprenticeship; his age and birthplace were not recorded. Edinburgh is usable only as an uncertain location inferred from the apprenticeship and his father's burgess status.\n\nOn 22 April 1696 James, son of James Glasgow, weaver and burgess, was entered as apprentice to William Adam, apothecary and burgess of Edinburgh.<ref name=\"Apprentice1696\">Henry Paton, ed., [https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/edinburgh_apprentices_~_1666_to_1700_~_1929.pdf ''Register of Apprentices of the City of Edinburgh, 1666–1700''] (Scottish Record Society, 1929), printed p. 37, entry dated 22 April 1696; see also Findmypast, [https://www.findmypast.co.uk/transcript?id=SCOT%2FEDINBURGH%2FAPPRENTICES%2F0005161%2F1&tab=this transcript SCOT/EDINBURGH/APPRENTICES/0005161/1], captured 3 September 2026.</ref>\n\n== Research Notes ==\n\nThe Findmypast transcript renders the master as William Adamson. The published register reads “Wm. Adam”; that reading is used here.\n\n[[Glasgow-1150|James Glasgow]], the documented Edinburgh weaver and burgess, is probably the father. He was admitted burgess in 1649 and was still acting as a weaver, burgess and apprenticeship master in 1693. The published register also places a Robert, son of James Glasgow, weaver, in an apprenticeship in 1672 and a Thomas, youngest son of James Glasgow, weaver and burgess, in one in 1699. This is a coherent later-child group around the same burgh craftsman, but neither the 1696 nor 1699 entry names a mother. The father attachment should remain uncertain pending a baptism, testament or incorporation record with a second identifier.\n\nThis James is not the 1690 apprentice, whose father was explicitly deceased. [[Glasgow-1376|James Glasgow]] is excluded because his former 1657 birth was a record-role error based on Marion Glasgow's baptism and his remaining identity has no apothecary-apprenticeship evidence.\n\n== Sources ==\n<references />",
       "findings_path": "research/Glasgow-4114/findings.md",
-      "preservation_review_path": "research/ancestry-connections/duffe-apprentice-preservation-2026-10-20.json",
+      "preservation_review_path": "research/ancestry-connections/duffe-mother-preservation-2026-10-21.json",
       "preserve_captured_detail": false,
       "reviewed_narrative_reduction": true,
       "relationship_changes": [
@@ -5720,6 +5720,17 @@
           "assertion_id": "C-working-20261020-duffe-apothecary-father",
           "scope": "Prefer James Glasgow-2682, the father account defined by the Edinburgh Duffe household, as the 1696 apothecary apprentice James Glasgow-4114’s probable father at 82% subjective confidence. The 1696 James and 1699 Thomas entries name their father as James Glasgow, weaver and burgess. Thomas’s maintained identification with the 13 November 1684 child of James and Isobell Duffe gives an entry age of almost fifteen. The household’s James children of 16 March 1679 and 18 April 1680 fit the 1696 entry at seventeen or sixteen. Thomas is the youngest recorded son in this family, consistent with the 1699 indenture’s youngest-son description; the later recorded child, Margaret in 1691, is a daughter. This household-specific age and sibling order gives a better father-profile fit than selecting the older craftsman solely through the repeated occupational description. The James-1150 account remains compatible as another account of this same adult, not an excluded or necessarily different biological father.",
           "previous_status_provenance": "Captured Father=0; revised local preference from James-1150 at76% to James-2682 at82%; no live parent is replaced."
+        },
+        {
+          "action": "add",
+          "relationship": "mother",
+          "relative_id": "Duffe-18",
+          "relative_name": "Isobell/Elizabeth Duffe",
+          "status": "probable",
+          "probability_percent": 72,
+          "assertion_id": "C-working-20261021-duffe-apothecary-mother",
+          "scope": "Select Isobell/Elizabeth Duffe (Duffe-18) as James Glasgow-4114’s probable working mother at 72% subjective confidence, through the preferred Edinburgh Duffe household. The 1696 apothecary apprentice and the 1699 youngest-son apprentice Thomas share the specific father description James Glasgow, weaver and burgess. Thomas’s maintained identification with the 1684 child of James and Isobell Duffe fits entry at almost fifteen. The supplied Edinburgh index gives a James to James Glasgow and Elizabeth Duffe on 16 March 1679, and another to James Glasgow and Issobell Duff on 18 April 1680. Either child fits the 1696 apprentice at seventeen or sixteen. Both childhood candidates therefore lead into a Duffe maternal household without requiring us to choose or merge the children. No mother is named in either apprenticeship, and neither James baptism is securely identified with the apprentice. The two maternal forenames may represent different women; Duffe-18 is retained as the existing qualified Isobell/Elizabeth household account, not proof that those names denote one woman. The later James may be the survivor, but no infant burial proves that. Another matching craftsman’s family, a half-brother relationship, another Duffe woman, and the unresolved cancelled 1690 Lindsayland apprenticeship remain alternatives. The 72% rates this whole maternal identification and stays below the father’s 82%; the father, brother and mother assessments share evidence and must not be multiplied as independent support.",
+          "previous_status_provenance": "Live Mother=0; 20October review did not select a mother."
         }
       ],
       "prior_work_summary": "James Glasgow-4114 and Thomas Glasgow-3285 are now probable brothers, 79%. The selected father James-1150 remains probable 76%; no baptismal identity or mother is selected."
@@ -7338,6 +7349,21 @@
       "preserve_captured_detail": false,
       "reviewed_narrative_reduction": true,
       "preservation_review_path": "research/ancestry-connections/berwick-burial-preservation-2026-10-21.json"
+    },
+    "Duffe-18": {
+      "profile_id": "Duffe-18",
+      "queued_at": "2026-10-21",
+      "status": "OPEN",
+      "pending": true,
+      "manual_update": true,
+      "summary": "Add probable son James Glasgow, the 1696 apothecary apprentice at 72%; retain childhood and Elizabeth/Isobell identity uncertainty.",
+      "work_queue_summary": "Add probable son James Glasgow, the 1696 apothecary apprentice at 72%; retain childhood and Elizabeth/Isobell identity uncertainty.",
+      "significance": 69,
+      "draft_path": "research/Duffe-18/duffe-mother-2026-10-21.wiki",
+      "findings_path": "research/Duffe-18/findings.md",
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "preservation_review_path": "research/ancestry-connections/duffe-mother-preservation-2026-10-21.json"
     }
   },
   "reviewed_on": "2026-10-21",

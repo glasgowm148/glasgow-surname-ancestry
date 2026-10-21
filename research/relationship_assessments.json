@@ -17112,5 +17112,61 @@
       },
       "identity_scope": "Identifying the index-named father with the 1667 adult; not proof of the mother or later adult identities."
     }
+  },
+  {
+    "assertion_id": "C-working-20261021-duffe-apothecary-mother",
+    "people": [
+      "Glasgow-4114",
+      "Duffe-18"
+    ],
+    "profile_names": {
+      "Glasgow-4114": "James Glasgow, 1696 apothecary apprentice",
+      "Duffe-18": "Isobell/Elizabeth Duffe"
+    },
+    "status": "probable",
+    "publication_status": "approved",
+    "working_selection": true,
+    "allow_new_relationship": true,
+    "assessment_date": "2026-10-21",
+    "evidence_grade": "Probable maternal household, 72%",
+    "basis": "Select Isobell/Elizabeth Duffe (Duffe-18) as James Glasgow-4114’s probable working mother at 72% subjective confidence, through the preferred Edinburgh Duffe household. The 1696 apothecary apprentice and the 1699 youngest-son apprentice Thomas share the specific father description James Glasgow, weaver and burgess. Thomas’s maintained identification with the 1684 child of James and Isobell Duffe fits entry at almost fifteen. The supplied Edinburgh index gives a James to James Glasgow and Elizabeth Duffe on 16 March 1679, and another to James Glasgow and Issobell Duff on 18 April 1680. Either child fits the 1696 apprentice at seventeen or sixteen. Both childhood candidates therefore lead into a Duffe maternal household without requiring us to choose or merge the children.",
+    "reason": "Select Isobell/Elizabeth Duffe (Duffe-18) as James Glasgow-4114’s probable working mother at 72% subjective confidence, through the preferred Edinburgh Duffe household. The 1696 apothecary apprentice and the 1699 youngest-son apprentice Thomas share the specific father description James Glasgow, weaver and burgess. Thomas’s maintained identification with the 1684 child of James and Isobell Duffe fits entry at almost fifteen. The supplied Edinburgh index gives a James to James Glasgow and Elizabeth Duffe on 16 March 1679, and another to James Glasgow and Issobell Duff on 18 April 1680. Either child fits the 1696 apprentice at seventeen or sixteen. Both childhood candidates therefore lead into a Duffe maternal household without requiring us to choose or merge the children. No mother is named in either apprenticeship, and neither James baptism is securely identified with the apprentice. The two maternal forenames may represent different women; Duffe-18 is retained as the existing qualified Isobell/Elizabeth household account, not proof that those names denote one woman. The later James may be the survivor, but no infant burial proves that. Another matching craftsman’s family, a half-brother relationship, another Duffe woman, and the unresolved cancelled 1690 Lindsayland apprenticeship remain alternatives. The 72% rates this whole maternal identification and stays below the father’s 82%; the father, brother and mother assessments share evidence and must not be multiplied as independent support.",
+    "limitations": "No mother is named in either apprenticeship, and neither James baptism is securely identified with the apprentice. The two maternal forenames may represent different women; Duffe-18 is retained as the existing qualified Isobell/Elizabeth household account, not proof that those names denote one woman. The later James may be the survivor, but no infant burial proves that. Another matching craftsman’s family, a half-brother relationship, another Duffe woman, and the unresolved cancelled 1690 Lindsayland apprenticeship remain alternatives. The 72% rates this whole maternal identification and stays below the father’s 82%; the father, brother and mother assessments share evidence and must not be multiplied as independent support. This changes the earlier decision not to select a mother: use a probable household-level maternal hypothesis instead of leaving both compatible childhood routes unrepresented. The selected father James-2682 stays 82%, the compatible James-1150 alternative stays 76%, and the sibling comparison stays 79%. No childhood identity, birth/death date, spouse, existing child’s parent, upstream ancestry, merge or live WikiTree edit changes. One new local mother link is added; no paternal component or paternal-connectivity score improves.",
+    "source_ids": [
+      "opr-birth-030",
+      "opr-birth-039",
+      "fmp-glasgow-59dea07d1fbb",
+      "fmp-glasgow-1d1ee2ce10d6"
+    ],
+    "assessment_history": [
+      {
+        "status": "unselected",
+        "assessment_status": "unknown",
+        "source_basis": "20 October 2026 review left the apprentice’s mother unselected. Open/non-living live check 21 October: Mother=0; no prior mother is replaced."
+      }
+    ],
+    "perspectives": {
+      "Glasgow-4114": {
+        "relationship": "mother",
+        "status_label": "Probable mother · 72%",
+        "reason": "Select Isobell/Elizabeth Duffe (Duffe-18) as James Glasgow-4114’s probable working mother at 72% subjective confidence, through the preferred Edinburgh Duffe household. The 1696 apothecary apprentice and the 1699 youngest-son apprentice Thomas share the specific father description James Glasgow, weaver and burgess. Thomas’s maintained identification with the 1684 child of James and Isobell Duffe fits entry at almost fifteen. The supplied Edinburgh index gives a James to James Glasgow and Elizabeth Duffe on 16 March 1679, and another to James Glasgow and Issobell Duff on 18 April 1680. Either child fits the 1696 apprentice at seventeen or sixteen. Both childhood candidates therefore lead into a Duffe maternal household without requiring us to choose or merge the children. No mother is named in either apprenticeship, and neither James baptism is securely identified with the apprentice. The two maternal forenames may represent different women; Duffe-18 is retained as the existing qualified Isobell/Elizabeth household account, not proof that those names denote one woman. The later James may be the survivor, but no infant burial proves that. Another matching craftsman’s family, a half-brother relationship, another Duffe woman, and the unresolved cancelled 1690 Lindsayland apprenticeship remain alternatives. The 72% rates this whole maternal identification and stays below the father’s 82%; the father, brother and mother assessments share evidence and must not be multiplied as independent support."
+      },
+      "Duffe-18": {
+        "relationship": "son",
+        "status_label": "Probable son · 72%",
+        "reason": "Select Isobell/Elizabeth Duffe (Duffe-18) as James Glasgow-4114’s probable working mother at 72% subjective confidence, through the preferred Edinburgh Duffe household. The 1696 apothecary apprentice and the 1699 youngest-son apprentice Thomas share the specific father description James Glasgow, weaver and burgess. Thomas’s maintained identification with the 1684 child of James and Isobell Duffe fits entry at almost fifteen. The supplied Edinburgh index gives a James to James Glasgow and Elizabeth Duffe on 16 March 1679, and another to James Glasgow and Issobell Duff on 18 April 1680. Either child fits the 1696 apprentice at seventeen or sixteen. Both childhood candidates therefore lead into a Duffe maternal household without requiring us to choose or merge the children. No mother is named in either apprenticeship, and neither James baptism is securely identified with the apprentice. The two maternal forenames may represent different women; Duffe-18 is retained as the existing qualified Isobell/Elizabeth household account, not proof that those names denote one woman. The later James may be the survivor, but no infant burial proves that. Another matching craftsman’s family, a half-brother relationship, another Duffe woman, and the unresolved cancelled 1690 Lindsayland apprenticeship remain alternatives. The 72% rates this whole maternal identification and stays below the father’s 82%; the father, brother and mother assessments share evidence and must not be multiplied as independent support."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Duffe household: probable mother for the apprentice",
+        "href": "/branches/research-calder-inveresk-james/#chapter-edinburgh-apothecary-probable-father"
+      }
+    ],
+    "provenance": {
+      "prior_status": "Mother=0; previous household review selected father only.",
+      "identity_scope": "Whole maternal identification, including apprentice-to-child and Elizabeth/Isobell uncertainties.",
+      "live_flag_changed": false
+    }
   }
 ]
