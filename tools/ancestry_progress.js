@@ -20,7 +20,24 @@
       return {date: row.date, value: Number.isFinite(value) ? value : null};
     });
   }
-  if (typeof module !== 'undefined' && module.exports) module.exports = {dailyHistory, historySeries};
+  function confidenceHistory(snapshots, methodVersion, cohort) {
+    const rows = [], revisions = new Map();
+    let previous;
+    for (const snapshot of snapshots) {
+      if (snapshot.method_version !== methodVersion) continue;
+      const metrics = cohort === 'fixed' ? snapshot.fixed_cohort : snapshot.cohorts?.[cohort];
+      const confidence = metrics?.working?.individual_confidence;
+      if (!Number.isFinite(confidence?.mean_percent)) continue;
+      const signature = JSON.stringify([snapshot.date, confidence.mean_percent, confidence.rated_edge_count, confidence.unrated_edge_count]);
+      if (signature === previous) continue;
+      previous = signature;
+      const revision = (revisions.get(snapshot.date) || 0) + 1;
+      revisions.set(snapshot.date, revision);
+      rows.push({date:snapshot.date, revision, ...confidence});
+    }
+    return rows;
+  }
+  if (typeof module !== 'undefined' && module.exports) module.exports = {dailyHistory, historySeries, confidenceHistory};
   if (typeof document === 'undefined') return;
   const element = document.getElementById('ancestry-progress-data');
   if (!element) return;
@@ -38,9 +55,43 @@
     edge_count:'Father–child links', largest_component_size:'People in largest branch',
     connected_pairs_percent:'Connected pairs (%)', component_count:'Separate paternal components'
   };
+  function renderConfidenceTrend(cohort) {
+    const rows = confidenceHistory(data.progress_history, data.history_method_version, cohort);
+    const target = byId('confidence-trend-chart');
+    if (!rows.length) {
+      target.innerHTML = '<p class="history-empty">Exact confidence measurements have not yet been recorded for this cohort.</p>';
+      byId('confidence-trend-summary').textContent = '';
+      byId('confidence-trend-rows').innerHTML = '';
+      return;
+    }
+    const first = rows[0], last = rows[rows.length-1], delta = last.mean_percent-first.mean_percent;
+    const format = value => value.toFixed(2)+'%';
+    byId('confidence-trend-summary').textContent = `${format(first.mean_percent)} → ${format(last.mean_percent)} (${delta>=0?'+':'−'}${Math.abs(delta).toFixed(2)} percentage points). ${number(last.rated_edge_count)} of ${number(last.rated_edge_count+last.unrated_edge_count)} father links individually rated; ${last.rated_edges_percent.toFixed(1)}% review coverage.`;
+    const width = Math.max(300, Math.min(960, target.clientWidth || 960)), height = 220;
+    const left = 62, right = 34, top = 24, bottom = 50;
+    const values = rows.map(row=>row.mean_percent), low = Math.min(...values), high = Math.max(...values);
+    const padding = Math.max(.5, (high-low)*.2), min = Math.max(0, low-padding), max = Math.min(100, high+padding);
+    const x = i => rows.length===1 ? (left+width-right)/2 : left+i/(rows.length-1)*(width-left-right);
+    const y = value => height-bottom-(value-min)/(max-min)*(height-top-bottom);
+    const label = row => `${row.date} · review ${row.revision}`;
+    const svg = [`<svg viewBox="0 0 ${width} ${height}" role="img" aria-labelledby="confidence-trend-title confidence-trend-desc"><title id="confidence-trend-title">Mean reviewed father confidence over time</title><desc id="confidence-trend-desc">Saved reviews in chronological order, evenly spaced. ${esc(byId('confidence-trend-summary').textContent)} The vertical axis starts at ${min.toFixed(2)}%. Full values are in the review data table.</desc>`];
+    for (let i=0;i<=4;i++) {
+      const value = min+(max-min)*i/4, yy = y(value);
+      svg.push(`<line x1="${left}" x2="${width-right}" y1="${yy}" y2="${yy}" class="history-grid"/><text x="${left-10}" y="${yy+4}" text-anchor="end">${value.toFixed(1)}%</text>`);
+    }
+    svg.push(`<path d="${rows.map((row,i)=>`${i?'L':'M'}${x(i)},${y(row.mean_percent)}`).join(' ')}" fill="none" stroke="#386eaf" stroke-width="3"/>`);
+    rows.forEach((row,i)=> {
+      const title = `${label(row)}: ${format(row.mean_percent)}, ${row.rated_edge_count} rated father links`;
+      svg.push(`<circle cx="${x(i)}" cy="${y(row.mean_percent)}" r="5" fill="#386eaf" stroke="#fffdf8" stroke-width="2" tabindex="0" aria-label="${esc(title)}"><title>${esc(title)}</title></circle>`);
+      if (i===0 || i===rows.length-1) svg.push(`<text x="${x(i)}" y="${height-24}" text-anchor="${i===0?'start':'end'}">${esc(label(row))}</text>`);
+    });
+    target.innerHTML = svg.join('')+'</svg>';
+    byId('confidence-trend-rows').innerHTML = rows.map(row=>`<tr><th scope="row">${esc(label(row))}</th><td>${format(row.mean_percent)}</td><td>${number(row.rated_edge_count)}</td><td>${row.rated_edges_percent.toFixed(1)}%</td></tr>`).join('');
+  }
   function renderHistory() {
     const cutoff = byId('progress-cutoff').value;
     const fixed = byId('history-cohort').value === 'fixed';
+    renderConfidenceTrend(fixed ? 'fixed' : cutoff);
     const metric = byId('history-metric').value;
     const rows = dailyHistory(data.progress_history, data.history_method_version, fixed ? 'fixed' : cutoff);
     const exactConfidence = metric === 'reviewed_confidence_percent';

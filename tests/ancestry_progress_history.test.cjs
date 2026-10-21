@@ -1,6 +1,6 @@
 const {test} = require('node:test');
 const assert = require('node:assert/strict');
-const {dailyHistory, historySeries} = require('../tools/ancestry_progress.js');
+const {dailyHistory, historySeries, confidenceHistory} = require('../tools/ancestry_progress.js');
 
 test('daily history uses the final comparable snapshot and excludes method changes', () => {
   const rows = dailyHistory([
@@ -44,4 +44,21 @@ test('exact confidence tracks within-band changes without filling older snapshot
     {date:'2026-10-23', metrics:{working:{individual_confidence:{mean_percent:null}}}}
   ];
   assert.deepEqual(historySeries(rows, 'working', 'reviewed_confidence_percent').map(p => p.value), [null, 82, 86, null]);
+});
+
+test('confidence trend retains same-day changes without inventing earlier percentages', () => {
+  const measured = (mean, rated) => ({working:{individual_confidence:{mean_percent:mean, rated_edge_count:rated, unrated_edge_count:100-rated, rated_edges_percent:rated}}});
+  const snapshots = [
+    {date:'2026-10-20', method_version:3, fixed_cohort:{working:{edge_count:100}}},
+    {date:'2026-10-21', method_version:2, fixed_cohort:measured(99, 50)},
+    {date:'2026-10-21', method_version:3, fixed_cohort:measured(82, 20)},
+    {date:'2026-10-21', method_version:3, fixed_cohort:measured(82, 20)},
+    {date:'2026-10-21', method_version:3, fixed_cohort:measured(86, 21)},
+    {date:'2026-10-21', method_version:3, fixed_cohort:measured(85, 22)},
+    {date:'2026-10-22', method_version:3, cohorts:{1650:measured(90, 10)}}
+  ];
+  assert.deepEqual(confidenceHistory(snapshots, 3, 'fixed').map(row=>[row.date,row.revision,row.mean_percent,row.rated_edge_count]), [
+    ['2026-10-21',1,82,20], ['2026-10-21',2,86,21], ['2026-10-21',3,85,22]
+  ]);
+  assert.deepEqual(confidenceHistory(snapshots, 3, '1650').map(row=>row.mean_percent), [90]);
 });
