@@ -81,6 +81,7 @@ Check documentary claims against the underlying record. Distinguish documented f
 ## Routed references
 
 - Progress confidence history: snapshot exact reviewed father–child percentages and review coverage through the existing connectivity history, so changes within a confidence band remain measurable. Never substitute band midpoints or saved certainty flags for individual estimates, reconstruct unrecorded past measurements, or describe the aggregate as a whole-tree probability. Preserve existing connectivity totals and separate new measurements from genealogical joins.
+- Keep the progress chart prominent near the top of `/onetree/progress/`, ahead of research narrative, with dated changes visible beside current totals. Default to confident and probable father-link counts so recorded improvement is immediately visible; retain exact confidence and connectivity measures as selectable views.
 
 Before substantive research or identity/relationship judgments, read Identity and evidence. Also load Profile workflows before preparing/editing profiles, Catalogue and site before findings/site synchronization, and Transcription before source-reading work. Load only the applicable references:
 

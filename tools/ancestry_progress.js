@@ -45,7 +45,7 @@
     const rows = dailyHistory(data.progress_history, data.history_method_version, fixed ? 'fixed' : cutoff);
     const exactConfidence = metric === 'reviewed_confidence_percent';
     const historyParams = new URLSearchParams(location.search);
-    if (metric === 'assessed_links_percent') historyParams.delete('history');
+    if (metric === 'edge_count') historyParams.delete('history');
     else historyParams.set('history', metric);
     if (fixed) historyParams.delete('historyCohort');
     else historyParams.set('historyCohort', 'selected');
@@ -83,7 +83,8 @@
       const coverage = exactConfidence ? rows.find(row => row.date === last.date)?.metrics.working?.individual_confidence : null;
       const total = coverage ? coverage.rated_edge_count + coverage.unrated_edge_count : 0;
       const coverageText = coverage ? `<small>${number(coverage.rated_edge_count)} of ${number(total)} father links individually rated · ${coverage.rated_edges_percent.toFixed(1)}% coverage</small>` : '';
-      return `<div class="history-${exactConfidence?'supported':view.key}"><span>${esc(view.label)}</span><strong>${esc(format(last.value))}</strong><small>${points.length>1?`${delta>0?'+':delta<0?'−':''}${esc(change)} since ${esc(dateLabel(first.date))}`:`First snapshot · ${esc(dateLabel(last.date))}`}</small>${coverageText}</div>`;
+      const before = points.length > 1 ? `<small>${esc(format(first.value))} → ${esc(format(last.value))} · ${esc(dateLabel(first.date))}–${esc(dateLabel(last.date))}</small>` : '';
+      return `<div class="history-${exactConfidence?'supported':view.key}"><span>${esc(view.label)}</span><strong>${esc(format(last.value))}</strong><small>${points.length>1?`${delta>0?'+':delta<0?'−':''}${esc(change)} since ${esc(dateLabel(first.date))}`:`First snapshot · ${esc(dateLabel(last.date))}`}</small>${before}${coverageText}</div>`;
     }).join('');
     if (!values.length) {
       byId('history-chart').innerHTML = `<p class="history-empty">${exactConfidence?'No individually rated father links have been recorded for this cohort.':'Select a confidence level to display its history.'}</p>`;
