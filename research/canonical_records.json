@@ -6563,7 +6563,7 @@
   },
   {
     "record_id": "nai-exchequer-thomas-jane-1713",
-    "association": "Thomas Glasgow and Jane his wife, defendants against David Lloyd",
+    "association": "Thomas Glasgow and Jane his wife, defendants against David Rynd",
     "date": "8 March 1713 (register date)",
     "year": 1713,
     "place": "Dublin, Ireland (court venue; residence unstated)",
@@ -6573,7 +6573,7 @@
     "source_status": "Original image visually inspected 21 October 2026; original retained privately",
     "status": "Inspected original; profile identity probable",
     "source_quality": "original",
-    "note": "The 1713 original expressly names Thomas Glasgow and Jane his wife. Prefer the established Lifford/Donegal Thomas as this husband: the uncommon full name and repeated William Humphrys litigation associate link the 1701 and 1713 Exchequer entries. John Moffett in 1701 and Archibald Moffett in 1713 add family-network consistency, not proof they are the same associate. The 1686 John Hamilton comparison supports the older Donegal cluster indirectly. Assess the husband identification at 89% and the whole Jane-to-Lifford spouse attachment at 88%, probable; the literal marriage wording within the 1713 case is documented, 99%. These are subjective, dependent judgments, not multiplied independent probabilities. The 1713 entry supplies no residence, estate, maiden surname, marriage date, age, parents or children. An unrepresented namesake or succeeding Thomas remains possible. The Edinburgh graduate Thomas-3413 may be the same man, not an independently established competing Irish Thomas. Jane is not assigned as mother of Nathaniel, George, James or any other child. Archibald–Thomas remains 86%; no paternal edge, birth date, merge or live WikiTree edit changes. The court venue Dublin is not either spouse’s residence. Register dates are retained as written; no modern-calendar conversion of the March date is asserted. The original lists David Lloyd Esq. as plaintiff and Thomas and Jane among defendants with William Humphrys, Archibald Moffett and other parties. The face of the spread numbers the right page 231; the Glasgow entry is on the facing left page, whose number is not visible. Findmypast indexes p.231. Retain both locators.",
+    "note": "The 1713 original expressly names Thomas Glasgow and Jane his wife. Prefer the established Lifford/Donegal Thomas as this husband: the uncommon full name and repeated William Humphrys litigation associate link the 1701 and 1713 Exchequer entries. John Moffett in 1701 and Archibald Moffett in 1713 add family-network consistency, not proof they are the same associate. The 1686 John Hamilton comparison supports the older Donegal cluster indirectly. Assess the husband identification at 89% and the whole Jane-to-Lifford spouse attachment at 88%, probable; the literal marriage wording within the 1713 case is documented, 99%. These are subjective, dependent judgments, not multiplied independent probabilities. The 1713 entry supplies no residence, estate, maiden surname, marriage date, age, parents or children. An unrepresented namesake or succeeding Thomas remains possible. The Edinburgh graduate Thomas-3413 may be the same man, not an independently established competing Irish Thomas. Jane is not assigned as mother of Nathaniel, George, James or any other child. Archibald–Thomas remains 86%; no paternal edge, birth date, merge or live WikiTree edit changes. The court venue Dublin is not either spouse’s residence. Register dates are retained as written; no modern-calendar conversion of the March date is asserted. The original lists David Rynd Esq. as plaintiff and Thomas and Jane among defendants with William Humphrys, Archibald Moffett and other parties. The face of the spread numbers the right page 231; the Glasgow entry is on the facing left page, whose number is not visible. Findmypast indexes p.231. Retain both locators.",
     "profiles": {
       "Glasgow-3556": {
         "role": "Preferred qualified identity of named Thomas; probable 89%",
@@ -6584,6 +6584,62 @@
         "role": "Jane, explicitly wife of Thomas in this entry; husband’s Lifford identity probable",
         "assessment": "proved",
         "timeline_group": "Family records"
+      }
+    },
+    "reading_history": [
+      {
+        "reviewed": "2026-10-21",
+        "previous_reading": "David Lloyd",
+        "current_reading": "David Rynd",
+        "basis": "Comparison of the full-resolution 1712 p.47 and 1713 original entries; the original 1713 surname is Rynd. Jane wife clause unchanged."
+      }
+    ]
+  },
+  {
+    "record_id": "nai-exchequer-thomas-rynd-1712",
+    "association": "Thomas Glasgow, plaintiff against David Rynd and others",
+    "date": "27 January 1712 (as written)",
+    "year": 1712,
+    "place": "Dublin, Ireland (court venue; residence not stated)",
+    "source_title": "National Archives of Ireland, Equity Exchequer Bill Books 1712–1714, volume 18, p.47, image 393",
+    "source_url": "https://search.findmypast.co.uk/record?id=IRE%2FCOURT%2FEXCHEQUER%2F007635140%2F00393&parentid=IRE%2FCOURT%2FEXCHEQUER%2F0001409179",
+    "source_type": "Original court bill-book image",
+    "source_status": "Original image inspected at full resolution 21 October 2026",
+    "source_quality": "original",
+    "status": "Original inspected; profile identity probable through the linked Rynd litigation",
+    "note": "Thomas Glasgow is plaintiff; David Rynd, John Rynd, John Foulkney and Jane his wife, Archibald Acheson and Jane his wife are defendants. The husband names Foulkney/Acheson are provisional readings. A later 1718 procedural annotation is not an independent proof that Thomas remained alive in 1718. No parent, child or residence is stated. The surname comparison corrects the prior Lloyd reading of David Rynd in the 1713 case. The Jane spouses here belong to the named defendants, not automatically to Thomas. Keep the record date as written without asserting a modern-calendar conversion.",
+    "profiles": {
+      "Glasgow-3556": {
+        "role": "Preferred identity of Thomas Glasgow, plaintiff; linked Rynd litigation",
+        "assessment": "probable",
+        "timeline_group": "Court records"
+      }
+    }
+  },
+  {
+    "record_id": "nai-exchequer-thomas-john-rynd-1718",
+    "association": "Thomas Glasgow and John Glasgow, co-defendants with David Rynd",
+    "date": "24 January 1718 (as written)",
+    "year": 1718,
+    "place": "Dublin, Ireland (court venue; residence not stated)",
+    "source_title": "National Archives of Ireland, Equity Exchequer Bill Books, 24 January 1718, spread ending p.72, image 844",
+    "source_url": "https://search.findmypast.co.uk/record?id=IRE%2FCOURT%2FEXCHEQUER%2F007635158%2F00844&parentid=IRE%2FCOURT%2FEXCHEQUER%2F0001725286",
+    "source_type": "Original court bill-book image",
+    "source_status": "Original image inspected at full resolution 21 October 2026",
+    "source_quality": "original",
+    "status": "Inspected original; Thomas identity probable; John’s Leitrim comparison possible",
+    "note": "Teige McSharry is plaintiff. Thomas Glasgow, John Folke, David Rynd, John Glasgow, John Johnston[e] and John Leman are defendants. The Glasgow names and David Rynd are clear; other spellings remain qualified. The original names no kinship, residence or estate. John Glasgow-3960, the independently recorded Leitrim gentleman of 1728, is the most useful existing comparison at 35% possible identity, not a selected identification or proof of a family degree. Glasgow-551, Glasgow-3913, Glasgow-3990 and Glasgow-3959 remain alternatives. Glasgow-3984’s 1685 probate is a conflict with ordinary living participation in 1718 unless an estate action is established. No father or sibling link is added. The procedural annotations in 1719 are not independent proof of survival on every annotation date. Calendar date retained as written.",
+    "profiles": {
+      "Glasgow-3556": {
+        "role": "Preferred probable identity of Thomas, linked by the repeated Rynd litigation",
+        "assessment": "probable",
+        "timeline_group": "Court records"
+      },
+      "Glasgow-3960": {
+        "role": "Possible comparison for the named John defendant; identity 35%, parentage unchanged",
+        "assessment": "possible",
+        "timeline_group": "Possible connections",
+        "identity_probability": 0.35
       }
     }
   }

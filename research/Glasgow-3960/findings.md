@@ -1,10 +1,12 @@
 # Findings: John Glasgow (Glasgow-3960), Gortigillagh/Gortaggle, 1728
 
-Last updated: 2026-10-16
+Last updated: 2026-10-21
 
 ## Current conclusion
 
-Reviewed: 2026-10-16
+Reviewed: 2026-10-21
+
+**The 1718 McSharry–Rynd court defendant is a possible earlier identity for this John, 35%; the existing very uncertain Tyrone father model is unchanged.**
 
 **Selected very uncertain Leitrim–Tyrone model, 16 October 2026:** John Glasgow-3960 is provisionally placed as a son of the traditional John Glasgow-551, using their existing estimated generations. Identity between the two Johns remains a live alternative. The 1728 witness record names no father; James Glasgow-3124’s existing paternal link remains unproved. [Evidence and alternatives](/branches/research-irish-belfast-donegal/#leitrim-tyrone-working-family).
 
@@ -73,3 +75,18 @@ The adjoining-owner and committee appointments may concern one man but do not na
 
 This may concern [Glasgow-3960](https://www.wikitree.com/wiki/Glasgow-3960). Chronologically compatible with no recorded death before 1776. A son is listed, but no Pennsylvania, occupation, or roster connection.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Rynd litigation and the 1718 John comparison — 21 October 2026
+
+The 1713 plaintiff is David Rynd, not the formerly published Lloyd reading. The clearly written David and John Rynd names in the 27 January 1712 entry allow the 1713 surname to be reread as Rynd. Jane’s wife clause is unchanged.
+
+On 27 January 1712, [Thomas Glasgow](/people/glasgow-3556.html) was plaintiff against David Rynd, John Rynd and other defendants. On 8 March 1713, David Rynd was plaintiff against Thomas Glasgow and Jane his wife and others. On 24 January 1718, Thomas Glasgow and John Glasgow were separate co-defendants, with David Rynd, John Folke, John Johnston[e] and John Leman, in Teige McSharry’s case. The repeated Rynd name makes these a useful linked litigation network. It does not by itself identify the estate or turn the co-parties into relatives.
+
+John Glasgow-3960, the gentleman witnessed at Gortigillagh in County Leitrim in 1728, is the preferred existing comparison for the 1718 John at 35% possible identity. His 1728 deed has a Johnston property network spanning Donegal and Leitrim, but its James and Robert Johnston are not the John Johnston named in 1718. A shared associate surname is a lead, not an exact repeated person. The 1728 gentleman title cannot be transferred to the unqualified 1718 defendant. The about-1705 birth is an estimate and cannot exclude an older witness.
+
+The originals state no kinship, residence or estate for either Glasgow. John-551, John-3913, John-3990 and John-3959 remain compatible alternatives without a matching property or distinctive associate. John-3984’s 1685 probate conflicts with ordinary living participation in 1718 unless an estate action is established. No father, sibling, mother or child is selected from this litigation. Thomas’s 1713 husband identity remains 89%, Jane’s spouse attachment 88%, and Archibald’s father link 86%. The preferred Leitrim comparison is not a selected identification; John-3960’s existing father and child assessments are unchanged. Calendar dates are retained as written; later procedural annotations are not independent proof of survival on each annotation date.
+
+The next useful test is the original memorial 38213 (volume 57, p.235, agreement 30 May 1728): compare its property and named parties with the McSharry/Rynd suit. The bill-book entries supply no such property bridge. A connected underlying bill, answer or decree identifying the Glasgow parties’ capacities would distinguish father, brother, cousin and unrelated namesake models.
+
+- [National Archives of Ireland, Equity Exchequer Bill Books 1712–1714, volume 18, p.47, image 393](https://search.findmypast.co.uk/record?id=IRE%2FCOURT%2FEXCHEQUER%2F007635140%2F00393&parentid=IRE%2FCOURT%2FEXCHEQUER%2F0001409179)
+- [National Archives of Ireland, Equity Exchequer Bill Books, 24 January 1718, spread ending p.72, image 844](https://search.findmypast.co.uk/record?id=IRE%2FCOURT%2FEXCHEQUER%2F007635158%2F00844&parentid=IRE%2FCOURT%2FEXCHEQUER%2F0001725286)

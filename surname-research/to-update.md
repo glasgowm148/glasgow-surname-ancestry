@@ -2598,3 +2598,10 @@ Burial-defined Walter remains on source-verification HOLD in the existing creati
 | --- | --- | --- |
 | [Thomas Glasgow](https://www.wikitree.com/wiki/Glasgow-3556) | OPEN | Add the original 1713 Jane wife entry, probable spouse 88%, husband identity 89%, and newly read 1677/1686 court evidence; correct 1686 month to November; no parentage grade change. |
 | [Archibald Glasgow](https://www.wikitree.com/wiki/Glasgow-1101) | OPEN | Cross-reference Thomas’s probable wife Jane; retain father 86%. |
+
+## 21 October 2026 — Rynd court network
+
+| Person | Status | Change |
+| --- | --- | --- |
+| [Thomas Glasgow](https://www.wikitree.com/wiki/Glasgow-3556) | OPEN | Add original 1712 and 1718 Exchequer entries; correct the 1713 plaintiff to David Rynd; no parentage or spouse confidence change. |
+| [John Glasgow](https://www.wikitree.com/wiki/Glasgow-3960) | OPEN | Add the 1718 defendant as a 35% possible earlier identity; retain the 1728 Leitrim record and existing very uncertain father model. |

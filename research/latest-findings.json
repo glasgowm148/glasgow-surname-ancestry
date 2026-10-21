@@ -34087,6 +34087,58 @@
       "certainty_upgrades": 0,
       "new_source_discoveries": 2,
       "provenance": "Original images inspected 21 October 2026. The 1713 index lead was already held; its wife clause is newly read. The 1677/1686 wildcard occurrences are new to the maintained account. Native independent identity review supported probable rather than confident attachment. No full licensed images published."
+    },
+    {
+      "id": "rynd-thomas-john-court-network-20261021",
+      "found_on": "2026-10-21",
+      "kind": "record",
+      "finding": "Original 1712 and 1718 Exchequer entries link Thomas Glasgow to David Rynd and place a separate John Glasgow beside Thomas in 1718; correct the 1713 plaintiff from Lloyd to Rynd.",
+      "status": "qualified",
+      "qualification": "John Glasgow-3960, the gentleman witnessed at Gortigillagh in County Leitrim in 1728, is the preferred existing comparison for the 1718 John at 35% possible identity. His 1728 deed has a Johnston property network spanning Donegal and Leitrim, but its James and Robert Johnston are not the John Johnston named in 1718. A shared associate surname is a lead, not an exact repeated person. The 1728 gentleman title cannot be transferred to the unqualified 1718 defendant. The about-1705 birth is an estimate and cannot exclude an older witness. The originals state no kinship, residence or estate for either Glasgow. John-551, John-3913, John-3990 and John-3959 remain compatible alternatives without a matching property or distinctive associate. John-3984’s 1685 probate conflicts with ordinary living participation in 1718 unless an estate action is established. No father, sibling, mother or child is selected from this litigation. Thomas’s 1713 husband identity remains 89%, Jane’s spouse attachment 88%, and Archibald’s father link 86%. The preferred Leitrim comparison is not a selected identification; John-3960’s existing father and child assessments are unchanged. Calendar dates are retained as written; later procedural annotations are not independent proof of survival on each annotation date.",
+      "people": [
+        {
+          "id": "Glasgow-3556",
+          "name": "Thomas Glasgow",
+          "role": "Probable Lifford identity; Rynd litigation",
+          "url": "/people/glasgow-3556.html"
+        },
+        {
+          "id": "Glasgow-3960",
+          "name": "John Glasgow of Leitrim",
+          "role": "Possible comparison for the 1718 defendant, 35%",
+          "url": "/people/glasgow-3960.html"
+        },
+        {
+          "id": "record-jane-thomas-glasgow-1713",
+          "name": "Jane, wife named in 1713",
+          "role": "Wife clause retained; corrected plaintiff surname",
+          "url": "/people/record-jane-thomas-glasgow-1713.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "National Archives of Ireland, Equity Exchequer Bill Books 1712–1714, volume 18, p.47, image 393",
+          "url": "https://search.findmypast.co.uk/record?id=IRE%2FCOURT%2FEXCHEQUER%2F007635140%2F00393&parentid=IRE%2FCOURT%2FEXCHEQUER%2F0001409179"
+        },
+        {
+          "title": "National Archives of Ireland, Equity Exchequer Bill Books, 24 January 1718, spread ending p.72, image 844",
+          "url": "https://search.findmypast.co.uk/record?id=IRE%2FCOURT%2FEXCHEQUER%2F007635158%2F00844&parentid=IRE%2FCOURT%2FEXCHEQUER%2F0001725286"
+        },
+        {
+          "title": "NAI Equity Exchequer bill book, volume 18 (1712–1714), left page opposite p.231, image 583, 8 March 1713 (as written)",
+          "url": "https://search.findmypast.co.uk/record?id=IRE%2FCOURT%2FEXCHEQUER%2F007635140%2F00583&parentid=IRE%2FCOURT%2FEXCHEQUER%2F0001416171"
+        }
+      ],
+      "detail_url": "/people/glasgow-3556.html",
+      "relationship_changes": [],
+      "new_father_attachments": 0,
+      "new_mother_attachments": 0,
+      "new_spouse_attachments": 0,
+      "genealogical_connections_added": 0,
+      "certainty_upgrades": 0,
+      "new_source_discoveries": 0,
+      "original_records_inspected": 2,
+      "provenance": "Two held index leads newly read from original full-resolution images on 21 October 2026; the 1713 original was compared again to correct its surname reading. These are linked court events, not a proved family degree. Full licensed originals remain private."
     }
   ]
 }
