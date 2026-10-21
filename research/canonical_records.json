@@ -6518,5 +6518,73 @@
         "identification_status": "possible"
       }
     }
+  },
+  {
+    "record_id": "nai-chancery-thomas-glascow-1677",
+    "association": "Thomas Glascow, gent., plaintiff in two Chancery entries",
+    "date": "5 November 1677",
+    "year": 1677,
+    "place": "Dublin, Ireland (court venue; residence unstated)",
+    "source_title": "NAI Court of Chancery bill book, volume 7 (1672–1677), image 65, 5 November 1677",
+    "source_url": "https://search.findmypast.co.uk/record?id=IRE%2FCOURT%2FCHANCERY%2F007635159%2F00065&parentid=IRE%2FCOURT%2FCHANCERY%2F0000001982",
+    "source_type": "Original court bill-book image",
+    "source_status": "Original image visually inspected 21 October 2026; original retained privately",
+    "status": "Inspected original; profile identity qualified",
+    "source_quality": "original",
+    "note": "Original image inspected 21 October 2026: Thomas Glascow, gent., is plaintiff in two entries, one against Stewart parties and one against William Griffith and another William whose surname is not settled here. Bill entry 5 November 1677. No residence or kinship is supplied. Keep this as a compatible earlier Thomas occurrence, not a secure Lifford identification or an independent parentage statement.",
+    "profiles": {
+      "Glasgow-3556": {
+        "role": "Preferred qualified identity of named Thomas; earlier compatible court occurrence",
+        "assessment": "possible",
+        "timeline_group": "Court records"
+      }
+    }
+  },
+  {
+    "record_id": "nai-chancery-thomas-glascow-1686",
+    "association": "Thomas Glascow against Hamilton, Sumerwell, Spence and Hamilton",
+    "date": "7 November 1686",
+    "year": 1686,
+    "place": "Dublin, Ireland (court venue; residence unstated)",
+    "source_title": "NAI Court of Chancery bill book, volume 9 (1682–1687), p.290, image 908, 7 November 1686",
+    "source_url": "https://search.findmypast.co.uk/record?id=IRE%2FCOURT%2FCHANCERY%2F007635159%2F00908&parentid=IRE%2FCOURT%2FCHANCERY%2F0000029476",
+    "source_type": "Original court bill-book image",
+    "source_status": "Original image visually inspected 21 October 2026; original retained privately",
+    "status": "Inspected original; profile identity qualified",
+    "source_quality": "original",
+    "note": "Original p.290 inspected at full resolution 21 October 2026: Thomas Glascow plaintiff; John Hamilton, James Sumerwell, Robert Spence and Margaret Hamilton defendants. The bill reads 7th 9bre 1686, meaning 7 November; the Findmypast transcript instead gives 07/02/1686. John Hamilton is also the name of a surety in the retained Lifford purchase account, supporting a possible associate match, not proving it. No residence or family relationship is stated.",
+    "profiles": {
+      "Glasgow-3556": {
+        "role": "Preferred qualified identity of named Thomas; earlier compatible court occurrence",
+        "assessment": "possible",
+        "timeline_group": "Court records"
+      }
+    }
+  },
+  {
+    "record_id": "nai-exchequer-thomas-jane-1713",
+    "association": "Thomas Glasgow and Jane his wife, defendants against David Lloyd",
+    "date": "8 March 1713 (register date)",
+    "year": 1713,
+    "place": "Dublin, Ireland (court venue; residence unstated)",
+    "source_title": "NAI Equity Exchequer bill book, volume 18 (1712–1714), left page opposite p.231, image 583, 8 March 1713 (as written)",
+    "source_url": "https://search.findmypast.co.uk/record?id=IRE%2FCOURT%2FEXCHEQUER%2F007635140%2F00583&parentid=IRE%2FCOURT%2FEXCHEQUER%2F0001416171",
+    "source_type": "Original court bill-book image",
+    "source_status": "Original image visually inspected 21 October 2026; original retained privately",
+    "status": "Inspected original; profile identity probable",
+    "source_quality": "original",
+    "note": "The 1713 original expressly names Thomas Glasgow and Jane his wife. Prefer the established Lifford/Donegal Thomas as this husband: the uncommon full name and repeated William Humphrys litigation associate link the 1701 and 1713 Exchequer entries. John Moffett in 1701 and Archibald Moffett in 1713 add family-network consistency, not proof they are the same associate. The 1686 John Hamilton comparison supports the older Donegal cluster indirectly. Assess the husband identification at 89% and the whole Jane-to-Lifford spouse attachment at 88%, probable; the literal marriage wording within the 1713 case is documented, 99%. These are subjective, dependent judgments, not multiplied independent probabilities. The 1713 entry supplies no residence, estate, maiden surname, marriage date, age, parents or children. An unrepresented namesake or succeeding Thomas remains possible. The Edinburgh graduate Thomas-3413 may be the same man, not an independently established competing Irish Thomas. Jane is not assigned as mother of Nathaniel, George, James or any other child. Archibald–Thomas remains 86%; no paternal edge, birth date, merge or live WikiTree edit changes. The court venue Dublin is not either spouse’s residence. Register dates are retained as written; no modern-calendar conversion of the March date is asserted. The original lists David Lloyd Esq. as plaintiff and Thomas and Jane among defendants with William Humphrys, Archibald Moffett and other parties. The face of the spread numbers the right page 231; the Glasgow entry is on the facing left page, whose number is not visible. Findmypast indexes p.231. Retain both locators.",
+    "profiles": {
+      "Glasgow-3556": {
+        "role": "Preferred qualified identity of named Thomas; probable 89%",
+        "assessment": "probable",
+        "timeline_group": "Court records"
+      },
+      "record-jane-thomas-glasgow-1713": {
+        "role": "Jane, explicitly wife of Thomas in this entry; husband’s Lifford identity probable",
+        "assessment": "proved",
+        "timeline_group": "Family records"
+      }
+    }
   }
 ]

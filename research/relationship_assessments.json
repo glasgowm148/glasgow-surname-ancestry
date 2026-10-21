@@ -17168,5 +17168,54 @@
       "identity_scope": "Whole maternal identification, including apprentice-to-child and Elizabeth/Isobell uncertainties.",
       "live_flag_changed": false
     }
+  },
+  {
+    "assertion_id": "C-reviewed-20261021-thomas3556-jane-spouse",
+    "people": [
+      "Glasgow-3556",
+      "record-jane-thomas-glasgow-1713"
+    ],
+    "profile_names": {
+      "Glasgow-3556": "Thomas Glasgow of Lifford",
+      "record-jane-thomas-glasgow-1713": "Jane, wife named in 1713"
+    },
+    "status": "probable",
+    "publication_status": "approved",
+    "working_selection": false,
+    "allow_new_relationship": true,
+    "assessment_date": "2026-10-21",
+    "evidence_grade": "New probable wife; original spouse wording and qualified adult identity",
+    "basis": "The 1713 original expressly names Thomas Glasgow and Jane his wife. Prefer the established Lifford/Donegal Thomas as this husband: the uncommon full name and repeated William Humphrys litigation associate link the 1701 and 1713 Exchequer entries. John Moffett in 1701 and Archibald Moffett in 1713 add family-network consistency, not proof they are the same associate. The 1686 John Hamilton comparison supports the older Donegal cluster indirectly. Assess the husband identification at 89% and the whole Jane-to-Lifford spouse attachment at 88%, probable; the literal marriage wording within the 1713 case is documented, 99%. These are subjective, dependent judgments, not multiplied independent probabilities.",
+    "reason": "The 1713 original expressly names Thomas Glasgow and Jane his wife. Prefer the established Lifford/Donegal Thomas as this husband: the uncommon full name and repeated William Humphrys litigation associate link the 1701 and 1713 Exchequer entries. John Moffett in 1701 and Archibald Moffett in 1713 add family-network consistency, not proof they are the same associate. The 1686 John Hamilton comparison supports the older Donegal cluster indirectly. Assess the husband identification at 89% and the whole Jane-to-Lifford spouse attachment at 88%, probable; the literal marriage wording within the 1713 case is documented, 99%. These are subjective, dependent judgments, not multiplied independent probabilities.",
+    "limitations": "The 1713 entry supplies no residence, estate, maiden surname, marriage date, age, parents or children. An unrepresented namesake or succeeding Thomas remains possible. The Edinburgh graduate Thomas-3413 may be the same man, not an independently established competing Irish Thomas. Jane is not assigned as mother of Nathaniel, George, James or any other child. Archibald–Thomas remains 86%; no paternal edge, birth date, merge or live WikiTree edit changes. The court venue Dublin is not either spouse’s residence. Register dates are retained as written; no modern-calendar conversion of the March date is asserted.",
+    "identity_scope": "Jane of the 1713 entry; husband preferably Lifford Thomas. No identification with Janet Unknown-719146 and no maternity claim.",
+    "source_ids": [
+      "nai-exchequer-thomas-jane-1713"
+    ],
+    "perspectives": {
+      "Glasgow-3556": {
+        "relationship": "spouse",
+        "reason": "The 1713 original expressly names Thomas Glasgow and Jane his wife. Prefer the established Lifford/Donegal Thomas as this husband: the uncommon full name and repeated William Humphrys litigation associate link the 1701 and 1713 Exchequer entries. John Moffett in 1701 and Archibald Moffett in 1713 add family-network consistency, not proof they are the same associate. The 1686 John Hamilton comparison supports the older Donegal cluster indirectly. Assess the husband identification at 89% and the whole Jane-to-Lifford spouse attachment at 88%, probable; the literal marriage wording within the 1713 case is documented, 99%. These are subjective, dependent judgments, not multiplied independent probabilities."
+      },
+      "record-jane-thomas-glasgow-1713": {
+        "relationship": "spouse",
+        "reason": "The 1713 original expressly names Thomas Glasgow and Jane his wife. Prefer the established Lifford/Donegal Thomas as this husband: the uncommon full name and repeated William Humphrys litigation associate link the 1701 and 1713 Exchequer entries. John Moffett in 1701 and Archibald Moffett in 1713 add family-network consistency, not proof they are the same associate. The 1686 John Hamilton comparison supports the older Donegal cluster indirectly. Assess the husband identification at 89% and the whole Jane-to-Lifford spouse attachment at 88%, probable; the literal marriage wording within the 1713 case is documented, 99%. These are subjective, dependent judgments, not multiplied independent probabilities."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Original record, complete draft and identity comparison",
+        "href": "/people/record-jane-thomas-glasgow-1713.html"
+      }
+    ],
+    "assessment_history": [
+      {
+        "reviewed": "2026-10-21",
+        "prior_assessment": {
+          "status": "No spouse attached in fresh public capture and no wife identified in maintained account"
+        },
+        "basis": "First original-image reading of previously held 1713 index lead; new local spouse hypothesis, not a certainty regrade."
+      }
+    ]
   }
 ]

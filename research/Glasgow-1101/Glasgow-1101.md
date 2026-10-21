@@ -242,3 +242,6 @@ Betham now names wife Elizabeth, eldest son Thomas and only daughter Margaret. T
 * Irish probate index transcription, entry for Archibald Glascoe of Rathmatton, 1679.
 * Old Parish Records.
 * Edinburgh Commissary Court, CC8/8/70.
+
+== Son’s probable wife, reviewed 21 October 2026 ==
+The original 1713 Exchequer entry names Thomas Glasgow and Jane his wife. Prefer the Lifford son as that husband (89%); Jane’s spouse attachment is probable (88%). This does not strengthen Archibald’s 86% father assessment or establish any child’s mother.<ref name="Exch1713">National Archives of Ireland, Equity Exchequer Bill Books 1712–1714, volume 18, facing left page opposite p.231, 8 March 1713 as written, image 583; [ https://search.findmypast.co.uk/record?id=IRE%2FCOURT%2FEXCHEQUER%2F007635140%2F00583&parentid=IRE%2FCOURT%2FEXCHEQUER%2F0001416171 Findmypast original image]. Original inspected 21 October 2026; the Glasgow entry is on the left page, while the provider indexes right-page number 231.</ref>

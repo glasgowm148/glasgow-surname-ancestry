@@ -2591,3 +2591,10 @@ Burial-defined Walter remains on source-verification HOLD in the existing creati
 
 | [James Glasgow (Glasgow-4114)](https://www.wikitree.com/wiki/Glasgow-4114) | OPEN | Add probable mother Duffe-18,72%, alongside existing new father proposal2682,82%; preserve both child comparisons and alias uncertainty. |
 | [Isobell/Elizabeth Duffe (Duffe-18)](https://www.wikitree.com/wiki/Duffe-18) | OPEN | Add probable son James-4114,72%, through the qualified maternal household; no child merge or confident maternal claim. |
+
+## 21 October 2026 — Donegal Thomas’s newly read wife
+
+| Person | Status | Change |
+| --- | --- | --- |
+| [Thomas Glasgow](https://www.wikitree.com/wiki/Glasgow-3556) | OPEN | Add the original 1713 Jane wife entry, probable spouse 88%, husband identity 89%, and newly read 1677/1686 court evidence; correct 1686 month to November; no parentage grade change. |
+| [Archibald Glasgow](https://www.wikitree.com/wiki/Glasgow-1101) | OPEN | Cross-reference Thomas’s probable wife Jane; retain father 86%. |

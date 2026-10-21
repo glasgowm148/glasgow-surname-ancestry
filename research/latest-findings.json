@@ -34036,6 +34036,57 @@
         "research/Duffe-18/findings.md",
         "research/relationship_assessments.json"
       ]
+    },
+    {
+      "id": "donegal-thomas-jane-20261021",
+      "found_on": "2026-10-21",
+      "kind": "relationship",
+      "finding": "The original 1713 Exchequer entry names Thomas Glasgow and Jane his wife; select Jane as the Lifford Thomas’s new probable wife, 88%.",
+      "status": "qualified",
+      "qualification": "The 1713 entry supplies no residence, estate, maiden surname, marriage date, age, parents or children. An unrepresented namesake or succeeding Thomas remains possible. The Edinburgh graduate Thomas-3413 may be the same man, not an independently established competing Irish Thomas. Jane is not assigned as mother of Nathaniel, George, James or any other child. Archibald–Thomas remains 86%; no paternal edge, birth date, merge or live WikiTree edit changes. The court venue Dublin is not either spouse’s residence. Register dates are retained as written; no modern-calendar conversion of the March date is asserted. Original p.290 inspected at full resolution 21 October 2026: Thomas Glascow plaintiff; John Hamilton, James Sumerwell, Robert Spence and Margaret Hamilton defendants. The bill reads 7th 9bre 1686, meaning 7 November; the Findmypast transcript instead gives 07/02/1686. John Hamilton is also the name of a surety in the retained Lifford purchase account, supporting a possible associate match, not proving it. No residence or family relationship is stated.",
+      "people": [
+        {
+          "id": "Glasgow-3556",
+          "name": "Thomas Glasgow of Lifford",
+          "role": "Probable identity of husband, 89%",
+          "url": "/people/glasgow-3556.html"
+        },
+        {
+          "id": "record-jane-thomas-glasgow-1713",
+          "name": "Jane, wife named in 1713",
+          "role": "New probable wife, 88%; maiden surname unknown",
+          "url": "/people/record-jane-thomas-glasgow-1713.html"
+        },
+        {
+          "id": "Glasgow-1101",
+          "name": "Archibald Glasgow",
+          "role": "Existing father remains 86%",
+          "url": "/people/glasgow-1101.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "NAI Court of Chancery bill book, volume 7 (1672–1677), image 65, 5 November 1677",
+          "url": "https://search.findmypast.co.uk/record?id=IRE%2FCOURT%2FCHANCERY%2F007635159%2F00065&parentid=IRE%2FCOURT%2FCHANCERY%2F0000001982"
+        },
+        {
+          "title": "NAI Court of Chancery bill book, volume 9 (1682–1687), p.290, image 908, 7 November 1686",
+          "url": "https://search.findmypast.co.uk/record?id=IRE%2FCOURT%2FCHANCERY%2F007635159%2F00908&parentid=IRE%2FCOURT%2FCHANCERY%2F0000029476"
+        },
+        {
+          "title": "NAI Equity Exchequer bill book, volume 18 (1712–1714), left page opposite p.231, image 583, 8 March 1713 (as written)",
+          "url": "https://search.findmypast.co.uk/record?id=IRE%2FCOURT%2FEXCHEQUER%2F007635140%2F00583&parentid=IRE%2FCOURT%2FEXCHEQUER%2F0001416171"
+        }
+      ],
+      "detail_url": "/people/glasgow-3556.html",
+      "relationship_changes": [],
+      "new_father_attachments": 0,
+      "new_mother_attachments": 0,
+      "new_spouse_attachments": 1,
+      "genealogical_connections_added": 0,
+      "certainty_upgrades": 0,
+      "new_source_discoveries": 2,
+      "provenance": "Original images inspected 21 October 2026. The 1713 index lead was already held; its wife clause is newly read. The 1677/1686 wildcard occurrences are new to the maintained account. Native independent identity review supported probable rather than confident attachment. No full licensed images published."
     }
   ]
 }

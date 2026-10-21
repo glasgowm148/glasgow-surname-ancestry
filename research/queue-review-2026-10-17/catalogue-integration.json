@@ -5291,7 +5291,7 @@
     },
     "Glasgow-1101": {
       "significance": 83,
-      "summary": "Add the inspected Betham family abstract while preserving the clerical career, 1689 Thomas context, full PRONI research scope and unresolved identities; no relationship status change. Add the Scottish–Donegal family review: probable Scottish parents and Lifford son; documented Elizabeth spouse. Preserve separate identity limits and all existing detail. Reconcile the reviewed family/identity assessment, individual percentages and retained alternatives; preserve the complete sourced biography.",
+      "summary": "Add the inspected Betham family abstract while preserving the clerical career, 1689 Thomas context, full PRONI research scope and unresolved identities; no relationship status change. Add the Scottish–Donegal family review: probable Scottish parents and Lifford son; documented Elizabeth spouse. Preserve separate identity limits and all existing detail. Reconcile the reviewed family/identity assessment, individual percentages and retained alternatives; preserve the complete sourced biography. Cross-reference Thomas’s newly identified probable wife Jane (88%); no parentage upgrade.",
       "draft_path": "research/Glasgow-1101/Glasgow-1101.md",
       "biography_rechecked_at": "2026-09-30",
       "application_review": {
@@ -5306,7 +5306,7 @@
       },
       "complete_captured_biography_reconciled": true,
       "status": "OPEN",
-      "preservation_review_path": "research/queue-review-2026-10-17/astra-ancestry-preservation.json",
+      "preservation_review_path": "research/ancestry-connections/donegal-jane-preservation-2026-10-21.json",
       "queued_at": "2026-10-17",
       "relationship_changes": [
         {
@@ -5345,11 +5345,12 @@
           "assertion_id": "C-review-20261017-donegal-glasgow-1101-spouse",
           "scope": "Existing relationship reassessed from Scottish and Irish family records; no live flag changed."
         }
-      ]
+      ],
+      "prior_preservation_review_path": "research/queue-review-2026-10-17/astra-ancestry-preservation.json"
     },
     "Glasgow-3556": {
       "significance": 77,
-      "summary": "Add Betham’s named eldest son and the qualified Lifford purchase transcription to the complete biography, retaining all court/deed detail and uncertain father status. Reconcile existing 1701 evidence with the stale 1695 death bound and preserve prior assessments in Research Notes. Add the Scottish–Donegal family review: probable Scottish parents and Lifford son; documented Elizabeth spouse. Preserve separate identity limits and all existing detail. Add the inspected Killybegs tax-balance context and selected uncertain Thomas father/James son; James’s unsupported c.1650 birth is unknown. Preserve other family grades and all existing detail. Reconcile the reviewed family/identity assessment, individual percentages and retained alternatives; preserve the complete sourced biography.",
+      "summary": "Add Betham’s named eldest son and the qualified Lifford purchase transcription to the complete biography, retaining all court/deed detail and uncertain father status. Reconcile existing 1701 evidence with the stale 1695 death bound and preserve prior assessments in Research Notes. Add the Scottish–Donegal family review: probable Scottish parents and Lifford son; documented Elizabeth spouse. Preserve separate identity limits and all existing detail. Add the inspected Killybegs tax-balance context and selected uncertain Thomas father/James son; James’s unsupported c.1650 birth is unknown. Preserve other family grades and all existing detail. Reconcile the reviewed family/identity assessment, individual percentages and retained alternatives; preserve the complete sourced biography. Add newly read 1677/1686 court evidence and the 1713 Jane spouse entry: new probable wife 88%; preserve husband identity 89%, original month correction and all previous family grades.",
       "draft_path": "research/Glasgow-3556/Glasgow-3556.md",
       "biography_rechecked_at": "2026-09-30",
       "application_review": {
@@ -5370,7 +5371,7 @@
           "status": "after"
         }
       },
-      "preservation_review_path": "research/queue-review-2026-10-17/astra-ancestry-preservation.json",
+      "preservation_review_path": "research/ancestry-connections/donegal-jane-preservation-2026-10-21.json",
       "queued_at": "2026-10-17",
       "relationship_changes": [
         {
@@ -5390,8 +5391,19 @@
           "relative_id": "Glasgow-3001",
           "assertion_id": "C-working-20261017-killybegs-james-thomas-father",
           "scope": "One newly selected uncertain local parent; no live field changed."
+        },
+        {
+          "action": "add",
+          "relationship": "spouse",
+          "status": "probable",
+          "previous_status": "unknown",
+          "relative_id": "record-jane-thomas-glasgow-1713",
+          "assertion_id": "C-reviewed-20261021-thomas3556-jane-spouse",
+          "percent": 88,
+          "scope": "New wife hypothesis from the 1713 original; husband identity qualified, no maternity assigned."
         }
-      ]
+      ],
+      "prior_preservation_review_path": "research/queue-review-2026-10-17/astra-ancestry-preservation.json"
     },
     "Glasgow-1097": {
       "queued_at": "2026-10-17",
@@ -10325,6 +10337,79 @@
         }
       ],
       "relationship_changes": []
+    },
+    {
+      "subject_id": "jane-thomas-glasgow-1713",
+      "catalogue_id": "record-jane-thomas-glasgow-1713",
+      "name": "Jane (Unknown) Glasgow, wife named in 1713",
+      "source_subject_url": "https://search.findmypast.co.uk/record?id=IRE%2FCOURT%2FEXCHEQUER%2F007635140%2F00583&parentid=IRE%2FCOURT%2FEXCHEQUER%2F0001416171",
+      "research_subject_url": "/people/record-jane-thomas-glasgow-1713.html",
+      "draft_path": "surname-research/new-people/1713_Ireland_Jane_wife_of_Thomas_Glasgow.md",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\n'''Jane''' was named as the wife of Thomas Glasgow among defendants in a case brought by David Lloyd, Esq., in the Irish Court of Exchequer. The bill-book entry is dated 8 March 1713 as written. Her maiden surname, age, birthplace, parents, marriage date and death have not been established. Dublin is the court venue, not an established residence.<ref name=\"Exch1713\">National Archives of Ireland, Equity Exchequer Bill Books 1712–1714, volume 18, facing left page opposite p.231, 8 March 1713 as written, image 583; [ https://search.findmypast.co.uk/record?id=IRE%2FCOURT%2FEXCHEQUER%2F007635140%2F00583&parentid=IRE%2FCOURT%2FEXCHEQUER%2F0001416171 Findmypast original image]. Original inspected 21 October 2026; the Glasgow entry is on the left page, while the provider indexes right-page number 231.</ref>\n\n== Research Notes ==\nPrefer [[Glasgow-3556|Thomas Glasgow of Lifford and Donegal]] as her husband, probable at 88% subjective confidence for the complete spouse attachment. The 1713 husband identification is separately assessed at 89%. William Humphrys also appears with the established Thomas in the 1701 Exchequer case; the Moffett network adds context. No residence or estate is stated in the new entry. Another Thomas or a succeeding generation remains possible. The entry's literal “Jane his wife” wording is documented (99%); that is not 99% confidence in the Lifford identification.\n\nNo child is assigned to Jane merely because she was Thomas’s wife in 1713.\n\n'''Identity on HOLD:''' the public project catalogue and current anonymous WikiTree captures were checked on 21 October 2026. [[Unknown-719146|Janet Unknown]], mother of Robert recorded at Currie in 1646, survives as a weak older-generation comparison; her circa-1626 birth is an estimate and no spouse is attached. There is no positive Currie–Donegal bridge, but absent later fields do not exclude her. No merge or new live profile is proposed until this comparison is resolved. Thomas's fresh public profile has no spouse attached. This draft represents the woman in the 1713 record, not an identified maiden-name family.\n\n== Sources ==\n<references />\n",
+      "assessment": "The 1713 original expressly names Thomas Glasgow and Jane his wife. Prefer the established Lifford/Donegal Thomas as this husband: the uncommon full name and repeated William Humphrys litigation associate link the 1701 and 1713 Exchequer entries. John Moffett in 1701 and Archibald Moffett in 1713 add family-network consistency, not proof they are the same associate. The 1686 John Hamilton comparison supports the older Donegal cluster indirectly. Assess the husband identification at 89% and the whole Jane-to-Lifford spouse attachment at 88%, probable; the literal marriage wording within the 1713 case is documented, 99%. These are subjective, dependent judgments, not multiplied independent probabilities. The 1713 entry supplies no residence, estate, maiden surname, marriage date, age, parents or children. An unrepresented namesake or succeeding Thomas remains possible. The Edinburgh graduate Thomas-3413 may be the same man, not an independently established competing Irish Thomas. Jane is not assigned as mother of Nathaniel, George, James or any other child. Archibald–Thomas remains 86%; no paternal edge, birth date, merge or live WikiTree edit changes. The court venue Dublin is not either spouse’s residence. Register dates are retained as written; no modern-calendar conversion of the March date is asserted. Janet Unknown-719146 remains a weak unresolved earlier-generation comparison; identity is held rather than merged.",
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-10-21",
+      "first_names": [
+        "Jane"
+      ],
+      "last_names_at_birth": [
+        "Unknown"
+      ],
+      "last_names_current": [
+        "Glasgow"
+      ],
+      "gender": "Female",
+      "birth": "",
+      "birth_note": "Age and birthday unknown; named as wife in 1713.",
+      "death": "",
+      "birth_location": "",
+      "birth_location_note": "Dublin is the court venue, not a known birthplace or residence.",
+      "death_location": "",
+      "historical_basis": {
+        "latest_birth_year": 1713,
+        "source_url": "https://search.findmypast.co.uk/record?id=IRE%2FCOURT%2FEXCHEQUER%2F007635140%2F00583&parentid=IRE%2FCOURT%2FEXCHEQUER%2F0001416171"
+      },
+      "candidates": [
+        {
+          "profile_id": "Unknown-719146",
+          "name": "Janet Unknown, Currie mother in 1646",
+          "url": "https://www.wikitree.com/wiki/Unknown-719146",
+          "status": "weaker_candidate",
+          "reason": "No positive identity bridge; absent later fields and an estimated birth are not exclusions. Remains unselected."
+        }
+      ],
+      "records": [
+        {
+          "person": "Jane, wife of Thomas Glasgow",
+          "gender": "Female",
+          "year": "8 March 1713 (register date)",
+          "filter_year": "1713",
+          "family_group": "Donegal Thomas and Jane — identity qualified",
+          "region": "Ireland",
+          "record_location": "Dublin, Ireland (court venue; residence unstated)",
+          "association": "Jane, expressly wife of Thomas Glasgow, defendant in David Lloyd’s 1713 Exchequer case",
+          "note": "The 1713 original expressly names Thomas Glasgow and Jane his wife. Prefer the established Lifford/Donegal Thomas as this husband: the uncommon full name and repeated William Humphrys litigation associate link the 1701 and 1713 Exchequer entries. John Moffett in 1701 and Archibald Moffett in 1713 add family-network consistency, not proof they are the same associate. The 1686 John Hamilton comparison supports the older Donegal cluster indirectly. Assess the husband identification at 89% and the whole Jane-to-Lifford spouse attachment at 88%, probable; the literal marriage wording within the 1713 case is documented, 99%. These are subjective, dependent judgments, not multiplied independent probabilities. The 1713 entry supplies no residence, estate, maiden surname, marriage date, age, parents or children. An unrepresented namesake or succeeding Thomas remains possible. The Edinburgh graduate Thomas-3413 may be the same man, not an independently established competing Irish Thomas. Jane is not assigned as mother of Nathaniel, George, James or any other child. Archibald–Thomas remains 86%; no paternal edge, birth date, merge or live WikiTree edit changes. The court venue Dublin is not either spouse’s residence. Register dates are retained as written; no modern-calendar conversion of the March date is asserted. The original lists David Lloyd Esq. as plaintiff and Thomas and Jane among defendants with William Humphrys, Archibald Moffett and other parties. The face of the spread numbers the right page 231; the Glasgow entry is on the facing left page, whose number is not visible. Findmypast indexes p.231. Retain both locators.",
+          "source_title": "NAI Equity Exchequer bill book, volume 18 (1712–1714), left page opposite p.231, image 583, 8 March 1713 (as written)",
+          "source_url": "https://search.findmypast.co.uk/record?id=IRE%2FCOURT%2FEXCHEQUER%2F007635140%2F00583&parentid=IRE%2FCOURT%2FEXCHEQUER%2F0001416171",
+          "source_type": "Original court bill-book image",
+          "source_status": "Original image visually inspected 21 October 2026; original retained privately",
+          "supplement_id": "nai-exchequer-thomas-jane-1713",
+          "record_precision": "Court venue; not residence",
+          "evidence": "Original bill-book entry"
+        }
+      ],
+      "relationship_changes": [
+        {
+          "action": "add",
+          "relationship": "spouse",
+          "status": "probable",
+          "previous_status": "unknown",
+          "relative_id": "Glasgow-3556",
+          "assertion_id": "C-reviewed-20261021-thomas3556-jane-spouse",
+          "percent": 88,
+          "scope": "New wife hypothesis from the 1713 original; husband identity qualified, no maternity assigned."
+        }
+      ]
     }
   ]
 }
