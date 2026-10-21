@@ -2178,6 +2178,8 @@ _LEGACY_ANCHORS = (
     # John-3927's dated newspaper assessment replaced a second overall conclusion.
     ("research-note-6a79d73e7b23", ("research-note-0fc2075e9901",)),
     ("research-note-bc1eb7d92ddb", ("research-note-ed922f7cb83d",)),
+    # James Glasco's page links to Manasses's retained dated newspaper assessment.
+    ("research-note-cbc08206b895", ("research-note-dce96e4439cf",)),
 )
 
 
