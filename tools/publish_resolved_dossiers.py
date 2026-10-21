@@ -133,8 +133,9 @@ def shared_relationship(profile_id, relation, assessments):
 
 def _sync_presentation(result):
     # These are derived mirrors of research facts, never decision inputs.
-    for row in result.get('relationships', {}).get('parents', []):
-        row['probability'] = probability_for_relationship(row, result.get('id'))
+    for group in ('parents', 'spouses'):
+        for row in result.get('relationships', {}).get(group, []):
+            row['probability'] = probability_for_relationship(row, result.get('id'))
     if 'presentation' in result:
         result['presentation']['vitals'] = deepcopy(result.get('vitals', {}))
         result['presentation']['relationships'] = deepcopy(result.get('relationships', {}))

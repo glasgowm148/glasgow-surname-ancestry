@@ -78,6 +78,22 @@ class ModelProbabilityTests(unittest.TestCase):
             self.assertEqual(model['people'][1]['childrenRecorded'][0]['statusLabel'], 'Confident child · 99%')
             self.assertEqual(annotate_model(deepcopy(model)), model)
 
+    def test_reviewed_spouse_point_reaches_tree_without_rating_unreviewed_partners(self):
+        from copy import deepcopy
+        from unittest.mock import patch
+        from tools.relationship_probability import annotate_model
+        model = {'people': [{'id': 'A', 'partners': [
+            {'id': 'B', 'status': 'probable', 'statusLabel': 'Probable spouse'},
+            {'id': 'C', 'status': 'confident', 'statusLabel': 'Recorded spouse'}]}]}
+        estimate = {'percent': 88, 'assessment_status': 'probable', 'basis': 'Named couple with qualified identity.',
+                    'reviewed': '2026-10-21', 'source_ids': ['record']}
+        with patch('tools.relationship_probability.reviewed_estimates', return_value={('a', 'b', 'spouse'): estimate}):
+            annotate_model(model)
+            self.assertEqual(model['people'][0]['partners'][0]['probability']['value'], .88)
+            self.assertEqual(model['people'][0]['partners'][0]['statusLabel'], 'Probable spouse · 88%')
+            self.assertNotIn('probability', model['people'][0]['partners'][1])
+            self.assertEqual(annotate_model(deepcopy(model)), model)
+
     def test_legacy_dual_parent_role_keeps_father_rating_separate(self):
         from tools.relationship_probability import annotate_model
         model={'people':[{'id':'C','parents':[{'id':'P','role':'father','status':'unmarked'},{'id':'P','role':'mother','status':'confident'}]}, {'id':'P','childrenRecorded':[{'id':'C'}]}]}

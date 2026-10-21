@@ -11,6 +11,27 @@ spec.loader.exec_module(module)
 
 
 class ResolvedDossierTests(unittest.TestCase):
+    def test_new_spouse_point_estimate_reaches_dossier_and_catalogue(self):
+        import sys
+        probability = sys.modules[module.probability_for_relationship.__module__]
+        estimate = {'percent': 88, 'assessment_status': 'probable', 'basis': 'Named couple with qualified adult identity.',
+                    'reviewed': '2026-10-21', 'source_ids': ['marriage-record']}
+        original = {'id': 'Example-1', 'relationships': {'parents': [], 'spouses': []},
+                    'evidence': [], 'claims': [], 'presentation': {}}
+        assertion = {'assertion_id': 'couple-review', 'people': ['Example-1', 'Example-2'],
+                     'profile_names': {'Example-2': 'Example partner'}, 'publication_status': 'approved',
+                     'status': 'probable', 'allow_new_relationship': True,
+                     'source_ids': ['marriage-record'],
+                     'perspectives': {'Example-1': {'relationship': 'spouse', 'reason': estimate['basis']}}}
+        with patch.object(probability, 'reviewed_estimates', return_value={('example-1', 'example-2', 'spouse'): estimate}):
+            resolved = module.resolve(original, [], [assertion])
+        spouse = resolved['relationships']['spouses'][0]
+        self.assertEqual(spouse['probability']['value'], .88)
+        self.assertEqual(resolved['presentation']['relationships']['spouses'][0]['probability']['value'], .88)
+        rows = [{'id': 'Example-1', 'spouses': []}]
+        module.project_catalogue_spouses(rows, {'example-1': resolved})
+        self.assertEqual(rows[0]['spouses'][0]['probability']['value'], .88)
+
     def test_removed_father_releases_primary_root_without_losing_export_leads(self):
         from copy import deepcopy
         root = {'id': 'Root-1', 'catalogued_members': 3}

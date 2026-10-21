@@ -113,6 +113,14 @@ def annotate_model(model: dict[str, Any]) -> dict[str, Any]:
         from tools import evidence_labels
     people = {p['id']: p for p in model.get('people', [])}
     inverse_roles = {}
+    for person in people.values():
+        for partner in person.get('partners', []):
+            rating = probability_for_relationship(partner, person['id'], role='spouse')
+            if rating.get('value') is not None:
+                partner['probability'] = rating
+                base = partner.get('assessmentLabel') or partner.get('statusLabel') or evidence_labels.label(partner.get('status'))
+                partner['assessmentLabel'] = base
+                partner['statusLabel'] = _rated_label(base, rating)
     for child in people.values():
         for row in child.get('parents', []):
             rating = probability_for_relationship(row, child['id'])

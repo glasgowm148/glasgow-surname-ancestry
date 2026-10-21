@@ -149,6 +149,9 @@ def page_shell(person, dossier, findings, links):
             state = relative.get("status") or relative.get("tree_status") or "unmarked"
             shown = relative.get("tree_status_label") or relative.get("status_label")
             status = evidence_labels.normalise_status_label(state, shown) if shown else evidence_labels.label(state)
+            rating = relative.get('probability') or {}
+            if key == 'spouses' and rating.get('value') is not None:
+                status += f" · {round(rating['value'] * 100)}%"
             values.append(f'<li><a href="{escape(href, quote=True)}">{escape(relative.get("name") or rid)}</a> · {escape(status)}</li>')
         if values:
             family_rows.append(f'<h3>{label}</h3><ul>{"".join(values)}</ul>')
