@@ -2561,3 +2561,13 @@ Burial-defined Walter remains on source-verification HOLD in the existing creati
 | [William Glasgow](https://www.wikitree.com/wiki/Glasgow-3586) | OPEN | Possible father of William baptised in1733, 52%; Jean’s existing father attachment remains ungraded. |
 | [Barbara Stevenson](https://www.wikitree.com/wiki/Stevenson-14560) | OPEN | Record-defined mother of William baptised at Dundonald in 1733, 99%; proposed father is separately possible 52%. |
 | [Jean Glasgow](https://www.wikitree.com/wiki/Glasgow-4113) | OPEN | Possible paternal family with the 1733 William, conditional on the 52% father hypothesis; no mother assigned. |
+
+## 21 October 2026 — Kilmarnock glover household
+
+| Profile | Status | Change |
+|---|---|---|
+| [Hugh Glasgow](https://www.wikitree.com/wiki/Glasgow-4104) | OPEN | Existing father Hugh the Kilmarnock glover99%; mother Margaret98%. Restore the omitted local family link; no new WikiTree parent. |
+| [Mary Glasgow](https://www.wikitree.com/wiki/Glasgow-4142) | OPEN | Existing father Hugh the Kilmarnock glover99%; mother Margaret98%, recorded McEachan. |
+| [Margaret Glasgow](https://www.wikitree.com/wiki/Glasgow-4115) | OPEN | Existing father Hugh the Kilmarnock glover99%; probable mother Margaret McEachin84%, recorded McGlashan. |
+| [Hugh Glasgow](https://www.wikitree.com/wiki/Glasgow-1929) | OPEN | Kilmarnock glover household: three recorded fathers 99%; maternal identities98%,84%,98%, with exact transcript surname forms preserved. |
+| [Margaret McEachin](https://www.wikitree.com/wiki/McEachin-120) | OPEN | Kilmarnock glover household: three recorded fathers 99%; maternal identities98%,84%,98%, with exact transcript surname forms preserved. |

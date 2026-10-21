@@ -33685,6 +33685,134 @@
       "certainty_upgrades": 1,
       "new_source_discoveries": 0,
       "new_original_inspections": 0
+    },
+    {
+      "id": "kilmarnock-glover-family-review-20261021",
+      "found_on": "2026-10-21",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Identify the repeated Hugh Glasgow, glover, father in the 1732,1738 and1742 Kilmarnock transcripts at 99% for each child. Correct the maternal readings to McEachan, McGlashan and McGechan; assess the middle maternal identity separately at 84%.",
+      "qualification": "The evidence reviewed is the retained Findmypast transcript text captured 3 September 2026 and quoted in the public child biographies, checked against fresh anonymous WikiTree captures 21 October 2026; original register images were not inspected. The three baptisms are separate events; copied summaries of one entry are not independent evidence. All three parent pairs are already attached on WikiTree with unmarked certainty fields. Restoring Hugh-4104’s omitted local parents is a publication repair, not a newly discovered father or a new WikiTree attachment. Individual percentages are subjective judgments, not frequencies or a probability that the whole ancestry is correct. The 1744 Mary entry names Margaret Giffen and remains separately unresolved; no mother is reassigned, no second marriage or maternal death inferred. No change is made to the upstream ancestry, births, deaths, spouses or other children.",
+      "people": [
+        {
+          "id": "Glasgow-4104",
+          "name": "Hugh Glasgow",
+          "url": "/people/glasgow-4104.html"
+        },
+        {
+          "id": "Glasgow-4142",
+          "name": "Mary Glasgow",
+          "url": "/people/glasgow-4142.html"
+        },
+        {
+          "id": "Glasgow-4115",
+          "name": "Margaret Glasgow",
+          "url": "/people/glasgow-4115.html"
+        },
+        {
+          "id": "Glasgow-1929",
+          "name": "Hugh Glasgow",
+          "url": "/people/glasgow-1929.html"
+        },
+        {
+          "id": "McEachin-120",
+          "name": "Margaret McEachin",
+          "url": "/people/mceachin-120.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Findmypast retained transcript SCOT/OPR/BAP/3599128: Mary, 1732-12-17, OPR 597/1 item1 p.150; father Hugh Glasgow, glover; mother Margaret McEachan",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3599128&tab=this"
+        },
+        {
+          "title": "Findmypast retained transcript SCOT/OPR/BAP/3599918: Margaret, 1738-08-31, OPR 597/1 item1 p.206; father Hugh Glasgow, glover; mother Margaret McGlashan",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3599918&tab=this"
+        },
+        {
+          "title": "Findmypast retained transcript SCOT/OPR/BAP/3600403: Hugh, 1742-08-29, OPR 597/2 item2 p.20; father Hugh Glasgow, glover; mother Margaret McGechan",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3600403&tab=this"
+        },
+        {
+          "title": "FamilySearch XT24-XWR: Hugh Glasgow and Margaret McEachin, 20 March 1732, Kilmarnock; existing cited index, original uninspected",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:XT24-XWR"
+        }
+      ],
+      "detail_url": "/branches/early-scottish-records/#chapter-kilmarnock-glover-household",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "Mary Glasgow (Glasgow-4142)",
+          "relative": "Hugh Glasgow (Glasgow-1929)",
+          "subject_id": "Glasgow-4142",
+          "relative_id": "Glasgow-1929",
+          "before": "unmarked",
+          "after": "certain",
+          "assessment_after": "strongly_supported",
+          "explanation": "Mary’s 1732-12-17 transcript names Hugh Glasgow, glover, and Margaret McEachan (OPR 597/1 item1 p.150). The Kilmarnock baptism transcripts for Mary in 1732, Margaret in 1738 and Hugh in 1742 each name their father as Hugh Glasgow, a glover, resident at Kilmk (Kilmarnock). Repeated name, specific trade, locality and compatible child sequence identify one paternal household much more strongly than surname and chronology alone. The adult glover is represented by Glasgow-1929. Each of these three father–child roles is assessed separately at 99% subjective confidence. This concerns the recorded glover as father; his further identification with the 1710 Kilwinning child is an independent inferred step, not newly proved by these baptisms.",
+          "previous_status_provenance": "Fresh anonymous capture21 October 2026: attached parent, DataStatus.Father empty.",
+          "assertion_id": "C-reviewed-20261021-kilmarnock-4142-father"
+        },
+        {
+          "relationship": "mother",
+          "subject": "Mary Glasgow (Glasgow-4142)",
+          "relative": "Margaret McEachin (McEachin-120)",
+          "subject_id": "Glasgow-4142",
+          "relative_id": "McEachin-120",
+          "before": "unmarked",
+          "after": "certain",
+          "assessment_after": "strongly_supported",
+          "explanation": "Mary’s 1732-12-17 transcript names Hugh Glasgow, glover, and Margaret McEachan (OPR 597/1 item1 p.150). The retained transcripts actually give three maternal surname readings: McEachan for Mary in 1732, McGlashan for Margaret in 1738, and McGechan for Hugh in 1742. Earlier summaries normalized all three to McGechan. The 1732 marriage names Margaret McEachin. The same father, glover trade, parish and repeated Margaret given name support one family, but the McGlashan reading deserves separate treatment. Assess McEachin-120 as Mary’s mother at 98%, Hugh’s mother at 98%, and Margaret’s probable mother at 84%. McEachan and McGechan are compatible renderings in this specific household; McGlashan is not silently declared an equivalent surname. The original may confirm another reading or distinguish another mother.",
+          "previous_status_provenance": "Fresh anonymous capture21 October 2026: attached parent, DataStatus.Mother empty.",
+          "assertion_id": "C-reviewed-20261021-kilmarnock-4142-mother"
+        },
+        {
+          "relationship": "father",
+          "subject": "Margaret Glasgow (Glasgow-4115)",
+          "relative": "Hugh Glasgow (Glasgow-1929)",
+          "subject_id": "Glasgow-4115",
+          "relative_id": "Glasgow-1929",
+          "before": "unmarked",
+          "after": "certain",
+          "assessment_after": "strongly_supported",
+          "explanation": "Margaret’s 1738-08-31 transcript names Hugh Glasgow, glover, and Margaret McGlashan (OPR 597/1 item1 p.206). The Kilmarnock baptism transcripts for Mary in 1732, Margaret in 1738 and Hugh in 1742 each name their father as Hugh Glasgow, a glover, resident at Kilmk (Kilmarnock). Repeated name, specific trade, locality and compatible child sequence identify one paternal household much more strongly than surname and chronology alone. The adult glover is represented by Glasgow-1929. Each of these three father–child roles is assessed separately at 99% subjective confidence. This concerns the recorded glover as father; his further identification with the 1710 Kilwinning child is an independent inferred step, not newly proved by these baptisms.",
+          "previous_status_provenance": "Fresh anonymous capture21 October 2026: attached parent, DataStatus.Father empty.",
+          "assertion_id": "C-reviewed-20261021-kilmarnock-4115-father"
+        },
+        {
+          "relationship": "father",
+          "subject": "Hugh Glasgow (Glasgow-4104)",
+          "relative": "Hugh Glasgow (Glasgow-1929)",
+          "subject_id": "Glasgow-4104",
+          "relative_id": "Glasgow-1929",
+          "before": "unmarked",
+          "after": "certain",
+          "assessment_after": "strongly_supported",
+          "explanation": "Hugh’s 1742-08-29 transcript names Hugh Glasgow, glover, and Margaret McGechan (OPR 597/2 item2 p.20). The Kilmarnock baptism transcripts for Mary in 1732, Margaret in 1738 and Hugh in 1742 each name their father as Hugh Glasgow, a glover, resident at Kilmk (Kilmarnock). Repeated name, specific trade, locality and compatible child sequence identify one paternal household much more strongly than surname and chronology alone. The adult glover is represented by Glasgow-1929. Each of these three father–child roles is assessed separately at 99% subjective confidence. This concerns the recorded glover as father; his further identification with the 1710 Kilwinning child is an independent inferred step, not newly proved by these baptisms.",
+          "previous_status_provenance": "Fresh anonymous capture21 October 2026: attached parent, DataStatus.Father empty.",
+          "assertion_id": "C-reviewed-20261021-kilmarnock-4104-father"
+        },
+        {
+          "relationship": "mother",
+          "subject": "Hugh Glasgow (Glasgow-4104)",
+          "relative": "Margaret McEachin (McEachin-120)",
+          "subject_id": "Glasgow-4104",
+          "relative_id": "McEachin-120",
+          "before": "unmarked",
+          "after": "certain",
+          "assessment_after": "strongly_supported",
+          "explanation": "Hugh’s 1742-08-29 transcript names Hugh Glasgow, glover, and Margaret McGechan (OPR 597/2 item2 p.20). The retained transcripts actually give three maternal surname readings: McEachan for Mary in 1732, McGlashan for Margaret in 1738, and McGechan for Hugh in 1742. Earlier summaries normalized all three to McGechan. The 1732 marriage names Margaret McEachin. The same father, glover trade, parish and repeated Margaret given name support one family, but the McGlashan reading deserves separate treatment. Assess McEachin-120 as Mary’s mother at 98%, Hugh’s mother at 98%, and Margaret’s probable mother at 84%. McEachan and McGechan are compatible renderings in this specific household; McGlashan is not silently declared an equivalent surname. The original may confirm another reading or distinguish another mother.",
+          "previous_status_provenance": "Fresh anonymous capture21 October 2026: attached parent, DataStatus.Mother empty.",
+          "assertion_id": "C-reviewed-20261021-kilmarnock-4104-mother"
+        }
+      ],
+      "new_father_attachments": 0,
+      "father_replacements": 0,
+      "genealogical_connections_added": 0,
+      "certainty_upgrades": 5,
+      "publication_connections_restored": 1,
+      "new_source_discoveries": 0,
+      "new_original_inspections": 0
     }
   ]
 }

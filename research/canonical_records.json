@@ -6237,5 +6237,92 @@
         "timeline_group": "Possible connections"
       }
     }
+  },
+  {
+    "record_id": "fmp-glasgow-fba04c067c7c",
+    "association": "Mary Glasgow baptism: Kilmarnock glover household",
+    "date": "1732-12-17",
+    "year": 1732,
+    "place": "Kilmarnock, Ayrshire, Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3599128&tab=this",
+    "source_title": "Findmypast retained transcript SCOT/OPR/BAP/3599128: Mary, 1732-12-17, OPR 597/1 item1 p.150; father Hugh Glasgow, glover; mother Margaret McEachan",
+    "source_type": "parish-register-transcription",
+    "source_status": "Retained Findmypast transcript captured 3 September 2026; reassessed21 October 2026; original uninspected",
+    "status": "Named-parent transcription; recorded father 99%; maternal identity separately assessed",
+    "note": "Born 1732-12-15, baptised 1732-12-17; father Hugh Glasgow, glover, residence Kilmk; mother Margaret McEachan. The evidence reviewed is the retained Findmypast transcript text captured 3 September 2026 and quoted in the public child biographies, checked against fresh anonymous WikiTree captures 21 October 2026; original register images were not inspected. The three baptisms are separate events; copied summaries of one entry are not independent evidence. All three parent pairs are already attached on WikiTree with unmarked certainty fields. Restoring Hugh-4104’s omitted local parents is a publication repair, not a newly discovered father or a new WikiTree attachment. Individual percentages are subjective judgments, not frequencies or a probability that the whole ancestry is correct. The 1744 Mary entry names Margaret Giffen and remains separately unresolved; no mother is reassigned, no second marriage or maternal death inferred. No change is made to the upstream ancestry, births, deaths, spouses or other children.",
+    "role": "Baptism",
+    "profiles": {
+      "Glasgow-4142": {
+        "role": "Recorded child; no later identity selected"
+      },
+      "Glasgow-1929": {
+        "role": "Named father Hugh Glasgow, glover",
+        "assessment": "strongly_supported",
+        "probability": 0.99
+      },
+      "McEachin-120": {
+        "role": "Mother recorded Margaret McEachan; profile identity 98%",
+        "assessment": "strongly_supported",
+        "probability": 0.98
+      }
+    }
+  },
+  {
+    "record_id": "fmp-glasgow-6cc997e45c40",
+    "association": "Margaret Glasgow baptism: Kilmarnock glover household",
+    "date": "1738-08-31",
+    "year": 1738,
+    "place": "Kilmarnock, Ayrshire, Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3599918&tab=this",
+    "source_title": "Findmypast retained transcript SCOT/OPR/BAP/3599918: Margaret, 1738-08-31, OPR 597/1 item1 p.206; father Hugh Glasgow, glover; mother Margaret McGlashan",
+    "source_type": "parish-register-transcription",
+    "source_status": "Retained Findmypast transcript captured 3 September 2026; reassessed21 October 2026; original uninspected",
+    "status": "Named-parent transcription; recorded father 99%; maternal identity separately assessed",
+    "note": "Born 1738-08-19, baptised 1738-08-31; father Hugh Glasgow, glover, residence Kilmk; mother Margaret McGlashan. The evidence reviewed is the retained Findmypast transcript text captured 3 September 2026 and quoted in the public child biographies, checked against fresh anonymous WikiTree captures 21 October 2026; original register images were not inspected. The three baptisms are separate events; copied summaries of one entry are not independent evidence. All three parent pairs are already attached on WikiTree with unmarked certainty fields. Restoring Hugh-4104’s omitted local parents is a publication repair, not a newly discovered father or a new WikiTree attachment. Individual percentages are subjective judgments, not frequencies or a probability that the whole ancestry is correct. The 1744 Mary entry names Margaret Giffen and remains separately unresolved; no mother is reassigned, no second marriage or maternal death inferred. No change is made to the upstream ancestry, births, deaths, spouses or other children.",
+    "role": "Baptism",
+    "profiles": {
+      "Glasgow-4115": {
+        "role": "Recorded child; no later identity selected"
+      },
+      "Glasgow-1929": {
+        "role": "Named father Hugh Glasgow, glover",
+        "assessment": "strongly_supported",
+        "probability": 0.99
+      },
+      "McEachin-120": {
+        "role": "Mother recorded Margaret McGlashan; profile identity 84%",
+        "assessment": "probable",
+        "probability": 0.84
+      }
+    }
+  },
+  {
+    "record_id": "fmp-glasgow-120b52e4bd76",
+    "association": "Hugh Glasgow baptism: Kilmarnock glover household",
+    "date": "1742-08-29",
+    "year": 1742,
+    "place": "Kilmarnock, Ayrshire, Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3600403&tab=this",
+    "source_title": "Findmypast retained transcript SCOT/OPR/BAP/3600403: Hugh, 1742-08-29, OPR 597/2 item2 p.20; father Hugh Glasgow, glover; mother Margaret McGechan",
+    "source_type": "parish-register-transcription",
+    "source_status": "Retained Findmypast transcript captured 3 September 2026; reassessed21 October 2026; original uninspected",
+    "status": "Named-parent transcription; recorded father 99%; maternal identity separately assessed",
+    "note": "Born 1742-08-16, baptised 1742-08-29; father Hugh Glasgow, glover, residence Kilmk; mother Margaret McGechan. The evidence reviewed is the retained Findmypast transcript text captured 3 September 2026 and quoted in the public child biographies, checked against fresh anonymous WikiTree captures 21 October 2026; original register images were not inspected. The three baptisms are separate events; copied summaries of one entry are not independent evidence. All three parent pairs are already attached on WikiTree with unmarked certainty fields. Restoring Hugh-4104’s omitted local parents is a publication repair, not a newly discovered father or a new WikiTree attachment. Individual percentages are subjective judgments, not frequencies or a probability that the whole ancestry is correct. The 1744 Mary entry names Margaret Giffen and remains separately unresolved; no mother is reassigned, no second marriage or maternal death inferred. No change is made to the upstream ancestry, births, deaths, spouses or other children.",
+    "role": "Baptism",
+    "profiles": {
+      "Glasgow-4104": {
+        "role": "Recorded child; no later identity selected"
+      },
+      "Glasgow-1929": {
+        "role": "Named father Hugh Glasgow, glover",
+        "assessment": "strongly_supported",
+        "probability": 0.99
+      },
+      "McEachin-120": {
+        "role": "Mother recorded Margaret McGechan; profile identity 98%",
+        "assessment": "strongly_supported",
+        "probability": 0.98
+      }
+    }
   }
 ]
