@@ -80,6 +80,8 @@ Check documentary claims against the underlying record. Distinguish documented f
 
 ## Routed references
 
+- Progress confidence history: snapshot exact reviewed father–child percentages and review coverage through the existing connectivity history, so changes within a confidence band remain measurable. Never substitute band midpoints or saved certainty flags for individual estimates, reconstruct unrecorded past measurements, or describe the aggregate as a whole-tree probability. Preserve existing connectivity totals and separate new measurements from genealogical joins.
+
 Before substantive research or identity/relationship judgments, read Identity and evidence. Also load Profile workflows before preparing/editing profiles, Catalogue and site before findings/site synchronization, and Transcription before source-reading work. Load only the applicable references:
 
 - [Identity and evidence](references/identity-and-evidence.md): research batches, platform boundaries, attached people and locations, identity/duplicate/relationship analysis, group descriptions, provenance, Glasgow scope, dates, chronology and WT+ location suggestions.

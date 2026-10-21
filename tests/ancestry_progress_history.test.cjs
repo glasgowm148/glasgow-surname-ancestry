@@ -35,3 +35,13 @@ test('confidence coverage uses each dated working denominator and preserves gaps
   ];
   assert.deepEqual(historySeries(rows, 'confident', 'assessed_links_percent').map(p => p.value), [30, 40, null, null]);
 });
+
+test('exact confidence tracks within-band changes without filling older snapshots', () => {
+  const rows = [
+    {date:'2026-10-20', metrics:{working:{edge_count:100}}},
+    {date:'2026-10-21', metrics:{working:{individual_confidence:{mean_percent:82}}}},
+    {date:'2026-10-22', metrics:{working:{individual_confidence:{mean_percent:86}}}},
+    {date:'2026-10-23', metrics:{working:{individual_confidence:{mean_percent:null}}}}
+  ];
+  assert.deepEqual(historySeries(rows, 'working', 'reviewed_confidence_percent').map(p => p.value), [null, 82, 86, null]);
+});

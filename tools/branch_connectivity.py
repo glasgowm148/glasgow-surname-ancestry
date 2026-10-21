@@ -12,6 +12,7 @@ from pathlib import Path
 import re
 from urllib.parse import urlsplit
 from tools.documentary_ancestry import load_chronology, load_people, metric_node
+from tools.relationship_probability import confidence_band
 
 CONFIDENT = frozenset(
     {"certain", "confident", "confirmed", "proved", "documented", "strongly_supported", "dna_confirmed"}
@@ -233,6 +234,24 @@ def load_public_nodes(site_root: Path, variants: set[str]):
         else:
             edges.extend(fathers.values())
     quality["cycles"] = _cycles(edges)
+    # Reuse public pair-specific estimates; certainty flags supply no percentage.
+    estimate_path = site_root / 'assets/research/relationship-probabilities.json'
+    estimates = {}
+    if estimate_path.exists():
+        for estimate in json.loads(estimate_path.read_text()).get('estimates', []):
+            if estimate.get('relationship') == 'father':
+                child = aliases.get(estimate['subject_id'], estimate['subject_id'])
+                father = aliases.get(estimate['relative_id'], estimate['relative_id'])
+                estimates[(child, father)] = estimate
+    for edge in edges:
+        estimate = estimates.get((edge['child'], edge['father']))
+        if (estimate and type(estimate.get('percent')) in (int, float)
+                and 0 < estimate['percent'] < 100 and estimate.get('basis')
+                and confidence_band(edge['status']) != 'unrated'
+                and confidence_band(estimate.get('assessment_status')) == confidence_band(edge['status'])
+                and (not estimate.get('assertion_id') or not edge.get('assertion_id')
+                     or estimate['assertion_id'] == edge['assertion_id'])):
+            edge['confidence_percent'] = estimate['percent']
     quality["undated_people"] = sorted(i for i, n in nodes.items() if n["year"] is None)
     quality["outside_cohort_fathers"] = sorted(set(quality["outside_cohort_fathers"]))
     return nodes, sorted(edges, key=lambda e: (e["child"], e["father"])), quality
@@ -318,6 +337,9 @@ def summarize(nodes, edges, cutoff, view="working", cohort_ids=None):
     population = len(cohort)
     largest = max(map(len, components), default=0)
     pair_count = sum(len(c) * (len(c) - 1) for c in components)
+    confidence = [e['confidence_percent'] for e in selected
+                  if type(e.get('confidence_percent')) in (int, float)
+                  and 0 < e['confidence_percent'] < 100]
     result = dict(
         cohort_ids=sorted(cohort),
         population=population,
@@ -329,6 +351,12 @@ def summarize(nodes, edges, cutoff, view="working", cohort_ids=None):
         unattached_multi_child_roots=[r for r in roots if r["child_count"] >= 2],
         family_roots=roots,
         edge_status_counts=dict(sorted(Counter(e["status"] for e in selected).items())),
+        individual_confidence=dict(
+            rated_edge_count=len(confidence),
+            unrated_edge_count=len(selected) - len(confidence),
+            rated_edges_percent=100 * len(confidence) / len(selected) if selected else 0,
+            mean_percent=sum(confidence) / len(confidence) if confidence else None,
+        ),
         quality=dict(
             cycles=cycles,
             cycle_edges_excluded=sum(len(c) for c in cycles),

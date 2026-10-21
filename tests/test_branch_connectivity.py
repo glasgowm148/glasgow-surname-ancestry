@@ -281,6 +281,54 @@ class T(unittest.TestCase):
         self.assertEqual(e, [])
         self.assertEqual(q["multiple_fathers"], ["A"])
 
+    def test_individual_confidence_uses_public_current_pair_estimates(self):
+        self.add('A', 1600, parents=(('F', 'probable'),))
+        self.add('B', 1602, parents=(('F', 'certain'),))
+        self.add('C', 1604, parents=(('F', 'possible'),))
+        self.add('F', 1570)
+        assets = self.t / 'assets/research'
+        assets.mkdir(parents=True)
+        estimates = [
+            dict(subject_id='A', relative_id='F', relationship='father', percent=82,
+                 assessment_status='probable', basis='Reviewed evidence'),
+            # The stale confident rating cannot supply the currently possible edge.
+            dict(subject_id='C', relative_id='F', relationship='father', percent=98,
+                 assessment_status='proved', basis='Former assessment'),
+            dict(subject_id='B', relative_id='F', relationship='mother', percent=99,
+                 assessment_status='proved', basis='Different role'),
+        ]
+        (assets / 'relationship-probabilities.json').write_text(json.dumps({'estimates': estimates}))
+        nodes, edges, _ = self.finish()
+        result = summarize(nodes, edges, 1650)
+        self.assertEqual(result['individual_confidence'], dict(
+            rated_edge_count=1, unrated_edge_count=2, rated_edges_percent=100/3, mean_percent=82))
+        self.assertEqual(result['edge_count'], 3)
+        self.assertEqual(result['component_count'], 1)
+        self.assertIsNone(summarize(nodes, edges, 1650, 'confident')['individual_confidence']['mean_percent'])
+        # An improvement inside one band changes the measurement, not the graph.
+        estimates[0]['percent'] = 86
+        (assets / 'relationship-probabilities.json').write_text(json.dumps({'estimates': estimates}))
+        nodes, edges, _ = self.finish()
+        self.assertEqual(summarize(nodes, edges, 1650)['individual_confidence']['mean_percent'], 86)
+        self.assertEqual(summarize(nodes, edges, 1650)['component_count'], 1)
+
+    def test_confidence_excludes_cycles_future_ancestors_and_unrated_edges(self):
+        self.add('A', 1600)
+        self.add('B', 1580)
+        self.add('Future', 1900)
+        self.add('U', 1600)
+        nodes, _, _ = self.finish()
+        edges = [dict(child='A', father='B', status='probable', confidence_percent=82),
+                 dict(child='B', father='A', status='probable', confidence_percent=84),
+                 dict(child='U', father='Future', status='proved', confidence_percent=99)]
+        result = summarize(nodes, edges, 1650)
+        self.assertEqual(result['individual_confidence'], dict(
+            rated_edge_count=0, unrated_edge_count=0, rated_edges_percent=0, mean_percent=None))
+        edges = [dict(child='A', father='B', status='probable', confidence_percent=82),
+                 dict(child='U', father='B', status='possible', confidence_percent=42)]
+        self.assertEqual(summarize(nodes, edges, 1650)['individual_confidence']['mean_percent'], 62)
+        self.assertEqual(summarize(nodes, edges, 1650, 'supported')['individual_confidence']['mean_percent'], 82)
+
 
 if __name__ == "__main__":
     unittest.main()

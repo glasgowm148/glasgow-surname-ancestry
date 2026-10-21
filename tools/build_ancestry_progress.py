@@ -148,7 +148,8 @@ def build(create_baseline=False):
     previous_version = history['snapshots'][-1].get('method_version') if history['snapshots'] else None
     new_view = bool(history['snapshots']) and any(
         view not in history['snapshots'][-1]['metrics'] for view in MEASUREMENT_VIEWS)
-    if not history["snapshots"] or history["snapshots"][-1]["input_fingerprint"] != fingerprint or previous_version != METHOD_VERSION or new_view or history['snapshots'][-1]['date'] != date.today().isoformat():
+    new_measurement = bool(history['snapshots']) and 'individual_confidence' not in history['snapshots'][-1].get('fixed_cohort', {}).get('working', {})
+    if not history["snapshots"] or history["snapshots"][-1]["input_fingerprint"] != fingerprint or previous_version != METHOD_VERSION or new_view or new_measurement or history['snapshots'][-1]['date'] != date.today().isoformat():
         correction = previous_version is not None and previous_version != METHOD_VERSION
         history["snapshots"].append(
             dict(
@@ -162,6 +163,9 @@ def build(create_baseline=False):
                         note='Probable-or-stronger connectivity is measured separately. Existing assessments, prior measurements and the original baseline are unchanged.')
                    if new_view and not correction and history['snapshots'][-1]['input_fingerprint'] == fingerprint else {}),
                 input_fingerprint=fingerprint,
+                **(dict(event_type='individual_confidence_measurement_added', genealogical_connections_added=0,
+                        note='Exact reviewed father percentages and coverage are now recorded. Relationships and confidence grades are unchanged; earlier measurements are not reconstructed.')
+                   if new_measurement and not correction and not new_view else {}),
                 metrics={v: compact(s) for v, s in primary.items()},
                 fixed_cohort=fixed,
             )
@@ -199,6 +203,7 @@ def build(create_baseline=False):
             supported_baseline_available='supported' in baseline.get('metrics', {}),
         ),
         progress_history=history["snapshots"],
+        individual_confidence_method='Arithmetic mean of reviewed individual percentages for selected eligible father–child links; unrated links have no percentage. Review coverage is measured separately. Not a whole-pedigree probability.',
     )
     write_json(WEB / "data/ancestry-connectivity.json", report)
     write_json(WEB / "data/ancestry-connectivity-baseline.json", baseline)
@@ -307,8 +312,8 @@ def build(create_baseline=False):
     history_html = f'''<section id="progress-history" class="progress-history" aria-labelledby="history-title">
 <h2 id="history-title">Confidence and connectivity over time</h2>
 <p>See how confidence grows over time, then switch measures to track newly connected branches. Each point is the last saved measurement that day; reassessments can move a line down as well as up.</p>
-<div class="progress-controls"><label>History cohort <select id="history-cohort"><option value="fixed">Fixed baseline · {len(baseline['cohort_ids']):,} people through {baseline['cutoff']}</option><option value="selected">Selected historical cohort</option></select></label><label>Measure <select id="history-metric"><option value="assessed_links_percent">Confidence coverage (%)</option><option value="edge_count">Father–child links</option><option value="largest_component_size">People in largest branch</option><option value="connected_pairs_percent">Connected pairs (%)</option><option value="component_count">Separate paternal components</option></select></label></div>
-<fieldset class="history-legend"><legend>Confidence levels shown</legend><label class="history-confident"><input id="history-confident" type="checkbox" checked> Confident</label><label class="history-supported"><input id="history-supported" type="checkbox" checked> Probable or stronger</label><label class="history-working"><input id="history-working" type="checkbox"> Working, including uncertain</label></fieldset>
+<div class="progress-controls"><label>History cohort <select id="history-cohort"><option value="fixed">Fixed baseline · {len(baseline['cohort_ids']):,} people through {baseline['cutoff']}</option><option value="selected">Selected historical cohort</option></select></label><label>Measure <select id="history-metric"><option value="assessed_links_percent">Confidence coverage (%)</option><option value="reviewed_confidence_percent">Mean reviewed father confidence (%)</option><option value="edge_count">Father–child links</option><option value="largest_component_size">People in largest branch</option><option value="connected_pairs_percent">Connected pairs (%)</option><option value="component_count">Separate paternal components</option></select></label></div>
+<fieldset class="history-legend" id="history-confidence-levels"><legend>Confidence levels shown</legend><label class="history-confident"><input id="history-confident" type="checkbox" checked> Confident</label><label class="history-supported"><input id="history-supported" type="checkbox" checked> Probable or stronger</label><label class="history-working"><input id="history-working" type="checkbox"> Working, including uncertain</label></fieldset>
 <p id="history-scope" class="source-line"></p><div id="history-chart"></div><div id="history-changes" class="history-changes" aria-live="polite"></div><p id="history-note" class="source-line"></p>
 <details><summary>View snapshot data</summary><div class="progress-table-wrap"><table><caption id="history-table-caption">Daily measurements</caption><thead id="history-table-head"></thead><tbody id="history-table-body"></tbody></table></div></details>
 <noscript><p>Enable JavaScript to explore the chart, or <a href="/data/ancestry-connectivity.json">read the dated measurements</a>.</p></noscript>
