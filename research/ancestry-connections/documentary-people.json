@@ -1076,6 +1076,59 @@
         "birth_location": "Inveresk, Midlothian, Scotland",
         "birth_location_note": "Reported christening parish retained provisionally; birthplace unproved."
       }
+    },
+    {
+      "id": "Glasgow-2682",
+      "publication_status": "approved",
+      "source_ids": [
+        "edinburgh-james-robert-apprenticeship-1641",
+        "edinburgh-james-burgess-1649"
+      ],
+      "assessment_id": "edinburgh-duffe-older-weaver-birth",
+      "reviewed": "2026-10-21",
+      "year": 1641,
+      "year_basis": "conditional birth boundary",
+      "year_status": "uncertain; older-adult identity70%",
+      "birth_year": 1641,
+      "first_record_year": 1641,
+      "reason": "James Glasgow-2682, father of the Edinburgh Duffe household, probably represents the same adult as James Glasgow-1150, the weaver apprenticed on 16 June 1641 and admitted burgess on 20 June 1649: 70% subjective identity confidence. The 1696 James and 1699 youngest-son Thomas apprenticeships name a father James Glasgow, weaver and burgess of Edinburgh. Thomas’s maintained 1684 baptismal identification and the Duffe household’s James children of 1679 and 1680 fit those apprenticeship ages and the youngest-son order. The older craftsman independently has that specific craft and civic status, with an exact master/date cross-reference between his 1641 apprenticeship and 1649 admission. The maintained admission review found one matching admission, although this does not establish uniqueness. His marriages to Bessie Whyte on 6 July 1649 and Agnes Duncan on 11 November 1653, followed by Agnes’s burial as the weaver’s wife on 21 January 1674, permit a later Duffe household beginning in 1677. Successive marriages explain the wife sequence without requiring another same-name weaver and burgess. The circa-1655 birth, previously inferred from the first known child in 1677, is a creation estimate rather than an age or birth record. The preferred older-adult identity independently supports birth before 16 June 1641, uncertain and conditional on that identity. Replace the local preferred estimate with that boundary, retaining the old circa-1655 and “by about 1657” reasoning as superseded history. This is a separate vital/identity correction, not a date altered solely to fit Robert’s 1647 burial. No exact birth year is established; retain the broad Midlothian birthplace without claiming a new birthplace record.",
+      "previous_assessment": {
+        "birth": {
+          "date": "c. 1655",
+          "place": "Midlothian, Scotland",
+          "status": "estimated"
+        },
+        "basis": "Creation estimate from first known child1677; live BirthDate1655-00-00 guess; not an age record."
+      },
+      "vitals": {
+        "birth": {
+          "date": "before 1641-06-16",
+          "place": "Midlothian, Scotland",
+          "status": "uncertain",
+          "label": "Conditional on probable older-weaver identity · 70%",
+          "note": "The circa-1655 birth, previously inferred from the first known child in 1677, is a creation estimate rather than an age or birth record. The preferred older-adult identity independently supports birth before 16 June 1641, uncertain and conditional on that identity. Replace the local preferred estimate with that boundary, retaining the old circa-1655 and “by about 1657” reasoning as superseded history. This is a separate vital/identity correction, not a date altered solely to fit Robert’s 1647 burial. No exact birth year is established; retain the broad Midlothian birthplace without claiming a new birthplace record.",
+          "source_ids": [
+            "edinburgh-james-robert-apprenticeship-1641",
+            "edinburgh-james-burgess-1649"
+          ]
+        }
+      },
+      "catalogue_projection": {
+        "birth": "Before 16 June 1641 (conditional)",
+        "birth_year": 1641,
+        "birth_note": "Inferred boundary, conditional on older-weaver identity70%; circa1655 creation estimate superseded.",
+        "field_statuses": {
+          "birth": "uncertain",
+          "birth_location": "unmarked"
+        }
+      },
+      "tree_display": {
+        "born": 1641,
+        "year": 1641,
+        "birthDisplay": "Before 16 June 1641 (conditional)",
+        "bornApprox": true,
+        "lifeLabel": "Birth before16June1641, conditional on older-weaver identity70%"
+      }
     }
   ]
 }

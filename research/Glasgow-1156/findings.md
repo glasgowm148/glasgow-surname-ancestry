@@ -1,8 +1,28 @@
 # Findings: [Robert Glasgow of Duddingston (Glasgow-1156)](https://www.wikitree.com/wiki/Glasgow-1156)
 
+## Current conclusion
+
+Reviewed: 2026-10-21. **Probable father of the Duffe husband’s account,61%, through its identity with the existing son James-1150; this is not evidence of two distinct sons.**
+
+James Glasgow-2682, father of the Edinburgh Duffe household, probably represents the same adult as James Glasgow-1150, the weaver apprenticed on 16 June 1641 and admitted burgess on 20 June 1649: 70% subjective identity confidence. The 1696 James and 1699 youngest-son Thomas apprenticeships name a father James Glasgow, weaver and burgess of Edinburgh. Thomas’s maintained 1684 baptismal identification and the Duffe household’s James children of 1679 and 1680 fit those apprenticeship ages and the youngest-son order. The older craftsman independently has that specific craft and civic status, with an exact master/date cross-reference between his 1641 apprenticeship and 1649 admission. The maintained admission review found one matching admission, although this does not establish uniqueness. His marriages to Bessie Whyte on 6 July 1649 and Agnes Duncan on 11 November 1653, followed by Agnes’s burial as the weaver’s wife on 21 January 1674, permit a later Duffe household beginning in 1677. Successive marriages explain the wife sequence without requiring another same-name weaver and burgess.
+
+Select Robert Glasgow-1156 as James-2682’s probable working father at 61%, conditional on that preferred adult identity and the existing 86% identification of the 1641 apprentice’s named father Robert with the Duddingston account buried in 1647. This replaces only the former local Johnne Glasgow-1151 hypothesis, retained unselected at 26%. The live father was blank in the public check on 21 October 2026: the outstanding WikiTree action is a new probable father addition, not replacement of a live father. The 61% and 70% are subjective assessments of nested propositions, not independent confirmations or statistically calculated probabilities.
+
+The main weaknesses are a very long working life and late fatherhood through 1691, together with the absence of a marriage, prior-wife clause, address, witness or admission-date reference directly joining the Duffe husband to the 1649 burgess. The 1693 same-name weaver master is an inferred identification, not an independently dated identity bridge. Another younger Edinburgh weaver and burgess remains possible. The cancelled 1690 Lindsayland apprenticeship could concern the 1696 son, but its deceased father would conflict with assigning that father to the living 1693 master; resolve this before a merge. Retain both James profiles as accounts of potentially one adult, not two proved sons of Robert. Johnne-1151 remains an unselected younger-family alternative at 26%, alongside the James-3076/James-3077 and Annapill Glessie childhood route, John-1084’s Gordon family, and an unrecorded father. Those alternatives are conditional on the Duffe husband being a distinct younger man, not equally compatible with the preferred pre-1641 adult.
+
+The circa-1655 birth, previously inferred from the first known child in 1677, is a creation estimate rather than an age or birth record. The preferred older-adult identity independently supports birth before 16 June 1641, uncertain and conditional on that identity. Replace the local preferred estimate with that boundary, retaining the old circa-1655 and “by about 1657” reasoning as superseded history. This is a separate vital/identity correction, not a date altered solely to fit Robert’s 1647 burial. No exact birth year is established; retain the broad Midlothian birthplace without claiming a new birthplace record.
+
+No mother is selected for James-2682; do not transfer Deborah Ivey or any wife of Robert from the older profile. Robert’s own 28% Corsoun father hypothesis and the older James’s 86% Robert link are unchanged. The 1696 apprentice’s selected father James-2682 remains 82%, probable mother Duffe-18 remains 72%, and brother comparison remains 79%. The two childhood James accounts stay separate. This is a reassessment of held evidence, with no new source discovery, original inspection, profile merger, live edit or confident upgrade. Connectivity counts still describe retained profile accounts and cannot establish their distinctness.
+
+[Current Edinburgh identity and ancestry argument](/branches/research-calder-inveresk-james/#chapter-edinburgh-duffe-older-weaver).
+
+## Previous research retained
+
+The earlier dated material below remains as evidence history. Statements selecting Johnne26% or saying that ancestry and circa1655 birth stay unchanged are superseded by the current assessment. Other household, mother and child grades remain in force.
+
 Last updated: 2026-10-17
 
-## Current conclusion
+### Earlier conclusion retained — superseded only where noted
 
 **Preferred working family, 17 October 2026:** Andrew Glasgow-3163 and Elizat Stevinsoun-2 are now the selected **uncertain local parents** of Robert Glasgow-1156 through his possible identity with their testament-proved son Robert Glasgow-4006. Archibald Glasgow-1097 and Isobell Newlands-647 remain unselected uncertain/possible alternatives. The two Robert profiles remain separate; the recorded son’s documented parentage does not make the adult identification certain.
 
@@ -112,3 +132,17 @@ One paternal and one maternal working choice are replaced, affecting a child sid
 [Accepted illustrated testament reading](/research/transcriptions/andrew-1598/). Sources: [Andrew Glasgow testament, NRS CC8/8/32, images 123–124, made 6 February 1597/8 and confirmed 10 July 1598; accepted selected family-clause reading reviewed 27 September 2026, reused here](https://www.scotlandspeople.gov.uk/search-records/legal-records/wills); [Grant, Edinburgh apprentices, printed p.71: James, son of Robert, Wester Duddingston association, 16 June 1641; existing reviewed reading](https://archive.org/details/scottishrecordso28scotuoft/page/71/mode/2up); [Robert Glasgow of Duddingston: 17 January 1647 burial and the separate probable father assessment for James the weaver; existing source account](https://www.wikitree.com/wiki/Glasgow-1156).
 
 [Full parent comparison, retained alternatives and publication repairs](/branches/research-calder-testament-household/#duddingston-corsoun-parents).
+
+
+## Edinburgh older-weaver reassessment — 21 October 2026
+
+The most useful test is an Edinburgh marriage, guild, property, witness or prior-wife clause linking the Duffe husband to the 1649 burgess. Check the original 1690 cancelled indenture against the 1693 master before identifying that son or merging either James account; inspect the original Duffe baptisms for residence and witnesses. These are targeted next tests, not prerequisites to representing the preferred probable family.
+
+- [Grant, Register of Apprentices of Edinburgh (1906), printed p.71: James, father Robert, Wester Duddingston, William Sclaitter, 16 June 1641; printed page re-read](https://archive.org/details/scottishrecordso28scotuoft/page/71/mode/2up)
+- [Watson, Roll of Edinburgh Burgesses (1929), printed p.208 (PDF p.218): James the weaver, 20 June 1649, matching Sclaitter and 16 June 1641 apprenticeship](https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/roll_of_edinburgh_burgesses_1406_to_1700.pdf#page=218)
+- [Henry Paton (ed.),Register of interments in Greyfriars,1658–1700(1902),printed pp.196,252; PDF pp.212,268](https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/register_of_internments_~_greyfriars_churchyard_1658-1700_~_1898.pdf#page=268)
+- [Watson,Register of Edinburgh Apprentices,1666–1700(1929),p.37](https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/edinburgh_apprentices_~_1666_to_1700_~_1929.pdf#page=47)
+- [Watson,Register of Edinburgh Apprentices1666–1700(1929),printed p.37](https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/edinburgh_apprentices_~_1666_to_1700_~_1929.pdf#page=47)
+- [Henry Paton (ed.), Edinburgh marriages 1595–1700, printed p.267/PDF p.277: Bessie Whyte 6 July 1649; Agnes Duncan 11 November 1653; maintained printed-register review reused](https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/register_of_marriages_for_the_parish_of_edinburgh_1595-1700_~_1898.pdf#page=277)
+
+The cited printed registers, apprenticeship entries and parish index associations were already held and reviewed; no manuscript or new original page was inspected for this reassessment.

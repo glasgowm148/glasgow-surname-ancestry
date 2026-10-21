@@ -1,0 +1,110 @@
+{
+  "reviewed": "2026-10-21",
+  "scope": "Edinburgh: the Duffe father probably is the older weaver",
+  "previous_working_selection": {
+    "assertion_id": "C-working-20261016-lothian-heads-james",
+    "subject": "Glasgow-2682",
+    "relative": "Glasgow-1151",
+    "status": "uncertain",
+    "probability_percent": 26,
+    "working_selection": true,
+    "basis": "Select Johnne Glasgow-1151 as the uncertain working father of James Glasgow-2682, husband of Isobell Duffe. James’s captured biography already proposes Johnne as a possible father. The Inveresk and Musselburgh index records Johnne on25 November 1632 with father Alexander Glasgow. James and Isobell’s Edinburgh children begin with Jean on13 April 1677. If Johnne was baptised near birth and James’s approximate 1655 birth is close, Johnne would have been about 23 at James’s birth and 44 at the first known grandchild’s baptism. This is an ordinary father/son generation within the wider Lothian setting. Select that already recorded comparison provisionally, at very low confidence. Neither James’s own birth nor Johnne’s adult life is established; this is a parent-generation model, not a source naming James’s father.",
+    "source_ids": [
+      "inveresk-johnne-1632-father-alexander",
+      "edinburgh-jean-1677-duffe-household"
+    ],
+    "reviewed": "2026-10-16",
+    "publication_status": "approved",
+    "child": "Glasgow-2682",
+    "father": "Glasgow-1151",
+    "probability": {
+      "band": "uncertain",
+      "label": "Uncertain/speculative · 26%",
+      "minimum": 0.01,
+      "maximum": 0.29,
+      "rank": 1,
+      "value": 0.26,
+      "method": "individual_evidence_assessment",
+      "origin": "research",
+      "basis": "Select Johnne Glasgow-1151 as the uncertain working father of James Glasgow-2682, husband of Isobell Duffe. James’s captured biography already proposes Johnne as a possible father. The Inveresk and Musselburgh index records Johnne on25 November 1632 with father Alexander Glasgow. James and Isobell’s Edinburgh children begin with Jean on13 April 1677. If Johnne was baptised near birth and James’s approximate 1655 birth is close, Johnne would have been about 23 at James’s birth and 44 at the first known grandchild’s baptism. This is an ordinary father/son generation within the wider Lothian setting. Select that already recorded comparison provisionally, at very low confidence. Neither James’s own birth nor Johnne’s adult life is established; this is a parent-generation model, not a source naming James’s father.",
+      "reviewed": "2026-10-17",
+      "source_ids": [
+        "inveresk-johnne-1632-father-alexander",
+        "edinburgh-jean-1677-duffe-household"
+      ],
+      "assertion_id": "C-working-20261016-lothian-heads-james"
+    }
+  },
+  "profiles": {
+    "Glasgow-2682": {
+      "current_sha256": "eacf235d0b97be47dc44b1885a5be9f0ef93ca37ce00930dec557934a32f2da0",
+      "proposed_sha256": "75fd0a008efdfbe8d7fdb46f8027162894efe9e3ab65db437d40377321e34953",
+      "draft_path": "research/Glasgow-2682/edinburgh-older-weaver-2026-10-21.wiki",
+      "previous_draft_path": "research/Glasgow-2682/duffe-apprentice-2026-10-20.wiki",
+      "previous_proposal_sha256": "1d058c1da4303fbf5b183c6ead7032197583a5b781553a710fc944c54f2d9925",
+      "all_substantive_passages_accounted_for": true,
+      "all_prior_proposal_and_capture_passages_preserved": true,
+      "preservation_basis": "Complete effective previous proposal and fresh Open/non-living capture preserved. Only the obsolete James-2682 opening is replaced, with its exact old wording retained under superseded estimate. Adds conditional adult identity70%, father61%, source citations, counterevidence and alternatives; no location, mother or downstream family is removed."
+    },
+    "Glasgow-1150": {
+      "current_sha256": "d2e1688a9672dcb7e850422c038b3d9d486ab83280bc9a2f15c8f2cc45e8e77d",
+      "proposed_sha256": "40abea264d5efe5057d570ae054178e3419de349142a7a67e771f7d030790c7f",
+      "draft_path": "research/Glasgow-1150/edinburgh-older-weaver-2026-10-21.wiki",
+      "previous_draft_path": "research/Glasgow-1150/duffe-apprentice-2026-10-20.wiki",
+      "previous_proposal_sha256": "15667226e9c9b60982e2781e5cccd8d63f69f15ccf5afc90edca84f76ff9ced6",
+      "all_substantive_passages_accounted_for": true,
+      "all_prior_proposal_and_capture_passages_preserved": true,
+      "preservation_basis": "Complete effective previous proposal and fresh Open/non-living capture preserved. Only the obsolete James-2682 opening is replaced, with its exact old wording retained under superseded estimate. Adds conditional adult identity70%, father61%, source citations, counterevidence and alternatives; no location, mother or downstream family is removed."
+    },
+    "Glasgow-1156": {
+      "current_sha256": "154e8bca788c4ce3701275696bc3904ba8e6d7b9b62ddaf5c2b422ddfa0f2572",
+      "proposed_sha256": "42c3f8999d28944495825bba6a93752fdea876f456679c796a3b255dd08a3b97",
+      "draft_path": "research/Glasgow-1156/edinburgh-older-weaver-2026-10-21.wiki",
+      "previous_draft_path": "research/Glasgow-1156/Glasgow-1156.md",
+      "previous_proposal_sha256": "318246d8745bf520e1a447028ee348f2a9b7c78089ad7c5467810af7166d4b0f",
+      "all_substantive_passages_accounted_for": true,
+      "all_prior_proposal_and_capture_passages_preserved": true,
+      "preservation_basis": "Complete effective previous proposal and fresh Open/non-living capture preserved. Only the obsolete James-2682 opening is replaced, with its exact old wording retained under superseded estimate. Adds conditional adult identity70%, father61%, source citations, counterevidence and alternatives; no location, mother or downstream family is removed."
+    },
+    "Glasgow-1151": {
+      "current_sha256": "cc5ac3958056aaf9b457ee5ccc972d84ed3a61c0744315ce8ea91cf9fcbe403a",
+      "proposed_sha256": "06c71d64f40b29c1b88e252e6e666bcbf7aa9c2fec40a955b6aff8552a6ceb26",
+      "draft_path": "research/Glasgow-1151/edinburgh-older-weaver-2026-10-21.wiki",
+      "previous_draft_path": "research/Glasgow-1151/Glasgow-1151.md",
+      "previous_proposal_sha256": "1633fe74e4c91607b13639c7e673a5a0ade631080ae64082a702a7475034bf9e",
+      "all_substantive_passages_accounted_for": true,
+      "all_prior_proposal_and_capture_passages_preserved": true,
+      "preservation_basis": "Complete effective previous proposal and fresh Open/non-living capture preserved. Only the obsolete James-2682 opening is replaced, with its exact old wording retained under superseded estimate. Adds conditional adult identity70%, father61%, source citations, counterevidence and alternatives; no location, mother or downstream family is removed."
+    },
+    "Glasgow-4114": {
+      "current_sha256": "4c81009150341a3aed7883d5009a99671c797f4904159a9e0de5f73bb2a40bfa",
+      "proposed_sha256": "378e8dbba0d3604b033eaa577e0e56ba008e18581bf67a74b36227df7c97adc4",
+      "draft_path": "research/Glasgow-4114/edinburgh-older-weaver-2026-10-21.wiki",
+      "previous_draft_path": "research/Glasgow-4114/duffe-apprentice-2026-10-20.wiki",
+      "previous_proposal_sha256": "a4b5716cf3c5c97129bb5867493e698d432d6655ca3901723143c06cbaad5bb1",
+      "all_substantive_passages_accounted_for": true,
+      "all_prior_proposal_and_capture_passages_preserved": true,
+      "preservation_basis": "Complete effective previous proposal and fresh Open/non-living capture preserved. Only the obsolete James-2682 opening is replaced, with its exact old wording retained under superseded estimate. Adds conditional adult identity70%, father61%, source citations, counterevidence and alternatives; no location, mother or downstream family is removed."
+    },
+    "Glasgow-3285": {
+      "current_sha256": "d49c42fdc87fc6c39c72d5452255ef496fbf34c5e220db7d449a57f503c57cc1",
+      "proposed_sha256": "e19910a527983542f9ffb3ce9fdd61213fcc9066961d1097485e94ae34528ef1",
+      "draft_path": "research/Glasgow-3285/edinburgh-older-weaver-2026-10-21.wiki",
+      "previous_draft_path": "research/Glasgow-3285/duffe-apprentice-2026-10-20.wiki",
+      "previous_proposal_sha256": "826c5f1d5b53ba4b6ba9ad9e18751efe4a4be7b550fc0fb559808c3305b48cd6",
+      "all_substantive_passages_accounted_for": true,
+      "all_prior_proposal_and_capture_passages_preserved": true,
+      "preservation_basis": "Complete effective previous proposal and fresh Open/non-living capture preserved. Only the obsolete James-2682 opening is replaced, with its exact old wording retained under superseded estimate. Adds conditional adult identity70%, father61%, source citations, counterevidence and alternatives; no location, mother or downstream family is removed."
+    },
+    "Duffe-18": {
+      "current_sha256": "74ff4ac2abeee0b83255a9bde0b2e9f74165d046b39dff2484328b71e7c08524",
+      "proposed_sha256": "5aa84699459876cda03b7649c0f99c6bdfee90aa78370984cd17e1860d22ade7",
+      "draft_path": "research/Duffe-18/edinburgh-older-weaver-2026-10-21.wiki",
+      "previous_draft_path": "research/Duffe-18/duffe-mother-2026-10-21.wiki",
+      "previous_proposal_sha256": "ca6975655d9e4d65cbcf9d146ec9b17e2803a5cdbe81e3c3f56bb8838b2cd544",
+      "all_substantive_passages_accounted_for": true,
+      "all_prior_proposal_and_capture_passages_preserved": true,
+      "preservation_basis": "Complete effective previous proposal and fresh Open/non-living capture preserved. Only the obsolete James-2682 opening is replaced, with its exact old wording retained under superseded estimate. Adds conditional adult identity70%, father61%, source citations, counterevidence and alternatives; no location, mother or downstream family is removed."
+    }
+  }
+}

@@ -1,8 +1,22 @@
 # Glasgow-3285 research findings
 
+## Current conclusion
+
+Reviewed: 2026-10-21. **The maintained Duffe household and youngest-son identification are unchanged; its father probably represents the older1641/1649 weaver70%, with a conditional Robert father61%.**
+
+The maintained Duffe household and youngest-son identification are unchanged; its father probably represents the older1641/1649 weaver70%, with a conditional Robert father61%.
+
+No mother is selected for James-2682; do not transfer Deborah Ivey or any wife of Robert from the older profile. Robert’s own 28% Corsoun father hypothesis and the older James’s 86% Robert link are unchanged. The 1696 apprentice’s selected father James-2682 remains 82%, probable mother Duffe-18 remains 72%, and brother comparison remains 79%. The two childhood James accounts stay separate. This is a reassessment of held evidence, with no new source discovery, original inspection, profile merger, live edit or confident upgrade. Connectivity counts still describe retained profile accounts and cannot establish their distinctness.
+
+[Current Edinburgh identity and ancestry argument](/branches/research-calder-inveresk-james/#chapter-edinburgh-duffe-older-weaver).
+
+## Previous research retained
+
+The earlier dated material below remains as evidence history. Statements selecting Johnne26% or saying that ancestry and circa1655 birth stay unchanged are superseded by the current assessment. Other household, mother and child grades remain in force.
+
 Last updated: 2026-10-20
 
-## Current conclusion
+### Earlier conclusion retained — superseded only where noted
 
 **Related maternal proposal, 21 October 2026:** [Isobell/Elizabeth Duffe](/people/duffe-18.html) is now selected as [the 1696 apprentice James’s](/people/glasgow-4114.html) probable mother, 72%, through the same qualified household. The two James childhood accounts remain separate and neither is selected as the apprentice. This does not change this profile’s parents, grades or dates. [Full maternal argument](/branches/research-calder-inveresk-james/#chapter-edinburgh-apothecary-probable-father).
 
@@ -76,3 +90,17 @@ This changes the earlier decision not to select a mother: use a probable househo
 The original baptism and indenture manuscripts were not inspected in this review. The two parish rows are reused evidence, not new source discoveries. Their collection dates are not automatically birthdays.
 
 **Next evidence:** Inspect the original 1679/1680 baptisms for maternal forenames, residence and witnesses, and seek an infant burial or later apprenticeship/occupation identifier. Compare the 1690 cancellation before any child-profile merger. The mother remains a probable proposal, not a documented maternal role of the apprentice.
+
+
+## Edinburgh older-weaver reassessment — 21 October 2026
+
+The most useful test is an Edinburgh marriage, guild, property, witness or prior-wife clause linking the Duffe husband to the 1649 burgess. Check the original 1690 cancelled indenture against the 1693 master before identifying that son or merging either James account; inspect the original Duffe baptisms for residence and witnesses. These are targeted next tests, not prerequisites to representing the preferred probable family.
+
+- [Grant, Register of Apprentices of Edinburgh (1906), printed p.71: James, father Robert, Wester Duddingston, William Sclaitter, 16 June 1641; printed page re-read](https://archive.org/details/scottishrecordso28scotuoft/page/71/mode/2up)
+- [Watson, Roll of Edinburgh Burgesses (1929), printed p.208 (PDF p.218): James the weaver, 20 June 1649, matching Sclaitter and 16 June 1641 apprenticeship](https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/roll_of_edinburgh_burgesses_1406_to_1700.pdf#page=218)
+- [Henry Paton (ed.),Register of interments in Greyfriars,1658–1700(1902),printed pp.196,252; PDF pp.212,268](https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/register_of_internments_~_greyfriars_churchyard_1658-1700_~_1898.pdf#page=268)
+- [Watson,Register of Edinburgh Apprentices,1666–1700(1929),p.37](https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/edinburgh_apprentices_~_1666_to_1700_~_1929.pdf#page=47)
+- [Watson,Register of Edinburgh Apprentices1666–1700(1929),printed p.37](https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/edinburgh_apprentices_~_1666_to_1700_~_1929.pdf#page=47)
+- [Henry Paton (ed.), Edinburgh marriages 1595–1700, printed p.267/PDF p.277: Bessie Whyte 6 July 1649; Agnes Duncan 11 November 1653; maintained printed-register review reused](https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/register_of_marriages_for_the_parish_of_edinburgh_1595-1700_~_1898.pdf#page=277)
+
+The cited printed registers, apprenticeship entries and parish index associations were already held and reviewed; no manuscript or new original page was inspected for this reassessment.

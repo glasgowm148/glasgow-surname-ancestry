@@ -1,0 +1,141 @@
+{
+  "reviewed": "2026-10-21",
+  "new_live_father_proposal": {
+    "subject": "Glasgow-2682",
+    "relative": "Glasgow-1156",
+    "percent": 61,
+    "identity_percent": 70
+  },
+  "former_local_father": {
+    "relative": "Glasgow-1151",
+    "percent": 26,
+    "status": "alternative"
+  },
+  "fixed_cohort_measurements": [
+    {
+      "view": "working",
+      "before": {
+        "edge_count": 1385,
+        "component_count": 397,
+        "largest_component_size": 1133,
+        "connected_pairs_percent": 40.74235503108743,
+        "individual_confidence": {
+          "rated_edge_count": 181,
+          "unrated_edge_count": 1204,
+          "rated_edges_percent": 13.068592057761732,
+          "mean_percent": 54.97790055248619
+        }
+      },
+      "after": {
+        "edge_count": 1385,
+        "component_count": 397,
+        "largest_component_size": 1133,
+        "connected_pairs_percent": 40.74235503108743,
+        "individual_confidence": {
+          "rated_edge_count": 181,
+          "unrated_edge_count": 1204,
+          "rated_edges_percent": 13.068592057761732,
+          "mean_percent": 55.171270718232044
+        }
+      }
+    },
+    {
+      "view": "supported",
+      "before": {
+        "edge_count": 399,
+        "component_count": 1382,
+        "largest_component_size": 49,
+        "connected_pairs_percent": 0.21298058622002283,
+        "individual_confidence": {
+          "rated_edge_count": 80,
+          "unrated_edge_count": 319,
+          "rated_edges_percent": 20.050125313283207,
+          "mean_percent": 91.5875
+        }
+      },
+      "after": {
+        "edge_count": 400,
+        "component_count": 1381,
+        "largest_component_size": 49,
+        "connected_pairs_percent": 0.22325846973734298,
+        "individual_confidence": {
+          "rated_edge_count": 81,
+          "unrated_edge_count": 319,
+          "rated_edges_percent": 20.25,
+          "mean_percent": 91.20987654320987
+        }
+      }
+    },
+    {
+      "view": "confident",
+      "before": {
+        "edge_count": 369,
+        "component_count": 1410,
+        "largest_component_size": 29,
+        "connected_pairs_percent": 0.1445248064966375,
+        "individual_confidence": {
+          "rated_edge_count": 53,
+          "unrated_edge_count": 316,
+          "rated_edges_percent": 14.363143631436314,
+          "mean_percent": 98.28301886792453
+        }
+      },
+      "after": {
+        "edge_count": 369,
+        "component_count": 1410,
+        "largest_component_size": 29,
+        "connected_pairs_percent": 0.1445248064966375,
+        "individual_confidence": {
+          "rated_edge_count": 53,
+          "unrated_edge_count": 316,
+          "rated_edges_percent": 14.363143631436314,
+          "mean_percent": 98.28301886792453
+        }
+      }
+    }
+  ],
+  "cohort_1650_before": {
+    "working": {
+      "population": 163,
+      "edge_count": 157,
+      "component_count": 8
+    },
+    "supported": {
+      "population": 163,
+      "edge_count": 83,
+      "component_count": 81
+    },
+    "confident": {
+      "population": 163,
+      "edge_count": 74,
+      "component_count": 89
+    }
+  },
+  "cohort_1650_after": {
+    "working": {
+      "population": 164,
+      "edge_count": 158,
+      "component_count": 8
+    },
+    "supported": {
+      "population": 164,
+      "edge_count": 84,
+      "component_count": 81
+    },
+    "confident": {
+      "population": 164,
+      "edge_count": 74,
+      "component_count": 90
+    }
+  },
+  "cohort_note": "Conditional birth-boundary correction moves the existing Duffe father account into the1650 cohort; compare fixed baseline people for research gain, and retain the possible-duplicate qualification.",
+  "seven_complete_drafts_preserved": true,
+  "full_compact_filter_agreement": true,
+  "main_standalone_packed_agreement": true,
+  "original_global_record_count": 4894,
+  "new_original_inspections": 0,
+  "new_source_discoveries": 0,
+  "live_edits": 0,
+  "identity_merges": 0,
+  "pending_update_count": 568
+}

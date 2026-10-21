@@ -1,11 +1,25 @@
 # Findings: [Glasgow-1151](https://www.wikitree.com/wiki/Glasgow-1151)
 
+## Current conclusion
+
+Reviewed: 2026-10-21. **Former local son James-2682 is now an unselected26% younger-family alternative; the Fisherrow father Alexander-1148 remains strongly supported95%.**
+
+Former local son James-2682 is now an unselected26% younger-family alternative; the Fisherrow father Alexander-1148 remains strongly supported95%.
+
+No mother is selected for James-2682; do not transfer Deborah Ivey or any wife of Robert from the older profile. Robert’s own 28% Corsoun father hypothesis and the older James’s 86% Robert link are unchanged. The 1696 apprentice’s selected father James-2682 remains 82%, probable mother Duffe-18 remains 72%, and brother comparison remains 79%. The two childhood James accounts stay separate. This is a reassessment of held evidence, with no new source discovery, original inspection, profile merger, live edit or confident upgrade. Connectivity counts still describe retained profile accounts and cannot establish their distinctness.
+
+[Current Edinburgh identity and ancestry argument](/branches/research-calder-inveresk-james/#chapter-edinburgh-duffe-older-weaver).
+
+## Previous research retained
+
+The earlier dated material below remains as evidence history. Statements selecting Johnne26% or saying that ancestry and circa1655 birth stay unchanged are superseded by the current assessment. Other household, mother and child grades remain in force.
+
 Last updated: 2026-10-17
 
 
 <!-- opr-birth-review-row-8 -->
 
-## Current conclusion
+### Earlier conclusion retained — superseded only where noted
 
 **Father review, 17 October 2026:** Alexander Glasgow-1148 is now the **strongly supported father**, from the named father and the combined Inveresk/Fisherrow family sequence. The mother’s grade and all dates remain unchanged.
 
@@ -56,3 +70,17 @@ Six existing assessments are strengthened: Alexander’s father and James’s Ch
 Sources reused: [SRO Indexes 38, Edinburgh etc. sasines 1624–1630, printed pp.187–188, visually checked 15 October 2026; 8 July 1624, 9/135, and 11 July 1625, 10/171, are recording dates](https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481057&seq=193); [Marioune Glasgow, 17 March 1630, named father Alexander; accepted Findmypast transcript SCOT/OPR/BAP/4435828, OPR 689/1 p.191](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4435828&tab=this); [ScotlandsPeople supplied OPR index: Johnne 25 November 1632, 689/10/226; Bessie 22 March 1635, 689/10/263; Allexander and named parents Alexander/Jannet Clerk, 3 September 1637, 689/10/301, FR260; accepted 10 September review](https://www.scotlandspeople.gov.uk/search-records/church-registers/church-births-baptisms); [William Glasgow, Inveresk 1614, father James, no mother supplied; accepted Findmypast transcript R_686177762](https://www.findmypast.co.uk/transcript?id=R_686177762&tab=this).
 
 [Family comparison, sources and remaining questions](/branches/research-calder-inveresk-james/#chapter-fisherrow-family-confidence).
+
+
+## Edinburgh older-weaver reassessment — 21 October 2026
+
+The most useful test is an Edinburgh marriage, guild, property, witness or prior-wife clause linking the Duffe husband to the 1649 burgess. Check the original 1690 cancelled indenture against the 1693 master before identifying that son or merging either James account; inspect the original Duffe baptisms for residence and witnesses. These are targeted next tests, not prerequisites to representing the preferred probable family.
+
+- [Grant, Register of Apprentices of Edinburgh (1906), printed p.71: James, father Robert, Wester Duddingston, William Sclaitter, 16 June 1641; printed page re-read](https://archive.org/details/scottishrecordso28scotuoft/page/71/mode/2up)
+- [Watson, Roll of Edinburgh Burgesses (1929), printed p.208 (PDF p.218): James the weaver, 20 June 1649, matching Sclaitter and 16 June 1641 apprenticeship](https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/roll_of_edinburgh_burgesses_1406_to_1700.pdf#page=218)
+- [Henry Paton (ed.),Register of interments in Greyfriars,1658–1700(1902),printed pp.196,252; PDF pp.212,268](https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/register_of_internments_~_greyfriars_churchyard_1658-1700_~_1898.pdf#page=268)
+- [Watson,Register of Edinburgh Apprentices,1666–1700(1929),p.37](https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/edinburgh_apprentices_~_1666_to_1700_~_1929.pdf#page=47)
+- [Watson,Register of Edinburgh Apprentices1666–1700(1929),printed p.37](https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/edinburgh_apprentices_~_1666_to_1700_~_1929.pdf#page=47)
+- [Henry Paton (ed.), Edinburgh marriages 1595–1700, printed p.267/PDF p.277: Bessie Whyte 6 July 1649; Agnes Duncan 11 November 1653; maintained printed-register review reused](https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/register_of_marriages_for_the_parish_of_edinburgh_1595-1700_~_1898.pdf#page=277)
+
+The cited printed registers, apprenticeship entries and parish index associations were already held and reviewed; no manuscript or new original page was inspected for this reassessment.

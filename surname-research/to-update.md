@@ -2605,3 +2605,14 @@ Burial-defined Walter remains on source-verification HOLD in the existing creati
 | --- | --- | --- |
 | [Thomas Glasgow](https://www.wikitree.com/wiki/Glasgow-3556) | OPEN | Add original 1712 and 1718 Exchequer entries; correct the 1713 plaintiff to David Rynd; no parentage or spouse confidence change. |
 | [John Glasgow](https://www.wikitree.com/wiki/Glasgow-3960) | OPEN | Add the 1718 defendant as a 35% possible earlier identity; retain the 1728 Leitrim record and existing very uncertain father model. |
+
+
+## 21 October 2026 — Edinburgh older-weaver identity and probable ancestry
+
+| [James Glasgow, Duffe household](https://www.wikitree.com/wiki/Glasgow-2682) | OPEN | Select Robert Glasgow-1156 as new probable father61%, through probable identity with the older Edinburgh weaver70%; supersede the circa1655 estimate with a conditional pre-16June1641 boundary. |
+| [James Glasgow, 1641 apprentice and 1649 burgess](https://www.wikitree.com/wiki/Glasgow-1150) | OPEN | Probably the same adult as the Duffe husband Glasgow-2682,70%; retain both accounts and Robert father86%, with no merge or maternal transfer. |
+| [Robert Glasgow, Duddingston father account](https://www.wikitree.com/wiki/Glasgow-1156) | OPEN | Probable father of the Duffe husband’s account,61%, through its identity with the existing son James-1150; this is not evidence of two distinct sons. |
+| [Johnne Glasgow, 1632 Inveresk child](https://www.wikitree.com/wiki/Glasgow-1151) | OPEN | Former local son James-2682 is now an unselected26% younger-family alternative; the Fisherrow father Alexander-1148 remains strongly supported95%. |
+| [James Glasgow, 1696 apothecary apprentice](https://www.wikitree.com/wiki/Glasgow-4114) | OPEN | Selected household father James-2682 remains probable82%, mother Duffe-18 probable72%, brother comparison79%; proposed grandfather Robert61% depends on the father’s older-weaver identity70%. |
+| [Thomas Glasgow, 1699 youngest-son apprentice](https://www.wikitree.com/wiki/Glasgow-3285) | OPEN | The maintained Duffe household and youngest-son identification are unchanged; its father probably represents the older1641/1649 weaver70%, with a conditional Robert father61%. |
+| [Isobell/Elizabeth Duffe](https://www.wikitree.com/wiki/Duffe-18) | OPEN | The qualified Duffe maternal household and apprentice motherhood72% are unchanged; the husband probably represents the older1641/1649 weaver70%, without transferring this woman to his earlier children. |
