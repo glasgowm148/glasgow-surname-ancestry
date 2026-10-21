@@ -73,3 +73,8 @@ silent.
 - Master John Spreull and Janet Spreull were not treated as related without a
   relationship statement.
 - Boundary names were distinguished from transaction parties and witnesses.
+
+## Source-access review — 21 October 2026
+
+- John Mason’s notarial notebook, 1582–1591, published in *Archaeological and Historical Collections relating to Ayrshire and Galloway* VI (1889), pp.209–265: all57 PDF pages downloaded and text screened for Glas-/Gles- surname forms. Three matches concern Glasgow fair, a burgess of Glasgow named John Donald, and the Glasgow commissary. No surname lead retained; this is a searchable-text screen, not an exhaustive manuscript reading. Source: https://aanhs.org/wp-content/uploads/2021/05/ahcag.6.1889.johnmason.notarialnotebook.209-265.pdf .
+- Neilson and Paton, *Acts of the Lords of Council in Civil Causes* II (1918),1496–1501 with earlier abstracts: HathiTrust hvd.32044038088597 is search-only in this session. `Glasgw` returns23 page hits; `Glesgw` returns0. No passages or name-index pages were readable. Generic place hits are not surname people, and no negative surname conclusion is asserted. Google’s Berkeley scan RcpDAQAAMAAJ returned0 even for modern Glasgow, so that service is not used as evidence of absence. Collection review remains INCOMPLETE; obtain readable index/volume pages before repeating broad name searches.

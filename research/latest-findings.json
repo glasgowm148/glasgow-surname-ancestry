@@ -33900,6 +33900,34 @@
       "certainty_upgrades": 0,
       "new_source_discoveries": 0,
       "new_original_inspections": 1
+    },
+    {
+      "id": "berwick-george-burial-20261021",
+      "found_on": "2026-10-21",
+      "kind": "record",
+      "finding": "Recovered the correct Geo Glascoe burial: 3 July1589, Holy Trinity, Berwick. This excludes him from the1605 Mureistoun witness comparison; age and parents remain unknown.",
+      "status": "qualified",
+      "qualification": "Findmypast subscribed transcript inspected 21 October 2026; original parish register not inspected. No age, parent, spouse or occupation is supplied. The indexed burial excludes this George from the adult baptism-witness role at Mid Calder in 1605 and from the combined 1586–1605 identity. It does not exclude his being the Mureistoun man of 1586 alone. The merchant George Glasgow-1099 and George Glasgow-3171 retain their existing assessments. The selected Mureistoun George → James Glasgow-991 father remains 82%; William Glasgow-3522 → Mureistoun George remains 26%. No family link or percentage changes.",
+      "people": [
+        {
+          "id": "Glascoe-36",
+          "name": "George Glascoe",
+          "role": "Burial index matched; no parent identified",
+          "url": "/people/glascoe-36.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "National Burial Index for England & Wales, Geo Glascoe, Holy Trinity, Berwick upon Tweed, 3 July 1589; Northumberland & Durham Family History Society, Findmypast BMD/NBI/07401624",
+          "url": "https://www.findmypast.co.uk/transcript?id=BMD%2FNBI%2F07401624&tab=this"
+        }
+      ],
+      "detail_url": "/people/glascoe-36.html",
+      "provenance": [
+        "research/Glascoe-36/findings.md",
+        "research/canonical_records.json",
+        "research/vital_assessments.json"
+      ]
     }
   ]
 }

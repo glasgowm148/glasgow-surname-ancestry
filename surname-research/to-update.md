@@ -2581,3 +2581,7 @@ Burial-defined Walter remains on source-verification HOLD in the existing creati
 
 - [John’s complete HOLD draft](new-people/1800_Ireland_Dublin_John_Glasco.md) — later identity candidates 3946/3751 retained.
 - [Eliza Hynes’s complete HOLD draft](../research/Glasco-144/1784_Ireland_Dublin_Eliza_Hynes.md) — baptism-defined mother; modern match unresolved.
+
+## Berwick burial — 2026-10-21
+
+| [George Glascoe (Glascoe-36)](https://www.wikitree.com/wiki/Glascoe-36) | OPEN | Add the correct National Burial Index citation, 3 July 1589, Holy Trinity, Berwick; qualify exact death and age claims, retain the distinct Margaret citation and reconcile the Mureistoun/Alan comparisons. Complete proposal: `research/Glascoe-36/berwick-burial-2026-10-21.wiki`. No new father. |

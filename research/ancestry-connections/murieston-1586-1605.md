@@ -4,6 +4,9 @@ Reviewed: 2026-10-18
 
 ## Current conclusion
 
+Reviewed21 October2026. The indexed burial excludes this George from the adult baptism-witness role at Mid Calder in 1605 and from the combined 1586–1605 identity. It does not exclude his being the Mureistoun man of 1586 alone. The merchant George Glasgow-1099 and George Glasgow-3171 retain their existing assessments. The selected Mureistoun George → James Glasgow-991 father remains 82%; William Glasgow-3522 → Mureistoun George remains 26%. No family link or percentage changes. [National Burial Index for England & Wales, Geo Glascoe, Holy Trinity, Berwick upon Tweed, 3 July 1589; Northumberland & Durham Family History Society, Findmypast BMD/NBI/07401624](https://www.findmypast.co.uk/transcript?id=BMD%2FNBI%2F07401624&tab=this). Findmypast subscribed transcript inspected 21 October 2026; original parish register not inspected. No age, parent, spouse or occupation is supplied.
+
+
 Reviewed:20 October 2026. Edward Glasgow-1557 is now George’s selected uncertain son at 26%, choosing a brother route alongside James-991. The earlier 18% Corsankell father remains an alternative. James’s82% father and George’s own 26% upstream father are unchanged.
 
 Reviewed: 2026-10-18. **George of Mureistoun is James Glasgow-991’s selected probable father, 82%.** Andrew Glasgow-3163 is an unselected uncertain alternative. The combined 1586 holding and 1605 baptism-witness argument supports that preference; neither record states the kinship. Father, uncle, brother, other kinsman and neighbour remain alternatives.
