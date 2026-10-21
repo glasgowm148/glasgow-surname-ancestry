@@ -2,6 +2,12 @@
 
 ## Current conclusion
 
+Reviewed 21 October 2026. New confident mother Barbara Stevenson, 99%; new possible father William the Dundonald weaver, 52%.
+
+[Barbara Stevenson (Stevenson-14560)](/people/stevenson-14560.html) is the confidently identified mother of [William Glasgow (Glasgow-4101)](/people/glasgow-4101.html), assessed at 99% subjective confidence. His retained Findmypast transcript records a Dundonald baptism on 12 June 1733 and explicitly names Barbara Stevenson as mother (OPR 590/1, item 3, p.82; SCOT/OPR/BAP/3536725). Barbara’s existing WikiTree account identifies which modern profile represents this recorded mother: its sole citation is the FamilySearch presentation of this same 1733 child, XYZB-Z9Z. The two indexes represent one underlying register, not independent historical corroboration. This is a new outstanding mother attachment to an already existing profile, not a newly discovered baptism or a new person. Select [William Glasgow (Glasgow-3586)](/people/glasgow-3586.html), the weaver at Achenyeards named as Jean’s father in the 1 October 1732 Dundonald baptism, as [William Glasgow (Glasgow-4101)](/people/glasgow-4101.html)’s possible father at 52% subjective confidence. The specific existing local household offers a more useful working placement than leaving the 1733 child isolated: the children share the uncommon surname and parish, their entries occur on nearby pages of the same register, and the boy’s William name agrees with the proposed father. The existing father account is already paired with Barbara Stevenson, the boy’s named mother, but that tree pairing has not been traced to an independent marriage or full-parent entry and is not counted as additional proof. The whole father proposition remains an indirect household reconstruction.
+
+### Earlier account retained — current assessment above
+
 William Glasgow was baptised at Dundonald, Ayrshire, on 12 Jun 1733. The parish register names his mother as Barbara. Because the entry records a baptism rather than a birth, his birth is placed before that date, and Dundonald is inferred from the baptism rather than independently recorded. The [Findmypast transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3536725&tab=this) is the indexed source for this event. The live WikiTree profile records male sex at birth with uncertain status, inferred from the recorded given name. The cited transcript does not explicitly state sex.
 
 ## Source findings
@@ -13,7 +19,7 @@ William Glasgow was baptised at Dundonald, Ayrshire, on 12 Jun 1733. The parish 
 
 - Check the underlying record image, where available, for any explicit sex evidence. Keep the name-based field uncertain unless stronger evidence is found.
 
-## Current conclusion — newspaper review, 5 October 2026
+## Earlier dated conclusion — newspaper review, 5 October 2026
 
 This is a chronologically compatible candidate for William Glasgow, the Lady Forbes master in January 1768; no identity bridge is established.
 
@@ -25,7 +31,7 @@ The [Public Register / Freeman’s Journal, 23 January 1768, p.2](https://www.ne
 
 The vessel’s Glasgow designation does not identify the master’s birthplace, home or family. Existing baptism, Larne and family conclusions remain qualified as previously assessed. Find ownership, master and port-clearance records; do not merge with the unnamed captain of the brig William in 1796.
 
-## Current conclusion — original newspaper batch, 5 October 2026
+## Earlier dated conclusion — original newspaper batch, 5 October 2026
 
 William Glasgow, Philadelphia postal lists, 1759–1765: Birth before 12 June 1733, Dundonald, permits these dates; no Cecil County or postal identity bridge. These are three independently retained entries, consolidated as an unresolved name study. They may concern different men. No continuous Cecil County residence or identity with the 1775 Maryland William Glascoe, Lady Forbes master, or an Irish William is proved. No relationship or life-date amendment follows.
 
@@ -41,13 +47,13 @@ William Glasgow is listed among letters remaining in the Philadelphia post offic
 
 Compare original Cecil County tax, land and probate records and Philadelphia postal notices; seek signatures or family identifiers before joining these entries.
 
-## Current conclusion — 1771 William postal entry, 5 October 2026
+## Earlier dated conclusion — 1771 William postal entry, 5 October 2026
 
 These are three independently retained entries, consolidated as an unresolved name study. They may concern different men. No continuous Cecil County residence or identity with the 1775 Maryland William Glascoe, Lady Forbes master, or an Irish William is proved. A fourth retained entry in the 1771 Charles-Town list remains a compatible unresolved name occurrence, without a bridge to the earlier entries or the separately listed John.
 
 William Glasgow is separately listed in the Charles-Town, Maryland, post-office letters notice headed 1 October 1771, beside an entry for John Glasgow of West Nottingham. William has no separately established locality in this line. Sydney George is the next named addressee, with Cecil County attached to Sydney. Colisting does not prove kinship with John, a continuous Maryland residence, letter collection or that William was still alive. [Maryland Gazette, 1771-10-24, p.3](https://www.newspapers.com/image/41041559/)
 
-## Current conclusion — Lady Forbes parallel casualty report, 5 October 2026
+## Earlier dated conclusion — Lady Forbes parallel casualty report, 5 October 2026
 
 The newspaper explicitly names William Glasgow as master. Glasgow as the vessel’s home port supplies no personal birthplace or family identity.
 
@@ -108,3 +114,14 @@ Cecil County explicitly qualifies the 1759 entry only. In 1763 "Pennsylvania" fo
 
 This may concern [Glasgow-4101](https://www.wikitree.com/wiki/Glasgow-4101). Birth before 12 June 1733, Dundonald, permits these dates; no Cecil County or postal identification.
 <!-- queue-record-integration-2026-10-17:end -->
+
+
+## Dundonald household assessment — 21 October 2026
+
+[Barbara Stevenson (Stevenson-14560)](/people/stevenson-14560.html) is the confidently identified mother of [William Glasgow (Glasgow-4101)](/people/glasgow-4101.html), assessed at 99% subjective confidence. His retained Findmypast transcript records a Dundonald baptism on 12 June 1733 and explicitly names Barbara Stevenson as mother (OPR 590/1, item 3, p.82; SCOT/OPR/BAP/3536725). Barbara’s existing WikiTree account identifies which modern profile represents this recorded mother: its sole citation is the FamilySearch presentation of this same 1733 child, XYZB-Z9Z. The two indexes represent one underlying register, not independent historical corroboration. This is a new outstanding mother attachment to an already existing profile, not a newly discovered baptism or a new person.
+
+Select [William Glasgow (Glasgow-3586)](/people/glasgow-3586.html), the weaver at Achenyeards named as Jean’s father in the 1 October 1732 Dundonald baptism, as [William Glasgow (Glasgow-4101)](/people/glasgow-4101.html)’s possible father at 52% subjective confidence. The specific existing local household offers a more useful working placement than leaving the 1733 child isolated: the children share the uncommon surname and parish, their entries occur on nearby pages of the same register, and the boy’s William name agrees with the proposed father. The existing father account is already paired with Barbara Stevenson, the boy’s named mother, but that tree pairing has not been traced to an independent marriage or full-parent entry and is not counted as additional proof. The whole father proposition remains an indirect household reconstruction.
+
+The 1733 transcript has no father field or residence; absence from a transcript does not establish what the manuscript contains or prove illegitimacy. The 1732 transcript names William, weaver at Achenyeards, but no mother. Their baptisms are only 254 days apart, about eight and a half months: close spacing weakens a routine successive-infant-birth interpretation, while unknown birth dates and possible delayed baptism leave the proposed siblings compatible. Do not manufacture birth dates to resolve it. Another Glasgow father, a different Barbara Stevenson, and two separate local families remain alternatives. Barbara’s identification with her own 1733 citation is strong; the adult couple and cross-child father assignment are separate inferences. No mother is assigned to Jean, no full-sibling claim is made, and the existing ungraded Jean-to-William father relationship is unchanged. The earlier Ayrshire William accounts [Glasgow-1055](/people/glasgow-1055.html), [Glasgow-3288](/people/glasgow-3288.html) and [Glasgow-1061](/people/glasgow-1061.html) remain compatible wider comparisons; estimated ages or missing family details do not exclude them. No record links this father to any of their birth families, so no upstream father is selected. No later newspaper, maritime or American identity is inferred for the child. Exact percentages are individual judgments, not measured frequencies. Original register images were not newly inspected and no live WikiTree edit is made.
+
+[Findmypast retained transcript: William, 12 June 1733, Dundonald OPR590/1 item3 p.82; mother Barbara Stevenson; father field absent](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3536725&tab=this); [FamilySearch XYZB-Z9Z: the same 1733 baptism cited by Barbara’s existing profile; citation reused, record page not newly inspected](https://www.familysearch.org/ark:/61903/1:1:XYZB-Z9Z); [Findmypast retained transcript: Jean, 1 October 1732, Dundonald OPR590/1 item3 p.80; father William, weaver, Achenyeards; mother absent](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3536699&tab=this).

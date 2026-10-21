@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "reviewed": "2026-10-20",
+  "reviewed": "2026-10-21",
   "objective": "Connect the Glasgow surname branches into one extended family tree, developing and testing tentative connections from the earliest records first.",
   "common_origin": "The owner reports that all men tested share the Glasgow Y-DNA lineage. A shared paternal origin around 1400–1450, possibly earlier, is the working research model; the founder, date and intervening generations remain to be identified.",
   "variants": [
@@ -4665,6 +4665,51 @@
       "working_selection": true,
       "assertion_id": "C-working-20261018-kilwinning-george-archibald",
       "reviewed": "2026-10-18"
+    },
+    {
+      "id": "dundonald-family-1732-1733",
+      "year": 1732,
+      "title": "Dundonald: connect the 1733 child to the weaver household, possible 52%",
+      "status": "Selected possible new father 52%; separately confident new mother 99%",
+      "basis": "Select William Glasgow-3586, the weaver at Achenyeards named as Jean’s father in the 1 October 1732 Dundonald baptism, as William Glasgow-4101’s possible father at 52% subjective confidence. The specific existing local household offers a more useful working placement than leaving the 1733 child isolated: the children share the uncommon surname and parish, their entries occur on nearby pages of the same register, and the boy’s William name agrees with the proposed father. The existing father account is already paired with Barbara Stevenson, the boy’s named mother, but that tree pairing has not been traced to an independent marriage or full-parent entry and is not counted as additional proof. The whole father proposition remains an indirect household reconstruction. The 1733 transcript has no father field or residence; absence from a transcript does not establish what the manuscript contains or prove illegitimacy. The 1732 transcript names William, weaver at Achenyeards, but no mother. Their baptisms are only 254 days apart, about eight and a half months: close spacing weakens a routine successive-infant-birth interpretation, while unknown birth dates and possible delayed baptism leave the proposed siblings compatible. Do not manufacture birth dates to resolve it. Another Glasgow father, a different Barbara Stevenson, and two separate local families remain alternatives. Barbara’s identification with her own 1733 citation is strong; the adult couple and cross-child father assignment are separate inferences. No mother is assigned to Jean, no full-sibling claim is made, and the existing ungraded Jean-to-William father relationship is unchanged. The earlier Ayrshire William accounts Glasgow-1055, Glasgow-3288 and Glasgow-1061 remain compatible wider comparisons; estimated ages or missing family details do not exclude them. No record links this father to any of their birth families, so no upstream father is selected. No later newspaper, maritime or American identity is inferred for the child. Exact percentages are individual judgments, not measured frequencies. Original register images were not newly inspected and no live WikiTree edit is made.",
+      "people": [
+        {
+          "name": "William Glasgow (Glasgow-4101)",
+          "url": "/people/glasgow-4101.html"
+        },
+        {
+          "name": "William Glasgow (Glasgow-3586)",
+          "url": "/people/glasgow-3586.html"
+        },
+        {
+          "name": "Barbara Stevenson (Stevenson-14560)",
+          "url": "/people/stevenson-14560.html"
+        },
+        {
+          "name": "Jean Glasgow (Glasgow-4113)",
+          "url": "/people/glasgow-4113.html"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Findmypast retained transcript: William, 12 June 1733, Dundonald OPR590/1 item3 p.82; mother Barbara Stevenson; father field absent",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3536725&tab=this"
+        },
+        {
+          "label": "FamilySearch XYZB-Z9Z: the same 1733 baptism cited by Barbara’s existing profile; citation reused, record page not newly inspected",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:XYZB-Z9Z"
+        },
+        {
+          "label": "Findmypast retained transcript: Jean, 1 October 1732, Dundonald OPR590/1 item3 p.80; father William, weaver, Achenyeards; mother absent",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3536699&tab=this"
+        }
+      ],
+      "record_references": [
+        "OPR590/1 item3 pp.80,82; SCOT/OPR/BAP/3536699 and3536725; FamilySearchXYZB-Z9Z"
+      ],
+      "next_test": "Compare the original 1732 and 1733 entries for parent names, residence and any annotation, then seek a marriage or another child naming both adults. Test the father’s birth-family separately.",
+      "assertion_id": "C-working-20261021-dundonald-william-father",
+      "reviewed": "2026-10-21"
     }
   ],
   "source_basis": "Initial priorities reconcile existing medieval bridge research, the pre-1550 relationship audit and the resolved public catalogue. They are current working comparisons, not newly discovered kinship records."

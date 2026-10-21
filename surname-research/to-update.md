@@ -2551,3 +2551,13 @@ Burial-defined Walter remains on source-verification HOLD in the existing creati
 | [Robert Glasgow](https://www.wikitree.com/wiki/Glasgow-12) | OPEN | John of Peters Township is assessed as a probable brother at83%. The established Robert–Arthur–Joseph brotherhood and their James-of-Moneymore father ratings are unchanged. |
 | [Arthur Glasgow](https://www.wikitree.com/wiki/Glasgow-649) | OPEN | John of Peters Township is assessed as a probable brother at83%. The established Robert–Arthur–Joseph brotherhood and their James-of-Moneymore father ratings are unchanged. |
 | [Joseph Glasgow](https://www.wikitree.com/wiki/Glasgow-1543) | OPEN | John of Peters Township is assessed as a probable brother at83%. The established Robert–Arthur–Joseph brotherhood and their James-of-Moneymore father ratings are unchanged. |
+
+
+## 21 October 2026 — Dundonald family
+
+| Profile | Status | Change |
+|---|---|---|
+| [William Glasgow](https://www.wikitree.com/wiki/Glasgow-4101) | OPEN | New confident mother Barbara Stevenson, 99%; new possible father William the Dundonald weaver, 52%. |
+| [William Glasgow](https://www.wikitree.com/wiki/Glasgow-3586) | OPEN | Possible father of William baptised in1733, 52%; Jean’s existing father attachment remains ungraded. |
+| [Barbara Stevenson](https://www.wikitree.com/wiki/Stevenson-14560) | OPEN | Record-defined mother of William baptised at Dundonald in 1733, 99%; proposed father is separately possible 52%. |
+| [Jean Glasgow](https://www.wikitree.com/wiki/Glasgow-4113) | OPEN | Possible paternal family with the 1733 William, conditional on the 52% father hypothesis; no mother assigned. |

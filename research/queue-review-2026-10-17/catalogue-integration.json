@@ -3706,10 +3706,10 @@
       "relationship_changes": []
     },
     "Glasgow-4101": {
-      "draft_path": "research/Glasgow-4101/queue-review-2026-10-17.wiki",
-      "summary": "Add the cited record accounts: Possible William Glascoe / Glascow, 1760 defendant; Possible William Glasgow, master of the Lady Forbes; Possible William Glasgow, Philadelphia and Charles-Town postal lists, 1759–1771. Retain the stated identity and relationship limits.",
-      "work_queue_summary": "Add the cited record accounts: Possible William Glascoe / Glascow, 1760 defendant; Possible William Glasgow, master of the Lady Forbes; Possible William Glasgow, Philadelphia and Charles-Town postal lists, 1759–1771. Retain the stated identity and relationship limits.",
-      "queued_at": "2026-10-17",
+      "draft_path": "research/Glasgow-4101/dundonald-family-2026-10-21.wiki",
+      "summary": "New confident mother Barbara Stevenson, 99%; new possible father William the Dundonald weaver, 52%.",
+      "work_queue_summary": "New confident mother Barbara Stevenson, 99%; new possible father William the Dundonald weaver, 52%.",
+      "queued_at": "2026-10-21",
       "status": "OPEN",
       "pending": true,
       "findings_path": "research/Glasgow-4101/findings.md",
@@ -3721,7 +3721,36 @@
         "subject-newspapers-early-glasgow-william-glasgow-postal-1759-1765"
       ],
       "private_comparison": false,
-      "prior_work_summary": ""
+      "prior_work_summary": "Add the cited record accounts: Possible William Glascoe / Glascow, 1760 defendant; Possible William Glasgow, master of the Lady Forbes; Possible William Glasgow, Philadelphia and Charles-Town postal lists, 1759–1771. Retain the stated identity and relationship limits.",
+      "profile_id": "Glasgow-4101",
+      "manual_update": true,
+      "relationship_changes": [
+        {
+          "action": "add",
+          "relationship": "father",
+          "relative_id": "Glasgow-3586",
+          "relative_name": "William Glasgow",
+          "status": "possible",
+          "probability_percent": 52,
+          "assertion_id": "C-working-20261021-dundonald-william-father",
+          "scope": "Select William Glasgow-3586, the weaver at Achenyeards named as Jean’s father in the 1 October 1732 Dundonald baptism, as William Glasgow-4101’s possible father at 52% subjective confidence. The specific existing local household offers a more useful working placement than leaving the 1733 child isolated: the children share the uncommon surname and parish, their entries occur on nearby pages of the same register, and the boy’s William name agrees with the proposed father. The existing father account is already paired with Barbara Stevenson, the boy’s named mother, but that tree pairing has not been traced to an independent marriage or full-parent entry and is not counted as additional proof. The whole father proposition remains an indirect household reconstruction.",
+          "previous_status_provenance": "Fresh anonymous capture 21 October 2026: Father=0,Mother=0; previous dossier had no parent rows."
+        },
+        {
+          "action": "add",
+          "relationship": "mother",
+          "relative_id": "Stevenson-14560",
+          "relative_name": "Barbara Stevenson",
+          "status": "strongly_supported",
+          "probability_percent": 99,
+          "assertion_id": "C-reviewed-20261021-dundonald-william-mother",
+          "scope": "Barbara Stevenson-14560 is the confidently identified mother of William Glasgow-4101, assessed at 99% subjective confidence. His retained Findmypast transcript records a Dundonald baptism on 12 June 1733 and explicitly names Barbara Stevenson as mother (OPR 590/1, item 3, p.82; SCOT/OPR/BAP/3536725). Barbara’s existing WikiTree account identifies which modern profile represents this recorded mother: its sole citation is the FamilySearch presentation of this same 1733 child, XYZB-Z9Z. The two indexes represent one underlying register, not independent historical corroboration. This is a new outstanding mother attachment to an already existing profile, not a newly discovered baptism or a new person.",
+          "previous_status_provenance": "Fresh anonymous capture 21 October 2026: Father=0,Mother=0; previous dossier had no parent rows."
+        }
+      ],
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "preservation_review_path": "research/ancestry-connections/dundonald-family-preservation-2026-10-21.json"
     },
     "Glasgow-4111": {
       "draft_path": "research/Glasgow-4111/queue-review-2026-10-17.wiki",
@@ -3755,10 +3784,10 @@
       "prior_work_summary": ""
     },
     "Glasgow-4113": {
-      "draft_path": "research/Glasgow-4113/queue-review-2026-10-17.wiki",
-      "summary": "Add the cited record accounts: Jean Glasgow; Jean Glasgow; Jean Glasgow. Retain the stated identity and relationship limits.",
-      "work_queue_summary": "Add the cited record accounts: Jean Glasgow; Jean Glasgow; Jean Glasgow. Retain the stated identity and relationship limits.",
-      "queued_at": "2026-10-17",
+      "draft_path": "research/Glasgow-4113/dundonald-family-2026-10-21.wiki",
+      "summary": "Possible paternal family with the 1733 William, conditional on the 52% father hypothesis; no mother assigned.",
+      "work_queue_summary": "Possible paternal family with the 1733 William, conditional on the 52% father hypothesis; no mother assigned.",
+      "queued_at": "2026-10-21",
       "status": "OPEN",
       "pending": true,
       "findings_path": "research/Glasgow-4113/findings.md",
@@ -3769,7 +3798,13 @@
         "subject-opr-jean-marriages-jean-glasgow"
       ],
       "private_comparison": false,
-      "prior_work_summary": ""
+      "prior_work_summary": "Add the cited record accounts: Jean Glasgow; Jean Glasgow; Jean Glasgow. Retain the stated identity and relationship limits.",
+      "profile_id": "Glasgow-4113",
+      "manual_update": true,
+      "relationship_changes": [],
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "preservation_review_path": "research/ancestry-connections/dundonald-family-preservation-2026-10-21.json"
     },
     "Glasgow-4119": {
       "draft_path": "research/Glasgow-4119/queue-review-2026-10-17.wiki",
@@ -6968,9 +7003,41 @@
       "work_queue_summary": "John of Peters Township is assessed as a probable brother at83%. The established Robert–Arthur–Joseph brotherhood and their James-of-Moneymore father ratings are unchanged.",
       "prior_work_summary": "Explain the probable Moneymore father from the explicit family-history attribution and established brothers; retain separate identity, ancestry and maternity limits.",
       "pending": true
+    },
+    "Glasgow-3586": {
+      "profile_id": "Glasgow-3586",
+      "queued_at": "2026-10-21",
+      "draft_path": "research/Glasgow-3586/dundonald-family-2026-10-21.wiki",
+      "findings_path": "research/Glasgow-3586/findings.md",
+      "summary": "Possible father of William baptised in1733, 52%; Jean’s existing father attachment remains ungraded.",
+      "work_queue_summary": "Possible father of William baptised in1733, 52%; Jean’s existing father attachment remains ungraded.",
+      "prior_work_summary": "",
+      "status": "OPEN",
+      "pending": true,
+      "manual_update": true,
+      "relationship_changes": [],
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "preservation_review_path": "research/ancestry-connections/dundonald-family-preservation-2026-10-21.json"
+    },
+    "Stevenson-14560": {
+      "profile_id": "Stevenson-14560",
+      "queued_at": "2026-10-21",
+      "draft_path": "research/Stevenson-14560/dundonald-family-2026-10-21.wiki",
+      "findings_path": "research/Stevenson-14560/findings.md",
+      "summary": "Record-defined mother of William baptised at Dundonald in 1733, 99%; proposed father is separately possible 52%.",
+      "work_queue_summary": "Record-defined mother of William baptised at Dundonald in 1733, 99%; proposed father is separately possible 52%.",
+      "prior_work_summary": "",
+      "status": "OPEN",
+      "pending": true,
+      "manual_update": true,
+      "relationship_changes": [],
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "preservation_review_path": "research/ancestry-connections/dundonald-family-preservation-2026-10-21.json"
     }
   },
-  "reviewed_on": "2026-10-20",
+  "reviewed_on": "2026-10-21",
   "new_people": [
     {
       "subject_id": "subject-ballymena-hillis-elder-1857-alex-hillis",

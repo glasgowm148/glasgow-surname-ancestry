@@ -33619,6 +33619,72 @@
           "explanation": "The inspected 1944abstract explicitly identifies this record-defined child’s father. Strongly supported98%; original manuscript uninspected. Same existing parent; previously unmarked."
         }
       ]
+    },
+    {
+      "id": "dundonald-recorded-mother-possible-father-20261021",
+      "found_on": "2026-10-21",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Connect the 1733 Dundonald William to his explicitly named mother Barbara Stevenson, 99%, and select the nearby weaver William as possible father, 52%. Both live parent fields were blank.",
+      "qualification": "The 1733 transcript has no father field or residence; absence from a transcript does not establish what the manuscript contains or prove illegitimacy. The 1732 transcript names William, weaver at Achenyeards, but no mother. Their baptisms are only 254 days apart, about eight and a half months: close spacing weakens a routine successive-infant-birth interpretation, while unknown birth dates and possible delayed baptism leave the proposed siblings compatible. Do not manufacture birth dates to resolve it. Another Glasgow father, a different Barbara Stevenson, and two separate local families remain alternatives. Barbara’s identification with her own 1733 citation is strong; the adult couple and cross-child father assignment are separate inferences. No mother is assigned to Jean, no full-sibling claim is made, and the existing ungraded Jean-to-William father relationship is unchanged. The earlier Ayrshire William accounts Glasgow-1055, Glasgow-3288 and Glasgow-1061 remain compatible wider comparisons; estimated ages or missing family details do not exclude them. No record links this father to any of their birth families, so no upstream father is selected. No later newspaper, maritime or American identity is inferred for the child. Exact percentages are individual judgments, not measured frequencies. Original register images were not newly inspected and no live WikiTree edit is made.",
+      "people": [
+        {
+          "id": "Glasgow-4101",
+          "name": "William Glasgow",
+          "url": "/people/glasgow-4101.html"
+        },
+        {
+          "id": "Glasgow-3586",
+          "name": "William Glasgow",
+          "url": "/people/glasgow-3586.html"
+        },
+        {
+          "id": "Stevenson-14560",
+          "name": "Barbara Stevenson",
+          "url": "/people/stevenson-14560.html"
+        },
+        {
+          "id": "Glasgow-4113",
+          "name": "Jean Glasgow",
+          "url": "/people/glasgow-4113.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Findmypast retained transcript: William, 12 June 1733, Dundonald OPR590/1 item3 p.82; mother Barbara Stevenson; father field absent",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3536725&tab=this"
+        },
+        {
+          "title": "FamilySearch XYZB-Z9Z: the same 1733 baptism cited by Barbara’s existing profile; citation reused, record page not newly inspected",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:XYZB-Z9Z"
+        },
+        {
+          "title": "Findmypast retained transcript: Jean, 1 October 1732, Dundonald OPR590/1 item3 p.80; father William, weaver, Achenyeards; mother absent",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3536699&tab=this"
+        }
+      ],
+      "detail_url": "/people/glasgow-4101.html",
+      "relationship_changes": [
+        {
+          "relationship": "mother",
+          "subject": "William Glasgow (Glasgow-4101)",
+          "relative": "Barbara Stevenson (Stevenson-14560)",
+          "subject_id": "Glasgow-4101",
+          "relative_id": "Stevenson-14560",
+          "before": "unknown",
+          "after": "certain",
+          "assessment_after": "strongly_supported",
+          "explanation": "Barbara Stevenson-14560 is the confidently identified mother of William Glasgow-4101, assessed at 99% subjective confidence. His retained Findmypast transcript records a Dundonald baptism on 12 June 1733 and explicitly names Barbara Stevenson as mother (OPR 590/1, item 3, p.82; SCOT/OPR/BAP/3536725). Barbara’s existing WikiTree account identifies which modern profile represents this recorded mother: its sole citation is the FamilySearch presentation of this same 1733 child, XYZB-Z9Z. The two indexes represent one underlying register, not independent historical corroboration. This is a new outstanding mother attachment to an already existing profile, not a newly discovered baptism or a new person.",
+          "previous_status_provenance": "Anonymous public capture 21 October 2026 shows Mother=0 and previous public dossier has no parent rows.",
+          "assertion_id": "C-reviewed-20261021-dundonald-william-mother"
+        }
+      ],
+      "new_father_attachments": 1,
+      "father_replacements": 0,
+      "genealogical_connections_added": 1,
+      "certainty_upgrades": 1,
+      "new_source_discoveries": 0,
+      "new_original_inspections": 0
     }
   ]
 }
