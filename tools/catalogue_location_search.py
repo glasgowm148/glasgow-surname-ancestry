@@ -80,7 +80,7 @@ def enrichment(person: dict, dossier: dict) -> dict:
     statuses = field_statuses(person)
     for review in sorted(dossier.get("research_assessments") or [],
                          key=lambda item: (item.get("reviewed", ""), item.get("id", ""))):
-        if review.get("status") != "approved" or review.get("derived_from") != "documentary_chronology":
+        if review.get("status") != "approved":
             continue
         projection = review.get("catalogue_projection") or {}
         statuses.update({field: status for field, status in (projection.get("field_statuses") or {}).items()

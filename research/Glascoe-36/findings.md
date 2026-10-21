@@ -10,7 +10,7 @@ No age, parents, spouse, trade or Scottish origin is stated. The date establishe
 
 The indexed burial excludes this George from the adult baptism-witness role at Mid Calder in 1605 and from the combined 1586–1605 identity. It does not exclude his being the Mureistoun man of 1586 alone. The merchant George Glasgow-1099 and George Glasgow-3171 retain their existing assessments. The selected Mureistoun George → James Glasgow-991 father remains 82%; William Glasgow-3522 → Mureistoun George remains 26%. No family link or percentage changes.
 
-The former categorical exclusion of Alan Glasgw-3023 as a father is withdrawn: a 94-year interval from Alan's death to George's burial is not a biological contradiction when George's age is unknown. It would require an unusually long life, supplies no positive family evidence and does not justify selecting Alan as father. George remains unplaced; no anonymous generation or parent is added.
+The former categorical exclusion of [Alan Glasgw](https://www.wikitree.com/wiki/Glasgow-3023) as a father is withdrawn: a 94-year interval from Alan's death to George's burial is not a biological contradiction when George's age is unknown. It would require an unusually long life, supplies no positive family evidence and does not justify selecting Alan as father. George remains unplaced; no anonymous generation or parent is added.
 
 ## Search scope — 21 October 2026
 

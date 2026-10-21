@@ -610,10 +610,22 @@
           "date": "1589-07-03",
           "display_date": "By 3 July 1589 (buried that day)",
           "place": "Berwick-upon-Tweed, Northumberland, England (estimated from burial)",
-          "status": "before",
+          "status": "uncertain",
           "country": "england",
           "source_url": "https://www.findmypast.co.uk/transcript?id=BMD%2FNBI%2F07401624&tab=this",
-          "note": "Death on or before the indexed burial. The parish is the burial location; actual death locality is not recorded. Imported exact death wording remains preserved in the comparison."
+          "note": "Death on or before the indexed burial. The parish is the burial location; actual death locality is not recorded. Imported exact death wording remains preserved in the comparison.",
+          "qualifier": "Death on or before the indexed burial date; exact death date unrecorded."
+        }
+      },
+      "catalogue_projection": {
+        "death": "By 3 July 1589 (buried that day)",
+        "death_year": 1589,
+        "death_location": "Berwick-upon-Tweed, Northumberland, England (estimated from burial)",
+        "field_statuses": {
+          "birth": "estimated",
+          "birth_location": "estimated",
+          "death": "uncertain",
+          "death_location": "estimated"
         }
       }
     }

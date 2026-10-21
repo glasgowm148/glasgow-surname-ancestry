@@ -68,3 +68,19 @@ class CatalogueLocationSearchTest(unittest.TestCase):
         self.assertEqual(row["marriage_locations"], [])
         self.assertEqual(row["biography_text"], "Bio-only needle term.")
         self.assertEqual(json.loads((root / "www/data/people-index.js").read_text().split("=", 1)[1].rstrip(";\n"))[0], row)
+
+  def test_approved_vital_review_overrides_saved_tree_status(self):
+    person = {"death": "1700-01-01", "birth": "c. 1650", "wikitree_evidence": [
+        {"profile_fields": {"DataStatus": {"DeathDate": "certain"}}},
+    ]}
+    dossier = {"research_assessments": [
+        {"id": "burial-boundary", "status": "approved", "reviewed": "2026-01-01",
+         "catalogue_projection": {"field_statuses": {"death": "uncertain", "father": "certain"}}},
+        {"id": "unapproved", "status": "pending", "reviewed": "2026-02-01",
+         "catalogue_projection": {"field_statuses": {"death": "certain"}}},
+    ]}
+    fields = enrichment(person, dossier)["field_statuses"]
+    self.assertEqual(fields["death"], "uncertain")
+    self.assertEqual(fields["birth"], "estimated")
+    self.assertNotIn("father", fields)
+    self.assertEqual(enrichment(person, {})["field_statuses"]["death"], "certain")
