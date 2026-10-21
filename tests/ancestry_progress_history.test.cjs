@@ -25,3 +25,13 @@ test('early cohorts begin with recorded measurements, without historical backfil
   assert.deepEqual(historySeries(rows, 'confident', 'edge_count'), [{date:'2026-10-20', value:74}]);
   assert.deepEqual(dailyHistory([], 3, '1650'), []);
 });
+
+test('confidence coverage uses each dated working denominator and preserves gaps', () => {
+  const rows = [
+    {date:'2026-10-16', metrics:{working:{edge_count:100}, confident:{edge_count:30}}},
+    {date:'2026-10-17', metrics:{working:{edge_count:120}, confident:{edge_count:48}}},
+    {date:'2026-10-18', metrics:{working:{edge_count:0}, confident:{edge_count:0}}},
+    {date:'2026-10-19', metrics:{working:{edge_count:120}}}
+  ];
+  assert.deepEqual(historySeries(rows, 'confident', 'assessed_links_percent').map(p => p.value), [30, 40, null, null]);
+});

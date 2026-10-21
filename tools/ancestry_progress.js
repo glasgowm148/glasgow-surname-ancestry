@@ -10,7 +10,13 @@
     return [...days.values()].sort((a, b) => a.date.localeCompare(b.date));
   }
   function historySeries(rows, view, metric) {
-    return rows.map(row => ({date: row.date, value: Number.isFinite(row.metrics[view]?.[metric]) ? row.metrics[view][metric] : null}));
+    return rows.map(row => {
+      const assessed = row.metrics[view]?.edge_count, working = row.metrics.working?.edge_count;
+      const value = metric === 'assessed_links_percent'
+        ? (Number.isFinite(assessed) && working > 0 ? 100 * assessed / working : null)
+        : row.metrics[view]?.[metric];
+      return {date: row.date, value: Number.isFinite(value) ? value : null};
+    });
   }
   if (typeof module !== 'undefined' && module.exports) module.exports = {dailyHistory, historySeries};
   if (typeof document === 'undefined') return;
@@ -25,6 +31,7 @@
     {key:'working', label:'Working, including uncertain', color:'#a76812'}
   ];
   const historyMetrics = {
+    assessed_links_percent:'Share of working father–child links (%)',
     edge_count:'Father–child links', largest_component_size:'People in largest branch',
     connected_pairs_percent:'Connected pairs (%)', component_count:'Separate paternal components'
   };
@@ -36,23 +43,25 @@
     const views = historyViews.filter(view => byId('history-'+view.key).checked);
     const series = views.map(view => ({...view, points:historySeries(rows, view.key, metric)}));
     const values = series.flatMap(view => view.points.filter(p => p.value !== null).map(p => p.value));
-    const format = value => metric === 'connected_pairs_percent' ? value.toFixed(3)+'%' : number(value);
+    const percent = metric.endsWith('_percent');
+    const decimals = metric === 'assessed_links_percent' ? 1 : 3;
+    const format = value => percent ? value.toFixed(decimals)+'%' : number(value);
     const dateLabel = value => new Date(value+'T12:00:00Z').toLocaleDateString('en-GB', {day:'numeric', month:'short', timeZone:'UTC'});
     const scope = fixed ? `Fixed baseline: the same ${number(data.history_baseline.population)} people through ${data.history_baseline.cutoff}` : `Historical cohort through ${cutoff}: people available at each snapshot`;
     byId('history-cohort').options[1].textContent = `Selected cohort · through ${cutoff}`;
     byId('history-scope').textContent = scope + '. Comparable confidence measurements use the current method; earlier classification changes are excluded.';
-    byId('history-note').textContent = (rows.length < 2 ? 'Only one dated snapshot is available for this cohort; its history starts here. Earlier cutoff measurements have not been reconstructed. ' : '') + 'Confidence levels are cumulative: probable or stronger includes confident links. Missing measurements are gaps. Component counts include isolated people; fewer components means more connectivity. Saved certainty flags are included; these are not probabilities that an entire branch is correct.';
+    byId('history-note').textContent = (rows.length < 2 ? 'Only one dated snapshot is available for this cohort; its history starts here. Earlier cutoff measurements have not been reconstructed. ' : '') + 'Confidence coverage is the number of links at each confidence level divided by all working father–child links. Probable or stronger includes confident links. Missing measurements are gaps. Changes can include regrading existing fathers and publication repairs; they do not all represent newly connected families. These are not probabilities that an entire branch is correct.';
     byId('history-table-caption').textContent = `${historyMetrics[metric]} · ${scope}`;
     byId('history-table-head').innerHTML = '<tr><th scope="col">Date</th>'+views.map(view => `<th scope="col">${esc(view.label)}</th>`).join('')+'</tr>';
     byId('history-table-body').innerHTML = rows.map(row => '<tr><th scope="row">'+esc(row.date)+'</th>'+views.map(view => {
-      const value = row.metrics[view.key]?.[metric];
+      const value = historySeries([row], view.key, metric)[0].value;
       return '<td>'+(Number.isFinite(value)?esc(format(value)):'Not recorded')+'</td>';
     }).join('')+'</tr>').join('');
     byId('history-changes').innerHTML = series.map(view => {
       const points = view.points.filter(point => point.value !== null);
       if (!points.length) return '';
       const first = points[0], last = points[points.length-1], delta = last.value-first.value;
-      const change = metric === 'connected_pairs_percent' ? Math.abs(delta).toFixed(3)+' percentage points' : number(Math.abs(delta));
+      const change = percent ? Math.abs(delta).toFixed(decimals)+' percentage points' : number(Math.abs(delta));
       return `<div class="history-${view.key}"><span>${esc(view.label)}</span><strong>${esc(format(last.value))}</strong><small>${points.length>1?`${delta>0?'+':delta<0?'−':''}${esc(change)} since ${esc(dateLabel(first.date))}`:`First snapshot · ${esc(dateLabel(last.date))}`}</small></div>`;
     }).join('');
     if (!values.length) {
@@ -62,14 +71,14 @@
     const width=Math.max(360, Math.min(960, byId('history-chart').clientWidth || 960)), height=330, left=70, right=28, top=28, bottom=54;
     const low=Math.min(...values), high=Math.max(...values), spread=high-low;
     const padding=Math.max(spread*.18, high*.025, metric==='connected_pairs_percent'?.005:2);
-    const min=Math.max(0, low-padding), max=high+padding;
+    const min=metric==='assessed_links_percent'?0:Math.max(0, low-padding), max=metric==='assessed_links_percent'?100:high+padding;
     const start=Date.parse(rows[0].date), end=Date.parse(rows[rows.length-1].date);
     const x=date => start===end ? (left+width-right)/2 : left+(Date.parse(date)-start)/(end-start)*(width-left-right);
     const y=value => height-bottom-(value-min)/(max-min)*(height-top-bottom);
     const svg = [`<svg viewBox="0 0 ${width} ${height}" role="img" aria-labelledby="history-svg-title history-svg-desc"><title id="history-svg-title">${esc(historyMetrics[metric])} over time</title><desc id="history-svg-desc">${esc(scope)}. Daily closing snapshots. Values are also available in the snapshot data table below. The vertical axis starts at ${esc(format(min))}.</desc>`];
     for(let i=0;i<=4;i++) {
       const value=min+(max-min)*i/4, yy=y(value);
-      const label=metric==='connected_pairs_percent'?value.toFixed(3)+'%':number(Math.round(value));
+      const label=percent?value.toFixed(metric==='assessed_links_percent'?0:3)+'%':number(Math.round(value));
       svg.push(`<line x1="${left}" x2="${width-right}" y1="${yy}" y2="${yy}" class="history-grid"/><text x="${left-12}" y="${yy+4}" text-anchor="end">${esc(label)}</text>`);
     }
     const ticks = rows.length > 7 ? rows.filter((row,i) => i===0 || i===rows.length-1 || i%Math.ceil(rows.length/6)===0) : rows;
