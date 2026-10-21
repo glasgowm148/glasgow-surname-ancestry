@@ -3744,9 +3744,9 @@
       "relationship_changes": []
     },
     "Glasgow-4101": {
-      "draft_path": "research/Glasgow-4101/dundonald-family-2026-10-21.wiki",
-      "summary": "New confident mother Barbara Stevenson, 99%; new possible father William the Dundonald weaver, 52%.",
-      "work_queue_summary": "New confident mother Barbara Stevenson, 99%; new possible father William the Dundonald weaver, 52%.",
+      "draft_path": "research/Glasgow-4101/irvine-dundonald-ancestry-2026-10-21.wiki",
+      "summary": "Father William-3586 stays possible52% and mother Barbara Stevenson99%; the father’s own proposed parent is John-1057,46%possible.",
+      "work_queue_summary": "Father William-3586 stays possible52% and mother Barbara Stevenson99%; the father’s own proposed parent is John-1057,46%possible.",
       "queued_at": "2026-10-21",
       "status": "OPEN",
       "pending": true,
@@ -3788,7 +3788,10 @@
       ],
       "preserve_captured_detail": false,
       "reviewed_narrative_reduction": true,
-      "preservation_review_path": "research/ancestry-connections/dundonald-family-preservation-2026-10-21.json"
+      "preservation_review_path": "research/ancestry-connections/irvine-dundonald-preservation-2026-10-21.json",
+      "biography_rechecked_at": "2026-10-21",
+      "significance": 66,
+      "remote_wikitext": "[[Category:Glasgow Name Study]]\n{{Estimated Date}}\n\n== Biography ==\n\n'''William Glasgow''' was baptised at Dundonald, Ayrshire, on 12 Jun 1733. The parish register names his mother as Barbara.<ref name=\"FMP1\" /> Because the entry records a baptism rather than a birth, his birth is placed before that date, and Dundonald is inferred from the baptism rather than independently recorded.\n\n== Research Notes ==\n\nThe baptism is the only record found for William Glasgow. A search of live WikiTree profiles found no compatible match; [[Glasgow-2426|William]] belongs to a different family and is not this person.\n\n== Sources ==\n\n<ref name=\"FMP1\">[https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3536725&tab=this Findmypast transcript], Archive reference: OPR 590/1; Baptism date: 12 Jun 1733; Baptism year: 1733; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Country: Scotland; County: Ayrshire; First name(s): William; Item: 3; Last name: Glasgow; Mother's first name(s): Barbara; Mother's last name: Stevenson; Page: 82; Place: Dundonald; Record set: Scotland, Parish Births & Baptisms 1564-1929; Register year range: 1699-1787; Subcategory: Parish Baptisms (captured 2026-09-03T22:07:10.320Z).</ref>\n\n<references />"
     },
     "Glasgow-4111": {
       "draft_path": "research/Glasgow-4111/queue-review-2026-10-17.wiki",
@@ -3822,9 +3825,9 @@
       "prior_work_summary": ""
     },
     "Glasgow-4113": {
-      "draft_path": "research/Glasgow-4113/dundonald-family-2026-10-21.wiki",
-      "summary": "Possible paternal family with the 1733 William, conditional on the 52% father hypothesis; no mother assigned.",
-      "work_queue_summary": "Possible paternal family with the 1733 William, conditional on the 52% father hypothesis; no mother assigned.",
+      "draft_path": "research/Glasgow-4113/irvine-dundonald-ancestry-2026-10-21.wiki",
+      "summary": "Existing father William-3586 remains ungraded; his selected upstream father is now John-1057,possible46%, through adult identity56%.",
+      "work_queue_summary": "Existing father William-3586 remains ungraded; his selected upstream father is now John-1057,possible46%, through adult identity56%.",
       "queued_at": "2026-10-21",
       "status": "OPEN",
       "pending": true,
@@ -3842,7 +3845,10 @@
       "relationship_changes": [],
       "preserve_captured_detail": false,
       "reviewed_narrative_reduction": true,
-      "preservation_review_path": "research/ancestry-connections/dundonald-family-preservation-2026-10-21.json"
+      "preservation_review_path": "research/ancestry-connections/irvine-dundonald-preservation-2026-10-21.json",
+      "biography_rechecked_at": "2026-10-21",
+      "significance": 66,
+      "remote_wikitext": "[[Category:Glasgow Name Study]]\n{{Estimated Date}}\n\n== Biography ==\n\n'''Jean Glasgow''' was baptised at Dundonald, Ayrshire, on 01 Oct 1732. The parish register names her father as [[Glasgow-3586|William Glasgow]].<ref name=\"FMP1\" /> Because the entry records a baptism rather than a birth, her birth is placed before that date, and Dundonald is inferred from the baptism rather than independently recorded.\n\n== Research Notes ==\n\nThe baptism is the only record found for Jean Glasgow. A search of live WikiTree profiles found no compatible match; [[Glasgow-1344|Jean]], [[Glasgow-1506|Jean]], [[Glasgow-3489|Jean]], [[Glasgow-810|Jean]] belongs to a different family and is not this person.\n\n== Sources ==\n\n<ref name=\"FMP1\">[https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3536699&tab=this Findmypast transcript], Archive reference: OPR 590/1; Baptism date: 01 Oct 1732; Baptism year: 1732; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Country: Scotland; County: Ayrshire; Father's first name(s): William; Father's last name: Glasgow; Father's occupation: Weaver; First name(s): Jean; Item: 3; Last name: Glasgow; Page: 80; Place: Dundonald; Record set: Scotland, Parish Births & Baptisms 1564-1929; Register year range: 1699-1787; Residence: Achenyeards; Subcategory: Parish Baptisms (captured 2026-09-03T22:07:08.534Z).</ref>\n\n<references />"
     },
     "Glasgow-4119": {
       "draft_path": "research/Glasgow-4119/queue-review-2026-10-17.wiki",
@@ -7115,18 +7121,33 @@
     "Glasgow-3586": {
       "profile_id": "Glasgow-3586",
       "queued_at": "2026-10-21",
-      "draft_path": "research/Glasgow-3586/dundonald-family-2026-10-21.wiki",
+      "draft_path": "research/Glasgow-3586/irvine-dundonald-ancestry-2026-10-21.wiki",
       "findings_path": "research/Glasgow-3586/findings.md",
-      "summary": "Possible father of William baptised in1733, 52%; Jean’s existing father attachment remains ungraded.",
-      "work_queue_summary": "Possible father of William baptised in1733, 52%; Jean’s existing father attachment remains ungraded.",
+      "summary": "John Glasgow-1057 is the new possible father,46%, through possible identity with the Irvine William-1055,56%.",
+      "work_queue_summary": "John Glasgow-1057 is the new possible father,46%, through possible identity with the Irvine William-1055,56%.",
       "prior_work_summary": "",
       "status": "OPEN",
       "pending": true,
       "manual_update": true,
-      "relationship_changes": [],
+      "relationship_changes": [
+        {
+          "action": "add",
+          "relationship": "father",
+          "relative_id": "Glasgow-1057",
+          "relative_name": "John Glasgow",
+          "status": "possible",
+          "probability_percent": 46,
+          "previous_status": "absent",
+          "assertion_id": "C-working-20261021-dundonald-john-father",
+          "scope": "Select John Glasgow-1057 as the Dundonald William’s possible working father at 46%. This is an assessment of the complete father proposition, including both the 56% adult identity and the further identification of the Irvine adult with the Stevenston child cited as born or baptised on 30 November 1700 to John Glasgow and Agnas Spark (OPR615,10/3,frame11). The current William-1055 account estimates 1701; the citation and estimate are not silently harmonised. John-1057 is the existing account for that named parent. Its separate identification with an Edinburgh child baptised in1661, and its own earlier ancestry, retain their existing qualifications. The percentages are individual judgments, not measured frequencies or independent values to multiply. No record names the Dundonald father’s own parents, connects the two adult households, or supplies an occupation for the Irvine father. William Glasgow-3288, baptised at Kilbirnie on20August1704, remains a compatible alternative. William Glasgow-1061, whose maintained transcript gives birth25June1715 and baptism26June1715 at Byres,Kilwinning, could have been a father at seventeen in1732; this is a weaker generation fit, not an exclusion. An unrepresented William remains possible. No wife’s death, remarriage, exact migration or craft inheritance is invented. Katherine’s1727 transcript names Mary Monfodd, while the other three Irvine entries name Margaret with Monfood/Montford/Montfod variants; this maternal distinction remains unresolved. The undated Mary Montfort marriage attached to William-1061 cannot identify the1727 mother merely by her name. No maternity is transferred from either William account. The two William profiles remain separate accounts, with no merge and no claim of two proved William sons. Jean’s existing father link stays ungraded. The1733 child’s selected father remains possible52%, and Barbara Stevenson’s maternity remains99%; neither is strengthened by this upstream hypothesis. Jean’s mother remains unknown. Barbara’s existing pairing with the Dundonald father is ungraded and does not establish a remarriage after the Irvine household. Preserve all vital fields and previously selected relatives. Resolve the possible duplicate before a live attachment or merger. This is one new possible father proposal based on reassessment of held transcripts and profile citations; no original parish register was newly inspected and no live edit is made."
+        }
+      ],
       "preserve_captured_detail": false,
       "reviewed_narrative_reduction": true,
-      "preservation_review_path": "research/ancestry-connections/dundonald-family-preservation-2026-10-21.json"
+      "preservation_review_path": "research/ancestry-connections/irvine-dundonald-preservation-2026-10-21.json",
+      "biography_rechecked_at": "2026-10-21",
+      "significance": 82,
+      "remote_wikitext": "[[Category:Glasgow Name Study]]\n{{Estimated Date}}\n== Biography ==\n\n'''William Glasgow''' lived in Dundonald, Ayrshire. His wife was '''Barbara Stevenson'''. Their daughter\n\n* [[Glasgow-4113|Jean Glasgow]], baptised 1732 in Dundonald\n\nis named in the parish registers, with William as father.<ref>Findmypast, ''Scotland, Parish Births & Baptisms 1564–1929'', Dundonald Old Parish Registers; the entry is cited on Jean's profile.</ref>\n\n== Research Notes ==\n\nWilliam's own parents, birth and death are not given by the records. His birth is estimated before about 1713 because he was already old enough to father Jean by 1732.\n\n== Sources ==\n<references />"
     },
     "Stevenson-14560": {
       "profile_id": "Stevenson-14560",
@@ -7465,6 +7486,60 @@
       "preservation_review_history": [
         "research/ancestry-connections/fisherrow-family-confidence-preservation-2026-10-17.json"
       ]
+    },
+    "Glasgow-1055": {
+      "profile_id": "Glasgow-1055",
+      "queued_at": "2026-10-21",
+      "biography_rechecked_at": "2026-10-21",
+      "status": "OPEN",
+      "pending": true,
+      "manual_update": true,
+      "summary": "Preferred possible adult identity with the Dundonald weaver,56%; keep the1700-child identification and maternal-name distinction qualified.",
+      "work_queue_summary": "Preferred possible adult identity with the Dundonald weaver,56%; keep the1700-child identification and maternal-name distinction qualified.",
+      "significance": 82,
+      "draft_path": "research/Glasgow-1055/irvine-dundonald-ancestry-2026-10-21.wiki",
+      "findings_path": "research/Glasgow-1055/findings.md",
+      "relationship_changes": [],
+      "remote_wikitext": "== Biography ==\n\nWilliam Glasgow was born in 1701 in Stevenston, Ayrshire, Scotland, and was christened the same year. His parents were John Glasgow and Agnas Spark. According to Elaine Comes on Wikitree, William had a brother named Hugh who married Janet Kilpatrick. They were sons of John Glasgow and Agnes Spark. Agnes Glasgow’s father was William Glasgow, and her mother was Margaret Montfodd/Montfort.\n\nWilliam’s mother, Agnes Glasgow, had three siblings: Grizell, Katherine, and Margaret Glasgow.\n\n== Sources ==\n<references/>\n* “Scotland Births and Baptisms, 1564-1950”, a database available on FamilySearch, where you can find William Glasgow’s christening record [https://www.familysearch.org/ark:/61903/1:1:XYZK-3JZ].\n* William Glasgow’s baptism record for the year 1701- \"Church of Scotland: Old Parish Registers - Births and Baptisms,\" database, National Records of Scotland, ([https://www.scotlandspeople.gov.uk/ ScotlandsPeople] : accessed 22 March 2023), William Glasgow born or baptised on 30 Nov 1700, son of John Glasgow & Agnas Spark, in Stevenston, Ayrshire, Scotland; citing Parish Number 615, Ref 10/3, Frame 11.\n* The baptism records for William’s sisters, Grizell Glasgow (1724), Agnes Glasgow (1725), Katherine Glasgow (1727), and Margaret Glasgow (1729), which can be found on ScotlandsPeople.gov.uk as well [https://www.scotlandspeople.gov.uk/], where you can search for births in Irvine parish.\n* The Wikitree page for William Glasgow and Margaret Montford/Monfodd, which includes additional information on the family [https://www.wikitree.com/wiki/Glasgow-812].\nSee also:\n* https://www.myheritage.com/names/agnas_snoddy\n* https://www.familysearch.org/ark:/61903/1:1:XBLC-4YB",
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "preservation_review_path": "research/ancestry-connections/irvine-dundonald-preservation-2026-10-21.json"
+    },
+    "Glasgow-1057": {
+      "queued_at": "2026-10-21",
+      "status": "OPEN",
+      "significance": 66,
+      "summary": "Possible father of the Dundonald William account,46%; probably overlapping an existing son account, not an additional proved son.",
+      "manual_update": true,
+      "draft_path": "research/Glasgow-1057/irvine-dundonald-ancestry-2026-10-21.wiki",
+      "preservation_review_path": "research/ancestry-connections/irvine-dundonald-preservation-2026-10-21.json",
+      "reviewed_narrative_reduction": true,
+      "preserve_captured_detail": false,
+      "relationship_changes": [
+        {
+          "action": "add",
+          "relationship": "child",
+          "status": "uncertain",
+          "relative_id": "Glasgow-4165",
+          "assertion_id": "C-working-20261016-calder-irvine-working-family-george-father"
+        },
+        {
+          "action": "add",
+          "relationship": "child",
+          "relative_id": "Glasgow-3586",
+          "status": "possible",
+          "probability_percent": 46,
+          "previous_status": "absent",
+          "assertion_id": "C-working-20261021-dundonald-john-father",
+          "scope": "Possible son account46%, probably overlaps William-1055; resolve identity before live attachment or merge."
+        }
+      ],
+      "profile_id": "Glasgow-1057",
+      "biography_rechecked_at": "2026-10-21",
+      "pending": true,
+      "work_queue_summary": "Possible father of the Dundonald William account,46%; probably overlapping an existing son account, not an additional proved son.",
+      "findings_path": "research/Glasgow-1057/findings.md",
+      "remote_wikitext": "== Biography ==  \n{{One Name Study|name=Glasgow}}\n\nJohn Glasgow was born before 1661. He was the son of [[Glasgow-1150|James Glasgow]] and [[Duncan-16106|Agnes Duncan]].<ref>Scotland, Births and Baptisms, 1564-1950. FamilySearch database. https://familysearch.org/ark:/61903/1:1:XTPZ-B5P (accessed 2025).</ref> He was baptized on 30 August 1661 at Edinburgh Parish, Edinburgh, Midlothian, Scotland.\n\nBaptism locations for their children suggest that John Glasgow and his wife [[Spark-330|Agnes Spark]] moved from Kilwinning parish to Stevenston parish sometime between 1687 and 1701.\n\nFrom Elaine Comes: \"[[Glasgow-1055|William Glasgow (abt.1701-)]] had a brother named [[Glasgow-1056|Hugh Glasgow (abt.1692-)]] who married [[Kilpatrick-1635|Janet (Kilpatrick) Glasgow]]. They were sons of [[Glasgow-1080|John Glasgow]] and [[Spark-330|Agnes (Spark) Glasgow]].\"\n\nFrom baptism records, they also had a son [[Glasgow-1058|George Glasgow (bef.1687-)]], baptized in Kilwinning.<ref>Scotland, Births and Baptisms, 1564-1950. FamilySearch database. https://www.familysearch.org/ark:/61903/1:1:XTVB-MX8 (accessed 2025).</ref>\n\n== Research Notes ==\n\n* John Glasgow's testament dative and inventory was recorded on 6 November 1685 in the Boog of Steivinstoun at the Glasgow Commissary Court (CC9/7/47).\n* He appears as the father in baptism records for George Glasgow in 1687 and William Glasgow in 1701, suggesting he lived well beyond 1685 despite the early testament listing.<ref>Scotland, Births and Baptisms, 1564-1950. FamilySearch database. https://familysearch.org/ark:/61903/1:1:XYZK-3J8 (accessed 2025).</ref>\n\n== Sources ==\n* John Glasgow, Testament Dative and Inventory, 6 Nov 1685, Boog of Steivinstoun, Glasgow Commissary Court (CC9/7/47).\n* Scotland, Births and Baptisms, 1564-1950, entry for George Glasgow, 1687. https://www.familysearch.org/ark:/61903/1:1:XTVB-MX8\n* Scotland, Births and Baptisms, 1564-1950, entry for Johne Glasgow, 1661. https://familysearch.org/ark:/61903/1:1:XTPZ-B5P\n* Scotland, Births and Baptisms, 1564-1950, entry for William Glasgow, 1701. https://familysearch.org/ark:/61903/1:1:XYZK-3J8\n\n<references />"
     }
   },
   "reviewed_on": "2026-10-21",

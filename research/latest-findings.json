@@ -34281,6 +34281,96 @@
         "research/ancestry-connections/documentary-people.json",
         "research/Glasgow-2682/findings.md"
       ]
+    },
+    {
+      "id": "dundonald-irvine-ancestry-20261021",
+      "found_on": "2026-10-21",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Prefer the Irvine father as the Dundonald weaver56%; select John-1057 as the Dundonald William’s new possible working father46%.",
+      "qualification": "No record names the Dundonald father’s own parents, connects the two adult households, or supplies an occupation for the Irvine father. William Glasgow-3288, baptised at Kilbirnie on20August1704, remains a compatible alternative. William Glasgow-1061, whose maintained transcript gives birth25June1715 and baptism26June1715 at Byres,Kilwinning, could have been a father at seventeen in1732; this is a weaker generation fit, not an exclusion. An unrepresented William remains possible. No wife’s death, remarriage, exact migration or craft inheritance is invented. Katherine’s1727 transcript names Mary Monfodd, while the other three Irvine entries name Margaret with Monfood/Montford/Montfod variants; this maternal distinction remains unresolved. The undated Mary Montfort marriage attached to William-1061 cannot identify the1727 mother merely by her name. No maternity is transferred from either William account. The two William profiles remain separate accounts, with no merge and no claim of two proved William sons. Jean’s existing father link stays ungraded. The1733 child’s selected father remains possible52%, and Barbara Stevenson’s maternity remains99%; neither is strengthened by this upstream hypothesis. Jean’s mother remains unknown. Barbara’s existing pairing with the Dundonald father is ungraded and does not establish a remarriage after the Irvine household. Preserve all vital fields and previously selected relatives. Resolve the possible duplicate before a live attachment or merger. This is one new possible father proposal based on reassessment of held transcripts and profile citations; no original parish register was newly inspected and no live edit is made.",
+      "people": [
+        {
+          "id": "Glasgow-3586",
+          "name": "William Glasgow, Dundonald weaver",
+          "role": "John Glasgow-1057 is the new possible father,46%, through possible identity with the Irvine William-1055,56%.",
+          "url": "/people/glasgow-3586.html"
+        },
+        {
+          "id": "Glasgow-1055",
+          "name": "William Glasgow, Irvine father account",
+          "role": "Preferred possible adult identity with the Dundonald weaver,56%; keep the1700-child identification and maternal-name distinction qualified.",
+          "url": "/people/glasgow-1055.html"
+        },
+        {
+          "id": "Glasgow-1057",
+          "name": "John Glasgow, Stevenston father account",
+          "role": "Possible father of the Dundonald William account,46%; probably overlapping an existing son account, not an additional proved son.",
+          "url": "/people/glasgow-1057.html"
+        },
+        {
+          "id": "Glasgow-4113",
+          "name": "Jean Glasgow, Dundonald 1732",
+          "role": "Existing father William-3586 remains ungraded; his selected upstream father is now John-1057,possible46%, through adult identity56%.",
+          "url": "/people/glasgow-4113.html"
+        },
+        {
+          "id": "Glasgow-4101",
+          "name": "William Glasgow, Dundonald 1733",
+          "role": "Father William-3586 stays possible52% and mother Barbara Stevenson99%; the father’s own proposed parent is John-1057,46%possible.",
+          "url": "/people/glasgow-4101.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Grizell Glasgow, 09 Aug 1724, Irvine; held Findmypast transcript",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3573951&tab=this"
+        },
+        {
+          "title": "Agnes Glasgow, 07 Dec 1725, Irvine; held Findmypast transcript",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3574073&tab=this"
+        },
+        {
+          "title": "Katherine Glasgow, 03 Sep 1727, Irvine; held Findmypast transcript",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3574234&tab=this"
+        },
+        {
+          "title": "Margaret Glasgow, 05 Jan 1729, Irvine; held Findmypast transcript",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3574367&tab=this"
+        },
+        {
+          "title": "Jean Glasgow, 01 Oct 1732, Dundonald; held Findmypast transcript",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3536699&tab=this"
+        },
+        {
+          "title": "James Richmond, Old Statistical Account, Irvine,vol7,p170 / PDFpage2; geography only",
+          "url": "https://stataccscot.ed.ac.uk/data/pdfs/account1/StAS.1.7.169.P.Ayrshire.Irvine.pdf#page=2"
+        }
+      ],
+      "detail_url": "/branches/early-scottish-records/#chapter-dundonald-irvine-ancestry",
+      "relationship_changes": [],
+      "working_parent_changes": [
+        {
+          "subject_id": "Glasgow-3586",
+          "relative_id": "Glasgow-1057",
+          "relationship": "father",
+          "action": "add",
+          "before": "absent",
+          "after": "possible",
+          "probability_percent": 46,
+          "assertion_id": "C-working-20261021-dundonald-john-father",
+          "saved_wikitree_father": 0,
+          "live_flag_changed": false
+        }
+      ],
+      "new_father_attachments": 1,
+      "certainty_upgrades": 0,
+      "new_source_discoveries": 0,
+      "new_transcript_inspections": 0,
+      "provenance": [
+        "research/relationship_assessments.json",
+        "research/Glasgow-3586/findings.md"
+      ]
     }
   ]
 }

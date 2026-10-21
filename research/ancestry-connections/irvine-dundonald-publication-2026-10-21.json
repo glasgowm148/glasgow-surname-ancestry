@@ -1,0 +1,605 @@
+{
+  "reviewed": "2026-10-21",
+  "subject": "Glasgow-3586",
+  "selected_father": "Glasgow-1057",
+  "probability_percent": 46,
+  "preferred_identity": {
+    "subject": "Glasgow-3586",
+    "candidate": "Glasgow-1055",
+    "percent": 56,
+    "status": "possible"
+  },
+  "new_local_father_attachments": 1,
+  "new_source_discoveries": 0,
+  "new_parish_original_inspections": 0,
+  "new_people": 0,
+  "identity_merges": 0,
+  "vitals_and_mothers_unchanged": true,
+  "all_other_model_parents_unchanged": true,
+  "five_full_drafts_preserved": true,
+  "existing_event_count": 4894,
+  "pending_update_count": 569,
+  "full_compact_filter_agreement": true,
+  "main_standalone_packed_verified": true,
+  "cohort_measurements": {
+    "1500": {
+      "working": {
+        "before": {
+          "edge_count": 2,
+          "component_count": 1,
+          "largest_component_size": 2,
+          "connected_pairs_percent": 100.0
+        },
+        "after": {
+          "edge_count": 2,
+          "component_count": 1,
+          "largest_component_size": 2,
+          "connected_pairs_percent": 100.0
+        }
+      },
+      "supported": {
+        "before": {
+          "edge_count": 0,
+          "component_count": 2,
+          "largest_component_size": 1,
+          "connected_pairs_percent": 0.0
+        },
+        "after": {
+          "edge_count": 0,
+          "component_count": 2,
+          "largest_component_size": 1,
+          "connected_pairs_percent": 0.0
+        }
+      },
+      "confident": {
+        "before": {
+          "edge_count": 0,
+          "component_count": 2,
+          "largest_component_size": 1,
+          "connected_pairs_percent": 0.0
+        },
+        "after": {
+          "edge_count": 0,
+          "component_count": 2,
+          "largest_component_size": 1,
+          "connected_pairs_percent": 0.0
+        }
+      }
+    },
+    "1550": {
+      "working": {
+        "before": {
+          "edge_count": 18,
+          "component_count": 2,
+          "largest_component_size": 18,
+          "connected_pairs_percent": 89.47368421052632
+        },
+        "after": {
+          "edge_count": 18,
+          "component_count": 2,
+          "largest_component_size": 18,
+          "connected_pairs_percent": 89.47368421052632
+        }
+      },
+      "supported": {
+        "before": {
+          "edge_count": 10,
+          "component_count": 9,
+          "largest_component_size": 9,
+          "connected_pairs_percent": 22.80701754385965
+        },
+        "after": {
+          "edge_count": 10,
+          "component_count": 9,
+          "largest_component_size": 9,
+          "connected_pairs_percent": 22.80701754385965
+        }
+      },
+      "confident": {
+        "before": {
+          "edge_count": 6,
+          "component_count": 13,
+          "largest_component_size": 4,
+          "connected_pairs_percent": 5.847953216374269
+        },
+        "after": {
+          "edge_count": 6,
+          "component_count": 13,
+          "largest_component_size": 4,
+          "connected_pairs_percent": 5.847953216374269
+        }
+      }
+    },
+    "1600": {
+      "working": {
+        "before": {
+          "edge_count": 49,
+          "component_count": 5,
+          "largest_component_size": 48,
+          "connected_pairs_percent": 85.06787330316742
+        },
+        "after": {
+          "edge_count": 49,
+          "component_count": 5,
+          "largest_component_size": 48,
+          "connected_pairs_percent": 85.06787330316742
+        }
+      },
+      "supported": {
+        "before": {
+          "edge_count": 22,
+          "component_count": 31,
+          "largest_component_size": 14,
+          "connected_pairs_percent": 8.069381598793363
+        },
+        "after": {
+          "edge_count": 22,
+          "component_count": 31,
+          "largest_component_size": 14,
+          "connected_pairs_percent": 8.069381598793363
+        }
+      },
+      "confident": {
+        "before": {
+          "edge_count": 17,
+          "component_count": 35,
+          "largest_component_size": 6,
+          "connected_pairs_percent": 3.092006033182504
+        },
+        "after": {
+          "edge_count": 17,
+          "component_count": 35,
+          "largest_component_size": 6,
+          "connected_pairs_percent": 3.092006033182504
+        }
+      }
+    },
+    "1650": {
+      "working": {
+        "before": {
+          "edge_count": 158,
+          "component_count": 8,
+          "largest_component_size": 157,
+          "connected_pairs_percent": 91.62052970222953
+        },
+        "after": {
+          "edge_count": 158,
+          "component_count": 8,
+          "largest_component_size": 157,
+          "connected_pairs_percent": 91.62052970222953
+        }
+      },
+      "supported": {
+        "before": {
+          "edge_count": 84,
+          "component_count": 81,
+          "largest_component_size": 40,
+          "connected_pairs_percent": 7.047733054017657
+        },
+        "after": {
+          "edge_count": 84,
+          "component_count": 81,
+          "largest_component_size": 40,
+          "connected_pairs_percent": 7.047733054017657
+        }
+      },
+      "confident": {
+        "before": {
+          "edge_count": 74,
+          "component_count": 90,
+          "largest_component_size": 21,
+          "connected_pairs_percent": 3.1048930121203053
+        },
+        "after": {
+          "edge_count": 74,
+          "component_count": 90,
+          "largest_component_size": 21,
+          "connected_pairs_percent": 3.1048930121203053
+        }
+      }
+    },
+    "1700": {
+      "working": {
+        "before": {
+          "edge_count": 287,
+          "component_count": 24,
+          "largest_component_size": 284,
+          "connected_pairs_percent": 84.4534106670029
+        },
+        "after": {
+          "edge_count": 287,
+          "component_count": 24,
+          "largest_component_size": 284,
+          "connected_pairs_percent": 84.4534106670029
+        }
+      },
+      "supported": {
+        "before": {
+          "edge_count": 145,
+          "component_count": 165,
+          "largest_component_size": 44,
+          "connected_pairs_percent": 3.028201571890892
+        },
+        "after": {
+          "edge_count": 145,
+          "component_count": 165,
+          "largest_component_size": 44,
+          "connected_pairs_percent": 3.028201571890892
+        }
+      },
+      "confident": {
+        "before": {
+          "edge_count": 130,
+          "component_count": 179,
+          "largest_component_size": 24,
+          "connected_pairs_percent": 1.4521077627873744
+        },
+        "after": {
+          "edge_count": 130,
+          "component_count": 179,
+          "largest_component_size": 24,
+          "connected_pairs_percent": 1.4521077627873744
+        }
+      }
+    },
+    "1750": {
+      "working": {
+        "before": {
+          "edge_count": 541,
+          "component_count": 54,
+          "largest_component_size": 531,
+          "connected_pairs_percent": 80.17239414794221
+        },
+        "after": {
+          "edge_count": 542,
+          "component_count": 53,
+          "largest_component_size": 534,
+          "connected_pairs_percent": 81.07994166172918
+        }
+      },
+      "supported": {
+        "before": {
+          "edge_count": 218,
+          "component_count": 376,
+          "largest_component_size": 49,
+          "connected_pairs_percent": 1.2545007064399982
+        },
+        "after": {
+          "edge_count": 218,
+          "component_count": 376,
+          "largest_component_size": 49,
+          "connected_pairs_percent": 1.2545007064399982
+        }
+      },
+      "confident": {
+        "before": {
+          "edge_count": 197,
+          "component_count": 396,
+          "largest_component_size": 29,
+          "connected_pairs_percent": 0.7035914497971834
+        },
+        "after": {
+          "edge_count": 197,
+          "component_count": 396,
+          "largest_component_size": 29,
+          "connected_pairs_percent": 0.7035914497971834
+        }
+      }
+    },
+    "1800": {
+      "working": {
+        "before": {
+          "edge_count": 771,
+          "component_count": 157,
+          "largest_component_size": 744,
+          "connected_pairs_percent": 64.54497694238515
+        },
+        "after": {
+          "edge_count": 772,
+          "component_count": 156,
+          "largest_component_size": 747,
+          "connected_pairs_percent": 65.06613741170976
+        }
+      },
+      "supported": {
+        "before": {
+          "edge_count": 275,
+          "component_count": 652,
+          "largest_component_size": 49,
+          "connected_pairs_percent": 0.654019029828965
+        },
+        "after": {
+          "edge_count": 275,
+          "component_count": 652,
+          "largest_component_size": 49,
+          "connected_pairs_percent": 0.654019029828965
+        }
+      },
+      "confident": {
+        "before": {
+          "edge_count": 244,
+          "component_count": 682,
+          "largest_component_size": 29,
+          "connected_pairs_percent": 0.3754596929542934
+        },
+        "after": {
+          "edge_count": 244,
+          "component_count": 682,
+          "largest_component_size": 29,
+          "connected_pairs_percent": 0.3754596929542934
+        }
+      }
+    },
+    "1850": {
+      "working": {
+        "before": {
+          "edge_count": 1395,
+          "component_count": 403,
+          "largest_component_size": 1146,
+          "connected_pairs_percent": 40.75841703320905
+        },
+        "after": {
+          "edge_count": 1396,
+          "component_count": 402,
+          "largest_component_size": 1149,
+          "connected_pairs_percent": 40.97170437555447
+        }
+      },
+      "supported": {
+        "before": {
+          "edge_count": 408,
+          "component_count": 1389,
+          "largest_component_size": 49,
+          "connected_pairs_percent": 0.22575702117363872
+        },
+        "after": {
+          "edge_count": 408,
+          "component_count": 1389,
+          "largest_component_size": 49,
+          "connected_pairs_percent": 0.22575702117363872
+        }
+      },
+      "confident": {
+        "before": {
+          "edge_count": 373,
+          "component_count": 1423,
+          "largest_component_size": 29,
+          "connected_pairs_percent": 0.1421295233604854
+        },
+        "after": {
+          "edge_count": 373,
+          "component_count": 1423,
+          "largest_component_size": 29,
+          "connected_pairs_percent": 0.1421295233604854
+        }
+      }
+    }
+  },
+  "fixed_cohort_measurements": {
+    "working": {
+      "before": {
+        "population": 1776,
+        "edge_count": 1385,
+        "component_count": 397,
+        "largest_component_size": 1133,
+        "largest_component_percent": 63.79504504504504,
+        "connected_pairs_percent": 40.74235503108743,
+        "edge_status_counts": {
+          "confident": 301,
+          "dna_confirmed": 1,
+          "possible": 25,
+          "probable": 31,
+          "proved": 44,
+          "strongly_supported": 23,
+          "uncertain": 167,
+          "unmarked": 793
+        },
+        "individual_confidence": {
+          "rated_edge_count": 184,
+          "unrated_edge_count": 1201,
+          "rated_edges_percent": 13.28519855595668,
+          "mean_percent": 55.88586956521739
+        },
+        "quality": {
+          "cycles": [],
+          "cycle_edges_excluded": 0,
+          "later_born_ancestors_excluded": [],
+          "undated_ancestors": []
+        },
+        "connector_ids": [
+          "Glasgow-4152",
+          "Glasgow-4157",
+          "Glasgow-4176",
+          "record-george-mureistoun-1586",
+          "record-john-glasgw-stirling-1475",
+          "record-william-glasgow-killycurragh-t1959"
+        ],
+        "unattached_multi_child_roots": 38,
+        "family_root_count": 47
+      },
+      "after": {
+        "population": 1776,
+        "edge_count": 1386,
+        "component_count": 396,
+        "largest_component_size": 1136,
+        "largest_component_percent": 63.96396396396396,
+        "connected_pairs_percent": 40.9580002537749,
+        "edge_status_counts": {
+          "confident": 301,
+          "dna_confirmed": 1,
+          "possible": 26,
+          "probable": 31,
+          "proved": 44,
+          "strongly_supported": 23,
+          "uncertain": 167,
+          "unmarked": 793
+        },
+        "individual_confidence": {
+          "rated_edge_count": 185,
+          "unrated_edge_count": 1201,
+          "rated_edges_percent": 13.347763347763347,
+          "mean_percent": 55.832432432432434
+        },
+        "quality": {
+          "cycles": [],
+          "cycle_edges_excluded": 0,
+          "later_born_ancestors_excluded": [],
+          "undated_ancestors": []
+        },
+        "connector_ids": [
+          "Glasgow-4152",
+          "Glasgow-4157",
+          "Glasgow-4176",
+          "record-george-mureistoun-1586",
+          "record-john-glasgw-stirling-1475",
+          "record-william-glasgow-killycurragh-t1959"
+        ],
+        "unattached_multi_child_roots": 37,
+        "family_root_count": 46
+      }
+    },
+    "supported": {
+      "before": {
+        "population": 1776,
+        "edge_count": 400,
+        "component_count": 1381,
+        "largest_component_size": 49,
+        "largest_component_percent": 2.759009009009009,
+        "connected_pairs_percent": 0.22325846973734298,
+        "edge_status_counts": {
+          "confident": 301,
+          "dna_confirmed": 1,
+          "probable": 31,
+          "proved": 44,
+          "strongly_supported": 23
+        },
+        "individual_confidence": {
+          "rated_edge_count": 84,
+          "unrated_edge_count": 316,
+          "rated_edges_percent": 21.0,
+          "mean_percent": 91.48809523809524
+        },
+        "quality": {
+          "cycles": [],
+          "cycle_edges_excluded": 0,
+          "later_born_ancestors_excluded": [],
+          "undated_ancestors": []
+        },
+        "connector_ids": [
+          "Glasgow-4152",
+          "Glasgow-4157",
+          "Glasgow-4176",
+          "record-george-mureistoun-1586",
+          "record-william-glasgow-killycurragh-t1959"
+        ],
+        "unattached_multi_child_roots": 43,
+        "family_root_count": 54
+      },
+      "after": {
+        "population": 1776,
+        "edge_count": 400,
+        "component_count": 1381,
+        "largest_component_size": 49,
+        "largest_component_percent": 2.759009009009009,
+        "connected_pairs_percent": 0.22325846973734298,
+        "edge_status_counts": {
+          "confident": 301,
+          "dna_confirmed": 1,
+          "probable": 31,
+          "proved": 44,
+          "strongly_supported": 23
+        },
+        "individual_confidence": {
+          "rated_edge_count": 84,
+          "unrated_edge_count": 316,
+          "rated_edges_percent": 21.0,
+          "mean_percent": 91.48809523809524
+        },
+        "quality": {
+          "cycles": [],
+          "cycle_edges_excluded": 0,
+          "later_born_ancestors_excluded": [],
+          "undated_ancestors": []
+        },
+        "connector_ids": [
+          "Glasgow-4152",
+          "Glasgow-4157",
+          "Glasgow-4176",
+          "record-george-mureistoun-1586",
+          "record-william-glasgow-killycurragh-t1959"
+        ],
+        "unattached_multi_child_roots": 43,
+        "family_root_count": 54
+      }
+    },
+    "confident": {
+      "before": {
+        "population": 1776,
+        "edge_count": 369,
+        "component_count": 1410,
+        "largest_component_size": 29,
+        "largest_component_percent": 1.632882882882883,
+        "connected_pairs_percent": 0.1445248064966375,
+        "edge_status_counts": {
+          "confident": 301,
+          "dna_confirmed": 1,
+          "proved": 44,
+          "strongly_supported": 23
+        },
+        "individual_confidence": {
+          "rated_edge_count": 56,
+          "unrated_edge_count": 313,
+          "rated_edges_percent": 15.176151761517616,
+          "mean_percent": 98.32142857142857
+        },
+        "quality": {
+          "cycles": [],
+          "cycle_edges_excluded": 0,
+          "later_born_ancestors_excluded": [],
+          "undated_ancestors": []
+        },
+        "connector_ids": [
+          "Glasgow-4152",
+          "Glasgow-4157",
+          "Glasgow-4176"
+        ],
+        "unattached_multi_child_roots": 50,
+        "family_root_count": 57
+      },
+      "after": {
+        "population": 1776,
+        "edge_count": 369,
+        "component_count": 1410,
+        "largest_component_size": 29,
+        "largest_component_percent": 1.632882882882883,
+        "connected_pairs_percent": 0.1445248064966375,
+        "edge_status_counts": {
+          "confident": 301,
+          "dna_confirmed": 1,
+          "proved": 44,
+          "strongly_supported": 23
+        },
+        "individual_confidence": {
+          "rated_edge_count": 56,
+          "unrated_edge_count": 313,
+          "rated_edges_percent": 15.176151761517616,
+          "mean_percent": 98.32142857142857
+        },
+        "quality": {
+          "cycles": [],
+          "cycle_edges_excluded": 0,
+          "later_born_ancestors_excluded": [],
+          "undated_ancestors": []
+        },
+        "connector_ids": [
+          "Glasgow-4152",
+          "Glasgow-4157",
+          "Glasgow-4176"
+        ],
+        "unattached_multi_child_roots": 50,
+        "family_root_count": 57
+      }
+    }
+  },
+  "scope": "Working profile connectivity only. Two William accounts may represent one adult; this is not proof of distinct brothers or a confident pedigree. Existing child father52% and mother99% unchanged."
+}

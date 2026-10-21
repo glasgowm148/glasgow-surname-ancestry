@@ -2616,3 +2616,12 @@ Burial-defined Walter remains on source-verification HOLD in the existing creati
 | [James Glasgow, 1696 apothecary apprentice](https://www.wikitree.com/wiki/Glasgow-4114) | OPEN | Selected household father James-2682 remains probable82%, mother Duffe-18 probable72%, brother comparison79%; proposed grandfather Robert61% depends on the father’s older-weaver identity70%. |
 | [Thomas Glasgow, 1699 youngest-son apprentice](https://www.wikitree.com/wiki/Glasgow-3285) | OPEN | The maintained Duffe household and youngest-son identification are unchanged; its father probably represents the older1641/1649 weaver70%, with a conditional Robert father61%. |
 | [Isobell/Elizabeth Duffe](https://www.wikitree.com/wiki/Duffe-18) | OPEN | The qualified Duffe maternal household and apprentice motherhood72% are unchanged; the husband probably represents the older1641/1649 weaver70%, without transferring this woman to his earlier children. |
+
+
+## 21 October 2026 — Irvine–Dundonald possible ancestry
+
+| [William Glasgow, Dundonald weaver](https://www.wikitree.com/wiki/Glasgow-3586) | OPEN | John Glasgow-1057 is the new possible father,46%, through possible identity with the Irvine William-1055,56%. |
+| [William Glasgow, Irvine father account](https://www.wikitree.com/wiki/Glasgow-1055) | OPEN | Preferred possible adult identity with the Dundonald weaver,56%; keep the1700-child identification and maternal-name distinction qualified. |
+| [John Glasgow, Stevenston father account](https://www.wikitree.com/wiki/Glasgow-1057) | OPEN | Possible father of the Dundonald William account,46%; probably overlapping an existing son account, not an additional proved son. |
+| [Jean Glasgow, Dundonald 1732](https://www.wikitree.com/wiki/Glasgow-4113) | OPEN | Existing father William-3586 remains ungraded; his selected upstream father is now John-1057,possible46%, through adult identity56%. |
+| [William Glasgow, Dundonald 1733](https://www.wikitree.com/wiki/Glasgow-4101) | OPEN | Father William-3586 stays possible52% and mother Barbara Stevenson99%; the father’s own proposed parent is John-1057,46%possible. |

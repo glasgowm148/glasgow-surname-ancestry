@@ -2,6 +2,20 @@
 
 ## Current conclusion
 
+Reviewed: 2026-10-21. **Father William-3586 stays possible52% and mother Barbara Stevenson99%; the father’s own proposed parent is John-1057,46%possible.**
+
+Father William-3586 stays possible52% and mother Barbara Stevenson99%; the father’s own proposed parent is John-1057,46%possible.
+
+The two William profiles remain separate accounts, with no merge and no claim of two proved William sons. Jean’s existing father link stays ungraded. The1733 child’s selected father remains possible52%, and Barbara Stevenson’s maternity remains99%; neither is strengthened by this upstream hypothesis. Jean’s mother remains unknown. Barbara’s existing pairing with the Dundonald father is ungraded and does not establish a remarriage after the Irvine household. Preserve all vital fields and previously selected relatives. Resolve the possible duplicate before a live attachment or merger. This is one new possible father proposal based on reassessment of held transcripts and profile citations; no original parish register was newly inspected and no live edit is made.
+
+[Shared identity and ancestry comparison](/branches/early-scottish-records/#chapter-dundonald-irvine-ancestry).
+
+## Previous source findings
+
+Earlier statements leaving the upstream father unselected are superseded by the current possible46% choice; other relationship grades remain unchanged.
+
+### Earlier conclusion — superseded only on the upstream question
+
 Reviewed 21 October 2026. New confident mother Barbara Stevenson, 99%; new possible father William the Dundonald weaver, 52%.
 
 [Barbara Stevenson (Stevenson-14560)](/people/stevenson-14560.html) is the confidently identified mother of [William Glasgow (Glasgow-4101)](/people/glasgow-4101.html), assessed at 99% subjective confidence. His retained Findmypast transcript records a Dundonald baptism on 12 June 1733 and explicitly names Barbara Stevenson as mother (OPR 590/1, item 3, p.82; SCOT/OPR/BAP/3536725). Barbara’s existing WikiTree account identifies which modern profile represents this recorded mother: its sole citation is the FamilySearch presentation of this same 1733 child, XYZB-Z9Z. The two indexes represent one underlying register, not independent historical corroboration. This is a new outstanding mother attachment to an already existing profile, not a newly discovered baptism or a new person. Select [William Glasgow (Glasgow-3586)](/people/glasgow-3586.html), the weaver at Achenyeards named as Jean’s father in the 1 October 1732 Dundonald baptism, as [William Glasgow (Glasgow-4101)](/people/glasgow-4101.html)’s possible father at 52% subjective confidence. The specific existing local household offers a more useful working placement than leaving the 1733 child isolated: the children share the uncommon surname and parish, their entries occur on nearby pages of the same register, and the boy’s William name agrees with the proposed father. The existing father account is already paired with Barbara Stevenson, the boy’s named mother, but that tree pairing has not been traced to an independent marriage or full-parent entry and is not counted as additional proof. The whole father proposition remains an indirect household reconstruction.
@@ -125,3 +139,17 @@ Select [William Glasgow (Glasgow-3586)](/people/glasgow-3586.html), the weaver a
 The 1733 transcript has no father field or residence; absence from a transcript does not establish what the manuscript contains or prove illegitimacy. The 1732 transcript names William, weaver at Achenyeards, but no mother. Their baptisms are only 254 days apart, about eight and a half months: close spacing weakens a routine successive-infant-birth interpretation, while unknown birth dates and possible delayed baptism leave the proposed siblings compatible. Do not manufacture birth dates to resolve it. Another Glasgow father, a different Barbara Stevenson, and two separate local families remain alternatives. Barbara’s identification with her own 1733 citation is strong; the adult couple and cross-child father assignment are separate inferences. No mother is assigned to Jean, no full-sibling claim is made, and the existing ungraded Jean-to-William father relationship is unchanged. The earlier Ayrshire William accounts [Glasgow-1055](/people/glasgow-1055.html), [Glasgow-3288](/people/glasgow-3288.html) and [Glasgow-1061](/people/glasgow-1061.html) remain compatible wider comparisons; estimated ages or missing family details do not exclude them. No record links this father to any of their birth families, so no upstream father is selected. No later newspaper, maritime or American identity is inferred for the child. Exact percentages are individual judgments, not measured frequencies. Original register images were not newly inspected and no live WikiTree edit is made.
 
 [Findmypast retained transcript: William, 12 June 1733, Dundonald OPR590/1 item3 p.82; mother Barbara Stevenson; father field absent](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3536725&tab=this); [FamilySearch XYZB-Z9Z: the same 1733 baptism cited by Barbara’s existing profile; citation reused, record page not newly inspected](https://www.familysearch.org/ark:/61903/1:1:XYZB-Z9Z); [Findmypast retained transcript: Jean, 1 October 1732, Dundonald OPR590/1 item3 p.80; father William, weaver, Achenyeards; mother absent](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3536699&tab=this).
+
+
+## Irvine–Dundonald source comparison — 21 October 2026
+
+James Richmond’s Irvine account in the Old Statistical Account,volume7,printedpp169–170 (PDFpages1–2), describes the part of the settlement south of the river as belonging to Dundonald parish. The inspected printed page supports close geographical context, not this man’s residence in that part of Irvine or an individual migration in1732.
+
+- [Grizell Glasgow, 09 Aug 1724, Irvine; held Findmypast transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3573951&tab=this)
+- [Agnes Glasgow, 07 Dec 1725, Irvine; held Findmypast transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3574073&tab=this)
+- [Katherine Glasgow, 03 Sep 1727, Irvine; held Findmypast transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3574234&tab=this)
+- [Margaret Glasgow, 05 Jan 1729, Irvine; held Findmypast transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3574367&tab=this)
+- [Jean Glasgow, 01 Oct 1732, Dundonald; held Findmypast transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3536699&tab=this)
+- [James Richmond, Old Statistical Account, Irvine,vol7,p170 / PDFpage2; geography only](https://stataccscot.ed.ac.uk/data/pdfs/account1/StAS.1.7.169.P.Ayrshire.Irvine.pdf#page=2)
+
+Inspect the original Irvine1724–1729 and Dundonald1732–1733 entries for the father’s occupation, residence and witnesses, and compare the Stevenston1700 entry with the adult’s later household. Seek a marriage, tenancy or kirk-session record distinguishing the Irvine father from William-3288 and William-1061. Test Mary versus Margaret independently; do not create a wife’s death to explain a later pairing.

@@ -16590,7 +16590,7 @@
     "allow_new_relationship": true,
     "assessment_date": "2026-10-21",
     "basis": "Select William Glasgow-3586, the weaver at Achenyeards named as Jean’s father in the 1 October 1732 Dundonald baptism, as William Glasgow-4101’s possible father at 52% subjective confidence. The specific existing local household offers a more useful working placement than leaving the 1733 child isolated: the children share the uncommon surname and parish, their entries occur on nearby pages of the same register, and the boy’s William name agrees with the proposed father. The existing father account is already paired with Barbara Stevenson, the boy’s named mother, but that tree pairing has not been traced to an independent marriage or full-parent entry and is not counted as additional proof. The whole father proposition remains an indirect household reconstruction.",
-    "limitations": "The 1733 transcript has no father field or residence; absence from a transcript does not establish what the manuscript contains or prove illegitimacy. The 1732 transcript names William, weaver at Achenyeards, but no mother. Their baptisms are only 254 days apart, about eight and a half months: close spacing weakens a routine successive-infant-birth interpretation, while unknown birth dates and possible delayed baptism leave the proposed siblings compatible. Do not manufacture birth dates to resolve it. Another Glasgow father, a different Barbara Stevenson, and two separate local families remain alternatives. Barbara’s identification with her own 1733 citation is strong; the adult couple and cross-child father assignment are separate inferences. No mother is assigned to Jean, no full-sibling claim is made, and the existing ungraded Jean-to-William father relationship is unchanged. The earlier Ayrshire William accounts Glasgow-1055, Glasgow-3288 and Glasgow-1061 remain compatible wider comparisons; estimated ages or missing family details do not exclude them. No record links this father to any of their birth families, so no upstream father is selected. No later newspaper, maritime or American identity is inferred for the child. Exact percentages are individual judgments, not measured frequencies. Original register images were not newly inspected and no live WikiTree edit is made.",
+    "limitations": "Upstream review21October2026: the household father now has John-1057 as possible father46%, through Irvine adult identity56%. Earlier unknown-upstream wording below is superseded only on that point. The 1733 transcript has no father field or residence; absence from a transcript does not establish what the manuscript contains or prove illegitimacy. The 1732 transcript names William, weaver at Achenyeards, but no mother. Their baptisms are only 254 days apart, about eight and a half months: close spacing weakens a routine successive-infant-birth interpretation, while unknown birth dates and possible delayed baptism leave the proposed siblings compatible. Do not manufacture birth dates to resolve it. Another Glasgow father, a different Barbara Stevenson, and two separate local families remain alternatives. Barbara’s identification with her own 1733 citation is strong; the adult couple and cross-child father assignment are separate inferences. No mother is assigned to Jean, no full-sibling claim is made, and the existing ungraded Jean-to-William father relationship is unchanged. The earlier Ayrshire William accounts Glasgow-1055, Glasgow-3288 and Glasgow-1061 remain compatible wider comparisons; estimated ages or missing family details do not exclude them. No record links this father to any of their birth families, so no upstream father is selected. No later newspaper, maritime or American identity is inferred for the child. Exact percentages are individual judgments, not measured frequencies. Original register images were not newly inspected and no live WikiTree edit is made.",
     "source_ids": [
       "fmp-glasgow-033cb073721c",
       "fmp-glasgow-54571dfc429a"
@@ -16615,7 +16615,14 @@
       "prior_status": "Anonymous public capture 21 October 2026: child Father=0,Mother=0; previous local dossier had no parents.",
       "scope": "New local attachment to existing public historical profile; no live save and no new source discovery.",
       "live_flag_changed": false
-    }
+    },
+    "assessment_history": [
+      {
+        "reviewed": "2026-10-21",
+        "previous_limitations": "The 1733 transcript has no father field or residence; absence from a transcript does not establish what the manuscript contains or prove illegitimacy. The 1732 transcript names William, weaver at Achenyeards, but no mother. Their baptisms are only 254 days apart, about eight and a half months: close spacing weakens a routine successive-infant-birth interpretation, while unknown birth dates and possible delayed baptism leave the proposed siblings compatible. Do not manufacture birth dates to resolve it. Another Glasgow father, a different Barbara Stevenson, and two separate local families remain alternatives. Barbara’s identification with her own 1733 citation is strong; the adult couple and cross-child father assignment are separate inferences. No mother is assigned to Jean, no full-sibling claim is made, and the existing ungraded Jean-to-William father relationship is unchanged. The earlier Ayrshire William accounts Glasgow-1055, Glasgow-3288 and Glasgow-1061 remain compatible wider comparisons; estimated ages or missing family details do not exclude them. No record links this father to any of their birth families, so no upstream father is selected. No later newspaper, maritime or American identity is inferred for the child. Exact percentages are individual judgments, not measured frequencies. Original register images were not newly inspected and no live WikiTree edit is made.",
+        "reason": "Upstream father hypothesis selected; child father52% and maternal99% unchanged."
+      }
+    ]
   },
   {
     "assertion_id": "C-reviewed-20261021-dundonald-william-mother",
@@ -17683,6 +17690,86 @@
         "inspected": "Printed abstract page image",
         "original_manuscript_inspected": false
       }
+    }
+  },
+  {
+    "assertion_id": "C-working-20261021-dundonald-john-father",
+    "people": [
+      "Glasgow-3586",
+      "Glasgow-1057"
+    ],
+    "profile_names": {
+      "Glasgow-3586": "William Glasgow, Dundonald weaver",
+      "Glasgow-1055": "William Glasgow, Irvine father account",
+      "Glasgow-1057": "John Glasgow, Stevenston father account",
+      "Glasgow-4113": "Jean Glasgow, Dundonald 1732",
+      "Glasgow-4101": "William Glasgow, Dundonald 1733"
+    },
+    "status": "possible",
+    "hypothesis_status": "possible",
+    "publication_status": "approved",
+    "working_selection": true,
+    "allow_new_relationship": true,
+    "assessment_date": "2026-10-21",
+    "claim": "John-1057 is the possible father of the Dundonald William-3586,46%",
+    "basis": "Prefer the Irvine father account William Glasgow-1055 as the same adult as the Dundonald weaver William Glasgow-3586, at 56% subjective identity confidence. The Irvine entries name Wm or William as father of Grizell in 1724, Agnes in 1725, Katherine in 1727 and Margaret in 1729. The Dundonald entry names William Glasgow, weaver at Achenyeards, as Jean’s father on 1 October 1732. An existing adult household in the adjoining Irvine parish followed by the 1732 Dundonald household is a specific chronological and local fit, and is preferred to matching an otherwise untraced childhood profile alone. This is an inferred adult identity: the Irvine transcripts do not state the father’s trade or Achenyeards residence. Select John Glasgow-1057 as the Dundonald William’s possible working father at 46%. This is an assessment of the complete father proposition, including both the 56% adult identity and the further identification of the Irvine adult with the Stevenston child cited as born or baptised on 30 November 1700 to John Glasgow and Agnas Spark (OPR615,10/3,frame11). The current William-1055 account estimates 1701; the citation and estimate are not silently harmonised. John-1057 is the existing account for that named parent. Its separate identification with an Edinburgh child baptised in1661, and its own earlier ancestry, retain their existing qualifications. The percentages are individual judgments, not measured frequencies or independent values to multiply.",
+    "limitations": "No record names the Dundonald father’s own parents, connects the two adult households, or supplies an occupation for the Irvine father. William Glasgow-3288, baptised at Kilbirnie on20August1704, remains a compatible alternative. William Glasgow-1061, whose maintained transcript gives birth25June1715 and baptism26June1715 at Byres,Kilwinning, could have been a father at seventeen in1732; this is a weaker generation fit, not an exclusion. An unrepresented William remains possible. No wife’s death, remarriage, exact migration or craft inheritance is invented. Katherine’s1727 transcript names Mary Monfodd, while the other three Irvine entries name Margaret with Monfood/Montford/Montfod variants; this maternal distinction remains unresolved. The undated Mary Montfort marriage attached to William-1061 cannot identify the1727 mother merely by her name. No maternity is transferred from either William account. The two William profiles remain separate accounts, with no merge and no claim of two proved William sons. Jean’s existing father link stays ungraded. The1733 child’s selected father remains possible52%, and Barbara Stevenson’s maternity remains99%; neither is strengthened by this upstream hypothesis. Jean’s mother remains unknown. Barbara’s existing pairing with the Dundonald father is ungraded and does not establish a remarriage after the Irvine household. Preserve all vital fields and previously selected relatives. Resolve the possible duplicate before a live attachment or merger. This is one new possible father proposal based on reassessment of held transcripts and profile citations; no original parish register was newly inspected and no live edit is made.",
+    "source_ids": [
+      "fmp-glasgow-c3671369d3b0",
+      "fmp-glasgow-4818db15decd",
+      "fmp-glasgow-c3ca9b117e36",
+      "fmp-glasgow-9ba0aacd6507",
+      "fmp-glasgow-54571dfc429a"
+    ],
+    "identity_assessment": {
+      "subject_id": "Glasgow-3586",
+      "candidate_id": "Glasgow-1055",
+      "status": "possible",
+      "percent": 56,
+      "selected": true,
+      "basis": "Prefer the Irvine father account William Glasgow-1055 as the same adult as the Dundonald weaver William Glasgow-3586, at 56% subjective identity confidence. The Irvine entries name Wm or William as father of Grizell in 1724, Agnes in 1725, Katherine in 1727 and Margaret in 1729. The Dundonald entry names William Glasgow, weaver at Achenyeards, as Jean’s father on 1 October 1732. An existing adult household in the adjoining Irvine parish followed by the 1732 Dundonald household is a specific chronological and local fit, and is preferred to matching an otherwise untraced childhood profile alone. This is an inferred adult identity: the Irvine transcripts do not state the father’s trade or Achenyeards residence.",
+      "limitations": "No record names the Dundonald father’s own parents, connects the two adult households, or supplies an occupation for the Irvine father. William Glasgow-3288, baptised at Kilbirnie on20August1704, remains a compatible alternative. William Glasgow-1061, whose maintained transcript gives birth25June1715 and baptism26June1715 at Byres,Kilwinning, could have been a father at seventeen in1732; this is a weaker generation fit, not an exclusion. An unrepresented William remains possible. No wife’s death, remarriage, exact migration or craft inheritance is invented. Katherine’s1727 transcript names Mary Monfodd, while the other three Irvine entries name Margaret with Monfood/Montford/Montfod variants; this maternal distinction remains unresolved. The undated Mary Montfort marriage attached to William-1061 cannot identify the1727 mother merely by her name. No maternity is transferred from either William account."
+    },
+    "perspectives": {
+      "Glasgow-3586": {
+        "relationship": "father",
+        "reason": "Select John Glasgow-1057 as the Dundonald William’s possible working father at 46%. This is an assessment of the complete father proposition, including both the 56% adult identity and the further identification of the Irvine adult with the Stevenston child cited as born or baptised on 30 November 1700 to John Glasgow and Agnas Spark (OPR615,10/3,frame11). The current William-1055 account estimates 1701; the citation and estimate are not silently harmonised. John-1057 is the existing account for that named parent. Its separate identification with an Edinburgh child baptised in1661, and its own earlier ancestry, retain their existing qualifications. The percentages are individual judgments, not measured frequencies or independent values to multiply. Prefer the Irvine father account William Glasgow-1055 as the same adult as the Dundonald weaver William Glasgow-3586, at 56% subjective identity confidence. The Irvine entries name Wm or William as father of Grizell in 1724, Agnes in 1725, Katherine in 1727 and Margaret in 1729. The Dundonald entry names William Glasgow, weaver at Achenyeards, as Jean’s father on 1 October 1732. An existing adult household in the adjoining Irvine parish followed by the 1732 Dundonald household is a specific chronological and local fit, and is preferred to matching an otherwise untraced childhood profile alone. This is an inferred adult identity: the Irvine transcripts do not state the father’s trade or Achenyeards residence. No record names the Dundonald father’s own parents, connects the two adult households, or supplies an occupation for the Irvine father. William Glasgow-3288, baptised at Kilbirnie on20August1704, remains a compatible alternative. William Glasgow-1061, whose maintained transcript gives birth25June1715 and baptism26June1715 at Byres,Kilwinning, could have been a father at seventeen in1732; this is a weaker generation fit, not an exclusion. An unrepresented William remains possible. No wife’s death, remarriage, exact migration or craft inheritance is invented. Katherine’s1727 transcript names Mary Monfodd, while the other three Irvine entries name Margaret with Monfood/Montford/Montfod variants; this maternal distinction remains unresolved. The undated Mary Montfort marriage attached to William-1061 cannot identify the1727 mother merely by her name. No maternity is transferred from either William account."
+      },
+      "Glasgow-1057": {
+        "relationship": "son",
+        "reason": "Select John Glasgow-1057 as the Dundonald William’s possible working father at 46%. This is an assessment of the complete father proposition, including both the 56% adult identity and the further identification of the Irvine adult with the Stevenston child cited as born or baptised on 30 November 1700 to John Glasgow and Agnas Spark (OPR615,10/3,frame11). The current William-1055 account estimates 1701; the citation and estimate are not silently harmonised. John-1057 is the existing account for that named parent. Its separate identification with an Edinburgh child baptised in1661, and its own earlier ancestry, retain their existing qualifications. The percentages are individual judgments, not measured frequencies or independent values to multiply. The two William profiles remain separate accounts, with no merge and no claim of two proved William sons. Jean’s existing father link stays ungraded. The1733 child’s selected father remains possible52%, and Barbara Stevenson’s maternity remains99%; neither is strengthened by this upstream hypothesis. Jean’s mother remains unknown. Barbara’s existing pairing with the Dundonald father is ungraded and does not establish a remarriage after the Irvine household. Preserve all vital fields and previously selected relatives. Resolve the possible duplicate before a live attachment or merger. This is one new possible father proposal based on reassessment of held transcripts and profile citations; no original parish register was newly inspected and no live edit is made."
+      }
+    },
+    "probability": {
+      "value": 0.46,
+      "basis": "Prefer the Irvine father account William Glasgow-1055 as the same adult as the Dundonald weaver William Glasgow-3586, at 56% subjective identity confidence. The Irvine entries name Wm or William as father of Grizell in 1724, Agnes in 1725, Katherine in 1727 and Margaret in 1729. The Dundonald entry names William Glasgow, weaver at Achenyeards, as Jean’s father on 1 October 1732. An existing adult household in the adjoining Irvine parish followed by the 1732 Dundonald household is a specific chronological and local fit, and is preferred to matching an otherwise untraced childhood profile alone. This is an inferred adult identity: the Irvine transcripts do not state the father’s trade or Achenyeards residence. Select John Glasgow-1057 as the Dundonald William’s possible working father at 46%. This is an assessment of the complete father proposition, including both the 56% adult identity and the further identification of the Irvine adult with the Stevenston child cited as born or baptised on 30 November 1700 to John Glasgow and Agnas Spark (OPR615,10/3,frame11). The current William-1055 account estimates 1701; the citation and estimate are not silently harmonised. John-1057 is the existing account for that named parent. Its separate identification with an Edinburgh child baptised in1661, and its own earlier ancestry, retain their existing qualifications. The percentages are individual judgments, not measured frequencies or independent values to multiply.",
+      "reviewed": "2026-10-21",
+      "source_ids": [
+        "fmp-glasgow-c3671369d3b0",
+        "fmp-glasgow-4818db15decd",
+        "fmp-glasgow-c3ca9b117e36",
+        "fmp-glasgow-9ba0aacd6507",
+        "fmp-glasgow-54571dfc429a"
+      ],
+      "scope": "Whole father proposition, not a conditional percentage. No record names the Dundonald father’s own parents, connects the two adult households, or supplies an occupation for the Irvine father. William Glasgow-3288, baptised at Kilbirnie on20August1704, remains a compatible alternative. William Glasgow-1061, whose maintained transcript gives birth25June1715 and baptism26June1715 at Byres,Kilwinning, could have been a father at seventeen in1732; this is a weaker generation fit, not an exclusion. An unrepresented William remains possible. No wife’s death, remarriage, exact migration or craft inheritance is invented. Katherine’s1727 transcript names Mary Monfodd, while the other three Irvine entries name Margaret with Monfood/Montford/Montfod variants; this maternal distinction remains unresolved. The undated Mary Montfort marriage attached to William-1061 cannot identify the1727 mother merely by her name. No maternity is transferred from either William account."
+    },
+    "analysis_links": [
+      {
+        "label": "Irvine and Dundonald: a possible shared William household",
+        "href": "/branches/early-scottish-records/#chapter-dundonald-irvine-ancestry"
+      }
+    ],
+    "provenance": {
+      "review_scope": "Held evidence comparison and independent identity review; no new original parish inspection",
+      "prior_status": "No local parent and live Father=0,Mother=0,21October2026",
+      "live_flag_changed": false,
+      "held_parent_citation": {
+        "subject_id": "Glasgow-1055",
+        "reference": "Stevenston OPR615,10/3,frame11;30November1700",
+        "source_url": "https://www.familysearch.org/ark:/61903/1:1:XYZK-3JZ",
+        "inspection_status": "Previously quoted profile citation; original uninspected"
+      },
+      "reviewed_identity_percent": 56
     }
   }
 ]
