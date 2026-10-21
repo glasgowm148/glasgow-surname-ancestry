@@ -598,8 +598,10 @@ def apply_public_families(people: list[dict], site_root: Path, cutoff: int = 185
             continue
         row = current[0]
         assessment = approved.get(row.get('assertion_id'))
-        new_attachment = not before
-        if (not assessment or (before and row.get('id') != before[0].get('id'))
+        missing_identity = (len(before) == 1 and not before[0].get('id')
+                            and repairable_parent(before[0], row.get('id'), []))
+        new_attachment = not before or missing_identity
+        if (not assessment or (before and not missing_identity and row.get('id') != before[0].get('id'))
                 or ident not in assessment.get('people', [])
                 or row.get('id') not in assessment.get('people', [])
                 or assessment.get('perspectives', {}).get(ident, {}).get('relationship') != 'mother'):
@@ -622,7 +624,7 @@ def apply_public_families(people: list[dict], site_root: Path, cutoff: int = 185
         after = parent_row(row)
         if new_attachment or before[0].get('status') != after['status']:
             maternal_changed.append(ident)
-        if new_attachment:
+        if not before:
             person.setdefault('parents', []).append(after)
         else:
             person['parents'] = [after if r is before[0] else r for r in person['parents']]

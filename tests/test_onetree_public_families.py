@@ -41,6 +41,29 @@ class PublicFamiliesTests(unittest.TestCase):
                     perspectives={'Child-1': {'relationship': 'father'},
                                   'Father-1': {'relationship': 'son'}})
 
+    def test_reviewed_mother_fills_export_placeholder_but_preserves_private_parent(self):
+        assessment = dict(assertion_id='A-mother', publication_status='approved',
+                          allow_new_relationship=True, source_ids=['Baptism-1'],
+                          basis='Named mother in baptism', people=['Child-1', 'Mother-1'],
+                          perspectives={'Child-1': {'relationship': 'mother'}})
+        families = {'Child-1': [dict(id='Mother-1', relationship='mother', status='proved',
+                                     assertion_id='A-mother')], 'Mother-1': []}
+        placeholder = dict(id='', role='mother', status='unmarked',
+                           name='Parent outside current One-Tree export', inModel=False)
+        people = [dict(id='Child-1', parents=[copy.deepcopy(placeholder)])]
+        self.run_sync(people, families, assessments=[assessment])
+        self.assertEqual(people[0]['parents'][0]['id'], 'Mother-1')
+        self.assertEqual(len(people[0]['parents']), 1)
+        for protected in [dict(placeholder, withheld=True),
+                          dict(placeholder, id='Other-1'),
+                          dict(placeholder, status='non-biological')]:
+            people = [dict(id='Child-1', parents=[copy.deepcopy(protected)])]
+            self.run_sync(people, families, assessments=[assessment])
+            self.assertEqual(people[0]['parents'], [protected])
+        people = [dict(id='Child-1', parents=[copy.deepcopy(placeholder)])]
+        self.run_sync(people, families, assessments=[dict(assessment, allow_new_relationship=False)])
+        self.assertEqual(people[0]['parents'], [placeholder])
+
     def test_missing_historical_endpoints_are_seeded_before_working_validation(self):
         people = []
         families = {'Child-1': [dict(id='Father-1', relationship='father', status='possible')],

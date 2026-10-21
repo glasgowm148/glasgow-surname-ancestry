@@ -5,7 +5,7 @@ from copy import deepcopy
 import json
 from pathlib import Path
 
-from tools.captured_parent_aliases import apply_parent_identity_repairs
+from tools.captured_parent_aliases import apply_parent_identity_repairs, repairable_parent
 
 
 WORKING_PERSON_FIELDS = (
@@ -76,8 +76,11 @@ def overlay_model(retained: dict, fresh: dict) -> dict:
             edge['parent'] = aliases[edge['parent']]
     mother_ids = set(fresh['meta'].get('workingMotherIds', []))
     for child, mothers in maternal_scope.items():
-        recorded = [r.get('id') for r in existing.get(child, {}).get('parents', []) if r.get('role') == 'mother']
-        mother_ids |= {mother for mother in mothers if not recorded or mother in recorded}
+        recorded = [r for r in existing.get(child, {}).get('parents', []) if r.get('role') == 'mother']
+        mother_ids |= {mother for mother in mothers if not recorded
+                       or any(r.get('id') == mother for r in recorded)
+                       or (len(recorded) == 1 and not recorded[0].get('id')
+                           and repairable_parent(recorded[0], mother, []))}
     for mother in mother_ids:
         if mother in incoming and mother not in existing:
             existing[mother] = deepcopy(incoming[mother])
@@ -115,8 +118,11 @@ def overlay_model(retained: dict, fresh: dict) -> dict:
                         # explicit sourced approval for a new maternal link.
                         existing[ident]['parents'].insert(0, deepcopy(rows[0]))
                     else:
+                        recorded = [r for r in existing[ident]['parents'] if r.get('role') == 'mother']
+                        missing_identity = (len(recorded) == 1 and not recorded[0].get('id')
+                                            and repairable_parent(recorded[0], mother, []))
                         existing[ident]['parents'] = [deepcopy(rows[0])
-                            if r.get('role') == 'mother' and r.get('id') == mother else r
+                            if r.get('role') == 'mother' and (r.get('id') == mother or missing_identity) else r
                             for r in existing[ident]['parents']]
             for key in ('priorPublishedFathers', 'publicFamilySource', 'publicFatherAlternatives'):
                 if key in incoming[ident]:

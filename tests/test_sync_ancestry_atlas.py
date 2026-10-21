@@ -76,6 +76,30 @@ class AtlasWorkingTests(unittest.TestCase):
         self.assertEqual(protected['people'][1]['parents'][0]['id'], 'OtherMother-1')
         self.assertNotIn('Mother-1', {p['id'] for p in protected['people']})
 
+    def test_scoped_mother_fills_only_an_unidentified_export_placeholder(self):
+        placeholder = dict(id='', name='Parent outside current One-Tree export',
+                           role='mother', status='unmarked')
+        old = {'meta': {}, 'landmarks': [], 'sections': [], 'people': [
+            {'id': '@smaller-families', 'kind': 'group'},
+            {'id': 'Child-1', 'kind': 'person', 'parents': [deepcopy(placeholder)]}]}
+        fresh = deepcopy(old)
+        mother = dict(id='Mother-1', role='mother', status='proved')
+        fresh['meta'].update(date='2026-10-21', publicFamilyScopeIds=['Child-1'],
+                             publicMotherGradeScope={'Child-1': ['Mother-1']})
+        fresh['people'][1]['parents'] = [mother]
+        fresh['people'].append(dict(id='Mother-1', kind='person', parents=[],
+                                   childrenRecorded=[{'id': 'Child-1'}]))
+        out = overlay_model(old, fresh)
+        self.assertEqual(next(p for p in out['people'] if p['id'] == 'Child-1')['parents'], [mother])
+        self.assertIn('Mother-1', {p['id'] for p in out['people']})
+        self.assertEqual(overlay_model(out, fresh), out)
+        for protected in [dict(placeholder, withheld=True),
+                          dict(placeholder, id='Other-1'),
+                          dict(placeholder, status='non-biological')]:
+            old['people'][1]['parents'] = [protected]
+            out = overlay_model(old, fresh)
+            self.assertEqual(next(p for p in out['people'] if p['id'] == 'Child-1')['parents'], [protected])
+
     def test_maternal_replacement_keeps_reciprocal_history_in_main_atlas(self):
         old = {'meta': {}, 'landmarks': [], 'sections': [], 'dna': {'approved': ['retain']}, 'people': [
             {'id': 'Child-1', 'kind': 'person', 'parents': [
