@@ -1222,8 +1222,8 @@
     },
     "Glasgow-1312": {
       "draft_path": "research/Glasgow-1312/queue-review-2026-10-17.wiki",
-      "summary": "Add the cited record accounts: Agnes Glasgow; Agnes Glasgow; Agnes Glasgow; and 1 other record accounts. Retain the stated identity and relationship limits.",
-      "work_queue_summary": "Add the cited record accounts: Agnes Glasgow; Agnes Glasgow; Agnes Glasgow; and 1 other record accounts. Retain the stated identity and relationship limits.",
+      "summary": "Correct stale father link to already attached Alexander Glasgow-3118; explain probable83% household identification and unproved maternity. Retain source and namesake comparison limits.",
+      "work_queue_summary": "Existing father,probable83%; correct stale biography link and reconcile household evidence. No new father attachment.",
       "queued_at": "2026-10-17",
       "status": "OPEN",
       "pending": true,
@@ -1236,7 +1236,28 @@
         "subject-opr-agnes-marriages-agnes-glasgow"
       ],
       "private_comparison": false,
-      "prior_work_summary": ""
+      "prior_work_summary": "",
+      "significance": 62,
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "preservation_review_path": "research/ancestry-connections/kirknewton-agnes-preservation-2026-10-21.json",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject_id": "Glasgow-1312",
+          "relative_id": "Glasgow-3118",
+          "before": "confident",
+          "after": "probable",
+          "explanation": "Agnes’s 28 February 1677 Kirknewton/East Calder index names father Alexander Glasgow. The same-parish Alexander married Margaret Smith on 18 October 1667; Alexander’s 1673 child entry and Agnes’s 1677 entry name the same father four years apart. This favours one local household and extends the existing probable father identification across the two children. Assess Alexander Glasgow-3118 as Agnes’s probable father at 83% subjective confidence. The ten-year marriage-to-Agnes interval leaves somewhat more room for a second household than the six-year interval for Alexander-1314, whose existing 85% is unchanged. The parish index supplies no mother, occupation, precise residence or explicit link to the 1667 groom. Another Alexander remains possible. The children’s existing tree sibling link is not independent corroboration. The saved confident father flag is retained as capture provenance, not adopted as an independently verified grade. Margaret Smith’s maternity remains unproved and is not upgraded or transferred to another child. No birth/death date, parent identity, sibling topology or upstream father changes.",
+          "previous_status_provenance": [
+            "Live Open/non-living API checked 21 October 2026, unchanged revision 20260825213813; structured Father44215058 already Glasgow-3118. No independent individual assessment existed."
+          ],
+          "assertion_id": "C-review-20261021-kirknewton-agnes-father",
+          "action": "regrade",
+          "status": "probable",
+          "assessment_after": "probable"
+        }
+      ]
     },
     "Glasgow-1316": {
       "draft_path": "research/Glasgow-1316/queue-review-2026-10-17.wiki",

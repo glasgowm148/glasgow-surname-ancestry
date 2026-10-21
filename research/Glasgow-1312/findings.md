@@ -1,12 +1,14 @@
 # Agnes Glasgow (Glasgow-1312) research findings
 
-Last updated: 2026-09-10
+Last updated: 2026-10-21
 
 ## Current conclusion
 
-The documented 1677 Kirknewton and East Calder birth remains the
-identity-defining event for [[Glasgow-1312|Agnes Glasgow]]. A malformed
-Findmypast burial row does not establish her death.
+Reviewed: 2026-10-21.
+
+Agnes’s 28 February 1677 Kirknewton/East Calder index names father Alexander Glasgow. The same-parish Alexander married Margaret Smith on 18 October 1667; Alexander’s 1673 child entry and Agnes’s 1677 entry name the same father four years apart. This favours one local household and extends the existing probable father identification across the two children. Assess Alexander Glasgow-3118 as Agnes’s probable father at 83% subjective confidence. The ten-year marriage-to-Agnes interval leaves somewhat more room for a second household than the six-year interval for Alexander-1314, whose existing 85% is unchanged. The live Open/non-living profile checked on 21 October 2026 has numeric Father 44215058, Alexander Glasgow-3118, while its biography still links Alexander Glasgow-1152. This is a stale prose reference, not two competing current Father fields. Correct the proposed biography to Glasgow-3118 and state the probable assessment; do not add a new father or merge the Alexander accounts. The parish index supplies no mother, occupation, precise residence or explicit link to the 1667 groom. Another Alexander remains possible. The children’s existing tree sibling link is not independent corroboration. The saved confident father flag is retained as capture provenance, not adopted as an independently verified grade. Margaret Smith’s maternity remains unproved and is not upgraded or transferred to another child. No birth/death date, parent identity, sibling topology or upstream father changes.
+
+The identity-defining event remains the indexed 28 February 1677 baptism/birth collection entry. It is not automatically a birthday. The malformed burial row does not establish a death. Earlier marriage comparisons below remain unproved namesake leads and do not support this father identification.
 
 ## Identity assessment — malformed burial index
 
@@ -52,3 +54,21 @@ A possible identification concerns Agnes Glasgow. The banns/marriage index recor
 
 A possible identification concerns Agnes Glasgow. The banns/marriage index records Agnes Glasgow and William Thomsone on 15 December 1681 at Carstairs. (Scotland’s People: Old Parish Registers — banns and marriages: OPR 633/10 / 66; [record](https://www.scotlandspeople.gov.uk/).) The original parish register image has not been inspected. The combined index date does not by itself identify the precise event type. The identification remains uncertain.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Kirknewton household reconciliation — 21 October 2026
+
+The live Open/non-living profile checked on 21 October 2026 has numeric Father 44215058, Alexander Glasgow-3118, while its biography still links Alexander Glasgow-1152. This is a stale prose reference, not two competing current Father fields. Correct the proposed biography to Glasgow-3118 and state the probable assessment; do not add a new father or merge the Alexander accounts.
+
+Agnes’s 28 February 1677 Kirknewton/East Calder index names father Alexander Glasgow. The same-parish Alexander married Margaret Smith on 18 October 1667; Alexander’s 1673 child entry and Agnes’s 1677 entry name the same father four years apart. This favours one local household and extends the existing probable father identification across the two children. Assess Alexander Glasgow-3118 as Agnes’s probable father at 83% subjective confidence. The ten-year marriage-to-Agnes interval leaves somewhat more room for a second household than the six-year interval for Alexander-1314, whose existing 85% is unchanged.
+
+Do not treat the stale Glasgow-1152 link as independent evidence that the adults are one man. The 1665 Edinburgh Alexander/Issobell Anderson marriage belongs to the maintained Glasgow-1152 couple. Marie’s 11 October 1674 St Cuthbert’s baptism transcript explicitly names Alexander Glasgow and Issobell Andersone, after the 1667 Kirknewton Margaret Smith marriage and between the 1673 and 1677 Kirknewton children. A simple first-wife-died/remarriage account therefore has an unexplained overlap. The dates are baptism/index dates, so delayed baptism or a more complicated family history cannot be excluded. Prefer separate household accounts pending a record explaining the overlap; no categorical identity exclusion or merge is made.
+
+The parish index supplies no mother, occupation, precise residence or explicit link to the 1667 groom. Another Alexander remains possible. The children’s existing tree sibling link is not independent corroboration. The saved confident father flag is retained as capture provenance, not adopted as an independently verified grade. Margaret Smith’s maternity remains unproved and is not upgraded or transferred to another child. No birth/death date, parent identity, sibling topology or upstream father changes.
+
+- [Agnes Glasgow, indexed 28 February 1677, Kirknewton and East Calder, OPR 690/10/77; supplied ScotlandsPeople births/baptisms row 18, reviewed 10 September 2026; original uninspected](https://www.scotlandspeople.gov.uk/search-records/church-registers). Existing FamilySearch citation: [VQ4K-ZQD](https://www.familysearch.org/ark:/61903/1:1:VQ4K-ZQD), not newly inspected.
+- [Alexander Glasgow and Margaret Smith, indexed 18 October 1667, Kirknewton; OPR 690/10/54, FR37; maintained FamilySearch XY9W-TPB citation, not newly inspected](https://familysearch.org/ark:/61903/1:1:XY9W-TPB).
+- [Alexander Glasgow, birth 7 July and baptism 20 July 1673, named father Alexander; maintained index VQ4K-X9V, not newly inspected](https://www.familysearch.org/ark:/61903/1:1:VQ4K-X9V).
+- [Marie Glasgow, baptism 11 October 1674, Alexander Glasgow/Issobell Andersone, OPR 685_2/3 item 2; retained Findmypast transcript inspected 3 September 2026; original uninspected](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0702947&tab=this). Supplied ScotlandsPeople locator: 685/2,30/86, FR631.
+- [Current Agnes profile](https://www.wikitree.com/wiki/Glasgow-1312), anonymous API check 21 October 2026, revision 20260825213813; [Alexander-3118](https://www.wikitree.com/wiki/Glasgow-3118), numeric ID 44215058. Current tree fields and prose are modern assertions, not additional parish sources.
+
+**Next discriminating evidence:** inspect the original 1667 marriage and 1673/1677 child entries for residences, witnesses and maternal names; compare the original 1674 St Cuthbert’s entry before any cross-household identity proposal.

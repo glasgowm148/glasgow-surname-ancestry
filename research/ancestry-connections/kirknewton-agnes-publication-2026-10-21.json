@@ -1,0 +1,41 @@
+{
+  "reviewed": "2026-10-21",
+  "subject": "Glasgow-1312",
+  "father": "Glasgow-3118",
+  "previous": {
+    "status": "unknown",
+    "tree_status": "confident",
+    "saved_flag": "20"
+  },
+  "current": {
+    "status": "probable",
+    "percent": 83
+  },
+  "new_father_attachments": 0,
+  "genealogical_connections_added": 0,
+  "other_relationships_unchanged": true,
+  "vitals_unchanged": true,
+  "main_and_standalone_agree": true,
+  "packed_model_matches": true,
+  "full_and_compact_filters_agree": true,
+  "fixed_cohort": {
+    "confident": {
+      "population": 1776,
+      "edge_count": 369,
+      "component_count": 1410,
+      "connected_pairs_percent": 0.1445248064966375
+    },
+    "supported": {
+      "population": 1776,
+      "edge_count": 399,
+      "component_count": 1382,
+      "connected_pairs_percent": 0.21298058622002283
+    },
+    "working": {
+      "population": 1776,
+      "edge_count": 1385,
+      "component_count": 397,
+      "connected_pairs_percent": 40.74235503108743
+    }
+  }
+}
