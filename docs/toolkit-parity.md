@@ -48,7 +48,7 @@ and it is checked against the real build before it lands.
 
 | Page | Glasgow builder | Shared code used | Not adopted, and why |
 | --- | --- | --- | --- |
-| Latest findings (`/latest-findings/`, `feed.xml`) | `tools/build_latest_findings.py` from `research/latest-findings.json` | `genealogy.feeds.atom_feed` writes the feed. The output was byte-identical for all 864 findings before and after the change. | The page, kinds, statuses and pagination stay in Glasgow. Glasgow's ledger has fields (`kind`, `qualification`, `relationship_changes`) that `Finding` does not have. |
+| Latest findings (`/latest-findings/`, `feed.xml`) | `tools/build_latest_findings.py` from `research/latest-findings.json` | `genealogy.feeds.atom_feed` writes the feed. The output was byte-identical for all 864 findings before and after the change. | The page, kinds, statuses and pagination stay in Glasgow. `Finding` now has homes for the ledger's `kind`, `qualification` (`limitations`) and `relationship_changes` (`changes`), which the case translator uses. |
 | Evidence guide and badges (`/evidence/`) | `tools/evidence_labels.py` | `genealogy.labels` vocabulary for toolkit grades and claim statuses | Glasgow's percentage bands and legacy aliases stay local. |
 | Studies (`/branches/<study>/`, free-space edition) | `tools/build_study_pages.py`, `tools/free_space_edition.py` | None | Study prose is WikiTree wikitext parsed with `mwparserfromhell`. The workbench's `genealogy.markup` is a Markdown subset with `[[record-id]]` references, so it would change the text. Glasgow's study layout (timelines, connection diagrams, locator maps) has no workbench equivalent. |
 | Branches (`/branches/`) | `tools/build_branches_directory.py` | None | Branches are hand-named, with Y-DNA and country colours. The workbench's surname and connected-family groups are computed, so they would replace curated content. |
@@ -57,7 +57,7 @@ and it is checked against the real build before it lands.
 Candidates checked on 20 October 2026:
 
 - **Dossier family roles: not adopted.** Glasgow's data has no step, adoptive or foster parent links. "Adopted" appears only in quoted source text. Its WikiTree non-biological marks already print as "Tree-marked non-biological … link" through `tools/evidence_labels.py`. Switching to `genealogy.labels.parent_role` would change that wording without adding information.
-- **Findings as case records: deferred.** Mirroring `research/latest-findings.json` into toolkit `Finding` records would have no reader yet: no Glasgow page or export reads a case. It becomes worthwhile when a Glasgow page is built from a case. Then the ledger's `kind`, `qualification` and `relationship_changes` fields need a home in the toolkit model first.
+- **Findings as case records: deferred.** Mirroring `research/latest-findings.json` into toolkit `Finding` records would have no reader yet: no Glasgow page or export reads a case. It becomes worthwhile when a Glasgow page is built from a case. The toolkit model now has a home for the ledger's `kind`, `qualification` and `relationship_changes` fields.
 - **Studies: not adopted.** Adoption needs a wikitext-to-Markdown conversion that keeps every reference. Until that exists, Glasgow's builder is the right tool.
 
 ## Rebuilding the Glasgow site from its research
@@ -74,6 +74,52 @@ first:
 - a note paragraph naming a withheld profile becomes "Private family details
   withheld.";
 - any other record whose text names a withheld profile is left out.
+
+Since 21 October 2026 the translator also carries, for the workbench's
+development release after 0.6.0:
+
+- sibling assessments, as graded `sibling` links;
+- each assessment's basis as the link's reason (`Relationship.rationale`)
+  and its limitations on each of its evidence records (`Evidence.limitation`);
+- a finding's `relationship_changes` as `Finding.changes` on the link they
+  reassessed. "After" is the assessment's own state (`assessment_after`)
+  where the change records one;
+- `research_tasks` in `research/<profile>/presentation.json` as research
+  questions about that person: `what` is the question and `matters` closes
+  it as "Why it matters: …"; `resolves` (else `tests`) is what would answer
+  it, and `record_target` is the next record. A task whose status begins
+  "Completed" is resolved; the rest stay open;
+- Glasgow's surname variants as `[names.variants]`, grouped under Glasgow;
+- the extra profile IDs of a merged catalogue person, and WikiTree merge
+  redirects where the local overrides file is present, as `former_ids` of
+  public people;
+- source quality as `Citation.quality` where Glasgow's class is clear-cut:
+  original → original; derivative, transcription and index → derivative;
+  published history (`secondary`) and tree profile (`tree_only`) → authored.
+
+Maintained totals for the new mappings, from the repository's research files:
+
+| Glasgow research | Maintained | Carried | Left out, and why |
+| --- | ---: | ---: | --- |
+| Sibling assessments | 13 | 13 when both siblings are public | Same rules as other assessments |
+| Assessment limitations | 199 | 199 on evidence records, when the assessment is carried | A limitation naming a withheld profile is left out |
+| Relationship changes in findings | 66 | 16 agree with the current assessment | 45 record only that the link became "certain", which is not one of Glasgow's grades; 5 concern a link with no relationship record (resolved against the tree export, they may match) |
+| Research tasks | 21 | 21 questions (4 resolved, 17 open) when the person is public | |
+| Completed searches | 61 | 0 | The workbench has no record for a search |
+| Source qualities | 25 | 22 | 3 are not clear-cut: "previously inspected original or published inscription" and "contemporary source via maintained OCR" |
+
+These were checked by translating the research files against stand-in
+people, which validated with no errors and built with no broken links. The
+real build needs the Git-ignored One-Tree export and `www/data/people.json`;
+the table below is from the last run that had them.
+
+Not carried:
+
+- `[source_types]`: Glasgow's record roles are free text with no reader
+  label or caution of their own. `evidence_labels.RECORD_EVIDENCE` describes
+  how a record links to a person, not the record's type.
+- `[site] contact_email`: Glasgow's contact address is not published.
+- `Citation.information`: Glasgow does not record the informant's knowledge.
 
 Totals only, 20 October 2026, with workbench 0.6.0:
 
@@ -98,8 +144,10 @@ profile.
 
 Still to do:
 
-1. **Sibling relationships** (13).
-2. **Larger single pages that are Glasgow's content**: the longest study (460 KB) and the studies index (400 KB) are within budget but would need paging as the research grows.
+1. **Rerun the real build** with the One-Tree export and catalogue present, and replace the totals above. Check the link report, the 500 KB budget and the withheld-profile scan again.
+2. **Record the grade reached in relationship changes.** 45 changes say only "certain", and 12 of those name an assessment. Adding `assessment_after` would let them carry.
+3. **Completed searches** (61) have no workbench record. A `Search` record, or a question status that keeps them, is needed in the toolkit.
+4. **Larger single pages that are Glasgow's content**: the longest study (460 KB) and the studies index (400 KB) are within budget but would need paging as the research grows.
 
 ## What an export cannot recreate
 

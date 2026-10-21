@@ -131,6 +131,138 @@ class TranslatorTests(unittest.TestCase):
         self.assertIn(("spouse", bea, person_id("Fable-3")), links)
         self.assertFalse(any("Hidden-1" in r.object_id for r in c.records("Relationship")))
 
+    def test_sibling_assessments_grade_a_symmetric_link_with_reason_and_limitation(self):
+        c = case()
+        c.add(Relationship(id="one-tree:relationship:sib", subject_id=person_id("Fable-3"), object_id=person_id("Fable-2"),
+                           kind="sibling", sensitivity=Sensitivity.PUBLIC))
+        t = Translator(c, private=lambda text: "Hidden-9" in str(text))
+        citations = t.records([{"record_id": "will-1", "association": "Invented will"}])
+        t.assessments([
+            {"assertion_id": "s1", "people": ["Fable-2", "Fable-3"], "status": "proved", "basis": "The will names her brother.",
+             "limitations": "The will  gives no ages.", "source_ids": ["will-1"],
+             "perspectives": {"Fable-2": {"relationship": "sibling"}, "Fable-3": {"relationship": "sibling"}}},
+            {"assertion_id": "s2", "people": ["Fable-1", "Fable-2"], "status": "possible", "basis": "Same parish.",
+             "limitations": "Hidden-9 is also named.", "source_ids": ["will-1"],
+             "perspectives": {"Fable-1": {"relationship": "son"}, "Fable-2": {"relationship": "father"}}},
+        ], [], citations)
+        sibling = next(r for r in c.records("Relationship") if r.id == "one-tree:relationship:sib")
+        self.assertEqual((Confidence.DOCUMENTED, "proved", "The will names her brother."),
+                         (sibling.confidence, sibling.grade, sibling.rationale))
+        self.assertEqual(1, t.report["assessed sibling relationships"])
+        self.assertEqual(2, len(c.records("Relationship")))  # the tree's sibling link, not a second one
+        evidence = {e.claim_id: e for e in c.records("Evidence")}
+        self.assertEqual("The will gives no ages.", evidence["glasgow:claim:s1"].limitation)
+        self.assertIsNone(evidence["glasgow:claim:s2"].limitation)
+        self.assertEqual(1, t.gaps["assessment limitations naming a withheld profile, left out"])
+
+    def test_finding_changes_point_at_the_link_and_keep_the_history_consistent(self):
+        c = case()
+        t = Translator(c)
+        t.assessments([{"assertion_id": "a1", "people": ["Fable-1", "Fable-2"], "status": "proved", "basis": "Baptism names him.",
+                        "source_ids": [], "perspectives": {"Fable-1": {"relationship": "son"}, "Fable-2": {"relationship": "father"}}}],
+                      [], {})
+        change = lambda before, after, **extra: {"relationship": "father", "subject": "Bo Fable (Fable-2)", "relative": "Fable-1",
+                                                 "before": before, "after": after, "explanation": "Register read.", **extra}
+        t.findings([
+            {"id": "f1", "found_on": "2026-09-01", "status": "confirmed", "finding": "A first reading.", "people": [{"id": "Fable-2"}],
+             "relationship_changes": [change("unmarked", "certain", assessment_after="possible")]},
+            {"id": "f2", "found_on": "2026-10-01", "status": "confirmed", "finding": "The original was read.", "people": [{"id": "Fable-2"}],
+             "relationship_changes": [change("possible", "certain", assessment_after="proved"),
+                                      change("uncertain", "certain"),
+                                      change("unmarked", "unknown"),
+                                      {**change("unmarked", "certain", assessment_after="proved"), "relative": "Nobody-9"}]},
+            {"id": "f3", "found_on": "2026-08-01", "status": "confirmed", "finding": "An older reading.", "people": [{"id": "Fable-2"}],
+             "relationship_changes": [change("possible", "certain", assessment_after="strongly_supported")]},
+        ])
+        changes = {f.id: f.changes for f in c.records("Finding")}
+        self.assertEqual([{"record_id": "one-tree:relationship:Fable-2:father", "before": "possible", "after": "proved",
+                           "note": "Register read."}], changes["glasgow:finding:f2"])
+        self.assertEqual("unknown", changes["glasgow:finding:f1"][0]["before"])
+        self.assertEqual(1, len(changes["glasgow:finding:f3"]))  # not the latest, so kept as history
+        self.assertEqual(1, t.gaps["finding changes to a state that is not a Glasgow grade ('certain')"])
+        self.assertEqual(1, t.gaps["finding changes with no workbench grade on either side"])
+        self.assertEqual(1, t.gaps["finding changes to a link with no relationship record"])
+        self.assertIn("possible", t.grades())  # a grade used only by a change is defined too
+
+    def test_a_latest_change_that_disagrees_with_the_assessment_is_dropped(self):
+        c = case()
+        t = Translator(c)
+        t.assessments([{"assertion_id": "a1", "people": ["Fable-1", "Fable-2"], "status": "probable", "basis": "Fits.",
+                        "source_ids": [], "perspectives": {"Fable-1": {"relationship": "son"}, "Fable-2": {"relationship": "father"}}}],
+                      [], {})
+        tree = next(r for r in c.records("Relationship") if r.id == "one-tree:relationship:Fable-2:father")
+        rows = [{"id": f"f{n}", "found_on": "2026-10-01", "status": "confirmed", "finding": "A reading.", "people": [{"id": "Fable-2"}],
+                 "relationship_changes": [{"relationship": "father", "subject_id": "Fable-2", "relative_id": "Fable-1",
+                                           "before": "unmarked", "after": "certain", "assessment_after": after}]}
+                for n, after in ((1, "probable"), (2, "proved"))]
+        t.findings(rows)
+        self.assertEqual([1, 0], [len(f.changes) for f in c.records("Finding")])
+        self.assertEqual(1, t.gaps["finding changes that disagree with the current assessment"])
+        self.assertEqual(("probable", Confidence.PROBABLE), (tree.grade, tree.confidence))  # the assessment is unchanged
+
+    def test_research_tasks_become_questions_and_searches_are_counted(self):
+        import json
+        import tempfile
+        from pathlib import Path
+        c = case()
+        t = Translator(c, private=lambda text: "Hidden-9" in str(text))
+        with tempfile.TemporaryDirectory() as folder:
+            for profile, data in {
+                "Fable-1": {"research_tasks": [
+                    {"what": "1. Inspect the invented register.", "tests": "Tests the parentage.", "matters": "It would name the father.",
+                     "record_target": "Invented register, 1801", "resolves": "An entry naming both parents.", "status": "Archive access required"},
+                    {"what": "Read the invented will.", "tests": "Tests the heirs.", "matters": "", "status": "Completed; heirs named"},
+                    {"what": "Ask about Hidden-9.", "tests": "", "matters": "", "status": "Open"}],
+                    "completed_searches": [{"date": "2026-09-01", "search": "Invented index", "result": "Nothing found."}]},
+                "Nobody-9": {"research_tasks": [{"what": "Find Nobody.", "tests": "", "matters": "", "status": "Open"}]},
+            }.items():
+                (Path(folder) / profile).mkdir()
+                (Path(folder) / profile / "presentation.json").write_text(json.dumps(data))
+            t.questions(Path(folder))
+        questions = {q.id: q for q in c.records("ResearchQuestion")}
+        first = questions["glasgow:question:Fable-1:1"]
+        self.assertEqual("Inspect the invented register. Why it matters: It would name the father.", first.question)
+        self.assertEqual(("An entry naming both parents.", "Invented register, 1801", "open", [person_id("Fable-1")]),
+                         (first.resolves, first.next_record, first.status, first.related_ids))
+        second = questions["glasgow:question:Fable-1:2"]
+        self.assertEqual(("Read the invented will.", "Tests the heirs.", None, "resolved"),
+                         (second.question, second.resolves, second.next_record, second.status))
+        self.assertEqual(2, len(questions))
+        self.assertEqual(1, t.gaps["research questions naming a withheld profile"])
+        self.assertEqual(1, t.gaps["research questions about people who are not public"])
+        self.assertEqual(1, t.gaps["completed searches (the workbench has no search record)"])
+
+    def test_merged_profiles_become_former_ids_of_public_people(self):
+        c = case()
+        c.add(Person(id=person_id("Fable-8"), sensitivity=Sensitivity.PRIVATE))
+        t = Translator(c, private=lambda text: "Hidden-9" in str(text))
+        t.catalogue([{"catalogue_id": "fable-1", "profile_ids": ["Fable-1", "Fable-1a", "Fable-2", "Hidden-9"], "likely_living": False},
+                     {"catalogue_id": "fable-8", "profile_ids": ["Fable-8", "Fable-8a"], "likely_living": False}])
+        t.former_ids({"Fable-1b": "Fable-1a", "Fable-1c": "Nobody-1"})
+        people = {p.id: p for p in c.records("Person")}
+        self.assertEqual([person_id("Fable-1a"), person_id("Fable-1b")], people[person_id("Fable-1")].former_ids)
+        self.assertEqual([], people[person_id("Fable-8")].former_ids)
+        self.assertEqual(1, t.gaps["former profile IDs that are still current records"])
+        self.assertEqual(2, t.gaps["former profile IDs of people who are not public"])
+
+    def test_source_qualities_use_the_standard_terms_only_when_clear(self):
+        from tools.toolkit_research_case import source_quality, surname_variants
+        self.assertEqual(["original", "derivative", "derivative", "derivative", "authored", "authored", None, None, None],
+                         [source_quality(v) for v in ("original", "derivative", "published archival transcription",
+                                                      "maintained derivative index", "secondary", "tree_only",
+                                                      "previously inspected original or published inscription",
+                                                      "contemporary source via maintained OCR", None)])
+        t = Translator(case())
+        t.records([{"record_id": "r1", "association": "Invented index", "source_quality": "parish index transcript"},
+                   {"record_id": "r2", "association": "Invented notice", "source_quality": "contemporary source via OCR"}])
+        self.assertEqual({"glasgow:citation:r1": "derivative", "glasgow:citation:r2": None},
+                         {r.id: r.quality for r in t.case.records("Citation")})
+        self.assertEqual(1, t.gaps["source qualities with no clear standard term"])
+        variants = surname_variants()
+        self.assertEqual(["Glasgow"], list(variants))
+        self.assertIn("Glasco", variants["Glasgow"])
+        self.assertNotIn("Glasgow", variants["Glasgow"])
+
 
 if __name__ == "__main__":
     unittest.main()
