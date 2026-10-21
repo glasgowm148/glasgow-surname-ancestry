@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "reviewed": "2026-10-18",
+  "reviewed": "2026-10-21",
   "people": [
     {
       "id": "record-john-glasgw-stirling-1475",
@@ -250,6 +250,70 @@
       "death": null,
       "birth_surname": "Unknown",
       "current_surname": "Broun"
+    },
+    {
+      "id": "record-john-glasco-dublin-student-1800",
+      "name": "John Glascow / Glasco, Trinity student",
+      "gender": "Male",
+      "publication_status": "approved",
+      "first_record_year": 1784,
+      "record_period": "1784–1805",
+      "record_place": "Dublin,Ireland",
+      "url": "/people/record-john-glasco-dublin-student-1800.html",
+      "source_ids": [
+        "dublin-alumni-john-1800",
+        "dublin-john-glasco-baptism-1784"
+      ],
+      "summary": "Select Thomas Glasco-144 as the Trinity student John’s probable working father at 63% subjective confidence. The original college entry names father Thomas, described as Artifex (craftsman), and says John was born in Dublin. The preferred existing account is the Dublin Thomas already tentatively identified with the watchmaker active in 1773–1783. The uncommon full name, same city, appropriate adult generation and actual craft occupation together make that account a better fit than name and age alone. A further family clue is the 1784 Dublin baptism of John, son of Thomas Glasco and Eliza Hynes: the 1779 watchmaker’s marriage names Miss Hynes. The directory independently supplies Thomas’s forename and the exact Ormond Quay address of the watchmaker; the bracketed Thomas in the marriage extraction is editorial, not another independent name statement. Prefer the 1784 St Michan’s baptism and the 1800 Trinity student as one John at 72% subjective confidence. Both name John Glasco/Glascow, father Thomas and Dublin; the college age of 16 on 10 June 1800 puts a literal birth window at 11 June 1783–10 June 1784, compatible with a later 17 September 1784 baptism but not a recorded birthday. The Hynes marriage/baptism correspondence and the father’s craft description give the proposed family more specificity than a date-and-name match. The Catholic baptism and scholarship in 1803 leave a material religious-history gap: contemporary accounts describe exclusion of Catholics from scholarships. A baptismal affiliation need not remain unchanged throughout life, but no conversion or mixed-marriage history has been found or inferred. Another John or another Thomas remains possible. Select the record-defined Eliza Hynes as John’s probable mother at 72%, conditional on the preferred baptism-to-student identity. The baptism transcript expressly names her as mother of its John; the college page names no mother. Her identification with the watchmaker’s 1779 Miss Hynes is a further probable comparison, not a recorded marriage for this named Eliza. No marriage to Thomas Glasco-144 is installed, and the Duffy, Catherine and Mary King households retain their own identities and grades. The 63% father estimate assesses the whole link to the modern Thomas-144 account, including its unresolved watchmaker identification; it is lower than confidence that the printed student had a father named Thomas. Thomas-173’s 1760 Sarah/Catherine household, Thomas-143 and an unrepresented namesake remain alternatives. Thomas-173 has no independently recorded trade in the reviewed baptism. The baptism is a Findmypast transcript, not an inspected original; North Anne Street is the church/parish description, not a proved family address. These subjective percentages are not measured frequencies or independent values to multiply. John’s later identity remains on HOLD: John Glasgow-3946, diedThurles 1871 aged 87, and John Glasgow-3751 of the 1820 Abbeville census remain compatible comparisons. No identity merge, live WikiTree edit, exact birth date, father replacement or new connection between existing profile components is claimed.",
+      "identity_status": "identity_hold",
+      "birth": null,
+      "death": null,
+      "birth_surname": "Glasco",
+      "current_surname": "Glasco",
+      "record_groups": [
+        {
+          "id": "record-john-glasco-dublin-student-1800-baptism",
+          "first_record_year": 1784,
+          "source_ids": [
+            "dublin-john-glasco-baptism-1784"
+          ]
+        },
+        {
+          "id": "record-john-glasco-dublin-student-1800-student",
+          "first_record_year": 1800,
+          "source_ids": [
+            "dublin-alumni-john-1800"
+          ]
+        }
+      ],
+      "identity_selection": {
+        "selected": true,
+        "model": "same_person",
+        "status": "probable",
+        "probability_percent": 72,
+        "id": "record-john-glasco-dublin-student-1800-identity",
+        "basis": "Prefer the 1784 St Michan’s baptism and the 1800 Trinity student as one John at 72% subjective confidence. Both name John Glasco/Glascow, father Thomas and Dublin; the college age of 16 on 10 June 1800 puts a literal birth window at 11 June 1783–10 June 1784, compatible with a later 17 September 1784 baptism but not a recorded birthday. The Hynes marriage/baptism correspondence and the father’s craft description give the proposed family more specificity than a date-and-name match. The Catholic baptism and scholarship in 1803 leave a material religious-history gap: contemporary accounts describe exclusion of Catholics from scholarships. A baptismal affiliation need not remain unchanged throughout life, but no conversion or mixed-marriage history has been found or inferred. Another John or another Thomas remains possible.",
+        "limitations": "The 63% father estimate assesses the whole link to the modern Thomas-144 account, including its unresolved watchmaker identification; it is lower than confidence that the printed student had a father named Thomas. Thomas-173’s 1760 Sarah/Catherine household, Thomas-143 and an unrepresented namesake remain alternatives. Thomas-173 has no independently recorded trade in the reviewed baptism. The baptism is a Findmypast transcript, not an inspected original; North Anne Street is the church/parish description, not a proved family address. These subjective percentages are not measured frequencies or independent values to multiply. John’s later identity remains on HOLD: John Glasgow-3946, diedThurles 1871 aged 87, and John Glasgow-3751 of the 1820 Abbeville census remain compatible comparisons. No identity merge, live WikiTree edit, exact birth date, father replacement or new connection between existing profile components is claimed."
+      }
+    },
+    {
+      "id": "record-eliza-hynes-dublin-1784",
+      "name": "Eliza Hynes",
+      "gender": "Female",
+      "publication_status": "approved",
+      "first_record_year": 1784,
+      "record_period": "1784",
+      "record_place": "Dublin,Ireland",
+      "url": "/people/record-eliza-hynes-dublin-1784.html",
+      "source_ids": [
+        "dublin-john-glasco-baptism-1784"
+      ],
+      "summary": "Select the record-defined Eliza Hynes as John’s probable mother at 72%, conditional on the preferred baptism-to-student identity. The baptism transcript expressly names her as mother of its John; the college page names no mother. Her identification with the watchmaker’s 1779 Miss Hynes is a further probable comparison, not a recorded marriage for this named Eliza. No marriage to Thomas Glasco-144 is installed, and the Duffy, Catherine and Mary King households retain their own identities and grades. Prefer the 1784 St Michan’s baptism and the 1800 Trinity student as one John at 72% subjective confidence. Both name John Glasco/Glascow, father Thomas and Dublin; the college age of 16 on 10 June 1800 puts a literal birth window at 11 June 1783–10 June 1784, compatible with a later 17 September 1784 baptism but not a recorded birthday. The Hynes marriage/baptism correspondence and the father’s craft description give the proposed family more specificity than a date-and-name match. The Catholic baptism and scholarship in 1803 leave a material religious-history gap: contemporary accounts describe exclusion of Catholics from scholarships. A baptismal affiliation need not remain unchanged throughout life, but no conversion or mixed-marriage history has been found or inferred. Another John or another Thomas remains possible.",
+      "identity_status": "identity_hold",
+      "birth": null,
+      "death": null,
+      "birth_surname": "Hynes",
+      "current_surname": "Hynes"
     }
   ],
   "chronology": [

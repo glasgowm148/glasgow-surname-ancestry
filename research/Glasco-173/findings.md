@@ -1,8 +1,20 @@
-# Findings: [Thomas Glasco (Glasco-173)](https://www.wikitree.com/wiki/Glasco-173)
+# Findings: Glasco-173
+
+## Current conclusion
+
+Reviewed 21 October 2026. Thomas remains an unselected candidate for the Dublin student’s father. Select Thomas Glasco-144 as the Trinity student John’s probable working father at 63% subjective confidence. The original college entry names father Thomas, described as Artifex (craftsman), and says John was born in Dublin. The preferred existing account is the Dublin Thomas already tentatively identified with the watchmaker active in 1773–1783. The uncommon full name, same city, appropriate adult generation and actual craft occupation together make that account a better fit than name and age alone. A further family clue is the 1784 Dublin baptism of John, son of Thomas Glasco and Eliza Hynes: the 1779 watchmaker’s marriage names Miss Hynes. The directory independently supplies Thomas’s forename and the exact Ormond Quay address of the watchmaker; the bracketed Thomas in the marriage extraction is editorial, not another independent name statement. The 63% father estimate assesses the whole link to the modern Thomas-144 account, including its unresolved watchmaker identification; it is lower than confidence that the printed student had a father named Thomas. Thomas-173’s 1760 Sarah/Catherine household, Thomas-143 and an unrepresented namesake remain alternatives. Thomas-173 has no independently recorded trade in the reviewed baptism. The baptism is a Findmypast transcript, not an inspected original; North Anne Street is the church/parish description, not a proved family address. These subjective percentages are not measured frequencies or independent values to multiply. John’s later identity remains on HOLD: John Glasgow-3946, diedThurles 1871 aged 87, and John Glasgow-3751 of the 1820 Abbeville census remain compatible comparisons. No identity merge, live WikiTree edit, exact birth date, father replacement or new connection between existing profile components is claimed.
+
+[Current Dublin study](/branches/research-irish-dublin-watchmakers/#chapter-dublin-trinity-family).
+
+- [Burtchaell and Sadleir, Alumni Dublinenses (1924), printed p. 328, Findmypast image 364: John Glascow (Glasco) and Manasses Glascow; original printed page inspected 21 October 2026](https://search.findmypast.co.uk/record?id=IRE%2FIE0004%2F364&parentid=IRE%2FIE0004%2F364%2F009)
+- [Findmypast, Ireland Roman Catholic Parish Baptisms, IRE/PRS/BAP/3212705: John Glasco, 17 September 1784, St Michan’s, Dublin; Thomas Glasco and Eliza Hynes; transcript inspected, original uninspected; NLI microfilm 08829-08, image 0083](https://www.findmypast.co.uk/transcript?id=IRE%2FPRS%2FBAP%2F3212705&tab=this)
+
+## Earlier research retained
+
 
 Last updated: 2026-09-08
 
-## Current conclusion
+## Earlier conclusion — retained
 
 
 Reviewed 18 October 2026. **Thomas’s attached son Glasco-144 now follows Philip Glasco-146 in the local working tree, at 67%; this former father attachment is retained as an ungraded alternative. Thomas’s 1760 Sarah/Catherine household remains a separate record account.**
@@ -52,7 +64,7 @@ parish, probate, burial, address or trade record identifies him.
 
 The [5 October 1779 original advertisement](https://www.newspapers.com/image/1050086381/) and [4 April 1780 repeat](https://www.newspapers.com/image/1050049040/) name only Glasco, watch and clock maker, moving from Christ-Church-lane to 20 Ormond Quay near the market. The address supports the existing 1779–1783 Thomas trade cluster, but the newspaper gives no first name, spouse, parents or children and does not assign the event to this profile. Keep Glasco-143, Glasco-144 and Glasco-173 compatible under their current limits. See the [consolidated sourced draft](/research/subjects/newspapers-early-glasgow/#dublin-glasco-watchmaker). No relationship change is proposed.
 
-## Current conclusion — newspaper review, 5 October 2026
+## Earlier conclusion — newspaper review, 5 October 2026 — retained
 
 This is a chronologically compatible Thomas Glasco namesake for the 1799 Tinicum Island subscriber; no profile identification is proved.
 

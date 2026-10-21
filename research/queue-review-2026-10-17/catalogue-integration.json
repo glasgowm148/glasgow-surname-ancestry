@@ -395,10 +395,10 @@
       "relationship_changes": []
     },
     "Glasco-144": {
-      "draft_path": "research/Glasco-144/queue-review-2026-10-17.wiki",
-      "summary": "Philip Glasco-146 replaces Thomas Glasco-173 as the selected probable father, 67%. The 1773 Dublin groom/watchmaker identity is preferred, not proved. Preserve the complete earlier research and source limits.",
-      "work_queue_summary": "Philip Glasco-146 replaces Thomas Glasco-173 as the selected probable father, 67%. The 1773 Dublin groom/watchmaker identity is preferred, not proved.",
-      "queued_at": "2026-10-18",
+      "draft_path": "research/Glasco-144/dublin-antigua-records-2026-10-21.wiki",
+      "summary": "New probable son John, the Dublin Trinity student, 63%; later identity on HOLD.",
+      "work_queue_summary": "New probable son John, the Dublin Trinity student, 63%; later identity on HOLD.",
+      "queued_at": "2026-10-21",
       "status": "OPEN",
       "pending": true,
       "findings_path": "research/Glasco-144/findings.md",
@@ -412,7 +412,7 @@
       "manual_update": true,
       "significance": 88,
       "remote_wikitext": "== Biography ==\n\n'''Thomas Glascoe''' married [[Duffy-?|Margaret Duffy]], daughter of [[Duffy-?|Patrick Duffy]] and his wife Anne.\n\nAn undated handwritten pedigree of the Duffy family identifies Margaret as:\n\n: “Margt, wife of Thomas Glascoe”\n\nMargaret’s father, Patrick Duffy, was associated with Back Lane, Dublin. The pedigree states that Patrick made his will on 9 April 1774 and that it was proved in June 1775.\n\nThe pedigree also names Margaret’s siblings as John Duffy, Peter Duffy, Judith Duffy, Mary Duffy, and possibly Teresa Duffy. Judith married Cornelius Blewitt.\n\nNo children of Thomas and Margaret are shown on the pedigree. This does not prove that they had no children.\n\n== Research Notes ==\n\n* Thomas’s birth and death dates are unknown.\n* His birthplace and residence are not stated.\n* His occupation and parentage have not been identified.\n* No marriage date or place has yet been found.\n* The surname is written as '''Glascoe''' in the pedigree. Searches should also consider variants such as Glasco, Glascow and Glasgow.\n* Thomas should not be assigned a Dublin birthplace solely because his father-in-law lived at Back Lane, Dublin.\n* Patrick Duffy’s probate record may contain further information about Thomas and Margaret.\n\n\n== Marriage ==\n\n\nMarriage record for THOS GLASCO and MARGT DUFFY on 12 December 1773\nArea - DUBLIN (COI), Parish/Church/Congregation - ST. AUDOEN « Back to results\n\n\tHusband \tWife\nName \tTHOS GLASCO \tMARGT DUFFY\nAddress \t\t\nOccupation \t\t\nFather \tGLASCO \tDUFFY\nMother \t\t\nFurther details in the record\nWitness 1: \tCORNELIUS CLARK\nWitness 2: \tDENNIS DUFFY\nAbout the record\nBook Number: \tN/A\nPage: \tN/A\nEntry Number: \tN/A\nRecord Identifier: \t\n\n== Old ==\n\n\nAnn and Monsieur Thompson\n\n* Document Date: 1776\n* Document Type: Marriage License (M.L.)\n* Estimated Birth Year: ≈1753\n* Relation: Possible daughter of Philip (the elder) or sister to Philip the younger and James. Married Monsieur Thompson.\n\n\n== Sources ==\n\n<references />\n\n* Undated handwritten Duffy family pedigree. The pedigree identifies Margaret Duffy as the wife of Thomas Glascoe and as a daughter of Patrick Duffy of Back Lane, Dublin, and Anne. It records Patrick Duffy’s will as dated 9 April 1774 and proved June 1775. https://catalogue.nli.ie/Record/vtls000541072\n\n\n\n* https://www.virtualtreasury.ie/item/PROI-DKPRI-26-7",
-      "preservation_review_path": "research/ancestry-connections/dublin-thomas-probable-father-preservation-2026-10-18.json",
+      "preservation_review_path": "research/ancestry-connections/dublin-antigua-preservation-2026-10-21.json",
       "reviewed_narrative_reduction": true,
       "preserve_captured_detail": false,
       "relationship_changes": [
@@ -425,8 +425,20 @@
           "previous_status": "unknown",
           "assertion_id": "C-working-20261018-dublin-thomas-philip-father",
           "scope": "Proposed father replacement, 67%; no live save."
+        },
+        {
+          "action": "add",
+          "relationship": "son",
+          "relative_id": "record-john-glasco-dublin-student-1800",
+          "relative_name": "John Glascow / Glasco, Trinity student",
+          "status": "probable",
+          "probability_percent": 63,
+          "assertion_id": "C-working-20261021-dublin-student-father",
+          "before": "absent",
+          "scope": "Select Thomas Glasco-144 as the Trinity student John’s probable working father at 63% subjective confidence. The original college entry names father Thomas, described as Artifex (craftsman), and says John was born in Dublin. The preferred existing account is the Dublin Thomas already tentatively identified with the watchmaker active in 1773–1783. The uncommon full name, same city, appropriate adult generation and actual craft occupation together make that account a better fit than name and age alone. A further family clue is the 1784 Dublin baptism of John, son of Thomas Glasco and Eliza Hynes: the 1779 watchmaker’s marriage names Miss Hynes. The directory independently supplies Thomas’s forename and the exact Ormond Quay address of the watchmaker; the bracketed Thomas in the marriage extraction is editorial, not another independent name statement."
         }
-      ]
+      ],
+      "profile_id": "Glasco-144"
     },
     "Glasco-148": {
       "draft_path": "research/Glasco-148/queue-review-2026-10-17.wiki",
@@ -7259,6 +7271,38 @@
       "preserve_captured_detail": false,
       "reviewed_narrative_reduction": true,
       "preservation_review_path": "research/ancestry-connections/kilmarnock-glover-preservation-2026-10-21.json"
+    },
+    "Glasco-170": {
+      "profile_id": "Glasco-170",
+      "queued_at": "2026-10-21",
+      "draft_path": "research/Glasco-170/dublin-antigua-records-2026-10-21.wiki",
+      "findings_path": "research/Glasco-170/findings.md",
+      "summary": "New Trinity entry in 1774 and degree in 1778; father assessment unchanged.",
+      "work_queue_summary": "New Trinity entry in 1774 and degree in 1778; father assessment unchanged.",
+      "status": "OPEN",
+      "pending": true,
+      "manual_update": true,
+      "relationship_changes": [],
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "preservation_review_path": "research/ancestry-connections/dublin-antigua-preservation-2026-10-21.json",
+      "private_comparison": true,
+      "public_addition_wikitext": "=== University record ===\n\nThe original Alumni Dublinenses page names Manasses Glascow entering Trinity on 2 June 1774 and taking a B.A. in the spring term of 1778. Prefer this student as Rev. Manasses Glasco-170 at 98% identity confidence: the exceptionally uncommon full name, Dublin setting and degree two years before the independently documented 1780 Reverend Manasses occurrence form a coherent career. The entry gives no age, birthplace or father, so it does not strengthen the unsupported [[Glasco-148|James Glasco]] father attachment or establish the Monkstown appointment. The provider index spells this name Galscow; the printed page reads Glascow. The earlier birth/death bounds and Susannah’s separate 1784 licence evidence remain unchanged.<ref>[https://search.findmypast.co.uk/record?id=IRE%2FIE0004%2F364&parentid=IRE%2FIE0004%2F364%2F009 Burtchaell and Sadleir, Alumni Dublinenses (1924), printed p. 328, Findmypast image 364: John Glascow (Glasco) and Manasses Glascow; original printed page inspected 21 October 2026].</ref>"
+    },
+    "Glasgow-4127": {
+      "profile_id": "Glasgow-4127",
+      "queued_at": "2026-10-21",
+      "draft_path": "research/Glasgow-4127/dublin-antigua-records-2026-10-21.wiki",
+      "findings_path": "research/Glasgow-4127/findings.md",
+      "summary": "£20 Antigua passage warrant, March 1708; orders 11 March and direction 16 March.",
+      "work_queue_summary": "£20 Antigua passage warrant, March 1708; orders 11 March and direction 16 March.",
+      "status": "OPEN",
+      "pending": true,
+      "manual_update": true,
+      "relationship_changes": [],
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "preservation_review_path": "research/ancestry-connections/dublin-antigua-preservation-2026-10-21.json"
     }
   },
   "reviewed_on": "2026-10-21",
@@ -10068,6 +10112,158 @@
           "scope": "Select Rev. John Glasgow and Margaret Glasgow as strongly supported spouses at 94%. The writer expressly describes their marriage after his Coleraine ordination and an earlier daughter and the later-born writer; the minister’s separate church-list entry fits the stated July 1801 death. No precise wedding date is supplied."
         }
       ]
+    },
+    {
+      "subject_id": "john-glasco-dublin-student-1800",
+      "catalogue_id": "record-john-glasco-dublin-student-1800",
+      "name": "John Glascow / Glasco, Trinity student",
+      "source_subject_url": "https://search.findmypast.co.uk/record?id=IRE%2FIE0004%2F364&parentid=IRE%2FIE0004%2F364%2F009",
+      "research_subject_url": "/people/record-john-glasco-dublin-student-1800.html",
+      "draft_path": "surname-research/new-people/1800_Ireland_Dublin_John_Glasco.md",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n{{Ireland Native}}\n{{Estimated Date}}\n== Biography ==\n\nJohn Glascow, also recorded as Glasco, was born in Dublin about 1784. He entered Trinity College Dublin on 10 June 1800, aged 16, as a sizar. The college entry names his father Thomas and describes him as Artifex, a craftsman. John became a scholar in 1803 and received a B.A. in the spring term of 1805.<ref>[https://search.findmypast.co.uk/record?id=IRE%2FIE0004%2F364&parentid=IRE%2FIE0004%2F364%2F009 Burtchaell and Sadleir, Alumni Dublinenses (1924), printed p. 328, Findmypast image 364: John Glascow (Glasco) and Manasses Glascow; original printed page inspected 21 October 2026].</ref>\n\n== Research Notes ==\n\nSelect [[Glasco-144|Thomas Glasco]] as the Trinity student John’s probable working father at 63% subjective confidence. The original college entry names father Thomas, described as Artifex (craftsman), and says John was born in Dublin. The preferred existing account is the Dublin Thomas already tentatively identified with the watchmaker active in 1773–1783. The uncommon full name, same city, appropriate adult generation and actual craft occupation together make that account a better fit than name and age alone. A further family clue is the 1784 Dublin baptism of John, son of Thomas Glasco and Eliza Hynes: the 1779 watchmaker’s marriage names Miss Hynes. The directory independently supplies Thomas’s forename and the exact Ormond Quay address of the watchmaker; the bracketed Thomas in the marriage extraction is editorial, not another independent name statement.\n\nPrefer the 1784 St Michan’s baptism and the 1800 Trinity student as one John at 72% subjective confidence. Both name John Glasco/Glascow, father Thomas and Dublin; the college age of 16 on 10 June 1800 puts a literal birth window at 11 June 1783–10 June 1784, compatible with a later 17 September 1784 baptism but not a recorded birthday. The Hynes marriage/baptism correspondence and the father’s craft description give the proposed family more specificity than a date-and-name match. The Catholic baptism and scholarship in 1803 leave a material religious-history gap: contemporary accounts describe exclusion of Catholics from scholarships. A baptismal affiliation need not remain unchanged throughout life, but no conversion or mixed-marriage history has been found or inferred. Another John or another Thomas remains possible.<ref>[https://www.findmypast.co.uk/transcript?id=IRE%2FPRS%2FBAP%2F3212705&tab=this Findmypast, Ireland Roman Catholic Parish Baptisms, IRE/PRS/BAP/3212705: John Glasco, 17 September 1784, St Michan’s, Dublin; Thomas Glasco and Eliza Hynes; transcript inspected, original uninspected; NLI microfilm 08829-08, image 0083]. [https://eddiesextracts.com/extracts1700/snl1773_99.html Saunders’s News-Letter, marriage extraction under 19 July 1779: watchmaker Glasco of Christchurch Lane to Miss Hynes of Ormond Quay; forename Thomas is editorial in this extraction]. [https://www.swilson.info/wat1783tr.php?brw=sur&brwkey=Glasco Watson’s 1783 Dublin directory, merchants and traders, p. 40 line 1: Thomas Glasco, watchmaker, 20 Ormond Quay; maintained transcription reused]. [https://api.parliament.uk/historic-hansard/commons/1834/may/08/catholics-and-trinity-college-dublin House of Commons, 8 May 1834, Catholics and Trinity College, Dublin: contemporary discussion of the continuing exclusion from scholarships; contextual evidence, not a record of John’s religion].</ref>\n\nSelect the record-defined Eliza Hynes as John’s probable mother at 72%, conditional on the preferred baptism-to-student identity. The baptism transcript expressly names her as mother of its John; the college page names no mother. Her identification with the watchmaker’s 1779 Miss Hynes is a further probable comparison, not a recorded marriage for this named Eliza. No marriage to [[Glasco-144|Thomas Glasco]] is installed, and the Duffy, Catherine and Mary King households retain their own identities and grades.\n\nThe 63% father estimate assesses the whole link to the modern [[Glasco-144|Thomas]] account, including its unresolved watchmaker identification; it is lower than confidence that the printed student had a father named Thomas. [[Glasco-173|Thomas]]’s 1760 Sarah/Catherine household, [[Glasco-143|Thomas]] and an unrepresented namesake remain alternatives. [[Glasco-173|Thomas]] has no independently recorded trade in the reviewed baptism. The baptism is a Findmypast transcript, not an inspected original; North Anne Street is the church/parish description, not a proved family address. These subjective percentages are not measured frequencies or independent values to multiply. John’s later identity remains on HOLD: [[Glasgow-3946|John Glascow]], died at Thurles 1871 aged 87, and [[Glasgow-3751|John Glasgow]] of the 1820 Abbeville census remain compatible comparisons. No identity merge, live WikiTree edit, exact birth date, father replacement or new connection between existing profile components is claimed.\n\nInspect the 1784 original baptism for sponsors and address, obtain the specific 1871 Thurles death certificate for occupation and informant, and trace the 1805 graduate into clergy, professional or other records. A surviving compatible candidate prevents new WikiTree creation. Check the 1779 marriage original and further Dublin household records before treating Miss Hynes as named Eliza or transferring spouses between Thomas profiles.\n\n== Sources ==\n<references />",
+      "assessment": "Select Thomas Glasco-144 as the Trinity student John’s probable working father at 63% subjective confidence. The original college entry names father Thomas, described as Artifex (craftsman), and says John was born in Dublin. The preferred existing account is the Dublin Thomas already tentatively identified with the watchmaker active in 1773–1783. The uncommon full name, same city, appropriate adult generation and actual craft occupation together make that account a better fit than name and age alone. A further family clue is the 1784 Dublin baptism of John, son of Thomas Glasco and Eliza Hynes: the 1779 watchmaker’s marriage names Miss Hynes. The directory independently supplies Thomas’s forename and the exact Ormond Quay address of the watchmaker; the bracketed Thomas in the marriage extraction is editorial, not another independent name statement. Prefer the 1784 St Michan’s baptism and the 1800 Trinity student as one John at 72% subjective confidence. Both name John Glasco/Glascow, father Thomas and Dublin; the college age of 16 on 10 June 1800 puts a literal birth window at 11 June 1783–10 June 1784, compatible with a later 17 September 1784 baptism but not a recorded birthday. The Hynes marriage/baptism correspondence and the father’s craft description give the proposed family more specificity than a date-and-name match. The Catholic baptism and scholarship in 1803 leave a material religious-history gap: contemporary accounts describe exclusion of Catholics from scholarships. A baptismal affiliation need not remain unchanged throughout life, but no conversion or mixed-marriage history has been found or inferred. Another John or another Thomas remains possible. Select the record-defined Eliza Hynes as John’s probable mother at 72%, conditional on the preferred baptism-to-student identity. The baptism transcript expressly names her as mother of its John; the college page names no mother. Her identification with the watchmaker’s 1779 Miss Hynes is a further probable comparison, not a recorded marriage for this named Eliza. No marriage to Thomas Glasco-144 is installed, and the Duffy, Catherine and Mary King households retain their own identities and grades. The 63% father estimate assesses the whole link to the modern Thomas-144 account, including its unresolved watchmaker identification; it is lower than confidence that the printed student had a father named Thomas. Thomas-173’s 1760 Sarah/Catherine household, Thomas-143 and an unrepresented namesake remain alternatives. Thomas-173 has no independently recorded trade in the reviewed baptism. The baptism is a Findmypast transcript, not an inspected original; North Anne Street is the church/parish description, not a proved family address. These subjective percentages are not measured frequencies or independent values to multiply. John’s later identity remains on HOLD: John Glasgow-3946, diedThurles 1871 aged 87, and John Glasgow-3751 of the 1820 Abbeville census remain compatible comparisons. No identity merge, live WikiTree edit, exact birth date, father replacement or new connection between existing profile components is claimed. Inspect the 1784 original baptism for sponsors and address, obtain the specific 1871 Thurles death certificate for occupation and informant, and trace the 1805 graduate into clergy, professional or other records. A surviving compatible candidate prevents new WikiTree creation. Check the 1779 marriage original and further Dublin household records before treating Miss Hynes as named Eliza or transferring spouses between Thomas profiles.",
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-10-21",
+      "first_names": [
+        "John"
+      ],
+      "last_names_at_birth": [
+        "Glasco"
+      ],
+      "last_names_current": [
+        "Glasco"
+      ],
+      "gender": "Male",
+      "birth": "about 1784",
+      "birth_note": "Admission age supplies an approximate year, not a birthday.",
+      "birth_location": "Dublin, Ireland",
+      "death": "",
+      "death_location": "",
+      "historical_basis": {
+        "status": "historical",
+        "source_url": "https://search.findmypast.co.uk/record?id=IRE%2FIE0004%2F364&parentid=IRE%2FIE0004%2F364%2F009",
+        "latest_birth_year": 1784,
+        "note": "Historical1800 college student aged16; mother named in1784 baptism."
+      },
+      "candidates": [
+        {
+          "profile_id": "Glasgow-3946",
+          "name": "John Glascow,Thurles death1871,aged87",
+          "url": "https://www.wikitree.com/wiki/Glasgow-3946",
+          "assessment": "Compatible age and surname; death index gives no father, education or birthplace. Retained, not excluded for missing fields. A specific original certificate has not been inspected."
+        },
+        {
+          "profile_id": "Glasgow-3751",
+          "name": "John Glasgow,Abbeville1820 census",
+          "url": "https://www.wikitree.com/wiki/Glasgow-3751",
+          "assessment": "Compatible age band26–45; no birthplace or parents. The1820 date is a census occurrence, not a proved death. A migrant could be the Trinity student; retained without a selected identity."
+        }
+      ],
+      "records": [
+        {
+          "supplement_id": "dublin-alumni-john-1800",
+          "year": "1800",
+          "filter_year": 1800,
+          "family_group": "Dublin Trinity and Hynes household",
+          "region": "Ireland",
+          "record_location": "Dublin,Ireland",
+          "association": "College entry, father Thomas a craftsman; scholarship1803 and degree1805.",
+          "note": "College entry, father Thomas a craftsman; scholarship1803 and degree1805.",
+          "source_title": "Burtchaell and Sadleir, Alumni Dublinenses (1924), printed p. 328, Findmypast image 364: John Glascow (Glasco) and Manasses Glascow; original printed page inspected 21 October 2026",
+          "source_url": "https://search.findmypast.co.uk/record?id=IRE%2FIE0004%2F364&parentid=IRE%2FIE0004%2F364%2F009",
+          "source_type": "university-register",
+          "source_status": "Printed page inspected21 October2026"
+        },
+        {
+          "supplement_id": "dublin-john-glasco-baptism-1784",
+          "year": "1784",
+          "filter_year": 1784,
+          "family_group": "Dublin Trinity and Hynes household",
+          "region": "Ireland",
+          "record_location": "Dublin,Ireland",
+          "association": "Baptism-to-student identity probable72%; no original baptism inspected.",
+          "note": "Baptism-to-student identity probable72%; no original baptism inspected.",
+          "source_title": "Findmypast, Ireland Roman Catholic Parish Baptisms, IRE/PRS/BAP/3212705: John Glasco, 17 September 1784, St Michan’s, Dublin; Thomas Glasco and Eliza Hynes; transcript inspected, original uninspected; NLI microfilm 08829-08, image 0083",
+          "source_url": "https://www.findmypast.co.uk/transcript?id=IRE%2FPRS%2FBAP%2F3212705&tab=this",
+          "source_type": "parish-register-transcription",
+          "source_status": "Findmypast transcript inspected; original uninspected"
+        }
+      ],
+      "relationship_changes": [
+        {
+          "action": "add",
+          "relationship": "father",
+          "relative_id": "Glasco-144",
+          "relative_name": "Thomas Glasco",
+          "status": "probable",
+          "probability_percent": 63,
+          "before": "new documentary account",
+          "assertion_id": "C-working-20261021-dublin-student-father",
+          "scope": "Select Thomas Glasco-144 as the Trinity student John’s probable working father at 63% subjective confidence. The original college entry names father Thomas, described as Artifex (craftsman), and says John was born in Dublin. The preferred existing account is the Dublin Thomas already tentatively identified with the watchmaker active in 1773–1783. The uncommon full name, same city, appropriate adult generation and actual craft occupation together make that account a better fit than name and age alone. A further family clue is the 1784 Dublin baptism of John, son of Thomas Glasco and Eliza Hynes: the 1779 watchmaker’s marriage names Miss Hynes. The directory independently supplies Thomas’s forename and the exact Ormond Quay address of the watchmaker; the bracketed Thomas in the marriage extraction is editorial, not another independent name statement."
+        },
+        {
+          "action": "add",
+          "relationship": "mother",
+          "relative_id": "record-eliza-hynes-dublin-1784",
+          "relative_name": "Eliza Hynes",
+          "status": "probable",
+          "probability_percent": 72,
+          "before": "new documentary account",
+          "assertion_id": "C-working-20261021-dublin-student-mother",
+          "scope": "Select the record-defined Eliza Hynes as John’s probable mother at 72%, conditional on the preferred baptism-to-student identity. The baptism transcript expressly names her as mother of its John; the college page names no mother. Her identification with the watchmaker’s 1779 Miss Hynes is a further probable comparison, not a recorded marriage for this named Eliza. No marriage to Thomas Glasco-144 is installed, and the Duffy, Catherine and Mary King households retain their own identities and grades."
+        }
+      ]
+    },
+    {
+      "subject_id": "eliza-hynes-dublin-1784",
+      "catalogue_id": "record-eliza-hynes-dublin-1784",
+      "name": "Eliza Hynes",
+      "source_subject_url": "https://www.findmypast.co.uk/transcript?id=IRE%2FPRS%2FBAP%2F3212705&tab=this",
+      "research_subject_url": "/people/record-eliza-hynes-dublin-1784.html",
+      "draft_path": "research/Glasco-144/1784_Ireland_Dublin_Eliza_Hynes.md",
+      "draft_wikitext": "== Biography ==\n\nEliza Hynes is named with Thomas Glasco as mother of John Glasco in a transcript of his 17 September 1784 baptism at St Michan’s Roman Catholic parish, Dublin. Her birth, death and parents are unknown. Dublin is only a possible birth locality inferred from the child’s baptism.<ref>[https://www.findmypast.co.uk/transcript?id=IRE%2FPRS%2FBAP%2F3212705&tab=this Findmypast, Ireland Roman Catholic Parish Baptisms, IRE/PRS/BAP/3212705: John Glasco, 17 September 1784, St Michan’s, Dublin; Thomas Glasco and Eliza Hynes; transcript inspected, original uninspected; NLI microfilm 08829-08, image 0083].</ref>\n\n== Research Notes ==\n\nPrefer the 1784 St Michan’s baptism and the 1800 Trinity student as one John at 72% subjective confidence. Both name John Glasco/Glascow, father Thomas and Dublin; the college age of 16 on 10 June 1800 puts a literal birth window at 11 June 1783–10 June 1784, compatible with a later 17 September 1784 baptism but not a recorded birthday. The Hynes marriage/baptism correspondence and the father’s craft description give the proposed family more specificity than a date-and-name match. The Catholic baptism and scholarship in 1803 leave a material religious-history gap: contemporary accounts describe exclusion of Catholics from scholarships. A baptismal affiliation need not remain unchanged throughout life, but no conversion or mixed-marriage history has been found or inferred. Another John or another Thomas remains possible.\n\nSelect the record-defined Eliza Hynes as John’s probable mother at 72%, conditional on the preferred baptism-to-student identity. The baptism transcript expressly names her as mother of its John; the college page names no mother. Her identification with the watchmaker’s 1779 Miss Hynes is a further probable comparison, not a recorded marriage for this named Eliza. No marriage to [[Glasco-144|Thomas Glasco]] is installed, and the Duffy, Catherine and Mary King households retain their own identities and grades.\n\nThe watchmaker’s 1779 bride is called only Miss Hynes; her identification as Eliza remains inferred. No modern WikiTree identity or exact marriage date is selected. The first 99 of 254 fuzzy WikiTree search results for Eliza Hynes, birth 1760±20, were checked; this incomplete search does not establish absence of a compatible profile. Keep the account on identity hold.<ref>[https://eddiesextracts.com/extracts1700/snl1773_99.html Saunders’s News-Letter, marriage extraction under 19 July 1779: watchmaker Glasco of Christchurch Lane to Miss Hynes of Ormond Quay; forename Thomas is editorial in this extraction]. [https://www.swilson.info/wat1783tr.php?brw=sur&brwkey=Glasco Watson’s 1783 Dublin directory, merchants and traders, p. 40 line 1: Thomas Glasco, watchmaker, 20 Ormond Quay; maintained transcription reused]. [https://api.parliament.uk/historic-hansard/commons/1834/may/08/catholics-and-trinity-college-dublin House of Commons, 8 May 1834, Catholics and Trinity College, Dublin: contemporary discussion of the continuing exclusion from scholarships; contextual evidence, not a record of John’s religion].</ref>\n\nInspect the 1784 original baptism for sponsors and address, obtain the specific 1871 Thurles death certificate for occupation and informant, and trace the 1805 graduate into clergy, professional or other records. A surviving compatible candidate prevents new WikiTree creation. Check the 1779 marriage original and further Dublin household records before treating Miss Hynes as named Eliza or transferring spouses between Thomas profiles.\n\n== Sources ==\n<references />",
+      "assessment": "Select the record-defined Eliza Hynes as John’s probable mother at 72%, conditional on the preferred baptism-to-student identity. The baptism transcript expressly names her as mother of its John; the college page names no mother. Her identification with the watchmaker’s 1779 Miss Hynes is a further probable comparison, not a recorded marriage for this named Eliza. No marriage to Thomas Glasco-144 is installed, and the Duffy, Catherine and Mary King households retain their own identities and grades. Prefer the 1784 St Michan’s baptism and the 1800 Trinity student as one John at 72% subjective confidence. Both name John Glasco/Glascow, father Thomas and Dublin; the college age of 16 on 10 June 1800 puts a literal birth window at 11 June 1783–10 June 1784, compatible with a later 17 September 1784 baptism but not a recorded birthday. The Hynes marriage/baptism correspondence and the father’s craft description give the proposed family more specificity than a date-and-name match. The Catholic baptism and scholarship in 1803 leave a material religious-history gap: contemporary accounts describe exclusion of Catholics from scholarships. A baptismal affiliation need not remain unchanged throughout life, but no conversion or mixed-marriage history has been found or inferred. Another John or another Thomas remains possible. Inspect the 1784 original baptism for sponsors and address, obtain the specific 1871 Thurles death certificate for occupation and informant, and trace the 1805 graduate into clergy, professional or other records. A surviving compatible candidate prevents new WikiTree creation. Check the 1779 marriage original and further Dublin household records before treating Miss Hynes as named Eliza or transferring spouses between Thomas profiles.",
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-10-21",
+      "first_names": [
+        "Eliza"
+      ],
+      "last_names_at_birth": [
+        "Hynes"
+      ],
+      "last_names_current": [
+        "Hynes"
+      ],
+      "gender": "Female",
+      "birth": "before 1784",
+      "birth_note": "Only a conservative before1784 bound from motherhood; not a recorded birth year.",
+      "birth_location": "Dublin, Ireland",
+      "death": "",
+      "death_location": "",
+      "historical_basis": {
+        "status": "historical",
+        "source_url": "https://www.findmypast.co.uk/transcript?id=IRE%2FPRS%2FBAP%2F3212705&tab=this",
+        "latest_birth_year": 1784,
+        "note": "Historical1800 college student aged16; mother named in1784 baptism."
+      },
+      "candidates": [],
+      "records": [
+        {
+          "supplement_id": "dublin-john-glasco-baptism-1784",
+          "year": "1784",
+          "filter_year": 1784,
+          "family_group": "Dublin Trinity and Hynes household",
+          "region": "Ireland",
+          "record_location": "Dublin,Ireland",
+          "association": "Named mother of the baptism child; student identity probable72%.",
+          "note": "Named mother of the baptism child; student identity probable72%.",
+          "source_title": "Findmypast, Ireland Roman Catholic Parish Baptisms, IRE/PRS/BAP/3212705: John Glasco, 17 September 1784, St Michan’s, Dublin; Thomas Glasco and Eliza Hynes; transcript inspected, original uninspected; NLI microfilm 08829-08, image 0083",
+          "source_url": "https://www.findmypast.co.uk/transcript?id=IRE%2FPRS%2FBAP%2F3212705&tab=this",
+          "source_type": "parish-register-transcription",
+          "source_status": "Findmypast transcript inspected; original uninspected"
+        }
+      ],
+      "relationship_changes": []
     }
   ]
 }

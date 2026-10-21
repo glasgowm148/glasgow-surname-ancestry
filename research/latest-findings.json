@@ -33813,6 +33813,93 @@
       "publication_connections_restored": 1,
       "new_source_discoveries": 0,
       "new_original_inspections": 0
+    },
+    {
+      "id": "dublin-trinity-hynes-family-20261021",
+      "found_on": "2026-10-21",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "New Trinity page names John’s father Thomas,a craftsman; prefer Thomas Glasco-144 at63%, and the1784 Hynes baptism identity at72%. The same page gives Manasses’s1774 entry and1778 degree.",
+      "qualification": "The 63% father estimate assesses the whole link to the modern Thomas-144 account, including its unresolved watchmaker identification; it is lower than confidence that the printed student had a father named Thomas. Thomas-173’s 1760 Sarah/Catherine household, Thomas-143 and an unrepresented namesake remain alternatives. Thomas-173 has no independently recorded trade in the reviewed baptism. The baptism is a Findmypast transcript, not an inspected original; North Anne Street is the church/parish description, not a proved family address. These subjective percentages are not measured frequencies or independent values to multiply. John’s later identity remains on HOLD: John Glasgow-3946, diedThurles 1871 aged 87, and John Glasgow-3751 of the 1820 Abbeville census remain compatible comparisons. No identity merge, live WikiTree edit, exact birth date, father replacement or new connection between existing profile components is claimed. The original Alumni Dublinenses page names Manasses Glascow entering Trinity on 2 June 1774 and taking a B.A. in the spring term of 1778. Prefer this student as Rev. Manasses Glasco-170 at 98% identity confidence: the exceptionally uncommon full name, Dublin setting and degree two years before the independently documented 1780 Reverend Manasses occurrence form a coherent career. The entry gives no age, birthplace or father, so it does not strengthen the unsupported James Glasco-148 father attachment or establish the Monkstown appointment. The provider index spells this name Galscow; the printed page reads Glascow. The earlier birth/death bounds and Susannah’s separate 1784 licence evidence remain unchanged.",
+      "people": [
+        {
+          "id": "record-john-glasco-dublin-student-1800",
+          "name": "John Glascow / Glasco, Trinity student",
+          "url": "/people/record-john-glasco-dublin-student-1800.html"
+        },
+        {
+          "id": "record-eliza-hynes-dublin-1784",
+          "name": "Eliza Hynes",
+          "url": "/people/record-eliza-hynes-dublin-1784.html"
+        },
+        {
+          "id": "Glasco-144",
+          "name": "Thomas Glasco",
+          "url": "/people/glasco-144.html"
+        },
+        {
+          "id": "Glasco-170",
+          "name": "Rev. Manasses Glasco",
+          "url": "/people/glasco-170.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Burtchaell and Sadleir, Alumni Dublinenses (1924), printed p. 328, Findmypast image 364: John Glascow (Glasco) and Manasses Glascow; original printed page inspected 21 October 2026",
+          "url": "https://search.findmypast.co.uk/record?id=IRE%2FIE0004%2F364&parentid=IRE%2FIE0004%2F364%2F009"
+        },
+        {
+          "title": "Findmypast, Ireland Roman Catholic Parish Baptisms, IRE/PRS/BAP/3212705: John Glasco, 17 September 1784, St Michan’s, Dublin; Thomas Glasco and Eliza Hynes; transcript inspected, original uninspected; NLI microfilm 08829-08, image 0083",
+          "url": "https://www.findmypast.co.uk/transcript?id=IRE%2FPRS%2FBAP%2F3212705&tab=this"
+        },
+        {
+          "title": "Saunders’s News-Letter, marriage extraction under 19 July 1779: watchmaker Glasco of Christchurch Lane to Miss Hynes of Ormond Quay; forename Thomas is editorial in this extraction",
+          "url": "https://eddiesextracts.com/extracts1700/snl1773_99.html"
+        },
+        {
+          "title": "Watson’s 1783 Dublin directory, merchants and traders, p. 40 line 1: Thomas Glasco, watchmaker, 20 Ormond Quay; maintained transcription reused",
+          "url": "https://www.swilson.info/wat1783tr.php?brw=sur&brwkey=Glasco"
+        }
+      ],
+      "detail_url": "/branches/research-irish-dublin-watchmakers/#chapter-dublin-trinity-family",
+      "relationship_changes": [],
+      "new_father_attachments": 1,
+      "genealogical_connections_added": 0,
+      "certainty_upgrades": 0,
+      "new_source_discoveries": 3,
+      "new_original_inspections": 1
+    },
+    {
+      "id": "antigua-john-treasury-warrant-20261021",
+      "found_on": "2026-10-21",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "John Glasgow’sAntigua bounty traced to a£20 Treasury passage warrant inMarch1708,Money BookXIX p.200; orders11March,direction16March.",
+      "qualification": "Fothergill’s printed bounty list gives John Glasgow’s Antigua grant on 10 March 1707/8 (10 March 1708 in modern year numbering), Money Book 19, p. 200. The Treasury calendar’s March 10&15 group records a £20 passage warrant for John as chaplain to Antigua, money orders dated 11 March and a direction dated 16 March; it cites Money BookXIX pp.200, 204, Order BookVII p. 120 and Disposition BookXIX p. 118. The grouped heading does not independently assign 15 March to John. This identifies a specific financial trail for the existing 1708 event. Fothergill and the calendar abstract the same underlying warrant and are not independent family testimony. Neither gives a parent, birthplace, age, ordination or proof of arrival. The printed list and calendar were inspected; the original Treasury manuscripts were not. John remains distinct from the 1800 Trinity student and the Kilbirnie Presbyterian minister.",
+      "people": [
+        {
+          "id": "Glasgow-4127",
+          "name": "John Glasgow, Antigua chaplain",
+          "url": "/people/glasgow-4127.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Gerald Fothergill, A List of Emigrant Ministers to America, 1690–1811(1904), printed p. 30, PDF p. 38; original printed page inspected",
+          "url": "https://archive.org/details/listofemigrantmi00fothuoft/page/30/mode/1up"
+        },
+        {
+          "title": "William A.Shaw, Calendar of Treasury Books 22(1952), pp.152–162, March 1708, March 10&15 entry; Money BookXIX p. 200 etc.",
+          "url": "https://www.british-history.ac.uk/cal-treasury-books/vol22/pp152-162"
+        }
+      ],
+      "detail_url": "/people/glasgow-4127.html#research-findings",
+      "relationship_changes": [],
+      "new_father_attachments": 0,
+      "genealogical_connections_added": 0,
+      "certainty_upgrades": 0,
+      "new_source_discoveries": 0,
+      "new_original_inspections": 1
     }
   ]
 }

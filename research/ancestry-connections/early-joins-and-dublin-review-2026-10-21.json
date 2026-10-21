@@ -1,0 +1,52 @@
+{
+  "reviewed": "2026-10-21",
+  "early_priority_reviews": [
+    {
+      "child": "Glasgow-991",
+      "father": "record-george-mureistoun-1586",
+      "before": 82,
+      "after": 82,
+      "reason": "No new holding/kin record resolves father vs collateral; retain probable."
+    },
+    {
+      "child": "Glasgow-1604",
+      "father": "Glasgow-1603",
+      "before": 23,
+      "after": 23,
+      "reason": "Inherited Ancestry scaffold is not independent evidence; no upgrade."
+    },
+    {
+      "child": "Glasgow-1096",
+      "father": "Glasgow-1098",
+      "before": 74,
+      "after": 74,
+      "reason": "Correlated property/fisher network remains probable."
+    },
+    {
+      "child": "Glasgow-1168",
+      "father": "Glasgow-1098",
+      "before": 38,
+      "after": 38,
+      "reason": "James/Robert not proved siblings; no father-grade transfer."
+    }
+  ],
+  "new_selected_father": {
+    "child": "record-john-glasco-dublin-student-1800",
+    "father": "Glasco-144",
+    "percent": 63
+  },
+  "new_selected_mother": {
+    "child": "record-john-glasco-dublin-student-1800",
+    "mother": "record-eliza-hynes-dublin-1784",
+    "percent": 72
+  },
+  "baptism_student_identity_percent": 72,
+  "modern_identity_candidates_retained": [
+    "Glasgow-3946",
+    "Glasgow-3751"
+  ],
+  "scope": "Original Alumni Dublinenses p328 and Fothergill p30 inspected; Treasury calendar and Findmypast1784 baptism transcript read. Licensed/raw captures remain private. Local/global date-bounded John search complete within reported totals; Eliza fuzzy search incomplete99/254.",
+  "no_live_edits": true,
+  "no_new_profile_component_join": true,
+  "baseline_expectation": "No confident or supported fixed-profile-cohort increase: the new documentary leaf does not join two counted profile components."
+}
