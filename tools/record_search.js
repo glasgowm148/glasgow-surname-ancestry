@@ -1,4 +1,11 @@
 (()=>{
+  function recordMatchesScope(record,scopeIds,canonical){
+    if(!scopeIds) return true;
+    return [record.catalogue_id,...String(record.profile_ids||'').split('|')]
+      .some(value=>{const id=String(value||'').trim();return !!id&&scopeIds.has(canonical(id));});
+  }
+  if(typeof module!=='undefined'&&module.exports) module.exports={recordMatchesScope};
+  if(typeof document==='undefined') return;
   const controls={
     query:document.querySelector('#record-query'),from:document.querySelector('#record-from'),to:document.querySelector('#record-to'),
     region:document.querySelector('#record-region'),category:document.querySelector('#record-category'),
@@ -64,7 +71,7 @@
       if(controls.category.value&&!String(record.record_category||'').includes(controls.category.value)) return false;
       if(controls.quality.value&&record.supporting_source_quality!==controls.quality.value) return false;
       if(controls.status.value&&record.supporting_source_status!==controls.status.value) return false;
-      if(scopeIds&&!scopeIds.has(canonical(record.catalogue_id))) return false;
+      if(!recordMatchesScope(record,scopeIds,canonical)) return false;
       if(params.get('place')&&!normalise(record.record_location).includes(normalise(params.get('place')))&&!decodeURIComponent(record.place_url||'').includes('/places/'+params.get('place')+'.html'))return false;
       return true;
     }).sort((a,b)=>{if(controls.sort?.value==='name')return a.person.localeCompare(b.person);const ay=a.filter_year==null?null:Number(a.filter_year),by=b.filter_year==null?null:Number(b.filter_year);if(ay===null||by===null)return ay===by?a.person.localeCompare(b.person):ay===null?1:-1;const date=ay-by;return controls.sort?.value==='date-desc'?-date:date||a.person.localeCompare(b.person);});
