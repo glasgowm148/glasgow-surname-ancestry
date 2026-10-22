@@ -163,13 +163,14 @@ class TranslatorTests(unittest.TestCase):
             {"catalogue_id": "fable-2b", "profile_ids": ["Fable-2b"], "likely_living": False, "name": "Cal", "regions": ["The Fable Isles"],
              "birth_location": "Dock, Fableland, Old Union", "death_location": "Quay, Fableland"},
             {"catalogue_id": "living-1", "profile_ids": ["Living-1"], "likely_living": True, "clusters": ["Lanternby cluster"]},
-            {"catalogue_id": "fable-3", "profile_ids": ["Fable-3"], "likely_living": False, "clusters": ["Hidden-9 leads"]},
+            {"catalogue_id": "fable-3", "profile_ids": ["Fable-3"], "likely_living": False, "clusters": ["Hidden-9 leads"],
+             "records": [{"record_location": "Lanternby, North Shire, Fableland", "region": "Lanternby, North Shire, Fableland"}]},
         ]
         t.catalogue(rows)
         t.regions(rows)
         t.groups(rows)
         regions = {p.id: p.region for p in c.records("Place")}
-        self.assertEqual("The Fable Isles", regions["one-tree:place:lantern"])  # the region filed most often for that location
+        self.assertEqual("The Fable Isles", regions["one-tree:place:lantern"])  # the region filed most often; a region written as a place is re-filed by its parts
         self.assertEqual("The Fable Isles", regions["one-tree:place:moss"])  # "Fableland" is only ever filed under The Fable Isles
         self.assertEqual("The Fable Isles", regions["one-tree:place:ridge"])  # "Old Union" is split 1:1, so the next part decides
         self.assertIsNone(regions["one-tree:place:far"])

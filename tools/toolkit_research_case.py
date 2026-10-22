@@ -579,13 +579,6 @@ class Translator:
                     if tidy(row.get(key)):
                         filed[tidy(row[key]).casefold()][regions[0]] += 1
         clean = lambda part: part.strip(" .;:()").strip()
-        by_part: dict[str, Counter[str]] = defaultdict(Counter)
-        by_word: dict[str, Counter[str]] = defaultdict(Counter)
-        for where, counts in filed.items():
-            for part in {clean(part) for part in where.split(",") if clean(part)}:
-                by_part[part].update(counts)
-                for word in {clean(w) for w in part.split() if clean(w)}:
-                    by_word[word].update(counts)
 
         def decided(counts: Counter[str] | None) -> str | None:
             if not counts:
@@ -593,6 +586,28 @@ class Translator:
             region, n = counts.most_common(1)[0]
             return region if n * 5 >= sum(counts.values()) * 4 else None
 
+        def indexed(plain_only: bool = False) -> tuple[dict[str, Counter[str]], dict[str, Counter[str]]]:
+            by_part: dict[str, Counter[str]] = defaultdict(Counter)
+            by_word: dict[str, Counter[str]] = defaultdict(Counter)
+            for where, counts in filed.items():
+                kept = Counter({r: n for r, n in counts.items() if not (plain_only and "," in r)})
+                for part in {clean(part) for part in where.split(",") if clean(part)}:
+                    by_part[part].update(kept)
+                    for word in {clean(w) for w in part.split() if clean(w)}:
+                        by_word[word].update(kept)
+            return by_part, by_word
+
+        # A region written as a place ("Ballymena, County Antrim, Ireland") is filed like one, under the
+        # plain region its parts are known by; one with no known part is kept as written.
+        by_part, by_word = indexed(plain_only=True)
+        plain = {region for counts in filed.values() for region in counts if "," not in region}
+        for counts in filed.values():
+            for region in [r for r in counts if "," in r]:
+                parts = [clean(part) for part in region.casefold().split(",") if clean(part)]
+                known = next((r for part in reversed(parts) if (r := decided(by_part.get(part))) and r in plain), None)
+                if known:
+                    counts[known] += counts.pop(region)
+        by_part, by_word = indexed()
         for place in self.case.records("Place"):
             if place.region:
                 continue
