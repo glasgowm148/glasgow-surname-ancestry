@@ -5,6 +5,8 @@ Last updated: 2026-09-10
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **70% (probable)** for [Glasgow-1103](https://www.wikitree.com/wiki/Glasgow-1103). Probable inherited family placement, not proof from the Glasgow William/Bessie entry. The shared date does not establish a father replacement or a merge with Margaret-1524. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 The supplied 16 November 1643 entry belongs to the William Glasgow / Bessie Howie household, represented by [[Glasgow-1524|Margaret Glasgow]]. It does not establish the birth date or the Thomas Glasgow / Agnes Thomsone parentage of Glasgow-3050. The shared date is an unresolved attribution conflict, not sufficient grounds to merge or detach either profile.
 
 ## Priority action
@@ -39,3 +41,17 @@ A possible identification concerns Margaret Glasgow. The banns/marriage index re
 
 A possible identification concerns Margaret Glasgow. The banns/marriage index records Margaret Glasgow and John Tailzer on 18 December 1690 at Walston. (Scotland’s People: Old Parish Registers — banns and marriages: OPR 658/10 / 206; [record](https://www.scotlandspeople.gov.uk/).) The original parish register image has not been inspected. The combined index date does not by itself identify the precise event type. The identification remains uncertain.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, fifth batch — 22 October 2026
+
+[Glasgow-1103](https://www.wikitree.com/wiki/Glasgow-1103) remains the selected father, assessed **70% (probable)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+Inherited Thomas Glasgow/Agnes Thomsone parentage is unproved for Margaret-3050; its borrowed 16 November 1643 date belongs to a William Glasgow/Bessie Howie entry. The Thomas/Agnes Inveresk family sequence remains a specific, chronologically feasible basis for retaining Margaret as their child, despite the borrowed exact date.
+
+Scope: Probable inherited family placement, not proof from the Glasgow William/Bessie entry. The shared date does not establish a father replacement or a merge with Margaret-1524.
+
+Next useful test: Find an independent Inveresk Margaret entry in the Thomas/Agnes household.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [WikiTree profile export for Glasgow-3050](https://www.wikitree.com/wiki/Glasgow-3050)

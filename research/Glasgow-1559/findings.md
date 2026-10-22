@@ -5,6 +5,8 @@ Last updated: 2026-09-10
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **57% (possible)** for [Glasgow-1088](https://www.wikitree.com/wiki/Glasgow-1088). Possible placement with John-1088 specifically; no held record links the Glasgow childhood to the Duddingston John/Margaret Sluman household. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 John's latest live capture records his birth at Duddingston on **4 April 1639**, son of John Glasgow and Margaret Sluman. He cannot therefore be the JON / other JOHNE GLASGOW index event dated 15 January 1638 (Duddingston 684, reference 60/16).
 
 He is one of two chronological Duddingston candidates for the later index row dated 23 August 1641, but no identity match is established. Do not add either burial index row as his death without inspection of the original entry.
@@ -51,3 +53,17 @@ The index does not state an age, residence, parent, spouse, occupation or cause.
 
 Two existing Duddingston children are possible matches: [John Glasgow](https://www.wikitree.com/wiki/Glasgow-1559), recorded born 4 April 1639 to John Glasgow and Margaret Sluman, and [John Glasgow](https://www.wikitree.com/wiki/Glasgow-3014), recorded born 11 January 1638 to John Glasgow and Helen Patoune. The name, parish and chronology do not distinguish them. The identification remains uncertain.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, fifth batch — 22 October 2026
+
+[Glasgow-1088](https://www.wikitree.com/wiki/Glasgow-1088) remains the selected father, assessed **57% (possible)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+The Duddingston Johne child entry dated 4 April 1639 names Johne Glasgow and Margaret Sluman. The selected 1619 Glasgow child is of a feasible age for the 1639 father and lies within the wider Lothian Glasgow network, giving a workable inherited identification.
+
+Scope: Possible placement with John-1088 specifically; no held record links the Glasgow childhood to the Duddingston John/Margaret Sluman household.
+
+Next useful test: Find the Sluman marriage or a deed naming this John’s earlier relatives.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [FamilySearch (https://familysearch.org/ark:/61903/1:1:X1TP-WYF), indexed Duddingston child record; the source citation on this profile reads MARGARET SLUMAN, Duddingston, 1639, and JOHNE, 04-04-1639, JOHNE GLASGOW/MARGARET SLUMAN, FR48, parish 684. Original image not inspected.](https://familysearch.org/ark:/61903/1:1:X1TP-WYF)

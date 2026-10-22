@@ -3,6 +3,12 @@
 Last updated: 2026-09-10
 
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-4f35a440ff3b -->
+## Current conclusion
+
+Current father assessment (22 October 2026): **98% (proved)** for [Glasgow-1073](https://www.wikitree.com/wiki/Glasgow-1073). Confident for the recorded daughter’s paternity; no later marriage or adult identity is chosen by this rating. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
+Jeane's 16 April 1697 Kilbirnie index names John Glasgow and Jeane Cunynghame. The full John/Jeane couple and exact Kilbirnie entry match the selected minister’s established child sequence.
+
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-4f35a440ff3b
 
 The transcript-validated baptism record for **Jeane Glasgow**, 16 Apr 1697, Kilbirnie, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
@@ -38,3 +44,17 @@ Provenance: exact-surname Glasgow search, year range to 1700, 127 supplied resul
 Original image not inspected for this batch. The combined collection’s date does not automatically establish a birthday. Names alone do not uniquely identify attached parents or connect a child with a later adult. An omitted parent or indexed gender U remains unspecified in this source.
 
 **Next action:** No additional WikiTree update from this row; preserve any existing pending work.
+
+## Father confidence review, fifth batch — 22 October 2026
+
+[Glasgow-1073](https://www.wikitree.com/wiki/Glasgow-1073) remains the selected father, assessed **98% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+Jeane's 16 April 1697 Kilbirnie index names John Glasgow and Jeane Cunynghame. The full John/Jeane couple and exact Kilbirnie entry match the selected minister’s established child sequence.
+
+Scope: Confident for the recorded daughter’s paternity; no later marriage or adult identity is chosen by this rating.
+
+Next useful test: Use the original entry if the child is compared with a later Jeane.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [JEANE 16-04-1697 JOHN GLASGOW/JEANE CUNYNGHAME FR24 (FR24) Kilbirnie 596/ F](https://www.wikitree.com/wiki/Glasgow-1436)

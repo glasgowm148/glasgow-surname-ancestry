@@ -5,6 +5,8 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **41% (possible)** for [Glasgow-1498](https://www.wikitree.com/wiki/Glasgow-1498). Possible family-tree inference, without a direct parent clause. The corrected Elgin location error is not evidence for or against this father. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 No cited record proves Janet's Irish birth, dates or attachment to
 [John Glasgow (Glasgow-1498), born about 1650, Cavers, Roxburghshire](https://www.wikitree.com/wiki/Glasgow-1498).
 That John is documented in Scotland in 1679, but no record takes him to Ireland
@@ -40,3 +42,17 @@ Verified live **19 August 2026**: the birth estimate and place and the father
 link to Glasgow-1498 are uncertain. The biography explains the missing Irish
 and parentage evidence while preserving the prior memorial, generic collection
 and Elgin source only as qualified leads.
+
+## Father confidence review, fifth batch — 22 October 2026
+
+[Glasgow-1498](https://www.wikitree.com/wiki/Glasgow-1498) remains the selected father, assessed **41% (possible)**. Previous selected-tree status: **uncertain**, without an individual percentage.
+
+Inherited uncertain attachment to John-1498; no reviewed source names Janet as his daughter. John’s c 1650 generation fits Janet’s c 1678 estimate and the inherited Scottish-to-Irish family placement. No concrete competing father has been established.
+
+Scope: Possible family-tree inference, without a direct parent clause. The corrected Elgin location error is not evidence for or against this father.
+
+Next useful test: Find Janet’s marriage or estate identifying her father or siblings.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [WikiTree profile export for Glasgow-2249](https://www.wikitree.com/wiki/Glasgow-2249)

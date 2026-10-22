@@ -5,6 +5,8 @@ Last updated: 2026-09-26
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **72% (probable)** for [Glasgow-1087](https://www.wikitree.com/wiki/Glasgow-1087). Probable adult identity, with unresolved 1647/1649 event date. The June burial and September baptism are separate occurrences, and a narrative use of merged 2453 is not an additional father. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Reviewed: 2026-10-15
 
 
@@ -57,3 +59,17 @@ A separate [burial transcript, SCOT/OPR/BUR/1625437](https://www.findmypast.co.u
 ## Leithford household comparison — 17 October 2026
 
 The burial transcript explicitly names father William. The later Walter’s baptism names William at the same Leithford residence and register, supporting one household and reuse of the name after the June 1647 burial. William-1087’s 1609 Mid Calder childhood and possible 1648 fatherhood make him the preferred existing identity, at 68%. The exact-locality household link is stronger than county-level alternatives, but the cross-parish adult identity remains inferred. Another William of Leithford is the principal rival. No mother, age, exact death date or identity merge is inferred; retain both 1647/1649 baptism readings and the source-verification hold. The documentary father role is 98%; the shared-household comparison is 84%, with the profile-level father selection 68%. These are distinct scopes. [Complete burial account](/people/record-queue-early-scotland-1650-walter-buried-1647.html).
+
+## Father confidence review, fifth batch — 22 October 2026
+
+[Glasgow-1087](https://www.wikitree.com/wiki/Glasgow-1087) remains the selected father, assessed **72% (probable)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+Walter’s Kirknewton/East Calder derivative child record names father William Glasgow. The William father and Kirknewton/East Calder context fit the selected William’s local family sequence and generation.
+
+Scope: Probable adult identity, with unresolved 1647/1649 event date. The June burial and September baptism are separate occurrences, and a narrative use of merged 2453 is not an additional father.
+
+Next useful test: Compare both derivative readings with the original baptism and the distinct burial.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [https://www.familysearch.org/ark:/61903/1:1:VQ4K-FWL](https://www.familysearch.org/ark:/61903/1:1:VQ4K-FWL)

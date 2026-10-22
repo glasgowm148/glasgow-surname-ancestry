@@ -5,6 +5,8 @@ Last updated: 2026-09-10
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **73% (probable)** for [Glasgow-1087](https://www.wikitree.com/wiki/Glasgow-1087). Probable adult identification;11/14 November and the precise parish remain unresolved, and the record does not itself name William’s parents. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Helen is a possible, unproved identity for the 1672-06-21 Kirknewton and East Calder banns/marriages entry with James Hamiltoun. Name, district and age fit, but no indexed parent or residence bridges the child record to the adult. The date is not established as a wedding date.
 
 FamilySearch `VQ4K-H58` indexes Hellein Glasgow, 11 November 1652, under the
@@ -51,3 +53,17 @@ The supplied 14/11/1652 Kirknewton and East Calder index date differs from the p
 ## Priority action
 
 **Needs update on WikiTree:** the complete proposed biography records this comparison with prior sources and pending research retained. No structured date or relationship change is established by this index review.
+
+## Father confidence review, fifth batch — 22 October 2026
+
+[Glasgow-1087](https://www.wikitree.com/wiki/Glasgow-1087) remains the selected father, assessed **73% (probable)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+Hellein’s Kirknewton/East Calder child entry names father William Glasgow. The same William father and Kirknewton/East Calder setting fit the local 1643–55 child sequence and the selected 1609 William’s generation.
+
+Scope: Probable adult identification;11/14 November and the precise parish remain unresolved, and the record does not itself name William’s parents.
+
+Next useful test: Compare the 1652 original with the 1648 entries for residence or witnesses.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: ["Scotland Births and Baptisms, 1564-1950", database, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:VQ4K-H58 : 16 September 2021), William Glasgow in entry for Hellein Glasgow, 1652.](https://www.familysearch.org/ark:/61903/1:1:VQ4K-H58); [Scotland’s People, Old Parish Registers, births and baptisms (https://www.scotlandspeople.gov.uk/), exact surname Glasgow through 1700, index text supplied 10 September 2026: HELLEIN GLASGOW, 14/11/1652, WILLIAM GLASGOW/, indexed gender F, Kirknewton and East Calder, parish 690, reference 10 / 29. Original register image not inspected for this review.](https://www.scotlandspeople.gov.uk/)

@@ -12638,6 +12638,2872 @@
       ],
       "reviewed": "2026-10-22",
       "scope": "Probable family placement; later adult census and death-index references are not treated as named-parent records."
+    },
+    {
+      "subject_id": "Glasgow-3915",
+      "relative_id": "Glasgow-1098",
+      "relationship": "father",
+      "percent": 48,
+      "assessment_status": "possible",
+      "assertion_id": "C-coverage-20261022e-glasgow-3915-father",
+      "basis": "No parent is named. William is the possible father or close older kinsman inferred from his 1526 association with Alexander Kano/Kame and Elizabeth’s 1552 widowhood as Alexander Kaine’s widow on the Calder estate. The uncommon Kano/Kaine association and recurring Calder estate context support a real family connection; William’s established adult generation permits Elizabeth as a daughter.",
+      "source_ids": [
+        "held-e-305dfd092a3d"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Possible fatherhood specifically, rather than the better supported broad kin connection. Elizabeth’s estimated birth is not independent evidence excluding sister or niece."
+    },
+    {
+      "subject_id": "Glasgow-1098",
+      "relative_id": "Glasgow-3915",
+      "relationship": "child",
+      "percent": 48,
+      "assessment_status": "possible",
+      "assertion_id": "C-coverage-20261022e-glasgow-3915-father",
+      "basis": "No parent is named. William is the possible father or close older kinsman inferred from his 1526 association with Alexander Kano/Kame and Elizabeth’s 1552 widowhood as Alexander Kaine’s widow on the Calder estate. The uncommon Kano/Kaine association and recurring Calder estate context support a real family connection; William’s established adult generation permits Elizabeth as a daughter.",
+      "source_ids": [
+        "held-e-305dfd092a3d"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Possible fatherhood specifically, rather than the better supported broad kin connection. Elizabeth’s estimated birth is not independent evidence excluding sister or niece."
+    },
+    {
+      "subject_id": "Glasgow-3908",
+      "relative_id": "Glasgow-1168",
+      "relationship": "father",
+      "percent": 46,
+      "assessment_status": "possible",
+      "assertion_id": "C-coverage-20261022e-glasgow-3908-father",
+      "basis": "No parent is named. James elder of Corsankell is selected as a possible father or uncle of Matthew at Ardeer Nether from their common 1559–60 Stevenston tenant cluster and compatible generations. The same Stevenston estate landscape and an ordinary generation make James elder the preferred local father candidate, although nephew is also a natural fit.",
+      "source_ids": [
+        "held-e-7e3633daad9a"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Possible father, not a statement that the teind list names Matthew as James’s son. The proved James and John sons do not exclude another child."
+    },
+    {
+      "subject_id": "Glasgow-1168",
+      "relative_id": "Glasgow-3908",
+      "relationship": "child",
+      "percent": 46,
+      "assessment_status": "possible",
+      "assertion_id": "C-coverage-20261022e-glasgow-3908-father",
+      "basis": "No parent is named. James elder of Corsankell is selected as a possible father or uncle of Matthew at Ardeer Nether from their common 1559–60 Stevenston tenant cluster and compatible generations. The same Stevenston estate landscape and an ordinary generation make James elder the preferred local father candidate, although nephew is also a natural fit.",
+      "source_ids": [
+        "held-e-7e3633daad9a"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Possible father, not a statement that the teind list names Matthew as James’s son. The proved James and John sons do not exclude another child."
+    },
+    {
+      "subject_id": "Glasgow-3026",
+      "relative_id": "Glasgow-1097",
+      "relationship": "father",
+      "percent": 18,
+      "assessment_status": "uncertain",
+      "assertion_id": "C-coverage-20261022e-glasgow-3026-father",
+      "basis": "Inherited uncertain attachment to Archibald; current findings identify no leading father or property/personal bridge to Isabella. Archibald’s c 1525 generation could father Isabella c 1560, but no positive personal or property association selects him over the other Glasgow adults.",
+      "source_ids": [
+        "held-e-c02682f9b03a"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "A weak retained attachment. Robert’s David Howe contacts do not repair it, because Isabella’s dyer husband belongs to a different proved Howe household."
+    },
+    {
+      "subject_id": "Glasgow-1097",
+      "relative_id": "Glasgow-3026",
+      "relationship": "child",
+      "percent": 18,
+      "assessment_status": "uncertain",
+      "assertion_id": "C-coverage-20261022e-glasgow-3026-father",
+      "basis": "Inherited uncertain attachment to Archibald; current findings identify no leading father or property/personal bridge to Isabella. Archibald’s c 1525 generation could father Isabella c 1560, but no positive personal or property association selects him over the other Glasgow adults.",
+      "source_ids": [
+        "held-e-c02682f9b03a"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "A weak retained attachment. Robert’s David Howe contacts do not repair it, because Isabella’s dyer husband belongs to a different proved Howe household."
+    },
+    {
+      "subject_id": "Glasgow-3917",
+      "relative_id": "Glasgow-3522",
+      "relationship": "father",
+      "percent": 26,
+      "assessment_status": "uncertain",
+      "assertion_id": "C-coverage-20261022e-glasgow-3917-father",
+      "basis": "Inherited uncertain attachment to William Glasgow-3522. William Pady’s 1599 burgess admission says husband of a burgess’s daughter but names neither wife nor father. William is a compatible Glasgow burgess of the preceding generation, so Pady’s burgess-daughter admission gives a useful class and locality fit. It cannot distinguish him from other burgess fathers.",
+      "source_ids": [
+        "held-inherited-father-glasgow-3917"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Uncertain William placement. Andrew’s testament daughter Jonet is also an unproved compatible comparison; absence of a further bridge alone does not exclude her identity with this woman. No new parent or identity merge is inferred."
+    },
+    {
+      "subject_id": "Glasgow-3522",
+      "relative_id": "Glasgow-3917",
+      "relationship": "child",
+      "percent": 26,
+      "assessment_status": "uncertain",
+      "assertion_id": "C-coverage-20261022e-glasgow-3917-father",
+      "basis": "Inherited uncertain attachment to William Glasgow-3522. William Pady’s 1599 burgess admission says husband of a burgess’s daughter but names neither wife nor father. William is a compatible Glasgow burgess of the preceding generation, so Pady’s burgess-daughter admission gives a useful class and locality fit. It cannot distinguish him from other burgess fathers.",
+      "source_ids": [
+        "held-inherited-father-glasgow-3917"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Uncertain William placement. Andrew’s testament daughter Jonet is also an unproved compatible comparison; absence of a further bridge alone does not exclude her identity with this woman. No new parent or identity merge is inferred."
+    },
+    {
+      "subject_id": "Glasgow-3613",
+      "relative_id": "Glasgow-1096",
+      "relationship": "father",
+      "percent": 22,
+      "assessment_status": "uncertain",
+      "assertion_id": "C-coverage-20261022e-glasgow-3613-father",
+      "basis": "Inherited uncertain attachment to Robert Glasgow-1096; Margaret’s CC8/8/8 testament names her spouse and son but no parent. Robert’s c 1520 generation is compatible with Margaret’s life, but her Croftmalloch testament supplies no paternal connection to his Glasgow household.",
+      "source_ids": [
+        "held-inherited-father-glasgow-3613"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Uncertain retained attachment; Margaret’s spouse, son and death evidence are not repurposed as proof of her own parents."
+    },
+    {
+      "subject_id": "Glasgow-1096",
+      "relative_id": "Glasgow-3613",
+      "relationship": "child",
+      "percent": 22,
+      "assessment_status": "uncertain",
+      "assertion_id": "C-coverage-20261022e-glasgow-3613-father",
+      "basis": "Inherited uncertain attachment to Robert Glasgow-1096; Margaret’s CC8/8/8 testament names her spouse and son but no parent. Robert’s c 1520 generation is compatible with Margaret’s life, but her Croftmalloch testament supplies no paternal connection to his Glasgow household.",
+      "source_ids": [
+        "held-inherited-father-glasgow-3613"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Uncertain retained attachment; Margaret’s spouse, son and death evidence are not repurposed as proof of her own parents."
+    },
+    {
+      "subject_id": "Glasgow-1495",
+      "relative_id": "Glasgow-3921",
+      "relationship": "father",
+      "percent": 47,
+      "assessment_status": "possible",
+      "assertion_id": "C-coverage-20261022e-glasgow-1495-father",
+      "basis": "Inherited uncertain attachment to James Glasgow younger-3921; Katherine’s Stevenston testament names no parent. The selected younger James belongs to the same Stevenston/Corsankell setting and has a feasible generation for Katherine. This is a specific local-family hypothesis rather than a proved daughter clause.",
+      "source_ids": [
+        "held-inherited-father-glasgow-1495"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Possible fatherhood; the testament’s Glencairn/local network supports geography but does not name a Glasgow parent."
+    },
+    {
+      "subject_id": "Glasgow-3921",
+      "relative_id": "Glasgow-1495",
+      "relationship": "child",
+      "percent": 47,
+      "assessment_status": "possible",
+      "assertion_id": "C-coverage-20261022e-glasgow-1495-father",
+      "basis": "Inherited uncertain attachment to James Glasgow younger-3921; Katherine’s Stevenston testament names no parent. The selected younger James belongs to the same Stevenston/Corsankell setting and has a feasible generation for Katherine. This is a specific local-family hypothesis rather than a proved daughter clause.",
+      "source_ids": [
+        "held-inherited-father-glasgow-1495"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Possible fatherhood; the testament’s Glencairn/local network supports geography but does not name a Glasgow parent."
+    },
+    {
+      "subject_id": "Glasgow-3179",
+      "relative_id": "Glasgow-3921",
+      "relationship": "father",
+      "percent": 51,
+      "assessment_status": "possible",
+      "assertion_id": "C-coverage-20261022e-glasgow-3179-father",
+      "basis": "Inherited uncertain attachment to James Glasgow-3921; Geillis’s testament names a James Glasgow in Stevenston as creditor without stating kinship. The Stevenston James Glasgow creditor is a positive personal contact, and the selected younger James has a compatible generation and locality. Together these favour a family relationship over chronology alone.",
+      "source_ids": [
+        "held-inherited-father-glasgow-3179"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Possible paternity. The creditor is not expressly called father and may represent James elder or another local James; Geillis’s own child/executor readings are separate."
+    },
+    {
+      "subject_id": "Glasgow-3921",
+      "relative_id": "Glasgow-3179",
+      "relationship": "child",
+      "percent": 51,
+      "assessment_status": "possible",
+      "assertion_id": "C-coverage-20261022e-glasgow-3179-father",
+      "basis": "Inherited uncertain attachment to James Glasgow-3921; Geillis’s testament names a James Glasgow in Stevenston as creditor without stating kinship. The Stevenston James Glasgow creditor is a positive personal contact, and the selected younger James has a compatible generation and locality. Together these favour a family relationship over chronology alone.",
+      "source_ids": [
+        "held-inherited-father-glasgow-3179"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Possible paternity. The creditor is not expressly called father and may represent James elder or another local James; Geillis’s own child/executor readings are separate."
+    },
+    {
+      "subject_id": "Glasgow-3589",
+      "relative_id": "Glasgow-3181",
+      "relationship": "father",
+      "percent": 99,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-3589-father",
+      "basis": "The accepted reading of John’s 1577 testament names Katherine and Marjory (m[ar]iory) as his lawful children and executors-dative. The accepted human reading explicitly establishes the named daughter’s relationship to this record-defined John. It supersedes the earlier Andrew reading.",
+      "source_ids": [
+        "held-e-6f950fdfcfc4"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident paternity for Marjory in this testament; her estimated birth, later identity and the widow’s maternity remain separate."
+    },
+    {
+      "subject_id": "Glasgow-3181",
+      "relative_id": "Glasgow-3589",
+      "relationship": "child",
+      "percent": 99,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-3589-father",
+      "basis": "The accepted reading of John’s 1577 testament names Katherine and Marjory (m[ar]iory) as his lawful children and executors-dative. The accepted human reading explicitly establishes the named daughter’s relationship to this record-defined John. It supersedes the earlier Andrew reading.",
+      "source_ids": [
+        "held-e-6f950fdfcfc4"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident paternity for Marjory in this testament; her estimated birth, later identity and the widow’s maternity remain separate."
+    },
+    {
+      "subject_id": "Glasgow-3590",
+      "relative_id": "Glasgow-3181",
+      "relationship": "father",
+      "percent": 99,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-3590-father",
+      "basis": "John’s 1577 testament names Katherine and Marjory as his lawful children and executors-dative. The named lawful child and executor clause directly establishes this Katherine’s father. The record-defined John is securely identified by the same estate.",
+      "source_ids": [
+        "held-e-28fa3c986ee0"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for the daughter; the wage-creditor Katherine need not be the same person, and maternity is not inferred from the uncertain pronoun."
+    },
+    {
+      "subject_id": "Glasgow-3181",
+      "relative_id": "Glasgow-3590",
+      "relationship": "child",
+      "percent": 99,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-3590-father",
+      "basis": "John’s 1577 testament names Katherine and Marjory as his lawful children and executors-dative. The named lawful child and executor clause directly establishes this Katherine’s father. The record-defined John is securely identified by the same estate.",
+      "source_ids": [
+        "held-e-28fa3c986ee0"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for the daughter; the wage-creditor Katherine need not be the same person, and maternity is not inferred from the uncertain pronoun."
+    },
+    {
+      "subject_id": "Glasgow-567",
+      "relative_id": "Glasgow-3522",
+      "relationship": "father",
+      "percent": 24,
+      "assessment_status": "uncertain",
+      "assertion_id": "C-coverage-20261022e-glasgow-567-father",
+      "basis": "Inherited William-3522 attachment is unproved. The 1586 protocols identify William and Margaret Herbesoun as parents of George-1099 only and never name Barbara or call her George’s sister. William’s c 1540 generation could father Barbara c 1585, but the contemporary George-son evidence does not connect Barbara to that couple. Her 1611 maternity proves her own adult family only.",
+      "source_ids": [
+        "held-e-b889fa34a727"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "The saved confident father flag exceeds the held evidence. This is an uncertain retained placement, without excluding William merely because George was son and heir."
+    },
+    {
+      "subject_id": "Glasgow-3522",
+      "relative_id": "Glasgow-567",
+      "relationship": "child",
+      "percent": 24,
+      "assessment_status": "uncertain",
+      "assertion_id": "C-coverage-20261022e-glasgow-567-father",
+      "basis": "Inherited William-3522 attachment is unproved. The 1586 protocols identify William and Margaret Herbesoun as parents of George-1099 only and never name Barbara or call her George’s sister. William’s c 1540 generation could father Barbara c 1585, but the contemporary George-son evidence does not connect Barbara to that couple. Her 1611 maternity proves her own adult family only.",
+      "source_ids": [
+        "held-e-b889fa34a727"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "The saved confident father flag exceeds the held evidence. This is an uncertain retained placement, without excluding William merely because George was son and heir."
+    },
+    {
+      "subject_id": "Glasgow-3061",
+      "relative_id": "Glasgow-1099",
+      "relationship": "father",
+      "percent": 99,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-3061-father",
+      "basis": "John Stewart’s burgess admission, 25 November 1624, calls his wife Jonat the lawful daughter of George Glasgow, merchant, burgess and guild brother. The admission’s explicit lawful-daughter wording and George’s specific merchant/burgess identity match the selected Glasgow father.",
+      "source_ids": [
+        "held-e-0c9a43df992c"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for the burgess’s daughter; an estimated birth is not converted into a baptism date."
+    },
+    {
+      "subject_id": "Glasgow-1099",
+      "relative_id": "Glasgow-3061",
+      "relationship": "child",
+      "percent": 99,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-3061-father",
+      "basis": "John Stewart’s burgess admission, 25 November 1624, calls his wife Jonat the lawful daughter of George Glasgow, merchant, burgess and guild brother. The admission’s explicit lawful-daughter wording and George’s specific merchant/burgess identity match the selected Glasgow father.",
+      "source_ids": [
+        "held-e-0c9a43df992c"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for the burgess’s daughter; an estimated birth is not converted into a baptism date."
+    },
+    {
+      "subject_id": "Glasgow-994",
+      "relative_id": "Glasgow-991",
+      "relationship": "father",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-994-father",
+      "basis": "The 27 February 1609 Inveresk child record names James Glasgow as Eduard’s father. The exact Inveresk event matches Eduard’s child account and the selected James’s recurring parish family.",
+      "source_ids": [
+        "held-e-b552af6d5f0e",
+        "held-e-0ca5eaf19197"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for the recorded child and father, without choosing a later adult Edward identity or inventing a mother."
+    },
+    {
+      "subject_id": "Glasgow-991",
+      "relative_id": "Glasgow-994",
+      "relationship": "child",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-994-father",
+      "basis": "The 27 February 1609 Inveresk child record names James Glasgow as Eduard’s father. The exact Inveresk event matches Eduard’s child account and the selected James’s recurring parish family.",
+      "source_ids": [
+        "held-e-b552af6d5f0e",
+        "held-e-0ca5eaf19197"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for the recorded child and father, without choosing a later adult Edward identity or inventing a mother."
+    },
+    {
+      "subject_id": "Glasgow-1556",
+      "relative_id": "Glasgow-3075",
+      "relationship": "father",
+      "percent": 55,
+      "assessment_status": "possible",
+      "assertion_id": "C-coverage-20261022e-glasgow-1556-father",
+      "basis": "Glasgow High Kirk baptism, 8 November 1612, calls William the lawful son of William Glasgw and Christian Scot. The child’s named father William fits the selected William’s generation, but Christian Scot in Glasgow differs from the 1610–16 Catherine Fraser South Leith family. The two households cannot simply be treated as the same couple.",
+      "source_ids": [
+        "held-e-9520e4f7d2a6"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Possible identification with William-3075 specifically. The record’s named father is secure; birth/baptism date and maternal-household conflicts remain open."
+    },
+    {
+      "subject_id": "Glasgow-3075",
+      "relative_id": "Glasgow-1556",
+      "relationship": "child",
+      "percent": 55,
+      "assessment_status": "possible",
+      "assertion_id": "C-coverage-20261022e-glasgow-1556-father",
+      "basis": "Glasgow High Kirk baptism, 8 November 1612, calls William the lawful son of William Glasgw and Christian Scot. The child’s named father William fits the selected William’s generation, but Christian Scot in Glasgow differs from the 1610–16 Catherine Fraser South Leith family. The two households cannot simply be treated as the same couple.",
+      "source_ids": [
+        "held-e-9520e4f7d2a6"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Possible identification with William-3075 specifically. The record’s named father is secure; birth/baptism date and maternal-household conflicts remain open."
+    },
+    {
+      "subject_id": "Glasgow-3055",
+      "relative_id": "Glasgow-1561",
+      "relationship": "father",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-3055-father",
+      "basis": "The 1613 Linlithgow Jean child account identifies John Glasgow as father. John-1561 represents the recurring Linlithgow father in the same child sequence, making this a strong parish-family match.",
+      "source_ids": [
+        "held-e-fa8237affbb6"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident paternity for the recorded Jean; the 7/17 July transcript conflict is retained without a vital-field overwrite."
+    },
+    {
+      "subject_id": "Glasgow-1561",
+      "relative_id": "Glasgow-3055",
+      "relationship": "child",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-3055-father",
+      "basis": "The 1613 Linlithgow Jean child account identifies John Glasgow as father. John-1561 represents the recurring Linlithgow father in the same child sequence, making this a strong parish-family match.",
+      "source_ids": [
+        "held-e-fa8237affbb6"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident paternity for the recorded Jean; the 7/17 July transcript conflict is retained without a vital-field overwrite."
+    },
+    {
+      "subject_id": "Glasgow-3517",
+      "relative_id": "Glasgow-991",
+      "relationship": "father",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-3517-father",
+      "basis": "The Inveresk William child record indexed 10 July 1614 names James Glasgow as father and no mother. The exact child event belongs to James’s recurring Inveresk family and expressly names the father.",
+      "source_ids": [
+        "held-e-aafa65adf8e3",
+        "held-e-49e7e62df065"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for this recorded son; no mother or later adult identity is supplied by the father-only index."
+    },
+    {
+      "subject_id": "Glasgow-991",
+      "relative_id": "Glasgow-3517",
+      "relationship": "child",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-3517-father",
+      "basis": "The Inveresk William child record indexed 10 July 1614 names James Glasgow as father and no mother. The exact child event belongs to James’s recurring Inveresk family and expressly names the father.",
+      "source_ids": [
+        "held-e-aafa65adf8e3",
+        "held-e-49e7e62df065"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for this recorded son; no mother or later adult identity is supplied by the father-only index."
+    },
+    {
+      "subject_id": "Glasgow-1558",
+      "relative_id": "Glasgow-1557",
+      "relationship": "father",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-1558-father",
+      "basis": "The Inveresk Edward child event indexed 6 June 1615 names father Edward Glasgow; the mother is omitted. Edward-1557 represents the adult Inveresk father in this record, so the exact child event supports the paternal relationship.",
+      "source_ids": [
+        "held-e-60029920ce8e"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for the recorded child and father; competing later lives of the two Edwards and Eduard-994 remain separately qualified."
+    },
+    {
+      "subject_id": "Glasgow-1557",
+      "relative_id": "Glasgow-1558",
+      "relationship": "child",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-1558-father",
+      "basis": "The Inveresk Edward child event indexed 6 June 1615 names father Edward Glasgow; the mother is omitted. Edward-1557 represents the adult Inveresk father in this record, so the exact child event supports the paternal relationship.",
+      "source_ids": [
+        "held-e-60029920ce8e"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for the recorded child and father; competing later lives of the two Edwards and Eduard-994 remain separately qualified."
+    },
+    {
+      "subject_id": "Glasgow-3361",
+      "relative_id": "Glasgow-3075",
+      "relationship": "father",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-3361-father",
+      "basis": "The held 1616 South Leith baptism citation identifies Bessie Glascow; the captured account names William Glasgow and Catherine Fraser as parents. South Leith, the full William/Catherine couple and the 1616 child fit the selected father’s documented 1610 marriage family.",
+      "source_ids": [
+        "held-e-5542087a9374"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for this recorded household; the separate Christian Scot child does not become Catherine’s child through this assessment."
+    },
+    {
+      "subject_id": "Glasgow-3075",
+      "relative_id": "Glasgow-3361",
+      "relationship": "child",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-3361-father",
+      "basis": "The held 1616 South Leith baptism citation identifies Bessie Glascow; the captured account names William Glasgow and Catherine Fraser as parents. South Leith, the full William/Catherine couple and the 1616 child fit the selected father’s documented 1610 marriage family.",
+      "source_ids": [
+        "held-e-5542087a9374"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for this recorded household; the separate Christian Scot child does not become Catherine’s child through this assessment."
+    },
+    {
+      "subject_id": "Glasgow-3056",
+      "relative_id": "Glasgow-1561",
+      "relationship": "father",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-3056-father",
+      "basis": "The 1617 Linlithgow John child account is attached to father John Glasgow and cites FamilySearch X1RV-T85. The recurring Linlithgow John household and exact 1617 event match the selected father’s family.",
+      "source_ids": [
+        "held-e-54a9b3d59795"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident paternity for the child; the blank-forename 1670 death entry does not prove this son’s adult death."
+    },
+    {
+      "subject_id": "Glasgow-1561",
+      "relative_id": "Glasgow-3056",
+      "relationship": "child",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-3056-father",
+      "basis": "The 1617 Linlithgow John child account is attached to father John Glasgow and cites FamilySearch X1RV-T85. The recurring Linlithgow John household and exact 1617 event match the selected father’s family.",
+      "source_ids": [
+        "held-e-54a9b3d59795"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident paternity for the child; the blank-forename 1670 death entry does not prove this son’s adult death."
+    },
+    {
+      "subject_id": "Glasgow-993",
+      "relative_id": "Glasgow-991",
+      "relationship": "father",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-993-father",
+      "basis": "The Inveresk Agnes child entry of 22 February 1618 names James Glasgow as father and omits her mother. The exact Inveresk Agnes event is part of the selected James’s recorded parish family.",
+      "source_ids": [
+        "held-e-408e941698d3",
+        "held-e-401a6bdf99ae"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for the indexed child and named father; mother and later identity are independently assessed."
+    },
+    {
+      "subject_id": "Glasgow-991",
+      "relative_id": "Glasgow-993",
+      "relationship": "child",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-993-father",
+      "basis": "The Inveresk Agnes child entry of 22 February 1618 names James Glasgow as father and omits her mother. The exact Inveresk Agnes event is part of the selected James’s recorded parish family.",
+      "source_ids": [
+        "held-e-408e941698d3",
+        "held-e-401a6bdf99ae"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for the indexed child and named father; mother and later identity are independently assessed."
+    },
+    {
+      "subject_id": "Glasgow-1560",
+      "relative_id": "Glasgow-1561",
+      "relationship": "father",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-1560-father",
+      "basis": "The 20 January 1622 Linlithgow baptism identifies George as the child of John Glesgow. The exact Linlithgow event and recurring John family identify the selected father.",
+      "source_ids": [
+        "linlithgow-george-1622-comparison"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for the recorded child; the index date remains a baptism/event date rather than an automatic birthday."
+    },
+    {
+      "subject_id": "Glasgow-1561",
+      "relative_id": "Glasgow-1560",
+      "relationship": "child",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-1560-father",
+      "basis": "The 20 January 1622 Linlithgow baptism identifies George as the child of John Glesgow. The exact Linlithgow event and recurring John family identify the selected father.",
+      "source_ids": [
+        "linlithgow-george-1622-comparison"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for the recorded child; the index date remains a baptism/event date rather than an automatic birthday."
+    },
+    {
+      "subject_id": "Glasgow-1517",
+      "relative_id": "Glasgow-1027",
+      "relationship": "father",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-1517-father",
+      "basis": "Elizabethe’s 24 August 1625 Glasgow child entry names Robert Glasgow and Jonet Cuninghame. The full Robert/Jonet Cuninghame couple and Glasgow parish sequence match the selected father’s established household.",
+      "source_ids": [
+        "held-e-3ddfe35e1d7d"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident recorded parentage; estimates in the structured birth field are not newly resolved."
+    },
+    {
+      "subject_id": "Glasgow-1027",
+      "relative_id": "Glasgow-1517",
+      "relationship": "child",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-1517-father",
+      "basis": "Elizabethe’s 24 August 1625 Glasgow child entry names Robert Glasgow and Jonet Cuninghame. The full Robert/Jonet Cuninghame couple and Glasgow parish sequence match the selected father’s established household.",
+      "source_ids": [
+        "held-e-3ddfe35e1d7d"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident recorded parentage; estimates in the structured birth field are not newly resolved."
+    },
+    {
+      "subject_id": "Glasgow-1490",
+      "relative_id": "Glasgow-1027",
+      "relationship": "father",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-1490-father",
+      "basis": "Cathren’s Glasgow child entry dated 2 October 1627 names Rot./Robert Glasgow and Jonet Cuningham. The full Robert/Jonet couple recurs with the earlier children of the selected Robert and identifies this household.",
+      "source_ids": [
+        "held-e-8533b5c0d0c7"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for the 1627 recorded daughter; surname and abbreviated father-name variants remain literal source forms."
+    },
+    {
+      "subject_id": "Glasgow-1027",
+      "relative_id": "Glasgow-1490",
+      "relationship": "child",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-1490-father",
+      "basis": "Cathren’s Glasgow child entry dated 2 October 1627 names Rot./Robert Glasgow and Jonet Cuningham. The full Robert/Jonet couple recurs with the earlier children of the selected Robert and identifies this household.",
+      "source_ids": [
+        "held-e-8533b5c0d0c7"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for the 1627 recorded daughter; surname and abbreviated father-name variants remain literal source forms."
+    },
+    {
+      "subject_id": "Glasgow-1522",
+      "relative_id": "Glasgow-992",
+      "relationship": "father",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-1522-father",
+      "basis": "Jonet’s Glasgow child entry dated 30 July 1636 names Wm. Glasgow and Bessie Howie. The full William/Bessie Howie couple matches the selected father’s recurring Glasgow family, beginning with this 1636 child.",
+      "source_ids": [
+        "held-e-14910e6385e4"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident record-defined household parentage; William’s earlier origin remains separate."
+    },
+    {
+      "subject_id": "Glasgow-992",
+      "relative_id": "Glasgow-1522",
+      "relationship": "child",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-1522-father",
+      "basis": "Jonet’s Glasgow child entry dated 30 July 1636 names Wm. Glasgow and Bessie Howie. The full William/Bessie Howie couple matches the selected father’s recurring Glasgow family, beginning with this 1636 child.",
+      "source_ids": [
+        "held-e-14910e6385e4"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident record-defined household parentage; William’s earlier origin remains separate."
+    },
+    {
+      "subject_id": "Glasgow-3519",
+      "relative_id": "Glasgow-1157",
+      "relationship": "father",
+      "percent": 43,
+      "assessment_status": "possible",
+      "assertion_id": "C-coverage-20261022e-glasgow-3519-father",
+      "basis": "Inherited claim that Edward was son of Robert Glasgow and Ann Johnson, born 1637 in Virginia. The specific Robert/Ann Johnson family account supplies a feasible father generation for the estimated 1637 Virginia child, but no independent parent record is identified.",
+      "source_ids": [
+        "held-e-d965c1d98348"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Possible inherited family placement. Edward’s Travis name, Virginia origin and the father’s Scottish childhood do not become proved through this review."
+    },
+    {
+      "subject_id": "Glasgow-1157",
+      "relative_id": "Glasgow-3519",
+      "relationship": "child",
+      "percent": 43,
+      "assessment_status": "possible",
+      "assertion_id": "C-coverage-20261022e-glasgow-3519-father",
+      "basis": "Inherited claim that Edward was son of Robert Glasgow and Ann Johnson, born 1637 in Virginia. The specific Robert/Ann Johnson family account supplies a feasible father generation for the estimated 1637 Virginia child, but no independent parent record is identified.",
+      "source_ids": [
+        "held-e-d965c1d98348"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Possible inherited family placement. Edward’s Travis name, Virginia origin and the father’s Scottish childhood do not become proved through this review."
+    },
+    {
+      "subject_id": "Glasgow-3014",
+      "relative_id": "Glasgow-1084",
+      "relationship": "father",
+      "percent": 63,
+      "assessment_status": "probable",
+      "assertion_id": "C-coverage-20261022e-glasgow-3014-father",
+      "basis": "The Duddingston Johne child entry dated 11 January 1638 names Johne Glasgow and Helene Patoune. The 1616 Mid Calder child would be about twenty-two at the Duddingston event; the same name and nearby Lothian setting support the proposed adult continuity.",
+      "source_ids": [
+        "held-e-ab293bbdaf12"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Probable at a modest level for John-1084 specifically; the record father John is explicit, but the childhood-to-adult identification and Patoune/Porteous household continuity remain open."
+    },
+    {
+      "subject_id": "Glasgow-1084",
+      "relative_id": "Glasgow-3014",
+      "relationship": "child",
+      "percent": 63,
+      "assessment_status": "probable",
+      "assertion_id": "C-coverage-20261022e-glasgow-3014-father",
+      "basis": "The Duddingston Johne child entry dated 11 January 1638 names Johne Glasgow and Helene Patoune. The 1616 Mid Calder child would be about twenty-two at the Duddingston event; the same name and nearby Lothian setting support the proposed adult continuity.",
+      "source_ids": [
+        "held-e-ab293bbdaf12"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Probable at a modest level for John-1084 specifically; the record father John is explicit, but the childhood-to-adult identification and Patoune/Porteous household continuity remain open."
+    },
+    {
+      "subject_id": "Glasgow-1523",
+      "relative_id": "Glasgow-992",
+      "relationship": "father",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-1523-father",
+      "basis": "Margaret’s Glasgow child entry dated 15 February 1638 names Wm. Glasgow and Bessie Howie. The full William/Bessie Howie couple and exact event fit the recurring selected Glasgow household.",
+      "source_ids": [
+        "held-e-b59a8e651c1e"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for the 1638 child. The later 1643 Margaret entry remains a separate event; no survival or duplicate conclusion is made."
+    },
+    {
+      "subject_id": "Glasgow-992",
+      "relative_id": "Glasgow-1523",
+      "relationship": "child",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-1523-father",
+      "basis": "Margaret’s Glasgow child entry dated 15 February 1638 names Wm. Glasgow and Bessie Howie. The full William/Bessie Howie couple and exact event fit the recurring selected Glasgow household.",
+      "source_ids": [
+        "held-e-b59a8e651c1e"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for the 1638 child. The later 1643 Margaret entry remains a separate event; no survival or duplicate conclusion is made."
+    },
+    {
+      "subject_id": "Glasgow-1559",
+      "relative_id": "Glasgow-1088",
+      "relationship": "father",
+      "percent": 57,
+      "assessment_status": "possible",
+      "assertion_id": "C-coverage-20261022e-glasgow-1559-father",
+      "basis": "The Duddingston Johne child entry dated 4 April 1639 names Johne Glasgow and Margaret Sluman. The selected 1619 Glasgow child is of a feasible age for the 1639 father and lies within the wider Lothian Glasgow network, giving a workable inherited identification.",
+      "source_ids": [
+        "held-e-b9f568ffe877"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Possible placement with John-1088 specifically; no held record links the Glasgow childhood to the Duddingston John/Margaret Sluman household."
+    },
+    {
+      "subject_id": "Glasgow-1088",
+      "relative_id": "Glasgow-1559",
+      "relationship": "child",
+      "percent": 57,
+      "assessment_status": "possible",
+      "assertion_id": "C-coverage-20261022e-glasgow-1559-father",
+      "basis": "The Duddingston Johne child entry dated 4 April 1639 names Johne Glasgow and Margaret Sluman. The selected 1619 Glasgow child is of a feasible age for the 1639 father and lies within the wider Lothian Glasgow network, giving a workable inherited identification.",
+      "source_ids": [
+        "held-e-b9f568ffe877"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Possible placement with John-1088 specifically; no held record links the Glasgow childhood to the Duddingston John/Margaret Sluman household."
+    },
+    {
+      "subject_id": "Glasgow-1518",
+      "relative_id": "Glasgow-992",
+      "relationship": "father",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-1518-father",
+      "basis": "Dauid’s Glasgow child entry dated 22 September 1639 names William Glasgow and Bessie Howie. The full William/Bessie household and exact Glasgow child date identify the selected record father.",
+      "source_ids": [
+        "held-e-839d54de25b6"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for this child’s paternity; the 1666 Marion Pedie husband remains an independent adult-identification question."
+    },
+    {
+      "subject_id": "Glasgow-992",
+      "relative_id": "Glasgow-1518",
+      "relationship": "child",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-1518-father",
+      "basis": "Dauid’s Glasgow child entry dated 22 September 1639 names William Glasgow and Bessie Howie. The full William/Bessie household and exact Glasgow child date identify the selected record father.",
+      "source_ids": [
+        "held-e-839d54de25b6"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for this child’s paternity; the 1666 Marion Pedie husband remains an independent adult-identification question."
+    },
+    {
+      "subject_id": "Glasgow-1497",
+      "relative_id": "Glasgow-992",
+      "relationship": "father",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-1497-father",
+      "basis": "William’s Glasgow child entry dated 24 October 1641 names William Glasgow and Bessy Howie. The named parental couple matches William-992’s recurring Glasgow family.",
+      "source_ids": [
+        "held-e-3cc31b6371b9"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for the 1641 child; another same-name child/event is not automatically merged."
+    },
+    {
+      "subject_id": "Glasgow-992",
+      "relative_id": "Glasgow-1497",
+      "relationship": "child",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-1497-father",
+      "basis": "William’s Glasgow child entry dated 24 October 1641 names William Glasgow and Bessy Howie. The named parental couple matches William-992’s recurring Glasgow family.",
+      "source_ids": [
+        "held-e-3cc31b6371b9"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for the 1641 child; another same-name child/event is not automatically merged."
+    },
+    {
+      "subject_id": "Glasgow-1438",
+      "relative_id": "Glasgow-1084",
+      "relationship": "father",
+      "percent": 52,
+      "assessment_status": "possible",
+      "assertion_id": "C-coverage-20261022e-glasgow-1438-father",
+      "basis": "Issobell’s 1643 Edinburgh child citation names John Glasgow and Issobell Porteous. John-1084’s 1616 generation fits a father in 1643 and provides a compatible Lothian candidate. The Edinburgh John/Issobell Porteous family is not yet tied to that childhood.",
+      "source_ids": [
+        "held-e-f147e4948d28"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Possible identification of the named adult father with John-1084. Patoune and Porteous are not silently equated and the mothers remain separately assessed."
+    },
+    {
+      "subject_id": "Glasgow-1084",
+      "relative_id": "Glasgow-1438",
+      "relationship": "child",
+      "percent": 52,
+      "assessment_status": "possible",
+      "assertion_id": "C-coverage-20261022e-glasgow-1438-father",
+      "basis": "Issobell’s 1643 Edinburgh child citation names John Glasgow and Issobell Porteous. John-1084’s 1616 generation fits a father in 1643 and provides a compatible Lothian candidate. The Edinburgh John/Issobell Porteous family is not yet tied to that childhood.",
+      "source_ids": [
+        "held-e-f147e4948d28"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Possible identification of the named adult father with John-1084. Patoune and Porteous are not silently equated and the mothers remain separately assessed."
+    },
+    {
+      "subject_id": "Glasgow-3366",
+      "relative_id": "Glasgow-1087",
+      "relationship": "father",
+      "percent": 74,
+      "assessment_status": "probable",
+      "assertion_id": "C-coverage-20261022e-glasgow-3366-father",
+      "basis": "FamilySearch indexes Margreat Glassgow, 22 December 1643, with father William under Kirknewton and East Calder. William-1087’s 1609 Mid Calder birth gives an ordinary paternal age for the 1643 event and matches the later local William child cluster. The 2453 adult account has already been merged into this selected profile.",
+      "source_ids": [
+        "held-e-455a7aaa26d9"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Probable childhood-to-adult identification, not a literal birth-to-father bridge. The father-only record and Kirknewton/Mid Calder parish presentation remain qualified."
+    },
+    {
+      "subject_id": "Glasgow-1087",
+      "relative_id": "Glasgow-3366",
+      "relationship": "child",
+      "percent": 74,
+      "assessment_status": "probable",
+      "assertion_id": "C-coverage-20261022e-glasgow-3366-father",
+      "basis": "FamilySearch indexes Margreat Glassgow, 22 December 1643, with father William under Kirknewton and East Calder. William-1087’s 1609 Mid Calder birth gives an ordinary paternal age for the 1643 event and matches the later local William child cluster. The 2453 adult account has already been merged into this selected profile.",
+      "source_ids": [
+        "held-e-455a7aaa26d9"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Probable childhood-to-adult identification, not a literal birth-to-father bridge. The father-only record and Kirknewton/Mid Calder parish presentation remain qualified."
+    },
+    {
+      "subject_id": "Glasgow-3050",
+      "relative_id": "Glasgow-1103",
+      "relationship": "father",
+      "percent": 70,
+      "assessment_status": "probable",
+      "assertion_id": "C-coverage-20261022e-glasgow-3050-father",
+      "basis": "Inherited Thomas Glasgow/Agnes Thomsone parentage is unproved for Margaret-3050; its borrowed 16 November 1643 date belongs to a William Glasgow/Bessie Howie entry. The Thomas/Agnes Inveresk family sequence remains a specific, chronologically feasible basis for retaining Margaret as their child, despite the borrowed exact date.",
+      "source_ids": [
+        "held-e-9f5e1c9aa32a"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Probable inherited family placement, not proof from the Glasgow William/Bessie entry. The shared date does not establish a father replacement or a merge with Margaret-1524."
+    },
+    {
+      "subject_id": "Glasgow-1103",
+      "relative_id": "Glasgow-3050",
+      "relationship": "child",
+      "percent": 70,
+      "assessment_status": "probable",
+      "assertion_id": "C-coverage-20261022e-glasgow-3050-father",
+      "basis": "Inherited Thomas Glasgow/Agnes Thomsone parentage is unproved for Margaret-3050; its borrowed 16 November 1643 date belongs to a William Glasgow/Bessie Howie entry. The Thomas/Agnes Inveresk family sequence remains a specific, chronologically feasible basis for retaining Margaret as their child, despite the borrowed exact date.",
+      "source_ids": [
+        "held-e-9f5e1c9aa32a"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Probable inherited family placement, not proof from the Glasgow William/Bessie entry. The shared date does not establish a father replacement or a merge with Margaret-1524."
+    },
+    {
+      "subject_id": "Glasgow-1524",
+      "relative_id": "Glasgow-992",
+      "relationship": "father",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-1524-father",
+      "basis": "Margaret’s Glasgow child entry dated 16 November 1643 names Wm. Glasgow and Bessie Howie. The exact 1643 Glasgow event names the selected William and Bessie household, distinguishing this child account from the unsupported Thomas/Agnes attribution.",
+      "source_ids": [
+        "held-e-a878a8b99c71"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for the recorded child and couple; sharing the date with Margaret-3050 does not establish two identical people or prove a merge."
+    },
+    {
+      "subject_id": "Glasgow-992",
+      "relative_id": "Glasgow-1524",
+      "relationship": "child",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-1524-father",
+      "basis": "Margaret’s Glasgow child entry dated 16 November 1643 names Wm. Glasgow and Bessie Howie. The exact 1643 Glasgow event names the selected William and Bessie household, distinguishing this child account from the unsupported Thomas/Agnes attribution.",
+      "source_ids": [
+        "held-e-a878a8b99c71"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for the recorded child and couple; sharing the date with Margaret-3050 does not establish two identical people or prove a merge."
+    },
+    {
+      "subject_id": "Glasgow-3971",
+      "relative_id": "Glasgow-1078",
+      "relationship": "father",
+      "percent": 62,
+      "assessment_status": "probable",
+      "assertion_id": "C-coverage-20261022e-glasgow-3971-father",
+      "basis": "James’s Glasgow child entry dated 25 November 1645 names Rot. Glasgow and Jonet Cunnyngham. Robert-1078’s 1618 birth gives a feasible age of twenty-seven at the 1645 event and fits the Glasgow family setting. Jonet Cunningham is a specific family-associated name but does not itself identify the adult father.",
+      "source_ids": [
+        "held-e-529504edf81c"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Probable at a modest level for Robert-1078 specifically; the baptism names the father but no held record carries the 1618 child into this couple."
+    },
+    {
+      "subject_id": "Glasgow-1078",
+      "relative_id": "Glasgow-3971",
+      "relationship": "child",
+      "percent": 62,
+      "assessment_status": "probable",
+      "assertion_id": "C-coverage-20261022e-glasgow-3971-father",
+      "basis": "James’s Glasgow child entry dated 25 November 1645 names Rot. Glasgow and Jonet Cunnyngham. Robert-1078’s 1618 birth gives a feasible age of twenty-seven at the 1645 event and fits the Glasgow family setting. Jonet Cunningham is a specific family-associated name but does not itself identify the adult father.",
+      "source_ids": [
+        "held-e-529504edf81c"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Probable at a modest level for Robert-1078 specifically; the baptism names the father but no held record carries the 1618 child into this couple."
+    },
+    {
+      "subject_id": "Glasgow-3112",
+      "relative_id": "Glasgow-3610",
+      "relationship": "father",
+      "percent": 84,
+      "assessment_status": "probable",
+      "assertion_id": "C-coverage-20261022e-glasgow-3112-father",
+      "basis": "The held Margaret child accounts name John Glasgow as father, with competing 11 November 1646 FamilySearch and 26 November 1649 Findmypast readings. The repeated father John and the local Kirknewton child sequence favour the selected record-defined John-3610, while the 1646/1649 readings need reconciliation.",
+      "source_ids": [
+        "held-e-3c9eac2612e5"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Probable identification of the named father with the Easter Newtoun household. The held date conflict is not resolved and the selected father’s own ancestry is not strengthened."
+    },
+    {
+      "subject_id": "Glasgow-3610",
+      "relative_id": "Glasgow-3112",
+      "relationship": "child",
+      "percent": 84,
+      "assessment_status": "probable",
+      "assertion_id": "C-coverage-20261022e-glasgow-3112-father",
+      "basis": "The held Margaret child accounts name John Glasgow as father, with competing 11 November 1646 FamilySearch and 26 November 1649 Findmypast readings. The repeated father John and the local Kirknewton child sequence favour the selected record-defined John-3610, while the 1646/1649 readings need reconciliation.",
+      "source_ids": [
+        "held-e-3c9eac2612e5"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Probable identification of the named father with the Easter Newtoun household. The held date conflict is not resolved and the selected father’s own ancestry is not strengthened."
+    },
+    {
+      "subject_id": "Glasgow-1520",
+      "relative_id": "Glasgow-992",
+      "relationship": "father",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-1520-father",
+      "basis": "Issobell’s Glasgow baptism transcript dated 7 July 1646 names Williame Glasgow and Bessie Howie. The exact Glasgow transcript gives the same William/Bessie couple as the selected father’s other recorded children.",
+      "source_ids": [
+        "held-e-f848a1567db8",
+        "held-e-7951663ff8da"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for Issobell’s record-defined parents; no later adult identity is inferred."
+    },
+    {
+      "subject_id": "Glasgow-992",
+      "relative_id": "Glasgow-1520",
+      "relationship": "child",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-1520-father",
+      "basis": "Issobell’s Glasgow baptism transcript dated 7 July 1646 names Williame Glasgow and Bessie Howie. The exact Glasgow transcript gives the same William/Bessie couple as the selected father’s other recorded children.",
+      "source_ids": [
+        "held-e-f848a1567db8",
+        "held-e-7951663ff8da"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for Issobell’s record-defined parents; no later adult identity is inferred."
+    },
+    {
+      "subject_id": "Glasgow-2452",
+      "relative_id": "Glasgow-1087",
+      "relationship": "father",
+      "percent": 79,
+      "assessment_status": "probable",
+      "assertion_id": "C-coverage-20261022e-glasgow-2452-father",
+      "basis": "The reported Mid Calder OPR 694/10/94 child entry, 3 February 1648, names Johne and father William Glasgow. The same parish and a paternal age around thirty-eight make the 1609 William the best identified candidate for the adult named in this 1648 event; the merged 2453 account preserves that comparison.",
+      "source_ids": [
+        "held-e-339ca0f74364"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Probable full-profile identification; the entry itself names only William. Johne and Issobell’s shared date/reference does not alone establish twins."
+    },
+    {
+      "subject_id": "Glasgow-1087",
+      "relative_id": "Glasgow-2452",
+      "relationship": "child",
+      "percent": 79,
+      "assessment_status": "probable",
+      "assertion_id": "C-coverage-20261022e-glasgow-2452-father",
+      "basis": "The reported Mid Calder OPR 694/10/94 child entry, 3 February 1648, names Johne and father William Glasgow. The same parish and a paternal age around thirty-eight make the 1609 William the best identified candidate for the adult named in this 1648 event; the merged 2453 account preserves that comparison.",
+      "source_ids": [
+        "held-e-339ca0f74364"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Probable full-profile identification; the entry itself names only William. Johne and Issobell’s shared date/reference does not alone establish twins."
+    },
+    {
+      "subject_id": "Glasgow-2454",
+      "relative_id": "Glasgow-1087",
+      "relationship": "father",
+      "percent": 80,
+      "assessment_status": "probable",
+      "assertion_id": "C-coverage-20261022e-glasgow-2454-father",
+      "basis": "Issobell’s 3 February 1648 Mid Calder baptism transcript names Wm Glasgow, residence Kirknewtonn. The transcript’s Kirknewtonn residence places the named William in the local adult child cluster; the selected Mid Calder 1609 William is a compatible thirty-eight-year-old father.",
+      "source_ids": [
+        "held-e-6fa1f6294b66",
+        "held-e-f97bcee86a41"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Probable childhood-to-adult identification, with the record paternity explicit. The twin interpretation and other William comparisons remain unresolved."
+    },
+    {
+      "subject_id": "Glasgow-1087",
+      "relative_id": "Glasgow-2454",
+      "relationship": "child",
+      "percent": 80,
+      "assessment_status": "probable",
+      "assertion_id": "C-coverage-20261022e-glasgow-2454-father",
+      "basis": "Issobell’s 3 February 1648 Mid Calder baptism transcript names Wm Glasgow, residence Kirknewtonn. The transcript’s Kirknewtonn residence places the named William in the local adult child cluster; the selected Mid Calder 1609 William is a compatible thirty-eight-year-old father.",
+      "source_ids": [
+        "held-e-6fa1f6294b66",
+        "held-e-f97bcee86a41"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Probable childhood-to-adult identification, with the record paternity explicit. The twin interpretation and other William comparisons remain unresolved."
+    },
+    {
+      "subject_id": "Glasgow-1526",
+      "relative_id": "Glasgow-1157",
+      "relationship": "father",
+      "percent": 45,
+      "assessment_status": "possible",
+      "assertion_id": "C-coverage-20261022e-glasgow-1526-father",
+      "basis": "Inherited claim that Robert, born about 1648, was son of Robert Glasgow and Ann Johnson. Robert’s c 1648 birth fits the specific Robert/Ann Johnson family account and an ordinary paternal age near thirty-six.",
+      "source_ids": [
+        "held-e-01f679e7784a"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Possible inherited placement; no independent Virginia parent clause or Scottish-to-American identity bridge has been identified."
+    },
+    {
+      "subject_id": "Glasgow-1157",
+      "relative_id": "Glasgow-1526",
+      "relationship": "child",
+      "percent": 45,
+      "assessment_status": "possible",
+      "assertion_id": "C-coverage-20261022e-glasgow-1526-father",
+      "basis": "Inherited claim that Robert, born about 1648, was son of Robert Glasgow and Ann Johnson. Robert’s c 1648 birth fits the specific Robert/Ann Johnson family account and an ordinary paternal age near thirty-six.",
+      "source_ids": [
+        "held-e-01f679e7784a"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Possible inherited placement; no independent Virginia parent clause or Scottish-to-American identity bridge has been identified."
+    },
+    {
+      "subject_id": "Glasgow-1521",
+      "relative_id": "Glasgow-992",
+      "relationship": "father",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-1521-father",
+      "basis": "Williame’s Glasgow child entry dated 28 September 1648 names Williame Glasgow and Bessie Howie. The full William/Bessie couple and exact 1648 Glasgow child event match the selected record father.",
+      "source_ids": [
+        "held-e-c140daa28a84"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for the baptismal child’s parentage; identification with the 1673 Quothquan testator remains working and does not inherit this confidence."
+    },
+    {
+      "subject_id": "Glasgow-992",
+      "relative_id": "Glasgow-1521",
+      "relationship": "child",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-1521-father",
+      "basis": "Williame’s Glasgow child entry dated 28 September 1648 names Williame Glasgow and Bessie Howie. The full William/Bessie couple and exact 1648 Glasgow child event match the selected record father.",
+      "source_ids": [
+        "held-e-c140daa28a84"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for the baptismal child’s parentage; identification with the 1673 Quothquan testator remains working and does not inherit this confidence."
+    },
+    {
+      "subject_id": "Glasgow-1554",
+      "relative_id": "Glasgow-1087",
+      "relationship": "father",
+      "percent": 72,
+      "assessment_status": "probable",
+      "assertion_id": "C-coverage-20261022e-glasgow-1554-father",
+      "basis": "Walter’s Kirknewton/East Calder derivative child record names father William Glasgow. The William father and Kirknewton/East Calder context fit the selected William’s local family sequence and generation.",
+      "source_ids": [
+        "held-e-d70a7662a1df"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Probable adult identity, with unresolved 1647/1649 event date. The June burial and September baptism are separate occurrences, and a narrative use of merged 2453 is not an additional father."
+    },
+    {
+      "subject_id": "Glasgow-1087",
+      "relative_id": "Glasgow-1554",
+      "relationship": "child",
+      "percent": 72,
+      "assessment_status": "probable",
+      "assertion_id": "C-coverage-20261022e-glasgow-1554-father",
+      "basis": "Walter’s Kirknewton/East Calder derivative child record names father William Glasgow. The William father and Kirknewton/East Calder context fit the selected William’s local family sequence and generation.",
+      "source_ids": [
+        "held-e-d70a7662a1df"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Probable adult identity, with unresolved 1647/1649 event date. The June burial and September baptism are separate occurrences, and a narrative use of merged 2453 is not an additional father."
+    },
+    {
+      "subject_id": "Glasgow-1527",
+      "relative_id": "Glasgow-1157",
+      "relationship": "father",
+      "percent": 44,
+      "assessment_status": "possible",
+      "assertion_id": "C-coverage-20261022e-glasgow-1527-father",
+      "basis": "Inherited claim that Thomas, born about 1650, was child of Robert Glasgow and Ann Johnson. A Thomas born about 1650 is a feasible child of the Robert/Ann Johnson generation and fits the inherited Virginia family list.",
+      "source_ids": [
+        "held-e-bd27d10cf5d5"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Possible family placement only; a named-parent contemporary record and the father’s wider identity remain unproved."
+    },
+    {
+      "subject_id": "Glasgow-1157",
+      "relative_id": "Glasgow-1527",
+      "relationship": "child",
+      "percent": 44,
+      "assessment_status": "possible",
+      "assertion_id": "C-coverage-20261022e-glasgow-1527-father",
+      "basis": "Inherited claim that Thomas, born about 1650, was child of Robert Glasgow and Ann Johnson. A Thomas born about 1650 is a feasible child of the Robert/Ann Johnson generation and fits the inherited Virginia family list.",
+      "source_ids": [
+        "held-e-bd27d10cf5d5"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Possible family placement only; a named-parent contemporary record and the father’s wider identity remain unproved."
+    },
+    {
+      "subject_id": "Glasgow-3413",
+      "relative_id": "Glasgow-3187",
+      "relationship": "father",
+      "percent": 39,
+      "assessment_status": "possible",
+      "assertion_id": "C-coverage-20261022e-glasgow-3413-father",
+      "basis": "Inherited Thomas-3187 father claim is explicitly assumed from Edinburgh location; the 1670 graduation entry names no parent. An Edinburgh graduate born about 1650 could belong to Thomas/Catharine Weir’s recorded 1644–50 family, making this a reasonable local-family lead.",
+      "source_ids": [
+        "held-e-4a8835c65a50"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Possible fatherhood inferred from generation and Edinburgh context; the 1670 graduation does not name a father or prove this household."
+    },
+    {
+      "subject_id": "Glasgow-3187",
+      "relative_id": "Glasgow-3413",
+      "relationship": "child",
+      "percent": 39,
+      "assessment_status": "possible",
+      "assertion_id": "C-coverage-20261022e-glasgow-3413-father",
+      "basis": "Inherited Thomas-3187 father claim is explicitly assumed from Edinburgh location; the 1670 graduation entry names no parent. An Edinburgh graduate born about 1650 could belong to Thomas/Catharine Weir’s recorded 1644–50 family, making this a reasonable local-family lead.",
+      "source_ids": [
+        "held-e-4a8835c65a50"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Possible fatherhood inferred from generation and Edinburgh context; the 1670 graduation does not name a father or prove this household."
+    },
+    {
+      "subject_id": "Glasgow-3358",
+      "relative_id": "Glasgow-1149",
+      "relationship": "father",
+      "percent": 47,
+      "assessment_status": "possible",
+      "assertion_id": "C-coverage-20261022e-glasgow-3358-father",
+      "basis": "Eupham’s Edinburgh child event dated 8 May 1651 names Robert Glasgow and Eupham Lorimer/Laurimer. The Edinburgh Robert/Eupham Lorimer household is directly recorded, but linking its adult father to the 1627 Inveresk child remains unproved. The same named Lorimer couple is already recorded with an adult cordiner in 1644, when the child would be about sixteen.",
+      "source_ids": [
+        "held-e-7eea50784bf7"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Possible identification with Robert-1149 specifically. The recorded Lorimer father is secure; the 1644 chronology makes the childhood mapping less comfortable. Robert-3938 is the distinct 1652 Thomsone bridegroom, not an automatic replacement."
+    },
+    {
+      "subject_id": "Glasgow-1149",
+      "relative_id": "Glasgow-3358",
+      "relationship": "child",
+      "percent": 47,
+      "assessment_status": "possible",
+      "assertion_id": "C-coverage-20261022e-glasgow-3358-father",
+      "basis": "Eupham’s Edinburgh child event dated 8 May 1651 names Robert Glasgow and Eupham Lorimer/Laurimer. The Edinburgh Robert/Eupham Lorimer household is directly recorded, but linking its adult father to the 1627 Inveresk child remains unproved. The same named Lorimer couple is already recorded with an adult cordiner in 1644, when the child would be about sixteen.",
+      "source_ids": [
+        "held-e-7eea50784bf7"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Possible identification with Robert-1149 specifically. The recorded Lorimer father is secure; the 1644 chronology makes the childhood mapping less comfortable. Robert-3938 is the distinct 1652 Thomsone bridegroom, not an automatic replacement."
+    },
+    {
+      "subject_id": "Glasgow-3097",
+      "relative_id": "Glasgow-1150",
+      "relationship": "father",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-3097-father",
+      "basis": "Heleene’s Edinburgh child index names James Glasgow and Bessie Whyte, dated 5 January 1651. The full James/Bessie Whyte couple matches the Edinburgh weaver’s 1649 marriage and early child household.",
+      "source_ids": [
+        "held-e-cb22de6d89f8",
+        "held-e-4be2a43ea712"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident paternity for the recorded child;1 versus5 January is retained as a date/event conflict."
+    },
+    {
+      "subject_id": "Glasgow-1150",
+      "relative_id": "Glasgow-3097",
+      "relationship": "child",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-3097-father",
+      "basis": "Heleene’s Edinburgh child index names James Glasgow and Bessie Whyte, dated 5 January 1651. The full James/Bessie Whyte couple matches the Edinburgh weaver’s 1649 marriage and early child household.",
+      "source_ids": [
+        "held-e-cb22de6d89f8",
+        "held-e-4be2a43ea712"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident paternity for the recorded child;1 versus5 January is retained as a date/event conflict."
+    },
+    {
+      "subject_id": "Glasgow-397",
+      "relative_id": "Glasgow-1157",
+      "relationship": "father",
+      "percent": 27,
+      "assessment_status": "uncertain",
+      "assertion_id": "C-coverage-20261022e-glasgow-397-father",
+      "basis": "Inherited father attachment to Robert-1157; the captured biography instead discusses Mathew Moncriegge/Moncrieffe and cites submitted family-tree/GEDCOM material. The estimated generation could fit Robert and Ann’s inherited Virginia family, but the captured biography concerns Mathew Moncrieffe instead of this female Glasgow subject.",
+      "source_ids": [
+        "held-e-df899b80af35"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Weak retained family placement with a concrete content/identity mismatch; the unrelated spouse narrative cannot prove Mary’s parentage."
+    },
+    {
+      "subject_id": "Glasgow-1157",
+      "relative_id": "Glasgow-397",
+      "relationship": "child",
+      "percent": 27,
+      "assessment_status": "uncertain",
+      "assertion_id": "C-coverage-20261022e-glasgow-397-father",
+      "basis": "Inherited father attachment to Robert-1157; the captured biography instead discusses Mathew Moncriegge/Moncrieffe and cites submitted family-tree/GEDCOM material. The estimated generation could fit Robert and Ann’s inherited Virginia family, but the captured biography concerns Mathew Moncrieffe instead of this female Glasgow subject.",
+      "source_ids": [
+        "held-e-df899b80af35"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Weak retained family placement with a concrete content/identity mismatch; the unrelated spouse narrative cannot prove Mary’s parentage."
+    },
+    {
+      "subject_id": "Glasgow-3024",
+      "relative_id": "Glasgow-1087",
+      "relationship": "father",
+      "percent": 73,
+      "assessment_status": "probable",
+      "assertion_id": "C-coverage-20261022e-glasgow-3024-father",
+      "basis": "Hellein’s Kirknewton/East Calder child entry names father William Glasgow. The same William father and Kirknewton/East Calder setting fit the local 1643–55 child sequence and the selected 1609 William’s generation.",
+      "source_ids": [
+        "held-e-09d9580cbd70",
+        "held-e-7a92222aa16f"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Probable adult identification;11/14 November and the precise parish remain unresolved, and the record does not itself name William’s parents."
+    },
+    {
+      "subject_id": "Glasgow-1087",
+      "relative_id": "Glasgow-3024",
+      "relationship": "child",
+      "percent": 73,
+      "assessment_status": "probable",
+      "assertion_id": "C-coverage-20261022e-glasgow-3024-father",
+      "basis": "Hellein’s Kirknewton/East Calder child entry names father William Glasgow. The same William father and Kirknewton/East Calder setting fit the local 1643–55 child sequence and the selected 1609 William’s generation.",
+      "source_ids": [
+        "held-e-09d9580cbd70",
+        "held-e-7a92222aa16f"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Probable adult identification;11/14 November and the precise parish remain unresolved, and the record does not itself name William’s parents."
+    },
+    {
+      "subject_id": "Glasgow-3099",
+      "relative_id": "Glasgow-1150",
+      "relationship": "father",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-3099-father",
+      "basis": "Jonet’s Edinburgh child index dated 24 February 1653 names James Glasgow and Bessie Whyt. The full James/Bessie Whyt couple matches the weaver’s 1649 marriage and the preceding Helen child.",
+      "source_ids": [
+        "held-e-397c173d3bb5",
+        "held-e-983958fd0a2d"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for the child’s paternity;2/24 February remains a separate date/event conflict."
+    },
+    {
+      "subject_id": "Glasgow-1150",
+      "relative_id": "Glasgow-3099",
+      "relationship": "child",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-3099-father",
+      "basis": "Jonet’s Edinburgh child index dated 24 February 1653 names James Glasgow and Bessie Whyt. The full James/Bessie Whyt couple matches the weaver’s 1649 marriage and the preceding Helen child.",
+      "source_ids": [
+        "held-e-397c173d3bb5",
+        "held-e-983958fd0a2d"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for the child’s paternity;2/24 February remains a separate date/event conflict."
+    },
+    {
+      "subject_id": "Glasgow-3079",
+      "relative_id": "Glasgow-3078",
+      "relationship": "father",
+      "percent": 83,
+      "assessment_status": "probable",
+      "assertion_id": "C-coverage-20261022e-glasgow-3079-father",
+      "basis": "The held Archbald Glasgowe 1654 baptism citation is carried with an account naming Archibald Glasgow and Agnes Watson as parents. Archibald and Agnes Watson’s distinctive full couple and South Leith sequence favour the selected Archibald’s family. His 1618 Leith childhood is chronologically compatible with a 1654 child.",
+      "source_ids": [
+        "held-e-0e177e86bd12"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Probable full-profile continuity; the adult shoemaker and 1618 child have not been explicitly connected by a held kinship record."
+    },
+    {
+      "subject_id": "Glasgow-3078",
+      "relative_id": "Glasgow-3079",
+      "relationship": "child",
+      "percent": 83,
+      "assessment_status": "probable",
+      "assertion_id": "C-coverage-20261022e-glasgow-3079-father",
+      "basis": "The held Archbald Glasgowe 1654 baptism citation is carried with an account naming Archibald Glasgow and Agnes Watson as parents. Archibald and Agnes Watson’s distinctive full couple and South Leith sequence favour the selected Archibald’s family. His 1618 Leith childhood is chronologically compatible with a 1654 child.",
+      "source_ids": [
+        "held-e-0e177e86bd12"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Probable full-profile continuity; the adult shoemaker and 1618 child have not been explicitly connected by a held kinship record."
+    },
+    {
+      "subject_id": "Glasgow-3025",
+      "relative_id": "Glasgow-1087",
+      "relationship": "father",
+      "percent": 74,
+      "assessment_status": "probable",
+      "assertion_id": "C-coverage-20261022e-glasgow-3025-father",
+      "basis": "Marion’s Kirknewton/East Calder child entry indexed 4 November 1655 names father William Glasgow only. Marion’s William father and Kirknewton setting fit the recurring local child cluster and the 1609 Mid Calder generation. The date span remains an ordinary paternal age.",
+      "source_ids": [
+        "held-e-4d692ba01fb4",
+        "kirknewton-marion-daughter-william-1655"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Probable adult identity; the superseded 1556 comparison and date presentation do not identify a separate proved father."
+    },
+    {
+      "subject_id": "Glasgow-1087",
+      "relative_id": "Glasgow-3025",
+      "relationship": "child",
+      "percent": 74,
+      "assessment_status": "probable",
+      "assertion_id": "C-coverage-20261022e-glasgow-3025-father",
+      "basis": "Marion’s Kirknewton/East Calder child entry indexed 4 November 1655 names father William Glasgow only. Marion’s William father and Kirknewton setting fit the recurring local child cluster and the 1609 Mid Calder generation. The date span remains an ordinary paternal age.",
+      "source_ids": [
+        "held-e-4d692ba01fb4",
+        "kirknewton-marion-daughter-william-1655"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Probable adult identity; the superseded 1556 comparison and date presentation do not identify a separate proved father."
+    },
+    {
+      "subject_id": "Glasgow-1374",
+      "relative_id": "Glasgow-1150",
+      "relationship": "father",
+      "percent": 99,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-1374-father",
+      "basis": "Robert's 24 January 1672 apprenticeship calls him son of James Glasgow, weaver; the 1655 Edinburgh baptism names James Glasgow and Agnes Duncan. The apprenticeship explicitly names the father’s weaver role, while the full James/Agnes Duncan baptism couple matches the selected craftsman’s 1653 marriage.",
+      "source_ids": [
+        "held-e-d75a183ff582",
+        "held-e-8aaf1c2479c2",
+        "held-e-394dafd70422"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident paternity for Robert of this combined record sequence;5/11 May remains a separate date-reading question."
+    },
+    {
+      "subject_id": "Glasgow-1150",
+      "relative_id": "Glasgow-1374",
+      "relationship": "child",
+      "percent": 99,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-1374-father",
+      "basis": "Robert's 24 January 1672 apprenticeship calls him son of James Glasgow, weaver; the 1655 Edinburgh baptism names James Glasgow and Agnes Duncan. The apprenticeship explicitly names the father’s weaver role, while the full James/Agnes Duncan baptism couple matches the selected craftsman’s 1653 marriage.",
+      "source_ids": [
+        "held-e-d75a183ff582",
+        "held-e-8aaf1c2479c2",
+        "held-e-394dafd70422"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident paternity for Robert of this combined record sequence;5/11 May remains a separate date-reading question."
+    },
+    {
+      "subject_id": "Glasgow-3362",
+      "relative_id": "Glasgow-2462",
+      "relationship": "father",
+      "percent": 41,
+      "assessment_status": "possible",
+      "assertion_id": "C-coverage-20261022e-glasgow-3362-father",
+      "basis": "Elizabeth's Polwarth index event of 17 August 1656 names father William Glasgow. The selected William’s 1639 birth would permit the 1656 Polwarth father role at sixteen or seventeen, but that young age and the Inveresk-to-Polwarth move need a positive identification.",
+      "source_ids": [
+        "held-e-8e5d741eb43b"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Possible fatherhood specifically for William-2462; the index’s named father William is secure, but it does not identify his childhood."
+    },
+    {
+      "subject_id": "Glasgow-2462",
+      "relative_id": "Glasgow-3362",
+      "relationship": "child",
+      "percent": 41,
+      "assessment_status": "possible",
+      "assertion_id": "C-coverage-20261022e-glasgow-3362-father",
+      "basis": "Elizabeth's Polwarth index event of 17 August 1656 names father William Glasgow. The selected William’s 1639 birth would permit the 1656 Polwarth father role at sixteen or seventeen, but that young age and the Inveresk-to-Polwarth move need a positive identification.",
+      "source_ids": [
+        "held-e-8e5d741eb43b"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Possible fatherhood specifically for William-2462; the index’s named father William is secure, but it does not identify his childhood."
+    },
+    {
+      "subject_id": "Glasgow-3516",
+      "relative_id": "Glasgow-3078",
+      "relationship": "father",
+      "percent": 85,
+      "assessment_status": "probable",
+      "assertion_id": "C-coverage-20261022e-glasgow-3516-father",
+      "basis": "Johne's 27 April 1656 Leith South index names Archbald Glasgow and Agnes Watsone. The full Archibald/Agnes Watson couple, South Leith locality and 1654–56 sequence identify a coherent adult household compatible with Archibald’s 1618 generation.",
+      "source_ids": [
+        "held-e-d37d0c626ed2"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Probable identification with Archibald-3078’s childhood account; the record father role is explicit and mother is assessed independently."
+    },
+    {
+      "subject_id": "Glasgow-3078",
+      "relative_id": "Glasgow-3516",
+      "relationship": "child",
+      "percent": 85,
+      "assessment_status": "probable",
+      "assertion_id": "C-coverage-20261022e-glasgow-3516-father",
+      "basis": "Johne's 27 April 1656 Leith South index names Archbald Glasgow and Agnes Watsone. The full Archibald/Agnes Watson couple, South Leith locality and 1654–56 sequence identify a coherent adult household compatible with Archibald’s 1618 generation.",
+      "source_ids": [
+        "held-e-d37d0c626ed2"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Probable identification with Archibald-3078’s childhood account; the record father role is explicit and mother is assessed independently."
+    },
+    {
+      "subject_id": "Glasgow-1528",
+      "relative_id": "Glasgow-1149",
+      "relationship": "father",
+      "percent": 37,
+      "assessment_status": "possible",
+      "assertion_id": "C-coverage-20261022e-glasgow-1528-father",
+      "basis": "Jonet's 1 January 1657 St Cuthbert's index names Robert Glasgow and Eupham Tailyour. A Robert of the 1627 generation could father Jonet in 1657, but Eupham Tailyour is a different recorded mother from the Lorimer children on either side of this date.",
+      "source_ids": [
+        "held-e-8f552a7ef704"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Possible at a low level for Robert-1149. The record’s father is named; a simultaneous or differently identified Robert household remains a real alternative. No Lorimer maternity is transferred."
+    },
+    {
+      "subject_id": "Glasgow-1149",
+      "relative_id": "Glasgow-1528",
+      "relationship": "child",
+      "percent": 37,
+      "assessment_status": "possible",
+      "assertion_id": "C-coverage-20261022e-glasgow-1528-father",
+      "basis": "Jonet's 1 January 1657 St Cuthbert's index names Robert Glasgow and Eupham Tailyour. A Robert of the 1627 generation could father Jonet in 1657, but Eupham Tailyour is a different recorded mother from the Lorimer children on either side of this date.",
+      "source_ids": [
+        "held-e-8f552a7ef704"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Possible at a low level for Robert-1149. The record’s father is named; a simultaneous or differently identified Robert household remains a real alternative. No Lorimer maternity is transferred."
+    },
+    {
+      "subject_id": "Glasgow-3143",
+      "relative_id": "Glasgow-1150",
+      "relationship": "father",
+      "percent": 99,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-3143-father",
+      "basis": "William Calder's 30 June 1686 burgess admission calls his wife Marion daughter of James Glasgow, weaver and burgess; her 1657 baptism names James and Agnes Duncan. The burgess admission’s explicit daughter clause and the weaver/burgess occupation bridge Marion’s adult marriage to the James/Agnes Duncan child family.",
+      "source_ids": [
+        "held-e-b203249dcc52",
+        "held-e-b2bda153a535"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for this father and daughter; earlier transfer instructions are superseded by the verified completed transfer."
+    },
+    {
+      "subject_id": "Glasgow-1150",
+      "relative_id": "Glasgow-3143",
+      "relationship": "child",
+      "percent": 99,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-3143-father",
+      "basis": "William Calder's 30 June 1686 burgess admission calls his wife Marion daughter of James Glasgow, weaver and burgess; her 1657 baptism names James and Agnes Duncan. The burgess admission’s explicit daughter clause and the weaver/burgess occupation bridge Marion’s adult marriage to the James/Agnes Duncan child family.",
+      "source_ids": [
+        "held-e-b203249dcc52",
+        "held-e-b2bda153a535"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for this father and daughter; earlier transfer instructions are superseded by the verified completed transfer."
+    },
+    {
+      "subject_id": "Glasgow-3092",
+      "relative_id": "Glasgow-3077",
+      "relationship": "father",
+      "percent": 78,
+      "assessment_status": "probable",
+      "assertion_id": "C-coverage-20261022e-glasgow-3092-father",
+      "basis": "Agnes's 15 August 1658 St Cuthbert's baptism index names James Glesgow and Helen Clerk. The same James name and St Cuthbert’s locality, with the 1658 child just before the 1661–65 Annapill household, support a possible earlier partnership in one father’s life.",
+      "source_ids": [
+        "held-e-d36b4bc1689e"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Probable combined identification, not an equation of Helen Clerk with Annapill. The separate mothers and earlier birth/date attribution remain qualified; a second James is possible."
+    },
+    {
+      "subject_id": "Glasgow-3077",
+      "relative_id": "Glasgow-3092",
+      "relationship": "child",
+      "percent": 78,
+      "assessment_status": "probable",
+      "assertion_id": "C-coverage-20261022e-glasgow-3092-father",
+      "basis": "Agnes's 15 August 1658 St Cuthbert's baptism index names James Glesgow and Helen Clerk. The same James name and St Cuthbert’s locality, with the 1658 child just before the 1661–65 Annapill household, support a possible earlier partnership in one father’s life.",
+      "source_ids": [
+        "held-e-d36b4bc1689e"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Probable combined identification, not an equation of Helen Clerk with Annapill. The separate mothers and earlier birth/date attribution remain qualified; a second James is possible."
+    },
+    {
+      "subject_id": "Glasgow-3360",
+      "relative_id": "Glasgow-1149",
+      "relationship": "father",
+      "percent": 49,
+      "assessment_status": "possible",
+      "assertion_id": "C-coverage-20261022e-glasgow-3360-father",
+      "basis": "Kathrin's 3 February 1659 St Cuthbert's index names Robert Glasgow and Euphame Laurimer. The full Lorimer couple ties this child to the recurring Edinburgh household, but no held kinship record links its adult father to the 1627 Inveresk child. The 1644 adult cordiner occurrence raises the same early-age issue.",
+      "source_ids": [
+        "held-e-df7b10a5b13e"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Possible identification with Robert-1149 specifically; named record paternity is strong, while the Thomsone and Tailyour households remain separate."
+    },
+    {
+      "subject_id": "Glasgow-1149",
+      "relative_id": "Glasgow-3360",
+      "relationship": "child",
+      "percent": 49,
+      "assessment_status": "possible",
+      "assertion_id": "C-coverage-20261022e-glasgow-3360-father",
+      "basis": "Kathrin's 3 February 1659 St Cuthbert's index names Robert Glasgow and Euphame Laurimer. The full Lorimer couple ties this child to the recurring Edinburgh household, but no held kinship record links its adult father to the 1627 Inveresk child. The 1644 adult cordiner occurrence raises the same early-age issue.",
+      "source_ids": [
+        "held-e-df7b10a5b13e"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Possible identification with Robert-1149 specifically; named record paternity is strong, while the Thomsone and Tailyour households remain separate."
+    },
+    {
+      "subject_id": "Glasgow-1373",
+      "relative_id": "Glasgow-1150",
+      "relationship": "father",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-1373-father",
+      "basis": "Bethia's 29 March 1659 Edinburgh index names James Glasgow and Agnes Duncan. The full James/Agnes Duncan couple and Edinburgh sequence match the selected weaver’s 1653 marriage and the independently connected Robert/Marion children.",
+      "source_ids": [
+        "held-e-3212cdb127a7"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for the recorded daughter’s paternity; the later Duffe-household identification remains a separate proposition."
+    },
+    {
+      "subject_id": "Glasgow-1150",
+      "relative_id": "Glasgow-1373",
+      "relationship": "child",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-1373-father",
+      "basis": "Bethia's 29 March 1659 Edinburgh index names James Glasgow and Agnes Duncan. The full James/Agnes Duncan couple and Edinburgh sequence match the selected weaver’s 1653 marriage and the independently connected Robert/Marion children.",
+      "source_ids": [
+        "held-e-3212cdb127a7"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for the recorded daughter’s paternity; the later Duffe-household identification remains a separate proposition."
+    },
+    {
+      "subject_id": "Glasgow-3101",
+      "relative_id": "Glasgow-3100",
+      "relationship": "father",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-3101-father",
+      "basis": "Alexander's Campbeltown transcript names George Glasgow and Grizel Dunlop, residence Auchinhork. The full George/Grizel Dunlop couple and Auchinhork residence identify the selected Campbeltown father’s household.",
+      "source_ids": [
+        "campbeltown-alexander-1659"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident recorded paternity;12/13 April remains an unresolved event-date conflict, with no automatic birthday overwrite."
+    },
+    {
+      "subject_id": "Glasgow-3100",
+      "relative_id": "Glasgow-3101",
+      "relationship": "child",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-3101-father",
+      "basis": "Alexander's Campbeltown transcript names George Glasgow and Grizel Dunlop, residence Auchinhork. The full George/Grizel Dunlop couple and Auchinhork residence identify the selected Campbeltown father’s household.",
+      "source_ids": [
+        "campbeltown-alexander-1659"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident recorded paternity;12/13 April remains an unresolved event-date conflict, with no automatic birthday overwrite."
+    },
+    {
+      "subject_id": "Glasgow-3076",
+      "relative_id": "Glasgow-3077",
+      "relationship": "father",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-3076-father",
+      "basis": "The 1661 St Cuthbert's James Glesgow index is accounted in father findings as a child of James Glasgow and Annapill Glessie. The uncommon Annapill Glessie pairing and St Cuthbert’s family sequence match the selected adult James.",
+      "source_ids": [
+        "held-e-5ff536c4a7a4"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for the recorded James/Annapill household; it does not prove that Helen Clerk was the same man’s earlier wife."
+    },
+    {
+      "subject_id": "Glasgow-3077",
+      "relative_id": "Glasgow-3076",
+      "relationship": "child",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-3076-father",
+      "basis": "The 1661 St Cuthbert's James Glesgow index is accounted in father findings as a child of James Glasgow and Annapill Glessie. The uncommon Annapill Glessie pairing and St Cuthbert’s family sequence match the selected adult James.",
+      "source_ids": [
+        "held-e-5ff536c4a7a4"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for the recorded James/Annapill household; it does not prove that Helen Clerk was the same man’s earlier wife."
+    },
+    {
+      "subject_id": "Glasgow-2436",
+      "relative_id": "Glasgow-1149",
+      "relationship": "father",
+      "percent": 49,
+      "assessment_status": "possible",
+      "assertion_id": "C-coverage-20261022e-glasgow-2436-father",
+      "basis": "William's 29 November 1662 St Cuthbert's index names Robert Glasgow and Eupham Laurimer. The full Lorimer couple continues the same recorded Edinburgh family, but the selected 1627 child’s identification with its adult father remains unresolved and chronologically demanding by 1644.",
+      "source_ids": [
+        "held-e-0946ac5dc438"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Possible Robert-1149 placement, with confident record-father wording distinguished from the unproved childhood bridge. No Thomsone or Tailyour mother is substituted."
+    },
+    {
+      "subject_id": "Glasgow-1149",
+      "relative_id": "Glasgow-2436",
+      "relationship": "child",
+      "percent": 49,
+      "assessment_status": "possible",
+      "assertion_id": "C-coverage-20261022e-glasgow-2436-father",
+      "basis": "William's 29 November 1662 St Cuthbert's index names Robert Glasgow and Eupham Laurimer. The full Lorimer couple continues the same recorded Edinburgh family, but the selected 1627 child’s identification with its adult father remains unresolved and chronologically demanding by 1644.",
+      "source_ids": [
+        "held-e-0946ac5dc438"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Possible Robert-1149 placement, with confident record-father wording distinguished from the unproved childhood bridge. No Thomsone or Tailyour mother is substituted."
+    },
+    {
+      "subject_id": "Glasgow-3091",
+      "relative_id": "Glasgow-3077",
+      "relationship": "father",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-3091-father",
+      "basis": "Thomas's 1663 St Cuthbert's index names James Glasgow and Anabell Glass, accounted as Annapill Glessie's household. The Thomas event fits the recurring James/Annapill Glessie household, with Anabell Glass retained as the indexed form.",
+      "source_ids": [
+        "held-e-38ef179ef4d3"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for the named record couple; literal spelling variants do not create another mother automatically."
+    },
+    {
+      "subject_id": "Glasgow-3077",
+      "relative_id": "Glasgow-3091",
+      "relationship": "child",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-3091-father",
+      "basis": "Thomas's 1663 St Cuthbert's index names James Glasgow and Anabell Glass, accounted as Annapill Glessie's household. The Thomas event fits the recurring James/Annapill Glessie household, with Anabell Glass retained as the indexed form.",
+      "source_ids": [
+        "held-e-38ef179ef4d3"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for the named record couple; literal spelling variants do not create another mother automatically."
+    },
+    {
+      "subject_id": "Glasgow-3359",
+      "relative_id": "Glasgow-1149",
+      "relationship": "father",
+      "percent": 48,
+      "assessment_status": "possible",
+      "assertion_id": "C-coverage-20261022e-glasgow-3359-father",
+      "basis": "Magdalene's 14 August 1664 Edinburgh index names Robert Glasgow and Eupham Loremer. The Lorimer surname and Edinburgh child sequence identify the same adult parental household, while the 1627-child mapping remains unproved. The 1644 married cordiner evidence concerns that adult household only.",
+      "source_ids": [
+        "held-e-595127b2a288"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Possible identification with Robert-1149; direct paternity for the record-defined Lorimer father does not itself settle his birth or ancestry."
+    },
+    {
+      "subject_id": "Glasgow-1149",
+      "relative_id": "Glasgow-3359",
+      "relationship": "child",
+      "percent": 48,
+      "assessment_status": "possible",
+      "assertion_id": "C-coverage-20261022e-glasgow-3359-father",
+      "basis": "Magdalene's 14 August 1664 Edinburgh index names Robert Glasgow and Eupham Loremer. The Lorimer surname and Edinburgh child sequence identify the same adult parental household, while the 1627-child mapping remains unproved. The 1644 married cordiner evidence concerns that adult household only.",
+      "source_ids": [
+        "held-e-595127b2a288"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Possible identification with Robert-1149; direct paternity for the record-defined Lorimer father does not itself settle his birth or ancestry."
+    },
+    {
+      "subject_id": "Glasgow-3338",
+      "relative_id": "Glasgow-3077",
+      "relationship": "father",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-3338-father",
+      "basis": "Robert's 28 May 1665 St Cuthbert's index names James Glasgow and Annapill Glasse. The full James/Annapill couple and St Cuthbert’s sequence identify the selected record father.",
+      "source_ids": [
+        "held-e-52294b878196"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for the recorded 1665 child; James’s earlier ancestry and Clerk-household identification remain separate."
+    },
+    {
+      "subject_id": "Glasgow-3077",
+      "relative_id": "Glasgow-3338",
+      "relationship": "child",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-3338-father",
+      "basis": "Robert's 28 May 1665 St Cuthbert's index names James Glasgow and Annapill Glasse. The full James/Annapill couple and St Cuthbert’s sequence identify the selected record father.",
+      "source_ids": [
+        "held-e-52294b878196"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for the recorded 1665 child; James’s earlier ancestry and Clerk-household identification remain separate."
+    },
+    {
+      "subject_id": "Glasgow-1311",
+      "relative_id": "Glasgow-1152",
+      "relationship": "father",
+      "percent": 85,
+      "assessment_status": "probable",
+      "assertion_id": "C-coverage-20261022e-glasgow-1311-father",
+      "basis": "Thomas's St Cuthbert's index names Alexander Glasgow and Issobell Andersone, dated 12 August 1666. The exact Alexander/Issobell Anderson couple matches the selected father’s 1665 marriage account and the later 1674 Marie event. A 1637 birth permits an ordinary age at marriage and fatherhood.",
+      "source_ids": [
+        "held-e-77f013db20ec"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Probable full-profile identification; the 1637 child-to-adult bridge remains unproved and the overlapping Smith household is not merged.8/12 August is separate."
+    },
+    {
+      "subject_id": "Glasgow-1152",
+      "relative_id": "Glasgow-1311",
+      "relationship": "child",
+      "percent": 85,
+      "assessment_status": "probable",
+      "assertion_id": "C-coverage-20261022e-glasgow-1311-father",
+      "basis": "Thomas's St Cuthbert's index names Alexander Glasgow and Issobell Andersone, dated 12 August 1666. The exact Alexander/Issobell Anderson couple matches the selected father’s 1665 marriage account and the later 1674 Marie event. A 1637 birth permits an ordinary age at marriage and fatherhood.",
+      "source_ids": [
+        "held-e-77f013db20ec"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Probable full-profile identification; the 1637 child-to-adult bridge remains unproved and the overlapping Smith household is not merged.8/12 August is separate."
+    },
+    {
+      "subject_id": "Glasgow-1493",
+      "relative_id": "Glasgow-1319",
+      "relationship": "father",
+      "percent": 97,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-1493-father",
+      "basis": "Bessie's 29 May 1666 Kirknewton and East Calder index names father Andro Glasgow and no mother. The distinctive Andro father and Kirknewton parish sequence match the selected Andrew’s record-defined 1666/1671 household.",
+      "source_ids": [
+        "held-e-29c317e77529"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for the named father of this child; it supplies no proof of Andrew’s own father or of an unnamed mother."
+    },
+    {
+      "subject_id": "Glasgow-1319",
+      "relative_id": "Glasgow-1493",
+      "relationship": "child",
+      "percent": 97,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-1493-father",
+      "basis": "Bessie's 29 May 1666 Kirknewton and East Calder index names father Andro Glasgow and no mother. The distinctive Andro father and Kirknewton parish sequence match the selected Andrew’s record-defined 1666/1671 household.",
+      "source_ids": [
+        "held-e-29c317e77529"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for the named father of this child; it supplies no proof of Andrew’s own father or of an unnamed mother."
+    },
+    {
+      "subject_id": "Glasgow-2458",
+      "relative_id": "Glasgow-1105",
+      "relationship": "father",
+      "percent": 97,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-2458-father",
+      "basis": "Hellen's 22 December 1668 Linlithgow index names John Glasgow and Agnes Eastone. The full John/Agnes Eastone couple and exact Linlithgow event identify the selected father’s adult household; his 1644 childhood gives a feasible paternal age.",
+      "source_ids": [
+        "held-e-ae6e0f12fe11"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for the record-defined household, with the father’s earlier childhood continuity retained separately. Hellen and Helen-4098 may be duplicate accounts of one child."
+    },
+    {
+      "subject_id": "Glasgow-1105",
+      "relative_id": "Glasgow-2458",
+      "relationship": "child",
+      "percent": 97,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-2458-father",
+      "basis": "Hellen's 22 December 1668 Linlithgow index names John Glasgow and Agnes Eastone. The full John/Agnes Eastone couple and exact Linlithgow event identify the selected father’s adult household; his 1644 childhood gives a feasible paternal age.",
+      "source_ids": [
+        "held-e-ae6e0f12fe11"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for the record-defined household, with the father’s earlier childhood continuity retained separately. Hellen and Helen-4098 may be duplicate accounts of one child."
+    },
+    {
+      "subject_id": "Glasgow-4098",
+      "relative_id": "Glasgow-1105",
+      "relationship": "father",
+      "percent": 97,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-4098-father",
+      "basis": "Helen's 22 December 1668 Linlithgow transcript names John Glasgow and Agnes Daston; the parallel entry gives Agnes Easton. The exact date, Linlithgow place and full John/Agnes couple correspond with the parallel Hellen-2458 account. Daston/Eastone is an indexed variant to check.",
+      "source_ids": [
+        "held-e-0332bdea58ca",
+        "held-e-b986d98a81e8"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident record-father placement, probably for the same child represented by 2458; this rating does not assert two sisters or perform a merge."
+    },
+    {
+      "subject_id": "Glasgow-1105",
+      "relative_id": "Glasgow-4098",
+      "relationship": "child",
+      "percent": 97,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-4098-father",
+      "basis": "Helen's 22 December 1668 Linlithgow transcript names John Glasgow and Agnes Daston; the parallel entry gives Agnes Easton. The exact date, Linlithgow place and full John/Agnes couple correspond with the parallel Hellen-2458 account. Daston/Eastone is an indexed variant to check.",
+      "source_ids": [
+        "held-e-0332bdea58ca",
+        "held-e-b986d98a81e8"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident record-father placement, probably for the same child represented by 2458; this rating does not assert two sisters or perform a merge."
+    },
+    {
+      "subject_id": "Glasgow-3974",
+      "relative_id": "Glasgow-1319",
+      "relationship": "father",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-3974-father",
+      "basis": "William's 24 September 1671 Kirknewton baptism index names father Andro Glasgow. The Andro name, Kirknewton parish and companion 1666 Bessie event identify the selected Andrew’s local father role.",
+      "source_ids": [
+        "held-e-3e4e50f843a3"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for the recorded son; he is not the adult father of an April 1682 child at age ten. The supposed9 September birthday is not resolved."
+    },
+    {
+      "subject_id": "Glasgow-1319",
+      "relative_id": "Glasgow-3974",
+      "relationship": "child",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-3974-father",
+      "basis": "William's 24 September 1671 Kirknewton baptism index names father Andro Glasgow. The Andro name, Kirknewton parish and companion 1666 Bessie event identify the selected Andrew’s local father role.",
+      "source_ids": [
+        "held-e-3e4e50f843a3"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for the recorded son; he is not the adult father of an April 1682 child at age ten. The supposed9 September birthday is not resolved."
+    },
+    {
+      "subject_id": "Glasgow-1514",
+      "relative_id": "Glasgow-1512",
+      "relationship": "father",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-1514-father",
+      "basis": "Ralph's 1671 Ayr Findmypast transcript names Robert Glasgow and Margaret Donald; Scotland's People indexes 3 December 1671. The full Robert/Margaret Donald couple matches the selected Ayr father’s record-defined household.",
+      "source_ids": [
+        "held-e-40cb90eb9095"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for the 1671 child and named father, without establishing Robert’s earlier origin."
+    },
+    {
+      "subject_id": "Glasgow-1512",
+      "relative_id": "Glasgow-1514",
+      "relationship": "child",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-1514-father",
+      "basis": "Ralph's 1671 Ayr Findmypast transcript names Robert Glasgow and Margaret Donald; Scotland's People indexes 3 December 1671. The full Robert/Margaret Donald couple matches the selected Ayr father’s record-defined household.",
+      "source_ids": [
+        "held-e-40cb90eb9095"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for the 1671 child and named father, without establishing Robert’s earlier origin."
+    },
+    {
+      "subject_id": "Glasgow-1310",
+      "relative_id": "Glasgow-1152",
+      "relationship": "father",
+      "percent": 86,
+      "assessment_status": "probable",
+      "assertion_id": "C-coverage-20261022e-glasgow-1310-father",
+      "basis": "Marie's 11 October 1674 Edinburgh/St Cuthbert's transcript names Alexander Glasgow and Issobell Andersone. The full Anderson couple and Edinburgh setting match the selected 1665 husband and the 1666 Thomas child. The 1637 childhood is chronologically feasible.",
+      "source_ids": [
+        "held-e-d299fb31ad36"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Probable full-profile continuity; the Kirknewton Smith household overlaps and remains separate. The record’s named father is secure."
+    },
+    {
+      "subject_id": "Glasgow-1152",
+      "relative_id": "Glasgow-1310",
+      "relationship": "child",
+      "percent": 86,
+      "assessment_status": "probable",
+      "assertion_id": "C-coverage-20261022e-glasgow-1310-father",
+      "basis": "Marie's 11 October 1674 Edinburgh/St Cuthbert's transcript names Alexander Glasgow and Issobell Andersone. The full Anderson couple and Edinburgh setting match the selected 1665 husband and the 1666 Thomas child. The 1637 childhood is chronologically feasible.",
+      "source_ids": [
+        "held-e-d299fb31ad36"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Probable full-profile continuity; the Kirknewton Smith household overlaps and remains separate. The record’s named father is secure."
+    },
+    {
+      "subject_id": "Glasgow-1511",
+      "relative_id": "Glasgow-1496",
+      "relationship": "father",
+      "percent": 99,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-1511-father",
+      "basis": "Robert's 5 April 1674 Campbeltown transcript names father James Glasgow, maltman, and mother Janet Orr, residence Campbelltown. The transcript’s maltman occupation, Campbeltown residence and full James/Janet Orr couple identify the selected adult father. This is the Robert event formerly misplaced in James’s own parent evidence.",
+      "source_ids": [
+        "held-e-5ceea11b5b5a"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for Robert’s father James; this record does not prove that George was James’s father."
+    },
+    {
+      "subject_id": "Glasgow-1496",
+      "relative_id": "Glasgow-1511",
+      "relationship": "child",
+      "percent": 99,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-1511-father",
+      "basis": "Robert's 5 April 1674 Campbeltown transcript names father James Glasgow, maltman, and mother Janet Orr, residence Campbelltown. The transcript’s maltman occupation, Campbeltown residence and full James/Janet Orr couple identify the selected adult father. This is the Robert event formerly misplaced in James’s own parent evidence.",
+      "source_ids": [
+        "held-e-5ceea11b5b5a"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for Robert’s father James; this record does not prove that George was James’s father."
+    },
+    {
+      "subject_id": "Glasgow-3322",
+      "relative_id": "Glasgow-1157",
+      "relationship": "father",
+      "percent": 34,
+      "assessment_status": "possible",
+      "assertion_id": "C-coverage-20261022e-glasgow-3322-father",
+      "basis": "Inherited attachment to Robert-1157; no held record names Robert as Daniel's father. Daniel's primary identity is Mary Gamon's husband in 1693. The inherited Robert father and Virginia generation are feasible for the Daniel who married Mary Gamon in 1693, but none of the held tax or marriage records names his father.",
+      "source_ids": [
+        "held-inherited-father-glasgow-3322"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Possible at a modest level; duplicate Daniel accounts and the Glascocke ancestry question remain unresolved, without assuming two taxpayers were these two profiles."
+    },
+    {
+      "subject_id": "Glasgow-1157",
+      "relative_id": "Glasgow-3322",
+      "relationship": "child",
+      "percent": 34,
+      "assessment_status": "possible",
+      "assertion_id": "C-coverage-20261022e-glasgow-3322-father",
+      "basis": "Inherited attachment to Robert-1157; no held record names Robert as Daniel's father. Daniel's primary identity is Mary Gamon's husband in 1693. The inherited Robert father and Virginia generation are feasible for the Daniel who married Mary Gamon in 1693, but none of the held tax or marriage records names his father.",
+      "source_ids": [
+        "held-inherited-father-glasgow-3322"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Possible at a modest level; duplicate Daniel accounts and the Glascocke ancestry question remain unresolved, without assuming two taxpayers were these two profiles."
+    },
+    {
+      "subject_id": "Glasgow-3088",
+      "relative_id": "Glasgow-2682",
+      "relationship": "father",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-3088-father",
+      "basis": "Jean's 13 April 1677 Edinburgh index names James Glasgow and Issobell Duff. The full James/Issobell Duff couple and exact Edinburgh event match the selected record-defined father’s household.",
+      "source_ids": [
+        "held-e-e9fb60802ac4"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for this child and couple; identifying the father with another weaver or childhood profile is separately qualified."
+    },
+    {
+      "subject_id": "Glasgow-2682",
+      "relative_id": "Glasgow-3088",
+      "relationship": "child",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-3088-father",
+      "basis": "Jean's 13 April 1677 Edinburgh index names James Glasgow and Issobell Duff. The full James/Issobell Duff couple and exact Edinburgh event match the selected record-defined father’s household.",
+      "source_ids": [
+        "held-e-e9fb60802ac4"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for this child and couple; identifying the father with another weaver or childhood profile is separately qualified."
+    },
+    {
+      "subject_id": "Glasgow-3967",
+      "relative_id": "Glasgow-1081",
+      "relationship": "father",
+      "percent": 26,
+      "assessment_status": "uncertain",
+      "assertion_id": "C-coverage-20261022e-glasgow-3967-father",
+      "basis": "Inherited uncertain attachment of the ruling elder James to Kilwaughter James-1081; none of the reviewed Synod entries names the elder's parents. The selected Kilwaughter James has a feasible generation and lies within the same wider Presbyterian environment as the elder. That is a workable regional hypothesis, not a named-parent record.",
+      "source_ids": [
+        "held-inherited-father-glasgow-3967"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Uncertain paternity. The Taylor/Scott elder occurrences may describe different men and do not identify either elder’s father."
+    },
+    {
+      "subject_id": "Glasgow-1081",
+      "relative_id": "Glasgow-3967",
+      "relationship": "child",
+      "percent": 26,
+      "assessment_status": "uncertain",
+      "assertion_id": "C-coverage-20261022e-glasgow-3967-father",
+      "basis": "Inherited uncertain attachment of the ruling elder James to Kilwaughter James-1081; none of the reviewed Synod entries names the elder's parents. The selected Kilwaughter James has a feasible generation and lies within the same wider Presbyterian environment as the elder. That is a workable regional hypothesis, not a named-parent record.",
+      "source_ids": [
+        "held-inherited-father-glasgow-3967"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Uncertain paternity. The Taylor/Scott elder occurrences may describe different men and do not identify either elder’s father."
+    },
+    {
+      "subject_id": "Glasgow-2249",
+      "relative_id": "Glasgow-1498",
+      "relationship": "father",
+      "percent": 41,
+      "assessment_status": "possible",
+      "assertion_id": "C-coverage-20261022e-glasgow-2249-father",
+      "basis": "Inherited uncertain attachment to John-1498; no reviewed source names Janet as his daughter. John’s c 1650 generation fits Janet’s c 1678 estimate and the inherited Scottish-to-Irish family placement. No concrete competing father has been established.",
+      "source_ids": [
+        "held-e-15f493191049"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Possible family-tree inference, without a direct parent clause. The corrected Elgin location error is not evidence for or against this father."
+    },
+    {
+      "subject_id": "Glasgow-1498",
+      "relative_id": "Glasgow-2249",
+      "relationship": "child",
+      "percent": 41,
+      "assessment_status": "possible",
+      "assertion_id": "C-coverage-20261022e-glasgow-2249-father",
+      "basis": "Inherited uncertain attachment to John-1498; no reviewed source names Janet as his daughter. John’s c 1650 generation fits Janet’s c 1678 estimate and the inherited Scottish-to-Irish family placement. No concrete competing father has been established.",
+      "source_ids": [
+        "held-e-15f493191049"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Possible family-tree inference, without a direct parent clause. The corrected Elgin location error is not evidence for or against this father."
+    },
+    {
+      "subject_id": "Glasgow-3368",
+      "relative_id": "Glasgow-2682",
+      "relationship": "father",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-3368-father",
+      "basis": "James's 18 April 1680 Edinburgh index names James Glasgow and Issobell Duff. The full James/Duff couple and exact Edinburgh event identify the selected record father.",
+      "source_ids": [
+        "held-e-e23b45222d55"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for the 1680 child. The 1679 same-name son remains separate; no undocumented death, survival or apprentice identity is supplied."
+    },
+    {
+      "subject_id": "Glasgow-2682",
+      "relative_id": "Glasgow-3368",
+      "relationship": "child",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-3368-father",
+      "basis": "James's 18 April 1680 Edinburgh index names James Glasgow and Issobell Duff. The full James/Duff couple and exact Edinburgh event identify the selected record father.",
+      "source_ids": [
+        "held-e-e23b45222d55"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for the 1680 child. The 1679 same-name son remains separate; no undocumented death, survival or apprentice identity is supplied."
+    },
+    {
+      "subject_id": "Glasgow-3013",
+      "relative_id": "Glasgow-3012",
+      "relationship": "father",
+      "percent": 88,
+      "assessment_status": "probable",
+      "assertion_id": "C-coverage-20261022e-glasgow-3013-father",
+      "basis": "William's 26 December 1680 Glencorse index names John Glasgow and Margaret Currie. The full John/Margaret Currie couple and Glencorse event fit the selected John’s adult household, with the 1649 Kirknewton childhood in a compatible neighbouring Lothian setting.",
+      "source_ids": [
+        "held-e-f7e471ea4981"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Probable full-profile continuity; record paternity is explicit, but the 1649 child-to-Glencorse husband identification remains independently qualified."
+    },
+    {
+      "subject_id": "Glasgow-3012",
+      "relative_id": "Glasgow-3013",
+      "relationship": "child",
+      "percent": 88,
+      "assessment_status": "probable",
+      "assertion_id": "C-coverage-20261022e-glasgow-3013-father",
+      "basis": "William's 26 December 1680 Glencorse index names John Glasgow and Margaret Currie. The full John/Margaret Currie couple and Glencorse event fit the selected John’s adult household, with the 1649 Kirknewton childhood in a compatible neighbouring Lothian setting.",
+      "source_ids": [
+        "held-e-f7e471ea4981"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Probable full-profile continuity; record paternity is explicit, but the 1649 child-to-Glencorse husband identification remains independently qualified."
+    },
+    {
+      "subject_id": "Glasgow-3284",
+      "relative_id": "Glasgow-2682",
+      "relationship": "father",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-3284-father",
+      "basis": "Mary's 23 April 1682 Edinburgh index names James Glasgow and Issobell Duffe. The full James/Issobell Duffe couple recurs in the same Edinburgh household and exact child sequence.",
+      "source_ids": [
+        "held-e-9f7010236c45"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for the recorded daughter and father, without settling the father’s other proposed identities."
+    },
+    {
+      "subject_id": "Glasgow-2682",
+      "relative_id": "Glasgow-3284",
+      "relationship": "child",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-3284-father",
+      "basis": "Mary's 23 April 1682 Edinburgh index names James Glasgow and Issobell Duffe. The full James/Issobell Duffe couple recurs in the same Edinburgh household and exact child sequence.",
+      "source_ids": [
+        "held-e-9f7010236c45"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for the recorded daughter and father, without settling the father’s other proposed identities."
+    },
+    {
+      "subject_id": "Glasgow-3085",
+      "relative_id": "Glasgow-3012",
+      "relationship": "father",
+      "percent": 87,
+      "assessment_status": "probable",
+      "assertion_id": "C-coverage-20261022e-glasgow-3085-father",
+      "basis": "Margarat's 13 April 1684 Glencorse index is cited for John Glaskow; captured account identifies the mother as Margaret Currie. The Glencorse place, recurring John/Margaret Currie family and 1680 companion child support the selected father’s adult household. His 1649 generation is feasible.",
+      "source_ids": [
+        "held-e-5b70d8808b32"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Probable full-profile continuity;4/13 April is retained as an unresolved date/event difference and the adult-to-childhood bridge is not newly proved."
+    },
+    {
+      "subject_id": "Glasgow-3012",
+      "relative_id": "Glasgow-3085",
+      "relationship": "child",
+      "percent": 87,
+      "assessment_status": "probable",
+      "assertion_id": "C-coverage-20261022e-glasgow-3085-father",
+      "basis": "Margarat's 13 April 1684 Glencorse index is cited for John Glaskow; captured account identifies the mother as Margaret Currie. The Glencorse place, recurring John/Margaret Currie family and 1680 companion child support the selected father’s adult household. His 1649 generation is feasible.",
+      "source_ids": [
+        "held-e-5b70d8808b32"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Probable full-profile continuity;4/13 April is retained as an unresolved date/event difference and the adult-to-childhood bridge is not newly proved."
+    },
+    {
+      "subject_id": "Glasgow-3528",
+      "relative_id": "Glasgow-1376",
+      "relationship": "father",
+      "percent": 64,
+      "assessment_status": "probable",
+      "assertion_id": "C-coverage-20261022e-glasgow-3528-father",
+      "basis": "Captured biography asserts Jean daughter of James Glasgow; its citation is James Glassgow in James Hall's 1705 marriage entry, without a quoted father-daughter clause in held findings. The specific James father claim and the named 1705 Hall-marriage citation form a feasible family account for Jean’s c 1685 generation, beyond a bare surname guess.",
+      "source_ids": [
+        "held-e-fbf91551e6dd"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Probable at a modest level; the held citation has not reproduced the exact father-daughter role, and the separate Woodsyd marriage comparison remains unproved."
+    },
+    {
+      "subject_id": "Glasgow-1376",
+      "relative_id": "Glasgow-3528",
+      "relationship": "child",
+      "percent": 64,
+      "assessment_status": "probable",
+      "assertion_id": "C-coverage-20261022e-glasgow-3528-father",
+      "basis": "Captured biography asserts Jean daughter of James Glasgow; its citation is James Glassgow in James Hall's 1705 marriage entry, without a quoted father-daughter clause in held findings. The specific James father claim and the named 1705 Hall-marriage citation form a feasible family account for Jean’s c 1685 generation, beyond a bare surname guess.",
+      "source_ids": [
+        "held-e-fbf91551e6dd"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Probable at a modest level; the held citation has not reproduced the exact father-daughter role, and the separate Woodsyd marriage comparison remains unproved."
+    },
+    {
+      "subject_id": "Glasgow-3369",
+      "relative_id": "Glasgow-3117",
+      "relationship": "father",
+      "percent": 87,
+      "assessment_status": "probable",
+      "assertion_id": "C-coverage-20261022e-glasgow-3369-father",
+      "basis": "Captured account assigns Margaret's 3 March 1685 Duns index to daughter of John Glasgow and Margaret Purves. The full John/Margaret Purves couple and Duns household match the selected father’s adult family. The 1666 Gordon childhood is nearby and chronologically feasible at about nineteen.",
+      "source_ids": [
+        "held-e-7f9f0fa4d651"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Probable full-profile continuity, with the named household paternity distinguished from the earlier Gordon-child identification; Duns and Gordon are not silently treated as identical birthplaces."
+    },
+    {
+      "subject_id": "Glasgow-3117",
+      "relative_id": "Glasgow-3369",
+      "relationship": "child",
+      "percent": 87,
+      "assessment_status": "probable",
+      "assertion_id": "C-coverage-20261022e-glasgow-3369-father",
+      "basis": "Captured account assigns Margaret's 3 March 1685 Duns index to daughter of John Glasgow and Margaret Purves. The full John/Margaret Purves couple and Duns household match the selected father’s adult family. The 1666 Gordon childhood is nearby and chronologically feasible at about nineteen.",
+      "source_ids": [
+        "held-e-7f9f0fa4d651"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Probable full-profile continuity, with the named household paternity distinguished from the earlier Gordon-child identification; Duns and Gordon are not silently treated as identical birthplaces."
+    },
+    {
+      "subject_id": "Glasgow-3162",
+      "relative_id": "Glasgow-1090",
+      "relationship": "father",
+      "percent": 54,
+      "assessment_status": "possible",
+      "assertion_id": "C-coverage-20261022e-glasgow-3162-father",
+      "basis": "Margaret's 23 September 1688 Kilwinning transcript names George Glasgow and Anne Smith; Scotland's People gives Fanne Smith. A father born in 1627 could still have a child in 1688, and the family account places the selected George with the Smith household. The roughly sixty-one-year paternal age and Glasgow-to-Kilwinning identification need corroboration.",
+      "source_ids": [
+        "held-e-15783f7ecdd3",
+        "held-e-3bb0a9125240"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Possible full-profile placement. The record father George is named; Anne/Fanne and9/23 September are source variants, not resolved vital or maternal facts."
+    },
+    {
+      "subject_id": "Glasgow-1090",
+      "relative_id": "Glasgow-3162",
+      "relationship": "child",
+      "percent": 54,
+      "assessment_status": "possible",
+      "assertion_id": "C-coverage-20261022e-glasgow-3162-father",
+      "basis": "Margaret's 23 September 1688 Kilwinning transcript names George Glasgow and Anne Smith; Scotland's People gives Fanne Smith. A father born in 1627 could still have a child in 1688, and the family account places the selected George with the Smith household. The roughly sixty-one-year paternal age and Glasgow-to-Kilwinning identification need corroboration.",
+      "source_ids": [
+        "held-e-15783f7ecdd3",
+        "held-e-3bb0a9125240"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Possible full-profile placement. The record father George is named; Anne/Fanne and9/23 September are source variants, not resolved vital or maternal facts."
+    },
+    {
+      "subject_id": "Glasgow-3086",
+      "relative_id": "Glasgow-3087",
+      "relationship": "father",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-3086-father",
+      "basis": "Margaret's 3 June 1688 Kilwinning baptism transcript names John Glasgow and Bessie Smith. The full John/Bessie Smith couple and exact Kilwinning event identify the selected record-defined adult father.",
+      "source_ids": [
+        "held-e-6ee5dc0103c8"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for the recorded child and father; John’s estimated 1670 birth and earlier ancestry remain independent."
+    },
+    {
+      "subject_id": "Glasgow-3087",
+      "relative_id": "Glasgow-3086",
+      "relationship": "child",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-3086-father",
+      "basis": "Margaret's 3 June 1688 Kilwinning baptism transcript names John Glasgow and Bessie Smith. The full John/Bessie Smith couple and exact Kilwinning event identify the selected record-defined adult father.",
+      "source_ids": [
+        "held-e-6ee5dc0103c8"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for the recorded child and father; John’s estimated 1670 birth and earlier ancestry remain independent."
+    },
+    {
+      "subject_id": "Glasgow-3116",
+      "relative_id": "Glasgow-3117",
+      "relationship": "father",
+      "percent": 88,
+      "assessment_status": "probable",
+      "assertion_id": "C-coverage-20261022e-glasgow-3116-father",
+      "basis": "Alison's 27 November 1688 Duns index is cited by the represented John-3117/Purves household; captured family fields name John and Margaret Purves, but the held child citation does not reproduce its parent text. The Duns child record, full John/Margaret Purves family fields and companion 1685 Margaret support the selected John’s adult household. The 1666 Gordon childhood gives an ordinary age near twenty-two.",
+      "source_ids": [
+        "held-e-780571142f0f"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Probable full-profile continuity, without treating the stale 1670 prose or Duns/Gordon place difference as proof of two fathers. The literal parent text should be checked."
+    },
+    {
+      "subject_id": "Glasgow-3117",
+      "relative_id": "Glasgow-3116",
+      "relationship": "child",
+      "percent": 88,
+      "assessment_status": "probable",
+      "assertion_id": "C-coverage-20261022e-glasgow-3116-father",
+      "basis": "Alison's 27 November 1688 Duns index is cited by the represented John-3117/Purves household; captured family fields name John and Margaret Purves, but the held child citation does not reproduce its parent text. The Duns child record, full John/Margaret Purves family fields and companion 1685 Margaret support the selected John’s adult household. The 1666 Gordon childhood gives an ordinary age near twenty-two.",
+      "source_ids": [
+        "held-e-780571142f0f"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Probable full-profile continuity, without treating the stale 1670 prose or Duns/Gordon place difference as proof of two fathers. The literal parent text should be checked."
+    },
+    {
+      "subject_id": "Glasgow-3104",
+      "relative_id": "Glasgow-3105",
+      "relationship": "father",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-3104-father",
+      "basis": "James's 14 July 1689 Kilwinning transcript names James Glasgow and Margaret Park. The full James/Margaret Park couple and exact Kilwinning event identify the selected record-defined father’s household.",
+      "source_ids": [
+        "held-e-d5d6140a0e60"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for this recorded child; Anne’s nearby baptism date does not prove two births within two months or the same mother."
+    },
+    {
+      "subject_id": "Glasgow-3105",
+      "relative_id": "Glasgow-3104",
+      "relationship": "child",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-3104-father",
+      "basis": "James's 14 July 1689 Kilwinning transcript names James Glasgow and Margaret Park. The full James/Margaret Park couple and exact Kilwinning event identify the selected record-defined father’s household.",
+      "source_ids": [
+        "held-e-d5d6140a0e60"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for this recorded child; Anne’s nearby baptism date does not prove two births within two months or the same mother."
+    },
+    {
+      "subject_id": "Glasgow-4134",
+      "relative_id": "Glasgow-3105",
+      "relationship": "father",
+      "percent": 84,
+      "assessment_status": "probable",
+      "assertion_id": "C-coverage-20261022e-glasgow-4134-father",
+      "basis": "Anne's 22 May 1689 Kilwinning baptism transcript names father James Glasgow and no mother. The same father name and Kilwinning parish fit the selected James’s adult family, close to his July 1689 child event. The dates are baptisms, so proximity does not exclude one father.",
+      "source_ids": [
+        "held-e-33a4e3fd4264"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Probable identification of this unnamed-mother entry with James-3105; maternity and exact sibling relationship remain open."
+    },
+    {
+      "subject_id": "Glasgow-3105",
+      "relative_id": "Glasgow-4134",
+      "relationship": "child",
+      "percent": 84,
+      "assessment_status": "probable",
+      "assertion_id": "C-coverage-20261022e-glasgow-4134-father",
+      "basis": "Anne's 22 May 1689 Kilwinning baptism transcript names father James Glasgow and no mother. The same father name and Kilwinning parish fit the selected James’s adult family, close to his July 1689 child event. The dates are baptisms, so proximity does not exclude one father.",
+      "source_ids": [
+        "held-e-33a4e3fd4264"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Probable identification of this unnamed-mother entry with James-3105; maternity and exact sibling relationship remain open."
+    },
+    {
+      "subject_id": "Glasgow-1433",
+      "relative_id": "Glasgow-3375",
+      "relationship": "father",
+      "percent": 95,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-1433-father",
+      "basis": "Jannet's Kilwinning transcript names John Glasgow and Maria Allason, baptism 1 February 1689; Scotland's People gives mother surname Allason only. The John father and Allason family surname match the selected Kilwinning adult household, and the generation is feasible. The source supports the father independently of choosing a normalized mother’s forename.",
+      "source_ids": [
+        "held-e-96faf8a81a81",
+        "held-e-01b409cdd9a0"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for the recorded father John; Maria is not silently equated with the attached Barbara, and31 January/1 February remains a date conflict."
+    },
+    {
+      "subject_id": "Glasgow-3375",
+      "relative_id": "Glasgow-1433",
+      "relationship": "child",
+      "percent": 95,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-1433-father",
+      "basis": "Jannet's Kilwinning transcript names John Glasgow and Maria Allason, baptism 1 February 1689; Scotland's People gives mother surname Allason only. The John father and Allason family surname match the selected Kilwinning adult household, and the generation is feasible. The source supports the father independently of choosing a normalized mother’s forename.",
+      "source_ids": [
+        "held-e-96faf8a81a81",
+        "held-e-01b409cdd9a0"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for the recorded father John; Maria is not silently equated with the attached Barbara, and31 January/1 February remains a date conflict."
+    },
+    {
+      "subject_id": "Glasgow-3587",
+      "relative_id": "Glasgow-1605",
+      "relationship": "father",
+      "percent": 29,
+      "assessment_status": "uncertain",
+      "assertion_id": "C-coverage-20261022e-glasgow-3587-father",
+      "basis": "Inherited uncertain Polwarth father Glasgow-1605; William's 1708/9 Hummelknows marriage names no parents. A 1658 Polwarth father could have an adult son marrying in 1709, and the inherited route places the groom in a compatible Borders generation. The marriage itself supplies no parent or origin.",
+      "source_ids": [
+        "held-e-cb4292fcba2f"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Uncertain paternity; the documented Cavers adult William-4138 is a possible earlier identity for the groom, not proof that the Polwarth child was his father."
+    },
+    {
+      "subject_id": "Glasgow-1605",
+      "relative_id": "Glasgow-3587",
+      "relationship": "child",
+      "percent": 29,
+      "assessment_status": "uncertain",
+      "assertion_id": "C-coverage-20261022e-glasgow-3587-father",
+      "basis": "Inherited uncertain Polwarth father Glasgow-1605; William's 1708/9 Hummelknows marriage names no parents. A 1658 Polwarth father could have an adult son marrying in 1709, and the inherited route places the groom in a compatible Borders generation. The marriage itself supplies no parent or origin.",
+      "source_ids": [
+        "held-e-cb4292fcba2f"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Uncertain paternity; the documented Cavers adult William-4138 is a possible earlier identity for the groom, not proof that the Polwarth child was his father."
+    },
+    {
+      "subject_id": "Glasgow-2681",
+      "relative_id": "Glasgow-2682",
+      "relationship": "father",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-2681-father",
+      "basis": "Margarett's 20 March 1691 Edinburgh index names James Glasgow and Issobell Duff. The full James/Issobell Duff couple and exact Edinburgh child event identify the selected record father.",
+      "source_ids": [
+        "held-e-ca8a81bf6af4"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident recorded paternity; the unrelated Androu Lamb citation previously encountered is not used as parent evidence."
+    },
+    {
+      "subject_id": "Glasgow-2682",
+      "relative_id": "Glasgow-2681",
+      "relationship": "child",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-2681-father",
+      "basis": "Margarett's 20 March 1691 Edinburgh index names James Glasgow and Issobell Duff. The full James/Issobell Duff couple and exact Edinburgh child event identify the selected record father.",
+      "source_ids": [
+        "held-e-ca8a81bf6af4"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident recorded paternity; the unrelated Androu Lamb citation previously encountered is not used as parent evidence."
+    },
+    {
+      "subject_id": "Glasgow-2730",
+      "relative_id": "Glasgow-2731",
+      "relationship": "father",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-2730-father",
+      "basis": "Margaret Glasgo's Hawick baptism index of 7 February 1692 names father William Glasgo. The Hawick father-only index identifies the William represented by this record-defined parental account.",
+      "source_ids": [
+        "held-e-a45e69f44be1"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for the recorded 1692 child’s father. Her later adult identity and a former 1702 estimate remain separate; William’s own proposed father is not strengthened."
+    },
+    {
+      "subject_id": "Glasgow-2731",
+      "relative_id": "Glasgow-2730",
+      "relationship": "child",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-2730-father",
+      "basis": "Margaret Glasgo's Hawick baptism index of 7 February 1692 names father William Glasgo. The Hawick father-only index identifies the William represented by this record-defined parental account.",
+      "source_ids": [
+        "held-e-a45e69f44be1"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for the recorded 1692 child’s father. Her later adult identity and a former 1702 estimate remain separate; William’s own proposed father is not strengthened."
+    },
+    {
+      "subject_id": "Glasgow-3966",
+      "relative_id": "Glasgow-3556",
+      "relationship": "father",
+      "percent": 24,
+      "assessment_status": "uncertain",
+      "assertion_id": "C-coverage-20261022e-glasgow-3966-father",
+      "basis": "Inherited attachment to Thomas-3556; neither the 1713 Synod roll nor the name-only 1724 probate occurrence names George's parents. Thomas’s pre 1671 generation could fit George before 1693 within the early Irish Glasgow church setting, but the Synod and probate name occurrences supply no parent relationship.",
+      "source_ids": [
+        "held-e-bd24d601c77f"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Uncertain retained father hypothesis; an elder’s role and a name-only estate entry do not identify his ancestry."
+    },
+    {
+      "subject_id": "Glasgow-3556",
+      "relative_id": "Glasgow-3966",
+      "relationship": "child",
+      "percent": 24,
+      "assessment_status": "uncertain",
+      "assertion_id": "C-coverage-20261022e-glasgow-3966-father",
+      "basis": "Inherited attachment to Thomas-3556; neither the 1713 Synod roll nor the name-only 1724 probate occurrence names George's parents. Thomas’s pre 1671 generation could fit George before 1693 within the early Irish Glasgow church setting, but the Synod and probate name occurrences supply no parent relationship.",
+      "source_ids": [
+        "held-e-bd24d601c77f"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Uncertain retained father hypothesis; an elder’s role and a name-only estate entry do not identify his ancestry."
+    },
+    {
+      "subject_id": "Glasgow-3370",
+      "relative_id": "Glasgow-1605",
+      "relationship": "father",
+      "percent": 38,
+      "assessment_status": "possible",
+      "assertion_id": "C-coverage-20261022e-glasgow-3370-father",
+      "basis": "Isabell's December 1694 Cavers FreeREG baptism names father William Glasgow. The 1658 Polwarth child could have become the 1694 Cavers father at about thirty-six, making the inherited placement feasible. The documented Cavers adult William-4138 is a stronger local adult comparison.",
+      "source_ids": [
+        "held-e-1517e699d73f",
+        "held-e-8383af1e476d"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Possible old attachment specifically to the Polwarth child; the record’s father William is explicit, but its adult identity and2/8 December date remain qualified."
+    },
+    {
+      "subject_id": "Glasgow-1605",
+      "relative_id": "Glasgow-3370",
+      "relationship": "child",
+      "percent": 38,
+      "assessment_status": "possible",
+      "assertion_id": "C-coverage-20261022e-glasgow-3370-father",
+      "basis": "Isabell's December 1694 Cavers FreeREG baptism names father William Glasgow. The 1658 Polwarth child could have become the 1694 Cavers father at about thirty-six, making the inherited placement feasible. The documented Cavers adult William-4138 is a stronger local adult comparison.",
+      "source_ids": [
+        "held-e-1517e699d73f",
+        "held-e-8383af1e476d"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Possible old attachment specifically to the Polwarth child; the record’s father William is explicit, but its adult identity and2/8 December date remain qualified."
+    },
+    {
+      "subject_id": "Glasgow-3514",
+      "relative_id": "Glasgow-1073",
+      "relationship": "father",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-3514-father",
+      "basis": "Alexander's 15 July 1695 Kilbirnie index/transcript names John Glasgow and Jeane Cunynghame. The full John/Jeane Cunynghame couple and Kilbirnie parish sequence match the selected minister’s family.",
+      "source_ids": [
+        "held-e-a0f67bada575"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for the recorded child and father; later adult Alexander identities are not inferred."
+    },
+    {
+      "subject_id": "Glasgow-1073",
+      "relative_id": "Glasgow-3514",
+      "relationship": "child",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-3514-father",
+      "basis": "Alexander's 15 July 1695 Kilbirnie index/transcript names John Glasgow and Jeane Cunynghame. The full John/Jeane Cunynghame couple and Kilbirnie parish sequence match the selected minister’s family.",
+      "source_ids": [
+        "held-e-a0f67bada575"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for the recorded child and father; later adult Alexander identities are not inferred."
+    },
+    {
+      "subject_id": "Glasgow-3108",
+      "relative_id": "Glasgow-3109",
+      "relationship": "father",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-3108-father",
+      "basis": "Hugh's 19 January 1696 Irvine index names Hugh Glasgow and Jean Service. The full Hugh/Jean Service couple and Irvine event identify the selected record-defined adult father’s household.",
+      "source_ids": [
+        "held-e-0db96140f494"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident paternity;1/19 January remains a separate date/event conflict and Hugh’s earlier childhood is not supplied."
+    },
+    {
+      "subject_id": "Glasgow-3109",
+      "relative_id": "Glasgow-3108",
+      "relationship": "child",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-3108-father",
+      "basis": "Hugh's 19 January 1696 Irvine index names Hugh Glasgow and Jean Service. The full Hugh/Jean Service couple and Irvine event identify the selected record-defined adult father’s household.",
+      "source_ids": [
+        "held-e-0db96140f494"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident paternity;1/19 January remains a separate date/event conflict and Hugh’s earlier childhood is not supplied."
+    },
+    {
+      "subject_id": "Glasgow-3371",
+      "relative_id": "Glasgow-3109",
+      "relationship": "father",
+      "percent": 97,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-3371-father",
+      "basis": "Captured account identifies Mary as daughter of Hugh Glasgow and Jean Service in the 1696 Irvine index. The 1696 Irvine child citation and full Hugh/Jean Service family account fit the same selected household as the Hugh child.",
+      "source_ids": [
+        "held-e-6fd9722396ac"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for this recorded family placement, with the exact child-role text to be checked if a namesake is proposed; the father’s earlier identity remains separate."
+    },
+    {
+      "subject_id": "Glasgow-3109",
+      "relative_id": "Glasgow-3371",
+      "relationship": "child",
+      "percent": 97,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-3371-father",
+      "basis": "Captured account identifies Mary as daughter of Hugh Glasgow and Jean Service in the 1696 Irvine index. The 1696 Irvine child citation and full Hugh/Jean Service family account fit the same selected household as the Hugh child.",
+      "source_ids": [
+        "held-e-6fd9722396ac"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for this recorded family placement, with the exact child-role text to be checked if a namesake is proposed; the father’s earlier identity remains separate."
+    },
+    {
+      "subject_id": "Glasgow-1436",
+      "relative_id": "Glasgow-1073",
+      "relationship": "father",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-1436-father",
+      "basis": "Jeane's 16 April 1697 Kilbirnie index names John Glasgow and Jeane Cunynghame. The full John/Jeane couple and exact Kilbirnie entry match the selected minister’s established child sequence.",
+      "source_ids": [
+        "held-e-2d4191614608"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for the recorded daughter’s paternity; no later marriage or adult identity is chosen by this rating."
+    },
+    {
+      "subject_id": "Glasgow-1073",
+      "relative_id": "Glasgow-1436",
+      "relationship": "child",
+      "percent": 98,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-1436-father",
+      "basis": "Jeane's 16 April 1697 Kilbirnie index names John Glasgow and Jeane Cunynghame. The full John/Jeane couple and exact Kilbirnie entry match the selected minister’s established child sequence.",
+      "source_ids": [
+        "held-e-2d4191614608"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for the recorded daughter’s paternity; no later marriage or adult identity is chosen by this rating."
+    },
+    {
+      "subject_id": "Glasgow-3102",
+      "relative_id": "Glasgow-3103",
+      "relationship": "father",
+      "percent": 42,
+      "assessment_status": "possible",
+      "assertion_id": "C-coverage-20261022e-glasgow-3102-father",
+      "basis": "Peter's 1699 Edinburgh transcript names James Glasgow, cardiner, and Jean Dohe; Scotland's People indexes James Glasgow and Jean Dobie. The 1679 Edinburgh child would be about twenty when Peter was recorded, a feasible generation in the same city. The 1680 same-name child remains an equally viable childhood comparison for the adult cordiner father.",
+      "source_ids": [
+        "held-e-5a858235bd0c"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Possible identification with James-3103 specifically; the named adult father James is explicit, but childhood, apprentice and Dobie-marriage identities remain unproved.23/28 May is separate."
+    },
+    {
+      "subject_id": "Glasgow-3103",
+      "relative_id": "Glasgow-3102",
+      "relationship": "child",
+      "percent": 42,
+      "assessment_status": "possible",
+      "assertion_id": "C-coverage-20261022e-glasgow-3102-father",
+      "basis": "Peter's 1699 Edinburgh transcript names James Glasgow, cardiner, and Jean Dohe; Scotland's People indexes James Glasgow and Jean Dobie. The 1679 Edinburgh child would be about twenty when Peter was recorded, a feasible generation in the same city. The 1680 same-name child remains an equally viable childhood comparison for the adult cordiner father.",
+      "source_ids": [
+        "held-e-5a858235bd0c"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Possible identification with James-3103 specifically; the named adult father James is explicit, but childhood, apprentice and Dobie-marriage identities remain unproved.23/28 May is separate."
+    },
+    {
+      "subject_id": "Glasgow-1418",
+      "relative_id": "Glasgow-1406",
+      "relationship": "father",
+      "percent": 97,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-1418-father",
+      "basis": "Elizabeth's Irvine parish index names Michael Glasgow and Elizabeth Garven, assumed year 1700. The full Michael/Elizabeth Garven couple matches the selected Irvine adult household and identifies the record father.",
+      "source_ids": [
+        "held-e-55490431fd79"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for the recorded child’s parentage;1700 is an assumed index year, not an exact birthday or independent age fact."
+    },
+    {
+      "subject_id": "Glasgow-1406",
+      "relative_id": "Glasgow-1418",
+      "relationship": "child",
+      "percent": 97,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-1418-father",
+      "basis": "Elizabeth's Irvine parish index names Michael Glasgow and Elizabeth Garven, assumed year 1700. The full Michael/Elizabeth Garven couple matches the selected Irvine adult household and identifies the record father.",
+      "source_ids": [
+        "held-e-55490431fd79"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for the recorded child’s parentage;1700 is an assumed index year, not an exact birthday or independent age fact."
+    },
+    {
+      "subject_id": "Glasgow-3160",
+      "relative_id": "Glasgow-3161",
+      "relationship": "father",
+      "percent": 99,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-3160-father",
+      "basis": "Patrick's West Kilbride index reads PATRICK03-01-1700, father JOHN GLASGOW, mother blank. John-3161 represents the expressly named West Kilbride father in this child event, rather than a separately proved childhood identity.",
+      "source_ids": [
+        "held-e-0810d1ec6e3f"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for the record-defined father and Patrick child.3 January/1 March is unresolved, and the proposed identity with the older Maryland minister remains independent."
+    },
+    {
+      "subject_id": "Glasgow-3161",
+      "relative_id": "Glasgow-3160",
+      "relationship": "child",
+      "percent": 99,
+      "assessment_status": "proved",
+      "assertion_id": "C-coverage-20261022e-glasgow-3160-father",
+      "basis": "Patrick's West Kilbride index reads PATRICK03-01-1700, father JOHN GLASGOW, mother blank. John-3161 represents the expressly named West Kilbride father in this child event, rather than a separately proved childhood identity.",
+      "source_ids": [
+        "held-e-0810d1ec6e3f"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Confident for the record-defined father and Patrick child.3 January/1 March is unresolved, and the proposed identity with the older Maryland minister remains independent."
+    },
+    {
+      "subject_id": "Glasgow-3370",
+      "relative_id": "Glasgow-4138",
+      "relationship": "father",
+      "percent": 76,
+      "assessment_status": "probable",
+      "assertion_id": "C-working-20261022-isabell-cavers-father",
+      "basis": "Prefer William Glasgow-4138, documented at Cavers and Ormistoun in 1679–84, as the William who fathered Isabell at Cavers in December 1694. The repeated full name, same parish association, earlier adult activity and feasible father generation give this record-defined local adult a stronger fit than identifying the father directly with the 1658 Polwarth child Glasgow-1605. This is an inferred identification across the held records, not an explicit father-daughter statement in the Covenanter material.",
+      "source_ids": [
+        "held-e-1517e699d73f",
+        "held-e-8383af1e476d",
+        "polwarth-cavers-ulster-servant-1679",
+        "cavers-ormistoun-servant-1684-held"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Probable 76% for the complete father-profile identification. The baptism names William but supplies no mother. No shared relative, precise abode, occupation or continuous identifying clause connects the Cavers baptism to the 1679–84 servant. The Polwarth child remains a possible 38% alternative and might itself be the Cavers adult; no identity merge is selected. Other local Williams remain possible. The two FreeREG transcriptions disagree between 2 and 8 December 1694; the parish index gives 2 December. No new source inspection, birth age, mother, migration or live WikiTree change is claimed."
+    },
+    {
+      "subject_id": "Glasgow-4138",
+      "relative_id": "Glasgow-3370",
+      "relationship": "child",
+      "percent": 76,
+      "assessment_status": "probable",
+      "assertion_id": "C-working-20261022-isabell-cavers-father",
+      "basis": "Prefer William Glasgow-4138, documented at Cavers and Ormistoun in 1679–84, as the William who fathered Isabell at Cavers in December 1694. The repeated full name, same parish association, earlier adult activity and feasible father generation give this record-defined local adult a stronger fit than identifying the father directly with the 1658 Polwarth child Glasgow-1605. This is an inferred identification across the held records, not an explicit father-daughter statement in the Covenanter material.",
+      "source_ids": [
+        "held-e-1517e699d73f",
+        "held-e-8383af1e476d",
+        "polwarth-cavers-ulster-servant-1679",
+        "cavers-ormistoun-servant-1684-held"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Probable 76% for the complete father-profile identification. The baptism names William but supplies no mother. No shared relative, precise abode, occupation or continuous identifying clause connects the Cavers baptism to the 1679–84 servant. The Polwarth child remains a possible 38% alternative and might itself be the Cavers adult; no identity merge is selected. Other local Williams remain possible. The two FreeREG transcriptions disagree between 2 and 8 December 1694; the parish index gives 2 December. No new source inspection, birth age, mother, migration or live WikiTree change is claimed."
     }
   ]
 }

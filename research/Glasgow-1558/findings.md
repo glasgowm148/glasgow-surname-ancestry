@@ -5,6 +5,8 @@ Last updated: 2026-09-10
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-f8bbedf29384 -->
 ## Current conclusion
 
+Current father assessment (22 October 2026): **98% (proved)** for [Glasgow-1557](https://www.wikitree.com/wiki/Glasgow-1557). Confident for the recorded child and father; competing later lives of the two Edwards and Eduard-994 remain separately qualified. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Reviewed: 2026-10-15
 
 This profile represents the Edward baptised in 1615. Both he and Edward-1557 are compatible candidates for the Edward indexed alongside Alexander and James the weaver in 1646; the original instrument must establish identity and kinship.
@@ -53,3 +55,17 @@ The visually checked [SRO Indexes 44 (1958), Edinburgh etc. register of sasines 
 ## Additional compatible Edward — 15 October 2026
 
 [Eduard Glasgow-994](https://www.wikitree.com/wiki/Glasgow-994), the Inveresk child indexed in 1609 with father James, is another compatible identity for the 1624 and 1646 Edward occurrences. He would be about fifteen in 1624 and about 37 in 1646 if baptised near birth; minority does not by itself exclude the earlier land record. The original instruments supply no inspected paternal identification. If this is Eduard-994, the association may lie within James-991’s proposed household; it would not establish the suggested Corsankell bridge through Edward-1557. Preserve all three Edwards as comparisons. See [Eduard’s record assessment](/people/glasgow-994.html) and the [printed 1646 index](https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481222&seq=167).
+
+## Father confidence review, fifth batch — 22 October 2026
+
+[Glasgow-1557](https://www.wikitree.com/wiki/Glasgow-1557) remains the selected father, assessed **98% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+The Inveresk Edward child event indexed 6 June 1615 names father Edward Glasgow; the mother is omitted. Edward-1557 represents the adult Inveresk father in this record, so the exact child event supports the paternal relationship.
+
+Scope: Confident for the recorded child and father; competing later lives of the two Edwards and Eduard-994 remain separately qualified.
+
+Next useful test: Test any later adult identification against date, occupation and kin rather than name alone.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Edward Glasgow, 1615, record R_686177760](https://www.findmypast.co.uk/transcript?id=R_686177760)

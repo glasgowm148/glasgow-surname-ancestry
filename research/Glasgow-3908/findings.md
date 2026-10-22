@@ -1,6 +1,8 @@
 # Findings: [Matthew Glasgow (Glasgow-3908), Ardeer Nether](https://www.wikitree.com/wiki/Glasgow-3908)
 
-## Conclusion
+## Current conclusion
+
+Current father assessment (22 October 2026): **46% (possible)** for [Glasgow-1168](https://www.wikitree.com/wiki/Glasgow-1168). Possible father, not a statement that the teind list names Matthew as James’s son. The proved James and John sons do not exclude another child. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 The 1559-60 Cunninghame teind list separately names **Matthew Glasgow** at
 Ardeer Nether. He is not a transcription duplicate of
@@ -70,3 +72,17 @@ James's brother/cousin because he was already a legal witness in 1549.
 Live application, 31 August 2026: James elder was attached as Matthew's working
 father with the explicit WikiTree status **uncertain**. Public family readback
 and the checked status control were verified.
+
+## Father confidence review, fifth batch — 22 October 2026
+
+[Glasgow-1168](https://www.wikitree.com/wiki/Glasgow-1168) remains the selected father, assessed **46% (possible)**. Previous selected-tree status: **uncertain**, without an individual percentage.
+
+No parent is named. James elder of Corsankell is selected as a possible father or uncle of Matthew at Ardeer Nether from their common 1559–60 Stevenston tenant cluster and compatible generations. The same Stevenston estate landscape and an ordinary generation make James elder the preferred local father candidate, although nephew is also a natural fit.
+
+Scope: Possible father, not a statement that the teind list names Matthew as James’s son. The proved James and John sons do not exclude another child.
+
+Next useful test: Look for a succession, tenancy or kin clause linking Matthew with Corsankell.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Margaret H. B. Sanderson, The People of Sixteenth Century Ayrshire, appendix “The Cunninghame Teind Lists of 1559-60,” p. 331 (https://aanhs.org/wp-content/uploads/2018/05/people-of-ayrshire.pdf#page=36).](https://aanhs.org/wp-content/uploads/2018/05/people-of-ayrshire.pdf#page=36)

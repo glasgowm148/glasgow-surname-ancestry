@@ -4,6 +4,8 @@ Last updated: 2026-10-06
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **26% (uncertain)** for [Glasgow-1081](https://www.wikitree.com/wiki/Glasgow-1081). Uncertain paternity. The Taylor/Scott elder occurrences may describe different men and do not identify either elder’s father. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 The published General Synod records directly place a ruling elder James
 Glasgow beside William Taylor in 1698 and 1703, and a man of the same name and
 office beside James Scott in 1705. The first two appearances are near-certainly
@@ -111,3 +113,17 @@ Queued for review; nothing has been changed on WikiTree.
 - **Father.** Keep the link to Glasgow-1081 flagged uncertain. No record supports it; it rests on the shared name alone. Detaching it without an evidenced replacement would break the project rule on attached people, so the choice to detach is the owner's.
 - **Birthplace.** Leave "Duneane" in place but state in the biography that no record gives a birthplace and that Duneane comes only from the 1705 row beside James Scott; mark it uncertain if it is not already.
 - **Occupation.** He was a ruling elder, not a minister; the catalogue page currently shows "minister".
+
+## Father confidence review, fifth batch — 22 October 2026
+
+[Glasgow-1081](https://www.wikitree.com/wiki/Glasgow-1081) remains the selected father, assessed **26% (uncertain)**. Previous selected-tree status: **uncertain**, without an individual percentage.
+
+Inherited uncertain attachment of the ruling elder James to Kilwaughter James-1081; none of the reviewed Synod entries names the elder's parents. The selected Kilwaughter James has a feasible generation and lies within the same wider Presbyterian environment as the elder. That is a workable regional hypothesis, not a named-parent record.
+
+Scope: Uncertain paternity. The Taylor/Scott elder occurrences may describe different men and do not identify either elder’s father.
+
+Next useful test: Seek an elder’s estate, tenancy or explicit kin record before tightening the Kilwaughter connection.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Inherited father attachment: Glasgow-3967 to Glasgow-1081; retained public historical profile and individually stated evidence limits](https://www.wikitree.com/wiki/Glasgow-3967)

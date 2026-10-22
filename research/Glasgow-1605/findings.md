@@ -5,6 +5,8 @@ Last updated: 2026-09-26
 
 ## Current conclusion
 
+Current Isabell relationship assessment (22 October 2026): probable76% for William-4138; William-1605 retained as the unselected possible38% alternative. See the dated replacement review below.
+
 Current father assessment (22 October 2026): **32% (possible)** for [Glasgow-2462](https://www.wikitree.com/wiki/Glasgow-2462). Possible32% for William-2462 specifically; the baptism’s father name is secure, and the Cavers prisoner identity is not inferred. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 Reviewed: 2026-10-16
@@ -98,3 +100,7 @@ Next useful test: Identify the Polwarth adult’s residence or spouse in the ori
 This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [FamilySearch, Scotland, Births and Baptisms, 1564–1950: Elizabeth Glasgow, baptised 17 August 1656 at Polwarth, father William Glasgow, record XYL3-24Q (); William Glasgow, baptised 4 April 1658 at Polwarth, father William Glasgow, record XTBH-RJS](https://www.familysearch.org/ark:/61903/1:1:XYL3-24Q)
+
+## Isabell’s selected father replacement — 22 October 2026
+
+[Isabell Glasgow-3370](/people/glasgow-3370.html) is now placed under [William Glasgow-4138](/people/glasgow-4138.html), probable 76%; [William Glasgow-1605](/people/glasgow-1605.html) is retained as the possible 38% alternative. Prefer William Glasgow-4138, documented at Cavers and Ormistoun in 1679–84, as the William who fathered Isabell at Cavers in December 1694. The repeated full name, same parish association, earlier adult activity and feasible father generation give this record-defined local adult a stronger fit than identifying the father directly with the 1658 Polwarth child Glasgow-1605. This is an inferred identification across the held records, not an explicit father-daughter statement in the Covenanter material. Probable 76% for the complete father-profile identification. The baptism names William but supplies no mother. No shared relative, precise abode, occupation or continuous identifying clause connects the Cavers baptism to the 1679–84 servant. The Polwarth child remains a possible 38% alternative and might itself be the Cavers adult; no identity merge is selected. Other local Williams remain possible. The two FreeREG transcriptions disagree between 2 and 8 December 1694; the parish index gives 2 December. No new source inspection, birth age, mother, migration or live WikiTree change is claimed.

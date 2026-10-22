@@ -4,6 +4,8 @@ Last updated: 2026-09-10
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **80% (probable)** for [Glasgow-1087](https://www.wikitree.com/wiki/Glasgow-1087). Probable childhood-to-adult identification, with the record paternity explicit. The twin interpretation and other William comparisons remain unresolved. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 The WikiTree API checked on 10 September 2026 redirects Glasgow-3654 to [[Glasgow-2454|Isobel Glasgow]]. The previous duplicate review is resolved at the profile level; no additional person or merge is required. The supplied Scotland’s People row confirms Issobell Glasgow, 3 February 1648, Mid Calder, with a father William Glasgow.
 
 The index identifies a father named William but does not distinguish his historical identity among similarly named profiles. Johne has the same indexed date and reference, which does not by itself establish that the children were twins.
@@ -43,3 +45,17 @@ A Haddington transcript records Issobell Glasgow born on 24 November 1639 and ba
 
 This is a possible earlier record of the Issobell baptised at Mid Calder on 3 February 1648: the child’s name and father William agree, and a baptism date does not independently prove a birthday. The nine-year interval and different parish nevertheless make the identity weak; a second or delayed baptism is a possibility rather than a recorded explanation. The Haddington entry directly proves its own indexed parental pair, without identifying its father with [William Glasgow of Mid Calder](https://www.wikitree.com/wiki/Glasgow-1087). [William Glasgow, the Leith mealmaker](https://www.wikitree.com/wiki/Glasgow-3075), and [William Glasgow, the Inveresk child of 1614](https://www.wikitree.com/wiki/Glasgow-3517), are separate compatible adult comparisons. None is made the Haddington father as a fact. [Issobell Anderson](https://www.wikitree.com/wiki/Anderson-56713), who married Allexander Glasgow at Edinburgh in 1665, represents a different birth-surname account; she is not identified with this Glasgow-born child merely from her later married name.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, fifth batch — 22 October 2026
+
+[Glasgow-1087](https://www.wikitree.com/wiki/Glasgow-1087) remains the selected father, assessed **80% (probable)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+Issobell’s 3 February 1648 Mid Calder baptism transcript names Wm Glasgow, residence Kirknewtonn. The transcript’s Kirknewtonn residence places the named William in the local adult child cluster; the selected Mid Calder 1609 William is a compatible thirty-eight-year-old father.
+
+Scope: Probable childhood-to-adult identification, with the record paternity explicit. The twin interpretation and other William comparisons remain unresolved.
+
+Next useful test: Compare original residence and witnesses with William’s 1609 family.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Findmypast, Scotland Parish Births & Baptisms 1564-1929: Issobell Glasgow, 3 February 1648, transcript SCOT/OPR/BAP/4587104](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4587104); [Baptism record for Issobel Glasgow, 03-Feb-1648, Mid Calder parish, ScotlandsPeople.gov.uk, church registers, parish number 694, Ref: 10/94.](https://www.wikitree.com/wiki/Glasgow-2454)

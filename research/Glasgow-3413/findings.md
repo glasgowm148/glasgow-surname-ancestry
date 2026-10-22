@@ -4,6 +4,8 @@ Last updated: 17 October 2026
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **39% (possible)** for [Glasgow-3187](https://www.wikitree.com/wiki/Glasgow-3187). Possible fatherhood inferred from generation and Edinburgh context; the 1670 graduation does not name a father or prove this household. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Thomas, the Edinburgh graduate of 1670, remains a separate profile. His identification with Thomas of Lifford (Glasgow-3556) is a **22% possible identity candidate**, not a merge or a replacement of his currently attached father. The possible Carstairs marriage below remains independently uncertain; no wife is transferred to the Lifford man.
 
 <!-- queue-record-integration-2026-10-17:start -->
@@ -19,3 +21,17 @@ A possible identification concerns Thomas Glasgow. The banns/marriage index reco
 The possible 24 July 1679 Carstairs banns/marriage with Gyles Spence is separately indexed at OPR 633/10 /37; neither that couple’s identification with the graduate nor a connection to Lifford is established. An event in Scotland in 1679 would not itself contradict Donegal activity from 1684. Preserve it as a separate candidate event, without transferring a wife to the Lifford man. The older [Thomas baptised in 1612 (Glasgow-1103)](https://www.wikitree.com/wiki/Glasgow-1103) would be about 89 in 1701, so the graduate has the better generational fit; age alone does not prove or absolutely exclude either identity.
 
 Sources: *A Catalogue of the Graduates in the Faculties of Arts, Divinity, and Law of the University of Edinburgh*, [p.100, 1670 graduate list](https://archive.org/details/catalogueofgr10600univuoft/page/100/mode/2up), existing profile citation; Scotland’s People, [Old Parish Registers, Carstairs banns/marriages, 24 July 1679, OPR 633/10 /37](https://www.scotlandspeople.gov.uk/), supplied index, original image not inspected. The graduate citation and prior parent assessment are reused from the maintained accounts; no new original record was inspected.
+
+## Father confidence review, fifth batch — 22 October 2026
+
+[Glasgow-3187](https://www.wikitree.com/wiki/Glasgow-3187) remains the selected father, assessed **39% (possible)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+Inherited Thomas-3187 father claim is explicitly assumed from Edinburgh location; the 1670 graduation entry names no parent. An Edinburgh graduate born about 1650 could belong to Thomas/Catharine Weir’s recorded 1644–50 family, making this a reasonable local-family lead.
+
+Scope: Possible fatherhood inferred from generation and Edinburgh context; the 1670 graduation does not name a father or prove this household.
+
+Next useful test: Check university matriculation or a testament for the graduate’s parent or residence.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [WikiTree profile export for Glasgow-3413](https://www.wikitree.com/wiki/Glasgow-3413)

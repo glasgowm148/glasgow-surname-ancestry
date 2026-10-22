@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **26% (uncertain)** for [Glasgow-3522](https://www.wikitree.com/wiki/Glasgow-3522). Uncertain William placement. Andrew’s testament daughter Jonet is also an unproved compatible comparison; absence of a further bridge alone does not exclude her identity with this woman. No new parent or identity merge is inferred. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Jonet Glasgow was the wife of William Pady by 19 March 1582/3 and was still his wife on 20 June 1598. William was admitted a Glasgow burgess and freeman on 17 July 1599 as the husband of a burgess's daughter. This is consistent with Jonet being the daughter of a Glasgow burgess, but the published abstract names neither the wife nor her father and therefore does not prove her parentage.
 
 On 5 November 1600 William Pady conveyed property to himself and Margaret Playfair, his future spouse. Jonet's marriage to William had therefore ended between 20 June 1598 and 5 November 1600, whether by her death or otherwise. The record does not call William a widower, so Jonet's death should not be asserted.
@@ -36,3 +38,17 @@ Add the 1599 burgess admission, the 1600 property transaction and the Andrew
 candidate note. Retain Jonet's uncertain birth and death estimates. Keep the
 current William father edge uncertain and do not claim that she died before
 November 1600.
+
+## Father confidence review, fifth batch — 22 October 2026
+
+[Glasgow-3522](https://www.wikitree.com/wiki/Glasgow-3522) remains the selected father, assessed **26% (uncertain)**. Previous selected-tree status: **uncertain**, without an individual percentage.
+
+Inherited uncertain attachment to William Glasgow-3522. William Pady’s 1599 burgess admission says husband of a burgess’s daughter but names neither wife nor father. William is a compatible Glasgow burgess of the preceding generation, so Pady’s burgess-daughter admission gives a useful class and locality fit. It cannot distinguish him from other burgess fathers.
+
+Scope: Uncertain William placement. Andrew’s testament daughter Jonet is also an unproved compatible comparison; absence of a further bridge alone does not exclude her identity with this woman. No new parent or identity merge is inferred.
+
+Next useful test: Compare the Pady property title with the burgess Glasgow families and Andrew’s named daughter.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Inherited father attachment: Glasgow-3917 to Glasgow-3522; retained public historical profile and individually stated evidence limits](https://www.wikitree.com/wiki/Glasgow-3917)

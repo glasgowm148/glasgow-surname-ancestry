@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **98% (proved)** for [Glasgow-1561](https://www.wikitree.com/wiki/Glasgow-1561). Confident paternity for the recorded Jean; the 7/17 July transcript conflict is retained without a vital-field overwrite. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Reviewed: 2026-10-16
 
 **Working family, 16 October 2026:** [John Glasgow-1561](https://www.wikitree.com/wiki/Glasgow-1561) is selected as Jean-3083’s uncertain working father through a possible match with his 1613 daughter [Jean-3055](https://www.wikitree.com/wiki/Glasgow-3055). Both Jean profiles remain; no identity merge or mother is inferred. [Comparison and limits](/branches/early-scottish-records/#linlithgow-jean-working-family).
@@ -25,3 +27,17 @@ A possible identification concerns Jean Glasgow. The printed Edinburgh marriage 
 
 A possible identification concerns Jean Glasgow. The banns/marriage index records Jean Glasgow and Robert Woodsyd on 13 January 1700 at West Kilbride. (Scotland’s People: Old Parish Registers — banns and marriages: OPR 620/20 / 77; [record](https://www.scotlandspeople.gov.uk/).) The original parish register image has not been inspected. The combined index date does not by itself identify the precise event type. Jean Glasgow/Robert Woodsyd 1700 has no compatible proven pair; [Woodside-936](https://www.wikitree.com/wiki/Woodside-936) was born 1696. The identification remains uncertain.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, fifth batch — 22 October 2026
+
+[Glasgow-1561](https://www.wikitree.com/wiki/Glasgow-1561) remains the selected father, assessed **98% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+The 1613 Linlithgow Jean child account identifies John Glasgow as father. John-1561 represents the recurring Linlithgow father in the same child sequence, making this a strong parish-family match.
+
+Scope: Confident paternity for the recorded Jean; the 7/17 July transcript conflict is retained without a vital-field overwrite.
+
+Next useful test: Check the original entry to resolve the July day and citation variant.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: ["Scotland Births and Baptisms, 1564-1950", database, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:X1RX-HPY : 16 September 2021), Jean Glesgow, 1613.](https://www.familysearch.org/ark:/61903/1:1:X1RX-HPY)

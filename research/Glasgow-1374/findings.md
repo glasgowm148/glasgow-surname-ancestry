@@ -5,6 +5,8 @@ Last updated: 2026-09-10
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **99% (proved)** for [Glasgow-1150](https://www.wikitree.com/wiki/Glasgow-1150). Confident paternity for Robert of this combined record sequence;5/11 May remains a separate date-reading question. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 [Robert Glasgow (Glasgow-1374), baptised 1655, Edinburgh](https://www.wikitree.com/wiki/Glasgow-1374)
 is directly confirmed as a son of the Edinburgh weaver who now requires a new
 profile from the
@@ -84,3 +86,17 @@ The supplied 11/05/1655 Edinburgh index date differs from the profile’s struct
 ## Priority action
 
 **Needs update on WikiTree:** the complete proposed biography records this comparison with prior sources and pending research retained. No structured date or relationship change is established by this index review.
+
+## Father confidence review, fifth batch — 22 October 2026
+
+[Glasgow-1150](https://www.wikitree.com/wiki/Glasgow-1150) remains the selected father, assessed **99% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+Robert's 24 January 1672 apprenticeship calls him son of James Glasgow, weaver; the 1655 Edinburgh baptism names James Glasgow and Agnes Duncan. The apprenticeship explicitly names the father’s weaver role, while the full James/Agnes Duncan baptism couple matches the selected craftsman’s 1653 marriage.
+
+Scope: Confident paternity for Robert of this combined record sequence;5/11 May remains a separate date-reading question.
+
+Next useful test: Use the apprenticeship and marriage together if a competing James is proposed.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Charles B. Boog Watson, ed., Page 37 (https://babel.hathitrust.org/cgi/pt?id=coo.31924006387363&seq=45&q1=meane) Register of Edinburgh Apprentices, 1666–1700) (Scottish Record Society, 1929), printed p. 37: “Glasgow, ... Robert, s. to James G., weaver, p. to Robert Meane, mt. 24 Jan. 1672.”](https://babel.hathitrust.org/cgi/pt?id=coo.31924006387363&seq=45&q1=meane); [“Scotland, Births and Baptisms, 1564–1950,” database, FamilySearch, Robert Glasgow, baptised 5 May 1655, Edinburgh, son of James Glasgow and Agnes Duncan, record VRSV-T1T (https://www.familysearch.org/ark:/61903/1:1:VRSV-T1T).](https://www.familysearch.org/ark:/61903/1:1:VRSV-T1T); [Scotland’s People, Old Parish Registers, births and baptisms (), exact surname Glasgow through 1700, index text supplied 10 September 2026: ROBERT GLASGOW, 11/05/1655, JAMES GLASGOW/AGNES DUNCAN FR 1546 (FR 1546), indexed gender M, Edinburgh, parish 685 / 1, reference 50 / 570](https://www.scotlandspeople.gov.uk/)

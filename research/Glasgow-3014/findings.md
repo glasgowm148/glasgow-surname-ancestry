@@ -4,6 +4,8 @@ Last updated: 2026-09-10
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **63% (probable)** for [Glasgow-1084](https://www.wikitree.com/wiki/Glasgow-1084). Probable at a modest level for John-1084 specifically; the record father John is explicit, but the childhood-to-adult identification and Patoune/Porteous household continuity remain open. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 The supplied ScotlandsPeople index has a Duddingston deaths-and-burials entry dated **15 January 1638** for **JON**, with other indexed detail **JOHNE GLASGOW** (parish 684, reference 60/16). This is a probable, but unproved, match for this profile: its latest live capture records John born at Duddingston on 11 January 1638 to John Glasgow and Helen Patoune.
 
 The dates and parish make an infant death/burial of this child a strong possibility. The original register image has not been inspected, however, and the index does not establish what the other-name field means. It must not be treated as proof that Johne Glasgow was the child's father, nor must the 15 January index date be entered as an exact death date. The original must establish whether the date denotes death, burial or another burial-related entry.
@@ -57,3 +59,17 @@ The index does not state an age, residence, parent, spouse, occupation or cause.
 
 Two existing Duddingston children are possible matches: [John Glasgow](https://www.wikitree.com/wiki/Glasgow-1559), recorded born 4 April 1639 to John Glasgow and Margaret Sluman, and [John Glasgow](https://www.wikitree.com/wiki/Glasgow-3014), recorded born 11 January 1638 to John Glasgow and Helen Patoune. The name, parish and chronology do not distinguish them. The identification remains uncertain.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, fifth batch — 22 October 2026
+
+[Glasgow-1084](https://www.wikitree.com/wiki/Glasgow-1084) remains the selected father, assessed **63% (probable)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+The Duddingston Johne child entry dated 11 January 1638 names Johne Glasgow and Helene Patoune. The 1616 Mid Calder child would be about twenty-two at the Duddingston event; the same name and nearby Lothian setting support the proposed adult continuity.
+
+Scope: Probable at a modest level for John-1084 specifically; the record father John is explicit, but the childhood-to-adult identification and Patoune/Porteous household continuity remain open.
+
+Next useful test: Compare Duddingston witnesses/residence with the Mid Calder family.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Duddingston Old Parish Register, parish 684, reference FR38, “JOHNE GLASGOW/HELENE PATOUNE,” entry for Johne, 11 January 1638; citation carried from the former Glasgow-3015 profile. The original page has not been compared with this index wording.](https://www.wikitree.com/wiki/Glasgow-3014)

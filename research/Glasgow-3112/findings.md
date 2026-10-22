@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **84% (probable)** for [Glasgow-3610](https://www.wikitree.com/wiki/Glasgow-3610). Probable identification of the named father with the Easter Newtoun household. The held date conflict is not resolved and the selected father’s own ancestry is not strengthened. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Reviewed: 2026-10-18. **The 1646/1649 date discrepancy and exact household remain unresolved. The possible James-991 route above her existing father account does not prove her household identity or maternity.**
 
 The 1646/1649 date discrepancy and exact household remain unresolved. The possible James-991 route above her existing father account does not prove her household identity or maternity. The linked household and childhood propositions have distinct scopes; no mother or downstream certainty is inherited from the new ancestry preference.
@@ -89,3 +91,17 @@ Prioritise a discriminating household link for the Easter Newtoun adult: compare
 - [Findmypast, Annah, 20 June 1652, father Johne at Easter Newtoun; transcript inspected 18 October 2026](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4473604)
 - [Paton, Register of Marriages for the Parish of Edinburgh 1595–1700, printed p.267: John Glasgow, whipman, and Isobel Porteous, 30 June 1642; retained extract, no new page inspection](https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/register_of_marriages_for_the_parish_of_edinburgh_1595-1700_~_1898.pdf)
 - [FamilySearch, Isobell, Edinburgh, 4 April 1643; parents John Glasgow and Issobell Porteous; retained citation](https://www.familysearch.org/ark:/61903/1:1:X1YN-JHD)
+
+## Father confidence review, fifth batch — 22 October 2026
+
+[Glasgow-3610](https://www.wikitree.com/wiki/Glasgow-3610) remains the selected father, assessed **84% (probable)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+The held Margaret child accounts name John Glasgow as father, with competing 11 November 1646 FamilySearch and 26 November 1649 Findmypast readings. The repeated father John and the local Kirknewton child sequence favour the selected record-defined John-3610, while the 1646/1649 readings need reconciliation.
+
+Scope: Probable identification of the named father with the Easter Newtoun household. The held date conflict is not resolved and the selected father’s own ancestry is not strengthened.
+
+Next useful test: Compare the 1646 and 1649 original/transcript entries for residence and distinct children.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: ["Scotland Births and Baptisms, 1564-1950", database, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:VQ4K-8QZ : 16 September 2021), Margreat Glasgou, 1646.](https://www.familysearch.org/ark:/61903/1:1:VQ4K-8QZ)

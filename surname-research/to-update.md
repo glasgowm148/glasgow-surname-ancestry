@@ -2947,3 +2947,107 @@ Twenty additional transcripts are recorded under existing people or qualified ca
 | [James Glasgow](https://www.wikitree.com/wiki/Glasgow-1165) | OPEN | Review existing father at 99% (proved); no new father attachment. |
 | [Sarah Glasgow](https://www.wikitree.com/wiki/Glasgow-1172) | OPEN | Review existing father at 78% (probable); no new father attachment. |
 | [Arthur Glasgow](https://www.wikitree.com/wiki/Glasgow-1608) | OPEN | Review existing father at 99% (proved); no new father attachment. |
+
+
+## 22 October 2026 — fifth father confidence coverage batch
+
+| [Elizabeth (Glasgow) Kaine](https://www.wikitree.com/wiki/Glasgow-3915) | OPEN | Review existing father at 48% (possible); no new father attachment. |
+| [Matthew Glasgow](https://www.wikitree.com/wiki/Glasgow-3908) | OPEN | Review existing father at 46% (possible); no new father attachment. |
+| [Isabella Glasgow](https://www.wikitree.com/wiki/Glasgow-3026) | OPEN | Review existing father at 18% (uncertain); no new father attachment. |
+| [Jonet (Glasgow) Pady](https://www.wikitree.com/wiki/Glasgow-3917) | OPEN | Review existing father at 26% (uncertain); no new father attachment. |
+| [Margaret Glasgow](https://www.wikitree.com/wiki/Glasgow-3613) | OPEN | Review existing father at 22% (uncertain); no new father attachment. |
+| [Katherine (Glasgow) Weir](https://www.wikitree.com/wiki/Glasgow-1495) | OPEN | Review existing father at 47% (possible); no new father attachment. |
+| [Geillis Glasgow](https://www.wikitree.com/wiki/Glasgow-3179) | OPEN | Review existing father at 51% (possible); no new father attachment. |
+| [Marjorie Glasgow](https://www.wikitree.com/wiki/Glasgow-3589) | OPEN | Review existing father at 99% (proved); no new father attachment. |
+| [Katherine Glasgow](https://www.wikitree.com/wiki/Glasgow-3590) | OPEN | Review existing father at 99% (proved); no new father attachment. |
+| [Barbara (Glasgow) Little](https://www.wikitree.com/wiki/Glasgow-567) | OPEN | Review existing father at 24% (uncertain); no new father attachment. |
+| [Jonet (Glasgow) Stewart](https://www.wikitree.com/wiki/Glasgow-3061) | OPEN | Review existing father at 99% (proved); no new father attachment. |
+| [Eduard Glasgow](https://www.wikitree.com/wiki/Glasgow-994) | OPEN | Review existing father at 98% (proved); no new father attachment. |
+| [William Glasgow](https://www.wikitree.com/wiki/Glasgow-1556) | OPEN | Review existing father at 55% (possible); no new father attachment. |
+| [Jean Glasgow](https://www.wikitree.com/wiki/Glasgow-3055) | OPEN | Review existing father at 98% (proved); no new father attachment. |
+| [William Glasgow](https://www.wikitree.com/wiki/Glasgow-3517) | OPEN | Review existing father at 98% (proved); no new father attachment. |
+| [Edward Glasgow](https://www.wikitree.com/wiki/Glasgow-1558) | OPEN | Review existing father at 98% (proved); no new father attachment. |
+| [Bessie Glasgow](https://www.wikitree.com/wiki/Glasgow-3361) | OPEN | Review existing father at 98% (proved); no new father attachment. |
+| [John Glasgow](https://www.wikitree.com/wiki/Glasgow-3056) | OPEN | Review existing father at 98% (proved); no new father attachment. |
+| [Agnes Glasgow](https://www.wikitree.com/wiki/Glasgow-993) | OPEN | Review existing father at 98% (proved); no new father attachment. |
+| [George Glasgow](https://www.wikitree.com/wiki/Glasgow-1560) | OPEN | Review existing father at 98% (proved); no new father attachment. |
+| [Elizabeth Glasgow](https://www.wikitree.com/wiki/Glasgow-1517) | OPEN | Review existing father at 98% (proved); no new father attachment. |
+| [Catherine Glasgow](https://www.wikitree.com/wiki/Glasgow-1490) | OPEN | Review existing father at 98% (proved); no new father attachment. |
+| [Jonet Glasgow](https://www.wikitree.com/wiki/Glasgow-1522) | OPEN | Review existing father at 98% (proved); no new father attachment. |
+| [Edward Travis Glasgow](https://www.wikitree.com/wiki/Glasgow-3519) | OPEN | Review existing father at 43% (possible); no new father attachment. |
+| [John Glasgow](https://www.wikitree.com/wiki/Glasgow-3014) | OPEN | Review existing father at 63% (probable); no new father attachment. |
+| [Margaret Glasgow](https://www.wikitree.com/wiki/Glasgow-1523) | OPEN | Review existing father at 98% (proved); no new father attachment. |
+| [John Glasgow](https://www.wikitree.com/wiki/Glasgow-1559) | OPEN | Review existing father at 57% (possible); no new father attachment. |
+| [David Glasgow](https://www.wikitree.com/wiki/Glasgow-1518) | OPEN | Review existing father at 98% (proved); no new father attachment. |
+| [William Glasgow](https://www.wikitree.com/wiki/Glasgow-1497) | OPEN | Review existing father at 98% (proved); no new father attachment. |
+| [Issobell Glasgow](https://www.wikitree.com/wiki/Glasgow-1438) | OPEN | Review existing father at 52% (possible); no new father attachment. |
+| [Margaret Glasgow](https://www.wikitree.com/wiki/Glasgow-3366) | OPEN | Review existing father at 74% (probable); no new father attachment. |
+| [Margaret Glasgow](https://www.wikitree.com/wiki/Glasgow-3050) | OPEN | Review existing father at 70% (probable); no new father attachment. |
+| [Margaret Glasgow](https://www.wikitree.com/wiki/Glasgow-1524) | OPEN | Review existing father at 98% (proved); no new father attachment. |
+| [James Glasgow](https://www.wikitree.com/wiki/Glasgow-3971) | OPEN | Review existing father at 62% (probable); no new father attachment. |
+| [Margaret Glasgow](https://www.wikitree.com/wiki/Glasgow-3112) | OPEN | Review existing father at 84% (probable); no new father attachment. |
+| [Issobell Glasgow](https://www.wikitree.com/wiki/Glasgow-1520) | OPEN | Review existing father at 98% (proved); no new father attachment. |
+| [Johne Glasgow](https://www.wikitree.com/wiki/Glasgow-2452) | OPEN | Review existing father at 79% (probable); no new father attachment. |
+| [Issobell Glasgow](https://www.wikitree.com/wiki/Glasgow-2454) | OPEN | Review existing father at 80% (probable); no new father attachment. |
+| [Robert Glasgow](https://www.wikitree.com/wiki/Glasgow-1526) | OPEN | Review existing father at 45% (possible); no new father attachment. |
+| [William Glasgow](https://www.wikitree.com/wiki/Glasgow-1521) | OPEN | Review existing father at 98% (proved); no new father attachment. |
+| [Walter Glasgow](https://www.wikitree.com/wiki/Glasgow-1554) | OPEN | Review existing father at 72% (probable); no new father attachment. |
+| [Thomas Glasgow](https://www.wikitree.com/wiki/Glasgow-1527) | OPEN | Review existing father at 44% (possible); no new father attachment. |
+| [Thomas Glasgow M.A](https://www.wikitree.com/wiki/Glasgow-3413) | OPEN | Review existing father at 39% (possible); no new father attachment. |
+| [Eupham Glasgow](https://www.wikitree.com/wiki/Glasgow-3358) | OPEN | Review existing father at 47% (possible); no new father attachment. |
+| [Helen Glasgow](https://www.wikitree.com/wiki/Glasgow-3097) | OPEN | Review existing father at 98% (proved); no new father attachment. |
+| [Mary (Glasgow) Moncrief](https://www.wikitree.com/wiki/Glasgow-397) | OPEN | Review existing father at 27% (uncertain); no new father attachment. |
+| [Helen Glasgow](https://www.wikitree.com/wiki/Glasgow-3024) | OPEN | Review existing father at 73% (probable); no new father attachment. |
+| [Jonet Glasgow](https://www.wikitree.com/wiki/Glasgow-3099) | OPEN | Review existing father at 98% (proved); no new father attachment. |
+| [Archibald Glasgow](https://www.wikitree.com/wiki/Glasgow-3079) | OPEN | Review existing father at 83% (probable); no new father attachment. |
+| [Marion Glasgow](https://www.wikitree.com/wiki/Glasgow-3025) | OPEN | Review existing father at 74% (probable); no new father attachment. |
+| [Robert Glasgow](https://www.wikitree.com/wiki/Glasgow-1374) | OPEN | Review existing father at 99% (proved); no new father attachment. |
+| [Elizabeth Glasgow](https://www.wikitree.com/wiki/Glasgow-3362) | OPEN | Review existing father at 41% (possible); no new father attachment. |
+| [John Glasgow](https://www.wikitree.com/wiki/Glasgow-3516) | OPEN | Review existing father at 85% (probable); no new father attachment. |
+| [Jonet Glasgow](https://www.wikitree.com/wiki/Glasgow-1528) | OPEN | Review existing father at 37% (possible); no new father attachment. |
+| [Marion Glasgow](https://www.wikitree.com/wiki/Glasgow-3143) | OPEN | Review existing father at 99% (proved); no new father attachment. |
+| [Agnes Glasgow](https://www.wikitree.com/wiki/Glasgow-3092) | OPEN | Review existing father at 78% (probable); no new father attachment. |
+| [Kathrin Glasgow](https://www.wikitree.com/wiki/Glasgow-3360) | OPEN | Review existing father at 49% (possible); no new father attachment. |
+| [Bethia Glasgow](https://www.wikitree.com/wiki/Glasgow-1373) | OPEN | Review existing father at 98% (proved); no new father attachment. |
+| [Alexander Glasgow](https://www.wikitree.com/wiki/Glasgow-3101) | OPEN | Review existing father at 98% (proved); no new father attachment. |
+| [James Glasgow](https://www.wikitree.com/wiki/Glasgow-3076) | OPEN | Review existing father at 98% (proved); no new father attachment. |
+| [William Glasgow](https://www.wikitree.com/wiki/Glasgow-2436) | OPEN | Review existing father at 49% (possible); no new father attachment. |
+| [Thomas Glasgow](https://www.wikitree.com/wiki/Glasgow-3091) | OPEN | Review existing father at 98% (proved); no new father attachment. |
+| [Magdalene Glasgow](https://www.wikitree.com/wiki/Glasgow-3359) | OPEN | Review existing father at 48% (possible); no new father attachment. |
+| [Robert Glasgow](https://www.wikitree.com/wiki/Glasgow-3338) | OPEN | Review existing father at 98% (proved); no new father attachment. |
+| [Thomas Glasgow](https://www.wikitree.com/wiki/Glasgow-1311) | OPEN | Review existing father at 85% (probable); no new father attachment. |
+| [Bessie Glasgow](https://www.wikitree.com/wiki/Glasgow-1493) | OPEN | Review existing father at 97% (proved); no new father attachment. |
+| [Hellen Glasgow](https://www.wikitree.com/wiki/Glasgow-2458) | OPEN | Review existing father at 97% (proved); no new father attachment. |
+| [Helen Glasgow](https://www.wikitree.com/wiki/Glasgow-4098) | OPEN | Review existing father at 97% (proved); no new father attachment. |
+| [William Glasgow](https://www.wikitree.com/wiki/Glasgow-3974) | OPEN | Review existing father at 98% (proved); no new father attachment. |
+| [Ralph Glasgow](https://www.wikitree.com/wiki/Glasgow-1514) | OPEN | Review existing father at 98% (proved); no new father attachment. |
+| [Marie Glasgow](https://www.wikitree.com/wiki/Glasgow-1310) | OPEN | Review existing father at 86% (probable); no new father attachment. |
+| [Robert Glasgow](https://www.wikitree.com/wiki/Glasgow-1511) | OPEN | Review existing father at 99% (proved); no new father attachment. |
+| [Daniel Glasgow](https://www.wikitree.com/wiki/Glasgow-3322) | OPEN | Review existing father at 34% (possible); no new father attachment. |
+| [Jean Glasgow](https://www.wikitree.com/wiki/Glasgow-3088) | OPEN | Review existing father at 98% (proved); no new father attachment. |
+| [James Glasgow](https://www.wikitree.com/wiki/Glasgow-3967) | OPEN | Review existing father at 26% (uncertain); no new father attachment. |
+| [Janet Glasgow Woodside](https://www.wikitree.com/wiki/Glasgow-2249) | OPEN | Review existing father at 41% (possible); no new father attachment. |
+| [James Glasgow](https://www.wikitree.com/wiki/Glasgow-3368) | OPEN | Review existing father at 98% (proved); no new father attachment. |
+| [William Glasgow](https://www.wikitree.com/wiki/Glasgow-3013) | OPEN | Review existing father at 88% (probable); no new father attachment. |
+| [Mary Glasgow](https://www.wikitree.com/wiki/Glasgow-3284) | OPEN | Review existing father at 98% (proved); no new father attachment. |
+| [Margaret Glasgow](https://www.wikitree.com/wiki/Glasgow-3085) | OPEN | Review existing father at 87% (probable); no new father attachment. |
+| [Jean Glasgow](https://www.wikitree.com/wiki/Glasgow-3528) | OPEN | Review existing father at 64% (probable); no new father attachment. |
+| [Margaret Glasgow](https://www.wikitree.com/wiki/Glasgow-3369) | OPEN | Review existing father at 87% (probable); no new father attachment. |
+| [Margaret Glasgow](https://www.wikitree.com/wiki/Glasgow-3162) | OPEN | Review existing father at 54% (possible); no new father attachment. |
+| [Margaret Glasgow](https://www.wikitree.com/wiki/Glasgow-3086) | OPEN | Review existing father at 98% (proved); no new father attachment. |
+| [Alison Glasgow](https://www.wikitree.com/wiki/Glasgow-3116) | OPEN | Review existing father at 88% (probable); no new father attachment. |
+| [James Glasgow](https://www.wikitree.com/wiki/Glasgow-3104) | OPEN | Review existing father at 98% (proved); no new father attachment. |
+| [Anne Glasgow](https://www.wikitree.com/wiki/Glasgow-4134) | OPEN | Review existing father at 84% (probable); no new father attachment. |
+| [Jannet Glasgow](https://www.wikitree.com/wiki/Glasgow-1433) | OPEN | Review existing father at 95% (proved); no new father attachment. |
+| [William Glasgow](https://www.wikitree.com/wiki/Glasgow-3587) | OPEN | Review existing father at 29% (uncertain); no new father attachment. |
+| [Margaret Glasgow](https://www.wikitree.com/wiki/Glasgow-2681) | OPEN | Review existing father at 98% (proved); no new father attachment. |
+| [Margaret Glasgow](https://www.wikitree.com/wiki/Glasgow-2730) | OPEN | Review existing father at 98% (proved); no new father attachment. |
+| [George Glasgow R.E](https://www.wikitree.com/wiki/Glasgow-3966) | OPEN | Review existing father at 24% (uncertain); no new father attachment. |
+| [Isabell Glasgow](https://www.wikitree.com/wiki/Glasgow-3370) | OPEN | Replace selected father Glasgow-1605 with Glasgow-4138, probable76%; retain old father possible38%. |
+| [Alexander Glasgow](https://www.wikitree.com/wiki/Glasgow-3514) | OPEN | Review existing father at 98% (proved); no new father attachment. |
+| [Hugh Glasgow](https://www.wikitree.com/wiki/Glasgow-3108) | OPEN | Review existing father at 98% (proved); no new father attachment. |
+| [Mary Glasgow](https://www.wikitree.com/wiki/Glasgow-3371) | OPEN | Review existing father at 97% (proved); no new father attachment. |
+| [Jeane Glasgow](https://www.wikitree.com/wiki/Glasgow-1436) | OPEN | Review existing father at 98% (proved); no new father attachment. |
+| [Peter Glasgow](https://www.wikitree.com/wiki/Glasgow-3102) | OPEN | Review existing father at 42% (possible); no new father attachment. |
+| [Elizabeth Glasgow](https://www.wikitree.com/wiki/Glasgow-1418) | OPEN | Review existing father at 97% (proved); no new father attachment. |
+| [Patrick Glasgow](https://www.wikitree.com/wiki/Glasgow-3160) | OPEN | Review existing father at 99% (proved); no new father attachment. |

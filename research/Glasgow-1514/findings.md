@@ -3,6 +3,12 @@
 Last updated: 2026-09-10
 
 
+## Current conclusion
+
+Current father assessment (22 October 2026): **98% (proved)** for [Glasgow-1512](https://www.wikitree.com/wiki/Glasgow-1512). Confident for the 1671 child and named father, without establishing Robert’s earlier origin. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
+Ralph's 1671 Ayr Findmypast transcript names Robert Glasgow and Margaret Donald; Scotland's People indexes 3 December 1671. The full Robert/Margaret Donald couple matches the selected Ayr father’s record-defined household.
+
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-4dd4a8807b0c
 
 The transcript-validated baptism record for **Ralph Glasgow**, 1671, Ayr, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
@@ -30,3 +36,17 @@ Add the record as supporting evidence while preserving all existing sources and 
 Original image not inspected for this batch. The combined collection’s date does not automatically establish a birthday. Names alone do not uniquely identify attached parents or connect a child with a later adult. An omitted parent or indexed gender U remains unspecified in this source.
 
 **Next action:** No additional WikiTree update from this row; preserve any existing pending work.
+
+## Father confidence review, fifth batch — 22 October 2026
+
+[Glasgow-1512](https://www.wikitree.com/wiki/Glasgow-1512) remains the selected father, assessed **98% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+Ralph's 1671 Ayr Findmypast transcript names Robert Glasgow and Margaret Donald; Scotland's People indexes 3 December 1671. The full Robert/Margaret Donald couple matches the selected Ayr father’s record-defined household.
+
+Scope: Confident for the 1671 child and named father, without establishing Robert’s earlier origin.
+
+Next useful test: Use the original parish record for any further occupation or residence evidence.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Ralph Glasgow, 1671, record R_692914107](https://www.findmypast.co.uk/transcript?id=R_692914107&tab=this)

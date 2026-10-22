@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **74% (probable)** for [Glasgow-1087](https://www.wikitree.com/wiki/Glasgow-1087). Probable adult identity; the superseded 1556 comparison and date presentation do not identify a separate proved father. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 **Parent-ID check, 20 October 2026:** the earlier biography’s [William Glasgow-1556](https://www.wikitree.com/wiki/Glasgow-1556), public ID29042192, is a separate profile from the current structured father [William Glasgow-1087](https://www.wikitree.com/wiki/Glasgow-1087), public ID27484852. Both remain father-identity comparisons; no alias, merge, new father selection or confidence change is inferred. The indexed father is called William, without an inspected identity bridge.
 
 The fresh public WikiTree capture marks Ann McCook’s motherhood confident(flag 20). The local review explicitly downgrades that inherited certainty to an unselected uncertain alternative: the child sources cited for it name only William. This is a reassessment of a tree flag, not proof that Ann could not be Bessie’s mother; no live flag or relationship is changed. William’s existing confident father role for Bessie is individually rated 98%, without counting it as new certainty.
@@ -91,3 +93,17 @@ A possible identification concerns Marion Glasgow. The printed Edinburgh marriag
 - [Findmypast, William Glasgow and Marion Glasgow, banns 10 June 1681; OPR689/20 item 1 p 39; transcript inspected 20 October 2026](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FMAR%2F1434226%2F1&tab=this)
 - [FamilySearch VQ4K-H5K, Marion Glasgow, indexed 1655, father William; held citation reused, conflicting indexed dates retained](https://www.familysearch.org/ark:/61903/1:1:VQ4K-H5K)
 - [FamilySearch VQ4K-ZQN, Bessie 1682, named father William only; held inspected citation reused](https://www.familysearch.org/ark:/61903/1:1:VQ4K-ZQN)
+
+## Father confidence review, fifth batch — 22 October 2026
+
+[Glasgow-1087](https://www.wikitree.com/wiki/Glasgow-1087) remains the selected father, assessed **74% (probable)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+Marion’s Kirknewton/East Calder child entry indexed 4 November 1655 names father William Glasgow only. Marion’s William father and Kirknewton setting fit the recurring local child cluster and the 1609 Mid Calder generation. The date span remains an ordinary paternal age.
+
+Scope: Probable adult identity; the superseded 1556 comparison and date presentation do not identify a separate proved father.
+
+Next useful test: Check the 1655 original for residence and compare the earlier William entries.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Scotland’s People, Old Parish Registers, births and baptisms (https://www.scotlandspeople.gov.uk/), exact surname Glasgow through 1700, index text supplied 10 September 2026: MARION GLASGOW, 04/11/1655, WILLIAM GLASGOW/, indexed gender F, Kirknewton and East Calder, parish 690, reference 10 / 37. Original register image not inspected for this review.](https://www.scotlandspeople.gov.uk/); [FamilySearch VQ4K-H5K, Marion Glasgow, indexed 1655, father William; held citation reused, conflicting indexed dates retained](https://www.familysearch.org/ark:/61903/1:1:VQ4K-H5K)

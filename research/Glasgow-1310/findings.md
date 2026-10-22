@@ -3,6 +3,12 @@
 Last updated: 2026-09-10
 
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-fbace07056e6 -->
+## Current conclusion
+
+Current father assessment (22 October 2026): **86% (probable)** for [Glasgow-1152](https://www.wikitree.com/wiki/Glasgow-1152). Probable full-profile continuity; the Kirknewton Smith household overlaps and remains separate. The record’s named father is secure. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
+Marie's 11 October 1674 Edinburgh/St Cuthbert's transcript names Alexander Glasgow and Issobell Andersone. The full Anderson couple and Edinburgh setting match the selected 1665 husband and the 1666 Thomas child. The 1637 childhood is chronologically feasible.
+
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-fbace07056e6
 
 The transcript-validated baptism record for **Marie Glasgow**, 11 Oct 1674, Edinburgh, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
@@ -38,3 +44,17 @@ Provenance: exact-surname Glasgow search, year range to 1700, 127 supplied resul
 Original image not inspected for this batch. The combined collection’s date does not automatically establish a birthday. Names alone do not uniquely identify attached parents or connect a child with a later adult. An omitted parent or indexed gender U remains unspecified in this source.
 
 **Next action:** No additional WikiTree update from this row; preserve any existing pending work.
+
+## Father confidence review, fifth batch — 22 October 2026
+
+[Glasgow-1152](https://www.wikitree.com/wiki/Glasgow-1152) remains the selected father, assessed **86% (probable)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+Marie's 11 October 1674 Edinburgh/St Cuthbert's transcript names Alexander Glasgow and Issobell Andersone. The full Anderson couple and Edinburgh setting match the selected 1665 husband and the 1666 Thomas child. The 1637 childhood is chronologically feasible.
+
+Scope: Probable full-profile continuity; the Kirknewton Smith household overlaps and remains separate. The record’s named father is secure.
+
+Next useful test: Use witnesses or property to identify the Anderson adult without combining overlapping wives.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Marie Glasgow, 11 Oct 1674, record SCOT/OPR/BAP/0702947](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0702947&tab=this)

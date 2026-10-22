@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **48% (possible)** for [Glasgow-1098](https://www.wikitree.com/wiki/Glasgow-1098). Possible fatherhood specifically, rather than the better supported broad kin connection. Elizabeth’s estimated birth is not independent evidence excluding sister or niece. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 [William Glasgow](https://www.wikitree.com/wiki/Glasgow-1098) is now the
 strongest **possible father or close older kinsman**. The 1526 Sandilands of
 Calder remission places William immediately beside Alexander Kano; the official
@@ -73,3 +75,17 @@ The live structured birth was corrected to **about 1525, uncertain**. Elizabeth 
 ## Second pre-1610 pass (2026-10-07)
 
 - *RMS* IV no. 739 (19 Dec 1552) is cited as p.164. In the scan, the p.164 heading comes before no. 738, so no. 739 is probably on **p.165**. Check against the page image.
+
+## Father confidence review, fifth batch — 22 October 2026
+
+[Glasgow-1098](https://www.wikitree.com/wiki/Glasgow-1098) remains the selected father, assessed **48% (possible)**. Previous selected-tree status: **uncertain**, without an individual percentage.
+
+No parent is named. William is the possible father or close older kinsman inferred from his 1526 association with Alexander Kano/Kame and Elizabeth’s 1552 widowhood as Alexander Kaine’s widow on the Calder estate. The uncommon Kano/Kaine association and recurring Calder estate context support a real family connection; William’s established adult generation permits Elizabeth as a daughter.
+
+Scope: Possible fatherhood specifically, rather than the better supported broad kin connection. Elizabeth’s estimated birth is not independent evidence excluding sister or niece.
+
+Next useful test: Compare the remission and Calder tenure papers for an explicit kinship.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [National Records of Scotland, Papers of Lord Torphichen, GD119/193 (https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/browseDetails.aspx?reference=GD119%2F193), 2 July 1526; John Maitland Thomson, ed., Registrum Magni Sigilli Regum Scotorum, vol. 4, no. 739, p. 164 (https://archive.org/details/registrummagnisi04scot/page/164/mode/1up), 19 December 1552.](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/browseDetails.aspx?reference=GD119%2F193)

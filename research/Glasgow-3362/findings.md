@@ -5,6 +5,8 @@ Last updated: 2026-09-10
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **41% (possible)** for [Glasgow-2462](https://www.wikitree.com/wiki/Glasgow-2462). Possible fatherhood specifically for William-2462; the index’s named father William is secure, but it does not identify his childhood. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 The index establishes a Polwarth event for Elizabeth on 17 August 1656 and names
 her father as William Glasgow. It does not identify him as Glasgow-2462.
 
@@ -54,3 +56,17 @@ the unproved Inveresk profile identification.
 Original image not inspected for this batch. The combined collection’s date does not automatically establish a birthday. Names alone do not uniquely identify attached parents or connect a child with a later adult. An omitted parent or indexed gender U remains unspecified in this source.
 
 **Next action:** No additional WikiTree update from this row; preserve any existing pending work.
+
+## Father confidence review, fifth batch — 22 October 2026
+
+[Glasgow-2462](https://www.wikitree.com/wiki/Glasgow-2462) remains the selected father, assessed **41% (possible)**. Previous selected-tree status: **uncertain**, without an individual percentage.
+
+Elizabeth's Polwarth index event of 17 August 1656 names father William Glasgow. The selected William’s 1639 birth would permit the 1656 Polwarth father role at sixteen or seventeen, but that young age and the Inveresk-to-Polwarth move need a positive identification.
+
+Scope: Possible fatherhood specifically for William-2462; the index’s named father William is secure, but it does not identify his childhood.
+
+Next useful test: Find an adult William marriage or residence bridge before preferring the 1639 child more strongly.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [FamilySearch, Scotland, Births and Baptisms, 1564–1950: Elizabeth Glasgow, baptised 17 August 1656 at Polwarth, father William Glasgow, record XYL3-24Q (); William Glasgow, baptised 4 April 1658 at Polwarth, father William Glasgow, record XTBH-RJS](https://www.familysearch.org/ark:/61903/1:1:XYL3-24Q)

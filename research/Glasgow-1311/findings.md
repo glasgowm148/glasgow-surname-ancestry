@@ -7,6 +7,8 @@ Last updated: 2026-10-07
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **85% (probable)** for [Glasgow-1152](https://www.wikitree.com/wiki/Glasgow-1152). Probable full-profile identification; the 1637 child-to-adult bridge remains unproved and the overlapping Smith household is not merged.8/12 August is separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Reviewed: 2026-10-16
 
 **Selected uncertain Libberton/Uphall families,16 October2026:** Robert of Libberton is placed under Johne-3093 through the conditional Mid Calder/Lindsaylands family route; Thomas of the Clarkson household is placed under John-1105 and Agnes Eastone through possible identity with the 1675 child. All three adult parent links are uncertain; existing dates and competing identities remain. [Evidence and alternatives](/branches/early-scottish-records/#libberton-uphall-working-family).
@@ -56,3 +58,17 @@ The Clarkson adult1226 is now provisionally assigned to the 1675 Linlithgow chil
 - [Thomas and Clarkson household: Alexander at Uphall,7 February 1721](https://www.familysearch.org/ark:/61903/1:1:VQ48-994)
 - [Thomas and Clarkson household: Hellen at Livingston,18 October 1735](https://www.familysearch.org/ark:/61903/1:1:X1R2-KB6)
 - [Thomas, St Cuthbert’s 1666: Alexander/Issobell Anderson child index](https://www.familysearch.org/ark:/61903/1:1:XT5G-Z49)
+
+## Father confidence review, fifth batch — 22 October 2026
+
+[Glasgow-1152](https://www.wikitree.com/wiki/Glasgow-1152) remains the selected father, assessed **85% (probable)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+Thomas's St Cuthbert's index names Alexander Glasgow and Issobell Andersone, dated 12 August 1666. The exact Alexander/Issobell Anderson couple matches the selected father’s 1665 marriage account and the later 1674 Marie event. A 1637 birth permits an ordinary age at marriage and fatherhood.
+
+Scope: Probable full-profile identification; the 1637 child-to-adult bridge remains unproved and the overlapping Smith household is not merged.8/12 August is separate.
+
+Next useful test: Find an occupation, witness or property bridge from the 1637 family to the Anderson husband.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Scotland’s People, Old Parish Registers, births and baptisms (https://www.scotlandspeople.gov.uk/), exact surname Glasgow through 1700, index text supplied 10 September 2026: THOMAS GLASGOW, 12/08/1666, ALEXANDER GLASGOW/ISSOBELL ANDERSONE FR619 (FR619), indexed gender M, St Cuthbert's, parish 685 / 2, reference 30 / 77. Original register image not inspected for this review.](https://www.scotlandspeople.gov.uk/)

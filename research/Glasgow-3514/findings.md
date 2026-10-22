@@ -3,6 +3,12 @@
 Last updated: 2026-09-10
 
 
+## Current conclusion
+
+Current father assessment (22 October 2026): **98% (proved)** for [Glasgow-1073](https://www.wikitree.com/wiki/Glasgow-1073). Confident for the recorded child and father; later adult Alexander identities are not inferred. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
+Alexander's 15 July 1695 Kilbirnie index/transcript names John Glasgow and Jeane Cunynghame. The full John/Jeane Cunynghame couple and Kilbirnie parish sequence match the selected minister’s family.
+
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-6a0d2f01d70f
 
 The transcript-validated baptism record for **Alexander Glasgow**, 15 Jul 1695, Kilbirnie, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
@@ -41,3 +47,17 @@ Only the initial A. is given. The list probably names a shipmaster, but it does 
 
 This may concern [Glasgow-3514](https://www.wikitree.com/wiki/Glasgow-3514). Would be about 99 in 1794, an exceptionally poor age fit for a likely master; the known account has no death date, so this is a strong plausibility concern rather than a source-proved death conflict. No maritime evidence.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, fifth batch — 22 October 2026
+
+[Glasgow-1073](https://www.wikitree.com/wiki/Glasgow-1073) remains the selected father, assessed **98% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+Alexander's 15 July 1695 Kilbirnie index/transcript names John Glasgow and Jeane Cunynghame. The full John/Jeane Cunynghame couple and Kilbirnie parish sequence match the selected minister’s family.
+
+Scope: Confident for the recorded child and father; later adult Alexander identities are not inferred.
+
+Next useful test: Use the original parish entry if a competing ministerial family is suggested.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Alexander Glasgow, 15 Jul 1695, record SCOT/OPR/BAP/3585780](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3585780&tab=this)

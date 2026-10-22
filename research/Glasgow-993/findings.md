@@ -3,6 +3,12 @@
 Last updated: 2026-10-07
 
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-4938dce42a86 -->
+## Current conclusion
+
+Current father assessment (22 October 2026): **98% (proved)** for [Glasgow-991](https://www.wikitree.com/wiki/Glasgow-991). Confident for the indexed child and named father; mother and later identity are independently assessed. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
+The Inveresk Agnes child entry of 22 February 1618 names James Glasgow as father and omits her mother. The exact Inveresk Agnes event is part of the selected James’s recorded parish family.
+
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-4938dce42a86
 
 The transcript-validated baptism record for **Agnes Glasgow**, 1618, Inveresk with Musselburgh, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
@@ -72,3 +78,17 @@ A possible identification concerns Agnes Glasgow. The banns/marriage index recor
 
 A possible identification concerns Agnes Glasgow. The banns/marriage index records Agnes Glasgow and William Thomsone on 15 December 1681 at Carstairs. (Scotland’s People: Old Parish Registers — banns and marriages: OPR 633/10 / 66; [record](https://www.scotlandspeople.gov.uk/).) The original parish register image has not been inspected. The combined index date does not by itself identify the precise event type. The identification remains uncertain.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, fifth batch — 22 October 2026
+
+[Glasgow-991](https://www.wikitree.com/wiki/Glasgow-991) remains the selected father, assessed **98% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+The Inveresk Agnes child entry of 22 February 1618 names James Glasgow as father and omits her mother. The exact Inveresk Agnes event is part of the selected James’s recorded parish family.
+
+Scope: Confident for the indexed child and named father; mother and later identity are independently assessed.
+
+Next useful test: Check the full parish entry if a competing James is found.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [James Glasgow in entry for Agnes Glasgow (22 Feb 1618 ), "Scotland Births and Baptisms, 1564-1950"](https://www.wikitree.com/wiki/Glasgow-993); [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Agnes Glasgow, 1618, record R_686182151](https://www.findmypast.co.uk/transcript?id=R_686182151&tab=this)

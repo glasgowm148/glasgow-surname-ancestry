@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **99% (proved)** for [Glasgow-3181](https://www.wikitree.com/wiki/Glasgow-3181). Confident for the daughter; the wage-creditor Katherine need not be the same person, and maternity is not inferred from the uncertain pronoun. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 [Katherine Glasgow (Glasgow-3590)](https://www.wikitree.com/wiki/Glasgow-3590)
 is the unique compatible profile for the Katherine Glasgow named in John
 Glasgow's `CC8/8/5` testament dative. The record directly identifies
@@ -61,3 +63,17 @@ The source table and relationship list above (8 September 2026) follow an earlie
 The testament therefore names **Katherine and Marjory** as John's lawful children and executors-dative. Marjorie (Glasgow-3589) is the second child named with Katherine, and a probable full sibling; Margaret's maternity of either child stays unproved because the possessive before *lauchfull barnis* is unresolved. The testament supplies no son Andrew, so it gives no basis for testing [Andrew Glasgow (Glasgow-3163)](https://www.wikitree.com/wiki/Glasgow-3163) as Katherine's brother. The replacement draft `Glasgow-3590.md` still carries the Andrew reading and needs the same correction before any use.
 
 Recorded in `research/Glasgow-3589/Glasgow-3589.md` and `research/Glasgow-3589/findings.md` (committed 29 September 2026), from the reading accepted on 10 September 2026; carried into this file on 7 October 2026.
+
+## Father confidence review, fifth batch — 22 October 2026
+
+[Glasgow-3181](https://www.wikitree.com/wiki/Glasgow-3181) remains the selected father, assessed **99% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+John’s 1577 testament names Katherine and Marjory as his lawful children and executors-dative. The named lawful child and executor clause directly establishes this Katherine’s father. The record-defined John is securely identified by the same estate.
+
+Scope: Confident for the daughter; the wage-creditor Katherine need not be the same person, and maternity is not inferred from the uncertain pronoun.
+
+Next useful test: Keep the daughter and servant clauses separate when checking the manuscript.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [National Records of Scotland, Edinburgh Commissary Court, CC8/8/5, Image 276 and upper portion of Image 277, testament dative and inventory of Johne Glasgw in Hirmanscheillis; court record dated 1577.](https://www.wikitree.com/wiki/Glasgow-3590)

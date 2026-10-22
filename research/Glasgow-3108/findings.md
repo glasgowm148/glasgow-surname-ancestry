@@ -4,6 +4,8 @@ Last updated: 2026-09-10
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **98% (proved)** for [Glasgow-3109](https://www.wikitree.com/wiki/Glasgow-3109). Confident paternity;1/19 January remains a separate date/event conflict and Hugh’s earlier childhood is not supplied. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 The 1696 Irvine baptism and confident parents define
 [[Glasgow-3108|Hugh Glasgow]]. He is a strong candidate for a later
 Irvine/London sailor, but identity is not proved.
@@ -52,3 +54,17 @@ The supplied 19/01/1696 Irvine index date differs from the profile’s structure
 ## Priority action
 
 **Needs update on WikiTree:** the complete proposed biography records this comparison with prior sources and pending research retained. No structured date or relationship change is established by this index review.
+
+## Father confidence review, fifth batch — 22 October 2026
+
+[Glasgow-3109](https://www.wikitree.com/wiki/Glasgow-3109) remains the selected father, assessed **98% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+Hugh's 19 January 1696 Irvine index names Hugh Glasgow and Jean Service. The full Hugh/Jean Service couple and Irvine event identify the selected record-defined adult father’s household.
+
+Scope: Confident paternity;1/19 January remains a separate date/event conflict and Hugh’s earlier childhood is not supplied.
+
+Next useful test: Check the original entry before changing the day.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Scotland’s People, Old Parish Registers, births and baptisms (https://www.scotlandspeople.gov.uk/), exact surname Glasgow through 1700, index text supplied 10 September 2026: HUGH GLASGOW, 19/01/1696, HUGH GLASGOW/JEAN SERVICE FR26A (FR26), indexed gender M, Irvine, parish 595, reference 10 / 18. Original register image not inspected for this review.](https://www.scotlandspeople.gov.uk/)

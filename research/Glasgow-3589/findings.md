@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **99% (proved)** for [Glasgow-3181](https://www.wikitree.com/wiki/Glasgow-3181). Confident paternity for Marjory in this testament; her estimated birth, later identity and the widow’s maternity remain separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 The accepted human reading of John Glasgow's `CC8/8/5` testament names
 Katherine and **Marjory** (`m[ar]iory`) as John's lawful children and
 executors-dative. The earlier model reading Androw/Andrew is superseded and is
@@ -52,3 +54,17 @@ sourced replacement identity is established.
 
 Search for an independent record of a Marjorie Glasgow in this household to
 establish her later identity, dates and place.
+
+## Father confidence review, fifth batch — 22 October 2026
+
+[Glasgow-3181](https://www.wikitree.com/wiki/Glasgow-3181) remains the selected father, assessed **99% (proved)**. Previous selected-tree status: **proved**, without an individual percentage.
+
+The accepted reading of John’s 1577 testament names Katherine and Marjory (m[ar]iory) as his lawful children and executors-dative. The accepted human reading explicitly establishes the named daughter’s relationship to this record-defined John. It supersedes the earlier Andrew reading.
+
+Scope: Confident paternity for Marjory in this testament; her estimated birth, later identity and the widow’s maternity remain separate.
+
+Next useful test: Use the accepted full passage if a new reading is proposed.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [National Records of Scotland, Edinburgh Commissary Court, CC8/8/5, images 276–277, testament dative of John Glasgow in Hirmanscheillis, processed 1577; working transcription of the original manuscript.](https://www.wikitree.com/wiki/Glasgow-3589)

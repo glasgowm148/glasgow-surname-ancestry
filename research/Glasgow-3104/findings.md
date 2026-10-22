@@ -5,6 +5,8 @@ Last updated: 2026-09-10
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **98% (proved)** for [Glasgow-3105](https://www.wikitree.com/wiki/Glasgow-3105). Confident for this recorded child; Anne’s nearby baptism date does not prove two births within two months or the same mother. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 The Findmypast parish transcript belongs to this profile. It records James
 Glasgow's baptism at Kilwinning on 14 July 1689 and names his parents as James
 Glasgow and Margaret Park. The exact date, place and attached parents are
@@ -51,3 +53,17 @@ Add the record as supporting evidence while preserving all existing sources and 
 Original image not inspected for this batch. The combined collection’s date does not automatically establish a birthday. Names alone do not uniquely identify attached parents or connect a child with a later adult. An omitted parent or indexed gender U remains unspecified in this source.
 
 **Next action:** No additional WikiTree update from this row; preserve any existing pending work.
+
+## Father confidence review, fifth batch — 22 October 2026
+
+[Glasgow-3105](https://www.wikitree.com/wiki/Glasgow-3105) remains the selected father, assessed **98% (proved)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+James's 14 July 1689 Kilwinning transcript names James Glasgow and Margaret Park. The full James/Margaret Park couple and exact Kilwinning event identify the selected record-defined father’s household.
+
+Scope: Confident for this recorded child; Anne’s nearby baptism date does not prove two births within two months or the same mother.
+
+Next useful test: Read both originals for birth dates and maternal wording before inferring sibling chronology.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: James Glasgow, 14 Jul 1689, record SCOT/OPR/BAP/3625064](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3625064&tab=this)

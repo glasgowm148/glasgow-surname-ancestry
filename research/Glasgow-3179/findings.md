@@ -5,6 +5,8 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **51% (possible)** for [Glasgow-3921](https://www.wikitree.com/wiki/Glasgow-3921). Possible paternity. The creditor is not expressly called father and may represent James elder or another local James; Geillis’s own child/executor readings are separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 WikiTree parent-status audit, 27 September 2026: the attached mother Margaret Smith (Smith-374110) is now marked uncertain. Geillis’s testament does not identify her parents.
 
 Father assessment: the attached [James Glasgow (Glasgow-3921)](https://www.wikitree.com/wiki/Glasgow-3921) remains **plausible**, not proved. [James Glasgow (Glasgow-1168)](https://www.wikitree.com/wiki/Glasgow-1168) is another Ayrshire comparison, not an established father.
@@ -58,3 +60,17 @@ The transcript-validated testament/probate record for **Geillis Glasgow**, 11 Ma
 
 Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
 <!-- END FMP-GLASGOW-fmp-glasgow-5c2ca217f786 -->
+
+## Father confidence review, fifth batch — 22 October 2026
+
+[Glasgow-3921](https://www.wikitree.com/wiki/Glasgow-3921) remains the selected father, assessed **51% (possible)**. Previous selected-tree status: **uncertain**, without an individual percentage.
+
+Inherited uncertain attachment to James Glasgow-3921; Geillis’s testament names a James Glasgow in Stevenston as creditor without stating kinship. The Stevenston James Glasgow creditor is a positive personal contact, and the selected younger James has a compatible generation and locality. Together these favour a family relationship over chronology alone.
+
+Scope: Possible paternity. The creditor is not expressly called father and may represent James elder or another local James; Geillis’s own child/executor readings are separate.
+
+Next useful test: Identify the James creditor from the original testament and Corsankell transactions.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Inherited father attachment: Glasgow-3179 to Glasgow-3921; retained public historical profile and individually stated evidence limits](https://www.wikitree.com/wiki/Glasgow-3179)

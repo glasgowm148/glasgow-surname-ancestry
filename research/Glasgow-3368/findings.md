@@ -4,6 +4,8 @@ Last updated: 2026-10-20
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **98% (proved)** for [Glasgow-2682](https://www.wikitree.com/wiki/Glasgow-2682). Confident for the 1680 child. The 1679 same-name son remains separate; no undocumented death, survival or apprentice identity is supplied. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 **Related maternal proposal, 21 October 2026:** [Isobell/Elizabeth Duffe](/people/duffe-18.html) is now selected as [the 1696 apprentice James’s](/people/glasgow-4114.html) probable mother, 72%, through the same qualified household. The two James childhood accounts remain separate and neither is selected as the apprentice. This does not change this profile’s parents, grades or dates. [Full maternal argument](/branches/research-calder-inveresk-james/#chapter-edinburgh-apothecary-probable-father).
 
 
@@ -85,3 +87,17 @@ This changes the earlier decision not to select a mother: use a probable househo
 The original baptism and indenture manuscripts were not inspected in this review. The two parish rows are reused evidence, not new source discoveries. Their collection dates are not automatically birthdays.
 
 **Next evidence:** Inspect the original 1679/1680 baptisms for maternal forenames, residence and witnesses, and seek an infant burial or later apprenticeship/occupation identifier. Compare the 1690 cancellation before any child-profile merger. The mother remains a probable proposal, not a documented maternal role of the apprentice.
+
+## Father confidence review, fifth batch — 22 October 2026
+
+[Glasgow-2682](https://www.wikitree.com/wiki/Glasgow-2682) remains the selected father, assessed **98% (proved)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+James's 18 April 1680 Edinburgh index names James Glasgow and Issobell Duff. The full James/Duff couple and exact Edinburgh event identify the selected record father.
+
+Scope: Confident for the 1680 child. The 1679 same-name son remains separate; no undocumented death, survival or apprentice identity is supplied.
+
+Next useful test: Compare both original baptisms and any burial before choosing the later adult James.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [ScotlandsPeople supplied OPR births/baptisms row 39: James Glasgow, 18 April 1680, Edinburgh 685/1,90/21, FR 2584; James Glasgow/Issobell Duff; index supplied 10 September 2026](https://www.scotlandspeople.gov.uk/search-records/church-registers/church-births-baptisms)

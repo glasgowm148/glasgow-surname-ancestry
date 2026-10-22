@@ -4,6 +4,8 @@ Last updated: 17 October 2026
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **34% (possible)** for [Glasgow-1157](https://www.wikitree.com/wiki/Glasgow-1157). Possible at a modest level; duplicate Daniel accounts and the Glascocke ancestry question remain unresolved, without assuming two taxpayers were these two profiles. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Reviewed: 2026-10-20
 
 **Title-clause review, 20 October 2026:** The enlarged original of Daniel Glasco’s 1729 deed describes the land as now in Daniel’s tenure and occupation. It does not name William as a predecessor or identify a father. The earlier possible William reading is withdrawn. Mary is explicitly Daniel’s wife, and the tract is part of Henry Slade’s 330-acre patent. This remains a compatible comparison for Daniel Glasgow-3322, Mary Gamon’s husband in 1693, rather than a proved lifetime identity. The title chain from the Gamon property is still missing. Daniel Glasgow-1158 remains William Glasgow-428’s possible working father at 42%; this inspection supplies no additional paternity evidence.
@@ -46,3 +48,17 @@ Trace the 260/250-acre Currituck property separately from the 80 acres at Richfo
 The enlarged original of Daniel Glasco’s 1729 deed describes the land as now in Daniel’s tenure and occupation. It does not name William as a predecessor or identify a father. The earlier possible William reading is withdrawn. Mary is explicitly Daniel’s wife, and the tract is part of Henry Slade’s 330-acre patent. This remains a compatible comparison for Daniel Glasgow-3322, Mary Gamon’s husband in 1693, rather than a proved lifetime identity. The title chain from the Gamon property is still missing. Daniel Glasgow-1158 remains William Glasgow-428’s possible working father at 42%; this inspection supplies no additional paternity evidence.
 
 [Princess Anne County, Deeds and Wills Book 4, Part 1 (1724–1735), manuscript p.207, DGS 7645780, image 150; original image reinspected 20 October 2026.](https://www.familysearch.org/ark:/61903/3:1:3QS7-99PX-F3DX). The image was read directly; no new historical deed or father attachment is claimed. The 1718–1719 Senior/Junior tax distinction remains unchanged.
+
+## Father confidence review, fifth batch — 22 October 2026
+
+[Glasgow-1157](https://www.wikitree.com/wiki/Glasgow-1157) remains the selected father, assessed **34% (possible)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+Inherited attachment to Robert-1157; no held record names Robert as Daniel's father. Daniel's primary identity is Mary Gamon's husband in 1693. The inherited Robert father and Virginia generation are feasible for the Daniel who married Mary Gamon in 1693, but none of the held tax or marriage records names his father.
+
+Scope: Possible at a modest level; duplicate Daniel accounts and the Glascocke ancestry question remain unresolved, without assuming two taxpayers were these two profiles.
+
+Next useful test: Find a named estate heir or land transfer connecting Daniel and Robert.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Inherited father attachment: Glasgow-3322 to Glasgow-1157; retained public historical profile and individually stated evidence limits](https://www.wikitree.com/wiki/Glasgow-3322)

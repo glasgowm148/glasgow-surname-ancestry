@@ -6,6 +6,8 @@ Last updated: 2026-10-07
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **95% (proved)** for [Glasgow-3375](https://www.wikitree.com/wiki/Glasgow-3375). Confident for the recorded father John; Maria is not silently equated with the attached Barbara, and31 January/1 February remains a date conflict. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 <!-- site-audit-2026-10-07:overall-conclusion -->
 Jannet Glasgow was baptised or born at Kilwinning, Ayrshire, in early 1689, daughter of John Glasgow; a Findmypast transcript of the Kilwinning register names her mother as Maria Allason. The transcript gives the baptism as 1 February 1689, while the Scotland’s People index (parish 599, reference 10 / 62) gives 31 January 1689 and the mother's surname only. The original register has not been inspected, and the file leaves open whether the two dates are separate birth and baptism dates or a transcription discrepancy.
 
@@ -52,3 +54,17 @@ The supplied 31/01/1689 Kilwinning index date differs from the profile’s struc
 ## Priority action
 
 **Needs update on WikiTree:** the complete proposed biography records this comparison with prior sources and pending research retained. No structured date or relationship change is established by this index review.
+
+## Father confidence review, fifth batch — 22 October 2026
+
+[Glasgow-3375](https://www.wikitree.com/wiki/Glasgow-3375) remains the selected father, assessed **95% (proved)**. Previous selected-tree status: **uncertain**, without an individual percentage.
+
+Jannet's Kilwinning transcript names John Glasgow and Maria Allason, baptism 1 February 1689; Scotland's People gives mother surname Allason only. The John father and Allason family surname match the selected Kilwinning adult household, and the generation is feasible. The source supports the father independently of choosing a normalized mother’s forename.
+
+Scope: Confident for the recorded father John; Maria is not silently equated with the attached Barbara, and31 January/1 February remains a date conflict.
+
+Next useful test: Compare the Allason entries and marriage to identify the mother separately.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Jannet Glasgow, 01 Feb 1689, record SCOT/OPR/BAP/3625022](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3625022&tab=this); [Scotland’s People, Old Parish Registers, births and baptisms (https://www.scotlandspeople.gov.uk/), exact surname Glasgow through 1700, index text supplied 10 September 2026: JANNET GLASGOW, 31/01/1689, JOHN GLASGOW/ ALLASON FR75 (FR75), indexed gender F, Kilwinning, parish 599, reference 10 / 62. Original register image not inspected for this review.](https://www.scotlandspeople.gov.uk/)

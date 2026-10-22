@@ -5,6 +5,8 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **18% (uncertain)** for [Glasgow-1097](https://www.wikitree.com/wiki/Glasgow-1097). A weak retained attachment. Robert’s David Howe contacts do not repair it, because Isabella’s dyer husband belongs to a different proved Howe household. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Father assessment: **uncertain; no present leading candidate**. The attached
 [Archibald Glasgow (Glasgow-1097)](https://www.wikitree.com/wiki/Glasgow-1097)
 is chronologically possible but has no identified property or personal link to
@@ -52,3 +54,17 @@ father.
    that relationship.
 4. Add the probable identification of John with Peter Howie and Isobella
    Maxwell's record-proved son, explicitly distinguishing John Howe the fisher.
+
+## Father confidence review, fifth batch — 22 October 2026
+
+[Glasgow-1097](https://www.wikitree.com/wiki/Glasgow-1097) remains the selected father, assessed **18% (uncertain)**. Previous selected-tree status: **uncertain**, without an individual percentage.
+
+Inherited uncertain attachment to Archibald; current findings identify no leading father or property/personal bridge to Isabella. Archibald’s c 1525 generation could father Isabella c 1560, but no positive personal or property association selects him over the other Glasgow adults.
+
+Scope: A weak retained attachment. Robert’s David Howe contacts do not repair it, because Isabella’s dyer husband belongs to a different proved Howe household.
+
+Next useful test: Test Isabella’s property title for a named Glasgow predecessor or relative.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [WikiTree profile export for Glasgow-3026](https://www.wikitree.com/wiki/Glasgow-3026)

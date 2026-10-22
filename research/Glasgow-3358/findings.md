@@ -5,6 +5,8 @@ Last updated: 2026-10-07
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **47% (possible)** for [Glasgow-1149](https://www.wikitree.com/wiki/Glasgow-1149). Possible identification with Robert-1149 specifically. The recorded Lorimer father is secure; the 1644 chronology makes the childhood mapping less comfortable. Robert-3938 is the distinct 1652 Thomsone bridegroom, not an automatic replacement. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 <!-- site-audit-2026-10-07:overall-conclusion -->
 Eupham Glasgow, daughter of Robert Glasgow and Eupham Lorimer as indexed, is recorded in the Scotland's People index of Old Parish Register births and baptisms at Edinburgh under 8 May 1651. She is a compatible but unproved candidate for the Eupham Glasgow who married Alexander Hutcheson, tailor, at Edinburgh on 8 December 1671 according to the printed Edinburgh marriage register; the other candidate is Glasgow-1167. A Channelkirk entry of 17 September 1671 for Effie Glasgow and Alexander Hutchesone is provisionally grouped with that couple but kept as a separate event.
 
@@ -53,3 +55,17 @@ A possible identification concerns Eupham Glasgow and Alexander Hutcheson. The p
 
 A possible identification concerns Effie Glasgow and Alexander Hutcshesone. The parish index records Effie Glasgow with Alexander Hutcshesone at Channelkirk on 17 September 1671. (Scotland’s People, Old Parish Registers, banns and marriages, OPR 729/10 / 230, 1671-09-17, Channelkirk; [record](https://www.scotlandspeople.gov.uk/).) The index combines banns and marriage entries; the original register is required to establish the event type. The identification remains uncertain.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, fifth batch — 22 October 2026
+
+[Glasgow-1149](https://www.wikitree.com/wiki/Glasgow-1149) remains the selected father, assessed **47% (possible)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+Eupham’s Edinburgh child event dated 8 May 1651 names Robert Glasgow and Eupham Lorimer/Laurimer. The Edinburgh Robert/Eupham Lorimer household is directly recorded, but linking its adult father to the 1627 Inveresk child remains unproved. The same named Lorimer couple is already recorded with an adult cordiner in 1644, when the child would be about sixteen.
+
+Scope: Possible identification with Robert-1149 specifically. The recorded Lorimer father is secure; the 1644 chronology makes the childhood mapping less comfortable. Robert-3938 is the distinct 1652 Thomsone bridegroom, not an automatic replacement.
+
+Next useful test: Compare Lorimer-family property or trade records with the 1627 child’s family, keeping the Thomsone account separate.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: ["Scotland, Births and Baptisms, 1564-1950", , FamilySearch (https://www.familysearch.org/ark:/61903/1:1:X1YF-TPJ : 16 September 2021), Eupham Glasgow, 1651.](https://www.familysearch.org/ark:/61903/1:1:X1YF-TPJ)

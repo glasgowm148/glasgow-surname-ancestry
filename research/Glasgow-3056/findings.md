@@ -4,6 +4,8 @@ Last updated: 2026-09-10
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **98% (proved)** for [Glasgow-1561](https://www.wikitree.com/wiki/Glasgow-1561). Confident paternity for the child; the blank-forename 1670 death entry does not prove this son’s adult death. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 John is represented by the 1617 Linlithgow child record and remains attached
 to [John Glasgow (Glasgow-1561)](https://www.wikitree.com/wiki/Glasgow-1561).
 The currently assigned 14 February 1670 death is **not established by the
@@ -36,3 +38,17 @@ qualified account in the complete replacement draft; mark the existing death
 date/location uncertain pending OPR 668/70/653. Read the original wording and
 adjacent entries for the person's identity and whether this is death, burial
 or payment for burial. No new person or live structured-data change was made.
+
+## Father confidence review, fifth batch — 22 October 2026
+
+[Glasgow-1561](https://www.wikitree.com/wiki/Glasgow-1561) remains the selected father, assessed **98% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+The 1617 Linlithgow John child account is attached to father John Glasgow and cites FamilySearch X1RV-T85. The recurring Linlithgow John household and exact 1617 event match the selected father’s family.
+
+Scope: Confident paternity for the child; the blank-forename 1670 death entry does not prove this son’s adult death.
+
+Next useful test: Find a named adult record before assigning the 1670 death.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [“Scotland Births and Baptisms, 1564–1950,” FamilySearch (https://www.familysearch.org/ark:/61903/1:1:X1RV-T85 : 16 September 2021), John Glesgow, 1617.](https://www.familysearch.org/ark:/61903/1:1:X1RV-T85)

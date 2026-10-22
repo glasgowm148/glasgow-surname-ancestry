@@ -24,6 +24,8 @@ Last updated: 2026-09-10
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **98% (proved)** for [Glasgow-3077](https://www.wikitree.com/wiki/Glasgow-3077). Confident for the recorded 1665 child; James’s earlier ancestry and Clerk-household identification remain separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 The supplied index entry is a compatible derivative-record match by name, parish and recorded parent(s). Its date may be a birth or baptism date; the original image has not been inspected.
 
 <!-- opr-birth-review-row-101 -->
@@ -38,3 +40,17 @@ The supplied index entry is a compatible derivative-record match by name, parish
 Original image not inspected for this batch. The combined collection’s date does not automatically establish a birthday. Names alone do not uniquely identify attached parents or connect a child with a later adult. An omitted parent or indexed gender U remains unspecified in this source.
 
 **Next action:** No additional WikiTree update from this row; preserve any existing pending work.
+
+## Father confidence review, fifth batch — 22 October 2026
+
+[Glasgow-3077](https://www.wikitree.com/wiki/Glasgow-3077) remains the selected father, assessed **98% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+Robert's 28 May 1665 St Cuthbert's index names James Glasgow and Annapill Glasse. The full James/Annapill couple and St Cuthbert’s sequence identify the selected record father.
+
+Scope: Confident for the recorded 1665 child; James’s earlier ancestry and Clerk-household identification remain separate.
+
+Next useful test: Use the original entry if a competing Robert or parental couple is proposed.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [FamilySearch, “Scotland, Births and Baptisms, 1564–1950,” Robert Glasgow, 1665 (https://www.familysearch.org/ark:/61903/1:1:F316-F84). The indexed 28 May date is treated as baptism, not a proved birth date.](https://www.familysearch.org/ark:/61903/1:1:F316-F84)

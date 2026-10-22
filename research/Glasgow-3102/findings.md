@@ -3,6 +3,12 @@
 Last updated: 2026-09-10
 
 
+## Current conclusion
+
+Current father assessment (22 October 2026): **42% (possible)** for [Glasgow-3103](https://www.wikitree.com/wiki/Glasgow-3103). Possible identification with James-3103 specifically; the named adult father James is explicit, but childhood, apprentice and Dobie-marriage identities remain unproved.23/28 May is separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
+Peter's 1699 Edinburgh transcript names James Glasgow, cardiner, and Jean Dohe; Scotland's People indexes James Glasgow and Jean Dobie. The 1679 Edinburgh child would be about twenty when Peter was recorded, a feasible generation in the same city. The 1680 same-name child remains an equally viable childhood comparison for the adult cordiner father.
+
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-acb584e39d2b
 
 The transcript-validated baptism record for **Peter Glasgow**, 23 May 1699, Edinburgh, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
@@ -30,3 +36,17 @@ Add the record as supporting evidence while preserving all existing sources and 
 Original image not inspected for this batch. The combined collection’s date does not automatically establish a birthday. Names alone do not uniquely identify attached parents or connect a child with a later adult. An omitted parent or indexed gender U remains unspecified in this source.
 
 **Next action:** No additional WikiTree update from this row; preserve any existing pending work.
+
+## Father confidence review, fifth batch — 22 October 2026
+
+[Glasgow-3103](https://www.wikitree.com/wiki/Glasgow-3103) remains the selected father, assessed **42% (possible)**. Previous selected-tree status: **uncertain**, without an individual percentage.
+
+Peter's 1699 Edinburgh transcript names James Glasgow, cardiner, and Jean Dohe; Scotland's People indexes James Glasgow and Jean Dobie. The 1679 Edinburgh child would be about twenty when Peter was recorded, a feasible generation in the same city. The 1680 same-name child remains an equally viable childhood comparison for the adult cordiner father.
+
+Scope: Possible identification with James-3103 specifically; the named adult father James is explicit, but childhood, apprentice and Dobie-marriage identities remain unproved.23/28 May is separate.
+
+Next useful test: Compare the adult cordiner’s marriage/trade records with both 1679 and 1680 children and the separate apothecary apprentice.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Peter Glasgow, 23 May 1699, record SCOT/OPR/BAP/0595199](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0595199&tab=this)

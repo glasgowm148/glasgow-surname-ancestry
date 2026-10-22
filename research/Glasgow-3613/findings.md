@@ -4,6 +4,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **22% (uncertain)** for [Glasgow-1096](https://www.wikitree.com/wiki/Glasgow-1096). Uncertain retained attachment; Margaret’s spouse, son and death evidence are not repurposed as proof of her own parents. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 [Margaret Glasgow (Glasgow-3613)](https://www.wikitree.com/wiki/Glasgow-3613)
 is the unique WikiTree match for the woman whose testament dative is NRS
 `CC8/8/8`, images 355–356. She was the spouse or sometime wife of
@@ -92,3 +94,17 @@ death month and do not infer unstated parentage.
 National Records of Scotland, Edinburgh Commissary Court, `CC8/8/8`, images 355–356 (original register, as read for the replacement biography): the inventory describes a modest farming household (two cows, two one-year-old heifers, sheep including *hoggis*, six bolls of oats in the barn and barnyard, utensils, furnishings and her clothing), totalling £47 14s 8d Scots. Debts owed to her were £8 from James Estoun in Wester Whitburn and 50 shillings from a debtor read provisionally as Michael Mertyn, £10 10s in all, giving a gross estate of £58 4s 8d. She owed 20 shillings to Roland Dundas for a year's teind on the ground. The free estate of £57 4s 8d was divided in two and the deceased's part recorded as £28 12s 4d; the arithmetic reconciles. The confirmation names the Edinburgh commissaries Edward Henryson and Alexander Sym. Some stock quantities and the name Mertyn remain provisional.
 
 Recorded in `research/Glasgow-3613/Glasgow-3613.md` (8 September 2026); carried into this file on 7 October 2026.
+
+## Father confidence review, fifth batch — 22 October 2026
+
+[Glasgow-1096](https://www.wikitree.com/wiki/Glasgow-1096) remains the selected father, assessed **22% (uncertain)**. Previous selected-tree status: **uncertain**, without an individual percentage.
+
+Inherited uncertain attachment to Robert Glasgow-1096; Margaret’s CC8/8/8 testament names her spouse and son but no parent. Robert’s c 1520 generation is compatible with Margaret’s life, but her Croftmalloch testament supplies no paternal connection to his Glasgow household.
+
+Scope: Uncertain retained attachment; Margaret’s spouse, son and death evidence are not repurposed as proof of her own parents.
+
+Next useful test: Seek a marriage or land title naming Margaret’s origin.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Inherited father attachment: Glasgow-3613 to Glasgow-1096; retained public historical profile and individually stated evidence limits](https://www.wikitree.com/wiki/Glasgow-3613)

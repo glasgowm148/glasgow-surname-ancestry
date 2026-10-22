@@ -4,6 +4,8 @@ Last updated: 2026-09-10
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **98% (proved)** for [Glasgow-3087](https://www.wikitree.com/wiki/Glasgow-3087). Confident for the recorded child and father; John’s estimated 1670 birth and earlier ancestry remain independent. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 **Substantive amendment.** The confirmed transcript establishes that 3 June 1688 is Margaret's baptism date, not a proved birth date. It also identifies her parents as [John Glasgow (Glasgow-3087)](https://www.wikitree.com/wiki/Glasgow-3087) and [Bessie Smith (Smith-351282)](https://www.wikitree.com/wiki/Smith-351282), places the baptism at Kilwinning and supplies the parish reference. The captured biography says only that Margaret was born in 1688, so these changes materially alter and expand the narrative.
 
 ## Source findings
@@ -56,3 +58,17 @@ Provenance: exact-surname Glasgow search, year range to 1700, 127 supplied resul
 Original image not inspected for this batch. The combined collection’s date does not automatically establish a birthday. Names alone do not uniquely identify attached parents or connect a child with a later adult. An omitted parent or indexed gender U remains unspecified in this source.
 
 **Next action:** No additional WikiTree update from this row; preserve any existing pending work.
+
+## Father confidence review, fifth batch — 22 October 2026
+
+[Glasgow-3087](https://www.wikitree.com/wiki/Glasgow-3087) remains the selected father, assessed **98% (proved)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+Margaret's 3 June 1688 Kilwinning baptism transcript names John Glasgow and Bessie Smith. The full John/Bessie Smith couple and exact Kilwinning event identify the selected record-defined adult father.
+
+Scope: Confident for the recorded child and father; John’s estimated 1670 birth and earlier ancestry remain independent.
+
+Next useful test: Inspect the original for any further parent residence or occupation.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Findmypast, Scotland, Parish Births & Baptisms 1564-1929, transcript “Margaret Glasgow in 1688,” baptism 3 June 1688, Kilwinning, Ayrshire, father John Glasgow, mother Bessie Smith, archive reference OPR 599/1, item 1, page 28; record ID SCOT/OPR/BAP/3624944; transcript (https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3624944&tab=this), accessed 4 September 2026.](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3624944&tab=this)

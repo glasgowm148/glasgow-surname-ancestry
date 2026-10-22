@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **47% (possible)** for [Glasgow-3921](https://www.wikitree.com/wiki/Glasgow-3921). Possible fatherhood; the testament’s Glencairn/local network supports geography but does not name a Glasgow parent. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 The original testament identifies Katherine as the spouse of **Thomas Weir of
 the parish of Stevenston**, says she died in **January 1603**, and was confirmed
 on **9 May 1605**. Fresh visual review on 10 September 2026 reads
@@ -175,3 +177,17 @@ Add the record as supporting evidence while preserving all existing sources and 
 ## Scope of the minister ancestry note — 17 October 2026
 
 The Fasti ancestry check concerns the claimed ancestry of [Rev. John Glasgow (Glasgow-1073)](https://www.wikitree.com/wiki/Glasgow-1073), not an event in Katherine's life. It supplies no new parentage for Katherine. The minister's own findings retain the distinction between his documented wife and the unsupported Cunningham ancestry claim.
+
+## Father confidence review, fifth batch — 22 October 2026
+
+[Glasgow-3921](https://www.wikitree.com/wiki/Glasgow-3921) remains the selected father, assessed **47% (possible)**. Previous selected-tree status: **uncertain**, without an individual percentage.
+
+Inherited uncertain attachment to James Glasgow younger-3921; Katherine’s Stevenston testament names no parent. The selected younger James belongs to the same Stevenston/Corsankell setting and has a feasible generation for Katherine. This is a specific local-family hypothesis rather than a proved daughter clause.
+
+Scope: Possible fatherhood; the testament’s Glencairn/local network supports geography but does not name a Glasgow parent.
+
+Next useful test: Compare Katherine’s creditors, holdings and Weir family with the Corsankell records.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Inherited father attachment: Glasgow-1495 to Glasgow-3921; retained public historical profile and individually stated evidence limits](https://www.wikitree.com/wiki/Glasgow-1495)

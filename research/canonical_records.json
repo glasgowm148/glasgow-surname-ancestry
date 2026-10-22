@@ -3261,6 +3261,9 @@
     "profiles": {
       "Glasgow-4138": {
         "role": "documented adult servant"
+      },
+      "Glasgow-3370": {
+        "role": "Associated relationship assessment; record-specific roles and inference limits retained"
       }
     }
   },
@@ -10511,6 +10514,9 @@
     "profiles": {
       "Glasgow-1605": {
         "role": "Previously cited subject; relationship scope in the father assessment"
+      },
+      "Glasgow-3362": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
       }
     },
     "note": "See the individual father assessment for named record roles versus inferred profile identities.",
@@ -13160,5 +13166,2158 @@
     },
     "note": "See the individual father assessment for named record roles versus inferred profile identities.",
     "provenance": "research/ancestry-connections/father-coverage-review4-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-305dfd092a3d",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "National Records of Scotland, Papers of Lord Torphichen, GD119/193 (https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/browseDetails.aspx?reference=GD119%2F193), 2 July 1526; John Maitland Thomson, ed., Registrum Magni Sigilli Regum Scotorum, vol. 4, no. 739, p. 164 (https://archive.org/details/registrummagnisi04scot/page/164/mode/1up), 19 December 1552.",
+    "source_title": "National Records of Scotland, Papers of Lord Torphichen, GD119/193 (https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/browseDetails.aspx?reference=GD119%2F193), 2 July 1526; John Maitland Thomson, ed., Registrum Magni Sigilli Regum Scotorum, vol. 4, no. 739, p. 164 (https://archive.org/details/registrummagnisi04scot/page/164/mode/1up), 19 December 1552.",
+    "source_url": "https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/browseDetails.aspx?reference=GD119%2F193",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3915": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-7e3633daad9a",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "Margaret H. B. Sanderson, The People of Sixteenth Century Ayrshire, appendix “The Cunninghame Teind Lists of 1559-60,” p. 331 (https://aanhs.org/wp-content/uploads/2018/05/people-of-ayrshire.pdf#page=36).",
+    "source_title": "Margaret H. B. Sanderson, The People of Sixteenth Century Ayrshire, appendix “The Cunninghame Teind Lists of 1559-60,” p. 331 (https://aanhs.org/wp-content/uploads/2018/05/people-of-ayrshire.pdf#page=36).",
+    "source_url": "https://aanhs.org/wp-content/uploads/2018/05/people-of-ayrshire.pdf#page=36",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3908": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-c02682f9b03a",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "WikiTree profile export for Glasgow-3026",
+    "source_title": "WikiTree profile export for Glasgow-3026",
+    "source_url": "https://www.wikitree.com/wiki/Glasgow-3026",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3026": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-inherited-father-glasgow-3917",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "Inherited father attachment: Glasgow-3917 to Glasgow-3522; retained public historical profile and individually stated evidence limits",
+    "source_title": "Inherited father attachment: Glasgow-3917 to Glasgow-3522; retained public historical profile and individually stated evidence limits",
+    "source_url": "https://www.wikitree.com/wiki/Glasgow-3917",
+    "source_type": "Contributed tree claim, not an independent historical parent record",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3917": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-inherited-father-glasgow-3613",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "Inherited father attachment: Glasgow-3613 to Glasgow-1096; retained public historical profile and individually stated evidence limits",
+    "source_title": "Inherited father attachment: Glasgow-3613 to Glasgow-1096; retained public historical profile and individually stated evidence limits",
+    "source_url": "https://www.wikitree.com/wiki/Glasgow-3613",
+    "source_type": "Contributed tree claim, not an independent historical parent record",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3613": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-inherited-father-glasgow-1495",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "Inherited father attachment: Glasgow-1495 to Glasgow-3921; retained public historical profile and individually stated evidence limits",
+    "source_title": "Inherited father attachment: Glasgow-1495 to Glasgow-3921; retained public historical profile and individually stated evidence limits",
+    "source_url": "https://www.wikitree.com/wiki/Glasgow-1495",
+    "source_type": "Contributed tree claim, not an independent historical parent record",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-1495": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-inherited-father-glasgow-3179",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "Inherited father attachment: Glasgow-3179 to Glasgow-3921; retained public historical profile and individually stated evidence limits",
+    "source_title": "Inherited father attachment: Glasgow-3179 to Glasgow-3921; retained public historical profile and individually stated evidence limits",
+    "source_url": "https://www.wikitree.com/wiki/Glasgow-3179",
+    "source_type": "Contributed tree claim, not an independent historical parent record",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3179": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-6f950fdfcfc4",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "National Records of Scotland, Edinburgh Commissary Court, CC8/8/5, images 276–277, testament dative of John Glasgow in Hirmanscheillis, processed 1577; working transcription of the original manuscript.",
+    "source_title": "National Records of Scotland, Edinburgh Commissary Court, CC8/8/5, images 276–277, testament dative of John Glasgow in Hirmanscheillis, processed 1577; working transcription of the original manuscript.",
+    "source_url": "https://www.wikitree.com/wiki/Glasgow-3589",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3589": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-28fa3c986ee0",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "National Records of Scotland, Edinburgh Commissary Court, CC8/8/5, Image 276 and upper portion of Image 277, testament dative and inventory of Johne Glasgw in Hirmanscheillis; court record dated 1577.",
+    "source_title": "National Records of Scotland, Edinburgh Commissary Court, CC8/8/5, Image 276 and upper portion of Image 277, testament dative and inventory of Johne Glasgw in Hirmanscheillis; court record dated 1577.",
+    "source_url": "https://www.wikitree.com/wiki/Glasgow-3590",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3590": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-b889fa34a727",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "WikiTree profile export for Glasgow-567",
+    "source_title": "WikiTree profile export for Glasgow-567",
+    "source_url": "https://www.wikitree.com/wiki/Glasgow-567",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-567": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-0c9a43df992c",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "Robert Renwick, ed., Register of Burgesses and Guild Brethren of Glasgow, 1573–1750 (Glasgow: Scottish Record Society, 1925), p. 61, entry dated 25 November 1624, Internet Archive (https://archive.org/details/scottishrecordso43scotuoft/page/n75/mode/2up).",
+    "source_title": "Robert Renwick, ed., Register of Burgesses and Guild Brethren of Glasgow, 1573–1750 (Glasgow: Scottish Record Society, 1925), p. 61, entry dated 25 November 1624, Internet Archive (https://archive.org/details/scottishrecordso43scotuoft/page/n75/mode/2up).",
+    "source_url": "https://archive.org/details/scottishrecordso43scotuoft/page/n75/mode/2up",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3061": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-b552af6d5f0e",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "James Glasgow in entry for Eduard Glasgow (27 Feb 1609), \"Scotland Births and Baptisms, 1564-1950\"",
+    "source_title": "James Glasgow in entry for Eduard Glasgow (27 Feb 1609), \"Scotland Births and Baptisms, 1564-1950\"",
+    "source_url": "https://www.wikitree.com/wiki/Glasgow-994",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-994": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-0ca5eaf19197",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Eduard Glasgow, 1609, record R_686174177",
+    "source_title": "Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Eduard Glasgow, 1609, record R_686174177",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_686174177&tab=this",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-994": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-9520e4f7d2a6",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "William Glasgw\n\n Record Type: Births & Baptisms\n Data Set: Glasgow High Kirk Baptisms 1609-1777\n Baptism Date: 8 November 1612\n Location: Glasgow\n Surnames: Glasgw, Scot\n Reference: Vol: 1/962\n\nLawful son of William Glasgw and Christian SCOT\nWitnesses: John Allassoun, Mathew Sympsoun",
+    "source_title": "William Glasgw\n\n Record Type: Births & Baptisms\n Data Set: Glasgow High Kirk Baptisms 1609-1777\n Baptism Date: 8 November 1612\n Location: Glasgow\n Surnames: Glasgw, Scot\n Reference: Vol: 1/962\n\nLawful son of William Glasgw and Christian SCOT\nWitnesses: John Allassoun, Mathew Sympsoun",
+    "source_url": "https://www.wikitree.com/wiki/Glasgow-1556",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-1556": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-fa8237affbb6",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "\"Scotland Births and Baptisms, 1564-1950\", database, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:X1RX-HPY : 16 September 2021), Jean Glesgow, 1613.",
+    "source_title": "\"Scotland Births and Baptisms, 1564-1950\", database, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:X1RX-HPY : 16 September 2021), Jean Glesgow, 1613.",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:X1RX-HPY",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3055": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-aafa65adf8e3",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "Findmypast, Scotland, Parish Births & Baptisms 1564-1929: William Glasgow, 1614, record R_686177762",
+    "source_title": "Findmypast, Scotland, Parish Births & Baptisms 1564-1929: William Glasgow, 1614, record R_686177762",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_686177762&tab=this",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3517": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-49e7e62df065",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "\"Scotland, Births and Baptisms, 1564-1950\", database, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:VQ4V-K87 : 16 September 2021), William Glasgow, 1614.",
+    "source_title": "\"Scotland, Births and Baptisms, 1564-1950\", database, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:VQ4V-K87 : 16 September 2021), William Glasgow, 1614.",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:VQ4V-K87",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3517": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-60029920ce8e",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Edward Glasgow, 1615, record R_686177760",
+    "source_title": "Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Edward Glasgow, 1615, record R_686177760",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_686177760",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-1558": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-5542087a9374",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "\"Scotland, Births and Baptisms, 1564-1950\", , FamilySearch (https://familysearch.org/ark:/61903/1:1:FQM4-VMQ : 12 February 2020), Bessie Glascow, 1616.",
+    "source_title": "\"Scotland, Births and Baptisms, 1564-1950\", , FamilySearch (https://familysearch.org/ark:/61903/1:1:FQM4-VMQ : 12 February 2020), Bessie Glascow, 1616.",
+    "source_url": "https://familysearch.org/ark:/61903/1:1:FQM4-VMQ",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3361": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-54a9b3d59795",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "“Scotland Births and Baptisms, 1564–1950,” FamilySearch (https://www.familysearch.org/ark:/61903/1:1:X1RV-T85 : 16 September 2021), John Glesgow, 1617.",
+    "source_title": "“Scotland Births and Baptisms, 1564–1950,” FamilySearch (https://www.familysearch.org/ark:/61903/1:1:X1RV-T85 : 16 September 2021), John Glesgow, 1617.",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:X1RV-T85",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3056": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-408e941698d3",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "James Glasgow in entry for Agnes Glasgow (22 Feb 1618 ), \"Scotland Births and Baptisms, 1564-1950\"",
+    "source_title": "James Glasgow in entry for Agnes Glasgow (22 Feb 1618 ), \"Scotland Births and Baptisms, 1564-1950\"",
+    "source_url": "https://www.wikitree.com/wiki/Glasgow-993",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-993": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-401a6bdf99ae",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Agnes Glasgow, 1618, record R_686182151",
+    "source_title": "Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Agnes Glasgow, 1618, record R_686182151",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_686182151&tab=this",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-993": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-3ddfe35e1d7d",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "Scotland, Births and Baptisms, 1564-1950. MyHeritage.com [online database], accessed 2025. https://www.myheritage.com/research/record-30226-6772651/elizabethe-glasgow-in-scotland-births-baptisms. Christening: 24 Aug 1625 at High Church, Glasgow, Lanark, Scotland. Parents: Robert Glasgow and Jonet Cuninghame.",
+    "source_title": "Scotland, Births and Baptisms, 1564-1950. MyHeritage.com [online database], accessed 2025. https://www.myheritage.com/research/record-30226-6772651/elizabethe-glasgow-in-scotland-births-baptisms. Christening: 24 Aug 1625 at High Church, Glasgow, Lanark, Scotland. Parents: Robert Glasgow and Jonet Cuninghame.",
+    "source_url": "https://www.myheritage.com/research/record-30226-6772651/elizabethe-glasgow-in-scotland-births-baptisms.",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-1517": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-8533b5c0d0c7",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "https://www.familysearch.org/ark:/61903/1:1:VQHV-96F",
+    "source_title": "https://www.familysearch.org/ark:/61903/1:1:VQHV-96F",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:VQHV-96F",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-1490": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-14910e6385e4",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "JONET 30-07-1636 WM. GLASGOW/BESSIE HOWIE Glasgow 644/1 F",
+    "source_title": "JONET 30-07-1636 WM. GLASGOW/BESSIE HOWIE Glasgow 644/1 F",
+    "source_url": "https://www.wikitree.com/wiki/Glasgow-1522",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-1522": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-d965c1d98348",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "WikiTree profile export for Glasgow-3519",
+    "source_title": "WikiTree profile export for Glasgow-3519",
+    "source_url": "https://www.wikitree.com/wiki/Glasgow-3519",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3519": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-ab293bbdaf12",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "Duddingston Old Parish Register, parish 684, reference FR38, “JOHNE GLASGOW/HELENE PATOUNE,” entry for Johne, 11 January 1638; citation carried from the former Glasgow-3015 profile. The original page has not been compared with this index wording.",
+    "source_title": "Duddingston Old Parish Register, parish 684, reference FR38, “JOHNE GLASGOW/HELENE PATOUNE,” entry for Johne, 11 January 1638; citation carried from the former Glasgow-3015 profile. The original page has not been compared with this index wording.",
+    "source_url": "https://www.wikitree.com/wiki/Glasgow-3014",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3014": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-b59a8e651c1e",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "MARGARET 15-02-1638 WM. GLASGOW/BESSIE HOWIE Glasgow 644/1 F",
+    "source_title": "MARGARET 15-02-1638 WM. GLASGOW/BESSIE HOWIE Glasgow 644/1 F",
+    "source_url": "https://www.wikitree.com/wiki/Glasgow-1523",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-1523": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-b9f568ffe877",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "FamilySearch (https://familysearch.org/ark:/61903/1:1:X1TP-WYF), indexed Duddingston child record; the source citation on this profile reads MARGARET SLUMAN, Duddingston, 1639, and JOHNE, 04-04-1639, JOHNE GLASGOW/MARGARET SLUMAN, FR48, parish 684. Original image not inspected.",
+    "source_title": "FamilySearch (https://familysearch.org/ark:/61903/1:1:X1TP-WYF), indexed Duddingston child record; the source citation on this profile reads MARGARET SLUMAN, Duddingston, 1639, and JOHNE, 04-04-1639, JOHNE GLASGOW/MARGARET SLUMAN, FR48, parish 684. Original image not inspected.",
+    "source_url": "https://familysearch.org/ark:/61903/1:1:X1TP-WYF",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-1559": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-839d54de25b6",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "DAUID 22-09-1639 WILLIAM GLASGOW/BESSIE HOWIE Glasgow 644/1 M",
+    "source_title": "DAUID 22-09-1639 WILLIAM GLASGOW/BESSIE HOWIE Glasgow 644/1 M",
+    "source_url": "https://www.wikitree.com/wiki/Glasgow-1518",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-1518": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-3cc31b6371b9",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "https://www.familysearch.org/ark:/61903/1:1:VQHK- \"WILLIAM 24-10-1641 WILLIAM GLASGOW/BESSY HOWIE Glasgow 644/1 M\"",
+    "source_title": "https://www.familysearch.org/ark:/61903/1:1:VQHK- \"WILLIAM 24-10-1641 WILLIAM GLASGOW/BESSY HOWIE Glasgow 644/1 M\"",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:VQHK-",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-1497": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-f147e4948d28",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "“Scotland, Births and Baptisms, 1564–1950,” FamilySearch, entry for Issobell Glasgow, 1643 (https://familysearch.org/ark:/61903/1:1:X1YN-JHD), naming John Glasgow and Issobell Porteous; cited on the child's profile.",
+    "source_title": "“Scotland, Births and Baptisms, 1564–1950,” FamilySearch, entry for Issobell Glasgow, 1643 (https://familysearch.org/ark:/61903/1:1:X1YN-JHD), naming John Glasgow and Issobell Porteous; cited on the child's profile.",
+    "source_url": "https://familysearch.org/ark:/61903/1:1:X1YN-JHD",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-1438": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-455a7aaa26d9",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "\"Scotland, Births and Baptisms, 1564-1950\", database, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:VQ4K-8Q5 : 16 September 2021), Margreat Glassgow, 1643.",
+    "source_title": "\"Scotland, Births and Baptisms, 1564-1950\", database, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:VQ4K-8Q5 : 16 September 2021), Margreat Glassgow, 1643.",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:VQ4K-8Q5",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3366": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-9f5e1c9aa32a",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "WikiTree profile export for Glasgow-3050",
+    "source_title": "WikiTree profile export for Glasgow-3050",
+    "source_url": "https://www.wikitree.com/wiki/Glasgow-3050",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3050": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-a878a8b99c71",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "MARGARET 16-11-1643 WM. GLASGOW/BESSIE HOWIE Glasgow 644/1 F — later same-name child of the same parents; retained here as a comparison record.",
+    "source_title": "MARGARET 16-11-1643 WM. GLASGOW/BESSIE HOWIE Glasgow 644/1 F — later same-name child of the same parents; retained here as a comparison record.",
+    "source_url": "https://www.wikitree.com/wiki/Glasgow-1524",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-1524": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-529504edf81c",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "Scotland's People, Church of Scotland Old Parish Registers, births and baptisms, Glasgow parish 644/1, reference 40/56, James Glasgow, male, 25 November 1645, parents indexed as \"Rot. Glasgow/Jonet Cunnyngham\". Original register image inspected 31 August 2026; it names James Cunynghame and Johne Muir as godfathers but gives no occupation, residence, age or birthplace for Robert.",
+    "source_title": "Scotland's People, Church of Scotland Old Parish Registers, births and baptisms, Glasgow parish 644/1, reference 40/56, James Glasgow, male, 25 November 1645, parents indexed as \"Rot. Glasgow/Jonet Cunnyngham\". Original register image inspected 31 August 2026; it names James Cunynghame and Johne Muir as godfathers but gives no occupation, residence, age or birthplace for Robert.",
+    "source_url": "https://www.wikitree.com/wiki/Glasgow-3971",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3971": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-3c9eac2612e5",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "\"Scotland Births and Baptisms, 1564-1950\", database, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:VQ4K-8QZ : 16 September 2021), Margreat Glasgou, 1646.",
+    "source_title": "\"Scotland Births and Baptisms, 1564-1950\", database, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:VQ4K-8QZ : 16 September 2021), Margreat Glasgou, 1646.",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:VQ4K-8QZ",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3112": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-f848a1567db8",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "Findmypast, Scotland Parish Births & Baptisms 1564-1929: Issobell Glasgow, 7 July 1646, transcript R_693721535",
+    "source_title": "Findmypast, Scotland Parish Births & Baptisms 1564-1929: Issobell Glasgow, 7 July 1646, transcript R_693721535",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_693721535",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-1520": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-7951663ff8da",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "ISSOBELL 07-07-1646 WILLIAME GLASGOW/BESSIE HOWIE Glasgow 644/1 F",
+    "source_title": "ISSOBELL 07-07-1646 WILLIAME GLASGOW/BESSIE HOWIE Glasgow 644/1 F",
+    "source_url": "https://www.wikitree.com/wiki/Glasgow-1520",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-1520": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-339ca0f74364",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "Baptism record for Johne Glasgow, 03-Feb-1648, Mid Calder parish, ScotlandsPeople.gov.uk, church registers, parish number 694, Ref: 10/94.",
+    "source_title": "Baptism record for Johne Glasgow, 03-Feb-1648, Mid Calder parish, ScotlandsPeople.gov.uk, church registers, parish number 694, Ref: 10/94.",
+    "source_url": "https://www.wikitree.com/wiki/Glasgow-2452",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-2452": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-6fa1f6294b66",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "Findmypast, Scotland Parish Births & Baptisms 1564-1929: Issobell Glasgow, 3 February 1648, transcript SCOT/OPR/BAP/4587104",
+    "source_title": "Findmypast, Scotland Parish Births & Baptisms 1564-1929: Issobell Glasgow, 3 February 1648, transcript SCOT/OPR/BAP/4587104",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4587104",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-2454": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-f97bcee86a41",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "Baptism record for Issobel Glasgow, 03-Feb-1648, Mid Calder parish, ScotlandsPeople.gov.uk, church registers, parish number 694, Ref: 10/94.",
+    "source_title": "Baptism record for Issobel Glasgow, 03-Feb-1648, Mid Calder parish, ScotlandsPeople.gov.uk, church registers, parish number 694, Ref: 10/94.",
+    "source_url": "https://www.wikitree.com/wiki/Glasgow-2454",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-2454": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-01f679e7784a",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "WikiTree profile export for Glasgow-1526",
+    "source_title": "WikiTree profile export for Glasgow-1526",
+    "source_url": "https://www.wikitree.com/wiki/Glasgow-1526",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-1526": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-c140daa28a84",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "National Records of Scotland, Church of Scotland Old Parish Registers, births and baptisms, Glasgow parish 644/1, reference 40/156, WILLIAME GLASGOW, indexed 28 September 1648, parents WILLIAME GLASGOW and BESSIE HOWIE; Scotland's People index, original register page not inspected.",
+    "source_title": "National Records of Scotland, Church of Scotland Old Parish Registers, births and baptisms, Glasgow parish 644/1, reference 40/156, WILLIAME GLASGOW, indexed 28 September 1648, parents WILLIAME GLASGOW and BESSIE HOWIE; Scotland's People index, original register page not inspected.",
+    "source_url": "https://www.wikitree.com/wiki/Glasgow-1521",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-1521": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-d70a7662a1df",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "https://www.familysearch.org/ark:/61903/1:1:VQ4K-FWL",
+    "source_title": "https://www.familysearch.org/ark:/61903/1:1:VQ4K-FWL",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:VQ4K-FWL",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-1554": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-bd27d10cf5d5",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "WikiTree profile export for Glasgow-1527",
+    "source_title": "WikiTree profile export for Glasgow-1527",
+    "source_url": "https://www.wikitree.com/wiki/Glasgow-1527",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-1527": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-4a8835c65a50",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "WikiTree profile export for Glasgow-3413",
+    "source_title": "WikiTree profile export for Glasgow-3413",
+    "source_url": "https://www.wikitree.com/wiki/Glasgow-3413",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3413": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-7eea50784bf7",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "\"Scotland, Births and Baptisms, 1564-1950\", , FamilySearch (https://www.familysearch.org/ark:/61903/1:1:X1YF-TPJ : 16 September 2021), Eupham Glasgow, 1651.",
+    "source_title": "\"Scotland, Births and Baptisms, 1564-1950\", , FamilySearch (https://www.familysearch.org/ark:/61903/1:1:X1YF-TPJ : 16 September 2021), Eupham Glasgow, 1651.",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:X1YF-TPJ",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3358": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-cb22de6d89f8",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "Scotland’s People, Old Parish Registers, births and baptisms (https://www.scotlandspeople.gov.uk/), exact surname Glasgow through 1700, index text supplied 10 September 2026: HELEENE GLASGOW, 05/01/1651, JAMES GLASGOW/BESSIE WHYTE FR 1445 (FR 1445), indexed gender F, Edinburgh, parish 685 / 1, reference 50 / 372. Original register image not inspected for this review.",
+    "source_title": "Scotland’s People, Old Parish Registers, births and baptisms (https://www.scotlandspeople.gov.uk/), exact surname Glasgow through 1700, index text supplied 10 September 2026: HELEENE GLASGOW, 05/01/1651, JAMES GLASGOW/BESSIE WHYTE FR 1445 (FR 1445), indexed gender F, Edinburgh, parish 685 / 1, reference 50 / 372. Original register image not inspected for this review.",
+    "source_url": "https://www.scotlandspeople.gov.uk/",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3097": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-4be2a43ea712",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "\"Scotland Births and Baptisms, 1564-1950\", database, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:X1YN-YJL : 16 September 2021), Heleene Glasgow, 1651.",
+    "source_title": "\"Scotland Births and Baptisms, 1564-1950\", database, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:X1YN-YJL : 16 September 2021), Heleene Glasgow, 1651.",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:X1YN-YJL",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3097": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-df899b80af35",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "WikiTree profile export for Glasgow-397",
+    "source_title": "WikiTree profile export for Glasgow-397",
+    "source_url": "https://www.wikitree.com/wiki/Glasgow-397",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-397": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-09d9580cbd70",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "\"Scotland Births and Baptisms, 1564-1950\", database, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:VQ4K-H58 : 16 September 2021), William Glasgow in entry for Hellein Glasgow, 1652.",
+    "source_title": "\"Scotland Births and Baptisms, 1564-1950\", database, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:VQ4K-H58 : 16 September 2021), William Glasgow in entry for Hellein Glasgow, 1652.",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:VQ4K-H58",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3024": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-7a92222aa16f",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "Scotland’s People, Old Parish Registers, births and baptisms (https://www.scotlandspeople.gov.uk/), exact surname Glasgow through 1700, index text supplied 10 September 2026: HELLEIN GLASGOW, 14/11/1652, WILLIAM GLASGOW/, indexed gender F, Kirknewton and East Calder, parish 690, reference 10 / 29. Original register image not inspected for this review.",
+    "source_title": "Scotland’s People, Old Parish Registers, births and baptisms (https://www.scotlandspeople.gov.uk/), exact surname Glasgow through 1700, index text supplied 10 September 2026: HELLEIN GLASGOW, 14/11/1652, WILLIAM GLASGOW/, indexed gender F, Kirknewton and East Calder, parish 690, reference 10 / 29. Original register image not inspected for this review.",
+    "source_url": "https://www.scotlandspeople.gov.uk/",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3024": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-397c173d3bb5",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "Scotland’s People, Old Parish Registers, births and baptisms (https://www.scotlandspeople.gov.uk/), exact surname Glasgow through 1700, index text supplied 10 September 2026: JONET GLASGOW, 24/02/1653, JAMES GLASGOW/BESSIE WHYT FR 1489 (FR 1489), indexed gender F, Edinburgh, parish 685 / 1, reference 50 / 459. Original register image not inspected for this review.",
+    "source_title": "Scotland’s People, Old Parish Registers, births and baptisms (https://www.scotlandspeople.gov.uk/), exact surname Glasgow through 1700, index text supplied 10 September 2026: JONET GLASGOW, 24/02/1653, JAMES GLASGOW/BESSIE WHYT FR 1489 (FR 1489), indexed gender F, Edinburgh, parish 685 / 1, reference 50 / 459. Original register image not inspected for this review.",
+    "source_url": "https://www.scotlandspeople.gov.uk/",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3099": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-983958fd0a2d",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "\"Scotland Births and Baptisms, 1564-1950\", , FamilySearch (https://www.familysearch.org/ark:/61903/1:1:X1YN-YJT : 16 September 2021), Bessie Whyt in entry for Jonet Glasgow, 1653.",
+    "source_title": "\"Scotland Births and Baptisms, 1564-1950\", , FamilySearch (https://www.familysearch.org/ark:/61903/1:1:X1YN-YJT : 16 September 2021), Bessie Whyt in entry for Jonet Glasgow, 1653.",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:X1YN-YJT",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3099": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-0e177e86bd12",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "\"Scotland Births and Baptisms, 1564-1950\", database, FamilySearch (https://familysearch.org/ark:/61903/1:1:FQMH-M86 : 12 February 2020), Archbald Glasgowe, 1654.",
+    "source_title": "\"Scotland Births and Baptisms, 1564-1950\", database, FamilySearch (https://familysearch.org/ark:/61903/1:1:FQMH-M86 : 12 February 2020), Archbald Glasgowe, 1654.",
+    "source_url": "https://familysearch.org/ark:/61903/1:1:FQMH-M86",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3079": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-4d692ba01fb4",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "Scotland’s People, Old Parish Registers, births and baptisms (https://www.scotlandspeople.gov.uk/), exact surname Glasgow through 1700, index text supplied 10 September 2026: MARION GLASGOW, 04/11/1655, WILLIAM GLASGOW/, indexed gender F, Kirknewton and East Calder, parish 690, reference 10 / 37. Original register image not inspected for this review.",
+    "source_title": "Scotland’s People, Old Parish Registers, births and baptisms (https://www.scotlandspeople.gov.uk/), exact surname Glasgow through 1700, index text supplied 10 September 2026: MARION GLASGOW, 04/11/1655, WILLIAM GLASGOW/, indexed gender F, Kirknewton and East Calder, parish 690, reference 10 / 37. Original register image not inspected for this review.",
+    "source_url": "https://www.scotlandspeople.gov.uk/",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3025": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-d75a183ff582",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "Charles B. Boog Watson, ed., Page 37 (https://babel.hathitrust.org/cgi/pt?id=coo.31924006387363&seq=45&q1=meane) Register of Edinburgh Apprentices, 1666–1700] (Scottish Record Society, 1929), printed p. 37: “Glasgow, ... Robert, s. to James G., weaver, p. to Robert Meane, mt. 24 Jan. 1672.”",
+    "source_title": "Charles B. Boog Watson, ed., Page 37 (https://babel.hathitrust.org/cgi/pt?id=coo.31924006387363&seq=45&q1=meane) Register of Edinburgh Apprentices, 1666–1700] (Scottish Record Society, 1929), printed p. 37: “Glasgow, ... Robert, s. to James G., weaver, p. to Robert Meane, mt. 24 Jan. 1672.”",
+    "source_url": "https://babel.hathitrust.org/cgi/pt?id=coo.31924006387363&seq=45&q1=meane",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-1374": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-8aaf1c2479c2",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "“Scotland, Births and Baptisms, 1564–1950,” database, FamilySearch, Robert Glasgow, baptised 5 May 1655, Edinburgh, son of James Glasgow and Agnes Duncan, record VRSV-T1T (https://www.familysearch.org/ark:/61903/1:1:VRSV-T1T).",
+    "source_title": "“Scotland, Births and Baptisms, 1564–1950,” database, FamilySearch, Robert Glasgow, baptised 5 May 1655, Edinburgh, son of James Glasgow and Agnes Duncan, record VRSV-T1T (https://www.familysearch.org/ark:/61903/1:1:VRSV-T1T).",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:VRSV-T1T",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-1374": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-394dafd70422",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "Scotland’s People, Old Parish Registers, births and baptisms (), exact surname Glasgow through 1700, index text supplied 10 September 2026: ROBERT GLASGOW, 11/05/1655, JAMES GLASGOW/AGNES DUNCAN FR 1546 (FR 1546), indexed gender M, Edinburgh, parish 685 / 1, reference 50 / 570",
+    "source_title": "Scotland’s People, Old Parish Registers, births and baptisms (), exact surname Glasgow through 1700, index text supplied 10 September 2026: ROBERT GLASGOW, 11/05/1655, JAMES GLASGOW/AGNES DUNCAN FR 1546 (FR 1546), indexed gender M, Edinburgh, parish 685 / 1, reference 50 / 570",
+    "source_url": "https://www.scotlandspeople.gov.uk/",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-1374": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-d37d0c626ed2",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "Scotland, Births and Baptisms, 1564-1950\", database, FamilySearch (https://familysearch.org/ark:/61903/1:1:XY75-RRX : 12 February 2020), Johne Glasgow, 1656.",
+    "source_title": "Scotland, Births and Baptisms, 1564-1950\", database, FamilySearch (https://familysearch.org/ark:/61903/1:1:XY75-RRX : 12 February 2020), Johne Glasgow, 1656.",
+    "source_url": "https://familysearch.org/ark:/61903/1:1:XY75-RRX",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3516": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-8f552a7ef704",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "https://familysearch.org/ark:/61903/1:1:F318-KB4",
+    "source_title": "https://familysearch.org/ark:/61903/1:1:F318-KB4",
+    "source_url": "https://familysearch.org/ark:/61903/1:1:F318-KB4",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-1528": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-b203249dcc52",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "Charles B. Boog Watson, ed., Roll of Edinburgh Burgesses and Guild-Brethren, 1406–1700 (https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/roll_of_edinburgh_burgesses_1406_to_1700.pdf#page=101) (Scottish Record Society, 1929), printed p. 91: “Calder, Wm., B., weaver, be r. of w. Marion, dr. to James Glasgow, weaver, B. 30 June 1686.”",
+    "source_title": "Charles B. Boog Watson, ed., Roll of Edinburgh Burgesses and Guild-Brethren, 1406–1700 (https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/roll_of_edinburgh_burgesses_1406_to_1700.pdf#page=101) (Scottish Record Society, 1929), printed p. 91: “Calder, Wm., B., weaver, be r. of w. Marion, dr. to James Glasgow, weaver, B. 30 June 1686.”",
+    "source_url": "https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/roll_of_edinburgh_burgesses_1406_to_1700.pdf#page=101",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3143": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-b2bda153a535",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "“Scotland Births and Baptisms, 1564–1950,” database, FamilySearch, Marione Glesgow, baptised 29 January 1657, Edinburgh, daughter of James Glasgow and Agnes Duncan, record X1YD-PR2 (https://familysearch.org/ark:/61903/1:1:X1YD-PR2).",
+    "source_title": "“Scotland Births and Baptisms, 1564–1950,” database, FamilySearch, Marione Glesgow, baptised 29 January 1657, Edinburgh, daughter of James Glasgow and Agnes Duncan, record X1YD-PR2 (https://familysearch.org/ark:/61903/1:1:X1YD-PR2).",
+    "source_url": "https://familysearch.org/ark:/61903/1:1:X1YD-PR2",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3143": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-d36b4bc1689e",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "\"Scotland Births and Baptisms, 1564-1950\", database, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:F318-T2H : 16 September 2021), James Glesgow in entry for Agnes Glesgow, 1658.",
+    "source_title": "\"Scotland Births and Baptisms, 1564-1950\", database, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:F318-T2H : 16 September 2021), James Glesgow in entry for Agnes Glesgow, 1658.",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:F318-T2H",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3092": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-df7b10a5b13e",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "\"Scotland, Births and Baptisms, 1564-1950\", database, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:F318-KBC : 16 September 2021), Kathrin Glasgow, 1659.",
+    "source_title": "\"Scotland, Births and Baptisms, 1564-1950\", database, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:F318-KBC : 16 September 2021), Kathrin Glasgow, 1659.",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:F318-KBC",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3360": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-3212cdb127a7",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "\"Scotland Births and Baptisms, 1564-1950\", , FamilySearch (https://familysearch.org/ark:/61903/1:1:XTP8-8ZQ : 11 February 2020), Bethia Glasgow, 1659.",
+    "source_title": "\"Scotland Births and Baptisms, 1564-1950\", , FamilySearch (https://familysearch.org/ark:/61903/1:1:XTP8-8ZQ : 11 February 2020), Bethia Glasgow, 1659.",
+    "source_url": "https://familysearch.org/ark:/61903/1:1:XTP8-8ZQ",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-1373": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-5ff536c4a7a4",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "\"Scotland Births and Baptisms, 1564-1950\", database, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:F316-KWL : 16 September 2021), James Glesgow, 1661.",
+    "source_title": "\"Scotland Births and Baptisms, 1564-1950\", database, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:F316-KWL : 16 September 2021), James Glesgow, 1661.",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:F316-KWL",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3076": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-0946ac5dc438",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "https://www.familysearch.org/ark:/61903/1:1:F316-JRS",
+    "source_title": "https://www.familysearch.org/ark:/61903/1:1:F316-JRS",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:F316-JRS",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-2436": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-38ef179ef4d3",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "\"Scotland Births and Baptisms, 1564-1950\", database, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:F316-L74 : 16 September 2021), Anabell Glass in entry for Thomas Glassgow, 1663.",
+    "source_title": "\"Scotland Births and Baptisms, 1564-1950\", database, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:F316-L74 : 16 September 2021), Anabell Glass in entry for Thomas Glassgow, 1663.",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:F316-L74",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3091": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-595127b2a288",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "\"Scotland, Births and Baptisms, 1564-1950\", , FamilySearch (https://familysearch.org/ark:/61903/1:1:X1Y6-B4V : 11 February 2020), Magdalene Glasgow, 1664.",
+    "source_title": "\"Scotland, Births and Baptisms, 1564-1950\", , FamilySearch (https://familysearch.org/ark:/61903/1:1:X1Y6-B4V : 11 February 2020), Magdalene Glasgow, 1664.",
+    "source_url": "https://familysearch.org/ark:/61903/1:1:X1Y6-B4V",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3359": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-52294b878196",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "FamilySearch, “Scotland, Births and Baptisms, 1564–1950,” Robert Glasgow, 1665 (https://www.familysearch.org/ark:/61903/1:1:F316-F84). The indexed 28 May date is treated as baptism, not a proved birth date.",
+    "source_title": "FamilySearch, “Scotland, Births and Baptisms, 1564–1950,” Robert Glasgow, 1665 (https://www.familysearch.org/ark:/61903/1:1:F316-F84). The indexed 28 May date is treated as baptism, not a proved birth date.",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:F316-F84",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3338": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-77f013db20ec",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "Scotland’s People, Old Parish Registers, births and baptisms (https://www.scotlandspeople.gov.uk/), exact surname Glasgow through 1700, index text supplied 10 September 2026: THOMAS GLASGOW, 12/08/1666, ALEXANDER GLASGOW/ISSOBELL ANDERSONE FR619 (FR619), indexed gender M, St Cuthbert's, parish 685 / 2, reference 30 / 77. Original register image not inspected for this review.",
+    "source_title": "Scotland’s People, Old Parish Registers, births and baptisms (https://www.scotlandspeople.gov.uk/), exact surname Glasgow through 1700, index text supplied 10 September 2026: THOMAS GLASGOW, 12/08/1666, ALEXANDER GLASGOW/ISSOBELL ANDERSONE FR619 (FR619), indexed gender M, St Cuthbert's, parish 685 / 2, reference 30 / 77. Original register image not inspected for this review.",
+    "source_url": "https://www.scotlandspeople.gov.uk/",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-1311": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-29c317e77529",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "https://familysearch.org/ark:/61903/1:1:VQ4K-ZQX",
+    "source_title": "https://familysearch.org/ark:/61903/1:1:VQ4K-ZQX",
+    "source_url": "https://familysearch.org/ark:/61903/1:1:VQ4K-ZQX",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-1493": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-ae6e0f12fe11",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "\"Scotland Births and Baptisms, 1564-1950\", database, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:XTGP-YQS : 16 September 2021), Hellen Glasgow, 1668.",
+    "source_title": "\"Scotland Births and Baptisms, 1564-1950\", database, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:XTGP-YQS : 16 September 2021), Hellen Glasgow, 1668.",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:XTGP-YQS",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-2458": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-0332bdea58ca",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "Findmypast transcript (), Archive reference: OPR 668/2; Baptism date: 22 Dec 1668; Baptism year: 1668; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Country: Scotland; County: Linlithgowshire (We",
+    "source_title": "Findmypast transcript (), Archive reference: OPR 668/2; Baptism date: 22 Dec 1668; Baptism year: 1668; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Country: Scotland; County: Linlithgowshire (We",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0476082&tab=this",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-4098": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-b986d98a81e8",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "Findmypast transcript (), Archive reference: OPR 668/14; Baptism year: -; Birth year: 1668; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Country: Scotland; County: Linlithgowshire (West Lothian",
+    "source_title": "Findmypast transcript (), Archive reference: OPR 668/14; Baptism year: -; Birth year: 1668; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Country: Scotland; County: Linlithgowshire (West Lothian",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0501646&tab=this",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-4098": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-3e4e50f843a3",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "\"Scotland, Births and Baptisms, 1564-1950,\" database, FamilySearch, William Glasgow, baptised 24 September 1671, son of Andro Glasgow; FamilySearch record (https://familysearch.org/ark:/61903/1:1:VQ4K-F2B) (accessed 11 February 2020).",
+    "source_title": "\"Scotland, Births and Baptisms, 1564-1950,\" database, FamilySearch, William Glasgow, baptised 24 September 1671, son of Andro Glasgow; FamilySearch record (https://familysearch.org/ark:/61903/1:1:VQ4K-F2B) (accessed 11 February 2020).",
+    "source_url": "https://familysearch.org/ark:/61903/1:1:VQ4K-F2B",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3974": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-40cb90eb9095",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Ralph Glasgow, 1671, record R_692914107",
+    "source_title": "Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Ralph Glasgow, 1671, record R_692914107",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_692914107&tab=this",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-1514": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-d299fb31ad36",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Marie Glasgow, 11 Oct 1674, record SCOT/OPR/BAP/0702947",
+    "source_title": "Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Marie Glasgow, 11 Oct 1674, record SCOT/OPR/BAP/0702947",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0702947&tab=this",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-1310": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-5ceea11b5b5a",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Robert Glasgow, 05 Apr 1674, record SCOT/OPR/BAP/3018209",
+    "source_title": "Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Robert Glasgow, 05 Apr 1674, record SCOT/OPR/BAP/3018209",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3018209&tab=this",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-1511": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-inherited-father-glasgow-3322",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "Inherited father attachment: Glasgow-3322 to Glasgow-1157; retained public historical profile and individually stated evidence limits",
+    "source_title": "Inherited father attachment: Glasgow-3322 to Glasgow-1157; retained public historical profile and individually stated evidence limits",
+    "source_url": "https://www.wikitree.com/wiki/Glasgow-3322",
+    "source_type": "Contributed tree claim, not an independent historical parent record",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3322": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-e9fb60802ac4",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "\"Scotland Births and Baptisms, 1564-1950\", database, FamilySearch (https://familysearch.org/ark:/61903/1:1:XTPF-7YY : 11 February 2020), Jean Glasgow, 1677.",
+    "source_title": "\"Scotland Births and Baptisms, 1564-1950\", database, FamilySearch (https://familysearch.org/ark:/61903/1:1:XTPF-7YY : 11 February 2020), Jean Glasgow, 1677.",
+    "source_url": "https://familysearch.org/ark:/61903/1:1:XTPF-7YY",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3088": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-inherited-father-glasgow-3967",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "Inherited father attachment: Glasgow-3967 to Glasgow-1081; retained public historical profile and individually stated evidence limits",
+    "source_title": "Inherited father attachment: Glasgow-3967 to Glasgow-1081; retained public historical profile and individually stated evidence limits",
+    "source_url": "https://www.wikitree.com/wiki/Glasgow-3967",
+    "source_type": "Contributed tree claim, not an independent historical parent record",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3967": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-15f493191049",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "WikiTree profile export for Glasgow-2249",
+    "source_title": "WikiTree profile export for Glasgow-2249",
+    "source_url": "https://www.wikitree.com/wiki/Glasgow-2249",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-2249": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-e23b45222d55",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "ScotlandsPeople supplied OPR births/baptisms row 39: James Glasgow, 18 April 1680, Edinburgh 685/1,90/21, FR 2584; James Glasgow/Issobell Duff; index supplied 10 September 2026",
+    "source_title": "ScotlandsPeople supplied OPR births/baptisms row 39: James Glasgow, 18 April 1680, Edinburgh 685/1,90/21, FR 2584; James Glasgow/Issobell Duff; index supplied 10 September 2026",
+    "source_url": "https://www.scotlandspeople.gov.uk/search-records/church-registers/church-births-baptisms",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3368": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-f7e471ea4981",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "Scotland, Old Parish Registers, Glencorse Parish, 26 Dec 1680, William Glasgow, son of John Glasgow and Margaret Currie, 687/ M FR16.",
+    "source_title": "Scotland, Old Parish Registers, Glencorse Parish, 26 Dec 1680, William Glasgow, son of John Glasgow and Margaret Currie, 687/ M FR16.",
+    "source_url": "https://www.wikitree.com/wiki/Glasgow-3013",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3013": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-9f7010236c45",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "\"Scotland, Births and Baptisms, 1564-1950\", database, FamilySearch (https://familysearch.org/ark:/61903/1:1:VQCM-LLH : 11 February 2020), James Glasgow in entry for Mary Glasgow, 1682.",
+    "source_title": "\"Scotland, Births and Baptisms, 1564-1950\", database, FamilySearch (https://familysearch.org/ark:/61903/1:1:VQCM-LLH : 11 February 2020), James Glasgow in entry for Mary Glasgow, 1682.",
+    "source_url": "https://familysearch.org/ark:/61903/1:1:VQCM-LLH",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3284": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-5b70d8808b32",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "\"Scotland Births and Baptisms, 1564-1950\", database, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:VQ4J-FXD : 16 September 2021), John Glaskow in entry for Margarat Glaskow, 1684.",
+    "source_title": "\"Scotland Births and Baptisms, 1564-1950\", database, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:VQ4J-FXD : 16 September 2021), John Glaskow in entry for Margarat Glaskow, 1684.",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:VQ4J-FXD",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3085": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-fbf91551e6dd",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "WikiTree profile export for Glasgow-3528",
+    "source_title": "WikiTree profile export for Glasgow-3528",
+    "source_url": "https://www.wikitree.com/wiki/Glasgow-3528",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3528": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-7f9f0fa4d651",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "\"Scotland, Births and Baptisms, 1564-1950\", database, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:XY2Y-Y68 : 16 September 2021), Margaret Glascow, 1685.",
+    "source_title": "\"Scotland, Births and Baptisms, 1564-1950\", database, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:XY2Y-Y68 : 16 September 2021), Margaret Glascow, 1685.",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:XY2Y-Y68",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3369": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-15783f7ecdd3",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Margaret Glasgow, 23 Sep 1688, record SCOT/OPR/BAP/3624976",
+    "source_title": "Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Margaret Glasgow, 23 Sep 1688, record SCOT/OPR/BAP/3624976",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3624976&tab=this",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3162": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-3bb0a9125240",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "Scotland’s People, Old Parish Registers, births and baptisms (https://www.scotlandspeople.gov.uk/), exact surname Glasgow through 1700, index text supplied 10 September 2026: MARGARET GLASGOW, 23/09/1688, GEORGE GLASGOW/FANNE SMITH FR72 (FR72), indexed gender F, Kilwinning, parish 599, reference 10 / 60. Original register image not inspected for this review.",
+    "source_title": "Scotland’s People, Old Parish Registers, births and baptisms (https://www.scotlandspeople.gov.uk/), exact surname Glasgow through 1700, index text supplied 10 September 2026: MARGARET GLASGOW, 23/09/1688, GEORGE GLASGOW/FANNE SMITH FR72 (FR72), indexed gender F, Kilwinning, parish 599, reference 10 / 60. Original register image not inspected for this review.",
+    "source_url": "https://www.scotlandspeople.gov.uk/",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3162": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-6ee5dc0103c8",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "Findmypast, Scotland, Parish Births & Baptisms 1564-1929, transcript “Margaret Glasgow in 1688,” baptism 3 June 1688, Kilwinning, Ayrshire, father John Glasgow, mother Bessie Smith, archive reference OPR 599/1, item 1, page 28; record ID SCOT/OPR/BAP/3624944; transcript (https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3624944&tab=this), accessed 4 September 2026.",
+    "source_title": "Findmypast, Scotland, Parish Births & Baptisms 1564-1929, transcript “Margaret Glasgow in 1688,” baptism 3 June 1688, Kilwinning, Ayrshire, father John Glasgow, mother Bessie Smith, archive reference OPR 599/1, item 1, page 28; record ID SCOT/OPR/BAP/3624944; transcript (https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3624944&tab=this), accessed 4 September 2026.",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3624944&tab=this",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3086": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-780571142f0f",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "\"Scotland Births and Baptisms, 1564-1950\", database, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:XY2Y-YD6 : 16 September 2021), Alison Glascow, 1688.",
+    "source_title": "\"Scotland Births and Baptisms, 1564-1950\", database, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:XY2Y-YD6 : 16 September 2021), Alison Glascow, 1688.",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:XY2Y-YD6",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3116": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-d5d6140a0e60",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "Findmypast, Scotland, Parish Births & Baptisms 1564-1929: James Glasgow, 14 Jul 1689, record SCOT/OPR/BAP/3625064",
+    "source_title": "Findmypast, Scotland, Parish Births & Baptisms 1564-1929: James Glasgow, 14 Jul 1689, record SCOT/OPR/BAP/3625064",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3625064&tab=this",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3104": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-33a4e3fd4264",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "Findmypast transcript (), Archive reference: OPR 599/1; Baptism date: 22 May 1689; Baptism year: 1689; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Country: Scotland; County: Ayrshire; Father's",
+    "source_title": "Findmypast transcript (), Archive reference: OPR 599/1; Baptism date: 22 May 1689; Baptism year: 1689; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Country: Scotland; County: Ayrshire; Father's",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3625052&tab=this",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-4134": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-96faf8a81a81",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Jannet Glasgow, 01 Feb 1689, record SCOT/OPR/BAP/3625022",
+    "source_title": "Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Jannet Glasgow, 01 Feb 1689, record SCOT/OPR/BAP/3625022",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3625022&tab=this",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-1433": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-01b409cdd9a0",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "Scotland’s People, Old Parish Registers, births and baptisms (https://www.scotlandspeople.gov.uk/), exact surname Glasgow through 1700, index text supplied 10 September 2026: JANNET GLASGOW, 31/01/1689, JOHN GLASGOW/ ALLASON FR75 (FR75), indexed gender F, Kilwinning, parish 599, reference 10 / 62. Original register image not inspected for this review.",
+    "source_title": "Scotland’s People, Old Parish Registers, births and baptisms (https://www.scotlandspeople.gov.uk/), exact surname Glasgow through 1700, index text supplied 10 September 2026: JANNET GLASGOW, 31/01/1689, JOHN GLASGOW/ ALLASON FR75 (FR75), indexed gender F, Kilwinning, parish 599, reference 10 / 62. Original register image not inspected for this review.",
+    "source_url": "https://www.scotlandspeople.gov.uk/",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-1433": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-cb4292fcba2f",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "WikiTree profile export for Glasgow-3587",
+    "source_title": "WikiTree profile export for Glasgow-3587",
+    "source_url": "https://www.wikitree.com/wiki/Glasgow-3587",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3587": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-ca8a81bf6af4",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "\"Scotland, Births and Baptisms, 1564-1950\", database, FamilySearch (https://familysearch.org/ark:/61903/1:1:FM3W-XBN : 11 February 2020), James Glasgow in entry for Margarett Glasgow, 1691.",
+    "source_title": "\"Scotland, Births and Baptisms, 1564-1950\", database, FamilySearch (https://familysearch.org/ark:/61903/1:1:FM3W-XBN : 11 February 2020), James Glasgow in entry for Margarett Glasgow, 1691.",
+    "source_url": "https://familysearch.org/ark:/61903/1:1:FM3W-XBN",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-2681": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-a45e69f44be1",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "\"Scotland, Births and Baptisms, 1564-1950\", , FamilySearch (https://familysearch.org/ark:/61903/1:1:X11X-46N : 12 February 2020), Margaret Glasgo, 1692.",
+    "source_title": "\"Scotland, Births and Baptisms, 1564-1950\", , FamilySearch (https://familysearch.org/ark:/61903/1:1:X11X-46N : 12 February 2020), Margaret Glasgo, 1692.",
+    "source_url": "https://familysearch.org/ark:/61903/1:1:X11X-46N",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-2730": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-bd24d601c77f",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "WikiTree profile export for Glasgow-3966",
+    "source_title": "WikiTree profile export for Glasgow-3966",
+    "source_url": "https://www.wikitree.com/wiki/Glasgow-3966",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3966": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-1517e699d73f",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "FreeREG, Isabell Glasgow baptism transcription, Cavers, 2 December 1694.",
+    "source_title": "FreeREG, Isabell Glasgow baptism transcription, Cavers, 2 December 1694.",
+    "source_url": "https://www.wikitree.com/wiki/Glasgow-3370",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3370": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      },
+      "Glasgow-4138": {
+        "role": "Associated relationship assessment; record-specific roles and inference limits retained"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-8383af1e476d",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "FreeREG record 0427, Isabell Glasgow baptism transcription, Cavers, 8 December 1694.",
+    "source_title": "FreeREG record 0427, Isabell Glasgow baptism transcription, Cavers, 8 December 1694.",
+    "source_url": "https://www.wikitree.com/wiki/Glasgow-3370",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3370": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      },
+      "Glasgow-4138": {
+        "role": "Associated relationship assessment; record-specific roles and inference limits retained"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-a0f67bada575",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Alexander Glasgow, 15 Jul 1695, record SCOT/OPR/BAP/3585780",
+    "source_title": "Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Alexander Glasgow, 15 Jul 1695, record SCOT/OPR/BAP/3585780",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3585780&tab=this",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3514": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-0db96140f494",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "Scotland’s People, Old Parish Registers, births and baptisms (https://www.scotlandspeople.gov.uk/), exact surname Glasgow through 1700, index text supplied 10 September 2026: HUGH GLASGOW, 19/01/1696, HUGH GLASGOW/JEAN SERVICE FR26A (FR26), indexed gender M, Irvine, parish 595, reference 10 / 18. Original register image not inspected for this review.",
+    "source_title": "Scotland’s People, Old Parish Registers, births and baptisms (https://www.scotlandspeople.gov.uk/), exact surname Glasgow through 1700, index text supplied 10 September 2026: HUGH GLASGOW, 19/01/1696, HUGH GLASGOW/JEAN SERVICE FR26A (FR26), indexed gender M, Irvine, parish 595, reference 10 / 18. Original register image not inspected for this review.",
+    "source_url": "https://www.scotlandspeople.gov.uk/",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3108": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-6fd9722396ac",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "\"Scotland, Births and Baptisms, 1564-1950\", database, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:CM7S-W62M : 16 September 2021), Mary Glasgow, .",
+    "source_title": "\"Scotland, Births and Baptisms, 1564-1950\", database, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:CM7S-W62M : 16 September 2021), Mary Glasgow, .",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:CM7S-W62M",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3371": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-2d4191614608",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "JEANE 16-04-1697 JOHN GLASGOW/JEANE CUNYNGHAME FR24 (FR24) Kilbirnie 596/ F",
+    "source_title": "JEANE 16-04-1697 JOHN GLASGOW/JEANE CUNYNGHAME FR24 (FR24) Kilbirnie 596/ F",
+    "source_url": "https://www.wikitree.com/wiki/Glasgow-1436",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-1436": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-5a858235bd0c",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Peter Glasgow, 23 May 1699, record SCOT/OPR/BAP/0595199",
+    "source_title": "Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Peter Glasgow, 23 May 1699, record SCOT/OPR/BAP/0595199",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0595199&tab=this",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3102": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-55490431fd79",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "FamilySearch, \"Scotland Births and Baptisms, 1564-1950,\" database, Elizabeth Glasgow, 1700 (https://www.familysearch.org/ark:/61903/1:1:XBLZ-SQS), daughter of Michael Glasgow and Elizabeth Garven; citing the Irvine parish register.",
+    "source_title": "FamilySearch, \"Scotland Births and Baptisms, 1564-1950,\" database, Elizabeth Glasgow, 1700 (https://www.familysearch.org/ark:/61903/1:1:XBLZ-SQS), daughter of Michael Glasgow and Elizabeth Garven; citing the Irvine parish register.",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:XBLZ-SQS",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-1418": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-0810d1ec6e3f",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "PATRICK 03-01-1700 JOHN GLASGOW/ West Kilbride 620/ M",
+    "source_title": "PATRICK 03-01-1700 JOHN GLASGOW/ West Kilbride 620/ M",
+    "source_url": "https://www.wikitree.com/wiki/Glasgow-3160",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3160": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+  },
+  {
+    "record_id": "cavers-ormistoun-servant-1684-held",
+    "record_type": "Previously held Covenanter transcript",
+    "date": "October 1684",
+    "year": 1684,
+    "place": "Ormistoun, Roxburghshire",
+    "source_title": "William Glasgow, Ormistoun servant list, October 1684; Findmypast Scottish Covenanters, record GBPR/COVENANT/028560",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=GBPR%2FCOVENANT%2F028560&tab=this",
+    "source_status": "Existing held transcript reused; no fresh original inspection",
+    "status": "Adult identity evidence; no paternity clause",
+    "profiles": {
+      "Glasgow-4138": {
+        "role": "Documented servant; historical account already maintained"
+      },
+      "Glasgow-3370": {
+        "role": "Associated paternal identity comparison; not named in this servant record"
+      }
+    }
   }
 ]

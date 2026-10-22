@@ -4,6 +4,8 @@ Last updated: 2026-10-07
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **24% (uncertain)** for [Glasgow-3522](https://www.wikitree.com/wiki/Glasgow-3522). The saved confident father flag exceeds the held evidence. This is an uncertain retained placement, without excluding William merely because George was son and heir. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Barbara is directly documented as the mother of Catharine Little, born 9
 September and baptised 29 September 1611 at Edinburgh. The index names Johne
 Little as Catharine's father. It does **not** identify Barbara's parents or prove
@@ -73,3 +75,17 @@ are resolved.
 All three were seen as FamilySearch index entries cited in the profile draft. The 1586 protocols naming William Glasgow and Margaret Herbesoun as George's parents are Renwick, *Abstracts of Protocols of the Town Clerks of Glasgow*, vol. 9, [protocol 2903, p. 103, 15 July 1586](https://archive.org/details/abstractsprotoc01scogoog/page/n113/mode/2up) and [protocol 2916, p. 107, 1 September 1586](https://archive.org/details/abstractsprotoc01scogoog/page/n116/mode/2up); neither names Barbara.
 
 Recorded in `research/Glasgow-567/Glasgow-567.md` (1 October 2026); carried into this file on 7 October 2026.
+
+## Father confidence review, fifth batch — 22 October 2026
+
+[Glasgow-3522](https://www.wikitree.com/wiki/Glasgow-3522) remains the selected father, assessed **24% (uncertain)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+Inherited William-3522 attachment is unproved. The 1586 protocols identify William and Margaret Herbesoun as parents of George-1099 only and never name Barbara or call her George’s sister. William’s c 1540 generation could father Barbara c 1585, but the contemporary George-son evidence does not connect Barbara to that couple. Her 1611 maternity proves her own adult family only.
+
+Scope: The saved confident father flag exceeds the held evidence. This is an uncertain retained placement, without excluding William merely because George was son and heir.
+
+Next useful test: Find Barbara’s marriage, testament or property source naming a Glasgow relative.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [WikiTree profile export for Glasgow-567](https://www.wikitree.com/wiki/Glasgow-567)

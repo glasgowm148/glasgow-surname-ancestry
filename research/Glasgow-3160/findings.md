@@ -4,6 +4,8 @@ Last updated: 2026-09-10
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **99% (proved)** for [Glasgow-3161](https://www.wikitree.com/wiki/Glasgow-3161). Confident for the record-defined father and Patrick child.3 January/1 March is unresolved, and the proposed identity with the older Maryland minister remains independent. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Reviewed: 2026-10-16
 
 **Selected uncertain Ayrshire/Maryland route, 16 October 2026:** John-3161 is placed under John-3375 through possible identity with the 1679 Kilwinning child; Rev. Patrick-635 is placed under John-3161 through the possible 1700 West Kilbride childhood. Both fathers are uncertain; the inherited 1680 minister birth conflicts if literal and is not adopted as evidence for this route. [Evidence and alternatives](/branches/early-scottish-records/#west-kilbride-manokin-working-family).
@@ -45,3 +47,17 @@ John Glasgow-551, associated with County Tyrone in the William Melanchthon Glasg
 - [John/Margaret Cowan household, Stevenston 1701, child John: previously reviewed FamilySearch index](https://familysearch.org/ark:/61903/1:1:XYZK-MY7)
 - [John/Margaret Cowan household, Stevenston 1706, child Adam: previously reviewed FamilySearch index](https://familysearch.org/ark:/61903/1:1:XYZV-BNR)
 - [Gordon Patrick, 4 August 1667: previously reviewed child index; alternative account](https://www.familysearch.org/ark:/61903/1:1:XTBS-98C)
+
+## Father confidence review, fifth batch — 22 October 2026
+
+[Glasgow-3161](https://www.wikitree.com/wiki/Glasgow-3161) remains the selected father, assessed **99% (proved)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+Patrick's West Kilbride index reads PATRICK03-01-1700, father JOHN GLASGOW, mother blank. John-3161 represents the expressly named West Kilbride father in this child event, rather than a separately proved childhood identity.
+
+Scope: Confident for the record-defined father and Patrick child.3 January/1 March is unresolved, and the proposed identity with the older Maryland minister remains independent.
+
+Next useful test: Resolve the parish date and test the minister identification separately.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [PATRICK 03-01-1700 JOHN GLASGOW/ West Kilbride 620/ M](https://www.wikitree.com/wiki/Glasgow-3160)

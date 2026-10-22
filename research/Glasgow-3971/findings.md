@@ -7,6 +7,8 @@ Last updated: 2026-10-07
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **62% (probable)** for [Glasgow-1078](https://www.wikitree.com/wiki/Glasgow-1078). Probable at a modest level for Robert-1078 specifically; the baptism names the father but no held record carries the 1618 child into this couple. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Reviewed: 2026-10-16
 
 **Selected working family, 16 October 2026:** Robert of Larne-3970 is placed under Robert-1027 and Jonet Cunningham-20923, both uncertain, through possible identity with the1618 child Robert-1078. Captain James-3172 is placed under the Larne Robert, uncertain. Robert and James identity accounts remain separate; no confident link is added. [Full comparison](/branches/early-scottish-records/#larne-working-family).
@@ -49,3 +51,17 @@ Sources: [Glasgow High Kirk baptism, 17 November 1618, OPR 644/1, reported 10/27
 
 A possible identification concerns James Glasgow. The 11 June 1674 Irvine inquest for Robert Hunter of Hunterstoun’s service as heir includes James Glasgow in Didup. (Shaw, Some Family Papers of the Hunters of Hunterston, printed p.62 entry89; [record](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM7-J962-6).) Printed retour extract inspected; underlying original uninspected. FamilySearch’s Linlithgow1546–1564 title is a catalogue mismatch. The extract gives James no age, trade, relatives or vital date. The identification remains uncertain.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, fifth batch — 22 October 2026
+
+[Glasgow-1078](https://www.wikitree.com/wiki/Glasgow-1078) remains the selected father, assessed **62% (probable)**. Previous selected-tree status: **uncertain**, without an individual percentage.
+
+James’s Glasgow child entry dated 25 November 1645 names Rot. Glasgow and Jonet Cunnyngham. Robert-1078’s 1618 birth gives a feasible age of twenty-seven at the 1645 event and fits the Glasgow family setting. Jonet Cunningham is a specific family-associated name but does not itself identify the adult father.
+
+Scope: Probable at a modest level for Robert-1078 specifically; the baptism names the father but no held record carries the 1618 child into this couple.
+
+Next useful test: Find the adult Robert/Jonet marriage or occupational record with earlier kin.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Scotland's People, Church of Scotland Old Parish Registers, births and baptisms, Glasgow parish 644/1, reference 40/56, James Glasgow, male, 25 November 1645, parents indexed as "Rot. Glasgow/Jonet Cunnyngham". Original register image inspected 31 August 2026; it names James Cunynghame and Johne Muir as godfathers but gives no occupation, residence, age or birthplace for Robert.](https://www.wikitree.com/wiki/Glasgow-3971)

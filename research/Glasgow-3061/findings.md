@@ -5,6 +5,8 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **99% (proved)** for [Glasgow-1099](https://www.wikitree.com/wiki/Glasgow-1099). Confident for the burgess’s daughter; an estimated birth is not converted into a baptism date. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Father assessment: [George Glasgow (estimated about 1569), merchant and burgess
 of Glasgow](https://www.wikitree.com/wiki/Glasgow-1099) is **confirmed by
 record** as Jonet's father.
@@ -65,3 +67,17 @@ Scotland's People OPR index: Jonet Glasgow and Johne Stewart, 5 February 1624, G
 Source: Old Parish Registers, banns and marriages; exact surname Glasgow through 1700, 55 supplied results. Original images not inspected for this batch; combined index dates do not by themselves establish ceremony dates.
 
 This batch adds supporting evidence or a qualified comparison only; it raises no additional WikiTree amendment for this profile.
+
+## Father confidence review, fifth batch — 22 October 2026
+
+[Glasgow-1099](https://www.wikitree.com/wiki/Glasgow-1099) remains the selected father, assessed **99% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+John Stewart’s burgess admission, 25 November 1624, calls his wife Jonat the lawful daughter of George Glasgow, merchant, burgess and guild brother. The admission’s explicit lawful-daughter wording and George’s specific merchant/burgess identity match the selected Glasgow father.
+
+Scope: Confident for the burgess’s daughter; an estimated birth is not converted into a baptism date.
+
+Next useful test: Check the original admission if another merchant George is proposed.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Robert Renwick, ed., Register of Burgesses and Guild Brethren of Glasgow, 1573–1750 (Glasgow: Scottish Record Society, 1925), p. 61, entry dated 25 November 1624, Internet Archive (https://archive.org/details/scottishrecordso43scotuoft/page/n75/mode/2up).](https://archive.org/details/scottishrecordso43scotuoft/page/n75/mode/2up)
