@@ -2639,7 +2639,7 @@ Scope: people born Glasgow before 1800, including later-life events. Corpus INCO
 | Person | Status | Draft |
 | --- | --- | --- |
 | Abigail Glasgow | READY — concrete chronology exclusions recorded | [1769_Scotland_Midcalder_Abigail_Glasgow.md](new-people/1769_Scotland_Midcalder_Abigail_Glasgow.md) |
-| Abraham Glasgow | READY — concrete chronology exclusions recorded | [1786_Scotland_Glasgow_Abraham_Glasgow.md](new-people/1786_Scotland_Glasgow_Abraham_Glasgow.md) |
+| Abraham Glasgow | HOLD — earlier compatible people unresolved; do not create | [1786_Scotland_Glasgow_Abraham_Glasgow.md](new-people/1786_Scotland_Glasgow_Abraham_Glasgow.md) |
 
 Existing people/candidates: [[Glasgow-1227]], [[Glasgow-1235]], [[Glasgow-32]], [[Glasgow-159]], [[Gray-6937]], [[Glasgow-3523]], [[Glasgow-1239]], [[Glasgow-1318]], [[Glasgow-3298]], [[Glasgow-1309]]. The Birmingham burial remains candidate evidence; no new burial person is recommended. All source and identity qualifications are in their maintained findings and the public Scottish-records study.
 
@@ -2836,3 +2836,9 @@ Other matched entries are supporting citations to existing children. No new pare
 | [John Cooper Glasgow](https://www.wikitree.com/wiki/Glasgow-280) | OPEN | Review existing father at 59% (possible); no new father attachment. |
 | [Robert Glasgow](https://www.wikitree.com/wiki/Glasgow-2963) | OPEN | Review existing father at 46% (possible); no new father attachment. |
 | [James Glasgow](https://www.wikitree.com/wiki/Glasgow-3103) | OPEN | Review existing father at 98% (proved); no new father attachment. |
+
+## Findmypast page 3 and Abraham HOLD — 22 October 2026
+
+Twenty additional transcripts are recorded under existing people or qualified candidates. Search coverage remains INCOMPLETE: pages 1–3 contain 60 inspected results, plus one supporting OPR reinspection. Page 3 adds no new person or parent attachment. The earlier Abraham 1786 creation recommendation is withdrawn: indexed birth year is not independent evidence excluding Glasgow-1227 or Glasgow-1235. His complete held account retains both candidates and the original citations.
+
+[Current record assignments and unresolved questions](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). Candidate child deaths, adult-baptism possibilities and the Ohio death-year discrepancy remain research comparisons; no speculative vital replacement is queued.

@@ -6,6 +6,8 @@ Last updated: 17 October 2026
 
 The cited records below are assessed separately from the identity of this profile. The proposed biography preserves those qualifications.
 
+The 22 October 2026 Findmypast review below records the matched events and qualified comparisons, preserving existing vital dates and relationship assessments. No new person or parent attachment is proposed.
+
 <!-- queue-record-integration-2026-10-17:start -->
 ## Record findings and identity limits — 17 October 2026
 
@@ -41,3 +43,17 @@ Scope: Probable89% for the selected profile pair, based on a retained citation r
 Next useful test: Verify the original1741 parent entry and Andrew/Janet household before pursuing Andrew’s uncertain James father.
 
 This is a first numerical review of an existing attachment, not a new father, new branch connection or original-source discovery. The prior contributor mark is retained in the structured assessment history.
+
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGE3-20261022 -->
+## Findmypast page 3 and identity review — 22 October 2026
+
+One Kirknewton and East Calder baptism on 9 March 1741 names Andrew Glasgow and Janet Clerk, matching Glasgow-1309 and the existing parent pair. Retain birth before baptism; the indexed year does not independently establish an exact birthday. No new child or relationship is proposed.
+
+The index names Alexr. Glasgow, baptized 14 February 1751 at Glasgow, Male, with parents blank and indexed birth year 1751. No separate birth date or age establishes an infant baptism. Earlier Alexanders Glasgow-1309, Glasgow-1321 and Glasgow-1342 remain comparisons for later baptism, and Glasgow-3612 has only an uncertain 1760 birth field. These are unresolved alternatives, not four assignments of this event. No new person is proposed.
+
+- [Findmypast R_686209548](https://www.findmypast.co.uk/transcript?id=R_686209548&tab=this).
+- [Findmypast R_691906288](https://www.findmypast.co.uk/transcript?id=R_691906288&tab=this).
+- [Findmypast R_693752678](https://www.findmypast.co.uk/transcript?id=R_693752678&tab=this).
+
+Provider transcripts inspected; original images uninspected. [Shared Scottish-records account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-BIRTH-SCOPE-PAGE3-20261022 -->

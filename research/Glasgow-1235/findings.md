@@ -5,6 +5,8 @@
 
 The transcript-validated baptism record for **Abraham Glasgow**, 18 Aug 1745, Livingston, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
 
+The 1786 Abraham baptism remains compatible with this earlier man; identity is unresolved and the former new-person recommendation has been withdrawn.
+
 ## Source findings
 
 - [SCOT/OPR/BAP/4151549 Findmypast transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4151549&tab=this): Archive reference: OPR 669/1; Baptism date: 18 Aug 1745; Baptism year: 1745; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Country: Scotland; County: Linlithgowshire (West Lothian); Father's first name(s): Abraham; Father's last name: Glasgow; First name(s): Abraham; Item: 4; Last name: Glasgow; Mother's first name(s): Janet; Mother's last name: Cunninghame; Place: Livingston; Record set: Scotland, Parish Births & Baptisms 1564-1929; Register year range: 1639-1854; Subcategory: Parish Baptisms (captured 2026-09-03T23:47:16.971Z).
@@ -32,3 +34,14 @@ The two inspected indexes record Abraham Glasgow buried 16 July 1818, aged 89, a
 
 Source level: provider transcripts inspected on 22 October 2026; original register images not inspected. Compatible profile identities remain explicitly unproved.
 <!-- END FMP-BIRTH-SCOPE-20261022 -->
+
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGE3-20261022 -->
+## Findmypast page 3 and identity review — 22 October 2026
+
+HOLD — no new person is proposed. The companion Glasgow indexes report birth year 1786 but supply no separate birth date or age; only R_687411873 gives baptism, 7 April 1786. An original register has not been inspected, so the indexed birth year may be baptism-derived. Earlier Abraham Glasgow-1227 and Glasgow-1235 remain compatible, unproved adult-baptism comparisons: their earlier lives contradict an actual 1786 birth, but that premise is unestablished. Glasgow-750 is excluded because his nineteenth-century birth follows the baptism. Retain one documentary group with identity unassigned, birth on or before 7 April 1786, birthplace unresolved and no parents invented.
+
+- [Findmypast R_693241626](https://www.findmypast.co.uk/transcript?id=R_693241626&tab=this).
+- [Findmypast R_687411873](https://www.findmypast.co.uk/transcript?id=R_687411873&tab=this).
+
+Provider transcripts inspected; original images uninspected. [Shared Scottish-records account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-BIRTH-SCOPE-PAGE3-20261022 -->

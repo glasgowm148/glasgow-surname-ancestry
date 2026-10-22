@@ -6,6 +6,8 @@ Reviewed: 22 October 2026. The 1818 Birmingham burial remains a possible namesak
 
 Abraham's 1741 marriage to Janet Cunningham has an indexed Scottish marriage lead. The recurrence of Cunningham spouses elsewhere in the Name Study is not evidence that Janet belonged to another documented Cunningham family.
 
+The 1786 Abraham baptism remains compatible with this earlier man; identity is unresolved and the former new-person recommendation has been withdrawn.
+
 ## Source findings
 
 [FamilySearch, “Scotland Marriages, 1561–1910,” Abraham Glasgow marriage, 1741](https://familysearch.org/ark:/61903/1:1:XY7B-CZV).
@@ -52,3 +54,14 @@ Scope: Record-defined 1719 child and Clarkson household98%; later Abraham marria
 Next useful test: Compare the household originals without attaching the 1818 Birmingham namesake.
 
 This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
+
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGE3-20261022 -->
+## Findmypast page 3 and identity review — 22 October 2026
+
+HOLD — no new person is proposed. The companion Glasgow indexes report birth year 1786 but supply no separate birth date or age; only R_687411873 gives baptism, 7 April 1786. An original register has not been inspected, so the indexed birth year may be baptism-derived. Earlier Abraham Glasgow-1227 and Glasgow-1235 remain compatible, unproved adult-baptism comparisons: their earlier lives contradict an actual 1786 birth, but that premise is unestablished. Glasgow-750 is excluded because his nineteenth-century birth follows the baptism. Retain one documentary group with identity unassigned, birth on or before 7 April 1786, birthplace unresolved and no parents invented.
+
+- [Findmypast R_693241626](https://www.findmypast.co.uk/transcript?id=R_693241626&tab=this).
+- [Findmypast R_687411873](https://www.findmypast.co.uk/transcript?id=R_687411873&tab=this).
+
+Provider transcripts inspected; original images uninspected. [Shared Scottish-records account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-BIRTH-SCOPE-PAGE3-20261022 -->

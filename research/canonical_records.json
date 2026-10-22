@@ -6923,12 +6923,20 @@
     "place": "Glasgow",
     "source_url": "https://www.findmypast.co.uk/transcript?id=R_693241626&tab=this",
     "status": "Inspected provider transcript; original uninspected",
-    "note": "Companion derivative transcript; one event group, not independent proof. Profile identity qualifications retained in the person account.",
+    "note": "HOLD — no new person is proposed. The companion Glasgow indexes report birth year 1786 but supply no separate birth date or age; only R_687411873 gives baptism, 7 April 1786. An original register has not been inspected, so the indexed birth year may be baptism-derived. Earlier Abraham Glasgow-1227 and Glasgow-1235 remain compatible, unproved adult-baptism comparisons: their earlier lives contradict an actual 1786 birth, but that premise is unestablished. Glasgow-750 is excluded because his nineteenth-century birth follows the baptism. Retain one documentary group with identity unassigned, birth on or before 7 April 1786, birthplace unresolved and no parents invented. Source level: derivative provider transcripts; companion indexes are not independent birth evidence.",
     "role": "Documentary source; subject/relative identification qualified",
     "profiles": {
       "record-fmp-glasgow-87e39356adbb": {
-        "role": "Documentary subject",
-        "timeline_group": "Records mentioning this person"
+        "role": "Documentary group; identity unresolved, no new person proposed",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-1227": {
+        "role": "Compatible candidate only; 1786 baptism not assigned",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-1235": {
+        "role": "Compatible candidate only; 1786 baptism not assigned",
+        "timeline_group": "Records for identity comparison"
       }
     },
     "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
@@ -6945,12 +6953,20 @@
     "place": "Glasgow, Lanarkshire, Scotland",
     "source_url": "https://www.findmypast.co.uk/transcript?id=R_687411873&tab=this",
     "status": "Inspected provider transcript; original uninspected",
-    "note": "Companion derivative transcript; one event group, not independent proof. Profile identity qualifications retained in the person account.",
+    "note": "HOLD — no new person is proposed. The companion Glasgow indexes report birth year 1786 but supply no separate birth date or age; only R_687411873 gives baptism, 7 April 1786. An original register has not been inspected, so the indexed birth year may be baptism-derived. Earlier Abraham Glasgow-1227 and Glasgow-1235 remain compatible, unproved adult-baptism comparisons: their earlier lives contradict an actual 1786 birth, but that premise is unestablished. Glasgow-750 is excluded because his nineteenth-century birth follows the baptism. Retain one documentary group with identity unassigned, birth on or before 7 April 1786, birthplace unresolved and no parents invented. Source level: derivative provider transcripts; companion indexes are not independent birth evidence.",
     "role": "Documentary source; subject/relative identification qualified",
     "profiles": {
       "record-fmp-glasgow-87e39356adbb": {
-        "role": "Documentary subject",
-        "timeline_group": "Records mentioning this person"
+        "role": "Documentary group; identity unresolved, no new person proposed",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-1227": {
+        "role": "Compatible candidate only; 1786 baptism not assigned",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-1235": {
+        "role": "Compatible candidate only; 1786 baptism not assigned",
+        "timeline_group": "Records for identity comparison"
       }
     },
     "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
@@ -10607,5 +10623,589 @@
     },
     "note": "See the individual father assessment for named record roles versus inferred profile identities.",
     "provenance": "research/ancestry-connections/father-coverage-review3-2026-10-22.json"
+  },
+  {
+    "record_id": "fmp-record-r-686099212",
+    "provider_record_id": "R_686099212",
+    "association": "Agness Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Agness Glasgow",
+    "date": "30 Jul 1774",
+    "year": 1774,
+    "place": "Edinburgh, Midlothian, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_686099212&tab=this",
+    "status": "Inspected provider transcript; original uninspected",
+    "note": "Two companion indexes name Agness Glasgow, baptized 30 July 1774 at St Cuthberts, Edinburgh, Alexander Glasgow and Agness Cunninghame. They concern the existing Glasgow-1482 and the same event as SCOT/OPR/BAP/0733905, whose explicit birth date is 15 July. The R indexes add no independent birth evidence or new child; the separate 1810 burial remains unproved. Source level: provider transcript only; companion indexes of one event are not independent corroboration.",
+    "role": "Documentary source; subject and relative identification qualified",
+    "profiles": {
+      "Glasgow-1482": {
+        "role": "Baptism subject; same event as the previously inspected OPR entry",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1321": {
+        "role": "Recorded father; existing parent identification",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Cunningham-20926": {
+        "role": "Recorded mother; Cunninghame transcript spelling retained",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-22",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-691336326",
+    "provider_record_id": "R_691336326",
+    "association": "Agness Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Agness Glasgow",
+    "date": "30 Jul 1774",
+    "year": 1774,
+    "place": "Edinburgh, Midlothian, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_691336326&tab=this",
+    "status": "Inspected provider transcript; original uninspected",
+    "note": "Two companion indexes name Agness Glasgow, baptized 30 July 1774 at St Cuthberts, Edinburgh, Alexander Glasgow and Agness Cunninghame. They concern the existing Glasgow-1482 and the same event as SCOT/OPR/BAP/0733905, whose explicit birth date is 15 July. The R indexes add no independent birth evidence or new child; the separate 1810 burial remains unproved. Source level: provider transcript only; companion indexes of one event are not independent corroboration.",
+    "role": "Documentary source; subject and relative identification qualified",
+    "profiles": {
+      "Glasgow-1482": {
+        "role": "Baptism subject; same event as the previously inspected OPR entry",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1321": {
+        "role": "Recorded father; existing parent identification",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Cunningham-20926": {
+        "role": "Recorded mother; Cunninghame transcript spelling retained",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-22",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-693243148",
+    "provider_record_id": "R_693243148",
+    "association": "Alexander Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Alexander Glasgow",
+    "date": "1782",
+    "year": 1782,
+    "place": "Glasgow, Lanarkshire, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_693243148&tab=this",
+    "status": "Inspected provider transcript; original uninspected",
+    "note": "The Glasgow index names Alexander Glasgow, Male, indexed birth year 1782 and Birth place Glasgow,Lanark,Scotland, with baptism year and parents blank. Glasgow-2701 has an approximate 1782 Glasgow birth and unknown parents; Glasgow-2706 has an approximate 1780 Barony birth. These are compatible comparisons, not identifications established by matching estimates. No dated baptism or independent birth fact is supplied. Do not exclude earlier people or recommend a new person from this sparse index. Source level: provider transcript only; companion indexes of one event are not independent corroboration.",
+    "role": "Documentary source; subject and relative identification qualified",
+    "profiles": {
+      "Glasgow-2701": {
+        "role": "Compatible candidate; approximate 1782 Glasgow birth only, no assigned event",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-2706": {
+        "role": "Weaker compatible candidate; approximate 1780 Barony birth",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-22",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-685852438",
+    "provider_record_id": "R_685852438",
+    "association": "Alexander Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Alexander Glasgow",
+    "date": "12 Feb 1721",
+    "year": 1721,
+    "place": "Uphall, Linlithgowshire (West Lothian), Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_685852438&tab=this",
+    "status": "Inspected provider transcript; original uninspected",
+    "note": "One Uphall baptism on 12 February 1721 names Thomas Glasgow and Catharin Classon, matching existing Alexander Glasgow-1237 in that family. The maintained Thomas account documents Classon/Clerkson surname variants; retain the literal Classon reading rather than create a second mother. The current approximate 7 February birth and the recorded 12 February baptism have distinct date roles. These transcripts supply no separate exact birth date; do not replace it with baptism. Source level: provider transcript only; companion indexes of one event are not independent corroboration.",
+    "role": "Documentary source; subject and relative identification qualified",
+    "profiles": {
+      "Glasgow-1237": {
+        "role": "Baptism subject; matching parish, date and named parent pair",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1226": {
+        "role": "Recorded father; existing parent identification",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Clarkson-2169": {
+        "role": "Recorded mother comparison within the existing family; Classon variant retained",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-22",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-692418077",
+    "provider_record_id": "R_692418077",
+    "association": "Alexander Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Alexander Glasgow",
+    "date": "12 Feb 1721",
+    "year": 1721,
+    "place": "Uphall, Linlithgowshire (West Lothian), Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_692418077&tab=this",
+    "status": "Inspected provider transcript; original uninspected",
+    "note": "One Uphall baptism on 12 February 1721 names Thomas Glasgow and Catharin Classon, matching existing Alexander Glasgow-1237 in that family. The maintained Thomas account documents Classon/Clerkson surname variants; retain the literal Classon reading rather than create a second mother. The current approximate 7 February birth and the recorded 12 February baptism have distinct date roles. These transcripts supply no separate exact birth date; do not replace it with baptism. Source level: provider transcript only; companion indexes of one event are not independent corroboration.",
+    "role": "Documentary source; subject and relative identification qualified",
+    "profiles": {
+      "Glasgow-1237": {
+        "role": "Baptism subject; matching parish, date and named parent pair",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1226": {
+        "role": "Recorded father; existing parent identification",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Clarkson-2169": {
+        "role": "Recorded mother comparison within the existing family; Classon variant retained",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-22",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-686210013",
+    "provider_record_id": "R_686210013",
+    "association": "Alexander Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Alexander Glasgow",
+    "date": "13 Feb 1724",
+    "year": 1724,
+    "place": "Kirknewton and East Calder, Midlothian, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_686210013&tab=this",
+    "status": "Inspected provider transcript; original uninspected",
+    "note": "One Kirknewton and East Calder baptism on 13 February 1724 names Alexander Glasgow and Margaret Multrie, matching Glasgow-1342 and the existing parent pair. The current before-baptism birth boundary is retained. Multrie is the transcript spelling; no separate mother, exact birthday or new relationship is proposed. Source level: provider transcript only; companion indexes of one event are not independent corroboration.",
+    "role": "Documentary source; subject and relative identification qualified",
+    "profiles": {
+      "Glasgow-1342": {
+        "role": "Baptism subject; matching event and existing parent pair",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1141": {
+        "role": "Recorded father; existing parent identification",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Moultrie-158": {
+        "role": "Recorded mother; Multrie transcript spelling retained",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-22",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-691906283",
+    "provider_record_id": "R_691906283",
+    "association": "Alexander Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Alexander Glasgow",
+    "date": "13 Feb 1724",
+    "year": 1724,
+    "place": "Kirknewton and East Calder, Midlothian, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_691906283&tab=this",
+    "status": "Inspected provider transcript; original uninspected",
+    "note": "One Kirknewton and East Calder baptism on 13 February 1724 names Alexander Glasgow and Margaret Multrie, matching Glasgow-1342 and the existing parent pair. The current before-baptism birth boundary is retained. Multrie is the transcript spelling; no separate mother, exact birthday or new relationship is proposed. Source level: provider transcript only; companion indexes of one event are not independent corroboration.",
+    "role": "Documentary source; subject and relative identification qualified",
+    "profiles": {
+      "Glasgow-1342": {
+        "role": "Baptism subject; matching event and existing parent pair",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1141": {
+        "role": "Recorded father; existing parent identification",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Moultrie-158": {
+        "role": "Recorded mother; Multrie transcript spelling retained",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-22",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-686209548",
+    "provider_record_id": "R_686209548",
+    "association": "Alexander Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Alexander Glasgow",
+    "date": "09 Mar 1741",
+    "year": 1741,
+    "place": "Kirknewton and East Calder, Midlothian, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_686209548&tab=this",
+    "status": "Inspected provider transcript; original uninspected",
+    "note": "One Kirknewton and East Calder baptism on 9 March 1741 names Andrew Glasgow and Janet Clerk, matching Glasgow-1309 and the existing parent pair. Retain birth before baptism; the indexed year does not independently establish an exact birthday. No new child or relationship is proposed. Source level: provider transcript only; companion indexes of one event are not independent corroboration. Recorded mother Janet Clerk is represented by existing external WikiTree profile https://www.wikitree.com/wiki/Clerk-313; no local catalogue person page is available for that mother.",
+    "role": "Documentary source; subject and relative identification qualified",
+    "profiles": {
+      "Glasgow-1309": {
+        "role": "Baptism subject; matching event and existing parent pair",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-3052": {
+        "role": "Recorded father; existing parent identification",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-22",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-691906288",
+    "provider_record_id": "R_691906288",
+    "association": "Alexander Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Alexander Glasgow",
+    "date": "09 Mar 1741",
+    "year": 1741,
+    "place": "Kirknewton and East Calder, Midlothian, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_691906288&tab=this",
+    "status": "Inspected provider transcript; original uninspected",
+    "note": "One Kirknewton and East Calder baptism on 9 March 1741 names Andrew Glasgow and Janet Clerk, matching Glasgow-1309 and the existing parent pair. Retain birth before baptism; the indexed year does not independently establish an exact birthday. No new child or relationship is proposed. Source level: provider transcript only; companion indexes of one event are not independent corroboration. Recorded mother Janet Clerk is represented by existing external WikiTree profile https://www.wikitree.com/wiki/Clerk-313; no local catalogue person page is available for that mother.",
+    "role": "Documentary source; subject and relative identification qualified",
+    "profiles": {
+      "Glasgow-1309": {
+        "role": "Baptism subject; matching event and existing parent pair",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-3052": {
+        "role": "Recorded father; existing parent identification",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-22",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-686210672",
+    "provider_record_id": "R_686210672",
+    "association": "Alexander Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Alexander Glasgow",
+    "date": "07 Jun 1747",
+    "year": 1747,
+    "place": "Kirknewton and East Calder, Midlothian, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_686210672&tab=this",
+    "status": "Inspected provider transcript; original uninspected",
+    "note": "One Kirknewton and East Calder baptism on 7 June 1747 names Andrew Glasgow and Isobel Clerk, matching Glasgow-1321 and the existing parent pair. Retain birth before baptism; do not turn this baptism date into an exact birthday or assign the different Andrew/Janet Clerk couple from the 1741 event. No relationship certainty change is claimed. Source level: provider transcript only; companion indexes of one event are not independent corroboration.",
+    "role": "Documentary source; subject and relative identification qualified",
+    "profiles": {
+      "Glasgow-1321": {
+        "role": "Baptism subject; matching event and existing parent pair",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1336": {
+        "role": "Recorded father; existing parent identification",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Clerk-314": {
+        "role": "Recorded mother; existing parent identification",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-22",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-691906289",
+    "provider_record_id": "R_691906289",
+    "association": "Alexander Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Alexander Glasgow",
+    "date": "07 Jun 1747",
+    "year": 1747,
+    "place": "Kirknewton and East Calder, Midlothian, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_691906289&tab=this",
+    "status": "Inspected provider transcript; original uninspected",
+    "note": "One Kirknewton and East Calder baptism on 7 June 1747 names Andrew Glasgow and Isobel Clerk, matching Glasgow-1321 and the existing parent pair. Retain birth before baptism; do not turn this baptism date into an exact birthday or assign the different Andrew/Janet Clerk couple from the 1741 event. No relationship certainty change is claimed. Source level: provider transcript only; companion indexes of one event are not independent corroboration.",
+    "role": "Documentary source; subject and relative identification qualified",
+    "profiles": {
+      "Glasgow-1321": {
+        "role": "Baptism subject; matching event and existing parent pair",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1336": {
+        "role": "Recorded father; existing parent identification",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Clerk-314": {
+        "role": "Recorded mother; existing parent identification",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-22",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-686309236",
+    "provider_record_id": "R_686309236",
+    "association": "Alexander Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Alexander Glasgow",
+    "date": "17 Apr 1757",
+    "year": 1757,
+    "place": "Mid Calder, Midlothian, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_686309236&tab=this",
+    "status": "Inspected provider transcript; original uninspected",
+    "note": "One Mid Calder baptism on 17 April 1757 names Andrew Glasgow and Janet Young. Alexander Glasgow-3612, with uncertain 1760 birth, Midlothian association and unknown parents, remains a compatible comparison. Andrew Glasgow-1239 and Glasgow-3052 are possible father comparisons by name, chronology and neighbouring parish context, with no family bridge identifying either. Retain both named parents as source assertions; do not replace a known wife, invent a modern mother or attach the child. No new person is proposed. Source level: provider transcript only; companion indexes of one event are not independent corroboration.",
+    "role": "Documentary source; subject and relative identification qualified",
+    "profiles": {
+      "Glasgow-3612": {
+        "role": "Compatible child candidate only; uncertain 1760 birth is not an exclusion",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-1239": {
+        "role": "Compatible father candidate only; no child assigned",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-3052": {
+        "role": "Alternative father candidate only; no child assigned",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-22",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-694112306",
+    "provider_record_id": "R_694112306",
+    "association": "Alexander Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Alexander Glasgow",
+    "date": "17 Apr 1757",
+    "year": 1757,
+    "place": "Mid Calder, Midlothian, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_694112306&tab=this",
+    "status": "Inspected provider transcript; original uninspected",
+    "note": "One Mid Calder baptism on 17 April 1757 names Andrew Glasgow and Janet Young. Alexander Glasgow-3612, with uncertain 1760 birth, Midlothian association and unknown parents, remains a compatible comparison. Andrew Glasgow-1239 and Glasgow-3052 are possible father comparisons by name, chronology and neighbouring parish context, with no family bridge identifying either. Retain both named parents as source assertions; do not replace a known wife, invent a modern mother or attach the child. No new person is proposed. Source level: provider transcript only; companion indexes of one event are not independent corroboration.",
+    "role": "Documentary source; subject and relative identification qualified",
+    "profiles": {
+      "Glasgow-3612": {
+        "role": "Compatible child candidate only; uncertain 1760 birth is not an exclusion",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-1239": {
+        "role": "Compatible father candidate only; no child assigned",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-3052": {
+        "role": "Alternative father candidate only; no child assigned",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-22",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bur-1030663",
+    "provider_record_id": "SCOT/OPR/BUR/1030663",
+    "association": "Alexander Glasgow — Scotland, Parish Deaths & Burials 1564-2017",
+    "person": "Alexander Glasgow",
+    "date": "14 Oct 1766",
+    "year": 1766,
+    "place": "Glasgow, Lanarkshire, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1030663&tab=this",
+    "status": "Inspected provider transcript; original uninspected",
+    "note": "Two Glasgow child-death entries name Alexander Glasgow, child of Alexander Glasgow. OPR 644/48 item 3 reports death 14 October 1766, age 2 (indexed birth 1764); the Glasgow High Church transcript reports burial 14 October 1768, age 2+ (indexed birth 1766) and an unspecified death date in 1768. The matching day, names and age suggest a possible transcription discrepancy, but neither one event nor two separate children is established. Glasgow-2707, with approximate 1764 birth and 1766 death and unknown parents, is a compatible candidate. Preserve both entries and the two-year discrepancy; do not assign either exact death date, father profile or a new child. Source level: provider transcript only; companion indexes of one event are not independent corroboration.",
+    "role": "Documentary source; subject and relative identification qualified",
+    "profiles": {
+      "Glasgow-2707": {
+        "role": "Compatible child-death candidate only; dates and father identity unresolved",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-22",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-gbprs-glasgow-bur-093174",
+    "provider_record_id": "GBPRS/GLASGOW/BUR/093174",
+    "association": "Alexander Glasgow — Scotland, Parish Deaths & Burials 1564-2017",
+    "person": "Alexander Glasgow",
+    "date": "14 Oct 1768",
+    "year": 1768,
+    "place": "Glasgow High Church, Glasgow, Lanarkshire, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FGLASGOW%2FBUR%2F093174&tab=this",
+    "status": "Inspected provider transcript; original uninspected",
+    "note": "Two Glasgow child-death entries name Alexander Glasgow, child of Alexander Glasgow. OPR 644/48 item 3 reports death 14 October 1766, age 2 (indexed birth 1764); the Glasgow High Church transcript reports burial 14 October 1768, age 2+ (indexed birth 1766) and an unspecified death date in 1768. The matching day, names and age suggest a possible transcription discrepancy, but neither one event nor two separate children is established. Glasgow-2707, with approximate 1764 birth and 1766 death and unknown parents, is a compatible candidate. Preserve both entries and the two-year discrepancy; do not assign either exact death date, father profile or a new child. Source level: provider transcript only; companion indexes of one event are not independent corroboration.",
+    "role": "Documentary source; subject and relative identification qualified",
+    "profiles": {
+      "Glasgow-2707": {
+        "role": "Compatible child-death candidate only; dates and father identity unresolved",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-22",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-693211884",
+    "provider_record_id": "R_693211884",
+    "association": "Alexander Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Alexander Glasgow",
+    "date": "05 Nov 1792",
+    "year": 1792,
+    "place": "Barony, Glasgow, Lanarkshire, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_693211884&tab=this",
+    "status": "Inspected provider transcript; original uninspected",
+    "note": "The Barony baptism on 5 November 1792 names Alexander Glasgow, John Glasgow and Helen Smith, matching Glasgow-971 and the baptism already recorded in his biography. The existing 1 November birth is separate from the supplied baptism day; this transcript gives only indexed birth year 1792. No birthday overwrite or new child is proposed. Source level: provider transcript only; companion indexes of one event are not independent corroboration.",
+    "role": "Documentary source; subject and relative identification qualified",
+    "profiles": {
+      "Glasgow-971": {
+        "role": "Baptism subject; matching event and existing parent pair",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1348": {
+        "role": "Recorded father; existing parent identification",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Smith-230548": {
+        "role": "Recorded mother; existing parent identification",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-22",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-4191802",
+    "provider_record_id": "SCOT/OPR/BAP/4191802",
+    "association": "Alexander Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Alexander Glasgow",
+    "date": "31 Mar 1799",
+    "year": 1799,
+    "place": "Colinton, Midlothian, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4191802&tab=this",
+    "status": "Inspected provider transcript; original uninspected",
+    "note": "The Colinton transcript explicitly records Alexander Glasgow born 17 March and baptized 31 March 1799, John Glasgow and Margaret Muckle, residence Greysmill, OPR 677/2 item 3 page 253. This matches existing Glasgow-2718 and his 17 March birthday; no new child or parent attachment is proposed. Source level: provider transcript only; companion indexes of one event are not independent corroboration.",
+    "role": "Documentary source; subject and relative identification qualified",
+    "profiles": {
+      "Glasgow-2718": {
+        "role": "Birth and baptism subject; exact dates and existing parent pair",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1304": {
+        "role": "Recorded father; existing parent identification",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Muckle-67": {
+        "role": "Recorded mother; existing parent identification",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-22",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-us-ohiorbh-686565",
+    "provider_record_id": "US/OHIORBH/686565",
+    "association": "Alexander Glasgow — Ohio Obituary Index, 1814-2013",
+    "person": "Alexander Glasgow",
+    "date": "11 Jan 1866",
+    "year": 1866,
+    "place": "Wayne County, Ohio, United States",
+    "country": "United States",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=US%2FOHIORBH%2F686565&tab=this",
+    "status": "Inspected provider transcript; original uninspected",
+    "note": "The Ohio obituary index reports Alexander Glasgow, birth year 1788, death 11 January 1866, Wayne County, spouse Margaret, and notes MEXICAN WAR and ARMY. Glasgow-2824 has Wayne/Honeytown context and wife Margaret Markel, with approximate 1787 birth and a biography reporting death 11 January 1865. Matching locality, wife and day/month support a strong comparison, but the one-year death discrepancy and military notes need the underlying obituary. Do not assign 1866 or a military service merely from this index, and do not create another Alexander. Source level: provider transcript only; companion indexes of one event are not independent corroboration.",
+    "role": "Documentary source; subject and relative identification qualified",
+    "profiles": {
+      "Glasgow-2824": {
+        "role": "Strong obituary candidate only; 1865 versus 1866 death-year discrepancy unresolved",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Markel-547": {
+        "role": "Spouse identity comparison only; transcript supplies Margaret without surname",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-22",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-ire-bmd-d-617544059",
+    "provider_record_id": "IRE/BMD/D/617544059",
+    "association": "Alexander Glasgow — Irish Deaths 1864 - 1958",
+    "person": "Alexander Glasgow",
+    "date": "1873",
+    "year": 1873,
+    "place": "Cork, Ireland",
+    "country": "Ireland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=IRE%2FBMD%2FD%2F617544059&tab=this",
+    "status": "Inspected provider transcript; original uninspected",
+    "note": "The Irish death index records Alexander Glasgow, Cork registration district, 1873, age 80, volume 20 page 134; indexed birth 1793 is age-derived. Glasgow-971 was born 1 November 1792 and is recorded as dying 19 October 1873 in County Cork, which is compatible with age 80. Retain his existing exact dates; this index supplies neither a new exact birthday nor an exact death day. Source level: provider transcript only; companion indexes of one event are not independent corroboration.",
+    "role": "Documentary source; subject and relative identification qualified",
+    "profiles": {
+      "Glasgow-971": {
+        "role": "Death-registration subject; compatible age, district and existing death account",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-22",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-693752678",
+    "provider_record_id": "R_693752678",
+    "association": "Alexr. Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Alexr. Glasgow",
+    "date": "14 Feb 1751",
+    "year": 1751,
+    "place": "Glasgow, Lanarkshire, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_693752678&tab=this",
+    "status": "Inspected provider transcript; original uninspected",
+    "note": "The index names Alexr. Glasgow, baptized 14 February 1751 at Glasgow, Male, with parents blank and indexed birth year 1751. No separate birth date or age establishes an infant baptism. Earlier Alexanders Glasgow-1309, Glasgow-1321 and Glasgow-1342 remain comparisons for later baptism, and Glasgow-3612 has only an uncertain 1760 birth field. These are unresolved alternatives, not four assignments of this event. No new person is proposed. Source level: provider transcript only; companion indexes of one event are not independent corroboration.",
+    "role": "Documentary source; subject and relative identification qualified",
+    "profiles": {
+      "Glasgow-1309": {
+        "role": "Compatible adult-baptism candidate only; no 1751 event assigned",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-1321": {
+        "role": "Compatible later-baptism candidate only; no 1751 event assigned",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-1342": {
+        "role": "Compatible adult-baptism candidate only; no 1751 event assigned",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-3612": {
+        "role": "Uncertain-date comparison only; 1760 estimate is not a concrete exclusion",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-22",
+    "publish_to_record_index": true
   }
 ]

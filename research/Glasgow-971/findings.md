@@ -7,6 +7,8 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 Current father assessment (22 October 2026): **97% (proved)** for [Glasgow-1348](https://www.wikitree.com/wiki/Glasgow-1348). Recorded 1792 child and Smith household; John’s own disputed childhood and Alexander’s later occupation remain separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
+The 22 October 2026 Findmypast review below records the matched events and qualified comparisons, preserving existing vital dates and relationship assessments. No new person or parent attachment is proposed.
+
 <!-- site-audit-2026-10-07:overall-conclusion -->
 Alexander Glasgow of Old Court, County Cork, formerly of Auchenraith, Lanarkshire, died at Old Court on 19 October 1873; the printed Irish probate calendar records his will proved at Cork on 10 December 1873 by Robert Pirrie, one of the executors, with effects under £80,000. A burial index records him at Douglas on 24 October 1873, and an indexed Greenock death notice gives his age as 81. Marriage notices of 1853 and 1855 call Jessy, wife of Edward Eyre Newenham, his only daughter and William James Glasgow his only son. His profile's birth in 1792 and 1826 marriage to Ellen Smith have not yet been checked against records.
 
@@ -84,3 +86,16 @@ Next useful test: Read the original Barony entry for the exact dates and parents
 This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [https://www.familysearch.org/ark:/61903/1:1:X17F-M3V](https://www.familysearch.org/ark:/61903/1:1:X17F-M3V)
+
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGE3-20261022 -->
+## Findmypast page 3 and identity review — 22 October 2026
+
+The Barony baptism on 5 November 1792 names Alexander Glasgow, John Glasgow and Helen Smith, matching Glasgow-971 and the baptism already recorded in his biography. The existing 1 November birth is separate from the supplied baptism day; this transcript gives only indexed birth year 1792. No birthday overwrite or new child is proposed.
+
+The Irish death index records Alexander Glasgow, Cork registration district, 1873, age 80, volume 20 page 134; indexed birth 1793 is age-derived. Glasgow-971 was born 1 November 1792 and is recorded as dying 19 October 1873 in County Cork, which is compatible with age 80. Retain his existing exact dates; this index supplies neither a new exact birthday nor an exact death day.
+
+- [Findmypast R_693211884](https://www.findmypast.co.uk/transcript?id=R_693211884&tab=this).
+- [Findmypast IRE/BMD/D/617544059](https://www.findmypast.co.uk/transcript?id=IRE%2FBMD%2FD%2F617544059&tab=this).
+
+Provider transcripts inspected; original images uninspected. [Shared Scottish-records account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-BIRTH-SCOPE-PAGE3-20261022 -->

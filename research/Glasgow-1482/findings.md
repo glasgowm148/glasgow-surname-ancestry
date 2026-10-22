@@ -4,6 +4,8 @@
 
 The Edinburgh entry explicitly records birth 15 July and baptism 30 July 1774, Alexander Glasgow, Brewers Servt, and Agness Cunninghame, residence Cross Causeway, OPR 685_2/9 item 1 p.172. It refines the existing before-30-July birth boundary. This secure child identification does not establish the later Geo Smart wife comparison. The 1810 Edinburgh burial remains a candidate comparison, with age 32 against this child’s actual 36; no death or Geo Smart marriage is assigned.
 
+The 22 October 2026 Findmypast review below records the matched events and qualified comparisons, preserving existing vital dates and relationship assessments. No new person or parent attachment is proposed.
+
 <!-- BEGIN FMP-BIRTH-SCOPE-PAGE2-20261022 -->
 ## Findmypast record review — 22 October 2026
 
@@ -17,3 +19,14 @@ Agnes Glasgow was buried 6 November 1810 at Edinburgh, age 32, described as Spou
 
 The provider transcripts were inspected on 22 October 2026; original register images were not inspected. [Shared record review](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
 <!-- END FMP-BIRTH-SCOPE-PAGE2-20261022 -->
+
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGE3-20261022 -->
+## Findmypast page 3 and identity review — 22 October 2026
+
+Two companion indexes name Agness Glasgow, baptized 30 July 1774 at St Cuthberts, Edinburgh, Alexander Glasgow and Agness Cunninghame. They concern the existing Glasgow-1482 and the same event as SCOT/OPR/BAP/0733905, whose explicit birth date is 15 July. The R indexes add no independent birth evidence or new child; the separate 1810 burial remains unproved.
+
+- [Findmypast R_686099212](https://www.findmypast.co.uk/transcript?id=R_686099212&tab=this).
+- [Findmypast R_691336326](https://www.findmypast.co.uk/transcript?id=R_691336326&tab=this).
+
+Provider transcripts inspected; original images uninspected. [Shared Scottish-records account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-BIRTH-SCOPE-PAGE3-20261022 -->

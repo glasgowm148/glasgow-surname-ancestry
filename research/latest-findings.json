@@ -34462,8 +34462,8 @@
       "reviewed_on": "2026-10-22",
       "kind": "record",
       "status": "qualified",
-      "finding": "Two Glasgow indexes report Abraham Glasgow born 1786; one gives baptism 7 April. They are retained as one person with a complete sourced draft.",
-      "qualification": "The 1741 married man, the child baptized in 1745 and the nineteenth-century Pennsylvania man have concrete chronological conflicts with the indexed 1786 birth. Original uninspected; if adult baptism with an earlier birth is established, reopen the first two candidates. No parents or exact birth date invented.",
+      "finding": "Two Glasgow baptism indexes are consolidated as one documentary group; the former new-person recommendation is withdrawn and identity is on HOLD.",
+      "qualification": "HOLD — no new person is proposed. The companion Glasgow indexes report birth year 1786 but supply no separate birth date or age; only R_687411873 gives baptism, 7 April 1786. An original register has not been inspected, so the indexed birth year may be baptism-derived. Earlier Abraham Glasgow-1227 and Glasgow-1235 remain compatible, unproved adult-baptism comparisons: their earlier lives contradict an actual 1786 birth, but that premise is unestablished. Glasgow-750 is excluded because his nineteenth-century birth follows the baptism. Retain one documentary group with identity unassigned, birth on or before 7 April 1786, birthplace unresolved and no parents invented.",
       "people": [
         {
           "id": "record-fmp-glasgow-87e39356adbb",
@@ -36654,6 +36654,358 @@
       "newly_rated_existing_father_links": 70,
       "provenance": [
         "research/ancestry-connections/father-coverage-review3-2026-10-22.json"
+      ]
+    },
+    {
+      "found_on": "2026-10-22",
+      "reviewed_on": "2026-10-22",
+      "kind": "record",
+      "status": "qualified",
+      "detail_url": "/branches/early-scottish-records/#chapter-findmypast-born-before-1800",
+      "relationship_changes": [],
+      "new_father_attachments": 0,
+      "new_mother_attachments": 0,
+      "new_paternal_joins": 0,
+      "new_original_inspections": 0,
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+      "id": "fmp-page3-existing-family-records-20261022",
+      "finding": "Page 3 adds baptism records to six existing Alexander children, companion indexes for Agness 1774, and the Cork 1873 death index to the existing subject.",
+      "qualification": "Matching parish, date and named parents support the existing child destinations. Baptism dates remain distinct from birth dates; indexed years and companion transcripts are not independent birth evidence. No new person, attachment or confidence upgrade is claimed.",
+      "people": [
+        {
+          "id": "Glasgow-1482",
+          "name": "Agnes Glasgow",
+          "url": "/people/glasgow-1482.html",
+          "role": "Baptism subject; same event as the previously inspected OPR entry"
+        },
+        {
+          "id": "Glasgow-1321",
+          "name": "Alexander Glasgow",
+          "url": "/people/glasgow-1321.html",
+          "role": "Baptism subject; matching event and existing parent pair"
+        },
+        {
+          "id": "Cunningham-20926",
+          "name": "Agnes (Cunningham) Glasgow",
+          "url": "/people/cunningham-20926.html",
+          "role": "Recorded mother; Cunninghame transcript spelling retained"
+        },
+        {
+          "id": "Glasgow-1237",
+          "name": "Alexander Glasgow",
+          "url": "/people/glasgow-1237.html",
+          "role": "Baptism subject; matching parish, date and named parent pair"
+        },
+        {
+          "id": "Glasgow-1226",
+          "name": "Thomas Glasgow",
+          "url": "/people/glasgow-1226.html",
+          "role": "Recorded father; existing parent identification"
+        },
+        {
+          "id": "Clarkson-2169",
+          "name": "Catherine Clarkson",
+          "url": "/people/clarkson-2169.html",
+          "role": "Recorded mother comparison within the existing family; Classon variant retained"
+        },
+        {
+          "id": "Glasgow-1342",
+          "name": "Alexander William Glasgow",
+          "url": "/people/glasgow-1342.html",
+          "role": "Baptism subject; matching event and existing parent pair"
+        },
+        {
+          "id": "Glasgow-1141",
+          "name": "Alexander Glasgow",
+          "url": "/people/glasgow-1141.html",
+          "role": "Recorded father; existing parent identification"
+        },
+        {
+          "id": "Moultrie-158",
+          "name": "Margaret (Moultrie) Glasgow",
+          "url": "/people/moultrie-158.html",
+          "role": "Recorded mother; Multrie transcript spelling retained"
+        },
+        {
+          "id": "Glasgow-1309",
+          "name": "Alexander Glasgow",
+          "url": "/people/glasgow-1309.html",
+          "role": "Baptism subject; matching event and existing parent pair"
+        },
+        {
+          "id": "Glasgow-3052",
+          "name": "Andrew Glasgow",
+          "url": "/people/glasgow-3052.html",
+          "role": "Recorded father; existing parent identification"
+        },
+        {
+          "id": "Clerk-313",
+          "name": "Janet Clerk",
+          "url": "https://www.wikitree.com/wiki/Clerk-313",
+          "role": "Recorded mother; existing parent identification"
+        },
+        {
+          "id": "Glasgow-1336",
+          "name": "Andrew Glasgow",
+          "url": "/people/glasgow-1336.html",
+          "role": "Recorded father; existing parent identification"
+        },
+        {
+          "id": "Clerk-314",
+          "name": "Isobel Clerk",
+          "url": "/people/clerk-314.html",
+          "role": "Recorded mother; existing parent identification"
+        },
+        {
+          "id": "Glasgow-971",
+          "name": "Alexander Glasgow Esq",
+          "url": "/people/glasgow-971.html",
+          "role": "Death-registration subject; compatible age, district and existing death account"
+        },
+        {
+          "id": "Glasgow-1348",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-1348.html",
+          "role": "Recorded father; existing parent identification"
+        },
+        {
+          "id": "Smith-230548",
+          "name": "Helen Glasgow",
+          "url": "/people/smith-230548.html",
+          "role": "Recorded mother; existing parent identification"
+        },
+        {
+          "id": "Glasgow-2718",
+          "name": "Alexander Glasgow",
+          "url": "/people/glasgow-2718.html",
+          "role": "Birth and baptism subject; exact dates and existing parent pair"
+        },
+        {
+          "id": "Glasgow-1304",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-1304.html",
+          "role": "Recorded father; existing parent identification"
+        },
+        {
+          "id": "Muckle-67",
+          "name": "Margaret (Muckle) Glasgow",
+          "url": "/people/muckle-67.html",
+          "role": "Recorded mother; existing parent identification"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Findmypast R_686099212: Scotland, Parish Births & Baptisms 1564-1929",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_686099212&tab=this"
+        },
+        {
+          "title": "Findmypast R_691336326: Scotland, Parish Births & Baptisms 1564-1929",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_691336326&tab=this"
+        },
+        {
+          "title": "Findmypast R_685852438: Scotland, Parish Births & Baptisms 1564-1929",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_685852438&tab=this"
+        },
+        {
+          "title": "Findmypast R_692418077: Scotland, Parish Births & Baptisms 1564-1929",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_692418077&tab=this"
+        },
+        {
+          "title": "Findmypast R_686210013: Scotland, Parish Births & Baptisms 1564-1929",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_686210013&tab=this"
+        },
+        {
+          "title": "Findmypast R_691906283: Scotland, Parish Births & Baptisms 1564-1929",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_691906283&tab=this"
+        },
+        {
+          "title": "Findmypast R_686209548: Scotland, Parish Births & Baptisms 1564-1929",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_686209548&tab=this"
+        },
+        {
+          "title": "Findmypast R_691906288: Scotland, Parish Births & Baptisms 1564-1929",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_691906288&tab=this"
+        },
+        {
+          "title": "Findmypast R_686210672: Scotland, Parish Births & Baptisms 1564-1929",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_686210672&tab=this"
+        },
+        {
+          "title": "Findmypast R_691906289: Scotland, Parish Births & Baptisms 1564-1929",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_691906289&tab=this"
+        },
+        {
+          "title": "Findmypast R_693211884: Scotland, Parish Births & Baptisms 1564-1929",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_693211884&tab=this"
+        },
+        {
+          "title": "Findmypast SCOT/OPR/BAP/4191802: Scotland, Parish Births & Baptisms 1564-1929",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4191802&tab=this"
+        },
+        {
+          "title": "Findmypast IRE/BMD/D/617544059: Irish Deaths 1864 - 1958",
+          "url": "https://www.findmypast.co.uk/transcript?id=IRE%2FBMD%2FD%2F617544059&tab=this"
+        }
+      ]
+    },
+    {
+      "found_on": "2026-10-22",
+      "reviewed_on": "2026-10-22",
+      "kind": "record",
+      "status": "qualified",
+      "detail_url": "/branches/early-scottish-records/#chapter-findmypast-born-before-1800",
+      "relationship_changes": [],
+      "new_father_attachments": 0,
+      "new_mother_attachments": 0,
+      "new_paternal_joins": 0,
+      "new_original_inspections": 0,
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+      "id": "fmp-page3-alexander-comparisons-20261022",
+      "finding": "Sparse Alexander indexes, two discrepant child-death entries and the Ohio obituary remain qualified comparisons under existing candidates.",
+      "qualification": "The 1757 and 1751 baptisms retain compatible people; missing parents and uncertain or baptism-derived birth years do not exclude earlier identities. The 1766/1768 child entries retain both dates without inventing a second child. TheOhio 1866 obituary contrasts with the existing 1865 death account. Candidate events and military notes are not assigned as facts; no new person is proposed.",
+      "people": [
+        {
+          "id": "Glasgow-2701",
+          "name": "Alexander Glasgow",
+          "url": "/people/glasgow-2701.html",
+          "role": "Compatible candidate; approximate 1782 Glasgow birth only, no assigned event"
+        },
+        {
+          "id": "Glasgow-2706",
+          "name": "Alexander Glasgow",
+          "url": "/people/glasgow-2706.html",
+          "role": "Weaker compatible candidate; approximate 1780 Barony birth"
+        },
+        {
+          "id": "Glasgow-3612",
+          "name": "Alexander Glasgow",
+          "url": "/people/glasgow-3612.html",
+          "role": "Uncertain-date comparison only; 1760 estimate is not a concrete exclusion"
+        },
+        {
+          "id": "Glasgow-1239",
+          "name": "Andrew Glasgow",
+          "url": "/people/glasgow-1239.html",
+          "role": "Compatible father candidate only; no child assigned"
+        },
+        {
+          "id": "Glasgow-3052",
+          "name": "Andrew Glasgow",
+          "url": "/people/glasgow-3052.html",
+          "role": "Alternative father candidate only; no child assigned"
+        },
+        {
+          "id": "Glasgow-2707",
+          "name": "Alexander Glasgow",
+          "url": "/people/glasgow-2707.html",
+          "role": "Compatible child-death candidate only; dates and father identity unresolved"
+        },
+        {
+          "id": "Glasgow-2824",
+          "name": "Alexander Glasgow",
+          "url": "/people/glasgow-2824.html",
+          "role": "Strong obituary candidate only; 1865 versus 1866 death-year discrepancy unresolved"
+        },
+        {
+          "id": "Markel-547",
+          "name": "Margaret Eve (Markel) Glasgow",
+          "url": "/people/markel-547.html",
+          "role": "Spouse identity comparison only; transcript supplies Margaret without surname"
+        },
+        {
+          "id": "Glasgow-1309",
+          "name": "Alexander Glasgow",
+          "url": "/people/glasgow-1309.html",
+          "role": "Compatible adult-baptism candidate only; no 1751 event assigned"
+        },
+        {
+          "id": "Glasgow-1321",
+          "name": "Alexander Glasgow",
+          "url": "/people/glasgow-1321.html",
+          "role": "Compatible later-baptism candidate only; no 1751 event assigned"
+        },
+        {
+          "id": "Glasgow-1342",
+          "name": "Alexander William Glasgow",
+          "url": "/people/glasgow-1342.html",
+          "role": "Compatible adult-baptism candidate only; no 1751 event assigned"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Findmypast R_693243148: Scotland, Parish Births & Baptisms 1564-1929",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_693243148&tab=this"
+        },
+        {
+          "title": "Findmypast R_686309236: Scotland, Parish Births & Baptisms 1564-1929",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_686309236&tab=this"
+        },
+        {
+          "title": "Findmypast R_694112306: Scotland, Parish Births & Baptisms 1564-1929",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_694112306&tab=this"
+        },
+        {
+          "title": "Findmypast SCOT/OPR/BUR/1030663: Scotland, Parish Deaths & Burials 1564-2017",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1030663&tab=this"
+        },
+        {
+          "title": "Findmypast GBPRS/GLASGOW/BUR/093174: Scotland, Parish Deaths & Burials 1564-2017",
+          "url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FGLASGOW%2FBUR%2F093174&tab=this"
+        },
+        {
+          "title": "Findmypast US/OHIORBH/686565: Ohio Obituary Index, 1814-2013",
+          "url": "https://www.findmypast.co.uk/transcript?id=US%2FOHIORBH%2F686565&tab=this"
+        },
+        {
+          "title": "Findmypast R_693752678: Scotland, Parish Births & Baptisms 1564-1929",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_693752678&tab=this"
+        }
+      ]
+    },
+    {
+      "found_on": "2026-10-22",
+      "reviewed_on": "2026-10-22",
+      "kind": "record",
+      "status": "qualified",
+      "detail_url": "/branches/early-scottish-records/#chapter-findmypast-born-before-1800",
+      "relationship_changes": [],
+      "new_father_attachments": 0,
+      "new_mother_attachments": 0,
+      "new_paternal_joins": 0,
+      "new_original_inspections": 0,
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+      "id": "fmp-abraham-1786-readiness-withdrawn-20261022",
+      "finding": "Abraham 1786 is on HOLD: the indexed birth year does not independently exclude the earlier Abrahams.",
+      "qualification": "HOLD — no new person is proposed. The companion Glasgow indexes report birth year 1786 but supply no separate birth date or age; only R_687411873 gives baptism, 7 April 1786. An original register has not been inspected, so the indexed birth year may be baptism-derived. Earlier Abraham Glasgow-1227 and Glasgow-1235 remain compatible, unproved adult-baptism comparisons: their earlier lives contradict an actual 1786 birth, but that premise is unestablished. Glasgow-750 is excluded because his nineteenth-century birth follows the baptism. Retain one documentary group with identity unassigned, birth on or before 7 April 1786, birthplace unresolved and no parents invented.",
+      "people": [
+        {
+          "id": "record-fmp-glasgow-87e39356adbb",
+          "name": "Abraham Glasgow",
+          "url": "/people/record-fmp-glasgow-87e39356adbb.html",
+          "role": "Held documentary account; no new person proposed"
+        },
+        {
+          "id": "Glasgow-1227",
+          "name": "Abraham Glasgow",
+          "url": "/people/glasgow-1227.html",
+          "role": "Compatible adult-baptism candidate only"
+        },
+        {
+          "id": "Glasgow-1235",
+          "name": "Abraham Glasgow",
+          "url": "/people/glasgow-1235.html",
+          "role": "Compatible adult-baptism candidate only"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Findmypast R_693241626: Scotland, Parish Births & Baptisms 1564-1929",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_693241626&tab=this"
+        },
+        {
+          "title": "Findmypast R_687411873: Scotland, Parish Births & Baptisms 1564-1929",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_687411873&tab=this"
+        }
       ]
     }
   ]

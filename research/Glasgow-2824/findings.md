@@ -7,6 +7,8 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 No sourced conclusion recorded yet.
 
+The 22 October 2026 Findmypast review below records the matched events and qualified comparisons, preserving existing vital dates and relationship assessments. No new person or parent attachment is proposed.
+
 ## Source findings
 
 | Source | Finding | Assessment |
@@ -33,3 +35,13 @@ Profile prose and trees remain leads; inspect the cited record before treating a
 - [https://www.familysearch.org/ark:/61903/1:1:X8LQ-YJM](https://www.familysearch.org/ark:/61903/1:1:X8LQ-YJM)
 - [https://www.familysearch.org/ark:/61903/1:1:XHRV-QPP](https://www.familysearch.org/ark:/61903/1:1:XHRV-QPP)
 - [https://www.familysearch.org/ark:/61903/1:1:XZDV-5X2](https://www.familysearch.org/ark:/61903/1:1:XZDV-5X2)
+
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGE3-20261022 -->
+## Findmypast page 3 and identity review — 22 October 2026
+
+The Ohio obituary index reports Alexander Glasgow, birth year 1788, death 11 January 1866, Wayne County, spouse Margaret, and notes MEXICAN WAR and ARMY. Glasgow-2824 has Wayne/Honeytown context and wife Margaret Markel, with approximate 1787 birth and a biography reporting death 11 January 1865. Matching locality, wife and day/month support a strong comparison, but the one-year death discrepancy and military notes need the underlying obituary. Do not assign 1866 or a military service merely from this index, and do not create another Alexander.
+
+- [Findmypast US/OHIORBH/686565](https://www.findmypast.co.uk/transcript?id=US%2FOHIORBH%2F686565&tab=this).
+
+Provider transcripts inspected; original images uninspected. [Shared Scottish-records account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-BIRTH-SCOPE-PAGE3-20261022 -->

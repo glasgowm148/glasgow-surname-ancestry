@@ -2,6 +2,9 @@
 
 ## Current conclusion
 
+
+The 22 October 2026 Findmypast review below records the matched events and qualified comparisons, preserving existing vital dates and relationship assessments. No new person or parent attachment is proposed.
+
 <!-- site-audit-2026-10-07:overall-conclusion -->
 Andrew Glasgow is recorded on the family tree as born in 1720 at Kirknewton or East Calder, Midlothian, an uncertain date, and no record in this file yet documents his life. Newspaper notices of 1772, 1779 and 1790 naming an Andrew Glasgow (a miller at Calder, a preses of the Leith porters and a merchant in Kirkgate, Leith) were considered for this profile and withdrawn on 6 October 2026. His tree link as a brother of Robert Glasgow (Glasgow-1445) is unverified.
 
@@ -79,3 +82,18 @@ Scope: Existing uncertain father retained; the checked1702 parentage of James is
 Next useful test: First identify Andrew3052’s own adult household using the held Janet Young comparison, then test his father.
 
 This is a first numerical review of an existing attachment, not a new father, new branch connection or original-source discovery. The prior contributor mark is retained in the structured assessment history.
+
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGE3-20261022 -->
+## Findmypast page 3 and identity review — 22 October 2026
+
+One Kirknewton and East Calder baptism on 9 March 1741 names Andrew Glasgow and Janet Clerk, matching Glasgow-1309 and the existing parent pair. Retain birth before baptism; the indexed year does not independently establish an exact birthday. No new child or relationship is proposed.
+
+One Mid Calder baptism on 17 April 1757 names Andrew Glasgow and Janet Young. Alexander Glasgow-3612, with uncertain 1760 birth, Midlothian association and unknown parents, remains a compatible comparison. Andrew Glasgow-1239 and Glasgow-3052 are possible father comparisons by name, chronology and neighbouring parish context, with no family bridge identifying either. Retain both named parents as source assertions; do not replace a known wife, invent a modern mother or attach the child. No new person is proposed.
+
+- [Findmypast R_686209548](https://www.findmypast.co.uk/transcript?id=R_686209548&tab=this).
+- [Findmypast R_691906288](https://www.findmypast.co.uk/transcript?id=R_691906288&tab=this).
+- [Findmypast R_686309236](https://www.findmypast.co.uk/transcript?id=R_686309236&tab=this).
+- [Findmypast R_694112306](https://www.findmypast.co.uk/transcript?id=R_694112306&tab=this).
+
+Provider transcripts inspected; original images uninspected. [Shared Scottish-records account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-BIRTH-SCOPE-PAGE3-20261022 -->
