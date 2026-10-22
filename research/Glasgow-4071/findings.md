@@ -4,6 +4,8 @@ Last updated: 2026-10-06
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **91% (proved)** for [Glasgow-4090](https://www.wikitree.com/wiki/Glasgow-4090). Selected father-profile identity and paternal relationship; maternal identity is separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 [Elizabeth (Glasgow) Anderson (Glasgow-4071)](https://www.wikitree.com/wiki/Glasgow-4071), wife of James Anderson, **died at Gortahar, Rasharkin parish, on 7 September 1868 aged 66 (born c.1802)**; the civil death entry names James Anderson ([FamilySearch index QPTW-QQXN](https://www.familysearch.org/ark:/61903/1:1:QPTW-QQXN), "Ireland, Civil Registration, 1845–1913"; image not online — GRONI holds the register). The WikiTree birth estimate "before 1816" should become **about 1802**, and the death added. Her children by James Anderson: Robert (bapt. Rasharkin 28 July 1834, Drumack; d. Beekmantown NY 23 Aug 1883), Hugh (bapt. 24 Nov 1836, Drumack; d. 21 May 1864 Gortahar per FS Tree G313-JQQ, unsourced), David (c.1830–11 Apr 1914, Gortahar; unmarried), James, and Samuel (c.1845–7 Dec 1925, Gortahar; m. Mary Ann, nine children). The 1892 probate citation of her sister [Nancy Glasgow (Glasgow-4070)](https://www.wikitree.com/wiki/Glasgow-4070) lists "David Anderson, James Anderson and Samuel Anderson living at Gortahar" among Nancy's heirs or next of kin; Nancy's will calls Robert her nephew.
 
 Her parents are not named in any located record. Nancy's will explicitly calls
@@ -64,3 +66,17 @@ The [Rasharkin Presbyterian baptism transcription](https://genealogy.torrens.org
 ## Recommended WikiTree update — 6 October 2026
 
 Add James Anderson's death to this profile's biography and to Anderson-104743 (death 18 April 1888, Gortahar; birth about 1793–94 from the reported age). Queued locally; not saved on WikiTree.
+
+## Father confidence review, eighth batch — 22 October 2026
+
+[Glasgow-4090](https://www.wikitree.com/wiki/Glasgow-4090) remains the selected father, assessed **91% (proved)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+Elizabeth’s Gortahar Anderson sons link her family to Nancy’s 1892 probate kinship network. John of Lisnagaver’s 16 November 1846 marriage names father John Glasgow farmer; the maintained 6 October identity definition represents this father, extending the supported family hypothesis without requiring the 1796 flaxgrower match.
+
+Scope: Selected father-profile identity and paternal relationship; maternal identity is separate.
+
+Next useful test: Compare full probate kinship wording with the Irish siblings’ own parent statements.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Register image, IrishGenealogy.ie](https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1846/09306/5369439.pdf)

@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **88% (probable)** for [Glasgow-1460](https://www.wikitree.com/wiki/Glasgow-1460). Selected father-profile identity and paternal relationship; maternal identity is separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 <!-- site-audit-2026-10-07:overall-conclusion -->
 William Glasgow is recorded on the family tree with an uncertain birth before 25 February 1816, and the 6 October 2026 review describes him as baptised in 1816; no record in this file yet documents his life. Newspaper notices of a William Glasgow, tenant of Cleugh-head and Clovenfordsyke in West Calder in 1774 to 1777, and of William Allen Glasgow, commissioned in the Royal Engineers in 1795, were considered for this profile and withdrawn on 6 October 2026; the tenant cannot be a man baptised in 1816.
 
@@ -75,3 +77,17 @@ The notices describe planned sales, an adjournment and later former possession, 
 
 This may concern [Glasgow-1463](https://www.wikitree.com/wiki/Glasgow-1463). Broad before-1816 birth boundary permits 1776, but provides no age, tenancy or family connection; weak comparison.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, eighth batch — 22 October 2026
+
+[Glasgow-1460](https://www.wikitree.com/wiki/Glasgow-1460) remains the selected father, assessed **88% (probable)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+The held FamilySearch church-index account places William Glasgow, 25 February 1816, in John Glasgow and Jean Bryce’s child sequence. The 1841 Hume’s Close household supports that adult family, while identification with the 1783 Bathgate child remains strongly circumstantial.
+
+Scope: Selected father-profile identity and paternal relationship; maternal identity is separate.
+
+Next useful test: Find John/Jean’s marriage or John’s death identifying his earlier family.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: ["Scotland, Presbyterian & Protestant Church Records, 1736–1990," database, FamilySearch (https://familysearch.org/ark:/61903/1:1:QP7Y-LY8S : accessed 28 July 2026), entry for William Glasgow and John Glasgow, 25 February 1816.](https://familysearch.org/ark:/61903/1:1:QP7Y-LY8S)

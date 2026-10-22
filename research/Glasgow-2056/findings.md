@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **93% (proved)** for [Glasgow-3135](https://www.wikitree.com/wiki/Glasgow-3135). Selected father-profile identity and paternal relationship; maternal identity is separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 John Glasgow of Killycurragh is ruled out as a name-and-age identification of the nephew in [John Glasgow's (Glasgow-1022)](https://www.wikitree.com/wiki/Glasgow-1022) 1851 Glenleslie household. John's 1850 civil marriage names his father as Henry Glasgow, farmer, and places John at Killycurragh, County Tyrone. No record makes Henry a brother of John-1022, and the different county cannot be bridged by name and estimated age alone.
 
 ## Source findings
@@ -35,3 +37,17 @@ A possible identification concerns John Glasgow, Drogheda sub-constable, 1850. S
 
 A possible identification concerns John Glasgow, Dundrum subscription-list context, 1840. John Glasgow occurs in the Loyal National Repeal Association subscription report, under “Per Mr. Edward Byrne, Dundrum,” published on 19 October 1840. This is a personal surname occurrence in a named collection list. (Freeman’s Journal and Daily Commercial Advertiser, 19 October 1840, p.4, Loyal National Repeal Association subscriptions; [record](https://www.newspapers.com/image/1050137248/); Freeman’s Journal and Daily Commercial Advertiser, 19 October 1840, p. 4, Loyal National Repeal Association subscriptions (alternate scan); [record](https://www.newspapers.com/image/1380778107/).) The list supplies no age, occupation, exact address, relatives or individual subscription amount. Dundrum identifies the collection context; it is not an explicit statement of John’s residence. [Glasgow-2058](https://www.wikitree.com/wiki/Glasgow-2058), [Glasgow-1968](https://www.wikitree.com/wiki/Glasgow-1968) and [Glasgow-2056](https://www.wikitree.com/wiki/Glasgow-2056) survive as chronology comparisons only; none has a checked Dublin or Dundrum bridge. No identification or religious affiliation is inferred from the political subscription. Image 1380778107 is an alternate scan of this same report and list passage, not a second occurrence. The identification remains uncertain.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, eighth batch — 22 October 2026
+
+[Glasgow-3135](https://www.wikitree.com/wiki/Glasgow-3135) remains the selected father, assessed **93% (proved)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+John’s 16 June 1850 Cookstown marriage account names father Henry Glasgow, farmer. The selected Henry represents precisely that role; the speculative 1869 Thurles death match is not required for the paternal identification.
+
+Scope: Selected father-profile identity and paternal relationship; maternal identity is separate.
+
+Next useful test: Find another local record identifying Henry before adopting the Thurles death.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [General Register Office of Ireland, civil marriage register, John Glasgow and Matilda Little, 16 June 1850, Cookstown registration district; original register image (https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1850/09386/5399841.pdf), entry 39.](https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1850/09386/5399841.pdf)

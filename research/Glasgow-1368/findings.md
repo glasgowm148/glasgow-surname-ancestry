@@ -4,6 +4,8 @@ Last updated: 2026-08-19
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **99% (proved)** for [Glasgow-1022](https://www.wikitree.com/wiki/Glasgow-1022). Whole selected father-profile proposition; maternity and upstream ancestry assessed separately. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 The 1851 Glenleslie census directly calls [[Glasgow-1368|Ellen Glasgow]], age
 26, a married daughter of [[Glasgow-1022|John Glasgow]]. An independent 1847
 Ballymena Workhouse entry records Ellen Glasgow, age 22, married and deserted,
@@ -35,3 +37,17 @@ On 19 August 2026, the complete census and workhouse evidence was added to the
 live profile. Ellen's estimated Dunaghy birthplace and 1844 marriage year were
 retained but marked uncertain. John remains a confident father; Rose, Unknown
 Grimes, and both children's parent links are now marked uncertain.
+
+## Father confidence review, eighth batch — 22 October 2026
+
+[Glasgow-1022](https://www.wikitree.com/wiki/Glasgow-1022) remains the selected father, assessed **99% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+The 1851 Glenleslie household 21 names Ellen,26, as John Glasgow’s daughter; the 1847 workhouse entrant independently matches her age, married status and townland. Neither the possible 1881 death nor the Grimes children are needed to identify this father.
+
+Scope: Whole selected father-profile proposition; maternity and upstream ancestry assessed separately.
+
+Next useful test: Inspect original household 21 relationship column.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [William Macafee and W. Scott, "1851 Census for some Parishes and Townlands in the Barony of Kilconway, Co. Antrim" (https://www.billmacafee.com/census/1851 censuskilconway.pdf), Dunaghy, Glenleslie, household 21, entries 8292–8301 (accessed 13 August 2026).](https://www.billmacafee.com/census/1851censuskilconway.pdf)

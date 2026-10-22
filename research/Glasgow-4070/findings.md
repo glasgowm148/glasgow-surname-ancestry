@@ -2,6 +2,12 @@
 
 Last updated: 2026-10-07
 
+## Current conclusion
+
+Current father assessment (22 October 2026): **90% (proved)** for [Glasgow-4090](https://www.wikitree.com/wiki/Glasgow-4090). Selected father-profile identity and paternal relationship; maternal identity is separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
+Nancy’s 1889 will and 1892 probate support the sibling/niece-nephew network including John of Lisnagaver’s descendants. John of Lisnagaver’s 16 November 1846 marriage names father John Glasgow farmer; the maintained 6 October identity definition represents this father, extending the supported family hypothesis without requiring the 1796 flaxgrower match.
+
 ## Current conclusion and new evidence — 29 September 2026
 
 The **Plattsburgh Sentinel, 6 November 1891, p. 8**, reports Nancy's death at **Plattsburgh on 31 October 1891**, **aged about 75**, followed by a funeral on Monday afternoon at the **Peristrome Presbyterian church**. [Original newspaper page](https://www.nyshistoricnewspapers.org/?a=d&d=plts18911106-01.1.8). The original PDF and an unaltered crop are saved in `record-excerpts/`. The notice names no relatives or birthplace. Its c.1815–16 birth implication conflicts with Nancy's will's c.1820–21 implication; neither approximate age resolves the conflict. The independently corroborated death date is stronger than the cemetery transcription alone. The maintained census indexes give still other ages: 30 in 1860, 50 in 1870 and 65 in 1880 ([MC7C-HHK](https://www.familysearch.org/ark:/61903/1:1:MC7C-HHK), [M8FF-ZQD](https://www.familysearch.org/ark:/61903/1:1:M8FF-ZQD), [MZZF-HDJ](https://www.familysearch.org/ark:/61903/1:1:MZZF-HDJ)). These are not new original-image inspections in this review; they reinforce that neither selected birth estimate is a proved bound.
@@ -167,3 +173,17 @@ The probate citation in Nancy's estate, dated 14 January 1892 and printed in the
 The citation lists them among the people cited as heirs or next of kin but does not state how Martha Dysart or Elizabeth Weir were related to Nancy; that they belong to Jane (Glasgow) Dysart's family is an inference. The profile draft links Mary Jane to Dysart-1845 (Mary Jane (Dysart) Hampton); that identification comes from the draft, not from the citation. Glasgow-951's findings record New Zealand indexes for a Mary Jane Dysart who married Christopher Hampton in 1871 and a Mary Jane Hampton who died in 1881, and leave her identity with the 1837 Rasharkin child unresolved; if she is the same woman, the citation's "supposed to be living" was out of date. The New Zealand entries are a lead for the Dysart branch, not evidence for Nancy's parentage.
 
 Recorded in `research/profile-preservation-audit-2026-09-30/Glasgow-4070-reconciled.wiki` (30 September 2026); carried into this file on 7 October 2026.
+
+## Father confidence review, eighth batch — 22 October 2026
+
+[Glasgow-4090](https://www.wikitree.com/wiki/Glasgow-4090) remains the selected father, assessed **90% (proved)**. Previous selected-tree status: **uncertain**, without an individual percentage.
+
+Nancy’s 1889 will and 1892 probate support the sibling/niece-nephew network including John of Lisnagaver’s descendants. John of Lisnagaver’s 16 November 1846 marriage names father John Glasgow farmer; the maintained 6 October identity definition represents this father, extending the supported family hypothesis without requiring the 1796 flaxgrower match.
+
+Scope: Selected father-profile identity and paternal relationship; maternal identity is separate.
+
+Next useful test: Compare full probate kinship wording with the Irish siblings’ own parent statements.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [The Plattsburgh Sentinel (Plattsburgh, New York), 26 February 1892, p. 6, "Legal Notices", probate citation in the estate of Nancy Glasgow, dated 14 January 1892; digital newspaper page (https://www.nyshistoricnewspapers.org/?a=d&d=plts18920226-01.1.6).](https://www.nyshistoricnewspapers.org/?a=d&d=plts18920226-01.1.6)

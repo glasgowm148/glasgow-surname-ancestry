@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **98% (proved)** for [Glasgow-822](https://www.wikitree.com/wiki/Glasgow-822). Selected father-profile identity and paternal relationship; maternal identity is separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 The original [Glasgow Bible register image](https://hiltner.com/mckeown/histories/8479.jpeg)
 records Adam Glasgow as born on **7 July 1804** within John Glasgow and Mary
 Arthur's family register. This replaces the live profile's sole citation,
@@ -78,3 +80,17 @@ A possible identification concerns Adam D. Glasgow, Broughshane student and Belf
 
 A possible identification concerns Adam D. Glasgow, Broughshane student and Belfast teacher/minister. General Synod report separately says ordained Ministers Messrs Adam Glasgow and James Carr offered themselves for foreign mission in India and were accepted; initial field Kathiawar/Guzerat, planned departure 4 August overland to Bombay. (Belfast News-Letter, 14 July 1840, p. 1; [record](https://www.newspapers.com/image/390559244/).) This is James Carr, not James Glasgow in adjacent set-apart report. Planned departure is not proof journey occurred. The identification remains uncertain.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, eighth batch — 22 October 2026
+
+[Glasgow-822](https://www.wikitree.com/wiki/Glasgow-822) remains the selected father, assessed **98% (proved)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+John Glasgow and Mary Arthur’s family Bible includes Adam, born 7 July 1804, among the nine children after their 21 May 1798 marriage. The 1847 letter mentions Adam’s 27 December 1846 letter; the disputed 1862 death is separate.
+
+Scope: Selected father-profile identity and paternal relationship; maternal identity is separate.
+
+Next useful test: Compare the register hand/entry with associated correspondence or baptism.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Glasgow family Bible, family register of John Glasgow and Mary Arthur, original register image (https://hiltner.com/mckeown/histories/8479.jpeg); media description (https://hiltner.com/mckeown/showmedia.php?mediaID=532&medialinkID=726), McKeown and Shields Families; the collection is indexed at hiltner.com/mckeown (https://hiltner.com/mckeown/index.php), accessed 29 August 2026.](https://hiltner.com/mckeown/histories/8479.jpeg)

@@ -20,6 +20,8 @@ A contemporaneous original notice independently confirms the same marriage and f
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **95% (proved)** for [Glasgow-3902](https://www.wikitree.com/wiki/Glasgow-3902). Whole selected father-profile proposition; maternity and upstream ancestry assessed separately. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 The marriage notice directly identifies Nancy as the sixth daughter of Adam
 Glasgow of Inishrush and as the wife of John Kyle of Tyanee on 14 January 1842.
 No record yet identifies her after the marriage or names a child. She remains
@@ -36,3 +38,17 @@ record establishes continuity.
 ### Newspaper identity review — 6 October 2026
 
 - Married John Kyle of Tyanee on 14 Jan 1842. Described as the 'sixth daughter' of Adam Glasgow of Inishrush, so he had at least six daughters; only Eliza and Nancy are on WikiTree. — Belfast News-Letter 1 Feb 1842, image 390552842; Londonderry Sentinel 29 Jan 1842 ([Belfast News-Letter, 1842-02-01, p.3](https://www.newspapers.com/image/390552842/))
+
+## Father confidence review, eighth batch — 22 October 2026
+
+[Glasgow-3902](https://www.wikitree.com/wiki/Glasgow-3902) remains the selected father, assessed **95% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+The 1842 marriage notice calls Nancy, wife of John Kyle of Tyanee, sixth daughter of Adam Glasgow of Inishrush. The older Adam-3902, dead 1844, fits the established multi-child household; Adam-1622 is a real younger Inishrush alternative but fits a sixth-daughter family less well.
+
+Scope: Whole selected father-profile proposition; maternity and upstream ancestry assessed separately.
+
+Next useful test: Inspect the original 1842 notice and Adam’s family/probate for a Kyle daughter.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Londonderry Standard, marriage notice, 14 January 1842, transcribed in “County Tyrone Ireland Marriage Notices 1840-42,” public transcription (https://cotyrone.com/~inthenews/marriages-notices-1840-42/).](https://cotyrone.com/~inthenews/marriages-notices-1840-42/)

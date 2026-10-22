@@ -4,6 +4,8 @@ Last updated: 2026-08-25
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **99% (proved)** for [Glasgow-1367](https://www.wikitree.com/wiki/Glasgow-1367). Selected father-profile identity and paternal relationship; maternal identity is separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Margaret Glasgow, born about 1801 in County Antrim, was the unmarried daughter
 of Robert Glasgow `Glasgow-1367`. The 1851 Glenleslie census gives her age and
 relationship. Robert's will directly calls her “my daughter Margaret Glasgow”
@@ -37,3 +39,17 @@ resolved.
 Robert is a confident father; Catherine remains an uncertain mother. Mary Young
 is a confident daughter. James Young is proved as a son in prose but remains
 unlinked pending identity resolution.
+
+## Father confidence review, eighth batch — 22 October 2026
+
+[Glasgow-1367](https://www.wikitree.com/wiki/Glasgow-1367) remains the selected father, assessed **99% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+The 1851 Glenleslie household 23 transcription explicitly records Margaret, daughter50 relative to Robert Glasgow. Robert’s 3 February 1851 will independently calls Margaret his daughter.
+
+Scope: Selected father-profile identity and paternal relationship; maternal identity is separate.
+
+Next useful test: Compare the complete original return, including absent members, with the transcription.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Robert Glasgow of Glenleslie, will dated 3 February 1851 and proved 13 February 1854, National Archives of Ireland copy, FamilySearch image 229 (https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJ8-MQQJ?view=fullText).](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJ8-MQQJ?view=fullText)

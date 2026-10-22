@@ -6,6 +6,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **98% (proved)** for [Glasgow-3324](https://www.wikitree.com/wiki/Glasgow-3324). Selected father-profile identity and paternal relationship; maternal identity is separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Mary, daughter of William Glasgow and Elizabeth, died on 18 October 1844 aged 37 according to the [Larne monument transcription](https://archive.org/details/ulsterjournalofa06ulstiala/page/47/mode/1up), supporting birth about 1807. The earlier after 1783 birth boundary is superseded. Mary Glasgow-4181, the intended bride in 1843, remains a possible duplicate: her probable census match died autumn 1843 aged 37. Resolve the identity and date conflict before merging; retain this Mary’s documented father William.
 
 <!-- larne-kilwaughter-audit-2026-10-06:vitals -->
@@ -23,3 +25,17 @@ First Larne Presbyterian Church's published history ([*A Short History*](https:/
 The surviving 1831 census extract for Larne town ([Virtual Record Treasury, CEN-1831-3-29-9-3](https://virtualtreasury.ie/item/VRTI-CEN-1831-3-29-9-3-LarneTown)) lists female-headed Glasgow households of Jane (no males, five females), Anne (no males, two females) and Mary (no males, four females). The return gives numbers only, no ages or relationships; it does not identify which Mary.
 
 Recorded in `research/Glasgow-3989/larne-attachment-2026-09-21.wiki` (21 September 2026); carried into this file on 7 October 2026.
+
+## Father confidence review, eighth batch — 22 October 2026
+
+[Glasgow-3324](https://www.wikitree.com/wiki/Glasgow-3324) remains the selected father, assessed **98% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+The Larne monument transcription in Ulster Journal of Archaeology6(1900), p.47 identifies Mary in William and Elizabeth Glasgow’s family, alongside William’s 1816 death. The death entry 18 October 1844 aged 37 defines this child independently of speculative later matches.
+
+Scope: Selected father-profile identity and paternal relationship; maternal identity is separate.
+
+Next useful test: Compare the original stone and William’s 1815 will, PRONI D300/1/5/49.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: ["Armorial Sculptured Stones of the County Antrim," Ulster Journal of Archaeology, second series, vol. 6 (1900), p. 47, Glasgow inscriptions; page image (https://archive.org/details/ulsterjournalofa06ulstiala/page/47/mode/1up).](https://archive.org/details/ulsterjournalofa06ulstiala/page/47/mode/1up)

@@ -4,6 +4,8 @@ Last updated: 2026-10-07
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **88% (probable)** for [Glasgow-4090](https://www.wikitree.com/wiki/Glasgow-4090). Selected father-profile identity and paternal relationship; maternal identity is separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 [Ann (Glasgow) McClelland (Glasgow-4092)](https://www.wikitree.com/wiki/Glasgow-4092) was the wife of Andrew McClelland, carpenter, of Killyless, Craigs parish. Two independent Scottish civil records name "Ann Glasgow" as mother of Andrew McClelland (d. 1870 Bridgeton) and Robert McLelland (m. 1873); son Andrew's 1860 Craigs marriage names his father "Andrew McClelland, carpenter". The 1892 probate citation of Nancy-4070 lists "the children of Ann McClelland" among Nancy's heirs/next of kin. Birth c.1810 is an estimate; no own-event record found.
 
 **21 September 2026 — probate evidence audit.** The civil-record parent statements
@@ -36,3 +38,17 @@ Husband **McClelland-3730** (Andrew, carpenter); sons **McClelland-3731** (Andre
 The probate citation in the estate of Nancy Glasgow ([Glasgow-4070](https://www.wikitree.com/wiki/Glasgow-4070)) is **dated 14 January 1892**, returnable 9 May 1892. It was printed in the *Plattsburgh Republican* on 23 and 30 January and 13 February 1892 and in the [*Plattsburgh Sentinel*, 26 February 1892, p. 6](https://www.nyshistoricnewspapers.org/?a=d&d=plts18920226-01.1.6) (original newspaper page). The “23 January 1892 citation” mentioned above is its first printing, not its date. The citation lists “the children of Ann McClelland whose names and places of residence are unknown” among Nancy's heirs and next of kin; that this Ann is Nancy's sister remains **probable**.
 
 Recorded in `research/Glasgow-4092/1860_Ireland_Killyless_Ann_Glasgow.md` (September 2026), with the printings from `research/Glasgow-4070/findings.md`; carried into this file on 7 October 2026.
+
+## Father confidence review, eighth batch — 22 October 2026
+
+[Glasgow-4090](https://www.wikitree.com/wiki/Glasgow-4090) remains the selected father, assessed **88% (probable)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+Ann McClelland’s children are named in Nancy’s 1892 citation, and sons’ Scottish records establish Ann Glasgow’s identity. John of Lisnagaver’s 16 November 1846 marriage names father John Glasgow farmer; the maintained 6 October identity definition represents this father, extending the supported family hypothesis without requiring the 1796 flaxgrower match.
+
+Scope: Selected father-profile identity and paternal relationship; maternal identity is separate.
+
+Next useful test: Compare full probate kinship wording with the Irish siblings’ own parent statements.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [The Plattsburgh Sentinel, 26 February 1892, p. 6. newspaper page (https://www.nyshistoricnewspapers.org/?a=d&d=plts18920226-01.1.6); also printed in The Plattsburgh Republican, 23 January–13 February 1892.](https://www.nyshistoricnewspapers.org/?a=d&d=plts18920226-01.1.6)

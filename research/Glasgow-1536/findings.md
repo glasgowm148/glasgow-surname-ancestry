@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **92% (proved)** for [Glasgow-1530](https://www.wikitree.com/wiki/Glasgow-1530). Selected father-profile identity and paternal relationship; maternal identity is separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 <!-- site-audit-2026-10-07:overall-conclusion -->
 George Glasgow is recorded with a birth or baptism in Barony parish on 26 October 1804, but the file cites no record for that date and documents nothing further about his life. Royal Artillery notices of 1825 and 1837 naming First Lieutenant George Mark Glasgow were considered for this profile and withdrawn on 6 October 2026; the review identified that officer as George Mark Glasgow, born at Quebec in 1795 (Glasgow-3785), probably the same man as Glasgow-3127, a likely duplicate. Glasgow-3127 carries a note that it may be the same as this profile, but the file treats that link as a weak comparison.
 
@@ -22,3 +24,17 @@ Glasgow-3127 is a strong compatible Royal Artillery candidate: its live biograph
 ## Identity assessment — newspaper candidates withdrawn, 6 October 2026
 
 - [The Waterford Mirror, 1825-02-14, p.3](https://www.newspapers.com/image/60324711/): no longer a candidate for this profile. Feb 1825 reprint of the War Office notice: First Lieutenant George Mark Glasgow, Royal Artillery, from half pay. Glasgow-3785 (b. Quebec 1795, d. Kingston 1851) and Glasgow-3127 (Captain RA, d. by 1846) both fit and may be duplicates; the Quebec birth suggests he was a son of Lt-Gen George Glasgow RA, but nothing proves it.
+
+## Father confidence review, eighth batch — 22 October 2026
+
+[Glasgow-1530](https://www.wikitree.com/wiki/Glasgow-1530) remains the selected father, assessed **92% (proved)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+The held ScotlandsPeople Barony baptism citation explicitly names George Glasgow, 26 October 1804, as Robert Glasgow’s child with Margaret Bruce. The 1803 Brash marriage fits, with Bruce/Brash requiring a separate maternal reading.
+
+Scope: Selected father-profile identity and paternal relationship; maternal identity is separate.
+
+Next useful test: Read the original baptism for residence, occupation and precise mother’s surname.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: ["Church of Scotland: Old Parish Registers - Births and Baptisms," database, National Records of Scotland, ScotlandsPeople (https://www.scotlandspeople.gov.uk/) (accessed 19 April 2025), George Glasgow born or baptised on 26 Oct 1804, son of Robert Glasgow & Margaret Bruce, in Barony, Lanarkshire, Scotland; citing Parish Number 622, Ref 40/357.](https://www.scotlandspeople.gov.uk/)

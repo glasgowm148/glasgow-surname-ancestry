@@ -4,6 +4,8 @@ Last updated: 2026-08-19
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **53% (possible)** for [Glasgow-2769](https://www.wikitree.com/wiki/Glasgow-2769). Selected father-profile identity and paternal relationship; maternal identity is separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Emma remains an uncertain daughter of Robert Glasgow-2769. Her reported birth
 about 1815 fits the female aged 20–29 in Robert's 1840 household, but the census
 does not name household members and no direct relationship record was found.
@@ -41,3 +43,17 @@ A notice reports that Emma, daughter of the late William Alexander Glasgow, marr
 
 Identification with the woman reportedly born about 1815 in South Carolina remains weak. The attached Robert and Nancy parentage is an unproved reconstruction from unnamed census women, so it is not a documentary exclusion; a marriage at about 60 is also not ruled out by an age-free notice. The alternative father candidate [William Glasgow](https://www.wikitree.com/wiki/Glasgow-1387), born about 1810, could not father this Emma on those dates. He would require a different, later-born bride: these are competing family hypotheses, not an asserted parent–child pair.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, eighth batch — 22 October 2026
+
+[Glasgow-2769](https://www.wikitree.com/wiki/Glasgow-2769) remains the selected father, assessed **53% (possible)**. Previous selected-tree status: **uncertain**, without an individual percentage.
+
+The 1820 Giles and 1840 Lauderdale census accounts establish Robert’s household chronology; Emma’s c.1815 birth fits the unnamed female slots. Neither schedule names this child or a parent relationship; the placement remains unproved.
+
+Scope: Selected father-profile identity and paternal relationship; maternal identity is separate.
+
+Next useful test: Seek probate, deed or marriage naming this child in Robert’s family.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [1820 United States census, Giles County, Tennessee, Robert Glasgow household; NARA microfilm publication M33, roll 124; original schedule, scan 21 (https://archive.org/details/populationsc18200124 unit/page/n21/mode/1up).](https://archive.org/details/populationsc18200124unit/page/n21/mode/1up)

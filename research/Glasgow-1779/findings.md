@@ -7,6 +7,8 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **99% (proved)** for [Glasgow-1657](https://www.wikitree.com/wiki/Glasgow-1657). Whole selected father-profile proposition; maternity and upstream ancestry assessed separately. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 No sourced conclusion recorded yet.
 
 ## Source findings
@@ -44,3 +46,17 @@ Profile prose and trees remain leads; inspect the cited record before treating a
 ### Newspaper identity review — 6 October 2026
 
 - Research note (identity possible, not proved): an Anne Armstrong, daughter of Jane Glasgow and wife of John Armstrong (son of Euphemia Armstrong), died at Ballyclug on 23 June 1838 after a childbirth attended by William M'Gowan, who was acquitted of manslaughter at the Antrim summer assizes 1838. If she is this Jane (Glasgow) Armstrong, the 1837 death date from the gravestone transcription needs correcting. — Freeman's Journal, 27 July 1838, p. 3 (newspapers.com image 1050122635) ([Freeman’s Journal and Daily Commercial Advertiser, 1838-07-27, p.3](https://www.newspapers.com/image/1050122635/))
+
+## Father confidence review, eighth batch — 22 October 2026
+
+[Glasgow-1657](https://www.wikitree.com/wiki/Glasgow-1657) remains the selected father, assessed **99% (proved)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+The Racavan memorial transcription identifies Jane Armstrong, died 1837 aged 38, as daughter of the latter John Glasgow, died 1836 aged 70. The shared stone selects John-1657 directly; the possible 1838 Anne Armstrong newspaper comparison is a separate uncertain identity.
+
+Scope: Whole selected father-profile proposition; maternity and upstream ancestry assessed separately.
+
+Next useful test: Inspect the Racavan stone photograph for wording and dates.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [www.thebraid.com/ancestor_search.aspx?surname=Glasgow: Racavan Burying-Ground, Broughshane: "With the Lord" 1 Thess IV. 17. In loving memory of William Glasgow, who died 1823, aged 22. His father John Glasgow, 1836, aged 70. Jane Armstrong, daughter of the latter 1837, aged 38 And Jane, his widow 1858, aged 85](https://www.wikitree.com/wiki/Glasgow-1779)

@@ -4,6 +4,8 @@ Last updated: 2026-08-19
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **98% (proved)** for [Glasgow-1982](https://www.wikitree.com/wiki/Glasgow-1982). Whole selected father-profile proposition; maternity and upstream ancestry assessed separately. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Unknown-596970 has been merged into Glasgow-3999 with Glasgow as Ruth's birth
 surname. Mary McCracken Glasgow's 1837 will explicitly identifies a daughter
 Ruth and gives her one-seventh of the estate. Wilson Glasgow's real-estate
@@ -27,3 +29,17 @@ both attached parent links remain uncertain.
 On 19 August 2026, the live biography was rewritten with the will, estate-index
 and cemetery evidence. The stale unknown-birth-surname wording was removed,
 and both parent links were marked uncertain pending the original packet.
+
+## Father confidence review, eighth batch — 22 October 2026
+
+[Glasgow-1982](https://www.wikitree.com/wiki/Glasgow-1982) remains the selected father, assessed **98% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+Wilson’s Newberry real-estate packet1-13 index lists Ruth within Mary, Robert, Ruth, Naomi, Matilda, Hiram, Almina and Maria. Mary’s 1837 will expressly names daughter Ruth, while exact 1802–1863 dates, Gilders Creek burial and Absolom marriage identify this Ruth.
+
+Scope: Whole selected father-profile proposition; maternity and upstream ancestry assessed separately.
+
+Next useful test: Inspect packet1-13 for explicit heir relationships and identities.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Newberry County, South Carolina, real-estate packet 1-13, estate of Wilson Glasgow; index (https://genealogytrails.com/scar/newberry/realestate.html), entries for Wilson Glasgow and Mary, Robert, Ruth, Naomi, Matilda, Hiram, Almina and Maria.](https://genealogytrails.com/scar/newberry/realestate.html)

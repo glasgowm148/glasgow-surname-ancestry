@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **98% (proved)** for [Glasgow-822](https://www.wikitree.com/wiki/Glasgow-822). Selected father-profile identity and paternal relationship; maternal identity is separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 The unlinked Jane Glasgow Gray occurrence is an exact family match to
 [[Glasgow-3929|Jane Glasgow Gray]]. The live profile has the reported father
 [[Glasgow-822|John Glasgow]] and spouse [[Gray-53944|John Gray]]. Do not create
@@ -31,3 +33,17 @@ Recorded in `research/free-space-pages/missing-evidence-analysis.md` (29 August 
 
 A possible identification concerns Jane Glasgow. An 1874 indenture traces James Glasgow’s 2 October 1779 Newtown of Larne lease to a 25 February 1832 renewal to Anne and Jane Glasgow. (Inspected historical source; [record](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS54-77Q4-H).) Original recital inspected. It establishes title succession, not stated descent; James and both women’s identities remain unresolved. The identification remains uncertain.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, eighth batch — 22 October 2026
+
+[Glasgow-822](https://www.wikitree.com/wiki/Glasgow-822) remains the selected father, assessed **98% (proved)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+John Glasgow and Mary Arthur’s family Bible includes Jane, born 5 October 1802, among the nine children after their 21 May 1798 marriage. John’s 20 March 1847 letter to Jane Glasgow Gray adds direct family context.
+
+Scope: Selected father-profile identity and paternal relationship; maternal identity is separate.
+
+Next useful test: Compare the register hand/entry with associated correspondence or baptism.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Glasgow family Bible, family register of John Glasgow and Mary Arthur, original register image (https://hiltner.com/mckeown/histories/8479.jpeg); media description (https://hiltner.com/mckeown/showmedia.php?mediaID=532&medialinkID=726), McKeown and Shields Families; the collection is indexed at hiltner.com/mckeown (https://hiltner.com/mckeown/index.php), accessed 29 August 2026.](https://hiltner.com/mckeown/histories/8479.jpeg)
