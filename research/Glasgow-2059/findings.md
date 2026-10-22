@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **99% (proved)** for [Glasgow-2058](https://www.wikitree.com/wiki/Glasgow-2058). Selected Glasgow-2058 fatherhood of Glasgow-2059; maternal identity and upstream ancestry are separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Benjamin’s 1856 marriage is directly identified: age 20, bachelor merchant resident in Cookstown, father John Glasgow, merchant. The register does not specifically give Killycurragh as his residence. The already-confident father link is supported, not upgraded. The Drapersfield Benjamin’s current action in July 1870 postdates this profile’s recorded 8 February 1870 death and strongly distinguishes the two men; do not attach the mill-case uncle or Robert father clause to this profile.
 
 ## Source findings
@@ -36,3 +38,17 @@ Check the civil death original and identify the separate Drapersfield Benjamin t
 
 A possible identification concerns Master Benjamin Glasgow, Cookstown school-support donor. Master Benjamin Glasgow of Cookstown is listed for one shilling towards support of scholars in the agricultural school in June 1850. (Belfast News-Letter, 28 June 1850, p. 2, agricultural-school scholars’ support; [record](https://www.newspapers.com/image/390559842/).) A donor list, not proof that Benjamin attended the school. “Master” supplies no exact age. [Glasgow-2059](https://www.wikitree.com/wiki/Glasgow-2059) (reported born about 1835) and [Glasgow-2566](https://www.wikitree.com/wiki/Glasgow-2566) (about 1840) are compatible young catalogue namesakes; assignment to either, or to the Drapersfield Benjamin, is unresolved. The surgeon who died in 1833 is excluded. The identification remains uncertain.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, ninth batch — 22 October 2026
+
+[Glasgow-2058](https://www.wikitree.com/wiki/Glasgow-2058) remains the selected father, assessed **99% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+The held original-marriage account explicitly names John Glasgow, merchant, as Benjamin's father and describes the 20-year-old groom as a Cookstown merchant. John-2058 represents that record-defined father; his estimated birth and other proposed sons are separate.
+
+Scope: Selected Glasgow-2058 fatherhood of Glasgow-2059; maternal identity and upstream ancestry are separate.
+
+Next useful test: Use the marriage-defined father while resolving John's own chronology.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Benjamin Glasgow, Jane Little, 1856, Cookstown) at Irish Civil Registration - Marriages Cookstown https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1856/09507/5445820.pdf](https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1856/09507/5445820.pdf)

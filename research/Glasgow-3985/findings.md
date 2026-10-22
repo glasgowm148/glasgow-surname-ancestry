@@ -4,6 +4,8 @@ Last updated: 2026-10-07
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **32% (possible)** for [Glasgow-3903](https://www.wikitree.com/wiki/Glasgow-3903). Held citation and associated historical narrative address this selected father-child identity; no original was newly inspected. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Henry is directly recorded at Inishrush on 11 December 1878, when he was present
 at the death of [James Glasgow (Glasgow-3903)](https://www.wikitree.com/wiki/Glasgow-3903).
 The civil return does not state Henry's relationship to James. No located
@@ -49,3 +51,17 @@ Henry being present at James's death.
 The [original civil death return for James Glasgow](https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1878/020497/7192875.pdf) (entry 138) records the death on **12 December 1878**, not 11 December as the source table formerly said; 11 December is the published gravestone transcription's reading. This is a one-day conflict between stone and register, not two deaths, and Glasgow-3903 already uses 12 December. The entry was registered on 23 December 1878; Henry Glasgow of Inishrush signed by his mark as informant, present at death. No relationship between Henry and James is stated. Read from an image crop of the original entry; the full official PDF did not load in that pass.
 
 Recorded in `chatgpt_dump/James_Glasgow_Innisrush_death_1878_transcription.txt` (5 September 2026); carried into this file on 7 October 2026.
+
+## Father confidence review, ninth batch — 22 October 2026
+
+[Glasgow-3903](https://www.wikitree.com/wiki/Glasgow-3903) remains the selected father, assessed **32% (possible)**. Previous selected-tree status: **uncertain**, without an individual percentage.
+
+Henry was present at James’s 1878 Inishrush death and shared his surname and locality, which makes kinship plausible. The return explicitly omits a relationship, and neither the family monument nor held life records names Henry as James’s son; the competing James identities add uncertainty.
+
+Scope: Held citation and associated historical narrative address this selected father-child identity; no original was newly inspected.
+
+Next useful test: Find Henry’s marriage or baptism naming his father and separating the two James identities.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [“Civil Records,” database with images, Irish Genealogy, death of James Glasgow, 12 December 1878, Group Registration ID 5928386, Magherafelt registration district, indexed record (https://www.irishgenealogy.ie/view/?record_id=cide-5928386) and original civil return (https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1878/020497/7192875.pdf).](https://www.irishgenealogy.ie/view/?record_id=cide-5928386)

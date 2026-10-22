@@ -4,6 +4,8 @@ Last updated: 2026-08-19
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **99% (proved)** for [Glasgow-2981](https://www.wikitree.com/wiki/Glasgow-2981). Held 1851 census relationship quotation/summary and existing source citations establish the census-defined child’s father; no fresh image inspection or adult identity extension. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 The 1851 Ballycregagh census directly calls Robert Glasgo, aged eleven months,
 a son of [[Glasgow-2981|James Glasgow]]. His birth should be estimated about
 1850, not 1840. James and [[Hamilton-25516|Peggy Hamilton]] reported marrying
@@ -31,3 +33,17 @@ mother, and the complete sourced biography is live.
 The retired Ballycregagh household URL was replaced with the current NAI
 household search. The exact FamilySearch images and detailed transcription
 remain the accessible evidence for household members omitted from the new index.
+
+## Father confidence review, ninth batch — 22 October 2026
+
+[Glasgow-2981](https://www.wikitree.com/wiki/Glasgow-2981) remains the selected father, assessed **99% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+The held 1851 detailed return expressly identifies eleven-month-old Robert as James’s son at Ballycregagh. The corrected approximate 1850 birth fits that contemporary age and the family’s 1848 marriage without requiring a claim about James’s ancestry.
+
+Scope: Held 1851 census relationship quotation/summary and existing source citations establish the census-defined child’s father; no fresh image inspection or adult identity extension.
+
+Next useful test: Compare the original eleven-month age and relationship entry.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: ["1851 Irish Census Returns: comma-delimited transcription" (https://durrushistory.com/wp-content/uploads/2012/10/1851 irishcensusreturnscommadelimitedtextfilejul24_071.pdf), Dunaghy, Ballycregagh, household 29, Robert Glasgo (accessed 13 August 2026).](https://durrushistory.com/wp-content/uploads/2012/10/1851irishcensusreturnscommadelimitedtextfilejul24_071.pdf)
