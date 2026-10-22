@@ -142,7 +142,9 @@ research section does not replace that integration.
   or `--source-file <reviewed-records-JSON>` to select canonical rows whose
   provenance points to that file. Without `--apply` it is a preflight only.
   This guarded targeted path requires a review date, assessment, safe provider
-  URL, explicit historical year and checked public person destinations. It
+  URL, explicit historical year and checked public person destinations. Later-than-1900
+  records also need a cited `historical_basis.latest_birth_year` proving the
+  subject was born more than 120 years ago; a candidate’s birth date is not proof. It
   preserves unrelated records and existing provider/source IDs, carries candidate
   roles without changing identity/vital facts, and refreshes full/compact record
   indexes, source details/readers and source browsing. It does not update people,

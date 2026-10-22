@@ -144,8 +144,17 @@ def plan(root: Path, record_ids: list[str]):
             if not re.fullmatch(r'[a-zA-Z0-9_-]+', rid):
                 raise ValueError('Unsafe existing record ID')
         year = row.get('year')
-        if not isinstance(year, int) or isinstance(year, bool) or not 1 <= year <= 1900:
+        current_year = date.today().year
+        if not isinstance(year, int) or isinstance(year, bool) or not 1 <= year <= current_year:
             raise ValueError(f'{rid}: explicit historical record year required')
+        if year > 1900:
+            basis = row.get('historical_basis') or {}
+            latest_birth = basis.get('latest_birth_year') if isinstance(basis, dict) else None
+            birth_source = basis.get('source_url') if isinstance(basis, dict) else None
+            if (not isinstance(latest_birth, int) or isinstance(latest_birth, bool)
+                    or not 1 <= latest_birth < current_year - 120 or latest_birth > year
+                    or not birth_source or _safe_url(birth_source) != birth_source):
+                raise ValueError(f'{rid}: post-1900 event requires a sourced historical birth bound')
         ids = url_ids.get(provider, [])
         if len(ids) > 1:
             raise ValueError(f'{rid}: ambiguous existing exact-URL source IDs')
@@ -194,6 +203,8 @@ def plan(root: Path, record_ids: list[str]):
                       supporting_source_status='explicit', supporting_source_reason=row['status'],
                       country=country, research_date=False, document_id=sid, profile_context=deepcopy(context),
                       provenance=row['provenance'])
+        if year > 1900:
+            record['historical_basis'] = deepcopy(row['historical_basis'])
         previous = next((r for r in full if r['record_id'] == rid), None)
         if previous and provider_key(previous) != provider:
             raise ValueError(f'{rid}: existing record has a different source URL')

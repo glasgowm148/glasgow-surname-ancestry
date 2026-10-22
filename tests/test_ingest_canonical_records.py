@@ -1,5 +1,6 @@
 """Guarded record/source ingest preserves identities and unrelated publications."""
 import json
+from datetime import date
 from hashlib import sha256
 from pathlib import Path
 from tempfile import TemporaryDirectory
@@ -180,6 +181,37 @@ class CanonicalRecordIngestTest(unittest.TestCase):
         with self.assertRaises(ValueError):
             publish_reviewed(self.root)
         self.assertEqual((self.web / 'data/records-index.json').read_text(), before)
+
+
+    def test_later_event_for_sourced_historical_person_is_allowed(self):
+        self.canonical.update(year=1901, date='1901', historical_basis={
+            'latest_birth_year': 1799, 'source_url': 'https://example.org/birth-1799'})
+        self.put('research/canonical_records.json', [self.canonical])
+        record = plan(self.root, ['new-canonical-id'])[self.web / 'data/records-index.json'][1]
+        self.assertEqual(record['filter_year'], 1901)
+        self.assertEqual(record['historical_basis'], self.canonical['historical_basis'])
+
+    def test_later_event_requires_independent_sourced_historical_bound(self):
+        for basis in (None, {'latest_birth_year': 1799},
+                      {'latest_birth_year': 1799, 'source_url': 'file:///private/capture'},
+                      {'latest_birth_year': date.today().year - 120, 'source_url': 'https://example.org/birth'},
+                      {'latest_birth_year': 1910, 'source_url': 'https://example.org/birth'},
+                      {'latest_birth_year': True, 'source_url': 'https://example.org/birth'}):
+            with self.subTest(basis=basis):
+                self.canonical.update(year=1901, historical_basis=basis)
+                self.put('research/canonical_records.json', [self.canonical])
+                with self.assertRaisesRegex(ValueError, 'sourced historical birth bound'):
+                    plan(self.root, ['new-canonical-id'])
+
+    def test_later_event_never_bypasses_living_or_future_guards(self):
+        self.canonical.update(year=1901, historical_basis={
+            'latest_birth_year': 1799, 'source_url': 'https://example.org/birth'})
+        for change in ({'living': True}, {'likely_living': True}, {'private': True},
+                       {'year': date.today().year + 1}):
+            with self.subTest(change=change):
+                self.put('research/canonical_records.json', [{**self.canonical, **change}])
+                with self.assertRaises(ValueError):
+                    plan(self.root, ['new-canonical-id'])
 
 
 if __name__ == '__main__':
