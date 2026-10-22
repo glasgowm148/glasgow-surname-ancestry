@@ -2625,3 +2625,9 @@ Burial-defined Walter remains on source-verification HOLD in the existing creati
 | [John Glasgow, Stevenston father account](https://www.wikitree.com/wiki/Glasgow-1057) | OPEN | Possible father of the Dundonald William account,46%; probably overlapping an existing son account, not an additional proved son. |
 | [Jean Glasgow, Dundonald 1732](https://www.wikitree.com/wiki/Glasgow-4113) | OPEN | Existing father William-3586 remains ungraded; his selected upstream father is now John-1057,possible46%, through adult identity56%. |
 | [William Glasgow, Dundonald 1733](https://www.wikitree.com/wiki/Glasgow-4101) | OPEN | Father William-3586 stays possible52% and mother Barbara Stevenson99%; the father’s own proposed parent is John-1057,46%possible. |
+
+
+## 22 October 2026 — Govan household
+
+| [James Glasgow](https://www.wikitree.com/wiki/Glasgow-1483) | OPEN | New probable mother Lillias Stewart 86%; existing probable father 78% preserved; complete documentary draft held for identity checks. |
+| [Samuel Glasgow](https://www.wikitree.com/wiki/Glasgow-3063) | OPEN | Probable intended spouse Lillias Stewart 82%;1790 Barony banns; complete couple argument. |

@@ -2,6 +2,30 @@
 
 ## Current conclusion
 
+Reviewed 22 October 2026. **Probable intended partner Lillias Stewart 82%; son James remains 78%.**
+
+The Barony banns transcript names Samuel Glasgow and Lillias Stewart on 24 February 1790, OPR 622/7, item 1, p 42, register 1778–1819. It gives marriage year 1790 but no separate wedding date, ages, parents, occupation or residence field. The transcript was inspected on 21 October 2026; the original register was not inspected.
+
+Select the record-defined Lillias Stewart as the probable mother of James Glasgow-1483 at 86% subjective confidence. The 1790 Govan baptism explicitly names Samuel Glasgow and Lilias Stewart; the independently recorded Barony banns name that same distinctive full parent pair shortly before either disputed baptism date. This supports one local household across the two registers. James’s adult account has a Govan nailer burial in 1833, aged 42, and children Samuel and Lillias with Jean Cunningham. Parish, approximate age and the paired family names favour identification with the 1790 child. The granddaughter’s Lillias name is supporting naming evidence, not proof.
+
+Prefer the 1790 banns couple as Samuel Glasgow-3063 and the record-defined Lillias at 82% subjective confidence, including the groom’s identification with the older nailer. The same full parent pair in the Govan baptism and a chronologically compatible local adult household support the match. Samuel’s 1818 burial at 65 fits a father in 1790, but the banns and baptism supply no trade or age to distinguish him from another Samuel. This rates an intended couple in banns, not a proved completed wedding.
+
+The 86% assesses the complete maternity proposition for the adult James, including the child-to-adult identity. It is not the near-certain named maternal role for the indexed 1790 child alone. The baptism dates 22 March and 25 April remain unresolved versions of one underlying event; no original was inspected. The banns identify neither man as a nailer. James’s burial age suggests about 1790–1791 and is not an exact match to the indexed child. A different James or Samuel remains possible. No birth, death, parents or childhood identity is assigned to Lillias from the contributed 1766 estimate.
+
+Samuel Glasgow-3063 remains James’s probable father at 78%. The new banns strengthen the documentary household, but do not resolve the older-nailer identity. No father grade, paternal component, vital field or existing spouse/child is changed. The proposed mother and couple share identity premises and are not independent confirmations.
+
+[Complete Lillias account](/people/record-lillias-stewart-govan-1790.html) · [Family study](/branches/early-scottish-records/#chapter-govan-nailers-samuel-james).
+
+Inspect the original Govan baptism for its date, residence and paternal occupation, then the 1814 James–Jean Cunningham marriage and children’s entries for an occupation, witness or lair link. Test the older Samuel’s identity separately. A 1797 Barony Samuel banns entry (OPR 622/7, item 1, p 88) remains unassigned: do not infer a remarriage, Lillias’s death or a second household for this nailer from the shared name alone.
+
+- [Barony banns: Samuel Glasgow and Lillias Stewart, 24 February 1790; OPR 622/7 item 1 p 42](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FMAR%2F0124150%2F1&tab=this)
+
+## Earlier source findings
+
+The earlier absence of a selected mother is superseded above; previous father grade78% and source limitations remain.
+
+### Assessment20October2026 — superseded on maternal selection
+
 Reviewed 20 October 2026. **Probable son James Glasgow-1483, 78%; joins his seven-child family to the older Govan nailer.**
 
 Select Samuel Glasgow-3063 as James Glasgow-1483’s probable working father at 78% subjective confidence. The 1790 Govan child has a named father Samuel. The existing adult James account represents the Govan nailer buried in 1833, while Samuel-3063 represents the older Govan nailer buried in 1818. The same surname, parish, Glasgow residence and specific trade favour a father–son occupational family. Samuel would have been about 37 at the baptism; James’s burial age implies about 1790–1791, close to the indexed child. James and Jean Cunningham’s existing children include Samuel and Lillias, matching the baptism parent pair. Naming supports the combined argument but is not proof. This identifies an existing father candidate for James’s seven-child family instead of creating another Samuel.

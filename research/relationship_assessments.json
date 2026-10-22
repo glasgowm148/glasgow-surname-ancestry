@@ -17771,5 +17771,132 @@
       },
       "reviewed_identity_percent": 56
     }
+  },
+  {
+    "assertion_id": "C-working-20261022-govan-lillias-mother",
+    "people": [
+      "Glasgow-1483",
+      "record-lillias-stewart-govan-1790"
+    ],
+    "profile_names": {
+      "Glasgow-3063": "Samuel Glasgow, Govan nailer",
+      "Glasgow-1483": "James Glasgow, Govan nailer",
+      "record-lillias-stewart-govan-1790": "Lillias Stewart, Barony bride and Govan mother"
+    },
+    "profile_urls": {
+      "record-lillias-stewart-govan-1790": {
+        "url": "/people/record-lillias-stewart-govan-1790.html"
+      }
+    },
+    "status": "probable",
+    "hypothesis_status": "probable",
+    "allow_new_relationship": true,
+    "publication_status": "approved",
+    "working_selection": true,
+    "assessment_date": "2026-10-22",
+    "claim": "Lillias is James’s probable mother,86%",
+    "basis": "Select the record-defined Lillias Stewart as the probable mother of James Glasgow-1483 at 86% subjective confidence. The 1790 Govan baptism explicitly names Samuel Glasgow and Lilias Stewart; the independently recorded Barony banns name that same distinctive full parent pair shortly before either disputed baptism date. This supports one local household across the two registers. James’s adult account has a Govan nailer burial in 1833, aged 42, and children Samuel and Lillias with Jean Cunningham. Parish, approximate age and the paired family names favour identification with the 1790 child. The granddaughter’s Lillias name is supporting naming evidence, not proof.",
+    "limitations": "The 86% assesses the complete maternity proposition for the adult James, including the child-to-adult identity. It is not the near-certain named maternal role for the indexed 1790 child alone. The baptism dates 22 March and 25 April remain unresolved versions of one underlying event; no original was inspected. The banns identify neither man as a nailer. James’s burial age suggests about 1790–1791 and is not an exact match to the indexed child. A different James or Samuel remains possible. No birth, death, parents or childhood identity is assigned to Lillias from the contributed 1766 estimate.",
+    "record_scope": "The 86% assesses the complete maternity proposition for the adult James, including the child-to-adult identity. It is not the near-certain named maternal role for the indexed 1790 child alone. The baptism dates 22 March and 25 April remain unresolved versions of one underlying event; no original was inspected. The banns identify neither man as a nailer. James’s burial age suggests about 1790–1791 and is not an exact match to the indexed child. A different James or Samuel remains possible. No birth, death, parents or childhood identity is assigned to Lillias from the contributed 1766 estimate.",
+    "source_ids": [
+      "govan-samuel-lillias-banns-1790",
+      "govan-james-1790-samuel-stewart"
+    ],
+    "analysis_links": [
+      {
+        "label": "Govan household and1790 Barony banns",
+        "href": "/branches/early-scottish-records/#chapter-govan-nailers-samuel-james"
+      }
+    ],
+    "perspectives": {
+      "Glasgow-1483": {
+        "relationship": "mother",
+        "status_label": "Probable mother ·86%",
+        "reason": "Select the record-defined Lillias Stewart as the probable mother of James Glasgow-1483 at 86% subjective confidence. The 1790 Govan baptism explicitly names Samuel Glasgow and Lilias Stewart; the independently recorded Barony banns name that same distinctive full parent pair shortly before either disputed baptism date. This supports one local household across the two registers. James’s adult account has a Govan nailer burial in 1833, aged 42, and children Samuel and Lillias with Jean Cunningham. Parish, approximate age and the paired family names favour identification with the 1790 child. The granddaughter’s Lillias name is supporting naming evidence, not proof."
+      },
+      "record-lillias-stewart-govan-1790": {
+        "relationship": "son",
+        "status_label": "Probable son ·86%",
+        "reason": "Select the record-defined Lillias Stewart as the probable mother of James Glasgow-1483 at 86% subjective confidence. The 1790 Govan baptism explicitly names Samuel Glasgow and Lilias Stewart; the independently recorded Barony banns name that same distinctive full parent pair shortly before either disputed baptism date. This supports one local household across the two registers. James’s adult account has a Govan nailer burial in 1833, aged 42, and children Samuel and Lillias with Jean Cunningham. Parish, approximate age and the paired family names favour identification with the 1790 child. The granddaughter’s Lillias name is supporting naming evidence, not proof."
+      }
+    },
+    "provenance": {
+      "prior_status": "No maternal attachment for James and no spouse for Samuel in fresh anonymous Open/non-living WikiTree capture,22October2026",
+      "live_flag_changed": false,
+      "original_inspected": false
+    },
+    "probability": {
+      "value": 0.86,
+      "basis": "Select the record-defined Lillias Stewart as the probable mother of James Glasgow-1483 at 86% subjective confidence. The 1790 Govan baptism explicitly names Samuel Glasgow and Lilias Stewart; the independently recorded Barony banns name that same distinctive full parent pair shortly before either disputed baptism date. This supports one local household across the two registers. James’s adult account has a Govan nailer burial in 1833, aged 42, and children Samuel and Lillias with Jean Cunningham. Parish, approximate age and the paired family names favour identification with the 1790 child. The granddaughter’s Lillias name is supporting naming evidence, not proof.",
+      "reviewed": "2026-10-22",
+      "source_ids": [
+        "govan-samuel-lillias-banns-1790",
+        "govan-james-1790-samuel-stewart"
+      ],
+      "scope": "The 86% assesses the complete maternity proposition for the adult James, including the child-to-adult identity. It is not the near-certain named maternal role for the indexed 1790 child alone. The baptism dates 22 March and 25 April remain unresolved versions of one underlying event; no original was inspected. The banns identify neither man as a nailer. James’s burial age suggests about 1790–1791 and is not an exact match to the indexed child. A different James or Samuel remains possible. No birth, death, parents or childhood identity is assigned to Lillias from the contributed 1766 estimate."
+    }
+  },
+  {
+    "assertion_id": "C-working-20261022-govan-samuel-lillias-couple",
+    "people": [
+      "Glasgow-3063",
+      "record-lillias-stewart-govan-1790"
+    ],
+    "profile_names": {
+      "Glasgow-3063": "Samuel Glasgow, Govan nailer",
+      "Glasgow-1483": "James Glasgow, Govan nailer",
+      "record-lillias-stewart-govan-1790": "Lillias Stewart, Barony bride and Govan mother"
+    },
+    "profile_urls": {
+      "record-lillias-stewart-govan-1790": {
+        "url": "/people/record-lillias-stewart-govan-1790.html"
+      }
+    },
+    "status": "probable",
+    "hypothesis_status": "probable",
+    "allow_new_relationship": true,
+    "publication_status": "approved",
+    "assessment_date": "2026-10-22",
+    "claim": "Samuel and Lillias are the probable1790 banns couple,82%",
+    "basis": "Prefer the 1790 banns couple as Samuel Glasgow-3063 and the record-defined Lillias at 82% subjective confidence, including the groom’s identification with the older nailer. The same full parent pair in the Govan baptism and a chronologically compatible local adult household support the match. Samuel’s 1818 burial at 65 fits a father in 1790, but the banns and baptism supply no trade or age to distinguish him from another Samuel. This rates an intended couple in banns, not a proved completed wedding.",
+    "limitations": "The 86% assesses the complete maternity proposition for the adult James, including the child-to-adult identity. It is not the near-certain named maternal role for the indexed 1790 child alone. The baptism dates 22 March and 25 April remain unresolved versions of one underlying event; no original was inspected. The banns identify neither man as a nailer. James’s burial age suggests about 1790–1791 and is not an exact match to the indexed child. A different James or Samuel remains possible. No birth, death, parents or childhood identity is assigned to Lillias from the contributed 1766 estimate. Samuel Glasgow-3063 remains James’s probable father at 78%. The new banns strengthen the documentary household, but do not resolve the older-nailer identity. No father grade, paternal component, vital field or existing spouse/child is changed. The proposed mother and couple share identity premises and are not independent confirmations.",
+    "record_scope": "The 86% assesses the complete maternity proposition for the adult James, including the child-to-adult identity. It is not the near-certain named maternal role for the indexed 1790 child alone. The baptism dates 22 March and 25 April remain unresolved versions of one underlying event; no original was inspected. The banns identify neither man as a nailer. James’s burial age suggests about 1790–1791 and is not an exact match to the indexed child. A different James or Samuel remains possible. No birth, death, parents or childhood identity is assigned to Lillias from the contributed 1766 estimate. Samuel Glasgow-3063 remains James’s probable father at 78%. The new banns strengthen the documentary household, but do not resolve the older-nailer identity. No father grade, paternal component, vital field or existing spouse/child is changed. The proposed mother and couple share identity premises and are not independent confirmations.",
+    "source_ids": [
+      "govan-samuel-lillias-banns-1790",
+      "govan-james-1790-samuel-stewart"
+    ],
+    "analysis_links": [
+      {
+        "label": "Govan household and1790 Barony banns",
+        "href": "/branches/early-scottish-records/#chapter-govan-nailers-samuel-james"
+      }
+    ],
+    "perspectives": {
+      "Glasgow-3063": {
+        "relationship": "spouse",
+        "status_label": "Probable intended spouse ·82%",
+        "reason": "Prefer the 1790 banns couple as Samuel Glasgow-3063 and the record-defined Lillias at 82% subjective confidence, including the groom’s identification with the older nailer. The same full parent pair in the Govan baptism and a chronologically compatible local adult household support the match. Samuel’s 1818 burial at 65 fits a father in 1790, but the banns and baptism supply no trade or age to distinguish him from another Samuel. This rates an intended couple in banns, not a proved completed wedding."
+      },
+      "record-lillias-stewart-govan-1790": {
+        "relationship": "spouse",
+        "status_label": "Probable intended spouse ·82%",
+        "reason": "Prefer the 1790 banns couple as Samuel Glasgow-3063 and the record-defined Lillias at 82% subjective confidence, including the groom’s identification with the older nailer. The same full parent pair in the Govan baptism and a chronologically compatible local adult household support the match. Samuel’s 1818 burial at 65 fits a father in 1790, but the banns and baptism supply no trade or age to distinguish him from another Samuel. This rates an intended couple in banns, not a proved completed wedding."
+      }
+    },
+    "provenance": {
+      "prior_status": "No maternal attachment for James and no spouse for Samuel in fresh anonymous Open/non-living WikiTree capture,22October2026",
+      "live_flag_changed": false,
+      "original_inspected": false
+    },
+    "probability": {
+      "value": 0.82,
+      "basis": "Prefer the 1790 banns couple as Samuel Glasgow-3063 and the record-defined Lillias at 82% subjective confidence, including the groom’s identification with the older nailer. The same full parent pair in the Govan baptism and a chronologically compatible local adult household support the match. Samuel’s 1818 burial at 65 fits a father in 1790, but the banns and baptism supply no trade or age to distinguish him from another Samuel. This rates an intended couple in banns, not a proved completed wedding.",
+      "reviewed": "2026-10-22",
+      "source_ids": [
+        "govan-samuel-lillias-banns-1790",
+        "govan-james-1790-samuel-stewart"
+      ],
+      "scope": "The 86% assesses the complete maternity proposition for the adult James, including the child-to-adult identity. It is not the near-certain named maternal role for the indexed 1790 child alone. The baptism dates 22 March and 25 April remain unresolved versions of one underlying event; no original was inspected. The banns identify neither man as a nailer. James’s burial age suggests about 1790–1791 and is not an exact match to the indexed child. A different James or Samuel remains possible. No birth, death, parents or childhood identity is assigned to Lillias from the contributed 1766 estimate. Samuel Glasgow-3063 remains James’s probable father at 78%. The new banns strengthen the documentary household, but do not resolve the older-nailer identity. No father grade, paternal component, vital field or existing spouse/child is changed. The proposed mother and couple share identity premises and are not independent confirmations."
+    }
   }
 ]

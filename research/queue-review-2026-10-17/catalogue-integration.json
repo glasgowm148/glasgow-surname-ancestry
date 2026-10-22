@@ -6584,14 +6584,14 @@
     },
     "Glasgow-1483": {
       "profile_id": "Glasgow-1483",
-      "queued_at": "2026-10-20",
-      "biography_rechecked_at": "2026-10-20",
-      "remote_captured_at": "2026-10-20",
+      "queued_at": "2026-10-22",
+      "biography_rechecked_at": "2026-10-22",
+      "remote_captured_at": "2026-10-22",
       "remote_wikitext": "== Biography ==\nJames was born about 1790.\n\n\nJames Glasgow\n\n    Record Type: Deaths & Burials\n    Data Set: Govan Burial Index\n    Buried: 8 September 1833\n    Location: Britain & Ireland, Govan, Lanarkshire, Scotland\n    Surnames: Glasgow\n    Reference: A007\n\nAged: 42: nailer: Cause of Death: inflammatory dis. : Formerly residing in Glasgow.\n\n== Sources ==\n<references />\n* https://familysearch.org/ark:/61903/1:1:X19Z-FM8",
-      "draft_path": "research/Glasgow-1483/govan-nailers-2026-10-20.wiki",
+      "draft_path": "research/Glasgow-1483/govan-household-2026-10-22.wiki",
       "findings_path": "research/Glasgow-1483/findings.md",
-      "summary": "New probable father Samuel Glasgow-3063, 78%; Govan baptism parent pair and two generations of nailers.",
-      "work_queue_summary": "New probable father Samuel Glasgow-3063, 78%; Govan baptism parent pair and two generations of nailers.",
+      "summary": "New probable mother Lillias Stewart 86%; father Samuel 78% unchanged.",
+      "work_queue_summary": "New probable mother Lillias Stewart 86%; father Samuel 78% unchanged.",
       "significance": 85,
       "status": "OPEN",
       "pending": true,
@@ -6606,22 +6606,34 @@
           "assertion_id": "C-working-20261020-govan-nailer-father",
           "previous_status_provenance": "Anonymous WikiTree getPeople, 20 October 2026: James Father=0.",
           "scope": "New probable father Samuel Glasgow-3063, 78%; Govan baptism parent pair and two generations of nailers."
+        },
+        {
+          "action": "add",
+          "relationship": "mother",
+          "relative_id": "record-lillias-stewart-govan-1790",
+          "relative_name": "Lillias Stewart",
+          "relative_url": "/people/record-lillias-stewart-govan-1790.html",
+          "status": "probable",
+          "probability_percent": 86,
+          "assertion_id": "C-working-20261022-govan-lillias-mother",
+          "previous_status": "absent",
+          "scope": "Select the record-defined Lillias Stewart as the probable mother of James Glasgow-1483 at 86% subjective confidence. The 1790 Govan baptism explicitly names Samuel Glasgow and Lilias Stewart; the independently recorded Barony banns name that same distinctive full parent pair shortly before either disputed baptism date. This supports one local household across the two registers. James’s adult account has a Govan nailer burial in 1833, aged 42, and children Samuel and Lillias with Jean Cunningham. Parish, approximate age and the paired family names favour identification with the 1790 child. The granddaughter’s Lillias name is supporting naming evidence, not proof."
         }
       ],
       "preserve_captured_detail": false,
       "reviewed_narrative_reduction": true,
-      "preservation_review_path": "research/ancestry-connections/govan-nailers-preservation-2026-10-20.json"
+      "preservation_review_path": "research/ancestry-connections/govan-household-preservation-2026-10-22.json"
     },
     "Glasgow-3063": {
       "profile_id": "Glasgow-3063",
-      "queued_at": "2026-10-20",
-      "biography_rechecked_at": "2026-10-20",
-      "remote_captured_at": "2026-10-20",
+      "queued_at": "2026-10-22",
+      "biography_rechecked_at": "2026-10-22",
+      "remote_captured_at": "2026-10-22",
       "remote_wikitext": "== Biography ==\n\nSamuel was born in 1753. \n== Sources ==\n<references />\n* Samuel Glasgow\n\n    Record Type: Deaths & Burials\n    Data Set: Govan Burial Index\n    Buried: 7 December 1818\n    Location: Britain & Ireland, Govan, Lanarkshire, Scotland\n    Surnames: Glasgow\n    Reference: GO11\n\nAged: 65: nailer: Cause of Death: infirm. of old age: Formerly residing in Glasgow.",
-      "draft_path": "research/Glasgow-3063/govan-nailers-2026-10-20.wiki",
+      "draft_path": "research/Glasgow-3063/govan-household-2026-10-22.wiki",
       "findings_path": "research/Glasgow-3063/findings.md",
-      "summary": "Probable son James Glasgow-1483, 78%; joins his seven-child family to the older Govan nailer.",
-      "work_queue_summary": "Probable son James Glasgow-1483, 78%; joins his seven-child family to the older Govan nailer.",
+      "summary": "New probable intended spouse Lillias Stewart 82%; son James 78% unchanged.",
+      "work_queue_summary": "New probable intended spouse Lillias Stewart 82%; son James 78% unchanged.",
       "significance": 78,
       "status": "OPEN",
       "pending": true,
@@ -6636,11 +6648,23 @@
           "assertion_id": "C-working-20261020-govan-nailer-father",
           "previous_status_provenance": "Anonymous WikiTree getPeople, 20 October 2026: James Father=0.",
           "scope": "Probable son James Glasgow-1483, 78%; joins his seven-child family to the older Govan nailer."
+        },
+        {
+          "action": "add",
+          "relationship": "spouse",
+          "relative_id": "record-lillias-stewart-govan-1790",
+          "relative_name": "Lillias Stewart",
+          "relative_url": "/people/record-lillias-stewart-govan-1790.html",
+          "status": "probable",
+          "probability_percent": 82,
+          "assertion_id": "C-working-20261022-govan-samuel-lillias-couple",
+          "previous_status": "absent",
+          "scope": "Prefer the 1790 banns couple as Samuel Glasgow-3063 and the record-defined Lillias at 82% subjective confidence, including the groom’s identification with the older nailer. The same full parent pair in the Govan baptism and a chronologically compatible local adult household support the match. Samuel’s 1818 burial at 65 fits a father in 1790, but the banns and baptism supply no trade or age to distinguish him from another Samuel. This rates an intended couple in banns, not a proved completed wedding."
         }
       ],
       "preserve_captured_detail": false,
       "reviewed_narrative_reduction": true,
-      "preservation_review_path": "research/ancestry-connections/govan-nailers-preservation-2026-10-20.json"
+      "preservation_review_path": "research/ancestry-connections/govan-household-preservation-2026-10-22.json"
     },
     "Glasgow-3439": {
       "profile_id": "Glasgow-3439",
@@ -10572,6 +10596,117 @@
           "assertion_id": "C-reviewed-20261021-thomas3556-jane-spouse",
           "percent": 88,
           "scope": "New wife hypothesis from the 1713 original; husband identity qualified, no maternity assigned."
+        }
+      ]
+    },
+    {
+      "subject_id": "lillias-stewart-govan-1790",
+      "catalogue_id": "record-lillias-stewart-govan-1790",
+      "name": "Lillias Stewart, Barony 1790 and Govan mother",
+      "source_subject_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FMAR%2F0124150%2F1&tab=this",
+      "research_subject_url": "/people/record-lillias-stewart-govan-1790.html",
+      "draft_path": "research/Glasgow-3063/1790_Scotland_Barony_Lillias_Stewart.md",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\n'''Lillias Stewart''' was named with Samuel Glasgow in Barony marriage banns dated 24 February 1790. The transcript does not supply a separate wedding date.<ref name=\"Barony 1790\">Church of Scotland, Barony Old Parish Registers, OPR 622/7, item 1, p 42, 1778–1819; [https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FMAR%2F0124150%2F1&tab=this Findmypast, Samuel Glasgow and Lillias Stewart, banns 24 February 1790]. Transcript inspected 21 October 2026; original uninspected.</ref>\n\nThe same parent pair, with the mother spelled Lilias Stewart, is named in James Glasgow’s 1790 Govan baptism. The matched pair and closely spaced entries favour one household across the two parishes.<ref name=\"Govan 1790\">Church of Scotland, Govan Old Parish Registers, OPR 646/2, item 2, p 69; [https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3976076&tab=this Findmypast, James Glasgow, 1790, parents Samuel Glasgow and Lilias Stewart], transcript 22 March; [https://www.findmypast.co.uk/transcript?id=R_688515992&tab=this alternative derivative transcript 25 April 1790]. One underlying event with unresolved dates; transcripts inspected 20 October 2026, originals uninspected.</ref>\n\nSelect the record-defined Lillias Stewart as the probable mother of James [[Glasgow-1483]] at 86% subjective confidence. The 1790 Govan baptism explicitly names Samuel Glasgow and Lilias Stewart; the independently recorded Barony banns name that same distinctive full parent pair shortly before either disputed baptism date. This supports one local household across the two registers. James’s adult account has a Govan nailer burial in 1833, aged 42, and children Samuel and Lillias with Jean Cunningham. Parish, approximate age and the paired family names favour identification with the 1790 child. The granddaughter’s Lillias name is supporting naming evidence, not proof. Prefer the 1790 banns couple as Samuel [[Glasgow-3063]] and the record-defined Lillias at 82% subjective confidence, including the groom’s identification with the older nailer. The same full parent pair in the Govan baptism and a chronologically compatible local adult household support the match. Samuel’s 1818 burial at 65 fits a father in 1790, but the banns and baptism supply no trade or age to distinguish him from another Samuel. This rates an intended couple in banns, not a proved completed wedding.\n\nHer birth, death and parents are unknown. Stewart is her recorded surname; no source inspected here establishes whether it was her maiden surname. Barony is an uncertain birth-place suggestion from her own banns context, not a recorded birthplace.\n\n== Research Notes ==\nThe 86% assesses the complete maternity proposition for the adult James, including the child-to-adult identity. It is not the near-certain named maternal role for the indexed 1790 child alone. The baptism dates 22 March and 25 April remain unresolved versions of one underlying event; no original was inspected. The banns identify neither man as a nailer. James’s burial age suggests about 1790–1791 and is not an exact match to the indexed child. A different James or Samuel remains possible. No birth, death, parents or childhood identity is assigned to Lillias from the contributed 1766 estimate. Samuel [[Glasgow-3063]] remains James’s probable father at 78%. The new banns strengthen the documentary household, but do not resolve the older-nailer identity. No father grade, paternal component, vital field or existing spouse/child is changed. The proposed mother and couple share identity premises and are not independent confirmations. Inspect the original Govan baptism for its date, residence and paternal occupation, then the 1814 James–Jean Cunningham marriage and children’s entries for an occupation, witness or lair link. Test the older Samuel’s identity separately. A 1797 Barony Samuel banns entry (OPR 622/7, item 1, p 88) remains unassigned: do not infer a remarriage, Lillias’s death or a second household for this nailer from the shared name alone.\n\nIdentity remains on'''HOLD''' before creation or merger. Anonymous WikiTree searchPerson on 22 October 2026 used FirstName Lilias and Lillias, LastName Stewart, with no place or date restriction:16 and 25 returned matches respectively, both complete single pages of 100. Seven Open/non-living compatible-generation or undated profiles were read with their complete biographies and families. No existing profile was positively identified; compatible candidates remain onHOLD. Stewart-39432 has a 1718 baptism and a separate Moir/North Carolina family: at least 72 in 1790, materially inconsistent with the preferred young-mother/adult-James model. The two searches were bounded name-variant searches, not an exhaustive search of all spellings.\n\n* [[Stewart-6792]] — Lillias, Falkirk 1760: compatible childhood with no recorded adult spouse or fate; the profile’s unsourced tree citation provides no bridge to the 1790 Barony bride. Retain as a candidate, not a selected identity.\n* [[Stuart-8558]] — Lillias, Aberlour about 1762: compatible generation, but only an unsourced childhood account; no adult household bridge. Missing later fields are not an exclusion.\n* [[Stewart-20221]] — Lilias, 1753–1809, daughter of Charles of Shambellie, reported wife of David Staig. The marriage is undated in the inspected biography; a separate spouse alone does not exclude an earlier or later household. No positive Glasgow bridge.\n* [[Stewart-27167]] — Lilias Moore Stewart, married William Newbigging at Corstorphine in 1801, died 1832. An earlier 1790 relationship is not excluded by this later marriage; no link identifies her as this bride.\n* [[Stuart-5909]] — Lilias Stuart, about 1764, married Alexander Trotter in 1797. An earlier 1790 household is possible; no record joins the two accounts.\n* [[Stewart-24113]] — Lilias of Ballachulish, about 1765–1840, has a distinct Dugald Stuart family with a son born 1787. This is a weaker household comparison; the inspected profile does not identify her with the Barony bride.\n\nThe contributed FamilySearch account K 81 S-7 JB supplies a 1766 estimate, not a verified birth record.<ref>[https://ancestors.familysearch.org/en/K81S-7JB/lilias-stewart-1766 FamilySearch contributed Lilias Stewart account]; comparison lead, not independent evidence of birth.</ref>\n\n== Sources ==\n<references />\n",
+      "assessment": "The Barony banns transcript names Samuel Glasgow and Lillias Stewart on 24 February 1790, OPR 622/7, item 1, p 42, register 1778–1819. It gives marriage year 1790 but no separate wedding date, ages, parents, occupation or residence field. The transcript was inspected on 21 October 2026; the original register was not inspected. Select the record-defined Lillias Stewart as the probable mother of James Glasgow-1483 at 86% subjective confidence. The 1790 Govan baptism explicitly names Samuel Glasgow and Lilias Stewart; the independently recorded Barony banns name that same distinctive full parent pair shortly before either disputed baptism date. This supports one local household across the two registers. James’s adult account has a Govan nailer burial in 1833, aged 42, and children Samuel and Lillias with Jean Cunningham. Parish, approximate age and the paired family names favour identification with the 1790 child. The granddaughter’s Lillias name is supporting naming evidence, not proof. The 86% assesses the complete maternity proposition for the adult James, including the child-to-adult identity. It is not the near-certain named maternal role for the indexed 1790 child alone. The baptism dates 22 March and 25 April remain unresolved versions of one underlying event; no original was inspected. The banns identify neither man as a nailer. James’s burial age suggests about 1790–1791 and is not an exact match to the indexed child. A different James or Samuel remains possible. No birth, death, parents or childhood identity is assigned to Lillias from the contributed 1766 estimate. Prefer the 1790 banns couple as Samuel Glasgow-3063 and the record-defined Lillias at 82% subjective confidence, including the groom’s identification with the older nailer. The same full parent pair in the Govan baptism and a chronologically compatible local adult household support the match. Samuel’s 1818 burial at 65 fits a father in 1790, but the banns and baptism supply no trade or age to distinguish him from another Samuel. This rates an intended couple in banns, not a proved completed wedding. Samuel Glasgow-3063 remains James’s probable father at 78%. The new banns strengthen the documentary household, but do not resolve the older-nailer identity. No father grade, paternal component, vital field or existing spouse/child is changed. The proposed mother and couple share identity premises and are not independent confirmations. Anonymous WikiTree searchPerson on 22 October 2026 used FirstName Lilias and Lillias, LastName Stewart, with no place or date restriction:16 and 25 returned matches respectively, both complete single pages of 100. Seven Open/non-living compatible-generation or undated profiles were read with their complete biographies and families. No existing profile was positively identified; compatible candidates remain onHOLD. Stewart-39432 has a 1718 baptism and a separate Moir/North Carolina family: at least 72 in 1790, materially inconsistent with the preferred young-mother/adult-James model. The two searches were bounded name-variant searches, not an exhaustive search of all spellings.",
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-10-22",
+      "first_names": [
+        "Lillias",
+        "Lilias"
+      ],
+      "last_names_at_birth": [
+        "Unknown"
+      ],
+      "last_names_current": [
+        "Stewart"
+      ],
+      "gender": "Female",
+      "birth": "",
+      "birth_note": "Unknown; adult bride/mother in1790.",
+      "death": "",
+      "birth_location": "Barony, Lanarkshire, Scotland",
+      "birth_location_note": "Uncertain inference from her own banns parish; not a recorded birthplace.",
+      "death_location": "",
+      "historical_basis": {
+        "status": "identity_hold",
+        "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FMAR%2F0124150%2F1&tab=this",
+        "latest_birth_year": 1790,
+        "note": "Adult recorded in1790; no invented birth year."
+      },
+      "candidates": [
+        {
+          "profile_id": "Stewart-6792",
+          "url": "https://www.wikitree.com/wiki/Stewart-6792",
+          "name": "Stewart-6792",
+          "assessment": "Lillias, Falkirk 1760: compatible childhood with no recorded adult spouse or fate; the profile’s unsourced tree citation provides no bridge to the 1790 Barony bride. Retain as a candidate, not a selected identity.",
+          "reason": "Lillias, Falkirk 1760: compatible childhood with no recorded adult spouse or fate; the profile’s unsourced tree citation provides no bridge to the 1790 Barony bride. Retain as a candidate, not a selected identity."
+        },
+        {
+          "profile_id": "Stuart-8558",
+          "url": "https://www.wikitree.com/wiki/Stuart-8558",
+          "name": "Stuart-8558",
+          "assessment": "Lillias, Aberlour about 1762: compatible generation, but only an unsourced childhood account; no adult household bridge. Missing later fields are not an exclusion.",
+          "reason": "Lillias, Aberlour about 1762: compatible generation, but only an unsourced childhood account; no adult household bridge. Missing later fields are not an exclusion."
+        },
+        {
+          "profile_id": "Stewart-20221",
+          "url": "https://www.wikitree.com/wiki/Stewart-20221",
+          "name": "Stewart-20221",
+          "assessment": "Lilias, 1753–1809, daughter of Charles of Shambellie, reported wife of David Staig. The marriage is undated in the inspected biography; a separate spouse alone does not exclude an earlier or later household. No positive Glasgow bridge.",
+          "reason": "Lilias, 1753–1809, daughter of Charles of Shambellie, reported wife of David Staig. The marriage is undated in the inspected biography; a separate spouse alone does not exclude an earlier or later household. No positive Glasgow bridge."
+        },
+        {
+          "profile_id": "Stewart-27167",
+          "url": "https://www.wikitree.com/wiki/Stewart-27167",
+          "name": "Stewart-27167",
+          "assessment": "Lilias Moore Stewart, married William Newbigging at Corstorphine in 1801, died 1832. An earlier 1790 relationship is not excluded by this later marriage; no link identifies her as this bride.",
+          "reason": "Lilias Moore Stewart, married William Newbigging at Corstorphine in 1801, died 1832. An earlier 1790 relationship is not excluded by this later marriage; no link identifies her as this bride."
+        },
+        {
+          "profile_id": "Stuart-5909",
+          "url": "https://www.wikitree.com/wiki/Stuart-5909",
+          "name": "Stuart-5909",
+          "assessment": "Lilias Stuart, about 1764, married Alexander Trotter in 1797. An earlier 1790 household is possible; no record joins the two accounts.",
+          "reason": "Lilias Stuart, about 1764, married Alexander Trotter in 1797. An earlier 1790 household is possible; no record joins the two accounts."
+        },
+        {
+          "profile_id": "Stewart-24113",
+          "url": "https://www.wikitree.com/wiki/Stewart-24113",
+          "name": "Stewart-24113",
+          "assessment": "Lilias of Ballachulish, about 1765–1840, has a distinct Dugald Stuart family with a son born 1787. This is a weaker household comparison; the inspected profile does not identify her with the Barony bride.",
+          "reason": "Lilias of Ballachulish, about 1765–1840, has a distinct Dugald Stuart family with a son born 1787. This is a weaker household comparison; the inspected profile does not identify her with the Barony bride."
+        }
+      ],
+      "records": [
+        {
+          "year": "1790-02-24",
+          "filter_year": 1790,
+          "family_group": "Govan Samuel–Lillias household",
+          "region": "Scotland",
+          "record_location": "Barony, Lanarkshire, Scotland",
+          "association": "Named intended bride with Samuel Glasgow; groom identity probable82%.",
+          "note": "The Barony banns transcript names Samuel Glasgow and Lillias Stewart on 24 February 1790, OPR 622/7, item 1, p 42, register 1778–1819. It gives marriage year 1790 but no separate wedding date, ages, parents, occupation or residence field. The transcript was inspected on 21 October 2026; the original register was not inspected. The 86% assesses the complete maternity proposition for the adult James, including the child-to-adult identity. It is not the near-certain named maternal role for the indexed 1790 child alone. The baptism dates 22 March and 25 April remain unresolved versions of one underlying event; no original was inspected. The banns identify neither man as a nailer. James’s burial age suggests about 1790–1791 and is not an exact match to the indexed child. A different James or Samuel remains possible. No birth, death, parents or childhood identity is assigned to Lillias from the contributed 1766 estimate.",
+          "source_title": "Barony banns: Samuel Glasgow and Lillias Stewart, 24 February 1790; OPR 622/7 item 1 p 42",
+          "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FMAR%2F0124150%2F1&tab=this",
+          "source_type": "transcription",
+          "source_status": "Inspected Findmypast transcript; original uninspected",
+          "record_precision": "Banns date",
+          "location_basis": "Parish of recorded event; not proved birthplace"
+        },
+        {
+          "year": "1790",
+          "filter_year": 1790,
+          "family_group": "Govan Samuel–Lillias household",
+          "region": "Scotland",
+          "record_location": "Govan, Lanarkshire, Scotland",
+          "association": "Named mother ofJames; adult James identification probable86%.",
+          "note": "The Barony banns transcript names Samuel Glasgow and Lillias Stewart on 24 February 1790, OPR 622/7, item 1, p 42, register 1778–1819. It gives marriage year 1790 but no separate wedding date, ages, parents, occupation or residence field. The transcript was inspected on 21 October 2026; the original register was not inspected. The 86% assesses the complete maternity proposition for the adult James, including the child-to-adult identity. It is not the near-certain named maternal role for the indexed 1790 child alone. The baptism dates 22 March and 25 April remain unresolved versions of one underlying event; no original was inspected. The banns identify neither man as a nailer. James’s burial age suggests about 1790–1791 and is not an exact match to the indexed child. A different James or Samuel remains possible. No birth, death, parents or childhood identity is assigned to Lillias from the contributed 1766 estimate.",
+          "source_title": "Govan James baptism, 1790; Samuel Glasgow and Lilias Stewart; OPR 646/2 item 2 p 69; transcript date 22 March",
+          "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3976076&tab=this",
+          "source_type": "transcription",
+          "source_status": "Inspected Findmypast transcript; original uninspected",
+          "record_precision": "Two transcript dates unresolved",
+          "location_basis": "Parish of recorded event; not proved birthplace"
         }
       ]
     }

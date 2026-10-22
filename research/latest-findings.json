@@ -34371,6 +34371,57 @@
         "research/relationship_assessments.json",
         "research/Glasgow-3586/findings.md"
       ]
+    },
+    {
+      "id": "govan-barony-lillias-household-20261021",
+      "found_on": "2026-10-21",
+      "reviewed_on": "2026-10-22",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "Barony 1790 banns independently name Samuel Glasgow and Lillias Stewart; select her as James’s probable mother 86% and Samuel’s probable intended partner 82%.",
+      "qualification": "The 86% assesses the complete maternity proposition for the adult James, including the child-to-adult identity. It is not the near-certain named maternal role for the indexed 1790 child alone. The baptism dates 22 March and 25 April remain unresolved versions of one underlying event; no original was inspected. The banns identify neither man as a nailer. James’s burial age suggests about 1790–1791 and is not an exact match to the indexed child. A different James or Samuel remains possible. No birth, death, parents or childhood identity is assigned to Lillias from the contributed 1766 estimate. Samuel Glasgow-3063 remains James’s probable father at 78%. The new banns strengthen the documentary household, but do not resolve the older-nailer identity. No father grade, paternal component, vital field or existing spouse/child is changed. The proposed mother and couple share identity premises and are not independent confirmations.",
+      "people": [
+        {
+          "id": "Glasgow-1483",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-1483.html",
+          "role": "Probable son86%; father proposition remains 78%"
+        },
+        {
+          "id": "Glasgow-3063",
+          "name": "Samuel Glasgow",
+          "url": "/people/glasgow-3063.html",
+          "role": "Probable groom82%; his own parents remain unknown"
+        },
+        {
+          "id": "record-lillias-stewart-govan-1790",
+          "name": "Lillias Stewart",
+          "url": "/people/record-lillias-stewart-govan-1790.html",
+          "role": "Named1790 bride and mother; existing-profile identity held"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Barony banns: Samuel Glasgow and Lillias Stewart, 24 February 1790; OPR 622/7 item 1 p 42",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FMAR%2F0124150%2F1&tab=this"
+        },
+        {
+          "title": "Govan James baptism, 1790; Samuel Glasgow and Lilias Stewart; OPR 646/2 item 2 p 69; transcript date 22 March",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3976076&tab=this"
+        }
+      ],
+      "detail_url": "/branches/early-scottish-records/#chapter-govan-nailers-samuel-james",
+      "relationship_changes": [],
+      "new_father_attachments": 0,
+      "certainty_upgrades": 0,
+      "new_source_discoveries": 1,
+      "new_transcript_inspections": 1,
+      "new_maternal_selections": 1,
+      "new_couple_selections": 1,
+      "provenance": [
+        "research/Glasgow-1483/findings.md",
+        "research/relationship_assessments.json"
+      ]
     }
   ]
 }

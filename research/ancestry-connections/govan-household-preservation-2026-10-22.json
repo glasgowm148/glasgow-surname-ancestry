@@ -1,0 +1,34 @@
+{
+  "reviewed": "2026-10-22",
+  "scope": "Additive complete Govan household proposals; prior father78% preserved",
+  "profiles": {
+    "Glasgow-3063": {
+      "current_sha256": "b182ad9ef27503a0b7e140e9f193201cfc784cfa81b3557482ad65d68c60280c",
+      "proposed_sha256": "50374442feda0b15905d633c39f052e8a110f0d6238fb7f03a7780e8f34debc6",
+      "all_substantive_passages_accounted_for": true,
+      "previous_draft_path": "research/Glasgow-3063/govan-nailers-2026-10-20.wiki",
+      "draft_path": "research/Glasgow-3063/govan-household-2026-10-22.wiki",
+      "reviewed_substitutions": [
+        {
+          "before": "Lilias is the named mother of the indexed child, but no maternal attachment or new mother profile is selected here.",
+          "after": "At the 20 October 2026 review, Lilias was the named mother of the indexed child but no maternal attachment was selected. The current 22 October 2026 review supersedes that decision with a probable 86% maternal selection.",
+          "basis": "Preserve earlier dated selection while making current mother86% decision explicit"
+        }
+      ]
+    },
+    "Glasgow-1483": {
+      "current_sha256": "a38a60b8585964dcba6a548e08a2ba87e638fd51f72510a105a6bc9cce3e4c42",
+      "proposed_sha256": "09091ab15228940f2ca7e42617baf55f4dda74c23db60c53f0e9caeabbef2453",
+      "all_substantive_passages_accounted_for": true,
+      "previous_draft_path": "research/Glasgow-1483/govan-nailers-2026-10-20.wiki",
+      "draft_path": "research/Glasgow-1483/govan-household-2026-10-22.wiki",
+      "reviewed_substitutions": [
+        {
+          "before": "Lilias is the named mother of the indexed child, but no maternal attachment or new mother profile is selected here.",
+          "after": "At the 20 October 2026 review, Lilias was the named mother of the indexed child but no maternal attachment was selected. The current 22 October 2026 review supersedes that decision with a probable 86% maternal selection.",
+          "basis": "Preserve earlier dated selection while making current mother86% decision explicit"
+        }
+      ]
+    }
+  }
+}
