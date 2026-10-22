@@ -49,6 +49,38 @@ class FamilyBranchParentSyncTest(unittest.TestCase):
             self.assertEqual([str(row) for row in rows[1:]], [str(row) for row in original_rows[1:]])
             self.assertEqual(refresh_family_branch_parents(['Example-1'], site_root=root, write=True), [])
 
+    def test_child_only_sync_refreshes_parent_branch_and_research_counts(self):
+        with TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            page = root / 'branches/family-example-1/index.html'
+            page.parent.mkdir(parents=True)
+            page.write_text('<div class="r-group-stats"><span><strong>2</strong> people</span>'
+                            '<span><strong>0</strong> records</span><span><strong>0</strong> conclusions</span></div>'
+                            '<div class="r-family-tree"><div class="r-family-row">No parents</div>'
+                            '<div class="r-family-row"><div class="r-family-person">'
+                            '<a data-r-person-link="Example-2">Child</a>'
+                            '<span class="r-chip" data-status="unknown">Unassessed</span></div></div></div>')
+            branches = root / 'assets/research/branches.json'
+            branches.parent.mkdir(parents=True)
+            branches.write_text(json.dumps([{'id': 'family-example-1', 'rootId': 'Example-1',
+                                            'members': ['example-1', 'example-2'],
+                                            'record_count': 0, 'review_count': 0}]))
+            (branches.parent / 'record-index.json').write_text(json.dumps([{'id': 'record-1', 'p': 'example-2'}]))
+            account = root / 'people/example-1.json'
+            account.parent.mkdir()
+            account.write_text(json.dumps({'relationships': {'children': [
+                {'id': 'Example-2', 'status': 'proved', 'probability': {'value': .98, 'label': 'Confident · 98%'}}]},
+                'research_findings': [{'sections': [{'category': 'conclusion', 'markdown': 'A register names the child.'}]}]}))
+            self.assertEqual(refresh_family_branch_parents(['Example-2'], site_root=root, write=True), ['family-example-1'])
+            rendered = BeautifulSoup(page.read_text(), 'html.parser')
+            chip = rendered.select_one('.r-family-person .r-chip')
+            self.assertEqual(chip.get_text(), 'Confident · 98%')
+            self.assertEqual(chip['data-status'], 'proved')
+            self.assertEqual([n.get_text() for n in rendered.select('.r-group-stats strong')], ['2', '1', '1'])
+            saved = json.loads(branches.read_text())[0]
+            self.assertEqual((saved['record_count'], saved['review_count']), (1, 1))
+            self.assertEqual(refresh_family_branch_parents(['Example-2'], site_root=root, write=True), [])
+
 
 if __name__ == '__main__':
     unittest.main()

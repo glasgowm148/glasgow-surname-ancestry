@@ -31,16 +31,20 @@ WEB = ROOT / "www"
 
 
 def refresh_family_branch_parents(profile_ids, *, site_root=WEB, write=False):
-    """Refresh existing family entry points from current public parent assessments."""
+    """Refresh family cards and counts from current public research accounts."""
     requested = {str(ident).casefold() for ident in profile_ids}
     branch_path = site_root / 'assets/research/branches.json'
     if not branch_path.is_file():
         return []
     branches = read_json(branch_path)
     changed = []
+    metadata_changed = False
+    record_path = site_root / 'assets/research/record-index.json'
+    records = read_json(record_path) if record_path.exists() else None
     for branch in branches:
         ident = str(branch.get('rootId') or branch.get('root') or '')
-        if ident.casefold() not in requested:
+        members = {str(member).casefold() for member in branch.get('members', [])}
+        if ident.casefold() not in requested and not members.intersection(requested):
             continue
         person_path = site_root / 'people' / (ident.lower() + '.json')
         page_path = site_root / 'branches' / branch['id'] / 'index.html'
@@ -48,6 +52,7 @@ def refresh_family_branch_parents(profile_ids, *, site_root=WEB, write=False):
             continue
         person = read_json(person_path)
         page = BeautifulSoup(page_path.read_text(encoding='utf-8'), 'html.parser')
+        before_page = str(page)
         tree = page.select_one('.r-family-tree')
         row = tree.find('div', class_='r-family-row', recursive=False) if tree else None
         if row is None:
@@ -73,12 +78,56 @@ def refresh_family_branch_parents(profile_ids, *, site_root=WEB, write=False):
                          f'{escape(str(label))}</span></div>')
         markup = '<div class="r-family-row">' + (''.join(cards) or '<span class="r-caption">No parents attached in this model</span>') + '</div>'
         replacement = BeautifulSoup(markup, 'html.parser').div
-        if str(row) == str(replacement):
+        if str(row) != str(replacement):
+            row.replace_with(replacement)
+        # A child's parent regrade must also reach the parent's child card.
+        relatives = {str(relative.get('id') or '').casefold(): relative
+                     for group in ('parents', 'spouses', 'children')
+                     for relative in person.get('relationships', {}).get(group, [])
+                     if relative.get('display') not in {'hidden', 'withheld', 'historical', 'alternative', 'superseded'}
+                     and relative.get('lifecycle') not in {'historical', 'alternative', 'superseded', 'retired'}}
+        for card in tree.select('.r-family-person'):
+            anchor = card.select_one('a[data-r-person-link]')
+            relative = relatives.get(str(anchor.get('data-r-person-link')).casefold()) if anchor else None
+            chip = card.select_one('.r-chip')
+            if not relative or chip is None:
+                continue
+            rating = relative.get('probability') or {}
+            label = relative.get('status_label') or 'Unassessed relationship'
+            if relative.get('status') in (None, 'unknown'):
+                label = relative.get('tree_status_label') or label
+            if rating.get('value') is not None:
+                label = rating.get('label') or f'{label} · {rating["value"] * 100:g}%'
+            chip.string = str(label)
+            chip['data-status'] = relative.get('status') or 'unknown'
+        before_counts = (branch.get('record_count'), branch.get('review_count'))
+        if members:
+            reviewed = 0
+            for member in members:
+                account_path = site_root / 'people' / (member + '.json')
+                if account_path.exists():
+                    account = read_json(account_path)
+                    reviewed += any(section.get('category') == 'conclusion'
+                                    and section.get('markdown', '').strip() not in {'', 'No sourced conclusion recorded yet.'}
+                                    for finding in account.get('research_findings', [])
+                                    for section in finding.get('sections', []))
+            branch['review_count'] = reviewed
+            if records is not None:
+                branch['record_count'] = len({record['id'] for record in records
+                                             if str(record.get('p') or '').casefold() in members})
+            totals = page.select('.r-group-stats > span > strong')
+            if len(totals) == 3:
+                totals[1].string = str(branch.get('record_count', 0))
+                totals[2].string = str(branch['review_count'])
+        counts_changed = before_counts != (branch.get('record_count'), branch.get('review_count'))
+        metadata_changed |= counts_changed
+        if str(page) == before_page and not counts_changed:
             continue
         changed.append(branch['id'])
         if write:
-            row.replace_with(replacement)
             page_path.write_text(str(page), encoding='utf-8')
+    if write and metadata_changed:
+        branch_path.write_text(json.dumps(branches, ensure_ascii=False, indent=2) + '\n')
     return changed
 
 
