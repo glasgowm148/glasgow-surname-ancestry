@@ -113,6 +113,24 @@ class PublicFamiliesTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'endpoint outside'):
             apply_working_hypotheses(people, [self.selected_father()])
 
+    def test_reviewed_later_child_is_visible_without_changing_birth_or_importing_peers(self):
+        people = []
+        assessment = dict(assertion_id='A-later', publication_status='approved',
+                          status='proved', source_ids=['Family-biography'],
+                          probability={'value': .97},
+                          perspectives={'Child-1': {'relationship': 'father'}})
+        self.run_sync(people, {
+            'Child-1': [dict(id='Father-1', relationship='father', status='proved',
+                             assertion_id='A-later')],
+            'Father-1': [], 'Unreviewed-1': []},
+            years={'Child-1': 1900, 'Father-1': 1850, 'Unreviewed-1': 1900},
+            assessments=[assessment])
+        by_id = {p['id']: p for p in people}
+        self.assertEqual(set(by_id), {'Child-1', 'Father-1'})
+        self.assertEqual(by_id['Child-1']['born'], 1900)
+        self.assertEqual(by_id['Child-1']['parents'][0]['id'], 'Father-1')
+        self.assertEqual(by_id['Father-1']['childrenRecorded'][0]['id'], 'Child-1')
+
     def test_tentative_working_father_preserves_selected_provenance(self):
         for grade in ['possible', 'probable']:
             with self.subTest(grade=grade):

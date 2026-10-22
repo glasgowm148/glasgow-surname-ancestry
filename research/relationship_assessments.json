@@ -23184,17 +23184,19 @@
       "Glasgow-2239",
       "Glasgow-653"
     ],
-    "status": "proved",
+    "status": "strongly_supported",
     "publication_status": "approved",
     "working_selection": false,
     "allow_new_relationship": false,
     "assessment_date": "2026-10-22",
-    "basis": "The held Arthur account explicitly names Joseph as father and cites Faris p34. Arthur’s 1809 Adams County birth follows Joseph’s 1780 generation within the same documented descendant family, providing a specific compiled household identification.",
-    "reason": "The held Arthur account explicitly names Joseph as father and cites Faris p34. Arthur’s 1809 Adams County birth follows Joseph’s 1780 generation within the same documented descendant family, providing a specific compiled household identification.",
-    "claim": "Glasgow-653 remains the selected father of Glasgow-2239, individually assessed 93%.",
-    "record_scope": "Compiled-family attribution93%; the original book evidence and probate relationship wording were not newly inspected.",
-    "limitations": "Compiled-family attribution93%; the original book evidence and probate relationship wording were not newly inspected.",
+    "basis": "Arthur is already explicitly assigned to Joseph in the compiled account with Faris p. 34. The memoir supplies an additional distinctive sibling role: the California forty-niner who drowned returning. The family group supports that identification. An Ohio probate estate does not by itself establish a contradictory physical place of death; the drowning and probate identity still merit checking. The original 1919–1920 memoir identifies S. S. Glasgow by his exact 4 June 1851 birthday, matching Samuel Steele Glasgow-2043. His father William B.’s Adams County life, age 91, named children and McIntire wife identify William Barclay Glasgow-875. The memoir places William B., Robert A., Arthur, Polly/John Williams, Becky/Ralston, Rose/Ralston and Margaret/Robert P. McClure in one family. Robert Anderson’s held 1880 Caldwell atlas account, p. 69, explicitly names his parents Joseph and Nancy and reports Joseph’s 1820 death. This supplies the named-father anchor for the combined sibling inference.",
+    "reason": "Arthur is already explicitly assigned to Joseph in the compiled account with Faris p. 34. The memoir supplies an additional distinctive sibling role: the California forty-niner who drowned returning. The family group supports that identification. An Ohio probate estate does not by itself establish a contradictory physical place of death; the drowning and probate identity still merit checking. The original 1919–1920 memoir identifies S. S. Glasgow by his exact 4 June 1851 birthday, matching Samuel Steele Glasgow-2043. His father William B.’s Adams County life, age 91, named children and McIntire wife identify William Barclay Glasgow-875. The memoir places William B., Robert A., Arthur, Polly/John Williams, Becky/Ralston, Rose/Ralston and Margaret/Robert P. McClure in one family. Robert Anderson’s held 1880 Caldwell atlas account, p. 69, explicitly names his parents Joseph and Nancy and reports Joseph’s 1820 death. This supplies the named-father anchor for the combined sibling inference.",
+    "claim": "Joseph Glasgow-653 is Glasgow-2239’s father, assessed 95% for the whole pair.",
+    "record_scope": "Whole father–child profile pair, 95% confident inference. The memoir does not name the grandfather Joseph. His identification combines the recent family group with the held 1880 account and compiled family placements; it is not a literal father clause for every sibling. Its Scottish immigrant-grandfather tradition conflicts with Joseph’s Virginia birth and may telescope generations. Eliza/Breckenridge matches Campbell-36723, Nancy’s later Campbell daughter born in 1831, so the list appears to mix maternal half-siblings. That prevents assigning every listed child to Joseph. All six reviewed Glasgow siblings were born before his reported 1820 death. The two historical publications predate Faris 1990 but may share earlier family information; their independence is unproved. Original memoir pages were inspected; the 1880 page is used from the complete held biography, and a fresh download returned HTTP 403. Mothers, vital fields and Joseph’s separate 93% Robert-father assessment are unchanged.",
+    "limitations": "Whole father–child profile pair, 95% confident inference. The memoir does not name the grandfather Joseph. His identification combines the recent family group with the held 1880 account and compiled family placements; it is not a literal father clause for every sibling. Its Scottish immigrant-grandfather tradition conflicts with Joseph’s Virginia birth and may telescope generations. Eliza/Breckenridge matches Campbell-36723, Nancy’s later Campbell daughter born in 1831, so the list appears to mix maternal half-siblings. That prevents assigning every listed child to Joseph. All six reviewed Glasgow siblings were born before his reported 1820 death. The two historical publications predate Faris 1990 but may share earlier family information; their independence is unproved. Original memoir pages were inspected; the 1880 page is used from the complete held biography, and a fresh download returned HTTP 403. Mothers, vital fields and Joseph’s separate 93% Robert-father assessment are unchanged.",
     "source_ids": [
+      "miami-valley-ss-glasgow-family-1919",
+      "held-e-a278676a6d7c",
       "held-faris-glasgow-adams-ohio-1990"
     ],
     "assessment_history": [
@@ -23205,16 +23207,29 @@
         "probability_percent": null,
         "claim_id": "C-e8a0badc2954",
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+      },
+      {
+        "status": "proved",
+        "probability_percent": 93,
+        "assessment_date": "2026-10-22",
+        "source_basis": "The held Arthur account explicitly names Joseph as father and cites Faris p34. Arthur’s 1809 Adams County birth follows Joseph’s 1780 generation within the same documented descendant family, providing a specific compiled household identification.",
+        "source_ids": [
+          "held-faris-glasgow-adams-ohio-1990"
+        ],
+        "record_scope": "Compiled-family attribution93%; the original book evidence and probate relationship wording were not newly inspected.",
+        "change_reason": "Original memoir sibling reconstruction combined with the held 1880 named-parent account."
       }
     ],
     "perspectives": {
       "Glasgow-2239": {
         "relationship": "father",
-        "reason": "The held Arthur account explicitly names Joseph as father and cites Faris p34. Arthur’s 1809 Adams County birth follows Joseph’s 1780 generation within the same documented descendant family, providing a specific compiled household identification."
+        "reason": "Arthur is already explicitly assigned to Joseph in the compiled account with Faris p. 34. The memoir supplies an additional distinctive sibling role: the California forty-niner who drowned returning. The family group supports that identification. An Ohio probate estate does not by itself establish a contradictory physical place of death; the drowning and probate identity still merit checking. The original 1919–1920 memoir identifies S. S. Glasgow by his exact 4 June 1851 birthday, matching Samuel Steele Glasgow-2043. His father William B.’s Adams County life, age 91, named children and McIntire wife identify William Barclay Glasgow-875. The memoir places William B., Robert A., Arthur, Polly/John Williams, Becky/Ralston, Rose/Ralston and Margaret/Robert P. McClure in one family. Robert Anderson’s held 1880 Caldwell atlas account, p. 69, explicitly names his parents Joseph and Nancy and reports Joseph’s 1820 death. This supplies the named-father anchor for the combined sibling inference.",
+        "status_label": "Confident inferred father · 95%"
       },
       "Glasgow-653": {
         "relationship": "son",
-        "reason": "The held Arthur account explicitly names Joseph as father and cites Faris p34. Arthur’s 1809 Adams County birth follows Joseph’s 1780 generation within the same documented descendant family, providing a specific compiled household identification."
+        "reason": "Arthur is already explicitly assigned to Joseph in the compiled account with Faris p. 34. The memoir supplies an additional distinctive sibling role: the California forty-niner who drowned returning. The family group supports that identification. An Ohio probate estate does not by itself establish a contradictory physical place of death; the drowning and probate identity still merit checking. The original 1919–1920 memoir identifies S. S. Glasgow by his exact 4 June 1851 birthday, matching Samuel Steele Glasgow-2043. His father William B.’s Adams County life, age 91, named children and McIntire wife identify William Barclay Glasgow-875. The memoir places William B., Robert A., Arthur, Polly/John Williams, Becky/Ralston, Rose/Ralston and Margaret/Robert P. McClure in one family. Robert Anderson’s held 1880 Caldwell atlas account, p. 69, explicitly names his parents Joseph and Nancy and reports Joseph’s 1820 death. This supplies the named-father anchor for the combined sibling inference.",
+        "status_label": "Confident inferred child · 95%"
       }
     },
     "analysis_links": [
@@ -23230,19 +23245,41 @@
         "tree_status": "unmarked",
         "probability_percent": null,
         "claim_id": "C-e8a0badc2954",
-        "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+        "source_basis": "Pre-batch public dossier and selected through 1850 graph, 22October2026; saved mark retained separately; no live edit."
       },
       "original_inspected_in_batch": false,
-      "live_flag_changed": false
+      "live_flag_changed": false,
+      "confidence_reassessment": {
+        "previous_status": "proved",
+        "previous_probability_percent": 93,
+        "basis": "The held Arthur account explicitly names Joseph as father and cites Faris p34. Arthur’s 1809 Adams County birth follows Joseph’s 1780 generation within the same documented descendant family, providing a specific compiled household identification.",
+        "saved_father_status": "unmarked",
+        "live_checked_at": "2026-10-22",
+        "live_revision": "20250719011222",
+        "live_edit": false
+      }
     },
     "probability": {
-      "value": 0.93,
-      "basis": "The held Arthur account explicitly names Joseph as father and cites Faris p34. Arthur’s 1809 Adams County birth follows Joseph’s 1780 generation within the same documented descendant family, providing a specific compiled household identification.",
+      "value": 0.95,
+      "basis": "Arthur is already explicitly assigned to Joseph in the compiled account with Faris p. 34. The memoir supplies an additional distinctive sibling role: the California forty-niner who drowned returning. The family group supports that identification. An Ohio probate estate does not by itself establish a contradictory physical place of death; the drowning and probate identity still merit checking. The original 1919–1920 memoir identifies S. S. Glasgow by his exact 4 June 1851 birthday, matching Samuel Steele Glasgow-2043. His father William B.’s Adams County life, age 91, named children and McIntire wife identify William Barclay Glasgow-875. The memoir places William B., Robert A., Arthur, Polly/John Williams, Becky/Ralston, Rose/Ralston and Margaret/Robert P. McClure in one family. Robert Anderson’s held 1880 Caldwell atlas account, p. 69, explicitly names his parents Joseph and Nancy and reports Joseph’s 1820 death. This supplies the named-father anchor for the combined sibling inference.",
+      "scope": "Whole father–child profile pair, 95% confident inference. The memoir does not name the grandfather Joseph. His identification combines the recent family group with the held 1880 account and compiled family placements; it is not a literal father clause for every sibling. Its Scottish immigrant-grandfather tradition conflicts with Joseph’s Virginia birth and may telescope generations. Eliza/Breckenridge matches Campbell-36723, Nancy’s later Campbell daughter born in 1831, so the list appears to mix maternal half-siblings. That prevents assigning every listed child to Joseph. All six reviewed Glasgow siblings were born before his reported 1820 death. The two historical publications predate Faris 1990 but may share earlier family information; their independence is unproved. Original memoir pages were inspected; the 1880 page is used from the complete held biography, and a fresh download returned HTTP 403. Mothers, vital fields and Joseph’s separate 93% Robert-father assessment are unchanged.",
       "reviewed": "2026-10-22",
       "source_ids": [
+        "miami-valley-ss-glasgow-family-1919",
+        "held-e-a278676a6d7c",
         "held-faris-glasgow-adams-ohio-1990"
-      ],
-      "scope": "Compiled-family attribution93%; the original book evidence and probate relationship wording were not newly inspected."
+      ]
+    },
+    "last_test": "22 October 2026: original memoir family group and held 1880 named-parent account compared; individual confidence increased.",
+    "next_test": "Joseph’s 1820 estate or guardianships and Faris’s underlying family record can test the precise paternal group; inspect original Caldwell p. 69 when accessible.",
+    "evidence_test": {
+      "reviewed": "2026-10-22",
+      "summary": "22 October 2026: original memoir family group and held 1880 named-parent account compared; individual confidence increased.",
+      "source_url": "https://digital.cincinnatilibrary.org/iiif/2/p16998coll15:18001/full/full/0/default.jpg",
+      "confidence_changed": true,
+      "new_record_discovery": true,
+      "original_image_newly_inspected": true,
+      "named_father_literal_in_memoir": false
     }
   },
   {
@@ -27768,17 +27805,19 @@
       "Glasgow-875",
       "Glasgow-653"
     ],
-    "status": "probable",
+    "status": "strongly_supported",
     "publication_status": "approved",
     "working_selection": false,
     "allow_new_relationship": false,
     "assessment_date": "2026-10-22",
-    "basis": "William Barclay’s exact1816 birth fits Joseph-653’s1780 generation and the established Adams County family. The existing assignment is a specific descendant-family placement, but his retained cemetery, residence and later-life citations do not themselves name Joseph as father.",
-    "reason": "William Barclay’s exact1816 birth fits Joseph-653’s1780 generation and the established Adams County family. The existing assignment is a specific descendant-family placement, but his retained cemetery, residence and later-life citations do not themselves name Joseph as father.",
-    "claim": "Glasgow-653 remains the selected father of Glasgow-875, individually assessed 71%.",
-    "record_scope": "Probable71%; compiled pedigree with compatible household, not a father proved by a gravestone date.",
-    "limitations": "Probable71%; compiled pedigree with compatible household, not a father proved by a gravestone date.",
+    "basis": "William Barclay’s family is identified by Samuel Steele’s exact birthday, Joseph Anderson and Mary Elizabeth/Williams, the Kane daughter, his McIntire wife, Adams County farming and survival to 91. Robert A.’s place beside this William B. connects that specific adult to the Joseph/Nancy family. The remaining alternative is that the memoir mixed paternal as well as maternal sibling groups. The original 1919–1920 memoir identifies S. S. Glasgow by his exact 4 June 1851 birthday, matching Samuel Steele Glasgow-2043. His father William B.’s Adams County life, age 91, named children and McIntire wife identify William Barclay Glasgow-875. The memoir places William B., Robert A., Arthur, Polly/John Williams, Becky/Ralston, Rose/Ralston and Margaret/Robert P. McClure in one family. Robert Anderson’s held 1880 Caldwell atlas account, p. 69, explicitly names his parents Joseph and Nancy and reports Joseph’s 1820 death. This supplies the named-father anchor for the combined sibling inference.",
+    "reason": "William Barclay’s family is identified by Samuel Steele’s exact birthday, Joseph Anderson and Mary Elizabeth/Williams, the Kane daughter, his McIntire wife, Adams County farming and survival to 91. Robert A.’s place beside this William B. connects that specific adult to the Joseph/Nancy family. The remaining alternative is that the memoir mixed paternal as well as maternal sibling groups. The original 1919–1920 memoir identifies S. S. Glasgow by his exact 4 June 1851 birthday, matching Samuel Steele Glasgow-2043. His father William B.’s Adams County life, age 91, named children and McIntire wife identify William Barclay Glasgow-875. The memoir places William B., Robert A., Arthur, Polly/John Williams, Becky/Ralston, Rose/Ralston and Margaret/Robert P. McClure in one family. Robert Anderson’s held 1880 Caldwell atlas account, p. 69, explicitly names his parents Joseph and Nancy and reports Joseph’s 1820 death. This supplies the named-father anchor for the combined sibling inference.",
+    "claim": "Joseph Glasgow-653 is Glasgow-875’s father, assessed 95% for the whole pair.",
+    "record_scope": "Whole father–child profile pair, 95% confident inference. The memoir does not name the grandfather Joseph. His identification combines the recent family group with the held 1880 account and compiled family placements; it is not a literal father clause for every sibling. Its Scottish immigrant-grandfather tradition conflicts with Joseph’s Virginia birth and may telescope generations. Eliza/Breckenridge matches Campbell-36723, Nancy’s later Campbell daughter born in 1831, so the list appears to mix maternal half-siblings. That prevents assigning every listed child to Joseph. All six reviewed Glasgow siblings were born before his reported 1820 death. The two historical publications predate Faris 1990 but may share earlier family information; their independence is unproved. Original memoir pages were inspected; the 1880 page is used from the complete held biography, and a fresh download returned HTTP 403. Mothers, vital fields and Joseph’s separate 93% Robert-father assessment are unchanged.",
+    "limitations": "Whole father–child profile pair, 95% confident inference. The memoir does not name the grandfather Joseph. His identification combines the recent family group with the held 1880 account and compiled family placements; it is not a literal father clause for every sibling. Its Scottish immigrant-grandfather tradition conflicts with Joseph’s Virginia birth and may telescope generations. Eliza/Breckenridge matches Campbell-36723, Nancy’s later Campbell daughter born in 1831, so the list appears to mix maternal half-siblings. That prevents assigning every listed child to Joseph. All six reviewed Glasgow siblings were born before his reported 1820 death. The two historical publications predate Faris 1990 but may share earlier family information; their independence is unproved. Original memoir pages were inspected; the 1880 page is used from the complete held biography, and a fresh download returned HTTP 403. Mothers, vital fields and Joseph’s separate 93% Robert-father assessment are unchanged.",
     "source_ids": [
+      "miami-valley-ss-glasgow-family-1919",
+      "held-e-a278676a6d7c",
       "held-e-beb0fb1e7811"
     ],
     "assessment_history": [
@@ -27789,16 +27828,29 @@
         "probability_percent": null,
         "claim_id": "C-a0081751f899",
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+      },
+      {
+        "status": "probable",
+        "probability_percent": 71,
+        "assessment_date": "2026-10-22",
+        "source_basis": "William Barclay’s exact1816 birth fits Joseph-653’s1780 generation and the established Adams County family. The existing assignment is a specific descendant-family placement, but his retained cemetery, residence and later-life citations do not themselves name Joseph as father.",
+        "source_ids": [
+          "held-e-beb0fb1e7811"
+        ],
+        "record_scope": "Probable71%; compiled pedigree with compatible household, not a father proved by a gravestone date.",
+        "change_reason": "Original memoir sibling reconstruction combined with the held 1880 named-parent account."
       }
     ],
     "perspectives": {
       "Glasgow-875": {
         "relationship": "father",
-        "reason": "William Barclay’s exact1816 birth fits Joseph-653’s1780 generation and the established Adams County family. The existing assignment is a specific descendant-family placement, but his retained cemetery, residence and later-life citations do not themselves name Joseph as father."
+        "reason": "William Barclay’s family is identified by Samuel Steele’s exact birthday, Joseph Anderson and Mary Elizabeth/Williams, the Kane daughter, his McIntire wife, Adams County farming and survival to 91. Robert A.’s place beside this William B. connects that specific adult to the Joseph/Nancy family. The remaining alternative is that the memoir mixed paternal as well as maternal sibling groups. The original 1919–1920 memoir identifies S. S. Glasgow by his exact 4 June 1851 birthday, matching Samuel Steele Glasgow-2043. His father William B.’s Adams County life, age 91, named children and McIntire wife identify William Barclay Glasgow-875. The memoir places William B., Robert A., Arthur, Polly/John Williams, Becky/Ralston, Rose/Ralston and Margaret/Robert P. McClure in one family. Robert Anderson’s held 1880 Caldwell atlas account, p. 69, explicitly names his parents Joseph and Nancy and reports Joseph’s 1820 death. This supplies the named-father anchor for the combined sibling inference.",
+        "status_label": "Confident inferred father · 95%"
       },
       "Glasgow-653": {
         "relationship": "son",
-        "reason": "William Barclay’s exact1816 birth fits Joseph-653’s1780 generation and the established Adams County family. The existing assignment is a specific descendant-family placement, but his retained cemetery, residence and later-life citations do not themselves name Joseph as father."
+        "reason": "William Barclay’s family is identified by Samuel Steele’s exact birthday, Joseph Anderson and Mary Elizabeth/Williams, the Kane daughter, his McIntire wife, Adams County farming and survival to 91. Robert A.’s place beside this William B. connects that specific adult to the Joseph/Nancy family. The remaining alternative is that the memoir mixed paternal as well as maternal sibling groups. The original 1919–1920 memoir identifies S. S. Glasgow by his exact 4 June 1851 birthday, matching Samuel Steele Glasgow-2043. His father William B.’s Adams County life, age 91, named children and McIntire wife identify William Barclay Glasgow-875. The memoir places William B., Robert A., Arthur, Polly/John Williams, Becky/Ralston, Rose/Ralston and Margaret/Robert P. McClure in one family. Robert Anderson’s held 1880 Caldwell atlas account, p. 69, explicitly names his parents Joseph and Nancy and reports Joseph’s 1820 death. This supplies the named-father anchor for the combined sibling inference.",
+        "status_label": "Confident inferred child · 95%"
       }
     },
     "analysis_links": [
@@ -27814,19 +27866,41 @@
         "tree_status": "unmarked",
         "probability_percent": null,
         "claim_id": "C-a0081751f899",
-        "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+        "source_basis": "Pre-batch public dossier and selected through 1850 graph, 22October2026; saved mark retained separately; no live edit."
       },
       "original_inspected_in_batch": false,
-      "live_flag_changed": false
+      "live_flag_changed": false,
+      "confidence_reassessment": {
+        "previous_status": "probable",
+        "previous_probability_percent": 71,
+        "basis": "William Barclay’s exact1816 birth fits Joseph-653’s1780 generation and the established Adams County family. The existing assignment is a specific descendant-family placement, but his retained cemetery, residence and later-life citations do not themselves name Joseph as father.",
+        "saved_father_status": "unmarked",
+        "live_checked_at": "2026-10-22",
+        "live_revision": "20250327091146",
+        "live_edit": false
+      }
     },
     "probability": {
-      "value": 0.71,
-      "basis": "William Barclay’s exact1816 birth fits Joseph-653’s1780 generation and the established Adams County family. The existing assignment is a specific descendant-family placement, but his retained cemetery, residence and later-life citations do not themselves name Joseph as father.",
+      "value": 0.95,
+      "basis": "William Barclay’s family is identified by Samuel Steele’s exact birthday, Joseph Anderson and Mary Elizabeth/Williams, the Kane daughter, his McIntire wife, Adams County farming and survival to 91. Robert A.’s place beside this William B. connects that specific adult to the Joseph/Nancy family. The remaining alternative is that the memoir mixed paternal as well as maternal sibling groups. The original 1919–1920 memoir identifies S. S. Glasgow by his exact 4 June 1851 birthday, matching Samuel Steele Glasgow-2043. His father William B.’s Adams County life, age 91, named children and McIntire wife identify William Barclay Glasgow-875. The memoir places William B., Robert A., Arthur, Polly/John Williams, Becky/Ralston, Rose/Ralston and Margaret/Robert P. McClure in one family. Robert Anderson’s held 1880 Caldwell atlas account, p. 69, explicitly names his parents Joseph and Nancy and reports Joseph’s 1820 death. This supplies the named-father anchor for the combined sibling inference.",
+      "scope": "Whole father–child profile pair, 95% confident inference. The memoir does not name the grandfather Joseph. His identification combines the recent family group with the held 1880 account and compiled family placements; it is not a literal father clause for every sibling. Its Scottish immigrant-grandfather tradition conflicts with Joseph’s Virginia birth and may telescope generations. Eliza/Breckenridge matches Campbell-36723, Nancy’s later Campbell daughter born in 1831, so the list appears to mix maternal half-siblings. That prevents assigning every listed child to Joseph. All six reviewed Glasgow siblings were born before his reported 1820 death. The two historical publications predate Faris 1990 but may share earlier family information; their independence is unproved. Original memoir pages were inspected; the 1880 page is used from the complete held biography, and a fresh download returned HTTP 403. Mothers, vital fields and Joseph’s separate 93% Robert-father assessment are unchanged.",
       "reviewed": "2026-10-22",
       "source_ids": [
+        "miami-valley-ss-glasgow-family-1919",
+        "held-e-a278676a6d7c",
         "held-e-beb0fb1e7811"
-      ],
-      "scope": "Probable71%; compiled pedigree with compatible household, not a father proved by a gravestone date."
+      ]
+    },
+    "last_test": "22 October 2026: original memoir family group and held 1880 named-parent account compared; individual confidence increased.",
+    "next_test": "Joseph’s 1820 estate or guardianships and Faris’s underlying family record can test the precise paternal group; inspect original Caldwell p. 69 when accessible.",
+    "evidence_test": {
+      "reviewed": "2026-10-22",
+      "summary": "22 October 2026: original memoir family group and held 1880 named-parent account compared; individual confidence increased.",
+      "source_url": "https://digital.cincinnatilibrary.org/iiif/2/p16998coll15:18001/full/full/0/default.jpg",
+      "confidence_changed": true,
+      "new_record_discovery": true,
+      "original_image_newly_inspected": true,
+      "named_father_literal_in_memoir": false
     }
   },
   {
@@ -66953,17 +67027,19 @@
       "Glasgow-2238",
       "Glasgow-653"
     ],
-    "status": "probable",
+    "status": "strongly_supported",
     "publication_status": "approved",
     "working_selection": false,
     "allow_new_relationship": false,
     "assessment_date": "2026-10-22",
-    "basis": "Faris’s 1990 Glasgow Family genealogy supplies the Joseph/Nancy family framework; Rebecca is called Joseph/Nancy’s daughter, with 1805 birth and 1857 memorial. Joseph’s reported 1820 Ohio death is compatible with the birth, but no original relationship passage is transcribed.",
-    "reason": "Faris’s 1990 Glasgow Family genealogy supplies the Joseph/Nancy family framework; Rebecca is called Joseph/Nancy’s daughter, with 1805 birth and 1857 memorial. Joseph’s reported 1820 Ohio death is compatible with the birth, but no original relationship passage is transcribed.",
-    "claim": "Glasgow-653 remains the selected father of Glasgow-2238, individually assessed 88%.",
-    "record_scope": "Selected father-profile identity and paternal relationship; maternal identity is separate.",
-    "limitations": "Selected father-profile identity and paternal relationship; maternal identity is separate.",
+    "basis": "Becky/Ralston fits Rebecca Jane Glasgow’s existing Joseph/Nancy attribution, 1805 birth, Ralston marriage and distinctive two-Ralston-sister family group. The memoir gives the husband only as Mr Ralston and uses a nickname, so the combined identification is slightly less secure than a full spouse-name match. The original 1919–1920 memoir identifies S. S. Glasgow by his exact 4 June 1851 birthday, matching Samuel Steele Glasgow-2043. His father William B.’s Adams County life, age 91, named children and McIntire wife identify William Barclay Glasgow-875. The memoir places William B., Robert A., Arthur, Polly/John Williams, Becky/Ralston, Rose/Ralston and Margaret/Robert P. McClure in one family. Robert Anderson’s held 1880 Caldwell atlas account, p. 69, explicitly names his parents Joseph and Nancy and reports Joseph’s 1820 death. This supplies the named-father anchor for the combined sibling inference.",
+    "reason": "Becky/Ralston fits Rebecca Jane Glasgow’s existing Joseph/Nancy attribution, 1805 birth, Ralston marriage and distinctive two-Ralston-sister family group. The memoir gives the husband only as Mr Ralston and uses a nickname, so the combined identification is slightly less secure than a full spouse-name match. The original 1919–1920 memoir identifies S. S. Glasgow by his exact 4 June 1851 birthday, matching Samuel Steele Glasgow-2043. His father William B.’s Adams County life, age 91, named children and McIntire wife identify William Barclay Glasgow-875. The memoir places William B., Robert A., Arthur, Polly/John Williams, Becky/Ralston, Rose/Ralston and Margaret/Robert P. McClure in one family. Robert Anderson’s held 1880 Caldwell atlas account, p. 69, explicitly names his parents Joseph and Nancy and reports Joseph’s 1820 death. This supplies the named-father anchor for the combined sibling inference.",
+    "claim": "Joseph Glasgow-653 is Glasgow-2238’s father, assessed 93% for the whole pair.",
+    "record_scope": "Whole father–child profile pair, 93% confident inference. The memoir does not name the grandfather Joseph. His identification combines the recent family group with the held 1880 account and compiled family placements; it is not a literal father clause for every sibling. Its Scottish immigrant-grandfather tradition conflicts with Joseph’s Virginia birth and may telescope generations. Eliza/Breckenridge matches Campbell-36723, Nancy’s later Campbell daughter born in 1831, so the list appears to mix maternal half-siblings. That prevents assigning every listed child to Joseph. All six reviewed Glasgow siblings were born before his reported 1820 death. The two historical publications predate Faris 1990 but may share earlier family information; their independence is unproved. Original memoir pages were inspected; the 1880 page is used from the complete held biography, and a fresh download returned HTTP 403. Mothers, vital fields and Joseph’s separate 93% Robert-father assessment are unchanged.",
+    "limitations": "Whole father–child profile pair, 93% confident inference. The memoir does not name the grandfather Joseph. His identification combines the recent family group with the held 1880 account and compiled family placements; it is not a literal father clause for every sibling. Its Scottish immigrant-grandfather tradition conflicts with Joseph’s Virginia birth and may telescope generations. Eliza/Breckenridge matches Campbell-36723, Nancy’s later Campbell daughter born in 1831, so the list appears to mix maternal half-siblings. That prevents assigning every listed child to Joseph. All six reviewed Glasgow siblings were born before his reported 1820 death. The two historical publications predate Faris 1990 but may share earlier family information; their independence is unproved. Original memoir pages were inspected; the 1880 page is used from the complete held biography, and a fresh download returned HTTP 403. Mothers, vital fields and Joseph’s separate 93% Robert-father assessment are unchanged.",
     "source_ids": [
+      "miami-valley-ss-glasgow-family-1919",
+      "held-e-a278676a6d7c",
       "held-e-f8536e2f7678"
     ],
     "assessment_history": [
@@ -66977,16 +67053,29 @@
         "claim_id": "C-e29956857e66",
         "source_ids": [],
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+      },
+      {
+        "status": "probable",
+        "probability_percent": 88,
+        "assessment_date": "2026-10-22",
+        "source_basis": "Faris’s 1990 Glasgow Family genealogy supplies the Joseph/Nancy family framework; Rebecca is called Joseph/Nancy’s daughter, with 1805 birth and 1857 memorial. Joseph’s reported 1820 Ohio death is compatible with the birth, but no original relationship passage is transcribed.",
+        "source_ids": [
+          "held-e-f8536e2f7678"
+        ],
+        "record_scope": "Selected father-profile identity and paternal relationship; maternal identity is separate.",
+        "change_reason": "Original memoir sibling reconstruction combined with the held 1880 named-parent account."
       }
     ],
     "perspectives": {
       "Glasgow-2238": {
         "relationship": "father",
-        "reason": "Faris’s 1990 Glasgow Family genealogy supplies the Joseph/Nancy family framework; Rebecca is called Joseph/Nancy’s daughter, with 1805 birth and 1857 memorial. Joseph’s reported 1820 Ohio death is compatible with the birth, but no original relationship passage is transcribed."
+        "reason": "Becky/Ralston fits Rebecca Jane Glasgow’s existing Joseph/Nancy attribution, 1805 birth, Ralston marriage and distinctive two-Ralston-sister family group. The memoir gives the husband only as Mr Ralston and uses a nickname, so the combined identification is slightly less secure than a full spouse-name match. The original 1919–1920 memoir identifies S. S. Glasgow by his exact 4 June 1851 birthday, matching Samuel Steele Glasgow-2043. His father William B.’s Adams County life, age 91, named children and McIntire wife identify William Barclay Glasgow-875. The memoir places William B., Robert A., Arthur, Polly/John Williams, Becky/Ralston, Rose/Ralston and Margaret/Robert P. McClure in one family. Robert Anderson’s held 1880 Caldwell atlas account, p. 69, explicitly names his parents Joseph and Nancy and reports Joseph’s 1820 death. This supplies the named-father anchor for the combined sibling inference.",
+        "status_label": "Confident inferred father · 93%"
       },
       "Glasgow-653": {
         "relationship": "daughter",
-        "reason": "Faris’s 1990 Glasgow Family genealogy supplies the Joseph/Nancy family framework; Rebecca is called Joseph/Nancy’s daughter, with 1805 birth and 1857 memorial. Joseph’s reported 1820 Ohio death is compatible with the birth, but no original relationship passage is transcribed."
+        "reason": "Becky/Ralston fits Rebecca Jane Glasgow’s existing Joseph/Nancy attribution, 1805 birth, Ralston marriage and distinctive two-Ralston-sister family group. The memoir gives the husband only as Mr Ralston and uses a nickname, so the combined identification is slightly less secure than a full spouse-name match. The original 1919–1920 memoir identifies S. S. Glasgow by his exact 4 June 1851 birthday, matching Samuel Steele Glasgow-2043. His father William B.’s Adams County life, age 91, named children and McIntire wife identify William Barclay Glasgow-875. The memoir places William B., Robert A., Arthur, Polly/John Williams, Becky/Ralston, Rose/Ralston and Margaret/Robert P. McClure in one family. Robert Anderson’s held 1880 Caldwell atlas account, p. 69, explicitly names his parents Joseph and Nancy and reports Joseph’s 1820 death. This supplies the named-father anchor for the combined sibling inference.",
+        "status_label": "Confident inferred child · 93%"
       }
     },
     "analysis_links": [
@@ -67005,19 +67094,41 @@
         "scope": null,
         "claim_id": "C-e29956857e66",
         "source_ids": [],
-        "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+        "source_basis": "Pre-batch public dossier and selected through 1850 graph, 22October2026; saved mark retained separately; no live edit."
       },
       "original_inspected_in_batch": false,
-      "live_flag_changed": false
+      "live_flag_changed": false,
+      "confidence_reassessment": {
+        "previous_status": "probable",
+        "previous_probability_percent": 88,
+        "basis": "Faris’s 1990 Glasgow Family genealogy supplies the Joseph/Nancy family framework; Rebecca is called Joseph/Nancy’s daughter, with 1805 birth and 1857 memorial. Joseph’s reported 1820 Ohio death is compatible with the birth, but no original relationship passage is transcribed.",
+        "saved_father_status": "unmarked",
+        "live_checked_at": "2026-10-22",
+        "live_revision": "20250718224150",
+        "live_edit": false
+      }
     },
     "probability": {
-      "value": 0.88,
-      "basis": "Faris’s 1990 Glasgow Family genealogy supplies the Joseph/Nancy family framework; Rebecca is called Joseph/Nancy’s daughter, with 1805 birth and 1857 memorial. Joseph’s reported 1820 Ohio death is compatible with the birth, but no original relationship passage is transcribed.",
+      "value": 0.93,
+      "basis": "Becky/Ralston fits Rebecca Jane Glasgow’s existing Joseph/Nancy attribution, 1805 birth, Ralston marriage and distinctive two-Ralston-sister family group. The memoir gives the husband only as Mr Ralston and uses a nickname, so the combined identification is slightly less secure than a full spouse-name match. The original 1919–1920 memoir identifies S. S. Glasgow by his exact 4 June 1851 birthday, matching Samuel Steele Glasgow-2043. His father William B.’s Adams County life, age 91, named children and McIntire wife identify William Barclay Glasgow-875. The memoir places William B., Robert A., Arthur, Polly/John Williams, Becky/Ralston, Rose/Ralston and Margaret/Robert P. McClure in one family. Robert Anderson’s held 1880 Caldwell atlas account, p. 69, explicitly names his parents Joseph and Nancy and reports Joseph’s 1820 death. This supplies the named-father anchor for the combined sibling inference.",
+      "scope": "Whole father–child profile pair, 93% confident inference. The memoir does not name the grandfather Joseph. His identification combines the recent family group with the held 1880 account and compiled family placements; it is not a literal father clause for every sibling. Its Scottish immigrant-grandfather tradition conflicts with Joseph’s Virginia birth and may telescope generations. Eliza/Breckenridge matches Campbell-36723, Nancy’s later Campbell daughter born in 1831, so the list appears to mix maternal half-siblings. That prevents assigning every listed child to Joseph. All six reviewed Glasgow siblings were born before his reported 1820 death. The two historical publications predate Faris 1990 but may share earlier family information; their independence is unproved. Original memoir pages were inspected; the 1880 page is used from the complete held biography, and a fresh download returned HTTP 403. Mothers, vital fields and Joseph’s separate 93% Robert-father assessment are unchanged.",
       "reviewed": "2026-10-22",
       "source_ids": [
+        "miami-valley-ss-glasgow-family-1919",
+        "held-e-a278676a6d7c",
         "held-e-f8536e2f7678"
-      ],
-      "scope": "Selected father-profile identity and paternal relationship; maternal identity is separate."
+      ]
+    },
+    "last_test": "22 October 2026: original memoir family group and held 1880 named-parent account compared; individual confidence increased.",
+    "next_test": "Joseph’s 1820 estate or guardianships and Faris’s underlying family record can test the precise paternal group; inspect original Caldwell p. 69 when accessible.",
+    "evidence_test": {
+      "reviewed": "2026-10-22",
+      "summary": "22 October 2026: original memoir family group and held 1880 named-parent account compared; individual confidence increased.",
+      "source_url": "https://digital.cincinnatilibrary.org/iiif/2/p16998coll15:18001/full/full/0/default.jpg",
+      "confidence_changed": true,
+      "new_record_discovery": true,
+      "original_image_newly_inspected": true,
+      "named_father_literal_in_memoir": false
     }
   },
   {
@@ -67610,17 +67721,19 @@
       "Glasgow-647",
       "Glasgow-653"
     ],
-    "status": "probable",
+    "status": "strongly_supported",
     "publication_status": "approved",
     "working_selection": false,
     "allow_new_relationship": false,
     "assessment_date": "2026-10-22",
-    "basis": "Faris’s 1990 Glasgow Family genealogy supplies the Joseph/Nancy family framework; Rosannah’s 1807 placement has a specific Faris p.34 citation despite sparse prose. Joseph’s reported 1820 Ohio death is compatible with the birth, but no original relationship passage is transcribed.",
-    "reason": "Faris’s 1990 Glasgow Family genealogy supplies the Joseph/Nancy family framework; Rosannah’s 1807 placement has a specific Faris p.34 citation despite sparse prose. Joseph’s reported 1820 Ohio death is compatible with the birth, but no original relationship passage is transcribed.",
-    "claim": "Glasgow-653 remains the selected father of Glasgow-647, individually assessed 88%.",
-    "record_scope": "Selected father-profile identity and paternal relationship; maternal identity is separate.",
-    "limitations": "Selected father-profile identity and paternal relationship; maternal identity is separate.",
+    "basis": "Rose/Ralston fits Rosannah’s existing Joseph-family placement, 1807 birth, Faris p. 34 and the two-Ralston-sister group. The abbreviated name, unnamed Ralston husband and sparse individual biography leave a little more identity uncertainty than Rebecca’s explicit Joseph/Nancy account. The original 1919–1920 memoir identifies S. S. Glasgow by his exact 4 June 1851 birthday, matching Samuel Steele Glasgow-2043. His father William B.’s Adams County life, age 91, named children and McIntire wife identify William Barclay Glasgow-875. The memoir places William B., Robert A., Arthur, Polly/John Williams, Becky/Ralston, Rose/Ralston and Margaret/Robert P. McClure in one family. Robert Anderson’s held 1880 Caldwell atlas account, p. 69, explicitly names his parents Joseph and Nancy and reports Joseph’s 1820 death. This supplies the named-father anchor for the combined sibling inference.",
+    "reason": "Rose/Ralston fits Rosannah’s existing Joseph-family placement, 1807 birth, Faris p. 34 and the two-Ralston-sister group. The abbreviated name, unnamed Ralston husband and sparse individual biography leave a little more identity uncertainty than Rebecca’s explicit Joseph/Nancy account. The original 1919–1920 memoir identifies S. S. Glasgow by his exact 4 June 1851 birthday, matching Samuel Steele Glasgow-2043. His father William B.’s Adams County life, age 91, named children and McIntire wife identify William Barclay Glasgow-875. The memoir places William B., Robert A., Arthur, Polly/John Williams, Becky/Ralston, Rose/Ralston and Margaret/Robert P. McClure in one family. Robert Anderson’s held 1880 Caldwell atlas account, p. 69, explicitly names his parents Joseph and Nancy and reports Joseph’s 1820 death. This supplies the named-father anchor for the combined sibling inference.",
+    "claim": "Joseph Glasgow-653 is Glasgow-647’s father, assessed 92% for the whole pair.",
+    "record_scope": "Whole father–child profile pair, 92% confident inference. The memoir does not name the grandfather Joseph. His identification combines the recent family group with the held 1880 account and compiled family placements; it is not a literal father clause for every sibling. Its Scottish immigrant-grandfather tradition conflicts with Joseph’s Virginia birth and may telescope generations. Eliza/Breckenridge matches Campbell-36723, Nancy’s later Campbell daughter born in 1831, so the list appears to mix maternal half-siblings. That prevents assigning every listed child to Joseph. All six reviewed Glasgow siblings were born before his reported 1820 death. The two historical publications predate Faris 1990 but may share earlier family information; their independence is unproved. Original memoir pages were inspected; the 1880 page is used from the complete held biography, and a fresh download returned HTTP 403. Mothers, vital fields and Joseph’s separate 93% Robert-father assessment are unchanged.",
+    "limitations": "Whole father–child profile pair, 92% confident inference. The memoir does not name the grandfather Joseph. His identification combines the recent family group with the held 1880 account and compiled family placements; it is not a literal father clause for every sibling. Its Scottish immigrant-grandfather tradition conflicts with Joseph’s Virginia birth and may telescope generations. Eliza/Breckenridge matches Campbell-36723, Nancy’s later Campbell daughter born in 1831, so the list appears to mix maternal half-siblings. That prevents assigning every listed child to Joseph. All six reviewed Glasgow siblings were born before his reported 1820 death. The two historical publications predate Faris 1990 but may share earlier family information; their independence is unproved. Original memoir pages were inspected; the 1880 page is used from the complete held biography, and a fresh download returned HTTP 403. Mothers, vital fields and Joseph’s separate 93% Robert-father assessment are unchanged.",
     "source_ids": [
+      "miami-valley-ss-glasgow-family-1919",
+      "held-e-a278676a6d7c",
       "held-e-b3039b7f3438"
     ],
     "assessment_history": [
@@ -67634,16 +67747,29 @@
         "claim_id": "C-2fc4f12d97f1",
         "source_ids": [],
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+      },
+      {
+        "status": "probable",
+        "probability_percent": 88,
+        "assessment_date": "2026-10-22",
+        "source_basis": "Faris’s 1990 Glasgow Family genealogy supplies the Joseph/Nancy family framework; Rosannah’s 1807 placement has a specific Faris p.34 citation despite sparse prose. Joseph’s reported 1820 Ohio death is compatible with the birth, but no original relationship passage is transcribed.",
+        "source_ids": [
+          "held-e-b3039b7f3438"
+        ],
+        "record_scope": "Selected father-profile identity and paternal relationship; maternal identity is separate.",
+        "change_reason": "Original memoir sibling reconstruction combined with the held 1880 named-parent account."
       }
     ],
     "perspectives": {
       "Glasgow-647": {
         "relationship": "father",
-        "reason": "Faris’s 1990 Glasgow Family genealogy supplies the Joseph/Nancy family framework; Rosannah’s 1807 placement has a specific Faris p.34 citation despite sparse prose. Joseph’s reported 1820 Ohio death is compatible with the birth, but no original relationship passage is transcribed."
+        "reason": "Rose/Ralston fits Rosannah’s existing Joseph-family placement, 1807 birth, Faris p. 34 and the two-Ralston-sister group. The abbreviated name, unnamed Ralston husband and sparse individual biography leave a little more identity uncertainty than Rebecca’s explicit Joseph/Nancy account. The original 1919–1920 memoir identifies S. S. Glasgow by his exact 4 June 1851 birthday, matching Samuel Steele Glasgow-2043. His father William B.’s Adams County life, age 91, named children and McIntire wife identify William Barclay Glasgow-875. The memoir places William B., Robert A., Arthur, Polly/John Williams, Becky/Ralston, Rose/Ralston and Margaret/Robert P. McClure in one family. Robert Anderson’s held 1880 Caldwell atlas account, p. 69, explicitly names his parents Joseph and Nancy and reports Joseph’s 1820 death. This supplies the named-father anchor for the combined sibling inference.",
+        "status_label": "Confident inferred father · 92%"
       },
       "Glasgow-653": {
         "relationship": "daughter",
-        "reason": "Faris’s 1990 Glasgow Family genealogy supplies the Joseph/Nancy family framework; Rosannah’s 1807 placement has a specific Faris p.34 citation despite sparse prose. Joseph’s reported 1820 Ohio death is compatible with the birth, but no original relationship passage is transcribed."
+        "reason": "Rose/Ralston fits Rosannah’s existing Joseph-family placement, 1807 birth, Faris p. 34 and the two-Ralston-sister group. The abbreviated name, unnamed Ralston husband and sparse individual biography leave a little more identity uncertainty than Rebecca’s explicit Joseph/Nancy account. The original 1919–1920 memoir identifies S. S. Glasgow by his exact 4 June 1851 birthday, matching Samuel Steele Glasgow-2043. His father William B.’s Adams County life, age 91, named children and McIntire wife identify William Barclay Glasgow-875. The memoir places William B., Robert A., Arthur, Polly/John Williams, Becky/Ralston, Rose/Ralston and Margaret/Robert P. McClure in one family. Robert Anderson’s held 1880 Caldwell atlas account, p. 69, explicitly names his parents Joseph and Nancy and reports Joseph’s 1820 death. This supplies the named-father anchor for the combined sibling inference.",
+        "status_label": "Confident inferred child · 92%"
       }
     },
     "analysis_links": [
@@ -67662,19 +67788,41 @@
         "scope": null,
         "claim_id": "C-2fc4f12d97f1",
         "source_ids": [],
-        "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+        "source_basis": "Pre-batch public dossier and selected through 1850 graph, 22October2026; saved mark retained separately; no live edit."
       },
       "original_inspected_in_batch": false,
-      "live_flag_changed": false
+      "live_flag_changed": false,
+      "confidence_reassessment": {
+        "previous_status": "probable",
+        "previous_probability_percent": 88,
+        "basis": "Faris’s 1990 Glasgow Family genealogy supplies the Joseph/Nancy family framework; Rosannah’s 1807 placement has a specific Faris p.34 citation despite sparse prose. Joseph’s reported 1820 Ohio death is compatible with the birth, but no original relationship passage is transcribed.",
+        "saved_father_status": "unmarked",
+        "live_checked_at": "2026-10-22",
+        "live_revision": "20250718235115",
+        "live_edit": false
+      }
     },
     "probability": {
-      "value": 0.88,
-      "basis": "Faris’s 1990 Glasgow Family genealogy supplies the Joseph/Nancy family framework; Rosannah’s 1807 placement has a specific Faris p.34 citation despite sparse prose. Joseph’s reported 1820 Ohio death is compatible with the birth, but no original relationship passage is transcribed.",
+      "value": 0.92,
+      "basis": "Rose/Ralston fits Rosannah’s existing Joseph-family placement, 1807 birth, Faris p. 34 and the two-Ralston-sister group. The abbreviated name, unnamed Ralston husband and sparse individual biography leave a little more identity uncertainty than Rebecca’s explicit Joseph/Nancy account. The original 1919–1920 memoir identifies S. S. Glasgow by his exact 4 June 1851 birthday, matching Samuel Steele Glasgow-2043. His father William B.’s Adams County life, age 91, named children and McIntire wife identify William Barclay Glasgow-875. The memoir places William B., Robert A., Arthur, Polly/John Williams, Becky/Ralston, Rose/Ralston and Margaret/Robert P. McClure in one family. Robert Anderson’s held 1880 Caldwell atlas account, p. 69, explicitly names his parents Joseph and Nancy and reports Joseph’s 1820 death. This supplies the named-father anchor for the combined sibling inference.",
+      "scope": "Whole father–child profile pair, 92% confident inference. The memoir does not name the grandfather Joseph. His identification combines the recent family group with the held 1880 account and compiled family placements; it is not a literal father clause for every sibling. Its Scottish immigrant-grandfather tradition conflicts with Joseph’s Virginia birth and may telescope generations. Eliza/Breckenridge matches Campbell-36723, Nancy’s later Campbell daughter born in 1831, so the list appears to mix maternal half-siblings. That prevents assigning every listed child to Joseph. All six reviewed Glasgow siblings were born before his reported 1820 death. The two historical publications predate Faris 1990 but may share earlier family information; their independence is unproved. Original memoir pages were inspected; the 1880 page is used from the complete held biography, and a fresh download returned HTTP 403. Mothers, vital fields and Joseph’s separate 93% Robert-father assessment are unchanged.",
       "reviewed": "2026-10-22",
       "source_ids": [
+        "miami-valley-ss-glasgow-family-1919",
+        "held-e-a278676a6d7c",
         "held-e-b3039b7f3438"
-      ],
-      "scope": "Selected father-profile identity and paternal relationship; maternal identity is separate."
+      ]
+    },
+    "last_test": "22 October 2026: original memoir family group and held 1880 named-parent account compared; individual confidence increased.",
+    "next_test": "Joseph’s 1820 estate or guardianships and Faris’s underlying family record can test the precise paternal group; inspect original Caldwell p. 69 when accessible.",
+    "evidence_test": {
+      "reviewed": "2026-10-22",
+      "summary": "22 October 2026: original memoir family group and held 1880 named-parent account compared; individual confidence increased.",
+      "source_url": "https://digital.cincinnatilibrary.org/iiif/2/p16998coll15:18001/full/full/0/default.jpg",
+      "confidence_changed": true,
+      "new_record_discovery": true,
+      "original_image_newly_inspected": true,
+      "named_father_literal_in_memoir": false
     }
   },
   {
@@ -69289,17 +69437,19 @@
       "Glasgow-2042",
       "Glasgow-653"
     ],
-    "status": "probable",
+    "status": "strongly_supported",
     "publication_status": "approved",
     "working_selection": false,
     "allow_new_relationship": false,
     "assessment_date": "2026-10-22",
-    "basis": "Faris’s 1990 Glasgow Family genealogy supplies the Joseph/Nancy family framework; Mary’s 1811 birth and 1900 memorial fit, but her own held biography does not name parents. Joseph’s reported 1820 Ohio death is compatible with the birth, but no original relationship passage is transcribed.",
-    "reason": "Faris’s 1990 Glasgow Family genealogy supplies the Joseph/Nancy family framework; Mary’s 1811 birth and 1900 memorial fit, but her own held biography does not name parents. Joseph’s reported 1820 Ohio death is compatible with the birth, but no original relationship passage is transcribed.",
-    "claim": "Glasgow-653 remains the selected father of Glasgow-2042, individually assessed 76%.",
-    "record_scope": "Selected father-profile identity and paternal relationship; maternal identity is separate.",
-    "limitations": "Selected father-profile identity and paternal relationship; maternal identity is separate.",
+    "basis": "The memoir’s Polly, wife of John Williams, matches Mary Finley Glasgow and John Williams-103918 in the same family. Polly is a customary Mary variant. The spouse and sibling network add a specific family identification to the formerly sparse memorial account; the name variant and mixed sibling list leave some uncertainty. The original 1919–1920 memoir identifies S. S. Glasgow by his exact 4 June 1851 birthday, matching Samuel Steele Glasgow-2043. His father William B.’s Adams County life, age 91, named children and McIntire wife identify William Barclay Glasgow-875. The memoir places William B., Robert A., Arthur, Polly/John Williams, Becky/Ralston, Rose/Ralston and Margaret/Robert P. McClure in one family. Robert Anderson’s held 1880 Caldwell atlas account, p. 69, explicitly names his parents Joseph and Nancy and reports Joseph’s 1820 death. This supplies the named-father anchor for the combined sibling inference.",
+    "reason": "The memoir’s Polly, wife of John Williams, matches Mary Finley Glasgow and John Williams-103918 in the same family. Polly is a customary Mary variant. The spouse and sibling network add a specific family identification to the formerly sparse memorial account; the name variant and mixed sibling list leave some uncertainty. The original 1919–1920 memoir identifies S. S. Glasgow by his exact 4 June 1851 birthday, matching Samuel Steele Glasgow-2043. His father William B.’s Adams County life, age 91, named children and McIntire wife identify William Barclay Glasgow-875. The memoir places William B., Robert A., Arthur, Polly/John Williams, Becky/Ralston, Rose/Ralston and Margaret/Robert P. McClure in one family. Robert Anderson’s held 1880 Caldwell atlas account, p. 69, explicitly names his parents Joseph and Nancy and reports Joseph’s 1820 death. This supplies the named-father anchor for the combined sibling inference.",
+    "claim": "Joseph Glasgow-653 is Glasgow-2042’s father, assessed 94% for the whole pair.",
+    "record_scope": "Whole father–child profile pair, 94% confident inference. The memoir does not name the grandfather Joseph. His identification combines the recent family group with the held 1880 account and compiled family placements; it is not a literal father clause for every sibling. Its Scottish immigrant-grandfather tradition conflicts with Joseph’s Virginia birth and may telescope generations. Eliza/Breckenridge matches Campbell-36723, Nancy’s later Campbell daughter born in 1831, so the list appears to mix maternal half-siblings. That prevents assigning every listed child to Joseph. All six reviewed Glasgow siblings were born before his reported 1820 death. The two historical publications predate Faris 1990 but may share earlier family information; their independence is unproved. Original memoir pages were inspected; the 1880 page is used from the complete held biography, and a fresh download returned HTTP 403. Mothers, vital fields and Joseph’s separate 93% Robert-father assessment are unchanged.",
+    "limitations": "Whole father–child profile pair, 94% confident inference. The memoir does not name the grandfather Joseph. His identification combines the recent family group with the held 1880 account and compiled family placements; it is not a literal father clause for every sibling. Its Scottish immigrant-grandfather tradition conflicts with Joseph’s Virginia birth and may telescope generations. Eliza/Breckenridge matches Campbell-36723, Nancy’s later Campbell daughter born in 1831, so the list appears to mix maternal half-siblings. That prevents assigning every listed child to Joseph. All six reviewed Glasgow siblings were born before his reported 1820 death. The two historical publications predate Faris 1990 but may share earlier family information; their independence is unproved. Original memoir pages were inspected; the 1880 page is used from the complete held biography, and a fresh download returned HTTP 403. Mothers, vital fields and Joseph’s separate 93% Robert-father assessment are unchanged.",
     "source_ids": [
+      "miami-valley-ss-glasgow-family-1919",
+      "held-e-a278676a6d7c",
       "held-e-2e3311dda1d1"
     ],
     "assessment_history": [
@@ -69313,16 +69463,29 @@
         "claim_id": "C-019d96b582fc",
         "source_ids": [],
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+      },
+      {
+        "status": "probable",
+        "probability_percent": 76,
+        "assessment_date": "2026-10-22",
+        "source_basis": "Faris’s 1990 Glasgow Family genealogy supplies the Joseph/Nancy family framework; Mary’s 1811 birth and 1900 memorial fit, but her own held biography does not name parents. Joseph’s reported 1820 Ohio death is compatible with the birth, but no original relationship passage is transcribed.",
+        "source_ids": [
+          "held-e-2e3311dda1d1"
+        ],
+        "record_scope": "Selected father-profile identity and paternal relationship; maternal identity is separate.",
+        "change_reason": "Original memoir sibling reconstruction combined with the held 1880 named-parent account."
       }
     ],
     "perspectives": {
       "Glasgow-2042": {
         "relationship": "father",
-        "reason": "Faris’s 1990 Glasgow Family genealogy supplies the Joseph/Nancy family framework; Mary’s 1811 birth and 1900 memorial fit, but her own held biography does not name parents. Joseph’s reported 1820 Ohio death is compatible with the birth, but no original relationship passage is transcribed."
+        "reason": "The memoir’s Polly, wife of John Williams, matches Mary Finley Glasgow and John Williams-103918 in the same family. Polly is a customary Mary variant. The spouse and sibling network add a specific family identification to the formerly sparse memorial account; the name variant and mixed sibling list leave some uncertainty. The original 1919–1920 memoir identifies S. S. Glasgow by his exact 4 June 1851 birthday, matching Samuel Steele Glasgow-2043. His father William B.’s Adams County life, age 91, named children and McIntire wife identify William Barclay Glasgow-875. The memoir places William B., Robert A., Arthur, Polly/John Williams, Becky/Ralston, Rose/Ralston and Margaret/Robert P. McClure in one family. Robert Anderson’s held 1880 Caldwell atlas account, p. 69, explicitly names his parents Joseph and Nancy and reports Joseph’s 1820 death. This supplies the named-father anchor for the combined sibling inference.",
+        "status_label": "Confident inferred father · 94%"
       },
       "Glasgow-653": {
         "relationship": "daughter",
-        "reason": "Faris’s 1990 Glasgow Family genealogy supplies the Joseph/Nancy family framework; Mary’s 1811 birth and 1900 memorial fit, but her own held biography does not name parents. Joseph’s reported 1820 Ohio death is compatible with the birth, but no original relationship passage is transcribed."
+        "reason": "The memoir’s Polly, wife of John Williams, matches Mary Finley Glasgow and John Williams-103918 in the same family. Polly is a customary Mary variant. The spouse and sibling network add a specific family identification to the formerly sparse memorial account; the name variant and mixed sibling list leave some uncertainty. The original 1919–1920 memoir identifies S. S. Glasgow by his exact 4 June 1851 birthday, matching Samuel Steele Glasgow-2043. His father William B.’s Adams County life, age 91, named children and McIntire wife identify William Barclay Glasgow-875. The memoir places William B., Robert A., Arthur, Polly/John Williams, Becky/Ralston, Rose/Ralston and Margaret/Robert P. McClure in one family. Robert Anderson’s held 1880 Caldwell atlas account, p. 69, explicitly names his parents Joseph and Nancy and reports Joseph’s 1820 death. This supplies the named-father anchor for the combined sibling inference.",
+        "status_label": "Confident inferred child · 94%"
       }
     },
     "analysis_links": [
@@ -69341,19 +69504,41 @@
         "scope": null,
         "claim_id": "C-019d96b582fc",
         "source_ids": [],
-        "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+        "source_basis": "Pre-batch public dossier and selected through 1850 graph, 22October2026; saved mark retained separately; no live edit."
       },
       "original_inspected_in_batch": false,
-      "live_flag_changed": false
+      "live_flag_changed": false,
+      "confidence_reassessment": {
+        "previous_status": "probable",
+        "previous_probability_percent": 76,
+        "basis": "Faris’s 1990 Glasgow Family genealogy supplies the Joseph/Nancy family framework; Mary’s 1811 birth and 1900 memorial fit, but her own held biography does not name parents. Joseph’s reported 1820 Ohio death is compatible with the birth, but no original relationship passage is transcribed.",
+        "saved_father_status": "unmarked",
+        "live_checked_at": "2026-10-22",
+        "live_revision": "20250719170805",
+        "live_edit": false
+      }
     },
     "probability": {
-      "value": 0.76,
-      "basis": "Faris’s 1990 Glasgow Family genealogy supplies the Joseph/Nancy family framework; Mary’s 1811 birth and 1900 memorial fit, but her own held biography does not name parents. Joseph’s reported 1820 Ohio death is compatible with the birth, but no original relationship passage is transcribed.",
+      "value": 0.94,
+      "basis": "The memoir’s Polly, wife of John Williams, matches Mary Finley Glasgow and John Williams-103918 in the same family. Polly is a customary Mary variant. The spouse and sibling network add a specific family identification to the formerly sparse memorial account; the name variant and mixed sibling list leave some uncertainty. The original 1919–1920 memoir identifies S. S. Glasgow by his exact 4 June 1851 birthday, matching Samuel Steele Glasgow-2043. His father William B.’s Adams County life, age 91, named children and McIntire wife identify William Barclay Glasgow-875. The memoir places William B., Robert A., Arthur, Polly/John Williams, Becky/Ralston, Rose/Ralston and Margaret/Robert P. McClure in one family. Robert Anderson’s held 1880 Caldwell atlas account, p. 69, explicitly names his parents Joseph and Nancy and reports Joseph’s 1820 death. This supplies the named-father anchor for the combined sibling inference.",
+      "scope": "Whole father–child profile pair, 94% confident inference. The memoir does not name the grandfather Joseph. His identification combines the recent family group with the held 1880 account and compiled family placements; it is not a literal father clause for every sibling. Its Scottish immigrant-grandfather tradition conflicts with Joseph’s Virginia birth and may telescope generations. Eliza/Breckenridge matches Campbell-36723, Nancy’s later Campbell daughter born in 1831, so the list appears to mix maternal half-siblings. That prevents assigning every listed child to Joseph. All six reviewed Glasgow siblings were born before his reported 1820 death. The two historical publications predate Faris 1990 but may share earlier family information; their independence is unproved. Original memoir pages were inspected; the 1880 page is used from the complete held biography, and a fresh download returned HTTP 403. Mothers, vital fields and Joseph’s separate 93% Robert-father assessment are unchanged.",
       "reviewed": "2026-10-22",
       "source_ids": [
+        "miami-valley-ss-glasgow-family-1919",
+        "held-e-a278676a6d7c",
         "held-e-2e3311dda1d1"
-      ],
-      "scope": "Selected father-profile identity and paternal relationship; maternal identity is separate."
+      ]
+    },
+    "last_test": "22 October 2026: original memoir family group and held 1880 named-parent account compared; individual confidence increased.",
+    "next_test": "Joseph’s 1820 estate or guardianships and Faris’s underlying family record can test the precise paternal group; inspect original Caldwell p. 69 when accessible.",
+    "evidence_test": {
+      "reviewed": "2026-10-22",
+      "summary": "22 October 2026: original memoir family group and held 1880 named-parent account compared; individual confidence increased.",
+      "source_url": "https://digital.cincinnatilibrary.org/iiif/2/p16998coll15:18001/full/full/0/default.jpg",
+      "confidence_changed": true,
+      "new_record_discovery": true,
+      "original_image_newly_inspected": true,
+      "named_father_literal_in_memoir": false
     }
   },
   {
@@ -73085,17 +73270,19 @@
       "Glasgow-2243",
       "Glasgow-653"
     ],
-    "status": "proved",
+    "status": "strongly_supported",
     "publication_status": "approved",
     "working_selection": false,
     "allow_new_relationship": false,
     "assessment_date": "2026-10-22",
-    "basis": "Faris’s 1990 Glasgow Family genealogy supplies the Joseph/Nancy family framework; Margaret is called Joseph/Nancy’s daughter, born 10 July 1819, with Faris p.34 and memorial support. Joseph’s reported 1820 Ohio death is compatible with the birth, but no original relationship passage is transcribed.",
-    "reason": "Faris’s 1990 Glasgow Family genealogy supplies the Joseph/Nancy family framework; Margaret is called Joseph/Nancy’s daughter, born 10 July 1819, with Faris p.34 and memorial support. Joseph’s reported 1820 Ohio death is compatible with the birth, but no original relationship passage is transcribed.",
-    "claim": "Glasgow-653 remains the selected father of Glasgow-2243, individually assessed 90%.",
-    "record_scope": "Selected father-profile identity and paternal relationship; maternal identity is separate.",
-    "limitations": "Selected father-profile identity and paternal relationship; maternal identity is separate.",
+    "basis": "Margaret’s named husband Robert P. McClure is a particularly specific match to the memoir. Her explicit Joseph/Nancy attribution, Faris p. 34, 1819 birth and matching sibling group reinforce the inferred father. The book’s mixed half-sibling list still prevents treating the statement as an error-free pedigree. The original 1919–1920 memoir identifies S. S. Glasgow by his exact 4 June 1851 birthday, matching Samuel Steele Glasgow-2043. His father William B.’s Adams County life, age 91, named children and McIntire wife identify William Barclay Glasgow-875. The memoir places William B., Robert A., Arthur, Polly/John Williams, Becky/Ralston, Rose/Ralston and Margaret/Robert P. McClure in one family. Robert Anderson’s held 1880 Caldwell atlas account, p. 69, explicitly names his parents Joseph and Nancy and reports Joseph’s 1820 death. This supplies the named-father anchor for the combined sibling inference.",
+    "reason": "Margaret’s named husband Robert P. McClure is a particularly specific match to the memoir. Her explicit Joseph/Nancy attribution, Faris p. 34, 1819 birth and matching sibling group reinforce the inferred father. The book’s mixed half-sibling list still prevents treating the statement as an error-free pedigree. The original 1919–1920 memoir identifies S. S. Glasgow by his exact 4 June 1851 birthday, matching Samuel Steele Glasgow-2043. His father William B.’s Adams County life, age 91, named children and McIntire wife identify William Barclay Glasgow-875. The memoir places William B., Robert A., Arthur, Polly/John Williams, Becky/Ralston, Rose/Ralston and Margaret/Robert P. McClure in one family. Robert Anderson’s held 1880 Caldwell atlas account, p. 69, explicitly names his parents Joseph and Nancy and reports Joseph’s 1820 death. This supplies the named-father anchor for the combined sibling inference.",
+    "claim": "Joseph Glasgow-653 is Glasgow-2243’s father, assessed 96% for the whole pair.",
+    "record_scope": "Whole father–child profile pair, 96% confident inference. The memoir does not name the grandfather Joseph. His identification combines the recent family group with the held 1880 account and compiled family placements; it is not a literal father clause for every sibling. Its Scottish immigrant-grandfather tradition conflicts with Joseph’s Virginia birth and may telescope generations. Eliza/Breckenridge matches Campbell-36723, Nancy’s later Campbell daughter born in 1831, so the list appears to mix maternal half-siblings. That prevents assigning every listed child to Joseph. All six reviewed Glasgow siblings were born before his reported 1820 death. The two historical publications predate Faris 1990 but may share earlier family information; their independence is unproved. Original memoir pages were inspected; the 1880 page is used from the complete held biography, and a fresh download returned HTTP 403. Mothers, vital fields and Joseph’s separate 93% Robert-father assessment are unchanged.",
+    "limitations": "Whole father–child profile pair, 96% confident inference. The memoir does not name the grandfather Joseph. His identification combines the recent family group with the held 1880 account and compiled family placements; it is not a literal father clause for every sibling. Its Scottish immigrant-grandfather tradition conflicts with Joseph’s Virginia birth and may telescope generations. Eliza/Breckenridge matches Campbell-36723, Nancy’s later Campbell daughter born in 1831, so the list appears to mix maternal half-siblings. That prevents assigning every listed child to Joseph. All six reviewed Glasgow siblings were born before his reported 1820 death. The two historical publications predate Faris 1990 but may share earlier family information; their independence is unproved. Original memoir pages were inspected; the 1880 page is used from the complete held biography, and a fresh download returned HTTP 403. Mothers, vital fields and Joseph’s separate 93% Robert-father assessment are unchanged.",
     "source_ids": [
+      "miami-valley-ss-glasgow-family-1919",
+      "held-e-a278676a6d7c",
       "held-e-a27551669da2"
     ],
     "assessment_history": [
@@ -73109,16 +73296,29 @@
         "claim_id": "C-f2634a6c3c0c",
         "source_ids": [],
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+      },
+      {
+        "status": "proved",
+        "probability_percent": 90,
+        "assessment_date": "2026-10-22",
+        "source_basis": "Faris’s 1990 Glasgow Family genealogy supplies the Joseph/Nancy family framework; Margaret is called Joseph/Nancy’s daughter, born 10 July 1819, with Faris p.34 and memorial support. Joseph’s reported 1820 Ohio death is compatible with the birth, but no original relationship passage is transcribed.",
+        "source_ids": [
+          "held-e-a27551669da2"
+        ],
+        "record_scope": "Selected father-profile identity and paternal relationship; maternal identity is separate.",
+        "change_reason": "Original memoir sibling reconstruction combined with the held 1880 named-parent account."
       }
     ],
     "perspectives": {
       "Glasgow-2243": {
         "relationship": "father",
-        "reason": "Faris’s 1990 Glasgow Family genealogy supplies the Joseph/Nancy family framework; Margaret is called Joseph/Nancy’s daughter, born 10 July 1819, with Faris p.34 and memorial support. Joseph’s reported 1820 Ohio death is compatible with the birth, but no original relationship passage is transcribed."
+        "reason": "Margaret’s named husband Robert P. McClure is a particularly specific match to the memoir. Her explicit Joseph/Nancy attribution, Faris p. 34, 1819 birth and matching sibling group reinforce the inferred father. The book’s mixed half-sibling list still prevents treating the statement as an error-free pedigree. The original 1919–1920 memoir identifies S. S. Glasgow by his exact 4 June 1851 birthday, matching Samuel Steele Glasgow-2043. His father William B.’s Adams County life, age 91, named children and McIntire wife identify William Barclay Glasgow-875. The memoir places William B., Robert A., Arthur, Polly/John Williams, Becky/Ralston, Rose/Ralston and Margaret/Robert P. McClure in one family. Robert Anderson’s held 1880 Caldwell atlas account, p. 69, explicitly names his parents Joseph and Nancy and reports Joseph’s 1820 death. This supplies the named-father anchor for the combined sibling inference.",
+        "status_label": "Confident inferred father · 96%"
       },
       "Glasgow-653": {
         "relationship": "daughter",
-        "reason": "Faris’s 1990 Glasgow Family genealogy supplies the Joseph/Nancy family framework; Margaret is called Joseph/Nancy’s daughter, born 10 July 1819, with Faris p.34 and memorial support. Joseph’s reported 1820 Ohio death is compatible with the birth, but no original relationship passage is transcribed."
+        "reason": "Margaret’s named husband Robert P. McClure is a particularly specific match to the memoir. Her explicit Joseph/Nancy attribution, Faris p. 34, 1819 birth and matching sibling group reinforce the inferred father. The book’s mixed half-sibling list still prevents treating the statement as an error-free pedigree. The original 1919–1920 memoir identifies S. S. Glasgow by his exact 4 June 1851 birthday, matching Samuel Steele Glasgow-2043. His father William B.’s Adams County life, age 91, named children and McIntire wife identify William Barclay Glasgow-875. The memoir places William B., Robert A., Arthur, Polly/John Williams, Becky/Ralston, Rose/Ralston and Margaret/Robert P. McClure in one family. Robert Anderson’s held 1880 Caldwell atlas account, p. 69, explicitly names his parents Joseph and Nancy and reports Joseph’s 1820 death. This supplies the named-father anchor for the combined sibling inference.",
+        "status_label": "Confident inferred child · 96%"
       }
     },
     "analysis_links": [
@@ -73137,19 +73337,41 @@
         "scope": null,
         "claim_id": "C-f2634a6c3c0c",
         "source_ids": [],
-        "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+        "source_basis": "Pre-batch public dossier and selected through 1850 graph, 22October2026; saved mark retained separately; no live edit."
       },
       "original_inspected_in_batch": false,
-      "live_flag_changed": false
+      "live_flag_changed": false,
+      "confidence_reassessment": {
+        "previous_status": "proved",
+        "previous_probability_percent": 90,
+        "basis": "Faris’s 1990 Glasgow Family genealogy supplies the Joseph/Nancy family framework; Margaret is called Joseph/Nancy’s daughter, born 10 July 1819, with Faris p.34 and memorial support. Joseph’s reported 1820 Ohio death is compatible with the birth, but no original relationship passage is transcribed.",
+        "saved_father_status": "unmarked",
+        "live_checked_at": "2026-10-22",
+        "live_revision": "20250719171611",
+        "live_edit": false
+      }
     },
     "probability": {
-      "value": 0.9,
-      "basis": "Faris’s 1990 Glasgow Family genealogy supplies the Joseph/Nancy family framework; Margaret is called Joseph/Nancy’s daughter, born 10 July 1819, with Faris p.34 and memorial support. Joseph’s reported 1820 Ohio death is compatible with the birth, but no original relationship passage is transcribed.",
+      "value": 0.96,
+      "basis": "Margaret’s named husband Robert P. McClure is a particularly specific match to the memoir. Her explicit Joseph/Nancy attribution, Faris p. 34, 1819 birth and matching sibling group reinforce the inferred father. The book’s mixed half-sibling list still prevents treating the statement as an error-free pedigree. The original 1919–1920 memoir identifies S. S. Glasgow by his exact 4 June 1851 birthday, matching Samuel Steele Glasgow-2043. His father William B.’s Adams County life, age 91, named children and McIntire wife identify William Barclay Glasgow-875. The memoir places William B., Robert A., Arthur, Polly/John Williams, Becky/Ralston, Rose/Ralston and Margaret/Robert P. McClure in one family. Robert Anderson’s held 1880 Caldwell atlas account, p. 69, explicitly names his parents Joseph and Nancy and reports Joseph’s 1820 death. This supplies the named-father anchor for the combined sibling inference.",
+      "scope": "Whole father–child profile pair, 96% confident inference. The memoir does not name the grandfather Joseph. His identification combines the recent family group with the held 1880 account and compiled family placements; it is not a literal father clause for every sibling. Its Scottish immigrant-grandfather tradition conflicts with Joseph’s Virginia birth and may telescope generations. Eliza/Breckenridge matches Campbell-36723, Nancy’s later Campbell daughter born in 1831, so the list appears to mix maternal half-siblings. That prevents assigning every listed child to Joseph. All six reviewed Glasgow siblings were born before his reported 1820 death. The two historical publications predate Faris 1990 but may share earlier family information; their independence is unproved. Original memoir pages were inspected; the 1880 page is used from the complete held biography, and a fresh download returned HTTP 403. Mothers, vital fields and Joseph’s separate 93% Robert-father assessment are unchanged.",
       "reviewed": "2026-10-22",
       "source_ids": [
+        "miami-valley-ss-glasgow-family-1919",
+        "held-e-a278676a6d7c",
         "held-e-a27551669da2"
-      ],
-      "scope": "Selected father-profile identity and paternal relationship; maternal identity is separate."
+      ]
+    },
+    "last_test": "22 October 2026: original memoir family group and held 1880 named-parent account compared; individual confidence increased.",
+    "next_test": "Joseph’s 1820 estate or guardianships and Faris’s underlying family record can test the precise paternal group; inspect original Caldwell p. 69 when accessible.",
+    "evidence_test": {
+      "reviewed": "2026-10-22",
+      "summary": "22 October 2026: original memoir family group and held 1880 named-parent account compared; individual confidence increased.",
+      "source_url": "https://digital.cincinnatilibrary.org/iiif/2/p16998coll15:18001/full/full/0/default.jpg",
+      "confidence_changed": true,
+      "new_record_discovery": true,
+      "original_image_newly_inspected": true,
+      "named_father_literal_in_memoir": false
     }
   },
   {
@@ -105380,5 +105602,165 @@
         "href": "/branches/lisnagaver-rasharkin/#chapter-glenleslie-john-robert-father-test"
       }
     ]
+  },
+  {
+    "assertion_id": "C-miami-1919-robert-glasgow-father",
+    "people": [
+      "record-miami-robert-glasgow",
+      "Glasgow-875"
+    ],
+    "profile_names": {
+      "record-miami-robert-glasgow": "Robert Glasgow, son of William B.",
+      "Glasgow-875": "William Barclay Glasgow"
+    },
+    "profile_urls": {
+      "record-miami-robert-glasgow": {
+        "url": "/people/record-miami-robert-glasgow.html"
+      }
+    },
+    "status": "proved",
+    "claim": "Robert is the son named with William B. and Maria H. McIntire in the memoir.",
+    "basis": "The original printed memoir names Robert among William B. Glasgow and Maria H. McIntire’s six children. The linked William Barclay is identified through the exact birth date of Samuel Steele and the distinctive whole family. This local account represents only that named child role.",
+    "limitations": "Record-defined son and identified father, 97%. Exact dates, later adult identity and a possible existing WikiTree destination remain unresolved. The mother’s literal name is recorded but not equated confidently with McIntyre-4103. No live creation or edit.",
+    "source_ids": [
+      "miami-valley-ss-glasgow-family-1919"
+    ],
+    "assessment_date": "2026-10-22",
+    "allow_new_relationship": true,
+    "publication_status": "approved",
+    "record_scope": "Record-defined son and identified father, 97%. Exact dates, later adult identity and a possible existing WikiTree destination remain unresolved. The mother’s literal name is recorded but not equated confidently with McIntyre-4103. No live creation or edit.",
+    "identity_scope": "Named child in this published family account; no later adult identity assigned.",
+    "perspectives": {
+      "record-miami-robert-glasgow": {
+        "relationship": "father",
+        "reason": "The original printed memoir names Robert among William B. Glasgow and Maria H. McIntire’s six children. The linked William Barclay is identified through the exact birth date of Samuel Steele and the distinctive whole family. This local account represents only that named child role."
+      },
+      "Glasgow-875": {
+        "relationship": "son",
+        "reason": "The original printed memoir names Robert among William B. Glasgow and Maria H. McIntire’s six children. The linked William Barclay is identified through the exact birth date of Samuel Steele and the distinctive whole family. This local account represents only that named child role."
+      }
+    },
+    "probability": {
+      "value": 0.97,
+      "basis": "The original printed memoir names Robert among William B. Glasgow and Maria H. McIntire’s six children. The linked William Barclay is identified through the exact birth date of Samuel Steele and the distinctive whole family. This local account represents only that named child role.",
+      "scope": "Record-defined son and identified father, 97%. Exact dates, later adult identity and a possible existing WikiTree destination remain unresolved. The mother’s literal name is recorded but not equated confidently with McIntyre-4103. No live creation or edit.",
+      "reviewed": "2026-10-22",
+      "source_ids": [
+        "miami-valley-ss-glasgow-family-1919"
+      ]
+    },
+    "provenance": {
+      "source": "Original published memoir p.257, visually inspected 22 October 2026",
+      "new_local_documentary_person": true,
+      "live_creation": false
+    }
+  },
+  {
+    "assertion_id": "C-miami-1919-william-arthur-glasgow-father",
+    "people": [
+      "record-miami-william-arthur-glasgow",
+      "Glasgow-875"
+    ],
+    "profile_names": {
+      "record-miami-william-arthur-glasgow": "William Arthur Glasgow, son of William B.",
+      "Glasgow-875": "William Barclay Glasgow"
+    },
+    "profile_urls": {
+      "record-miami-william-arthur-glasgow": {
+        "url": "/people/record-miami-william-arthur-glasgow.html"
+      }
+    },
+    "status": "proved",
+    "claim": "William Arthur is the son named with William B. and Maria H. McIntire in the memoir.",
+    "basis": "The original printed memoir names William Arthur among William B. Glasgow and Maria H. McIntire’s six children. The linked William Barclay is identified through the exact birth date of Samuel Steele and the distinctive whole family. This local account represents only that named child role.",
+    "limitations": "Record-defined son and identified father, 97%. Exact dates, later adult identity and a possible existing WikiTree destination remain unresolved. The mother’s literal name is recorded but not equated confidently with McIntyre-4103. No live creation or edit.",
+    "source_ids": [
+      "miami-valley-ss-glasgow-family-1919"
+    ],
+    "assessment_date": "2026-10-22",
+    "allow_new_relationship": true,
+    "publication_status": "approved",
+    "record_scope": "Record-defined son and identified father, 97%. Exact dates, later adult identity and a possible existing WikiTree destination remain unresolved. The mother’s literal name is recorded but not equated confidently with McIntyre-4103. No live creation or edit.",
+    "identity_scope": "Named child in this published family account; no later adult identity assigned.",
+    "perspectives": {
+      "record-miami-william-arthur-glasgow": {
+        "relationship": "father",
+        "reason": "The original printed memoir names William Arthur among William B. Glasgow and Maria H. McIntire’s six children. The linked William Barclay is identified through the exact birth date of Samuel Steele and the distinctive whole family. This local account represents only that named child role."
+      },
+      "Glasgow-875": {
+        "relationship": "son",
+        "reason": "The original printed memoir names William Arthur among William B. Glasgow and Maria H. McIntire’s six children. The linked William Barclay is identified through the exact birth date of Samuel Steele and the distinctive whole family. This local account represents only that named child role."
+      }
+    },
+    "probability": {
+      "value": 0.97,
+      "basis": "The original printed memoir names William Arthur among William B. Glasgow and Maria H. McIntire’s six children. The linked William Barclay is identified through the exact birth date of Samuel Steele and the distinctive whole family. This local account represents only that named child role.",
+      "scope": "Record-defined son and identified father, 97%. Exact dates, later adult identity and a possible existing WikiTree destination remain unresolved. The mother’s literal name is recorded but not equated confidently with McIntyre-4103. No live creation or edit.",
+      "reviewed": "2026-10-22",
+      "source_ids": [
+        "miami-valley-ss-glasgow-family-1919"
+      ]
+    },
+    "provenance": {
+      "source": "Original published memoir p.257, visually inspected 22 October 2026",
+      "new_local_documentary_person": true,
+      "live_creation": false
+    }
+  },
+  {
+    "assertion_id": "C-miami-1919-glasgow-2043-father",
+    "people": [
+      "Glasgow-2043",
+      "Glasgow-875"
+    ],
+    "status": "proved",
+    "publication_status": "approved",
+    "working_selection": false,
+    "allow_new_relationship": false,
+    "assessment_date": "2026-10-22",
+    "basis": "The original memoir expressly calls S. S. Glasgow a son of William B. Glasgow and gives the exact 4 June 1851 birthday of Samuel Steele Glasgow-2043. His Adams County birth, later Oxford life and the distinctive William B. child group identify the selected father William Barclay Glasgow-875. The held child account already names the same father; this is an individually assessed existing relationship.",
+    "reason": "The original memoir expressly calls S. S. Glasgow a son of William B. Glasgow and gives the exact 4 June 1851 birthday of Samuel Steele Glasgow-2043. His Adams County birth, later Oxford life and the distinctive William B. child group identify the selected father William Barclay Glasgow-875. The held child account already names the same father; this is an individually assessed existing relationship.",
+    "claim": "William Barclay Glasgow is Samuel Steele’s father, 99%.",
+    "record_scope": "Whole Samuel Steele–William Barclay father pair, 99% confident. Published biographical statement and exact identity match, not a newly inspected civil birth record. The Maria/Marion McIntire name and1859/1855 maternal death discrepancy remains separate.",
+    "limitations": "Whole Samuel Steele–William Barclay father pair, 99% confident. Published biographical statement and exact identity match, not a newly inspected civil birth record. The Maria/Marion McIntire name and1859/1855 maternal death discrepancy remains separate.",
+    "source_ids": [
+      "miami-valley-ss-glasgow-family-1919"
+    ],
+    "assessment_history": [
+      {
+        "status": "unmarked",
+        "assessment_status": "unknown",
+        "probability_percent": null,
+        "source_basis": "Pre-batch public Glasgow-2043 dossier and fresh anonymous API22October2026: selected father875,certaintyunmarked; no individual estimate."
+      }
+    ],
+    "perspectives": {
+      "Glasgow-2043": {
+        "relationship": "father",
+        "reason": "The original memoir expressly calls S. S. Glasgow a son of William B. Glasgow and gives the exact 4 June 1851 birthday of Samuel Steele Glasgow-2043. His Adams County birth, later Oxford life and the distinctive William B. child group identify the selected father William Barclay Glasgow-875. The held child account already names the same father; this is an individually assessed existing relationship.",
+        "status_label": "Documented father · 99%"
+      },
+      "Glasgow-875": {
+        "relationship": "son",
+        "reason": "The original memoir expressly calls S. S. Glasgow a son of William B. Glasgow and gives the exact 4 June 1851 birthday of Samuel Steele Glasgow-2043. His Adams County birth, later Oxford life and the distinctive William B. child group identify the selected father William Barclay Glasgow-875. The held child account already names the same father; this is an individually assessed existing relationship.",
+        "status_label": "Documented son · 99%"
+      }
+    },
+    "probability": {
+      "value": 0.99,
+      "basis": "The original memoir expressly calls S. S. Glasgow a son of William B. Glasgow and gives the exact 4 June 1851 birthday of Samuel Steele Glasgow-2043. His Adams County birth, later Oxford life and the distinctive William B. child group identify the selected father William Barclay Glasgow-875. The held child account already names the same father; this is an individually assessed existing relationship.",
+      "scope": "Whole Samuel Steele–William Barclay father pair, 99% confident. Published biographical statement and exact identity match, not a newly inspected civil birth record. The Maria/Marion McIntire name and1859/1855 maternal death discrepancy remains separate.",
+      "source_ids": [
+        "miami-valley-ss-glasgow-family-1919"
+      ],
+      "reviewed": "2026-10-22"
+    },
+    "provenance": {
+      "original_inspected_in_batch": true,
+      "live_flag_changed": false,
+      "prior_assessment": "Existing selected father unmarked and individually unrated; model and anonymous API checked 22 October 2026."
+    },
+    "last_test": "Original memoir p.257 direct father clause and exact birthday matched22October2026.",
+    "next_test": "Resolve the mother’s name and death discrepancy independently; no paternal attachment change required."
   }
 ]

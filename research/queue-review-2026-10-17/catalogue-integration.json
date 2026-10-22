@@ -10529,8 +10529,8 @@
       "biography_rechecked_at": "2026-10-22",
       "draft_path": "research/Glasgow-653/father-confidence-2026-10-22b.wiki",
       "findings_path": "research/Glasgow-653/findings.md",
-      "summary": "Review existing father at 93% (proved), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 93% (proved), retaining source and identity limits; no new father attachment.",
+      "summary": "Add the original Miami Valley family biography with its specific identity matches and explicit source conflicts; preserve all existing biography, citations and selected relationships.",
+      "work_queue_summary": "Original memoir source and family comparison; current relationships preserved.",
       "relationship_changes": [],
       "preserve_captured_detail": false,
       "reviewed_narrative_reduction": true,
@@ -11396,20 +11396,22 @@
       "biography_rechecked_at": "2026-10-22",
       "draft_path": "research/Glasgow-2239/father-confidence-2026-10-22b.wiki",
       "findings_path": "research/Glasgow-2239/findings.md",
-      "summary": "Review existing father at 93% (proved), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 93% (proved), retaining source and identity limits; no new father attachment.",
+      "summary": "Mark the existing Joseph father confident (95%) and add the original memoir family argument with its unnamed-grandfather and half-sibling limits; preserve the full biography and all citations.",
+      "work_queue_summary": "Mark the existing Joseph father confident (95%) and add the original memoir family argument with its unnamed-grandfather and half-sibling limits; preserve the full biography and all citations.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-653",
-          "status": "proved",
+          "status": "strongly_supported",
           "previous_status": "unmarked",
           "previous_probability_percent": null,
-          "probability_percent": 93,
+          "probability_percent": 95,
           "assertion_id": "C-coverage-20261022b-glasgow-2239-father",
-          "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Compiled-family attribution93%; the original book evidence and probate relationship wording were not newly inspected."
+          "previous_status_provenance": "Anonymous live API 22 October 2026, revision 20250719011222: same father attached, saved certainty unmarked. Earlier local assessment retained in assertion history; no live save.",
+          "scope": "Whole father–child profile pair, 95% confident inference. The memoir does not name the grandfather Joseph. His identification combines the recent family group with the held 1880 account and compiled family placements; it is not a literal father clause for every sibling. Its Scottish immigrant-grandfather tradition conflicts with Joseph’s Virginia birth and may telescope generations. Eliza/Breckenridge matches Campbell-36723, Nancy’s later Campbell daughter born in 1831, so the list appears to mix maternal half-siblings. That prevents assigning every listed child to Joseph. All six reviewed Glasgow siblings were born before his reported 1820 death. The two historical publications predate Faris 1990 but may share earlier family information; their independence is unproved. Original memoir pages were inspected; the 1880 page is used from the complete held biography, and a fresh download returned HTTP 403. Mothers, vital fields and Joseph’s separate 93% Robert-father assessment are unchanged.",
+          "previous_local_status": "proved",
+          "previous_local_probability_percent": 93
         }
       ],
       "preserve_captured_detail": false,
@@ -11417,7 +11419,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation2-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation2-2026-10-22.json",
+      "significance": 86
     },
     "Glasgow-2769": {
       "significance": 90,
@@ -12250,8 +12253,8 @@
       "biography_rechecked_at": "2026-10-22",
       "draft_path": "research/Glasgow-1625/father-confidence-2026-10-22c.wiki",
       "findings_path": "research/Glasgow-1625/findings.md",
-      "summary": "Review existing father at 98% (proved), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 98% (proved), retaining source and identity limits; no new father attachment.",
+      "summary": "Add the original Miami Valley family biography with its specific identity matches and explicit source conflicts; preserve all existing biography, citations and selected relationships.",
+      "work_queue_summary": "Original memoir source and family comparison; current relationships preserved.",
       "relationship_changes": [],
       "preserve_captured_detail": false,
       "reviewed_narrative_reduction": true,
@@ -12896,20 +12899,22 @@
       "biography_rechecked_at": "2026-10-22",
       "draft_path": "research/Glasgow-875/father-confidence-2026-10-22c.wiki",
       "findings_path": "research/Glasgow-875/findings.md",
-      "summary": "Review existing father at 71% (probable), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 71% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Mark the existing Joseph father confident (95%) and add the original memoir family argument with its unnamed-grandfather and half-sibling limits; preserve the full biography and all citations.",
+      "work_queue_summary": "Mark the existing Joseph father confident (95%) and add the original memoir family argument with its unnamed-grandfather and half-sibling limits; preserve the full biography and all citations.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-653",
-          "status": "probable",
+          "status": "strongly_supported",
           "previous_status": "unmarked",
           "previous_probability_percent": null,
-          "probability_percent": 71,
+          "probability_percent": 95,
           "assertion_id": "C-coverage-20261022c-glasgow-875-father",
-          "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Probable71%; compiled pedigree with compatible household, not a father proved by a gravestone date."
+          "previous_status_provenance": "Anonymous live API 22 October 2026, revision 20250327091146: same father attached, saved certainty unmarked. Earlier local assessment retained in assertion history; no live save.",
+          "scope": "Whole father–child profile pair, 95% confident inference. The memoir does not name the grandfather Joseph. His identification combines the recent family group with the held 1880 account and compiled family placements; it is not a literal father clause for every sibling. Its Scottish immigrant-grandfather tradition conflicts with Joseph’s Virginia birth and may telescope generations. Eliza/Breckenridge matches Campbell-36723, Nancy’s later Campbell daughter born in 1831, so the list appears to mix maternal half-siblings. That prevents assigning every listed child to Joseph. All six reviewed Glasgow siblings were born before his reported 1820 death. The two historical publications predate Faris 1990 but may share earlier family information; their independence is unproved. Original memoir pages were inspected; the 1880 page is used from the complete held biography, and a fresh download returned HTTP 403. Mothers, vital fields and Joseph’s separate 93% Robert-father assessment are unchanged.",
+          "previous_local_status": "probable",
+          "previous_local_probability_percent": 71
         }
       ],
       "preserve_captured_detail": false,
@@ -12917,7 +12922,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation3-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation3-2026-10-22.json",
+      "significance": 86
     },
     "Glasko-3": {
       "profile_id": "Glasko-3",
@@ -25116,20 +25122,22 @@
       "biography_rechecked_at": "2026-10-22",
       "draft_path": "research/Glasgow-2238/father-confidence-2026-10-22h.wiki",
       "findings_path": "research/Glasgow-2238/findings.md",
-      "summary": "Review existing father at 88% (probable), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 88% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Mark the existing Joseph father confident (93%) and add the original memoir family argument with its unnamed-grandfather and half-sibling limits; preserve the full biography and all citations.",
+      "work_queue_summary": "Mark the existing Joseph father confident (93%) and add the original memoir family argument with its unnamed-grandfather and half-sibling limits; preserve the full biography and all citations.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-653",
-          "status": "probable",
+          "status": "strongly_supported",
           "previous_status": "unmarked",
           "previous_probability_percent": null,
-          "probability_percent": 88,
+          "probability_percent": 93,
           "assertion_id": "C-coverage-20261022h-glasgow-2238-father",
-          "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Selected father-profile identity and paternal relationship; maternal identity is separate."
+          "previous_status_provenance": "Anonymous live API 22 October 2026, revision 20250718224150: same father attached, saved certainty unmarked. Earlier local assessment retained in assertion history; no live save.",
+          "scope": "Whole father–child profile pair, 93% confident inference. The memoir does not name the grandfather Joseph. His identification combines the recent family group with the held 1880 account and compiled family placements; it is not a literal father clause for every sibling. Its Scottish immigrant-grandfather tradition conflicts with Joseph’s Virginia birth and may telescope generations. Eliza/Breckenridge matches Campbell-36723, Nancy’s later Campbell daughter born in 1831, so the list appears to mix maternal half-siblings. That prevents assigning every listed child to Joseph. All six reviewed Glasgow siblings were born before his reported 1820 death. The two historical publications predate Faris 1990 but may share earlier family information; their independence is unproved. Original memoir pages were inspected; the 1880 page is used from the complete held biography, and a fresh download returned HTTP 403. Mothers, vital fields and Joseph’s separate 93% Robert-father assessment are unchanged.",
+          "previous_local_status": "probable",
+          "previous_local_probability_percent": 88
         }
       ],
       "preserve_captured_detail": false,
@@ -25137,7 +25145,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation8-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation8-2026-10-22.json",
+      "significance": 86
     },
     "Glasko-29": {
       "profile_id": "Glasko-29",
@@ -25371,20 +25380,22 @@
       "biography_rechecked_at": "2026-10-22",
       "draft_path": "research/Glasgow-647/father-confidence-2026-10-22h.wiki",
       "findings_path": "research/Glasgow-647/findings.md",
-      "summary": "Review existing father at 88% (probable), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 88% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Mark the existing Joseph father confident (92%) and add the original memoir family argument with its unnamed-grandfather and half-sibling limits; preserve the full biography and all citations.",
+      "work_queue_summary": "Mark the existing Joseph father confident (92%) and add the original memoir family argument with its unnamed-grandfather and half-sibling limits; preserve the full biography and all citations.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-653",
-          "status": "probable",
+          "status": "strongly_supported",
           "previous_status": "unmarked",
           "previous_probability_percent": null,
-          "probability_percent": 88,
+          "probability_percent": 92,
           "assertion_id": "C-coverage-20261022h-glasgow-647-father",
-          "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Selected father-profile identity and paternal relationship; maternal identity is separate."
+          "previous_status_provenance": "Anonymous live API 22 October 2026, revision 20250718235115: same father attached, saved certainty unmarked. Earlier local assessment retained in assertion history; no live save.",
+          "scope": "Whole father–child profile pair, 92% confident inference. The memoir does not name the grandfather Joseph. His identification combines the recent family group with the held 1880 account and compiled family placements; it is not a literal father clause for every sibling. Its Scottish immigrant-grandfather tradition conflicts with Joseph’s Virginia birth and may telescope generations. Eliza/Breckenridge matches Campbell-36723, Nancy’s later Campbell daughter born in 1831, so the list appears to mix maternal half-siblings. That prevents assigning every listed child to Joseph. All six reviewed Glasgow siblings were born before his reported 1820 death. The two historical publications predate Faris 1990 but may share earlier family information; their independence is unproved. Original memoir pages were inspected; the 1880 page is used from the complete held biography, and a fresh download returned HTTP 403. Mothers, vital fields and Joseph’s separate 93% Robert-father assessment are unchanged.",
+          "previous_local_status": "probable",
+          "previous_local_probability_percent": 88
         }
       ],
       "preserve_captured_detail": false,
@@ -25392,7 +25403,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation8-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation8-2026-10-22.json",
+      "significance": 86
     },
     "Glasgow-3601": {
       "profile_id": "Glasgow-3601",
@@ -26019,20 +26031,22 @@
       "biography_rechecked_at": "2026-10-22",
       "draft_path": "research/Glasgow-2042/father-confidence-2026-10-22h.wiki",
       "findings_path": "research/Glasgow-2042/findings.md",
-      "summary": "Review existing father at 76% (probable), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 76% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Mark the existing Joseph father confident (94%) and add the original memoir family argument with its unnamed-grandfather and half-sibling limits; preserve the full biography and all citations.",
+      "work_queue_summary": "Mark the existing Joseph father confident (94%) and add the original memoir family argument with its unnamed-grandfather and half-sibling limits; preserve the full biography and all citations.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-653",
-          "status": "probable",
+          "status": "strongly_supported",
           "previous_status": "unmarked",
           "previous_probability_percent": null,
-          "probability_percent": 76,
+          "probability_percent": 94,
           "assertion_id": "C-coverage-20261022h-glasgow-2042-father",
-          "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Selected father-profile identity and paternal relationship; maternal identity is separate."
+          "previous_status_provenance": "Anonymous live API 22 October 2026, revision 20250719170805: same father attached, saved certainty unmarked. Earlier local assessment retained in assertion history; no live save.",
+          "scope": "Whole father–child profile pair, 94% confident inference. The memoir does not name the grandfather Joseph. His identification combines the recent family group with the held 1880 account and compiled family placements; it is not a literal father clause for every sibling. Its Scottish immigrant-grandfather tradition conflicts with Joseph’s Virginia birth and may telescope generations. Eliza/Breckenridge matches Campbell-36723, Nancy’s later Campbell daughter born in 1831, so the list appears to mix maternal half-siblings. That prevents assigning every listed child to Joseph. All six reviewed Glasgow siblings were born before his reported 1820 death. The two historical publications predate Faris 1990 but may share earlier family information; their independence is unproved. Original memoir pages were inspected; the 1880 page is used from the complete held biography, and a fresh download returned HTTP 403. Mothers, vital fields and Joseph’s separate 93% Robert-father assessment are unchanged.",
+          "previous_local_status": "probable",
+          "previous_local_probability_percent": 76
         }
       ],
       "preserve_captured_detail": false,
@@ -26040,7 +26054,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation8-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation8-2026-10-22.json",
+      "significance": 86
     },
     "Glasko-27": {
       "profile_id": "Glasko-27",
@@ -27440,20 +27455,22 @@
       "biography_rechecked_at": "2026-10-22",
       "draft_path": "research/Glasgow-2243/father-confidence-2026-10-22h.wiki",
       "findings_path": "research/Glasgow-2243/findings.md",
-      "summary": "Review existing father at 90% (proved), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 90% (proved), retaining source and identity limits; no new father attachment.",
+      "summary": "Mark the existing Joseph father confident (96%) and add the original memoir family argument with its unnamed-grandfather and half-sibling limits; preserve the full biography and all citations.",
+      "work_queue_summary": "Mark the existing Joseph father confident (96%) and add the original memoir family argument with its unnamed-grandfather and half-sibling limits; preserve the full biography and all citations.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-653",
-          "status": "proved",
+          "status": "strongly_supported",
           "previous_status": "unmarked",
           "previous_probability_percent": null,
-          "probability_percent": 90,
+          "probability_percent": 96,
           "assertion_id": "C-coverage-20261022h-glasgow-2243-father",
-          "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Selected father-profile identity and paternal relationship; maternal identity is separate."
+          "previous_status_provenance": "Anonymous live API 22 October 2026, revision 20250719171611: same father attached, saved certainty unmarked. Earlier local assessment retained in assertion history; no live save.",
+          "scope": "Whole father–child profile pair, 96% confident inference. The memoir does not name the grandfather Joseph. His identification combines the recent family group with the held 1880 account and compiled family placements; it is not a literal father clause for every sibling. Its Scottish immigrant-grandfather tradition conflicts with Joseph’s Virginia birth and may telescope generations. Eliza/Breckenridge matches Campbell-36723, Nancy’s later Campbell daughter born in 1831, so the list appears to mix maternal half-siblings. That prevents assigning every listed child to Joseph. All six reviewed Glasgow siblings were born before his reported 1820 death. The two historical publications predate Faris 1990 but may share earlier family information; their independence is unproved. Original memoir pages were inspected; the 1880 page is used from the complete held biography, and a fresh download returned HTTP 403. Mothers, vital fields and Joseph’s separate 93% Robert-father assessment are unchanged.",
+          "previous_local_status": "proved",
+          "previous_local_probability_percent": 90
         }
       ],
       "preserve_captured_detail": false,
@@ -27461,7 +27478,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation8-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation8-2026-10-22.json",
+      "significance": 86
     },
     "Glasgow-1358": {
       "profile_id": "Glasgow-1358",
@@ -40108,6 +40126,37 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": ""
+    },
+    "Glasgow-2043": {
+      "profile_id": "Glasgow-2043",
+      "status": "OPEN",
+      "pending": true,
+      "queued_at": "2026-10-22",
+      "draft_path": "research/Glasgow-2043/miami-family-source-2026-10-22.wiki",
+      "findings_path": "research/Glasgow-2043/findings.md",
+      "relationship_changes": [
+        {
+          "action": "regrade",
+          "relationship": "father",
+          "relative_id": "Glasgow-875",
+          "status": "proved",
+          "probability_percent": 99,
+          "previous_status": "unmarked",
+          "previous_probability_percent": null,
+          "assertion_id": "C-miami-1919-glasgow-2043-father",
+          "scope": "Whole Samuel Steele–William Barclay father pair, 99% confident. Published biographical statement and exact identity match, not a newly inspected civil birth record. The Maria/Marion McIntire name and1859/1855 maternal death discrepancy remains separate.",
+          "previous_status_provenance": "Anonymous live API 22 October 2026 revision20240615013113: same father attached, certaintyunmarked; preceding public dossier individually unrated. No live edit."
+        }
+      ],
+      "preserve_captured_detail": false,
+      "replacements": [],
+      "post_merge_replacements": [],
+      "addition_wikitext": "",
+      "summary": "Mark the existing William father confident 99% from the original memoir’s direct father clause and exact birthday; add the source, retain the full biography, and keep the maternal identity/death discrepancy open.",
+      "work_queue_summary": "Mark the existing William father confident 99% from the original memoir’s direct father clause and exact birthday; add the source, retain the full biography, and keep the maternal identity/death discrepancy open.",
+      "biography_rechecked_at": "2026-10-22",
+      "reviewed_narrative_reduction": true,
+      "preservation_review_path": "research/ancestry-connections/miami-family-review-2026-10-22.json"
     }
   },
   "reviewed_on": "2026-10-22",
@@ -43404,6 +43453,154 @@
           "url": "https://www.wikitree.com/wiki/Glasgow-1235",
           "status": "compatible_candidate",
           "reason": "Birth before the 1745 baptism does not exclude an adult baptism or rebaptism in 1786; no independent life-course conflict is established."
+        }
+      ]
+    },
+    {
+      "subject_id": "subject-miami-robert-glasgow",
+      "catalogue_id": "record-miami-robert-glasgow",
+      "name": "Robert Glasgow, son of William B.",
+      "source_subject_url": "https://digital.cincinnatilibrary.org/iiif/2/p16998coll15:18001/full/full/0/default.jpg",
+      "research_subject_url": "/people/record-miami-robert-glasgow.html",
+      "draft_path": "surname-research/new-people/1919_United_States_Adams_County_Ohio_Robert_Glasgow.md",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\n\n'''Robert Glasgow''' is named as a son of [[Glasgow-875|William B. Glasgow]] and Maria H. McIntire in the Miami Valley memoir of his brother [[Glasgow-2043|S. S. Glasgow]]. The memoir says Robert was deceased. No exact birth or death date, age, marriage or occupation is supplied. <ref name=\"Miami1919\">John C. Hover et al., eds., ''Memoirs of the Miami Valley'' (Robert O. Law Company, 1919–1920), “S. S. Glasgow,” printed pp. 257–258; [https://digital.cincinnatilibrary.org/iiif/2/p16998coll15:18001/full/full/0/default.jpg original p. 257] and [https://digital.cincinnatilibrary.org/iiif/2/p16998coll15:18002/full/full/0/default.jpg original p. 258], Cincinnati & Hamilton County Public Library Digital Library; images inspected 22 October 2026. Published family biography, not a civil or parish register.</ref>\n\nHis birth in Adams County, Ohio, is an uncertain inference from his father’s lifelong residence and the family context, not a stated birthplace. The mother is reported to have died in 1859, placing his birth before 1860 if that account is correct.\n\n== Research Notes ==\n\nIdentity is on HOLD pending broader existing-profile checks. This account represents the one child named in the memoir, with father assessed at 97% for that record-defined role. [[Glasgow-3133]] lived into 1921; [[Glasgow-1632]] lived into 1938, conflicting with the memoir’s deceased status. [[Glasgow-2227]] is recorded as Robert Barclay’s son; its paternal identity needs its own underlying evidence before that assignment could exclude every comparison. This is a source-defined son, not a proved match to any namesake. The literal mother Maria H. McIntire, died 1859, is a candidate for [[McIntyre-4103|Marion McIntyre]], whose name and 1855 death differ; no mother is attached by this draft. The memoir’s grandfather story is not used to invent earlier ancestry.\n\n== Sources ==\n\n<references />\n",
+      "assessment": "HOLD — complete source-defined child account; father identified, existing-profile destination unresolved. The memoir says Robert was deceased. No exact birth or death date, age, marriage or occupation is supplied. Glasgow-3133 lived into 1921; Glasgow-1632 lived into 1938, conflicting with the memoir’s deceased status. Glasgow-2227 is recorded as Robert Barclay’s son; its paternal identity needs its own underlying evidence before that assignment could exclude every comparison. This is a source-defined son, not a proved match to any namesake.",
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-10-22",
+      "first_names": [
+        "Robert"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [
+        "Glasgow"
+      ],
+      "gender": "Male",
+      "birth": "before 1860",
+      "birth_note": "Conditional upper bound from the memoir’s reported maternal death in 1859; no exact birth date.",
+      "birth_location": "Adams County, Ohio, United States",
+      "birth_location_note": "Uncertain inference from the father’s lifelong local residence; not a recorded birthplace.",
+      "death": "before 1921",
+      "death_location": "",
+      "candidates": [],
+      "historical_basis": {
+        "latest_birth_year": 1859,
+        "source_url": "https://digital.cincinnatilibrary.org/iiif/2/p16998coll15:18001/full/full/0/default.jpg",
+        "reason": "Son of a mother reported dead in1859; historical source-defined child."
+      },
+      "records": [
+        {
+          "year": "1919–1920",
+          "filter_year": 1919,
+          "family_group": "Joseph Glasgow’s Adams County family",
+          "region": "Ohio, United States",
+          "record_location": "Adams County, Ohio, United States",
+          "association": "The original printed memoir names Robert among William B. Glasgow and Maria H. McIntire’s six children. The linked William Barclay is identified through the exact birth date of Samuel Steele and the distinctive whole family. This local account represents only that named child role. The memoir says Robert was deceased. No exact birth or death date, age, marriage or occupation is supplied.",
+          "note": "Record-defined son and identified father, 97%. Exact dates, later adult identity and a possible existing WikiTree destination remain unresolved. The mother’s literal name is recorded but not equated confidently with McIntyre-4103. No live creation or edit.",
+          "source_title": "Memoirs of the Miami Valley (1919–1920), “S. S. Glasgow,” printed pp. 257–258; original Cincinnati library page images",
+          "source_url": "https://digital.cincinnatilibrary.org/iiif/2/p16998coll15:18001/full/full/0/default.jpg",
+          "source_type": "Original printed biographical account; information about earlier family is secondary",
+          "source_status": "Original page 257 visually inspected 22 October 2026; child’s later identity unresolved.",
+          "evidence": "Named son in a historical family biography",
+          "record_precision": "Publication date, not birth or death date",
+          "location_basis": "Family setting; inferred birthplace remains uncertain",
+          "birth_location_status": "uncertain"
+        }
+      ],
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "action": "add",
+          "relative_id": "Glasgow-875",
+          "relative_name": "William Barclay Glasgow",
+          "status": "proved",
+          "probability_percent": 97,
+          "assertion_id": "C-miami-1919-robert-glasgow-father",
+          "before": "No existing local account for this named child role",
+          "after": "proved",
+          "basis": "The original printed memoir names Robert among William B. Glasgow and Maria H. McIntire’s six children. The linked William Barclay is identified through the exact birth date of Samuel Steele and the distinctive whole family. This local account represents only that named child role.",
+          "scope": "Record-defined son and identified father, 97%. Exact dates, later adult identity and a possible existing WikiTree destination remain unresolved. The mother’s literal name is recorded but not equated confidently with McIntyre-4103. No live creation or edit.",
+          "source_ids": [
+            "miami-valley-ss-glasgow-family-1919"
+          ]
+        }
+      ]
+    },
+    {
+      "subject_id": "subject-miami-william-arthur-glasgow",
+      "catalogue_id": "record-miami-william-arthur-glasgow",
+      "name": "William Arthur Glasgow, son of William B.",
+      "source_subject_url": "https://digital.cincinnatilibrary.org/iiif/2/p16998coll15:18001/full/full/0/default.jpg",
+      "research_subject_url": "/people/record-miami-william-arthur-glasgow.html",
+      "draft_path": "surname-research/new-people/1919_United_States_Adams_County_Ohio_William_Arthur_Glasgow.md",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\n\n'''William Arthur Glasgow''' is named as a son of [[Glasgow-875|William B. Glasgow]] and Maria H. McIntire in the Miami Valley memoir of his brother [[Glasgow-2043|S. S. Glasgow]]. The memoir reports that William Arthur died at twenty-two. No exact birth or death year, marriage or occupation is supplied. <ref name=\"Miami1919\">John C. Hover et al., eds., ''Memoirs of the Miami Valley'' (Robert O. Law Company, 1919–1920), “S. S. Glasgow,” printed pp. 257–258; [https://digital.cincinnatilibrary.org/iiif/2/p16998coll15:18001/full/full/0/default.jpg original p. 257] and [https://digital.cincinnatilibrary.org/iiif/2/p16998coll15:18002/full/full/0/default.jpg original p. 258], Cincinnati & Hamilton County Public Library Digital Library; images inspected 22 October 2026. Published family biography, not a civil or parish register.</ref>\n\nHis birth in Adams County, Ohio, is an uncertain inference from his father’s lifelong residence and the family context, not a stated birthplace. The mother is reported to have died in 1859, placing his birth before 1860 if that account is correct.\n\n== Research Notes ==\n\nIdentity is on HOLD pending broader existing-profile checks. This account represents the one child named in the memoir, with father assessed at 97% for that record-defined role. The local William/Arthur search included blank birth dates and compatible Ohio/Adams or blank places. Glasgow-616, [[Glasgow-2177]], [[Glasgow-2215]], [[Glasgow-2232]], [[Glasgow-3710]] and -590 have incompatible recorded later survival; [[Glasgow-1478]], with incomplete death details and recorded Hugh/Sarah parents, remains a loose comparison until its underlying parent records are checked. A missing middle name or absent corroboration is not an exclusion. The literal mother Maria H. McIntire, died 1859, is a candidate for [[McIntyre-4103|Marion McIntyre]], whose name and 1855 death differ; no mother is attached by this draft. The memoir’s grandfather story is not used to invent earlier ancestry.\n\n== Sources ==\n\n<references />\n",
+      "assessment": "HOLD — complete source-defined child account; father identified, existing-profile destination unresolved. The memoir reports that William Arthur died at twenty-two. No exact birth or death year, marriage or occupation is supplied. The local William/Arthur search included blank birth dates and compatible Ohio/Adams or blank places. Glasgow-616, -2177, -2215, -2232, -3710 and -590 have incompatible recorded later survival; Glasgow-1478, with incomplete death details and recorded Hugh/Sarah parents, remains a loose comparison until its underlying parent records are checked. A missing middle name or absent corroboration is not an exclusion.",
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-10-22",
+      "first_names": [
+        "William Arthur"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [
+        "Glasgow"
+      ],
+      "gender": "Male",
+      "birth": "before 1860",
+      "birth_note": "Conditional upper bound from the memoir’s reported maternal death in 1859; no exact birth date.",
+      "birth_location": "Adams County, Ohio, United States",
+      "birth_location_note": "Uncertain inference from the father’s lifelong local residence; not a recorded birthplace.",
+      "death": "before 1921",
+      "death_location": "",
+      "candidates": [
+        {
+          "profile_id": "Glasgow-1478",
+          "name": "William Henry Glasgow",
+          "reason": "Loose incomplete-death comparison; parentage differs and needs underlying-source review, not an accepted identification."
+        }
+      ],
+      "historical_basis": {
+        "latest_birth_year": 1859,
+        "source_url": "https://digital.cincinnatilibrary.org/iiif/2/p16998coll15:18001/full/full/0/default.jpg",
+        "reason": "Son of a mother reported dead in1859; historical source-defined child."
+      },
+      "records": [
+        {
+          "year": "1919–1920",
+          "filter_year": 1919,
+          "family_group": "Joseph Glasgow’s Adams County family",
+          "region": "Ohio, United States",
+          "record_location": "Adams County, Ohio, United States",
+          "association": "The original printed memoir names William Arthur among William B. Glasgow and Maria H. McIntire’s six children. The linked William Barclay is identified through the exact birth date of Samuel Steele and the distinctive whole family. This local account represents only that named child role. The memoir reports that William Arthur died at twenty-two. No exact birth or death year, marriage or occupation is supplied.",
+          "note": "Record-defined son and identified father, 97%. Exact dates, later adult identity and a possible existing WikiTree destination remain unresolved. The mother’s literal name is recorded but not equated confidently with McIntyre-4103. No live creation or edit.",
+          "source_title": "Memoirs of the Miami Valley (1919–1920), “S. S. Glasgow,” printed pp. 257–258; original Cincinnati library page images",
+          "source_url": "https://digital.cincinnatilibrary.org/iiif/2/p16998coll15:18001/full/full/0/default.jpg",
+          "source_type": "Original printed biographical account; information about earlier family is secondary",
+          "source_status": "Original page 257 visually inspected 22 October 2026; child’s later identity unresolved.",
+          "evidence": "Named son in a historical family biography",
+          "record_precision": "Publication date, not birth or death date",
+          "location_basis": "Family setting; inferred birthplace remains uncertain",
+          "birth_location_status": "uncertain"
+        }
+      ],
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "action": "add",
+          "relative_id": "Glasgow-875",
+          "relative_name": "William Barclay Glasgow",
+          "status": "proved",
+          "probability_percent": 97,
+          "assertion_id": "C-miami-1919-william-arthur-glasgow-father",
+          "before": "No existing local account for this named child role",
+          "after": "proved",
+          "basis": "The original printed memoir names William Arthur among William B. Glasgow and Maria H. McIntire’s six children. The linked William Barclay is identified through the exact birth date of Samuel Steele and the distinctive whole family. This local account represents only that named child role.",
+          "scope": "Record-defined son and identified father, 97%. Exact dates, later adult identity and a possible existing WikiTree destination remain unresolved. The mother’s literal name is recorded but not equated confidently with McIntyre-4103. No live creation or edit.",
+          "source_ids": [
+            "miami-valley-ss-glasgow-family-1919"
+          ]
         }
       ]
     }

@@ -3935,3 +3935,15 @@ Twenty additional transcripts are recorded under existing people or qualified ca
 ## 22 October 2026 — William Madison father-confidence review
 
 | [William Madison Glasgow](https://www.wikitree.com/wiki/Glasgow-1938) | OPEN | Existing William Glasgow-563 father: saved unmarked → confident 94%; local 78% probable →94% confident. Add the complete reported 1850 family comparison with the original-locator limitation; no new parent. |
+
+
+## 22 October 2026 — Miami Valley family bridge
+
+| [Glasgow-875](https://www.wikitree.com/wiki/Glasgow-875) | OPEN | Existing Joseph father: local71% → 95%; saved unmarked → confident, original memoir family argument and explicit source limitations. |
+| [Glasgow-2243](https://www.wikitree.com/wiki/Glasgow-2243) | OPEN | Existing Joseph father: local90% → 96%; saved unmarked → confident, original memoir family argument and explicit source limitations. |
+| [Glasgow-2042](https://www.wikitree.com/wiki/Glasgow-2042) | OPEN | Existing Joseph father: local76% → 94%; saved unmarked → confident, original memoir family argument and explicit source limitations. |
+| [Glasgow-2238](https://www.wikitree.com/wiki/Glasgow-2238) | OPEN | Existing Joseph father: local88% → 93%; saved unmarked → confident, original memoir family argument and explicit source limitations. |
+| [Glasgow-647](https://www.wikitree.com/wiki/Glasgow-647) | OPEN | Existing Joseph father: local88% → 92%; saved unmarked → confident, original memoir family argument and explicit source limitations. |
+| [Glasgow-2239](https://www.wikitree.com/wiki/Glasgow-2239) | OPEN | Existing Joseph father: local93% → 95%; saved unmarked → confident, original memoir family argument and explicit source limitations. |
+- [Robert Glasgow, son of William B.](/people/record-miami-robert-glasgow.html) — HOLD, complete sourced local account; existing-profile checks pending, no live creation.
+- [William Arthur Glasgow, son of William B.](/people/record-miami-william-arthur-glasgow.html) — HOLD, complete sourced local account; existing-profile checks pending, no live creation.

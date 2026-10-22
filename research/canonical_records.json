@@ -30281,5 +30281,63 @@
     ],
     "note": "These existing generic citations may refer to the same return. Do not count them or modern profile fields as independent confirmations; no synthetic original citation is supplied.",
     "provenance": "research/ancestry-connections/madison-household-review-2026-10-22.json"
+  },
+  {
+    "record_id": "miami-valley-ss-glasgow-family-1919",
+    "record_type": "Published family biography",
+    "date": "1919–1920",
+    "place": "Adams County and Oxford, Ohio, United States",
+    "association": "S. S. Glasgow’s exact birth and William B. family; seven matched Glasgow siblings and an apparently mixed-in Campbell half-sister. The grandfather is unnamed.",
+    "source_title": "Memoirs of the Miami Valley (1919–1920), “S. S. Glasgow,” printed pp. 257–258; original Cincinnati library page images",
+    "source_url": "https://digital.cincinnatilibrary.org/iiif/2/p16998coll15:18001/full/full/0/default.jpg",
+    "source_catalogue_url": "https://cdm16998.contentdm.oclc.org/digital/collection/p16998coll15/id/18709/",
+    "source_type": "Original printed pages; secondary information about earlier relatives",
+    "source_status": "Original printed pp.257–258 visually inspected 22 October 2026; not a civil or parish original.",
+    "source_quality": "published_biographical_account",
+    "status": "Named family roles documented in the publication; selected earlier father identities explicitly inferred.",
+    "reviewed": "2026-10-22",
+    "profiles": {
+      "Glasgow-875": {
+        "role": "Matched member of the reported family; confidence and identity qualifications in current account"
+      },
+      "Glasgow-2243": {
+        "role": "Matched member of the reported family; confidence and identity qualifications in current account"
+      },
+      "Glasgow-2042": {
+        "role": "Matched member of the reported family; confidence and identity qualifications in current account"
+      },
+      "Glasgow-2238": {
+        "role": "Matched member of the reported family; confidence and identity qualifications in current account"
+      },
+      "Glasgow-647": {
+        "role": "Matched member of the reported family; confidence and identity qualifications in current account"
+      },
+      "Glasgow-2239": {
+        "role": "Matched member of the reported family; confidence and identity qualifications in current account"
+      },
+      "Glasgow-653": {
+        "role": "Inferred Joseph identity of the unnamed grandfather; not named literally"
+      },
+      "Glasgow-1625": {
+        "role": "Robert A., sibling and held1880named-parent anchor"
+      },
+      "Glasgow-2043": {
+        "role": "S. S., identified by exact 4 June 1851birth and later-life context"
+      },
+      "record-miami-robert-glasgow": {
+        "role": "Named son; record-defined local account, later identity on HOLD"
+      },
+      "record-miami-william-arthur-glasgow": {
+        "role": "Named son; record-defined local account, later identity on HOLD"
+      }
+    },
+    "assessment": "The memoir does not name the grandfather Joseph. His identification combines the recent family group with the held 1880 account and compiled family placements; it is not a literal father clause for every sibling. Its Scottish immigrant-grandfather tradition conflicts with Joseph’s Virginia birth and may telescope generations. Eliza/Breckenridge matches Campbell-36723, Nancy’s later Campbell daughter born in 1831, so the list appears to mix maternal half-siblings. That prevents assigning every listed child to Joseph. All six reviewed Glasgow siblings were born before his reported 1820 death. The two historical publications predate Faris 1990 but may share earlier family information; their independence is unproved. Original memoir pages were inspected; the 1880 page is used from the complete held biography, and a fresh download returned HTTP 403. Mothers, vital fields and Joseph’s separate 93% Robert-father assessment are unchanged.",
+    "note": "Maria H. McIntire/death1859 versus Marion McIntyre/death1855 and Mary Jane versus Nancy Jane Kane remain unresolved. Eliza is linked to Campbell-36723, not created as a Glasgow duplicate.",
+    "provenance": "research/ancestry-connections/miami-family-review-2026-10-22.json",
+    "original_pages": [
+      "https://digital.cincinnatilibrary.org/iiif/2/p16998coll15:18001/full/full/0/default.jpg",
+      "https://digital.cincinnatilibrary.org/iiif/2/p16998coll15:18002/full/full/0/default.jpg"
+    ],
+    "image_derived_pdf_sha256": "02f1dd14aadaa1bab9154c77af656fb88520cc134973afcd66ef71e432869ad5"
   }
 ]

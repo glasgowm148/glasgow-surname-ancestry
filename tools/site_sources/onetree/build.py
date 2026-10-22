@@ -456,6 +456,21 @@ def apply_public_families(people: list[dict], site_root: Path, cutoff: int = 185
     strategy = json.loads((ROOT / 'research/ancestry-connections/strategy.json').read_text())
     nodes, edges, quality = load_public_nodes(site_root, set(strategy['variants']))
     cohort = summarize(nodes, edges, cutoff)['cohort_ids']
+    # The cutoff bounds routine imports, not explicitly reviewed relationships.
+    # Later children can identify an earlier family; keep those sourced public
+    # accounts and their assessed parents visible without inventing early births.
+    reviewed = set()
+    for assessment in assessments or []:
+        if (assessment.get('publication_status') != 'approved'
+                or assessment.get('working_selection') or not assessment.get('source_ids')
+                or assessment.get('status') not in {'proved', 'confident', 'strongly_supported', 'probable', 'possible', 'uncertain'}
+                or not assessment.get('probability', {}).get('value')
+                or assessment.get('display') in {'alternative', 'historical', 'superseded'}
+                or assessment.get('lifecycle') in {'alternative', 'historical', 'superseded'}):
+            continue
+        reviewed.update(ident for ident, view in assessment.get('perspectives', {}).items()
+                        if view.get('relationship') == 'father' and ident in nodes)
+    cohort = sorted(set(cohort) | reviewed)
     by_id = {p['id']: p for p in people}
     changed, related, added, held = set(), set(), set(), set()
     ambiguous = set(quality['multiple_fathers'])

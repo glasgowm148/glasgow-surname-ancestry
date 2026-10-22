@@ -52517,6 +52517,150 @@
           ]
         }
       ]
+    },
+    {
+      "id": "miami-valley-family-bridge-20261022",
+      "found_on": "2026-10-22",
+      "reviewed_on": "2026-10-22",
+      "kind": "relationship",
+      "status": "qualified",
+      "detail_url": "/people/glasgow-653.html#research-findings",
+      "finding": "Original memoir pages connect William B.’s distinctive family to Robert Anderson’s named Joseph/Nancy household. Six existing father assessments rise individually; four become confident. Two named sons receive linked local accounts, pending wider identity checks. Samuel Steele’s direct father link is newly rated 99%; his 1851 birth puts him outside the through 1850 figures.",
+      "qualification": "The memoir does not name the grandfather Joseph. His identification combines the recent family group with the held 1880 account and compiled family placements; it is not a literal father clause for every sibling. Its Scottish immigrant-grandfather tradition conflicts with Joseph’s Virginia birth and may telescope generations. Eliza/Breckenridge matches Campbell-36723, Nancy’s later Campbell daughter born in 1831, so the list appears to mix maternal half-siblings. That prevents assigning every listed child to Joseph. All six reviewed Glasgow siblings were born before his reported 1820 death. The two historical publications predate Faris 1990 but may share earlier family information; their independence is unproved. Original memoir pages were inspected; the 1880 page is used from the complete held biography, and a fresh download returned HTTP 403. Mothers, vital fields and Joseph’s separate 93% Robert-father assessment are unchanged. These are six confidence revisions and two source-defined child roles, not six new father attachments or live WikiTree edits.",
+      "people": [
+        {
+          "id": "Glasgow-653",
+          "name": "Glasgow-653",
+          "url": "/people/glasgow-653.html"
+        },
+        {
+          "id": "Glasgow-875",
+          "name": "William Barclay Glasgow",
+          "url": "/people/glasgow-875.html"
+        },
+        {
+          "id": "Glasgow-2243",
+          "name": "Margaret H Glasgow",
+          "url": "/people/glasgow-2243.html"
+        },
+        {
+          "id": "Glasgow-2042",
+          "name": "Mary Finley Glasgow",
+          "url": "/people/glasgow-2042.html"
+        },
+        {
+          "id": "Glasgow-2238",
+          "name": "Rebecca Jane Glasgow",
+          "url": "/people/glasgow-2238.html"
+        },
+        {
+          "id": "Glasgow-647",
+          "name": "Rosannah Nancy Glasgow",
+          "url": "/people/glasgow-647.html"
+        },
+        {
+          "id": "Glasgow-2239",
+          "name": "Arthur Glasgow",
+          "url": "/people/glasgow-2239.html"
+        },
+        {
+          "id": "Glasgow-1625",
+          "name": "Robert Anderson Glasgow",
+          "url": "/people/glasgow-1625.html"
+        },
+        {
+          "id": "Glasgow-2043",
+          "name": "Glasgow-2043",
+          "url": "/people/glasgow-2043.html"
+        },
+        {
+          "id": "record-miami-robert-glasgow",
+          "name": "Robert Glasgow, son of William B.",
+          "url": "/people/record-miami-robert-glasgow.html"
+        },
+        {
+          "id": "record-miami-william-arthur-glasgow",
+          "name": "William Arthur Glasgow, son of William B.",
+          "url": "/people/record-miami-william-arthur-glasgow.html"
+        },
+        {
+          "id": "Campbell-36723",
+          "name": "Eliza Ann Campbell, probable maternal half-sister",
+          "url": "https://www.wikitree.com/wiki/Campbell-36723"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Memoirs of the Miami Valley (1919–1920), “S. S. Glasgow,” printed pp. 257–258; original Cincinnati library page images",
+          "url": "https://digital.cincinnatilibrary.org/iiif/2/p16998coll15:18001/full/full/0/default.jpg"
+        },
+        {
+          "title": "Original printed continuation p.258",
+          "url": "https://digital.cincinnatilibrary.org/iiif/2/p16998coll15:18002/full/full/0/default.jpg"
+        },
+        {
+          "title": "Caldwell1880p.69: held named-parent account; fresh original download blocked403",
+          "url": "https://www.ohiohistory.org/wp-content/uploads/2022/01/Caldwell-s_Atlas_of_Adams_County_1797-1880.pdf"
+        }
+      ],
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "Glasgow-875",
+          "relative": "Glasgow-653",
+          "before": "probable",
+          "after": "certain",
+          "explanation": "Existing father confidence 71% → 95%; combined family identification, not a literal Joseph clause in the memoir.",
+          "previous_status_provenance": [
+            "research/relationship_assessments.json#C-coverage-20261022c-glasgow-875-father assessment_history"
+          ]
+        },
+        {
+          "relationship": "father",
+          "subject": "Glasgow-2042",
+          "relative": "Glasgow-653",
+          "before": "probable",
+          "after": "certain",
+          "explanation": "Existing father confidence 76% → 94%; combined family identification, not a literal Joseph clause in the memoir.",
+          "previous_status_provenance": [
+            "research/relationship_assessments.json#C-coverage-20261022h-glasgow-2042-father assessment_history"
+          ]
+        },
+        {
+          "relationship": "father",
+          "subject": "Glasgow-2238",
+          "relative": "Glasgow-653",
+          "before": "probable",
+          "after": "certain",
+          "explanation": "Existing father confidence 88% → 93%; combined family identification, not a literal Joseph clause in the memoir.",
+          "previous_status_provenance": [
+            "research/relationship_assessments.json#C-coverage-20261022h-glasgow-2238-father assessment_history"
+          ]
+        },
+        {
+          "relationship": "father",
+          "subject": "Glasgow-647",
+          "relative": "Glasgow-653",
+          "before": "probable",
+          "after": "certain",
+          "explanation": "Existing father confidence 88% → 92%; combined family identification, not a literal Joseph clause in the memoir.",
+          "previous_status_provenance": [
+            "research/relationship_assessments.json#C-coverage-20261022h-glasgow-647-father assessment_history"
+          ]
+        },
+        {
+          "relationship": "father",
+          "subject": "Glasgow-2043",
+          "relative": "Glasgow-875",
+          "before": "unmarked",
+          "after": "certain",
+          "explanation": "Previously individually unrated existing father, now99%; original memoir’s direct clause and exact birthday. Outside the through 1850 cohort.",
+          "previous_status_provenance": [
+            "Pre-batch public Glasgow-2043 parents; selected father875, unmarked",
+            "Anonymous API 22 October 2026 revision20240615013113"
+          ]
+        }
+      ]
     }
   ]
 }

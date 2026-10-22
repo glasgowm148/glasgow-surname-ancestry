@@ -19,3 +19,9 @@ Next useful test: Retain the county-history passage and compare family or probat
 This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [Historical Sketch of Adams County, Ohio, in Caldwell's Atlas of Adams County, 1797–1880 (1880), p. 69, biographical sketch of Robert Anderson Glasgow; digital copy (https://www.ohiohistory.org/wp-content/uploads/2022/01/Caldwell-s_Atlas_of_Adams_County_1797-1880.pdf).](https://www.ohiohistory.org/wp-content/uploads/2022/01/Caldwell-s_Atlas_of_Adams_County_1797-1880.pdf)
+
+## Source findings — original memoir, 22 October 2026
+
+The original memoir names Robert A. among William B.’s family. His existing 98% Joseph-father assessment stays unchanged. The 1880 account is the named-parent anchor, not a newly read original in this batch.
+
+[Memoirs of the Miami Valley (1919–1920), “S. S. Glasgow,” printed pp. 257–258; original Cincinnati library page images](https://digital.cincinnatilibrary.org/iiif/2/p16998coll15:18001/full/full/0/default.jpg). [Family reconstruction](/people/glasgow-653.html#research-findings).
