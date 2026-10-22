@@ -47,13 +47,29 @@
     return {total, percent:total !== null && working > 0 ? 100*total/working : null, working,
       unknown:Number.isFinite(listing?.unknown_count)?listing.unknown_count:null, population:listing?.population, ...grades};
   }
-  if (typeof module !== 'undefined' && module.exports) module.exports = {dailyHistory, historySeries, confidenceHistory, uncertaintyMeasurements};
+  function individualFindings(rows, kind, cohort, beyond = false) {
+    return rows.filter(row => (kind === 'all' || row.kind === kind) &&
+      (beyond || (cohort === 'fixed' ? row.baseline : row.cohorts.includes(String(cohort)))));
+  }
+  if (typeof module !== 'undefined' && module.exports) module.exports = {dailyHistory, historySeries, confidenceHistory, uncertaintyMeasurements, individualFindings};
   if (typeof document === 'undefined') return;
   const element = document.getElementById('ancestry-progress-data');
   if (!element) return;
   const data = JSON.parse(element.textContent), byId = id => document.getElementById(id);
   const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const number = value => Number(value).toLocaleString('en-GB');
+  function renderFindings() {
+    const cohort = byId('history-cohort').value === 'fixed' ? 'fixed' : byId('progress-cutoff').value;
+    const rows = individualFindings(data.individual_findings || [], byId('findings-kind').value, cohort, byId('findings-all-cohorts').checked);
+    const grade = value => ({proved:'Confident', confident:'Confident', strongly_supported:'Confident', probable:'Probable', possible:'Possible', uncertain:'Uncertain', unmarked:'Unmarked', unknown:'Not rated'}[value] || String(value || 'Not recorded').replaceAll('_', ' '));
+    const person = value => `<a href="${esc(value.url)}">${esc(value.name)}</a>${value.wikitree_url ? ` · <a href="${esc(value.wikitree_url)}">WikiTree</a>` : ' · local account'} `;
+    byId('findings-count').textContent = `${number(rows.length)} findings · ${byId('findings-all-cohorts').checked ? 'all available cohorts' : cohort === 'fixed' ? 'fixed baseline people' : `through ${cohort}`}`;
+    byId('findings-rows').innerHTML = rows.length ? rows.map(row => {
+      const label = row.kind === 'change' ? `${row.before_percent}% → ${row.after_percent}%` : `${row.kind === 'new' ? 'New father connection' : 'First individual rating'} · ${row.after_percent}%`;
+      const prior = row.previous_assessment;
+      return `<tr><td>${esc(row.date || 'Date not recorded')}</td><td>${person(row.child)}<br>Father: ${person(row.father)}${row.identity_hold ? '<br><strong>Identity HOLD · record-defined person; adult identity unresolved</strong>' : ''}</td><td><strong>${esc(label)}</strong>${prior ? `<br>Prior grade: ${esc(grade(prior.status || prior.assessment_status))}` : ''}<br>Reviewed grade: ${esc(grade(row.assessment_status))}</td><td><details><summary>Evidence and assessment reason</summary><p>${esc(row.reason)}</p>${row.limitations ? `<p>${esc(row.limitations)}</p>` : ''}${prior ? `<p>Prior basis: ${esc(prior.source_basis || prior.reason || prior.basis || 'not recorded')}</p>` : ''}<a href="${esc(row.child.url)}">Read the sourced biography</a></details></td></tr>`;
+    }).join('') : '<tr><td colspan="4">No findings of this kind are recorded for this cohort. Choose another finding type or include beyond the selected cohort.</td></tr>';
+  }
   function renderPriorities() {
     const early = byId('priority-early').checked, confident = byId('priority-order').value === 'confident';
     const rows = (data.research_priorities || []).filter(row => !early || (row.year != null && row.year <= 1650));
@@ -161,6 +177,7 @@
     byId('confidence-trend-rows').innerHTML = rows.map(row=>`<tr><th scope="row">${esc(label(row))}</th><td>${format(row.mean_percent)}</td><td>${number(row.rated_edge_count)}</td><td>${row.rated_edges_percent.toFixed(1)}%</td></tr>`).join('');
   }
   function renderHistory() {
+    renderFindings();
     const cutoff = byId('progress-cutoff').value;
     const fixed = byId('history-cohort').value === 'fixed';
     renderConfidenceTrend(fixed ? 'fixed' : cutoff);
@@ -273,6 +290,7 @@
   ['progress-cutoff','progress-view','early-heads'].forEach(id => byId(id).addEventListener('change',update));
   byId('head-search').addEventListener('input',update);
   ['history-cohort','history-metric',...historyViews.map(view=>'history-'+view.key)].forEach(id => byId(id).addEventListener('change',renderHistory));
+  ['findings-kind','findings-all-cohorts'].forEach(id => byId(id).addEventListener('change',renderFindings));
   window.addEventListener('resize',renderHistory);
   update();
   if (location.hash === '#uncertain-connections') {

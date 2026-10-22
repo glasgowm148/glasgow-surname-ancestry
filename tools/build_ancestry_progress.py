@@ -34,6 +34,79 @@ LINK_VIEWS = {
 }
 
 
+def individual_finding_rows(nodes, edges, assessments, cohorts, baseline_ids, identity_hold_ids=()):
+    """Explicit saved pair assessments only; never infer an old numeric rating."""
+    def percent(state):
+        value = state.get('probability_percent', state.get('percent'))
+        if value is None:
+            probability = state.get('probability') or {}
+            value = probability.get('value')
+            if type(value) in (int, float):
+                value *= 100
+        return round(value, 8) if type(value) in (int, float) and 0 <= value <= 100 else None
+
+    def person(ident):
+        node = nodes[ident]
+        result = dict(id=ident, name=node['name'], url=node['url'])
+        if re.fullmatch(r'(?!record-)[A-Za-z][A-Za-z0-9_]*-\d+', ident):
+            result['wikitree_url'] = 'https://www.wikitree.com/wiki/' + ident
+        return result
+
+    def saved_state(state):
+        if state is None:
+            return None
+        # Keep prior assessment/flag/date evidence without duplicating the
+        # complete assertion, perspectives and its history for every table row.
+        return {key: value for key, value in state.items() if key not in
+                {'assessment_history', 'perspectives', 'analysis_links'}}
+
+    rows = []
+    for edge in edges:
+        assertion = assessments.get(edge.get('assertion_id'))
+        if not assertion or assertion.get('publication_status') != 'approved':
+            continue
+        current = edge.get('confidence_percent')
+        if type(current) not in (int, float):
+            continue
+        child, father = edge['child'], edge['father']
+        # The selected edge is authoritative; alternate hypotheses stay out.
+        states = list(assertion.get('assessment_history') or []) + [assertion]
+        previous = None
+        for index, state in enumerate(states):
+            historical_father = state.get('relative_id') or state.get('prior_selected_father')
+            if index != len(states)-1 and historical_father and historical_father != father:
+                previous = state
+                continue
+            value = current if index == len(states)-1 else percent(state)
+            if value is None:
+                previous = state
+                continue
+            prior_father = (previous or {}).get('relative_id') or (previous or {}).get('prior_selected_father')
+            changed_father = bool(prior_father and prior_father != father)
+            before = None if changed_father else percent(previous or {})
+            if before == value:
+                previous = state
+                continue
+            probability = state.get('probability') or {}
+            new = before is None and (changed_father or bool((assertion.get('provenance') or {}).get('new_local_documentary_person')))
+            rows.append(dict(
+                assertion_id=assertion['assertion_id'], child=person(child), father=person(father),
+                date=state.get('assessment_date') or state.get('reviewed') or probability.get('reviewed'),
+                saved_order=len(rows), kind='change' if before is not None else 'new' if new else 'first',
+                before_percent=before, after_percent=value,
+                previous_assessment=saved_state(previous), assessment_status=state.get('status') or state.get('assessment_status'),
+                source_ids=state.get('source_ids') or probability.get('source_ids') or [],
+                reason=state.get('change_reason') or state.get('reason') or state.get('source_basis') or probability.get('basis') or state.get('basis') or '',
+                limitations=state.get('limitations') or state.get('record_scope') or state.get('scope') or '',
+                identity_hold=child in identity_hold_ids or father in identity_hold_ids,
+                cohorts=[str(cutoff) for cutoff, views in cohorts.items() if child in views['working']['cohort_ids']],
+                baseline=child in baseline_ids,
+            ))
+            previous = {**state, 'probability_percent': value}
+    # Python's stable sort retains saved source order within each exact date.
+    return sorted(rows, key=lambda row: row['date'] or '', reverse=True)
+
+
 def has_named_father(dossier):
     """A retained named father, independent of his confidence or graph eligibility."""
     for relation in (dossier.get('relationships') or {}).get('parents') or []:
@@ -137,12 +210,16 @@ def build(create_baseline=False):
                json.loads(documentary_path.read_text()) if documentary_path.exists() else {'schema_version': 1, 'people': []})
     nodes, edges, quality = load_public_nodes(WEB, set(strategy["variants"]))
     listings = {}
+    identity_hold_ids = set()
     for ident, node in nodes.items():
         # Read the public account, including named fathers excluded from the
         # surname graph. Confidence-threshold roots are not missing fathers.
         path = WEB / str(node['url']).split('#')[0].lstrip('/')
         if path.suffix == '.html' and path.with_suffix('.json').is_file():
-            listings[ident] = has_named_father(json.loads(path.with_suffix('.json').read_text()))
+            dossier = json.loads(path.with_suffix('.json').read_text())
+            listings[ident] = has_named_father(dossier)
+            if dossier.get('creation_status') == 'identity_hold':
+                identity_hold_ids.add(ident)
     cohorts = {}
     for cutoff in strategy["cutoffs"]:
         working = summarize(nodes, edges, cutoff)
@@ -245,6 +322,7 @@ def build(create_baseline=False):
     if history['snapshots'][-1].get('cohorts') != cutoff_history:
         history['snapshots'][-1]['cohorts'] = cutoff_history
         write_json(history_path, history)
+    individual_findings = individual_finding_rows(nodes, edges, assessments, cohorts, set(baseline['cohort_ids']), identity_hold_ids)
     report = dict(
         schema_version=1,
         reviewed=history["snapshots"][-1]["date"],
@@ -270,6 +348,7 @@ def build(create_baseline=False):
             supported_baseline_available='supported' in baseline.get('metrics', {}),
         ),
         progress_history=history["snapshots"],
+        individual_findings=individual_findings,
         individual_confidence_method='Arithmetic mean of reviewed individual percentages for selected eligible father–child links; unrated links have no percentage. Review coverage is measured separately. Not a whole-pedigree probability.',
         unknown_father_method='Counts cohort people with no retained named father in their public account, including unnamed placeholders and only unselected alternatives. A named father remains named regardless of confidence or surname-graph eligibility. Missing public accounts are reported separately. This counts people, while confidence series count eligible father links. Older unknown-father counts were not recorded and are not reconstructed.',
     )
@@ -358,6 +437,7 @@ def build(create_baseline=False):
             for row in history['snapshots']
         ],
         research_priorities=priorities,
+        individual_findings=individual_findings,
     )
     payload = json.dumps(client, ensure_ascii=False, separators=(",", ":")).replace("<", "\\u003c")
     options = "".join(
@@ -381,7 +461,7 @@ def build(create_baseline=False):
 <script type="application/json" id="ancestry-progress-data">{payload}</script></main>"""
     history_html = f'''<section id="progress-history" class="progress-history" aria-labelledby="history-title">
 <h2 id="history-title">Confidence and connectivity over time</h2>
-<p>See the remaining uncertainty alongside confident links and exact confidence. Each daily point is the last saved measurement that day.</p>
+<p>See the remaining uncertainty alongside confident links and exact confidence. Each daily point is the last saved measurement that day. <a href="#individual-findings">Individual findings: see whose assessment changed ↓</a></p>
 <div class="progress-controls"><label>History cohort <select id="history-cohort"><option value="fixed">Fixed baseline · {len(baseline['cohort_ids']):,} people through {baseline['cutoff']}</option><option value="selected">Selected historical cohort</option></select></label></div>
 
 <p id="history-scope" class="source-line"></p>
@@ -402,10 +482,11 @@ def build(create_baseline=False):
 <p class="source-line">Every changed saved review is shown, including changes within the same day. Reviews are evenly spaced; recording times were not retained. The mean covers individually assessed fathers, so review coverage and new or revised links can move it up or down. It is not a probability for the whole tree. Earlier unrecorded percentages are not reconstructed.</p>
 <details><summary>View exact confidence review data</summary><div class="progress-table-wrap"><table><thead><tr><th scope="col">Saved review</th><th scope="col">Mean confidence</th><th scope="col">Rated father links</th><th scope="col">Review coverage</th></tr></thead><tbody id="confidence-trend-rows"></tbody></table></div></details>
 </div>
+<div id="individual-findings" aria-labelledby="individual-findings-title"><h3 id="individual-findings-title">Individual findings</h3><p>Follow each selected father’s assessment, with the child’s biography and WikiTree profile. Percentage changes use saved individual estimates, including decreases and changes within a confidence band. First ratings are review coverage, not a measured increase. Dates are recorded review dates; same-day entries retain saved order.</p><div class="progress-controls"><label>Findings <select id="findings-kind"><option value="change">Recorded percentage changes</option><option value="first">First individual ratings</option><option value="new">New father connections</option><option value="all">All findings</option></select></label><label class="inline-check"><input type="checkbox" id="findings-all-cohorts">Include beyond the selected history cohort</label></div><p id="findings-count" aria-live="polite"></p><div class="progress-table-wrap" tabindex="0" role="region" aria-label="Individual father findings"><table><thead><tr><th scope="col">Review date</th><th scope="col">Child and father</th><th scope="col">Individual assessment</th><th scope="col">Evidence and reason</th></tr></thead><tbody id="findings-rows"></tbody></table></div></div>
 </section>'''
     main = main.replace('<section aria-labelledby="connectivity-title">', history_html + '<section aria-labelledby="connectivity-title">', 1)
     main = main.replace('<section aria-labelledby="baseline-title">', '<section aria-labelledby="baseline-title"><details><summary>Research objective and shared-origin hypothesis</summary><p>' + escape(strategy['objective']) + '</p><p>' + escape(strategy['common_origin']) + '</p></details>', 1)
-    main = main.replace('<a href="#early-connections">', '<a href="#progress-history">Progress chart</a><a href="#early-connections">', 1)
+    main = main.replace('<a href="#early-connections">', '<a href="#progress-history">Progress chart</a><a href="#individual-findings">Individual findings</a><a href="#early-connections">', 1)
     page = shell_page((WEB / "about/index.html").read_text(), main, "Glasgow ancestry progress", ROUTE + "index.html")
     page = page.replace(
         "</head>", '<link rel="stylesheet" href="/assets/research/ancestry-progress.css?v=current"></head>'
