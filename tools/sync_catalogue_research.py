@@ -462,9 +462,10 @@ def main():
         identifiers = list(dict.fromkeys([dossier["id"], *by_slug[slug].get("profile_ids", [])]))
         findings = public_findings(identifiers, policy)
         update = updates.get(ident)
-        if update and policy.contains_private_id(json.dumps(update_data(update), ensure_ascii=False)):
+        if update and (update.get("private_comparison") or policy.contains_private_id(json.dumps(update_data(update), ensure_ascii=False))):
             # The captured profile text or the draft names a living person or
-            # a DNA tester. The queued change stays in the register and the
+            # a DNA tester, or has an explicit private-comparison assessment.
+            # The queued change stays in the register and the
             # queue file for the owner; it is not shown on the public page.
             updates_withheld.append(ident)
             if update.get("private_comparison") and update.get("public_addition_wikitext"):

@@ -656,6 +656,14 @@ class Checker:
                 self.add("QUEUE_ENTRY_CLOSED", entry["profile_id"], kind,
                          f"{entry['reason']}: {entry.get('summary', '')[:90]}")
             elif entry.get("source") == "register":
+                # A register-derived fallback can be rejected while a reviewed
+                # complete replacement is successfully loaded for this person.
+                # That entry reaches the site through the reviewed amendment;
+                # it is not a dropped publication. The loader has already
+                # validated its preservation review and source retention.
+                replacement = updates.get(entry["profile_id"], {})
+                if replacement.get("draft_path") and replacement.get("preservation_review_path"):
+                    continue
                 where = f"to-update.md:{entry['line']} " if entry.get("line") else ""
                 self.add("REGISTER_ENTRY_DROPPED", entry["profile_id"],
                          _digest(entry.get("text", "")) if entry.get("text") else kind,
