@@ -129,3 +129,15 @@ A possible identification concerns James Glasgow, plaintiff in Dublin Exchequer,
 
 A possible identification concerns James Glasgow, plaintiff in Dublin Exchequer, 1820. A report in the Freeman’s Journal and Daily Commercial Advertiser states that the parties in cause and cross-cause included Robert Thompson of Newry, the Rev. Mr Walsh of Ballymena, and Mr Barbour of Lisburn; it then says “The following were the Jury” and lists James Glasgow. (Freeman's Journal and Daily Commercial Advertiser, 3 November 1823, p. 3, trial report and jury list; [record](https://www.newspapers.com/image/1050060364/).) The original page confirms James Glasgow’s jury role in this reported trial. The newspaper issue is from Dublin, but the inspected passage does not show a court heading or venue. Newry, Ballymena and Lisburn describe other named parties, not the juror. The occurrence is compatible with, but not proved to be the same person as, the James Glasgow on the 1828 Belfast petty jury; identity with the 1820 Exchequer plaintiff is also unproved. The identification remains uncertain.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, second batch — 22 October 2026
+
+[Glasgow-1022](https://www.wikitree.com/wiki/Glasgow-1022) remains the selected father, assessed **98% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+The 1851 Glenleslie census calls Ann John’s granddaughter; her 1869 marriage names father James, weaver. James-2981’s 1847 Glenleslie family and 1851 neighbouring Dunaghy household identify the specific local James. The combined generation and household records support James as John’s son with confidence.
+
+Scope: Confident inferred father98%; John’s own father and both unknown mothers are not proved by the granddaughter chain. The 1825 junior suffix alone is not a son clause.
+
+Next useful test: Use the 1847/1851 household records to resolve the remaining child and maternal questions.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.

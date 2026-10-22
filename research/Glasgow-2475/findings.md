@@ -33,3 +33,15 @@ The retained Findmypast exact-display CSV(1461 rows) was searched for Nasmith, N
 ## William child-profile reference — 18 October 2026
 
 The supplied biography’s William child-link points to Glasgow-3080, the older man attached as John’s uncertain father. The specific 1706 child is [William Glasgow-3408](https://www.wikitree.com/wiki/Glasgow-3408): its maintained [FamilySearch citation](https://familysearch.org/ark:/61903/1:1:XY8Z-PGS) names John and Isabell Kyle/Keil. Correct that child-list pointer in the full proposal and retain the older man’s separately unresolved pedigree. No parent field, date or confidence is changed by this link correction. Original index not newly inspected.
+
+## Father confidence review, second batch — 22 October 2026
+
+[Glasgow-3080](https://www.wikitree.com/wiki/Glasgow-3080) remains the selected father, assessed **31% (possible)**. Previous selected-tree status: **uncertain**, without an individual percentage.
+
+John’s before 1685 Irvine generation could fit a son of William’s 1660 Leith generation. This is an existing named-family route with feasible fatherhood, but no held record connects the Leith child to an Irvine parent household or names John’s father.
+
+Scope: Possible31%; the 1706 Irvine child William-3408 is a separate person and does not establish William-3080’s adult identity.
+
+Next useful test: Look for a Leith-to-Irvine occupational, apprenticeship or family bridge.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.

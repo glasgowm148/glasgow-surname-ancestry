@@ -19,3 +19,15 @@ A reviewed Scotland’s People index entry records William Glasgow at Leith Sout
 Original image not inspected for this batch. The combined collection’s date does not automatically establish a birthday. Names alone do not uniquely identify attached parents or connect a child with a later adult. An omitted parent or indexed gender U remains unspecified in this source.
 
 **Next action:** No additional WikiTree update from this row; preserve any existing pending work.
+
+## Father confidence review, second batch — 22 October 2026
+
+[Glasgow-3078](https://www.wikitree.com/wiki/Glasgow-3078) remains the selected father, assessed **97% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+William’s 1660 South Leith index names Archbald Glasgow and Agnes Watson. Archibald-3078’s maintained adult Leith account contains the same Agnes household, also represented by the 1658 George entry. The full couple, parish and short family sequence strongly identify the father.
+
+Scope: The 1660 child and Archibald/Agnes household97%; the earlier Hilstoun marriage and Archibald’s own origins retain their separate evidence. Original uninspected.
+
+Next useful test: Check the 1662 testament and household entries for surviving children and the wife sequence.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.

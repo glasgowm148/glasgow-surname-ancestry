@@ -3,6 +3,10 @@
 Last updated: 2026-10-07
 
 
+## Current conclusion
+
+Father reviewed22October2026: Glasgow-1073 remains selected at 98% (proved). The validated9 December 1690 Kilbirnie child event belongs to John-1077 and the established minister John/Jean Cunningham family. The father’s parish career, exact household and neighbouring child entries identify a specific father account. The 1690 child and minister household98%; the later provost, skipper and 1740 bailie records retain their distinct identity questions. Original not newly inspected.
+
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-797144230166
 
 The transcript-validated baptism record for **John Glasgow**, 09 Dec 1690, Kilbirnie, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
@@ -44,3 +48,15 @@ A compiled biographical note on Irvine people, copied into the owner's earlier r
 Seen as: an unattributed secondary compilation; no original record, headstone image or council minute was seen. Treat it as **unresolved** until the Irvine council minutes and the headstone inscription are read. The note's statement that Agnes Ferguson was at the siege of Derry "in 1690" is unsupported (the siege was in 1689) and is not carried. The identification of this provost with the 1690 Kilbirnie baptism rests on this file's existing assessment, not on the note.
 
 Recorded in `archive/dump/TheGlasgows.md` (owner's checklist export of 10 March 2025); carried into this file on 7 October 2026.
+
+## Father confidence review, second batch — 22 October 2026
+
+[Glasgow-1073](https://www.wikitree.com/wiki/Glasgow-1073) remains the selected father, assessed **98% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+The validated9 December 1690 Kilbirnie child event belongs to John-1077 and the established minister John/Jean Cunningham family. The father’s parish career, exact household and neighbouring child entries identify a specific father account.
+
+Scope: The 1690 child and minister household98%; the later provost, skipper and 1740 bailie records retain their distinct identity questions. Original not newly inspected.
+
+Next useful test: Distinguish the adult Irvine officeholders without transferring proof from the baptism.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.

@@ -23,3 +23,15 @@ Recorded in `research/Glasgow-540/sources/hugh_glasgow_will_1827_transcription.m
 A search of Reformed Presbyterian periodicals for John Glasgow born 1767 (`Glasgow-822`) found instead an obituary of a different John Glasgow, reported to state that he was born near Portglenone on 28 April 1780 and emigrated with his father in 1796. The source audit says this "strongly fits" the John named as Hugh Glasgow's son in Hugh's 1827 will, and it matches this profile's birth date and the family history's August 1796 emigration of Hugh's household. The audit does not give the periodical's title, volume or page, and no copy is saved in this repository; recover the citation and read the notice before relying on it. It is not shown to be independent of W. M. Glasgow's family history. It keeps this John distinct from John `Glasgow-822`.
 
 Recorded in `research/Glasgow-822/source-audits/direct-link-loop-2026-07-21.md` (21 July 2026); carried into this file on 7 October 2026.
+
+## Father confidence review, second batch — 22 October 2026
+
+[Glasgow-540](https://www.wikitree.com/wiki/Glasgow-540) remains the selected father, assessed **93% (proved)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+Hugh’s 1827 Allegheny will calls John his son and executor. The maintained late family account and reported John dates identify John-209 as that son; the separate 1767 John-822 is not substituted. The explicit executor role and particular family make this stronger than an inherited slot alone.
+
+Scope: Whole father-profile proposition93%; the will gives no son’s age or residence, and the late account supplies that remaining identity step.
+
+Next useful test: Verify the obituary and executor papers for John’s residence and age.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.

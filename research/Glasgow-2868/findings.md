@@ -170,3 +170,15 @@ The 1785 notice explicitly says State of Delaware. Neither notice proves that th
 
 This may concern [Glasgow-2868](https://www.wikitree.com/wiki/Glasgow-2868). Adult chronology and later Cecil Maryland regional context are compatible with nearby New Castle, without a Wilmington/Christiana Bridge or property connection.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, second batch — 22 October 2026
+
+[Glasgow-3011](https://www.wikitree.com/wiki/Glasgow-3011) remains the selected father, assessed **86% (probable)**. Previous selected-tree status: **uncertain**, without an individual percentage.
+
+James’s 1720 Glencorse baptism names Robert Glasgow and Margaret Davidsone; the 1704 local Robert/Margaret Davidson marriage identifies a specific preceding couple. The existing 1676 Robert child is a feasible27-year-old groom and the preferred local profile.
+
+Scope: Complete profile placement86%; the marriage-to-baptism couple is strong, while Robert’s own child-to-adult identity is inferred. Original uninspected.
+
+Next useful test: Compare the 1676 and 1704 originals for family or residence identifiers.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.

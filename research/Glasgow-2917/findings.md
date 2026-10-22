@@ -48,3 +48,15 @@ location was changed.
 
 ### Searches that found nothing
 - A Findmypast search for Charles Glasgow (variants on) in Ireland, 1680–1780, returned five records, none of them a Glasgow. The two dated ones are a Charles Glass in the 1740 Protestant Householders at Tamlaght Finlagan, Ballykelly (IRE/PRONI/1740PH/G/00366) and a Charles Glass in a 1740 Court of Exchequer bill book, Dublin. The only County Londonderry Glasgow households in the 1740 index are Hugh (1) and Hugh (2) at Tamlaght O'Crilly. The Glasgow-surname place searches for Killycurragh and Ballynasollus found no Charles. Their earliest Glasgow entries are the 1766 William at Killycurragh and the 1834 Valuation Office field book (Saml Glasgow, Killycurragh). No place search was run for Cross. Nothing bridges the South Leith child to Ireland.
+
+## Father confidence review, second batch — 22 October 2026
+
+[Glasgow-3012](https://www.wikitree.com/wiki/Glasgow-3012) remains the selected father, assessed **82% (probable)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+Charles’s 1686 South Leith baptism names John Glesgowe and Margaret Currie. The existing John account includes the 1673 Kirknewton marriage to Margaret Currie and the 1676 Glencorse child household, giving a particular couple and compatible sequence across nearby Lothian parishes.
+
+Scope: Complete selected father-profile placement82%; John’s 1649 childhood identification and Charles’s claimed Irish adulthood remain unproved. Charles James is not the register’s compound forename.
+
+Next useful test: Test the 1673 groom’s identity and the Scottish-to-Irish Charles continuation separately.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.

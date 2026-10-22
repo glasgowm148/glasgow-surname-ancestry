@@ -1,6 +1,10 @@
 # Glasgow-1382 research findings
 
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-7184f110373c -->
+## Current conclusion
+
+Father reviewed22October2026: Glasgow-1023 remains selected at 98% (proved). Thomas’s 1746 Livingston transcript names Thomas Glasgow and Janet Mill at Davistoun. The existing Thomas-1023 account is the maintained father with Janet Mill and the matching family sequence. Janet Kilpatrick is his mother, not a competing spouse. Recorded 1746 child and Thomas/Janet Mill household98%; this does not prove every later Thomas identity or the father’s own Kilwinning childhood. Original uninspected.
+
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-7184f110373c
 
 The transcript-validated baptism record for **Thomas Glasgow**, 02 Feb 1746, Livingston, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
@@ -15,3 +19,15 @@ The transcript-validated baptism record for **Thomas Glasgow**, 02 Feb 1746, Liv
 
 Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
 <!-- END FMP-GLASGOW-fmp-glasgow-7184f110373c -->
+
+## Father confidence review, second batch — 22 October 2026
+
+[Glasgow-1023](https://www.wikitree.com/wiki/Glasgow-1023) remains the selected father, assessed **98% (proved)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+Thomas’s 1746 Livingston transcript names Thomas Glasgow and Janet Mill at Davistoun. The existing Thomas-1023 account is the maintained father with Janet Mill and the matching family sequence. Janet Kilpatrick is his mother, not a competing spouse.
+
+Scope: Recorded 1746 child and Thomas/Janet Mill household98%; this does not prove every later Thomas identity or the father’s own Kilwinning childhood. Original uninspected.
+
+Next useful test: Keep the later adult Thomas identity separate while checking the original 1746 entry.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.

@@ -40,3 +40,15 @@ The two inspected indexes record Abraham Glasgow buried 16 July 1818, aged 89, a
 
 Source level: provider transcripts inspected on 22 October 2026; original register images not inspected. Compatible profile identities remain explicitly unproved.
 <!-- END FMP-BIRTH-SCOPE-20261022 -->
+
+## Father confidence review, second batch — 22 October 2026
+
+[Glasgow-1226](https://www.wikitree.com/wiki/Glasgow-1226) remains the selected father, assessed **98% (proved)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+The 1719 Livingston child entry and maintained family account identify Abraham’s parents as Thomas Glasgow and Catherine Clarkson. The exact child event and parental couple identify the record-defined Thomas father without choosing among later Thomas adult accounts.
+
+Scope: Record-defined 1719 child and Clarkson household98%; later Abraham marriage/death identities and Thomas’s Duncan/Clarkson identity comparisons remain separate. Original uninspected.
+
+Next useful test: Compare the household originals without attaching the 1818 Birmingham namesake.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.

@@ -161,3 +161,15 @@ The report supplies Manchester and the invention, but no age, family or link to 
 
 This may concern [Glasgow-1058](https://www.wikitree.com/wiki/Glasgow-1058). Uncertain birth before 20 November 1687 at Kilwinning permits an older man in 1762/1768, but age makes this a weak comparison; no occupational or personal connection.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, second batch — 22 October 2026
+
+[Glasgow-1057](https://www.wikitree.com/wiki/Glasgow-1057) remains the selected father, assessed **98% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+The20 November 1687 Kilwinning transcript explicitly names John Glasgow and Agnes Spark as George’s parents. The selected John account represents that same named couple and parish household; the exact parental pairing identifies the record father.
+
+Scope: The recorded 1687 child and John/Agnes household. John’s Edinburgh childhood and George’s later Irvine identity remain separate. Original uninspected.
+
+Next useful test: Concentrate further work on George’s childhood-to-Irvine adult continuity.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.

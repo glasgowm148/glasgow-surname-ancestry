@@ -135,3 +135,15 @@ This buried Walter cannot be assigned on the present chronology to [Walter Glasg
 ## Leithford household comparison — 17 October 2026
 
 The burial transcript explicitly names father William. The later Walter’s baptism names William at the same Leithford residence and register, supporting one household and reuse of the name after the June 1647 burial. William-1087’s 1609 Mid Calder childhood and possible 1648 fatherhood make him the preferred existing identity, at 68%. The exact-locality household link is stronger than county-level alternatives, but the cross-parish adult identity remains inferred. Another William of Leithford is the principal rival. No mother, age, exact death date or identity merge is inferred; retain both 1647/1649 baptism readings and the source-verification hold. The documentary father role is 98%; the shared-household comparison is 84%, with the profile-level father selection 68%. These are distinct scopes. [Complete burial account](/people/record-queue-early-scotland-1650-walter-buried-1647.html).
+
+## Father confidence review, second batch — 22 October 2026
+
+[Glasgow-3296](https://www.wikitree.com/wiki/Glasgow-3296) remains the selected father, assessed **46% (possible)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+The 1609 Mid Calder child index explicitly names father Jhone. Selecting the Quothquan John-3296 is a plausible nearby regional and generational explanation, but the record supplies no property, occupation or relative connecting that Jhone with the 1650 testator.
+
+Scope: Complete father-profile placement46%; the named register father is explicit but its identification with 3296 is not. Testamentary omission does not exclude a child.
+
+Next useful test: Seek a holding, witness or kin link between the Mid Calder father and Quothquan testator.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.

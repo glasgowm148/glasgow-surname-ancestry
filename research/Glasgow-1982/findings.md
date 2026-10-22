@@ -63,3 +63,15 @@ Profile prose and trees remain leads; inspect the cited record before treating a
 - [https://familysearch.org/ark:/61903/1:1:XHRC-7BB](https://familysearch.org/ark:/61903/1:1:XHRC-7BB)
 - [[1]](https://web.archive.org/web/20101124183914/http:/lifesweaving.com/Glasgow/Kilwaughter/TheirStory.html)
 - [Memorial #33531795](https://www.findagrave.com/memorial/33531795)
+
+## Father confidence review, second batch — 22 October 2026
+
+[Glasgow-1144](https://www.wikitree.com/wiki/Glasgow-1144) remains the selected father, assessed **99% (proved)**. Previous selected-tree status: **strongly_supported**, without an individual percentage.
+
+James’s Newberry will expressly names son Wilson. The later family equity account places the same Wilson within James and widow Mary’s children, and the distinctive name and local family context identify Wilson-1982.
+
+Scope: Existing strongly supported father99%; derivative will and pleading transcriptions are held. Mary’s maiden surname and Wilson’s estimated Irish birth remain separate.
+
+Next useful test: Use the original estate packet to extend Wilson’s later family, not to reopen the direct son clause.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.

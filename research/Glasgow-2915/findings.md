@@ -74,3 +74,15 @@ A further issue repeats the Kildress resolutions naming Hugh Faulkner and Willia
 
 The repeated publication supplies no new family relationship. The reported c.1760 birth and Cookstown association support a compatible delegate identification, but the notice proves neither his attached father nor spouse.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, second batch — 22 October 2026
+
+[Glasgow-2916](https://www.wikitree.com/wiki/Glasgow-2916) remains the selected father, assessed **24% (uncertain)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+The contributed pedigree supplies James as William’s father and allows a41-year father generation from 1719 to 1760. That is a feasible family hypothesis. No held household record bridges them, and the profile’s Scottish birth versus the father’s Irish setting requires an unrecorded movement.
+
+Scope: Uncertain24%; the local baptism-register gap is a research limit, not positive evidence. The 1770 Killycurragh William is not automatically this man.
+
+Next useful test: Anchor William’s own earliest household before choosing a Cross/Derry ancestry.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.

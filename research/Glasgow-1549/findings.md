@@ -27,3 +27,15 @@ Another unrecorded son John or a different Scottish immigrant remains possible. 
 ## Next questions — parentage
 
 Inspect the cited Huntingdon will image 103 and adjacent continuation pages for John, the other named children, property descriptions and prior settlements. Trace the source behind the family account and inspect deeds, tax lists and any estate releases linking Sinking Valley to Allegheny/Cambria. Check the original 1790 and 1820 census pages and the basis of the younger John’s exact birthday and Daill birthplace. A named son in the will must still be identified with the Cambria adult; an omitted son is not by itself an exclusion. Keep the Scottish Richard/Ezekiel ancestry as a separate question.
+
+## Father confidence review, second batch — 22 October 2026
+
+[Glasgow-1550](https://www.wikitree.com/wiki/Glasgow-1550) remains the selected father, assessed **21% (uncertain)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+John’s inherited Glasgow birth about 1758 and Richard’s 1707 Glasgow generation form a possible51-year fatherhood sequence in the same city. The contributed tree gives a specific claim, but no held event names this father or establishes the older Richard’s life.
+
+Scope: Uncertain21%; John and Margaret Hunter’s own sons do not prove John’s father. Estimated dates and place are correlated tree premises.
+
+Next useful test: Find John’s marriage, probate or earliest adult identifier before relying on Richard.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.

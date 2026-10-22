@@ -168,3 +168,15 @@ The exact Montgreenan designation supports identification of the 1799 claimant. 
 
 This may concern [Glasgow-1076](https://www.wikitree.com/wiki/Glasgow-1076). Exact Montgreenan designation agrees with the prior checked 1802 record; earlier St Vincent/doctor contexts fit, but cross-record identity remains inferred.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, second batch — 22 October 2026
+
+[Glasgow-1075](https://www.wikitree.com/wiki/Glasgow-1075) remains the selected father, assessed **99% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+The retained 1747 Kilbirnie baptism expressly calls Robert the lawful son of Robert Glasgow of Puddevenholm and Margaret Allan. The distinctive estate, named couple and later Montgreenan family history identify the doctor father and this son.
+
+Scope: Confident99%; the15/18 October event distinction and later exact death day remain separate. The doctor’s own ancestry is not strengthened.
+
+Next useful test: Retain this named household anchor while testing outward and upstream joins.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.

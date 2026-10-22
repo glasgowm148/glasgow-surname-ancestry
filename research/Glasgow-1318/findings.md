@@ -49,3 +49,15 @@ The inspected OPR 692/3 item 2 p.17 transcript records an unnamed child born 11 
 
 Source level: provider transcripts inspected on 22 October 2026; original register images not inspected. Compatible profile identities remain explicitly unproved.
 <!-- END FMP-BIRTH-SCOPE-20261022 -->
+
+## Father confidence review, second batch — 22 October 2026
+
+[Glasgow-1026](https://www.wikitree.com/wiki/Glasgow-1026) remains the selected father, assessed **57% (possible)**. Previous selected-tree status: **uncertain**, without an individual percentage.
+
+The 1705 Kirknewton child index names father William. The older William-1026 household is an existing same-parish candidate, but the 1660 generation and the 1682 Bessie family do not uniquely identify that father. William-3974, baptised 1671, could also have been an adult father by 1705.
+
+Scope: Complete father-profile placement57%; the younger William’s inability to father Bessie in 1682 does not exclude him from fathering the 1705 child. No maternal certainty change.
+
+Next useful test: Compare the 1705 original for residence or mother to distinguish the two Williams.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.

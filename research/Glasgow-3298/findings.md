@@ -16,3 +16,15 @@ Two inspected transcripts index unnamed male children born 1792 and 1797 at Kilm
 
 Source level: provider transcripts inspected on 22 October 2026; original register images not inspected. Compatible profile identities remain explicitly unproved.
 <!-- END FMP-BIRTH-SCOPE-20261022 -->
+
+## Father confidence review, second batch — 22 October 2026
+
+[Glasgow-1929](https://www.wikitree.com/wiki/Glasgow-1929) remains the selected father, assessed **94% (proved)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+John’s 1755 Glasgow baptism names Hugh Glasgow and Margtt McKechny. Hugh-1929’s maintained family includes Margaret McEachin/McGechan and the earlier Kilmarnock child sequence. The uncommon full couple and ordered family favour the same adult across the two towns.
+
+Scope: Record child and parental household94%; spelling variants and the Kilmarnock-to-Glasgow continuity remain inferential. The 1792/1797 John entries concern this son’s own fatherhood, not his father.
+
+Next useful test: Compare the 1755 original with the earlier couple for occupation or residence.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.

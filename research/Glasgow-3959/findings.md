@@ -107,3 +107,15 @@ The adjoining-owner and committee appointments may concern one man but do not na
 
 This may concern [Glasgow-3959](https://www.wikitree.com/wiki/Glasgow-3959). Chronologically compatible; no death date or place/occupation detail to conflict with the Pennsylvania appearance. No U.S. or appointment linkage found.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, second batch — 22 October 2026
+
+[Glasgow-3990](https://www.wikitree.com/wiki/Glasgow-3990) remains the selected father, assessed **18% (uncertain)**. Previous selected-tree status: **uncertain**, without an individual percentage.
+
+The 1740 Ballyboggy lessee John can fit a son generation below the inherited c 1680 younger John. However 3990 was inferred from an older man’s senior suffix and has no securely assigned independent record; its use as a father adds a particularly weak generation.
+
+Scope: Existing attachment retained18%; the 1733 Killroot deceased estate is only a candidate for 3990, not the active 1740 lessee.
+
+Next useful test: Identify the younger John independently and test the Ballyboggy lease succession.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.

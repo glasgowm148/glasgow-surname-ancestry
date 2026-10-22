@@ -55,3 +55,15 @@ Resolve the documentary person’s identity before changing WikiTree facts or re
 
 A possible identification concerns Samuel Glasgow, farmer examined at Moneymore. An 1845 tenant-right discussion quotes Samuel Glasgow, described as an intelligent farmer examined at Moneymore, advocating secure tenure and protection against rent charged on improvements. He described seeing reclamation on Sir Thomas Staples’s land in his neighbourhood. (Freeman’s Journal and Daily Commercial Advertiser, 19 March 1845, p. 1, Ulster tenant-right discussion; [record](https://www.newspapers.com/image/1050103241/); Freeman’s Journal and Daily Commercial Advertiser, 19 March 1845, p. 1, alternate archive image of tenant-right passage; [record](https://www.newspapers.com/image/1380777866/).) Moneymore is where he was examined, not an explicit home townland. The date of his examination, age and relatives are unstated. Cookstown farmers [Glasgow-2054](https://www.wikitree.com/wiki/Glasgow-2054) and [Glasgow-1698](https://www.wikitree.com/wiki/Glasgow-1698) are compatible; [Lisnagaver Glasgow](https://www.wikitree.com/wiki/Glasgow-2908) is a weaker regional comparison, without a locality or occupation bridge. No connection to Lisnagaver is established. The identification remains uncertain.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, second batch — 22 October 2026
+
+[Glasgow-2539](https://www.wikitree.com/wiki/Glasgow-2539) remains the selected father, assessed **97% (proved)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+Hugh’s burial application names father John Glasgow, and the held newspaper/family account identifies Hugh as uncle of Samuel’s son Thomas. The documented paternal surname, distinct maternal McCormick family and compatible Tyrone generations support John as Samuel’s confidently inferred father.
+
+Scope: Confident inference97%; the burial application is a retained transcription and not a newly inspected original. Samuel’s mother remains unknown.
+
+Next useful test: Verify the uncle wording and original burial application; assess maternity separately.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.

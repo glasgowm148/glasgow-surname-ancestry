@@ -49,3 +49,15 @@ line; genealogically, however, the branch is presently bounded at James-193.
 3. If another documented male-line descendant of James-193 tests, select a
    third son-line where possible; that would independently reinforce the
    branch placement.
+
+## Father confidence review, second batch — 22 October 2026
+
+[Glasgow-12](https://www.wikitree.com/wiki/Glasgow-12) remains the selected father, assessed **93% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+The held Faris family account explicitly identifies James among Robert and Rosanna’s ten children. The 1799 Virginia birth is compatible with this couple’s recorded family span and later Adams County migration.
+
+Scope: Compiled-family attribution93%; no census or DNA result is treated as a parent clause. The underlying book evidence remains to be checked.
+
+Next useful test: Read the James family entry and its original family-record references.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.

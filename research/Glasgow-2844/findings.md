@@ -1,5 +1,9 @@
 # Findings: Glasgow-2844
 
+## Current conclusion
+
+Father reviewed22October2026: Glasgow-1513 remains selected at 13% (uncertain). The inherited dates permit Robert’s 1670 Ayr child to father Ezekiel around 1690, but the claimed Guernsey birth requires an unsupported geographical transition. No held record connects Robert with Ezekiel, and the 1775 Charlestown postal co-listing identifies neither generation. Uncertain13%; retain the selected route without treating the estimated dates, migration or postal list as proof.
+
 ## Current conclusion — postal and certificate originals, 5 October 2026
 
 Ezekiel Glasgow, Charlestown postal addressee, 1775: Birth 1690, Guernsey, uncertain; death 1778, Charles County, Maryland, uncertain. The uncertain dates overlap the 1775 occurrence, but the known profile locations provide no South Carolina bridge; no identity link found. No South Carolina identity bridge was found. Three catalogue namesakes are weak comparisons; an uncertain post-1775 birth is a substantial mismatch, not a proved exclusion. Co-listed James is not an evidenced father or relative. No relationship change follows.
@@ -27,3 +31,15 @@ The postal list gives neither an age nor a family relationship between James and
 
 This may concern [Glasgow-2844](https://www.wikitree.com/wiki/Glasgow-2844). Birth 1690, Guernsey, uncertain; death 1778, Charles County, Maryland, uncertain. The uncertain dates overlap the 1775 occurrence, but the known profile locations provide no South Carolina connection; no identity link found.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, second batch — 22 October 2026
+
+[Glasgow-1513](https://www.wikitree.com/wiki/Glasgow-1513) remains the selected father, assessed **13% (uncertain)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+The inherited dates permit Robert’s 1670 Ayr child to father Ezekiel around 1690, but the claimed Guernsey birth requires an unsupported geographical transition. No held record connects Robert with Ezekiel, and the 1775 Charlestown postal co-listing identifies neither generation.
+
+Scope: Uncertain13%; retain the selected route without treating the estimated dates, migration or postal list as proof.
+
+Next useful test: Identify Ezekiel’s own earliest record and location before extending this ancestry.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.

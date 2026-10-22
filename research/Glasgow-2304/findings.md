@@ -106,3 +106,15 @@ These are proposals for the WikiTree date fields and are queued for review; noth
 The Gilders Creek inscriptions name Archibald's wife only as Mary. [Find a Grave memorial 33531779](https://www.findagrave.com/memorial/33531779/mary-glasgow) calls her **Mary Spence Glasgow**, but "Spence" is not visible in the photographed Glasgow inscriptions and no marriage or probate record has confirmed it. Derivative memorial; **unresolved** lead only. Estate 647 (Mary as administrator) may give her full name. Related memorials: Archibald 33531767, Neomi 33531784, Sarah 33531790.
 
 Recorded in `research/Glasgow-2304/Glasgow-2304.md` (2026-09-13); carried into this file on 7 October 2026.
+
+## Father confidence review, second batch — 22 October 2026
+
+[Glasgow-1144](https://www.wikitree.com/wiki/Glasgow-1144) remains the selected father, assessed **99% (proved)**. Previous selected-tree status: **strongly_supported**, without an individual percentage.
+
+James’s will names Archibald among his sons, and the 1817 equity complaint independently places him among James and widow Mary’s children. The Newberry household, age and distinctive sibling group identify this Archibald.
+
+Scope: Existing supported father99%; source transcriptions are held, originals not newly inspected. Archibald’s birthplace and Mary’s maiden surname are not established here.
+
+Next useful test: Use the estate and cemetery family to test Archibald’s proposed later son Robert.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.

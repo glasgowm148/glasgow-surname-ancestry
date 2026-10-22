@@ -57,3 +57,15 @@ Thomas’s own existing parents and Duncan/Clarkson identity alternatives retain
 - [James’s complete Irvine household and retained 1723 Marion Rae entry](https://www.wikitree.com/wiki/Glasgow-4158)
 - [Philip junior profile: current biography capture checked16 October2026](https://www.wikitree.com/wiki/Glasgow-3932)
 - [Robert Glasgow-3897: correct Kilrea subject retaining the entire misplaced biography](https://www.wikitree.com/wiki/Glasgow-3897)
+
+## Father confidence review, second batch — 22 October 2026
+
+[Glasgow-1105](https://www.wikitree.com/wiki/Glasgow-1105) remains the selected father, assessed **98% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+Thomas’s 1675 Linlithgow index names John Glasgow and Agnes Eastone. The same parental couple recurs in the existing John household, including the 1671 child, giving a specific record-defined father identification.
+
+Scope: Recorded 1675 child98%; the2/21 February discrepancy and later Duncan/Clarkson Thomas identities remain separate. Original uninspected.
+
+Next useful test: Test Thomas’s later adult identities independently of the explicit child parentage.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.

@@ -98,3 +98,15 @@ The notice records a pledge, not proof of payment, residence, parentage or a fam
 
 This may concern [Glasgow-1983](https://www.wikitree.com/wiki/Glasgow-1983). Estimated c.1763 Irish birth fits age, but later South Carolina household context supplies no Cookstown link.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, second batch — 22 October 2026
+
+[Glasgow-1144](https://www.wikitree.com/wiki/Glasgow-1144) remains the selected father, assessed **99% (proved)**. Previous selected-tree status: **strongly_supported**, without an individual percentage.
+
+James’s will expressly calls Robert a son and devises land to him. Robert’s 1817 sworn answer independently calls James his father, Mary his mother and Rachel Wilson his paternal grandmother, giving unusually specific identity and generation evidence.
+
+Scope: Existing supported father99%; held derivative transcriptions, originals not newly inspected. Mary’s maiden surname and Robert’s exact birth remain separate.
+
+Next useful test: Use the proved chain to test descendants rather than reopen this explicit parent relation.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.

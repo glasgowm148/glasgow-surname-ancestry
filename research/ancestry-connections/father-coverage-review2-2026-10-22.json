@@ -1,0 +1,1134 @@
+{
+  "reviewed": "2026-10-22",
+  "scope": "65 unrated selected fathers prioritised by dependent connected-pair impact in the existing through1850 cohort. Future coverage queue ranks child-side branch size first, keeping pair impact separate. No default percentages.",
+  "baseline": {
+    "eligible_father_links": 1396,
+    "individually_rated": 221
+  },
+  "newly_rated_father_links": 65,
+  "new_parent_attachments": 0,
+  "new_paternal_joins": 0,
+  "new_original_inspections": 0,
+  "newly_graded_confident_existing_fathers": 14,
+  "private_complete_comparisons": [
+    "Glascow-14",
+    "Glasgow-1022",
+    "Glasgow-1982",
+    "Glasgow-2304",
+    "Glasgow-2769"
+  ],
+  "ratings": [
+    {
+      "child": "Glasgow-357",
+      "percent": 29,
+      "basis": "The inherited account places William, born 1757, under Caleb, born 1726, in Currituck: a specific local claim with a compatible31-year generation. No held record names William as Caleb’s son. The 1803 Caleb will concerns an adult family but does not establish this William, and the competing Caleb account is unresolved.",
+      "scope": "Existing father hypothesis only; profile dates and ancestry derive partly from the same contributed tree. The will’s omission is not an exclusion.",
+      "next_test": "Identify the family-book p213 and DAR parent evidence before choosing between the Caleb accounts.",
+      "source_hint": null,
+      "father": "Glasgow-363",
+      "child_side": 35,
+      "cross_pairs": 38990,
+      "previous_status": "unmarked",
+      "status": "uncertain",
+      "source_ids": [
+        "held-e-e8ce0d21eb6a"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-357-father"
+    },
+    {
+      "child": "Glasgow-563",
+      "percent": 95,
+      "basis": "The held Faris p18 account specifically calls Nancy and William children of Robert and places their Adams County move by spring 1805. William’s 1778 Virginia origin and later Ohio family fit that particular migration, making the named son identification strong.",
+      "scope": "Compiled family history and retained quotations, with DAR corroboration reported but applications uninspected. No claim that the 1850 census names his parents.",
+      "next_test": "Verify Faris’s cited family/Bible evidence when reviewing the broader Robert household.",
+      "source_hint": "faris",
+      "father": "Glasgow-12",
+      "child_side": 33,
+      "cross_pairs": 36828,
+      "previous_status": "confident",
+      "status": "proved",
+      "source_ids": [
+        "held-faris-glasgow-adams-ohio-1990"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-563-father"
+    },
+    {
+      "child": "Glascow-14",
+      "percent": 44,
+      "basis": "Isaac’s 1786 Currituck birth and selected William’s 1757 Currituck origin give a compatible29-year generation in the same county. The inherited pedigree identifies a specific father, but no held will, Bible entry or vital record establishes that transition.",
+      "scope": "Possible44%; contributed pedigree and locality are correlated context, not independent proof. No genetic-match information is used.",
+      "next_test": "Read the cited pedigree’s underlying family record and William’s probate material.",
+      "source_hint": null,
+      "father": "Glasgow-357",
+      "child_side": 24,
+      "cross_pairs": 27000,
+      "previous_status": "unmarked",
+      "status": "possible",
+      "source_ids": [
+        "held-e-95cb139f4bc3"
+      ],
+      "assertion_id": "C-coverage-20261022b-glascow-14-father"
+    },
+    {
+      "child": "Glasgow-3959",
+      "percent": 18,
+      "basis": "The 1740 Ballyboggy lessee John can fit a son generation below the inherited c 1680 younger John. However 3990 was inferred from an older man’s senior suffix and has no securely assigned independent record; its use as a father adds a particularly weak generation.",
+      "scope": "Existing attachment retained18%; the 1733 Killroot deceased estate is only a candidate for 3990, not the active 1740 lessee.",
+      "next_test": "Identify the younger John independently and test the Ballyboggy lease succession.",
+      "source_hint": null,
+      "father": "Glasgow-3990",
+      "child_side": 23,
+      "cross_pairs": 25898,
+      "previous_status": "uncertain",
+      "status": "uncertain",
+      "source_ids": [
+        "held-e-d183e286ef05"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-3959-father"
+    },
+    {
+      "child": "Glasgow-653",
+      "percent": 93,
+      "basis": "The dedicated Faris genealogy, as explicitly summarized in the held biography, identifies Joseph among Robert and Rosanna’s children. Joseph’s 1780 Virginia birth fits the specific Robert household and subsequent Adams County family.",
+      "scope": "Compiled-family attribution93%, not an inference from surname or DNA. The underlying book page and parental record are uninspected in this review.",
+      "next_test": "Check Joseph’s chapter and its underlying family record alongside the sibling entries.",
+      "source_hint": "faris",
+      "father": "Glasgow-12",
+      "child_side": 23,
+      "cross_pairs": 25898,
+      "previous_status": "confident",
+      "status": "proved",
+      "source_ids": [
+        "held-faris-glasgow-adams-ohio-1990"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-653-father"
+    },
+    {
+      "child": "Glasgow-1058",
+      "percent": 98,
+      "basis": "The20 November 1687 Kilwinning transcript explicitly names John Glasgow and Agnes Spark as George’s parents. The selected John account represents that same named couple and parish household; the exact parental pairing identifies the record father.",
+      "scope": "The recorded 1687 child and John/Agnes household. John’s Edinburgh childhood and George’s later Irvine identity remain separate. Original uninspected.",
+      "next_test": "Concentrate further work on George’s childhood-to-Irvine adult continuity.",
+      "source_hint": "SCOT/OPR/BAP/3624876",
+      "father": "Glasgow-1057",
+      "child_side": 22,
+      "cross_pairs": 24794,
+      "previous_status": "confident",
+      "status": "proved",
+      "source_ids": [
+        "held-e-20afef309222"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-1058-father"
+    },
+    {
+      "child": "Glasgow-1343",
+      "percent": 97,
+      "basis": "John’s 1727 Kirknewton child citation names Alexander Glasgow; the maintained Alexander/Margaret Moultrie household has an ordered 1721–1732 child sequence in that parish. The specific existing adult household is a strong fit for the named father.",
+      "scope": "Record-defined 1727 child and the Moultrie household97%; Alexander’s own estimated birth and upstream father are not validated. Original uninspected.",
+      "next_test": "Use the couple’s surrounding child entries to test household identifiers.",
+      "source_hint": "VQ4K-PMK",
+      "father": "Glasgow-1141",
+      "child_side": 22,
+      "cross_pairs": 24794,
+      "previous_status": "unmarked",
+      "status": "proved",
+      "source_ids": [
+        "held-e-f23c4d15ea0b"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-1343-father"
+    },
+    {
+      "child": "Glasgow-1022",
+      "percent": 27,
+      "basis": "The Ballyboggy John active in 1740 is a real earlier Antrim adult and could father the Glenleslie John born about 1751. The existing local pedigree offers a coherent older generation, but no shared holding or named-relative source bridges these men.",
+      "scope": "Uncertain27%; the older man’s c 1705 birth is an estimate, not an independently known age. The 1851 Glenleslie household proves later relatives, not this father.",
+      "next_test": "Seek a Ballyboggy–Glenleslie succession or named-kin link.",
+      "source_hint": null,
+      "father": "Glasgow-3959",
+      "child_side": 21,
+      "cross_pairs": 23688,
+      "previous_status": "uncertain",
+      "status": "uncertain",
+      "source_ids": [
+        "held-e-827fa902bccc"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-1022-father"
+    },
+    {
+      "child": "Glasgow-2917",
+      "percent": 82,
+      "basis": "Charles’s 1686 South Leith baptism names John Glesgowe and Margaret Currie. The existing John account includes the 1673 Kirknewton marriage to Margaret Currie and the 1676 Glencorse child household, giving a particular couple and compatible sequence across nearby Lothian parishes.",
+      "scope": "Complete selected father-profile placement82%; John’s 1649 childhood identification and Charles’s claimed Irish adulthood remain unproved. Charles James is not the register’s compound forename.",
+      "next_test": "Test the 1673 groom’s identity and the Scottish-to-Irish Charles continuation separately.",
+      "source_hint": "VQ4J-JJK",
+      "father": "Glasgow-3012",
+      "child_side": 19,
+      "cross_pairs": 21470,
+      "previous_status": "confident",
+      "status": "probable",
+      "source_ids": [
+        "held-e-d98bf11f4fb3"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-2917-father"
+    },
+    {
+      "child": "Glasgow-3011",
+      "percent": 88,
+      "basis": "Robert’s 1676 Glencorse baptism names John Glasgow and Margaret Currie. Their 1673 Kirknewton marriage supplies an earlier named couple in the neighbouring district, favouring the existing John household over an otherwise unspecified namesake.",
+      "scope": "Complete profile placement88%; the 1649 child-to-adult John identification remains inferred. The 1704 Robert/Davidson marriage is a different event.",
+      "next_test": "Compare the 1673 and 1676 entries for residence and witnesses.",
+      "source_hint": "E-753bbfdc19ef",
+      "father": "Glasgow-3012",
+      "child_side": 19,
+      "cross_pairs": 21470,
+      "previous_status": "unmarked",
+      "status": "probable",
+      "source_ids": [
+        "held-e-753bbfdc19ef"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-3011-father"
+    },
+    {
+      "child": "Glasgow-8",
+      "percent": 95,
+      "basis": "The held dedicated Faris family account explicitly includes Robert Barclay Glasgow among Robert and Rosanna’s children. His distinctive compound name,1783 Virginia birth and Ohio family context fit that specific descendant household.",
+      "scope": "Compiled family history95%; underlying Faris pages and pedigree materials were not newly inspected. No genetic pedigree substitutes for parent evidence.",
+      "next_test": "Verify the family-record citations used for this named child.",
+      "source_hint": "faris",
+      "father": "Glasgow-12",
+      "child_side": 19,
+      "cross_pairs": 21470,
+      "previous_status": "confident",
+      "status": "proved",
+      "source_ids": [
+        "held-faris-glasgow-adams-ohio-1990"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-8-father"
+    },
+    {
+      "child": "Glasgow-1620",
+      "percent": 97,
+      "basis": "Thomas’s 1761 Currie baptism names John Glasgow and Mary Robertson. The selected John profile is the maintained John/Mary Robertson household, so both parental names and the child event identify a specific family. The older 1606 profile number is an attribution reference, not a different man named by the register.",
+      "scope": "Recorded 1761 child and named couple97%; the August/September date discrepancy remains. John’s own childhood is separate. Original uninspected.",
+      "next_test": "Resolve the literal date and old profile-number mapping without changing the named couple.",
+      "source_hint": "VQ4X-H5X",
+      "father": "Glasgow-1343",
+      "child_side": 18,
+      "cross_pairs": 20358,
+      "previous_status": "unmarked",
+      "status": "proved",
+      "source_ids": [
+        "held-e-c21fd8f88941"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-1620-father"
+    },
+    {
+      "child": "Glasgow-1982",
+      "percent": 99,
+      "basis": "James’s Newberry will expressly names son Wilson. The later family equity account places the same Wilson within James and widow Mary’s children, and the distinctive name and local family context identify Wilson-1982.",
+      "scope": "Existing strongly supported father99%; derivative will and pleading transcriptions are held. Mary’s maiden surname and Wilson’s estimated Irish birth remain separate.",
+      "next_test": "Use the original estate packet to extend Wilson’s later family, not to reopen the direct son clause.",
+      "source_hint": "newberry-will",
+      "father": "Glasgow-1144",
+      "child_side": 18,
+      "cross_pairs": 20358,
+      "previous_status": "strongly_supported",
+      "status": "proved",
+      "source_ids": [
+        "held-newberry-james-will-1775-1793",
+        "held-newberry-equity-family-1817"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-1982-father"
+    },
+    {
+      "child": "Glasgow-2916",
+      "percent": 23,
+      "basis": "The inherited Cross/Derry family places James of the 1719 generation under Charles of the 1686 generation. The33-year sequence is feasible and gives a specific selected family, but the Scottish Charles baptism does not establish an Irish adult or name his son James.",
+      "scope": "Uncertain23%; the supposed migration and both later-family identities lack an inspected bridge. Estimated profile dates cannot independently corroborate the pedigree.",
+      "next_test": "Find one record anchoring the Cross household before extending its Scottish ancestry.",
+      "source_hint": null,
+      "father": "Glasgow-2917",
+      "child_side": 18,
+      "cross_pairs": 20358,
+      "previous_status": "uncertain",
+      "status": "uncertain",
+      "source_ids": [
+        "held-e-fe642f8e88ce"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-2916-father"
+    },
+    {
+      "child": "Glasgow-1218",
+      "percent": 97,
+      "basis": "David’s 1744 Stichill child account names James and Elizabeth. The existing James/Elizabeth Tait marriage of 1740 and subsequent Stichill children identify a specific local parental household rather than just a matching father name.",
+      "scope": "Record-defined child and Tait household97%; David’s later adult identification and James’s own 1712 ancestry are separate. Original uninspected.",
+      "next_test": "Check the original 1744 entry’s full maternal name and residence.",
+      "source_hint": "FMMQ-472",
+      "father": "Glasgow-1238",
+      "child_side": 17,
+      "cross_pairs": 19244,
+      "previous_status": "unmarked",
+      "status": "proved",
+      "source_ids": [
+        "held-e-0c398a43e8c3"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-1218-father"
+    },
+    {
+      "child": "Glasgow-1513",
+      "percent": 98,
+      "basis": "The 1670 Ayr index names Robert Glasgow and Margaret Donald as Robert’s parents. Father 1512 is the record-defined Robert in this same 1670–1671 couple, so no unproved childhood or migration is required to identify that father role.",
+      "scope": "The recorded Ayr child and Robert/Margaret household98%; the later Guernsey/Ezekiel ancestry route is not established by it. Original uninspected.",
+      "next_test": "Work on the unproved outward connection rather than the explicit named parent.",
+      "source_hint": "XY8Z-L28",
+      "father": "Glasgow-1512",
+      "child_side": 17,
+      "cross_pairs": 19244,
+      "previous_status": "confident",
+      "status": "proved",
+      "source_ids": [
+        "held-e-f8839de5a43f"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-1513-father"
+    },
+    {
+      "child": "Glasgow-193",
+      "percent": 93,
+      "basis": "The held Faris family account explicitly identifies James among Robert and Rosanna’s ten children. The 1799 Virginia birth is compatible with this couple’s recorded family span and later Adams County migration.",
+      "scope": "Compiled-family attribution93%; no census or DNA result is treated as a parent clause. The underlying book evidence remains to be checked.",
+      "next_test": "Read the James family entry and its original family-record references.",
+      "source_hint": "faris",
+      "father": "Glasgow-12",
+      "child_side": 17,
+      "cross_pairs": 19244,
+      "previous_status": "confident",
+      "status": "proved",
+      "source_ids": [
+        "held-faris-glasgow-adams-ohio-1990"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-193-father"
+    },
+    {
+      "child": "Glasgow-2915",
+      "percent": 24,
+      "basis": "The contributed pedigree supplies James as William’s father and allows a41-year father generation from 1719 to 1760. That is a feasible family hypothesis. No held household record bridges them, and the profile’s Scottish birth versus the father’s Irish setting requires an unrecorded movement.",
+      "scope": "Uncertain24%; the local baptism-register gap is a research limit, not positive evidence. The 1770 Killycurragh William is not automatically this man.",
+      "next_test": "Anchor William’s own earliest household before choosing a Cross/Derry ancestry.",
+      "source_hint": null,
+      "father": "Glasgow-2916",
+      "child_side": 17,
+      "cross_pairs": 19244,
+      "previous_status": "unmarked",
+      "status": "uncertain",
+      "source_ids": [
+        "held-e-2f70ab940c1d"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-2915-father"
+    },
+    {
+      "child": "Glasgow-3314",
+      "percent": 84,
+      "basis": "John’s 1740 Irvine transcript names George Glasgow and Margt Martin. The existing George/Margaret Martain couple has a 1728 Kilwinning marriage and 1729 child, giving a distinctive compatible parental sequence before Irvine.",
+      "scope": "Complete father-profile placement84%; the 1687 George child’s identification with this adult remains an inference. Original uninspected.",
+      "next_test": "Compare the Kilwinning and Irvine couple’s residences, occupations and witnesses.",
+      "source_hint": "SCOT/OPR/BAP/3574953",
+      "father": "Glasgow-1058",
+      "child_side": 17,
+      "cross_pairs": 19244,
+      "previous_status": "confident",
+      "status": "probable",
+      "source_ids": [
+        "held-e-744836ee1d5f"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-3314-father"
+    },
+    {
+      "child": "Glasgow-2844",
+      "percent": 13,
+      "basis": "The inherited dates permit Robert’s 1670 Ayr child to father Ezekiel around 1690, but the claimed Guernsey birth requires an unsupported geographical transition. No held record connects Robert with Ezekiel, and the 1775 Charlestown postal co-listing identifies neither generation.",
+      "scope": "Uncertain13%; retain the selected route without treating the estimated dates, migration or postal list as proof.",
+      "next_test": "Identify Ezekiel’s own earliest record and location before extending this ancestry.",
+      "source_hint": null,
+      "father": "Glasgow-1513",
+      "child_side": 16,
+      "cross_pairs": 18128,
+      "previous_status": "unmarked",
+      "status": "uncertain",
+      "source_ids": [
+        "held-e-639e0fe994ca"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-2844-father"
+    },
+    {
+      "child": "Glasgow-1242",
+      "percent": 98,
+      "basis": "Thomas’s 1675 Linlithgow index names John Glasgow and Agnes Eastone. The same parental couple recurs in the existing John household, including the 1671 child, giving a specific record-defined father identification.",
+      "scope": "Recorded 1675 child98%; the2/21 February discrepancy and later Duncan/Clarkson Thomas identities remain separate. Original uninspected.",
+      "next_test": "Test Thomas’s later adult identities independently of the explicit child parentage.",
+      "source_hint": "linlithgow-thomas-eastone-child-1675",
+      "father": "Glasgow-1105",
+      "child_side": 15,
+      "cross_pairs": 17010,
+      "previous_status": "confident",
+      "status": "proved",
+      "source_ids": [
+        "linlithgow-thomas-eastone-child-1675"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-1242-father"
+    },
+    {
+      "child": "Glasgow-1550",
+      "percent": 16,
+      "basis": "Richard’s inherited 1707 Glasgow birth could follow Ezekiel’s 1690 generation, but fatherhood at about17 and a Guernsey-to-Glasgow move are both unverified premises. No named-relative or shared-household record supports the selected pair.",
+      "scope": "Uncertain16%; neither young fatherhood nor the place difference is a proved exclusion, because the dates and identities are inherited.",
+      "next_test": "Establish Richard’s own identity and earliest household first.",
+      "source_hint": null,
+      "father": "Glasgow-2844",
+      "child_side": 15,
+      "cross_pairs": 17010,
+      "previous_status": "unmarked",
+      "status": "uncertain",
+      "source_ids": [
+        "held-e-d31c1f1f9ad9"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-1550-father"
+    },
+    {
+      "child": "Glasgow-2868",
+      "percent": 86,
+      "basis": "James’s 1720 Glencorse baptism names Robert Glasgow and Margaret Davidsone; the 1704 local Robert/Margaret Davidson marriage identifies a specific preceding couple. The existing 1676 Robert child is a feasible27-year-old groom and the preferred local profile.",
+      "scope": "Complete profile placement86%; the marriage-to-baptism couple is strong, while Robert’s own child-to-adult identity is inferred. Original uninspected.",
+      "next_test": "Compare the 1676 and 1704 originals for family or residence identifiers.",
+      "source_hint": null,
+      "father": "Glasgow-3011",
+      "child_side": 15,
+      "cross_pairs": 17010,
+      "previous_status": "uncertain",
+      "status": "probable",
+      "source_ids": [
+        "held-e-33ae139b37b9"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-2868-father"
+    },
+    {
+      "child": "Glasgow-3080",
+      "percent": 97,
+      "basis": "William’s 1660 South Leith index names Archbald Glasgow and Agnes Watson. Archibald-3078’s maintained adult Leith account contains the same Agnes household, also represented by the 1658 George entry. The full couple, parish and short family sequence strongly identify the father.",
+      "scope": "The 1660 child and Archibald/Agnes household97%; the earlier Hilstoun marriage and Archibald’s own origins retain their separate evidence. Original uninspected.",
+      "next_test": "Check the 1662 testament and household entries for surviving children and the wife sequence.",
+      "source_hint": null,
+      "father": "Glasgow-3078",
+      "child_side": 15,
+      "cross_pairs": 17010,
+      "previous_status": "confident",
+      "status": "proved",
+      "source_ids": [
+        "held-e-4273d0a01823"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-3080-father"
+    },
+    {
+      "child": "Glasgow-3298",
+      "percent": 94,
+      "basis": "John’s 1755 Glasgow baptism names Hugh Glasgow and Margtt McKechny. Hugh-1929’s maintained family includes Margaret McEachin/McGechan and the earlier Kilmarnock child sequence. The uncommon full couple and ordered family favour the same adult across the two towns.",
+      "scope": "Record child and parental household94%; spelling variants and the Kilmarnock-to-Glasgow continuity remain inferential. The 1792/1797 John entries concern this son’s own fatherhood, not his father.",
+      "next_test": "Compare the 1755 original with the earlier couple for occupation or residence.",
+      "source_hint": "VRS2-MNP",
+      "father": "Glasgow-1929",
+      "child_side": 15,
+      "cross_pairs": 17010,
+      "previous_status": "unmarked",
+      "status": "proved",
+      "source_ids": [
+        "held-e-f1fd113184b2"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-3298-father"
+    },
+    {
+      "child": "Glasgow-1348",
+      "percent": 38,
+      "basis": "The selected Alexander/Mary Munro family offers a specific existing parent couple for the inherited Barony John born about 1770. Alexander’s 1741 generation and 1757 marriage fit, and the couple has a recorded John in 1765. However no interpreted source identifies 1348 as that son or distinguishes it from the competing John-1304 account.",
+      "scope": "Possible38%; compatible family placement, not proof that the two John profiles are distinct children or a completed identity merge.",
+      "next_test": "Resolve the 1765/1771 John records and the two modern John accounts together.",
+      "source_hint": null,
+      "father": "Glasgow-1309",
+      "child_side": 14,
+      "cross_pairs": 15890,
+      "previous_status": "uncertain",
+      "status": "possible",
+      "source_ids": [
+        "held-e-f5c2566c9e9e"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-1348-father"
+    },
+    {
+      "child": "Glasgow-1549",
+      "percent": 21,
+      "basis": "John’s inherited Glasgow birth about 1758 and Richard’s 1707 Glasgow generation form a possible51-year fatherhood sequence in the same city. The contributed tree gives a specific claim, but no held event names this father or establishes the older Richard’s life.",
+      "scope": "Uncertain21%; John and Margaret Hunter’s own sons do not prove John’s father. Estimated dates and place are correlated tree premises.",
+      "next_test": "Find John’s marriage, probate or earliest adult identifier before relying on Richard.",
+      "source_hint": null,
+      "father": "Glasgow-1550",
+      "child_side": 14,
+      "cross_pairs": 15890,
+      "previous_status": "unmarked",
+      "status": "uncertain",
+      "source_ids": [
+        "held-e-cb933a99e99a"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-1549-father"
+    },
+    {
+      "child": "Glasgow-2304",
+      "percent": 99,
+      "basis": "James’s will names Archibald among his sons, and the 1817 equity complaint independently places him among James and widow Mary’s children. The Newberry household, age and distinctive sibling group identify this Archibald.",
+      "scope": "Existing supported father99%; source transcriptions are held, originals not newly inspected. Archibald’s birthplace and Mary’s maiden surname are not established here.",
+      "next_test": "Use the estate and cemetery family to test Archibald’s proposed later son Robert.",
+      "source_hint": "newberry-will",
+      "father": "Glasgow-1144",
+      "child_side": 14,
+      "cross_pairs": 15890,
+      "previous_status": "strongly_supported",
+      "status": "proved",
+      "source_ids": [
+        "held-newberry-james-will-1775-1793",
+        "held-newberry-equity-family-1817"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-2304-father"
+    },
+    {
+      "child": "Glasgow-2475",
+      "percent": 31,
+      "basis": "John’s before 1685 Irvine generation could fit a son of William’s 1660 Leith generation. This is an existing named-family route with feasible fatherhood, but no held record connects the Leith child to an Irvine parent household or names John’s father.",
+      "scope": "Possible31%; the 1706 Irvine child William-3408 is a separate person and does not establish William-3080’s adult identity.",
+      "next_test": "Look for a Leith-to-Irvine occupational, apprenticeship or family bridge.",
+      "source_hint": null,
+      "father": "Glasgow-3080",
+      "child_side": 14,
+      "cross_pairs": 15890,
+      "previous_status": "uncertain",
+      "status": "possible",
+      "source_ids": [
+        "held-e-b5d03c4664a2"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-2475-father"
+    },
+    {
+      "child": "Glasgow-1221",
+      "percent": 97,
+      "basis": "John’s 1768 Kelso index names David Glasgow and Janet Glasgow. The selected David account contains this same couple and child in the Kelso family, providing a specific full-parent and parish fit.",
+      "scope": "The recorded 1768 child and David/Janet household97%; David’s own Stichill childhood and John’s later Rothesay identity remain separate. Original uninspected.",
+      "next_test": "Compare the named couple’s Kelso household with later Rothesay records.",
+      "source_hint": "VQ4T-G45",
+      "father": "Glasgow-1218",
+      "child_side": 13,
+      "cross_pairs": 14768,
+      "previous_status": "unmarked",
+      "status": "proved",
+      "source_ids": [
+        "held-e-d4e605b31a4d"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-1221-father"
+    },
+    {
+      "child": "Glasgow-1382",
+      "percent": 98,
+      "basis": "Thomas’s 1746 Livingston transcript names Thomas Glasgow and Janet Mill at Davistoun. The existing Thomas-1023 account is the maintained father with Janet Mill and the matching family sequence. Janet Kilpatrick is his mother, not a competing spouse.",
+      "scope": "Recorded 1746 child and Thomas/Janet Mill household98%; this does not prove every later Thomas identity or the father’s own Kilwinning childhood. Original uninspected.",
+      "next_test": "Keep the later adult Thomas identity separate while checking the original 1746 entry.",
+      "source_hint": "SCOT/OPR/BAP/4151556",
+      "father": "Glasgow-1023",
+      "child_side": 13,
+      "cross_pairs": 14768,
+      "previous_status": "unmarked",
+      "status": "proved",
+      "source_ids": [
+        "held-e-ab5b32c4eb1e"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-1382-father"
+    },
+    {
+      "child": "Glasgow-1466",
+      "percent": 79,
+      "basis": "Peter’s 1762 West Calder child index names John Glasgow and Margaret Mill. The existing John/Margaret Mill family is a specific adult household and the 1740 Irvine John has a compatible22-year generation. The remaining Irvine-child to West-Calder-adult transition lacks a direct bridge.",
+      "scope": "Complete father-profile placement79%; the 1762 record father role is explicit, while John’s earlier identity is inferred. Original uninspected.",
+      "next_test": "Seek a marriage, occupation or residence linking the Irvine John to Margaret Mill.",
+      "source_hint": "VQ4T-5P2",
+      "father": "Glasgow-3314",
+      "child_side": 13,
+      "cross_pairs": 14768,
+      "previous_status": "confident",
+      "status": "probable",
+      "source_ids": [
+        "held-e-9da545e91bf1"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-1466-father"
+    },
+    {
+      "child": "Glasgow-209",
+      "percent": 93,
+      "basis": "Hugh’s 1827 Allegheny will calls John his son and executor. The maintained late family account and reported John dates identify John-209 as that son; the separate 1767 John-822 is not substituted. The explicit executor role and particular family make this stronger than an inherited slot alone.",
+      "scope": "Whole father-profile proposition93%; the will gives no son’s age or residence, and the late account supplies that remaining identity step.",
+      "next_test": "Verify the obituary and executor papers for John’s residence and age.",
+      "source_hint": "allegheny-will",
+      "father": "Glasgow-540",
+      "child_side": 13,
+      "cross_pairs": 14768,
+      "previous_status": "unmarked",
+      "status": "proved",
+      "source_ids": [
+        "allegheny-hugh-glasgo-will-1827-1831",
+        "wm-glasgow-hugh-mccullough-family-account"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-209-father"
+    },
+    {
+      "child": "Glasgow-427",
+      "percent": 98,
+      "basis": "John’s 1790 Kirknewton/East Calder baptism names Thomas Glasgow and Margaret Chapman. Thomas-1620’s 1789 marriage to Margaret Chapman in the same parish identifies that exact adult couple before the child.",
+      "scope": "Recorded 1790 child and Chapman household98%; Thomas’s own earlier parent and John’s later New Monkland identity are separate. Original uninspected.",
+      "next_test": "Compare John’s 1790 child record with the 1810 New Monkland marriage independently.",
+      "source_hint": "VQ4K-T91",
+      "father": "Glasgow-1620",
+      "child_side": 13,
+      "cross_pairs": 14768,
+      "previous_status": "unmarked",
+      "status": "proved",
+      "source_ids": [
+        "held-e-a3c1508ca9d2"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-427-father"
+    },
+    {
+      "child": "Glasgow-539",
+      "percent": 91,
+      "basis": "Hugh’s 1827 will expressly names a son Hugh. The established family account places Hugh-539 in this particular family, with a feasible 1786 generation and no evidenced rival son of that identity. The combined named-son and family identification supports confidence.",
+      "scope": "Complete father-profile proposition91%; the will gives no age or residence. County Down and twin claims are not established by it.",
+      "next_test": "Use Hugh’s obituary or estate correspondence to verify the son’s identity.",
+      "source_hint": "allegheny-will",
+      "father": "Glasgow-540",
+      "child_side": 13,
+      "cross_pairs": 14768,
+      "previous_status": "unmarked",
+      "status": "proved",
+      "source_ids": [
+        "allegheny-hugh-glasgo-will-1827-1831",
+        "wm-glasgow-hugh-mccullough-family-account"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-539-father"
+    },
+    {
+      "child": "Glasgow-1142",
+      "percent": 96,
+      "basis": "Paterson’s family account and Robert Montgreenan’s 1803 trust identify James as Robert’s brother. Robert’s 1747 baptism expressly names Dr Robert of Puddevenholm as father. Shared paternal surname, compatible chronology and the documented sibling connection support the same father for James, without inventing a half-sibling alternative.",
+      "scope": "Confident inferred father96%; James’s 1750/1756 dates, later wife claims and natural-child account remain separately disputed. Maternity is not transferred by this inference.",
+      "next_test": "Reconcile James’s own baptism and later family while retaining the supported sibling inference.",
+      "source_hint": "puddevenholm",
+      "father": "Glasgow-1075",
+      "child_side": 12,
+      "cross_pairs": 13644,
+      "previous_status": "unmarked",
+      "status": "proved",
+      "source_ids": [
+        "held-paterson-puddevenholm-family"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-1142-father"
+    },
+    {
+      "child": "Glasgow-2871",
+      "percent": 17,
+      "basis": "The inherited Scottish pedigree gives John-2870 as the Pennsylvania John’s father. Its 1722/1738 dates would permit fatherhood at16 but are unverified, and the supposed Mary Cranmer mother is confused with the son’s wife in the same account. No migration or family record identifies the older John.",
+      "scope": "Uncertain17%; the American John’s real tax/cemetery history does not prove his Scottish parents. The young age is a caution, not an exclusion.",
+      "next_test": "Resolve the Mary Cranmer generation and identify an actual migration or parent record.",
+      "source_hint": null,
+      "father": "Glasgow-2870",
+      "child_side": 12,
+      "cross_pairs": 13644,
+      "previous_status": "unmarked",
+      "status": "uncertain",
+      "source_ids": [
+        "held-e-6a192aaf3185"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-2871-father"
+    },
+    {
+      "child": "Glasgow-1077",
+      "percent": 98,
+      "basis": "The validated9 December 1690 Kilbirnie child event belongs to John-1077 and the established minister John/Jean Cunningham family. The father’s parish career, exact household and neighbouring child entries identify a specific father account.",
+      "scope": "The 1690 child and minister household98%; the later provost, skipper and 1740 bailie records retain their distinct identity questions. Original not newly inspected.",
+      "next_test": "Distinguish the adult Irvine officeholders without transferring proof from the baptism.",
+      "source_hint": "SCOT/OPR/BAP/3585655",
+      "father": "Glasgow-1073",
+      "child_side": 11,
+      "cross_pairs": 12518,
+      "previous_status": "confident",
+      "status": "proved",
+      "source_ids": [
+        "held-e-154881cc51c9"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-1077-father"
+    },
+    {
+      "child": "Glasgow-1087",
+      "percent": 46,
+      "basis": "The 1609 Mid Calder child index explicitly names father Jhone. Selecting the Quothquan John-3296 is a plausible nearby regional and generational explanation, but the record supplies no property, occupation or relative connecting that Jhone with the 1650 testator.",
+      "scope": "Complete father-profile placement46%; the named register father is explicit but its identification with 3296 is not. Testamentary omission does not exclude a child.",
+      "next_test": "Seek a holding, witness or kin link between the Mid Calder father and Quothquan testator.",
+      "source_hint": "midcalder-william-baptism-1609",
+      "father": "Glasgow-3296",
+      "child_side": 11,
+      "cross_pairs": 12518,
+      "previous_status": "confident",
+      "status": "possible",
+      "source_ids": [
+        "midcalder-william-baptism-1609"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-1087-father"
+    },
+    {
+      "child": "Glasgow-1829",
+      "percent": 96,
+      "basis": "The held family account explicitly identifies Joseph Montgomery as William and Rhoda’s third child, born 1807 at Brush Creek. Faris p32 discusses William and son Joseph together, and the reported family-Bible/DAR chain and 1830 adjacency fit that precise household.",
+      "scope": "Compiled and reported family-record evidence96%; the actual Bible pages and DAR application were not inspected. Census adjacency alone is not a son clause.",
+      "next_test": "Verify the family-Bible transcription and Joseph’s chapter rather than infer the link from adjacency.",
+      "source_hint": "faris",
+      "father": "Glasgow-563",
+      "child_side": 11,
+      "cross_pairs": 12518,
+      "previous_status": "confident",
+      "status": "proved",
+      "source_ids": [
+        "held-faris-glasgow-adams-ohio-1990"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-1829-father"
+    },
+    {
+      "child": "Glasgow-1965",
+      "percent": 94,
+      "basis": "The held Faris family account explicitly places John among Robert and Rosanna’s children and cites p31. His 1796 Virginia birth and Ohio family context fit their recorded family span and migration.",
+      "scope": "Compiled-family attribution94%; the underlying book page and original family record remain uninspected. Census ages do not name his parents.",
+      "next_test": "Read the cited John family entry and its underlying sources.",
+      "source_hint": "faris",
+      "father": "Glasgow-12",
+      "child_side": 11,
+      "cross_pairs": 12518,
+      "previous_status": "confident",
+      "status": "proved",
+      "source_ids": [
+        "held-faris-glasgow-adams-ohio-1990"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-1965-father"
+    },
+    {
+      "child": "Glasgow-2873",
+      "percent": 94,
+      "basis": "John’s80-acre West Nottingham tax holding passes from him in 1787–1791 to Hugh in 1793–1799, immediately after John’s 1792 death. Gibson’s county history places Hugh’s birth at Nottingham where his father settled. The succession, chronology and specific locality together support the existing son identification strongly.",
+      "scope": "Confident inferred father94%; neither tax list literally says son. This does not establish John’s Scottish ancestry or Mary Cranmer’s earlier generation.",
+      "next_test": "Check the actual conveyance or probate for the80-acre succession.",
+      "source_hint": null,
+      "father": "Glasgow-2871",
+      "child_side": 11,
+      "cross_pairs": 12518,
+      "previous_status": "unmarked",
+      "status": "proved",
+      "source_ids": [
+        "held-e-eb7f560153a5"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-2873-father"
+    },
+    {
+      "child": "Glasgow-1227",
+      "percent": 98,
+      "basis": "The 1719 Livingston child entry and maintained family account identify Abraham’s parents as Thomas Glasgow and Catherine Clarkson. The exact child event and parental couple identify the record-defined Thomas father without choosing among later Thomas adult accounts.",
+      "scope": "Record-defined 1719 child and Clarkson household98%; later Abraham marriage/death identities and Thomas’s Duncan/Clarkson identity comparisons remain separate. Original uninspected.",
+      "next_test": "Compare the household originals without attaching the 1818 Birmingham namesake.",
+      "source_hint": "SCOT/OPR/BAP/4166341",
+      "father": "Glasgow-1226",
+      "child_side": 10,
+      "cross_pairs": 11390,
+      "previous_status": "unmarked",
+      "status": "proved",
+      "source_ids": [
+        "held-e-36e1f1ccd5f4"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-1227-father"
+    },
+    {
+      "child": "Glasgow-1336",
+      "percent": 85,
+      "basis": "Andrew’s 1714 Kirknewton child citation explicitly names Andrew Glasgow as father. Andrew-1546 is the existing older local father account with an ordered child family including James in 1702; its generation fits the 1714 child. The old 1334 link is a profile attribution, not another name in the record.",
+      "scope": "Complete profile placement85%; no occupation or holding identifies every older Andrew occurrence. The index is derivative and the original uninspected.",
+      "next_test": "Check the 1714 entry and the earlier Andrew household for distinguishing residence.",
+      "source_hint": "VQ4K-NV9",
+      "father": "Glasgow-1546",
+      "child_side": 10,
+      "cross_pairs": 11390,
+      "previous_status": "unmarked",
+      "status": "probable",
+      "source_ids": [
+        "held-e-15fc3e32a26a"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-1336-father"
+    },
+    {
+      "child": "Glasgow-2298",
+      "percent": 84,
+      "basis": "Wilson’s real-estate packet index lists widow Mary with Robert among the apparent seven-child group. This is a specific estate-family context fitting Robert-2298’s generation and Newberry setting, stronger than a bare tree link. Mary’s 1837 will does not itself name this Robert.",
+      "scope": "Probable84%; the uninspected original packet must establish the parties’ exact roles. The estate index is not a literal father clause.",
+      "next_test": "Read packet1–13 for Robert’s stated relationship to Wilson and Mary.",
+      "source_hint": "wilson-estate",
+      "father": "Glasgow-1982",
+      "child_side": 10,
+      "cross_pairs": 11390,
+      "previous_status": "probable",
+      "status": "probable",
+      "source_ids": [
+        "held-newberry-wilson-estate-index"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-2298-father"
+    },
+    {
+      "child": "Glasgow-424",
+      "percent": 99,
+      "basis": "John’s retained 1867 death and 1859 second-marriage account independently name parents John Glasgow and Marion Anderson. The selected father married Marrion Anderson at New Monkland in 1810, matching the child’s Airdrie family and coherent census life.",
+      "scope": "Confident99% for the John/Marion fatherhood; the father’s proposed 1790 East Calder childhood remains a separate identity proposition. Later records are used to resolve this pre 1850 child.",
+      "next_test": "Use the parent statement as settled; test the older John’s own origin separately.",
+      "source_hint": "E-aa9a364086a0",
+      "father": "Glasgow-427",
+      "child_side": 10,
+      "cross_pairs": 11390,
+      "previous_status": "confident",
+      "status": "proved",
+      "source_ids": [
+        "held-e-aa9a364086a0"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-424-father"
+    },
+    {
+      "child": "Glasgow-835",
+      "percent": 73,
+      "basis": "The specific inherited family account calls Robert Barclay the son of William and Rhoda Montgomery. His 1804 generation fits William’s established family, and the name repeats the known earlier Robert Barclay family. The held citation is only a memorial and no named-parent original is available.",
+      "scope": "Probable73%; the family attribution and naming are dependent clues, not independently inspected proofs.",
+      "next_test": "Check Faris’s William/Rhoda children and the memorial’s actual underlying evidence.",
+      "source_hint": null,
+      "father": "Glasgow-563",
+      "child_side": 10,
+      "cross_pairs": 11390,
+      "previous_status": "unmarked",
+      "status": "probable",
+      "source_ids": [
+        "held-e-16389f5f89fe"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-835-father"
+    },
+    {
+      "child": "Glasgow-108",
+      "percent": 36,
+      "basis": "Elijah’s 1815 North Carolina birth and selected Isaac’s 1786 North Carolina origin permit a29-year father generation. Their later Tennessee settings are compatible with the inherited family route, but Wake and Currituck are distinct places and no held census or vital record names Isaac as Elijah’s father.",
+      "scope": "Possible36%; the contributed attachment supplies a specific hypothesis, not a documented migration or parent clause.",
+      "next_test": "Seek Elijah’s earliest household, probate or obituary naming his parents.",
+      "source_hint": null,
+      "father": "Glascow-14",
+      "child_side": 9,
+      "cross_pairs": 10260,
+      "previous_status": "unmarked",
+      "status": "possible",
+      "source_ids": [
+        "held-e-2ce1ce14c993"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-108-father"
+    },
+    {
+      "child": "Glasgow-1318",
+      "percent": 57,
+      "basis": "The 1705 Kirknewton child index names father William. The older William-1026 household is an existing same-parish candidate, but the 1660 generation and the 1682 Bessie family do not uniquely identify that father. William-3974, baptised 1671, could also have been an adult father by 1705.",
+      "scope": "Complete father-profile placement57%; the younger William’s inability to father Bessie in 1682 does not exclude him from fathering the 1705 child. No maternal certainty change.",
+      "next_test": "Compare the 1705 original for residence or mother to distinguish the two Williams.",
+      "source_hint": "kirknewton-william-william-child-1705",
+      "father": "Glasgow-1026",
+      "child_side": 9,
+      "cross_pairs": 10260,
+      "previous_status": "uncertain",
+      "status": "possible",
+      "source_ids": [
+        "kirknewton-william-william-child-1705"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-1318-father"
+    },
+    {
+      "child": "Glasgow-1530",
+      "percent": 84,
+      "basis": "The age79 burial in 1839 favours the 1760 child over the 1755 and 1758 candidates. That child’s Wandell/Lamington index names James Glasgow and Marion Saidler; the maintained older-widower adult sequence is compatible with that exact generation.",
+      "scope": "Complete father proposition84%; the child-to-widower identity is inferred and Robert-1538 remains a separate overlapping account. No alternative birth is deleted.",
+      "next_test": "Use residence, occupation or family witnesses to distinguish the three Robert childhoods.",
+      "source_hint": "wandell-robert-james-marion-1760",
+      "father": "Glasgow-1120",
+      "child_side": 9,
+      "cross_pairs": 10260,
+      "previous_status": "unmarked",
+      "status": "probable",
+      "source_ids": [
+        "wandell-robert-james-marion-1760"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-1530-father"
+    },
+    {
+      "child": "Glasgow-2239",
+      "percent": 93,
+      "basis": "The held Arthur account explicitly names Joseph as father and cites Faris p34. Arthur’s 1809 Adams County birth follows Joseph’s 1780 generation within the same documented descendant family, providing a specific compiled household identification.",
+      "scope": "Compiled-family attribution93%; the original book evidence and probate relationship wording were not newly inspected.",
+      "next_test": "Check Arthur’s probate and Faris’s source references.",
+      "source_hint": "faris",
+      "father": "Glasgow-653",
+      "child_side": 9,
+      "cross_pairs": 10260,
+      "previous_status": "unmarked",
+      "status": "proved",
+      "source_ids": [
+        "held-faris-glasgow-adams-ohio-1990"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-2239-father"
+    },
+    {
+      "child": "Glasgow-2769",
+      "percent": 51,
+      "basis": "Archibald’s 1800 Newberry household has an otherwise unallocated male under10, matching Robert’s census-derived c 1790–1794 birth and South Carolina origin. The known gravestone children do not account for that boy. This is the strongest specific existing family comparison after the former Robert-1983 father was excluded by his different son Robert.",
+      "scope": "Possible51%; the census does not name the boy and the adult female’s age makes an early 1790 maternity tight. No mother is assigned.",
+      "next_test": "Read the 1810 household and estate papers for the unnamed 1800 boy.",
+      "source_hint": "archibald-1800",
+      "father": "Glasgow-2304",
+      "child_side": 9,
+      "cross_pairs": 10260,
+      "previous_status": "possible",
+      "status": "possible",
+      "source_ids": [
+        "held-newberry-archibald-household-1800"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-2769-father"
+    },
+    {
+      "child": "Glasgow-2981",
+      "percent": 98,
+      "basis": "The 1851 Glenleslie census calls Ann John’s granddaughter; her 1869 marriage names father James, weaver. James-2981’s 1847 Glenleslie family and 1851 neighbouring Dunaghy household identify the specific local James. The combined generation and household records support James as John’s son with confidence.",
+      "scope": "Confident inferred father98%; John’s own father and both unknown mothers are not proved by the granddaughter chain. The 1825 junior suffix alone is not a son clause.",
+      "next_test": "Use the 1847/1851 household records to resolve the remaining child and maternal questions.",
+      "source_hint": null,
+      "father": "Glasgow-1022",
+      "child_side": 9,
+      "cross_pairs": 10260,
+      "previous_status": "confident",
+      "status": "proved",
+      "source_ids": [
+        "held-e-31dfc805c6a1"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-2981-father"
+    },
+    {
+      "child": "Glasgow-1065",
+      "percent": 48,
+      "basis": "John’s 1683 Kilwinning index names Gorg/Gorge Glasgow. The selected Leith George-2714 is a feasible25-year-old father and is associated with the candidate Kilwinning George household, but no held record connects the 1658 child to this adult. The maternal Gardiner/Young index conflict does not identify which George he was.",
+      "scope": "Complete father-profile placement48%; the old George-1058 link is chronologically impossible for a 1683 father because that child was baptised 1687. No maternal choice is made.",
+      "next_test": "Read the 1683 original and compare the 1678 marriage for residence and trade.",
+      "source_hint": "E-ae903862244b",
+      "father": "Glasgow-2714",
+      "child_side": 8,
+      "cross_pairs": 9128,
+      "previous_status": "unmarked",
+      "status": "possible",
+      "source_ids": [
+        "held-e-ae903862244b"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-1065-father"
+    },
+    {
+      "child": "Glasgow-1076",
+      "percent": 99,
+      "basis": "The retained 1747 Kilbirnie baptism expressly calls Robert the lawful son of Robert Glasgow of Puddevenholm and Margaret Allan. The distinctive estate, named couple and later Montgreenan family history identify the doctor father and this son.",
+      "scope": "Confident99%; the15/18 October event distinction and later exact death day remain separate. The doctor’s own ancestry is not strengthened.",
+      "next_test": "Retain this named household anchor while testing outward and upstream joins.",
+      "source_hint": "puddevenholm",
+      "father": "Glasgow-1075",
+      "child_side": 8,
+      "cross_pairs": 9128,
+      "previous_status": "confident",
+      "status": "proved",
+      "source_ids": [
+        "held-paterson-puddevenholm-family"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-1076-father"
+    },
+    {
+      "child": "Glasgow-2054",
+      "percent": 97,
+      "basis": "Hugh’s burial application names father John Glasgow, and the held newspaper/family account identifies Hugh as uncle of Samuel’s son Thomas. The documented paternal surname, distinct maternal McCormick family and compatible Tyrone generations support John as Samuel’s confidently inferred father.",
+      "scope": "Confident inference97%; the burial application is a retained transcription and not a newly inspected original. Samuel’s mother remains unknown.",
+      "next_test": "Verify the uncle wording and original burial application; assess maternity separately.",
+      "source_hint": "derryloran-siblings",
+      "father": "Glasgow-2539",
+      "child_side": 8,
+      "cross_pairs": 9128,
+      "previous_status": "unmarked",
+      "status": "proved",
+      "source_ids": [
+        "held-derryloran-samuel-hugh-kin"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-2054-father"
+    },
+    {
+      "child": "Glasgow-2990",
+      "percent": 22,
+      "basis": "John is a real Drumearn householder in 1766, following earlier James Glasco occurrences in the local returns. The selected c 1720 James is a feasible father generation and the shared holding context gives a useful local-family hypothesis. Two James households and unrecorded ages leave the exact person and degree open.",
+      "scope": "Uncertain22%; the c 1750/c 1720 ages are estimates, and householder order or surname repetition is not a parent clause.",
+      "next_test": "Trace the Drumearn holding between the 1740 and 1766 returns for a named successor.",
+      "source_hint": "derryloran-john-drumearn-1766",
+      "father": "Glasgow-2988",
+      "child_side": 8,
+      "cross_pairs": 9128,
+      "previous_status": "uncertain",
+      "status": "uncertain",
+      "source_ids": [
+        "derryloran-john-drumearn-1766"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-2990-father"
+    },
+    {
+      "child": "Glasgow-81",
+      "percent": 39,
+      "basis": "The inherited John of 1709 fits between the older Andrew household’s 1702 James and 1714 Andrew children at Kirknewton. That offers a specific local family and compatible generation. John’s own profile explicitly lacks a source, so the interval and family slot cannot establish him as another son.",
+      "scope": "Possible39%; the family sequence is contextual and John’s own event, spouse and later identity remain unverified.",
+      "next_test": "Find John’s actual baptism or adult family before extending this link.",
+      "source_hint": null,
+      "father": "Glasgow-1546",
+      "child_side": 8,
+      "cross_pairs": 9128,
+      "previous_status": "unmarked",
+      "status": "possible",
+      "source_ids": [
+        "held-e-86672c324d6d"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-81-father"
+    },
+    {
+      "child": "Glasgow-992",
+      "percent": 43,
+      "basis": "George’s documented Glasgow family and the Howie association provide a plausible setting for William, husband of Bessie Howie by 1635. A child around 1615 fits George’s generation and known children. However the1/754 parent clause belongs to Thomas’s 1612 baptism, not an identified William birth, and William’s naming pattern cannot supply the missing relationship.",
+      "scope": "Possible43% for the existing father. The earlier suggestion that the unnamed1/754 extract was William’s baptism is superseded; no mother is newly attached.",
+      "next_test": "Find a William child, apprenticeship or family clause; do not reuse Thomas’s baptism as William’s.",
+      "source_hint": null,
+      "father": "Glasgow-1099",
+      "child_side": 8,
+      "cross_pairs": 9128,
+      "previous_status": "confident",
+      "status": "possible",
+      "source_ids": [
+        "held-e-9e0b7627cc46"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-992-father"
+    },
+    {
+      "child": "Glasgow-1304",
+      "percent": 78,
+      "basis": "The retained John account names Alexander Glasgow and Mary Munro, matching the existing 1757-married couple and their recorded Glasgow child family. The cited X17D-67M event is 1765 while the account also gives 1771 and later adult material, so the exact child-to-adult identification is unsettled.",
+      "scope": "Complete father placement78%; the 1765/1771 John events and John-1348 account are retained separately. No birth date or identity merge is selected.",
+      "next_test": "Reconcile the two John event references and the Margaret Muckle adult household.",
+      "source_hint": "X17D-67M",
+      "father": "Glasgow-1309",
+      "child_side": 7,
+      "cross_pairs": 7994,
+      "previous_status": "unmarked",
+      "status": "probable",
+      "source_ids": [
+        "held-e-56201d3d7ada"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-1304-father"
+    },
+    {
+      "child": "Glasgow-1450",
+      "percent": 97,
+      "basis": "Peter’s retained 1790 Livingston child account names Thomas Glasgow and Christine Davidson. The selected Thomas represents that same specific couple and parish family, so the full parental pairing strongly identifies the recorded father.",
+      "scope": "Recorded 1790 child and Davidson household97%; Thomas’s own childhood and Peter’s later adult identity are separate. Original uninspected.",
+      "next_test": "Verify the parental names and residence in the original entry.",
+      "source_hint": "X1RG-JFX",
+      "father": "Glasgow-1382",
+      "child_side": 7,
+      "cross_pairs": 7994,
+      "previous_status": "confident",
+      "status": "proved",
+      "source_ids": [
+        "held-e-4498fdf3eb8d"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-1450-father"
+    },
+    {
+      "child": "Glasgow-1460",
+      "percent": 89,
+      "basis": "The 1783 Bathgate index names Patrick as John’s father; the continuous local family with Elizabeth Dick uses Peter for the same parent in later children. Those full-household details support Peter-1466. The additional identification of this child with the Canongate shop porter remains circumstantial.",
+      "scope": "Complete father-profile proposition89%; Peter/Patrick variation is supported by the wife and family sequence, not assumed from the names alone. Birth 1783 versus c 1785 is unresolved.",
+      "next_test": "Test the Bathgate child-to-Canongate adult link using occupation, residence or named relatives.",
+      "source_hint": "X151-7QY",
+      "father": "Glasgow-1466",
+      "child_side": 7,
+      "cross_pairs": 7994,
+      "previous_status": "confident",
+      "status": "probable",
+      "source_ids": [
+        "held-e-7b76bd10ebda"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-1460-father"
+    },
+    {
+      "child": "Glasgow-1983",
+      "percent": 99,
+      "basis": "James’s will expressly calls Robert a son and devises land to him. Robert’s 1817 sworn answer independently calls James his father, Mary his mother and Rachel Wilson his paternal grandmother, giving unusually specific identity and generation evidence.",
+      "scope": "Existing supported father99%; held derivative transcriptions, originals not newly inspected. Mary’s maiden surname and Robert’s exact birth remain separate.",
+      "next_test": "Use the proved chain to test descendants rather than reopen this explicit parent relation.",
+      "source_hint": "newberry-will",
+      "father": "Glasgow-1144",
+      "child_side": 7,
+      "cross_pairs": 7994,
+      "previous_status": "strongly_supported",
+      "status": "proved",
+      "source_ids": [
+        "held-newberry-james-will-1775-1793",
+        "held-newberry-equity-family-1817"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-1983-father"
+    },
+    {
+      "child": "Glasgow-2603",
+      "percent": 81,
+      "basis": "The retained Rothesay-to-New-Zealand family account explicitly names John Glasgow and Isabella Hunter as Robert’s parents. That exact parental couple, Scottish origin and migration with brothers give a specific family identification, but the account alternates 1795/1797 and lacks a newly checked parent-naming register entry.",
+      "scope": "Probable81%; the later New Zealand family does not independently establish John’s Kelso childhood. Neither birth year is silently changed.",
+      "next_test": "Check the Rothesay parent entry and the migration family’s original certificates.",
+      "source_hint": null,
+      "father": "Glasgow-1221",
+      "child_side": 7,
+      "cross_pairs": 7994,
+      "previous_status": "unmarked",
+      "status": "probable",
+      "source_ids": [
+        "held-e-0a89e09f9a91"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-2603-father"
+    },
+    {
+      "child": "Glasgow-9",
+      "percent": 58,
+      "basis": "The inherited descendant family places Samuel Steele Glasgow, born 1814 in Adams County, under Robert Barclay and Rosanna Finley. Robert’s 1783 generation and established Ohio family fit a31-year fatherhood. The held 1880/1900 censuses identify Samuel’s later life, but do not name his parents.",
+      "scope": "Possible58%; the specific existing household is preferred, with no independently inspected father clause or fabricated maternal naming argument.",
+      "next_test": "Check the Faris descendant entry, family papers or Samuel’s obituary for parent names.",
+      "source_hint": null,
+      "father": "Glasgow-8",
+      "child_side": 7,
+      "cross_pairs": 7994,
+      "previous_status": "unmarked",
+      "status": "possible",
+      "source_ids": [
+        "held-e-a843a7f9d7b2"
+      ],
+      "assertion_id": "C-coverage-20261022b-glasgow-9-father"
+    }
+  ],
+  "impact_counts_overlap": true,
+  "next_action": "Continue --scope unrated until father coverage is substantially complete; prioritise remaining uncertainty by branch impact and an available discriminating evidence test."
+}

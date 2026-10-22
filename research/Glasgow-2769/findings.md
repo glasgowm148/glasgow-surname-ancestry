@@ -139,3 +139,15 @@ Recorded in `research/Glasgow-2770/findings.md` (19 August 2026) and `surname-re
 A Robert Glasgow headed a household in Newberry District in the 1800 census ([FamilySearch XHRC-7BF](https://www.familysearch.org/ark:/61903/1:1:XHRC-7BF); index). This Robert, with a census-derived birth about 1790–1794, was too young to be that household head, so the entry documents a different local Robert, very probably [Robert Glasgow (Glasgow-1983)](https://www.wikitree.com/wiki/Glasgow-1983), whose findings use the same 1800 household (inference from name, district and year). **Excluded** for this profile. FamilySearch tree person [LHBL-QFT](https://www.familysearch.org/tree/person/details/LHBL-QFT) represents a different Newberry Robert; it is a derivative lead only, not evidence of identity.
 
 Recorded in `research/Glasgow-2769/Glasgow-2769.md` (13 September 2026); carried into this file on 7 October 2026.
+
+## Father confidence review, second batch — 22 October 2026
+
+[Glasgow-2304](https://www.wikitree.com/wiki/Glasgow-2304) remains the selected father, assessed **51% (possible)**. Previous selected-tree status: **possible**, without an individual percentage.
+
+Archibald’s 1800 Newberry household has an otherwise unallocated male under10, matching Robert’s census-derived c 1790–1794 birth and South Carolina origin. The known gravestone children do not account for that boy. This is the strongest specific existing family comparison after the former Robert-1983 father was excluded by his different son Robert.
+
+Scope: Possible51%; the census does not name the boy and the adult female’s age makes an early 1790 maternity tight. No mother is assigned.
+
+Next useful test: Read the 1810 household and estate papers for the unnamed 1800 boy.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.

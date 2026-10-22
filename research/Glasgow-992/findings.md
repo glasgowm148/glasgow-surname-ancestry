@@ -4,6 +4,12 @@ Last updated: 2026-10-07
 
 ## Current conclusion
 
+George’s documented Glasgow family and the Howie association provide a plausible setting for William, husband of Bessie Howie by 1635. A child around 1615 fits George’s generation and known children. However the1/754 parent clause belongs to Thomas’s 1612 baptism, not an identified William birth, and William’s naming pattern cannot supply the missing relationship. Possible43% for the existing father. The earlier suggestion that the unnamed1/754 extract was William’s baptism is superseded; no mother is newly attached.
+
+## Superseded current conclusion — before 22 October 2026
+
+The former attribution of register1/754 to William is superseded by the identified Thomas1612 entry. The earlier reasoning is retained here as history.
+
 William and Bessie Howie are indexed in Glasgow's banns and marriages on
 5 December 1635 (OPR 644/1/230/126). This is earlier than the live tree's
 1640 marriage date and consistent with children recorded from 1636. Their
@@ -61,3 +67,15 @@ The WikiTree register's master table (`surname-research/to-update.md`, row for G
 Nothing in the repository records what entry 1/754 shows: neither the child's name nor the date has been transcribed. Whether [Margaret Stewart (Stewart-65226)](https://www.wikitree.com/wiki/Stewart-65226) is William's directly proved mother therefore remains open, and the recommended update above still applies. The live profile was not re-read for this note.
 
 Recorded in `surname-research/to-update.md` (29 September 2026); carried into this file on 7 October 2026.
+
+## Father confidence review, second batch — 22 October 2026
+
+[Glasgow-1099](https://www.wikitree.com/wiki/Glasgow-1099) remains the selected father, assessed **43% (possible)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+George’s documented Glasgow family and the Howie association provide a plausible setting for William, husband of Bessie Howie by 1635. A child around 1615 fits George’s generation and known children. However the1/754 parent clause belongs to Thomas’s 1612 baptism, not an identified William birth, and William’s naming pattern cannot supply the missing relationship.
+
+Scope: Possible43% for the existing father. The earlier suggestion that the unnamed1/754 extract was William’s baptism is superseded; no mother is newly attached.
+
+Next useful test: Find a William child, apprenticeship or family clause; do not reuse Thomas’s baptism as William’s.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.

@@ -25,3 +25,15 @@ Compare original church, deed, probate and migration records for both James prof
 The profile now states the source boundary around the Cross/Derry
 reconstruction, the 1740 surname occurrence and the local register gap. No
 person or location was detached or cleared.
+
+## Father confidence review, second batch — 22 October 2026
+
+[Glasgow-2917](https://www.wikitree.com/wiki/Glasgow-2917) remains the selected father, assessed **23% (uncertain)**. Previous selected-tree status: **uncertain**, without an individual percentage.
+
+The inherited Cross/Derry family places James of the 1719 generation under Charles of the 1686 generation. The33-year sequence is feasible and gives a specific selected family, but the Scottish Charles baptism does not establish an Irish adult or name his son James.
+
+Scope: Uncertain23%; the supposed migration and both later-family identities lack an inspected bridge. Estimated profile dates cannot independently corroborate the pedigree.
+
+Next useful test: Find one record anchoring the Cross household before extending its Scottish ancestry.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.

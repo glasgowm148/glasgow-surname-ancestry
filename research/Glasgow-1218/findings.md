@@ -51,3 +51,15 @@ The entry expressly identifies the listed James as David’s son; it does not sa
 
 This may concern [Glasgow-1218](https://www.wikitree.com/wiki/Glasgow-1218). For the named father David, Uncertain birth before 13 April 1744 at Stitchel and regional context are compatible with the father David. This is an upper birth bound, not an exact year; the existing link to James-1222 is derived from the family tree and no occupation connection is checked.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, second batch — 22 October 2026
+
+[Glasgow-1238](https://www.wikitree.com/wiki/Glasgow-1238) remains the selected father, assessed **97% (proved)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+David’s 1744 Stichill child account names James and Elizabeth. The existing James/Elizabeth Tait marriage of 1740 and subsequent Stichill children identify a specific local parental household rather than just a matching father name.
+
+Scope: Record-defined child and Tait household97%; David’s later adult identification and James’s own 1712 ancestry are separate. Original uninspected.
+
+Next useful test: Check the original 1744 entry’s full maternal name and residence.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.

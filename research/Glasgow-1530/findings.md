@@ -26,3 +26,15 @@ The two profiles’ identical marriage citation is one event claimed twice, not 
 - [FamilySearch: Robert Glasgow, 13 September 1784, Glasgow; no parents in the supplied index](https://www.familysearch.org/ark:/61903/1:1:X1WW-D8B)
 
 Compare the original 1803 entry with the 1789 marriage, 1802 burial and 1839 weaver entry for residence, occupation and widowhood. Then compare all three older baptism candidates. The 1861 Alexander marriage and his 1875 death may independently identify Robert’s occupation or deceased status. These are tests of the selected family, not a reason to omit the working connection.
+
+## Father confidence review, second batch — 22 October 2026
+
+[Glasgow-1120](https://www.wikitree.com/wiki/Glasgow-1120) remains the selected father, assessed **84% (probable)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+The age79 burial in 1839 favours the 1760 child over the 1755 and 1758 candidates. That child’s Wandell/Lamington index names James Glasgow and Marion Saidler; the maintained older-widower adult sequence is compatible with that exact generation.
+
+Scope: Complete father proposition84%; the child-to-widower identity is inferred and Robert-1538 remains a separate overlapping account. No alternative birth is deleted.
+
+Next useful test: Use residence, occupation or family witnesses to distinguish the three Robert childhoods.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.

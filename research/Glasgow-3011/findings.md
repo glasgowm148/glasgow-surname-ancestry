@@ -3,7 +3,11 @@
 Last updated: 2026-09-10
 
 
-## Conclusion
+## Current conclusion
+
+Father reviewed22October2026: Glasgow-3012 remains selected at 88% (probable). Robert’s 1676 Glencorse baptism names John Glasgow and Margaret Currie. Their 1673 Kirknewton marriage supplies an earlier named couple in the neighbouring district, favouring the existing John household over an otherwise unspecified namesake. Complete profile placement88%; the 1649 child-to-adult John identification remains inferred. The 1704 Robert/Davidson marriage is a different event.
+
+## Earlier conclusion
 
 Robert is the documented Glencorse baptism subject of 29 December 1676 and the strong but unproved candidate for the 1704 husband of Margaret Davidson. She and their documented daughter Isobell are now attached as uncertain relatives. The three older children still attached to shipmaster Glasgow-2867 require a controlled candidate-father correction, retaining uncertainty rather than claiming proof of the two Roberts' identity. No evidence identifies the shipmaster as this man.
 
@@ -54,3 +58,15 @@ may conceal relevant evidence.
 Original image not inspected for this batch. The combined collection’s date does not automatically establish a birthday. Names alone do not uniquely identify attached parents or connect a child with a later adult. An omitted parent or indexed gender U remains unspecified in this source.
 
 **Next action:** No additional WikiTree update from this row; preserve any existing pending work.
+
+## Father confidence review, second batch — 22 October 2026
+
+[Glasgow-3012](https://www.wikitree.com/wiki/Glasgow-3012) remains the selected father, assessed **88% (probable)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+Robert’s 1676 Glencorse baptism names John Glasgow and Margaret Currie. Their 1673 Kirknewton marriage supplies an earlier named couple in the neighbouring district, favouring the existing John household over an otherwise unspecified namesake.
+
+Scope: Complete profile placement88%; the 1649 child-to-adult John identification remains inferred. The 1704 Robert/Davidson marriage is a different event.
+
+Next useful test: Compare the 1673 and 1676 entries for residence and witnesses.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.

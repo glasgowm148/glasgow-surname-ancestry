@@ -152,3 +152,15 @@ These entries form a qualified regional comparison, not a proved single life. A 
 
 This may concern [Glasgow-2871](https://www.wikitree.com/wiki/Glasgow-2871). Compatible adult/Chester County namesake, especially for 1771 after the elder’s recorded 1769 death; no individual postal or book-agent connection.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, second batch — 22 October 2026
+
+[Glasgow-2870](https://www.wikitree.com/wiki/Glasgow-2870) remains the selected father, assessed **17% (uncertain)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+The inherited Scottish pedigree gives John-2870 as the Pennsylvania John’s father. Its 1722/1738 dates would permit fatherhood at16 but are unverified, and the supposed Mary Cranmer mother is confused with the son’s wife in the same account. No migration or family record identifies the older John.
+
+Scope: Uncertain17%; the American John’s real tax/cemetery history does not prove his Scottish parents. The young age is a caution, not an exclusion.
+
+Next useful test: Resolve the Mary Cranmer generation and identify an actual migration or parent record.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.

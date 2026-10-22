@@ -55,3 +55,15 @@ A biography draft for this profile cites the following; none has been read for t
 Read the transcription and the 1850 census entry first; they bear directly on this Hugh's age and wife. The same draft relies on the unread 1875 obituary (see the block above) for the County Down birthplace and the twin sister.
 
 Recorded in `chatgpt_dump/Pasted text(116).txt` (undated biography draft, saved 10 September 2026); carried into this file on 7 October 2026.
+
+## Father confidence review, second batch — 22 October 2026
+
+[Glasgow-540](https://www.wikitree.com/wiki/Glasgow-540) remains the selected father, assessed **91% (proved)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+Hugh’s 1827 will expressly names a son Hugh. The established family account places Hugh-539 in this particular family, with a feasible 1786 generation and no evidenced rival son of that identity. The combined named-son and family identification supports confidence.
+
+Scope: Complete father-profile proposition91%; the will gives no age or residence. County Down and twin claims are not established by it.
+
+Next useful test: Use Hugh’s obituary or estate correspondence to verify the son’s identity.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.

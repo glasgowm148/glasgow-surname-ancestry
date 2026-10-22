@@ -373,3 +373,15 @@ The candidate assessment above is superseded in part. The 1885 Lisnagaver death 
 Glasgow-3474 is therefore no longer a separate candidate. The resident nephew remains unidentified; the 1835 Glenravel marriage of a John Glasgow of Glenleslie noted above is an unproved lead. The assessments of Glasgow-2407 and Glasgow-3140 are unchanged.
 
 Recorded in `research/Glasgow-951/research-log-2026-09-17-live.md` (17 September 2026); carried into this file on 7 October 2026.
+
+## Father confidence review, second batch — 22 October 2026
+
+[Glasgow-3959](https://www.wikitree.com/wiki/Glasgow-3959) remains the selected father, assessed **27% (uncertain)**. Previous selected-tree status: **uncertain**, without an individual percentage.
+
+The Ballyboggy John active in 1740 is a real earlier Antrim adult and could father the Glenleslie John born about 1751. The existing local pedigree offers a coherent older generation, but no shared holding or named-relative source bridges these men.
+
+Scope: Uncertain27%; the older man’s c 1705 birth is an estimate, not an independently known age. The 1851 Glenleslie household proves later relatives, not this father.
+
+Next useful test: Seek a Ballyboggy–Glenleslie succession or named-kin link.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.

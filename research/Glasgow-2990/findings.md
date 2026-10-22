@@ -98,3 +98,15 @@ A possible identification concerns John Glasgow, Loughinsholin freeholder, 1831.
 ## Next questions — parentage
 
 Trace the source of the John/Margaret attachment behind the contributed tree. Inspect the 1803 Caughnawaga baptism and Robert’s American naturalisation, land, probate or family papers for an actual Irish locality or named parent. Compare Drumearn estate/tenancy records and collateral emigrants with the West Calder and Larne alternatives. Keep the eighteenth-century parent question distinct from later descendant record work.
+
+## Father confidence review, second batch — 22 October 2026
+
+[Glasgow-2988](https://www.wikitree.com/wiki/Glasgow-2988) remains the selected father, assessed **22% (uncertain)**. Previous selected-tree status: **uncertain**, without an individual percentage.
+
+John is a real Drumearn householder in 1766, following earlier James Glasco occurrences in the local returns. The selected c 1720 James is a feasible father generation and the shared holding context gives a useful local-family hypothesis. Two James households and unrecorded ages leave the exact person and degree open.
+
+Scope: Uncertain22%; the c 1750/c 1720 ages are estimates, and householder order or surname repetition is not a parent clause.
+
+Next useful test: Trace the Drumearn holding between the 1740 and 1766 returns for a named successor.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.

@@ -91,3 +91,15 @@ One uncertain father and one uncertain mother are selected through one possible 
 - [Findmypast, Kilwinning John,16 September 1683, SCOT/OPR/BAP/3624727; existing transcript, mother-name conflict retained](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3624727&tab=this)
 - [FamilySearch, Margaret Glasgow,1712, Jean Wyllie household; retained sibling-household citation](https://www.familysearch.org/ark:/61903/1:1:XY2H-785)
 - [Stevenston Margaret,1717, James Glasgow/Mary Auld; distinct household comparison, not proof of identity](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0369031&tab=this)
+
+## Father confidence review, second batch — 22 October 2026
+
+[Glasgow-2714](https://www.wikitree.com/wiki/Glasgow-2714) remains the selected father, assessed **48% (possible)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+John’s 1683 Kilwinning index names Gorg/Gorge Glasgow. The selected Leith George-2714 is a feasible25-year-old father and is associated with the candidate Kilwinning George household, but no held record connects the 1658 child to this adult. The maternal Gardiner/Young index conflict does not identify which George he was.
+
+Scope: Complete father-profile placement48%; the old George-1058 link is chronologically impossible for a 1683 father because that child was baptised 1687. No maternal choice is made.
+
+Next useful test: Read the 1683 original and compare the 1678 marriage for residence and trade.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
