@@ -24,6 +24,10 @@ Glasgow site as its model can express, and so the gaps can be measured:
 - ``research/<profile>/presentation.json``: the ``research_tasks`` as
   research questions about that person, and its ``completed_searches`` as
   Search records in the research log;
+- ``tools/study_stories/*.json``: each branch story as a Study of kind
+  ``family``, its chapters as the body and the public people its clusters
+  name as the study's people, so the workbench's Families & branches page
+  shows it beside their branches;
 - ``www/data/people.json``: people the tree export lacks (record subjects
   and newer profiles), with their birth, death, places and family links,
   and the extra profile IDs of merged profiles as former IDs.
@@ -81,6 +85,8 @@ CATALOGUE = ROOT / "www/data/people.json"
 DEFAULT_PROJECT = ROOT / "data/private/toolkit-build"
 # WikiTree merges Glasgow has followed (old profile ID -> current one).
 PROFILE_OVERRIDES = ROOT / "data/wikitree/live-profile-overrides.json"
+# The branch stories Glasgow's Families & branches pages tell (read-only).
+STORIES = ROOT / "tools/study_stories"
 PUBLIC = Sensitivity.PUBLIC
 
 try:
@@ -551,6 +557,66 @@ class Translator:
             self.report["research notes"] += 1
 
 
+    # -- branch stories ------------------------------------------------------
+    def stories(self, directory: Path) -> None:
+        """Each branch story (``tools/study_stories/*.json``) as a Study of kind ``family``.
+
+        The title and standfirst become the title and summary, ``status.tone``
+        the status and ``reviewed_on`` the update date. Each chapter becomes a
+        ``##`` heading, its period in italics and its paragraphs; a link to a
+        person's page becomes a reference to that person when public, else its
+        words. A chapter naming a withheld profile (in its text, evidence or
+        links) is withheld whole, and a story whose title or standfirst names
+        one is left out. The study's people are the public people its clusters
+        list (and any link end that is a profile). The kicker, facts, question
+        and answer, ladder, gaps and timeline have no place in a study and are
+        not carried.
+        """
+        public = {record.id for record in self.case.records("Person") if record.sensitivity is PUBLIC}
+        tidy = lambda text: " ".join(str(text or "").split())
+
+        def person_link(match):
+            pid = self.pid(match[2])
+            return f"[[{pid}|{match[1]}]]" if pid in public else match[1]
+
+        for path in sorted(directory.glob("*.json")):
+            data = json.loads(path.read_text(encoding="utf-8"))
+            if not isinstance(data, dict) or not str(data.get("title") or "").strip():
+                self.gaps["branch stories with no title"] += 1
+                continue
+            if self.private(json.dumps([data.get("title"), data.get("standfirst")], ensure_ascii=False)):
+                self.gaps["branch stories whose title or standfirst names a withheld profile"] += 1
+                continue
+            named = list(dict.fromkeys(str(p) for cluster in data.get("clusters") or [] if isinstance(cluster, dict) for p in cluster.get("people") or []))
+            # Links join clusters; an end that is a profile rather than a cluster names a person too.
+            named += [str(link[end]) for link in data.get("links") or [] if isinstance(link, dict) for end in ("from", "to") if self.known(link.get(end))]
+            related = list(dict.fromkeys(pid for p in named if (pid := self.pid(p)) in public))
+            unlinked = {p.casefold() for p in named if self.pid(p) not in public}
+            if unlinked:
+                self.gaps["people in branch story clusters who are not public, left out"] += len(unlinked)
+            chapters = []
+            for chapter in data.get("chapters") or []:
+                if not isinstance(chapter, dict):
+                    continue
+                if self.private(json.dumps(chapter, ensure_ascii=False)):
+                    chapters.append(WITHHELD)
+                    self.report["branch story chapters withheld (they name a withheld profile)"] += 1
+                    continue
+                parts = [f"## {tidy(chapter.get('title'))}"] if tidy(chapter.get("title")) else []
+                parts += [f"*{tidy(chapter['period'])}*"] if tidy(chapter.get("period")) else []
+                parts += [tidy(paragraph) for paragraph in chapter.get("body") or [] if tidy(paragraph)]
+                chapters.append("\n\n".join(parts))
+            body = re.sub(r"\[([^\]]+)\]\(/people/([^/)#?\s]+)\.html[^)\s]*\)", person_link, "\n\n".join(c for c in chapters if c))
+            reviewed = str(data.get("reviewed_on") or data.get("reviewed") or "")
+            status = data.get("status") if isinstance(data.get("status"), dict) else {}
+            self.case.add(Study(id=f"glasgow:story:{data.get('id') or path.stem}", title=tidy(data["title"]), kind="family",
+                                summary=tidy(data.get("standfirst")) or None, body=self.markdown(body) or None,
+                                related_ids=related, status=str(status.get("tone") or "draft"),
+                                updated_on=reviewed if iso_date(reviewed) else None, sensitivity=PUBLIC))
+            self.report["branch stories as family studies"] += 1
+            if not related:
+                self.gaps["branch stories naming no public person"] += 1
+
     # -- the catalogue's own groupings -------------------------------------
     def regions(self, people) -> None:
         """``Place.region`` from the region Glasgow files each location under.
@@ -769,6 +835,8 @@ def build_case(project: Path, *, one_tree: Path = ONE_TREE, research: Path = RES
     except ModuleNotFoundError:
         from build_research_catalog import _load_research_findings
     t.notes(research, lambda profile: _load_research_findings([profile]))
+    if STORIES.exists():
+        t.stories(STORIES)
     with (project / "genealogy.toml").open("a", encoding="utf-8") as handle:
         handle.write(config_tables(t.grades()))
     errors = validate_case(case) + grade_errors(case, ProjectConfig.load(project / "genealogy.toml").grades)

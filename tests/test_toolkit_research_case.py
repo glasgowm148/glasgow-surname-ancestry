@@ -355,6 +355,51 @@ class TranslatorTests(unittest.TestCase):
         self.assertIn("Glasco", variants["Glasgow"])
         self.assertNotIn("Glasgow", variants["Glasgow"])
 
+    def test_branch_stories_become_family_studies_of_their_public_people(self):
+        import json
+        import tempfile
+        from pathlib import Path
+        c = case()
+        c.add(Person(id=person_id("Fable-8"), sensitivity=Sensitivity.PRIVATE))
+        t = Translator(c, private=lambda text: "Hidden-9" in str(text) or "hidden-9" in str(text))
+        stories = {
+            "fable-mill": {"id": "fable-mill", "kicker": "Invented household study", "title": "The  Fable mill",
+                           "standfirst": "Two invented households  share a mill.", "status": {"label": "Core documented", "tone": "supported"},
+                           "reviewed_on": "2026-10-01", "facts": [{"value": "1801", "label": "first record"}],
+                           "chapters": [
+                               {"id": "c1", "title": "The miller", "period": "1801–1820",
+                                "body": ["[Ada](/people/fable-1.html#research-findings) ran the mill.", "Her son [Bo](/people/fable-2.html) and [Ned](/people/fable-8.html) followed."],
+                                "evidence": [{"label": "Invented register", "url": "https://example.org/r"}]},
+                               {"id": "c2", "title": "A cousin", "period": "1830", "body": ["A cousin appears."],
+                                "evidence": [{"label": "Letter", "url": "/people/hidden-9.html"}]},
+                               {"id": "c3", "title": "Later", "body": ["See [the other branch](/branches/elsewhere/)."]}],
+                           "clusters": [{"id": "mill", "people": ["fable-1", "fable-2", "fable-8", "hidden-9", "nobody-4"]},
+                                        {"id": "cousins", "people": ["fable-2"]}],
+                           "links": [{"from": "mill", "to": "Fable-3", "status": "hypothesis", "label": "may be kin"}]},
+            "hidden": {"id": "hidden", "title": "Hidden-9 and kin", "standfirst": "Secret.", "chapters": [], "clusters": []},
+        }
+        with tempfile.TemporaryDirectory() as folder:
+            for name, data in stories.items():
+                (Path(folder) / f"{name}.json").write_text(json.dumps(data), encoding="utf-8")
+            t.stories(Path(folder))
+        studies = {s.id: s for s in c.records("Study")}
+        self.assertEqual(["glasgow:story:fable-mill"], list(studies))
+        study = studies["glasgow:story:fable-mill"]
+        self.assertEqual(("The Fable mill", "family", "Two invented households share a mill.", "supported", "2026-10-01", Sensitivity.PUBLIC),
+                         (study.title, study.kind, study.summary, study.status, study.updated_on, study.sensitivity))
+        # The public people the clusters and link ends name, in order; the private, withheld and unknown are left out.
+        self.assertEqual([person_id("Fable-1"), person_id("Fable-2"), person_id("Fable-3")], study.related_ids)
+        self.assertIn("## The miller\n\n*1801–1820*\n\n[[one-tree:person:Fable-1|Ada]] ran the mill.", study.body)
+        self.assertIn("Her son [[one-tree:person:Fable-2|Bo]] and Ned followed.", study.body)  # a private person keeps only the words
+        self.assertNotIn("A cousin", study.body)
+        self.assertNotIn("hidden-9", study.body.casefold())
+        self.assertIn("Private family details withheld.", study.body)
+        self.assertIn("## Later\n\nSee the other branch.", study.body)
+        self.assertEqual(1, t.report["branch story chapters withheld (they name a withheld profile)"])
+        self.assertEqual(1, t.gaps["branch stories whose title or standfirst names a withheld profile"])
+        self.assertEqual(3, t.gaps["people in branch story clusters who are not public, left out"])
+        self.assertEqual([], validate_case(c))
+
 
 if __name__ == "__main__":
     unittest.main()
