@@ -30115,5 +30115,96 @@
     },
     "note": "See the individual father assessment for named record roles versus inferred profile identities.",
     "provenance": "research/ancestry-connections/father-coverage-review9-2026-10-22.json"
+  },
+  {
+    "record_id": "stichill-patrick-horse-1712",
+    "record_type": "Published transcription of baron-court minutes",
+    "date": "1712-11-08",
+    "place": "Stichill, Roxburghshire, Scotland",
+    "association": "Patrick Glasgow in Stitchill was fined one shilling sterling for taking back his horse after it had been impounded. The date belongs to the 8 November 1712 court begun onp 166, despite the 1713 running header onp 167.",
+    "source_title": "George Gunn (ed.), Records of the Baron Court of Stichill 1655–1807 (1905), act 111, printed pp. 166–167/PDF 210–211",
+    "source_url": "https://ia800706.us.archive.org/9/items/recordsofbaronco00sticrich/recordsofbaronco00sticrich.pdf#page=211",
+    "source_type": "Printed primary-source edition; original manuscript uninspected",
+    "source_status": "Printed pages visually verified 22 October 2026; OCR used only to locate passages",
+    "status": "Confirmed printed reading; profile-identity limits retained",
+    "profiles": {
+      "Glasgow-1440": {
+        "role": "Probable match to Patrick/Helen’s local father household; no kin or occupation stated."
+      },
+      "Glasgow-1238": {
+        "role": "Family context; not a named actor in this court entry"
+      }
+    },
+    "note": "Probable match to Patrick/Helen’s local father household; no kin or occupation stated.",
+    "provenance": "research/ancestry-connections/stichill-strength-review-2026-10-22.json"
+  },
+  {
+    "record_id": "stichill-patrick-burlaw-1715",
+    "record_type": "Published transcription of baron-court minutes",
+    "date": "1715-12-10",
+    "place": "Stichill, Roxburghshire, Scotland",
+    "association": "Patrick Glasgow was one of five men appointed burlaw men; they took their oath. The court is dated 10 December 1715.",
+    "source_title": "George Gunn (ed.), Records of the Baron Court of Stichill 1655–1807 (1905), act 117, printed p. 172/PDF 216",
+    "source_url": "https://ia800706.us.archive.org/9/items/recordsofbaronco00sticrich/recordsofbaronco00sticrich.pdf#page=216",
+    "source_type": "Printed primary-source edition; original manuscript uninspected",
+    "source_status": "Printed pages visually verified 22 October 2026; OCR used only to locate passages",
+    "status": "Confirmed printed reading; profile-identity limits retained",
+    "profiles": {
+      "Glasgow-1440": {
+        "role": "Probable match to the same recorded Stichill Patrick; no spouse or child named."
+      },
+      "Glasgow-1238": {
+        "role": "Family context; not a named actor in this court entry"
+      }
+    },
+    "note": "Probable match to the same recorded Stichill Patrick; no spouse or child named.",
+    "provenance": "research/ancestry-connections/stichill-strength-review-2026-10-22.json"
+  },
+  {
+    "record_id": "stichill-peter-teinds-1739",
+    "record_type": "Published transcription of baron-court minutes",
+    "date": "1739-11-13",
+    "place": "Stichill, Roxburghshire, Scotland",
+    "association": "Peter Glasgow, Alexander Sim and James Thomson were each fined half a crown after refusing to carry away part of the previous harvest’s teind peas; the money was assigned to local highways. The edition’s index groupsp 196 under Patrick Glasgow alongsidepp 167 and 172.",
+    "source_title": "George Gunn (ed.), Records of the Baron Court of Stichill 1655–1807 (1905), act 158, printed pp. 196–197/PDF 240–241; index p. 241/PDF 285",
+    "source_url": "https://ia800706.us.archive.org/9/items/recordsofbaronco00sticrich/recordsofbaronco00sticrich.pdf#page=240",
+    "source_type": "Printed primary-source edition; original manuscript uninspected",
+    "source_status": "Printed pages visually verified 22 October 2026; OCR used only to locate passages",
+    "status": "Confirmed printed reading; profile-identity limits retained",
+    "profiles": {
+      "Glasgow-1440": {
+        "role": "Retain Patrick-1440 as the leading compatible candidate. Peter is the literal body reading; index grouping is editorial and dependent on this edition. Later identity is possible, not a proved survival date."
+      },
+      "Glasgow-1238": {
+        "role": "Family context; not a named actor in this court entry"
+      }
+    },
+    "note": "Retain Patrick-1440 as the leading compatible candidate. Peter is the literal body reading; index grouping is editorial and dependent on this edition. Later identity is possible, not a proved survival date.",
+    "provenance": "research/ancestry-connections/stichill-strength-review-2026-10-22.json"
+  },
+  {
+    "record_id": "held-e-3aff2dcaf096",
+    "record_type": "Previously held parish-index citation",
+    "date": "1742-06-20",
+    "place": "Stichill, Roxburghshire, Scotland",
+    "association": "Patrick child of James Glasgoue and Elizabath Tait, as quoted in James’s held complete biography; supports naming and the adult household.",
+    "source_title": "\"Scotland Births and Baptisms, 1564-1950\", database, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:FMM7-5XM : 16 September 2021), James Glasgoue in entry for Patrick Glasgow, 1742. Christening Date: 20 Jun 1742, Stitchel, Roxburghshire, Scotland. Parents: James Glasgoue, Elizabath Tait.",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:FMM7-5XM",
+    "source_type": "Held biographical quotation of a provider index; not a newly inspected provider page",
+    "source_status": "Existing citation correlated 22 October 2026; fresh FamilySearch request blocked by security challenge",
+    "status": "Held cited fields; original register uninspected",
+    "profiles": {
+      "Glasgow-1225": {
+        "role": "Cited child account"
+      },
+      "Glasgow-1238": {
+        "role": "Named father in the held source quotation"
+      },
+      "Glasgow-1440": {
+        "role": "Proposed grandfather; not named in this child record"
+      }
+    },
+    "note": "Compatible parallel citation to held-e-b03c42bdcb41; not an independent baptism or new event discovery.",
+    "provenance": "research/ancestry-connections/stichill-strength-review-2026-10-22.json"
   }
 ]

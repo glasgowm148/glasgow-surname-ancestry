@@ -1470,7 +1470,8 @@
         "Libberton OPR1718–1726",
         "Linlithgow Thomas parent indexes1675",
         "Uphall parent indexes1704/1717–1723"
-      ]
+      ],
+      "last_test": "22 October 2026: the Glasgow heading in Edinburgh marriages 1701–1750, p 214/PDF 224, adds no Duncan–Clarkson identity bridge. Retain 22% and 76%; original parish identifiers remain the useful test."
     },
     {
       "id": "dublin-irvine-working-family",
@@ -4879,6 +4880,58 @@
         "kilwinning-george-spark-child-1687"
       ],
       "assertion_id": "C-coverage-20261022-glasgow-1056-father",
+      "reviewed": "2026-10-22",
+      "counted_as_new_connection": false
+    },
+    {
+      "id": "stichill-patrick-james-confidence",
+      "year": 1707,
+      "title": "Stichill: Patrick’s court records and James’s confident father link",
+      "status": "Local father inference 86→92% confident; live father already confident",
+      "people": [
+        {
+          "name": "James Glasgow",
+          "url": "/people/glasgow-1238.html"
+        },
+        {
+          "name": "Patrick Glasgow",
+          "url": "/people/glasgow-1440.html"
+        }
+      ],
+      "basis": "The 1712 Stichill James, explicitly indexed as Patrick Glasow and Helen Fairbarn’s son, is confidently inferred to be the James who married Elizabath Tait in the same parish in January 1740. An age of about 28, continuity in this small local surname family and the later household’s son Patrick (1742) and daughter Helen (1750), repeating both proposed paternal grandparents’ names, form a combined identity argument. Naming is supporting evidence rather than a mandatory rule or independent proof of each step. The specific Patrick/Helen household is independently established by their 1707 marriage entries and 1708–1716 children. Newly inspected printed court minutes place Patrick at Stichill in 1712 and appoint him a burlaw man in 1715; these add local continuity, not a father clause. The unsupported Uphall field is not a competing contemporary record. No concrete rival Stichill James family has been identified in the held material; this is not an exhaustive population search.",
+      "next_test": "Check the original 1712 child and 1740 marriage for residence, relatives or occupation; test the 1765 Swinton household separately. Seek a title or probate link for the older Gordon identity rather than repeating this now-confident local father inference.",
+      "sources": [
+        {
+          "label": "George Gunn (ed.), Records of the Baron Court of Stichill 1655–1807 (1905), act 111, printed pp. 166–167/PDF 210–211",
+          "url": "https://ia800706.us.archive.org/9/items/recordsofbaronco00sticrich/recordsofbaronco00sticrich.pdf#page=211"
+        },
+        {
+          "label": "George Gunn (ed.), Records of the Baron Court of Stichill 1655–1807 (1905), act 117, printed p. 172/PDF 216",
+          "url": "https://ia800706.us.archive.org/9/items/recordsofbaronco00sticrich/recordsofbaronco00sticrich.pdf#page=216"
+        },
+        {
+          "label": "George Gunn (ed.), Records of the Baron Court of Stichill 1655–1807 (1905), act 158, printed pp. 196–197/PDF 240–241; index p. 241/PDF 285",
+          "url": "https://ia800706.us.archive.org/9/items/recordsofbaronco00sticrich/recordsofbaronco00sticrich.pdf#page=240"
+        },
+        {
+          "label": "Patrick’s 1742 child citation; held parent-name quotation",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:FMM7-5XM"
+        },
+        {
+          "label": "Helen’s 1750 child citation; held account",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:FMMM-93V"
+        }
+      ],
+      "record_references": [
+        "held-e-e557b7e7a082",
+        "stitchell-james-tait-marriage-1740",
+        "held-e-3aff2dcaf096",
+        "held-e-14e0ab85e390",
+        "stichill-patrick-horse-1712",
+        "stichill-patrick-burlaw-1715",
+        "stichill-peter-teinds-1739"
+      ],
+      "assertion_id": "C-coverage-20261022-glasgow-1238-father",
       "reviewed": "2026-10-22",
       "counted_as_new_connection": false
     }

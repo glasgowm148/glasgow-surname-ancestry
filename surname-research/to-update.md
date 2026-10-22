@@ -3913,3 +3913,9 @@ Twenty additional transcripts are recorded under existing people or qualified ca
 
 | [Hugh Glasgow](https://www.wikitree.com/wiki/Glasgow-1056) | OPEN | Explain existing father John at74% probable, from58% possible; secondary-source limits retained; no new attachment. |
 | [John Glasgow](https://www.wikitree.com/wiki/Glasgow-1057) | OPEN | Add reciprocal Hugh family reassessment; retain separate mothers and childhood identity. |
+
+
+## 22 October 2026 —Stichill court and family review
+
+| [James Glasgow](https://www.wikitree.com/wiki/Glasgow-1238) | OPEN | Explain 92% confident father inference and new court context; cancel earlier proposed downgrade because the existing live confident mark agrees. |
+| [Patrick Glasgow](https://www.wikitree.com/wiki/Glasgow-1440) | OPEN | Add 1712 horse fine and 1715 burlaw appointment; retain 1739 Peter comparison and earlier ancestry separately. |

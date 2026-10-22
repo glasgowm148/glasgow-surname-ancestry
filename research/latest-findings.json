@@ -52333,6 +52333,82 @@
         "research/ancestry-connections/high-impact-review-2026-10-22.json",
         "research/Glasgow-1056/findings.md"
       ]
+    },
+    {
+      "id": "stichill-court-family-confidence-20261022",
+      "found_on": "2026-10-22",
+      "reviewed_on": "2026-10-22",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "New Stichill court notices identify Patrick Glasgow in 1712 and as a burlaw man in 1715. Combined family evidence raises James’s existing father assessment from 86% probable to 92% confident.",
+      "qualification": "92% is a subjective confident inference for James’s father Patrick in the Stichill Patrick/Helen household, including the 1712-child/1740-husband identification. The underlying parish images and the FamilySearch 1742 page were not newly inspected; a security challenge blocked the latter. Patrick’s identification with the 1667 Gordon child, the 1765 Swinton couple, the Leitholm Robert hypothesis and all mothers retain their separate assessments. No birth, death, place, spouse, parent selection or identity merge changes. The new court pages establish recorded acts, not biological kinship. WikiTree’s father control was checked on 22 October 2026 and was already confident; no new live certainty mark is pending. Peter’s 1739 entry is grouped under Patrick in the same edition’s index; this is a qualified candidate identification, not independent evidence of kinship.",
+      "people": [
+        {
+          "id": "Glasgow-1238",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-1238.html",
+          "role": "Existing family account; confidence and record roles kept separate"
+        },
+        {
+          "id": "Glasgow-1440",
+          "name": "Patrick Glasgow",
+          "url": "/people/glasgow-1440.html",
+          "role": "Existing family account; confidence and record roles kept separate"
+        },
+        {
+          "id": "Glasgow-1225",
+          "name": "Patrick Glasgow",
+          "url": "/people/glasgow-1225.html",
+          "role": "1742 child naming comparison"
+        },
+        {
+          "id": "Glasgow-3513",
+          "name": "Helen Glasgow",
+          "url": "/people/glasgow-3513.html",
+          "role": "1750 child naming comparison"
+        }
+      ],
+      "sources": [
+        {
+          "title": "George Gunn (ed.), Records of the Baron Court of Stichill 1655–1807 (1905), act 111, printed pp. 166–167/PDF 210–211",
+          "url": "https://ia800706.us.archive.org/9/items/recordsofbaronco00sticrich/recordsofbaronco00sticrich.pdf#page=211"
+        },
+        {
+          "title": "George Gunn (ed.), Records of the Baron Court of Stichill 1655–1807 (1905), act 117, printed p. 172/PDF 216",
+          "url": "https://ia800706.us.archive.org/9/items/recordsofbaronco00sticrich/recordsofbaronco00sticrich.pdf#page=216"
+        },
+        {
+          "title": "George Gunn (ed.), Records of the Baron Court of Stichill 1655–1807 (1905), act 158, printed pp. 196–197/PDF 240–241; index p. 241/PDF 285",
+          "url": "https://ia800706.us.archive.org/9/items/recordsofbaronco00sticrich/recordsofbaronco00sticrich.pdf#page=240"
+        },
+        {
+          "title": "\"Scotland Births and Baptisms, 1564-1950\", database, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:FMM7-5XM : 16 September 2021), James Glasgoue in entry for Patrick Glasgow, 1742. Christening Date: 20 Jun 1742, Stitchel, Roxburghshire, Scotland. Parents: James Glasgoue, Elizabath Tait.",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:FMM7-5XM"
+        }
+      ],
+      "detail_url": "/branches/early-scottish-records/#chapter-stichill-patrick-james-confidence",
+      "relationship_reassessments": [
+        {
+          "subject_id": "Glasgow-1238",
+          "relative_id": "Glasgow-1440",
+          "relationship": "father",
+          "before": "probable",
+          "before_percent": 86,
+          "after": "confident",
+          "after_percent": 92,
+          "live_already_confident": true,
+          "pending_live_confidence_mark": false
+        }
+      ],
+      "new_father_attachments": 0,
+      "new_paternal_joins": 0,
+      "new_live_certain_fathers": 0,
+      "new_original_inspections": 0,
+      "new_printed_source_pages_inspected": 6,
+      "newly_located_court_entries": 3,
+      "provenance": [
+        "research/ancestry-connections/stichill-strength-review-2026-10-22.json"
+      ]
     }
   ]
 }

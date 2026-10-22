@@ -1,0 +1,35 @@
+{
+  "reviewed": "2026-10-22",
+  "existing_father_reassessments": 1,
+  "before_percent": 86,
+  "after_percent": 92,
+  "new_father_attachments": 0,
+  "new_paternal_joins": 0,
+  "new_live_certain_fathers": 0,
+  "local_confident_links_added": 1,
+  "working_components": 404,
+  "confident_links": 670,
+  "confident_components_before": 1129,
+  "confident_components_after": 1128,
+  "new_confident_pairs": 80,
+  "supported_graph_unchanged": true,
+  "model_parity": {
+    "main": {
+      "checked": 1396,
+      "mismatches": []
+    },
+    "standalone": {
+      "checked": 1396,
+      "mismatches": []
+    },
+    "packed": {
+      "checked": 1396,
+      "mismatches": []
+    }
+  },
+  "full_compact_membership_agrees": true,
+  "pending_father_downgrade_cancelled": true,
+  "all_individual_coverage_retained": true,
+  "new_research_failures": 0,
+  "local_only": true
+}

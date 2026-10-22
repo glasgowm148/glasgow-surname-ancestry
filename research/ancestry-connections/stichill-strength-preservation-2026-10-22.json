@@ -1,0 +1,31 @@
+{
+  "reviewed": "2026-10-22",
+  "scope": "Full previous public proposals preserved; additive superseding note and new published court facts.",
+  "profiles": {
+    "Glasgow-1238": {
+      "current_sha256": "2b20f0388bceb136670ca500f23adf225839a95ea3206368f5fa26e188c456c2",
+      "proposed_sha256": "d7ea3e53292594c0e0e2769fbdb8b4c8275f701d14a5baba42670320161543dd",
+      "previous_proposed_sha256": "872eb5b5e41db819b1e73142025cdd0c3b61faed3735344273526ea513281dca",
+      "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/stichill-strength-20261022/previous-proposals/Glasgow-1238.wiki",
+      "all_substantive_passages_accounted_for": true,
+      "draft_path": "research/Glasgow-1238/stichill-court-family-2026-10-22.wiki",
+      "private_comparison": false,
+      "retained": "Complete prior public proposal retained; additive source and superseding confidence note only."
+    },
+    "Glasgow-1440": {
+      "current_sha256": "b44325b47294e84c13893b0e0ab8c44dfa856860438f72a5812d1451f6093f4b",
+      "proposed_sha256": "f15f9f8a95307e817acdd69bb24666a0512acc06d9235c1ac3cfd25eace9a11f",
+      "previous_proposed_sha256": "e765c2785b8e9a03a8be8d24de9b2c984aa9fdaa54c9c46b22724e0801f295bb",
+      "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/stichill-strength-20261022/previous-proposals/Glasgow-1440.wiki",
+      "all_substantive_passages_accounted_for": true,
+      "draft_path": "research/Glasgow-1440/stichill-court-family-2026-10-22.wiki",
+      "private_comparison": false,
+      "retained": "Complete prior public proposal retained; additive source and superseding confidence note only."
+    }
+  },
+  "previous_proposal_passage_check": {
+    "checked_profiles": 2,
+    "unmatched": [],
+    "method": "Reverse the new additive note; account for every earlier proposed paragraph, ignoring whitespace, heading and italic formatting only."
+  }
+}
