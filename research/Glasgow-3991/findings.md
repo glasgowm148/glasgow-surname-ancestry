@@ -4,6 +4,8 @@ Last updated: 2026-10-06
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **99% (proved)** for [Glasgow-1499](https://www.wikitree.com/wiki/Glasgow-1499). Confident99%; retained monument transcription; James’s separate tanner identification and Hugh’s upstream ancestry remain qualified. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 The published Larne Parish Churchyard monument directly identifies James as a
 son of Hugh and Ann Glasgow. He died 14 April 1812 aged 64, placing his birth
 approximately between 15 April 1747 and 14 April 1748. The same inscription
@@ -73,3 +75,17 @@ A possible identification concerns James Glasgow. An 1874 indenture traces James
 
 A possible identification concerns James Glasgow. The separate memorial 173108 records James Glasgow, ropemaker, assigning a messuage to John Hill on 28 March 1768; its witnessing James Glasgow is described as farmer. (Inspected historical source; [record](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJW-DDD6); Inspected historical source; [record](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJW-DDDL).) Original occupation checked. The same-day ropewalk and messuage assignments are different instruments. Whether the farmer and tanner witnesses are one man is unresolved. The identification remains uncertain.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, third batch — 22 October 2026
+
+[Glasgow-1499](https://www.wikitree.com/wiki/Glasgow-1499) remains the selected father, assessed **99% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+The Larne monument explicitly identifies James as son of Hugh and Ann. The same inscription gives their deaths and ages, and James’s later family, identifying the selected Hugh household with direct multigeneration evidence.
+
+Scope: Confident99%; retained monument transcription; James’s separate tanner identification and Hugh’s upstream ancestry remain qualified.
+
+Next useful test: Use the monument anchor to test the wider Larne sibling reconstruction.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: ["Armorial Sculptured Stones of the County Antrim," Ulster Journal of Archaeology, second series 6 (1900), p. 47 (https://archive.org/details/ulsterjournalofa06ulstiala/page/47/mode/1up), Glasgow monument inscription.](https://archive.org/details/ulsterjournalofa06ulstiala/page/47/mode/1up)

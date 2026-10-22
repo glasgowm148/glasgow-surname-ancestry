@@ -4,6 +4,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **31% (possible)** for [Glasgow-2915](https://www.wikitree.com/wiki/Glasgow-2915). Possible 31%; existing pedigree retained, while the older William’s local identity remains unproved. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 <!-- site-audit-2026-10-07:overall-conclusion -->
 No record has yet been securely identified with this person in this research. A Belfast News-Letter report of 10 November 1846 naming Wm. Glasgow among the Cookstown collectors and donors at the opening of Claggan Presbyterian Church was considered and withdrawn as a candidate on 6 October 2026 because that man cannot be identified.
 
@@ -22,3 +24,17 @@ A possible identification concerns William Glasgow, uncle in the Cookstown mill 
 
 A possible identification concerns William Glasgow, uncle in the Cookstown mill case. Wm. Glasgow appears among Cookstown collectors and again among Cookstown donors in the 10-shillings-each list for the new Claggan Presbyterian Church, opened on 15 October 1846. (Belfast News-Letter, 10 November 1846, p.4, Claggan Presbyterian Church opening; [record](https://www.newspapers.com/image/390561508/).) Cookstown is supplied by the shared group punctuation; the separate Inishrush entry concerns James M’Caw. No age, trade or kin is stated. The occurrence is unassigned among the same-name Cookstown accounts and does not identify the later uncle or younger mill partner. The identification remains uncertain.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, third batch — 22 October 2026
+
+[Glasgow-2915](https://www.wikitree.com/wiki/Glasgow-2915) remains the selected father, assessed **31% (possible)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+William’s c 1804 generation fits the inherited William-2915 father and the broader proposed Cookstown family. The held account establishes William with wife Mary Henry, but their son’s record names those parents only and gives no grandfather. No specific holding or named-relative record joins the two Williams.
+
+Scope: Possible 31%; existing pedigree retained, while the older William’s local identity remains unproved.
+
+Next useful test: Find William and Mary Henry’s marriage or a sibling connection.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [WikiTree profile export for Glasgow-585](https://www.wikitree.com/wiki/Glasgow-585)

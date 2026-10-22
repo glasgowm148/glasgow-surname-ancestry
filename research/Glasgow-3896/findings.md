@@ -4,6 +4,8 @@ Last updated: 2026-10-07
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **55% (possible)** for [Glasgow-3904](https://www.wikitree.com/wiki/Glasgow-3904). Possible 55%; the proved sibling link supports extending the hypothesis, without turning testimony into a contemporary parent record. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 <!-- site-audit-2026-10-07:overall-conclusion -->
 Daniel Glasgow was a watchmaker of Church Street, Kilrea, who died there a widower on 16 October 1871, aged 75 according to his civil death registration. His 1871 will names his son David Glasgow (Glasgow-3899) of the City of London and his late brother Thomas, shown by his nephew Daniel Neely Glasgow's 1888 marriage to be Thomas Glasgow (Glasgow-987) of Lisnagaver. An 1827 baptism names his son Robert (Glasgow-3897) by Margaret Irwin, and an 1853 death notice calls James Glasgow (Glasgow-3898) his third son. His parents are not established: Alexander Glasgow (Glasgow-3904) and Rosanna (Unknown-761034) are uncertain working parents drawn from descendant testimony about Thomas.
 
@@ -285,3 +287,17 @@ A working handover of 13 August 2026 named **Peter Glasgow of Kilrea** as the pe
 The handover's bounded negative search (no adult Peter Glasgow marriage or death in the Irish civil indexes, 1845–1922, under the standard variants; only an infant Peter Glascow at Limerick in 1896) therefore concerns no one named in Daniel's death record, and there is no Peter of Kilrea to pursue on the strength of it. As before, the record states no relationship between Kate and Daniel.
 
 Recorded in `handover.md` (13 August 2026); carried into this file on 7 October 2026.
+
+## Father confidence review, third batch — 22 October 2026
+
+[Glasgow-3904](https://www.wikitree.com/wiki/Glasgow-3904) remains the selected father, assessed **55% (possible)**. Previous selected-tree status: **possible**, without an individual percentage.
+
+Daniel’s original will proves that Thomas of Lisnagaver was his brother. The descendant account naming Alexander and Rosanna as Thomas’s parents therefore extends a particular father hypothesis to Daniel, with compatible generations. Its force depends on the same late parent testimony and does not exclude half-brotherhood.
+
+Scope: Possible 55%; the proved sibling link supports extending the hypothesis, without turning testimony into a contemporary parent record.
+
+Next useful test: Search the proved brothers jointly for an older family or holding.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Peter, Trying to find Glasgow, Genes Reunited discussion, 25 January 2007 and later replies; descendant testimony naming Alexander and Rosanna as Thomas’s parents](https://www.genesreunited.co.uk/boards/board/general_topics/thread/465937)

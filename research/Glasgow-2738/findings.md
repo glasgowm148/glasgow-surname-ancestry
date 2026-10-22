@@ -4,6 +4,8 @@ Last updated: 2026-10-07
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **64% (probable)** for [Glasgow-2769](https://www.wikitree.com/wiki/Glasgow-2769). Probable 64%; household and locality inference, with no literal parent clause and no DNA data used. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 **Catalogue-wide reassessment, 13 September:** Robert-2769 is proposed only as
 James J's father. His South Carolina birth, compatible son-age slot in 1820
 and later Tennessee residence give that hypothesis a coherent chronology.
@@ -124,3 +126,17 @@ No relationship is changed. [Full recommendation](/people/glasgow-951.html#next-
 Seen as TNGenWeb transcriptions. The witnesses are associates for further Giles County searches; neither deed names a relative.
 
 Recorded in `research/Glasgow-2738/Glasgow-2738.md` (13 September 2026); carried into this file on 7 October 2026.
+
+## Father confidence review, third batch — 22 October 2026
+
+[Glasgow-2769](https://www.wikitree.com/wiki/Glasgow-2769) remains the selected father, assessed **64% (probable)**. Previous selected-tree status: **uncertain**, without an individual percentage.
+
+Robert-2769’s 1820 Giles County household contains a boy aged 10–15 matching James J’s c 1810 birth, and James’s later Tennessee/Alabama setting fits this same family’s movement. This is the leading specific available father reconstruction, but the census does not name the boy and the older Newberry origins remain uncertain.
+
+Scope: Probable 64%; household and locality inference, with no literal parent clause and no DNA data used.
+
+Next useful test: Read Robert’s later property or probate for James by name.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [1820 United States census, Giles County, Tennessee, Robert Glasgow household; NARA microfilm publication M33, roll 124; original schedule, scan 21 (https://archive.org/details/populationsc18200124 unit/page/n21/mode/1up).](https://archive.org/details/populationsc18200124unit/page/n21/mode/1up)

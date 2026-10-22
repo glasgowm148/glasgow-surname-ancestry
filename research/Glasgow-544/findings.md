@@ -5,6 +5,8 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **95% (proved)** for [Glasgow-540](https://www.wikitree.com/wiki/Glasgow-540). Confident95%; family-history evidence, no newly inspected contemporary parent record. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 <!-- site-audit-2026-10-07:overall-conclusion -->
 Alexander Glasgow was born in Ireland about 1786 and died in 1855, according to his profile, which says he was married and farming on his own land by the 1810 census and names his wife as Sarah; these claims are leads not yet audited against the census and burial records. The 1827 will of Hugh Glasgo of Deer Township, Allegheny County, Pennsylvania (Glasgow-540), proves that Hugh had a son Alexander, who then had a daughter Sarah, by inference under eighteen and unmarried. That this profile is the will's Alexander is an inference from the family-tree placement and W. M. Glasgow's family history; the will gives him no age or residence.
 
@@ -43,3 +45,17 @@ Hugh Glasgo of Deer Township, Allegheny County (`Glasgow-540`), in his will sign
 The will proves that Hugh had a son Alexander, and that Alexander had a daughter Sarah, in March 1827. By inference from the bequest's condition, Sarah was then under eighteen and unmarried, so born after about March 1809. She is not otherwise identified and must not be confused with Alexander's wife Sarah. That this profile is the will's Alexander is inference from the WikiTree family placement and W. M. Glasgow's late family history, which lists a son Alexander; the will gives him no age or residence.
 
 Recorded in `research/Glasgow-540/sources/hugh_glasgow_will_1827_transcription.md` (16 July 2026); carried into this file on 7 October 2026.
+
+## Father confidence review, third batch — 22 October 2026
+
+[Glasgow-540](https://www.wikitree.com/wiki/Glasgow-540) remains the selected father, assessed **95% (proved)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+The held family-history account explicitly names Hugh Glasgow and Sarah Blair as Alexander’s parents. Alexander’s 1786 generation fits their established Pennsylvania household and the named son group, giving a specific compiled-family identification.
+
+Scope: Confident95%; family-history evidence, no newly inspected contemporary parent record.
+
+Next useful test: Compare the named son entry with Hugh’s family and probate papers.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [William Melanchthon Glasgow, Family History Document; https://www.wikitree.com/photo/pdf/Glasgow-590](https://www.wikitree.com/photo/pdf/Glasgow-590)

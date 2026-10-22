@@ -1,6 +1,12 @@
 # Glasgow-1410 research findings
 
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-a337552bd7ae -->
+## Current conclusion
+
+Current father assessment (22 October 2026): **98% (proved)** for [Glasgow-1406](https://www.wikitree.com/wiki/Glasgow-1406). Recorded 1712 child and Baird household; no equation with another Michael event or upstream childhood. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
+The held 14 October 1712 Irvine transcript names Michael Glasgow and Catharine Baird as the child Michael’s parents. The selected Michael represents that same parental couple and local child family, identifying the record father.
+
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-a337552bd7ae
 
 The transcript-validated baptism record for **Michael Glasgow**, 14 Oct 1712, Irvine, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
@@ -15,3 +21,17 @@ The transcript-validated baptism record for **Michael Glasgow**, 14 Oct 1712, Ir
 
 Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
 <!-- END FMP-GLASGOW-fmp-glasgow-a337552bd7ae -->
+
+## Father confidence review, third batch — 22 October 2026
+
+[Glasgow-1406](https://www.wikitree.com/wiki/Glasgow-1406) remains the selected father, assessed **98% (proved)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+The held 14 October 1712 Irvine transcript names Michael Glasgow and Catharine Baird as the child Michael’s parents. The selected Michael represents that same parental couple and local child family, identifying the record father.
+
+Scope: Recorded 1712 child and Baird household; no equation with another Michael event or upstream childhood.
+
+Next useful test: Check the original entry’s residence and surrounding household records.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Michael Glasgow, 14 Oct 1712, record SCOT/OPR/BAP/3573029](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3573029&tab=this)

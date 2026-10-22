@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **99% (proved)** for [Glasgow-1144](https://www.wikitree.com/wiki/Glasgow-1144). Confident99%; retained will transcriptions, with no newly inspected original or new mother assignment. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 John was born about 1756, not 1765: his Gilders Creek stone says that he died
 11 December 1826 aged 70. James Glasgow's will directly calls John his son,
 gives him fifty acres, and entrusts him with Robert and Mary in supporting the
@@ -54,3 +56,17 @@ A possible identification concerns John Glasco, charged at Bow Street. John Glas
 
 A possible identification concerns John Glascow, London chairman. John Glascow, a chairman, said he saw a man in black running with pistols after Martha Ray was shot in Covent Garden. (Derby Mercury, provider-labelled 19 March 1779, p.2; [record](https://www.newspapers.com/image/394231375/); Old Bailey original, printed p.207; [record](https://www.dhi.ac.uk/san/ob/1770s/177904040005.gif); Old Bailey Proceedings, James Hackman record t17790404-3; event dating only; [record](https://www.oldbaileyonline.org/record/t17790404-3).) The Old Bailey indictment specifies that Martha Ray was shot on 7 April 1779 (printed p.207); that is the event date, not the indictment or newspaper publication date. The newspaper describes evidence after the shooting, not established trial testimony. Its March provider label is incorrect. The identification remains uncertain.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, third batch — 22 October 2026
+
+[Glasgow-1144](https://www.wikitree.com/wiki/Glasgow-1144) remains the selected father, assessed **99% (proved)**. Previous selected-tree status: **strongly_supported**, without an individual percentage.
+
+James’s 1775 Newberry will expressly calls John his well-beloved son and devises him fifty acres. Mary’s 1822 will independently calls John her son, while the Gilders Creek family context identifies the selected John and James household.
+
+Scope: Confident99%; retained will transcriptions, with no newly inspected original or new mother assignment.
+
+Next useful test: Use the named will family to test less-secure descendants.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: ["Will of James Glasgow" (https://web.archive.org/web/20101124215937 id_/http://lifesweaving.com/Glasgow/Paper_JGlasgowWill.html), transcription of Newberry Will Book A, p. 194; will dated 17 October 1775 and proved 13 July 1793 (accessed 12 August 2026).](https://web.archive.org/web/20101124215937id_/http://lifesweaving.com/Glasgow/Paper_JGlasgowWill.html); ["Will of Mary Glasgow" (https://web.archive.org/web/20101104164512 id_/http://lifesweaving.com/Glasgow/Paper_MaryWill.html), transcription of Newberry Will Book H, pp. 489–490; will dated 5 April 1822 and proved 14 October 1822 (accessed 12 August 2026).](https://web.archive.org/web/20101104164512id_/http://lifesweaving.com/Glasgow/Paper_MaryWill.html)

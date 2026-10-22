@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **99% (proved)** for [Glasgow-1057](https://www.wikitree.com/wiki/Glasgow-1057). Recorded William and Spark household; the 1700/1701 date discrepancy and John’s own Edinburgh childhood remain separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Reviewed: 2026-10-21. **Preferred possible adult identity with the Dundonald weaver,56%; keep the1700-child identification and maternal-name distinction qualified.**
 
 Prefer the Irvine father account William Glasgow-1055 as the same adult as the Dundonald weaver William Glasgow-3586, at 56% subjective identity confidence. The Irvine entries name Wm or William as father of Grizell in 1724, Agnes in 1725, Katherine in 1727 and Margaret in 1729. The Dundonald entry names William Glasgow, weaver at Achenyeards, as Jean’s father on 1 October 1732. An existing adult household in the adjoining Irvine parish followed by the 1732 Dundonald household is a specific chronological and local fit, and is preferred to matching an otherwise untraced childhood profile alone. This is an inferred adult identity: the Irvine transcripts do not state the father’s trade or Achenyeards residence.
@@ -31,3 +33,17 @@ James Richmond’s Irvine account in the Old Statistical Account,volume7,printed
 - [James Richmond, Old Statistical Account, Irvine,vol7,p170 / PDFpage2; geography only](https://stataccscot.ed.ac.uk/data/pdfs/account1/StAS.1.7.169.P.Ayrshire.Irvine.pdf#page=2)
 
 Inspect the original Irvine1724–1729 and Dundonald1732–1733 entries for the father’s occupation, residence and witnesses, and compare the Stevenston1700 entry with the adult’s later household. Seek a marriage, tenancy or kirk-session record distinguishing the Irvine father from William-3288 and William-1061. Test Mary versus Margaret independently; do not create a wife’s death to explain a later pairing.
+
+## Father confidence review, third batch — 22 October 2026
+
+[Glasgow-1057](https://www.wikitree.com/wiki/Glasgow-1057) remains the selected father, assessed **99% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+The retained Stevenston baptism citation names William’s father John Glasgow and mother Agnas Spark. John-1057 represents that same John/Agnes parental household, also found in George’s 1687 Kilwinning entry. The specific couple identifies the record father strongly.
+
+Scope: Recorded William and Spark household; the 1700/1701 date discrepancy and John’s own Edinburgh childhood remain separate.
+
+Next useful test: Resolve the event-date discrepancy from the original register without reopening the named parents.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [“Scotland Births and Baptisms, 1564-1950”, a database available on FamilySearch, where you can find William Glasgow’s christening record [https://www.familysearch.org/ark:/61903/1:1:XYZK-3JZ).](https://www.familysearch.org/ark:/61903/1:1:XYZK-3JZ)

@@ -4,6 +4,8 @@ Checked against the live profile and linked child profiles on **26 July 2026**.
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **28% (uncertain)** for [Glasgow-1087](https://www.wikitree.com/wiki/Glasgow-1087). Uncertain28%; estimated generation and locality, without repurposing Andrew’s children as evidence of his father. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Andrew is a legitimate record-defined father: Kirknewton baptism indexes name
 Andrew/Andro Glasgow as father of Bessie in 1666 and William in 1671. The latter
 is [Glasgow-1026](https://www.wikitree.com/wiki/Glasgow-1026), so that
@@ -42,3 +44,17 @@ rests only on locality and naming. It should not be treated as proved.
 - Parentage from the name William used by Andrew's son.
 - That Andrew was born at the parish where his children were baptised.
 - Any Scotland-to-Ireland connection from the later claims on William-1026.
+
+## Father confidence review, third batch — 22 October 2026
+
+[Glasgow-1087](https://www.wikitree.com/wiki/Glasgow-1087) remains the selected father, assessed **28% (uncertain)**. Previous selected-tree status: **uncertain**, without an individual percentage.
+
+Andrew’s Kirknewton children in 1666 and 1671 establish him as a father but do not identify his own parents. William-1087’s 1609 generation could fit a son around 1645, making the inherited local-family placement possible; no held record joins the men.
+
+Scope: Uncertain28%; estimated generation and locality, without repurposing Andrew’s children as evidence of his father.
+
+Next useful test: Locate Andrew’s marriage or a family property clause.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [WikiTree profile export for Glasgow-1319](https://www.wikitree.com/wiki/Glasgow-1319)

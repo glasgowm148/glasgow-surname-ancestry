@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **61% (probable)** for [Glasgow-1120](https://www.wikitree.com/wiki/Glasgow-1120). Probable 61%; particular parental couple and chronology, without an independently held parent record. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 <!-- site-audit-2026-10-07:overall-conclusion -->
 George Glasgow is recorded on the family tree with an estimated birth about 1769 and no known death; no record in this file yet documents his life. Royal Artillery notices of 1771 to 1819 naming a George Glasgow were considered for this profile and withdrawn on 6 October 2026. The review assigned them to the artillery general George Glasgow, who died in London in 1820 (the 1795 notice only probably), and the 1771 notice to an earlier artillery officer; neither man has a WikiTree profile.
 
@@ -74,3 +76,17 @@ No regiment is stated in the appointment paragraph. It cannot safely be joined t
 
 This may concern [Glasgow-1529](https://www.wikitree.com/wiki/Glasgow-1529). Estimated c. 1769 birth would make him about five in 1774 if approximately correct, a strong chronology tension. Estimate not independently checked; weak/unlikely lead.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, third batch — 22 October 2026
+
+[Glasgow-1120](https://www.wikitree.com/wiki/Glasgow-1120) remains the selected father, assessed **61% (probable)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+The inherited account specifically makes George the son of James Glasgow and Mary Scott. George’s c 1769 birth is compatible with the selected James’s c 1738 generation and the same family setting, but the held support is a FamilySearch family-tree entry.
+
+Scope: Probable 61%; particular parental couple and chronology, without an independently held parent record.
+
+Next useful test: Locate George’s baptism or death parent fields for James and Mary Scott.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [WikiTree profile export for Glasgow-1529](https://www.wikitree.com/wiki/Glasgow-1529)

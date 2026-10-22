@@ -4,6 +4,8 @@ Last updated: 2026-10-07
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **34% (possible)** for [Glasgow-1502](https://www.wikitree.com/wiki/Glasgow-1502). Possible 34%; a compatible local older generation, without a named-son or specific succession clause. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 James and Sarah/Sara Murray had four children recorded in the derivative
 Larne/Kilwaughter register chronology: Jean (1728), William (1730),
 Helen/Hellen (1732) and Christian (1740). No public record inspected in this
@@ -93,3 +95,17 @@ Recorded in `research/Glasgow-1504/Glasgow-1504.md` (undated legacy draft); carr
 ## Scope of the Larne will-index lead — 17 October 2026
 
 Findmypast entry [IRE/DIOC/WILL/00377282](https://www.findmypast.co.uk/transcript?id=IRE%2FDIOC%2FWILL%2F00377282&tab=this), names **William**, not this James. It is an associated Larne family lead, with the William's identity and date unresolved; it is not a testament or death record assigned to James. No parentage or dates change on that basis.
+
+## Father confidence review, third batch — 22 October 2026
+
+[Glasgow-1502](https://www.wikitree.com/wiki/Glasgow-1502) remains the selected father, assessed **34% (possible)**. Previous selected-tree status: **uncertain**, without an individual percentage.
+
+James’s c 1707 generation and Larne family fit an older Robert born about 1675 within the same local Glasgow network. The held derivative chronology names James and Sarah’s children, but neither it nor the later William probate index identifies James’s parents.
+
+Scope: Possible 34%; a compatible local older generation, without a named-son or specific succession clause.
+
+Next useful test: Seek a deed, lease or probate clause joining James to Robert.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Inherited father attachment: Glasgow-1504 to Glasgow-1502; retained public historical profile and individually stated evidence limits](https://www.wikitree.com/wiki/Glasgow-1504)

@@ -4,6 +4,8 @@ Last updated: 2026-10-20
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **98% (proved)** for [Glasgow-2682](https://www.wikitree.com/wiki/Glasgow-2682). Recorded 1679 child only; the 1680 same-name child, later apprentice and James-2682’s own childhood remain separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 **Related maternal proposal, 21 October 2026:** [Isobell/Elizabeth Duffe](/people/duffe-18.html) is now selected as [the 1696 apprentice James’s](/people/glasgow-4114.html) probable mother, 72%, through the same qualified household. The two James childhood accounts remain separate and neither is selected as the apprentice. This does not change this profile’s parents, grades or dates. [Full maternal argument](/branches/research-calder-inveresk-james/#chapter-edinburgh-apothecary-probable-father).
 
 
@@ -96,3 +98,17 @@ This changes the earlier decision not to select a mother: use a probable househo
 The original baptism and indenture manuscripts were not inspected in this review. The two parish rows are reused evidence, not new source discoveries. Their collection dates are not automatically birthdays.
 
 **Next evidence:** Inspect the original 1679/1680 baptisms for maternal forenames, residence and witnesses, and seek an infant burial or later apprenticeship/occupation identifier. Compare the 1690 cancellation before any child-profile merger. The mother remains a probable proposal, not a documented maternal role of the apprentice.
+
+## Father confidence review, third batch — 22 October 2026
+
+[Glasgow-2682](https://www.wikitree.com/wiki/Glasgow-2682) remains the selected father, assessed **98% (proved)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+The16 March 1679 Edinburgh OPR entry names child James, father James Glasgow and mother Elizabeth Duffe. James-2682 represents the same James/Isobell Duffe household across surrounding children; the full couple and sequence strongly identify the recorded father despite the mother’s indexed forename variation.
+
+Scope: Recorded 1679 child only; the 1680 same-name child, later apprentice and James-2682’s own childhood remain separate.
+
+Next useful test: Read the mother’s forename in the original while preserving the two child records.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [“Scotland, Births and Baptisms, 1564-1950”, database, FamilySearch (https://familysearch.org/ark:/61903/1:1:VQC9-Q9J : 11 February 2020), James Glasgow in entry for James Glasgow, 1679.](https://familysearch.org/ark:/61903/1:1:VQC9-Q9J)

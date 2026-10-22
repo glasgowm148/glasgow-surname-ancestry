@@ -5,6 +5,8 @@ Last updated: 2026-09-30
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **99% (proved)** for [Glasgow-1148](https://www.wikitree.com/wiki/Glasgow-1148). Recorded 1637 child and Clerk household; the older Alexander’s upstream James identity remains uncertain. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Reviewed: 2026-10-21. Do not treat the stale Glasgow-1152 link as independent evidence that the adults are one man. The 1665 Edinburgh Alexander/Issobell Anderson marriage belongs to the maintained Glasgow-1152 couple. Marie’s 11 October 1674 St Cuthbert’s baptism transcript explicitly names Alexander Glasgow and Issobell Andersone, after the 1667 Kirknewton Margaret Smith marriage and between the 1673 and 1677 Kirknewton children. A simple first-wife-died/remarriage account therefore has an unexplained overlap. The dates are baptism/index dates, so delayed baptism or a more complicated family history cannot be excluded. Prefer separate household accounts pending a record explaining the overlap; no categorical identity exclusion or merge is made. [Agnes’s corrected account](/people/glasgow-1312.html). The 1637 child account and the assigned 1665 Anderson marriage are preserved; their separate child-to-adult identification is not newly proved.
 
 <!-- opr-birth-review-row-59 -->
@@ -57,3 +59,17 @@ The parish index supplies no mother, occupation, precise residence or explicit l
 - [Current Agnes profile](https://www.wikitree.com/wiki/Glasgow-1312), anonymous API check 21 October 2026, revision 20260825213813; [Alexander-3118](https://www.wikitree.com/wiki/Glasgow-3118), numeric ID 44215058. Current tree fields and prose are modern assertions, not additional parish sources.
 
 **Next discriminating evidence:** inspect the original 1667 marriage and 1673/1677 child entries for residences, witnesses and maternal names; compare the original 1674 St Cuthbert’s entry before any cross-household identity proposal.
+
+## Father confidence review, third batch — 22 October 2026
+
+[Glasgow-1148](https://www.wikitree.com/wiki/Glasgow-1148) remains the selected father, assessed **99% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+The3 September 1637 Inveresk baptism explicitly names Allexander’s father Alexander Glasgow and mother Jannet Clerk. Alexander-1148 represents that exact Fisherrow/Musselburgh couple and the surrounding child sequence.
+
+Scope: Recorded 1637 child and Clerk household; the older Alexander’s upstream James identity remains uncertain.
+
+Next useful test: Retain this full-couple record anchor when comparing the sasines.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: ["Scotland Births and Baptisms, 1564-1950", database, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:VQ4V-LM5 : 16 September 2021), Allexander Glasgow, 1637.](https://www.familysearch.org/ark:/61903/1:1:VQ4V-LM5)

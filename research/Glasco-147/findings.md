@@ -4,6 +4,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **81% (probable)** for [Glasco-146](https://www.wikitree.com/wiki/Glasco-146). Probable 81%; the relation is a held compiled statement, with the underlying parent clause not reproduced. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Reviewed: 2026-10-16
 
 **Selected Dublin/Irvine working families,16 October 2026:** Philip Glasco-146 is used provisionally as the elder Dublin watchmaker and placed under Thomas-1242, uncertain through the 1711 child comparison. James of the Irvine Rae household is placed under Hugh-3109, uncertain. No new mother is attached, and both elder/junior and Hugh identities remain qualified. [Evidence and alternatives](/branches/early-scottish-records/#dublin-irvine-working-family).
@@ -54,3 +56,17 @@ The current public API capture retains Teresa Plunkett as this profile’s spous
 - [James’s complete Irvine household and retained 1723 Marion Rae entry](https://www.wikitree.com/wiki/Glasgow-4158)
 - [Philip junior profile: current biography capture checked16 October2026](https://www.wikitree.com/wiki/Glasgow-3932)
 - [Robert Glasgow-3897: correct Kilrea subject retaining the entire misplaced biography](https://www.wikitree.com/wiki/Glasgow-3897)
+
+## Father confidence review, third batch — 22 October 2026
+
+[Glasco-146](https://www.wikitree.com/wiki/Glasco-146) remains the selected father, assessed **81% (probable)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+The retained Dublin watchmaker account expressly describes Philip the younger as son of Philip the elder. The matching unusual trade and elder/younger distinction identify a specific two-generation family, beyond a surname match.
+
+Scope: Probable 81%; the relation is a held compiled statement, with the underlying parent clause not reproduced.
+
+Next useful test: Read the watchmakers’ underlying will or trade entry before treating the relation as proved.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [WikiTree profile export for Glasco-147](https://www.wikitree.com/wiki/Glasco-147)

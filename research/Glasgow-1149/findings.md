@@ -4,6 +4,8 @@ Last updated: 2026-08-31
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **97% (proved)** for [Glasgow-1148](https://www.wikitree.com/wiki/Glasgow-1148). The 1627 child’s parentage, not proof that he became the later Edinburgh cordiner or husband. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Reviewed: 2026-10-16
 
 **Selected working family, 16 October 2026:** The 1652 Edinburgh cordiner Glasgow-3938 is tentatively placed under Robert Glasgow-1027 and Jonet Cunningham-20923 through possible identity with their 1618 child Glasgow-1078. Both adult parent links are uncertain. Larne and Lorimer namesakes remain separate accounts; no dates, existing attachments or confidence grades are overwritten. [Evidence and alternatives](/branches/early-scottish-records/#edinburgh-cordiner-family).
@@ -120,3 +122,17 @@ The 1652 Thomsone bridegroom now has a selected uncertain Glasgow-city childhood
 - [Glasgow baptism, 17 November 1618, OPR 644/1, reported 10/272; existing transcription names both parents](https://www.scotlandspeople.gov.uk/)
 - [Edinburgh burgess 1666, Euphame Lorimer household; retained namesake comparison](https://www.findmypast.co.uk/transcript?id=SCOT%2FBURGESS%2F1009525&tab=this)
 - [Reported 1644 West Port sasine index, SRO44 p.160; Lorimer household, original unread](https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481222&seq=168)
+
+## Father confidence review, third batch — 22 October 2026
+
+[Glasgow-1148](https://www.wikitree.com/wiki/Glasgow-1148) remains the selected father, assessed **97% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+Robert’s 30 December 1627 Inveresk baptism names Allexander Glasgow. The selected Alexander account represents the local father whose children run from 1626 to 1637, with the same family later explicitly naming Janet Clerk. This supports the recorded child’s father strongly.
+
+Scope: The 1627 child’s parentage, not proof that he became the later Edinburgh cordiner or husband.
+
+Next useful test: Test the child-to-cordiner identity with an age, apprenticeship or kinship record.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Scotland's People, Church of Scotland Old Parish Registers, births and baptisms, Inveresk and Musselburgh parish 689, reference 10/171, Robert Glasgow, 30 December 1627. See also FamilySearch record VQ4V-58S (https://www.familysearch.org/ark:/61903/1:1:VQ4V-58S).](https://www.familysearch.org/ark:/61903/1:1:VQ4V-58S)

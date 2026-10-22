@@ -4,6 +4,8 @@ Last updated: 2026-08-11
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **36% (possible)** for [Glasgow-1367](https://www.wikitree.com/wiki/Glasgow-1367). Possible 36%; local family hypothesis, without a named-son or holding-succession bridge. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 William `Glasgow-1387` is the William Glasgow, aged 40, recorded at
 Cloughgaldenagh house 1 in the surviving 1851 Dunaghy census. His wife was
 Ellin/Ellen, also 40, and the return explicitly records eight children. This is
@@ -64,3 +66,17 @@ Emma’s marriage notice names her father as the late William Alexander Glasgow.
 
 An ordinary William with no recorded middle name remains compatible. The Belfast death in 1874 and a possible later daughter fit this family comparison; the 1851 household’s absence of Emma does not exclude a child born later. The source does not identify this William as William Alexander. [William Glasgow of Killycurragh](https://www.wikitree.com/wiki/Glasgow-1737), [William Glasgow who died in Ohio in 1855](https://www.wikitree.com/wiki/Glasgow-1675), and [William Glasgow associated with County Limerick](https://www.wikitree.com/wiki/Glasgow-3952) remain lower comparisons. The c.1815 [Emma Glasgow](https://www.wikitree.com/wiki/Glasgow-2771) hypothesis cannot be combined with this William’s c.1810 birth.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, third batch — 22 October 2026
+
+[Glasgow-1367](https://www.wikitree.com/wiki/Glasgow-1367) remains the selected father, assessed **36% (possible)**. Previous selected-tree status: **uncertain**, without an individual percentage.
+
+William’s Dunaghy origin, c 1810 birth and established local family fit Robert of Glenleslie, born c 1779 and married in 1803. The selected father is a specific compatible nearby family head, but neither William’s 1851 household nor the older Robert’s household names this relationship.
+
+Scope: Possible 36%; local family hypothesis, without a named-son or holding-succession bridge.
+
+Next useful test: Compare William’s marriage and children’s sponsors with the Glenleslie household.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [“1851 Irish Census Returns,” Cloughgaldenagh house 1, Dunaghy, County Antrim, detailed public transcription, PDF (); see also National Archives of Ireland household page () and FamilySearch QV9Y-WFJ7](https://durrushistory.com/wp-content/uploads/2012/10/1851irishcensusreturnscommadelimitedtextfilejul24_071.pdf)

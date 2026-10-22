@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **43% (possible)** for [Glasgow-3332](https://www.wikitree.com/wiki/Glasgow-3332). Possible 43% for the selected adult profile; the record-defined father’s name is explicit. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Reviewed: 2026-10-16
 
 **Selected uncertain Carnwath/Lindsaylands family, 16 October 2026:** James Glasgow-3332 is the working father of Robert Glasgow-3407 only through the possible 1680 weaver identity and an earlier birth than Robert’s unsupported 1690 estimate. The overlapping Wilson and Gibson/Watson Robert accounts stay separate; Johne Glasgow-3093 remains an unselected alternative father. [Evidence and alternatives](/branches/early-scottish-records/#carnwath-lindsaylands-working-family).
@@ -71,3 +73,17 @@ The 1680 index describes James as a weaver in the Back of Lindsaylands, parish o
 - [Robert/Katherin Gibson, Libberton Janet, 22 April 1718: previously reviewed transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4033250&tab=this)
 - [Robert/Katherine Watson, Libberton Agnes, 21 August 1720: previously reviewed transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4033335&tab=this)
 - [Johne Glasgow, Mid Calder 1648, named father Jamis: previous index review](https://www.familysearch.org/ark:/61903/1:1:X1BL-JXR)
+
+## Father confidence review, third batch — 22 October 2026
+
+[Glasgow-3332](https://www.wikitree.com/wiki/Glasgow-3332) remains the selected father, assessed **43% (possible)**. Previous selected-tree status: **uncertain**, without an individual percentage.
+
+The 1648 Mid Calder index names Johne’s father as Jamis Glasgow. James-3332 is the existing local-family candidate, but his own estimated 1630/1634 birth, conflated estate ancestry and possible Lindsaylands identity do not establish him as that Jamis. The younger estimate also implies unusually early fatherhood.
+
+Scope: Possible 43% for the selected adult profile; the record-defined father’s name is explicit.
+
+Next useful test: Identify the 1648 father’s residence or occupation before linking the estate candidates.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [https://www.familysearch.org/ark:/61903/1:1:X1BL-JXR](https://www.familysearch.org/ark:/61903/1:1:X1BL-JXR)

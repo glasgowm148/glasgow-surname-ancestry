@@ -2,6 +2,12 @@
 
 Last updated: 2026-10-07
 
+## Current conclusion
+
+Current father assessment (22 October 2026): **57% (possible)** for [Glasgow-3904](https://www.wikitree.com/wiki/Glasgow-3904). Possible 57%; late family testimony is the parent evidence, while the will proves brotherhood only. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
+A specific descendant account names Alexander and Rosanna as Thomas of Lisnagaver’s parents. Thomas’s documented household and proved brother Daniel give that testimony a coherent family setting, rather than a free-standing same-name guess. No contemporary parent-naming record independently verifies the reported older couple.
+
 ## Assessment history — will and marriage review
 
 Two original records now strongly identify Thomas Glasgow of Lisnagaver as the
@@ -304,3 +310,17 @@ The [civil marriage register for Finvoy, 7 March 1867](https://www.irishgenealog
 The [marriage of Catherine Glasgow and Alexander Smith at Ballymena on 17 June 1871](https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1871/11341/8162761.pdf) concerns Catherine of Cabragh, daughter of Saml Glasgow, labourer. She is **not** Thomas's probable daughter Catherine (Glasgow-3976).
 
 Recorded in `research/Glasgow-951/findings.md` (GRONI export triage, 23 September 2026); carried into this file on 7 October 2026.
+
+## Father confidence review, third batch — 22 October 2026
+
+[Glasgow-3904](https://www.wikitree.com/wiki/Glasgow-3904) remains the selected father, assessed **57% (possible)**. Previous selected-tree status: **possible**, without an individual percentage.
+
+A specific descendant account names Alexander and Rosanna as Thomas of Lisnagaver’s parents. Thomas’s documented household and proved brother Daniel give that testimony a coherent family setting, rather than a free-standing same-name guess. No contemporary parent-naming record independently verifies the reported older couple.
+
+Scope: Possible 57%; late family testimony is the parent evidence, while the will proves brotherhood only.
+
+Next useful test: Seek the older couple in church or property records for the proved brothers.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Peter, Trying to find Glasgow, Genes Reunited discussion, 25 January 2007 and later replies; descendant testimony naming Alexander and Rosanna as Thomas’s parents](https://www.genesreunited.co.uk/boards/board/general_topics/thread/465937)

@@ -4,6 +4,8 @@ Last updated: 2026-09-10
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **99% (proved)** for [Glasgow-1066](https://www.wikitree.com/wiki/Glasgow-1066). Record-defined 1676 child and Lachland household; later Mary Dean and Jean Service adult identifications remain separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Reviewed: 2026-10-16
 
 **Selected working families,16 October2026:** James of Kilwinning Glasgow-3105 is placed under John Glasgow-3375, uncertain; Hugh of Irvine Glasgow-3109 is placed under Hew Glasgow-1066 and Margaret Lachland-2 through the 1676 child comparison, both uncertain. James’s mother stays unknown; all alternative identities remain open. [Evidence and alternatives](/branches/early-scottish-records/#ayrshire-family-heads).
@@ -76,3 +78,17 @@ The 1696 Irvine father is now the selected uncertain adult-identity comparison f
 - [Jon,6 July 1679,Kilwinning; John and Barbara Alason,OPR599,FR44](https://www.familysearch.org/ark:/61903/1:1:XTVY-VL9)
 - [James,14 July 1689,Kilwinning; James and Margaret Park,OPR599,10/65](https://www.familysearch.org/ark:/61903/1:1:XTVB-3YQ)
 - [Anne,22 May 1689,Kilwinning; father James, mother unnamed in index](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3625052&tab=this)
+
+## Father confidence review, third batch — 22 October 2026
+
+[Glasgow-1066](https://www.wikitree.com/wiki/Glasgow-1066) remains the selected father, assessed **99% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+The 24 May 1676 Kilwinning baptism explicitly names Hew Glasgow and Margaret Lachland as Hew’s parents. The selected Hew profile represents that same named parental household, giving a direct father identification.
+
+Scope: Record-defined 1676 child and Lachland household; later Mary Dean and Jean Service adult identifications remain separate.
+
+Next useful test: Use this recorded household anchor when testing Hew’s later adult continuity.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: ["Church of Scotland: Old Parish Registers - Births and Baptisms," database, National Records of Scotland, (ScotlandsPeople (https://www.scotlandspeople.gov.uk/) : accessed 25 March 2023), Hew Glasgow born or baptised on 24 May 1676, son of Hew Glasgow & Margaret Lachland, in Kilwinning, Ayrshire, Scotland; citing Parish Number 599, Ref 10/23, Frame 34.](https://www.scotlandspeople.gov.uk/)

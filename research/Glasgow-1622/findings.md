@@ -5,6 +5,8 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **53% (possible)** for [Glasgow-3902](https://www.wikitree.com/wiki/Glasgow-3902). Possible53% for the specific Inishrush Adam; James’s recorded father name is direct, not evidence of Adam’s own parentage. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Adam is directly named as the father of James Glasgow in James's original 1851
 marriage register. The record does not name James's mother, Adam's residence or
 Adam's own parents. James's Inishrush residence makes this Adam an important
@@ -92,3 +94,17 @@ A possible identification concerns Adam D. Glasgow, Broughshane student and Belf
 
 A possible identification concerns Adam D. Glasgow, Broughshane student and Belfast teacher/minister. General Synod report separately says ordained Ministers Messrs Adam Glasgow and James Carr offered themselves for foreign mission in India and were accepted; initial field Kathiawar/Guzerat, planned departure 4 August overland to Bombay. (Belfast News-Letter, 14 July 1840, p. 1; [record](https://www.newspapers.com/image/390559244/).) This is James Carr, not James Glasgow in adjacent set-apart report. Planned departure is not proof journey occurred. The identification remains uncertain.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, third batch — 22 October 2026
+
+[Glasgow-3902](https://www.wikitree.com/wiki/Glasgow-3902) remains the selected father, assessed **53% (possible)**. Previous selected-tree status: **uncertain**, without an individual percentage.
+
+James’s 1851 Portglenone marriage directly names father Adam Glasgow, farmer. The older Adam-3902 was an established Inishrush farmer of the right generation in the same local district, making him the leading concrete candidate. Neither the marriage nor the 1831 household return names James as that older man’s son.
+
+Scope: Possible53% for the specific Inishrush Adam; James’s recorded father name is direct, not evidence of Adam’s own parentage.
+
+Next useful test: Seek James in the Inishrush household’s property or family records.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: ["Ireland Marriages, 1619–1898," database, FamilySearch (record FGC7-SDN (https://www.familysearch.org/ark:/61903/1:1:FGC7-SDN)), marriage of James Glasgow and Rosanna Barkley, 17 March 1851, Portglenone, County Antrim, Ireland; citing p. 153, line 89.](https://www.familysearch.org/ark:/61903/1:1:FGC7-SDN)

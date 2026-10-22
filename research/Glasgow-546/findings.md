@@ -2,7 +2,13 @@
 
 Last updated: 2026-10-07
 
-## Current answer
+## Current conclusion
+
+Current father assessment (22 October 2026): **94% (proved)** for [Glasgow-540](https://www.wikitree.com/wiki/Glasgow-540). Confident 94%; secondary county history, with no fresh original parent record. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
+The county-history account in Hugh’s held biography explicitly includes Robert among Hugh and Sarah’s sons. Robert’s 1791 birth and associated Pennsylvania family fit that identified descendant household. This is a named compiled-family attribution, not merely census proximity.
+
+## Allegheny probate assessment
 
 Robert Glasgow's indexed Allegheny probate date is consistent with this profile,
 but the packet has not been read. It currently adds a precise retrieval target,
@@ -44,3 +50,17 @@ Hugh Glasgo of Deer Township, Allegheny County (`Glasgow-540`), in his will sign
 The will proves that Hugh had a son Robert, his residuary devisee and co-executor, and that Hugh's wife, who is not named, was Robert's mother. It names no Irish place and does not say where the land lay. That this profile is the will's Robert is inference from the WikiTree family placement and W. M. Glasgow's late family history, which lists a son Robert; the will gives him no age.
 
 Recorded in `research/Glasgow-540/sources/hugh_glasgow_will_1827_transcription.md` (16 July 2026); carried into this file on 7 October 2026.
+
+## Father confidence review, third batch — 22 October 2026
+
+[Glasgow-540](https://www.wikitree.com/wiki/Glasgow-540) remains the selected father, assessed **94% (proved)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+The county-history account in Hugh’s held biography explicitly includes Robert among Hugh and Sarah’s sons. Robert’s 1791 birth and associated Pennsylvania family fit that identified descendant household. This is a named compiled-family attribution, not merely census proximity.
+
+Scope: Confident 94%; secondary county history, with no fresh original parent record.
+
+Next useful test: Compare the county-history son list with Hugh’s probate and family papers.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Thomas Cushing, History of Allegheny County Pennsylvania, 1889, A. Warner & Co., Part II, Chapter XII, p. 138. https://archive.org/details/historyofalleghe01cush/page/138/mode/1up](https://archive.org/details/historyofalleghe01cush/page/138/mode/1up)

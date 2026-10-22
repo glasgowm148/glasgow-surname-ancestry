@@ -1,0 +1,38 @@
+{
+  "reviewed": "2026-10-22",
+  "newly_rated_father_links": 70,
+  "newly_graded_confident_existing_fathers": 16,
+  "new_father_attachments": 0,
+  "new_paternal_joins": 0,
+  "coverage": {
+    "rated_edge_count": 356,
+    "unrated_edge_count": 1040,
+    "rated_edges_percent": 25.501432664756447,
+    "mean_percent": 63.561797752808985
+  },
+  "eligible_father_links": 1396,
+  "working_components": 404,
+  "model_parity": {
+    "main": {
+      "checked": 1396,
+      "mismatches": []
+    },
+    "standalone": {
+      "checked": 1396,
+      "mismatches": []
+    },
+    "packed": {
+      "checked": 1396,
+      "mismatches": []
+    }
+  },
+  "full_compact_update_membership_agrees": true,
+  "complete_drafts_verified": 70,
+  "private_complete_comparisons": 1,
+  "new_research_publication_failures": 0,
+  "existing_research_publication_baseline_retained": true,
+  "new_broken_link_pairs": 0,
+  "unrated_queue_exactly_matches_graph": true,
+  "local_only": true,
+  "live_deployment": false
+}

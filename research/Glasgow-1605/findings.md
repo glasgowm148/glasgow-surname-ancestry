@@ -5,6 +5,8 @@ Last updated: 2026-09-26
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **32% (possible)** for [Glasgow-2462](https://www.wikitree.com/wiki/Glasgow-2462). Possible32% for William-2462 specifically; the baptism’s father name is secure, and the Cavers prisoner identity is not inferred. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Reviewed: 2026-10-16
 
 **Selected conditional family, 16 October 2026:** Glasgow-591 and the Cavers man Glasgow-4138 are placed under Glasgow-2462 through possible identity with the Polwarth child Glasgow-1605. Both new father links are very uncertain and share the same unproved premises; no mother or identity merge is selected. [Evidence and alternatives](/branches/early-scottish-records/#polwarth-cavers-ulster-working-family).
@@ -82,3 +84,17 @@ Two very uncertain local father hypotheses are selected from existing research; 
 - [Waddell, Annals of Augusta County, 1886 p.5 note 1; late blanket Ulster claim](https://en.wikisource.org/wiki/Page:Annals_of_Augusta_County.djvu/21)
 - [Waddell, revised Annals, 1902 p.8; some survivors, neither Glasgow named](https://archive.org/stream/annalsofaugustac00wadd/annalsofaugustac00wadd_djvu.txt)
 - [Holden and Thompson, The Covenanters in Ulster, pp.6–7; modern secondary associate/route evidence](https://ulster-scots.com/wp-content/uploads/2023/11/USCN-Covenanters-in-Ulster-Tabloid.pdf)
+
+## Father confidence review, third batch — 22 October 2026
+
+[Glasgow-2462](https://www.wikitree.com/wiki/Glasgow-2462) remains the selected father, assessed **32% (possible)**. Previous selected-tree status: **uncertain**, without an individual percentage.
+
+William’s 1658 Polwarth baptism explicitly names a father William. The selected Inveresk child born 1639 would be about18, a feasible father age, but no residence, spouse or kinship record takes him to Polwarth. The related 1656 child would make the same identification tighter still.
+
+Scope: Possible32% for William-2462 specifically; the baptism’s father name is secure, and the Cavers prisoner identity is not inferred.
+
+Next useful test: Identify the Polwarth adult’s residence or spouse in the original records.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [FamilySearch, Scotland, Births and Baptisms, 1564–1950: Elizabeth Glasgow, baptised 17 August 1656 at Polwarth, father William Glasgow, record XYL3-24Q (); William Glasgow, baptised 4 April 1658 at Polwarth, father William Glasgow, record XTBH-RJS](https://www.familysearch.org/ark:/61903/1:1:XYL3-24Q)

@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **47% (possible)** for [Glasgow-635](https://www.wikitree.com/wiki/Glasgow-635). Possible 47%; named pedigree retained, without promoting the Lancaster addressee as parent evidence. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 <!-- site-audit-2026-10-07:overall-conclusion -->
 James Glasgow was North Carolina's first Secretary of State, holding the office from 1777 to 1798, and a colonel of the Dobbs County militia; his profile gives his birth as about 1735 in Maryland and his death in 1819 in Tennessee. Newspapers naming the office, from proclamations he countersigned in January 1778 to his resignation reported in December 1798, are strong matches; Masonic, postal and petition notices are probable or possible. In December 1799 commissioners accused 'the late Secretary' of irregular military land warrants, and a legislative committee reported that he alone had been arrested. Secondary sources report his trial and conviction in 1800 (State v. Glasgow).
 
@@ -356,3 +358,17 @@ James Glasgow is an addressee in letters remaining at Newbern post office, list 
 
 Postal lists do not prove residence, presence or receipt of correspondence. In particular, the list headed 1 January 1795 was printed in 1796; its printed year is preserved. Appointment to a planned university visitation committee does not prove attendance. Neither the petition nor a lodge office establishes a family relationship.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, third batch — 22 October 2026
+
+[Glasgow-635](https://www.wikitree.com/wiki/Glasgow-635) remains the selected father, assessed **47% (possible)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+The inherited account names James Patrick Glasgow as James’s father. A c 1680 father could have a son in 1735, though at a late age; the held postal and later-life references do not establish the generation or a specific place-of-origin bridge.
+
+Scope: Possible 47%; named pedigree retained, without promoting the Lancaster addressee as parent evidence.
+
+Next useful test: Locate James’s family or probate record naming his father.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [WikiTree profile export for Glasgow-634](https://www.wikitree.com/wiki/Glasgow-634)

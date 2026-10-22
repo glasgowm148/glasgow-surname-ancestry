@@ -4,6 +4,8 @@ Last updated: 2026-10-06
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **48% (possible)** for [Glasgow-1499](https://www.wikitree.com/wiki/Glasgow-1499). Possible 48%; locality, generation and associates, without a named-son clause. Ann is not inferred as mother. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 [John Glasgow of Larne (Glasgow-4179)](https://www.wikitree.com/wiki/Glasgow-4179) is now attached to [Hugh Glasgow (Glasgow-1499)](https://www.wikitree.com/wiki/Glasgow-1499) as an **uncertain son**, with low confidence. This is a working hypothesis based on locality and generation, not a record naming his father. [Older William (Glasgow-1505)](https://www.wikitree.com/wiki/Glasgow-1505) remains viable. No mother is attached; Hugh's wife Ann is not thereby identified as John's mother.
 
 The duplicate marriage has been resolved: [Rose Allan (Allan-6611)](https://www.wikitree.com/wiki/Allan-6611) is the wife of the Larne John, married in 1769 according to the [archived Kilwaughter/Larne chronology](https://web.archive.org/web/20101124184247id_/http://lifesweaving.com/Glasgow/Kilwaughter/Timeline.html). Allan-8249 now redirects to Allan-6611, the older ID required by WikiTree. Both Rose profiles cited the same marriage; neither supplied an independent Rose baptism. Her estimated birth about 1750 and inferred County Antrim birthplace remain uncertain. The chronology's 1745–48 birth estimate concerns John, not Rose.
@@ -64,3 +66,17 @@ A possible identification concerns John Glasco, charged at Bow Street. John Glas
 
 A possible identification concerns John Glascow, London chairman. John Glascow, a chairman, said he saw a man in black running with pistols after Martha Ray was shot in Covent Garden. (Derby Mercury, provider-labelled 19 March 1779, p.2; [record](https://www.newspapers.com/image/394231375/); Old Bailey original, printed p.207; [record](https://www.dhi.ac.uk/san/ob/1770s/177904040005.gif); Old Bailey Proceedings, James Hackman record t17790404-3; event dating only; [record](https://www.oldbaileyonline.org/record/t17790404-3).) The Old Bailey indictment specifies that Martha Ray was shot on 7 April 1779 (printed p.207); that is the event date, not the indictment or newspaper publication date. The newspaper describes evidence after the shooting, not established trial testimony. Its March provider label is incorrect. The identification remains uncertain.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, third batch — 22 October 2026
+
+[Glasgow-1499](https://www.wikitree.com/wiki/Glasgow-1499) remains the selected father, assessed **48% (possible)**. Previous selected-tree status: **uncertain**, without an individual percentage.
+
+John’s established Larne family, c 1747 generation and association with the local trades network fit Hugh-1499 and his proved son James born c 1748. A brother placement is a coherent reconstruction of the close local family, but the monument and held deeds name no John as Hugh’s son.
+
+Scope: Possible 48%; locality, generation and associates, without a named-son clause. Ann is not inferred as mother.
+
+Next useful test: Test John and James together in the Larne deeds and family property.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Donna Jean Glasgow, "GLASGOWS from Kilwaughter Parish and Larne, County Antrim, Northern Ireland … Timeline" () (archived 24 November 2010), a transcription of the Old Kilwaughter/Larne Non-Subscribing Presbyterian register entries](https://web.archive.org/web/20101124184247id_/http://lifesweaving.com/Glasgow/Kilwaughter/Timeline.html)

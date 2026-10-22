@@ -7,6 +7,8 @@ Last updated: 2026-10-06
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **76% (probable)** for [Glasgow-1509](https://www.wikitree.com/wiki/Glasgow-1509). Probable 76%; chronology and family reconstruction, without claiming a literal parent record. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 PRONI `D300/1/5/49` contains a grant of probate and copy will for William Glasgow
 of Larne, with the will dated 6 December 1815. This is the highest-value surviving
 record for testing William's wife, children, occupation and relationship to the
@@ -244,3 +246,17 @@ Additional advertisements in April and May 1792 explicitly name William Glasgow 
 
 The captain remains a compatible identification with William of Larne, supported by age, coastal locality and the inherited occupational suggestion. No advertisement names his wife or a personal Larne residence. The named master of the Jean may be the same man, but the vessel names do not prove it. The will dated 6 December 1815 remains the useful family-and-occupation test.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, third batch — 22 October 2026
+
+[Glasgow-1509](https://www.wikitree.com/wiki/Glasgow-1509) remains the selected father, assessed **76% (probable)**. Previous selected-tree status: **probable**, without an individual percentage.
+
+William’s retained family chronology places him under James Glasgow and Janet Shutter, with a compatible 1763/1737 generation and family naming context. This is the leading particular family reconstruction, but the derivative account itself treats it as probable and supplies no inspected baptism or will clause.
+
+Scope: Probable 76%; chronology and family reconstruction, without claiming a literal parent record.
+
+Next useful test: Read the original baptism or will used for this family.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [1763 – Birth of William Glasgow (1763 – 1816, wife Elizabeth). Infant daughter, Jane Shutter Glasgow, 1798-1799, indicates this William is son of James Glasgow b. 1737. Wife of William = Eliza? They are buried in St. Cedma's.](https://www.wikitree.com/wiki/Glasgow-3324)

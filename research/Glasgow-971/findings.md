@@ -5,6 +5,8 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **97% (proved)** for [Glasgow-1348](https://www.wikitree.com/wiki/Glasgow-1348). Recorded 1792 child and Smith household; John’s own disputed childhood and Alexander’s later occupation remain separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 <!-- site-audit-2026-10-07:overall-conclusion -->
 Alexander Glasgow of Old Court, County Cork, formerly of Auchenraith, Lanarkshire, died at Old Court on 19 October 1873; the printed Irish probate calendar records his will proved at Cork on 10 December 1873 by Robert Pirrie, one of the executors, with effects under £80,000. A burial index records him at Douglas on 24 October 1873, and an indexed Greenock death notice gives his age as 81. Marriage notices of 1853 and 1855 call Jessy, wife of Edward Eyre Newenham, his only daughter and William James Glasgow his only son. His profile's birth in 1792 and 1826 marriage to Ellen Smith have not yet been checked against records.
 
@@ -68,3 +70,17 @@ The printed Irish *Calendar of Wills and Administrations* for 1873 (right-hand p
 Seen as an image of the printed calendar, read by on-device OCR and checked against the column layout. Grade: proved for the death date and place, the grant at Cork on 10 December 1873 and Robert Pirrie's role as one of the executors. The calendar gives £80,000 as the upper limit of the sworn effects; it does not support the captured biography's statement that Alexander left £80,000 to Robert Pirrie. The will itself has not been read, so the legatees are unknown.
 
 Recorded in `archive/dump/1. Historical Research by Year/1800s/1873.jpg` (undated image of the 1873 calendar); carried into this file on 7 October 2026.
+
+## Father confidence review, third batch — 22 October 2026
+
+[Glasgow-1348](https://www.wikitree.com/wiki/Glasgow-1348) remains the selected father, assessed **97% (proved)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+Alexander’s held 5 November 1792 Barony baptism account names John Glasgow and Helen Smith. The selected John represents that specific couple, whose other children and Glasgow family fit the event; the full parental pairing strongly identifies the record father.
+
+Scope: Recorded 1792 child and Smith household; John’s own disputed childhood and Alexander’s later occupation remain separate.
+
+Next useful test: Read the original Barony entry for the exact dates and parents.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [https://www.familysearch.org/ark:/61903/1:1:X17F-M3V](https://www.familysearch.org/ark:/61903/1:1:X17F-M3V)

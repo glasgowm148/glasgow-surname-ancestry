@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **45% (possible)** for [Glasgow-1103](https://www.wikitree.com/wiki/Glasgow-1103). Possible 45%; existing Thomas hypothesis only, without assigning an unrecorded baptism or another mother. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Glasgow-3337 was merged into this older profile on 27 September 2026 as the leading identification of the St Cuthbert's father James Glasgow across 1658–65. The 1658 baptism directly names Helen Clerk as mother of Agnes; three later baptisms name Annapill/Anabell Glessie as mother. A second union would fit the sequence, but no marriage or death record proves that explanation. The parents attached to James remain uncertain.
 
 ## Recommended update
@@ -32,3 +34,17 @@ See the [graph-claim audit](../../surname-research/pre-1700/graph-claim-audit-20
 Index entries only, all at St Cuthbert's. The identity of the 1658 father with the 1661–65 father remains the leading identification adopted in the 27 September 2026 merge; no death, remarriage or other record yet bridges the two.
 
 Recorded in `research/Glasgow-3077/Glasgow-3077.md` and `research/Glasgow-3337/Glasgow-3337.md` (19 August 2026); carried into this file on 7 October 2026.
+
+## Father confidence review, third batch — 22 October 2026
+
+[Glasgow-1103](https://www.wikitree.com/wiki/Glasgow-1103) remains the selected father, assessed **45% (possible)**. Previous selected-tree status: **uncertain**, without an individual percentage.
+
+James’s St Cuthbert’s household from 1658 fits a son generation below Thomas and Agnes’s Inveresk family. The proposed connection has compatible Lothian geography and chronology, but no held record identifies James as their child; his children’s baptisms name James rather than his father.
+
+Scope: Possible 45%; existing Thomas hypothesis only, without assigning an unrecorded baptism or another mother.
+
+Next useful test: Seek James’s marriage, apprenticeship or a family probate clause.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [WikiTree profile export for Glasgow-3077](https://www.wikitree.com/wiki/Glasgow-3077)

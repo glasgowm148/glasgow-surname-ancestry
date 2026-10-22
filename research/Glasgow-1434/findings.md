@@ -6,6 +6,8 @@ Last updated: 2026-09-10
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **99% (proved)** for [Glasgow-3375](https://www.wikitree.com/wiki/Glasgow-3375). Recorded 1679 child and Alason household; neither the minister identity nor the child’s Stevenston adulthood is proved here. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Reviewed: 2026-10-16
 
 **Selected very uncertain Irvine/Kilwinning parent pair, 16 October 2026:** John Glasgow-3018 is placed under John Glasgow-3375 and Barbara Allison-6866 only through possible identity with the 1679 Kilwinning child. Infant baptism would imply fatherhood at fourteen in 1693. The skipper/bailie and younger-John identities remain unresolved; both parent fields are conditional. [Evidence and alternatives](/branches/early-scottish-records/#irvine-kilwinning-working-family).
@@ -104,3 +106,17 @@ The 1725 elder skipper, 1729 Sailors’ Poor Box treasurer, 1734 deceased shipma
 - [John/Margaret Cowan, Stevenston child John in 1701: existing possible adult comparison](https://familysearch.org/ark:/61903/1:1:XYZK-MY7)
 - [John/Margaret Cowan, Stevenston child Adam in 1706: existing possible adult comparison](https://familysearch.org/ark:/61903/1:1:XYZV-BNR)
 - [Kilbirnie John,1690: existing comparison for the later Irvine bailie, not selected as the 1693 father](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3585655&tab=this)
+
+## Father confidence review, third batch — 22 October 2026
+
+[Glasgow-3375](https://www.wikitree.com/wiki/Glasgow-3375) remains the selected father, assessed **99% (proved)**. Previous selected-tree status: **uncertain**, without an individual percentage.
+
+The6 July 1679 Kilwinning OPR index explicitly names Jon Glasgow and Barbara Alason as Jon’s parents. John-3375 is the record-defined adult for that same couple, so the pair is strongly supported independently of the speculative identification of the father with RevJohn-1073.
+
+Scope: Recorded 1679 child and Alason household; neither the minister identity nor the child’s Stevenston adulthood is proved here.
+
+Next useful test: Test the minister and later Stevenston identities separately from this named parent pair.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Jon Glasgow, 06 Jul 1679, record SCOT/OPR/BAP/3624491](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3624491&tab=this)

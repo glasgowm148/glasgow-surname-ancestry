@@ -91,6 +91,8 @@ Check the original Institution admissions/staff and examination records, and the
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **96% (proved)** for [Glasgow-1657](https://www.wikitree.com/wiki/Glasgow-1657). Confident 96%; combined family account, journal kinship and monument evidence; no new original inspected. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Inspected Institution, Castledawson and Indian missionary notices strongly support James McClure Glasgow’s career sequence. The sourced local amendment corrects 6 October 1835 from call to ordination; the call had been reported by 10 July. Margaret Jane’s obituary corroborates an already recorded daughter; the Surat daughter remains a compatible Annie identification. No family certainty is upgraded.
 
 James McClure Glasgow remains the strongest compatible candidate for the wider Belfast Institution and ministry sequence. The 1828 awards include two distinct James entries, one identifying Jas. Glasgow with Broughshane; whether they name the same student is unresolved. The new awards strengthen the education trail; the Society secretary comparison is still unproved. The newspaper gives no age, full middle name, parents or spouse; no family relationship is upgraded.
@@ -231,3 +233,17 @@ A possible identification concerns James Glasgow, Institution student / assistan
 
 A possible identification concerns James Glasgow, Belfast Juvenile Society secretary, 1830–1831. James Glasgow and Walter Moffat are named secretaries announcing the Belfast Juvenile Society’s sixth annual meeting at Rev. Dr Cooke’s May Street meeting-house on Monday 15 November 1830. In March 1831 Rev. Walter Moffatt and Mr James Glasgow attended a Knockbracken meeting as the Society’s deputation; Rev. Thomas Houston chaired it. (Belfast News-Letter, 12 November 1830, p.2, Belfast Juvenile Society sixth annual meeting announcement; [record](https://www.newspapers.com/image/390573239/); Belfast News-Letter, 4 March 1831, p.4, Belfast Juvenile Society, Knockbracken meeting; [record](https://www.newspapers.com/image/390543442/).) The repeated society and associates support one society account. The same Walter Moffat appears in the 1828 Institution report, making [Glasgow-1780](https://www.wikitree.com/wiki/Glasgow-1780) a compatible student/ministry-network candidate; this does not prove that the society secretary is the college student. The newspaper does not call James the president, chair or minister. The identification remains uncertain.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, third batch — 22 October 2026
+
+[Glasgow-1657](https://www.wikitree.com/wiki/Glasgow-1657) remains the selected father, assessed **96% (proved)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+James’s held account names John Glasgow and Jane McClure. His first-person journal proves brothers Adam and Robert, while the family tombstone account identifies the same older John. The distinctive McClure family and independently supported brothers give the parental attribution a coherent family basis.
+
+Scope: Confident 96%; combined family account, journal kinship and monument evidence; no new original inspected.
+
+Next useful test: Compare the tombstone’s full family wording with the journal and sibling records.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [James McClure Glasgow missionary journal, 1857–1862 (https://revjamesmcclureglasgow.blogspot.com/), first-person journal in which James repeatedly identifies Adam Dickie Glasgow and Robert Glasgow of Victoria as his brothers (accessed 17 July 2026).](https://revjamesmcclureglasgow.blogspot.com/); [www.thebraid.com/ancestor_search.aspx?surname=Glasgow: Racavan Burying-Ground, Broughshane: "With the Lord" 1 Thess IV. 17. In loving memory of William Glasgow, who died 1823, aged 22. His father John Glasgow, 1836, aged 70. Jane Armstrong, daughter of the latter 1837, aged 38 And Jane, his widow 1858, aged 85](https://www.wikitree.com/wiki/Glasgow-1780)

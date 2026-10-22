@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **37% (possible)** for [Glasgow-4179](https://www.wikitree.com/wiki/Glasgow-4179). Possible37%; compatible local generations, without a named link between these two Johns. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 5 October 2026: this profile remains a possible County Londonderry contemporary of the John Glasco listed 24 September 1799. The [original roster and 1798 Dublin comparison](/research/subjects/newspapers-early-glasgow/#john-glasco-irish-rosters) do not identify him or establish a family relationship. The 1799 list category is unresolved; do not call him a juror or freeholder.
 
 ## Identity and relationship assessments
@@ -122,3 +124,17 @@ This is a named labourer at Millrig in Kirkliston parish. It does not connect hi
 
 This may concern [Glasgow-4090](https://www.wikitree.com/wiki/Glasgow-4090). Broad uncertain before 1772 birth permits adulthood; Irish locality statement supplies no migration or individual connection to this record.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, third batch — 22 October 2026
+
+[Glasgow-4179](https://www.wikitree.com/wiki/Glasgow-4179) remains the selected father, assessed **37% (possible)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+John’s pre 1772 generation fits John-4179’s c 1747 Larne family and the inherited same-name father attachment. The 1796 flaxgrower entry can establish an adult John but gives no father, and the 1846 marriage naming a John as another man’s father concerns a different relationship.
+
+Scope: Possible37%; compatible local generations, without a named link between these two Johns.
+
+Next useful test: Identify the flaxgrower’s property and seek the older John’s family succession.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [WikiTree profile export for Glasgow-4090](https://www.wikitree.com/wiki/Glasgow-4090)

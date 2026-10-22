@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **99% (proved)** for [Glasgow-3166](https://www.wikitree.com/wiki/Glasgow-3166). The 1719 Dalziel child and his named father; Samuel’s own origin and James’s later identity remain separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Reviewed 18 October 2026. The Findmypast transcript records Samuel Glasgow and Janet Broun, both resident in Dalziel, in banns dated 23 June 1716: OPR 639/1, item 2, p.71. It gives marriage year 1716 but no separate ceremony date, ages, occupations or parents. The transcript was inspected on 18 October 2026; the original register was not inspected.
 
 Prefer the 1716 Dalziel groom as Samuel Glasgow-3166, the father named in James’s 1719 Dalziel baptism index. The same full name, exact parish and three-year interval make one household more likely than two contemporaneous Samuel Glasgows. The selected working couple is assessed as probable at 88% subjective confidence, including the groom-to-profile identity. This rates the proposed couple identified by banns, not proof of a completed wedding. The record-defined intended couple is explicit; the link to the later father is inferred, without a residence below parish level or a named parent.
@@ -55,3 +57,17 @@ The inspected OPR 628/1 item 1 p.66 transcript records an unnamed child born 10 
 
 Source level: provider transcripts inspected on 22 October 2026; original register images not inspected. Compatible profile identities remain explicitly unproved.
 <!-- END FMP-BIRTH-SCOPE-20261022 -->
+
+## Father confidence review, third batch — 22 October 2026
+
+[Glasgow-3166](https://www.wikitree.com/wiki/Glasgow-3166) remains the selected father, assessed **99% (proved)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+The Dalziel OPR entry of15 March 1719 names James as son of Samuel Glasgow, corroborated by the held FamilySearch index. Samuel-3166 is the record-defined father whose profile was created from this child, so there is no separate adult-identification leap for this pair.
+
+Scope: The 1719 Dalziel child and his named father; Samuel’s own origin and James’s later identity remain separate.
+
+Next useful test: Retain this record-defined pair while testing James’s possible later family.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: ["Scotland, Births and Baptisms, 1564-1950", , FamilySearch (https://www.familysearch.org/ark:/61903/1:1:XTLJ-PML : 16 September 2021), James Glasgow, 1719.](https://www.familysearch.org/ark:/61903/1:1:XTLJ-PML)

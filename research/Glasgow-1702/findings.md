@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **42% (possible)** for [Glasgow-2915](https://www.wikitree.com/wiki/Glasgow-2915). Possible 42% for the selected father profile; the baptism’s named William is certain within its own record. No mother is changed. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 James is a strong candidate for the child baptised at St Luran, Derryloran,
 on **21 August 1799** to **William and Mary Glasgow**. The year, parish, child
 name and father all agree with James's later records. The baptism supplies no
@@ -94,3 +96,17 @@ Profile prose and trees remain leads; inspect the cited record before treating a
 - [James Glasgow and Nancy McCord, marriage registration, 29 November 1851, Cookstown registration district](https://civilrecords.irishgenealogy.ie/churchrecords/details-civil/178e293212496)
 - [Mary Ann Glasgow](https://civilrecords.irishgenealogy.ie/churchrecords/details-civil/6567713134957)
 - [published transcription, p. 3](https://www.churchofireland.org/cmsfiles/pdf/AboutUs/library/AngRecord/DerryloranVol1.pdf#page=11)
+
+## Father confidence review, third batch — 22 October 2026
+
+[Glasgow-2915](https://www.wikitree.com/wiki/Glasgow-2915) remains the selected father, assessed **42% (possible)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+James’s Derryloran baptism names father William and mother Mary, and the child is a strong match to James’s later family. William-2915 is a feasible local father generation, but his own account supplies no contemporary Cookstown identity and attaches Margaret Mitchell rather than the baptism’s Mary. A second wife is possible, but is not evidence.
+
+Scope: Possible 42% for the selected father profile; the baptism’s named William is certain within its own record. No mother is changed.
+
+Next useful test: Identify the baptism father through residence, siblings or a marriage.
+
+This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Representative Church Body Library, Derryloran Parish Register, Volume 1, published transcription, p. 3 (https://www.churchofireland.org/cmsfiles/pdf/AboutUs/library/AngRecord/DerryloranVol1.pdf#page=11), accessed 17 July 2026.](https://www.churchofireland.org/cmsfiles/pdf/AboutUs/library/AngRecord/DerryloranVol1.pdf#page=11)
