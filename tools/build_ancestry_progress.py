@@ -14,7 +14,7 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
-from tools.branch_connectivity import CONFIDENT, SUPPORTED, MEASUREMENT_VIEWS, METHOD_VERSION, load_public_nodes, summarize
+from tools.branch_connectivity import CONFIDENT, SUPPORTED, MEASUREMENT_VIEWS, METHOD_VERSION, load_public_nodes, summarize, paternal_link_impacts
 from tools.documentary_ancestry import load_people
 from tools.free_space_edition import shell_page
 from tools.stamp_asset_versions import VERSIONED_ASSET, asset_path, content_hash
@@ -121,6 +121,30 @@ def build(create_baseline=False):
             view: summarize(nodes, edges, cutoff, view, cohort_ids=working['cohort_ids'])
             for view in MEASUREMENT_VIEWS if view != 'working'}}
     primary = cohorts[str(strategy["primary_cutoff"])]
+    assessments = {a.get('assertion_id'): a for a in json.loads((ROOT / 'research/relationship_assessments.json').read_text())}
+    cases = {c.get('assertion_id'): c for c in strategy['early_connections'] if c.get('assertion_id')}
+    # Reuse the per-pair next questions already reviewed with the ratings.
+    rating_tests = {}
+    for path in sorted(WORK.glob('father-coverage-review*.json')):
+        for rating in json.loads(path.read_text()).get('ratings', []):
+            if rating.get('next_test'):
+                rating_tests[rating.get('assertion_id')] = rating['next_test']
+    priorities = []
+    for impact in paternal_link_impacts(nodes, edges, strategy['primary_cutoff'], primary['working']['cohort_ids']):
+        if impact['status'] in CONFIDENT:
+            continue
+        child, father = impact['child'], impact['father']
+        assessment = assessments.get(impact.get('assertion_id'), {})
+        case = cases.get(impact.get('assertion_id'), {})
+        priorities.append({**{k: impact[k] for k in ('child', 'father', 'status', 'child_side', 'parent_side', 'cross_pairs', 'confident_child_side', 'confident_parent_side', 'confident_pair_gain', 'confident_component_reduction')},
+                           'confidence_percent': impact.get('confidence_percent'),
+                           'child_name': nodes[child]['name'], 'father_name': nodes[father]['name'],
+                           'child_url': nodes[child]['url'], 'father_url': nodes[father]['url'],
+                           'year': nodes[child].get('year'),
+                           'analysis_url': next((l['href'] for l in assessment.get('analysis_links', []) if l.get('href')), nodes[child]['url']),
+                           'next_test': case.get('next_test') or assessment.get('next_test') or rating_tests.get(impact.get('assertion_id')) or 'Read the family evidence and next question.',
+                           'last_review': case.get('last_test', '')})
+    priorities.sort(key=lambda r: (-r['cross_pairs'], r['child'], r['father']))
     fingerprint = hashlib.sha256(json.dumps({"nodes": nodes, "edges": edges}, sort_keys=True).encode()).hexdigest()
     baseline_path = WORK / "baseline-2026-10-15.json"
     if not baseline_path.exists():
@@ -194,6 +218,8 @@ def build(create_baseline=False):
                                          for p in documentary if (p.get('identity_selection') or {}).get('selected') is True],
         undated_surname_people=len(quality["undated_people"]),
         cohorts=cohorts,
+        research_priorities=priorities,
+        research_priority_method='Working pairs count all retained profile pairs dependent on this link. Confident-pair gain counts only pairs joined by upgrading this one link, with every other assessment unchanged. Hypothetical gains overlap; do not sum them. A high gain is not evidence or a reason to raise confidence.',
         baseline=baseline,
         fixed_cohort=dict(
             metrics=fixed,
@@ -289,6 +315,7 @@ def build(create_baseline=False):
             {key: row[key] for key in ('date', 'method_version', 'fixed_cohort', 'cohorts') if key in row}
             for row in history['snapshots']
         ],
+        research_priorities=priorities,
     )
     payload = json.dumps(client, ensure_ascii=False, separators=(",", ":")).replace("<", "\\u003c")
     options = "".join(
@@ -298,11 +325,12 @@ def build(create_baseline=False):
     view_options = ''.join(f'<option value="{view}">{escape(LINK_VIEWS[view]["label"])}</option>'
                            for view in MEASUREMENT_VIEWS)
     main = f"""<main class="r-main ancestry-progress" id="main">
-<header class="r-page-head"><span class="r-kicker">Glasgow ancestry programme · {report["reviewed"]}</span><h1>Ancestry research progress</h1><p class="lead">Track stronger father–child connections and fewer separate branches as the research develops.</p><p class="progress-actions"><a href="/onetree/#view=all">Explore the whole tree →</a><a href="/branches/early-scottish-records/">Early Scottish evidence</a><a href="#early-connections">First connections to investigate</a></p></header>
+<header class="r-page-head"><span class="r-kicker">Glasgow ancestry programme · {report["reviewed"]}</span><h1>Ancestry research progress</h1><p class="lead">Track stronger father–child connections and fewer separate branches as the research develops.</p><p class="progress-actions"><a href="/onetree/#view=all">Explore the whole tree →</a><a href="/branches/early-scottish-records/">Early Scottish evidence</a><a href="#uncertain-connections">Largest uncertain connections</a><a href="#early-connections">First connections to investigate</a></p></header>
 <section aria-labelledby="connectivity-title"><h2 id="connectivity-title">How connected is the family?</h2><div class="progress-controls"><label>Historical cohort <select id="progress-cutoff">{options}</select></label><label>Links counted <select id="progress-view">{view_options}</select></label></div><p id="link-view-note" aria-live="polite">{escape(LINK_VIEWS['working']['description'])}</p><div class="connectivity-stats" id="connectivity-stats">{metrics_html(selected)}</div><p id="cohort-detail" aria-live="polite">{selected["population"]:,} public surname bearers; {selected["edge_count"]:,} father–child links. All views use the same people.</p><div class="progress-table-wrap"><table><caption>Compare the same people at each link threshold</caption><thead><tr><th>Links counted</th><th>Branches</th><th>People in largest branch</th><th>Connected pairs</th></tr></thead><tbody id="threshold-comparison">{comparison_rows(primary)}</tbody></table></div><p>Probable assessments can strengthen the middle measure while the confidently marked measure stays separate. The original baseline has no probable-or-stronger measurement; this series starts with the current review. An unmarked link is a review gap rather than a disproof.</p><p>{escape(strategy["metrics"]["target"])}</p><p>Smaller branch and unattached-father counts mean fewer gaps; larger connected-pair and largest-branch percentages mean more of the family is joined. A tentative connection remains tentative.</p></section>
 {reconciliation_note}
 {confidence_note}
 {publication_html}
+<section id="uncertain-connections" aria-labelledby="uncertain-connections-title"><h2 id="uncertain-connections-title">Which uncertain connections would help most?</h2><p>Father links for the cohort through {strategy['primary_cutoff']}. Coverage is measured above; this queue focuses research on the larger remaining uncertainties. Compare the whole working branch with the immediate gain from making just one link confident. Every other uncertain link stays uncertain.</p><div class="progress-controls"><label>Rank connections by <select id="priority-order"><option value="confident">Immediate gain in confident pairs</option><option value="working">Pairs depending on the working connection</option></select></label><label class="inline-check"><input type="checkbox" id="priority-early">Only children dated by 1650</label></div><p id="priority-count" aria-live="polite"></p><div class="progress-table-wrap" tabindex="0" role="region" aria-label="Research priority table; scroll horizontally on small screens"><table class="research-priority-table"><caption>Potential research yield · fixed cohort through {strategy['primary_cutoff']}</caption><thead><tr><th>Proposed father → child</th><th>Current confidence</th><th>Child-side people</th><th>Working pairs depending on link</th><th>Confident pairs gained if upgraded alone</th><th>Next useful evidence test</th></tr></thead><tbody id="priority-rows"></tbody></table></div><p>These counts concern retained profile accounts, including unresolved identity questions. Named documentary ancestors can connect them but do not increase the person counts. Potential gains overlap and must not be added. Ranking measures impact; it does not measure whether an upgrade is attainable. <a href="/data/ancestry-connectivity.json">Download all priorities and the method</a>.</p><noscript><p>Enable JavaScript to rank the queue, or use the download above. The source-backed early cases follow below.</p></noscript></section>
 <section aria-labelledby="working-map-title"><h2 id="working-map-title">One family, with the missing joins visible</h2><p>The shared-origin model gathers the branches below one ancestral lineage. Dotted lines mean an unknown route through generations; they are research targets and do not change the measured pedigree.</p><div id="working-origin-map" class="working-origin-map"></div><noscript><p>The earliest branch heads and their descendants appear in the table below. Each belongs to the shared-origin working model; the intervening generations remain open.</p></noscript></section>
 <section id="early-connections" aria-labelledby="early-connections-title"><h2 id="early-connections-title">Start with the earliest connections</h2><p>These comparisons are already supported as research hypotheses. They are arranged by the oldest record involved. Resolve the missing identity, kinship or title-transfer step, then extend the connection to its supported siblings.</p>{"".join(cards)}</section>
 <section aria-labelledby="family-heads-title"><h2 id="family-heads-title">Unattached family heads</h2><p>Work upwards from families rather than collecting isolated later records. Heads with one child but two or more surname descendants are included in this queue too.</p><div class="progress-controls"><label class="inline-check"><input type="checkbox" id="early-heads" checked>Prioritise heads dated by 1650</label><label>Find a family <input id="head-search" type="search" placeholder="Name or profile ID"></label></div><p id="head-count" aria-live="polite">{len(roots)} early family heads</p><div class="progress-table-wrap"><table><thead><tr><th>Family head</th><th>Earliest cohort year</th><th>Children</th><th>Descendants</th></tr></thead><tbody id="family-head-rows">{root_rows(roots)}</tbody></table></div></section>

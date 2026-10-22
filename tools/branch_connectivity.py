@@ -257,6 +257,77 @@ def load_public_nodes(site_root: Path, variants: set[str]):
     return nodes, sorted(edges, key=lambda e: (e["child"], e["father"])), quality
 
 
+def paternal_link_impacts(nodes, edges, cutoff, cohort_ids):
+    """Measure working dependency and the gain from upgrading one selected link.
+
+    The latter joins only the two existing confident components. Other uncertain
+    links stay uncertain. Documentary connectors never enter the person counts.
+    These are hypothetical research yields, not evidence or expected probabilities.
+    """
+    cohort = set(cohort_ids) & nodes.keys()
+    eligible = set(cohort)
+    parents = {e['child']: e['father'] for e in edges}
+    stack = list(cohort)
+    while stack:
+        father = parents.get(stack.pop())
+        if father in nodes and father not in eligible and not (
+                nodes[father].get('birth_year') is not None and nodes[father]['birth_year'] > cutoff):
+            eligible.add(father)
+            stack.append(father)
+    selected = [e for e in edges if {e['child'], e['father']} <= eligible]
+    strong = [e for e in selected if e['status'] in CONFIDENT]
+    strong_cycles = {n for cycle in _cycles(strong) for n in cycle}
+    strong = [e for e in strong if not {e['child'], e['father']} <= strong_cycles]
+    cyclic = {n for cycle in _cycles(selected) for n in cycle}
+    selected = [e for e in selected if not {e['child'], e['father']} <= cyclic]
+    working, confident = defaultdict(set), defaultdict(set)
+    for edge in selected:
+        child, father = edge['child'], edge['father']
+        working[child].add(father)
+        working[father].add(child)
+    # Each threshold excludes its own cycles, as summarize does. A cycle in
+    # the working graph need not exist after uncertain edges are filtered.
+    for edge in strong:
+        child, father = edge['child'], edge['father']
+        confident[child].add(father)
+        confident[father].add(child)
+
+    def reachable(graph, start, cut=None):
+        seen, pending = {start}, [start]
+        while pending:
+            node = pending.pop()
+            for other in graph[node]:
+                if (cut and {node, other} == cut) or other in seen:
+                    continue
+                seen.add(other)
+                pending.append(other)
+        return seen
+
+    component, sizes = {}, {}
+    for node in sorted(eligible):
+        if node in component:
+            continue
+        members = reachable(confident, node)
+        for member in members:
+            component[member] = node
+        sizes[node] = len(members & cohort)
+    rows = []
+    for edge in selected:
+        child, father = edge['child'], edge['father']
+        child_side = reachable(working, child, {child, father})
+        father_side = reachable(working, father, {child, father})
+        if child_side & father_side:
+            continue
+        n, m = len(child_side & cohort), len(father_side & cohort)
+        c, f = component[child], component[father]
+        a, b = sizes[c], sizes[f]
+        rows.append({**edge, 'child_side': n, 'parent_side': m, 'cross_pairs': n * m,
+                     'confident_child_side': a, 'confident_parent_side': b,
+                     'confident_pair_gain': a * b if c != f else 0,
+                     'confident_component_reduction': int(c != f and a > 0 and b > 0)})
+    return rows
+
+
 def summarize(nodes, edges, cutoff, view="working", cohort_ids=None):
     if view not in MEASUREMENT_VIEWS:
         raise ValueError("view must be working, supported or confident")

@@ -44,6 +44,18 @@
   const data = JSON.parse(element.textContent), byId = id => document.getElementById(id);
   const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const number = value => Number(value).toLocaleString('en-GB');
+  function renderPriorities() {
+    const early = byId('priority-early').checked, confident = byId('priority-order').value === 'confident';
+    const rows = (data.research_priorities || []).filter(row => !early || (row.year != null && row.year <= 1650));
+    rows.sort((a,b) => confident
+      ? b.confident_pair_gain-a.confident_pair_gain || b.cross_pairs-a.cross_pairs || a.child.localeCompare(b.child)
+      : b.cross_pairs-a.cross_pairs || a.child.localeCompare(b.child));
+    byId('priority-count').textContent = `Showing ${Math.min(20,rows.length)} of ${number(rows.length)} uncertain father links${early?' dated by 1650':''}. Counts use the same people through 1850.`;
+    byId('priority-rows').innerHTML = rows.slice(0,20).map(row => `<tr><td><a href="${esc(row.father_url)}">${esc(row.father_name)}</a> → <a href="${esc(row.child_url)}">${esc(row.child_name)}</a><small>${esc(row.father)} → ${esc(row.child)} · ${esc(row.year ?? 'Undated')}</small></td><td>${Number.isFinite(row.confidence_percent)?`${row.confidence_percent}%`:'Not individually rated'}<small>${esc(row.status)}</small></td><td>${number(row.child_side)}</td><td>${number(row.cross_pairs)}</td><td>${number(row.confident_pair_gain)}<small>${number(row.confident_child_side)} × ${number(row.confident_parent_side)} people; ${row.confident_component_reduction} fewer confident branches</small></td><td><a href="${esc(row.analysis_url)}">${esc(row.next_test)}</a>${row.last_review?`<small>${esc(row.last_review)}</small>`:''}</td></tr>`).join('');
+  }
+  byId('priority-order').addEventListener('change', renderPriorities);
+  byId('priority-early').addEventListener('change', renderPriorities);
+  renderPriorities();
   const historyViews = [
     {key:'confident', label:'Confident', color:'#25734c'},
     {key:'supported', label:'Probable or stronger', color:'#386eaf'},
@@ -202,4 +214,7 @@
   ['history-cohort','history-metric',...historyViews.map(view=>'history-'+view.key)].forEach(id => byId(id).addEventListener('change',renderHistory));
   window.addEventListener('resize',renderHistory);
   update();
+  if (location.hash === '#uncertain-connections') {
+    requestAnimationFrame(() => byId('uncertain-connections').scrollIntoView({block:'start'}));
+  }
 })();

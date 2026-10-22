@@ -1,9 +1,42 @@
 import json, tempfile, unittest
 from pathlib import Path
-from tools.branch_connectivity import _year, _dated, load_public_nodes, summarize, relationship_status
+from tools.branch_connectivity import _year, _dated, load_public_nodes, summarize, relationship_status, paternal_link_impacts
 
 
 class T(unittest.TestCase):
+    def test_single_upgrade_does_not_credit_other_uncertain_links(self):
+        nodes = {n: {'year': 1600} for n in 'abcdef'}
+        edges = [dict(child=c, father=f, status=s) for c, f, s in [
+            ('a', 'b', 'proved'), ('b', 'c', 'possible'),
+            ('c', 'd', 'proved'), ('e', 'a', 'uncertain'), ('f', 'e', 'proved')]]
+        row = next(r for r in paternal_link_impacts(nodes, edges, 1850, nodes) if r['child'] == 'b')
+        self.assertEqual((row['child_side'], row['parent_side'], row['cross_pairs']), (4, 2, 8))
+        self.assertEqual((row['confident_child_side'], row['confident_parent_side'], row['confident_pair_gain']), (2, 2, 4))
+        before = summarize(nodes, edges, 1850, 'confident', cohort_ids=nodes)
+        upgraded = [{**e, 'status': 'proved'} if e['child'] == 'b' else e for e in edges]
+        after = summarize(nodes, upgraded, 1850, 'confident', cohort_ids=nodes)
+        pairs = lambda summary: summary['connected_pairs_percent'] * len(nodes) * (len(nodes)-1) / 200
+        self.assertAlmostEqual(pairs(after)-pairs(before), row['confident_pair_gain'])
+        self.assertEqual(before['component_count']-after['component_count'], row['confident_component_reduction'])
+
+    def test_impact_excludes_documentary_connectors_and_future_parent(self):
+        nodes = {'a': {'year': 1600}, 'b': {'year': 1600},
+                 'record': {'cohort_member': False}, 'future': {'birth_year': 1900}}
+        edges = [dict(child=c, father=f, status=s) for c, f, s in [
+            ('a', 'record', 'possible'), ('b', 'record', 'proved'), ('record', 'future', 'uncertain')]]
+        rows = paternal_link_impacts(nodes, edges, 1850, {'a', 'b'})
+        self.assertEqual(len(rows), 2)
+        row = next(r for r in rows if r['child'] == 'a')
+        self.assertEqual((row['child_side'], row['parent_side'], row['confident_pair_gain']), (1, 1, 1))
+
+    def test_impact_uses_each_thresholds_own_cycle_exclusions(self):
+        nodes = {n: {'year': 1600} for n in 'abcd'}
+        edges = [dict(child=c, father=f, status=s) for c, f, s in [
+            ('a', 'b', 'uncertain'), ('b', 'c', 'proved'),
+            ('c', 'a', 'proved'), ('d', 'a', 'uncertain')]]
+        row = next(r for r in paternal_link_impacts(nodes, edges, 1850, nodes) if r['child'] == 'd')
+        self.assertEqual(row['confident_pair_gain'], 3)
+
     def setUp(self):
         self.t = Path(tempfile.mkdtemp())
         self.addCleanup(lambda: __import__("shutil").rmtree(self.t, ignore_errors=True))
