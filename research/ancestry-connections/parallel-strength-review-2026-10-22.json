@@ -1,0 +1,62 @@
+{
+  "reviewed": "2026-10-22",
+  "scope": "Parallel high-impact father reviews and unknown-head comparison",
+  "unchanged_reviews": {
+    "C-working-20261017-murieston-james-george": {
+      "percent": 82,
+      "summary": "The held muster, 1605 witness and probable holding continuity still favour George, but do not distinguish father from collateral kin. No new title or kinship record was obtained.",
+      "next_test": "Read NLS MS.3724/MS.3725 for Mureistoun title or succession. The adjacent Edward test is original RS25 9/135, 8 July 1624; the printed index cannot supply Edward’s unstated kinship."
+    },
+    "C-father-audit-20260928-glasgow-1095-glasgow-1098": {
+      "percent": 88,
+      "summary": "The exact Saltmarket parcel and later family title support the preferred lineal inference. They still do not distinguish the earlier John as father from brother or collateral predecessor; the neighbouring Henryson transfer actually passes between brothers.",
+      "next_test": "Seek the missing 1527–1529 conveyance or a kinship, generation or succession clause for the property-defined John and William. Re-reading the same boundaries cannot resolve the degree."
+    },
+    "C-coverage-20261022-glasgow-1105-father": {
+      "percent": 76,
+      "summary": "The 1644 entry names Thomas and Hellin Bryse. The existing sources do not bridge that adult to the 1612 Glasgow child. The printed Edinburgh marriage heading adds no discriminating household clause.",
+      "next_test": "Inspect original Linlithgow and Inveresk baptism entries for occupation, residence and witnesses connecting the adult Thomas households; retain the 1612 child identity as a separate hypothesis."
+    },
+    "C-review-20261017-duddingston-robert-james": {
+      "percent": 86,
+      "summary": "The combined apprenticeship, burgess and burial comparison was already reviewed. No new evidence identifies the named Wester Duddingston father more precisely; no confidence increase is warranted.",
+      "next_test": "Inspect the original burial at OPR 684/60/47 for residence, occupation or associates tying the burial account to the father named in the 1641 apprenticeship."
+    },
+    "C-coverage-20261022b-glasgow-2298-father": {
+      "percent": 84,
+      "summary": "The accessible Newberry page is a real-estate packet index, not the original packet. It supports the family comparison but does not establish each party’s relationship. No original packet was reached.",
+      "next_test": "Obtain Newberry real-estate packet 1–13, Wilson Glasgow, from the county/library microfilm or an actual original-image provider, and read Robert’s stated role. Do not repeat the index as a second father proof."
+    },
+    "C-review-20261017-currituck-father-glasgow-363": {
+      "percent": 84,
+      "summary": "The two Caleb accounts may represent one 1803 testator rather than two biological alternatives. This does not independently bridge William’s named 1746 son to that later adult. The record-defined child role and adult-line identification remain separate.",
+      "next_test": "Trace the 1746 son’s land or household into the 1803 Pasquotank testator. Resolve the duplicate-account question separately; the narrow recorded father role cannot certify the whole adult branch."
+    }
+  },
+  "unknown_head": {
+    "child": "Glasgow-3823",
+    "father_selected": false,
+    "compared_relative": "Glasgow-2872",
+    "agent_initial_recommendation_withdrawn": true,
+    "reason": "Complete captured household/community/migration context was omitted from the initial comparison; no positive family bridge was found. Race alone is not a biological exclusion."
+  },
+  "new_father_attachments": 0,
+  "confidence_changes": 0,
+  "new_tree_joins": 0,
+  "latest_findings": "No discovery row for unchanged reviews or the unadopted candidate. Current people accounts, complete draft and progress queue carry the supported qualifications.",
+  "remaining_correction": {
+    "subject": "Glasgow-3107",
+    "issue": "Current17October probability basis still calls the1652 Annah attribution tree-only, despite the18October FMP transcript. Parentage remains24%; reconcile the complete proposal and current basis in the next coherent batch."
+  },
+  "verification": {
+    "metrics_unchanged": true,
+    "history_unchanged": true,
+    "all_probabilities_unchanged": true,
+    "unsupported_samuel_father_not_selected": true,
+    "newberry_complete_draft_preserved_with_three_explicit_qualifications": true,
+    "pending_relationship_additions": 0,
+    "new_genealogical_joins": 0,
+    "publication_check": "publication-check.json",
+    "new_publication_failures": 0
+  }
+}

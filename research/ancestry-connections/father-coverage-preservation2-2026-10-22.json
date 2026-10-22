@@ -400,12 +400,14 @@
     },
     "Glasgow-2298": {
       "current_sha256": "220f40e65706446be1792a1c19bd76bda25d655b26fabe096d5dc6c6cbb810af",
-      "proposed_sha256": "843e65797c617a252cf910c55ad7bda5dfdb053aefd3c57a8fe0101bd8800108",
+      "proposed_sha256": "61568635bc7a9cb46399223c17d7b0d3087897ea4b92dbb6da3841a44c98d10c",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-2298/father-confidence-2026-10-22b.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
-      "restored_source_passage_count": 0
+      "retained": "Complete prior proposal retained except three explicit source-scope qualifications: probably a son, packet index rather than packet, and probable84% rather than established fatherhood. Every named person, narrative passage and citation remains; no original packet inspection claimed.",
+      "restored_source_passage_count": 0,
+      "previous_proposed_sha256": "843e65797c617a252cf910c55ad7bda5dfdb053aefd3c57a8fe0101bd8800108",
+      "qualification_reviewed": "2026-10-22"
     },
     "Glasgow-424": {
       "current_sha256": "5f8997062e6d7215fc31752480466a726c56703f13dc988565d726fb911c7496",

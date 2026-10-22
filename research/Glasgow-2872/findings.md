@@ -19,3 +19,7 @@ Next useful test: Read the Glasgow Family Bible held at York Historic Trust and 
 This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [https://www.findagrave.com/memorial/75056130/samuel_glasgow](https://www.findagrave.com/memorial/75056130/samuel_glasgow)
+
+## East Nottingham Samuel comparison — 22 October 2026
+
+[Samuel Glasgow-3823](https://www.wikitree.com/wiki/Glasgow-3823), the younger Pennsylvania man whose captured biography identifies a Free People of Color family and emigration to Liberia, was compared with this older Nottingham/Cochranville account. No reviewed source links their households. Shared name, nearby townships and a compatible generation do not justify selecting this father. No son or mother is added, and Samuel-2872’s own 72% father assessment is unchanged. This is a disposition of an unadopted comparison, not a biological exclusion based on community classification. [The younger Samuel’s sources and next test](/people/glasgow-3823.html) retain the specific census and poor-school context.

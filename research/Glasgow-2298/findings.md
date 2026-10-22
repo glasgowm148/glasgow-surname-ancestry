@@ -15,3 +15,7 @@ Scope: Probable84%; the uninspected original packet must establish the parties�
 Next useful test: Read packet1–13 for Robert’s stated relationship to Wilson and Mary.
 
 This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
+
+## Estate source-scope review — 22 October 2026
+
+The accessible [Wilson Glasgow real-estate page](https://genealogytrails.com/scar/newberry/realestate.html) indexes packet 1–13; it is not the original instrument. The prepared biography now consistently describes Wilson as Robert’s **probable father, 84%**, rather than saying the index establishes paternity. This corrects the wording of the proposal, retaining the attached father, all people and all citations. The original packet’s party relationships remain the discriminating test; no new join or confidence increase results.
