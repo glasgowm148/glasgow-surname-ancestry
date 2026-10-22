@@ -96,3 +96,15 @@ James Richmond’s Irvine account in the Old Statistical Account,volume7,printed
 - [James Richmond, Old Statistical Account, Irvine,vol7,p170 / PDFpage2; geography only](https://stataccscot.ed.ac.uk/data/pdfs/account1/StAS.1.7.169.P.Ayrshire.Irvine.pdf#page=2)
 
 Inspect the original Irvine1724–1729 and Dundonald1732–1733 entries for the father’s occupation, residence and witnesses, and compare the Stevenston1700 entry with the adult’s later household. Seek a marriage, tenancy or kirk-session record distinguishing the Irvine father from William-3288 and William-1061. Test Mary versus Margaret independently; do not create a wife’s death to explain a later pairing.
+
+## Father confidence review — 22 October 2026
+
+[Glasgow-1150](https://www.wikitree.com/wiki/Glasgow-1150) remains the selected father, assessed **97% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+John’s 30 August 1661 Edinburgh baptism names James Glasgow and Agnes Duncan. James-1150’s 1653 marriage to Agnes and her 1674 burial as the weaver’s wife fit the same named couple and ordered household. The combined couple evidence identifies the father more securely than the baptism name alone.
+
+Scope: The Edinburgh child and James/Agnes household; OPR685/1,60/225, original uninspected. John’s later identification with the Ayrshire John/Agnes Spark adult is not established by this rating; the separate Duffe identity remains qualified.
+
+Next useful test: Test the Edinburgh child to Ayrshire adult continuity, not the explicit baptism parent clause.
+
+This is a first numerical review of an existing attachment, not a new father, new branch connection or original-source discovery. The prior contributor mark is retained in the structured assessment history.

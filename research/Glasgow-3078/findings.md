@@ -127,3 +127,15 @@ The useful next test is a household or occupational identifier in the original 1
 - [Leith George, 16 May 1658; Ard Glasgow and Agnes Watsone, OPR 692/2/2 item 2](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4518492&tab=this)
 - [Marie, Kilwinning baptism 29 July 1688; George Glasgow and Jannet Willie](https://www.findmypast.co.uk/transcript?id=R_685338879&tab=this)
 - [Gorg Glasgow and Jean Gardiner, Kilwinning marriage index 8 November 1678](https://www.findmypast.co.uk/transcript?id=R_694398730%2F1&tab=this)
+
+## Father confidence review — 22 October 2026
+
+[Glasgow-3075](https://www.wikitree.com/wiki/Glasgow-3075) remains the selected father, assessed **99% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+The1618 South Leith baptism,1639 Edinburgh apprenticeship,1646 William testament and1647 retour all identify Archibald as William’s son. The apprenticeship specifies William the Leith mealmaker and the testament calls Archibald lawful son and executor. The matching place and trade securely connect the childhood and adult records.
+
+Scope: Existing Leith father-son family. Several independent record contexts, not four independent copies of one baptism; no new original inspection in this review.
+
+Next useful test: Retain as a settled Leith anchor and concentrate on uncertain upstream and outward joins.
+
+This is a first numerical review of an existing attachment, not a new father, new branch connection or original-source discovery. The prior contributor mark is retained in the structured assessment history.

@@ -40,3 +40,15 @@ Seven existing local assessments are strengthened: one probable Kirknewton fathe
 Sources: [Hugh Glasgow, Kilwinning 5 August 1716, Robert Glasgow and Mary Simson; accepted Findmypast transcript, OPR 599/1 p.118](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3626301&tab=this); [George Glasgow, Kilwinning, birth 9 October 1719, Byrehill, Robert Glasgow and Mary Simson; accepted Findmypast transcript, OPR 599/1 p.145](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3626468&tab=this); [Jean Glasgow, Kilwinning, birth 9 November and baptism 11 November 1722, Byrehill, Robert Glasgow and Mary Simson; accepted Findmypast transcript, OPR 599/1 p.168](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3626660&tab=this); [Kilwinning OPR marriage index, Robert Glasgow and Mary Simpson, 3 June 1715; existing reviewed parish account](https://www.scotlandspeople.gov.uk/search-records/church-registers/opr-marriages).
 
 [Full family assessment and remaining questions](/branches/early-scottish-records/#chapter-parish-household-confidence).
+
+## Father confidence review — 22 October 2026
+
+[Glasgow-1066](https://www.wikitree.com/wiki/Glasgow-1066) remains the selected father, assessed **94% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+The Kilwinning index names Hew Glasgow as father of Robert in1678. Hew-1066’s1676 Kilwinning marriage and child household establish a same-parish father in the immediately preceding generation. The specific parish and short ordered family sequence favour this Hew over a new namesake, although the1678 index omits the mother.
+
+Scope: Recorded1678 child and the established Kilwinning Hew household. The30November/1December discrepancy remains unresolved. This does not prove the later Robert/Mary Simson adult is the1678 child; no maternity inference is made.
+
+Next useful test: Test the later Robert identity independently, using the1715 marriage and1678 original when accessible.
+
+This is a first numerical review of an existing attachment, not a new father, new branch connection or original-source discovery. The prior contributor mark is retained in the structured assessment history.

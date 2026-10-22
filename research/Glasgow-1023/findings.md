@@ -44,3 +44,15 @@ Select Thomas Glasgow-1023 and Janet Mill-357 as possible working parents of Joh
 The identifying step is an inference: no inspected record takes the 1750 child to Kirkliston or names the husband’s parents. The Thomas/Janet naming fit is supporting context, not a compulsory naming rule or two independent proofs. John-3581 (Kirknewton 1755, John/Mary Robertson), John-3480 (Kirknewton/East Calder 1751, John/Christian Meek) and John-2846 (West Calder 1747, John/Margaret Anderson) all remain compatible. Their blank later lives do not exclude them. John-1304’s estimated 1771 childhood and Muckle household make him a weaker comparison, without proving that the estimate or any first-marriage assumption is right. Another unindexed John remains possible. The 1750 FamilySearch index citations were reused from maintained captures; this review reached the provider’s sign-in page and did not inspect the original register. The two index URLs refer to one event, not independent corroboration. John-2980 and John-159 remain separate accounts that may represent one man; the selected parents do not establish two distinct sons named John. The husband’s birth field stays circa 1761, explicitly unproved, until identity is resolved. Thomas’s Kilwinning childhood and the family’s earlier ancestry are separate inherited identifications and are not strengthened. The same 42% applies to each parent because both depend on that one child-to-adult identity; these are not independent probabilities.
 
 The full candidate comparison and source references are with [John of Kirkliston](/people/glasgow-159.html#research-update). This is a selected possible family connection; it does not prove two sons named John or improve the earlier Kilwinning ancestry.
+
+## Father confidence review — 22 October 2026
+
+[Glasgow-1056](https://www.wikitree.com/wiki/Glasgow-1056) remains the selected father, assessed **98% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+The1725 Kilwinning transcript names Hugh Glasgow and Janet Kilpatrick, resident Byres, as Thomas’s parents. The same named parental couple recurs in the maintained Kilwinning family and exactly matches the existing father account. Birth5November and baptism7November explain the two dates; they are not rival fathers.
+
+Scope: The record-defined1725 child and Hugh/Janet household. Thomas’s later Midcalder identity and Hugh’s own father are not proved by this event. Derivative transcript; original uninspected.
+
+Next useful test: Prioritise Hugh’s upstream father and Thomas’s later adult identification, not the explicit1725 parent pair.
+
+This is a first numerical review of an existing attachment, not a new father, new branch connection or original-source discovery. The prior contributor mark is retained in the structured assessment history.

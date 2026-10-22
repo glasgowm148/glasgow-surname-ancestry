@@ -37,3 +37,15 @@ One Wandell and Lamington baptism on 29 July 1780 names father James Glasgow; th
 
 The provider transcripts were inspected on 22 October 2026; original register images were not inspected. [Shared record review](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
 <!-- END FMP-BIRTH-SCOPE-PAGE2-20261022 -->
+
+## Father confidence review — 22 October 2026
+
+[Glasgow-1070](https://www.wikitree.com/wiki/Glasgow-1070) remains the selected father, assessed **42% (possible)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+James’s1738 Covington and Thankerton baptism names George Glasgow and Agnes Williamson. Selected George-1070 is the1719 Kilwinning child; fatherhood at18–19 is possible, and the existing family supplies a specific candidate. However no held record connects that child to the Covington George, and movement between Ayrshire and Lanarkshire is assumed. The child’s explicit named father does not make this particular George identification confident.
+
+Scope: Complete James-to-George1070 placement42%, possible. The1738 record defines a George/Agnes household; James’s later adult and his own descendants remain separate identifications. No maternal or vital change.
+
+Next useful test: Test the Covington George/Agnes marriage and parish continuity before using the Kilwinning ancestry for the29-person child-side branch.
+
+This is a first numerical review of an existing attachment, not a new father, new branch connection or original-source discovery. The prior contributor mark is retained in the structured assessment history.

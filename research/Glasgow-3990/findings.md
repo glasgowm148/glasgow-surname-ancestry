@@ -66,3 +66,15 @@ Saved and read back the precise 1733 administration-bond description, lost-origi
 **Birth "about 1680" is an unevidenced estimate.** No record of this man's age exists, and no record securely identifies him: he stands for the younger John implied by "John Glasgow, sen." in 1700.
 
 These are proposals for the WikiTree date fields and are queued for review; nothing has been changed on WikiTree.
+
+## Father confidence review — 22 October 2026
+
+[Glasgow-3913](https://www.wikitree.com/wiki/Glasgow-3913) remains the selected father, assessed **21% (uncertain)**. Previous selected-tree status: **uncertain**, without an individual percentage.
+
+The younger John account was created because the established congregational John was styled senior. A younger local namesake is a reasonable explanation and a son is one plausible relationship within this family. But senior/junior distinguishes namesakes without stating fatherhood, no independent record securely identifies3990, and the c1680 birth is constructed. Grandson, nephew or unrelated namesake remains viable.
+
+Scope: Existing father hypothesis21%, not a newly discovered son. The1733 Killroot administration is only an identity candidate; the uncertain Ballyboggy descendant does not prove this parent.
+
+Next useful test: Identify the1733 administration subject/kin before treating the inferred younger John as a proved generation.
+
+This is a first numerical review of an existing attachment, not a new father, new branch connection or original-source discovery. The prior contributor mark is retained in the structured assessment history.

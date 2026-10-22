@@ -34,3 +34,15 @@ Trace the 260/250-acre Currituck property separately from the 80 acres at Richfo
 The enlarged original of Daniel Glasco’s 1729 deed describes the land as now in Daniel’s tenure and occupation. It does not name William as a predecessor or identify a father. The earlier possible William reading is withdrawn. Mary is explicitly Daniel’s wife, and the tract is part of Henry Slade’s 330-acre patent. This remains a compatible comparison for Daniel Glasgow-3322, Mary Gamon’s husband in 1693, rather than a proved lifetime identity. The title chain from the Gamon property is still missing. Daniel Glasgow-1158 remains William Glasgow-428’s possible working father at 42%; this inspection supplies no additional paternity evidence.
 
 [Princess Anne County, Deeds and Wills Book 4, Part 1 (1724–1735), manuscript p.207, DGS 7645780, image 150; original image reinspected 20 October 2026.](https://www.familysearch.org/ark:/61903/3:1:3QS7-99PX-F3DX). The image was read directly; no new historical deed or father attachment is claimed. The 1718–1719 Senior/Junior tax distinction remains unchanged.
+
+## Father confidence review — 22 October 2026
+
+[Glasgow-1157](https://www.wikitree.com/wiki/Glasgow-1157) remains the selected father, assessed **12% (uncertain)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+The inherited compiled tree asserts a Robert father for William Daniel, and an earlier Virginia Robert is chronologically possible. No held contemporary record establishes the relationship or securely identifies this Daniel. The cited tree names Robert-1156 while the selected father is1157, a concrete attribution discrepancy. The1653 and1612 dates and Scottish origin are unverified; landholding records do not supply the missing son clause.
+
+Scope: Review of the existing confident contributor mark: uncertain12%, with father retained. The current evidence cannot allocate this profile to either Currituck Daniel Senior/Junior, or prove his relation to Robert Glascocke.
+
+Next useful test: Resolve the Robert1156/1157 attribution and Daniel’s Virginia title chain before testing Scottish ancestry.
+
+This is a first numerical review of an existing attachment, not a new father, new branch connection or original-source discovery. The prior contributor mark is retained in the structured assessment history.

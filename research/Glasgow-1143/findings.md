@@ -307,3 +307,15 @@ The two issues advertise one planned sale. Robert’s role as owner, agent or an
 
 This may concern [Glasgow-1143](https://www.wikitree.com/wiki/Glasgow-1143). Estimated birth c. 1710 in County Antrim and estimated death c. 1772; the stated death estimate predates the 1786 notice and is a material conflict if accurate. Since it is estimated and the date is only an estimate, the comparison is unlikely rather than certainly excluded.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review — 22 October 2026
+
+[Glasgow-1502](https://www.wikitree.com/wiki/Glasgow-1502) remains the selected father, assessed **25% (uncertain)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+Robert-1143’s1729 marriage and1738–1772 Larne/Ballykeel career can follow the older Robert’s1700–01 congregational activity as a second generation. The established local surname network supports retaining the existing father as a working choice. Neither the deeds nor the grandson’s1817 equity evidence names this father; older Robert could instead be grandfather or collateral kin, and c1710 is only an estimate.
+
+Scope: Upstream father only. The explicit1764 son James and the proved Rachel/James/Ann family do not independently corroborate Robert-1143’s own parentage.
+
+Next useful test: Check the existing1738 Agnew lease and older congregation/property continuity for inheritance or a shared holding.
+
+This is a first numerical review of an existing attachment, not a new father, new branch connection or original-source discovery. The prior contributor mark is retained in the structured assessment history.

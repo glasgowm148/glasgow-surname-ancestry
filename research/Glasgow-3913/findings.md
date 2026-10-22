@@ -159,3 +159,15 @@ This strengthens the identity at the head of James’s existing 104-profile pre-
 Sources reused: [Macafee, 1669 Antrim Hearth Money Roll, PRONI T/307/A, PDF p.36, records 5347–5348: adjacent Jo and James Glascho at Kilwaughter Demesne; maintained review reused](https://www.billmacafee.com/1660shearthmoneyrolls/1669hearthmoneyrollsantrim.pdf); [Classon Porter, The Christian Unitarian 2 (1863), pp.410–414: John Glasgow senior in 1700; page-image review of 6 October 2026 reused](https://archive.org/details/christianunitari0002unse/page/411/mode/1up); [Porter, The Christian Unitarian 3 (1864), pp.16–19: Kilwaughter John and James’s overseer entry, probably 29 May 1701; maintained dated review reused](https://archive.org/details/christianunitari0003unse/page/18/mode/1up); [Porter, The Christian Unitarian 3 (1864), pp.197–198: James elder, deceased 1726, and commissioner in 1722; maintained page-image review reused](https://archive.org/details/christianunitari0003unse/page/197/mode/1up); [PRONI Name Search, Connor wills index: James Glasgow, Kilwater, 1727; previously inspected index, original reported lost](https://apps.proni.gov.uk/ProniNames_IE/SearchPage.aspx).
 
 [Full identity assessment and retained alternatives](/branches/larne-kilwaughter/#chapter-kilwaughter-continuity-confidence).
+
+## Father confidence review — 22 October 2026
+
+[Glasgow-3970](https://www.wikitree.com/wiki/Glasgow-3970) remains the selected father, assessed **24% (uncertain)**. Previous selected-tree status: **uncertain**, without an individual percentage.
+
+Robert Glaskow is recorded in the earlier Larne setting; John/Jo Glascho is a1669 Kilwaughter Demesne householder with a probable later congregational continuation. The uncommon local surname and successive adult generations support retaining Robert as a specific working father. No record names the relationship, supplies John’s age or shows property succession; Robert could be other kin and c1650 is an estimate.
+
+Scope: Uncertain24% for the earlier Robert-to-John father proposition. John’s1669–1700 identity and his association with James are separate and cannot be counted as independent paternity proofs.
+
+Next useful test: Test shared holdings/tenancies in the already held Kilwaughter material; keep John and James household identities distinct.
+
+This is a first numerical review of an existing attachment, not a new father, new branch connection or original-source discovery. The prior contributor mark is retained in the structured assessment history.

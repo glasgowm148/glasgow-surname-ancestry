@@ -29,3 +29,15 @@ An unnamed Midcalder child is indexed in 1767 to Alexr Glasgow, OPR 694/2 item 4
 
 Source level: provider transcripts inspected on 22 October 2026; original register images not inspected. Compatible profile identities remain explicitly unproved.
 <!-- END FMP-BIRTH-SCOPE-20261022 -->
+
+## Father confidence review — 22 October 2026
+
+[Glasgow-3052](https://www.wikitree.com/wiki/Glasgow-3052) remains the selected father, assessed **89% (probable)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+The held biography cites the9March1741 Kirknewton/East Calder Alexander as son of Andrew Glasgow and Janet Clerk. The selected Andrew account is the maintained father in that parish and its estimated1720 generation is compatible. The full named couple and exact child event strongly identify the recorded family. However Andrew’s sparse profile lacks independent adult identification, and Alexander’s later Edinburgh/Glasgow identity is not connected by the baptism alone.
+
+Scope: Probable89% for the selected profile pair, based on a retained citation rather than a newly inspected transcript/original. The proposed Andrew birth and his own father are not validated.
+
+Next useful test: Verify the original1741 parent entry and Andrew/Janet household before pursuing Andrew’s uncertain James father.
+
+This is a first numerical review of an existing attachment, not a new father, new branch connection or original-source discovery. The prior contributor mark is retained in the structured assessment history.

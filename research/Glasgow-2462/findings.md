@@ -88,3 +88,15 @@ Two very uncertain local father hypotheses are selected from existing research; 
 - [Waddell, Annals of Augusta County, 1886 p.5 note 1; late blanket Ulster claim](https://en.wikisource.org/wiki/Page:Annals_of_Augusta_County.djvu/21)
 - [Waddell, revised Annals, 1902 p.8; some survivors, neither Glasgow named](https://archive.org/stream/annalsofaugustac00wadd/annalsofaugustac00wadd_djvu.txt)
 - [Holden and Thompson, The Covenanters in Ulster, pp.6–7; modern secondary associate/route evidence](https://ulster-scots.com/wp-content/uploads/2023/11/USCN-Covenanters-in-Ulster-Tabloid.pdf)
+
+## Father confidence review — 22 October 2026
+
+[Glasgow-1103](https://www.wikitree.com/wiki/Glasgow-1103) remains the selected father, assessed **73% (probable)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+The Inveresk transcript names Thomas Glasgow and Agnes Thomson as William’s parents, birth20/baptism21August1639. Thomas-1103’s1612 baptism permits ordinary fatherhood at27 and his maintained account contains this named household. The name and chronology favour that selection, but the Glasgow childhood-to-Inveresk adult identification is unproved and the Linlithgow Thomas may be different.
+
+Scope: Complete profile placement73%; the recorded father role itself is explicit. This does not identify William with later Polwarth/Cavers or Ulster adults. Derivative transcript, no fresh original inspection.
+
+Next useful test: Compare the two Thomas adult households together; a record distinguishing them would affect both large descendant branches.
+
+This is a first numerical review of an existing attachment, not a new father, new branch connection or original-source discovery. The prior contributor mark is retained in the structured assessment history.

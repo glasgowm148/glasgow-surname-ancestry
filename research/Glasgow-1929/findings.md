@@ -55,3 +55,14 @@ Glasgow-4166 was merged into Glasgow-1929. The older profile's 1710 Kilwinning b
 
 Inspect the original 1732 marriage and 1732–1755 baptisms, especially the 1744 Giffen entry, before claiming all children have the same mother or that there was a second marriage.
 
+## Father confidence review — 22 October 2026
+
+[Glasgow-1927](https://www.wikitree.com/wiki/Glasgow-1927) remains the selected father, assessed **93% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+The1710 Kilwinning transcript names John Glasgow and Mary Gemmill as Hugh’s parents, birth30January and baptism5February. John-1927 is the maintained Kilwinning father with this named couple and child sequence, supplying a specific adult-household match. The father’s own Linlithgow childhood and Hugh’s later Kilmarnock glover identification remain unbridged, so confidence is lower than an independently linked adult lifetime.
+
+Scope: The record-defined1710 child and John/Mary household93%. This does not prove the1732–1742 Kilmarnock glover’s childhood or the Kilwinning John’s1671 Linlithgow identity. Original uninspected.
+
+Next useful test: Use the glover’s marriage, trade and associated people to test the Kilwinning childhood; downstream baptisms alone cannot do so.
+
+This is a first numerical review of an existing attachment, not a new father, new branch connection or original-source discovery. The prior contributor mark is retained in the structured assessment history.

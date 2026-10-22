@@ -247,3 +247,15 @@ The Edinburgh/Leith women’s selected family placements partly depend on Willia
 **Superseded readings:** the assertion that the testament “directly names a son William” or securely reads “his sone”, the description of Ninian as a flescher, and the description of William as a probable son named by that record. The manuscript supports fisher, and the decisive William relationship wording is physically lost. Retain those former readings as research history, not current facts. No literal father clause is required for a strong inference; this combined case remains limited by the unresolved identity and correlated network evidence.
 
 Sources: NRS **CC9/7/9, images 142–145**, particularly damaged image 143 and continuation image 144, existing 10 September original-image reread; NRS **CC9/7/5, images 82–83**, Jonet Meik, 1607; [archive wills search](https://www.scotlandspeople.gov.uk/search-records/legal-records/wills). Leith **10 July 1610**, **OPR 692/2/9, item4**, [SGS transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FMAR%2F1447177%2F1) and [FamilySearch-derived transcript](https://www.findmypast.co.uk/transcript?id=R_696111854%2F1), one event, original uninspected. Glasgow High Kirk **8 November 1612**, volume **1/962**, William/Christian Scot child; South Leith **20 March 1618**, [Archbald index FQM4-LYL](https://www.familysearch.org/ark:/61903/1:1:FQM4-LYL). [Anderson, Robert cordiner admission, 22 April 1613, derivative transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FBURGESS%2F0025946&tab=this); [Grant, Edinburgh Apprentices p. 71, 23 October 1639](https://archive.org/details/scottishrecordso28scotuoft/page/71/mode/2up); NRS **CC8/8/62, images 461–462**, confirmed **22 July 1646**, death September 1644; [Retours vol. 2, General 3278, 1 May 1647, original xix.128](https://archive.org/details/inquisitionumadc00grea_0). George’s marriage comparison: Renwick, **vol. 11, protocol 3492, pp. 86–87, 13 November 1598**, [printed abstract](https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/abstracts_of_protocols_of_the_town_clerks_of_glasgow__1900.pdf#page=103).
+
+## Father confidence review — 22 October 2026
+
+[Glasgow-1096](https://www.wikitree.com/wiki/Glasgow-1096) remains the selected father, assessed **99% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+The 23 October 1596 burgess entry expressly calls Ninian the second son of Robert Glasgow, fisher and burgess. Matching civic status, place and Ninian’s testamentary household identify the existing profiles; no rival Ninian/Robert family is evidenced.
+
+Scope: The Glasgow civic father and son; neither estimated birth is needed as proof. Robert’s own ancestry is separate.
+
+Next useful test: Prioritise the older Robert’s uncertain father rather than rereading this proved son clause.
+
+This is a first numerical review of an existing attachment, not a new father, new branch connection or original-source discovery. The prior contributor mark is retained in the structured assessment history.

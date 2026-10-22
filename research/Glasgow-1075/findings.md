@@ -65,3 +65,15 @@ James Paterson, *History of the County of Ayr*, vol. II (1852), "Glasgow of Moun
 Seen as: OCR text of the printed history pasted into the owner's notes; the printed page was not re-read in this audit. The numbered children appear in a separate part of the notes and are attributed to Paterson by their content. Paterson is a nineteenth-century secondary account, not record evidence: check the marriages in the Kilbirnie, Kilwinning and Dalry registers before any relationship status changes. His statement that Robert of Mountgreenan left no issue conflicts with the trust evidence in Glasgow-1076's findings. The Puddockholm (Paddockholm) designation agrees with the 1722 letter RH15/120/178 above.
 
 Recorded in `archive/dump/TheGlasgows.md` (owner's checklist export of 10 March 2025); carried into this file on 7 October 2026.
+
+## Father confidence review — 22 October 2026
+
+[Glasgow-1073](https://www.wikitree.com/wiki/Glasgow-1073) remains the selected father, assessed **99% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+The17October1693 Kilbirnie transcript names John Glasgow, Mr, Minister of the Gospel, and Jeane Cunynghame as Robert’s parents. The distinctive occupation, named wife, parish and minister’s known career identify John-1073. This is far more specific than a same-name baptism; no competing minister/couple is evidenced.
+
+Scope: The recorded1693 Robert and his named minister father. Paddockholm adult continuity and the1722 brother letter remain separately described; the minister’s own origins are not strengthened. Original baptism uninspected.
+
+Next useful test: Move effort to the minister’s uncertain parent and brother network, preserving this direct parent clause.
+
+This is a first numerical review of an existing attachment, not a new father, new branch connection or original-source discovery. The prior contributor mark is retained in the structured assessment history.

@@ -1,0 +1,34 @@
+{
+  "reviewed": "2026-10-22",
+  "newly_rated_father_links": 25,
+  "new_father_attachments": 0,
+  "new_paternal_joins": 0,
+  "coverage": {
+    "rated_edge_count": 221,
+    "unrated_edge_count": 1175,
+    "rated_edges_percent": 15.830945558739256,
+    "mean_percent": 57.98642533936651
+  },
+  "eligible_father_links": 1396,
+  "working_components": 404,
+  "model_parity": {
+    "main": {
+      "checked": 1396,
+      "mismatches": []
+    },
+    "standalone": {
+      "checked": 1396,
+      "mismatches": []
+    },
+    "packed": {
+      "checked": 1396,
+      "mismatches": []
+    }
+  },
+  "full_compact_update_membership_agrees": true,
+  "complete_drafts_verified": 25,
+  "research_publication_failing_items": 0,
+  "new_broken_link_pairs": 0,
+  "local_only": true,
+  "live_deployment": false
+}

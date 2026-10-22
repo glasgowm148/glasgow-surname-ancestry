@@ -163,3 +163,15 @@ The Register of the Privy Council, volume XIII, printed p.246, reportedly names 
 
 Robert is the leading possible existing identity because his Glasgow adult career and probable 1613 cordiner admission fit the place and period. Cordiners and tanners performed distinct leather trades; the cordiner record does not prove the tanner occupation. [Robert Glasgow, buried at Duddingston in 1647](https://www.wikitree.com/wiki/Glasgow-1156), is a weaker but surviving comparison, with no recorded age or trade to exclude him. The separately reported 1630s payment occurrences do not automatically identify the tanner. Craft admissions, burgess records and sasines could distinguish these men; no new parentage or occupation is asserted from this possible match.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review — 22 October 2026
+
+[Glasgow-3188](https://www.wikitree.com/wiki/Glasgow-3188) remains the selected father, assessed **99% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+Ninian’s 1613 testament calls Robert his son; Jonet Meik’s 1607 testament independently names her son Robert. The shared parental household and Glasgow civic setting identify this Robert. Two parental testaments support the relationship, rather than the later town-officer date alone.
+
+Scope: NRS CC9/7/9 images142–145 and CC9/7/5; retained original transcriptions. Later Robert identities, including the cordiner attribution, retain their separate qualifications.
+
+Next useful test: Use the two testament clauses as the settled household anchor.
+
+This is a first numerical review of an existing attachment, not a new father, new branch connection or original-source discovery. The prior contributor mark is retained in the structured assessment history.

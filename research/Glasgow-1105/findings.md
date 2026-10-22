@@ -66,3 +66,15 @@ The 1675 child, the Duncan adult and the Clarkson adult may represent one, two o
 - [Thomas and Clarkson household: Alexander at Uphall,7 February 1721](https://www.familysearch.org/ark:/61903/1:1:VQ48-994)
 - [Thomas and Clarkson household: Hellen at Livingston,18 October 1735](https://www.familysearch.org/ark:/61903/1:1:X1R2-KB6)
 - [Thomas, St Cuthbert’s 1666: Alexander/Issobell Anderson child index](https://www.familysearch.org/ark:/61903/1:1:XT5G-Z49)
+
+## Father confidence review — 22 October 2026
+
+[Glasgow-1103](https://www.wikitree.com/wiki/Glasgow-1103) remains the selected father, assessed **76% (probable)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+The 1644 Linlithgow transcript names father Thomas Glasgow and mother Hellin Bryse. The selected Thomas-1103 was baptised in1612, giving a compatible32-year generation; his maintained account already includes this adult household. Name, timing and central-Scotland setting favour the selection, while no source connects the1612 child to the1644 father.
+
+Scope: This76% assesses the complete profile-to-profile placement, including the unproved Thomas child/adult identification. The named Thomas father in the1644 record itself is explicit. The Inveresk Thomas may be distinct; no original image newly inspected.
+
+Next useful test: Compare adult Thomas occupations, residences and witnesses across the Linlithgow and Inveresk households.
+
+This is a first numerical review of an existing attachment, not a new father, new branch connection or original-source discovery. The prior contributor mark is retained in the structured assessment history.

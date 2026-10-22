@@ -67,3 +67,15 @@ The notice directly identifies its Robert as the son of Andrew, miller at Calder
 
 This may concern [Glasgow-3052](https://www.wikitree.com/wiki/Glasgow-3052). For the named father Andrew, The recorded dates give uncertain birth in 1720 at Kirknewton/East Calder, allowing adult fatherhood in 1772. The account has no recorded miller occupation or proved relationship to the newspaper Robert; its sibling relationship to Glasgow-1445 is tree-derived only.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review — 22 October 2026
+
+[Glasgow-1547](https://www.wikitree.com/wiki/Glasgow-1547) remains the selected father, assessed **17% (uncertain)**. Previous selected-tree status: **uncertain**, without an individual percentage.
+
+The inherited Kirknewton/East Calder tree supplies James-1547 as Andrew’s father. James’s1702 child record and Andrew’s estimated1720 birth permit fatherhood at18, and the local family/naming pattern is coherent. But Andrew’s date and identity are unverified, no event names his father, and both the proposed generation and sibling grouping derive from the same tree. The young father estimate and weak Andrew identity warrant only17%.
+
+Scope: Existing uncertain father retained; the checked1702 parentage of James is not evidence for this later son. Later same-name Andrew notices are not substituted for Andrew’s birth.
+
+Next useful test: First identify Andrew3052’s own adult household using the held Janet Young comparison, then test his father.
+
+This is a first numerical review of an existing attachment, not a new father, new branch connection or original-source discovery. The prior contributor mark is retained in the structured assessment history.

@@ -20,3 +20,15 @@ Michael of Irvine is now selected as this record-defined Ayr father’s uncertai
 - [William, Kirknewton, 22 April 1705; older William household](https://familysearch.org/ark:/61903/1:1:VQ4K-FY9)
 - [Helen’s collaborative-tree source only; no baptism inspected](https://www.familysearch.org/en/tree/person/details/K8TC-GMV)
 - [1702 James/Andrew family reference; surviving alternative childhood](https://www.familysearch.org/ark:/61903/1:1:VQ4K-6MQ)
+
+## Father confidence review — 22 October 2026
+
+[Glasgow-1604](https://www.wikitree.com/wiki/Glasgow-1604) remains the selected father, assessed **22% (uncertain)**. Previous selected-tree status: **uncertain**, without an individual percentage.
+
+Robert’s1670–1671 Ayr children establish a real adult of a generation compatible with the inherited c1626 John of Kilwinning. The wider Ayrshire setting makes the existing father possible as a working family, but John’s early identity and locality are tree-derived. Neither child baptism names Robert’s father; there is no property, witness or proved-sibling bridge.
+
+Scope: Uncertain22% for Robert’s own father; his proved fatherhood of his1670 child is a different proposition. The before1652 boundary is an adult-father estimate, not a recorded birth.
+
+Next useful test: Compare the existing Ayr household’s witnesses/property with the Kilwinning family before expanding this scaffolding.
+
+This is a first numerical review of an existing attachment, not a new father, new branch connection or original-source discovery. The prior contributor mark is retained in the structured assessment history.

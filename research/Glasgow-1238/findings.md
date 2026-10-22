@@ -64,3 +64,15 @@ The 1737 commission and 1738 ordination appear to concern the same Castle office
 
 This may concern [Glasgow-1238](https://www.wikitree.com/wiki/Glasgow-1238). Adult in 1737–1738; recorded recorded lifespan extends beyond the events. No clergy, Edinburgh Castle, or identifying location evidence in the comparison summary.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review — 22 October 2026
+
+[Glasgow-1440](https://www.wikitree.com/wiki/Glasgow-1440) remains the selected father, assessed **86% (probable)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+The cited1712 Stichill child James names Patrick Glasow and Helen Fairbarn. Their1707 Stichill/Eccles marriages and1708–1716 children identify a specific adult household. James’s1740 Stichill marriage at about28 is a plausible local continuation. The profile’s unsupported Uphall/c5May field conflicts with the cited11May Stichill event and no source directly joins the child to Elizabeth Tait’s husband, so the complete father placement is probable rather than certain.
+
+Scope: Complete Patrick-household to James-profile placement86%; Patrick’s own identification with the1667 Gordon child is separate. No new vital field or maternal certainty change. Underlying register uninspected.
+
+Next useful test: Reconcile James’s1712 event with the1740 marriage and retained Uphall claim; seek residence or relatives in the marriage entry.
+
+This is a first numerical review of an existing attachment, not a new father, new branch connection or original-source discovery. The prior contributor mark is retained in the structured assessment history.

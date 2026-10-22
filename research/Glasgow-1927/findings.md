@@ -61,3 +61,15 @@ The live profile, preserved in the 10 September 2026 draft, cites a 1704 marriag
 No record yet links the John Glasgow baptised at Linlithgow in 1671 to the Kilwinning father, who lived some 55–60 miles away (approximate). **Unresolved:** the identity rests on name and approximate age alone and must be tested before these children are treated as his.
 
 Recorded in `research/Glasgow-1927/Glasgow-1927.md` (10 September 2026); carried into this file on 7 October 2026.
+
+## Father confidence review — 22 October 2026
+
+[Glasgow-1105](https://www.wikitree.com/wiki/Glasgow-1105) remains the selected father, assessed **98% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+The Linlithgow1671 transcript names John Glasgow and Agnes Eastone as the child John’s parents. John-1105 is the maintained father of that same named couple and parish child sequence. Exact parental pairing and parish identify the recorded family despite the unresolved day-of-February discrepancy.
+
+Scope: The1671 Linlithgow child and John/Agnes Eastone household. This does not identify the child with the later Kilwinning father;2/26February and1670/1671 variants remain visible. Original uninspected.
+
+Next useful test: The high-yield unresolved question is Linlithgow-child to Kilwinning-adult continuity.
+
+This is a first numerical review of an existing attachment, not a new father, new branch connection or original-source discovery. The prior contributor mark is retained in the structured assessment history.

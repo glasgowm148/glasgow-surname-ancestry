@@ -147,3 +147,15 @@ The 1725 elder skipper, 1729 Sailors’ Poor Box treasurer, 1734 deceased shipma
 - [John/Margaret Cowan, Stevenston child John in 1701: existing possible adult comparison](https://familysearch.org/ark:/61903/1:1:XYZK-MY7)
 - [John/Margaret Cowan, Stevenston child Adam in 1706: existing possible adult comparison](https://familysearch.org/ark:/61903/1:1:XYZV-BNR)
 - [Kilbirnie John,1690: existing comparison for the later Irvine bailie, not selected as the 1693 father](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3585655&tab=this)
+
+## Father confidence review — 22 October 2026
+
+[Glasgow-1604](https://www.wikitree.com/wiki/Glasgow-1604) remains the selected father, assessed **19% (uncertain)**. Previous selected-tree status: **uncertain**, without an individual percentage.
+
+John-3375’s1679 and1689 Kilwinning children anchor an actual John/Barbara Alason household. The inherited John-1604 of an earlier c1626 generation is chronologically compatible and local in the tree. No source identifies the younger John’s father; the earlier John is itself unverified scaffolding, while possible overlap with the minister’s account creates an additional adult-identity alternative.
+
+Scope: Uncertain19% for the existing upstream parent. John3375’s before1661 birth is a fatherhood boundary, not a recorded age. His selected working children do not independently corroborate his own ancestry.
+
+Next useful test: Distinguish the John/Barbara Kilwinning adult from the minister before expanding the inherited John1604 generation.
+
+This is a first numerical review of an existing attachment, not a new father, new branch connection or original-source discovery. The prior contributor mark is retained in the structured assessment history.

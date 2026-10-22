@@ -105,3 +105,15 @@ The next discriminators are the original1737 entry,1762 marriage, full James/Jan
 - [Bigger and Hughes, Larne churchyard inscriptions, Ulster Journal of Archaeology, second series6, pp.47–48; previously inspected published monument transcription reused](https://archive.org/details/ulsterjournalofa06ulstiala/page/47/mode/1up)
 
 [Complete family comparison](/branches/larne-kilwaughter/#chapter-larne-ropemaker-preferred-father).
+
+## Father confidence review — 22 October 2026
+
+[Glasgow-1502](https://www.wikitree.com/wiki/Glasgow-1502) remains the selected father, assessed **28% (uncertain)**. Previous selected-tree status: **uncertain**, without an individual percentage.
+
+The older Robert-1502 represented the Larne/Kilwaughter congregation in1700–01; Hugh’s later Larne household supplies locality and a plausible succeeding generation. This is a coherent existing local-family hypothesis. Neither Hugh’s deeds nor his monument names Robert as father; the birth estimates are correlated tree premises, and collateral kin remain viable.
+
+Scope: Existing father hypothesis only. Hugh’s documented wife, children and property establish his own household, not this upstream parent.
+
+Next useful test: Seek a succession or kinship clause in the existing Larne lease/title chain; do not reread unrelated national indexes.
+
+This is a first numerical review of an existing attachment, not a new father, new branch connection or original-source discovery. The prior contributor mark is retained in the structured assessment history.

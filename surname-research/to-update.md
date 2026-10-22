@@ -2664,3 +2664,32 @@ Forty search-result transcripts across pages 1–2, plus one supporting OPR rein
 | [Agnes Glasgow](https://www.wikitree.com/wiki/Glasgow-1349) | OPEN | Retain the transcript’s Male field as a conflict;1812 burial remains a qualified comparison. |
 
 Other matched entries are supporting citations to existing children. No new parent attachment, certainty upgrade or separate Agnes profile is proposed. Full source roles and alternative identities are in the maintained findings and [shared Scottish-records account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+
+
+## 22 October 2026 — father confidence coverage
+
+| [Ninian Glasgow](https://www.wikitree.com/wiki/Glasgow-3188) | OPEN | Review existing father at99% (proved); retain explicit source and identity limits. No new father attachment. |
+| [Rot. Glasgow](https://www.wikitree.com/wiki/Glasgow-1027) | OPEN | Review existing father at99% (proved); retain explicit source and identity limits. No new father attachment. |
+| [Thomas Glasgow](https://www.wikitree.com/wiki/Glasgow-1103) | OPEN | Review existing father at98% (proved); retain explicit source and identity limits. No new father attachment. |
+| [John Glasgow](https://www.wikitree.com/wiki/Glasgow-1057) | OPEN | Review existing father at97% (proved); retain explicit source and identity limits. No new father attachment. |
+| [John Glasgow](https://www.wikitree.com/wiki/Glasgow-1105) | OPEN | Review existing father at76% (probable); retain explicit source and identity limits. No new father attachment. |
+| [Hugh Glasgow](https://www.wikitree.com/wiki/Glasgow-1499) | OPEN | Review existing father at28% (uncertain); retain explicit source and identity limits. No new father attachment. |
+| [William Glasgow](https://www.wikitree.com/wiki/Glasgow-2462) | OPEN | Review existing father at73% (probable); retain explicit source and identity limits. No new father attachment. |
+| [William Daniel Glasgow](https://www.wikitree.com/wiki/Glasgow-1158) | OPEN | Review existing father at12% (uncertain); retain explicit source and identity limits. No new father attachment. |
+| [Robert Glasgow](https://www.wikitree.com/wiki/Glasgow-1143) | OPEN | Review existing father at25% (uncertain); retain explicit source and identity limits. No new father attachment. |
+| [Robert Glasgow](https://www.wikitree.com/wiki/Glasgow-1068) | OPEN | Review existing father at94% (proved); retain explicit source and identity limits. No new father attachment. |
+| [Hugh Glasgow](https://www.wikitree.com/wiki/Glasgow-1056) | OPEN | Review existing father at58% (possible); retain explicit source and identity limits. No new father attachment. |
+| [John Glasgow](https://www.wikitree.com/wiki/Glasgow-1927) | OPEN | Review existing father at98% (proved); retain explicit source and identity limits. No new father attachment. |
+| [James Glasgow](https://www.wikitree.com/wiki/Glasgow-1238) | OPEN | Review existing father at86% (probable); retain explicit source and identity limits. No new father attachment. |
+| [Robert Glasgow](https://www.wikitree.com/wiki/Glasgow-1512) | OPEN | Review existing father at22% (uncertain); retain explicit source and identity limits. No new father attachment. |
+| [Archibald Glasgow](https://www.wikitree.com/wiki/Glasgow-3078) | OPEN | Review existing father at99% (proved); retain explicit source and identity limits. No new father attachment. |
+| [James Glasgow](https://www.wikitree.com/wiki/Glasgow-1120) | OPEN | Review existing father at42% (possible); retain explicit source and identity limits. No new father attachment. |
+| [Alexander Glasgow](https://www.wikitree.com/wiki/Glasgow-1141) | OPEN | Review existing father at34% (possible); retain explicit source and identity limits. No new father attachment. |
+| [Robert Glasgow](https://www.wikitree.com/wiki/Glasgow-1075) | OPEN | Review existing father at99% (proved); retain explicit source and identity limits. No new father attachment. |
+| [Thomas Glasgow](https://www.wikitree.com/wiki/Glasgow-1023) | OPEN | Review existing father at98% (proved); retain explicit source and identity limits. No new father attachment. |
+| [Andrew Glasgow](https://www.wikitree.com/wiki/Glasgow-3052) | OPEN | Review existing father at17% (uncertain); retain explicit source and identity limits. No new father attachment. |
+| [John / Jo Glascho](https://www.wikitree.com/wiki/Glasgow-3913) | OPEN | Review existing father at24% (uncertain); retain explicit source and identity limits. No new father attachment. |
+| [Alexander Glasgow](https://www.wikitree.com/wiki/Glasgow-1309) | OPEN | Review existing father at89% (probable); retain explicit source and identity limits. No new father attachment. |
+| [John Glasgow](https://www.wikitree.com/wiki/Glasgow-3990) | OPEN | Review existing father at21% (uncertain); retain explicit source and identity limits. No new father attachment. |
+| [Hugh Glasgow](https://www.wikitree.com/wiki/Glasgow-1929) | OPEN | Review existing father at93% (proved); retain explicit source and identity limits. No new father attachment. |
+| [John Glasgow](https://www.wikitree.com/wiki/Glasgow-3375) | OPEN | Review existing father at19% (uncertain); retain explicit source and identity limits. No new father attachment. |

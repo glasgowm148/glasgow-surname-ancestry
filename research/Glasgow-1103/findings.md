@@ -40,3 +40,15 @@ The record-defined Inveresk father is Thomas Glasgow, but his identification wit
 No mother status is changed. Agnes’s index omits her mother; the existing Agnes Thomsone attachment is retained without upgrading it. Marione’s 13 December birth and 18 December christening remain separate. James Glasgow-3077’s naming-pattern placement is not documentary sibling proof. Margaret Glasgow-3050 has a conflicting William Glasgow/Bessie Howie index identification and is not used to support this reconstruction. The Weir husband is a separate comparison. No identity merge or live WikiTree change is performed.
 
 Sources already reviewed: [Scotland’s People OPR index](https://www.scotlandspeople.gov.uk/), parish 689: Agnes 27 July 1634, 10/251; Thomas 6 August 1637, 10/300; Marione 18 December 1642, 20/23. [William’s 1639 Findmypast transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4437421&tab=this), OPR 689/1, SCOT/OPR/BAP/4437421. The supplied indexes were reviewed on 10 September 2026; this batch makes no new image inspection. Saved WikiTree redirect Glasgow-2459 → Glasgow-1103 is profile-identity provenance, not proof of the adult’s historical identity. See the [complete family comparison](/branches/early-scottish-records/#inveresk-thomas-family).
+
+## Father confidence review — 22 October 2026
+
+[Glasgow-1099](https://www.wikitree.com/wiki/Glasgow-1099) remains the selected father, assessed **98% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+The 15 March 1612 Glasgow baptism names George Glasgow and Margaret Steuart as Thomas’s parents. That exact couple defines the existing George household and the profile’s indexed child. The named couple is substantially more specific than a shared surname.
+
+Scope: The recorded 1612 child and George/Margaret parent household. This does not identify him with either later Thomas adult. OPR644/1,10/81; original image uninspected.
+
+Next useful test: Review the separate adult Thomas connections before using them to bridge branches.
+
+This is a first numerical review of an existing attachment, not a new father, new branch connection or original-source discovery. The prior contributor mark is retained in the structured assessment history.
