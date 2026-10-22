@@ -37,11 +37,22 @@ def _write(path, value):
     path.write_text(json.dumps(value, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
 
 
-def reviewed_people(root=ROOT):
+def reviewed_people(root=ROOT, catalogue_ids=None):
     """Return validated public historical subjects; fail before any writes."""
     root = Path(root).resolve()
     payload = _read(root / MANIFEST, {})
     entries = payload.get("new_people", [])
+    if catalogue_ids is not None:
+        requested = list(catalogue_ids)
+        if len(requested) != len(set(requested)):
+            raise ValueError("Duplicate requested catalogue IDs")
+        known = {entry.get("catalogue_id") for entry in entries if isinstance(entry, dict)}
+        unknown = set(requested) - known
+        if unknown:
+            raise ValueError(f"Unknown requested catalogue IDs: {sorted(unknown)}")
+        selected = set(requested)
+        # Unselected drafts need not validate for a separately authorised case.
+        entries = [entry for entry in entries if isinstance(entry, dict) and entry.get("catalogue_id") in selected]
     seen = set()
     for entry in entries:
         slug = entry.get("catalogue_id", "")
@@ -95,10 +106,10 @@ def reviewed_people(root=ROOT):
     return entries
 
 
-def reviewed_records(root=ROOT):
+def reviewed_records(root=ROOT, catalogue_ids=None):
     """Standard builder rows, grouped under the reviewed canonical identity."""
     rows = []
-    for entry in reviewed_people(root):
+    for entry in reviewed_people(root, catalogue_ids):
         for source in entry["records"]:
             row = deepcopy(source)
             # The catalogue's canonical supplement convention is record-<id>.
@@ -110,14 +121,14 @@ def reviewed_records(root=ROOT):
     return rows
 
 
-def reviewed_audits(root=ROOT):
+def reviewed_audits(root=ROOT, catalogue_ids=None):
     return {entry["catalogue_id"]: {
         "recommended_action": "create_new_profile" if entry.get("creation_status", "creation_ready") == "creation_ready" else "hold",
         "identity_status": "distinct_documentary_person" if entry.get("creation_status", "creation_ready") == "creation_ready" else entry["creation_status"],
         "identity_note": entry["assessment"], "draft_path": entry["draft_path"],
         "review_method": "Reviewed documentary identity and duplicate assessment",
         "reviewed_at": entry.get("reviewed_at") or "2026-10-17", "candidates": deepcopy(entry.get("candidates") or []),
-    } for entry in reviewed_people(root)}
+    } for entry in reviewed_people(root, catalogue_ids)}
 
 
 def decorate_person(person, entry):
@@ -129,7 +140,8 @@ def decorate_person(person, entry):
                   pending_profile_creation=True, creation_ready=ready,
                   creation_status=entry.get("creation_status", "creation_ready"),
                   uncertain_identity=entry.get("creation_status") == "identity_hold",
-                  profile_work_status="creation_ready" if ready else "identity_hold",
+                  profile_work_status=("creation_ready" if ready else
+                                       "existing_profile_candidate" if entry.get("candidates") else "identity_hold"),
                   profile_work_candidate_count=len(entry.get("candidates") or []),
                   creation_candidates=deepcopy(entry.get("candidates") or []),
                   has_wikitree_destination=False, wikitree_free_space_url="", profile_disposition="",
@@ -257,15 +269,15 @@ def _merge(existing, supplied, key):
     return [row for row in existing if row[key] not in identities] + supplied
 
 
-def apply_creations(root=ROOT):
+def apply_creations(root=ROOT, catalogue_ids=None):
     """Materialize reviewed identities in the actual catalogue and person pages."""
     from bs4 import BeautifulSoup
     root = Path(root).resolve()
-    entries = reviewed_people(root)
+    entries = reviewed_people(root, catalogue_ids)
     if not entries:
         return {"integrated": [], "count": 0}
     people = []
-    all_records = reviewed_records(root)
+    all_records = reviewed_records(root, catalogue_ids)
     for entry in entries:
         records = [row for row in all_records if row["supplement_id"] == entry["catalogue_id"].removeprefix("record-")]
         built = catalogue._build_people(records, {}, [], {}, {"profiles": {}})
@@ -292,7 +304,7 @@ def apply_creations(root=ROOT):
     public_index = _read(web / "data/people-index.json", [])
     links = {p["id"]: p.get("catalogue_id") or p.get("slug") or p["id"].lower() for p in public_index}
     links.update({d["id"]: slug for slug, d in dossiers.items()})
-    audits = reviewed_audits(root)
+    audits = reviewed_audits(root, catalogue_ids)
     with _root_paths(root) as cases:
         for person in people:
             slug = person["catalogue_id"]
@@ -339,5 +351,6 @@ def apply_creations(root=ROOT):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--root", type=Path, default=ROOT)
+    parser.add_argument("--catalogue-id", action="append", help="Apply only these exact reviewed case IDs; repeat to select several")
     args = parser.parse_args()
-    print(json.dumps(apply_creations(args.root), indent=2))
+    print(json.dumps(apply_creations(args.root, args.catalogue_id), indent=2))

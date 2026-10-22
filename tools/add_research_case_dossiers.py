@@ -177,6 +177,21 @@ def page_shell(person, dossier, findings, links):
     return refresh_person(soup, findings, update, links)
 
 
+def _upsert_selected(rows, supplied, key):
+    """Replace selected identities in place; retain unrelated rows and order."""
+    replacements = {key(row): row for row in supplied}
+    result, seen = [], set()
+    for row in rows:
+        ident = key(row)
+        if ident not in replacements:
+            result.append(row)
+        elif ident not in seen:
+            result.append(replacements[ident])
+            seen.add(ident)
+    result.extend(row for ident, row in replacements.items() if ident not in seen)
+    return result
+
+
 def publish_context(people, dossiers):
     """Expose the same cases to the site's shared person context and search."""
     registry_path = WEB / "assets/research/registry.json"
@@ -214,17 +229,16 @@ def publish_context(people, dossiers):
         path = WEB / relative
         rows = read_json(path)
         if isinstance(rows, list):
-            known = {r.get("id") for r in rows}
-            rows.extend(r for r in searches if r["id"] not in known)
+            rows = _upsert_selected(rows, searches, lambda row: row.get("id"))
             write_json(path, rows)
     for relative in ("assets/v3/search-people.json", "assets/v3/people-quick.json"):
-        path = WEB / relative; rows = read_json(path); known = {r[0] for r in rows}
-        for row in searches:
-            if row["id"] in known:
-                continue
-            rows.append([row["id"], row["name"], row["url"], row["meta"], row["search"]]
-                        if "search-people" in relative else
-                        [row["id"], row["name"], row["life"], row["place"], row["url"].split("/")[-1][:-5]])
+        path = WEB / relative
+        rows = read_json(path)
+        supplied = [[row["id"], row["name"], row["url"], row["meta"], row["search"]]
+                    if "search-people" in relative else
+                    [row["id"], row["name"], row["life"], row["place"], row["url"].split("/")[-1][:-5]]
+                    for row in searches]
+        rows = _upsert_selected(rows, supplied, lambda row: row[0])
         write_json(path, rows)
 
 

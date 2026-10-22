@@ -182,10 +182,17 @@ def plan(root: Path, record_ids: list[str]):
         qualification = '; '.join(p['name'] + ': ' + role for p, role in linked)
         note = ' '.join(filter(None, [row.get('note'), qualification, 'Reviewed ' + row['reviewed_on'] + '; ' + row['provenance']]))
         category = ('Births and baptisms' if '/BAP/' in str(row.get('provider_record_id')) or 'baptis' in label.lower()
-                    else 'Deaths and burials' if 'bur' in label.lower() or '/BUR/' in str(row.get('provider_record_id')) else 'Other records')
-        geography = ' '.join(str(row.get(k) or '') for k in ('place', 'association', 'provider_record_id'))
-        country = ('england' if re.search(r'Birmingham|England', geography, re.I) else
-                   'scotland' if re.search(r'Scot|Glasgow|Midcalder|Kirkliston|Leith|Cambusnethan|Kilmarnock', geography, re.I) else 'other')
+                    else 'Deaths and burials' if re.search(r'bur|death|obituar', label, re.I) or '/BUR/' in str(row.get('provider_record_id')) else 'Other records')
+        # A subject's surname (Glasgow) is not a Scottish jurisdiction signal.
+        # Prefer the reviewed country, then the event place; collection wording
+        # is only a fallback when no event place was supplied.
+        geography = str(row.get('place') or row.get('association') or '')
+        country = str(row.get('country') or '').strip().casefold()
+        if not country:
+            country = ('united states' if re.search(r'United States|Ohio|Pennsylvania', geography, re.I) else
+                       'ireland' if re.search(r'Ireland|Irish|Cork', geography, re.I) else
+                       'england' if re.search(r'Birmingham|England', geography, re.I) else
+                       'scotland' if re.search(r'Scot|Glasgow|Midcalder|Kirkliston|Leith|Cambusnethan|Kilmarnock', geography, re.I) else 'other')
         # A candidate link is navigation, never identification with the subject.
         slug = linked[0][0]['id'] if linked else ''
         person_url = '/people/' + slug + '.html' if slug else '/sources/' + sid + '/'

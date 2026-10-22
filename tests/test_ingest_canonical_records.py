@@ -138,6 +138,24 @@ class CanonicalRecordIngestTest(unittest.TestCase):
         self.assertIn('<h2>Maintained title</h2>', page)
         self.assertNotIn('<h1>Maintained title</h1>', page)
 
+    def test_glasgow_surname_does_not_override_reviewed_event_country(self):
+        for country, place, label in (
+                ('United States', 'Wayne County, Ohio', 'Alexander Glasgow — Ohio Obituary Index'),
+                ('Ireland', 'Cork, Ireland', 'Alexander Glasgow — Irish Deaths 1864 - 1958')):
+            with self.subTest(country=country):
+                self.canonical.update(country=country, place=place, association=label)
+                self.put('research/canonical_records.json', [self.canonical])
+                record = plan(self.root, ['new-canonical-id'])[self.web / 'data/records-index.json'][1]
+                self.assertEqual(record['country'], country.casefold())
+                self.assertEqual(record['region'], country)
+                self.assertEqual(record['record_category'], 'Deaths and burials')
+
+    def test_event_place_precedes_collection_country_without_reviewed_country(self):
+        self.canonical.update(place='Cork, Ireland', association='Alexander Glasgow — Scotland collection')
+        self.put('research/canonical_records.json', [self.canonical])
+        record = plan(self.root, ['new-canonical-id'])[self.web / 'data/records-index.json'][1]
+        self.assertEqual(record['country'], 'ireland')
+
     def test_reviewed_override_can_withhold_structured_year_and_country(self):
         apply(self.root, ['new-canonical-id'], refresh_sources=False)
         override = {'sources': [{'id': self.source['id'],

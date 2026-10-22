@@ -123,6 +123,53 @@ The deed does not give her birth date. No compatible profile survived the docume
         self.assertEqual(len(self.read("data/people-index.json")), 1)
         self.assertEqual(self.read(f"people/{self.slug}.json")["research_findings"][0]["sections"][0]["markdown"], self.entry["assessment"])
 
+    def test_second_apply_refreshes_four_context_indexes_in_place(self):
+        files = ("assets/research/search-people.json", "assets/research/search-index.json",
+                 "assets/v3/search-people.json", "assets/v3/people-quick.json")
+        registry = self.root / "www/assets/research/registry.json"
+        registry.parent.mkdir(parents=True)
+        (registry.parent / "people").mkdir()
+        registry.write_text(json.dumps([{"id": "unrelated-before", "slug": "unrelated-before"}]))
+        packed = self.root / "www/assets/v3/registry-packed.json"
+        packed.parent.mkdir(parents=True)
+        packed.write_text(json.dumps({"fields": ["id", "slug", "name"], "rows": []}))
+        before_rows = {}
+        after_rows = {}
+        for relative in files:
+            compact = "/v3/" in relative
+            before_rows[relative] = (["unrelated-before", "1786 Glasgow remains unchanged", "x", "y", "z"] if compact else
+                                     {"id": "unrelated-before", "life": "1786", "place": "Glasgow", "custom": True})
+            after_rows[relative] = (["unrelated-after", "Keep", "a", "b", "c"] if compact else
+                                    {"id": "unrelated-after", "custom": "Keep"})
+            (self.root / "www" / relative).write_text(json.dumps([before_rows[relative]]))
+        self.entry.update(birth="1775", birth_location="Glasgow, Scotland")
+        self.save()
+        module.apply_creations(self.root, [self.slug])
+        # Existing selected rows keep their position, and any old duplicate is retired.
+        for relative in files:
+            path = self.root / "www" / relative
+            rows = json.loads(path.read_text())
+            rows.extend([after_rows[relative], rows[1]])
+            path.write_text(json.dumps(rows))
+        self.entry.update(birth="on or before 1775", birth_location="", birth_note="Bound from the documented event.")
+        self.save()
+        module.apply_creations(self.root, [self.slug])
+        for relative in files:
+            rows = self.read(relative)
+            self.assertEqual(len(rows), 3)
+            self.assertEqual(rows[0], before_rows[relative])
+            self.assertEqual(rows[2], after_rows[relative])
+            if "/v3/" in relative:
+                self.assertEqual(rows[1][0], self.slug)
+                self.assertIn("on or before 1775", rows[1][2 if "people-quick" in relative else 3])
+                self.assertNotIn("Glasgow, Scotland", json.dumps(rows[1]))
+                if "people-quick" in relative:
+                    self.assertEqual(rows[1][3], "")
+            else:
+                self.assertEqual(rows[1]["id"], self.slug)
+                self.assertIn("on or before 1775", rows[1]["life"])
+                self.assertEqual(rows[1]["place"], "")
+
     def test_fresh_page_shows_approved_family_without_captured_attachments(self):
         study = '/branches/scottish-deeds/#chapter-family'
         self.entry['assessment'] += f' [Family study]({study}). [Local notes](research/private.md).'
@@ -186,6 +233,37 @@ The deed does not give her birth date. No compatible profile survived the docume
             module.apply_creations(self.root)
         self.assertFalse((data / "catalogue-search-index.json").exists())
 
+    def test_explicit_case_ignores_unrelated_invalid_draft_before_validation(self):
+        broken = dict(self.entry, catalogue_id="record-unrelated-walter",
+                      draft_path="research/drafts/walter.wiki")
+        broken_path = self.root / broken["draft_path"]
+        broken_path.write_text("Unrelated existing draft awaiting its own review.")
+        manifest = self.root / module.MANIFEST
+        manifest.write_text(json.dumps({"new_people": [broken, self.entry]}))
+        before_manifest = manifest.read_bytes()
+        before_draft = broken_path.read_bytes()
+        with self.assertRaisesRegex(ValueError, "maintained draft does not contain reviewed text"):
+            module.reviewed_people(self.root)
+        selected = [self.slug]
+        self.assertEqual(module.reviewed_people(self.root, selected), [self.entry])
+        self.assertEqual(len(module.reviewed_records(self.root, selected)), 1)
+        self.assertEqual(set(module.reviewed_audits(self.root, selected)), {self.slug})
+        self.assertEqual(module.apply_creations(self.root, selected)["integrated"], selected)
+        self.assertEqual(broken_path.read_bytes(), before_draft)
+        self.assertEqual(manifest.read_bytes(), before_manifest)
+        self.assertFalse((self.root / "www/people/record-unrelated-walter.json").exists())
+        self.assertEqual([p["catalogue_id"] for p in self.read("data/people.json")["people"]], selected)
+
+    def test_unknown_or_duplicate_explicit_selection_fails_before_writes(self):
+        before = {str(p.relative_to(self.root)): p.read_bytes() for p in self.root.rglob("*") if p.is_file()}
+        for selected, error in (([self.slug, "record-unknown"], "Unknown requested"),
+                                ([self.slug, self.slug], "Duplicate requested")):
+            with self.subTest(selected=selected):
+                with self.assertRaisesRegex(ValueError, error):
+                    module.apply_creations(self.root, selected)
+                after = {str(p.relative_to(self.root)): p.read_bytes() for p in self.root.rglob("*") if p.is_file()}
+                self.assertEqual(after, before)
+
     def test_source_verification_hold_remains_visible_without_creation_ready_claim(self):
         self.entry["creation_status"] = "hold_source_verification"
         self.save()
@@ -222,6 +300,7 @@ The deed does not give her birth date. No compatible profile survived the docume
         self.assertEqual(person["creation_candidates"], candidates)
         self.assertEqual(person["profile_work_candidate_count"], 1)
         self.assertEqual(row["profile_work_candidate_count"], 1)
+        self.assertEqual(row["profile_work_status"], "existing_profile_candidate")
         self.assertTrue(person["uncertain_identity"])
         self.assertTrue(row["uncertain_identity"])
         self.assertEqual(dossier["profile_work"]["candidates"], candidates)
@@ -236,6 +315,23 @@ The deed does not give her birth date. No compatible profile survived the docume
         self.assertIsNotNone(panel.select_one('a[href="https://www.wikitree.com/wiki/Glasgow-321"]'))
         self.assertNotIn("source verification on HOLD", soup.get_text())
         self.assertNotIn("verify the source before creation", soup.get_text())
+
+    def test_identity_hold_classification_tracks_compatible_candidates(self):
+        self.entry["creation_status"] = "identity_hold"
+        candidates = [{"profile_id": "Glasgow-1227", "status": "compatible_candidate"},
+                      {"profile_id": "Glasgow-1235", "status": "compatible_candidate"}]
+        for reviewed_candidates, expected in ((candidates, "existing_profile_candidate"), ([], "identity_hold")):
+            with self.subTest(candidate_count=len(reviewed_candidates)):
+                self.entry["candidates"] = reviewed_candidates
+                person = module.decorate_person({}, self.entry)
+                self.assertEqual(person["profile_work_status"], expected)
+                self.assertEqual(person["profile_work_candidate_count"], len(reviewed_candidates))
+                self.assertEqual(person["creation_status"], "identity_hold")
+                self.assertTrue(person["pending_profile_creation"])
+                self.assertFalse(person["creation_ready"])
+                self.assertTrue(person["uncertain_identity"])
+                audit = {"recommended_action": "hold", "candidates": reviewed_candidates}
+                self.assertEqual(module.catalogue._profile_work_status(person, audit), expected)
 
     def test_age_supported_later_record_does_not_fabricate_birth(self):
         self.entry["records"][0].update(year="1911", filter_year=1911)
