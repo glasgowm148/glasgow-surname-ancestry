@@ -138,6 +138,22 @@ research section does not replace that integration.
   skipped until the baseline exists. Fix the cause in the builder, never in
   `www/`. `--update-baseline` only removes links that are fixed, and
   `--report <file.json>` writes the full list.
+- Reviewed canonical records: use `.venv/bin/python -m tools.ingest_canonical_records --record-id <canonical-ID> --apply` (repeat `--record-id` for a coherent batch),
+  or `--source-file <reviewed-records-JSON>` to select canonical rows whose
+  provenance points to that file. Without `--apply` it is a preflight only.
+  This guarded targeted path requires a review date, assessment, safe provider
+  URL, explicit historical year and checked public person destinations. It
+  preserves unrelated records and existing provider/source IDs, carries candidate
+  roles without changing identity/vital facts, and refreshes full/compact record
+  indexes, source details/readers and source browsing. It does not update people,
+  findings, maps or relationships; synchronize those separately. Run normal
+  search/sitemap finalization and publication/link checks afterwards. A successful
+  ingest does not establish complete provider-search coverage.
+  Set `publish_to_record_index: true` only on reviewed canonical rows approved
+  for this public ingest. Normal finalization replays those rows after broader
+  generation, preserving them across rebuilds; unflagged legacy rows remain
+  untouched. `.venv/bin/python -m tools.ingest_canonical_records --reviewed`
+  preflights that durable set; add `--apply` for a standalone replay.
 - Place pages: `.venv/bin/python tools/refresh_place_pages.py` runs only the
   place writer on the published records index and people file and puts each
   fresh `<main>` into the page already on the site (`--check` reports without

@@ -253,17 +253,57 @@ def temporal_scope(detail: dict[str, Any]) -> dict[str, Any]:
     }
 
 
-def detail_identity(record_id: str, row: dict[str, Any], detail: dict[str, Any]) -> tuple[dict[str, Any] | None, str]:
+def birth_temporal_scope(detail: dict[str, Any], cutoff: int) -> dict[str, Any]:
+    """Qualify birth separately from the event; collection coverage proves neither."""
+    fields = detail.get("transcript_fields") or {}
+    event_fields = {key: value for key, value in fields.items()
+                    if key not in {"Birth date", "Birth year", "Record set", "Year Range"}}
+    # A scalar can be an index's copied start of a broad coverage range.
+    # Without an independently dated event it cannot establish earlier existence.
+    if clean(fields.get("Year Range")):
+        event_fields = {key: value for key, value in event_fields.items() if key not in DATE_YEAR_FIELDS}
+    temporal = temporal_scope({"transcript_fields": event_fields})
+    birth_years = set(explicit_years(fields.get("Birth date"))) | set(explicit_years(fields.get("Birth year")))
+    if birth_years:
+        if len(birth_years) != 1:
+            return {**temporal, "accepted": False, "reason": "conflicting or ranged birth years require review"}
+        birth = next(iter(birth_years))
+        # Birth-only records still carry their documentary event year.
+        if temporal["year"] is None and not any(clean(fields.get(key)) for key in DATE_FIELDS + DATE_YEAR_FIELDS if not key.startswith("Birth")):
+            temporal = temporal_scope({"transcript_fields": {"Birth year": str(birth)}})
+        return {**temporal, "accepted": birth < cutoff,
+                "basis": f"{temporal['basis']}; transcript birth year {birth} qualifies birth before {cutoff}",
+                "reason": "" if birth < cutoff else f"transcript birth year {birth} is not before {cutoff}"}
+    if temporal["year"] is not None and temporal["year"] < cutoff:
+        return {**temporal, "accepted": True, "reason": "",
+                "basis": f"{temporal['basis']}; dated event proves subject existed before {cutoff}"}
+    age = clean(fields.get("Age")) or clean(fields.get("Age at death"))
+    age_match = re.fullmatch(r"(\d{1,3})\s*(?:y|years?)?", age, flags=re.IGNORECASE)
+    age_years = int(age_match.group(1)) if age_match else None
+    if temporal["year"] is not None and age_years is not None and 0 <= age_years <= 120:
+        earliest, latest = temporal["year"] - age_years - 1, temporal["year"] - age_years
+        if 1 <= earliest <= latest < cutoff:
+            return {**temporal, "accepted": True, "reason": "",
+                    "basis": f"{temporal['basis']}; estimated birth {earliest}–{latest} from recorded age {age}, not an exact birth date"}
+    return {**temporal, "accepted": False,
+            "reason": f"transcript does not establish birth before {cutoff}; later or undated event with unknown qualifying birth held for review"}
+
+
+def detail_identity(record_id: str, row: dict[str, Any], detail: dict[str, Any], born_before: int | None = None) -> tuple[dict[str, Any] | None, str]:
     valid, reason = surname_verdict(detail)
     if not valid:
         return None, reason
-    temporal = temporal_scope(detail)
+    if born_before is not None and norm(detail.get("birth_surname_status")) in {"unknown", "unproved", "conflicting"}:
+        return None, "birth surname is explicitly unknown, unproved or conflicting; birth-scope qualification held for review"
+    temporal = temporal_scope(detail) if born_before is None else birth_temporal_scope(detail, born_before)
     if not temporal["accepted"]:
         return None, temporal["reason"]
     fields = detail.get("transcript_fields") or {}
     first = first_present(fields, ("First name(s)", "First name", "Forename(s)"))[1]
     last = first_present(fields, ("Last name", "Last name(s)", "Surname"))[1]
     date_label, date_value = first_present(fields, DATE_FIELDS)
+    if born_before is not None and any(clean(fields.get(key)) for key in DATE_FIELDS + DATE_YEAR_FIELDS if not key.startswith("Birth")):
+        date_label, date_value = first_present(fields, tuple(key for key in DATE_FIELDS if not key.startswith("Birth")))
     place = first_present(fields, ("Place", "Event place", "Residence", "Place as transcribed", "County"))[1]
     country = clean(fields.get("Country"))
     relative_values = {}
@@ -548,6 +588,38 @@ def load_details(input_dir: Path) -> tuple[dict[str, dict[str, Any]], dict[str, 
     return details, sources
 
 
+def merge_reinspection(original: dict[str, Any], inspected: dict[str, Any], record_id: str, original_source: str) -> dict[str, Any]:
+    """Merge compatible transcript fields while preserving capture provenance.
+
+    Access metadata belongs to the latest inspection. Documentary disagreements
+    require review rather than choosing either reading automatically.
+    """
+    old_fields = original.get("transcript_fields") or {}
+    new_fields = inspected.get("transcript_fields") or {}
+    conflicts = {
+        key: {"original": old_fields[key], "reinspection": value}
+        for key, value in new_fields.items()
+        if clean(value) and clean(old_fields.get(key))
+        and " ".join(clean(old_fields[key]).split()) != " ".join(clean(value).split())
+    }
+    if conflicts:
+        raise ValueError(f"Supplemental transcript conflict requires review for {record_id}: {canonical(conflicts)}")
+    merged = {**original, **inspected}
+    merged["transcript_fields"] = {**old_fields, **{
+        key: value for key, value in new_fields.items()
+        if clean(value) or key not in old_fields
+    }}
+    if clean(inspected.get("access_status")) == "accessible" and "block_reason" not in inspected:
+        merged.pop("block_reason", None)
+    merged["reinspection_provenance"] = {
+        "original_detail_source_file": original_source,
+        "original_captured_at": clean(original.get("captured_at")),
+        "original_detail_sha256": hashlib.sha256(canonical(original).encode()).hexdigest(),
+        "status": "compatible inspected transcript fields merged; raw original capture retained",
+    }
+    return merged
+
+
 def csv_value(value: Any) -> str:
     if isinstance(value, (dict, list)):
         return canonical(value)
@@ -579,12 +651,33 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--input-dir", type=Path, default=DEFAULT_DIR)
     parser.add_argument("--output-dir", type=Path)
+    parser.add_argument("--born-before", type=int, metavar="YEAR", help="Qualify birth before YEAR, including later events; no corpus-completeness claim")
+    parser.add_argument("--supplemental-records", type=Path, help="Inspected documentary details in saved records-keyed JSON schema, outside paginated coverage")
     options = parser.parse_args()
+    if options.born_before is not None and not 2 <= options.born_before <= 9999:
+        parser.error("--born-before must be between 2 and 9999")
     input_dir = options.input_dir
     output_dir = options.output_dir or input_dir
     audit_path = input_dir / "audit-consolidated.json"
     audit = json.loads(audit_path.read_text(encoding="utf-8"))
     details, detail_sources = load_details(input_dir)
+    supplemental = {}
+    supplemental_clusters = []
+    if options.supplemental_records:
+        supplemental_payload = json.loads(options.supplemental_records.read_text(encoding="utf-8"))
+        supplemental = supplemental_payload.get("records")
+        supplemental_clusters = supplemental_payload.get("identity_clusters", [])
+        if not isinstance(supplemental_clusters, list):
+            raise ValueError("Supplemental identity_clusters must be a list")
+        if not isinstance(supplemental, dict):
+            raise ValueError("Supplemental records must be an object keyed by record ID")
+        for record_id, detail in supplemental.items():
+            if not isinstance(detail, dict) or not isinstance(detail.get("transcript_fields"), dict) or not clean(detail.get("title")) or not clean(detail.get("final_url") or detail.get("url")):
+                raise ValueError(f"Supplemental record requires transcript_fields, title and source URL: {record_id}")
+            if record_id in details:
+                detail = merge_reinspection(details[record_id], detail, record_id, detail_sources[record_id])
+            details[record_id] = detail
+            detail_sources[record_id] = str(options.supplemental_records.resolve())
     review_path = input_dir / "record-review-overrides.json"
     reviews = json.loads(review_path.read_text(encoding="utf-8")) if review_path.exists() else {}
     if not isinstance(reviews, dict):
@@ -621,6 +714,18 @@ def main() -> int:
         raise AssertionError(
             f"exact-display IDs silently dropped: audit says {expected_exact_ids}, selected {len(selected_rows)}"
         )
+    observed_ids = set(selected_rows)
+    for record_id, detail in supplemental.items():
+        if record_id not in selected_rows:
+            fields = detail["transcript_fields"]
+            selected_rows[record_id] = {
+                "record_id": record_id,
+                "first_name": first_present(fields, ("First name(s)", "First name", "Forename(s)"))[1],
+                "last_name": first_present(fields, ("Last name", "Last name(s)", "Surname"))[1],
+                "record_set": clean(fields.get("Record set")),
+                "classification": "inspected supplemental documentary detail; outside paginated coverage",
+                "included_in_analysis": False,
+            }
     unused_detail_ids = sorted(set(details) - set(selected_rows))
     unused_details = [{
         "record_id": record_id,
@@ -681,7 +786,7 @@ def main() -> int:
             outcomes.append(outcome)
             excluded.append(outcome)
             continue
-        if not included:
+        if not included and record_id not in supplemental:
             reason = "exact-display row was observed but is not in a reconciled included audit window"
             outcome = {**common, "outcome": "unresolved_review", "reason": reason, "group_id": ""}
             outcomes.append(outcome)
@@ -693,9 +798,13 @@ def main() -> int:
             outcomes.append(outcome)
             excluded.append(outcome)
             continue
-        record, reason = detail_identity(record_id, row, details[record_id])
+        record, reason = detail_identity(record_id, row, details[record_id], options.born_before)
         if record:
             record["detail_source_file"] = detail_sources[record_id]
+            if record_id in supplemental:
+                record["inspection_provenance"] = "inspected supplemental documentary detail; not paginated corpus coverage"
+                if details[record_id].get("reinspection_provenance"):
+                    record["reinspection_provenance"] = details[record_id]["reinspection_provenance"]
             records.append(record)
         else:
             outcome = {
@@ -710,6 +819,23 @@ def main() -> int:
             excluded.append(outcome)
 
     profiles, profile_sources = load_profiles()
+    unapplied_clusters = []
+    if options.born_before is not None:
+        accepted_ids = {record["record_id"] for record in records}
+        eligible_clusters = []
+        for cluster in identity_clusters:
+            missing = sorted(set(cluster.get("record_ids") or []) - accepted_ids)
+            if missing:
+                unapplied_clusters.append({
+                    **cluster, "withheld_record_ids": missing,
+                    "scope_review_reason": "Manual cluster not applied: one or more members lack qualifying inspected birth-scope evidence",
+                })
+            else:
+                eligible_clusters.append(cluster)
+        identity_clusters = eligible_clusters
+    # Supplemental decisions are invocation-local and use the same strict
+    # membership, overlap and written-reason validation as existing clusters.
+    identity_clusters = identity_clusters + supplemental_clusters
     people = []
     for members, duplicate_reason in group_records(records, identity_clusters):
         record_ids = [member["record_id"] for member in members]
@@ -752,11 +878,11 @@ def main() -> int:
                 "display_event_year": clean(row.get("event_year")),
                 "display_location": clean(row.get("location")),
                 "record_set": clean(row.get("record_set")),
-                "included_in_reconciled_analysis": True,
+                "included_in_reconciled_analysis": row.get("included_in_analysis") is True,
                 "result_classification": clean(row.get("classification")),
                 "detail_source_file": detail_sources.get(record_id, ""),
                 "outcome": "validated_in_scope",
-                "reason": "full transcript validates an exact Glasgow-surname person and an event no later than 1750",
+                "reason": (f"full transcript validates an exact Glasgow-surname person qualifying birth before {options.born_before}" if options.born_before else "full transcript validates an exact Glasgow-surname person and an event no later than 1750"),
                 "group_id": group_id,
             })
     people.sort(key=lambda item: (
@@ -782,8 +908,8 @@ def main() -> int:
             and not daily_limit_ids
         ),
         "audit_target_years": audit.get("summary", {}).get("target_years"),
-        "observed_exact_display_unique_record_ids": len(selected_rows),
-        "exact_display_outcome_record_ids": len(outcomes),
+        "observed_exact_display_unique_record_ids": len(observed_ids),
+        "exact_display_outcome_record_ids": sum(item["record_id"] in observed_ids for item in outcomes),
         "detail_overlay_record_ids": len(details),
         "detail_ids_without_observed_exact_display_row": len(unused_details),
         "transcript_validated_in_scope_record_ids": len(records),
@@ -817,6 +943,24 @@ def main() -> int:
         "excluded_records": sorted(excluded, key=lambda item: item["record_id"]),
         "unused_detail_records": unused_details,
     }
+    if options.born_before is not None or supplemental:
+        summary.update({
+            "birth_scope_before": options.born_before,
+            "birth_scope_corpus_complete": False,
+            "supplemental_inspected_record_ids": len(supplemental),
+            "supplemental_records_outside_paginated_audit": len(set(supplemental) - observed_ids),
+        })
+    if options.born_before is not None:
+        payload["rules"]["time"] = f"Birth before {options.born_before}: explicit transcript birth year, dated earlier event, or qualified age estimate wholly before cutoff. Collection coverage never establishes birth scope. Unknown later births held."
+        payload["unapplied_identity_clusters"] = unapplied_clusters
+    if options.supplemental_records:
+        payload["supplemental_records_source"] = provenance_path(options.supplemental_records.resolve())
+        payload["supplemental_identity_clusters"] = [{
+            **cluster, "source_file": provenance_path(options.supplemental_records.resolve()),
+        } for cluster in supplemental_clusters]
+        if supplemental_clusters:
+            payload["rules"]["grouping"] += " Invocation-local reviewed identity_clusters may also be supplied in the supplemental records file, with the same strict validation."
+        payload["rules"]["supplemental"] = "Separately inspected documentary details; no paginated corpus coverage or completeness claim."
     json_path = output_dir / "audit-distinct-people.json"
     csv_path = output_dir / "audit-distinct-people.csv"
     atomic_write_text(

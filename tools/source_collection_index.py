@@ -116,6 +116,12 @@ def _years(doc: dict, text: str, categories: list[str]) -> tuple[int | None, str
         census_years, _ = _census_metadata(doc)
         if census_years:
             return (census_years[0], "source title") if len(census_years) == 1 else (None, "multiple census years")
+    # Reviewed record rows carry the event year explicitly. Collection spans
+    # in a provider title describe coverage, not this record's event date.
+    if "census" not in categories:
+        recorded = _recorded_years(doc)
+        if recorded:
+            return (recorded[0], "record year") if len(recorded) == 1 else (None, "multiple record years")
     title = re.sub(r"\b[A-Za-z][A-Za-z'-]*-\d+\b", "", str(doc.get("title") or ""))
     title_years = [] if "census" in categories else [int(x) for x in _YEAR.findall(title)]
     if len(set(title_years)) == 1:
@@ -137,6 +143,12 @@ def _years(doc: dict, text: str, categories: list[str]) -> tuple[int | None, str
     if len(set(dated)) == 1:
         return dated[0], "record dates"
     return None, "unknown"
+
+
+def _recorded_years(doc: dict) -> list[int]:
+    return sorted({row['year'] for row in doc.get('records', [])
+                   if isinstance(row, dict) and isinstance(row.get('year'), int)
+                   and not isinstance(row['year'], bool) and 1 <= row['year'] <= 2100})
 
 
 def _classify(doc: dict) -> list[str]:
@@ -184,6 +196,12 @@ def build_index(web: Path) -> list[dict]:
         if any(re.search(r"^glasgow(?:,|\s|$)", place, re.I) for place in places) and "Scotland" not in countries:
             countries.append("Scotland")
         year, year_basis = _years(doc, text, categories)
+        recorded_years = _recorded_years(doc) if year_basis in {'record year', 'multiple record years'} else []
+        if recorded_years:
+            recorded_countries = sorted({row['country'] for row in doc.get('records', [])
+                                         if isinstance(row, dict) and row.get('country') in _COUNTRIES})
+            if recorded_countries:
+                countries = recorded_countries
         census_years, census_countries = _census_metadata(doc) if "census" in categories else ([], [])
         if row['id'] in overrides:
             override = overrides[row['id']]
@@ -192,6 +210,8 @@ def build_index(web: Path) -> list[dict]:
             census_years, census_countries = override['years'], override['countries']
             year = census_years[0] if len(census_years) == 1 else None
             year_basis = 'reviewed citation title'
+            recorded_years = []
+            countries = list(census_countries)
         if census_countries:
             countries = census_countries
         people = {}
@@ -203,7 +223,7 @@ def build_index(web: Path) -> list[dict]:
         result.append({
             "id": row["id"], "title": row.get("title") or doc.get("title") or "",
             "categories": categories, "year": year, "year_basis": year_basis,
-            "years": census_years or ([year] if year else []),
+            "years": census_years or recorded_years or ([year] if year else []),
             "countries": countries, "places": places, "members": row.get("members") or [],
             "people": [{"id": ident, "name": people.get(ident.lower(), ident)} for ident in row.get("members") or []],
             "records": row.get("records") or 0, "citations": row.get("citations") or 0,

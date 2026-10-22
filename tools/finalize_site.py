@@ -24,7 +24,13 @@ def finalize(site_root=ROOT/'www'):
     from tools.repair_release_readiness import snapshot, about_dates
     from datetime import date
     from tools.publish_reviewed_collections import publish as publish_collections
-    counts=Counter(publish_collections(site_root))
+    from tools.ingest_canonical_records import publish_reviewed
+    counts=Counter()
+    # The opt-in records use the project root's maintained www. Never route
+    # an alternate export tree into its sibling production directory.
+    if site_root.name == 'www':
+        counts.update({'canonical_' + key: value for key, value in publish_reviewed(site_root.parent).items()})
+    counts.update(publish_collections(site_root))
     from tools.build_source_collections import repair as repair_source_collections, ready as source_collections_ready
     if source_collections_ready(site_root):
         counts.update(repair_source_collections(site_root))

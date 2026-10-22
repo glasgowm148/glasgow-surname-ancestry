@@ -285,10 +285,16 @@ def decide(person: dict[str, Any], match: dict[str, Any] | None,
             "decision_source": "pre1500_free_space_rule",
         })
     else:
-        no_match = clean((match or {}).get("status")) == "no_wikitree_match_found"
+        # An empty search result is not evidence that a separate person is
+        # needed. READY requires an explicit reviewed override documenting
+        # concrete exclusions; do not infer that review from candidate scores.
         result.update({
-            "outcome": "new_person", "creation_status": "READY" if no_match and not candidates else "HOLD",
-            "decision_source": "complete_live_no_match_audit" if no_match and not candidates else "unresolved_candidate_audit",
+            "outcome": "new_person", "creation_status": "HOLD",
+            "decision_source": "unresolved_candidate_audit",
+            "notes": "Compatible candidates and identity-match review remain pending; "
+                     "a new-person recommendation requires reviewed concrete conflicts "
+                     "excluding existing people. Empty search results or missing fields "
+                     "do not establish a distinct person.",
         })
     outcome = result["outcome"]
     if result["substantive_amendment"] is None:

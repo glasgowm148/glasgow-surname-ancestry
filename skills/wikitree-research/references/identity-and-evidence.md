@@ -147,6 +147,18 @@ transcript or title shows that Glasgow is an office, place, see, or other
 descriptor. Inspect the full transcript/title and distinguish an actual
 surname from “of Glasgow,” “Archdeacon/Bishop/Deacon of Glasgow,” and similar
 phrasing before adding the result to the surname catalogue.
+
+For Findmypast Glasgow integration (owner correction, 22 October 2026), suggest
+a new person only when concrete recorded conflicts prevent assignment to
+existing catalogue people. An empty search, absent fields or missing extra
+corroboration is insufficient. Consolidate compatible records and retain
+compatible existing people while identity review is pending. Use the existing
+`catalogue-integration-overrides.json` reviewed decision and `notes` to name
+the excluded candidates, their concrete conflicting evidence and its source
+before marking a new-person draft READY. Automatic no-match decisions remain
+HOLD; preserve explicit reviewed decisions, but review any legacy READY notes
+that rely only on no-match rather than documented concrete exclusions.
+
 A Findmypast result scrape is not complete until every pagination page in
 every date window has been enumerated, the site's displayed result total has
 been recorded, and saved rows reconcile to that total after explicitly
