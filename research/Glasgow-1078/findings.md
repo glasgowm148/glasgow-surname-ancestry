@@ -5,6 +5,8 @@ Last updated: 2026-10-07
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **99% (proved)** for [Glasgow-1027](https://www.wikitree.com/wiki/Glasgow-1027). The recorded child’s father is secure; this does not settle every proposed earlier generation of Robert senior. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Reviewed: 2026-10-16
 
 **Selected working family, 16 October 2026:** The 1652 Edinburgh cordiner Glasgow-3938 is tentatively placed under Robert Glasgow-1027 and Jonet Cunningham-20923 through possible identity with their 1618 child Glasgow-1078. Both adult parent links are uncertain. Larne and Lorimer namesakes remain separate accounts; no dates, existing attachments or confidence grades are overwritten. [Evidence and alternatives](/branches/early-scottish-records/#edinburgh-cordiner-family).
@@ -258,3 +260,17 @@ Keep Robert Glasgow-1078, Glasgow-3938 and the Larne Robert Glasgow-3970 as sepa
 - [Glasgow baptism, 17 November 1618, OPR 644/1, reported 10/272; existing transcription names both parents](https://www.scotlandspeople.gov.uk/)
 - [Edinburgh burgess 1666, Euphame Lorimer household; retained namesake comparison](https://www.findmypast.co.uk/transcript?id=SCOT%2FBURGESS%2F1009525&tab=this)
 - [Reported 1644 West Port sasine index, SRO44 p.160; Lorimer household, original unread](https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481222&seq=168)
+
+## Father confidence review, fourth batch — 22 October 2026
+
+[Glasgow-1027](https://www.wikitree.com/wiki/Glasgow-1027) remains the selected father, assessed **99% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+The Glasgow High Kirk entry of 17 November 1618 calls Robert the lawful son of Robert Glasgow and Jonet Conynghame. This is the selected Robert/Jonet household, also recorded with other children in 1614–23.
+
+Scope: The recorded child’s father is secure; this does not settle every proposed earlier generation of Robert senior.
+
+Next useful test: Check the original entry only if a competing Robert/Jonet household is identified.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [National Records of Scotland, Glasgow High Kirk Old Parish Register 644/1, reported reference 10/272, baptism of Robert Glasgow, 17 November 1618; reported transcription: "Robert lawful sone to Robert Glasgow & Jonet Conynghame - Godf: John & George Glasgowis."](https://www.wikitree.com/wiki/Glasgow-1078)

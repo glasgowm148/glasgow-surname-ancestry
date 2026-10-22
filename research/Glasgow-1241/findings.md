@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **52% (possible)** for [Glasgow-1242](https://www.wikitree.com/wiki/Glasgow-1242). Possible for the current profile placement. The two baptism events and Mary/Philip label conflict must be reconciled; neither baptism alone identifies the later Dublin watchmaker. No name, date or parent replacement is applied. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Reviewed: 2026-10-16
 
 **Selected Dublin/Irvine working families,16 October 2026:** Philip Glasco-146 is used provisionally as the elder Dublin watchmaker and placed under Thomas-1242, uncertain through the 1711 child comparison. James of the Irvine Rae household is placed under Hugh-3109, uncertain. No new mother is attached, and both elder/junior and Hugh identities remain qualified. [Evidence and alternatives](/branches/early-scottish-records/#dublin-irvine-working-family).
@@ -86,3 +88,17 @@ The Scottish child remains this account’s record-defined starting point; the s
 - [James’s complete Irvine household and retained 1723 Marion Rae entry](https://www.wikitree.com/wiki/Glasgow-4158)
 - [Philip junior profile: current biography capture checked16 October2026](https://www.wikitree.com/wiki/Glasgow-3932)
 - [Robert Glasgow-3897: correct Kilrea subject retaining the entire misplaced biography](https://www.wikitree.com/wiki/Glasgow-3897)
+
+## Father confidence review, fourth batch — 22 October 2026
+
+[Glasgow-1242](https://www.wikitree.com/wiki/Glasgow-1242) remains the selected father, assessed **52% (possible)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+The held account describes Philip baptized 3 June 1711 at Uphall, son of Thomas Glasgow and Jean Duncan; the selected Thomas’s generation and stated Jean Duncan marriage are compatible. However the saved subject label is Mary, while another family citation gives Philip at Linlithgow on 21 October 1711.
+
+Scope: Possible for the current profile placement. The two baptism events and Mary/Philip label conflict must be reconciled; neither baptism alone identifies the later Dublin watchmaker. No name, date or parent replacement is applied.
+
+Next useful test: Compare both 1711 register entries and identify which child the profile was intended to represent.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Philip at Uphall,3 June 1711: retained Thomas/Jean child index](https://www.familysearch.org/ark:/61903/1:1:VQ48-S7Z)

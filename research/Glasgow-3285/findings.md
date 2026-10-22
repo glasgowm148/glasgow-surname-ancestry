@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **99% (proved)** for [Glasgow-2682](https://www.wikitree.com/wiki/Glasgow-2682). Confident for the recorded child; James’s earlier family and other wives require separate evidence. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Reviewed: 2026-10-21. **The maintained Duffe household and youngest-son identification are unchanged; its father probably represents the older1641/1649 weaver70%, with a conditional Robert father61%.**
 
 The maintained Duffe household and youngest-son identification are unchanged; its father probably represents the older1641/1649 weaver70%, with a conditional Robert father61%.
@@ -104,3 +106,17 @@ The most useful test is an Edinburgh marriage, guild, property, witness or prior
 - [Henry Paton (ed.), Edinburgh marriages 1595–1700, printed p.267/PDF p.277: Bessie Whyte 6 July 1649; Agnes Duncan 11 November 1653; maintained printed-register review reused](https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/register_of_marriages_for_the_parish_of_edinburgh_1595-1700_~_1898.pdf#page=277)
 
 The cited printed registers, apprenticeship entries and parish index associations were already held and reviewed; no manuscript or new original page was inspected for this reassessment.
+
+## Father confidence review, fourth batch — 22 October 2026
+
+[Glasgow-2682](https://www.wikitree.com/wiki/Glasgow-2682) remains the selected father, assessed **99% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+Thomas’s 13 November 1684 Edinburgh entry names James Glasgow and Isobell Duffe, the full couple represented by the selected father’s household.
+
+Scope: Confident for the recorded child; James’s earlier family and other wives require separate evidence.
+
+Next useful test: Inspect the original parish page if a competing James/Isobell couple appears.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: ["Scotland, Births and Baptisms, 1564-1950", database, FamilySearch (https://familysearch.org/ark:/61903/1:1:VQC9-N9X : 11 February 2020), James Glascow in entry for Thomas Glascow, 1684.](https://familysearch.org/ark:/61903/1:1:VQC9-N9X)

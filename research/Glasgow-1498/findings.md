@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **31% (possible)** for [Glasgow-3331](https://www.wikitree.com/wiki/Glasgow-3331). Possible at the lower end; the held account supplies no parent clause and the Cavers identity is itself a family hypothesis. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 John Glasgow is directly named under Cavers parish and marked as a survivor of
 the 1679 wreck. The source does not name his parents, relate him to William, or
 give his later destination.
@@ -36,3 +38,17 @@ The transcript-validated covenanter record record for **John Glasgow**, 1679-168
 
 Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
 <!-- END FMP-GLASGOW-fmp-glasgow-8a8a5ce31a19 -->
+
+## Father confidence review, fourth batch — 22 October 2026
+
+[Glasgow-3331](https://www.wikitree.com/wiki/Glasgow-3331) remains the selected father, assessed **31% (possible)**. Previous selected-tree status: **uncertain**, without an individual percentage.
+
+John’s c 1650 birth fits a father born before 1632, and the inherited placement connects him with the Borders/Cavers John family. The broad chronology is feasible.
+
+Scope: Possible at the lower end; the held account supplies no parent clause and the Cavers identity is itself a family hypothesis.
+
+Next useful test: Find a Borders testament or tenancy naming this John as a son.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Inherited father attachment: Glasgow-1498 to Glasgow-3331; retained public historical profile and individually stated evidence limits](https://www.wikitree.com/wiki/Glasgow-1498)

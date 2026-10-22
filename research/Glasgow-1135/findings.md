@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **93% (proved)** for [Glasgow-1134](https://www.wikitree.com/wiki/Glasgow-1134). Confident compiled child list; Samuel’s burial citation is not presented as Ezekiel’s own burial or a contemporary birth entry. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 [Ezekiel's own Find a Grave memorial
 157440876](https://www.findagrave.com/memorial/157440876/ezekiel-glasgow)
 matches his name and structured vitals and states that he was the first pastor
@@ -55,3 +57,17 @@ The postal list gives neither an age nor a family relationship between James and
 
 This may concern [Glasgow-1135](https://www.wikitree.com/wiki/Glasgow-1135). Birth 1785, Pennsylvania, uncertain; death 23 Apr 1814, Beaver County, Pennsylvania, exact. The recorded uncertain birth year is after the 1775 entry and is a substantial chronological mismatch, but not a hard exclusion from an uncertain date alone. No South Carolina connection was found.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, fourth batch — 22 October 2026
+
+[Glasgow-1134](https://www.wikitree.com/wiki/Glasgow-1134) remains the selected father, assessed **93% (proved)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+Samuel Glasgow’s family memorial account explicitly lists Ezekiel among his children. Ezekiel’s c 1785 birth is compatible with Samuel and Hannah Kilpatrick’s stated household.
+
+Scope: Confident compiled child list; Samuel’s burial citation is not presented as Ezekiel’s own burial or a contemporary birth entry.
+
+Next useful test: Compare Samuel’s probate or family register with the memorial child list.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Find a Grave memorial 85298095 (https://www.findagrave.com/memorial/85298095/samuel-glasgow), Samuel Glasgow.](https://www.findagrave.com/memorial/85298095/samuel-glasgow)

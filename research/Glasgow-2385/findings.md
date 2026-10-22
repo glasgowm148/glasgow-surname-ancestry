@@ -4,6 +4,8 @@ Last updated: 2026-10-06
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **99% (proved)** for [Glasgow-4056](https://www.wikitree.com/wiki/Glasgow-4056). Confident for the expressly named father, without claiming an otherwise unidentified earlier John’s ancestry. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 The original 1847 marriage establishes Alexander as a full-age labourer of Glenleslie, son of **John Glasgow, labourer**. The live profile and current catalogue now represent that record-defined father as [[Glasgow-4056|John Glasgow]]. The earlier attachment to [[Glasgow-867|John of Lisnagaver]] is superseded; it was chronologically incompatible with that man's memorial age. Naming the father does not prove a connection to John of Glenleslie `Glasgow-1022` or to Alexander-951.
 
 The 1851 household supports a distinct Glenleslie couple, Alexander and Mary Ann, with son John. This Alexander is a weaker but unexcluded candidate for the 1888 Gortahar death. The family's later movements are unresolved. A live-source review on 13 September found no identifiable original for Mary Anne Martin’s asserted 1882 death and an unrelated-looking Sydney marriage description involving Mary Ann Cupid. That unsourced death year cannot presently exclude her husband from a married death in 1888.
@@ -87,3 +89,17 @@ The bounded follow-up also reached the IrishGenealogy homepage, but direct retri
 The reported [John Martin Glascow–Mary Gibson marriage of 10 November 1870](https://www.familysearch.org/ark:/61903/1:1:QGYQ-ZW9Z) remains an unverified lead for the Glenleslie son. The civil original was not retrieved in this pass; search-engine absence and an access failure are not evidence against the marriage. Search without adopting the contradictory copied Coleraine/County Offaly location. A compatible father, residence and occupation could locate this family after 1851; the result would not by itself identify the 1888 Gortahar decedent.
 
 Only after identifying the son’s family locality should the wife’s alleged 1882 death be used as a bounded target. An earlier wife’s death would still require checking remarriage before excluding a later married death. [The current comparison and next tests](/people/glasgow-951.html#next-research) retain this man as a weaker, unexcluded alternative.
+
+## Father confidence review, fourth batch — 22 October 2026
+
+[Glasgow-4056](https://www.wikitree.com/wiki/Glasgow-4056) remains the selected father, assessed **99% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+Alexander’s original 6 April 1847 marriage names his father John, a labourer. John-4056 is the record-defined father represented by that entry, with a compatible birth-before-1798 estimate.
+
+Scope: Confident for the expressly named father, without claiming an otherwise unidentified earlier John’s ancestry.
+
+Next useful test: Use John’s occupation and Alexander’s locality to research the next generation.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [General Register Office of Ireland, civil marriage register, entry 31, marriage of Alexander Glasgow and Mary Anne Martin, 6 April 1847, Clogh, Ballymena registration district; General Register Office of Ireland, civil marriage image (https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1847/09322/5375567.pdf).](https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1847/09322/5375567.pdf)

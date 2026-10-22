@@ -3,6 +3,12 @@
 Last updated: 2026-09-10
 
 
+## Current conclusion
+
+Current father assessment (22 October 2026): **98% (proved)** for [Glasgow-1073](https://www.wikitree.com/wiki/Glasgow-1073). Confident parentage despite an unresolved year discrepancy; no calendar-style explanation or date overwrite is invented. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
+Elizabeth’s Kilbirnie baptism account names Rev John Glasgow and Jean Cunynghame, matching the selected minister’s documented couple. The held accounts differ between 17 April 1691 and 1692 but agree on the parents.
+
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-ee7b6f8c8dbe
 
 The transcript-validated baptism record for **Elizabeth Glasgow**, 17 Apr 1691, Kilbirnie, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
@@ -30,3 +36,17 @@ Add the record as supporting evidence while preserving all existing sources and 
 Original image not inspected for this batch. The combined collection’s date does not automatically establish a birthday. Names alone do not uniquely identify attached parents or connect a child with a later adult. An omitted parent or indexed gender U remains unspecified in this source.
 
 **Next action:** No additional WikiTree update from this row; preserve any existing pending work.
+
+## Father confidence review, fourth batch — 22 October 2026
+
+[Glasgow-1073](https://www.wikitree.com/wiki/Glasgow-1073) remains the selected father, assessed **98% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+Elizabeth’s Kilbirnie baptism account names Rev John Glasgow and Jean Cunynghame, matching the selected minister’s documented couple. The held accounts differ between 17 April 1691 and 1692 but agree on the parents.
+
+Scope: Confident parentage despite an unresolved year discrepancy; no calendar-style explanation or date overwrite is invented.
+
+Next useful test: Compare the original OPR page with both transcript years.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Elizabeth Glasgow, 17 Apr 1691, record SCOT/OPR/BAP/3585699](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3585699&tab=this)

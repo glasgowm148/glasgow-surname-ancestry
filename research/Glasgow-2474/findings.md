@@ -4,6 +4,8 @@ Last updated: 2026-09-27
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **98% (proved)** for [Glasgow-2475](https://www.wikitree.com/wiki/Glasgow-2475). Confident for this recorded child and parental couple; spelling variation is retained. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 The Findmypast parish transcript belongs to this profile. It records Robert
 Glasgow's baptism at Irvine on 10 January 1716 and names his parents as John
 Glasgow and Isabell Kyle. The exact date, place and attached parents are already
@@ -153,3 +155,17 @@ The judgment and later order for execution are separate reports. An order for ex
 
 This may concern [Glasgow-2474](https://www.wikitree.com/wiki/Glasgow-2474). Possible; age 35, no concrete chronology conflict. The newspaper’s later execution order is a serious unresolved continuity issue, but execution itself is not established. A Findmypast baptism transcript records him at Irvine. The cited accounts associate the adult Robert Glasgow-3479 with Irvine family entries and report an Irvine Burgh Catalogue entry (4 Aug 1738) naming Robert Glasgow master of the Irvine ship Betty and Grizell; the family identification remains qualified.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, fourth batch — 22 October 2026
+
+[Glasgow-2475](https://www.wikitree.com/wiki/Glasgow-2475) remains the selected father, assessed **98% (proved)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+Robert’s 10 January 1716 Irvine baptism names John Glasgow and Isabell Kyle, matching the full couple and sequence of the selected John’s household.
+
+Scope: Confident for this recorded child and parental couple; spelling variation is retained.
+
+Next useful test: Check the original entry if the Kyle/Keil reading matters to maternal research.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Findmypast, Scotland, Parish Births & Baptisms 1564–1929, SCOT/OPR/BAP/3573222 (), OPR 595/1, transcript of the baptism on 10 January 1716 naming John Glasgow and Isabell Kyle as parents; captured 3 September 2026](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3573222&tab=this)

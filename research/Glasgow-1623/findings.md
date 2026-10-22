@@ -5,6 +5,8 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **99% (proved)** for [Glasgow-1622](https://www.wikitree.com/wiki/Glasgow-1622). Confident for this record-defined father; Adam’s proposed upstream link and the older James-3903 remain separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 ### Identity-fork caution, 5 September 2026
 
 The 1851 marriage directly proves the groom's father-name as Adam, but it does
@@ -63,3 +65,17 @@ Profile prose and trees remain leads; inspect the cited record before treating a
 The child remains unidentified. Adult Henry Glasgow of Inishrush, present at the December 1878 death of James Glasgow aged 84 (see `../Glasgow-3903/findings.md`), is the source's strongest named working candidate but with low documentary confidence; no record calls him a son of James.
 
 Recorded in `research/Glasgow-3905/agent_descendant_cluster.md` (16–17 July 2026); carried into this file on 7 October 2026.
+
+## Father confidence review, fourth batch — 22 October 2026
+
+[Glasgow-1622](https://www.wikitree.com/wiki/Glasgow-1622) remains the selected father, assessed **99% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+James’s original Portglenone marriage of 17 March 1851 gives age 38 and father Adam. Adam-1622 represents that expressly named father, matching James’s c 1813 birth.
+
+Scope: Confident for this record-defined father; Adam’s proposed upstream link and the older James-3903 remain separate.
+
+Next useful test: Use Adam’s own records to resolve his ancestry, without transferring the older James’s monument.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: ["Ireland Marriages, 1619–1898," database, FamilySearch (record FGC7-SDN (https://www.familysearch.org/ark:/61903/1:1:FGC7-SDN)), marriage of James Glasgow and Rosanna Barkley, 17 March 1851, Portglenone, County Antrim, Ireland; citing p. 153, line 89.](https://www.familysearch.org/ark:/61903/1:1:FGC7-SDN)

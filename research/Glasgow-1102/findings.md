@@ -7,6 +7,8 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **99% (proved)** for [Glasgow-1099](https://www.wikitree.com/wiki/Glasgow-1099). Confident for this child. The separate Edinburgh Barbara of June 1617 is not merged, and the witnesses’ kinship is not assumed. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Father assessment: [George Glasgow (about 1569), Glasgow](https://www.wikitree.com/wiki/Glasgow-1099) is **confirmed by the cited baptism transcription**.
 
 Barbara was baptised at Glasgow High Kirk on **21 October 1617** as the lawful
@@ -62,3 +64,17 @@ Provenance: exact-surname Glasgow search, year range to 1700, 127 supplied resul
 Original image not inspected for this batch. The combined collection’s date does not automatically establish a birthday. Names alone do not uniquely identify attached parents or connect a child with a later adult. An omitted parent or indexed gender U remains unspecified in this source.
 
 **Next action:** No additional WikiTree update from this row; preserve any existing pending work.
+
+## Father confidence review, fourth batch — 22 October 2026
+
+[Glasgow-1099](https://www.wikitree.com/wiki/Glasgow-1099) remains the selected father, assessed **99% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+Barbara’s 21 October 1617 Glasgow High Kirk entry names George Glasgow and Margaret Stewart, with Michael Broun and Thomas Stewart as witnesses. The full couple matches the selected family.
+
+Scope: Confident for this child. The separate Edinburgh Barbara of June 1617 is not merged, and the witnesses’ kinship is not assumed.
+
+Next useful test: Compare the original Glasgow entry if the Edinburgh namesake is proposed.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Glasgow High Kirk baptism register, baptism of Barbara Glasgow, 21 October 1617, lawful daughter of George Glasgow and Margaret Stewart; witnesses Michael Broun and Thomas Stewart, ScotlandsPeople, reference volume 1/2353.](https://www.wikitree.com/wiki/Glasgow-1102)

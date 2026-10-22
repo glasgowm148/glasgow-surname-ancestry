@@ -1,6 +1,12 @@
 # Glasgow-1124 research findings
 
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-8a95a0778a00 -->
+## Current conclusion
+
+Current father assessment (22 October 2026): **97% (proved)** for [Glasgow-1070](https://www.wikitree.com/wiki/Glasgow-1070). Confident for the named child and couple; uncertain day precision and old prose gender errors are not silently converted into new vital facts. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
+The Covington and Thankerton baptism account records this child on November 1747 with parents George Glasgow and Agnes Williamson, matching the selected couple and recurring household.
+
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-8a95a0778a00
 
 The transcript-validated baptism record for **William Glasgow**, ? Nov 1747, Covington & Thankerton, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
@@ -37,3 +43,17 @@ The Maryland location is John M’Connel’s attributed claim, not independently
 
 This may concern [Glasgow-1124](https://www.wikitree.com/wiki/Glasgow-1124). The Scottish baptism in 1747 permits adult age in 1775; it does not supply a later Maryland residence.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, fourth batch — 22 October 2026
+
+[Glasgow-1070](https://www.wikitree.com/wiki/Glasgow-1070) remains the selected father, assessed **97% (proved)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+The Covington and Thankerton baptism account records this child on November 1747 with parents George Glasgow and Agnes Williamson, matching the selected couple and recurring household.
+
+Scope: Confident for the named child and couple; uncertain day precision and old prose gender errors are not silently converted into new vital facts.
+
+Next useful test: Inspect the parish image for any unresolved day or spelling detail.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: William Glasgow, ? Nov 1747, record SCOT/OPR/BAP/3881440](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3881440&tab=this)

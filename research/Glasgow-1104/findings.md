@@ -3,6 +3,12 @@
 Last updated: 2026-09-10
 
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-de4f42f994eb -->
+## Current conclusion
+
+Current father assessment (22 October 2026): **74% (probable)** for [Glasgow-1103](https://www.wikitree.com/wiki/Glasgow-1103). Probable identification of the named Thomas with the selected adult; the baptism names no mother and does not independently bridge the parish households. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
+Jannet’s 29 November 1640 Linlithgow baptism explicitly names father Thomas. Thomas-1103, born in 1612 and associated with the Inveresk Thomas/Agnes Thomson family in 1634–43, has a feasible age and Lothian setting.
+
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-de4f42f994eb
 
 The transcript-validated baptism record for **Jannet Glasgow**, 1640, Linlithgow, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
@@ -46,3 +52,17 @@ A possible identification concerns Joannet Glasgow. The banns/marriage index rec
 
 A possible identification concerns Janet Glasgow. The death/burial index records Janet Glasgow on 25 December 1675 at Polwarth. Other-details field: Tod / William Glasgow. (Scotland’s People: Old Parish Registers — deaths and burials: OPR 754/10 / 113; [record](https://www.scotlandspeople.gov.uk/).) The original parish register image has not been inspected. The combined index date does not by itself identify the precise event type. The index may identify Janet Tod and a spouse or associate William Glasgow. Tod as birth surname and the relationship to William require the original. This does not identify William as the father of the 1656/1658 Polwarth children. The identification remains uncertain.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, fourth batch — 22 October 2026
+
+[Glasgow-1103](https://www.wikitree.com/wiki/Glasgow-1103) remains the selected father, assessed **74% (probable)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+Jannet’s 29 November 1640 Linlithgow baptism explicitly names father Thomas. Thomas-1103, born in 1612 and associated with the Inveresk Thomas/Agnes Thomson family in 1634–43, has a feasible age and Lothian setting.
+
+Scope: Probable identification of the named Thomas with the selected adult; the baptism names no mother and does not independently bridge the parish households.
+
+Next useful test: Find a marriage, tenancy or sibling entry linking the Linlithgow and Inveresk Thomas.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Jannet Glasgow, 1640, record SCOT/OPR/BAP/0497603](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0497603&tab=this)

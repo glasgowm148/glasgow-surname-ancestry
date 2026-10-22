@@ -2,7 +2,9 @@
 
 Last updated: 2026-10-07
 
-## Current answer
+## Current conclusion
+
+Current father assessment (22 October 2026): **99% (proved)** for [Glasgow-3902](https://www.wikitree.com/wiki/Glasgow-3902). Confident for the older monument James. The 11/12 December date variation is separate from paternity, and the younger man’s marriage is not used as proof. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 ### Original civil return dates the death to 12 December 1878
 
@@ -146,3 +148,17 @@ Recorded in `chatgpt_dump/James_Glasgow_Innisrush_death_1878_transcription.txt` 
 Every Glasgow death indexed in Magherafelt registration district for 1864–1922 was checked against the available register pages ([IrishGenealogy.ie](https://www.irishgenealogy.ie/en/)). Besides the known Inishrush deaths (James 1878, William 1882, Roseanne 1888, Mary 1889 and the later Adam 1916), the entries are Maria (1879, Kinturk), Eleanor (1883, Drumard), Martha Anne (1890, Dreenan), William (1915, Dreenan) and Robert (1917, Dorman). They belong to other local households and none states a relationship to the Inishrush family. Negative result for the district; deaths registered elsewhere are not covered.
 
 Recorded in `research/Glasgow-3905/agent_land_civil.md` (16 July 2026); carried into this file on 7 October 2026.
+
+## Father confidence review, fourth batch — 22 October 2026
+
+[Glasgow-3902](https://www.wikitree.com/wiki/Glasgow-3902) remains the selected father, assessed **99% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+The Adam and Rose family monument identifies James as their son; his Inishrush death in December 1878 aged about 84 fits James born c 1794. The maintained findings distinguish him from the younger James born c 1813 who married in 1851.
+
+Scope: Confident for the older monument James. The 11/12 December date variation is separate from paternity, and the younger man’s marriage is not used as proof.
+
+Next useful test: Compare the monument image for the precise death day, preserving the two James identities.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [“Tamlaght O’Crilly Lower Graveyard,” One Irish Rover, Glasgow family gravestone (https://www.oneirishrover.com/tamlaght-graveyard/).](https://www.oneirishrover.com/tamlaght-graveyard/)

@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **98% (proved)** for [Glasgow-1056](https://www.wikitree.com/wiki/Glasgow-1056). Confident for the recorded child and couple; birth and baptism dates remain distinct, and other same-name children are not merged. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 **Substantive amendment.** The Findmypast transcript is an exact match to [William Glasgow (Glasgow-1061)](https://www.wikitree.com/wiki/Glasgow-1061): the baptism date and Kilwinning locality agree, and both named parents match the attached profiles. Unlike the captured biography, the transcript supplies William's birth date, 25 June 1715, and records the family residence as Byres, Kilwinning. Those are new biographical facts, not merely another citation for facts already stated.
 
 ## Source findings
@@ -32,3 +34,17 @@ The transcript-validated baptism record for **William Glasgow**, 26 Jun 1715, Ki
 
 Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
 <!-- END FMP-GLASGOW-fmp-glasgow-aedae76254f6 -->
+
+## Father confidence review, fourth batch — 22 October 2026
+
+[Glasgow-1056](https://www.wikitree.com/wiki/Glasgow-1056) remains the selected father, assessed **98% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+The Kilwinning Byres parish account records this child on 25 June, baptized 26 June 1715, naming Hugh Glasgow and Janet Kilpatrick. The full couple and recurring household match Hugh-1056.
+
+Scope: Confident for the recorded child and couple; birth and baptism dates remain distinct, and other same-name children are not merged.
+
+Next useful test: Check the original parish page if a transcript-date conflict arises.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: William Glasgow, 26 Jun 1715, record SCOT/OPR/BAP/3626228](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3626228&tab=this)

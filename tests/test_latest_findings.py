@@ -157,6 +157,13 @@ class LatestFindingsTests(unittest.TestCase):
             self.assertNotIn('private/prior-assessment.txt', page)
             self.assertIsNotNone(soup.select_one('#lf-status option[value="relationship-certain"]'))
             self.assertIsNotNone(soup.select_one('#lf-status option[value="father-certain"]'))
+            for previous in ('possible', 'probable'):
+                revised = copy.deepcopy(row)
+                revised['relationship_changes'][0]['before'] = previous
+                ledger.write_text(json.dumps({'findings': [revised]}))
+                loaded = findings.load_findings(ledger, web)[0]
+                self.assertEqual(previous, loaded['relationship_changes'][0]['before'])
+                self.assertIn(f'{previous.capitalize()} → Certain', findings.row_html(loaded))
             for replacement in [{'before': 'certain'}, {'after': 'uncertain'},
                                 {'previous_status_provenance': []}, {'relationship': 'identity'}]:
                 invalid = copy.deepcopy(row)

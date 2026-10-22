@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **62% (probable)** for [Glasco-148](https://www.wikitree.com/wiki/Glasco-148). Probable at the lower end: the Trinity College reference concerns Manasses’s identity and is not itself an inspected father statement; the parent source is still incomplete. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Reviewed 21 October 2026. The original Alumni Dublinenses page names Manasses Glascow entering Trinity on 2 June 1774 and taking a B.A. in the spring term of 1778. Prefer this student as Rev. Manasses Glasco-170 at 98% identity confidence: the exceptionally uncommon full name, Dublin setting and degree two years before the independently documented 1780 Reverend Manasses occurrence form a coherent career. The entry gives no age, birthplace or father, so it does not strengthen the unsupported James Glasco-148 father attachment or establish the Monkstown appointment. The provider index spells this name Galscow; the printed page reads Glascow. The earlier birth/death bounds and Susannah’s separate 1784 licence evidence remain unchanged.
 
 [Current Dublin study](/branches/research-irish-dublin-watchmakers/#chapter-dublin-trinity-family).
@@ -40,3 +42,17 @@ Seek an original record bridge before attaching family relationships.
 ### Findmypast sweep — 7 October 2026
 
 - Betham's Genealogical Abstracts, Dublin marriage licences 1777–1806 (NAI; Findmypast `IRE/NAI/GENABS/00291978/2`): licence dated **29 May 1784** for **Susannah Glasco**, of Monkstown, diocese of Dublin, to marry **Dionysius Dowling**, of Trinity College. This gives an exact date and residence for the marriage known so far only from a secondary account. The licence does not name her parents. Further index entries: `IRE/IET0090/0424/011`, `/0327/044`. See the [study report](../findmypast-studies-2026-10-07/dublin-donegal-meath-cork.md).
+
+## Father confidence review, fourth batch — 22 October 2026
+
+[Glasco-148](https://www.wikitree.com/wiki/Glasco-148) remains the selected father, assessed **62% (probable)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+The family account calls Manasses a son of James, and a birth before 1766 is compatible with James’s c 1730 generation. The distinctive Dublin family context favours the inherited attachment.
+
+Scope: Probable at the lower end: the Trinity College reference concerns Manasses’s identity and is not itself an inspected father statement; the parent source is still incomplete.
+
+Next useful test: Read Manasses’s full college entry for a named father.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [WikiTree profile export for Glasco-170](https://www.wikitree.com/wiki/Glasco-170)

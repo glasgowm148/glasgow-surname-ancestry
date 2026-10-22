@@ -4,6 +4,8 @@ Last updated: 2026-10-07
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **98% (proved)** for [Glasgow-1982](https://www.wikitree.com/wiki/Glasgow-1982). The combined widow’s will and Wilson-family estate index strongly support Wilson’s paternity; the original packet is still needed for its exact kin wording. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Hiram was a son of Wilson Crossier Glasgow and Mary McCracken. His gravestone
 supports birth about 1810 and death 20 February 1847. He married Mary Ann
 Brandon Kennedy. A biographical account identifies their son Rev. Leonidas K.
@@ -44,3 +46,17 @@ their son Rev. Leonidas K. Glasgow has still not been created.
 The [Newberry County probate court general index to estates, 1785–1949](https://genealogytrails.com/scar/newberry/estates1785-1949/22.htm) (index transcription) shows Hiram Glasgow administering the estate of [Absolom Glasgow (Glasgow-1145)](https://www.wikitree.com/wiki/Glasgow-1145) in 1834 (estate 1069) and, in 1837, acting as guardian of 'J. L. Glasgow and others' (estate 1901), apparently Absolom's minor children. Hiram's own estate, after his death on 20 February 1847, was administered by Robert G. Gilliam. The administration shows a close collateral connection with Absolom's family; it does not make Hiram a son of [John Glasgow (Glasgow-1146)](https://www.wikitree.com/wiki/Glasgow-1146), and Mary's 1837 will places him in Wilson's household. The minors' identities and Hiram's exact kinship to Absolom need the estate packets.
 
 Recorded in `research/Glasgow-3995/1810_United_States_South_Carolina_Newberry_Hiram_Wilson_Glasgow.md` (12 August 2026); carried into this file on 7 October 2026.
+
+## Father confidence review, fourth batch — 22 October 2026
+
+[Glasgow-1982](https://www.wikitree.com/wiki/Glasgow-1982) remains the selected father, assessed **98% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+Mary Glasgow’s 1837 will, identifying her as Wilson’s widow, explicitly calls Hiram her son and makes him trustee for Mariah. Wilson’s real-estate packet lists Hiram among the same seven-child family, and the maintained account connects his 1847 estate.
+
+Scope: The combined widow’s will and Wilson-family estate index strongly support Wilson’s paternity; the original packet is still needed for its exact kin wording.
+
+Next useful test: Inspect Wilson’s real-estate packet 1-13 for Hiram’s explicit heir description.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Newberry District, South Carolina, Will Book N, p. 1, will of Mary Glasgow, widow of Wilson Glasgow, dated 28 November 1837 and proved 22 October 1838; transcription (https://web.archive.org/web/20101124184247 id_/http://www.lifesweaving.com/Glasgow/Paper_WilsonGlasgowWife.html). The displayed recording date of July 1837 precedes execution and is evidently a transcription error.](https://web.archive.org/web/20101124184247id_/http://www.lifesweaving.com/Glasgow/Paper_WilsonGlasgowWife.html); [Newberry County, South Carolina, real-estate packet 1-13, estate of Wilson Glasgow; index (https://genealogytrails.com/scar/newberry/realestate.html), entries for Wilson Glasgow and Mary, Robert, Ruth, Naomi, Matilda, Hiram, Almina and Maria.](https://genealogytrails.com/scar/newberry/realestate.html)

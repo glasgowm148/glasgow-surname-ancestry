@@ -7,6 +7,8 @@ Last updated: 2026-10-07
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **99% (proved)** for [Glasgow-1073](https://www.wikitree.com/wiki/Glasgow-1073). Confident for Rev John-1073 as the Castle minister’s father. The stale captured John-child citation and the rejected Crawfurd Irish pedigree do not supersede this combined maintained evidence. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 <!-- site-audit-2026-10-07:overall-conclusion -->
 James Glasgow was minister of Edinburgh Castle; he was baptised at Kilbirnie on 17 March 1700 and died on 9 February 1746, aged about 48. The Fasti Ecclesiae Scoticanae names James, minister of Edinburgh Castle, among the children of John Glasgow (Glasgow-1073), minister of Kilbirnie, by Margaret Scott (Scott-40313), agreeing with his Kilbirnie baptism to John Glasgow and Margaret Scot. The Fasti records his M.A. at Glasgow (1718), royal commission as chaplain to the Castle garrison (7 July 1737) and ordination (14 February 1738); newspapers of 1737 and 1738 report the commission and ordination. A story giving him an Irish career rested on forged documents and is excluded.
 
@@ -71,3 +73,17 @@ Recorded in `research/pre-1730-unlinked-record-audit.md` (undated; last committe
 ## Third pass (2026-10-08): extra citation
 
 - *Fasti* viii 35 (Edinburgh Castle addenda): "JAMES GLASGOW, son of John G., [17]38 min. of Kilbirnie—[Edin. Com. Deeds, xxxvi, 5th Jan. 1758.]". Neither this page nor the Commissary Deeds reference was cited before.
+
+## Father confidence review, fourth batch — 22 October 2026
+
+[Glasgow-1073](https://www.wikitree.com/wiki/Glasgow-1073) remains the selected father, assessed **99% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+The Kilbirnie OPR entry of 17 March 1700 (596,10/30,FR27) names James’s parents John Glasgow and Margaret Scot. Fasti VIII p35 independently includes the Castle minister James among Rev John’s children by Margaret Scott, agreeing with his Glasgow MA and 1738 ordination chronology.
+
+Scope: Confident for Rev John-1073 as the Castle minister’s father. The stale captured John-child citation and the rejected Crawfurd Irish pedigree do not supersede this combined maintained evidence.
+
+Next useful test: Use the original OPR and Fasti account if a competing James minister is suggested.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: James Glasgow, 17 Mar 1700, record SCOT/OPR/BAP/3585861](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3585861&tab=this); [p. 103 (https://electricscotland.com/bible/fastiecclesiaesc03scot.pdf).](https://electricscotland.com/bible/fastiecclesiaesc03scot.pdf)

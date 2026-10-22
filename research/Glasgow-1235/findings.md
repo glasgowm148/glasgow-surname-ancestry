@@ -20,6 +20,8 @@ Add the record as supporting evidence while preserving all existing sources and 
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **98% (proved)** for [Glasgow-1227](https://www.wikitree.com/wiki/Glasgow-1227). Confident for the recorded child and couple, using the held derivative baptism citation. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Reviewed: 22 October 2026.
 
 The two inspected indexes record Abraham Glasgow buried 16 July 1818, aged 89, at St Mary, Birmingham; one adds Hill Street. Birth about 1729 is calculated from that age. This profile’s birth is explicitly before 18 August 1745, not an exact birth on that day. No death or Birmingham-excluding life course is established. Retain this profile and [Glasgow-1227](/people/glasgow-1227.html) as unproved candidates. Do not assign the burial or calculated birth to either.
@@ -45,3 +47,17 @@ HOLD — no new person is proposed. The companion Glasgow indexes report birth y
 
 Provider transcripts inspected; original images uninspected. [Shared Scottish-records account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
 <!-- END FMP-BIRTH-SCOPE-PAGE3-20261022 -->
+
+## Father confidence review, fourth batch — 22 October 2026
+
+[Glasgow-1227](https://www.wikitree.com/wiki/Glasgow-1227) remains the selected father, assessed **98% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+The 18 August 1745 baptism identifies Abraham as a child of Abraham Glasgow and Janet Cunningham. The selected father’s 1719 generation and full parental couple fit this record.
+
+Scope: Confident for the recorded child and couple, using the held derivative baptism citation.
+
+Next useful test: Check the register image for any naming or date conflict.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Abraham Glasgow, 18 Aug 1745, record SCOT/OPR/BAP/4151549](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4151549&tab=this)

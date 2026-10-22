@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **57% (possible)** for [Glasgow-2868](https://www.wikitree.com/wiki/Glasgow-2868). Possible placement from a collaborative family tree; no held contemporary parent clause has been identified. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 `Glasgow-2869` was merged into this profile on 26 August 2026. Both profiles
 represented the same Samuel Glasgow: they gave the same 1749 birth, the same
 1810 and 1820 Pennsylvania residences, the same Millersburg burial, the same
@@ -104,3 +106,17 @@ The two notices concern parts of Isaac Williams’s estate. Being named as an ad
 
 This may concern [Glasgow-1134](https://www.wikitree.com/wiki/Glasgow-1134). Estimated c.1749 Cecil County, Maryland birth and c.1834 Ohio death. The Maryland birthplace gives a useful military comparison; no service, land or Washington office connection.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, fourth batch — 22 October 2026
+
+[Glasgow-2868](https://www.wikitree.com/wiki/Glasgow-2868) remains the selected father, assessed **57% (possible)**. Previous selected-tree status: **uncertain**, without an individual percentage.
+
+Samuel’s c 1749 birth fits James’s c 1720 generation, and the contributed family account consistently names James Glasgow and Ann Hartshorne. This supplies a specific candidate couple rather than a surname-only guess.
+
+Scope: Possible placement from a collaborative family tree; no held contemporary parent clause has been identified.
+
+Next useful test: Check James/Ann probate or a register naming Samuel.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [WikiTree profile export for Glasgow-1134](https://www.wikitree.com/wiki/Glasgow-1134)

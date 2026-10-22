@@ -28,6 +28,8 @@ Adam D. Glasgow resigned as an assistant in the Royal Belfast Institution’s Ma
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **96% (proved)** for [Glasgow-1657](https://www.wikitree.com/wiki/Glasgow-1657). Confidence comes from the combined family argument; the monument’s named son William is not substituted for Adam. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Adam Dickey Glasgow is a member of the nineteenth-century Ballymena family. He
 cannot be conflated with Adam Glasgow of Inishrush, born about 1758, or used to
 connect that earlier family to Victorian Robert Glasgow.
@@ -158,3 +160,17 @@ At an entertainment for retiring elocution teacher Robert L. Rogers, held at the
 
 Adam Dickie Glasgow’s Belfast Presbyterian ministry makes him a compatible speaker, but the printed J. differs materially from his otherwise documented D. The letter was visually distinguished in the original article and is not silently corrected. [James McClure Glasgow](https://www.wikitree.com/wiki/Glasgow-1780) was in Bombay with his family in spring 1841 and is strongly disfavoured.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, fourth batch — 22 October 2026
+
+[Glasgow-1657](https://www.wikitree.com/wiki/Glasgow-1657) remains the selected father, assessed **96% (proved)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+The missionary James McClure Glasgow’s journal names Adam as his brother. Adam Dickie Glasgow’s distinctive name, c 1815 birth and John/Jane McClure family account align with the Broughshane family monument and the already established missionary sibling.
+
+Scope: Confidence comes from the combined family argument; the monument’s named son William is not substituted for Adam.
+
+Next useful test: Use Adam’s original death or marriage parent fields to test the sibling-based placement.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [James McClure Glasgow missionary journal (https://revjamesmcclureglasgow.blogspot.com/), first-person journal repeatedly identifying Adam as James’s brother and tracing his movements from Belfast to New Zealand (accessed 17 July 2026).](https://revjamesmcclureglasgow.blogspot.com/); [www.thebraid.com/ancestor_search.aspx?surname=Glasgow: Racavan Burying-Ground, Broughshane: "With the Lord" 1 Thess IV. 17. In loving memory of William Glasgow, who died 1823, aged 22. His father John Glasgow, 1836, aged 70. Jane Armstrong, daughter of the latter 1837, aged 38 And Jane, his widow 1858, aged 85](https://www.wikitree.com/wiki/Glasgow-1780)

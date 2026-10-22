@@ -5,6 +5,8 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **46% (possible)** for [Glasgow-1025](https://www.wikitree.com/wiki/Glasgow-1025). Possible family-tree inference; William’s vital facts and the parental placement lack a held contemporary proof. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Reviewed: 2026-10-20
 
 **Killycurragh generations:** New probable daughter Margaret, wife of Rev. John of Coleraine, 84%; distinguish the letter’s two William grandfathers. [Family sequence and source limits](/free-space/glasgow-of-killycurragh-early-c19-aa9477/).
@@ -117,3 +119,17 @@ Select William Glasgow-2426 as Margaret Glasgow’s probable father at 84%. That
 These are exact subjective assessments of complete relationship-and-identity propositions, not measured probabilities. The family letter is undated and unsigned and is read through Albert Rutherford’s published transcription of a photocopy, not an inspected PRONI original. The minister list is a derivative compilation whose independence from the family tradition is unproved. The Scottish adult identities remain possible: neither the letter nor the 1705 baptism supplies a migration, occupation, property or witness bridge between Kirknewton and Tyrone. The letter’s three-son family and second-cousin statement are internally consistent clues from one source, not independent corroborations. Existing people, vital fields and mothers are preserved. Miss Cunningham and Anne Rutherford are reported maternal names, not transferred to existing maternal profiles. The letter’s first-settler story is family tradition, not proof of the first Glasgow in Tyrone or of the surname’s origin.
 
 [PRONI T1959/3, anonymous family letter; Albert Rutherford transcription, read in browser 20 October 2026; original uninspected](https://www.genealogy.com/forum/surnames/topics/rutherford/5445/); [Linda Bailey, Presbyterian Ministers in Co. Tyrone, John Glasgow from Orritor → New Row, 1796–1801; derivative compilation read 20 October 2026](https://cotyrone.com/churchrecord/ministers-pres.html).
+
+## Father confidence review, fourth batch — 22 October 2026
+
+[Glasgow-1025](https://www.wikitree.com/wiki/Glasgow-1025) remains the selected father, assessed **46% (possible)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+William’s c 1735 birth fits a c 1700 father, and the contributed family account identifies James Glasgow with Margaret Rutherford. This gives a chronologically workable candidate couple.
+
+Scope: Possible family-tree inference; William’s vital facts and the parental placement lack a held contemporary proof.
+
+Next useful test: Locate William’s marriage or James’s probate with an explicit kin relationship.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [WikiTree profile export for Glasgow-2426](https://www.wikitree.com/wiki/Glasgow-2426)

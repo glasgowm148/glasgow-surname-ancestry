@@ -89,7 +89,7 @@ def load_findings(path=LEDGER, web=WEB):
             raise ValueError('Relationship changes must be a list')
         for change in changes:
             if (change.get('relationship') not in RELATIONSHIPS
-                    or change.get('before') not in ('uncertain', 'unknown', 'unmarked')
+                    or change.get('before') not in ('uncertain', 'unknown', 'unmarked', 'possible', 'probable')
                     or change.get('after') != 'certain'
                     or not all(change.get(key) for key in ('subject', 'relative', 'explanation', 'previous_status_provenance'))):
                 raise ValueError(f'Relationship upgrade needs a documented previous assessment and new certain conclusion: {item["id"]}')

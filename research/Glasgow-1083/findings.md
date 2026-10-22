@@ -6,6 +6,8 @@ Last updated: 2026-10-07
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **97% (proved)** for [Glasgow-991](https://www.wikitree.com/wiki/Glasgow-991). Confident for the 1610 recorded child, without merging two events or assuming both children survived. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 <!-- site-audit-2026-10-07:overall-conclusion -->
 Beatrix Glasgow was baptised at Mid Calder, Midlothian, on 15 April in 1610 or 1611; the entries name her father as James Glasgow and give no mother. Two Findmypast transcripts and the Scotland's People index (OPR 694, 10/17) give 15 April 1610, while a third Findmypast transcript of the Midcalder register gives 15 April 1611; the two readings in the file have not been reconciled. The original register has not been inspected.
 
@@ -61,3 +63,17 @@ Provenance: exact-surname Glasgow search, year range to 1700, 127 supplied resul
 Original image not inspected for this batch. The combined collection’s date does not automatically establish a birthday. Names alone do not uniquely identify attached parents or connect a child with a later adult. An omitted parent or indexed gender U remains unspecified in this source.
 
 **Next action:** No additional WikiTree update from this row; preserve any existing pending work.
+
+## Father confidence review, fourth batch — 22 October 2026
+
+[Glasgow-991](https://www.wikitree.com/wiki/Glasgow-991) remains the selected father, assessed **97% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+Beatrix’s 15 April 1610 Mid Calder baptism names James as father and matches the selected parish family. A separate 1611 Beatrix event is retained separately.
+
+Scope: Confident for the 1610 recorded child, without merging two events or assuming both children survived.
+
+Next useful test: Compare both Beatrix entries to establish whether the later child followed an earlier death.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Beatrix Glasgow, 15 Apr 1610, record R_686310039](https://www.findmypast.co.uk/transcript?id=R_686310039&tab=this)

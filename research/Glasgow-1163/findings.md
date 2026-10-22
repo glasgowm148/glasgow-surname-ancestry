@@ -4,6 +4,8 @@ Last updated: 2026-09-10
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **99% (proved)** for [Glasgow-3187](https://www.wikitree.com/wiki/Glasgow-3187). Confident for the record-defined father and full couple. The stale biography’s alternative modern profile ID is a mapping issue; Thomas’s own earlier identity and proposed burgess identification remain separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 The supplied index entry is a compatible derivative-record match by name, parish and recorded parent(s). Its date may be a birth or baptism date; the original image has not been inspected.
 
 <!-- opr-birth-review-row-94 -->
@@ -26,3 +28,17 @@ A possible identification concerns Jean Glasgow. The printed Edinburgh marriage 
 
 A possible identification concerns Jean Glasgow. The banns/marriage index records Jean Glasgow and Robert Woodsyd on 13 January 1700 at West Kilbride. (Scotland’s People: Old Parish Registers — banns and marriages: OPR 620/20 / 77; [record](https://www.scotlandspeople.gov.uk/).) The original parish register image has not been inspected. The combined index date does not by itself identify the precise event type. Jean Glasgow/Robert Woodsyd 1700 has no compatible proven pair; [Woodside-936](https://www.wikitree.com/wiki/Woodside-936) was born 1696. The identification remains uncertain.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, fourth batch — 22 October 2026
+
+[Glasgow-3187](https://www.wikitree.com/wiki/Glasgow-3187) remains the selected father, assessed **99% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+The Edinburgh OPR entry of 8 March 1650 (FR 1426) identifies the child of Thomas Glasgow and Catharine Weir. Thomas-3187 represents this recurring recorded parental household.
+
+Scope: Confident for the record-defined father and full couple. The stale biography’s alternative modern profile ID is a mapping issue; Thomas’s own earlier identity and proposed burgess identification remain separate.
+
+Next useful test: Use the household’s occupation or address to test Thomas’s earlier adult identity.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [JEANE 08-03-1650 THOMAS GLASGOW/CATHARINE WEIR FR 1426 (FR 1426) Edinburgh 685/1 F](https://www.wikitree.com/wiki/Glasgow-1163)

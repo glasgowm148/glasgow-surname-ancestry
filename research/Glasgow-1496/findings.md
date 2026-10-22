@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **16% (uncertain)** for [Glasgow-3100](https://www.wikitree.com/wiki/Glasgow-3100). A weak retained George hypothesis with a potentially short generation; no cited record names George as James’s father. The Robert baptism does not justify replacing James’s father with another James. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Reviewed: 2026-10-16
 
 **Working family, 16 October 2026:** George of Campbeltown-3100 is selected under John of Linlithgow-1561, uncertain, through possible identity with the1622 child George-1560. Agnes-1562 is selected as George’s uncertain daughter. Other childhood candidates remain viable; no mother or identity merge is selected. [Evidence and limits](/branches/early-scottish-records/#campbeltown-working-family).
@@ -21,3 +23,17 @@ Sources: [George, Linlithgow, 20 January 1622; existing child-profile index cita
 
 A possible identification concerns James Glasgow. The 11 June 1674 Irvine inquest for Robert Hunter of Hunterstoun’s service as heir includes James Glasgow in Didup. (Shaw, Some Family Papers of the Hunters of Hunterston, printed p.62 entry89; [record](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSM7-J962-6).) Printed retour extract inspected; underlying original uninspected. FamilySearch’s Linlithgow1546–1564 title is a catalogue mismatch. The extract gives James no age, trade, relatives or vital date. The identification remains uncertain.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, fourth batch — 22 October 2026
+
+[Glasgow-3100](https://www.wikitree.com/wiki/Glasgow-3100) remains the selected father, assessed **16% (uncertain)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+James’s c 1650 birth can fit an older George of the Campbeltown group, but the George birth estimate varies between c 1630 and c 1640. The citation currently attached to James describes Robert baptized in 1674, son of James and Janet Orr; it concerns the next generation and cannot prove James’s father.
+
+Scope: A weak retained George hypothesis with a potentially short generation; no cited record names George as James’s father. The Robert baptism does not justify replacing James’s father with another James.
+
+Next useful test: Locate a record naming James and his father or distinguish the contemporary Campbeltown Georges.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [WikiTree profile export for Glasgow-1496](https://www.wikitree.com/wiki/Glasgow-1496)

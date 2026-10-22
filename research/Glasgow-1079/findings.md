@@ -3,6 +3,12 @@
 Last updated: 2026-09-10
 
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-7c955507b78b -->
+## Current conclusion
+
+Current father assessment (22 October 2026): **98% (proved)** for [Glasgow-1027](https://www.wikitree.com/wiki/Glasgow-1027). Confident for the recorded child’s parents; the held citation is an index or family transcription, with Robert’s earlier ancestry separately assessed. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
+The Glasgow High Kirk family account records this child on 6 January 1614 with Robert Glasgow and Jonet Conynghame. The recurring full couple and 1614–23 child sequence identify the selected Robert household.
+
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-7c955507b78b
 
 The transcript-validated baptism record for **Ninian Glasgow**, 06 Jan 1614, Glasgow, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
@@ -38,3 +44,17 @@ Provenance: exact-surname Glasgow search, year range to 1700, 127 supplied resul
 Original image not inspected for this batch. The combined collection’s date does not automatically establish a birthday. Names alone do not uniquely identify attached parents or connect a child with a later adult. An omitted parent or indexed gender U remains unspecified in this source.
 
 **Next action:** No additional WikiTree update from this row; preserve any existing pending work.
+
+## Father confidence review, fourth batch — 22 October 2026
+
+[Glasgow-1027](https://www.wikitree.com/wiki/Glasgow-1027) remains the selected father, assessed **98% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+The Glasgow High Kirk family account records this child on 6 January 1614 with Robert Glasgow and Jonet Conynghame. The recurring full couple and 1614–23 child sequence identify the selected Robert household.
+
+Scope: Confident for the recorded child’s parents; the held citation is an index or family transcription, with Robert’s earlier ancestry separately assessed.
+
+Next useful test: Compare the original parish entry if the transcription is challenged.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: ["Scotland, Births and Baptisms, 1564-1950", database, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:VQHK-MJD : 16 September 2021), Ninian Glasgow, 1614.](https://www.familysearch.org/ark:/61903/1:1:VQHK-MJD)

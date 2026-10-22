@@ -1,6 +1,12 @@
 # Glasgow-1139 research findings
 
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-b4821b754264 -->
+## Current conclusion
+
+Current father assessment (22 October 2026): **98% (proved)** for [Glasgow-1077](https://www.wikitree.com/wiki/Glasgow-1077). Confident for the recorded Irvine child; the two nearby John births are not merged. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
+John’s 27 June 1721 Irvine baptism names John Glasgow and Agnes Ferguson, matching the selected John MA’s family. The full couple separates him from the July 1721 Kilwinning John.
+
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-b4821b754264
 
 The transcript-validated baptism record for **John Glasgow**, 27 Jun 1721, Irvine, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
@@ -24,3 +30,17 @@ The 18 September 2026 batch log records that Glasgow-4163, created for the adult
 The 21 September reassessment keeps the merge only as action history; it is not a valid duplicate resolution. Do not attach Agnes Ferguson as this John's wife, and do not treat material that came across from Glasgow-4163 as evidence for the 1721 child. Sources are the two Irvine baptisms only (Findmypast transcripts SCOT/OPR/BAP/3573689 and SCOT/OPR/BAP/3574134); the identification rests on chronology.
 
 Recorded in `research/glasgow-record-batch-2026-09-18/findings.md` (18 and 21 September 2026); carried into this file on 7 October 2026.
+
+## Father confidence review, fourth batch — 22 October 2026
+
+[Glasgow-1077](https://www.wikitree.com/wiki/Glasgow-1077) remains the selected father, assessed **98% (proved)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+John’s 27 June 1721 Irvine baptism names John Glasgow and Agnes Ferguson, matching the selected John MA’s family. The full couple separates him from the July 1721 Kilwinning John.
+
+Scope: Confident for the recorded Irvine child; the two nearby John births are not merged.
+
+Next useful test: Compare exact parish and parents in any later adult identification.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: John Glasgow, 27 Jun 1721, record SCOT/OPR/BAP/3573689](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3573689&tab=this)

@@ -4,6 +4,8 @@ Last updated: 2026-09-30
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **21% (uncertain)** for [Glasgow-3556](https://www.wikitree.com/wiki/Glasgow-3556). An uncertain retained named-father hypothesis; shared locality and generation are insufficient for a confident placement. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 The Findmypast/Dobson record `US/GPC/02394306` is a high-confidence match to
 this profile. Its underlying entry is Nathaniel's 1707 M.A. graduation at the
 University of Glasgow and describes him as `Scoto-Hibernus`. “Scots-Irish” is
@@ -147,3 +149,17 @@ that son to Thomas of Lifford (Glasgow-3556) remains strongly probable. The
 abstract does not name Nathaniel and does not establish his own father link.
 Nathaniel's live Father status was uncertain (10) on 30 September 2026;
 retain that uncertainty and seek his own parent or succession record.
+
+## Father confidence review, fourth batch — 22 October 2026
+
+[Glasgow-3556](https://www.wikitree.com/wiki/Glasgow-3556) remains the selected father, assessed **21% (uncertain)**. Previous selected-tree status: **uncertain**, without an individual percentage.
+
+Nathaniel’s c 1690 birth can fit Thomas’s birth before 1671 and the early Irish Glasgow setting. The attainder and later local court references establish a Thomas, but the held accounts do not connect him as Nathaniel’s father.
+
+Scope: An uncertain retained named-father hypothesis; shared locality and generation are insufficient for a confident placement.
+
+Next useful test: Find Nathaniel’s university, ordination or probate entry naming his father.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [WikiTree profile export for Glasgow-1136](https://www.wikitree.com/wiki/Glasgow-1136)

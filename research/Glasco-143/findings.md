@@ -4,6 +4,8 @@ Last updated: 2026-09-08
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **17% (uncertain)** for [Glasco-144](https://www.wikitree.com/wiki/Glasco-144). Weak retained hypothesis; absence of children in a pedigree is not an exclusion, and no alternative father is attached. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 
 Reviewed 18 October 2026. **The existing Thomas-144 father remains ungraded. His father’s proposed father is now Philip Glasco-146 at 67%; this supplies no new proof for the Mary King licence or this man’s identity.**
 
@@ -113,3 +115,17 @@ This may concern [Glasco-143](https://www.wikitree.com/wiki/Glasco-143). Chronol
 [Watson’s 1783 directory: Thomas Glasco, watchmaker, 20 Ormond Quay; maintained transcription](https://www.swilson.info/wat1783tr.php?brw=sur&brwkey=Glasco)
 
 Check the original 1773 advertisement and marriage entry, the Duffy 1774/1775 probate papers, and Thomas’s London apprenticeship/freedom records for trade, address or named kin. Seek the 1777 Margaret Glasco grant and the full 1777 Philip/Thomas chancery bill before accepting a Duffy–Hynes remarriage or a precise Philip generation.
+
+## Father confidence review, fourth batch — 22 October 2026
+
+[Glasco-144](https://www.wikitree.com/wiki/Glasco-144) remains the selected father, assessed **17% (uncertain)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+Thomas’s estimated 1766 birth would make Thomas-144, born about 1753, only about thirteen. The selected father’s 1773 Margaret Duffy marriage does not support this earlier child. Estimated dates leave room for correction but give a concrete chronological concern.
+
+Scope: Weak retained hypothesis; absence of children in a pedigree is not an exclusion, and no alternative father is attached.
+
+Next useful test: Verify the younger Thomas’s birth and the older Thomas’s age before testing paternity.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [WikiTree profile export for Glasco-143](https://www.wikitree.com/wiki/Glasco-143)

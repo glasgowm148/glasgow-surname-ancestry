@@ -7,6 +7,8 @@ Last updated: 2026-10-07
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **58% (possible)** for [Glasgow-3018](https://www.wikitree.com/wiki/Glasgow-3018). Possible identification of the record father with the selected adult; the c 1675 paternal birth is an estimate, and no held record bridges this baptism to the later career. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Reviewed: 2026-10-16
 
 **Selected very uncertain Irvine/Kilwinning parent pair, 16 October 2026:** John Glasgow-3018 is placed under John Glasgow-3375 and Barbara Allison-6866 only through possible identity with the 1679 Kilwinning child. Infant baptism would imply fatherhood at fourteen in 1693. The skipper/bailie and younger-John identities remain unresolved; both parent fields are conditional. [Evidence and alternatives](/branches/early-scottish-records/#irvine-kilwinning-working-family).
@@ -47,3 +49,17 @@ The same 1679 child remains only possibly identical with the Stevenston father o
 - [John/Margaret Cowan, Stevenston child John in 1701: existing possible adult comparison](https://familysearch.org/ark:/61903/1:1:XYZK-MY7)
 - [John/Margaret Cowan, Stevenston child Adam in 1706: existing possible adult comparison](https://familysearch.org/ark:/61903/1:1:XYZV-BNR)
 - [Kilbirnie John,1690: existing comparison for the later Irvine bailie, not selected as the 1693 father](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3585655&tab=this)
+
+## Father confidence review, fourth batch — 22 October 2026
+
+[Glasgow-3018](https://www.wikitree.com/wiki/Glasgow-3018) remains the selected father, assessed **58% (possible)**. Previous selected-tree status: **uncertain**, without an individual percentage.
+
+The 10 August 1693 Irvine baptism names John Glasgow and Agnes Martine. The selected John-3018 is a compatible Irvine adult associated with the skipper/bailie family.
+
+Scope: Possible identification of the record father with the selected adult; the c 1675 paternal birth is an estimate, and no held record bridges this baptism to the later career.
+
+Next useful test: Find a deed or marriage naming the skipper/bailie’s wife Agnes Martine.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [“Scotland Births and Baptisms, 1564–1950,” FamilySearch, John Glasgow and Agnes Martine, baptism of son John, 8 October 1693, Irvine 595/ M.](https://www.wikitree.com/wiki/Glasgow-1473)

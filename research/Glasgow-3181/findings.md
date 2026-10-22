@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **58% (possible)** for [Glasgow-1093](https://www.wikitree.com/wiki/Glasgow-1093). The father–son wording is explicit for the burgh Johns; identifying that son with the Hirmanscheillis husband of Margaret Hoghame remains a possible inference, without an estate or residence bridge. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 **Current reading cross-check, 28 September 2026:** the accepted human reading is **Katherine and Marjory**, not Katherine and Androw/Andrew; see the [maintained illustrated reading](/research/transcriptions/john-1577/#passage-john-widow-children). References below to an Andrew child or an Andrew-3163 candidate preserve an earlier, superseded reading. They do not establish a son Andrew or a connection to Corsoun. The father link to John Glasgow-1093 remains uncertain.
 
 [John Glasgow (Glasgow-3181)](https://www.wikitree.com/wiki/Glasgow-3181)
@@ -179,3 +181,17 @@ Recorded in `research/Glasgow-3181/Glasgow-3181.md` (8 September 2026), checked 
 ## Correction to the dated index note — 17 October 2026
 
 The 8 October “Third pre-1610 pass” note preserves a superseded lead. The accepted reading remains **Katherine and Marjory**, as recorded in the Current conclusion and the [maintained illustrated reading of NRS CC8/8/5, images 276–277](/research/transcriptions/john-1577/#passage-john-widow-children). It does not supply a son Andrew or establish a link to Andrew Glasgow-3163. Its reported “24 May” index date is also not adopted: the maintained record account and Findmypast transcript SCOT/WILLS/057444 use **4 May 1577**. This publication reconciliation adds no relationship and changes no certainty grade.
+
+## Father confidence review, fourth batch — 22 October 2026
+
+[Glasgow-1093](https://www.wikitree.com/wiki/Glasgow-1093) remains the selected father, assessed **58% (possible)**. Previous selected-tree status: **possible**, without an individual percentage.
+
+Glasgow protocols identify an elder John’s son John in 1563 and again a younger John in 1570–71. The generation fits the Hirmanscheillis testator of 1577, whose death excludes both the elder John (dead by June 1575) and Ninian’s brother John (alive in 1613). This makes the documented son a useful preferred candidate for the rural testator.
+
+Scope: The father–son wording is explicit for the burgh Johns; identifying that son with the Hirmanscheillis husband of Margaret Hoghame remains a possible inference, without an estate or residence bridge.
+
+Next useful test: Compare protocol property names with Hirmanscheillis testament associates and land transfers.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Robert Renwick, ed., Abstracts of Protocols of the Town Clerks of Glasgow, vol. 3, protocol 748, 13 May 1563, scan (https://archive.org/details/abstractsprotoc06scogoog/page/n52/mode/2up); vol. 6, protocol 1722, 8 January 1570/71, scan (https://archive.org/details/abstractsprotoc05scogoog/page/n58/mode/2up).](https://archive.org/details/abstractsprotoc06scogoog/page/n52/mode/2up); [National Records of Scotland, John Glasgow testament dative, CC8/8/5 images 276-277: John Glasgow](https://www.scotlandspeople.gov.uk/search-records/legal-records/wills)

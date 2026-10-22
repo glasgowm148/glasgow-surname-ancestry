@@ -7,6 +7,8 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **26% (uncertain)** for [Glasgow-3960](https://www.wikitree.com/wiki/Glasgow-3960). An uncertain retained placement. Deeds naming James’s daughter Jemima prove the later generation, not James’s father. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Reviewed: 2026-10-16
 
 **Selected very uncertain Leitrim–Tyrone model, 16 October 2026:** John Glasgow-3960 is provisionally placed as a son of the traditional John Glasgow-551, using their existing estimated generations. Identity between the two Johns remains a live alternative. The 1728 witness record names no father; James Glasgow-3124’s existing paternal link remains unproved. [Evidence and alternatives](/branches/research-irish-belfast-donegal/#leitrim-tyrone-working-family).
@@ -94,3 +96,17 @@ One very uncertain father is newly selected, conditional on treating the two Joh
 - [Registry of Deeds, marriage articles 2 October 1779, witness James Glasgow of Aghadonvane; previously reviewed image](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJ4-W935-7)
 - [Findmypast, Betham’s Genealogical Abstracts, James Glasgow, administration 24 January 1782; prior transcript finding, image not checked here](https://www.findmypast.co.uk/transcript?id=IRE%2FNAI%2FGENABS%2F00401119%2F1)
 - [Debrett’s Baronetage, Montgomery pedigree, James Glasgow of Aughadenvarn and daughter Jemima; existing published-pedigree citation](https://archive.org/details/debrettsbaroneta25lond/page/n851/mode/2up)
+
+## Father confidence review, fourth batch — 22 October 2026
+
+[Glasgow-3960](https://www.wikitree.com/wiki/Glasgow-3960) remains the selected father, assessed **26% (uncertain)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+James of Aghadonvane, born about 1750, can fit John’s c 1705 generation and the local family pedigree. The geographic and generational fit makes John a workable lead.
+
+Scope: An uncertain retained placement. Deeds naming James’s daughter Jemima prove the later generation, not James’s father.
+
+Next useful test: Seek a deed succession or lease connecting James directly with John.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [WikiTree profile export for Glasgow-3124](https://www.wikitree.com/wiki/Glasgow-3124)

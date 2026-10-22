@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **97% (proved)** for [Glasgow-1056](https://www.wikitree.com/wiki/Glasgow-1056). Confident for the recorded child and couple; birth and baptism dates remain distinct, and other same-name children are not merged. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 **Substantive amendment.** The Findmypast transcript exactly matches [Margaret Glasgow (Glasgow-1063)](https://www.wikitree.com/wiki/Glasgow-1063) by baptism date, Kilwinning locality and both parents. It adds Margaret's birth date, 14 March 1723, and the family residence Byres, neither of which appears in the captured biography. This is more than source-only confirmation.
 
 ## Source findings
@@ -32,3 +34,17 @@ The transcript-validated baptism record for **Margaret Glasgow**, 17 Mar 1723, K
 
 Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
 <!-- END FMP-GLASGOW-fmp-glasgow-e98494418156 -->
+
+## Father confidence review, fourth batch — 22 October 2026
+
+[Glasgow-1056](https://www.wikitree.com/wiki/Glasgow-1056) remains the selected father, assessed **97% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+The Kilwinning Byres parish account records this child on 14 March, baptized 17 March 1723, naming Hugh Glasgow and Janet Kilpatrick. The full couple and recurring household match Hugh-1056.
+
+Scope: Confident for the recorded child and couple; birth and baptism dates remain distinct, and other same-name children are not merged.
+
+Next useful test: Check the original parish page if a transcript-date conflict arises.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Margaret Glasgow, 17 Mar 1723, record SCOT/OPR/BAP/3626677](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3626677&tab=this)
