@@ -14,7 +14,7 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
-from tools.branch_connectivity import CONFIDENT, SUPPORTED, MEASUREMENT_VIEWS, METHOD_VERSION, load_public_nodes, summarize, paternal_link_impacts
+from tools.branch_connectivity import CONFIDENT, SUPPORTED, EXCLUDED, MEASUREMENT_VIEWS, METHOD_VERSION, load_public_nodes, summarize, paternal_link_impacts, relationship_status
 from tools.documentary_ancestry import load_people
 from tools.free_space_edition import shell_page
 from tools.stamp_asset_versions import VERSIONED_ASSET, asset_path, content_hash
@@ -32,6 +32,29 @@ LINK_VIEWS = {
                   'description': 'Counts confidently marked and strongly supported links. A saved certainty flag does not mean every source has been independently re-audited.',
                   'included_grades': sorted(CONFIDENT)},
 }
+
+
+def has_named_father(dossier):
+    """A retained named father, independent of his confidence or graph eligibility."""
+    for relation in (dossier.get('relationships') or {}).get('parents') or []:
+        status, _ = relationship_status(relation)
+        if (str(relation.get('relationship', '')).casefold() != 'father'
+                or not relation.get('id') or status in EXCLUDED
+                or relation.get('lifecycle') not in (None, 'current')
+                or relation.get('display') in {'alternative', 'historical', 'superseded'}
+                or relation.get('publication_status') in {'withheld', 'blocked', 'rejected'}):
+            continue
+        if re.match(r'^(?:\(?unknown\)?|unnamed|not known|n\.?n\.?)(?:\s|$)',
+                    str(relation.get('name') or '').strip(), re.I):
+            continue
+        return True
+    return False
+
+
+def father_listing_counts(cohort_ids, listings):
+    values = [listings.get(ident) for ident in cohort_ids]
+    return dict(unknown_count=values.count(False), named_count=values.count(True),
+                unavailable_count=values.count(None), population=len(values))
 
 
 def compact(summary):
@@ -113,6 +136,13 @@ def build(create_baseline=False):
     write_json(WEB / 'data/ancestry-documentary-people.json',
                json.loads(documentary_path.read_text()) if documentary_path.exists() else {'schema_version': 1, 'people': []})
     nodes, edges, quality = load_public_nodes(WEB, set(strategy["variants"]))
+    listings = {}
+    for ident, node in nodes.items():
+        # Read the public account, including named fathers excluded from the
+        # surname graph. Confidence-threshold roots are not missing fathers.
+        path = WEB / str(node['url']).split('#')[0].lstrip('/')
+        if path.suffix == '.html' and path.with_suffix('.json').is_file():
+            listings[ident] = has_named_father(json.loads(path.with_suffix('.json').read_text()))
     cohorts = {}
     for cutoff in strategy["cutoffs"]:
         working = summarize(nodes, edges, cutoff)
@@ -120,6 +150,8 @@ def build(create_baseline=False):
         cohorts[str(cutoff)] = {'working': working, **{
             view: summarize(nodes, edges, cutoff, view, cohort_ids=working['cohort_ids'])
             for view in MEASUREMENT_VIEWS if view != 'working'}}
+        for summary in cohorts[str(cutoff)].values():
+            summary['father_listing'] = father_listing_counts(working['cohort_ids'], listings)
     primary = cohorts[str(strategy["primary_cutoff"])]
     assessments = {a.get('assertion_id'): a for a in json.loads((ROOT / 'research/relationship_assessments.json').read_text())}
     cases = {c.get('assertion_id'): c for c in strategy['early_connections'] if c.get('assertion_id')}
@@ -167,13 +199,19 @@ def build(create_baseline=False):
         view: compact(summarize(nodes, edges, baseline["cutoff"], view, cohort_ids=fixed_ids))
         for view in MEASUREMENT_VIEWS
     }
+    for summary in fixed.values():
+        summary['father_listing'] = father_listing_counts(fixed_ids, listings)
     history_path = WORK / "progress-history.json"
     history = json.loads(history_path.read_text()) if history_path.exists() else {"schema_version": 1, "snapshots": []}
     previous_version = history['snapshots'][-1].get('method_version') if history['snapshots'] else None
     new_view = bool(history['snapshots']) and any(
         view not in history['snapshots'][-1]['metrics'] for view in MEASUREMENT_VIEWS)
     new_measurement = bool(history['snapshots']) and 'individual_confidence' not in history['snapshots'][-1].get('fixed_cohort', {}).get('working', {})
-    if not history["snapshots"] or history["snapshots"][-1]["input_fingerprint"] != fingerprint or previous_version != METHOD_VERSION or new_view or new_measurement or history['snapshots'][-1]['date'] != date.today().isoformat():
+    new_unknown_measurement = bool(history['snapshots']) and 'father_listing' not in history['snapshots'][-1].get('fixed_cohort', {}).get('working', {})
+    listing_changed = bool(history['snapshots']) and (fixed['working']['father_listing'] != history['snapshots'][-1].get('fixed_cohort', {}).get('working', {}).get('father_listing') or any(
+        pair['working']['father_listing'] != history['snapshots'][-1].get('cohorts', {}).get(cutoff, {}).get('working', {}).get('father_listing')
+        for cutoff, pair in cohorts.items()))
+    if not history["snapshots"] or history["snapshots"][-1]["input_fingerprint"] != fingerprint or previous_version != METHOD_VERSION or new_view or new_measurement or listing_changed or history['snapshots'][-1]['date'] != date.today().isoformat():
         correction = previous_version is not None and previous_version != METHOD_VERSION
         history["snapshots"].append(
             dict(
@@ -187,6 +225,9 @@ def build(create_baseline=False):
                         note='Probable-or-stronger connectivity is measured separately. Existing assessments, prior measurements and the original baseline are unchanged.')
                    if new_view and not correction and history['snapshots'][-1]['input_fingerprint'] == fingerprint else {}),
                 input_fingerprint=fingerprint,
+                **(dict(event_type='unknown_father_measurement_added', genealogical_connections_added=0,
+                        note='Unknown fathers are now counted from retained public parent listings, separately from confidence in named links. Earlier unknown-father counts were not recorded and are not reconstructed.')
+                   if new_unknown_measurement and not correction and history['snapshots'][-1]['input_fingerprint'] == fingerprint else {}),
                 **(dict(event_type='individual_confidence_measurement_added', genealogical_connections_added=0,
                         note='Exact reviewed father percentages and coverage are now recorded. Relationships and confidence grades are unchanged; earlier measurements are not reconstructed.')
                    if new_measurement and not correction and not new_view else {}),
@@ -230,6 +271,7 @@ def build(create_baseline=False):
         ),
         progress_history=history["snapshots"],
         individual_confidence_method='Arithmetic mean of reviewed individual percentages for selected eligible father–child links; unrated links have no percentage. Review coverage is measured separately. Not a whole-pedigree probability.',
+        unknown_father_method='Counts cohort people with no retained named father in their public account, including unnamed placeholders and only unselected alternatives. A named father remains named regardless of confidence or surname-graph eligibility. Missing public accounts are reported separately. This counts people, while confidence series count eligible father links. Older unknown-father counts were not recorded and are not reconstructed.',
     )
     write_json(WEB / "data/ancestry-connectivity.json", report)
     write_json(WEB / "data/ancestry-connectivity-baseline.json", baseline)
@@ -344,12 +386,12 @@ def build(create_baseline=False):
 
 <p id="history-scope" class="source-line"></p>
 <div id="uncertainty-history" class="uncertainty-trend" aria-labelledby="uncertainty-history-title">
-<h3 id="uncertainty-history-title">How many father links remain uncertain?</h3>
-<p>Below confident includes probable, possible, uncertain and unmarked father links. The narrower uncertain grade is counted separately. People with no father listed are excluded from these link counts; see <a href="#family-heads-title">Unattached family heads</a> for the separate family queue.</p>
+<h3 id="uncertainty-history-title">How many fathers remain unknown or uncertain?</h3>
+<p>Unknown means no named father is retained, including an unnamed placeholder or only unselected candidates. Below confident counts named father links graded probable, possible, uncertain or unmarked. Unknown counts people; the other series count father links. <a href="#family-heads-title">Explore unattached family heads</a>.</p>
 <div id="uncertainty-totals" class="uncertainty-totals" aria-live="polite"></div><div id="uncertainty-breakdown" class="uncertainty-breakdown"></div>
-<p class="uncertainty-legend"><span>━ All below confident</span><span>┄ Uncertain grade only</span></p><div id="uncertainty-trend-chart"></div>
-<p class="source-line">Lower is better. Counts follow the history cohort selected above, using each day's last comparable measurement. Changes include regrading existing fathers, review coverage and changes to the people or links included; they are not all new family connections. Earlier missing measurements stay blank.</p>
-<details><summary>View uncertainty counts by date</summary><div class="progress-table-wrap"><table><thead><tr><th scope="col">Date</th><th scope="col">All below confident</th><th scope="col">Share of father links</th><th scope="col">Uncertain</th><th scope="col">Possible</th><th scope="col">Probable</th><th scope="col">Unmarked</th></tr></thead><tbody id="uncertainty-trend-rows"></tbody></table></div></details>
+<p class="uncertainty-legend"><span>━ Named fathers below confident</span><span>┄ Uncertain grade only</span><span>● Unknown father</span></p><div id="uncertainty-trend-chart"></div>
+<p class="source-line">Lower is better. Counts follow the history cohort selected above, using each day's last comparable measurement. Changes include regrading existing fathers, review coverage and changes to the people or links included; they are not all new family connections. Unknown-father history starts with its first saved count; earlier missing measurements stay blank.</p>
+<details><summary>View uncertainty counts by date</summary><div class="progress-table-wrap"><table><thead><tr><th scope="col">Date</th><th scope="col">All below confident</th><th scope="col">Share of father links</th><th scope="col">Unknown father</th><th scope="col">Uncertain</th><th scope="col">Possible</th><th scope="col">Probable</th><th scope="col">Unmarked</th></tr></thead><tbody id="uncertainty-trend-rows"></tbody></table></div></details>
 </div>
 <h3>Confident connections and other measures</h3><p>Green tracks confident father links; blue includes probable links. Change the measure to explore confidence or branch connectivity.</p><div class="progress-controls"><label>Measure <select id="history-metric"><option value="edge_count">Father–child links</option><option value="reviewed_confidence_percent">Mean reviewed father confidence (%)</option><option value="assessed_links_percent">Confidence coverage (%)</option><option value="largest_component_size">People in largest branch</option><option value="connected_pairs_percent">Connected pairs (%)</option><option value="component_count">Separate paternal components</option></select></label></div><fieldset class="history-legend" id="history-confidence-levels"><legend>Confidence levels shown</legend><label class="history-confident"><input id="history-confident" type="checkbox" checked> Confident</label><label class="history-supported"><input id="history-supported" type="checkbox" checked> Probable or stronger</label><label class="history-working"><input id="history-working" type="checkbox"> Working, including uncertain</label></fieldset><div id="history-changes" class="history-changes" aria-live="polite"></div><div id="history-chart"></div><p id="history-note" class="source-line"></p>
 <details><summary>View snapshot data</summary><div class="progress-table-wrap"><table><caption id="history-table-caption">Daily measurements</caption><thead id="history-table-head"></thead><tbody id="history-table-body"></tbody></table></div></details>

@@ -43,7 +43,9 @@
     const total = Number.isFinite(working) && Number.isFinite(confident) ? working-confident : null;
     const grades = Object.fromEntries(['uncertain','possible','probable','unmarked'].map(key =>
       [key, counts ? (counts[key] ?? 0) : null]));
-    return {total, percent:total !== null && working > 0 ? 100*total/working : null, working, ...grades};
+    const listing = metrics?.working?.father_listing;
+    return {total, percent:total !== null && working > 0 ? 100*total/working : null, working,
+      unknown:Number.isFinite(listing?.unknown_count)?listing.unknown_count:null, population:listing?.population, ...grades};
   }
   if (typeof module !== 'undefined' && module.exports) module.exports = {dailyHistory, historySeries, confidenceHistory, uncertaintyMeasurements};
   if (typeof document === 'undefined') return;
@@ -60,7 +62,7 @@
       : b.cross_pairs-a.cross_pairs || a.child.localeCompare(b.child));
     byId('priority-count').textContent = `Showing ${Math.min(20,rows.length)} of ${number(rows.length)} father links below confident${early?' dated by 1650':''}. Counts use the same people through 1850.`;
     const remaining = uncertaintyMeasurements(data.cohorts['1850']);
-    byId('priority-uncertainty-summary').innerHTML = `<strong>${number(remaining.total)} father links below confident</strong><span>${number(remaining.uncertain)} uncertain · ${number(remaining.possible)} possible · ${number(remaining.probable)} probable${remaining.unmarked?` · ${number(remaining.unmarked)} unmarked`:''} · through 1850</span><a href="#uncertainty-history">See how this has changed over time ↑</a>`;
+    byId('priority-uncertainty-summary').innerHTML = `<strong>${remaining.unknown===null?'Unknown fathers not yet measured':`${number(remaining.unknown)} unknown fathers`} · ${number(remaining.total)} named father links below confident</strong><span>${number(remaining.uncertain)} uncertain · ${number(remaining.possible)} possible · ${number(remaining.probable)} probable${remaining.unmarked?` · ${number(remaining.unmarked)} unmarked`:''} · through 1850</span><a href="#uncertainty-history">See how this has changed over time ↑</a>`;
     byId('priority-rows').innerHTML = rows.slice(0,20).map(row => `<tr><td><a href="${esc(row.father_url)}">${esc(row.father_name)}</a> → <a href="${esc(row.child_url)}">${esc(row.child_name)}</a><small>${esc(row.father)} → ${esc(row.child)} · ${esc(row.year ?? 'Undated')}</small></td><td>${Number.isFinite(row.confidence_percent)?`${row.confidence_percent}%`:'Not individually rated'}<small>${esc(row.status)}</small></td><td>${number(row.child_side)}</td><td>${number(row.cross_pairs)}</td><td>${number(row.confident_pair_gain)}<small>${number(row.confident_child_side)} × ${number(row.confident_parent_side)} people; ${row.confident_component_reduction} fewer confident branches</small></td><td><a href="${esc(row.analysis_url)}">${esc(row.next_test)}</a>${row.last_review?`<small>${esc(row.last_review)}</small>`:''}</td></tr>`).join('');
   }
   byId('priority-order').addEventListener('change', renderPriorities);
@@ -93,21 +95,23 @@
     const change = (start,end) => end===start?'No change':`${number(Math.abs(start-end))} ${end<start?'fewer':'more'}`;
     const strict = recorded.filter(row => row.uncertain !== null);
     const strictFirst = strict[0], strictLast = strict[strict.length-1];
+    const unknown = recorded.filter(row => row.unknown !== null), unknownFirst=unknown[0];
     byId('uncertainty-totals').innerHTML = `<div><span>Father links below confident</span><strong>${number(last.total)}</strong><small>${last.percent===null?'':`${last.percent.toFixed(1)}% of ${number(last.working)} father links`}</small></div><div><span>Change since ${esc(dateLabel(first.date))}</span><strong>${recorded.length>1?esc(change(first.total,last.total)):'First count'}</strong><small>${recorded.length>1?`${number(first.total)} → ${number(last.total)} · ${first.total>0?(Math.abs(drop)/first.total*100).toFixed(1)+'% '+(drop>=0?'drop':'increase'):'new baseline'}`:'No earlier comparable count'}</small></div><div><span>Uncertain grade only</span><strong>${last.uncertain===null?'Not recorded':number(last.uncertain)}</strong><small>${strict.length>1?`${number(strictFirst.uncertain)} → ${number(strictLast.uncertain)} · ${esc(change(strictFirst.uncertain,strictLast.uncertain))} since ${esc(dateLabel(strictFirst.date))}`:'Separate from possible and probable'}</small></div>`;
-    const grades = [['uncertain','Uncertain'],['possible','Possible'],['probable','Probable'],['unmarked','Unmarked']];
+    byId('uncertainty-totals').innerHTML += `<div class="unknown-father-total"><span>Unknown father</span><strong>${last.unknown===null?'Not recorded':number(last.unknown)}</strong><small>${last.unknown===null?'No saved count':`${number(last.unknown)} of ${number(last.population)} people; no named father retained`}</small><small>${unknown.length>1?`${esc(change(unknownFirst.unknown,last.unknown))} since ${esc(dateLabel(unknownFirst.date))}`:unknownFirst?`First measured ${esc(dateLabel(unknownFirst.date))}`:''}</small></div>`;
+    const grades = [['unknown','Unknown'],['uncertain','Uncertain'],['possible','Possible'],['probable','Probable'],['unmarked','Unmarked']];
     byId('uncertainty-breakdown').innerHTML = grades.map(([key,label]) => `<span class="uncertainty-${key}">${esc(label)} <strong>${last[key]===null?'Not recorded':number(last[key])}</strong></span>`).join('');
     const width = Math.max(300, Math.min(960,target.clientWidth || 960)), height=240, left=58, right=24, top=20, bottom=42;
-    const max = Math.max(1,...recorded.map(row=>row.total))*1.1;
+    const max = Math.max(1,...recorded.flatMap(row=>[row.total,row.unknown ?? 0]))*1.1;
     const start=Date.parse(measured[0].date), end=Date.parse(measured[measured.length-1].date);
     const x = date => start===end ? (left+width-right)/2 : left+(Date.parse(date)-start)/(end-start)*(width-left-right);
     const y = value => height-bottom-value/max*(height-top-bottom);
-    const svg = [`<svg viewBox="0 0 ${width} ${height}" role="img" aria-labelledby="uncertainty-chart-title uncertainty-chart-desc"><title id="uncertainty-chart-title">Father links below confident over time</title><desc id="uncertainty-chart-desc">Lower counts mean fewer links below confident. ${number(first.total)} on ${esc(first.date)} to ${number(last.total)} on ${esc(last.date)}. The second line counts only the uncertain grade. The vertical axis starts at zero. Full counts are in the table below.</desc>`];
+    const svg = [`<svg viewBox="0 0 ${width} ${height}" role="img" aria-labelledby="uncertainty-chart-title uncertainty-chart-desc"><title id="uncertainty-chart-title">Unknown and uncertain fathers over time</title><desc id="uncertainty-chart-desc">Lower counts mean fewer gaps. Named father links below confident: ${number(first.total)} on ${esc(first.date)} to ${number(last.total)} on ${esc(last.date)}. Separate series count the uncertain grade and unknown fathers. Unknown: ${last.unknown===null?'not recorded':number(last.unknown)}. Missing earlier counts remain gaps. The vertical axis starts at zero. Full counts are in the table below.</desc>`];
     for (let i=0;i<=4;i++) {
       const value=max*i/4, yy=y(value);
       svg.push(`<line x1="${left}" x2="${width-right}" y1="${yy}" y2="${yy}" class="history-grid"/><text x="${left-10}" y="${yy+4}" text-anchor="end">${number(Math.round(value))}</text>`);
     }
     measured.filter((row,i)=>i===0 || i===measured.length-1 || (measured.length<=6) || i%Math.ceil(measured.length/5)===0).forEach(row=>svg.push(`<text x="${x(row.date)}" y="${height-14}" text-anchor="${row===measured[0]?'start':row===measured[measured.length-1]?'end':'middle'}">${esc(dateLabel(row.date))}</text>`));
-    for (const [key,label,color] of [['total','All below confident','#9b5610'],['uncertain','Uncertain grade only','#a33237']]) {
+    for (const [key,label,color] of [['total','Named fathers below confident','#9b5610'],['uncertain','Uncertain grade only','#a33237'],['unknown','Unknown father','#303f4b']]) {
       let path='', connected=false;
       for (const row of measured) {
         if (row[key]===null) {connected=false;continue;}

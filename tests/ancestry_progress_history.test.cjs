@@ -68,6 +68,8 @@ test('uncertainty separates all below confident from the narrower grade and revi
   assert.equal(result.total,726);
   assert.equal(result.uncertain,137);
   assert.equal(result.unmarked,0);
+  assert.equal(result.unknown,null);
+  assert.equal(uncertaintyMeasurements({working:{father_listing:{unknown_count:395,population:1798}}}).unknown,395);
   assert.equal(result.total,result.uncertain+result.possible+result.probable+result.unmarked);
   assert.equal(result.percent,100*726/1396);
   assert.equal(uncertaintyMeasurements({working:{edge_count:100}}).total,null);
