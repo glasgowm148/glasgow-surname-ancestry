@@ -52263,6 +52263,76 @@
           ]
         }
       ]
+    },
+    {
+      "id": "kilwinning-hugh-father-reassessment-20261022",
+      "found_on": "2026-10-22",
+      "reviewed_on": "2026-10-22",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Hugh Glasgow’s existing father John is reassessed from58% possible to74% probable by combining the specific reported sibling family with the recorded John/Agnes Spark household.",
+      "qualification": "74% assesses the complete Hugh-to-John/Agnes-household father identification, from 58% possible. The sibling relationship is reported, not independently proved. No Hugh childhood record or underlying evidence for Elaine’s statement was inspected. John’s own 1661 Edinburgh-child identification, the unrelated 1685 testament comparison, other ancestry and all mothers retain separate assessments. The circa-1692/1700 estimates are not birth records; no dates are changed. This is reassessment of held evidence, not a newly found record or confidently proved relationship.",
+      "people": [
+        {
+          "id": "Glasgow-1056",
+          "name": "Hugh Glasgow",
+          "url": "/people/glasgow-1056.html",
+          "role": "Named family comparison; record and identity scopes remain separate"
+        },
+        {
+          "id": "Glasgow-1057",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-1057.html",
+          "role": "Named family comparison; record and identity scopes remain separate"
+        },
+        {
+          "id": "Glasgow-1055",
+          "name": "William Glasgow",
+          "url": "/people/glasgow-1055.html",
+          "role": "Named family comparison; record and identity scopes remain separate"
+        },
+        {
+          "id": "Glasgow-1058",
+          "name": "George Glasgow",
+          "url": "/people/glasgow-1058.html",
+          "role": "Named family comparison; record and identity scopes remain separate"
+        }
+      ],
+      "sources": [
+        {
+          "title": "https://archive.is/9OGiC",
+          "url": "https://archive.is/9OGiC"
+        },
+        {
+          "title": "“Scotland Births and Baptisms, 1564-1950”, a database available on FamilySearch, where you can find William Glasgow’s christening record [https://www.familysearch.org/ark:/61903/1:1:XYZK-3JZ].",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:XYZK-3JZ"
+        },
+        {
+          "title": "George, Kilwinning 20 November 1687: John Glasgow and Agnes Spark, OPR 599/1 page 26",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3624876&tab=this"
+        }
+      ],
+      "detail_url": "/branches/early-scottish-records/#chapter-hugh-kilwinning-father-review",
+      "new_father_attachments": 0,
+      "new_paternal_joins": 0,
+      "new_original_inspections": 0,
+      "new_source_discoveries": 0,
+      "relationship_reassessments": [
+        {
+          "subject_id": "Glasgow-1056",
+          "relative_id": "Glasgow-1057",
+          "relationship": "father",
+          "before": "possible",
+          "before_percent": 58,
+          "after": "probable",
+          "after_percent": 74,
+          "assertion_id": "C-coverage-20261022-glasgow-1056-father"
+        }
+      ],
+      "provenance": [
+        "research/ancestry-connections/high-impact-review-2026-10-22.json",
+        "research/Glasgow-1056/findings.md"
+      ]
     }
   ]
 }

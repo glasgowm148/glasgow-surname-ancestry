@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "reviewed": "2026-10-21",
+  "reviewed": "2026-10-22",
   "objective": "Connect the Glasgow surname branches into one extended family tree, developing and testing tentative connections from the earliest records first.",
   "common_origin": "The owner reports that all men tested share the Glasgow Y-DNA lineage. A shared paternal origin around 1400–1450, possibly earlier, is the working research model; the founder, date and intervening generations remain to be identified.",
   "variants": [
@@ -2532,7 +2532,8 @@
         "Grant, Edinburgh Apprentices, p.71",
         "Watson, Edinburgh Burgesses, p.208",
         "Duddingston OPR 684/60/47"
-      ]
+      ],
+      "last_test": "22 October2026: held burgessp208 confirms James’s master/date but does not identify buried Robert; retain86%. The indexed burial original remains uninspected."
     },
     {
       "id": "hugh-mccullough-probable-parents",
@@ -3048,7 +3049,8 @@
       "working_selection": true,
       "assertion_id": "C-working-20261017-murieston-james-george",
       "counted_as_new_connection": false,
-      "reviewed": "2026-10-17"
+      "reviewed": "2026-10-17",
+      "last_test": "22 October2026: no accessible title-transfer text obtained. NLS court-book original/transcript remains the useful test; retain82%."
     },
     {
       "id": "ayrshire-hugh-preferred-family",
@@ -4830,6 +4832,55 @@
       "working_selection": true,
       "assertion_id": "C-working-20261021-dundonald-john-father",
       "reviewed": "2026-10-21"
+    },
+    {
+      "id": "hugh-kilwinning-father-review",
+      "year": 1687,
+      "title": "Hugh of Kilwinning: a probable father from the reported family",
+      "status": "Existing father strengthened from58% possible to74% probable",
+      "people": [
+        {
+          "name": "Hugh Glasgow",
+          "url": "/people/glasgow-1056.html"
+        },
+        {
+          "name": "John Glasgow",
+          "url": "/people/glasgow-1057.html"
+        },
+        {
+          "name": "William Glasgow",
+          "url": "/people/glasgow-1055.html"
+        },
+        {
+          "name": "George Glasgow",
+          "url": "/people/glasgow-1058.html"
+        }
+      ],
+      "basis": "The family account attributed to Elaine Comes identifies Hugh, husband of Janet Kilpatrick, as William Glasgow’s brother and names their parents John Glasgow and Agnes Spark. William’s held Stevenston child citation names that same parental couple, also recorded with George at Kilwinning in 1687. Hugh’s Kilwinning family from 1710 belongs to the same local generation. These specific people, spouse and household make John-1057 the probable father. The incorrect Glasgow-1080 hyperlink in John’s duplicate quotation is an editorial inconsistency: Hugh’s own captured account links John-1057 correctly and both texts name John and Agnes Spark. It is not evidence for a competing parent. The household records corroborate the named couple, while Hugh’s siblinghood and transfer of that fatherhood still depend on the single secondary account; duplicated quotations are not independent testimony.",
+      "next_test": "Find the underlying evidence for Elaine’s specific brother/parent statement, or an identifying marriage, apprenticeship or inheritance record for Hugh. Rechecking the broken hyperlink alone cannot resolve the historical relationship.",
+      "last_test": "22 October2026: specific sibling/parent household reassessed; broken profile link separated from historical evidence. No new original inspected.",
+      "sources": [
+        {
+          "label": "https://archive.is/9OGiC",
+          "url": "https://archive.is/9OGiC"
+        },
+        {
+          "label": "“Scotland Births and Baptisms, 1564-1950”, a database available on FamilySearch, where you can find William Glasgow’s christening record [https://www.familysearch.org/ark:/61903/1:1:XYZK-3JZ].",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:XYZK-3JZ"
+        },
+        {
+          "label": "George, Kilwinning 20 November 1687: John Glasgow and Agnes Spark, OPR 599/1 page 26",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3624876&tab=this"
+        }
+      ],
+      "record_references": [
+        "held-e-470539910413",
+        "held-e-d7f3d2eae5a3",
+        "kilwinning-george-spark-child-1687"
+      ],
+      "assertion_id": "C-coverage-20261022-glasgow-1056-father",
+      "reviewed": "2026-10-22",
+      "counted_as_new_connection": false
     }
   ],
   "source_basis": "Initial priorities reconcile existing medieval bridge research, the pre-1550 relationship audit and the resolved public catalogue. They are current working comparisons, not newly discovered kinship records."

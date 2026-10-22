@@ -1,0 +1,34 @@
+{
+  "reviewed": "2026-10-22",
+  "existing_father_reassessments": 1,
+  "before_percent": 58,
+  "after_percent": 74,
+  "new_father_attachments": 0,
+  "new_paternal_joins": 0,
+  "new_confident_links": 0,
+  "working_components": 404,
+  "confident_links": 669,
+  "supported_links_before": 1113,
+  "supported_links_after": 1114,
+  "supported_components_before": 686,
+  "supported_components_after": 685,
+  "confident_pair_potential_verified": 221,
+  "model_parity": {
+    "main": {
+      "checked": 1396,
+      "mismatches": []
+    },
+    "standalone": {
+      "checked": 1396,
+      "mismatches": []
+    },
+    "packed": {
+      "checked": 1396,
+      "mismatches": []
+    }
+  },
+  "full_compact_membership_agrees": true,
+  "all_individual_coverage_retained": true,
+  "new_research_failures": 0,
+  "local_only": true
+}

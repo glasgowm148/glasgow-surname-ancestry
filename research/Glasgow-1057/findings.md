@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Reviewed 22 October 2026. Hugh Glasgow-1056’s father John-1057 is now **74% probable**, superseding the earlier 58% possible estimate; the specific reported sibling and parent household supports the inference. [Evidence and remaining limits](#kilwinning-family-reassessment-22-october-2026). No mother or upstream identity grade changes.
+
 Reviewed: 2026-10-21. **Possible father of the Dundonald William account,46%; probably overlapping an existing son account, not an additional proved son.**
 
 Prefer the Irvine father account William Glasgow-1055 as the same adult as the Dundonald weaver William Glasgow-3586, at 56% subjective identity confidence. The Irvine entries name Wm or William as father of Grizell in 1724, Agnes in 1725, Katherine in 1727 and Margaret in 1729. The Dundonald entry names William Glasgow, weaver at Achenyeards, as Jean’s father on 1 October 1732. An existing adult household in the adjoining Irvine parish followed by the 1732 Dundonald household is a specific chronological and local fit, and is preferred to matching an otherwise untraced childhood profile alone. This is an inferred adult identity: the Irvine transcripts do not state the father’s trade or Achenyeards residence.
@@ -108,3 +110,13 @@ Scope: The Edinburgh child and James/Agnes household; OPR685/1,60/225, original 
 Next useful test: Test the Edinburgh child to Ayrshire adult continuity, not the explicit baptism parent clause.
 
 This is a first numerical review of an existing attachment, not a new father, new branch connection or original-source discovery. The prior contributor mark is retained in the structured assessment history.
+
+## Kilwinning family reassessment — 22 October 2026
+
+[Hugh Glasgow-1056](/people/glasgow-1056.html) → [John Glasgow-1057](/people/glasgow-1057.html) is **74% probable**, from 58% possible. The family account attributed to Elaine Comes identifies Hugh, husband of Janet Kilpatrick, as William Glasgow’s brother and names their parents John Glasgow and Agnes Spark. William’s held Stevenston child citation names that same parental couple, also recorded with George at Kilwinning in 1687. Hugh’s Kilwinning family from 1710 belongs to the same local generation. These specific people, spouse and household make John-1057 the probable father. The incorrect Glasgow-1080 hyperlink in John’s duplicate quotation is an editorial inconsistency: Hugh’s own captured account links John-1057 correctly and both texts name John and Agnes Spark. It is not evidence for a competing parent. The household records corroborate the named couple, while Hugh’s siblinghood and transfer of that fatherhood still depend on the single secondary account; duplicated quotations are not independent testimony.
+
+74% assesses the complete Hugh-to-John/Agnes-household father identification, from 58% possible. The sibling relationship is reported, not independently proved. No Hugh childhood record or underlying evidence for Elaine’s statement was inspected. John’s own 1661 Edinburgh-child identification, the unrelated 1685 testament comparison, other ancestry and all mothers retain separate assessments. The circa-1692/1700 estimates are not birth records; no dates are changed.
+
+Next useful test: Find the underlying evidence for Elaine’s specific brother/parent statement, or an identifying marriage, apprenticeship or inheritance record for Hugh. Rechecking the broken hyperlink alone cannot resolve the historical relationship.
+
+[Shared family review](/branches/early-scottish-records/#chapter-hugh-kilwinning-father-review). Sources: [Elaine family account, held citation; archive not newly accessible](https://archive.is/9OGiC); [William’s Stevenston child citation, index only](https://www.familysearch.org/ark:/61903/1:1:XYZK-3JZ); [George, Kilwinning 1687, held Findmypast transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3624876&tab=this). No new source discovery, original inspection, father attachment or confident relationship is claimed.

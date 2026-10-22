@@ -1,0 +1,31 @@
+{
+  "reviewed": "2026-10-22",
+  "scope": "Additive full replacements; earlier proposals and historical passages retained.",
+  "profiles": {
+    "Glasgow-1056": {
+      "current_sha256": "674dff3fb96ea3b74621c81705859dbb6187058ad216778914f4b2f8fc01d590",
+      "proposed_sha256": "3accddf29ea4fe90a772d9d46c28d16deaef024bd03e213d7e5a797be7608855",
+      "previous_proposed_sha256": "a30858cf2b8486474b8c97ccfbab762d303d7cce3a2936afda165ef5ad1ffbd3",
+      "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/high-impact-20261022/previous-proposals/Glasgow-1056.wiki",
+      "all_substantive_passages_accounted_for": true,
+      "draft_path": "research/Glasgow-1056/kilwinning-family-review-2026-10-22.wiki",
+      "retained": "Previous complete proposal retained verbatim except normal formatting; added superseding research note. Historical record and hypothesis passages retained.",
+      "private_comparison": false
+    },
+    "Glasgow-1057": {
+      "current_sha256": "c3cfdc055387c92933f61be7bf803667eadea266682331d2b01dd89313e764e2",
+      "proposed_sha256": "104dbe869679a3686278b0ad3e3fba3d7ad687b4a991212c9a58e3194fff3c6b",
+      "previous_proposed_sha256": "07cfcec74306c7ab1340000f3d6bfef0b42271c990f298d1334fa25e855142c7",
+      "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/high-impact-20261022/previous-proposals/Glasgow-1057.wiki",
+      "all_substantive_passages_accounted_for": true,
+      "draft_path": "research/Glasgow-1057/kilwinning-family-review-2026-10-22.wiki",
+      "retained": "Previous complete proposal retained verbatim except normal formatting; added superseding research note. Historical record and hypothesis passages retained.",
+      "private_comparison": false
+    }
+  },
+  "previous_proposal_passage_check": {
+    "checked_profiles": 2,
+    "unmatched": [],
+    "method": "Reverse the new additive note; account for every earlier proposed paragraph, ignoring whitespace, heading and italic formatting only."
+  }
+}

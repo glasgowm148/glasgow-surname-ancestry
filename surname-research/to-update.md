@@ -3907,3 +3907,9 @@ Twenty additional transcripts are recorded under existing people or qualified ca
 | [Margaret Glasgow](https://www.wikitree.com/wiki/Glasgow-1363) | OPEN | Review existing father at 98% (proved); no new father attachment. |
 | [Mary Agnes Glasgow](https://www.wikitree.com/wiki/Glasgow-2378) | OPEN | Review existing father at 71% (probable); no new father attachment. |
 | [William Glasko](https://www.wikitree.com/wiki/Glasko-11) | OPEN | Review existing father at 98% (proved); no new father attachment. |
+
+
+## 22 October 2026 — Kilwinning father reassessment
+
+| [Hugh Glasgow](https://www.wikitree.com/wiki/Glasgow-1056) | OPEN | Explain existing father John at74% probable, from58% possible; secondary-source limits retained; no new attachment. |
+| [John Glasgow](https://www.wikitree.com/wiki/Glasgow-1057) | OPEN | Add reciprocal Hugh family reassessment; retain separate mothers and childhood identity. |
