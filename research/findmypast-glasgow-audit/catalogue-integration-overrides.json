@@ -96,13 +96,15 @@
       "notes": "The 1690 apprentice was son of the deceased James Glasgow, weaver in Lindsayland. That paternal death status excludes the separately recorded 1696 apprentice; all live candidates were manually compared and excluded."
     },
     "fmp-glasgow-59dea07d1fbb": {
-      "outcome": "new_person",
-      "creation_status": "READY",
-      "handoff_path": "surname-research/new-people/1696_Scotland_Edinburgh_James_Glasgow.md",
+      "outcome": "existing_profile",
+      "creation_status": "",
       "catalogue_place": "Edinburgh",
       "catalogue_country": "Scotland",
       "catalogue_birth_location": "Edinburgh, Midlothian, Scotland",
-      "notes": "The 1696 apprentice was son of a living Edinburgh weaver and burgess, probably Glasgow-1150. The distinct apprentice has no compatible live profile after manual comparison."
+      "notes": "Exact same 1696 Edinburgh apothecary apprenticeship, Findmypast SCOT/EDINBURGH/APPRENTICES/0005161/1; named father James Glasgow. Existing profile and family fields verified anonymously 18 October 2026. This record-only creation suggestion was already created as Glasgow-4114; do not create it again.",
+      "profile_id": "Glasgow-4114",
+      "queue_status": "CLOSED",
+      "substantive_amendment": false
     },
     "fmp-glasgow-8b7fb215d258": {
       "outcome": "existing_profile",
@@ -112,13 +114,15 @@
       "notes": "Exact name, city and adult chronology make Glasgow-3187 the best existing-profile match; the identification is probable because the admission gives no trade, spouse or kin."
     },
     "fmp-glasgow-b741e434199b": {
-      "outcome": "new_person",
-      "creation_status": "READY",
-      "handoff_path": "surname-research/new-people/1733_Scotland_unknown_James_Glasgow.md",
+      "outcome": "existing_profile",
+      "creation_status": "",
       "catalogue_place": "Saltoun, Haddingtonshire",
       "catalogue_country": "Scotland",
       "catalogue_birth_location": "Saltoun, Haddingtonshire, Scotland",
-      "notes": "The Swift of Sheerness surgeon associated with Saltoun is a distinct occupational identity; no reviewed live candidate has the vessel, profession or Saltoun bridge."
+      "notes": "The record-only account and Glasgow-4124 cite the same retained Findmypast record: GBOR/DOBSON/000380. The existing profile already represents this documentary subject. Retire the duplicate catalogue person and creation suggestion; preserve the accepted profile, sources, dates and relationship assessments. This is publication reconciliation, not new parentage.",
+      "profile_id": "Glasgow-4124",
+      "queue_status": "CLOSED",
+      "substantive_amendment": false
     },
     "fmp-glasgow-26372d160744": {
       "outcome": "existing_profile",
@@ -128,10 +132,12 @@
       "notes": "Exact year, father James and Borders chronology identify Glasgow-1607; the entry directly supports Edrom rather than Kelso."
     },
     "fmp-glasgow-32d4ff293591": {
-      "outcome": "new_person",
-      "creation_status": "READY",
-      "handoff_path": "surname-research/new-people/1744_Scotland_Kilmarnock_Mary_Glasgow.md",
-      "notes": "The exact 7/11 April 1744 Kilmarnock birth/baptism and named parents define a distinct child; no compatible live profile remains."
+      "outcome": "existing_profile",
+      "creation_status": "",
+      "notes": "The record-only account and Glasgow-4108 cite the same retained Findmypast record: SCOT/OPR/BAP/3600620. The existing profile already represents this documentary subject. Retire the duplicate catalogue person and creation suggestion; preserve the accepted profile, sources, dates and relationship assessments. This is publication reconciliation, not new parentage.",
+      "profile_id": "Glasgow-4108",
+      "queue_status": "CLOSED",
+      "substantive_amendment": false
     },
     "fmp-glasgow-baa0969903c8": {
       "outcome": "new_person",
@@ -142,10 +148,12 @@
       "notes": "The 1707/08 bounty defines a distinct Church of England minister appointed to an Antiguan cure. Glasgow-1073 is excluded as the continuously serving Kilbirnie Presbyterian minister; appointment does not prove travel or residence."
     },
     "fmp-glasgow-e0a45e457988": {
-      "outcome": "new_person",
-      "creation_status": "READY",
-      "handoff_path": "surname-research/new-people/1726_England_London_Edward_Glasgow.md",
-      "notes": "One reviewed documentary identity consolidating the duplicate house 6/folio 3 indexes and the adjacent house 7 assessment in St Clement Danes; no compatible WikiTree profile was found."
+      "outcome": "existing_profile",
+      "creation_status": "",
+      "notes": "The record-only account and Glasgow-4136 cite the same retained Findmypast record: GBOR/WESTMINSTER_RATEBOO/9492920/3. The existing profile already represents this documentary subject. Retire the duplicate catalogue person and creation suggestion; preserve the accepted profile, sources, dates and relationship assessments. This is publication reconciliation, not new parentage.",
+      "profile_id": "Glasgow-4136",
+      "queue_status": "CLOSED",
+      "substantive_amendment": false
     },
     "fmp-glasgow-f25b7384f2e9": {
       "outcome": "existing_profile",
@@ -1148,9 +1156,12 @@
       "notes": "The 1738 Edrom birth and father James Glasgow conflict with all live candidates' families and places; no compatible profile remains."
     },
     "fmp-glasgow-f325c7334f8a": {
-      "outcome": "new_person",
-      "creation_status": "READY",
-      "notes": "The transcript explicitly identifies William Glasgow at Kilbirnie in 1749 and names John Orr and Margaret Orr as parents; no candidate matches. Preserve the unusual surname/parent combination and verify the image before attaching parents."
+      "outcome": "existing_profile",
+      "creation_status": "",
+      "notes": "The record-only account and Glasgow-4139 cite the same retained Findmypast record: SCOT/OPR/BAP/3586966. The existing profile already represents this documentary subject. Retire the duplicate catalogue person and creation suggestion; preserve the accepted profile, sources, dates and relationship assessments. This is publication reconciliation, not new parentage.",
+      "profile_id": "Glasgow-4139",
+      "queue_status": "CLOSED",
+      "substantive_amendment": false
     },
     "fmp-glasgow-8d4bf08c43ec": {
       "outcome": "existing_profile",

@@ -54,7 +54,7 @@
       "GBPRS/GLASGOW/BUR/093166"
     ],
     "next_query_page": 3,
-    "integration_scope": "This reviewed 41-transcript batch only: 40 search-result transcripts across pages 1–2 and one supporting OPR reinspection. Provider-wide coverage and six legacy public reconciliations remain incomplete.",
+    "integration_scope": "This reviewed 41-transcript batch only: 40 search-result transcripts across pages 1–2 and one supporting OPR reinspection. Seven legacy duplicate suggestions are reconciled separately; provider-wide coverage remains incomplete.",
     "indexed_record_ids": [
       "R_686309313",
       "R_694108409",
@@ -105,8 +105,7 @@
       "Pages 3–294 of the current 1719–1799 birth-filtered BMD query",
       "Earlier birth windows, later-life records and other categories",
       "Surname variants and unresolved birth-surname/record identities",
-      "Legacy unattempted, temporarily blocked, subscription-locked and capped search results",
-      "Six duplicate catalogue/search suggestions for existing profiles"
+      "Legacy unattempted, temporarily blocked, subscription-locked and capped search results"
     ]
   },
   "search_pages": [
@@ -2041,7 +2040,7 @@
       "Glasgow-3298": "Two inspected transcripts index unnamed male children born 1792 and 1797 at Kilmarnock, father John Glasgow, mother unnamed. The local John associated with Margaret Wyllie is a compatible adult lead, not a proved father identification. [John Glasgow-3051](/people/glasgow-3051.html), born 24 January 1791, is too young to father either child and is excluded for this role. Do not invent children’s forenames or use the unnamed mother to assert Margaret as their mother.",
       "Glasgow-1309": "An unnamed Midcalder child is indexed in 1767 to Alexr Glasgow, OPR 694/2 item 4 p.64, with no mother named. Separately, Abigail’s 1769 entry names Alexr Glasgow and Emilia Glending; two companion indexes give Alexander and Emilia Glendining. This regional adult Alexander remains a comparison, as do [Alexander Glasgow-1342](/people/glasgow-1342.html) and [Alexander Glasgow-1321](/people/glasgow-1321.html). A different known spouse alone is no exclusion. Neither the father identity nor a shared mother is established. Do not transfer Emilia to the 1767 child or attach these children to an existing Alexander without a further identity decision."
     },
-    "legacy_ready_review_pending": "The 14 automatic no-match legacy decisions are guarded as HOLD. The seven explicit legacy READY notes were reviewed on 22 October 2026: all seven already have profiles; one suggestion is fully retired and six public catalogue/search presentations still need reconciliation. Historical creation notes must not authorize creating those people again.",
+    "legacy_ready_review_pending": "Review complete: all seven explicit legacy READY suggestions already have profiles and are retired from active People/full/compact catalogue indexes. Durable integration decisions are closed against recreation. The 14 automatic no-match legacy decisions remain guarded as HOLD.",
     "record_assignments": {
       "R_684955704": {
         "catalogue_profiles": {
@@ -2253,59 +2252,67 @@
     },
     "legacy_ready_review": {
       "reviewed_on": "2026-10-22",
-      "status": "Reviewed; six public catalogue/search reconciliations pending",
+      "status": "COMPLETE for these seven legacy suggestions; provider-wide coverage remains INCOMPLETE",
       "basis": "Existing profile/capture links, maintained person findings, actual people-index, full/decoded compact catalogue indexes and record readers checked; raw CSV READY metadata alone was not treated as proof of an active suggestion.",
       "entries": [
         {
           "group_id": "fmp-glasgow-e47e0e47524a",
           "profile_id": "Glasgow-4138",
-          "public_state": "Removed from people index; stale full/compact creation row remains",
+          "public_state": "Superseded alias retained; absent from active People and full/compact search; records indexed under Glasgow-4138",
           "create_new_person": false,
-          "action": "Preserve existing identity, sources, uncertainty and family links; retire any remaining duplicate creation account."
+          "action": "Use the existing profile; preserve all source records, chronology, uncertainty and family links. Do not create again.",
+          "retired_in_this_batch": false
         },
         {
           "group_id": "fmp-glasgow-fb417c9f3803",
           "profile_id": "Glasgow-1406",
-          "public_state": "Merged from Glasgow-4141 on27September; removed from people index but stale search row remains",
+          "public_state": "Superseded alias retained; absent from active People and full/compact search; records indexed under Glasgow-1406",
           "create_new_person": false,
-          "action": "Preserve existing identity, sources, uncertainty and family links; retire any remaining duplicate creation account."
+          "action": "Use the existing profile; preserve all source records, chronology, uncertainty and family links. Do not create again.",
+          "retired_in_this_batch": false
         },
         {
           "group_id": "fmp-glasgow-b741e434199b",
           "profile_id": "Glasgow-4124",
-          "public_state": "Duplicate record-only account remains in people and full/compact search",
+          "public_state": "Superseded alias retained; absent from active People and full/compact search; records indexed under Glasgow-4124",
           "create_new_person": false,
-          "action": "Preserve existing identity, sources, uncertainty and family links; retire any remaining duplicate creation account."
+          "action": "Use the existing profile; preserve all source records, chronology, uncertainty and family links. Do not create again.",
+          "retired_in_this_batch": true
         },
         {
           "group_id": "fmp-glasgow-32d4ff293591",
           "profile_id": "Glasgow-4108",
-          "public_state": "Duplicate record-only account remains in people and full/compact search",
+          "public_state": "Superseded alias retained; absent from active People and full/compact search; records indexed under Glasgow-4108",
           "create_new_person": false,
-          "action": "Preserve existing identity, sources, uncertainty and family links; retire any remaining duplicate creation account."
+          "action": "Use the existing profile; preserve all source records, chronology, uncertainty and family links. Do not create again.",
+          "retired_in_this_batch": true
         },
         {
           "group_id": "fmp-glasgow-e0a45e457988",
           "profile_id": "Glasgow-4136",
-          "public_state": "Duplicate record-only account remains in people and full/compact search",
+          "public_state": "Superseded alias retained; absent from active People and full/compact search; records indexed under Glasgow-4136",
           "create_new_person": false,
-          "action": "Preserve existing identity, sources, uncertainty and family links; retire any remaining duplicate creation account."
+          "action": "Use the existing profile; preserve all source records, chronology, uncertainty and family links. Do not create again.",
+          "retired_in_this_batch": true
         },
         {
           "group_id": "fmp-glasgow-f325c7334f8a",
           "profile_id": "Glasgow-4139",
-          "public_state": "Duplicate record-only account remains in people and full/compact search",
+          "public_state": "Superseded alias retained; absent from active People and full/compact search; records indexed under Glasgow-4139",
           "create_new_person": false,
-          "action": "Preserve existing identity, sources, uncertainty and family links; retire any remaining duplicate creation account."
+          "action": "Use the existing profile; preserve all source records, chronology, uncertainty and family links. Do not create again.",
+          "retired_in_this_batch": true
         },
         {
           "group_id": "fmp-glasgow-59dea07d1fbb",
           "profile_id": "Glasgow-4114",
-          "public_state": "Already retired correctly; no duplicate full/compact search row",
+          "public_state": "Superseded alias retained; absent from active People and full/compact search; records indexed under Glasgow-4114",
           "create_new_person": false,
-          "action": "Preserve existing identity, sources, uncertainty and family links; retire any remaining duplicate creation account."
+          "action": "Use the existing profile; preserve all source records, chronology, uncertainty and family links. Do not create again.",
+          "retired_in_this_batch": false
         }
-      ]
+      ],
+      "verification_report": "output/findmypast-existing-profile-reconciliation-20261022-verification.json"
     },
     "libberton_parent_follow_up": {
       "status": "Unresolved compatible existing-parent comparison; no new person or attachment",

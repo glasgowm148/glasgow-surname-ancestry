@@ -1,8 +1,8 @@
 {
   "reviewed": "2026-10-22",
-  "scope": "Five previously created or merged documentary subjects, 1668–1689",
+  "scope": "Ten previously created or merged documentary subjects, 1668–1749; 22 October follow-up closes four active duplicates and one already-retired override",
   "catalogue_people_before": 4879,
-  "catalogue_people_after": 4874,
+  "catalogue_people_after": 4870,
   "new_genealogical_relationships": 0,
   "new_confident_fathers": 0,
   "connectivity_credit": 0,
@@ -540,6 +540,192 @@
         ],
         "siblings": []
       }
+    },
+    "Glasgow-4124": {
+      "vitals": {
+        "birth": {
+          "date": "before 1733",
+          "place": "Saltoun, East Lothian, Scotland",
+          "status": "uncertain"
+        },
+        "death": {
+          "date": null,
+          "place": null,
+          "status": null
+        }
+      },
+      "relationships": {
+        "parents": [],
+        "spouses": [],
+        "children": [],
+        "siblings": []
+      }
+    },
+    "Glasgow-4108": {
+      "vitals": {
+        "birth": {
+          "date": "1744-04-07",
+          "place": "Kilmarnock, Ayrshire, Scotland",
+          "status": "exact"
+        },
+        "death": {
+          "date": null,
+          "place": null,
+          "status": null
+        }
+      },
+      "relationships": {
+        "parents": [
+          {
+            "id": "Giffen-664",
+            "name": "Margaret Giffen",
+            "relationship": "mother",
+            "status": "unknown",
+            "status_label": "WikiTree tree relationship",
+            "basis": "tree",
+            "evidence_ids": [],
+            "tree_relationship": true,
+            "relationship_source": "wikitree_parent_field",
+            "tree_status": "unmarked",
+            "tree_status_label": "WikiTree: relationship status unmarked",
+            "url": "/people/giffen-664.html",
+            "json_url": "/people/giffen-664.json",
+            "network_url": "/people/giffen-664.network.json",
+            "wikitree_url": "https://www.wikitree.com/wiki/Giffen-664",
+            "claim_id": "C-f3ff8fb8f1bb",
+            "probability": {
+              "band": "unrated",
+              "label": "Unrated",
+              "minimum": null,
+              "maximum": null,
+              "rank": 0,
+              "value": null,
+              "method": "not_individually_assessed",
+              "origin": "wikitree"
+            }
+          },
+          {
+            "id": "Glasgow-1929",
+            "name": "Hugh Glasgow",
+            "relationship": "father",
+            "status": "unknown",
+            "status_label": "WikiTree tree relationship",
+            "basis": "tree",
+            "evidence_ids": [],
+            "tree_relationship": true,
+            "relationship_source": "wikitree_parent_field",
+            "tree_status": "unmarked",
+            "tree_status_label": "WikiTree: relationship status unmarked",
+            "url": "/people/glasgow-1929.html",
+            "json_url": "/people/glasgow-1929.json",
+            "network_url": "/people/glasgow-1929.network.json",
+            "wikitree_url": "https://www.wikitree.com/wiki/Glasgow-1929",
+            "claim_id": "C-8b6aa80cd62f",
+            "probability": {
+              "band": "unrated",
+              "label": "Unrated",
+              "minimum": null,
+              "maximum": null,
+              "rank": 0,
+              "value": null,
+              "method": "not_individually_assessed",
+              "origin": "wikitree"
+            }
+          }
+        ],
+        "spouses": [],
+        "children": [],
+        "siblings": [
+          {
+            "id": "Glasgow-4142",
+            "name": "Mary Glasgow",
+            "relationship": "sibling",
+            "status": "unknown",
+            "status_label": "WikiTree relationship snapshot",
+            "basis": "tree",
+            "evidence_ids": [],
+            "tree_relationship": true,
+            "relationship_source": "wikitree_relation_snapshot",
+            "url": "/people/glasgow-4142.html",
+            "json_url": "/people/glasgow-4142.json",
+            "network_url": "/people/glasgow-4142.network.json",
+            "wikitree_url": "https://www.wikitree.com/wiki/Glasgow-4142",
+            "claim_id": "C-e10c074a3758"
+          },
+          {
+            "id": "Glasgow-4115",
+            "name": "Margaret Glasgow",
+            "relationship": "sibling",
+            "status": "unknown",
+            "status_label": "WikiTree relationship snapshot",
+            "basis": "tree",
+            "evidence_ids": [],
+            "tree_relationship": true,
+            "relationship_source": "wikitree_relation_snapshot",
+            "url": "/people/glasgow-4115.html",
+            "json_url": "/people/glasgow-4115.json",
+            "network_url": "/people/glasgow-4115.network.json",
+            "wikitree_url": "https://www.wikitree.com/wiki/Glasgow-4115",
+            "claim_id": "C-ad48f5d81f14"
+          },
+          {
+            "id": "Glasgow-4104",
+            "name": "Hugh Glasgow",
+            "relationship": "sibling",
+            "status": "unknown",
+            "status_label": "WikiTree relationship snapshot",
+            "basis": "tree",
+            "evidence_ids": [],
+            "tree_relationship": true,
+            "relationship_source": "wikitree_relation_snapshot",
+            "url": "/people/glasgow-4104.html",
+            "json_url": "/people/glasgow-4104.json",
+            "network_url": "/people/glasgow-4104.network.json",
+            "wikitree_url": "https://www.wikitree.com/wiki/Glasgow-4104",
+            "claim_id": "C-3366662bfb64"
+          }
+        ]
+      }
+    },
+    "Glasgow-4136": {
+      "vitals": {
+        "birth": {
+          "date": "before 1726",
+          "place": "London, England",
+          "status": "uncertain"
+        },
+        "death": {
+          "date": null,
+          "place": null,
+          "status": null
+        }
+      },
+      "relationships": {
+        "parents": [],
+        "spouses": [],
+        "children": [],
+        "siblings": []
+      }
+    },
+    "Glasgow-4139": {
+      "vitals": {
+        "birth": {
+          "date": "before 1749-12-01",
+          "place": "Kilbirnie, Ayrshire, Scotland",
+          "status": "uncertain"
+        },
+        "death": {
+          "date": null,
+          "place": null,
+          "status": null
+        }
+      },
+      "relationships": {
+        "parents": [],
+        "spouses": [],
+        "children": [],
+        "siblings": []
+      }
     }
   },
   "decisions": [
@@ -603,6 +789,82 @@
         "catalogue_event_year_end": 1679,
         "notes": "The transcript's source wording dates the summons list to September 1679; 1679-1688 is only the collection span and is not Michael's event or birth date."
       }
+    },
+    {
+      "retired_catalogue_id": "record-fmp-glasgow-b741e434199b",
+      "canonical_profile_id": "Glasgow-4124",
+      "provider_record_ids": [
+        "GBOR/DOBSON/000380"
+      ],
+      "reason": "The record-only account and Glasgow-4124 cite the same retained Findmypast record: GBOR/DOBSON/000380. The existing profile already represents this documentary subject. Retire the duplicate catalogue person and creation suggestion; preserve the accepted profile, sources, dates and relationship assessments. This is publication reconciliation, not new parentage.",
+      "previous_integration_decision": {
+        "outcome": "new_person",
+        "creation_status": "READY",
+        "handoff_path": "surname-research/new-people/1733_Scotland_unknown_James_Glasgow.md",
+        "catalogue_place": "Saltoun, Haddingtonshire",
+        "catalogue_country": "Scotland",
+        "catalogue_birth_location": "Saltoun, Haddingtonshire, Scotland",
+        "notes": "The Swift of Sheerness surgeon associated with Saltoun is a distinct occupational identity; no reviewed live candidate has the vessel, profession or Saltoun bridge."
+      }
+    },
+    {
+      "retired_catalogue_id": "record-fmp-glasgow-32d4ff293591",
+      "canonical_profile_id": "Glasgow-4108",
+      "provider_record_ids": [
+        "SCOT/OPR/BAP/3600620"
+      ],
+      "reason": "The record-only account and Glasgow-4108 cite the same retained Findmypast record: SCOT/OPR/BAP/3600620. The existing profile already represents this documentary subject. Retire the duplicate catalogue person and creation suggestion; preserve the accepted profile, sources, dates and relationship assessments. This is publication reconciliation, not new parentage.",
+      "previous_integration_decision": {
+        "outcome": "new_person",
+        "creation_status": "READY",
+        "handoff_path": "surname-research/new-people/1744_Scotland_Kilmarnock_Mary_Glasgow.md",
+        "notes": "The exact 7/11 April 1744 Kilmarnock birth/baptism and named parents define a distinct child; no compatible live profile remains."
+      }
+    },
+    {
+      "retired_catalogue_id": "record-fmp-glasgow-e0a45e457988",
+      "canonical_profile_id": "Glasgow-4136",
+      "provider_record_ids": [
+        "GBOR/WESTMINSTER_RATEBOO/9492920/3"
+      ],
+      "reason": "The record-only account and Glasgow-4136 cite the same retained Findmypast record: GBOR/WESTMINSTER_RATEBOO/9492920/3. The existing profile already represents this documentary subject. Retire the duplicate catalogue person and creation suggestion; preserve the accepted profile, sources, dates and relationship assessments. This is publication reconciliation, not new parentage.",
+      "previous_integration_decision": {
+        "outcome": "new_person",
+        "creation_status": "READY",
+        "handoff_path": "surname-research/new-people/1726_England_London_Edward_Glasgow.md",
+        "notes": "One reviewed documentary identity consolidating the duplicate house 6/folio 3 indexes and the adjacent house 7 assessment in St Clement Danes; no compatible WikiTree profile was found."
+      }
+    },
+    {
+      "retired_catalogue_id": "record-fmp-glasgow-f325c7334f8a",
+      "canonical_profile_id": "Glasgow-4139",
+      "provider_record_ids": [
+        "SCOT/OPR/BAP/3586966"
+      ],
+      "reason": "The record-only account and Glasgow-4139 cite the same retained Findmypast record: SCOT/OPR/BAP/3586966. The existing profile already represents this documentary subject. Retire the duplicate catalogue person and creation suggestion; preserve the accepted profile, sources, dates and relationship assessments. This is publication reconciliation, not new parentage.",
+      "previous_integration_decision": {
+        "outcome": "new_person",
+        "creation_status": "READY",
+        "notes": "The transcript explicitly identifies William Glasgow at Kilbirnie in 1749 and names John Orr and Margaret Orr as parents; no candidate matches. Preserve the unusual surname/parent combination and verify the image before attaching parents."
+      }
+    },
+    {
+      "retired_catalogue_id": "record-fmp-glasgow-59dea07d1fbb",
+      "canonical_profile_id": "Glasgow-4114",
+      "provider_record_ids": [
+        "SCOT/EDINBURGH/APPRENTICES/0005161/1"
+      ],
+      "reason": "Already retired on 18 October; close stale READY override to prevent recreation. Exact same 1696 Edinburgh apothecary apprenticeship, Findmypast SCOT/EDINBURGH/APPRENTICES/0005161/1; named father James Glasgow. Existing profile and family fields verified anonymously 18 October 2026. This record-only creation suggestion was already created as Glasgow-4114; do not create it again.",
+      "previous_integration_decision": {
+        "outcome": "new_person",
+        "creation_status": "READY",
+        "handoff_path": "surname-research/new-people/1696_Scotland_Edinburgh_James_Glasgow.md",
+        "catalogue_place": "Edinburgh",
+        "catalogue_country": "Scotland",
+        "catalogue_birth_location": "Edinburgh, Midlothian, Scotland",
+        "notes": "The 1696 apprentice was son of a living Edinburgh weaver and burgess, probably Glasgow-1150. The distinct apprentice has no compatible live profile after manual comparison."
+      },
+      "public_retirement_already_complete": true
     }
   ],
   "verification": {
@@ -610,11 +872,89 @@
     "canonical_dates_and_relationships_unchanged": true,
     "catalogue_and_exports_have_one_row_per_subject": true,
     "source_routes_retargeted": true,
-    "discovery_log_unchanged": true,
+    "discovery_log_unchanged": false,
     "research_publication_failing_items": 0,
     "new_broken_link_pairs": 0,
     "browser_source_query": "0476082",
     "browser_source_query_results": 1,
-    "creation_ready_count_after": 74
+    "creation_ready_count_after": 70,
+    "follow_up_2026_10_22": {
+      "reviewed_on": "2026-10-22",
+      "active_duplicate_people_retired": 4,
+      "reviewed_legacy_suggestions_closed": 7,
+      "indexed_record_ids_preserved": true,
+      "canonical_dossier_bytes_unchanged": true,
+      "canonical_people_genealogy_unchanged": true,
+      "unrelated_people_and_records_unchanged": true,
+      "full_compact_people_index_agreement": true,
+      "new_people": 0,
+      "new_relationships": 0,
+      "remaining_search_coverage": "INCOMPLETE",
+      "records": [
+        {
+          "record_id": "edccc8705e45d5a9",
+          "source_id": "s-fdb225dc2dca9c0c",
+          "profile_id": "Glasgow-4136"
+        },
+        {
+          "record_id": "3336f73d77721df8",
+          "source_id": "s-b1cbd30a1fe13970",
+          "profile_id": "Glasgow-4124"
+        },
+        {
+          "record_id": "9688efd1750bed4c",
+          "source_id": "s-a480d71bea3d9f83",
+          "profile_id": "Glasgow-4108"
+        },
+        {
+          "record_id": "1d210d3f7296a21e",
+          "source_id": "s-08bf65c1a724171c",
+          "profile_id": "Glasgow-4139"
+        }
+      ],
+      "people_before": 4874,
+      "people_after": 4870,
+      "earlier_batch_counts": {
+        "before": 4879,
+        "after": 4874
+      },
+      "public_retirement_note": "Four active duplicates removed; Glasgow-4114 was already retired and only its stale override changed.",
+      "browser_checks": {
+        "record_queries_resolve_to_profiles": [
+          "Glasgow-4124",
+          "Glasgow-4108",
+          "Glasgow-4136",
+          "Glasgow-4139"
+        ],
+        "surgeon_missing_profile_query_results": 0,
+        "surgeon_canonical_query_results": 1,
+        "surgeon_old_address_has_canonical_link": true
+      },
+      "legacy_cache_checks": {
+        "retired_subjects": 7,
+        "active_legacy_event_subjects_remaining": 0,
+        "old_imported_vital_estimates_active": false,
+        "canonical_documentary_event_caches_available": 7,
+        "canonical_dossier_bytes_unchanged": true,
+        "pre_existing_missing_legacy_wrapper": "www/assets/research/people/glasgow-4136.json",
+        "primary_canonical_profile_and_records_available": true,
+        "focused_tests_passed": 14,
+        "publication_check_failures": 0,
+        "new_broken_link_pairs": 0
+      }
+    },
+    "earlier_batch_verification": {
+      "source_record_rows_preserved": true,
+      "canonical_dates_and_relationships_unchanged": true,
+      "catalogue_and_exports_have_one_row_per_subject": true,
+      "source_routes_retargeted": true,
+      "discovery_log_unchanged": true,
+      "research_publication_failing_items": 0,
+      "new_broken_link_pairs": 0,
+      "browser_source_query": "0476082",
+      "browser_source_query_results": 1,
+      "creation_ready_count_after": 74
+    },
+    "discovery_log_entry": "fmp-existing-profile-reconciliation-20261022"
   }
 }

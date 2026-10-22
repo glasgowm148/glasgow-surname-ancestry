@@ -35893,6 +35893,61 @@
       "provenance": [
         "research/ancestry-connections/father-coverage-review2-2026-10-22.json"
       ]
+    },
+    {
+      "id": "fmp-existing-profile-reconciliation-20261022",
+      "found_on": "2026-10-22",
+      "reviewed_on": "2026-10-22",
+      "kind": "record",
+      "status": "confirmed",
+      "finding": "Four stale Findmypast creation suggestions now use the existing profiles for James, Mary, Edward and William Glasgow.",
+      "qualification": "Each duplicate and existing account cite the same provider record. Records and superseded addresses are retained; dates, family links and relationship confidence are preserved. Three other reviewed legacy suggestions were already retired; their closed decisions prevent recreation. No new person is proposed. Provider-wide coverage remains incomplete.",
+      "people": [
+        {
+          "id": "Glasgow-4124",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-4124.html",
+          "role": "Existing documentary subject; duplicate creation suggestion retired"
+        },
+        {
+          "id": "Glasgow-4108",
+          "name": "Mary Glasgow",
+          "url": "/people/glasgow-4108.html",
+          "role": "Existing documentary subject; duplicate creation suggestion retired"
+        },
+        {
+          "id": "Glasgow-4136",
+          "name": "Edward Glasgow",
+          "url": "/people/glasgow-4136.html",
+          "role": "Existing documentary subject; duplicate creation suggestion retired"
+        },
+        {
+          "id": "Glasgow-4139",
+          "name": "William Glasgow",
+          "url": "/people/glasgow-4139.html",
+          "role": "Existing documentary subject; duplicate creation suggestion retired"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Findmypast GBOR/DOBSON/000380 — retained transcript, original uninspected",
+          "url": "https://www.findmypast.co.uk/transcript?id=GBOR%2FDOBSON%2F000380&tab=this"
+        },
+        {
+          "title": "Findmypast SCOT/OPR/BAP/3600620 — retained transcript, original uninspected",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3600620&tab=this"
+        },
+        {
+          "title": "Findmypast GBOR/WESTMINSTER_RATEBOO/9492920/3 — retained transcript, original uninspected",
+          "url": "https://www.findmypast.co.uk/transcript?id=GBOR%2FWESTMINSTER_RATEBOO%2F9492920%2F3&tab=this"
+        },
+        {
+          "title": "Findmypast SCOT/OPR/BAP/3586966 — retained transcript, original uninspected",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3586966&tab=this"
+        }
+      ],
+      "detail_url": "/branches/early-scottish-records/#chapter-findmypast-born-before-1800",
+      "relationship_changes": []
     }
   ]
 }
