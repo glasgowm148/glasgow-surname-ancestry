@@ -5902,6 +5902,15 @@
       "prior_assessment": "No selected parent on this account; existing local records and family-network reviews supplied the model.",
       "basis": "Existing Libberton, Mid Calder, Linlithgow and Uphall records; adult identities and maternal selection assessed separately.",
       "resolution_note": "Selected uncertain parent only; no new certainty, merge or live save."
+    },
+    "last_test": "22 October 2026: the exact 1766 BillionGraves memorial was recovered, but HTTP 403 prevented reading its inscription. Retain 22%; no death date or identity is established.",
+    "next_test": "Obtain the inscription or photograph for BillionGraves memorial 3399144 and look for Catherine Clarkson, children or an age before joining the Duncan and Clarkson households. The inaccessible memorial is not a verified 1766 death.",
+    "evidence_test": {
+      "reviewed": "2026-10-22",
+      "summary": "22 October 2026: the exact 1766 BillionGraves memorial was recovered, but HTTP 403 prevented reading its inscription. Retain 22%; no death date or identity is established.",
+      "source_url": "https://billiongraves.com/grave/Thomas-Glasgow/3399144",
+      "new_record_discovery": false,
+      "confidence_changed": false
     }
   },
   {
@@ -9234,7 +9243,16 @@
         "label": "Earlier uncertain father assessment; now probable",
         "scope": "Fisherrow father-profile identification re-evaluated from the full family group. Older Mid Calder/Inveresk and ancestry questions remain."
       }
-    ]
+    ],
+    "last_test": "22 October 2026: the Fisherrow index expressly names Alexander’s father James, but its tailor is not independently tied to the baptism father by Christina Bie. Retain 84% for the complete identification.",
+    "next_test": "Read RS25 9/135 and 10/171 for prior title, residence and named kin tying the Fisherrow tailor to the Inveresk baptism household. The patron-submitted 1611 Christina attribution is not independent parish corroboration.",
+    "evidence_test": {
+      "reviewed": "2026-10-22",
+      "summary": "22 October 2026: the Fisherrow index expressly names Alexander’s father James, but its tailor is not independently tied to the baptism father by Christina Bie. Retain 84% for the complete identification.",
+      "source_url": "https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481057&seq=193",
+      "new_record_discovery": false,
+      "confidence_changed": false
+    }
   },
   {
     "assertion_id": "C-review-20261017-fisherrow-glasgow-991-spouse",
@@ -12304,6 +12322,15 @@
       "confidence_upgrade": false,
       "previous_claim_id": "C-093f8e06a2ca",
       "previous_evidence_id": "E-382951ba0352"
+    },
+    "last_test": "22 October 2026: the interlocking property records remain strong but do not identify Robert as William’s son or distinguish sibling from collateral descent. Retain 74%.",
+    "next_test": "Trace acquisition of Robert’s St Roche–Dunlop parcel, or identify the Bridgegait fisher John through spouse or inherited Saltmarket title; another same-name boundary occurrence cannot resolve the generation.",
+    "evidence_test": {
+      "reviewed": "2026-10-22",
+      "summary": "22 October 2026: the interlocking property records remain strong but do not identify Robert as William’s son or distinguish sibling from collateral descent. Retain 74%.",
+      "source_url": "https://archive.org/details/abstractsprotoc06scogoog/page/n69/mode/2up",
+      "new_record_discovery": false,
+      "confidence_changed": false
     }
   },
   {
@@ -105143,5 +105170,80 @@
       ],
       "scope": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate."
     }
+  },
+  {
+    "assertion_id": "C-review-20261022-glenleslie-robert-john-father",
+    "people": [
+      "Glasgow-1367",
+      "Glasgow-1022"
+    ],
+    "status": "uncertain",
+    "status_label": "Unselected uncertain father hypothesis",
+    "lifecycle": "alternative",
+    "display": "alternative",
+    "hypothesis_status": "open",
+    "publication_status": "approved",
+    "working_selection": false,
+    "allow_new_relationship": true,
+    "assessment_date": "2026-10-22",
+    "claim": "John of Glenleslie remains an unselected father candidate for the Glenleslie Robert, 18%.",
+    "basis": "John Glasgow-1022 is an unselected father candidate for the Glenleslie Robert represented within Glasgow-1367, assessed at 18% subjective confidence. The 1851 transcription places Antrim-born Glasgow farmers John, reported 99, and Robert, 72, in Glenleslie houses 21 and 23, with the Hamill household between them. Their approximately 27-year age gap fits fatherhood better than an ordinary sibling interval. However, the transcription defines field 17 as the year of first marriage and gives John 1791. Robert’s census-implied birth about 1778–1779 precedes that by roughly twelve years. Earlier fatherhood would therefore require nonmarital fatherhood, incomplete reporting or a wrong age/date; none is established. Locality, surname, farming and generation also fit collateral kin. John remains the leading named local father comparison, while an unidentified father is more likely overall.",
+    "reason": "John Glasgow-1022 is an unselected father candidate for the Glenleslie Robert represented within Glasgow-1367, assessed at 18% subjective confidence. The 1851 transcription places Antrim-born Glasgow farmers John, reported 99, and Robert, 72, in Glenleslie houses 21 and 23, with the Hamill household between them. Their approximately 27-year age gap fits fatherhood better than an ordinary sibling interval. However, the transcription defines field 17 as the year of first marriage and gives John 1791. Robert’s census-implied birth about 1778–1779 precedes that by roughly twelve years. Earlier fatherhood would therefore require nonmarital fatherhood, incomplete reporting or a wrong age/date; none is established. Locality, surname, farming and generation also fit collateral kin. John remains the leading named local father comparison, while an unidentified father is more likely overall.",
+    "record_scope": "No parent is selected or replaced. The earlier possible but ungraded John comparison is retained as history; 18% is a new individual assessment, not a numerical downgrade from an invented midpoint. No earlier wife, marriage, mother or birth date is supplied. The transcription’s first-marriage field is positive counterevidence, rather than simply an unrecorded earlier union. Robert’s original return records daughter Margaret aged 50 alongside a reported 1803 marriage, so two-year birth/marriage discrepancies occur in this household; that does not explain a twelve-year discrepancy for John. John’s exceptional age 99 also needs checking. John’s original page was not newly inspected; the detailed transcription and Robert’s held original were checked. This concerns the 1851 Glenleslie man only, and does not identify the Lisnagaver tithe occupier, validate attached descendants, propagate fatherhood to probable brother Hugh or establish a DNA pedigree.",
+    "limitations": "No parent is selected or replaced. The earlier possible but ungraded John comparison is retained as history; 18% is a new individual assessment, not a numerical downgrade from an invented midpoint. No earlier wife, marriage, mother or birth date is supplied. The transcription’s first-marriage field is positive counterevidence, rather than simply an unrecorded earlier union. Robert’s original return records daughter Margaret aged 50 alongside a reported 1803 marriage, so two-year birth/marriage discrepancies occur in this household; that does not explain a twelve-year discrepancy for John. John’s exceptional age 99 also needs checking. John’s original page was not newly inspected; the detailed transcription and Robert’s held original were checked. This concerns the 1851 Glenleslie man only, and does not identify the Lisnagaver tithe occupier, validate attached descendants, propagate fatherhood to probable brother Hugh or establish a DNA pedigree.",
+    "source_ids": [
+      "glenleslie-census-john-robert-1851-review"
+    ],
+    "next_test": "Inspect John’s original Glenleslie household 21 return for age and every marriage-year entry, then seek a named-kin or holding-succession record joining him to Robert. Test collateral relationships and the older Alexander comparison separately.",
+    "probability": {
+      "value": 0.18,
+      "basis": "John Glasgow-1022 is an unselected father candidate for the Glenleslie Robert represented within Glasgow-1367, assessed at 18% subjective confidence. The 1851 transcription places Antrim-born Glasgow farmers John, reported 99, and Robert, 72, in Glenleslie houses 21 and 23, with the Hamill household between them. Their approximately 27-year age gap fits fatherhood better than an ordinary sibling interval. However, the transcription defines field 17 as the year of first marriage and gives John 1791. Robert’s census-implied birth about 1778–1779 precedes that by roughly twelve years. Earlier fatherhood would therefore require nonmarital fatherhood, incomplete reporting or a wrong age/date; none is established. Locality, surname, farming and generation also fit collateral kin. John remains the leading named local father comparison, while an unidentified father is more likely overall.",
+      "scope": "No parent is selected or replaced. The earlier possible but ungraded John comparison is retained as history; 18% is a new individual assessment, not a numerical downgrade from an invented midpoint. No earlier wife, marriage, mother or birth date is supplied. The transcription’s first-marriage field is positive counterevidence, rather than simply an unrecorded earlier union. Robert’s original return records daughter Margaret aged 50 alongside a reported 1803 marriage, so two-year birth/marriage discrepancies occur in this household; that does not explain a twelve-year discrepancy for John. John’s exceptional age 99 also needs checking. John’s original page was not newly inspected; the detailed transcription and Robert’s held original were checked. This concerns the 1851 Glenleslie man only, and does not identify the Lisnagaver tithe occupier, validate attached descendants, propagate fatherhood to probable brother Hugh or establish a DNA pedigree.",
+      "source_ids": [
+        "glenleslie-census-john-robert-1851-review"
+      ],
+      "reviewed": "2026-10-22"
+    },
+    "perspectives": {
+      "Glasgow-1367": {
+        "relationship": "father",
+        "status_label": "Unselected uncertain father · 18%",
+        "reason": "John Glasgow-1022 is an unselected father candidate for the Glenleslie Robert represented within Glasgow-1367, assessed at 18% subjective confidence. The 1851 transcription places Antrim-born Glasgow farmers John, reported 99, and Robert, 72, in Glenleslie houses 21 and 23, with the Hamill household between them. Their approximately 27-year age gap fits fatherhood better than an ordinary sibling interval. However, the transcription defines field 17 as the year of first marriage and gives John 1791. Robert’s census-implied birth about 1778–1779 precedes that by roughly twelve years. Earlier fatherhood would therefore require nonmarital fatherhood, incomplete reporting or a wrong age/date; none is established. Locality, surname, farming and generation also fit collateral kin. John remains the leading named local father comparison, while an unidentified father is more likely overall."
+      },
+      "Glasgow-1022": {
+        "relationship": "son",
+        "status_label": "Unselected uncertain son · 18%",
+        "reason": "John Glasgow-1022 is an unselected father candidate for the Glenleslie Robert represented within Glasgow-1367, assessed at 18% subjective confidence. The 1851 transcription places Antrim-born Glasgow farmers John, reported 99, and Robert, 72, in Glenleslie houses 21 and 23, with the Hamill household between them. Their approximately 27-year age gap fits fatherhood better than an ordinary sibling interval. However, the transcription defines field 17 as the year of first marriage and gives John 1791. Robert’s census-implied birth about 1778–1779 precedes that by roughly twelve years. Earlier fatherhood would therefore require nonmarital fatherhood, incomplete reporting or a wrong age/date; none is established. Locality, surname, farming and generation also fit collateral kin. John remains the leading named local father comparison, while an unidentified father is more likely overall."
+      }
+    },
+    "historical_assertions": [
+      {
+        "profile_id": "Glasgow-1367",
+        "claim_id": "C-3178ddecd9b8",
+        "label": "Earlier ungraded possible father comparison",
+        "scope": "Reassessed at 18% after checking the census first-marriage field; not a biological exclusion."
+      }
+    ],
+    "assessment_history": [
+      {
+        "status": "possible",
+        "probability_percent": null,
+        "source_basis": "Saved public dossier before this review",
+        "claim_id": "C-3178ddecd9b8"
+      }
+    ],
+    "provenance": {
+      "original_john_page_newly_inspected": false,
+      "held_robert_original_checked": true,
+      "new_source_discovery": false,
+      "new_father_attachment": false,
+      "live_edit": false
+    },
+    "analysis_links": [
+      {
+        "label": "Glenleslie: fatherhood versus collateral kin",
+        "href": "/branches/lisnagaver-rasharkin/#chapter-glenleslie-john-robert-father-test"
+      }
+    ]
   }
 ]

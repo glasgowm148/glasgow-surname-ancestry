@@ -3919,3 +3919,9 @@ Twenty additional transcripts are recorded under existing people or qualified ca
 
 | [James Glasgow](https://www.wikitree.com/wiki/Glasgow-1238) | OPEN | Explain 92% confident father inference and new court context; cancel earlier proposed downgrade because the existing live confident mark agrees. |
 | [Patrick Glasgow](https://www.wikitree.com/wiki/Glasgow-1440) | OPEN | Add 1712 horse fine and 1715 burlaw appointment; retain 1739 Peter comparison and earlier ancestry separately. |
+
+
+## 22 October 2026 — Glenleslie father comparison
+
+| [Robert Glasgow](https://www.wikitree.com/wiki/Glasgow-1367) | OPEN | Explain unselected John father hypothesis at 18%, with the census first-marriage counterevidence; no parent addition. |
+| [John Glasgow](https://www.wikitree.com/wiki/Glasgow-1022) | OPEN | Retain Robert as an unselected 18% son comparison; no earlier wife, mother or union inferred. |

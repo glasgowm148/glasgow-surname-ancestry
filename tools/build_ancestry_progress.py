@@ -143,7 +143,7 @@ def build(create_baseline=False):
                            'year': nodes[child].get('year'),
                            'analysis_url': next((l['href'] for l in assessment.get('analysis_links', []) if l.get('href')), nodes[child]['url']),
                            'next_test': case.get('next_test') or assessment.get('next_test') or rating_tests.get(impact.get('assertion_id')) or 'Read the family evidence and next question.',
-                           'last_review': case.get('last_test', '')})
+                           'last_review': case.get('last_test') or assessment.get('last_test', '')})
     priorities.sort(key=lambda r: (-r['cross_pairs'], r['child'], r['father']))
     fingerprint = hashlib.sha256(json.dumps({"nodes": nodes, "edges": edges}, sort_keys=True).encode()).hexdigest()
     baseline_path = WORK / "baseline-2026-10-15.json"

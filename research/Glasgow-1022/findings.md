@@ -11,6 +11,8 @@ people and every census detail were retained.
 
 ## Current conclusion
 
+Reviewed 22 October 2026. The Glenleslie John–Robert father comparison is individually assessed at **18%, uncertain and unselected**. The census transcription’s first-marriage field is a substantive counterweight. [Current comparison](/branches/lisnagaver-rasharkin/#chapter-glenleslie-john-robert-father-test).
+
 ### Collateral update, 13 August 2026
 
 Two new original civil records extend the family without solving John's own
@@ -385,3 +387,13 @@ Scope: Uncertain27%; the older man’s c 1705 birth is an estimate, not an indep
 Next useful test: Seek a Ballyboggy–Glenleslie succession or named-kin link.
 
 This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
+
+## Glenleslie father comparison — 22 October 2026
+
+John Glasgow-1022 is an unselected father candidate for the Glenleslie Robert represented within Glasgow-1367, assessed at 18% subjective confidence. The 1851 transcription places Antrim-born Glasgow farmers John, reported 99, and Robert, 72, in Glenleslie houses 21 and 23, with the Hamill household between them. Their approximately 27-year age gap fits fatherhood better than an ordinary sibling interval. However, the transcription defines field 17 as the year of first marriage and gives John 1791. Robert’s census-implied birth about 1778–1779 precedes that by roughly twelve years. Earlier fatherhood would therefore require nonmarital fatherhood, incomplete reporting or a wrong age/date; none is established. Locality, surname, farming and generation also fit collateral kin. John remains the leading named local father comparison, while an unidentified father is more likely overall.
+
+No parent is selected or replaced. The earlier possible but ungraded John comparison is retained as history; 18% is a new individual assessment, not a numerical downgrade from an invented midpoint. No earlier wife, marriage, mother or birth date is supplied. The transcription’s first-marriage field is positive counterevidence, rather than simply an unrecorded earlier union. Robert’s original return records daughter Margaret aged 50 alongside a reported 1803 marriage, so two-year birth/marriage discrepancies occur in this household; that does not explain a twelve-year discrepancy for John. John’s exceptional age 99 also needs checking. John’s original page was not newly inspected; the detailed transcription and Robert’s held original were checked. This concerns the 1851 Glenleslie man only, and does not identify the Lisnagaver tithe occupier, validate attached descendants, propagate fatherhood to probable brother Hugh or establish a DNA pedigree.
+
+Next useful test: Inspect John’s original Glenleslie household 21 return for age and every marriage-year entry, then seek a named-kin or holding-succession record joining him to Robert. Test collateral relationships and the older Alexander comparison separately.
+
+Source: [1851 census detailed transcription, field definitions PDF page 1 and Glenleslie households 21–23 PDF page 103](https://durrushistory.com/wp-content/uploads/2012/10/1851irishcensusreturnscommadelimitedtextfilejul24_071.pdf#page=103). The underlying Robert return is [National Archives of Ireland, Glenleslie household 23](https://nationalarchives.ie/collections/search-the-census/census-record/#id=31234&census_year=1851). [Full comparison](/branches/lisnagaver-rasharkin/#chapter-glenleslie-john-robert-father-test).

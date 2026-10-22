@@ -30206,5 +30206,27 @@
     },
     "note": "Compatible parallel citation to held-e-b03c42bdcb41; not an independent baptism or new event discovery.",
     "provenance": "research/ancestry-connections/stichill-strength-review-2026-10-22.json"
+  },
+  {
+    "record_id": "glenleslie-census-john-robert-1851-review",
+    "record_type": "Census transcription and held original comparison",
+    "date": "1851",
+    "place": "Glenleslie, Dunaghy, County Antrim, Ireland",
+    "association": "Household 21: John Glasgow, 99, farmer, Antrim-born, marriage year 1791. Household 23: Robert Glasgow, 72, farmer, Antrim-born, marriage year 1803. The transcription defines field 17 as first-marriage year. Neither entry states kinship between the heads.",
+    "source_title": "1851 Irish Census Returns, detailed comma-delimited transcription, field definitions PDF page 1 and Glenleslie households 21–23 PDF page 103",
+    "source_url": "https://durrushistory.com/wp-content/uploads/2012/10/1851irishcensusreturnscommadelimitedtextfilejul24_071.pdf#page=103",
+    "source_type": "Named transcription; same census, not an independent second witness",
+    "source_status": "Text and field definitions checked 22 October 2026; Robert’s held original also inspected, John’s original not newly inspected",
+    "status": "Recorded household facts; father relationship unproved",
+    "profiles": {
+      "Glasgow-1022": {
+        "role": "Named head of household 21; not named as Robert’s father"
+      },
+      "Glasgow-1367": {
+        "role": "Named head of household 23; Glenleslie identity only"
+      }
+    },
+    "note": "The first-marriage field strengthens the counterevidence to fatherhood. Do not invent an earlier wife or promote household sequence into a parent clause.",
+    "provenance": "research/ancestry-connections/glenleslie-candidate-review-2026-10-22.json"
   }
 ]
