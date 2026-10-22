@@ -11,6 +11,33 @@ spec.loader.exec_module(module)
 
 
 class ResolvedDossierTests(unittest.TestCase):
+    def test_shared_review_skips_incomplete_retired_redirect(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            subject = {'id': 'Person-1', 'relationships': {'parents': [
+                {'id': 'Parent-2', 'relationship': 'father'}]}, 'claims': []}
+            stub = {'id': 'Person-1', 'status': 'superseded',
+                    'redirect_to': '/people/person-1.json', 'relationships': {}}
+            assertion = {'assertion_id': 'parent-review',
+                         'people': ['Person-1', 'Parent-2'],
+                         'publication_status': 'approved', 'status': 'probable',
+                         'allow_new_relationship': False, 'source_ids': ['record'],
+                         'perspectives': {'Person-1': {'relationship': 'father',
+                                                      'reason': 'The record names the father.'}}}
+            files = {'people/person-1.json': subject,
+                     'people/record-retired.json': stub,
+                     'assets/research/assessments.json': {'assessments': []},
+                     'assets/research/relationship-assessments.json': [assertion]}
+            for name, value in files.items():
+                path = root / name
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_text(json.dumps(value))
+            original_stub = (root / 'people/record-retired.json').read_bytes()
+            module.publish(root)
+            published = json.loads((root / 'people/person-1.json').read_text())
+            self.assertEqual('parent-review', published['relationships']['parents'][0]['claim_id'])
+            self.assertEqual(original_stub, (root / 'people/record-retired.json').read_bytes())
+
     def test_new_spouse_point_estimate_reaches_dossier_and_catalogue(self):
         import sys
         probability = sys.modules[module.probability_for_relationship.__module__]

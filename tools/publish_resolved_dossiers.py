@@ -497,6 +497,10 @@ def publish(root=ROOT / 'www'):
         if path.name.endswith('.network.json'):
             continue
         original = json.loads(path.read_text())
+        # Retired record subjects carry the canonical person's ID but only a
+        # redirect, not that person's complete family. Resolve the real dossier.
+        if original.get('redirect_to'):
+            continue
         resolved = resolve(original, assessments, shared)
         # A superseded record subject's redirect stub carries the id of the
         # person it now points to; only that person's own dossier feeds the
