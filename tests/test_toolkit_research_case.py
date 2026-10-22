@@ -346,10 +346,11 @@ class TranslatorTests(unittest.TestCase):
         c.add(Finding(id="f-2", conclusion="Reviewed already.", status="reviewed", related_ids=[person_id("Fable-2")],
                       changes=[{"record_id": "one-tree:relationship:Fable-2:father", "after": "probable"}], sensitivity=Sensitivity.PUBLIC))
         t = Translator(c, private=lambda text: False)
-        t.significance([{"catalogue_id": "fable-2", "profile_ids": ["Fable-2"], "needs_wikitree_update": True, "wikitree_update_significance": 55},
-                        {"catalogue_id": "fable-1", "profile_ids": ["Fable-1"], "needs_wikitree_update": False, "wikitree_update_significance": 90}])
+        t.significance({"entries": {"Fable-2": {"significance": 55, "status": "OPEN"}, "Fable-1": {"significance": 90, "status": "DONE"},
+                                    "Fable-3": {"significance": 70, "status": "OPEN"}, "Nobody-1": {"significance": 80, "status": "OPEN"}},
+                        "completed_live_profiles": {"Fable-3": "2026-10-01"}})
         findings = {f.id: f for f in c.records("Finding")}
-        self.assertEqual(55, findings["f-1"].changes[0]["significance"])  # the person still to update, not the reviewed finding
+        self.assertEqual(55, findings["f-1"].changes[0]["significance"])  # Fable-2 is still open; Fable-1 is done, Fable-3 completed live
         self.assertNotIn("significance", findings["f-2"].changes[0])
         self.assertEqual([], validate_case(c))
 

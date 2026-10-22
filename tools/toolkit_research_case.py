@@ -87,6 +87,7 @@ DEFAULT_PROJECT = ROOT / "data/private/toolkit-build"
 PROFILE_OVERRIDES = ROOT / "data/wikitree/live-profile-overrides.json"
 # The branch stories Glasgow's Families & branches pages tell (read-only).
 STORIES = ROOT / "tools/study_stories"
+UPDATE_QUEUE = ROOT / "data/wikitree/profile-update-queue.json"  # local: the updates still to make on WikiTree, ranked
 DNA_LINES = ROOT / "www/ydna/lines.json"  # public: each anchor person's branch and how they are attached
 DNA_MODEL = ROOT / "data/private/withheld-public-assets/ydna/glasgow-ydna-story-source/data.json"  # the approved branch model
 PUBLIC = Sensitivity.PUBLIC
@@ -560,23 +561,23 @@ class Translator:
 
 
     # -- branch stories ------------------------------------------------------
-    def significance(self, people) -> None:
-        """Each pending change's ``significance`` from the catalogue's ``wikitree_update_significance``.
+    def significance(self, queue: dict) -> None:
+        """Each pending change's ``significance`` from Glasgow's profile-update queue.
 
-        Glasgow ranks the profiles still to update on WikiTree; the workbench
-        sorts its catalogue by the same figure, carried onto every change a
-        finding still to be reviewed or applied makes to one of that person's
-        links.
+        ``queue`` is the local ``data/wikitree/profile-update-queue.json``: its
+        ``entries`` map a profile to an update still to make on WikiTree, with
+        the significance Glasgow ranks it by. The figure is carried onto every
+        change a finding still to be reviewed or applied makes to one of that
+        person's links; a profile already completed live is skipped.
         """
+        done = {str(k).casefold() for k in (queue.get("completed_live_profiles") or {})}
         weight: dict[str, int] = {}
-        for row in people:
-            n = int(row.get("wikitree_update_significance") or 0)
-            if n <= 0 or not row.get("needs_wikitree_update"):
+        for profile, entry in (queue.get("entries") or {}).items():
+            n = int((entry or {}).get("significance") or 0)
+            status = str((entry or {}).get("status") or "").casefold()
+            if n <= 0 or status.startswith(("done", "applied", "verified")) or str(profile).casefold() in done or not self.known(profile):
                 continue
-            for key in [*row.get("profile_ids", []), row.get("catalogue_id")]:
-                pid = self.pid(key) if key and self.known(key) else None
-                if pid:
-                    weight[pid] = max(weight.get(pid, 0), min(n, 100))
+            weight[self.pid(profile)] = max(weight.get(self.pid(profile), 0), min(n, 100))
         ends = {r.id: (r.subject_id, r.object_id) for r in self.case.records("Relationship")}
         for finding in self.case.records("Finding"):
             if str(finding.status or "").casefold() in ("reviewed", "applied"):
@@ -918,7 +919,8 @@ def build_case(project: Path, *, one_tree: Path = ONE_TREE, research: Path = RES
     t.notes(research, lambda profile: _load_research_findings([profile]))
     if STORIES.exists():
         t.stories(STORIES)
-    t.significance(rows)
+    if UPDATE_QUEUE.exists():
+        t.significance(json.loads(UPDATE_QUEUE.read_text(encoding="utf-8")))
     if DNA_LINES.exists():
         t.dna(DNA_LINES, DNA_MODEL if DNA_MODEL.exists() else None)
     with (project / "genealogy.toml").open("a", encoding="utf-8") as handle:
