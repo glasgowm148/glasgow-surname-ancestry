@@ -213,7 +213,7 @@ class TranslatorTests(unittest.TestCase):
                      "record_target": "Invented register, 1801", "resolves": "An entry naming both parents.", "status": "Archive access required"},
                     {"what": "Read the invented will.", "tests": "Tests the heirs.", "matters": "", "status": "Completed; heirs named"},
                     {"what": "Ask about Hidden-9.", "tests": "", "matters": "", "status": "Open"}],
-                    "completed_searches": [{"date": "2026-09-01", "search": "Invented  index,\n1790-1810", "result": " Nothing found. "},
+                    "completed_searches": [{"date": "2026-09-01", "search": "Invented  index,\n1790-1810", "result": " Nothing found. ", "limitation": "Index only;  images not checked."},
                                            {"date": "2026-09-02", "search": "Invented roll", "result": "Only Hidden-9 listed."},
                                            {"date": "September 2026", "search": "Invented census", "result": "Not listed."}]},
                 "Nobody-9": {"research_tasks": [{"what": "Find Nobody.", "tests": "", "matters": "", "status": "Open"}],
@@ -238,7 +238,9 @@ class TranslatorTests(unittest.TestCase):
         found = searches["glasgow:search:Fable-1:1"]
         self.assertEqual(("Invented index, 1790-1810", "Nothing found.", "2026-09-01", [person_id("Fable-1")], Sensitivity.PUBLIC),
                          (found.search, found.result, found.searched_on, found.related_ids, found.sensitivity))
+        self.assertEqual("Index only; images not checked.", found.limitation)
         self.assertIsNone(searches["glasgow:search:Fable-1:3"].searched_on)  # not an ISO date
+        self.assertIsNone(searches["glasgow:search:Fable-1:3"].limitation)
         self.assertEqual(1, t.gaps["completed searches naming a withheld profile"])
         self.assertEqual(1, t.gaps["completed searches about people who are not public"])
         self.assertNotIn("completed searches (the workbench has no search record)", t.gaps)

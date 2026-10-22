@@ -582,8 +582,8 @@ class Translator:
             self.gaps["completed searches about people who are not public"] += len(rows)
             return
         for n, row in enumerate(rows, 1):
-            search, result = (" ".join(str(row.get(key) or "").split()) for key in ("search", "result"))
-            if self.private(search) or self.private(result):
+            search, result, limit = (" ".join(str(row.get(key) or "").split()) for key in ("search", "result", "limitation"))
+            if self.private(search) or self.private(result) or self.private(limit):
                 self.gaps["completed searches naming a withheld profile"] += 1
                 continue
             if not search or not result:
@@ -592,7 +592,7 @@ class Translator:
             when = str(row.get("date") or "").strip()
             when = when if iso_date(when) else None
             self.case.add(Search(id=f"glasgow:search:{profile}:{n}", search=search, result=result,
-                                 related_ids=[self.pid(profile)], searched_on=when, sensitivity=PUBLIC))
+                                 related_ids=[self.pid(profile)], searched_on=when, limitation=limit or None, sensitivity=PUBLIC))
             self.report["completed searches in the research log" + ("" if when else " (undated)")] += 1
 
 

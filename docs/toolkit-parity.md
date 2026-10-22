@@ -16,7 +16,7 @@ Classes used below:
 
 ## Matrix
 
-| Capability | Glasgow site | Workbench 0.6.0 | Class |
+| Capability | Glasgow site | Workbench 0.8.0 | Class |
 | --- | --- | --- | --- |
 | People catalogue, search and filters | Name, relative, date, place and evidence filters; worker search shards | Search across names, relatives, places and events; surname, year-range and evidence filters; sort; pagination. Past 300 people the page writes its first 100 and pages the rest; the search covers everyone | Reusable. Sharded search indexes are only needed well beyond about 5,000 people. |
 | Person dossiers | Resolved model, family, evidence labels, conclusions, open questions | Names, life dates, family (parents, partners and marriages, children, siblings), events, claims with citations and evidence, linked research | Reusable. Written conclusions need research (`Finding` records). |
@@ -92,9 +92,9 @@ development release after 0.6.0:
   "Completed" is resolved; the rest stay open;
 - with workbench 0.8.0 (since 22 October 2026), the `completed_searches` in
   the same file as `Search` records in the research log, about that person:
-  the search and its result as written, and the date as `searched_on` when
-  it is an ISO date. A search about a person who is not public, or naming a
-  withheld profile, is left out;
+  the search and its result as written, the date as `searched_on` when
+  it is an ISO date, and its `limitation` when one is recorded. A search about
+  a person who is not public, or naming a withheld profile, is left out;
 - Glasgow's surname variants as `[names.variants]`, grouped under Glasgow;
 - the extra profile IDs of a merged catalogue person, and WikiTree merge
   redirects where the local overrides file is present, as `former_ids` of
