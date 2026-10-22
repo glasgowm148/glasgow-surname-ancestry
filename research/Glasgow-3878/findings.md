@@ -4,6 +4,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **99% (proved)** for [Glasgow-1075](https://www.wikitree.com/wiki/Glasgow-1075). Recorded Margaret→Robert the surgeon; no exact date resolution. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 <!-- site-audit-2026-10-07:overall-conclusion -->
 Margaret Glasgow was the daughter of Robert Glasgow, surgeon, and Margaret Allan, baptised at Kilbirnie, Ayrshire; Findmypast indexes her baptism twice in the same register, on 21 August 1743 and on 21 January 1744. The profile's 21 August 1743 date cites a Scotland's People entry, and neither original entry has been read. A September 2026 audit treated the two rows as one child, reasoning that a second daughter of the same parents five months later was impossible; that is an inference from the dates, not a record comparison, so the date remains in conflict until the register pages are compared.
 
@@ -48,3 +50,17 @@ The Findmypast audit of 6 September 2026 judged that a second daughter of the sa
 Next record: compare the entries on Findmypast pages 102 and 81 of OPR 596/1 to establish which date is right, or whether the January 1744 row is a later or duplicate entry. The page-81 row lies near the page-79 entry for John, son of the same parents (Glasgow-3006), whose Findmypast year also differs from his profile by one.
 
 Recorded in `research/findmypast-glasgow-audit/hold-identity-resolution-2026-09-06.md` (6 September 2026) and its override in `research/findmypast-glasgow-audit/catalogue-integration-overrides.json`; carried into this file on 7 October 2026.
+
+## Father confidence review, seventh batch — 22 October 2026
+
+[Glasgow-1075](https://www.wikitree.com/wiki/Glasgow-1075) remains the selected father, assessed **99% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+Both conflicting baptism rows name the same specific surgeon and Allan couple; uncertainty over the event date does not weaken this father identification.
+
+Scope: Recorded Margaret→Robert the surgeon; no exact date resolution.
+
+Next useful test: Compare OPR596/1 pp81,102 to resolve date/entry identity.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Margaret Glasgow, 21 Aug 1743, record SCOT/OPR/BAP/3586849](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3586849&tab=this); [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Margaret Glasgow, 21 Jan 1744, record SCOT/OPR/BAP/3586603](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3586603&tab=this)

@@ -4,6 +4,8 @@ Last updated: 2026-09-04
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **99% (proved)** for [Glasgow-2467](https://www.wikitree.com/wiki/Glasgow-2467). Named child to the specific adult family role represented by the selected father; independent earlier ancestry is outside this assessment. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 The Findmypast transcript distinguishes Andrew Glasgow's birth on 24 October
 1746 from his baptism on 26 October 1746 at Kilwinning. It names his parents as
 [John Glasgow (Glasgow-2467)](https://www.wikitree.com/wiki/Glasgow-2467) and
@@ -71,3 +73,17 @@ Only the initial A. is given. The list probably names a shipmaster, but it does 
 
 This may concern [Glasgow-2468](https://www.wikitree.com/wiki/Glasgow-2468). Adult in 1794 with an Ayrshire locality; no maritime occupation, Rotterdam link, or identifying family context is recorded.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, seventh batch — 22 October 2026
+
+[Glasgow-2467](https://www.wikitree.com/wiki/Glasgow-2467) remains the selected father, assessed **99% (proved)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+Andrew’s transcript names John Glasgow and Mary Auld at Town, Kilwinning, with distinct birth/baptism dates; James’s subsequent entry independently repeats this exact adult couple.
+
+Scope: Named child to the specific adult family role represented by the selected father; independent earlier ancestry is outside this assessment.
+
+Next useful test: Read the original Kilwinning child entries for exact wording and residence; upstream John-2464 identity is a separate test.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Andrew Glasgow, 26 Oct 1746, record SCOT/OPR/BAP/3628386](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3628386&tab=this); [The baptism is also indexed in the Kilwinning church registers held by ScotlandsPeople. Kilwinning parish baptism record for Andrew Glasgow, 26 Oct 1746, ScotlandsPeople, church registers, parish 599, reference 20/93.](https://www.wikitree.com/wiki/Glasgow-2468)

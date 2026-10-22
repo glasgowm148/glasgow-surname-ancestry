@@ -4,6 +4,8 @@ Last updated: 2026-09-04
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **89% (probable)** for [Glasgow-1410](https://www.wikitree.com/wiki/Glasgow-1410). Complete selected father-profile proposition; recorded role and adult identification distinguished below. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 The Findmypast parish transcript records Michael Glasgow's birth at Irvine on
 19 November 1741 and baptism there on 22 November. It names his father as
 Michael Glasgow, matching the structured father
@@ -52,3 +54,17 @@ The transcript-validated baptism record for **Michael Glasgow**, 22 Nov 1741, Ir
 
 Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
 <!-- END FMP-GLASGOW-fmp-glasgow-7a187aa7713d -->
+
+## Father confidence review, seventh batch — 22 October 2026
+
+[Glasgow-1410](https://www.wikitree.com/wiki/Glasgow-1410) remains the selected father, assessed **89% (probable)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+Michael’s 1741 entry names Michael Glasgow; nearby 1744 and 1747 entries identify Michael/Mary Crauford, supporting one adult family. Identifying that adult with the 1712 child remains inferred.
+
+Scope: Complete selected father-profile proposition; recorded role and adult identification distinguished below.
+
+Next useful test: Compare original entries and seek Michael/Mary’s marriage or adult residence continuity.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Michael Glasgow, 22 Nov 1741, record SCOT/OPR/BAP/3575088](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3575088&tab=this)

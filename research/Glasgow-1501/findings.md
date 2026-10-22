@@ -7,6 +7,8 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **98% (proved)** for [Glasgow-1143](https://www.wikitree.com/wiki/Glasgow-1143). Named child to the specific adult family role represented by the selected father; independent earlier ancestry is outside this assessment. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 A derivative congregation-register chronology records Rachel born 8 November
 1738 to Robert Glasgow and Rachel Wilson. The 1817 equity pleading says her mother
 died in 1742 leaving only James and Ann, strongly suggesting this younger Rachel
@@ -34,3 +36,17 @@ Profile prose and trees remain leads; inspect the cited record before treating a
 ### External source links present
 
 - None detected outside WikiTree and sponsored Ancestry links.
+
+## Father confidence review, seventh batch — 22 October 2026
+
+[Glasgow-1143](https://www.wikitree.com/wiki/Glasgow-1143) remains the selected father, assessed **98% (proved)**. Previous selected-tree status: **strongly_supported**, without an individual percentage.
+
+The derivative congregation chronology explicitly records Rachel born 8 November 1738 to Robert and Rachel. Deed/equity context identifies this adult Robert household; omission among the 1742 survivors concerns survival, not fatherhood.
+
+Scope: Named child to the specific adult family role represented by the selected father; independent earlier ancestry is outside this assessment.
+
+Next useful test: Inspect PRONI MIC/1B/6 Rachel’s 1738 entry and distinguish birth from baptism.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Larne/Kilwaughter congregation register chronology](https://web.archive.org/web/20101124184247id_/http://lifesweaving.com/Glasgow/Kilwaughter/Timeline.html); [1817 equity complaint transcription (https://web.archive.org/web/20101124184247 id_/http://www.lifesweaving.com/Glasgow/Paper_Complaint.html), stating that Rachel Glasgow died in 1742 leaving James and Ann.](https://web.archive.org/web/20101124184247id_/http://www.lifesweaving.com/Glasgow/Paper_Complaint.html)

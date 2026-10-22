@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **87% (probable)** for [Glasgow-1410](https://www.wikitree.com/wiki/Glasgow-1410). Complete selected father-profile proposition; recorded role and adult identification distinguished below. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 The 1749 Irvine Findmypast baptism belongs on [Katharine Glasgow
 (Glasgow-1417)](https://www.wikitree.com/wiki/Glasgow-1417), not on a new
 profile. The uncommon child name, parish, year and father Michael agree with
@@ -46,3 +48,17 @@ The transcript-validated baptism record for **Katherine Glasgow**, 03 Sep 1749, 
 
 Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
 <!-- END FMP-GLASGOW-fmp-glasgow-d3c5be859131 -->
+
+## Father confidence review, seventh batch — 22 October 2026
+
+[Glasgow-1410](https://www.wikitree.com/wiki/Glasgow-1410) remains the selected father, assessed **87% (probable)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+Katherine’s uncommon name, parish, year and father Michael align with the 1741–1747 household. The month conflict does not imply another father, but her entry omits a mother and the 1712 adult bridge remains inferred.
+
+Scope: Complete selected father-profile proposition; recorded role and adult identification distinguished below.
+
+Next useful test: Compare original p.66 and the earlier family residences.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Katherine Glasgow, 03 Sep 1749, record SCOT/OPR/BAP/3575702](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3575702&tab=this)

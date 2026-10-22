@@ -8,6 +8,8 @@ Last updated: 2026-10-07
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **34% (possible)** for [Glasgow-1509](https://www.wikitree.com/wiki/Glasgow-1509). Complete selected father-profile proposition; recorded role and adult identification distinguished below. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 James Glasgow of Larne appears in a December 1830 freehold-registration application for houses and land worth £10 yearly. Glasgow-3986 is a possible match only (lowered from 'strong compatible' by the newspaper identity review of 6 October 2026, below, because a second Larne-born adult James, who died at Demerara in 1839, cannot be excluded), and no record joins the applicant to the provisional 1795 merchant / 1797 junior sequence or establishes his parents or children. The Larne–Lisnagaver link remains unproved.
 
 [Compare the Larne, Inishrush and American family reconstruction](/people/glasgow-951.html#larne-reconstruction), including the alternative immediate-parent routes and their source tests.
@@ -180,3 +182,17 @@ James Glasgow was plaintiff against Maxwell Lepper and Clotworthy Dobbin in a Co
 
 The Larne merchant is a compatible candidate for the Belfast grocer. The two towns’ business associations are not mutually exclusive, but no family or deed yet proves the identification. Rosemary Street numbers 20, 2 and 32 in the directory/advertisement transcriptions remain unreconciled. The plaintiff is the least securely joined part of the cluster.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, seventh batch — 22 October 2026
+
+[Glasgow-1509](https://www.wikitree.com/wiki/Glasgow-1509) remains the selected father, assessed **34% (possible)**. Previous selected-tree status: **possible**, without an individual percentage.
+
+The later Larne James’s reported 1773 birth fits the older ropemaker’s 1762 marriage better than William’s circa-1708 generation. No held record names his father and the chronology’s stone attribution is inconsistent.
+
+Scope: Complete selected father-profile proposition; recorded role and adult identification distinguished below.
+
+Next useful test: Recover the alleged shared stone or a 1773 baptism and trace lease heirs.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Larne/Kilwaughter congregation register chronology](https://web.archive.org/web/20101124184247id_/http://lifesweaving.com/Glasgow/Kilwaughter/Timeline.html)

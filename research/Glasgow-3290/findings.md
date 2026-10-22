@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **94% (proved)** for [Glasgow-2868](https://www.wikitree.com/wiki/Glasgow-2868). Named child to the specific adult family role represented by the selected father; independent earlier ancestry is outside this assessment. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 <!-- site-audit-2026-10-07:overall-conclusion -->
 James Glasgow was recorded as the son of James Glasgow (Glasgow-2868) and Ann Hartshorne (Hartshorne-320) of Cecil County, Maryland, born there in 1758 and died in 1789; both dates are uncertain. He was possibly the James Glasgow 'living at Christiana Bridge' who advertised a tanyard in the borough of Wilmington, Delaware, in March 1785, a place near the family's Cecil County home, but his profile has no Delaware, tanning or property record, so the match is unproved. A 1782 Christiana Bridge tanyard notice and name-only entries in a Lancaster letter list of 1773 and a Carlisle list of 1795 have been set aside as not identifying him.
 
@@ -86,3 +88,17 @@ The 1785 notice explicitly says State of Delaware. Neither notice proves that th
 
 This may concern [Glasgow-3290](https://www.wikitree.com/wiki/Glasgow-3290). Uncertain 1758 Cecil Maryland birth permits an adult advertiser in 1782; no tanyard, Whitlock or Christiana Bridge identification.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, seventh batch — 22 October 2026
+
+[Glasgow-2868](https://www.wikitree.com/wiki/Glasgow-2868) remains the selected father, assessed **94% (proved)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+The held Cecil probate-family summary names James among James Sr./Ann’s children, consistent with this child’s local 1758–1789 account. The Christiana Bridge advertisements do not prove this identity or parentage.
+
+Scope: Named child to the specific adult family role represented by the selected father; independent earlier ancestry is outside this assessment.
+
+Next useful test: Inspect James Sr.’s 1784 Cecil probate and children’s estate/guardianship papers behind MSA SC 3520-17195.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Maryland State Archives,Samuel Glasgow,MSA SC 3520-17195,Owen Lourie 2016: authored probate summary,read 16 October 2026; original wills not inspected](https://msa.maryland.gov/megafile/msa/speccol/sc3500/sc3520/017100/017195/html/17195bio.html)

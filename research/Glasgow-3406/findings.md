@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **81% (probable)** for [Glasgow-3314](https://www.wikitree.com/wiki/Glasgow-3314). Complete selected father-profile proposition, with identity limits below. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 One West Calder baptism on 15 July 1770 names John Glasgow and Margaret Mill, matching the existing child. These transcripts give 15 July as baptism, not an explicit birth date. The catalogue currently displays an exact 15 July birthday; its independent birth-date basis still needs checking before that precision is retained or corrected. The 1810 Edinburgh burial is only a weaker comparison: this child would be 40 against the recorded 32. No death or Geo Smart marriage is assigned.
 
 <!-- BEGIN FMP-BIRTH-SCOPE-PAGE2-20261022 -->
@@ -18,3 +20,17 @@ Agnes Glasgow was buried 6 November 1810 at Edinburgh, age 32, described as Spou
 
 The provider transcripts were inspected on 22 October 2026; original register images were not inspected. [Shared record review](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
 <!-- END FMP-BIRTH-SCOPE-PAGE2-20261022 -->
+
+## Father confidence review, seventh batch — 22 October 2026
+
+[Glasgow-3314](https://www.wikitree.com/wiki/Glasgow-3314) remains the selected father, assessed **81% (probable)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+Agnes’s held 1770 transcripts explicitly name John and Margaret Mill, matching the established West Calder household. The father profile’s separate 1740 Irvine childhood identification still requires a bridge.
+
+Scope: Complete selected father-profile proposition, with identity limits below.
+
+Next useful test: Inspect John/Margaret Mill’s marriage or adult probate for birthplace/age or witnesses connecting John to Irvine.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: ["Scotland, Births and Baptisms, 1564-1950", database, FamilySearch (https://familysearch.org/ark:/61903/1:1:VQ4T-N52 : 12 February 2020), Agnes Glasgow, 1770.](https://familysearch.org/ark:/61903/1:1:VQ4T-N52)

@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **97% (proved)** for [Glasgow-1348](https://www.wikitree.com/wiki/Glasgow-1348). Recorded 1791 child→John of Helen Smith adult household, not his proposed childhood. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 The Barony baptism on 20 March 1791 names Agnes Glasgow, John Glasgow and Helen Smith, matching the existing child. The transcript explicitly labels Sex Male. Preserve that conflicting field for original-register review; do not silently change the subject’s sex or create another Agnes. The reported 1791 birth year and a baptism boundary are separate claims. Two 1812 age-25 Paisley/Abbey entries remain possible later-life comparisons, with their separate date roles and indexed-birth discrepancy retained. No burial identity or death is assigned.
 
 <!-- BEGIN FMP-BIRTH-SCOPE-PAGE2-20261022 -->
@@ -18,3 +20,17 @@ Two age-25 Agnes Glasgow entries concern Paisley/Abbey in 1812. OPR 559/5 item 2
 
 The provider transcripts were inspected on 22 October 2026; original register images were not inspected. [Shared record review](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
 <!-- END FMP-BIRTH-SCOPE-PAGE2-20261022 -->
+
+## Father confidence review, seventh batch — 22 October 2026
+
+[Glasgow-1348](https://www.wikitree.com/wiki/Glasgow-1348) remains the selected father, assessed **97% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+Inspected 1791 Barony transcript explicitly names John Glasgow and Helen Smith, matching theadult family that 1348 represents. Competing John childhood profiles concern ancestry rather than this adult role.
+
+Scope: Recorded 1791 child→John of Helen Smith adult household, not his proposed childhood.
+
+Next useful test: Compare original 1791 entry for sex andparents; resolveJohn’sorigin separately.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [https://www.familysearch.org/ark:/61903/1:1:X176-K2J](https://www.familysearch.org/ark:/61903/1:1:X176-K2J)

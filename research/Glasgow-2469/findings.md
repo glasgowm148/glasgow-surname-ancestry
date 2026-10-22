@@ -4,6 +4,8 @@ Last updated: 2026-09-04
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **99% (proved)** for [Glasgow-2467](https://www.wikitree.com/wiki/Glasgow-2467). Named child to the specific adult family role represented by the selected father; independent earlier ancestry is outside this assessment. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 The Findmypast transcript distinguishes James Glasgow's birth on 12 August
 1750 from his baptism on 19 August 1750 at Kilwinning. It names his parents as
 [John Glasgow (Glasgow-2467)](https://www.wikitree.com/wiki/Glasgow-2467) and
@@ -43,3 +45,17 @@ The transcript-validated baptism record for **James Glasgow**, 19 Aug 1750, Kilw
 
 Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
 <!-- END FMP-GLASGOW-fmp-glasgow-87dec04eeb63 -->
+
+## Father confidence review, seventh batch — 22 October 2026
+
+[Glasgow-2467](https://www.wikitree.com/wiki/Glasgow-2467) remains the selected father, assessed **99% (proved)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+James’s transcript names John Glasgow and Mary Auld at Byres, repeating Andrew’s exact parental pair and Kilwinning setting. This adult father account is defined by those child records, with ancestry independently tentative.
+
+Scope: Named child to the specific adult family role represented by the selected father; independent earlier ancestry is outside this assessment.
+
+Next useful test: Read the original Kilwinning child entries for exact wording and residence; upstream John-2464 identity is a separate test.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: James Glasgow, 19 Aug 1750, record SCOT/OPR/BAP/3628676](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3628676&tab=this)

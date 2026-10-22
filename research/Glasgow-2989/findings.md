@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **19% (uncertain)** for [Glasgow-2988](https://www.wikitree.com/wiki/Glasgow-2988). Complete selected father-profile proposition; recorded role and adult identification distinguished below. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 The original 1766 Derryloran return is now verified. It lists **two** James
 Glasgow householders, both at Drumearn. It does not identify which, if either,
 is this profile or state that
@@ -66,3 +68,17 @@ townland used in the 1766 Derryloran return.
 The dates and district are compatible with this profile's estimated generation,
 but no record bridges the 1766 householder to the 1820 estate. Keep both entries
 as one candidate estate rather than assigning them as proved events.
+
+## Father confidence review, seventh batch — 22 October 2026
+
+[Glasgow-2988](https://www.wikitree.com/wiki/Glasgow-2988) remains the selected father, assessed **19% (uncertain)**. Previous selected-tree status: **uncertain**, without an individual percentage.
+
+Two 1766 Drumearn James householders permit an older/younger model, but neither is identified with 2988/2989 and no ages or kin are given. The profile dates partly encode the hypothesis itself.
+
+Scope: Complete selected father-profile proposition; recorded role and adult identification distinguished below.
+
+Next useful test: Find a lease or testament with both James men and explicit kin.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [National Archives of Ireland, Parliamentary Return 665, 1766 religious census for Derryloran, IHP/1/665, original return and transcription (https://virtualtreasury.ie/item/NAI-IHP-1-665), accessed 17 July 2026; independently transcribed in RCB Library MS 23, pp. 162–163.](https://virtualtreasury.ie/item/NAI-IHP-1-665)

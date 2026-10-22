@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **64% (probable)** for [Glasgow-1321](https://www.wikitree.com/wiki/Glasgow-1321). Complete selected father-profile proposition; recorded role and adult identification distinguished below. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 <!-- site-audit-2026-10-07:overall-conclusion -->
 Andrew Glasgow is recorded on the family tree as born in Edinburgh before 5 January 1776, an uncertain date, and no record in this file yet documents his life. Newspaper notices of 1779 and 1790 naming an Andrew Glasgow at Leith, as preses for the porters and as a merchant in Kirkgate, were considered for this profile and withdrawn on 6 October 2026, because no WikiTree Andrew can be fixed to them.
 
@@ -41,3 +43,17 @@ The grouped annotation "Preses to" does not independently identify Andrew’s so
 
 This may concern [Glasgow-1481](https://www.wikitree.com/wiki/Glasgow-1481). Edinburgh birthplace is relevant, but before 5 January 1776 is a broad birth upper bound, not a proved 1776 birth or adult age in 1779; no society connection.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, seventh batch — 22 October 2026
+
+[Glasgow-1321](https://www.wikitree.com/wiki/Glasgow-1321) remains the selected father, assessed **64% (probable)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+Andrew’s 1776 St Cuthberts citation fits the immediately adjacent 1774/1777 children of the selected Alexander/Agnes household. Literal parents are not held for this entry and sibling grouping is partly inherited.
+
+Scope: Complete selected father-profile proposition; recorded role and adult identification distinguished below.
+
+Next useful test: Read 1776 entry for complete parental couple and Cross Causeway/trade.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [https://www.familysearch.org/ark:/61903/1:1:VQC4-727](https://www.familysearch.org/ark:/61903/1:1:VQC4-727)

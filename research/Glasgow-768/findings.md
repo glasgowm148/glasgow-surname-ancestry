@@ -4,6 +4,8 @@ Last updated: 2026-09-26
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **28% (uncertain)** for [Glasgow-363](https://www.wikitree.com/wiki/Glasgow-363). Complete selected father-profile proposition; recorded role and adult identification distinguished below. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 [Glasgow-768](https://www.wikitree.com/wiki/Glasgow-768) and [Glasgow-769](https://www.wikitree.com/wiki/Glasgow-769) are both presented as sons of Caleb Glasgow and Ruth Gregory named Jesse, born about 1761 and 1760 respectively. Their cited source is the same user-submitted Ancestry tree, at different person IDs; neither profile supplies a baptism, probate or other independent record identifying two sons. The dates of death, 1838 and 1781, are likewise unsupported in their biographies. They are a strong duplicate-or-misattachment lead, not a proven single identity. Both profiles are managed by another member; no live relationship or biography change was made.
 
 ## Source findings
@@ -22,3 +24,17 @@ The 1791 witness makes the 1781 death claim questionable if it concerns this fam
 - Inspect the original 1791 deed and Currituck/early Tennessee probate and land records for identifying details.
 - Find independent documentation for either claimed death and for Caleb and Ruth's children.
 - Reassess the two WikiTree profiles with the manager after the record trail is established.
+
+## Father confidence review, seventh batch — 22 October 2026
+
+[Glasgow-363](https://www.wikitree.com/wiki/Glasgow-363) remains the selected father, assessed **28% (uncertain)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+Jesse-768’s 1761 Currituck context and adult continuity fit the regional 1791 witness somewhat better than 769’s unsupported 1781 death, but parentage comes only from the same Ancestry tree.
+
+Scope: Complete selected father-profile proposition; recorded role and adult identification distinguished below.
+
+Next useful test: Read the original deed and independent Jesse/Caleb probate.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Ancestry Family Trees](http://trees.ancestry.com/pt/AMTCitationRedir.aspx?tid=9190548&pid=180)

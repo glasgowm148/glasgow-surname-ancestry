@@ -24,6 +24,8 @@ Priority records are Faris pp. 14–19, the complete Betham abstract, the origin
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **12% (uncertain)** for [Glasgow-1024](https://www.wikitree.com/wiki/Glasgow-1024). Complete selected father-profile proposition; recorded role and adult identification distinguished below. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 The live profile supplies no record uniquely identifying this James. His 1740
 birth, Moneymore residence, attached parents and reported decision to remain in
 Ireland are copied from the biography of Robert Glasgow `Glasgow-12`, not from
@@ -84,3 +86,17 @@ No located record names an additional brother James who remained in Ireland. Gla
 The 1766 religious return for Moneymore, Ballygrooby and Artrea ([transcription](https://www.cotyroneireland.com/census/moneymore.html)) names neither a Glasgow nor a Harkness household head. **Negative result** against the profile's Moneymore residence. The two "Jas. Glasgo" householders at Drumearn are in the separate Derryloran return, National Archives of Ireland IHP/1/665 ([Virtual Treasury catalogue record](https://virtualtreasury.ie/item/NAI-IHP-1-665)); that return gives no ages or relationships.
 
 Recorded in `research/Glasgow-3305/Glasgow-3305.md` (2026-08-20); carried into this file on 7 October 2026.
+
+## Father confidence review, seventh batch — 22 October 2026
+
+[Glasgow-1024](https://www.wikitree.com/wiki/Glasgow-1024) remains the selected father, assessed **12% (uncertain)**. Previous selected-tree status: **uncertain**, without an individual percentage.
+
+James-3305 lacks an independently identified event; borrowed sibling tradition does not identify him as another son of James of Moneymore.
+
+Scope: Complete selected father-profile proposition; recorded role and adult identification distinguished below.
+
+Next useful test: Read Faris pp14–19 and complete Betham abstract for an additional named son James.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [WikiTree profile export for Glasgow-3305](https://www.wikitree.com/wiki/Glasgow-3305)

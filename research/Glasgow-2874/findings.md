@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **99% (proved)** for [Glasgow-1076](https://www.wikitree.com/wiki/Glasgow-1076). Anne Robertson Glasgow→adult Robert of Montgreenan, independent of ancestry. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 The current profile identifies Robert of Montgreenan as Anne’s father and Robert Robertson-30564 as her husband. This is the same father–daughter and succession couple in the maintained published account. Her profile can be linked as the intended person; this does not independently verify its maternal assertion, dates or the original trust.
 
 ## Source findings
@@ -55,3 +57,17 @@ Set father [Glasgow-1076](https://www.wikitree.com/wiki/Glasgow-1076) confident 
 ### Newspaper identity review — 6 October 2026
 
 - Styled 'Mrs Robertson Glasgow, of Montgreenan' by Nov 1827; gave birth to a daughter at Rome on 22 Nov 1827. — Aberdeen Journal, 19 Dec 1827 (https://www.newspapers.com/image/393027340/) ([Aberdeen Journal, and General Advertiser for the North of Scotland, 1827-12-19, p.4](https://www.newspapers.com/image/393027340/))
+
+## Father confidence review, seventh batch — 22 October 2026
+
+[Glasgow-1076](https://www.wikitree.com/wiki/Glasgow-1076) remains the selected father, assessed **99% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+The 1835 appeal independently calls Mrs Robertson Glasgow Robert’s natural daughter and first heir; the checked Anne/Robert Robertson succession couple identifies her.
+
+Scope: Anne Robertson Glasgow→adult Robert of Montgreenan, independent of ancestry.
+
+Next useful test: Check original 1818 entail for maternal and exact succession particulars.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [“Robert Glasgow late Robertson” (https://www.ucl.ac.uk/lbs/person/view/27300), Legacies of British Slavery, UCL; citing SC6/44/4/1 and an October 1828 registration; consulted 10 September 2026.](https://www.ucl.ac.uk/lbs/person/view/27300)

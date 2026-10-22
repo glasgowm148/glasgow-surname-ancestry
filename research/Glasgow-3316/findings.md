@@ -4,6 +4,8 @@ Last updated: 2026-09-07
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **84% (probable)** for [Glasgow-1058](https://www.wikitree.com/wiki/Glasgow-1058). Complete selected father-profile proposition, with identity limits below. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 The Findmypast parish transcript is an exact match to [Elisabeth (Glasgow)
 Gairdner (Glasgow-3316)](https://www.wikitree.com/wiki/Glasgow-3316). The
 profile and transcript share both parents, Irvine, and the 24 July 1737 event.
@@ -49,3 +51,17 @@ The transcript-validated baptism record for **Elizabeth Glasgow**, 24 Jul 1737, 
 
 Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
 <!-- END FMP-GLASGOW-fmp-glasgow-11135d44133e -->
+
+## Father confidence review, seventh batch — 22 October 2026
+
+[Glasgow-1058](https://www.wikitree.com/wiki/Glasgow-1058) remains the selected father, assessed **84% (probable)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+Elizabeth’s transcript explicitly names shipmaster George and Margt Martin at Irvine, strongly matching the adult household; identifying that adult with the 1687 Kilwinning George remains inferred.
+
+Scope: Complete selected father-profile proposition, with identity limits below.
+
+Next useful test: Compare original 1728 marriage and Irvine baptisms for trade, abode or witnesses bridging the 1687 child to this shipmaster.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Elizabeth Glasgow, 24 Jul 1737, record SCOT/OPR/BAP/3574665](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3574665&tab=this); [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Robert Glasgow, 07 Jun 1747, record SCOT/OPR/BAP/3575490](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3575490&tab=this)

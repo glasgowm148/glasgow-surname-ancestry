@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **60% (probable)** for [Glasgow-81](https://www.wikitree.com/wiki/Glasgow-81). Complete selected father-profile proposition; recorded role and adult identification distinguished below. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 <!-- site-audit-2026-10-07:overall-conclusion -->
 Andrew Glasgow is recorded on the family tree as born before 11 January 1747 at West Calder, an uncertain date, and no record in this file yet documents his life. Newspaper notices of 1772, 1779 and 1790 naming an Andrew Glasgow (a miller at Calder, a preses of the Leith porters and a merchant in Kirkgate, Leith) were considered for this profile and withdrawn on 6 October 2026. His recorded father, John, rests on the family tree only.
 
@@ -67,3 +69,17 @@ The notice directly identifies its Robert as the son of Andrew, miller at Calder
 
 This may concern [Glasgow-1333](https://www.wikitree.com/wiki/Glasgow-1333). For the named father Andrew, Uncertain birth before 11 Jan 1747 and West Calder location are chronologically possible for a father of an adult/younger Robert by 1772, but this is only a broad place-name match. The recorded current father is John-81, derived from the family tree; no miller evidence is recorded.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, seventh batch — 22 October 2026
+
+[Glasgow-81](https://www.wikitree.com/wiki/Glasgow-81) remains the selected father, assessed **60% (probable)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+Andrew’s 1747 West Calder citation fits between Jean in 1745 and Magdalen in 1749. Literal parents are not held and the father’s own account is unsourced.
+
+Scope: Complete selected father-profile proposition; recorded role and adult identification distinguished below.
+
+Next useful test: Read the 1747 parents and compare the Guthrie family entries.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [https://www.familysearch.org/ark:/61903/1:1:VQ4T-G4L](https://www.familysearch.org/ark:/61903/1:1:VQ4T-G4L)

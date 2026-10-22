@@ -4,6 +4,8 @@ Last updated: 2026-10-06
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **99% (proved)** for [Glasgow-1144](https://www.wikitree.com/wiki/Glasgow-1144). Named Rachel McCrackin→adult James of this family. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Rachel was a proved daughter of James and Mary Glasgow and wife of Robert
 McCrackin. Her King’s Creek stone gives death 16 August 1831 aged 57. The same
 plot identifies Robert (died 10 August 1817 aged 46) and explicitly names Ruth
@@ -68,3 +70,17 @@ current `Crosier-512` attachment.
 **Birthplace.** The County Antrim birthplace (uncertain) for Rachel, born 1775, conflicts with her father's reported emigration in late 1772 or 1773 and his presence in South Carolina on 16 November 1774 (derivative chronology). No record gives her birthplace. Mark it as unsupported; do not blank it without an evidenced replacement. The same applies to her sister Margaret (Glasgow-3977, born 1773).
 
 These are proposals for the WikiTree date fields and are queued for review; nothing has been changed on WikiTree.
+
+## Father confidence review, seventh batch — 22 October 2026
+
+[Glasgow-1144](https://www.wikitree.com/wiki/Glasgow-1144) remains the selected father, assessed **99% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+Equity complaint and sworn answer directly identify Rachel as James’s daughter and Robert McCrackin’s wife, matching the cemetery family.
+
+Scope: Named Rachel McCrackin→adult James of this family.
+
+Next useful test: Inspect court originals for exact daughter clause and resolve birthplace separately.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [https://web.archive.org/web/20101124184247 id_/http://www.lifesweaving.com/Glasgow/Paper_Complaint.html](https://web.archive.org/web/20101124184247id_/http://www.lifesweaving.com/Glasgow/Paper_Complaint.html); [https://web.archive.org/web/20101124184247 id_/http://www.lifesweaving.com/Glasgow/Paper_JGlasgowWill.html](https://web.archive.org/web/20101124184247id_/http://www.lifesweaving.com/Glasgow/Paper_JGlasgowWill.html)

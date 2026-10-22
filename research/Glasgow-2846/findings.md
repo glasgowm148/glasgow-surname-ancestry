@@ -4,6 +4,8 @@ Last updated: 2026-09-21
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **98% (proved)** for [Glasgow-2847](https://www.wikitree.com/wiki/Glasgow-2847). Named child to the specific adult family role represented by the selected father; independent earlier ancestry is outside this assessment. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 [John Glasgow of Larne (Glasgow-4179)](https://www.wikitree.com/wiki/Glasgow-4179) is now attached to [Hugh Glasgow (Glasgow-1499)](https://www.wikitree.com/wiki/Glasgow-1499) as an **uncertain son**, with low confidence. This is a working hypothesis based on locality and generation, not a record naming his father. [Older William (Glasgow-1505)](https://www.wikitree.com/wiki/Glasgow-1505) remains viable. No mother is attached; Hugh's wife Ann is not thereby identified as John's mother.
 
 The duplicate marriage has been resolved: [Rose Allan (Allan-6611)](https://www.wikitree.com/wiki/Allan-6611) is the wife of the Larne John, married in 1769 according to the [archived Kilwaughter/Larne chronology](https://web.archive.org/web/20101124184247id_/http://lifesweaving.com/Glasgow/Kilwaughter/Timeline.html). Allan-8249 now redirects to Allan-6611, the older ID required by WikiTree. Both Rose profiles cited the same marriage; neither supplied an independent Rose baptism. Her estimated birth about 1750 and inferred County Antrim birthplace remain uncertain. The chronology's 1745–48 birth estimate concerns John, not Rose.
@@ -41,3 +43,17 @@ The adjoining-owner and committee appointments may concern one man but do not na
 
 This may concern [Glasgow-2846](https://www.wikitree.com/wiki/Glasgow-2846). Chronologically compatible; no death date or Pennsylvania evidence.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, seventh batch — 22 October 2026
+
+[Glasgow-2847](https://www.wikitree.com/wiki/Glasgow-2847) remains the selected father, assessed **98% (proved)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+The held citation specifically identifies John’s 1747 West Calder entry as son of John Glasgow and Margaret Anderson. This is the adult Anderson household represented by the father account; the later Pennsylvania/Kilwaughter comparisons remain separate.
+
+Scope: Named child to the specific adult family role represented by the selected father; independent earlier ancestry is outside this assessment.
+
+Next useful test: Read the original West Calder child entry for the complete parental pair; investigate John’s childhood independently.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [FamilySearch, John Glasgow,1747, West Calder, John Glasgow/Margaret Anderson; exact date remains a prior research question](https://www.familysearch.org/ark:/61903/1:1:VQ4T-R5D); ["Scotland Births and Baptisms, 1564-1950", database, FamilySearch (https://familysearch.org/ark:/61903/1:1:VQ4T-R5D : 12 February 2020), John Glasgow, 1747.](https://familysearch.org/ark:/61903/1:1:VQ4T-R5D)

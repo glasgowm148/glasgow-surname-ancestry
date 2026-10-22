@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **17% (uncertain)** for [Glasgow-3969](https://www.wikitree.com/wiki/Glasgow-3969). Complete selected father-profile proposition, with identity limits below. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 An extracted baptism index identifies James Glasgow, born 30 November 1736 and baptised 12 December 1736 at Kilwinning, Ayrshire, with a father named James Glasgow. The index does not name a mother. It supports the child's dates, place and father's name, but does not identify that father as the attached [[Glasgow-3969]] or support the attached mother, [[Ross-23403]]. That attachment remains chronologically impossible if the displayed father really died in 1726.
 
 ## Recommended correction
@@ -37,3 +39,17 @@ The transcript-validated baptism record for **James Glasgow**, 12 Dec 1736, Kilw
 
 Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
 <!-- END FMP-GLASGOW-fmp-glasgow-13b02996f4c1 -->
+
+## Father confidence review, seventh batch — 22 October 2026
+
+[Glasgow-3969](https://www.wikitree.com/wiki/Glasgow-3969) remains the selected father, assessed **17% (uncertain)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+James’s 1736 transcript names James and Isabell Ross, but the selected father account represents a 1691 Beith marriage, forty-five years earlier, with birth before 1670. Same parental names do not overcome that severe couple-generation problem.
+
+Scope: Complete selected father-profile proposition, with identity limits below.
+
+Next useful test: Compare the 1691 Beith marriage and original 1736 Kilwinning baptism; seek a younger James/Isabell Ross couple.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: James Glasgow, 12 Dec 1736, record SCOT/OPR/BAP/3627666](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3627666&tab=this); ["Scotland, Marriages, 1561-1910", , FamilySearch (https://familysearch.org/ark:/61903/1:1:XTKY-MM2 : 11 February 2020), James Glasgow, 1691.](https://familysearch.org/ark:/61903/1:1:XTKY-MM2)

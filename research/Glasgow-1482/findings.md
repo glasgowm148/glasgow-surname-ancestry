@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **87% (probable)** for [Glasgow-1321](https://www.wikitree.com/wiki/Glasgow-1321). Complete selected father-profile proposition; recorded role and adult identification distinguished below. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 The Edinburgh entry explicitly records birth 15 July and baptism 30 July 1774, Alexander Glasgow, Brewers Servt, and Agness Cunninghame, residence Cross Causeway, OPR 685_2/9 item 1 p.172. It refines the existing before-30-July birth boundary. This secure child identification does not establish the later Geo Smart wife comparison. The 1810 Edinburgh burial remains a candidate comparison, with age 32 against this child’s actual 36; no death or Geo Smart marriage is assigned.
 
 The 22 October 2026 Findmypast review below records the matched events and qualified comparisons, preserving existing vital dates and relationship assessments. No new person or parent attachment is proposed.
@@ -30,3 +32,17 @@ Two companion indexes name Agness Glasgow, baptized 30 July 1774 at St Cuthberts
 
 Provider transcripts inspected; original images uninspected. [Shared Scottish-records account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
 <!-- END FMP-BIRTH-SCOPE-PAGE3-20261022 -->
+
+## Father confidence review, seventh batch — 22 October 2026
+
+[Glasgow-1321](https://www.wikitree.com/wiki/Glasgow-1321) remains the selected father, assessed **87% (probable)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+Held inspected transcript names Alexander, brewer’sservant, and Agness Cunninghame at Cross Causeway with exact 1774 child dates. It identifies the adult couple strongly; identifying this father with 1747 Kirknewton Alexander remains a further regional/chronological inference.
+
+Scope: Complete selected father-profile proposition; recorded role and adult identification distinguished below.
+
+Next useful test: Find Alexander/Cunningham marriage or occupational record bridging Kirknewton and Cross Causeway.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [https://www.familysearch.org/ark:/61903/1:1:VQCW-6V9](https://www.familysearch.org/ark:/61903/1:1:VQCW-6V9)

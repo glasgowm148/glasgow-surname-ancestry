@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **65% (probable)** for [Glasgow-1342](https://www.wikitree.com/wiki/Glasgow-1342). Complete selected father-profile proposition; recorded role and adult identification distinguished below. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Reviewed: 2026-10-17. This existing WikiTree profile is a tentative identity comparison for the source account below; no identity merge or family change is established.
 
 <!-- queue-identity-review-2026-10-17:start -->
@@ -25,3 +27,17 @@ The Maryland location is John M’Connel’s attributed claim, not independently
 
 This may concern [Glasgow-1430](https://www.wikitree.com/wiki/Glasgow-1430). The Penicuik baptism in 1743 permits adult age in 1775; the parish entry does not identify a later Maryland household.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, seventh batch — 22 October 2026
+
+[Glasgow-1342](https://www.wikitree.com/wiki/Glasgow-1342) remains the selected father, assessed **65% (probable)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+William’s 1743 Penicuik citation fits Alexander/Jean Richie’s 1745–1748 family and ordinary father generation; parish movement and the father’s 1724 childhood-to-adult link are inferred.
+
+Scope: Complete selected father-profile proposition; recorded role and adult identification distinguished below.
+
+Next useful test: Read 1743 entry and Richie marriage to establish adult couple and birthplace bridge.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [https://familysearch.org/ark:/61903/1:1:VQ4R-CZB](https://familysearch.org/ark:/61903/1:1:VQ4R-CZB)

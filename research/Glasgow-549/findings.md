@@ -4,6 +4,8 @@ Last updated: 2026-07-21
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **83% (probable)** for [Glasgow-548](https://www.wikitree.com/wiki/Glasgow-548). Tradition-defined John→tradition-defined adult Hugh-548; no extra Inishrush join. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 John is known only from William Melanchthon Glasgow's late family history, which
 names him first among three sons of Hugh Glasgow and Margaret McCullough.
 The account supplies no birth date, residence, wife, child or death. The current
@@ -53,3 +55,17 @@ A possible identification concerns John Glasco, charged at Bow Street. John Glas
 
 A possible identification concerns John Glascow, London chairman. John Glascow, a chairman, said he saw a man in black running with pistols after Martha Ray was shot in Covent Garden. (Derby Mercury, provider-labelled 19 March 1779, p.2; [record](https://www.newspapers.com/image/394231375/); Old Bailey original, printed p.207; [record](https://www.dhi.ac.uk/san/ob/1770s/177904040005.gif); Old Bailey Proceedings, James Hackman record t17790404-3; event dating only; [record](https://www.oldbaileyonline.org/record/t17790404-3).) The Old Bailey indictment specifies that Martha Ray was shot on 7 April 1779 (printed p.207); that is the event date, not the indictment or newspaper publication date. The newspaper describes evidence after the shooting, not established trial testimony. Its March provider label is incorrect. The identification remains uncertain.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, seventh batch — 22 October 2026
+
+[Glasgow-548](https://www.wikitree.com/wiki/Glasgow-548) remains the selected father, assessed **83% (probable)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+William Melanchthon’s own late history explicitly lists John first among Hugh/Margaret McCullough’s three sons. The 1740 Hugh parish/kin cluster indirectly fits the family account; no independent adult John is identified.
+
+Scope: Tradition-defined John→tradition-defined adult Hugh-548; no extra Inishrush join.
+
+Next useful test: Seek Hugh’s contemporary estate or lease heirs naming John and Robert.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Family history document written by William Melanchthon Glasgow [https://www.wikitree.com/photo/pdf/Glasgow-590)](https://www.wikitree.com/photo/pdf/Glasgow-590)

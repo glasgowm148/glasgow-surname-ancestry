@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **98% (proved)** for [Glasgow-1983](https://www.wikitree.com/wiki/Glasgow-1983). Named child to the specific adult family role represented by the selected father; independent earlier ancestry is outside this assessment. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Mary Caroline is a probable daughter of Robert Glasgow and Elizabeth Kinard,
 but the relationship is not yet direct. Her 17 September 1785 birth fits one
 of the two girls aged 10–15 in Robert's 1800 household. A Wright family account
@@ -33,3 +35,17 @@ the present probable relationship into direct evidence.
 The [Wright family account](https://www.geocities.ws/richmond01_2000/wright.html) states that Mary married Zaccheus Wright on **7 December 1809** at Abbeville, South Carolina. [Find a Grave memorial 144856288](https://www.findagrave.com/memorial/144856288/mary_c-wright) gives her death on **6 September 1841** and burial at Old Tranquil Methodist Cemetery, Newberry County. Both are derivative; no marriage or death record has been inspected. **Unresolved** until a contemporary record is found.
 
 Recorded in `research/Glasgow-3226/Glasgow-3226.md` (12 August 2026); carried into this file on 7 October 2026.
+
+## Father confidence review, seventh batch — 22 October 2026
+
+[Glasgow-1983](https://www.wikitree.com/wiki/Glasgow-1983) remains the selected father, assessed **98% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+The held 1835 equity-partition citation explicitly identifies Mary Wright among Robert’s surviving children, supplementing the Wright family attribution, 1800 age-slot fit and Zaccheus’s estate administration. The original was not newly inspected.
+
+Scope: Named child to the specific adult family role represented by the selected father; independent earlier ancestry is outside this assessment.
+
+Next useful test: Verify the 1835 partition passage and its Mary Wright identification against the original image.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Newberry District, South Carolina, equity partition of the estate of Robert Glasgow, 1835; FamilySearch image (https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSR8-XSB3-K).](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSR8-XSB3-K); ["Family: Wright" (https://www.geocities.ws/richmond01_2000/wright.html), account of Zaccheus Wright and Mary Glasgow (accessed 12 August 2026).](https://www.geocities.ws/richmond01_2000/wright.html); ["1800 Newberry District census" (https://genealogytrails.com/scar/newberry/1800 nbycensusG.htm), Robert Glasgow household (accessed 12 August 2026); citing NARA microfilm publication M32, roll 50.](https://genealogytrails.com/scar/newberry/1800nbycensusG.htm)

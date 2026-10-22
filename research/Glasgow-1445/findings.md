@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **57% (possible)** for [Glasgow-1547](https://www.wikitree.com/wiki/Glasgow-1547). Complete selected father-profile proposition; recorded role and adult identification distinguished below. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 <!-- site-audit-2026-10-07:overall-conclusion -->
 Robert Glasgow is recorded on the family tree as born before 13 February 1735 at Kirknewton or East Calder, an uncertain date, and no record in this file yet documents his life. An Edinburgh theft conviction of 1767 and a 1772 list of banished persons naming Robert Glasgow, son of Andrew Glasgow, miller at Calder, were considered for this profile and withdrawn on 6 October 2026; the review concluded they concern another man with no profile. His recorded father, James, rests on the family tree only.
 
@@ -58,3 +60,17 @@ The report gives no age, family or later outcome identifying the prisoner. It do
 
 This may concern [Glasgow-1445](https://www.wikitree.com/wiki/Glasgow-1445). Uncertain birth before 13 February 1735 at Kirknewton/East Calder permits an adult in Edinburgh in 1767. No criminal-record identifier joins him to this prisoner.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, seventh batch — 22 October 2026
+
+[Glasgow-1547](https://www.wikitree.com/wiki/Glasgow-1547) remains the selected father, assessed **57% (possible)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+The specific 1735 Kirknewton citation fits James’s 1702 generation and local family, but no parents are quoted. The 1772 Robert, son of Andrew the miller, remains a real documentary family without an identified profile bridge.
+
+Scope: Complete selected father-profile proposition; recorded role and adult identification distinguished below.
+
+Next useful test: Read the 1735 parental clause and compare Calder miller records.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [https://familysearch.org/ark:/61903/1:1:VQ4K-FZN](https://familysearch.org/ark:/61903/1:1:VQ4K-FZN)

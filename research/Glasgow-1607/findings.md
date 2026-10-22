@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **91% (proved)** for [Glasgow-1238](https://www.wikitree.com/wiki/Glasgow-1238). Named child to the specific adult family role represented by the selected father; independent earlier ancestry is outside this assessment. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 The 1740 Edrom birth entry is a high-confidence match to Glasgow-1607. It adds
 a primary parish-index source, directly names father James Glasgow, and
 corrects the current uncertain Kelso birthplace to Edrom, Berwickshire.
@@ -58,3 +60,20 @@ The transcript-validated baptism record for **Margaret Glasgow**, 1740, Edrom, i
 
 Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
 <!-- END FMP-GLASGOW-fmp-glasgow-26372d160744 -->
+
+## Father confidence review, seventh batch — 22 October 2026
+
+[Glasgow-1238](https://www.wikitree.com/wiki/Glasgow-1238) remains the selected father, assessed **91% (proved)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+Margaret’s 1740 Edrom transcript explicitly names James; the January 1740 James/Tait marriage at nearby Stichill and continuing children make this adult family the preferred specific match. The entry supplies no mother.
+
+Scope: Named child to the specific adult family role represented by the selected father; independent earlier ancestry is outside this assessment.
+
+Next useful test: Compare original Stichill child entries and 1740 marriage, checking the Edrom-to-Stichill adult family.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Margaret Glasgow, 1740, record SCOT/OPR/BAP/4839749](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4839749&tab=this); [“Scotland Marriages, 1561–1910,” database,
+FamilySearch,
+James Glasgow and Elizabath
+Tait (https://familysearch.org/ark:/61903/1:1:XYQ1-SPB), 25 January 1740, Stitchel, Roxburghshire.](https://familysearch.org/ark:/61903/1:1:XYQ1-SPB)

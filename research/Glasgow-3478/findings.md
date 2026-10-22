@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **86% (probable)** for [Glasgow-2474](https://www.wikitree.com/wiki/Glasgow-2474). Complete selected father-profile proposition; recorded role and adult identification distinguished below. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 <!-- site-audit-2026-10-07:overall-conclusion -->
 John Glasgow was baptised at Irvine, Ayrshire, on 5 October 1738, the son of Robert Glasgow and Mary Borland, according to a Findmypast transcript of the parish register; the transcript gives his birth as 4 September 1738, while the profile keeps 4 October, marked uncertain, until the original register is checked. His father is attached as Robert Glasgow (Glasgow-2474), baptised at Irvine in 1716, an identification that is a reasonable same-town, age-compatible inference rather than proof. A separate entry for a John baptised to the same parents on 10 October 1736 is unresolved: the originals must show whether there were two sons or an index error.
 
@@ -45,3 +47,17 @@ Compare the original 1736 and 1738 Irvine entries and verify September versus Oc
 ## Live correction applied — 21 September 2026
 
 [Live Glasgow-3478](https://www.wikitree.com/wiki/Glasgow-3478): Added the sourced September/October 1738 birth conflict and marked the existing birth date uncertain. Retained 4 October 1738 as the current field value pending the original register; no merge, split or parent change was made. The save acknowledgement, public rendering and complete saved biography were verified. This correction is complete on WikiTree; the underlying research questions remain open.
+
+## Father confidence review, seventh batch — 22 October 2026
+
+[Glasgow-2474](https://www.wikitree.com/wiki/Glasgow-2474) remains the selected father, assessed **86% (probable)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+The explicit 1738 Rot Glasgow/Mary Borland entry identifies an adult father. The 1716 Irvine child is a plausible same-town father aged 22, supported by compatible shipmaster context; the child-to-adult equation remains inferred.
+
+Scope: Complete selected father-profile proposition; recorded role and adult identification distinguished below.
+
+Next useful test: Compare both original John entries and Robert/Mary’s marriage for adult origin.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: John Glasgow, 05 Oct 1738, record SCOT/OPR/BAP/3574782](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3574782&tab=this)

@@ -1,6 +1,8 @@
 # Findings: [Captain Robert Glasgow (Glasgow-2867)](https://www.wikitree.com/wiki/Glasgow-2867)
 
-## Conclusion
+## Current conclusion
+
+Current father assessment (22 October 2026): **8% (uncertain)** for [Glasgow-1026](https://www.wikitree.com/wiki/Glasgow-1026). Complete selected father-profile proposition, with identity limits below. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 The 15 February 1754 *Maryland Gazette* report proves only that a **Robert
 Glasgow** was master of the snow *John and Archibald*. It names no parents, wife
@@ -181,3 +183,17 @@ The dates 1690–1759 and "Buried or Lost at Sea" rest only on [Find a Grave mem
 Exact index dates for the separate Glencorse family (Robert Glasgow and Margaret Davidson, Glencorse 687): John, 1 January 1710 (`10/93`); Isobell, 26 December 1714 (`10/106`); James, 14 February 1720 (`10/121`, mother as Davidsone); Christian, 1708 ([FamilySearch VQ4J-CB3](https://www.familysearch.org/ark:/61903/1:1:VQ4J-CB3)). Index only; they do not identify the shipmaster.
 
 Recorded in `research/Glasgow-2867/Glasgow-2867.md` (2026-09-10); carried into this file on 7 October 2026.
+
+## Father confidence review, seventh batch — 22 October 2026
+
+[Glasgow-1026](https://www.wikitree.com/wiki/Glasgow-1026) remains the selected father, assessed **8% (uncertain)**. Previous selected-tree status: **uncertain**, without an individual percentage.
+
+The only anchored Robert is the 1754 shipmaster. No held record names his parents; William’s Kirknewton family and the speculative Robert birth estimate supply no maritime identity bridge.
+
+Scope: Complete selected father-profile proposition, with identity limits below.
+
+Next useful test: Find a maritime probate, apprenticeship or ownership record naming Robert’s father; do not substitute Glencorse namesakes.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [www.virtualtreasury.ie (https://www.virtualtreasury.ie/item/DGZ-1754-400).](https://www.virtualtreasury.ie/item/DGZ-1754-400)

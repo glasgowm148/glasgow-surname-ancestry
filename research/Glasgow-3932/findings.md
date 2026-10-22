@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **18% (uncertain)** for [Glasgow-1241](https://www.wikitree.com/wiki/Glasgow-1241). Complete selected father-profile proposition, with identity limits below. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Reviewed: 2026-10-16
 
 **Live biography error confirmed,16 October2026:** the captured WikiTree biography is Robert Glasgow-3897 of Kilrea (born1827), not Philip the Dublin watchmaker. A complete sourced Dublin replacement is prepared locally, with the actual current text retained for comparison. The entire misplaced biography is also preserved with Robert. The existing strong Glasco-147 identity remains for merge review; no live save, merge or duplicate spouse attachment has been made. [Evidence and alternatives](/branches/early-scottish-records/#dublin-irvine-working-family).
@@ -72,3 +74,17 @@ The anonymous Open-profile capture of Glasgow-3932 on 16 October 2026 contains R
 - [James’s complete Irvine household and retained 1723 Marion Rae entry](https://www.wikitree.com/wiki/Glasgow-4158)
 - [Philip junior profile: current biography capture checked16 October2026](https://www.wikitree.com/wiki/Glasgow-3932)
 - [Robert Glasgow-3897: correct Kilrea subject retaining the entire misplaced biography](https://www.wikitree.com/wiki/Glasgow-3897)
+
+## Father confidence review, seventh batch — 22 October 2026
+
+[Glasgow-1241](https://www.wikitree.com/wiki/Glasgow-1241) remains the selected father, assessed **18% (uncertain)**. Previous selected-tree status: **uncertain**, without an individual percentage.
+
+The younger Dublin watchmaker shares the elder’s name, trade and address, but the selected father account is now labelled Mary and starts with conflicting 1711 Scottish entries. No source identifies that Scottish person as the elder Dublin father.
+
+Scope: Complete selected father-profile proposition, with identity limits below.
+
+Next useful test: Reconcile the 1711 Mary/Philip events and inspect Dublin apprenticeship/probate for an actual elder–younger parent clause; compare Glasco-146.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Public Gazetteer extracts, 1758–1774: Philip Glasco junior marriage](https://eddiesextracts.com/extracts1700/pg1758_74.html); [Philip at Uphall,3 June 1711: retained Thomas/Jean child index](https://www.familysearch.org/ark:/61903/1:1:VQ48-S7Z); [Dublin Mercury extracts, 1723–1773: death of Philip Glasco junior](https://eddiesextracts.com/extracts1700/dm1723_73.html)

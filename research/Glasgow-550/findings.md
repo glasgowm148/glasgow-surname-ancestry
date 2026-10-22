@@ -2,7 +2,9 @@
 
 Last updated: 2026-07-21
 
-## Current answer
+## Current conclusion
+
+Current father assessment (22 October 2026): **82% (probable)** for [Glasgow-548](https://www.wikitree.com/wiki/Glasgow-548). Late account’s son Robert→adult Hugh-548; guessed vitals not proved. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 The profile's asserted birth about 1737 in County Londonderry and death about 1787 are unsupported estimates. No found contemporary source identifies this Robert's residence, wife, child, or relationship to Adam Glasgow of Inishrush.
 
@@ -91,3 +93,17 @@ Facts and corrections found after the current WikiTree profile capture, for manu
 ### Research status
 
 The public deed, freeholder, probate-index, religious-return, military-index, newspaper, church-history, and estate-history searches found no document placing this Robert at Inishrush or calling Adam his son. The highest-value unresolved records are the undigitized Vintners/Conolly lease book and rentals (`PRONI D1062/1/5`, `D2094/50-51`, `D2094/68,75-76,78`, and `T2825/C/19/1-13`), the Drimbolg session book (`MIC1C/15`), and the County Londonderry yeomanry musters (`T1021/3`).
+
+## Father confidence review, seventh batch — 22 October 2026
+
+[Glasgow-548](https://www.wikitree.com/wiki/Glasgow-548) remains the selected father, assessed **82% (probable)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+The original late-history scan lists Robert under Hugh/Margaret. Regional 1740 Hugh context and the independently identifiable younger Hugh family support it indirectly, but no record identifies this Robert’s adult life.
+
+Scope: Late account’s son Robert→adult Hugh-548; guessed vitals not proved.
+
+Next useful test: Seek Hugh’s family estate or lease heirs naming Robert.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Family history document written by William Melanchthon Glasgow [https://www.wikitree.com/photo/pdf/Glasgow-590)](https://www.wikitree.com/photo/pdf/Glasgow-590)
