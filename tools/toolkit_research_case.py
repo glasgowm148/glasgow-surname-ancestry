@@ -553,24 +553,54 @@ class Translator:
 
     # -- the catalogue's own groupings -------------------------------------
     def regions(self, people) -> None:
-        """``Place.region`` from the region Glasgow files each record's location under.
+        """``Place.region`` from the region Glasgow files each location under.
 
         Each catalogue row's ``records`` give a ``record_location`` and the
-        ``region`` Glasgow shows for it ("United States", "At Sea"). A place
-        whose name is one of those locations takes the region most often
-        filed for it; the rest keep the last part of their name.
+        ``region`` Glasgow shows for it ("United States", "At Sea"); a row
+        filed under one region also files its birth and death locations there.
+        A place named exactly as one of those locations takes the region most
+        often filed for it. Any other place is filed by its parts, from the
+        last: the first part that Glasgow files under one region at least four
+        times in five ("USA" or "Ohio" under United States, "Scotland" before
+        "United Kingdom") decides; a place with no known part keeps the last
+        part of its name, as the workbench does.
         """
+        tidy = lambda text: " ".join(str(text or "").split())
         filed: dict[str, Counter[str]] = defaultdict(Counter)
         for row in people:
             for record in row.get("records") or []:
-                where, region = (" ".join(str(record.get(key) or "").split()) for key in ("record_location", "region"))
+                where, region = tidy(record.get("record_location")), tidy(record.get("region"))
                 if where and region:
                     filed[where.casefold()][region] += 1
+            regions = [tidy(r) for r in row.get("regions") or [] if tidy(r)]
+            if len(regions) == 1:
+                for key in ("birth_location", "death_location"):
+                    if tidy(row.get(key)):
+                        filed[tidy(row[key]).casefold()][regions[0]] += 1
+        by_part: dict[str, Counter[str]] = defaultdict(Counter)
+        for where, counts in filed.items():
+            for part in {part.strip() for part in where.split(",") if part.strip()}:
+                by_part[part].update(counts)
+
+        def decided(counts: Counter[str] | None) -> str | None:
+            if not counts:
+                return None
+            region, n = counts.most_common(1)[0]
+            return region if n * 5 >= sum(counts.values()) * 4 else None
+
         for place in self.case.records("Place"):
-            counts = filed.get(" ".join(str(place.name).split()).casefold())
-            if counts and not place.region:
-                place.region = counts.most_common(1)[0][0]
-                self.report["places filed under a catalogue region"] += 1
+            if place.region:
+                continue
+            name = tidy(place.name).casefold()
+            region = decided(filed.get(name)) or (filed[name].most_common(1)[0][0] if filed.get(name) else None)
+            how = "named"
+            if not region:
+                parts = [part.strip() for part in name.split(",") if part.strip()]
+                region = next((r for part in reversed(parts) if (r := decided(by_part.get(part)))), None)
+                how = "by a part of the name"
+            if region:
+                place.region = region
+                self.report[f"places filed under a catalogue region ({how})"] += 1
 
     def groups(self, people) -> None:
         """Each catalogue cluster ("Possible group") as a Study of kind ``group`` naming its public members.

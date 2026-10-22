@@ -147,6 +147,9 @@ class TranslatorTests(unittest.TestCase):
     def test_catalogue_regions_file_places_and_clusters_become_group_studies(self):
         c = case()
         c.add(Place(id="one-tree:place:lantern", name="Lanternby, North Shire, Fableland", sensitivity=Sensitivity.PUBLIC))
+        c.add(Place(id="one-tree:place:moss", name="Mossford, Fableland", sensitivity=Sensitivity.PUBLIC))  # filed by its "Fableland" part
+        c.add(Place(id="one-tree:place:ridge", name="Ridge, West Shire, Fableland, Old Union", sensitivity=Sensitivity.PUBLIC))  # "Old Union" is split; "Fableland" decides
+        c.add(Place(id="one-tree:place:far", name="Farholm", sensitivity=Sensitivity.PUBLIC))  # no part is known
         t = Translator(c, private=lambda text: "Hidden-9" in str(text))
         rows = [
             {"catalogue_id": "fable-1", "profile_ids": ["Fable-1"], "likely_living": False, "name": "Ada",
@@ -154,15 +157,21 @@ class TranslatorTests(unittest.TestCase):
              "records": [{"record_location": "Lanternby,  North Shire, Fableland", "region": "The Fable Isles"},
                          {"record_location": "Lanternby, North Shire, Fableland", "region": "The Fable Isles"},
                          {"record_location": "Lanternby, North Shire, Fableland", "region": "Fableland"}]},
-            {"catalogue_id": "fable-2", "profile_ids": ["Fable-2"], "likely_living": False, "name": "Bram", "clusters": ["Lanternby cluster"]},
+            {"catalogue_id": "fable-2", "profile_ids": ["Fable-2"], "likely_living": False, "name": "Bram", "clusters": ["Lanternby cluster"],
+             "regions": ["Old Union"], "birth_location": "Port, Old Union"},
+            {"catalogue_id": "fable-2b", "profile_ids": ["Fable-2b"], "likely_living": False, "name": "Cal", "regions": ["The Fable Isles"],
+             "birth_location": "Dock, Fableland, Old Union", "death_location": "Quay, Fableland"},
             {"catalogue_id": "living-1", "profile_ids": ["Living-1"], "likely_living": True, "clusters": ["Lanternby cluster"]},
             {"catalogue_id": "fable-3", "profile_ids": ["Fable-3"], "likely_living": False, "clusters": ["Hidden-9 leads"]},
         ]
         t.catalogue(rows)
         t.regions(rows)
         t.groups(rows)
-        place = next(p for p in c.records("Place") if p.id == "one-tree:place:lantern")
-        self.assertEqual("The Fable Isles", place.region)  # the region filed most often for that location
+        regions = {p.id: p.region for p in c.records("Place")}
+        self.assertEqual("The Fable Isles", regions["one-tree:place:lantern"])  # the region filed most often for that location
+        self.assertEqual("The Fable Isles", regions["one-tree:place:moss"])  # "Fableland" is only ever filed under The Fable Isles
+        self.assertEqual("The Fable Isles", regions["one-tree:place:ridge"])  # "Old Union" is split 1:1, so the next part decides
+        self.assertIsNone(regions["one-tree:place:far"])
         studies = {s.id: s for s in c.records("Study") if s.kind == "group"}
         lantern = studies["glasgow:group:" + _short("Lanternby cluster")]
         self.assertEqual(("Lanternby cluster", [person_id("Fable-1"), person_id("Fable-2")], Sensitivity.PUBLIC), (lantern.title, lantern.related_ids, lantern.sensitivity))
