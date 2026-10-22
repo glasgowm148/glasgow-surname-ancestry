@@ -1,0 +1,620 @@
+{
+  "reviewed": "2026-10-22",
+  "scope": "Five previously created or merged documentary subjects, 1668–1689",
+  "catalogue_people_before": 4879,
+  "catalogue_people_after": 4874,
+  "new_genealogical_relationships": 0,
+  "new_confident_fathers": 0,
+  "connectivity_credit": 0,
+  "preserved_fields": {
+    "Glasgow-4098": {
+      "vitals": {
+        "birth": {
+          "date": "before 1668-12-22",
+          "place": "Linlithgow, West Lothian, Scotland",
+          "status": "uncertain"
+        },
+        "death": {
+          "date": null,
+          "place": null,
+          "status": null
+        }
+      },
+      "relationships": {
+        "parents": [
+          {
+            "id": "Glasgow-1105",
+            "name": "John Glasgow",
+            "relationship": "father",
+            "status": "unknown",
+            "status_label": "WikiTree tree relationship",
+            "basis": "tree",
+            "evidence_ids": [],
+            "tree_relationship": true,
+            "relationship_source": "wikitree_parent_field",
+            "tree_status": "unmarked",
+            "tree_status_label": "WikiTree: relationship status unmarked",
+            "url": "/people/glasgow-1105.html",
+            "json_url": "/people/glasgow-1105.json",
+            "network_url": "/people/glasgow-1105.network.json",
+            "wikitree_url": "https://www.wikitree.com/wiki/Glasgow-1105",
+            "claim_id": "C-bbe983ae1ee5",
+            "probability": {
+              "band": "unrated",
+              "label": "Unrated",
+              "minimum": null,
+              "maximum": null,
+              "rank": 0,
+              "value": null,
+              "method": "not_individually_assessed",
+              "origin": "wikitree"
+            }
+          },
+          {
+            "id": "Eastone-3",
+            "name": "Agnes (Eastone) Glasgow",
+            "relationship": "mother",
+            "status": "unknown",
+            "status_label": "WikiTree tree relationship",
+            "basis": "tree",
+            "evidence_ids": [],
+            "tree_relationship": true,
+            "relationship_source": "wikitree_parent_field",
+            "tree_status": "unmarked",
+            "tree_status_label": "WikiTree: relationship status unmarked",
+            "url": "/people/eastone-3.html",
+            "json_url": "/people/eastone-3.json",
+            "network_url": "/people/eastone-3.network.json",
+            "wikitree_url": "https://www.wikitree.com/wiki/Eastone-3",
+            "claim_id": "C-4937827c396c",
+            "probability": {
+              "band": "unrated",
+              "label": "Unrated",
+              "minimum": null,
+              "maximum": null,
+              "rank": 0,
+              "value": null,
+              "method": "not_individually_assessed",
+              "origin": "wikitree"
+            }
+          }
+        ],
+        "spouses": [],
+        "children": [],
+        "siblings": [
+          {
+            "id": "Glasgow-2458",
+            "name": "Hellen Glasgow",
+            "relationship": "sibling",
+            "status": "unknown",
+            "status_label": "WikiTree relationship snapshot",
+            "basis": "tree",
+            "evidence_ids": [],
+            "tree_relationship": true,
+            "relationship_source": "wikitree_relation_snapshot",
+            "url": "/people/glasgow-2458.html",
+            "json_url": "/people/glasgow-2458.json",
+            "network_url": "/people/glasgow-2458.network.json",
+            "wikitree_url": "https://www.wikitree.com/wiki/Glasgow-2458",
+            "claim_id": "C-76d7b060b88d"
+          },
+          {
+            "id": "Glasgow-1927",
+            "name": "John Glasgow",
+            "relationship": "sibling",
+            "status": "unknown",
+            "status_label": "WikiTree relationship snapshot",
+            "basis": "tree",
+            "evidence_ids": [],
+            "tree_relationship": true,
+            "relationship_source": "wikitree_relation_snapshot",
+            "url": "/people/glasgow-1927.html",
+            "json_url": "/people/glasgow-1927.json",
+            "network_url": "/people/glasgow-1927.network.json",
+            "wikitree_url": "https://www.wikitree.com/wiki/Glasgow-1927",
+            "claim_id": "C-a7d99bf0e130"
+          },
+          {
+            "id": "Glasgow-1242",
+            "name": "Thomas Glasgow",
+            "relationship": "sibling",
+            "status": "unknown",
+            "status_label": "WikiTree relationship snapshot",
+            "basis": "tree",
+            "evidence_ids": [],
+            "tree_relationship": true,
+            "relationship_source": "wikitree_relation_snapshot",
+            "url": "/people/glasgow-1242.html",
+            "json_url": "/people/glasgow-1242.json",
+            "network_url": "/people/glasgow-1242.network.json",
+            "wikitree_url": "https://www.wikitree.com/wiki/Glasgow-1242",
+            "claim_id": "C-249f3f8fd68a"
+          }
+        ]
+      }
+    },
+    "Glasgow-4140": {
+      "vitals": {
+        "birth": {
+          "date": "before 1685-10-23",
+          "place": "Kirkintillock, Dunbartonshire, Scotland",
+          "status": "uncertain"
+        },
+        "death": {
+          "date": null,
+          "place": null,
+          "status": null
+        }
+      },
+      "relationships": {
+        "parents": [],
+        "spouses": [],
+        "children": [],
+        "siblings": []
+      }
+    },
+    "Glasgow-4134": {
+      "vitals": {
+        "birth": {
+          "date": "before 1689-05-22",
+          "place": "Kilwinning, Ayrshire, Scotland",
+          "status": "uncertain"
+        },
+        "death": {
+          "date": null,
+          "place": null,
+          "status": null
+        }
+      },
+      "relationships": {
+        "parents": [
+          {
+            "id": "Glasgow-3105",
+            "name": "James Glasgow",
+            "relationship": "father",
+            "status": "unknown",
+            "status_label": "WikiTree tree relationship",
+            "basis": "tree",
+            "evidence_ids": [],
+            "tree_relationship": true,
+            "relationship_source": "wikitree_parent_field",
+            "tree_status": "unmarked",
+            "tree_status_label": "WikiTree: relationship status unmarked",
+            "url": "/people/glasgow-3105.html",
+            "json_url": "/people/glasgow-3105.json",
+            "network_url": "/people/glasgow-3105.network.json",
+            "wikitree_url": "https://www.wikitree.com/wiki/Glasgow-3105",
+            "claim_id": "C-f5bba158d8ae",
+            "probability": {
+              "band": "unrated",
+              "label": "Unrated",
+              "minimum": null,
+              "maximum": null,
+              "rank": 0,
+              "value": null,
+              "method": "not_individually_assessed",
+              "origin": "wikitree"
+            }
+          }
+        ],
+        "spouses": [],
+        "children": [],
+        "siblings": [
+          {
+            "id": "Glasgow-3104",
+            "name": "James Glasgow",
+            "relationship": "sibling",
+            "status": "unknown",
+            "status_label": "WikiTree relationship snapshot",
+            "basis": "tree",
+            "evidence_ids": [],
+            "tree_relationship": true,
+            "relationship_source": "wikitree_relation_snapshot",
+            "url": "/people/glasgow-3104.html",
+            "json_url": "/people/glasgow-3104.json",
+            "network_url": "/people/glasgow-3104.network.json",
+            "wikitree_url": "https://www.wikitree.com/wiki/Glasgow-3104",
+            "claim_id": "C-2f313f3f77a3"
+          }
+        ]
+      }
+    },
+    "Glasgow-4138": {
+      "vitals": {
+        "birth": {
+          "date": "before 1679",
+          "place": "Cavers, Roxburghshire, Scotland",
+          "status": "uncertain"
+        },
+        "death": {
+          "date": null,
+          "place": null,
+          "status": null
+        }
+      },
+      "relationships": {
+        "parents": [
+          {
+            "assertion_id": "C-working-20261016-polwarth-cavers-ulster-working-family-cavers-father",
+            "profile_names": {
+              "Glasgow-4138": "William Glasgow, Cavers Covenanter",
+              "Glasgow-2462": "William Glasgow, Inveresk child of 1639"
+            },
+            "status": "uncertain",
+            "hypothesis_status": "possible",
+            "working_selection": true,
+            "allow_new_relationship": true,
+            "publication_status": "approved",
+            "assessment_date": "2026-10-16",
+            "evidence_grade": "Very low-confidence compound identity and inherited-father hypothesis",
+            "claim": "Selected uncertain father for William Glasgow, Cavers Covenanter",
+            "basis": "Glasgow-2462 is the proposed, very uncertain working father of the traditional Ulster ancestor Glasgow-591 and the Cavers Covenanter Glasgow-4138. This carries the existing possible identity with the Polwarth child Glasgow-1605 into a concrete local family model. The Polwarth index names the child’s father as William Glasgow, and Glasgow-2462 is already attached to that child with uncertainty. The three younger profile accounts are retained as possible stages of one life, not three proved brothers. Neither new father attachment is independent support for the other: both depend on the same child/adult identity and on the unproved identification of the named Polwarth father with the Inveresk man. The Polwarth child was baptised on 4 April 1658. If baptised near birth, he would have been about 21 at the examination of the Cavers servant in June 1679, 26 at the Ormistoun servant list in 1684 and 31 in 1689. Those are compatible ages for the recorded adult and the later military tradition. The Ulster profile’s circa 1656 birth is explicitly a rough grandson-based estimate, not an age stated by a record; its guessed Glasgow-city origin cannot exclude a Borders childhood. The exact forename and surname, compatible sequence and existing Borders candidate make this a usable provisional life model. Polwarth and Cavers are distinct parishes in different counties, and the chronology supplies compatibility rather than an identifying age match. The Cavers setting is recorded residence/association, not a proved birthplace.",
+            "limitations": "The weakest stage is the proposed father’s identity. Glasgow-2462 was born at Inveresk on 20 August 1639 and baptised the next day. He would have been only 18 at the 1658 Polwarth baptism and 16, nearly 17, at the associated Elizabeth baptism in August 1656. Young fatherhood is possible, but there is no marriage, residence or occupation connecting him with the named Polwarth father. An older, otherwise unidentified William is a substantial competing explanation. The named-child clause does not prove Glasgow-2462’s identity. The regional Polwarth/Gordon household of Glasgow-3107 is a stronger local kinship lead than Inveresk alone, but supplies no father clause for William; no exact brother, uncle or father relationship with James is selected. This inherited father remains a very low-confidence default and would fall away on both new adult accounts if the child/father identification fails. No mother is selected for either adult, and no wife or mother is transferred from the Inveresk ancestry. The Polwarth child could be a different man from the Cavers Covenanter, and the Covenanter could be different from the late family history’s William. The Hawick father Glasgow-2731 in 1692 and Cavers groom Glasgow-3587 in 1708/09 remain competing later identities for the Covenanter; neither is newly equated with him. The attached Glasgow-3370 entry in 1694 does not independently establish the Polwarth man as her father. If later Scottish records identify the Covenanter continuously there, the family history’s permanent Irish settlement would need reconsideration. Other Scottish William candidates and the possibility that the late ancestor account is mistaken remain open. A missing contemporary Irish bridge is not an exclusion, but the combined identification is especially uncertain. No surname or Y-DNA grouping supplies these missing generations. Two very uncertain local father hypotheses are selected from existing research; no new original inspection, certain relationship, identity merge or live WikiTree save. Existing child/adult records, vital fields, attached relatives and their grades remain unchanged. Connectivity counts retained profile accounts, including possible duplicates, and describes the selected model rather than a proved pedigree.",
+            "source_ids": [
+              "polwarth-cavers-ulster-child-1658",
+              "polwarth-cavers-ulster-servant-1679",
+              "polwarth-cavers-ulster-inveresk-1639"
+            ],
+            "model_note": "The weakest stage is the proposed father’s identity. Glasgow-2462 was born at Inveresk on 20 August 1639 and baptised the next day. He would have been only 18 at the 1658 Polwarth baptism and 16, nearly 17, at the associated Elizabeth baptism in August 1656. Young fatherhood is possible, but there is no marriage, residence or occupation connecting him with the named Polwarth father. An older, otherwise unidentified William is a substantial competing explanation. The named-child clause does not prove Glasgow-2462’s identity. The regional Polwarth/Gordon household of Glasgow-3107 is a stronger local kinship lead than Inveresk alone, but supplies no father clause for William; no exact brother, uncle or father relationship with James is selected. This inherited father remains a very low-confidence default and would fall away on both new adult accounts if the child/father identification fails. No mother is selected for either adult, and no wife or mother is transferred from the Inveresk ancestry. The Polwarth child could be a different man from the Cavers Covenanter, and the Covenanter could be different from the late family history’s William. The Hawick father Glasgow-2731 in 1692 and Cavers groom Glasgow-3587 in 1708/09 remain competing later identities for the Covenanter; neither is newly equated with him. The attached Glasgow-3370 entry in 1694 does not independently establish the Polwarth man as her father. If later Scottish records identify the Covenanter continuously there, the family history’s permanent Irish settlement would need reconsideration. Other Scottish William candidates and the possibility that the late ancestor account is mistaken remain open. A missing contemporary Irish bridge is not an exclusion, but the combined identification is especially uncertain. No surname or Y-DNA grouping supplies these missing generations. Two very uncertain local father hypotheses are selected from existing research; no new original inspection, certain relationship, identity merge or live WikiTree save. Existing child/adult records, vital fields, attached relatives and their grades remain unchanged. Connectivity counts retained profile accounts, including possible duplicates, and describes the selected model rather than a proved pedigree.",
+            "analysis_links": [
+              {
+                "label": "William Glasgow: a conditional Polwarth–Cavers–Ulster family",
+                "href": "/branches/early-scottish-records/#polwarth-cavers-ulster-working-family"
+              }
+            ],
+            "provenance": {
+              "prior_assessment": "No selected parent on this account; existing local records and family-network reviews supplied the model.",
+              "basis": "Existing Polwarth childhood, Cavers/Ormistoun adult records and late Ulster family tradition; the named father identity and each life-stage match remain unproved.",
+              "resolution_note": "Selected uncertain parent only; no new certainty, merge or live save."
+            },
+            "relationship": "father",
+            "status_label": "Uncertain father; selected working family",
+            "reason": "Glasgow-2462 is the proposed, very uncertain working father of the traditional Ulster ancestor Glasgow-591 and the Cavers Covenanter Glasgow-4138. This carries the existing possible identity with the Polwarth child Glasgow-1605 into a concrete local family model. The Polwarth index names the child’s father as William Glasgow, and Glasgow-2462 is already attached to that child with uncertainty. The three younger profile accounts are retained as possible stages of one life, not three proved brothers. Neither new father attachment is independent support for the other: both depend on the same child/adult identity and on the unproved identification of the named Polwarth father with the Inveresk man. The Polwarth child was baptised on 4 April 1658. If baptised near birth, he would have been about 21 at the examination of the Cavers servant in June 1679, 26 at the Ormistoun servant list in 1684 and 31 in 1689. Those are compatible ages for the recorded adult and the later military tradition. The Ulster profile’s circa 1656 birth is explicitly a rough grandson-based estimate, not an age stated by a record; its guessed Glasgow-city origin cannot exclude a Borders childhood. The exact forename and surname, compatible sequence and existing Borders candidate make this a usable provisional life model. Polwarth and Cavers are distinct parishes in different counties, and the chronology supplies compatibility rather than an identifying age match. The Cavers setting is recorded residence/association, not a proved birthplace.",
+            "claim_id": "C-working-20261016-polwarth-cavers-ulster-working-family-cavers-father",
+            "lifecycle": "current",
+            "display": "hypothesis",
+            "tree_relationship": false,
+            "relationship_source": "shared_research_assertion",
+            "assessment_source": "/assets/research/relationship-assessments.json",
+            "record_source": "/assets/research/canonical-records.json",
+            "historical_claim_ids": [],
+            "id": "Glasgow-2462",
+            "name": "William Glasgow, Inveresk child of 1639",
+            "url": "/people/glasgow-2462.html",
+            "wikitree_url": "https://www.wikitree.com/wiki/Glasgow-2462",
+            "probability": {
+              "band": "uncertain",
+              "label": "Uncertain/speculative · 17%",
+              "minimum": 0.01,
+              "maximum": 0.29,
+              "rank": 1,
+              "value": 0.17,
+              "method": "individual_evidence_assessment",
+              "origin": "research",
+              "basis": "Glasgow-2462 is the proposed, very uncertain working father of the traditional Ulster ancestor Glasgow-591 and the Cavers Covenanter Glasgow-4138. This carries the existing possible identity with the Polwarth child Glasgow-1605 into a concrete local family model. The Polwarth index names the child’s father as William Glasgow, and Glasgow-2462 is already attached to that child with uncertainty. The three younger profile accounts are retained as possible stages of one life, not three proved brothers. Neither new father attachment is independent support for the other: both depend on the same child/adult identity and on the unproved identification of the named Polwarth father with the Inveresk man. The Polwarth child was baptised on 4 April 1658. If baptised near birth, he would have been about 21 at the examination of the Cavers servant in June 1679, 26 at the Ormistoun servant list in 1684 and 31 in 1689. Those are compatible ages for the recorded adult and the later military tradition. The Ulster profile’s circa 1656 birth is explicitly a rough grandson-based estimate, not an age stated by a record; its guessed Glasgow-city origin cannot exclude a Borders childhood. The exact forename and surname, compatible sequence and existing Borders candidate make this a usable provisional life model. Polwarth and Cavers are distinct parishes in different counties, and the chronology supplies compatibility rather than an identifying age match. The Cavers setting is recorded residence/association, not a proved birthplace.",
+              "reviewed": "2026-10-17",
+              "source_ids": [
+                "polwarth-cavers-ulster-child-1658",
+                "polwarth-cavers-ulster-servant-1679",
+                "polwarth-cavers-ulster-inveresk-1639"
+              ],
+              "assertion_id": "C-working-20261016-polwarth-cavers-ulster-working-family-cavers-father"
+            }
+          }
+        ],
+        "spouses": [],
+        "children": [],
+        "siblings": []
+      }
+    },
+    "Glasgow-1406": {
+      "vitals": {
+        "birth": {
+          "date": "before 1679-09",
+          "place": "Irvine, Ayrshire, Scotland",
+          "status": "uncertain"
+        },
+        "death": {
+          "date": null,
+          "place": null,
+          "status": null
+        }
+      },
+      "relationships": {
+        "parents": [
+          {
+            "assertion_id": "C-working-20261016-irvine-calder-heads-michael-father",
+            "profile_names": {
+              "Glasgow-1406": "Michael Glasgow, Irvine skinner and saddler",
+              "Glasgow-1512": "Robert Glasgow, Ayr father in 1670–1671"
+            },
+            "status": "uncertain",
+            "hypothesis_status": "possible",
+            "working_selection": true,
+            "allow_new_relationship": true,
+            "publication_status": "approved",
+            "assessment_date": "2026-10-16",
+            "evidence_grade": "Low/very low-confidence locality/generation or childhood identity selection",
+            "claim": "Selected uncertain father for Michael Glasgow, Irvine skinner and saddler",
+            "basis": "Select Robert Glasgow-1512 as Michael Glasgow-1406’s uncertain working father. This activates a parent comparison already recorded in Michael’s profile. Robert is a record-defined Ayr father with Margaret Donald in 1670 and 1671; Michael is recorded as an Irvine skinner in 1679 and is already treated locally as the later saddler/councillor. Robert’s before 1652 birth is an upper-bound estimate from his later children, not evidence that he was born in 1652. Michael’s before 1679 boundary likewise does not date his birth. An older Robert and a Michael born well before the summons could fit a father/son generation; their ages are not recorded. The regional family setting and existing candidate justify a very low-confidence working choice. No record names Michael’s father, and no shared occupation, holding, witness or household identifies this Robert as his parent.",
+            "limitations": "John Glasgow-1604 is another viable older father generation, rather than a disproved alternative. Robert’s own attachment to that John is unproved, and taking John’s approximate 1626 date narrowly could press the generation spacing if Robert had Michael early. Those older dates and attachments remain hypotheses; no date is adjusted to repair the pedigree. Another Ayrshire father, or a sibling/collateral relationship to Robert, remains possible. Margaret Donald-1722 is named in Robert’s 1670–1671 children’s records, not in a record naming Michael’s mother. She is not selected as Michael’s mother. The existing 1679 skinner/later saddler/councillor identification is inherited from the completed merge, not newly proved; keep the 1679 summons,1686/1702 civic records and 1699/1701 leather-work references distinct in their evidence roles. Elizabeth Garven and Catharine Baird remain the recorded mothers in Michael’s later child group. The 1700 Elizabeth entry has an assumed year and no proved 1 January birthday. No mother, marriage or death date is newly inferred for Michael, and the 1700–1715 household chronology does not itself identify his parents. The earlier proof-level hold on Robert is retained as history, not treated as a disproof of this qualified local model. Both are selected uncertain local father models using existing material. Neither adult receives a mother. No original newly inspected, source-record discovery, identity merge, live WikiTree edit or confidence upgrade is claimed. Existing dates, places and attached relatives are retained; connectivity counts profile accounts, including possible duplicates and older uncertain links.",
+            "source_ids": [
+              "irvine-michael-skinner-1679",
+              "ayr-robert-donald-1670"
+            ],
+            "model_note": "John Glasgow-1604 is another viable older father generation, rather than a disproved alternative. Robert’s own attachment to that John is unproved, and taking John’s approximate 1626 date narrowly could press the generation spacing if Robert had Michael early. Those older dates and attachments remain hypotheses; no date is adjusted to repair the pedigree. Another Ayrshire father, or a sibling/collateral relationship to Robert, remains possible. Margaret Donald-1722 is named in Robert’s 1670–1671 children’s records, not in a record naming Michael’s mother. She is not selected as Michael’s mother. The existing 1679 skinner/later saddler/councillor identification is inherited from the completed merge, not newly proved; keep the 1679 summons,1686/1702 civic records and 1699/1701 leather-work references distinct in their evidence roles. Elizabeth Garven and Catharine Baird remain the recorded mothers in Michael’s later child group. The 1700 Elizabeth entry has an assumed year and no proved 1 January birthday. No mother, marriage or death date is newly inferred for Michael, and the 1700–1715 household chronology does not itself identify his parents. The earlier proof-level hold on Robert is retained as history, not treated as a disproof of this qualified local model. Both are selected uncertain local father models using existing material. Neither adult receives a mother. No original newly inspected, source-record discovery, identity merge, live WikiTree edit or confidence upgrade is claimed. Existing dates, places and attached relatives are retained; connectivity counts profile accounts, including possible duplicates and older uncertain links.",
+            "analysis_links": [
+              {
+                "label": "Michael of Irvine and James of Kirknewton: two working fathers",
+                "href": "/branches/early-scottish-records/#irvine-calder-heads"
+              }
+            ],
+            "provenance": {
+              "prior_assessment": "No selected parent on this adult account; existing comparisons or recorded local generations supplied the model.",
+              "basis": "Existing covenant, parish-index and profile material; both newly considered mothers remain unselected.",
+              "resolution_note": "Selected uncertain parent only; no new certainty, merge or live save."
+            },
+            "relationship": "father",
+            "status_label": "Uncertain father; selected working family",
+            "reason": "Select Robert Glasgow-1512 as Michael Glasgow-1406’s uncertain working father. This activates a parent comparison already recorded in Michael’s profile. Robert is a record-defined Ayr father with Margaret Donald in 1670 and 1671; Michael is recorded as an Irvine skinner in 1679 and is already treated locally as the later saddler/councillor. Robert’s before 1652 birth is an upper-bound estimate from his later children, not evidence that he was born in 1652. Michael’s before 1679 boundary likewise does not date his birth. An older Robert and a Michael born well before the summons could fit a father/son generation; their ages are not recorded. The regional family setting and existing candidate justify a very low-confidence working choice. No record names Michael’s father, and no shared occupation, holding, witness or household identifies this Robert as his parent.",
+            "claim_id": "C-working-20261016-irvine-calder-heads-michael-father",
+            "lifecycle": "current",
+            "display": "hypothesis",
+            "tree_relationship": false,
+            "relationship_source": "shared_research_assertion",
+            "assessment_source": "/assets/research/relationship-assessments.json",
+            "record_source": "/assets/research/canonical-records.json",
+            "historical_claim_ids": [],
+            "id": "Glasgow-1512",
+            "name": "Robert Glasgow, Ayr father in 1670–1671",
+            "url": "/people/glasgow-1512.html",
+            "wikitree_url": "https://www.wikitree.com/wiki/Glasgow-1512",
+            "probability": {
+              "band": "uncertain",
+              "label": "Uncertain/speculative · 23%",
+              "minimum": 0.01,
+              "maximum": 0.29,
+              "rank": 1,
+              "value": 0.23,
+              "method": "individual_evidence_assessment",
+              "origin": "research",
+              "basis": "Select Robert Glasgow-1512 as Michael Glasgow-1406’s uncertain working father. This activates a parent comparison already recorded in Michael’s profile. Robert is a record-defined Ayr father with Margaret Donald in 1670 and 1671; Michael is recorded as an Irvine skinner in 1679 and is already treated locally as the later saddler/councillor. Robert’s before 1652 birth is an upper-bound estimate from his later children, not evidence that he was born in 1652. Michael’s before 1679 boundary likewise does not date his birth. An older Robert and a Michael born well before the summons could fit a father/son generation; their ages are not recorded. The regional family setting and existing candidate justify a very low-confidence working choice. No record names Michael’s father, and no shared occupation, holding, witness or household identifies this Robert as his parent.",
+              "reviewed": "2026-10-17",
+              "source_ids": [
+                "irvine-michael-skinner-1679",
+                "ayr-robert-donald-1670"
+              ],
+              "assertion_id": "C-working-20261016-irvine-calder-heads-michael-father"
+            }
+          }
+        ],
+        "spouses": [
+          {
+            "id": "Baird-5776",
+            "name": "Catharine Baird",
+            "relationship": "spouse",
+            "status": "unknown",
+            "status_label": "WikiTree tree relationship",
+            "basis": "tree",
+            "evidence_ids": [],
+            "tree_relationship": true,
+            "relationship_source": "wikitree_spouse_field",
+            "tree_status": "unmarked",
+            "tree_status_label": "WikiTree: relationship status unmarked",
+            "url": "/people/baird-5776.html",
+            "json_url": "/people/baird-5776.json",
+            "network_url": "/people/baird-5776.network.json",
+            "wikitree_url": "https://www.wikitree.com/wiki/Baird-5776",
+            "claim_id": "C-e4355cabc5bc",
+            "probability": {
+              "band": "unrated",
+              "label": "Unrated",
+              "minimum": null,
+              "maximum": null,
+              "rank": 0,
+              "value": null,
+              "method": "not_individually_assessed",
+              "origin": "wikitree"
+            }
+          },
+          {
+            "id": "Garven-52",
+            "name": "Elizabeth Garven",
+            "relationship": "spouse",
+            "status": "unknown",
+            "status_label": "WikiTree tree relationship",
+            "basis": "tree",
+            "evidence_ids": [],
+            "tree_relationship": true,
+            "relationship_source": "wikitree_spouse_field",
+            "tree_status": "unmarked",
+            "tree_status_label": "WikiTree: relationship status unmarked",
+            "url": "/people/garven-52.html",
+            "json_url": "/people/garven-52.json",
+            "network_url": "/people/garven-52.network.json",
+            "wikitree_url": "https://www.wikitree.com/wiki/Garven-52",
+            "claim_id": "C-3680bd6ebe30",
+            "probability": {
+              "band": "unrated",
+              "label": "Unrated",
+              "minimum": null,
+              "maximum": null,
+              "rank": 0,
+              "value": null,
+              "method": "not_individually_assessed",
+              "origin": "wikitree"
+            }
+          }
+        ],
+        "children": [
+          {
+            "id": "Glasgow-1408",
+            "name": "Agnes Glasgow",
+            "relationship": "daughter",
+            "status": "unknown",
+            "status_label": "WikiTree tree relationship",
+            "basis": "tree",
+            "evidence_ids": [],
+            "tree_relationship": true,
+            "relationship_source": "reconstructed_parent_reference",
+            "tree_status": "unmarked",
+            "tree_status_label": "WikiTree: relationship status unmarked",
+            "url": "/people/glasgow-1408.html",
+            "json_url": "/people/glasgow-1408.json",
+            "network_url": "/people/glasgow-1408.network.json",
+            "wikitree_url": "https://www.wikitree.com/wiki/Glasgow-1408",
+            "claim_id": "C-5f3136393361"
+          },
+          {
+            "id": "Glasgow-1409",
+            "name": "Elizabeth Glasgow",
+            "relationship": "daughter",
+            "status": "unknown",
+            "status_label": "WikiTree tree relationship",
+            "basis": "tree",
+            "evidence_ids": [],
+            "tree_relationship": true,
+            "relationship_source": "reconstructed_parent_reference",
+            "tree_status": "unmarked",
+            "tree_status_label": "WikiTree: relationship status unmarked",
+            "url": "/people/glasgow-1409.html",
+            "json_url": "/people/glasgow-1409.json",
+            "network_url": "/people/glasgow-1409.network.json",
+            "wikitree_url": "https://www.wikitree.com/wiki/Glasgow-1409",
+            "claim_id": "C-6f9c8be6ab01"
+          },
+          {
+            "id": "Glasgow-1418",
+            "name": "Elizabeth Glasgow",
+            "relationship": "daughter",
+            "status": "unknown",
+            "status_label": "WikiTree tree relationship",
+            "basis": "tree",
+            "evidence_ids": [],
+            "tree_relationship": true,
+            "relationship_source": "reconstructed_parent_reference",
+            "tree_status": "unmarked",
+            "tree_status_label": "WikiTree: relationship status unmarked",
+            "url": "/people/glasgow-1418.html",
+            "json_url": "/people/glasgow-1418.json",
+            "network_url": "/people/glasgow-1418.network.json",
+            "wikitree_url": "https://www.wikitree.com/wiki/Glasgow-1418",
+            "claim_id": "C-4905135d15a6"
+          },
+          {
+            "id": "Glasgow-1407",
+            "name": "Janet Glasgow",
+            "relationship": "daughter",
+            "status": "unknown",
+            "status_label": "WikiTree tree relationship",
+            "basis": "tree",
+            "evidence_ids": [],
+            "tree_relationship": true,
+            "relationship_source": "reconstructed_parent_reference",
+            "tree_status": "unmarked",
+            "tree_status_label": "WikiTree: relationship status unmarked",
+            "url": "/people/glasgow-1407.html",
+            "json_url": "/people/glasgow-1407.json",
+            "network_url": "/people/glasgow-1407.network.json",
+            "wikitree_url": "https://www.wikitree.com/wiki/Glasgow-1407",
+            "claim_id": "C-57625f645b32"
+          },
+          {
+            "id": "Glasgow-1410",
+            "name": "Michael Glasgow",
+            "relationship": "son",
+            "status": "unknown",
+            "status_label": "WikiTree tree relationship",
+            "basis": "tree",
+            "evidence_ids": [],
+            "tree_relationship": true,
+            "relationship_source": "reconstructed_parent_reference",
+            "tree_status": "unmarked",
+            "tree_status_label": "WikiTree: relationship status unmarked",
+            "url": "/people/glasgow-1410.html",
+            "json_url": "/people/glasgow-1410.json",
+            "network_url": "/people/glasgow-1410.network.json",
+            "wikitree_url": "https://www.wikitree.com/wiki/Glasgow-1410",
+            "claim_id": "C-a7c96124684f"
+          }
+        ],
+        "siblings": []
+      }
+    }
+  },
+  "decisions": [
+    {
+      "retired_catalogue_id": "record-fmp-glasgow-8d4bf08c43ec",
+      "canonical_profile_id": "Glasgow-4098",
+      "provider_record_ids": [
+        "SCOT/OPR/BAP/0476082",
+        "SCOT/OPR/BAP/0501646"
+      ],
+      "reason": "The record-only account and Glasgow-4098 cite the same retained Findmypast record(s): SCOT/OPR/BAP/0476082, SCOT/OPR/BAP/0501646. The existing profile already represents this documentary subject. Retire the duplicate catalogue person; preserve the accepted profile, sources, dates and relationship assessments. This is publication reconciliation, not new parentage.",
+      "previous_integration_decision": {}
+    },
+    {
+      "retired_catalogue_id": "record-fmp-glasgow-f9d3e4df7bbb",
+      "canonical_profile_id": "Glasgow-4140",
+      "provider_record_ids": [
+        "SCOT/OPR/BAP/2975865"
+      ],
+      "reason": "The record-only account and Glasgow-4140 cite the same retained Findmypast record(s): SCOT/OPR/BAP/2975865. The existing profile already represents this documentary subject. Retire the duplicate catalogue person; preserve the accepted profile, sources, dates and relationship assessments. This is publication reconciliation, not new parentage.",
+      "previous_integration_decision": {}
+    },
+    {
+      "retired_catalogue_id": "record-fmp-glasgow-d8449b678fd3",
+      "canonical_profile_id": "Glasgow-4134",
+      "provider_record_ids": [
+        "SCOT/OPR/BAP/3625052"
+      ],
+      "reason": "The record-only account and Glasgow-4134 cite the same retained Findmypast record(s): SCOT/OPR/BAP/3625052. The existing profile already represents this documentary subject. Retire the duplicate catalogue person; preserve the accepted profile, sources, dates and relationship assessments. This is publication reconciliation, not new parentage.",
+      "previous_integration_decision": {}
+    },
+    {
+      "retired_catalogue_id": "record-fmp-glasgow-e47e0e47524a",
+      "canonical_profile_id": "Glasgow-4138",
+      "provider_record_ids": [
+        "GBPR/COVENANT/028558",
+        "GBPR/COVENANT/028559",
+        "GBPR/COVENANT/028560"
+      ],
+      "reason": "The record-only account and Glasgow-4138 cite the same retained Findmypast record(s): GBPR/COVENANT/028558, GBPR/COVENANT/028559, GBPR/COVENANT/028560. The existing profile already represents this documentary subject. Retire the duplicate catalogue person; preserve the accepted profile, sources, dates and relationship assessments. This is publication reconciliation, not new parentage.",
+      "previous_integration_decision": {
+        "outcome": "new_person",
+        "creation_status": "READY",
+        "notes": "One reviewed documentary identity consolidating the 1679 Cavers deposition, the Cavers shipwreck-survivor list and the 1684 Ormistoun servant list; no compatible WikiTree profile was found."
+      }
+    },
+    {
+      "retired_catalogue_id": "record-fmp-glasgow-fb417c9f3803",
+      "canonical_profile_id": "Glasgow-1406",
+      "provider_record_ids": [
+        "GBPR/COVENANT/028557"
+      ],
+      "reason": "The record-only account and Glasgow-1406 cite the same retained Findmypast record(s): GBPR/COVENANT/028557. The existing profile already represents this documentary subject. Retire the duplicate catalogue person; preserve the accepted profile, sources, dates and relationship assessments. This is publication reconciliation, not new parentage. Preserve the separately inferred skinner-to-saddler identity and its stated limits; Glasgow-4141 was already merged into Glasgow-1406 on 27 September 2026.",
+      "previous_integration_decision": {
+        "outcome": "new_person",
+        "creation_status": "READY",
+        "handoff_path": "surname-research/new-people/1679_1688_Scotland_The_Tounes_and_Parochines_of_Irving_and_Kilwinning_and_baronies_yrin_Michael_Glasgow.md",
+        "catalogue_event_date": "Sep 1679",
+        "catalogue_event_year": 1679,
+        "catalogue_event_year_start": 1679,
+        "catalogue_event_year_end": 1679,
+        "notes": "The transcript's source wording dates the summons list to September 1679; 1679-1688 is only the collection span and is not Michael's event or birth date."
+      }
+    }
+  ],
+  "verification": {
+    "source_record_rows_preserved": true,
+    "canonical_dates_and_relationships_unchanged": true,
+    "catalogue_and_exports_have_one_row_per_subject": true,
+    "source_routes_retargeted": true,
+    "discovery_log_unchanged": true,
+    "research_publication_failing_items": 0,
+    "new_broken_link_pairs": 0,
+    "browser_source_query": "0476082",
+    "browser_source_query_results": 1,
+    "creation_ready_count_after": 74
+  }
+}
