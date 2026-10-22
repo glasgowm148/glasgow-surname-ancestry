@@ -95,7 +95,7 @@ development release after 0.6.0:
   the search and its result as written, the date as `searched_on` when
   it is an ISO date, and its `limitation` when one is recorded. A search about
   a person who is not public, or naming a withheld profile, is left out;
-- Glasgow's surname variants as `[names.variants]`, grouped under Glasgow;
+- Glasgow's surname variants as `[names.variants]`, grouped under Glasgow, with `[names] surname = "Glasgow"` and `[site] tree_name = "WikiTree"` so the people catalogue's menus read as the Glasgow page's ("Glasgow at birth", the WikiTree menu);
 - the extra profile IDs of a merged catalogue person, and WikiTree merge
   redirects where the local overrides file is present, as `former_ids` of
   public people;

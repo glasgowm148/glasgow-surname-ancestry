@@ -30,8 +30,9 @@ Glasgow site as its model can express, and so the gaps can be measured:
   This is Glasgow's public catalogue, so Glasgow's own publication
   decisions already apply to it.
 
-Glasgow's surname variants become ``[names.variants]``. ``[site]
-contact_email`` is never set: Glasgow's contact is not published.
+Glasgow's surname variants become ``[names.variants]``, with ``[names] surname``
+and ``[site] tree_name`` naming the surname and WikiTree for the catalogue's
+menus. ``[site] contact_email`` is never set: Glasgow's contact is not published.
 
 Text that names a profile Glasgow withholds is never carried: a note
 paragraph mentioning one becomes "Private family details withheld.", and
@@ -608,6 +609,25 @@ class Translator:
             self.report["completed searches in the research log" + ("" if when else " (undated)")] += 1
 
 
+def config_tables(grades: dict) -> str:
+    """The tables appended to the starter ``genealogy.toml``: the site's tree, the surname and its variants, and the grades used.
+
+    Glasgow's record roles have no reader labels or cautions of their own
+    (evidence_labels.RECORD_EVIDENCE describes record links, not record
+    types), so there is no [source_types] table. [site] contact_email stays
+    unset: Glasgow does not publish its contact address. The catalogue's
+    "Glasgow at birth" and "Women who married a Glasgow" checks, and its
+    WikiTree menu and example ID, take their names from surname and tree_name.
+    """
+    text = '\n[site]\ntree_name = "WikiTree"\n\n[names]\nsurname = "Glasgow"\n'
+    text += "\n[names.variants]\n" + "".join(f"{json.dumps(canonical)} = {json.dumps(spellings)}\n"
+                                            for canonical, spellings in surname_variants().items())
+    for key, grade in grades.items():
+        text += f"\n[grades.{key}]\n" + "".join(f"{name} = {json.dumps(grade[name], ensure_ascii=False)}\n"
+                                                 for name in ("label", "meaning", "confidence"))
+    return text
+
+
 def build_case(project: Path, *, one_tree: Path = ONE_TREE, research: Path = RESEARCH, catalogue: Path = CATALOGUE) -> dict:
     missing = [str(path) for path in (one_tree, catalogue, research) if not path.exists()]
     if missing:  # local, Git-ignored inputs: check before replacing the project
@@ -645,17 +665,8 @@ def build_case(project: Path, *, one_tree: Path = ONE_TREE, research: Path = RES
     except ModuleNotFoundError:
         from build_research_catalog import _load_research_findings
     t.notes(research, lambda profile: _load_research_findings([profile]))
-    grades = t.grades()
     with (project / "genealogy.toml").open("a", encoding="utf-8") as handle:
-        # Glasgow's record roles have no reader labels or cautions of their own
-        # (evidence_labels.RECORD_EVIDENCE describes record links, not record
-        # types), so there is no [source_types] table. [site] contact_email
-        # stays unset: Glasgow does not publish its contact address.
-        handle.write("\n[names.variants]\n" + "".join(f"{json.dumps(canonical)} = {json.dumps(spellings)}\n"
-                                                     for canonical, spellings in surname_variants().items()))
-        for key, grade in grades.items():
-            handle.write(f"\n[grades.{key}]\n" + "".join(f"{name} = {json.dumps(grade[name], ensure_ascii=False)}\n"
-                                                         for name in ("label", "meaning", "confidence")))
+        handle.write(config_tables(t.grades()))
     errors = validate_case(case) + grade_errors(case, ProjectConfig.load(project / "genealogy.toml").grades)
     if errors:
         raise ValueError("translated case is invalid:\n" + "\n".join(errors[:20]))

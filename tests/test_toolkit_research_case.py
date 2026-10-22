@@ -274,6 +274,17 @@ class TranslatorTests(unittest.TestCase):
         self.assertEqual(4, t.report["people with a WikiTree identifier"])  # Fable-1, -2, -3 and -8
         self.assertEqual([], validate_case(c))
 
+    def test_the_config_names_the_surname_the_tree_and_the_grades_used(self):
+        import tomllib
+        from tools.toolkit_research_case import config_tables
+        t = Translator(case(), private=lambda text: False)
+        t.used_grades.add("proved")
+        config = tomllib.loads("[project]\nname = \"Fictional\"\n" + config_tables(t.grades()))
+        self.assertEqual("WikiTree", config["site"]["tree_name"])
+        self.assertEqual("Glasgow", config["names"]["surname"])
+        self.assertIn("Glasgow", config["names"]["variants"])
+        self.assertEqual({"label", "meaning", "confidence"}, set(config["grades"]["proved"]))
+
     def test_source_qualities_use_the_standard_terms_only_when_clear(self):
         from tools.toolkit_research_case import source_quality, surname_variants
         self.assertEqual(["original", "derivative", "derivative", "derivative", "authored", "authored", None, None, None],
