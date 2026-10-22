@@ -3342,10 +3342,10 @@
       "prior_work_summary": ""
     },
     "Glasgow-3592": {
-      "draft_path": "research/Glasgow-3592/queue-review-2026-10-17.wiki",
-      "summary": "Add the cited record account: Possible Thomas Glasgow, Kentucky postal addressee, 1799. Retain the stated identity and relationship limits.",
-      "work_queue_summary": "Add the cited record account: Possible Thomas Glasgow, Kentucky postal addressee, 1799. Retain the stated identity and relationship limits.",
-      "queued_at": "2026-10-17",
+      "draft_path": "research/Glasgow-3592/rathdowney-register-2026-10-22.wiki",
+      "summary": "Distinguish birth 1 May from baptism 7 May 1777; mark existing parents confident at 98%.",
+      "work_queue_summary": "Distinguish birth 1 May from baptism 7 May 1777; mark existing parents confident at 98%.",
+      "queued_at": "2026-10-22",
       "status": "OPEN",
       "pending": true,
       "findings_path": "research/Glasgow-3592/findings.md",
@@ -3354,7 +3354,40 @@
         "subject-newspapers-early-glasgow-thomas-glasgow-kentucky-postal-1799"
       ],
       "private_comparison": false,
-      "prior_work_summary": ""
+      "prior_work_summary": "",
+      "profile_id": "Glasgow-3592",
+      "biography_rechecked_at": "2026-10-22",
+      "remote_captured_at": "2026-10-22",
+      "remote_wikitext": "== Biography ==\n\nThomas was born  7 May 1777.<ref>\"Ireland, Catholic Parish Registers, 1740-1900\", FamilySearch (https://www.familysearch.org/ark:/61903/1:1:X3QK-WMQL : Fri Mar 28 00:01:13 UTC 2025), Entry for Thoms Glascow and David Glascow, 7 May 1777.\n</ref>\n== Sources ==\n<references />\n* https://irelandxo.com/ireland/laois/rathdowney-laois/message-board/searching-information-parents-thomas-glasgow",
+      "relationship_changes": [
+        {
+          "action": "regrade",
+          "relationship": "father",
+          "relative_id": "Glasgow-3593",
+          "status": "proved",
+          "previous_status": "unmarked",
+          "previous_probability_percent": null,
+          "probability_percent": 98,
+          "assertion_id": "C-reviewed-20261022-rathdowney-thomas-father",
+          "previous_status_provenance": "Fresh anonymous Open/non-living WikiTree check 22 October 2026: Thomas’s attached father has a blank certainty flag; local before-snapshot unknown and unrated.",
+          "scope": "This assessment identifies the register child represented by Glasgow-3592 and his expressly named parents. It does not prove that this child became the Tipperary husband of Johanna Ryan or father of Michael Glasgow, and does not identify David with the Scottish David Glasgow-3456. No new parent is attached and no paternal family is joined. Margaret’s separate baptism and the 1773 marriage have not been inspected in this batch. The household townland and sponsors are not securely read from the available low-resolution scan and are not asserted here."
+        },
+        {
+          "action": "regrade",
+          "relationship": "mother",
+          "relative_id": "Ford-28175",
+          "status": "proved",
+          "previous_status": "unmarked",
+          "previous_probability_percent": null,
+          "probability_percent": 98,
+          "assertion_id": "C-reviewed-20261022-rathdowney-thomas-mother",
+          "previous_status_provenance": "Fresh anonymous Open/non-living WikiTree check 22 October 2026: Thomas’s attached mother has a blank certainty flag; local before-snapshot unknown and unrated.",
+          "scope": "This assessment identifies the register child represented by Glasgow-3592 and his expressly named parents. It does not prove that this child became the Tipperary husband of Johanna Ryan or father of Michael Glasgow, and does not identify David with the Scottish David Glasgow-3456. No new parent is attached and no paternal family is joined. Margaret’s separate baptism and the 1773 marriage have not been inspected in this batch. The household townland and sponsors are not securely read from the available low-resolution scan and are not asserted here."
+        }
+      ],
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "preservation_review_path": "research/ancestry-connections/rathdowney-preservation-2026-10-22.json"
     },
     "Glasgow-3598": {
       "draft_path": "research/Glasgow-3598/queue-review-2026-10-17.wiki",
@@ -7564,6 +7597,66 @@
       "work_queue_summary": "Possible father of the Dundonald William account,46%; probably overlapping an existing son account, not an additional proved son.",
       "findings_path": "research/Glasgow-1057/findings.md",
       "remote_wikitext": "== Biography ==  \n{{One Name Study|name=Glasgow}}\n\nJohn Glasgow was born before 1661. He was the son of [[Glasgow-1150|James Glasgow]] and [[Duncan-16106|Agnes Duncan]].<ref>Scotland, Births and Baptisms, 1564-1950. FamilySearch database. https://familysearch.org/ark:/61903/1:1:XTPZ-B5P (accessed 2025).</ref> He was baptized on 30 August 1661 at Edinburgh Parish, Edinburgh, Midlothian, Scotland.\n\nBaptism locations for their children suggest that John Glasgow and his wife [[Spark-330|Agnes Spark]] moved from Kilwinning parish to Stevenston parish sometime between 1687 and 1701.\n\nFrom Elaine Comes: \"[[Glasgow-1055|William Glasgow (abt.1701-)]] had a brother named [[Glasgow-1056|Hugh Glasgow (abt.1692-)]] who married [[Kilpatrick-1635|Janet (Kilpatrick) Glasgow]]. They were sons of [[Glasgow-1080|John Glasgow]] and [[Spark-330|Agnes (Spark) Glasgow]].\"\n\nFrom baptism records, they also had a son [[Glasgow-1058|George Glasgow (bef.1687-)]], baptized in Kilwinning.<ref>Scotland, Births and Baptisms, 1564-1950. FamilySearch database. https://www.familysearch.org/ark:/61903/1:1:XTVB-MX8 (accessed 2025).</ref>\n\n== Research Notes ==\n\n* John Glasgow's testament dative and inventory was recorded on 6 November 1685 in the Boog of Steivinstoun at the Glasgow Commissary Court (CC9/7/47).\n* He appears as the father in baptism records for George Glasgow in 1687 and William Glasgow in 1701, suggesting he lived well beyond 1685 despite the early testament listing.<ref>Scotland, Births and Baptisms, 1564-1950. FamilySearch database. https://familysearch.org/ark:/61903/1:1:XYZK-3J8 (accessed 2025).</ref>\n\n== Sources ==\n* John Glasgow, Testament Dative and Inventory, 6 Nov 1685, Boog of Steivinstoun, Glasgow Commissary Court (CC9/7/47).\n* Scotland, Births and Baptisms, 1564-1950, entry for George Glasgow, 1687. https://www.familysearch.org/ark:/61903/1:1:XTVB-MX8\n* Scotland, Births and Baptisms, 1564-1950, entry for Johne Glasgow, 1661. https://familysearch.org/ark:/61903/1:1:XTPZ-B5P\n* Scotland, Births and Baptisms, 1564-1950, entry for William Glasgow, 1701. https://familysearch.org/ark:/61903/1:1:XYZK-3J8\n\n<references />"
+    },
+    "Glasgow-3593": {
+      "profile_id": "Glasgow-3593",
+      "status": "OPEN",
+      "pending": true,
+      "queued_at": "2026-10-22",
+      "biography_rechecked_at": "2026-10-22",
+      "remote_captured_at": "2026-10-22",
+      "remote_wikitext": "== Biography ==\n\nDavid was born before 1755<ref>\"Ireland, Catholic Parish Registers, 1740-1900\", FamilySearch (https://www.familysearch.org/ark:/61903/1:1:X37J-FNN6 : Sat Mar 29 09:11:05 UTC 2025), Entry for David Glascow and Anne Ford, 14 Sep 1773.</ref>\n\n== Research Notes ==\n\nPossibly [[Glasgow-3456|David Glasgow (1744-)]]\n\n== Sources ==\n<references />\n* https://irelandxo.com/ireland/laois/rathdowney-laois/message-board/searching-information-parents-thomas-glasgow",
+      "draft_path": "research/Glasgow-3593/rathdowney-register-2026-10-22.wiki",
+      "findings_path": "research/Glasgow-3593/findings.md",
+      "summary": "Add the inspected 1777 baptism naming Thomas and both parents; existing child link confident 98%.",
+      "work_queue_summary": "Add the inspected 1777 baptism naming Thomas and both parents; existing child link confident 98%.",
+      "relationship_changes": [
+        {
+          "action": "regrade",
+          "relationship": "child",
+          "relative_id": "Glasgow-3592",
+          "status": "proved",
+          "previous_status": "unmarked",
+          "previous_probability_percent": null,
+          "probability_percent": 98,
+          "assertion_id": "C-reviewed-20261022-rathdowney-thomas-father",
+          "previous_status_provenance": "Fresh anonymous Open/non-living WikiTree check 22 October 2026: Thomas’s attached father has a blank certainty flag; local before-snapshot unknown and unrated.",
+          "scope": "This assessment identifies the register child represented by Glasgow-3592 and his expressly named parents. It does not prove that this child became the Tipperary husband of Johanna Ryan or father of Michael Glasgow, and does not identify David with the Scottish David Glasgow-3456. No new parent is attached and no paternal family is joined. Margaret’s separate baptism and the 1773 marriage have not been inspected in this batch. The household townland and sponsors are not securely read from the available low-resolution scan and are not asserted here."
+        }
+      ],
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "preservation_review_path": "research/ancestry-connections/rathdowney-preservation-2026-10-22.json"
+    },
+    "Ford-28175": {
+      "profile_id": "Ford-28175",
+      "status": "OPEN",
+      "pending": true,
+      "queued_at": "2026-10-22",
+      "biography_rechecked_at": "2026-10-22",
+      "remote_captured_at": "2026-10-22",
+      "remote_wikitext": "== Biography ==\n\nAnne was born before 1759. \n== Sources ==\n<references />\n* https://irelandxo.com/ireland/laois/rathdowney-laois/message-board/searching-information-parents-thomas-glasgow",
+      "draft_path": "research/Ford-28175/rathdowney-register-2026-10-22.wiki",
+      "findings_path": "research/Ford-28175/findings.md",
+      "summary": "Add the inspected 1777 baptism naming Thomas and both parents; existing child link confident 98%.",
+      "work_queue_summary": "Add the inspected 1777 baptism naming Thomas and both parents; existing child link confident 98%.",
+      "relationship_changes": [
+        {
+          "action": "regrade",
+          "relationship": "child",
+          "relative_id": "Glasgow-3592",
+          "status": "proved",
+          "previous_status": "unmarked",
+          "previous_probability_percent": null,
+          "probability_percent": 98,
+          "assertion_id": "C-reviewed-20261022-rathdowney-thomas-mother",
+          "previous_status_provenance": "Fresh anonymous Open/non-living WikiTree check 22 October 2026: Thomas’s attached mother has a blank certainty flag; local before-snapshot unknown and unrated.",
+          "scope": "This assessment identifies the register child represented by Glasgow-3592 and his expressly named parents. It does not prove that this child became the Tipperary husband of Johanna Ryan or father of Michael Glasgow, and does not identify David with the Scottish David Glasgow-3456. No new parent is attached and no paternal family is joined. Margaret’s separate baptism and the 1773 marriage have not been inspected in this batch. The household townland and sponsors are not securely read from the available low-resolution scan and are not asserted here."
+        }
+      ],
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "preservation_review_path": "research/ancestry-connections/rathdowney-preservation-2026-10-22.json"
     }
   },
   "reviewed_on": "2026-10-21",

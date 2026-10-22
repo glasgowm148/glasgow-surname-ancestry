@@ -1,0 +1,42 @@
+{
+  "reviewed": "2026-10-22",
+  "scope": "Original Rathdowney baptism; preserve complete existing biographies, earlier source citations and the inherited later-family question.",
+  "profiles": {
+    "Glasgow-3592": {
+      "current_sha256": "ccff2af75825969c1f1fe5b9fd20e87d305871e47b255c11d111c3d6408b39f4",
+      "proposed_sha256": "17c47378cb56ca99a00fbcc49f3447f90c53a843ada5722d6d638ff1eef50886",
+      "all_substantive_passages_accounted_for": true,
+      "previous_draft_path": "research/Glasgow-3592/queue-review-2026-10-17.wiki",
+      "draft_path": "research/Glasgow-3592/rathdowney-register-2026-10-22.wiki",
+      "reviewed_substitutions": [
+        {
+          "before": "Thomas was born  7 May 1777.",
+          "after": "Thomas was born on 1 May 1777 and baptised on 7 May in Rathdowney Catholic parish, Queen’s County (now Laois), Ireland, the son of [[Glasgow-3593|David Glascow]] and [[Ford-28175|Anne Ford]].<ref name=\"Rathdowney1777\">Rathdowney Catholic parish register, NLI microfilm 05013/08, image 83, manuscript p.147, Thomas entry near the foot of the right-hand page; [https://registers.nli.ie/pages/vtls000631901_083 National Library of Ireland original scan], inspected 22 October 2026. Born 1 May; baptised 7 May 1777; parents David Glascow and Anne Ford. Household place and sponsors remain unread.</ref>",
+          "basis": "Original p.147 separates birth and baptism dates and expressly names both parents."
+        }
+      ],
+      "retained": "All current profile passages, source URLs, family links and earlier prepared research notes retained; original-source correction separates the two dates.",
+      "normalisation_review": "Only standard heading spacing and external-link labels changed; sources retained. Known later-family names linked. David’s son paragraph placed in Biography."
+    },
+    "Glasgow-3593": {
+      "current_sha256": "85d806dde424035ece7efbd341c70bef9203c2a73ebaa2ad41c39557f70bab98",
+      "proposed_sha256": "889b31a4f492f59bbfa69c712f05452b2e493fada3a4e30a8f4e24cb9757fe56",
+      "all_substantive_passages_accounted_for": true,
+      "previous_draft_path": null,
+      "draft_path": "research/Glasgow-3593/rathdowney-register-2026-10-22.wiki",
+      "reviewed_substitutions": [],
+      "retained": "All current profile passages, source URLs, family links and earlier prepared research notes retained; original-source correction separates the two dates.",
+      "normalisation_review": "Only standard heading spacing and external-link labels changed; sources retained. Known later-family names linked. David’s son paragraph placed in Biography."
+    },
+    "Ford-28175": {
+      "current_sha256": "1bd8dfca5956a698b686496c4b75581703c77ca0ab826a549adfc5b4aac8cb1d",
+      "proposed_sha256": "93654cfe0152bf171a1346876fdcadf16808c81d9dd89563af316a8eee7516d4",
+      "all_substantive_passages_accounted_for": true,
+      "previous_draft_path": null,
+      "draft_path": "research/Ford-28175/rathdowney-register-2026-10-22.wiki",
+      "reviewed_substitutions": [],
+      "retained": "All current profile passages, source URLs, family links and earlier prepared research notes retained; original-source correction separates the two dates.",
+      "normalisation_review": "Only standard heading spacing and external-link labels changed; sources retained. Known later-family names linked. David’s son paragraph placed in Biography."
+    }
+  }
+}

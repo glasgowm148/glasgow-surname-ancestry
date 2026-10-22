@@ -2631,3 +2631,10 @@ Burial-defined Walter remains on source-verification HOLD in the existing creati
 
 | [James Glasgow](https://www.wikitree.com/wiki/Glasgow-1483) | OPEN | New probable mother Lillias Stewart 86%; existing probable father 78% preserved; complete documentary draft held for identity checks. |
 | [Samuel Glasgow](https://www.wikitree.com/wiki/Glasgow-3063) | OPEN | Probable intended spouse Lillias Stewart 82%;1790 Barony banns; complete couple argument. |
+
+
+## 22 October 2026 — Rathdowney original baptism
+
+| [Thomas Glasgow](https://www.wikitree.com/wiki/Glasgow-3592) | OPEN | Distinguish birth 1 May from baptism 7 May 1777; mark existing parents confident at 98%. |
+| [David Glasgow](https://www.wikitree.com/wiki/Glasgow-3593) | OPEN | Add the inspected 1777 baptism naming Thomas and both parents; existing child link confident 98%. |
+| [Anne Ford](https://www.wikitree.com/wiki/Ford-28175) | OPEN | Add the inspected 1777 baptism naming Thomas and both parents; existing child link confident 98%. |
