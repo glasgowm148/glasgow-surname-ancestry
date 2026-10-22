@@ -99,6 +99,8 @@ development release after 0.6.0:
 - the extra profile IDs of a merged catalogue person, and WikiTree merge
   redirects where the local overrides file is present, as `former_ids` of
   public people;
+- the region Glasgow files each record's location under as `Place.region`, so the catalogue's **Country or region** menu and the places page group by Glasgow's own regions ("United States", "At Sea") rather than the last part of a place name;
+- each catalogue cluster ("Possible group") as a `Study` of kind `group` naming its public members, so the catalogue's **Possible group** menu lists the clusters;
 - every tree person's WikiTree ID as an external identifier (`wikitree`, with
   the profile's URL), so the catalogue and dossier show "Glasgow-123" rather
   than the record id;

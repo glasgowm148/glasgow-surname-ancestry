@@ -2,9 +2,9 @@
 import unittest
 
 from genealogy.case import ResearchCase, validate_case
-from genealogy.models import Confidence, ExternalIdentifier, LivingStatus, Name, Person, Relationship, Sensitivity
+from genealogy.models import Confidence, ExternalIdentifier, LivingStatus, Name, Person, Place, Relationship, Sensitivity
 from tools.evidence_labels import STATES
-from tools.toolkit_research_case import Translator, person_id
+from tools.toolkit_research_case import Translator, _short, person_id
 
 
 def case():
@@ -77,6 +77,19 @@ class TranslatorTests(unittest.TestCase):
         self.assertNotIn("private", text)
         self.assertEqual(1, t.report["tables in research notes"])
 
+    def test_a_notes_heading_written_as_a_link_is_shown_by_its_words(self):
+        import tempfile
+        from pathlib import Path
+        t = Translator(case())
+        with tempfile.TemporaryDirectory() as directory:
+            folder = Path(directory) / "Fable-1"
+            folder.mkdir()
+            (folder / "findings.md").write_text("# Findings: [Ada Fable (Fable-1)](https://example.org/Fable-1)\n\nLast updated: 2026-09-01\n\n## Birth\n\nSeen.\n", encoding="utf-8")
+            t.notes(Path(directory))
+        study = next(s for s in t.case.records("Study") if s.id == "glasgow:notes:Fable-1")
+        self.assertEqual("Findings: Ada Fable (Fable-1)", study.title)
+        self.assertEqual("2026-09-01", study.updated_on)
+
     def test_findings_link_known_people_and_keep_their_limits(self):
         c = case()
         t = Translator(c)
@@ -130,6 +143,33 @@ class TranslatorTests(unittest.TestCase):
         self.assertIn(("parent", bea, person_id("Fable-1")), links)
         self.assertIn(("spouse", bea, person_id("Fable-3")), links)
         self.assertFalse(any("Hidden-1" in r.object_id for r in c.records("Relationship")))
+
+    def test_catalogue_regions_file_places_and_clusters_become_group_studies(self):
+        c = case()
+        c.add(Place(id="one-tree:place:lantern", name="Lanternby, North Shire, Fableland", sensitivity=Sensitivity.PUBLIC))
+        t = Translator(c, private=lambda text: "Hidden-9" in str(text))
+        rows = [
+            {"catalogue_id": "fable-1", "profile_ids": ["Fable-1"], "likely_living": False, "name": "Ada",
+             "clusters": ["Lanternby cluster", "Early Fable records"], "cluster": "Lanternby cluster",
+             "records": [{"record_location": "Lanternby,  North Shire, Fableland", "region": "The Fable Isles"},
+                         {"record_location": "Lanternby, North Shire, Fableland", "region": "The Fable Isles"},
+                         {"record_location": "Lanternby, North Shire, Fableland", "region": "Fableland"}]},
+            {"catalogue_id": "fable-2", "profile_ids": ["Fable-2"], "likely_living": False, "name": "Bram", "clusters": ["Lanternby cluster"]},
+            {"catalogue_id": "living-1", "profile_ids": ["Living-1"], "likely_living": True, "clusters": ["Lanternby cluster"]},
+            {"catalogue_id": "fable-3", "profile_ids": ["Fable-3"], "likely_living": False, "clusters": ["Hidden-9 leads"]},
+        ]
+        t.catalogue(rows)
+        t.regions(rows)
+        t.groups(rows)
+        place = next(p for p in c.records("Place") if p.id == "one-tree:place:lantern")
+        self.assertEqual("The Fable Isles", place.region)  # the region filed most often for that location
+        studies = {s.id: s for s in c.records("Study") if s.kind == "group"}
+        lantern = studies["glasgow:group:" + _short("Lanternby cluster")]
+        self.assertEqual(("Lanternby cluster", [person_id("Fable-1"), person_id("Fable-2")], Sensitivity.PUBLIC), (lantern.title, lantern.related_ids, lantern.sensitivity))
+        self.assertEqual([person_id("Fable-1")], studies["glasgow:group:" + _short("Early Fable records")].related_ids)
+        self.assertEqual(2, len(studies))  # the withheld-profile cluster is left out and counted
+        self.assertEqual(1, t.gaps["catalogue groups naming a withheld profile"])
+        self.assertEqual([], validate_case(c))
 
     def test_sibling_assessments_grade_a_symmetric_link_with_reason_and_limitation(self):
         c = case()

@@ -52,7 +52,7 @@ translated, what was left out and why.
 from __future__ import annotations
 
 import argparse
-from collections import Counter
+from collections import Counter, defaultdict
 from datetime import date
 import hashlib
 import json
@@ -543,11 +543,58 @@ class Translator:
                     continue
                 body = "\n\n".join(f"## {section['title']}\n\n{section['markdown']}" for section in published)
             updated = re.search(r"Last updated:\s*(\d{4}-\d{2}-\d{2})", text)
-            self.case.add(Study(id=f"glasgow:notes:{profile}", title=(title[1] if title else f"Research notes: {profile}"),
+            # A heading written as a Markdown link ("Findings: [Name](url)") is shown by its words.
+            heading = re.sub(r"\[([^\]]+)\]\([^)]*\)", r"\1", title[1]).strip() if title else f"Research notes: {profile}"
+            self.case.add(Study(id=f"glasgow:notes:{profile}", title=heading,
                                 body=self.markdown(body), related_ids=[self.pid(profile)], status="draft",
                                 updated_on=updated[1] if updated else None, sensitivity=PUBLIC))
             self.report["research notes"] += 1
 
+
+    # -- the catalogue's own groupings -------------------------------------
+    def regions(self, people) -> None:
+        """``Place.region`` from the region Glasgow files each record's location under.
+
+        Each catalogue row's ``records`` give a ``record_location`` and the
+        ``region`` Glasgow shows for it ("United States", "At Sea"). A place
+        whose name is one of those locations takes the region most often
+        filed for it; the rest keep the last part of their name.
+        """
+        filed: dict[str, Counter[str]] = defaultdict(Counter)
+        for row in people:
+            for record in row.get("records") or []:
+                where, region = (" ".join(str(record.get(key) or "").split()) for key in ("record_location", "region"))
+                if where and region:
+                    filed[where.casefold()][region] += 1
+        for place in self.case.records("Place"):
+            counts = filed.get(" ".join(str(place.name).split()).casefold())
+            if counts and not place.region:
+                place.region = counts.most_common(1)[0][0]
+                self.report["places filed under a catalogue region"] += 1
+
+    def groups(self, people) -> None:
+        """Each catalogue cluster ("Possible group") as a Study of kind ``group`` naming its public members.
+
+        Membership says who the catalogue files together, never that they
+        are kin; a cluster with no public member is left out.
+        """
+        members: dict[str, list[str]] = defaultdict(list)
+        for row in people:
+            keys = [k for k in [*row.get("profile_ids", []), row.get("catalogue_id")] if k]
+            pid = next((self.pid(k) for k in keys if self.known(k)), None)
+            if not pid:
+                continue
+            for name in dict.fromkeys(" ".join(str(c).split()) for c in [*(row.get("clusters") or []), row.get("cluster")] if c):
+                if pid not in members[name]:
+                    members[name].append(pid)
+        for name, pids in sorted(members.items()):
+            if self.private(name):
+                self.gaps["catalogue groups naming a withheld profile"] += 1
+                continue
+            self.case.add(Study(id=f"glasgow:group:{_short(name)}", title=name, kind="group", related_ids=pids, status="published",
+                                summary=f"The {len(pids)} people the catalogue files under this group. Being filed together says they are studied "
+                                        "together, not that they are kin.", sensitivity=PUBLIC))
+            self.report["catalogue groups"] += 1
 
     # -- research questions ----------------------------------------------
     def questions(self, directory: Path):
@@ -646,7 +693,10 @@ def build_case(project: Path, *, one_tree: Path = ONE_TREE, research: Path = RES
         from public_privacy import from_sources
     t = Translator(case, from_sources().contains_private_id)
     load = lambda name: json.loads((research / name).read_text(encoding="utf-8"))
-    t.catalogue(json.loads(catalogue.read_text(encoding="utf-8"))["people"])
+    rows = json.loads(catalogue.read_text(encoding="utf-8"))["people"]
+    t.catalogue(rows)
+    t.regions(rows)
+    t.groups(rows)
     citations = t.records(load("canonical_records.json"))
     t.assessments(load("relationship_assessments.json"), load("relationship_probability_estimates.json")["estimates"], citations)
     t.findings(load("latest-findings.json")["findings"])
