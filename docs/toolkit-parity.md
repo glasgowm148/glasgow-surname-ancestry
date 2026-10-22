@@ -101,6 +101,8 @@ development release after 0.6.0:
   public people;
 - the region Glasgow files each location under as `Place.region` (a location named in the records, or a birth or death location of a person filed under one region; any other place by the first part of its name, from the last, that Glasgow files under one region four times in five, then by such a word when the name has no commas), so the catalogue's **Country or region** menu and the places page group by Glasgow's own regions ("United States", "At Sea") rather than the last part of a place name;
 - each catalogue cluster ("Possible group") as a `Study` of kind `group` naming its public members, so the catalogue's **Possible group** menu lists the clusters;
+- the significance Glasgow gives each profile still to update on WikiTree, carried onto every pending relationship change of that person's, so the catalogue's "Update priority" sorts and the dossier's pending updates read as Glasgow's;
+- the Y-DNA lines and branch model as `Haplogroup` records (branch, parent, reported date, label), each anchor person placed on their branch with how they are attached, and the model's historical stages as one study of kind `dna`; kits, markers, matches and raw results are never carried;
 - every tree person's WikiTree ID as an external identifier (`wikitree`, with
   the profile's URL), so the catalogue and dossier show "Glasgow-123" rather
   than the record id;

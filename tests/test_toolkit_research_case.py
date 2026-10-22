@@ -1,4 +1,5 @@
 """The Glasgow → workbench translator, on fictional rows."""
+import json
 import unittest
 
 from genealogy.case import ResearchCase, validate_case
@@ -336,6 +337,52 @@ class TranslatorTests(unittest.TestCase):
         self.assertEqual("Glasgow", config["names"]["surname"])
         self.assertIn("Glasgow", config["names"]["variants"])
         self.assertEqual({"label", "meaning", "confidence"}, set(config["grades"]["proved"]))
+
+    def test_pending_changes_take_the_catalogue_significance(self):
+        from genealogy.models import Finding
+        c = case()
+        c.add(Finding(id="f-1", conclusion="Fable-2's father is Fable-1.", status="draft", related_ids=[person_id("Fable-2")],
+                      changes=[{"record_id": "one-tree:relationship:Fable-2:father", "before": "possible", "after": "probable"}], sensitivity=Sensitivity.PUBLIC))
+        c.add(Finding(id="f-2", conclusion="Reviewed already.", status="reviewed", related_ids=[person_id("Fable-2")],
+                      changes=[{"record_id": "one-tree:relationship:Fable-2:father", "after": "probable"}], sensitivity=Sensitivity.PUBLIC))
+        t = Translator(c, private=lambda text: False)
+        t.significance([{"catalogue_id": "fable-2", "profile_ids": ["Fable-2"], "needs_wikitree_update": True, "wikitree_update_significance": 55},
+                        {"catalogue_id": "fable-1", "profile_ids": ["Fable-1"], "needs_wikitree_update": False, "wikitree_update_significance": 90}])
+        findings = {f.id: f for f in c.records("Finding")}
+        self.assertEqual(55, findings["f-1"].changes[0]["significance"])  # the person still to update, not the reviewed finding
+        self.assertNotIn("significance", findings["f-2"].changes[0])
+        self.assertEqual([], validate_case(c))
+
+    def test_dna_lines_place_public_people_on_branches_from_the_model(self):
+        import tempfile
+        from pathlib import Path
+        c = case()
+        t = Translator(c, private=lambda text: "Hidden-9" in str(text))
+        with tempfile.TemporaryDirectory() as directory:
+            lines = Path(directory) / "lines.json"
+            lines.write_text(json.dumps([
+                {"id": "Fable-1", "haplogroup": "R-FABLE2", "pedigree": "Reported root", "summary": "The  tester's line reaches Ada."},
+                {"id": "Fable-2", "haplogroup": "R-FABLE2", "pedigree": "Tested line", "summary": "Names Hidden-9."},
+                {"id": "Nobody-1", "haplogroup": "R-FABLE1"}]), encoding="utf-8")
+            model = Path(directory) / "data.json"
+            model.write_text(json.dumps({"historicalModel": {
+                "parentByBranch": {"R-FABLE2": "R-FABLE1"},
+                "ages": [{"id": "R-FABLE1", "year": 1044, "detail": "1044 CE · reported 95%: 697–1313", "label": "The fork"}],
+                "topologyNote": "Two sibling branches.",
+                "stages": [{"title": "The older family", "summary": "Deep ancestry.", "reading": "A testable story."}]}}), encoding="utf-8")
+            t.dna(lines, model)
+        branches = {h.name: h for h in c.records("Haplogroup")}
+        self.assertEqual({"R-FABLE1", "R-FABLE2"}, set(branches))
+        self.assertEqual((branches["R-FABLE1"].id, "1044 CE · reported 95%: 697–1313", "The fork"), (branches["R-FABLE2"].parent_id, branches["R-FABLE1"].date, branches["R-FABLE1"].note))
+        people = {p.id: p for p in c.records("Person")}
+        self.assertEqual((branches["R-FABLE2"].id, "Reported root The tester's line reaches Ada."), (people[person_id("Fable-1")].haplogroup_id, people[person_id("Fable-1")].haplogroup_note))
+        self.assertIsNone(people[person_id("Fable-2")].haplogroup_id)  # names a withheld profile
+        self.assertEqual(1, t.gaps["DNA lines naming a withheld profile"])
+        self.assertEqual(1, t.gaps["DNA lines whose person is not public"])
+        study = next(s for s in c.records("Study") if s.kind == "dna")
+        self.assertIn("## The older family", study.body)
+        self.assertEqual(sorted(branches[n].id for n in branches), sorted(study.related_ids))
+        self.assertEqual([], validate_case(c))
 
     def test_source_qualities_use_the_standard_terms_only_when_clear(self):
         from tools.toolkit_research_case import source_quality, surname_variants

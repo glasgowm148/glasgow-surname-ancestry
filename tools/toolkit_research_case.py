@@ -74,7 +74,7 @@ from genealogy.config import ProjectConfig  # noqa: E402
 from genealogy.importing import import_file  # noqa: E402
 from genealogy.dates import year_of  # noqa: E402
 from genealogy.models import (  # noqa: E402
-    Citation, Claim, ClaimStatus, Confidence, Event, Evidence, ExternalIdentifier, Finding, LivingStatus, Name, Person, Place,
+    Citation, Claim, ClaimStatus, Confidence, Event, Evidence, ExternalIdentifier, Finding, Haplogroup, LivingStatus, Name, Person, Place,
     Relationship, ResearchQuestion, Search, Sensitivity, Source, Study,
 )
 
@@ -87,6 +87,8 @@ DEFAULT_PROJECT = ROOT / "data/private/toolkit-build"
 PROFILE_OVERRIDES = ROOT / "data/wikitree/live-profile-overrides.json"
 # The branch stories Glasgow's Families & branches pages tell (read-only).
 STORIES = ROOT / "tools/study_stories"
+DNA_LINES = ROOT / "www/ydna/lines.json"  # public: each anchor person's branch and how they are attached
+DNA_MODEL = ROOT / "data/private/withheld-public-assets/ydna/glasgow-ydna-story-source/data.json"  # the approved branch model
 PUBLIC = Sensitivity.PUBLIC
 
 try:
@@ -558,6 +560,85 @@ class Translator:
 
 
     # -- branch stories ------------------------------------------------------
+    def significance(self, people) -> None:
+        """Each pending change's ``significance`` from the catalogue's ``wikitree_update_significance``.
+
+        Glasgow ranks the profiles still to update on WikiTree; the workbench
+        sorts its catalogue by the same figure, carried onto every change a
+        finding still to be reviewed or applied makes to one of that person's
+        links.
+        """
+        weight: dict[str, int] = {}
+        for row in people:
+            n = int(row.get("wikitree_update_significance") or 0)
+            if n <= 0 or not row.get("needs_wikitree_update"):
+                continue
+            for key in [*row.get("profile_ids", []), row.get("catalogue_id")]:
+                pid = self.pid(key) if key and self.known(key) else None
+                if pid:
+                    weight[pid] = max(weight.get(pid, 0), min(n, 100))
+        ends = {r.id: (r.subject_id, r.object_id) for r in self.case.records("Relationship")}
+        for finding in self.case.records("Finding"):
+            if str(finding.status or "").casefold() in ("reviewed", "applied"):
+                continue
+            for change in finding.changes:
+                scores = [weight[pid] for pid in ends.get(change.get("record_id"), ()) if pid in weight]
+                if scores and change.get("significance") is None:
+                    change["significance"] = max(scores)
+                    self.report["pending changes with a significance"] += 1
+
+    def dna(self, lines: Path, model: Path | None) -> None:
+        """Y-DNA branches and the people anchoring them, from the public lines and the approved branch model.
+
+        Only branch names, their reported dates and the project's notes are
+        carried: no kits, markers, matches or raw results. A line whose profile
+        is not public is counted, not carried.
+        """
+        branches: dict[str, Haplogroup] = {}
+        hid = lambda name: f"glasgow:haplogroup:{_short(name)}"
+        parents, ages = {}, {}
+        if model and model.exists():
+            historical = json.loads(model.read_text(encoding="utf-8")).get("historicalModel") or {}
+            parents = {str(k): str(v) for k, v in (historical.get("parentByBranch") or {}).items() if v}
+            ages = {str(a["id"]): a for a in historical.get("ages") or [] if a.get("id")}
+        def branch(name: str) -> str:
+            name = " ".join(str(name).split())
+            if name not in branches:
+                age = ages.get(name) or {}
+                branches[name] = Haplogroup(id=hid(name), name=name, date=age.get("detail") or (f"{age['year']} CE" if age.get("year") else None),
+                                            note=age.get("label") or None, sensitivity=PUBLIC)
+                if parents.get(name):
+                    branches[name].parent_id = branch(parents[name])
+            return branches[name].id
+        for name in parents:
+            branch(name)
+        for row in json.loads(lines.read_text(encoding="utf-8")):
+            profile, name = row.get("id"), row.get("haplogroup")
+            if not (profile and name):
+                continue
+            if not self.known(profile):
+                self.gaps["DNA lines whose person is not public"] += 1
+                continue
+            text = " ".join(" ".join(str(row.get(key) or "").split()) for key in ("pedigree", "summary")).strip()
+            if self.private(text):
+                self.gaps["DNA lines naming a withheld profile"] += 1
+                continue
+            person = next(p for p in self.case.records("Person") if p.id == self.pid(profile))
+            person.haplogroup_id = branch(name)
+            person.haplogroup_note = text or None
+            self.report["people placed on a DNA branch"] += 1
+        self.case.add_many(list(branches.values()))
+        self.report["DNA branches"] += len(branches)
+        # The model's historical stages, as the Y-DNA page prints them, make one interpretation study.
+        stages = [st for st in (historical.get("stages") if model and model.exists() else []) or [] if st.get("title")]
+        if stages and not self.private(json.dumps(stages, ensure_ascii=False)):
+            body = "\n\n".join(f"## {' '.join(str(st['title']).split())}\n\n" + "\n\n".join(
+                " ".join(str(st[key]).split()) for key in ("summary", "genetic", "geography", "reading") if st.get(key)) for st in stages)
+            self.case.add(Study(id="glasgow:study:ydna-interpretation", title="What the Y-DNA branches say, stage by stage", kind="dna", status="published",
+                                summary=" ".join(str(historical.get("topologyNote") or stages[0].get("summary") or "").split()) or None,
+                                body=body, related_ids=[b.id for b in branches.values()], sensitivity=PUBLIC))
+            self.report["DNA interpretation studies"] += 1
+
     def stories(self, directory: Path) -> None:
         """Each branch story (``tools/study_stories/*.json``) as a Study of kind ``family``.
 
@@ -837,6 +918,9 @@ def build_case(project: Path, *, one_tree: Path = ONE_TREE, research: Path = RES
     t.notes(research, lambda profile: _load_research_findings([profile]))
     if STORIES.exists():
         t.stories(STORIES)
+    t.significance(rows)
+    if DNA_LINES.exists():
+        t.dna(DNA_LINES, DNA_MODEL if DNA_MODEL.exists() else None)
     with (project / "genealogy.toml").open("a", encoding="utf-8") as handle:
         handle.write(config_tables(t.grades()))
     errors = validate_case(case) + grade_errors(case, ProjectConfig.load(project / "genealogy.toml").grades)
