@@ -231,12 +231,14 @@
     },
     "Glasgow-1938": {
       "current_sha256": "627d7828b9d43708713c5146108f80b7444047bcecc91c07a60ce2e6ce6fc1b6",
-      "proposed_sha256": "bdf8591bdc8abf2fc1b2e5d0923315d7ae03d3531bd949a548f0654f0d2246d3",
+      "proposed_sha256": "e26c785e0004c2a3a686fadb3c3fc148bb1f57080709934aa92b43907e8fc400",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-1938/father-confidence-2026-10-22c.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
-      "restored_source_passage_count": 0
+      "retained": "Complete captured and previous historical biography, all people and sources retained. Removed only the process comment, marked the 78% review as historical, and added the 94% whole-family argument with an explicit derivative-source limitation.",
+      "restored_source_passage_count": 0,
+      "previous_proposed_sha256": "bdf8591bdc8abf2fc1b2e5d0923315d7ae03d3531bd949a548f0654f0d2246d3",
+      "reviewed": "2026-10-22"
     },
     "Glasgow-1958": {
       "current_sha256": "1453564a16cd891f23c01356f990696e89bec721146f239e0d2707671cad114c",

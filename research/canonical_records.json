@@ -30252,5 +30252,34 @@
     },
     "note": "FamilySearch F8KY-ZQ9 is another presentation of this marriage, not an independent event. Canonicalises existing held evidence; no new source discovery.",
     "provenance": "research/ancestry-connections/held-parent-strength-2026-10-22.json"
+  },
+  {
+    "record_id": "held-reported-scott-household-1850",
+    "record_type": "Previously reported census extract",
+    "date": "1850",
+    "place": "Scott Township, Adams County, Ohio, United States",
+    "association": "Reported group: William 72 Virginia; Madison 32 Ohio; Margaret 27 New York; Mary A 9, Eliza J 6, Rhoda 3 and Wm W1 Ohio. Kinship is inferred, not an enumerated relationship.",
+    "source_title": "“Wm Glasgow in the 1850 United States Federal Census”, as transcribed in William Glasgow’s compiled WikiTree biography; original locator absent.",
+    "source_url": "https://www.wikitree.com/wiki/Glasgow-563",
+    "source_type": "Derivative profile transcription, not a newly verified census citation",
+    "source_quality": "derivative",
+    "source_status": "Complete saved profile extract reviewed 22 October 2026; no original image, page, roll, dwelling or family number recovered. The URL identifies the derivative account, not the census.",
+    "status": "Reported household facts; father identification confidently inferred 94%, conditional on the retained reading.",
+    "reviewed": "2026-10-22",
+    "assessment": "94% is a subjective confident inference for the complete father–adult-profile pair, not direct proof. The reported census extract does not state kinship. The original image, household boundaries and page/roll/dwelling/family locator remain unverified. Its seven-person sequence is one reported record; the modern family fields and compiled parent claims may derive from the same census or compilation and are not six independent confirmations. A wrong extract or an unrecognised kinship could change this assessment. No new original was inspected. Rhoda’s maternity, the elder William’s separate 95% Robert-father assessment, all vital fields and other ancestry remain unchanged.",
+    "profiles": {
+      "Glasgow-1938": {
+        "role": "Madison 32, identified by wife and four-child sequence"
+      },
+      "Glasgow-563": {
+        "role": "William 72 Virginia; father relationship inferred"
+      }
+    },
+    "related_evidence_ids": [
+      "E-c299c13427c5",
+      "E-958aa72491e8"
+    ],
+    "note": "These existing generic citations may refer to the same return. Do not count them or modern profile fields as independent confirmations; no synthetic original citation is supplied.",
+    "provenance": "research/ancestry-connections/madison-household-review-2026-10-22.json"
   }
 ]

@@ -3930,3 +3930,8 @@ Twenty additional transcripts are recorded under existing people or qualified ca
 ## 22 October 2026 — Glasko father-confidence reassessment
 
 | [Isaac Glasko](https://www.wikitree.com/wiki/Glasko-4) | OPEN | Existing father Jacob Glasko-5: saved unmarked → confident96%; local 88% probable → 96% confident. Add the held 1800 marriage argument; retain complete biography and unresolved maternity. |
+
+
+## 22 October 2026 — William Madison father-confidence review
+
+| [William Madison Glasgow](https://www.wikitree.com/wiki/Glasgow-1938) | OPEN | Existing William Glasgow-563 father: saved unmarked → confident 94%; local 78% probable →94% confident. Add the complete reported 1850 family comparison with the original-locator limitation; no new parent. |

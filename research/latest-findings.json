@@ -52468,6 +52468,55 @@
         }
       ],
       "detail_url": "/people/glasko-4.html"
+    },
+    {
+      "id": "madison-household-father-reassessment-20261022",
+      "found_on": "2026-10-22",
+      "reviewed_on": "2026-10-22",
+      "kind": "relationship",
+      "status": "qualified",
+      "detail_url": "/people/glasgow-1938.html",
+      "finding": "William Madison’s distinctive wife/four-child sequence matches the complete reported 1850 group with elder William. Combined with the specific family attribution, it raises the existing father assessment from 78% probable to 94% confident.",
+      "qualification": "94% is a subjective confident inference for the complete father–adult-profile pair, not direct proof. The reported census extract does not state kinship. The original image, household boundaries and page/roll/dwelling/family locator remain unverified. Its seven-person sequence is one reported record; the modern family fields and compiled parent claims may derive from the same census or compilation and are not six independent confirmations. A wrong extract or an unrecognised kinship could change this assessment. No new original was inspected. Rhoda’s maternity, the elder William’s separate 95% Robert-father assessment, all vital fields and other ancestry remain unchanged. The saved father remains unmarked on WikiTree; a confidence amendment is prepared, not applied.",
+      "people": [
+        {
+          "id": "Glasgow-1938",
+          "name": "William Madison Glasgow",
+          "url": "/people/glasgow-1938.html",
+          "role": "Whole adult identity included in the father inference"
+        },
+        {
+          "id": "Glasgow-563",
+          "name": "William Glasgow",
+          "url": "/people/glasgow-563.html",
+          "role": "Already-attached father; own earlier ancestry unchanged"
+        }
+      ],
+      "sources": [
+        {
+          "title": "William Glasgow’s compiled biography: reported 1850 Scott Township household; derivative transcription, original locator absent",
+          "url": "https://www.wikitree.com/wiki/Glasgow-563"
+        },
+        {
+          "title": "William Madison’s retained compiled parent attribution; not an original parent-naming record",
+          "url": "https://www.wikitree.com/wiki/Glasgow-1938"
+        }
+      ],
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "Glasgow-1938",
+          "relative": "Glasgow-563",
+          "before": "probable",
+          "after": "certain",
+          "explanation": "Local whole-pair confidence 78 → 94 from the complete reported family/household combination. Existing father; saved control remains unmarked. No new original or parent.",
+          "previous_status_provenance": [
+            "research/relationship_assessments.json#C-coverage-20261022c-glasgow-1938-father assessment_history",
+            "research/Glasgow-1938/findings.md earlier third-batch 78% assessment",
+            "research/relationship_probability_estimates.json prior 78% in assessment_history"
+          ]
+        }
+      ]
     }
   ]
 }

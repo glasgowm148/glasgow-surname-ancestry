@@ -8611,29 +8611,55 @@
       "subject_id": "Glasgow-1938",
       "relative_id": "Glasgow-563",
       "relationship": "father",
-      "percent": 78,
-      "assessment_status": "probable",
+      "percent": 94,
+      "assessment_status": "strongly_supported",
       "assertion_id": "C-coverage-20261022c-glasgow-1938-father",
-      "basis": "William Madison’s retained account explicitly names William Glasgow and Rhoda Montgomery as parents. His 1818 birth fits their established Adams County family and distinguishes him by full name from his father. The held census citations support his later identity but do not independently name his father.",
+      "basis": "William Glasgow is William Madison Glasgow’s confidently inferred father, 94%. The retained 1850 Scott Township, Adams County, Ohio extract lists William, 72, born Virginia, with Madison, 32, born Ohio, Margaret, 27, born New York, and Mary A 9, Eliza J 6, Rhoda 3 and Wm W 1. Madison’s distinctive name and this spouse/four-child sequence match the 1818-born William Madison’s complete family. The elder William’s age and Virginia origin identify the proposed father. Combined with the specific compiled attribution to William and Rhoda and their compatible Virginia-to-Ohio family chronology, this strongly favours father and adult son over an unrelated lodger, uncle or older namesake. No concrete conflicting parent or competing Madison family appears in the reviewed material.",
       "source_ids": [
+        "held-reported-scott-household-1850",
         "held-e-97cfa3a365eb"
       ],
       "reviewed": "2026-10-22",
-      "scope": "Probable 78%; specific compiled-family attribution, with parent-naming original evidence outstanding."
+      "scope": "94% is a subjective confident inference for the complete father–adult-profile pair, not direct proof. The reported census extract does not state kinship. The original image, household boundaries and page/roll/dwelling/family locator remain unverified. Its seven-person sequence is one reported record; the modern family fields and compiled parent claims may derive from the same census or compilation and are not six independent confirmations. A wrong extract or an unrecognised kinship could change this assessment. No new original was inspected. Rhoda’s maternity, the elder William’s separate 95% Robert-father assessment, all vital fields and other ancestry remain unchanged.",
+      "assessment_history": [
+        {
+          "percent": 78,
+          "assessment_status": "probable",
+          "basis": "William Madison’s retained account explicitly names William Glasgow and Rhoda Montgomery as parents. His 1818 birth fits their established Adams County family and distinguishes him by full name from his father. The held census citations support his later identity but do not independently name his father.",
+          "source_ids": [
+            "held-e-97cfa3a365eb"
+          ],
+          "scope": "Probable 78%; specific compiled-family attribution, with parent-naming original evidence outstanding.",
+          "reviewed": "2026-10-22"
+        }
+      ]
     },
     {
       "subject_id": "Glasgow-563",
       "relative_id": "Glasgow-1938",
       "relationship": "child",
-      "percent": 78,
-      "assessment_status": "probable",
+      "percent": 94,
+      "assessment_status": "strongly_supported",
       "assertion_id": "C-coverage-20261022c-glasgow-1938-father",
-      "basis": "William Madison’s retained account explicitly names William Glasgow and Rhoda Montgomery as parents. His 1818 birth fits their established Adams County family and distinguishes him by full name from his father. The held census citations support his later identity but do not independently name his father.",
+      "basis": "William Glasgow is William Madison Glasgow’s confidently inferred father, 94%. The retained 1850 Scott Township, Adams County, Ohio extract lists William, 72, born Virginia, with Madison, 32, born Ohio, Margaret, 27, born New York, and Mary A 9, Eliza J 6, Rhoda 3 and Wm W 1. Madison’s distinctive name and this spouse/four-child sequence match the 1818-born William Madison’s complete family. The elder William’s age and Virginia origin identify the proposed father. Combined with the specific compiled attribution to William and Rhoda and their compatible Virginia-to-Ohio family chronology, this strongly favours father and adult son over an unrelated lodger, uncle or older namesake. No concrete conflicting parent or competing Madison family appears in the reviewed material.",
       "source_ids": [
+        "held-reported-scott-household-1850",
         "held-e-97cfa3a365eb"
       ],
       "reviewed": "2026-10-22",
-      "scope": "Probable 78%; specific compiled-family attribution, with parent-naming original evidence outstanding."
+      "scope": "94% is a subjective confident inference for the complete father–adult-profile pair, not direct proof. The reported census extract does not state kinship. The original image, household boundaries and page/roll/dwelling/family locator remain unverified. Its seven-person sequence is one reported record; the modern family fields and compiled parent claims may derive from the same census or compilation and are not six independent confirmations. A wrong extract or an unrecognised kinship could change this assessment. No new original was inspected. Rhoda’s maternity, the elder William’s separate 95% Robert-father assessment, all vital fields and other ancestry remain unchanged.",
+      "assessment_history": [
+        {
+          "percent": 78,
+          "assessment_status": "probable",
+          "basis": "William Madison’s retained account explicitly names William Glasgow and Rhoda Montgomery as parents. His 1818 birth fits their established Adams County family and distinguishes him by full name from his father. The held census citations support his later identity but do not independently name his father.",
+          "source_ids": [
+            "held-e-97cfa3a365eb"
+          ],
+          "scope": "Probable 78%; specific compiled-family attribution, with parent-naming original evidence outstanding.",
+          "reviewed": "2026-10-22"
+        }
+      ]
     },
     {
       "subject_id": "Glasgow-1958",

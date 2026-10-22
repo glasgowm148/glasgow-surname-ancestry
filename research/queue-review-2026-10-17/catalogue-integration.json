@@ -12268,20 +12268,22 @@
       "biography_rechecked_at": "2026-10-22",
       "draft_path": "research/Glasgow-1938/father-confidence-2026-10-22c.wiki",
       "findings_path": "research/Glasgow-1938/findings.md",
-      "summary": "Review existing father at 78% (probable), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 78% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Mark the already-attached father William confident (94%) using the complete reported 1850 family comparison; retain the biography, mother and all citations. Clearly identify the derivative extract and missing original locator; no new father.",
+      "work_queue_summary": "Mark the already-attached father William confident (94%) using the complete reported 1850 family comparison; retain the biography, mother and all citations. Clearly identify the derivative extract and missing original locator; no new father.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-563",
-          "status": "probable",
+          "status": "strongly_supported",
           "previous_status": "unmarked",
           "previous_probability_percent": null,
-          "probability_percent": 78,
+          "probability_percent": 94,
           "assertion_id": "C-coverage-20261022c-glasgow-1938-father",
-          "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Probable 78%; specific compiled-family attribution, with parent-naming original evidence outstanding."
+          "previous_status_provenance": "Anonymous live API 22 October 2026, revision20250130171609: same father attached, certainty control blank/unmarked. Local preceding 78% probable preserved in assertion history; no live edit.",
+          "scope": "94% is a subjective confident inference for the complete father–adult-profile pair, not direct proof. The reported census extract does not state kinship. The original image, household boundaries and page/roll/dwelling/family locator remain unverified. Its seven-person sequence is one reported record; the modern family fields and compiled parent claims may derive from the same census or compilation and are not six independent confirmations. A wrong extract or an unrecognised kinship could change this assessment. No new original was inspected. Rhoda’s maternity, the elder William’s separate 95% Robert-father assessment, all vital fields and other ancestry remain unchanged.",
+          "previous_local_status": "probable",
+          "previous_local_probability_percent": 78
         }
       ],
       "preserve_captured_detail": false,
@@ -12289,7 +12291,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation3-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation3-2026-10-22.json",
+      "significance": 86
     },
     "Glasgow-1958": {
       "profile_id": "Glasgow-1958",
