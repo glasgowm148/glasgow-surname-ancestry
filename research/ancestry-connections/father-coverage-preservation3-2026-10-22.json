@@ -4,12 +4,14 @@
   "profiles": {
     "Glasko-4": {
       "current_sha256": "04d661e371f3690ff6c25cd923e2f335458f249a198a2e96f7fc8b95d8d06b57",
-      "proposed_sha256": "8616b7c5f0bb162abe6ad97062ab92711a54b6d67e429cf48684adfde84a951e",
+      "proposed_sha256": "f5394f9cdadab6a2cc5f33f8ab5011af1ac50afbc4d010a32dbcad8d204e7ffe",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasko-4/father-confidence-2026-10-22c.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
-      "restored_source_passage_count": 0
+      "retained": "Complete captured and previous historical narrative, every named relative/associate and all citations retained. The process comment is removed; two maternal claims are qualified in place, not silently deleted; the earlier88% review is explicitly historical. A96% source/identity argument is added.",
+      "restored_source_passage_count": 0,
+      "previous_proposed_sha256": "8616b7c5f0bb162abe6ad97062ab92711a54b6d67e429cf48684adfde84a951e",
+      "reviewed": "2026-10-22"
     },
     "Glasgow-1387": {
       "current_sha256": "dc64f69b9bfa11b19c33e2128b5444e1efbde57b177478d8d5f30e82b116e681",

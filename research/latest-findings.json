@@ -52409,6 +52409,65 @@
       "provenance": [
         "research/ancestry-connections/stichill-strength-review-2026-10-22.json"
       ]
+    },
+    {
+      "id": "glasko-marriage-father-reassessment-20261022",
+      "found_on": "2026-10-22",
+      "reviewed_on": "2026-10-22",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "The held 1800 marriage citation names Jacob Glasse as Isaac’s father. Combined with the distinctive Isaac/Lucy household and family continuity, it raises the existing father assessment from 88% probable to 96% confident.",
+      "qualification": "96% is a subjective confident inference for this complete immediate-father profile pair. The retained indexed father clause was overlooked in the earlier 88% review; the original town-register image and 1807 conveyance were not newly inspected. Fresh FamilySearch access was blocked by a security challenge. The two marriage indexes describe one event, and the historical property retellings may be dependent. The residual uncertainty includes a wrong indexed clause or an unrecognised conflation. Martha/Matilda/Lucy maternal labels, exact dates and locations, the 1820 Jacob identity, Jacob’s earlier ancestry and any connection to other Glasgow branches remain separate. No mother or new parent is selected. The live father mark was checked and remains unmarked; a confidence amendment is prepared, not saved.",
+      "people": [
+        {
+          "id": "Glasko-4",
+          "name": "Isaac Glasko",
+          "url": "/people/glasko-4.html",
+          "role": "Existing child account; complete adult identification included"
+        },
+        {
+          "id": "Glasko-5",
+          "name": "Jacob Glasko",
+          "url": "/people/glasko-5.html",
+          "role": "Already-attached father; own ancestry unresolved"
+        },
+        {
+          "id": "Brayton-597",
+          "name": "Lucy Brayton",
+          "url": "https://www.wikitree.com/wiki/Brayton-597",
+          "role": "Distinctive spouse in the 1800 marriage, not an identified mother"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Smithfield marriage,19 December 1800; retained indexed citation, town records p. 363,DGS 004250616 image 215; original not newly inspected",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:F8VJ-5J5"
+        },
+        {
+          "title": "Lucy Brayton in Isaac Glasco’s1800 marriage; another presentation of the same event",
+          "url": "https://familysearch.org/ark:/61903/1:1:F8KY-ZQ9"
+        },
+        {
+          "title": "Calloway(ed.), After King Philip’s War; held family continuity account",
+          "url": "https://www.google.com/books/edition/After_King_Philip_s_War/LXrgK29zl2QC?hl=en&gbpv=1&dq=Isaac+Glasko&pg=PT344&printsec=frontcover"
+        }
+      ],
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "Glasko-4",
+          "relative": "Glasko-5",
+          "before": "probable",
+          "after": "certain",
+          "explanation": "Local whole-pair confidence88→96 from an overlooked held marriage father clause plus family continuity. Already-attached father; saved WikiTree mark remains unmarked pending review. No new source or parent.",
+          "previous_status_provenance": [
+            "research/relationship_assessments.json#C-coverage-20261022c-glasko-4-father assessment_history",
+            "research/Glasko-4/findings.md earlier third-batch88% review",
+            "research/relationship_probability_estimates.json: prior88% retained in assessment_history"
+          ]
+        }
+      ],
+      "detail_url": "/people/glasko-4.html"
     }
   ]
 }

@@ -24191,17 +24191,18 @@
       "Glasko-4",
       "Glasko-5"
     ],
-    "status": "probable",
+    "status": "strongly_supported",
     "publication_status": "approved",
     "working_selection": false,
     "allow_new_relationship": false,
     "assessment_date": "2026-10-22",
-    "basis": "The held Isaac biography explicitly names Jacob and Matilda, describes the family’s Rhode Island–Uxbridge–Griswold movement, and records Isaac receiving a third of his father’s land in 1807. That specific family and property narrative supports Jacob substantially beyond a surname-only attachment.",
-    "reason": "The held Isaac biography explicitly names Jacob and Matilda, describes the family’s Rhode Island–Uxbridge–Griswold movement, and records Isaac receiving a third of his father’s land in 1807. That specific family and property narrative supports Jacob substantially beyond a surname-only attachment.",
-    "claim": "Glasko-5 remains the selected father of Glasko-4, individually assessed 88%.",
-    "record_scope": "Derivative historical account; the original 1807 conveyance and its kinship wording are uninspected.",
-    "limitations": "Derivative historical account; the original 1807 conveyance and its kinship wording are uninspected.",
+    "basis": "The retained Smithfield marriage citation names Jacob Glasse as father of Isaac Glasse, who married Lucy Brayton on 19 December 1800. Isaac’s separate citation identifies the same distinctive Isaac/Lucy couple. The Rhode Island–North Uxbridge–Griswold family sequence and the reported 1807 distribution of Jacob’s land to Isaac and George connect that groom to the established blacksmith and his father’s account. These jointly support the complete Isaac Glasko-4 to Jacob Glasko-5 identification, rather than only an anonymous father role. No concrete competing Jacob father or second Isaac/Lucy couple appears in the reviewed material.",
+    "reason": "The retained Smithfield marriage citation names Jacob Glasse as father of Isaac Glasse, who married Lucy Brayton on 19 December 1800. Isaac’s separate citation identifies the same distinctive Isaac/Lucy couple. The Rhode Island–North Uxbridge–Griswold family sequence and the reported 1807 distribution of Jacob’s land to Isaac and George connect that groom to the established blacksmith and his father’s account. These jointly support the complete Isaac Glasko-4 to Jacob Glasko-5 identification, rather than only an anonymous father role. No concrete competing Jacob father or second Isaac/Lucy couple appears in the reviewed material.",
+    "claim": "Jacob Glasko-5 is Isaac Glasko-4’s father, assessed 96% confident for the complete pair.",
+    "record_scope": "96% is a subjective confident inference for this complete immediate-father profile pair. The retained indexed father clause was overlooked in the earlier 88% review; the original town-register image and 1807 conveyance were not newly inspected. Fresh FamilySearch access was blocked by a security challenge. The two marriage indexes describe one event, and the historical property retellings may be dependent. The residual uncertainty includes a wrong indexed clause or an unrecognised conflation. Martha/Matilda/Lucy maternal labels, exact dates and locations, the 1820 Jacob identity, Jacob’s earlier ancestry and any connection to other Glasgow branches remain separate. No mother or new parent is selected.",
+    "limitations": "96% is a subjective confident inference for this complete immediate-father profile pair. The retained indexed father clause was overlooked in the earlier 88% review; the original town-register image and 1807 conveyance were not newly inspected. Fresh FamilySearch access was blocked by a security challenge. The two marriage indexes describe one event, and the historical property retellings may be dependent. The residual uncertainty includes a wrong indexed clause or an unrecognised conflation. Martha/Matilda/Lucy maternal labels, exact dates and locations, the 1820 Jacob identity, Jacob’s earlier ancestry and any connection to other Glasgow branches remain separate. No mother or new parent is selected.",
     "source_ids": [
+      "glasko-isaac-lucy-marriage-1800",
       "held-e-aee8a81ae7b5"
     ],
     "assessment_history": [
@@ -24212,16 +24213,29 @@
         "probability_percent": null,
         "claim_id": "C-00917b0c885e",
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+      },
+      {
+        "status": "probable",
+        "probability_percent": 88,
+        "assessment_date": "2026-10-22",
+        "source_basis": "The held Isaac biography explicitly names Jacob and Matilda, describes the family’s Rhode Island–Uxbridge–Griswold movement, and records Isaac receiving a third of his father’s land in 1807. That specific family and property narrative supports Jacob substantially beyond a surname-only attachment.",
+        "source_ids": [
+          "held-e-aee8a81ae7b5"
+        ],
+        "record_scope": "Derivative historical account; the original 1807 conveyance and its kinship wording are uninspected.",
+        "change_reason": "Overlooked held1800 marriage father clause combined with the complete family identity; no new original inspection."
       }
     ],
     "perspectives": {
       "Glasko-4": {
         "relationship": "father",
-        "reason": "The held Isaac biography explicitly names Jacob and Matilda, describes the family’s Rhode Island–Uxbridge–Griswold movement, and records Isaac receiving a third of his father’s land in 1807. That specific family and property narrative supports Jacob substantially beyond a surname-only attachment."
+        "reason": "The retained Smithfield marriage citation names Jacob Glasse as father of Isaac Glasse, who married Lucy Brayton on 19 December 1800. Isaac’s separate citation identifies the same distinctive Isaac/Lucy couple. The Rhode Island–North Uxbridge–Griswold family sequence and the reported 1807 distribution of Jacob’s land to Isaac and George connect that groom to the established blacksmith and his father’s account. These jointly support the complete Isaac Glasko-4 to Jacob Glasko-5 identification, rather than only an anonymous father role. No concrete competing Jacob father or second Isaac/Lucy couple appears in the reviewed material.",
+        "status_label": "Confident father–son identification · 96%"
       },
       "Glasko-5": {
         "relationship": "son",
-        "reason": "The held Isaac biography explicitly names Jacob and Matilda, describes the family’s Rhode Island–Uxbridge–Griswold movement, and records Isaac receiving a third of his father’s land in 1807. That specific family and property narrative supports Jacob substantially beyond a surname-only attachment."
+        "reason": "The retained Smithfield marriage citation names Jacob Glasse as father of Isaac Glasse, who married Lucy Brayton on 19 December 1800. Isaac’s separate citation identifies the same distinctive Isaac/Lucy couple. The Rhode Island–North Uxbridge–Griswold family sequence and the reported 1807 distribution of Jacob’s land to Isaac and George connect that groom to the established blacksmith and his father’s account. These jointly support the complete Isaac Glasko-4 to Jacob Glasko-5 identification, rather than only an anonymous father role. No concrete competing Jacob father or second Isaac/Lucy couple appears in the reviewed material.",
+        "status_label": "Confident father–son identification · 96%"
       }
     },
     "analysis_links": [
@@ -24240,16 +24254,36 @@
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
       },
       "original_inspected_in_batch": false,
-      "live_flag_changed": false
+      "live_flag_changed": false,
+      "confidence_reassessment": {
+        "previous_status": "probable",
+        "previous_probability_percent": 88,
+        "basis": "The held Isaac biography explicitly names Jacob and Matilda, describes the family’s Rhode Island–Uxbridge–Griswold movement, and records Isaac receiving a third of his father’s land in 1807. That specific family and property narrative supports Jacob substantially beyond a surname-only attachment.",
+        "live_checked_at": "2026-10-22",
+        "saved_father_status": "unmarked",
+        "live_parent_id_unchanged": true,
+        "live_edit": false
+      }
     },
     "probability": {
-      "value": 0.88,
-      "basis": "The held Isaac biography explicitly names Jacob and Matilda, describes the family’s Rhode Island–Uxbridge–Griswold movement, and records Isaac receiving a third of his father’s land in 1807. That specific family and property narrative supports Jacob substantially beyond a surname-only attachment.",
+      "value": 0.96,
+      "basis": "The retained Smithfield marriage citation names Jacob Glasse as father of Isaac Glasse, who married Lucy Brayton on 19 December 1800. Isaac’s separate citation identifies the same distinctive Isaac/Lucy couple. The Rhode Island–North Uxbridge–Griswold family sequence and the reported 1807 distribution of Jacob’s land to Isaac and George connect that groom to the established blacksmith and his father’s account. These jointly support the complete Isaac Glasko-4 to Jacob Glasko-5 identification, rather than only an anonymous father role. No concrete competing Jacob father or second Isaac/Lucy couple appears in the reviewed material.",
       "reviewed": "2026-10-22",
       "source_ids": [
+        "glasko-isaac-lucy-marriage-1800",
         "held-e-aee8a81ae7b5"
       ],
-      "scope": "Derivative historical account; the original 1807 conveyance and its kinship wording are uninspected."
+      "scope": "96% is a subjective confident inference for this complete immediate-father profile pair. The retained indexed father clause was overlooked in the earlier 88% review; the original town-register image and 1807 conveyance were not newly inspected. Fresh FamilySearch access was blocked by a security challenge. The two marriage indexes describe one event, and the historical property retellings may be dependent. The residual uncertainty includes a wrong indexed clause or an unrecognised conflation. Martha/Matilda/Lucy maternal labels, exact dates and locations, the 1820 Jacob identity, Jacob’s earlier ancestry and any connection to other Glasgow branches remain separate. No mother or new parent is selected."
+    },
+    "last_test": "22 October 2026: the complete Jacob capture contains the overlooked 1800 marriage citation naming the father. Combined identity and family continuity raise88% probable to 96% confident; no new parent.",
+    "next_test": "Inspect the original1800 marriage at Smithfield p. 363, DGS 004250616 image 215, and the 1807 conveyances for independent wording and the maternal-name conflict.",
+    "evidence_test": {
+      "reviewed": "2026-10-22",
+      "summary": "22 October 2026: the complete Jacob capture contains the overlooked 1800 marriage citation naming the father. Combined identity and family continuity raise88% probable to 96% confident; no new parent.",
+      "source_url": "https://www.familysearch.org/ark:/61903/1:1:F8VJ-5J5",
+      "new_record_discovery": false,
+      "confidence_changed": true,
+      "original_image_newly_inspected": false
     }
   },
   {

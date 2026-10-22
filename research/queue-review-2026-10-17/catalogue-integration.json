@@ -11694,20 +11694,22 @@
       "biography_rechecked_at": "2026-10-22",
       "draft_path": "research/Glasko-4/father-confidence-2026-10-22c.wiki",
       "findings_path": "research/Glasko-4/findings.md",
-      "summary": "Review existing father at 88% (probable), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 88% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Mark the already-attached father Jacob confident (96%) and add the retained1800 marriage clause plus complete family-identity argument. Preserve the full life account and qualify unresolved maternal names; no new father.",
+      "work_queue_summary": "Mark the already-attached father Jacob confident (96%) and add the retained1800 marriage clause plus complete family-identity argument. Preserve the full life account and qualify unresolved maternal names; no new father.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasko-5",
-          "status": "probable",
+          "status": "strongly_supported",
           "previous_status": "unmarked",
           "previous_probability_percent": null,
-          "probability_percent": 88,
+          "probability_percent": 96,
           "assertion_id": "C-coverage-20261022c-glasko-4-father",
-          "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Derivative historical account; the original 1807 conveyance and its kinship wording are uninspected."
+          "previous_status_provenance": "Anonymous live API22 October 2026, profile revision20260519215803: Jacob already attached, FatherStatus blank/unmarked. Local preceding assessment 88% probable retained in assertion history; no live edit.",
+          "scope": "96% is a subjective confident inference for this complete immediate-father profile pair. The retained indexed father clause was overlooked in the earlier 88% review; the original town-register image and 1807 conveyance were not newly inspected. Fresh FamilySearch access was blocked by a security challenge. The two marriage indexes describe one event, and the historical property retellings may be dependent. The residual uncertainty includes a wrong indexed clause or an unrecognised conflation. Martha/Matilda/Lucy maternal labels, exact dates and locations, the 1820 Jacob identity, Jacob’s earlier ancestry and any connection to other Glasgow branches remain separate. No mother or new parent is selected.",
+          "previous_local_status": "probable",
+          "previous_local_probability_percent": 88
         }
       ],
       "preserve_captured_detail": false,
@@ -11715,7 +11717,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation3-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation3-2026-10-22.json",
+      "significance": 86
     },
     "Glasgow-1049": {
       "profile_id": "Glasgow-1049",

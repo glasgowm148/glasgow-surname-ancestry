@@ -3925,3 +3925,8 @@ Twenty additional transcripts are recorded under existing people or qualified ca
 
 | [Robert Glasgow](https://www.wikitree.com/wiki/Glasgow-1367) | OPEN | Explain unselected John father hypothesis at 18%, with the census first-marriage counterevidence; no parent addition. |
 | [John Glasgow](https://www.wikitree.com/wiki/Glasgow-1022) | OPEN | Retain Robert as an unselected 18% son comparison; no earlier wife, mother or union inferred. |
+
+
+## 22 October 2026 — Glasko father-confidence reassessment
+
+| [Isaac Glasko](https://www.wikitree.com/wiki/Glasko-4) | OPEN | Existing father Jacob Glasko-5: saved unmarked → confident96%; local 88% probable → 96% confident. Add the held 1800 marriage argument; retain complete biography and unresolved maternity. |

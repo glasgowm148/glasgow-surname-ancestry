@@ -30228,5 +30228,29 @@
     },
     "note": "The first-marriage field strengthens the counterevidence to fatherhood. Do not invent an earlier wife or promote household sequence into a parent clause.",
     "provenance": "research/ancestry-connections/glenleslie-candidate-review-2026-10-22.json"
+  },
+  {
+    "record_id": "glasko-isaac-lucy-marriage-1800",
+    "record_type": "Town marriage register, retained indexed citation",
+    "date": "1800-12-19",
+    "place": "Smithfield, Providence, Rhode Island, United States",
+    "association": "Isaac Glasse married Lucy Brayton; retained index citation identifies Jacob Glasse as Isaac’s father.",
+    "source_title": "Rhode Island, Town Clerk, Vital and Town Records, 1630–1945: Smithfield p. 363; DGS 004250616, film 959589, image 215, record 2331, batch I09433-7; FamilySearch F8VJ-5J5",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:F8VJ-5J5",
+    "source_type": "Held indexed citation, not newly inspected original",
+    "source_status": "Full Jacob biography’s saved8 February 2026 citation reviewed22 October 2026; fresh provider access blocked by security challenge; town image not inspected.",
+    "status": "Recorded father role as reported in the retained index citation; complete profile identity confidently inferred96%.",
+    "reviewed": "2026-10-22",
+    "assessment": "96% is a subjective confident inference for this complete immediate-father profile pair. The retained indexed father clause was overlooked in the earlier 88% review; the original town-register image and 1807 conveyance were not newly inspected. Fresh FamilySearch access was blocked by a security challenge. The two marriage indexes describe one event, and the historical property retellings may be dependent. The residual uncertainty includes a wrong indexed clause or an unrecognised conflation. Martha/Matilda/Lucy maternal labels, exact dates and locations, the 1820 Jacob identity, Jacob’s earlier ancestry and any connection to other Glasgow branches remain separate. No mother or new parent is selected.",
+    "profiles": {
+      "Glasko-4": {
+        "role": "Groom, Isaac Glasse; identified with Isaac/Lucy household"
+      },
+      "Glasko-5": {
+        "role": "Named father, Jacob Glasse; complete profile match96%"
+      }
+    },
+    "note": "FamilySearch F8KY-ZQ9 is another presentation of this marriage, not an independent event. Canonicalises existing held evidence; no new source discovery.",
+    "provenance": "research/ancestry-connections/held-parent-strength-2026-10-22.json"
   }
 ]
