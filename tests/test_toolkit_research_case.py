@@ -2,7 +2,7 @@
 import unittest
 
 from genealogy.case import ResearchCase, validate_case
-from genealogy.models import Confidence, Person, Relationship, Sensitivity
+from genealogy.models import Confidence, ExternalIdentifier, LivingStatus, Name, Person, Relationship, Sensitivity
 from tools.evidence_labels import STATES
 from tools.toolkit_research_case import Translator, person_id
 
@@ -258,6 +258,21 @@ class TranslatorTests(unittest.TestCase):
         self.assertEqual([], people[person_id("Fable-8")].former_ids)
         self.assertEqual(1, t.gaps["former profile IDs that are still current records"])
         self.assertEqual(2, t.gaps["former profile IDs of people who are not public"])
+
+    def test_every_tree_person_shows_their_wikitree_id(self):
+        c = case()
+        c.add(Person(id=person_id("Fable-8"), external_ids=[ExternalIdentifier(system="one-tree:numeric", value="42")], sensitivity=Sensitivity.PRIVATE))
+        c.add(Person(id="glasgow:catalogue:fable-9", names=[Name("Nell Fable")], living=LivingStatus.DECEASED, sensitivity=Sensitivity.PUBLIC))
+        t = Translator(c, private=lambda text: False)
+        t.wikitree_ids()
+        t.wikitree_ids()  # a second pass adds nothing
+        people = {p.id: p for p in c.records("Person")}
+        first = people[person_id("Fable-1")].external_ids[0]
+        self.assertEqual(("wikitree", "Fable-1", "https://www.wikitree.com/wiki/Fable-1"), (first.system, first.value, first.url))
+        self.assertEqual(["wikitree", "one-tree:numeric"], [i.system for i in people[person_id("Fable-8")].external_ids])
+        self.assertEqual([], people["glasgow:catalogue:fable-9"].external_ids)
+        self.assertEqual(4, t.report["people with a WikiTree identifier"])  # Fable-1, -2, -3 and -8
+        self.assertEqual([], validate_case(c))
 
     def test_source_qualities_use_the_standard_terms_only_when_clear(self):
         from tools.toolkit_research_case import source_quality, surname_variants

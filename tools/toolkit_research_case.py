@@ -69,7 +69,7 @@ from genealogy.config import ProjectConfig  # noqa: E402
 from genealogy.importing import import_file  # noqa: E402
 from genealogy.dates import year_of  # noqa: E402
 from genealogy.models import (  # noqa: E402
-    Citation, Claim, ClaimStatus, Confidence, Event, Evidence, Finding, LivingStatus, Name, Person, Place,
+    Citation, Claim, ClaimStatus, Confidence, Event, Evidence, ExternalIdentifier, Finding, LivingStatus, Name, Person, Place,
     Relationship, ResearchQuestion, Search, Sensitivity, Source, Study,
 )
 
@@ -258,6 +258,18 @@ class Translator:
         for profile in profiles:
             if profile and profile.casefold() != own and profile not in self.former.setdefault(person, []):
                 self.former[person].append(profile)
+
+    def wikitree_ids(self) -> None:
+        """Every tree person's WikiTree ID as an external identifier, so pages show "Glasgow-123", not the record id.
+
+        The import keeps the export's own identifiers only for some people; the
+        profile ID in the record id is the one the site and its readers use.
+        """
+        for record in self.case.records("Person"):
+            if record.id.startswith("one-tree:person:") and not any(i.system == "wikitree" for i in record.external_ids):
+                profile = record.id.split(":", 2)[2]
+                record.external_ids.insert(0, ExternalIdentifier(system="wikitree", value=profile, url=f"https://www.wikitree.com/wiki/{profile}"))
+                self.report["people with a WikiTree identifier"] += 1
 
     def former_ids(self, redirects=None) -> None:
         """``Person.former_ids`` for public people: merged profiles and WikiTree redirects.
@@ -627,6 +639,7 @@ def build_case(project: Path, *, one_tree: Path = ONE_TREE, research: Path = RES
             from project_paths import normalized_profile_redirects
         redirects = normalized_profile_redirects(json.loads(PROFILE_OVERRIDES.read_text(encoding="utf-8")).get("redirects", {}))
     t.former_ids(redirects)
+    t.wikitree_ids()
     try:
         from tools.build_research_catalog import _load_research_findings
     except ModuleNotFoundError:

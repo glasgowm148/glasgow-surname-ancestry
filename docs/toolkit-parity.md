@@ -99,6 +99,9 @@ development release after 0.6.0:
 - the extra profile IDs of a merged catalogue person, and WikiTree merge
   redirects where the local overrides file is present, as `former_ids` of
   public people;
+- every tree person's WikiTree ID as an external identifier (`wikitree`, with
+  the profile's URL), so the catalogue and dossier show "Glasgow-123" rather
+  than the record id;
 - source quality as `Citation.quality` where Glasgow's class is clear-cut:
   original → original; derivative, transcription and index → derivative;
   published history (`secondary`) and tree profile (`tree_only`) → authored.
