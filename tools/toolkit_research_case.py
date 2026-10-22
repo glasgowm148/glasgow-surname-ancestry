@@ -22,7 +22,8 @@ Glasgow site as its model can express, and so the gaps can be measured:
 - ``research/<profile>/findings.md``: one Study per person, from the sections
   Glasgow publishes (editing logs and captured WikiTree pages stay out);
 - ``research/<profile>/presentation.json``: the ``research_tasks`` as
-  research questions about that person;
+  research questions about that person, and its ``completed_searches`` as
+  Search records in the research log;
 - ``www/data/people.json``: people the tree export lacks (record subjects
   and newer profiles), with their birth, death, places and family links,
   and the extra profile IDs of merged profiles as former IDs.
@@ -51,6 +52,7 @@ from __future__ import annotations
 
 import argparse
 from collections import Counter
+from datetime import date
 import hashlib
 import json
 from pathlib import Path
@@ -68,7 +70,7 @@ from genealogy.importing import import_file  # noqa: E402
 from genealogy.dates import year_of  # noqa: E402
 from genealogy.models import (  # noqa: E402
     Citation, Claim, ClaimStatus, Confidence, Event, Evidence, Finding, LivingStatus, Name, Person, Place,
-    Relationship, ResearchQuestion, Sensitivity, Source, Study,
+    Relationship, ResearchQuestion, Search, Sensitivity, Source, Study,
 )
 
 RESEARCH = ROOT / "research"
@@ -121,6 +123,15 @@ def source_quality(value) -> str | None:
 def surname_variants() -> dict[str, list[str]]:
     """``[names.variants]``: Glasgow's spellings, grouped under Glasgow."""
     return {"Glasgow": sorted(v.capitalize() for v in GLASGOW_SURNAME_VARIANTS if v != "glasgow")}
+
+
+def iso_date(value: str) -> bool:
+    """True for a real date written YYYY, YYYY-MM or YYYY-MM-DD, the workbench's research dates."""
+    match = re.fullmatch(r"(\d{4})(?:-(\d{2})(?:-(\d{2}))?)?", value)
+    try:
+        return bool(match) and bool(date(int(match[1]), int(match[2] or 1), int(match[3] or 1)))
+    except ValueError:
+        return False
 
 
 def person_id(profile: str) -> str:
@@ -532,15 +543,19 @@ class Translator:
         ``what`` is the task, ``resolves`` (else ``tests``) what would answer it,
         ``record_target`` the next record; ``matters`` has no field of its own,
         so it closes the question as "Why it matters: …". A task whose status
-        begins "Completed" is resolved; the rest stay open. The workbench has
-        no record of completed searches, so those are counted as a gap.
+        begins "Completed" is resolved; the rest stay open.
+
+        Each ``completed_searches`` entry becomes a Search in the research
+        log, about the same person: ``search`` and ``result`` as written,
+        ``date`` as ``searched_on`` when it is an ISO date. A search about a
+        person who is not public, or whose text names a withheld profile, is
+        left out and counted.
         """
         for path in sorted(directory.glob("*/presentation.json")):
             profile = path.parent.name
             data = json.loads(path.read_text(encoding="utf-8"))
             tasks = [task for task in data.get("research_tasks") or [] if isinstance(task, dict) and task.get("what")]
-            if data.get("completed_searches"):
-                self.gaps["completed searches (the workbench has no search record)"] += len(data["completed_searches"])
+            self.searches(profile, data.get("completed_searches") or [])
             if not tasks:
                 continue
             if not self.known(profile):
@@ -559,6 +574,26 @@ class Translator:
                     status="resolved" if done else "open", resolves=task.get("resolves") or task.get("tests") or None,
                     next_record=task.get("record_target") or None, sensitivity=PUBLIC))
                 self.report["research questions" + (" (resolved)" if done else " (open)")] += 1
+
+    def searches(self, profile: str, rows) -> None:
+        """A presentation's ``completed_searches`` as Search records about ``profile``."""
+        rows = [row for row in rows if isinstance(row, dict)]
+        if rows and not self.known(profile):
+            self.gaps["completed searches about people who are not public"] += len(rows)
+            return
+        for n, row in enumerate(rows, 1):
+            search, result = (" ".join(str(row.get(key) or "").split()) for key in ("search", "result"))
+            if self.private(search) or self.private(result):
+                self.gaps["completed searches naming a withheld profile"] += 1
+                continue
+            if not search or not result:
+                self.gaps["completed searches with no search or no result recorded"] += 1
+                continue
+            when = str(row.get("date") or "").strip()
+            when = when if iso_date(when) else None
+            self.case.add(Search(id=f"glasgow:search:{profile}:{n}", search=search, result=result,
+                                 related_ids=[self.pid(profile)], searched_on=when, sensitivity=PUBLIC))
+            self.report["completed searches in the research log" + ("" if when else " (undated)")] += 1
 
 
 def build_case(project: Path, *, one_tree: Path = ONE_TREE, research: Path = RESEARCH, catalogue: Path = CATALOGUE) -> dict:

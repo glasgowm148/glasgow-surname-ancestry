@@ -29,6 +29,7 @@ Classes used below:
 | Maps | Atlas with location precision, country summaries, Irish/Scottish gazetteer | Offline map of supplied coordinates with a `precision` field; broad locations are drawn as dashed rings; places grouped and summarised by recorded country or region; GeoJSON | Reusable. The gazetteer data is Glasgow-specific. No geocoding by design. |
 | Comparisons and connections | Compare people; shortest connection | Same, over public recorded relationships | Reusable |
 | Research studies | Free-space edition, study pages with rationale and linked subjects | `Study` records: rationale, escaped Markdown body with `[[record]]` references, conclusion, linked subjects; study pages and index with links both ways | Reusable. The content needs research; WikiTree free-space import is Glasgow-specific. |
+| Research log | Completed searches on each profile (`completed_searches` in `presentation.json`) | `Search` records: where each search looked and what it found, including nothing; a **Research log** on Research (the newest 50 and the total) and on each person's page; withheld when anything it names is not public | Reusable. The searches need research. |
 | Findings log | `/latest-findings/` dated discovery log and feed | `Finding.recorded_on`; a dated Latest findings log, newest first; an Atom feed when `site.base_url` is set | Reusable. Glasgow's feed is written by the shared `genealogy.feeds.atom_feed`. |
 | Drafts and outstanding work | WikiTree profile drafts, diffs, amendment queue and register | Open questions, hypotheses and draft findings listed first | Reusable for research work. The WikiTree editing workflow stays in Glasgow. |
 | Privacy filtering | `PublicPrivacy` repair of legacy JSON, search tables and routes | One fail-closed projection feeding every page, the data script, GEDCOM, GeoJSON, CSV and sitemap | Reusable. Glasgow's repairs are specific to its legacy data shapes. |
@@ -89,6 +90,11 @@ development release after 0.6.0:
   it as "Why it matters: …"; `resolves` (else `tests`) is what would answer
   it, and `record_target` is the next record. A task whose status begins
   "Completed" is resolved; the rest stay open;
+- with workbench 0.8.0 (since 22 October 2026), the `completed_searches` in
+  the same file as `Search` records in the research log, about that person:
+  the search and its result as written, and the date as `searched_on` when
+  it is an ISO date. A search about a person who is not public, or naming a
+  withheld profile, is left out;
 - Glasgow's surname variants as `[names.variants]`, grouped under Glasgow;
 - the extra profile IDs of a merged catalogue person, and WikiTree merge
   redirects where the local overrides file is present, as `former_ids` of
@@ -105,7 +111,7 @@ Maintained totals for the new mappings, from the repository's research files:
 | Assessment limitations | 199 | 199 on evidence records, when the assessment is carried | A limitation naming a withheld profile is left out |
 | Relationship changes in findings | 66 | 16 agree with the current assessment | 45 record only that the link became "certain", which is not one of Glasgow's grades; 5 concern a link with no relationship record (resolved against the tree export, they may match) |
 | Research tasks | 21 | 21 questions (4 resolved, 17 open) when the person is public | |
-| Completed searches | 61 | 0 | The workbench has no record for a search |
+| Completed searches | 61 | Now carried as `Search` records when the person is public | A search naming a withheld profile is left out |
 | Source qualities | 25 | 22 | 3 are not clear-cut: "previously inspected original or published inscription" and "contemporary source via maintained OCR" |
 
 These were checked by translating the research files against stand-in
@@ -146,8 +152,10 @@ Still to do:
 
 1. **Rerun the real build** with the One-Tree export and catalogue present, and replace the totals above. Check the link report, the 500 KB budget and the withheld-profile scan again.
 2. **Record the grade reached in relationship changes.** 45 changes say only "certain", and 12 of those name an assessment. Adding `assessment_after` would let them carry.
-3. **Completed searches** (61) have no workbench record. A `Search` record, or a question status that keeps them, is needed in the toolkit.
-4. **Larger single pages that are Glasgow's content**: the longest study (460 KB) and the studies index (400 KB) are within budget but would need paging as the research grows.
+3. **Larger single pages that are Glasgow's content**: the longest study (460 KB) and the studies index (400 KB) are within budget but would need paging as the research grows.
+
+Done: **completed searches** (61) are now carried as `Search` records and
+shown in the research log on the Research page and on each person's page.
 
 ## What an export cannot recreate
 

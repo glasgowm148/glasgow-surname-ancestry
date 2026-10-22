@@ -1,7 +1,7 @@
 """The Glasgow → workbench translator, on fictional rows."""
 import unittest
 
-from genealogy.case import ResearchCase
+from genealogy.case import ResearchCase, validate_case
 from genealogy.models import Confidence, Person, Relationship, Sensitivity
 from tools.evidence_labels import STATES
 from tools.toolkit_research_case import Translator, person_id
@@ -200,7 +200,7 @@ class TranslatorTests(unittest.TestCase):
         self.assertEqual(1, t.gaps["finding changes that disagree with the current assessment"])
         self.assertEqual(("probable", Confidence.PROBABLE), (tree.grade, tree.confidence))  # the assessment is unchanged
 
-    def test_research_tasks_become_questions_and_searches_are_counted(self):
+    def test_research_tasks_become_questions_and_completed_searches_become_search_records(self):
         import json
         import tempfile
         from pathlib import Path
@@ -213,8 +213,11 @@ class TranslatorTests(unittest.TestCase):
                      "record_target": "Invented register, 1801", "resolves": "An entry naming both parents.", "status": "Archive access required"},
                     {"what": "Read the invented will.", "tests": "Tests the heirs.", "matters": "", "status": "Completed; heirs named"},
                     {"what": "Ask about Hidden-9.", "tests": "", "matters": "", "status": "Open"}],
-                    "completed_searches": [{"date": "2026-09-01", "search": "Invented index", "result": "Nothing found."}]},
-                "Nobody-9": {"research_tasks": [{"what": "Find Nobody.", "tests": "", "matters": "", "status": "Open"}]},
+                    "completed_searches": [{"date": "2026-09-01", "search": "Invented  index,\n1790-1810", "result": " Nothing found. "},
+                                           {"date": "2026-09-02", "search": "Invented roll", "result": "Only Hidden-9 listed."},
+                                           {"date": "September 2026", "search": "Invented census", "result": "Not listed."}]},
+                "Nobody-9": {"research_tasks": [{"what": "Find Nobody.", "tests": "", "matters": "", "status": "Open"}],
+                             "completed_searches": [{"date": "2026-09-03", "search": "Invented directory", "result": "Nothing."}]},
             }.items():
                 (Path(folder) / profile).mkdir()
                 (Path(folder) / profile / "presentation.json").write_text(json.dumps(data))
@@ -230,7 +233,16 @@ class TranslatorTests(unittest.TestCase):
         self.assertEqual(2, len(questions))
         self.assertEqual(1, t.gaps["research questions naming a withheld profile"])
         self.assertEqual(1, t.gaps["research questions about people who are not public"])
-        self.assertEqual(1, t.gaps["completed searches (the workbench has no search record)"])
+        searches = {r.id: r for r in c.records("Search")}
+        self.assertEqual(["glasgow:search:Fable-1:1", "glasgow:search:Fable-1:3"], sorted(searches))
+        found = searches["glasgow:search:Fable-1:1"]
+        self.assertEqual(("Invented index, 1790-1810", "Nothing found.", "2026-09-01", [person_id("Fable-1")], Sensitivity.PUBLIC),
+                         (found.search, found.result, found.searched_on, found.related_ids, found.sensitivity))
+        self.assertIsNone(searches["glasgow:search:Fable-1:3"].searched_on)  # not an ISO date
+        self.assertEqual(1, t.gaps["completed searches naming a withheld profile"])
+        self.assertEqual(1, t.gaps["completed searches about people who are not public"])
+        self.assertNotIn("completed searches (the workbench has no search record)", t.gaps)
+        self.assertEqual([], validate_case(c))
 
     def test_merged_profiles_become_former_ids_of_public_people(self):
         c = case()
