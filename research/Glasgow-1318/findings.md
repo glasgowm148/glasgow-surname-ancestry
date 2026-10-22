@@ -39,3 +39,13 @@ Select William Glasgow-1318 as the possible father of the letter-defined Cunning
 These are exact subjective assessments of complete relationship-and-identity propositions, not measured probabilities. The family letter is undated and unsigned and is read through Albert Rutherford’s published transcription of a photocopy, not an inspected PRONI original. The minister list is a derivative compilation whose independence from the family tradition is unproved. The Scottish adult identities remain possible: neither the letter nor the 1705 baptism supplies a migration, occupation, property or witness bridge between Kirknewton and Tyrone. The letter’s three-son family and second-cousin statement are internally consistent clues from one source, not independent corroborations. Existing people, vital fields and mothers are preserved. Miss Cunningham and Anne Rutherford are reported maternal names, not transferred to existing maternal profiles. The letter’s first-settler story is family tradition, not proof of the first Glasgow in Tyrone or of the surname’s origin.
 
 [PRONI T1959/3, anonymous family letter; Albert Rutherford transcription, read in browser 20 October 2026; original uninspected](https://www.genealogy.com/forum/surnames/topics/rutherford/5445/); [Linda Bailey, Presbyterian Ministers in Co. Tyrone, John Glasgow from Orritor → New Row, 1796–1801; derivative compilation read 20 October 2026](https://cotyrone.com/churchrecord/ministers-pres.html).
+
+<!-- BEGIN FMP-BIRTH-SCOPE-20261022 -->
+## Source findings — Leith soldier and unnamed child: identity unproved, 22 October 2026
+
+The inspected OPR 692/3 item 2 p.17 transcript records an unnamed child born 11 December and baptized 17 December 1734, Leith North, father William Glasgow, soldier, mother Jean Lore. This 1705 William is a compatible Lothian adult comparison. [William Glasgow-3013](/people/glasgow-3013.html), born 1680, and the weaker older [William Glasgow-3080](/people/glasgow-3080.html), born 1660 South Leith, remain alternatives. No inspected occupation/spouse bridge identifies the soldier. Do not attach Jean, the child, soldier occupation or residence to any profile as an established fact.
+
+- [Findmypast SCOT/OPR/BAP/4499779: Scotland, Parish Births & Baptisms 1564-1929](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4499779&tab=this).
+
+Source level: provider transcripts inspected on 22 October 2026; original register images not inspected. Compatible profile identities remain explicitly unproved.
+<!-- END FMP-BIRTH-SCOPE-20261022 -->

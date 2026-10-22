@@ -2632,6 +2632,17 @@ Burial-defined Walter remains on source-verification HOLD in the existing creati
 | [James Glasgow](https://www.wikitree.com/wiki/Glasgow-1483) | OPEN | New probable mother Lillias Stewart 86%; existing probable father 78% preserved; complete documentary draft held for identity checks. |
 | [Samuel Glasgow](https://www.wikitree.com/wiki/Glasgow-3063) | OPEN | Probable intended spouse Lillias Stewart 82%;1790 Barony banns; complete couple argument. |
 
+## Findmypast birth-surname review — 22 October 2026
+
+Scope: people born Glasgow before 1800, including later-life events. Corpus INCOMPLETE.
+
+| Person | Status | Draft |
+| --- | --- | --- |
+| Abigail Glasgow | READY — concrete chronology exclusions recorded | [1769_Scotland_Midcalder_Abigail_Glasgow.md](new-people/1769_Scotland_Midcalder_Abigail_Glasgow.md) |
+| Abraham Glasgow | READY — concrete chronology exclusions recorded | [1786_Scotland_Glasgow_Abraham_Glasgow.md](new-people/1786_Scotland_Glasgow_Abraham_Glasgow.md) |
+
+Existing people/candidates: [[Glasgow-1227]], [[Glasgow-1235]], [[Glasgow-32]], [[Glasgow-159]], [[Gray-6937]], [[Glasgow-3523]], [[Glasgow-1239]], [[Glasgow-1318]], [[Glasgow-3298]], [[Glasgow-1309]]. The Birmingham burial remains candidate evidence; no new burial person is recommended. All source and identity qualifications are in their maintained findings and the public Scottish-records study.
+
 
 ## 22 October 2026 — Rathdowney original baptism
 

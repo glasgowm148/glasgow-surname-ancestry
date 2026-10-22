@@ -15,3 +15,19 @@ The transcript-validated baptism record for **Andrew Glasgow**, 21 Dec 1729, Liv
 
 Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
 <!-- END FMP-GLASGOW-fmp-glasgow-4fed7f93e588 -->
+
+## Current conclusion
+
+Reviewed: 22 October 2026.
+
+The inspected OPR 694/2 item 4 transcript indexes an unnamed child in 1757, baptism date literally “17 ? 1757”, father Andrew Glasgow and mother Janet Young. This Livingston 1730 Andrew is a compatible regional adult candidate; [Andrew Glasgow-3052](/people/glasgow-3052.html), born before 1720 in Kirknewton/East Calder, remains another. Neither identity is established. A different known spouse alone does not exclude either. Preserve the unread month and unnamed child; do not attach Janet Young or invent a child forename.
+
+<!-- BEGIN FMP-BIRTH-SCOPE-20261022 -->
+## Source findings — Unnamed Midcalder child: compatible Andrew comparison, 22 October 2026
+
+The inspected OPR 694/2 item 4 transcript indexes an unnamed child in 1757, baptism date literally “17 ? 1757”, father Andrew Glasgow and mother Janet Young. This Livingston 1730 Andrew is a compatible regional adult candidate; [Andrew Glasgow-3052](/people/glasgow-3052.html), born before 1720 in Kirknewton/East Calder, remains another. Neither identity is established. A different known spouse alone does not exclude either. Preserve the unread month and unnamed child; do not attach Janet Young or invent a child forename.
+
+- [Findmypast SCOT/OPR/BAP/4588936: Scotland, Parish Births & Baptisms 1564-1929](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4588936&tab=this).
+
+Source level: provider transcripts inspected on 22 October 2026; original register images not inspected. Compatible profile identities remain explicitly unproved.
+<!-- END FMP-BIRTH-SCOPE-20261022 -->

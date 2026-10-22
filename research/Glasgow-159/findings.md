@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Reviewed: 22 October 2026. The unnamed 1797 child has a further inspected index naming the existing couple. See the dated source review below.
+
 **Selected possible parents, 17 October 2026:** [Thomas Glasgow](https://www.wikitree.com/wiki/Glasgow-1023) and [Janet Mill](https://www.wikitree.com/wiki/Mill-357), **42% each**, through the possible identification with [John-2980](https://www.wikitree.com/wiki/Glasgow-2980), the Mid Calder child dated 1750. This is a new local working connection, not documentary parentage or a live WikiTree change.
 
 <!-- nir-2026-10-06-scotland-misc+us-1785-1799 -->
@@ -33,3 +35,13 @@ The identifying step is an inference: no inspected record takes the 1750 child t
 The first recorded son is **Thomas, born 2 April 1786**, not 1788. Mary follows in 1788 and Janet in 1790. Earlier age shorthand in the inventory is superseded by these captured dates. Agnes Gray’s own parents remain unknown; Mary cannot be identified as her mother from a naming convention. No source claims that John was born at Millrig.
 
 Sources: [FamilySearch, Scotland Births and Baptisms: John Glasgow, Mid Calder, 1750; index cited in John’s captured biography (not freshly accessible)](https://www.familysearch.org/ark:/61903/1:1:X1BL-JFM); [FamilySearch, Janet Mill in John Glasgow’s 1750 Mid Calder entry; parent-side citation to the same event, not independent evidence](https://www.familysearch.org/ark:/61903/1:1:X1BL-JX1); [The Edinburgh Advertiser, 20 July 1798, p.6: John Glasgow, labourer, Millrig; maintained 6 October original-image review reused](https://www.newspapers.com/image/601860386/). The 1785 marriage and child references are reproduced in the [complete proposed biography](/people/glasgow-159.html#wikitree-update).
+
+<!-- BEGIN FMP-BIRTH-SCOPE-20261022 -->
+## Source findings — A further index for the unnamed Kirkliston son, 1797, 22 October 2026
+
+R_691882635 indexes an unnamed male child born 1797 at Kirkliston, father John Glasgow and mother Agnes Gray. The exact couple agrees with this profile and [Agnes Gray-6937](/people/gray-6937.html), married 19 September 1785 at Kirkliston, and the already recorded 1797 child. This is another index of that family evidence, not a newly discovered child or a new certain relationship. Do not supply a missing forename or independently attach this entry to one named son.
+
+- [Findmypast R_691882635: Scotland, Parish Births & Baptisms 1564-1929](https://www.findmypast.co.uk/transcript?id=R_691882635&tab=this).
+
+Source level: provider transcripts inspected on 22 October 2026; original register images not inspected. Compatible profile identities remain explicitly unproved.
+<!-- END FMP-BIRTH-SCOPE-20261022 -->

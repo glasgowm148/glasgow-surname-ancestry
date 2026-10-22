@@ -45,3 +45,13 @@ Inspect John and Ann’s original1790 marriage and the 1793/1798 child entries f
 A bounded anonymous WikiTree search on 18 October 2026 used FirstName Janet, LastName Broun and BirthDate 1685, returning 93 fuzzy matches on one page; this was not an exhaustive worldwide search. The nine Open, non-living exact-Janet Brown/Burn results were inspected with their biographies and spouse context. A local historical catalogue check for Janet/Jonet/Jennet/Jean/Jane Brown/Broun found no established match. Missing fields are not exclusions.
 
 Next: inspect the original 1716 banns and 1719 child entry for a ceremony, maternal name, witnesses and residence; compare undated Brown/Broun profiles before any creation.
+
+<!-- BEGIN FMP-BIRTH-SCOPE-20261022 -->
+## Source findings — Unnamed Cambusnethan child: compatible father comparison, 22 October 2026
+
+The inspected OPR 628/1 item 1 p.66 transcript records an unnamed child born 10 May 1756 and baptized 5 June 1756, father James Glasgow, mother Mary Cowie, residence Knowhill, Cambusnethan. James’s 1719 Dalziel childhood is compatible in generation and locality, but the father’s identity remains unknown. Absence of a recorded Mary Cowie spouse is not an exclusion. No new father or child profile, spouse attachment, or birth location is inferred from this comparison.
+
+- [Findmypast SCOT/OPR/BAP/3838816: Scotland, Parish Births & Baptisms 1564-1929](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3838816&tab=this).
+
+Source level: provider transcripts inspected on 22 October 2026; original register images not inspected. Compatible profile identities remain explicitly unproved.
+<!-- END FMP-BIRTH-SCOPE-20261022 -->
