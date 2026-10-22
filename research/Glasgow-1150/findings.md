@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Reviewed 22 October 2026: bounded source test below adds no parentage proof. Robert→James-1150 remains 86%; Andrew’s father link remains 28%; Elizat’s mother link remains uncertain and individually unrated. The original 1647 burial entry is the next useful test. No new father or confidence upgrade is claimed.
+
 Reviewed: 2026-10-21. **Probably the same adult as the Duffe husband Glasgow-2682,70%; retain both accounts and Robert father86%, with no merge or maternal transfer.**
 
 James Glasgow-2682, father of the Edinburgh Duffe household, probably represents the same adult as James Glasgow-1150, the weaver apprenticed on 16 June 1641 and admitted burgess on 20 June 1649: 70% subjective identity confidence. The 1696 James and 1699 youngest-son Thomas apprenticeships name a father James Glasgow, weaver and burgess of Edinburgh. Thomas’s maintained 1684 baptismal identification and the Duffe household’s James children of 1679 and 1680 fit those apprenticeship ages and the youngest-son order. The older craftsman independently has that specific craft and civic status, with an exact master/date cross-reference between his 1641 apprenticeship and 1649 admission. The maintained admission review found one matching admission, although this does not establish uniqueness. His marriages to Bessie Whyte on 6 July 1649 and Agnes Duncan on 11 November 1653, followed by Agnes’s burial as the weaver’s wife on 21 January 1674, permit a later Duffe household beginning in 1677. Successive marriages explain the wife sequence without requiring another same-name weaver and burgess.
@@ -372,3 +374,12 @@ The most useful test is an Edinburgh marriage, guild, property, witness or prior
 - [Henry Paton (ed.), Edinburgh marriages 1595–1700, printed p.267/PDF p.277: Bessie Whyte 6 July 1649; Agnes Duncan 11 November 1653; maintained printed-register review reused](https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/register_of_marriages_for_the_parish_of_edinburgh_1595-1700_~_1898.pdf#page=277)
 
 The cited printed registers, apprenticeship entries and parish index associations were already held and reviewed; no manuscript or new original page was inspected for this reassessment.
+
+
+## Duddingston father-source test — 22 October 2026
+
+Grant’s printed apprenticeship page 71 was visually reread on 22 October 2026. It records James as son of Robert G., with the Wester Duddingston/William Crichtoun association and master William Sclaitter on 16 June 1641. The printed semicolon after the father’s name leaves the attachment of “servitor” open; it supplies neither a second father clause nor an upstream relative. The two Glasgow entries on that page concern Archibald of Leith and James; the adjacent Glass and Glassfuird headings are separate surnames and are not additional Glasgow apprentices.
+
+The indexed Duddingston burial of 17 January 1647 remains the next discriminating record to inspect, at OPR 684/60/47. Seek an age, child/spouse, occupation, residence or marginal description that identifies the buried Robert with the 1641 father. The currently held citation supplies none of those fields. Do not rerun the printed apprenticeship as if it could supply Robert’s parents. The proposed Corsoun identity remains uncertain. Andrew’s father link stays at 28%; Elizat’s mother link remains uncertain and individually unrated. Robert’s fatherhood of James-1150 remains probable 86%; the separate Duffe adult’s Robert link remains 61% through its 70% older-weaver identity. No relationship is regraded or added.
+
+[Robert’s complete bounded search review](/people/glasgow-1156.html). [Printed 1641 entry](https://archive.org/details/scottishrecordso28scotuoft/page/71/mode/2up).

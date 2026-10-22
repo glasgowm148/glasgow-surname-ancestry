@@ -4,25 +4,25 @@
   "objective": "Establish the identity and documented family of Glasgow-1156, separating sourced facts from tree assertions.",
   "questions": [
     {
-      "answer": "",
+      "answer": "The1641 father Robert and1647 buried Robert remain probably one man, assessed within the86% father link. Neither the printed apprenticeship nor the bounded1647 Findmypast result list supplies an age or kin bridge. Inspect OPR684/60/47 next.",
       "id": "identity",
       "question": "Which records prove the subject's identity across events?",
       "status": "open"
     },
     {
-      "answer": "",
+      "answer": "Andrew-3163 remains the preferred uncertain father at28%, conditional on identity with his testament-named son Robert-4006. Elizat Stevinsoun-2 remains an uncertain mother and has no individual percentage. No new source improves that identity.",
       "id": "parents",
       "question": "Which original or indexed records identify the parents?",
       "status": "open"
     },
     {
-      "answer": "",
+      "answer": "The1641 apprenticeship names James’s father Robert. James-1150→Robert-1156 remains probable86%; the later Duffe father account James-2682→Robert remains61% through70% adult identity. No wife or other child is established by this review.",
       "id": "family",
       "question": "Which spouses and children are directly supported by records?",
       "status": "open"
     },
     {
-      "answer": "",
+      "answer": "Keep the burial identity, Corsoun-child identity and later Duffe-weaver identity separate. The servitor wording and an age-free burial do not independently establish origin or generation.",
       "id": "conflicts",
       "question": "What conflicts or same-name conflations must be resolved?",
       "status": "open"
@@ -38,7 +38,25 @@
       "reason": "Initial subject and immediate family capture.",
       "status": "complete",
       "updated_at": "2026-07-19T15:46:03Z"
+    },
+    {
+      "id": "duddingston-robert-burial-1647",
+      "kind": "archive",
+      "reference": "NRS Duddingston OPR684/60/47",
+      "reason": "The indexed Duddingston burial of 17 January 1647 remains the next discriminating record to inspect, at OPR 684/60/47. Seek an age, child/spouse, occupation, residence or marginal description that identifies the buried Robert with the 1641 father. The currently held citation supplies none of those fields. Do not rerun the printed apprenticeship as if it could supply Robert’s parents. The proposed Corsoun identity and Andrew/Elizat parent links remain uncertain 28%, and Robert’s fatherhood of James-1150 remains probable 86%; the separate Duffe adult’s Robert link remains 61% through its 70% older-weaver identity. No relationship is regraded or added.",
+      "status": "original_uninspected",
+      "updated_at": "2026-10-22"
     }
   ],
-  "web_searches": []
+  "web_searches": [
+    {
+      "date": "2026-10-22",
+      "query": "LastName=Glasgow; variants off; eventyear=1647±0; sourcecountry=Great Britain; Parish Burials; first name and place blank",
+      "url": "https://www.findmypast.co.uk/search/results?lastname=glasgow&eventyear=1647&eventyear_offset=0&sourcecountry=great%20britain&sourcecategory=life%20events%20(bmds)&collection=parish%20burials&sid=999",
+      "status": "complete_displayed_result_enumeration",
+      "returned_rows": 21,
+      "pages": 2,
+      "note": "A surname-only Findmypast search on 22 October 2026 used last name Glasgow, variants off, event year 1647±0, Great Britain and Parish Burials, with no first name or place restriction. All 21 displayed result rows were enumerated across two pages, 20+1. These are displayed search hits, not 21 independently verified events: most were undated Scotland Monumental Inscriptions, and the broad event-year search also returned Kirknewton register ranges 1642–1737. No displayed row identified a Duddingston burial. Individual transcript IDs were not resolved or deduplicated; no claim is made to a complete burial corpus or to the absence of Robert’s indexed burial."
+    }
+  ]
 }

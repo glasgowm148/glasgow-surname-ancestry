@@ -1,0 +1,51 @@
+{
+  "reviewed": "2026-10-22",
+  "scope": "Highest-impact early joins and Duddingston father-source test",
+  "result": "No defensible relationship upgrade from this bounded review",
+  "hypotheses_unchanged": [
+    {
+      "child": "Glasgow-1150",
+      "father": "Glasgow-1156",
+      "percent": 86
+    },
+    {
+      "child": "Glasgow-1156",
+      "father": "Glasgow-3163",
+      "percent": 28
+    },
+    {
+      "child": "Glasgow-2682",
+      "father": "Glasgow-1156",
+      "percent": 61
+    }
+  ],
+  "new_paternal_joins": 0,
+  "new_confident_fathers": 0,
+  "printed_page_reread": {
+    "source": "https://archive.org/details/scottishrecordso28scotuoft/page/71/mode/2up",
+    "page": 71,
+    "result": "Grant’s printed apprenticeship page 71 was visually reread on 22 October 2026. It records James as son of Robert G., with the Wester Duddingston/William Crichtoun association and master William Sclaitter on 16 June 1641. The printed semicolon after the father’s name leaves the attachment of “servitor” open; it supplies neither a second father clause nor an upstream relative. The two Glasgow entries on that page concern Archibald of Leith and James; the adjacent Glass and Glassfuird headings are separate surnames and are not additional Glasgow apprentices."
+  },
+  "findmypast": {
+    "url": "https://www.findmypast.co.uk/search/results?lastname=glasgow&eventyear=1647&eventyear_offset=0&sourcecountry=great%20britain&sourcecategory=life%20events%20(bmds)&collection=parish%20burials&sid=999",
+    "date": "2026-10-22",
+    "displayed_total": 21,
+    "pages_enumerated": 2,
+    "rows_enumerated": 21,
+    "transcripts_inspected": 0,
+    "record_id_deduplication_performed": false,
+    "coverage": "A surname-only Findmypast search on 22 October 2026 used last name Glasgow, variants off, event year 1647±0, Great Britain and Parish Burials, with no first name or place restriction. All 21 displayed result rows were enumerated across two pages, 20+1. These are displayed search hits, not 21 independently verified events: most were undated Scotland Monumental Inscriptions, and the broad event-year search also returned Kirknewton register ranges 1642–1737. No displayed row identified a Duddingston burial. Individual transcript IDs were not resolved or deduplicated; no claim is made to a complete burial corpus or to the absence of Robert’s indexed burial."
+  },
+  "secondary_book_ocr": {
+    "source": "https://archive.org/details/annalsduddingst00unkngoog",
+    "scope": "Baird1898 downloaded OCR; Glasgow/Glasgw/Glascow and Crichtoun keyword scan",
+    "result": "No candidate person clause located; OCR-only search, no whole-book visual absence assertion"
+  },
+  "next_action": "The indexed Duddingston burial of 17 January 1647 remains the next discriminating record to inspect, at OPR 684/60/47. Seek an age, child/spouse, occupation, residence or marginal description that identifies the buried Robert with the 1641 father. The currently held citation supplies none of those fields. Do not rerun the printed apprenticeship as if it could supply Robert’s parents. The proposed Corsoun identity remains uncertain. Andrew’s father link stays at 28%; Elizat’s mother link remains uncertain and individually unrated. Robert’s fatherhood of James-1150 remains probable 86%; the separate Duffe adult’s Robert link remains 61% through its 70% older-weaver identity. No relationship is regraded or added.",
+  "public_dossiers": [
+    "Glasgow-1156",
+    "Glasgow-1150"
+  ],
+  "latest_findings_added": false,
+  "live_edits": 0
+}
