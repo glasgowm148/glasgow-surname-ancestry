@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **97% (proved)** for [Glasgow-4158](https://www.wikitree.com/wiki/Glasgow-4158). Recorded father James is near99%;97% includes consolidation with the 1721 Rae-household father while keeping Margaret and Marion wording distinct. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 William Glasgow was baptised at Irvine, Ayrshire, on 03 Feb 1723. The parish register names his father as [James Glasgow](https://www.wikitree.com/wiki/Glasgow-4164) and his mother as [Marion Rae](https://www.wikitree.com/wiki/Rae-3515). Because the entry records a baptism rather than a birth, his birth is placed before that date, and Irvine is inferred from the baptism rather than independently recorded. The [Findmypast transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3573825&tab=this) is the indexed source for this event. The live WikiTree profile records male sex at birth with uncertain status, inferred from the recorded given name. The cited transcript does not explicitly state sex.
 
 ## Source findings
@@ -108,3 +110,17 @@ Cecil County explicitly qualifies the 1759 entry only. In 1763 "Pennsylvania" fo
 
 This may concern [Glasgow-4120](https://www.wikitree.com/wiki/Glasgow-4120). Birth before 3 February 1723, Irvine, permits these dates; no postal identification.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, sixth batch — 22 October 2026
+
+[Glasgow-4158](https://www.wikitree.com/wiki/Glasgow-4158) remains the selected father, assessed **97% (proved)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+William’s 3 February 1723 Irvine transcript names James Glasgow and Marion Rae. Father-4158 absorbed the separate 4164 account and explicitly represents both the 1721 Margt and 1723 Marion entries; shared father/parish and close chronology favour one adult father, with the maternal-name distinction unresolved.
+
+Scope: Recorded father James is near99%;97% includes consolidation with the 1721 Rae-household father while keeping Margaret and Marion wording distinct.
+
+Next useful test: Compare original 1721 and 1723 entries for trade, residence and the two maternal given names.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Findmypast transcript (), Archive reference: OPR 595/1; Baptism date: 03 Feb 1723; Baptism year: 1723; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Country: Scotland; County: Ayrshire; Father's](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3573825&tab=this)

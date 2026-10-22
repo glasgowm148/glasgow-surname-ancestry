@@ -7,6 +7,8 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **99% (proved)** for [Glasgow-1143](https://www.wikitree.com/wiki/Glasgow-1143). Existing child-to-father link assessed from held public evidence; Robert/Rachel’s household has register and independent equity/deed corroboration; Robert’s own ancestry remains unproved. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Ann was born 15 November 1733 to Robert Glasgow and Rachel Wilson according to
 the congregation-register chronology. She was sister of James Glasgow-1144 and
 wife of Hugh Shannon. The 1817 complaint says Ann predeceased Archibald Wilson, but
@@ -38,3 +40,17 @@ Profile prose and trees remain leads; inspect the cited record before treating a
 ### External source links present
 
 - None detected outside WikiTree and sponsored Ancestry links.
+
+## Father confidence review, sixth batch — 22 October 2026
+
+[Glasgow-1143](https://www.wikitree.com/wiki/Glasgow-1143) remains the selected father, assessed **99% (proved)**. Previous selected-tree status: **strongly_supported**, without an individual percentage.
+
+Ann’s derivative register gives Robert and Rachel and exact 1733 birth; the 1817 sworn collateral evidence names her as James’s sister, independently anchoring the family.
+
+Scope: Existing child-to-father link assessed from held public evidence; Robert/Rachel’s household has register and independent equity/deed corroboration; Robert’s own ancestry remains unproved.
+
+Next useful test: Check MIC/1B/6 original Ann entry against the equity transcription.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Larne/Kilwaughter congregation register chronology](https://web.archive.org/web/20101124184247id_/http://lifesweaving.com/Glasgow/Kilwaughter/Timeline.html)

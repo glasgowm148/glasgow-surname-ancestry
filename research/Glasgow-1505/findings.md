@@ -4,6 +4,8 @@ Last updated: 2026-10-18
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **29% (uncertain)** for [Glasgow-1502](https://www.wikitree.com/wiki/Glasgow-1502). Existing child-to-father link assessed from held public evidence; Robert is the older congregation adult, distinct from Robert-1143; his c 1675 birth and proposed sons are estimates/hypotheses. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Reviewed: 2026-10-18. **William is retained as an uncertain father alternative for the Larne ropemaker James-1509,27%. Hugh-1499 is now the preferred possible father,52%. The1760 William witness remains positive association evidence with an unresolved identity, not a father clause.**
 
 William is a real, distinct older Larne man. A published transcript of the
@@ -280,3 +282,19 @@ The next discriminators are the original1737 entry,1762 marriage, full James/Jan
 - [Bigger and Hughes, Larne churchyard inscriptions, Ulster Journal of Archaeology, second series6, pp.47–48; previously inspected published monument transcription reused](https://archive.org/details/ulsterjournalofa06ulstiala/page/47/mode/1up)
 
 [Complete family comparison](/branches/larne-kilwaughter/#chapter-larne-ropemaker-preferred-father).
+
+## Father confidence review, sixth batch — 22 October 2026
+
+[Glasgow-1502](https://www.wikitree.com/wiki/Glasgow-1502) remains the selected father, assessed **29% (uncertain)**. Previous selected-tree status: **uncertain**, without an individual percentage.
+
+Robert and William are real adults in the Larne/Kilwaughter congregation and an older Robert can fit William’s estimated generation. No held deed or register names Robert as William’s father; the derivative presumed-brother reconstruction is not independent proof.
+
+Scope: Existing child-to-father link assessed from held public evidence; Robert is the older congregation adult, distinct from Robert-1143; his c 1675 birth and proposed sons are estimates/hypotheses.
+
+Next useful test: Inspect MIC/1B/6 and early William lease recitals for an explicit parent or family link.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Classon Porter, “Congregational Memoirs—Larne and
+Kilwaughter,” The Christian Unitarian, vols. 2–3 (1863–1864),
+transcript of the congregational records for 1699–1700.](https://www.wikitree.com/wiki/Glasgow-1505)

@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **55% (possible)** for [Glasgow-3526](https://www.wikitree.com/wiki/Glasgow-3526). Existing child-to-father link assessed from held public evidence; The account represents the 1717 named James; 1688 is an estimate, Helen is tree-held, and 1547 remains an alternative childhood identity. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Reviewed: 2026-10-16
 
 **Selected working families, 16 October 2026:** Michael of Irvine Glasgow-1406 is placed under Robert of Ayr Glasgow-1512, uncertain. James of the Kirknewton/East Calder account Glasgow-3526 is placed under the older William Glasgow-1026, uncertain. Both mothers remain unknown; the 1717 child’s earlier 1547 reference is retained as an alternative identity. [Evidence and alternatives](/branches/early-scottish-records/#irvine-calder-heads).
@@ -20,3 +22,17 @@ Helen’s 1714 date and father association come from a collaborative tree, not a
 - [William, Kirknewton, 22 April 1705; older William household](https://familysearch.org/ark:/61903/1:1:VQ4K-FY9)
 - [Helen’s collaborative-tree source only; no baptism inspected](https://www.familysearch.org/en/tree/person/details/K8TC-GMV)
 - [1702 James/Andrew family reference; surviving alternative childhood](https://www.familysearch.org/ark:/61903/1:1:VQ4K-6MQ)
+
+## Father confidence review, sixth batch — 22 October 2026
+
+[Glasgow-3526](https://www.wikitree.com/wiki/Glasgow-3526) remains the selected father, assessed **55% (possible)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+Helen’s 1714 date and James father association are explicitly tree-held, not a reviewed baptism. A local James father in the 1717 John record supports plausibility but does not prove Helen’s siblinghood or father.
+
+Scope: Existing child-to-father link assessed from held public evidence; The account represents the 1717 named James; 1688 is an estimate, Helen is tree-held, and 1547 remains an alternative childhood identity.
+
+Next useful test: Find and inspect Helen’s actual 1714 source from the collaborative tree.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [https://www.familysearch.org/en/tree/person/details/K8TC-GMV](https://www.familysearch.org/en/tree/person/details/K8TC-GMV)

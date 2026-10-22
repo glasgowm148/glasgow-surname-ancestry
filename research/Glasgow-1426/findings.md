@@ -1,6 +1,12 @@
 # Glasgow-1426 research findings
 
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-cdbfe8e4475a -->
+## Current conclusion
+
+Current father assessment (22 October 2026): **89% (probable)** for [Glasgow-1067](https://www.wikitree.com/wiki/Glasgow-1067). Complete existing child-to-father-profile proposition, including the father’s childhood-to-adult identification; literal named parental role is stronger and assessed separately in the basis. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
+Hugh’s 1713 entry names Hugh and Mary Dean, continuing the Irvine family. The father’s identification with the 1676 Hew is compatible across age and locality but unbridged; the longer record interval supplies less household detail than a continuous address would.
+
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-cdbfe8e4475a
 
 The transcript-validated baptism record for **Hugh Glasgow**, 08 Dec 1713, Irvine, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
@@ -32,3 +38,17 @@ Other viable Hugh profiles prevent a safe assignment.
 ## Recommended action — Irvine/London sailor
 
 Make no profile amendment without an independent sailor/London identifier.
+
+## Father confidence review, sixth batch — 22 October 2026
+
+[Glasgow-1067](https://www.wikitree.com/wiki/Glasgow-1067) remains the selected father, assessed **89% (probable)**. Previous selected-tree status: **uncertain**, without an individual percentage.
+
+Hugh’s 1713 entry names Hugh and Mary Dean, continuing the Irvine family. The father’s identification with the 1676 Hew is compatible across age and locality but unbridged; the longer record interval supplies less household detail than a continuous address would.
+
+Scope: Complete existing child-to-father-profile proposition, including the father’s childhood-to-adult identification; literal named parental role is stronger and assessed separately in the basis.
+
+Next useful test: Compare 1713 occupation/residence with earlier Dean entries.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Hugh Glasgow, 08 Dec 1713, record SCOT/OPR/BAP/3573098](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3573098&tab=this)

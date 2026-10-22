@@ -20,6 +20,8 @@ Add the record as supporting evidence while preserving all existing sources and 
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **99% (proved)** for [Glasgow-1226](https://www.wikitree.com/wiki/Glasgow-1226). Existing child-to-father link assessed from held public evidence; Thomas is defined by the Clarkson/Classon household; proposed 1675 childhood and upstream parents remain uncertain. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Reviewed: 22 October 2026.
 
 The inspected OPR 694/2 item 4 transcript indexes an unnamed child in 1757, baptism date literally “17 ? 1757”, father Andrew Glasgow and mother Janet Young. This Livingston 1730 Andrew is a compatible regional adult candidate; [Andrew Glasgow-3052](/people/glasgow-3052.html), born before 1720 in Kirknewton/East Calder, remains another. Neither identity is established. A different known spouse alone does not exclude either. Preserve the unread month and unnamed child; do not attach Janet Young or invent a child forename.
@@ -44,3 +46,17 @@ One Mid Calder baptism on 17 April 1757 names Andrew Glasgow and Janet Young. Al
 
 Provider transcripts inspected; original images uninspected. [Shared Scottish-records account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
 <!-- END FMP-BIRTH-SCOPE-PAGE3-20261022 -->
+
+## Father confidence review, sixth batch — 22 October 2026
+
+[Glasgow-1226](https://www.wikitree.com/wiki/Glasgow-1226) remains the selected father, assessed **99% (proved)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+Andrew’s 1729 Livingston transcript names Tho and Cathrine Clerkson, a specific continuation of the Uphall couple. The separate index’s 1730 citation is a date issue.
+
+Scope: Existing child-to-father link assessed from held public evidence; Thomas is defined by the Clarkson/Classon household; proposed 1675 childhood and upstream parents remain uncertain.
+
+Next useful test: Reconcile original event date with the 1730 FamilySearch citation.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Andrew Glasgow, 21 Dec 1729, record SCOT/OPR/BAP/4151237](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4151237&tab=this)

@@ -1,6 +1,12 @@
 # Glasgow-3006 research findings
 
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-27f929774fdc -->
+## Current conclusion
+
+Current father assessment (22 October 2026): **98% (proved)** for [Glasgow-1075](https://www.wikitree.com/wiki/Glasgow-1075). Recorded surgeon father, independent of the 1730/1731 calendar or transcription discrepancy. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
+John’s 29 March 1731 Puddockholm entry explicitly names Robert Glasgow, Surgeon, and Margarat Allan. Place, trade and wife identify Robert-1075 despite the 1730 year in the older citation/field.
+
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-27f929774fdc
 
 The transcript-validated baptism record for **John Glasgow**, 29 Mar 1731, Kilbirnie, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
@@ -36,3 +42,17 @@ Recorded in `research/findmypast-glasgow-audit/hold-identity-resolution-2026-09-
 ## Scope of the 1720 Robert Glasgow lead — 17 October 2026
 
 The lead from Dobie, *Examination of the Claim of John Lindsay Crawfurd*, pp. 102–104, concerns an adult **Robert Glasgow in 1720**, not John, whose competing baptism-index years here are 1730 and 1731. The attached father, [Robert Glasgow (Glasgow-1075)](https://www.wikitree.com/wiki/Glasgow-1075), is a compatible family candidate for that Robert; the quotation alone does not resolve his identity. The reported maternal-grandfather relationship belongs to Robert and James Smith, not to this John. Treat it as associated family evidence pending identification, without assigning a new child or grandchild to John.
+
+## Father confidence review, sixth batch — 22 October 2026
+
+[Glasgow-1075](https://www.wikitree.com/wiki/Glasgow-1075) remains the selected father, assessed **98% (proved)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+John’s 29 March 1731 Puddockholm entry explicitly names Robert Glasgow, Surgeon, and Margarat Allan. Place, trade and wife identify Robert-1075 despite the 1730 year in the older citation/field.
+
+Scope: Recorded surgeon father, independent of the 1730/1731 calendar or transcription discrepancy.
+
+Next useful test: Compare FamilySearch XY24-V6J with OPR596/1 p79 and original calendar wording.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: John Glasgow, 29 Mar 1731, record SCOT/OPR/BAP/3586582](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3586582&tab=this)

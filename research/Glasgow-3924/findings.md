@@ -7,6 +7,8 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **99% (proved)** for [Glasgow-3920](https://www.wikitree.com/wiki/Glasgow-3920). Memorial erector’s father; no birth year, own death, wife or Scottish grandfather is proved. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Reviewed: 2026-10-16
 
 **Selected very uncertain Kilclone–Gordon model,16 October 2026:** Patrick Glasgow-3920 of the Kilclone memorial is provisionally placed as a son of Patrick Glasgow-1440, the Gordon 1667 account. The circa 1694 birth and 1667 baptism fit a father generation, but no Scottish–Irish record bridge is known. The proposed son predates the older account’s 1707 marriage; no mother is supplied. [Evidence and alternatives](/branches/research-irish-kilclone-meath/#kilclone-gordon-working-family).
@@ -69,3 +71,19 @@ One very uncertain father is newly selected, with no mother. This is a speculati
 - [FamilySearch, Patrick Glasgow/Helen Fairbarne, Eccles,1 July 1707; existing marriage-index citation](https://familysearch.org/ark:/61903/1:1:XTL4-LPT)
 - [Findmypast, Kilclone memorial index, James Glasco, IRE/MEMDEAD/008199; prior finding of incompatible 1736 death-year field](https://www.findmypast.co.uk/transcript?id=IRE%2FMEMDEAD%2F008199)
 - [Findmypast, Kilclone memorial index, Patrick Glasco, IRE/MEMDEAD/008202; prior derivative index finding](https://www.findmypast.co.uk/transcript?id=IRE%2FMEMDEAD%2F008202)
+
+## Father confidence review, sixth batch — 22 October 2026
+
+[Glasgow-3920](https://www.wikitree.com/wiki/Glasgow-3920) remains the selected father, assessed **99% (proved)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+James erected the Kilclone stone for his father Patrick and brothers Richard and William. Father-3920 is the same named Patrick; James’s erroneous 1736 memorial index death cannot overturn the inscription’s explicit family statement.
+
+Scope: Memorial erector’s father; no birth year, own death, wife or Scottish grandfather is proved.
+
+Next useful test: Check printed 1892 entry or photograph and preserve the index’s 1736 error as a separate issue.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Association for the Preservation of the Memorials of the Dead in Ireland,
+Kilclone inscription reported in 1892; [searchable modern transcription)(https://meathhistoryhub.ie/memorials-of-the-dead-journal/),
+accessed 17 July 2026.](https://meathhistoryhub.ie/memorials-of-the-dead-journal/),)

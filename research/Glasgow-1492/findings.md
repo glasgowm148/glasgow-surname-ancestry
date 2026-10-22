@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **23% (uncertain)** for [Glasgow-1025](https://www.wikitree.com/wiki/Glasgow-1025). Gorteen Samuel is an unidentified candidate, distinct from Whitehill in Kildress; both the child’s adult identification and older James pedigree remain open. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 The original 1766 Derryloran return proves that a **Samuel Glasco was a
 householder at Gorteen**. It does not give his age or parents, so it cannot by
 itself identify him as this profile or as a son of either currently proposed
@@ -128,3 +130,17 @@ The two notices concern parts of Isaac Williams’s estate. Being named as an ad
 
 This may concern [Glasgow-1492](https://www.wikitree.com/wiki/Glasgow-1492). Estimated c.1726 Moneymore birth and c.1824 United States death allow these dates. The separate 1766 Gorteen occurrence does not establish American migration or identity.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, sixth batch — 22 October 2026
+
+[Glasgow-1025](https://www.wikitree.com/wiki/Glasgow-1025) remains the selected father, assessed **23% (uncertain)**. Previous selected-tree status: **uncertain**, without an individual percentage.
+
+Samuel has a concrete 1766 Gorteen householder comparison near the proposed James family, giving slightly more local context than a pedigree alone. Neither that return nor a supplied parent record identifies James as his father.
+
+Scope: Gorteen Samuel is an unidentified candidate, distinct from Whitehill in Kildress; both the child’s adult identification and older James pedigree remain open.
+
+Next useful test: Seek a Gorteen succession, lease or probate naming Samuel’s father and distinguishing the local Jameses.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [National Archives of Ireland, IHP/1/665, original 1766 Derryloran religious return, Gorteen section, Virtual Record Treasury (https://virtualtreasury.ie/item/NAI-IHP-1-665).](https://virtualtreasury.ie/item/NAI-IHP-1-665)

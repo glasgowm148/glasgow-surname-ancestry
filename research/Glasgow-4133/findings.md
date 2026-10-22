@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **94% (proved)** for [Glasgow-4168](https://www.wikitree.com/wiki/Glasgow-4168). Existing child-to-father link assessed from held public evidence; The merged account covers Gibson, Wilson and Watson entries; one common man, maternal identities and overlap with Robert-3407 remain unresolved. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Reviewed: 2026-10-22
 
 Agnes Glasgow was baptised at Libberton, Lanarkshire, on **21 August 1720**. The reinspected [Findmypast transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4033335&tab=this), OPR 650/1, item 3, p.11, names [Robert Glasgow](https://www.wikitree.com/wiki/Glasgow-4168) and **Katherine Wilson**, with residence **Gladhaimb**. Its mother field contradicts the earlier biography's Katherine Watson reading. The [R_684955704](https://www.findmypast.co.uk/transcript?id=R_684955704&tab=this) and [R_693522269](https://www.findmypast.co.uk/transcript?id=R_693522269&tab=this) transcripts independently display the same indexed event, with the mother as Katharin Wilson; they are index versions, not three independent original records.
@@ -32,3 +34,17 @@ Glasgow-4133 represents the Libberton Agnes baptised 21 August 1720. The newly i
 | Agnes Glasgow and Patrik Paul, 8 July 1670, Kirknewton and East Calder | Scotland’s People OPR 690/10 /64; [record](https://www.scotlandspeople.gov.uk/) | Same conditional exclusion; no marriage attributed to this profile. |
 | Agnes Glasgow and William Thomsone, 15 December 1681, Carstairs | Scotland’s People OPR 633/10 /66; [record](https://www.scotlandspeople.gov.uk/) | Same conditional exclusion; no marriage attributed to this profile. |
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, sixth batch — 22 October 2026
+
+[Glasgow-4168](https://www.wikitree.com/wiki/Glasgow-4168) remains the selected father, assessed **94% (proved)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+Agnes’s reinspected 1720 transcript explicitly names Robert and Katherine Wilson at Gladhaimb. Robert-4168 includes this adult, though identity with Gibson/Watson fathers and the separate Wilson Robert-3407 remains unresolved. Duplicate indexes are one event.
+
+Scope: Existing child-to-father link assessed from held public evidence; The merged account covers Gibson, Wilson and Watson entries; one common man, maternal identities and overlap with Robert-3407 remain unresolved.
+
+Next useful test: Compare residence, trade and witnesses with the 1722 Wilson entry and other Libberton baptisms.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [fmp-record-scot-opr-bap-4033335](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4033335&tab=this)

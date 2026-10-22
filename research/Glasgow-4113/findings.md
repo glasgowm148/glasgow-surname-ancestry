@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **99% (proved)** for [Glasgow-3586](https://www.wikitree.com/wiki/Glasgow-3586). Recorded Jean and the Achenyeards weaver father; no maternal, Irvine-adult or 1700-child identity is inferred. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Reviewed: 2026-10-21. **Existing father William-3586 remains ungraded; his selected upstream father is now John-1057,possible46%, through adult identity56%.**
 
 Existing father William-3586 remains ungraded; his selected upstream father is now John-1057,possible46%, through adult identity56%.
@@ -74,3 +76,17 @@ James Richmond’s Irvine account in the Old Statistical Account,volume7,printed
 - [James Richmond, Old Statistical Account, Irvine,vol7,p170 / PDFpage2; geography only](https://stataccscot.ed.ac.uk/data/pdfs/account1/StAS.1.7.169.P.Ayrshire.Irvine.pdf#page=2)
 
 Inspect the original Irvine1724–1729 and Dundonald1732–1733 entries for the father’s occupation, residence and witnesses, and compare the Stevenston1700 entry with the adult’s later household. Seek a marriage, tenancy or kirk-session record distinguishing the Irvine father from William-3288 and William-1061. Test Mary versus Margaret independently; do not create a wife’s death to explain a later pairing.
+
+## Father confidence review, sixth batch — 22 October 2026
+
+[Glasgow-3586](https://www.wikitree.com/wiki/Glasgow-3586) remains the selected father, assessed **99% (proved)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+Jean’s 1 October 1732 Dundonald entry names William Glasgow, weaver at Achenyeards. Father-3586 is defined by that very adult record, making the parent identity specific despite uncertainty about the father’s Irvine identity and ancestry.
+
+Scope: Recorded Jean and the Achenyeards weaver father; no maternal, Irvine-adult or 1700-child identity is inferred.
+
+Next useful test: Preserve original OPR590/1 p80 detail; target the father’s cross-parish identity separately.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Jean Glasgow, 01 Oct 1732, Dundonald; held Findmypast transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3536699&tab=this)

@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **92% (proved)** for [Glasgow-1026](https://www.wikitree.com/wiki/Glasgow-1026). Record-defined father William is strong; identity across the 1682,1702,1705 entries is less secure. John’s possible later Meek household does not reduce this child link. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Reviewed: 2026-10-16
 
 **Selected Calder/Irvine working families, 16 October 2026:** John of the Calder/Meek household is placed under William-1026 through the 1702 child comparison, uncertain. George of the Irvine Margt household is placed under John-1057 and Agnes Spark through the 1687 child and 1728 couple comparison, both uncertain. Existing dates, recorded-child grades and competing identities remain. [Evidence and alternatives](/branches/early-scottish-records/#calder-irvine-working-family).
@@ -42,3 +44,17 @@ The adjoining-owner and committee appointments may concern one man but do not na
 
 This may concern [Glasgow-1544](https://www.wikitree.com/wiki/Glasgow-1544). Could be an adult in 1776; no death or place evidence excludes him. No Pennsylvania connection.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, sixth batch — 22 October 2026
+
+[Glasgow-1026](https://www.wikitree.com/wiki/Glasgow-1026) remains the selected father, assessed **92% (proved)**. Previous selected-tree status: **uncertain**, without an individual percentage.
+
+The 1702 Kirknewton John entry explicitly names William, and father-1026 is the established account used for that local William household. Its composite 1682–1705 span lacks a residence or maternal bridge, leaving a modest identity reservation.
+
+Scope: Record-defined father William is strong; identity across the 1682,1702,1705 entries is less secure. John’s possible later Meek household does not reduce this child link.
+
+Next useful test: Compare original 1702 entry with 1682 and 1705 for residence and witnesses; reconcile 11 versus 29 November.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [John, Kirknewton 1702: named father William; FamilySearch index](https://www.familysearch.org/ark:/61903/1:1:VQ4K-XZ7)

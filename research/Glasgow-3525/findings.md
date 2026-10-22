@@ -4,6 +4,8 @@ Last updated: 2026-10-16
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **97% (proved)** for [Glasgow-3526](https://www.wikitree.com/wiki/Glasgow-3526). Existing child-to-father link assessed from held public evidence; The account represents the 1717 named James; 1688 is an estimate, Helen is tree-held, and 1547 remains an alternative childhood identity. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Reviewed: 2026-10-16
 
 **Selected uncertain West Calder family, 16 October 2026:** John Glasgow-2847, husband of Margaret Anderson, is placed under James Glasgow-3526 through possible identity with the 1717 Kirknewton child John Glasgow-3525. James Glasgow-1547 remains an alternative father account. The adult’s circa 1730 birth is an estimate; no mother or new vital date is supplied. [Evidence and alternatives](/branches/early-scottish-records/#west-calder-anderson-working-family).
@@ -52,3 +54,17 @@ One uncertain father is newly selected through a possible child-to-adult identit
 - [FamilySearch, James Glasgow,1702, Kirknewton, Andrew Glasgow; alternative childhood for the 1717 father](https://www.familysearch.org/ark:/61903/1:1:VQ4K-6MQ)
 - [FamilySearch, John Glasgow,1702, Kirknewton, father William; competing John childhood already used for the Meek-household hypothesis](https://www.familysearch.org/ark:/61903/1:1:VQ4K-XZ7)
 - [MyHeritage, John Glasgow,18 August 1751, Kirknewton, John Glasgow/Christian Meek; distinct household comparison](https://www.myheritage.com/research/record-30226-356058/john-glasgow-in-scotland-births-baptisms)
+
+## Father confidence review, sixth batch — 22 October 2026
+
+[Glasgow-3526](https://www.wikitree.com/wiki/Glasgow-3526) remains the selected father, assessed **97% (proved)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+John’s 1717 index names James; the maintained James-3526 account explicitly represents that adult, whose ancestry is unproved. James-1547 survives as an alternative childhood identification, not a second name in this child’s record.
+
+Scope: Existing child-to-father link assessed from held public evidence; The account represents the 1717 named James; 1688 is an estimate, Helen is tree-held, and 1547 remains an alternative childhood identity.
+
+Next useful test: Inspect 1717 original for residence, trade or an age distinguishing the James accounts.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [John,31 March 1717, Kirknewton/East Calder; father James](https://www.familysearch.org/ark:/61903/1:1:VQ4K-6JT)

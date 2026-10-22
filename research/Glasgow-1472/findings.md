@@ -1,6 +1,12 @@
 # Glasgow-1472 research findings
 
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-c3ca9b117e36 -->
+## Current conclusion
+
+Current father assessment (22 October 2026): **98% (proved)** for [Glasgow-1055](https://www.wikitree.com/wiki/Glasgow-1055). Existing child-to-father link assessed from held public evidence; The account expressly represents the Irvine adult; his Stevenston childhood and Dundonald-weaver identity are separate hypotheses. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
+Katherine’s 1727 entry directly names Wm in the ordered Irvine family. Mary Monfodd differs from Margaret in the surrounding entries; that is a real maternal issue, not evidence naming a different father.
+
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-c3ca9b117e36
 
 The transcript-validated baptism record for **Katherine Glasgow**, 03 Sep 1727, Irvine, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
@@ -15,3 +21,17 @@ The transcript-validated baptism record for **Katherine Glasgow**, 03 Sep 1727, 
 
 Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
 <!-- END FMP-GLASGOW-fmp-glasgow-c3ca9b117e36 -->
+
+## Father confidence review, sixth batch — 22 October 2026
+
+[Glasgow-1055](https://www.wikitree.com/wiki/Glasgow-1055) remains the selected father, assessed **98% (proved)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+Katherine’s 1727 entry directly names Wm in the ordered Irvine family. Mary Monfodd differs from Margaret in the surrounding entries; that is a real maternal issue, not evidence naming a different father.
+
+Scope: Existing child-to-father link assessed from held public evidence; The account expressly represents the Irvine adult; his Stevenston childhood and Dundonald-weaver identity are separate hypotheses.
+
+Next useful test: Inspect p39 for Mary/Margaret and any distinguishing paternal details.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Katherine Glasgow, 03 Sep 1727, Irvine; held Findmypast transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3574234&tab=this)

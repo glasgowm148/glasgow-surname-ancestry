@@ -6,6 +6,8 @@ Last updated: 2026-10-16
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **88% (probable)** for [Glasgow-1065](https://www.wikitree.com/wiki/Glasgow-1065). Literal adult father99%; complete selected edge includes the 1683-child-to-Wyllie-husband identification. The child’s later Mary Auld identity is separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Reviewed: 2026-10-16
 
 **Selected uncertain Kilwinning family, 16 October 2026:** John Glasgow-2467, husband of Mary Auld, is provisionally placed under John Glasgow-1065 and Jean Wyllie-1044 through possible identity with the 1703 Kilwinning child John Glasgow-2464. Their identity and the exact generation remain uncertain; all existing vital fields are retained. [Evidence and alternatives](/branches/early-scottish-records/#kilwinning-auld-working-family).
@@ -47,3 +49,17 @@ One uncertain father and one uncertain mother are selected through one possible 
 - [Findmypast, Kilwinning John,16 September 1683, SCOT/OPR/BAP/3624727; existing transcript, mother-name conflict retained](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3624727&tab=this)
 - [FamilySearch, Margaret Glasgow,1712, Jean Wyllie household; retained sibling-household citation](https://www.familysearch.org/ark:/61903/1:1:XY2H-785)
 - [Stevenston Margaret,1717, James Glasgow/Mary Auld; distinct household comparison, not proof of identity](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0369031&tab=this)
+
+## Father confidence review, sixth batch — 22 October 2026
+
+[Glasgow-1065](https://www.wikitree.com/wiki/Glasgow-1065) remains the selected father, assessed **88% (probable)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+John’s 19 December 1703 Chappell baptism names John Glasgow and Jean Wylie, matching father-1065’s recurring adult Wyllie household. The selected father account is also the 1683 child, whose continuity to this adult is compatible at about 20 but unproved.
+
+Scope: Literal adult father99%; complete selected edge includes the 1683-child-to-Wyllie-husband identification. The child’s later Mary Auld identity is separate.
+
+Next useful test: Seek the Wyllie marriage and original 1703/1683 entries for household links, distinguishing the maternal 1683 index conflict.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Findmypast, Kilwinning John baptism 19 December 1703, John Glasgow/Jean Wylie, Chappell, SCOT/OPR/BAP/3625663; previously validated transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3625663&tab=this)

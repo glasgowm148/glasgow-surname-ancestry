@@ -7,6 +7,8 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **12% (uncertain)** for [Glasgow-3959](https://www.wikitree.com/wiki/Glasgow-3959). Existing child-to-father link assessed from held public evidence; John’s c 1705 birth is estimated; 1740 Ballyboggy residence gives no age or Hugh relationship. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Glasgow-3931 is the newly created profile for Tamlaght O'Crilly householder
 entry 1195 in 1740. The return proves a distinct adult Hugh but gives no
 townland, occupation or relationship. The return supplies no basis for
@@ -72,3 +74,17 @@ These are proposals for the WikiTree date fields and are queued for review; noth
 
 - **Known record, Findmypast form only.** Findmypast indexes this man and the second Hugh as **Hugh (1)** and **Hugh (2) Glasgow**, Tamlaghtocrilly, 1740 (`IRE/PRONI/1740PH/G/00359` and `/00360`). The index has no townland or collector order and does not say which of the two is entry 1195; it adds nothing that separates the two men.
 - Searches that found nothing: no other Findmypast record names a Hugh Glasgow in Tamlaght O'Crilly or Inishrush after 1740.
+
+## Father confidence review, sixth batch — 22 October 2026
+
+[Glasgow-3959](https://www.wikitree.com/wiki/Glasgow-3959) remains the selected father, assessed **12% (uncertain)**. Previous selected-tree status: **uncertain**, without an individual percentage.
+
+Hugh is an adult Tamlaght O’Crilly householder in 1740; John-3959 is an adult Ballyboggy co-lessee in another parish that year. Broad regional proximity and possible generation permit the attachment, but neither record supplies age or kinship and Hugh has a distinct same-name neighbour.
+
+Scope: Existing child-to-father link assessed from held public evidence; John’s c 1705 birth is estimated; 1740 Ballyboggy residence gives no age or Hugh relationship.
+
+Next useful test: Seek a lease life, probate or marriage naming a Hugh–John relationship and locality bridge.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [108-109; Richard John Torrens, collector-order transcription (), entries 1195 and 1272 (accessed 21 July 2026); W](https://genealogy.torrens.org/BannValley/books/Kilrea/Kilrea07.html)

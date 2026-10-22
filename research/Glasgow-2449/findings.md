@@ -1,6 +1,12 @@
 # Glasgow-2449 research findings
 
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-44aa817ac6f9 -->
+## Current conclusion
+
+Current father assessment (22 October 2026): **98% (proved)** for [Glasgow-1056](https://www.wikitree.com/wiki/Glasgow-1056). The Byres adult father is strongly identified; no new maternal identity or upstream Hugh ancestry is decided. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
+Agnes’s 15 December birth and 18 December 1726 baptism explicitly name Hugh Glasgow and Janet Kilpatrick at Byres. Residence and father match the Patrick household; the maternal surname expansion is a small transcription/identity reservation, not an alternative father.
+
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-44aa817ac6f9
 
 The transcript-validated baptism record for **Agnes Glasgow**, 18 Dec 1726, Kilwinning, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
@@ -25,3 +31,17 @@ Agnes was born 15 December and baptized 18 December 1726, Hugh Glasgow and Janet
 
 The provider transcripts were inspected on 22 October 2026; original register images were not inspected. [Shared record review](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
 <!-- END FMP-BIRTH-SCOPE-PAGE2-20261022 -->
+
+## Father confidence review, sixth batch — 22 October 2026
+
+[Glasgow-1056](https://www.wikitree.com/wiki/Glasgow-1056) remains the selected father, assessed **98% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+Agnes’s 15 December birth and 18 December 1726 baptism explicitly name Hugh Glasgow and Janet Kilpatrick at Byres. Residence and father match the Patrick household; the maternal surname expansion is a small transcription/identity reservation, not an alternative father.
+
+Scope: The Byres adult father is strongly identified; no new maternal identity or upstream Hugh ancestry is decided.
+
+Next useful test: Compare pp74,127,208 originals for Patrick/Kilpatrick and any address or trade.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [fmp-record-scot-opr-bap-3626962](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3626962&tab=this)

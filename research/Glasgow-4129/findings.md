@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **99% (proved)** for [Glasgow-4158](https://www.wikitree.com/wiki/Glasgow-4158). Recorded 1721 child and adult James/Margt father; no Nasmith, shipmaster or Hugh-3109 ancestry inference. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 Reviewed 18 October 2026. **The1721 child remains a compatible unselected identity for Helen Nasmith’s partner; that father model is26%.**
 
 Select John Glasgow-2475 of the Irvine Isabell Kyle/Kelle household as the possible working father of James Glasgow-4157, Helen Nasmith’s partner, at 58% subjective confidence. The leading explanation identifies the later James with John and Isabell’s James, baptised at Irvine on 19 August 1711 (Glasgow-4100). This joins a specific recorded birth family to a specific later household in the same parish. Assuming infant baptism, that James would be about thirty when John was born in August 1741 and about thirty-five at Susanna’s 1747 birth. The later household’s first known son is John, agreeing with the proposed paternal grandfather. Same-parish continuity, a comfortable adult chronology and this modest naming clue together favour this family over the younger 1721 comparison. None independently proves the identification.
@@ -62,3 +64,17 @@ The retained Findmypast exact-display CSV(1461 rows) was searched for Nasmith, N
 - [Findmypast, Irvine OPR595/1, John Glasgow baptism, 1741; maintained 3 September 2026 transcript, SCOT/OPR/BAP/3575071](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3575071&tab=this)
 - [Findmypast, Irvine OPR595/1, Allan Glasgow baptism, 1743; maintained 3 September 2026 transcript, SCOT/OPR/BAP/3575202](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3575202&tab=this)
 - [Findmypast, Irvine OPR595/1, Susanna Glasgow baptism, 1747; maintained 3 September 2026 transcript, SCOT/OPR/BAP/3575478](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3575478&tab=this)
+
+## Father confidence review, sixth batch — 22 October 2026
+
+[Glasgow-4158](https://www.wikitree.com/wiki/Glasgow-4158) remains the selected father, assessed **99% (proved)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+James’s 11 April 1721 Irvine transcript explicitly names James Glasgow and Margt Rae; father-4158 is the adult Rae household defined by that event. The 1721 child’s possible later Nasmith identity is separate and does not weaken the named father.
+
+Scope: Recorded 1721 child and adult James/Margt father; no Nasmith, shipmaster or Hugh-3109 ancestry inference.
+
+Next useful test: Compare original OPR595/1 p29 when testing later adult identity or the Rae maternal variants.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [James, Irvine 11 April 1721: James Glasgow and Margaret Rae](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3573667&tab=this)

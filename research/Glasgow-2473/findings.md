@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **31% (possible)** for [Glasgow-3103](https://www.wikitree.com/wiki/Glasgow-3103). Literal 1703 father James/Dobie is99%;31% concerns identification with the specific 1679-child account, not doubt about Robert’s recorded parents. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 **Substantive amendment.** The exact Edinburgh baptism identifies Robert's parents as [[Glasgow-3103|James Glasgow]] and [[Dobie-449|Jean Dobie]] and describes James as a shoemaker and indweller. Those parents are attached but uncertain, while the captured biography omits them and instead speculates about two broader ancestral candidates. The record supports making both parent relationships confident and replacing that misleading narrative.
 
 ## Source findings
@@ -113,3 +115,17 @@ The judgment and later order for execution are separate reports. An order for ex
 
 This may concern [Glasgow-2473](https://www.wikitree.com/wiki/Glasgow-2473). Chronologically possible (at least 48); no corroborating London evidence. Cited sources cites a Findmypast baptism transcript dated 7 Jan 1703 at Edinburgh; maintained vital preserves the before qualifier. The family account link the baptism to Edinburgh parents, but no relevant maritime or London criminal record was identified.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, sixth batch — 22 October 2026
+
+[Glasgow-3103](https://www.wikitree.com/wiki/Glasgow-3103) remains the selected father, assessed **31% (possible)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+Robert’s 1703 Edinburgh baptism explicitly names James Glasgow, shoemaker/indweller, and Jean Dobie. Father-3103 is specifically the 1679 child; the 1680 same-name child of the same parents may be the survivor, and neither childhood is proved to be Dobie’s husband. That identity gap dominates the complete selected edge.
+
+Scope: Literal 1703 father James/Dobie is99%;31% concerns identification with the specific 1679-child account, not doubt about Robert’s recorded parents.
+
+Next useful test: Find burial/survival and occupation evidence distinguishing 1679/1680 Jameses; compare 1698 marriage and 1703 baptism for kin and trade.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Findmypast, Scotland, Parish Births & Baptisms 1564-1929, Robert Glasgow, baptism 7 January 1703, Edinburgh, parents James Glasgow and Jean Dobie, father's occupation “Shoemakers Indweller,” OPR 685_1/14, item 4, page 117; record SCOT/OPR/BAP/0597973; transcript (https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0597973&tab=this), accessed 4 September 2026.](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0597973&tab=this)

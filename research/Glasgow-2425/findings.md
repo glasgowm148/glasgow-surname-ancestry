@@ -5,6 +5,8 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **18% (uncertain)** for [Glasgow-1025](https://www.wikitree.com/wiki/Glasgow-1025). No original identifies Robert or his father; the 1759 Drumcarn testator is not securely James-1025. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 The entered place “Moneymore, County Galway” combines a real locality name with
 the wrong county for the Moneymore used by this family reconstruction. The
 project tree provides no inspected original record proving Robert's birth,
@@ -67,3 +69,17 @@ The two issues advertise one planned sale. Robert’s role as owner, agent or an
 
 This may concern [Glasgow-2425](https://www.wikitree.com/wiki/Glasgow-2425). Estimated birth c. 1724 in Ireland and death place United States leave the chronology possible, but the known account gives no Maryland residence or relevant occupation. The identification is therefore weak.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, sixth batch — 22 October 2026
+
+[Glasgow-1025](https://www.wikitree.com/wiki/Glasgow-1025) remains the selected father, assessed **18% (uncertain)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+Robert has only a contributed-tree pedigree and estimated 1724 Moneymore origin; a viable 24-year father interval supplies compatibility, not a named relationship. James’s reconstructed Irish identity is itself unanchored.
+
+Scope: No original identifies Robert or his father; the 1759 Drumcarn testator is not securely James-1025.
+
+Next useful test: Find an estate, deed or probate naming Robert as James’s son; surviving Moneymore baptisms start too late.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [FamilySearch Family Tree, MCTD-7P4 (https://www.familysearch.org/tree/person/details/MCTD-7P4); user-contributed tree, used only as a lead.](https://www.familysearch.org/tree/person/details/MCTD-7P4)

@@ -4,6 +4,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **83% (probable)** for [Glasgow-1058](https://www.wikitree.com/wiki/Glasgow-1058). Complete existing child-to-father-profile proposition, including the father’s childhood-to-adult identification; literal named parental role is stronger and assessed separately in the basis. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 <!-- site-audit-2026-10-07:overall-conclusion -->
 George Glasgow was born on 19 July 1729 and baptised the next day at Kilwinning, Ayrshire, the son of George Glasgow and Margaret Martin as named in the baptism transcript assigned to this profile. He was possibly the George Glasgow, merchant in Glasgow and 'of Nethermains', whose Kilwinning lands were advertised in 1768 and offered at judicial sale in 1777; the link rests on that designation, the Martin family's earlier holding of Nethermains, and the 1768 testament of his recorded wife Margaret Buchanan (Buchanan-12640), 'wife of George Glasgow, of Nethermains'. His recorded death date, 27 June 1768, is that testament's date, so his own death is not established.
 
@@ -107,3 +109,17 @@ The report supplies Manchester and the invention, but no age, family or link to 
 
 This may concern [Glasgow-3312](https://www.wikitree.com/wiki/Glasgow-3312). Exact 19 July 1729 Kilwinning birth and recorded 27 June 1768 death fit early 1762/1767/1768 appearances by chronology/locality. Later property reprints can be posthumous; no individual identifier joins this profile to the advertiser.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, sixth batch — 22 October 2026
+
+[Glasgow-1058](https://www.wikitree.com/wiki/Glasgow-1058) remains the selected father, assessed **83% (probable)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+
+The 1729 transcript proves George/Margaret Martin as parents and the 1728 couple fits. Complete attachment to George-1058 also identifies that adult with the 1687 Kilwinning child: compatible local chronology and existing family association favour it, but no age, trade or property bridge proves that step.
+
+Scope: Complete existing child-to-father-profile proposition, including the father’s childhood-to-adult identification; literal named parental role is stronger and assessed separately in the basis.
+
+Next useful test: Compare original 1728 marriage and 1729 baptism for identifiers.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: George Glasgow, 20 Jul 1729, record SCOT/OPR/BAP/3627149](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3627149&tab=this)

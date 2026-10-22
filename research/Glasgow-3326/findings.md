@@ -4,6 +4,8 @@ Last updated: 2026-08-12
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **98% (proved)** for [Glasgow-1504](https://www.wikitree.com/wiki/Glasgow-1504). The 1730 child’s father; later Larne William and shared-stone descendant identification remain open. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 William is strongly supported as a son of James Glasgow and Sarah Murray. He is
 also the only one of their four recorded children with a credible later trail:
 
@@ -140,3 +142,17 @@ Cecil County explicitly qualifies the 1759 entry only. In 1763 "Pennsylvania" fo
 
 This may concern [Glasgow-3326](https://www.wikitree.com/wiki/Glasgow-3326). Uncertain 1730 birth, Kilwaughter/Larne, is compatible; no postal or Cecil County connection.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, sixth batch — 22 October 2026
+
+[Glasgow-1504](https://www.wikitree.com/wiki/Glasgow-1504) remains the selected father, assessed **98% (proved)**. Previous selected-tree status: **strongly_supported**, without an individual percentage.
+
+William 1730 is explicitly placed in the James Glasgow–Sarah Murray household in the derivative chronology and supported by an Antrim name/year index. The 1772 petition and 1783 probate are later identity questions, not grounds to weaken this recorded son’s father.
+
+Scope: The 1730 child’s father; later Larne William and shared-stone descendant identification remain open.
+
+Next useful test: Inspect MIC/1B/6 baptism; use the actual St Cedma’s inscription separately to test later identity.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: ["Chronology of the Glasgow Family in Northern Ireland in Historical Context" (https://web.archive.org/web/20101124184247/http://lifesweaving.com/Glasgow/Kilwaughter/Timeline.html), 1730 household entry and distinct-person list.](https://web.archive.org/web/20101124184247/http://lifesweaving.com/Glasgow/Kilwaughter/Timeline.html)

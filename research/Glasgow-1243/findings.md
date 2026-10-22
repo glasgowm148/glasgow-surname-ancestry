@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Current father assessment (22 October 2026): **96% (proved)** for [Glasgow-3285](https://www.wikitree.com/wiki/Glasgow-3285). Existing child-to-father link assessed from held public evidence; The baxter craft supports 1699 apprentice to 1715 father; identity with the 1684 baptism is maintained but not literally repeated. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
 **Substantive amendment.** The Findmypast baptism transcript exactly matches Thomas by date, Edinburgh locality and his attached father, [[Glasgow-3285|Thomas Glasgow]]. It resolves a material internal error: the structured father is Glasgow-3285, but the captured biography instead calls [[Glasgow-1242|Thomas Glasgow]] and [[Duncan-16665|Jean Duncan]] his parents. The record names only the father and supports upgrading that relationship from uncertain to confident; it supplies no mother.
 
 ## Source findings
@@ -32,3 +34,17 @@ The transcript-validated baptism record for **Thomas Glasgow**, 15 Jun 1715, Edi
 
 Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
 <!-- END FMP-GLASGOW-fmp-glasgow-0d71c81e6f86 -->
+
+## Father confidence review, sixth batch — 22 October 2026
+
+[Glasgow-3285](https://www.wikitree.com/wiki/Glasgow-3285) remains the selected father, assessed **96% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+Thomas’s 1715 transcript names Thomas, baxter and indweller of Edinburgh; the maintained 1699 baxter apprenticeship gives the attached father a specific craft and locality fit. The 1684-child/apprentice identity is an inference, while biography’s alternative Thomas/Jean pair is unsupported by this entry.
+
+Scope: Existing child-to-father link assessed from held public evidence; The baxter craft supports 1699 apprentice to 1715 father; identity with the 1684 baptism is maintained but not literally repeated.
+
+Next useful test: Compare baxters’ incorporation or marriage records to bridge the apprentice to the 1715 father.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Thomas Glasgow, 15 Jun 1715, record SCOT/OPR/BAP/0606238](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0606238&tab=this)

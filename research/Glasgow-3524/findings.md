@@ -1,6 +1,12 @@
 # Glasgow-3524 research findings
 
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-4f46ec7b9d58 -->
+## Current conclusion
+
+Current father assessment (22 October 2026): **99% (proved)** for [Glasgow-1073](https://www.wikitree.com/wiki/Glasgow-1073). Named minister father; date reconciliation is independent of paternity. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
+Samuel’s 1707 Kilbirnie entry names Mr John Glasgow, Minister, and Margaret Scot, uniquely fitting the established minister couple. A3 versus 9 March date disagreement does not change that exact family identification.
+
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-4f46ec7b9d58
 
 The transcript-validated baptism record for **Samuel Glasgow**, 03 Mar 1707, Kilbirnie, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
@@ -37,3 +43,17 @@ The notice, headed 10 July 1795, reports a death in 1794 using the printed Old S
 
 This may concern [Glasgow-3524](https://www.wikitree.com/wiki/Glasgow-3524). The Kilbirnie baptism in March 1707 permits this date, although it would make Samuel about eighty-seven and thus a weak comparison.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence review, sixth batch — 22 October 2026
+
+[Glasgow-1073](https://www.wikitree.com/wiki/Glasgow-1073) remains the selected father, assessed **99% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
+
+Samuel’s 1707 Kilbirnie entry names Mr John Glasgow, Minister, and Margaret Scot, uniquely fitting the established minister couple. A3 versus 9 March date disagreement does not change that exact family identification.
+
+Scope: Named minister father; date reconciliation is independent of paternity.
+
+Next useful test: Inspect OPR596/1 p39 and parish596 ref10/173 to resolve3 versus 9 March.
+
+This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
+
+Held source basis: [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Samuel Glasgow, 03 Mar 1707, record SCOT/OPR/BAP/3586015](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3586015&tab=this)
