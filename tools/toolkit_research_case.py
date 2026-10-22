@@ -562,8 +562,9 @@ class Translator:
         often filed for it. Any other place is filed by its parts, from the
         last: the first part that Glasgow files under one region at least four
         times in five ("USA" or "Ohio" under United States, "Scotland" before
-        "United Kingdom") decides; a place with no known part keeps the last
-        part of its name, as the workbench does.
+        "United Kingdom") decides, then the first such word for a name written
+        without commas; a place with no known part or word keeps the last part
+        of its name, as the workbench does.
         """
         tidy = lambda text: " ".join(str(text or "").split())
         filed: dict[str, Counter[str]] = defaultdict(Counter)
@@ -577,10 +578,14 @@ class Translator:
                 for key in ("birth_location", "death_location"):
                     if tidy(row.get(key)):
                         filed[tidy(row[key]).casefold()][regions[0]] += 1
+        clean = lambda part: part.strip(" .;:()").strip()
         by_part: dict[str, Counter[str]] = defaultdict(Counter)
+        by_word: dict[str, Counter[str]] = defaultdict(Counter)
         for where, counts in filed.items():
-            for part in {part.strip() for part in where.split(",") if part.strip()}:
+            for part in {clean(part) for part in where.split(",") if clean(part)}:
                 by_part[part].update(counts)
+                for word in {clean(w) for w in part.split() if clean(w)}:
+                    by_word[word].update(counts)
 
         def decided(counts: Counter[str] | None) -> str | None:
             if not counts:
@@ -595,9 +600,13 @@ class Translator:
             region = decided(filed.get(name)) or (filed[name].most_common(1)[0][0] if filed.get(name) else None)
             how = "named"
             if not region:
-                parts = [part.strip() for part in name.split(",") if part.strip()]
+                parts = [clean(part) for part in name.split(",") if clean(part)]
                 region = next((r for part in reversed(parts) if (r := decided(by_part.get(part)))), None)
                 how = "by a part of the name"
+            if not region:  # a name written without commas: "Anstruther Wester Fife Scotland"
+                words = [clean(w) for w in name.replace(",", " ").split() if clean(w)]
+                region = next((r for word in reversed(words) if (r := decided(by_word.get(word)))), None)
+                how = "by a word of the name"
             if region:
                 place.region = region
                 self.report[f"places filed under a catalogue region ({how})"] += 1

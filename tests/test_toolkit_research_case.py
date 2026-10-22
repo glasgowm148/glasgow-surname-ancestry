@@ -150,6 +150,7 @@ class TranslatorTests(unittest.TestCase):
         c.add(Place(id="one-tree:place:moss", name="Mossford, Fableland", sensitivity=Sensitivity.PUBLIC))  # filed by its "Fableland" part
         c.add(Place(id="one-tree:place:ridge", name="Ridge, West Shire, Fableland, Old Union", sensitivity=Sensitivity.PUBLIC))  # "Old Union" is split; "Fableland" decides
         c.add(Place(id="one-tree:place:far", name="Farholm", sensitivity=Sensitivity.PUBLIC))  # no part is known
+        c.add(Place(id="one-tree:place:words", name="Mossford Fableland.", sensitivity=Sensitivity.PUBLIC))  # no commas: a word decides
         t = Translator(c, private=lambda text: "Hidden-9" in str(text))
         rows = [
             {"catalogue_id": "fable-1", "profile_ids": ["Fable-1"], "likely_living": False, "name": "Ada",
@@ -172,6 +173,7 @@ class TranslatorTests(unittest.TestCase):
         self.assertEqual("The Fable Isles", regions["one-tree:place:moss"])  # "Fableland" is only ever filed under The Fable Isles
         self.assertEqual("The Fable Isles", regions["one-tree:place:ridge"])  # "Old Union" is split 1:1, so the next part decides
         self.assertIsNone(regions["one-tree:place:far"])
+        self.assertEqual("The Fable Isles", regions["one-tree:place:words"])
         studies = {s.id: s for s in c.records("Study") if s.kind == "group"}
         lantern = studies["glasgow:group:" + _short("Lanternby cluster")]
         self.assertEqual(("Lanternby cluster", [person_id("Fable-1"), person_id("Fable-2")], Sensitivity.PUBLIC), (lantern.title, lantern.related_ids, lantern.sensitivity))
