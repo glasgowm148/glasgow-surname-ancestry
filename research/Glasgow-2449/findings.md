@@ -15,3 +15,13 @@ The transcript-validated baptism record for **Agnes Glasgow**, 18 Dec 1726, Kilw
 
 Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
 <!-- END FMP-GLASGOW-fmp-glasgow-44aa817ac6f9 -->
+
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGE2-20261022 -->
+## Findmypast record review — 22 October 2026
+
+Agnes was born 15 December and baptized 18 December 1726, Hugh Glasgow and Janet Kilpatrick, residence Byres, Kilwinning, OPR 599/1 item 1 p.208. This is a reinspection of the already assigned event, with exact dates retained; no new child or relationship is proposed.
+
+- [Findmypast SCOT/OPR/BAP/3626962](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3626962&tab=this).
+
+The provider transcripts were inspected on 22 October 2026; original register images were not inspected. [Shared record review](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-BIRTH-SCOPE-PAGE2-20261022 -->

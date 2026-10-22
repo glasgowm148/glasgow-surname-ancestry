@@ -2039,7 +2039,7 @@ Existing-profile searches and their limits are recorded in each complete sourced
 | [Glasgow-1027](https://www.wikitree.com/wiki/Glasgow-1027) | OPEN | [Complete proposed biography](/people/glasgow-1027.html#wikitree-update): add the cited record passages with their identity qualifications. |
 | [Glasgow-1058](https://www.wikitree.com/wiki/Glasgow-1058) | OPEN | [Complete proposed biography](/people/glasgow-1058.html#wikitree-update): add the cited record passages with their identity qualifications. |
 | [Glasgow-1066](https://www.wikitree.com/wiki/Glasgow-1066) | OPEN | [Complete proposed biography](/people/glasgow-1066.html#wikitree-update): add the cited record passages with their identity qualifications. |
-| [Glasgow-1070](https://www.wikitree.com/wiki/Glasgow-1070) | OPEN | [Complete proposed biography](/people/glasgow-1070.html#wikitree-update): add the cited record passages with their identity qualifications. |
+| [George Glasgow](https://www.wikitree.com/wiki/Glasgow-1070) | OPEN | [Complete proposed biography](/people/glasgow-1070.html#wikitree-update): add the cited record passages with their identity qualifications. |
 | [Glasgow-1076](https://www.wikitree.com/wiki/Glasgow-1076) | OPEN | [Complete proposed biography](/people/glasgow-1076.html#wikitree-update): add the cited record passages with their identity qualifications. |
 | [Glasgow-1084](https://www.wikitree.com/wiki/Glasgow-1084) | OPEN | [Complete proposed biography](/people/glasgow-1084.html#wikitree-update): add the cited record passages with their identity qualifications. |
 | [Glasgow-1087](https://www.wikitree.com/wiki/Glasgow-1087) | OPEN | [Complete proposed biography](/people/glasgow-1087.html#wikitree-update): add the cited record passages with their identity qualifications. |
@@ -2229,7 +2229,7 @@ Existing-profile searches and their limits are recorded in each complete sourced
 | [Glasgow-4124](https://www.wikitree.com/wiki/Glasgow-4124) | OPEN | [Complete proposed biography](/people/glasgow-4124.html#wikitree-update): add the cited record passages with their identity qualifications. |
 | [Glasgow-4129](https://www.wikitree.com/wiki/Glasgow-4129) | OPEN | [Complete proposed biography](/people/glasgow-4129.html#wikitree-update): add the cited record passages with their identity qualifications. |
 | [Glasgow-4130](https://www.wikitree.com/wiki/Glasgow-4130) | OPEN | [Complete proposed biography](/people/glasgow-4130.html#wikitree-update): add the cited record passages with their identity qualifications. |
-| [Glasgow-4133](https://www.wikitree.com/wiki/Glasgow-4133) | OPEN | [Complete proposed biography](/people/glasgow-4133.html#wikitree-update): add the cited record passages with their identity qualifications. |
+| [Agnes Glasgow](https://www.wikitree.com/wiki/Glasgow-4133) | OPEN | [Complete proposed biography](/people/glasgow-4133.html#wikitree-update): add the cited record passages with their identity qualifications. |
 | [Glasgow-4137](https://www.wikitree.com/wiki/Glasgow-4137) | OPEN | [Complete proposed biography](/people/glasgow-4137.html#wikitree-update): add the cited record passages with their identity qualifications. |
 | [Glasgow-4151](https://www.wikitree.com/wiki/Glasgow-4151) | OPEN | [Complete proposed biography](/people/glasgow-4151.html#wikitree-update): add the cited record passages with their identity qualifications. |
 | [Glasgow-4157](https://www.wikitree.com/wiki/Glasgow-4157) | OPEN | [Complete proposed biography](/people/glasgow-4157.html#wikitree-update): add the cited record passages with their identity qualifications. |
@@ -2649,3 +2649,18 @@ Existing people/candidates: [[Glasgow-1227]], [[Glasgow-1235]], [[Glasgow-32]], 
 | [Thomas Glasgow](https://www.wikitree.com/wiki/Glasgow-3592) | OPEN | Distinguish birth 1 May from baptism 7 May 1777; mark existing parents confident at 98%. |
 | [David Glasgow](https://www.wikitree.com/wiki/Glasgow-3593) | OPEN | Add the inspected 1777 baptism naming Thomas and both parents; existing child link confident 98%. |
 | [Anne Ford](https://www.wikitree.com/wiki/Ford-28175) | OPEN | Add the inspected 1777 baptism naming Thomas and both parents; existing child link confident 98%. |
+
+## Findmypast Agnes records — 22 October 2026
+
+Forty search-result transcripts across pages 1–2, plus one supporting OPR reinspection, are now reviewed. Search coverage remains INCOMPLETE. Page 2 produces no new-person proposal; eight birth events match existing people and three remain alternatives.
+
+| Person | Status | Change |
+| --- | --- | --- |
+| [Agnes Glasgow](https://www.wikitree.com/wiki/Glasgow-4133) | OPEN | Correct the recorded mother to Katherine/Katharin Wilson; live mother blank; retain Watson identity unresolved and exclude earlier marriages conditionally. |
+| [Robert Glasgow](https://www.wikitree.com/wiki/Glasgow-4168) | OPEN | Correct the 1720 child’s recorded maternal surname to Wilson while preserving unresolved wife identity and existing family hypotheses. |
+| [Agnes Glasgow](https://www.wikitree.com/wiki/Glasgow-1482) | OPEN | Add the cited 15 July 1774 birth/30 Julybaptism distinction;1810 burial remains unproved with age discrepancy. |
+| [Agnes Glasgow](https://www.wikitree.com/wiki/Glasgow-3402) | OPEN | Add the 5 March 1795 transcript reading beside the existing 3 Marchbirthday; resolve against original before replacement. |
+| [Agnes Glasgow](https://www.wikitree.com/wiki/Glasgow-3406) | OPEN | Add the 15 July 1770 baptism citation; check the independent basis of the exact birthday; no 1810 death assignment. |
+| [Agnes Glasgow](https://www.wikitree.com/wiki/Glasgow-1349) | OPEN | Retain the transcript’s Male field as a conflict;1812 burial remains a qualified comparison. |
+
+Other matched entries are supporting citations to existing children. No new parent attachment, certainty upgrade or separate Agnes profile is proposed. Full source roles and alternative identities are in the maintained findings and [shared Scottish-records account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).

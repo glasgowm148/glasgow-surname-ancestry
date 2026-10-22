@@ -6,42 +6,35 @@
 ## Minimum creation fields
 
 - **Name:** Agnes Glasgow
-- **Gender:** Female (uncertain; inferred from the recorded given name)
+- **Gender:** Female (existing uncertain field; R_ indexes state Female, detailed OPR transcript does not state sex)
 - **Birth date:** before 21 Aug 1720 (estimated from baptism)
 - **Birth location:** Libberton, Scotland (uncertain; inferred from the person's documented event)
 - **Death date:** unknown
 - **Recorded event:** baptism, 21 Aug 1720
 - **Recorded relationships:** father Robert Glasgow; mother Katherine Wilson
 - **Stable research ID:** `fmp-glasgow-ce7a886e0868`
-- **Findmypast record IDs:** SCOT/OPR/BAP/4033335
+- **Findmypast record IDs:** SCOT/OPR/BAP/4033335; R_684955704; R_693522269
 
 ## Paste-ready biography
 
 [[Category:Glasgow Name Study]]
 {{Estimated Date}}
 
-
 == Biography ==
-
-'''Agnes Glasgow''' was baptized on 21 Aug 1720 at Libberton, Scotland. The record names Robert Glasgow and Katherine Wilson as the parents. The recorded residence was Gladhaimb.<ref name="FMP1" />
+'''Agnes Glasgow''' was baptised at Libberton, Lanarkshire, on 21 August 1720. The indexed entry names [[Glasgow-4168|Robert Glasgow]] and Katherine Wilson as her parents and records the residence as Gladhaimb.<ref name="FMP1" /><ref name="FMP20261022" /> Her birth is placed before the baptism; no separate birthday is supplied by the detailed transcript. Libberton is inferred from the baptism rather than independently established as her birthplace.
 
 == Research Notes ==
 
-Attach only relationships stated by the record after confirming the relative profile identities; leave all other relationships blank. Each named relative requires a duplicate search and a separately supported profile identity before attachment.
+The biography previously called the recorded mother Katherine Watson, although its own detailed citation says Wilson. The detailed transcript was reinspected on 22 October 2026 and agrees with the two further index versions, which spell her given name Katharin.<ref name="FMP20261022" /> Whether [[Watson-53558|Katherine Watson]] is a misnamed account of this woman or a different person is unresolved. The live mother field was blank (0) at this review; no parent attachment, detachment or new mother is proposed. The existing father household and [[Glasgow-4107|Elizabeth Glasgow]]'s separate 1726 mother reading require their own comparison.
 
-The completed live WikiTree audit retained no compatible profile candidate.
+The R_ indexes display birth year 1720 and female sex. The detailed transcript does not provide a birth date/year or sex field. The exact birth date and infant/adult interpretation await the original; the existing uncertain female field is retained. No original register image was inspected.
 
-
-
-No compatible candidate was retained by the completed live WikiTree audit.
-
-The 1 result ID(s) above represent one conservative documentary group because: singleton; no strong same-event duplicate proof. Preserve uncertainty; a similarly named event is not automatically the same historical person.
-
-'''Next test before creation:''' repeat the exact-name, date, place, occupation, and named-relative duplicate search, then inspect the underlying record image where available.
+The earlier proposed 1666, 1670 and 1681 marriages are withdrawn on the indexed 1720-child interpretation; no such marriage is attributed here. Baptism in 1720 alone would not exclude an earlier adult life. Reopen those comparisons if the original supports an adult baptism or earlier birth.
 
 == Sources ==
-
 <ref name="FMP1">[https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4033335&tab=this Findmypast transcript], Archive reference: OPR 650/1; Baptism date: 21 Aug 1720; Baptism year: 1720; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Country: Scotland; County: Lanarkshire; Father's first name(s): Robert; Father's last name: Glasgow; First name(s): Agnes; Item: 3; Last name: Glasgow; Mother's first name(s): Katherine; Mother's last name: Wilson; Page: 11; Place: Libberton; Record set: Scotland, Parish Births & Baptisms 1564-1929; Register year range: 1717-1819; Residence: Gladhaimb; Subcategory: Parish Baptisms (captured 2026-09-03T23:47:03.316Z).</ref>
+<ref name="FMP20261022">Findmypast, ''Scotland, Parish Births & Baptisms 1564-1929'', [https://www.findmypast.co.uk/transcript?id=R_684955704&tab=this R_684955704] and [https://www.findmypast.co.uk/transcript?id=R_693522269&tab=this R_693522269], inspected 22 October 2026: Agnes Glasgow, baptism 21 August 1720, indexed birth year 1720, Robert Glasgow and Katharin Wilson, Libberton, sex Female. SCOT/OPR/BAP/4033335 was reinspected the same day: OPR 650/1, item 3, p.11, residence Gladhaimb; mother Katherine Wilson. These are versions of one indexed event; the original was not inspected.</ref>
 
 <references />
+
 <!-- END FMP-GLASGOW-fmp-glasgow-ce7a886e0868 -->

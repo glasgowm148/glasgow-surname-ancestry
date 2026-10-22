@@ -15,3 +15,14 @@ The transcript-validated baptism record for **Agnes Glasgow**, 23 Dec 1744, Covi
 
 Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
 <!-- END FMP-GLASGOW-fmp-glasgow-9b803734b8da -->
+
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGE2-20261022 -->
+## Findmypast record review — 22 October 2026
+
+One Covington and Thankerton baptism on 23 December 1744 names George Glasgow and Agnes Williamson, matching the existing child. The reported birth year 1744 does not turn the baptism day into an exact birthday.
+
+- [Findmypast R_685659484](https://www.findmypast.co.uk/transcript?id=R_685659484&tab=this).
+- [Findmypast R_689420965](https://www.findmypast.co.uk/transcript?id=R_689420965&tab=this).
+
+The provider transcripts were inspected on 22 October 2026; original register images were not inspected. [Shared record review](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-BIRTH-SCOPE-PAGE2-20261022 -->

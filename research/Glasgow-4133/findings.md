@@ -2,25 +2,33 @@
 
 ## Current conclusion
 
-Agnes Glasgow was baptised at Libberton, Lanarkshire, on 21 Aug 1720. The parish register names her father as [Robert Glasgow](https://www.wikitree.com/wiki/Glasgow-4168) and her mother as [Katherine Watson](https://www.wikitree.com/wiki/Watson-53558). Because the entry records a baptism rather than a birth, her birth is placed before that date, and Libberton is inferred from the baptism rather than independently recorded. The [Findmypast transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4033335&tab=this) is the indexed source for this event. The live WikiTree profile records female sex at birth with uncertain status, inferred from the recorded given name. The cited transcript does not explicitly state sex.
+Reviewed: 2026-10-22
+
+Agnes Glasgow was baptised at Libberton, Lanarkshire, on **21 August 1720**. The reinspected [Findmypast transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4033335&tab=this), OPR 650/1, item 3, p.11, names [Robert Glasgow](https://www.wikitree.com/wiki/Glasgow-4168) and **Katherine Wilson**, with residence **Gladhaimb**. Its mother field contradicts the earlier biography's Katherine Watson reading. The [R_684955704](https://www.findmypast.co.uk/transcript?id=R_684955704&tab=this) and [R_693522269](https://www.findmypast.co.uk/transcript?id=R_693522269&tab=this) transcripts independently display the same indexed event, with the mother as Katharin Wilson; they are index versions, not three independent original records.
+
+Retain birth **before 21 August 1720** and an inferred Libberton birthplace. The two R_ indexes report birth year 1720 but give no separate birthday; the detailed OPR transcript supplies no birth date or year. Do not turn the baptism into an exact birth date. The R_ indexes explicitly record female sex; the detailed OPR transcript does not state sex. The live female field remains marked uncertain, and no structured sex change is made here. No original register image was inspected or linked by the reinspected detailed transcript.
+
+The live profile's mother field is **0**, not an attachment to [Watson-53558](https://www.wikitree.com/wiki/Watson-53558). Whether that modern Katherine Watson account represents the woman indexed as Wilson remains unresolved. Correct the recorded surname and qualify the candidate identity; do not attach, detach, rename or create a mother on this evidence alone. The existing Robert household and its other mothers remain separate identity questions.
 
 ## Source findings
 
-- Baptism, 21 Aug 1720: [Findmypast transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4033335&tab=this), record SCOT/OPR/BAP/4033335.
-- Recorded relationships in this entry: father Robert Glasgow; mother Katherine Wilson.
+- [SCOT/OPR/BAP/4033335](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4033335&tab=this), reinspected 22 October 2026: OPR 650/1, item 3, p.11; baptism 21 August 1720; father Robert Glasgow; mother Katherine Wilson; residence Gladhaimb; Libberton; register 1717–1819. No birth date/year or explicit sex field; original uninspected.
+- [R_684955704](https://www.findmypast.co.uk/transcript?id=R_684955704&tab=this) and [R_693522269](https://www.findmypast.co.uk/transcript?id=R_693522269&tab=this), inspected 22 October 2026: baptism 21 August 1720, indexed birth year 1720, Robert Glasgow/Katharin Wilson, Libberton, sex Female. The residence field occurs in R_684955704. Treat duplicate index versions as one event.
 
 ## Unresolved questions
 
-- Check the underlying record image, where available, for any explicit sex evidence. Keep the name-based field uncertain unless stronger evidence is found.
+- Inspect the original OPR 650/1, item 3, p.11, to check the mother reading, any infant/adult indication, sex and birth information.
+- Compare the woman indexed as Wilson with Watson-53558 and the other Libberton households; no shared modern identity or remarriage is established.
 
 <!-- queue-record-integration-2026-10-17:start -->
-## Record findings and identity limits — 17 October 2026
+## Prior marriage comparisons — withdrawn 22 October 2026
 
-A possible identification concerns Agnes Glasgow. The banns/marriage index records Agnes Glasgow and James Swan on 12 May 1666 at Kirknewton and East Calder. (Scotland’s People: Old Parish Registers — banns and marriages: OPR 690/10 / 55; [record](https://www.scotlandspeople.gov.uk/).) The original parish register image has not been inspected. The combined index date does not by itself identify the precise event type. The identification remains uncertain.
+Glasgow-4133 represents the Libberton Agnes baptised 21 August 1720. The newly inspected R_684955704 and R_693522269 indexes explicitly report birth year 1720, which conflicts with the 1666–1681 bride interpretations. Withdraw this profile from the active marriage candidates on that indexed child interpretation. The older profile records birth before the baptism, not a proved exact 1720 birth: reopen the comparison if the original establishes an adult baptism or an earlier birth. The original register remains uninspected. Earlier compatible-candidate assessments are retained below as history, not proposed biography facts.
 
-A possible identification concerns Agnes Glasgow. The banns/marriage index records Agnas Glasgow and William Anderson on 5 July 1666 at Longformacus. (Scotland’s People: Old Parish Registers — banns and marriages: OPR 750/10 / 79; [record](https://www.scotlandspeople.gov.uk/).) The original parish register image has not been inspected. The combined index date does not by itself identify the precise event type. The identification remains uncertain.
-
-A possible identification concerns Agnes Glasgow. The banns/marriage index records Agnes Glasgow and Patrik Paul on 8 July 1670 at Kirknewton and East Calder. (Scotland’s People: Old Parish Registers — banns and marriages: OPR 690/10 / 64; [record](https://www.scotlandspeople.gov.uk/).) The original parish register image has not been inspected. The combined index date does not by itself identify the precise event type. The identification remains uncertain.
-
-A possible identification concerns Agnes Glasgow. The banns/marriage index records Agnes Glasgow and William Thomsone on 15 December 1681 at Carstairs. (Scotland’s People: Old Parish Registers — banns and marriages: OPR 633/10 / 66; [record](https://www.scotlandspeople.gov.uk/).) The original parish register image has not been inspected. The combined index date does not by itself identify the precise event type. The identification remains uncertain.
+| Earlier suggested event | Original index citation | Current assessment |
+| --- | --- | --- |
+| Agnes Glasgow and James Swan, 12 May 1666, Kirknewton and East Calder | Scotland’s People OPR 690/10 /55; [record](https://www.scotlandspeople.gov.uk/) | Withdrawn on the indexed 1720-child interpretation; adult-baptism possibility remains a source question. |
+| Agnas Glasgow and William Anderson, 5 July 1666, Longformacus | Scotland’s People OPR 750/10 /79; [record](https://www.scotlandspeople.gov.uk/) | Same conditional exclusion; no marriage attributed to this profile. |
+| Agnes Glasgow and Patrik Paul, 8 July 1670, Kirknewton and East Calder | Scotland’s People OPR 690/10 /64; [record](https://www.scotlandspeople.gov.uk/) | Same conditional exclusion; no marriage attributed to this profile. |
+| Agnes Glasgow and William Thomsone, 15 December 1681, Carstairs | Scotland’s People OPR 633/10 /66; [record](https://www.scotlandspeople.gov.uk/) | Same conditional exclusion; no marriage attributed to this profile. |
 <!-- queue-record-integration-2026-10-17:end -->

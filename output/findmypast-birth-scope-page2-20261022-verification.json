@@ -1,0 +1,98 @@
+{
+  "reviewed_search_result_rows": 40,
+  "supporting_reinspections": 1,
+  "indexed_provider_records": 41,
+  "unique_source_readers": 41,
+  "source_year_matches": 41,
+  "single_h1_readers": 41,
+  "sitemap_source_routes": 41,
+  "new_person_proposals_this_batch": 0,
+  "matched_birth_events_this_batch": 8,
+  "alternative_birth_events_this_batch": 3,
+  "later_burial_transcripts_this_batch": 3,
+  "pending_amendment_full_compact_agreement": [
+    "glasgow-4133",
+    "glasgow-4168",
+    "glasgow-1482",
+    "glasgow-3402",
+    "glasgow-3406",
+    "glasgow-1349"
+  ],
+  "candidate_deaths_unassigned": true,
+  "new_person_manifest_ids_unchanged": true,
+  "overall_search_coverage": "INCOMPLETE",
+  "next_query_page": 3,
+  "legacy_public_reconciliations_pending": 6,
+  "source_ids": [
+    "s-e4fa719d60d9a5ea",
+    "s-8e05b63fc0f7994f",
+    "s-eabec6ef0653a2fa",
+    "s-5993c6a18e34c49c",
+    "s-0777caffba1b9404",
+    "s-e7e5f5544a78c5a4",
+    "s-fb1b4d07d563f395",
+    "s-64515bea4be9dda8",
+    "s-ae02175dbb65163c",
+    "s-fac5a70117cae925",
+    "s-d625339b2e7f9b19",
+    "s-9bc2bdf97dcd4c6e",
+    "s-bae2d2024df65307",
+    "s-d93249baf120b6ca",
+    "s-6ab02087813b2e66",
+    "s-4893bec9a90d6c71",
+    "s-27477f08527bbfeb",
+    "s-c897505969019bdd",
+    "s-c4762287d1a08763",
+    "s-207c67e380e15310",
+    "s-a7f9cb1abdc4ef30",
+    "s-7f43e2768365138f",
+    "s-46898e4e40cfee72",
+    "s-c9b287aca73a9c7f",
+    "s-041dae38845a790d",
+    "s-588f26923fa5f326",
+    "s-152b657ea3a47c42",
+    "s-0a0ab0716b436661",
+    "s-233c90794ce85115",
+    "s-51ab746aa61b40b7",
+    "s-66db254274e53843",
+    "s-f24d0b8f2e4adedb",
+    "s-fffe673ff1e23775",
+    "s-952df34da1c46730",
+    "s-4a995bc9eb1c0437",
+    "s-88dfffc730087178",
+    "s-51482a0588868162",
+    "s-fc3d6a8d8449d7a2",
+    "s-c77bd2cf2e827edc",
+    "s-b215397f65158cc5",
+    "s-5054a22654cc45eb"
+  ],
+  "publication_check": {
+    "profiles_checked": 11,
+    "failing_items": 0
+  },
+  "link_check": {
+    "new_broken_page_target_pairs": 0,
+    "known_baseline_pairs": 4,
+    "known_missing_anchors_not_gated": 78
+  },
+  "capture_field_fingerprints_verified": 21,
+  "original_images_inspected_this_batch": 0,
+  "local_only": true,
+  "finalization": {
+    "mode": "targeted record/search/sitemap finalization",
+    "catalogue": {
+      "catalogue_fast_bytes": 4998248,
+      "catalogue_full_bytes": 18485763,
+      "catalogue_people": 4874,
+      "catalogue_versioned_files": 0
+    },
+    "site_search": {
+      "shared_search_assets": 1
+    },
+    "version_passes": 4,
+    "sitemap": {
+      "sitemap_urls": 23294,
+      "sitemap_reader_pages": 1243
+    }
+  }
+}

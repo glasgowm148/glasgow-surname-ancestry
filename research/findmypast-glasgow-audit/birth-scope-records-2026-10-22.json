@@ -6,7 +6,7 @@
     "born_before": 1800,
     "status": "INCOMPLETE",
     "scope_note": "Birth cutoff applies to people, including their later-life events; event<=1750 legacy audit remains a separate incomplete coverage baseline.",
-    "inspected_transcripts": 20,
+    "inspected_transcripts": 41,
     "catalogue_integration_complete": true,
     "integrated_record_ids": [
       "R_686309313",
@@ -23,7 +23,28 @@
       "R_687013195",
       "R_687016331",
       "R_269736801",
-      "SCOT/OPR/BAP/4499779"
+      "SCOT/OPR/BAP/4499779",
+      "R_684955704",
+      "R_693522269",
+      "SCOT/OPR/BAP/4033335",
+      "R_685315087",
+      "R_688619591",
+      "SCOT/OPR/BAP/3626962",
+      "R_685659484",
+      "R_689420965",
+      "R_686309332",
+      "R_694108410",
+      "R_687777145",
+      "R_686351037",
+      "SCOT/OPR/BAP/0733905",
+      "R_684963011",
+      "R_693525938",
+      "SCOT/OPR/BAP/3579423",
+      "R_693209737",
+      "SCOT/OPR/BAP/4122202",
+      "SCOT/OPR/BUR/0397824",
+      "SCOT/OPR/BUR/0889267",
+      "SCOT/RENFREW/BUR/009069"
     ],
     "unassigned_record_ids": [
       "SCOT/OPR/BUR/1168201",
@@ -32,8 +53,8 @@
       "GBPRS/GLASGOW/BUR/093153",
       "GBPRS/GLASGOW/BUR/093166"
     ],
-    "next_query_page": 2,
-    "integration_scope": "This reviewed 20-transcript batch only; the Findmypast search and earlier audit gaps remain incomplete.",
+    "next_query_page": 3,
+    "integration_scope": "This reviewed 41-transcript batch only: 40 search-result transcripts across pages 1–2 and one supporting OPR reinspection. Provider-wide coverage and six legacy public reconciliations remain incomplete.",
     "indexed_record_ids": [
       "R_686309313",
       "R_694108409",
@@ -54,11 +75,39 @@
       "GBPRS/GLASGOW/BUR/093159",
       "GBPRS/GLASGOW/BUR/093153",
       "GBPRS/GLASGOW/BUR/093166",
-      "R_690417977"
+      "R_690417977",
+      "R_684955704",
+      "R_693522269",
+      "R_685315087",
+      "R_688619591",
+      "SCOT/OPR/BAP/3626962",
+      "R_685659484",
+      "R_689420965",
+      "R_686309332",
+      "R_694108410",
+      "R_687777145",
+      "R_686351037",
+      "SCOT/OPR/BAP/0733905",
+      "R_684963011",
+      "R_693525938",
+      "SCOT/OPR/BAP/3579423",
+      "R_693209737",
+      "SCOT/OPR/BAP/4122202",
+      "SCOT/OPR/BUR/0397824",
+      "SCOT/OPR/BUR/0889267",
+      "SCOT/RENFREW/BUR/009069",
+      "SCOT/OPR/BAP/4033335"
     ],
-    "records_with_profile_or_draft_context": 15,
+    "records_with_profile_or_draft_context": 36,
     "verified_on": "2026-10-22",
-    "verification_report": "output/findmypast-birth-scope-20261022-verification.json"
+    "verification_report": "output/findmypast-birth-scope-page2-20261022-verification.json",
+    "remaining_coverage": [
+      "Pages 3–294 of the current 1719–1799 birth-filtered BMD query",
+      "Earlier birth windows, later-life records and other categories",
+      "Surname variants and unresolved birth-surname/record identities",
+      "Legacy unattempted, temporarily blocked, subscription-locked and capped search results",
+      "Six duplicate catalogue/search suggestions for existing profiles"
+    ]
   },
   "search_pages": [
     {
@@ -296,6 +345,242 @@
         }
       ],
       "limits": "All 20 displayed rows on page 1 have inspected transcripts; pages 2–294 remain unreviewed. Unnamed children, unproved birth surnames, conflicting ages and an unresolved Agnes identity remain explicitly pending."
+    },
+    {
+      "url": "https://www.findmypast.co.uk/search/results?_page=2&lastname=glasgow&yearofbirth=1759&yearofbirth_offset=40&sourcecategory=life%20events%20(bmds)&sid=999",
+      "birth_query_range": "1719–1799 inclusive (1759 ±40)",
+      "displayed_total": 5872,
+      "expected_pages_at_20_rows": 294,
+      "captured_pages": [
+        2
+      ],
+      "captured_rows": 20,
+      "rows": [
+        {
+          "record_id": "R_684955704",
+          "last_name": "Glasgow",
+          "first_name": "Agnes",
+          "birth_year": "1720",
+          "death_year": "—",
+          "event_year": "1720",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "place": "Lanarkshire, Scotland",
+          "transcript_reviewed": true
+        },
+        {
+          "record_id": "R_693522269",
+          "last_name": "Glasgow",
+          "first_name": "Agnes",
+          "birth_year": "1720",
+          "death_year": "—",
+          "event_year": "1720",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "place": "Lanarkshire, Scotland",
+          "transcript_reviewed": true
+        },
+        {
+          "record_id": "R_685315087",
+          "last_name": "Glasgow",
+          "first_name": "Agnes",
+          "birth_year": "1725",
+          "death_year": "—",
+          "event_year": "1725",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "place": "Ayrshire, Scotland",
+          "transcript_reviewed": true
+        },
+        {
+          "record_id": "R_688619591",
+          "last_name": "Glasgow",
+          "first_name": "Agnes",
+          "birth_year": "1725",
+          "death_year": "—",
+          "event_year": "1725",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "place": "Ayrshire, Scotland",
+          "transcript_reviewed": true
+        },
+        {
+          "record_id": "SCOT/OPR/BAP/3626962",
+          "last_name": "Glasgow",
+          "first_name": "Agnes",
+          "birth_year": "1726",
+          "death_year": "—",
+          "event_year": "1726",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "place": "Kilwinning, Ayrshire, Scotland",
+          "transcript_reviewed": true
+        },
+        {
+          "record_id": "R_685659484",
+          "last_name": "Glasgow",
+          "first_name": "Agnes",
+          "birth_year": "1744",
+          "death_year": "—",
+          "event_year": "1744",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "place": "Lanarkshire, Scotland",
+          "transcript_reviewed": true
+        },
+        {
+          "record_id": "R_689420965",
+          "last_name": "Glasgow",
+          "first_name": "Agnes",
+          "birth_year": "1744",
+          "death_year": "—",
+          "event_year": "1744",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "place": "Lanarkshire, Scotland",
+          "transcript_reviewed": true
+        },
+        {
+          "record_id": "R_686309332",
+          "last_name": "Glasgow",
+          "first_name": "Agnes",
+          "birth_year": "1767",
+          "death_year": "—",
+          "event_year": "1767",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "place": "Midlothian, Scotland",
+          "transcript_reviewed": true
+        },
+        {
+          "record_id": "R_694108410",
+          "last_name": "Glasgow",
+          "first_name": "Agnes",
+          "birth_year": "1767",
+          "death_year": "—",
+          "event_year": "1767",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "place": "Midlothian, Scotland",
+          "transcript_reviewed": true
+        },
+        {
+          "record_id": "R_687777145",
+          "last_name": "Glasgow",
+          "first_name": "Agnes",
+          "birth_year": "1770",
+          "death_year": "—",
+          "event_year": "1770",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "place": "Midlothian, Scotland",
+          "transcript_reviewed": true
+        },
+        {
+          "record_id": "R_686351037",
+          "last_name": "Glasgow",
+          "first_name": "Agnes",
+          "birth_year": "1770",
+          "death_year": "—",
+          "event_year": "1770",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "place": "Midlothian, Scotland",
+          "transcript_reviewed": true
+        },
+        {
+          "record_id": "SCOT/OPR/BAP/0733905",
+          "last_name": "Glasgow",
+          "first_name": "Agnes",
+          "birth_year": "1774",
+          "death_year": "—",
+          "event_year": "1774",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "place": "Edinburgh, Midlothian, Scotland",
+          "transcript_reviewed": true
+        },
+        {
+          "record_id": "R_684963011",
+          "last_name": "Glasgow",
+          "first_name": "Agnes",
+          "birth_year": "1780",
+          "death_year": "—",
+          "event_year": "1780",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "place": "Lanarkshire, Scotland",
+          "transcript_reviewed": true
+        },
+        {
+          "record_id": "R_693525938",
+          "last_name": "Glasgow",
+          "first_name": "Agnes",
+          "birth_year": "1780",
+          "death_year": "—",
+          "event_year": "1780",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "place": "Lanarkshire, Scotland",
+          "transcript_reviewed": true
+        },
+        {
+          "record_id": "SCOT/OPR/BAP/3579423",
+          "last_name": "Glasgow",
+          "first_name": "Agnes",
+          "birth_year": "1785",
+          "death_year": "—",
+          "event_year": "1785",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "place": "Irvine, Ayrshire, Scotland",
+          "transcript_reviewed": true
+        },
+        {
+          "record_id": "R_693209737",
+          "last_name": "Glasgow",
+          "first_name": "Agnes",
+          "birth_year": "1791",
+          "death_year": "—",
+          "event_year": "1791",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "place": "Lanarkshire, Scotland",
+          "transcript_reviewed": true
+        },
+        {
+          "record_id": "SCOT/OPR/BAP/4122202",
+          "last_name": "Glasgow",
+          "first_name": "Agnes",
+          "birth_year": "1795",
+          "death_year": "—",
+          "event_year": "1795",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "place": "Bathgate, Linlithgowshire (West Lothian), Scotland",
+          "transcript_reviewed": true
+        },
+        {
+          "record_id": "SCOT/OPR/BUR/0397824",
+          "last_name": "Glasgow",
+          "first_name": "Agnes",
+          "birth_year": "1778",
+          "death_year": "—",
+          "event_year": "1810",
+          "record_set": "Scotland, Parish Deaths & Burials 1564-2017",
+          "place": "Edinburgh, Midlothian",
+          "transcript_reviewed": true
+        },
+        {
+          "record_id": "SCOT/OPR/BUR/0889267",
+          "last_name": "Glasgow",
+          "first_name": "Agnes",
+          "birth_year": "1787",
+          "death_year": "—",
+          "event_year": "1812",
+          "record_set": "Scotland, Parish Deaths & Burials 1564-2017",
+          "place": "Paisley, Renfrewshire",
+          "transcript_reviewed": true
+        },
+        {
+          "record_id": "SCOT/RENFREW/BUR/009069",
+          "last_name": "Glasgow",
+          "first_name": "Agnes",
+          "birth_year": "1787",
+          "death_year": "1812",
+          "event_year": "1812",
+          "record_set": "Scotland, Parish Deaths & Burials 1564-2017",
+          "place": "Abbey, Renfrewshire, Scotland",
+          "transcript_reviewed": true
+        }
+      ],
+      "limits": [
+        "Surname-only World search; page 2 of 294. Birth estimate fields are not proof of actual birth year or natal surname.",
+        "Provider transcripts inspected; original registers not inspected."
+      ]
     }
   ],
   "records": {
@@ -937,6 +1222,719 @@
       "review_disposition": "Named historical subject; compatible-person audit pending, no new-person recommendation.",
       "surname_status": "confirmed",
       "surname_review_basis": "Transcript names the subject or the unnamed child’s father Glasgow; this is a surname reading, not a confirmed profile identity."
+    },
+    "R_684955704": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-22T11:11:00.176Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_684955704",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_684955704&tab=this",
+      "title": "Agnes Glasgow in 1720",
+      "transcript_fields": {
+        "First name(s)": "Agnes",
+        "Last name": "Glasgow",
+        "Birth year": "1720",
+        "Baptism year": "1720",
+        "Baptism date": "21 Aug 1720",
+        "Place": "Libberton",
+        "County": "Lanarkshire",
+        "Country": "Scotland",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Subcategory": "Parish Baptisms",
+        "Collections from": "Great Britain, Scotland",
+        "Father's first name(s)": "Robert",
+        "Father's last name": "Glasgow",
+        "Mother's first name(s)": "Katharin",
+        "Mother's last name": "Wilson",
+        "Baptism place": "LIBBERTON, LANARK, SCOTLAND",
+        "Sex": "Female",
+        "Residence": "Libberton, Lanarkshire, Scotland"
+      },
+      "source_level": "Inspected provider transcript; original register image not inspected",
+      "reviewed_on": "2026-10-22",
+      "surname_status": "confirmed",
+      "birth_surname_status": "confirmed",
+      "surname_review_basis": "Baptism transcript names Agnes Glasgow and a father surnamed Glasgow; modern profile identity remains subject to comparison.",
+      "field_fingerprint_fnv1a32": "66e01652"
+    },
+    "R_693522269": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-22T11:11:01.815Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_693522269",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_693522269&tab=this",
+      "title": "Agnes Glasgow in 1720",
+      "transcript_fields": {
+        "First name(s)": "Agnes",
+        "Last name": "Glasgow",
+        "Birth year": "1720",
+        "Baptism year": "1720",
+        "Baptism date": "21 Aug 1720",
+        "Place": "Libberton",
+        "County": "Lanarkshire",
+        "Country": "Scotland",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Subcategory": "Parish Baptisms",
+        "Collections from": "Great Britain, Scotland",
+        "Father's first name(s)": "Robert",
+        "Father's last name": "Glasgow",
+        "Mother's first name(s)": "Katharin",
+        "Mother's last name": "Wilson",
+        "Baptism place": "LIBBERTON, LANARK, SCOTLAND",
+        "Sex": "Female"
+      },
+      "source_level": "Inspected provider transcript; original register image not inspected",
+      "reviewed_on": "2026-10-22",
+      "surname_status": "confirmed",
+      "birth_surname_status": "confirmed",
+      "surname_review_basis": "Baptism transcript names Agnes Glasgow and a father surnamed Glasgow; modern profile identity remains subject to comparison.",
+      "field_fingerprint_fnv1a32": "ed037c3d"
+    },
+    "R_685315087": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-22T11:11:03.181Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_685315087",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_685315087&tab=this",
+      "title": "Agnes Glasgow in 1725",
+      "transcript_fields": {
+        "First name(s)": "Agnes",
+        "Last name": "Glasgow",
+        "Birth year": "1725",
+        "Baptism year": "1725",
+        "Baptism date": "07 Dec 1725",
+        "Place": "Irvine",
+        "County": "Ayrshire",
+        "Country": "Scotland",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Subcategory": "Parish Baptisms",
+        "Collections from": "Great Britain, Scotland",
+        "Father's first name(s)": "William",
+        "Father's last name": "Glasgow",
+        "Mother's first name(s)": "Margaret",
+        "Mother's last name": "Montford",
+        "Baptism place": "IRVINE, AYR, SCOTLAND",
+        "Sex": "Female",
+        "Residence": "Irvine, Ayrshire, Scotland"
+      },
+      "source_level": "Inspected provider transcript; original register image not inspected",
+      "reviewed_on": "2026-10-22",
+      "surname_status": "confirmed",
+      "birth_surname_status": "confirmed",
+      "surname_review_basis": "Baptism transcript names Agnes Glasgow and a father surnamed Glasgow; modern profile identity remains subject to comparison.",
+      "field_fingerprint_fnv1a32": "adb008e8"
+    },
+    "R_688619591": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-22T11:11:04.439Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_688619591",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_688619591&tab=this",
+      "title": "Agnes Glasgow in 1725",
+      "transcript_fields": {
+        "First name(s)": "Agnes",
+        "Last name": "Glasgow",
+        "Birth year": "1725",
+        "Baptism year": "1725",
+        "Baptism date": "07 Dec 1725",
+        "Place": "Irvine",
+        "County": "Ayrshire",
+        "Country": "Scotland",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Subcategory": "Parish Baptisms",
+        "Collections from": "Great Britain, Scotland",
+        "Father's first name(s)": "William",
+        "Father's last name": "Glasgow",
+        "Mother's first name(s)": "Margaret",
+        "Mother's last name": "Montford",
+        "Baptism place": "IRVINE, AYR, SCOTLAND",
+        "Sex": "Female"
+      },
+      "source_level": "Inspected provider transcript; original register image not inspected",
+      "reviewed_on": "2026-10-22",
+      "surname_status": "confirmed",
+      "birth_surname_status": "confirmed",
+      "surname_review_basis": "Baptism transcript names Agnes Glasgow and a father surnamed Glasgow; modern profile identity remains subject to comparison.",
+      "field_fingerprint_fnv1a32": "6a749558"
+    },
+    "SCOT/OPR/BAP/3626962": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-22T11:11:05.934Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3626962",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3626962&tab=this",
+      "title": "Agnes Glasgow in 1726",
+      "transcript_fields": {
+        "First name(s)": "Agnes",
+        "Last name": "Glasgow",
+        "Birth year": "1726",
+        "Baptism year": "1726",
+        "Baptism date": "18 Dec 1726",
+        "Place": "Kilwinning",
+        "County": "Ayrshire",
+        "Country": "Scotland",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Subcategory": "Parish Baptisms",
+        "Collections from": "Great Britain, Scotland",
+        "Father's first name(s)": "Hugh",
+        "Father's last name": "Glasgow",
+        "Mother's first name(s)": "Janet",
+        "Mother's last name": "Kilpatrick",
+        "Birth date": "15 Dec 1726",
+        "Archive reference": "OPR 599/1",
+        "Item": "1",
+        "Page": "208",
+        "Register year range": "1693-1819",
+        "Residence": "Byres, Kilwinning"
+      },
+      "source_level": "Inspected provider transcript; original register image not inspected",
+      "reviewed_on": "2026-10-22",
+      "surname_status": "confirmed",
+      "birth_surname_status": "confirmed",
+      "surname_review_basis": "Baptism transcript names Agnes Glasgow and a father surnamed Glasgow; modern profile identity remains subject to comparison.",
+      "field_fingerprint_fnv1a32": "e3a535c1"
+    },
+    "R_685659484": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-22T11:11:15.191Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_685659484",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_685659484&tab=this",
+      "title": "Agnes Glasgow in 1744",
+      "transcript_fields": {
+        "First name(s)": "Agnes",
+        "Last name": "Glasgow",
+        "Birth year": "1744",
+        "Baptism year": "1744",
+        "Baptism date": "23 Dec 1744",
+        "Place": "Covington and Thankerton",
+        "County": "Lanarkshire",
+        "Country": "Scotland",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Subcategory": "Parish Baptisms",
+        "Collections from": "Great Britain, Scotland",
+        "Father's first name(s)": "George",
+        "Father's last name": "Glasgow",
+        "Mother's first name(s)": "Agnes",
+        "Mother's last name": "Williamson",
+        "Baptism place": "COVINGTON AND THANKERTON, LANARK, SCOTLAND",
+        "Sex": "Female",
+        "Residence": "Covington and Thankerton, Lanarkshire, Scotland"
+      },
+      "source_level": "Inspected provider transcript; original register image not inspected",
+      "reviewed_on": "2026-10-22",
+      "surname_status": "confirmed",
+      "birth_surname_status": "confirmed",
+      "surname_review_basis": "Baptism transcript names Agnes Glasgow and a father surnamed Glasgow; modern profile identity remains subject to comparison.",
+      "field_fingerprint_fnv1a32": "f4f17676"
+    },
+    "R_689420965": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-22T11:11:16.588Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_689420965",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_689420965&tab=this",
+      "title": "Agnes Glasgow in 1744",
+      "transcript_fields": {
+        "First name(s)": "Agnes",
+        "Last name": "Glasgow",
+        "Birth year": "1744",
+        "Baptism year": "1744",
+        "Baptism date": "23 Dec 1744",
+        "Place": "Covington and Thankerton",
+        "County": "Lanarkshire",
+        "Country": "Scotland",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Subcategory": "Parish Baptisms",
+        "Collections from": "Great Britain, Scotland",
+        "Father's first name(s)": "George",
+        "Father's last name": "Glasgow",
+        "Mother's first name(s)": "Agnes",
+        "Mother's last name": "Williamson",
+        "Baptism place": "COVINGTON AND THANKERTON, LANARK, SCOTLAND",
+        "Sex": "Female"
+      },
+      "source_level": "Inspected provider transcript; original register image not inspected",
+      "reviewed_on": "2026-10-22",
+      "surname_status": "confirmed",
+      "birth_surname_status": "confirmed",
+      "surname_review_basis": "Baptism transcript names Agnes Glasgow and a father surnamed Glasgow; modern profile identity remains subject to comparison.",
+      "field_fingerprint_fnv1a32": "806fea44"
+    },
+    "R_686309332": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-22T11:11:18.836Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_686309332",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_686309332&tab=this",
+      "title": "Agnes Glasgow in 1767",
+      "transcript_fields": {
+        "First name(s)": "Agnes",
+        "Last name": "Glasgow",
+        "Birth year": "1767",
+        "Baptism year": "1767",
+        "Baptism date": "22 Mar 1767",
+        "Place": "Mid Calder",
+        "County": "Midlothian",
+        "Country": "Scotland",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Subcategory": "Parish Baptisms",
+        "Collections from": "Great Britain, Scotland",
+        "Father's first name(s)": "Alexander",
+        "Father's last name": "Glasgow",
+        "Mother's first name(s)": "Emilia",
+        "Mother's last name": "Glendinning",
+        "Baptism place": "MID CALDER, MIDLOTHIAN, SCOTLAND",
+        "Sex": "Female",
+        "Residence": "Mid Calder, Midlothian, Scotland"
+      },
+      "source_level": "Inspected provider transcript; original register image not inspected",
+      "reviewed_on": "2026-10-22",
+      "surname_status": "confirmed",
+      "birth_surname_status": "confirmed",
+      "surname_review_basis": "Baptism transcript names Agnes Glasgow and a father surnamed Glasgow; modern profile identity remains subject to comparison.",
+      "field_fingerprint_fnv1a32": "ecb9b69f"
+    },
+    "R_694108410": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-22T11:11:20.785Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_694108410",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_694108410&tab=this",
+      "title": "Agnes Glasgow in 1767",
+      "transcript_fields": {
+        "First name(s)": "Agnes",
+        "Last name": "Glasgow",
+        "Birth year": "1767",
+        "Baptism year": "1767",
+        "Baptism date": "22 Mar 1767",
+        "Place": "Mid Calder",
+        "County": "Midlothian",
+        "Country": "Scotland",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Subcategory": "Parish Baptisms",
+        "Collections from": "Great Britain, Scotland",
+        "Father's first name(s)": "Alexander",
+        "Father's last name": "Glasgow",
+        "Mother's first name(s)": "Emilia",
+        "Mother's last name": "Glendinning",
+        "Baptism place": "MID CALDER, MIDLOTHIAN, SCOTLAND",
+        "Sex": "Female"
+      },
+      "source_level": "Inspected provider transcript; original register image not inspected",
+      "reviewed_on": "2026-10-22",
+      "surname_status": "confirmed",
+      "birth_surname_status": "confirmed",
+      "surname_review_basis": "Baptism transcript names Agnes Glasgow and a father surnamed Glasgow; modern profile identity remains subject to comparison.",
+      "field_fingerprint_fnv1a32": "ad3bca31"
+    },
+    "R_687777145": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-22T11:11:22.154Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_687777145",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_687777145&tab=this",
+      "title": "Agnes Glasgow in 1770",
+      "transcript_fields": {
+        "First name(s)": "Agnes",
+        "Last name": "Glasgow",
+        "Birth year": "1770",
+        "Baptism year": "1770",
+        "Baptism date": "15 Jul 1770",
+        "Place": "West Calder",
+        "County": "Midlothian",
+        "Country": "Scotland",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Subcategory": "Parish Baptisms",
+        "Collections from": "Great Britain, Scotland",
+        "Father's first name(s)": "John",
+        "Father's last name": "Glasgow",
+        "Mother's first name(s)": "Margaret",
+        "Mother's last name": "Mill",
+        "Baptism place": "WEST CALDER, MIDLOTHIAN, SCOTLAND",
+        "Sex": "Female"
+      },
+      "source_level": "Inspected provider transcript; original register image not inspected",
+      "reviewed_on": "2026-10-22",
+      "surname_status": "confirmed",
+      "birth_surname_status": "confirmed",
+      "surname_review_basis": "Baptism transcript names Agnes Glasgow and a father surnamed Glasgow; modern profile identity remains subject to comparison.",
+      "field_fingerprint_fnv1a32": "a0aadec4"
+    },
+    "R_686351037": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-22T11:11:23.671Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_686351037",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_686351037&tab=this",
+      "title": "Agnes Glasgow in 1770",
+      "transcript_fields": {
+        "First name(s)": "Agnes",
+        "Last name": "Glasgow",
+        "Birth year": "1770",
+        "Baptism year": "1770",
+        "Baptism date": "15 Jul 1770",
+        "Place": "West Calder",
+        "County": "Midlothian",
+        "Country": "Scotland",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Subcategory": "Parish Baptisms",
+        "Collections from": "Great Britain, Scotland",
+        "Father's first name(s)": "John",
+        "Father's last name": "Glasgow",
+        "Mother's first name(s)": "Margaret",
+        "Mother's last name": "Mill",
+        "Baptism place": "WEST CALDER, MIDLOTHIAN, SCOTLAND",
+        "Sex": "Female",
+        "Residence": "West Calder, Midlothian, Scotland"
+      },
+      "source_level": "Inspected provider transcript; original register image not inspected",
+      "reviewed_on": "2026-10-22",
+      "surname_status": "confirmed",
+      "birth_surname_status": "confirmed",
+      "surname_review_basis": "Baptism transcript names Agnes Glasgow and a father surnamed Glasgow; modern profile identity remains subject to comparison.",
+      "field_fingerprint_fnv1a32": "dc038adb"
+    },
+    "SCOT/OPR/BAP/0733905": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-22T11:11:25.330Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0733905",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0733905&tab=this",
+      "title": "Agnes Glasgow in 1774",
+      "transcript_fields": {
+        "First name(s)": "Agnes",
+        "Last name": "Glasgow",
+        "Birth year": "1774",
+        "Baptism year": "1774",
+        "Baptism date": "30 Jul 1774",
+        "Place": "Edinburgh",
+        "County": "Midlothian",
+        "Country": "Scotland",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Subcategory": "Parish Baptisms",
+        "Collections from": "Great Britain, Scotland",
+        "Father's first name(s)": "Alexander",
+        "Father's last name": "Glasgow",
+        "Mother's first name(s)": "Agness",
+        "Mother's last name": "Cunninghame",
+        "Birth date": "15 Jul 1774",
+        "Archive reference": "OPR 685_2/9",
+        "Item": "1",
+        "Page": "172",
+        "Register year range": "1772-1777",
+        "Residence": "Cross Causeway",
+        "Father's occupation": "Brewers Servt"
+      },
+      "source_level": "Inspected provider transcript; original register image not inspected",
+      "reviewed_on": "2026-10-22",
+      "surname_status": "confirmed",
+      "birth_surname_status": "confirmed",
+      "surname_review_basis": "Baptism transcript names Agnes Glasgow and a father surnamed Glasgow; modern profile identity remains subject to comparison.",
+      "field_fingerprint_fnv1a32": "c8833287"
+    },
+    "R_684963011": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-22T11:11:39.080Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_684963011",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_684963011&tab=this",
+      "title": "Agnes Glasgow in 1780",
+      "transcript_fields": {
+        "First name(s)": "Agnes",
+        "Last name": "Glasgow",
+        "Birth year": "1780",
+        "Baptism year": "1780",
+        "Baptism date": "29 Jul 1780",
+        "Place": "Wandell and Lamington",
+        "County": "Lanarkshire",
+        "Country": "Scotland",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Subcategory": "Parish Baptisms",
+        "Collections from": "Great Britain, Scotland",
+        "Father's first name(s)": "James",
+        "Father's last name": "Glasgow",
+        "Mother's first name(s)": "-",
+        "Baptism place": "WANDELL AND LAMINGTON, LANARK, SCOTLAND",
+        "Sex": "Female",
+        "Residence": "Wandell and Lamington, Lanarkshire, Scotland"
+      },
+      "source_level": "Inspected provider transcript; original register image not inspected",
+      "reviewed_on": "2026-10-22",
+      "surname_status": "confirmed",
+      "birth_surname_status": "confirmed",
+      "surname_review_basis": "Baptism transcript names Agnes Glasgow and a father surnamed Glasgow; modern profile identity remains subject to comparison.",
+      "field_fingerprint_fnv1a32": "10f2586b"
+    },
+    "R_693525938": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-22T11:11:40.961Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_693525938",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_693525938&tab=this",
+      "title": "Agnes Glasgow in 1780",
+      "transcript_fields": {
+        "First name(s)": "Agnes",
+        "Last name": "Glasgow",
+        "Birth year": "1780",
+        "Baptism year": "1780",
+        "Baptism date": "29 Jul 1780",
+        "Place": "Wandell and Lamington",
+        "County": "Lanarkshire",
+        "Country": "Scotland",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Subcategory": "Parish Baptisms",
+        "Collections from": "Great Britain, Scotland",
+        "Father's first name(s)": "James",
+        "Father's last name": "Glasgow",
+        "Mother's first name(s)": "-",
+        "Baptism place": "WANDELL AND LAMINGTON, LANARK, SCOTLAND",
+        "Sex": "Female"
+      },
+      "source_level": "Inspected provider transcript; original register image not inspected",
+      "reviewed_on": "2026-10-22",
+      "surname_status": "confirmed",
+      "birth_surname_status": "confirmed",
+      "surname_review_basis": "Baptism transcript names Agnes Glasgow and a father surnamed Glasgow; modern profile identity remains subject to comparison.",
+      "field_fingerprint_fnv1a32": "2b3b02f4"
+    },
+    "SCOT/OPR/BAP/3579423": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-22T11:11:44.935Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3579423",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3579423&tab=this",
+      "title": "Agnes Glasgow in 1785",
+      "transcript_fields": {
+        "First name(s)": "Agnes",
+        "Last name": "Glasgow",
+        "Birth year": "1785",
+        "Baptism year": "1785",
+        "Baptism date": "15 Nov 1785",
+        "Place": "Irvine",
+        "County": "Ayrshire",
+        "Country": "Scotland",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Subcategory": "Parish Baptisms",
+        "Collections from": "Great Britain, Scotland",
+        "Father's first name(s)": "James",
+        "Father's last name": "Glasgow",
+        "Mother's first name(s)": "Janet",
+        "Mother's last name": "McMillan",
+        "Birth date": "22 Oct 1785",
+        "Archive reference": "OPR 595/1",
+        "Item": "1",
+        "Register year range": "1687-1788",
+        "Father's occupation": "Shipmr"
+      },
+      "source_level": "Inspected provider transcript; original register image not inspected",
+      "reviewed_on": "2026-10-22",
+      "surname_status": "confirmed",
+      "birth_surname_status": "confirmed",
+      "surname_review_basis": "Baptism transcript names Agnes Glasgow and a father surnamed Glasgow; modern profile identity remains subject to comparison.",
+      "field_fingerprint_fnv1a32": "79e33cdd"
+    },
+    "R_693209737": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-22T11:11:49.553Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_693209737",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_693209737&tab=this",
+      "title": "Agnes Glasgow in 1791",
+      "transcript_fields": {
+        "First name(s)": "Agnes",
+        "Last name": "Glasgow",
+        "Birth year": "1791",
+        "Baptism year": "1791",
+        "Baptism date": "20 Mar 1791",
+        "Place": "Barony, Glasgow",
+        "County": "Lanarkshire",
+        "Country": "Scotland",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Subcategory": "Parish Baptisms",
+        "Collections from": "Great Britain, Scotland",
+        "Father's first name(s)": "John",
+        "Father's last name": "Glasgow",
+        "Mother's first name(s)": "Helen",
+        "Mother's last name": "Smith",
+        "Baptism place": "BARONY,LANARK,SCOTLAND",
+        "Sex": "Male"
+      },
+      "source_level": "Inspected provider transcript; original register image not inspected",
+      "reviewed_on": "2026-10-22",
+      "surname_status": "confirmed",
+      "birth_surname_status": "confirmed",
+      "surname_review_basis": "Baptism transcript names Agnes Glasgow and a father surnamed Glasgow; modern profile identity remains subject to comparison.",
+      "field_fingerprint_fnv1a32": "3c32b2ba"
+    },
+    "SCOT/OPR/BAP/4122202": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-22T11:11:51.819Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4122202",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4122202&tab=this",
+      "title": "Agnes Glasgow in 1795",
+      "transcript_fields": {
+        "First name(s)": "Agnes",
+        "Last name": "Glasgow",
+        "Birth year": "1795",
+        "Baptism year": "1795",
+        "Baptism date": "22 Mar 1795",
+        "Place": "Bathgate",
+        "County": "Linlithgowshire (West Lothian)",
+        "Country": "Scotland",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Subcategory": "Parish Baptisms",
+        "Collections from": "Great Britain, Scotland",
+        "Father's first name(s)": "Peter",
+        "Father's last name": "Glasgow",
+        "Mother's first name(s)": "Elisabeth",
+        "Mother's last name": "Dick",
+        "Birth date": "05 Mar 1795",
+        "Archive reference": "OPR 662/2",
+        "Item": "1",
+        "Register year range": "1769-1819"
+      },
+      "source_level": "Inspected provider transcript; original register image not inspected",
+      "reviewed_on": "2026-10-22",
+      "surname_status": "confirmed",
+      "birth_surname_status": "confirmed",
+      "surname_review_basis": "Baptism transcript names Agnes Glasgow and a father surnamed Glasgow; modern profile identity remains subject to comparison.",
+      "field_fingerprint_fnv1a32": "9833eacf"
+    },
+    "SCOT/OPR/BUR/0397824": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-22T11:11:53.450Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F0397824",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F0397824&tab=this",
+      "title": "Agnes Glasgow in 1810",
+      "transcript_fields": {
+        "First name(s)": "Agnes",
+        "Last name": "Glasgow",
+        "Record set": "Scotland, Parish Deaths & Burials 1564-2017",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Subcategory": "Parish Burials",
+        "Collections from": "Great Britain, Scotland",
+        "Age": "32",
+        "Archive reference": "OPR 685_2/31",
+        "Birth year": "1778",
+        "Burial date": "06 Nov 1810",
+        "Burial year": "1810",
+        "Country": "-",
+        "County": "Midlothian",
+        "Death year": "-",
+        "Item": "2",
+        "Next of kin name": "Geo Smart",
+        "Next of kin relationship": "Spouse of",
+        "Page": "86",
+        "Place": "Edinburgh",
+        "Residence": "Hossier Niccolson",
+        "Year Range": "1808-1816"
+      },
+      "source_level": "Inspected provider transcript; original register image not inspected",
+      "reviewed_on": "2026-10-22",
+      "surname_status": "confirmed",
+      "birth_surname_status": "unproved",
+      "surname_review_basis": "Burial transcript names Agnes Glasgow; no parental or explicit maiden-surname statement. Birth year is derived from age.",
+      "field_fingerprint_fnv1a32": "3a343b1e"
+    },
+    "SCOT/OPR/BUR/0889267": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-22T11:11:55.272Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F0889267",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F0889267&tab=this",
+      "title": "Agnes Glasgow in 1812",
+      "transcript_fields": {
+        "First name(s)": "Agnes",
+        "Last name": "Glasgow",
+        "Record set": "Scotland, Parish Deaths & Burials 1564-2017",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Subcategory": "Parish Burials",
+        "Collections from": "Great Britain, Scotland",
+        "Age": "25",
+        "Archive reference": "OPR 559/5",
+        "Birth year": "1787",
+        "Burial date": "29 Oct 1812",
+        "Burial year": "1812",
+        "Country": "-",
+        "County": "Renfrewshire",
+        "Death year": "-",
+        "Item": "2",
+        "Page": "154",
+        "Place": "Paisley",
+        "Year Range": "1759-1819"
+      },
+      "source_level": "Inspected provider transcript; original register image not inspected",
+      "reviewed_on": "2026-10-22",
+      "surname_status": "confirmed",
+      "birth_surname_status": "unproved",
+      "surname_review_basis": "Burial transcript names Agnes Glasgow; no parental or explicit maiden-surname statement. Birth year is derived from age.",
+      "field_fingerprint_fnv1a32": "f0c4e062"
+    },
+    "SCOT/RENFREW/BUR/009069": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-22T11:11:57.037Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FRENFREW%2FBUR%2F009069",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FRENFREW%2FBUR%2F009069&tab=this",
+      "title": "Agnes Glasgow in 1812",
+      "transcript_fields": {
+        "First name(s)": "Agnes",
+        "Last name": "Glasgow",
+        "Record set": "Scotland, Parish Deaths & Burials 1564-2017",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Subcategory": "Parish Burials",
+        "Collections from": "Great Britain, Scotland",
+        "Age": "25",
+        "Birth year": "1787",
+        "Burial year": "1812",
+        "Country": "Scotland",
+        "County": "Renfrewshire",
+        "Death Date": "02 Oct 1812",
+        "Death year": "1812",
+        "Notes": "Mortcloth/funeral exp.: Mortcloth",
+        "Place": "Abbey"
+      },
+      "source_level": "Inspected provider transcript; original register image not inspected",
+      "reviewed_on": "2026-10-22",
+      "surname_status": "confirmed",
+      "birth_surname_status": "unproved",
+      "surname_review_basis": "Burial transcript names Agnes Glasgow; no parental or explicit maiden-surname statement. Birth year is derived from age.",
+      "field_fingerprint_fnv1a32": "13d4364b"
+    },
+    "SCOT/OPR/BAP/4033335": {
+      "access_status": "accessible",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4033335&tab=this",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4033335&tab=this",
+      "title": "Agnes Glasgow in 1720",
+      "transcript_fields": {
+        "Archive reference": "OPR 650/1",
+        "Baptism date": "21 Aug 1720",
+        "Baptism year": "1720",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Collections from": "Great Britain, Scotland",
+        "Country": "Scotland",
+        "County": "Lanarkshire",
+        "Father's first name(s)": "Robert",
+        "Father's last name": "Glasgow",
+        "First name(s)": "Agnes",
+        "Item": "3",
+        "Last name": "Glasgow",
+        "Mother's first name(s)": "Katherine",
+        "Mother's last name": "Wilson",
+        "Page": "11",
+        "Place": "Libberton",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Register year range": "1717-1819",
+        "Residence": "Gladhaimb",
+        "Subcategory": "Parish Baptisms"
+      },
+      "source_level": "Inspected provider transcript; original register image not inspected",
+      "reviewed_on": "2026-10-22",
+      "surname_status": "confirmed",
+      "birth_surname_status": "confirmed",
+      "surname_review_basis": "Baptism names Agnes Glasgow and father Robert Glasgow; parent profile identities assessed separately.",
+      "inspection_reason": "Reinspect previously cited OPR transcript to resolve Wilson/Watson surname contradiction; no original-image link offered.",
+      "field_fingerprint_fnv1a32": "75e6dc63"
     }
   },
   "identity_clusters": [
@@ -961,6 +1959,55 @@
         "BMD/NBI/01084188"
       ],
       "reason": "Same Abraham Glasgow burial, 16 July 1818 Birmingham St Mary, aged 89; one index adds Hill Street. One burial event, not two men, and the age-derived birth about 1729 is not a recorded birth."
+    },
+    {
+      "record_ids": [
+        "R_684955704",
+        "R_693522269",
+        "SCOT/OPR/BAP/4033335"
+      ],
+      "reason": "The same Libberton baptism on 21 August 1720 names Robert Glasgow and Katharin/Katherine Wilson. The OPR transcript adds Gladhaimb and OPR 650/1 item 3 p.11. Watson in the current biography is not the recorded maternal surname; Watson-53558 remains an unresolved modern identity, and the live child has no attached mother. The R indexes report birth year 1720, but the OPR transcript supplies no birth date or age; retain birth before baptism rather than an invented exact birthday.",
+      "grouping_status": "same_event"
+    },
+    {
+      "record_ids": [
+        "R_685315087",
+        "R_688619591"
+      ],
+      "reason": "One Irvine baptism on 7 December 1725 names William Glasgow and Margaret Montford, matching the existing daughter of William and Margaret Montfort. Montford is the recorded spelling, not a second mother. The supplied day is a baptism date, not proof of an exact birthday.",
+      "grouping_status": "same_event"
+    },
+    {
+      "record_ids": [
+        "R_685659484",
+        "R_689420965"
+      ],
+      "reason": "One Covington and Thankerton baptism on 23 December 1744 names George Glasgow and Agnes Williamson, matching the existing child. The reported birth year 1744 does not turn the baptism day into an exact birthday.",
+      "grouping_status": "same_event"
+    },
+    {
+      "record_ids": [
+        "R_686309332",
+        "R_694108410"
+      ],
+      "reason": "One Midcalder baptism on 22 March 1767 names Alexander Glasgow and Emilia Glendinning. The same parent names and parish support a probable sibling connection to Abigail baptized there in 1769, whose mother appears as Glending/Glendining. Modern parental identities remain unresolved. Agnes Glasgow-32 has no recorded birth or parents in the checked live data and remains a compatible child comparison; her local circa-1783 estimate is not a concrete exclusion. Do not assign this and the competing 1780/1785 births as three facts about her. No new person is proposed.",
+      "grouping_status": "same_event"
+    },
+    {
+      "record_ids": [
+        "R_687777145",
+        "R_686351037"
+      ],
+      "reason": "One West Calder baptism on 15 July 1770 names John Glasgow and Margaret Mill, matching the existing child. These transcripts give 15 July as baptism, not an explicit birth date. The catalogue currently displays an exact 15 July birthday; its independent birth-date basis still needs checking before that precision is retained or corrected.",
+      "grouping_status": "same_event"
+    },
+    {
+      "record_ids": [
+        "R_684963011",
+        "R_693525938"
+      ],
+      "reason": "One Wandell and Lamington baptism on 29 July 1780 names father James Glasgow; the mother field is a dash. James Glasgow-1120 is a local father comparison, not an identification. Agnes Glasgow-32 remains a compatible child alternative because her circa-1783 birth is an unsupported local estimate. Do not transfer one of James’s known spouses into the blank mother field or combine all competing Agnes birth events. No new person is proposed.",
+      "grouping_status": "same_event"
     }
   ],
   "matching_review": {
@@ -994,6 +2041,283 @@
       "Glasgow-3298": "Two inspected transcripts index unnamed male children born 1792 and 1797 at Kilmarnock, father John Glasgow, mother unnamed. The local John associated with Margaret Wyllie is a compatible adult lead, not a proved father identification. [John Glasgow-3051](/people/glasgow-3051.html), born 24 January 1791, is too young to father either child and is excluded for this role. Do not invent children’s forenames or use the unnamed mother to assert Margaret as their mother.",
       "Glasgow-1309": "An unnamed Midcalder child is indexed in 1767 to Alexr Glasgow, OPR 694/2 item 4 p.64, with no mother named. Separately, Abigail’s 1769 entry names Alexr Glasgow and Emilia Glending; two companion indexes give Alexander and Emilia Glendining. This regional adult Alexander remains a comparison, as do [Alexander Glasgow-1342](/people/glasgow-1342.html) and [Alexander Glasgow-1321](/people/glasgow-1321.html). A different known spouse alone is no exclusion. Neither the father identity nor a shared mother is established. Do not transfer Emilia to the 1767 child or attach these children to an existing Alexander without a further identity decision."
     },
-    "legacy_ready_review_pending": "The legacy 1650–1750 materializer snapshot contains 14 automatic no-match READY decisions now guarded as HOLD. Seven explicit legacy READY override notes also need concrete-exclusion review. Check current resolved profiles and retired drafts before changing their current dispositions."
+    "legacy_ready_review_pending": "The 14 automatic no-match legacy decisions are guarded as HOLD. The seven explicit legacy READY notes were reviewed on 22 October 2026: all seven already have profiles; one suggestion is fully retired and six public catalogue/search presentations still need reconciliation. Historical creation notes must not authorize creating those people again.",
+    "record_assignments": {
+      "R_684955704": {
+        "catalogue_profiles": {
+          "Glasgow-4133": "Baptism subject; exact date, father and parish match",
+          "Glasgow-4168": "Recorded father; existing parent identification"
+        },
+        "status": "matched",
+        "assessment": "The same Libberton baptism on 21 August 1720 names Robert Glasgow and Katharin/Katherine Wilson. The OPR transcript adds Gladhaimb and OPR 650/1 item 3 p.11. Watson in the current biography is not the recorded maternal surname; Watson-53558 remains an unresolved modern identity, and the live child has no attached mother. The R indexes report birth year 1720, but the OPR transcript supplies no birth date or age; retain birth before baptism rather than an invented exact birthday.",
+        "new_person_proposed": false
+      },
+      "R_693522269": {
+        "catalogue_profiles": {
+          "Glasgow-4133": "Baptism subject; exact date, father and parish match",
+          "Glasgow-4168": "Recorded father; existing parent identification"
+        },
+        "status": "matched",
+        "assessment": "The same Libberton baptism on 21 August 1720 names Robert Glasgow and Katharin/Katherine Wilson. The OPR transcript adds Gladhaimb and OPR 650/1 item 3 p.11. Watson in the current biography is not the recorded maternal surname; Watson-53558 remains an unresolved modern identity, and the live child has no attached mother. The R indexes report birth year 1720, but the OPR transcript supplies no birth date or age; retain birth before baptism rather than an invented exact birthday.",
+        "new_person_proposed": false
+      },
+      "SCOT/OPR/BAP/4033335": {
+        "catalogue_profiles": {
+          "Glasgow-4133": "Baptism subject; exact date, father and parish match",
+          "Glasgow-4168": "Recorded father; existing parent identification"
+        },
+        "status": "matched",
+        "assessment": "The same Libberton baptism on 21 August 1720 names Robert Glasgow and Katharin/Katherine Wilson. The OPR transcript adds Gladhaimb and OPR 650/1 item 3 p.11. Watson in the current biography is not the recorded maternal surname; Watson-53558 remains an unresolved modern identity, and the live child has no attached mother. The R indexes report birth year 1720, but the OPR transcript supplies no birth date or age; retain birth before baptism rather than an invented exact birthday.",
+        "new_person_proposed": false
+      },
+      "R_685315087": {
+        "catalogue_profiles": {
+          "Glasgow-87": "Baptism subject; existing child and parent pair",
+          "Glasgow-1055": "Recorded father; existing parent identification",
+          "Montfort-406": "Recorded mother; Montford transcript spelling retained"
+        },
+        "status": "matched",
+        "assessment": "One Irvine baptism on 7 December 1725 names William Glasgow and Margaret Montford, matching the existing daughter of William and Margaret Montfort. Montford is the recorded spelling, not a second mother. The supplied day is a baptism date, not proof of an exact birthday.",
+        "new_person_proposed": false
+      },
+      "R_688619591": {
+        "catalogue_profiles": {
+          "Glasgow-87": "Baptism subject; existing child and parent pair",
+          "Glasgow-1055": "Recorded father; existing parent identification",
+          "Montfort-406": "Recorded mother; Montford transcript spelling retained"
+        },
+        "status": "matched",
+        "assessment": "One Irvine baptism on 7 December 1725 names William Glasgow and Margaret Montford, matching the existing daughter of William and Margaret Montfort. Montford is the recorded spelling, not a second mother. The supplied day is a baptism date, not proof of an exact birthday.",
+        "new_person_proposed": false
+      },
+      "SCOT/OPR/BAP/3626962": {
+        "catalogue_profiles": {
+          "Glasgow-2449": "Birth and baptism subject; exact event and parents",
+          "Glasgow-1056": "Recorded father; existing parent identification",
+          "Kilpatrick-1635": "Recorded mother; existing parent identification"
+        },
+        "status": "matched",
+        "assessment": "Agnes was born 15 December and baptized 18 December 1726, Hugh Glasgow and Janet Kilpatrick, residence Byres, Kilwinning, OPR 599/1 item 1 p.208. This is a reinspection of the already assigned event, with exact dates retained; no new child or relationship is proposed.",
+        "new_person_proposed": false
+      },
+      "R_685659484": {
+        "catalogue_profiles": {
+          "Glasgow-1123": "Baptism subject; existing child and parent pair",
+          "Glasgow-1070": "Recorded father; existing parent identification",
+          "Williamson-12853": "Recorded mother; existing parent identification"
+        },
+        "status": "matched",
+        "assessment": "One Covington and Thankerton baptism on 23 December 1744 names George Glasgow and Agnes Williamson, matching the existing child. The reported birth year 1744 does not turn the baptism day into an exact birthday.",
+        "new_person_proposed": false
+      },
+      "R_689420965": {
+        "catalogue_profiles": {
+          "Glasgow-1123": "Baptism subject; existing child and parent pair",
+          "Glasgow-1070": "Recorded father; existing parent identification",
+          "Williamson-12853": "Recorded mother; existing parent identification"
+        },
+        "status": "matched",
+        "assessment": "One Covington and Thankerton baptism on 23 December 1744 names George Glasgow and Agnes Williamson, matching the existing child. The reported birth year 1744 does not turn the baptism day into an exact birthday.",
+        "new_person_proposed": false
+      },
+      "R_686309332": {
+        "catalogue_profiles": {
+          "Glasgow-32": "Alternative child identity only; not an assigned birth",
+          "record-fmp-glasgow-cd28e04e9cbc": "Probable sister context; same named parent pair and parish"
+        },
+        "status": "candidate",
+        "assessment": "One Midcalder baptism on 22 March 1767 names Alexander Glasgow and Emilia Glendinning. The same parent names and parish support a probable sibling connection to Abigail baptized there in 1769, whose mother appears as Glending/Glendining. Modern parental identities remain unresolved. Agnes Glasgow-32 has no recorded birth or parents in the checked live data and remains a compatible child comparison; her local circa-1783 estimate is not a concrete exclusion. Do not assign this and the competing 1780/1785 births as three facts about her. No new person is proposed.",
+        "new_person_proposed": false
+      },
+      "R_694108410": {
+        "catalogue_profiles": {
+          "Glasgow-32": "Alternative child identity only; not an assigned birth",
+          "record-fmp-glasgow-cd28e04e9cbc": "Probable sister context; same named parent pair and parish"
+        },
+        "status": "candidate",
+        "assessment": "One Midcalder baptism on 22 March 1767 names Alexander Glasgow and Emilia Glendinning. The same parent names and parish support a probable sibling connection to Abigail baptized there in 1769, whose mother appears as Glending/Glendining. Modern parental identities remain unresolved. Agnes Glasgow-32 has no recorded birth or parents in the checked live data and remains a compatible child comparison; her local circa-1783 estimate is not a concrete exclusion. Do not assign this and the competing 1780/1785 births as three facts about her. No new person is proposed.",
+        "new_person_proposed": false
+      },
+      "R_687777145": {
+        "catalogue_profiles": {
+          "Glasgow-3406": "Baptism subject; exact event and existing parent pair",
+          "Glasgow-3314": "Recorded father; existing parent identification",
+          "Mill-757": "Recorded mother; existing parent identification"
+        },
+        "status": "matched",
+        "assessment": "One West Calder baptism on 15 July 1770 names John Glasgow and Margaret Mill, matching the existing child. These transcripts give 15 July as baptism, not an explicit birth date. The catalogue currently displays an exact 15 July birthday; its independent birth-date basis still needs checking before that precision is retained or corrected.",
+        "new_person_proposed": false
+      },
+      "R_686351037": {
+        "catalogue_profiles": {
+          "Glasgow-3406": "Baptism subject; exact event and existing parent pair",
+          "Glasgow-3314": "Recorded father; existing parent identification",
+          "Mill-757": "Recorded mother; existing parent identification"
+        },
+        "status": "matched",
+        "assessment": "One West Calder baptism on 15 July 1770 names John Glasgow and Margaret Mill, matching the existing child. These transcripts give 15 July as baptism, not an explicit birth date. The catalogue currently displays an exact 15 July birthday; its independent birth-date basis still needs checking before that precision is retained or corrected.",
+        "new_person_proposed": false
+      },
+      "SCOT/OPR/BAP/0733905": {
+        "catalogue_profiles": {
+          "Glasgow-1482": "Birth and baptism subject; existing child and parent pair",
+          "Glasgow-1321": "Recorded father; existing parent identification",
+          "Cunningham-20926": "Recorded mother; Cunninghame transcript spelling retained"
+        },
+        "status": "matched",
+        "assessment": "The Edinburgh entry explicitly records birth 15 July and baptism 30 July 1774, Alexander Glasgow, Brewers Servt, and Agness Cunninghame, residence Cross Causeway, OPR 685_2/9 item 1 p.172. It refines the existing before-30-July birth boundary. This secure child identification does not establish the later Geo Smart wife comparison.",
+        "new_person_proposed": false
+      },
+      "R_684963011": {
+        "catalogue_profiles": {
+          "Glasgow-32": "Alternative child identity only; not an assigned birth",
+          "Glasgow-1120": "Compatible father comparison only; not an assigned child"
+        },
+        "status": "candidate",
+        "assessment": "One Wandell and Lamington baptism on 29 July 1780 names father James Glasgow; the mother field is a dash. James Glasgow-1120 is a local father comparison, not an identification. Agnes Glasgow-32 remains a compatible child alternative because her circa-1783 birth is an unsupported local estimate. Do not transfer one of James’s known spouses into the blank mother field or combine all competing Agnes birth events. No new person is proposed.",
+        "new_person_proposed": false
+      },
+      "R_693525938": {
+        "catalogue_profiles": {
+          "Glasgow-32": "Alternative child identity only; not an assigned birth",
+          "Glasgow-1120": "Compatible father comparison only; not an assigned child"
+        },
+        "status": "candidate",
+        "assessment": "One Wandell and Lamington baptism on 29 July 1780 names father James Glasgow; the mother field is a dash. James Glasgow-1120 is a local father comparison, not an identification. Agnes Glasgow-32 remains a compatible child alternative because her circa-1783 birth is an unsupported local estimate. Do not transfer one of James’s known spouses into the blank mother field or combine all competing Agnes birth events. No new person is proposed.",
+        "new_person_proposed": false
+      },
+      "SCOT/OPR/BAP/3579423": {
+        "catalogue_profiles": {
+          "Glasgow-32": "Alternative child identity only; not an assigned birth"
+        },
+        "status": "candidate",
+        "assessment": "Agnes was born 22 October and baptized 15 November 1785 at Irvine, father James Glasgow, occupation Shipmr, mother Janet McMillan, OPR 595/1 item 1. No modern parent-couple identification is established. Agnes Glasgow-32 remains a compatible comparison, not an assigned identity; the local circa-1783 estimate does not exclude her. This is an alternative to other source-defined childhoods, not an additional birth of the same woman. No new person is proposed.",
+        "new_person_proposed": false
+      },
+      "R_693209737": {
+        "catalogue_profiles": {
+          "Glasgow-1349": "Baptism subject; existing child and parent pair",
+          "Glasgow-1348": "Recorded father; existing parent identification",
+          "Smith-230548": "Recorded mother; existing parent identification"
+        },
+        "status": "matched",
+        "assessment": "The Barony baptism on 20 March 1791 names Agnes Glasgow, John Glasgow and Helen Smith, matching the existing child. The transcript explicitly labels Sex Male. Preserve that conflicting field for original-register review; do not silently change the subject’s sex or create another Agnes. The reported 1791 birth year and a baptism boundary are separate claims.",
+        "new_person_proposed": false
+      },
+      "SCOT/OPR/BAP/4122202": {
+        "catalogue_profiles": {
+          "Glasgow-3402": "Birth and baptism subject; existing child and parent pair",
+          "Glasgow-1466": "Recorded father; existing parent identification",
+          "Dick-6841": "Recorded mother; existing parent identification"
+        },
+        "status": "matched",
+        "assessment": "The Bathgate entry names Peter Glasgow and Elisabeth Dick and explicitly reports birth 5 March and baptism 22 March 1795, OPR 662/2 item 1. The current profile/catalogue birthday is 3 March 1795. The parents and event identify the existing child, but the 3-versus-5 March reading is unresolved without comparing the underlying source. Keep both readings visible and do not silently overwrite the birthday or create a second child.",
+        "new_person_proposed": false
+      },
+      "SCOT/OPR/BUR/0397824": {
+        "catalogue_profiles": {
+          "Glasgow-1482": "Compatible burial identity only; death and spouse not assigned",
+          "Glasgow-3406": "Weaker alternative burial identity only"
+        },
+        "status": "candidate",
+        "assessment": "Agnes Glasgow was buried 6 November 1810 at Edinburgh, age 32, described as Spouse of Geo Smart, residence literal Hossier Niccolson, OPR 685_2/31 item 2 p.86. Birth circa 1778 is calculated from age. The Edinburgh child Glasgow-1482, born 15 July 1774, is a candidate but would be 36, four years older than the burial age; Glasgow-3406 would be 40. Age error is possible, but no spouse or household bridge identifies either. Do not assign the death or Geo Smart marriage. Glasgow-32’s imported 1801 death conflicts with this event but its underlying source remains unchecked. Natal surname Glasgow is not explicitly proved.",
+        "new_person_proposed": false
+      },
+      "SCOT/OPR/BUR/0889267": {
+        "catalogue_profiles": {
+          "Glasgow-1349": "Compatible later-life comparison only; burial identity unresolved"
+        },
+        "status": "candidate",
+        "assessment": "Two age-25 Agnes Glasgow entries concern Paisley/Abbey in 1812. OPR 559/5 item 2 p.154 gives burial 29 October; the Renfrew transcript gives Death Date 2 October and a mortcloth note. Different date roles could concern one woman, but the relationship between entries is unproved; preserve both dates and do not create two people. Circa-1787 birth is age-derived. Glasgow-1349, born before her 1791 baptism, is a compatible candidate; the companion baptism index reports 1791, so the four-year discrepancy remains explicit. Glasgow-3402’s explicit 1795 birth would imply age 17, not 25, and Glasgow-32 has an unsupported imported 1801 death. Neither discrepancy alone justifies a new person. Natal surname remains unproved.",
+        "new_person_proposed": false
+      },
+      "SCOT/RENFREW/BUR/009069": {
+        "catalogue_profiles": {
+          "Glasgow-1349": "Compatible later-life comparison only; burial identity unresolved"
+        },
+        "status": "candidate",
+        "assessment": "Two age-25 Agnes Glasgow entries concern Paisley/Abbey in 1812. OPR 559/5 item 2 p.154 gives burial 29 October; the Renfrew transcript gives Death Date 2 October and a mortcloth note. Different date roles could concern one woman, but the relationship between entries is unproved; preserve both dates and do not create two people. Circa-1787 birth is age-derived. Glasgow-1349, born before her 1791 baptism, is a compatible candidate; the companion baptism index reports 1791, so the four-year discrepancy remains explicit. Glasgow-3402’s explicit 1795 birth would imply age 17, not 25, and Glasgow-32 has an unsupported imported 1801 death. Neither discrepancy alone justifies a new person. Natal surname remains unproved.",
+        "new_person_proposed": false
+      }
+    },
+    "page2_review": {
+      "reviewed_on": "2026-10-22",
+      "result_rows": 20,
+      "supporting_reinspections": 1,
+      "matched_birth_events": 8,
+      "alternative_birth_events": 3,
+      "burial_transcripts": 3,
+      "new_people": 0,
+      "status": "INTEGRATED LOCALLY; source/identity qualifications retained",
+      "note": "No compatible candidate was excluded merely for missing fields, local estimated dates or absent corroboration."
+    },
+    "legacy_ready_review": {
+      "reviewed_on": "2026-10-22",
+      "status": "Reviewed; six public catalogue/search reconciliations pending",
+      "basis": "Existing profile/capture links, maintained person findings, actual people-index, full/decoded compact catalogue indexes and record readers checked; raw CSV READY metadata alone was not treated as proof of an active suggestion.",
+      "entries": [
+        {
+          "group_id": "fmp-glasgow-e47e0e47524a",
+          "profile_id": "Glasgow-4138",
+          "public_state": "Removed from people index; stale full/compact creation row remains",
+          "create_new_person": false,
+          "action": "Preserve existing identity, sources, uncertainty and family links; retire any remaining duplicate creation account."
+        },
+        {
+          "group_id": "fmp-glasgow-fb417c9f3803",
+          "profile_id": "Glasgow-1406",
+          "public_state": "Merged from Glasgow-4141 on27September; removed from people index but stale search row remains",
+          "create_new_person": false,
+          "action": "Preserve existing identity, sources, uncertainty and family links; retire any remaining duplicate creation account."
+        },
+        {
+          "group_id": "fmp-glasgow-b741e434199b",
+          "profile_id": "Glasgow-4124",
+          "public_state": "Duplicate record-only account remains in people and full/compact search",
+          "create_new_person": false,
+          "action": "Preserve existing identity, sources, uncertainty and family links; retire any remaining duplicate creation account."
+        },
+        {
+          "group_id": "fmp-glasgow-32d4ff293591",
+          "profile_id": "Glasgow-4108",
+          "public_state": "Duplicate record-only account remains in people and full/compact search",
+          "create_new_person": false,
+          "action": "Preserve existing identity, sources, uncertainty and family links; retire any remaining duplicate creation account."
+        },
+        {
+          "group_id": "fmp-glasgow-e0a45e457988",
+          "profile_id": "Glasgow-4136",
+          "public_state": "Duplicate record-only account remains in people and full/compact search",
+          "create_new_person": false,
+          "action": "Preserve existing identity, sources, uncertainty and family links; retire any remaining duplicate creation account."
+        },
+        {
+          "group_id": "fmp-glasgow-f325c7334f8a",
+          "profile_id": "Glasgow-4139",
+          "public_state": "Duplicate record-only account remains in people and full/compact search",
+          "create_new_person": false,
+          "action": "Preserve existing identity, sources, uncertainty and family links; retire any remaining duplicate creation account."
+        },
+        {
+          "group_id": "fmp-glasgow-59dea07d1fbb",
+          "profile_id": "Glasgow-4114",
+          "public_state": "Already retired correctly; no duplicate full/compact search row",
+          "create_new_person": false,
+          "action": "Preserve existing identity, sources, uncertainty and family links; retire any remaining duplicate creation account."
+        }
+      ]
+    },
+    "libberton_parent_follow_up": {
+      "status": "Unresolved compatible existing-parent comparison; no new person or attachment",
+      "profiles": [
+        "Wilson-127539",
+        "Glasgow-3407",
+        "Watson-53558",
+        "Glasgow-4168"
+      ],
+      "basis": "The maintained1722LibbertonJohn-2870 account names RobertGlasgow and KatherinWilson and maps them toGlasgow-3407/Wilson-127539. The1720Agnes record may involve this household or anotherRobert/KatherineWilson. Modern identities of the two Roberts and mothers remain unresolved.",
+      "source": "tools/study_stories/early-scottish-records.json#libberton-record-parents-confidence",
+      "next_action": "Compare original1720/1722entries and both existing household accounts before selecting any parent identity."
+    }
   }
 }

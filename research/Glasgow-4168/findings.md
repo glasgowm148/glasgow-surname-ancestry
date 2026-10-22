@@ -1,9 +1,11 @@
 # Robert Glasgow (Glasgow-4168): parent identity review
 
-Last updated: 2026-09-26
+Last updated: 2026-10-22
 
 
 ## Current conclusion
+
+Reviewed: 2026-10-22 — The three indexed versions of Agnes’s baptism on 21 August 1720 name Robert Glasgow and **Katherine/Katharin Wilson**, not Watson. [SCOT/OPR/BAP/4033335](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4033335&tab=this), reinspected today, gives OPR 650/1, item 3, p.11 and residence Gladhaimb. [R_684955704](https://www.findmypast.co.uk/transcript?id=R_684955704&tab=this) and [R_693522269](https://www.findmypast.co.uk/transcript?id=R_693522269&tab=this) agree on baptism and parents; their birth-year 1720 and Female fields are index assertions, not details supplied by the detailed OPR transcript. The original remains uninspected. The former Watson reading for Agnes is corrected; Elizabeth’s separate 1726 reading and the established uncertain household model are not re-decided. Whether [Watson-53558](https://www.wikitree.com/wiki/Watson-53558) represents this indexed Wilson woman is unresolved. Agnes’s live mother field is 0; no mother or wife is attached, detached, renamed or created. See [Agnes’s reviewed account](/people/glasgow-4133.html#research).
 
 Reviewed: 2026-10-16
 
@@ -14,19 +16,19 @@ Reviewed: 2026-10-16
 **Selected uncertain Libberton/Uphall families,16 October2026:** Robert of Libberton is placed under Johne-3093 through the conditional Mid Calder/Lindsaylands family route; Thomas of the Clarkson household is placed under John-1105 and Agnes Eastone through possible identity with the 1675 child. All three adult parent links are uncertain; existing dates and competing identities remain. [Evidence and alternatives](/branches/early-scottish-records/#libberton-uphall-working-family).
 ## Current conclusion — 27 September 2026
 
-**Merged Glasgow-4169 into this profile on 27 September 2026.** Robert Glasgow is the inferred common Libberton father of Janet in 1718 with Katherin Gibson and Agnes and Elizabeth in 1720 and 1726 with Katherine Watson. Both women and all three children remain linked. The different maternal surnames are unresolved; a remarriage or transcription difference is possible but not established.
+**Merged Glasgow-4169 into this profile on 27 September 2026.** Robert Glasgow is the inferred common Libberton father of Janet in 1718 with Katherin Gibson, Agnes in 1720 with Katherine Wilson, and Elizabeth in 1726 with Katherine Watson. Existing wife links and all three children are retained; the corrected Wilson reading does not establish another woman or a remarriage. The different maternal surnames are unresolved; a remarriage or transcription difference is possible but not established.
 
 ## Next records
 
-Compare the three original Libberton entries and search marriages and burials for Gibson and Watson.
+Compare the three original Libberton entries and search marriages and burials for Gibson, Wilson and Watson; the indexed surnames do not identify the women across records.
 
 ## Prior assessment — superseded by merge
 
-A parish baptism at Libberton, Lanarkshire names Robert Glasgow and Katherine Watson as parents of [Agnes Glasgow](https://www.wikitree.com/wiki/Glasgow-4133) on 21 August 1720. The indexed entry establishes the recorded parent names and child event, but gives no independently identifying birth or death for this adult. [Glasgow-4169](https://www.wikitree.com/wiki/Glasgow-4169) represents another Robert Glasgow named with Katherin Gibson in the same parish in a baptism dated 22 April 1718. These may represent one father across two households or two same-name men; the present evidence does not decide. The profiles remain cross-linked and unmerged.
+The prior review misreported the mother as Katherine Watson: the Libberton baptism transcript actually names Robert Glasgow and Katherine Wilson as parents of [Agnes Glasgow](https://www.wikitree.com/wiki/Glasgow-4133) on 21 August 1720. The indexed entry establishes the recorded parent names and child event, but gives no independently identifying birth or death for this adult. [Glasgow-4169](https://www.wikitree.com/wiki/Glasgow-4169) represents another Robert Glasgow named with Katherin Gibson in the same parish in a baptism dated 22 April 1718. These may represent one father across two households or two same-name men; the present evidence does not decide. The profiles remain cross-linked and unmerged.
 
 ## Source findings
 
-- [Findmypast parish baptism transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4033335&tab=this), Agnes Glasgow, 21 August 1720, Libberton, Lanarkshire; named parents Robert Glasgow and Katherine Watson. This is an index/transcript; original register image not inspected for this duplicate review.
+- [Findmypast parish baptism transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4033335&tab=this), Agnes Glasgow, 21 August 1720, Libberton, Lanarkshire; named parents Robert Glasgow and Katherine Wilson. The previous Watson reading was an error in the research account. This is an index/transcript; original register image not inspected for this duplicate review.
 
 ## Unresolved questions
 
@@ -45,7 +47,7 @@ Johne’s only reviewed record is the 1648 child entry; no later occupation, res
 - [Lanark testament index pp.38/99: Quothquan 1624 and Back of Lindsaylands 1680 weavers](https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/the_commissariot_record_of_lanark__register_of_testaments__1595-1800_~_1903.pdf)
 - [Edinburgh apprentice7 May 1690: James, son of deceased James the Lindsaylands weaver](https://www.findmypast.co.uk/transcript?id=SCOT%2FEDINBURGH%2FAPPRENTICES%2F0005159%2F1&tab=this)
 - [Libberton Janet, Robert Glasgow/Katherin Gibson,22 April 1718](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4033250&tab=this)
-- [Libberton Agnes, Robert Glasgow/Katherine Watson,21 August 1720](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4033335&tab=this)
+- [Libberton Agnes, Robert Glasgow/Katherine Wilson,21 August 1720](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4033335&tab=this)
 - [Thomas Glesgow, Linlithgow 1675: child/parent index VQ4C-P4L](https://www.familysearch.org/ark:/61903/1:1:VQ4C-P4L)
 - [Agnes Eastone in the same 1675 Thomas entry: paired parent index VQ4C-P4P](https://www.familysearch.org/ark:/61903/1:1:VQ4C-P4P)
 - [Thomas/Jean Duncan account: Uphall child index 1704](https://www.familysearch.org/ark:/61903/1:1:VQ48-MZ7)
@@ -57,7 +59,7 @@ Johne’s only reviewed record is the 1648 child entry; no later occupation, res
 
 ## Selected uncertain family — 16 October 2026
 
-The Carnwath marriage citation gives Robert and Katherine Wilson in 1713; the captured 1722 Libberton baptism citation names Robert and Katharin Wilson as John’s parents. Those index citations define the proposed Wilson household but supply no paternal ancestry or age for Robert. The neighbouring Robert Glasgow-4168 account combines Katherin Gibson in 1718 and Katherine Watson in 1720 and 1726. The Wilson event in 1722 falls between the Watson events. Consequently, a simple sequence of remarriages does not reconcile all maternal surnames. Transcription differences, record misassignment, overlapping families, or one man across some entries remain possible. No woman is equated with another, and no new marriage or mother is assigned. The two Robert accounts are retained separately; shared parish and forename do not prove identity.
+The Carnwath marriage citation gives Robert and Katherine Wilson in 1713; the captured 1722 Libberton baptism citation names Robert and Katharin Wilson as John’s parents. Those index citations define the proposed Wilson household but supply no paternal ancestry or age for Robert. The neighbouring Robert Glasgow-4168 account combines Katherin Gibson in 1718, Katherine Wilson in the corrected 1720 reading, and Katherine Watson in 1726. The 1720 and 1722 Wilson readings are compatible but do not independently establish the identity of the two Robert accounts or the women. A sequence of remarriages is not established by these surname readings. Transcription differences, record misassignment, overlapping families, or one man across some entries remain possible. No woman is equated with another, and no new marriage or mother is assigned. The two Robert accounts are retained separately; shared parish and forename do not prove identity.
 
 James Glasgow-3332 is the selected uncertain working father of Robert Glasgow-3407, who married Katherine Wilson at Carnwath in 1713 and is associated with son John Glasgow-2870 at Libberton in 1722. This is conditional on James representing the weaver at Back of Lindsaylands whose testament was indexed in 1680. The adjacent Biggar, Libberton and Carnwath family setting supplies a specific local comparison. A James born around the inherited 1630/1634 estimates could father Robert in the 1660s or 1670s; a Robert born in the 1670s could marry in 1713 and father John in 1722 at ordinary adult ages. This provisional older-generation route is preferred to making the two overlapping Libberton Roberts sons of the same Johne. No record names Robert as the weaver’s child. Robert’s current circa-1690 birth estimate would be too late for a father dead by 1680; an earlier birth is required if this hypothesis is right. That estimate is unsupported, but the required revision remains a limitation, not evidence for the proposed father.
 
@@ -73,5 +75,5 @@ The 1680 index describes James as a weaver in the Back of Lindsaylands, parish o
 - [Supplied ScotlandsPeople wills index, 10 November 1680, CC14/5/10 TD: manuscript transcription still pending](/research/transcriptions/james-lindsaylands-1680/)
 - [Edinburgh apprentice entry 7 May 1690: deceased father James Glasgow, Lindsayland weaver; previously reviewed transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FEDINBURGH%2FAPPRENTICES%2F0005159%2F1&tab=this)
 - [Robert/Katherin Gibson, Libberton Janet, 22 April 1718: previously reviewed transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4033250&tab=this)
-- [Robert/Katherine Watson, Libberton Agnes, 21 August 1720: previously reviewed transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4033335&tab=this)
+- [Robert/Katherine Wilson, Libberton Agnes, 21 August 1720: previously reviewed transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4033335&tab=this)
 - [Johne Glasgow, Mid Calder 1648, named father Jamis: previous index review](https://www.familysearch.org/ark:/61903/1:1:X1BL-JXR)

@@ -15,3 +15,14 @@ The transcript-validated baptism record for **Agnes Glasgow**, 07 Dec 1725, Irvi
 
 Add the record as supporting evidence while preserving all existing sources and uncertain relationships. Do not infer an unstated birth place, parent, spouse, or child.
 <!-- END FMP-GLASGOW-fmp-glasgow-4818db15decd -->
+
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGE2-20261022 -->
+## Findmypast record review — 22 October 2026
+
+One Irvine baptism on 7 December 1725 names William Glasgow and Margaret Montford, matching the existing daughter of William and Margaret Montfort. Montford is the recorded spelling, not a second mother. The supplied day is a baptism date, not proof of an exact birthday.
+
+- [Findmypast R_685315087](https://www.findmypast.co.uk/transcript?id=R_685315087&tab=this).
+- [Findmypast R_688619591](https://www.findmypast.co.uk/transcript?id=R_688619591&tab=this).
+
+The provider transcripts were inspected on 22 October 2026; original register images were not inspected. [Shared record review](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-BIRTH-SCOPE-PAGE2-20261022 -->

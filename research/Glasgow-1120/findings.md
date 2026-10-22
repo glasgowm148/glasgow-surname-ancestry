@@ -26,3 +26,14 @@ The two profiles’ identical marriage citation is one event claimed twice, not 
 - [FamilySearch: Robert Glasgow, 13 September 1784, Glasgow; no parents in the supplied index](https://www.familysearch.org/ark:/61903/1:1:X1WW-D8B)
 
 Compare the original 1803 entry with the 1789 marriage, 1802 burial and 1839 weaver entry for residence, occupation and widowhood. Then compare all three older baptism candidates. The 1861 Alexander marriage and his 1875 death may independently identify Robert’s occupation or deceased status. These are tests of the selected family, not a reason to omit the working connection.
+
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGE2-20261022 -->
+## Findmypast record review — 22 October 2026
+
+One Wandell and Lamington baptism on 29 July 1780 names father James Glasgow; the mother field is a dash. James Glasgow-1120 is a local father comparison, not an identification. Agnes Glasgow-32 remains a compatible child alternative because her circa-1783 birth is an unsupported local estimate. Do not transfer one of James’s known spouses into the blank mother field or combine all competing Agnes birth events. No new person is proposed.
+
+- [Findmypast R_684963011](https://www.findmypast.co.uk/transcript?id=R_684963011&tab=this).
+- [Findmypast R_693525938](https://www.findmypast.co.uk/transcript?id=R_693525938&tab=this).
+
+The provider transcripts were inspected on 22 October 2026; original register images were not inspected. [Shared record review](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-BIRTH-SCOPE-PAGE2-20261022 -->

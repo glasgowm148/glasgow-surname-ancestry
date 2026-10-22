@@ -16,6 +16,8 @@ READY TO CREATE — The inspected OPR transcript records birth 5 June 1769 and b
 
 == Research Notes ==
 
+Agnes Glasgow, baptized at Midcalder on 22 March 1767 to Alexander Glasgow and Emilia Glendinning, was probably Abigail’s sister. The same named parent pair and parish support one family; the parents’ modern profile identities and Agnes’s later identity remain unresolved. This does not establish Agnes Glasgow-32 as that child.<ref>Findmypast, ''Scotland, Parish Births & Baptisms 1564-1929'', transcripts R_686309332 and R_694108410, https://www.findmypast.co.uk/transcript?id=R_686309332&tab=this and https://www.findmypast.co.uk/transcript?id=R_694108410&tab=this (inspected 22 October 2026; original register images not inspected; two derivative versions of one baptism).</ref>
+
 The three transcripts are compatible versions of one baptism. The mother’s recorded forms Glending and Glendining are retained. Birth location is inferred from the parish context and must be marked uncertain; the transcript gives a birth date but does not separately name the birthplace. The original register image remains uninspected. Her later life and the modern identities of her named parents are unknown.
 
 Duplicate check, 22 October 2026: [[Glasgow-1655|Abigail Glasgow Anderson]] married John Anderson in Ireland in 1759, before this child’s birth, and is a distinct person. Exact Abigail Glasgow and Abigal/Glasgo/Glasco variant searches and local draft checks found no further compatible historical identity. Do not attach her parents solely by name. [[Glasgow-1309|Alexander Glasgow]] remains a regional comparison, not an identified father; a different recorded spouse alone is no exclusion.
