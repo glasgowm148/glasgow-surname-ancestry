@@ -37,7 +37,15 @@
     }
     return rows;
   }
-  if (typeof module !== 'undefined' && module.exports) module.exports = {dailyHistory, historySeries, confidenceHistory};
+  function uncertaintyMeasurements(metrics) {
+    const working = metrics?.working?.edge_count, confident = metrics?.confident?.edge_count;
+    const counts = metrics?.working?.edge_status_counts;
+    const total = Number.isFinite(working) && Number.isFinite(confident) ? working-confident : null;
+    const grades = Object.fromEntries(['uncertain','possible','probable','unmarked'].map(key =>
+      [key, counts ? (counts[key] ?? 0) : null]));
+    return {total, percent:total !== null && working > 0 ? 100*total/working : null, working, ...grades};
+  }
+  if (typeof module !== 'undefined' && module.exports) module.exports = {dailyHistory, historySeries, confidenceHistory, uncertaintyMeasurements};
   if (typeof document === 'undefined') return;
   const element = document.getElementById('ancestry-progress-data');
   if (!element) return;
@@ -50,7 +58,9 @@
     rows.sort((a,b) => confident
       ? b.confident_pair_gain-a.confident_pair_gain || b.cross_pairs-a.cross_pairs || a.child.localeCompare(b.child)
       : b.cross_pairs-a.cross_pairs || a.child.localeCompare(b.child));
-    byId('priority-count').textContent = `Showing ${Math.min(20,rows.length)} of ${number(rows.length)} uncertain father links${early?' dated by 1650':''}. Counts use the same people through 1850.`;
+    byId('priority-count').textContent = `Showing ${Math.min(20,rows.length)} of ${number(rows.length)} father links below confident${early?' dated by 1650':''}. Counts use the same people through 1850.`;
+    const remaining = uncertaintyMeasurements(data.cohorts['1850']);
+    byId('priority-uncertainty-summary').innerHTML = `<strong>${number(remaining.total)} father links below confident</strong><span>${number(remaining.uncertain)} uncertain · ${number(remaining.possible)} possible · ${number(remaining.probable)} probable${remaining.unmarked?` · ${number(remaining.unmarked)} unmarked`:''} · through 1850</span><a href="#uncertainty-history">See how this has changed over time ↑</a>`;
     byId('priority-rows').innerHTML = rows.slice(0,20).map(row => `<tr><td><a href="${esc(row.father_url)}">${esc(row.father_name)}</a> → <a href="${esc(row.child_url)}">${esc(row.child_name)}</a><small>${esc(row.father)} → ${esc(row.child)} · ${esc(row.year ?? 'Undated')}</small></td><td>${Number.isFinite(row.confidence_percent)?`${row.confidence_percent}%`:'Not individually rated'}<small>${esc(row.status)}</small></td><td>${number(row.child_side)}</td><td>${number(row.cross_pairs)}</td><td>${number(row.confident_pair_gain)}<small>${number(row.confident_child_side)} × ${number(row.confident_parent_side)} people; ${row.confident_component_reduction} fewer confident branches</small></td><td><a href="${esc(row.analysis_url)}">${esc(row.next_test)}</a>${row.last_review?`<small>${esc(row.last_review)}</small>`:''}</td></tr>`).join('');
   }
   byId('priority-order').addEventListener('change', renderPriorities);
@@ -67,6 +77,52 @@
     edge_count:'Father–child links', largest_component_size:'People in largest branch',
     connected_pairs_percent:'Connected pairs (%)', component_count:'Separate paternal components'
   };
+  function renderUncertaintyTrend(rows) {
+    const measured = rows.map(row => ({date:row.date, ...uncertaintyMeasurements(row.metrics)}));
+    const recorded = measured.filter(row => row.total !== null);
+    const target = byId('uncertainty-trend-chart');
+    if (!recorded.length) {
+      byId('uncertainty-totals').innerHTML = '<p>No comparable uncertainty counts have been recorded for this cohort.</p>';
+      byId('uncertainty-breakdown').innerHTML = '';
+      byId('uncertainty-trend-rows').innerHTML = '';
+      target.innerHTML = '';
+      return;
+    }
+    const first = recorded[0], last = recorded[recorded.length-1], drop = first.total-last.total;
+    const dateLabel = date => new Date(date+'T12:00:00Z').toLocaleDateString('en-GB',{day:'numeric',month:'short',timeZone:'UTC'});
+    const change = (start,end) => end===start?'No change':`${number(Math.abs(start-end))} ${end<start?'fewer':'more'}`;
+    const strict = recorded.filter(row => row.uncertain !== null);
+    const strictFirst = strict[0], strictLast = strict[strict.length-1];
+    byId('uncertainty-totals').innerHTML = `<div><span>Father links below confident</span><strong>${number(last.total)}</strong><small>${last.percent===null?'':`${last.percent.toFixed(1)}% of ${number(last.working)} father links`}</small></div><div><span>Change since ${esc(dateLabel(first.date))}</span><strong>${recorded.length>1?esc(change(first.total,last.total)):'First count'}</strong><small>${recorded.length>1?`${number(first.total)} → ${number(last.total)} · ${first.total>0?(Math.abs(drop)/first.total*100).toFixed(1)+'% '+(drop>=0?'drop':'increase'):'new baseline'}`:'No earlier comparable count'}</small></div><div><span>Uncertain grade only</span><strong>${last.uncertain===null?'Not recorded':number(last.uncertain)}</strong><small>${strict.length>1?`${number(strictFirst.uncertain)} → ${number(strictLast.uncertain)} · ${esc(change(strictFirst.uncertain,strictLast.uncertain))} since ${esc(dateLabel(strictFirst.date))}`:'Separate from possible and probable'}</small></div>`;
+    const grades = [['uncertain','Uncertain'],['possible','Possible'],['probable','Probable'],['unmarked','Unmarked']];
+    byId('uncertainty-breakdown').innerHTML = grades.map(([key,label]) => `<span class="uncertainty-${key}">${esc(label)} <strong>${last[key]===null?'Not recorded':number(last[key])}</strong></span>`).join('');
+    const width = Math.max(300, Math.min(960,target.clientWidth || 960)), height=240, left=58, right=24, top=20, bottom=42;
+    const max = Math.max(1,...recorded.map(row=>row.total))*1.1;
+    const start=Date.parse(measured[0].date), end=Date.parse(measured[measured.length-1].date);
+    const x = date => start===end ? (left+width-right)/2 : left+(Date.parse(date)-start)/(end-start)*(width-left-right);
+    const y = value => height-bottom-value/max*(height-top-bottom);
+    const svg = [`<svg viewBox="0 0 ${width} ${height}" role="img" aria-labelledby="uncertainty-chart-title uncertainty-chart-desc"><title id="uncertainty-chart-title">Father links below confident over time</title><desc id="uncertainty-chart-desc">Lower counts mean fewer links below confident. ${number(first.total)} on ${esc(first.date)} to ${number(last.total)} on ${esc(last.date)}. The second line counts only the uncertain grade. The vertical axis starts at zero. Full counts are in the table below.</desc>`];
+    for (let i=0;i<=4;i++) {
+      const value=max*i/4, yy=y(value);
+      svg.push(`<line x1="${left}" x2="${width-right}" y1="${yy}" y2="${yy}" class="history-grid"/><text x="${left-10}" y="${yy+4}" text-anchor="end">${number(Math.round(value))}</text>`);
+    }
+    measured.filter((row,i)=>i===0 || i===measured.length-1 || (measured.length<=6) || i%Math.ceil(measured.length/5)===0).forEach(row=>svg.push(`<text x="${x(row.date)}" y="${height-14}" text-anchor="${row===measured[0]?'start':row===measured[measured.length-1]?'end':'middle'}">${esc(dateLabel(row.date))}</text>`));
+    for (const [key,label,color] of [['total','All below confident','#9b5610'],['uncertain','Uncertain grade only','#a33237']]) {
+      let path='', connected=false;
+      for (const row of measured) {
+        if (row[key]===null) {connected=false;continue;}
+        path+=`${connected?'L':'M'}${x(row.date)},${y(row[key])} `;connected=true;
+      }
+      svg.push(`<path d="${path}" fill="none" stroke="${color}" stroke-width="3" ${key==='uncertain'?'stroke-dasharray="6 4"':''}/>`);
+      measured.filter(row=>row[key]!==null).forEach(row=> {
+        const labelText=`${row.date}: ${label}, ${number(row[key])}`;
+        svg.push(`<circle cx="${x(row.date)}" cy="${y(row[key])}" r="5" fill="${color}" stroke="#fffdf8" stroke-width="2" tabindex="0" aria-label="${esc(labelText)}"><title>${esc(labelText)}</title></circle>`);
+      });
+    }
+    target.innerHTML=svg.join('')+'</svg>';
+    const cell = value => value===null?'Not recorded':number(value);
+    byId('uncertainty-trend-rows').innerHTML = measured.map(row=>`<tr><th scope="row">${esc(row.date)}</th><td>${cell(row.total)}</td><td>${row.percent===null?'Not recorded':row.percent.toFixed(1)+'%'}</td>${grades.map(([key])=>`<td>${cell(row[key])}</td>`).join('')}</tr>`).join('');
+  }
   function renderConfidenceTrend(cohort) {
     const rows = confidenceHistory(data.progress_history, data.history_method_version, cohort);
     const target = byId('confidence-trend-chart');
@@ -106,6 +162,7 @@
     renderConfidenceTrend(fixed ? 'fixed' : cutoff);
     const metric = byId('history-metric').value;
     const rows = dailyHistory(data.progress_history, data.history_method_version, fixed ? 'fixed' : cutoff);
+    renderUncertaintyTrend(rows);
     const exactConfidence = metric === 'reviewed_confidence_percent';
     const historyParams = new URLSearchParams(location.search);
     if (metric === 'edge_count') historyParams.delete('history');
