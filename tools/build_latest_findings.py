@@ -227,6 +227,7 @@ def render_main(rows, total=None, page_number=None, studies=(), browse=False, pl
     return f'''<main id="main" class="latest-findings-page" data-lf-total="{total}" data-lf-page="{page_number or 'latest'}">
 <header class="lf-intro"><p class="r-kicker">What we have learned</p><h1>Latest findings</h1>
 <p class="lf-lede">New records and supported corrections from the Glasgow research, newest first.</p>
+<p class="lf-progress"><a href="/onetree/progress/?through=1650&amp;links=confident#progress-history">Research progress charts →</a><span>See how father-link confidence and branch connectivity change over time.</span></p>
 <p>Dates show when evidence was found or reviewed. Each finding gives its sources and what remains uncertain.</p>
 <p>The finding assessment applies to the statement in that row. A supported record fact does not confirm its identification with a linked WikiTree profile. Profile identification limits appear beside the person and in the research.</p>
 <p>Use Assessment to find relationships that became certain. <a href="/research/relationship-audit/">Read the historical audit and counts →</a></p>{follow}</header>

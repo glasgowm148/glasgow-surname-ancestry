@@ -17,6 +17,7 @@
 /* Site audit S3-05 (lane I4): study links, follow line and per-study / per-place pages. */
 .lf-studies{margin-top:8px;font-size:12px}.lf-studies li{margin-top:3px}.lf-studies span{color:#667361}
 .lf-follow{font-size:14px}
+.lf-intro .lf-progress{padding:16px 20px;background:#e8efdf;border:1px solid #a4b995;border-left:4px solid #426541;border-radius:6px}.lf-progress a{display:inline-block;font-size:18px;font-weight:700}.lf-progress span{display:block;margin-top:4px;font-size:14px;color:#465a42}
 .lf-subject-list{list-style:none;padding:0;columns:2 280px;column-gap:28px}.lf-subject-list li{break-inside:avoid;padding:8px 0;border-bottom:1px solid #d7dfce}.lf-subject-list small{display:block;color:#667361}
 .lf-place{margin:22px 0}.lf-place h2{font-size:20px;margin:0 0 6px}.lf-place ul{padding-left:18px}.lf-place li{margin:5px 0;font-size:14px}.lf-place time{font-weight:700;margin-right:6px}
 .lf-place-jump p{line-height:1.9}
