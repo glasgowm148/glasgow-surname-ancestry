@@ -4003,3 +4003,8 @@ Twenty additional transcripts are recorded under existing people or qualified ca
 ## 23 October 2026 — Hawthorne nephew abstract
 
 | [James Glasgow (Glasgow-3305)](https://www.wikitree.com/wiki/Glasgow-3305) | OPEN | Add the inspected 1760 Hawthorne will/1762 probate abstract naming nephew James Glasgow; retain candidate identity and existing uncertain father 12%. No new father or vital-field change. |
+
+
+## 23 October 2026 — Ohio John’s Irish origin
+
+| [John Glasgow (Glasgow-2600)](https://www.wikitree.com/wiki/Glasgow-2600) | OPEN | Replace unsupported 1784 Bathgate birth with an estimated birth about 1774, Ireland, citing original1860 census; preserve monument age92 and modern-field conflict. Father remains unknown; reconcile Glenn marriage identities separately. |

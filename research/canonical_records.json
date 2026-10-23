@@ -30805,5 +30805,67 @@
       }
     },
     "record_category": "Wills and probate"
+  },
+  {
+    "record_id": "ohio-john-glasgow-richland-census-1860",
+    "provider_record_id": "USC/1860/0000708706126",
+    "person": "John Glasgow",
+    "association": "John Glassga, 86, Ireland-born; with Elizabeth, 61, and Daniel E, 24",
+    "date": "7 July 1860",
+    "year": 1860,
+    "place": "Richland Township, Belmont County, Ohio, United States",
+    "country": "united_states",
+    "record_type": "Census return",
+    "record_category": "Census",
+    "source_title": "1860 United States census, Ohio, Belmont County, Richland Township, page 90, dwelling 626/family 634, lines 26–28; NARA M653, DGS005170527 image00095",
+    "source_url": "https://search.findmypast.co.uk/record?id=USC%2F1860%2F005170527%2F00095&parentid=USC%2F1860%2F0000708706126",
+    "source_urls": [
+      "https://search.findmypast.co.uk/record?id=USC%2F1860%2F005170527%2F00095&parentid=USC%2F1860%2F0000708706126",
+      "https://www.findmypast.co.uk/transcript?id=USC%2F1860%2F0000708706126",
+      "https://familysearch.org/ark:/61903/1:1:MCPZ-F48"
+    ],
+    "source_type": "Original census manuscript",
+    "source_quality": "original",
+    "source_status": "Original image visually inspected 23 October 2026",
+    "status": "Household identity strongly supported; Irish birthplace and age recorded, exact birth date and parents unknown",
+    "note": "The original 1860 census, Richland Township, Belmont County, Ohio, page 90, dwelling 626/family 634, lines 26–28, records John Glassga, male, 86, born Ireland, personal estate $150; Elizabeth, 61, born Maryland; and Daniel E, 24, farmer, born Ohio. The enumeration heading is dated 7 July 1860. This is the household cited by the existing profile through FamilySearch MCPZ-F48. The distinctive Daniel E, age, place and Elizabeth identify the maintained Ohio family. The schedule has no relationship column: it does not itself state that Daniel is John’s son or name John’s parents. The East Richland Cemetery photograph shows John Glasgow, died Jan. 8, 1864, in his 92nd year. This implies about 1772–1773, whereas the census age implies about 1773–1774. The weathered inscription and reported ages do not establish an exact birthday. Find a Grave’s typed fields instead give 26 November 1784 and Bathgate; its own narrative says 92, exposing an internal conflict. Findmypast’s Wiston and Roberton transcript, OPR 660/1, item 1, gives John Glasgow born 26 November 1784, baptised 30 November, father James Glasgow, residence transcribed “?Shield”; no mother is supplied. Its exact birthday matches the modern Ohio fields, but that precision is not independent identity evidence: the original Ohio census and monument indicate a man roughly a decade older, and the census says Ireland. The source of the typed birthday and Bathgate place has not been established. Prefer the Irish adult evidence and do not attach James or Peter Glasgow. The Wiston child’s later identity remains unresolved; this review does not assign that record to the Canongate man Glasgow-1460 either.",
+    "reviewed_on": "2026-10-23",
+    "provenance": "research/ancestry-connections/ohio-john-origin-review-2026-10-23.json",
+    "publish_to_record_index": true,
+    "profiles": {
+      "Glasgow-2600": {
+        "role": "Named household member; age 86 and Ireland birthplace recorded"
+      }
+    }
+  },
+  {
+    "record_id": "ohio-john-glasgow-east-richland-monument-1864",
+    "person": "John Glasgow",
+    "association": "Death 8 January 1864, in his 92nd year; typed memorial birth conflicts with inscription",
+    "date": "8 January 1864",
+    "year": 1864,
+    "place": "East Richland Cemetery, Richland Township, Belmont County, Ohio, United States",
+    "country": "united_states",
+    "record_type": "Monument inscription",
+    "record_category": "Deaths and burials",
+    "source_title": "John Glasgow, East Richland Cemetery; Find a Grave memorial143055352, inscribed-face photograph by MelissaMae,11May2018",
+    "source_url": "https://www.findagrave.com/memorial/143055352/john-glasgow",
+    "source_urls": [
+      "https://www.findagrave.com/memorial/143055352/john-glasgow",
+      "https://images.findagrave.com/photos/2018/130/143055352_d589b586-8c38-4a35-b84f-f4f832903ea8.jpeg"
+    ],
+    "source_type": "Photograph of original monument; modern memorial fields separately assessed",
+    "source_quality": "original",
+    "source_status": "Inscribed-face photograph visually inspected 23 October 2026; modern typed birth fields conflict",
+    "status": "Death and reported age read from monument; exact birth and Scottish origin not established",
+    "note": "The East Richland Cemetery photograph shows John Glasgow, died Jan. 8, 1864, in his 92nd year. This implies about 1772–1773, whereas the census age implies about 1773–1774. The weathered inscription and reported ages do not establish an exact birthday. Find a Grave’s typed fields instead give 26 November 1784 and Bathgate; its own narrative says 92, exposing an internal conflict. Findmypast’s Wiston and Roberton transcript, OPR 660/1, item 1, gives John Glasgow born 26 November 1784, baptised 30 November, father James Glasgow, residence transcribed “?Shield”; no mother is supplied. Its exact birthday matches the modern Ohio fields, but that precision is not independent identity evidence: the original Ohio census and monument indicate a man roughly a decade older, and the census says Ireland. The source of the typed birthday and Bathgate place has not been established. Prefer the Irish adult evidence and do not attach James or Peter Glasgow. The Wiston child’s later identity remains unresolved; this review does not assign that record to the Canongate man Glasgow-1460 either.",
+    "reviewed_on": "2026-10-23",
+    "provenance": "research/ancestry-connections/ohio-john-origin-review-2026-10-23.json",
+    "publish_to_record_index": true,
+    "profiles": {
+      "Glasgow-2600": {
+        "role": "Named deceased; reported age conflicts with typed memorial birth"
+      }
+    }
   }
 ]

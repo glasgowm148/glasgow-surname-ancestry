@@ -1,0 +1,74 @@
+{
+  "reviewed": "2026-10-23",
+  "subject": "Glasgow-2600",
+  "record_ids": [
+    "ohio-john-glasgow-richland-census-1860",
+    "ohio-john-glasgow-east-richland-monument-1864"
+  ],
+  "reading": "The original 1860 census, Richland Township, Belmont County, Ohio, page 90, dwelling 626/family 634, lines 26–28, records John Glassga, male, 86, born Ireland, personal estate $150; Elizabeth, 61, born Maryland; and Daniel E, 24, farmer, born Ohio. The enumeration heading is dated 7 July 1860. This is the household cited by the existing profile through FamilySearch MCPZ-F48. The distinctive Daniel E, age, place and Elizabeth identify the maintained Ohio family. The schedule has no relationship column: it does not itself state that Daniel is John’s son or name John’s parents.",
+  "monument_reading": "The East Richland Cemetery photograph shows John Glasgow, died Jan. 8, 1864, in his 92nd year. This implies about 1772–1773, whereas the census age implies about 1773–1774. The weathered inscription and reported ages do not establish an exact birthday. Find a Grave’s typed fields instead give 26 November 1784 and Bathgate; its own narrative says 92, exposing an internal conflict.",
+  "scottish_comparison": "Findmypast’s Wiston and Roberton transcript, OPR 660/1, item 1, gives John Glasgow born 26 November 1784, baptised 30 November, father James Glasgow, residence transcribed “?Shield”; no mother is supplied. Its exact birthday matches the modern Ohio fields, but that precision is not independent identity evidence: the original Ohio census and monument indicate a man roughly a decade older, and the census says Ireland. The source of the typed birthday and Bathgate place has not been established. Prefer the Irish adult evidence and do not attach James or Peter Glasgow. The Wiston child’s later identity remains unresolved; this review does not assign that record to the Canongate man Glasgow-1460 either.",
+  "next_test": "Find the 1850 and earlier Ohio census/naturalisation or church evidence for an Irish birthplace, arrival date or named relative. Trace the provenance of the memorial’s 1784/Bathgate fields. Resolve the conflicting ages before assigning a precise birth date; seek a parent identifier for this older Irish-born man rather than repeating the incompatible Scottish birthday match.",
+  "private_evidence_hashes": {
+    "USC_1860_005170527_00095.jpg": {
+      "sha256": "1dde936276f52f160298503f10304097f021935bea4c7fb1d52a4b9d7b94b6eb",
+      "bytes": 1181434,
+      "published": false
+    },
+    "143055352_d589b586-8c38-4a35-b84f-f4f832903ea8.jpeg": {
+      "sha256": "70deb473d075492c7d85de417ecbeaa1b48fc4961014f0a27157fc17391982bb",
+      "bytes": 4204371,
+      "published": false
+    }
+  },
+  "prior_vitals": {
+    "birth": {
+      "date": "c. 1784-11-26",
+      "place": "Bathgate, Linlithgowshire, Scotland",
+      "status": "estimated"
+    },
+    "death": {
+      "date": "1864-01-08",
+      "place": "Belmont, Ohio, United States",
+      "status": "exact"
+    }
+  },
+  "birth_working_estimate": 1774,
+  "birth_country_preferred": "Ireland",
+  "father_links_added": 0,
+  "branches_joined": 0,
+  "relationship_ratings_changed": 0,
+  "original_parish_register_inspected": false,
+  "verification": {
+    "all_historical_father_fields_unchanged": 1798,
+    "documentary_connectors_unchanged": 2,
+    "three_tree_models_agree": true,
+    "held_competing_father_cases_unchanged": [
+      "Glasgow-2908",
+      "Glasgow-867",
+      "Glasgow-951"
+    ],
+    "all_cohort_metrics_unchanged": true,
+    "history_preserved": true,
+    "individual_findings_unchanged": true,
+    "full_compact_origin_and_update_filter_agree": true,
+    "new_pending_profile_count": 1,
+    "source_categories_and_quality_agree": true,
+    "source_document_ids": [
+      "s-09aeb52d29e61736",
+      "s-2755eba2915d3e62"
+    ],
+    "complete_draft_citations_preserved": true,
+    "reviewed_origin_visible": true,
+    "imported_birth_preserved": true,
+    "focused_tests_passed": 22,
+    "standard_analytics_verified": true,
+    "stale_asset_references": 0,
+    "asset_only_version_changes_verified": 24253,
+    "release_counts_consistent": true,
+    "family_summary_retains_derived_record_places": true,
+    "browser_biography_and_family_summary_verified": true,
+    "all_other_tree_vital_display_fields_unchanged": true,
+    "tree_projection_code_commit": "881c23c8723"
+  }
+}

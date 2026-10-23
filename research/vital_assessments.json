@@ -628,6 +628,41 @@
           "death_location": "estimated"
         }
       }
+    },
+    {
+      "id": "ohio-john-2600-irish-origin-20261023",
+      "subject": "Glasgow-2600",
+      "status": "approved",
+      "reviewed": "2026-10-23",
+      "basis": "The original 1860 census, Richland Township, Belmont County, Ohio, page 90, dwelling 626/family 634, lines 26–28, records John Glassga, male, 86, born Ireland, personal estate $150; Elizabeth, 61, born Maryland; and Daniel E, 24, farmer, born Ohio. The enumeration heading is dated 7 July 1860. This is the household cited by the existing profile through FamilySearch MCPZ-F48. The distinctive Daniel E, age, place and Elizabeth identify the maintained Ohio family. The schedule has no relationship column: it does not itself state that Daniel is John’s son or name John’s parents. The East Richland Cemetery photograph shows John Glasgow, died Jan. 8, 1864, in his 92nd year. This implies about 1772–1773, whereas the census age implies about 1773–1774. The weathered inscription and reported ages do not establish an exact birthday. Find a Grave’s typed fields instead give 26 November 1784 and Bathgate; its own narrative says 92, exposing an internal conflict.",
+      "source_url": "https://search.findmypast.co.uk/record?id=USC%2F1860%2F005170527%2F00095&parentid=USC%2F1860%2F0000708706126",
+      "summary": "John’s preferred working origin is Ireland, born about 1774, from the inspected 1860 census. His monument implies a slightly earlier birth about 1772–1773. The former reported 26 November 1784, Bathgate origin is retained as a conflicting modern claim, not adopted as a Scottish childhood identification. His father remains unknown.",
+      "vitals": {
+        "birth": {
+          "date": "1774",
+          "display_date": "About 1774 (1860 census); monument implies about 1772–1773",
+          "place": "Ireland",
+          "status": "estimated",
+          "country": "ireland",
+          "source_url": "https://search.findmypast.co.uk/record?id=USC%2F1860%2F005170527%2F00095&parentid=USC%2F1860%2F0000708706126",
+          "note": "Age 86 and Ireland in the original 1860 household; not a recorded exact birth. Monument age is slightly earlier. Modern 1784/Bathgate fields conflict and remain in the imported comparison.",
+          "qualifier": "Working estimate from census age; exact birthday and Irish locality unknown."
+        }
+      },
+      "catalogue_projection": {
+        "birth": "About 1774 (census age; monument about 1772–1773)",
+        "birth_note": "Former 26 November 1784/Bathgate fields conflict with original adult evidence; see biography.",
+        "birth_year": 1774,
+        "birth_location": "Ireland",
+        "birth_location_note": "Recorded in the 1860 census; county and parish unknown.",
+        "field_statuses": {
+          "birth": "estimated",
+          "birth_location": "probable",
+          "death": "exact",
+          "death_location": "exact"
+        }
+      },
+      "project_tree_vitals": true
     }
   ]
 }

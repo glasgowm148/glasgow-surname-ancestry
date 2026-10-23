@@ -53217,6 +53217,38 @@
         "research/Glasgow-3305/findings.md",
         "research/canonical_records.json"
       ]
+    },
+    {
+      "id": "ohio-john-irish-origin-20261023",
+      "found_on": "2026-10-23",
+      "kind": "vital",
+      "finding": "John Glasgow of Richland, Ohio, is 86 and Ireland-born in the original 1860 census. His monument records his death in 1864 in his 92nd year. These adult records contradict the modern 1784/Bathgate birth identification.",
+      "status": "qualified",
+      "qualification": "Working birth about 1774 from census age; monument implies about 1772–1773. Exact birthday, Irish locality and parents remain unknown. No father attachment or confidence increase is counted.",
+      "people": [
+        {
+          "id": "Glasgow-2600",
+          "name": "John Glasgow",
+          "role": "Ohio household and monument subject",
+          "url": "/people/glasgow-2600.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "1860 census, Richland Township, p.90, dwelling626/family634, lines26–28; original inspected",
+          "url": "https://search.findmypast.co.uk/record?id=USC%2F1860%2F005170527%2F00095&parentid=USC%2F1860%2F0000708706126"
+        },
+        {
+          "title": "East Richland Cemetery, John Glasgow monument; inscribed face inspected",
+          "url": "https://www.findagrave.com/memorial/143055352/john-glasgow"
+        }
+      ],
+      "detail_url": "/people/glasgow-2600.html#research-findings",
+      "provenance": [
+        "research/ancestry-connections/ohio-john-origin-review-2026-10-23.json",
+        "research/Glasgow-2600/findings.md",
+        "research/canonical_records.json"
+      ]
     }
   ]
 }
