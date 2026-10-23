@@ -69,6 +69,8 @@ class CatalogueRenderBudgetTests(unittest.TestCase):
             queue.write_text('{}')
             findings = [{'profile_id': 'Example-1', 'sections': []}]
             events = []
+            evidence = {}
+            updates = {}
 
             def final_repair(profile_ids):
                 events.append('repair')
@@ -80,8 +82,8 @@ class CatalogueRenderBudgetTests(unittest.TestCase):
 
             with patch.object(sync, 'ROOT', root), patch.object(sync, 'WEB', web), \
                  patch.object(sync.catalogue, 'PROFILE_UPDATE_QUEUE', queue), \
-                 patch.object(sync.catalogue, '_load_wikitree_evidence', return_value={}), \
-                 patch.object(sync.catalogue, '_load_profile_updates', return_value={}), \
+                 patch.object(sync.catalogue, '_load_wikitree_evidence', return_value=evidence), \
+                 patch.object(sync.catalogue, '_load_profile_updates', return_value=updates) as load_updates, \
                  patch.object(sync, 'from_sources'), \
                  patch.object(sync, 'completed_comparisons', return_value={}), \
                  patch.object(sync, 'public_findings', return_value=findings), \
@@ -92,11 +94,17 @@ class CatalogueRenderBudgetTests(unittest.TestCase):
                  patch.dict(sys.modules, {'repair_person_hierarchy': sync.hierarchy}), \
                  patch('tools.catalogue_search_index.refresh'), \
                  patch('tools.genealogy.batch_complete.refresh_after_batch', return_value=0), \
-                 patch('tools.check_research_publication.main', return_value=0), \
+                 patch('tools.check_research_publication.main', return_value=0) as publication, \
                  patch.object(sys, 'argv', ['sync_catalogue_research.py', 'Example-1', '--write']):
                 with contextlib.redirect_stdout(io.StringIO()):
                     self.assertEqual(sync._run(), 0)
             repair.assert_called_once_with(['Example-1'])
+            report = load_updates.call_args.kwargs['report']
+            self.assertIsInstance(report, list)
+            self.assertIs(load_updates.call_args.args[0], evidence)
+            self.assertIs(publication.call_args.kwargs['wikitree_evidence'], evidence)
+            self.assertIs(publication.call_args.kwargs['profile_updates'], updates)
+            self.assertIs(publication.call_args.kwargs['profile_update_report'], report)
             render.assert_called_once_with('Example-1')
             self.assertEqual(events, ['repair'])
             self.assertIn('New family', html.read_text())

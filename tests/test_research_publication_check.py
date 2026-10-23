@@ -188,6 +188,28 @@ class PublicationCheckTest(unittest.TestCase):
         self.assertEqual(["Glasgow-7"], [i.subject for i in closed])
         self.assertEqual("info", closed[0].level)
 
+    def test_preloaded_models_preserve_queue_diagnostics_without_reloading(self):
+        self.tree.findings("Glasgow-1", CONCLUSION)
+        self.tree.write("surname-research/to-update.md", "# WikiTree work queue\n\n"
+                        "## Review — 6 October 2026\n\n"
+                        "- [[Glasgow-1]] — Add the 1841 census entry.\n\n")
+        self.tree.write("data/wikitree/profile-update-queue.json", json.dumps({
+            "include_open_register": True, "completed_live_profiles": ["Glasgow-7"],
+            "entries": {"Glasgow-7": {"summary": "Old amendment.", "manual_update": True}}}))
+        evidence = {"profiles": {}}
+        expected = self.run_check(evidence=evidence)
+        report = []
+        with check.builder_paths(self.tree.root):
+            updates = catalog._load_profile_updates(evidence, report=report)
+        with patch.object(catalog, '_load_wikitree_evidence', side_effect=AssertionError('evidence reloaded')), \
+             patch.object(catalog, '_load_profile_updates', side_effect=AssertionError('updates reloaded')):
+            actual = check.run(self.tree.root, wikitree_evidence=evidence,
+                               profile_updates=updates, profile_update_report=report)
+        signature = lambda checker: [(i.code, i.subject, i.key, i.message) for i in checker.items]
+        self.assertEqual(signature(expected), signature(actual))
+        self.assertIn("QUEUE_ENTRY_CLOSED", self.codes(actual))
+        self.assertIn("REGISTER_ENTRY_DROPPED", self.codes(actual))
+
     def test_id_limits_the_check_to_named_profiles(self):
         self.tree.findings("Glasgow-1", "Stray note above the headings that never reaches the page at all.\n\n" + CONCLUSION)
         self.tree.findings("Glasgow-2", "## Source findings\n\n- A record.\n")

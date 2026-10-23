@@ -327,7 +327,9 @@ def _load_json(path: Path, default):
 
 class Checker:
     def __init__(self, root: Path = ROOT, ids: list[str] | None = None, site: bool = True,
-                 wikitree_evidence: dict | None = None):
+                 wikitree_evidence: dict | None = None,
+                 profile_updates: dict | None = None,
+                 profile_update_report: list[dict] | None = None):
         self.root = Path(root).resolve()
         self.research = self.root / "research"
         self.web = self.root / "www"
@@ -340,6 +342,8 @@ class Checker:
                        if entry.get("profile_id") in ids and key not in ids}
             self.scope = set(ids) | aliases
         self.wikitree_evidence = wikitree_evidence
+        self.profile_updates = profile_updates
+        self.profile_update_report = profile_update_report
         index_path = self.web / "data/people-index.json"
         self.site = bool(site and index_path.exists())
         self.slug_for: dict[str, str] = {}
@@ -637,14 +641,19 @@ class Checker:
             return
         evidence = self.evidence
         report: list[dict] = []
-        supports_report = "report" in inspect.signature(catalog._load_profile_updates).parameters
-        try:
-            updates = (catalog._load_profile_updates(evidence, report=report) if supports_report
-                       else catalog._load_profile_updates(evidence))
-        except ValueError as error:
-            self.items.append(Item("QUEUE_ENTRY_DROPPED", "queue", _digest(str(error)),
-                                   f"the update loader stopped: {error}"))
-            updates = {}
+        preloaded = self.profile_updates is not None and self.profile_update_report is not None
+        supports_report = preloaded or "report" in inspect.signature(catalog._load_profile_updates).parameters
+        if preloaded:
+            updates = self.profile_updates
+            report = self.profile_update_report
+        else:
+            try:
+                updates = (catalog._load_profile_updates(evidence, report=report) if supports_report
+                           else catalog._load_profile_updates(evidence))
+            except ValueError as error:
+                self.items.append(Item("QUEUE_ENTRY_DROPPED", "queue", _digest(str(error)),
+                                       f"the update loader stopped: {error}"))
+                updates = {}
         accounted_lines = set()
         for entry in report:
             if entry.get("line"):
@@ -799,12 +808,17 @@ def summary_text(checker: Checker, new: list[Item], resolved: dict[str, set[str]
 
 
 def run(root: Path = ROOT, ids: list[str] | None = None, site: bool = True,
-        wikitree_evidence: dict | None = None) -> Checker:
+        wikitree_evidence: dict | None = None,
+        profile_updates: dict | None = None,
+        profile_update_report: list[dict] | None = None) -> Checker:
     with builder_paths(root):
-        return Checker(root, ids, site, wikitree_evidence).run()
+        return Checker(root, ids, site, wikitree_evidence,
+                       profile_updates, profile_update_report).run()
 
 
-def main(argv: list[str] | None = None) -> int:
+def main(argv: list[str] | None = None, *, wikitree_evidence: dict | None = None,
+         profile_updates: dict | None = None,
+         profile_update_report: list[dict] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     parser.add_argument("--id", nargs="+", dest="ids", metavar="ID", help="check only these profiles or folders")
     parser.add_argument("--json", metavar="FILE", help="write the full report as JSON ('-' for stdout)")
@@ -828,7 +842,10 @@ def main(argv: list[str] | None = None) -> int:
         print(f"No research/ folder under {root}.", file=sys.stderr)
         return 2
     started = time.monotonic()
-    checker = run(root, args.ids, site=not args.no_site)
+    checker = run(root, args.ids, site=not args.no_site,
+                  wikitree_evidence=wikitree_evidence,
+                  profile_updates=profile_updates,
+                  profile_update_report=profile_update_report)
     elapsed = time.monotonic() - started
     baseline_path = Path(args.baseline) if args.baseline else None
     if baseline_path and not baseline_path.is_absolute():

@@ -450,7 +450,8 @@ def _run():
     args = parser.parse_args()
     evidence = catalogue._load_wikitree_evidence()
     policy = from_sources(evidence)
-    updates = catalogue._load_profile_updates(evidence)
+    update_report = []
+    updates = catalogue._load_profile_updates(evidence, report=update_report)
     queue_payload = read_json(catalogue.PROFILE_UPDATE_QUEUE)
     comparisons = completed_comparisons(evidence, queue_payload)
     rows = read_json(WEB / "data/catalogue-search-index.json")
@@ -580,7 +581,10 @@ def _run():
     if args.profiles:
         check_args += ["--id", *args.profiles]
     with contextlib.redirect_stdout(sys.stderr):
-        publication_exit = check_publication(check_args)
+        publication_exit = check_publication(
+            check_args, wikitree_evidence=evidence,
+            profile_updates=updates, profile_update_report=update_report,
+        )
     return int(bool(missing or ((report or branch_changes) and not args.write) or index_exit or publication_exit))
 
 
