@@ -34,9 +34,12 @@ def _resolve_approved(dossier, assessments):
     approved = [a for a in assessments if a.get('subject', '').casefold() == dossier['id'].casefold()
                 and a.get('status') == 'approved']
     approved.sort(key=lambda a: (a.get('reviewed', ''), a.get('id', '')))
-    if not approved and 'imported' not in dossier:
-        return deepcopy(dossier)
     result = deepcopy(dossier)
+    prior_identity = result.pop('identity_review', None)
+    if prior_identity:
+        result['name'] = prior_identity['original_name']
+    if not approved and 'imported' not in dossier:
+        return result
     snapshot = result.get('imported')
     if snapshot is None:
         snapshot = {'provenance': deepcopy(dossier.get('provenance', {})),
@@ -58,6 +61,13 @@ def _resolve_approved(dossier, assessments):
                       'source': '/assets/research/assessments.json',
                       'reviewed': assessment.get('reviewed'),
                       'basis': assessment.get('basis')}
+        if 'identity' in assessment:
+            identity = assessment['identity']
+            if set(identity) != {'name'} or not isinstance(identity['name'], str) or not identity['name'].strip():
+                raise ValueError('Reviewed identity requires one nonempty display name')
+            review = result.setdefault('identity_review', {'original_name': result.get('name'), 'provenance': []})
+            review['provenance'].append(deepcopy(provenance))
+            result['name'] = identity['name'].strip()
         for kind, value in assessment.get('vitals', {}).items():
             # A reviewed vital is a complete assertion, not a blend with stale import fields.
             result.setdefault('vitals', {})[kind] = deepcopy(value)
@@ -298,6 +308,8 @@ def resolve_index_row(row, reviewed):
     row['imported'] = deepcopy(row)
     row['data_view'] = 'reviewed'
     row['assessment_provenance'] = [a['id'] for a in dossier['research_assessments']]
+    if dossier.get('identity_review'):
+        row['name'] = dossier['name']
     for assessment in dossier['research_assessments']:
         for kind, vital in assessment.get('vitals', {}).items():
             row[kind + '_place'] = vital.get('place')
@@ -320,7 +332,7 @@ def resolve_index_row(row, reviewed):
 
 def project_catalogue_vitals(rows, assessments):
     """Project explicitly approved date/location fields; retain reversible imports."""
-    allowed = {'birth','birth_note','birth_year','birth_location','birth_location_note',
+    allowed = {'name','birth','birth_note','birth_year','birth_location','birth_location_note',
                'death','death_year','death_location','date_years','regions','locations',
                'location_aliases','location_groups','estimated_location','missing_vital_location','field_statuses'}
     for row in rows:
@@ -534,6 +546,8 @@ def publish(root=ROOT / 'www'):
         if dossier:
             network['imported'] = deepcopy(network)
             network['data_view'] = 'reviewed'
+            if dossier.get('identity_review'):
+                network['person']['name'] = dossier['name']
             network['relationships'] = [deepcopy(r) for rows in dossier['relationships'].values() for r in rows]
             network['vitals'] = deepcopy(dossier.get('vitals', {}))
             network['assessment_provenance'] = [a['id'] for a in dossier['research_assessments']]

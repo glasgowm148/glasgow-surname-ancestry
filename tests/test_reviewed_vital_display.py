@@ -6,6 +6,20 @@ from tools.reviewed_vital_display import apply, refresh_family_summaries
 
 
 class ReviewedVitalDisplayTests(unittest.TestCase):
+    def test_explicit_name_review_preserves_dates_and_parents(self):
+        with TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root/'assets/research').mkdir(parents=True); (root/'people').mkdir()
+            a = dict(subject='Example-1', status='approved', project_tree_display=True,
+                     tree_projection=dict(name='Recorded Person', first='Recorded', surname='Person'))
+            (root/'assets/research/assessments.json').write_text(json.dumps({'assessments': [a]}))
+            (root/'people/example-1.json').write_text(json.dumps(dict(name='Recorded Person', research_assessments=[a])))
+            person = dict(id='Example-1', name='Wrong label', born=1700, parents=[{'id':'Example-2'}])
+            apply(dict(people=[person], meta={}), root, lambda place:'other', {})
+            self.assertEqual('Recorded Person', person['name'])
+            self.assertEqual(1700, person['born'])
+            self.assertEqual([{'id':'Example-2'}], person['parents'])
+
     def test_family_summary_and_packed_registry_follow_review(self):
         with TemporaryDirectory() as tmp:
             root=Path(tmp)

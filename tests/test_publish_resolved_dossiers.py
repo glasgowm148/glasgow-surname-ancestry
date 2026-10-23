@@ -11,6 +11,22 @@ spec.loader.exec_module(module)
 
 
 class ResolvedDossierTests(unittest.TestCase):
+    def test_reviewed_name_replays_and_restores_without_changing_family(self):
+        original = {'id': 'Person-1', 'name': 'Wrong record label', 'relationships': {'parents': []}, 'claims': []}
+        review = {'id': 'name-review', 'subject': 'Person-1', 'status': 'approved',
+                  'identity': {'name': 'Recorded Person'}, 'catalogue_projection': {'name': 'Recorded Person'}}
+        resolved = module.resolve(original, [review], [])
+        self.assertEqual('Recorded Person', resolved['name'])
+        self.assertEqual('Wrong record label', resolved['identity_review']['original_name'])
+        self.assertEqual(resolved, module.resolve(resolved, [review], []))
+        self.assertEqual('Wrong record label', module.resolve(resolved, [], [])['name'])
+        self.assertEqual(original['relationships'], resolved['relationships'])
+        rows = [{'id': 'person-1', 'name': original['name']}]
+        module.project_catalogue_vitals(rows, [review])
+        self.assertEqual('Recorded Person', rows[0]['name'])
+        module.project_catalogue_vitals(rows, [])
+        self.assertEqual(original['name'], rows[0]['name'])
+
     def test_shared_review_skips_incomplete_retired_redirect(self):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)

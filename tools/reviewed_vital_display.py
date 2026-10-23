@@ -1,4 +1,4 @@
-"""Project explicitly approved vital displays without changing family links."""
+"""Project explicitly approved person displays without changing family links."""
 from copy import deepcopy
 import json
 import re
@@ -11,8 +11,8 @@ FIELDS = ('born', 'died', 'year', 'birthDisplay', 'deathDisplay', 'birthplace',
 def apply(model, site_root, location_for, locations):
     path = site_root / 'assets/research/assessments.json'
     assessments = json.loads(path.read_text()).get('assessments', []) if path.exists() else []
-    approved = {a['subject'] for a in assessments
-                if a.get('status') == 'approved' and a.get('project_tree_vitals') is True}
+    selected = lambda a: a.get('status') == 'approved' and (a.get('project_tree_vitals') is True or a.get('project_tree_display') is True)
+    approved = {a['subject'] for a in assessments if selected(a)}
     displays = {}
     for person in model['people']:
         if person['id'] not in approved:
@@ -22,6 +22,15 @@ def apply(model, site_root, location_for, locations):
                  if a.get('status') == 'approved' and a.get('project_tree_vitals') is True
                  for kind in a.get('vitals', {})}
         fields = {}
+        for assessment in dossier.get('research_assessments', []):
+            if not selected(assessment):
+                continue
+            projection = assessment.get('tree_projection', {})
+            if set(projection) - {'name', 'first', 'surname', 'currentSurname'} or any(not isinstance(v, str) or not v.strip() for v in projection.values()):
+                raise ValueError('Reviewed tree identity contains unsupported or empty fields')
+            if 'name' in projection and projection['name'] != dossier.get('name'):
+                raise ValueError('Reviewed tree identity must match the resolved person name')
+            fields.update(projection)
         for kind in kinds & {'birth', 'death'}:
             vital = dossier['vitals'][kind]
             date = str(vital.get('date') or '')
@@ -60,6 +69,8 @@ def refresh_family_summaries(model, site_root):
         row = people.get(ident.lower())
         if not row:
             continue
+        if 'name' in fields:
+            row['name'] = fields['name']
         if 'born' in fields:
             row.update(birth=fields['birthDisplay'],birthPlace=fields['birthplace'],
                        country=fields['birthLocationRegion'], **{'from':fields['born']})
