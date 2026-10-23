@@ -53,3 +53,19 @@ Progress must distinguish new genealogical joins, confidence changes and initial
 - Preserve saved measurements and prior assessments. Label net-change baselines and changing review coverage honestly; indexing or publication reconciliation must not appear as a new genealogical connection.
 
 Commit each verified coherent batch before queued follow-up work. Stage only owned changes; preserve unrelated work in shared files. Batch Git reads/writes when many generated cache references change. Do not push. Before handoff, reconcile owned resources again, stop finished renderers/jobs, and report precisely what was released without claiming a hard memory cap.
+
+## Announce findings in the chat
+
+Once a substantive relationship finding is checked and saved, announce it in a separate, prominent blockquote card so it remains visible when the owner scrolls back. Use a short heading such as **New father proposal**, **Father confidence improved**, or **Confidence corrected**, with a restrained coloured icon. Give the named child and father, exact before/after percentages and resulting grade, one sentence explaining the decisive evidence, and checked biography and WikiTree links. Use one card per relationship, or clearly separated rows for a closely related sibling batch. Include decreases and within-grade changes; exclude unchanged reviews, bulk first ratings, indexing and UI work.
+
+For example:
+
+> 🟢 **Father confidence improved**
+>
+> **[Child](local-biography-URL) → [Father](father-WikiTree-URL): 71% → 95% · Confident**
+>
+> The baptism names both parents and matches the established household.
+>
+> [Biography](local-biography-URL) · [Child on WikiTree](child-WikiTree-URL)
+
+For a previously absent father, write **Unknown father → 82% · Probable**, not an invented 0%. For an unmeasured prior grade, retain that actual grade without inventing a percentage. Label a replacement with both fathers. Reserve “new father” for an actual new/replacement attachment; a stronger assessment of an attached father is a confidence improvement. If site synchronization is not finished, say so in the card and complete the normal publication batch. Announcements do not replace the maintained assessment history, latest findings or progress log, and must not imply a live WikiTree save.
