@@ -1061,9 +1061,18 @@
       "notes": "The Kilmarnock birth/baptism and Hugh Glasgow/Margaret McGlashan parents conflict with all candidates."
     },
     "fmp-glasgow-8534eaed42d0": {
-      "outcome": "new_person",
-      "creation_status": "READY",
-      "notes": "The Irvine birth/baptism and James Glasgow/Helen Nasmith parents conflict with Glasgow-3314."
+      "outcome": "existing_profile",
+      "creation_status": "",
+      "notes": "The record-only account and Glasgow-4116 cite the same retained Findmypast record: SCOT/OPR/BAP/3575071. The existing profile already represents this documentary subject. Retire the duplicate catalogue person and creation suggestion; preserve the accepted profile, sources, dates and relationship assessments. This is catalogue reconciliation, not a new record or parentage finding.",
+      "prior_decision": {
+        "outcome": "new_person",
+        "creation_status": "READY",
+        "notes": "The Irvine birth/baptism and James Glasgow/Helen Nasmith parents conflict with Glasgow-3314."
+      },
+      "profile_id": "Glasgow-4116",
+      "queue_status": "CLOSED",
+      "substantive_amendment": false,
+      "reviewed_on": "2026-10-24"
     },
     "fmp-glasgow-96dde749c693": {
       "outcome": "new_person",
@@ -1151,9 +1160,18 @@
       "notes": "Exact surgeon Robert Glasgow/Margaret Allan household, Puddockholm residence and parish identify Glasgow-3878. The FMP 21 January 1744 date conflicts with the sourced 21 August 1743 original-register date; two births in that interval are impossible."
     },
     "fmp-glasgow-cd18f5e7916d": {
-      "outcome": "new_person",
-      "creation_status": "READY",
-      "notes": "The 1738 Edrom birth and father James Glasgow conflict with all live candidates' families and places; no compatible profile remains."
+      "outcome": "existing_profile",
+      "creation_status": "",
+      "notes": "The record-only account and Glasgow-4132 cite the same retained Findmypast record: SCOT/OPR/BAP/4839748. The existing profile already represents this documentary subject. Retire the duplicate catalogue person and creation suggestion; preserve the accepted profile, sources, dates and relationship assessments. This is catalogue reconciliation, not a new record or parentage finding.",
+      "prior_decision": {
+        "outcome": "new_person",
+        "creation_status": "READY",
+        "notes": "The 1738 Edrom birth and father James Glasgow conflict with all live candidates' families and places; no compatible profile remains."
+      },
+      "profile_id": "Glasgow-4132",
+      "queue_status": "CLOSED",
+      "substantive_amendment": false,
+      "reviewed_on": "2026-10-24"
     },
     "fmp-glasgow-f325c7334f8a": {
       "outcome": "existing_profile",

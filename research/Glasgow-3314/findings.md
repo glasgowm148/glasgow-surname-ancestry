@@ -5,6 +5,8 @@
 
 Father reviewed22October2026: Glasgow-1058 remains selected at 84% (probable). John’s 1740 Irvine transcript names George Glasgow and Margt Martin. The existing George/Margaret Martain couple has a 1728 Kilwinning marriage and 1729 child, giving a distinctive compatible parental sequence before Irvine. Complete father-profile placement84%; the 1687 George child’s identification with this adult remains an inference. Original uninspected.
 
+Date review, 24 October 2026: the current structured birth remains **28 March 1740**, as cited by the held [FamilySearch index](https://familysearch.org/ark:/61903/1:1:XTVL-9BN). The saved [Findmypast transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3574953&tab=this) instead labels **20 April 1740** as birth and **30 April 1740** as baptism for John of Irvine, son of George Glasgow and Margt Martin (OPR 595/1, item 1). The derivative dates conflict; the original register and the FamilySearch date role have not been inspected together. Do not replace the vital date or change the 84% father assessment from this comparison alone.
+
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-2b0297c00e35
 
 The transcript-validated baptism record for **John Glasgow**, 30 Apr 1740, Irvine, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.

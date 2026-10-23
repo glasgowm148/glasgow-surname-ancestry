@@ -1196,10 +1196,8 @@ READY rows have passed the distinct-person and no-compatible-profile checks; doc
 | James Glasgow | OPEN | Add 1733 Findmypast evidence (fmp-glasgow-b 741 e 434199 b); READY | [Draft](research/Glasgow-4124/1733_Scotland_unknown_James_Glasgow.md) |
 | William Glasgow | OPEN | Add 12 Jun 1733 Findmypast evidence (fmp-glasgow-033 cb 073721 c); READY | [Draft](research/Glasgow-4101/1733_Scotland_Dundonald_William_Glasgow.md) |
 | John Glasgow | OPEN | Add 10 Oct 1736 Findmypast evidence (fmp-glasgow-96 dde 749 c 693); READY | [Draft](research/Glasgow-4118/1736_Scotland_Irvine_John_Glasgow.md) |
-| John Glasgow | OPEN | Add 1738 Findmypast evidence (fmp-glasgow-cd 18 f 5 e 7916 d); READY | [Draft](research/Glasgow-4132/1738_Scotland_Edrom_John_Glasgow.md) |
 | Margaret Glasgow | OPEN | Add 31 Aug 1738 Findmypast evidence (fmp-glasgow-6 cc 997 e 45 c 40); READY | [Draft](research/Glasgow-4115/1738_Scotland_Kilmarnock_Margaret_Glasgow.md) |
 | Isabel Glasgow | OPEN | Add 26 Apr 1741 Findmypast evidence (fmp-glasgow-a 2 dbbb 6 de 106); READY | [Draft](research/Glasgow-4121/1741_Scotland_Irvine_Isabel_Glasgow.md) |
-| John Glasgow | OPEN | Add 06 Aug 1741 Findmypast evidence (fmp-glasgow-8534 eaed 42 d 0); READY | [Draft](research/Glasgow-4116/1741_Scotland_Irvine_John_Glasgow.md) |
 | Hugh Glasgow | OPEN | Add 29 Aug 1742 Findmypast evidence (fmp-glasgow-120 b 52 e 4 bd 76); READY | [Draft](research/Glasgow-4104/1742_Scotland_Kilmarnock_Hugh_Glasgow.md) |
 | Allan Glasgow | CLOSED | Earlier creation READY withdrawn 23 October 2026: Findmypast `SCOT/OPR/BAP/3575202` already supports existing Glasgow-4110; retain the separate outstanding father-field amendment. | [Findings](../research/Glasgow-4110/findings.md) |
 | Magdalen Glasgow | OPEN | Add 29 Mar 1743 Findmypast evidence (fmp-glasgow-10 ad 472195 e 9); READY | [Draft](research/Glasgow-4103/1743_Scotland_Irvine_Magdalen_Glasgow.md) |
@@ -2715,7 +2713,7 @@ Other matched entries are supporting citations to existing children. No new pare
 | [Robert Glasgow](https://www.wikitree.com/wiki/Glasgow-1513) | OPEN | Review existing father at 98% (proved); no new father attachment. |
 | [James M Glasgow](https://www.wikitree.com/wiki/Glasgow-193) | OPEN | Review existing father at 93% (proved); no new father attachment. |
 | [William Glasgow](https://www.wikitree.com/wiki/Glasgow-2915) | OPEN | Review existing father at 24% (uncertain); no new father attachment. |
-| [John Glasgow](https://www.wikitree.com/wiki/Glasgow-3314) | OPEN | Review existing father at 84% (probable); no new father attachment. |
+| [John Glasgow](https://www.wikitree.com/wiki/Glasgow-3314) | OPEN | Review existing father at 84% (probable) and unresolved 28 March versus Findmypast 20 April birth/30 April baptism 1740; retain current vital and father pending original comparison. |
 | [Ezekiel Glasgow](https://www.wikitree.com/wiki/Glasgow-2844) | OPEN | Review existing father at 13% (uncertain); no new father attachment. |
 | [Thomas Glasgow](https://www.wikitree.com/wiki/Glasgow-1242) | OPEN | Review existing father at 98% (proved); no new father attachment. |
 | [Richard Glasgow](https://www.wikitree.com/wiki/Glasgow-1550) | OPEN | Review existing father at 16% (uncertain); no new father attachment. |

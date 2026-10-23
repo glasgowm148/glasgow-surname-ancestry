@@ -104,7 +104,7 @@ Validated person groups: **174**; WikiTree-audited groups: **174**; human overri
 | `fmp-glasgow-7a4bc21a98f0` | Robert Glasgow, 10 Jan 1716, Irvine | existing_profile | Glasgow-2474 | human_override |
 | `fmp-glasgow-7a66001e8cd6` | George Glasgow, 1724,  | free_space | surname-research/free-space-pages/Glasgow_Record_Index_Corrections_and_Unresolved_Files.md | human_override |
 | `fmp-glasgow-811253f3e78f` | James Glasgow, 06 Sep 1718, Irvine | existing_profile | Glasgow-1131 | human_override |
-| `fmp-glasgow-8534eaed42d0` | John Glasgow, 06 Aug 1741, Irvine | new_person | surname-research/new-people/1741_Scotland_Irvine_John_Glasgow.md | human_override |
+| `fmp-glasgow-8534eaed42d0` | John Glasgow | existing_profile | https://www.wikitree.com/wiki/Glasgow-4116 | reviewed exact provider record, 2026-10-24; no new amendment |
 | `fmp-glasgow-87dec04eeb63` | James Glasgow, 19 Aug 1750, Kilwinning | existing_profile | Glasgow-2469 | human_override |
 | `fmp-glasgow-89e70b29e0e1` | Robert Glasgow, 07 Jun 1747, Irvine | existing_profile | Glasgow-3315 | human_override |
 | `fmp-glasgow-8a8a5ce31a19` | John Glasgow, 1679-1688, Cavers | existing_profile | Glasgow-1498 | human_override |
@@ -156,7 +156,7 @@ Validated person groups: **174**; WikiTree-audited groups: **174**; human overri
 | `fmp-glasgow-c6811d02d484` | Bessie Glasgow, 30 Jun 1750, Covington & Thankerton | existing_profile | Glasgow-1125 | human_override |
 | `fmp-glasgow-c7dabfad5c23` | Janet Glasgow, 22 Apr 1718, Libberton | new_person | surname-research/new-people/1718_Scotland_Libberton_Janet_Glasgow.md | human_override |
 | `fmp-glasgow-cc9a54fb3b86` | James Glasgow, 7 May 1690, Edinburgh | new_person | surname-research/new-people/1690_Scotland_Edinburgh_James_Glasgow.md | human_override |
-| `fmp-glasgow-cd18f5e7916d` | John Glasgow, 1738, Edrom | new_person | surname-research/new-people/1738_Scotland_Edrom_John_Glasgow.md | human_override |
+| `fmp-glasgow-cd18f5e7916d` | John Glasgow | existing_profile | https://www.wikitree.com/wiki/Glasgow-4132 | reviewed exact provider record, 2026-10-24; no new amendment |
 | `fmp-glasgow-cdbfe8e4475a` | Hugh Glasgow, 08 Dec 1713, Irvine | existing_profile | Glasgow-1426 | human_override |
 | `fmp-glasgow-ce7a886e0868` | Agnes Glasgow, 21 Aug 1720, Libberton | existing_profile | Glasgow-4133 | human_override |
 | `fmp-glasgow-cf86ca3898e2` | Margaret Glasgow, ? Aug 1712, Kilwinning | existing_profile | Glasgow-2465 | human_override |

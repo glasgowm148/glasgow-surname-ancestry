@@ -86,7 +86,7 @@ Validated person groups: **83**; WikiTree-audited groups: **25**; human override
 | `fmp-glasgow-c608ee62fa8a` | William Glasgow, 1614, Inveresk with Musselburgh | blocked_missing_match_audit | — | none |
 | `fmp-glasgow-c75131589af7` | William Glasgow, 1614, Inveresk with Musselburgh | blocked_missing_match_audit | — | none |
 | `fmp-glasgow-cc9a54fb3b86` | James Glasgow, 7 May 1690, Edinburgh | new_person | research/Glasgow-4131/1690_Scotland_Edinburgh_James_Glasgow.md | unresolved_candidate_audit |
-| `fmp-glasgow-cd18f5e7916d` | John Glasgow, 1738, Edrom | new_person | research/Glasgow-4132/1738_Scotland_Edrom_John_Glasgow.md | unresolved_candidate_audit |
+| `fmp-glasgow-cd18f5e7916d` | John Glasgow | existing_profile | https://www.wikitree.com/wiki/Glasgow-4132 | reviewed exact provider record, 2026-10-24; no new amendment |
 | `fmp-glasgow-cd4d475c488d` | Robert Glasgow, 1627, Inveresk with Musselburgh | blocked_missing_match_audit | — | none |
 | `fmp-glasgow-cdda2a9c56ba` | Jhone Glasgow, 26 Jun 1608, Midcalder | blocked_missing_match_audit | — | none |
 | `fmp-glasgow-cf1b4a398238` | Ninian Glasgow, 27 Aug 1607, Glasgow | blocked_missing_match_audit | — | none |

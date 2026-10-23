@@ -1,0 +1,178 @@
+{
+  "reviewed_on": "2026-10-24",
+  "new_provider_records": 0,
+  "new_people": 0,
+  "catalogue_duplicates_reconciled": 2,
+  "newly_recognised_held_date_conflicts": 1,
+  "changed_vitals": 0,
+  "relationship_grade_changes": 0,
+  "cached_receipts_reused": 16,
+  "cached_subscription_locks": 3,
+  "captured_query_rows": 420,
+  "query_rows_with_dispositions": 339,
+  "contiguous_completed_query_rows": 320,
+  "query_total": 5872,
+  "captured_percent": 7.2,
+  "disposition_percent": 5.8,
+  "contiguous_completed_percent": 5.4,
+  "missing_transcripts": 81,
+  "next_step": "Resume saved page17 at R_691306812; next uncaptured search page22",
+  "capture_ledger_records": 427,
+  "catalogue_people_before": 4873,
+  "catalogue_people_after": 4871,
+  "provider_record_total_before": 5350,
+  "provider_record_total_after": 5351,
+  "unrelated_provider_records_added_during_checks": [
+    "chester-samuel-glasgow-estate-7520-1824"
+  ],
+  "source_readers_checked": 3,
+  "person_accounts_checked": 3,
+  "full_fast_hydrated_agreement": true,
+  "source_ids": {
+    "SCOT/OPR/BAP/4839748": "s-8c33f84ab089370c",
+    "SCOT/OPR/BAP/3575071": "s-c514fcf9c9573767",
+    "SCOT/OPR/BAP/3574953": "s-65b2a8301831aa28"
+  },
+  "preservation_review": {
+    "subject": "Glasgow-3314",
+    "reviewed_on": "2026-10-24",
+    "files_changed": [
+      "research/Glasgow-3314/findings.md",
+      "research/Glasgow-3314/father-confidence-2026-10-22b.wiki",
+      "research/ancestry-connections/father-coverage-preservation2-2026-10-22.json#/profiles/Glasgow-3314"
+    ],
+    "evidence": [
+      {
+        "source": "captured WikiTree biography; FamilySearch XTVL-9BN",
+        "date_claim": "28 March 1740, indexed birth-or-baptism date; exact event role not independently checked",
+        "profile_field": "BirthDate 1740-03-28, certain",
+        "path": "data/wikitree/profile-evidence.json#/profiles/Glasgow-3314"
+      },
+      {
+        "source": "saved Findmypast transcript, OPR 595/1 item 1",
+        "date_claim": "Birth 20 April 1740; baptism 30 April 1740; John Glasgow, George Glasgow/Margt Martin, Irvine",
+        "path": "research/findmypast-glasgow-audit/record-details-remaining-b.json#/records/SCOT~1OPR~1BAP~13574953",
+        "captured_at": "2026-09-03T23:36:04.266Z"
+      }
+    ],
+    "assessment": "Same names, parent pair and Irvine parish make a strong comparison, but two derivative sources conflict on the recorded birth-or-baptism date. Neither a transcription error nor two children has been proved. Retain structured 1740-03-28 pending original register and FamilySearch role review. Father Glasgow-1058 remains 84% (probable); the later Margaret Mill spouse hypothesis remains qualified.",
+    "complete_proposal_review": {
+      "previous_normalized_sha256": "cebb281249de38785d4181e7136cc346c89adffcfd08bf31dbe2af64a7dd66a7",
+      "current_captured_sha256": "32c62b0a1714752c19240866a4388b68d944bcea93133d212cfe3453bb508817",
+      "new_loader_normalized_sha256": "c332d699fa799a149a7f7d2bbda96290f6257d11a73e649c679d05151e07b105",
+      "previous_full_proposal_retained": "git HEAD full draft normalized to previous saved hash; git diff shows solely additive conflicting-dates section",
+      "captured_source_identity_retained": true,
+      "existing_references_and_children_table_retained": true,
+      "new_reference": "FMPJohn1740",
+      "validator": "_validate_profile_preservation_review passed on actual two-stage normalized/repaired draft"
+    },
+    "queue_status": {
+      "status": "OPEN",
+      "queue_file": "data/wikitree/profile-update-queue.json",
+      "draft_path": "research/Glasgow-3314/father-confidence-2026-10-22b.wiki",
+      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation2-2026-10-22.json",
+      "summary_recommendation": "Review existing father at 84% (probable) and the unresolved John-1740 date conflict: FamilySearch 28 Mar versus Findmypast birth 20 Apr/baptism 30 Apr. Keep current vital and relationship unchanged pending original OPR comparison.",
+      "queue_json_edited": false
+    },
+    "checks": [
+      "targeted exact normalization and preservation guard passed",
+      "previous proposal hash matched Git HEAD full draft",
+      "captured source-identity keys retained",
+      "git diff --check passed"
+    ],
+    "not_done": [
+      "no browser/PDF rendering",
+      "no shared queue JSON edit",
+      "no www build",
+      "no stage/commit"
+    ]
+  },
+  "coverage": "INCOMPLETE",
+  "publication": "Local website only; no deployment or live WikiTree save",
+  "publication_check": {
+    "profiles": [
+      "Glasgow-3314",
+      "Glasgow-4116",
+      "Glasgow-4132"
+    ],
+    "new_failing_items": 0,
+    "seconds": 0.6,
+    "reused_exact_sync_models": true,
+    "existing_general_notes_information": 2
+  },
+  "internal_links": {
+    "pages": 25638,
+    "references": 1350149,
+    "existing_broken_links": 7,
+    "existing_page_target_pairs": 4,
+    "new_broken_pairs": 0,
+    "missing_person_anchors_not_gated": 86,
+    "fragment_or_reader_pages_not_linked": 842
+  },
+  "resource_completion": {
+    "task_tabs_closed": 1,
+    "task_tabs_remaining": 0,
+    "personal_tabs_preserved": 3,
+    "new_browser_windows_profiles_or_processes_launched": 0,
+    "task_ui_runtime_reset": true,
+    "last_memory_free_percent": 49
+  },
+  "browser_verification": {
+    "local_person_and_source_reader_checked": true,
+    "date_conflict_and_original_source_limit_visible": true,
+    "correct_existing_subject_link": true
+  },
+  "workflow_tests": {
+    "suite": [
+      "tests.test_sync_catalogue_render_budget",
+      "tests.test_research_publication_check"
+    ],
+    "passed": 26,
+    "performance_commit": "5bfafd0aed9"
+  },
+  "queue_projection": {
+    "maintained_manifest_and_runtime_queue_summary_synchronised": true,
+    "complete_normalised_proposal_unchanged_after_summary_projection": true,
+    "normalised_proposal_sha256": "c332d699fa799a149a7f7d2bbda96290f6257d11a73e649c679d05151e07b105"
+  },
+  "asset_versions": {
+    "write_passes": 1,
+    "changed_files": 24613,
+    "initial_stale_references": 24617,
+    "transient_mismatches_during_concurrent_build": 30006,
+    "final_independent_source_files_checked": 25691,
+    "final_stale_references": 0,
+    "check_method": "Streamed every HTML/JS source, comparing each local versioned reference with the current SHA256 of its resolved asset; zero mismatches. Other research commit 936fe5bb96a landed during the earlier check."
+  },
+  "shared_workspace": {
+    "concurrent_commit_preserved": "936fe5bb96a",
+    "unrelated_record_added": "chester-samuel-glasgow-estate-7520-1824",
+    "private_staging_index": true,
+    "unrelated_staged_relationship_estimates_preserved": true
+  },
+  "scoped_source_collection_staging": {
+    "head": "936fe5bb96a8b2a6c0e086fe047da6e20ed585c4",
+    "source_entries_updated": 3,
+    "source_entries_added": 0,
+    "other_source_entries_unchanged": 16100,
+    "excluded_unrelated_new_source_ids": [],
+    "scoped_collection_pages": [
+      "www/sources/births/index.html",
+      "www/sources/births/scotland/before-1800/index.html",
+      "www/sources/births/scotland/index.html",
+      "www/sources/births/scotland/undated/index.html",
+      "www/sources/church/index.html",
+      "www/sources/church/scotland/before-1800/index.html",
+      "www/sources/church/scotland/index.html",
+      "www/sources/church/scotland/undated/index.html",
+      "www/sources/index.html"
+    ],
+    "working_source_data_preserved": true,
+    "rendered_to_index_only": true
+  },
+  "prior_capture_integrity": {
+    "literal_receipts_unchanged": 427,
+    "prior_search_pages_unchanged": 16,
+    "historical_reviews_unchanged": true
+  }
+}

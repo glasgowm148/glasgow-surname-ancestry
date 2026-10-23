@@ -624,7 +624,7 @@ Source scrape/transcript audit remains **INCOMPLETE**; this section covers only 
 | `fmp-glasgow-96dde749c693` | John Glasgow, 10 Oct 1736, Irvine | `SCOT/OPR/BAP/3574593` | new_person: research/Glasgow-4118/1736_Scotland_Irvine_John_Glasgow.md |
 | `fmp-glasgow-11135d44133e` | Elizabeth Glasgow, 24 Jul 1737, Irvine | `SCOT/OPR/BAP/3574665` | existing_profile: Glasgow-3316 |
 | `fmp-glasgow-109802ee063b` | Janet Glasgow, 11 Jul 1738, Irvine | `SCOT/OPR/BAP/3574750` | existing_profile: Glasgow-3423 |
-| `fmp-glasgow-cd18f5e7916d` | John Glasgow, 1738, Edrom | `SCOT/OPR/BAP/4839748` | new_person: research/Glasgow-4132/1738_Scotland_Edrom_John_Glasgow.md |
+| `fmp-glasgow-cd18f5e7916d` | John Glasgow, 1738, Edrom | `SCOT/OPR/BAP/4839748` | existing_profile: [Glasgow-4132](https://www.wikitree.com/wiki/Glasgow-4132); reconciled 2026-10-24, no new amendment |
 | `fmp-glasgow-ee0cb4e3aaad` | John Glasgow, 05 Oct 1738, Irvine | `SCOT/OPR/BAP/3574782` | existing_profile: Glasgow-3478 |
 | `fmp-glasgow-6cc997e45c40` | Margaret Glasgow, 31 Aug 1738, Kilmarnock | `SCOT/OPR/BAP/3599918` | new_person: research/Glasgow-4115/1738_Scotland_Kilmarnock_Margaret_Glasgow.md |
 | `fmp-glasgow-16f49c884ed2` | Robt Glasgow, 1738, Ballykeel, County Antrim | `US/GPC/00345374` | existing_profile: Glasgow-1143 |
@@ -632,7 +632,7 @@ Source scrape/transcript audit remains **INCOMPLETE**; this section covers only 
 | `fmp-glasgow-2b0297c00e35` | John Glasgow, 30 Apr 1740, Irvine | `SCOT/OPR/BAP/3574953` | existing_profile: Glasgow-3314 |
 | `fmp-glasgow-26372d160744` | Margaret Glasgow, 1740, Edrom | `SCOT/OPR/BAP/4839749` | existing_profile: Glasgow-1607 |
 | `fmp-glasgow-a2dbbb6de106` | Isabel Glasgow, 26 Apr 1741, Irvine | `SCOT/OPR/BAP/3575036` | new_person: research/Glasgow-4121/1741_Scotland_Irvine_Isabel_Glasgow.md |
-| `fmp-glasgow-8534eaed42d0` | John Glasgow, 06 Aug 1741, Irvine | `SCOT/OPR/BAP/3575071` | new_person: research/Glasgow-4116/1741_Scotland_Irvine_John_Glasgow.md |
+| `fmp-glasgow-8534eaed42d0` | John Glasgow, 06 Aug 1741, Irvine | `SCOT/OPR/BAP/3575071` | existing_profile: [Glasgow-4116](https://www.wikitree.com/wiki/Glasgow-4116); reconciled 2026-10-24, no new amendment |
 | `fmp-glasgow-7a187aa7713d` | Michael Glasgow, 22 Nov 1741, Irvine | `SCOT/OPR/BAP/3575088` | existing_profile: Glasgow-1416 |
 | `fmp-glasgow-5639753a39b0` | David Glasgow, 23 May 1742, Livingston | `SCOT/OPR/BAP/4151485` | existing_profile: Glasgow-1228 |
 | `fmp-glasgow-120b52e4bd76` | Hugh Glasgow, 29 Aug 1742, Kilmarnock | `SCOT/OPR/BAP/3600403` | new_person: research/Glasgow-4104/1742_Scotland_Kilmarnock_Hugh_Glasgow.md |

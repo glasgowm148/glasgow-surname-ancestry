@@ -8,12 +8,14 @@
   "counts": {
     "decision_statuses": {
       "blocked_missing_match_audit:n/a": 58,
-      "new_person:HOLD": 23,
-      "new_person:READY": 2
+      "new_person:HOLD": 22,
+      "new_person:READY": 2,
+      "existing_profile:n/a": 1
     },
     "decisions": {
       "blocked_missing_match_audit": 58,
-      "new_person": 25
+      "new_person": 24,
+      "existing_profile": 1
     },
     "matched_audit_groups": 25,
     "override_groups": 0,
@@ -890,17 +892,34 @@
     },
     {
       "candidate_count": 3,
-      "creation_status": "HOLD",
-      "decision_source": "unresolved_candidate_audit",
+      "creation_status": "",
+      "decision_source": "reviewed_exact_record_link",
       "event_year_start": 1738,
       "group_id": "fmp-glasgow-cd18f5e7916d",
-      "handoff_path": "surname-research/new-people/1738_Scotland_Edrom_John_Glasgow.md",
+      "handoff_path": "",
       "match_audit_present": true,
       "name": "John Glasgow",
-      "notes": "",
-      "outcome": "new_person",
-      "profile_id": "",
-      "supplement_id": "fmp-glasgow-cd18f5e7916d"
+      "notes": "The record-only account and Glasgow-4132 cite the same retained Findmypast record: SCOT/OPR/BAP/4839748. The existing profile already represents this documentary subject. Retire the duplicate catalogue person and creation suggestion; preserve the accepted profile, sources, dates and relationship assessments. This is catalogue reconciliation, not a new record or parentage finding.",
+      "outcome": "existing_profile",
+      "profile_id": "Glasgow-4132",
+      "supplement_id": "fmp-glasgow-cd18f5e7916d",
+      "prior_decision": {
+        "candidate_count": 3,
+        "creation_status": "HOLD",
+        "decision_source": "unresolved_candidate_audit",
+        "event_year_start": 1738,
+        "group_id": "fmp-glasgow-cd18f5e7916d",
+        "handoff_path": "surname-research/new-people/1738_Scotland_Edrom_John_Glasgow.md",
+        "match_audit_present": true,
+        "name": "John Glasgow",
+        "notes": "",
+        "outcome": "new_person",
+        "profile_id": "",
+        "supplement_id": "fmp-glasgow-cd18f5e7916d"
+      },
+      "queue_status": "CLOSED",
+      "substantive_amendment": false,
+      "reviewed_on": "2026-10-24"
     },
     {
       "candidate_count": 0,

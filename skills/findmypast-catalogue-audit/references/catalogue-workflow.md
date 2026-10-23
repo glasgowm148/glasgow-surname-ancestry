@@ -32,7 +32,7 @@ Retain explicit dispositions in the existing matching review:
 
 For reviewed creations use `tools/queue_catalogue_creations.py --catalogue-id <id>` selection; preflight before applying. Do not globally replay unrelated creation cases to publish one held account.
 
-For a stale duplicate case, preserve the exact provider-ID evidence in the maintained Findmypast integration override and reviewed profile link. Use `tools/reconcile_catalogue_profile_links.py --catalogue-id <id>` dry-run, then `--write` when the match is established. Withdraw stale READY/new-person wording in the audit, plans, original draft and register. Preserve genuine outstanding amendments and the retired redirect; do not delete that history or count reconciliation as a new discovery.
+For a stale duplicate case, preserve the exact provider-ID evidence in the maintained Findmypast integration override and reviewed profile link. Use `tools/reconcile_catalogue_profile_links.py --catalogue-id <id>` dry-run, then `--write` when the match is established. Withdraw stale READY/new-person wording in the audit, plans, original draft and register. Preserve genuine outstanding amendments and the retired redirect; do not delete that history or count reconciliation as a new discovery. For a bounded duplicate retirement, avoid replaying the broad materializer when the existing profile already cites the exact record. Update only the affected override, source CSV, register/queue and plan/audit entries, preserving created drafts as history; run the reconciliation tool with explicit catalogue IDs.
 
 ## Maintain the shared account
 
@@ -52,6 +52,8 @@ Findings about one person belong in that person's account, cross-referenced from
 
 For a vital correction, update the approved current model and complete proposed biography, preserve distinct event dates, and queue the exact field action. Preserve unrelated life events, citations and relationship assessments. A revised biography can invalidate a preservation-review hash: compare the complete captured and revised texts, record justified retained/superseded content, then refresh the review. Never merely bless a new hash or bypass the guard.
 
+Before building dated finding entries, validate the builder’s actual kind/status enums and verify the maintained public destination and fragment. A study filename does not establish a `/studies/` route or an unprefixed chapter anchor.
+
 Before building, reconcile generic batch wording with the final approved changes. Replace “no vital change” or “pending integration” language in affected source notes, roles and person accounts once a date refinement or draft estimate is adopted; retain the earlier assessment explicitly as history.
 
 Before an expensive synchronization, validate each changed preservation review against the loader's normalized complete proposal, including restored references and stripped boundary whitespace; the raw draft-file hash can differ. Account for normalization changes and source preservation as well as the substantive edit.
@@ -59,6 +61,8 @@ Before an expensive synchronization, validate each changed preservation review a
 Normalization may restore an estimation template for another uncertain vital field, even when the newly reviewed birth is exact. Compare the complete normalized text and captured field statuses before updating its reviewed hash; do not remove a profile-wide template solely because one event is now exact.
 
 A newly established date can invalidate an earlier newspaper or other identity comparison. Reconcile its maintained review, subject draft, current findings, study and queued wording; retain the previous dated assessment as superseded history. Do not erase competing candidates or extend the exclusion to a different later event without evidence.
+
+When other work changes shared generated data during verification, preserve its additions and verify this batch’s selected provider IDs, person fields and source roles separately from global totals. Refresh HEAD-based publication snapshots before staging, preserve unrelated staged entries, and do not repeatedly overwrite cache versions while another build is updating them.
 
 ## Guarded record publication
 

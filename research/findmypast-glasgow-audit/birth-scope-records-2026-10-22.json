@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "reviewed_on": "2026-10-23",
+  "reviewed_on": "2026-10-24",
   "scope": {
     "surname_at_birth": "Glasgow",
     "born_before": 1800,
@@ -439,8 +439,8 @@
       "SCOT/OPR/BAP/3838724",
       "GBPRS/GLASGOW/BUR/093135"
     ],
-    "next_query_page": 8,
-    "integration_scope": "275 reviewed provider receipts selected for local indexing: 140 current-query rows, one supporting transcript and 134 saved September receipts. The remaining 111 cached receipts have explicit HOLD/exclusion dispositions. Full provider coverage remains INCOMPLETE; matched people, candidate comparisons and source-only records remain distinct.",
+    "next_query_page": 17,
+    "integration_scope": "427 retained provider receipts remain indexed. This batch reviews16 sufficient external/current receipts and three existing locks, corrects two duplicate catalogue mappings and records one held-source date conflict; no provider record is newly indexed. All100 additional saved query rows are preflighted;81 need transcripts. Full provider coverage remains INCOMPLETE.",
     "indexed_record_ids": [
       "R_686309313",
       "R_694108409",
@@ -657,19 +657,23 @@
       "Legacy unattempted, temporarily blocked, subscription-locked and capped search results",
       "Cached subject-outside-cutoff records: screen named parents/relatives before excluding documentary evidence for pre1800 Glasgows."
     ],
-    "verification_report": "output/findmypast-birth-scope-pages12-16-20261023-verification.json",
-    "verified_on": "2026-10-23",
+    "verification_report": "output/findmypast-cached-reconciliation-20261024-verification.json",
+    "verified_on": "2026-10-24",
     "indexed_provider_record_count": 427,
-    "next_action": "Resume query page17 of294 with exact-ID preflight. Pages12–16 include two retained subscription locks; original-image and identity questions remain. Do not refetch sufficient receipts.",
+    "next_action": "Resume saved page17 with R_691306812, then the remaining missing transcripts on pages17–21. All100 saved rows have exact-ID preflight;16 accessible receipts and three cached locks were reviewed without refetching. The existing Chrome connection recovered and page21 is saved. Do not recapture pages or refetch sufficient receipts. Next uncaptured query page22 of294.",
     "recent_query_transcripts": 292,
     "recent_supporting_transcripts": 1,
     "historical_cached_transcripts_reconciled": 134,
-    "recent_query_rows_reviewed": 320,
+    "recent_query_rows_reviewed": 339,
     "capture_ledger_note": "427 provider transcript receipts in this capture ledger, not people or all catalogue records. Sufficient external receipts and existing index mappings remain at their original pointers.",
-    "capture_count_basis": "427 ledger receipts; ledger plus screened query union 440 distinct provider IDs, including two locked IDs without details; not whole-surname or whole-catalogue coverage.",
-    "recent_query_receipt_reuses": 25,
+    "capture_count_basis": "427 ledger receipts, separate from420 saved query rows.339 query rows have reviewed dispositions, including five locks;81 saved query rows still need transcripts. External reusable receipts remain at their original pointers. These are not whole-surname or catalogue totals.",
+    "recent_query_receipt_reuses": 41,
     "recent_query_existing_index_reuses": 1,
-    "recent_query_access_holds": 2
+    "recent_query_access_holds": 5,
+    "next_search_page_to_capture": 22,
+    "recent_query_rows_captured": 420,
+    "contiguous_query_rows_reviewed": 320,
+    "recent_query_detail_gaps": 81
   },
   "search_pages": [
     {
@@ -4477,6 +4481,1199 @@
       "captured_at": "2026-10-23T21:54:53.904Z",
       "review_status": "complete_with_identity_and_access_holds",
       "status": "20 rows screened; exact-ID preflight retained. Fresh records indexed, sufficient receipts/index mappings reused and subscription locks preserved."
+    },
+    {
+      "rows": [
+        {
+          "birth_year": "1774",
+          "death_year": "—",
+          "event_year": "1774",
+          "first_name": "Janet",
+          "last_name": "Glasgow",
+          "location": "Lanarkshire, Scotland",
+          "record_id": "R_691306812",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_691306812"
+        },
+        {
+          "birth_year": "1776",
+          "death_year": "—",
+          "event_year": "1776",
+          "first_name": "Janet",
+          "last_name": "Glasgow",
+          "location": "Bathgate, Linlithgowshire (West Lothian), Scotland",
+          "record_id": "SCOT/OPR/BAP/4121234",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4121234"
+        },
+        {
+          "birth_year": "1776",
+          "death_year": "—",
+          "event_year": "1776",
+          "first_name": "Janet",
+          "last_name": "Glasgow",
+          "location": "Linlithgowshire (West Lothian), Scotland",
+          "record_id": "R_691841702",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_691841702"
+        },
+        {
+          "birth_year": "1777",
+          "death_year": "—",
+          "event_year": "1777",
+          "first_name": "Janet",
+          "last_name": "Glasgow",
+          "location": "Linlithgowshire (West Lothian), Scotland",
+          "record_id": "R_685844147",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_685844147"
+        },
+        {
+          "birth_year": "1777",
+          "death_year": "—",
+          "event_year": "1777",
+          "first_name": "Janet",
+          "last_name": "Glasgow",
+          "location": "Linlithgowshire (West Lothian), Scotland",
+          "record_id": "R_692403113",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_692403113"
+        },
+        {
+          "birth_year": "1781",
+          "death_year": "—",
+          "event_year": "1781",
+          "first_name": "Janet",
+          "last_name": "Glasgow",
+          "location": "Lanarkshire, Scotland",
+          "record_id": "R_690418970",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_690418970"
+        },
+        {
+          "birth_year": "1782",
+          "death_year": "—",
+          "event_year": "1782",
+          "first_name": "Janet",
+          "last_name": "Glasgow",
+          "location": "Wiston & Roberton, Lanarkshire, Scotland",
+          "record_id": "SCOT/OPR/BAP/4108081",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4108081"
+        },
+        {
+          "birth_year": "1782",
+          "death_year": "—",
+          "event_year": "1782",
+          "first_name": "Janet",
+          "last_name": "Glasgow",
+          "location": "Lanarkshire, Scotland",
+          "record_id": "R_685771856",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_685771856"
+        },
+        {
+          "birth_year": "1782",
+          "death_year": "—",
+          "event_year": "1782",
+          "first_name": "Janet",
+          "last_name": "Glasgow",
+          "location": "Lanarkshire, Scotland",
+          "record_id": "R_691831650",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_691831650"
+        },
+        {
+          "birth_year": "1790",
+          "death_year": "—",
+          "event_year": "1790",
+          "first_name": "Janet",
+          "last_name": "Glasgow",
+          "location": "Linlithgowshire (West Lothian), Scotland",
+          "record_id": "R_685811032",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_685811032"
+        },
+        {
+          "birth_year": "1790",
+          "death_year": "—",
+          "event_year": "1790",
+          "first_name": "Janet",
+          "last_name": "Glasgow",
+          "location": "Linlithgowshire (West Lothian), Scotland",
+          "record_id": "R_691880108",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_691880108"
+        },
+        {
+          "birth_year": "1794",
+          "death_year": "—",
+          "event_year": "1794",
+          "first_name": "Janet",
+          "last_name": "Glasgow",
+          "location": "Midlothian, Scotland",
+          "record_id": "R_685967229",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_685967229"
+        },
+        {
+          "birth_year": "1794",
+          "death_year": "—",
+          "event_year": "1794",
+          "first_name": "Janet",
+          "last_name": "Glasgow",
+          "location": "Midlothian, Scotland",
+          "record_id": "R_688327848",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_688327848"
+        },
+        {
+          "birth_year": "1796",
+          "death_year": "—",
+          "event_year": "1796",
+          "first_name": "Janet",
+          "last_name": "Glasgow",
+          "location": "Kirknewton & East Calder, Midlothian, Scotland",
+          "record_id": "SCOT/OPR/BAP/4476992",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4476992"
+        },
+        {
+          "birth_year": "1796",
+          "death_year": "—",
+          "event_year": "1796",
+          "first_name": "Janet",
+          "last_name": "Glasgow",
+          "location": "Midlothian, Scotland",
+          "record_id": "R_686210501",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_686210501"
+        },
+        {
+          "birth_year": "1796",
+          "death_year": "—",
+          "event_year": "1796",
+          "first_name": "Janet",
+          "last_name": "Glasgow",
+          "location": "Midlothian, Scotland",
+          "record_id": "R_691905239",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_691905239"
+        },
+        {
+          "birth_year": "1797",
+          "death_year": "—",
+          "event_year": "1797",
+          "first_name": "Janet",
+          "last_name": "Glasgow",
+          "location": "Rothesay, Buteshire, Scotland",
+          "record_id": "SCOT/OPR/BAP/3235493",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3235493"
+        },
+        {
+          "birth_year": "1797",
+          "death_year": "—",
+          "event_year": "1797",
+          "first_name": "Janet",
+          "last_name": "Glasgow",
+          "location": "Whitburn, Linlithgowshire (West Lothian), Scotland",
+          "record_id": "SCOT/OPR/BAP/4171812",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4171812"
+        },
+        {
+          "birth_year": "1799",
+          "death_year": "—",
+          "event_year": "1799",
+          "first_name": "Janet",
+          "last_name": "Glasgow",
+          "location": "Lanarkshire, Scotland",
+          "record_id": "R_689425253",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_689425253"
+        },
+        {
+          "birth_year": "1767",
+          "death_year": "1840",
+          "event_year": "1840",
+          "first_name": "Janet",
+          "last_name": "Glasgow",
+          "location": "Bo’Ness, Linlithgowshire (West Lothian)",
+          "record_id": "SCOT/OPR/BUR/0109898",
+          "record_set": "Scotland, Parish Deaths & Burials 1564-2017",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F0109898"
+        }
+      ],
+      "url": "https://www.findmypast.co.uk/search/results?_page=17&lastname=glasgow&yearofbirth=1759&yearofbirth_offset=40&sourcecategory=life+events+%28bmds%29&sid=998",
+      "birth_query_range": [
+        1719,
+        1799
+      ],
+      "displayed_total": 5872,
+      "expected_pages_at_20_rows": 294,
+      "captured_pages": [
+        17
+      ],
+      "captured_rows": 20,
+      "captured_at": "2026-10-23T22:59:25.363Z",
+      "review_status": "partial_cached_review",
+      "reviewed_cached_rows": 0,
+      "remaining_detail_rows": 20
+    },
+    {
+      "rows": [
+        {
+          "birth_year": "1791",
+          "death_year": "1840",
+          "event_year": "1840",
+          "first_name": "Janet",
+          "last_name": "Glasgow",
+          "location": "Calton, Glasgow, Lanarkshire, Scotland",
+          "record_id": "GBPRS/GLASGOW/BUR/093167",
+          "record_set": "Scotland, Parish Deaths & Burials 1564-2017",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FGLASGOW%2FBUR%2F093167"
+        },
+        {
+          "birth_year": "1792",
+          "death_year": "1843",
+          "event_year": "1843",
+          "first_name": "Janet",
+          "last_name": "Glasgow",
+          "location": "Calton, Glasgow, Lanarkshire, Scotland",
+          "record_id": "GBPRS/GLASGOW/BUR/093165",
+          "record_set": "Scotland, Parish Deaths & Burials 1564-2017",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FGLASGOW%2FBUR%2F093165"
+        },
+        {
+          "birth_year": "1777",
+          "death_year": "1853",
+          "event_year": "1853",
+          "first_name": "Janet",
+          "last_name": "Glasgow",
+          "location": "Livingston, Linlithgowshire (West Lothian), Scotland",
+          "record_id": "PRS/SCOTLAND/MI/ADD/5/00422894",
+          "record_set": "Scotland Monumental Inscriptions",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=PRS%2FSCOTLAND%2FMI%2FADD%2F5%2F00422894"
+        },
+        {
+          "birth_year": "1797",
+          "death_year": "1872",
+          "event_year": "1872",
+          "first_name": "Janet",
+          "last_name": "Glasgow",
+          "location": "Carstairs, Lanarkshire, Scotland",
+          "record_id": "PRS/SCOTLAND/MI/ADD/5/00422893",
+          "record_set": "Scotland Monumental Inscriptions",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=PRS%2FSCOTLAND%2FMI%2FADD%2F5%2F00422893"
+        },
+        {
+          "birth_year": "1797",
+          "death_year": "1873",
+          "event_year": "1873",
+          "first_name": "Janet",
+          "last_name": "Glasgow",
+          "location": "Livingston, Linlithgowshire (West Lothian), Scotland",
+          "record_id": "GBPRS/SCOT/MIS/511321",
+          "record_set": "Scotland Monumental Inscriptions",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FSCOT%2FMIS%2F511321"
+        },
+        {
+          "birth_year": "1722",
+          "death_year": "—",
+          "event_year": "1722",
+          "first_name": "Jannet",
+          "last_name": "Glasgow",
+          "location": "Midlothian, Scotland",
+          "record_id": "R_687293281",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_687293281"
+        },
+        {
+          "birth_year": "1722",
+          "death_year": "—",
+          "event_year": "1722",
+          "first_name": "Jannet",
+          "last_name": "Glasgow",
+          "location": "Midlothian, Scotland",
+          "record_id": "R_686207991",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_686207991"
+        },
+        {
+          "birth_year": "1722",
+          "death_year": "—",
+          "event_year": "1722",
+          "first_name": "Jannet",
+          "last_name": "Glasgow",
+          "location": "Midlothian, Scotland",
+          "record_id": "R_691902719",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_691902719"
+        },
+        {
+          "birth_year": "1722",
+          "death_year": "—",
+          "event_year": "1722",
+          "first_name": "Jannet",
+          "last_name": "Glasgow",
+          "location": "Midlothian, Scotland",
+          "record_id": "R_693603370",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_693603370"
+        },
+        {
+          "birth_year": "1736",
+          "death_year": "—",
+          "event_year": "1736",
+          "first_name": "Jannet",
+          "last_name": "Glasgow",
+          "location": "Kilbirnie, Ayrshire, Scotland",
+          "record_id": "SCOT/OPR/BAP/3586684",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3586684"
+        },
+        {
+          "birth_year": "1763",
+          "death_year": "1793",
+          "event_year": "1793",
+          "first_name": "Jannet",
+          "last_name": "Glasgow",
+          "location": "Ramshorn & Blackfriars, Glasgow, Lanarkshire, Scotland",
+          "record_id": "GBPRS/GLASGOW/BUR/093164",
+          "record_set": "Scotland, Parish Deaths & Burials 1564-2017",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FGLASGOW%2FBUR%2F093164"
+        },
+        {
+          "birth_year": "1785",
+          "death_year": "—",
+          "event_year": "—",
+          "first_name": "Jean",
+          "last_name": "Glasgow",
+          "location": "Lanarkshire, Scotland",
+          "record_id": "R_690417298",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_690417298"
+        },
+        {
+          "birth_year": "1722",
+          "death_year": "—",
+          "event_year": "1722",
+          "first_name": "Jean",
+          "last_name": "Glasgow",
+          "location": "Kilwinning, Ayrshire, Scotland",
+          "record_id": "SCOT/OPR/BAP/3626660",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3626660"
+        },
+        {
+          "birth_year": "1730",
+          "death_year": "—",
+          "event_year": "1730",
+          "first_name": "Jean",
+          "last_name": "Glasgow",
+          "location": "Midlothian, Scotland",
+          "record_id": "R_686207682",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_686207682"
+        },
+        {
+          "birth_year": "1730",
+          "death_year": "—",
+          "event_year": "1730",
+          "first_name": "Jean",
+          "last_name": "Glasgow",
+          "location": "Midlothian, Scotland",
+          "record_id": "R_691902720",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_691902720"
+        },
+        {
+          "birth_year": "1731",
+          "death_year": "—",
+          "event_year": "1731",
+          "first_name": "Jean",
+          "last_name": "Glasgow",
+          "location": "Ayrshire, Scotland",
+          "record_id": "R_688619596",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_688619596"
+        },
+        {
+          "birth_year": "1731",
+          "death_year": "—",
+          "event_year": "1731",
+          "first_name": "Jean",
+          "last_name": "Glasgow",
+          "location": "Ayrshire, Scotland",
+          "record_id": "R_685314696",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_685314696"
+        },
+        {
+          "birth_year": "1732",
+          "death_year": "—",
+          "event_year": "1732",
+          "first_name": "Jean",
+          "last_name": "Glasgow",
+          "location": "Midlothian, Scotland",
+          "record_id": "R_686209998",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_686209998"
+        },
+        {
+          "birth_year": "1732",
+          "death_year": "—",
+          "event_year": "1732",
+          "first_name": "Jean",
+          "last_name": "Glasgow",
+          "location": "Midlothian, Scotland",
+          "record_id": "R_691904965",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_691904965"
+        },
+        {
+          "birth_year": "1735",
+          "death_year": "—",
+          "event_year": "1735",
+          "first_name": "Jean",
+          "last_name": "Glasgow",
+          "location": "Kilmarnock, Ayrshire, Scotland",
+          "record_id": "SCOT/OPR/BAP/3599478",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3599478"
+        }
+      ],
+      "url": "https://www.findmypast.co.uk/search/results?_page=18&lastname=glasgow&yearofbirth=1759&yearofbirth_offset=40&sourcecategory=life%20events%20(bmds)&sid=998",
+      "birth_query_range": [
+        1719,
+        1799
+      ],
+      "displayed_total": 5872,
+      "expected_pages_at_20_rows": 294,
+      "captured_pages": [
+        18
+      ],
+      "captured_rows": 20,
+      "captured_at": "2026-10-23T22:59:28.489Z",
+      "review_status": "partial_cached_review",
+      "reviewed_cached_rows": 4,
+      "remaining_detail_rows": 16
+    },
+    {
+      "rows": [
+        {
+          "birth_year": "1739",
+          "death_year": "—",
+          "event_year": "1739",
+          "first_name": "Jean",
+          "last_name": "Glasgow",
+          "location": "Midlothian, Scotland",
+          "record_id": "R_686332349",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_686332349"
+        },
+        {
+          "birth_year": "1739",
+          "death_year": "—",
+          "event_year": "1739",
+          "first_name": "Jean",
+          "last_name": "Glasgow",
+          "location": "Midlothian, Scotland",
+          "record_id": "R_687756606",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_687756606"
+        },
+        {
+          "birth_year": "1743",
+          "death_year": "—",
+          "event_year": "1743",
+          "first_name": "Jean",
+          "last_name": "Glasgow",
+          "location": "Midlothian, Scotland",
+          "record_id": "R_686210587",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_686210587"
+        },
+        {
+          "birth_year": "1743",
+          "death_year": "—",
+          "event_year": "1743",
+          "first_name": "Jean",
+          "last_name": "Glasgow",
+          "location": "Midlothian, Scotland",
+          "record_id": "R_691904644",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_691904644"
+        },
+        {
+          "birth_year": "1745",
+          "death_year": "—",
+          "event_year": "1745",
+          "first_name": "Jean",
+          "last_name": "Glasgow",
+          "location": "Currie, Midlothian, Scotland",
+          "record_id": "SCOT/OPR/BAP/4221935",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4221935"
+        },
+        {
+          "birth_year": "1753",
+          "death_year": "—",
+          "event_year": "1753",
+          "first_name": "Jean",
+          "last_name": "Glasgow",
+          "location": "Edinburgh, Midlothian, Scotland",
+          "record_id": "SCOT/OPR/BAP/0628041",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0628041"
+        },
+        {
+          "birth_year": "1753",
+          "death_year": "—",
+          "event_year": "1753",
+          "first_name": "Jean",
+          "last_name": "Glasgow",
+          "location": "Edinburgh, Midlothian, Scotland",
+          "record_id": "SCOT/OPR/BAP/4363159",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4363159"
+        },
+        {
+          "birth_year": "1755",
+          "death_year": "—",
+          "event_year": "1755",
+          "first_name": "Jean",
+          "last_name": "Glasgow",
+          "location": "Midlothian, Scotland",
+          "record_id": "R_686349922",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_686349922"
+        },
+        {
+          "birth_year": "1755",
+          "death_year": "—",
+          "event_year": "1755",
+          "first_name": "Jean",
+          "last_name": "Glasgow",
+          "location": "Midlothian, Scotland",
+          "record_id": "R_687775517",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_687775517"
+        },
+        {
+          "birth_year": "1757",
+          "death_year": "—",
+          "event_year": "1757",
+          "first_name": "Jean",
+          "last_name": "Glasgow",
+          "location": "Currie, Midlothian, Scotland",
+          "record_id": "SCOT/OPR/BAP/4222327",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4222327"
+        },
+        {
+          "birth_year": "1757",
+          "death_year": "—",
+          "event_year": "1757",
+          "first_name": "Jean",
+          "last_name": "Glasgow",
+          "location": "Midlothian, Scotland",
+          "record_id": "R_688347191",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_688347191"
+        },
+        {
+          "birth_year": "1768",
+          "death_year": "—",
+          "event_year": "1768",
+          "first_name": "Jean",
+          "last_name": "Glasgow",
+          "location": "Kelso, Roxburghshire, Scotland",
+          "record_id": "SCOT/OPR/BAP/5055887",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F5055887"
+        },
+        {
+          "birth_year": "1766",
+          "death_year": "1839",
+          "event_year": "1839",
+          "first_name": "Jean",
+          "last_name": "Glasgow",
+          "location": "Kirknewton, Midlothian, Scotland",
+          "record_id": "GBPRS/SCOT/MIS/511323",
+          "record_set": "Scotland Monumental Inscriptions",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FSCOT%2FMIS%2F511323"
+        },
+        {
+          "birth_year": "1755",
+          "death_year": "—",
+          "event_year": "1755",
+          "first_name": "Jean Mckenzie",
+          "last_name": "Glasgow",
+          "location": "Ayrshire, Scotland",
+          "record_id": "R_690037131",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_690037131"
+        },
+        {
+          "birth_year": "1763",
+          "death_year": "—",
+          "event_year": "1793",
+          "first_name": "Jennet",
+          "last_name": "Glasgow",
+          "location": "Glasgow, Lanarkshire",
+          "record_id": "SCOT/OPR/BUR/1128679",
+          "record_set": "Scotland, Parish Deaths & Burials 1564-2017",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1128679"
+        },
+        {
+          "birth_year": "1739",
+          "death_year": "—",
+          "event_year": "1739",
+          "first_name": "Joan",
+          "last_name": "Glasgow",
+          "location": "Penicuik, Midlothian, Scotland",
+          "record_id": "SCOT/OPR/BAP/4602253",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4602253"
+        },
+        {
+          "birth_year": "1783",
+          "death_year": "—",
+          "event_year": "—",
+          "first_name": "Joanna",
+          "last_name": "Glasgow",
+          "location": "Lanarkshire, Scotland",
+          "record_id": "R_690418273",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_690418273"
+        },
+        {
+          "birth_year": "1780",
+          "death_year": "—",
+          "event_year": "1783",
+          "first_name": "Johan Neaper",
+          "last_name": "Glasgow",
+          "location": "Edinburgh, Midlothian, Scotland",
+          "record_id": "GBPRS/LOTHIAN/SGS/BUR/032213",
+          "record_set": "Scotland, Parish Deaths & Burials 1564-2017",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FLOTHIAN%2FSGS%2FBUR%2F032213"
+        },
+        {
+          "birth_year": "1730",
+          "death_year": "—",
+          "event_year": "—",
+          "first_name": "John",
+          "last_name": "Glasgow",
+          "location": "Ayrshire, Scotland",
+          "record_id": "R_692914424",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_692914424"
+        },
+        {
+          "birth_year": "1738",
+          "death_year": "—",
+          "event_year": "—",
+          "first_name": "John",
+          "last_name": "Glasgow",
+          "location": "Edrom, Berwickshire, Scotland",
+          "record_id": "SCOT/OPR/BAP/4839748",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4839748"
+        }
+      ],
+      "url": "https://www.findmypast.co.uk/search/results?_page=19&lastname=glasgow&yearofbirth=1759&yearofbirth_offset=40&sourcecategory=life%20events%20(bmds)&sid=998",
+      "birth_query_range": [
+        1719,
+        1799
+      ],
+      "displayed_total": 5872,
+      "expected_pages_at_20_rows": 294,
+      "captured_pages": [
+        19
+      ],
+      "captured_rows": 20,
+      "captured_at": "2026-10-23T22:59:32.512Z",
+      "review_status": "partial_cached_review",
+      "reviewed_cached_rows": 5,
+      "remaining_detail_rows": 15
+    },
+    {
+      "rows": [
+        {
+          "birth_year": "1782",
+          "death_year": "—",
+          "event_year": "—",
+          "first_name": "John",
+          "last_name": "Glasgow",
+          "location": "Lanarkshire, Scotland",
+          "record_id": "R_693242590",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_693242590"
+        },
+        {
+          "birth_year": "1783",
+          "death_year": "—",
+          "event_year": "—",
+          "first_name": "John",
+          "last_name": "Glasgow",
+          "location": "Lanarkshire, Scotland",
+          "record_id": "R_693242591",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_693242591"
+        },
+        {
+          "birth_year": "1790",
+          "death_year": "—",
+          "event_year": "—",
+          "first_name": "John",
+          "last_name": "Glasgow",
+          "location": "Kirknewton & East Calder, Midlothian, Scotland",
+          "record_id": "SCOT/OPR/BAP/4478030",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4478030"
+        },
+        {
+          "birth_year": "1797",
+          "death_year": "—",
+          "event_year": "—",
+          "first_name": "John",
+          "last_name": "Glasgow",
+          "location": "Kirknewton & East Calder, Midlothian, Scotland",
+          "record_id": "SCOT/OPR/BAP/4478189",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4478189"
+        },
+        {
+          "birth_year": "1720",
+          "death_year": "—",
+          "event_year": "1720",
+          "first_name": "John",
+          "last_name": "Glasgow",
+          "location": "Kilwinning, Ayrshire, Scotland",
+          "record_id": "SCOT/OPR/BAP/3626495",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3626495"
+        },
+        {
+          "birth_year": "1721",
+          "death_year": "—",
+          "event_year": "1721",
+          "first_name": "John",
+          "last_name": "Glasgow",
+          "location": "Ayrshire, Scotland",
+          "record_id": "R_685314994",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_685314994"
+        },
+        {
+          "birth_year": "1721",
+          "death_year": "—",
+          "event_year": "1721",
+          "first_name": "John",
+          "last_name": "Glasgow",
+          "location": "Kilwinning, Ayrshire, Scotland",
+          "record_id": "SCOT/OPR/BAP/3626585",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3626585"
+        },
+        {
+          "birth_year": "1722",
+          "death_year": "—",
+          "event_year": "1722",
+          "first_name": "John",
+          "last_name": "Glasgow",
+          "location": "Lanarkshire, Scotland",
+          "record_id": "R_684956583",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_684956583"
+        },
+        {
+          "birth_year": "1727",
+          "death_year": "—",
+          "event_year": "1727",
+          "first_name": "John",
+          "last_name": "Glasgow",
+          "location": "Midlothian, Scotland",
+          "record_id": "R_686209974",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_686209974"
+        },
+        {
+          "birth_year": "1727",
+          "death_year": "—",
+          "event_year": "1727",
+          "first_name": "John",
+          "last_name": "Glasgow",
+          "location": "Midlothian, Scotland",
+          "record_id": "R_691906011",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_691906011"
+        },
+        {
+          "birth_year": "1730",
+          "death_year": "—",
+          "event_year": "1730",
+          "first_name": "John",
+          "last_name": "Glasgow",
+          "location": "Ayrshire, Scotland",
+          "record_id": "R_688617368",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_688617368"
+        },
+        {
+          "birth_year": "1736",
+          "death_year": "—",
+          "event_year": "1736",
+          "first_name": "John",
+          "last_name": "Glasgow",
+          "location": "Ayrshire, Scotland",
+          "record_id": "R_685315512",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_685315512"
+        },
+        {
+          "birth_year": "1738",
+          "death_year": "—",
+          "event_year": "1738",
+          "first_name": "John",
+          "last_name": "Glasgow",
+          "location": "Irvine, Ayrshire, Scotland",
+          "record_id": "SCOT/OPR/BAP/3574782",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3574782"
+        },
+        {
+          "birth_year": "1738",
+          "death_year": "—",
+          "event_year": "1738",
+          "first_name": "John",
+          "last_name": "Glasgow",
+          "location": "Ayrshire, Scotland",
+          "record_id": "R_685314427",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_685314427"
+        },
+        {
+          "birth_year": "1740",
+          "death_year": "—",
+          "event_year": "1740",
+          "first_name": "John",
+          "last_name": "Glasgow",
+          "location": "Irvine, Ayrshire, Scotland",
+          "record_id": "SCOT/OPR/BAP/3574953",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3574953"
+        },
+        {
+          "birth_year": "1740",
+          "death_year": "—",
+          "event_year": "1740",
+          "first_name": "John",
+          "last_name": "Glasgow",
+          "location": "Ayrshire, Scotland",
+          "record_id": "R_685314540",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_685314540"
+        },
+        {
+          "birth_year": "1741",
+          "death_year": "—",
+          "event_year": "1741",
+          "first_name": "John",
+          "last_name": "Glasgow",
+          "location": "Irvine, Ayrshire, Scotland",
+          "record_id": "SCOT/OPR/BAP/3575071",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3575071"
+        },
+        {
+          "birth_year": "1750",
+          "death_year": "—",
+          "event_year": "1750",
+          "first_name": "John",
+          "last_name": "Glasgow",
+          "location": "Midlothian, Scotland",
+          "record_id": "R_686310853",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_686310853"
+        },
+        {
+          "birth_year": "1750",
+          "death_year": "—",
+          "event_year": "1750",
+          "first_name": "John",
+          "last_name": "Glasgow",
+          "location": "Midlothian, Scotland",
+          "record_id": "R_694113519",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_694113519"
+        },
+        {
+          "birth_year": "1750",
+          "death_year": "—",
+          "event_year": "1750",
+          "first_name": "John",
+          "last_name": "Glasgow",
+          "location": "Midcalder, Midlothian, Scotland",
+          "record_id": "SCOT/OPR/BAP/4588751",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4588751"
+        }
+      ],
+      "url": "https://www.findmypast.co.uk/search/results?_page=20&lastname=glasgow&yearofbirth=1759&yearofbirth_offset=40&sourcecategory=life%20events%20(bmds)&sid=998",
+      "birth_query_range": [
+        1719,
+        1799
+      ],
+      "displayed_total": 5872,
+      "expected_pages_at_20_rows": 294,
+      "captured_pages": [
+        20
+      ],
+      "captured_rows": 20,
+      "captured_at": "2026-10-23T23:01:17.504Z",
+      "review_status": "partial_cached_review",
+      "reviewed_cached_rows": 10,
+      "remaining_detail_rows": 10
+    },
+    {
+      "rows": [
+        {
+          "birth_year": "1751",
+          "death_year": "—",
+          "event_year": "1751",
+          "first_name": "John",
+          "last_name": "Glasgow",
+          "location": "Midlothian, Scotland",
+          "record_id": "R_686207931",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_686207931"
+        },
+        {
+          "birth_year": "1751",
+          "death_year": "—",
+          "event_year": "1751",
+          "first_name": "John",
+          "last_name": "Glasgow",
+          "location": "Midlothian, Scotland",
+          "record_id": "R_691903896",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_691903896"
+        },
+        {
+          "birth_year": "1755",
+          "death_year": "—",
+          "event_year": "1755",
+          "first_name": "John",
+          "last_name": "Glasgow",
+          "location": "Lanarkshire, Scotland",
+          "record_id": "R_22094613969",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_22094613969"
+        },
+        {
+          "birth_year": "1755",
+          "death_year": "—",
+          "event_year": "1755",
+          "first_name": "John",
+          "last_name": "Glasgow",
+          "location": "Midlothian, Scotland",
+          "record_id": "R_686211396",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_686211396"
+        },
+        {
+          "birth_year": "1755",
+          "death_year": "—",
+          "event_year": "1755",
+          "first_name": "John",
+          "last_name": "Glasgow",
+          "location": "Midlothian, Scotland",
+          "record_id": "R_691905867",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_691905867"
+        },
+        {
+          "birth_year": "1756",
+          "death_year": "1756",
+          "event_year": "1756",
+          "first_name": "John",
+          "last_name": "Glasgow",
+          "location": "Glasgow High Church, Glasgow, Lanarkshire, Scotland",
+          "record_id": "GBPRS/GLASGOW/BUR/093142",
+          "record_set": "Scotland, Parish Deaths & Burials 1564-2017",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FGLASGOW%2FBUR%2F093142"
+        },
+        {
+          "birth_year": "1759",
+          "death_year": "—",
+          "event_year": "1759",
+          "first_name": "John",
+          "last_name": "Glasgow",
+          "location": "Lanarkshire, Scotland",
+          "record_id": "R_692644328",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_692644328"
+        },
+        {
+          "birth_year": "1761",
+          "death_year": "1764",
+          "event_year": "1764",
+          "first_name": "John",
+          "last_name": "Glasgow",
+          "location": "Glasgow, Lanarkshire",
+          "record_id": "SCOT/OPR/BUR/1025643",
+          "record_set": "Scotland, Parish Deaths & Burials 1564-2017",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1025643"
+        },
+        {
+          "birth_year": "1761",
+          "death_year": "1764",
+          "event_year": "1764",
+          "first_name": "John",
+          "last_name": "Glasgow",
+          "location": "Glasgow High Church, Glasgow, Lanarkshire, Scotland",
+          "record_id": "GBPRS/GLASGOW/BUR/093137",
+          "record_set": "Scotland, Parish Deaths & Burials 1564-2017",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FGLASGOW%2FBUR%2F093137"
+        },
+        {
+          "birth_year": "1764",
+          "death_year": "—",
+          "event_year": "1764",
+          "first_name": "John",
+          "last_name": "Glasgow",
+          "location": "Cambusnethan, Lanarkshire, Scotland",
+          "record_id": "SCOT/OPR/BAP/3839025",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3839025"
+        },
+        {
+          "birth_year": "1768",
+          "death_year": "—",
+          "event_year": "1768",
+          "first_name": "John",
+          "last_name": "Glasgow",
+          "location": "Roxburghshire, Scotland",
+          "record_id": "R_686707056",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_686707056"
+        },
+        {
+          "birth_year": "1768",
+          "death_year": "—",
+          "event_year": "1768",
+          "first_name": "John",
+          "last_name": "Glasgow",
+          "location": "Roxburghshire, Scotland",
+          "record_id": "R_690798614",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_690798614"
+        },
+        {
+          "birth_year": "1769",
+          "death_year": "1769",
+          "event_year": "1769",
+          "first_name": "John",
+          "last_name": "Glasgow",
+          "location": "Glasgow High Church, Glasgow, Lanarkshire, Scotland",
+          "record_id": "GBPRS/GLASGOW/BUR/093143",
+          "record_set": "Scotland, Parish Deaths & Burials 1564-2017",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FGLASGOW%2FBUR%2F093143"
+        },
+        {
+          "birth_year": "1771",
+          "death_year": "—",
+          "event_year": "1771",
+          "first_name": "John",
+          "last_name": "Glasgow",
+          "location": "Lanarkshire, Scotland",
+          "record_id": "R_693207798",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_693207798"
+        },
+        {
+          "birth_year": "1772",
+          "death_year": "—",
+          "event_year": "1772",
+          "first_name": "John",
+          "last_name": "Glasgow",
+          "location": "St James, Middlesex, England",
+          "record_id": "GBPRS/WSMTN/BAP/0284722",
+          "record_set": "Westminster Baptisms",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FWSMTN%2FBAP%2F0284722"
+        },
+        {
+          "birth_year": "1772",
+          "death_year": "—",
+          "event_year": "1772",
+          "first_name": "John",
+          "last_name": "Glasgow",
+          "location": "St James, Piccadilly, Middlesex, England",
+          "record_id": "GBPRS/B/491836340/1",
+          "record_set": "Westminster Baptisms",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FB%2F491836340%2F1"
+        },
+        {
+          "birth_year": "1772",
+          "death_year": "—",
+          "event_year": "1772",
+          "first_name": "John",
+          "last_name": "Glasgow",
+          "location": "Westminster, Middlesex, England",
+          "record_id": "R_864628876",
+          "record_set": "England Births & Baptisms 1538-1975",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_864628876"
+        },
+        {
+          "birth_year": "1772",
+          "death_year": "—",
+          "event_year": "1772",
+          "first_name": "John",
+          "last_name": "Glasgow",
+          "location": "Simprim & Swinton, Berwickshire, Scotland",
+          "record_id": "SCOT/OPR/BAP/4884269",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4884269"
+        },
+        {
+          "birth_year": "1773",
+          "death_year": "—",
+          "event_year": "1773",
+          "first_name": "John",
+          "last_name": "Glasgow",
+          "location": "Midlothian, Scotland",
+          "record_id": "R_686312199",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_686312199"
+        },
+        {
+          "birth_year": "1777",
+          "death_year": "—",
+          "event_year": "1777",
+          "first_name": "John",
+          "last_name": "Glasgow",
+          "location": "Edinburgh, Midlothian, Scotland",
+          "record_id": "SCOT/OPR/BAP/0735490",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0735490"
+        }
+      ],
+      "url": "https://www.findmypast.co.uk/search/results?_page=21&lastname=glasgow&yearofbirth=1759&yearofbirth_offset=40&sourcecategory=life%20events%20(bmds)&sid=998",
+      "birth_query_range": [
+        1719,
+        1799
+      ],
+      "displayed_total": 5872,
+      "expected_pages_at_20_rows": 294,
+      "captured_pages": [
+        21
+      ],
+      "captured_rows": 20,
+      "review_status": "preflight_saved_identity_review_pending",
+      "captured_at": "2026-10-23T23:14:30.687928+00:00"
     }
   ],
   "records": {
@@ -41260,6 +42457,2655 @@
       },
       "status": "Locally verified:84 new provider records,36 person accounts,two birth refinements;0 new publication/link failures. Overall coverage incomplete; no live publication.",
       "verification_report": "output/findmypast-birth-scope-pages12-16-20261023-verification.json"
+    },
+    "pages17_20_preflight": {
+      "schema_version": 1,
+      "read_only": true,
+      "records": [
+        {
+          "provider_id": "R_691306812",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/4121234",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_691841702",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_685844147",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_692403113",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_690418970",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/4108081",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_685771856",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_691831650",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_685811032",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_691880108",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_685967229",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_688327848",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/4476992",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_686210501",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_691905239",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/3235493",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/4171812",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_689425253",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "SCOT/OPR/BUR/0109898",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "GBPRS/GLASGOW/BUR/093167",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "GBPRS/GLASGOW/BUR/093165",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "PRS/SCOTLAND/MI/ADD/5/00422894",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "PRS/SCOTLAND/MI/ADD/5/00422893",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "GBPRS/SCOT/MIS/511321",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_687293281",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_686207991",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_691902719",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_693603370",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/3586684",
+          "disposition": "reusable_receipt",
+          "receipt_status": "accessible",
+          "cached_receipt": {
+            "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-remaining-b.json",
+            "json_pointer": "#/records/SCOT~1OPR~1BAP~13586684",
+            "access_status": "accessible",
+            "transcript_fields_present": true,
+            "captured_at": "2026-09-03T23:41:57.704Z"
+          },
+          "receipt_pointers": [
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-remaining-b.json",
+              "json_pointer": "#/records/SCOT~1OPR~1BAP~13586684",
+              "access_status": "accessible",
+              "captured_at": "2026-09-03T23:41:57.704Z"
+            }
+          ],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [
+            "held-e-9c3a9393a4cd"
+          ],
+          "public_record_ids": [
+            "3dba3976686a890d"
+          ],
+          "already_indexed": true,
+          "source_ids": [],
+          "reason": "Compatible cached accessible receipt has nonempty transcript_fields.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "GBPRS/GLASGOW/BUR/093164",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_690417298",
+          "disposition": "reusable_receipt",
+          "receipt_status": "accessible",
+          "cached_receipt": {
+            "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-pre1701.json",
+            "json_pointer": "#/records/R_690417298",
+            "access_status": "accessible",
+            "transcript_fields_present": true,
+            "captured_at": "2026-09-03T21:32:32.096Z"
+          },
+          "receipt_pointers": [
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+              "json_pointer": "#/records/R_690417298",
+              "access_status": "accessible",
+              "captured_at": "2026-09-03T21:32:32.096Z"
+            },
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-pre1701.json",
+              "json_pointer": "#/records/R_690417298",
+              "access_status": "accessible",
+              "captured_at": "2026-09-03T21:32:32.096Z"
+            }
+          ],
+          "conflicting_fields": [],
+          "matching_hold": true,
+          "matching_hold_evidence": [
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+              "json_pointer": "#/records/R_690417298",
+              "matching_status": "identity_hold",
+              "reason": "Explicit matching HOLD in scope record"
+            },
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+              "json_pointer": "#/scope/unassigned_record_ids",
+              "matching_status": "scope_hold",
+              "reason": "Listed in scope.unassigned_record_ids"
+            },
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+              "json_pointer": "#/matching_review/record_assignments/R_690417298",
+              "matching_status": "identity_hold",
+              "reason": "Disposition: identity HOLD. IRI/FamilySearch-derived index gives Jean Glasgow, indexed birth 1785 at Glasgow/Lanark, but no baptism date, parents or register locator. Local named candidates have no evidenced bridge to this particular record. Year may be index-level only; preserve unassigned."
+            }
+          ],
+          "canonical_record_ids": [
+            "fmp-record-r-690417298"
+          ],
+          "public_record_ids": [
+            "fmp-record-r-690417298"
+          ],
+          "already_indexed": true,
+          "source_ids": [
+            "s-6fcfbd22c3bfbc10"
+          ],
+          "reason": "Compatible cached accessible receipt has nonempty transcript_fields.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/3626660",
+          "disposition": "reusable_receipt",
+          "receipt_status": "accessible",
+          "cached_receipt": {
+            "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-remaining-b.json",
+            "json_pointer": "#/records/SCOT~1OPR~1BAP~13626660",
+            "access_status": "accessible",
+            "transcript_fields_present": true,
+            "captured_at": "2026-09-03T23:44:09.218Z"
+          },
+          "receipt_pointers": [
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-remaining-b.json",
+              "json_pointer": "#/records/SCOT~1OPR~1BAP~13626660",
+              "access_status": "accessible",
+              "captured_at": "2026-09-03T23:44:09.218Z"
+            }
+          ],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [
+            "opr-kilwinning-jean-1722"
+          ],
+          "public_record_ids": [
+            "9511a019aba787d6"
+          ],
+          "already_indexed": true,
+          "source_ids": [],
+          "reason": "Compatible cached accessible receipt has nonempty transcript_fields.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_686207682",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_691902720",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_688619596",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_685314696",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_686209998",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_691904965",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/3599478",
+          "disposition": "reusable_receipt",
+          "receipt_status": "accessible",
+          "cached_receipt": {
+            "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-remaining-b.json",
+            "json_pointer": "#/records/SCOT~1OPR~1BAP~13599478",
+            "access_status": "accessible",
+            "transcript_fields_present": true,
+            "captured_at": "2026-09-03T23:42:29.860Z"
+          },
+          "receipt_pointers": [
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-remaining-b.json",
+              "json_pointer": "#/records/SCOT~1OPR~1BAP~13599478",
+              "access_status": "accessible",
+              "captured_at": "2026-09-03T23:42:29.860Z"
+            }
+          ],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [
+            "held-e-d33840bb6343"
+          ],
+          "public_record_ids": [
+            "cf83066b46ad18fb"
+          ],
+          "already_indexed": true,
+          "source_ids": [],
+          "reason": "Compatible cached accessible receipt has nonempty transcript_fields.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_686332349",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_687756606",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_686210587",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_691904644",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/4221935",
+          "disposition": "blocked_receipt",
+          "receipt_status": "subscription_locked",
+          "cached_receipt": {
+            "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-remaining-b.json",
+            "json_pointer": "#/records/SCOT~1OPR~1BAP~14221935",
+            "access_status": "subscription_locked",
+            "transcript_fields_present": false,
+            "captured_at": "2026-09-03T23:47:37.714Z"
+          },
+          "receipt_pointers": [
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-remaining-b.json",
+              "json_pointer": "#/records/SCOT~1OPR~1BAP~14221935",
+              "access_status": "subscription_locked",
+              "captured_at": "2026-09-03T23:47:37.714Z"
+            }
+          ],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "Cached access failure; do not automatically retry.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/0628041",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/4363159",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_686349922",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_687775517",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/4222327",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_688347191",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/5055887",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "GBPRS/SCOT/MIS/511323",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_690037131",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "SCOT/OPR/BUR/1128679",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/4602253",
+          "disposition": "blocked_receipt",
+          "receipt_status": "subscription_locked",
+          "cached_receipt": {
+            "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-remaining-b.json",
+            "json_pointer": "#/records/SCOT~1OPR~1BAP~14602253",
+            "access_status": "subscription_locked",
+            "transcript_fields_present": false,
+            "captured_at": "2026-09-03T23:51:13.327Z"
+          },
+          "receipt_pointers": [
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-remaining-b.json",
+              "json_pointer": "#/records/SCOT~1OPR~1BAP~14602253",
+              "access_status": "subscription_locked",
+              "captured_at": "2026-09-03T23:51:13.327Z"
+            }
+          ],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "Cached access failure; do not automatically retry.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_690418273",
+          "disposition": "reusable_receipt",
+          "receipt_status": "accessible",
+          "cached_receipt": {
+            "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-pre1701.json",
+            "json_pointer": "#/records/R_690418273",
+            "access_status": "accessible",
+            "transcript_fields_present": true,
+            "captured_at": "2026-09-03T21:32:42.959Z"
+          },
+          "receipt_pointers": [
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+              "json_pointer": "#/records/R_690418273",
+              "access_status": "accessible",
+              "captured_at": "2026-09-03T21:32:42.959Z"
+            },
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-pre1701.json",
+              "json_pointer": "#/records/R_690418273",
+              "access_status": "accessible",
+              "captured_at": "2026-09-03T21:32:42.959Z"
+            }
+          ],
+          "conflicting_fields": [],
+          "matching_hold": true,
+          "matching_hold_evidence": [
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+              "json_pointer": "#/records/R_690418273",
+              "matching_status": "identity_hold",
+              "reason": "Explicit matching HOLD in scope record"
+            },
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+              "json_pointer": "#/matching_review/record_assignments/R_690418273",
+              "matching_status": "identity_hold",
+              "reason": "Disposition: identity HOLD. Joanna Glasgow has indexed birth year 1783 and Glasgow, Lanarkshire birth place, but no baptism date or parents. Name variation and blank profile fields permit comparison; they do not justify assignment or a new person. No exact DOB."
+            }
+          ],
+          "canonical_record_ids": [
+            "fmp-record-r-690418273"
+          ],
+          "public_record_ids": [
+            "fmp-record-r-690418273"
+          ],
+          "already_indexed": true,
+          "source_ids": [
+            "s-1b52328dcec982bc"
+          ],
+          "reason": "Compatible cached accessible receipt has nonempty transcript_fields.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "GBPRS/LOTHIAN/SGS/BUR/032213",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_692914424",
+          "disposition": "reusable_receipt",
+          "receipt_status": "accessible",
+          "cached_receipt": {
+            "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-pre1701.json",
+            "json_pointer": "#/records/R_692914424",
+            "access_status": "accessible",
+            "transcript_fields_present": true,
+            "captured_at": "2026-09-03T21:32:44.367Z"
+          },
+          "receipt_pointers": [
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-pre1701.json",
+              "json_pointer": "#/records/R_692914424",
+              "access_status": "accessible",
+              "captured_at": "2026-09-03T21:32:44.367Z"
+            }
+          ],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [
+            "held-e-c52270a20d19"
+          ],
+          "public_record_ids": [
+            "8b85298133595d36"
+          ],
+          "already_indexed": true,
+          "source_ids": [],
+          "reason": "Compatible cached accessible receipt has nonempty transcript_fields.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/4839748",
+          "disposition": "reusable_receipt",
+          "receipt_status": "accessible",
+          "cached_receipt": {
+            "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-pre1701.json",
+            "json_pointer": "#/records/SCOT~1OPR~1BAP~14839748",
+            "access_status": "accessible",
+            "transcript_fields_present": true,
+            "captured_at": "2026-09-03T20:42:43.977Z"
+          },
+          "receipt_pointers": [
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-pre1701.json",
+              "json_pointer": "#/records/SCOT~1OPR~1BAP~14839748",
+              "access_status": "accessible",
+              "captured_at": "2026-09-03T20:42:43.977Z"
+            }
+          ],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [
+            "31a8ba90fefb136c"
+          ],
+          "already_indexed": true,
+          "source_ids": [],
+          "reason": "Compatible cached accessible receipt has nonempty transcript_fields.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_693242590",
+          "disposition": "reusable_receipt",
+          "receipt_status": "accessible",
+          "cached_receipt": {
+            "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-pre1701.json",
+            "json_pointer": "#/records/R_693242590",
+            "access_status": "accessible",
+            "transcript_fields_present": true,
+            "captured_at": "2026-09-03T21:32:46.140Z"
+          },
+          "receipt_pointers": [
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+              "json_pointer": "#/records/R_693242590",
+              "access_status": "accessible",
+              "captured_at": "2026-09-03T21:32:46.140Z"
+            },
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-pre1701.json",
+              "json_pointer": "#/records/R_693242590",
+              "access_status": "accessible",
+              "captured_at": "2026-09-03T21:32:46.140Z"
+            }
+          ],
+          "conflicting_fields": [],
+          "matching_hold": true,
+          "matching_hold_evidence": [
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+              "json_pointer": "#/records/R_693242590",
+              "matching_status": "identity_hold",
+              "reason": "Explicit matching HOLD in scope record"
+            },
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+              "json_pointer": "#/matching_review/record_assignments/R_693242590",
+              "matching_status": "identity_hold",
+              "reason": "Disposition: identity HOLD. Index says John Glasgow, Glasgow/Lanarkshire, birth year 1782; baptism date and parents blank. Compare its underlying entry/reference to the FamilySearch 1782 citation held by Glasgow-2875 before linking the exact event. Keep 1848 memorial identity derivative and unproved; no new person or vital/parent change."
+            }
+          ],
+          "canonical_record_ids": [
+            "fmp-record-r-693242590"
+          ],
+          "public_record_ids": [
+            "fmp-record-r-693242590"
+          ],
+          "already_indexed": true,
+          "source_ids": [
+            "s-71c1952d74fc8945"
+          ],
+          "reason": "Compatible cached accessible receipt has nonempty transcript_fields.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_693242591",
+          "disposition": "reusable_receipt",
+          "receipt_status": "accessible",
+          "cached_receipt": {
+            "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-pre1701.json",
+            "json_pointer": "#/records/R_693242591",
+            "access_status": "accessible",
+            "transcript_fields_present": true,
+            "captured_at": "2026-09-03T21:32:48.256Z"
+          },
+          "receipt_pointers": [
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+              "json_pointer": "#/records/R_693242591",
+              "access_status": "accessible",
+              "captured_at": "2026-09-03T21:32:48.256Z"
+            },
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-pre1701.json",
+              "json_pointer": "#/records/R_693242591",
+              "access_status": "accessible",
+              "captured_at": "2026-09-03T21:32:48.256Z"
+            }
+          ],
+          "conflicting_fields": [],
+          "matching_hold": true,
+          "matching_hold_evidence": [
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+              "json_pointer": "#/records/R_693242591",
+              "matching_status": "identity_hold",
+              "reason": "Explicit matching HOLD in scope record"
+            },
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+              "json_pointer": "#/matching_review/record_assignments/R_693242591",
+              "matching_status": "identity_hold",
+              "reason": "Disposition: identity HOLD. Transcript/index gives John Glasgow, birth year 1783, Glasgow, Lanark; parents blank and no exact birth or baptism date. The nearby candidate remains unresolved. No person or relationship assignment follows from this sparse record."
+            }
+          ],
+          "canonical_record_ids": [
+            "fmp-record-r-693242591"
+          ],
+          "public_record_ids": [
+            "fmp-record-r-693242591"
+          ],
+          "already_indexed": true,
+          "source_ids": [
+            "s-8433007a2badbe56"
+          ],
+          "reason": "Compatible cached accessible receipt has nonempty transcript_fields.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/4478030",
+          "disposition": "reusable_receipt",
+          "receipt_status": "accessible",
+          "cached_receipt": {
+            "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-pre1701.json",
+            "json_pointer": "#/records/SCOT~1OPR~1BAP~14478030",
+            "access_status": "accessible",
+            "transcript_fields_present": true,
+            "captured_at": "2026-09-03T20:42:46.976Z"
+          },
+          "receipt_pointers": [
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+              "json_pointer": "#/records/SCOT~1OPR~1BAP~14478030",
+              "access_status": "accessible",
+              "captured_at": "2026-09-03T20:42:46.976Z"
+            },
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-pre1701.json",
+              "json_pointer": "#/records/SCOT~1OPR~1BAP~14478030",
+              "access_status": "accessible",
+              "captured_at": "2026-09-03T20:42:46.976Z"
+            }
+          ],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [
+            "fmp-record-scot-opr-bap-4478030"
+          ],
+          "public_record_ids": [
+            "fmp-record-scot-opr-bap-4478030"
+          ],
+          "already_indexed": true,
+          "source_ids": [
+            "s-9d29ec807df55cc3"
+          ],
+          "reason": "Compatible cached accessible receipt has nonempty transcript_fields.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/4478189",
+          "disposition": "reusable_receipt",
+          "receipt_status": "accessible",
+          "cached_receipt": {
+            "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-pre1701.json",
+            "json_pointer": "#/records/SCOT~1OPR~1BAP~14478189",
+            "access_status": "accessible",
+            "transcript_fields_present": true,
+            "captured_at": "2026-09-03T20:42:49.626Z"
+          },
+          "receipt_pointers": [
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+              "json_pointer": "#/records/SCOT~1OPR~1BAP~14478189",
+              "access_status": "accessible",
+              "captured_at": "2026-09-03T20:42:49.626Z"
+            },
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-pre1701.json",
+              "json_pointer": "#/records/SCOT~1OPR~1BAP~14478189",
+              "access_status": "accessible",
+              "captured_at": "2026-09-03T20:42:49.626Z"
+            }
+          ],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [
+            "fmp-record-scot-opr-bap-4478189"
+          ],
+          "public_record_ids": [
+            "fmp-record-scot-opr-bap-4478189"
+          ],
+          "already_indexed": true,
+          "source_ids": [
+            "s-67e56b5f19f42e11"
+          ],
+          "reason": "Compatible cached accessible receipt has nonempty transcript_fields.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/3626495",
+          "disposition": "reusable_receipt",
+          "receipt_status": "accessible",
+          "cached_receipt": {
+            "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-remaining-b.json",
+            "json_pointer": "#/records/SCOT~1OPR~1BAP~13626495",
+            "access_status": "accessible",
+            "transcript_fields_present": true,
+            "captured_at": "2026-09-03T23:44:06.319Z"
+          },
+          "receipt_pointers": [
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-remaining-b.json",
+              "json_pointer": "#/records/SCOT~1OPR~1BAP~13626495",
+              "access_status": "accessible",
+              "captured_at": "2026-09-03T23:44:06.319Z"
+            }
+          ],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [
+            "held-e-95a597ab09fa"
+          ],
+          "public_record_ids": [
+            "9214563c68ffa24f"
+          ],
+          "already_indexed": true,
+          "source_ids": [],
+          "reason": "Compatible cached accessible receipt has nonempty transcript_fields.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_685314994",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/3626585",
+          "disposition": "reusable_receipt",
+          "receipt_status": "accessible",
+          "cached_receipt": {
+            "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-remaining-b.json",
+            "json_pointer": "#/records/SCOT~1OPR~1BAP~13626585",
+            "access_status": "accessible",
+            "transcript_fields_present": true,
+            "captured_at": "2026-09-03T23:44:07.750Z"
+          },
+          "receipt_pointers": [
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-remaining-b.json",
+              "json_pointer": "#/records/SCOT~1OPR~1BAP~13626585",
+              "access_status": "accessible",
+              "captured_at": "2026-09-03T23:44:07.750Z"
+            }
+          ],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [
+            "held-e-bc8ba11c6ef1"
+          ],
+          "public_record_ids": [
+            "aaffeaedb5dfba10"
+          ],
+          "already_indexed": true,
+          "source_ids": [],
+          "reason": "Compatible cached accessible receipt has nonempty transcript_fields.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_684956583",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_686209974",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_691906011",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_688617368",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_685315512",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/3574782",
+          "disposition": "reusable_receipt",
+          "receipt_status": "accessible",
+          "cached_receipt": {
+            "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-remaining-b.json",
+            "json_pointer": "#/records/SCOT~1OPR~1BAP~13574782",
+            "access_status": "accessible",
+            "transcript_fields_present": true,
+            "captured_at": "2026-09-03T23:36:02.664Z"
+          },
+          "receipt_pointers": [
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-remaining-b.json",
+              "json_pointer": "#/records/SCOT~1OPR~1BAP~13574782",
+              "access_status": "accessible",
+              "captured_at": "2026-09-03T23:36:02.664Z"
+            }
+          ],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [
+            "held-e-e1f2a07ed69c"
+          ],
+          "public_record_ids": [
+            "961a8172527ccaa6"
+          ],
+          "already_indexed": true,
+          "source_ids": [],
+          "reason": "Compatible cached accessible receipt has nonempty transcript_fields.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_685314427",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/3574953",
+          "disposition": "reusable_receipt",
+          "receipt_status": "accessible",
+          "cached_receipt": {
+            "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-remaining-b.json",
+            "json_pointer": "#/records/SCOT~1OPR~1BAP~13574953",
+            "access_status": "accessible",
+            "transcript_fields_present": true,
+            "captured_at": "2026-09-03T23:36:04.266Z"
+          },
+          "receipt_pointers": [
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-remaining-b.json",
+              "json_pointer": "#/records/SCOT~1OPR~1BAP~13574953",
+              "access_status": "accessible",
+              "captured_at": "2026-09-03T23:36:04.266Z"
+            }
+          ],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [
+            "held-e-744836ee1d5f"
+          ],
+          "public_record_ids": [
+            "3f2296a0dd45edc5"
+          ],
+          "already_indexed": true,
+          "source_ids": [],
+          "reason": "Compatible cached accessible receipt has nonempty transcript_fields.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_685314540",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/3575071",
+          "disposition": "reusable_receipt",
+          "receipt_status": "accessible",
+          "cached_receipt": {
+            "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-remaining-b.json",
+            "json_pointer": "#/records/SCOT~1OPR~1BAP~13575071",
+            "access_status": "accessible",
+            "transcript_fields_present": true,
+            "captured_at": "2026-09-03T23:36:06.929Z"
+          },
+          "receipt_pointers": [
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-remaining-b.json",
+              "json_pointer": "#/records/SCOT~1OPR~1BAP~13575071",
+              "access_status": "accessible",
+              "captured_at": "2026-09-03T23:36:06.929Z"
+            }
+          ],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [
+            "irvine-nasmith-john-1741"
+          ],
+          "public_record_ids": [
+            "ea0f30c386e7229e"
+          ],
+          "already_indexed": true,
+          "source_ids": [],
+          "reason": "Compatible cached accessible receipt has nonempty transcript_fields.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_686310853",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_694113519",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/4588751",
+          "disposition": "blocked_receipt",
+          "receipt_status": "subscription_locked",
+          "cached_receipt": {
+            "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-remaining-b.json",
+            "json_pointer": "#/records/SCOT~1OPR~1BAP~14588751",
+            "access_status": "subscription_locked",
+            "transcript_fields_present": false,
+            "captured_at": "2026-09-03T23:51:06.633Z"
+          },
+          "receipt_pointers": [
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-remaining-b.json",
+              "json_pointer": "#/records/SCOT~1OPR~1BAP~14588751",
+              "access_status": "subscription_locked",
+              "captured_at": "2026-09-03T23:51:06.633Z"
+            }
+          ],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "Cached access failure; do not automatically retry.",
+          "reinspect": null
+        }
+      ]
+    },
+    "pages17_20_cached_review": {
+      "reviewed_on": "2026-10-24",
+      "result_rows_captured": 80,
+      "reusable_receipts_reviewed": 16,
+      "subscription_locks_retained": 3,
+      "detail_needed": 61,
+      "new_provider_transcripts": 0,
+      "newly_indexed_provider_records": 0,
+      "new_people": 0,
+      "relationship_changes": [],
+      "vital_changes": [],
+      "catalogue_identity_reconciliations": [
+        {
+          "provider_id": "SCOT/OPR/BAP/4839748",
+          "retired_catalogue_id": "record-fmp-glasgow-cd18f5e7916d",
+          "profile_id": "Glasgow-4132"
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/3575071",
+          "retired_catalogue_id": "record-fmp-glasgow-8534eaed42d0",
+          "profile_id": "Glasgow-4116"
+        }
+      ],
+      "date_conflict": {
+        "profile_id": "Glasgow-3314",
+        "provider_id": "SCOT/OPR/BAP/3574953",
+        "retained_birth": "1740-03-28",
+        "provider_birth": "1740-04-20",
+        "provider_baptism": "1740-04-30",
+        "status": "Unresolved; held FamilySearch date event role and original register not inspected"
+      },
+      "items": [
+        {
+          "provider_id": "SCOT/OPR/BAP/3586684",
+          "receipt": "research/findmypast-glasgow-audit/record-details-remaining-b.json#/records/SCOT~1OPR~1BAP~13586684",
+          "literal_fields": {
+            "name": "Jannet Glasgow",
+            "birth": "04 Jan 1736",
+            "baptism": "11 Jan 1736",
+            "place": "Kilbirnie",
+            "residence": "Puddeven Holm",
+            "father": "Robert Glasgow",
+            "father_occupation": "Surgeon",
+            "mother": "Margarat Allan",
+            "reference": "OPR 596/1, item 1, p.84"
+          },
+          "canonical_ids": [
+            "held-e-9c3a9393a4cd"
+          ],
+          "public_record_ids": [
+            "3dba3976686a890d"
+          ],
+          "source_ids": [],
+          "existing_account": "Glasgow-3008 is exact existing Jannet child (vitals 04 Jan 1736, Kilbirnie); research/Glasgow-3008/findings.md assigns transcript and retains Glasgow-1075 father at 99% proved. Allan-4046 is the mother's profile, existing status unknown.",
+          "disposition": "reuse_existing_child_and_source",
+          "gaps": "No new child. Transcript supports birth and baptism separately; no use of Jannet's later marriage to identify the adult father.",
+          "verified_receipt": {
+            "path": "research/findmypast-glasgow-audit/record-details-remaining-b.json",
+            "json_pointer": "#/records/SCOT~1OPR~1BAP~13586684",
+            "access_status": "accessible",
+            "transcript_fields_present": true,
+            "captured_at": "2026-09-03T23:41:57.704Z"
+          }
+        },
+        {
+          "provider_id": "R_690417298",
+          "receipt_pointers": [
+            "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_690417298",
+            "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_690417298"
+          ],
+          "literal_fields": {
+            "name": "Jean Glasgow",
+            "birth_year": "1785",
+            "birth_place": "Glasgow, Lanarkshire",
+            "baptism_date": null,
+            "father": null,
+            "mother": null
+          },
+          "canonical_ids": [
+            "fmp-record-r-690417298"
+          ],
+          "public_record_ids": [
+            "fmp-record-r-690417298"
+          ],
+          "source_ids": [
+            "s-6fcfbd22c3bfbc10"
+          ],
+          "existing_account": "Existing source-only identity HOLD; no profile assignment or named candidate in the canonical record.",
+          "disposition": "reuse_existing_hold",
+          "gaps": "Birth year is index-level; no baptism date or parents. Duplicate saved copies agree. Preserve unassigned HOLD; no new person.",
+          "verified_receipt": {
+            "path": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+            "json_pointer": "#/records/R_690417298",
+            "access_status": "accessible",
+            "transcript_fields_present": true,
+            "captured_at": "2026-09-03T21:32:32.096Z"
+          }
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/3626660",
+          "receipt": "research/findmypast-glasgow-audit/record-details-remaining-b.json#/records/SCOT~1OPR~1BAP~13626660",
+          "literal_fields": {
+            "name": "Jean Glasgow",
+            "birth": "09 Nov 1722",
+            "baptism": "11 Nov 1722",
+            "place": "Kilwinning",
+            "residence": "Byrehill",
+            "father": "Robert Glasgow",
+            "mother": "Mary Simson",
+            "reference": "OPR 599/1, item 1, p.168"
+          },
+          "canonical_ids": [
+            "opr-kilwinning-jean-1722"
+          ],
+          "public_record_ids": [
+            "9511a019aba787d6"
+          ],
+          "source_ids": [],
+          "existing_account": "Glasgow-1072 is the exact record-defined child. research/Glasgow-1072/findings.md retains parents Robert Glasgow-1068 and Mary Simpson-18136 as documented; Simson/Simpson spelling variation is already assessed.",
+          "disposition": "reuse_existing_child_and_event",
+          "gaps": "Accepted transcript already integrated; not a new record/person. Adult identity or descendants remain separate.",
+          "verified_receipt": {
+            "path": "research/findmypast-glasgow-audit/record-details-remaining-b.json",
+            "json_pointer": "#/records/SCOT~1OPR~1BAP~13626660",
+            "access_status": "accessible",
+            "transcript_fields_present": true,
+            "captured_at": "2026-09-03T23:44:09.218Z"
+          }
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/3599478",
+          "receipt": "research/findmypast-glasgow-audit/record-details-remaining-b.json#/records/SCOT~1OPR~1BAP~13599478",
+          "literal_fields": {
+            "name": "Jean Glasgow",
+            "birth": "23 Mar 1735",
+            "baptism": "27 Mar 1735",
+            "place": "Kilmarnock",
+            "residence": "Kilmk",
+            "father": "Hugh Glasgow, Glover",
+            "mother": "Margaret McCachin",
+            "reference": "OPR 597/1, item 1, p.172"
+          },
+          "canonical_ids": [
+            "held-e-d33840bb6343"
+          ],
+          "public_record_ids": [
+            "cf83066b46ad18fb"
+          ],
+          "source_ids": [],
+          "existing_account": "Glasgow-3469 is existing exact child; research/Glasgow-3469/findings.md retains father Glasgow-1929 at 99% proved. Current mother profile McEachin-120 remains separately qualified/ungraded here.",
+          "disposition": "reuse_existing_child_and_source",
+          "gaps": "Existing father assessment is unchanged; transcript's mother spelling/identity does not upgrade maternity.",
+          "verified_receipt": {
+            "path": "research/findmypast-glasgow-audit/record-details-remaining-b.json",
+            "json_pointer": "#/records/SCOT~1OPR~1BAP~13599478",
+            "access_status": "accessible",
+            "transcript_fields_present": true,
+            "captured_at": "2026-09-03T23:42:29.860Z"
+          }
+        },
+        {
+          "provider_id": "R_690418273",
+          "receipt_pointers": [
+            "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_690418273",
+            "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_690418273"
+          ],
+          "literal_fields": {
+            "name": "Joanna Glasgow",
+            "birth_year": "1783",
+            "birth_place": "Glasgow, Lanarkshire",
+            "baptism_date": null,
+            "father": null,
+            "mother": null
+          },
+          "canonical_ids": [
+            "fmp-record-r-690418273"
+          ],
+          "public_record_ids": [
+            "fmp-record-r-690418273"
+          ],
+          "source_ids": [
+            "s-1b52328dcec982bc"
+          ],
+          "existing_account": "Identity HOLD. Glasgow-586 is a very weak Joan/Joanna name-variant comparison only; research/Glasgow-586/findings.md explicitly says no birth, place, or parents are assigned from this record.",
+          "disposition": "reuse_existing_hold_and_comparison",
+          "gaps": "No exact DOB, parents, or register locator. Companion copies agree; no new person.",
+          "verified_receipt": {
+            "path": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+            "json_pointer": "#/records/R_690418273",
+            "access_status": "accessible",
+            "transcript_fields_present": true,
+            "captured_at": "2026-09-03T21:32:42.959Z"
+          }
+        },
+        {
+          "provider_id": "R_692914424",
+          "receipt": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_692914424",
+          "literal_fields": {
+            "name": "John Glasgow",
+            "birth_year": "1730",
+            "place": "Ayr, Ayrshire",
+            "baptism_year": null,
+            "father": "William Glasgow",
+            "mother": "Jane Love",
+            "maternal_grandfather": "John Love"
+          },
+          "canonical_ids": [
+            "held-e-c52270a20d19"
+          ],
+          "public_record_ids": [
+            "8b85298133595d36"
+          ],
+          "source_ids": [],
+          "existing_account": "Glasgow-3487 is the existing record-child match; research/Glasgow-3487/findings.md retains father Glasgow-3408 at 78% probable for the full child-to-adult-father proposition. Jane Love is recorded; the transcript does not supply an exact date.",
+          "disposition": "reuse_existing_child_and_source",
+          "gaps": "Current profile birth is 06 Nov 1730, more precise than this transcript's year-only field; do not attribute the day or baptism to this receipt. Existing confidence remains unchanged.",
+          "verified_receipt": {
+            "path": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+            "json_pointer": "#/records/R_692914424",
+            "access_status": "accessible",
+            "transcript_fields_present": true,
+            "captured_at": "2026-09-03T21:32:44.367Z"
+          }
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/4839748",
+          "receipt": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~14839748",
+          "literal_fields": {
+            "name": "John Glasgow",
+            "birth_year": "1738",
+            "place": "Edrom, Berwickshire",
+            "baptism_date": null,
+            "father": "James Glasgow",
+            "mother": null,
+            "reference": "OPR 738/4, item 5, p.18"
+          },
+          "canonical_ids": [],
+          "public_record_ids": [
+            "31a8ba90fefb136c"
+          ],
+          "source_ids": [],
+          "existing_account": "Current research/Glasgow-4132/findings.md identifies John Glasgow-4132 as the 1738 Edrom baptized child of James Glasgow-4177; public vitals are before 1738, Edrom. The actual profile's father relation remains ungraded in its public profile snapshot.",
+          "disposition": "existing_subject_reconciled",
+          "gaps": "Catalogue mapping corrected. No new source, vital, relationship assessment or live amendment required; original-source questions remain as in the existing account.",
+          "verified_receipt": {
+            "path": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+            "json_pointer": "#/records/SCOT~1OPR~1BAP~14839748",
+            "access_status": "accessible",
+            "transcript_fields_present": true,
+            "captured_at": "2026-09-03T20:42:43.977Z"
+          },
+          "integration_action": "Reconciled to the existing exact-record subject; obsolete creation suggestion withdrawn and superseded URL/history retained.",
+          "prior_gap_assessment": "Current public record-index id 31a8ba90fefb136c points to synthetic record-only profile record-fmp-glasgow-cd18f5e7916d (estimated c.1738, no relationships), not Glasgow-4132. Canonical records contain no 4839748 entry although current findings cite it. Treat the record-only profile as a stale/duplicate representation; do not create another person or transfer a new confidence grade. Parent should reconcile the source mapping to Glasgow-4132 while preserving its existing before-1738 field and ungraded parent relationship.",
+          "prior_disposition": "reuse_existing_subject; flag_public_mapping_mismatch",
+          "integration_status": "complete"
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/4221935",
+          "receipt": "research/findmypast-glasgow-audit/record-details-remaining-b.json#/records/SCOT~1OPR~1BAP~14221935",
+          "search_row": {
+            "name": "Jean Glasgow",
+            "indexed_year": "1745",
+            "location": "Currie, Midlothian"
+          },
+          "literal_fields": "None; saved receipt is subscription_locked with empty transcript_fields.",
+          "canonical_ids": [],
+          "public_record_ids": [],
+          "source_ids": [],
+          "disposition": "blocked_locked_receipt",
+          "gaps": "No transcript evidence; do not automatically retry or infer parent/identity from the result row.",
+          "verified_receipt": {
+            "path": "research/findmypast-glasgow-audit/record-details-remaining-b.json",
+            "json_pointer": "#/records/SCOT~1OPR~1BAP~14221935",
+            "access_status": "subscription_locked",
+            "transcript_fields_present": false,
+            "captured_at": "2026-09-03T23:47:37.714Z"
+          }
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/4602253",
+          "receipt": "research/findmypast-glasgow-audit/record-details-remaining-b.json#/records/SCOT~1OPR~1BAP~14602253",
+          "search_row": {
+            "name": "Joan Glasgow",
+            "indexed_year": "1739",
+            "location": "Penicuik, Midlothian"
+          },
+          "literal_fields": "None; saved receipt is subscription_locked with empty transcript_fields.",
+          "canonical_ids": [],
+          "public_record_ids": [],
+          "source_ids": [],
+          "disposition": "blocked_locked_receipt",
+          "gaps": "No transcript evidence; do not automatically retry or infer parent/identity from the result row.",
+          "verified_receipt": {
+            "path": "research/findmypast-glasgow-audit/record-details-remaining-b.json",
+            "json_pointer": "#/records/SCOT~1OPR~1BAP~14602253",
+            "access_status": "subscription_locked",
+            "transcript_fields_present": false,
+            "captured_at": "2026-09-03T23:51:13.327Z"
+          }
+        },
+        {
+          "provider_id": "R_693242590",
+          "receipt": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_693242590; research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_693242590",
+          "literal_fields": {
+            "name": "John Glasgow",
+            "birth_year": "1782",
+            "birth_place": "Glasgow, Lanarkshire",
+            "baptism": "blank",
+            "parents": "blank",
+            "sex": "Male"
+          },
+          "canonical_ids": [
+            "fmp-record-r-693242590"
+          ],
+          "public_record_ids": [
+            "fmp-record-r-693242590"
+          ],
+          "source_ids": [
+            "s-71c1952d74fc8945"
+          ],
+          "existing_account": "Glasgow-2875 leading compatible comparison; current findings describe a Glasgow August 1782 baptism index inherited from Glasgow-3054, but this sparse receipt does not prove it is the same index or the 1848 memorial man. Glasgow-3034 is a weak alternative with uncertain 1775 birth.",
+          "disposition": "review_existing_index",
+          "gaps": "Preserve identity HOLD; no unique family identifiers; no assignment or new person.",
+          "verified_receipt": {
+            "path": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+            "json_pointer": "#/records/R_693242590",
+            "access_status": "accessible",
+            "transcript_fields_present": true,
+            "captured_at": "2026-09-03T21:32:46.140Z"
+          }
+        },
+        {
+          "provider_id": "R_693242591",
+          "receipt": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_693242591; research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_693242591",
+          "literal_fields": {
+            "name": "John Glasgow",
+            "birth_year": "1783",
+            "birth_place": "Glasgow, Lanarkshire",
+            "baptism": "blank",
+            "parents": "blank",
+            "sex": "Male"
+          },
+          "canonical_ids": [
+            "fmp-record-r-693242591"
+          ],
+          "public_record_ids": [
+            "fmp-record-r-693242591"
+          ],
+          "source_ids": [
+            "s-8433007a2badbe56"
+          ],
+          "existing_account": "Glasgow-2875 only plausible comparison by locality and adjacent year; sparse receipt gives no unique family detail.",
+          "disposition": "review_existing_index",
+          "gaps": "Preserve identity HOLD; separate event from 1782 record; no assignment or new person.",
+          "verified_receipt": {
+            "path": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+            "json_pointer": "#/records/R_693242591",
+            "access_status": "accessible",
+            "transcript_fields_present": true,
+            "captured_at": "2026-09-03T21:32:48.256Z"
+          }
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/4478030",
+          "receipt": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BAP~14478030; research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~14478030",
+          "literal_fields": {
+            "name": "John Glasgow",
+            "birth": "15 Aug 1790",
+            "baptism": "blank",
+            "place": "Kirknewton & East Calder",
+            "father": "Thos Glasgow",
+            "mother": "Margt Chapman",
+            "reference": "OPR 690/3 item 2 p42"
+          },
+          "canonical_ids": [
+            "fmp-record-scot-opr-bap-4478030"
+          ],
+          "public_record_ids": [
+            "fmp-record-scot-opr-bap-4478030"
+          ],
+          "source_ids": [
+            "s-9d29ec807df55cc3"
+          ],
+          "existing_account": "Glasgow-427 existing child/event; Glasgow-1620 father already 98% proved; Chapman-28491 remains unassessed. Findings support explicit birth date 1790-08-15, superseding earlier before-bound; later New Monkland identity remains separate.",
+          "disposition": "reuse_existing_child_and_source",
+          "gaps": "Birth is explicit; baptism field blank. Preserve father grade and maternal uncertainty.",
+          "verified_receipt": {
+            "path": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+            "json_pointer": "#/records/SCOT~1OPR~1BAP~14478030",
+            "access_status": "accessible",
+            "transcript_fields_present": true,
+            "captured_at": "2026-09-03T20:42:46.976Z"
+          }
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/4478189",
+          "receipt": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BAP~14478189; research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~14478189",
+          "literal_fields": {
+            "name": "John Glasgow",
+            "birth": "30 Dec 1797",
+            "baptism": "blank",
+            "place": "Kirknewton & East Calder",
+            "residence": "Meadbk",
+            "father": "Wm Glasgow",
+            "mother": "Cath Neobet",
+            "reference": "OPR 690/3 item 2 p45"
+          },
+          "canonical_ids": [
+            "fmp-record-scot-opr-bap-4478189"
+          ],
+          "public_record_ids": [
+            "fmp-record-scot-opr-bap-4478189"
+          ],
+          "source_ids": [
+            "s-67e56b5f19f42e11"
+          ],
+          "existing_account": "Glasgow-1326 is the existing child; father Glasgow-1223 is the selected comparison (87% probable); Nisbet-3257 remains maternal comparison only. Findings retain same-child hypothesis alongside held 13 Jan 1798 baptism, spelling and residence discrepancies.",
+          "disposition": "reuse_existing_child_and_source",
+          "gaps": "Birth date explicit; baptism field blank. Do not promote mother or alter grades; verify residence/spelling against register.",
+          "verified_receipt": {
+            "path": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+            "json_pointer": "#/records/SCOT~1OPR~1BAP~14478189",
+            "access_status": "accessible",
+            "transcript_fields_present": true,
+            "captured_at": "2026-09-03T20:42:49.626Z"
+          }
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/3626495",
+          "receipt": "research/findmypast-glasgow-audit/record-details-remaining-b.json#/records/SCOT~1OPR~1BAP~13626495",
+          "literal_fields": {
+            "name": "John Glasgow",
+            "birth": "? Mar 1720",
+            "baptism": "06 Mar 1720",
+            "place": "Kilwinning",
+            "father": "John Glasgow",
+            "mother": "Mary Gemmill",
+            "reference": "OPR 599/1 item 1 p148"
+          },
+          "canonical_ids": [
+            "held-e-95a597ab09fa"
+          ],
+          "public_record_ids": [
+            "9214563c68ffa24f"
+          ],
+          "source_ids": [],
+          "existing_account": "Glasgow-1930 existing subject; father Glasgow-1927 assessed 78% probable; mother Gemill-4 remains unknown.",
+          "disposition": "reuse_existing_child_and_source",
+          "gaps": "Retain uncertain birth month literally; 6 March is the baptism date, not a definite birth date. Existing father assessment covers full profile identity and retains its uncertainty.",
+          "verified_receipt": {
+            "path": "research/findmypast-glasgow-audit/record-details-remaining-b.json",
+            "json_pointer": "#/records/SCOT~1OPR~1BAP~13626495",
+            "access_status": "accessible",
+            "transcript_fields_present": true,
+            "captured_at": "2026-09-03T23:44:06.319Z"
+          }
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/3626585",
+          "receipt": "research/findmypast-glasgow-audit/record-details-remaining-b.json#/records/SCOT~1OPR~1BAP~13626585",
+          "literal_fields": {
+            "name": "John Glasgow",
+            "birth": "01 Jul 1721",
+            "baptism": "02 Jul 1721",
+            "place": "Kilwinning",
+            "residence": "Byres",
+            "father": "Hugh Glasgow",
+            "mother": "Janet Kilpatrick",
+            "reference": "OPR 599/1 item 1 p158"
+          },
+          "canonical_ids": [
+            "held-e-bc8ba11c6ef1"
+          ],
+          "public_record_ids": [
+            "aaffeaedb5dfba10"
+          ],
+          "source_ids": [],
+          "existing_account": "Glasgow-1062 existing subject; father Glasgow-1056 98% proved; mother Kilpatrick-1635 ungraded/unknown.",
+          "disposition": "reuse_existing_child_and_source",
+          "gaps": "Both dates explicit with distinct birth and baptism roles; no grade change.",
+          "verified_receipt": {
+            "path": "research/findmypast-glasgow-audit/record-details-remaining-b.json",
+            "json_pointer": "#/records/SCOT~1OPR~1BAP~13626585",
+            "access_status": "accessible",
+            "transcript_fields_present": true,
+            "captured_at": "2026-09-03T23:44:07.750Z"
+          }
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/3574782",
+          "receipt": "research/findmypast-glasgow-audit/record-details-remaining-b.json#/records/SCOT~1OPR~1BAP~13574782",
+          "literal_fields": {
+            "name": "John Glasgow",
+            "birth": "04 Sep 1738",
+            "baptism": "05 Oct 1738",
+            "place": "Irvine",
+            "father": "Rot Glasgow (literal)",
+            "mother": "Mary Borland",
+            "reference": "OPR 595/1 item 1"
+          },
+          "canonical_ids": [
+            "held-e-e1f2a07ed69c"
+          ],
+          "public_record_ids": [
+            "961a8172527ccaa6"
+          ],
+          "source_ids": [],
+          "existing_account": "Glasgow-3478 existing child; current findings retain disagreement with MyHeritage birth month (4 October vs Findmypast 4 September). Existing father comparison is Robert Glasgow-2474; do not normalize the transcript literal Rot silently.",
+          "disposition": "reuse_existing_child_and_source",
+          "gaps": "Preserve birth-month conflict; baptism date is 5 October. Original register not inspected; no parent grade change.",
+          "verified_receipt": {
+            "path": "research/findmypast-glasgow-audit/record-details-remaining-b.json",
+            "json_pointer": "#/records/SCOT~1OPR~1BAP~13574782",
+            "access_status": "accessible",
+            "transcript_fields_present": true,
+            "captured_at": "2026-09-03T23:36:02.664Z"
+          }
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/3574953",
+          "receipt": "research/findmypast-glasgow-audit/record-details-remaining-b.json#/records/SCOT~1OPR~1BAP~13574953",
+          "literal_fields": {
+            "name": "John Glasgow",
+            "birth": "20 Apr 1740",
+            "baptism": "30 Apr 1740",
+            "place": "Irvine",
+            "father": "George Glasgow",
+            "mother": "Margt Martin",
+            "reference": "OPR 595/1 item 1"
+          },
+          "canonical_ids": [
+            "held-e-744836ee1d5f"
+          ],
+          "public_record_ids": [
+            "3f2296a0dd45edc5"
+          ],
+          "source_ids": [],
+          "existing_account": "Glasgow-3314 exact existing subject; father Glasgow-1058 remains 84% probable. Current research identifies this transcript and parental sequence as its source basis.",
+          "disposition": "review_existing_index",
+          "gaps": "Current research/public vital shows birth 28 Mar 1740 while saved transcript explicitly says 20 Apr 1740. Genuine date discrepancy requires reconciliation; preserve existing grade and do not silently overwrite. Baptism is 30 Apr.",
+          "verified_receipt": {
+            "path": "research/findmypast-glasgow-audit/record-details-remaining-b.json",
+            "json_pointer": "#/records/SCOT~1OPR~1BAP~13574953",
+            "access_status": "accessible",
+            "transcript_fields_present": true,
+            "captured_at": "2026-09-03T23:36:04.266Z"
+          },
+          "integration_action": "Recorded both derivative date claims in the canonical source, existing account and complete pending proposal, retaining current vital and father grade.",
+          "integration_status": "date_conflict_recorded_in_existing_account_and_complete_pending_proposal"
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/3575071",
+          "receipt": "research/findmypast-glasgow-audit/record-details-remaining-b.json#/records/SCOT~1OPR~1BAP~13575071",
+          "literal_fields": {
+            "name": "John Glasgow",
+            "birth": "02 Aug 1741",
+            "baptism": "06 Aug 1741",
+            "place": "Irvine",
+            "father": "James Glasgow",
+            "mother": "Helen Nasmith",
+            "reference": "OPR 595/1 item 1"
+          },
+          "canonical_ids": [
+            "irvine-nasmith-john-1741"
+          ],
+          "public_record_ids": [
+            "ea0f30c386e7229e"
+          ],
+          "source_ids": [],
+          "existing_account": "Glasgow-4116 exact child; Glasgow-4157 named father (98% proved), Nasmith-37 named mother. A separate synthetic public record profile p=record-fmp-glasgow-8534eaed42d0 appears in record index without parents, while canonical and findings map to Glasgow-4116.",
+          "disposition": "existing_subject_reconciled",
+          "gaps": "Catalogue mapping corrected. No new source, vital, relationship assessment or live amendment required; original-source questions remain as in the existing account.",
+          "verified_receipt": {
+            "path": "research/findmypast-glasgow-audit/record-details-remaining-b.json",
+            "json_pointer": "#/records/SCOT~1OPR~1BAP~13575071",
+            "access_status": "accessible",
+            "transcript_fields_present": true,
+            "captured_at": "2026-09-03T23:36:06.929Z"
+          },
+          "integration_action": "Reconciled to the existing exact-record subject; obsolete creation suggestion withdrawn and superseded URL/history retained.",
+          "prior_gap_assessment": "Stale public mapping: use existing Glasgow-4116 account, not synthetic placeholder/new person. Preserve date roles and grades.",
+          "prior_disposition": "review_existing_index",
+          "integration_status": "complete"
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/4588751",
+          "receipt": "research/findmypast-glasgow-audit/record-details-remaining-b.json#/records/SCOT~1OPR~1BAP~14588751",
+          "literal_fields": {
+            "search_result": "John Glasgow, 1750, Midcalder, Scotland",
+            "transcript_fields": "empty",
+            "access_status": "subscription_locked"
+          },
+          "canonical_ids": [],
+          "public_record_ids": [],
+          "source_ids": [],
+          "existing_account": "No exact canonical/public mapping; search-result-only row supplies no transcript evidence.",
+          "disposition": "blocked_receipt",
+          "gaps": "Locked transcript, no source or identity conclusions; do not infer from the result row.",
+          "verified_receipt": {
+            "path": "research/findmypast-glasgow-audit/record-details-remaining-b.json",
+            "json_pointer": "#/records/SCOT~1OPR~1BAP~14588751",
+            "access_status": "subscription_locked",
+            "transcript_fields_present": false,
+            "captured_at": "2026-09-03T23:51:06.633Z"
+          }
+        }
+      ],
+      "status": "PARTIAL — cached dispositions reviewed; 61 transcript gaps remain. Contiguous completed coverage remains pages1–16; resume page17 using saved rows and exact-ID preflight. Browser control disconnected during page20-to21 navigation; no new browser/profile/process launched.",
+      "verification_report": "output/findmypast-cached-reconciliation-20261024-verification.json",
+      "browser_recovered": "Existing Chrome connection recovered after technical interruption; already-loaded page21 saved without another navigation. Complete current cached batch before its identity review.",
+      "resource_completion": {
+        "task_tabs_closed": 1,
+        "task_tabs_remaining": 0,
+        "personal_tabs_preserved": 3,
+        "new_browser_windows_profiles_or_processes_launched": 0,
+        "ui_checks": [
+          "Local Glasgow-3314 account displays both derivative claims",
+          "Source reader states conflict and original-register limit and links existing subject"
+        ],
+        "idle_task_ui_runtime_reset": true
+      }
+    },
+    "page21_preflight": {
+      "schema_version": 1,
+      "read_only": true,
+      "records": [
+        {
+          "provider_id": "R_686207931",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_691903896",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_22094613969",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_686211396",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_691905867",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "GBPRS/GLASGOW/BUR/093142",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_692644328",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "SCOT/OPR/BUR/1025643",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "GBPRS/GLASGOW/BUR/093137",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/3839025",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_686707056",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_690798614",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "GBPRS/GLASGOW/BUR/093143",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_693207798",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "GBPRS/WSMTN/BAP/0284722",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "GBPRS/B/491836340/1",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_864628876",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/4884269",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_686312199",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/0735490",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        }
+      ]
     }
   }
 }

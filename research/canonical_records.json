@@ -8858,21 +8858,30 @@
   {
     "record_id": "held-e-744836ee1d5f",
     "record_type": "Previously held source citation",
-    "date": null,
-    "place": null,
+    "date": "20 Apr birth / 30 Apr baptism 1740 (provider transcript; conflicting held date)",
+    "place": "Irvine, Ayrshire, Scotland",
     "association": "Findmypast, Scotland, Parish Births & Baptisms 1564-1929: John Glasgow, 30 Apr 1740, record SCOT/OPR/BAP/3574953",
     "source_title": "Findmypast, Scotland, Parish Births & Baptisms 1564-1929: John Glasgow, 30 Apr 1740, record SCOT/OPR/BAP/3574953",
     "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3574953&tab=this",
-    "source_type": "Existing citation or tree claim; see individual evidence scope",
-    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
-    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "source_type": "Inspected saved provider derivative transcript; original register uninspected",
+    "source_status": "Cached September transcript reviewed; held FamilySearch date role unresolved; no new provider retrieval or original inspection",
+    "status": "Unresolved date conflict; existing subject, vital and father assessment retained",
     "profiles": {
       "Glasgow-3314": {
-        "role": "Previously cited subject; relationship scope in the father assessment"
+        "role": "Existing cited subject; 28 March versus Findmypast 20 April birth/30 April baptism remains unresolved; father 84% unchanged"
       }
     },
-    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
-    "provenance": "research/ancestry-connections/father-coverage-review2-2026-10-22.json"
+    "note": "Saved Findmypast transcript OPR 595/1 item 1 explicitly labels John Glasgow’s birth 20 April 1740 and baptism 30 April, with George Glasgow and Margt Martin at Irvine. The captured WikiTree biography cites FamilySearch XTVL-9BN for 28 March 1740; that derivative date’s birth-or-baptism role has not been independently checked. The names, parent pair and parish support comparison, but the conflict is unresolved. Retain current birth 28 March 1740 and father Glasgow-1058 at 84% pending original-register comparison; neither a transcription error nor two children is proved. No new source discovery or original inspection is claimed.",
+    "provenance": "research/ancestry-connections/father-coverage-review2-2026-10-22.json",
+    "reviewed_on": "2026-10-24",
+    "provider_record_id": "SCOT/OPR/BAP/3574953",
+    "year": 1740,
+    "country": "Scotland",
+    "person": "John Glasgow",
+    "publish_to_record_index": true,
+    "source_quality": "derivative",
+    "record_category": "Births and baptisms",
+    "review_provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/matching_review/pages17_20_cached_review"
   },
   {
     "record_id": "held-e-639e0fe994ca",
