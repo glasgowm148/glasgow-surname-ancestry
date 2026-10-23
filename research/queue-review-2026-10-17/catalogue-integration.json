@@ -1233,9 +1233,9 @@
       "profile_id": "Glasgow-1148"
     },
     "Glasgow-1150": {
-      "draft_path": "research/Glasgow-1150/edinburgh-older-weaver-2026-10-21.wiki",
-      "summary": "Probably the same adult as the Duffe husband Glasgow-2682,70%; retain both accounts and Robert father86%, with no merge or maternal transfer.",
-      "work_queue_summary": "Probably the same adult as the Duffe husband Glasgow-2682,70%; retain both accounts and Robert father86%, with no merge or maternal transfer.",
+      "draft_path": "research/Glasgow-1150/early-review-2026-10-23.wiki",
+      "summary": "Existing father Robert Glasgow-1156 strengthened from 86% to 91% confident; Duffe adult identity 70% remains separate, with no merge or maternal transfer.",
+      "work_queue_summary": "Existing father Robert Glasgow-1156 strengthened from 86% to 91% confident; Duffe adult identity 70% remains separate, with no merge or maternal transfer.",
       "queued_at": "2026-10-21",
       "status": "OPEN",
       "pending": true,
@@ -1247,23 +1247,28 @@
       "prior_work_summary": "Explain the probable Robert–James father inference using the Duddingston apprenticeship/burial and exact burgess cross-reference; retain the uncertain live flag and independently unproved mother and earlier ancestry.",
       "significance": 78,
       "manual_update": true,
-      "preservation_review_path": "research/ancestry-connections/edinburgh-older-weaver-preservation-2026-10-21.json",
+      "preservation_review_path": "research/ancestry-connections/early-parent-review-2026-10-23.json",
       "reviewed_narrative_reduction": true,
       "preserve_captured_detail": false,
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
-          "status": "probable",
+          "status": "proved",
           "relative_id": "Glasgow-1156",
           "assertion_id": "C-review-20261017-duddingston-robert-james",
           "previous_status": "uncertain",
-          "scope": "Local research grade and biography explanation; live WikiTree flag remains uncertain."
+          "scope": "This regrades the existing James-1150 to Robert-1156 pair only, from 86% probable to 91% confident inference. It names no new father. Robert’s own Andrew-3163 father hypothesis stays 28%; Elizat’s and Deborah’s maternal conclusions are unchanged. The Duffe adult identification remains 70% and James-2682’s conditional Robert father remains 61%; these subjective nested assessments are not recalculated by multiplication. All people, life dates and other family links remain separate. No live WikiTree edit is made.",
+          "probability_percent": 91,
+          "previous_probability_percent": 86,
+          "previous_research_status": "probable",
+          "relative_url": "https://www.wikitree.com/wiki/Glasgow-1156",
+          "previous_status_provenance": "Existing father flag uncertain; recorded local research grade 86% probable on 17 October 2026, retained in assessment history."
         }
       ],
       "profile_id": "Glasgow-1150",
       "remote_wikitext": "{{One Name Study|name=Glasgow}}\n\n== Biography ==\n\n'''James Glasgow''' was born before 16 June 1641, probably in Scotland. His precise date and place of birth have not been identified.\n\nHe became a weaver and burgess of Edinburgh.\n\n=== Apprenticeship and burgess status ===\n\nOn 16 June 1641 James, explicitly described as a son of '''Robert Glasgow, servant to William Crichtoun in Wester Duddingston''', was apprenticed to William Sclaitter, weaver.<ref name=\"Apprentice1641\">Francis J. Grant, ed., ''Register of Apprentices of the City of Edinburgh, 1583–1666'' (Scottish Record Society, 1906), printed p. 71, [https://archive.org/details/scottishrecordso28scotuoft/page/71/mode/2up scan]: “Glasgow, James, son to Robert G., servitor to William Crichtoun, in Wester Duddingston, with William Sclaitter, weaver 16 June 1641.”</ref>\n\nJames was admitted as a burgess of Edinburgh on 20 June 1649. The entry identifies him as a weaver, states that he had been apprenticed to the deceased William Sklatter, and repeats the apprenticeship date of 16 June 1641.<ref name=\"Burgess1649\">Charles B. Boog Watson, ed., [https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/roll_of_edinburgh_burgesses_1406_to_1700.pdf#page=218 ''Roll of Edinburgh Burgesses and Guild-Brethren, 1406–1700''] (Scottish Record Society, 1929), printed p. 208: “Glasgow, James, B., weiver, as p. to umq. Wm. Sklaitter, weiver, B. (16 June 1641) 20 June 1649.”</ref>\n\nThe matching master and exact apprenticeship date establish that the 1641 apprentice was the later Edinburgh weaver and burgess.\n\n=== Marriages ===\n\nJames married first '''[[Whyte-2772|Bessie Whyte]]''' at Edinburgh on 6 July 1649.<ref name=\"EdinburghMarriages\">Henry Paton, ed., [https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/register_of_marriages_for_the_parish_of_edinburgh_1595-1700_~_1898.pdf#page=277 ''Register of Marriages for the Parish of Edinburgh, 1595–1700''] (Scottish Record Society, 1905), printed p. 267: “Glasgow, James, weaver; Bessie Whyte 6 July 1649” and “James, weaver; Agnes Duncan 11 Nov. 1653.”</ref>\n\nHe married second '''[[Duncan-16106|Agnes Duncan]]''' at Edinburgh on 11 November 1653.<ref name=\"EdinburghMarriages\" />\n\nThe matching name, occupation and parish, together with the sequential dates, identify the bridegroom in both entries as the same James Glasgow.\n\n=== Children ===\n\nJames's known children were:\n\n* '''[[Glasgow-3097|Helen Glasgow]]''', daughter of Bessie Whyte;\n* '''[[Glasgow-3099|Jonet Glasgow]]''', daughter of Bessie Whyte;\n* '''[[Glasgow-1374|Robert Glasgow]]''', son of Agnes Duncan;<ref name=\"RobertBaptism\">“Scotland, Births and Baptisms, 1564–1950,” database, ''FamilySearch'', [https://www.familysearch.org/ark:/61903/1:1:VRSV-T1T Robert Glasgow, baptised 5 May 1655, Edinburgh], son of James Glasgow and Agnes Duncan.</ref>\n* '''[[Glasgow-3143|Marion Glasgow]]''', daughter of Agnes Duncan;\n* '''[[Glasgow-1373|Bethia Glasgow]]''', daughter of Agnes Duncan; and\n* '''[[Glasgow-1057|John Glasgow]]''', son of Agnes Duncan.\n\nThe individual baptismal records should be consulted for the evidence identifying each child's mother.\n\nMarion Glasgow married William Calder at Edinburgh on 29 June 1686.<ref name=\"MarionMarriage\">Henry Paton, ed., [https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/register_of_marriages_for_the_parish_of_edinburgh_1595-1700_~_1898.pdf#page=278 ''Register of Marriages for the Parish of Edinburgh, 1595–1700''] (Scottish Record Society, 1905), printed p. 268: “Glasgow, Marion; William Calder 29 June 1686.”</ref>\n\nOn the following day William Calder was admitted as a burgess through his wife Marion, who was explicitly described as a daughter of James Glasgow, weaver and burgess.<ref name=\"CalderBurgess\">Charles B. Boog Watson, ed., [https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/roll_of_edinburgh_burgesses_1406_to_1700.pdf#page=101 ''Roll of Edinburgh Burgesses and Guild-Brethren, 1406–1700''] (Scottish Record Society, 1929), printed p. 91: “Calder, Wm., B., weaver, be r. of w. Marion, dr. to James Glasgow, weaver, B. 30 June 1686.”</ref>\n\nThis directly establishes Marion as James's daughter.\n\nJames's date and place of death have not been identified.\n\n== Research Notes ==\n\n=== Birth ===\n\nThe former birth date of 19 March 1626 and birthplace of Inveresk do not belong to this James.\n\nThe only presently supported birth statement is that James was born before 16 June 1641, when he entered his apprenticeship.<ref name=\"Apprentice1641\" />\n\nHis birthplace remains unknown.\n\n=== Parentage ===\n\nThe apprenticeship record directly identifies James's father as '''Robert Glasgow, servant to William Crichtoun in Wester Duddingston'''.<ref name=\"Apprentice1641\" />\n\n'''[[Glasgow-1156|Robert Glasgow]]''' is a plausible existing-profile match for this father because of the Wester Duddingston association and chronology. The record does not, however, contain enough information to prove that the named father and the existing profile represent the same man. That relationship should therefore remain uncertain.\n\nThe record does not name James's mother.\n\n'''[[Ivey-2264|Deborah Ivey]]''' is not identified as his mother in any inspected record. Any attachment should remain uncertain and be treated as a working hypothesis rather than an established relationship.\n\n=== Distinct from the Inveresk James ===\n\nThis James was not '''[[Glasgow-3923|James Glasgow]]''', who was baptised at Inveresk and Musselburgh on 19 March 1626 as a son of [[Glasgow-1148|Alexander Glasgow]] and [[Clerk-296|Jannet Clerk]].<ref name=\"InvereskBaptism\">“Scotland, Births and Baptisms, 1564–1950,” database, ''FamilySearch'', James Glasgow, baptised 19 March 1626, Inveresk and Musselburgh, son of Alexander Glasgow, [https://familysearch.org/ark:/61903/1:1:VQ4V-GQW record VQ4V-GQW] (accessed 2025).</ref>\n\nThe 1641 apprenticeship names Robert Glasgow, not Alexander Glasgow, as the father of the Edinburgh weaver. The two men should remain on separate profiles.\n\n=== Incorrect child profile ===\n\n'''[[Glasgow-1376|James Glasgow]]''' is not a supported child of this family and should not be attached as a son born on 29 January 1657.\n\nThe cited record for that date is the baptism of Marion Glasgow and names James Glasgow as her father. It is not a birth or baptism record for a son named James.\n\n=== Identity caution ===\n\nThis James should not be confused with '''[[Glasgow-3077|James Glasgow]]''', who married [[Clerk-460|Helen Clerk]] and was associated with [[Glasgow-3093|John Glasgow]].\n\nThe Edinburgh weaver is identified by:\n\n* the 1641 apprenticeship naming him as a son of Robert Glasgow;\n* his apprenticeship to William Sclaitter;\n* his 1649 admission as an Edinburgh burgess;\n* his occupation as a weaver;\n* his marriages to Bessie Whyte and Agnes Duncan; and\n* the 1686 burgess record identifying Marion Glasgow as his daughter.\n\n=== Further research ===\n\nUseful remaining records include:\n\n* the original apprenticeship papers or incorporation records;\n* records establishing whether [[Glasgow-1156|Robert Glasgow]] was the father named in the apprenticeship;\n* records identifying James's mother;\n* original baptism entries for each child;\n* any further records establishing the children's mothers;\n* a burial or testament for James;\n* records identifying James's birthplace; and\n* further records concerning William Calder and Marion Glasgow.\n\n== Sources ==\n\n<references />",
-      "biography_rechecked_at": "2026-10-21",
+      "biography_rechecked_at": "2026-10-23",
       "preservation_review_history": [
         "research/ancestry-connections/duffe-apprentice-preservation-2026-10-20.json"
       ]
@@ -7507,18 +7512,23 @@
       "queued_at": "2026-10-21",
       "status": "OPEN",
       "significance": 78,
-      "summary": "Probable father of the Duffe husband’s account,61%, through its identity with the existing son James-1150; this is not evidence of two distinct sons.",
-      "draft_path": "research/Glasgow-1156/edinburgh-older-weaver-2026-10-21.wiki",
-      "preservation_review_path": "research/ancestry-connections/edinburgh-older-weaver-preservation-2026-10-21.json",
+      "summary": "Existing son James Glasgow-1150 confidence 91%; Duffe son account 61% and own Andrew father 28% unchanged. Preserve earlier pending family amendments.",
+      "draft_path": "research/Glasgow-1156/early-review-2026-10-23.wiki",
+      "preservation_review_path": "research/ancestry-connections/early-parent-review-2026-10-23.json",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "child",
-          "status": "probable",
+          "status": "proved",
           "relative_id": "Glasgow-1150",
           "assertion_id": "C-review-20261017-duddingston-robert-james",
           "previous_status": "uncertain",
-          "scope": "Local research grade and biography explanation; live WikiTree flag remains uncertain."
+          "scope": "This regrades the existing James-1150 to Robert-1156 pair only, from 86% probable to 91% confident inference. It names no new father. Robert’s own Andrew-3163 father hypothesis stays 28%; Elizat’s and Deborah’s maternal conclusions are unchanged. The Duffe adult identification remains 70% and James-2682’s conditional Robert father remains 61%; these subjective nested assessments are not recalculated by multiplication. All people, life dates and other family links remain separate. No live WikiTree edit is made.",
+          "probability_percent": 91,
+          "previous_probability_percent": 86,
+          "previous_research_status": "probable",
+          "relative_url": "https://www.wikitree.com/wiki/Glasgow-1150",
+          "previous_status_provenance": "Existing father flag uncertain; recorded local research grade 86% probable on 17 October 2026, retained in assessment history."
         },
         {
           "action": "add",
@@ -7544,14 +7554,14 @@
           "probability_percent": 61,
           "previous_status": "absent",
           "assertion_id": "C-working-20261021-duffe-robert-father",
-          "scope": "Probable son account61%; likely the existing James-1150, not an additional proved child."
+          "scope": "Probable son account 61%; likely the existing James-1150, not an additional proved child."
         }
       ],
       "profile_id": "Glasgow-1156",
-      "biography_rechecked_at": "2026-10-21",
+      "biography_rechecked_at": "2026-10-23",
       "pending": true,
       "manual_update": true,
-      "work_queue_summary": "Probable father of the Duffe husband’s account,61%, through its identity with the existing son James-1150; this is not evidence of two distinct sons.",
+      "work_queue_summary": "Existing son James Glasgow-1150 confidence 91%; Duffe son account 61% and own Andrew father 28% unchanged. Preserve earlier pending family amendments.",
       "findings_path": "research/Glasgow-1156/findings.md",
       "preserve_captured_detail": false,
       "reviewed_narrative_reduction": true,
@@ -40770,6 +40780,40 @@
           "scope": "This subjective percentage assesses Jane’s father as the record-defined John Glasgow, farmer, named in John-867’s 1846 marriage. It does not identify the 1796 Desertoghill flax grower or establish John’s proposed Larne ancestry. Rosanna Unknown-761034 remains Jane’s separately unproved maternal attachment; this replacement does not identify John’s wife or prove a John–Rosanna marriage. Jane’s life dates and all existing relatives apart from the selected father are preserved. No live WikiTree edit is made."
         }
       ]
+    },
+    "Glasgow-591": {
+      "queued_at": "2026-10-17",
+      "status": "OPEN",
+      "significance": 85,
+      "summary": "Original 1725 deed: collective Glasgows are adjoining occupiers, with no personal forename. Preserve the qualified traditional pedigree, Scottish comparisons and full prior biography.",
+      "manual_update": true,
+      "draft_path": "research/Glasgow-591/early-review-2026-10-23.wiki",
+      "preservation_review_path": "research/ancestry-connections/early-parent-review-2026-10-23.json",
+      "reviewed_narrative_reduction": true,
+      "preserve_captured_detail": false,
+      "relationship_changes": [
+        {
+          "action": "add",
+          "relationship": "father",
+          "status": "uncertain",
+          "relative_id": "Glasgow-2462",
+          "assertion_id": "C-working-20261016-polwarth-cavers-ulster-working-family-ulster-father"
+        },
+        {
+          "action": "regrade",
+          "relationship": "child",
+          "status": "probable",
+          "previous_status": "unknown",
+          "relative_id": "Glasgow-551",
+          "assertion_id": "C-review-20261017-tyrone-traditional-father-glasgow-551",
+          "scope": "Probable local traditional pedigree role; no live certainty change or Scottish/Leitrim identity upgrade."
+        }
+      ],
+      "profile_id": "Glasgow-591",
+      "findings_path": "research/Glasgow-591/findings.md",
+      "pending": true,
+      "biography_rechecked_at": "2026-10-23",
+      "work_queue_summary": "Original 1725 deed: collective Glasgows are adjoining occupiers, with no personal forename. Preserve the qualified traditional pedigree, Scottish comparisons and full prior biography."
     }
   },
   "reviewed_on": "2026-10-22",

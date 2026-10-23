@@ -4,6 +4,8 @@ Last updated: 2026-10-17
 
 ## Current conclusion
 
+23 October 2026 original deed review: memorial 71,498, volume 101, p. 337, reads **“the Glasgows”**, collectively, as adjoining occupiers in Cavankilgreen, Tyrone. No personal forename is visible to recover; these occupiers are not the named lessees of the seventeen acres. The Falls lives are not Glasgow children. [Original reading and family boundary](/branches/research-irish-tamlaght/#tyrone-deed-71498). William-591 and John-551 remain compatible family comparisons only; no individual identification or father grade changes.
+
 **Earlier Tyrone parentage review, 17 October 2026:** William Glasgow-591 is assessed as the probable father of John Glasgow-551, and John as the probable father of Hugh Glasgow-548, within the explicit family-history pedigree. These are tradition-based probable roles, not documented identifications of the Scottish candidates, the Leitrim witness or either 1740 Hugh.
 
 Reviewed: 2026-10-17
@@ -41,7 +43,7 @@ it the **reported William c.1655 line**, not a proved Glasgow-591 result.
 | Ordnance Survey, Roxburghshire Name Book, vol. 8 | Places this Ormiston in Cavers parish, Roxburghshire. | Corrects the profile's East Lothian interpretation. |
 | Thomson, *A Cloud of Witnesses*, `sources/thomson_cloud_of_witnesses.pdf` | Lists John and William Glasgow under Cavers and marks both as wreck survivors. | No age, parents, kinship or later destination; does not establish migration to Ireland. |
 | Grant, *Commissariot Record of Lanark*, p. 38, `sources/commissariot_of_lanark_testament_index_1595-1800.pdf` | Indexes a different William at Quothquan on 9 April 1673. | Candidate lead only; no relationship to Glasgow-591. New-person draft is stored surname-wide. |
-| [Registry memorial 71,498](https://irishdeedsindex.net/mem.php?memorial=71498), vol. 101, p. 337 | A 1725 lease says Cavankilgreen, County Tyrone, was occupied by `[—] Glasgow`; the abstract omits or could not read the forename. | Highest-value Irish identity lead. The original could name William, John or another person, but the abstract proves no identity. |
+| [Registry memorial 71,498](https://irishdeedsindex.net/mem.php?memorial=71498), vol. 101, p. 337 | Original inspected 23 October 2026: “the Glasgows” collectively occupy a neighbouring portion used as a boundary of the Cavankilgreen lease. | Original now read: no individual forename appears; neither William nor John is identified. Trace the neighbouring Glasgow holding through estate/deed succession instead. |
 | [Registry memorial 38,213](https://irishdeedsindex.net/mem.php?memorial=38213), vol. 57, p. 235 | John Glasgow, gentleman of Gortigillagh, County Leitrim, witnessed a Johnston-network agreement in 1728. | Competing John candidate for the next generation; no connection to Glasgow-591 or Tyrone. |
 | Grant, *Commissariot Record of Lanark*, p. 38 | Quothquan/Quodquen testament entries occur for James Glasgow, webster (1624); John (1650 and 1662); William (1673, NRS `CC14/5/9`); and John of Quothquan/Libberton (1685). | Establishes a multigenerational local Glasgow cluster rather than an isolated same-name William. The index supplies no Cavers or Ulster bridge. |
 | [Ulster-Scots Agency, *The Covenanters in Ulster*](https://ulster-scots.com/wp-content/uploads/2023/11/USCN-Covenanters-in-Ulster-Tabloid.pdf) | James Young, two names after William in the Cavers survivor sequence, was among known wreck survivors later in Ulster. | Material FAN/migration-route evidence for the Cavers candidate; it does not say William migrated. |
@@ -148,3 +150,27 @@ Role in this account: possible later traditional Ulster account, not directly id
 
 Dates retain their source roles: register ranges are not event dates, and a later-born child can supply evidence for an earlier Glasgow parent. Candidate links do not assign the event or parents to the candidate. Existing vital fields, family attachments and relationship grades are retained. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
 <!-- END FMP-CACHE-NEXT-20261023 -->
+
+## Tyrone deed original review — 23 October 2026
+
+Reviewed 23 October 2026. The manuscript’s preferred reading is **“the Glasgows”**, collectively, with no visible personal forename. They occupy an adjoining portion used to describe the leased land’s boundary. They are not named as the lessee or as holders of the seventeen acres granted by this deed. This resolves the earlier question whether the abstract had omitted a recoverable Glasgow forename; it does not identify these occupiers with a particular family.
+
+The existing compatible family comparison remains [William Glasgow-591’s biography](/people/glasgow-591.html) ([WikiTree](https://www.wikitree.com/wiki/Glasgow-591)) and [John Glasgow-551’s biography](/people/glasgow-551.html) ([WikiTree](https://www.wikitree.com/wiki/Glasgow-551)). Their later family-history account places the family in Tyrone, but the memorial supplies neither William nor John, a Glasgow relationship, an age, nor a migration history. No identification, father-confidence change, family join or new person follows from this reading.
+
+## Manuscript and reading
+
+The source is Registry of Deeds, **volume 101, page 337, memorial 71,498**, deed dated **18 May 1725**, registered **1 June 1741**. The inspected [FamilySearch original register image](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJM-KFYZ?cat=185720&i=174&lang=en) is **DGS 008088382, image 175** (viewer index 174). This is a reading of the register manuscript, not merely a transcription of the volunteer abstract. Source pixels and raw captures are not reproduced here.
+
+Short diplomatic excerpt; line breaks follow the passage, abbreviations are retained, and brackets mark unresolved readings:
+
+> “… that part of the Town Land of [townland spelling uncertain] / […] that lyes Between the Road leading to [Ligen…?] and that pt. of the sd. Town / Possed by the Glasgows togr. wth. Half of the [Bogg?] Meadow so Called Contg. by Estimn. / Seventeen Scotch Acres English Measure be the same more or less …”
+
+“Possed” means possessed; “togr. wth.” means together with. The small terminal *s* after *Glasgow* favours the plural. “By the Glasgows” describes occupiers; the following “together with Half…” returns to the property being granted. The townland is rendered **Cavankilgreen** in the abstract; its exact manuscript spelling and the road destination remain uncertain in this review.
+
+The acreage reads **seventeen**, correcting the abstract’s **twelve**. The three named lives are **John Falls, James Falls and Mary Falls**, expressly children of John Falls. They are Falls children, not Glasgow children. Acheson Moore and John Falls are record parties; no modern profile identification is assigned to them here.
+
+## What the original resolves, and the next test
+
+The [Irish Deeds Index entries for memorial 71,498](https://irishdeedsindex.net/mem.php?memorial=71498) describe one underlying memorial. Their two abstracts are not independent corroboration. The fuller abstract’s blank Glasgow forename should no longer be treated as evidence that the manuscript contains an omitted John or William. Earlier notes that the original was unread are superseded by this inspection.
+
+The useful next test is to identify the Glasgow holding through **Moore estate leases and deeds for the same locality**, following boundaries, occupiers and succession. Repeatedly seeking a supposedly omitted personal forename in this clause will not resolve the identity: none is visible. The number and relationships of the collective occupiers remain unproved.

@@ -4021,13 +4021,13 @@
   },
   {
     "record_id": "edinburgh-james-robert-apprenticeship-1641",
-    "association": "direct father name; probable match to Duddingston burial",
+    "association": "direct father name; confident inferred match to Duddingston burial",
     "date": "1641-06-16",
     "year": 1641,
     "place": "Wester Duddingston; Edinburgh",
     "source_url": "https://archive.org/details/scottishrecordso28scotuoft/page/71/mode/2up",
-    "status": "Printed register transcription re-read; existing evidence reassessed",
-    "note": "James, son of Robert, apprenticed to William Sclaitter; specific Duddingston association. Son-to-adult identity proved by 1649 date/master cross-reference; father-to-burial identity probable. Reassessed21October2026: Edinburgh: the Duffe father probably is the older weaver; identity70%, conditional Robert father61%. The cited printed registers, apprenticeship entries and parish index associations were already held and reviewed; no manuscript or new original page was inspected for this reassessment.",
+    "status": "James Glasgow-1150→Robert Glasgow-1156 confident inference 91%; separate upstream and Duffe grades unchanged",
+    "note": "The 1641 apprenticeship expressly names Robert as James’s father and supplies the Wester Duddingston association. The 1649 burgess entry repeats William Sclaitter and the exact 16 June 1641 apprenticeship date, securely identifying that son as the Edinburgh weaver James-1150. The indexed Robert Glasgow burial in the same parish on 17 January 1647 is a coherent match to that father six years later. No positively evidenced competing Duddingston Robert has emerged from the held family comparisons. Robert-1027 is a Glasgow cordiner with proved parents but no held Duddingston connection; Robert-4006 is a possible earlier identity of this adult, not evidence of a second local father. Together these positive identity and locality links warrant 91% confident inference rather than retaining a probable ceiling solely for an unattested namesake possibility. The father’s identification with the burial account remains inferred, not a direct statement joining those records. The burial index supplies no age, occupation, wife, child or precise residence; parish burial alone does not prove residence at Wester Duddingston. The burgess entry corroborates James’s identity, not an independent father statement. The placement of “servitor” in the printed apprenticeship remains ambiguous. No numerical surname-rarity claim is made. A different local Robert remains possible, and the original burial is still uninspected. This regrades the existing James-1150 to Robert-1156 pair only, from 86% probable to 91% confident inference. It names no new father. Robert’s own Andrew-3163 father hypothesis stays 28%; Elizat’s and Deborah’s maternal conclusions are unchanged. The Duffe adult identification remains 70% and James-2682’s conditional Robert father remains 61%; these subjective nested assessments are not recalculated by multiplication. All people, life dates and other family links remain separate. No live WikiTree edit is made.",
     "role": "apprentice and father",
     "profiles": {
       "Glasgow-1150": {
@@ -4035,19 +4035,24 @@
         "timeline_group": "Family records"
       },
       "Glasgow-1156": {
-        "role": "Probable identity of named father",
+        "role": "Confident inferred identity of the named father; 91%",
         "timeline_group": "Family records"
       },
       "Glasgow-2682": {
-        "role": "Probable same adult as the older Edinburgh weaver; identity70%, not a direct Duffe household clause",
+        "role": "Probable same adult as the older Edinburgh weaver; identity 70%, not a direct Duffe household clause",
         "identification_status": "probable",
         "probability": 0.7,
         "timeline_group": "Possible connections"
       }
     },
-    "source_title": "Grant, Register of Apprentices of Edinburgh (1906), printed p.71: James, father Robert, Wester Duddingston, William Sclaitter, 16 June 1641; printed page re-read",
+    "source_title": "Grant, Register of Apprentices of Edinburgh (1906), printed p. 71: James, father Robert, Wester Duddingston, William Sclaitter, 16 June 1641; printed page re-read",
     "source_type": "Printed archival register transcription",
-    "source_status": "Printed register transcription re-read; existing evidence reassessed"
+    "source_status": "Printed register transcription re-read; existing evidence reassessed",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true,
+    "provenance": "research/ancestry-connections/early-parent-review-2026-10-23.json",
+    "country": "Scotland",
+    "source_quality": "Published register transcription; original burial remains uninspected"
   },
   {
     "record_id": "edinburgh-james-burgess-1649",
@@ -4056,8 +4061,8 @@
     "year": 1649,
     "place": "Edinburgh",
     "source_url": "https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/roll_of_edinburgh_burgesses_1406_to_1700.pdf#page=218",
-    "status": "Maintained earlier printed-source review; existing evidence reassessed",
-    "note": "James, weaver, admitted through late William Sclaitter; repeats 16 June 1641 apprenticeship. Not an independent second father statement. Reassessed21October2026: Edinburgh: the Duffe father probably is the older weaver; identity70%, conditional Robert father61%. The cited printed registers, apprenticeship entries and parish index associations were already held and reviewed; no manuscript or new original page was inspected for this reassessment.",
+    "status": "James Glasgow-1150→Robert Glasgow-1156 confident inference 91%; separate upstream and Duffe grades unchanged",
+    "note": "The 1641 apprenticeship expressly names Robert as James’s father and supplies the Wester Duddingston association. The 1649 burgess entry repeats William Sclaitter and the exact 16 June 1641 apprenticeship date, securely identifying that son as the Edinburgh weaver James-1150. The indexed Robert Glasgow burial in the same parish on 17 January 1647 is a coherent match to that father six years later. No positively evidenced competing Duddingston Robert has emerged from the held family comparisons. Robert-1027 is a Glasgow cordiner with proved parents but no held Duddingston connection; Robert-4006 is a possible earlier identity of this adult, not evidence of a second local father. Together these positive identity and locality links warrant 91% confident inference rather than retaining a probable ceiling solely for an unattested namesake possibility. The father’s identification with the burial account remains inferred, not a direct statement joining those records. The burial index supplies no age, occupation, wife, child or precise residence; parish burial alone does not prove residence at Wester Duddingston. The burgess entry corroborates James’s identity, not an independent father statement. The placement of “servitor” in the printed apprenticeship remains ambiguous. No numerical surname-rarity claim is made. A different local Robert remains possible, and the original burial is still uninspected. This regrades the existing James-1150 to Robert-1156 pair only, from 86% probable to 91% confident inference. It names no new father. Robert’s own Andrew-3163 father hypothesis stays 28%; Elizat’s and Deborah’s maternal conclusions are unchanged. The Duffe adult identification remains 70% and James-2682’s conditional Robert father remains 61%; these subjective nested assessments are not recalculated by multiplication. All people, life dates and other family links remain separate. No live WikiTree edit is made.",
     "role": "burgess",
     "profiles": {
       "Glasgow-1150": {
@@ -4065,35 +4070,52 @@
         "timeline_group": "Family records"
       },
       "Glasgow-2682": {
-        "role": "Probable same adult as the older Edinburgh weaver; identity70%, not a direct Duffe household clause",
+        "role": "Probable same adult as the older Edinburgh weaver; identity 70%, not a direct Duffe household clause",
         "identification_status": "probable",
         "probability": 0.7,
         "timeline_group": "Possible connections"
+      },
+      "Glasgow-1156": {
+        "role": "Context only: father inferred from 1641 apprenticeship; not named in this burgess entry"
       }
     },
-    "source_title": "Watson, Roll of Edinburgh Burgesses (1929), printed p.208 (PDF p.218): James the weaver, 20 June 1649, matching Sclaitter and 16 June 1641 apprenticeship",
+    "source_title": "Watson, Roll of Edinburgh Burgesses (1929), printed p. 208 (PDF p. 218): James the weaver, 20 June 1649, matching Sclaitter and 16 June 1641 apprenticeship",
     "source_type": "Printed archival register transcription",
-    "source_status": "Maintained earlier printed-source review; existing evidence reassessed"
+    "source_status": "Maintained earlier printed-source review; existing evidence reassessed",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true,
+    "provenance": "research/ancestry-connections/early-parent-review-2026-10-23.json",
+    "country": "Scotland",
+    "source_quality": "Published register transcription; original burial remains uninspected"
   },
   {
     "record_id": "duddingston-robert-burial-1647",
-    "association": "direct burial; probable father identity",
+    "association": "indexed burial; confident inferred father identity",
     "date": "1647-01-17",
     "year": 1647,
     "place": "Duddingston",
     "source_url": "https://www.scotlandspeople.gov.uk/",
-    "status": "OPR index citation 684/60/47; original register not inspected for this review",
-    "note": "Robert Glasgow burial. No age, wife, child or occupation supplied by the indexed citation. Probable identification with 1641 father, not documentary parentage.",
+    "status": "James Glasgow-1150→Robert Glasgow-1156 confident inference 91%; separate upstream and Duffe grades unchanged",
+    "note": "The 1641 apprenticeship expressly names Robert as James’s father and supplies the Wester Duddingston association. The 1649 burgess entry repeats William Sclaitter and the exact 16 June 1641 apprenticeship date, securely identifying that son as the Edinburgh weaver James-1150. The indexed Robert Glasgow burial in the same parish on 17 January 1647 is a coherent match to that father six years later. No positively evidenced competing Duddingston Robert has emerged from the held family comparisons. Robert-1027 is a Glasgow cordiner with proved parents but no held Duddingston connection; Robert-4006 is a possible earlier identity of this adult, not evidence of a second local father. Together these positive identity and locality links warrant 91% confident inference rather than retaining a probable ceiling solely for an unattested namesake possibility. The father’s identification with the burial account remains inferred, not a direct statement joining those records. The burial index supplies no age, occupation, wife, child or precise residence; parish burial alone does not prove residence at Wester Duddingston. The burgess entry corroborates James’s identity, not an independent father statement. The placement of “servitor” in the printed apprenticeship remains ambiguous. No numerical surname-rarity claim is made. A different local Robert remains possible, and the original burial is still uninspected. On 23 October 2026 the signed-in FamilySearch catalogue identified Duddingston OPR 684 volumes 1–8, catalogue koha:31948. Preferred film 1066684/DGS 007908839 includes the 1631–1667 burials; alternative film 103022/DGS 008059362 includes the same period. Both normal viewers displayed “Unable to Display Image Group” and denied permission to share it. This is a custodial-access limit, not a missing record, a sign-in problem or negative genealogy. Seek OPR 684/60/47 through normal authorized ScotlandsPeople access or a custodian/library copy; do not repeat the same blocked film lookup.",
     "role": "buried person",
     "profiles": {
       "Glasgow-1156": {
-        "role": "Buried person, probable identity of the 1641 father",
+        "role": "Buried person, confidently inferred identity of the 1641 father; original burial uninspected",
         "timeline_group": "Family records"
+      },
+      "Glasgow-1150": {
+        "role": "Context only: inferred father burial; James is not named in the burial index"
       }
     },
     "source_title": "NRS Duddingston OPR deaths/burials 684/60/47: Robert Glasgow, 17 January 1647; indexed citation, original image not inspected for this review",
     "source_type": "Parish burial index citation",
-    "source_status": "OPR index citation 684/60/47; original register not inspected for this review"
+    "source_status": "OPR index citation 684/60/47; original register not inspected for this review",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": false,
+    "provenance": "research/ancestry-connections/early-parent-review-2026-10-23.json",
+    "country": "Scotland",
+    "source_quality": "Index citation; original access denied, not inspected",
+    "record_publication_scope": "Retain the existing indexed-citation route. Generic provider homepage is shared by multiple sources and cannot identify a unique flat record document; no new original inspected."
   },
   {
     "record_id": "wm-glasgow-hugh-mccullough-family-account",
@@ -38382,6 +38404,39 @@
     "profiles": {},
     "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BAP~13607401",
     "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "ireland-deed-71498-1725",
+    "record_type": "Land deed; adjoining occupiers",
+    "record_category": "Other records",
+    "date": "18 May 1725; registered 1 June 1741",
+    "year": 1725,
+    "country": "Ireland",
+    "place": "Cavankilgreen, County Tyrone, Ireland",
+    "association": "The Glasgows, collective adjoining occupiers; Moore–Falls lease, memorial 71498",
+    "person": "Glasgows of Cavankilgreen (individuals unnamed)",
+    "source_title": "Registry of Deeds, memorial 71498, volume 101, p. 337; DGS 008088382, image 175",
+    "source_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJM-KFYZ?cat=185720&i=174&lang=en",
+    "source_type": "original_manuscript",
+    "source_quality": "original_manuscript",
+    "source_status": "Original register image visually inspected 23 October 2026",
+    "status": "Collective surname occupiers confirmed; no individual forename or Glasgow parent named",
+    "profiles": {
+      "Glasgow-591": {
+        "role": "Compatible Tyrone family comparison only; William not named or identified",
+        "identification_status": "uncertain",
+        "timeline_group": "Possible connections"
+      },
+      "Glasgow-551": {
+        "role": "Compatible family comparison only; John not named or identified",
+        "identification_status": "uncertain",
+        "timeline_group": "Possible connections"
+      }
+    },
+    "note": "The manuscript reads the Glasgows collectively as boundary occupiers, not the named lessee or grantees of the seventeen acres. John, James and Mary Falls are explicitly children of the lessee John Falls, not Glasgow children. The shorter abstract’s twelve acres is corrected to seventeen; no land-area conversion is attempted. Townland spelling is normalized from the abstract; manuscript road destination remains unresolved. No identification or parent confidence change for William Glasgow-591 or John Glasgow-551. Two abstracts are one underlying memorial. Complete interpretation: /branches/research-irish-tamlaght/#tyrone-deed-71498",
+    "reviewed_on": "2026-10-23",
+    "provenance": "research/Glasgow-591/tyrone-71498-review-2026-10-23.md",
     "publish_to_record_index": true
   }
 ]

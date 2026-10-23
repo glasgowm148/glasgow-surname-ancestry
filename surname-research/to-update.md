@@ -4162,3 +4162,11 @@ Twenty provider transcripts are reviewed in fifteen documentary groups. Existing
 | --- | --- | --- |
 | [Jane Catherine Dysart](https://www.wikitree.com/wiki/Glasglow-11) | OPEN | Replace ungraded father Alexander-3904 with John-4090, 92% confident inference; preserve mother and full biography. |
 | [John Glasgow, farmer](https://www.wikitree.com/wiki/Glasgow-4090) | OPEN | Add Jane as confidently inferred daughter, 92%; retain all earlier pending amendments and separate upstream assessment. |
+
+### Duddingston father and Tyrone original — 23 October 2026
+
+| Profile | Status | Amendment |
+| --- | --- | --- |
+| [James Glasgow](https://www.wikitree.com/wiki/Glasgow-1150) | OPEN | Regrade existing James Glasgow-1150–Robert Glasgow-1156 father pair 86%→91%, with original burial still uninspected; preserve prior pending amendments. |
+| [Robert Glasgow I](https://www.wikitree.com/wiki/Glasgow-1156) | OPEN | Regrade existing James Glasgow-1150–Robert Glasgow-1156 father pair 86%→91%, with original burial still uninspected; preserve prior pending amendments. |
+| [William Glasgow](https://www.wikitree.com/wiki/Glasgow-591) | OPEN | Clarify the original 1725 collective Glasgow boundary occupiers; no individual forename or parent change. |

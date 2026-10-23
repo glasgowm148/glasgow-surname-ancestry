@@ -7,6 +7,8 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
+23 October 2026 original deed review: memorial 71,498, volume 101, p. 337, reads **“the Glasgows”**, collectively, as adjoining occupiers in Cavankilgreen, Tyrone. No personal forename is visible to recover; these occupiers are not the named lessees of the seventeen acres. The Falls lives are not Glasgow children. [Original reading and family boundary](/branches/research-irish-tamlaght/#tyrone-deed-71498). William-591 and John-551 remain compatible family comparisons only; no individual identification or father grade changes.
+
 **Earlier Tyrone parentage review, 17 October 2026:** William Glasgow-591 is assessed as the probable father of John Glasgow-551, and John as the probable father of Hugh Glasgow-548, within the explicit family-history pedigree. These are tradition-based probable roles, not documented identifications of the Scottish candidates, the Leitrim witness or either 1740 Hugh.
 
 Reviewed: 2026-10-17
@@ -67,3 +69,9 @@ Sources: [History of the Glasgow Family, attributed to Melanchthon Glasgow: proj
 The source inspection used the existing scanned project copy. Online re-fetch was unavailable; no new contemporary parent record is claimed.
 
 [Full pedigree assessment and retained alternatives](/branches/research-irish-tamlaght/#tyrone-traditional-fathers).
+
+## Cavankilgreen family comparison — 23 October 2026
+
+23 October 2026 original deed review: memorial 71,498, volume 101, p. 337, reads **“the Glasgows”**, collectively, as adjoining occupiers in Cavankilgreen, Tyrone. No personal forename is visible to recover; these occupiers are not the named lessees of the seventeen acres. The Falls lives are not Glasgow children. [Original reading and family boundary](/branches/research-irish-tamlaght/#tyrone-deed-71498). William-591 and John-551 remain compatible family comparisons only; no individual identification or father grade changes.
+
+The original was visually inspected at [DGS 008088382, image 175; volume 101, p. 337](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJM-KFYZ?cat=185720&i=174&lang=en). The adjacent collective holding does not identify this John or his traditional father William. The complete reading and remaining questions are in [William’s account](/people/glasgow-591.html#research-findings).

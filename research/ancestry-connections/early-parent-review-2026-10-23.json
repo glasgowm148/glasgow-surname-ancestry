@@ -1,0 +1,204 @@
+{
+  "reviewed": "2026-10-23",
+  "child": "Glasgow-1150",
+  "father": "Glasgow-1156",
+  "before_percent": 86,
+  "after_percent": 91,
+  "basis": "The 1641 apprenticeship expressly names Robert as James’s father and supplies the Wester Duddingston association. The 1649 burgess entry repeats William Sclaitter and the exact 16 June 1641 apprenticeship date, securely identifying that son as the Edinburgh weaver James-1150. The indexed Robert Glasgow burial in the same parish on 17 January 1647 is a coherent match to that father six years later. No positively evidenced competing Duddingston Robert has emerged from the held family comparisons. Robert-1027 is a Glasgow cordiner with proved parents but no held Duddingston connection; Robert-4006 is a possible earlier identity of this adult, not evidence of a second local father. Together these positive identity and locality links warrant 91% confident inference rather than retaining a probable ceiling solely for an unattested namesake possibility.",
+  "limitations": "The father’s identification with the burial account remains inferred, not a direct statement joining those records. The burial index supplies no age, occupation, wife, child or precise residence; parish burial alone does not prove residence at Wester Duddingston. The burgess entry corroborates James’s identity, not an independent father statement. The placement of “servitor” in the printed apprenticeship remains ambiguous. No numerical surname-rarity claim is made. A different local Robert remains possible, and the original burial is still uninspected.",
+  "scope": "This regrades the existing James-1150 to Robert-1156 pair only, from 86% probable to 91% confident inference. It names no new father. Robert’s own Andrew-3163 father hypothesis stays 28%; Elizat’s and Deborah’s maternal conclusions are unchanged. The Duffe adult identification remains 70% and James-2682’s conditional Robert father remains 61%; these subjective nested assessments are not recalculated by multiplication. All people, life dates and other family links remain separate. No live WikiTree edit is made.",
+  "source_inspection": "No new original father source; the Tyrone deed is separately newly inspected.",
+  "profiles": {
+    "Glasgow-1150": {
+      "current_sha256": "d2e1688a9672dcb7e850422c038b3d9d486ab83280bc9a2f15c8f2cc45e8e77d",
+      "proposed_sha256": "c9506ad50c8521530de087b8f086c8bf7724eb389839c60ddce23e1c041d6e00",
+      "all_substantive_passages_accounted_for": true,
+      "draft_path": "research/Glasgow-1150/early-review-2026-10-23.wiki",
+      "retained": "Complete effective public pending biography and all captured/pending source identities retained; current review added with supersession scope, all family and life data preserved.",
+      "prior_pending_draft_path": "research/Glasgow-1150/edinburgh-older-weaver-2026-10-21.wiki",
+      "prior_pending_sha256": "eb94e935cab1e19d9cb7e6bd6dd1eaeea6a8bce317986632b9e237c5a04d3fc4"
+    },
+    "Glasgow-1156": {
+      "current_sha256": "154e8bca788c4ce3701275696bc3904ba8e6d7b9b62ddaf5c2b422ddfa0f2572",
+      "proposed_sha256": "d45102608c2d67c965e064b8ff9f18525ee491003b78a8a6c8e99bdd01f03b4c",
+      "all_substantive_passages_accounted_for": true,
+      "draft_path": "research/Glasgow-1156/early-review-2026-10-23.wiki",
+      "retained": "Complete effective public pending biography and all captured/pending source identities retained; current review added with supersession scope, all family and life data preserved.",
+      "prior_pending_draft_path": "research/Glasgow-1156/edinburgh-older-weaver-2026-10-21.wiki",
+      "prior_pending_sha256": "237f07dac822d7e0d57a66af68d609e79dff5a21e1baaa10daeb1efcb0e986cd"
+    },
+    "Glasgow-591": {
+      "current_sha256": "5ba20191b9c221c25562336c27c47fa6c30f01b8ce7ebfe6cfb40b89b45d35c4",
+      "proposed_sha256": "54e0c9a455215c303c9db35d332e37a4368757e78898ae664609c6291d6ce616",
+      "all_substantive_passages_accounted_for": true,
+      "draft_path": "research/Glasgow-591/early-review-2026-10-23.wiki",
+      "retained": "Complete effective public pending biography and all captured/pending source identities retained; current review added with supersession scope, all family and life data preserved.",
+      "prior_pending_draft_path": "research/Glasgow-591/Glasgow-591.md",
+      "prior_pending_sha256": "d97052ff41de489b0b18abd5c43149d6b4d35cf6818e28cec82cba6ae5ffcd3d"
+    }
+  },
+  "verification": {
+    "three_tree_models_agree": true,
+    "no_existing_branch_merge": true,
+    "stale_asset_references": 0,
+    "other_father_fields_unchanged": true,
+    "standalone_cohort_only_comparison": true,
+    "current_four_models_match_dossiers": true,
+    "selected_father_unchanged": true,
+    "prior_86_percent_17_october_retained": true,
+    "one_86_to_91_confidence_change": true,
+    "upstream_28_duffe_61_identity_70_retained": true,
+    "cohort_working_supported_unknown_unchanged": true,
+    "metric_changes": {
+      "1500": {
+        "working": {
+          "edge_delta": 0,
+          "component_delta": 0
+        },
+        "supported": {
+          "edge_delta": 0,
+          "component_delta": 0
+        },
+        "confident": {
+          "edge_delta": 0,
+          "component_delta": 0
+        }
+      },
+      "1550": {
+        "working": {
+          "edge_delta": 0,
+          "component_delta": 0
+        },
+        "supported": {
+          "edge_delta": 0,
+          "component_delta": 0
+        },
+        "confident": {
+          "edge_delta": 0,
+          "component_delta": 0
+        }
+      },
+      "1600": {
+        "working": {
+          "edge_delta": 0,
+          "component_delta": 0
+        },
+        "supported": {
+          "edge_delta": 0,
+          "component_delta": 0
+        },
+        "confident": {
+          "edge_delta": 0,
+          "component_delta": 0
+        }
+      },
+      "1650": {
+        "working": {
+          "edge_delta": 0,
+          "component_delta": 0
+        },
+        "supported": {
+          "edge_delta": 0,
+          "component_delta": 0
+        },
+        "confident": {
+          "edge_delta": 1,
+          "component_delta": -1
+        }
+      },
+      "1700": {
+        "working": {
+          "edge_delta": 0,
+          "component_delta": 0
+        },
+        "supported": {
+          "edge_delta": 0,
+          "component_delta": 0
+        },
+        "confident": {
+          "edge_delta": 1,
+          "component_delta": -1
+        }
+      },
+      "1750": {
+        "working": {
+          "edge_delta": 0,
+          "component_delta": 0
+        },
+        "supported": {
+          "edge_delta": 0,
+          "component_delta": 0
+        },
+        "confident": {
+          "edge_delta": 1,
+          "component_delta": -1
+        }
+      },
+      "1800": {
+        "working": {
+          "edge_delta": 0,
+          "component_delta": 0
+        },
+        "supported": {
+          "edge_delta": 0,
+          "component_delta": 0
+        },
+        "confident": {
+          "edge_delta": 1,
+          "component_delta": -1
+        }
+      },
+      "1850": {
+        "working": {
+          "edge_delta": 0,
+          "component_delta": 0
+        },
+        "supported": {
+          "edge_delta": 0,
+          "component_delta": 0
+        },
+        "confident": {
+          "edge_delta": 1,
+          "component_delta": -1
+        }
+      }
+    },
+    "full_compact_regrade_badge_agrees": true,
+    "source_identities_preserved": true,
+    "complete_drafts": true,
+    "collective_boundary_not_individual_parentage": true,
+    "deed_original_inspection_provenance": true,
+    "publication_new_failures": 0,
+    "link_new_failures": 0,
+    "http_routes_checked": 11,
+    "browser_verified": false,
+    "source_routes_in_sitemap_and_library": true
+  },
+  "original_access": {
+    "catalogue": "https://www.familysearch.org/en/search/catalog/koha:31948",
+    "preferred_dgs": "007908839",
+    "alternate_dgs": "008059362",
+    "original_inspected": false,
+    "outcome": "On 23 October 2026 the signed-in FamilySearch catalogue identified Duddingston OPR 684 volumes 1–8, catalogue koha:31948. Preferred film 1066684/DGS 007908839 includes the 1631–1667 burials; alternative film 103022/DGS 008059362 includes the same period. Both normal viewers displayed “Unable to Display Image Group” and denied permission to share it. This is a custodial-access limit, not a missing record, a sign-in problem or negative genealogy. Seek OPR 684/60/47 through normal authorized ScotlandsPeople access or a custodian/library copy; do not repeat the same blocked film lookup."
+  },
+  "tyrone_original": {
+    "record_id": "ireland-deed-71498-1725",
+    "source_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJM-KFYZ?cat=185720&i=174&lang=en",
+    "volume": 101,
+    "page": 337,
+    "memorial": 71498,
+    "dgs": "008088382",
+    "displayed_image": 175,
+    "original_inspected": true,
+    "reading": "the Glasgows",
+    "role": "Collective adjoining occupiers, not named lessees or holders of the seventeen acres granted.",
+    "no_personal_forename": true,
+    "no_father_confidence_change": true,
+    "raw_capture_published": false
+  },
+  "dispatch_only": [
+    "Andrew Glasgow-3163–John Glasgow-1093 remains 32%",
+    "Robert Glasgow-1156–Andrew Glasgow-3163 remains 28%"
+  ],
+  "record_publication_scope": "Two printed record sources and the newly inspected Tyrone deed ingested; the 1647 burial retains its existing indexed citation because its generic provider URL is ambiguous across source documents."
+}
