@@ -36706,5 +36706,84 @@
         "role": "Probable existing-profile candidate for the named father Samuel; numbered identity not proved."
       }
     }
+  },
+  {
+    "record_id": "fs-joseph-glasgo-campbell-death-1877",
+    "date": "1 September 1877",
+    "year": 1877,
+    "place": "James River, Campbell County, Virginia, United States",
+    "country": "United States",
+    "source_title": "Jos. Glasgo, Campbell death register,1September1877, image 45",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:X5Y6-54C",
+    "source_type": "civil_death_register",
+    "source_quality": "Original register image inspected 23October2026; companion indexes are finding aids",
+    "status": "Named parent roles indexed; Roanoke identity probable 74%, date and birthplace differences retained",
+    "note": "Original row: Jos. Glasgo;1September1877; colored male; Old Age;80; parents Thomas & Rose Glasgo; birthplace ditto Campbell; informant J. Glasgo, Son; consort ditto Unmarried. The original 1877 entry gives age 80 and a ditto Campbell birthplace, whereas the Roanoke account gives Richmond and the 1870 census age 80 implies about 1790. Its consort column repeats Unmarried rather than naming Lucy. The informant is J. Glasgo, designated Son, without a full forename. The younger Joseph’s1914 certificate clearly names mother Lucy Gilbert, but its father abbreviation remains ambiguous Jas./Jos.; independent readings prefer Jas., and the father’s birthplace is uncertain, tentatively Fredericktown, Md. It does not resolve the 1877 deceased’s identity or name Thomas. Census and marriage household accounts are reused captures, not freshly inspected images. Companion death indexes concern the same event. No existing numbered Thomas, marriage to Rose, older Glasgow lineage or common Y-DNA origin is established.",
+    "reviewed_on": "2026-10-23",
+    "provenance": "research/ancestry-connections/roanoke-thomas-review-2026-10-23.json",
+    "publish_to_record_index": true,
+    "profiles": {
+      "Glasgow-2573": {
+        "role": "Preferred probable identity of the deceased74%; Campbell/Richmond and age differences unresolved."
+      },
+      "record-thomas-glasgo-campbell-1877": {
+        "role": "Source-defined indexed father; full relation to Roanoke Joseph probable74%, numbered Thomas identity HOLD."
+      }
+    },
+    "image_url": "https://www.familysearch.org/ark:/61903/3:1:S3HT-6LS7-3D7"
+  },
+  {
+    "record_id": "cssr-joe-glasgow-roanoke-cohabitation-1866",
+    "date": "1866 (cohabitation began4 July 1839)",
+    "year": 1866,
+    "place": "Roanoke County, Virginia, United States",
+    "country": "United States",
+    "source_title": "CSSR Joe Glasgow account, 1866 Roanoke cohabitation register p. 2 line 37",
+    "source_url": "https://cssr.roanoke.edu/s/genarchives/item/4703",
+    "source_type": "register_derived_university_account",
+    "source_quality": "University account derived from cohabitation register; original uninspected",
+    "status": "Exact family household; source inspected23 October 2026; no upstream parent named",
+    "note": "Joe is a Richmond-born carpenter, partner of Lucy Gilbert, father of John, Becky, Nancy, Collins, Lucy, Caroline, Mary, Sarah and Joe. Cohabitation began 4 July 1839. George P. Tayloe is named as enslaver. This account does not name Joe’s parents and is not proof of Thomas’s identity.",
+    "reviewed_on": "2026-10-23",
+    "provenance": "research/ancestry-connections/roanoke-thomas-review-2026-10-23.json",
+    "publish_to_record_index": true,
+    "profiles": {
+      "Glasgow-2573": {
+        "role": "Direct named Joe of the Lucy Gilbert household."
+      },
+      "Glasgow-3722": {
+        "role": "Preferred existing account of the named child Joe; later census continuation is held evidence, not freshly inspected images."
+      }
+    }
+  },
+  {
+    "record_id": "fs-joseph-r-glasgow-lynchburg-death-1914",
+    "date": "24February1914",
+    "year": 1914,
+    "place": "Lynchburg, Virginia, United States",
+    "country": "United States",
+    "source_title": "Joseph R. Glasgow death certificate 2828,24February1914",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:QVRQ-KGQQ",
+    "image_url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L9G2-PZ7P",
+    "source_type": "civil_death_certificate",
+    "source_quality": "Original certificate inspected 23October2026",
+    "status": "Existing Joseph Glasgow-3722 comparison; mother Lucy Gilbert clear, father abbreviation and birthplace unresolved;91% retained",
+    "note": "The original 24February1914 certificate 2828 names mother Lucy Gilbert. Its father abbreviation remains ambiguous Jas./Jos. (the index and independent image readings prefer Jas.), with an uncertain birthplace tentatively read Fredericktown, Md. This is not a resolved Joseph/Richmond reading and supplies no basis for an upgrade. Retain the existing 91% father assessment from the combined held family account, with this conflict expressly open. Age 53 differs from the profile’s circa 1849 birth and census ages. The occupation is railway brakeman and informant Lucy Williams; the informant’s identification as Joseph’s sister remains an inference. The 1914 certificate does not independently identify the 1877 deceased or connect him to Thomas. Death 24 February; filed 25 February. No complete birth year recorded.",
+    "reviewed_on": "2026-10-23",
+    "provenance": "research/ancestry-connections/roanoke-thomas-review-2026-10-23.json",
+    "publish_to_record_index": true,
+    "historical_basis": {
+      "latest_birth_year": 1861,
+      "source_url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L9G2-PZ7P",
+      "reason": "The original1914 certificate records age53, establishing birth no later than1861; this source-supported bound is for historical eligibility, not a replacement for the disputed birth date."
+    },
+    "profiles": {
+      "Glasgow-3722": {
+        "role": "Deceased; existing household identity supported by named parents and railway occupation."
+      },
+      "Glasgow-2573": {
+        "role": "Father written Jos. Glasgow, Richmond-born; exact family identification assessed96%."
+      }
+    }
   }
 ]

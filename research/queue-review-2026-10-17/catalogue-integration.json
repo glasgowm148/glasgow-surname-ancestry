@@ -39338,11 +39338,11 @@
       "status": "OPEN",
       "pending": true,
       "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
+      "biography_rechecked_at": "2026-10-23",
       "draft_path": "research/Glasgow-3722/father-confidence-2026-10-22i.wiki",
       "findings_path": "research/Glasgow-3722/findings.md",
-      "summary": "Review existing father at 91% (proved), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 91% (proved), retaining source and identity limits; no new father attachment.",
+      "summary": "Retain existing father 91%; original 1914 certificate confirms Lucy Gilbert but leaves Jas./Jos. and father birthplace unresolved; no new father attachment.",
+      "work_queue_summary": "Existing father 91% retained after original-source review; age and father-name/place differences remain open.",
       "relationship_changes": [
         {
           "action": "regrade",
@@ -39353,8 +39353,8 @@
           "previous_probability_percent": null,
           "probability_percent": 91,
           "assertion_id": "C-coverage-20261022i-glasgow-3722-father",
-          "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate."
+          "previous_status_provenance": "Pre-batch public dossier and selected through 1850 graph,22October2026; saved mark retained separately; no live edit.",
+          "scope": "The original 24February1914 certificate 2828 names mother Lucy Gilbert. Its father abbreviation remains ambiguous Jas./Jos. (the index and independent image readings prefer Jas.), with an uncertain birthplace tentatively read Fredericktown, Md. This is not a resolved Joseph/Richmond reading and supplies no basis for an upgrade. Retain the existing 91% father assessment from the combined held family account, with this conflict expressly open. Age 53 differs from the profile’s circa 1849 birth and census ages. The occupation is railway brakeman and informant Lucy Williams; the informant’s identification as Joseph’s sister remains an inference. The 1914 certificate does not independently identify the 1877 deceased or connect him to Thomas."
         }
       ],
       "preserve_captured_detail": false,
@@ -39362,7 +39362,7 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation9-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/roanoke-thomas-review-2026-10-23.json"
     },
     "Glasgow-2838": {
       "profile_id": "Glasgow-2838",
@@ -40644,6 +40644,34 @@
       "preserve_captured_detail": false,
       "reviewed_narrative_reduction": true,
       "preservation_review_path": "research/ancestry-connections/huntingdon-family-review-2026-10-23.json"
+    },
+    "Glasgow-2573": {
+      "profile_id": "Glasgow-2573",
+      "status": "OPEN",
+      "pending": true,
+      "queued_at": "2026-10-23",
+      "biography_rechecked_at": "2026-10-23",
+      "draft_path": "research/Glasgow-2573/roanoke-father-2026-10-23.wiki",
+      "findings_path": "research/Glasgow-2573/findings.md",
+      "summary": "New probable source-defined father 74%: Thomas, indexed as Glasgo; original death-entry identity remains qualified. No existing numbered Thomas selected.",
+      "relationship_changes": [
+        {
+          "action": "add",
+          "relationship": "father",
+          "relative_id": "record-thomas-glasgo-campbell-1877",
+          "relative_name": "Thomas, indexed as Glasgo",
+          "relative_url": "/people/record-thomas-glasgo-campbell-1877.html",
+          "status": "probable",
+          "probability_percent": 74,
+          "assertion_id": "C-roanoke-joseph-thomas-20261023",
+          "previous_status": "unknown",
+          "previous_status_provenance": "Captured numeric Father is0 and public dossier has no selected father. The biography already calls him son of Thomas and Rose and attributes the 1877 death to him. This is a new structured role selection and qualification, not newly discovered parent names.",
+          "scope": "74% rates the full proposition that the Roanoke family’s Joseph had the Thomas named in this particular Campbell death entry as father. The indexed father role is explicit; the match of the deceased to the Roanoke man is inferred. Thomas’s identity remains on HOLD, with no birth/death dates or birthplace assigned and no WikiTree creation/save authorized by this local selection."
+        }
+      ],
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "preservation_review_path": "research/ancestry-connections/roanoke-thomas-review-2026-10-23.json"
     }
   },
   "reviewed_on": "2026-10-22",
@@ -44158,6 +44186,75 @@
           "evidence": "Explicit three-generation family account; numbered profile identity unresolved.",
           "record_precision": "Reported settlement before 1812; 1887 publication",
           "location_basis": "Stamford settlement, not a birth or death record."
+        }
+      ]
+    },
+    {
+      "subject_id": "thomas-glasgo-campbell-1877",
+      "catalogue_id": "record-thomas-glasgo-campbell-1877",
+      "name": "Thomas, indexed as Glasgo",
+      "source_subject_url": "https://www.familysearch.org/ark:/61903/1:1:X5Y6-54C",
+      "research_subject_url": "/people/record-thomas-glasgo-campbell-1877.html",
+      "draft_path": "surname-research/new-people/1877_Virginia_Campbell_Thomas_Glasgo.md",
+      "draft_wikitext": "[[Category: Glasgow Name Study]]\n== Biography ==\n\nThomas is indexed as Thomas Glasgo, father of Joseph Glasgo, in a Campbell County, Virginia death entry dated 1 September 1877. Rose is indexed as the deceased’s mother. The deceased was described as a colored farmer aged 80, with birthplace Campbell. The original register image has been inspected; it writes the parents as Thomas & Rose Glasgo and informant J. Glasgo, Son.<ref name=\"Campbell 1877\">\"Virginia, Deaths and Burials, 1853-1912\", FamilySearch, [https://www.familysearch.org/ark:/61903/1:1:X5Y6-54C Joseph Glasgo, 1 September 1877], film 2056976, image 45; original Campbell death register, James River District,1877, film2056976, image 45, inspected 23October2026; [https://www.familysearch.org/ark:/61903/3:1:S3HT-6LS7-3D7 original image].</ref>\n\nThe deceased is the preferred, probable identification of [[Glasgow-2573|Joseph Glasgow]], the Richmond-born Roanoke man whose family with Lucy Gilbert is described in the 1866 cohabitation account.<ref name=\"Roanoke 1866\">CSSR, Roanoke College, [https://cssr.roanoke.edu/s/genarchives/item/4703 Joe Glasgow], derived from Roanoke County 1866 cohabitation register, p. 2 line 37; online account inspected 23 October 2026, original not inspected.</ref> The complete Thomas-to-Roanoke-Joseph relationship is assessed as 74% probable. The younger Joseph’s later Campbell household with named siblings and mother Lucy supplies family context; it does not independently name Thomas.\n\n== Research Notes ==\n\nThe death index’s age 80 implies about 1797, whereas the 1870 census age 80 suggests about 1790 for the Roanoke man. Campbell and Richmond are different stated birthplaces. The consort column also repeats Unmarried rather than naming Lucy. These unresolved differences prevent a confident identification. Companion indexes of the same death are not additional witnesses.\n\nThomas’s own dates, birthplace, residence and parents are unknown. The original writes the parents as Thomas & Rose Glasgo; this surname is not proof of Thomas’s birth surname. The naming of Thomas and Rose as parents does not establish a marriage or Rose’s birth surname. No connection to an existing numbered Thomas, an enslaver’s family or a common Y-DNA founder is established.\n\n== Sources ==\n<references />",
+      "assessment": "Thomas is the probable working father of Roanoke Joseph Glasgow-2573 at74%. The inspected 1877 Campbell original explicitly names Thomas and Rose Glasgo as parents of Jos. Glasgo and records J. Glasgo, Son, as informant. The 1866 cohabitation-register-derived account identifies Joe, Lucy Gilbert and nine children. The younger Joseph’s held 1878 marriage and 1880/1900 Campbell households supply a plausible family continuation, supporting the existing identification of the elder Joseph’s Campbell death. Its conflicting birthplace, age and Unmarried entry remain unresolved. Parent names already appeared in the biography; this is a qualified structured father selection, not newly discovered names or a merger of existing branches. The original 1877 entry gives age 80 and a ditto Campbell birthplace, whereas the Roanoke account gives Richmond and the 1870 census age 80 implies about 1790. Its consort column repeats Unmarried rather than naming Lucy. The informant is J. Glasgo, designated Son, without a full forename. The younger Joseph’s1914 certificate clearly names mother Lucy Gilbert, but its father abbreviation remains ambiguous Jas./Jos.; independent readings prefer Jas., and the father’s birthplace is uncertain, tentatively Fredericktown, Md. It does not resolve the 1877 deceased’s identity or name Thomas. Census and marriage household accounts are reused captures, not freshly inspected images. Companion death indexes concern the same event. No existing numbered Thomas, marriage to Rose, older Glasgow lineage or common Y-DNA origin is established. 74% rates the full proposition that the Roanoke family’s Joseph had the Thomas named in this particular Campbell death entry as father. The indexed father role is explicit; the match of the deceased to the Roanoke man is inferred. Thomas’s identity remains on HOLD, with no birth/death dates or birthplace assigned and no WikiTree creation/save authorized by this local selection.",
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-10-23",
+      "first_names": [
+        "Thomas"
+      ],
+      "last_names_at_birth": [
+        "Glasgo"
+      ],
+      "last_names_current": [],
+      "gender": "Male",
+      "birth": "",
+      "death": "",
+      "birth_location": "",
+      "death_location": "",
+      "historical_basis": {
+        "latest_birth_year": 1877,
+        "source_url": "https://www.familysearch.org/ark:/61903/1:1:X5Y6-54C",
+        "reason": "Named father of a man who died in1877; conservative historical eligibility bound, not a proposed birth date."
+      },
+      "candidates": [
+        {
+          "profile_id": "Glasgow-1413",
+          "name": "Thomas Glasgow, Scottish1744 child account",
+          "url": "https://www.wikitree.com/wiki/Glasgow-1413",
+          "status": "compatible_unselected",
+          "reason": "A compatible generation without a held Rose/Joseph/Virginia bridge. Missing continuation is not an exclusion."
+        },
+        {
+          "profile_id": "Glasco-173",
+          "name": "Thomas Glasco, Dublin father account",
+          "url": "https://www.wikitree.com/wiki/Glasco-173",
+          "status": "compatible_unselected",
+          "reason": "Its before1742 boundary permits this generation; no held Campbell/Rose identity bridge. Do not create or merge on a shared indexed name."
+        },
+        {
+          "profile_id": "Glasgow-1527",
+          "name": "Thomas Glasgow, earlier Norfolk account",
+          "url": "https://www.wikitree.com/wiki/Glasgow-1527",
+          "status": "unselected_comparison",
+          "reason": "Its circa1650 estimate is far earlier than the expected father generation. It supplies no Rose/Joseph link; the estimate is not itself a proved exclusion."
+        }
+      ],
+      "records": [
+        {
+          "year": "1877",
+          "filter_year": 1877,
+          "family_group": "Roanoke Joe and Lucy Gilbert family; Campbell death comparison",
+          "region": "Virginia, United States",
+          "record_location": "Campbell County, Virginia",
+          "association": "Thomas and Rose are indexed parents of Joseph Glasgo, deceased 1 September 1877. Identification with Roanoke Joseph-2573 is probable 74%.",
+          "note": "The original 1877 entry gives age 80 and a ditto Campbell birthplace, whereas the Roanoke account gives Richmond and the 1870 census age 80 implies about 1790. Its consort column repeats Unmarried rather than naming Lucy. The informant is J. Glasgo, designated Son, without a full forename. The younger Joseph’s1914 certificate clearly names mother Lucy Gilbert, but its father abbreviation remains ambiguous Jas./Jos.; independent readings prefer Jas., and the father’s birthplace is uncertain, tentatively Fredericktown, Md. It does not resolve the 1877 deceased’s identity or name Thomas. Census and marriage household accounts are reused captures, not freshly inspected images. Companion death indexes concern the same event. No existing numbered Thomas, marriage to Rose, older Glasgow lineage or common Y-DNA origin is established.",
+          "source_title": "FamilySearch, Campbell Joseph Glasgo death index, 1877",
+          "source_url": "https://www.familysearch.org/ark:/61903/1:1:X5Y6-54C",
+          "source_type": "Original death register",
+          "source_status": "Original image 45 inspected 23October2026; named parent role explicit; deceased identity probable.",
+          "record_precision": "1877 is the child’s death-entry year, not Thomas’s life date.",
+          "location_basis": "Place of the child’s death record, not Thomas’s birthplace or residence."
         }
       ]
     }

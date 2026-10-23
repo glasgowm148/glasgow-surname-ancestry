@@ -1532,8 +1532,8 @@
     "allow_new_relationship": false,
     "evidence_grade": "Probable father inferred from the combined Saltmarket title; not documentary parentage",
     "limitations": "The missing 1527–1529 conveyance has not been found. No inspected instrument calls William the earlier John’s son, and no recorded ages distinguish father from brother. A brother, collateral heir or purchase from a namesake remains possible. Indeed, the neighbouring Henryson parcel in the 1528/29 instrument passes between brothers; title succession alone cannot specify kinship. The combined parcel descriptions are correlated, and the later rental is not an independent record of the original transfer. Glasgow-1095 remains a provisional representation of the Saltmarket owner: its identification with the Stirling witness or the 1506 alias-Smith purchaser is not proved. The probable grade applies to the property-defined Saltmarket father hypothesis, not to every imported biographical claim. No mother is inferred: Eufame Craig may have been the earlier John’s widow, but this does not establish her as William’s mother. No Stirling parent, birth estimate, death location or identity merge is upgraded. The live WikiTree father flag remains uncertain; probable is a local research grade.",
-    "last_test": "22 October 2026: The exact Saltmarket parcel and later family title support the preferred lineal inference. They still do not distinguish the earlier John as father from brother or collateral predecessor; the neighbouring Henryson transfer actually passes between brothers. Retain 88%; no new join.",
-    "next_test": "Seek the missing 1527–1529 conveyance or a kinship, generation or succession clause for the property-defined John and William. Re-reading the same boundaries cannot resolve the degree.",
+    "last_test": "Saltmarket property-title argument and1534/1564 family clauses already reviewed; the earlier John-to-William kinship is inferred.",
+    "next_test": "A conveyance, rental or kin clause distinguishes the older John’s relationship to William, beyond repeated parcel boundaries and four-shilling burden.",
     "evidence_test": {
       "reviewed": "2026-10-22",
       "summary": "The exact Saltmarket parcel and later family title support the preferred lineal inference. They still do not distinguish the earlier John as father from brother or collateral predecessor; the neighbouring Henryson transfer actually passes between brothers.",
@@ -1542,6 +1542,12 @@
       "confidence_changed": false,
       "held_evidence_review_exhausted": true,
       "resume_when": "Seek the missing 1527–1529 conveyance or a kinship, generation or succession clause for the property-defined John and William. Re-reading the same boundaries cannot resolve the degree."
+    },
+    "research_state": {
+      "disposition": "awaiting_source",
+      "reviewed": "2026-10-23",
+      "reason": "Saltmarket property-title argument and1534/1564 family clauses already reviewed; the earlier John-to-William kinship is inferred.",
+      "reopen_when": "A conveyance, rental or kin clause distinguishes the older John’s relationship to William, beyond repeated parcel boundaries and four-shilling burden."
     }
   },
   {
@@ -7665,8 +7671,8 @@
       "live_wikitree_status": "uncertain",
       "identity_scope": "Record-proved father name and son-to-adult identity; probable identification of father with 1647 burial account."
     },
-    "last_test": "22 October 2026: The combined apprenticeship, burgess and burial comparison was already reviewed. No new evidence identifies the named Wester Duddingston father more precisely; no confidence increase is warranted. Retain 86%; no new join.",
-    "next_test": "Inspect the original burial at OPR 684/60/47 for residence, occupation or associates tying the burial account to the father named in the 1641 apprenticeship.",
+    "last_test": "The22October bounded source test and the linked1641 apprenticeship/1649 burgess chain are complete.",
+    "next_test": "Read the original17January1647 Duddingston burial for age, trade, wife or child; do not re-dispatch the same apprenticeship identity chain.",
     "evidence_test": {
       "reviewed": "2026-10-22",
       "summary": "The combined apprenticeship, burgess and burial comparison was already reviewed. No new evidence identifies the named Wester Duddingston father more precisely; no confidence increase is warranted.",
@@ -7679,8 +7685,8 @@
     "research_state": {
       "disposition": "awaiting_source",
       "reviewed": "2026-10-23",
-      "reason": "Explicit existing-evidence and next-test audit; no confidence or topology change.",
-      "reopen_when": "The underlying burial or Crichtoun evidence is available for inspection."
+      "reason": "The22October bounded source test and the linked1641 apprenticeship/1649 burgess chain are complete.",
+      "reopen_when": "Read the original17January1647 Duddingston burial for age, trade, wife or child; do not re-dispatch the same apprenticeship identity chain."
     }
   },
   {
@@ -7756,7 +7762,15 @@
       "reassessment": "Existing unmarked father → probable local grade. No new attachment, certain flag or primary Irish parentage claim.",
       "live_wikitree_status": "unmarked",
       "identity_scope": "Explicit family-history parent clause; the emigrant household independently identified by the 1827 will. The two 1740 older Hugh identities remain open."
-    }
+    },
+    "research_state": {
+      "disposition": "awaiting_source",
+      "reviewed": "2026-10-23",
+      "reason": "The explicit descendant account and1827/1831 Pennsylvania will already support the preferred family; the will does not name the emigrant’s parents.",
+      "reopen_when": "An independent parent-naming or origin record connects the emigrant Hugh with Hugh and Margaret McCullough."
+    },
+    "last_test": "The explicit descendant account and1827/1831 Pennsylvania will already support the preferred family; the will does not name the emigrant’s parents.",
+    "next_test": "An independent parent-naming or origin record connects the emigrant Hugh with Hugh and Margaret McCullough."
   },
   {
     "assertion_id": "C-review-20261017-hugh-mccullough-mother",
@@ -8479,7 +8493,15 @@
       },
       "reassessment": "Existing ungraded father → probable local assessment; no new attachment, live certainty change or contemporary father record.",
       "identity_scope": "Traditional William–John–Hugh roles only; no Scottish record, military, 1740 or Leitrim identity upgrade."
-    }
+    },
+    "research_state": {
+      "disposition": "awaiting_source",
+      "reviewed": "2026-10-23",
+      "reason": "The explicit descendant pedigree and nearer independently identifiable family have already been weighed; the older William role remains tradition-based.",
+      "reopen_when": "A contemporary record or independently sourced family account identifies the older William/John relationship."
+    },
+    "last_test": "The explicit descendant pedigree and nearer independently identifiable family have already been weighed; the older William role remains tradition-based.",
+    "next_test": "A contemporary record or independently sourced family account identifies the older William/John relationship."
   },
   {
     "assertion_id": "C-working-20261017-duddingston-corsoun-old-father",
@@ -9368,14 +9390,20 @@
         "scope": "Fisherrow father-profile identification re-evaluated from the full family group. Older Mid Calder/Inveresk and ancestry questions remain."
       }
     ],
-    "last_test": "22 October 2026: the Fisherrow index expressly names Alexander’s father James, but its tailor is not independently tied to the baptism father by Christina Bie. Retain 84% for the complete identification.",
-    "next_test": "Read RS25 9/135 and 10/171 for prior title, residence and named kin tying the Fisherrow tailor to the Inveresk baptism household. The patron-submitted 1611 Christina attribution is not independent parish corroboration.",
+    "last_test": "The Fisherrow full-family sasine indexes and preferred Mid Calder comparison are already assessed.",
+    "next_test": "Inspect RS25 9/135 and10/171, then33/258,33/360 and34/287 for named kin, capacity and title connecting the adults.",
     "evidence_test": {
       "reviewed": "2026-10-22",
       "summary": "22 October 2026: the Fisherrow index expressly names Alexander’s father James, but its tailor is not independently tied to the baptism father by Christina Bie. Retain 84% for the complete identification.",
       "source_url": "https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481057&seq=193",
       "new_record_discovery": false,
       "confidence_changed": false
+    },
+    "research_state": {
+      "disposition": "awaiting_source",
+      "reviewed": "2026-10-23",
+      "reason": "The Fisherrow full-family sasine indexes and preferred Mid Calder comparison are already assessed.",
+      "reopen_when": "Inspect RS25 9/135 and10/171, then33/258,33/360 and34/287 for named kin, capacity and title connecting the adults."
     }
   },
   {
@@ -12714,7 +12742,15 @@
       "basis": "Maintained evidence reassessed; source readings reused, not newly inspected.",
       "resolution_note": "Individual assessment of the stated record/profile scope; no new live parent or identity merge.",
       "confidence_upgrade": false
-    }
+    },
+    "research_state": {
+      "disposition": "awaiting_source",
+      "reviewed": "2026-10-23",
+      "reason": "Quothquan testament, Mid Calder alternatives and Stephen’s1575 sonship already reviewed; no kin/holding bridge joins the households.",
+      "reopen_when": "A named relative, shared holding or succession links the Quothquan John to Stephen’s Glasgow family."
+    },
+    "last_test": "Quothquan testament, Mid Calder alternatives and Stephen’s1575 sonship already reviewed; no kin/holding bridge joins the households.",
+    "next_test": "A named relative, shared holding or succession links the Quothquan John to Stephen’s Glasgow family."
   },
   {
     "assertion_id": "C-reviewed-20261017-bessie-lanark-john3296-sibling",
@@ -14382,7 +14418,15 @@
       ],
       "assertion_id": "C-review-20261018-kirknewton-andrew-father",
       "scope": "No checked source names Andrew’s father. Another Kirknewton father remains possible: the older Andro account Glasgow-1319, or one of the local John or William households, cannot be excluded merely because no Andrew baptism has been identified. John Glasgow-1057 of Kilwinning/Stevenston remains a weaker comparison because his documented household is elsewhere. Common forenames and the inherited father attachment must not be counted as independent confirmation. The complete sibling and child sequences are not established. Margaret Smith is not assigned as Andrew’s mother."
-    }
+    },
+    "research_state": {
+      "disposition": "awaiting_source",
+      "reviewed": "2026-10-23",
+      "reason": "The1667/1673/1677 Alexander household and both1700 Cook banns are reviewed; banns add no parent or occupation.",
+      "reopen_when": "An Andrew baptism, inheritance, witness or household identifier connects the1700 adult to Alexander’s family."
+    },
+    "last_test": "The1667/1673/1677 Alexander household and both1700 Cook banns are reviewed; banns add no parent or occupation.",
+    "next_test": "An Andrew baptism, inheritance, witness or household identifier connects the1700 adult to Alexander’s family."
   },
   {
     "assertion_id": "C-role-20261018-kirknewton-father",
@@ -19671,7 +19715,7 @@
     "reason": "Robert Glaskow is recorded in the earlier Larne setting; John/Jo Glascho is a1669 Kilwaughter Demesne householder with a probable later congregational continuation. The uncommon local surname and successive adult generations support retaining Robert as a specific working father. No record names the relationship, supplies John’s age or shows property succession; Robert could be other kin and c1650 is an estimate.",
     "claim": "Glasgow-3970 is the selected father of Glasgow-3913; individually reviewed 24%.",
     "record_scope": "Uncertain24% for the earlier Robert-to-John father proposition. John’s1669–1700 identity and his association with James are separate and cannot be counted as independent paternity proofs.",
-    "limitations": "Uncertain24% for the earlier Robert-to-John father proposition. John’s1669–1700 identity and his association with James are separate and cannot be counted as independent paternity proofs.",
+    "limitations": "Uncertain 24% for the earlier Robert-to-John father proposition. John’s1669–1700 identity and his association with James are separate and cannot be counted as independent paternity proofs.",
     "source_ids": [
       "held-e-75e4fa0d484a"
     ],
@@ -19721,7 +19765,15 @@
       ],
       "reviewed": "2026-10-22",
       "scope": "Uncertain24% for the earlier Robert-to-John father proposition. John’s1669–1700 identity and his association with James are separate and cannot be counted as independent paternity proofs."
-    }
+    },
+    "research_state": {
+      "disposition": "awaiting_source",
+      "reviewed": "2026-10-23",
+      "reason": "The1653 Larne and1669/1700 Kilwaughter accounts are already assessed; association and successive generations do not name a father.",
+      "reopen_when": "A family, estate or tenancy record identifies John as Robert’s son or establishes another actual relationship."
+    },
+    "last_test": "The1653 Larne and1669/1700 Kilwaughter accounts are already assessed; association and successive generations do not name a father.",
+    "next_test": "A family, estate or tenancy record identifies John as Robert’s son or establishes another actual relationship."
   },
   {
     "assertion_id": "C-coverage-20261022-glasgow-1309-father",
@@ -19734,11 +19786,11 @@
     "working_selection": false,
     "allow_new_relationship": false,
     "assessment_date": "2026-10-22",
-    "basis": "The held biography cites the9March1741 Kirknewton/East Calder Alexander as son of Andrew Glasgow and Janet Clerk. The selected Andrew account is the maintained father in that parish and its estimated1720 generation is compatible. The full named couple and exact child event strongly identify the recorded family. However Andrew’s sparse profile lacks independent adult identification, and Alexander’s later Edinburgh/Glasgow identity is not connected by the baptism alone.",
-    "reason": "The held biography cites the9March1741 Kirknewton/East Calder Alexander as son of Andrew Glasgow and Janet Clerk. The selected Andrew account is the maintained father in that parish and its estimated1720 generation is compatible. The full named couple and exact child event strongly identify the recorded family. However Andrew’s sparse profile lacks independent adult identification, and Alexander’s later Edinburgh/Glasgow identity is not connected by the baptism alone.",
+    "basis": "The held biography cites the 9March1741 Kirknewton/East Calder Alexander as son of Andrew Glasgow and Janet Clerk. The selected Andrew account is the maintained father in that parish and its estimated 1720 generation is compatible. The full named couple and exact child event strongly identify the recorded family. However Andrew’s sparse profile lacks independent adult identification, and Alexander’s later Edinburgh/Glasgow identity is not connected by the baptism alone.",
+    "reason": "The held biography cites the 9March1741 Kirknewton/East Calder Alexander as son of Andrew Glasgow and Janet Clerk. The selected Andrew account is the maintained father in that parish and its estimated 1720 generation is compatible. The full named couple and exact child event strongly identify the recorded family. However Andrew’s sparse profile lacks independent adult identification, and Alexander’s later Edinburgh/Glasgow identity is not connected by the baptism alone.",
     "claim": "Glasgow-3052 is the selected father of Glasgow-1309; individually reviewed 89%.",
     "record_scope": "Probable89% for the selected profile pair, based on a retained citation rather than a newly inspected transcript/original. The proposed Andrew birth and his own father are not validated.",
-    "limitations": "Probable89% for the selected profile pair, based on a retained citation rather than a newly inspected transcript/original. The proposed Andrew birth and his own father are not validated.",
+    "limitations": "Probable 89% for the selected profile pair, based on a retained citation rather than a newly inspected transcript/original. The proposed Andrew birth and his own father are not validated.",
     "source_ids": [
       "held-e-529da0b87ff2"
     ],
@@ -19755,11 +19807,11 @@
     "perspectives": {
       "Glasgow-1309": {
         "relationship": "father",
-        "reason": "The held biography cites the9March1741 Kirknewton/East Calder Alexander as son of Andrew Glasgow and Janet Clerk. The selected Andrew account is the maintained father in that parish and its estimated1720 generation is compatible. The full named couple and exact child event strongly identify the recorded family. However Andrew’s sparse profile lacks independent adult identification, and Alexander’s later Edinburgh/Glasgow identity is not connected by the baptism alone."
+        "reason": "The held biography cites the 9March1741 Kirknewton/East Calder Alexander as son of Andrew Glasgow and Janet Clerk. The selected Andrew account is the maintained father in that parish and its estimated 1720 generation is compatible. The full named couple and exact child event strongly identify the recorded family. However Andrew’s sparse profile lacks independent adult identification, and Alexander’s later Edinburgh/Glasgow identity is not connected by the baptism alone."
       },
       "Glasgow-3052": {
         "relationship": "son",
-        "reason": "The held biography cites the9March1741 Kirknewton/East Calder Alexander as son of Andrew Glasgow and Janet Clerk. The selected Andrew account is the maintained father in that parish and its estimated1720 generation is compatible. The full named couple and exact child event strongly identify the recorded family. However Andrew’s sparse profile lacks independent adult identification, and Alexander’s later Edinburgh/Glasgow identity is not connected by the baptism alone."
+        "reason": "The held biography cites the 9March1741 Kirknewton/East Calder Alexander as son of Andrew Glasgow and Janet Clerk. The selected Andrew account is the maintained father in that parish and its estimated 1720 generation is compatible. The full named couple and exact child event strongly identify the recorded family. However Andrew’s sparse profile lacks independent adult identification, and Alexander’s later Edinburgh/Glasgow identity is not connected by the baptism alone."
       }
     },
     "analysis_links": [
@@ -19788,7 +19840,15 @@
       ],
       "reviewed": "2026-10-22",
       "scope": "Probable89% for the selected profile pair, based on a retained citation rather than a newly inspected transcript/original. The proposed Andrew birth and his own father are not validated."
-    }
+    },
+    "research_state": {
+      "disposition": "awaiting_source",
+      "reviewed": "2026-10-23",
+      "reason": "The1741 named parental couple is reviewed; the child-to-1757-married-adult identity remains unbridged.",
+      "reopen_when": "An adult age, enlistment, marriage, property or kin record links the later Alexander/Mary Munro household to the1741 child."
+    },
+    "last_test": "The1741 named parental couple is reviewed; the child-to-1757-married-adult identity remains unbridged.",
+    "next_test": "An adult age, enlistment, marriage, property or kin record links the later Alexander/Mary Munro household to the1741 child."
   },
   {
     "assertion_id": "C-coverage-20261022-glasgow-3990-father",
@@ -20668,7 +20728,7 @@
     "reason": "Robert’s 1676 Glencorse baptism names John Glasgow and Margaret Currie. Their 1673 Kirknewton marriage supplies an earlier named couple in the neighbouring district, favouring the existing John household over an otherwise unspecified namesake.",
     "claim": "Glasgow-3012 remains the selected father of Glasgow-3011, individually assessed 88%.",
     "record_scope": "Complete profile placement88%; the 1649 child-to-adult John identification remains inferred. The 1704 Robert/Davidson marriage is a different event.",
-    "limitations": "Complete profile placement88%; the 1649 child-to-adult John identification remains inferred. The 1704 Robert/Davidson marriage is a different event.",
+    "limitations": "Complete profile placement 88%; the 1649 child-to-adult John identification remains inferred. The 1704 Robert/Davidson marriage is a different event.",
     "source_ids": [
       "held-e-753bbfdc19ef"
     ],
@@ -20718,7 +20778,15 @@
         "held-e-753bbfdc19ef"
       ],
       "scope": "Complete profile placement88%; the 1649 child-to-adult John identification remains inferred. The 1704 Robert/Davidson marriage is a different event."
-    }
+    },
+    "research_state": {
+      "disposition": "awaiting_source",
+      "reviewed": "2026-10-23",
+      "reason": "The1673 John/Currie couple and1676 child are reviewed; the1649 child-to-married-adult John identification remains inferred.",
+      "reopen_when": "A residence, age, father or property identifier connects the1673 groom to the1649 child; matching later child indexes alone do not settle it."
+    },
+    "last_test": "The1673 John/Currie couple and1676 child are reviewed; the1649 child-to-married-adult John identification remains inferred.",
+    "next_test": "A residence, age, father or property identifier connects the1673 groom to the1649 child; matching later child indexes alone do not settle it."
   },
   {
     "assertion_id": "C-coverage-20261022b-glasgow-8-father",
@@ -104261,13 +104329,14 @@
     "working_selection": false,
     "allow_new_relationship": false,
     "assessment_date": "2026-10-22",
-    "basis": "The held accounts connect this child to Joseph Glasgow and Lucy Gilbert’s Roanoke family, citing the 1866 cohabitation register. Joseph was informant at the elder Joseph’s death and belongs to the held cohabitation-register family; his own death index’s Jas Glasgow rendering requires checking.",
-    "reason": "The held accounts connect this child to Joseph Glasgow and Lucy Gilbert’s Roanoke family, citing the 1866 cohabitation register. Joseph was informant at the elder Joseph’s death and belongs to the held cohabitation-register family; his own death index’s Jas Glasgow rendering requires checking.",
+    "basis": "The held accounts connect this child to Joseph Glasgow and Lucy Gilbert’s Roanoke family, citing the 1866 cohabitation register. Joseph was informant at the elder Joseph’s death and belongs to the held cohabitation-register family; the death certificate’s Jas./Jos. abbreviation remains unresolved after original inspection 23October2026.",
+    "reason": "The held accounts connect this child to Joseph Glasgow and Lucy Gilbert’s Roanoke family, citing the 1866 cohabitation register. Joseph was informant at the elder Joseph’s death and belongs to the held cohabitation-register family; the death certificate’s Jas./Jos. abbreviation remains unresolved after original inspection 23October2026.",
     "claim": "Glasgow-2573 remains the selected father of Glasgow-3722, individually assessed 91%.",
     "record_scope": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate.",
-    "limitations": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate.",
+    "limitations": "The original 24February1914 certificate 2828 names mother Lucy Gilbert. Its father abbreviation remains ambiguous Jas./Jos. (the index and independent image readings prefer Jas.), with an uncertain birthplace tentatively read Fredericktown, Md. This is not a resolved Joseph/Richmond reading and supplies no basis for an upgrade. Retain the existing 91% father assessment from the combined held family account, with this conflict expressly open. Age 53 differs from the profile’s circa 1849 birth and census ages. The occupation is railway brakeman and informant Lucy Williams; the informant’s identification as Joseph’s sister remains an inference. The 1914 certificate does not independently identify the 1877 deceased or connect him to Thomas.",
     "source_ids": [
-      "held-e-1b2878b00886"
+      "held-e-1b2878b00886",
+      "fs-joseph-r-glasgow-lynchburg-death-1914"
     ],
     "assessment_history": [
       {
@@ -104285,11 +104354,11 @@
     "perspectives": {
       "Glasgow-3722": {
         "relationship": "father",
-        "reason": "The held accounts connect this child to Joseph Glasgow and Lucy Gilbert’s Roanoke family, citing the 1866 cohabitation register. Joseph was informant at the elder Joseph’s death and belongs to the held cohabitation-register family; his own death index’s Jas Glasgow rendering requires checking."
+        "reason": "The held accounts connect this child to Joseph Glasgow and Lucy Gilbert’s Roanoke family, citing the 1866 cohabitation register. Joseph was informant at the elder Joseph’s death and belongs to the held cohabitation-register family; the death certificate’s Jas./Jos. abbreviation remains unresolved after original inspection 23October2026. The original 24February1914 certificate 2828 names mother Lucy Gilbert. Its father abbreviation remains ambiguous Jas./Jos. (the index and independent image readings prefer Jas.), with an uncertain birthplace tentatively read Fredericktown, Md. This is not a resolved Joseph/Richmond reading and supplies no basis for an upgrade. Retain the existing 91% father assessment from the combined held family account, with this conflict expressly open. Age 53 differs from the profile’s circa 1849 birth and census ages. The occupation is railway brakeman and informant Lucy Williams; the informant’s identification as Joseph’s sister remains an inference. The 1914 certificate does not independently identify the 1877 deceased or connect him to Thomas."
       },
       "Glasgow-2573": {
         "relationship": "son",
-        "reason": "The held accounts connect this child to Joseph Glasgow and Lucy Gilbert’s Roanoke family, citing the 1866 cohabitation register. Joseph was informant at the elder Joseph’s death and belongs to the held cohabitation-register family; his own death index’s Jas Glasgow rendering requires checking."
+        "reason": "The held accounts connect this child to Joseph Glasgow and Lucy Gilbert’s Roanoke family, citing the 1866 cohabitation register. Joseph was informant at the elder Joseph’s death and belongs to the held cohabitation-register family; the death certificate’s Jas./Jos. abbreviation remains unresolved after original inspection 23October2026. The original 24February1914 certificate 2828 names mother Lucy Gilbert. Its father abbreviation remains ambiguous Jas./Jos. (the index and independent image readings prefer Jas.), with an uncertain birthplace tentatively read Fredericktown, Md. This is not a resolved Joseph/Richmond reading and supplies no basis for an upgrade. Retain the existing 91% father assessment from the combined held family account, with this conflict expressly open. Age 53 differs from the profile’s circa 1849 birth and census ages. The occupation is railway brakeman and informant Lucy Williams; the informant’s identification as Joseph’s sister remains an inference. The 1914 certificate does not independently identify the 1877 deceased or connect him to Thomas."
       }
     },
     "analysis_links": [
@@ -104310,18 +104379,28 @@
         "source_ids": [],
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
       },
-      "original_inspected_in_batch": false,
-      "live_flag_changed": false
+      "original_inspected_in_batch": true,
+      "live_flag_changed": false,
+      "source_inspection": "Original1914 certificate inspected23October2026; abbreviation and father birthplace remain uncertain;91% retained, no confidence event."
     },
     "probability": {
       "value": 0.91,
-      "basis": "The held accounts connect this child to Joseph Glasgow and Lucy Gilbert’s Roanoke family, citing the 1866 cohabitation register. Joseph was informant at the elder Joseph’s death and belongs to the held cohabitation-register family; his own death index’s Jas Glasgow rendering requires checking.",
+      "basis": "The held accounts connect this child to Joseph Glasgow and Lucy Gilbert’s Roanoke family, citing the 1866 cohabitation register. Joseph was informant at the elder Joseph’s death and belongs to the held cohabitation-register family; the death certificate’s Jas./Jos. abbreviation remains unresolved after original inspection23October2026.",
       "reviewed": "2026-10-22",
       "source_ids": [
-        "held-e-1b2878b00886"
+        "held-e-1b2878b00886",
+        "fs-joseph-r-glasgow-lynchburg-death-1914"
       ],
       "scope": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate."
-    }
+    },
+    "research_state": {
+      "disposition": "awaiting_source",
+      "reviewed": "2026-10-23",
+      "reason": "Original certificate inspected; father abbreviation and birthplace remain uncertain.",
+      "reopen_when": "Original cohabitation/marriage/census evidence discriminates the named father and varying ages."
+    },
+    "last_test": "Inspected1914 original certificate2828 and parent crop; independent readings did not resolve Jas./Jos.",
+    "next_test": "Compare original cohabitation and marriage parent fields; do not regrade from this ambiguous abbreviation alone."
   },
   {
     "assertion_id": "C-coverage-20261022i-glasgow-2838-father",
@@ -107528,5 +107607,71 @@
     },
     "last_test": "Compared exact parental couple, child identity, locality, chronology and existing Samuel alternatives.",
     "next_test": "Find the Samuel/Mary Wilson household or1829 estate with named children; inspect Benjamin’s memorial sources."
+  },
+  {
+    "assertion_id": "C-roanoke-joseph-thomas-20261023",
+    "people": [
+      "Glasgow-2573",
+      "record-thomas-glasgo-campbell-1877"
+    ],
+    "profile_names": {
+      "Glasgow-2573": "Joseph Glasgow of Roanoke",
+      "record-thomas-glasgo-campbell-1877": "Thomas, indexed as Glasgo"
+    },
+    "profile_urls": {
+      "record-thomas-glasgo-campbell-1877": {
+        "url": "/people/record-thomas-glasgo-campbell-1877.html"
+      }
+    },
+    "status": "probable",
+    "working_selection": true,
+    "allow_new_relationship": true,
+    "publication_status": "approved",
+    "assessment_date": "2026-10-23",
+    "basis": "Select Thomas, indexed as Thomas Glasgo in the 1877 Campbell death entry, as Joseph Glasgow-2573’s probable working father at 74%. The entry explicitly names Thomas and Rose as the deceased Joseph’s parents. The Roanoke cohabitation account identifies the particular Joe/Lucy Gilbert household and its nine children. The held younger Joseph/Judy Ann account then places that son’s family in Lynchburg in 1878 and Campbell in 1880, with John and Lucy called his brother and sister; its 1900 household includes mother Lucy. This family continuation makes the older Joseph’s 1877 Campbell death a coherent preferred identification rather than an isolated same-name county match. The existing biography already attributes this death and these parent names to him; the new work is a reviewed, explicitly qualified structured father attachment.",
+    "limitations": "The death index gives age 80 (derived birth 1797), birthplace Campbell and farmer; the Roanoke account gives Richmond, and the 1870 census age 80 suggests about 1790. These differences remain unresolved, not silently corrected. The original death image has not been inspected: FamilySearch requires sign-in. The named son-informant claim is inherited from the biography and is not shown in the inspected index. Companion FamilySearch indexes reproduce the same event and are not independent proofs. The son’s household evidence is held capture, not a fresh census-image inspection. No existing numbered Thomas is identified, no marriage to Rose is inferred, and no older Glasgow lineage or shared Y-DNA origin is established.",
+    "source_ids": [
+      "fs-joseph-glasgo-campbell-death-1877",
+      "cssr-joe-glasgow-roanoke-cohabitation-1866",
+      "fs-joseph-r-glasgow-lynchburg-death-1914"
+    ],
+    "perspectives": {
+      "Glasgow-2573": {
+        "relationship": "father",
+        "status_label": "Probable father74%; source-defined identity",
+        "reason": "Select Thomas, indexed as Thomas Glasgo in the 1877 Campbell death entry, as Joseph Glasgow-2573’s probable working father at 74%. The entry explicitly names Thomas and Rose as the deceased Joseph’s parents. The Roanoke cohabitation account identifies the particular Joe/Lucy Gilbert household and its nine children. The held younger Joseph/Judy Ann account then places that son’s family in Lynchburg in 1878 and Campbell in 1880, with John and Lucy called his brother and sister; its 1900 household includes mother Lucy. This family continuation makes the older Joseph’s 1877 Campbell death a coherent preferred identification rather than an isolated same-name county match. The existing biography already attributes this death and these parent names to him; the new work is a reviewed, explicitly qualified structured father attachment. The death index gives age 80 (derived birth 1797), birthplace Campbell and farmer; the Roanoke account gives Richmond, and the 1870 census age 80 suggests about 1790. These differences remain unresolved, not silently corrected. The original death image has not been inspected: FamilySearch requires sign-in. The named son-informant claim is inherited from the biography and is not shown in the inspected index. Companion FamilySearch indexes reproduce the same event and are not independent proofs. The son’s household evidence is held capture, not a fresh census-image inspection. No existing numbered Thomas is identified, no marriage to Rose is inferred, and no older Glasgow lineage or shared Y-DNA origin is established."
+      },
+      "record-thomas-glasgo-campbell-1877": {
+        "relationship": "son",
+        "status_label": "Probable son74%",
+        "reason": "Select Thomas, indexed as Thomas Glasgo in the 1877 Campbell death entry, as Joseph Glasgow-2573’s probable working father at 74%. The entry explicitly names Thomas and Rose as the deceased Joseph’s parents. The Roanoke cohabitation account identifies the particular Joe/Lucy Gilbert household and its nine children. The held younger Joseph/Judy Ann account then places that son’s family in Lynchburg in 1878 and Campbell in 1880, with John and Lucy called his brother and sister; its 1900 household includes mother Lucy. This family continuation makes the older Joseph’s 1877 Campbell death a coherent preferred identification rather than an isolated same-name county match. The existing biography already attributes this death and these parent names to him; the new work is a reviewed, explicitly qualified structured father attachment."
+      }
+    },
+    "probability": {
+      "value": 0.74,
+      "reviewed": "2026-10-23",
+      "method": "Subjective judgement of the complete relationship; not statistically calibrated",
+      "scope": "74% rates the full proposition that the Roanoke family’s Joseph had the Thomas named in this particular Campbell death entry as father. The indexed father role is explicit; the match of the deceased to the Roanoke man is inferred. Thomas’s identity remains on HOLD, with no birth/death dates or birthplace assigned and no WikiTree creation/save authorized by this local selection."
+    },
+    "provenance": {
+      "prior_assessment": {
+        "status": "unknown",
+        "probability_percent": null,
+        "working_selection": false,
+        "reviewed": "2026-10-23",
+        "source_basis": "Captured numeric Father is0 and public dossier has no selected father. The biography already calls him son of Thomas and Rose and attributes the1877 death to him. This is a new structured role selection and qualification, not newly discovered parent names."
+      },
+      "new_father_attachment": true,
+      "new_father_attachment_reviewed": "2026-10-23",
+      "source_inspection": "Original 1877 death-register image45 and original 1914 certificate2828 inspected; university account checked; held census/marriage captures reused."
+    },
+    "research_state": {
+      "disposition": "awaiting_source",
+      "reviewed": "2026-10-23",
+      "reason": "Preferred death identity retains age, birthplace and consort differences.",
+      "reopen_when": "Compare the other1877 Campbell Joseph entry and independent age/birthplace evidence before identifying a numbered Thomas."
+    },
+    "last_test": "Inspected original1877 image45 and younger Joseph’s1914 certificate2828; compared exact parental couple, Richmond origin and held household continuity.",
+    "next_test": "Compare the other1877 Campbell Joseph entry and independent age/birthplace evidence before identifying a numbered Thomas."
   }
 ]

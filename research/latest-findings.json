@@ -55373,6 +55373,56 @@
         "research/ancestry-connections/huntingdon-family-review-2026-10-23.json",
         "research/relationship_assessments.json"
       ]
+    },
+    {
+      "id": "roanoke-joseph-probable-thomas-father-20261023",
+      "found_on": "2026-10-23",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Roanoke Joseph gains a source-defined probable father Thomas at74%, qualified by the original 1877 death entry’s identity differences. The son-informant role is confirmed; the younger Joseph’s1914 parent-name reading remains open.",
+      "qualification": "The original 1877 entry gives age 80 and a ditto Campbell birthplace, whereas the Roanoke account gives Richmond and the 1870 census age 80 implies about 1790. Its consort column repeats Unmarried rather than naming Lucy. The informant is J. Glasgo, designated Son, without a full forename. The younger Joseph’s1914 certificate clearly names mother Lucy Gilbert, but its father abbreviation remains ambiguous Jas./Jos.; independent readings prefer Jas., and the father’s birthplace is uncertain, tentatively Fredericktown, Md. It does not resolve the 1877 deceased’s identity or name Thomas. Census and marriage household accounts are reused captures, not freshly inspected images. Companion death indexes concern the same event. No existing numbered Thomas, marriage to Rose, older Glasgow lineage or common Y-DNA origin is established. Parent names were already in the biography. This adds a source-defined generation, with no existing-branch merger; Thomas remains an identity HOLD.",
+      "people": [
+        {
+          "id": "Glasgow-2573",
+          "name": "Joseph Glasgow",
+          "url": "/people/glasgow-2573.html",
+          "role": "New probable father74%"
+        },
+        {
+          "id": "record-thomas-glasgo-campbell-1877",
+          "name": "Thomas, indexed as Glasgo",
+          "url": "/people/record-thomas-glasgo-campbell-1877.html",
+          "role": "Source-defined parent; numbered identity HOLD"
+        },
+        {
+          "id": "Glasgow-3722",
+          "name": "Joseph Glasgow, Judy Ann’s husband",
+          "url": "/people/glasgow-3722.html",
+          "role": "Held Campbell household continuation"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Campbell original death register1877, image45",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:S3HT-6LS7-3D7"
+        },
+        {
+          "title": "Virginia original death certificate2828,24February1914",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L9G2-PZ7P"
+        },
+        {
+          "title": "CSSR Joe Glasgow cohabitation-register account1866, p.2 line37",
+          "url": "https://cssr.roanoke.edu/s/genarchives/item/4703"
+        }
+      ],
+      "detail_url": "/people/glasgow-2573.html",
+      "relationship_changes": [],
+      "new_father_attachments": 1,
+      "new_existing_branch_joins": 0,
+      "provenance": [
+        "research/ancestry-connections/roanoke-thomas-review-2026-10-23.json",
+        "research/relationship_assessments.json"
+      ]
     }
   ]
 }

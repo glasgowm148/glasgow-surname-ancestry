@@ -4137,3 +4137,12 @@ Twenty provider transcripts are reviewed in fifteen documentary groups. Existing
 | [Mary Wilson Glasgow](https://www.wikitree.com/wiki/Glasgow-3682) | OPEN | New probable father Samuel Glasgow-1984, 77%; checked 1914 family account, full existing-profile identity remains unproved. Complete sourced draft. |
 | [Benjamin Franklin Glasgow](https://www.wikitree.com/wiki/Glasgow-2637) | OPEN | New probable father Samuel Glasgow-1984, 71%; same parental couple, inherited memorial claim not freshly checked. Complete sourced draft. |
 | [Samuel Glasgow](https://www.wikitree.com/wiki/Glasgow-1984) | OPEN | Add qualified Mary/Benjamin family discussion and source; no wife or upstream parent assignment. Complete draft. |
+
+### Roanoke Joseph and source-defined Thomas — 23 October 2026
+
+| Profile | Status | Amendment |
+| --- | --- | --- |
+| [Joseph Glasgow](https://www.wikitree.com/wiki/Glasgow-2573) | OPEN | New probable father 74%, source-defined Thomas. Qualify the death identity and preserve unresolved birthplace/age differences. Original-image and identity review before live parent creation. Complete sourced draft. |
+| [Thomas evidence account](/people/record-thomas-glasgo-campbell-1877.html) | HOLD | Indexed father only; no numbered identity selected, no dates/place of birth or marriage invented. |
+
+| [Joseph Glasgow (Glasgow-3722)](https://www.wikitree.com/wiki/Glasgow-3722) | OPEN | Existing father Joseph-2573:91% retained; original 1914 certificate names Lucy Gilbert, but Jas./Jos. and father birthplace remain uncertain. Specify death 24February1914 versus filing 25 February; retain age differences. |
