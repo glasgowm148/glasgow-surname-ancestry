@@ -19,7 +19,7 @@ CONFIDENT = frozenset(
 )
 SUPPORTED = CONFIDENT | {'probable'}
 MEASUREMENT_VIEWS = ('working', 'supported', 'confident')
-METHOD_VERSION = 3
+METHOD_VERSION = 4
 EXCLUDED = frozenset(
     {
         "rejected",
@@ -165,7 +165,7 @@ def load_public_nodes(site_root: Path, variants: set[str]):
             if (
                 status in EXCLUDED
                 or relation.get("lifecycle") not in (None, "current")
-                or relation.get("display") in {"historical", "superseded"}
+                or relation.get("display") in {"alternative", "historical", "superseded"}
                 or relation.get("publication_status") in {"withheld", "blocked", "rejected"}
             ):
                 continue
@@ -180,6 +180,13 @@ def load_public_nodes(site_root: Path, variants: set[str]):
                         assessment_status=relation.get('status') or 'unassessed',
                         tree_status=relation.get('tree_status'),
                         status_basis=status_basis,
+                        selection_priority=(
+                            3 if relation.get('publication_status') == 'approved'
+                            and relation.get('working_selection') is True else
+                            2 if relation.get('publication_status') == 'approved'
+                            and relation.get('display') == 'current' else
+                            1 if relation.get('tree_relationship') is True else 0
+                        ),
                     )
                 )
     documentary = load_people(site_root / 'data/ancestry-documentary-people.json')
@@ -207,6 +214,8 @@ def load_public_nodes(site_root: Path, variants: set[str]):
         for assessment in json.loads(shared_path.read_text()):
             if not (assessment.get('working_selection') is True
                     and assessment.get('publication_status') == 'approved'
+                    and assessment.get('display') not in {'alternative', 'historical', 'superseded'}
+                    and assessment.get('lifecycle') in (None, 'current')
                     and assessment.get('status') in {'uncertain', 'probable'}
                     and assessment.get('allow_new_relationship') is True):
                 continue
@@ -215,7 +224,22 @@ def load_public_nodes(site_root: Path, variants: set[str]):
             father = next((p for p, v in views.items() if v.get('relationship') != 'father'), None)
             if child in nodes and father in nodes and {child, father} & documentary_ids:
                 raw.append(dict(child=child, father=father, status=assessment['status'],
-                                basis=assessment.get('basis', ''), assertion_id=assessment['assertion_id']))
+                                basis=assessment.get('basis', ''), assertion_id=assessment['assertion_id'],
+                                selection_priority=3))
+    # Select the public working father, never the most confident hypothesis.
+    # Resolve aliases before testing uniqueness, including fathers outside the
+    # surname cohort. Conflicting selections at the same priority stay ambiguous.
+    candidates = defaultdict(list)
+    for edge in raw:
+        edge['father'] = aliases.get(edge['father'], edge['father'])
+        candidates[edge['child']].append(edge)
+    raw = []
+    for child_edges in candidates.values():
+        priority = max(edge['selection_priority'] for edge in child_edges)
+        for edge in child_edges:
+            selected = edge.pop('selection_priority') == priority
+            if selected:
+                raw.append(edge)
     by_child = defaultdict(dict)
     all_fathers = defaultdict(set)
     for edge in raw:

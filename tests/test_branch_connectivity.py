@@ -258,6 +258,86 @@ class T(unittest.TestCase):
         self.assertTrue(q["multiple_fathers"])
         self.assertIsInstance(summarize(n, e, 1650)["quality"], dict)
 
+    def test_retained_tree_father_outweighs_unselected_hypotheses(self):
+        self.add('Child', 1600, extra={'relationships': {'parents': [
+            dict(id='Father', relationship='father', status='uncertain', tree_relationship=True),
+            dict(id='Candidate', relationship='father', status='proved'),
+        ]}})
+        self.add('Father', 1570)
+        self.add('Candidate', 1570)
+        nodes, edges, quality = self.finish()
+        self.assertEqual([(e['father'], e['status']) for e in edges], [('Father', 'uncertain')])
+        self.assertNotIn('confidence_percent', edges[0])
+        self.assertEqual(quality['multiple_fathers'], [])
+        self.assertEqual(summarize(nodes, edges, 1650, 'confident')['edge_count'], 0)
+        self.assertEqual(summarize(nodes, edges, 1650)['population'], 3)
+
+    def test_approved_public_selection_overrides_retained_tree_father(self):
+        for selection in ({'working_selection': True}, {'display': 'current'}):
+            with self.subTest(selection=selection):
+                self.rows = []
+                self.add('Child', 1600, extra={'relationships': {'parents': [
+                    dict(id='Former', relationship='father', status='proved', tree_relationship=True),
+                    dict(id='Selected', relationship='father', status='possible',
+                         publication_status='approved', **selection),
+                ]}})
+                self.add('Former', 1570)
+                self.add('Selected', 1570)
+                _, edges, quality = self.finish()
+                self.assertEqual([(e['father'], e['status']) for e in edges], [('Selected', 'possible')])
+                self.assertEqual(quality['multiple_fathers'], [])
+
+    def test_conflicting_public_selections_stay_ambiguous(self):
+        for selection in ({'working_selection': True}, {'display': 'current'}, {'tree_relationship': True}):
+            with self.subTest(selection=selection):
+                self.rows = []
+                self.add('Child', 1600, extra={'relationships': {'parents': [
+                    dict(id=father, relationship='father', status=status,
+                         publication_status='approved', **selection)
+                    for father, status in [('Father', 'possible'), ('Candidate', 'proved')]
+                ]}})
+                self.add('Father', 1570)
+                self.add('Candidate', 1570)
+                _, edges, quality = self.finish()
+                self.assertEqual(edges, [])
+                self.assertEqual(quality['multiple_fathers'], ['Child'])
+
+    def test_working_selection_precedes_current_display(self):
+        self.add('Child', 1600, extra={'relationships': {'parents': [
+            dict(id='Father', relationship='father', status='uncertain',
+                 publication_status='approved', working_selection=True),
+            dict(id='Candidate', relationship='father', status='proved',
+                 publication_status='approved', display='current'),
+        ]}})
+        self.add('Father', 1570)
+        self.add('Candidate', 1570)
+        _, edges, _ = self.finish()
+        self.assertEqual([e['father'] for e in edges], ['Father'])
+
+    def test_unapproved_selection_does_not_resolve_ambiguity(self):
+        self.add('Child', 1600, extra={'relationships': {'parents': [
+            dict(id='Father', relationship='father', status='possible', working_selection=True),
+            dict(id='Candidate', relationship='father', status='proved', display='current'),
+        ]}})
+        self.add('Father', 1570)
+        self.add('Candidate', 1570)
+        _, edges, quality = self.finish()
+        self.assertEqual(edges, [])
+        self.assertEqual(quality['multiple_fathers'], ['Child'])
+
+    def test_explicit_alternatives_do_not_block_legacy_single_father(self):
+        self.add('Child', 1600, extra={'relationships': {'parents': [
+            dict(id='Father', relationship='father', status='uncertain'),
+            *[dict(id='Candidate', relationship='father', status='proved', display=display,
+                   publication_status='approved', working_selection=True)
+              for display in ('alternative', 'historical', 'superseded')],
+        ]}})
+        self.add('Father', 1570)
+        self.add('Candidate', 1570)
+        _, edges, quality = self.finish()
+        self.assertEqual([(e['father'], e['status']) for e in edges], [('Father', 'uncertain')])
+        self.assertEqual(quality['multiple_fathers'], [])
+
     def test_recursive_closure_future(self):
         self.add("A", 1600, parents=(("F", "uncertain"),))
         self.add("F", 1570, parents=(("U", "uncertain"),))

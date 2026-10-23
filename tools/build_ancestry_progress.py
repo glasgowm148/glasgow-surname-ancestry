@@ -359,7 +359,7 @@ def build(create_baseline=False):
                 method_version=METHOD_VERSION,
                 **(dict(event_type='method_correction', previous_method_version=previous_version,
                         genealogical_connections_added=0,
-                        note='Existing saved WikiTree certainty flags are now classified; no new relationship or evidence grade was asserted.')
+                        note='Retained primary fathers now take precedence over unselected alternatives. Existing links restored by this method correction are not new research findings or evidence upgrades.')
                    if correction else {}),
                 **(dict(event_type='additional_confidence_view', genealogical_connections_added=0,
                         note='Probable-or-stronger connectivity is measured separately. Existing assessments, prior measurements and the original baseline are unchanged.')
