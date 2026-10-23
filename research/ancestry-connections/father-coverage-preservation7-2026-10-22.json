@@ -515,15 +515,17 @@
     },
     "Glasgow-2468": {
       "current_sha256": "2bd542fcf621073a8d0b394dbafc26b60b36e1c2e171a8fc7c3e7bd99ee98348",
-      "proposed_sha256": "7ae6adeb9361f9e9df934da9e4ea91b619c9b6e57e5671dbd54ee25832833dce",
+      "proposed_sha256": "9207eaa3696062145c14e5bffa7fc766f10b84476255ae7852ea90e39ad9933b",
       "previous_proposed_sha256": "fd65cf4c6df42d127d1d1bad7916bb0decfa81f7bc666dcdf34731654aaba70a",
       "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/father-coverage7-20261022/previous-proposals/Glasgow-2468.wiki",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-2468/father-confidence-2026-10-22g.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
+      "retained": "Captured and prior-proposed John Glasgow/Mary Auld, Kilwinning 1746 birth and baptism, named FMP/ScotlandsPeople citations, and separate qualified 1794 A. Glascow notice retained. One verbatim duplicate birth/baptism sentence removed; added the transcript register-range conflict (1789–1819), original-image limit, and birthplace qualification. No life event or source lost.",
       "restored_source_passage_count": 0,
-      "reference_repairs": []
+      "reference_repairs": [],
+      "reviewed_on": "2026-10-23",
+      "source_review": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
     },
     "Glasgow-1381": {
       "current_sha256": "6cf74ec977c712213d0613f69fbad9d034842e6e6a923789f3d07412179035fa",
@@ -1296,15 +1298,40 @@
     },
     "Glasgow-1481": {
       "current_sha256": "8498a3bb402cf554f6c5a45ea7d4b58de2e33b17c4f0d4a5ed30222ed7eef18f",
-      "proposed_sha256": "05026be8f287a186d7ec115a4e699b0ff3547c7171954126b4c12d3d52032577",
+      "proposed_sha256": "794ff1ad79abe28ec916001478d801cbeb6ed3058f8c723b7dd01a2208d67b4b",
       "previous_proposed_sha256": "8bc25cc16237b83cfd56770997a2eab8876be2c8d8d58e1685352b2229c3258a",
       "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/father-coverage7-20261022/previous-proposals/Glasgow-1481.wiki",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-1481/father-confidence-2026-10-22g.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
+      "retained": "Captured Alexander Glasgow/Agnes Cunninghame, pre-1776 birth bound, FamilySearch source, and unproved Glasgow-3165 comparison retained. New transcript establishes 30 December 1775 birth versus 5 January 1776 baptism, parents, occupation and Grange residence; the selected Alexander adult remains 64% probable. The cited 1779 Leith signatory is now excluded on age (Andrew was three), while the 1790 merchant remains an unproved comparison. Newspaper notices and citations retained; no adult identity inferred.",
       "restored_source_passage_count": 0,
-      "reference_repairs": []
+      "reference_repairs": [],
+      "review_history": [
+        {
+          "reviewed": "2026-10-23",
+          "previous_reviewed_proposed_sha256": "05026be8f287a186d7ec115a4e699b0ff3547c7171954126b4c12d3d52032577",
+          "basis": "Checked complete old/effective proposal comparison and retained inspected Findmypast transcript fields, SCOT/OPR/BAP/0734610 and R_691341389, in birth-scope-records-2026-10-22.json. All prior citations and substantive newspaper passages retained. Corrected birth and literal parental names supersede the earlier upper-bound/parents-not-held statements; named adult identification remains64%. The three-year-old child is concretely excluded from the1779 signatory;1790 remains unproved. No new confidence change.",
+          "source_ids": [
+            "fmp-record-scot-opr-bap-0734610",
+            "fmp-record-r-691341389"
+          ],
+          "retained": [
+            "All three newspaper citations and notice passages",
+            "Grouped-annotation caveat",
+            "Possible Glasgow-3165 identity",
+            "FamilySearch citation",
+            "Original-register uninspected limit"
+          ],
+          "superseded": [
+            "Broad before1776 birth upper bound",
+            "Literal parents not held",
+            "1779signatory not excluded by a baptism-year-only bound"
+          ]
+        }
+      ],
+      "reviewed_on": "2026-10-23",
+      "source_review": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
     },
     "Glasgow-2492": {
       "current_sha256": "88ab77f9f8dddf30e56955321d71d2e67b0c04620ad0641b94aa7ae313f9d51c",
@@ -1392,15 +1419,17 @@
     },
     "Glasgow-1451": {
       "current_sha256": "c4dbcd551cbad907c538f3f2a7f1d093936f6aa4b30ad1575d995aac30600886",
-      "proposed_sha256": "e7a987af77864a88cd471068d92c20d1d4911384139fd2a2bb73a330d46176b9",
+      "proposed_sha256": "0de75481b46a26183e6f34ae1d5325d785eed4a2b87ade18cc9d44c6c1adadca",
       "previous_proposed_sha256": "c4dbcd551cbad907c538f3f2a7f1d093936f6aa4b30ad1575d995aac30600886",
       "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/father-coverage7-20261022/previous-proposals/Glasgow-1451.wiki",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-1451/father-confidence-2026-10-22g.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
+      "retained": "Captured Catharine, 31 August 1780 Livingston christening, Thomas Glasgow-1446 and Christine Davidson links, and FamilySearch citation retained. New transcript distinguishes 20 August birth from 31 August baptism, names Thos Glasgow/Christian Davidson and Blackburne residence. Glasgow-1382 stays the 71% preferred adult identification; captured Glasgow-1446 remains an explicit unresolved alternative, with no parent amendment. Builder restores the captured Estimated Date template while complete birth evidence remains in the biography.",
       "restored_source_passage_count": 0,
-      "reference_repairs": []
+      "reference_repairs": [],
+      "reviewed_on": "2026-10-23",
+      "source_review": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
     },
     "Glasgow-2103": {
       "current_sha256": "6059669f7480bcf6da7b2eb479228e25e67a9617f9c5125098e5a00da84b85f2",
@@ -1680,15 +1709,17 @@
     },
     "Glasgow-3400": {
       "current_sha256": "deaf37d15d24f0c5999813f8e1c697fff5a0927942f8af649091c09b7e157c2c",
-      "proposed_sha256": "9dd0ee296d25a3bb0b6d061c294dd7ca1d43ff578c239ccb332a2db5d55167f5",
+      "proposed_sha256": "b8ab75ae1cda17c8dd132cfed21feb0cad458bc4c708c8a3ca584246041d7d84",
       "previous_proposed_sha256": "deaf37d15d24f0c5999813f8e1c697fff5a0927942f8af649091c09b7e157c2c",
       "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/father-coverage7-20261022/previous-proposals/Glasgow-3400.wiki",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-3400/father-confidence-2026-10-22g.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
+      "retained": "Captured Andrew, Peter Glasgow/Elizabeth Dick, Bathgate 1790 claim and FamilySearch citation retained. Transcript supplies 27 March birth separately from 11 April baptism and names Peter Glasgow/Elisabeth Dick; selected father identity remains 82% probable. Prior father assessment and citations retained; birthplace is qualified because baptism locality alone does not prove it.",
       "restored_source_passage_count": 0,
-      "reference_repairs": []
+      "reference_repairs": [],
+      "reviewed_on": "2026-10-23",
+      "source_review": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
     },
     "Glasgow-1531": {
       "current_sha256": "23edcb9a7610c71195f8fa05ce80d408c868d568706a50a7f8b3d085989bbcc7",
