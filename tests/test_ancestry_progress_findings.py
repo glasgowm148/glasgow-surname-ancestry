@@ -3,7 +3,7 @@ from pathlib import Path
 import subprocess
 import unittest
 
-from tools.build_ancestry_progress import individual_finding_rows
+from tools.build_ancestry_progress import individual_finding_rows, pending_father_changes
 
 
 class IndividualFindingTests(unittest.TestCase):
@@ -12,6 +12,7 @@ class IndividualFindingTests(unittest.TestCase):
                  for key in ['Glasgow-875', 'Glasgow-653', 'record-son']}
         child = extra.pop('child', 'Glasgow-875')
         identity_hold_ids = extra.pop('identity_hold_ids', ())
+        father_changes = extra.pop('father_changes', None)
         assertion = dict(assertion_id='selected', publication_status='approved',
                          status='strongly_supported', assessment_date='2026-10-22',
                          probability={'value': value / 100}, assessment_history=history,
@@ -19,7 +20,7 @@ class IndividualFindingTests(unittest.TestCase):
         edges = [dict(child=child, father='Glasgow-653', assertion_id='selected', confidence_percent=value)]
         return individual_finding_rows(nodes, edges, {'selected': assertion},
                                        {'1850': {'working': {'cohort_ids': ['Glasgow-875']}}},
-                                       {'Glasgow-875'}, identity_hold_ids)
+                                       {'Glasgow-875'}, identity_hold_ids, father_changes)
 
     def test_exact_pair_change_date_and_preserved_prior(self):
         history = [{'status': 'unmarked', 'probability_percent': None},
@@ -33,6 +34,55 @@ class IndividualFindingTests(unittest.TestCase):
         self.assertEqual(rows[-1]['cohorts'], ['1850'])
         self.assertTrue(rows[-1]['baseline'])
         self.assertIn('wikitree_url', rows[-1]['child'])
+        self.assertIsNone(rows[0]['research_event'])
+        self.assertEqual(rows[-1]['research_event']['type'], 'confidence_change')
+        self.assertEqual(rows[-1]['research_event']['date'], '2026-10-22')
+
+    def test_first_grade_for_newly_indexed_documentary_person_is_not_improvement(self):
+        rows=self.rows([],child='record-son',provenance={'new_local_documentary_person':True})
+        self.assertEqual(rows[0]['kind'],'new')
+        self.assertIsNone(rows[0]['research_event'])
+
+    def test_attachment_uses_checked_attachment_date_not_later_first_rating(self):
+        rows=self.rows([],provenance={'new_father_attachment':True,'new_father_attachment_reviewed':'2026-10-16'})
+        self.assertEqual(rows[0]['research_event']['type'],'father_attachment')
+        self.assertEqual(rows[0]['research_event']['date'],'2026-10-16')
+
+    def test_first_percentage_counts_when_saved_qualitative_confidence_changed(self):
+        for before, expected in [('uncertain', 'confidence_change'), ('confident', None), ('unmarked', None)]:
+            row = self.rows([{'status': before, 'source_basis': 'Saved prior public assessment'}])[0]
+            self.assertIsNone(row['before_percent'])
+            self.assertEqual((row['research_event'] or {}).get('type'), expected)
+            if expected:
+                self.assertEqual(row['research_event']['before_grade'], 'uncertain')
+
+    def test_catalogue_add_and_replace_are_findings_without_attachment_flag(self):
+        for action in ['add', 'replace']:
+            changes = pending_father_changes([dict(map_key='Glasgow-875', needs_wikitree_update=True,
+                wikitree_update_relationship_changes=[dict(action=action,relationship='father',relative_id='Glasgow-653',
+                    assertion_id='selected',previous_status='uncertain',previous_relative_id='Other-1')])])
+            row = self.rows([], father_changes=changes)[0]
+            self.assertEqual(row['kind'], 'new')
+            self.assertEqual(row['research_event']['type'], 'father_attachment' if action=='add' else 'father_replacement')
+            self.assertEqual(row['research_event']['before_grade'], 'unknown' if action=='add' else 'uncertain')
+
+    def test_catalogue_prior_grade_provenance_can_supply_unmeasured_before_state(self):
+        changes = {('glasgow-875','glasgow-653','selected'):
+                   dict(action='regrade',previous_status='uncertain',previous_status_provenance='Saved prior profile assessment')}
+        row=self.rows([],father_changes=changes)[0]
+        self.assertEqual(row['research_event']['before_grade'],'uncertain')
+        self.assertIsNone(row['before_percent'])
+
+    def test_record_subject_matches_public_id_rather_than_unprefixed_map_key(self):
+        changes=pending_father_changes([dict(id='record-son',map_key='son',needs_wikitree_update=True,
+            wikitree_update_relationship_changes=[dict(action='add',relationship='father',relative_id='Glasgow-653',assertion_id='selected')])])
+        row=self.rows([],child='record-son',father_changes=changes)[0]
+        self.assertEqual(row['research_event']['type'],'father_attachment')
+
+    def test_text_prior_provenance_does_not_invent_an_earlier_grade(self):
+        row=self.rows([],provenance={'prior_assessment':'Prior report; no structured assessment'})[0]
+        self.assertIsNone(row['previous_assessment'])
+        self.assertIsNone(row['research_event'])
 
     def test_decrease_and_within_band_are_changes(self):
         for before, after in [(95, 71), (71, 74)]:

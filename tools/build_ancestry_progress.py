@@ -34,7 +34,27 @@ LINK_VIEWS = {
 }
 
 
-def individual_finding_rows(nodes, edges, assessments, cohorts, baseline_ids, identity_hold_ids=()):
+def pending_father_changes(catalogue):
+    """Reuse the catalogue's explicit amendments, keyed to the selected pair."""
+    return {(str(change.get('subject_id') or row.get('id') or row['map_key']).casefold(),
+             str(change.get('relative_id')).casefold(), change.get('assertion_id')): change
+            for row in catalogue if row.get('needs_wikitree_update')
+            for change in row.get('wikitree_update_relationship_changes') or []
+            if change.get('relationship') == 'father' and change.get('relative_id')}
+
+
+def confidence_grade(state):
+    # An ungraded named parent is not an absent (Unknown) father.
+    for key in ('status', 'assessment_status', 'tree_status'):
+        status = state.get(key)
+        if status in {'proved', 'confident', 'strongly_supported', 'certain', 'dna_confirmed'}:
+            return 'confident'
+        if status in {'probable', 'possible', 'uncertain'}:
+            return status
+    return None
+
+
+def individual_finding_rows(nodes, edges, assessments, cohorts, baseline_ids, identity_hold_ids=(), father_changes=None):
     """Explicit saved pair assessments only; never infer an old numeric rating."""
     def percent(state):
         value = state.get('probability_percent', state.get('percent'))
@@ -69,9 +89,16 @@ def individual_finding_rows(nodes, edges, assessments, cohorts, baseline_ids, id
         if type(current) not in (int, float):
             continue
         child, father = edge['child'], edge['father']
+        amendment = (father_changes or {}).get((child.casefold(), father.casefold(), assertion['assertion_id']), {})
         # The selected edge is authoritative; alternate hypotheses stay out.
         states = list(assertion.get('assessment_history') or []) + [assertion]
-        previous = None
+        previous = (assertion.get('provenance') or {}).get('prior_assessment')
+        if not isinstance(previous, dict):
+            previous = None
+        if not previous and amendment.get('previous_status_provenance'):
+            previous = dict(status=amendment.get('previous_status') or amendment.get('before'),
+                            source_basis=amendment['previous_status_provenance'])
+        structural_recorded = False
         for index, state in enumerate(states):
             historical_father = state.get('relative_id') or state.get('prior_selected_father')
             if index != len(states)-1 and historical_father and historical_father != father:
@@ -98,12 +125,35 @@ def individual_finding_rows(nodes, edges, assessments, cohorts, baseline_ids, id
             new = newly_selected or (before is None and (
                 changed_father or bool(provenance.get('new_local_documentary_person'))
                 or provenance.get('new_father_attachment') is True))
-            if before == value and not newly_selected:
+            before_grade = confidence_grade(previous or {})
+            after_grade = confidence_grade(state)
+            structural = (not structural_recorded and amendment.get('action') in {'add', 'replace'})
+            if structural:
+                new = True
+            if before == value and before_grade == after_grade and not newly_selected and not structural:
                 previous = state
                 continue
+            review_date = state.get('assessment_date') or state.get('reviewed') or probability.get('reviewed')
+            research_event = None
+            if structural or (new and provenance.get('new_father_attachment') is True):
+                structural_recorded = True
+                if not provenance.get('new_local_documentary_person'):
+                    replacement = amendment.get('action') == 'replace' or changed_father
+                    prior = dict(status=amendment.get('previous_status'))
+                    research_event = dict(
+                        type='father_replacement' if replacement else 'father_attachment',
+                        date=provenance.get('new_father_attachment_reviewed') or review_date,
+                        before_grade=(confidence_grade(prior) or before_grade) if replacement else 'unknown',
+                        after_grade=after_grade,
+                        catalogue_action=amendment.get('action'),
+                        previous_father_id=amendment.get('previous_relative_id') or prior_father,
+                    )
+            elif not new and (before is not None or (before_grade and after_grade and before_grade != after_grade)):
+                research_event = dict(type='confidence_change', date=review_date,
+                                      before_grade=before_grade, after_grade=after_grade)
             rows.append(dict(
                 assertion_id=assertion['assertion_id'], child=person(child), father=person(father),
-                date=state.get('assessment_date') or state.get('reviewed') or probability.get('reviewed'),
+                date=review_date, research_event=research_event,
                 saved_order=len(rows), kind='new' if new else 'change' if before is not None else 'first',
                 before_percent=before, after_percent=value,
                 previous_assessment=saved_state(previous), assessment_status=state.get('status') or state.get('assessment_status'),
@@ -111,12 +161,13 @@ def individual_finding_rows(nodes, edges, assessments, cohorts, baseline_ids, id
                 reason=state.get('change_reason') or state.get('reason') or state.get('source_basis') or probability.get('basis') or state.get('basis') or '',
                 limitations=state.get('limitations') or state.get('record_scope') or state.get('scope') or '',
                 identity_hold=child in identity_hold_ids or father in identity_hold_ids,
+                catalogue_father_action=amendment.get('action'),
                 cohorts=[str(cutoff) for cutoff, views in cohorts.items() if child in views['working']['cohort_ids']],
                 baseline=child in baseline_ids,
             ))
             previous = {**state, 'probability_percent': value}
     # Python's stable sort retains saved source order within each exact date.
-    return sorted(rows, key=lambda row: row['date'] or '', reverse=True)
+    return sorted(rows, key=lambda row: (row['research_event'] or {}).get('date') or row['date'] or '', reverse=True)
 
 
 def has_named_father(dossier):
@@ -334,7 +385,9 @@ def build(create_baseline=False):
     if history['snapshots'][-1].get('cohorts') != cutoff_history:
         history['snapshots'][-1]['cohorts'] = cutoff_history
         write_json(history_path, history)
-    individual_findings = individual_finding_rows(nodes, edges, assessments, cohorts, set(baseline['cohort_ids']), identity_hold_ids)
+    catalogue = json.loads((WEB / 'data/catalogue-search-index.json').read_text())
+    individual_findings = individual_finding_rows(nodes, edges, assessments, cohorts, set(baseline['cohort_ids']),
+                                                 identity_hold_ids, pending_father_changes(catalogue))
     report = dict(
         schema_version=1,
         reviewed=history["snapshots"][-1]["date"],
@@ -472,12 +525,23 @@ def build(create_baseline=False):
 <section aria-labelledby="baseline-title"><h2 id="baseline-title">Track the same baseline people</h2><p>Initial baseline: {baseline["captured"]}, through {baseline["cutoff"]}, {len(baseline["cohort_ids"]):,} people. On those same surviving baseline people, the working connected-pair score is {fixed["working"]["connected_pairs_percent"]:.2f}% (initially {baseline["metrics"]["working"]["connected_pairs_percent"]:.2f}%). New cohort people: {len(report["fixed_cohort"]["added_ids"])}; missing baseline people: {len(report["fixed_cohort"]["missing_ids"])}.</p><p>A connection between two components joins every cross-branch pair. The score is 100 × Σ n(n−1) ÷ N(N−1), where n is each paternal component's size and N is the cohort. The common-origin model stays outside the measurements.</p><p>Confidence grades come from the current resolved public dossiers. A confidently marked tree link is not a claim that every underlying source has been independently re-audited. Women born with the surname count; their fathers can join the paternal family, while spouses and maternal paths cannot.</p><p>Coverage: {report["available_surname_people"]:,} public surname profiles and {report["documentary_ancestors"]} separately listed documentary ancestors available; {report["undated_surname_people"]:,} have no usable structured date before ancestry closure; {len(quality["missing_dossiers"])} dossiers unavailable; {len(quality["multiple_fathers"])} competing-father cases held out; {len(quality["cycles"])} paternal cycles flagged. Cyclic edges are excluded from the score. Named documentary ancestors with complete public research accounts can connect these profiles. They are listed separately as connectors and never increase the profile denominator. An unnamed conceptual ancestor cannot connect branches in this measure.</p><p>{escape(strategy["later_records"])}</p><p class="progress-actions"><a href="/data/ancestry-connectivity.json">Current measurements and research queue (JSON)</a><a href="/data/ancestry-connectivity-baseline.json">Fixed initial baseline (JSON)</a></p></section>
 <script type="application/json" id="ancestry-progress-data">{payload}</script></main>"""
     history_html = f'''<section id="progress-history" class="progress-history" aria-labelledby="history-title">
-<h2 id="history-title">Confidence and connectivity over time</h2>
-<p>See the remaining uncertainty alongside confident links and exact confidence. Each daily point is the last saved measurement that day. <a href="#individual-findings">Individual findings: see whose assessment changed ↓</a></p>
+<h2 id="history-title">Research findings over time</h2>
+<p>Track changes supported by new evidence or a revised assessment, including decreases. A first percentage counts when it changes a saved earlier confidence grade. Initial indexing and unchanged grades are review coverage. <a href="#individual-findings">See whose assessment changed ↓</a></p>
 <div class="progress-controls"><label>History cohort <select id="history-cohort"><option value="fixed">Fixed baseline · {len(baseline['cohort_ids']):,} people through {baseline['cutoff']}</option><option value="selected">Selected historical cohort</option></select></label></div>
-
+<div id="uncertainty-history" class="research-findings-trend" aria-labelledby="research-history-title">
+<h3 id="research-history-title">Confidence changes from research</h3>
+<p id="research-history-scope" class="source-line"></p>
+<div id="research-history-summary" class="history-changes" aria-live="polite"></div>
+<p>Net movement from recorded findings · positive means more links in that grade; negative means fewer.</p>
+<div id="research-history-legend" class="research-grade-legend"></div><div id="research-history-chart"></div>
+<p id="research-history-exclusions" class="source-line"></p><p id="research-catalogue-reconciliation" class="source-line"></p>
+<p class="source-line">A change within a grade still counts as an improved or lowered rating above, even when its line stays level. Each date combines the findings recorded that day; the baseline does not invent an earlier date or percentage.</p>
+<details><summary>View dated research changes</summary><div class="progress-table-wrap"><table><caption>Grade columns show cumulative net change; review columns count that date’s findings.</caption><thead><tr><th scope="col">Date</th><th scope="col">Confident</th><th scope="col">Probable</th><th scope="col">Possible</th><th scope="col">Uncertain</th><th scope="col">Unknown</th><th scope="col">Ratings improved</th><th scope="col">Ratings lowered</th><th scope="col">New fathers</th><th scope="col">Replacements</th></tr></thead><tbody id="research-history-rows"></tbody></table></div></details>
+<h3>Current counts</h3><div id="research-current-counts" class="research-grade-legend"></div><p class="source-line">Unknown means no named father is retained. The other grades count named father links. These current totals are separate from research gains.</p>
+</div>
+<details id="catalogue-history"><summary>Catalogue and review coverage history · includes first-time grading</summary><p>These older snapshot charts also change when people are indexed, first assessed or reconciled. They measure catalogue coverage and connectivity, and are not used to count research improvements above.</p>
 <p id="history-scope" class="source-line"></p>
-<div id="uncertainty-history" class="uncertainty-trend" aria-labelledby="uncertainty-history-title">
+<div id="catalogue-uncertainty-history" class="uncertainty-trend" aria-labelledby="uncertainty-history-title">
 <h3 id="uncertainty-history-title">How many fathers remain unknown or uncertain?</h3>
 <p>Unknown means no named father is retained, including an unnamed placeholder or only unselected candidates. Below confident counts named father links graded probable, possible, uncertain or unmarked. Unknown counts people; the other series count father links. <a href="#family-heads-title">Explore unattached family heads</a>.</p>
 <div id="uncertainty-totals" class="uncertainty-totals" aria-live="polite"></div><div id="uncertainty-breakdown" class="uncertainty-breakdown"></div>
@@ -489,12 +553,13 @@ def build(create_baseline=False):
 <details><summary>View snapshot data</summary><div class="progress-table-wrap"><table><caption id="history-table-caption">Daily measurements</caption><thead id="history-table-head"></thead><tbody id="history-table-body"></tbody></table></div></details>
 <noscript><p>Enable JavaScript to explore the chart, or <a href="/data/ancestry-connectivity.json">read the dated measurements</a>.</p></noscript>
 <div class="confidence-trend">
-<h3>Exact confidence improvement</h3><p id="confidence-trend-summary" aria-live="polite"></p>
+<h3>Review coverage and recorded mean confidence</h3><p id="confidence-trend-summary" aria-live="polite"></p>
 <div id="confidence-trend-chart"></div>
 <p class="source-line">Every changed saved review is shown, including changes within the same day. Reviews are evenly spaced; recording times were not retained. The mean covers individually assessed fathers, so review coverage and new or revised links can move it up or down. It is not a probability for the whole tree. Earlier unrecorded percentages are not reconstructed.</p>
 <details><summary>View exact confidence review data</summary><div class="progress-table-wrap"><table><thead><tr><th scope="col">Saved review</th><th scope="col">Mean confidence</th><th scope="col">Rated father links</th><th scope="col">Review coverage</th></tr></thead><tbody id="confidence-trend-rows"></tbody></table></div></details>
 </div>
-<div id="individual-findings" aria-labelledby="individual-findings-title"><h3 id="individual-findings-title">Individual findings</h3><p>Follow each selected father’s assessment, with the child’s biography and WikiTree profile. Percentage changes use saved individual estimates, including decreases and changes within a confidence band. First ratings are review coverage, not a measured increase. Dates are recorded review dates; same-day entries retain saved order.</p><div class="progress-controls"><label>Findings <select id="findings-kind"><option value="change">Recorded percentage changes</option><option value="first">First individual ratings</option><option value="new">New father connections</option><option value="all">All findings</option></select></label><label class="inline-check"><input type="checkbox" id="findings-all-cohorts">Include beyond the selected history cohort</label></div><p id="findings-count" aria-live="polite"></p><div class="progress-table-wrap" tabindex="0" role="region" aria-label="Individual father findings"><table><thead><tr><th scope="col">Review date</th><th scope="col">Child and father</th><th scope="col">Individual assessment</th><th scope="col">Evidence and reason</th></tr></thead><tbody id="findings-rows"></tbody></table></div></div>
+</details>
+<div id="individual-findings" aria-labelledby="individual-findings-title"><h3 id="individual-findings-title">Individual findings</h3><p>Follow each selected father’s assessment, with the child’s biography and WikiTree profile. Percentage changes use saved individual estimates, including decreases and changes within a confidence band. First percentages that change a saved earlier confidence grade count as findings; unchanged initial assessments remain review coverage. New and replacement recommendations are reconciled with the catalogue. Dates are recorded review dates; same-day entries retain saved order.</p><div class="progress-controls"><label>Findings <select id="findings-kind"><option value="research">Research changes and father recommendations</option><option value="change">Confidence changes (percentages or grades)</option><option value="first">First individual ratings</option><option value="new">New / replacement fathers</option><option value="all">All findings</option></select></label><label class="inline-check"><input type="checkbox" id="findings-all-cohorts">Include beyond the selected history cohort</label></div><p id="findings-count" aria-live="polite"></p><div class="progress-table-wrap" tabindex="0" role="region" aria-label="Individual father findings"><table><thead><tr><th scope="col">Review date</th><th scope="col">Child and father</th><th scope="col">Individual assessment</th><th scope="col">Evidence and reason</th></tr></thead><tbody id="findings-rows"></tbody></table></div></div>
 </section>'''
     main = main.replace('<section aria-labelledby="connectivity-title">', history_html + '<section aria-labelledby="connectivity-title">', 1)
     main = main.replace('<section aria-labelledby="baseline-title">', '<section aria-labelledby="baseline-title"><details><summary>Research objective and shared-origin hypothesis</summary><p>' + escape(strategy['objective']) + '</p><p>' + escape(strategy['common_origin']) + '</p></details>', 1)

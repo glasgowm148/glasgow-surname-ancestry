@@ -48,10 +48,65 @@
       unknown:Number.isFinite(listing?.unknown_count)?listing.unknown_count:null, population:listing?.population, ...grades};
   }
   function individualFindings(rows, kind, cohort, beyond = false) {
-    return rows.filter(row => (kind === 'all' || row.kind === kind) &&
+    return rows.filter(row => (kind === 'all' || (kind === 'research' ? !!row.research_event : kind === 'change' ? row.research_event?.type === 'confidence_change' || row.kind === 'change' : row.kind === kind)) &&
       (beyond || (cohort === 'fixed' ? row.baseline : row.cohorts.includes(String(cohort)))));
   }
-  if (typeof module !== 'undefined' && module.exports) module.exports = {dailyHistory, historySeries, confidenceHistory, uncertaintyMeasurements, individualFindings};
+  const researchGrades = [
+    {key:'confident',label:'Confident',color:'#25734c'},
+    {key:'probable',label:'Probable',color:'#386eaf'},
+    {key:'possible',label:'Possible',color:'#98630b'},
+    {key:'uncertain',label:'Uncertain',color:'#a33237'},
+    {key:'unknown',label:'Unknown',color:'#303f4b'}
+  ];
+  function findingGrade(status, percent) {
+    if (['proved','confident','strongly_supported','certain','dna_confirmed'].includes(status)) return 'confident';
+    if (['probable','possible','uncertain'].includes(status)) return status;
+    if (!Number.isFinite(percent)) return null;
+    return percent >= 90 ? 'confident' : percent >= 60 ? 'probable' : percent >= 30 ? 'possible' : 'uncertain';
+  }
+  function researchHistory(findings, cohort) {
+    const scoped = individualFindings(findings,'all',cohort), days=new Map(), seen=new Set();
+    let increases=0,decreases=0,newFathers=0,replacements=0,qualitativeChanges=0,undated=0,ungradedReplacements=0;
+    const rank={uncertain:1,possible:2,probable:3,confident:4};
+    for (const row of scoped) {
+      const event=row.research_event;
+      if (!event || !Number.isFinite(row.after_percent)) continue;
+      const structural=['father_attachment','father_replacement'].includes(event.type);
+      const before=event.before_grade || findingGrade(row.previous_assessment?.status || row.previous_assessment?.assessment_status || row.previous_assessment?.tree_status,row.before_percent);
+      const after=event.after_grade || findingGrade(row.assessment_status,row.after_percent);
+      const numeric=Number.isFinite(row.before_percent) && row.before_percent!==row.after_percent;
+      const qualitative=before && after && before!==after && rank[before] && rank[after];
+      if (!structural && !(event.type==='confidence_change' && (numeric || qualitative))) continue;
+      const signature=JSON.stringify([row.assertion_id,event.date,event.type,row.before_percent,row.after_percent,before,after]);
+      if (row.assertion_id && seen.has(signature)) continue;
+      seen.add(signature);
+      if (!/^\d{4}-\d{2}-\d{2}$/.test(event.date || '')) {undated++;continue;}
+      if (!days.has(event.date)) days.set(event.date,{date:event.date,...Object.fromEntries(researchGrades.map(g=>[g.key,0])),increases:0,decreases:0,newFathers:0,replacements:0});
+      const day=days.get(event.date);
+      if (event.type==='father_attachment') {day.unknown--;day.newFathers++;newFathers++;}
+      else if (event.type==='father_replacement') {
+        day.replacements++;replacements++;
+        if (before) day[before]--;else ungradedReplacements++;
+      } else {
+        if (before) day[before]--;
+        if (!numeric) qualitativeChanges++;
+        if (numeric ? row.after_percent>row.before_percent : rank[after]>rank[before]) {day.increases++;increases++;}
+        else {day.decreases++;decreases++;}
+      }
+      day[after]++;
+    }
+    const totals=Object.fromEntries(researchGrades.map(g=>[g.key,0]));
+    const points=[{date:null,...totals,increases:0,decreases:0,newFathers:0,replacements:0}];
+    for (const day of [...days.values()].sort((a,b)=>a.date.localeCompare(b.date))) {
+      for (const grade of researchGrades) totals[grade.key]+=day[grade.key];
+      points.push({...day,...totals});
+    }
+    const proposals=rows=>new Set(rows.filter(r=>['add','replace'].includes(r.catalogue_father_action)).map(r=>r.assertion_id)).size;
+    return {points,increases,decreases,newFathers,replacements,qualitativeChanges,undated,ungradedReplacements,
+      catalogueProposals:proposals(findings),cohortProposals:proposals(scoped),
+      firstRatings:scoped.filter(row=>row.kind==='first' && !row.research_event).length};
+  }
+  if (typeof module !== 'undefined' && module.exports) module.exports = {dailyHistory, historySeries, confidenceHistory, uncertaintyMeasurements, individualFindings, researchHistory};
   if (typeof document === 'undefined') return;
   const element = document.getElementById('ancestry-progress-data');
   if (!element) return;
@@ -66,9 +121,10 @@
     byId('findings-count').textContent = `${number(rows.length)} findings · ${byId('findings-all-cohorts').checked ? 'all available cohorts' : cohort === 'fixed' ? 'fixed baseline people' : `through ${cohort}`}`;
     byId('findings-rows').innerHTML = rows.length ? rows.map(row => {
       const percentage = row.before_percent == null ? `${row.after_percent}%` : `${row.before_percent}% → ${row.after_percent}%`;
-      const label = row.kind === 'change' ? percentage : `${row.kind === 'new' ? 'New father connection' : 'First individual rating'} · ${percentage}`;
+      const event=row.research_event;
+      const label = event?.type==='father_replacement' ? `Replacement father · ${row.after_percent}%` : event?.type==='father_attachment' ? `New father connection · ${row.after_percent}%` : event?.type==='confidence_change' && row.before_percent==null ? `${grade(event.before_grade)} → ${grade(row.assessment_status)} · ${row.after_percent}% (first percentage)` : row.kind === 'change' ? percentage : `${row.kind === 'new' ? 'Newly indexed relationship' : 'First individual rating'} · ${percentage}`;
       const prior = row.previous_assessment;
-      return `<tr><td>${esc(row.date || 'Date not recorded')}</td><td>${person(row.child)}<br>Father: ${person(row.father)}${row.identity_hold ? '<br><strong>Identity HOLD · record-defined person; adult identity unresolved</strong>' : ''}</td><td><strong>${esc(label)}</strong>${prior ? `<br>Prior grade: ${esc(grade(prior.status || prior.assessment_status))}` : ''}<br>Reviewed grade: ${esc(grade(row.assessment_status))}</td><td><details><summary>Evidence and assessment reason</summary><p>${esc(row.reason)}</p>${row.limitations ? `<p>${esc(row.limitations)}</p>` : ''}${prior ? `<p>Prior basis: ${esc(prior.source_basis || prior.reason || prior.basis || 'not recorded')}</p>` : ''}<a href="${esc(row.child.url)}">Read the sourced biography</a></details></td></tr>`;
+      return `<tr><td>${esc(event?.date || row.date || 'Date not recorded')}</td><td>${person(row.child)}<br>Father: ${person(row.father)}${row.identity_hold ? '<br><strong>Identity HOLD · record-defined person; adult identity unresolved</strong>' : ''}</td><td><strong>${esc(label)}</strong>${prior ? `<br>Prior grade: ${esc(grade(event?.type==='confidence_change' || event?.type==='father_replacement' ? event.before_grade || prior.status || prior.assessment_status : prior.status || prior.assessment_status))}` : ''}<br>Reviewed grade: ${esc(grade(row.assessment_status))}</td><td><details><summary>Evidence and assessment reason</summary><p>${esc(row.reason)}</p>${row.limitations ? `<p>${esc(row.limitations)}</p>` : ''}${prior ? `<p>Prior basis: ${esc(prior.source_basis || prior.reason || prior.basis || 'not recorded')}</p>` : ''}<a href="${esc(row.child.url)}">Read the sourced biography</a></details></td></tr>`;
     }).join('') : '<tr><td colspan="4">No findings of this kind are recorded for this cohort. Choose another finding type or include beyond the selected cohort.</td></tr>';
   }
   function renderPriorities() {
@@ -85,6 +141,48 @@
   byId('priority-order').addEventListener('change', renderPriorities);
   byId('priority-early').addEventListener('change', renderPriorities);
   renderPriorities();
+  function renderResearchHistory(cohort) {
+    const result=researchHistory(data.individual_findings || [],cohort), last=result.points.at(-1);
+    const signed=value=>value>0?'+'+number(value):number(value);
+    const scope=cohort==='fixed'?'the fixed baseline people':`people born through ${cohort}`;
+    byId('research-history-scope').textContent=`Recorded findings for ${scope}. Includes first percentages that changed a saved confidence grade, plus new and replacement fathers.`;
+    byId('research-history-summary').innerHTML=`<div style="--series:#25734c"><span>Confidence ratings improved</span><strong>${number(result.increases)}</strong><small>Exact percentage increases and saved grade upgrades</small></div><div style="--series:#a33237"><span>Confidence ratings lowered</span><strong>${number(result.decreases)}</strong><small>Decreases remain in the history</small></div><div style="--series:#386eaf"><span>New / replacement fathers</span><strong>${number(result.newFathers+result.replacements)}</strong><small>${number(result.newFathers)} previously absent · ${number(result.replacements)} replacements</small></div>`;
+    byId('research-history-exclusions').textContent=`${number(result.qualitativeChanges)} changes count a saved earlier grade without an old percentage. ${number(result.firstRatings)} initial ratings without a changed earlier grade are review coverage. The chart starts at zero and shows net grade movement from findings, not historical headcounts. Unknown falls for a previously absent father only. ${result.ungradedReplacements ? `${result.ungradedReplacements} replacement fathers had an ungraded named predecessor; their new grades are added without inventing a prior grade. ` : ''}${result.undated ? `${result.undated} undated findings remain in the log but cannot be plotted. ` : ''}`;
+    byId('research-catalogue-reconciliation').innerHTML=`<a href="/catalogue/?needsUpdate=1&changeRelationship=father&changeAction=topology#catalogue-filters">${number(result.catalogueProposals)} pending new / replacement father recommendations in the catalogue</a> · ${number(result.cohortProposals)} concern this cohort; ${number(result.catalogueProposals-result.cohortProposals)} fall outside it. Newly indexed people are excluded from research gains. Recommendations and confidence regrades are separate counts.`;
+    const metrics=cohort==='fixed'?dailyHistory(data.progress_history,data.history_method_version,'fixed').at(-1)?.metrics:data.cohorts[cohort];
+    // Current totals are context, independent of the event-only trend.
+    const current=uncertaintyMeasurements(metrics), confident=metrics?.confident?.edge_count;
+    const currentCounts={confident,...current};
+    byId('research-current-counts').innerHTML=researchGrades.map(g=>`<span style="--series:${g.color}">${g.label} <strong>${Number.isFinite(currentCounts[g.key])?number(currentCounts[g.key]):'Not recorded'}</strong></span>`).join('');
+    byId('research-history-legend').innerHTML=researchGrades.map(g=>`<span style="--series:${g.color}">━ ${g.label} <strong>${signed(last[g.key])}</strong></span>`).join('');
+    const target=byId('research-history-chart'), width=Math.max(300,Math.min(960,target.clientWidth || 960)), height=300,left=48,right=30,top=24,bottom=48;
+    const values=result.points.flatMap(p=>researchGrades.map(g=>p[g.key])), min=Math.min(-1,...values)*1.15,max=Math.max(1,...values)*1.15;
+    const plotted=result.points.filter(p=>p.date), firstDate=plotted[0]?.date, lastDate=plotted.at(-1)?.date;
+    const time=date=>Date.parse(date+'T12:00:00Z'), span=firstDate ? time(lastDate)-time(firstDate) : 0;
+    const x=p=>span ? left+(time(p.date)-time(firstDate))/span*(width-left-right) : (left+width-right)/2;
+    const y=value=>height-bottom-(value-min)/(max-min)*(height-top-bottom);
+    const dateLabel=date=>new Date(date+'T12:00:00Z').toLocaleDateString('en-GB',{day:'numeric',month:'short',timeZone:'UTC'});
+    const svg=[`<svg viewBox="0 0 ${width} ${height}" role="img" aria-labelledby="research-chart-title research-chart-desc"><title id="research-chart-title">Research findings: all five confidence grades</title><desc id="research-chart-desc">Net change in Confident, Probable, Possible, Uncertain and Unknown from reviewed findings only. ${result.increases} confidence increases, ${result.decreases} decreases and ${result.newFathers} new fathers and ${result.replacements} replacements. Changed earlier grades count even without an old percentage. Full dated values follow in the table.</desc>`];
+    for(let i=0;i<=4;i++) {
+      const v=min+(max-min)*i/4;
+      svg.push(`<line x1="${left}" x2="${width-right}" y1="${y(v)}" y2="${y(v)}" class="history-grid"/><text x="${left-8}" y="${y(v)+4}" text-anchor="end">${Math.round(v)}</text>`);
+    }
+    svg.push(`<line x1="${left}" x2="${width-right}" y1="${y(0)}" y2="${y(0)}" stroke="#73806e" stroke-width="1.5"/>`);
+    if (plotted.length) {
+      const tickCount=Math.min(5,Math.floor((width-left-right)/90)+1,Math.floor(span/86400000)+1);
+      const ticks=span ? Array.from({length:tickCount},(_,i)=>new Date(time(firstDate)+Math.round(i/(tickCount-1)*span/86400000)*86400000).toISOString().slice(0,10)) : [firstDate];
+      ticks.forEach((date,i)=>svg.push(`<text x="${x({date})}" y="${height-15}" text-anchor="${i===0?'start':i===ticks.length-1?'end':'middle'}">${esc(dateLabel(date))}</text>`));
+    } else svg.push(`<text x="${left}" y="${height-15}">No dated findings for this cohort</text>`);
+    for(const g of researchGrades) {
+      svg.push(`<path data-grade="${g.key}" d="${plotted.map((p,i)=>(i?'L':'M')+x(p)+','+y(p[g.key])).join(' ')}" fill="none" stroke="${g.color}" stroke-width="3" ${g.key==='unknown'?'stroke-dasharray="7 4"':''}/>`);
+      plotted.forEach(p=> {
+        const label=`${p.date}: ${g.label}, net ${signed(p[g.key])}`;
+        svg.push(`<circle cx="${x(p)}" cy="${y(p[g.key])}" r="4" fill="${g.color}" stroke="#fffdf8" tabindex="0" aria-label="${esc(label)}"><title>${esc(label)}</title></circle>`);
+      });
+    }
+    target.innerHTML=svg.join('')+'</svg>';
+    byId('research-history-rows').innerHTML=result.points.map(p=>`<tr><th scope="row">${p.date || 'Before the listed findings'}</th>${researchGrades.map(g=>`<td>${signed(p[g.key])}</td>`).join('')}<td>${p.increases}</td><td>${p.decreases}</td><td>${p.newFathers}</td><td>${p.replacements}</td></tr>`).join('');
+  }
   const historyViews = [
     {key:'confident', label:'Confident', color:'#25734c'},
     {key:'supported', label:'Probable or stronger', color:'#386eaf'},
@@ -181,6 +279,7 @@
     renderFindings();
     const cutoff = byId('progress-cutoff').value;
     const fixed = byId('history-cohort').value === 'fixed';
+    renderResearchHistory(fixed ? 'fixed' : cutoff);
     renderConfidenceTrend(fixed ? 'fixed' : cutoff);
     const metric = byId('history-metric').value;
     const rows = dailyHistory(data.progress_history, data.history_method_version, fixed ? 'fixed' : cutoff);

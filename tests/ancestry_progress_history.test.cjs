@@ -1,6 +1,54 @@
 const {test} = require('node:test');
 const assert = require('node:assert/strict');
 const {dailyHistory, historySeries, confidenceHistory, uncertaintyMeasurements} = require('../tools/ancestry_progress.js');
+const {researchHistory} = require('../tools/ancestry_progress.js');
+
+const finding=(kind,before,after,extra={})=>({kind,before_percent:before,after_percent:after,cohorts:['1850'],baseline:true,date:'2026-10-23',assessment_status:after>=90?'proved':after>=60?'probable':'possible',research_event:kind==='first'?null:{type:kind==='new'?'father_attachment':'confidence_change',date:'2026-10-23'},...extra});
+test('first-time grading and new indexed people cannot inflate research gains',()=>{
+  const rows=[...Array.from({length:1000},()=>finding('first',null,99)),finding('new',null,99,{research_event:null,baseline:false}),finding('new',null,67,{research_event:null})];
+  const result=researchHistory(rows,'1850');
+  assert.equal(result.increases,0);assert.equal(result.newFathers,0);assert.equal(result.firstRatings,1000);
+  assert.deepEqual(result.points.map(p=>p.confident),[0]);
+});
+test('five-grade research history retains downgrades and changes within a grade',()=>{
+  const result=researchHistory([finding('change',71,95,{previous_assessment:{status:'probable'}}),finding('change',95,80,{previous_assessment:{status:'proved'}}),finding('change',80,85,{previous_assessment:{status:'probable'}}),finding('change',22,35,{previous_assessment:{status:'uncertain'}})],'1850');
+  assert.equal(result.increases,3);assert.equal(result.decreases,1);
+  assert.deepEqual(Object.fromEntries(['confident','probable','possible','uncertain','unknown'].map(k=>[k,result.points.at(-1)[k]])),{confident:0,probable:0,possible:1,uncertain:-1,unknown:0});
+  assert.equal(result.points[0].date,null); // No invented earlier measurement date.
+});
+test('an evidenced father attachment moves Unknown once; an unselected candidate score is not its earlier grade',()=>{
+  const result=researchHistory([finding('new',18,38,{previous_assessment:{status:'uncertain',working_selection:false},research_event:{type:'father_attachment',date:'2026-10-16'}})],'fixed');
+  assert.equal(result.increases,0);assert.equal(result.newFathers,1);
+  assert.equal(result.points.at(-1).unknown,-1);assert.equal(result.points.at(-1).possible,1);assert.equal(result.points.at(-1).uncertain,0);
+  assert.equal(result.points.at(-1).date,'2026-10-16');
+});
+test('research gains follow the selected cohort and exclude undated reviews',()=>{
+  const rows=[finding('change',71,95,{cohorts:['1850'],baseline:false}),finding('change',71,95,{cohorts:['1650','1850'],research_event:{type:'confidence_change',date:null}})];
+  assert.equal(researchHistory(rows,'1850').increases,1);
+  assert.equal(researchHistory(rows,'1650').increases,0);
+  assert.equal(researchHistory(rows,'fixed').increases,0);
+});
+
+test('first percentages count a changed saved grade without inventing an earlier percentage',()=>{
+  const result=researchHistory([
+    finding('first',null,95,{previous_assessment:{status:'uncertain'},research_event:{type:'confidence_change',date:'2026-10-23',before_grade:'uncertain',after_grade:'confident'}}),
+    finding('first',null,75,{previous_assessment:{status:'confident'},research_event:{type:'confidence_change',date:'2026-10-23',before_grade:'confident',after_grade:'probable'}}),
+    finding('first',null,99,{previous_assessment:{status:'confident'}}),
+    finding('first',null,99,{previous_assessment:{status:'unmarked'}})
+  ],'1850');
+  assert.equal(result.increases,1);assert.equal(result.decreases,1);assert.equal(result.qualitativeChanges,2);
+  assert.equal(result.firstRatings,2);assert.equal(result.points.at(-1).unknown,0);
+  assert.equal(result.points.at(-1).uncertain,-1);assert.equal(result.points.at(-1).probable,1);
+});
+test('replacement recommendations keep ungraded named fathers separate from absent fathers',()=>{
+  const rows=[finding('new',null,67,{assertion_id:'replacement',catalogue_father_action:'replace',research_event:{type:'father_replacement',date:'2026-10-23',before_grade:null,after_grade:'probable'}}),
+    finding('new',null,42,{assertion_id:'addition',catalogue_father_action:'add',research_event:{type:'father_attachment',date:'2026-10-23',before_grade:'unknown',after_grade:'possible'}}),
+    finding('new',null,97,{assertion_id:'outside',catalogue_father_action:'add',cohorts:[],baseline:false,research_event:null})];
+  const result=researchHistory([...rows,rows[0]],'1850');
+  assert.equal(result.newFathers,1);assert.equal(result.replacements,1);assert.equal(result.increases,0);
+  assert.equal(result.ungradedReplacements,1);assert.equal(result.points.at(-1).unknown,-1);
+  assert.equal(result.catalogueProposals,3);assert.equal(result.cohortProposals,2);
+});
 
 test('daily history uses the final comparable snapshot and excludes method changes', () => {
   const rows = dailyHistory([
