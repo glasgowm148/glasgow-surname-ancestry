@@ -57,6 +57,14 @@ class IndividualFindingTests(unittest.TestCase):
         self.assertFalse(row['identity_hold'])
         self.assertNotIn('wikitree_url', row['child'])
 
+    def test_explicit_new_father_for_existing_person_is_not_first_grading(self):
+        row = self.rows([{'status': 'unknown', 'probability_percent': None}], 42,
+                        provenance={'new_father_attachment': True})[-1]
+        self.assertEqual(row['kind'], 'new')
+        self.assertIsNone(row['before_percent'])
+        self.assertEqual(row['after_percent'], 42)
+        self.assertIn('wikitree_url', row['child'])
+
     def test_replaced_parent_percent_is_not_previous_pair_rating(self):
         row = self.rows([{'relative_id': 'Other-1', 'percent': 71}])[-1]
         self.assertEqual(row['kind'], 'new')

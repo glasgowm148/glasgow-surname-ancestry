@@ -88,7 +88,9 @@ def individual_finding_rows(nodes, edges, assessments, cohorts, baseline_ids, id
                 previous = state
                 continue
             probability = state.get('probability') or {}
-            new = before is None and (changed_father or bool((assertion.get('provenance') or {}).get('new_local_documentary_person')))
+            provenance = assertion.get('provenance') or {}
+            new = before is None and (changed_father or bool(provenance.get('new_local_documentary_person'))
+                                      or provenance.get('new_father_attachment') is True)
             rows.append(dict(
                 assertion_id=assertion['assertion_id'], child=person(child), father=person(father),
                 date=state.get('assessment_date') or state.get('reviewed') or probability.get('reviewed'),
