@@ -110,3 +110,15 @@ Next useful test: Identify the baptism father through residence, siblings or a m
 This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [Representative Church Body Library, Derryloran Parish Register, Volume 1, published transcription, p. 3 (https://www.churchofireland.org/cmsfiles/pdf/AboutUs/library/AngRecord/DerryloranVol1.pdf#page=11), accessed 17 July 2026.](https://www.churchofireland.org/cmsfiles/pdf/AboutUs/library/AngRecord/DerryloranVol1.pdf#page=11)
+
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGES12-16-20261023 -->
+## Findmypast pages 12–16 source review — 23 October 2026
+
+Role in this account: same Cookstown 1882 death, age 83; already cited civil registration. FMP derivative Cookstown 1882 age 83 aligns with maintained Glasgow-1702 civil death registration; no new birth date.
+
+Next question: Compare the original entry and existing household sources for identity identifiers; saved transcript fields have been reviewed.
+
+- [Findmypast IRE/BMD/D/573253017](https://www.findmypast.co.uk/transcript?id=IRE%2FBMD%2FD%2F573253017&tab=this), derivative transcript inspected 23 October 2026.
+
+Birth, baptism, death and burial retain their distinct source roles. Comparison roles do not assign an event or parents to this profile. The approved birth refinements for Isabel-3482 and James-1573 are separate from unchanged relationship assessments; an additional index does not increase a percentage. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-BIRTH-SCOPE-PAGES12-16-20261023 -->

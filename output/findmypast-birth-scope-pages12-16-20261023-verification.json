@@ -1,0 +1,185 @@
+{
+  "pages": [
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "query_rows": 100,
+  "new_provider_records": 84,
+  "reused_provider_receipts": 13,
+  "reused_existing_index": 1,
+  "subscription_locked": 2,
+  "documentary_groups_with_fresh_records": 52,
+  "source_defined_or_unresolved_clusters": 34,
+  "confirmed_existing_groups": 9,
+  "enriched_held_groups": 9,
+  "new_people": 0,
+  "relationship_grade_changes": 0,
+  "original_images": 0,
+  "existing_exact_birth_refinements": 2,
+  "source_readers_checked": 84,
+  "reviewed_country_visible_readers": 84,
+  "record_pipeline_tests": {
+    "passed": 27,
+    "suite": "tests.test_ingest_canonical_records"
+  },
+  "person_accounts_checked": 36,
+  "selected_full_fast_hydrated_membership_checks": 36,
+  "global_filter_counts": {
+    "has_profile": 4776,
+    "missing_profile": 91,
+    "needs_wikitree_update": 1591
+  },
+  "ledger_records": 427,
+  "profile_context_records": 301,
+  "source_only_records": 126,
+  "screened_query_rows_total": 320,
+  "query_coverage_percent": 5.4,
+  "distinct_provider_ids_across_capture_and_screened_query": 440,
+  "indexed_ids_in_that_union": 438,
+  "locked_uninspected_ids_in_union": 2,
+  "coverage": "INCOMPLETE",
+  "next_page": 17,
+  "publication": "Local website only; no deployment or live WikiTree save",
+  "vital_projection": {
+    "scope": "Two approved Findmypast birth refinements",
+    "subjects": {
+      "Glasgow-3482": {
+        "date": "1755-05-12",
+        "assessment": "fmp-glasgow-3482-birth-20261023",
+        "relationships": "d6fb7dff79d7cad95e3f5fac760e9ac11f46a8f7c41212a9f2233cfe5f652caf",
+        "tree_display": {
+          "born": 1755,
+          "year": 1755,
+          "birthDisplay": "1755-05-12",
+          "bornApprox": false
+        }
+      },
+      "Glasgow-1573": {
+        "date": "1799-06-01",
+        "assessment": "fmp-glasgow-1573-birth-20261023",
+        "relationships": "b8d58026d70aaefc3dd6a530af14a9888d3fa09781428d94a91fa9836b4fc466",
+        "tree_display": {
+          "born": 1799,
+          "year": 1799,
+          "birthDisplay": "1799-06-01",
+          "bornApprox": false
+        }
+      }
+    },
+    "changed": [
+      "www/assets/research/atlas-model-packed.json",
+      "www/assets/research/atlas-model.json",
+      "www/assets/research/people/glasgow-1573.json",
+      "www/assets/research/people/glasgow-3482.json",
+      "www/data/catalogue-search-index.json",
+      "www/onetree/glasgow-one-tree-polished-3/index.html",
+      "www/onetree/glasgow-one-tree-polished-3/model.json"
+    ],
+    "models": {
+      "www/onetree/glasgow-one-tree-polished-3/model.json": {
+        "people": 4685,
+        "unchanged_other_people": 4683,
+        "unchanged_graph": true,
+        "previous_relationship_digest": "6932fb0e31448594c885c7416fa80bca7283b860136e264df34971d747087130",
+        "current_relationship_digest": "6932fb0e31448594c885c7416fa80bca7283b860136e264df34971d747087130"
+      },
+      "www/assets/research/atlas-model.json": {
+        "people": 4532,
+        "unchanged_other_people": 4530,
+        "unchanged_graph": true,
+        "previous_relationship_digest": "84211472f22673a88e185cc2401415095a6323325581d4a657bb135522450d94",
+        "current_relationship_digest": "84211472f22673a88e185cc2401415095a6323325581d4a657bb135522450d94"
+      }
+    },
+    "verified": {
+      "selected_births": 2,
+      "unrelated_person_rows_unchanged": true,
+      "family_graph_unchanged": true,
+      "catalogue_projection_preexisting": true,
+      "dossiers_preexisting": true,
+      "networks_preexisting": true,
+      "resolver_projection_preexisting": true,
+      "embedded_standalone_matches_model": true,
+      "atlas_packed_matches_model": true
+    }
+  },
+  "preservation_review": {
+    "Glasgow-3482": {
+      "current_sha256": "a7acb0723371942efc5147893273ff6388cda6538baf4f2bf047aeb50b0509a6",
+      "proposed_sha256": "8fc1530bdb3a96ed1d92813e2facfe4b45baad3fac15700fbabd03693751edc0",
+      "previous_proposed_sha256": "8fb26060a0b172b303cc51854ce20b69e3daaaabe9e59f31aa73d5541d7a9a0c",
+      "source_identities_preserved": true,
+      "normalization_reviewed": true
+    },
+    "Glasgow-1573": {
+      "current_sha256": "fa207b4ec0fdfcbd719ce9ac3834b94916f97318b0a8200a44e4db17eb09758d",
+      "proposed_sha256": "fbe08a254b011c7f201db853551872a46b344f0328a4092d5409f162154cd553",
+      "previous_proposed_sha256": "4a1cb56b7f7e8b3647d7736520ce4569180e1effddfcfab961a5b61458e58387",
+      "source_identities_preserved": true,
+      "normalization_reviewed": true
+    }
+  },
+  "publication_gate": {
+    "selected_findings_files": 36,
+    "new_failures": 0,
+    "seconds": 157.0,
+    "original_privacy_and_preservation_guards": true
+  },
+  "link_check": {
+    "pages": 25636,
+    "internal_references": 1350793,
+    "existing_broken_references": 7,
+    "existing_broken_page_target_pairs": 4,
+    "new_pairs": 0,
+    "non_gated_missing_person_anchors": 86,
+    "unlinked_fragments_or_readers_not_checked": 812
+  },
+  "assets": {
+    "sitemap": {
+      "sitemap_urls": 23635,
+      "sitemap_reader_pages": 1261
+    },
+    "search": {
+      "search_indexes": 1,
+      "shared_search_assets": 1
+    },
+    "asset_write_passes": 1,
+    "changed_files": 24613,
+    "original_stale_references": 24689,
+    "stale_asset_references": 0
+  },
+  "birth_search_parity": {
+    "glasgow-3482": {
+      "birth": "1755-05-12",
+      "full_fast_hydrated_match": true
+    },
+    "glasgow-1573": {
+      "birth": "1799-06-01",
+      "full_fast_hydrated_match": true
+    }
+  },
+  "resources": {
+    "task_owned_tabs_remaining": 0,
+    "personal_tabs_preserved": 3,
+    "browser_main_pid_preserved": 80580,
+    "task_repl_reset": true,
+    "owned_running_build_or_render_helpers": 0,
+    "final_memory_observation": "System-wide memory free percentage: 49%"
+  },
+  "performance_followup": {
+    "status": "Deferred, read-only audit complete",
+    "scope": "Reuse coherent preloaded evidence, updates and diagnostic report between sync_catalogue_research and check_research_publication; preserve standalone loader and guard behavior.",
+    "audit_file": "/tmp/fmp-sync-duplicate-load-audit.json"
+  },
+  "commit_scope": {
+    "new_source_collection_entries": 84,
+    "existing_source_entries_preserved": 16017,
+    "unrelated_new_or_changed_library_entries_excluded": 2,
+    "collection_snapshot_rendered_to_index_only": true,
+    "working_source_data_preserved": true,
+    "special_collection_pages_preserved": 4
+  }
+}

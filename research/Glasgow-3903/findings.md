@@ -162,3 +162,15 @@ Next useful test: Compare the monument image for the precise death day, preservi
 This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [“Tamlaght O’Crilly Lower Graveyard,” One Irish Rover, Glasgow family gravestone (https://www.oneirishrover.com/tamlaght-graveyard/).](https://www.oneirishrover.com/tamlaght-graveyard/)
+
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGES12-16-20261023 -->
+## Findmypast pages 12–16 source review — 23 October 2026
+
+Role in this account: same Magherafelt 1878 death age 84; original Inishrush return and 11/12 Dec conflict already maintained. FMP index Magherafelt 1878 age 84 aligns with Glasgow-3903 original civil death at Inishrush 12 Dec 1878. No new exact date or father claim.
+
+Next question: Compare the original entry and existing household sources for identity identifiers; saved transcript fields have been reviewed.
+
+- [Findmypast IRE/BMD/D/618087809](https://www.findmypast.co.uk/transcript?id=IRE%2FBMD%2FD%2F618087809&tab=this), derivative transcript inspected 23 October 2026.
+
+Birth, baptism, death and burial retain their distinct source roles. Comparison roles do not assign an event or parents to this profile. The approved birth refinements for Isabel-3482 and James-1573 are separate from unchanged relationship assessments; an additional index does not increase a percentage. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-BIRTH-SCOPE-PAGES12-16-20261023 -->

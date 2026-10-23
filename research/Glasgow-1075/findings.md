@@ -87,3 +87,15 @@ Daughter [Anna Glasgow-3005](/people/glasgow-3005.html), wife of Hugh Allan, is 
 The page also corrects two errors in the earlier OCR-based source account: Robert’s marriage is printed **15 December 1726**, and Jean’s birth is **1727**. These are readings of Paterson, not new inspections of the underlying parish registers, and no structured vital field is changed. The book’s later no-issue claim for the Mountgreenan son remains in conflict with the already retained trust evidence.
 
 [James Paterson, History of the County of Ayr, volII(1852), printed p.252, IA leaf 268](https://archive.org/details/historyofcountyo02pateuoft/page/n268/mode/1up).
+
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGES12-16-20261023 -->
+## Findmypast pages 12–16 source review — 23 October 2026
+
+Role in this account: Compatible adult-father comparison: compiled Mountgreenan family account says Robert Glasgow of Puddockholm/Kilbirnie married Margaret Allan and had a son James; profile identity is not proven by this index.. New source-defined child event: James Glasgow, birth year 1750, baptism 18 Mar 1750 at Kilbirnie, father Robert Glasgow, mother Margarat Allan. Birth year is not an exact birthday. Parent names fit compiled family context; no child profile is matched. Dalry 1750 profile/event is a distinct candidate comparison.
+
+Next question: Compare the original Kilbirnie register, family account and existing James-1142 Dalry record before identity assignment.
+
+- [Findmypast R_685307786](https://www.findmypast.co.uk/transcript?id=R_685307786&tab=this), derivative transcript inspected 23 October 2026.
+
+Birth, baptism, death and burial retain their distinct source roles. Comparison roles do not assign an event or parents to this profile. The approved birth refinements for Isabel-3482 and James-1573 are separate from unchanged relationship assessments; an additional index does not increase a percentage. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-BIRTH-SCOPE-PAGES12-16-20261023 -->

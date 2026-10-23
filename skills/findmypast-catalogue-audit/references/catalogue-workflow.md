@@ -69,6 +69,8 @@ PYTHONPATH=. .venv/bin/python tools/ingest_canonical_records.py --record-id <can
 PYTHONPATH=. .venv/bin/python tools/ingest_canonical_records.py --record-id <canonical-record-id> --apply
 ```
 
+`apply()` builds and validates the complete selected plan before any writes. When an in-process batch does not need a separate review of the proposed writes, call it once after the exact-ID and identity review; do not call `plan()` only to print its file count and then immediately call `apply()` to repeat the same full source-corpus load. Keep a separate dry-run when its proposed changes need actual review; never bypass the validation inside `apply()`.
+
 Repeat `--record-id` for a batch, or use a deliberately reviewed `--source-file` selection. `publish_to_record_index=true` opts a canonical row into reviewed replay. The ingester does not itself decide a person's identity or authorize vital/relationship changes.
 
 Review literal country/place conflicts explicitly. The Glasgow surname is not a Scottish-location signal. Age-derived and baptism-derived years need their real roles. Preserve both indexed values when unresolved.

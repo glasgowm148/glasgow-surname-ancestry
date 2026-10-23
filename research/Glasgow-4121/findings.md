@@ -35,3 +35,16 @@ Next useful test: Compare original Irvine 1741–1745 entries for occupation/abo
 This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [Isabel, Irvine 26 April 1741: George Glasgow and Margt](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3575036&tab=this)
+
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGES12-16-20261023 -->
+## Findmypast pages 12–16 source review — 23 October 2026
+
+Role in this account: Matched child/event: OPR 595/1, item 1, p.55 explicitly gives birth 23 Apr and baptism 26 Apr 1741, father George Glasgow.. OPR receipt SCOT/OPR/BAP/3575036 explicitly labels birth 23 Apr and baptism 26 Apr; its mother field is absent. Two companion index versions add mother Margaret Martine and one gives Irvine residence. These are literal derivative fields, not an OPR mother clause and not independent corroboration. The canonical Isabel event has no mother attachment from this evidence. Unmapped named role: Margaret Martine — Derivative field only, not a mapped profile or attached mother..
+
+Next question: Compare the derivative maternal reading with the original OPR; retain Margaret Martine as a source-specific reading only.
+
+- [Findmypast R_685315735](https://www.findmypast.co.uk/transcript?id=R_685315735&tab=this), derivative transcript inspected 23 October 2026.
+- [Findmypast R_688619362](https://www.findmypast.co.uk/transcript?id=R_688619362&tab=this), derivative transcript inspected 23 October 2026.
+
+Birth, baptism, death and burial retain their distinct source roles. Comparison roles do not assign an event or parents to this profile. The approved birth refinements for Isabel-3482 and James-1573 are separate from unchanged relationship assessments; an additional index does not increase a percentage. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-BIRTH-SCOPE-PAGES12-16-20261023 -->

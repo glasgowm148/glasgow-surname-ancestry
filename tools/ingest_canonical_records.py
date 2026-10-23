@@ -66,7 +66,7 @@ def source_page(shell, doc, *, existing=False):
     body += '<p>Reviewed provider transcript; the original register has not been inspected unless the assessment explicitly states otherwise.</p>'
     for row in doc.get('records', []):
         body += '<article><h2>' + escape(' '.join((row.get('association') or row.get('name') or 'Record association').split())) + '</h2>'
-        body += '<p>' + escape(' · '.join(str(row.get(k) or '') for k in ('date', 'place', 'status'))) + '</p>'
+        body += '<p>' + escape(' · '.join(str(row[k]) for k in ('date', 'place', 'country', 'status') if row.get(k))) + '</p>'
         body += '<p>' + escape(row.get('note') or '') + '</p></article>'
     body += '<h2>Linked people and record roles</h2><ul>'
     for row in doc.get('citations', []):

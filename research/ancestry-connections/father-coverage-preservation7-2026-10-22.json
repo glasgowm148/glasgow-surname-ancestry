@@ -979,15 +979,22 @@
     },
     "Glasgow-3482": {
       "current_sha256": "a7acb0723371942efc5147893273ff6388cda6538baf4f2bf047aeb50b0509a6",
-      "proposed_sha256": "8fb26060a0b172b303cc51854ce20b69e3daaaabe9e59f31aa73d5541d7a9a0c",
-      "previous_proposed_sha256": "a7acb0723371942efc5147893273ff6388cda6538baf4f2bf047aeb50b0509a6",
-      "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/father-coverage7-20261022/previous-proposals/Glasgow-3482.wiki",
+      "proposed_sha256": "8fc1530bdb3a96ed1d92813e2facfe4b45baad3fac15700fbabd03693751edc0",
+      "previous_proposed_sha256": "8fb26060a0b172b303cc51854ce20b69e3daaaabe9e59f31aa73d5541d7a9a0c",
+      "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/findmypast-pages12-16-20261023/previous-proposals/Glasgow-3482.wiki",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-3482/father-confidence-2026-10-22g.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
+      "retained": "Complete prior father-review basis, grades, source identities and unrelated narrative retained. The prior broad/estimated birth sentence and now-resolved next-test wording are replaced with the explicit birth/baptism fields; maternal/adult continuity limits remain.",
       "restored_source_passage_count": 0,
-      "reference_repairs": []
+      "reference_repairs": [],
+      "previous_proposed_git_reference": "bbf5c45293971fab6ce55487edc94d4f51789efc:research/Glasgow-3482/father-confidence-2026-10-22g.wiki",
+      "source_receipt": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BAP~14501260",
+      "birth_reviewed_on": "2026-10-23",
+      "superseded_passages": [
+        "Isabel was born in 1755. She is the daughter of [[Glasgow-3481|John Glasgow]] and [[Meek-3817|Christian Meek]].",
+        "Next useful test: Read the 1755 parents and residence to test continuity into Leith."
+      ]
     },
     "Glasgow-82": {
       "current_sha256": "1cd2e407e58796a023c443d1190208e22e2dda023cd8dfeb5db138d62e8cb60a",

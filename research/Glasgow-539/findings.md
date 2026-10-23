@@ -67,3 +67,15 @@ Scope: Complete father-profile proposition91%; the will gives no age or residenc
 Next useful test: Use Hugh’s obituary or estate correspondence to verify the son’s identity.
 
 This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
+
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGES12-16-20261023 -->
+## Findmypast pages 12–16 source review — 23 October 2026
+
+Role in this account: Strong existing-person comparison: maintained findings report Hugh died 10 Jul 1874 aged 88; this transcript matches date and age. The source names no parents, and no identity/parent grade is changed.. Literal index fields: Hugh Glasgow, age 88, death date 10 Jul 1874, death/burial register labeled Burial, Pittsburgh, Allegheny, Pennsylvania; indexed birth year 1786 derives from age. This adds an inspected derivative to the existing reported burial account; it does not establish an exact birth date or birth place.
+
+Next question: Compare the provider index with the held cemetery transcription/image; retain the existing profile’s other qualifications.
+
+- [Findmypast US/BMD/PENN-BUR/00131613](https://www.findmypast.co.uk/transcript?id=US%2FBMD%2FPENN-BUR%2F00131613&tab=this), derivative transcript inspected 23 October 2026.
+
+Birth, baptism, death and burial retain their distinct source roles. Comparison roles do not assign an event or parents to this profile. The approved birth refinements for Isabel-3482 and James-1573 are separate from unchanged relationship assessments; an additional index does not increase a percentage. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-BIRTH-SCOPE-PAGES12-16-20261023 -->

@@ -13324,11 +13324,11 @@
       "status": "OPEN",
       "pending": true,
       "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
+      "biography_rechecked_at": "2026-10-23",
       "draft_path": "research/Glasgow-1573/father-confidence-2026-10-22c.wiki",
       "findings_path": "research/Glasgow-1573/findings.md",
-      "summary": "Review existing father at 63% (probable), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 63% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Refine birth from about 1 June 1799 to 1 June 1799, distinct from 8 July 1799 baptism; retain father review 63% and source/identity limits.",
+      "work_queue_summary": "Refine birth from about 1 June 1799 to 1 June 1799, distinct from 8 July 1799 baptism; retain father review 63% and source/identity limits.",
       "relationship_changes": [
         {
           "action": "regrade",
@@ -13348,7 +13348,18 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation3-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation3-2026-10-22.json",
+      "vital_changes": [
+        {
+          "field": "birth",
+          "before": "c. 1799-06-01",
+          "before_status": "estimated",
+          "after": "1799-06-01",
+          "after_status": "exact",
+          "basis": "The OPR 596/1, item 1, p 20 transcript gives James Glasgow birth 1 June 1799 and baptism 8 July 1799; parents James Glasgow and Ann Houston, residence Nethermill, Kilbirnie. Parent pair, parish and maintained 1 June date identify the existing child/event. Child-to-adult continuity remains separately qualified. Original register uninspected; death about 1862 remains estimated.",
+          "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3588332&tab=this"
+        }
+      ]
     },
     "Glasgow-1605": {
       "queued_at": "2026-10-22",
@@ -21748,11 +21759,11 @@
       "status": "OPEN",
       "pending": true,
       "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
+      "biography_rechecked_at": "2026-10-23",
       "draft_path": "research/Glasgow-3482/father-confidence-2026-10-22g.wiki",
       "findings_path": "research/Glasgow-3482/findings.md",
-      "summary": "Review existing father at 98% (proved), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 98% (proved), retaining source and identity limits; no new father attachment.",
+      "summary": "Refine birth from 16 May 1755 to 12 May 1755, distinct from 16 May 1755 baptism; retain father review 98% and source/identity limits.",
+      "work_queue_summary": "Refine birth from 16 May 1755 to 12 May 1755, distinct from 16 May 1755 baptism; retain father review 98% and source/identity limits.",
       "relationship_changes": [
         {
           "action": "regrade",
@@ -21772,7 +21783,18 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation7-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation7-2026-10-22.json",
+      "vital_changes": [
+        {
+          "field": "birth",
+          "before": "1755-05-16",
+          "before_status": "exact",
+          "after": "1755-05-12",
+          "after_status": "exact",
+          "basis": "The detailed OPR 692/3, item 2, p 76 transcript gives Isabel Glasgow birth 12 May 1755 and baptism 16 May 1755; father John Glasgow, workman, mother Christian Mook, residence Leith North. Companion indexes give Christian Meek and the same baptism. Name, father, mother, parish and existing 16 May child event identify Glasgow-3482. The Mook/Meek spelling remains qualified; the original register is uninspected.",
+          "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4501260&tab=this"
+        }
+      ]
     },
     "Glasgow-82": {
       "profile_id": "Glasgow-82",

@@ -574,12 +574,21 @@
     },
     "Glasgow-1573": {
       "current_sha256": "fa207b4ec0fdfcbd719ce9ac3834b94916f97318b0a8200a44e4db17eb09758d",
-      "proposed_sha256": "4a1cb56b7f7e8b3647d7736520ce4569180e1effddfcfab961a5b61458e58387",
+      "proposed_sha256": "fbe08a254b011c7f201db853551872a46b344f0328a4092d5409f162154cd553",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-1573/father-confidence-2026-10-22c.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
-      "restored_source_passage_count": 0
+      "retained": "Complete prior father-review basis, grades, source identities and unrelated narrative retained. Estimated Date template retained for uncertain death. The prior broad/estimated birth sentence and now-resolved next-test wording are replaced with the explicit birth/baptism fields; maternal/adult continuity limits remain.",
+      "restored_source_passage_count": 0,
+      "previous_proposed_sha256": "4a1cb56b7f7e8b3647d7736520ce4569180e1effddfcfab961a5b61458e58387",
+      "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/findmypast-pages12-16-20261023/previous-proposals/Glasgow-1573.wiki",
+      "previous_proposed_git_reference": "bbf5c45293971fab6ce55487edc94d4f51789efc:research/Glasgow-1573/father-confidence-2026-10-22c.wiki",
+      "source_receipt": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BAP~13588332",
+      "birth_reviewed_on": "2026-10-23",
+      "superseded_passages": [
+        "James was born about 1799. He was the son of [[Glasgow-1572|James Glasgow]] and [[Houston-4780|Ann Houston]].  He passed away about 1862. ",
+        "Next useful test: Find the 1799 baptism or later death parent fields."
+      ]
     },
     "Glasgow-1605": {
       "current_sha256": "60c3847f2591176ebdd3142aff793ce2989a22c95b1c78ff3adca91282242c14",

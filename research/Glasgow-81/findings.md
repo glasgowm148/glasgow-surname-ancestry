@@ -30,3 +30,16 @@ This is a first numerical review of an existing father, not a new attachment or 
 - [fmp-record-r-686351978](https://www.findmypast.co.uk/transcript?id=R_686351978&tab=this).
 - [fmp-record-r-687778368](https://www.findmypast.co.uk/transcript?id=R_687778368&tab=this).
 - [https://www.familysearch.org/ark:/61903/1:1:VQ4T-G4L](https://www.familysearch.org/ark:/61903/1:1:VQ4T-G4L).
+
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGES12-16-20261023 -->
+## Findmypast pages 12–16 source review — 23 October 2026
+
+Role in this account: adult John father candidate, no grade change. Two companion indexes give Janet baptism 18 Aug 1751 at West Calder, John Glasgow/Magdalene Guthrie. Existing before-18-Aug birth bound is correct; no exact birth day.
+
+Next question: Compare the original entry and existing household sources for identity identifiers; saved transcript fields have been reviewed.
+
+- [Findmypast R_686351714](https://www.findmypast.co.uk/transcript?id=R_686351714&tab=this), derivative transcript inspected 23 October 2026.
+- [Findmypast R_687775344](https://www.findmypast.co.uk/transcript?id=R_687775344&tab=this), derivative transcript inspected 23 October 2026.
+
+Birth, baptism, death and burial retain their distinct source roles. Comparison roles do not assign an event or parents to this profile. The approved birth refinements for Isabel-3482 and James-1573 are separate from unchanged relationship assessments; an additional index does not increase a percentage. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-BIRTH-SCOPE-PAGES12-16-20261023 -->

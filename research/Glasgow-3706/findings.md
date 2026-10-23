@@ -42,3 +42,16 @@ Next question: Original monument/photograph and Eccles entries.
 
 Birth, baptism, death and burial retain their distinct source roles. Comparison roles do not assign an event or parents to this profile. No new person, vital replacement or relationship-grade change follows; an additional index does not increase an existing percentage. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
 <!-- END FMP-BIRTH-SCOPE-PAGES9-11-20261023 -->
+
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGES12-16-20261023 -->
+## Findmypast pages 12–16 source review — 23 October 2026
+
+Role in this account: Compatible adult-family comparison only: existing Eccles/Leitholm Robert household account; the transcript’s father identity with this profile is not separately proved.. The detailed OPR transcript gives birth 13 Feb 1795 and baptism 2 Mar, father Robt Glasgow, wright, mother Agnes Whitehead, residence Leitholm, Eccles (OPR 737/4, item 4, pp.113–113 A). Companion index spells Robert. This is a new record-defined child event; no child profile match. The Eccles monument is related family context, not the same event.
+
+Next question: Compare the original Eccles register and existing Robert/Agnes family events; preserve source roles without creating or attaching a child.
+
+- [Findmypast SCOT/OPR/BAP/4833144](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4833144&tab=this), derivative transcript inspected 23 October 2026.
+- [Findmypast R_691583592](https://www.findmypast.co.uk/transcript?id=R_691583592&tab=this), derivative transcript inspected 23 October 2026.
+
+Birth, baptism, death and burial retain their distinct source roles. Comparison roles do not assign an event or parents to this profile. The approved birth refinements for Isabel-3482 and James-1573 are separate from unchanged relationship assessments; an additional index does not increase a percentage. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-BIRTH-SCOPE-PAGES12-16-20261023 -->

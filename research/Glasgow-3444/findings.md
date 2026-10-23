@@ -82,3 +82,15 @@ Eleven inspected issues from 23 June to 25 October 1849 name James Glasgow, merc
 
 The Cookstown chronology supports this as a possible identity. [James Glasgow](https://www.wikitree.com/wiki/Glasgow-3196) remains an alternative: his description as farmer in his son’s 1859 marriage does not exclude earlier trading. The advertisements identify neither household, and repeated notices do not establish a relationship to the separately named John Glasgow.
 <!-- queue-record-integration-2026-10-17:end -->
+
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGES12-16-20261023 -->
+## Findmypast pages 12–16 source review — 23 October 2026
+
+Role in this account: same Cookstown 1866 death, age 90; current GRONI-index exact 14 Dec death already maintained. Cookstown civil index age 90, 1866, volume 16, page 309. Matches existing Glasgow-3444 GRONI-indexed death by name, age, district and year; FMP adds derivative corroboration but no new exact day.
+
+Next question: Compare the original entry and existing household sources for identity identifiers; saved transcript fields have been reviewed.
+
+- [Findmypast IRE/BMD/D/616870513](https://www.findmypast.co.uk/transcript?id=IRE%2FBMD%2FD%2F616870513&tab=this), derivative transcript inspected 23 October 2026.
+
+Birth, baptism, death and burial retain their distinct source roles. Comparison roles do not assign an event or parents to this profile. The approved birth refinements for Isabel-3482 and James-1573 are separate from unchanged relationship assessments; an additional index does not increase a percentage. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-BIRTH-SCOPE-PAGES12-16-20261023 -->

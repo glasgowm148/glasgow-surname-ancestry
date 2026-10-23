@@ -35,3 +35,16 @@ The index names Alexr. Glasgow, baptized 14 February 1751 at Glasgow, Male, with
 
 Provider transcripts inspected; original images uninspected. [Shared Scottish-records account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
 <!-- END FMP-BIRTH-SCOPE-PAGE3-20261022 -->
+
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGES12-16-20261023 -->
+## Findmypast pages 12–16 source review — 23 October 2026
+
+Role in this account: possible adult Alexander father, childhood bridge separate. Two Currie indexes give Janet Glasgow baptism 4 June 1745, parents Alexander Glasgow and Jean Richie. Glasgow-1432 has a held Kirknewton/10 June baptism account; the inherited before-10-June birth bound is compatible, but it does not resolve the different baptism date and parish. Retain a comparison, not an identified companion event. Existing birthplace and parent grades stay unchanged.
+
+Next question: Compare the original Currie entry with the existing FamilySearch/Kirknewton source before identifying this child.
+
+- [Findmypast R_685982186](https://www.findmypast.co.uk/transcript?id=R_685982186&tab=this), derivative transcript inspected 23 October 2026.
+- [Findmypast R_688346566](https://www.findmypast.co.uk/transcript?id=R_688346566&tab=this), derivative transcript inspected 23 October 2026.
+
+Birth, baptism, death and burial retain their distinct source roles. Comparison roles do not assign an event or parents to this profile. The approved birth refinements for Isabel-3482 and James-1573 are separate from unchanged relationship assessments; an additional index does not increase a percentage. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-BIRTH-SCOPE-PAGES12-16-20261023 -->

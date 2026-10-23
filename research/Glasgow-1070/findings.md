@@ -158,3 +158,15 @@ No regiment is stated in the appointment paragraph. It cannot safely be joined t
 
 This may concern [Glasgow-1070](https://www.wikitree.com/wiki/Glasgow-1070). Estimated c. 1719 birth allows an older adult, with no regiment or commission identifier.
 <!-- queue-record-integration-2026-10-17:end -->
+
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGES12-16-20261023 -->
+## Findmypast pages 12–16 source review — 23 October 2026
+
+Role in this account: Current 42% father-profile assessment in that adult hypothesis remains unchanged; source names father George only.. New FMP derivative matches existing canonical child event held-e-4 da 562420037: James Glasgow, baptism 21 May 1738, Covington and Thankerton, parents George Glasgow and Agnes Williamson. Birth year 1738 is not an explicit birthday. Existing 42% adult-profile father hypothesis is not changed by another derivative. Unmapped named role: Williamson-12853 — Compatible existing Agnes Williamson comparison only..
+
+Next question: Original register/residence evidence needed to bridge the 1738 child to adult Glasgow-1120; preserve current 42% assessment.
+
+- [Findmypast R_685659247](https://www.findmypast.co.uk/transcript?id=R_685659247&tab=this), derivative transcript inspected 23 October 2026.
+
+Birth, baptism, death and burial retain their distinct source roles. Comparison roles do not assign an event or parents to this profile. The approved birth refinements for Isabel-3482 and James-1573 are separate from unchanged relationship assessments; an additional index does not increase a percentage. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-BIRTH-SCOPE-PAGES12-16-20261023 -->

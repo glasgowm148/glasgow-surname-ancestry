@@ -208,3 +208,15 @@ HOLD — Inspected Crossle manuscript abstract page 23, image S2/IRE/NAI/0076348
 
 [Shared record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). Identity comparisons do not assign events or alter family attachments.
 <!-- END FMP-BIRTH-SCOPE-PAGES4-6-20261023 -->
+
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGES12-16-20261023 -->
+## Findmypast pages 12–16 source review — 23 October 2026
+
+Role in this account: compatible Larne James brother only, not identified. Crossle 1821 abstract: James 47, stationer, relationship “Bro”; same inspected No.22 Main Street Larne household as Ann 50 and Jane 47. Birth c 1774 age-derived; “Dead: No” refers to 1821. Reuse /tmp/fmp-crossle-review.json; no parents assigned.
+
+Next question: Reuse inspected Crossle p 23; seek independent same-premises/kin bridge to James-3986 before profile link.
+
+- [Findmypast IRE/NAI/GENABS/01110628/1](https://www.findmypast.co.uk/transcript?id=IRE%2FNAI%2FGENABS%2F01110628%2F1&tab=this), derivative transcript inspected 23 October 2026.
+
+Birth, baptism, death and burial retain their distinct source roles. Comparison roles do not assign an event or parents to this profile. The approved birth refinements for Isabel-3482 and James-1573 are separate from unchanged relationship assessments; an additional index does not increase a percentage. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-BIRTH-SCOPE-PAGES12-16-20261023 -->

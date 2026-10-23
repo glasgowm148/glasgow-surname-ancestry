@@ -20,3 +20,15 @@ Scope: Confident inferred father96%; James’s 1750/1756 dates, later wife claim
 Next useful test: Reconcile James’s own baptism and later family while retaining the supported sibling inference.
 
 This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
+
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGES12-16-20261023 -->
+## Findmypast pages 12–16 source review — 23 October 2026
+
+Role in this account: Possible same-year child/adult comparison only; this profile is separately reported as a Dalry 1750 baptism and St Vincent adult, so do not merge or choose between events.. New source-defined child event: James Glasgow, birth year 1750, baptism 18 Mar 1750 at Kilbirnie, father Robert Glasgow, mother Margarat Allan. Birth year is not an exact birthday. Parent names fit compiled family context; no child profile is matched. Dalry 1750 profile/event is a distinct candidate comparison.
+
+Next question: Compare the original Kilbirnie register, family account and existing James-1142 Dalry record before identity assignment.
+
+- [Findmypast R_685307786](https://www.findmypast.co.uk/transcript?id=R_685307786&tab=this), derivative transcript inspected 23 October 2026.
+
+Birth, baptism, death and burial retain their distinct source roles. Comparison roles do not assign an event or parents to this profile. The approved birth refinements for Isabel-3482 and James-1573 are separate from unchanged relationship assessments; an additional index does not increase a percentage. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-BIRTH-SCOPE-PAGES12-16-20261023 -->

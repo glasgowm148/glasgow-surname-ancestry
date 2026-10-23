@@ -40,3 +40,17 @@ John-1544 and John-3481 remain separate profile accounts of a possible single ma
 - [Isabel, Irvine 26 April 1741: George Glasgow and Margt](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3575036&tab=this)
 - [Magdalen, Irvine 29 March 1743: George Glasgow and Margt](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3575189&tab=this)
 - [Mary, Irvine 21 April 1745: George Glasgow and Margt](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3575366&tab=this)
+
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGES12-16-20261023 -->
+## Findmypast pages 12–16 source review — 23 October 2026
+
+Role in this account: Existing named-father household profile; current 98% assessment retained.. The detailed OPR transcript gives birth 12 May 1755, baptism 16 May, father John Glasgow, mother Christian Mook, residence Leith North (OPR 692/3, item 2, p.76); two derivative indexes give Christian Meek and North Leith. Treat Mook/Meek as field variants for the same event, not distinct children. Birth and baptism dates are separate. Unmapped named role: Christian Mook / Christian Meek — Source-specific maternal spellings; no separate profile identity or grade change.. Approved local birth refinement: 12 May 1755 replaces the previous 16 May baptism-derived birth; baptism 16 May remains distinct. Father 3481 remains 98%.
+
+Next question: Compare OPR page image to assess Mook versus Meek; retain existing event and parent assessment without attaching a new mother.
+
+- [Findmypast SCOT/OPR/BAP/4501260](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4501260&tab=this), derivative transcript inspected 23 October 2026.
+- [Findmypast R_686224169](https://www.findmypast.co.uk/transcript?id=R_686224169&tab=this), derivative transcript inspected 23 October 2026.
+- [Findmypast R_691916089](https://www.findmypast.co.uk/transcript?id=R_691916089&tab=this), derivative transcript inspected 23 October 2026.
+
+Birth, baptism, death and burial retain their distinct source roles. Comparison roles do not assign an event or parents to this profile. The approved birth refinements for Isabel-3482 and James-1573 are separate from unchanged relationship assessments; an additional index does not increase a percentage. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-BIRTH-SCOPE-PAGES12-16-20261023 -->

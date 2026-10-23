@@ -71,3 +71,15 @@ Inspect John and Ann’s original1790 marriage and the 1793/1798 child entries f
 A bounded anonymous WikiTree search on 18 October 2026 used FirstName Janet, LastName Broun and BirthDate 1685, returning 93 fuzzy matches on one page; this was not an exhaustive worldwide search. The nine Open, non-living exact-Janet Brown/Burn results were inspected with their biographies and spouse context. A local historical catalogue check for Janet/Jonet/Jennet/Jean/Jane Brown/Broun found no established match. Missing fields are not exclusions.
 
 Next: inspect the original 1716 banns and 1719 child entry for a ceremony, maternal name, witnesses and residence; compare undated Brown/Broun profiles before any creation.
+
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGES12-16-20261023 -->
+## Findmypast pages 12–16 source review — 23 October 2026
+
+Role in this account: Existing father profile at 99% for the named child role; source adds no mother.. Newly saved FMP derivative confirms the existing Dalziel baptism event: James Glasgow, baptism 15 Mar 1719, father Samuel Glasgow, mother field “-”, residence Dalziel. Birth year 1719 is not an exact birth date. Janet Broun’s banns are not evidence she was this child’s mother.
+
+Next question: No further identity step from this derivative; retain the existing conditional adult/ancestry questions.
+
+- [Findmypast R_685672595](https://www.findmypast.co.uk/transcript?id=R_685672595&tab=this), derivative transcript inspected 23 October 2026.
+
+Birth, baptism, death and burial retain their distinct source roles. Comparison roles do not assign an event or parents to this profile. The approved birth refinements for Isabel-3482 and James-1573 are separate from unchanged relationship assessments; an additional index does not increase a percentage. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-BIRTH-SCOPE-PAGES12-16-20261023 -->

@@ -87,3 +87,16 @@ Next question: Inspect the original record for the retained identity, name and d
 
 Birth, baptism, death and burial retain their distinct source roles. Comparison roles do not assign an event or parents to this profile. No new person, vital replacement or relationship-grade change follows; an additional index does not increase an existing percentage. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
 <!-- END FMP-BIRTH-SCOPE-PAGES9-11-20261023 -->
+
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGES12-16-20261023 -->
+## Findmypast pages 12–16 source review — 23 October 2026
+
+Role in this account: adult Thomas father, existing relationship grade unchanged. Two companion indexes give baptism 10 Aug 1794, no distinct birth date. Existing Glasgow-3346 is a strong subject match by date/parish/father. Current structured 10 Aug birth appears baptism-derived; flag vital-role review. The exact birth field remains an unresolved inherited claim, not a birth assertion established by this baptism transcript.
+
+Next question: Inspect Kirknewton baptism and current Glasgow-3346 vital source; distinguish baptism 10 Aug from birth.
+
+- [Findmypast R_686211186](https://www.findmypast.co.uk/transcript?id=R_686211186&tab=this), derivative transcript inspected 23 October 2026.
+- [Findmypast R_691906565](https://www.findmypast.co.uk/transcript?id=R_691906565&tab=this), derivative transcript inspected 23 October 2026.
+
+Birth, baptism, death and burial retain their distinct source roles. Comparison roles do not assign an event or parents to this profile. The approved birth refinements for Isabel-3482 and James-1573 are separate from unchanged relationship assessments; an additional index does not increase a percentage. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-BIRTH-SCOPE-PAGES12-16-20261023 -->

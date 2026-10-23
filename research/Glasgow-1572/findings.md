@@ -41,3 +41,15 @@ Role in this account: same-year comparison with inherited different parents; not
 
 Dates retain their source roles: register ranges are not event dates, and a later-born child can supply evidence for an earlier Glasgow parent. Candidate links do not assign the event or parents to the candidate. Existing vital fields, family attachments and relationship grades are retained. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
 <!-- END FMP-CACHE-NEXT-20261023 -->
+
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGES12-16-20261023 -->
+## Findmypast pages 12–16 source review — 23 October 2026
+
+Role in this account: adult father candidate, relationship grade unchanged. OPR 596/1 p 20: born 1 Jun, baptized 8 Jul 1799, Nethermill, parents James Glasgow/Ann Houston. Strong match to existing James-1573; his c.1799-06-01 model already has day but estimated qualifier. Approved local birth qualifier refinement to exact 1 June 1799; death remains estimated, and father 63% is unchanged.
+
+Next question: Compare original Kilbirnie OPR and existing Glasgow-1573 draft before any vital-status or parent update.
+
+- [Findmypast SCOT/OPR/BAP/3588332](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3588332&tab=this), derivative transcript inspected 23 October 2026.
+
+Birth, baptism, death and burial retain their distinct source roles. Comparison roles do not assign an event or parents to this profile. The approved birth refinements for Isabel-3482 and James-1573 are separate from unchanged relationship assessments; an additional index does not increase a percentage. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-BIRTH-SCOPE-PAGES12-16-20261023 -->

@@ -71,3 +71,23 @@ Role in this account: Named Glasgow father in the current child-family assessmen
 
 Dates retain their source roles: register ranges are not event dates, and a later-born child can supply evidence for an earlier Glasgow parent. Candidate links do not assign the event or parents to the candidate. Existing vital fields, family attachments and relationship grades are retained. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
 <!-- END FMP-CACHE-NEXT-20261023 -->
+
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGES12-16-20261023 -->
+## Findmypast pages 12–16 source review — 23 October 2026
+
+Role in this account: recorded Govan child; full Samuel/Lilias Stewart pair retained. Existing canonical govan-james-1790-samuel-stewart already holds 25 Apr 1790 baptism; companion OPR index gives 22 Mar. Dates unresolved; no new child.
+
+Next question: Compare the original entry and existing household sources for identity identifiers; saved transcript fields have been reviewed.
+
+- [Findmypast R_688515992](https://www.findmypast.co.uk/transcript?id=R_688515992&tab=this), derivative transcript inspected 23 October 2026.
+
+Role in this account: possible 1790 Govan child-to-1833 adult; existing canonical keeps this qualified. Govan 8 Sep 1833 James age 42, Glasgow residence. OPR gives occupation Tailor; companion burial indexes say Nailer and inflammatory disease. Existing govan-james-nailer-burial-1833 account must preserve occupation conflict, not silently select one.
+
+Next question: Inspect Govan OPR p 44 to resolve Tailor versus Nailer and test 1790 child-to-adult identity.
+
+- [Findmypast SCOT/OPR/BUR/1238271](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1238271&tab=this), derivative transcript inspected 23 October 2026.
+- [Findmypast GBPRS/LANARKSHIRE/BUR/020575](https://www.findmypast.co.uk/transcript?id=GBPRS%2FLANARKSHIRE%2FBUR%2F020575&tab=this), derivative transcript inspected 23 October 2026.
+- [Findmypast GBPRS/GLASGOW/BUR/093132](https://www.findmypast.co.uk/transcript?id=GBPRS%2FGLASGOW%2FBUR%2F093132&tab=this), derivative transcript inspected 23 October 2026.
+
+Birth, baptism, death and burial retain their distinct source roles. Comparison roles do not assign an event or parents to this profile. The approved birth refinements for Isabel-3482 and James-1573 are separate from unchanged relationship assessments; an additional index does not increase a percentage. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-BIRTH-SCOPE-PAGES12-16-20261023 -->

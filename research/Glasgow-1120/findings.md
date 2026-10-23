@@ -59,3 +59,15 @@ Role in this account: possible James adult father only; the OPR does not identif
 
 Dates retain their source roles: register ranges are not event dates, and a later-born child can supply evidence for an earlier Glasgow parent. Candidate links do not assign the event or parents to the candidate. Existing vital fields, family attachments and relationship grades are retained. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
 <!-- END FMP-CACHE-NEXT-20261023 -->
+
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGES12-16-20261023 -->
+## Findmypast pages 12–16 source review — 23 October 2026
+
+Role in this account: Existing profile is the adult James compared to the record-defined 1738 child; this child-to-adult identity remains unproved.. New FMP derivative matches existing canonical child event held-e-4 da 562420037: James Glasgow, baptism 21 May 1738, Covington and Thankerton, parents George Glasgow and Agnes Williamson. Birth year 1738 is not an explicit birthday. Existing 42% adult-profile father hypothesis is not changed by another derivative. Unmapped named role: Williamson-12853 — Compatible existing Agnes Williamson comparison only..
+
+Next question: Original register/residence evidence needed to bridge the 1738 child to adult Glasgow-1120; preserve current 42% assessment.
+
+- [Findmypast R_685659247](https://www.findmypast.co.uk/transcript?id=R_685659247&tab=this), derivative transcript inspected 23 October 2026.
+
+Birth, baptism, death and burial retain their distinct source roles. Comparison roles do not assign an event or parents to this profile. The approved birth refinements for Isabel-3482 and James-1573 are separate from unchanged relationship assessments; an additional index does not increase a percentage. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-BIRTH-SCOPE-PAGES12-16-20261023 -->

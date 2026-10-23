@@ -33,3 +33,16 @@ One uncertain father is newly selected through a possible child-to-adult identit
 - [FamilySearch, James Glasgow,1702, Kirknewton, Andrew Glasgow; alternative childhood for the 1717 father](https://www.familysearch.org/ark:/61903/1:1:VQ4K-6MQ)
 - [FamilySearch, John Glasgow,1702, Kirknewton, father William; competing John childhood already used for the Meek-household hypothesis](https://www.familysearch.org/ark:/61903/1:1:VQ4K-XZ7)
 - [MyHeritage, John Glasgow,18 August 1751, Kirknewton, John Glasgow/Christian Meek; distinct household comparison](https://www.myheritage.com/research/record-30226-356058/john-glasgow-in-scotland-births-baptisms)
+
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGES12-16-20261023 -->
+## Findmypast pages 12–16 source review — 23 October 2026
+
+Role in this account: Existing father assessment 94% retained.. Two FMP indexes describe the existing FamilySearch child event held-e-d 49138 b 51676: James Glasgow, baptism 18 Mar 1750, West Calder, father John Glasgow and mother Margaret Anderson. They add the maternal name to the previously held father-only index and do not provide an exact birth date. Existing father grade 94% unchanged. Unmapped named role: Margaret Anderson — Newly visible literal maternal field in the detailed derivative; no separate mother profile/grade asserted..
+
+Next question: No relationship or vitality change; preserve baptism as distinct from the indexed birth year.
+
+- [Findmypast R_686351723](https://www.findmypast.co.uk/transcript?id=R_686351723&tab=this), derivative transcript inspected 23 October 2026.
+- [Findmypast R_687779168](https://www.findmypast.co.uk/transcript?id=R_687779168&tab=this), derivative transcript inspected 23 October 2026.
+
+Birth, baptism, death and burial retain their distinct source roles. Comparison roles do not assign an event or parents to this profile. The approved birth refinements for Isabel-3482 and James-1573 are separate from unchanged relationship assessments; an additional index does not increase a percentage. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-BIRTH-SCOPE-PAGES12-16-20261023 -->

@@ -155,3 +155,16 @@ No regiment is stated in the appointment paragraph. It cannot safely be joined t
 
 This may concern [Glasgow-4165](https://www.wikitree.com/wiki/Glasgow-4165). Uncertain birth before 1722 permits an older adult; no individual service or regiment connection.
 <!-- queue-record-integration-2026-10-17:end -->
+
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGES12-16-20261023 -->
+## Findmypast pages 12–16 source review — 23 October 2026
+
+Role in this account: Existing named-father profile assessment remains 97%; no grade change.. OPR receipt SCOT/OPR/BAP/3575036 explicitly labels birth 23 Apr and baptism 26 Apr; its mother field is absent. Two companion index versions add mother Margaret Martine and one gives Irvine residence. These are literal derivative fields, not an OPR mother clause and not independent corroboration. The canonical Isabel event has no mother attachment from this evidence. Unmapped named role: Margaret Martine — Derivative field only, not a mapped profile or attached mother..
+
+Next question: Compare the derivative maternal reading with the original OPR; retain Margaret Martine as a source-specific reading only.
+
+- [Findmypast R_685315735](https://www.findmypast.co.uk/transcript?id=R_685315735&tab=this), derivative transcript inspected 23 October 2026.
+- [Findmypast R_688619362](https://www.findmypast.co.uk/transcript?id=R_688619362&tab=this), derivative transcript inspected 23 October 2026.
+
+Birth, baptism, death and burial retain their distinct source roles. Comparison roles do not assign an event or parents to this profile. The approved birth refinements for Isabel-3482 and James-1573 are separate from unchanged relationship assessments; an additional index does not increase a percentage. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-BIRTH-SCOPE-PAGES12-16-20261023 -->

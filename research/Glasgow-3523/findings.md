@@ -71,3 +71,15 @@ Next useful test: Retain this record-defined pair while testing James’s possib
 This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: ["Scotland, Births and Baptisms, 1564-1950", , FamilySearch (https://www.familysearch.org/ark:/61903/1:1:XTLJ-PML : 16 September 2021), James Glasgow, 1719.](https://www.familysearch.org/ark:/61903/1:1:XTLJ-PML)
+
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGES12-16-20261023 -->
+## Findmypast pages 12–16 source review — 23 October 2026
+
+Role in this account: Matched record-defined James child.. Newly saved FMP derivative confirms the existing Dalziel baptism event: James Glasgow, baptism 15 Mar 1719, father Samuel Glasgow, mother field “-”, residence Dalziel. Birth year 1719 is not an exact birth date. Janet Broun’s banns are not evidence she was this child’s mother.
+
+Next question: No further identity step from this derivative; retain the existing conditional adult/ancestry questions.
+
+- [Findmypast R_685672595](https://www.findmypast.co.uk/transcript?id=R_685672595&tab=this), derivative transcript inspected 23 October 2026.
+
+Birth, baptism, death and burial retain their distinct source roles. Comparison roles do not assign an event or parents to this profile. The approved birth refinements for Isabel-3482 and James-1573 are separate from unchanged relationship assessments; an additional index does not increase a percentage. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-BIRTH-SCOPE-PAGES12-16-20261023 -->

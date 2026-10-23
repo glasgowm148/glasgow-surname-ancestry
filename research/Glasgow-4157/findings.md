@@ -62,3 +62,15 @@ The retained Findmypast exact-display CSV(1461 rows) was searched for Nasmith, N
 - [Findmypast, Irvine OPR595/1, John Glasgow baptism, 1741; maintained 3 September 2026 transcript, SCOT/OPR/BAP/3575071](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3575071&tab=this)
 - [Findmypast, Irvine OPR595/1, Allan Glasgow baptism, 1743; maintained 3 September 2026 transcript, SCOT/OPR/BAP/3575202](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3575202&tab=this)
 - [Findmypast, Irvine OPR595/1, Susanna Glasgow baptism, 1747; maintained 3 September 2026 transcript, SCOT/OPR/BAP/3575478](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3575478&tab=this)
+
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGES12-16-20261023 -->
+## Findmypast pages 12–16 source review — 23 October 2026
+
+Role in this account: Compatible father-profile family comparison; existing children John (1741), Allan (1743), Susanna (1747) use the same Irvine household. This entry is not assigned to an existing child profile.. New source-defined event: James Glasgow, birth year 1744, baptism 7 Nov 1744 at Irvine, father James Glasgow and mother Helen Nasmith. The parent pair/parish fits the maintained Irvine household sequence, but no child profile or exact canonical event is identified. No relationship grade change. Unmapped named role: Nasmith-37 — Compatible mother-profile comparison only; transcript names Helen Nasmith..
+
+Next question: Check original Irvine register and child/candidate accounts for a concrete duplicate or conflict.
+
+- [Findmypast R_685316789](https://www.findmypast.co.uk/transcript?id=R_685316789&tab=this), derivative transcript inspected 23 October 2026.
+
+Birth, baptism, death and burial retain their distinct source roles. Comparison roles do not assign an event or parents to this profile. The approved birth refinements for Isabel-3482 and James-1573 are separate from unchanged relationship assessments; an additional index does not increase a percentage. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-BIRTH-SCOPE-PAGES12-16-20261023 -->
