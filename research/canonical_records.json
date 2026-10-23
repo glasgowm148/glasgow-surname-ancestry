@@ -30432,5 +30432,95 @@
       }
     },
     "provenance": "research/ancestry-connections/thompson-family-review-2026-10-23.json"
+  },
+  {
+    "record_id": "peoria-county-stewart-glasgow-sketch-1880",
+    "record_type": "County-history biography",
+    "date": "1880",
+    "place": "Logan Township, Peoria County, Illinois, United States",
+    "association": "Specific spouse, child and migration comparison; parent relationships assessed individually.",
+    "source_title": "The History of Peoria County, Illinois (Chicago: Johnson & Company, 1880), pp. 791–792, Stewart Glasgow sketch",
+    "source_url": "https://archive.org/details/historyofpeoriac00john/page/791/mode/1up",
+    "source_type": "Original printed county history",
+    "source_quality": "contemporary_biographical_account",
+    "source_status": "Original printed county-history pages, Internet Archive leaves 853–854; visually inspected. A contemporary biographical account, not a birth register; informant not identified.",
+    "status": "Named family roles with explicit identity and date limits.",
+    "reviewed": "2026-10-23",
+    "assessment": "Original printed county-history pages, Internet Archive leaves 853–854; visually inspected. A contemporary biographical account, not a birth register; informant not identified.",
+    "profiles": {
+      "Glasgow-17": {
+        "role": "Stewart, born Adams County in 1823; wives Elizabeth Askren and Hadessah Wyley identify the Peoria farmer"
+      },
+      "Glasgow-1923": {
+        "role": "Huston, son of Stewart and Elizabeth Askren, dead by publication; identified with Robert Houston with stated age conflict"
+      },
+      "Askren-120": {
+        "role": "Elizabeth Askren, explicitly Stewart’s first wife and Huston’s mother"
+      }
+    },
+    "provenance": "research/ancestry-connections/stewart-houston-review-2026-10-23.json",
+    "historical_basis": {
+      "latest_birth_year": 1848,
+      "source": "The 1880 sketch gives Stewart’s 1823 birth and describes Huston as already deceased aged 24; existing historical profile comparison."
+    }
+  },
+  {
+    "record_id": "thompson-martha-melvina-glasgow-interview-1925",
+    "record_type": "Recorded family interview",
+    "date": "1925-10-24",
+    "place": "Cherry Fork, Adams County, Ohio, United States",
+    "association": "Specific spouse, child and migration comparison; parent relationships assessed individually.",
+    "source_title": "Josiah V. Thompson, Family Record, vol. 15, pp. 98–99; Martha Melvina Glasgow household interview, 24 October 1925; library transcription, PDF p. 658",
+    "source_url": "https://uniontownlib.org/wp-content/uploads/2020/08/JV_Thompson_Journals_Vo13_thru19.pdf#page=658",
+    "source_type": "Library transcription of a historical research interview",
+    "source_quality": "transcribed_family_testimony",
+    "source_status": "Modern library transcription of a dated interview, visually inspected; not a manuscript facsimile. Retrospective recollection contains a wrong recent-death estimate and an incomplete later-wife account.",
+    "status": "Named family roles with explicit identity and date limits.",
+    "reviewed": "2026-10-23",
+    "assessment": "Modern library transcription of a dated interview, visually inspected; not a manuscript facsimile. Retrospective recollection contains a wrong recent-death estimate and an incomplete later-wife account.",
+    "profiles": {
+      "Glasgow-17": {
+        "role": "Stuart, Finley’s brother who moved to Peoria, first wife Elizabeth Askain [best guess]; identity supported by the 1880 sketch"
+      },
+      "Glasgow-16": {
+        "role": "Finley, brother of Stuart; the Campbell wife belongs to the already assessed family"
+      }
+    },
+    "provenance": "research/ancestry-connections/stewart-houston-review-2026-10-23.json",
+    "historical_basis": {
+      "latest_birth_year": 1848,
+      "source": "The 1880 sketch gives Stewart’s 1823 birth and describes Huston as already deceased aged 24; existing historical profile comparison."
+    }
+  },
+  {
+    "record_id": "thompson-stuart-huston-interview-1925",
+    "record_type": "Recorded family interview",
+    "date": "1925-10-25",
+    "place": "Cherry Fork, Adams County, Ohio, United States",
+    "association": "Specific spouse, child and migration comparison; parent relationships assessed individually.",
+    "source_title": "Josiah V. Thompson, Family Record, vol. 15, p. 120; Stuart Glasgow family recollection, 25 October 1925; library transcription, PDF p. 668",
+    "source_url": "https://uniontownlib.org/wp-content/uploads/2020/08/JV_Thompson_Journals_Vo13_thru19.pdf#page=668",
+    "source_type": "Library transcription of a historical research interview",
+    "source_quality": "transcribed_family_testimony",
+    "source_status": "Modern library transcription of a dated interview, visually inspected; not a manuscript facsimile. Names Stuart’s son Huston and uncle Finley, but his reported age 26 conflicts with the county sketch and held dates.",
+    "status": "Named family roles with explicit identity and date limits.",
+    "reviewed": "2026-10-23",
+    "assessment": "Modern library transcription of a dated interview, visually inspected; not a manuscript facsimile. Names Stuart’s son Huston and uncle Finley, but his reported age 26 conflicts with the county sketch and held dates.",
+    "profiles": {
+      "Glasgow-17": {
+        "role": "Stuart, Finley’s brother, moved to Peoria; father of Huston"
+      },
+      "Glasgow-1923": {
+        "role": "Huston, Stuart’s son, recalled as dying unmarried at uncle Finley’s home; profile identification qualified by differing ages"
+      },
+      "Glasgow-16": {
+        "role": "Finley, explicitly uncle of Stuart’s son Huston"
+      }
+    },
+    "provenance": "research/ancestry-connections/stewart-houston-review-2026-10-23.json",
+    "historical_basis": {
+      "latest_birth_year": 1848,
+      "source": "The 1880 sketch gives Stewart’s 1823 birth and describes Huston as already deceased aged 24; existing historical profile comparison."
+    }
   }
 ]

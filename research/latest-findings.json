@@ -52767,6 +52767,81 @@
           ]
         }
       ]
+    },
+    {
+      "id": "stewart-huston-peoria-identity-20261023",
+      "found_on": "2026-10-23",
+      "reviewed_on": "2026-10-23",
+      "kind": "relationship",
+      "status": "qualified",
+      "detail_url": "/people/glasgow-17.html",
+      "finding": "The original 1880 Peoria history names Stewart’s first wife Elizabeth Askren and son Huston. Two newly inspected 1925 interview passages connect that Peoria family to Finley’s brother Stuart. Stewart’s existing father pair strengthens 90% → 94%, and Robert Houston’s 88% → 96%.",
+      "qualification": "No new parent attachment or live edit. The original printed sketch and modern interview transcription are distinguished. Exact birth/death dates and ages conflict and remain unchanged; the interviews can share family tradition. Maternity is separately assessed.",
+      "people": [
+        {
+          "id": "Glasgow-17",
+          "name": "Stewart Steele Glasgow",
+          "url": "/people/glasgow-17.html",
+          "role": "Named family member or checked profile identity"
+        },
+        {
+          "id": "Glasgow-1923",
+          "name": "Robert Houston Glasgow",
+          "url": "/people/glasgow-1923.html",
+          "role": "Named family member or checked profile identity"
+        },
+        {
+          "id": "Glasgow-8",
+          "name": "Robert Barclay Glasgow",
+          "url": "/people/glasgow-8.html",
+          "role": "Named family member or checked profile identity"
+        },
+        {
+          "id": "Finley-134",
+          "name": "Rosanna Finley",
+          "url": "/people/finley-134.html",
+          "role": "Named family member or checked profile identity"
+        },
+        {
+          "id": "Askren-120",
+          "name": "Elizabeth Askren",
+          "url": "/people/askren-120.html",
+          "role": "Named family member or checked profile identity"
+        },
+        {
+          "id": "Glasgow-16",
+          "name": "Robert Finley Glasgow",
+          "url": "/people/glasgow-16.html",
+          "role": "Named brother of Stuart and uncle of Huston"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The History of Peoria County, Illinois (Chicago: Johnson & Company, 1880), pp. 791–792, Stewart Glasgow sketch",
+          "url": "https://archive.org/details/historyofpeoriac00john/page/791/mode/1up"
+        },
+        {
+          "title": "Josiah V. Thompson, Family Record, vol. 15, pp. 98–99; Martha Melvina Glasgow household interview, 24 October 1925; library transcription, PDF p. 658",
+          "url": "https://uniontownlib.org/wp-content/uploads/2020/08/JV_Thompson_Journals_Vo13_thru19.pdf#page=658"
+        },
+        {
+          "title": "Josiah V. Thompson, Family Record, vol. 15, p. 120; Stuart Glasgow family recollection, 25 October 1925; library transcription, PDF p. 668",
+          "url": "https://uniontownlib.org/wp-content/uploads/2020/08/JV_Thompson_Journals_Vo13_thru19.pdf#page=668"
+        }
+      ],
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "Glasgow-1923",
+          "relative": "Glasgow-17",
+          "before": "probable",
+          "after": "certain",
+          "explanation": "New source comparison strengthens existing pair 88% → 96%; live saved flag remains unmarked.",
+          "previous_status_provenance": [
+            "research/relationship_assessments.json#C-coverage-20261022i-glasgow-1923-father assessment_history"
+          ]
+        }
+      ]
     }
   ]
 }

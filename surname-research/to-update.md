@@ -3954,3 +3954,9 @@ Twenty additional transcripts are recorded under existing people or qualified ca
 | [Glasgow-16](https://www.wikitree.com/wiki/Glasgow-16) | OPEN | Existing father Glasgow-8: local 65% → 93% confident; saved unmarked control unchanged. Add named interview evidence and its limitations; no new father. |
 | [Glasgow-17](https://www.wikitree.com/wiki/Glasgow-17) | OPEN | Existing father Glasgow-8: local 79% → 90% confident; saved unmarked control unchanged. Add named interview evidence and its limitations; no new father. |
 | [Glasgow-2554](https://www.wikitree.com/wiki/Glasgow-2554) | OPEN | Existing father Glasgow-16: local 86% → 96% confident; saved unmarked control unchanged. Add named interview evidence and its limitations; no new father. |
+
+
+## 23 October 2026 — Stewart and Houston Peoria family
+
+| [Glasgow-17](https://www.wikitree.com/wiki/Glasgow-17) | OPEN | Existing father Glasgow-8: 90% → 94% confident; mother separately assessed. Add original Peoria sketch and named interview comparison with conflicting dates/ages; live unmarked controls unchanged. |
+| [Glasgow-1923](https://www.wikitree.com/wiki/Glasgow-1923) | OPEN | Existing father Glasgow-17: 88% → 96% confident; mother separately assessed. Add original Peoria sketch and named interview comparison with conflicting dates/ages; live unmarked controls unchanged. |

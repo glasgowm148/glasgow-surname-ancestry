@@ -1,0 +1,233 @@
+{
+  "reviewed": "2026-10-23",
+  "sources": {
+    "peoria-county-stewart-glasgow-sketch-1880": {
+      "title": "The History of Peoria County, Illinois (Chicago: Johnson & Company, 1880), pp. 791–792, Stewart Glasgow sketch",
+      "url": "https://archive.org/details/historyofpeoriac00john/page/791/mode/1up",
+      "date": "1880",
+      "place": "Logan Township, Peoria County, Illinois, United States",
+      "level": "Original printed county-history pages, Internet Archive leaves 853–854; visually inspected. A contemporary biographical account, not a birth register; informant not identified.",
+      "profiles": {
+        "Glasgow-17": "Stewart, born Adams County in 1823; wives Elizabeth Askren and Hadessah Wyley identify the Peoria farmer",
+        "Glasgow-1923": "Huston, son of Stewart and Elizabeth Askren, dead by publication; identified with Robert Houston with stated age conflict",
+        "Askren-120": "Elizabeth Askren, explicitly Stewart’s first wife and Huston’s mother"
+      }
+    },
+    "thompson-martha-melvina-glasgow-interview-1925": {
+      "title": "Josiah V. Thompson, Family Record, vol. 15, pp. 98–99; Martha Melvina Glasgow household interview, 24 October 1925; library transcription, PDF p. 658",
+      "url": "https://uniontownlib.org/wp-content/uploads/2020/08/JV_Thompson_Journals_Vo13_thru19.pdf#page=658",
+      "date": "1925-10-24",
+      "place": "Cherry Fork, Adams County, Ohio, United States",
+      "level": "Modern library transcription of a dated interview, visually inspected; not a manuscript facsimile. Retrospective recollection contains a wrong recent-death estimate and an incomplete later-wife account.",
+      "profiles": {
+        "Glasgow-17": "Stuart, Finley’s brother who moved to Peoria, first wife Elizabeth Askain [best guess]; identity supported by the 1880 sketch",
+        "Glasgow-16": "Finley, brother of Stuart; the Campbell wife belongs to the already assessed family"
+      }
+    },
+    "thompson-stuart-huston-interview-1925": {
+      "title": "Josiah V. Thompson, Family Record, vol. 15, p. 120; Stuart Glasgow family recollection, 25 October 1925; library transcription, PDF p. 668",
+      "url": "https://uniontownlib.org/wp-content/uploads/2020/08/JV_Thompson_Journals_Vo13_thru19.pdf#page=668",
+      "date": "1925-10-25",
+      "place": "Cherry Fork, Adams County, Ohio, United States",
+      "level": "Modern library transcription of a dated interview, visually inspected; not a manuscript facsimile. Names Stuart’s son Huston and uncle Finley, but his reported age 26 conflicts with the county sketch and held dates.",
+      "profiles": {
+        "Glasgow-17": "Stuart, Finley’s brother, moved to Peoria; father of Huston",
+        "Glasgow-1923": "Huston, Stuart’s son, recalled as dying unmarried at uncle Finley’s home; profile identification qualified by differing ages",
+        "Glasgow-16": "Finley, explicitly uncle of Stuart’s son Huston"
+      }
+    }
+  },
+  "inspected_original_printed_pages": [
+    791,
+    792
+  ],
+  "inspected_transcript_pdf_pages": [
+    658,
+    668
+  ],
+  "reviews": [
+    {
+      "subject": "Glasgow-17",
+      "relative": "Glasgow-8",
+      "assertion_id": "C-coverage-20261022d-glasgow-17-father",
+      "before": {
+        "status": "strongly_supported",
+        "probability_percent": 90,
+        "assessment_date": "2026-10-23",
+        "source_basis": "The 24 October 1925 household interview records Rosanna Finley, wife of Robert Glasgow, as mother of Finley and Stuart Glasgow. Finley is independently anchored to the Campbell-wife/Weldon family by the 1925 Ora and 1926 Samuel interviews. Stewart Steele Glasgow-17 is the existing 1823 Adams County to Peoria account with exactly this named couple and brother; no checked alternative Stuart has that family. This explicit combined family statement strengthens the inherited placement beyond its previous name-and-generation fit.",
+        "source_ids": [
+          "thompson-caskey-glasgow-interview-1925",
+          "thompson-samuel-glasgow-interview-1926",
+          "thompson-ora-glasgow-interview-1925",
+          "held-e-7d3486f88033"
+        ],
+        "record_scope": "90% is a subjective confident assessment for the complete Stewart-profile/father pair. Stuart is the literal source form. The recollection supplies neither his age nor wife; identification with the later Stewart remains inferred and is less fully anchored than Finley’s. The informant reports her mother’s recollection. Thompson’s ensuing inferred upper pedigree, including a Robert said to die about 1806, is not adopted. No other alleged sibling or older ancestor gains confidence from this review."
+      },
+      "after": {
+        "value": 0.94,
+        "basis": "The previously inspected 1925 recollection names Robert Glasgow and Rosanna Finley as parents of Finley and Stuart. Newly inspected vol. 15 pp. 98–99 identifies that Stuart as Finley’s brother in Peoria with first wife Elizabeth Askain [transcriber’s best guess]; p. 120 adds his son Huston. The original 1880 Peoria sketch independently names Stewart, born in Adams County in 1823, first wife Elizabeth Askren and son Huston, followed by Hadessah Wyley and the matching later children. These specific relatives bridge the previously qualified Stuart-to-Stewart adult identity. The county sketch does not itself name Stewart’s parents.",
+        "reviewed": "2026-10-23",
+        "source_ids": [
+          "peoria-county-stewart-glasgow-sketch-1880",
+          "thompson-martha-melvina-glasgow-interview-1925",
+          "thompson-stuart-huston-interview-1925",
+          "thompson-caskey-glasgow-interview-1925",
+          "thompson-samuel-glasgow-interview-1926",
+          "thompson-ora-glasgow-interview-1925",
+          "held-e-7d3486f88033"
+        ],
+        "scope": "94% is a subjective assessment of the complete existing father/profile pair, combining named retrospective parentage with a contemporary adult-family identity comparison. The interviews can share family tradition. The 1880 sketch prints Stewart’s birth as 23 April 1823, versus the retained 13 April field. It says Huston died aged 24; the 1925 recollection says 26, while the retained 23 August 1848–15 October 1871 dates imply 23. The 1925 account’s death “2 or 3 years ago” also conflicts with Stewart’s retained 1904 death, and its “second wife” Edith omits Hadassah. The matching Peoria residence, first wife and son identify the family despite these specific errors; none supplies authority to overwrite the dates. Inspect Faris p. 63 and original death/marriage records to resolve them."
+      },
+      "new_genealogical_join": false,
+      "live_saved_status": "unmarked"
+    },
+    {
+      "subject": "Glasgow-1923",
+      "relative": "Glasgow-17",
+      "assertion_id": "C-coverage-20261022i-glasgow-1923-father",
+      "before": {
+        "status": "probable",
+        "probability_percent": 88,
+        "assessment_date": "2026-10-22",
+        "source_basis": "Robert’s held account names Stewart Glasgow and Elizabeth Askren and cites Faris p 63 with 1850/1870 censuses. The 1848 birth fits Stewart’s first family, but no literal parental field from those records is held.",
+        "source_ids": [
+          "held-e-92e3263a1d07"
+        ],
+        "record_scope": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate."
+      },
+      "after": {
+        "value": 0.96,
+        "basis": "The original 1880 Peoria biography of Stewart Glasgow explicitly names Huston as a child of Stewart and his first wife Elizabeth Askren. The distinctive parental couple identifies the existing Robert Houston Glasgow-1923, already represented by Faris p. 63 and the held 1850/1870 census references. The 25 October 1925 interview independently recalls Stuart’s son Huston dying unmarried at his uncle Finley’s home, connecting the Ohio and Peoria family accounts. This supplies explicit father–son wording absent from the previously held citation summaries.",
+        "reviewed": "2026-10-23",
+        "source_ids": [
+          "peoria-county-stewart-glasgow-sketch-1880",
+          "thompson-martha-melvina-glasgow-interview-1925",
+          "thompson-stuart-huston-interview-1925",
+          "held-e-92e3263a1d07"
+        ],
+        "scope": "96% is a subjective confident assessment of the complete father–child identity. Huston is the source form; Robert Houston is the compatible profile. The printed biography is contemporary with the surviving father but retrospective about his deceased son, and its informant is unnamed. The later recollection is not a contemporary death entry. The 1880 sketch prints Stewart’s birth as 23 April 1823, versus the retained 13 April field. It says Huston died aged 24; the 1925 recollection says 26, while the retained 23 August 1848–15 October 1871 dates imply 23. The 1925 account’s death “2 or 3 years ago” also conflicts with Stewart’s retained 1904 death, and its “second wife” Edith omits Hadassah. The matching Peoria residence, first wife and son identify the family despite these specific errors; none supplies authority to overwrite the dates. Inspect Faris p. 63 and original death/marriage records to resolve them."
+      },
+      "new_genealogical_join": false,
+      "live_saved_status": "unmarked"
+    }
+  ],
+  "newly_confident_existing_fathers": 1,
+  "changes_within_confident_band": 1,
+  "new_genealogical_joins": 0,
+  "maternal_first_ratings": {
+    "Glasgow-1923": 96
+  },
+  "maternal_strengthening": {
+    "Glasgow-17": [
+      90,
+      94
+    ]
+  },
+  "source_conflicts": "The 1880 sketch prints Stewart’s birth as 23 April 1823, versus the retained 13 April field. It says Huston died aged 24; the 1925 recollection says 26, while the retained 23 August 1848–15 October 1871 dates imply 23. The 1925 account’s death “2 or 3 years ago” also conflicts with Stewart’s retained 1904 death, and its “second wife” Edith omits Hadassah. The matching Peoria residence, first wife and son identify the family despite these specific errors; none supplies authority to overwrite the dates. Inspect Faris p. 63 and original death/marriage records to resolve them.",
+  "live_parent_check": {
+    "Glasgow-17": {
+      "Name": "Glasgow-17",
+      "DataStatus": {
+        "BirthDate": "",
+        "DeathDate": "",
+        "FirstName": "",
+        "MiddleName": "",
+        "LastNameAtBirth": "",
+        "LastNameCurrent": "",
+        "RealName": "",
+        "ColloquialName": "",
+        "Nicknames": "",
+        "Gender": "",
+        "BirthLocation": "",
+        "DeathLocation": "",
+        "Father": "",
+        "Mother": "",
+        "Spouse": "",
+        "Prefix": "",
+        "Suffix": "",
+        "LastNameOther": "",
+        "BioFather": "",
+        "BioMother": ""
+      },
+      "Privacy": 60,
+      "IsLiving": 0,
+      "Touched": "20260925002755",
+      "Privacy_IsPrivate": false,
+      "Privacy_IsPublic": false,
+      "Privacy_IsOpen": true,
+      "Privacy_IsAtLeastPublic": true,
+      "Privacy_IsSemiPrivate": false,
+      "Privacy_IsSemiPrivateBio": false,
+      "Father": 1127586,
+      "Mother": 1127900,
+      "matches_saved_biography": true
+    },
+    "Glasgow-1923": {
+      "Name": "Glasgow-1923",
+      "DataStatus": {
+        "FirstName": "",
+        "MiddleName": "",
+        "LastNameAtBirth": "",
+        "LastNameCurrent": "",
+        "RealName": "",
+        "ColloquialName": "",
+        "Nicknames": "",
+        "Gender": "",
+        "BirthDate": "",
+        "DeathDate": "",
+        "BirthLocation": "",
+        "DeathLocation": "",
+        "Father": "",
+        "Mother": "",
+        "Spouse": "",
+        "Prefix": "",
+        "Suffix": "",
+        "LastNameOther": "",
+        "BioFather": "",
+        "BioMother": ""
+      },
+      "Privacy": 60,
+      "IsLiving": 0,
+      "Touched": "20220519020731",
+      "Privacy_IsPrivate": false,
+      "Privacy_IsPublic": false,
+      "Privacy_IsOpen": true,
+      "Privacy_IsAtLeastPublic": true,
+      "Privacy_IsSemiPrivate": false,
+      "Privacy_IsSemiPrivateBio": false,
+      "Father": 1130170,
+      "Mother": 31473899,
+      "matches_saved_biography": true
+    }
+  },
+  "live_edit": false,
+  "vital_fields_changed": false,
+  "unsuccessful_distinct_tests": {
+    "Thomas-1226": "BillionGraves memorial 3399144 still blocked by automatic Cloudflare browser verification; no inscription read; 22% unchanged.",
+    "Samuel-9": "Native-agent original 1880 p. 792 directory inspection names S.S. Glasgow but supplies no parent; 58% unchanged."
+  },
+  "verification": {
+    "new_genealogical_parent_attachments": 0,
+    "newly_confident_existing_fathers": 1,
+    "changes_within_confident_band": 1,
+    "confident_pairs_gained": 56,
+    "confident_components_merged": 1,
+    "confident_links_through1850": 680,
+    "below_confident_through1850": 716,
+    "unknown_fathers_unchanged": true,
+    "all_parent_ids_and_vitals_preserved": true,
+    "unrelated_assessments_preserved": true,
+    "full_compact_pending_flags_agree": true,
+    "main_standalone_agree": true,
+    "old_history_preserved_one_snapshot_added": true,
+    "individual_percentage_events_verified": true,
+    "complete_drafts_and_sources_retained": true,
+    "live_edit": false,
+    "new_publication_failures": 0,
+    "all_historical_father_fields_checked": 1798,
+    "documentary_connectors_checked": 2,
+    "new_broken_link_pairs": 0,
+    "actual_main_tree_catalogue_and_progress_verified": true,
+    "new_finding_backlinks_verified": true
+  }
+}

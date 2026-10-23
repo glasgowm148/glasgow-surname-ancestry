@@ -13865,8 +13865,8 @@
       "biography_rechecked_at": "2026-10-23",
       "draft_path": "research/Glasgow-17/father-confidence-2026-10-22d.wiki",
       "findings_path": "research/Glasgow-17/findings.md",
-      "summary": "Mark existing father Glasgow-8 confident (90%) from named Thompson interview evidence; local 79% → 90%. No new father or live edit.",
-      "work_queue_summary": "Mark existing father Glasgow-8 confident (90%) from named Thompson interview evidence; local 79% → 90%. No new father or live edit.",
+      "summary": "Mark existing father Glasgow-8 confident (94%) from Peoria family evidence; local 90% → 94%. Add cited account and date/age conflicts; no new father or live edit.",
+      "work_queue_summary": "Mark existing father Glasgow-8 confident (94%) from Peoria family evidence; local 90% → 94%. Add cited account and date/age conflicts; no new father or live edit.",
       "relationship_changes": [
         {
           "action": "regrade",
@@ -13875,12 +13875,12 @@
           "status": "strongly_supported",
           "previous_status": "unmarked",
           "previous_probability_percent": null,
-          "probability_percent": 90,
+          "probability_percent": 94,
           "assertion_id": "C-coverage-20261022d-glasgow-17-father",
-          "previous_status_provenance": "Anonymous live API 2026-10-23: same father attached, saved certainty unmarked. The local 79% assessment is preserved separately in assertion history; no live save.",
-          "scope": "90% is a subjective confident assessment for the complete Stewart-profile/father pair. Stuart is the literal source form. The recollection supplies neither his age nor wife; identification with the later Stewart remains inferred and is less fully anchored than Finley’s. The informant reports her mother’s recollection. Thompson’s ensuing inferred upper pedigree, including a Robert said to die about 1806, is not adopted. No other alleged sibling or older ancestor gains confidence from this review.",
-          "previous_local_status": "probable",
-          "previous_local_probability_percent": 79
+          "previous_status_provenance": "Anonymous API 2026-10-23: same father attached and saved flag unmarked. Prior local 90% preserved in assertion history. No live save.",
+          "scope": "94% is a subjective assessment of the complete existing father/profile pair, combining named retrospective parentage with a contemporary adult-family identity comparison. The interviews can share family tradition. The 1880 sketch prints Stewart’s birth as 23 April 1823, versus the retained 13 April field. It says Huston died aged 24; the 1925 recollection says 26, while the retained 23 August 1848–15 October 1871 dates imply 23. The 1925 account’s death “2 or 3 years ago” also conflicts with Stewart’s retained 1904 death, and its “second wife” Edith omits Hadassah. The matching Peoria residence, first wife and son identify the family despite these specific errors; none supplies authority to overwrite the dates. Inspect Faris p. 63 and original death/marriage records to resolve them.",
+          "previous_local_status": "strongly_supported",
+          "previous_local_probability_percent": 90
         },
         {
           "action": "regrade",
@@ -13889,10 +13889,12 @@
           "status": "strongly_supported",
           "previous_status": "unmarked",
           "previous_probability_percent": null,
-          "probability_percent": 90,
+          "probability_percent": 94,
           "assertion_id": "C-review-20261023-glasgow-17-mother",
           "previous_status_provenance": "Anonymous live parent control checked 2026-10-23; existing mother Finley-134 unchanged, unmarked.",
-          "scope": "Retrospective named maternity, not a birth-register entry. This is a first individual maternal assessment, not a measured percentage increase. The shared identity argument means the parent percentages are not independent probabilities."
+          "scope": "The previously inspected 1925 recollection explicitly names Rosanna Finley as mother of Finley and Stuart. The newly inspected Peoria first-wife/son comparison now anchors that Stuart to Stewart-17, as explained in his father review. It strengthens the same complete identity argument; the 1880 sketch does not itself name Rosanna. The 1880 sketch prints Stewart’s birth as 23 April 1823, versus the retained 13 April field. It says Huston died aged 24; the 1925 recollection says 26, while the retained 23 August 1848–15 October 1871 dates imply 23. The 1925 account’s death “2 or 3 years ago” also conflicts with Stewart’s retained 1904 death, and its “second wife” Edith omits Hadassah. The matching Peoria residence, first wife and son identify the family despite these specific errors; none supplies authority to overwrite the dates. Inspect Faris p. 63 and original death/marriage records to resolve them.",
+          "previous_local_status": "strongly_supported",
+          "previous_local_probability_percent": 90
         }
       ],
       "preserve_captured_detail": false,
@@ -38295,23 +38297,37 @@
       "status": "OPEN",
       "pending": true,
       "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
+      "biography_rechecked_at": "2026-10-23",
       "draft_path": "research/Glasgow-1923/father-confidence-2026-10-22i.wiki",
       "findings_path": "research/Glasgow-1923/findings.md",
-      "summary": "Review existing father at 88% (probable), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 88% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Mark existing father Glasgow-17 confident (96%) from Peoria family evidence; local 88% → 96%. Add cited account and date/age conflicts; no new father or live edit.",
+      "work_queue_summary": "Mark existing father Glasgow-17 confident (96%) from Peoria family evidence; local 88% → 96%. Add cited account and date/age conflicts; no new father or live edit.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-17",
-          "status": "probable",
+          "status": "strongly_supported",
           "previous_status": "unmarked",
           "previous_probability_percent": null,
-          "probability_percent": 88,
+          "probability_percent": 96,
           "assertion_id": "C-coverage-20261022i-glasgow-1923-father",
-          "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate."
+          "previous_status_provenance": "Anonymous API 2026-10-23: same father attached and saved flag unmarked. Prior local 88% preserved in assertion history. No live save.",
+          "scope": "96% is a subjective confident assessment of the complete father–child identity. Huston is the source form; Robert Houston is the compatible profile. The printed biography is contemporary with the surviving father but retrospective about his deceased son, and its informant is unnamed. The later recollection is not a contemporary death entry. The 1880 sketch prints Stewart’s birth as 23 April 1823, versus the retained 13 April field. It says Huston died aged 24; the 1925 recollection says 26, while the retained 23 August 1848–15 October 1871 dates imply 23. The 1925 account’s death “2 or 3 years ago” also conflicts with Stewart’s retained 1904 death, and its “second wife” Edith omits Hadassah. The matching Peoria residence, first wife and son identify the family despite these specific errors; none supplies authority to overwrite the dates. Inspect Faris p. 63 and original death/marriage records to resolve them.",
+          "previous_local_status": "probable",
+          "previous_local_probability_percent": 88
+        },
+        {
+          "action": "regrade",
+          "relationship": "mother",
+          "relative_id": "Askren-120",
+          "status": "strongly_supported",
+          "previous_status": "unmarked",
+          "previous_probability_percent": null,
+          "probability_percent": 96,
+          "assertion_id": "C-review-20261023-glasgow-1923-mother",
+          "previous_status_provenance": "Anonymous API 23 October 2026: same mother attached, saved flag unmarked.",
+          "scope": "96% subjective assessment from the named mother–son wording and family identity; not a birth certificate. The two parent ratings share the identity argument and are not independent probabilities. The 1880 sketch prints Stewart’s birth as 23 April 1823, versus the retained 13 April field. It says Huston died aged 24; the 1925 recollection says 26, while the retained 23 August 1848–15 October 1871 dates imply 23. The 1925 account’s death “2 or 3 years ago” also conflicts with Stewart’s retained 1904 death, and its “second wife” Edith omits Hadassah. The matching Peoria residence, first wife and son identify the family despite these specific errors; none supplies authority to overwrite the dates. Inspect Faris p. 63 and original death/marriage records to resolve them."
         }
       ],
       "preserve_captured_detail": false,
@@ -38319,7 +38335,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation9-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation9-2026-10-22.json",
+      "significance": 90
     },
     "Glasgow-745": {
       "profile_id": "Glasgow-745",
