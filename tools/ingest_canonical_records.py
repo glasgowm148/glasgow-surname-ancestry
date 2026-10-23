@@ -188,7 +188,7 @@ def plan(root: Path, record_ids: list[str]):
                    else 'derivative')
         qualification = '; '.join(p['name'] + ': ' + role for p, role in linked)
         note = ' '.join(filter(None, [row.get('note'), qualification, 'Reviewed ' + row['reviewed_on'] + '; ' + row['provenance']]))
-        category = ('Births and baptisms' if '/BAP/' in str(row.get('provider_record_id')) or 'baptis' in label.lower()
+        category = row.get('record_category') or ('Births and baptisms' if '/BAP/' in str(row.get('provider_record_id')) or 'baptis' in label.lower()
                     else 'Deaths and burials' if re.search(r'bur|death|obituar', label, re.I) or '/BUR/' in str(row.get('provider_record_id')) else 'Other records')
         # A subject's surname (Glasgow) is not a Scottish jurisdiction signal.
         # Prefer the reviewed country, then the event place; collection wording

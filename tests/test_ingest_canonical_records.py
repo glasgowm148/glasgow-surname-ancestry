@@ -112,6 +112,16 @@ class CanonicalRecordIngestTest(unittest.TestCase):
         source = writes[self.web / 'assets/v3/sources' / (record['document_id'] + '.json')]
         self.assertEqual(source['title'], 'Exact archival citation')
 
+    def test_reviewed_will_category_reaches_full_and_compact_indexes(self):
+        self.canonical.update(record_category='Wills and probate',
+                              association='James Glasgow, nephew in a will abstract')
+        self.put('research/canonical_records.json', [self.canonical])
+        writes = plan(self.root, ['new-canonical-id'])
+        record = writes[self.web / 'data/records-index.json'][1]
+        compact = writes[self.web / 'assets/research/record-index.json'][1]
+        self.assertEqual(record['record_category'], 'Wills and probate')
+        self.assertEqual(compact['category'], 'Wills and probate')
+
     def test_anonymous_record_does_not_invent_person(self):
         self.canonical['profiles'] = {}
         self.put('research/canonical_records.json', [self.canonical])
