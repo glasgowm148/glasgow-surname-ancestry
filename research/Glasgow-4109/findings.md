@@ -6,6 +6,8 @@ Current father assessment (22 October 2026): **99% (proved)** for [Glasgow-3582]
 
 Thomas Glasgow was born on 12 Jan 1749 and baptised at Edinburgh, Midlothian, on 09 Feb 1749. The parish register names his father as [John Glasgow](https://www.wikitree.com/wiki/Glasgow-3582) and his mother as [Eliz Morison](https://www.wikitree.com/wiki/Morrison-24595). The register records both dates; Edinburgh is inferred from the baptism and is not independently recorded. The [Findmypast transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0625636&tab=this) is the indexed source for this event. The live WikiTree profile records male sex at birth with uncertain status, inferred from the recorded given name. The cited transcript does not explicitly state sex.
 
+Reviewed 23 October 2026: saved Findmypast evidence is integrated below with its exact record role and unresolved conflicts; this reuses existing captures and proposes no new person or relationship.
+
 ## Source findings
 
 - Baptism, 09 Feb 1749: [Findmypast transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0625636&tab=this), record SCOT/OPR/BAP/0625636.
@@ -28,3 +30,13 @@ Next useful test: Compare the original Edinburgh 1748 marriage and 1749 baptism;
 This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [Findmypast transcript (), Archive reference: OPR 685_1/26; Baptism date: 09 Feb 1749; Baptism year: 1749; Birth date: 12 Jan 1749; Birth year: 1749; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland;](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0625636&tab=this)
+
+<!-- BEGIN FMP-CACHED65-20261023 -->
+## Saved Findmypast birth and baptism review — 23 October 2026
+
+Role in this account: Family-context only: existing Thomas Glasgow record names the same John Glasgow and Eliz Morison couple in Edinburgh; not a Mary identity or proved sibling link.. Disposition: identity HOLD. Mary Glasgow, born 22 Jun 1751 and baptised 24 Jun 1751 (distinct dates), Place Edinburgh, residence N E P; father John Glasgow, Journeyman Weaver; mother Elizt Morison. No Mary child identity found. Glasgow-4109 and parent profiles Glasgow-3582/Morrison-24595 are family-context comparisons only; no Mary birth/death is assigned to them and no person is proposed.
+
+- [Findmypast SCOT/OPR/BAP/0627016](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0627016&tab=this). Saved 2026-09-03.
+
+[Current shared record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). These are reused September transcripts, not new provider captures. Source-defined child identities, adult-profile comparisons and unresolved birth-surname scope remain separate. Original register images were not inspected in this batch; existing relationship grades and family attachments are retained.
+<!-- END FMP-CACHED65-20261023 -->

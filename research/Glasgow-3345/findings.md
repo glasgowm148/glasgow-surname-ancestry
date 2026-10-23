@@ -4,8 +4,10 @@
 
 Current father assessment (22 October 2026): **97% (proved)** for [Glasgow-1620](https://www.wikitree.com/wiki/Glasgow-1620). Whole selected father-profile proposition; maternity and upstream ancestry assessed separately. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
+Reviewed 23 October 2026: saved Findmypast evidence is integrated below with its exact record role and unresolved conflicts; this reuses existing captures and proposes no new person or relationship.
+
 <!-- site-audit-2026-10-07:overall-conclusion -->
-George Glasgow was recorded on his profile as born in 1792, with no known death date; no record has yet been identified with him in this research. Newspaper notices of 1811 and 1819 naming Colonel, later Major-General, George Glasgow of the Royal Artillery were compared with him and withdrawn on 6 October 2026: they concern the artillery general who served in Canada and died in London in 1820, who has no WikiTree profile.
+The saved Kirknewton and East Calder OPR transcript is matched to George’s existing 1792 child account. It explicitly labels 26 August as birth, while the held FamilySearch citation calls that date christening; Mayt/Margaret Chapman also needs original-page comparison. His existing vital field and father assessment are retained, with no known death identified. Newspaper notices of 1811 and 1819 naming Colonel, later Major-General, George Glasgow of the Royal Artillery were compared with him and withdrawn on 6 October 2026: they concern the artillery general who served in Canada and died in London in 1820, who has no WikiTree profile.
 
 ## Identity assessment — military newspapers, 4 October 2026
 
@@ -32,3 +34,13 @@ Next useful test: Inspect the cited OPR entry for date, locality and maternal wo
 This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: ["Scotland Births and Baptisms, 1564-1950", database, FamilySearch (https://familysearch.org/ark:/61903/1:1:VQ4K-RZJ : 12 February 2020), Thomas Glasgow in entry for George Glasgow, christened 26 Aug 1792, Kirknewton and East Calder, Midlothian, Scotland. Mother: Margaret Chapman.](https://familysearch.org/ark:/61903/1:1:VQ4K-RZJ)
+
+<!-- BEGIN FMP-CACHED65-20261023 -->
+## Saved Findmypast birth and baptism review — 23 October 2026
+
+Role in this account: Existing George child; exact 26 Aug 1792, Kirknewton/East Calder and Clifton household context match.. Disposition: matched existing record subject. OPR 690/3 item 2 p.43 explicitly indexes Birth date 26 Aug 1792, but baptism year is blank; held FamilySearch citation labels 26 Aug as christening. Preserve the event-role discrepancy and current profile date pending original register; do not claim both events occurred on that day or use residence Clifton as proved birthplace. No relationship grade change. External profile context: https://www.wikitree.com/wiki/Chapman-28491 (Existing attached Margaret Chapman is a maternal comparison only: transcript says Mayt Chapman, while held FamilySearch entry says Margaret; do not silently resolve the name.); no local person or relationship is created.
+
+- [Findmypast SCOT/OPR/BAP/4478077](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4478077&tab=this). Saved 2026-09-03.
+
+[Current shared record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). These are reused September transcripts, not new provider captures. Source-defined child identities, adult-profile comparisons and unresolved birth-surname scope remain separate. Original register images were not inspected in this batch; existing relationship grades and family attachments are retained.
+<!-- END FMP-CACHED65-20261023 -->

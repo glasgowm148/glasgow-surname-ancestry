@@ -11,6 +11,8 @@ Reviewed: 2026-10-15
 
 The transcript-validated baptism record for **George Glasgow**, 17 Feb 1605, Mid Calder, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event. The original page names James as father and George Glasgow as a witness; Muirestoun is the probable Murieston residence. The witness may be the George named there in 1586, but is not a proved grandfather.
 
+Reviewed 23 October 2026: saved Findmypast evidence is integrated below with its exact record role and unresolved conflicts; this reuses existing captures and proposes no new person or relationship.
+
 ## Source findings
 
 - [R_686312170 Findmypast transcript](https://www.findmypast.co.uk/transcript?id=R_686312170&tab=this): Baptism date: 17 Feb 1605; Baptism place: MID CALDER, MIDLOTHIAN, SCOTLAND; Baptism year: 1605; Birth year: 1605; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Country: Scotland; County: Midlothian; Father's first name(s): James; Father's last name: Glasgow; First name(s): George; Last name: Glasgow; Mother's first name(s): -; Place: Mid Calder; Record set: Scotland, Parish Births & Baptisms 1564-1929; Residence: Mid Calder, Midlothian, Scotland; Sex: Male; Subcategory: Parish Baptisms (captured 2026-09-03T21:31:35.244Z).
@@ -72,3 +74,13 @@ Next useful test: Inspect the register page if a distinct Mid Calder James house
 This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: George Glasgow, 17 Feb 1605, record R_686312170](https://www.findmypast.co.uk/transcript?id=R_686312170&tab=this)
+
+<!-- BEGIN FMP-CACHED65-20261023 -->
+## Saved Findmypast birth and baptism review — 23 October 2026
+
+Role in this account: Existing George child, exact 17 February 1605 Mid Calder baptism; companion R_686312170 and original OPR page already assessed.. Disposition: matched existing record subject. Cached index gives baptism 17 Feb 1605, Mid Calder, father James. Original Mid Calder OPR 694/10 p.7 was read in the existing findings and confirms baptism/father, not birthday or mother; Muirestoun reading remains provisional. Companion R_686312170 is same event, not independent corroboration. Do not infer exact birthplace from baptism place or change relationship grade.
+
+- [Findmypast R_694110723](https://www.findmypast.co.uk/transcript?id=R_694110723&tab=this). Saved 2026-09-03.
+
+[Current shared record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). These are reused September transcripts, not new provider captures. Source-defined child identities, adult-profile comparisons and unresolved birth-surname scope remain separate. Original register images were not inspected in this batch; existing relationship grades and family attachments are retained.
+<!-- END FMP-CACHED65-20261023 -->

@@ -4,6 +4,7 @@
 
 Reviewed: 2026-10-15
 
+Reviewed 23 October 2026: saved Findmypast evidence is integrated below with its exact record role and unresolved conflicts; this reuses existing captures and proposes no new person or relationship.
 
 <!-- site-audit-2026-10-07:overall-conclusion -->
 William Glasgow was christened at Mid Calder, Midlothian, on 24 December 1609; derivative indexes name his father as Jhone Glasgow, and the original register has not been inspected. He is the best identified candidate for the William Glasgow named as father of Johne and Issobel at their Mid Calder baptism in 1648, because age and parish fit and no stronger competitor was found; this is an inference, not wording in either register. The profile Glasgow-2453 was merged into his on 27 September 2026. The 1609 and 1648 original entries remain to be inspected.
@@ -147,3 +148,14 @@ Scope: Complete father-profile placement46%; the named register father is explic
 Next useful test: Seek a holding, witness or kin link between the Mid Calder father and Quothquan testator.
 
 This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
+
+<!-- BEGIN FMP-CACHED65-20261023 -->
+## Saved Findmypast birth and baptism review — 23 October 2026
+
+Role in this account: Existing William child; 24 Dec 1609 baptism, exact birth day unproved.. Disposition: matched existing record subject. Two selected IDs describe one 24 Dec 1609 Mid Calder baptism of William Glasgow, father Jhone; outside companion R_686309726 is already held. Indexed birth year does not establish exact birthday. Glasgow-3296 stays a 46% possible adult father comparison.
+
+- [Findmypast R_694111819](https://www.findmypast.co.uk/transcript?id=R_694111819&tab=this). Saved 2026-09-03.
+- [Findmypast SCOT/OPR/BAP/4585702](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4585702&tab=this). Saved 2026-09-03.
+
+[Current shared record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). These are reused September transcripts, not new provider captures. Source-defined child identities, adult-profile comparisons and unresolved birth-surname scope remain separate. Original register images were not inspected in this batch; existing relationship grades and family attachments are retained.
+<!-- END FMP-CACHED65-20261023 -->

@@ -991,6 +991,244 @@
         }
       },
       "project_tree_vitals": true
+    },
+    {
+      "schema_version": 3,
+      "id": "cached-fmp-glasgow-1305-birth-20261023",
+      "subject": "Glasgow-1305",
+      "status": "approved",
+      "reviewed": "2026-10-23",
+      "scope": "birth date refinement only",
+      "basis": "Disposition: matched existing record subject. OPR 690/3 item 2 p.44 cached transcript explicitly gives birth 21 October 1796 and Ormiston residence; its baptism field is blank. Existing Glasgow-1305 has a before-6-November-1796 birth bound, but the local held FamilySearch citation has not been interpreted for an exact baptism date. Do not present 6 November as a proved baptism or Ormiston as exact birthplace. Compare original register and FamilySearch citation before live use. This refines the previous before 1796-11-06 birth field; it does not establish a baptism date from a blank field or change parent assessments.",
+      "source": {
+        "url": "/people/glasgow-1305.json",
+        "section": "research_findings / Saved Findmypast birth and baptism review — 23 October 2026"
+      },
+      "summary": "Glasgow-1305: saved transcript explicitly labels birth 1796-10-21; previous field before 1796-11-06.",
+      "vitals": {
+        "birth": {
+          "date": "1796-10-21",
+          "place": "Kirknewton, Linlithgowshire, Scotland",
+          "status": "exact",
+          "country": "scotland",
+          "qualifier": "Exact birth field in a saved derivative Findmypast transcript; original register image uninspected. Existing locality retained without newly proving an exact birthplace.",
+          "note": "Disposition: matched existing record subject. OPR 690/3 item 2 p.44 cached transcript explicitly gives birth 21 October 1796 and Ormiston residence; its baptism field is blank. Existing Glasgow-1305 has a before-6-November-1796 birth bound, but the local held FamilySearch citation has not been interpreted for an exact baptism date. Do not present 6 November as a proved baptism or Ormiston as exact birthplace. Compare original register and FamilySearch citation before live use. This refines the previous before 1796-11-06 birth field; it does not establish a baptism date from a blank field or change parent assessments.",
+          "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4478163&tab=this",
+          "source_level": "saved inspected provider transcript; original register image not inspected"
+        }
+      },
+      "catalogue_projection": {
+        "birth": "1796-10-21",
+        "birth_year": 1796,
+        "birth_note": "Exact birth field in a saved derivative Findmypast transcript; original register image uninspected. Existing locality retained without newly proving an exact birthplace.",
+        "date_years": [
+          1796
+        ],
+        "field_statuses": {
+          "birth": "unmarked",
+          "birth_location": "unmarked"
+        }
+      },
+      "project_tree_vitals": true
+    },
+    {
+      "schema_version": 3,
+      "id": "cached-fmp-glasgow-1326-birth-20261023",
+      "subject": "Glasgow-1326",
+      "status": "approved",
+      "reviewed": "2026-10-23",
+      "scope": "birth date refinement only",
+      "basis": "Disposition: matched existing record subject. OPR 690/3 item 2 gives John born 30 December 1797, Wm Glasgow and Cath Neobet, Meadbk residence, Kirknewton and East Calder. Held profile has estimated birth around a 13 January 1798 baptism to William/Catharine Nisbet. The dates and paired parents fit one child; Newlands versus Meadbk residence among siblings needs original verification, not a second family inferred. External profile context: https://www.wikitree.com/wiki/Nisbet-3257 (existing mother-profile comparison; transcript Cath Neobet spelling needs original check); no local person or relationship is created. This refines the previous c. 1798-01-13 birth field; it does not establish a baptism date from a blank field or change parent assessments.",
+      "source": {
+        "url": "/people/glasgow-1326.json",
+        "section": "research_findings / Saved Findmypast birth and baptism review — 23 October 2026"
+      },
+      "summary": "Glasgow-1326: saved transcript explicitly labels birth 1797-12-30; previous field c. 1798-01-13.",
+      "vitals": {
+        "birth": {
+          "date": "1797-12-30",
+          "place": "Kirknewton, Linlithgowshire, Scotland",
+          "status": "exact",
+          "country": "scotland",
+          "qualifier": "Exact birth field in a saved derivative Findmypast transcript; original register image uninspected. Existing locality retained without newly proving an exact birthplace.",
+          "note": "Disposition: matched existing record subject. OPR 690/3 item 2 gives John born 30 December 1797, Wm Glasgow and Cath Neobet, Meadbk residence, Kirknewton and East Calder. Held profile has estimated birth around a 13 January 1798 baptism to William/Catharine Nisbet. The dates and paired parents fit one child; Newlands versus Meadbk residence among siblings needs original verification, not a second family inferred. External profile context: https://www.wikitree.com/wiki/Nisbet-3257 (existing mother-profile comparison; transcript Cath Neobet spelling needs original check); no local person or relationship is created. This refines the previous c. 1798-01-13 birth field; it does not establish a baptism date from a blank field or change parent assessments.",
+          "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4478189&tab=this",
+          "source_level": "saved inspected provider transcript; original register image not inspected"
+        }
+      },
+      "catalogue_projection": {
+        "birth": "1797-12-30",
+        "birth_year": 1797,
+        "birth_note": "Exact birth field in a saved derivative Findmypast transcript; original register image uninspected. Existing locality retained without newly proving an exact birthplace.",
+        "date_years": [
+          1797
+        ],
+        "field_statuses": {
+          "birth": "unmarked",
+          "birth_location": "unmarked"
+        }
+      },
+      "project_tree_vitals": true
+    },
+    {
+      "schema_version": 3,
+      "id": "cached-fmp-glasgow-1414-birth-20261023",
+      "subject": "Glasgow-1414",
+      "status": "approved",
+      "reviewed": "2026-10-23",
+      "scope": "birth date refinement only",
+      "basis": "Disposition: matched existing record subject. OPR 595/1 item 1 records Mary born 27 November and baptized 29 November 1751 in Irvine to Michael Glasgow and Mary Crawfurd. This supplies literal parent names omitted from the older profile summary but does not itself identify the adults with the modern profiles or change their grade. This refines the previous before 1751-11-29 birth field; it does not establish a baptism date from a blank field or change parent assessments.",
+      "source": {
+        "url": "/people/glasgow-1414.json",
+        "section": "research_findings / Saved Findmypast birth and baptism review — 23 October 2026"
+      },
+      "summary": "Glasgow-1414: saved transcript explicitly labels birth 1751-11-27; previous field before 1751-11-29.",
+      "vitals": {
+        "birth": {
+          "date": "1751-11-27",
+          "place": "Irvine, Ayrshire, Scotland",
+          "status": "exact",
+          "country": "scotland",
+          "qualifier": "Exact birth field in a saved derivative Findmypast transcript; original register image uninspected. Existing locality retained without newly proving an exact birthplace.",
+          "note": "Disposition: matched existing record subject. OPR 595/1 item 1 records Mary born 27 November and baptized 29 November 1751 in Irvine to Michael Glasgow and Mary Crawfurd. This supplies literal parent names omitted from the older profile summary but does not itself identify the adults with the modern profiles or change their grade. This refines the previous before 1751-11-29 birth field; it does not establish a baptism date from a blank field or change parent assessments.",
+          "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3575849&tab=this",
+          "source_level": "saved inspected provider transcript; original register image not inspected"
+        }
+      },
+      "catalogue_projection": {
+        "birth": "1751-11-27",
+        "birth_year": 1751,
+        "birth_note": "Exact birth field in a saved derivative Findmypast transcript; original register image uninspected. Existing locality retained without newly proving an exact birthplace.",
+        "date_years": [
+          1751
+        ],
+        "field_statuses": {
+          "birth": "unmarked",
+          "birth_location": "unmarked"
+        }
+      },
+      "project_tree_vitals": true
+    },
+    {
+      "schema_version": 3,
+      "id": "cached-fmp-glasgow-1533-birth-20261023",
+      "subject": "Glasgow-1533",
+      "status": "approved",
+      "reviewed": "2026-10-23",
+      "scope": "birth date refinement only",
+      "basis": "Disposition: matched existing record subject. Detailed OPR transcript explicitly labels 6 May 1795 William Glasgow birth, Barony, father Robt Glasgow weaver, mother Eliz Jack; companion index gives only year and same parents. Original uninspected; register-range metadata 1797–1807 conflicts with stated event year. Existing adult-profile grades unchanged. This refines the previous before 1795-05-06 birth field; it does not establish a baptism date from a blank field or change parent assessments.",
+      "source": {
+        "url": "/people/glasgow-1533.json",
+        "section": "research_findings / Saved Findmypast birth and baptism review — 23 October 2026"
+      },
+      "summary": "Glasgow-1533: saved transcript explicitly labels birth 1795-05-06; previous field before 1795-05-06.",
+      "vitals": {
+        "birth": {
+          "date": "1795-05-06",
+          "place": "Barony, Lanarkshire, Scotland",
+          "status": "exact",
+          "country": "scotland",
+          "qualifier": "Exact birth field in a saved derivative Findmypast transcript; original register image uninspected. Existing locality retained without newly proving an exact birthplace. Transcript register-range metadata 1797–1807 conflicts with event year 1795; retained for original-page review.",
+          "note": "Disposition: matched existing record subject. Detailed OPR transcript explicitly labels 6 May 1795 William Glasgow birth, Barony, father Robt Glasgow weaver, mother Eliz Jack; companion index gives only year and same parents. Original uninspected; register-range metadata 1797–1807 conflicts with stated event year. Existing adult-profile grades unchanged. This refines the previous before 1795-05-06 birth field; it does not establish a baptism date from a blank field or change parent assessments.",
+          "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0396092&tab=this",
+          "source_level": "saved inspected provider transcript; original register image not inspected"
+        }
+      },
+      "catalogue_projection": {
+        "birth": "1795-05-06",
+        "birth_year": 1795,
+        "birth_note": "Exact birth field in a saved derivative Findmypast transcript; original register image uninspected. Existing locality retained without newly proving an exact birthplace. Transcript register-range metadata 1797–1807 conflicts with event year 1795; retained for original-page review.",
+        "date_years": [
+          1795
+        ],
+        "field_statuses": {
+          "birth": "unmarked",
+          "birth_location": "certain",
+          "death_location": "unmarked"
+        }
+      },
+      "project_tree_vitals": true
+    },
+    {
+      "schema_version": 3,
+      "id": "cached-fmp-glasgow-1534-birth-20261023",
+      "subject": "Glasgow-1534",
+      "status": "approved",
+      "reviewed": "2026-10-23",
+      "scope": "birth date refinement only",
+      "basis": "Disposition: matched existing record subject. Detailed OPR transcript explicitly labels 22 Aug 1797 James Glasgow birth, Barony, father Robt Glasgow weaver, mother Eliz Jack; companion index gives only year and same parents. Older description of 22 Aug as baptism is a date-role error. Glasgow-1530 father assessment 96% stays unchanged; Jack-2557 adult identity is not proved merely by the indexed name. This refines the previous before 1797-08-22 birth field; it does not establish a baptism date from a blank field or change parent assessments.",
+      "source": {
+        "url": "/people/glasgow-1534.json",
+        "section": "research_findings / Saved Findmypast birth and baptism review — 23 October 2026"
+      },
+      "summary": "Glasgow-1534: saved transcript explicitly labels birth 1797-08-22; previous field before 1797-08-22.",
+      "vitals": {
+        "birth": {
+          "date": "1797-08-22",
+          "place": "Barony, Lanarkshire, Scotland",
+          "status": "exact",
+          "country": "scotland",
+          "qualifier": "Exact birth field in a saved derivative Findmypast transcript; original register image uninspected. Existing locality retained without newly proving an exact birthplace.",
+          "note": "Disposition: matched existing record subject. Detailed OPR transcript explicitly labels 22 Aug 1797 James Glasgow birth, Barony, father Robt Glasgow weaver, mother Eliz Jack; companion index gives only year and same parents. Older description of 22 Aug as baptism is a date-role error. Glasgow-1530 father assessment 96% stays unchanged; Jack-2557 adult identity is not proved merely by the indexed name. This refines the previous before 1797-08-22 birth field; it does not establish a baptism date from a blank field or change parent assessments.",
+          "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0396093&tab=this",
+          "source_level": "saved inspected provider transcript; original register image not inspected"
+        }
+      },
+      "catalogue_projection": {
+        "birth": "1797-08-22",
+        "birth_year": 1797,
+        "birth_note": "Exact birth field in a saved derivative Findmypast transcript; original register image uninspected. Existing locality retained without newly proving an exact birthplace.",
+        "date_years": [
+          1797
+        ],
+        "field_statuses": {
+          "birth": "unmarked",
+          "birth_location": "certain"
+        }
+      },
+      "project_tree_vitals": true
+    },
+    {
+      "schema_version": 3,
+      "id": "cached-fmp-glasgow-427-birth-20261023",
+      "subject": "Glasgow-427",
+      "status": "approved",
+      "reviewed": "2026-10-23",
+      "scope": "birth date refinement only",
+      "basis": "Disposition: matched existing record subject. John Glasgow, born 15 Aug 1790 (explicit birth date; no baptism date/year supplied), Kirknewton & East Calder; father literally Thos Glasgow and mother Margt Chapman. Existing Glasgow-427 finding gives the same date/parish/parents and compares Thomas-1620 through the same-parish 1789 marriage. The mother profile Chapman-28491 is an unassessed inherited tree link; do not upgrade it. No new child/relationship. External profile context: https://www.wikitree.com/wiki/Chapman-28491 (Existing unassessed tree mother link only; transcript literally says Margt Chapman and does not by itself identify this profile.); no local person or relationship is created. This refines the previous before 1790-08-15 birth field; it does not establish a baptism date from a blank field or change parent assessments.",
+      "source": {
+        "url": "/people/glasgow-427.json",
+        "section": "research_findings / Saved Findmypast birth and baptism review — 23 October 2026"
+      },
+      "summary": "Glasgow-427: saved transcript explicitly labels birth 1790-08-15; previous field before 1790-08-15.",
+      "vitals": {
+        "birth": {
+          "date": "1790-08-15",
+          "place": "East Calder, Midlothian, Scotland",
+          "status": "exact",
+          "country": "scotland",
+          "qualifier": "Exact birth field in a saved derivative Findmypast transcript; original register image uninspected. Existing locality retained without newly proving an exact birthplace.",
+          "note": "Disposition: matched existing record subject. John Glasgow, born 15 Aug 1790 (explicit birth date; no baptism date/year supplied), Kirknewton & East Calder; father literally Thos Glasgow and mother Margt Chapman. Existing Glasgow-427 finding gives the same date/parish/parents and compares Thomas-1620 through the same-parish 1789 marriage. The mother profile Chapman-28491 is an unassessed inherited tree link; do not upgrade it. No new child/relationship. External profile context: https://www.wikitree.com/wiki/Chapman-28491 (Existing unassessed tree mother link only; transcript literally says Margt Chapman and does not by itself identify this profile.); no local person or relationship is created. This refines the previous before 1790-08-15 birth field; it does not establish a baptism date from a blank field or change parent assessments.",
+          "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4478030&tab=this",
+          "source_level": "saved inspected provider transcript; original register image not inspected"
+        }
+      },
+      "catalogue_projection": {
+        "birth": "1790-08-15",
+        "birth_year": 1790,
+        "birth_note": "Exact birth field in a saved derivative Findmypast transcript; original register image uninspected. Existing locality retained without newly proving an exact birthplace.",
+        "date_years": [
+          1790,
+          1856
+        ],
+        "field_statuses": {
+          "birth": "unmarked",
+          "birth_location": "certain",
+          "death": "unmarked",
+          "death_location": "unmarked"
+        }
+      },
+      "project_tree_vitals": true
     }
   ]
 }

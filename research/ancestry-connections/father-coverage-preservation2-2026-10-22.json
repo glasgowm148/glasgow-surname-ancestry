@@ -302,12 +302,138 @@
     },
     "Glasgow-427": {
       "current_sha256": "73bfa640e4ec6ce2598802edec82d24dde26ced637547cf91f6fa59f087877f5",
-      "proposed_sha256": "27fb9b327fce2d41539f8f42992526c67234e95a6c1a7ef5ae66911746fcf116",
+      "proposed_sha256": "1da05a45bfc86e96dd1500d5dc341a59c3ba6c12488e2f9f43709fa84b77235c",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-427/father-confidence-2026-10-22b.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
-      "restored_source_passage_count": 0
+      "retained": "Complete captured and prior proposed biographies compared; existing sources and relationship assessments retained. Dated birth/baptism source clarification and explicitly qualified identity conflicts replace the superseded date wording.",
+      "restored_source_passage_count": 0,
+      "previous_proposed_sha256": "003e9f07f06937edc1878cb833e1812582bcb23d8e94dcf39fb36bea111f5dc4",
+      "birth_transcript_review": {
+        "reviewed_on": "2026-10-23",
+        "prior_proposed_sha256": "003e9f07f06937edc1878cb833e1812582bcb23d8e94dcf39fb36bea111f5dc4",
+        "new_proposed_sha256": "dc7000867199d88a1592c536ce3a5cedcf19528211dc18f7d8732a1093cef604",
+        "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4478030&tab=this",
+        "comparison": {
+          "subject": "Glasgow-427",
+          "inputs": {
+            "captured_draft_path": "research/Glasgow-427/father-confidence-2026-10-22b.wiki",
+            "saved_transcript_path": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~14478030",
+            "public_profile_path": "www/people/glasgow-427.json",
+            "findings_path": "research/Glasgow-427/findings.md"
+          },
+          "saved_transcript_verification": {
+            "access_status": "accessible",
+            "captured_at": "2026-09-03T20:42:46.976Z",
+            "record_id": "SCOT/OPR/BAP/4478030",
+            "archive_reference": "OPR 690/3",
+            "page": "42",
+            "item": "2",
+            "place": "Kirknewton & East Calder",
+            "birth_date": "15 Aug 1790",
+            "baptism_year": "-",
+            "father_as_indexed": "Thos Glasgow",
+            "mother_as_indexed": "Margt Chapman",
+            "transcript_level": "Findmypast transcript; original register image not inspected"
+          },
+          "current_public_boundary": {
+            "date": "before 1790-08-15",
+            "place": "East Calder, Midlothian, Scotland",
+            "status": "uncertain"
+          },
+          "parent_assessment_preserved": [
+            {
+              "id": "Glasgow-1620",
+              "status": "proved",
+              "assessment_date": "2026-10-22",
+              "claim": "Glasgow-1620 remains the selected father of Glasgow-427, individually assessed 98%.",
+              "record_scope": "Recorded 1790 child and Chapman household98%; Thomas’s own earlier parent and John’s later New Monkland identity are separate. Original uninspected.",
+              "source_ids": [
+                "held-e-a3c1508ca9d2"
+              ]
+            },
+            {
+              "id": "Chapman-28491",
+              "status": "unknown",
+              "assessment_date": null,
+              "claim": null,
+              "record_scope": null,
+              "source_ids": null
+            }
+          ],
+          "comparison": {
+            "captured_sha256": "003e9f07f06937edc1878cb833e1812582bcb23d8e94dcf39fb36bea111f5dc4",
+            "current_sha256": "003e9f07f06937edc1878cb833e1812582bcb23d8e94dcf39fb36bea111f5dc4",
+            "revised_sha256": "dc7000867199d88a1592c536ce3a5cedcf19528211dc18f7d8732a1093cef604",
+            "captured_equals_current": true,
+            "narrative_preserved": "All existing narrative paragraphs, research notes, uncertainty statements and citations retained; the opening biography paragraph was substantively revised and gained a Findmypast receipt citation.",
+            "substantive_changes": [
+              "States that the saved Findmypast transcript explicitly labels 15 Aug 1790 as Birth date; Baptism year is blank, so no baptism date is claimed.",
+              "Proposes exact vital date 1790-08-15 from the transcript Birth date field; records the former public before-1790-08-15 value as historical prior state, while noting the original image remains uninspected.",
+              "Qualifies mother as the transcript-indexed Margt Chapman; does not add a mother profile or relationship.",
+              "Uses Glasgow-1620, the already-maintained selected father at 98%; the captured draft’s Glasgow-1238 link is stale relative to current profile/findings and correcting it is not a new father decision or relationship change.",
+              "Retains the existing father assessment scope and grade: recorded 1790 child/Chapman household; Thomas’s own earlier parent and John’s later New Monkland identity remain separate."
+            ],
+            "citation_counts": {
+              "captured": 7,
+              "revised": 7
+            }
+          },
+          "output_path": "/tmp/fmp-cached65-Glasgow-427.wiki",
+          "limits": [
+            "No project files edited.",
+            "No browser, rendering, build, or network access used.",
+            "FMP transcript value is transcribed evidence; the original parish image remains uninspected."
+          ],
+          "parentage_continuity_check": {
+            "current_profile_parent_id": "Glasgow-1620",
+            "current_profile_assessment_percent": 98,
+            "current_profile_assessment_date": "2026-10-22",
+            "draft_link_before_revision": "Glasgow-1238",
+            "proposed_link": "Glasgow-1620",
+            "interpretation": "Aligns the draft with the already-maintained assessment; no new parent attachment or regrade."
+          },
+          "preserve_existing_source_base_fields": {
+            "transcript_receipt": {
+              "provider_record_id": "SCOT/OPR/BAP/4478030",
+              "capture_path": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~14478030",
+              "access_status": "accessible",
+              "archive_reference": "OPR 690/3",
+              "item": "2",
+              "page": "42",
+              "place": "Kirknewton & East Calder",
+              "county": "Midlothian",
+              "birth_date": "15 Aug 1790",
+              "birth_year": "1790",
+              "baptism_year": "-",
+              "father_index_fields": "Thos Glasgow",
+              "mother_index_fields": "Margt Chapman",
+              "record_set": "Scotland, Parish Births & Baptisms 1564-1929"
+            },
+            "existing_secondary_citation": {
+              "database": "FamilySearch, Scotland Births and Baptisms 1564-1950",
+              "url": "https://familysearch.org/ark:/61903/1:1:VQ4K-T91",
+              "indexed_value": "Christening Date 15 Aug 1790; parents Thomas Glasgow and Margaret Chapman"
+            },
+            "existing_assessment_source_id": "held-e-a3c1508ca9d2",
+            "existing_parent_assessment": {
+              "father_profile_id": "Glasgow-1620",
+              "grade": "98% (proved)",
+              "scope": "Recorded 1790 child and Chapman household; Thomas’s own earlier parent and John’s later New Monkland identity are separate. Original uninspected."
+            },
+            "public_prior_vital": {
+              "date": "before 1790-08-15",
+              "status": "uncertain",
+              "treatment": "Retain as historical prior; proposed update is exact transcript date 1790-08-15."
+            }
+          }
+        },
+        "normalization_comparison": {
+          "raw_draft_sha256": "dc7000867199d88a1592c536ce3a5cedcf19528211dc18f7d8732a1093cef604",
+          "normalized_diff": [],
+          "all_captured_source_identities_retained": true
+        }
+      }
     },
     "Glasgow-539": {
       "current_sha256": "a34f6512b916606425b7e471cec272c9da716d404d1648ac8fef8a25e13d6f0a",

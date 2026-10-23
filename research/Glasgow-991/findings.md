@@ -18,6 +18,8 @@ The selected local father changes from John-3296, uncertain 28%, to James-991, p
 
 [Current ancestry comparison](/branches/early-scottish-records/#chapter-easter-newton-working-ancestry).
 
+Reviewed 23 October 2026: saved Findmypast evidence is integrated below with its exact record role and unresolved conflicts; this reuses existing captures and proposes no new person or relationship.
+
 ## Earlier research retained
 
 The earlier sections below retain their dated evidence and reasoning. Statements selecting John-3296 or saying the 28% upstream route is unchanged are superseded by the current James-991 selection above. Other family conclusions remain in force.
@@ -234,3 +236,21 @@ Prioritise a discriminating household link for the Easter Newtoun adult: compare
 Edward-1557 is now placed under [George of Mureistoun](/research/subjects/murieston-1586-1605/#george-mureistoun) at 26%, choosing a brother reconstruction alongside this James. James’s own 82% George father and 84% Fisherrow Alexander father assessments are unchanged. This is not proof of brotherhood. Prefer the recorded George of Mureistoun as [Edward Glasgow](/people/glasgow-1557.html)’s uncertain working father at 26%, replacing the 18% Corsankell James selection. The preferred reconstruction makes Edward and [James Glasgow](/people/glasgow-991.html) brothers. The 1624 Fisherrow index places Edward at the same RS25 9/135 reference as James the tailor and his son Alexander. Edward-1557 is the preferred 1624 identity at 56%; both Edward and the James family have Inveresk children in 1609, and James’s child Eduard supplies a compatible naming echo. A close local family explains this combined association better than the present unsupported Ayrshire-origin route. George is an already recorded older local candidate and James’s selected probable father at 82%; he is not an invented common ancestor. Brothers are the preferred degree for the two contemporary fathers, rather than a proved relationship. The 26% is an exact subjective assessment of the complete father-and-identity proposition, not a measured probability. Edward’s identity in 1624, James’s Mid Calder–Fisherrow identity, their precise degree of kinship and George’s paternity all remain open. The index gives Edward no capacity or kin clause; shared folio, local births and naming are correlated clues, not independent proofs. Cousins, uncle/nephew, an older Edward as James’s father, and another local father remain alternatives. [Eduard Glasgow](/people/glasgow-994.html) and [Edward Glasgow](/people/glasgow-1558.html) survive as the indexed Edward. The circa 1570/1575 birth years are estimates; if George is the merchant born 1565–1572, fatherhood requires later births for Edward and James, not those conventional estimates. No dates are changed to force that route. George’s own [William Glasgow](/people/glasgow-3522.html) father 26% and possible merchant identity are unchanged. [Margaret Smith](/people/smith-374110.html) remains the separately uncertain imported mother; she is not selected as George’s spouse. No biological exclusion of Corsankell James or new Scottish–American proof is claimed.
 
 [1624printed index,pp.187–188](https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481057&seq=193); [Maidment,Analecta ScoticaI,art.CXVI,pp.395–396,399](https://archive.org/details/analectascotica00maidgoog); [1626Inveresk transcript](https://www.findmypast.co.uk/transcript?id=R_686178012&tab=this); [1716Edinburgh burial transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F0189706&tab=this).
+
+<!-- BEGIN FMP-CACHED65-20261023 -->
+## Saved Findmypast birth and baptism review — 23 October 2026
+
+Role in this account: Recorded father James; existing father assessment retained, no new grade.. Disposition: matched existing record subject. Cached derivative index names Beatrix Glasgow and father James at Mid Calder, baptism 15 Apr 1610; birth year 1610 is indexed from baptism and gives no independent birthday. R_686310039 is a companion of this event, not independent proof. Existing SCOT/OPR/BAP/4585741 reports 15 Apr 1611, unresolved against 1610; original register not inspected in the maintained Beatrix finding. Do not turn either baptism into exact birth or count two children; no relationship reassessment.
+
+- [Findmypast R_694107870](https://www.findmypast.co.uk/transcript?id=R_694107870&tab=this). Saved 2026-09-03.
+
+Role in this account: Recorded father James and existing selected father; current 98% assessment unchanged.. Disposition: matched existing record subject. Cached index gives baptism 17 Feb 1605, Mid Calder, father James. Original Mid Calder OPR 694/10 p.7 was read in the existing findings and confirms baptism/father, not birthday or mother; Muirestoun reading remains provisional. Companion R_686312170 is same event, not independent corroboration. Do not infer exact birthplace from baptism place or change relationship grade.
+
+- [Findmypast R_694110723](https://www.findmypast.co.uk/transcript?id=R_694110723&tab=this). Saved 2026-09-03.
+
+Role in this account: Recorded father James; existing selected father assessment retained.. Disposition: matched existing record subject. Cached derivative index names John Glasgow, father James, baptized 18 Feb 1616 at Mid Calder. Indexed birth year 1616 is not an independent birthday. Existing public before-baptism birth boundary is appropriate. Companion R_686309696 is same event; no new person, mother assignment or grade change.
+
+- [Findmypast R_694113518](https://www.findmypast.co.uk/transcript?id=R_694113518&tab=this). Saved 2026-09-03.
+
+[Current shared record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). These are reused September transcripts, not new provider captures. Source-defined child identities, adult-profile comparisons and unresolved birth-surname scope remain separate. Original register images were not inspected in this batch; existing relationship grades and family attachments are retained.
+<!-- END FMP-CACHED65-20261023 -->

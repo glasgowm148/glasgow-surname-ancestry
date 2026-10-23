@@ -13,6 +13,8 @@ Reviewed: 2026-10-16
 
 **Selected very uncertain Irvine/Kilwinning parent pair, 16 October 2026:** John Glasgow-3018 is placed under John Glasgow-3375 and Barbara Allison-6866 only through possible identity with the 1679 Kilwinning child. Infant baptism would imply fatherhood at fourteen in 1693. The skipper/bailie and younger-John identities remain unresolved; both parent fields are conditional. [Evidence and alternatives](/branches/early-scottish-records/#irvine-kilwinning-working-family).
 
+Reviewed 23 October 2026: saved Findmypast evidence is integrated below with its exact record role and unresolved conflicts; this reuses existing captures and proposes no new person or relationship.
+
 <!-- site-audit-2026-10-07:overall-conclusion -->
 John Glasgow was born or baptised in Irvine on 8 October 1693, according to the Scotland’s People index of the Old Parish Registers (parish 595, reference 10 / 12), which names his parents as John Glasgow and Agnes Martine. The entry is known from the index only: the original register image has not been inspected, and the indexed date is not proved to be a birth date. The file records nothing further about his life.
 
@@ -63,3 +65,13 @@ Next useful test: Find a deed or marriage naming the skipper/bailie’s wife Agn
 This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [“Scotland Births and Baptisms, 1564–1950,” FamilySearch, John Glasgow and Agnes Martine, baptism of son John, 8 October 1693, Irvine 595/ M.](https://www.wikitree.com/wiki/Glasgow-1473)
+
+<!-- BEGIN FMP-CACHED65-20261023 -->
+## Saved Findmypast birth and baptism review — 23 October 2026
+
+Role in this account: Possible same 1693 Irvine child account: the maintained Scotland's People entry gives John, father John Glasgow, mother Agnes Martine; this cached transcript has an unnamed child, father surname only, mother Agnes Martine, and ambiguous '08 ? 1693'. Shared mother/parish/year favour comparison, but do not prove a single entry or resolve the month.. Disposition: identity HOLD. OPR 595/1 item 1, Irvine; baptism date literally '08 ? 1693', child's first name and father's first name blank. Do not silently convert to 8 October, 10 August or an exact birth date. No additional child/person or relationship inferred.
+
+- [Findmypast SCOT/OPR/BAP/3572310](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3572310&tab=this). Saved 2026-09-03.
+
+[Current shared record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). These are reused September transcripts, not new provider captures. Source-defined child identities, adult-profile comparisons and unresolved birth-surname scope remain separate. Original register images were not inspected in this batch; existing relationship grades and family attachments are retained.
+<!-- END FMP-CACHED65-20261023 -->

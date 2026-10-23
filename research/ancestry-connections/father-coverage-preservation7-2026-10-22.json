@@ -749,15 +749,89 @@
     },
     "Glasgow-1414": {
       "current_sha256": "bbb751ee2c59164fe0d70d3f2da8696624f3b300e8eaa0148afbeb5ee05150b2",
-      "proposed_sha256": "e14beb951ba2fb1de16cb689197fa7d4f40074d5da403ed85a9026ae19dab8c3",
-      "previous_proposed_sha256": "bbb751ee2c59164fe0d70d3f2da8696624f3b300e8eaa0148afbeb5ee05150b2",
+      "proposed_sha256": "7417d558c5fee9dcb50f6b19a029527995cc0f2d3b83af610d0418d913d5cae0",
+      "previous_proposed_sha256": "92ce79facce9cf990b5f1c97cbbcae8b1b8df934c66b671566638959a0af27b9",
       "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/father-coverage7-20261022/previous-proposals/Glasgow-1414.wiki",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-1414/father-confidence-2026-10-22g.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
+      "retained": "Complete captured and prior proposed biographies compared; existing sources and relationship assessments retained. Dated birth/baptism source clarification and explicitly qualified identity conflicts replace the superseded date wording.",
       "restored_source_passage_count": 0,
-      "reference_repairs": []
+      "reference_repairs": [],
+      "birth_transcript_review": {
+        "reviewed_on": "2026-10-23",
+        "prior_proposed_sha256": "92ce79facce9cf990b5f1c97cbbcae8b1b8df934c66b671566638959a0af27b9",
+        "new_proposed_sha256": "552f56903dced39945cd795f0ffe51934a8062edf9ee6966da8566c949df91c4",
+        "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3575849&tab=this",
+        "comparison": {
+          "profile_id": "Glasgow-1414",
+          "prepared_on": "2026-10-23",
+          "source_receipt": {
+            "provider_id": "SCOT/OPR/BAP/3575849",
+            "source_file": "research/findmypast-glasgow-audit/record-details-remaining-b.json",
+            "source_pointer": "#/records/SCOT~1OPR~1BAP~13575849",
+            "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3575849&tab=this",
+            "archive_reference": "OPR 595/1 item 1",
+            "source_level": "derivative transcript; original image uninspected"
+          },
+          "preservation_review": {
+            "captured_equals_current": true,
+            "retained": [
+              "Glasgow Name Study category from queued draft",
+              "existing FamilySearch citation in narrative and Sources",
+              "complete father-review assessment at 73% (probable), including separate adult identification limit",
+              "current parent profile links, with correction of stale nonexistent Glasgow-1412 target to Glasgow-1410",
+              "no unsupported death, spouse, child or relationship change"
+            ],
+            "revised": [
+              "Replaced ambiguous before-1751 biography wording with explicit indexed birth 27 November and baptism 29 November 1751",
+              "Added Findmypast transcript citation OPR 595/1 item 1 and literal Michael Glasgow/Mary Crawfurd parent names",
+              "Updated stale research question from reading an index to inspecting original register image"
+            ],
+            "limits": [
+              "Findmypast derivative transcript is not an original-image check",
+              "FamilySearch and Findmypast likely represent one parish event, not independent witnesses",
+              "Literal parents in the transcript do not independently identify the adult WikiTree profiles",
+              "No automatic father-grade change or live WikiTree edit"
+            ]
+          },
+          "comparison": {
+            "captured_equals_current": true,
+            "retained": [
+              "Glasgow Name Study category from queued draft",
+              "existing FamilySearch citation in narrative and Sources",
+              "complete father-review assessment at 73% (probable), including separate adult identification limit",
+              "current parent profile links, with correction of stale nonexistent Glasgow-1412 target to Glasgow-1410",
+              "no unsupported death, spouse, child or relationship change"
+            ],
+            "revised": [
+              "Replaced ambiguous before-1751 biography wording with explicit indexed birth 27 November and baptism 29 November 1751",
+              "Added Findmypast transcript citation OPR 595/1 item 1 and literal Michael Glasgow/Mary Crawfurd parent names",
+              "Updated stale research question from reading an index to inspecting original register image"
+            ],
+            "limits": [
+              "Findmypast derivative transcript is not an original-image check",
+              "FamilySearch and Findmypast likely represent one parish event, not independent witnesses",
+              "Literal parents in the transcript do not independently identify the adult WikiTree profiles",
+              "No automatic father-grade change or live WikiTree edit"
+            ]
+          }
+        },
+        "normalization_comparison": {
+          "raw_draft_sha256": "552f56903dced39945cd795f0ffe51934a8062edf9ee6966da8566c949df91c4",
+          "normalized_diff": [
+            "--- \n",
+            "+++ \n",
+            "@@ -15,4 +15,4 @@\n",
+            " ",
+            " == Sources ==",
+            " <references />",
+            "-* https://www.familysearch.org/ark:/61903/1:1:XBLZ-LZ7",
+            "+* [https://www.familysearch.org/ark:/61903/1:1:XBLZ-LZ7 Archived or supplementary source]"
+          ],
+          "all_captured_source_identities_retained": true
+        }
+      }
     },
     "Glasgow-3480": {
       "current_sha256": "f87669dba12628415d5a158beaeba70101c57ed2174ce0e4f06886137fff7b61",

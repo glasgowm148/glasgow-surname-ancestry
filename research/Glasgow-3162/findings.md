@@ -7,6 +7,8 @@ Last updated: 2026-10-07
 
 Current father assessment (22 October 2026): **54% (possible)** for [Glasgow-1090](https://www.wikitree.com/wiki/Glasgow-1090). Possible full-profile placement. The record father George is named; Anne/Fanne and9/23 September are source variants, not resolved vital or maternal facts. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
+Reviewed 23 October 2026: saved Findmypast evidence is integrated below with its exact record role and unresolved conflicts; this reuses existing captures and proposes no new person or relationship.
+
 <!-- site-audit-2026-10-07:overall-conclusion -->
 Margaret Glasgow was baptised at Kilwinning, Ayrshire, on 23 September 1688, the daughter of George Glasgow and Anne Smith as their names are given in the Findmypast transcripts assigned to this profile. The Scotland's People index gives the same date, which differs from the 9 September 1688 birth date recorded on the profile. The original register has not been inspected, so it is not known whether the two dates are separate birth and baptism dates or a transcription error.
 
@@ -60,3 +62,13 @@ Next useful test: Find the George/Smith marriage or an earlier family entry iden
 This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Margaret Glasgow, 23 Sep 1688, record SCOT/OPR/BAP/3624976](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3624976&tab=this); [Scotland’s People, Old Parish Registers, births and baptisms (https://www.scotlandspeople.gov.uk/), exact surname Glasgow through 1700, index text supplied 10 September 2026: MARGARET GLASGOW, 23/09/1688, GEORGE GLASGOW/FANNE SMITH FR72 (FR72), indexed gender F, Kilwinning, parish 599, reference 10 / 60. Original register image not inspected for this review.](https://www.scotlandspeople.gov.uk/)
+
+<!-- BEGIN FMP-CACHED65-20261023 -->
+## Saved Findmypast birth and baptism review — 23 October 2026
+
+Role in this account: Already assigned 23 September 1688 Kilwinning baptism account for Margaret, father George Glasgow, mother Anne Smith in Findmypast. Companion SCOT/OPR/BAP/3624976 has the same event; Scotland's People indexes maternal name Fanne Smith. Profile's 9 September birth and 23 September baptism remain unresolved separate fields.. Disposition: matched existing record subject. OPR 599/1 item 1; cached transcript register-range metadata says 1693–1819 although event date is 1688, an unresolved index inconsistency already present in maintained findings. Do not turn baptism into birth or alter Anne/Fanne Smith and 9/23 September variants without original image.
+
+- [Findmypast SCOT/OPR/BAP/3624989](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3624989&tab=this). Saved 2026-09-03.
+
+[Current shared record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). These are reused September transcripts, not new provider captures. Source-defined child identities, adult-profile comparisons and unresolved birth-surname scope remain separate. Original register images were not inspected in this batch; existing relationship grades and family attachments are retained.
+<!-- END FMP-CACHED65-20261023 -->

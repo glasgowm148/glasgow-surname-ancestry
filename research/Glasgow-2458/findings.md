@@ -8,6 +8,8 @@ Current father assessment (22 October 2026): **97% (proved)** for [Glasgow-1105]
 
 The supplied index entry is a compatible derivative-record match by name, parish and recorded parent(s). Its date may be a birth or baptism date; the original image has not been inspected.
 
+Reviewed 23 October 2026: saved Findmypast evidence is integrated below with its exact record role and unresolved conflicts; this reuses existing captures and proposes no new person or relationship.
+
 <!-- opr-birth-review-row-116 -->
 ## Source findings
 
@@ -34,3 +36,13 @@ Next useful test: Compare both indexed readings and the original before treating
 This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: ["Scotland Births and Baptisms, 1564-1950", database, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:XTGP-YQS : 16 September 2021), Hellen Glasgow, 1668.](https://www.familysearch.org/ark:/61903/1:1:XTGP-YQS)
+
+<!-- BEGIN FMP-CACHED65-20261023 -->
+## Saved Findmypast birth and baptism review — 23 October 2026
+
+Role in this account: Possible duplicate account for the same Linlithgow 1668 child; do not count as a second child or merge.. Disposition: identity HOLD. Transcript/index gives Helen Glasgow, birth year 1668, Linlithgow OPR 668/14 item 4 page 231, father John Glasgow and mother Agnes Easton; no birth date or baptism date/year. Canonical record held-e-b986d98a81e8 already cites this exact provider ID for Glasgow-4098. Companion index SCOT/OPR/BAP/0476082 reports a day but this ID does not; do not transfer that date or force a child match between Glasgow-4098 and Glasgow-2458.
+
+- [Findmypast SCOT/OPR/BAP/0501646](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0501646&tab=this). Saved 2026-09-03.
+
+[Current shared record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). These are reused September transcripts, not new provider captures. Source-defined child identities, adult-profile comparisons and unresolved birth-surname scope remain separate. Original register images were not inspected in this batch; existing relationship grades and family attachments are retained.
+<!-- END FMP-CACHED65-20261023 -->

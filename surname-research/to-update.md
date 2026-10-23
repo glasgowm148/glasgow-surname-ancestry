@@ -4092,3 +4092,23 @@ Twenty provider transcripts are reviewed in fifteen documentary groups. Existing
 | --- | --- | --- |
 | [Nancy Annie Glasgow](https://www.wikitree.com/wiki/Glasgow-370) | OPEN | Existing father James634: 73% →96% confident; complete sourced draft, retained birth/source limits; no live save. |
 | [Elizabeth Glasgow Martin](https://www.wikitree.com/wiki/Glasgow-2055) | OPEN | Existing father James634: 66% →93% confident; complete sourced draft, retained birth/source limits; no live save. |
+
+## Cached Findmypast records — 23 October 2026
+
+65 saved September transcripts are reconciled in 57 documentary groups without new provider retrieval: 30 matched existing subjects, 23 identity holds and four scope holds. No new person or relationship is proposed.
+
+| [Janet Glasgow](https://www.wikitree.com/wiki/Glasgow-1305) | OPEN | Glasgow-1305: saved transcript explicitly labels birth 1796-10-21; previous field before 1796-11-06. Keep source qualifications and the complete sourced proposal. |
+| [John Glasgow](https://www.wikitree.com/wiki/Glasgow-1326) | OPEN | Glasgow-1326: saved transcript explicitly labels birth 1797-12-30; previous field c. 1798-01-13. Keep source qualifications and the complete sourced proposal. |
+| [Mary Glasgow](https://www.wikitree.com/wiki/Glasgow-1414) | OPEN | Glasgow-1414: saved transcript explicitly labels birth 1751-11-27; previous field before 1751-11-29. Keep source qualifications and the complete sourced proposal. |
+| [William Glasgow](https://www.wikitree.com/wiki/Glasgow-1533) | OPEN | Glasgow-1533: saved transcript explicitly labels birth 1795-05-06; previous field before 1795-05-06. Keep source qualifications and the complete sourced proposal. |
+| [James Glasgow](https://www.wikitree.com/wiki/Glasgow-1534) | OPEN | Glasgow-1534: saved transcript explicitly labels birth 1797-08-22; previous field before 1797-08-22. Keep source qualifications and the complete sourced proposal. |
+| [John Glasgow](https://www.wikitree.com/wiki/Glasgow-427) | OPEN | Glasgow-427: saved transcript explicitly labels birth 1790-08-15; previous field before 1790-08-15. Keep source qualifications and the complete sourced proposal. |
+
+[Current record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). Conflicting exact dates remain unresolved; local synchronization only, no live edits or deployment.
+
+
+### Anna Allan father review —23 October 2026
+
+| Profile | Status | Amendment |
+| --- | --- | --- |
+| [Anna Glasgow](https://www.wikitree.com/wiki/Glasgow-3005) | OPEN | Add the checked Paterson p.252 passage and exact Hugh Allan marriage identification. Local father confidence58% → 95% agrees with the captured confident mark; no parent or certainty amendment remains. Complete sourced draft; no live save. |

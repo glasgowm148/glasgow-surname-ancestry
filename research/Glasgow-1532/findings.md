@@ -6,6 +6,8 @@ Current father assessment (22 October 2026): **96% (proved)** for [Glasgow-1530]
 
 The held ScotlandsPeople Barony baptism citation explicitly names Marion Glasgow, 4 March 1792, as Robert Glasgow’s child with Elizabeth Jack. The 1789 Jack marriage and repeated paired parents identify the adult family convincingly. Selected father-profile identity and paternal relationship; maternal identity is separate.
 
+Reviewed 23 October 2026: saved Findmypast evidence is integrated below with its exact record role and unresolved conflicts; this reuses existing captures and proposes no new person or relationship.
+
 ## Father confidence review, eighth batch — 22 October 2026
 
 [Glasgow-1530](https://www.wikitree.com/wiki/Glasgow-1530) remains the selected father, assessed **96% (proved)**. Previous selected-tree status: **unmarked**, without an individual percentage.
@@ -19,3 +21,13 @@ Next useful test: Read the original baptism for residence, occupation and precis
 This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: ["Church of Scotland: Old Parish Registers - Births and Baptisms," database, National Records of Scotland, ScotlandsPeople (https://www.scotlandspeople.gov.uk/) (accessed 19 April 2025), Marrion Glasgow born or baptised on 4 Mar 1792, child of Robert Glasgow & Elizabeth Jack, in Barony, Lanarkshire, Scotland; citing Parish Number 622, Ref 30/327.](https://www.scotlandspeople.gov.uk/)
+
+<!-- BEGIN FMP-CACHED65-20261023 -->
+## Saved Findmypast birth and baptism review — 23 October 2026
+
+Role in this account: Existing Marrion/Marion Glasgow child; same indexed year, Barony, and named parents Robert Glasgow and Elizabeth Jack. Existing relationship assessment retained.. Disposition: matched existing record subject. Transcript/index gives Marrion Glasgow, birth year 1792, Barony, father Robert Glasgow and mother Elizabeth Jack. It has no exact birth or baptism date. Existing held ScotlandsPeople citation gives 4 March 1792; this FMP transcript is derivative corroboration of the same event, not an original image and does not independently establish that day. Do not change relationships.
+
+- [Findmypast R_690387615](https://www.findmypast.co.uk/transcript?id=R_690387615&tab=this). Saved 2026-09-03.
+
+[Current shared record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). These are reused September transcripts, not new provider captures. Source-defined child identities, adult-profile comparisons and unresolved birth-surname scope remain separate. Original register images were not inspected in this batch; existing relationship grades and family attachments are retained.
+<!-- END FMP-CACHED65-20261023 -->

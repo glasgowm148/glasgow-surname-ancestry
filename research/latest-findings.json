@@ -55107,6 +55107,94 @@
           ]
         }
       ]
+    },
+    {
+      "id": "fmp-cached65-birth-refinements-20261023",
+      "found_on": "2026-10-23",
+      "reviewed_on": "2026-10-23",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "Six existing Glasgow profiles gain explicit indexed birth dates from previously saved Findmypast transcripts: Mary-1414, 27 November 1751; John-1326, 30 December 1797; Janet-1305, 21 October 1796; William-1533, 6 May 1795; James-1534, 22 August 1797; John-427, 15 August 1790.",
+      "qualification": "These receipts were captured on 3 September and newly integrated today; they are not six newly retrieved records or first-seen historical discoveries. Birth and baptism remain separate. William’s register-range metadata conflicts with the event year. Original register images remain uninspected; existing adult-parent identities and relationship grades are retained. The 65 cached receipts form 57 groups: 30 matched, 23 identity holds, four scope holds. Margaret-3483’s 8 versus 23 August birth conflict remains unresolved and her vital field is unchanged. No new person or family attachment is proposed.",
+      "detail_url": "/branches/early-scottish-records/#chapter-findmypast-born-before-1800",
+      "people": [
+        {
+          "id": "Glasgow-1305",
+          "name": "Janet Glasgow",
+          "url": "/people/glasgow-1305.html",
+          "role": "Existing profile; explicit indexed birth date refined from prior estimate or bound"
+        },
+        {
+          "id": "Glasgow-1326",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-1326.html",
+          "role": "Existing profile; explicit indexed birth date refined from prior estimate or bound"
+        },
+        {
+          "id": "Glasgow-1414",
+          "name": "Mary Glasgow",
+          "url": "/people/glasgow-1414.html",
+          "role": "Existing profile; explicit indexed birth date refined from prior estimate or bound"
+        },
+        {
+          "id": "Glasgow-1533",
+          "name": "William Glasgow",
+          "url": "/people/glasgow-1533.html",
+          "role": "Existing profile; explicit indexed birth date refined from prior estimate or bound"
+        },
+        {
+          "id": "Glasgow-1534",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-1534.html",
+          "role": "Existing profile; explicit indexed birth date refined from prior estimate or bound"
+        },
+        {
+          "id": "Glasgow-427",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-427.html",
+          "role": "Existing profile; explicit indexed birth date refined from prior estimate or bound"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Findmypast R_693249282",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_693249282&tab=this"
+        },
+        {
+          "title": "Findmypast SCOT/OPR/BAP/0396093",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0396093&tab=this"
+        },
+        {
+          "title": "Findmypast SCOT/OPR/BAP/4478189",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4478189&tab=this"
+        },
+        {
+          "title": "Findmypast SCOT/OPR/BAP/3575849",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3575849&tab=this"
+        },
+        {
+          "title": "Findmypast SCOT/OPR/BAP/4478163",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4478163&tab=this"
+        },
+        {
+          "title": "Findmypast SCOT/OPR/BAP/0396092",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0396092&tab=this"
+        },
+        {
+          "title": "Findmypast R_693250432",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_693250432&tab=this"
+        },
+        {
+          "title": "Findmypast SCOT/OPR/BAP/4478030",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4478030&tab=this"
+        }
+      ],
+      "relationship_changes": [],
+      "new_father_attachments": 0,
+      "new_mother_attachments": 0,
+      "new_paternal_joins": 0,
+      "new_original_inspections": 0,
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
     }
   ]
 }

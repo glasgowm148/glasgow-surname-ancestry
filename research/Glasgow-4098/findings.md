@@ -9,6 +9,8 @@ Last updated: 2026-10-07
 
 Current father assessment (22 October 2026): **97% (proved)** for [Glasgow-1105](https://www.wikitree.com/wiki/Glasgow-1105). Confident record-father placement, probably for the same child represented by 2458; this rating does not assert two sisters or perform a merge. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
+Reviewed 23 October 2026: saved Findmypast evidence is integrated below with its exact record role and unresolved conflicts; this reuses existing captures and proposes no new person or relationship.
+
 <!-- site-audit-2026-10-07:overall-conclusion -->
 Helen Glasgow was baptised at Linlithgow on 22 December 1668, the daughter of John Glasgow and Agnes Daston as indexed, according to a Findmypast transcription of the parish register. A second index entry for the same register page gives the year 1668 and the mother as Agnes Easton; the two are treated as one baptism, Daston being a spelling variant. The register image has not been inspected. A duplicate profile, Glasgow-4117, was merged into this one in September 2026.
 
@@ -35,3 +37,13 @@ Next useful test: Compare both transcripts with one original entry and the exist
 This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [Findmypast transcript (), Archive reference: OPR 668/2; Baptism date: 22 Dec 1668; Baptism year: 1668; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Country: Scotland; County: Linlithgowshire (We](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0476082&tab=this); [Findmypast transcript (), Archive reference: OPR 668/14; Baptism year: -; Birth year: 1668; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Country: Scotland; County: Linlithgowshire (West Lothian](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0501646&tab=this)
+
+<!-- BEGIN FMP-CACHED65-20261023 -->
+## Saved Findmypast birth and baptism review — 23 October 2026
+
+Role in this account: Existing canonical citation/profile context; likely same indexed subject, but keep identity hold against the parallel Glasgow-2458 account.. Disposition: identity HOLD. Transcript/index gives Helen Glasgow, birth year 1668, Linlithgow OPR 668/14 item 4 page 231, father John Glasgow and mother Agnes Easton; no birth date or baptism date/year. Canonical record held-e-b986d98a81e8 already cites this exact provider ID for Glasgow-4098. Companion index SCOT/OPR/BAP/0476082 reports a day but this ID does not; do not transfer that date or force a child match between Glasgow-4098 and Glasgow-2458.
+
+- [Findmypast SCOT/OPR/BAP/0501646](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0501646&tab=this). Saved 2026-09-03.
+
+[Current shared record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). These are reused September transcripts, not new provider captures. Source-defined child identities, adult-profile comparisons and unresolved birth-surname scope remain separate. Original register images were not inspected in this batch; existing relationship grades and family attachments are retained.
+<!-- END FMP-CACHED65-20261023 -->

@@ -21,6 +21,8 @@ Reviewed: 2026-10-17
 >
 > The visually checked printed sasine index names Alexander as son of James, the Fisherrow tailor, and places Janet Clerk with Alexander and Christina Bye with James. The specific father identity Glasgow-991 remains uncertain; the documentary father–son statement is explicit. Edward is indexed at the same 1624 registration date, volume and folio. Repeated 1646–1647 references associate Alexander with a James described as a weaver, and the first also with Edward. These are property associations to test for a family connection; they do not choose kinship or cross-record identities.
 
+Reviewed 23 October 2026: saved Findmypast evidence is integrated below with its exact record role and unresolved conflicts; this reuses existing captures and proposes no new person or relationship.
+
 ## Source findings
 
 ## Father relationship assessment — 28 September 2026
@@ -129,3 +131,13 @@ These checks correct the scope and wording of cited sources. Cathrin’s local b
 [Alexander Glasgow](/people/glasgow-1148.html)’s existing fatherhood of [James Glasgow](/people/glasgow-3923.html) is individually assessed at 98%, strongly supported, within the record-defined Inveresk family. The freshly re-read Findmypast R_686178012 gives James, birth year 1626, Inveresk with Musselburgh, father Alexander Glasgow and no mother or baptism date. The maintained FamilySearch VQ4V-GQW citation supplies19 March 1626. These derivatives are not independent witnesses to the baptism. The saved WikiTree father was already confident; this is a numeric assessment, not a new father or outstanding certainty upgrade. The proposed 1716 writer identity is assessed separately and does not change this child’s parentage. Findmypast SCOT/OPR/BUR/0189706 reports James Glasgow, writer, died11 October 1716 and buried14 October 1716, aged87; OPR685_1/86, item2, p.318, Edinburgh. Its 1629 birth year is calculated from age, not a recorded birth. Prefer this as a possible later identity of the Inveresk child James-3923 at 45%: the uncommon name, Midlothian setting and a three-year difference from the 1626 baptism make a useful comparison. No occupation is otherwise established for that child. This remains below probable: there is no parent, spouse, residence or career bridge, and another unrepresented James is a substantial possibility. [James Glasgow, the Edinburgh weaver](/people/glasgow-1150.html) is the separately recorded Edinburgh weaver, son of Robert of Wester Duddingston; [James Glasgow, the Biggar comparison](/people/glasgow-3332.html) is the unresolved Biggar/Quothquan/Lindsaylands weaver comparison. Their different occupations and age estimates weaken these matches without excluding them. Findmypast’s suggested records are automated leads, not corroboration. The 1716 death and writer occupation remain a candidate association; no structured birth or death field is changed.
 
 [1624printed index,pp.187–188](https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481057&seq=193); [Maidment,Analecta ScoticaI,art.CXVI,pp.395–396,399](https://archive.org/details/analectascotica00maidgoog); [1626Inveresk transcript](https://www.findmypast.co.uk/transcript?id=R_686178012&tab=this); [1716Edinburgh burial transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F0189706&tab=this).
+
+<!-- BEGIN FMP-CACHED65-20261023 -->
+## Saved Findmypast birth and baptism review — 23 October 2026
+
+Role in this account: Existing strongly supported father-profile identification remains 95%; receipt names Allexander but does not independently identify the adult.. Disposition: matched existing record subject. Companion to R_686179254 and more specific SCOT/OPR/BAP/4435828; same 1630 Inveresk event, not independent corroboration. This receipt gives birth year only and no baptism date, while held source gives indexed 17 Mar 1630 baptism. Mother blank here; do not infer her identity or turn that event date into a newly proved birthday.
+
+- [Findmypast R_693569752](https://www.findmypast.co.uk/transcript?id=R_693569752&tab=this). Saved 2026-09-03.
+
+[Current shared record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). These are reused September transcripts, not new provider captures. Source-defined child identities, adult-profile comparisons and unresolved birth-surname scope remain separate. Original register images were not inspected in this batch; existing relationship grades and family attachments are retained.
+<!-- END FMP-CACHED65-20261023 -->

@@ -8,6 +8,8 @@ Current father assessment (22 October 2026): **95% (proved)** for [Glasgow-1348]
 
 The cited records below are assessed separately from the identity of this profile. The proposed biography preserves those qualifications.
 
+Reviewed 23 October 2026: saved Findmypast evidence is integrated below with its exact record role and unresolved conflicts; this reuses existing captures and proposes no new person or relationship.
+
 <!-- queue-record-integration-2026-10-17:start -->
 ## Record findings and identity limits — 17 October 2026
 
@@ -27,3 +29,13 @@ Next useful test: Inspect this Barony baptism image for the named couple and eve
 This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [https://www.familysearch.org/ark:/61903/1:1:X1SQ-DL2](https://www.familysearch.org/ark:/61903/1:1:X1SQ-DL2)
+
+<!-- BEGIN FMP-CACHED65-20261023 -->
+## Saved Findmypast birth and baptism review — 23 October 2026
+
+Role in this account: Compatible existing Mary child account: indexed 1799 Barony birth, father John Glasgow and mother Helen Smith match the profile's selected parents and locality. The profile's c.28 December 1799 estimate is not confirmed by this date-free index.. Disposition: matched existing record subject. IRI/FamilySearch-derived index says birth year 1799 and birth place Barony/Lanark, baptism year blank, no day/month. The shared parent pair supports the child match without assigning a new exact birth date.
+
+- [Findmypast R_690425467](https://www.findmypast.co.uk/transcript?id=R_690425467&tab=this). Saved 2026-09-03.
+
+[Current shared record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). These are reused September transcripts, not new provider captures. Source-defined child identities, adult-profile comparisons and unresolved birth-surname scope remain separate. Original register images were not inspected in this batch; existing relationship grades and family attachments are retained.
+<!-- END FMP-CACHED65-20261023 -->

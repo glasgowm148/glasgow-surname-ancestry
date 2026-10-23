@@ -1,7 +1,12 @@
 # Glasgow-1054 research findings
 
+## Current conclusion
+
+The saved Mid Calder baptism index belongs to the existing Elspeth account. The baptism date is not independently proved as her birthday; existing family assessments and later identity limits are retained below.
+
 Last updated: 2026-09-10
 
+Reviewed 23 October 2026: saved Findmypast evidence is integrated below with its exact record role and unresolved conflicts; this reuses existing captures and proposes no new person or relationship.
 
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-e282854aa0b5
 
@@ -51,3 +56,13 @@ This is a review of existing evidence, not a newly discovered record. Attached f
 Reason: The Mid Calder baptism index of 2 March 1606 names David Glasgow as father; NRS OPR 694/10/9.
 
 Source summary: The Mid Calder baptism index of 2 March 1606 names David Glasgow as father; NRS OPR 694/10/9. Saved on WikiTree and verified in the live edit form on 28 September 2026; only the father certainty and its explanation were updated.
+
+<!-- BEGIN FMP-CACHED65-20261023 -->
+## Saved Findmypast birth and baptism review — 23 October 2026
+
+Role in this account: Same Elspeth child, Mid Calder 2 March 1606, father David Glasgow-1028; both companion entries already assigned in findings.. Disposition: matched existing record subject. The explicit 2 March date is baptism. Birth year 1606 appears without a separate birth date; current profile birth 2 March should not be newly described as a proven birthday. Mother unnamed. No parent-grade change.
+
+- [Findmypast R_694107799](https://www.findmypast.co.uk/transcript?id=R_694107799&tab=this). Saved 2026-09-03.
+
+[Current shared record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). These are reused September transcripts, not new provider captures. Source-defined child identities, adult-profile comparisons and unresolved birth-surname scope remain separate. Original register images were not inspected in this batch; existing relationship grades and family attachments are retained.
+<!-- END FMP-CACHED65-20261023 -->

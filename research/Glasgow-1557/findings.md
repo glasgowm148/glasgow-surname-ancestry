@@ -19,6 +19,8 @@ Reviewed: 2026-10-17
 
 For **8 July 1624, RS25 9/135**, this Edward is the **preferred possible identity, 56%**: an established Inveresk father fits an adult Fisherrow property association better than the two known younger Edwards. For **14 February 1646, RS25 33/258**, prefer [Eduard Glasgow-994](https://www.wikitree.com/wiki/Glasgow-994) separately at **43%**, with Edward-1557 and [Edward-1558](https://www.wikitree.com/wiki/Glasgow-1558) retained as alternatives. Neither identification is probable or proved. The original instruments are unread, and neither shared reference states Edward’s kinship or transaction role. These subjective percentages express the combined comparison, not a statistical measurement. The dated review below supersedes the earlier undifferentiated candidate lists while preserving their evidence.
 
+Reviewed 23 October 2026: saved Findmypast evidence is integrated below with its exact record role and unresolved conflicts; this reuses existing captures and proposes no new person or relationship.
+
 ## Source findings
 
 | Source | Finding | Assessment |
@@ -92,3 +94,17 @@ Prefer the recorded [George of Mureistoun](/research/subjects/murieston-1586-160
 
 
 [George Glasgow-1099](/people/glasgow-1099.html) remains the leading compatible existing-profile comparison for the Mureistoun man. The 26% father hypothesis concerns the record-defined George; connecting the merchant as Edward’s WikiTree father requires resolving that separate identity. No duplicate George profile is proposed.
+
+<!-- BEGIN FMP-CACHED65-20261023 -->
+## Saved Findmypast birth and baptism review — 23 October 2026
+
+Role in this account: Named Eduard father in derivative index; existing 98% father-profile assessment retained, not regraded.. Disposition: matched existing record subject. Companion to already-cited R_686178483, which public record ad3a65d32f03ae8f groups with this ID in its note. The new receipt has birth year 1609 but no baptism date; held 1 May 1609 is an indexed OPR event date, not independently proved birthday. Mother is blank; retain existing maternal assessment without treating her as named. No new person or vital correction.
+
+- [Findmypast R_693571691](https://www.findmypast.co.uk/transcript?id=R_693571691&tab=this). Saved 2026-09-03.
+
+Role in this account: Named father profile already explicitly assessed at 98% proved; no reassessment.. Disposition: matched existing record subject. Edward Glasgow, indexed birth year 1615; no exact birth date, baptism date/year or mother supplied. Birth place field says Inveresk with Musselburgh. Same subject/event already assigned to Glasgow-1558; exact provider ID R_693575446 is listed in that existing source account with companion R_686177760. Reuse; no new event/person or vital correction.
+
+- [Findmypast R_693575446](https://www.findmypast.co.uk/transcript?id=R_693575446&tab=this). Saved 2026-09-03.
+
+[Current shared record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). These are reused September transcripts, not new provider captures. Source-defined child identities, adult-profile comparisons and unresolved birth-surname scope remain separate. Original register images were not inspected in this batch; existing relationship grades and family attachments are retained.
+<!-- END FMP-CACHED65-20261023 -->

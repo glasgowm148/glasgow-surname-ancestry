@@ -8,6 +8,8 @@ The held Kirknewton/East Calder baptism account identifies Catherine Glasgow, 9 
 
 Reviewed 23 October 2026: the Findmypast page 7 account below adds explicitly qualified record evidence or identity comparisons; no new person or relationship is proposed.
 
+Reviewed 23 October 2026: saved Findmypast evidence is integrated below with its exact record role and unresolved conflicts; this reuses existing captures and proposes no new person or relationship.
+
 ## Father confidence review, eighth batch — 22 October 2026
 
 [Glasgow-1223](https://www.wikitree.com/wiki/Glasgow-1223) remains the selected father, assessed **87% (probable)**. Previous selected-tree status: **unmarked**, without an individual percentage.
@@ -32,3 +34,13 @@ Role in this account: Weak compatible candidate only; no event or parent assignm
 
 [Shared current record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). Original images remain uninspected; comparison roles do not assign events or change family grades.
 <!-- END FMP-BIRTH-SCOPE-PAGE7-20261023 -->
+
+<!-- BEGIN FMP-CACHED65-20261023 -->
+## Saved Findmypast birth and baptism review — 23 October 2026
+
+Role in this account: recorded later sibling-family comparator Catherine, not the 1799 Magdalene child. Disposition: identity HOLD. OPR 690/3 item 2 transcript records Magdalene Glasgow born 25 Dec 1799, Whitemop, Kirknewton & East Calder, to Wm Glasgow and Catherine Nisbet. Same full parental couple and parish as held 1805 Catherine record suggest one adult household, but the William-1223 link to that adult remains qualified. No indexed existing Magdalene profile identified; do not conflate with Catherine or create person solely from this absence. Birth date is explicitly recorded, while baptism date/year is blank. Original image uninspected.
+
+- [Findmypast SCOT/OPR/BAP/4478228](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4478228&tab=this). Saved 2026-09-03.
+
+[Current shared record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). These are reused September transcripts, not new provider captures. Source-defined child identities, adult-profile comparisons and unresolved birth-surname scope remain separate. Original register images were not inspected in this batch; existing relationship grades and family attachments are retained.
+<!-- END FMP-CACHED65-20261023 -->

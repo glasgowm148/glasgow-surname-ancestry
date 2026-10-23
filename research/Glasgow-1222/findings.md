@@ -4,8 +4,10 @@
 
 Current father assessment (22 October 2026): **94% (proved)** for [Glasgow-1218](https://www.wikitree.com/wiki/Glasgow-1218). James of Kelso baptism/militia family→adult David; no childhood ancestry claim. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
+Reviewed 23 October 2026: saved Findmypast evidence is integrated below with its exact record role and unresolved conflicts; this reuses existing captures and proposes no new person or relationship.
+
 <!-- site-audit-2026-10-07:overall-conclusion -->
-James Glasgow was baptised at Kelso on 25 December 1777, the son of David Glasgow (Glasgow-1218) and Janet, according to an index of the parish register; his profile gives that date as his birth and his mother as Janet Hood. He is probably the James Glasgow, son to David Glasgow, drawn by ballot for the Roxburgh County Militia from Kelso parish in September 1798, when he was 20 and inside the age band balloted; name, father's name, parish and age agree. The ballot list and the baptism are two independent records naming David as his father. Selection in the ballot does not prove that he served.
+The saved OPR transcript explicitly records James Glasgow’s birth as 25 December 1777 in the Kelso parish account, naming David Glasgow and Janet Hood; its baptism field is blank. The earlier summary called this date baptism, without a separately verified baptism date. His existing birth field is already correct; the recorded parents and selected adult profiles retain their existing assessments. He is probably the James Glasgow, son to David Glasgow, drawn by ballot for the Roxburgh County Militia from Kelso parish in September 1798, when he was 20 and inside the age band balloted; name, father's name, parish and age agree. The ballot list and parish entry are distinct records naming David as his father; companion parish indexes are not independent corroboration. Selection in the ballot does not prove that he served.
 
 ## Current conclusion — additional newspaper originals, 5 October 2026
 
@@ -58,3 +60,13 @@ Next useful test: Compare original 1777 parental couple and 1798 occupational wo
 This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [Scotland, Births and Baptisms, 1564-1950. MyHeritage.com [online database), accessed 2025. https://www.myheritage.com/research/record-30226-3025161/james-glasgow-in-scotland-births-baptisms.](https://www.myheritage.com/research/record-30226-3025161/james-glasgow-in-scotland-births-baptisms.)
+
+<!-- BEGIN FMP-CACHED65-20261023 -->
+## Saved Findmypast birth and baptism review — 23 October 2026
+
+Role in this account: Existing James child; exact 25 December 1777 Kelso birth and named parent pair fit, but this provider ID has no checked canonical/public source mapping yet.. Disposition: matched existing record subject. Cached OPR 793/3 item 1 p.103 explicitly gives James Glasgow birth 25 Dec 1777 with Kelso as parish/place, father David Glasgow and mother Janet Hood; baptism year is dash, so do not call 25 Dec a baptism. Existing Glasgow-1222 has this exact birth and parents; likely one child, not a new person. The maintained findings describe an older index as a baptism and separately assess a 1798 militia occurrence; this OPR transcript supports the birth date role but does not by itself identify the later militiaman. No new parent attachment or confidence change.
+
+- [Findmypast SCOT/OPR/BAP/5056630](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F5056630&tab=this). Saved 2026-09-03.
+
+[Current shared record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). These are reused September transcripts, not new provider captures. Source-defined child identities, adult-profile comparisons and unresolved birth-surname scope remain separate. Original register images were not inspected in this batch; existing relationship grades and family attachments are retained.
+<!-- END FMP-CACHED65-20261023 -->

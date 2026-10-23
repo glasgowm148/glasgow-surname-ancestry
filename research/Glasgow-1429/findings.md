@@ -8,6 +8,8 @@ Last updated: 2026-10-17
 
 **Father review, 17 October 2026:** Alexander Glasgow-1148 is now the **strongly supported father**, from the named father and the combined Inveresk/Fisherrow family sequence. The mother’s grade and all dates remain unchanged.
 
+Reviewed 23 October 2026: saved Findmypast evidence is integrated below with its exact record role and unresolved conflicts; this reuses existing captures and proposes no new person or relationship.
+
 <!-- site-audit-2026-10-07:overall-conclusion -->
 Marion Glasgow (indexed as Marioune) was baptised at Inveresk, Midlothian, on 17 March 1630; her father is named as Alexander (Allexander) Glasgow and no mother is recorded. The baptism is known from a Findmypast transcript of the Inveresk register (OPR 689/1) and the Scotland's People index (parish 689, reference 10 / 194), which agree on the date and father; two further Findmypast transcripts give the year 1630 only. The original register image has not been inspected, and nothing further about her life is recorded in the file.
 
@@ -75,3 +77,13 @@ Six existing assessments are strengthened: Alexander’s father and James’s Ch
 Sources reused: [SRO Indexes 38, Edinburgh etc. sasines 1624–1630, printed pp.187–188, visually checked 15 October 2026; 8 July 1624, 9/135, and 11 July 1625, 10/171, are recording dates](https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481057&seq=193); [Marioune Glasgow, 17 March 1630, named father Alexander; accepted Findmypast transcript SCOT/OPR/BAP/4435828, OPR 689/1 p.191](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4435828&tab=this); [ScotlandsPeople supplied OPR index: Johnne 25 November 1632, 689/10/226; Bessie 22 March 1635, 689/10/263; Allexander and named parents Alexander/Jannet Clerk, 3 September 1637, 689/10/301, FR260; accepted 10 September review](https://www.scotlandspeople.gov.uk/search-records/church-registers/church-births-baptisms); [William Glasgow, Inveresk 1614, father James, no mother supplied; accepted Findmypast transcript R_686177762](https://www.findmypast.co.uk/transcript?id=R_686177762&tab=this).
 
 [Family comparison, sources and remaining questions](/branches/research-calder-inveresk-james/#chapter-fisherrow-family-confidence).
+
+<!-- BEGIN FMP-CACHED65-20261023 -->
+## Saved Findmypast birth and baptism review — 23 October 2026
+
+Role in this account: Existing Marioune/Marion child; Inveresk 1630 and Allexander father match dated OPR 689/1 and Scotland’s People parish 689 ref 10/194.. Disposition: matched existing record subject. Companion to R_686179254 and more specific SCOT/OPR/BAP/4435828; same 1630 Inveresk event, not independent corroboration. This receipt gives birth year only and no baptism date, while held source gives indexed 17 Mar 1630 baptism. Mother blank here; do not infer her identity or turn that event date into a newly proved birthday.
+
+- [Findmypast R_693569752](https://www.findmypast.co.uk/transcript?id=R_693569752&tab=this). Saved 2026-09-03.
+
+[Current shared record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). These are reused September transcripts, not new provider captures. Source-defined child identities, adult-profile comparisons and unresolved birth-surname scope remain separate. Original register images were not inspected in this batch; existing relationship grades and family attachments are retained.
+<!-- END FMP-CACHED65-20261023 -->

@@ -19,6 +19,8 @@ Euphame Lorimer. The placement is plausible by name, chronology and Midlothian
 location, but no inspected record yet carries the 1627 child into that adult
 household. Keep the relationship assessment cautious.
 
+Reviewed 23 October 2026: saved Findmypast evidence is integrated below with its exact record role and unresolved conflicts; this reuses existing captures and proposes no new person or relationship.
+
 ## Adult household
 
 Scotland's People indexes four children of Robert Glasgow and Euphame
@@ -136,3 +138,13 @@ Next useful test: Test the child-to-cordiner identity with an age, apprenticeshi
 This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [Scotland's People, Church of Scotland Old Parish Registers, births and baptisms, Inveresk and Musselburgh parish 689, reference 10/171, Robert Glasgow, 30 December 1627. See also FamilySearch record VQ4V-58S (https://www.familysearch.org/ark:/61903/1:1:VQ4V-58S).](https://www.familysearch.org/ark:/61903/1:1:VQ4V-58S)
+
+<!-- BEGIN FMP-CACHED65-20261023 -->
+## Saved Findmypast birth and baptism review — 23 October 2026
+
+Role in this account: Same 1627 Inveresk/Musselburgh Robert child with father Allexander/Alexander Glasgow-1148; local findings cite the Scotland’s People 30 December 1627 indexed event.. Disposition: matched existing record subject. These companion transcripts provide 1627 and the named father but no distinct day of birth or baptism. The current 30 December date comes from a separate Scottish index reading, and the dossier’s mother Jannet Clerk is not named here. Keep child-to-adult Edinburgh cordiner identity distinct; no parent-grade change.
+
+- [Findmypast R_693576269](https://www.findmypast.co.uk/transcript?id=R_693576269&tab=this). Saved 2026-09-03.
+
+[Current shared record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). These are reused September transcripts, not new provider captures. Source-defined child identities, adult-profile comparisons and unresolved birth-surname scope remain separate. Original register images were not inspected in this batch; existing relationship grades and family attachments are retained.
+<!-- END FMP-CACHED65-20261023 -->

@@ -1869,22 +1869,32 @@
   },
   {
     "record_id": "midcalder-jhone-1608-father-jhone",
-    "association": "Jhone Glasgow baptism, father Jhone; OPR694/1 item3 p.5",
+    "association": "Jhone Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
     "year": 1608,
-    "date": "26 June1608",
-    "place": "Mid Calder",
+    "date": "26 Jun 1608",
+    "place": "Midcalder, Midlothian, Scotland",
     "source_title": "Jhone Glasgow baptism, father Jhone; OPR694/1 item3 p.5",
-    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4585634",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4585634&tab=this",
     "source_type": "Existing parish index/transcript",
     "source_status": "Previously maintained record account; no new inspection claimed15 October2026",
-    "status": "Documentary father/child wording; adult identities qualified",
-    "note": "This identifies the recorded adult father and child, not the adult father’s own parents. Used as context for the separately labelled working hypothesis, not direct proof of that hypothesis.",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: matched existing record subject. Two selected IDs describe one 26 June 1608 Mid Calder baptism of Jhone Glasgow, father Jhone; outside companion R_686312587 is already held. No exact birth or later Quothquan identity is proved. Indexed fields: Archive reference = OPR 694/1; Baptism date = 26 Jun 1608; Baptism year = 1608; Country = Scotland; County = Midlothian; Father's first name(s) = Jhone; Father's last name = Glasgow; First name(s) = Jhone; Item = 3; Last name = Glasgow; Page = 5; Place = Midcalder; Record set = Scotland, Parish Births & Baptisms 1564-1929; Register year range = 1604-1674. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
     "profiles": {
-      "Glasgow-3296": {
-        "role": "Compatible profile for the adult father named in the child record; own parentage not stated",
+      "Glasgow-1086": {
+        "role": "Existing Jhone child; 26 June 1608 baptism; later Quothquan identity conditional.",
         "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-3296": {
+        "role": "Compatible adult father-profile comparison for named Jhone; not newly established or upgraded.",
+        "timeline_group": "Records for identity comparison"
       }
-    }
+    },
+    "provider_record_id": "SCOT/OPR/BAP/4585634",
+    "person": "Jhone Glasgow",
+    "country": "scotland",
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~14585634; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
   },
   {
     "record_id": "kirknewton-johne-1649-father-johne",
@@ -14940,21 +14950,32 @@
   {
     "record_id": "held-e-b986d98a81e8",
     "record_type": "Previously held source citation",
-    "date": null,
-    "place": null,
-    "association": "Findmypast transcript (), Archive reference: OPR 668/14; Baptism year: -; Birth year: 1668; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Country: Scotland; County: Linlithgowshire (West Lothian",
+    "date": "1668",
+    "place": "Linlithgow, Linlithgowshire (West Lothian), Scotland",
+    "association": "Helen Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
     "source_title": "Findmypast transcript (), Archive reference: OPR 668/14; Baptism year: -; Birth year: 1668; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Country: Scotland; County: Linlithgowshire (West Lothian",
     "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0501646&tab=this",
     "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
     "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
-    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
     "profiles": {
       "Glasgow-4098": {
-        "role": "Previously cited subject; relationship scope in the father assessment"
+        "role": "Existing canonical citation/profile context; likely same indexed subject, but keep identity hold against the parallel Glasgow-2458 account.",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-2458": {
+        "role": "Possible duplicate account for the same Linlithgow 1668 child; do not count as a second child or merge.",
+        "timeline_group": "Records for identity comparison"
       }
     },
-    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
-    "provenance": "research/ancestry-connections/father-coverage-review5-2026-10-22.json"
+    "note": "Disposition: identity HOLD. Transcript/index gives Helen Glasgow, birth year 1668, Linlithgow OPR 668/14 item 4 page 231, father John Glasgow and mother Agnes Easton; no birth date or baptism date/year. Canonical record held-e-b986d98a81e8 already cites this exact provider ID for Glasgow-4098. Companion index SCOT/OPR/BAP/0476082 reports a day but this ID does not; do not transfer that date or force a child match between Glasgow-4098 and Glasgow-2458. Indexed fields: Archive reference = OPR 668/14; Birth year = 1668; Country = Scotland; County = Linlithgowshire (West Lothian); Father's first name(s) = John; Father's last name = Glasgow; First name(s) = Helen; Item = 4; Last name = Glasgow; Mother's first name(s) = Agnes; Mother's last name = Easton; Page = 231; Place = Linlithgow; Record set = Scotland, Parish Births & Baptisms 1564-1929; Register year range = 1656-1688. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~10501646; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "provider_record_id": "SCOT/OPR/BAP/0501646",
+    "person": "Helen Glasgow",
+    "year": 1668,
+    "country": "scotland",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
   },
   {
     "record_id": "held-e-3e4e50f843a3",
@@ -33310,6 +33331,1584 @@
     "note": "HOLD — Edward George Glasgow, buried 17 August 1843 in Shoreditch, age 47, Finsbury Market address. Indexed birth 1796 is age-derived; no death date, service, spouse or parents are supplied. Retain as an unproved comparison in the existing officer subject account /research/subjects/newspapers-irish-1800-1850/#edward-george-army; shared full name and age do not establish the 1825–26 officer identity. Glasgow-3501’s represented 1850 New York arrival and Glasgow-2074’s 1860 North Carolina death conflict with the burial if those attributions hold; neither was newly verified here. The reported 1849 widow notice remains unverified. No separate person or profile death is proposed. Transcript fields: Age at death = 47y; Birth year = 1796; Burial date = 17 Aug 1843; Burial place = Shoreditch, Middlesex, England; Burial year = 1843; Category = Birth, Marriage, Death & Parish Records; Collections from = England, Great Britain; Country = England; County = Middlesex; Event year = 1843; First name(s) = Edward George; Last name = Glasgow; Place = Shoreditch; Record set = England Deaths & Burials 1538-1991; Sex = Male; Street address = Finsbury Market; Subcategory = Parish Burials. Source level: Inspected provider transcript; original register image not inspected. Companion entries of the same event are not independent corroboration.",
     "profiles": {},
     "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-4478151",
+    "provider_record_id": "SCOT/OPR/BAP/4478151",
+    "association": "Elizabeth Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Elizabeth Glasgow",
+    "date": "12 Mar 1796",
+    "year": 1796,
+    "place": "Kirknewton & East Calder, Midlothian, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4478151&tab=this",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: matched existing record subject. Two OPR 690/3 item 2 p.44 receipts describe the same Elizabeth and parents but conflict on birth date, 12 versus 18 March 1796. Existing held citations also disagree about baptism day: 27 March p.122, 18 March p.251, and 18 March p.121. Consolidate identity but do not choose an exact date without the original. External profile context: https://www.wikitree.com/wiki/Nisbet-3257 (existing mother-profile comparison; transcript Cath Nisbet/Niobet, modern identity separately qualified); no local person or relationship is created. Indexed fields: Archive reference = OPR 690/3; Birth date = 12 Mar 1796; Birth year = 1796; Country = Scotland; County = Midlothian; Father's first name(s) = Wm; Father's last name = Glasgow; First name(s) = Elizabeth; Item = 2; Last name = Glasgow; Mother's first name(s) = Cath; Mother's last name = Nisbet; Page = 44; Place = Kirknewton & East Calder; Record set = Scotland, Parish Births & Baptisms 1564-1929; Register year range = 1766-1819; Residence = Newlands. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-1327": {
+        "role": "probable existing child identity; William Glasgow/Catharine Nisbet, 1796 Kirknewton and East Calder",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1223": {
+        "role": "selected existing father-profile comparison; adult bridge from his 1765 childhood remains unproved",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~14478151; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-4478164",
+    "provider_record_id": "SCOT/OPR/BAP/4478164",
+    "association": "Elizabeth Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Elizabeth Glasgow",
+    "date": "18 Mar 1796",
+    "year": 1796,
+    "place": "Kirknewton & East Calder, Midlothian, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4478164&tab=this",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: matched existing record subject. Two OPR 690/3 item 2 p.44 receipts describe the same Elizabeth and parents but conflict on birth date, 12 versus 18 March 1796. Existing held citations also disagree about baptism day: 27 March p.122, 18 March p.251, and 18 March p.121. Consolidate identity but do not choose an exact date without the original. External profile context: https://www.wikitree.com/wiki/Nisbet-3257 (existing mother-profile comparison; transcript Cath Nisbet/Niobet, modern identity separately qualified); no local person or relationship is created. Indexed fields: Archive reference = OPR 690/3; Birth date = 18 Mar 1796; Birth year = 1796; Country = Scotland; County = Midlothian; Father's first name(s) = Wm; Father's last name = Glasgow; First name(s) = Elizabeth; Item = 2; Last name = Glasgow; Mother's first name(s) = Cath; Mother's last name = Niobet; Page = 44; Place = Kirknewton & East Calder; Record set = Scotland, Parish Births & Baptisms 1564-1929; Register year range = 1766-1819; Residence = Newlands. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-1327": {
+        "role": "probable existing child identity; William Glasgow/Catharine Nisbet, 1796 Kirknewton and East Calder",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1223": {
+        "role": "selected existing father-profile comparison; adult bridge from his 1765 childhood remains unproved",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~14478164; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-693241153",
+    "provider_record_id": "R_693241153",
+    "association": "Henry Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Henry Glasgow",
+    "date": "1782",
+    "year": 1782,
+    "place": "Glasgow, Lanarkshire, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_693241153&tab=this",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: identity HOLD. Index gives Henry Glasgow, birth year 1782, place Glasgow, Lanarkshire, but no baptism date, parents, occupation or later identity. The year may be derivative. No recorded conflict proves a distinct new person, and none of the existing Henry profiles is identified. Indexed fields: Birth place = Glasgow,Lanark,Scotland; Birth year = 1782; Country = Scotland; County = Lanarkshire; First name(s) = Henry; Last name = Glasgow; Place = Glasgow; Record set = Scotland, Parish Births & Baptisms 1564-1929; Sex = Male. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-3135": {
+        "role": "weak compatible name/chronology comparison; birth before 1794 inferred from son, Irish later family; no Scottish bridge",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-2097": {
+        "role": "weak comparison; circa-1795 South Carolina estimate and later Arkansas context do not establish identity",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-3953": {
+        "role": "undated/loosely bounded Henry holding profile; no locality or relatives to resolve match",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_693241153; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-693249282",
+    "provider_record_id": "R_693249282",
+    "association": "James Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "James Glasgow",
+    "date": "1797",
+    "year": 1797,
+    "place": "Barony, Glasgow, Lanarkshire, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_693249282&tab=this",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: matched existing record subject. Detailed OPR transcript explicitly labels 22 Aug 1797 James Glasgow birth, Barony, father Robt Glasgow weaver, mother Eliz Jack; companion index gives only year and same parents. Older description of 22 Aug as baptism is a date-role error. Glasgow-1530 father assessment 96% stays unchanged; Jack-2557 adult identity is not proved merely by the indexed name. Indexed fields: Birth place = Barony,Lanark,Scotland; Birth year = 1797; Country = Scotland; County = Lanarkshire; Father's first name(s) = Robert; Father's last name = Glasgow; First name(s) = James; Last name = Glasgow; Mother's first name(s) = Elizabeth; Mother's last name = Jack; Place = Barony, Glasgow; Record set = Scotland, Parish Births & Baptisms 1564-1929; Sex = Male. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-1534": {
+        "role": "Existing James child; 22 Aug 1797 explicitly recorded birth.",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1530": {
+        "role": "Existing 96% adult father-profile assessment unchanged.",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Jack-2557": {
+        "role": "Existing attached mother-profile comparison for named Eliz Jack; adult identity not independently proved here.",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_693249282; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-0396093",
+    "provider_record_id": "SCOT/OPR/BAP/0396093",
+    "association": "James Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "James Glasgow",
+    "date": "22 Aug 1797",
+    "year": 1797,
+    "place": "Barony, Lanarkshire, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0396093&tab=this",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: matched existing record subject. Detailed OPR transcript explicitly labels 22 Aug 1797 James Glasgow birth, Barony, father Robt Glasgow weaver, mother Eliz Jack; companion index gives only year and same parents. Older description of 22 Aug as baptism is a date-role error. Glasgow-1530 father assessment 96% stays unchanged; Jack-2557 adult identity is not proved merely by the indexed name. Indexed fields: Archive reference = OPR 622/4; Birth date = 22 Aug 1797; Birth year = 1797; Country = Scotland; County = Lanarkshire; Father's first name(s) = Robt; Father's last name = Glasgow; Father's occupation = Weaver; First name(s) = James; Item = 2; Last name = Glasgow; Mother's first name(s) = Eliz; Mother's last name = Jack; Page = 30; Place = Barony; Record set = Scotland, Parish Births & Baptisms 1564-1929; Register year range = 1797-1807. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-1534": {
+        "role": "Existing James child; 22 Aug 1797 explicitly recorded birth.",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1530": {
+        "role": "Existing 96% adult father-profile assessment unchanged.",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Jack-2557": {
+        "role": "Existing attached mother-profile comparison for named Eliz Jack; adult identity not independently proved here.",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~10396093; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-4478189",
+    "provider_record_id": "SCOT/OPR/BAP/4478189",
+    "association": "John Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "John Glasgow",
+    "date": "30 Dec 1797",
+    "year": 1797,
+    "place": "Kirknewton & East Calder, Midlothian, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4478189&tab=this",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: matched existing record subject. OPR 690/3 item 2 gives John born 30 December 1797, Wm Glasgow and Cath Neobet, Meadbk residence, Kirknewton and East Calder. Held profile has estimated birth around a 13 January 1798 baptism to William/Catharine Nisbet. The dates and paired parents fit one child; Newlands versus Meadbk residence among siblings needs original verification, not a second family inferred. External profile context: https://www.wikitree.com/wiki/Nisbet-3257 (existing mother-profile comparison; transcript Cath Neobet spelling needs original check); no local person or relationship is created. Indexed fields: Archive reference = OPR 690/3; Birth date = 30 Dec 1797; Birth year = 1797; Country = Scotland; County = Midlothian; Father's first name(s) = Wm; Father's last name = Glasgow; First name(s) = John; Item = 2; Last name = Glasgow; Mother's first name(s) = Cath; Mother's last name = Neobet; Page = 45; Place = Kirknewton & East Calder; Record set = Scotland, Parish Births & Baptisms 1564-1929; Register year range = 1766-1819; Residence = Meadbk. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-1326": {
+        "role": "probable existing John child; same Kirknewton and East Calder William/Cath Nisbet family and near 13 January 1798 held baptism",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1223": {
+        "role": "selected existing father-profile comparison; adult-origin bridge remains unproved",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~14478189; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-3575849",
+    "provider_record_id": "SCOT/OPR/BAP/3575849",
+    "association": "Mary Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Mary Glasgow",
+    "date": "29 Nov 1751",
+    "year": 1751,
+    "place": "Irvine, Ayrshire, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3575849&tab=this",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: matched existing record subject. OPR 595/1 item 1 records Mary born 27 November and baptized 29 November 1751 in Irvine to Michael Glasgow and Mary Crawfurd. This supplies literal parent names omitted from the older profile summary but does not itself identify the adults with the modern profiles or change their grade. Indexed fields: Archive reference = OPR 595/1; Baptism date = 29 Nov 1751; Baptism year = 1751; Birth date = 27 Nov 1751; Birth year = 1751; Country = Scotland; County = Ayrshire; Father's first name(s) = Michael; Father's last name = Glasgow; First name(s) = Mary; Item = 1; Last name = Glasgow; Mother's first name(s) = Mary; Mother's last name = Crawfurd; Place = Irvine; Record set = Scotland, Parish Births & Baptisms 1564-1929; Register year range = 1687-1788. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-1414": {
+        "role": "probable existing Mary child; same 29 November 1751 Irvine baptism and named Michael Glasgow/Mary Crawfurd household",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1410": {
+        "role": "existing father-profile candidate; record names Michael but 1712 childhood-to-adult bridge remains inferred",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Crauford-31": {
+        "role": "existing mother-profile candidate; Crawfurd/Crauford spelling comparison",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-remaining-b.json#/records/SCOT~1OPR~1BAP~13575849; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-694111819",
+    "provider_record_id": "R_694111819",
+    "association": "William Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "William Glasgow",
+    "date": "24 Dec 1609",
+    "year": 1609,
+    "place": "Mid Calder, Midlothian, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_694111819&tab=this",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: matched existing record subject. Two selected IDs describe one 24 Dec 1609 Mid Calder baptism of William Glasgow, father Jhone; outside companion R_686309726 is already held. Indexed birth year does not establish exact birthday. Glasgow-3296 stays a 46% possible adult father comparison. Indexed fields: Baptism date = 24 Dec 1609; Baptism place = MID CALDER, MIDLOTHIAN, SCOTLAND; Baptism year = 1609; Birth year = 1609; Country = Scotland; County = Midlothian; Father's first name(s) = Jhone; Father's last name = Glasgow; First name(s) = William; Last name = Glasgow; Place = Mid Calder; Record set = Scotland, Parish Births & Baptisms 1564-1929; Sex = Male. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-1087": {
+        "role": "Existing William child; 24 Dec 1609 baptism, exact birth day unproved.",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-3296": {
+        "role": "Existing 46% possible adult father-profile comparison for named Jhone; unchanged.",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_694111819; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-4585702",
+    "provider_record_id": "SCOT/OPR/BAP/4585702",
+    "association": "William Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "William Glasgow",
+    "date": "24 Dec 1609",
+    "year": 1609,
+    "place": "Midcalder, Midlothian, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4585702&tab=this",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: matched existing record subject. Two selected IDs describe one 24 Dec 1609 Mid Calder baptism of William Glasgow, father Jhone; outside companion R_686309726 is already held. Indexed birth year does not establish exact birthday. Glasgow-3296 stays a 46% possible adult father comparison. Indexed fields: Archive reference = OPR 694/1; Baptism date = 24 Dec 1609; Baptism year = 1609; Country = Scotland; County = Midlothian; Father's first name(s) = Jhone; Father's last name = Glasgow; First name(s) = William; Item = 3; Last name = Glasgow; Place = Midcalder; Record set = Scotland, Parish Births & Baptisms 1564-1929; Register year range = 1604-1674. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-1087": {
+        "role": "Existing William child; 24 Dec 1609 baptism, exact birth day unproved.",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-3296": {
+        "role": "Existing 46% possible adult father-profile comparison for named Jhone; unchanged.",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~14585702; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-685856167",
+    "provider_record_id": "R_685856167",
+    "association": "Thomas Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Thomas Glasgow",
+    "date": "1790",
+    "year": 1790,
+    "place": "Whitburn, Linlithgowshire (West Lothian), Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_685856167",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: identity HOLD. Companion indexes describe one Thomas Glasgow in Whitburn, indexed birth year 1790, father John Glasgow, mother Elizabeth Meek. Neither has an exact birth or baptism date; one adds Whitburn residence. Do not turn 1790 into a precise birth date or propose an unmatched new person. Thomas-160 has independently named John/Agnes Gray parents and exact 1786 birth, so it is not this record-child on present evidence. No selected adult parent profile follows from the names. Indexed fields: Baptism place = WHITBURN, WEST LOTHIAN, SCOTLAND; Birth place = Whitburn, West Lothian, Scotland; Birth year = 1790; Country = Scotland; County = Linlithgowshire (West Lothian); Father's first name(s) = John; Father's last name = Glasgow; First name(s) = Thomas; Last name = Glasgow; Mother's first name(s) = Elizabeth; Mother's last name = Meek; Place = Whitburn; Record set = Scotland, Parish Births & Baptisms 1564-1929; Residence = Whitburn, West Lothian, Scotland; Sex = Male. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-3602": {
+        "role": "Weak compatible Thomas comparison only: Bathgate, birth before 1782, parents not recorded locally; a 1790 adult/repeated baptism or derivative year remains possible but unproved.",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_685856167; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-692420988",
+    "provider_record_id": "R_692420988",
+    "association": "Thomas Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Thomas Glasgow",
+    "date": "1790",
+    "year": 1790,
+    "place": "Whitburn, Linlithgowshire (West Lothian), Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_692420988&tab=this",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: identity HOLD. Companion indexes describe one Thomas Glasgow in Whitburn, indexed birth year 1790, father John Glasgow, mother Elizabeth Meek. Neither has an exact birth or baptism date; one adds Whitburn residence. Do not turn 1790 into a precise birth date or propose an unmatched new person. Thomas-160 has independently named John/Agnes Gray parents and exact 1786 birth, so it is not this record-child on present evidence. No selected adult parent profile follows from the names. Indexed fields: Birth place = Whitburn, West Lothian, Scotland; Birth year = 1790; Country = Scotland; County = Linlithgowshire (West Lothian); Father's first name(s) = John; Father's last name = Glasgow; First name(s) = Thomas; Last name = Glasgow; Mother's first name(s) = Elizabeth; Mother's last name = Meek; Place = Whitburn; Record set = Scotland, Parish Births & Baptisms 1564-1929; Sex = Male. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-3602": {
+        "role": "Weak compatible Thomas comparison only: Bathgate, birth before 1782, parents not recorded locally; a 1790 adult/repeated baptism or derivative year remains possible but unproved.",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_692420988; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-690419416",
+    "provider_record_id": "R_690419416",
+    "association": "Isobell Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Isobell Glasgow",
+    "date": "1782",
+    "year": 1782,
+    "place": "Glasgow, Lanarkshire, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_690419416&tab=this",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: scope HOLD. Isobell Glasgow is indexed with birth year/place 1782, Glasgow, Lanarkshire, but baptism year is blank and no parents are named. The year may not be an independently recorded birth date. Natal surname and identity remain unresolved; do not infer a new child or exclude earlier adults solely by the derivative year. Indexed fields: Birth place = Glasgow,Lanark,Scotland; Birth year = 1782; Country = Scotland; County = Lanarkshire; First name(s) = Isobell; Last name = Glasgow; Place = Glasgow; Record set = Scotland, Parish Births & Baptisms 1564-1929; Sex = Female. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-1127": {
+        "role": "Remote adult-baptism/name comparison only: estimated birth 1732 from 1821 death age, married by 1766; the sparse 1782 index supplies no parent or exact event date to identify her.",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_690419416; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-4478163",
+    "provider_record_id": "SCOT/OPR/BAP/4478163",
+    "association": "Janet Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Janet Glasgow",
+    "date": "21 Oct 1796",
+    "year": 1796,
+    "place": "Kirknewton & East Calder, Midlothian, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4478163&tab=this",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: matched existing record subject. OPR 690/3 item 2 p.44 cached transcript explicitly gives birth 21 October 1796 and Ormiston residence; its baptism field is blank. Existing Glasgow-1305 has a before-6-November-1796 birth bound, but the local held FamilySearch citation has not been interpreted for an exact baptism date. Do not present 6 November as a proved baptism or Ormiston as exact birthplace. Compare original register and FamilySearch citation before live use. Indexed fields: Archive reference = OPR 690/3; Birth date = 21 Oct 1796; Birth year = 1796; Country = Scotland; County = Midlothian; Father's first name(s) = John; Father's last name = Glasgow; First name(s) = Janet; Item = 2; Last name = Glasgow; Mother's first name(s) = Margt; Mother's last name = Meikle; Page = 44; Place = Kirknewton & East Calder; Record set = Scotland, Parish Births & Baptisms 1564-1929; Register year range = 1766-1819; Residence = Ormiston. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-1305": {
+        "role": "Strong compatible record-child identification: Janet Glasgow, John Glasgow and Margt Meikle in Kirknewton & East Calder fit the existing John Glasgow/Margaret Muckle household; Meikle/Muckle identity remains a qualified spelling comparison. Current 94% father assessment is unchanged.",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~14478163; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-690419975",
+    "provider_record_id": "R_690419975",
+    "association": "Magdalen Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Magdalen Glasgow",
+    "date": "1782",
+    "year": 1782,
+    "place": "Glasgow, Lanarkshire, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_690419975&tab=this",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: scope HOLD. Magdalen Glasgow indexed birth year/place 1782, Glasgow, Lanarkshire; baptism year and parents are blank. The year may be derivative rather than an independent infant birth date. Surname-at-birth and identity remain unresolved; neither earlier profile is assigned and no new person is proposed. Indexed fields: Birth place = Glasgow,Lanark,Scotland; Birth year = 1782; Country = Scotland; County = Lanarkshire; First name(s) = Magdalen; Last name = Glasgow; Place = Glasgow; Record set = Scotland, Parish Births & Baptisms 1564-1929; Sex = Female. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-1230": {
+        "role": "Weak adult-baptism/name comparison only: recorded before June 1756 in Livingston; no death or 1782-excluding life course held.",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-1331": {
+        "role": "Weak adult-baptism/name comparison only: 1749 West Calder child; no death or 1782-excluding life course held.",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_690419975; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-690419744",
+    "provider_record_id": "R_690419744",
+    "association": "Mary Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Mary Glasgow",
+    "date": "1785",
+    "year": 1785,
+    "place": "Glasgow, Lanarkshire, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_690419744&tab=this",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: scope HOLD. Mary Glasgow indexed birth year/place 1785, Glasgow, Lanarkshire; baptism year and parents blank. No exact birth date, age or natal-surname proof. The two Barony profiles survive comparison if the index year or baptism is derivative/delayed; neither is identified. Other same-name people remain possible. No profile creation or birth correction. Indexed fields: Birth place = Glasgow,Lanark,Scotland; Birth year = 1785; Country = Scotland; County = Lanarkshire; First name(s) = Mary; Last name = Glasgow; Place = Glasgow; Record set = Scotland, Parish Births & Baptisms 1564-1929; Sex = Female. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-1531": {
+        "role": "Weak compatible Mary comparison: before March 1790 Barony birth bound and Glasgow/Lanarkshire region; this index has no parents to compare with Robert Glasgow/Elizabeth Jack.",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-1351": {
+        "role": "Weak compatible Mary comparison: before April 1796 Barony baptism/birth bound, with no parent or exact date in this index to test John Glasgow/Helen Smith.",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_690419744; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-693575447",
+    "provider_record_id": "R_693575447",
+    "association": "William Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "William Glasgow",
+    "date": "1614",
+    "year": 1614,
+    "place": "Inveresk with Musselburgh, Midlothian, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_693575447&tab=this",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: matched existing record subject. Maintained findings already cite this exact Findmypast record R_693575447 with R_686177762 as two derivative indexes of one William Glasgow event. Indexed birth year 1614, Inveresk with Musselburgh, father James; baptism year and mother blank. No new person, new birth-day correction or corroboration of Christina Bie maternity. Indexed fields: Birth place = Inveresk with Musselburgh, Midlothian, Scotland; Birth year = 1614; Country = Scotland; County = Midlothian; Father's first name(s) = James; Father's last name = Glasgow; First name(s) = William; Last name = Glasgow; Place = Inveresk with Musselburgh; Record set = Scotland, Parish Births & Baptisms 1564-1929; Sex = Male. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-3517": {
+        "role": "Companion index of the already assigned 1614 Inveresk/Musselburgh William, father James Glasgow; source lacks exact day and mother, so existing 10 July 1614 source and maternal identity stay separate.",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_693575447; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-693243862",
+    "provider_record_id": "R_693243862",
+    "association": "William Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "William Glasgow",
+    "date": "1783",
+    "year": 1783,
+    "place": "Glasgow, Lanarkshire, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_693243862&tab=this",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: identity HOLD. Two IRI/FamilySearch-derived transcripts repeat William Glasgow, indexed birth 1783, Glasgow/Lanark. They may be companion indexes of one event; neither provides baptism date, parent, register reference or independent person identifier. The year/place alone cannot identify William-2876 or establish a separate person. Indexed fields: Birth place = Glasgow,Lanark,Scotland; Birth year = 1783; Country = Scotland; County = Lanarkshire; First name(s) = William; Last name = Glasgow; Place = Glasgow; Record set = Scotland, Parish Births & Baptisms 1564-1929; Sex = Male. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-2876": {
+        "role": "same-name, same-indexed-year candidate only; no family or locality bridge",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_693243862; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-693243863",
+    "provider_record_id": "R_693243863",
+    "association": "William Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "William Glasgow",
+    "date": "1783",
+    "year": 1783,
+    "place": "Glasgow, Lanarkshire, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_693243863",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: identity HOLD. Two IRI/FamilySearch-derived transcripts repeat William Glasgow, indexed birth 1783, Glasgow/Lanark. They may be companion indexes of one event; neither provides baptism date, parent, register reference or independent person identifier. The year/place alone cannot identify William-2876 or establish a separate person. Indexed fields: Birth place = Glasgow,Lanark,Scotland; Birth year = 1783; Country = Scotland; County = Lanarkshire; First name(s) = William; Last name = Glasgow; Place = Glasgow; Record set = Scotland, Parish Births & Baptisms 1564-1929; Sex = Male. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-2876": {
+        "role": "same-name, same-indexed-year candidate only; no family or locality bridge",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_693243863; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-4585815",
+    "provider_record_id": "SCOT/OPR/BAP/4585815",
+    "association": "Issobell Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Issobell Glasgow",
+    "date": "03 May 1612",
+    "year": 1612,
+    "place": "Midcalder, Midlothian, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4585815&tab=this",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: matched existing record subject. Two selected IDs describe one 3 May 1612 Mid Calder baptism of Issobell Glasgow, father David; outside companion R_686309199 is already held. Birth year is baptism-derived. Later McCaskie-bride identity stays uncertain. Indexed fields: Archive reference = OPR 694/1; Baptism date = 03 May 1612; Baptism year = 1612; Country = Scotland; County = Midlothian; Father's first name(s) = David; Father's last name = Glasgow; First name(s) = Issobell; Item = 3; Last name = Glasgow; Place = Midcalder; Record set = Scotland, Parish Births & Baptisms 1564-1929; Register year range = 1604-1674. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-1085": {
+        "role": "Existing Issobell child; 3 May 1612 baptism; later bride identity unproved.",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1028": {
+        "role": "Recorded father David; existing adult comparison unchanged.",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~14585815; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-694107871",
+    "provider_record_id": "R_694107871",
+    "association": "Issobell Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Issobell Glasgow",
+    "date": "03 May 1612",
+    "year": 1612,
+    "place": "Mid Calder, Midlothian, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_694107871&tab=this",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: matched existing record subject. Two selected IDs describe one 3 May 1612 Mid Calder baptism of Issobell Glasgow, father David; outside companion R_686309199 is already held. Birth year is baptism-derived. Later McCaskie-bride identity stays uncertain. Indexed fields: Baptism date = 03 May 1612; Baptism place = MID CALDER, MIDLOTHIAN, SCOTLAND; Baptism year = 1612; Birth year = 1612; Country = Scotland; County = Midlothian; Father's first name(s) = David; Father's last name = Glasgow; First name(s) = Issobell; Last name = Glasgow; Place = Mid Calder; Record set = Scotland, Parish Births & Baptisms 1564-1929; Sex = Female. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-1085": {
+        "role": "Existing Issobell child; 3 May 1612 baptism; later bride identity unproved.",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1028": {
+        "role": "Recorded father David; existing adult comparison unchanged.",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_694107871; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-690417298",
+    "provider_record_id": "R_690417298",
+    "association": "Jean Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Jean Glasgow",
+    "date": "1785",
+    "year": 1785,
+    "place": "Glasgow, Lanarkshire, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_690417298&tab=this",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: identity HOLD. IRI/FamilySearch-derived index gives Jean Glasgow, indexed birth 1785 at Glasgow/Lanark, but no baptism date, parents or register locator. Local named candidates have no evidenced bridge to this particular record. Year may be index-level only; preserve unassigned. Indexed fields: Birth place = Glasgow,Lanark,Scotland; Birth year = 1785; Country = Scotland; County = Lanarkshire; First name(s) = Jean; Last name = Glasgow; Place = Glasgow; Record set = Scotland, Parish Births & Baptisms 1564-1929; Sex = Female. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_690417298; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-4478228",
+    "provider_record_id": "SCOT/OPR/BAP/4478228",
+    "association": "Magdalene Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Magdalene Glasgow",
+    "date": "25 Dec 1799",
+    "year": 1799,
+    "place": "Kirknewton & East Calder, Midlothian, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4478228&tab=this",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: identity HOLD. OPR 690/3 item 2 transcript records Magdalene Glasgow born 25 Dec 1799, Whitemop, Kirknewton & East Calder, to Wm Glasgow and Catherine Nisbet. Same full parental couple and parish as held 1805 Catherine record suggest one adult household, but the William-1223 link to that adult remains qualified. No indexed existing Magdalene profile identified; do not conflate with Catherine or create person solely from this absence. Birth date is explicitly recorded, while baptism date/year is blank. Original image uninspected. Indexed fields: Archive reference = OPR 690/3; Birth date = 25 Dec 1799; Birth year = 1799; Country = Scotland; County = Midlothian; Father's first name(s) = Wm; Father's last name = Glasgow; First name(s) = Magdalene; Item = 2; Last name = Glasgow; Mother's first name(s) = Catherine; Mother's last name = Nisbet; Place = Kirknewton & East Calder; Record set = Scotland, Parish Births & Baptisms 1564-1929; Register year range = 1766-1819; Residence = Whitemop. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-1223": {
+        "role": "plausible adult father William Glasgow of Catherine Nisbet household, not proof of his earlier childhood",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-1224": {
+        "role": "recorded later sibling-family comparator Catherine, not the 1799 Magdalene child",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~14478228; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-690390677",
+    "provider_record_id": "R_690390677",
+    "association": "Mary Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Mary Glasgow",
+    "date": "1790",
+    "year": 1790,
+    "place": "Barony, Glasgow, Lanarkshire, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_690390677&tab=this",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: matched existing record subject. Matching full parental pair, child name, year and parish connect this sparse IRI/FamilySearch derivative to the held Scotland’s People Barony OPR 622/30/255 account. This copy gives only birth year, not the held 20 Mar 1790 birth-or-baptism date; it adds no independent date precision or father-grade change. Indexed fields: Birth place = Barony,Lanark,Scotland; Birth year = 1790; Country = Scotland; County = Lanarkshire; Father's first name(s) = Robert; Father's last name = Glasgow; First name(s) = Mary; Last name = Glasgow; Mother's first name(s) = Elizabeth; Mother's last name = Jack; Place = Barony, Glasgow; Record set = Scotland, Parish Births & Baptisms 1564-1929; Sex = Female. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-1531": {
+        "role": "Mary, recorded 1790 Barony child of Robert Glasgow and Elizabeth Jack",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1530": {
+        "role": "existing adult father candidate, prior probable assessment retained",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_690390677; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-5057434",
+    "provider_record_id": "SCOT/OPR/BAP/5057434",
+    "association": "William Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "William Glasgow",
+    "date": "11 May 1786",
+    "year": 1786,
+    "place": "Kelso, Roxburghshire, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F5057434&tab=this",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: identity HOLD. OPR 793/4 item 2 p.14 transcript explicitly records William Glasgow born 11 May 1786 at Kelso to David Glasgow and Janet Hood. It supports the record-defined child and exact birth field at transcript level, but cannot itself identify the later Corporal William Glass/Glasgow-1220. Existing parent attachments and 54% possible selected father assessment remain ungraded. No baptism date/year stated; original image uninspected. External profile context: https://www.wikitree.com/wiki/Glasgow-1219 (plausible Janet Hood adult mother household); no local person or relationship is created. Indexed fields: Archive reference = OPR 793/4; Birth date = 11 May 1786; Birth year = 1786; Country = Scotland; County = Roxburghshire; Father's first name(s) = David; Father's last name = Glasgow; First name(s) = William; Item = 2; Last name = Glasgow; Mother's first name(s) = Janet; Mother's last name = Hood; Page = 14; Place = Kelso; Record set = Scotland, Parish Births & Baptisms 1564-1929; Register year range = 1786-1819. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-1220": {
+        "role": "possible later Corporal William Glass identity; exact same 11 May 1786 Kelso birth claim but no record bridge to service/name change",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-1218": {
+        "role": "plausible David/Janet Hood adult father household; earlier 1744 childhood separate",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~15057434; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-3572310",
+    "provider_record_id": "SCOT/OPR/BAP/3572310",
+    "association": "- Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "- Glasgow",
+    "date": "08 ? 1693",
+    "year": 1693,
+    "place": "Irvine, Ayrshire, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3572310&tab=this",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: identity HOLD. OPR 595/1 item 1, Irvine; baptism date literally '08 ? 1693', child's first name and father's first name blank. Do not silently convert to 8 October, 10 August or an exact birth date. No additional child/person or relationship inferred. Indexed fields: Archive reference = OPR 595/1; Baptism date = 08 ? 1693; Baptism year = 1693; Country = Scotland; County = Ayrshire; Father's last name = Glasgow; Item = 1; Last name = Glasgow; Mother's first name(s) = Agnes; Mother's last name = Martine; Place = Irvine; Record set = Scotland, Parish Births & Baptisms 1564-1929; Register year range = 1687-1788. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-1473": {
+        "role": "Possible same 1693 Irvine child account: the maintained Scotland's People entry gives John, father John Glasgow, mother Agnes Martine; this cached transcript has an unnamed child, father surname only, mother Agnes Martine, and ambiguous '08 ? 1693'. Shared mother/parish/year favour comparison, but do not prove a single entry or resolve the month.",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~13572310; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-691313677",
+    "provider_record_id": "R_691313677",
+    "association": "Elisabeth Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Elisabeth Glasgow",
+    "date": "1792",
+    "year": 1792,
+    "place": "Glasgow, Lanarkshire, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_691313677&tab=this",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: identity HOLD. IRI/FamilySearch-derived index explicitly fields last name Glasgow and birth year 1792/place Glasgow, Lanark; baptism year and both parent names blank. No exact birth date, household or marriage bridge. The surname field is indexed, while the original register was not inspected. Indexed fields: Birth place = Glasgow, Lanark, Scotland; Birth year = 1792; Country = Scotland; County = Lanarkshire; First name(s) = Elisabeth; Last name = Glasgow; Place = Glasgow; Record set = Scotland, Parish Births & Baptisms 1564-1929; Sex = Female. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-61": {
+        "role": "Leading compatible Elisabeth/Elizabeth Glasgow comparison: profile records 5 September 1792 at Glasgow, but that exact day rests on an unsourced tree assertion; cached index gives birth year 1792 and Glasgow/Lanark birth place, with no parents or exact date. Identity unproved.",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-3520": {
+        "role": "Weak alternate Elisabeth/Elizabeth Glasgow in Glasgow locality with an uncertain 1781 birth; its separate FamilySearch citation must be compared before treating the year discrepancy as an exclusion or a match.",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_691313677; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-694112773",
+    "provider_record_id": "R_694112773",
+    "association": "Jhone Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Jhone Glasgow",
+    "date": "26 Jun 1608",
+    "year": 1608,
+    "place": "Mid Calder, Midlothian, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_694112773&tab=this",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: matched existing record subject. Two selected IDs describe one 26 June 1608 Mid Calder baptism of Jhone Glasgow, father Jhone; outside companion R_686312587 is already held. No exact birth or later Quothquan identity is proved. Indexed fields: Baptism date = 26 Jun 1608; Baptism place = MID CALDER, MIDLOTHIAN, SCOTLAND; Baptism year = 1608; Birth year = 1608; Country = Scotland; County = Midlothian; Father's first name(s) = Jhone; Father's last name = Glasgow; First name(s) = Jhone; Last name = Glasgow; Place = Mid Calder; Record set = Scotland, Parish Births & Baptisms 1564-1929; Sex = Male. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-1086": {
+        "role": "Existing Jhone child; 26 June 1608 baptism; later Quothquan identity conditional.",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-3296": {
+        "role": "Compatible adult father-profile comparison for named Jhone; not newly established or upgraded.",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_694112773; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-3624989",
+    "provider_record_id": "SCOT/OPR/BAP/3624989",
+    "association": "Margaret Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Margaret Glasgow",
+    "date": "23 Sep 1688",
+    "year": 1688,
+    "place": "Kilwinning, Ayrshire, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3624989&tab=this",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: matched existing record subject. OPR 599/1 item 1; cached transcript register-range metadata says 1693–1819 although event date is 1688, an unresolved index inconsistency already present in maintained findings. Do not turn baptism into birth or alter Anne/Fanne Smith and 9/23 September variants without original image. Indexed fields: Archive reference = OPR 599/1; Baptism date = 23 Sep 1688; Baptism year = 1688; Country = Scotland; County = Ayrshire; Father's first name(s) = George; Father's last name = Glasgow; First name(s) = Margaret; Item = 1; Last name = Glasgow; Mother's first name(s) = Anne; Mother's last name = Smith; Place = Kilwinning; Record set = Scotland, Parish Births & Baptisms 1564-1929; Register year range = 1693-1819. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-3162": {
+        "role": "Already assigned 23 September 1688 Kilwinning baptism account for Margaret, father George Glasgow, mother Anne Smith in Findmypast. Companion SCOT/OPR/BAP/3624976 has the same event; Scotland's People indexes maternal name Fanne Smith. Profile's 9 September birth and 23 September baptism remain unresolved separate fields.",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1090": {
+        "role": "Possible selected adult profile for recorded father George, previously assessed separately; this index does not prove the full adult identity.",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-remaining-b.json#/records/SCOT~1OPR~1BAP~13624989; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-690425467",
+    "provider_record_id": "R_690425467",
+    "association": "Mary Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Mary Glasgow",
+    "date": "1799",
+    "year": 1799,
+    "place": "Barony, Glasgow, Lanarkshire, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_690425467&tab=this",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: matched existing record subject. IRI/FamilySearch-derived index says birth year 1799 and birth place Barony/Lanark, baptism year blank, no day/month. The shared parent pair supports the child match without assigning a new exact birth date. Indexed fields: Birth place = Barony,Lanark,Scotland; Birth year = 1799; Country = Scotland; County = Lanarkshire; Father's first name(s) = John; Father's last name = Glasgow; First name(s) = Mary; Last name = Glasgow; Mother's first name(s) = Helen; Mother's last name = Smith; Place = Barony, Glasgow; Record set = Scotland, Parish Births & Baptisms 1564-1929; Sex = Female. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-1353": {
+        "role": "Compatible existing Mary child account: indexed 1799 Barony birth, father John Glasgow and mother Helen Smith match the profile's selected parents and locality. The profile's c.28 December 1799 estimate is not confirmed by this date-free index.",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1348": {
+        "role": "Selected adult father-profile comparison for the recorded John, already assessed separately; parental name in index does not independently prove this adult identity.",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Smith-230548": {
+        "role": "Selected Helen Smith mother-profile comparison; literal mother name Helen Smith matches, but this index does not establish her full later-life identity.",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_690425467; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-0396092",
+    "provider_record_id": "SCOT/OPR/BAP/0396092",
+    "association": "William Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "William Glasgow",
+    "date": "06 May 1795",
+    "year": 1795,
+    "place": "Barony, Lanarkshire, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0396092&tab=this",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: matched existing record subject. Detailed OPR transcript explicitly labels 6 May 1795 William Glasgow birth, Barony, father Robt Glasgow weaver, mother Eliz Jack; companion index gives only year and same parents. Original uninspected; register-range metadata 1797–1807 conflicts with stated event year. Existing adult-profile grades unchanged. Indexed fields: Archive reference = OPR 622/4; Birth date = 06 May 1795; Birth year = 1795; Country = Scotland; County = Lanarkshire; Father's first name(s) = Robt; Father's last name = Glasgow; Father's occupation = Weaver; First name(s) = William; Item = 2; Last name = Glasgow; Mother's first name(s) = Eliz; Mother's last name = Jack; Page = 30; Place = Barony; Record set = Scotland, Parish Births & Baptisms 1564-1929; Register year range = 1797-1807. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-1533": {
+        "role": "Existing William child; 6 May 1795 explicitly recorded birth.",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1530": {
+        "role": "Existing selected adult father-profile assessment unchanged.",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Jack-2557": {
+        "role": "Existing attached mother-profile comparison for named Eliz Jack; adult identity not newly proved.",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~10396092; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-693250432",
+    "provider_record_id": "R_693250432",
+    "association": "William Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "William Glasgow",
+    "date": "1795",
+    "year": 1795,
+    "place": "Barony, Glasgow, Lanarkshire, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_693250432&tab=this",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: matched existing record subject. Detailed OPR transcript explicitly labels 6 May 1795 William Glasgow birth, Barony, father Robt Glasgow weaver, mother Eliz Jack; companion index gives only year and same parents. Original uninspected; register-range metadata 1797–1807 conflicts with stated event year. Existing adult-profile grades unchanged. Indexed fields: Birth place = Barony,Lanark,Scotland; Birth year = 1795; Country = Scotland; County = Lanarkshire; Father's first name(s) = Robert; Father's last name = Glasgow; First name(s) = William; Last name = Glasgow; Mother's first name(s) = Elizabeth; Mother's last name = Jack; Place = Barony, Glasgow; Record set = Scotland, Parish Births & Baptisms 1564-1929; Sex = Male. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-1533": {
+        "role": "Existing William child; 6 May 1795 explicitly recorded birth.",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1530": {
+        "role": "Existing selected adult father-profile assessment unchanged.",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Jack-2557": {
+        "role": "Existing attached mother-profile comparison for named Eliz Jack; adult identity not newly proved.",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_693250432; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-4473898",
+    "provider_record_id": "SCOT/OPR/BAP/4473898",
+    "association": "- Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "- Glasgow",
+    "date": "25 Jul 1701",
+    "year": 1701,
+    "place": "Kirknewton & East Calder, Midlothian, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4473898&tab=this",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: scope HOLD. Unnamed child baptised 25 July 1701 at Kirknewton & East Calder; father John Glasgow. The transcript lacks the child’s given name, mother, and birth date. No defensible exact child identity or new person follows. Indexed fields: Archive reference = OPR 689/20; Baptism date = 25 Jul 1701; Baptism year = 1701; Country = Scotland; County = Midlothian; Father's first name(s) = John; Father's last name = Glasgow; Item = 1; Last name = Glasgow; Place = Kirknewton & East Calder; Record set = Scotland, Parish Births & Baptisms 1564-1929; Register year range = 1642-1737. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~14473898; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-690417779",
+    "provider_record_id": "R_690417779",
+    "association": "Elizabeth Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Elizabeth Glasgow",
+    "date": "1782",
+    "year": 1782,
+    "place": "Glasgow, Lanarkshire, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_690417779&tab=this",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: identity HOLD. Index gives Elizabeth Glasgow birth year 1782 and Glasgow, Lanarkshire; no baptism date, parents, or day. A one-year difference from the candidate’s unproved 1781 birth is not a concrete exclusion or basis for correction. No exact assignment. Indexed fields: Birth place = Glasgow,Lanark,Scotland; Birth year = 1782; Country = Scotland; County = Lanarkshire; First name(s) = Elizabeth; Last name = Glasgow; Place = Glasgow; Record set = Scotland, Parish Births & Baptisms 1564-1929; Sex = Female. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-3520": {
+        "role": "compatible but unconfirmed candidate: Elizabeth Glasgow, profile year 1781 at Glasgow; its checked source establishes her later Stewart family, not an exact natal date",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_690417779; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-693575866",
+    "provider_record_id": "R_693575866",
+    "association": "James Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "James Glasgow",
+    "date": "1626",
+    "year": 1626,
+    "place": "Inveresk with Musselburgh, Midlothian, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_693575866&tab=this",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: matched existing record subject. Already represented in public catalogue alongside Findmypast R_686178012; this is companion derivative indexing, not another person or life event. The supplied record states birth year 1626 but no day or baptism date; the separate FamilySearch citation gives baptism 19 March 1626. Adult 1716 writer identity remains possible only; distinct Edinburgh weaver Glasgow-1150 has father Robert. Indexed fields: Birth place = Inveresk with Musselburgh, Midlothian, Scotland; Birth year = 1626; Country = Scotland; County = Midlothian; Father's first name(s) = Alexander; Father's last name = Glasgow; First name(s) = James; Last name = Glasgow; Place = Inveresk with Musselburgh; Record set = Scotland, Parish Births & Baptisms 1564-1929; Sex = Male. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-3923": {
+        "role": "same James, son of Alexander Glasgow, indexed 1626 Inveresk with Musselburgh; reuse the existing catalogue baptism group",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_693575866; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-3575824",
+    "provider_record_id": "SCOT/OPR/BAP/3575824",
+    "association": "Margaret Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Margaret Glasgow",
+    "date": "25 Aug 1751",
+    "year": 1751,
+    "place": "Irvine, Ayrshire, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3575824&tab=this",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: matched existing record subject. Identity matches Margaret Glasgow-3483 by Irvine, 1751 and named James Glasgow/Mary Barber parents. The captured transcript explicitly distinguishes birth 23 August 1751 and baptism 25 August 1751, whereas WikiTree structured field states birth 8 August 1751. The existing FamilySearch citation and biography give 1751 only; no inspected basis proves 8 August a typo or shows how the two dates relate. Hold the vital field unchanged and present both dates as conflicting derivative/profile claims pending original OPR 595/1 p.69 review. Father grade unchanged. Indexed fields: Archive reference = OPR 595/1; Baptism date = 25 Aug 1751; Baptism year = 1751; Birth date = 23 Aug 1751; Birth year = 1751; Country = Scotland; County = Ayrshire; Father's first name(s) = James; Father's last name = Glasgow; First name(s) = Margaret; Item = 1; Last name = Glasgow; Mother's first name(s) = Mary; Mother's last name = Barber; Page = 69; Place = Irvine; Record set = Scotland, Parish Births & Baptisms 1564-1929; Register year range = 1687-1788. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-3483": {
+        "role": "same Margaret Glasgow of Irvine, daughter of James Glasgow and Mary Barber; existing profile has a discordant 8 August 1751 birth",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-remaining-b.json#/records/SCOT~1OPR~1BAP~13575824; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-691308263",
+    "provider_record_id": "R_691308263",
+    "association": "Rachel Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Rachel Glasgow",
+    "date": "1786",
+    "year": 1786,
+    "place": "Glasgow, Lanarkshire, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_691308263&tab=this",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: identity HOLD. Index gives Rachel Glasgow birth year 1786 at Glasgow, Lanarkshire, without baptism or parents. Existing Glasgow-1501 is a different documented 1738 Antrim child probably dead before 1742; Glasgow-529 has only an uncertain estimated date/place. Neither supports an exact assignment or correction; no new person from this isolated index. Indexed fields: Birth place = Glasgow, Lanark, Scotland; Birth year = 1786; Country = Scotland; County = Lanarkshire; First name(s) = Rachel; Last name = Glasgow; Place = Glasgow; Record set = Scotland, Parish Births & Baptisms 1564-1929; Sex = Female. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-529": {
+        "role": "remote unconfirmed candidate only: Rachel profile has estimated circa 1800 birth in Pennsylvania; no Scottish birth or migration bridge shown",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_691308263; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-693571192",
+    "provider_record_id": "R_693571192",
+    "association": "Agnes Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Agnes Glasgow",
+    "date": "1618",
+    "year": 1618,
+    "place": "Inveresk with Musselburgh, Midlothian, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_693571192",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: matched existing record subject. Two derivative entries describe one Agnes. The selected profile has 22 February 1618 from separate local index research; these cached transcripts give only birth year 1618, no birth day or baptism day. Mother remains unnamed. Do not count companions as independent proof or change the existing father grade. Indexed fields: Birth place = Inveresk with Musselburgh, Midlothian, Scotland; Birth year = 1618; Country = Scotland; County = Midlothian; Father's first name(s) = James; Father's last name = Glasgow; First name(s) = Agnes; Last name = Glasgow; Place = Inveresk with Musselburgh; Record set = Scotland, Parish Births & Baptisms 1564-1929; Sex = Female. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-993": {
+        "role": "Same indexed 1618 Inveresk/Musselburgh child and named father James Glasgow-991; existing profile and findings already cite both companion transcripts.",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_693571192; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-694107799",
+    "provider_record_id": "R_694107799",
+    "association": "Elspeth Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Elspeth Glasgow",
+    "date": "02 Mar 1606",
+    "year": 1606,
+    "place": "Mid Calder, Midlothian, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_694107799&tab=this",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: matched existing record subject. The explicit 2 March date is baptism. Birth year 1606 appears without a separate birth date; current profile birth 2 March should not be newly described as a proven birthday. Mother unnamed. No parent-grade change. Indexed fields: Baptism date = 02 Mar 1606; Baptism place = MID CALDER, MIDLOTHIAN, SCOTLAND; Baptism year = 1606; Birth year = 1606; Country = Scotland; County = Midlothian; Father's first name(s) = David; Father's last name = Glasgow; First name(s) = Elspeth; Last name = Glasgow; Place = Mid Calder; Record set = Scotland, Parish Births & Baptisms 1564-1929; Sex = Female. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-1054": {
+        "role": "Same Elspeth child, Mid Calder 2 March 1606, father David Glasgow-1028; both companion entries already assigned in findings.",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_694107799; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-693576269",
+    "provider_record_id": "R_693576269",
+    "association": "Robert Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Robert Glasgow",
+    "date": "1627",
+    "year": 1627,
+    "place": "Inveresk with Musselburgh, Midlothian, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_693576269&tab=this",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: matched existing record subject. These companion transcripts provide 1627 and the named father but no distinct day of birth or baptism. The current 30 December date comes from a separate Scottish index reading, and the dossier’s mother Jannet Clerk is not named here. Keep child-to-adult Edinburgh cordiner identity distinct; no parent-grade change. Indexed fields: Birth place = Inveresk with Musselburgh, Midlothian, Scotland; Birth year = 1627; Country = Scotland; County = Midlothian; Father's first name(s) = Allexander; Father's last name = Glasgow; First name(s) = Robert; Last name = Glasgow; Place = Inveresk with Musselburgh; Record set = Scotland, Parish Births & Baptisms 1564-1929; Sex = Male. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-1149": {
+        "role": "Same 1627 Inveresk/Musselburgh Robert child with father Allexander/Alexander Glasgow-1148; local findings cite the Scotland’s People 30 December 1627 indexed event.",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_693576269; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-685663682",
+    "provider_record_id": "R_685663682",
+    "association": "James Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "James Glasgow",
+    "date": "1774",
+    "year": 1774,
+    "place": "Crawford, Lanarkshire, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_685663682&tab=this",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: identity HOLD. Derivative transcript gives James Glasgow, birth year 1774, Crawford, Lanarkshire, with Robert Glasgow and Isabely Porteous; no day or baptism date. Local catalogue has no Crawford/Porteous-linked James. The weak c.1774 Kilbirnie estimate and inherited parents are not proof of exclusion, but the different named couple and parish prevent assignment. No new person from this unresolved comparison. Indexed fields: Baptism place = CRAWFORD, LANARK, SCOTLAND; Birth place = Crawford, Lanark, Scotland; Birth year = 1774; Country = Scotland; County = Lanarkshire; Father's first name(s) = Robert; Father's last name = Glasgow; First name(s) = James; Last name = Glasgow; Mother's first name(s) = Isabely; Mother's last name = Porteous; Place = Crawford; Record set = Scotland, Parish Births & Baptisms 1564-1929; Residence = Crawford, Lanarkshire, Scotland; Sex = Male. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-3130": {
+        "role": "Compatible sparse James account, estimated c.1770 Scotland, no attached parents; a Crawford 1774 birth has not been identified with him.",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-1572": {
+        "role": "Weaker same-year comparison, estimated c.1774 Kilbirnie; inherited James Glasgow/Jean Simpson parents conflict with transcript’s Robert Glasgow/Isabely Porteous, but this tree-based family is lightly sourced. Keep comparison, do not transfer record.",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_685663682; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-690418273",
+    "provider_record_id": "R_690418273",
+    "association": "Joanna Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Joanna Glasgow",
+    "date": "1783",
+    "year": 1783,
+    "place": "Glasgow, Lanarkshire, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_690418273&tab=this",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: identity HOLD. Joanna Glasgow has indexed birth year 1783 and Glasgow, Lanarkshire birth place, but no baptism date or parents. Name variation and blank profile fields permit comparison; they do not justify assignment or a new person. No exact DOB. Indexed fields: Birth place = Glasgow,Lanark,Scotland; Birth year = 1783; Country = Scotland; County = Lanarkshire; First name(s) = Joanna; Last name = Glasgow; Place = Glasgow; Record set = Scotland, Parish Births & Baptisms 1564-1929; Sex = Female. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-586": {
+        "role": "Very weak Joan/Joanna name-variant comparison; profile has no birth, place or parents and is not identified with this record.",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_690418273; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-690418812",
+    "provider_record_id": "R_690418812",
+    "association": "Margaret Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Margaret Glasgow",
+    "date": "1783",
+    "year": 1783,
+    "place": "Glasgow, Lanarkshire, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_690418812&tab=this",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: identity HOLD. Margaret Glasgow’s derivative entry has indexed birth year 1783 and Glasgow, Lanarkshire place, without day, baptism date or parents. Do not attach it to Glasgow-3388 solely on year/place; preserve other uncertain candidates and existing grades. No new person from absent fields. Indexed fields: Birth place = Glasgow,Lanark,Scotland; Birth year = 1783; Country = Scotland; County = Lanarkshire; First name(s) = Margaret; Last name = Glasgow; Place = Glasgow; Record set = Scotland, Parish Births & Baptisms 1564-1929; Sex = Female. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-3388": {
+        "role": "Leading compatible same-name Glasgow-place comparison with exact profile birth 16 May 1783; cached record has only 1783, so identity remains unproved.",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-3072": {
+        "role": "Secondary compatible Glasgow-place candidate with uncertain 1779 birth; sparse transcript cannot exclude an erroneous estimate or later baptism.",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-2101": {
+        "role": "Remote 1783-before-April St Cuthberts candidate; current Edinburgh parent household differs from unspecified Glasgow-place entry and needs record comparison.",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_690418812; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-694107870",
+    "provider_record_id": "R_694107870",
+    "association": "Beatrix Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Beatrix Glasgow",
+    "date": "15 Apr 1610",
+    "year": 1610,
+    "place": "Mid Calder, Midlothian, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_694107870&tab=this",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: matched existing record subject. Cached derivative index names Beatrix Glasgow and father James at Mid Calder, baptism 15 Apr 1610; birth year 1610 is indexed from baptism and gives no independent birthday. R_686310039 is a companion of this event, not independent proof. Existing SCOT/OPR/BAP/4585741 reports 15 Apr 1611, unresolved against 1610; original register not inspected in the maintained Beatrix finding. Do not turn either baptism into exact birth or count two children; no relationship reassessment. Indexed fields: Baptism date = 15 Apr 1610; Baptism place = MID CALDER, MIDLOTHIAN, SCOTLAND; Baptism year = 1610; Birth year = 1610; Country = Scotland; County = Midlothian; Father's first name(s) = James; Father's last name = Glasgow; First name(s) = Beatrix; Last name = Glasgow; Place = Mid Calder; Record set = Scotland, Parish Births & Baptisms 1564-1929; Sex = Female. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-1083": {
+        "role": "Existing Beatrix child; same 15 April 1610 Mid Calder baptism as companion R_686310039, but a separate OPR transcript reads 15 April 1611.",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-991": {
+        "role": "Recorded father James; existing father assessment retained, no new grade.",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Adamson-3318": {
+        "role": "Attached mother comparison only; mother field blank in this transcript.",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_694107870; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-694110723",
+    "provider_record_id": "R_694110723",
+    "association": "George Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "George Glasgow",
+    "date": "17 Feb 1605",
+    "year": 1605,
+    "place": "Mid Calder, Midlothian, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_694110723&tab=this",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: matched existing record subject. Cached index gives baptism 17 Feb 1605, Mid Calder, father James. Original Mid Calder OPR 694/10 p.7 was read in the existing findings and confirms baptism/father, not birthday or mother; Muirestoun reading remains provisional. Companion R_686312170 is same event, not independent corroboration. Do not infer exact birthplace from baptism place or change relationship grade. Indexed fields: Baptism date = 17 Feb 1605; Baptism place = MID CALDER, MIDLOTHIAN, SCOTLAND; Baptism year = 1605; Birth year = 1605; Country = Scotland; County = Midlothian; Father's first name(s) = James; Father's last name = Glasgow; First name(s) = George; Last name = Glasgow; Place = Mid Calder; Record set = Scotland, Parish Births & Baptisms 1564-1929; Sex = Male. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-1082": {
+        "role": "Existing George child, exact 17 February 1605 Mid Calder baptism; companion R_686312170 and original OPR page already assessed.",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-991": {
+        "role": "Recorded father James and existing selected father; current 98% assessment unchanged.",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Adamson-3318": {
+        "role": "Attached mother comparison only; not named by index or inspected original.",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_694110723; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-5056630",
+    "provider_record_id": "SCOT/OPR/BAP/5056630",
+    "association": "James Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "James Glasgow",
+    "date": "25 Dec 1777",
+    "year": 1777,
+    "place": "Kelso, Roxburghshire, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F5056630&tab=this",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: matched existing record subject. Cached OPR 793/3 item 1 p.103 explicitly gives James Glasgow birth 25 Dec 1777 with Kelso as parish/place, father David Glasgow and mother Janet Hood; baptism year is dash, so do not call 25 Dec a baptism. Existing Glasgow-1222 has this exact birth and parents; likely one child, not a new person. The maintained findings describe an older index as a baptism and separately assess a 1798 militia occurrence; this OPR transcript supports the birth date role but does not by itself identify the later militiaman. No new parent attachment or confidence change. Indexed fields: Archive reference = OPR 793/3; Birth date = 25 Dec 1777; Birth year = 1777; Country = Scotland; County = Roxburghshire; Father's first name(s) = David; Father's last name = Glasgow; First name(s) = James; Item = 1; Last name = Glasgow; Mother's first name(s) = Janet; Mother's last name = Hood; Page = 103; Place = Kelso; Record set = Scotland, Parish Births & Baptisms 1564-1929; Register year range = 1745-1786. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-1222": {
+        "role": "Existing James child; exact 25 December 1777 Kelso birth and named parent pair fit, but this provider ID has no checked canonical/public source mapping yet.",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1218": {
+        "role": "Named father David; compatible existing parent profile, adult identity/grade retained.",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Hood-6028": {
+        "role": "Named mother Janet Hood; compatible existing mother profile.",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~15056630; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-694113518",
+    "provider_record_id": "R_694113518",
+    "association": "John Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "John Glasgow",
+    "date": "18 Feb 1616",
+    "year": 1616,
+    "place": "Mid Calder, Midlothian, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_694113518&tab=this",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: matched existing record subject. Cached derivative index names John Glasgow, father James, baptized 18 Feb 1616 at Mid Calder. Indexed birth year 1616 is not an independent birthday. Existing public before-baptism birth boundary is appropriate. Companion R_686309696 is same event; no new person, mother assignment or grade change. Indexed fields: Baptism date = 18 Feb 1616; Baptism place = MID CALDER, MIDLOTHIAN, SCOTLAND; Baptism year = 1616; Birth year = 1616; Country = Scotland; County = Midlothian; Father's first name(s) = James; Father's last name = Glasgow; First name(s) = John; Last name = Glasgow; Place = Mid Calder; Record set = Scotland, Parish Births & Baptisms 1564-1929; Sex = Male. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-1084": {
+        "role": "Existing John child; 18 February 1616 Mid Calder baptism already in account and companion R_686309696.",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-991": {
+        "role": "Recorded father James; existing selected father assessment retained.",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Adamson-3318": {
+        "role": "Attached mother comparison only; transcript gives blank mother.",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_694113518; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-690418813",
+    "provider_record_id": "R_690418813",
+    "association": "Margaret Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Margaret Glasgow",
+    "date": "1784",
+    "year": 1784,
+    "place": "Glasgow, Lanarkshire, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_690418813&tab=this",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: identity HOLD. Cached index says Margaret Glasgow, indexed birth 1784 and Glasgow, Lanarkshire birth place; baptism date/year and both parents blank. Glasgow-3389 is a plausible comparison, not an assigned record identity. Verify original index/entry and whether birth year is independent before joining; no new person follows from missing parents or absent exact match. Indexed fields: Birth place = Glasgow,Lanark,Scotland; Birth year = 1784; Country = Scotland; County = Lanarkshire; First name(s) = Margaret; Last name = Glasgow; Place = Glasgow; Record set = Scotland, Parish Births & Baptisms 1564-1929; Sex = Female. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-3389": {
+        "role": "Compatible Margaret comparison: existing exact 6 July 1784 Glasgow birth, but sparse index has year/place only and no independent day or family bridge.",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_690418813; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-693243351",
+    "provider_record_id": "R_693243351",
+    "association": "Robert Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Robert Glasgow",
+    "date": "1784",
+    "year": 1784,
+    "place": "Glasgow, Lanarkshire, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_693243351&tab=this",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: identity HOLD. Cached index says Robert Glasgow, indexed birth 1784 at Glasgow, Lanarkshire; no baptism day/year, parents or occupation. The source lacks the exact 13 Sep date of the separate 1784 child index discussed under Glasgow-1538; do not conflate them or overturn the conditional before-1760 adult identity. Glasgow-2963 and Glasgow-3220 remain unexcluded but unproved. Confirm original index/entry and family before assigning birth or recommending any new person. Indexed fields: Birth place = Glasgow,Lanark,Scotland; Birth year = 1784; Country = Scotland; County = Lanarkshire; First name(s) = Robert; Last name = Glasgow; Place = Glasgow; Record set = Scotland, Parish Births & Baptisms 1564-1929; Sex = Male. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-1538": {
+        "role": "Competing 1784 child-index comparison retained in current dossier beside preferred before-1760 adult baptism identity; not an assigned birth.",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-2963": {
+        "role": "Compatible but weak Robert with uncertain 1780 Scotland birth; no exact bridge.",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-3220": {
+        "role": "Weak later Birmingham Robert comparison; uncertain 1783 birthplace and pre-1827 death do not establish a concrete exclusion from sparse index alone.",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_693243351; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-693571691",
+    "provider_record_id": "R_693571691",
+    "association": "Cristiane Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Cristiane Glasgow",
+    "date": "1609",
+    "year": 1609,
+    "place": "Inveresk with Musselburgh, Midlothian, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_693571691&tab=this",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: matched existing record subject. Companion to already-cited R_686178483, which public record ad3a65d32f03ae8f groups with this ID in its note. The new receipt has birth year 1609 but no baptism date; held 1 May 1609 is an indexed OPR event date, not independently proved birthday. Mother is blank; retain existing maternal assessment without treating her as named. No new person or vital correction. Indexed fields: Birth place = Inveresk with Musselburgh, Midlothian, Scotland; Birth year = 1609; Country = Scotland; County = Midlothian; Father's first name(s) = Eduard; Father's last name = Glasgow; First name(s) = Cristiane; Last name = Glasgow; Place = Inveresk with Musselburgh; Record set = Scotland, Parish Births & Baptisms 1564-1929; Sex = Female. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-2456": {
+        "role": "Existing Cristiane child; Inveresk 1609 and named Eduard match the held Scotland’s People OPR 689/10/19 account.",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1557": {
+        "role": "Named Eduard father in derivative index; existing 98% father-profile assessment retained, not regraded.",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_693571691; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-4478077",
+    "provider_record_id": "SCOT/OPR/BAP/4478077",
+    "association": "George Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "George Glasgow",
+    "date": "26 Aug 1792",
+    "year": 1792,
+    "place": "Kirknewton & East Calder, Midlothian, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4478077&tab=this",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: matched existing record subject. OPR 690/3 item 2 p.43 explicitly indexes Birth date 26 Aug 1792, but baptism year is blank; held FamilySearch citation labels 26 Aug as christening. Preserve the event-role discrepancy and current profile date pending original register; do not claim both events occurred on that day or use residence Clifton as proved birthplace. No relationship grade change. External profile context: https://www.wikitree.com/wiki/Chapman-28491 (Existing attached Margaret Chapman is a maternal comparison only: transcript says Mayt Chapman, while held FamilySearch entry says Margaret; do not silently resolve the name.); no local person or relationship is created. Indexed fields: Archive reference = OPR 690/3; Birth date = 26 Aug 1792; Birth year = 1792; Country = Scotland; County = Midlothian; Father's first name(s) = Thos; Father's last name = Glasgow; First name(s) = George; Item = 2; Last name = Glasgow; Mother's first name(s) = Mayt; Mother's last name = Chapman; Page = 43; Place = Kirknewton & East Calder; Record set = Scotland, Parish Births & Baptisms 1564-1929; Register year range = 1766-1819; Residence = Clifton. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-3345": {
+        "role": "Existing George child; exact 26 Aug 1792, Kirknewton/East Calder and Clifton household context match.",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1620": {
+        "role": "Named Thos/Thomas father; existing 97% father-profile assessment retained.",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~14478077; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-693241487",
+    "provider_record_id": "R_693241487",
+    "association": "James Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "James Glasgow",
+    "date": "1784",
+    "year": 1784,
+    "place": "Glasgow, Lanarkshire, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_693241487&tab=this",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: identity HOLD. Index says James Glasgow, Glasgow/Lanarkshire, birth year 1784; baptism date and parents blank. The year may be derivative and does not identify a later adult or prove an exact birthday. No record-to-profile event or parent assignment. Retain the source and compare original OPR entry and any date/place context before revisiting candidates; no new person from sparse fields. Indexed fields: Birth place = Glasgow,Lanark,Scotland; Birth year = 1784; Country = Scotland; County = Lanarkshire; First name(s) = James; Last name = Glasgow; Place = Glasgow; Record set = Scotland, Parish Births & Baptisms 1564-1929; Sex = Male. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-3753": {
+        "role": "Weak age-compatible adult comparison only (c.1785 estimate; 1820 US census context); no Scottish family or migration bridge.",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-2142": {
+        "role": "Undated James profile remains a remote unexcluded comparison; no identifying event or family fields.",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_693241487; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-693242590",
+    "provider_record_id": "R_693242590",
+    "association": "John Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "John Glasgow",
+    "date": "1782",
+    "year": 1782,
+    "place": "Glasgow, Lanarkshire, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_693242590&tab=this",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: identity HOLD. Index says John Glasgow, Glasgow/Lanarkshire, birth year 1782; baptism date and parents blank. Compare its underlying entry/reference to the FamilySearch 1782 citation held by Glasgow-2875 before linking the exact event. Keep 1848 memorial identity derivative and unproved; no new person or vital/parent change. Indexed fields: Birth place = Glasgow,Lanark,Scotland; Birth year = 1782; Country = Scotland; County = Lanarkshire; First name(s) = John; Last name = Glasgow; Place = Glasgow; Record set = Scotland, Parish Births & Baptisms 1564-1929; Sex = Male. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-2875": {
+        "role": "Leading compatible existing John; his findings already describe a Glasgow August 1782 baptism index inherited from merged Glasgow-3054, but this receipt gives year/place only and does not prove exact-index identity or the 1848 memorial man.",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-3034": {
+        "role": "Weak alternative with uncertain 1775 Glasgow birth field; do not exclude by an unverified estimate or assign this event.",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_693242590; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-693569752",
+    "provider_record_id": "R_693569752",
+    "association": "Marioune Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Marioune Glasgow",
+    "date": "1630",
+    "year": 1630,
+    "place": "Inveresk with Musselburgh, Midlothian, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_693569752&tab=this",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: matched existing record subject. Companion to R_686179254 and more specific SCOT/OPR/BAP/4435828; same 1630 Inveresk event, not independent corroboration. This receipt gives birth year only and no baptism date, while held source gives indexed 17 Mar 1630 baptism. Mother blank here; do not infer her identity or turn that event date into a newly proved birthday. Indexed fields: Birth place = Inveresk with Musselburgh, Midlothian, Scotland; Birth year = 1630; Country = Scotland; County = Midlothian; Father's first name(s) = Allexander; Father's last name = Glasgow; First name(s) = Marioune; Last name = Glasgow; Place = Inveresk with Musselburgh; Record set = Scotland, Parish Births & Baptisms 1564-1929; Sex = Female. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-1429": {
+        "role": "Existing Marioune/Marion child; Inveresk 1630 and Allexander father match dated OPR 689/1 and Scotland’s People parish 689 ref 10/194.",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1148": {
+        "role": "Existing strongly supported father-profile identification remains 95%; receipt names Allexander but does not independently identify the adult.",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_693569752; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-693249828",
+    "provider_record_id": "R_693249828",
+    "association": "Robert Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Robert Glasgow",
+    "date": "1799",
+    "year": 1799,
+    "place": "Barony, Glasgow, Lanarkshire, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_693249828&tab=this",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: matched existing record subject. Receipt gives birth year 1799 but baptism year/date blank. Held Scotland’s People index has 18 Apr 1799 Barony event; do not use this receipt to prove that the event date is exact birth rather than baptism. No new person, birth correction or relationship grade change. Indexed fields: Birth place = Barony,Lanark,Scotland; Birth year = 1799; Country = Scotland; County = Lanarkshire; Father's first name(s) = Robert; Father's last name = Glasgow; First name(s) = Robert; Last name = Glasgow; Mother's first name(s) = Elizabeth; Mother's last name = Jack; Place = Barony, Glasgow; Record set = Scotland, Parish Births & Baptisms 1564-1929; Sex = Male. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-1598": {
+        "role": "Existing Robert child; Barony 1799 and full named Robert Glasgow/Elizabeth Jack couple match held OPR 622 ref 40/113 account.",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1530": {
+        "role": "Selected Robert father profile remains 98% proved on the combined household evidence; no regrade.",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Jack-2557": {
+        "role": "Attached Elizabeth Jack remains the separately assessed mother-profile comparison; transcript names Elizabeth Jack but supplies no unique adult identifier.",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_693249828; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-693575445",
+    "provider_record_id": "R_693575445",
+    "association": "Eduard Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Eduard Glasgow",
+    "date": "1609",
+    "year": 1609,
+    "place": "Inveresk with Musselburgh, Midlothian, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_693575445&tab=this",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: matched existing record subject. Findmypast transcript/index gives Eduard Glasgow, birth year 1609, Inveresk with Musselburgh, father James; no exact birth or baptism date. The pre-1701 grouping and Glasgow-994 findings cite this ID and companion R_686174177; the findings also cite the separate 27 February 1609 OPR index. The Glasgow-994 dossier markdown path is only a heading stub and is not evidence. Do not infer adult Edward identity or treat companion transcripts as separate events. Indexed fields: Birth place = Inveresk with Musselburgh, Midlothian, Scotland; Birth year = 1609; Country = Scotland; County = Midlothian; Father's first name(s) = James; Father's last name = Glasgow; First name(s) = Eduard; Last name = Glasgow; Place = Inveresk with Musselburgh; Record set = Scotland, Parish Births & Baptisms 1564-1929; Sex = Male. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-994": {
+        "role": "Existing Eduard identity; prior person-level audit and findings assign this indexed 1609 Inveresk/Musselburgh occurrence. James Glasgow is named as father in the transcript.",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_693575445; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-693241488",
+    "provider_record_id": "R_693241488",
+    "association": "James Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "James Glasgow",
+    "date": "1785",
+    "year": 1785,
+    "place": "Glasgow, Lanarkshire, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_693241488&tab=this",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: identity HOLD. Transcript/index gives James Glasgow, birth year 1785, Glasgow, Lanark; parents blank and no exact birth or baptism date. Retain identity hold; do not assign from name/year alone or create a new person. Indexed fields: Birth place = Glasgow,Lanark,Scotland; Birth year = 1785; Country = Scotland; County = Lanarkshire; First name(s) = James; Last name = Glasgow; Place = Glasgow; Record set = Scotland, Parish Births & Baptisms 1564-1929; Sex = Male. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-3753": {
+        "role": "Only a tentative existing comparison: same indexed name/year 1785; no birth locality or family evidence to resolve identity.",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_693241488; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-693242591",
+    "provider_record_id": "R_693242591",
+    "association": "John Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "John Glasgow",
+    "date": "1783",
+    "year": 1783,
+    "place": "Glasgow, Lanarkshire, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_693242591&tab=this",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: identity HOLD. Transcript/index gives John Glasgow, birth year 1783, Glasgow, Lanark; parents blank and no exact birth or baptism date. The nearby candidate remains unresolved. No person or relationship assignment follows from this sparse record. Indexed fields: Birth place = Glasgow,Lanark,Scotland; Birth year = 1783; Country = Scotland; County = Lanarkshire; First name(s) = John; Last name = Glasgow; Place = Glasgow; Record set = Scotland, Parish Births & Baptisms 1564-1929; Sex = Male. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-2875": {
+        "role": "Plausible comparison only: Glasgow locality and adjacent year, but this transcript has no unique family details to establish the match.",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_693242591; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-690387615",
+    "provider_record_id": "R_690387615",
+    "association": "Marrion Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Marrion Glasgow",
+    "date": "1792",
+    "year": 1792,
+    "place": "Barony, Glasgow, Lanarkshire, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_690387615&tab=this",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: matched existing record subject. Transcript/index gives Marrion Glasgow, birth year 1792, Barony, father Robert Glasgow and mother Elizabeth Jack. It has no exact birth or baptism date. Existing held ScotlandsPeople citation gives 4 March 1792; this FMP transcript is derivative corroboration of the same event, not an original image and does not independently establish that day. Do not change relationships. Indexed fields: Birth place = Barony,Lanark,Scotland; Birth year = 1792; Country = Scotland; County = Lanarkshire; Father's first name(s) = Robert; Father's last name = Glasgow; First name(s) = Marrion; Last name = Glasgow; Mother's first name(s) = Elizabeth; Mother's last name = Jack; Place = Barony, Glasgow; Record set = Scotland, Parish Births & Baptisms 1564-1929; Sex = Female. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-1532": {
+        "role": "Existing Marrion/Marion Glasgow child; same indexed year, Barony, and named parents Robert Glasgow and Elizabeth Jack. Existing relationship assessment retained.",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_690387615; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-690417644",
+    "provider_record_id": "R_690417644",
+    "association": "Sarah Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Sarah Glasgow",
+    "date": "1785",
+    "year": 1785,
+    "place": "Glasgow, Lanarkshire, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_690417644&tab=this",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: identity HOLD. Transcript/index gives Sarah Glasgow, birth year 1785, Glasgow, Lanark; parents blank and no exact birth or baptism date. Local comparisons are poor or geographically conflicting, so none is listed as an assigned subject. No new person or family relationship is proposed. Indexed fields: Birth place = Glasgow,Lanark,Scotland; Birth year = 1785; Country = Scotland; County = Lanarkshire; First name(s) = Sarah; Last name = Glasgow; Place = Glasgow; Record set = Scotland, Parish Births & Baptisms 1564-1929; Sex = Female. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_690417644; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-693575446",
+    "provider_record_id": "R_693575446",
+    "association": "Edward Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Edward Glasgow",
+    "date": "1615",
+    "year": 1615,
+    "place": "Inveresk with Musselburgh, Midlothian, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_693575446&tab=this",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: matched existing record subject. Edward Glasgow, indexed birth year 1615; no exact birth date, baptism date/year or mother supplied. Birth place field says Inveresk with Musselburgh. Same subject/event already assigned to Glasgow-1558; exact provider ID R_693575446 is listed in that existing source account with companion R_686177760. Reuse; no new event/person or vital correction. Indexed fields: Birth place = Inveresk with Musselburgh, Midlothian, Scotland; Birth year = 1615; Country = Scotland; County = Midlothian; Father's first name(s) = Edward; Father's last name = Glasgow; First name(s) = Edward; Last name = Glasgow; Place = Inveresk with Musselburgh; Record set = Scotland, Parish Births & Baptisms 1564-1929; Sex = Male. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-1558": {
+        "role": "Existing 1615 child/event match; reused companion index to R_686177760.",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1557": {
+        "role": "Named father profile already explicitly assessed at 98% proved; no reassessment.",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_693575446; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-4884236",
+    "provider_record_id": "SCOT/OPR/BAP/4884236",
+    "association": "Helen Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Helen Glasgow",
+    "date": "22 Nov 1769",
+    "year": 1769,
+    "place": "Simprim & Swinton, Berwickshire, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4884236&tab=this",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: identity HOLD. Helen Glasgow, explicit birth date 22 Nov 1769; baptism year is blank and no baptism date supplied. Place field is Simprim & Swinton (not explicitly labelled birth place); parents literally Patrick Glasgow and Jean Anderson. No child identity assigned; no new person proposed. Indexed fields: Archive reference = OPR 755/1; Birth date = 22 Nov 1769; Birth year = 1769; Country = Scotland; County = Berwickshire; Father's first name(s) = Patrick; Father's last name = Glasgow; First name(s) = Helen; Item = 8; Last name = Glasgow; Mother's first name(s) = Jean; Mother's last name = Anderson; Page = 19; Place = Simprim & Swinton; Record set = Scotland, Parish Births & Baptisms 1564-1929; Register year range = 1697-1854. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~14884236; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-4478030",
+    "provider_record_id": "SCOT/OPR/BAP/4478030",
+    "association": "John Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "John Glasgow",
+    "date": "15 Aug 1790",
+    "year": 1790,
+    "place": "Kirknewton & East Calder, Midlothian, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4478030&tab=this",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: matched existing record subject. John Glasgow, born 15 Aug 1790 (explicit birth date; no baptism date/year supplied), Kirknewton & East Calder; father literally Thos Glasgow and mother Margt Chapman. Existing Glasgow-427 finding gives the same date/parish/parents and compares Thomas-1620 through the same-parish 1789 marriage. The mother profile Chapman-28491 is an unassessed inherited tree link; do not upgrade it. No new child/relationship. External profile context: https://www.wikitree.com/wiki/Chapman-28491 (Existing unassessed tree mother link only; transcript literally says Margt Chapman and does not by itself identify this profile.); no local person or relationship is created. Indexed fields: Archive reference = OPR 690/3; Birth date = 15 Aug 1790; Birth year = 1790; Country = Scotland; County = Midlothian; Father's first name(s) = Thos; Father's last name = Glasgow; First name(s) = John; Item = 2; Last name = Glasgow; Mother's first name(s) = Margt; Mother's last name = Chapman; Page = 42; Place = Kirknewton & East Calder; Record set = Scotland, Parish Births & Baptisms 1564-1929; Register year range = 1766-1819. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-427": {
+        "role": "Existing John child/event and household account; later New Monkland identity remains separate.",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1620": {
+        "role": "Named father Thomas profile already selected at 98% proved; preserve grade.",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~14478030; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-0627016",
+    "provider_record_id": "SCOT/OPR/BAP/0627016",
+    "association": "Mary Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Mary Glasgow",
+    "date": "24 Jun 1751",
+    "year": 1751,
+    "place": "Edinburgh, Midlothian, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0627016&tab=this",
+    "status": "Previously saved inspected provider transcript; original register image not inspected for this batch",
+    "note": "Disposition: identity HOLD. Mary Glasgow, born 22 Jun 1751 and baptised 24 Jun 1751 (distinct dates), Place Edinburgh, residence N E P; father John Glasgow, Journeyman Weaver; mother Elizt Morison. No Mary child identity found. Glasgow-4109 and parent profiles Glasgow-3582/Morrison-24595 are family-context comparisons only; no Mary birth/death is assigned to them and no person is proposed. Indexed fields: Archive reference = OPR 685_1/27; Baptism date = 24 Jun 1751; Baptism year = 1751; Birth date = 22 Jun 1751; Birth year = 1751; Country = Scotland; County = Midlothian; Father's first name(s) = John; Father's last name = Glasgow; Father's occupation = Journeyman Weaver; First name(s) = Mary; Item = 3; Last name = Glasgow; Mother's first name(s) = Elizt; Mother's last name = Morison; Page = 36; Place = Edinburgh; Record set = Scotland, Parish Births & Baptisms 1564-1929; Register year range = 1750-1752; Residence = N E P. These saved September receipts were reconciled on 23 October, without a new provider fetch. Companion indexes of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-4109": {
+        "role": "Family-context only: existing Thomas Glasgow record names the same John Glasgow and Eliz Morison couple in Edinburgh; not a Mary identity or proved sibling link.",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-3582": {
+        "role": "Named-father profile comparison in Glasgow-4109's account only; not assigned to Mary.",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Morrison-24595": {
+        "role": "Named-mother profile comparison in Glasgow-4109's account only; not assigned to Mary.",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-remaining-b.json#/records/SCOT~1OPR~1BAP~10627016; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
     "reviewed_on": "2026-10-23",
     "publish_to_record_index": true
   }

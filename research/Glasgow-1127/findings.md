@@ -11,6 +11,8 @@ service registered 9 May 1766. The citation points to the printed *Decennial
 Indexes to the Services of Heirs in Scotland, 1700–1859*, but no official image
 or full printed entry was preserved with the page.
 
+Reviewed 23 October 2026: saved Findmypast evidence is integrated below with its exact record role and unresolved conflicts; this reuses existing captures and proposes no new person or relationship.
+
 ## Source findings
 
 | Source | Finding | Assessment |
@@ -47,3 +49,13 @@ Next useful test: Find Isobel’s baptism or an estate entry in the John/Agnes f
 This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [WikiTree profile export for Glasgow-1127](https://www.wikitree.com/wiki/Glasgow-1127)
+
+<!-- BEGIN FMP-CACHED65-20261023 -->
+## Saved Findmypast birth and baptism review — 23 October 2026
+
+Role in this account: Remote adult-baptism/name comparison only: estimated birth 1732 from 1821 death age, married by 1766; the sparse 1782 index supplies no parent or exact event date to identify her.. Disposition: scope HOLD. Isobell Glasgow is indexed with birth year/place 1782, Glasgow, Lanarkshire, but baptism year is blank and no parents are named. The year may not be an independently recorded birth date. Natal surname and identity remain unresolved; do not infer a new child or exclude earlier adults solely by the derivative year.
+
+- [Findmypast R_690419416](https://www.findmypast.co.uk/transcript?id=R_690419416&tab=this). Saved 2026-09-03.
+
+[Current shared record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). These are reused September transcripts, not new provider captures. Source-defined child identities, adult-profile comparisons and unresolved birth-surname scope remain separate. Original register images were not inspected in this batch; existing relationship grades and family attachments are retained.
+<!-- END FMP-CACHED65-20261023 -->

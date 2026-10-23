@@ -9,6 +9,8 @@ Current father assessment (22 October 2026): **98% (proved)** for [Glasgow-991](
 
 The Inveresk Agnes child entry of 22 February 1618 names James Glasgow as father and omits her mother. The exact Inveresk Agnes event is part of the selected James’s recorded parish family.
 
+Reviewed 23 October 2026: saved Findmypast evidence is integrated below with its exact record role and unresolved conflicts; this reuses existing captures and proposes no new person or relationship.
+
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-4938dce42a86
 
 The transcript-validated baptism record for **Agnes Glasgow**, 1618, Inveresk with Musselburgh, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
@@ -92,3 +94,13 @@ Next useful test: Check the full parish entry if a competing James is found.
 This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [James Glasgow in entry for Agnes Glasgow (22 Feb 1618 ), "Scotland Births and Baptisms, 1564-1950"](https://www.wikitree.com/wiki/Glasgow-993); [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Agnes Glasgow, 1618, record R_686182151](https://www.findmypast.co.uk/transcript?id=R_686182151&tab=this)
+
+<!-- BEGIN FMP-CACHED65-20261023 -->
+## Saved Findmypast birth and baptism review — 23 October 2026
+
+Role in this account: Same indexed 1618 Inveresk/Musselburgh child and named father James Glasgow-991; existing profile and findings already cite both companion transcripts.. Disposition: matched existing record subject. Two derivative entries describe one Agnes. The selected profile has 22 February 1618 from separate local index research; these cached transcripts give only birth year 1618, no birth day or baptism day. Mother remains unnamed. Do not count companions as independent proof or change the existing father grade.
+
+- [Findmypast R_693571192](https://www.findmypast.co.uk/transcript?id=R_693571192). Saved 2026-09-03.
+
+[Current shared record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). These are reused September transcripts, not new provider captures. Source-defined child identities, adult-profile comparisons and unresolved birth-surname scope remain separate. Original register images were not inspected in this batch; existing relationship grades and family attachments are retained.
+<!-- END FMP-CACHED65-20261023 -->

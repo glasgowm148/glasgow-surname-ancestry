@@ -4,6 +4,8 @@
 
 Robert’s older widower sequence is the leading adult identity for [Robert-1538](/people/glasgow-1538.html). The 1760 child of James Glasgow and Marion Saidler is preferred over the 1755 and 1758 children, but remains an inferred identification. The two Robert accounts are retained separately.
 
+Reviewed 23 October 2026: saved Findmypast evidence is integrated below with its exact record role and unresolved conflicts; this reuses existing captures and proposes no new person or relationship.
+
 ## Robert and Margaret Brash: probable family — 17 October 2026
 
 Robert Glasgow-1538, Margaret Brash’s husband, is probably the older widower represented by Robert Glasgow-1530. Both accounts claim the same Barony marriage, 6 November 1803, OPR 622/70/252. The older account has a coherent local sequence: marriage to Elizabeth Jack in 1789, her death or burial in 1802, marriage to Margaret Brash in 1803, and a Glasgow weaver’s burial or death in 1839 aged 79. That age favours the Robert baptised at Wandell and Lamington on 17 February 1760, whose indexed parents are James Glasgow and Marion Saidler, over the 1755, 1758 and 1784 births. James Glasgow-1120 and Marion Sadler-2849 are therefore selected as probable working parents of Robert-1538, at 62% each.
@@ -38,3 +40,27 @@ Scope: Complete father proposition84%; the child-to-widower identity is inferred
 Next useful test: Use residence, occupation or family witnesses to distinguish the three Robert childhoods.
 
 This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
+
+<!-- BEGIN FMP-CACHED65-20261023 -->
+## Saved Findmypast birth and baptism review — 23 October 2026
+
+Role in this account: Existing 96% adult father-profile assessment unchanged.. Disposition: matched existing record subject. Detailed OPR transcript explicitly labels 22 Aug 1797 James Glasgow birth, Barony, father Robt Glasgow weaver, mother Eliz Jack; companion index gives only year and same parents. Older description of 22 Aug as baptism is a date-role error. Glasgow-1530 father assessment 96% stays unchanged; Jack-2557 adult identity is not proved merely by the indexed name.
+
+- [Findmypast R_693249282](https://www.findmypast.co.uk/transcript?id=R_693249282&tab=this). Saved 2026-09-03.
+- [Findmypast SCOT/OPR/BAP/0396093](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0396093&tab=this). Saved 2026-09-03.
+
+Role in this account: existing adult father candidate, prior probable assessment retained. Disposition: matched existing record subject. Matching full parental pair, child name, year and parish connect this sparse IRI/FamilySearch derivative to the held Scotland’s People Barony OPR 622/30/255 account. This copy gives only birth year, not the held 20 Mar 1790 birth-or-baptism date; it adds no independent date precision or father-grade change.
+
+- [Findmypast R_690390677](https://www.findmypast.co.uk/transcript?id=R_690390677&tab=this). Saved 2026-09-03.
+
+Role in this account: Existing selected adult father-profile assessment unchanged.. Disposition: matched existing record subject. Detailed OPR transcript explicitly labels 6 May 1795 William Glasgow birth, Barony, father Robt Glasgow weaver, mother Eliz Jack; companion index gives only year and same parents. Original uninspected; register-range metadata 1797–1807 conflicts with stated event year. Existing adult-profile grades unchanged.
+
+- [Findmypast SCOT/OPR/BAP/0396092](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0396092&tab=this). Saved 2026-09-03.
+- [Findmypast R_693250432](https://www.findmypast.co.uk/transcript?id=R_693250432&tab=this). Saved 2026-09-03.
+
+Role in this account: Selected Robert father profile remains 98% proved on the combined household evidence; no regrade.. Disposition: matched existing record subject. Receipt gives birth year 1799 but baptism year/date blank. Held Scotland’s People index has 18 Apr 1799 Barony event; do not use this receipt to prove that the event date is exact birth rather than baptism. No new person, birth correction or relationship grade change.
+
+- [Findmypast R_693249828](https://www.findmypast.co.uk/transcript?id=R_693249828&tab=this). Saved 2026-09-03.
+
+[Current shared record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). These are reused September transcripts, not new provider captures. Source-defined child identities, adult-profile comparisons and unresolved birth-surname scope remain separate. Original register images were not inspected in this batch; existing relationship grades and family attachments are retained.
+<!-- END FMP-CACHED65-20261023 -->

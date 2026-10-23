@@ -6,6 +6,8 @@ Father reviewed22October2026: Glasgow-1343 remains selected at 97% (proved). Tho
 
 Reviewed 23 October 2026: the Findmypast page 7 account below adds explicitly qualified record evidence or identity comparisons; no new person or relationship is proposed.
 
+Reviewed 23 October 2026: saved Findmypast evidence is integrated below with its exact record role and unresolved conflicts; this reuses existing captures and proposes no new person or relationship.
+
 ## Current conclusion — additional newspaper originals, 5 October 2026
 
 Thomas Glasgow, Kentucky postal addressee, 1799: Recorded exact 8 September1761 Currie birth permits adulthood; estimated c.1834 Midlothian death is not exact, and no Kentucky bridge is supplied. No existing profile is identified. Glasgow-3592 and Glasgow-1620 are weak chronology-only comparisons with no Kentucky or correspondence bridge. Other compatible namesakes remain open; a birthplace or absent migration field is not an exclusion. No family or life-date change follows.
@@ -58,3 +60,17 @@ Role in this account: Named Thomas father; existing adult-profile assessment 96%
 
 [Shared current record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). Original images remain uninspected; comparison roles do not assign events or change family grades.
 <!-- END FMP-BIRTH-SCOPE-PAGE7-20261023 -->
+
+<!-- BEGIN FMP-CACHED65-20261023 -->
+## Saved Findmypast birth and baptism review — 23 October 2026
+
+Role in this account: Named Thos/Thomas father; existing 97% father-profile assessment retained.. Disposition: matched existing record subject. OPR 690/3 item 2 p.43 explicitly indexes Birth date 26 Aug 1792, but baptism year is blank; held FamilySearch citation labels 26 Aug as christening. Preserve the event-role discrepancy and current profile date pending original register; do not claim both events occurred on that day or use residence Clifton as proved birthplace. No relationship grade change. External profile context: https://www.wikitree.com/wiki/Chapman-28491 (Existing attached Margaret Chapman is a maternal comparison only: transcript says Mayt Chapman, while held FamilySearch entry says Margaret; do not silently resolve the name.); no local person or relationship is created.
+
+- [Findmypast SCOT/OPR/BAP/4478077](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4478077&tab=this). Saved 2026-09-03.
+
+Role in this account: Named father Thomas profile already selected at 98% proved; preserve grade.. Disposition: matched existing record subject. John Glasgow, born 15 Aug 1790 (explicit birth date; no baptism date/year supplied), Kirknewton & East Calder; father literally Thos Glasgow and mother Margt Chapman. Existing Glasgow-427 finding gives the same date/parish/parents and compares Thomas-1620 through the same-parish 1789 marriage. The mother profile Chapman-28491 is an unassessed inherited tree link; do not upgrade it. No new child/relationship. External profile context: https://www.wikitree.com/wiki/Chapman-28491 (Existing unassessed tree mother link only; transcript literally says Margt Chapman and does not by itself identify this profile.); no local person or relationship is created.
+
+- [Findmypast SCOT/OPR/BAP/4478030](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4478030&tab=this). Saved 2026-09-03.
+
+[Current shared record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). These are reused September transcripts, not new provider captures. Source-defined child identities, adult-profile comparisons and unresolved birth-surname scope remain separate. Original register images were not inspected in this batch; existing relationship grades and family attachments are retained.
+<!-- END FMP-CACHED65-20261023 -->

@@ -1,0 +1,158 @@
+{
+  "selected_provider_records": 65,
+  "groups": 57,
+  "statuses": {
+    "matched": 30,
+    "identity_hold": 23,
+    "scope_hold": 4
+  },
+  "canonical_public_source_unique": true,
+  "source_readers_checked": 65,
+  "global_search_rows_compared": 4870,
+  "reuse_ids_checked": {
+    "SCOT/OPR/BAP/0501646": [
+      "held-e-b986d98a81e8"
+    ],
+    "SCOT/OPR/BAP/4585634": [
+      "midcalder-jhone-1608-father-jhone"
+    ]
+  },
+  "sitemap_source_routes_checked": 65,
+  "approved_births_checked": {
+    "Glasgow-1305": "1796-10-21",
+    "Glasgow-1326": "1797-12-30",
+    "Glasgow-1414": "1751-11-27",
+    "Glasgow-1533": "1795-05-06",
+    "Glasgow-1534": "1797-08-22",
+    "Glasgow-427": "1790-08-15"
+  },
+  "other_selected_vital_dates_unchanged": 75,
+  "reviewed_on": "2026-10-23",
+  "full_goal_status": "INCOMPLETE",
+  "provider_records_in_current_ledger": 206,
+  "current_query_result_rows": 140,
+  "current_query_displayed_hits": 5872,
+  "current_query_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "new_provider_fetches": 0,
+  "cached_receipts_original_capture": "2026-09-03",
+  "new_people_proposed": 0,
+  "relationship_changes": [],
+  "source_levels": {
+    "saved_provider_transcripts": 65,
+    "original_images_inspected": 0
+  },
+  "scoped_publication": {
+    "selected_accounts": 81,
+    "findings_files_reported": 84,
+    "new_failures": 0,
+    "baseline_failure": "Existing REGISTER_ENTRY_DROPPED for Glasgow-3015; outside this batch.",
+    "notes": "Publication gate invoked by selected sync; reused without a duplicate run. Recorded nonfatal date/overview warnings retained."
+  },
+  "links": {
+    "pages": 25392,
+    "references": 1343161,
+    "existing_broken_references": 7,
+    "existing_page_target_pairs": 4,
+    "new_pairs": 0,
+    "nongated_missing_person_anchors": 83
+  },
+  "finalization": {
+    "mode": "selected sync already refreshed compact catalogue and QMD; reuse its 81-subject publication gate",
+    "site_search": {
+      "shared_search_assets": 1
+    },
+    "sitemap": {
+      "sitemap_urls": 23391,
+      "sitemap_reader_pages": 1252
+    },
+    "asset_write": {
+      "changed": 1,
+      "original_stale_references": 2
+    },
+    "asset_check": [
+      0,
+      0
+    ]
+  },
+  "vital_projection": {
+    "scope": "Three approved page-7 David Glasgow births only",
+    "subjects": {
+      "Glasgow-1305": "1796-10-21",
+      "Glasgow-1326": "1797-12-30",
+      "Glasgow-1414": "1751-11-27",
+      "Glasgow-1533": "1795-05-06",
+      "Glasgow-1534": "1797-08-22",
+      "Glasgow-427": "1790-08-15"
+    },
+    "changed": [
+      "www/onetree/glasgow-one-tree-polished-3/model.json",
+      "www/onetree/glasgow-one-tree-polished-3/index.html",
+      "www/assets/research/atlas-model.json",
+      "www/assets/research/atlas-model-packed.json"
+    ],
+    "models": {
+      "www/onetree/glasgow-one-tree-polished-3/model.json": {
+        "people": 4682,
+        "other_people_unchanged": 4676,
+        "family_graph_sha256_before": "7d7bb9cbf64458c48c55c056fd88f4c06e11dedf51a9a94b9a67a888c2c773a4",
+        "family_graph_sha256_after": "7d7bb9cbf64458c48c55c056fd88f4c06e11dedf51a9a94b9a67a888c2c773a4"
+      },
+      "www/assets/research/atlas-model.json": {
+        "people": 4529,
+        "other_people_unchanged": 4523,
+        "family_graph_sha256_before": "cf3314921441963821c6ddb0d3bc57da338a65d2d28c2c805ca5501ce3c1a5b9",
+        "family_graph_sha256_after": "cf3314921441963821c6ddb0d3bc57da338a65d2d28c2c805ca5501ce3c1a5b9"
+      }
+    },
+    "verified": {
+      "unrelated_people_unchanged": true,
+      "family_topology_and_grades_unchanged": true,
+      "public_dossiers_and_catalogue_precondition_met": true,
+      "standalone_embedded_matches_model": true,
+      "atlas_packed_matches_model": true
+    }
+  },
+  "relationship_verification": {
+    "selected_profile_count": 84,
+    "selected_core_changes": [],
+    "source_or_prose_only_changes": [],
+    "whole_model_topology_hashes": {
+      "standalone": {
+        "before": "be2efb65ff068e64e684a7c4d3f504f4559563d3591e6252c1933a5dc7f8aa55",
+        "after": "2685416521aa104e14c6e1221dd77a8c24c35e9434ff42c625c8a804e945d2b1",
+        "same": false
+      },
+      "atlas": {
+        "before": "edd701e249306cae149ea8ed5684a51aec2845f619343b0a9cd5483a6a7ef83f",
+        "after": "9eb4f3866c45bdf6982ec9aae85fe85ca7869fd2603020766bae145d0cce7ab1",
+        "same": false
+      }
+    },
+    "whole_hashes_are_informational": true,
+    "atlas_packed_matches_normal": true
+  },
+  "workflow_fixes": {
+    "performance_commit": "db6ca5736ef",
+    "tests_passed": 11,
+    "record_preflight": "ExactIDs and saved findings before retrieval;65cached receipts reused.",
+    "record_scope": "Later-born subjects retained for eligible parent/relative review.",
+    "publication_check": "Reused automatic selected sync gate.",
+    "deployment": "Local only; no live deployment."
+  },
+  "resource_check": {
+    "owned_browser_tabs": 0,
+    "original_browser_tabs_preserved": 2,
+    "browser_processes_launched": 0,
+    "renderers_launched": 0,
+    "idle_cua_runtime_reset": true,
+    "memory_pressure": "System-wide memory free percentage: 45%"
+  }
+}

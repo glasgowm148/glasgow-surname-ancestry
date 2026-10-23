@@ -11,6 +11,8 @@ Reviewed: 2026-10-17
 
 The Inveresk index identifies Eduard as a child of James Glasgow in 1609. Prefer him as the **possible identity of Edward at 14 February 1646, RS25 33/258, at 43%**, from his adult generation and existing local James-family comparison. For **8 July 1624, 9/135**, he remains an alternative at **30%**, while [Edward Glasgow-1557](https://www.wikitree.com/wiki/Glasgow-1557) is preferred at **56%**. These are separate subjective identity assessments, not proved kinship, a statistical measurement or a father change. [Edward Glasgow-1558](https://www.wikitree.com/wiki/Glasgow-1558) remains viable for both records; minority alone excludes neither younger man. This household interpretation does not establish a Corsankell connection. The dated review below supersedes the earlier unranked identity list.
 
+Reviewed 23 October 2026: saved Findmypast evidence is integrated below with its exact record role and unresolved conflicts; this reuses existing captures and proposes no new person or relationship.
+
 ## Record assessment — Findmypast Glasgow surname evidence fmp-glasgow-7cbeb1492d76
 
 The transcript-validated baptism record for **Eduard Glasgow**, 1609, Inveresk with Musselburgh, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
@@ -69,3 +71,13 @@ Next useful test: Compare later Edward evidence against the exact parish event.
 This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [James Glasgow in entry for Eduard Glasgow (27 Feb 1609), "Scotland Births and Baptisms, 1564-1950"](https://www.wikitree.com/wiki/Glasgow-994); [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Eduard Glasgow, 1609, record R_686174177](https://www.findmypast.co.uk/transcript?id=R_686174177&tab=this)
+
+<!-- BEGIN FMP-CACHED65-20261023 -->
+## Saved Findmypast birth and baptism review — 23 October 2026
+
+Role in this account: Existing Eduard identity; prior person-level audit and findings assign this indexed 1609 Inveresk/Musselburgh occurrence. James Glasgow is named as father in the transcript.. Disposition: matched existing record subject. Findmypast transcript/index gives Eduard Glasgow, birth year 1609, Inveresk with Musselburgh, father James; no exact birth or baptism date. The pre-1701 grouping and Glasgow-994 findings cite this ID and companion R_686174177; the findings also cite the separate 27 February 1609 OPR index. The Glasgow-994 dossier markdown path is only a heading stub and is not evidence. Do not infer adult Edward identity or treat companion transcripts as separate events.
+
+- [Findmypast R_693575445](https://www.findmypast.co.uk/transcript?id=R_693575445&tab=this). Saved 2026-09-03.
+
+[Current shared record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). These are reused September transcripts, not new provider captures. Source-defined child identities, adult-profile comparisons and unresolved birth-surname scope remain separate. Original register images were not inspected in this batch; existing relationship grades and family attachments are retained.
+<!-- END FMP-CACHED65-20261023 -->

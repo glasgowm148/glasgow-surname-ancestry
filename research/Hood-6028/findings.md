@@ -1,0 +1,17 @@
+# Hood-6028 research findings
+
+## Current conclusion
+
+Retain the qualified record roles below; no new person or family attachment is proposed.
+
+Reviewed 23 October 2026: saved Findmypast evidence is integrated below with its exact record role and unresolved conflicts; this reuses existing captures and proposes no new person or relationship.
+
+<!-- BEGIN FMP-CACHED65-20261023 -->
+## Saved Findmypast birth and baptism review — 23 October 2026
+
+Role in this account: Named mother Janet Hood; compatible existing mother profile.. Disposition: matched existing record subject. Cached OPR 793/3 item 1 p.103 explicitly gives James Glasgow birth 25 Dec 1777 with Kelso as parish/place, father David Glasgow and mother Janet Hood; baptism year is dash, so do not call 25 Dec a baptism. Existing Glasgow-1222 has this exact birth and parents; likely one child, not a new person. The maintained findings describe an older index as a baptism and separately assess a 1798 militia occurrence; this OPR transcript supports the birth date role but does not by itself identify the later militiaman. No new parent attachment or confidence change.
+
+- [Findmypast SCOT/OPR/BAP/5056630](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F5056630&tab=this). Saved 2026-09-03.
+
+[Current shared record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). These are reused September transcripts, not new provider captures. Source-defined child identities, adult-profile comparisons and unresolved birth-surname scope remain separate. Original register images were not inspected in this batch; existing relationship grades and family attachments are retained.
+<!-- END FMP-CACHED65-20261023 -->

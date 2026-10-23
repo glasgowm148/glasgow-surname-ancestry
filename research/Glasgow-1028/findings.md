@@ -21,6 +21,8 @@ in an Andrew/Jonet household is invalid.
 
 **Selected local working parent,15 October2026:** [Andrew Glasgow of Calder](/people/glasgow-3163.html), **uncertain**. David’s1606 and1612 Mid Calder baptisms place his household in the same small Calder area as the earlier Andrew household. His approximate generation permits Andrew to be his father. The first recorded daughter Elspeth is consistent with the Elizat name in Andrew’s household, a minor naming clue rather than a mother identification. Select Andrew as the tentative shared father with James and John; exact birth years remain estimates. The live WikiTree parent field is separate; this is a local hypothesis, with competing explanations below.
 
+Reviewed 23 October 2026: saved Findmypast evidence is integrated below with its exact record role and unresolved conflicts; this reuses existing captures and proposes no new person or relationship.
+
 ## Source findings
 
 | Source | Finding | Assessment |
@@ -79,3 +81,14 @@ Retain Glasgow-1085 and Glasgow-3185 as separate profile accounts of a possible 
 - [St Cuthbert’s marriage index, 19 July 1632; Issobell and Robert McCaskie; OPR 685/2,20/34,FR337](https://familysearch.org/ark:/61903/1:1:XY9T-2TP)
 - [Captured child profile already compares the 1612 child with the McCaskie bride](https://www.wikitree.com/wiki/Glasgow-1085)
 - [Older Isobel and William Symountoun, Edinburgh marriage register p.267 / PDF p.277; retained remarriage alternative](https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/register_of_marriages_for_the_parish_of_edinburgh_1595-1700_~_1898.pdf#page=277)
+
+<!-- BEGIN FMP-CACHED65-20261023 -->
+## Saved Findmypast birth and baptism review — 23 October 2026
+
+Role in this account: Recorded father David; existing adult comparison unchanged.. Disposition: matched existing record subject. Two selected IDs describe one 3 May 1612 Mid Calder baptism of Issobell Glasgow, father David; outside companion R_686309199 is already held. Birth year is baptism-derived. Later McCaskie-bride identity stays uncertain.
+
+- [Findmypast SCOT/OPR/BAP/4585815](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4585815&tab=this). Saved 2026-09-03.
+- [Findmypast R_694107871](https://www.findmypast.co.uk/transcript?id=R_694107871&tab=this). Saved 2026-09-03.
+
+[Current shared record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). These are reused September transcripts, not new provider captures. Source-defined child identities, adult-profile comparisons and unresolved birth-surname scope remain separate. Original register images were not inspected in this batch; existing relationship grades and family attachments are retained.
+<!-- END FMP-CACHED65-20261023 -->

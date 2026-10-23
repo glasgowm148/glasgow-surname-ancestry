@@ -136,15 +136,95 @@
     },
     "Glasgow-1533": {
       "current_sha256": "7111d28a64065669fbfc7b0e2c04bde19e70d9225a48fbdc2fff4e32ec2b596b",
-      "proposed_sha256": "063222553a9cab74a7a7cb2132031f437bd2593dcd41d712829fb4ff45c8fd02",
-      "previous_proposed_sha256": "7111d28a64065669fbfc7b0e2c04bde19e70d9225a48fbdc2fff4e32ec2b596b",
+      "proposed_sha256": "b19c1777aaa97ad6cdd9786ef6ef79821c933c7d611fce63ab0a090089d9db63",
+      "previous_proposed_sha256": "50a4d68df3ebcb65aaf2633544b8e174bddf8226d4e663cdd99d472c1c246cac",
       "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/father-coverage8-20261022/previous-proposals/Glasgow-1533.wiki",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-1533/father-confidence-2026-10-22h.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
+      "retained": "Complete captured and prior proposed biographies compared; existing sources and relationship assessments retained. Dated birth/baptism source clarification and explicitly qualified identity conflicts replace the superseded date wording.",
       "restored_source_passage_count": 0,
-      "reference_repairs": []
+      "reference_repairs": [],
+      "birth_transcript_review": {
+        "reviewed_on": "2026-10-23",
+        "prior_proposed_sha256": "50a4d68df3ebcb65aaf2633544b8e174bddf8226d4e663cdd99d472c1c246cac",
+        "new_proposed_sha256": "53770964f5cb282e20696c3045bb149ded1e68b2f5a8f3c63948c382a431c52b",
+        "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0396092&tab=this",
+        "comparison": {
+          "profile_id": "Glasgow-1533",
+          "prepared_on": "2026-10-23",
+          "workflow": "Proposed full biography only; no live WikiTree save or project-file edit.",
+          "captured_live_profile": {
+            "source": "data/wikitree/profile-evidence.json#/profiles/Glasgow-1533",
+            "captured_at": "2026-08-07T09:54:35+00:00",
+            "last_updated": "20250419144012",
+            "birth_date": "1795-05-06",
+            "birth_status": "before",
+            "birth_location": "Barony, Lanarkshire, Scotland",
+            "death_date": "0000-00-00",
+            "death_location": "Calton, Glasgow, Scotland, United Kingdom",
+            "father_uid": 29040021,
+            "mother_uid": 29040026,
+            "spouse_id": "Thomson-10728",
+            "biography_text_note": "Captured prose says born or baptised 6 May 1795; retains Stevenston/Saltcoats 1819 lead, 1851 Calton lodger/census and original Scotland’s People citation. Captured prose was read from profile-evidence; full editable markup was not newly fetched."
+          },
+          "current_maintained_draft": {
+            "path": "research/Glasgow-1533/father-confidence-2026-10-22h.wiki",
+            "sha256": "50a4d68df3ebcb65aaf2633544b8e174bddf8226d4e663cdd99d472c1c246cac",
+            "role": "Reviewed full replacement, 22 October father-confidence batch.",
+            "preserved_content": [
+              "Glasgow Name Study category",
+              "original Scotland’s People citation (accessed 19 April 2025)",
+              "1819 Stevenston/Saltcoats list wording and citation",
+              "1851 Calton hand-loom-weaver lodger paragraph, household list and Ancestry citation",
+              "22 October individual father review, 95% grade, previous unmarked status and scope",
+              "Sources and references sections"
+            ]
+          },
+          "proposed_revised_biography": {
+            "path": "/tmp/fmp-cached65-Glasgow-1533.wiki",
+            "sha256": "53770964f5cb282e20696c3045bb149ded1e68b2f5a8f3c63948c382a431c52b",
+            "text_changes": [
+              "Replace first biography sentence with explicit 6 May 1795 birth as labelled by inspected Findmypast transcript; add its full citation while retaining earlier Scotland’s People born-or-baptised citation verbatim.",
+              "Add dated research note stating baptism year blank, OPR 622/4 item 2 page 30, register range 1797–1807 conflict, original image uninspected, and no father-grade change."
+            ],
+            "structured_birth_proposal": {
+              "before": {
+                "date": "1795-05-06",
+                "status": "before"
+              },
+              "after": {
+                "date": "1795-05-06",
+                "status": "certain"
+              },
+              "reason": "The date string already exists in the live field, but before-status makes it an upper bound. The inspected Findmypast transcript explicitly labels 06 May 1795 Birth date and leaves Baptism year blank; original register image remains to be checked."
+            },
+            "protected_structured_fields": "Retain BirthLocation Barony, father Glasgow-1530, mother Jack-2557, spouse Thomson-10728, unknown death date, and current death location; change none in this draft."
+          },
+          "source_comparison": {
+            "findmypast": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~10396092",
+            "findmypast_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0396092&tab=this",
+            "literal_birth_date": "06 May 1795",
+            "literal_baptism_year": "-",
+            "parents_and_role": "Robt Glasgow, weaver; Eliz Jack; Barony, Lanarkshire",
+            "register_locator": "OPR 622/4, item 2, page 30",
+            "register_range_discrepancy": "Transcript metadata says 1797–1807 although explicit birth date is 1795; no original register image inspected.",
+            "earlier_scotlandspeople": "research/Glasgow-1533/findings.md; Parish 622, Ref 30/34, born or baptised 6 May 1795. Retained as originally cited, not misrepresented as an exact baptism date."
+          },
+          "checks": {
+            "original_ref_count": 3,
+            "revised_ref_count": 4,
+            "original_father_review_retained": true,
+            "original_census_household_retained": true,
+            "original_scotlandspeople_citation_retained": true
+          }
+        },
+        "normalization_comparison": {
+          "raw_draft_sha256": "53770964f5cb282e20696c3045bb149ded1e68b2f5a8f3c63948c382a431c52b",
+          "normalized_diff": [],
+          "all_captured_source_identities_retained": true
+        }
+      }
     },
     "Glasgow-3392": {
       "current_sha256": "be69e41a508febef454d3e09997fe4bf2f6fb2b41b4305444df7f0d355c9d3b5",
@@ -172,15 +252,70 @@
     },
     "Glasgow-1305": {
       "current_sha256": "a1d0896cfde0e26661f6af8490c0838503cce853c8e443f5c4edd13fd8b44932",
-      "proposed_sha256": "97a0e6df59ef7234496cf511e749ded4a445a097c517b80a239da00bca99ad9a",
-      "previous_proposed_sha256": "a1d0896cfde0e26661f6af8490c0838503cce853c8e443f5c4edd13fd8b44932",
+      "proposed_sha256": "bed4d8c2205900f99a854fdb041b9df8803df7d5d9bcc83017f5f30f10ec6039",
+      "previous_proposed_sha256": "58afa60ee4d3c2df3a08b91f1473522ffa5423b32845471ae277c94ea6ecd00a",
       "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/father-coverage8-20261022/previous-proposals/Glasgow-1305.wiki",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-1305/father-confidence-2026-10-22h.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
+      "retained": "Complete captured and prior proposed biographies compared; existing sources and relationship assessments retained. Dated birth/baptism source clarification and explicitly qualified identity conflicts replace the superseded date wording.",
       "restored_source_passage_count": 0,
-      "reference_repairs": []
+      "reference_repairs": [],
+      "birth_transcript_review": {
+        "reviewed_on": "2026-10-23",
+        "prior_proposed_sha256": "58afa60ee4d3c2df3a08b91f1473522ffa5423b32845471ae277c94ea6ecd00a",
+        "new_proposed_sha256": "022a9ad936f8e6292cd9497677d426b6a538b50a2d55a240cfc8288ed85ef9a5",
+        "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4478163&tab=this",
+        "comparison": {
+          "profile_id": "Glasgow-1305",
+          "status": "proposed biography only; no live edit",
+          "source_draft_path": "research/Glasgow-1305/father-confidence-2026-10-22h.wiki",
+          "output_path": "/tmp/fmp-cached65-Glasgow-1305.wiki",
+          "prior_proposed_sha256": "58afa60ee4d3c2df3a08b91f1473522ffa5423b32845471ae277c94ea6ecd00a",
+          "new_proposed_sha256": "022a9ad936f8e6292cd9497677d426b6a538b50a2d55a240cfc8288ed85ef9a5",
+          "captured_previous_proposal_path": "tmp/father-coverage8-20261022/previous-proposals/Glasgow-1305.wiki",
+          "captured_previous_proposal_sha256": "4bd8debef7c277d263f6fc32bb0099a1774528f8d85f6fbe1c8eb5e67e3534bc",
+          "previous_preservation_review_path": "research/ancestry-connections/father-coverage-preservation8-2026-10-22.json#/profiles/Glasgow-1305",
+          "removed_lines_exact": [
+            "{{Estimated Date}}\n",
+            "Janet was born before 1796. She is the daughter of [[Glasgow-1304|John Glasgow]] and [[Muckle-67|Margaret Muckle]]. \n",
+            "This dated review supersedes any earlier grade of this pair within the stated record scope. The existing father [[Glasgow-1304]] is assessed at 94% (proved). The held FamilySearch birth/baptism citation associates Janet before 1796 at Kirknewton with John Glasgow and Margaret Muckle. The paired mother, locality and ordered 1796–1814 children identify the existing adult household; the early Janet fits the opening of the Muckle child sequence.\n"
+          ],
+          "removed_line_justifications": [
+            "Estimated Date template superseded by transcript-supported exact birth date.",
+            "Previous approximate-birth biography sentence replaced with expanded exact-date biography retaining the linked father and mother.",
+            "Existing father-review paragraph retained in substance while marking its “before 1796” wording as a superseded earlier assessment."
+          ],
+          "existing_father_grade_retained": "94% (proved), no regrade",
+          "existing_source_citation_retained": true,
+          "existing_research_note_retained": true,
+          "existing_references_tag_retained": true,
+          "new_source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4478163&tab=this",
+          "new_source_scope": "Cached Findmypast transcript gives birth date, father/mother names, residence and OPR coordinates; baptism field blank, original register image uninspected.",
+          "identity_qualification": "Margt Meikle in transcript versus attached Margaret Muckle; strong compatible family but original/FamilySearch comparison pending.",
+          "existing_bound_qualification": "Existing before-6-November-1796 birth bound is not evidence of an exact baptism on 6 November.",
+          "checks": {
+            "source_draft_full_text_read": true,
+            "captured_previous_proposal_compared": true,
+            "no_existing_citations_or_father_assessment_deleted": true,
+            "draft_has_single_references_tag": true,
+            "all_removed_lines_accounted_for": true
+          }
+        },
+        "normalization_comparison": {
+          "raw_draft_sha256": "022a9ad936f8e6292cd9497677d426b6a538b50a2d55a240cfc8288ed85ef9a5",
+          "normalized_diff": [
+            "--- \n",
+            "+++ \n",
+            "@@ -1,3 +1,4 @@\n",
+            "+{{Estimated Date}}",
+            " <!-- REVIEWED FULL REPLACEMENT: additive father review eighth batch 2026-10-22 -->",
+            " [[Category:Glasgow Name Study]]",
+            " "
+          ],
+          "all_captured_source_identities_retained": true
+        }
+      }
     },
     "Glasgow-1351": {
       "current_sha256": "24a5a305053b0a0938ec51ba8b8ff00504a44db3af428f57b172c136946ed84b",
@@ -208,15 +343,90 @@
     },
     "Glasgow-1534": {
       "current_sha256": "78d066779369685d8bad927cec8c0de324bf5d628c915cf9748b1d350831b2b0",
-      "proposed_sha256": "61e509cff378252e9fca0174cb6c3dcf9116e7552fd086e6546c8bc26d2e5420",
-      "previous_proposed_sha256": "78d066779369685d8bad927cec8c0de324bf5d628c915cf9748b1d350831b2b0",
+      "proposed_sha256": "5783569da3beda425479845ed988ff09f80368cc56df8f431144b624b7b5d7ae",
+      "previous_proposed_sha256": "68dea6b3e3969c6cf6bdf9760d436a907638172a2cda7a92393c15e6e95df619",
       "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/father-coverage8-20261022/previous-proposals/Glasgow-1534.wiki",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-1534/father-confidence-2026-10-22h.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
+      "retained": "Complete captured and prior proposed biographies compared; existing sources and relationship assessments retained. Dated birth/baptism source clarification and explicitly qualified identity conflicts replace the superseded date wording.",
       "restored_source_passage_count": 0,
-      "reference_repairs": []
+      "reference_repairs": [],
+      "birth_transcript_review": {
+        "reviewed_on": "2026-10-23",
+        "prior_proposed_sha256": "68dea6b3e3969c6cf6bdf9760d436a907638172a2cda7a92393c15e6e95df619",
+        "new_proposed_sha256": "5e5e7ea15753056d9cadd37a5c1e01097f3b72aa47e75a55243b71287330dff3",
+        "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0396093&tab=this",
+        "comparison": {
+          "profile_id": "Glasgow-1534",
+          "source_paths": {
+            "queue_entry": "research/queue-review-2026-10-17/catalogue-integration.json#/profile_updates/Glasgow-1534",
+            "previous_draft": "research/Glasgow-1534/father-confidence-2026-10-22h.wiki",
+            "captured_current": "www/people/glasgow-1534.html#profile-update-current",
+            "current_vitals": "www/people/glasgow-1534.json#/vitals/birth",
+            "current_relationships": "www/people/glasgow-1534.json#/relationships/parents",
+            "findmypast_receipt": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~10396093",
+            "current_findings": "research/Glasgow-1534/findings.md",
+            "prior_assessment": "research/relationship_assessments.json#C-coverage-20261022h-glasgow-1534-father"
+          },
+          "sha256": {
+            "captured_current": "3438cb0b4d8b86b5544772d6d622e838121d7683baf903712bc2c0b55397f1f2",
+            "previous_queue_draft": "68dea6b3e3969c6cf6bdf9760d436a907638172a2cda7a92393c15e6e95df619",
+            "revised": "5e5e7ea15753056d9cadd37a5c1e01097f3b72aa47e75a55243b71287330dff3"
+          },
+          "captured_current_biography": "== Biography ==\nJames, son of [[Glasgow-1530|Robert Glasgow]] and [[Jack-2557|Elizabeth Jack]], was born or baptised on 22 August 1797 in Barony, Lanarkshire, Scotland.<ref>\"Church of Scotland: Old Parish Registers - Births and Baptisms,\" database, National Records of Scotland, [https://www.scotlandspeople.gov.uk/ ScotlandsPeople] (accessed 19 April 2025), James Glasgow born or baptised on 22 Aug 1797, son of Robert Glasgow & Elizabeth Jack, in Barony, Lanarkshire, Scotland; citing Parish Number 622, Ref 40/32.</ref> . \n\n\n== Sources ==\n<references />\n",
+          "previous_queue_draft": "<!-- REVIEWED FULL REPLACEMENT: additive father review eighth batch 2026-10-22 -->\n{{Estimated Date}}\n[[Category:Glasgow Name Study]]\n\n== Biography ==\nJames, son of [[Glasgow-1530|Robert Glasgow]] and [[Jack-2557|Elizabeth Jack]], was born or baptised on 22 August 1797 in Barony, Lanarkshire, Scotland.<ref>\"Church of Scotland: Old Parish Registers - Births and Baptisms,\" database, National Records of Scotland, [https://www.scotlandspeople.gov.uk/ ScotlandsPeople] (accessed 19 April 2025), James Glasgow born or baptised on 22 Aug 1797, son of Robert Glasgow & Elizabeth Jack, in Barony, Lanarkshire, Scotland; citing Parish Number 622, Ref 40/32.</ref> . \n\n\n== Research Notes ==\n=== Individual father review, 22 October 2026 ===\n\nThis dated review supersedes any earlier grade of this pair within the stated record scope. The existing father [[Glasgow-1530]] is assessed at 96% (proved). The held ScotlandsPeople Barony baptism citation explicitly names James Glasgow, 22 August 1797, as Robert Glasgow’s child with Elizabeth Jack. The 1789 Jack marriage and repeated paired parents identify the adult family convincingly.\n\nSelected father-profile identity and paternal relationship; maternal identity is separate.\n\nNext useful test: Read the original baptism for residence, occupation and precise mother’s surname.\n\nSource basis already held: [https://www.scotlandspeople.gov.uk/ \"Church of Scotland: Old Parish Registers - Births and Baptisms,\" database, National Records of Scotland, ScotlandsPeople (https://www.scotlandspeople.gov.uk/) (accessed 19 April 2025), James Glasgow born or baptised on 22 Aug 1797, son of Robert Glasgow & Elizabeth Jack, in Barony, Lanarkshire, Scotland; citing Parish Number 622, Ref 40/32.]. No new father attached; cited evidence and any inspected register entry are scoped above.\n\n== Sources ==\n<references />\n",
+          "revised_wikitext": "[[Category:Glasgow Name Study]]\n\n== Biography ==\nJames Glasgow was born on 22 August 1797 in Barony, Lanarkshire, Scotland, according to the Findmypast transcript, which explicitly labels this the birth date. It records his father as Robt Glasgow, a weaver, and his mother as Eliz Jack.<ref name=\"FMP1797\">Findmypast, ''Scotland, Parish Births & Baptisms 1564-1929'', transcript for James Glasgow, Birth date 22 Aug 1797; father Robt Glasgow, occupation Weaver; mother Eliz Jack; OPR 622/4, item 2, p. 30. Transcript captured 3 September 2026; original register image not inspected. [https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0396093&tab=this Transcript].</ref>\n\nThe existing father-profile assessment selects [[Glasgow-1530|Robert Glasgow]] at 96% (proved). The maternal name is retained as recorded; identity with the existing attached profile [[Jack-2557|Elizabeth Jack]] remains unassessed.<ref name=\"SP1797\">\"Church of Scotland: Old Parish Registers - Births and Baptisms,\" database, National Records of Scotland, [https://www.scotlandspeople.gov.uk/ ScotlandsPeople] (accessed 19 April 2025), James Glasgow born or baptised on 22 Aug 1797, son of Robert Glasgow & Elizabeth Jack, in Barony, Lanarkshire, Scotland; citing Parish Number 622, Ref 40/32. This index does not distinguish birth from baptism; original register image not inspected.</ref>\n\n== Research Notes ==\n=== Individual father review, 22 October 2026 ===\n\nThis dated review supersedes any earlier grade of this pair within the stated record scope. The existing father [[Glasgow-1530]] is assessed at 96% (proved). The held ScotlandsPeople Barony citation names James Glasgow, 22 August 1797, as Robert Glasgow’s child with Elizabeth Jack. The 1789 Jack marriage and repeated paired parents identify the adult family convincingly.\n\nThe Findmypast transcript explicitly labels 22 August 1797 as the birth date and supplies no baptism date. The ScotlandsPeople citation describes the same date as “born or baptised,” without distinguishing the event. The exact birth date therefore refines the former “before 22 August 1797” boundary; it does not establish a separate baptism date. The original register remains uninspected.\n\nSelected father-profile identity and paternal relationship; maternal identity is separate. “Eliz Jack” is the literal Findmypast maternal reading; her identity with Jack-2557 remains unassessed. This review adds no mother attachment or relationship grade change.\n\nNext useful test: Read the original baptism for residence, occupation and precise mother’s surname.\n\nSource basis already held: [https://www.scotlandspeople.gov.uk/ \"Church of Scotland: Old Parish Registers - Births and Baptisms,\" database, National Records of Scotland, ScotlandsPeople (https://www.scotlandspeople.gov.uk/) (accessed 19 April 2025), James Glasgow born or baptised on 22 Aug 1797, son of Robert Glasgow & Elizabeth Jack, in Barony, Lanarkshire, Scotland; citing Parish Number 622, Ref 40/32.]. No new father attached; the existing 96% assessment and its source scope remain unchanged.\n\n== Sources ==\n<references />\n",
+          "substantive_comparison": {
+            "retained": [
+              "Existing ScotlandsPeople citation and its exact source wording, including the ambiguous “born or baptised” role",
+              "Existing father review at 96% proved and its scope: paternal profile identity only",
+              "Mother recorded as Eliz Jack and explicit qualification of the modern Jack-2557 identity",
+              "Source limitation that original register image has not been inspected",
+              "All previous queue-draft father-review prose, next research question, and the full ScotlandsPeople citation are preserved; a new Findmypast citation and explicit date-role note are added."
+            ],
+            "revised": [
+              "Current profile birth is bounded before 22 Aug 1797; FMP receipt explicitly labels 22 Aug 1797 “Birth date,” supporting exact birth-date refinement",
+              "FMP transcript names Robt Glasgow, occupation Weaver, and Eliz Jack; OPR 622/4 item 2 p.30",
+              "No separate baptism date appears in the FMP transcript; ScotlandsPeople labels the event “born or baptised,” so the revision retains that ambiguity and does not invent a baptism date"
+            ],
+            "superseded": [
+              "The phrase “born or baptised on 22 August” as the biography’s sole event assertion is replaced by the transcript’s explicit Birth date field. The retained ScotlandsPeople citation still states its own ambiguity.",
+              "{{Estimated Date}} is removed because the current profile birth boundary is refined to an exact date."
+            ],
+            "omissions_or_deletions": [],
+            "preservation_review": "The full captured biography and prior queued replacement were compared with the revised text. The biography facts, all prior citations, father assessment rationale, relationship scope, next research question, and Sources section remain. The only precision change is to birth date based on the explicit Findmypast field; the ScotlandsPeople “born or baptised” wording remains cited and baptism date remains unspecified."
+          },
+          "source_facts": {
+            "fmp_birth_date": "22 Aug 1797 (explicit Birth date field)",
+            "fmp_baptism_date": "not supplied; Baptism year is “-”",
+            "fmp_parents": "Father Robt Glasgow; occupation Weaver; mother Eliz Jack",
+            "scotlandspeople_date_role": "Existing citation says born or baptised on 22 Aug 1797; does not distinguish the event",
+            "original_register_image": "not inspected"
+          },
+          "vital_change_proposed": {
+            "from": "before 1797-08-22",
+            "to": "1797-08-22",
+            "scope": "birth date only; existing place unchanged and not newly inferred"
+          },
+          "relationship_changes": [],
+          "parent_grade": "Glasgow-1530 remains 96% proved; no change",
+          "mother_identity": "Eliz Jack is transcript wording; identity with Jack-2557 remains unassessed"
+        },
+        "normalization_comparison": {
+          "raw_draft_sha256": "5e5e7ea15753056d9cadd37a5c1e01097f3b72aa47e75a55243b71287330dff3",
+          "normalized_diff": [
+            "--- \n",
+            "+++ \n",
+            "@@ -1,3 +1,4 @@\n",
+            "+{{Estimated Date}}",
+            " [[Category:Glasgow Name Study]]",
+            " ",
+            " == Biography =="
+          ],
+          "all_captured_source_identities_retained": true
+        }
+      }
     },
     "Glasgow-213": {
       "current_sha256": "3307c8e8e7e62fbcdfb7211fb09a37bb07dfbc7e5edd3c4efb34a1b9ca855daa",
@@ -268,15 +478,79 @@
     },
     "Glasgow-1326": {
       "current_sha256": "544299d2468641747445a7346ee5eb126819765c172774cc4f4972c82c9fb669",
-      "proposed_sha256": "9bc9bac2549fcb53e76d90e17cd32d399dfa43a23f8eac0d400f3c5e892ba93f",
-      "previous_proposed_sha256": "544299d2468641747445a7346ee5eb126819765c172774cc4f4972c82c9fb669",
+      "proposed_sha256": "80495cf2507653abc3a5b87c8dd841cc1cd1af15aff0b05498c2cf345ce787aa",
+      "previous_proposed_sha256": "aab2dfe11fbe2dae67462705b8a590a905eb8f3d73eaed8c0c064c15dbc07fa6",
       "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/father-coverage8-20261022/previous-proposals/Glasgow-1326.wiki",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-1326/father-confidence-2026-10-22h.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
+      "retained": "Complete captured and prior proposed biographies compared; existing sources and relationship assessments retained. Dated birth/baptism source clarification and explicitly qualified identity conflicts replace the superseded date wording.",
       "restored_source_passage_count": 0,
-      "reference_repairs": []
+      "reference_repairs": [],
+      "birth_transcript_review": {
+        "reviewed_on": "2026-10-23",
+        "prior_proposed_sha256": "aab2dfe11fbe2dae67462705b8a590a905eb8f3d73eaed8c0c064c15dbc07fa6",
+        "new_proposed_sha256": "22d48538aeeeff5f203b9cbab1da353d4b6350353d2fcafaa2a6a46add8c0d55",
+        "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4478189&tab=this",
+        "comparison": {
+          "profile_id": "Glasgow-1326",
+          "proposed_path": "/tmp/fmp-cached65-Glasgow-1326.wiki",
+          "baseline_capture": {
+            "path": "www/people/glasgow-1326.json#/wikitree_update/remote_wikitext",
+            "remote_revision": "2024-09-21",
+            "sha256": "544299d2468641747445a7346ee5eb126819765c172774cc4f4972c82c9fb669"
+          },
+          "current_queue_draft": {
+            "path": "research/Glasgow-1326/father-confidence-2026-10-22h.wiki",
+            "matches_www_data_draft_except_final_newline": true,
+            "sha256": "aab2dfe11fbe2dae67462705b8a590a905eb8f3d73eaed8c0c064c15dbc07fa6"
+          },
+          "proposed": {
+            "sha256": "22d48538aeeeff5f203b9cbab1da353d4b6350353d2fcafaa2a6a46add8c0d55",
+            "line_count": 33
+          },
+          "substantive_comparison": {
+            "captured_to_current": "Current draft retains captured biography, Calton burial paragraph, existing OPR citation and FamilySearch source, and adds study category, estimated-date template and an 87% probable father review.",
+            "current_to_revised": "Proposed exact transcript birth, literal parents and residence; retains held 13 January 1798 baptism citation; qualifies adult-profile identities, preserves burial block but flags its age conflict, keeps 87% father grade and source list. Removes Estimated Date template because specific derivative birth date is proposed.",
+            "material_conflict": "Calton burial 24 March 1821 gives age 22 months, implying about May 1819 birth; incompatible with 30 December 1797. Treat as unassigned lead.",
+            "source_limit": "Saved derivative receipt: research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~14478189. Original uninspected. Held baptism basis 690/30 124; compare page reference and Neobet/Nisbet."
+          },
+          "retained_phrase_checks": {
+            "Calton Burials Index": true,
+            "Buried: 24 March 1821": true,
+            "Aged: 22m: Cause of Death: water in the head.": true,
+            "VQ4K-TSS": true,
+            "690/30 124": true,
+            "87% (probable)": true,
+            "adult bridge": true,
+            "[[Category:Glasgow Name Study]]": true,
+            "30 December 1797": true,
+            "SCOT%2FOPR%2FBAP%2F4478189": true,
+            "OPR 690/3": true,
+            "item 2": true,
+            "page 45": true,
+            "Meadbk": true,
+            "Cath Neobet": true
+          },
+          "captured_ref_count": 1,
+          "proposed_ref_count": 2,
+          "parent_grade": "87% probable for Glasgow-1223 retained; Nisbet-3257 adult identity separately qualified",
+          "project_changes": false
+        },
+        "normalization_comparison": {
+          "raw_draft_sha256": "22d48538aeeeff5f203b9cbab1da353d4b6350353d2fcafaa2a6a46add8c0d55",
+          "normalized_diff": [
+            "--- \n",
+            "+++ \n",
+            "@@ -1,3 +1,4 @@\n",
+            "+{{Estimated Date}}",
+            " <!-- REVIEWED FULL REPLACEMENT: additive father review eighth batch 2026-10-22 -->",
+            " [[Category:Glasgow Name Study]]",
+            " "
+          ],
+          "all_captured_source_identities_retained": true
+        }
+      }
     },
     "Glasgow-1352": {
       "current_sha256": "55bfa9c9d3b350bc0fac0aa1ef658b0d63b6fcb06996b451fa1dea7caccc73d7",

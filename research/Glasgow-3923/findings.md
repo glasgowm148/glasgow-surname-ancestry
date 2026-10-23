@@ -12,6 +12,8 @@ Reviewed: 2026-10-15
 
 The Inveresk baptism identifies this James as Alexander Glasgow’s son. Identity with the James the weaver associated with Alexander in the 1646–1647 sasine index is possible and unproved. Glasgow-1150’s separately documented father is Robert of Wester Duddingston.
 
+Reviewed 23 October 2026: saved Findmypast evidence is integrated below with its exact record role and unresolved conflicts; this reuses existing captures and proposes no new person or relationship.
+
 ## Earlier identity assessment
 
 This profile correctly restores the child baptised at Inveresk and Musselburgh
@@ -96,3 +98,13 @@ The visually checked [SRO Indexes 44 (1958), Edinburgh etc. register of sasines 
 [Alexander Glasgow](/people/glasgow-1148.html)’s existing fatherhood of [James Glasgow](/people/glasgow-3923.html) is individually assessed at 98%, strongly supported, within the record-defined Inveresk family. The freshly re-read Findmypast R_686178012 gives James, birth year 1626, Inveresk with Musselburgh, father Alexander Glasgow and no mother or baptism date. The maintained FamilySearch VQ4V-GQW citation supplies19 March 1626. These derivatives are not independent witnesses to the baptism. The saved WikiTree father was already confident; this is a numeric assessment, not a new father or outstanding certainty upgrade. The proposed 1716 writer identity is assessed separately and does not change this child’s parentage. Findmypast SCOT/OPR/BUR/0189706 reports James Glasgow, writer, died11 October 1716 and buried14 October 1716, aged87; OPR685_1/86, item2, p.318, Edinburgh. Its 1629 birth year is calculated from age, not a recorded birth. Prefer this as a possible later identity of the Inveresk child James-3923 at 45%: the uncommon name, Midlothian setting and a three-year difference from the 1626 baptism make a useful comparison. No occupation is otherwise established for that child. This remains below probable: there is no parent, spouse, residence or career bridge, and another unrepresented James is a substantial possibility. [James Glasgow, the Edinburgh weaver](/people/glasgow-1150.html) is the separately recorded Edinburgh weaver, son of Robert of Wester Duddingston; [James Glasgow, the Biggar comparison](/people/glasgow-3332.html) is the unresolved Biggar/Quothquan/Lindsaylands weaver comparison. Their different occupations and age estimates weaken these matches without excluding them. Findmypast’s suggested records are automated leads, not corroboration. The 1716 death and writer occupation remain a candidate association; no structured birth or death field is changed.
 
 [1624printed index,pp.187–188](https://babel.hathitrust.org/cgi/pt?id=mdp.39015072481057&seq=193); [Maidment,Analecta ScoticaI,art.CXVI,pp.395–396,399](https://archive.org/details/analectascotica00maidgoog); [1626Inveresk transcript](https://www.findmypast.co.uk/transcript?id=R_686178012&tab=this); [1716Edinburgh burial transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F0189706&tab=this).
+
+<!-- BEGIN FMP-CACHED65-20261023 -->
+## Saved Findmypast birth and baptism review — 23 October 2026
+
+Role in this account: same James, son of Alexander Glasgow, indexed 1626 Inveresk with Musselburgh; reuse the existing catalogue baptism group. Disposition: matched existing record subject. Already represented in public catalogue alongside Findmypast R_686178012; this is companion derivative indexing, not another person or life event. The supplied record states birth year 1626 but no day or baptism date; the separate FamilySearch citation gives baptism 19 March 1626. Adult 1716 writer identity remains possible only; distinct Edinburgh weaver Glasgow-1150 has father Robert.
+
+- [Findmypast R_693575866](https://www.findmypast.co.uk/transcript?id=R_693575866&tab=this). Saved 2026-09-03.
+
+[Current shared record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). These are reused September transcripts, not new provider captures. Source-defined child identities, adult-profile comparisons and unresolved birth-surname scope remain separate. Original register images were not inspected in this batch; existing relationship grades and family attachments are retained.
+<!-- END FMP-CACHED65-20261023 -->

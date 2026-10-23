@@ -9,6 +9,8 @@ Two 1724 Court of Session file titles do not identify
 [[Glasgow-1090|George Glasgow]]. He would have been about ninety-seven, and no
 documentary bridge connects him to either process.
 
+Reviewed 23 October 2026: saved Findmypast evidence is integrated below with its exact record role and unresolved conflicts; this reuses existing captures and proposes no new person or relationship.
+
 ## Identity assessment — 1724 Court of Session files
 
 `CS143/24` names George Glasgow and Robert Crawford in title deeds;
@@ -52,3 +54,13 @@ The Glasgow High Kirk baptism of George, lawful son of John Glasgow and Jonet Ma
 This George is distinct from [George Glasgow (Glasgow-1560)](https://www.wikitree.com/wiki/Glasgow-1560), christened at Linlithgow on 20 January 1622 to John "Glesgow" ([FamilySearch X1RN-XVQ](https://familysearch.org/ark:/61903/1:1:X1RN-XVQ)): different place, date and mother.
 
 Recorded in `research/Glasgow-1090/Glasgow-1090.md` (legacy draft, last committed 29 September 2026); carried into this file on 7 October 2026.
+
+<!-- BEGIN FMP-CACHED65-20261023 -->
+## Saved Findmypast birth and baptism review — 23 October 2026
+
+Role in this account: Possible selected adult profile for recorded father George, previously assessed separately; this index does not prove the full adult identity.. Disposition: matched existing record subject. OPR 599/1 item 1; cached transcript register-range metadata says 1693–1819 although event date is 1688, an unresolved index inconsistency already present in maintained findings. Do not turn baptism into birth or alter Anne/Fanne Smith and 9/23 September variants without original image.
+
+- [Findmypast SCOT/OPR/BAP/3624989](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3624989&tab=this). Saved 2026-09-03.
+
+[Current shared record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). These are reused September transcripts, not new provider captures. Source-defined child identities, adult-profile comparisons and unresolved birth-surname scope remain separate. Original register images were not inspected in this batch; existing relationship grades and family attachments are retained.
+<!-- END FMP-CACHED65-20261023 -->

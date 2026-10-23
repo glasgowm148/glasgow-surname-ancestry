@@ -8,6 +8,8 @@ Last updated: 2026-10-07
 
 Current father assessment (22 October 2026): **97% (proved)** for [Glasgow-991](https://www.wikitree.com/wiki/Glasgow-991). Confident for the 1610 recorded child, without merging two events or assuming both children survived. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
+Reviewed 23 October 2026: saved Findmypast evidence is integrated below with its exact record role and unresolved conflicts; this reuses existing captures and proposes no new person or relationship.
+
 <!-- site-audit-2026-10-07:overall-conclusion -->
 Beatrix Glasgow was baptised at Mid Calder, Midlothian, on 15 April in 1610 or 1611; the entries name her father as James Glasgow and give no mother. Two Findmypast transcripts and the Scotland's People index (OPR 694, 10/17) give 15 April 1610, while a third Findmypast transcript of the Midcalder register gives 15 April 1611; the two readings in the file have not been reconciled. The original register has not been inspected.
 
@@ -77,3 +79,13 @@ Next useful test: Compare both Beatrix entries to establish whether the later ch
 This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Beatrix Glasgow, 15 Apr 1610, record R_686310039](https://www.findmypast.co.uk/transcript?id=R_686310039&tab=this)
+
+<!-- BEGIN FMP-CACHED65-20261023 -->
+## Saved Findmypast birth and baptism review — 23 October 2026
+
+Role in this account: Existing Beatrix child; same 15 April 1610 Mid Calder baptism as companion R_686310039, but a separate OPR transcript reads 15 April 1611.. Disposition: matched existing record subject. Cached derivative index names Beatrix Glasgow and father James at Mid Calder, baptism 15 Apr 1610; birth year 1610 is indexed from baptism and gives no independent birthday. R_686310039 is a companion of this event, not independent proof. Existing SCOT/OPR/BAP/4585741 reports 15 Apr 1611, unresolved against 1610; original register not inspected in the maintained Beatrix finding. Do not turn either baptism into exact birth or count two children; no relationship reassessment.
+
+- [Findmypast R_694107870](https://www.findmypast.co.uk/transcript?id=R_694107870&tab=this). Saved 2026-09-03.
+
+[Current shared record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). These are reused September transcripts, not new provider captures. Source-defined child identities, adult-profile comparisons and unresolved birth-surname scope remain separate. Original register images were not inspected in this batch; existing relationship grades and family attachments are retained.
+<!-- END FMP-CACHED65-20261023 -->

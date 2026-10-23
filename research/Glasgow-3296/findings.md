@@ -14,6 +14,8 @@ The selected local father changes from John-3296, uncertain 28%, to James-991, p
 
 [Current ancestry comparison](/branches/early-scottish-records/#chapter-easter-newton-working-ancestry).
 
+Reviewed 23 October 2026: saved Findmypast evidence is integrated below with its exact record role and unresolved conflicts; this reuses existing captures and proposes no new person or relationship.
+
 ## Earlier research retained
 
 The earlier sections below retain their dated evidence and reasoning. Statements selecting John-3296 or saying the 28% upstream route is unchanged are superseded by the current James-991 selection above. Other family conclusions remain in force.
@@ -214,3 +216,19 @@ Prioritise a discriminating household link for the Easter Newtoun adult: compare
 - [Findmypast, Annah, 20 June 1652, father Johne at Easter Newtoun; transcript inspected 18 October 2026](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4473604)
 - [Paton, Register of Marriages for the Parish of Edinburgh 1595–1700, printed p.267: John Glasgow, whipman, and Isobel Porteous, 30 June 1642; retained extract, no new page inspection](https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/register_of_marriages_for_the_parish_of_edinburgh_1595-1700_~_1898.pdf)
 - [FamilySearch, Isobell, Edinburgh, 4 April 1643; parents John Glasgow and Issobell Porteous; retained citation](https://www.familysearch.org/ark:/61903/1:1:X1YN-JHD)
+
+<!-- BEGIN FMP-CACHED65-20261023 -->
+## Saved Findmypast birth and baptism review — 23 October 2026
+
+Role in this account: Existing 46% possible adult father-profile comparison for named Jhone; unchanged.. Disposition: matched existing record subject. Two selected IDs describe one 24 Dec 1609 Mid Calder baptism of William Glasgow, father Jhone; outside companion R_686309726 is already held. Indexed birth year does not establish exact birthday. Glasgow-3296 stays a 46% possible adult father comparison.
+
+- [Findmypast R_694111819](https://www.findmypast.co.uk/transcript?id=R_694111819&tab=this). Saved 2026-09-03.
+- [Findmypast SCOT/OPR/BAP/4585702](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4585702&tab=this). Saved 2026-09-03.
+
+Role in this account: Compatible adult father-profile comparison for named Jhone; not newly established or upgraded.. Disposition: matched existing record subject. Two selected IDs describe one 26 June 1608 Mid Calder baptism of Jhone Glasgow, father Jhone; outside companion R_686312587 is already held. No exact birth or later Quothquan identity is proved.
+
+- [Findmypast SCOT/OPR/BAP/4585634](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4585634&tab=this). Saved 2026-09-03.
+- [Findmypast R_694112773](https://www.findmypast.co.uk/transcript?id=R_694112773&tab=this). Saved 2026-09-03.
+
+[Current shared record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). These are reused September transcripts, not new provider captures. Source-defined child identities, adult-profile comparisons and unresolved birth-surname scope remain separate. Original register images were not inspected in this batch; existing relationship grades and family attachments are retained.
+<!-- END FMP-CACHED65-20261023 -->

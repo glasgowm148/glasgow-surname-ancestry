@@ -12,6 +12,8 @@ The selected fathers and existing vital fields are retained. Percentages are sub
 
 Reviewed 23 October 2026: the Findmypast page 7 account below adds explicitly qualified record evidence or identity comparisons; no new person or relationship is proposed.
 
+Reviewed 23 October 2026: saved Findmypast evidence is integrated below with its exact record role and unresolved conflicts; this reuses existing captures and proposes no new person or relationship.
+
 ## Current conclusion — additional newspaper originals, 5 October 2026
 
 James Glasgow and father David, Kelso militia list, 1798: Uncertain birth before 13 April 1744 at Stitchel and regional context are compatible with the father David. This is an upper birth bound, not an exact year; the public link to James-1222 is tree-only and no occupation bridge is checked. The original explicitly describes James as son of David Glasgow. James-1222 and David-1218 are compatible regional/chronological candidates, but neither identity is proved; their existing Wiki Tree father link does not independently identify this newspaper family. No certainty upgrade or live parent change is justified. No family or life-date change follows.
@@ -97,3 +99,17 @@ Role in this account: Weak alternative candidate only; no death assigned. HOLD �
 
 [Shared current record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). Original images remain uninspected; comparison roles do not assign events or change family grades.
 <!-- END FMP-BIRTH-SCOPE-PAGE7-20261023 -->
+
+<!-- BEGIN FMP-CACHED65-20261023 -->
+## Saved Findmypast birth and baptism review — 23 October 2026
+
+Role in this account: plausible David/Janet Hood adult father household; earlier 1744 childhood separate. Disposition: identity HOLD. OPR 793/4 item 2 p.14 transcript explicitly records William Glasgow born 11 May 1786 at Kelso to David Glasgow and Janet Hood. It supports the record-defined child and exact birth field at transcript level, but cannot itself identify the later Corporal William Glass/Glasgow-1220. Existing parent attachments and 54% possible selected father assessment remain ungraded. No baptism date/year stated; original image uninspected. External profile context: https://www.wikitree.com/wiki/Glasgow-1219 (plausible Janet Hood adult mother household); no local person or relationship is created.
+
+- [Findmypast SCOT/OPR/BAP/5057434](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F5057434&tab=this). Saved 2026-09-03.
+
+Role in this account: Named father David; compatible existing parent profile, adult identity/grade retained.. Disposition: matched existing record subject. Cached OPR 793/3 item 1 p.103 explicitly gives James Glasgow birth 25 Dec 1777 with Kelso as parish/place, father David Glasgow and mother Janet Hood; baptism year is dash, so do not call 25 Dec a baptism. Existing Glasgow-1222 has this exact birth and parents; likely one child, not a new person. The maintained findings describe an older index as a baptism and separately assess a 1798 militia occurrence; this OPR transcript supports the birth date role but does not by itself identify the later militiaman. No new parent attachment or confidence change.
+
+- [Findmypast SCOT/OPR/BAP/5056630](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F5056630&tab=this). Saved 2026-09-03.
+
+[Current shared record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). These are reused September transcripts, not new provider captures. Source-defined child identities, adult-profile comparisons and unresolved birth-surname scope remain separate. Original register images were not inspected in this batch; existing relationship grades and family attachments are retained.
+<!-- END FMP-CACHED65-20261023 -->

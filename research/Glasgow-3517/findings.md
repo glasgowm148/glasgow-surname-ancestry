@@ -11,6 +11,8 @@ Reviewed: 2026-10-17
 
 The transcript-validated baptism record for **William Glasgow**, 1614, Inveresk with Musselburgh, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
 
+Reviewed 23 October 2026: saved Findmypast evidence is integrated below with its exact record role and unresolved conflicts; this reuses existing captures and proposes no new person or relationship.
+
 ## Source findings
 
 - [R_686177762 Findmypast transcript](https://www.findmypast.co.uk/transcript?id=R_686177762&tab=this): Baptism place: INVERESK WITH MUSSELBURGH, MIDLOTHIAN, SCOTLAND; Baptism year: -; Birth place: Inveresk with Musselburgh, Midlothian, Scotland; Birth year: 1614; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Country: Scotland; County: Midlothian; Father's first name(s): James; Father's last name: Glasgow; First name(s): William; Last name: Glasgow; Mother's first name(s): -; Place: Inveresk with Musselburgh; Record set: Scotland, Parish Births & Baptisms 1564-1929; Residence: Inveresk, Midlothian, Scotland; Sex: Male; Subcategory: Parish Baptisms (captured 2026-09-03T21:35:27.072Z).
@@ -57,3 +59,13 @@ Next useful test: Use residence or witnesses if another Inveresk James household
 This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: William Glasgow, 1614, record R_686177762](https://www.findmypast.co.uk/transcript?id=R_686177762&tab=this); ["Scotland, Births and Baptisms, 1564-1950", database, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:VQ4V-K87 : 16 September 2021), William Glasgow, 1614.](https://www.familysearch.org/ark:/61903/1:1:VQ4V-K87)
+
+<!-- BEGIN FMP-CACHED65-20261023 -->
+## Saved Findmypast birth and baptism review — 23 October 2026
+
+Role in this account: Companion index of the already assigned 1614 Inveresk/Musselburgh William, father James Glasgow; source lacks exact day and mother, so existing 10 July 1614 source and maternal identity stay separate.. Disposition: matched existing record subject. Maintained findings already cite this exact Findmypast record R_693575447 with R_686177762 as two derivative indexes of one William Glasgow event. Indexed birth year 1614, Inveresk with Musselburgh, father James; baptism year and mother blank. No new person, new birth-day correction or corroboration of Christina Bie maternity.
+
+- [Findmypast R_693575447](https://www.findmypast.co.uk/transcript?id=R_693575447&tab=this). Saved 2026-09-03.
+
+[Current shared record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). These are reused September transcripts, not new provider captures. Source-defined child identities, adult-profile comparisons and unresolved birth-surname scope remain separate. Original register images were not inspected in this batch; existing relationship grades and family attachments are retained.
+<!-- END FMP-CACHED65-20261023 -->

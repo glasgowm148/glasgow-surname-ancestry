@@ -19,6 +19,8 @@ Use the row-ID preflight before detail navigation, then check the existing catal
 
 Use combined name, chronology, parish/residence, occupation, named family and life-course evidence. Distinguish a named parent in a transcript from identification with a particular adult profile. Review mothers independently. A new record does not automatically raise the existing father percentage.
 
+Apply the birth cutoff to each relevant recorded person, not only the search-result subject. A later-born child's entry may supply evidence for an eligible Glasgow parent. Retain such records for secondary-role review rather than classifying the whole record as excluded from the child's birth year alone; do not infer an adult-profile identity merely from a parent name.
+
 Retain explicit dispositions in the existing matching review:
 
 - **Matched existing subject:** evidence identifies the existing child/event; keep independently supported birth and baptism roles distinct.
@@ -47,6 +49,8 @@ Use existing records, cases and schemas, not a parallel person registry:
 Findings about one person belong in that person's account, cross-referenced from relatives. Use checked local destinations for canonical profile roles. If a named relative has only an external WikiTree profile, cite that checked link and explain the role without fabricating a local destination. Synchronize only changed source/person surfaces, in this order: reviewed record ingestion, affected person/source findings, latest findings, affected study, then backlinks. Coverage-only or skipped-held-record updates do not trigger site builds.
 
 For a vital correction, update the approved current model and complete proposed biography, preserve distinct event dates, and queue the exact field action. Preserve unrelated life events, citations and relationship assessments. A revised biography can invalidate a preservation-review hash: compare the complete captured and revised texts, record justified retained/superseded content, then refresh the review. Never merely bless a new hash or bypass the guard.
+
+Before an expensive synchronization, validate each changed preservation review against the loader's normalized complete proposal, including restored references and stripped boundary whitespace; the raw draft-file hash can differ. Account for normalization changes and source preservation as well as the substantive edit.
 
 A newly established date can invalidate an earlier newspaper or other identity comparison. Reconcile its maintained review, subject draft, current findings, study and queued wording; retain the previous dated assessment as superseded history. Do not erase competing candidates or extend the exclusion to a different later event without evidence.
 
@@ -82,7 +86,7 @@ Derive assertions from actual current schemas and the selected scope; use no har
 - When search/index/vital data changed, compare affected full, fast and hydrated detail rows and the relevant `has_profile`, `missing_profile` and `needs_wikitree_update` memberships/counts. Do not rerun a global index check for unchanged dependencies. Open one representative affected UI flow when needed; a text search can also return people who mention the queried ID.
 - Verify complete current/proposed/diff views and the actual outstanding amendment. Retired duplicate stubs must resolve to the established profile and disappear as active people, while remaining inspectable as history.
 - For added/changed routes, verify source routes in approved XML and the relevant source-directory entries. The human `/sitemap/` intentionally links directories rather than listing every individual person/source. Run one final selected-batch or corpus-wide consistency gate when appropriate, rather than repeating it after each unchanged batch.
-- Run `tools/check_research_publication.py --id <IDs>` after findings/register/queue changes and `make check-links`. Use one `--id` followed by all selected IDs; repeating the flag checks only the last selection. Confirm the reported subject count. Fix caused failures; distinguish existing baselines and non-gated anchor reports. Record material unverified behavior honestly.
+- Run the publication gate after findings/register/queue changes and `make check-links`. A successful selected `sync_catalogue_research.py --write <IDs>` already invokes `check_research_publication` for those IDs: retain its log, confirm the reported subject count and reuse that result when those inputs remain unchanged. Otherwise run `tools/check_research_publication.py --id <IDs>`. Use one `--id` followed by all selected IDs; repeating the flag checks only the last selection. Fix caused failures; distinguish existing baselines and non-gated anchor reports. Record material unverified behavior honestly.
 - Verify unchanged relationship topology/grades when the batch only adds sources or refines dates. Distinguish new transcript captures, derivative-image inspections and original-record inspections, and new relationships from confirmations.
 
 Commit coherent verified work with a Conventional Commit; do not push. Stage selected JSON entries or hunks when shared files have concurrent changes. Keep unrelated source edits, styling, personal files and temporary captures out of the commit. Inventory task resources again and leave no owned browser/render/scanner work running after completion.

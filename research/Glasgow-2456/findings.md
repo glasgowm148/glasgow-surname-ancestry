@@ -7,6 +7,8 @@ Last updated: 2026-09-10
 
 No sourced conclusion recorded yet.
 
+Reviewed 23 October 2026: saved Findmypast evidence is integrated below with its exact record role and unresolved conflicts; this reuses existing captures and proposes no new person or relationship.
+
 ## Source findings
 
 | Source | Finding | Assessment |
@@ -50,3 +52,13 @@ This is a review of existing evidence, not a newly discovered record. Attached f
 Reason: The Inveresk and Musselburgh baptism index of 1 May 1609 names Eduard Glasgow as father; NRS OPR 689/10/19.
 
 Source summary: The Inveresk and Musselburgh baptism index of 1 May 1609 names Eduard Glasgow as father; NRS OPR 689/10/19. Saved on WikiTree and verified in the live edit form on 28 September 2026; only the father certainty and its explanation were updated.
+
+<!-- BEGIN FMP-CACHED65-20261023 -->
+## Saved Findmypast birth and baptism review — 23 October 2026
+
+Role in this account: Existing Cristiane child; Inveresk 1609 and named Eduard match the held Scotland’s People OPR 689/10/19 account.. Disposition: matched existing record subject. Companion to already-cited R_686178483, which public record ad3a65d32f03ae8f groups with this ID in its note. The new receipt has birth year 1609 but no baptism date; held 1 May 1609 is an indexed OPR event date, not independently proved birthday. Mother is blank; retain existing maternal assessment without treating her as named. No new person or vital correction.
+
+- [Findmypast R_693571691](https://www.findmypast.co.uk/transcript?id=R_693571691&tab=this). Saved 2026-09-03.
+
+[Current shared record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). These are reused September transcripts, not new provider captures. Source-defined child identities, adult-profile comparisons and unresolved birth-surname scope remain separate. Original register images were not inspected in this batch; existing relationship grades and family attachments are retained.
+<!-- END FMP-CACHED65-20261023 -->

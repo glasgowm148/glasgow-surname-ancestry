@@ -11,6 +11,8 @@ Reviewed: 2026-10-15
 
 This profile represents the Edward baptised in 1615. Both he and Edward-1557 are compatible candidates for the Edward indexed alongside Alexander and James the weaver in 1646; the original instrument must establish identity and kinship.
 
+Reviewed 23 October 2026: saved Findmypast evidence is integrated below with its exact record role and unresolved conflicts; this reuses existing captures and proposes no new person or relationship.
+
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-f8bbedf29384
 
 The transcript-validated baptism record for **Edward Glasgow**, 1615, Inveresk with Musselburgh, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
@@ -69,3 +71,13 @@ Next useful test: Test any later adult identification against date, occupation a
 This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Edward Glasgow, 1615, record R_686177760](https://www.findmypast.co.uk/transcript?id=R_686177760)
+
+<!-- BEGIN FMP-CACHED65-20261023 -->
+## Saved Findmypast birth and baptism review — 23 October 2026
+
+Role in this account: Existing 1615 child/event match; reused companion index to R_686177760.. Disposition: matched existing record subject. Edward Glasgow, indexed birth year 1615; no exact birth date, baptism date/year or mother supplied. Birth place field says Inveresk with Musselburgh. Same subject/event already assigned to Glasgow-1558; exact provider ID R_693575446 is listed in that existing source account with companion R_686177760. Reuse; no new event/person or vital correction.
+
+- [Findmypast R_693575446](https://www.findmypast.co.uk/transcript?id=R_693575446&tab=this). Saved 2026-09-03.
+
+[Current shared record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). These are reused September transcripts, not new provider captures. Source-defined child identities, adult-profile comparisons and unresolved birth-surname scope remain separate. Original register images were not inspected in this batch; existing relationship grades and family attachments are retained.
+<!-- END FMP-CACHED65-20261023 -->
