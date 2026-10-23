@@ -3969,3 +3969,10 @@ Twenty additional transcripts are recorded under existing people or qualified ca
 | [James Glasgow](https://www.wikitree.com/wiki/Glasgow-62) | OPEN | Add qualified 1860 death-transcription details and 1818 bond context; no father selected from contributed Robert/Sarah claim. |
 
 | [Samuel Glasgow](https://www.wikitree.com/wiki/Glasgow-2872) | OPEN | Add compatible 1824 estate’s original kin clauses and will-date caution; retain existing 72% father assessment and all family/vital fields. |
+
+
+## 23 October 2026 — Nottingham original-page family review
+
+| [Cunningham Ramsay Glasgow](https://www.wikitree.com/wiki/Glasgow-3742) | OPEN | Existing father Hugh: 83% → 97% confident from Gibson’s explicit adult-son account; exact dates and maternity unchanged. |
+| [Hugh Glasgow](https://www.wikitree.com/wiki/Glasgow-2873) | OPEN | Existing father John-2871: 94% → 82% probable; original Gibson paternal dates conflict, tax succession remains circumstantial. |
+| [John Glasgow](https://www.wikitree.com/wiki/Glasgow-2871) | OPEN | Add separate 1789/1792 original estates, uncle-family comparison and corrected Gibson attribution; preserve parents and vital fields. |

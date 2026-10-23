@@ -18812,6 +18812,161 @@
           ]
         }
       ]
+    },
+    {
+      "slug": "nottingham-probate",
+      "title": "Nottingham probate: John, his nephew Peter and John Taylor",
+      "introduction": "The two John Glasgow estates distinguish a 1789 West Nottingham shoemaker’s uncle–nephew family from a 1792 East Nottingham estate. The latter mentions a deceased John Glasgow shoemaker as debtor, a probable link to the earlier estate but no proof of kinship between its two Johns. These connected sourced drafts keep the named relatives together while existing profile identities remain open. The actual 1789 and 1792 dates are not silently reconciled.",
+      "people": [
+        {
+          "anchor": "john-shoemaker",
+          "name": "John Glasgow, West Nottingham shoemaker, estate 1789",
+          "status": "HOLD — connected documentary family; profile identity unresolved",
+          "identity_note": "The original identifies Peter’s deceased uncle. Its 1789 date conflicts with the retained deaths of John-2870 and John-2871; the exact profile identity remains unresolved.",
+          "minimum_fields": "John Glasgow; male; deceased before 26 March 1789; West Nottingham, Chester County; birth, wife, children and parents unknown. Uncle of Peter Glasgow; no named father inferred.",
+          "facts": [
+            {
+              "finding": "John Glasgow died intestate before 26 March 1789. On that date Peter Glasgow of West Nottingham certified that John was his uncle and had lived at his house about twenty-seven years. His estate inventory included eleven old shoemaker lasts. John Taylor received administration on 31 March. Peter described Taylor as his sister’s son, which does not itself make Taylor the deceased’s son.",
+              "sources": [
+                {
+                  "title": "Chester County original probate file 4015, John Glasgow, West Nottingham, 1789; volume 03901–4050, portal pp. 1060–1066",
+                  "url": "https://portal.laserfiche.com/Portal/DocView.aspx?id=772934&page=1065&repo=r-24f48cc6"
+                }
+              ]
+            },
+            {
+              "finding": "Compare this distinct 1789 uncle with the separate 1792 estate and Hugh Glasgow’s selected paternal family; no identity or kinship between the two estate owners is established.",
+              "sources": [
+                {
+                  "title": "1792 original inventory",
+                  "url": "https://portal.laserfiche.com/Portal/DocView.aspx?id=772936&page=247&repo=r-24f48cc6"
+                },
+                {
+                  "title": "John-2871: current Nottingham family comparison",
+                  "url": "/people/glasgow-2871.html"
+                }
+              ]
+            }
+          ],
+          "candidates": [],
+          "duplicate_check": [
+            "Bounded local historical catalogue and three lexical reviewed-note searches, 23 October 2026; no global-profile completeness claimed.",
+            "John-2870’s 1769 death and John-2871’s 1792 death conflict with an estate inventoried in March 1789; do not assign it by name alone.",
+            "Peter-2878 (1740–1812, Whitebank/Stitchill, Jean Anderson) is generation compatible but no Pennsylvania association is held. Later Scottish burial alone does not exclude earlier American residence.",
+            "Peter-3102 (1699 Edinburgh baptism) is a remote age-compatible lead, approximately 90 in 1789, without a held later life.",
+            "Peter-1466 has a competing Bathgate/Elizabeth Dick family with births in 1783,1785,1787,1790 and later; Peter-1450’s 1790 baptism/c1810 biography is internally unresolved, not a secure exclusion by baptism alone.",
+            "The only local John Taylor, Taylor-32027 (1633 Dunfermline), has incompatible chronology for the 1789 administrator.",
+            "Uncle, nephew, administrator and debtor roles are distinct. No name is supplied for Peter’s father or sister; the record does not specify whether John was a paternal or maternal uncle."
+          ],
+          "next_test": "Compare estate accounts and Nottingham tax/deed descriptions; inspect Administration Book 2 p. 386 for the separate 1792 John. Preserve the conflicting 1769/1792 profile deaths until evidence resolves them.",
+          "wikitext": "[[Category:Glasgow Name Study]]\n\n== Biography ==\nJohn Glasgow died intestate before 26 March 1789. On that date Peter Glasgow of West Nottingham certified that John was his uncle and had lived at his house about twenty-seven years. His estate inventory included eleven old shoemaker lasts. John Taylor received administration on 31 March. Peter described Taylor as his sister’s son, which does not itself make Taylor the deceased’s son.<ref>Chester County Register of Wills, original file 4015, West Nottingham, 1789, volume 03901–4050, portal pp. 1060–1066; Peter’s certificate p. 1065. [https://portal.laserfiche.com/Portal/DocView.aspx?id=772934&page=1065&repo=r-24f48cc6 Official original]. Images inspected 23 October 2026.</ref>\n\n== Research Notes ==\nProfile identity remains unresolved. No father, mother or exact birth/death date is supplied by the inspected estate. The 1792 John estate records a debt from a deceased John Glasgow shoemaker; the 1789 man is a probable identification of that debtor, not a proved relative of the 1792 John.\n\n== Sources ==\n<references />\n",
+          "related_drafts": [
+            {
+              "name": "Peter Glasgow",
+              "url": "/research/subjects/nottingham-probate/#peter-nephew",
+              "relationship": "Same original family record"
+            },
+            {
+              "name": "John Taylor",
+              "url": "/research/subjects/nottingham-probate/#john-taylor",
+              "relationship": "Same original family record"
+            }
+          ]
+        },
+        {
+          "anchor": "peter-nephew",
+          "name": "Peter Glasgow, nephew and householder, 1789",
+          "status": "HOLD — connected documentary family; profile identity unresolved",
+          "identity_note": "The original connects Peter to his uncle John and nephew John Taylor. Two Scottish Peter profiles remain possible identities; neither has a held Pennsylvania bridge.",
+          "minimum_fields": "Peter Glasgow; male; living at West Nottingham in March 1789; birth, death, wife, children and parents unknown. John Glasgow was his uncle. John Taylor was his sister’s son.",
+          "facts": [
+            {
+              "finding": "Peter Glasgow certified on 26 March 1789 that his uncle John Glasgow had lived at his house about twenty-seven years and had died intestate. Peter asked for administration to go to John Taylor, whom he called his sister’s son. The certificate identifies an uncle–nephew family but names neither Peter’s father nor his sister.",
+              "sources": [
+                {
+                  "title": "Chester County original probate file 4015, John Glasgow, West Nottingham, 1789; volume 03901–4050, portal pp. 1060–1066",
+                  "url": "https://portal.laserfiche.com/Portal/DocView.aspx?id=772934&page=1065&repo=r-24f48cc6"
+                }
+              ]
+            }
+          ],
+          "candidates": [
+            {
+              "id": "Glasgow-2878",
+              "reason": "Generation-compatible Scottish Peter, 1740–1812; no held Pennsylvania bridge. Retain as a possible identity, not an established match."
+            },
+            {
+              "id": "Glasgow-3102",
+              "reason": "Remote surviving candidate from an Edinburgh 1699 baptism; later life unknown and would be about 90 in 1789."
+            }
+          ],
+          "duplicate_check": [
+            "Bounded local historical catalogue and three lexical reviewed-note searches, 23 October 2026; no global-profile completeness claimed.",
+            "John-2870’s 1769 death and John-2871’s 1792 death conflict with an estate inventoried in March 1789; do not assign it by name alone.",
+            "Peter-2878 (1740–1812, Whitebank/Stitchill, Jean Anderson) is generation compatible but no Pennsylvania association is held. Later Scottish burial alone does not exclude earlier American residence.",
+            "Peter-3102 (1699 Edinburgh baptism) is a remote age-compatible lead, approximately 90 in 1789, without a held later life.",
+            "Peter-1466 has a competing Bathgate/Elizabeth Dick family with births in 1783,1785,1787,1790 and later; Peter-1450’s 1790 baptism/c1810 biography is internally unresolved, not a secure exclusion by baptism alone.",
+            "The only local John Taylor, Taylor-32027 (1633 Dunfermline), has incompatible chronology for the 1789 administrator.",
+            "Uncle, nephew, administrator and debtor roles are distinct. No name is supplied for Peter’s father or sister; the record does not specify whether John was a paternal or maternal uncle."
+          ],
+          "next_test": "Compare Peter’s signature, household tax entries and any Pennsylvania migration/land accounts with the Scottish candidates; do not invent a named father from the uncle relationship.",
+          "wikitext": "[[Category:Glasgow Name Study]]\n\n== Biography ==\nPeter Glasgow certified on 26 March 1789 that his uncle John Glasgow had lived at his house about twenty-seven years and had died intestate. Peter asked for administration to go to John Taylor, whom he called his sister’s son. The certificate identifies an uncle–nephew family but names neither Peter’s father nor his sister.<ref>Chester County Register of Wills, original file 4015, West Nottingham, 1789, volume 03901–4050, portal pp. 1060–1066; Peter’s certificate p. 1065. [https://portal.laserfiche.com/Portal/DocView.aspx?id=772934&page=1065&repo=r-24f48cc6 Official original]. Images inspected 23 October 2026.</ref>\n\n== Research Notes ==\nProfile identity remains unresolved. Compatible Peter profiles remain under comparison; do not create a duplicate from this draft. No father, mother or exact birth/death date is supplied by the inspected estate. \n\n== Sources ==\n<references />\n",
+          "related_drafts": [
+            {
+              "name": "John Glasgow",
+              "url": "/research/subjects/nottingham-probate/#john-shoemaker",
+              "relationship": "Same original family record"
+            },
+            {
+              "name": "John Taylor",
+              "url": "/research/subjects/nottingham-probate/#john-taylor",
+              "relationship": "Same original family record"
+            }
+          ]
+        },
+        {
+          "anchor": "john-taylor",
+          "name": "John Taylor, Peter Glasgow’s nephew and administrator, 1789",
+          "status": "HOLD — connected documentary family; profile identity unresolved",
+          "identity_note": "Peter explicitly calls the administrator his sister’s son. The only locally catalogued John Taylor has incompatible chronology; a profile identity remains unresolved.",
+          "minimum_fields": "John Taylor; male; appointed administrator 31 March 1789, Chester County; Peter Glasgow’s sister’s son; birth, death, father and mother’s given name unknown.",
+          "facts": [
+            {
+              "finding": "John Taylor was appointed administrator of John Glasgow’s estate on 31 March 1789. In his 26 March certificate Peter Glasgow called Taylor his sister’s son. This states Taylor’s nephew relationship to Peter; his office alone does not establish any other kinship.",
+              "sources": [
+                {
+                  "title": "Chester County original probate file 4015, John Glasgow, West Nottingham, 1789; volume 03901–4050, portal pp. 1060–1066",
+                  "url": "https://portal.laserfiche.com/Portal/DocView.aspx?id=772934&page=1065&repo=r-24f48cc6"
+                }
+              ]
+            }
+          ],
+          "candidates": [],
+          "duplicate_check": [
+            "Bounded local historical catalogue and three lexical reviewed-note searches, 23 October 2026; no global-profile completeness claimed.",
+            "John-2870’s 1769 death and John-2871’s 1792 death conflict with an estate inventoried in March 1789; do not assign it by name alone.",
+            "Peter-2878 (1740–1812, Whitebank/Stitchill, Jean Anderson) is generation compatible but no Pennsylvania association is held. Later Scottish burial alone does not exclude earlier American residence.",
+            "Peter-3102 (1699 Edinburgh baptism) is a remote age-compatible lead, approximately 90 in 1789, without a held later life.",
+            "Peter-1466 has a competing Bathgate/Elizabeth Dick family with births in 1783,1785,1787,1790 and later; Peter-1450’s 1790 baptism/c1810 biography is internally unresolved, not a secure exclusion by baptism alone.",
+            "The only local John Taylor, Taylor-32027 (1633 Dunfermline), has incompatible chronology for the 1789 administrator.",
+            "Uncle, nephew, administrator and debtor roles are distinct. No name is supplied for Peter’s father or sister; the record does not specify whether John was a paternal or maternal uncle."
+          ],
+          "next_test": "Follow Taylor’s administration accounts, signature and land records to identify his mother without assigning the incompatible 1633 Taylor profile.",
+          "wikitext": "[[Category:Glasgow Name Study]]\n\n== Biography ==\nJohn Taylor was appointed administrator of John Glasgow’s estate on 31 March 1789. In his 26 March certificate Peter Glasgow called Taylor his sister’s son. This states Taylor’s nephew relationship to Peter; his office alone does not establish any other kinship.<ref>Chester County Register of Wills, original file 4015, West Nottingham, 1789, volume 03901–4050, portal pp. 1060–1066; Peter’s certificate p. 1065. [https://portal.laserfiche.com/Portal/DocView.aspx?id=772934&page=1065&repo=r-24f48cc6 Official original]. Images inspected 23 October 2026.</ref>\n\n== Research Notes ==\nProfile identity remains unresolved. No father, mother or exact birth/death date is supplied by the inspected estate. \n\n== Sources ==\n<references />\n",
+          "related_drafts": [
+            {
+              "name": "John Glasgow",
+              "url": "/research/subjects/nottingham-probate/#john-shoemaker",
+              "relationship": "Same original family record"
+            },
+            {
+              "name": "Peter Glasgow",
+              "url": "/research/subjects/nottingham-probate/#peter-nephew",
+              "relationship": "Same original family record"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

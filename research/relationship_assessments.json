@@ -22570,18 +22570,20 @@
       "Glasgow-2873",
       "Glasgow-2871"
     ],
-    "status": "proved",
+    "status": "probable",
     "publication_status": "approved",
     "working_selection": false,
     "allow_new_relationship": false,
-    "assessment_date": "2026-10-22",
-    "basis": "John’s80-acre West Nottingham tax holding passes from him in 1787–1791 to Hugh in 1793–1799, immediately after John’s 1792 death. Gibson’s county history places Hugh’s birth at Nottingham where his father settled. The succession, chronology and specific locality together support the existing son identification strongly.",
-    "reason": "John’s80-acre West Nottingham tax holding passes from him in 1787–1791 to Hugh in 1793–1799, immediately after John’s 1792 death. Gibson’s county history places Hugh’s birth at Nottingham where his father settled. The succession, chronology and specific locality together support the existing son identification strongly.",
-    "claim": "Glasgow-2871 remains the selected father of Glasgow-2873, individually assessed 94%.",
-    "record_scope": "Confident inferred father94%; neither tax list literally says son. This does not establish John’s Scottish ancestry or Mary Cranmer’s earlier generation.",
-    "limitations": "Confident inferred father94%; neither tax list literally says son. This does not establish John’s Scottish ancestry or Mary Cranmer’s earlier generation.",
+    "assessment_date": "2026-10-23",
+    "basis": "The retained John-2871 remains the leading named father hypothesis for Hugh. The reviewed Chester tax index lists John with 80 acres in West Nottingham in 1787–1791 and Hugh with 80 acres in 1793–1799, after John’s recorded 1792 death. That consecutive name, locality and acreage pattern supports family succession, but the tax index is not a conveyance proving the same parcel or a father–son relationship. The newly inspected Gibson p. 414 names neither parent and instead says Hugh’s father emigrated about 1730 and died in 1772. Those dates conflict with John-2871’s retained 1738 birth and 1792 death. The late history may contain errors, so the existing father remains probable, but its general Nottingham context cannot be counted as independent agreement on this particular John. File 4225 independently documents a John’s 1792 East Nottingham estate; it does not name Hugh in the inspected surviving papers.",
+    "reason": "The retained John-2871 remains the leading named father hypothesis for Hugh. The reviewed Chester tax index lists John with 80 acres in West Nottingham in 1787–1791 and Hugh with 80 acres in 1793–1799, after John’s recorded 1792 death. That consecutive name, locality and acreage pattern supports family succession, but the tax index is not a conveyance proving the same parcel or a father–son relationship. The newly inspected Gibson p. 414 names neither parent and instead says Hugh’s father emigrated about 1730 and died in 1772. Those dates conflict with John-2871’s retained 1738 birth and 1792 death. The late history may contain errors, so the existing father remains probable, but its general Nottingham context cannot be counted as independent agreement on this particular John. File 4225 independently documents a John’s 1792 East Nottingham estate; it does not name Hugh in the inspected surviving papers.",
+    "claim": "Glasgow-2873 retains Glasgow-2871 as the selected father, individually assessed 82%.",
+    "record_scope": "82% is an individual subjective estimate for Hugh-2873 → John-2871, reduced from 94% after original-page review. The index succession remains useful circumstantial evidence; the unnamed 1886 paternal account is substantive counterevidence. Neither John-2870 nor the 1789 shoemaker is selected as a replacement. No parent is detached, and no vital field or mother is changed.",
+    "limitations": "82% is an individual subjective estimate for Hugh-2873 → John-2871, reduced from 94% after original-page review. The index succession remains useful circumstantial evidence; the unnamed 1886 paternal account is substantive counterevidence. Neither John-2870 nor the 1789 shoemaker is selected as a replacement. No parent is detached, and no vital field or mother is changed.",
     "source_ids": [
-      "held-e-eb7f560153a5"
+      "held-e-eb7f560153a5",
+      "york-gibson-hugh-glasgow-1886-p414",
+      "chester-john-glasgow-estate-4225-1792"
     ],
     "assessment_history": [
       {
@@ -22591,21 +22593,31 @@
         "probability_percent": null,
         "claim_id": "C-812b12fe5523",
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+      },
+      {
+        "status": "proved",
+        "probability_percent": 94,
+        "assessment_date": "2026-10-22",
+        "source_basis": "John’s80-acre West Nottingham tax holding passes from him in 1787–1791 to Hugh in 1793–1799, immediately after John’s 1792 death. Gibson’s county history places Hugh’s birth at Nottingham where his father settled. The succession, chronology and specific locality together support the existing son identification strongly.",
+        "record_scope": "Confident inferred father94%; neither tax list literally says son. This does not establish John’s Scottish ancestry or Mary Cranmer’s earlier generation.",
+        "source_ids": [
+          "held-e-eb7f560153a5"
+        ]
       }
     ],
     "perspectives": {
       "Glasgow-2873": {
         "relationship": "father",
-        "reason": "John’s80-acre West Nottingham tax holding passes from him in 1787–1791 to Hugh in 1793–1799, immediately after John’s 1792 death. Gibson’s county history places Hugh’s birth at Nottingham where his father settled. The succession, chronology and specific locality together support the existing son identification strongly."
+        "reason": "The retained John-2871 remains the leading named father hypothesis for Hugh. The reviewed Chester tax index lists John with 80 acres in West Nottingham in 1787–1791 and Hugh with 80 acres in 1793–1799, after John’s recorded 1792 death. That consecutive name, locality and acreage pattern supports family succession, but the tax index is not a conveyance proving the same parcel or a father–son relationship. The newly inspected Gibson p. 414 names neither parent and instead says Hugh’s father emigrated about 1730 and died in 1772. Those dates conflict with John-2871’s retained 1738 birth and 1792 death. The late history may contain errors, so the existing father remains probable, but its general Nottingham context cannot be counted as independent agreement on this particular John. File 4225 independently documents a John’s 1792 East Nottingham estate; it does not name Hugh in the inspected surviving papers."
       },
       "Glasgow-2871": {
         "relationship": "son",
-        "reason": "John’s80-acre West Nottingham tax holding passes from him in 1787–1791 to Hugh in 1793–1799, immediately after John’s 1792 death. Gibson’s county history places Hugh’s birth at Nottingham where his father settled. The succession, chronology and specific locality together support the existing son identification strongly."
+        "reason": "The retained John-2871 remains the leading named father hypothesis for Hugh. The reviewed Chester tax index lists John with 80 acres in West Nottingham in 1787–1791 and Hugh with 80 acres in 1793–1799, after John’s recorded 1792 death. That consecutive name, locality and acreage pattern supports family succession, but the tax index is not a conveyance proving the same parcel or a father–son relationship. The newly inspected Gibson p. 414 names neither parent and instead says Hugh’s father emigrated about 1730 and died in 1772. Those dates conflict with John-2871’s retained 1738 birth and 1792 death. The late history may contain errors, so the existing father remains probable, but its general Nottingham context cannot be counted as independent agreement on this particular John. File 4225 independently documents a John’s 1792 East Nottingham estate; it does not name Hugh in the inspected surviving papers."
       }
     },
     "analysis_links": [
       {
-        "label": "Father confidence review",
+        "label": "Original-source family review",
         "href": "/people/glasgow-2873.html#research-findings"
       }
     ],
@@ -22618,17 +22630,20 @@
         "claim_id": "C-812b12fe5523",
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
       },
-      "original_inspected_in_batch": false,
-      "live_flag_changed": false
+      "original_inspected_in_batch": true,
+      "live_flag_changed": false,
+      "latest_review": "research/ancestry-connections/nottingham-probate-review-2026-10-23.json"
     },
     "probability": {
-      "value": 0.94,
-      "basis": "John’s80-acre West Nottingham tax holding passes from him in 1787–1791 to Hugh in 1793–1799, immediately after John’s 1792 death. Gibson’s county history places Hugh’s birth at Nottingham where his father settled. The succession, chronology and specific locality together support the existing son identification strongly.",
-      "reviewed": "2026-10-22",
+      "value": 0.82,
+      "basis": "The retained John-2871 remains the leading named father hypothesis for Hugh. The reviewed Chester tax index lists John with 80 acres in West Nottingham in 1787–1791 and Hugh with 80 acres in 1793–1799, after John’s recorded 1792 death. That consecutive name, locality and acreage pattern supports family succession, but the tax index is not a conveyance proving the same parcel or a father–son relationship. The newly inspected Gibson p. 414 names neither parent and instead says Hugh’s father emigrated about 1730 and died in 1772. Those dates conflict with John-2871’s retained 1738 birth and 1792 death. The late history may contain errors, so the existing father remains probable, but its general Nottingham context cannot be counted as independent agreement on this particular John. File 4225 independently documents a John’s 1792 East Nottingham estate; it does not name Hugh in the inspected surviving papers.",
+      "reviewed": "2026-10-23",
       "source_ids": [
-        "held-e-eb7f560153a5"
+        "held-e-eb7f560153a5",
+        "york-gibson-hugh-glasgow-1886-p414",
+        "chester-john-glasgow-estate-4225-1792"
       ],
-      "scope": "Confident inferred father94%; neither tax list literally says son. This does not establish John’s Scottish ancestry or Mary Cranmer’s earlier generation."
+      "scope": "82% is an individual subjective estimate for Hugh-2873 → John-2871, reduced from 94% after original-page review. The index succession remains useful circumstantial evidence; the unnamed 1886 paternal account is substantive counterevidence. Neither John-2870 nor the 1789 shoemaker is selected as a replacement. No parent is detached, and no vital field or mother is changed."
     }
   },
   {
@@ -67358,18 +67373,19 @@
       "Glasgow-3742",
       "Glasgow-2873"
     ],
-    "status": "probable",
+    "status": "proved",
     "publication_status": "approved",
     "working_selection": false,
     "allow_new_relationship": false,
-    "assessment_date": "2026-10-22",
-    "basis": "Hugh Glasgow’s held family reconstruction names Cunningham Ramsay Glasgow, with Find a Grave and the U.S.House biography as sources for the 1769–1818 congressman. Cunningham’s 1806 birth fits the second family; cited obituary images lack transcribed parent wording.",
-    "reason": "Hugh Glasgow’s held family reconstruction names Cunningham Ramsay Glasgow, with Find a Grave and the U.S.House biography as sources for the 1769–1818 congressman. Cunningham’s 1806 birth fits the second family; cited obituary images lack transcribed parent wording.",
-    "claim": "Glasgow-2873 remains the selected father of Glasgow-3742, individually assessed 83%.",
-    "record_scope": "Selected father-profile identity and paternal relationship; maternal identity is separate.",
-    "limitations": "Selected father-profile identity and paternal relationship; maternal identity is separate.",
+    "assessment_date": "2026-10-23",
+    "basis": "Gibson’s inspected printed p. 414 explicitly calls Cunningham R. Glasgow the congressman Hugh Glasgow’s son and locates his farm about a mile south of the old Glasgow homestead, on the Maryland side of the Mason–Dixon line. The existing Cunningham Ramsay-3742, born 1806, is the adult son of that distinctive name in Hugh’s family. The other Cunningham, Sample-3747, died in infancy and cannot be the mature farmer described. The specific name, recorded father, adult generation and family locality identify the existing pair strongly beyond the earlier memorial/profile reconstruction.",
+    "reason": "Gibson’s inspected printed p. 414 explicitly calls Cunningham R. Glasgow the congressman Hugh Glasgow’s son and locates his farm about a mile south of the old Glasgow homestead, on the Maryland side of the Mason–Dixon line. The existing Cunningham Ramsay-3742, born 1806, is the adult son of that distinctive name in Hugh’s family. The other Cunningham, Sample-3747, died in infancy and cannot be the mature farmer described. The specific name, recorded father, adult generation and family locality identify the existing pair strongly beyond the earlier memorial/profile reconstruction.",
+    "claim": "Glasgow-3742 retains Glasgow-2873 as the selected father, individually assessed 97%.",
+    "record_scope": "97% is a confident identification of the existing father–child profile pair from an explicit son statement in a late compiled history. It is not a newly discovered birth entry. The book’s present-tense description may reflect information gathered before its 1886 publication; the profile’s retained 1885 death is not corrected to 1886. No mother, exact vital date, parent attachment or live WikiTree flag is changed.",
+    "limitations": "97% is a confident identification of the existing father–child profile pair from an explicit son statement in a late compiled history. It is not a newly discovered birth entry. The book’s present-tense description may reflect information gathered before its 1886 publication; the profile’s retained 1885 death is not corrected to 1886. No mother, exact vital date, parent attachment or live WikiTree flag is changed.",
     "source_ids": [
-      "held-e-d908563ed7e1"
+      "held-e-d908563ed7e1",
+      "york-gibson-hugh-glasgow-1886-p414"
     ],
     "assessment_history": [
       {
@@ -67382,21 +67398,31 @@
         "claim_id": "C-2b16a9b42ca8",
         "source_ids": [],
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+      },
+      {
+        "status": "probable",
+        "probability_percent": 83,
+        "assessment_date": "2026-10-22",
+        "source_basis": "Hugh Glasgow’s held family reconstruction names Cunningham Ramsay Glasgow, with Find a Grave and the U.S.House biography as sources for the 1769–1818 congressman. Cunningham’s 1806 birth fits the second family; cited obituary images lack transcribed parent wording.",
+        "record_scope": "Selected father-profile identity and paternal relationship; maternal identity is separate.",
+        "source_ids": [
+          "held-e-d908563ed7e1"
+        ]
       }
     ],
     "perspectives": {
       "Glasgow-3742": {
         "relationship": "father",
-        "reason": "Hugh Glasgow’s held family reconstruction names Cunningham Ramsay Glasgow, with Find a Grave and the U.S.House biography as sources for the 1769–1818 congressman. Cunningham’s 1806 birth fits the second family; cited obituary images lack transcribed parent wording."
+        "reason": "Gibson’s inspected printed p. 414 explicitly calls Cunningham R. Glasgow the congressman Hugh Glasgow’s son and locates his farm about a mile south of the old Glasgow homestead, on the Maryland side of the Mason–Dixon line. The existing Cunningham Ramsay-3742, born 1806, is the adult son of that distinctive name in Hugh’s family. The other Cunningham, Sample-3747, died in infancy and cannot be the mature farmer described. The specific name, recorded father, adult generation and family locality identify the existing pair strongly beyond the earlier memorial/profile reconstruction."
       },
       "Glasgow-2873": {
         "relationship": "son",
-        "reason": "Hugh Glasgow’s held family reconstruction names Cunningham Ramsay Glasgow, with Find a Grave and the U.S.House biography as sources for the 1769–1818 congressman. Cunningham’s 1806 birth fits the second family; cited obituary images lack transcribed parent wording."
+        "reason": "Gibson’s inspected printed p. 414 explicitly calls Cunningham R. Glasgow the congressman Hugh Glasgow’s son and locates his farm about a mile south of the old Glasgow homestead, on the Maryland side of the Mason–Dixon line. The existing Cunningham Ramsay-3742, born 1806, is the adult son of that distinctive name in Hugh’s family. The other Cunningham, Sample-3747, died in infancy and cannot be the mature farmer described. The specific name, recorded father, adult generation and family locality identify the existing pair strongly beyond the earlier memorial/profile reconstruction."
       }
     },
     "analysis_links": [
       {
-        "label": "Father confidence review",
+        "label": "Original-source family review",
         "href": "/people/glasgow-3742.html#research-findings"
       }
     ],
@@ -67412,17 +67438,19 @@
         "source_ids": [],
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
       },
-      "original_inspected_in_batch": false,
-      "live_flag_changed": false
+      "original_inspected_in_batch": true,
+      "live_flag_changed": false,
+      "latest_review": "research/ancestry-connections/nottingham-probate-review-2026-10-23.json"
     },
     "probability": {
-      "value": 0.83,
-      "basis": "Hugh Glasgow’s held family reconstruction names Cunningham Ramsay Glasgow, with Find a Grave and the U.S.House biography as sources for the 1769–1818 congressman. Cunningham’s 1806 birth fits the second family; cited obituary images lack transcribed parent wording.",
-      "reviewed": "2026-10-22",
+      "value": 0.97,
+      "basis": "Gibson’s inspected printed p. 414 explicitly calls Cunningham R. Glasgow the congressman Hugh Glasgow’s son and locates his farm about a mile south of the old Glasgow homestead, on the Maryland side of the Mason–Dixon line. The existing Cunningham Ramsay-3742, born 1806, is the adult son of that distinctive name in Hugh’s family. The other Cunningham, Sample-3747, died in infancy and cannot be the mature farmer described. The specific name, recorded father, adult generation and family locality identify the existing pair strongly beyond the earlier memorial/profile reconstruction.",
+      "reviewed": "2026-10-23",
       "source_ids": [
-        "held-e-d908563ed7e1"
+        "held-e-d908563ed7e1",
+        "york-gibson-hugh-glasgow-1886-p414"
       ],
-      "scope": "Selected father-profile identity and paternal relationship; maternal identity is separate."
+      "scope": "97% is a confident identification of the existing father–child profile pair from an explicit son statement in a late compiled history. It is not a newly discovered birth entry. The book’s present-tense description may reflect information gathered before its 1886 publication; the profile’s retained 1885 death is not corrected to 1886. No mother, exact vital date, parent attachment or live WikiTree flag is changed."
     }
   },
   {

@@ -52957,6 +52957,95 @@
           "url": "https://portal.laserfiche.com/Portal/DocView.aspx?id=773006&page=588&repo=r-24f48cc6"
         }
       ]
+    },
+    {
+      "id": "gibson-hugh-cunningham-father-review-20261023",
+      "found_on": "2026-10-23",
+      "reviewed_on": "2026-10-23",
+      "kind": "relationship",
+      "status": "qualified",
+      "detail_url": "/people/glasgow-3742.html",
+      "finding": "Gibson’s actual p. 414 explicitly names adult Cunningham R. Glasgow as Hugh’s son, strengthening the existing pair 83% → 97%. The same page leaves Hugh’s parents unnamed and gives a c1730 migration/1772 paternal death that conflicts with selected father John-2871, whose assessment is reduced 94% → 82%.",
+      "qualification": "97% is a confident identification of the existing father–child profile pair from an explicit son statement in a late compiled history. It is not a newly discovered birth entry. The book’s present-tense description may reflect information gathered before its 1886 publication; the profile’s retained 1885 death is not corrected to 1886. No mother, exact vital date, parent attachment or live WikiTree flag is changed. 82% is an individual subjective estimate for Hugh-2873 → John-2871, reduced from 94% after original-page review. The index succession remains useful circumstantial evidence; the unnamed 1886 paternal account is substantive counterevidence. Neither John-2870 nor the 1789 shoemaker is selected as a replacement. No parent is detached, and no vital field or mother is changed.",
+      "people": [
+        {
+          "id": "Glasgow-3742",
+          "name": "Cunningham Ramsay Glasgow",
+          "url": "/people/glasgow-3742.html",
+          "role": "Confidently identified adult son; existing father retained"
+        },
+        {
+          "id": "Glasgow-2873",
+          "name": "Hugh Glasgow",
+          "url": "/people/glasgow-2873.html",
+          "role": "Named father of Cunningham; own selected father remains probable"
+        },
+        {
+          "id": "Glasgow-2871",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-2871.html",
+          "role": "Selected probable father, not named in Gibson"
+        }
+      ],
+      "sources": [
+        {
+          "title": "John Gibson, History of York County (1886), printed p. 414, Hon. Hugh Glasgow; verified scan leaf 512",
+          "url": "https://ia903202.us.archive.org/BookReader/BookReaderImages.php?zip=/18/items/historyofyorkcou00gibs/historyofyorkcou00gibs_jp2.zip&file=historyofyorkcou00gibs_jp2/historyofyorkcou00gibs_0512.jp2&id=historyofyorkcou00gibs&scale=1&rotate=0"
+        }
+      ],
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "Glasgow-3742",
+          "relative": "Glasgow-2873",
+          "before": "probable",
+          "after": "certain",
+          "explanation": "83% → 97%; explicit adult-son statement plus distinctive name, generation and homestead locality. Existing parent retained.",
+          "previous_status_provenance": [
+            "research/relationship_assessments.json#C-coverage-20261022h-glasgow-3742-father assessment_history"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nottingham-john-peter-uncle-original-20261023",
+      "found_on": "2026-10-23",
+      "reviewed_on": "2026-10-23",
+      "kind": "relationship",
+      "status": "qualified",
+      "detail_url": "/research/subjects/nottingham-probate/#john-shoemaker",
+      "finding": "Peter Glasgow’s signed 1789 certificate says deceased John Glasgow was his uncle and lived with him about 27 years; John Taylor was Peter’s sister’s son. The separate 1792 John Glasgow inventory names a deceased John Glasgow shoemaker as debtor, probably the 1789 uncle, without stating kinship between the estate owners.",
+      "qualification": "Documentary kin roles are explicit. Existing profile identities remain open; the 1769 and 1792 John death dates conflict with the 1789 estate. Peter’s Scottish candidates remain compatible but unproved. No named father or tree attachment is invented.",
+      "people": [
+        {
+          "name": "John Glasgow",
+          "url": "/research/subjects/nottingham-probate/#john-shoemaker",
+          "draft_url": "/research/subjects/nottingham-probate/#john-shoemaker",
+          "role": "1789 deceased uncle, with shoemaker tools in inventory"
+        },
+        {
+          "name": "Peter Glasgow",
+          "url": "/research/subjects/nottingham-probate/#peter-nephew",
+          "draft_url": "/research/subjects/nottingham-probate/#peter-nephew",
+          "role": "Explicit nephew and householder; unproved Scottish candidates retained"
+        },
+        {
+          "name": "John Taylor",
+          "url": "/research/subjects/nottingham-probate/#john-taylor",
+          "draft_url": "/research/subjects/nottingham-probate/#john-taylor",
+          "role": "Peter’s sister’s son and estate administrator"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Chester County original probate file 4015, John Glasgow, West Nottingham, 1789; volume 03901–4050, portal pp. 1060–1066",
+          "url": "https://portal.laserfiche.com/Portal/DocView.aspx?id=772934&page=1065&repo=r-24f48cc6"
+        },
+        {
+          "title": "Chester County original probate file 4225, John Glasgow, East Nottingham, 1792; volume 04201–4350, portal pp. 245–250",
+          "url": "https://portal.laserfiche.com/Portal/DocView.aspx?id=772936&page=247&repo=r-24f48cc6"
+        }
+      ]
     }
   ]
 }

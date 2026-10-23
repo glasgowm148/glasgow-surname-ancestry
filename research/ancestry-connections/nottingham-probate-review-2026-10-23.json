@@ -1,0 +1,189 @@
+{
+  "reviewed": "2026-10-23",
+  "subjects": [
+    "Glasgow-2871",
+    "Glasgow-2873",
+    "Glasgow-3742"
+  ],
+  "relationship_reviews": [
+    {
+      "assertion_id": "C-coverage-20261022b-glasgow-2873-father",
+      "child": "Glasgow-2873",
+      "father": "Glasgow-2871",
+      "before": {
+        "status": "proved",
+        "probability_percent": 94,
+        "assessment_date": "2026-10-22",
+        "source_basis": "John’s80-acre West Nottingham tax holding passes from him in 1787–1791 to Hugh in 1793–1799, immediately after John’s 1792 death. Gibson’s county history places Hugh’s birth at Nottingham where his father settled. The succession, chronology and specific locality together support the existing son identification strongly.",
+        "record_scope": "Confident inferred father94%; neither tax list literally says son. This does not establish John’s Scottish ancestry or Mary Cranmer’s earlier generation.",
+        "source_ids": [
+          "held-e-eb7f560153a5"
+        ]
+      },
+      "after": {
+        "value": 0.82,
+        "basis": "The retained John-2871 remains the leading named father hypothesis for Hugh. The reviewed Chester tax index lists John with 80 acres in West Nottingham in 1787–1791 and Hugh with 80 acres in 1793–1799, after John’s recorded 1792 death. That consecutive name, locality and acreage pattern supports family succession, but the tax index is not a conveyance proving the same parcel or a father–son relationship. The newly inspected Gibson p. 414 names neither parent and instead says Hugh’s father emigrated about 1730 and died in 1772. Those dates conflict with John-2871’s retained 1738 birth and 1792 death. The late history may contain errors, so the existing father remains probable, but its general Nottingham context cannot be counted as independent agreement on this particular John. File 4225 independently documents a John’s 1792 East Nottingham estate; it does not name Hugh in the inspected surviving papers.",
+        "reviewed": "2026-10-23",
+        "source_ids": [
+          "held-e-eb7f560153a5",
+          "york-gibson-hugh-glasgow-1886-p414",
+          "chester-john-glasgow-estate-4225-1792"
+        ],
+        "scope": "82% is an individual subjective estimate for Hugh-2873 → John-2871, reduced from 94% after original-page review. The index succession remains useful circumstantial evidence; the unnamed 1886 paternal account is substantive counterevidence. Neither John-2870 nor the 1789 shoemaker is selected as a replacement. No parent is detached, and no vital field or mother is changed."
+      },
+      "new_father_attachment": false
+    },
+    {
+      "assertion_id": "C-coverage-20261022h-glasgow-3742-father",
+      "child": "Glasgow-3742",
+      "father": "Glasgow-2873",
+      "before": {
+        "status": "probable",
+        "probability_percent": 83,
+        "assessment_date": "2026-10-22",
+        "source_basis": "Hugh Glasgow’s held family reconstruction names Cunningham Ramsay Glasgow, with Find a Grave and the U.S.House biography as sources for the 1769–1818 congressman. Cunningham’s 1806 birth fits the second family; cited obituary images lack transcribed parent wording.",
+        "record_scope": "Selected father-profile identity and paternal relationship; maternal identity is separate.",
+        "source_ids": [
+          "held-e-d908563ed7e1"
+        ]
+      },
+      "after": {
+        "value": 0.97,
+        "basis": "Gibson’s inspected printed p. 414 explicitly calls Cunningham R. Glasgow the congressman Hugh Glasgow’s son and locates his farm about a mile south of the old Glasgow homestead, on the Maryland side of the Mason–Dixon line. The existing Cunningham Ramsay-3742, born 1806, is the adult son of that distinctive name in Hugh’s family. The other Cunningham, Sample-3747, died in infancy and cannot be the mature farmer described. The specific name, recorded father, adult generation and family locality identify the existing pair strongly beyond the earlier memorial/profile reconstruction.",
+        "reviewed": "2026-10-23",
+        "source_ids": [
+          "held-e-d908563ed7e1",
+          "york-gibson-hugh-glasgow-1886-p414"
+        ],
+        "scope": "97% is a confident identification of the existing father–child profile pair from an explicit son statement in a late compiled history. It is not a newly discovered birth entry. The book’s present-tense description may reflect information gathered before its 1886 publication; the profile’s retained 1885 death is not corrected to 1886. No mother, exact vital date, parent attachment or live WikiTree flag is changed."
+      },
+      "new_father_attachment": false
+    }
+  ],
+  "originals": [
+    {
+      "record_id": "york-gibson-hugh-glasgow-1886-p414",
+      "printed_page": 414,
+      "scan_leaf": 512,
+      "url": "https://ia903202.us.archive.org/BookReader/BookReaderImages.php?zip=/18/items/historyofyorkcou00gibs/historyofyorkcou00gibs_jp2.zip&file=historyofyorkcou00gibs_jp2/historyofyorkcou00gibs_0512.jp2&id=historyofyorkcou00gibs&scale=1&rotate=0",
+      "sha256": "61f06881a1bf7a110296c61ed153cfc6ee9e2543ed8733273502c35f232b7b4b"
+    },
+    {
+      "record_id": "chester-john-glasgow-estate-4015-1789",
+      "portal_pages": [
+        1060,
+        1061,
+        1062,
+        1063,
+        1064,
+        1065,
+        1066
+      ],
+      "next_estate_page": 1067,
+      "url": "https://portal.laserfiche.com/Portal/DocView.aspx?id=772934&page=1065&repo=r-24f48cc6",
+      "sha256": "5b0373af14470e1318eb56f0522f388b3a0c61cdbcd5f7a9e73512fc1cbc689e"
+    },
+    {
+      "record_id": "chester-john-glasgow-estate-4225-1792",
+      "portal_pages": [
+        245,
+        246,
+        247,
+        248,
+        249,
+        250
+      ],
+      "next_estate_page": 251,
+      "url": "https://portal.laserfiche.com/Portal/DocView.aspx?id=772936&page=247&repo=r-24f48cc6",
+      "sha256": "155ab9086a62fcd9bc49d33a9abe9aa61b4852897c70debafcb3b141fcc37eb1"
+    }
+  ],
+  "documentary_kin": {
+    "Peter_nephew_of_John": true,
+    "John_Taylor_sisters_son_of_Peter": true,
+    "named_father": false
+  },
+  "unread_specific_record": "Administration Book 2, p. 386; surviving file explicitly records missing original bond",
+  "images_republished": false,
+  "duplicate_review": [
+    "Bounded local historical catalogue and three lexical reviewed-note searches, 23 October 2026; no global-profile completeness claimed.",
+    "John-2870’s 1769 death and John-2871’s 1792 death conflict with an estate inventoried in March 1789; do not assign it by name alone.",
+    "Peter-2878 (1740–1812, Whitebank/Stitchill, Jean Anderson) is generation compatible but no Pennsylvania association is held. Later Scottish burial alone does not exclude earlier American residence.",
+    "Peter-3102 (1699 Edinburgh baptism) is a remote age-compatible lead, approximately 90 in 1789, without a held later life.",
+    "Peter-1466 has a competing Bathgate/Elizabeth Dick family with births in 1783,1785,1787,1790 and later; Peter-1450’s 1790 baptism/c1810 biography is internally unresolved, not a secure exclusion by baptism alone.",
+    "The only local John Taylor, Taylor-32027 (1633 Dunfermline), has incompatible chronology for the 1789 administrator.",
+    "Uncle, nephew, administrator and debtor roles are distinct. No name is supplied for Peter’s father or sister; the record does not specify whether John was a paternal or maternal uncle."
+  ],
+  "new_parent_attachments": 0,
+  "vital_fields_changed": false,
+  "live_edit": false,
+  "verification": {
+    "unrelated_assertions_preserved": true,
+    "unrelated_estimates_preserved": true,
+    "vitals_and_parent_ids_preserved": [
+      "Glasgow-2871",
+      "Glasgow-2873",
+      "Glasgow-3742"
+    ],
+    "prior_draft_source_urls_preserved": true,
+    "all_draft_hashes_match": true,
+    "old_history_preserved": true,
+    "new_history_snapshots": 1,
+    "working_connectivity_unchanged": true,
+    "individual_changes_through1850": 20,
+    "confidence_changes": [
+      {
+        "assertion_id": "C-coverage-20261022b-glasgow-2873-father",
+        "before": 94,
+        "after": 82
+      },
+      {
+        "assertion_id": "C-coverage-20261022h-glasgow-3742-father",
+        "before": 83,
+        "after": 97
+      }
+    ],
+    "new_father_attachments": 0,
+    "connected_documentary_family": true,
+    "full_compact_pending_flags_and_percentages_agree": true,
+    "actual_needs_update_membership": 1580,
+    "indexed_records": [
+      {
+        "record_id": "york-gibson-hugh-glasgow-1886-p414",
+        "source_id": "s-aa028612948e32c6",
+        "quality": "secondary"
+      },
+      {
+        "record_id": "chester-john-glasgow-estate-4015-1789",
+        "source_id": "s-21d5a50d534c4285",
+        "quality": "original"
+      },
+      {
+        "record_id": "chester-john-glasgow-estate-4225-1792",
+        "source_id": "s-0d990b07eeb68ed9",
+        "quality": "original"
+      }
+    ],
+    "public_safe_routes_in_search_and_sitemap": true,
+    "all_father_fields": {
+      "checked": 1798,
+      "connectors": 2,
+      "models": 3,
+      "mismatches": [],
+      "held": [
+        "Glasgow-2908",
+        "Glasgow-867",
+        "Glasgow-951"
+      ]
+    },
+    "new_publication_failures": 0,
+    "new_broken_link_pairs": 0,
+    "current_confident_links": 681,
+    "current_working_links": 1396,
+    "actual_progress_20_changes_verified": true,
+    "actual_cunningham_97_and_hugh_82_catalogue_badges_verified": true,
+    "indexed_records_applied": true,
+    "source_quality_checks_passed": true
+  },
+  "connectivity_input_fingerprint": "f19ff14eb9815907292db73ccbef7b20f8850fed22382a2b60045a826081f1f3"
+}

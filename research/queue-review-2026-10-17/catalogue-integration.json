@@ -3632,8 +3632,8 @@
     },
     "Glasgow-2871": {
       "draft_path": "research/Glasgow-2871/father-confidence-2026-10-22b.wiki",
-      "summary": "Add the cited record accounts: John Glasgow, Nottingham merchant and vendue attendee; Possible John Glascow, Chester County land and committee; Possible John Glasgow, Carlisle postal addressee, 1793; and 2 other record accounts. Retain the stated identity and relationship limits. Review existing father at 17% (uncertain), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Add the cited record accounts: John Glasgow, Nottingham merchant and vendue attendee; Possible John Glascow, Chester County land and committee; Possible John Glasgow, Carlisle postal addressee, 1793; and 2 other record accounts. Retain the stated identity and relationship limits. Review existing father at 17% (uncertain), retaining source and identity limits; no new father attachment.",
+      "summary": "Add original Nottingham probate and Gibson readings; Hugh’s existing father reassessed 94% → 82% probable because the unnamed paternal chronology conflicts. No father replacement or vital change.",
+      "work_queue_summary": "Add original Nottingham probate and Gibson readings; Hugh’s existing father reassessed 94% → 82% probable because the unnamed paternal chronology conflicts. No father replacement or vital change.",
       "queued_at": "2026-10-22",
       "status": "OPEN",
       "pending": true,
@@ -3648,7 +3648,7 @@
       "private_comparison": false,
       "prior_work_summary": "",
       "profile_id": "Glasgow-2871",
-      "biography_rechecked_at": "2026-10-22",
+      "biography_rechecked_at": "2026-10-23",
       "relationship_changes": [
         {
           "action": "regrade",
@@ -11202,23 +11202,23 @@
       "status": "OPEN",
       "pending": true,
       "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
+      "biography_rechecked_at": "2026-10-23",
       "draft_path": "research/Glasgow-2873/father-confidence-2026-10-22b.wiki",
       "findings_path": "research/Glasgow-2873/findings.md",
-      "summary": "Review existing father at 94% (proved), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 94% (proved), retaining source and identity limits; no new father attachment.",
+      "summary": "Add original Nottingham probate and Gibson readings; Hugh’s existing father reassessed 94% → 82% probable because the unnamed paternal chronology conflicts. No father replacement or vital change.",
+      "work_queue_summary": "Add original Nottingham probate and Gibson readings; Hugh’s existing father reassessed 94% → 82% probable because the unnamed paternal chronology conflicts. No father replacement or vital change.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-2871",
-          "status": "proved",
+          "status": "probable",
           "previous_status": "unmarked",
           "previous_probability_percent": null,
-          "probability_percent": 94,
+          "probability_percent": 82,
           "assertion_id": "C-coverage-20261022b-glasgow-2873-father",
           "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Confident inferred father94%; neither tax list literally says son. This does not establish John’s Scottish ancestry or Mary Cranmer’s earlier generation."
+          "scope": "82% is an individual subjective estimate for Hugh-2873 → John-2871, reduced from 94% after original-page review. The index succession remains useful circumstantial evidence; the unnamed 1886 paternal account is substantive counterevidence. Neither John-2870 nor the 1789 shoemaker is selected as a replacement. No parent is detached, and no vital field or mother is changed."
         }
       ],
       "preserve_captured_detail": false,
@@ -25235,23 +25235,23 @@
       "status": "OPEN",
       "pending": true,
       "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
+      "biography_rechecked_at": "2026-10-23",
       "draft_path": "research/Glasgow-3742/father-confidence-2026-10-22h.wiki",
       "findings_path": "research/Glasgow-3742/findings.md",
-      "summary": "Review existing father at 83% (probable), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 83% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Existing father Hugh: 83% → 97% confident from the explicit Cunningham R. adult-son statement; retain 1885 death and assess maternity separately.",
+      "work_queue_summary": "Existing father Hugh: 83% → 97% confident from the explicit Cunningham R. adult-son statement; retain 1885 death and assess maternity separately.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-2873",
-          "status": "probable",
+          "status": "proved",
           "previous_status": "unmarked",
           "previous_probability_percent": null,
-          "probability_percent": 83,
+          "probability_percent": 97,
           "assertion_id": "C-coverage-20261022h-glasgow-3742-father",
           "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Selected father-profile identity and paternal relationship; maternal identity is separate."
+          "scope": "97% is a confident identification of the existing father–child profile pair from an explicit son statement in a late compiled history. It is not a newly discovered birth entry. The book’s present-tense description may reflect information gathered before its 1886 publication; the profile’s retained 1885 death is not corrected to 1886. No mother, exact vital date, parent attachment or live WikiTree flag is changed."
         }
       ],
       "preserve_captured_detail": false,
