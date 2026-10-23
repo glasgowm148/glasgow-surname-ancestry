@@ -1,0 +1,139 @@
+{
+  "reviewed": "2026-10-23",
+  "father": "Glasgow-4090",
+  "scope": "The percentage concerns the selected father as John Glasgow, farmer, named in the 1846 marriage of John Glasgow-867. It does not identify him with the 1796 Desertoghill flax grower, establish his Larne ancestry, identify a mother or resolve Alexander’s separate death identity. Percentages are subjective evidence assessments, not calibrated statistical probabilities.",
+  "limitations": "The probate citation is an incomplete service notice, not an adjudicated pedigree: Alexander’s living son Robert was omitted. John’s Ballydonnelly description and the cited Lizzie remain unexplained. The underlying petition and heir schedule have not been inspected. These are real limits, but no held competing household matches the James Garvin/Ann group and no evidence identifies different Glasgow fathers through a maternal half-sibling relationship. The flax-grower and older Larne identities remain separate hypotheses.",
+  "source_inspection": "Re-evaluation of held original-record readings and the previously collated probate transcription; no newly inspected original in this batch. Repeated newspaper printings are one citation, not independent witnesses.",
+  "method_correction": {
+    "commit": "ffc9b72a2ef",
+    "version": 4,
+    "restored_existing_links": 3,
+    "new_genealogical_connections": 0,
+    "before_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/lisnagaver-family-20261023/before-method.json",
+    "corrected_before_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/lisnagaver-family-20261023/before.json",
+    "explanation": "Unselected alternatives suppressed retained tree fathers and hid three unrated pairs. Corrected metrics were captured before these research grades."
+  },
+  "ratings": [
+    {
+      "child": "Glasgow-951",
+      "father": "Glasgow-4090",
+      "before_status": "probable",
+      "before_percent": null,
+      "after_percent": 90,
+      "after_status": "proved",
+      "tree_status_before": "uncertain",
+      "research_improvement": true,
+      "assertion_id": "C-lisnagaver-father-20261023-glasgow-951",
+      "basis": "Alexander’s independently documented children James, Mary and Ann match the 1892 citation’s Alexander-of-Rasharkin group. That group appears among heirs/next of kin before the separate legatee list. Nancy’s own niece/nephew statements, linked through the Dysart and Anderson baptisms, anchor the family interpretation. John-867’s distinctive James Garvin/Ann branch identifies the other cited household, and his 1846 marriage names father John Glasgow, farmer. Recorded Glasgow birth surnames favor a common paternal family. The combined identity and kinship argument supports a confident 90% inference; a generic unsupported half-sibling possibility does not impose a probable ceiling.",
+      "prior_basis": "The maintained 23 September father evaluation and 29 September tests already preferred John farmer as probable, without an exact percentage."
+    },
+    {
+      "child": "Glasgow-867",
+      "father": "Glasgow-4090",
+      "before_status": "confident",
+      "before_percent": null,
+      "after_percent": 98,
+      "after_status": "proved",
+      "tree_status_before": "confident",
+      "research_improvement": false,
+      "assertion_id": "C-lisnagaver-father-20261023-glasgow-867",
+      "basis": "John’s original 16 November 1846 marriage to Margaret Garvin directly names father John Glasgow, farmer. The 1851 Lisnagaver household independently matches the couple, residence, occupation and marriage year. This defines the father profile without relying on the 1796 flax-grower identification. The complete father-profile identification is assessed 98%; this measures an existing confident relationship.",
+      "prior_basis": "The retained WikiTree father flag was already confident; this is its first individual percentage, not a new confidence improvement."
+    },
+    {
+      "child": "Glasgow-2908",
+      "father": "Glasgow-4090",
+      "before_status": "probable",
+      "before_percent": null,
+      "after_percent": 95,
+      "after_status": "proved",
+      "tree_status_before": "uncertain",
+      "research_improvement": true,
+      "assertion_id": "C-lisnagaver-father-20261023-glasgow-2908",
+      "basis": "The 1851 Lisnagaver return explicitly calls Samuel the brother of John Glasgow-867. The head’s wife Margaret, 1846 marriage year, residence, parish and farming occupation uniquely fit John’s father-naming 1846 marriage. Samuel’s later unmarried weaver identity continues the same household man. On the ordinary meaning of the documented brotherhood and the shared Glasgow surname, John’s named father John Glasgow, farmer, is confidently Samuel’s father at 95%. No positive evidence supports a maternal-only half-brother relationship through another Glasgow father.",
+      "prior_basis": "The maintained Parentage conclusion already inferred the same father from the explicitly recorded brotherhood, without an exact percentage; the retained tree flag was uncertain."
+    }
+  ],
+  "profiles": {
+    "Glasgow-951": {
+      "prior_pending_draft_path": "research/Glasgow-951/queue-review-2026-10-17.wiki",
+      "prior_pending_sha256": "9d7d9e65184b8777630406ee905cc4761c3df9d9a2d8a97cb5e2f400778e1127",
+      "all_substantive_passages_accounted_for": true,
+      "draft_path": "research/Glasgow-951/father-review-2026-10-23.wiki",
+      "retained": "Complete pre-existing pending biography and all captured source identities retained; new current father assessment added without removing family, census, competing-identity, life-date or DNA qualifications.",
+      "current_sha256": "8004524a605468400e2cb155818c8cf22d7726bccd9e82c50338b9d3f06ee2de",
+      "proposed_sha256": "c38bed5b32a3d903227560b60ad77aabc769a6e2f6315417adbd8df4801482dd"
+    },
+    "Glasgow-867": {
+      "prior_pending_draft_path": "research/Glasgow-867/queue-review-2026-10-17.wiki",
+      "prior_pending_sha256": "bcabeadd590f9b341ca64ca42828a7c6ff3adfdbc306dde849a9add9bcbf6955",
+      "all_substantive_passages_accounted_for": true,
+      "draft_path": "research/Glasgow-867/father-review-2026-10-23.wiki",
+      "retained": "Complete pre-existing pending biography and all captured source identities retained; new current father assessment added without removing family, census, competing-identity, life-date or DNA qualifications.",
+      "current_sha256": "6e208fe6473c6465c599c17bc3ea9c5fe22f1f78a796a2f9e43e875115264c63",
+      "proposed_sha256": "ae30e81b1c99790eae75f811e0142b24e58fce23f77a23f54bc66dbc9ca92bb9"
+    },
+    "Glasgow-2908": {
+      "prior_pending_draft_path": "research/Glasgow-2908/queue-review-2026-10-17.wiki",
+      "prior_pending_sha256": "7ce79bb6d052de953ad32ab490d2e5e6aa955d433b0f3cf62a4cfe5a756e1bbe",
+      "all_substantive_passages_accounted_for": true,
+      "draft_path": "research/Glasgow-2908/father-review-2026-10-23.wiki",
+      "retained": "Complete pre-existing pending biography and all captured source identities retained; new current father assessment added without removing family, census, competing-identity, life-date or DNA qualifications.",
+      "current_sha256": "40deb7e41b36d2a9e956ed867a641b30db70837e8b0f43bae2dc9cf07fac5179",
+      "proposed_sha256": "3783ced517b0857bf7119d01030ba410a26b5e943444281046dd8954368b9ae8"
+    },
+    "Glasgow-4090": {
+      "prior_pending_draft_path": "research/Glasgow-4090/father-confidence-2026-10-22c.wiki",
+      "prior_pending_sha256": "de0b0167eb648fa2b505b7c127c421f299d26ab1f005578862063d720cbf3919",
+      "all_substantive_passages_accounted_for": true,
+      "draft_path": "research/Glasgow-4090/sons-review-2026-10-23.wiki",
+      "retained": "All prior pending narrative and source identities retained; sons’ grades added; John’s own 37% proposed father and separate flax-grower identity unchanged.",
+      "current_sha256": "7653123d8dcf435d60747c4844e4e60520355349628bda1ba4a84951669f7410",
+      "proposed_sha256": "7f4685eec1f7e573b6216a1a197dfbc9a41714fb75fec8a185805ca88cd0c5e0"
+    }
+  },
+  "verification": {
+    "three_tree_models_agree": true,
+    "no_existing_branch_merge": true,
+    "stale_asset_references": 0,
+    "all_historical_father_fields_checked": 1798,
+    "all_other_father_fields_unchanged": true,
+    "retained_father_ids_unchanged": true,
+    "method_correction_restored_links": 3,
+    "method_correction_new_findings": 0,
+    "research_confidence_changes": 2,
+    "first_individual_percentages": 3,
+    "denominator_unchanged": true,
+    "working_edges_components_unchanged": true,
+    "unknown_fathers_unchanged": true,
+    "no_unrated_working_edges": true,
+    "upstream_37_percent_retained": true,
+    "roanoke_74_percent_retained": true,
+    "full_compact_update_membership_agrees": true,
+    "two_confident_father_regrade_badges": true,
+    "complete_prior_pending_drafts_preserved": true,
+    "captured_source_identities_preserved": true,
+    "vitals_mothers_spouses_unchanged": true,
+    "no_profile_creations": true,
+    "publication_new_failures": 0,
+    "link_new_failures": 0,
+    "http_routes_checked": 14,
+    "browser_verified": false,
+    "source_heading_whitespace_preserves_text_and_links": true
+  },
+  "prior_batch_language_reconciliation": {
+    "assertion_id": "C-roanoke-joseph-thomas-20261023",
+    "percent_unchanged": 74,
+    "change": "Replace stale uninspected-original wording with the completed original review and retained Jas./Jos. uncertainty; no new confidence event."
+  },
+  "follow_up_leads": [
+    {
+      "profile_id": "Glasglow-11",
+      "name": "Jane Dysart",
+      "proposal": "Compare inherited Alexander/Rosanna parentage against the same Nancy probate and John-farmer family; no new grade approved in this batch.",
+      "evidence": "Nancy’s will names niece Margaret Kennedy; Rasharkin baptism identifies mother Jane Glascaw.",
+      "next_action": "Reconcile the known open WikiTree subject with the current catalogue identity before a reviewable replacement recommendation.",
+      "state": "review_pending"
+    }
+  ]
+}

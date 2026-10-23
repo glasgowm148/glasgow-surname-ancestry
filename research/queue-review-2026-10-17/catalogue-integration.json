@@ -3761,8 +3761,8 @@
       "preservation_review_path": "research/ancestry-connections/father-coverage-preservation9-2026-10-22.json"
     },
     "Glasgow-2908": {
-      "draft_path": "research/Glasgow-2908/queue-review-2026-10-17.wiki",
-      "summary": "Add the cited record account: Samuel Glasgow, farmer examined at Moneymore. Retain the stated identity and relationship limits.",
+      "draft_path": "research/Glasgow-2908/father-review-2026-10-23.wiki",
+      "summary": "Strengthen existing father to 95% confident; no new father attachment. Add the cited record account: Samuel Glasgow, farmer examined at Moneymore. Retain the stated identity and relationship limits.",
       "work_queue_summary": "Add the cited record account: Samuel Glasgow, farmer examined at Moneymore. Retain the stated identity and relationship limits.",
       "queued_at": "2026-10-17",
       "status": "OPEN",
@@ -3772,7 +3772,28 @@
         "subject-newspapers-irish-1800-1850-samuel-moneymore"
       ],
       "private_comparison": false,
-      "prior_work_summary": ""
+      "prior_work_summary": "",
+      "biography_rechecked_at": "2026-10-23",
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "preservation_review_path": "research/ancestry-connections/lisnagaver-confidence-review-2026-10-23.json",
+      "relationship_changes": [
+        {
+          "action": "regrade",
+          "relationship": "father",
+          "relative_id": "Glasgow-4090",
+          "relative_name": "John Glasgow, farmer",
+          "relative_url": "https://www.wikitree.com/wiki/Glasgow-4090",
+          "status": "proved",
+          "probability_percent": 95,
+          "previous_status": "uncertain",
+          "previous_research_status": "probable",
+          "previous_probability_percent": null,
+          "previous_status_provenance": "The maintained Parentage conclusion already inferred the same father from the explicitly recorded brotherhood, without an exact percentage; the retained tree flag was uncertain. The saved WikiTree father flag is uncertain.",
+          "assertion_id": "C-lisnagaver-father-20261023-glasgow-2908",
+          "scope": "The percentage concerns the selected father as John Glasgow, farmer, named in the 1846 marriage of John Glasgow-867. It does not identify him with the 1796 Desertoghill flax grower, establish his Larne ancestry, identify a mother or resolve Alexander’s separate death identity. Percentages are subjective evidence assessments, not calibrated statistical probabilities."
+        }
+      ]
     },
     "Glasgow-2915": {
       "significance": 55,
@@ -5563,13 +5584,13 @@
       "significance": 70,
       "manual_update": true,
       "registered_update": true,
-      "summary": "Larne & Kilwaughter audit 6 Oct 2026. Set the father link to Glasgow-4179 to uncertain after confirming the live state (no record supports it); keep the attachment. Lead the biography with the 1846 marriage record; move the 1796 Desertoghill entry to a possible-identity section; mark the birthplace and 'before 1772' uncertain. Review existing father at 37% (possible), retaining source and identity limits; no new father attachment.",
+      "summary": "Add separately scoped sons’ grades98%,95%,90%, without strengthening John’s own ancestry. Larne & Kilwaughter audit 6 Oct 2026. Set the father link to Glasgow-4179 to uncertain after confirming the live state (no record supports it); keep the attachment. Lead the biography with the 1846 marriage record; move the 1796 Desertoghill entry to a possible-identity section; mark the birthplace and 'before 1772' uncertain. Review existing father at 37% (possible), retaining source and identity limits; no new father attachment.",
       "profile_id": "Glasgow-4090",
       "status": "OPEN",
       "pending": true,
       "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-4090/father-confidence-2026-10-22c.wiki",
+      "biography_rechecked_at": "2026-10-23",
+      "draft_path": "research/Glasgow-4090/sons-review-2026-10-23.wiki",
       "findings_path": "research/Glasgow-4090/findings.md",
       "work_queue_summary": "Larne & Kilwaughter audit 6 Oct 2026. Set the father link to Glasgow-4179 to uncertain after confirming the live state (no record supports it); keep the attachment. Lead the biography with the 1846 marriage record; move the 1796 Desertoghill entry to a possible-identity section; mark the birthplace and 'before 1772' uncertain. Review existing father at 37% (possible), retaining source and identity limits; no new father attachment.",
       "relationship_changes": [
@@ -5591,7 +5612,7 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation3-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/lisnagaver-confidence-review-2026-10-23.json"
     },
     "Glasgow-4093": {
       "draft_path": "research/Glasgow-4093/queue-review-2026-10-17.wiki",
@@ -6469,8 +6490,8 @@
       ]
     },
     "Glasgow-867": {
-      "draft_path": "research/Glasgow-867/queue-review-2026-10-17.wiki",
-      "summary": "Add the 1846 witnesses James Garvin and Wm Neely and the bride's residence.\n\nAdd the cited record account: John Glasgow, Drogheda sub-constable, 1850. Retain the stated identity and relationship limits.",
+      "draft_path": "research/Glasgow-867/father-review-2026-10-23.wiki",
+      "summary": "Quantify already-confident father at 98%; review coverage only. Add the 1846 witnesses James Garvin and Wm Neely and the bride's residence.\n\nAdd the cited record account: John Glasgow, Drogheda sub-constable, 1850. Retain the stated identity and relationship limits.",
       "work_queue_summary": "Add the 1846 witnesses James Garvin and Wm Neely and the bride's residence.\n\nAdd the cited record account: John Glasgow, Drogheda sub-constable, 1850. Retain the stated identity and relationship limits.",
       "queued_at": "2026-10-17",
       "status": "OPEN",
@@ -6480,11 +6501,16 @@
         "subject-newspapers-irish-1800-1850-john-drogheda-constable"
       ],
       "private_comparison": false,
-      "prior_work_summary": "Add the 1846 witnesses James Garvin and Wm Neely and the bride's residence."
+      "prior_work_summary": "Add the 1846 witnesses James Garvin and Wm Neely and the bride's residence.",
+      "biography_rechecked_at": "2026-10-23",
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "preservation_review_path": "research/ancestry-connections/lisnagaver-confidence-review-2026-10-23.json",
+      "relationship_changes": []
     },
     "Glasgow-951": {
-      "draft_path": "research/Glasgow-951/queue-review-2026-10-17.wiki",
-      "summary": "Correct the 1888 death informant from Nancy to Mary Glasgow and add the 6 October source audit: James Anderson’s Gortahar death, Robert’s survival in January 1892 and the living daughter omitted in 1851. Also add the inspected Nancy death notice, original 1829 freehold application and qualified 1861 Lisnagaver occurrence; retain competing identities, date readings and approximate ages without changing family links.\n\nAdd the cited record account: Alexander Glasco. Retain the stated identity and relationship limits.",
+      "draft_path": "research/Glasgow-951/father-review-2026-10-23.wiki",
+      "summary": "Strengthen existing father to 90% confident; no new father attachment. Correct the 1888 death informant from Nancy to Mary Glasgow and add the 6 October source audit: James Anderson’s Gortahar death, Robert’s survival in January 1892 and the living daughter omitted in 1851. Also add the inspected Nancy death notice, original 1829 freehold application and qualified 1861 Lisnagaver occurrence; retain competing identities, date readings and approximate ages without changing family links.\n\nAdd the cited record account: Alexander Glasco. Retain the stated identity and relationship limits.",
       "work_queue_summary": "Correct the 1888 death informant from Nancy to Mary Glasgow and add the 6 October source audit: James Anderson’s Gortahar death, Robert’s survival in January 1892 and the living daughter omitted in 1851. Also add the inspected Nancy death notice, original 1829 freehold application and qualified 1861 Lisnagaver occurrence; retain competing identities, date readings and approximate ages without changing family links.\n\nAdd the cited record account: Alexander Glasco. Retain the stated identity and relationship limits.",
       "queued_at": "2026-10-17",
       "status": "OPEN",
@@ -6494,7 +6520,28 @@
         "subject-prescott-rochester-james-family-alexander-glasco"
       ],
       "private_comparison": false,
-      "prior_work_summary": "Correct the 1888 death informant from Nancy to Mary Glasgow and add the 6 October source audit: James Anderson’s Gortahar death, Robert’s survival in January 1892 and the living daughter omitted in 1851. Also add the inspected Nancy death notice, original 1829 freehold application and qualified 1861 Lisnagaver occurrence; retain competing identities, date readings and approximate ages without changing family links."
+      "prior_work_summary": "Correct the 1888 death informant from Nancy to Mary Glasgow and add the 6 October source audit: James Anderson’s Gortahar death, Robert’s survival in January 1892 and the living daughter omitted in 1851. Also add the inspected Nancy death notice, original 1829 freehold application and qualified 1861 Lisnagaver occurrence; retain competing identities, date readings and approximate ages without changing family links.",
+      "biography_rechecked_at": "2026-10-23",
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "preservation_review_path": "research/ancestry-connections/lisnagaver-confidence-review-2026-10-23.json",
+      "relationship_changes": [
+        {
+          "action": "regrade",
+          "relationship": "father",
+          "relative_id": "Glasgow-4090",
+          "relative_name": "John Glasgow, farmer",
+          "relative_url": "https://www.wikitree.com/wiki/Glasgow-4090",
+          "status": "proved",
+          "probability_percent": 90,
+          "previous_status": "uncertain",
+          "previous_research_status": "probable",
+          "previous_probability_percent": null,
+          "previous_status_provenance": "The maintained 23September father evaluation and 29September tests already preferred John farmer as probable, without an exact percentage. The saved WikiTree father flag is uncertain.",
+          "assertion_id": "C-lisnagaver-father-20261023-glasgow-951",
+          "scope": "The percentage concerns the selected father as John Glasgow, farmer, named in the 1846 marriage of John Glasgow-867. It does not identify him with the 1796 Desertoghill flax grower, establish his Larne ancestry, identify a mother or resolve Alexander’s separate death identity. Percentages are subjective evidence assessments, not calibrated statistical probabilities."
+        }
+      ]
     },
     "Glasgow-991": {
       "draft_path": "research/Glasgow-991/fisherrow-murieston-2026-10-20.wiki",

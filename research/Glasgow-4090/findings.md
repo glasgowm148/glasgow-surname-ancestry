@@ -138,3 +138,11 @@ Next useful test: Identify the flaxgrower’s property and seek the older John�
 This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [WikiTree profile export for Glasgow-4090](https://www.wikitree.com/wiki/Glasgow-4090)
+
+## Sons’ confidence reassessment — 23 October 2026
+
+This profile is the record-defined John Glasgow, farmer, named in [John Glasgow-867](/people/glasgow-867.html)’s 1846 marriage. That direct father relationship is98% (previously confident, now individually measured). [Samuel Glasgow-2908](/people/glasgow-2908.html) is95% through the 1851 brother relationship; [Alexander Glasgow-951](/people/glasgow-951.html) is90% through Nancy’s probate family network and the named-father record. The latter two strengthen earlier probable assessments. No new relative is attached.
+
+The probate citation is an incomplete service notice, not an adjudicated pedigree: Alexander’s living son Robert was omitted. John’s Ballydonnelly description and the cited Lizzie remain unexplained. The underlying petition and heir schedule have not been inspected. These are real limits, but no held competing household matches the James Garvin/Ann group and no evidence identifies different Glasgow fathers through a maternal half-sibling relationship. The flax-grower and older Larne identities remain separate hypotheses.
+
+These grades do not identify the 1796 flax grower or strengthen John’s own 37% proposed father Glasgow-4179. No mother is inferred. [Lisnagaver family study](/branches/lisnagaver-rasharkin/).

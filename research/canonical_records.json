@@ -21420,21 +21420,35 @@
   {
     "record_id": "held-e-67eecd8affe8",
     "record_type": "Previously held source citation",
-    "date": null,
-    "place": null,
+    "date": "16 November 1846",
+    "place": "Second Garvagh Presbyterian Church; groom of Lisnagaver, County Antrim",
     "association": "Register image, IrishGenealogy.ie",
-    "source_title": "Register image, IrishGenealogy.ie",
+    "source_title": "John Glasgow and Margaret Garvin marriage,16 November 1846, Second Garvagh Presbyterian Church",
     "source_url": "https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1846/09306/5369439.pdf",
-    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
-    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
-    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "source_type": "civil_marriage_register",
+    "source_status": "Held original-record readings re-evaluated23October2026; no new original inspection.",
+    "status": "Named marriage father and census brotherhood; complete-pair confidence stated in linked accounts",
     "profiles": {
       "Glasgow-4071": {
         "role": "Previously cited subject; relationship scope in the father assessment"
+      },
+      "Glasgow-4090": {
+        "role": "Named father; profile defined by this record role, not the unproved flax-grower identity."
+      },
+      "Glasgow-867": {
+        "role": "Groom; explicitly names father John Glasgow, farmer."
+      },
+      "Glasgow-2908": {
+        "role": "Not named; collateral same-father inference through the 1851 recorded brotherhood."
       }
     },
-    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
-    "provenance": "research/ancestry-connections/father-coverage-review8-2026-10-22.json"
+    "note": "John’s original 16 November 1846 marriage to Margaret Garvin directly names father John Glasgow, farmer. The 1851 Lisnagaver household independently matches the couple, residence, occupation and marriage year. This defines the father profile without relying on the 1796 flax-grower identification. The complete father-profile identification is assessed 98%; this measures an existing confident relationship.",
+    "provenance": "research/ancestry-connections/lisnagaver-confidence-review-2026-10-23.json",
+    "year": 1846,
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true,
+    "country": "Ireland",
+    "source_quality": "Previously inspected original record account; held reading re-evaluated, no new original inspection"
   },
   {
     "record_id": "held-e-e7dfef6d671d",
@@ -23015,21 +23029,32 @@
   {
     "record_id": "held-e-6d6699781d4f",
     "record_type": "Previously held source citation",
-    "date": null,
-    "place": null,
+    "date": "14 January 1892; published26February1892",
+    "place": "Plattsburgh, Clinton County, New York",
     "association": "The Plattsburgh Sentinel (Plattsburgh, New York), 26 February 1892, p. 6, \"Legal Notices\", probate citation in the estate of Nancy Glasgow, dated 14 January 1892; digital newspaper page (https://www.nyshistoricnewspapers.org/?a=d&d=plts18920226-01.1.6).",
-    "source_title": "The Plattsburgh Sentinel (Plattsburgh, New York), 26 February 1892, p. 6, \"Legal Notices\", probate citation in the estate of Nancy Glasgow, dated 14 January 1892; digital newspaper page (https://www.nyshistoricnewspapers.org/?a=d&d=plts18920226-01.1.6).",
+    "source_title": "Nancy Glasgow probate citation,14 January 1892; Plattsburgh Sentinel,26 February 1892,p.6",
     "source_url": "https://www.nyshistoricnewspapers.org/?a=d&d=plts18920226-01.1.6",
-    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
-    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
-    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "source_type": "probate_citation_newspaper",
+    "source_status": "Held original-record readings re-evaluated23October2026; no new original inspection.",
+    "status": "Named marriage father and census brotherhood; complete-pair confidence stated in linked accounts",
     "profiles": {
       "Glasgow-4070": {
         "role": "Previously cited subject; relationship scope in the father assessment"
+      },
+      "Glasgow-951": {
+        "role": "Deceased Alexander of Rasharkin; children James, Mary and Ann identify this family."
+      },
+      "Glasgow-4090": {
+        "role": "Not named; common-father inference through the cited family and John-867’s marriage."
       }
     },
-    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
-    "provenance": "research/ancestry-connections/father-coverage-review8-2026-10-22.json"
+    "note": "Alexander’s independently documented children James, Mary and Ann match the 1892 citation’s Alexander-of-Rasharkin group. That group appears among heirs/next of kin before the separate legatee list. Nancy’s own niece/nephew statements, linked through the Dysart and Anderson baptisms, anchor the family interpretation. John-867’s distinctive James Garvin/Ann branch identifies the other cited household, and his 1846 marriage names father John Glasgow, farmer. Recorded Glasgow birth surnames favor a common paternal family. The combined identity and kinship argument supports a confident 90% inference; a generic unsupported half-sibling possibility does not impose a probable ceiling. The probate citation is an incomplete service notice, not an adjudicated pedigree: Alexander’s living son Robert was omitted. John’s Ballydonnelly description and the cited Lizzie remain unexplained. The underlying petition and heir schedule have not been inspected. These are real limits, but no held competing household matches the James Garvin/Ann group and no evidence identifies different Glasgow fathers through a maternal half-sibling relationship. The flax-grower and older Larne identities remain separate hypotheses.",
+    "provenance": "research/ancestry-connections/lisnagaver-confidence-review-2026-10-23.json",
+    "year": 1892,
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true,
+    "country": "United States",
+    "source_quality": "Previously inspected original record account; held reading re-evaluated, no new original inspection"
   },
   {
     "record_id": "held-e-d59d1afcb845",
@@ -29510,21 +29535,35 @@
   {
     "record_id": "held-e-08832fb5e42b",
     "record_type": "Previously held source citation",
-    "date": null,
-    "place": null,
+    "date": "1851",
+    "place": "Lisnagaver, Rasharkin, County Antrim, household34",
     "association": "1851 Census of Ireland: \nThe National Archives of Ireland; residents of house 34 in Lisnagaver, Rasharkin, Kilconway, County Antrim. \nCensus image (http://www.census.nationalarchives.ie/reels/c19/007246523/007246523_00173.pdf) — Transcription (https://www.census.nationalarchives.ie/pages/1851/Antrim/Kilconway/Rasharkin/Lisnagaver/34/) (accessed 17 April 2024).",
-    "source_title": "1851 Census of Ireland: \nThe National Archives of Ireland; residents of house 34 in Lisnagaver, Rasharkin, Kilconway, County Antrim. \nCensus image (http://www.census.nationalarchives.ie/reels/c19/007246523/007246523_00173.pdf) — Transcription (https://www.census.nationalarchives.ie/pages/1851/Antrim/Kilconway/Rasharkin/Lisnagaver/34/) (accessed 17 April 2024).",
+    "source_title": "1851 census, Lisnagaver household 34: John and Samuel Glasgow",
     "source_url": "http://www.census.nationalarchives.ie/reels/c19/007246523/007246523_00173.pdf",
-    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
-    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
-    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "source_type": "census",
+    "source_status": "Held original-record readings re-evaluated23October2026; no new original inspection.",
+    "status": "Named marriage father and census brotherhood; complete-pair confidence stated in linked accounts",
     "profiles": {
       "Glasgow-1371": {
         "role": "Previously cited subject; relationship scope in the father assessment"
+      },
+      "Glasgow-4090": {
+        "role": "Not enumerated here; collateral father inference uses the matched 1846 marriage."
+      },
+      "Glasgow-867": {
+        "role": "Household head; spouse Margaret and reported 1846 marriage identify the groom."
+      },
+      "Glasgow-2908": {
+        "role": "Explicitly called brother of the household head."
       }
     },
-    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
-    "provenance": "research/ancestry-connections/father-coverage-review9-2026-10-22.json"
+    "note": "The 1851 Lisnagaver return explicitly calls Samuel the brother of John Glasgow-867. The head’s wife Margaret, 1846 marriage year, residence, parish and farming occupation uniquely fit John’s father-naming 1846 marriage. Samuel’s later unmarried weaver identity continues the same household man. On the ordinary meaning of the documented brotherhood and the shared Glasgow surname, John’s named father John Glasgow, farmer, is confidently Samuel’s father at 95%. No positive evidence supports a maternal-only half-brother relationship through another Glasgow father.",
+    "provenance": "research/ancestry-connections/lisnagaver-confidence-review-2026-10-23.json",
+    "year": 1851,
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true,
+    "country": "Ireland",
+    "source_quality": "Previously inspected original record account; held reading re-evaluated, no new original inspection"
   },
   {
     "record_id": "held-e-c6284fcec16d",

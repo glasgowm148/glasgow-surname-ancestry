@@ -221,7 +221,14 @@ The original [30 July 1861 deed, B465](https://www.familysearch.org/ark:/61903/3
 
 ## Current conclusion
 
-Reviewed: 2026-10-15
+Reviewed 23 October 2026: **90% confident** for father [John Glasgow-4090](https://www.wikitree.com/wiki/Glasgow-4090). The previous qualitative **probable** assessment is strengthened; no earlier percentage is invented.
+
+Alexander’s independently documented children James, Mary and Ann match the 1892 citation’s Alexander-of-Rasharkin group. That group appears among heirs/next of kin before the separate legatee list. Nancy’s own niece/nephew statements, linked through the Dysart and Anderson baptisms, anchor the family interpretation. John-867’s distinctive James Garvin/Ann branch identifies the other cited household, and his 1846 marriage names father John Glasgow, farmer. Recorded Glasgow birth surnames favor a common paternal family. The combined identity and kinship argument supports a confident 90% inference; a generic unsupported half-sibling possibility does not impose a probable ceiling.
+
+The percentage concerns the selected father as John Glasgow, farmer, named in the 1846 marriage of John Glasgow-867. It does not identify him with the 1796 Desertoghill flax grower, establish his Larne ancestry, identify a mother or resolve Alexander’s separate death identity. Percentages are subjective evidence assessments, not calibrated statistical probabilities.
+
+
+### Established life account — reviewed 15 October 2026
 
 **PRONI search update, 15 October 2026:** AG 57714 returned no Glasgow or variant mention in the specified years. It belongs to the earlier enquiry whose priority was Second Portglenone marriages, 1834–1838; the completion notice does not confirm its exact record coverage. The separate Ballymoney family-register search, **AG 57828**, remains outstanding. This does not change the parentage assessment. See the dated PRONI source finding below.
 
@@ -3474,3 +3481,13 @@ Recorded in `chatgpt_dump/Alexander_Glasgow_second_pass_2026-09-04.md` (4 Septem
 
 A possible identification concerns Alexander Glasco. Prescott deed C114 names Alexander Glasco of Rochester, express agent, as the son of James, the Prescott carpenter. (Inspected historical source; [record](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LQRC-Y).) Original deed inspected. This is a separate Alexander; it does not identify [Alexander-951](https://www.wikitree.com/wiki/Alexander-951). The identification remains uncertain.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence reassessment — 23 October 2026
+
+Alexander’s independently documented children James, Mary and Ann match the 1892 citation’s Alexander-of-Rasharkin group. That group appears among heirs/next of kin before the separate legatee list. Nancy’s own niece/nephew statements, linked through the Dysart and Anderson baptisms, anchor the family interpretation. John-867’s distinctive James Garvin/Ann branch identifies the other cited household, and his 1846 marriage names father John Glasgow, farmer. Recorded Glasgow birth surnames favor a common paternal family. The combined identity and kinship argument supports a confident 90% inference; a generic unsupported half-sibling possibility does not impose a probable ceiling.
+
+The probate citation is an incomplete service notice, not an adjudicated pedigree: Alexander’s living son Robert was omitted. John’s Ballydonnelly description and the cited Lizzie remain unexplained. The underlying petition and heir schedule have not been inspected. These are real limits, but no held competing household matches the James Garvin/Ann group and no evidence identifies different Glasgow fathers through a maternal half-sibling relationship. The flax-grower and older Larne identities remain separate hypotheses.
+
+The percentage concerns the selected father as John Glasgow, farmer, named in the 1846 marriage of John Glasgow-867. It does not identify him with the 1796 Desertoghill flax grower, establish his Larne ancestry, identify a mother or resolve Alexander’s separate death identity. Percentages are subjective evidence assessments, not calibrated statistical probabilities.
+
+Sources: [1846 marriage](https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1846/09306/5369439.pdf), [1851 Lisnagaver household 34](http://www.census.nationalarchives.ie/reels/c19/007246523/007246523_00173.pdf), [1892 probate citation](https://www.nyshistoricnewspapers.org/?a=d&d=plts18920226-01.1.6). Held readings reused; no new original inspection. [Father’s account](/people/glasgow-4090.html).

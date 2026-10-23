@@ -2,7 +2,15 @@
 
 Last updated: 2026-10-07
 
-## Current answer
+## Current conclusion
+
+Reviewed 23 October 2026: **95% confident** for father [John Glasgow-4090](https://www.wikitree.com/wiki/Glasgow-4090). The previous qualitative **probable** assessment is strengthened; no earlier percentage is invented.
+
+The 1851 Lisnagaver return explicitly calls Samuel the brother of John Glasgow-867. The head’s wife Margaret, 1846 marriage year, residence, parish and farming occupation uniquely fit John’s father-naming 1846 marriage. Samuel’s later unmarried weaver identity continues the same household man. On the ordinary meaning of the documented brotherhood and the shared Glasgow surname, John’s named father John Glasgow, farmer, is confidently Samuel’s father at 95%. No positive evidence supports a maternal-only half-brother relationship through another Glasgow father.
+
+The percentage concerns the selected father as John Glasgow, farmer, named in the 1846 marriage of John Glasgow-867. It does not identify him with the 1796 Desertoghill flax grower, establish his Larne ancestry, identify a mother or resolve Alexander’s separate death identity. Percentages are subjective evidence assessments, not calibrated statistical probabilities.
+
+### Earlier maintained answer
 
 The 5 September master review confirms the proof chain but refines its limits:
 the census directly proves Samuel's brotherhood to John `Glasgow-867`; John's
@@ -130,3 +138,13 @@ Samuel was born about 1789 to 1791, by his age of 60 in the 1851 return and of 8
 
 A possible identification concerns Samuel Glasgow, farmer examined at Moneymore. An 1845 tenant-right discussion quotes Samuel Glasgow, described as an intelligent farmer examined at Moneymore, advocating secure tenure and protection against rent charged on improvements. He described seeing reclamation on Sir Thomas Staples’s land in his neighbourhood. (Freeman’s Journal and Daily Commercial Advertiser, 19 March 1845, p. 1, Ulster tenant-right discussion; [record](https://www.newspapers.com/image/1050103241/); Freeman’s Journal and Daily Commercial Advertiser, 19 March 1845, p. 1, alternate archive image of tenant-right passage; [record](https://www.newspapers.com/image/1380777866/).) Moneymore is where he was examined, not an explicit home townland. The date of his examination, age and relatives are unstated. Cookstown farmers [Glasgow-2054](https://www.wikitree.com/wiki/Glasgow-2054) and [Glasgow-1698](https://www.wikitree.com/wiki/Glasgow-1698) are compatible; [Lisnagaver Glasgow](https://www.wikitree.com/wiki/Glasgow-2908) is a weaker regional comparison, without a locality or occupation bridge. No connection to Lisnagaver is established. The identification remains uncertain.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father confidence reassessment — 23 October 2026
+
+The 1851 Lisnagaver return explicitly calls Samuel the brother of John Glasgow-867. The head’s wife Margaret, 1846 marriage year, residence, parish and farming occupation uniquely fit John’s father-naming 1846 marriage. Samuel’s later unmarried weaver identity continues the same household man. On the ordinary meaning of the documented brotherhood and the shared Glasgow surname, John’s named father John Glasgow, farmer, is confidently Samuel’s father at 95%. No positive evidence supports a maternal-only half-brother relationship through another Glasgow father.
+
+The probate citation is an incomplete service notice, not an adjudicated pedigree: Alexander’s living son Robert was omitted. John’s Ballydonnelly description and the cited Lizzie remain unexplained. The underlying petition and heir schedule have not been inspected. These are real limits, but no held competing household matches the James Garvin/Ann group and no evidence identifies different Glasgow fathers through a maternal half-sibling relationship. The flax-grower and older Larne identities remain separate hypotheses.
+
+The percentage concerns the selected father as John Glasgow, farmer, named in the 1846 marriage of John Glasgow-867. It does not identify him with the 1796 Desertoghill flax grower, establish his Larne ancestry, identify a mother or resolve Alexander’s separate death identity. Percentages are subjective evidence assessments, not calibrated statistical probabilities.
+
+Sources: [1846 marriage](https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1846/09306/5369439.pdf), [1851 Lisnagaver household 34](http://www.census.nationalarchives.ie/reels/c19/007246523/007246523_00173.pdf), [1892 probate citation](https://www.nyshistoricnewspapers.org/?a=d&d=plts18920226-01.1.6). Held readings reused; no new original inspection. [Father’s account](/people/glasgow-4090.html).

@@ -4146,3 +4146,12 @@ Twenty provider transcripts are reviewed in fifteen documentary groups. Existing
 | [Thomas evidence account](/people/record-thomas-glasgo-campbell-1877.html) | HOLD | Indexed father only; no numbered identity selected, no dates/place of birth or marriage invented. |
 
 | [Joseph Glasgow (Glasgow-3722)](https://www.wikitree.com/wiki/Glasgow-3722) | OPEN | Existing father Joseph-2573:91% retained; original 1914 certificate names Lucy Gilbert, but Jas./Jos. and father birthplace remain uncertain. Specify death 24February1914 versus filing 25 February; retain age differences. |
+
+### Lisnagaver father confidence — 23 October 2026
+
+| Profile | Status | Amendment |
+| --- | --- | --- |
+| [Alexander Glasgow](https://www.wikitree.com/wiki/Glasgow-951) | OPEN | Existing father confidence to 90%; no new father. Complete pending biography retained. |
+| [John Glasgow](https://www.wikitree.com/wiki/Glasgow-867) | OPEN | Add scoped family confidence review; preserve existing confident flag and all prior pending amendments. |
+| [Samuel Glasgow](https://www.wikitree.com/wiki/Glasgow-2908) | OPEN | Existing father confidence to 95%; no new father. Complete pending biography retained. |
+| [John Glasgow](https://www.wikitree.com/wiki/Glasgow-4090) | OPEN | Add scoped family confidence review; preserve existing confident flag and all prior pending amendments. |

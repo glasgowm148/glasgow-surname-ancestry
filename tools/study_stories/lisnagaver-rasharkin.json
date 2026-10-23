@@ -1,11 +1,11 @@
 {
-  "reviewed": "2026-10-22",
+  "reviewed": "2026-10-23",
   "id": "lisnagaver-rasharkin",
   "kicker": "Local research study",
   "title": "Lisnagaver & Rasharkin",
   "standfirst": "Nineteenth-century records document several Glasgow households around Lisnagaver, Gortahar and Kilrea. Their shared older parentage, and any route back to Larne or Inishrush, remain open.",
   "status": {
-    "label": "Documented households; open parentage",
+    "label": "Confident Lisnagaver father links; upstream origins open",
     "tone": "supported"
   },
   "facts": [
@@ -26,9 +26,37 @@
       "label": "proved Thomas–Daniel brotherhood"
     }
   ],
-  "question": "Can the documented Lisnagaver, Gortahar and Kilrea households be joined by a record that names their older parents, rather than by shared surname, locality, or DNA alone?",
-  "answer": "Alexander’s probable father is John Glasgow, farmer, named in John-867’s 1846 marriage: Nancy’s probate citation and independently documented Glasgow birth surnames favour a common paternal sibling group. No record names Alexander’s own father directly. The Thomas–Daniel family is independently proved but is not joined to Alexander by a parent statement. The Desertoghill and Larne identities remain separate hypotheses. Older Alexander’s new uncertain Larne father belongs to that competing family model; the record-defined John remains younger Alexander-951’s leading father comparison.",
+  "question": "Which earlier family links are supported by the combined records, and how strong are they?",
+  "answer": "John Glasgow, farmer, named in John-867’s 1846 marriage, is assessed 98% for that direct father relationship. Samuel’s father is confidently inferred at 95% from the explicit1851 brother relationship. Alexander’s father is confidently inferred at 90% from Nancy’s probate family network and the recorded Glasgow birth surnames. These strengthen the latter two earlier probable assessments without inventing a named parent statement. The 1796 Desertoghill identity and any Larne ancestry remain unproved; the Thomas–Daniel family is still separate.",
   "chapters": [
+    {
+      "id": "lisnagaver-father-confidence-20261023",
+      "title": "Two confident inferences to John, farmer",
+      "body": [
+        "Alexander’s independently documented children James, Mary and Ann match the 1892 citation’s Alexander-of-Rasharkin group. That group appears among heirs/next of kin before the separate legatee list. Nancy’s own niece/nephew statements, linked through the Dysart and Anderson baptisms, anchor the family interpretation. John-867’s distinctive James Garvin/Ann branch identifies the other cited household, and his 1846 marriage names father John Glasgow, farmer. Recorded Glasgow birth surnames favor a common paternal family. The combined identity and kinship argument supports a confident 90% inference; a generic unsupported half-sibling possibility does not impose a probable ceiling.",
+        "The 1851 Lisnagaver return explicitly calls Samuel the brother of John Glasgow-867. The head’s wife Margaret, 1846 marriage year, residence, parish and farming occupation uniquely fit John’s father-naming 1846 marriage. Samuel’s later unmarried weaver identity continues the same household man. On the ordinary meaning of the documented brotherhood and the shared Glasgow surname, John’s named father John Glasgow, farmer, is confidently Samuel’s father at 95%. No positive evidence supports a maternal-only half-brother relationship through another Glasgow father.",
+        "The probate citation is an incomplete service notice, not an adjudicated pedigree: Alexander’s living son Robert was omitted. John’s Ballydonnelly description and the cited Lizzie remain unexplained. The underlying petition and heir schedule have not been inspected. These are real limits, but no held competing household matches the James Garvin/Ann group and no evidence identifies different Glasgow fathers through a maternal half-sibling relationship. The flax-grower and older Larne identities remain separate hypotheses. The percentage concerns the selected father as John Glasgow, farmer, named in the 1846 marriage of John Glasgow-867. It does not identify him with the 1796 Desertoghill flax grower, establish his Larne ancestry, identify a mother or resolve Alexander’s separate death identity. Percentages are subjective evidence assessments, not calibrated statistical probabilities."
+      ],
+      "period": "23 October 2026",
+      "evidence": [
+        {
+          "label": "Alexander Glasgow — father assessment",
+          "url": "/people/glasgow-951.html#research-findings"
+        },
+        {
+          "label": "John Glasgow — father assessment",
+          "url": "/people/glasgow-867.html#research-findings"
+        },
+        {
+          "label": "Samuel Glasgow — father assessment",
+          "url": "/people/glasgow-2908.html#research-findings"
+        },
+        {
+          "label": "John Glasgow — father assessment",
+          "url": "/people/glasgow-4090.html#research-findings"
+        }
+      ]
+    },
     {
       "id": "glenleslie-john-robert-father-test",
       "period": "1851 census; original checked 23 October 2026",
@@ -698,5 +726,6 @@
     }
   ],
   "sources_note": "Original 1846 Irish marriage, Nancy’s will and probate citation, the newly inspected 1891 newspaper death notice, and Irish census and family records underpin the conclusions. The linked people pages distinguish records from identity hypotheses and record the bounded searches completed on 29 September 2026. The 1871 Belfast death notices repeat one account; their age of 73 is retained alongside the civil-register age of 75.",
-  "reviewed_on": "2026-10-18"
+  "reviewed_on": "2026-10-23",
+  "boundary": "The 90% and 95% father inferences do not prove the older John’s birthplace, the 1796 flax-grower identity, a mother or the Larne ancestry. Nancy’s probate citation is incomplete; the underlying petition remains uninspected."
 }

@@ -1,11 +1,12 @@
 {
-  "assessment_date": "2026-10-15",
+  "assessment_date": "2026-10-23",
   "principal_locality": "Lisnagaver, Rasharkin parish",
   "principal_locality_href": "/branches/lisnagaver-rasharkin/",
   "opening": "Alexander farmed at Lisnagaver, near Rasharkin in County Antrim. Records identify his wife, Mary McCaughan, and six children. The family’s earlier origins are less certain.",
   "position": {
-    "answer": "Documented Lisnagaver family; confirmed descendant R-FT20271 branch; probable Gortahar death in 1888; father: probably John Glasgow, farmer (Glasgow-4090). This rests on Nancy Glasgow's 1892 heirs citation, the Glasgow birth surname of every sibling branch and John-867's 1846 marriage. It is not directly proved.",
+    "answer": "Documented Lisnagaver family; confirmed descendant R-FT20271 branch; probable Gortahar death in 1888; father: John Glasgow, farmer (Glasgow-4090), confidently inferred at 90%. This rests on Nancy Glasgow's 1892 heirs citation, the Glasgow birth surname of every sibling branch and John-867's 1846 marriage. The father inference is confident, rather than a direct statement naming Alexander’s parent.",
     "points": [
+      "23October2026: father John farmer assessed90%, strengthening the earlier probable conclusion from the full probate/collateral argument; no new record found. Samuel’s same-father inference is95%, and John-867’s directly named father is98%. The graph’s separate primary-selection repair is not a research gain.",
       "15 October 2026: PRONI AG 57714 returned no Glasgow or variant in the specified years; exact record coverage is unconfirmed. The separate Ballymoney family-register search, AG 57828, remains outstanding. No parentage change.",
       "6 October 2026 source audit: the 1888 informant reads Mary Glasgow, not Nancy; James Anderson, husband of Alexander’s probable sister Elizabeth, died at Gortahar on 18 April 1888; son Robert was living when the January 1892 citation omitted him.",
       "29 September 2026: Nancy's death notice confirms 31 October 1891 at Plattsburgh, aged about 75; her will implies a younger birth. The Glenleslie Nancy died in 1847 and is a different person. John farmer remains probable, not directly proved.",
@@ -58,7 +59,7 @@
     {
       "id": "parents",
       "title": "What is actually known about his parents?",
-      "answer": "John Glasgow, farmer, named in John-867’s 1846 marriage, is Alexander’s probable father through Nancy’s reconstructed sibling network. No record names Alexander’s father directly; older Alexander/Rosanna and Glenleslie are weaker, separately tested alternatives.",
+      "answer": "John Glasgow, farmer, is confidently inferred as Alexander’s father at 90%, from Nancy’s exact child-group citation, independently anchored niece/nephew branches, recorded Glasgow birth surnames and John-867’s father-naming marriage. No record directly names Alexander’s father; maternity and the older John’s own identity remain separate.",
       "records": [
         "tithe-1834"
       ],
@@ -244,10 +245,10 @@
             "id": "Glasgow-4090",
             "name": "John Glasgow, farmer",
             "relationship": "father",
-            "status": "probable",
-            "status_label": "Probable; not directly proved",
+            "status": "proved",
+            "status_label": "Confident inference90%; record-defined father",
             "display": "proposed",
-            "reason": "John Glasgow, farmer, is named as John-867's father in 1846. Nancy Glasgow's 1892 notice serves Alexander's children as heirs, in the same class as her named niece and nephew. Every sibling branch with a recorded birth surname is Glasgow, so the parent they probably shared was this father (23 September 2026 evaluation). Maternity and full/half blood are unknown. Identity with the 1796 Desertoghill flax grower remains unproved."
+            "reason": "Alexander’s independently documented children James, Mary and Ann match the 1892 citation’s Alexander-of-Rasharkin group. That group appears among heirs/next of kin before the separate legatee list. Nancy’s own niece/nephew statements, linked through the Dysart and Anderson baptisms, anchor the family interpretation. John-867’s distinctive James Garvin/Ann branch identifies the other cited household, and his 1846 marriage names father John Glasgow, farmer. Recorded Glasgow birth surnames favor a common paternal family. The combined identity and kinship argument supports a confident 90% inference; a generic unsupported half-sibling possibility does not impose a probable ceiling. The percentage concerns the selected father as John Glasgow, farmer, named in the 1846 marriage of John Glasgow-867. It does not identify him with the 1796 Desertoghill flax grower, establish his Larne ancestry, identify a mother or resolve Alexander’s separate death identity. Percentages are subjective evidence assessments, not calibrated statistical probabilities."
           },
           "Glasgow-1367",
           "Unknown-540856",

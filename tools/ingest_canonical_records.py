@@ -56,7 +56,7 @@ def main_body(shell, body):
 
 
 def source_page(shell, doc, *, existing=False):
-    title = escape(doc['title'])
+    title = escape(' '.join(doc['title'].split()))
     start, end = '<!-- canonical-record-ingest:start -->', '<!-- canonical-record-ingest:end -->'
     outside = re.sub(re.escape(start) + r'[\s\S]*?' + re.escape(end), '', shell, count=1)
     secondary = '<p class="r-kicker">Source item</p><h2>' in shell
@@ -65,7 +65,7 @@ def source_page(shell, doc, *, existing=False):
     body += f'<p><a href="{escape(doc["url"], quote=True)}">Inspect the provider record</a></p>'
     body += '<p>Reviewed provider transcript; the original register has not been inspected unless the assessment explicitly states otherwise.</p>'
     for row in doc.get('records', []):
-        body += '<article><h2>' + escape(row.get('association') or row.get('name') or 'Record association') + '</h2>'
+        body += '<article><h2>' + escape(' '.join((row.get('association') or row.get('name') or 'Record association').split())) + '</h2>'
         body += '<p>' + escape(' · '.join(str(row.get(k) or '') for k in ('date', 'place', 'status'))) + '</p>'
         body += '<p>' + escape(row.get('note') or '') + '</p></article>'
     body += '<h2>Linked people and record roles</h2><ul>'
