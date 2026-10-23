@@ -26,6 +26,12 @@ status do not closely match the later County Tyrone tradition.
 | [Registry of Deeds memorial 38,213](https://irishdeedsindex.net/mem.php?memorial=38213), vol. 57, p. 235 | John Glasgow, gentleman of Gortigillagh, County Leitrim, witnessed a Johnston-network agreement dated 30 May 1728. | Genuine contemporary candidate, but no relationship, age or Tyrone connection. Keep separate as Glasgow-3960. |
 | [Registry of Deeds memorial 71,498](https://irishdeedsindex.net/mem.php?memorial=71498), vol. 101, p. 337 | A 1725 Cavankilgreen, County Tyrone lease names an occupier only as `[—] Glasgow` in the volunteer abstract. | Potentially decisive for John-551 if the omitted forename is John, but the original has not been read and no identification can yet be made. |
 
+## Cavankilgreen original-image test — 23 October 2026
+
+The image locator for memorial 71498 is now established from the index's own book/image button and resolver: **volume 101, page 337; [FamilySearch film 008088382, image 175](https://www.familysearch.org/search/film/008088382?cat=185720&i=174)**. The deed is dated 18 May 1725 and was registered on 1 June 1741. The fuller [volunteer abstract](https://irishdeedsindex.net/mem.php?memorial=71498) leaves the Glasgow occupier's first name blank; another abstract of the same instrument omits that occupier. Neither supplies John or a family relationship.
+
+The original image returned HTTP 403, and the in-app and research Chrome browsers both encountered a FamilySearch Incapsula access failure. No manuscript reading or negative name search of the original is claimed. Retain this exact locator for a later successful access attempt, rather than repeating a general deed-index search. [William Glasgow-3962](/people/glasgow-3962.html), the later Cavankilgreen witness, remains another compatible comparison, not a proved identification of the 1725 occupier. John's existing father assessment and all working relationships are unchanged.
+
 
 ## Selected uncertain family — 16 October 2026
 
