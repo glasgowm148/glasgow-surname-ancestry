@@ -1905,7 +1905,15 @@
         "nrs-gd39-5-59-1571"
       ],
       "research_url": "/people/glasgow-1168.html#family",
-      "reviewed": "2026-10-17"
+      "reviewed": "2026-10-17",
+      "research_state": {
+        "disposition": "awaiting_source",
+        "reviewed": "2026-10-23",
+        "reason": "Bounded existing-evidence preflight found no new discriminant; confidence unchanged.",
+        "reopen_when": "Find a shared parcel/title, succession, estate account or kinship description placing James or a proved relative within William/Esbell’s household."
+      },
+      "last_test": "23 October 2026 existing-evidence audit: 17October combined origin review already incorporates William/Esbell’s sonJohn, Corsankell family and Wallace/Mathy social corridor; no specific shared household/title.",
+      "next_test": "Find a shared parcel/title, succession, estate account or kinship description placing James or a proved relative within William/Esbell’s household."
     },
     {
       "subject_id": "Glasgow-1086",
@@ -2374,7 +2382,15 @@
         }
       ],
       "reviewed": "2026-10-17",
-      "review_kind": "individual calibration of an existing father; no topology change"
+      "review_kind": "individual calibration of an existing father; no topology change",
+      "research_state": {
+        "disposition": "awaiting_source",
+        "reviewed": "2026-10-23",
+        "reason": "Bounded existing-evidence preflight found no new discriminant; confidence unchanged.",
+        "reopen_when": "Inspect NRS RD3/42 p148 (8March1677; FamilySearch007830797 item3 image48) for Hugh’s residence/kin; John inRashlie CC9/7/28,17April1643, is a separate uninspected family-clause target."
+      },
+      "last_test": "23 October 2026 existing-evidence audit: Complete maintained biographies contain no independent spouse, occupation, property or sibling bridge.1648 apprentice is JohnGray, notGlasgow;3145 merge only consolidated scaffolds.",
+      "next_test": "Inspect NRS RD3/42 p148 (8March1677; FamilySearch007830797 item3 image48) for Hugh’s residence/kin; John inRashlie CC9/7/28,17April1643, is a separate uninspected family-clause target."
     },
     {
       "subject_id": "Glasgow-1066",
@@ -21524,57 +21540,109 @@
       "subject_id": "Glasgow-370",
       "relative_id": "Glasgow-634",
       "relationship": "father",
-      "percent": 73,
-      "assessment_status": "probable",
+      "percent": 96,
+      "assessment_status": "strongly_supported",
       "assertion_id": "C-coverage-20261022g-glasgow-370-father",
-      "basis": "Nancy’s exact 1771 Dobbs birth and Tennessee married identity are compatible with James the secretary’s family and a dedicated First Ladies secondary account. No literal parent passage is held; the secretary’s newspaper identity is not parent proof.",
+      "basis": "Holloman’s inspected NCpedia biography names daughter Nancy Ann (Annie), gives 22 April 1770, identifies Willoughby Williams as the secretary’s son-in-law and describes his death during the Tennessee migration. Nancy’s complete captured biography identifies both Williams and Governor Joseph McMinn as her husbands and reports that her March 1848 pension declaration named Colonel James Glassco, North Carolina secretary of state, as her father. The distinctive two-husband sequence and reported father’s exact public role identify this adult Nancy, rather than merely a same-name daughter.",
       "source_ids": [
+        "held-e-6740793b6455",
         "held-e-6c829c517df8"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Named child to the specific adult family role represented by the selected father; independent earlier ancestry is outside this assessment."
+      "reviewed": "2026-10-23",
+      "scope": "96% concerns the complete existing Nancy-to-Secretary-James profile pair. The pension father statement is held through the captured biography, not an inspected original pension or Graves transcription. The First Ladies book remains an uninspected citation. Holloman’s 1770 and the profile’s 1771 birth years differ by one year despite matching day/month; Dandridge/Rutledge death locality and May/August 1816 remarriage details remain unresolved. These accounts may be dependent. Existing vitals, mothers and spouses are retained; no new attachment or live edit.",
+      "prior_reviews": [
+        {
+          "percent": 73,
+          "assessment_status": "probable",
+          "basis": "Nancy’s exact 1771 Dobbs birth and Tennessee married identity are compatible with James the secretary’s family and a dedicated First Ladies secondary account. No literal parent passage is held; the secretary’s newspaper identity is not parent proof.",
+          "source_ids": [
+            "held-e-6c829c517df8"
+          ],
+          "reviewed": "2026-10-22",
+          "scope": "Named child to the specific adult family role represented by the selected father; independent earlier ancestry is outside this assessment."
+        }
+      ]
     },
     {
       "subject_id": "Glasgow-634",
       "relative_id": "Glasgow-370",
       "relationship": "child",
-      "percent": 73,
-      "assessment_status": "probable",
+      "percent": 96,
+      "assessment_status": "strongly_supported",
       "assertion_id": "C-coverage-20261022g-glasgow-370-father",
-      "basis": "Nancy’s exact 1771 Dobbs birth and Tennessee married identity are compatible with James the secretary’s family and a dedicated First Ladies secondary account. No literal parent passage is held; the secretary’s newspaper identity is not parent proof.",
+      "basis": "Holloman’s inspected NCpedia biography names daughter Nancy Ann (Annie), gives 22 April 1770, identifies Willoughby Williams as the secretary’s son-in-law and describes his death during the Tennessee migration. Nancy’s complete captured biography identifies both Williams and Governor Joseph McMinn as her husbands and reports that her March 1848 pension declaration named Colonel James Glassco, North Carolina secretary of state, as her father. The distinctive two-husband sequence and reported father’s exact public role identify this adult Nancy, rather than merely a same-name daughter.",
       "source_ids": [
+        "held-e-6740793b6455",
         "held-e-6c829c517df8"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Named child to the specific adult family role represented by the selected father; independent earlier ancestry is outside this assessment."
+      "reviewed": "2026-10-23",
+      "scope": "96% concerns the complete existing Nancy-to-Secretary-James profile pair. The pension father statement is held through the captured biography, not an inspected original pension or Graves transcription. The First Ladies book remains an uninspected citation. Holloman’s 1770 and the profile’s 1771 birth years differ by one year despite matching day/month; Dandridge/Rutledge death locality and May/August 1816 remarriage details remain unresolved. These accounts may be dependent. Existing vitals, mothers and spouses are retained; no new attachment or live edit.",
+      "prior_reviews": [
+        {
+          "percent": 73,
+          "assessment_status": "probable",
+          "basis": "Nancy’s exact 1771 Dobbs birth and Tennessee married identity are compatible with James the secretary’s family and a dedicated First Ladies secondary account. No literal parent passage is held; the secretary’s newspaper identity is not parent proof.",
+          "source_ids": [
+            "held-e-6c829c517df8"
+          ],
+          "reviewed": "2026-10-22",
+          "scope": "Named child to the specific adult family role represented by the selected father; independent earlier ancestry is outside this assessment."
+        }
+      ]
     },
     {
       "subject_id": "Glasgow-2055",
       "relative_id": "Glasgow-634",
       "relationship": "father",
-      "percent": 66,
-      "assessment_status": "probable",
+      "percent": 93,
+      "assessment_status": "strongly_supported",
       "assertion_id": "C-coverage-20261022g-glasgow-2055-father",
-      "basis": "Elizabeth’s 1772 North Carolina birth and later Nashville setting fit James’s family and Nancy’s generation. Her memorial is the only individual citation and supplies no held parent wording.",
+      "basis": "Holloman’s inspected NCpedia account expressly identifies Elizabeth Glasgow Martin as Secretary James’s widowed daughter: her deceased husband was merchant John Martin, she had two young sons, and she married Stockley Donelson in April 1797. The complete captured child biography and retained family identify that same unusual two-husband sequence and sons James and George. The secretary’s trusteeship of the marriage agreement and grandson James Glasgow Martin’s executor role add family-specific coherence. This identifies the specific adult Elizabeth, rather than relying on a memorial surname or approximate birthplace.",
       "source_ids": [
+        "held-e-6740793b6455",
         "held-e-eb8b1ed80709"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Named child to the specific adult family role represented by the selected father; independent earlier ancestry is outside this assessment."
+      "reviewed": "2026-10-23",
+      "scope": "93% concerns the complete existing Elizabeth-to-Secretary-James profile pair. The captured biography may derive from Holloman and is an identity comparison, not independent corroboration. The original marriage settlement and 1819 probate remain uninspected. Holloman’s approximately 1763 birth differs from the retained 20 May 1772; the exact spouse/children sequence outweighs that unresolved vital discrepancy for parent identity. The memorial URL ending elizabeth-anderson alone establishes no third marriage. Vitals, mothers and spouses remain unchanged; no new attachment or live edit.",
+      "prior_reviews": [
+        {
+          "percent": 66,
+          "assessment_status": "probable",
+          "basis": "Elizabeth’s 1772 North Carolina birth and later Nashville setting fit James’s family and Nancy’s generation. Her memorial is the only individual citation and supplies no held parent wording.",
+          "source_ids": [
+            "held-e-eb8b1ed80709"
+          ],
+          "reviewed": "2026-10-22",
+          "scope": "Named child to the specific adult family role represented by the selected father; independent earlier ancestry is outside this assessment."
+        }
+      ]
     },
     {
       "subject_id": "Glasgow-634",
       "relative_id": "Glasgow-2055",
       "relationship": "child",
-      "percent": 66,
-      "assessment_status": "probable",
+      "percent": 93,
+      "assessment_status": "strongly_supported",
       "assertion_id": "C-coverage-20261022g-glasgow-2055-father",
-      "basis": "Elizabeth’s 1772 North Carolina birth and later Nashville setting fit James’s family and Nancy’s generation. Her memorial is the only individual citation and supplies no held parent wording.",
+      "basis": "Holloman’s inspected NCpedia account expressly identifies Elizabeth Glasgow Martin as Secretary James’s widowed daughter: her deceased husband was merchant John Martin, she had two young sons, and she married Stockley Donelson in April 1797. The complete captured child biography and retained family identify that same unusual two-husband sequence and sons James and George. The secretary’s trusteeship of the marriage agreement and grandson James Glasgow Martin’s executor role add family-specific coherence. This identifies the specific adult Elizabeth, rather than relying on a memorial surname or approximate birthplace.",
       "source_ids": [
+        "held-e-6740793b6455",
         "held-e-eb8b1ed80709"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Named child to the specific adult family role represented by the selected father; independent earlier ancestry is outside this assessment."
+      "reviewed": "2026-10-23",
+      "scope": "93% concerns the complete existing Elizabeth-to-Secretary-James profile pair. The captured biography may derive from Holloman and is an identity comparison, not independent corroboration. The original marriage settlement and 1819 probate remain uninspected. Holloman’s approximately 1763 birth differs from the retained 20 May 1772; the exact spouse/children sequence outweighs that unresolved vital discrepancy for parent identity. The memorial URL ending elizabeth-anderson alone establishes no third marriage. Vitals, mothers and spouses remain unchanged; no new attachment or live edit.",
+      "prior_reviews": [
+        {
+          "percent": 66,
+          "assessment_status": "probable",
+          "basis": "Elizabeth’s 1772 North Carolina birth and later Nashville setting fit James’s family and Nancy’s generation. Her memorial is the only individual citation and supplies no held parent wording.",
+          "source_ids": [
+            "held-e-eb8b1ed80709"
+          ],
+          "reviewed": "2026-10-22",
+          "scope": "Named child to the specific adult family role represented by the selected father; independent earlier ancestry is outside this assessment."
+        }
+      ]
     },
     {
       "subject_id": "Glasgow-3977",

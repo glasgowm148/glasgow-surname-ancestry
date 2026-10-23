@@ -4085,3 +4085,10 @@ Twenty provider transcripts are reviewed in fifteen documentary groups. Existing
 | --- | --- | --- |
 | [Nancy Annie Glasgow](https://www.wikitree.com/wiki/Glasgow-370) | OPEN | Existing father James634: 73% →96% confident; complete sourced draft, retained birth/source limits; no live save. |
 | [Elizabeth Glasgow Martin](https://www.wikitree.com/wiki/Glasgow-2055) | OPEN | Existing father James634: 66% →93% confident; complete sourced draft, retained birth/source limits; no live save. |
+
+### Held family confidence review —23October2026
+
+| Profile | Status | Amendment |
+| --- | --- | --- |
+| [Nancy Annie Glasgow](https://www.wikitree.com/wiki/Glasgow-370) | OPEN | Existing father James634: 73% →96% confident; complete sourced draft, retained birth/source limits; no live save. |
+| [Elizabeth Glasgow Martin](https://www.wikitree.com/wiki/Glasgow-2055) | OPEN | Existing father James634: 66% →93% confident; complete sourced draft, retained birth/source limits; no live save. |

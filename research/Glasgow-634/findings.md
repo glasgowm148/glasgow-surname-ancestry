@@ -4,6 +4,10 @@
 
 **Reviewed 23 October 2026:** the existing father [Rev. Patrick Glasgow-635](/people/glasgow-635.html) is now **95% confident**, from 47%; existing son [James-2492](/people/glasgow-2492.html) is **94% confident**, from 65%. Holloman’s now-inspected family passages supply specific father and son roles, rather than postal-name comparisons. The earlier numerical father conclusion is superseded; its source basis is retained below. The minister’s upstream 26% ancestry and the Martha/Mary Jones maternal-name question remain separate. Existing vital fields are retained.
 
+The complete held accounts of daughters [Nancy-370](/people/glasgow-370.html) and [Elizabeth-2055](/people/glasgow-2055.html) are now reconciled with Holloman’s specific family passages. Their existing father links rise **73% → 96%** and **66% → 93%**, respectively. Nancy’s two husbands and reported pension father declaration identify the adult; Elizabeth’s Martin–Donelson sequence and two sons identify her. These are confidence improvements to existing relatives. The original pension, settlement and probate remain uninspected; birth and subsidiary marriage/death discrepancies stay open. The earlier 95% father and 94% son assessments remain unchanged.
+
+[Charles R. Holloman, “Glasgow, James,” Dictionary of North Carolina Biography (1986), NCpedia revision December 2022](https://www.ncpedia.org/biography/glasgow-james).
+
 ## Current conclusion — additional newspaper originals, 5 October 2026
 
 James Glasgow, Lancaster postal addressee, 1773: Uncertain 1735 Maryland birth permits 1773; no Lancaster postal bridge. The three checked profiles remain possible; none identifies the addressee. No link to the 1757 Philadelphia/Fogs Manor, 1775 Charlestown or 1777 shipmaster James is established. No family or life-date change follows.
@@ -392,3 +396,9 @@ Current father assessment (22 October 2026): **47% (possible)** for [Glasgow-635
 
 <!-- site-audit-2026-10-07:overall-conclusion -->
 James Glasgow was North Carolina's first Secretary of State, holding the office from 1777 to 1798, and a colonel of the Dobbs County militia; his profile gives his birth as about 1735 in Maryland and his death in 1819 in Tennessee. Newspapers naming the office, from proclamations he countersigned in January 1778 to his resignation reported in December 1798, are strong matches; Masonic, postal and petition notices are probable or possible. In December 1799 commissioners accused 'the late Secretary' of irregular military land warrants, and a legislative committee reported that he alone had been arrested. Secondary sources report his trial and conviction in 1800 (State v. Glasgow).
+
+## Held family evidence reconciled — 23 October 2026
+
+The complete held accounts of daughters [Nancy-370](/people/glasgow-370.html) and [Elizabeth-2055](/people/glasgow-2055.html) are now reconciled with Holloman’s specific family passages. Their existing father links rise **73% → 96%** and **66% → 93%**, respectively. Nancy’s two husbands and reported pension father declaration identify the adult; Elizabeth’s Martin–Donelson sequence and two sons identify her. These are confidence improvements to existing relatives. The original pension, settlement and probate remain uninspected; birth and subsidiary marriage/death discrepancies stay open. The earlier 95% father and 94% son assessments remain unchanged.
+
+[Charles R. Holloman, “Glasgow, James,” Dictionary of North Carolina Biography (1986), NCpedia revision December 2022](https://www.ncpedia.org/biography/glasgow-james).

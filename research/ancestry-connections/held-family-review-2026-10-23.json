@@ -1,0 +1,130 @@
+{
+  "reviewed": "2026-10-23",
+  "scope": "Reconcile existing held adult biographies and inspected family passages before searching for new sources.",
+  "father_confidence_changes": [
+    {
+      "subject": "Glasgow-370",
+      "relative": "Glasgow-634",
+      "assertion_id": "C-coverage-20261022g-glasgow-370-father",
+      "before": 73,
+      "after": 96,
+      "status": "confident",
+      "basis": "Holloman’s inspected NCpedia biography names daughter Nancy Ann (Annie), gives 22 April 1770, identifies Willoughby Williams as the secretary’s son-in-law and describes his death during the Tennessee migration. Nancy’s complete captured biography identifies both Williams and Governor Joseph McMinn as her husbands and reports that her March 1848 pension declaration named Colonel James Glassco, North Carolina secretary of state, as her father. The distinctive two-husband sequence and reported father’s exact public role identify this adult Nancy, rather than merely a same-name daughter.",
+      "scope": "96% concerns the complete existing Nancy-to-Secretary-James profile pair. The pension father statement is held through the captured biography, not an inspected original pension or Graves transcription. The First Ladies book remains an uninspected citation. Holloman’s 1770 and the profile’s 1771 birth years differ by one year despite matching day/month; Dandridge/Rutledge death locality and May/August 1816 remarriage details remain unresolved. These accounts may be dependent. Existing vitals, mothers and spouses are retained; no new attachment or live edit.",
+      "new_father_attachment": false
+    },
+    {
+      "subject": "Glasgow-2055",
+      "relative": "Glasgow-634",
+      "assertion_id": "C-coverage-20261022g-glasgow-2055-father",
+      "before": 66,
+      "after": 93,
+      "status": "confident",
+      "basis": "Holloman’s inspected NCpedia account expressly identifies Elizabeth Glasgow Martin as Secretary James’s widowed daughter: her deceased husband was merchant John Martin, she had two young sons, and she married Stockley Donelson in April 1797. The complete captured child biography and retained family identify that same unusual two-husband sequence and sons James and George. The secretary’s trusteeship of the marriage agreement and grandson James Glasgow Martin’s executor role add family-specific coherence. This identifies the specific adult Elizabeth, rather than relying on a memorial surname or approximate birthplace.",
+      "scope": "93% concerns the complete existing Elizabeth-to-Secretary-James profile pair. The captured biography may derive from Holloman and is an identity comparison, not independent corroboration. The original marriage settlement and 1819 probate remain uninspected. Holloman’s approximately 1763 birth differs from the retained 20 May 1772; the exact spouse/children sequence outweighs that unresolved vital discrepancy for parent identity. The memorial URL ending elizabeth-anderson alone establishes no third marriage. Vitals, mothers and spouses remain unchanged; no new attachment or live edit.",
+      "new_father_attachment": false
+    }
+  ],
+  "source_ids": [
+    "held-e-6740793b6455"
+  ],
+  "source_access": "NCpedia direct open returned403; provider article was fully returned by indexed web search. No original pension/settlement/probate inspection.",
+  "verification": {
+    "all_historical_father_fields_checked": 1798,
+    "three_tree_models_agree": true,
+    "two_existing_fathers_crossed_confident": true,
+    "no_new_attachments": true,
+    "all_other_father_fields_unchanged": true,
+    "all_reviewed_vitals_unchanged": true,
+    "full_compact_update_membership_agrees": true,
+    "complete_draft_sources_preserved": true,
+    "individual_progress_changes_verified": true,
+    "publication_new_failures": 0,
+    "link_new_failures": 0,
+    "http_routes_checked": 12,
+    "browser_verified": false,
+    "asset_dependency_sources": 25379,
+    "asset_dependency_cycles": 0,
+    "asset_dependency_depth": 3,
+    "prior_progress_history_preserved": true,
+    "stale_asset_references": 0,
+    "asset_stamp_write_invocations": 1,
+    "public_accounts_synchronized_locally": true,
+    "live_wikitree_saved": false,
+    "deployed": false
+  },
+  "unchanged_high_impact_reviews": [
+    {
+      "subject": "record-george-mureistoun-1586",
+      "relative": "Glasgow-3522",
+      "assertion_id": "C-working-20261017-murieston-george-william",
+      "finding": "Merchant inheritance, mother and curatorship already identify the Glasgow George; no held clause links him to Mureistoun.",
+      "next_test": "Inspect NLS MS.3724 pp.1–15 or linked MS.3725 for predecessor, inherited tenure, mother/curator or a Glasgow property connection.",
+      "new_source_inspection": false,
+      "confidence_changed": false
+    },
+    {
+      "subject": "Glasgow-3610",
+      "relative": "Glasgow-991",
+      "assertion_id": "C-working-20261018-easter-newton-john-james-father",
+      "finding": "1616/1608 childhoods and1649/1652 Easter Newtoun household compared; neither is connected by identifying household evidence.",
+      "next_test": "Obtain a named-relative clause, shared occupation/witness or specific holding connecting Easter Newtoun John to James’s documented family; identify wife across1643 and1649–1652 records.",
+      "new_source_inspection": false,
+      "confidence_changed": false
+    },
+    {
+      "subject": "Glasgow-1026",
+      "relative": "Glasgow-3610",
+      "assertion_id": "C-working-20261016-lothian-heads-william",
+      "finding": "1681 banns and1682/1702/1705 William entries supply no connection to the1649 Johne child; no proved sibling transfer.",
+      "next_test": "Find William’s explicit sibling link to Johne/Annah or a specific holding, occupation or witness linking his1681–1682 household with Easter Newtoun; reconcile register references.",
+      "new_source_inspection": false,
+      "confidence_changed": false
+    },
+    {
+      "subject": "Glasgow-1168",
+      "relative": "Glasgow-1098",
+      "assertion_id": null,
+      "finding": "17October combined origin review already incorporates William/Esbell’s sonJohn, Corsankell family and Wallace/Mathy social corridor; no specific shared household/title.",
+      "next_test": "Find a shared parcel/title, succession, estate account or kinship description placing James or a proved relative within William/Esbell’s household.",
+      "new_source_inspection": false,
+      "confidence_changed": false
+    },
+    {
+      "subject": "Glasgow-3970",
+      "relative": "Glasgow-1027",
+      "assertion_id": "C-working-20261016-larne-robert-father",
+      "finding": "Complete1653 examination accounts and1618 parents/sponsors have no shared origin, occupation, age, kin or demonstrated associate. The1625 office cannot belong to the six-year-old child.",
+      "next_test": "Inspect Argyll Estates GB3452 ARG-04-03-67-78 / PFV67,1666 shipmaster receipt, for actual residence, signature, associates or origin; catalogue description alone cannot identify him.",
+      "new_source_inspection": false,
+      "confidence_changed": false
+    },
+    {
+      "subject": "Glasgow-1603",
+      "relative": "Glasgow-3193",
+      "assertion_id": "C-working-20261017-ayrshire-hugh-john",
+      "finding": "GD39/5/59 names James elder, sonsJames/John and ChristianCampbell, not Hugh;1559–60 teinds concern generations above/besideJohn.",
+      "next_test": "Inspect NRS RD3/42 p148, recorded8March1677, for Hugh’s residence, counterparties or kin, comparing Hugh1603, Hew1066 and Hugh3109. A John holding/kin bridge is needed for this edge.",
+      "new_source_inspection": false,
+      "confidence_changed": false
+    },
+    {
+      "subject": "Glasgow-1025",
+      "relative": "Glasgow-1026",
+      "assertion_id": "C-review-20261020-james1025-william-father-cluster",
+      "finding": "Held full-letter context and1702/1705 household already reviewed; undated unsigned transcription and1759 will-index summary supply no migration or identifying kinship bridge.",
+      "next_test": "Inspect original PRONI T1959/3 and Drumcarn1759 will material for specific named kin, age, occupation or property linking the Scottish and Irish adults; do not infer contents from the index.",
+      "new_source_inspection": false,
+      "confidence_changed": false
+    },
+    {
+      "subject": "Glasgow-1604",
+      "relative": "Glasgow-1603",
+      "assertion_id": null,
+      "finding": "Complete maintained biographies contain no independent spouse, occupation, property or sibling bridge.1648 apprentice is JohnGray, notGlasgow;3145 merge only consolidated scaffolds.",
+      "next_test": "Inspect NRS RD3/42 p148 (8March1677; FamilySearch007830797 item3 image48) for Hugh’s residence/kin; John inRashlie CC9/7/28,17April1643, is a separate uninspected family-clause target.",
+      "new_source_inspection": false,
+      "confidence_changed": false
+    }
+  ]
+}

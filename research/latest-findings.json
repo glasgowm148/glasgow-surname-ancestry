@@ -55040,6 +55040,73 @@
           "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4033335&tab=this"
         }
       ]
+    },
+    {
+      "id": "secretary-daughters-held-family-confidence-20261023",
+      "found_on": "2026-10-23",
+      "reviewed_on": "2026-10-23",
+      "kind": "relationship",
+      "status": "qualified",
+      "detail_url": "/branches/early-scottish-records/#west-kilbride-manokin-working-family",
+      "provenance": "research/ancestry-connections/held-family-review-2026-10-23.json",
+      "new_father_attachments": 0,
+      "new_original_inspections": 0,
+      "finding": "Complete held family accounts strengthen Secretary James Glasgow’s existing daughters: Nancy73% →96% confident; Elizabeth66% →93% confident.",
+      "qualification": "Distinctive spouse/child sequences identify the adults; Nancy’s father wording is reported by the captured pension account. Holloman is a late scholarly biography, original pension/settlement/probate are uninspected, and birth discrepancies remain. No new father attachment, maternal/vital change or live WikiTree save.",
+      "people": [
+        {
+          "id": "Glasgow-370",
+          "name": "Nancy Annie Glasgow",
+          "url": "/people/glasgow-370.html",
+          "role": "Existing daughter"
+        },
+        {
+          "id": "Glasgow-2055",
+          "name": "Elizabeth Glasgow Martin",
+          "url": "/people/glasgow-2055.html",
+          "role": "Existing daughter"
+        },
+        {
+          "id": "Glasgow-634",
+          "name": "James Glasgow, secretary",
+          "url": "/people/glasgow-634.html",
+          "role": "Existing father"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Holloman, “Glasgow, James,” NCpedia",
+          "url": "https://www.ncpedia.org/biography/glasgow-james"
+        },
+        {
+          "title": "Held Nancy profile account reporting the1848pension declaration; original uninspected",
+          "url": "https://www.wikitree.com/wiki/Glasgow-370"
+        }
+      ],
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "Glasgow-370",
+          "relative": "Glasgow-634",
+          "before": "probable",
+          "after": "certain",
+          "explanation": "73% →96%; existing father confidently identified after complete family-source comparison.",
+          "previous_status_provenance": [
+            "research/relationship_assessments.json#C-coverage-20261022g-glasgow-370-father assessment_history"
+          ]
+        },
+        {
+          "relationship": "father",
+          "subject": "Glasgow-2055",
+          "relative": "Glasgow-634",
+          "before": "probable",
+          "after": "certain",
+          "explanation": "66% →93%; existing father confidently identified after complete family-source comparison.",
+          "previous_status_provenance": [
+            "research/relationship_assessments.json#C-coverage-20261022g-glasgow-2055-father assessment_history"
+          ]
+        }
+      ]
     }
   ]
 }

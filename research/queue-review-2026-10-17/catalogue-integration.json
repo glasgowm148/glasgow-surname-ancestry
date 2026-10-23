@@ -6315,8 +6315,8 @@
     },
     "Glasgow-634": {
       "draft_path": "research/Glasgow-634/father-confidence-2026-10-22c.wiki",
-      "summary": "Existing father: 47% → 95% confident; existing son James-2492: 65% → 94%. Add the inspected biographical family clauses and preserve the maternal-name question.",
-      "work_queue_summary": "Existing father: 47% → 95% confident; existing son James-2492: 65% → 94%. Add the inspected biographical family clauses and preserve the maternal-name question.",
+      "summary": "Existing father: 47% → 95% confident; existing son James-2492: 65% → 94%. Add the inspected biographical family clauses and preserve the maternal-name question. Add daughters Nancy at96% and Elizabeth at93%, with source qualifications.",
+      "work_queue_summary": "Existing father: 47% → 95% confident; existing son James-2492: 65% → 94%. Add the inspected biographical family clauses and preserve the maternal-name question. Add daughters Nancy at96% and Elizabeth at93%, with source qualifications.",
       "queued_at": "2026-10-22",
       "status": "OPEN",
       "pending": true,
@@ -22224,23 +22224,23 @@
       "status": "OPEN",
       "pending": true,
       "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
+      "biography_rechecked_at": "2026-10-23",
       "draft_path": "research/Glasgow-370/father-confidence-2026-10-22g.wiki",
       "findings_path": "research/Glasgow-370/findings.md",
-      "summary": "Review existing father at 73% (probable), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 73% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Existing father: 73% → 96% confident after reconciling the complete adult biography and held family account. No new father.",
+      "work_queue_summary": "Existing father: 73% → 96% confident after reconciling the complete adult biography and held family account. No new father.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-634",
-          "status": "probable",
+          "status": "strongly_supported",
           "previous_status": "unmarked",
           "previous_probability_percent": null,
-          "probability_percent": 73,
+          "probability_percent": 96,
           "assertion_id": "C-coverage-20261022g-glasgow-370-father",
           "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Named child to the specific adult family role represented by the selected father; independent earlier ancestry is outside this assessment."
+          "scope": "96% concerns the complete existing Nancy-to-Secretary-James profile pair. The pension father statement is held through the captured biography, not an inspected original pension or Graves transcription. The First Ladies book remains an uninspected citation. Holloman’s 1770 and the profile’s 1771 birth years differ by one year despite matching day/month; Dandridge/Rutledge death locality and May/August 1816 remarriage details remain unresolved. These accounts may be dependent. Existing vitals, mothers and spouses are retained; no new attachment or live edit."
         }
       ],
       "preserve_captured_detail": false,
@@ -22255,23 +22255,23 @@
       "status": "OPEN",
       "pending": true,
       "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
+      "biography_rechecked_at": "2026-10-23",
       "draft_path": "research/Glasgow-2055/father-confidence-2026-10-22g.wiki",
       "findings_path": "research/Glasgow-2055/findings.md",
-      "summary": "Review existing father at 66% (probable), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 66% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Existing father: 66% → 93% confident after reconciling the complete adult biography and held family account. No new father.",
+      "work_queue_summary": "Existing father: 66% → 93% confident after reconciling the complete adult biography and held family account. No new father.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-634",
-          "status": "probable",
+          "status": "strongly_supported",
           "previous_status": "unmarked",
           "previous_probability_percent": null,
-          "probability_percent": 66,
+          "probability_percent": 93,
           "assertion_id": "C-coverage-20261022g-glasgow-2055-father",
           "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Named child to the specific adult family role represented by the selected father; independent earlier ancestry is outside this assessment."
+          "scope": "93% concerns the complete existing Elizabeth-to-Secretary-James profile pair. The captured biography may derive from Holloman and is an identity comparison, not independent corroboration. The original marriage settlement and 1819 probate remain uninspected. Holloman’s approximately 1763 birth differs from the retained 20 May 1772; the exact spouse/children sequence outweighs that unresolved vital discrepancy for parent identity. The memorial URL ending elizabeth-anderson alone establishes no third marriage. Vitals, mothers and spouses remain unchanged; no new attachment or live edit."
         }
       ],
       "preserve_captured_detail": false,

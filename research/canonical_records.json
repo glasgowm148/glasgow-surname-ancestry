@@ -19496,12 +19496,12 @@
     "record_type": "Historical biography",
     "date": "1986",
     "place": "Maryland; North Carolina; Tennessee",
-    "association": "James Glasgow, North Carolina secretary: named father, son and executor passages",
+    "association": "Secretary James Glasgow: named father, son and distinctive adult daughter families",
     "source_title": "Charles R. Holloman, “Glasgow, James,” Dictionary of North Carolina Biography (1986); NCpedia revision December 2022",
     "source_url": "https://www.ncpedia.org/biography/glasgow-james",
     "source_type": "Late scholarly biographical compilation",
     "source_status": "Published secondary article inspected 23 October 2026; underlying family originals and 1819 will not inspected",
-    "status": "Named father and son clauses; assessed existing profile pairs 95% and 94%",
+    "status": "Inspected scholarly family account; existing father/son pairs95%/94%, daughters Nancy96% and Elizabeth93%",
     "profiles": {
       "Glasgow-635": {
         "role": "Named clerical father; specific profile identity confidently inferred at 95%"
@@ -19511,9 +19511,15 @@
       },
       "Glasgow-2492": {
         "role": "Named son and executor; Smith County adult-profile identification confidently inferred at 94%"
+      },
+      "Glasgow-370": {
+        "role": "Named daughter Nancy Ann; adult Williams/McMinn identity confidently inferred at96%, with birth-year discrepancy retained"
+      },
+      "Glasgow-2055": {
+        "role": "Named daughter Elizabeth Martin; adult Martin/Donelson identity confidently inferred at93%, with birth-year discrepancy retained"
       }
     },
-    "note": "The family passages name the secretary’s clerical father and a son James born about 1776, also an executor. Current assessments: Glasgow-634 → Glasgow-635 95%; Glasgow-2492 → Glasgow-634 94%. This late biography is not an original parish or probate record. It does not name Wesley or prove his proposed father. The original will remains to be inspected.",
+    "note": "The family passages name the secretary’s clerical father and a son James born about 1776, also an executor. Current assessments: Glasgow-634 → Glasgow-635 95%; Glasgow-2492 → Glasgow-634 94%. This late biography is not an original parish or probate record. It does not name Wesley or prove his proposed father. The original will remains to be inspected. The complete held daughter accounts were reconciled on23October: Nancy’s distinctive Williams/McMinn sequence and reported pension father role support96%; Elizabeth’s Martin/Donelson sequence and two sons support93%. These are existing attachments; derivative narratives are not counted as independent testimony. Retain birth discrepancies and uninspected originals.",
     "provenance": "research/ancestry-connections/maryland-smith-county-review-2026-10-23.json",
     "year": 1986,
     "source_classification": "late_compiled_history",
@@ -19525,6 +19531,24 @@
       "latest_birth_year": 1800,
       "source_url": "https://www.ncpedia.org/biography/glasgow-james",
       "basis": "The youngest of these three identified generations, son James, was already married with a family by March 1800 in the inspected article; this is a historical eligibility bound, not a new exact birth date."
+    },
+    "relationship_review": {
+      "reviewed": "2026-10-23",
+      "provenance": "research/ancestry-connections/held-family-review-2026-10-23.json",
+      "assessments": [
+        {
+          "subject": "Glasgow-370",
+          "assertion_id": "C-coverage-20261022g-glasgow-370-father",
+          "percent": 96,
+          "scope": "96% concerns the complete existing Nancy-to-Secretary-James profile pair. The pension father statement is held through the captured biography, not an inspected original pension or Graves transcription. The First Ladies book remains an uninspected citation. Holloman’s 1770 and the profile’s 1771 birth years differ by one year despite matching day/month; Dandridge/Rutledge death locality and May/August 1816 remarriage details remain unresolved. These accounts may be dependent. Existing vitals, mothers and spouses are retained; no new attachment or live edit."
+        },
+        {
+          "subject": "Glasgow-2055",
+          "assertion_id": "C-coverage-20261022g-glasgow-2055-father",
+          "percent": 93,
+          "scope": "93% concerns the complete existing Elizabeth-to-Secretary-James profile pair. The captured biography may derive from Holloman and is an identity comparison, not independent corroboration. The original marriage settlement and 1819 probate remain uninspected. Holloman’s approximately 1763 birth differs from the retained 20 May 1772; the exact spouse/children sequence outweighs that unresolved vital discrepancy for parent identity. The memorial URL ending elizabeth-anderson alone establishes no third marriage. Vitals, mothers and spouses remain unchanged; no new attachment or live edit."
+        }
+      ]
     }
   },
   {
@@ -31597,7 +31621,7 @@
         "timeline_group": "Records mentioning this person"
       },
       "Glasgow-1321": {
-        "role": "Named father Alexander; current adult-profile identification retained without regrading",
+        "role": "Named father Alexander; adult Edinburgh-household identification97%; separate childhood-to-adult father assessment76%, with original register images uninspected",
         "timeline_group": "Records mentioning this person"
       },
       "Cunningham-20926": {
@@ -31645,7 +31669,7 @@
         "timeline_group": "Records mentioning this person"
       },
       "Glasgow-1321": {
-        "role": "Named father Alexander; current adult-profile identification retained without regrading",
+        "role": "Named father Alexander; adult Edinburgh-household identification97%; separate childhood-to-adult father assessment76%, with original register images uninspected",
         "timeline_group": "Records mentioning this person"
       },
       "Cunningham-20926": {
