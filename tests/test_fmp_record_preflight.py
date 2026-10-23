@@ -3,7 +3,9 @@ import json
 from pathlib import Path
 import tempfile
 import unittest
+from unittest.mock import patch
 
+from tools import fmp_record_preflight as preflight_tool
 from tools.fmp_record_preflight import preflight
 
 
@@ -58,11 +60,14 @@ class FmpPreflightTests(unittest.TestCase):
             "record_id": "public-record-42", "provider_record_id": None,
             "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F42&tab=this",
             "document_id": "s-source-42",
+        }, {
+            "record_id": "public-record-42-duplicate", "provider_record_id": "SCOT%2FOPR%2FBAP%2F42",
+            "document_id": "s-source-42-duplicate",
         }])
         result = self.run_one(provider_id)
         self.assertEqual(result["disposition"], "review_existing_index")
-        self.assertEqual(result["public_record_ids"], ["public-record-42"])
-        self.assertEqual(result["source_ids"], ["s-source-42"])
+        self.assertEqual(result["public_record_ids"], ["public-record-42", "public-record-42-duplicate"])
+        self.assertEqual(result["source_ids"], ["s-source-42", "s-source-42-duplicate"])
         self.assertIsNone(result["cached_receipt"])
 
     def test_matching_hold_is_preserved_even_with_cached_receipt(self):
@@ -172,6 +177,22 @@ class FmpPreflightTests(unittest.TestCase):
         self.assertEqual(len(result), 20)
         self.assertEqual({row["disposition"] for row in result}, {"reusable_receipt"})
         self.assertEqual(sum(row["matching_hold"] for row in result), 10)
+
+    def test_indexes_are_parsed_once_then_looked_up_by_provider_id(self):
+        count = 80
+        canonical = []
+        public = []
+        for index in range(count):
+            provider_id = f"R_IDX_{index:03d}"
+            canonical.append({"record_id": f"c-{index}", "provider_record_id": provider_id})
+            public.append({"record_id": f"p-{index}", "source_url": f"https://www.findmypast.co.uk/transcript?id={provider_id}", "document_id": f"s-{index}"})
+        self.write_json("research/canonical_records.json", canonical)
+        self.write_json("www/data/records-index.json", public)
+        with patch.object(preflight_tool, "provider_key", wraps=preflight_tool.provider_key) as parsed:
+            result = preflight(self.root, [{"record_id": "R_IDX_001"}, {"record_id": "R_IDX_079"}])["records"]
+        self.assertEqual([row["public_record_ids"] for row in result], [["p-1"], ["p-79"]])
+        # One pass over each 80-row index, plus a small constant for the two queries.
+        self.assertLessEqual(parsed.call_count, count * 2 + 4)
 
 
 if __name__ == "__main__":

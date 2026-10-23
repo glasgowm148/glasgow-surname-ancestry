@@ -201,15 +201,16 @@ def _candidate_sort(candidate: dict):
     return (_successful(candidate), timestamp, richness, candidate["path"], candidate["json_pointer"])
 
 
-def _index_matches(rows: list[dict], provider_id: str) -> list[dict]:
-    key = _findmypast_key(provider_id)
-    matches = []
+def _provider_index(rows: list[dict]) -> dict[str, list[dict]]:
+    """Build a one-pass provider-ID index while retaining duplicate rows."""
+    result: dict[str, list[dict]] = {}
     for row in rows:
         if not isinstance(row, dict):
             continue
-        if str(row.get("provider_record_id") or "") == provider_id or _row_key(row) == key:
-            matches.append(row)
-    return matches
+        key = _row_key(row)
+        if key[0] == "findmypast":
+            result.setdefault(key[1], []).append(row)
+    return result
 
 
 def preflight(root: Path, rows: list[dict], reinspect_reason: str = "") -> dict:
@@ -220,6 +221,8 @@ def preflight(root: Path, rows: list[dict], reinspect_reason: str = "") -> dict:
     public = _read(root / "www/data/records-index.json")
     if not isinstance(canonical, list) or not isinstance(public, list):
         raise ValueError("canonical and public record indexes must be JSON arrays")
+    canonical_by_provider = _provider_index(canonical)
+    public_by_provider = _provider_index(public)
 
     output = []
     seen = set()
@@ -258,8 +261,8 @@ def preflight(root: Path, rows: list[dict], reinspect_reason: str = "") -> dict:
             receipt_state = "missing"
             reason = "No saved full-transcript receipt for this exact provider ID."
 
-        canonical_matches = _index_matches(canonical, provider_id)
-        public_matches = _index_matches(public, provider_id)
+        canonical_matches = canonical_by_provider.get(provider_id, [])
+        public_matches = public_by_provider.get(provider_id, [])
         source_ids = sorted({str(item.get("document_id")) for item in public_matches if item.get("document_id")})
         indexed_record_ids = sorted({str(item.get("record_id")) for item in canonical_matches + public_matches if item.get("record_id")})
         hold_rows = holds.get(provider_id, [])
