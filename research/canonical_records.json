@@ -3841,18 +3841,64 @@
     "record_id": "moneymore-james-faris-family-attribution",
     "date": "Family attribution published 1990; historical generation undated",
     "place": "Moneymore, County Londonderry",
-    "source_title": "David Faris,The Glasgow Family of Adams County,Ohio(1990),catalogue; inherited Moneymore father attribution, underlying evidence not inspected",
-    "source_url": "https://search.worldcat.org/title/22731567",
-    "status": "Catalogue father attribution verified 17 October 2026; retrospective source, underlying book evidence uninspected",
-    "note": "The catalogue explicitly names the Adams County emigrant’s Moneymore father. The combined family argument is assessed probable locally; it does not establish the Corvanaghan identity, older ancestry, dates or migration package.",
+    "source_title": "David Faris, The Glasgow Family of Adams County, Ohio (1990), printed pp.8–15; actual book inspected",
+    "source_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS3J-H9VW-9",
+    "status": "Possible Moneymore father hypothesis; prior catalogue overstatement corrected",
+    "note": "The actual Faris book has now been inspected, rather than only its catalogue abstract. Printed p.11 uses a dotted possible connection from James of Moneymore to the American brothers; p.12 explicitly reports that evidence for Robert and his brothers’ parentage had not been found. James was the author’s identifiable County Londonderry candidate, not an evidenced father. The retrospective Irish pedigree on pp.8–9 and Samuel’s 1824 Pennsylvania will discussed on p.12 identify an Irish sibling group, including William, James and Robert remaining in Ireland, without joining it to the emigrant brothers. County setting, a compatible generation and the existing family tradition keep James a plausible candidate, but cannot sustain the earlier probable father assessment. Mary’s case additionally depends on identifying the 1779 will witness Mary Arter as the emigrant sister. Faris p.13 transmits an unnamed sister styled Mrs Arthur; p.15 identifies Mary Arter with that sister through the tax/probate cluster, rather than an explicit sibling or birth statement. The association remains positive but does not establish her father. Robert, Arthur and Joseph’s established brotherhood remains separately supported by the maintained 1806 letter transcription and Joseph’s 1831 will. John of Peters Township remains a probable brother at 83%; Faris p.15 also reconstructs the four brothers from the 1779–1780 tax/probate cluster. These sibling arguments do not identify their father. The 1824 Samuel will has been read only through Faris’s excerpt, not its manuscript. The Irish Robert in that will/pedigree is not identified as the emigrant Robert born in 1749. All mothers, upstream ancestry, life dates and current attachments are preserved; no live WikiTree save or identity merge follows. Exact percentages are subjective pair-specific judgments, not measured frequencies or multiplied probabilities. Faris p.12 abstracts Samuel Glasgow of West Fallowfield, Chester County, Pennsylvania: will dated 17 May 1824 and proved 31 May 1824, daughter Margaret Ellen Glasgow, with the residue to sons of his brothers William, James and Robert in Ireland. This is a useful compatible identity lead for the already existing Samuel-1492 account, whose contributed Irish family has the same brother pattern, not a proved identification. The manuscript, daughter’s records and migration/estate continuity remain to be checked. No independent birth age is supplied. Keep the Irish brother Robert distinct from Robert-12; do not infer the American emigrants’ father from this will. Samuel-1492’s father probability remains 23%.",
     "profiles": {
       "Glasgow-1024": {
-        "role": "account for reported Moneymore father"
+        "role": "Possible father account, not proved parentage",
+        "identification_status": "uncertain",
+        "timeline_group": "Possible connections"
       },
       "Glasgow-12": {
-        "role": "reported son; parent attribution unproved"
+        "role": "Emigrant family comparison; father hypothesis re-evaluated from actual book",
+        "identification_status": "uncertain",
+        "timeline_group": "Possible connections"
+      },
+      "Glasgow-649": {
+        "role": "Emigrant family comparison; father hypothesis re-evaluated from actual book",
+        "identification_status": "uncertain",
+        "timeline_group": "Possible connections"
+      },
+      "Glasgow-1543": {
+        "role": "Emigrant family comparison; father hypothesis re-evaluated from actual book",
+        "identification_status": "uncertain",
+        "timeline_group": "Possible connections"
+      },
+      "Glasgow-4027": {
+        "role": "Emigrant family comparison; father hypothesis re-evaluated from actual book",
+        "identification_status": "uncertain",
+        "timeline_group": "Possible connections"
+      },
+      "Glasgow-4030": {
+        "role": "Emigrant family comparison; father hypothesis re-evaluated from actual book",
+        "identification_status": "uncertain",
+        "timeline_group": "Possible connections"
+      },
+      "Glasgow-1492": {
+        "role": "Compatible identity candidate; not established",
+        "identification_status": "uncertain",
+        "timeline_group": "Possible connections"
       }
-    }
+    },
+    "source_type": "Published compiled genealogy",
+    "source_quality": "Published secondary genealogy; author explicitly lacks emigrant parentage evidence",
+    "source_status": "Published book pp.8–15 visually inspected 23 October 2026; cited original records not newly inspected",
+    "reviewed_on": "2026-10-23",
+    "year": null,
+    "date_status": "undated",
+    "historical_basis": {
+      "latest_birth_year": 1749,
+      "source_url": "https://www.familysearch.org/en/search/catalog/koha:646654",
+      "reason": "Catalogue identifies subject Robert1749–1839; inspected book discusses his family.1990 is publication year, not an event."
+    },
+    "provenance": "research/Glasgow-1024/faris-1990-review-2026-10-23.md",
+    "publish_to_record_index": true,
+    "country": "Ireland",
+    "record_type": "Family history and parentage hypothesis",
+    "record_category": "Other records",
+    "previous_catalogue_url": "https://search.worldcat.org/title/22731567"
   },
   {
     "record_id": "james-drumcarn-will-index-1759",
@@ -10207,9 +10253,12 @@
     "profiles": {
       "Glasgow-1780": {
         "role": "Previously cited subject; relationship scope in the father assessment"
+      },
+      "Glasgow-1657": {
+        "role": "Father mentioned in1858 landlord-payment recollection; no grandfather named"
       }
     },
-    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "note": "See the individual father assessment for named record roles versus inferred profile identities. 23 October2026: PRONI D2003 introduction identifies John as a Bannside weaver and Jean McClure as from Drumack in the Braid. The held diary, 14 August1858, p.29, names Crawford landlords and Mr Doads of Clough in a voluntary-payment matter; neither an exact holding nor John’s father is named. The collection introduction describes Glasgow-family volumes and later copies but does not identify a surviving receipt or specific file for that payment. John’s father remains unknown; James’s father John remains96%.",
     "provenance": "research/ancestry-connections/father-coverage-review3-2026-10-22.json"
   },
   {
@@ -38437,6 +38486,38 @@
     "note": "The manuscript reads the Glasgows collectively as boundary occupiers, not the named lessee or grantees of the seventeen acres. John, James and Mary Falls are explicitly children of the lessee John Falls, not Glasgow children. The shorter abstract’s twelve acres is corrected to seventeen; no land-area conversion is attempted. Townland spelling is normalized from the abstract; manuscript road destination remains unresolved. No identification or parent confidence change for William Glasgow-591 or John Glasgow-551. Two abstracts are one underlying memorial. Complete interpretation: /branches/research-irish-tamlaght/#tyrone-deed-71498",
     "reviewed_on": "2026-10-23",
     "provenance": "research/Glasgow-591/tyrone-71498-review-2026-10-23.md",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "proni-d2003-glasgow-family-origins",
+    "record_type": "Archival family-paper introduction",
+    "record_category": "Other records",
+    "date": "Historical family origins undated; introduction published2007",
+    "year": null,
+    "date_status": "undated",
+    "historical_basis": {
+      "latest_birth_year": 1805,
+      "source_url": "https://www.sommemidulster.org/dwd/pdfs/02002.pdf",
+      "reason": "Printed p.18 identifies James born27May1805 and his parents;2007 is description date, not a life event."
+    },
+    "country": "Ireland",
+    "place": "Bannside; Drumack in the Braid, County Antrim",
+    "source_title": "PRONI, Crawford Papers (D2003), introduction (November2007), printed pp.17–20/PDF pp.18–21",
+    "source_url": "https://www.sommemidulster.org/dwd/pdfs/02002.pdf",
+    "source_type": "Official archival collection description; public copy",
+    "source_quality": "Modern archival description, not original family manuscript",
+    "status": "Paternal and maternal origins distinguished; no grandfather identified",
+    "note": "PRONI D2003 introduction identifies John as a Bannside weaver and Jean McClure as from Drumack in the Braid. The held diary, 14 August1858, p.29, names Crawford landlords and Mr Doads of Clough in a voluntary-payment matter; neither an exact holding nor John’s father is named. The collection introduction describes Glasgow-family volumes and later copies but does not identify a surviving receipt or specific file for that payment. John’s father remains unknown; James’s father John remains96%.",
+    "profiles": {
+      "Glasgow-1657": {
+        "role": "John, father and Bannside weaver in archival family account"
+      },
+      "Glasgow-1780": {
+        "role": "James, missionary, born27May1805nearClough; archival account of family"
+      }
+    },
+    "reviewed_on": "2026-10-23",
+    "provenance": "research/Glasgow-1657/findings.md",
     "publish_to_record_index": true
   }
 ]

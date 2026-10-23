@@ -55941,6 +55941,171 @@
       "provenance": [
         "research/Glasgow-591/tyrone-71498-review-2026-10-23.md"
       ]
+    },
+    {
+      "id": "faris-moneymore-source-correction-20261023",
+      "found_on": "2026-10-23",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Actual Faris book inspection corrects five overstated Moneymore father probabilities: Robert85%→35%, Arthur/Joseph82%→35%, John76%→30%, Mary64%→22%.",
+      "qualification": "The actual Faris book has now been inspected, rather than only its catalogue abstract. Printed p.11 uses a dotted possible connection from James of Moneymore to the American brothers; p.12 explicitly reports that evidence for Robert and his brothers’ parentage had not been found. James was the author’s identifiable County Londonderry candidate, not an evidenced father. The retrospective Irish pedigree on pp.8–9 and Samuel’s 1824 Pennsylvania will discussed on p.12 identify an Irish sibling group, including William, James and Robert remaining in Ireland, without joining it to the emigrant brothers. County setting, a compatible generation and the existing family tradition keep James a plausible candidate, but cannot sustain the earlier probable father assessment. Mary’s case additionally depends on identifying the 1779 will witness Mary Arter as the emigrant sister. Faris p.13 transmits an unnamed sister styled Mrs Arthur; p.15 identifies Mary Arter with that sister through the tax/probate cluster, rather than an explicit sibling or birth statement. The association remains positive but does not establish her father. Robert, Arthur and Joseph’s established brotherhood remains separately supported by the maintained 1806 letter transcription and Joseph’s 1831 will. John of Peters Township remains a probable brother at 83%; Faris p.15 also reconstructs the four brothers from the 1779–1780 tax/probate cluster. These sibling arguments do not identify their father. The 1824 Samuel will has been read only through Faris’s excerpt, not its manuscript. The Irish Robert in that will/pedigree is not identified as the emigrant Robert born in 1749. All mothers, upstream ancestry, life dates and current attachments are preserved; no live WikiTree save or identity merge follows. Exact percentages are subjective pair-specific judgments, not measured frequencies or multiplied probabilities.",
+      "people": [
+        {
+          "id": "Glasgow-12",
+          "name": "Robert Glasgow",
+          "url": "/people/glasgow-12.html",
+          "role": "Father hypothesis reviewed"
+        },
+        {
+          "id": "Glasgow-649",
+          "name": "Arthur Glasgow",
+          "url": "/people/glasgow-649.html",
+          "role": "Father hypothesis reviewed"
+        },
+        {
+          "id": "Glasgow-1543",
+          "name": "Joseph Glasgow",
+          "url": "/people/glasgow-1543.html",
+          "role": "Father hypothesis reviewed"
+        },
+        {
+          "id": "Glasgow-4027",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-4027.html",
+          "role": "Father hypothesis reviewed"
+        },
+        {
+          "id": "Glasgow-4030",
+          "name": "Mary Arter",
+          "url": "/people/glasgow-4030.html",
+          "role": "Father hypothesis reviewed"
+        },
+        {
+          "id": "Glasgow-1024",
+          "name": "James Glasgow II",
+          "url": "/people/glasgow-1024.html",
+          "role": "Retained possible father"
+        },
+        {
+          "id": "Glasgow-1492",
+          "name": "Samuel Glasgow",
+          "url": "/people/glasgow-1492.html",
+          "role": "Compatible1824will identity candidate; father23%unchanged"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Faris pp.12–13: parentage unproved",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS3J-H9VW-9"
+        },
+        {
+          "title": "Faris pp.10–11: dotted hypothesis",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS3J-H9FN-6"
+        },
+        {
+          "title": "Faris pp.14–15: Peters reconstruction",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS3J-H9FV-S"
+        }
+      ],
+      "detail_url": "/branches/research-irish-moneymore/#moneymore-probable-father",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "Glasgow-12",
+          "relative": "Glasgow-1024",
+          "before": "probable",
+          "after": "possible",
+          "previous_probability_percent": 85,
+          "probability_percent": 35,
+          "explanation": "The actual Faris book has now been inspected, rather than only its catalogue abstract. Printed p.11 uses a dotted possible connection from James of Moneymore to the American brothers; p.12 explicitly reports that evidence for Robert and his brothers’ parentage had not been found. James was the author’s identifiable County Londonderry candidate, not an evidenced father. The retrospective Irish pedigree on pp.8–9 and Samuel’s 1824 Pennsylvania will discussed on p.12 identify an Irish sibling group, including William, James and Robert remaining in Ireland, without joining it to the emigrant brothers. County setting, a compatible generation and the existing family tradition keep James a plausible candidate, but cannot sustain the earlier probable father assessment.",
+          "previous_status_provenance": "Recorded pair-specific prior assessment and exact percentage retained in research/ancestry-connections/faris-source-review-2026-10-23.json"
+        },
+        {
+          "relationship": "father",
+          "subject": "Glasgow-649",
+          "relative": "Glasgow-1024",
+          "before": "probable",
+          "after": "possible",
+          "previous_probability_percent": 82,
+          "probability_percent": 35,
+          "explanation": "The actual Faris book has now been inspected, rather than only its catalogue abstract. Printed p.11 uses a dotted possible connection from James of Moneymore to the American brothers; p.12 explicitly reports that evidence for Robert and his brothers’ parentage had not been found. James was the author’s identifiable County Londonderry candidate, not an evidenced father. The retrospective Irish pedigree on pp.8–9 and Samuel’s 1824 Pennsylvania will discussed on p.12 identify an Irish sibling group, including William, James and Robert remaining in Ireland, without joining it to the emigrant brothers. County setting, a compatible generation and the existing family tradition keep James a plausible candidate, but cannot sustain the earlier probable father assessment.",
+          "previous_status_provenance": "Recorded pair-specific prior assessment and exact percentage retained in research/ancestry-connections/faris-source-review-2026-10-23.json"
+        },
+        {
+          "relationship": "father",
+          "subject": "Glasgow-1543",
+          "relative": "Glasgow-1024",
+          "before": "probable",
+          "after": "possible",
+          "previous_probability_percent": 82,
+          "probability_percent": 35,
+          "explanation": "The actual Faris book has now been inspected, rather than only its catalogue abstract. Printed p.11 uses a dotted possible connection from James of Moneymore to the American brothers; p.12 explicitly reports that evidence for Robert and his brothers’ parentage had not been found. James was the author’s identifiable County Londonderry candidate, not an evidenced father. The retrospective Irish pedigree on pp.8–9 and Samuel’s 1824 Pennsylvania will discussed on p.12 identify an Irish sibling group, including William, James and Robert remaining in Ireland, without joining it to the emigrant brothers. County setting, a compatible generation and the existing family tradition keep James a plausible candidate, but cannot sustain the earlier probable father assessment.",
+          "previous_status_provenance": "Recorded pair-specific prior assessment and exact percentage retained in research/ancestry-connections/faris-source-review-2026-10-23.json"
+        },
+        {
+          "relationship": "father",
+          "subject": "Glasgow-4027",
+          "relative": "Glasgow-1024",
+          "before": "probable",
+          "after": "possible",
+          "previous_probability_percent": 76,
+          "probability_percent": 30,
+          "explanation": "The actual Faris book has now been inspected, rather than only its catalogue abstract. Printed p.11 uses a dotted possible connection from James of Moneymore to the American brothers; p.12 explicitly reports that evidence for Robert and his brothers’ parentage had not been found. James was the author’s identifiable County Londonderry candidate, not an evidenced father. The retrospective Irish pedigree on pp.8–9 and Samuel’s 1824 Pennsylvania will discussed on p.12 identify an Irish sibling group, including William, James and Robert remaining in Ireland, without joining it to the emigrant brothers. County setting, a compatible generation and the existing family tradition keep James a plausible candidate, but cannot sustain the earlier probable father assessment.",
+          "previous_status_provenance": "Recorded pair-specific prior assessment and exact percentage retained in research/ancestry-connections/faris-source-review-2026-10-23.json"
+        },
+        {
+          "relationship": "father",
+          "subject": "Glasgow-4030",
+          "relative": "Glasgow-1024",
+          "before": "probable",
+          "after": "uncertain",
+          "previous_probability_percent": 64,
+          "probability_percent": 22,
+          "explanation": "The actual Faris book has now been inspected, rather than only its catalogue abstract. Printed p.11 uses a dotted possible connection from James of Moneymore to the American brothers; p.12 explicitly reports that evidence for Robert and his brothers’ parentage had not been found. James was the author’s identifiable County Londonderry candidate, not an evidenced father. The retrospective Irish pedigree on pp.8–9 and Samuel’s 1824 Pennsylvania will discussed on p.12 identify an Irish sibling group, including William, James and Robert remaining in Ireland, without joining it to the emigrant brothers. County setting, a compatible generation and the existing family tradition keep James a plausible candidate, but cannot sustain the earlier probable father assessment. Mary’s case additionally depends on identifying the 1779 will witness Mary Arter as the emigrant sister. Faris p.13 transmits an unnamed sister styled Mrs Arthur; p.15 identifies Mary Arter with that sister through the tax/probate cluster, rather than an explicit sibling or birth statement. The association remains positive but does not establish her father.",
+          "previous_status_provenance": "Recorded pair-specific prior assessment and exact percentage retained in research/ancestry-connections/faris-source-review-2026-10-23.json"
+        }
+      ],
+      "provenance": [
+        "research/ancestry-connections/faris-source-review-2026-10-23.json",
+        "research/Glasgow-1024/faris-1990-review-2026-10-23.md"
+      ]
+    },
+    {
+      "id": "cross-bannside-landlord-trail-20261023",
+      "found_on": "2026-10-23",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "Cross family origins clarified: John was a Bannside weaver; his son’s1858 diary identifies Crawford landlords and Mr Doads ofClough.",
+      "qualification": "PRONI D2003 introduction identifies John as a Bannside weaver and Jean McClure as from Drumack in the Braid. The held diary, 14 August1858, p.29, names Crawford landlords and Mr Doads of Clough in a voluntary-payment matter; neither an exact holding nor John’s father is named. The collection introduction describes Glasgow-family volumes and later copies but does not identify a surviving receipt or specific file for that payment. John’s father remains unknown; James’s father John remains96%. This refines an existing archive lead using the held diary; no new father or newly discovered diary is claimed.",
+      "people": [
+        {
+          "id": "Glasgow-1657",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-1657.html",
+          "role": "Family origin and landlord research"
+        },
+        {
+          "id": "Glasgow-1780",
+          "name": "James McClure Glasgow",
+          "url": "/people/glasgow-1780.html",
+          "role": "Family origin and landlord research"
+        }
+      ],
+      "sources": [
+        {
+          "title": "PRONI D2003 introduction, printed17–20/PDF18–21",
+          "url": "https://www.sommemidulster.org/dwd/pdfs/02002.pdf"
+        },
+        {
+          "title": "Held James diary transcription,p29,14August1858",
+          "url": "https://revjamesmcclureglasgow.blogspot.com/"
+        }
+      ],
+      "detail_url": "/branches/research-irish-broughshane/#bannside-crawford",
+      "provenance": [
+        "research/Glasgow-1657/findings.md",
+        "research/Glasgow-1780/findings.md"
+      ]
     }
   ]
 }

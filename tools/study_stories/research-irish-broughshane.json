@@ -2,20 +2,213 @@
   "id": "research-irish-broughshane",
   "kicker": "Irish locality study",
   "title": "Broughshane, Racavan & Clough",
-  "standfirst": "John Glasgow of Cross near Broughshane is a record-supported later Antrim anchor. His connection to the other Antrim and Bann Valley clusters remains unknown.",
-  "status": {"label": "Local household, wider connection open", "tone": "supported"},
-  "facts": [{"value": "1766–1836", "label": "reported life span"}, {"value": "1", "label": "indexed anchor"}, {"value": "3", "label": "named localities"}, {"value": "0", "label": "proved external links"}],
-  "question": "Can the later Broughshane family be placed beside, rather than inside, another Antrim cluster?",
-  "answer": "The available material supports John Glasgow as a later local household anchor, but no reviewed parish, lease, probate or collateral record connects his family to Kilwaughter, Glenleslie or Bann Valley. It remains a separate study.",
-  "chapters": [
-    {"id": "local-anchor", "period": "about 1766–1836", "title": "A later Antrim household", "body": ["The profile reports John Glasgow of Cross, near Broughshane, and gives a newspaper-style death notice dated 28 July 1836, in his seventieth year.", "That notice supports an adult local occurrence and approximate age; it does not name parents, children, holdings or a wider Glasgow connection."], "cluster": "john", "evidence": [{"label": "John Glasgow profile", "url": "/people/glasgow-1657.html"}]},
-    {"id": "separate-study", "period": "eighteenth–nineteenth century", "title": "Placed beside other Antrim evidence", "body": ["Broughshane, Racavan and Clough form a sensible local research area for this later household.", "Locality and surname alone cannot put John within the Kilwaughter, Glenleslie or Bann Valley families."], "cluster": "connection-gap", "evidence": [{"label": "Early Ireland overview", "url": "https://www.wikitree.com/wiki/Space:Glasgow_Branches_in_Early_Ireland"}]}
+  "standfirst": "John Glasgow of Cross near Broughshane is identified in the Crawford family-paper account as a Bannside weaver. His earlier family remains unknown.",
+  "status": {
+    "label": "Local household, wider connection open",
+    "tone": "supported"
+  },
+  "facts": [
+    {
+      "value": "1766–1836",
+      "label": "reported life span"
+    },
+    {
+      "value": "1",
+      "label": "indexed anchor"
+    },
+    {
+      "value": "3",
+      "label": "named localities"
+    },
+    {
+      "value": "0",
+      "label": "proved external links"
+    }
   ],
-  "clusters": [{"id": "john", "title": "John Glasgow of Cross", "place": "Cross near Broughshane, County Antrim", "period": "about 1766–1836", "status": "supported", "status_label": "Record-supported local anchor", "summary": "John's reported death notice places an adult Glasgow household in the Broughshane area.", "boundary": "The available record does not establish his parentage or relationships to other clusters.", "people": ["glasgow-1657"]}, {"id": "connection-gap", "title": "Unresolved Antrim connection", "place": "Broughshane, Racavan and Clough", "period": "before 1836", "status": "unresolved", "status_label": "No documented bridge", "summary": "Other regional Glasgow studies are comparison contexts, not attached ancestry.", "boundary": "No kinship with Kilwaughter, Glenleslie or Bann Valley has been demonstrated.", "people": []}],
-  "links": [{"from": "john", "to": "connection-gap", "status": "unresolved", "label": "No parent, lease or collateral record joins the household outward"}],
-  "ladder": {"proved": ["A death notice reports John Glasgow of Cross near Broughshane in 1836."], "supported": ["John is a useful later Antrim household anchor."], "hypothesis": ["Original local records may place his family beside a known regional cluster."], "unresolved": ["His parents, holdings, collateral kin and relationship to other Antrim families."]},
-  "gaps": [{"title": "Find original parish records", "why": "They may identify John, Jane McClure and their children.", "where": "Broughshane and nearby parish holdings", "url": "https://www.proni.gov.uk/publications/proni-guide-church-records", "priority": "high"}, {"title": "Follow land and probate material", "why": "A lease or succession record could name parents, tenants or collateral kin.", "where": "Racavan, Clough and Broughshane estate records", "url": "https://apps.proni.gov.uk/ProniNames_IE/SearchPage.aspx", "priority": "high"}, {"title": "Test external cluster links only after local reconstruction", "why": "It avoids turning a shared county into a pedigree claim.", "where": "Antrim locality studies", "url": "/branches/larne-kilwaughter/", "priority": "medium"}],
-  "timeline": [{"year": 1766, "label": "John's reported approximate birth year", "status": "hypothesis", "cluster": "john", "url": "/people/glasgow-1657.html"}, {"year": 1836, "label": "Death notice for John of Cross near Broughshane", "status": "proved", "cluster": "john", "url": "/people/glasgow-1657.html"}, {"year": 1836, "label": "Wider parentage and locality links remain unrecorded", "status": "unresolved", "cluster": "connection-gap", "url": "https://www.wikitree.com/wiki/Space:Glasgow_Branches_in_Early_Ireland"}, {"year": 1850, "label": "Study's later research horizon", "status": "unresolved", "cluster": "connection-gap", "url": "https://www.proni.gov.uk/publications/proni-guide-church-records"}],
-  "related": [{"label": "Larne & Kilwaughter study", "url": "/branches/larne-kilwaughter/"}, {"label": "Bann Valley & Killoquin study", "url": "/branches/research-irish-bann-valley-killoquin/"}],
-  "sources_note": "Public-safe working note: research/Glasgow-1657/findings.md. The profile's reported family details remain to be checked against original records."
+  "question": "Can John’s Bannside origin and the Crawford landlord dealings identify an earlier holding or family?",
+  "answer": "The Cross household, the family account of John as a Bannside weaver married to Jean McClure of Drumack, and James’s 1858 landlord-payment entry define a more specific research route. They name no father for John and establish no kinship with another Antrim or Bann Valley Glasgow family.",
+  "chapters": [
+    {
+      "id": "local-anchor",
+      "period": "about 1766–1836",
+      "title": "A later Antrim household",
+      "body": [
+        "The profile reports John Glasgow of Cross, near Broughshane, and gives a newspaper-style death notice dated 28 July 1836, in his seventieth year.",
+        "That notice supports an adult local occurrence and approximate age; it does not name parents, children, holdings or a wider Glasgow connection."
+      ],
+      "cluster": "john",
+      "evidence": [
+        {
+          "label": "John Glasgow profile",
+          "url": "/people/glasgow-1657.html"
+        }
+      ]
+    },
+    {
+      "id": "separate-study",
+      "period": "eighteenth–nineteenth century",
+      "title": "Placed beside other Antrim evidence",
+      "body": [
+        "Broughshane, Racavan and Clough form a sensible local research area for this later household.",
+        "Locality and surname alone cannot put John within the Kilwaughter, Glenleslie or Bann Valley families."
+      ],
+      "cluster": "connection-gap",
+      "evidence": [
+        {
+          "label": "Early Ireland overview",
+          "url": "https://www.wikitree.com/wiki/Space:Glasgow_Branches_in_Early_Ireland"
+        }
+      ]
+    },
+    {
+      "id": "bannside-crawford",
+      "period": "1805 and 1858; later family histories",
+      "title": "Bannside origin and a landlord trail",
+      "body": [
+        "PRONI’s D2003 introduction, printed p.18 (PDF p.19), calls John a weaver from the Bannside and his wife Jean McClure a native of Drumack in the Braid. These are separate paternal and maternal origins; neither is an exact holding or an earlier parent.",
+        "James’s diary, p.29, 14 August 1858, records money voluntarily paid to Crawford landlords through correspondence with Mr Doads of Clough. Mr W. Crawford is named. The entry gives no holding or predecessor and does not identify the landlords with James’s later Crawford in-laws.",
+        "D2003 contains Glasgow-family histories (printed p.17/PDF p.18), James’s personal papers (p.19/PDF p.20), and later copies (p.20/PDF p.21). The public description supplies no individual reference for the payment; the receipt’s survival remains unconfirmed. John’s father stays unknown, and James’s existing 96% father assessment is unchanged."
+      ],
+      "cluster": "john",
+      "evidence": [
+        {
+          "label": "John Glasgow of Cross",
+          "url": "/people/glasgow-1657.html"
+        },
+        {
+          "label": "James McClure Glasgow",
+          "url": "/people/glasgow-1780.html"
+        },
+        {
+          "label": "PRONI D2003 introduction, printed pp.17–20 / PDF pp.18–21",
+          "url": "https://www.sommemidulster.org/dwd/pdfs/02002.pdf"
+        },
+        {
+          "label": "James’s diary, p.29, 14 August 1858",
+          "url": "https://revjamesmcclureglasgow.blogspot.com/"
+        }
+      ]
+    }
+  ],
+  "clusters": [
+    {
+      "id": "john",
+      "title": "John Glasgow of Cross",
+      "place": "Cross near Broughshane, County Antrim",
+      "period": "about 1766–1836",
+      "status": "supported",
+      "status_label": "Record-supported local anchor",
+      "summary": "John’s Cross household is supported by the 1836 notice and family memorial; the Crawford family account describes his earlier Bannside weaving background.",
+      "boundary": "The available record does not establish his parentage or relationships to other clusters.",
+      "people": [
+        "glasgow-1657",
+        "glasgow-1780"
+      ]
+    },
+    {
+      "id": "connection-gap",
+      "title": "Unresolved Antrim connection",
+      "place": "Broughshane, Racavan and Clough",
+      "period": "before 1836",
+      "status": "unresolved",
+      "status_label": "No documented bridge",
+      "summary": "Other regional Glasgow studies are comparison contexts, not attached ancestry.",
+      "boundary": "No kinship with Kilwaughter, Glenleslie or Bann Valley has been demonstrated.",
+      "people": []
+    }
+  ],
+  "links": [
+    {
+      "from": "john",
+      "to": "connection-gap",
+      "status": "unresolved",
+      "label": "No parent, lease or collateral record joins the household outward"
+    }
+  ],
+  "ladder": {
+    "proved": [
+      "A death notice reports John Glasgow of Cross near Broughshane in 1836."
+    ],
+    "supported": [
+      "John is a useful later Antrim household anchor.",
+      "The PRONI family account places John’s weaving origin at Bannside and Jean McClure’s at Drumack; James’s diary identifies Crawford landlords and a Clough intermediary."
+    ],
+    "hypothesis": [
+      "Original local records may place his family beside a known regional cluster."
+    ],
+    "unresolved": [
+      "John’s parents and exact Bannside holding; the identity of the Crawford landlords and any surviving payment correspondence or predecessor record; relationships to other Glasgow families."
+    ]
+  },
+  "gaps": [
+    {
+      "title": "Identify the family volumes and payment correspondence",
+      "why": "D2003’s family histories may explain the Bannside origin; any surviving Doads receipt could identify the holding behind James’s 1858 payment. Neither survival nor kinship is assumed.",
+      "where": "PRONI D2003 detailed list: Glasgow-family histories and section C personal papers",
+      "url": "https://www.sommemidulster.org/dwd/pdfs/02002.pdf",
+      "priority": "high"
+    },
+    {
+      "title": "Find original parish records",
+      "why": "They may identify John, Jane McClure and their children.",
+      "where": "Broughshane and nearby parish holdings",
+      "url": "https://www.proni.gov.uk/publications/proni-guide-church-records",
+      "priority": "high"
+    },
+    {
+      "title": "Follow land and probate material",
+      "why": "A lease or succession record could name parents, tenants or collateral kin.",
+      "where": "Racavan, Clough and Broughshane estate records",
+      "url": "https://apps.proni.gov.uk/ProniNames_IE/SearchPage.aspx",
+      "priority": "high"
+    },
+    {
+      "title": "Test external cluster links only after local reconstruction",
+      "why": "It avoids turning a shared county into a pedigree claim.",
+      "where": "Antrim locality studies",
+      "url": "/branches/larne-kilwaughter/",
+      "priority": "medium"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1766,
+      "label": "John's reported approximate birth year",
+      "status": "hypothesis",
+      "cluster": "john",
+      "url": "/people/glasgow-1657.html"
+    },
+    {
+      "year": 1836,
+      "label": "Death notice for John of Cross near Broughshane",
+      "status": "proved",
+      "cluster": "john",
+      "url": "/people/glasgow-1657.html"
+    },
+    {
+      "year": 1836,
+      "label": "Wider parentage and locality links remain unrecorded",
+      "status": "unresolved",
+      "cluster": "connection-gap",
+      "url": "https://www.wikitree.com/wiki/Space:Glasgow_Branches_in_Early_Ireland"
+    },
+    {
+      "year": 1850,
+      "label": "Study's later research horizon",
+      "status": "unresolved",
+      "cluster": "connection-gap",
+      "url": "https://www.proni.gov.uk/publications/proni-guide-church-records"
+    }
+  ],
+  "related": [
+    {
+      "label": "Larne & Kilwaughter study",
+      "url": "/branches/larne-kilwaughter/"
+    },
+    {
+      "label": "Bann Valley & Killoquin study",
+      "url": "/branches/research-irish-bann-valley-killoquin/"
+    }
+  ],
+  "sources_note": "Maintained accounts: John Glasgow-1657 and James McClure Glasgow-1780. PRONI D2003 introduction, printed pp.17–20 / PDF pp.18–21, and the public diary transcription, p.29, 14 August 1858. Manuscript family histories and original payment papers uninspected; no earlier parent established."
 }

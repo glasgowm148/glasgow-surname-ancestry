@@ -2,6 +2,10 @@
 
 ## Current conclusion
 
+Reviewed 23 October 2026: Faris p.12 abstracts Samuel Glasgow of West Fallowfield, Chester County, Pennsylvania: will dated 17 May 1824 and proved 31 May 1824, daughter Margaret Ellen Glasgow, with the residue to sons of his brothers William, James and Robert in Ireland. This is a useful compatible identity lead for the already existing Samuel-1492 account, whose contributed Irish family has the same brother pattern, not a proved identification. The manuscript, daughter’s records and migration/estate continuity remain to be checked. No independent birth age is supplied. Keep the Irish brother Robert distinct from Robert-12; do not infer the American emigrants’ father from this will. Samuel-1492’s father probability remains 23%.
+
+### Earlier dated account — father grades superseded only as specified above
+
 Current father assessment (22 October 2026): **23% (uncertain)** for [Glasgow-1025](https://www.wikitree.com/wiki/Glasgow-1025). Gorteen Samuel is an unidentified candidate, distinct from Whitehill in Kildress; both the child’s adult identification and older James pedigree remain open. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 The original 1766 Derryloran return proves that a **Samuel Glasco was a
@@ -144,3 +148,13 @@ Next useful test: Seek a Gorteen succession, lease or probate naming Samuel’s 
 This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [National Archives of Ireland, IHP/1/665, original 1766 Derryloran religious return, Gorteen section, Virtual Record Treasury (https://virtualtreasury.ie/item/NAI-IHP-1-665).](https://virtualtreasury.ie/item/NAI-IHP-1-665)
+
+## Faris source inspection — 23 October 2026
+
+Reviewed 23 October 2026: Faris p.12 abstracts Samuel Glasgow of West Fallowfield, Chester County, Pennsylvania: will dated 17 May 1824 and proved 31 May 1824, daughter Margaret Ellen Glasgow, with the residue to sons of his brothers William, James and Robert in Ireland. This is a useful compatible identity lead for the already existing Samuel-1492 account, whose contributed Irish family has the same brother pattern, not a proved identification. The manuscript, daughter’s records and migration/estate continuity remain to be checked. No independent birth age is supplied. Keep the Irish brother Robert distinct from Robert-12; do not infer the American emigrants’ father from this will. Samuel-1492’s father probability remains 23%.
+
+David Faris, The Glasgow Family of Adams County, Ohio (Baltimore: Gateway Press, 1990), printed pp.8–15; FamilySearch catalogue koha:646654, film 2055438 Item 5, DGS 007834162, images 1564–1567, visually inspected 23 October 2026. This is an inspected published genealogy, not inspection of its cited original letters or wills. The film’s generic Tennessee metadata does not describe this book item. The letters are cross-referenced on p.13 to pp.20–21; those pages were not inspected in this batch, so the maintained letter transcription remains the source for its wording.
+
+[Book, pp.12–13](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS3J-H9VW-9), [chart, pp.10–11](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS3J-H9FN-6), [Peters reconstruction, pp.14–15](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS3J-H9FV-S), [FamilySearch catalogue](https://www.familysearch.org/en/search/catalog/koha:646654).
+
+[Shared family review](/branches/research-irish-moneymore/#moneymore-probable-father); [James’s complete research account](/people/glasgow-1024.html#research-findings).

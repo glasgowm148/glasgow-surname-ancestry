@@ -4170,3 +4170,17 @@ Twenty provider transcripts are reviewed in fifteen documentary groups. Existing
 | [James Glasgow](https://www.wikitree.com/wiki/Glasgow-1150) | OPEN | Regrade existing James Glasgow-1150–Robert Glasgow-1156 father pair 86%→91%, with original burial still uninspected; preserve prior pending amendments. |
 | [Robert Glasgow I](https://www.wikitree.com/wiki/Glasgow-1156) | OPEN | Regrade existing James Glasgow-1150–Robert Glasgow-1156 father pair 86%→91%, with original burial still uninspected; preserve prior pending amendments. |
 | [William Glasgow](https://www.wikitree.com/wiki/Glasgow-591) | OPEN | Clarify the original 1725 collective Glasgow boundary occupiers; no individual forename or parent change. |
+
+### Faris original-book reassessment — 23 October 2026
+
+| Profile | Status | Amendment |
+| --- | --- | --- |
+| [Robert Glasgow](https://www.wikitree.com/wiki/Glasgow-12) | OPEN | Correct the catalogue-based Moneymore father claim from the actual book; retain attachment and separately supported sibling relationships. |
+| [Arthur Glasgow](https://www.wikitree.com/wiki/Glasgow-649) | OPEN | Correct the catalogue-based Moneymore father claim from the actual book; retain attachment and separately supported sibling relationships. |
+| [Joseph Glasgow](https://www.wikitree.com/wiki/Glasgow-1543) | OPEN | Correct the catalogue-based Moneymore father claim from the actual book; retain attachment and separately supported sibling relationships. |
+| [John Glasgow](https://www.wikitree.com/wiki/Glasgow-4027) | OPEN | Correct the catalogue-based Moneymore father claim from the actual book; retain attachment and separately supported sibling relationships. |
+| [Mary Arter](https://www.wikitree.com/wiki/Glasgow-4030) | OPEN | Correct the catalogue-based Moneymore father claim from the actual book; retain attachment and separately supported sibling relationships. |
+| [James Glasgow II](https://www.wikitree.com/wiki/Glasgow-1024) | OPEN | Correct the catalogue-based Moneymore father claim from the actual book; retain attachment and separately supported sibling relationships. |
+| [Samuel Glasgow](https://www.wikitree.com/wiki/Glasgow-1492) | OPEN | Add the qualified1824WestFallowfield will identity lead; father remains23%. |
+| [John Glasgow](https://www.wikitree.com/wiki/Glasgow-1657) | OPEN | Clarify Bannside/Drumack origins and the1858Crawford landlord trail; no parent confidence change. |
+| [James McClure Glasgow](https://www.wikitree.com/wiki/Glasgow-1780) | OPEN | Clarify Bannside/Drumack origins and the1858Crawford landlord trail; no parent confidence change. |
