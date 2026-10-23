@@ -7643,6 +7643,12 @@
       "confidence_changed": false,
       "held_evidence_review_exhausted": true,
       "resume_when": "Inspect the original burial at OPR 684/60/47 for residence, occupation or associates tying the burial account to the father named in the 1641 apprenticeship."
+    },
+    "research_state": {
+      "disposition": "awaiting_source",
+      "reviewed": "2026-10-23",
+      "reason": "Explicit existing-evidence and next-test audit; no confidence or topology change.",
+      "reopen_when": "The underlying burial or Crichtoun evidence is available for inspection."
     }
   },
   {
@@ -10029,6 +10035,12 @@
       "confidence_changed": false,
       "held_evidence_review_exhausted": true,
       "resume_when": "Read NLS MS.3724/MS.3725 for Mureistoun title or succession. The adjacent Edward test is original RS25 9/135, 8 July 1624; the printed index cannot supply Edward’s unstated kinship."
+    },
+    "research_state": {
+      "disposition": "awaiting_source",
+      "reviewed": "2026-10-23",
+      "reason": "Explicit existing-evidence and next-test audit; no confidence or topology change.",
+      "reopen_when": "The underlying court/title text becomes accessible or a new discriminating record is held."
     }
   },
   {
@@ -12420,6 +12432,12 @@
       "source_url": "https://archive.org/details/abstractsprotoc06scogoog/page/n69/mode/2up",
       "new_record_discovery": false,
       "confidence_changed": false
+    },
+    "research_state": {
+      "disposition": "awaiting_source",
+      "reviewed": "2026-10-23",
+      "reason": "Explicit existing-evidence and next-test audit; no confidence or topology change.",
+      "reopen_when": "An independent parent/household record is held, rather than another rereading of the same conveyances."
     }
   },
   {
@@ -18878,7 +18896,14 @@
       "reviewed": "2026-10-22",
       "scope": "74% assesses the complete Hugh-to-John/Agnes-household father identification, from 58% possible. The sibling relationship is reported, not independently proved. No Hugh childhood record or underlying evidence for Elaine’s statement was inspected. John’s own 1661 Edinburgh-child identification, the unrelated 1685 testament comparison, other ancestry and all mothers retain separate assessments. The circa-1692/1700 estimates are not birth records; no dates are changed."
     },
-    "next_test": "Find the underlying evidence for Elaine’s specific brother/parent statement, or an identifying marriage, apprenticeship or inheritance record for Hugh. Rechecking the broken hyperlink alone cannot resolve the historical relationship."
+    "next_test": "Find the underlying evidence for Elaine’s specific brother/parent statement, or an identifying marriage, apprenticeship or inheritance record for Hugh. Rechecking the broken hyperlink alone cannot resolve the historical relationship.",
+    "research_state": {
+      "disposition": "awaiting_source",
+      "reviewed": "2026-10-23",
+      "reason": "Explicit existing-evidence and next-test audit; no confidence or topology change.",
+      "reopen_when": "The underlying family statement or a new identifying record is held."
+    },
+    "last_test": "22 October 2026: family account and household reviewed; hyperlink inconsistency is editorial, not independent ancestry evidence."
   },
   {
     "assertion_id": "C-coverage-20261022-glasgow-1927-father",
@@ -59016,7 +59041,15 @@
         "held-e-6c829c517df8"
       ],
       "scope": "Named child to the specific adult family role represented by the selected father; independent earlier ancestry is outside this assessment."
-    }
+    },
+    "research_state": {
+      "disposition": "ready",
+      "reviewed": "2026-10-23",
+      "reason": "Explicit existing-evidence and next-test audit; no confidence or topology change.",
+      "reopen_when": "Available held source and adult-identity comparison."
+    },
+    "last_test": "23 October 2026 audit: father’s held NCpedia account lists a Nancy/Ann daughter; the current child assessment does not reconcile it. No new parent conclusion yet.",
+    "next_test": "Compare the held account’s named daughter, spouse and dates with Nancy’s complete adult profile; retain any conflicting birth evidence."
   },
   {
     "assertion_id": "C-coverage-20261022g-glasgow-2055-father",
@@ -59089,7 +59122,15 @@
         "held-e-eb8b1ed80709"
       ],
       "scope": "Named child to the specific adult family role represented by the selected father; independent earlier ancestry is outside this assessment."
-    }
+    },
+    "research_state": {
+      "disposition": "ready",
+      "reviewed": "2026-10-23",
+      "reason": "Explicit existing-evidence and next-test audit; no confidence or topology change.",
+      "reopen_when": "Available held source and adult-identity comparison."
+    },
+    "last_test": "23 October 2026 audit: father’s held NCpedia account lists an Elizabeth daughter; the current child assessment does not reconcile it. No new parent conclusion yet.",
+    "next_test": "Compare the held account’s named daughter, spouse and dates with Elizabeth’s complete adult profile; retain the 1763/1772 date discrepancy."
   },
   {
     "assertion_id": "C-coverage-20261022g-glasgow-3977-father",

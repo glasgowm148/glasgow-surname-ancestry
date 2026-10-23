@@ -40,15 +40,25 @@ def asset_path(site_root: Path, source: Path, url: str, cache: dict | None = Non
 
 
 def content_hash(path: Path) -> str:
-    return hashlib.sha256(path.read_bytes()).hexdigest()[:10]
+    digest = hashlib.sha256()
+    with path.open("rb") as handle:
+        for chunk in iter(lambda: handle.read(65536), b""):
+            digest.update(chunk)
+    return digest.hexdigest()[:10]
 
 
-def find_mismatches(site_root: Path) -> list[Mismatch]:
-    mismatches: list[Mismatch] = []
-    hashes: dict[Path, str] = {}
-    resolved_assets: dict[Path, Path | None] = {}
-    for source in sorted(path for path in site_root.rglob("*") if path.suffix in SOURCE_SUFFIXES):
-        text = source.read_text(encoding="utf-8")
+def _scan(site_root: Path, *, graph: bool = True):
+    """Stream source contents; retain hashes and compact references, never text."""
+    sources = sorted(path for path in site_root.rglob("*")
+                     if path.is_file() and path.suffix in SOURCE_SUFFIXES)
+    targets, hashes, mismatches = {}, {}, []
+    resolved_assets = {}
+    for source in sources:
+        data = source.read_bytes()
+        hashes[source.resolve()] = hashlib.sha256(data).hexdigest()[:10]
+        text = data.decode("utf-8")
+        del data
+        refs = []
         for match in VERSIONED_ASSET.finditer(text):
             url = match.group("url")
             target = asset_path(site_root, source, url, resolved_assets)
@@ -56,34 +66,80 @@ def find_mismatches(site_root: Path) -> list[Mismatch]:
                 continue
             if target not in hashes:
                 hashes[target] = content_hash(target)
-            expected = hashes[target]
-            actual = match.group("version")
+            actual, expected = match.group("version"), hashes[target]
             if actual != expected:
                 mismatches.append(Mismatch(source, url, actual, expected))
-    return mismatches
+            if graph:
+                # Match objects retain their complete source string: store only
+                # these small values so the source can be released immediately.
+                refs.append((url, target))
+        match = None  # A regex match otherwise keeps the last source alive.
+        del text
+        if graph:
+            targets[source] = refs
+    return sources, targets, hashes, mismatches
+
+
+def find_mismatches(site_root: Path) -> list[Mismatch]:
+    return _scan(site_root, graph=False)[-1]
 
 
 def stamp(site_root: Path, write: bool) -> tuple[int, int]:
-    """Return (changed sources, mismatched references); optionally update sources."""
-    mismatches = find_mismatches(site_root)
-    by_source: dict[Path, list[Mismatch]] = {}
-    for mismatch in mismatches:
-        by_source.setdefault(mismatch.source, []).append(mismatch)
-    if write:
-        resolved_assets: dict[Path, Path | None] = {}
-        hashes: dict[Path, str] = {}
-        for source in by_source:
-            original = source.read_text(encoding="utf-8")
+    """Return (changed sources, original stale references).
 
-            def replace(match: re.Match[str]) -> str:
-                target = asset_path(site_root, source, match.group("url"), resolved_assets)
-                if target is None or not target.is_file():
-                    return match.group(0)
-                if target not in hashes:hashes[target]=content_hash(target)
-                return f"{match.group('quote')}{match.group('url')}?v={hashes[target]}{match.group('quote')}"
+    Write dependencies before consumers, so an acyclic asset chain settles in
+    one pass. Cycles cannot be assigned stable content hashes by this method;
+    reject them before writing anything and leave the check failure visible.
+    """
+    sources, targets, hashes, mismatches = _scan(site_root, graph=write)
+    if not write:
+        return len({m.source for m in mismatches}), len(mismatches)
 
-            source.write_text(VERSIONED_ASSET.sub(replace, original), encoding="utf-8")
-    return len(by_source), len(mismatches)
+    by_resolved = {source.resolve(): source for source in sources}
+    dependencies = {source: {by_resolved[target] for _, target in refs
+                             if target in by_resolved}
+                    for source, refs in targets.items()}
+    consumers = {source: [] for source in sources}
+    for source, deps in dependencies.items():
+        for dependency in deps:
+            consumers[dependency].append(source)
+    # Kahn ordering avoids recursion limits for long generated JS chains.
+    pending = [source for source, deps in dependencies.items() if not deps]
+    counts = {source: len(deps) for source, deps in dependencies.items()}
+    order = []
+    while pending:
+        source = pending.pop()
+        order.append(source)
+        for consumer in consumers[source]:
+            counts[consumer] -= 1
+            if not counts[consumer]:
+                pending.append(consumer)
+    if len(order) != len(sources):
+        blocked = sorted(str(source.relative_to(site_root)) for source, count in counts.items() if count)
+        raise ValueError("Cyclic versioned asset dependencies (including blocked consumers): "
+                         + ", ".join(blocked[:10]))
+
+    changed = 0
+    for source in order:
+        original = source.read_bytes()
+        text = original.decode("utf-8")
+        versions = {url: hashes[target] for url, target in targets[source]}
+
+        def replace(match):
+            expected = versions.get(match.group("url"))
+            if expected is None:
+                return match.group(0)
+            return (text[match.start():match.start("version")] + expected
+                    + text[match.end("version"):match.end()])
+
+        final = VERSIONED_ASSET.sub(replace, text).encode("utf-8")
+        if final != original:
+            source.write_bytes(final)
+            changed += 1
+        hashes[source.resolve()] = hashlib.sha256(final).hexdigest()[:10]
+        # Bound retained content to one source even across loop iterations.
+        del original, text, final
+    return changed, len(mismatches)
 
 
 def main() -> int:

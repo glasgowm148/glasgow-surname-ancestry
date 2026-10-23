@@ -8,6 +8,8 @@ from __future__ import annotations
 
 import calendar
 from collections import defaultdict
+from contextlib import contextmanager
+from functools import lru_cache
 from html import escape
 import hashlib
 import json
@@ -531,6 +533,39 @@ def _refresh_reviewed_parentage(profile_ids=None) -> None:
 
 def _canonical_records() -> list[dict]:
     return _load_json(ROOT / "research" / "canonical_records.json", [])
+
+
+@contextmanager
+def cached_hierarchy_sources():
+    """Reuse read-only source parses for one invocation; reload changed files."""
+    global _canonical_records, _relationship_assessments
+    original_records = _canonical_records
+    original_assessments = _relationship_assessments
+
+    def source_key(name):
+        path = (ROOT / "research" / name).resolve()
+        try:
+            stat = path.stat()
+        except FileNotFoundError:
+            return str(path), None, None
+        return str(path), stat.st_mtime_ns, stat.st_size
+
+    @lru_cache(maxsize=4)
+    def records(_key):
+        return original_records()
+
+    @lru_cache(maxsize=4)
+    def assessments(_key):
+        return original_assessments()
+
+    # Consumers select/iterate these rows; mutable dossier data stays uncached.
+    _canonical_records = lambda: records(source_key("canonical_records.json"))
+    _relationship_assessments = lambda: assessments(source_key("relationship_assessments.json"))
+    try:
+        yield
+    finally:
+        _canonical_records = original_records
+        _relationship_assessments = original_assessments
 
 
 def _canonical_record_rows(profile_id: str) -> list[dict]:
@@ -2826,6 +2861,7 @@ def revise(text: str, profile_id_hint: str = ""):
     return updated, updated != text
 
 
+@cached_hierarchy_sources()
 def repair(profile_ids=None):
     global _INDEX_CACHE
     if not profile_ids:  # a full pass; a single-person refresh reuses the current index

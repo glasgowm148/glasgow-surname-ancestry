@@ -8,7 +8,6 @@ import contextlib
 import json
 import re
 import sys
-from functools import lru_cache
 from html import escape
 from pathlib import Path
 
@@ -33,37 +32,7 @@ except ModuleNotFoundError:
 WEB = ROOT / "www"
 
 
-@contextlib.contextmanager
-def cached_hierarchy_sources():
-    """Reuse read-only source parses across dossier renders in one sync run."""
-    original_records = hierarchy._canonical_records
-    original_assessments = hierarchy._relationship_assessments
-
-    def source_key(name):
-        path = (hierarchy.ROOT / "research" / name).resolve()
-        try:
-            stat = path.stat()
-        except FileNotFoundError:
-            return str(path), None, None
-        return str(path), stat.st_mtime_ns, stat.st_size
-
-    @lru_cache(maxsize=4)
-    def records(_key):
-        return original_records()
-
-    @lru_cache(maxsize=4)
-    def assessments(_key):
-        return original_assessments()
-
-    # Both consumers only iterate/select these parsed rows; neither mutates
-    # them. The stat key reloads a source changed during a long invocation.
-    hierarchy._canonical_records = lambda: records(source_key("canonical_records.json"))
-    hierarchy._relationship_assessments = lambda: assessments(source_key("relationship_assessments.json"))
-    try:
-        yield
-    finally:
-        hierarchy._canonical_records = original_records
-        hierarchy._relationship_assessments = original_assessments
+cached_hierarchy_sources = hierarchy.cached_hierarchy_sources
 
 
 def refresh_family_branch_parents(profile_ids, *, site_root=WEB, write=False):

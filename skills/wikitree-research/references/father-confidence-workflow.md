@@ -9,6 +9,12 @@ Use this workflow to connect the Glasgow branches and improve father assessments
 - Prefer actual new/replacement father proposals and substantial confidence improvements over repeatedly regrading already-confident parents. Keep chronological priority, descendant impact and attainable evidence separate; a large connectivity gain is not evidence of parentage.
 - Start with held findings, complete biographies, existing records and family studies. Use bounded QMD/PDF retrieval under AGENTS.md. A useful tentative family connection can follow from combined evidence without a literal father clause. After a bounded review yields no new discriminant, retain the rating and move to another useful test; do not repeat broken-link checks or unchanged source sweeps.
 
+Before choosing a case, run `python -m tools.research_preflight --id Glasgow-N --father Glasgow-M` for its exact overall Current conclusion, completed plans/tests, current approved assessments and up to five linked canonical sources with original pointers. The packet is internal and may contain unpublished notes; never publish or index it. An omitted/truncated item is not absent evidence. `linked_parent_record_needs_review` flags inspected, explicitly linked parent evidence not acknowledged by the current assessment; it does not assign confidence. Read the relevant parent/sibling account when its evidence is cited but not yet reconciled in the child account.
+
+Use `rank_working_joins.py --scope all-unconfident --preflight --limit 5` for a bounded dispatch shortlist. Its default actionable order uses explicitly reviewed `research_state.disposition` on existing assertions: `ready`, `awaiting_source` or `reviewed_no_change`; unreviewed readiness remains `unknown`. Retain `last_test`, `next_test`, the precise blocker and the trigger for reopening. Reopen when that evidence/access changes, not because branch impact ranks highly again. Explicit `--sort working-pairs` and `--sort confident-gain` retain pure impact views; do not reinterpret readiness as confidence or alter connectivity mathematics.
+
+For known IDs, read the maintained file directly or use bounded QMD `get`, for example `tools/genealogy/qmd get 'qmd://historical-notes/open-profiles/Glasgow-3166.md:1:80'`. For shell lexical search use an unquoted ID token in the query (`tools/genealogy/qmd search Glasgow-3166 -n 3 --json`); do not wrap the search expression in literal quote characters. An empty quoted-ID query does not establish missing notes. No embedding download is needed for this lookup. Verify the original file/JSON pointer before a historical claim.
+
 ## Assess the complete relationship
 
 Compare chronology, actual versus estimated dates, residences, occupations, spouses, siblings, associates and property together. Check compatible existing profiles before creating anyone. Missing fields or absent corroboration do not exclude a candidate. Preserve alternatives with concrete reasons.
@@ -24,6 +30,8 @@ Use inspected original records when accessible. A checked published transcriptio
 Give workers separate branches, families or bounded mechanical tasks. Use the cheapest reliable native model; no Astra. Reuse workers. Request concise handoffs containing subject/father IDs, prior and proposed percentages/grades, evidence IDs and exact locators, reasoning, limits, and affected site surfaces. Unchanged findings are valid; do not manufacture upgrades.
 
 Every worker must know that browser launches and PDF/browser rendering are parent-owned and sequential. Reuse one browser/session and temporary working tab; retain resource ownership receipts and preserve the user's tabs. Maximum agents means lightweight parallel research. Keep shared catalogue/tree publication and staging with one orchestrator to avoid competing writes.
+
+Send the current conclusion, one specific test, exact source IDs/locators and prior completed tests with each assignment. Require the handoff to say what was actually inspected. An unattempted task is an operational failure, not negative genealogical evidence or completed coverage: retry once with a narrower packet or handle it locally, and use a more reliable native model if the same worker repeatedly fails to inspect evidence. Do not repeat broad discovery merely to keep slots occupied.
 
 ## Save the conclusion in maintained inputs
 
@@ -41,6 +49,8 @@ Review complete drafts and preservation hashes together. A stale hash requires c
 ## Synchronise and measure
 
 Follow `docs/website-research-sync.md`. Use the relevant existing builders, not a full rebuild by default. New opted-in sources use `tools/ingest_canonical_records.py`; reviewed overlays use `tools/publish_resolved_dossiers.py`; targeted accounts use `tools/sync_catalogue_research.py --write <IDs>`. Refresh the actual main Whole tree, its packed payload and standalone model, `tools/build_ancestry_progress.py`, Latest findings and any affected search/navigation/sitemap surfaces. Resolve stale asset references when needed; do not run expensive unrelated repairs by rote.
+
+Batch shared publication under one orchestrator and reuse the read-only source cache within each sync/repair invocation. Complete section builders and backlinks before the final required person render. Do not delete preliminary legacy/diff handling or skip resolved-parentage publication without verifying the affected contract; avoid extra repair/finalization passes merely as a precaution. Final content hashes must reflect dependencies' final bytes, with a zero-stale check, rather than relying on a fixed number of blind whole-site passes.
 
 Check actual catalogue filter membership and full/compact agreement, complete drafts, reciprocal relationships, source qualifications, tree selections and preserved vitals. Run the required scoped publication check and `make check-links`. Verify local routes and relevant rendered behavior; report a genuine browser blocker honestly. Reuse the local server, starting it only if absent. Local synchronisation is separate from deployment or live WikiTree saves.
 

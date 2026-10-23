@@ -15,6 +15,36 @@ FIELDS = ('Name', 'FirstName', 'MiddleName', 'LastNameAtBirth', 'LastNameCurrent
           'Gender', 'Privacy', 'IsLiving', 'Touched')
 PROFILE_ID = re.compile(r"\b[A-Za-z][A-Za-z_'’]*(?:-[A-Za-z][A-Za-z_'’]*)*-\d+\b")
 EXCLUDED = re.compile(r'\b(?:DNA|GEDmatch|FTDNA|haplogroup|chromosome|tester|kit\s*(?:id|number)|transcription|licensed|restricted|credentials)\b', re.I)
+ANALYTICAL_EXCLUDED = re.compile(r'\b(?:DNA|GEDmatch|FTDNA|haplogroup|chromosome|tester|kit\s*(?:id|number)|licensed|restricted|credentials)\b', re.I)
+
+
+def without_editorial_comments(value):
+    if isinstance(value, str):
+        return re.sub(r'<!--.*?-->', '', value, flags=re.S)
+    if isinstance(value, dict):
+        return {key: without_editorial_comments(item) for key, item in value.items()}
+    if isinstance(value, list):
+        return [without_editorial_comments(item) for item in value]
+    return value
+
+
+def identity_tokens(text, eligible):
+    """Resolve only explicitly linked shorthand labels within their paragraph."""
+    for paragraph in text.split('\n\n'):
+        for label, target in re.findall(r'\[([^\]]+)\]\(([^)]+)\)', paragraph):
+            match = re.fullmatch(r'https://www\.wikitree\.com/wiki/([^/#?]+)', target)
+            if not match:
+                continue
+            ident = match[1]
+            if ident.casefold() not in eligible:
+                continue
+            suffix = ident.rsplit('-', 1)[-1]
+            aliases = [token for token in PROFILE_ID.findall(label)
+                       if token.rsplit('-', 1)[-1] == suffix]
+            for alias in aliases:
+                paragraph = re.sub(r'\b' + re.escape(alias) + r'\b', ident, paragraph)
+        paragraph = re.sub(r'\bbefore-\d{4}\b', '', paragraph)
+        yield from PROFILE_ID.findall(paragraph)
 
 
 def load(path):
@@ -83,11 +113,20 @@ def stage(directory, root=ROOT, status_path=STATUS):
     policy.blocked.difference_update(ident.casefold() for ident in eligible)
     policy.blocked.update(ident.casefold() for ident in rows if ident not in eligible)
     eligible_folded = {ident.casefold() for ident in eligible}
-    def safe(value):
-        text = json.dumps(value, ensure_ascii=False)
-        return not EXCLUDED.search(text) and not policy.contains_private_id(text) and all(
-            token.casefold() in eligible_folded for token in PROFILE_ID.findall(text))
     index = load(root / 'www/data/people-index.json')
+    # Record-only catalogue routes are not WikiTree IDs, even when their slugs
+    # end in a year. Only exempt known public routes from the ID token check;
+    # the full value still passes the content and private-identity screens.
+    record_routes = {entry.get('json_url', '').removesuffix('.json') + '.html'
+                     for entry in index if entry['id'].startswith('record-')
+                     and entry.get('json_url', '').startswith('/people/record-')}
+    def safe(value, analytical=False):
+        text = json.dumps(value, ensure_ascii=False)
+        identity_text = re.sub(r'/people/record-[a-z0-9-]+\.html',
+                               lambda match: '' if match[0] in record_routes else match[0], text)
+        excluded = ANALYTICAL_EXCLUDED if analytical else EXCLUDED
+        return not excluded.search(text) and not policy.contains_private_id(text) and all(
+            token.casefold() in eligible_folded for token in identity_tokens(identity_text.replace('\\n', '\n'), eligible_folded))
     dossiers = {}
     for entry in index:
         for ident in [entry['id'], *entry.get('alternate_ids', [])]:
@@ -128,8 +167,28 @@ def stage(directory, root=ROOT, status_path=STATUS):
             sources.append(source)
             lines.append(f'Public research account: {source}')
             def add(pointer, value):
+                value = without_editorial_comments(value)
                 if value and safe(value):
                     lines.append(f'{json.dumps(value, ensure_ascii=False)} [source: {source}#{pointer}]')
+            def add_analysis(pointer, section):
+                # Only public analytical prose, never arbitrary source-body fields.
+                value = without_editorial_comments({key: section[key] for key in ('title', 'category', 'markdown') if key in section})
+                heading = {key: item for key, item in value.items() if key != 'markdown'}
+                if not safe(heading, analytical=True):
+                    return
+                paragraphs = re.split(r'\n\s*\n', value.get('markdown', ''))
+                kept = [(n, paragraph) for n, paragraph in enumerate(paragraphs, 1)
+                        if paragraph.strip() and not re.search(r'^\s*>', paragraph, re.M)
+                        and safe(paragraph, analytical=True)]
+                if not kept:
+                    return
+                omitted = sum(bool(paragraph.strip()) for paragraph in paragraphs) - len(kept)
+                value['markdown'] = '\n\n'.join(paragraph for _, paragraph in kept)
+                locator = f'{source}#{pointer}'
+                if omitted:
+                    value['projection_notice'] = f'Partial analytical summary; {omitted} paragraph(s) omitted by source/privacy screening.'
+                    value['original_markdown_paragraphs'] = [n for n, _ in kept]
+                lines.append(f'{json.dumps(value, ensure_ascii=False)} [source: {locator}]')
             add('/vitals', dossier.get('vitals'))
             for role, relatives in dossier.get('relationships', {}).items():
                 for n, relation in enumerate(relatives):
@@ -140,8 +199,12 @@ def stage(directory, root=ROOT, status_path=STATUS):
                     add(f'/{section}/{n}', item)
             for n, findings in enumerate(dossier.get('research_findings', [])):
                 for j, section in enumerate(findings.get('sections', [])):
-                    if section.get('category') in ('conclusion', 'assessment', 'actions'):
-                        add(f'/research_findings/{n}/sections/{j}', section)
+                    title = section.get('title', '').strip().casefold()
+                    # The overall current account is authoritative. Dated or
+                    # superseded conclusion headings must not compete with it.
+                    historical_conclusion = 'current conclusion' in title and title != 'current conclusion'
+                    if not historical_conclusion and (title == 'current conclusion' or section.get('category') in ('conclusion', 'assessment', 'actions')):
+                        add_analysis(f'/research_findings/{n}/sections/{j}', section)
             detailed += 1
         filename = ident + '.md'
         atomic_text(directory / filename, '\n\n'.join(lines) + '\n')

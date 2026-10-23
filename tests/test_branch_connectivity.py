@@ -363,5 +363,30 @@ class T(unittest.TestCase):
         self.assertEqual(summarize(nodes, edges, 1650, 'supported')['individual_confidence']['mean_percent'], 82)
 
 
+class ResearchDispatchRanking(unittest.TestCase):
+    def test_explicit_ready_test_outweighs_impact_and_reopens_when_ready(self):
+        import runpy
+        rank = runpy.run_path('research/ancestry-connections/rank_working_joins.py')
+        large = dict(child='large', father='father', cross_pairs=1000,
+                     confident_pair_gain=100, child_side=100,
+                     research_state={'disposition': 'awaiting_source'})
+        small = dict(child='small', father='father', cross_pairs=10,
+                     confident_pair_gain=2, child_side=2,
+                     research_state={'disposition': 'ready'})
+        rows = [large, small]
+        rank['sort_rows'](rows)
+        self.assertEqual([r['child'] for r in rows], ['small', 'large'])
+        rank['sort_rows'](rows, 'working-pairs')
+        self.assertEqual(rows[0]['child'], 'large')
+        rank['sort_rows'](rows, 'confident-gain')
+        self.assertEqual(rows[0]['child'], 'large')
+        large['research_state']['disposition'] = 'ready'
+        rank['sort_rows'](rows)
+        self.assertEqual(rows[0]['child'], 'large')
+        self.assertEqual(rank['explicit_research_state']({
+            'last_test': 'today: unavailable source, unchanged',
+            'research_state': {'disposition': 'unreviewed'}})['disposition'], 'unknown')
+
+
 if __name__ == "__main__":
     unittest.main()
