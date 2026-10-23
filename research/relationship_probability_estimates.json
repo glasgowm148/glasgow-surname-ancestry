@@ -10643,34 +10643,6 @@
       "scope": "Possible only: the held Isaac account lacks a parent clause, and chronology plus a contributed tree cannot establish paternity."
     },
     {
-      "subject_id": "Glasgow-2426",
-      "relative_id": "Glasgow-1025",
-      "relationship": "father",
-      "percent": 46,
-      "assessment_status": "possible",
-      "assertion_id": "C-coverage-20261022d-glasgow-2426-father",
-      "basis": "William’s c 1735 birth fits a c 1700 father, and the contributed family account identifies James Glasgow with Margaret Rutherford. This gives a chronologically workable candidate couple.",
-      "source_ids": [
-        "held-e-0d81e16e4967"
-      ],
-      "reviewed": "2026-10-22",
-      "scope": "Possible family-tree inference; William’s vital facts and the parental placement lack a held contemporary proof."
-    },
-    {
-      "subject_id": "Glasgow-1025",
-      "relative_id": "Glasgow-2426",
-      "relationship": "child",
-      "percent": 46,
-      "assessment_status": "possible",
-      "assertion_id": "C-coverage-20261022d-glasgow-2426-father",
-      "basis": "William’s c 1735 birth fits a c 1700 father, and the contributed family account identifies James Glasgow with Margaret Rutherford. This gives a chronologically workable candidate couple.",
-      "source_ids": [
-        "held-e-0d81e16e4967"
-      ],
-      "reviewed": "2026-10-22",
-      "scope": "Possible family-tree inference; William’s vital facts and the parental placement lack a held contemporary proof."
-    },
-    {
       "subject_id": "Glasgow-2433",
       "relative_id": "Glasgow-3706",
       "relationship": "father",
@@ -17422,34 +17394,6 @@
       "scope": "Recorded father James is near99%;97% includes consolidation with the 1721 Rae-household father while keeping Margaret and Marion wording distinct."
     },
     {
-      "subject_id": "Glasgow-2425",
-      "relative_id": "Glasgow-1025",
-      "relationship": "father",
-      "percent": 18,
-      "assessment_status": "uncertain",
-      "assertion_id": "C-coverage-20261022f-glasgow-2425-father",
-      "basis": "Robert has only a contributed-tree pedigree and estimated 1724 Moneymore origin; a viable 24-year father interval supplies compatibility, not a named relationship. James’s reconstructed Irish identity is itself unanchored.",
-      "source_ids": [
-        "held-e-1e0721f823af"
-      ],
-      "reviewed": "2026-10-22",
-      "scope": "No original identifies Robert or his father; the 1759 Drumcarn testator is not securely James-1025."
-    },
-    {
-      "subject_id": "Glasgow-1025",
-      "relative_id": "Glasgow-2425",
-      "relationship": "child",
-      "percent": 18,
-      "assessment_status": "uncertain",
-      "assertion_id": "C-coverage-20261022f-glasgow-2425-father",
-      "basis": "Robert has only a contributed-tree pedigree and estimated 1724 Moneymore origin; a viable 24-year father interval supplies compatibility, not a named relationship. James’s reconstructed Irish identity is itself unanchored.",
-      "source_ids": [
-        "held-e-1e0721f823af"
-      ],
-      "reviewed": "2026-10-22",
-      "scope": "No original identifies Robert or his father; the 1759 Drumcarn testator is not securely James-1025."
-    },
-    {
       "subject_id": "Glasgow-1245",
       "relative_id": "Glasgow-1055",
       "relationship": "father",
@@ -17532,34 +17476,6 @@
       ],
       "reviewed": "2026-10-22",
       "scope": "Existing child-to-father link assessed from held public evidence; The account expressly represents the Irvine adult; his Stevenston childhood and Dundonald-weaver identity are separate hypotheses."
-    },
-    {
-      "subject_id": "Glasgow-1492",
-      "relative_id": "Glasgow-1025",
-      "relationship": "father",
-      "percent": 23,
-      "assessment_status": "uncertain",
-      "assertion_id": "C-coverage-20261022f-glasgow-1492-father",
-      "basis": "Samuel has a concrete 1766 Gorteen householder comparison near the proposed James family, giving slightly more local context than a pedigree alone. Neither that return nor a supplied parent record identifies James as his father.",
-      "source_ids": [
-        "held-e-c02e0eb34630"
-      ],
-      "reviewed": "2026-10-22",
-      "scope": "Gorteen Samuel is an unidentified candidate, distinct from Whitehill in Kildress; both the child’s adult identification and older James pedigree remain open."
-    },
-    {
-      "subject_id": "Glasgow-1025",
-      "relative_id": "Glasgow-1492",
-      "relationship": "child",
-      "percent": 23,
-      "assessment_status": "uncertain",
-      "assertion_id": "C-coverage-20261022f-glasgow-1492-father",
-      "basis": "Samuel has a concrete 1766 Gorteen householder comparison near the proposed James family, giving slightly more local context than a pedigree alone. Neither that return nor a supplied parent record identifies James as his father.",
-      "source_ids": [
-        "held-e-c02e0eb34630"
-      ],
-      "reviewed": "2026-10-22",
-      "scope": "Gorteen Samuel is an unidentified candidate, distinct from Whitehill in Kildress; both the child’s adult identification and older James pedigree remain open."
     },
     {
       "subject_id": "Glasgow-2449",
@@ -40047,56 +39963,6 @@
       "next_test": "A named relative, shared holding or succession links the Quothquan John to Stephen’s Glasgow family."
     },
     {
-      "subject_id": "Glasgow-1024",
-      "relative_id": "Glasgow-1025",
-      "relationship": "father",
-      "percent": 18,
-      "assessment_status": "uncertain",
-      "basis": "The proposed c.1700/c.1722 generation is biologically ordinary and the inherited accounts concern the same wider Tyrone–south Derry family investigation. That is a somewhat more coherent local hypothesis than the unbridged Scottish William route. Nevertheless, the apparent father generation rests on the pedigree itself: Faris names Robert's father James of Moneymore, not that man's father; the 1759 index supplies no kin or age; the 1740/1766 households do not identify either profile. The 18% estimate retains modest weight for a compatible inherited local pedigree but incorporates the material possibility that the two James accounts duplicate one adult rather than represent father and son. It is an individual subjective assessment, not a bucket midpoint.",
-      "source_ids": [
-        "james-drumcarn-will-index-1759",
-        "moneymore-james-faris-family-attribution",
-        "faris-1806-joseph-arthur-robert-brothers",
-        "corvanaghan-james-householder-1766"
-      ],
-      "source_references": [
-        {
-          "reference": "PRONI Name Search, Armagh diocesan wills index: James Glasgow, Drumcarn, County Tyrone, 17 January 1759; no age or kin; date meaning/profile identity unresolved",
-          "url": "https://www.proni.gov.uk/name-search"
-        },
-        {
-          "reference": "1740 Protestant householders, Derryloran: Jas Glasgo records 14391/list128 and 14393/list130; Wm Glascy 14466/list203; Wm Glasgow 14571/list308; PDF p.119",
-          "url": "https://www.billmacafee.com/1740returns/1740religiousreturnsulstername.pdf"
-        },
-        {
-          "reference": "1766 Derryloran return, NAI IHP/1/665; RCBL MS23 transcript pp.162–163: two Jas Glasgo and Jn Glasgo at Drumearn",
-          "url": "https://virtualtreasury.ie/item/NAI-IHP-1-665"
-        },
-        {
-          "reference": "David Faris, The Glasgow Family of Adams County, Ohio (1990), WorldCat catalogue father attribution",
-          "url": "https://search.worldcat.org/title/22731567"
-        },
-        {
-          "reference": "Robert Glasgow pension declaration R4057, 1834: County Derry birth in 1749, Virginia arrival 1769, no parents named",
-          "url": "https://revwarapps.org/r4057.pdf"
-        },
-        {
-          "reference": "Kirknewton Bessie baptism, 21 April 1682, FamilySearch VQ4K-ZQN; John, 29 November 1702, VQ4K-XZ7; William, 22 April 1705, VQ4K-FY9",
-          "url": "https://www.familysearch.org/ark:/61903/1:1:VQ4K-ZQN"
-        }
-      ],
-      "reviewed": "2026-10-17",
-      "review_kind": "individual calibration of an existing father; no topology change",
-      "research_state": {
-        "disposition": "awaiting_source",
-        "reviewed": "2026-10-23",
-        "reason": "Faris’s description names James of Moneymore as Robert’s father, not the preceding James generation;1759 index and family letter do not identify the older father.",
-        "reopen_when": "An original family or probate record names the father of James of Moneymore; do not reuse four brothers as proof of their grandfather."
-      },
-      "last_test": "Faris’s description names James of Moneymore as Robert’s father, not the preceding James generation;1759 index and family letter do not identify the older father.",
-      "next_test": "An original family or probate record names the father of James of Moneymore; do not reuse four brothers as proof of their grandfather."
-    },
-    {
       "subject_id": "Glasgow-1502",
       "relative_id": "Glasgow-1081",
       "relationship": "father",
@@ -40703,7 +40569,7 @@
           ]
         }
       ],
-      "scope": "Existing father-profile propositions only: Robert-12 85% → 35%; Arthur-649 and Joseph-1543 each 82% → 35%; John-4027 76% → 30%; Mary-4030 64% → 22%. All five were probable; the first four are now possible and Mary uncertain. James-1024 remains the selected named candidate; no attachment is removed. James-1024’s own older father stays 18%, and Samuel-1492’s father stays 23%."
+      "scope": "Existing father-profile propositions only: Robert-12 85% → 35%; Arthur-649 and Joseph-1543 each 82% → 35%; John-4027 76% → 30%; Mary-4030 64% → 22%. All five were probable; the first four are now possible and Mary uncertain. James-1024 remains the selected named candidate; no attachment is removed. The separate Irish-family review on24October subsequently assesses James-1024’s father78% and Samuel-1492’s father76%; the American father grades here are unchanged."
     },
     {
       "subject_id": "Glasgow-649",
@@ -40733,7 +40599,7 @@
           ]
         }
       ],
-      "scope": "Existing father-profile propositions only: Robert-12 85% → 35%; Arthur-649 and Joseph-1543 each 82% → 35%; John-4027 76% → 30%; Mary-4030 64% → 22%. All five were probable; the first four are now possible and Mary uncertain. James-1024 remains the selected named candidate; no attachment is removed. James-1024’s own older father stays 18%, and Samuel-1492’s father stays 23%."
+      "scope": "Existing father-profile propositions only: Robert-12 85% → 35%; Arthur-649 and Joseph-1543 each 82% → 35%; John-4027 76% → 30%; Mary-4030 64% → 22%. All five were probable; the first four are now possible and Mary uncertain. James-1024 remains the selected named candidate; no attachment is removed. The separate Irish-family review on24October subsequently assesses James-1024’s father78% and Samuel-1492’s father76%; the American father grades here are unchanged."
     },
     {
       "subject_id": "Glasgow-1543",
@@ -40763,7 +40629,87 @@
           ]
         }
       ],
-      "scope": "Existing father-profile propositions only: Robert-12 85% → 35%; Arthur-649 and Joseph-1543 each 82% → 35%; John-4027 76% → 30%; Mary-4030 64% → 22%. All five were probable; the first four are now possible and Mary uncertain. James-1024 remains the selected named candidate; no attachment is removed. James-1024’s own older father stays 18%, and Samuel-1492’s father stays 23%."
+      "scope": "Existing father-profile propositions only: Robert-12 85% → 35%; Arthur-649 and Joseph-1543 each 82% → 35%; John-4027 76% → 30%; Mary-4030 64% → 22%. All five were probable; the first four are now possible and Mary uncertain. James-1024 remains the selected named candidate; no attachment is removed. The separate Irish-family review on24October subsequently assesses James-1024’s father78% and Samuel-1492’s father76%; the American father grades here are unchanged."
+    },
+    {
+      "subject_id": "Glasgow-1024",
+      "relative_id": "Glasgow-1025",
+      "relationship": "father",
+      "percent": 78,
+      "assessment_status": "probable",
+      "basis": "The anonymous family recollection printed by Faris on p.9 explicitly gives James Glasgow, husband of Margaret Rutherford, four sons: William, Robert, James who settled near Moneymore, and Samuel who went to America, plus daughter Ellen. The letter-defined father is the family role represented by James-1025. These are specific named relationships, substantially stronger than the contributed-tree and locality summaries used by the earlier percentages. The same full-letter tradition was already read on 20 October; actual Faris pages now confirm its full structure. Its reproduction by Albert Rutherford and Faris’s pedigree are dependent presentations, not independent witnesses. James-1024 is reviewed as the letter-defined son who settled near Moneymore. The father James and son James occupy explicitly distinct generations in that account; the earlier possibility that these two family roles were one duplicated adult no longer deserves the same weight. The 78% assessment does not identify the son with the Corvanaghan householder or make him father of the American emigrant Robert. These are probable, not confident, relationships reconstructed from an anonymous retrospective family recollection, with no newly inspected parent register. The original letter remains uninspected. Faris calls the anonymous recollection file5 within PRONI T1959, while Rutherford’s reproduced copy cites T1959/3; retain this reference discrepancy pending archive checking. The 1759 probate index says Drumcarn and names no kin; neither that testator nor the inherited life dates are identified by this reassessment. The letter calls William eldest although the imported sibling birth estimates put him later; those estimates remain unverified. Faris also flags Samuel’s infant daughter and surviving mother-in-law in1824 against the supposed early paternal death. Those tensions require testing, not automatic exclusion. Preserve all existing people, vital fields, maternal grades and alternatives. No Scottish migration, identity merge, live edit or new father attachment is claimed.",
+      "source_ids": [
+        "james-drumcarn-will-index-1759",
+        "moneymore-james-faris-family-attribution",
+        "faris-1806-joseph-arthur-robert-brothers",
+        "corvanaghan-james-householder-1766",
+        "killycurragh-glasgow-family-letter-t1959-3"
+      ],
+      "source_references": [
+        {
+          "reference": "Faris(1990), pp8–12, actual named Irish family account; derivative letter reproduction",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS3J-H9VW-J"
+        },
+        {
+          "reference": "PRONI T1959 anonymous family recollection, Rutherford reproduction; one source tradition",
+          "url": "https://www.genealogy.com/forum/surnames/topics/rutherford/5445/"
+        }
+      ],
+      "reviewed": "2026-10-24",
+      "review_kind": "individual calibration of an existing father; no topology change",
+      "research_state": {
+        "disposition": "awaiting_source",
+        "reviewed": "2026-10-23",
+        "reason": "Faris’s description names James of Moneymore as Robert’s father, not the preceding James generation;1759 index and family letter do not identify the older father.",
+        "reopen_when": "An original family or probate record names the father of James of Moneymore; do not reuse four brothers as proof of their grandfather."
+      },
+      "last_test": "Faris’s description names James of Moneymore as Robert’s father, not the preceding James generation;1759 index and family letter do not identify the older father.",
+      "next_test": "An original family or probate record names the father of James of Moneymore; do not reuse four brothers as proof of their grandfather.",
+      "assessment_history": [
+        {
+          "assessment_date": "2026-10-17",
+          "status": "uncertain",
+          "probability_percent": 18,
+          "basis": "The proposed c.1700/c.1722 generation is biologically ordinary and the inherited accounts concern the same wider Tyrone–south Derry family investigation. That is a somewhat more coherent local hypothesis than the unbridged Scottish William route. Nevertheless, the apparent father generation rests on the pedigree itself: Faris names Robert's father James of Moneymore, not that man's father; the 1759 index supplies no kin or age; the 1740/1766 households do not identify either profile. The 18% estimate retains modest weight for a compatible inherited local pedigree but incorporates the material possibility that the two James accounts duplicate one adult rather than represent father and son. It is an individual subjective assessment, not a bucket midpoint.",
+          "source_basis": "The proposed c.1700/c.1722 generation is biologically ordinary and the inherited accounts concern the same wider Tyrone–south Derry family investigation. That is a somewhat more coherent local hypothesis than the unbridged Scottish William route. Nevertheless, the apparent father generation rests on the pedigree itself: Faris names Robert's father James of Moneymore, not that man's father; the 1759 index supplies no kin or age; the 1740/1766 households do not identify either profile. The 18% estimate retains modest weight for a compatible inherited local pedigree but incorporates the material possibility that the two James accounts duplicate one adult rather than represent father and son. It is an individual subjective assessment, not a bucket midpoint.",
+          "source_ids": [
+            "james-drumcarn-will-index-1759",
+            "moneymore-james-faris-family-attribution",
+            "faris-1806-joseph-arthur-robert-brothers",
+            "corvanaghan-james-householder-1766"
+          ],
+          "scope": null,
+          "tree_status": "uncertain"
+        }
+      ],
+      "assertion_id": "C-7833207295c6",
+      "scope": "Father James-1025, specifically the James/Margaret Rutherford family-account role: James-1024 18%→78%, Samuel-1492 23%→76%, Robert-2425 18%→77%, William-2426 46%→84%, all now probable. The American Robert-12/Arthur-649/Joseph-1543 father grades remain35%, John-4027 remains30%, Mary-4030 remains22%; James-1025’s own William-1026 father remains32%.",
+      "previous_source_references": [
+        {
+          "reference": "PRONI Name Search, Armagh diocesan wills index: James Glasgow, Drumcarn, County Tyrone, 17 January 1759; no age or kin; date meaning/profile identity unresolved",
+          "url": "https://www.proni.gov.uk/name-search"
+        },
+        {
+          "reference": "1740 Protestant householders, Derryloran: Jas Glasgo records 14391/list128 and 14393/list130; Wm Glascy 14466/list203; Wm Glasgow 14571/list308; PDF p.119",
+          "url": "https://www.billmacafee.com/1740returns/1740religiousreturnsulstername.pdf"
+        },
+        {
+          "reference": "1766 Derryloran return, NAI IHP/1/665; RCBL MS23 transcript pp.162–163: two Jas Glasgo and Jn Glasgo at Drumearn",
+          "url": "https://virtualtreasury.ie/item/NAI-IHP-1-665"
+        },
+        {
+          "reference": "David Faris, The Glasgow Family of Adams County, Ohio (1990), WorldCat catalogue father attribution",
+          "url": "https://search.worldcat.org/title/22731567"
+        },
+        {
+          "reference": "Robert Glasgow pension declaration R4057, 1834: County Derry birth in 1749, Virginia arrival 1769, no parents named",
+          "url": "https://revwarapps.org/r4057.pdf"
+        },
+        {
+          "reference": "Kirknewton Bessie baptism, 21 April 1682, FamilySearch VQ4K-ZQN; John, 29 November 1702, VQ4K-XZ7; William, 22 April 1705, VQ4K-FY9",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:VQ4K-ZQN"
+        }
+      ]
     },
     {
       "subject_id": "Glasgow-4027",
@@ -40791,7 +40737,7 @@
           ]
         }
       ],
-      "scope": "Existing father-profile propositions only: Robert-12 85% → 35%; Arthur-649 and Joseph-1543 each 82% → 35%; John-4027 76% → 30%; Mary-4030 64% → 22%. All five were probable; the first four are now possible and Mary uncertain. James-1024 remains the selected named candidate; no attachment is removed. James-1024’s own older father stays 18%, and Samuel-1492’s father stays 23%."
+      "scope": "Existing father-profile propositions only: Robert-12 85% → 35%; Arthur-649 and Joseph-1543 each 82% → 35%; John-4027 76% → 30%; Mary-4030 64% → 22%. All five were probable; the first four are now possible and Mary uncertain. James-1024 remains the selected named candidate; no attachment is removed. The separate Irish-family review on24October subsequently assesses James-1024’s father78% and Samuel-1492’s father76%; the American father grades here are unchanged."
     },
     {
       "subject_id": "Glasgow-1024",
@@ -40808,6 +40754,139 @@
       ]
     },
     {
+      "subject_id": "Glasgow-2426",
+      "relative_id": "Glasgow-1025",
+      "relationship": "father",
+      "percent": 84,
+      "assessment_status": "probable",
+      "assertion_id": "C-coverage-20261022d-glasgow-2426-father",
+      "basis": "The anonymous family recollection printed by Faris on p.9 explicitly gives James Glasgow, husband of Margaret Rutherford, four sons: William, Robert, James who settled near Moneymore, and Samuel who went to America, plus daughter Ellen. The letter-defined father is the family role represented by James-1025. These are specific named relationships, substantially stronger than the contributed-tree and locality summaries used by the earlier percentages. The same full-letter tradition was already read on 20 October; actual Faris pages now confirm its full structure. Its reproduction by Albert Rutherford and Faris’s pedigree are dependent presentations, not independent witnesses. William-2426 already represents the letter’s maternal-grandfather family role and is assessed as Margaret, wife of the Coleraine minister’s father at 84%. The same letter explicitly names his own father James and mother Margaret Rutherford. Reconcile this previously underused explicit relationship at 84%; do not transfer it to the distinct Cunningham husband or treat the imported circa1829 United States death as established. These are probable, not confident, relationships reconstructed from an anonymous retrospective family recollection, with no newly inspected parent register. The original letter remains uninspected. Faris calls the anonymous recollection file5 within PRONI T1959, while Rutherford’s reproduced copy cites T1959/3; retain this reference discrepancy pending archive checking. The 1759 probate index says Drumcarn and names no kin; neither that testator nor the inherited life dates are identified by this reassessment. The letter calls William eldest although the imported sibling birth estimates put him later; those estimates remain unverified. Faris also flags Samuel’s infant daughter and surviving mother-in-law in1824 against the supposed early paternal death. Those tensions require testing, not automatic exclusion. Preserve all existing people, vital fields, maternal grades and alternatives. No Scottish migration, identity merge, live edit or new father attachment is claimed.",
+      "source_ids": [
+        "held-e-0d81e16e4967",
+        "killycurragh-glasgow-family-letter-t1959-3",
+        "moneymore-james-faris-family-attribution"
+      ],
+      "reviewed": "2026-10-24",
+      "scope": "Father James-1025, specifically the James/Margaret Rutherford family-account role: James-1024 18%→78%, Samuel-1492 23%→76%, Robert-2425 18%→77%, William-2426 46%→84%, all now probable. The American Robert-12/Arthur-649/Joseph-1543 father grades remain35%, John-4027 remains30%, Mary-4030 remains22%; James-1025’s own William-1026 father remains32%.",
+      "assessment_history": [
+        {
+          "assessment_date": "2026-10-22",
+          "status": "possible",
+          "probability_percent": 46,
+          "basis": "William’s c 1735 birth fits a c 1700 father, and the contributed family account identifies James Glasgow with Margaret Rutherford. This gives a chronologically workable candidate couple.",
+          "source_basis": "William’s c 1735 birth fits a c 1700 father, and the contributed family account identifies James Glasgow with Margaret Rutherford. This gives a chronologically workable candidate couple.",
+          "source_ids": [
+            "held-e-0d81e16e4967"
+          ],
+          "scope": "Possible family-tree inference; William’s vital facts and the parental placement lack a held contemporary proof.",
+          "tree_status": "possible"
+        }
+      ]
+    },
+    {
+      "subject_id": "Glasgow-1025",
+      "relative_id": "Glasgow-2426",
+      "relationship": "child",
+      "percent": 46,
+      "assessment_status": "possible",
+      "assertion_id": "C-coverage-20261022d-glasgow-2426-father",
+      "basis": "William’s c 1735 birth fits a c 1700 father, and the contributed family account identifies James Glasgow with Margaret Rutherford. This gives a chronologically workable candidate couple.",
+      "source_ids": [
+        "held-e-0d81e16e4967"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Possible family-tree inference; William’s vital facts and the parental placement lack a held contemporary proof."
+    },
+    {
+      "subject_id": "Glasgow-2425",
+      "relative_id": "Glasgow-1025",
+      "relationship": "father",
+      "percent": 77,
+      "assessment_status": "probable",
+      "assertion_id": "C-coverage-20261022f-glasgow-2425-father",
+      "basis": "The anonymous family recollection printed by Faris on p.9 explicitly gives James Glasgow, husband of Margaret Rutherford, four sons: William, Robert, James who settled near Moneymore, and Samuel who went to America, plus daughter Ellen. The letter-defined father is the family role represented by James-1025. These are specific named relationships, substantially stronger than the contributed-tree and locality summaries used by the earlier percentages. The same full-letter tradition was already read on 20 October; actual Faris pages now confirm its full structure. Its reproduction by Albert Rutherford and Faris’s pedigree are dependent presentations, not independent witnesses. Robert-2425 is the inherited James/Margaret Rutherford son account, matching the letter’s named Robert, himself described as a William Glasgow’s father. This specific position in the named sibling family supports 77%, while his adult life remains little anchored. His imported United States death location is not established by the letter or by the will’s Ireland designation. These are probable, not confident, relationships reconstructed from an anonymous retrospective family recollection, with no newly inspected parent register. The original letter remains uninspected. Faris calls the anonymous recollection file5 within PRONI T1959, while Rutherford’s reproduced copy cites T1959/3; retain this reference discrepancy pending archive checking. The 1759 probate index says Drumcarn and names no kin; neither that testator nor the inherited life dates are identified by this reassessment. The letter calls William eldest although the imported sibling birth estimates put him later; those estimates remain unverified. Faris also flags Samuel’s infant daughter and surviving mother-in-law in1824 against the supposed early paternal death. Those tensions require testing, not automatic exclusion. Preserve all existing people, vital fields, maternal grades and alternatives. No Scottish migration, identity merge, live edit or new father attachment is claimed.",
+      "source_ids": [
+        "held-e-1e0721f823af",
+        "killycurragh-glasgow-family-letter-t1959-3",
+        "moneymore-james-faris-family-attribution"
+      ],
+      "reviewed": "2026-10-24",
+      "scope": "Father James-1025, specifically the James/Margaret Rutherford family-account role: James-1024 18%→78%, Samuel-1492 23%→76%, Robert-2425 18%→77%, William-2426 46%→84%, all now probable. The American Robert-12/Arthur-649/Joseph-1543 father grades remain35%, John-4027 remains30%, Mary-4030 remains22%; James-1025’s own William-1026 father remains32%.",
+      "assessment_history": [
+        {
+          "assessment_date": "2026-10-22",
+          "status": "uncertain",
+          "probability_percent": 18,
+          "basis": "Robert has only a contributed-tree pedigree and estimated 1724 Moneymore origin; a viable 24-year father interval supplies compatibility, not a named relationship. James’s reconstructed Irish identity is itself unanchored.",
+          "source_basis": "Robert has only a contributed-tree pedigree and estimated 1724 Moneymore origin; a viable 24-year father interval supplies compatibility, not a named relationship. James’s reconstructed Irish identity is itself unanchored.",
+          "source_ids": [
+            "held-e-1e0721f823af"
+          ],
+          "scope": "No original identifies Robert or his father; the 1759 Drumcarn testator is not securely James-1025.",
+          "tree_status": "uncertain"
+        }
+      ]
+    },
+    {
+      "subject_id": "Glasgow-1025",
+      "relative_id": "Glasgow-2425",
+      "relationship": "child",
+      "percent": 18,
+      "assessment_status": "uncertain",
+      "assertion_id": "C-coverage-20261022f-glasgow-2425-father",
+      "basis": "Robert has only a contributed-tree pedigree and estimated 1724 Moneymore origin; a viable 24-year father interval supplies compatibility, not a named relationship. James’s reconstructed Irish identity is itself unanchored.",
+      "source_ids": [
+        "held-e-1e0721f823af"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "No original identifies Robert or his father; the 1759 Drumcarn testator is not securely James-1025."
+    },
+    {
+      "subject_id": "Glasgow-1492",
+      "relative_id": "Glasgow-1025",
+      "relationship": "father",
+      "percent": 76,
+      "assessment_status": "probable",
+      "assertion_id": "C-coverage-20261022f-glasgow-1492-father",
+      "basis": "The anonymous family recollection printed by Faris on p.9 explicitly gives James Glasgow, husband of Margaret Rutherford, four sons: William, Robert, James who settled near Moneymore, and Samuel who went to America, plus daughter Ellen. The letter-defined father is the family role represented by James-1025. These are specific named relationships, substantially stronger than the contributed-tree and locality summaries used by the earlier percentages. The same full-letter tradition was already read on 20 October; actual Faris pages now confirm its full structure. Its reproduction by Albert Rutherford and Faris’s pedigree are dependent presentations, not independent witnesses. Samuel-1492 is reviewed as the letter-defined emigrant son. The independently inspected 1824 West Fallowfield will names brothers William, James and Robert of Ireland, a distinctive match to that sibling set. This supports the family reconstruction while the testator’s profile identity remains open. Samuel-2872 is another compatible account, retained without merge or exclusion; its Pennsylvania birth and John/Mary Cranmer parentage need independent examination. The 76% is the complete father proposition for the letter-defined Samuel, not proof of his Gorteen identity or a new assessment of Samuel-2872. These are probable, not confident, relationships reconstructed from an anonymous retrospective family recollection, with no newly inspected parent register. The original letter remains uninspected. Faris calls the anonymous recollection file5 within PRONI T1959, while Rutherford’s reproduced copy cites T1959/3; retain this reference discrepancy pending archive checking. The 1759 probate index says Drumcarn and names no kin; neither that testator nor the inherited life dates are identified by this reassessment. The letter calls William eldest although the imported sibling birth estimates put him later; those estimates remain unverified. Faris also flags Samuel’s infant daughter and surviving mother-in-law in1824 against the supposed early paternal death. Those tensions require testing, not automatic exclusion. Preserve all existing people, vital fields, maternal grades and alternatives. No Scottish migration, identity merge, live edit or new father attachment is claimed.",
+      "source_ids": [
+        "held-e-c02e0eb34630",
+        "killycurragh-glasgow-family-letter-t1959-3",
+        "moneymore-james-faris-family-attribution",
+        "chester-samuel-glasgow-estate-7520-1824"
+      ],
+      "reviewed": "2026-10-24",
+      "scope": "Father James-1025, specifically the James/Margaret Rutherford family-account role: James-1024 18%→78%, Samuel-1492 23%→76%, Robert-2425 18%→77%, William-2426 46%→84%, all now probable. The American Robert-12/Arthur-649/Joseph-1543 father grades remain35%, John-4027 remains30%, Mary-4030 remains22%; James-1025’s own William-1026 father remains32%.",
+      "assessment_history": [
+        {
+          "assessment_date": "2026-10-22",
+          "status": "uncertain",
+          "probability_percent": 23,
+          "basis": "Samuel has a concrete 1766 Gorteen householder comparison near the proposed James family, giving slightly more local context than a pedigree alone. Neither that return nor a supplied parent record identifies James as his father.",
+          "source_basis": "Samuel has a concrete 1766 Gorteen householder comparison near the proposed James family, giving slightly more local context than a pedigree alone. Neither that return nor a supplied parent record identifies James as his father.",
+          "source_ids": [
+            "held-e-c02e0eb34630"
+          ],
+          "scope": "Gorteen Samuel is an unidentified candidate, distinct from Whitehill in Kildress; both the child’s adult identification and older James pedigree remain open.",
+          "tree_status": "uncertain"
+        }
+      ]
+    },
+    {
+      "subject_id": "Glasgow-1025",
+      "relative_id": "Glasgow-1492",
+      "relationship": "child",
+      "percent": 23,
+      "assessment_status": "uncertain",
+      "assertion_id": "C-coverage-20261022f-glasgow-1492-father",
+      "basis": "Samuel has a concrete 1766 Gorteen householder comparison near the proposed James family, giving slightly more local context than a pedigree alone. Neither that return nor a supplied parent record identifies James as his father.",
+      "source_ids": [
+        "held-e-c02e0eb34630"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Gorteen Samuel is an unidentified candidate, distinct from Whitehill in Kildress; both the child’s adult identification and older James pedigree remain open."
+    },
+    {
       "subject_id": "Glasgow-4030",
       "relative_id": "Glasgow-1024",
       "relationship": "father",
@@ -40821,7 +40900,7 @@
         "moneymore-james-faris-family-attribution"
       ],
       "reviewed": "2026-10-23",
-      "scope": "Existing father-profile propositions only: Robert-12 85% → 35%; Arthur-649 and Joseph-1543 each 82% → 35%; John-4027 76% → 30%; Mary-4030 64% → 22%. All five were probable; the first four are now possible and Mary uncertain. James-1024 remains the selected named candidate; no attachment is removed. James-1024’s own older father stays 18%, and Samuel-1492’s father stays 23%.",
+      "scope": "Existing father-profile propositions only: Robert-12 85% → 35%; Arthur-649 and Joseph-1543 each 82% → 35%; John-4027 76% → 30%; Mary-4030 64% → 22%. All five were probable; the first four are now possible and Mary uncertain. James-1024 remains the selected named candidate; no attachment is removed. The separate Irish-family review on24October subsequently assesses James-1024’s father78% and Samuel-1492’s father76%; the American father grades here are unchanged.",
       "assessment_history": [
         {
           "assessment_date": "2026-10-22",

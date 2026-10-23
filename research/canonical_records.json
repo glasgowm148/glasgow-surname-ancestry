@@ -3839,17 +3839,16 @@
   },
   {
     "record_id": "moneymore-james-faris-family-attribution",
-    "date": "Family attribution published 1990; historical generation undated",
+    "date": "Undated Irish family recollection; historical family reviewed24October2026",
     "place": "Moneymore, County Londonderry",
     "source_title": "David Faris, The Glasgow Family of Adams County, Ohio (1990), printed pp.8–15; actual book inspected",
     "source_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS3J-H9VW-9",
     "status": "Possible Moneymore father hypothesis; prior catalogue overstatement corrected",
-    "note": "The actual Faris book has now been inspected, rather than only its catalogue abstract. Printed p.11 uses a dotted possible connection from James of Moneymore to the American brothers; p.12 explicitly reports that evidence for Robert and his brothers’ parentage had not been found. James was the author’s identifiable County Londonderry candidate, not an evidenced father. The retrospective Irish pedigree on pp.8–9 and Samuel’s 1824 Pennsylvania will discussed on p.12 identify an Irish sibling group, including William, James and Robert remaining in Ireland, without joining it to the emigrant brothers. County setting, a compatible generation and the existing family tradition keep James a plausible candidate, but cannot sustain the earlier probable father assessment. Mary’s case additionally depends on identifying the 1779 will witness Mary Arter as the emigrant sister. Faris p.13 transmits an unnamed sister styled Mrs Arthur; p.15 identifies Mary Arter with that sister through the tax/probate cluster, rather than an explicit sibling or birth statement. The association remains positive but does not establish her father. Robert, Arthur and Joseph’s established brotherhood remains separately supported by the maintained 1806 letter transcription and Joseph’s 1831 will. John of Peters Township remains a probable brother at 83%; Faris p.15 also reconstructs the four brothers from the 1779–1780 tax/probate cluster. These sibling arguments do not identify their father. The 1824 Samuel will has been read only through Faris’s excerpt, not its manuscript. The Irish Robert in that will/pedigree is not identified as the emigrant Robert born in 1749. All mothers, upstream ancestry, life dates and current attachments are preserved; no live WikiTree save or identity merge follows. Exact percentages are subjective pair-specific judgments, not measured frequencies or multiplied probabilities. Faris p.12 abstracts Samuel Glasgow of West Fallowfield, Chester County, Pennsylvania: will dated 17 May 1824 and proved 31 May 1824, daughter Margaret Ellen Glasgow, with the residue to sons of his brothers William, James and Robert in Ireland. This is a useful compatible identity lead for the already existing Samuel-1492 account, whose contributed Irish family has the same brother pattern, not a proved identification. The manuscript, daughter’s records and migration/estate continuity remain to be checked. No independent birth age is supplied. Keep the Irish brother Robert distinct from Robert-12; do not infer the American emigrants’ father from this will. Samuel-1492’s father probability remains 23%.",
+    "note": "The anonymous family recollection printed by Faris on p.9 explicitly gives James Glasgow, husband of Margaret Rutherford, four sons: William, Robert, James who settled near Moneymore, and Samuel who went to America, plus daughter Ellen. The letter-defined father is the family role represented by James-1025. These are specific named relationships, substantially stronger than the contributed-tree and locality summaries used by the earlier percentages. The same full-letter tradition was already read on 20 October; actual Faris pages now confirm its full structure. Its reproduction by Albert Rutherford and Faris’s pedigree are dependent presentations, not independent witnesses. Father James-1025, specifically the James/Margaret Rutherford family-account role: James-1024 18%→78%, Samuel-1492 23%→76%, Robert-2425 18%→77%, William-2426 46%→84%, all now probable. The American Robert-12/Arthur-649/Joseph-1543 father grades remain35%, John-4027 remains30%, Mary-4030 remains22%; James-1025’s own William-1026 father remains32%. These are probable, not confident, relationships reconstructed from an anonymous retrospective family recollection, with no newly inspected parent register. The original letter remains uninspected. Faris calls the anonymous recollection file5 within PRONI T1959, while Rutherford’s reproduced copy cites T1959/3; retain this reference discrepancy pending archive checking. The 1759 probate index says Drumcarn and names no kin; neither that testator nor the inherited life dates are identified by this reassessment. The letter calls William eldest although the imported sibling birth estimates put him later; those estimates remain unverified. Faris also flags Samuel’s infant daughter and surviving mother-in-law in1824 against the supposed early paternal death. Those tensions require testing, not automatic exclusion. Preserve all existing people, vital fields, maternal grades and alternatives. No Scottish migration, identity merge, live edit or new father attachment is claimed.",
     "profiles": {
       "Glasgow-1024": {
-        "role": "Possible father account, not proved parentage",
-        "identification_status": "uncertain",
-        "timeline_group": "Possible connections"
+        "role": "Letter-defined named son; probable father assessment",
+        "timeline_group": "Family recollection"
       },
       "Glasgow-12": {
         "role": "Emigrant family comparison; father hypothesis re-evaluated from actual book",
@@ -3877,28 +3876,40 @@
         "timeline_group": "Possible connections"
       },
       "Glasgow-1492": {
-        "role": "Compatible identity candidate; not established",
-        "identification_status": "uncertain",
-        "timeline_group": "Possible connections"
+        "role": "Letter-defined named son; probable father assessment",
+        "timeline_group": "Family recollection"
+      },
+      "Glasgow-2425": {
+        "role": "Letter-defined named son; probable father assessment",
+        "timeline_group": "Family recollection"
+      },
+      "Glasgow-2426": {
+        "role": "Letter-defined named son; probable father assessment",
+        "timeline_group": "Family recollection"
+      },
+      "Glasgow-1025": {
+        "role": "Letter-defined father James/MargaretRutherford family role",
+        "timeline_group": "Family recollection"
       }
     },
     "source_type": "Published compiled genealogy",
-    "source_quality": "Published secondary genealogy; author explicitly lacks emigrant parentage evidence",
+    "source_quality": "secondary",
     "source_status": "Published book pp.8–15 visually inspected 23 October 2026; cited original records not newly inspected",
-    "reviewed_on": "2026-10-23",
+    "reviewed_on": "2026-10-24",
     "year": null,
     "date_status": "undated",
     "historical_basis": {
-      "latest_birth_year": 1749,
-      "source_url": "https://www.familysearch.org/en/search/catalog/koha:646654",
-      "reason": "Catalogue identifies subject Robert1749–1839; inspected book discusses his family.1990 is publication year, not an event."
+      "latest_event_year": 1801,
+      "source_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS3J-H9VW-J",
+      "reason": "The inspected recollection identifies the writer’s minister father dyingJuly1801 and the preceding family generations; publication dates are not life events."
     },
-    "provenance": "research/Glasgow-1024/faris-1990-review-2026-10-23.md",
+    "provenance": "research/Glasgow-1025/irish-four-sons-2026-10-24.md",
     "publish_to_record_index": true,
     "country": "Ireland",
     "record_type": "Family history and parentage hypothesis",
     "record_category": "Other records",
-    "previous_catalogue_url": "https://search.worldcat.org/title/22731567"
+    "previous_catalogue_url": "https://search.worldcat.org/title/22731567",
+    "association": "James and Margaret Rutherford’s four Glasgow sons; named Irish family recollection"
   },
   {
     "record_id": "james-drumcarn-will-index-1759",
@@ -6185,12 +6196,12 @@
   {
     "record_id": "killycurragh-glasgow-family-letter-t1959-3",
     "record_type": "family_letter",
-    "date": "",
+    "date": "Undated Irish family recollection; historical family reviewed24October2026",
     "place": "Killycurragh, Derryloran, County Tyrone, Ireland",
-    "source_title": "PRONI T1959/3, anonymous family letter; Albert Rutherford transcription, read in browser 20 October 2026; original uninspected",
+    "source_title": "PRONI T1959 anonymous family recollection; Faris file5/Rutherford copy T1959/3 reference discrepancy retained",
     "source_url": "https://www.genealogy.com/forum/surnames/topics/rutherford/5445/",
     "source_type": "Derivative family-letter transcription",
-    "source_status": "Published transcription freshly read in browser 20 October 2026; earlier HTTP 403 resolved; original uninspected",
+    "source_status": "Published letter reproductions inspected20/23October; original letter uninspected; one source tradition",
     "profiles": {
       "record-william-glasgow-killycurragh-t1959": {
         "role": "Named paternal grandfather, Cunningham husband; distinct from his own father William",
@@ -6217,16 +6228,28 @@
         "timeline_group": "Possible connections"
       },
       "Glasgow-1025": {
-        "role": "James/Margaret Rutherford family-account comparison; no 1759 testator identification",
-        "timeline_group": "Possible connections"
+        "role": "Letter-defined father James/MargaretRutherford family role",
+        "timeline_group": "Family recollection"
       },
       "Glasgow-1026": {
         "role": "Irish father-role comparison only; the Kirknewton adult is not identified by this letter",
         "timeline_group": "Possible connections"
       },
       "Glasgow-2426": {
-        "role": "Probable maternal-grandfather account, whole daughter proposition 84%",
-        "timeline_group": "Possible connections"
+        "role": "Letter-defined named son; probable father assessment",
+        "timeline_group": "Family recollection"
+      },
+      "Glasgow-1024": {
+        "role": "Letter-defined named son; probable father assessment",
+        "timeline_group": "Family recollection"
+      },
+      "Glasgow-1492": {
+        "role": "Letter-defined named son; probable father assessment",
+        "timeline_group": "Family recollection"
+      },
+      "Glasgow-2425": {
+        "role": "Letter-defined named son; probable father assessment",
+        "timeline_group": "Family recollection"
       }
     },
     "notes": "The freshly read published transcription of PRONI T1959/3 distinguishes an older William of Killycurragh, the writer’s paternal great-grandfather, from his son William, the writer’s paternal grandfather and husband of Miss Cunningham. The younger William is the Cunningham husband, whose sons included James and Samuel. His son John married Margaret Glasgow after ordination at Coleraine and died at his father’s house in Orritor in July 1801. The surviving child, the anonymous writer, was born five months later; Margaret died in 1817. The separate church compilation identifies John Glasgow from Orritor, ordained at New Row, Coleraine, on 8 March 1796 and dead on 13 July 1801. The shared ministry, origin, name and death month strongly identify the husband. The writer separately describes Margaret’s father William as a son of James Glasgow and Margaret Rutherford; the two parental lines must not be collapsed into one grandfather. These are exact subjective assessments of complete relationship-and-identity propositions, not measured probabilities. The family letter is undated and unsigned and is read through Albert Rutherford’s published transcription of a photocopy, not an inspected PRONI original. The minister list is a derivative compilation whose independence from the family tradition is unproved. The Scottish adult identities remain possible: neither the letter nor the 1705 baptism supplies a migration, occupation, property or witness bridge between Kirknewton and Tyrone. The letter’s three-son family and second-cousin statement are internally consistent clues from one source, not independent corroborations. Existing people, vital fields and mothers are preserved. Miss Cunningham and Anne Rutherford are reported maternal names, not transferred to existing maternal profiles. The letter’s first-settler story is family tradition, not proof of the first Glasgow in Tyrone or of the surname’s origin.",
@@ -6238,7 +6261,23 @@
         "previous_notes": "The maintained reading of PRONI T1959/3 describes the writer’s paternal grandfather William Glasgow of Killycurragh and his wife, an unidentified Miss Cunningham of Omagh. Their sons included James and Samuel, who remained on the family farm; Samuel occupied the parental house. The writer’s father was the minister who died in July 1801. This is an undated, unsigned family recollection known through a published transcription, not an original newly inspected in this review. An earlier HTTP 403 check failed; the published transcription was subsequently read in the browser on 20 October 2026. The original letter remains uninspected. The percentages assess each entire father-to-profile proposition, including identification of the named son with the later profile; they are subjective comparative judgments, not measured frequencies. The original letter and holding succession remain unverified. Samuel’s circa-1800 birth is an estimate, and a materially older Samuel or a later same-name descendant is possible. His wife Anne’s approximate 1801 birth and their children in the 1820s–1830s do not date Samuel himself. A nephew or later tenant could share the name and townland. Do not transfer a recorded relationship to a later adult merely from the letter’s parent clause. William’s birth and death remain unknown. The letter names an older William as his father; the specific Kirknewton profile is a 36% possibility. His mother remains unidentified. Miss Cunningham is retained as William’s reported wife, without selecting her as either profile’s mother. No existing person is merged or redated, and no live WikiTree edit has been made.",
         "change": "Browser access succeeded; distinguish two Killycurragh William generations and both grandfathers."
       }
-    ]
+    ],
+    "reviewed_on": "2026-10-24",
+    "provenance": "research/Glasgow-1025/irish-four-sons-2026-10-24.md",
+    "publish_to_record_index": false,
+    "year": null,
+    "date_status": "undated",
+    "historical_basis": {
+      "latest_event_year": 1801,
+      "source_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS3J-H9VW-J",
+      "reason": "The inspected recollection identifies the writer’s minister father dyingJuly1801 and the preceding family generations; publication dates are not life events."
+    },
+    "note": "The anonymous family recollection printed by Faris on p.9 explicitly gives James Glasgow, husband of Margaret Rutherford, four sons: William, Robert, James who settled near Moneymore, and Samuel who went to America, plus daughter Ellen. The letter-defined father is the family role represented by James-1025. These are specific named relationships, substantially stronger than the contributed-tree and locality summaries used by the earlier percentages. The same full-letter tradition was already read on 20 October; actual Faris pages now confirm its full structure. Its reproduction by Albert Rutherford and Faris’s pedigree are dependent presentations, not independent witnesses. Father James-1025, specifically the James/Margaret Rutherford family-account role: James-1024 18%→78%, Samuel-1492 23%→76%, Robert-2425 18%→77%, William-2426 46%→84%, all now probable. The American Robert-12/Arthur-649/Joseph-1543 father grades remain35%, John-4027 remains30%, Mary-4030 remains22%; James-1025’s own William-1026 father remains32%. These are probable, not confident, relationships reconstructed from an anonymous retrospective family recollection, with no newly inspected parent register. The original letter remains uninspected. Faris calls the anonymous recollection file5 within PRONI T1959, while Rutherford’s reproduced copy cites T1959/3; retain this reference discrepancy pending archive checking. The 1759 probate index says Drumcarn and names no kin; neither that testator nor the inherited life dates are identified by this reassessment. The letter calls William eldest although the imported sibling birth estimates put him later; those estimates remain unverified. Faris also flags Samuel’s infant daughter and surviving mother-in-law in1824 against the supposed early paternal death. Those tensions require testing, not automatic exclusion. Preserve all existing people, vital fields, maternal grades and alternatives. No Scottish migration, identity merge, live edit or new father attachment is claimed.",
+    "association": "James and Margaret Rutherford’s four Glasgow sons; named Irish family recollection",
+    "source_quality": "secondary",
+    "country": "Ireland",
+    "status": "Four probable father roles in the named Irish family; original letter uninspected and adult-life identities qualified.",
+    "record_index_scope": "Retain the nine existing historical event rows using this letter URL; no new event row or consolidation. The canonical letter assessment and the inspected Faris source account carry the four current father roles."
   },
   {
     "record_id": "kirknewton-william-william-child-1705",
@@ -31026,13 +31065,21 @@
       },
       "Glasgow-45": {
         "role": "Unselected parent-search comparison; not named in the inspected estate"
+      },
+      "Glasgow-1492": {
+        "role": "Letter-defined emigrant Samuel: preferred Irish-family comparison, testator identity unresolved beside Samuel2872",
+        "identification_status": "uncertain",
+        "timeline_group": "Possible connections"
       }
     },
     "assessment": "**Original will, 23 October 2026:** Samuel Glasgow of West Fallowfield names wife **Tabitha**, infant daughter **Margaret Ellen**, and a contingent remainder to the **sons of his three brothers William, James and Robert Glasgow, of Ireland**. The three named men are the testator’s brothers; the beneficiaries are their sons. This is not a clause naming the testator’s own son James. The will is dated **17 May 1824**; the proving endorsement is **31 May 1824**. [County original](https://portal.laserfiche.com/Portal/DocView.aspx?id=773006&page=588&repo=r-24f48cc6), file 7520, scanned volume 07451–7600, portal pp. 588–589 (downloaded extract pp. 3–4). Cover is portal p. 586. Original pages were visually read; the brother clause was independently reread.\n\nThe will appoints Robert Futhey and Thomas Stewart executors; estate office does not establish kinship. It also names Samuel Glasgow Haslett, described as James Haslett’s infant twin son; no godparent relationship is stated. His Glasgow middle name does not make him a Glasgow son. Later accounts, portal pp. 594 and 596, name Benjamin Glasgow as a debtor and William Glasgow in transmitting another estate’s legacy, without stating their relationship to the testator.\n\n**Profile identity:** [Samuel Glasgow-2872](/people/glasgow-2872.html) remains a compatible candidate, not an established identification. His retained Cochranville locality and exact 17 May 1824 date fit this estate closely, but that date is the will date and may have been inherited as a death date. The will alone cannot prove death on that day. The profile’s Judith, who died in 1812, does not exclude a later Tabitha marriage. Its Pennsylvania birth/parent reconstruction and the brothers in Ireland need a combined family test rather than an automatic rejection or merge. No other local Tabitha or Margaret Ellen catalogue identity was found in the bounded duplicate check. The existing 72% father assessment and all family/vital fields are retained; this source does not name the testator’s father.\n\n**Missouri comparison:** [James Glasgow-45](/people/glasgow-45.html), the probable Downington-born drummer, is not named in the inspected will or later accounts. That absence does not establish that he was not a son, but neither the military entry nor this estate selects a named father. The new Ireland relatives supply a concrete family to investigate while the immigrant-father/Philadelphia-estate tradition remains unproved. The complete downloaded estate extract is retained privately; no manuscript image is republished.",
-    "provenance": "research/ancestry-connections/american-family-review-2026-10-23.json",
-    "reviewed_on": "2026-10-23",
+    "provenance": "research/Glasgow-1025/irish-four-sons-2026-10-24.md",
+    "reviewed_on": "2026-10-24",
     "year": 1824,
-    "country": "united states"
+    "country": "united states",
+    "publish_to_record_index": true,
+    "record_category": "Wills and probate",
+    "note": " Samuel-1492 is reviewed as the letter-defined emigrant son. The independently inspected 1824 West Fallowfield will names brothers William, James and Robert of Ireland, a distinctive match to that sibling set. This supports the family reconstruction while the testator’s profile identity remains open. Samuel-2872 is another compatible account, retained without merge or exclusion; its Pennsylvania birth and John/Mary Cranmer parentage need independent examination. The 76% is the complete father proposition for the letter-defined Samuel, not proof of his Gorteen identity or a new assessment of Samuel-2872. Original reading23October reused; no new inspection24October."
   },
   {
     "record_id": "york-gibson-hugh-glasgow-1886-p414",

@@ -56464,6 +56464,179 @@
         "research/Glasgow-1657/findings.md",
         "research/Glasgow-1780/findings.md"
       ]
+    },
+    {
+      "id": "irish-letter-four-fathers-20261024",
+      "found_on": "2026-10-24",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "The Irish family recollection supports four probable fathers: James18%→78%, Samuel23%→76%, Robert18%→77%, William46%→84%, all sons of James Glasgow and Margaret Rutherford.",
+      "qualification": "The anonymous family recollection printed by Faris on p.9 explicitly gives James Glasgow, husband of Margaret Rutherford, four sons: William, Robert, James who settled near Moneymore, and Samuel who went to America, plus daughter Ellen. The letter-defined father is the family role represented by James-1025. These are specific named relationships, substantially stronger than the contributed-tree and locality summaries used by the earlier percentages. The same full-letter tradition was already read on 20 October; actual Faris pages now confirm its full structure. Its reproduction by Albert Rutherford and Faris’s pedigree are dependent presentations, not independent witnesses. These are probable, not confident, relationships reconstructed from an anonymous retrospective family recollection, with no newly inspected parent register. The original letter remains uninspected. Faris calls the anonymous recollection file5 within PRONI T1959, while Rutherford’s reproduced copy cites T1959/3; retain this reference discrepancy pending archive checking. The 1759 probate index says Drumcarn and names no kin; neither that testator nor the inherited life dates are identified by this reassessment. The letter calls William eldest although the imported sibling birth estimates put him later; those estimates remain unverified. Faris also flags Samuel’s infant daughter and surviving mother-in-law in1824 against the supposed early paternal death. Those tensions require testing, not automatic exclusion. Preserve all existing people, vital fields, maternal grades and alternatives. No Scottish migration, identity merge, live edit or new father attachment is claimed. Existing father links reweighed; no new parent record, new attachment or American-family upgrade.",
+      "people": [
+        {
+          "id": "Glasgow-1024",
+          "name": "James Glasgow II",
+          "url": "/people/glasgow-1024.html",
+          "role": "Existing father reassessment"
+        },
+        {
+          "id": "Glasgow-1492",
+          "name": "Samuel Glasgow",
+          "url": "/people/glasgow-1492.html",
+          "role": "Existing father reassessment"
+        },
+        {
+          "id": "Glasgow-2425",
+          "name": "Robert Glasgow",
+          "url": "/people/glasgow-2425.html",
+          "role": "Existing father reassessment"
+        },
+        {
+          "id": "Glasgow-2426",
+          "name": "William Glasgow",
+          "url": "/people/glasgow-2426.html",
+          "role": "Existing father reassessment"
+        },
+        {
+          "id": "Glasgow-1025",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-1025.html",
+          "role": "Letter-defined father"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Faris pp8–9, anonymous family recollection",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS3J-H9VW-J"
+        },
+        {
+          "title": "Faris p12,Samuel correspondence and will",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS3J-H9VW-9"
+        },
+        {
+          "title": "Original estate7520, previously inspected",
+          "url": "https://portal.laserfiche.com/Portal/DocView.aspx?id=773006&page=588&repo=r-24f48cc6"
+        }
+      ],
+      "detail_url": "/branches/research-irish-moneymore/#irish-four-sons",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "Glasgow-1024",
+          "relative": "Glasgow-1025",
+          "before": "uncertain",
+          "after": "probable",
+          "previous_probability_percent": 18,
+          "probability_percent": 78,
+          "explanation": "James-1024 is reviewed as the letter-defined son who settled near Moneymore. The father James and son James occupy explicitly distinct generations in that account; the earlier possibility that these two family roles were one duplicated adult no longer deserves the same weight. The 78% assessment does not identify the son with the Corvanaghan householder or make him father of the American emigrant Robert.",
+          "previous_status_provenance": "Prior reviewed exact percentage and source basis retained in research/ancestry-connections/irish-letter-parents-2026-10-24.json"
+        },
+        {
+          "relationship": "father",
+          "subject": "Glasgow-1492",
+          "relative": "Glasgow-1025",
+          "before": "uncertain",
+          "after": "probable",
+          "previous_probability_percent": 23,
+          "probability_percent": 76,
+          "explanation": "Samuel-1492 is reviewed as the letter-defined emigrant son. The independently inspected 1824 West Fallowfield will names brothers William, James and Robert of Ireland, a distinctive match to that sibling set. This supports the family reconstruction while the testator’s profile identity remains open. Samuel-2872 is another compatible account, retained without merge or exclusion; its Pennsylvania birth and John/Mary Cranmer parentage need independent examination. The 76% is the complete father proposition for the letter-defined Samuel, not proof of his Gorteen identity or a new assessment of Samuel-2872.",
+          "previous_status_provenance": "Prior reviewed exact percentage and source basis retained in research/ancestry-connections/irish-letter-parents-2026-10-24.json"
+        },
+        {
+          "relationship": "father",
+          "subject": "Glasgow-2425",
+          "relative": "Glasgow-1025",
+          "before": "uncertain",
+          "after": "probable",
+          "previous_probability_percent": 18,
+          "probability_percent": 77,
+          "explanation": "Robert-2425 is the inherited James/Margaret Rutherford son account, matching the letter’s named Robert, himself described as a William Glasgow’s father. This specific position in the named sibling family supports 77%, while his adult life remains little anchored. His imported United States death location is not established by the letter or by the will’s Ireland designation.",
+          "previous_status_provenance": "Prior reviewed exact percentage and source basis retained in research/ancestry-connections/irish-letter-parents-2026-10-24.json"
+        },
+        {
+          "relationship": "father",
+          "subject": "Glasgow-2426",
+          "relative": "Glasgow-1025",
+          "before": "possible",
+          "after": "probable",
+          "previous_probability_percent": 46,
+          "probability_percent": 84,
+          "explanation": "William-2426 already represents the letter’s maternal-grandfather family role and is assessed as Margaret, wife of the Coleraine minister’s father at 84%. The same letter explicitly names his own father James and mother Margaret Rutherford. Reconcile this previously underused explicit relationship at 84%; do not transfer it to the distinct Cunningham husband or treat the imported circa1829 United States death as established.",
+          "previous_status_provenance": "Prior reviewed exact percentage and source basis retained in research/ancestry-connections/irish-letter-parents-2026-10-24.json"
+        }
+      ],
+      "provenance": [
+        "research/ancestry-connections/irish-letter-parents-2026-10-24.json",
+        "research/Glasgow-1025/irish-four-sons-2026-10-24.md"
+      ]
+    },
+    {
+      "id": "fmp-existing-john-accounts-reconciled-20261024",
+      "found_on": "2026-10-24",
+      "kind": "record",
+      "status": "confirmed",
+      "finding": "Two stale John Glasgow creation entries reconciled to existing profiles that already cite the same Findmypast records.",
+      "qualification": "The Edrom 1738 and Irvine 1741 source accounts duplicate John Glasgow-4132 and John Glasgow-4116 respectively. Exact provider IDs establish the catalogue mappings; the former accounts remain as superseded history. No new record, person, date, parent, relationship grade or live WikiTree amendment is claimed.",
+      "people": [
+        {
+          "id": "Glasgow-4132",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-4132.html",
+          "role": "Existing Edrom record subject"
+        },
+        {
+          "id": "Glasgow-4116",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-4116.html",
+          "role": "Existing Irvine record subject"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Retained Edrom transcript SCOT/OPR/BAP/4839748",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4839748"
+        },
+        {
+          "title": "Retained Irvine transcript SCOT/OPR/BAP/3575071",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3575071"
+        }
+      ],
+      "detail_url": "/branches/early-scottish-records/#chapter-findmypast-born-before-1800",
+      "provenance": [
+        "data/wikitree/catalogue-profile-links.json",
+        "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
+      ]
+    },
+    {
+      "id": "fmp-john-3314-date-conflict-20261024",
+      "found_on": "2026-10-24",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "An existing Irvine John Glasgow account has conflicting derivative dates: 28 March versus 20 April 1740 birth and 30 April baptism.",
+      "qualification": "The held WikiTree biography cites FamilySearch XTVL-9BN for 28 March; its exact event role has not been independently checked. The saved Findmypast OPR transcript explicitly labels birth 20 April and baptism 30 April, with George Glasgow/Margt Martin at Irvine. Retain the current 28 March birth and 84% father assessment pending original-register comparison; no transcription error, second child or vital correction is proved. The complete existing pending draft now explains the conflict. This is a newly recognised discrepancy in held evidence, not a new source discovery.",
+      "people": [
+        {
+          "id": "Glasgow-3314",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-3314.html",
+          "role": "Existing subject with unresolved derivative date conflict"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Findmypast OPR595/1 item1, record SCOT/OPR/BAP/3574953",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3574953"
+        },
+        {
+          "title": "Held FamilySearch citation XTVL-9BN; exact event role still to check",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:XTVL-9BN"
+        }
+      ],
+      "detail_url": "/people/glasgow-3314.html",
+      "provenance": [
+        "research/Glasgow-3314/findings.md",
+        "research/findmypast-glasgow-audit/record-details-remaining-b.json"
+      ]
     }
   ]
 }

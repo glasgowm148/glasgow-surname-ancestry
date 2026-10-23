@@ -4184,3 +4184,14 @@ Twenty provider transcripts are reviewed in fifteen documentary groups. Existing
 | [Samuel Glasgow](https://www.wikitree.com/wiki/Glasgow-1492) | OPEN | Add the qualified1824WestFallowfield will identity lead; father remains23%. |
 | [John Glasgow](https://www.wikitree.com/wiki/Glasgow-1657) | OPEN | Clarify Bannside/Drumack origins and the1858Crawford landlord trail; no parent confidence change. |
 | [James McClure Glasgow](https://www.wikitree.com/wiki/Glasgow-1780) | OPEN | Clarify Bannside/Drumack origins and the1858Crawford landlord trail; no parent confidence change. |
+
+### Irish letter four-son reassessment — 24 October 2026
+
+| Profile | Status | Amendment |
+| --- | --- | --- |
+| [James Glasgow II](https://www.wikitree.com/wiki/Glasgow-1024) | OPEN | Reconcile four probable Irish father roles with the explicit family letter; no American-emigrant or Scottish-parent upgrade. |
+| [Samuel Glasgow](https://www.wikitree.com/wiki/Glasgow-1492) | OPEN | Reconcile four probable Irish father roles with the explicit family letter; no American-emigrant or Scottish-parent upgrade. |
+| [Robert Glasgow](https://www.wikitree.com/wiki/Glasgow-2425) | OPEN | Reconcile four probable Irish father roles with the explicit family letter; no American-emigrant or Scottish-parent upgrade. |
+| [William Glasgow](https://www.wikitree.com/wiki/Glasgow-2426) | OPEN | Reconcile four probable Irish father roles with the explicit family letter; no American-emigrant or Scottish-parent upgrade. |
+| [James Glasgow](https://www.wikitree.com/wiki/Glasgow-1025) | OPEN | Reconcile four probable Irish father roles with the explicit family letter; no American-emigrant or Scottish-parent upgrade. |
+| [Samuel Glasgow](https://www.wikitree.com/wiki/Glasgow-2872) | OPEN | Retain rival Samuel identity and John father72%; add Irish-letter family comparison. |
