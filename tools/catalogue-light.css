@@ -292,7 +292,8 @@ html.catalogue-sheet-open{overflow:hidden}
 .catalogue-results-table td:not(.catalogue-parent-cell) .catalogue-parent{background:var(--catalogue-status-fill,#f0f1ed);padding:3px 5px;border-radius:3px}
 .catalogue-result-card .result-vitals .catalogue-status-cell{display:inline-block}
 .catalogue-relation-status{display:inline!important;font:500 10px/1.3 var(--g-sans,system-ui,sans-serif);color:#657066;white-space:normal}
-.catalogue-relation-status.confidence-confident{display:inline-flex!important;align-items:center;justify-content:center;width:15px;height:15px;background:#dcebd0;color:#315c38;border-radius:50%;font-size:12px;font-weight:700;vertical-align:baseline}
+/* Only the evidence icon is fixed-size; ratings stay in normal text flow. */
+.catalogue-relation-status.confidence-confident>.ev-label-link{display:inline-flex;align-items:center;justify-content:center;width:15px;height:15px;background:#dcebd0;color:#315c38;border-radius:50%;font-size:12px;font-weight:700;vertical-align:baseline}
 @media(forced-colors:active){.catalogue-results-table td:is(.catalogue-status-cell,.catalogue-parent-cell),.catalogue-result-card :is(.catalogue-status-cell,.catalogue-parent){background:Canvas}}
 
 /* Filtered people map: coordinates and precision come from maintained map assets. */
@@ -344,6 +345,6 @@ html.catalogue-sheet-open{overflow:hidden}
 /* Contain absolutely positioned accessibility text within the scrolling table. */
 .catalogue-result-table-wrap{position:relative}
 
-.catalogue-relationship-badge small{font:inherit;white-space:nowrap}.catalogue-probability{display:inline-block;font-size:.72rem;font-weight:700;white-space:nowrap}
+.catalogue-relationship-badge small{font:inherit;white-space:nowrap}.catalogue-probability{display:inline-block;max-width:100%;font-size:.72rem;font-weight:700;white-space:normal;overflow-wrap:anywhere}
 
 .catalogue-father-work{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 18px;margin:10px 0 16px;padding:12px 14px;border:1px solid #b9cbb9;border-left:4px solid #175c3a;border-radius:6px;background:#f2f6ed;color:#203e2e;font-size:.8rem;line-height:1.5}.catalogue-father-work strong{flex-basis:100%}.catalogue-father-work a{color:#175c3a;text-decoration:underline;text-underline-offset:2px}.catalogue-father-work a:hover,.catalogue-father-work a:focus-visible{color:#102c20;text-decoration-thickness:2px}
