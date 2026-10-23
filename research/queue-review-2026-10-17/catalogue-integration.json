@@ -40544,6 +40544,36 @@
       "post_merge_replacements": [],
       "addition_wikitext": "",
       "preservation_review_path": "research/ancestry-connections/ohio-john-origin-preservation-2026-10-23.json"
+    },
+    "Glasgow-958": {
+      "profile_id": "Glasgow-958",
+      "status": "OPEN",
+      "pending": true,
+      "queued_at": "2026-10-23",
+      "biography_rechecked_at": "2026-10-23",
+      "draft_path": "research/Glasgow-958/stamford-father-2026-10-23.wiki",
+      "findings_path": "research/Glasgow-958/findings.md",
+      "summary": "New confident father95%: Rev. Samuel of Stamford, a source-defined identity on HOLD pending profile comparison; no new record claimed.",
+      "work_queue_summary": "Connect the documented Rev. Samuel father after identity resolution; 95% family role, no preferred numbered profile.",
+      "relationship_changes": [
+        {
+          "action": "add",
+          "relationship": "father",
+          "relative_id": "record-rev-samuel-stamford",
+          "relative_name": "Rev. Samuel Glasgow of Stamford",
+          "relative_url": "/people/record-rev-samuel-stamford.html",
+          "status": "strongly_supported",
+          "probability_percent": 95,
+          "assertion_id": "C-stamford-william-samuel-20261023",
+          "previous_status": "unknown",
+          "previous_probability_percent": null,
+          "previous_status_provenance": "Saved public dossier Glasgow-958 has no father relationship; captured structured Father is blank. Its existing biography already names Rev. Samuel, so this is a newly selected structured father connection from a checked existing source, not a newly discovered family-book passage.",
+          "scope": "95% concerns William’s father as the Samuel named in this specific family account. It does not identify the minister with an existing numbered Samuel profile, validate the reported ministry/Irish migration from independent records, or prove the city-name and Douglas romance printed beside it. The compatible Niagara farmer in LAC MG24-I39 is an unselected identity comparison: the eight-page transcripts and the underlying war-loss claim were not inspected. Samuel’s wife and parents remain unknown. No live WikiTree save or new profile creation."
+        }
+      ],
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "preservation_review_path": "research/ancestry-connections/stamford-father-review-2026-10-23.json"
     }
   },
   "reviewed_on": "2026-10-22",
@@ -43988,6 +44018,76 @@
           "source_ids": [
             "miami-valley-ss-glasgow-family-1919"
           ]
+        }
+      ]
+    },
+    {
+      "subject_id": "rev-samuel-stamford",
+      "catalogue_id": "record-rev-samuel-stamford",
+      "name": "Rev. Samuel Glasgow of Stamford",
+      "source_subject_url": "https://archive.org/details/historyofcountyo00murp/page/n573/mode/1up",
+      "research_subject_url": "/people/record-rev-samuel-stamford.html",
+      "draft_path": "surname-research/new-people/1812_Canada_Stamford_Samuel_Glasgow.md",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n{{Scotland Sticker}}\n{{Estimated Date}}\n== Biography ==\n\nSamuel Glasgow was described as the paternal grandfather of [[Glasgow-959|Dr Sinclair Holden Glasgow]] in the 1887 Welland county history. Sinclair’s father was [[Glasgow-958|William Glasgow]], a Stamford farmer and justice of the peace, then aged 61, whose wife was Mary Elizabeth Lundy. This identifies Samuel as William’s father.<ref name=\"Welland 1887\">''The History of the County of Welland, Ontario'' (Welland: Welland Tribune, 1887), p.559, Sinclair Holden Glasgow family account; [https://archive.org/details/historyofcountyo00murp/page/n573/mode/1up original scan, IA leaf 573].</ref>\n\nThe same account calls Samuel a native of Scotland, says he moved at an early age to County Tyrone, was educated for the ministry at Belfast and ordained by that presbytery, and settled in Stamford before the War of 1812.<ref name=\"Welland 1887\" /> Those details remain the county history’s retrospective account; no ordination or migration record has yet been inspected. His exact birth and death dates are unknown.\n\n== Research Notes ==\n\nThe father relationship to William is assessed as 95% confident. Samuel’s identity among existing profiles remains unresolved; this is one consolidated evidence account, not authority to create a duplicate or merge people. His wife and parents have not been identified. Scotland is the reported birthplace; Stamford is only a tentative death-place suggestion from his last reported settlement and son’s residence, not a documented death.\n\nLibrary and Archives Canada describes receipts, accounts and notes of Samuel Glasgow, a Niagara farmer beside the Chippawa River, militia soldier and prisoner in the War of 1812, who died about 1830. This is a compatible geographical and chronological comparison, not an established identification of the minister. Farming does not itself exclude ministry. The eight-page transcript collection remains uninspected.<ref>Library and Archives Canada, Samuel Glasgow fonds, R6229-0-0-E, formerly MG24-I39, item 98738; catalogue description only, [https://recherche-collection-search.bac-lac.gc.ca/eng/home/record?IdNumber=98738&app=fonandcol archive catalogue].</ref>\n\nThe county history’s claim that Glasgow city was named after this family and its Douglas romance are unsupported ancestral traditions and do not establish Samuel’s ancestry.\n\n== Sources ==\n<references />\n",
+      "assessment": "The visually checked 1887 Welland history, printed p.559 (IA leaf 573), identifies Sinclair Holden Glasgow as William’s son, names William’s wife Mary Elizabeth Lundy, describes William’s Stamford farm, Norfolk interval and justice-of-the-peace office, and explicitly calls Rev. Samuel Glasgow Sinclair’s paternal grandfather. These linked family details identify the William represented by Glasgow-958 and support Samuel as his father. William was reported alive, aged 61, when the account appeared. 95% concerns William’s father as the Samuel named in this specific family account. It does not identify the minister with an existing numbered Samuel profile, validate the reported ministry/Irish migration from independent records, or prove the city-name and Douglas romance printed beside it. The compatible Niagara farmer in LAC MG24-I39 is an unselected identity comparison: the eight-page transcripts and the underlying war-loss claim were not inspected. Samuel’s wife and parents remain unknown. No live WikiTree save or new profile creation.",
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-10-23",
+      "first_names": [
+        "Samuel"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "Male",
+      "birth": "before 1812",
+      "birth_note": "Only a conservative boundary from the reported pre 1812 settlement; no age or birth year is recorded.",
+      "death": "",
+      "birth_location": "Scotland",
+      "death_location": "Stamford Township, Upper Canada (uncertain)",
+      "historical_basis": {
+        "latest_birth_year": 1812,
+        "source_url": "https://archive.org/details/historyofcountyo00murp/page/n573/mode/1up"
+      },
+      "candidates": [
+        {
+          "profile_id": "Glasgow-3752",
+          "name": "Samuel Glasgow, Abbeville census householder",
+          "url": "https://www.wikitree.com/wiki/Glasgow-3752",
+          "status": "compatible_candidate",
+          "reason": "Born 1775–1794 and in Abbeville, South Carolina, in 1820. A missing later account is not an exclusion; no positive Stamford/ministry bridge is held. Movements would need explanation."
+        },
+        {
+          "profile_id": "Glasgow-1133",
+          "name": "Samuel Glasgow, Jameson family father",
+          "url": "https://www.wikitree.com/wiki/Glasgow-1133",
+          "status": "weaker_candidate",
+          "reason": "Sparse c 1745 estimate and Jameson family citation do not establish the minister. Fatherhood of William c 1826 would be unusually late on that estimate; neither the estimate nor a Canadian continuation is proved."
+        },
+        {
+          "profile_id": "Glasgow-1492",
+          "name": "Samuel Glasgow, possible 1766 Ulster householder",
+          "url": "https://www.wikitree.com/wiki/Glasgow-1492",
+          "status": "weaker_candidate",
+          "reason": "The c 1726–1824 dates are explicitly family-tree estimates and the two 1766 parish occurrences are not securely one man. The dates make William’s fatherhood implausible, but the underlying minister identity remains unbridged rather than conclusively excluded."
+        }
+      ],
+      "records": [
+        {
+          "year": "1887",
+          "filter_year": 1887,
+          "family_group": "Stamford Samuel and William Glasgow",
+          "region": "Ontario, Canada",
+          "record_location": "Stamford Township, Upper Canada",
+          "association": "Retrospective 1887 account: Rev. Samuel, reported settler before 1812, is the father of William and paternal grandfather of Sinclair Holden Glasgow.",
+          "note": "95% concerns William’s father as the Samuel named in this specific family account. It does not identify the minister with an existing numbered Samuel profile, validate the reported ministry/Irish migration from independent records, or prove the city-name and Douglas romance printed beside it. The compatible Niagara farmer in LAC MG24-I39 is an unselected identity comparison: the eight-page transcripts and the underlying war-loss claim were not inspected. Samuel’s wife and parents remain unknown. No live WikiTree save or new profile creation.",
+          "source_title": "Welland county history 1887, printedp.559/IAleaf 573",
+          "source_url": "https://archive.org/details/historyofcountyo00murp/page/n573/mode/1up",
+          "source_type": "Retrospective county family history",
+          "source_status": "Printed original page visually checked23 October 2026; historical dates reported retrospectively.",
+          "evidence": "Explicit three-generation family account; numbered profile identity unresolved.",
+          "record_precision": "Reported settlement before 1812; 1887 publication",
+          "location_basis": "Stamford settlement, not a birth or death record."
         }
       ]
     }

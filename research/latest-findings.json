@@ -55241,6 +55241,60 @@
           ]
         }
       ]
+    },
+    {
+      "id": "stamford-william-samuel-father-20261023",
+      "found_on": "2026-10-23",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "William Glasgow of Stamford gains a source-defined father at95%: Rev. Samuel Glasgow, reported Scottish-born minister via Tyrone and Belfast. The exact 1887 family account links William, Mary Elizabeth Lundy and Sinclair Holden Glasgow.",
+      "qualification": "New selected tree attachment from a visually verified source already cited in the biography; not a newly discovered book passage. No existing numbered Samuel identity is selected. A compatible Niagara farmer in LAC MG24-I39 remains an unselected comparison; no wife or earlier parent assigned.",
+      "people": [
+        {
+          "id": "Glasgow-958",
+          "name": "William Glasgow",
+          "url": "/people/glasgow-958.html",
+          "role": "New selected father link95%"
+        },
+        {
+          "id": "record-rev-samuel-stamford",
+          "name": "Rev. Samuel Glasgow of Stamford",
+          "url": "/people/record-rev-samuel-stamford.html",
+          "role": "Source-defined father; identity HOLD"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Welland county history 1887, printedp.559/IAleaf 573",
+          "url": "https://archive.org/details/historyofcountyo00murp/page/n573/mode/1up"
+        },
+        {
+          "title": "LAC Samuel Glasgow fonds, MG24-I39; catalogue only",
+          "url": "https://recherche-collection-search.bac-lac.gc.ca/eng/home/record?IdNumber=98738&app=fonandcol"
+        }
+      ],
+      "detail_url": "/people/glasgow-958.html",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "Glasgow-958",
+          "relative": "record-rev-samuel-stamford",
+          "subject_id": "Glasgow-958",
+          "relative_id": "record-rev-samuel-stamford",
+          "before": "unknown",
+          "after": "certain",
+          "after_percent": 95,
+          "assessment_after": "strongly_supported",
+          "assertion_id": "C-stamford-william-samuel-20261023",
+          "explanation": "The visually checked 1887 Welland history, printed p.559 (IA leaf 573), identifies Sinclair Holden Glasgow as William’s son, names William’s wife Mary Elizabeth Lundy, describes William’s Stamford farm, Norfolk interval and justice-of-the-peace office, and explicitly calls Rev. Samuel Glasgow Sinclair’s paternal grandfather. These linked family details identify the William represented by Glasgow-958 and support Samuel as his father. William was reported alive, aged 61, when the account appeared.",
+          "previous_status_provenance": "Saved public dossier Glasgow-958 has no father relationship; captured structured Father is blank. Its existing biography already names Rev. Samuel, so this is a newly selected structured father connection from a checked existing source, not a newly discovered family-book passage."
+        }
+      ],
+      "provenance": [
+        "research/Glasgow-958/findings.md",
+        "surname-research/new-people/1812_Canada_Stamford_Samuel_Glasgow.md",
+        "research/relationship_assessments.json"
+      ]
     }
   ]
 }

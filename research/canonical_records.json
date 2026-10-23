@@ -34936,5 +34936,66 @@
     "provenance": "research/findmypast-glasgow-audit/record-details-remaining-b.json#/records/SCOT~1OPR~1BAP~10627016; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
     "reviewed_on": "2026-10-23",
     "publish_to_record_index": true
+  },
+  {
+    "record_id": "held-welland-1887-sinclair-family",
+    "date": "1887",
+    "year": 1887,
+    "place": "Stamford Township, Welland, Ontario, Canada",
+    "country": "Canada",
+    "region": "Ontario",
+    "source_title": "The History of the County of Welland, Ontario (1887), p.559",
+    "source_url": "https://archive.org/details/historyofcountyo00murp/page/n573/mode/1up",
+    "source_type": "late_compiled_history",
+    "source_status": "Original printed page visually inspected23 October 2026; retrospective family account",
+    "reviewed": "2026-10-23",
+    "assessment": "The visually checked 1887 Welland history, printed p.559 (IA leaf 573), identifies Sinclair Holden Glasgow as William’s son, names William’s wife Mary Elizabeth Lundy, describes William’s Stamford farm, Norfolk interval and justice-of-the-peace office, and explicitly calls Rev. Samuel Glasgow Sinclair’s paternal grandfather. These linked family details identify the William represented by Glasgow-958 and support Samuel as his father. William was reported alive, aged 61, when the account appeared. 95% concerns William’s father as the Samuel named in this specific family account. It does not identify the minister with an existing numbered Samuel profile, validate the reported ministry/Irish migration from independent records, or prove the city-name and Douglas romance printed beside it. The compatible Niagara farmer in LAC MG24-I39 is an unselected identity comparison: the eight-page transcripts and the underlying war-loss claim were not inspected. Samuel’s wife and parents remain unknown. No live WikiTree save or new profile creation.",
+    "profiles": {
+      "Glasgow-958": {
+        "role": "William, father of Sinclair and son of Rev. Samuel; 95% father assessment."
+      },
+      "Glasgow-959": {
+        "role": "Sinclair Holden, biographical subject; exact William/Mary Elizabeth Lundy household."
+      },
+      "record-rev-samuel-stamford": {
+        "role": "Named paternal grandfather of Sinclair; source-defined father of William, 95%."
+      }
+    },
+    "provenance": "research/ancestry-connections/stamford-father-review-2026-10-23.json",
+    "reviewed_on": "2026-10-23",
+    "status": "The visually checked 1887 Welland history, printed p.559 (IA leaf 573), identifies Sinclair Holden Glasgow as William’s son, names William’s wife Mary Elizabeth Lundy, describes William’s Stamford farm, Norfolk interval and justice-of-the-peace office, and explicitly calls Rev. Samuel Glasgow Sinclair’s paternal grandfather. These linked family details identify the William represented by Glasgow-958 and support Samuel as his father. William was reported alive, aged 61, when the account appeared. 95% concerns William’s father as the Samuel named in this specific family account. It does not identify the minister with an existing numbered Samuel profile, validate the reported ministry/Irish migration from independent records, or prove the city-name and Douglas romance printed beside it. The compatible Niagara farmer in LAC MG24-I39 is an unselected identity comparison: the eight-page transcripts and the underlying war-loss claim were not inspected. Samuel’s wife and parents remain unknown. No live WikiTree save or new profile creation.",
+    "note": "The visually checked 1887 Welland history, printed p.559 (IA leaf 573), identifies Sinclair Holden Glasgow as William’s son, names William’s wife Mary Elizabeth Lundy, describes William’s Stamford farm, Norfolk interval and justice-of-the-peace office, and explicitly calls Rev. Samuel Glasgow Sinclair’s paternal grandfather. These linked family details identify the William represented by Glasgow-958 and support Samuel as his father. William was reported alive, aged 61, when the account appeared. 95% concerns William’s father as the Samuel named in this specific family account. It does not identify the minister with an existing numbered Samuel profile, validate the reported ministry/Irish migration from independent records, or prove the city-name and Douglas romance printed beside it. The compatible Niagara farmer in LAC MG24-I39 is an unselected identity comparison: the eight-page transcripts and the underlying war-loss claim were not inspected. Samuel’s wife and parents remain unknown. No live WikiTree save or new profile creation.",
+    "publish_to_record_index": true,
+    "source_quality": "late_compiled_history",
+    "source_classification": "late_compiled_history",
+    "record_type": "Printed family history",
+    "association": "William and Rev. Samuel Glasgow in Sinclair Holden Glasgow’s Stamford family account"
+  },
+  {
+    "record_id": "lac-samuel-glasgow-fonds-mg24-i39",
+    "date": "1821–1835 (catalogue subject range)",
+    "year": 1835,
+    "place": "Niagara / Chippawa River, Upper Canada",
+    "country": "Canada",
+    "region": "Ontario",
+    "source_title": "Library and Archives Canada, Samuel Glasgow fonds, R6229-0-0-E (MG24-I39), item 98738",
+    "source_url": "https://recherche-collection-search.bac-lac.gc.ca/eng/home/record?IdNumber=98738&app=fonandcol",
+    "source_type": "archive_catalogue",
+    "source_status": "Archive catalogue description checked; 8 pp transcripts not inspected",
+    "reviewed": "2026-10-23",
+    "assessment": "Compatible unselected comparison for the Stamford minister: the catalogue describes a Niagara farmer and1812 militia prisoner, diedc 1830. No inspected kin or ministry bridge.",
+    "profiles": {
+      "record-rev-samuel-stamford": {
+        "role": "Compatible candidate identity only; not an established identification of the minister."
+      }
+    },
+    "reviewed_on": "2026-10-23",
+    "provenance": "research/ancestry-connections/stamford-father-review-2026-10-23.json",
+    "status": "Compatible unselected comparison for the Stamford minister: the catalogue describes a Niagara farmer and1812 militia prisoner, diedc 1830. No inspected kin or ministry bridge.",
+    "note": "Archive catalogue only; do not attribute the approximate death or family to Rev. Samuel without a named-person bridge.",
+    "publish_to_record_index": true,
+    "source_quality": "archive_catalogue",
+    "record_type": "Archive catalogue description",
+    "association": "Samuel Glasgow of Niagara:unselected identity comparison with the Stamford minister"
   }
 ]

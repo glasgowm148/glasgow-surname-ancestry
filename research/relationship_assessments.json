@@ -107344,5 +107344,64 @@
       "review": "research/ancestry-connections/glenleslie-original-review-2026-10-23.json"
     },
     "reason": "The pre-review WikiTree-derived account attached Unknown Glasgow-3905 as an uncertain father. It supplied no named-parent record identifying Robert’s father. The original placeholder and its prior grade remain inspectable while John-1022 is selected as a possible local hypothesis."
+  },
+  {
+    "assertion_id": "C-stamford-william-samuel-20261023",
+    "people": [
+      "Glasgow-958",
+      "record-rev-samuel-stamford"
+    ],
+    "profile_names": {
+      "Glasgow-958": "William Glasgow",
+      "record-rev-samuel-stamford": "Rev. Samuel Glasgow of Stamford"
+    },
+    "profile_urls": {
+      "record-rev-samuel-stamford": {
+        "url": "/people/record-rev-samuel-stamford.html"
+      }
+    },
+    "status": "strongly_supported",
+    "working_selection": true,
+    "allow_new_relationship": true,
+    "publication_status": "approved",
+    "assessment_date": "2026-10-23",
+    "evidence_grade": "Confident father from explicit family account and exact child household",
+    "basis": "The visually checked 1887 Welland history, printed p.559 (IA leaf 573), identifies Sinclair Holden Glasgow as William’s son, names William’s wife Mary Elizabeth Lundy, describes William’s Stamford farm, Norfolk interval and justice-of-the-peace office, and explicitly calls Rev. Samuel Glasgow Sinclair’s paternal grandfather. These linked family details identify the William represented by Glasgow-958 and support Samuel as his father. William was reported alive, aged 61, when the account appeared.",
+    "limitations": "95% concerns William’s father as the Samuel named in this specific family account. It does not identify the minister with an existing numbered Samuel profile, validate the reported ministry/Irish migration from independent records, or prove the city-name and Douglas romance printed beside it. The compatible Niagara farmer in LAC MG24-I39 is an unselected identity comparison: the eight-page transcripts and the underlying war-loss claim were not inspected. Samuel’s wife and parents remain unknown. No live WikiTree save or new profile creation.",
+    "source_ids": [
+      "held-welland-1887-sinclair-family"
+    ],
+    "perspectives": {
+      "Glasgow-958": {
+        "relationship": "father",
+        "status_label": "Confident father95%; source-defined identity",
+        "reason": "The visually checked 1887 Welland history, printed p.559 (IA leaf 573), identifies Sinclair Holden Glasgow as William’s son, names William’s wife Mary Elizabeth Lundy, describes William’s Stamford farm, Norfolk interval and justice-of-the-peace office, and explicitly calls Rev. Samuel Glasgow Sinclair’s paternal grandfather. These linked family details identify the William represented by Glasgow-958 and support Samuel as his father. William was reported alive, aged 61, when the account appeared. 95% concerns William’s father as the Samuel named in this specific family account. It does not identify the minister with an existing numbered Samuel profile, validate the reported ministry/Irish migration from independent records, or prove the city-name and Douglas romance printed beside it. The compatible Niagara farmer in LAC MG24-I39 is an unselected identity comparison: the eight-page transcripts and the underlying war-loss claim were not inspected. Samuel’s wife and parents remain unknown. No live WikiTree save or new profile creation."
+      },
+      "record-rev-samuel-stamford": {
+        "relationship": "son",
+        "status_label": "Confident son95%",
+        "reason": "The visually checked 1887 Welland history, printed p.559 (IA leaf 573), identifies Sinclair Holden Glasgow as William’s son, names William’s wife Mary Elizabeth Lundy, describes William’s Stamford farm, Norfolk interval and justice-of-the-peace office, and explicitly calls Rev. Samuel Glasgow Sinclair’s paternal grandfather. These linked family details identify the William represented by Glasgow-958 and support Samuel as his father. William was reported alive, aged 61, when the account appeared."
+      }
+    },
+    "probability": {
+      "value": 0.95,
+      "reviewed": "2026-10-23",
+      "method": "Subjective evidence assessment; not a calibrated statistical result",
+      "scope": "95% concerns William’s father as the Samuel named in this specific family account. It does not identify the minister with an existing numbered Samuel profile, validate the reported ministry/Irish migration from independent records, or prove the city-name and Douglas romance printed beside it. The compatible Niagara farmer in LAC MG24-I39 is an unselected identity comparison: the eight-page transcripts and the underlying war-loss claim were not inspected. Samuel’s wife and parents remain unknown. No live WikiTree save or new profile creation."
+    },
+    "provenance": {
+      "prior_assessment": {
+        "status": "unknown",
+        "probability_percent": null,
+        "working_selection": false,
+        "source_basis": "Saved public dossier Glasgow-958 has no father relationship; captured structured Father is blank. Its existing biography already names Rev. Samuel, so this is a newly selected structured father connection from a checked existing source, not a newly discovered family-book passage.",
+        "reviewed": "2026-10-23"
+      },
+      "new_father_attachment": true,
+      "new_father_attachment_reviewed": "2026-10-23",
+      "source_inspection": "Printed original page visually checked; existing biography citation retained"
+    },
+    "research_state": "awaiting_source",
+    "next_test": "Read MG24-I39 for kin/holding; inspect Belfast ordination and William land succession."
   }
 ]

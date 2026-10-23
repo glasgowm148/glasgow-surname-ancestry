@@ -1,0 +1,106 @@
+{
+  "reviewed": "2026-10-23",
+  "child": "Glasgow-958",
+  "father": "record-rev-samuel-stamford",
+  "assertion_id": "C-stamford-william-samuel-20261023",
+  "before": {
+    "status": "unknown",
+    "probability_percent": null,
+    "working_selection": false,
+    "source_basis": "Saved public dossier Glasgow-958 has no father relationship; captured structured Father is blank. Its existing biography already names Rev. Samuel, so this is a newly selected structured father connection from a checked existing source, not a newly discovered family-book passage.",
+    "reviewed": "2026-10-23"
+  },
+  "after_percent": 95,
+  "basis": "The visually checked 1887 Welland history, printed p.559 (IA leaf 573), identifies Sinclair Holden Glasgow as William’s son, names William’s wife Mary Elizabeth Lundy, describes William’s Stamford farm, Norfolk interval and justice-of-the-peace office, and explicitly calls Rev. Samuel Glasgow Sinclair’s paternal grandfather. These linked family details identify the William represented by Glasgow-958 and support Samuel as his father. William was reported alive, aged 61, when the account appeared.",
+  "limitations": "95% concerns William’s father as the Samuel named in this specific family account. It does not identify the minister with an existing numbered Samuel profile, validate the reported ministry/Irish migration from independent records, or prove the city-name and Douglas romance printed beside it. The compatible Niagara farmer in LAC MG24-I39 is an unselected identity comparison: the eight-page transcripts and the underlying war-loss claim were not inspected. Samuel’s wife and parents remain unknown. No live WikiTree save or new profile creation.",
+  "source_ids": [
+    "held-welland-1887-sinclair-family",
+    "lac-samuel-glasgow-fonds-mg24-i39"
+  ],
+  "compatible_candidates": [
+    {
+      "profile_id": "Glasgow-3752",
+      "name": "Samuel Glasgow, Abbeville census householder",
+      "url": "https://www.wikitree.com/wiki/Glasgow-3752",
+      "status": "compatible_candidate",
+      "reason": "Born 1775–1794 and in Abbeville, South Carolina, in 1820. A missing later account is not an exclusion; no positive Stamford/ministry bridge is held. Movements would need explanation."
+    },
+    {
+      "profile_id": "Glasgow-1133",
+      "name": "Samuel Glasgow, Jameson family father",
+      "url": "https://www.wikitree.com/wiki/Glasgow-1133",
+      "status": "weaker_candidate",
+      "reason": "Sparse c 1745 estimate and Jameson family citation do not establish the minister. Fatherhood of William c 1826 would be unusually late on that estimate; neither the estimate nor a Canadian continuation is proved."
+    },
+    {
+      "profile_id": "Glasgow-1492",
+      "name": "Samuel Glasgow, possible 1766 Ulster householder",
+      "url": "https://www.wikitree.com/wiki/Glasgow-1492",
+      "status": "weaker_candidate",
+      "reason": "The c 1726–1824 dates are explicitly family-tree estimates and the two 1766 parish occurrences are not securely one man. The dates make William’s fatherhood implausible, but the underlying minister identity remains unbridged rather than conclusively excluded."
+    }
+  ],
+  "other_comparisons": [
+    {
+      "profile_id": "Glasgow-3063",
+      "assessment": "Recorded Govan burial 7 December 1818 precedes William’s c 1826 birth."
+    },
+    {
+      "profile_id": "Glasgow-3175",
+      "assessment": "Recorded Pennsylvania death 1801 precedes William’s birth."
+    },
+    {
+      "profile_id": "Glasgow-2872",
+      "assessment": "Retained Pennsylvania death 17 May 1824 precedes William’s c 1826 birth; the estate attribution has its own limits."
+    },
+    {
+      "profile_id": "Glasgow-1984",
+      "assessment": "Huntingdon 1829 death is chronologically possible, but the contributed Antis/Pennsylvania birth conflicts with the Scotland-native account; retain as weak, unselected comparison if that birthplace changes."
+    },
+    {
+      "profile_id": "Glasgow-2908",
+      "assessment": "Lisnagaver farming family continuing to 1875 has no positive Stamford or ministry link; a same-name profile alone is insufficient."
+    },
+    {
+      "profile_id": "Glasgow-2054",
+      "assessment": "Gortin/Cookstown family continuing to 1865 has no positive Stamford or ministry link; Irish birth conflicts with the reported Scottish nativity."
+    },
+    {
+      "profile_id": "Glasgow-611",
+      "assessment": "Maryland 1777 and documented Ohio/Iowa family are distinct from the reported Scottish minister; existing father 1133 remains independently assessed."
+    }
+  ],
+  "verification": {
+    "all_historical_father_fields_checked": 1798,
+    "three_tree_models_agree": true,
+    "new_father_attachment95": true,
+    "one_unknown_resolved": true,
+    "denominator_unchanged": true,
+    "existing_branch_component_count_unchanged": true,
+    "all_other_father_fields_unchanged": true,
+    "existing_vitals_unchanged": true,
+    "source_and_captured_passages_preserved": true,
+    "full_compact_update_membership_agrees": true,
+    "held_identity_not_ready_to_create": true,
+    "individual_progress_event_verified": true,
+    "publication_new_failures": 0,
+    "link_new_failures": 0,
+    "http_routes_checked": 10,
+    "browser_verified": false,
+    "stale_asset_references": 0,
+    "inherited_whitespace_baseline": {
+      "path": "research/Glasgow-958/stamford-father-2026-10-23.wiki",
+      "line": 5,
+      "reason": "One trailing space on the unchanged captured opening paragraph retained verbatim; no substantive or source-text loss."
+    }
+  },
+  "profiles": {
+    "Glasgow-958": {
+      "current_sha256": "6c118f4138e383b3407c129bc799164599f2c62da9c83f6687e4983d451fac6b",
+      "proposed_sha256": "368cdfcea4998e9f504352eb09390c649845d9ba0d4ce939fa910f2a709e3000",
+      "all_substantive_passages_accounted_for": true,
+      "draft_path": "research/Glasgow-958/stamford-father-2026-10-23.wiki",
+      "retained": "Every non-category captured line and distinct source retained verbatim; source-defined father note added; no prior pending amendment."
+    }
+  }
+}

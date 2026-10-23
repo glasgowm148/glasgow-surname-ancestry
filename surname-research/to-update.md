@@ -4118,3 +4118,10 @@ Twenty provider transcripts are reviewed in fifteen documentary groups. Existing
 | Profile | Status | Amendment |
 | --- | --- | --- |
 | [Anna Glasgow](https://www.wikitree.com/wiki/Glasgow-3005) | OPEN | Add the checked Paterson p.252 passage and exact Hugh Allan marriage identification. Local father confidence58% → 95% agrees with the captured confident mark; no parent or certainty amendment remains. Complete sourced draft; no live save. |
+
+### Stamford documented father —23 October2026
+
+| Profile | Status | Amendment |
+| --- | --- | --- |
+| [William Glasgow](https://www.wikitree.com/wiki/Glasgow-958) | OPEN | Connect source-defined Rev. Samuel at95% after identity resolution; no numbered father selected. Complete sourced draft. |
+| [Rev. Samuel evidence draft](/people/record-rev-samuel-stamford.html) | HOLD | Consolidated father account; compare Niagara MG24-I39 and surviving profile candidates before creation. |
