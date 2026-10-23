@@ -56,7 +56,7 @@ def explicit_role(role, kind):
         return False
     if kind == 'father':
         return bool(re.match(r'(?:(?:recorded|named|indexed) )?father(?=$|[ ,:])', role))
-    return bool(re.match(r'(?:(?:recorded|named|indexed) )?child\b|(?:birth and )?baptism subject\b|subject:.*\bchild\b', role))
+    return bool(re.match(r'(?:(?:recorded|named|indexed) )?(?:child|son|daughter)\b|(?:birth and )?baptism subject\b|subject:.*\bchild\b', role))
 
 
 

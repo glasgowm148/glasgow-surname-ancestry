@@ -33,6 +33,9 @@ class ResearchPreflightTests(unittest.TestCase):
 
     def test_new_explicit_source_requires_review_but_alias_does_not(self):
         r, a = record(), pair()
+        for role in ['Named daughter Nancy', 'Recorded son John']:
+            r['profiles']['Glasgow-1']['role'] = role
+            assert record_needs_review(r, 'Glasgow-1', 'Glasgow-2', [a])
         r['profiles']['Glasgow-2']['role'] = 'Named father John; later adult identity unresolved'
         assert record_needs_review(r, 'Glasgow-1', 'Glasgow-2', [a])
         a['source_ids'] = ['https://www.findmypast.co.uk/transcript?id=SCOT/OPR/BAP/123']

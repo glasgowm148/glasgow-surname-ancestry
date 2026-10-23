@@ -364,6 +364,43 @@ class T(unittest.TestCase):
 
 
 class ResearchDispatchRanking(unittest.TestCase):
+    def test_legacy_pair_workflow_fallback_respects_assertion_review(self):
+        import runpy
+        context = runpy.run_path('research/ancestry-connections/rank_working_joins.py')['dispatch_context']
+        estimate = {'research_state': {'disposition': 'awaiting_source', 'resume_when': 'New deed'},
+                    'last_test': 'Held pages exhausted', 'next_test': 'Inspect new deed',
+                    'percent': 23}
+        result = context({}, estimate)
+        self.assertEqual(result, {key: estimate[key] for key in
+                                  ('research_state', 'last_test', 'next_test')})
+        assertion = {'research_state': {'disposition': 'ready'},
+                     'evidence_test': {'held_evidence_review_exhausted': True},
+                     'last_test': 'New deed supplied', 'next_test': 'Read deed'}
+        self.assertEqual(context(assertion, estimate), {
+            'research_state': {'disposition': 'ready'},
+            'last_test': 'New deed supplied', 'next_test': 'Read deed'})
+        assertion.pop('research_state')
+        self.assertEqual(context(assertion, {'research_state': {'disposition': 'ready'}})
+                         ['research_state']['disposition'], 'awaiting_source')
+
+    def test_exhausted_evidence_fallback_and_explicit_reopening(self):
+        import runpy
+        state = runpy.run_path('research/ancestry-connections/rank_working_joins.py')['explicit_research_state']
+        test = {'held_evidence_review_exhausted': True,
+                'summary': 'Inspected parcel does not distinguish father from brother.',
+                'resume_when': 'Inspect the missing 1527–1529 conveyance.'}
+        assessment = {'evidence_test': test}
+        result = state(assessment)
+        self.assertEqual(result['disposition'], 'awaiting_source')
+        self.assertEqual(result['summary'], test['summary'])
+        self.assertEqual(result['resume_when'], test['resume_when'])
+        assessment['research_state'] = {'disposition': 'unreviewed'}
+        self.assertEqual(state(assessment)['disposition'], 'awaiting_source')
+        assessment['research_state'] = {'disposition': 'ready', 'summary': 'New conveyance supplied.'}
+        self.assertEqual(state(assessment), assessment['research_state'])
+        self.assertEqual(state({'evidence_test': {'held_evidence_review_exhausted': 'true'}}),
+                         {'disposition': 'unknown'})
+
     def test_explicit_ready_test_outweighs_impact_and_reopens_when_ready(self):
         import runpy
         rank = runpy.run_path('research/ancestry-connections/rank_working_joins.py')

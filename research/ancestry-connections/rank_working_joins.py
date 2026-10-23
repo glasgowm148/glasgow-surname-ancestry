@@ -22,10 +22,26 @@ def explicit_research_state(assessment):
     """Use reviewed dispositions only; dates and narrative are not hold signals."""
     state = assessment.get('research_state') or {}
     if not isinstance(state, dict):
-        return {'disposition': 'unknown'}
-    if state.get('disposition') not in {'ready', 'awaiting_source', 'reviewed_no_change'}:
-        return {**state, 'disposition': 'unknown'}
-    return dict(state)
+        state = {}
+    if state.get('disposition') in {'ready', 'awaiting_source', 'reviewed_no_change'}:
+        return dict(state)
+    test = assessment.get('evidence_test') or {}
+    if isinstance(test, dict) and test.get('held_evidence_review_exhausted') is True:
+        return {**state, 'disposition': 'awaiting_source',
+                'source': 'evidence_test.held_evidence_review_exhausted',
+                **{key: test[key] for key in ('summary', 'resume_when') if key in test}}
+    return {**state, 'disposition': 'unknown'}
+
+
+def dispatch_context(assessment, estimate=None, case=None):
+    """Prefer assertion reviews; legacy pair estimates supply missing workflow fields."""
+    estimate, case = estimate or {}, case or {}
+    state = explicit_research_state(assessment)
+    if state['disposition'] == 'unknown':
+        state = explicit_research_state({'research_state': estimate.get('research_state')})
+    return {'research_state': state,
+            **{key: case.get(key) or assessment.get(key) or estimate.get(key) or ''
+               for key in ('last_test', 'next_test')}}
 
 
 def sort_rows(rows, order='actionable', scope='selected'):
@@ -61,6 +77,9 @@ def main(argv=None):
     rows=[]
     assessments=json.load(open('research/relationship_assessments.json'))
     by_assertion={a.get('assertion_id'):a for a in assessments}
+    estimate_data=json.load(open('research/relationship_probability_estimates.json'))
+    estimates={(e['subject_id'],e['relative_id']):e for e in estimate_data.get('estimates',[])
+               if e.get('relationship')=='father'}
     cases={c.get('assertion_id'):c for c in strategy.get('early_connections',[]) if c.get('assertion_id')}
     selected=[]
     for a in assessments:
@@ -79,9 +98,7 @@ def main(argv=None):
      row={'assertion_id':a.get('assertion_id') or by_pair[child,father].get('assertion_id'),'child':child,'father':father,'child_name':nodes[child]['name'],'father_name':nodes[father]['name'],**{k:impact[k] for k in ('child_side','parent_side','cross_pairs','confident_child_side','confident_parent_side','confident_pair_gain','confident_component_reduction')},'evidence_grade':a.get('evidence_grade'),'source_ids':a.get('source_ids',[]),'links':a.get('analysis_links',[])}
      if args.scope in {'all-unconfident','unrated'}:row.update(status=by_pair[child,father]['status'],confidence_percent=by_pair[child,father].get('confidence_percent'),selected_working_hypothesis=bool(a.get('working_selection')),cohort_year=nodes[child].get('year'),year_basis=nodes[child].get('year_basis'),first_record_year=nodes[child].get('first_record_year'))
      case=cases.get(row['assertion_id'],{})
-     row['last_test']=case.get('last_test') or a.get('last_test') or ''
-     row['next_test']=case.get('next_test') or a.get('next_test') or ''
-     row['research_state']=explicit_research_state(a)
+     row.update(dispatch_context(a,estimates.get((child,father)),case))
      rows.append(row)
     sort_rows(rows,args.sort,args.scope)
     limit=args.limit if args.limit is not None else (5 if args.preflight else None)
