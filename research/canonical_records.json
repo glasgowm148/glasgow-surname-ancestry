@@ -36677,5 +36677,34 @@
     "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~14695024; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
     "reviewed_on": "2026-10-23",
     "publish_to_record_index": true
+  },
+  {
+    "record_id": "fouse-1914-mary-glasgow-enyeart-p74",
+    "date": "1914",
+    "year": 1914,
+    "place": "Marklesburg, Huntingdon County, Pennsylvania, United States",
+    "country": "United States",
+    "source_title": "Fouse genealogy (1914), printedp. 74: Mary Glasgow and Thomas Enyeart family",
+    "source_url": "https://archive.org/details/genealogyofdesce01brum/page/n140/mode/1up",
+    "source_type": "late_compiled_genealogy",
+    "source_quality": "Retrospective compiled family history; original printed page checked",
+    "status": "Parent names and Mary’s exact family identity supported; Samuel-1984 remains a probable candidate, not proved",
+    "note": "The page gives Mary’s birth as 30 November 1814 and death as 3 September 1875, Thomas Enyeart as her husband, Matilda as their daughter, and Samuel and Mary (Wilson) Glasgow as her parents. Its form “Mary (Wilson) Enyeart” does not override the explicit Glasgow parent clause and exact household/date match. It does not identify Samuel with Glasgow-1984 and does not name Benjamin. No inspected probate, household, church or cemetery record yet identifies Samuel Glasgow-1984 as this Mary Wilson’s husband or either child’s father. His approximate birth and locality are inherited profile claims, not newly verified records. The memorial pages were not freshly inspected. The memorial and 1914 book may share a source and are not independent proofs. A missing middle initial on Samuel’s profile is not a conflict; Benjamin’s captured account calls the father Samuel L. The identity remains open to another compatible Samuel.",
+    "provenance": "research/ancestry-connections/huntingdon-family-review-2026-10-23.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true,
+    "historical_basis": {
+      "latest_birth_year": 1814,
+      "source_url": "https://archive.org/details/genealogyofdesce01brum/page/n140/mode/1up",
+      "reason": "The inspected passage explicitly gives Mary’s 1814 birth and 1875 death and her parents; 1914 is publication, not her event year."
+    },
+    "profiles": {
+      "Glasgow-3682": {
+        "role": "Directly named daughter of Samuel and Mary (Wilson) Glasgow; exact dates, Thomas Enyeart and daughter Matilda identify her."
+      },
+      "Glasgow-1984": {
+        "role": "Probable existing-profile candidate for the named father Samuel; numbered identity not proved."
+      }
+    }
   }
 ]

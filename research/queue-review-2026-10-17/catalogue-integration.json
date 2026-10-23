@@ -40574,6 +40574,76 @@
       "preserve_captured_detail": false,
       "reviewed_narrative_reduction": true,
       "preservation_review_path": "research/ancestry-connections/stamford-father-review-2026-10-23.json"
+    },
+    "Glasgow-1984": {
+      "profile_id": "Glasgow-1984",
+      "status": "OPEN",
+      "pending": true,
+      "queued_at": "2026-10-23",
+      "biography_rechecked_at": "2026-10-23",
+      "draft_path": "research/Glasgow-1984/huntingdon-family-2026-10-23.wiki",
+      "findings_path": "research/Glasgow-1984/findings.md",
+      "summary": "Add qualified probable children: Mary 77%, Benjamin 71%; new family account citation, no upstream parent or spouse assignment.",
+      "relationship_changes": [],
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "preservation_review_path": "research/ancestry-connections/huntingdon-family-review-2026-10-23.json"
+    },
+    "Glasgow-2637": {
+      "profile_id": "Glasgow-2637",
+      "status": "OPEN",
+      "pending": true,
+      "queued_at": "2026-10-23",
+      "biography_rechecked_at": "2026-10-23",
+      "draft_path": "research/Glasgow-2637/huntingdon-family-2026-10-23.wiki",
+      "findings_path": "research/Glasgow-2637/findings.md",
+      "summary": "New probable father 71%: Samuel Glasgow-1984; shared Samuel/Mary Wilson couple, adult identity remains unproved.",
+      "relationship_changes": [
+        {
+          "action": "add",
+          "relationship": "father",
+          "relative_id": "Glasgow-1984",
+          "relative_name": "Samuel Glasgow",
+          "status": "probable",
+          "probability_percent": 71,
+          "assertion_id": "C-huntingdon-benjamin-samuel-20261023",
+          "previous_status": "unknown",
+          "previous_probability_percent": null,
+          "previous_status_provenance": "Captured structured father and current public dossier father are blank. The biography already names Samuel and Mary Wilson: this is a new identification/attachment to an existing numbered Samuel, not newly discovered parent names.",
+          "scope": "The exact percentage is a subjective assessment of the complete identification with the existing Samuel Glasgow-1984, not merely of a named Samuel father. It is a local probable working connection, not a proved identity or a live WikiTree save. Mary Wilson is assessed separately as the reported mother; no numbered mother, spouse or upstream parent is assigned."
+        }
+      ],
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "preservation_review_path": "research/ancestry-connections/huntingdon-family-review-2026-10-23.json"
+    },
+    "Glasgow-3682": {
+      "profile_id": "Glasgow-3682",
+      "status": "OPEN",
+      "pending": true,
+      "queued_at": "2026-10-23",
+      "biography_rechecked_at": "2026-10-23",
+      "draft_path": "research/Glasgow-3682/huntingdon-family-2026-10-23.wiki",
+      "findings_path": "research/Glasgow-3682/findings.md",
+      "summary": "New probable father 77%: Samuel Glasgow-1984; shared Samuel/Mary Wilson couple, adult identity remains unproved.",
+      "relationship_changes": [
+        {
+          "action": "add",
+          "relationship": "father",
+          "relative_id": "Glasgow-1984",
+          "relative_name": "Samuel Glasgow",
+          "status": "probable",
+          "probability_percent": 77,
+          "assertion_id": "C-huntingdon-mary-samuel-20261023",
+          "previous_status": "unknown",
+          "previous_probability_percent": null,
+          "previous_status_provenance": "Captured structured father and current public dossier father are blank. The biography already names Samuel and Mary Wilson: this is a new identification/attachment to an existing numbered Samuel, not newly discovered parent names.",
+          "scope": "The exact percentage is a subjective assessment of the complete identification with the existing Samuel Glasgow-1984, not merely of a named Samuel father. It is a local probable working connection, not a proved identity or a live WikiTree save. Mary Wilson is assessed separately as the reported mother; no numbered mother, spouse or upstream parent is assigned."
+        }
+      ],
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "preservation_review_path": "research/ancestry-connections/huntingdon-family-review-2026-10-23.json"
     }
   },
   "reviewed_on": "2026-10-22",

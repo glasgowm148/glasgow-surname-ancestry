@@ -55327,6 +55327,52 @@
       "new_mother_attachments": 0,
       "new_original_inspections": 0,
       "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
+    },
+    {
+      "id": "huntingdon-mary-benjamin-samuel-20261023",
+      "found_on": "2026-10-23",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Two existing Huntingdon branches gain the same probable father: Mary Wilson Glasgow77% and Benjamin Franklin Glasgow71%, attached locally to Samuel Glasgow-1984. A checked 1914 genealogy confirms Mary’s exact household and named parents.",
+      "qualification": "The children’s parent names were already captured; the new work is a preferred existing-profile identification and tree attachment, with a newly inspected printed account. Samuel’s full adult identity is unproved; the memorials were not freshly inspected and may derive from the same book. No mother, wife or upstream father assigned.",
+      "people": [
+        {
+          "id": "Glasgow-1984",
+          "name": "Samuel Glasgow",
+          "url": "/people/glasgow-1984.html",
+          "role": "Preferred probable existing father"
+        },
+        {
+          "id": "Glasgow-3682",
+          "name": "Mary Wilson Glasgow",
+          "url": "/people/glasgow-3682.html",
+          "role": "New probable father 77%"
+        },
+        {
+          "id": "Glasgow-2637",
+          "name": "Benjamin Franklin Glasgow",
+          "url": "/people/glasgow-2637.html",
+          "role": "New probable father 71%"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Gaius Marcus Brumbaugh and John Garner Fouse, Genealogy of the descendants of Theobald Fouse (Fauss), including many other connected families (Baltimore: Williams & Wilkins, 1914), printed p. 74, IA leaf 140. Original printed page visually checked 23 October 2026.",
+          "url": "https://archive.org/details/genealogyofdesce01brum/page/n140/mode/1up"
+        },
+        {
+          "title": "Benjamin’s held memorial citation; underlying page uninspected",
+          "url": "https://www.findagrave.com/memorial/181941309/benjamin-franklin-glasgow"
+        }
+      ],
+      "detail_url": "/people/glasgow-1984.html",
+      "relationship_changes": [],
+      "new_father_attachments": 2,
+      "new_original_inspections": 1,
+      "provenance": [
+        "research/ancestry-connections/huntingdon-family-review-2026-10-23.json",
+        "research/relationship_assessments.json"
+      ]
     }
   ]
 }
