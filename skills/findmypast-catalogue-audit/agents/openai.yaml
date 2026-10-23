@@ -1,0 +1,4 @@
+interface:
+  display_name: "Findmypast Catalogue Audit"
+  short_description: "Match Findmypast records to the research catalogue"
+  default_prompt: "Use $findmypast-catalogue-audit to resume our Findmypast surname audit and synchronize the research catalogue."
