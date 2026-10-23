@@ -4,6 +4,8 @@ Last updated: 2026-10-07
 
 ## Current conclusion
 
+23 October 2026: the explicit niece Margaret Kennedy is independently anchored to Jane Glascaw through the Rasharkin baptism and James Dysart’s will. This supports [Jane Dysart’s father replacement](/people/glasglow-11.html#research-findings) to John Glasgow-4090 at 92% confident inference. Nancy’s own father rating remains 90%; no additional independent probate citation is claimed.
+
 Current father assessment (22 October 2026): **90% (proved)** for [Glasgow-4090](https://www.wikitree.com/wiki/Glasgow-4090). Selected father-profile identity and paternal relationship; maternal identity is separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 Nancy’s 1889 will and 1892 probate support the sibling/niece-nephew network including John of Lisnagaver’s descendants. John of Lisnagaver’s 16 November 1846 marriage names father John Glasgow farmer; the maintained 6 October identity definition represents this father, extending the supported family hypothesis without requiring the 1796 flaxgrower match.
@@ -187,3 +189,13 @@ Next useful test: Compare full probate kinship wording with the Irish siblings�
 This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [The Plattsburgh Sentinel (Plattsburgh, New York), 26 February 1892, p. 6, "Legal Notices", probate citation in the estate of Nancy Glasgow, dated 14 January 1892; digital newspaper page (https://www.nyshistoricnewspapers.org/?a=d&d=plts18920226-01.1.6).](https://www.nyshistoricnewspapers.org/?a=d&d=plts18920226-01.1.6)
+
+## Jane Dysart father replacement — 23 October 2026
+
+[Jane Catherine (Glasglow) Dysart](/people/glasglow-11.html) is now proposed as daughter of [John Glasgow, farmer](/people/glasgow-4090.html) at **92% confident inference**, replacing the ungraded older-Alexander attachment in the local working tree. Jane’s identity is anchored by Nancy Glasgow’s express niece Margaret Kennedy, the Rasharkin baptism naming Margaret’s mother Jane Glascaw, and James Dysart’s 1881 will naming daughter Margaret Kennedy, son Robert and granddaughter Mary Anne McCaughern. The 1892 probate citation coherently identifies Jane Dysart’s wider child group. Mary Anne’s appearance as a witness at Ann Glasgow’s 1875 marriage independently links the Dysart descendants to John Glasgow-867’s household. That John’s 1846 marriage names father John Glasgow, farmer. The combined kinship, recorded Glasgow birth surnames, compatible generations and matched households support the same record-defined father for Jane at 92% confident inference, replacing the unsupported older-Alexander pedigree.
+
+No inspected record directly names Jane’s father. The citation is incomplete and is not an adjudicated pedigree; the underlying petition and heir schedule remain uninspected. John-867’s Ballydonnelly description and Lizzie remain unresolved. The witness association supports the family network but does not by itself prove kinship. A maternal half-sibling explanation involving different Glasgow fathers remains possible, without positive evidence favoring it. Alexander-3904 is chronologically compatible and retained as an unselected alternative, rather than declared impossible.
+
+This subjective percentage assesses Jane’s father as the record-defined John Glasgow, farmer, named in John-867’s 1846 marriage. It does not identify the 1796 Desertoghill flax grower or establish John’s proposed Larne ancestry. Rosanna Unknown-761034 remains Jane’s separately unproved maternal attachment; this replacement does not identify John’s wife or prove a John–Rosanna marriage. Jane’s life dates and all existing relatives apart from the selected father are preserved. No live WikiTree edit is made.
+
+The complete source chain and prior parent state are maintained in Jane’s account. No other relationship percentage changes in this review.

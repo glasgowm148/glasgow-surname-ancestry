@@ -4155,3 +4155,10 @@ Twenty provider transcripts are reviewed in fifteen documentary groups. Existing
 | [John Glasgow](https://www.wikitree.com/wiki/Glasgow-867) | OPEN | Add scoped family confidence review; preserve existing confident flag and all prior pending amendments. |
 | [Samuel Glasgow](https://www.wikitree.com/wiki/Glasgow-2908) | OPEN | Existing father confidence to 95%; no new father. Complete pending biography retained. |
 | [John Glasgow](https://www.wikitree.com/wiki/Glasgow-4090) | OPEN | Add scoped family confidence review; preserve existing confident flag and all prior pending amendments. |
+
+### Jane Dysart father replacement — 23 October 2026
+
+| Profile | Status | Amendment |
+| --- | --- | --- |
+| [Jane Catherine Dysart](https://www.wikitree.com/wiki/Glasglow-11) | OPEN | Replace ungraded father Alexander-3904 with John-4090, 92% confident inference; preserve mother and full biography. |
+| [John Glasgow, farmer](https://www.wikitree.com/wiki/Glasgow-4090) | OPEN | Add Jane as confidently inferred daughter, 92%; retain all earlier pending amendments and separate upstream assessment. |

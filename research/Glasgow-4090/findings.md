@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+23 October 2026: this account represents the **John Glasgow, farmer, named in John-867’s 1846 marriage**. His father links are individually assessed: John-867 98%, Samuel-2908 95%, Alexander-951 90%, and Jane Dysart (Glasglow-11) 92%. Jane is a new local replacement recommendation, with Alexander-3904 retained as her alternative. These downstream findings do not raise John’s own 37% upstream hypothesis or identify the 1796 flax grower. [Jane’s evidence](/people/glasglow-11.html#research-findings).
+
 Current father assessment (22 October 2026): **37% (possible)** for [Glasgow-4179](https://www.wikitree.com/wiki/Glasgow-4179). Possible37%; compatible local generations, without a named link between these two Johns. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 5 October 2026: this profile remains a possible County Londonderry contemporary of the John Glasco listed 24 September 1799. The [original roster and 1798 Dublin comparison](/research/subjects/newspapers-early-glasgow/#john-glasco-irish-rosters) do not identify him or establish a family relationship. The 1799 list category is unresolved; do not call him a juror or freeholder.
@@ -146,3 +148,13 @@ This profile is the record-defined John Glasgow, farmer, named in [John Glasgow-
 The probate citation is an incomplete service notice, not an adjudicated pedigree: Alexander’s living son Robert was omitted. John’s Ballydonnelly description and the cited Lizzie remain unexplained. The underlying petition and heir schedule have not been inspected. These are real limits, but no held competing household matches the James Garvin/Ann group and no evidence identifies different Glasgow fathers through a maternal half-sibling relationship. The flax-grower and older Larne identities remain separate hypotheses.
 
 These grades do not identify the 1796 flax grower or strengthen John’s own 37% proposed father Glasgow-4179. No mother is inferred. [Lisnagaver family study](/branches/lisnagaver-rasharkin/).
+
+## Jane Dysart father replacement — 23 October 2026
+
+[Jane Catherine (Glasglow) Dysart](/people/glasglow-11.html) is now proposed as daughter of [John Glasgow, farmer](/people/glasgow-4090.html) at **92% confident inference**, replacing the ungraded older-Alexander attachment in the local working tree. Jane’s identity is anchored by Nancy Glasgow’s express niece Margaret Kennedy, the Rasharkin baptism naming Margaret’s mother Jane Glascaw, and James Dysart’s 1881 will naming daughter Margaret Kennedy, son Robert and granddaughter Mary Anne McCaughern. The 1892 probate citation coherently identifies Jane Dysart’s wider child group. Mary Anne’s appearance as a witness at Ann Glasgow’s 1875 marriage independently links the Dysart descendants to John Glasgow-867’s household. That John’s 1846 marriage names father John Glasgow, farmer. The combined kinship, recorded Glasgow birth surnames, compatible generations and matched households support the same record-defined father for Jane at 92% confident inference, replacing the unsupported older-Alexander pedigree.
+
+No inspected record directly names Jane’s father. The citation is incomplete and is not an adjudicated pedigree; the underlying petition and heir schedule remain uninspected. John-867’s Ballydonnelly description and Lizzie remain unresolved. The witness association supports the family network but does not by itself prove kinship. A maternal half-sibling explanation involving different Glasgow fathers remains possible, without positive evidence favoring it. Alexander-3904 is chronologically compatible and retained as an unselected alternative, rather than declared impossible.
+
+This subjective percentage assesses Jane’s father as the record-defined John Glasgow, farmer, named in John-867’s 1846 marriage. It does not identify the 1796 Desertoghill flax grower or establish John’s proposed Larne ancestry. Rosanna Unknown-761034 remains Jane’s separately unproved maternal attachment; this replacement does not identify John’s wife or prove a John–Rosanna marriage. Jane’s life dates and all existing relatives apart from the selected father are preserved. No live WikiTree edit is made.
+
+The complete source chain and prior parent state are maintained in Jane’s account. No other relationship percentage changes in this review.

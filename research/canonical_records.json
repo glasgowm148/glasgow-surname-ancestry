@@ -8541,21 +8541,29 @@
   {
     "record_id": "held-e-827fa902bccc",
     "record_type": "Previously held source citation",
-    "date": null,
-    "place": null,
+    "date": "7 April 1846 birth; baptism date blank, entry 271",
+    "place": "Granagh, Rasharkin, County Antrim",
     "association": "https://genealogy.torrens.org/BannValley/church/RasharkinP/Baptisms_1834.html",
-    "source_title": "https://genealogy.torrens.org/BannValley/church/RasharkinP/Baptisms_1834.html",
+    "source_title": "Barbara Braswell, Rasharkin Presbyterian baptisms, 1834–1846",
     "source_url": "https://genealogy.torrens.org/BannValley/church/RasharkinP/Baptisms_1834.html",
-    "source_type": "Existing citation or tree claim; see individual evidence scope",
+    "source_type": "published_register_transcription",
     "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
     "status": "Relationship and profile-identity scope stated in the individual assessment",
     "profiles": {
       "Glasgow-1022": {
         "role": "Previously cited subject; relationship scope in the father assessment"
+      },
+      "Glasglow-11": {
+        "role": "Mother Jane Glascaw in Margaret’s birth entry; Jane’s father not stated"
       }
     },
-    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
-    "provenance": "research/ancestry-connections/father-coverage-review2-2026-10-22.json"
+    "note": "Entry 271 identifies Margaret Dysart, daughter of Jas and Jane Glascaw at Granagh. Earlier entries 82, 133 and 176 support household continuity. Other cited entries in this same transcript retain their separate subject scope.",
+    "provenance": "research/ancestry-connections/father-coverage-review2-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true,
+    "year": 1846,
+    "country": "Ireland",
+    "source_quality": "Derivative transcription; original PRONI MIC1P/292 not inspected"
   },
   {
     "record_id": "held-e-d98bf11f4fb3",
@@ -21440,6 +21448,9 @@
       },
       "Glasgow-2908": {
         "role": "Not named; collateral same-father inference through the 1851 recorded brotherhood."
+      },
+      "Glasglow-11": {
+        "role": "Not named; father inference through the groom’s named father"
       }
     },
     "note": "John’s original 16 November 1846 marriage to Margaret Garvin directly names father John Glasgow, farmer. The 1851 Lisnagaver household independently matches the couple, residence, occupation and marriage year. This defines the father profile without relying on the 1796 flax-grower identification. The complete father-profile identification is assessed 98%; this measures an existing confident relationship.",
@@ -23046,6 +23057,9 @@
       },
       "Glasgow-4090": {
         "role": "Not named; common-father inference through the cited family and John-867’s marriage."
+      },
+      "Glasglow-11": {
+        "role": "Jane Dysart’s named child group; mother’s father not stated"
       }
     },
     "note": "Alexander’s independently documented children James, Mary and Ann match the 1892 citation’s Alexander-of-Rasharkin group. That group appears among heirs/next of kin before the separate legatee list. Nancy’s own niece/nephew statements, linked through the Dysart and Anderson baptisms, anchor the family interpretation. John-867’s distinctive James Garvin/Ann branch identifies the other cited household, and his 1846 marriage names father John Glasgow, farmer. Recorded Glasgow birth surnames favor a common paternal family. The combined identity and kinship argument supports a confident 90% inference; a generic unsupported half-sibling possibility does not impose a probable ceiling. The probate citation is an incomplete service notice, not an adjudicated pedigree: Alexander’s living son Robert was omitted. John’s Ballydonnelly description and the cited Lizzie remain unexplained. The underlying petition and heir schedule have not been inspected. These are real limits, but no held competing household matches the James Garvin/Ann group and no evidence identifies different Glasgow fathers through a maternal half-sibling relationship. The flax-grower and older Larne identities remain separate hypotheses.",
@@ -29568,21 +29582,29 @@
   {
     "record_id": "held-e-c6284fcec16d",
     "record_type": "Previously held source citation",
-    "date": null,
-    "place": null,
+    "date": "18 February 1875",
+    "place": "Ballymoney registration district, County Antrim",
     "association": "Civil marriage registration: Francis Bellingham and Annie Glasgow, 18 February 1875; Ballymoney registration district; Group Registration ID 2857472; image path: marriage_returns\\marriages_1875\\11190\\8100682.tif.",
     "source_title": "Civil marriage registration: Francis Bellingham and Annie Glasgow, 18 February 1875; Ballymoney registration district; Group Registration ID 2857472; image path: marriage_returns\\marriages_1875\\11190\\8100682.tif.",
-    "source_url": "https://www.wikitree.com/wiki/Glasgow-1371",
+    "source_url": "https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1875/11190/8100682.pdf",
     "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
-    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
-    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "source_status": "Earlier held original reading re-evaluated; not newly inspected",
+    "status": "Individual kin statement or associated family evidence, with inference scope in Jane’s account",
     "profiles": {
       "Glasgow-1371": {
         "role": "Previously cited subject; relationship scope in the father assessment"
+      },
+      "Glasglow-11": {
+        "role": "Not named; associated descendant witness, not a parent statement"
       }
     },
-    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
-    "provenance": "research/ancestry-connections/father-coverage-review9-2026-10-22.json"
+    "note": "Mary Anne McCaughern is a witness. The connection to James Dysart’s named granddaughter supports the family network; a witness alone does not prove kinship.",
+    "provenance": "research/ancestry-connections/jane-dysart-father-review-2026-10-23.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true,
+    "year": 1875,
+    "country": "Ireland",
+    "source_quality": "Held original-record reading; no new image inspection"
   },
   {
     "record_id": "held-e-65b7f30d8260",
@@ -37156,5 +37178,51 @@
     "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_692101975",
     "reviewed_on": "2026-10-23",
     "publish_to_record_index": true
+  },
+  {
+    "record_id": "nancy-glasgow-will-1889",
+    "record_type": "Will",
+    "date": "15 January 1889; proved 9 May 1892",
+    "year": 1889,
+    "country": "United States",
+    "place": "Plattsburgh, Clinton County, New York",
+    "association": "Nancy Glasgow will, 1889; Clinton Will Book Q, pp. 255–259",
+    "source_title": "Nancy Glasgow will, 1889; Clinton Will Book Q, pp. 255–259",
+    "source_url": "https://www.familysearch.org/ark:/61903/3:1:33SQ-GYC4-66V?view=fullText",
+    "source_type": "will",
+    "profiles": {
+      "Glasglow-11": {
+        "role": "Not named; mother of the explicitly named niece Margaret Kennedy"
+      }
+    },
+    "publish_to_record_index": true,
+    "reviewed_on": "2026-10-23",
+    "provenance": "research/ancestry-connections/jane-dysart-father-review-2026-10-23.json",
+    "source_status": "Earlier held original reading re-evaluated; not newly inspected",
+    "source_quality": "Held original-record reading; no new image inspection",
+    "status": "Individual kin statement or associated family evidence, with inference scope in Jane’s account"
+  },
+  {
+    "record_id": "james-dysart-will-1881",
+    "record_type": "Will",
+    "date": "31 March 1881; probate 8 February 1884",
+    "year": 1881,
+    "country": "Ireland",
+    "place": "Crushybracken, Rasharkin, County Antrim",
+    "association": "James Dysart will, 31 March 1881; PRONI B-0028-0046/47",
+    "source_title": "James Dysart will, 31 March 1881; PRONI B-0028-0046/47",
+    "source_url": "https://apps.proni.gov.uk/willscalendar_ie/WillsSearchImage.aspx?id=182458",
+    "source_type": "will",
+    "profiles": {
+      "Glasglow-11": {
+        "role": "Not named; wife/mother identified through this Dysart household and baptism chain"
+      }
+    },
+    "publish_to_record_index": true,
+    "reviewed_on": "2026-10-23",
+    "provenance": "research/ancestry-connections/jane-dysart-father-review-2026-10-23.json",
+    "source_status": "Earlier held original reading re-evaluated; not newly inspected",
+    "source_quality": "Held original-record reading; no new image inspection",
+    "status": "Individual kin statement or associated family evidence, with inference scope in Jane’s account"
   }
 ]

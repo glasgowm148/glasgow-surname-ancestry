@@ -40695,6 +40695,64 @@
           "scope": "Recorded qualitative research assessment; no earlier individual percentage."
         }
       ]
+    },
+    {
+      "subject_id": "Glasglow-11",
+      "relative_id": "Glasgow-4090",
+      "relationship": "father",
+      "percent": 92,
+      "assessment_status": "proved",
+      "assertion_id": "C-jane-dysart-father-20261023",
+      "basis": "Jane’s identity is anchored by Nancy Glasgow’s express niece Margaret Kennedy, the Rasharkin baptism naming Margaret’s mother Jane Glascaw, and James Dysart’s 1881 will naming daughter Margaret Kennedy, son Robert and granddaughter Mary Anne McCaughern. The 1892 probate citation coherently identifies Jane Dysart’s wider child group. Mary Anne’s appearance as a witness at Ann Glasgow’s 1875 marriage independently links the Dysart descendants to John Glasgow-867’s household. That John’s 1846 marriage names father John Glasgow, farmer. The combined kinship, recorded Glasgow birth surnames, compatible generations and matched households support the same record-defined father for Jane at 92% confident inference, replacing the unsupported older-Alexander pedigree.",
+      "source_ids": [
+        "held-e-67eecd8affe8",
+        "held-e-6d6699781d4f",
+        "held-e-827fa902bccc",
+        "nancy-glasgow-will-1889",
+        "james-dysart-will-1881",
+        "held-e-c6284fcec16d"
+      ],
+      "reviewed": "2026-10-23",
+      "scope": "This subjective percentage assesses Jane’s father as the record-defined John Glasgow, farmer, named in John-867’s 1846 marriage. It does not identify the 1796 Desertoghill flax grower or establish John’s proposed Larne ancestry. Rosanna Unknown-761034 remains Jane’s separately unproved maternal attachment; this replacement does not identify John’s wife or prove a John–Rosanna marriage. Jane’s life dates and all existing relatives apart from the selected father are preserved. No live WikiTree edit is made.",
+      "assessment_history": [
+        {
+          "relative_id": "Glasgow-3904",
+          "status": "unmarked",
+          "tree_status": "unmarked",
+          "saved_flag": "",
+          "probability_percent": null,
+          "source_basis": "Captured Open WikiTree profile attaches Alexander Glasgow-3904 without a father certainty flag or individual percentage. Its parentage rests on an unsourced inherited family tree, not a parent-naming record."
+        }
+      ]
+    },
+    {
+      "subject_id": "Glasgow-4090",
+      "relative_id": "Glasglow-11",
+      "relationship": "child",
+      "percent": 92,
+      "assessment_status": "proved",
+      "assertion_id": "C-jane-dysart-father-20261023",
+      "basis": "Jane’s identity is anchored by Nancy Glasgow’s express niece Margaret Kennedy, the Rasharkin baptism naming Margaret’s mother Jane Glascaw, and James Dysart’s 1881 will naming daughter Margaret Kennedy, son Robert and granddaughter Mary Anne McCaughern. The 1892 probate citation coherently identifies Jane Dysart’s wider child group. Mary Anne’s appearance as a witness at Ann Glasgow’s 1875 marriage independently links the Dysart descendants to John Glasgow-867’s household. That John’s 1846 marriage names father John Glasgow, farmer. The combined kinship, recorded Glasgow birth surnames, compatible generations and matched households support the same record-defined father for Jane at 92% confident inference, replacing the unsupported older-Alexander pedigree.",
+      "source_ids": [
+        "held-e-67eecd8affe8",
+        "held-e-6d6699781d4f",
+        "held-e-827fa902bccc",
+        "nancy-glasgow-will-1889",
+        "james-dysart-will-1881",
+        "held-e-c6284fcec16d"
+      ],
+      "reviewed": "2026-10-23",
+      "scope": "This subjective percentage assesses Jane’s father as the record-defined John Glasgow, farmer, named in John-867’s 1846 marriage. It does not identify the 1796 Desertoghill flax grower or establish John’s proposed Larne ancestry. Rosanna Unknown-761034 remains Jane’s separately unproved maternal attachment; this replacement does not identify John’s wife or prove a John–Rosanna marriage. Jane’s life dates and all existing relatives apart from the selected father are preserved. No live WikiTree edit is made.",
+      "assessment_history": [
+        {
+          "relative_id": "Glasgow-3904",
+          "status": "unmarked",
+          "tree_status": "unmarked",
+          "saved_flag": "",
+          "probability_percent": null,
+          "source_basis": "Captured Open WikiTree profile attaches Alexander Glasgow-3904 without a father certainty flag or individual percentage. Its parentage rests on an unsourced inherited family tree, not a parent-naming record."
+        }
+      ]
     }
   ]
 }

@@ -4,6 +4,8 @@ Last updated: 2026-10-18
 
 ## Current conclusion
 
+23 October 2026: [Jane Catherine Dysart](/people/glasglow-11.html) is now assigned locally to John Glasgow-4090 at 92% confident inference. This older Alexander remains Jane’s unselected, numerically ungraded alternative; the inherited tree supplies no parent-naming evidence. His other selected children and upstream assessment are unchanged. Rosanna’s maternity is assessed separately.
+
 Reviewed: 2026-10-18. Extend the existing Alexander Glasgow-3904 father hypothesis to John and Mary at 27%, uncertain, conditional on their documented membership in the Prescott sibling family. Thomas-987 and Daniel-3896 already carry this father, and Samuel-4010 and Robert-4150 already have the same selected uncertain hypothesis. Its basis remains the single late descendant tradition naming Alexander as Thomas’s father, with compatible generation and sibling inference. The original will and deeds name no parent. These two extensions supply no independent parent testimony and do not raise the existing estimate; no mother is selected. [Prescott sibling comparison](/branches/lisnagaver-rasharkin/#chapter-prescott-john-mary-siblings).
 
 Reviewed: 2026-10-16
@@ -364,3 +366,13 @@ Resolve John against the retained profile candidates using Jane, his watchmaking
 - [Mary Black’s children to Mary Eno Glasgow, C298, 15 September 1869, registered 1 July 1870; volume C, pp. 477–482, images 277–280](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSLG-LQTY-K)
 
 [John’s record account](/people/record-john-prescott-watchmaker.html) · [Mary’s record account](/people/record-mary-glasgow-black.html) · [Family comparison](/branches/lisnagaver-rasharkin/#chapter-prescott-john-mary-siblings).
+
+## Jane Dysart father replacement — 23 October 2026
+
+[Jane Catherine (Glasglow) Dysart](/people/glasglow-11.html) is now proposed as daughter of [John Glasgow, farmer](/people/glasgow-4090.html) at **92% confident inference**, replacing the ungraded older-Alexander attachment in the local working tree. Jane’s identity is anchored by Nancy Glasgow’s express niece Margaret Kennedy, the Rasharkin baptism naming Margaret’s mother Jane Glascaw, and James Dysart’s 1881 will naming daughter Margaret Kennedy, son Robert and granddaughter Mary Anne McCaughern. The 1892 probate citation coherently identifies Jane Dysart’s wider child group. Mary Anne’s appearance as a witness at Ann Glasgow’s 1875 marriage independently links the Dysart descendants to John Glasgow-867’s household. That John’s 1846 marriage names father John Glasgow, farmer. The combined kinship, recorded Glasgow birth surnames, compatible generations and matched households support the same record-defined father for Jane at 92% confident inference, replacing the unsupported older-Alexander pedigree.
+
+No inspected record directly names Jane’s father. The citation is incomplete and is not an adjudicated pedigree; the underlying petition and heir schedule remain uninspected. John-867’s Ballydonnelly description and Lizzie remain unresolved. The witness association supports the family network but does not by itself prove kinship. A maternal half-sibling explanation involving different Glasgow fathers remains possible, without positive evidence favoring it. Alexander-3904 is chronologically compatible and retained as an unselected alternative, rather than declared impossible.
+
+This subjective percentage assesses Jane’s father as the record-defined John Glasgow, farmer, named in John-867’s 1846 marriage. It does not identify the 1796 Desertoghill flax grower or establish John’s proposed Larne ancestry. Rosanna Unknown-761034 remains Jane’s separately unproved maternal attachment; this replacement does not identify John’s wife or prove a John–Rosanna marriage. Jane’s life dates and all existing relatives apart from the selected father are preserved. No live WikiTree edit is made.
+
+The complete source chain and prior parent state are maintained in Jane’s account. No other relationship percentage changes in this review.

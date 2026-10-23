@@ -5581,16 +5581,16 @@
       ]
     },
     "Glasgow-4090": {
-      "significance": 70,
+      "significance": 96,
       "manual_update": true,
       "registered_update": true,
-      "summary": "Add separately scoped sons’ grades98%,95%,90%, without strengthening John’s own ancestry. Larne & Kilwaughter audit 6 Oct 2026. Set the father link to Glasgow-4179 to uncertain after confirming the live state (no record supports it); keep the attachment. Lead the biography with the 1846 marriage record; move the 1796 Desertoghill entry to a possible-identity section; mark the birthplace and 'before 1772' uncertain. Review existing father at 37% (possible), retaining source and identity limits; no new father attachment.",
+      "summary": "Add Jane Dysart as confidently inferred daughter, 92%, with earlier parent preserved as alternative. Add separately scoped sons’ grades98%,95%,90%, without strengthening John’s own ancestry. Larne & Kilwaughter audit 6 Oct 2026. Set the father link to Glasgow-4179 to uncertain after confirming the live state (no record supports it); keep the attachment. Lead the biography with the 1846 marriage record; move the 1796 Desertoghill entry to a possible-identity section; mark the birthplace and 'before 1772' uncertain. Review existing father at 37% (possible), retaining source and identity limits; no new father attachment.",
       "profile_id": "Glasgow-4090",
       "status": "OPEN",
       "pending": true,
-      "queued_at": "2026-10-22",
+      "queued_at": "2026-10-23",
       "biography_rechecked_at": "2026-10-23",
-      "draft_path": "research/Glasgow-4090/sons-review-2026-10-23.wiki",
+      "draft_path": "research/Glasgow-4090/jane-father-review-2026-10-23.wiki",
       "findings_path": "research/Glasgow-4090/findings.md",
       "work_queue_summary": "Larne & Kilwaughter audit 6 Oct 2026. Set the father link to Glasgow-4179 to uncertain after confirming the live state (no record supports it); keep the attachment. Lead the biography with the 1846 marriage record; move the 1796 Desertoghill entry to a possible-identity section; mark the birthplace and 'before 1772' uncertain. Review existing father at 37% (possible), retaining source and identity limits; no new father attachment.",
       "relationship_changes": [
@@ -5605,6 +5605,16 @@
           "assertion_id": "C-coverage-20261022c-glasgow-4090-father",
           "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
           "scope": "Possible37%; compatible local generations, without a named link between these two Johns."
+        },
+        {
+          "action": "add",
+          "relationship": "daughter",
+          "relative_id": "Glasglow-11",
+          "relative_name": "Jane Catherine (Glasglow) Dysart",
+          "status": "proved",
+          "probability_percent": 92,
+          "assertion_id": "C-jane-dysart-father-20261023",
+          "scope": "This subjective percentage assesses Jane’s father as the record-defined John Glasgow, farmer, named in John-867’s 1846 marriage. It does not identify the 1796 Desertoghill flax grower or establish John’s proposed Larne ancestry. Rosanna Unknown-761034 remains Jane’s separately unproved maternal attachment; this replacement does not identify John’s wife or prove a John–Rosanna marriage. Jane’s life dates and all existing relatives apart from the selected father are preserved. No live WikiTree edit is made."
         }
       ],
       "preserve_captured_detail": false,
@@ -5612,7 +5622,7 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/lisnagaver-confidence-review-2026-10-23.json"
+      "preservation_review_path": "research/ancestry-connections/jane-dysart-father-review-2026-10-23.json"
     },
     "Glasgow-4093": {
       "draft_path": "research/Glasgow-4093/queue-review-2026-10-17.wiki",
@@ -40719,6 +40729,38 @@
       "preserve_captured_detail": false,
       "reviewed_narrative_reduction": true,
       "preservation_review_path": "research/ancestry-connections/roanoke-thomas-review-2026-10-23.json"
+    },
+    "Glasglow-11": {
+      "draft_path": "research/Glasglow-11/jane-father-review-2026-10-23.wiki",
+      "findings_path": "research/Glasglow-11/findings.md",
+      "profile_id": "Glasglow-11",
+      "queued_at": "2026-10-23",
+      "biography_rechecked_at": "2026-10-23",
+      "status": "OPEN",
+      "pending": true,
+      "manual_update": true,
+      "significance": 96,
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "preservation_review_path": "research/ancestry-connections/jane-dysart-father-review-2026-10-23.json",
+      "summary": "New confident father replacement: John Glasgow-4090, 92%; previously Alexander-3904, ungraded. ",
+      "relationship_changes": [
+        {
+          "action": "replace",
+          "relationship": "father",
+          "relative_id": "Glasgow-4090",
+          "relative_name": "John Glasgow, farmer",
+          "relative_url": "https://www.wikitree.com/wiki/Glasgow-4090",
+          "previous_relative_id": "Glasgow-3904",
+          "previous_status": "unmarked",
+          "previous_probability_percent": null,
+          "previous_status_provenance": "Captured Open WikiTree profile attaches Alexander Glasgow-3904 without a father certainty flag or individual percentage. Its parentage rests on an unsourced inherited family tree, not a parent-naming record.",
+          "status": "proved",
+          "probability_percent": 92,
+          "assertion_id": "C-jane-dysart-father-20261023",
+          "scope": "This subjective percentage assesses Jane’s father as the record-defined John Glasgow, farmer, named in John-867’s 1846 marriage. It does not identify the 1796 Desertoghill flax grower or establish John’s proposed Larne ancestry. Rosanna Unknown-761034 remains Jane’s separately unproved maternal attachment; this replacement does not identify John’s wife or prove a John–Rosanna marriage. Jane’s life dates and all existing relatives apart from the selected father are preserved. No live WikiTree edit is made."
+        }
+      ]
     }
   },
   "reviewed_on": "2026-10-22",

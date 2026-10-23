@@ -55535,6 +55535,85 @@
         "research/Glasgow-951/findings.md",
         "research/Glasgow-2908/findings.md"
       ]
+    },
+    {
+      "id": "jane-dysart-father-20261023",
+      "found_on": "2026-10-23",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Jane Catherine Dysart: replace the inherited, ungraded father Alexander Glasgow with John Glasgow, farmer, at 92% confident inference.",
+      "qualification": "No inspected record directly names Jane’s father. The citation is incomplete and is not an adjudicated pedigree; the underlying petition and heir schedule remain uninspected. John-867’s Ballydonnelly description and Lizzie remain unresolved. The witness association supports the family network but does not by itself prove kinship. A maternal half-sibling explanation involving different Glasgow fathers remains possible, without positive evidence favoring it. Alexander-3904 is chronologically compatible and retained as an unselected alternative, rather than declared impossible. This subjective percentage assesses Jane’s father as the record-defined John Glasgow, farmer, named in John-867’s 1846 marriage. It does not identify the 1796 Desertoghill flax grower or establish John’s proposed Larne ancestry. Rosanna Unknown-761034 remains Jane’s separately unproved maternal attachment; this replacement does not identify John’s wife or prove a John–Rosanna marriage. Jane’s life dates and all existing relatives apart from the selected father are preserved. No live WikiTree edit is made. Catalogue inclusion is a separate coverage change; the research finding is the explicit father replacement, with no invented Unknown decline.",
+      "people": [
+        {
+          "id": "Glasglow-11",
+          "name": "Jane Catherine Dysart",
+          "url": "/people/glasglow-11.html",
+          "role": "Father replacement review"
+        },
+        {
+          "id": "Glasgow-4090",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-4090.html",
+          "role": "Father replacement review"
+        },
+        {
+          "id": "Glasgow-3904",
+          "name": "Older Alexander Glasgow",
+          "url": "/people/glasgow-3904.html",
+          "role": "Father replacement review"
+        },
+        {
+          "id": "Glasgow-4070",
+          "name": "Nancy Glasgow",
+          "url": "/people/glasgow-4070.html",
+          "role": "Father replacement review"
+        }
+      ],
+      "sources": [
+        {
+          "title": "John Glasgow–Margaret Garvin marriage, 16 November 1846",
+          "url": "https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1846/09306/5369439.pdf"
+        },
+        {
+          "title": "Nancy Glasgow probate citation, 1892",
+          "url": "https://www.nyshistoricnewspapers.org/?a=d&d=plts18920226-01.1.6"
+        },
+        {
+          "title": "Rasharkin baptisms, entries 82, 133, 176 and 271",
+          "url": "https://genealogy.torrens.org/BannValley/church/RasharkinP/Baptisms_1834.html"
+        },
+        {
+          "title": "Nancy Glasgow will, 1889; Clinton Will Book Q, pp. 255–259",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:33SQ-GYC4-66V?view=fullText"
+        },
+        {
+          "title": "James Dysart will, 31 March 1881; PRONI B-0028-0046/47",
+          "url": "https://apps.proni.gov.uk/willscalendar_ie/WillsSearchImage.aspx?id=182458"
+        },
+        {
+          "title": "Francis Bellingham–Ann Glasgow marriage, 18 February 1875",
+          "url": "https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1875/11190/8100682.pdf"
+        }
+      ],
+      "detail_url": "/people/glasglow-11.html#research-findings",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "Glasglow-11",
+          "relative": "Glasgow-4090",
+          "previous_relative": "Glasgow-3904",
+          "action": "replace",
+          "before": "unmarked",
+          "after": "certain",
+          "probability_percent": 92,
+          "explanation": "Jane’s identity is anchored by Nancy Glasgow’s express niece Margaret Kennedy, the Rasharkin baptism naming Margaret’s mother Jane Glascaw, and James Dysart’s 1881 will naming daughter Margaret Kennedy, son Robert and granddaughter Mary Anne McCaughern. The 1892 probate citation coherently identifies Jane Dysart’s wider child group. Mary Anne’s appearance as a witness at Ann Glasgow’s 1875 marriage independently links the Dysart descendants to John Glasgow-867’s household. That John’s 1846 marriage names father John Glasgow, farmer. The combined kinship, recorded Glasgow birth surnames, compatible generations and matched households support the same record-defined father for Jane at 92% confident inference, replacing the unsupported older-Alexander pedigree.",
+          "previous_status_provenance": "Captured Open WikiTree profile attaches Alexander Glasgow-3904 without a father certainty flag or individual percentage. Its parentage rests on an unsourced inherited family tree, not a parent-naming record."
+        }
+      ],
+      "provenance": [
+        "research/ancestry-connections/jane-dysart-father-review-2026-10-23.json",
+        "research/Glasglow-11/findings.md"
+      ]
     }
   ]
 }
