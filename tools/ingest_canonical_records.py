@@ -162,7 +162,7 @@ def plan(root: Path, record_ids: list[str]):
         if sid in docs and provider_key(docs[sid]) != provider:
             raise ValueError('Source ID collision')
         url_ids[provider] = [sid]
-        doc = docs.setdefault(sid, {'id': sid, 'title': row.get('association') or rid,
+        doc = docs.setdefault(sid, {'id': sid, 'title': row.get('source_title') or row.get('association') or rid,
                                   'url': url, 'reference': row.get('provider_record_id') or rid,
                                   'repository': '', 'grouping_basis': 'exact source URL',
                                   'members': [], 'citations': [], 'records': [], 'events': [],
@@ -179,6 +179,13 @@ def plan(root: Path, record_ids: list[str]):
                 raise ValueError(f'{rid}: explicit per-profile role required')
             linked.append((person, role))
         label = row.get('association') or rid
+        source_title = row.get('source_title') or label
+        # The inspected image does not turn a compiled history into a primary
+        # record, nor should ingestion relabel a reviewed manuscript derivative.
+        reviewed_quality = row.get('source_quality')
+        quality = ('original' if reviewed_quality in {'original', 'original_manuscript', 'original_register'}
+                   else 'secondary' if reviewed_quality in {'secondary', 'late_compiled_history'}
+                   else 'derivative')
         qualification = '; '.join(p['name'] + ': ' + role for p, role in linked)
         note = ' '.join(filter(None, [row.get('note'), qualification, 'Reviewed ' + row['reviewed_on'] + '; ' + row['provenance']]))
         category = ('Births and baptisms' if '/BAP/' in str(row.get('provider_record_id')) or 'baptis' in label.lower()
@@ -204,9 +211,9 @@ def plan(root: Path, record_ids: list[str]):
                       filter_year=year, region=country.title(), record_category=category,
                       association=label, note=note, location_id='', record_location=row.get('place') or '',
                       record_precision='Provider transcript place; not geocoded', evidence=row['status'],
-                      catalogue_url=person_url, person_url=person_url, place_url='', source_title=label,
+                      catalogue_url=person_url, person_url=person_url, place_url='', source_title=source_title,
                       source_url=url, source_type='Reviewed canonical record', source_status=row['status'],
-                      supporting_source_title=label, supporting_source_url=url, supporting_source_quality='derivative',
+                      supporting_source_title=source_title, supporting_source_url=url, supporting_source_quality=quality,
                       supporting_source_status='explicit', supporting_source_reason=row['status'],
                       country=country, research_date=False, document_id=sid, profile_context=deepcopy(context),
                       provenance=row['provenance'])
@@ -219,7 +226,7 @@ def plan(root: Path, record_ids: list[str]):
         new_compact.append(dict(id=rid, person=person_label, p=slug, year=record['year'], y=year,
                                 place=record['record_location'], location_id='', country=country,
                                 category=category, association=label + (' — ' + qualification if qualification else ''),
-                                status=row['status'], quality='derivative', title=label,
+                                status=row['status'], quality=quality, title=source_title,
                                 research_date=False, document_id=sid, citation='explicit'))
         source_records.setdefault(sid, []).append(dict(id=rid, person=slug, name=label, year=year, country=country.title(),
                                   date=record['year'], place=record['record_location'],
@@ -229,8 +236,8 @@ def plan(root: Path, record_ids: list[str]):
             eid = 'E-' + sha256((rid + '|' + person.get('id', '')).encode()).hexdigest()[:16]
             citations.append(dict(evidence_id=eid, person=person.get('id', ''), name=person.get('name', label),
                                   type=label, date=record['year'], place=record['record_location'],
-                                  assertion=role + '. ' + note, status='unassessed', quality='derivative',
-                                  source={'title': label, 'url': url, 'reference': doc['reference']}, claims=[]))
+                                  assertion=role + '. ' + note, status='unassessed', quality=quality,
+                                  source={'title': source_title, 'url': url, 'reference': doc['reference']}, claims=[]))
         doc['citations'] = merge(doc.get('citations', []), citations, 'evidence_id')
         doc['members'] = list(dict.fromkeys([*doc.get('members', []), *(p['id'] for p, _ in linked)]))
         selected_docs.add(sid)

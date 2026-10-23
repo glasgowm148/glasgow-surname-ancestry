@@ -83,6 +83,35 @@ class CanonicalRecordIngestTest(unittest.TestCase):
         self.assertGreater(first['changed_files'], 0)
         self.assertEqual(apply(self.root, ['new-canonical-id'], refresh_sources=False)['changed_files'], 0)
 
+    def test_reviewed_original_and_history_quality_survive_all_public_views(self):
+        for reviewed, expected in [('original_manuscript', 'original'),
+                                   ('original_register', 'original'),
+                                   ('late_compiled_history', 'secondary'),
+                                   ('derivative_transcription', 'derivative')]:
+            with self.subTest(reviewed=reviewed):
+                self.canonical.update(source_quality=reviewed, source_title='Exact archival citation')
+                self.put('research/canonical_records.json', [self.canonical])
+                writes = plan(self.root, ['new-canonical-id'])
+                record = writes[self.web / 'data/records-index.json'][1]
+                compact = writes[self.web / 'assets/research/record-index.json'][1]
+                source = writes[self.web / 'assets/v3/sources' / (self.source['id'] + '.json')]
+                self.assertEqual(record['supporting_source_quality'], expected)
+                self.assertEqual(compact['quality'], expected)
+                self.assertEqual(source['citations'][0]['quality'], expected)
+                self.assertEqual(record['source_title'], 'Exact archival citation')
+                self.assertEqual(compact['title'], 'Exact archival citation')
+                self.assertEqual(source['citations'][0]['source']['title'], 'Exact archival citation')
+                self.assertEqual(source['title'], 'Maintained title')
+
+    def test_new_source_uses_the_citation_title_not_the_family_assessment(self):
+        self.canonical.update(source_title='Exact archival citation', source_url='https://example.org/new')
+        self.canonical.pop('provider_record_id')
+        self.put('research/canonical_records.json', [self.canonical])
+        writes = plan(self.root, ['new-canonical-id'])
+        record = writes[self.web / 'data/records-index.json'][-1]
+        source = writes[self.web / 'assets/v3/sources' / (record['document_id'] + '.json')]
+        self.assertEqual(source['title'], 'Exact archival citation')
+
     def test_anonymous_record_does_not_invent_person(self):
         self.canonical['profiles'] = {}
         self.put('research/canonical_records.json', [self.canonical])
