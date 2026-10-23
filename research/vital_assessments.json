@@ -718,6 +718,162 @@
         }
       },
       "project_tree_vitals": true
+    },
+    {
+      "schema_version": 3,
+      "id": "andrew-glasgow-2468-fmp-birth-20261023",
+      "subject": "Glasgow-2468",
+      "status": "approved",
+      "reviewed": "2026-10-23",
+      "scope": "birth date correction only",
+      "basis": "Provider transcript indexes Andrew Glasgow birth 1746-10-24 separately from baptism 26 October 1746, Kilwinning; John Glasgow and Mary Auld; the printed register range 1789–1819 conflicts with the 1746 dates. Original parish register image not inspected. Existing birth-place field is carried forward unchanged; the transcript locates the baptism/residence but does not separately prove birthplace. Named parent roles do not revise the selected adult-profile identity or relationship grade.",
+      "source": {
+        "url": "/people/glasgow-2468.json",
+        "section": "research_findings / Birth and baptism correction — Findmypast review, 23 October 2026"
+      },
+      "summary": "Andrew Glasgow: indexed birth 1746-10-24; indexed baptism 26 October 1746. Birth date corrected from 1746-10-26.",
+      "vitals": {
+        "birth": {
+          "date": "1746-10-24",
+          "place": "Kilwinning, Ayrshire, Scotland",
+          "status": "exact",
+          "country": "scotland",
+          "qualifier": "Exact date in inspected Findmypast derivative transcript; original parish register image uninspected. Existing place carried forward without asserting a separately documented birthplace.",
+          "note": "Provider transcript indexes Andrew Glasgow birth 1746-10-24 separately from baptism 26 October 1746, Kilwinning; John Glasgow and Mary Auld; the printed register range 1789–1819 conflicts with the 1746 dates. Original parish register image not inspected. Existing birth-place field is carried forward unchanged; the transcript locates the baptism/residence but does not separately prove birthplace. Named parent roles do not revise the selected adult-profile identity or relationship grade.",
+          "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3628386&tab=this",
+          "source_level": "inspected provider transcript; original register image not inspected"
+        }
+      },
+      "catalogue_projection": {
+        "birth": "1746-10-24",
+        "birth_year": 1746,
+        "birth_note": "Exact date in inspected Findmypast derivative transcript; original parish register image uninspected. Existing place carried forward without asserting a separately documented birthplace.",
+        "date_years": [
+          1746
+        ],
+        "field_statuses": {
+          "birth": "unmarked",
+          "birth_location": "unmarked"
+        }
+      },
+      "project_tree_vitals": true
+    },
+    {
+      "schema_version": 3,
+      "id": "andrew-glasgow-1481-fmp-birth-20261023",
+      "subject": "Glasgow-1481",
+      "status": "approved",
+      "reviewed": "2026-10-23",
+      "scope": "birth date correction only",
+      "basis": "Provider transcript indexes Andrew Glasgow birth 1775-12-30 separately from baptism 5 January 1776, St Cuthberts, Edinburgh; Alexander Glasgow, brewer’s servant, and Agnes Cunningham; residence Grange. Companion record R_691341389 indexes the baptism year as birth year without a separate birth date. Original parish register image not inspected. Existing birth-place field is carried forward unchanged; the transcript locates the baptism/residence but does not separately prove birthplace. Named parent roles do not revise the selected adult-profile identity or relationship grade.",
+      "source": {
+        "url": "/people/glasgow-1481.json",
+        "section": "research_findings / Birth and baptism correction — Findmypast review, 23 October 2026"
+      },
+      "summary": "Andrew Glasgow: indexed birth 1775-12-30; indexed baptism 5 January 1776. Birth date corrected from before 1776-01-05.",
+      "vitals": {
+        "birth": {
+          "date": "1775-12-30",
+          "place": "Saint Cuthberts, Edinburgh, Midlothian, Scotland",
+          "status": "exact",
+          "country": "scotland",
+          "qualifier": "Exact date in inspected Findmypast derivative transcript; original parish register image uninspected. Existing place carried forward without asserting a separately documented birthplace.",
+          "note": "Provider transcript indexes Andrew Glasgow birth 1775-12-30 separately from baptism 5 January 1776, St Cuthberts, Edinburgh; Alexander Glasgow, brewer’s servant, and Agnes Cunningham; residence Grange. Companion record R_691341389 indexes the baptism year as birth year without a separate birth date. Original parish register image not inspected. Existing birth-place field is carried forward unchanged; the transcript locates the baptism/residence but does not separately prove birthplace. Named parent roles do not revise the selected adult-profile identity or relationship grade.",
+          "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0734610&tab=this",
+          "source_level": "inspected provider transcript; original register image not inspected"
+        }
+      },
+      "catalogue_projection": {
+        "birth": "1775-12-30",
+        "birth_year": 1775,
+        "birth_note": "Exact date in inspected Findmypast derivative transcript; original parish register image uninspected. Existing place carried forward without asserting a separately documented birthplace.",
+        "date_years": [
+          1775
+        ],
+        "field_statuses": {
+          "birth": "unmarked",
+          "birth_location": "unmarked"
+        }
+      },
+      "project_tree_vitals": true
+    },
+    {
+      "schema_version": 3,
+      "id": "andrew-glasgow-3400-fmp-birth-20261023",
+      "subject": "Glasgow-3400",
+      "status": "approved",
+      "reviewed": "2026-10-23",
+      "scope": "birth date correction only",
+      "basis": "Provider transcript indexes Andrew Glasgow birth 1790-03-27 separately from baptism 11 April 1790, Bathgate; Peter Glasgow and Elisabeth Dick. Original parish register image not inspected. Existing birth-place field is carried forward unchanged; the transcript locates the baptism/residence but does not separately prove birthplace. Named parent roles do not revise the selected adult-profile identity or relationship grade.",
+      "source": {
+        "url": "/people/glasgow-3400.json",
+        "section": "research_findings / Birth and baptism correction — Findmypast review, 23 October 2026"
+      },
+      "summary": "Andrew Glasgow: indexed birth 1790-03-27; indexed baptism 11 April 1790. Birth date corrected from 1790-04-11.",
+      "vitals": {
+        "birth": {
+          "date": "1790-03-27",
+          "place": "Bathgate, Linlithgowshire, Scotland",
+          "status": "exact",
+          "country": "scotland",
+          "qualifier": "Exact date in inspected Findmypast derivative transcript; original parish register image uninspected. Existing place carried forward without asserting a separately documented birthplace.",
+          "note": "Provider transcript indexes Andrew Glasgow birth 1790-03-27 separately from baptism 11 April 1790, Bathgate; Peter Glasgow and Elisabeth Dick. Original parish register image not inspected. Existing birth-place field is carried forward unchanged; the transcript locates the baptism/residence but does not separately prove birthplace. Named parent roles do not revise the selected adult-profile identity or relationship grade.",
+          "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4121897&tab=this",
+          "source_level": "inspected provider transcript; original register image not inspected"
+        }
+      },
+      "catalogue_projection": {
+        "birth": "1790-03-27",
+        "birth_year": 1790,
+        "birth_note": "Exact date in inspected Findmypast derivative transcript; original parish register image uninspected. Existing place carried forward without asserting a separately documented birthplace.",
+        "date_years": [
+          1790
+        ],
+        "field_statuses": {
+          "birth": "unmarked",
+          "birth_location": "unmarked"
+        }
+      },
+      "project_tree_vitals": true
+    },
+    {
+      "schema_version": 3,
+      "id": "catharine-glasgow-1451-fmp-birth-20261023",
+      "subject": "Glasgow-1451",
+      "status": "approved",
+      "reviewed": "2026-10-23",
+      "scope": "birth date correction only",
+      "basis": "Provider transcript indexes Catharine Glasgow birth 1780-08-20 separately from baptism 31 August 1780, Livingston; Thos Glasgow and Christian Davidson; residence Blackburne. Companion record R_685841001 confirms the baptism and parents but lacks a separate birth date. Original parish register image not inspected. Existing birth-place field is carried forward unchanged; the transcript locates the baptism/residence but does not separately prove birthplace. Named parent roles do not revise the selected adult-profile identity or relationship grade.",
+      "source": {
+        "url": "/people/glasgow-1451.json",
+        "section": "research_findings / Birth and baptism correction — Findmypast review, 23 October 2026"
+      },
+      "summary": "Catharine Glasgow: indexed birth 1780-08-20; indexed baptism 31 August 1780. Birth date corrected from c. 1780-08-31.",
+      "vitals": {
+        "birth": {
+          "date": "1780-08-20",
+          "place": "Livingston, Linlithgowshire, Scotland",
+          "status": "exact",
+          "country": "scotland",
+          "qualifier": "Exact date in inspected Findmypast derivative transcript; original parish register image uninspected. Existing place carried forward without asserting a separately documented birthplace.",
+          "note": "Provider transcript indexes Catharine Glasgow birth 1780-08-20 separately from baptism 31 August 1780, Livingston; Thos Glasgow and Christian Davidson; residence Blackburne. Companion record R_685841001 confirms the baptism and parents but lacks a separate birth date. Original parish register image not inspected. Existing birth-place field is carried forward unchanged; the transcript locates the baptism/residence but does not separately prove birthplace. Named parent roles do not revise the selected adult-profile identity or relationship grade.",
+          "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4152175&tab=this",
+          "source_level": "inspected provider transcript; original register image not inspected"
+        }
+      },
+      "catalogue_projection": {
+        "birth": "1780-08-20",
+        "birth_year": 1780,
+        "birth_note": "Exact date in inspected Findmypast derivative transcript; original parish register image uninspected. Existing place carried forward without asserting a separately documented birthplace.",
+        "date_years": [
+          1780
+        ],
+        "field_statuses": {
+          "birth": "unmarked",
+          "birth_location": "certain"
+        }
+      },
+      "project_tree_vitals": true
     }
   ]
 }

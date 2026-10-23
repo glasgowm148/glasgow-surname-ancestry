@@ -7,6 +7,8 @@ Current father assessment (22 October 2026): **95% (proved)** for [Glasgow-1227]
 
 Ann’s 1748 transcript names Abraham and Janet Cunninghame at Daviston, continuing David’s exact parental/residence combination. The father profile’s earlier childhood identification remains an inference.
 
+The 23 October 2026 Findmypast review below retains the recorded facts and qualified identity comparisons; no new person or relationship is proposed.
+
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-f3bc016a0f1d
 
 The transcript-validated baptism record for **Ann Glasgow**, 17 Jan 1748, Livingston, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
@@ -35,3 +37,13 @@ Next useful test: Inspect the 1741 marriage and original child records for adult
 This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Ann Glasgow, 17 Jan 1748, record SCOT/OPR/BAP/4151588](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4151588&tab=this)
+
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGES4-6-20261023 -->
+## Findmypast record and identity review — 23 October 2026
+
+HOLD — Edinburgh OPR 685_2/31 item 2 p.279: Ann Glasgow of Pleasance, age 71, widow of George Chalmers, buried 14 Apr 1816. Indexed 1745 birth is age-derived. Do not set an exact birth or attach spouse before identity review. No new person is proposed; absent corroboration and uncertain or baptism-derived birth estimates are not concrete exclusions.
+
+- [Findmypast SCOT/OPR/BUR/0399299](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F0399299&tab=this).
+
+[Shared record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). Identity comparisons do not assign events or alter family attachments.
+<!-- END FMP-BIRTH-SCOPE-PAGES4-6-20261023 -->

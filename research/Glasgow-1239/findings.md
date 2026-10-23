@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+**Page-4 birth-scope review, 23 October 2026:** The page-4 Livingston index is compatible with Andrew and his assessed parents; its January 1730 baptism date conflicts with the held 21 December 1729 transcript, so the exact register reading remains open.
+
 **23 October 2026:** Thomas Glasgow-1226 remains Andrew’s assessed father at **99%**. [Alexander Glasgow-3612](/people/glasgow-3612.html) is now a selected possible son at **42%**, through the compatible 1757 Mid Calder child. The two adult identities remain unproved; Andrew-3052 is retained as an unselected father alternative at 32%.
 
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-4fed7f93e588 -->
@@ -81,3 +83,8 @@ Reviewed: 22 October 2026.
 The inspected OPR 694/2 item 4 transcript indexes an unnamed child in 1757, baptism date literally “17 ? 1757”, father Andrew Glasgow and mother Janet Young. This Livingston 1730 Andrew is a compatible regional adult candidate; [Andrew Glasgow-3052](/people/glasgow-3052.html), born before 1720 in Kirknewton/East Calder, remains another. Neither identity is established. A different known spouse alone does not exclude either. Preserve the unread month and unnamed child; do not attach Janet Young or invent a child forename.
 
 <!-- BEGIN FMP-BIRTH-SCOPE-20261022 -->
+
+<!-- FMP-BIRTH-SCOPE-PAGES4-6-20261023 -->
+## Findmypast birth-scope page 4 match — 23 October 2026
+
+[Findmypast R_692406861](https://www.findmypast.co.uk/transcript?id=R_692406861&tab=this), Scotland, Parish Births & Baptisms 1564–1929, indexes Andrew Glasgow’s baptism only as **January 1730** at Livingston, with father Thomas Glasgow and mother Cathrine Clerkson. Those parent and place fields fit the existing [Andrew Glasgow-1239](https://www.wikitree.com/wiki/Glasgow-1239) and his assessed [Thomas Glasgow-1226](https://www.wikitree.com/wiki/Glasgow-1226) and [Cathrine Clarkson-2169](https://www.wikitree.com/wiki/Clarkson-2169) household. The held [SCOT/OPR/BAP/4151237 transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4151237&tab=this) instead gives **21 December 1729**. These may be different indexing of one entry, but that is unproved without the original Livingston register. Preserve the existing vital date and 99% father assessment; create no second Andrew. Provider transcripts were inspected; original images were not.

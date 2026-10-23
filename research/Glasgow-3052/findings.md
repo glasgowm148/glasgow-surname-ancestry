@@ -4,6 +4,8 @@
 
 **23 October 2026:** This Andrew remains an **unselected possible father alternative, 32%**, for [Alexander Glasgow-3612](/people/glasgow-3612.html). Andrew-1239 is the selected local father at 42%; no son is attached to this alternative.
 
+The 23 October 2026 Findmypast review below retains the recorded facts and qualified identity comparisons; no new person or relationship is proposed.
+
 ## Current conclusion — additional newspaper originals, 5 October 2026
 
 Andrew Glasgow, Leith society notice signatory, 1779: Uncertain 1720 Midlothian birth is compatible; no Leith society or signature bridge. No existing Andrew is identified. Three local candidates and other compatible chronological namesakes remain unresolved; missing records and uncertain bounds do not establish exclusions. The Leith notice does not prove family links or a particular society role. No family or life-date change follows.
@@ -112,3 +114,17 @@ The 22 October 2026 Findmypast review below records the matched events and quali
 
 <!-- site-audit-2026-10-07:overall-conclusion -->
 Andrew Glasgow is recorded on the family tree as born in 1720 at Kirknewton or East Calder, Midlothian, an uncertain date, and no record in this file yet documents his life. Newspaper notices of 1772, 1779 and 1790 naming an Andrew Glasgow (a miller at Calder, a preses of the Leith porters and a merchant in Kirkgate, Leith) were considered for this profile and withdrawn on 6 October 2026. His tree link as a brother of Robert Glasgow (Glasgow-1445) is unverified.
+
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGES4-6-20261023 -->
+## Findmypast record and identity review — 23 October 2026
+
+HOLD — Companion indexes give baptism 19 Oct 1731 at Kirknewton/East Calder, father named James Glasgow and mother blank. Glasgow-3052 remains a possible child comparison because his circa-1720 birth is estimated. The named father has no proved modern identity; do not assign James-1547 or any other James by name alone. No new person is proposed; absent corroboration and uncertain or baptism-derived birth estimates are not concrete exclusions.
+
+HOLD — Glasgow Lanarkshire baptism 10 Sep 1766, parents blank. Indexed birth year may be baptism-derived; neither child age nor relation to Edinburgh Dec 1766 event is established. Hold assignment among compatible namesakes; no new person. No new person is proposed; absent corroboration and uncertain or baptism-derived birth estimates are not concrete exclusions.
+
+- [Findmypast R_686207372](https://www.findmypast.co.uk/transcript?id=R_686207372&tab=this).
+- [Findmypast R_691904465](https://www.findmypast.co.uk/transcript?id=R_691904465&tab=this).
+- [Findmypast R_693237072](https://www.findmypast.co.uk/transcript?id=R_693237072&tab=this).
+
+[Shared record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). Identity comparisons do not assign events or alter family attachments.
+<!-- END FMP-BIRTH-SCOPE-PAGES4-6-20261023 -->

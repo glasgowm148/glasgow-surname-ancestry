@@ -2297,8 +2297,8 @@
     },
     "Glasgow-1481": {
       "draft_path": "research/Glasgow-1481/father-confidence-2026-10-22g.wiki",
-      "summary": "Add the cited record account: Possible Andrew Glasgow, Leith society and merchant notices, 1779–1790. Retain the stated identity and relationship limits. Review existing father at 64% (probable), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Add the cited record account: Possible Andrew Glasgow, Leith society and merchant notices, 1779–1790. Retain the stated identity and relationship limits. Review existing father at 64% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Andrew Glasgow: indexed birth 1775-12-30; indexed baptism 5 January 1776. Birth date corrected from before 1776-01-05. Original register image remains uninspected. Add the cited record account: Excluded 1779 Leith adult identity; unresolved 1790 comparison. Retain the stated identity and relationship limits. Review existing father at 64% (probable), retaining source and identity limits; no new father attachment.",
+      "work_queue_summary": "Andrew Glasgow: indexed birth 1775-12-30; indexed baptism 5 January 1776. Birth date corrected from before 1776-01-05. Original register image remains uninspected. Add the cited record account: Excluded 1779 Leith adult identity; unresolved 1790 comparison. Retain the stated identity and relationship limits. Review existing father at 64% (probable), retaining source and identity limits; no new father attachment.",
       "queued_at": "2026-10-22",
       "status": "OPEN",
       "pending": true,
@@ -2309,7 +2309,7 @@
       "private_comparison": false,
       "prior_work_summary": "",
       "profile_id": "Glasgow-1481",
-      "biography_rechecked_at": "2026-10-22",
+      "biography_rechecked_at": "2026-10-23",
       "relationship_changes": [
         {
           "action": "regrade",
@@ -2329,7 +2329,17 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation7-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation7-2026-10-22.json",
+      "vital_changes": [
+        {
+          "field": "birth",
+          "from": "before 1776-01-05",
+          "to": "1775-12-30",
+          "basis": "Provider transcript indexes Andrew Glasgow birth 1775-12-30 separately from baptism 5 January 1776, St Cuthberts, Edinburgh; Alexander Glasgow, brewer’s servant, and Agnes Cunningham; residence Grange. Companion record R_691341389 indexes the baptism year as birth year without a separate birth date. Original parish register image not inspected. Existing birth-place field is carried forward unchanged; the transcript locates the baptism/residence but does not separately prove birthplace. Named parent roles do not revise the selected adult-profile identity or relationship grade.",
+          "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0734610&tab=this",
+          "assessment_id": "andrew-glasgow-1481-fmp-birth-20261023"
+        }
+      ]
     },
     "Glasgow-1492": {
       "draft_path": "research/Glasgow-1492/father-confidence-2026-10-22f.wiki",
@@ -3308,8 +3318,8 @@
     },
     "Glasgow-2468": {
       "draft_path": "research/Glasgow-2468/father-confidence-2026-10-22g.wiki",
-      "summary": "Add the cited record account: Possible A. Retain the stated identity and relationship limits. Review existing father at 99% (proved), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Add the cited record account: Possible A. Retain the stated identity and relationship limits. Review existing father at 99% (proved), retaining source and identity limits; no new father attachment.",
+      "summary": "Andrew Glasgow: indexed birth 1746-10-24; indexed baptism 26 October 1746. Birth date corrected from 1746-10-26. Original register image remains uninspected. Add the cited record account: Possible A. Retain the stated identity and relationship limits. Review existing father at 99% (proved), retaining source and identity limits; no new father attachment.",
+      "work_queue_summary": "Andrew Glasgow: indexed birth 1746-10-24; indexed baptism 26 October 1746. Birth date corrected from 1746-10-26. Original register image remains uninspected. Add the cited record account: Possible A. Retain the stated identity and relationship limits. Review existing father at 99% (proved), retaining source and identity limits; no new father attachment.",
       "queued_at": "2026-10-22",
       "status": "OPEN",
       "pending": true,
@@ -3320,7 +3330,7 @@
       "private_comparison": false,
       "prior_work_summary": "",
       "profile_id": "Glasgow-2468",
-      "biography_rechecked_at": "2026-10-22",
+      "biography_rechecked_at": "2026-10-23",
       "relationship_changes": [
         {
           "action": "regrade",
@@ -3340,7 +3350,17 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation7-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation7-2026-10-22.json",
+      "vital_changes": [
+        {
+          "field": "birth",
+          "from": "1746-10-26",
+          "to": "1746-10-24",
+          "basis": "Provider transcript indexes Andrew Glasgow birth 1746-10-24 separately from baptism 26 October 1746, Kilwinning; John Glasgow and Mary Auld; the printed register range 1789–1819 conflicts with the 1746 dates. Original parish register image not inspected. Existing birth-place field is carried forward unchanged; the transcript locates the baptism/residence but does not separately prove birthplace. Named parent roles do not revise the selected adult-profile identity or relationship grade.",
+          "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3628386&tab=this",
+          "assessment_id": "andrew-glasgow-2468-fmp-birth-20261023"
+        }
+      ]
     },
     "Glasgow-2473": {
       "draft_path": "research/Glasgow-2473/father-confidence-2026-10-22f.wiki",
@@ -22609,11 +22629,11 @@
       "status": "OPEN",
       "pending": true,
       "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
+      "biography_rechecked_at": "2026-10-23",
       "draft_path": "research/Glasgow-1451/father-confidence-2026-10-22g.wiki",
       "findings_path": "research/Glasgow-1451/findings.md",
-      "summary": "Review existing father at 71% (probable), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 71% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Catharine Glasgow: indexed birth 1780-08-20; indexed baptism 31 August 1780. Birth date corrected from c. 1780-08-31. Original register image remains uninspected. Review existing father at 71% (probable), retaining source and identity limits; no new father attachment.",
+      "work_queue_summary": "Catharine Glasgow: indexed birth 1780-08-20; indexed baptism 31 August 1780. Birth date corrected from c. 1780-08-31. Original register image remains uninspected. Review existing father at 71% (probable), retaining source and identity limits; no new father attachment.",
       "relationship_changes": [
         {
           "action": "regrade",
@@ -22633,7 +22653,17 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation7-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation7-2026-10-22.json",
+      "vital_changes": [
+        {
+          "field": "birth",
+          "from": "c. 1780-08-31",
+          "to": "1780-08-20",
+          "basis": "Provider transcript indexes Catharine Glasgow birth 1780-08-20 separately from baptism 31 August 1780, Livingston; Thos Glasgow and Christian Davidson; residence Blackburne. Companion record R_685841001 confirms the baptism and parents but lacks a separate birth date. Original parish register image not inspected. Existing birth-place field is carried forward unchanged; the transcript locates the baptism/residence but does not separately prove birthplace. Named parent roles do not revise the selected adult-profile identity or relationship grade.",
+          "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4152175&tab=this",
+          "assessment_id": "catharine-glasgow-1451-fmp-birth-20261023"
+        }
+      ]
     },
     "Glasgow-2103": {
       "profile_id": "Glasgow-2103",
@@ -23300,11 +23330,11 @@
       "status": "OPEN",
       "pending": true,
       "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
+      "biography_rechecked_at": "2026-10-23",
       "draft_path": "research/Glasgow-3400/father-confidence-2026-10-22g.wiki",
       "findings_path": "research/Glasgow-3400/findings.md",
-      "summary": "Review existing father at 82% (probable), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 82% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Andrew Glasgow: indexed birth 1790-03-27; indexed baptism 11 April 1790. Birth date corrected from 1790-04-11. Original register image remains uninspected. Review existing father at 82% (probable), retaining source and identity limits; no new father attachment.",
+      "work_queue_summary": "Andrew Glasgow: indexed birth 1790-03-27; indexed baptism 11 April 1790. Birth date corrected from 1790-04-11. Original register image remains uninspected. Review existing father at 82% (probable), retaining source and identity limits; no new father attachment.",
       "relationship_changes": [
         {
           "action": "regrade",
@@ -23324,7 +23354,17 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation7-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation7-2026-10-22.json",
+      "vital_changes": [
+        {
+          "field": "birth",
+          "from": "1790-04-11",
+          "to": "1790-03-27",
+          "basis": "Provider transcript indexes Andrew Glasgow birth 1790-03-27 separately from baptism 11 April 1790, Bathgate; Peter Glasgow and Elisabeth Dick. Original parish register image not inspected. Existing birth-place field is carried forward unchanged; the transcript locates the baptism/residence but does not separately prove birthplace. Named parent roles do not revise the selected adult-profile identity or relationship grade.",
+          "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4121897&tab=this",
+          "assessment_id": "andrew-glasgow-3400-fmp-birth-20261023"
+        }
+      ]
     },
     "Glasgow-144": {
       "profile_id": "Glasgow-144",

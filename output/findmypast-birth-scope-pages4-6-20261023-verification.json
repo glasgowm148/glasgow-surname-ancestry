@@ -1,0 +1,79 @@
+{
+  "reviewed_search_result_rows": 60,
+  "indexed_provider_records_in_capture": 121,
+  "pages_1_to_6_rows": 120,
+  "supporting_records": 1,
+  "new_records_pages_4_to_6": 60,
+  "unique_source_readers": 60,
+  "unassigned_holds_checked": 13,
+  "new_people_from_unassigned_holds": 0,
+  "full_compact_vital_agreement": [
+    "Glasgow-2468",
+    "Glasgow-1481",
+    "Glasgow-3400",
+    "Glasgow-1451"
+  ],
+  "retired_allan_alias_resolves_to": "Glasgow-4110",
+  "crossle_abstract_image_inspected": 1,
+  "original_register_or_census_sheets_inspected": 0,
+  "overall_search_coverage": "INCOMPLETE",
+  "remaining_query_pages": "7–294",
+  "all_captured_provider_records_retained": 121,
+  "total_unassigned_holds_in_capture": 18,
+  "new_batch_transcript_fingerprints_verified": 60,
+  "welshpool_country": "wales; literal NBI England retained as source conflict",
+  "tree_vital_projection": {
+    "selected_births": 4,
+    "unrelated_person_rows_unchanged": true,
+    "family_graph_unchanged": true,
+    "catalogue_projection_preexisting": true,
+    "dossiers_preexisting": true,
+    "networks_preexisting": true,
+    "resolver_projection_preexisting": true,
+    "embedded_standalone_matches_model": true,
+    "atlas_packed_matches_model": true,
+    "full_people_projection_preexisting": true
+  },
+  "catalogue_filter_membership_agreement": {
+    "has_profile": 4775,
+    "missing_profile": 90,
+    "needs_wikitree_update": 1583
+  },
+  "catalogue_rows_checked": 4871,
+  "all_captured_source_routes_in_xml_and_source_directory": 121,
+  "reader_sitemap_links_to_complete_source_directory": true,
+  "all_captured_source_readers_have_one_heading_and_provider_link": 121,
+  "finalization": {
+    "mode": "targeted retirement/search/sitemap finalization",
+    "catalogue": {
+      "catalogue_fast_bytes": 6059650,
+      "catalogue_full_bytes": 22660794,
+      "catalogue_people": 4871,
+      "catalogue_versioned_files": 5
+    },
+    "site_search": {
+      "shared_search_assets": 1
+    },
+    "version_passes": 3,
+    "sitemap": {
+      "sitemap_urls": 23303,
+      "sitemap_reader_pages": 1250
+    }
+  },
+  "source_readers_repaired": [
+    "s-db4409cf76ee9ab7",
+    "s-207c67e380e15310"
+  ],
+  "local_browser_check": "Glasgow-1481 shows1775-12-30birth andNeedsWikiTreeupdate;father64%unchanged",
+  "browser_cleanup": "Closed the one task-owned IAB verification tab; no task tabs remained; reset task CUA runtime. No process/RAM saving claimed.",
+  "link_check": {
+    "broken": 7,
+    "page_target_pairs": 4,
+    "new_pairs": 0,
+    "missing_person_anchors_not_gated": 83
+  },
+  "post_reader_repair_asset_stamps": {
+    "passes": 3,
+    "remaining_references": 0
+  }
+}

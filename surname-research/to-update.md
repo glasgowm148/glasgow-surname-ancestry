@@ -1201,7 +1201,7 @@ READY rows have passed the distinct-person and no-compatible-profile checks; doc
 | Isabel Glasgow | OPEN | Add 26 Apr 1741 Findmypast evidence (fmp-glasgow-a 2 dbbb 6 de 106); READY | [Draft](research/Glasgow-4121/1741_Scotland_Irvine_Isabel_Glasgow.md) |
 | John Glasgow | OPEN | Add 06 Aug 1741 Findmypast evidence (fmp-glasgow-8534 eaed 42 d 0); READY | [Draft](research/Glasgow-4116/1741_Scotland_Irvine_John_Glasgow.md) |
 | Hugh Glasgow | OPEN | Add 29 Aug 1742 Findmypast evidence (fmp-glasgow-120 b 52 e 4 bd 76); READY | [Draft](research/Glasgow-4104/1742_Scotland_Kilmarnock_Hugh_Glasgow.md) |
-| Allan Glasgow | OPEN | Add 22 May 1743 Findmypast evidence (fmp-glasgow-38 a 943 ed 5 dc 4); READY | [Draft](research/Glasgow-4110/1743_Scotland_Irvine_Allan_Glasgow.md) |
+| Allan Glasgow | CLOSED | Earlier creation READY withdrawn 23 October 2026: Findmypast `SCOT/OPR/BAP/3575202` already supports existing Glasgow-4110; retain the separate outstanding father-field amendment. | [Findings](../research/Glasgow-4110/findings.md) |
 | Magdalen Glasgow | OPEN | Add 29 Mar 1743 Findmypast evidence (fmp-glasgow-10 ad 472195 e 9); READY | [Draft](research/Glasgow-4103/1743_Scotland_Irvine_Magdalen_Glasgow.md) |
 | Mary Glasgow | OPEN | Add 11 Apr 1744 Findmypast evidence (fmp-glasgow-32 d 4 ff 293591); READY | [Draft](research/Glasgow-4108/1744_Scotland_Kilmarnock_Mary_Glasgow.md) |
 | Mary Glasgow | OPEN | Add 21 Apr 1745 Findmypast evidence (fmp-glasgow-ba 0 ccce 5 c 268); READY | [Draft](research/Glasgow-4126/1745_Scotland_Irvine_Mary_Glasgow.md) |

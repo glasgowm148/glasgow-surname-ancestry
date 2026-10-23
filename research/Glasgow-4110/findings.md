@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+**Page-4 birth-scope review, 23 October 2026:** The page-4 birth-scope review confirms the already cited Irvine transcript for Allan (birth 15 May, baptism 22 May 1743); it adds no new person, vital correction or relationship assessment.
+
 Reviewed 18 October 2026. **Add James Glasgow-4157 as Allan’s missing father, documented at 98%.**
 
 James Glasgow-4157 is the documented father of Allan Glasgow-4110 at 98% subjective confidence. Allan’s maintained Findmypast baptism transcript explicitly names James Glasgow and Helen Nasmith at Irvine on 22 May 1743, with birth on 15 May. James-4157 is the existing adult account defined by this same three-child household, not a name-only match to a separately known shipmaster. John’s 1741 baptism names James Glasgow and Helen Nasmith, and Susanna’s 1747 entry names Jas Glasgow and Helen Macsmith. The shared parish, father, maternal forename and compatible sequence support one household, with Macsmith retained as the indexed maternal variant. Allan’s own entry supplies the father directly; the siblings independently support the identification.
@@ -33,3 +35,8 @@ Inspect the original Irvine OPR595/1 entries for the maternal Macsmith/Nasmith r
 - [Findmypast, Scotland Parish Births & Baptisms, Irvine OPR595/1, John Glasgow, 6 August 1741, SCOT/OPR/BAP/3575071; maintained 3 September 2026 transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3575071&tab=this)
 - [Findmypast, Scotland Parish Births & Baptisms, Irvine OPR595/1, Allan Glasgow, 22 May 1743, SCOT/OPR/BAP/3575202; maintained 3 September 2026 transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3575202&tab=this)
 - [Findmypast, Scotland Parish Births & Baptisms, Irvine OPR595/1, Susanna Glasgow, 29 March 1747, SCOT/OPR/BAP/3575478; maintained 3 September 2026 transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3575478&tab=this)
+
+<!-- FMP-BIRTH-SCOPE-PAGES4-6-20261023 -->
+## Findmypast birth-scope page 4 match — 23 October 2026
+
+The page-4 Findmypast result [SCOT/OPR/BAP/3575202](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3575202&tab=this), Scotland, Parish Births & Baptisms 1564–1929, indexes Allan’s birth on 15 May and baptism on 22 May 1743 at Irvine (OPR 595/1, item 1). It names [James Glasgow-4157](https://www.wikitree.com/wiki/Glasgow-4157) and [Helen Nasmith-37](https://www.wikitree.com/wiki/Nasmith-37). This is the same source and household already assessed above, not an independent second witness. The provider transcript was inspected; the original register image was not.

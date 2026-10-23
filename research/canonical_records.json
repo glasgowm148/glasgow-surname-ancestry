@@ -5695,26 +5695,32 @@
   {
     "record_id": "irvine-nasmith-allan-1743",
     "record_type": "baptism",
-    "date": "1743-05-22",
+    "date": "22 May 1743",
     "year": 1743,
     "place": "Irvine, Ayrshire, Scotland",
     "source_title": "Findmypast, Scotland Parish Births & Baptisms, Irvine OPR595/1, Allan Glasgow, 22 May 1743, SCOT/OPR/BAP/3575202; maintained 3 September 2026 transcript",
     "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3575202&tab=this",
-    "source_type": "Parish baptism transcript",
-    "source_status": "Previously captured derivative transcript reused; original uninspected",
-    "status": "Reviewed household interpretation, 18 October 2026",
-    "note": "Names father James/Jas Glasgow; mother Helen Nasmith, or Macsmith in the 1747 transcript. Record-defined father relationship 98%; later shipmaster identity and upstream ancestry remain unresolved.",
+    "source_type": "Parish birth and baptism transcript",
+    "source_status": "Inspected provider transcript; original register image uninspected",
+    "status": "Inspected provider transcript; original register image uninspected",
+    "note": "Irvine OPR 595/1 item 1: Allan born 15 May and baptised 22 May 1743; already held citation and household. Original image uninspected; no new person or relationship change. External profile context: Nasmith-37 (indexed mother; existing profile), https://www.wikitree.com/wiki/Nasmith-37; no local destination is invented. Companion indexes of one event are not independent corroboration. Source level: Inspected provider transcript; original register image uninspected.",
     "profiles": {
       "Glasgow-4110": {
-        "role": "Baptised child"
+        "role": "indexed child; existing profile match",
+        "timeline_group": "Records mentioning this person"
       },
       "Glasgow-4157": {
-        "role": "Named father, existing household account"
-      },
-      "Nasmith-37": {
-        "role": "Named mother, indexed Nasmith/Macsmith"
+        "role": "indexed father; existing assessed profile",
+        "timeline_group": "Records mentioning this person"
       }
-    }
+    },
+    "provider_record_id": "SCOT/OPR/BAP/3575202",
+    "association": "Allan Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Allan Glasgow",
+    "country": "Scotland",
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
   },
   {
     "record_id": "irvine-nasmith-susanna-1747",
@@ -18095,22 +18101,37 @@
   },
   {
     "record_id": "held-e-deb8cd99605f",
-    "record_type": "Previously held source citation",
-    "date": null,
-    "place": null,
-    "association": "Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Andrew Glasgow, 26 Oct 1746, record SCOT/OPR/BAP/3628386",
+    "record_type": "baptism",
+    "date": "26 Oct 1746",
+    "place": "Kilwinning, Ayrshire, Scotland",
+    "association": "Andrew Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
     "source_title": "Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Andrew Glasgow, 26 Oct 1746, record SCOT/OPR/BAP/3628386",
     "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3628386&tab=this",
-    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
-    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
-    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "source_type": "Parish birth and baptism transcript",
+    "source_status": "Inspected provider transcript; original register image uninspected",
+    "status": "Inspected provider transcript; original register image uninspected",
     "profiles": {
       "Glasgow-2468": {
-        "role": "Previously cited subject; relationship scope in the father assessment"
+        "role": "recorded child; John Glasgow and Mary Auld are named parents",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-2467": {
+        "role": "Named father John; current adult-profile identification retained without regrading",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Auld-1724": {
+        "role": "Named mother Mary Auld; current family comparison",
+        "timeline_group": "Records mentioning this person"
       }
     },
-    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
-    "provenance": "research/ancestry-connections/father-coverage-review7-2026-10-22.json"
+    "note": "Andrew Glasgow; separate birth and baptism dates; OPR register year range conflicts and needs image check. Companion indexes of one event are not independent corroboration. Source level: Inspected provider transcript; original register image uninspected.",
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "provider_record_id": "SCOT/OPR/BAP/3628386",
+    "person": "Andrew Glasgow",
+    "year": 1746,
+    "country": "Scotland",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
   },
   {
     "record_id": "held-e-4a410819054f",
@@ -31092,5 +31113,1408 @@
       "source_url": "https://genealogytrails.com/ill/peoria/bio/biosMc.html",
       "basis": "The entry explicitly places subject Martha’s birth in1810; her named father belongs to the preceding generation. The1835 son is a source identifier, not a new person proposal."
     }
+  },
+  {
+    "record_id": "fmp-record-r-692406861",
+    "provider_record_id": "R_692406861",
+    "association": "Andrew Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Andrew Glasgow",
+    "date": "Jan 1730",
+    "year": 1730,
+    "place": "Livingston, Linlithgowshire (West Lothian), Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_692406861&tab=this",
+    "status": "Inspected provider transcript; original register image uninspected",
+    "note": "Livingston index gives baptism Jan 1730, whereas held SCOT/OPR/BAP/4151237 gives 21 Dec 1729. Original register required to reconcile; retain current vital and father assessment. Companion indexes of one event are not independent corroboration. Source level: Inspected provider transcript; original register image uninspected.",
+    "profiles": {
+      "Glasgow-1239": {
+        "role": "indexed child; compatible existing profile",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1226": {
+        "role": "indexed father Thomas; existing assessed profile",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Clarkson-2169": {
+        "role": "indexed mother Cathrine Clerkson; compatible existing profile",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-685316023",
+    "provider_record_id": "R_685316023",
+    "association": "Andrew Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Andrew Glasgow",
+    "date": "22 May 1733",
+    "year": 1733,
+    "place": "Irvine, Ayrshire, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_685316023&tab=this",
+    "status": "Inspected provider transcript; original register image uninspected",
+    "note": "Irvine baptism 22 May 1733 is distinct from existing 21 May 1733 birth claim; indexed birth year is not separate birth date. Original image uninspected; retain current vitals and possible father assessment. Companion indexes of one event are not independent corroboration. Source level: Inspected provider transcript; original register image uninspected.",
+    "profiles": {
+      "Glasgow-3313": {
+        "role": "indexed child; compatible existing profile",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1058": {
+        "role": "indexed father George; possible existing profile identification",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Martin-103040": {
+        "role": "indexed mother Margaret; compatible existing profile identification",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-686351978",
+    "provider_record_id": "R_686351978",
+    "association": "Andrew Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Andrew Glasgow",
+    "date": "11 Jan 1747",
+    "year": 1747,
+    "place": "West Calder, Midlothian, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_686351978&tab=this",
+    "status": "Inspected provider transcript; original register image uninspected",
+    "note": "Two derivative rows describe one West Calder baptism 11 Jan 1747. No independent birth date or later adult identity proof; original image uninspected. Companion indexes of one event are not independent corroboration. Source level: Inspected provider transcript; original register image uninspected.",
+    "profiles": {
+      "Glasgow-1333": {
+        "role": "indexed child; compatible existing profile",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-81": {
+        "role": "indexed father John; existing selected profile",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Guthrie-777": {
+        "role": "indexed mother Magdalen; compatible existing profile",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-687778368",
+    "provider_record_id": "R_687778368",
+    "association": "Andrew Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Andrew Glasgow",
+    "date": "11 Jan 1747",
+    "year": 1747,
+    "place": "West Calder, Midlothian, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_687778368&tab=this",
+    "status": "Inspected provider transcript; original register image uninspected",
+    "note": "Two derivative rows describe one West Calder baptism 11 Jan 1747. No independent birth date or later adult identity proof; original image uninspected. Companion indexes of one event are not independent corroboration. Source level: Inspected provider transcript; original register image uninspected.",
+    "profiles": {
+      "Glasgow-1333": {
+        "role": "indexed child; compatible existing profile",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-81": {
+        "role": "indexed father John; existing selected profile",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Guthrie-777": {
+        "role": "indexed mother Magdalen; compatible existing profile",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-4884245",
+    "provider_record_id": "SCOT/OPR/BAP/4884245",
+    "association": "Andrew Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Andrew Glasgow",
+    "date": "29 Nov 1767",
+    "year": 1767,
+    "place": "Simprim & Swinton, Berwickshire, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4884245&tab=this",
+    "status": "Inspected provider transcript; original register image uninspected",
+    "note": "One Swinton and Simprin baptism on 29 Nov 1767; OPR transcript separately gives birth 25 Nov, residence Longbank, OPR 755/1 item 8 p. 19. Original image uninspected; no new person or relationship. Companion indexes of one event are not independent corroboration. Source level: Inspected provider transcript; original register image uninspected.",
+    "profiles": {
+      "Glasgow-1616": {
+        "role": "indexed child; existing profile match",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1218": {
+        "role": "indexed father David; selected existing profile, identity assessment retained",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Hood-6028": {
+        "role": "indexed mother Janet; existing profile",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-686575880",
+    "provider_record_id": "R_686575880",
+    "association": "Andrew Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Andrew Glasgow",
+    "date": "29 Nov 1767",
+    "year": 1767,
+    "place": "Swinton and Simprin, Berwickshire, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_686575880&tab=this",
+    "status": "Inspected provider transcript; original register image uninspected",
+    "note": "One Swinton and Simprin baptism on 29 Nov 1767; OPR transcript separately gives birth 25 Nov, residence Longbank, OPR 755/1 item 8 p. 19. Original image uninspected; no new person or relationship. Companion indexes of one event are not independent corroboration. Source level: Inspected provider transcript; original register image uninspected.",
+    "profiles": {
+      "Glasgow-1616": {
+        "role": "indexed child; existing profile match",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1218": {
+        "role": "indexed father David; selected existing profile, identity assessment retained",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Hood-6028": {
+        "role": "indexed mother Janet; existing profile",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-688628323",
+    "provider_record_id": "R_688628323",
+    "association": "Ann Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Ann Glasgow",
+    "date": "03 Sep 1749",
+    "year": 1749,
+    "place": "Kilmarnock, Ayrshire, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_688628323&tab=this",
+    "status": "Inspected provider transcript; original register image uninspected",
+    "note": "Two derivative rows describe one Kilmarnock baptism on 3 Sep 1749. Existing 25 Aug birth date is a separate claim absent from these transcripts. Original image uninspected; no new person or relationship. Companion indexes of one event are not independent corroboration. Source level: Inspected provider transcript; original register image uninspected.",
+    "profiles": {
+      "Glasgow-3468": {
+        "role": "indexed child; existing profile match",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1929": {
+        "role": "indexed father Hugh; selected existing profile, identity assessment retained",
+        "timeline_group": "Records mentioning this person"
+      },
+      "McEachin-120": {
+        "role": "indexed mother Margaret McGechen; compatible existing profile",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-685318866",
+    "provider_record_id": "R_685318866",
+    "association": "Ann Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Ann Glasgow",
+    "date": "03 Sep 1749",
+    "year": 1749,
+    "place": "Kilmarnock, Ayrshire, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_685318866&tab=this",
+    "status": "Inspected provider transcript; original register image uninspected",
+    "note": "Two derivative rows describe one Kilmarnock baptism on 3 Sep 1749. Existing 25 Aug birth date is a separate claim absent from these transcripts. Original image uninspected; no new person or relationship. Companion indexes of one event are not independent corroboration. Source level: Inspected provider transcript; original register image uninspected.",
+    "profiles": {
+      "Glasgow-3468": {
+        "role": "indexed child; existing profile match",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1929": {
+        "role": "indexed father Hugh; selected existing profile, identity assessment retained",
+        "timeline_group": "Records mentioning this person"
+      },
+      "McEachin-120": {
+        "role": "indexed mother Margaret McGechen; compatible existing profile",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-0734610",
+    "provider_record_id": "SCOT/OPR/BAP/0734610",
+    "association": "Andrew Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Andrew Glasgow",
+    "date": "05 Jan 1776",
+    "year": 1776,
+    "place": "Edinburgh, Midlothian, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0734610&tab=this",
+    "status": "Inspected provider transcript; original register image uninspected",
+    "note": "One St Cuthberts baptism represented by companion indexes; 1775 birth date supplied by OPR transcript; father adult-profile identification remains 64%. Companion indexes of one event are not independent corroboration. Source level: Inspected provider transcript; original register image uninspected.",
+    "profiles": {
+      "Glasgow-1481": {
+        "role": "recorded child; Alexander Glasgow and Agnes Cunningham are named parents",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1321": {
+        "role": "Named father Alexander; current adult-profile identification retained without regrading",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Cunningham-20926": {
+        "role": "Named mother Agnes Cunningham; current family comparison",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-691341389",
+    "provider_record_id": "R_691341389",
+    "association": "Andrew Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Andrew Glasgow",
+    "date": "05 Jan 1776",
+    "year": 1776,
+    "place": "Edinburgh, Midlothian, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_691341389&tab=this",
+    "status": "Inspected provider transcript; original register image uninspected",
+    "note": "One St Cuthberts baptism represented by companion indexes; 1775 birth date supplied by OPR transcript; father adult-profile identification remains 64%. Companion indexes of one event are not independent corroboration. Source level: Inspected provider transcript; original register image uninspected.",
+    "profiles": {
+      "Glasgow-1481": {
+        "role": "recorded child; Alexander Glasgow and Agnes Cunningham are named parents",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1321": {
+        "role": "Named father Alexander; current adult-profile identification retained without regrading",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Cunningham-20926": {
+        "role": "Named mother Agnes Cunningham; current family comparison",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-4121897",
+    "provider_record_id": "SCOT/OPR/BAP/4121897",
+    "association": "Andrew Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Andrew Glasgow",
+    "date": "11 Apr 1790",
+    "year": 1790,
+    "place": "Bathgate, Linlithgowshire (West Lothian), Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4121897&tab=this",
+    "status": "Inspected provider transcript; original register image uninspected",
+    "note": "Bathgate child; exact birth from OPR transcript; Peter adult-profile identification remains 82%. Companion indexes of one event are not independent corroboration. Source level: Inspected provider transcript; original register image uninspected.",
+    "profiles": {
+      "Glasgow-3400": {
+        "role": "recorded child; Peter Glasgow and Elisabeth Dick are named parents",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1466": {
+        "role": "Named father Peter; current adult-profile identification retained without regrading",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Dick-6841": {
+        "role": "Named mother Elisabeth Dick; current family comparison",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-4152175",
+    "provider_record_id": "SCOT/OPR/BAP/4152175",
+    "association": "Catharine Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Catharine Glasgow",
+    "date": "31 Aug 1780",
+    "year": 1780,
+    "place": "Livingston, Linlithgowshire (West Lothian), Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4152175&tab=this",
+    "status": "Inspected provider transcript; original register image uninspected",
+    "note": "One Livingston baptism represented by companion indexes; 20 August birth from OPR transcript; selected Thomas profile identity remains 71%. Companion indexes of one event are not independent corroboration. Source level: Inspected provider transcript; original register image uninspected.",
+    "profiles": {
+      "Glasgow-1451": {
+        "role": "recorded child; Thos/Thomas Glasgow and Christian Davidson are named parents",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1382": {
+        "role": "Named father Thos; current probable adult-profile comparison, not independently identified by transcript",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Davidson-14073": {
+        "role": "Named mother Christian Davidson; existing family comparison",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-685841001",
+    "provider_record_id": "R_685841001",
+    "association": "Catharine Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Catharine Glasgow",
+    "date": "31 Aug 1780",
+    "year": 1780,
+    "place": "Livingston, Linlithgowshire (West Lothian), Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_685841001&tab=this",
+    "status": "Inspected provider transcript; original register image uninspected",
+    "note": "One Livingston baptism represented by companion indexes; 20 August birth from OPR transcript; selected Thomas profile identity remains 71%. Companion indexes of one event are not independent corroboration. Source level: Inspected provider transcript; original register image uninspected.",
+    "profiles": {
+      "Glasgow-1451": {
+        "role": "recorded child; Thos/Thomas Glasgow and Christian Davidson are named parents",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1382": {
+        "role": "Named father Thos; current probable adult-profile comparison, not independently identified by transcript",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Davidson-14073": {
+        "role": "Named mother Christian Davidson; existing family comparison",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-685660464",
+    "provider_record_id": "R_685660464",
+    "association": "Bessie Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Bessie Glasgow",
+    "date": "30 Jun 1750",
+    "year": 1750,
+    "place": "Covington and Thankerton, Lanarkshire, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_685660464&tab=this",
+    "status": "Inspected provider transcript; original register image uninspected",
+    "note": "Same Bessie baptism, 30 Jun 1750, Covington and Thankerton, George Glasgow / Agnes Williamson; securely reuses Glasgow-1125 and prior SCOT/OPR/BAP/3881487 (OPR 634/3 item 3 p.267, father weaver, Nether Warenhill). Indexed birth 1750 is not separate birth-date proof. Original image uninspected. External profile context: Williamson-12853 (recorded mother), https://www.wikitree.com/wiki/Williamson-12853; no local destination is invented. Companion indexes of one event are not independent corroboration. Source level: Inspected provider transcript; original register image uninspected.",
+    "profiles": {
+      "Glasgow-1125": {
+        "role": "subject",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1070": {
+        "role": "recorded father",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-689420966",
+    "provider_record_id": "R_689420966",
+    "association": "Bessie Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Bessie Glasgow",
+    "date": "30 Jun 1750",
+    "year": 1750,
+    "place": "Covington and Thankerton, Lanarkshire, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_689420966&tab=this",
+    "status": "Inspected provider transcript; original register image uninspected",
+    "note": "Same Bessie baptism, 30 Jun 1750, Covington and Thankerton, George Glasgow / Agnes Williamson; securely reuses Glasgow-1125 and prior SCOT/OPR/BAP/3881487 (OPR 634/3 item 3 p.267, father weaver, Nether Warenhill). Indexed birth 1750 is not separate birth-date proof. Original image uninspected. External profile context: Williamson-12853 (recorded mother), https://www.wikitree.com/wiki/Williamson-12853; no local destination is invented. Companion indexes of one event are not independent corroboration. Source level: Inspected provider transcript; original register image uninspected.",
+    "profiles": {
+      "Glasgow-1125": {
+        "role": "subject",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1070": {
+        "role": "recorded father",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-gbprs-lanarkshire-bur-020574",
+    "provider_record_id": "GBPRS/LANARKSHIRE/BUR/020574",
+    "association": "Bessie Glasgow — Scotland, Parish Deaths & Burials 1564-2017",
+    "person": "Bessie Glasgow",
+    "date": "27 Mar 1751",
+    "year": 1751,
+    "place": "Covington & Thankerton, Lanarkshire, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FLANARKSHIRE%2FBUR%2F020574&tab=this",
+    "status": "Inspected provider transcript; original register image uninspected",
+    "note": "HOLD — Bessie buried 27 Mar 1751, Covington & Thankerton, aged 9mo, daughter of Geo Glasgow, weaver; pox; residence [Thankerton]. Probable same infant as 1750 baptism, but residence differs Nether Warenhill / [Thankerton]; do not assign proved death. Indexed birth 1751 contradicts age. Bethia aged 20, death/burial 12 Jan 1767, is a weak alternative only if infant identification fails; not an assigned event. Original image uninspected. No new person is proposed; absent corroboration and uncertain or baptism-derived birth estimates are not concrete exclusions. Companion indexes of one event are not independent corroboration. Source level: Inspected provider transcript; original register image uninspected.",
+    "profiles": {
+      "Glasgow-1125": {
+        "role": "probable subject candidate",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-3839087",
+    "provider_record_id": "SCOT/OPR/BAP/3839087",
+    "association": "Betty Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Betty Glasgow",
+    "date": "20 Oct 1765",
+    "year": 1765,
+    "place": "Cambusnethan, Lanarkshire, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3839087&tab=this",
+    "status": "Inspected provider transcript; original register image uninspected",
+    "note": "HOLD — Betty born 21 Sep 1765, baptised 20 Oct 1765, Cambusnethan, James Glasgow / Anne Prentice, Knowhable, OPR 628/1 item 1 p.79. Glasgow-82 uncertain 1755 / estimated Kirknewton and Glasgow-896 estimated c.1748 / unknown parents and birthplace remain weak, unexcluded comparisons. No positive identity bridge; retain unassigned HOLD, no new person and no vital/parent changes. Original image uninspected. No new person is proposed; absent corroboration and uncertain or baptism-derived birth estimates are not concrete exclusions. Companion indexes of one event are not independent corroboration. Source level: Inspected provider transcript; original register image uninspected.",
+    "profiles": {
+      "Glasgow-82": {
+        "role": "weak possible subject",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-896": {
+        "role": "weak possible subject",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-bmd-nbi-06076604",
+    "provider_record_id": "BMD/NBI/06076604",
+    "association": "Ann Glasgow — National Burial Index For England & Wales",
+    "person": "Ann Glasgow",
+    "date": "20 Mar 1830",
+    "year": 1830,
+    "place": "Felixkirk, Yorkshire (North Riding), England",
+    "country": "England",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=BMD%2FNBI%2F06076604&tab=this",
+    "status": "Inspected provider transcript; original register image uninspected",
+    "note": "HOLD — Same Ann Glasgow burial: 20 Mar 1830, age 66, Felixkirk; Yorkshire entry gives Sutton residence and PR/FEL 1/11 p.40. Glasgow-3992 is weak; a 1832 lease associated with her remains unresolved and may conflict with a 1830 death. Do not change vital date until identity is resolved. No new person is proposed; absent corroboration and uncertain or baptism-derived birth estimates are not concrete exclusions. Companion indexes of one event are not independent corroboration. Source level: Inspected provider transcript; original register image uninspected.",
+    "profiles": {
+      "Glasgow-3992": {
+        "role": "possible subject",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-gbprs-yorkshire-bur-600064547",
+    "provider_record_id": "GBPRS/YORKSHIRE/BUR/600064547",
+    "association": "Ann Glasgow — Yorkshire Burials",
+    "person": "Ann Glasgow",
+    "date": "20 Mar 1830",
+    "year": 1830,
+    "place": "Felixkirk, Yorkshire (North Riding), England",
+    "country": "England",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FYORKSHIRE%2FBUR%2F600064547&tab=this",
+    "status": "Inspected provider transcript; original register image uninspected",
+    "note": "HOLD — Same Ann Glasgow burial: 20 Mar 1830, age 66, Felixkirk; Yorkshire entry gives Sutton residence and PR/FEL 1/11 p.40. Glasgow-3992 is weak; a 1832 lease associated with her remains unresolved and may conflict with a 1830 death. Do not change vital date until identity is resolved. No new person is proposed; absent corroboration and uncertain or baptism-derived birth estimates are not concrete exclusions. Companion indexes of one event are not independent corroboration. Source level: Inspected provider transcript; original register image uninspected.",
+    "profiles": {
+      "Glasgow-3992": {
+        "role": "possible subject",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-102734961453",
+    "provider_record_id": "R_102734961453",
+    "association": "Ann Glasgow — England, Greater Manchester Burials 1570-1990",
+    "person": "Ann Glasgow",
+    "date": "24 Sep 1861",
+    "year": 1861,
+    "place": "Chorlton upon Medlock, All Saints, Lancashire, England",
+    "country": "England",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_102734961453&tab=this",
+    "status": "Inspected provider transcript; original register image uninspected",
+    "note": "HOLD — Likely same Manchester burial indexed with 19 versus 24 Sep 1861; both age 83 at Chorlton upon Medlock, and 19 Sep row names spouse William Glasgow. Denham-2159 is a strong married-name comparison, but recorded natal surname Denham puts her outside Glasgow-birth-surname scope. Do not override her vital date from the discrepant indexes. No new person is proposed; absent corroboration and uncertain or baptism-derived birth estimates are not concrete exclusions. Companion indexes of one event are not independent corroboration. Source level: Inspected provider transcript; original register image uninspected.",
+    "profiles": {
+      "Denham-2159": {
+        "role": "possible subject",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-102734966682",
+    "provider_record_id": "R_102734966682",
+    "association": "Ann Glasgow — England, Greater Manchester Burials 1570-1990",
+    "person": "Ann Glasgow",
+    "date": "19 Sep 1861",
+    "year": 1861,
+    "place": "Chorlton upon Medlock, All Saints, Lancashire, England",
+    "country": "England",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_102734966682&tab=this",
+    "status": "Inspected provider transcript; original register image uninspected",
+    "note": "HOLD — Likely same Manchester burial indexed with 19 versus 24 Sep 1861; both age 83 at Chorlton upon Medlock, and 19 Sep row names spouse William Glasgow. Denham-2159 is a strong married-name comparison, but recorded natal surname Denham puts her outside Glasgow-birth-surname scope. Do not override her vital date from the discrepant indexes. No new person is proposed; absent corroboration and uncertain or baptism-derived birth estimates are not concrete exclusions. Companion indexes of one event are not independent corroboration. Source level: Inspected provider transcript; original register image uninspected.",
+    "profiles": {
+      "Denham-2159": {
+        "role": "possible subject",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-3579699",
+    "provider_record_id": "SCOT/OPR/BAP/3579699",
+    "association": "Anne Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Anne Glasgow",
+    "date": "29 Feb 1788",
+    "year": 1788,
+    "place": "Irvine, Ayrshire, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3579699&tab=this",
+    "status": "Inspected provider transcript; original register image uninspected",
+    "note": "HOLD — Anne born 9 Feb and baptised 29 Feb 1788 at Irvine (OPR 595/1 p.150), daughter of James Glasgow, shipmaster, and Janet McMaster. No exact child profile found; Glasgow-832 (Anna, estimated birth 1795, unknown parents) is compatible but weak. Do not conflate with a McMillan family or create a new person on an empty search. Original register image uninspected. No new person is proposed; absent corroboration and uncertain or baptism-derived birth estimates are not concrete exclusions. Companion indexes of one event are not independent corroboration. Source level: Inspected provider transcript; original register image uninspected.",
+    "profiles": {
+      "Glasgow-832": {
+        "role": "weak possible subject",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-686208029",
+    "provider_record_id": "R_686208029",
+    "association": "Bessie Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Bessie Glasgow",
+    "date": "05 Apr 1719",
+    "year": 1719,
+    "place": "Kirknewton and East Calder, Midlothian, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_686208029&tab=this",
+    "status": "Inspected provider transcript; original register image uninspected",
+    "note": "Duplicate indexes for Bessie baptised 5 Apr 1719, Kirknewton and East Calder; father Andrew Glasgow. Link to Glasgow-1340 and recorded father Glasgow-1546. Mother field is blank/dash; it does not establish Cook-36136. Birth year is baptism-derived only. Original register image uninspected. The blank maternal field does not support the existing Cook-36136 identification. Companion indexes of one event are not independent corroboration. Source level: Inspected provider transcript; original register image uninspected.",
+    "profiles": {
+      "Glasgow-1340": {
+        "role": "subject",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1546": {
+        "role": "recorded father",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-691903021",
+    "provider_record_id": "R_691903021",
+    "association": "Bessie Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Bessie Glasgow",
+    "date": "05 Apr 1719",
+    "year": 1719,
+    "place": "Kirknewton and East Calder, Midlothian, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_691903021&tab=this",
+    "status": "Inspected provider transcript; original register image uninspected",
+    "note": "Duplicate indexes for Bessie baptised 5 Apr 1719, Kirknewton and East Calder; father Andrew Glasgow. Link to Glasgow-1340 and recorded father Glasgow-1546. Mother field is blank/dash; it does not establish Cook-36136. Birth year is baptism-derived only. Original register image uninspected. The blank maternal field does not support the existing Cook-36136 identification. Companion indexes of one event are not independent corroboration. Source level: Inspected provider transcript; original register image uninspected.",
+    "profiles": {
+      "Glasgow-1340": {
+        "role": "subject",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1546": {
+        "role": "recorded father",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-ire-nai-genabs-01110626-1",
+    "provider_record_id": "IRE/NAI/GENABS/01110626/1",
+    "association": "Anne Glasgow — Crossle Genealogical Abstracts",
+    "person": "Anne Glasgow",
+    "date": "1821",
+    "year": 1821,
+    "place": "No. 22 Main Street, Larne, County Antrim, Ireland",
+    "country": "Ireland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=IRE%2FNAI%2FGENABS%2F01110626%2F1&tab=this",
+    "status": "Crossle census abstract image inspected; original census sheet uninspected",
+    "note": "HOLD — Inspected Crossle manuscript abstract page 23, image S2/IRE/NAI/007634855/00142, headed 1821 census, County Antrim, parish/town of Larne: No. 22 Main Street records Ann Glasgow, age 50, Jane, her sister, age 47, and James, her brother, age 47. The shared surname and explicit sibling roles support natal Glasgow, but do not independently establish birth surnames or parents. An independently recorded Ann/Jane sibling household strengthens the possible 1821–1832 lease-pair bridge. Identity with monument-defined Ann-3992 remains possible, not established; no same-premises proof or parent bridge. Glasgow-3986 is a compatible brother comparison only; the monument father Glasgow-3991 died in 1812 and its wife Jane died in 1820, excluding those adults from the corresponding living household roles. No sibling or parent attachment is proposed to existing profiles. The inspected image is a Crossle abstract, not the original census sheet; occupation and other uncertain handwriting are not asserted. No new person is proposed; absent corroboration and uncertain or baptism-derived birth estimates are not concrete exclusions. Companion indexes of one event are not independent corroboration. Source level: Crossle census abstract image inspected; original census sheet uninspected. Inspected abstract image: https://search.findmypast.co.uk/record?id=S2%2FIRE%2FNAI%2F007634855%2F00142&parentid=IRE%2FNAI%2FGENABS%2F01110626%2F1 .",
+    "profiles": {
+      "Glasgow-3992": {
+        "role": "weak possible subject",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-3986": {
+        "role": "Compatible brother comparison only; no household identity or sibling edge assigned",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-bmd-d-1872-2-az-000123-254",
+    "provider_record_id": "BMD/D/1872/2/AZ/000123/254",
+    "association": "Benjamin Glasgow — England & Wales Deaths 1837-2007",
+    "person": "Benjamin Glasgow",
+    "date": "1872",
+    "year": 1872,
+    "place": "London, England",
+    "country": "England",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=BMD%2FD%2F1872%2F2%2FAZ%2F000123%2F254&tab=this",
+    "status": "Inspected provider transcript; original register image uninspected",
+    "note": "HOLD — Benjamin Glasgow died 1872 Q2 in Marylebone, age 80 (implied birth about 1792). Glasgow-3412 remains viable despite estimated 1805 birth and a possible 1833 death; neither is a concrete exclusion. Civil death index does not prove exact death date or residence. No new person is proposed; absent corroboration and uncertain or baptism-derived birth estimates are not concrete exclusions. Companion indexes of one event are not independent corroboration. Source level: Inspected provider transcript; original register image uninspected.",
+    "profiles": {
+      "Glasgow-3412": {
+        "role": "possible subject",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bur-1028464",
+    "provider_record_id": "SCOT/OPR/BUR/1028464",
+    "association": "Bethia Glasgow — Scotland, Parish Deaths & Burials 1564-2017",
+    "person": "Bethia Glasgow",
+    "date": "12 Jan 1767",
+    "year": 1767,
+    "place": "Glasgow, Lanarkshire, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1028464&tab=this",
+    "status": "Inspected provider transcript; original register image uninspected",
+    "note": "HOLD — Duplicate Bethia Glasgow death/burial entries, 12 Jan 1767, age 20, servant girl; OPR 644/48 p.184 and Glasgow High Church. Glasgow-1125 (Bessie, 1750 baptism-derived birth) remains weakly compatible; Glasgow-1373 baptism in 1659 conflicts with recorded age. Do not establish identity from age alone. Original register image uninspected. No new person is proposed; absent corroboration and uncertain or baptism-derived birth estimates are not concrete exclusions. Companion indexes of one event are not independent corroboration. Source level: Inspected provider transcript; original register image uninspected.",
+    "profiles": {
+      "Glasgow-1125": {
+        "role": "weak possible subject",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-1373": {
+        "role": "excluded age-conflict comparison",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-gbprs-glasgow-bur-093138",
+    "provider_record_id": "GBPRS/GLASGOW/BUR/093138",
+    "association": "Bethia Glasgow — Scotland, Parish Deaths & Burials 1564-2017",
+    "person": "Bethia Glasgow",
+    "date": "12 Jan 1767",
+    "year": 1767,
+    "place": "Glasgow High Church, Glasgow, Lanarkshire, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FGLASGOW%2FBUR%2F093138&tab=this",
+    "status": "Inspected provider transcript; original register image uninspected",
+    "note": "HOLD — Duplicate Bethia Glasgow death/burial entries, 12 Jan 1767, age 20, servant girl; OPR 644/48 p.184 and Glasgow High Church. Glasgow-1125 (Bessie, 1750 baptism-derived birth) remains weakly compatible; Glasgow-1373 baptism in 1659 conflicts with recorded age. Do not establish identity from age alone. Original register image uninspected. No new person is proposed; absent corroboration and uncertain or baptism-derived birth estimates are not concrete exclusions. Companion indexes of one event are not independent corroboration. Source level: Inspected provider transcript; original register image uninspected.",
+    "profiles": {
+      "Glasgow-1125": {
+        "role": "weak possible subject",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-1373": {
+        "role": "excluded age-conflict comparison",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-us-bmd-penn-bur-01390780",
+    "provider_record_id": "US/BMD/PENN-BUR/01390780",
+    "association": "Betsey Glasgow — Historical Society Of Pennsylvania, Deaths & Burials",
+    "person": "Betsey Glasgow",
+    "date": "08 Dec 1847",
+    "year": 1847,
+    "place": "Philadelphia, Pennsylvania, United States",
+    "country": "United States",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=US%2FBMD%2FPENN-BUR%2F01390780&tab=this",
+    "status": "Inspected provider transcript; original register image uninspected",
+    "note": "HOLD — Betsey Glasgow died 8 Dec 1847, age 65, Philadelphia Board of Health register. Sleator-46 is weak married-name comparison and thus natal Glasgow scope unproved; Glasgow-3291 (estimated 1762 birth, unverified 1857 death) is not excluded by those estimates. Need original entry and marital identity before assignment. No new person is proposed; absent corroboration and uncertain or baptism-derived birth estimates are not concrete exclusions. Companion indexes of one event are not independent corroboration. Source level: Inspected provider transcript; original register image uninspected.",
+    "profiles": {
+      "Sleator-46": {
+        "role": "weak possible subject",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-3291": {
+        "role": "unexcluded comparison",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-prs-romcath-bur-westm-ph3-000765",
+    "provider_record_id": "PRS/ROMCATH/BUR/WESTM/PH3/000765",
+    "association": "Bridget Glasgow — England Roman Catholic Parish Burials",
+    "person": "Bridget Glasgow",
+    "date": "26 Mar 1824",
+    "year": 1824,
+    "place": "Moorfields, St Mary Moorfields, Middlesex, England",
+    "country": "England",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=PRS%2FROMCATH%2FBUR%2FWESTM%2FPH3%2F000765&tab=this",
+    "status": "Inspected provider transcript; original register image uninspected",
+    "note": "HOLD — Bridget Glasgow buried 26 Mar 1824, age 41, St Mary Moorfields Catholic register, Hackney Road residence, p.56. No exact profile; Glasgow as birth surname is unproved and no concrete exclusion audit supports creating a person. Original image uninspected. No new person is proposed; absent corroboration and uncertain or baptism-derived birth estimates are not concrete exclusions. Companion indexes of one event are not independent corroboration. Source level: Inspected provider transcript; original register image uninspected.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-us-bmd-penn-bap-01263451",
+    "provider_record_id": "US/BMD/PENN-BAP/01263451",
+    "association": "Cathar Glasgow — Historical Society Of Pennsylvania, Births & Baptisms",
+    "person": "Cathar Glasgow",
+    "date": "14 Jan 1776",
+    "year": 1776,
+    "place": "Pennsylvania, United States",
+    "country": "United States",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=US%2FBMD%2FPENN-BAP%2F01263451&tab=this",
+    "status": "Inspected provider transcript; original register image uninspected",
+    "note": "HOLD — Cathar Glasgow baptised 14 Jan 1776 at St Michael and Zion Lutheran Church, Philadelphia, age five weeks (birth about Dec 1775); recorded parents Edward and Catharine Glasgow. No exact family/profile match; maternal natal surname is unproved. Hold a consolidated child/family candidate pending original register and duplicate review; do not create new people from absent matches. No new person is proposed; absent corroboration and uncertain or baptism-derived birth estimates are not concrete exclusions. Companion indexes of one event are not independent corroboration. Source level: Inspected provider transcript; original register image uninspected.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-ire-bmd-d-617248580",
+    "provider_record_id": "IRE/BMD/D/617248580",
+    "association": "Alice Glasgow — Irish Deaths 1864 - 1958",
+    "person": "Alice Glasgow",
+    "date": "1870",
+    "year": 1870,
+    "place": "Ballymena, Antrim, Ireland",
+    "country": "Ireland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=IRE%2FBMD%2FD%2F617248580&tab=this",
+    "status": "Inspected provider transcript; original register image uninspected",
+    "note": "HOLD — Alice, wife of a weaver, died 27 July 1870 at Andraid, Drumaul, aged 72; Ballymena civil index is compatible same death. Birth about 1798 is age-derived. Glasgow is later-life surname only; natal surname unproved. Glasgow-996 (born 1829, died 1914) conflicts chronologically, but this does not establish natal Glasgow or a new person. No new person is proposed; absent corroboration and uncertain or baptism-derived birth estimates are not concrete exclusions. Companion indexes of one event are not independent corroboration. Source level: Inspected provider transcript; original register image uninspected.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-318818905",
+    "provider_record_id": "R_318818905",
+    "association": "Alice Glasgow — Ireland Deaths 1864-1870",
+    "person": "Alice Glasgow",
+    "date": "27 Jul 1870",
+    "year": 1870,
+    "place": "Antrim, Ireland",
+    "country": "Ireland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_318818905&tab=this",
+    "status": "Inspected provider transcript; original register image uninspected",
+    "note": "HOLD — Alice, wife of a weaver, died 27 July 1870 at Andraid, Drumaul, aged 72; Ballymena civil index is compatible same death. Birth about 1798 is age-derived. Glasgow is later-life surname only; natal surname unproved. Glasgow-996 (born 1829, died 1914) conflicts chronologically, but this does not establish natal Glasgow or a new person. No new person is proposed; absent corroboration and uncertain or baptism-derived birth estimates are not concrete exclusions. Companion indexes of one event are not independent corroboration. Source level: Inspected provider transcript; original register image uninspected.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-bmd-d-1873-2-az-000122-053",
+    "provider_record_id": "BMD/D/1873/2/AZ/000122/053",
+    "association": "Amelia Glasgow — England & Wales Deaths 1837-2007",
+    "person": "Amelia Glasgow",
+    "date": "1873",
+    "year": 1873,
+    "place": "Devon, England",
+    "country": "England",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=BMD%2FD%2F1873%2F2%2FAZ%2F000122%2F053&tab=this",
+    "status": "Inspected provider transcript; original register image uninspected",
+    "note": "HOLD — Consolidate Amelia aged 77, burial 3 May 1873 Torquay, residence 7 St Marks Place, with Newton Abbot Q2/Q3 death-index variants; quarter discrepancy needs original register. Birth about 1796 is age-derived and natal Glasgow unproved. Glasgow-3645 and Glasgow-3789 died in 1867, concrete conflict, but no new natal-surname person follows. No new person is proposed; absent corroboration and uncertain or baptism-derived birth estimates are not concrete exclusions. Companion indexes of one event are not independent corroboration. Source level: Inspected provider transcript; original register image uninspected.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-bmd-d-1873-3-az-000116-227",
+    "provider_record_id": "BMD/D/1873/3/AZ/000116/227",
+    "association": "Amelia Glasgow — England & Wales Deaths 1837-2007",
+    "person": "Amelia Glasgow",
+    "date": "1873",
+    "year": 1873,
+    "place": "Devon, England",
+    "country": "England",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=BMD%2FD%2F1873%2F3%2FAZ%2F000116%2F227&tab=this",
+    "status": "Inspected provider transcript; original register image uninspected",
+    "note": "HOLD — Consolidate Amelia aged 77, burial 3 May 1873 Torquay, residence 7 St Marks Place, with Newton Abbot Q2/Q3 death-index variants; quarter discrepancy needs original register. Birth about 1796 is age-derived and natal Glasgow unproved. Glasgow-3645 and Glasgow-3789 died in 1867, concrete conflict, but no new natal-surname person follows. No new person is proposed; absent corroboration and uncertain or baptism-derived birth estimates are not concrete exclusions. Companion indexes of one event are not independent corroboration. Source level: Inspected provider transcript; original register image uninspected.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-gbprs-fhs-dev-bur9-0065776",
+    "provider_record_id": "GBPRS/FHS/DEV-BUR9/0065776",
+    "association": "Amelia Glasgow — Devon Burials",
+    "person": "Amelia Glasgow",
+    "date": "03 May 1873",
+    "year": 1873,
+    "place": "Torquay Cemetery, Devon, England",
+    "country": "England",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FFHS%2FDEV-BUR9%2F0065776&tab=this",
+    "status": "Inspected provider transcript; original register image uninspected",
+    "note": "HOLD — Consolidate Amelia aged 77, burial 3 May 1873 Torquay, residence 7 St Marks Place, with Newton Abbot Q2/Q3 death-index variants; quarter discrepancy needs original register. Birth about 1796 is age-derived and natal Glasgow unproved. Glasgow-3645 and Glasgow-3789 died in 1867, concrete conflict, but no new natal-surname person follows. No new person is proposed; absent corroboration and uncertain or baptism-derived birth estimates are not concrete exclusions. Companion indexes of one event are not independent corroboration. Source level: Inspected provider transcript; original register image uninspected.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-690419110",
+    "provider_record_id": "R_690419110",
+    "association": "Anabella Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Anabella Glasgow",
+    "date": "1786",
+    "year": 1786,
+    "place": "Glasgow, Lanarkshire, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_690419110&tab=this",
+    "status": "Inspected provider transcript; original register image uninspected",
+    "note": "HOLD — Index reports Anabella birth year 1786 at Glasgow, without baptism date or named parents; verify whether the year is independent. Glasgow-37 is Isabella (Glasgow) Laing of Bute with an estimated circa-1806 birth; the twenty-year and locality differences weaken but do not concretely exclude her. Hunter-30137 and Crooks-1812 were born Hunter and Crooks, so neither proves a natal Glasgow match. No new person is proposed; absent corroboration and uncertain or baptism-derived birth estimates are not concrete exclusions. Companion indexes of one event are not independent corroboration. Source level: Inspected provider transcript; original register image uninspected.",
+    "profiles": {
+      "Glasgow-37": {
+        "role": "weak Anabella/Isabella candidate only; circa-1806 birth estimate and Bute locality do not establish a concrete conflict with indexed 1786 Glasgow place",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-686079719",
+    "provider_record_id": "R_686079719",
+    "association": "Andrew Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Andrew Glasgow",
+    "date": "1766",
+    "year": 1766,
+    "place": "Edinburgh, Midlothian, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_686079719&tab=this",
+    "status": "Inspected provider transcript; original register image uninspected",
+    "note": "HOLD — One Edinburgh St Cuthberts event: birth 16 Dec 1766, baptism 20 Dec 1766; father William Glasgow, carter, mother Agnes Henderson, residence Cross Cassway. Do not attach parents to Glasgow-3165 without adult-identity bridge. No new person is proposed; absent corroboration and uncertain or baptism-derived birth estimates are not concrete exclusions. Companion indexes of one event are not independent corroboration. Source level: Inspected provider transcript; original register image uninspected.",
+    "profiles": {
+      "Glasgow-3165": {
+        "role": "viable but unproved Andrew candidate; circa-1760 estimate and unknown parents",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-691333172",
+    "provider_record_id": "R_691333172",
+    "association": "Andrew Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Andrew Glasgow",
+    "date": "1766",
+    "year": 1766,
+    "place": "Edinburgh, Midlothian, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_691333172&tab=this",
+    "status": "Inspected provider transcript; original register image uninspected",
+    "note": "HOLD — One Edinburgh St Cuthberts event: birth 16 Dec 1766, baptism 20 Dec 1766; father William Glasgow, carter, mother Agnes Henderson, residence Cross Cassway. Do not attach parents to Glasgow-3165 without adult-identity bridge. No new person is proposed; absent corroboration and uncertain or baptism-derived birth estimates are not concrete exclusions. Companion indexes of one event are not independent corroboration. Source level: Inspected provider transcript; original register image uninspected.",
+    "profiles": {
+      "Glasgow-3165": {
+        "role": "viable but unproved Andrew candidate; circa-1760 estimate and unknown parents",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-0730239",
+    "provider_record_id": "SCOT/OPR/BAP/0730239",
+    "association": "Andrew Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Andrew Glasgow",
+    "date": "20 Dec 1766",
+    "year": 1766,
+    "place": "Edinburgh, Midlothian, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0730239&tab=this",
+    "status": "Inspected provider transcript; original register image uninspected",
+    "note": "HOLD — One Edinburgh St Cuthberts event: birth 16 Dec 1766, baptism 20 Dec 1766; father William Glasgow, carter, mother Agnes Henderson, residence Cross Cassway. Do not attach parents to Glasgow-3165 without adult-identity bridge. No new person is proposed; absent corroboration and uncertain or baptism-derived birth estimates are not concrete exclusions. Companion indexes of one event are not independent corroboration. Source level: Inspected provider transcript; original register image uninspected.",
+    "profiles": {
+      "Glasgow-3165": {
+        "role": "viable but unproved Andrew candidate; circa-1760 estimate and unknown parents",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-686207372",
+    "provider_record_id": "R_686207372",
+    "association": "Andrew Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Andrew Glasgow",
+    "date": "19 Oct 1731",
+    "year": 1731,
+    "place": "Kirknewton and East Calder, Midlothian, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_686207372&tab=this",
+    "status": "Inspected provider transcript; original register image uninspected",
+    "note": "HOLD — Companion indexes give baptism 19 Oct 1731 at Kirknewton/East Calder, father named James Glasgow and mother blank. Glasgow-3052 remains a possible child comparison because his circa-1720 birth is estimated. The named father has no proved modern identity; do not assign James-1547 or any other James by name alone. No new person is proposed; absent corroboration and uncertain or baptism-derived birth estimates are not concrete exclusions. Companion indexes of one event are not independent corroboration. Source level: Inspected provider transcript; original register image uninspected.",
+    "profiles": {
+      "Glasgow-3052": {
+        "role": "possible Andrew child; circa-1720 birth is an uncertain estimate",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-691904465",
+    "provider_record_id": "R_691904465",
+    "association": "Andrew Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Andrew Glasgow",
+    "date": "19 Oct 1731",
+    "year": 1731,
+    "place": "Kirknewton and East Calder, Midlothian, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_691904465&tab=this",
+    "status": "Inspected provider transcript; original register image uninspected",
+    "note": "HOLD — Companion indexes give baptism 19 Oct 1731 at Kirknewton/East Calder, father named James Glasgow and mother blank. Glasgow-3052 remains a possible child comparison because his circa-1720 birth is estimated. The named father has no proved modern identity; do not assign James-1547 or any other James by name alone. No new person is proposed; absent corroboration and uncertain or baptism-derived birth estimates are not concrete exclusions. Companion indexes of one event are not independent corroboration. Source level: Inspected provider transcript; original register image uninspected.",
+    "profiles": {
+      "Glasgow-3052": {
+        "role": "possible Andrew child; circa-1720 birth is an uncertain estimate",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-686207645",
+    "provider_record_id": "R_686207645",
+    "association": "Andrew Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Andrew Glasgow",
+    "date": "06 May 1750",
+    "year": 1750,
+    "place": "Kirknewton and East Calder, Midlothian, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_686207645&tab=this",
+    "status": "Inspected provider transcript; original register image uninspected",
+    "note": "HOLD — One 6 May 1750 Kirknewton baptism names Andrew Glasgow and Isabel Clerk; no separate birth date. The named couple resembles the parents of Alexander Glasgow-1321, and Glasgow-1336/Clerk-314 are adult comparisons, but neither assignment is proved here. Glasgow-3165 remains a weak child comparison only; do not attach these parents to him. No new person is proposed; absent corroboration and uncertain or baptism-derived birth estimates are not concrete exclusions. Companion indexes of one event are not independent corroboration. Source level: Inspected provider transcript; original register image uninspected.",
+    "profiles": {
+      "Glasgow-3165": {
+        "role": "weak child comparison only; circa-1760 birth estimate uncertain",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-1336": {
+        "role": "possible identity of the recorded father Andrew; adult bridge unproved",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Clerk-314": {
+        "role": "possible identity of the recorded mother Isabel/Isobel; adult bridge unproved",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-691904464",
+    "provider_record_id": "R_691904464",
+    "association": "Andrew Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Andrew Glasgow",
+    "date": "06 May 1750",
+    "year": 1750,
+    "place": "Kirknewton and East Calder, Midlothian, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_691904464&tab=this",
+    "status": "Inspected provider transcript; original register image uninspected",
+    "note": "HOLD — One 6 May 1750 Kirknewton baptism names Andrew Glasgow and Isabel Clerk; no separate birth date. The named couple resembles the parents of Alexander Glasgow-1321, and Glasgow-1336/Clerk-314 are adult comparisons, but neither assignment is proved here. Glasgow-3165 remains a weak child comparison only; do not attach these parents to him. No new person is proposed; absent corroboration and uncertain or baptism-derived birth estimates are not concrete exclusions. Companion indexes of one event are not independent corroboration. Source level: Inspected provider transcript; original register image uninspected.",
+    "profiles": {
+      "Glasgow-3165": {
+        "role": "weak child comparison only; circa-1760 birth estimate uncertain",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-1336": {
+        "role": "possible identity of the recorded father Andrew; adult bridge unproved",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Clerk-314": {
+        "role": "possible identity of the recorded mother Isabel/Isobel; adult bridge unproved",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-693237072",
+    "provider_record_id": "R_693237072",
+    "association": "Andrew Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Andrew Glasgow",
+    "date": "10 Sep 1766",
+    "year": 1766,
+    "place": "Glasgow, Lanarkshire, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_693237072&tab=this",
+    "status": "Inspected provider transcript; original register image uninspected",
+    "note": "HOLD — Glasgow Lanarkshire baptism 10 Sep 1766, parents blank. Indexed birth year may be baptism-derived; neither child age nor relation to Edinburgh Dec 1766 event is established. Hold assignment among compatible namesakes; no new person. No new person is proposed; absent corroboration and uncertain or baptism-derived birth estimates are not concrete exclusions. Companion indexes of one event are not independent corroboration. Source level: Inspected provider transcript; original register image uninspected.",
+    "profiles": {
+      "Glasgow-3165": {
+        "role": "possible Andrew only; unknown parents",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-3052": {
+        "role": "possible earlier Andrew if 1766 baptism was adult; uncertain circa-1720 birth",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-1336": {
+        "role": "possible earlier Andrew if 1766 baptism was adult; chronology/household unproved",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-3234749",
+    "provider_record_id": "SCOT/OPR/BAP/3234749",
+    "association": "Andrew Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Andrew Glasgow",
+    "date": "16 Jun 1793",
+    "year": 1793,
+    "place": "Rothesay, Buteshire, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3234749&tab=this",
+    "status": "Inspected provider transcript; original register image uninspected",
+    "note": "HOLD — Rothesay OPR 558/2 item 4 p.92 gives Andrew Glasgow born 6 Jun 1793, baptised 16 Jun; father Andrew Glasgow, wright, mother Mary McGilp, residence Rothesay. No bridge yet to Glasgow-3165; absence of a bridge is not an exclusion. No new person is proposed; absent corroboration and uncertain or baptism-derived birth estimates are not concrete exclusions. Companion indexes of one event are not independent corroboration. Source level: Inspected provider transcript; original register image uninspected.",
+    "profiles": {
+      "Glasgow-3165": {
+        "role": "weak compatible Andrew child comparison; identity unproved",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-944012236",
+    "provider_record_id": "R_944012236",
+    "association": "Ann Glasgow — England Births & Baptisms 1538-1975",
+    "person": "Ann Glasgow",
+    "date": "19 Nov 1780",
+    "year": 1780,
+    "place": "London, England",
+    "country": "England",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_944012236&tab=this",
+    "status": "Inspected provider transcript; original register image uninspected",
+    "note": "HOLD — England Births & Baptisms index: Ann Glasgow baptised 19 Nov 1780, county London, father Samuel Glasgow, mother Sarah; Place is blank/dash and indexed birth year 1780 has no independent birth date. Later identity unresolved; do not infer a separate new person from locality alone. No new person is proposed; absent corroboration and uncertain or baptism-derived birth estimates are not concrete exclusions. Companion indexes of one event are not independent corroboration. Source level: Inspected provider transcript; original register image uninspected.",
+    "profiles": {
+      "Glasgow-2057": {
+        "role": "weak Ann comparison, circa 1779 Tyrone; London baptism locality does not exclude her",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-2785": {
+        "role": "weak Ann comparison, circa 1775 Pennsylvania; London baptism locality does not exclude her",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bur-1123114",
+    "provider_record_id": "SCOT/OPR/BUR/1123114",
+    "association": "Ann Glasgow — Scotland, Parish Deaths & Burials 1564-2017",
+    "person": "Ann Glasgow",
+    "date": "16 Sep 1784",
+    "year": 1784,
+    "place": "Glasgow, Lanarkshire, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1123114&tab=this",
+    "status": "Inspected provider transcript; original register image uninspected",
+    "note": "HOLD — Companion burial indexes describe Ann Glasgow, age 15 months, buried 16 Sep 1784 at Ramshorn & Blackfriars, Glasgow; second transcript notes smallpox. Birth circa June 1783 is age-derived, not indexed 1784. Exact death date and parents unrecorded. Empty same-name child search does not establish a new-person proposal; keep a single scope hold. No new person is proposed; absent corroboration and uncertain or baptism-derived birth estimates are not concrete exclusions. Companion indexes of one event are not independent corroboration. Source level: Inspected provider transcript; original register image uninspected.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-gbprs-glasgow-bur-093191",
+    "provider_record_id": "GBPRS/GLASGOW/BUR/093191",
+    "association": "Ann Glasgow — Scotland, Parish Deaths & Burials 1564-2017",
+    "person": "Ann Glasgow",
+    "date": "16 Sep 1784",
+    "year": 1784,
+    "place": "Ramshorn & Blackfriars, Glasgow, Lanarkshire, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FGLASGOW%2FBUR%2F093191&tab=this",
+    "status": "Inspected provider transcript; original register image uninspected",
+    "note": "HOLD — Companion burial indexes describe Ann Glasgow, age 15 months, buried 16 Sep 1784 at Ramshorn & Blackfriars, Glasgow; second transcript notes smallpox. Birth circa June 1783 is age-derived, not indexed 1784. Exact death date and parents unrecorded. Empty same-name child search does not establish a new-person proposal; keep a single scope hold. No new person is proposed; absent corroboration and uncertain or baptism-derived birth estimates are not concrete exclusions. Companion indexes of one event are not independent corroboration. Source level: Inspected provider transcript; original register image uninspected.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bur-0399299",
+    "provider_record_id": "SCOT/OPR/BUR/0399299",
+    "association": "Ann Glasgow — Scotland, Parish Deaths & Burials 1564-2017",
+    "person": "Ann Glasgow",
+    "date": "14 Apr 1816",
+    "year": 1816,
+    "place": "Edinburgh, Midlothian, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F0399299&tab=this",
+    "status": "Inspected provider transcript; original register image uninspected",
+    "note": "HOLD — Edinburgh OPR 685_2/31 item 2 p.279: Ann Glasgow of Pleasance, age 71, widow of George Chalmers, buried 14 Apr 1816. Indexed 1745 birth is age-derived. Do not set an exact birth or attach spouse before identity review. No new person is proposed; absent corroboration and uncertain or baptism-derived birth estimates are not concrete exclusions. Companion indexes of one event are not independent corroboration. Source level: Inspected provider transcript; original register image uninspected.",
+    "profiles": {
+      "Glasgow-1233": {
+        "role": "compatible Ann comparison; BEFORE 17 Jan 1748 birth boundary, not exact birthday; age 71 is consistent with circa 1744/45",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-3468": {
+        "role": "weaker Ann comparison; later marriage chronology remains to test",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-3005": {
+        "role": "weaker Ann comparison; later marriage chronology remains to test",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-gbprs-warwickshire-bur-000590143",
+    "provider_record_id": "GBPRS/WARWICKSHIRE/BUR/000590143",
+    "association": "Ann Glasgow — Warwickshire Burials",
+    "person": "Ann Glasgow",
+    "date": "16 Sep 1817",
+    "year": 1817,
+    "place": "Coventry, St Michael, Warwickshire, England",
+    "country": "England",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FWARWICKSHIRE%2FBUR%2F000590143&tab=this",
+    "status": "Inspected provider transcript; original register image uninspected",
+    "note": "HOLD — Three indexes for one burial: Ann Glasgow age 27, buried 16 Sep 1817, St Michael, Coventry; age-derived birth circa 1790. Warwickshire County Record Office DR0090/52 p.171 gives St Michael residence. No relationship or natal surname appears in the burial; Warwick-2388 and Denham-2159 are comparisons only, and their spouses are not assigned to the buried woman. No new person is proposed; absent corroboration and uncertain or baptism-derived birth estimates are not concrete exclusions. Companion indexes of one event are not independent corroboration. Source level: Inspected provider transcript; original register image uninspected.",
+    "profiles": {
+      "Warwick-2388": {
+        "role": "weak Ann Warwick comparison, circa 1790; existing spouse David Glasgow-2972 is context only; natal Glasgow surname unproved",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Denham-2159": {
+        "role": "weaker Ann Denham comparison, circa 1779; existing spouse William Glasgow-3545 is context only; natal Glasgow surname unproved",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-bmd-nbi-01350435",
+    "provider_record_id": "BMD/NBI/01350435",
+    "association": "Ann Glasgow — National Burial Index For England & Wales",
+    "person": "Ann Glasgow",
+    "date": "16 Sep 1817",
+    "year": 1817,
+    "place": "Coventry, Warwickshire, England",
+    "country": "England",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=BMD%2FNBI%2F01350435&tab=this",
+    "status": "Inspected provider transcript; original register image uninspected",
+    "note": "HOLD — Three indexes for one burial: Ann Glasgow age 27, buried 16 Sep 1817, St Michael, Coventry; age-derived birth circa 1790. Warwickshire County Record Office DR0090/52 p.171 gives St Michael residence. No relationship or natal surname appears in the burial; Warwick-2388 and Denham-2159 are comparisons only, and their spouses are not assigned to the buried woman. No new person is proposed; absent corroboration and uncertain or baptism-derived birth estimates are not concrete exclusions. Companion indexes of one event are not independent corroboration. Source level: Inspected provider transcript; original register image uninspected.",
+    "profiles": {
+      "Warwick-2388": {
+        "role": "weak Ann Warwick comparison, circa 1790; existing spouse David Glasgow-2972 is context only; natal Glasgow surname unproved",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Denham-2159": {
+        "role": "weaker Ann Denham comparison, circa 1779; existing spouse William Glasgow-3545 is context only; natal Glasgow surname unproved",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-20860820000",
+    "provider_record_id": "R_20860820000",
+    "association": "Ann Glasgow — Warwickshire Burials",
+    "person": "Ann Glasgow",
+    "date": "16 Sep 1817",
+    "year": 1817,
+    "place": "Coventry, St Michael, Warwickshire, England",
+    "country": "England",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_20860820000&tab=this",
+    "status": "Inspected provider transcript; original register image uninspected",
+    "note": "HOLD — Three indexes for one burial: Ann Glasgow age 27, buried 16 Sep 1817, St Michael, Coventry; age-derived birth circa 1790. Warwickshire County Record Office DR0090/52 p.171 gives St Michael residence. No relationship or natal surname appears in the burial; Warwick-2388 and Denham-2159 are comparisons only, and their spouses are not assigned to the buried woman. No new person is proposed; absent corroboration and uncertain or baptism-derived birth estimates are not concrete exclusions. Companion indexes of one event are not independent corroboration. Source level: Inspected provider transcript; original register image uninspected.",
+    "profiles": {
+      "Warwick-2388": {
+        "role": "weak Ann Warwick comparison, circa 1790; existing spouse David Glasgow-2972 is context only; natal Glasgow surname unproved",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Denham-2159": {
+        "role": "weaker Ann Denham comparison, circa 1779; existing spouse William Glasgow-3545 is context only; natal Glasgow surname unproved",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-gbprs-d-886271302-1",
+    "provider_record_id": "GBPRS/D/886271302/1",
+    "association": "Ann Glasgow — Montgomeryshire Burials",
+    "person": "Ann Glasgow",
+    "date": "01 Feb 1825",
+    "year": 1825,
+    "place": "Welshpool, Montgomeryshire, Wales",
+    "country": "Wales",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FD%2F886271302%2F1&tab=this",
+    "status": "Inspected provider transcript; original register image uninspected",
+    "note": "HOLD — Welshpool burial indexes: Ann Glasgow age 83, buried 1 Feb 1825 at St Mary; Pool Town residence. Monumental inscription memorial 205 calls Ann GLASSCOW widow of Captain GLASSCOW Royal Artillery and sister of Ambrose GETHYN, suggesting natal Gethyn but not proving it; it says death 27 Feb 1825, after the indexed burial, a conflict to preserve. No checked identity. Canonical place country Wales; retain literal NBI Country=England as a source field only. No new person is proposed; absent corroboration and uncertain or baptism-derived birth estimates are not concrete exclusions. Companion indexes of one event are not independent corroboration. Source level: Inspected provider transcript; original register image uninspected.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-gbprs-d-449094191-1",
+    "provider_record_id": "GBPRS/D/449094191/1",
+    "association": "Ann Glasgow — Montgomeryshire Burials",
+    "person": "Ann Glasgow",
+    "date": "01 Feb 1825",
+    "year": 1825,
+    "place": "Welshpool, Montgomeryshire, Wales",
+    "country": "Wales",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FD%2F449094191%2F1&tab=this",
+    "status": "Inspected provider transcript; original register image uninspected",
+    "note": "HOLD — Welshpool burial indexes: Ann Glasgow age 83, buried 1 Feb 1825 at St Mary; Pool Town residence. Monumental inscription memorial 205 calls Ann GLASSCOW widow of Captain GLASSCOW Royal Artillery and sister of Ambrose GETHYN, suggesting natal Gethyn but not proving it; it says death 27 Feb 1825, after the indexed burial, a conflict to preserve. No checked identity. Canonical place country Wales; retain literal NBI Country=England as a source field only. No new person is proposed; absent corroboration and uncertain or baptism-derived birth estimates are not concrete exclusions. Companion indexes of one event are not independent corroboration. Source level: Inspected provider transcript; original register image uninspected.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-bmd-nbi-powys-rf-00051060",
+    "provider_record_id": "BMD/NBI/POWYS/RF/00051060",
+    "association": "Ann Glasgow — National Burial Index For England & Wales",
+    "person": "Ann Glasgow",
+    "date": "01 Feb 1825",
+    "year": 1825,
+    "place": "Welshpool, Montgomeryshire, Wales",
+    "country": "Wales",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=BMD%2FNBI%2FPOWYS%2FRF%2F00051060&tab=this",
+    "status": "Inspected provider transcript; original register image uninspected",
+    "note": "HOLD — Welshpool burial indexes: Ann Glasgow age 83, buried 1 Feb 1825 at St Mary; Pool Town residence. Monumental inscription memorial 205 calls Ann GLASSCOW widow of Captain GLASSCOW Royal Artillery and sister of Ambrose GETHYN, suggesting natal Gethyn but not proving it; it says death 27 Feb 1825, after the indexed burial, a conflict to preserve. No checked identity. Canonical place country Wales; retain literal NBI Country=England as a source field only. No new person is proposed; absent corroboration and uncertain or baptism-derived birth estimates are not concrete exclusions. Companion indexes of one event are not independent corroboration. Source level: Inspected provider transcript; original register image uninspected.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-xauto-fhs-montgomeryshire-mis-00036943",
+    "provider_record_id": "XAUTO/FHS/MONTGOMERYSHIRE/MIS/00036943",
+    "association": "Ann Glasgow — Montgomeryshire Monumental Inscriptions",
+    "person": "Ann Glasgow",
+    "date": "27 Feb 1825",
+    "year": 1825,
+    "place": "Welshpool, Montgomeryshire, Wales",
+    "country": "Wales",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=XAUTO%2FFHS%2FMONTGOMERYSHIRE%2FMIS%2F00036943&tab=this",
+    "status": "Inspected provider transcript; original register image uninspected",
+    "note": "HOLD — Welshpool burial indexes: Ann Glasgow age 83, buried 1 Feb 1825 at St Mary; Pool Town residence. Monumental inscription memorial 205 calls Ann GLASSCOW widow of Captain GLASSCOW Royal Artillery and sister of Ambrose GETHYN, suggesting natal Gethyn but not proving it; it says death 27 Feb 1825, after the indexed burial, a conflict to preserve. No checked identity. Canonical place country Wales; retain literal NBI Country=England as a source field only. No new person is proposed; absent corroboration and uncertain or baptism-derived birth estimates are not concrete exclusions. Companion indexes of one event are not independent corroboration. Source level: Inspected provider transcript; original register image uninspected.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-gbprs-yorkshire-bur-3279114",
+    "provider_record_id": "GBPRS/YORKSHIRE/BUR/3279114",
+    "association": "Ann Glasgow — Yorkshire Burials",
+    "person": "Ann Glasgow",
+    "date": "20 Mar 1830",
+    "year": 1830,
+    "place": "Felixkirk, Yorkshire (North Riding), England",
+    "country": "England",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FYORKSHIRE%2FBUR%2F3279114&tab=this",
+    "status": "Inspected provider transcript; original register image uninspected",
+    "note": "HOLD — Yorkshire bishop’s transcript index: Ann Glasgow age 66, buried 20 Mar 1830 at Felixkirk; indexed birth 1764 is age-derived. Existing candidates remain unresolved; no new person from this burial. No new person is proposed; absent corroboration and uncertain or baptism-derived birth estimates are not concrete exclusions. Companion indexes of one event are not independent corroboration. Source level: Inspected provider transcript; original register image uninspected.",
+    "profiles": {
+      "Glasgow-3992": {
+        "role": "weak Ann comparison, circa 1768 Larne; 1832 lease identity remains unresolved and does not exclude 1830 burial",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Houston-4780": {
+        "role": "weaker Ann Houston comparison; marriage in 1763 and reported 1845 death need original verification before exclusion",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
   }
 ]

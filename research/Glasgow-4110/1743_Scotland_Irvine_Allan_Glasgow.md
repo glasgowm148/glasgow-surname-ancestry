@@ -1,9 +1,9 @@
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-38a943ed5dc4 -->
-> **CREATED:** [Allan Glasgow (Glasgow-4110)](https://www.wikitree.com/wiki/Glasgow-4110)
+> **RECONCILED 23 October 2026:** [Allan Glasgow (Glasgow-4110)](https://www.wikitree.com/wiki/Glasgow-4110) already represents this record. This retained handoff is historical evidence, not a profile-creation draft.
 
 # Allan Glasgow, 22 May 1743
 
-## Minimum creation fields
+## Recorded facts
 
 - **Name:** Allan Glasgow
 - **Gender:** Male (uncertain; inferred from the recorded given name)
@@ -15,7 +15,7 @@
 - **Stable research ID:** `fmp-glasgow-38a943ed5dc4`
 - **Findmypast record IDs:** SCOT/OPR/BAP/3575202
 
-## Paste-ready biography
+## Biography evidence retained for the existing profile
 
 [[Category:Glasgow Name Study]]
 
@@ -26,17 +26,11 @@
 
 == Research Notes ==
 
-Attach only relationships stated by the record after confirming the relative profile identities; leave all other relationships blank. Each named relative requires a duplicate search and a separately supported profile identity before attachment.
-
-The completed live WikiTree audit retained no compatible profile candidate.
-
-
-
-No compatible candidate was retained by the completed live WikiTree audit.
+Glasgow-4110 is the compatible existing profile: its Allan Glasgow identity, 1743 Irvine birth and named mother align with this record. The transcript gives the exact birth and baptism dates and names both parents. Retain the separate checks required before any relationship amendment.
 
 The 1 result ID(s) above represent one conservative documentary group because: singleton; no strong same-event duplicate proof. Preserve uncertainty; a similarly named event is not automatically the same historical person.
 
-'''Next test before creation:''' repeat the exact-name, date, place, occupation, and named-relative duplicate search, then inspect the underlying record image where available.
+'''Next test:''' inspect the underlying register image where available and verify any proposed relative-profile links separately.
 
 == Sources ==
 

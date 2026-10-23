@@ -636,7 +636,7 @@ Source scrape/transcript audit remains **INCOMPLETE**; this section covers only 
 | `fmp-glasgow-7a187aa7713d` | Michael Glasgow, 22 Nov 1741, Irvine | `SCOT/OPR/BAP/3575088` | existing_profile: Glasgow-1416 |
 | `fmp-glasgow-5639753a39b0` | David Glasgow, 23 May 1742, Livingston | `SCOT/OPR/BAP/4151485` | existing_profile: Glasgow-1228 |
 | `fmp-glasgow-120b52e4bd76` | Hugh Glasgow, 29 Aug 1742, Kilmarnock | `SCOT/OPR/BAP/3600403` | new_person: research/Glasgow-4104/1742_Scotland_Kilmarnock_Hugh_Glasgow.md |
-| `fmp-glasgow-38a943ed5dc4` | Allan Glasgow, 22 May 1743, Irvine | `SCOT/OPR/BAP/3575202` | new_person: research/Glasgow-4110/1743_Scotland_Irvine_Allan_Glasgow.md |
+| `fmp-glasgow-38a943ed5dc4` | Allan Glasgow, 22 May 1743, Irvine | `SCOT/OPR/BAP/3575202` | existing_profile: Glasgow-4110; duplicate creation suggestion withdrawn 23 October 2026 |
 | `fmp-glasgow-1bd01d5c8ee9` | Hendry Glasgow, 11 Dec 1743, Livingston | `SCOT/OPR/BAP/4151515` | existing_profile: Glasgow-1383 |
 | `fmp-glasgow-10ad472195e9` | Magdalen Glasgow, 29 Mar 1743, Irvine | `SCOT/OPR/BAP/3575189` | new_person: research/Glasgow-4103/1743_Scotland_Irvine_Magdalen_Glasgow.md |
 | `fmp-glasgow-8f860d0a7fef` | Margaret Glasgow, 21 Aug 1743, Kilbirnie | `SCOT/OPR/BAP/3586849` | existing_profile: Glasgow-3878 |

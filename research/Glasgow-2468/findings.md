@@ -4,6 +4,8 @@ Last updated: 2026-09-04
 
 ## Current conclusion
 
+The inspected Findmypast transcript gives Andrew’s birth as **24 October 1746** and baptism as **26 October 1746** at Kilwinning; the captured structured birth date of 26 October is the baptism date. The indexed parents are John Glasgow and Mary Auld. This date correction does not change the existing 99% father assessment or establish John’s earlier ancestry. The transcript’s “Register year range: 1789–1819” conflicts with its 1746 event dates and needs comparison with the original register.
+
 Current father assessment (22 October 2026): **99% (proved)** for [Glasgow-2467](https://www.wikitree.com/wiki/Glasgow-2467). Named child to the specific adult family role represented by the selected father; independent earlier ancestry is outside this assessment. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 The Findmypast transcript distinguishes Andrew Glasgow's birth on 24 October
@@ -87,3 +89,8 @@ Next useful test: Read the original Kilwinning child entries for exact wording a
 This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Andrew Glasgow, 26 Oct 1746, record SCOT/OPR/BAP/3628386](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3628386&tab=this); [The baptism is also indexed in the Kilwinning church registers held by ScotlandsPeople. Kilwinning parish baptism record for Andrew Glasgow, 26 Oct 1746, ScotlandsPeople, church registers, parish 599, reference 20/93.](https://www.wikitree.com/wiki/Glasgow-2468)
+
+<!-- FMP-BIRTH-SCOPE-PAGES4-6-20261023 -->
+## Birth and baptism correction — Findmypast review, 23 October 2026
+
+[Findmypast, *Scotland, Parish Births & Baptisms 1564–1929*, Andrew Glasgow, record SCOT/OPR/BAP/3628386](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3628386&tab=this) indexes birth 24 October 1746, baptism 26 October 1746, Kilwinning, Ayrshire, father John Glasgow, mother Mary Auld, residence Town, Kilwinning, OPR 599/2, item 2, p. 83. The transcript also prints a register year range of 1789–1819, inconsistent with those event dates; retain the discrepancy until the original register is inspected. Correct the structured birth date from 26 October 1746 to 24 October 1746, retain the baptism date, attached parents and supported place. Original register image not inspected.

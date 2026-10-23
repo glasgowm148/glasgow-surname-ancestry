@@ -37,6 +37,8 @@ not transcribe an older William-and-James stone. Until the alleged shared stone,
 a baptism, marriage, will or lease succession is recovered, the uncertain
 attachment should remain explicitly provisional.
 
+The 23 October 2026 Findmypast review below retains the recorded facts and qualified identity comparisons; no new person or relationship is proposed.
+
 ## Source findings
 
 ### Newspaper continuation, 4 October 2026
@@ -196,3 +198,13 @@ Next useful test: Recover the alleged shared stone or a 1773 baptism and trace l
 This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [Larne/Kilwaughter congregation register chronology](https://web.archive.org/web/20101124184247id_/http://lifesweaving.com/Glasgow/Kilwaughter/Timeline.html)
+
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGES4-6-20261023 -->
+## Findmypast record and identity review — 23 October 2026
+
+HOLD — Inspected Crossle manuscript abstract page 23, image S2/IRE/NAI/007634855/00142, headed 1821 census, County Antrim, parish/town of Larne: No. 22 Main Street records Ann Glasgow, age 50, Jane, her sister, age 47, and James, her brother, age 47. The shared surname and explicit sibling roles support natal Glasgow, but do not independently establish birth surnames or parents. An independently recorded Ann/Jane sibling household strengthens the possible 1821–1832 lease-pair bridge. Identity with monument-defined Ann-3992 remains possible, not established; no same-premises proof or parent bridge. Glasgow-3986 is a compatible brother comparison only; the monument father Glasgow-3991 died in 1812 and its wife Jane died in 1820, excluding those adults from the corresponding living household roles. No sibling or parent attachment is proposed to existing profiles. The inspected image is a Crossle abstract, not the original census sheet; occupation and other uncertain handwriting are not asserted. No new person is proposed; absent corroboration and uncertain or baptism-derived birth estimates are not concrete exclusions.
+
+- [Findmypast IRE/NAI/GENABS/01110626/1](https://www.findmypast.co.uk/transcript?id=IRE%2FNAI%2FGENABS%2F01110626%2F1&tab=this).
+
+[Shared record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). Identity comparisons do not assign events or alter family attachments.
+<!-- END FMP-BIRTH-SCOPE-PAGES4-6-20261023 -->

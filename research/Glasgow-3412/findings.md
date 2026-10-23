@@ -4,6 +4,8 @@
 
 The official University of Glasgow index lists Benjamin Glasgow’s Master of Surgery in 1826, but an original 7 May 1825 newspaper degree report now supplies a competing date. Preserve both pending register comparison. The 1834 death notice is a strong compatible surgeon/name/chronology match, not a proved identity: it names a Cookstown Robert father and death at New Orleans in 1833, after Vera Cruz. No birth year, father or overseas history appears in the University index.
 
+The 23 October 2026 Findmypast review below retains the recorded facts and qualified identity comparisons; no new person or relationship is proposed.
+
 ## Identity assessment — Irish newspaper extension, 4 October 2026
 
 The official University of Glasgow index lists Benjamin Glasgow’s Master of Surgery in 1826, but an original 7 May 1825 newspaper degree report now supplies a competing date. Preserve both pending register comparison. The 1834 death notice is a strong compatible surgeon/name/chronology match, not a proved identity: it names a Cookstown Robert father and death at New Orleans in 1833, after Vera Cruz. No birth year, father or overseas history appears in the University index.
@@ -72,3 +74,13 @@ In the July 1858 mill-water action, witness Benjamin Glasgow named Robert as his
 
 The documentary merchant’s identity remains unresolved. A Scottish surgery degree in 1826 does not itself exclude later mill management, but no record joins the graduate Benjamin to Drapersfield. The alternate [Benjamin Glasgow](https://www.wikitree.com/wiki/Glasgow-2566) was described as a bachelor and son of George in his 1876 marriage; these are material conflicts with the Robert father and 1864 marriage. [Benjamin Glasgow](https://www.wikitree.com/wiki/Glasgow-2059) died in February 1870, before the contemporary July action. The 1891 notice bridges Hull and Drapersfield, but does not identify Margaret George’s mother.
 <!-- queue-record-integration-2026-10-17:end -->
+
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGES4-6-20261023 -->
+## Findmypast record and identity review — 23 October 2026
+
+HOLD — Benjamin Glasgow died 1872 Q2 in Marylebone, age 80 (implied birth about 1792). Glasgow-3412 remains viable despite estimated 1805 birth and a possible 1833 death; neither is a concrete exclusion. Civil death index does not prove exact death date or residence. No new person is proposed; absent corroboration and uncertain or baptism-derived birth estimates are not concrete exclusions.
+
+- [Findmypast BMD/D/1872/2/AZ/000123/254](https://www.findmypast.co.uk/transcript?id=BMD%2FD%2F1872%2F2%2FAZ%2F000123%2F254&tab=this).
+
+[Shared record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). Identity comparisons do not assign events or alter family attachments.
+<!-- END FMP-BIRTH-SCOPE-PAGES4-6-20261023 -->
