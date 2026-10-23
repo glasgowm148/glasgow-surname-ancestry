@@ -75,6 +75,11 @@ def refresh_family_summaries(model, site_root):
             row.update(birth=fields['birthDisplay'],birthPlace=fields['birthplace'],
                        country=fields['birthLocationRegion'], **{'from':fields['born']})
             row['life'] = fields['birthDisplay'] + (' – '+str(row['life'].split(' – ',1)[-1]) if ' – ' in row.get('life','') else '')
+        if 'died' in fields:
+            row.update(death=fields['deathDisplay'], deathPlace=fields['deathplace'],
+                       deathCountry=fields['deathLocationRegion'], to=fields['died'])
+            birth_display = row.get('life', '').split(' – ', 1)[0]
+            row['life'] = (birth_display+' – ' if birth_display else '')+fields['deathDisplay']
     registry_path.write_text(json.dumps(registry,ensure_ascii=False,separators=(',',':'))+'\n')
     packed_path=site_root/'assets/v3/registry-packed.json'
     packed=json.loads(packed_path.read_text());slug_index=packed['fields'].index('slug')

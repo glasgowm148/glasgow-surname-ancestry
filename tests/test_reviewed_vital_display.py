@@ -7,6 +7,29 @@ from tools.reviewed_vital_display import apply, refresh_family_summaries
 
 
 class ReviewedVitalDisplayTests(unittest.TestCase):
+    def test_death_review_reaches_family_registry_without_changing_birth(self):
+        with TemporaryDirectory() as tmp:
+            root=Path(tmp)
+            def write(path, value):
+                path=root/path; path.parent.mkdir(parents=True,exist_ok=True)
+                path.write_text(json.dumps(value))
+            person=dict(id='Example-1',slug='example-1',name='Example Person',
+                        birth='1757',birthPlace='Birth parish',country='birth',
+                        death='1805-08-14',life='1757 – 14 August 1805',to=1805)
+            write('assets/research/registry.json',[person])
+            write('assets/v3/registry-packed.json',dict(fields=['slug','death','life'],rows=[['example-1',person['death'],person['life']]]))
+            write('assets/research/branches.json',[])
+            write('assets/research/palette.json',{})
+            model=dict(meta={'reviewedVitalDisplay':{'Example-1':dict(died=1805,deathDisplay='After 14 October 1805',deathplace='Death parish',deathLocationRegion='death')}})
+            refresh_family_summaries(model,root)
+            row=json.loads((root/'assets/research/registry.json').read_text())[0]
+            self.assertEqual(('1757','Birth parish','birth'),(row['birth'],row['birthPlace'],row['country']))
+            self.assertEqual(('After 14 October 1805','Death parish','death',1805),(row['death'],row['deathPlace'],row['deathCountry'],row['to']))
+            self.assertEqual('1757 – After 14 October 1805',row['life'])
+            self.assertEqual(['example-1',row['death'],row['life']],json.loads((root/'assets/v3/registry-packed.json').read_text())['rows'][0])
+            refresh_family_summaries(model,root)
+            self.assertEqual(row,json.loads((root/'assets/research/registry.json').read_text())[0])
+
     def test_person_metadata_uses_the_rendered_current_name(self):
         from bs4 import BeautifulSoup
         from tools import repair_person_hierarchy as renderer
