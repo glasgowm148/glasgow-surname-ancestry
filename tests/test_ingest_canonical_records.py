@@ -171,6 +171,13 @@ class CanonicalRecordIngestTest(unittest.TestCase):
         self.assertEqual(row['countries'], ['England'])
         self.assertEqual(row['year_basis'], 'record year')
 
+    def test_wholly_dated_source_preserves_maintained_source_bounds(self):
+        self.put('www/assets/v3/source-index.json', [
+            {'id': self.source['id'], 'title': self.source['title'], 'members': [],
+             'records': 0, 'citations': 0, 'from': 1700, 'to': 1800}])
+        source = plan(self.root, ['new-canonical-id'])[self.web / 'assets/v3/source-index.json'][0]
+        self.assertEqual((source['from'], source['to']), (1700, 1800))
+
     def test_source_reader_append_uses_secondary_heading(self):
         writes = plan(self.root, ['new-canonical-id'])
         page = writes[self.web / 'sources' / self.source['id'] / 'index.html']
@@ -267,6 +274,89 @@ class CanonicalRecordIngestTest(unittest.TestCase):
                        {'year': date.today().year + 1}):
             with self.subTest(change=change):
                 self.put('research/canonical_records.json', [{**self.canonical, **change}])
+                with self.assertRaises(ValueError):
+                    plan(self.root, ['new-canonical-id'])
+
+    def undated(self):
+        self.canonical.update(year=None, date_status='undated', date='Undated',
+                              historical_basis={'latest_event_year': 1784,
+                                                'source_url': 'https://example.org/event-1784',
+                                                'reason': 'A separately dated public parish entry bounds this occurrence.'})
+        self.put('research/canonical_records.json', [self.canonical])
+
+    def test_reviewed_undated_publish_replay_keeps_null_years_and_source_ids(self):
+        self.undated()
+        self.canonical['publish_to_record_index'] = True
+        self.canonical['source_title'] = 'Scotland, Parish Births & Baptisms 1564-1929'
+        self.put('research/canonical_records.json', [self.canonical])
+        result = publish_reviewed(self.root)
+        self.assertEqual(result['selected_records'], 1)
+        record = json.loads((self.web / 'data/records-index.json').read_text())[1]
+        compact = json.loads((self.web / 'assets/research/record-index.json').read_text())[1]
+        self.assertEqual(record['record_id'], 'stable-record')
+        self.assertEqual(record['document_id'], self.source['id'])
+        self.assertEqual((record['year'], record['filter_year'], compact['y']), ('Undated', None, None))
+        self.assertEqual(compact['year'], 'Undated')
+        self.assertEqual(record['date_status'], 'undated')
+        source = json.loads((self.web / 'assets/v3/source-index.json').read_text())[0]
+        doc = json.loads((self.web / 'assets/v3/sources' / (self.source['id'] + '.json')).read_text())
+        self.assertEqual((source['from'], source['to'], source['date_basis']), (None, None, 'reviewed undated'))
+        self.assertIsNone(doc['records'][0]['year'])
+        collection = build_index(self.web)[0]
+        self.assertIsNone(collection['year'])
+        self.assertEqual(collection['years'], [])
+        self.assertEqual(collection['year_basis'], 'reviewed undated')
+        self.assertEqual(publish_reviewed(self.root)['changed_files'], 0)
+
+    def test_undated_label_and_sourced_birth_bound(self):
+        self.undated()
+        self.canonical['date'] = 'Undated parish occurrence'
+        self.canonical['historical_basis'] = {'latest_birth_year': 1780,
+                                              'source_url': 'https://example.org/birth-1780',
+                                              'explanation': 'The named person has an independently indexed 1780 birth.'}
+        self.put('research/canonical_records.json', [self.canonical])
+        record = plan(self.root, ['new-canonical-id'])[self.web / 'data/records-index.json'][1]
+        self.assertEqual(record['year'], 'Undated parish occurrence')
+        self.assertIsNone(record['filter_year'])
+
+    def test_undated_census_collection_title_cannot_supply_event_year(self):
+        self.undated()
+        self.source['title'] = 'Scotland Census 1881 collection'
+        self.put('www/assets/v3/sources/' + self.source['id'] + '.json', self.source)
+        apply(self.root, ['new-canonical-id'], refresh_sources=False)
+        collection = build_index(self.web)[0]
+        self.assertEqual(collection['year_basis'], 'reviewed undated')
+        self.assertIsNone(collection['year'])
+        self.assertEqual(collection['years'], [])
+
+    def test_mixed_source_retains_only_actual_dated_record_year(self):
+        self.undated()
+        self.source['records'] = [{'id': 'older', 'year': 1790, 'date': '1790', 'country': 'Scotland'}]
+        self.put('www/assets/v3/sources/' + self.source['id'] + '.json', self.source)
+        writes = plan(self.root, ['new-canonical-id'])
+        source = writes[self.web / 'assets/v3/source-index.json'][0]
+        doc = writes[self.web / 'assets/v3/sources' / (self.source['id'] + '.json')]
+        self.assertEqual((source['from'], source['to']), (1790, 1790))
+        self.assertEqual(doc['date_basis'], 'reviewed record years with undated records')
+        apply(self.root, ['new-canonical-id'], refresh_sources=False)
+        collection = build_index(self.web)[0]
+        self.assertEqual((collection['year'], collection['years']), (1790, [1790]))
+
+    def test_undated_requires_explicit_safe_historical_bound(self):
+        self.undated()
+        good = dict(self.canonical)
+        invalid = [
+            {'year': None, 'date_status': None}, {'year': None, 'date_status': 'undated', 'historical_basis': None},
+            {'year': None, 'date_status': 'undated', 'historical_basis': {'latest_event_year': 1901, 'source_url': 'https://example.org/x', 'reason': 'Bound'}},
+            {'year': None, 'date_status': 'undated', 'historical_basis': {'latest_event_year': True, 'source_url': 'https://example.org/x', 'reason': 'Bound'}},
+            {'year': None, 'date_status': 'undated', 'historical_basis': {'latest_birth_year': date.today().year - 120, 'source_url': 'https://example.org/x', 'reason': 'Bound'}},
+            {'year': None, 'date_status': 'undated', 'historical_basis': {'latest_event_year': 1784, 'source_url': 'file:///private/capture', 'reason': 'Bound'}},
+            {'year': None, 'date_status': 'undated', 'historical_basis': {'latest_event_year': 1784, 'source_url': 'https://example.org/x', 'reason': '  '}},
+            {'year': False}, {'year': date.today().year + 1},
+        ]
+        for change in invalid:
+            with self.subTest(change=change):
+                self.put('research/canonical_records.json', [{**good, **change}])
                 with self.assertRaises(ValueError):
                     plan(self.root, ['new-canonical-id'])
 

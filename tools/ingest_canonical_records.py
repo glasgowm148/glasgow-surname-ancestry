@@ -145,9 +145,27 @@ def plan(root: Path, record_ids: list[str]):
                 raise ValueError('Unsafe existing record ID')
         year = row.get('year')
         current_year = date.today().year
-        if not isinstance(year, int) or isinstance(year, bool) or not 1 <= year <= current_year:
+        undated = 'year' in row and year is None and row.get('date_status') == 'undated'
+        if undated:
+            basis = row.get('historical_basis')
+            source = basis.get('source_url') if isinstance(basis, dict) else None
+            explanation = (basis.get('reason') or basis.get('explanation')) if isinstance(basis, dict) else None
+            event = basis.get('latest_event_year') if isinstance(basis, dict) else None
+            birth = basis.get('latest_birth_year') if isinstance(basis, dict) else None
+            valid_year = lambda value: isinstance(value, int) and not isinstance(value, bool) and 1 <= value <= current_year
+            if (not isinstance(source, str) or _safe_url(source) != source
+                    or not isinstance(explanation, str) or not explanation.strip()
+                    or (event is not None and (not valid_year(event) or event > 1900))
+                    or (birth is not None and (not valid_year(birth) or birth >= current_year - 120))
+                    or (event is None and birth is None)):
+                raise ValueError(f'{rid}: undated record requires a sourced historical event or birth bound and explanation')
+            date_label = row.get('date', 'Undated')
+            if not isinstance(date_label, str) or not date_label.strip() or any(ord(c) < 32 for c in date_label) or len(date_label) > 120:
+                raise ValueError(f'{rid}: invalid undated display label')
+            date_label = date_label.strip()
+        elif not isinstance(year, int) or isinstance(year, bool) or not 1 <= year <= current_year or row.get('date_status') == 'undated':
             raise ValueError(f'{rid}: explicit historical record year required')
-        if year > 1900:
+        elif year > 1900:
             basis = row.get('historical_basis') or {}
             latest_birth = basis.get('latest_birth_year') if isinstance(basis, dict) else None
             birth_source = basis.get('source_url') if isinstance(basis, dict) else None
@@ -155,6 +173,8 @@ def plan(root: Path, record_ids: list[str]):
                     or not 1 <= latest_birth < current_year - 120 or latest_birth > year
                     or not birth_source or _safe_url(birth_source) != birth_source):
                 raise ValueError(f'{rid}: post-1900 event requires a sourced historical birth bound')
+        if not undated:
+            date_label = row.get('date') or str(year)
         ids = url_ids.get(provider, [])
         if len(ids) > 1:
             raise ValueError(f'{rid}: ambiguous existing exact-URL source IDs')
@@ -167,7 +187,7 @@ def plan(root: Path, record_ids: list[str]):
                                   'repository': '', 'grouping_basis': 'exact source URL',
                                   'members': [], 'citations': [], 'records': [], 'events': [],
                                   'transcription': None, 'image': None, 'annotations': {},
-                                  'is_collection': False, 'date_basis': 'reviewed record year'})
+                                  'is_collection': False, 'date_basis': 'reviewed undated' if undated else 'reviewed record year'})
         context = row.get('profiles') or {}
         linked = []
         for ident, assessment in context.items():
@@ -207,7 +227,7 @@ def plan(root: Path, record_ids: list[str]):
         if row.get('person') and any('candidate' in role.casefold() for _, role in linked):
             person_label += ' (candidate identity)'
         record = dict(record_id=rid, provider_record_id=row.get('provider_record_id'), catalogue_id=slug, person=person_label,
-                      profile_ids=' | '.join(context), year=row.get('date') or str(year),
+                      profile_ids=' | '.join(context), year=date_label,
                       filter_year=year, region=country.title(), record_category=category,
                       association=label, note=note, location_id='', record_location=row.get('place') or '',
                       record_precision='Provider transcript place; not geocoded', evidence=row['status'],
@@ -217,7 +237,10 @@ def plan(root: Path, record_ids: list[str]):
                       supporting_source_status='explicit', supporting_source_reason=row['status'],
                       country=country, research_date=False, document_id=sid, profile_context=deepcopy(context),
                       provenance=row['provenance'])
-        if year > 1900:
+        if undated:
+            record['date_status'] = 'undated'
+            record['historical_basis'] = deepcopy(row['historical_basis'])
+        elif year > 1900:
             record['historical_basis'] = deepcopy(row['historical_basis'])
         previous = next((r for r in full if r['record_id'] == rid), None)
         if previous and provider_key(previous) != provider:
@@ -229,8 +252,8 @@ def plan(root: Path, record_ids: list[str]):
                                 status=row['status'], quality=quality, title=source_title,
                                 research_date=False, document_id=sid, citation='explicit'))
         source_records.setdefault(sid, []).append(dict(id=rid, person=slug, name=label, year=year, country=country.title(),
-                                  date=record['year'], place=record['record_location'],
-                                  association=label, note=note, status=row['status']))
+                                  date=record['year'], date_status='undated' if undated else 'dated',
+                                  place=record['record_location'], association=label, note=note, status=row['status']))
         citations = []
         for person, role in linked or [({}, 'No identified catalogue person')]:
             eid = 'E-' + sha256((rid + '|' + person.get('id', '')).encode()).hexdigest()[:16]
@@ -249,13 +272,23 @@ def plan(root: Path, record_ids: list[str]):
         doc = docs[sid]
         doc['records'] = merge(doc.get('records', []), source_records[sid], 'id')
         doc['record_count'], doc['citation_count'] = len(doc['records']), len(doc['citations'])
-        years = [r['year'] if isinstance(r.get('year'), int) else int(str(r['date'])[:4])
-                 for r in doc['records'] if isinstance(r.get('year'), int) or re.match(r'^\d{4}', str(r.get('date', '')))]
+        years = [r['year'] if isinstance(r.get('year'), int) and not isinstance(r['year'], bool)
+                 else int(str(r['date'])[:4])
+                 for r in doc['records'] if r.get('date_status') != 'undated'
+                 and ((isinstance(r.get('year'), int) and not isinstance(r['year'], bool))
+                      or re.match(r'^\d{4}(?!\d)', str(r.get('date', ''))))]
+        has_undated = any(r.get('year') is None for r in doc['records'])
+        doc['date_basis'] = ('reviewed record years with undated records' if has_undated and years else
+                             'reviewed undated' if has_undated else 'reviewed record year')
         old = next((r for r in sources if r['id'] == sid), {})
+        # Preserve maintained bounds for ordinary dated sources. When an
+        # undated record is present, only actual record years may bound it.
+        bounds = years if has_undated else [*years, *([old['from']] if old.get('from') is not None else []),
+                                              *([old['to']] if old.get('to') is not None else [])]
         source_rows.append({**old, 'id': sid, 'title': doc['title'], 'members': doc['members'],
                             'records': doc['record_count'], 'citations': doc['citation_count'],
-                            'from': min([*years, *([old['from']] if old.get('from') else [])]),
-                            'to': max([*years, *([old['to']] if old.get('to') else [])]),
+                            'from': min(bounds) if bounds else None,
+                            'to': max(bounds) if bounds else None,
                             'image': bool(doc.get('image')), 'transcription': bool(doc.get('transcription')),
                             'basis': doc.get('grouping_basis', 'exact source URL'), 'date_basis': doc.get('date_basis', '')})
         writes[web / f'assets/v3/sources/{sid}.json'] = doc

@@ -112,6 +112,13 @@ def _census_metadata(doc: dict) -> tuple[list[int], list[str]]:
 def _years(doc: dict, text: str, categories: list[str]) -> tuple[int | None, str]:
     if re.search(r"\bwikitree\b|profile export|tree-only|family tree", _classification_text(doc), re.I):
         return None, "unknown"
+    # A reviewed canonical record with no event year must not inherit a year
+    # from a collection title, register span, or citation review date.
+    if str(doc.get('date_basis') or '').startswith('reviewed '):
+        recorded = _recorded_years(doc)
+        if recorded:
+            return (recorded[0], 'record year') if len(recorded) == 1 else (None, 'multiple record years')
+        return None, 'reviewed undated'
     if "census" in categories:
         census_years, _ = _census_metadata(doc)
         if census_years:
@@ -202,8 +209,9 @@ def build_index(web: Path) -> list[dict]:
                                          if isinstance(row, dict) and row.get('country') in _COUNTRIES})
             if recorded_countries:
                 countries = recorded_countries
-        census_years, census_countries = _census_metadata(doc) if "census" in categories else ([], [])
-        if row['id'] in overrides:
+        reviewed_undated = 'undated' in str(doc.get('date_basis') or '')
+        census_years, census_countries = _census_metadata(doc) if "census" in categories and not reviewed_undated else ([], [])
+        if row['id'] in overrides and not reviewed_undated:
             override = overrides[row['id']]
             if sha256(str(doc.get('title') or '').encode()).hexdigest() != override['title_sha256']:
                 raise ValueError('Census citation override needs review: ' + row['id'])
