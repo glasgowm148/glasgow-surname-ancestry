@@ -2,6 +2,12 @@
 
 ## Current conclusion
 
+Reviewed 23 October 2026.
+
+[Thomas Glasgow](/people/glasgow-1382.html) → [Thomas Glasgow](/people/glasgow-1023.html): 98% → **78% (probable)**. Livingston’s 2 February 1746 Davistoun baptism names Thomas Glasgow and Janet Mill; that recorded-child father clause retains 98% conditional confidence. The same Livingston setting and feasible ages for the Christian Davidson adult’s 1774–1790 children support the identification. A retained circa-1766 birth claim conflicts with fatherhood in 1774 and is not resolved by Catharine’s new parent fields. Without a direct childhood-to-adult bridge, assess the complete adult-to-Thomas-1023 placement at 78%. The displayed percentage now covers the adult household’s ancestry. Preserve the former 98% as the conditional 1746 child assessment, not as disproved evidence. The inherited 1766/1851 lifetime may be erroneous or another man; retain that discrepancy without silently changing vitals or certifying the identity. Catharine’s 97% adult-household father link is separate. Original register images uninspected.
+
+The selected fathers and existing vital fields are retained. Percentages are subjective assessments with the record and identity scopes stated above.
+
 **Kirkliston comparison, 17 October 2026:** [John of Kirkliston](/people/glasgow-159.html#research-update) is a possible son at 42%, dependent on his identity with the existing Mid Calder John-2980. The two John accounts may represent one man.
 
 **Substantive amendment.** The transcript exactly matches [Thomas Glasgow (Glasgow-1023)](https://www.wikitree.com/wiki/Glasgow-1023) by baptism date, Kilwinning locality, and both parents. The captured biography already states the baptism and parentage, but the transcript newly supplies Thomas's birth date, 5 November 1725, and the residence Byres, Kilwinning. The transcript therefore exceeds the source-only threshold.
@@ -56,3 +62,11 @@ Scope: The record-defined1725 child and Hugh/Janet household. Thomas’s later M
 Next useful test: Prioritise Hugh’s upstream father and Thomas’s later adult identification, not the explicit1725 parent pair.
 
 This is a first numerical review of an existing attachment, not a new father, new branch connection or original-source discovery. The prior contributor mark is retained in the structured assessment history.
+
+
+## Parish household evidence — 23 October 2026
+
+[Thomas Glasgow](/people/glasgow-1382.html) → [Thomas Glasgow](/people/glasgow-1023.html): 98% → **78% (probable)**. Livingston’s 2 February 1746 Davistoun baptism names Thomas Glasgow and Janet Mill; that recorded-child father clause retains 98% conditional confidence. The same Livingston setting and feasible ages for the Christian Davidson adult’s 1774–1790 children support the identification. A retained circa-1766 birth claim conflicts with fatherhood in 1774 and is not resolved by Catharine’s new parent fields. Without a direct childhood-to-adult bridge, assess the complete adult-to-Thomas-1023 placement at 78%. The displayed percentage now covers the adult household’s ancestry. Preserve the former 98% as the conditional 1746 child assessment, not as disproved evidence. The inherited 1766/1851 lifetime may be erroneous or another man; retain that discrepancy without silently changing vitals or certifying the identity. Catharine’s 97% adult-household father link is separate. Original register images uninspected.
+
+- [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Thomas Glasgow, 02 Feb 1746, record SCOT/OPR/BAP/4151556](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4151556&tab=this).
+- [fmp-record-scot-opr-bap-4152175](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4152175&tab=this).

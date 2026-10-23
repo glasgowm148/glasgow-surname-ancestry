@@ -657,21 +657,21 @@
       "addition_wikitext": ""
     },
     "Glasgow-1058": {
-      "queued_at": "2026-10-22",
+      "queued_at": "2026-10-23",
       "status": "OPEN",
       "significance": 65,
-      "summary": "Review selected uncertain Calder/Irvine parents and the full child/adult comparisons. Preserve the Guthrie/Meek household distinction, the two George generations, source-date discrepancies and earlier amendments. No live merge, new spouse or confidence upgrade. Review existing father at 98% (proved), retaining source and identity limits; no new father attachment.",
+      "summary": "Add the reciprocal parish household findings and qualified child-father assessments.",
       "manual_update": true,
-      "draft_path": "research/Glasgow-1058/father-confidence-2026-10-22b.wiki",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation2-2026-10-22.json",
+      "draft_path": "research/Glasgow-1058/parish-household-review-2026-10-23.wiki",
+      "preservation_review_path": "research/ancestry-connections/parish-household-preservation-2026-10-23.json",
       "reviewed_narrative_reduction": true,
       "preserve_captured_detail": false,
       "relationship_changes": [],
       "profile_id": "Glasgow-1058",
       "pending": true,
-      "biography_rechecked_at": "2026-10-22",
+      "biography_rechecked_at": "2026-10-23",
       "findings_path": "research/Glasgow-1058/findings.md",
-      "work_queue_summary": "Review selected uncertain Calder/Irvine parents and the full child/adult comparisons. Preserve the Guthrie/Meek household distinction, the two George generations, source-date discrepancies and earlier amendments. No live merge, new spouse or confidence upgrade. Review existing father at 98% (proved), retaining source and identity limits; no new father attachment.",
+      "work_queue_summary": "Add the reciprocal parish household findings and qualified child-father assessments.",
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": ""
@@ -1444,27 +1444,27 @@
       "significance": 70,
       "manual_update": true,
       "registered_update": true,
-      "summary": "Newspaper identity review 6 Oct 2026. Relationships: Glasgow-1222 son of Glasgow-1218 → upgrade to confident Add sourced facts: Weaver (reading appears to be stocking-weaver) at Kelso in 1798. Review existing father at 97% (proved), retaining source and identity limits; no new father attachment.",
+      "summary": "Add the interpreted parish household evidence. Existing father 97% → 70% (probable); retain the stronger record-only clause conditionally and qualify the adult identity.",
       "profile_id": "Glasgow-1218",
       "status": "OPEN",
       "pending": true,
-      "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-1218/father-confidence-2026-10-22b.wiki",
+      "queued_at": "2026-10-23",
+      "biography_rechecked_at": "2026-10-23",
+      "draft_path": "research/Glasgow-1218/parish-household-review-2026-10-23.wiki",
       "findings_path": "research/Glasgow-1218/findings.md",
-      "work_queue_summary": "Newspaper identity review 6 Oct 2026. Relationships: Glasgow-1222 son of Glasgow-1218 → upgrade to confident Add sourced facts: Weaver (reading appears to be stocking-weaver) at Kelso in 1798. Review existing father at 97% (proved), retaining source and identity limits; no new father attachment.",
+      "work_queue_summary": "Add the interpreted parish household evidence. Existing father 97% → 70% (probable); retain the stronger record-only clause conditionally and qualify the adult identity.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-1238",
-          "status": "proved",
+          "status": "probable",
           "previous_status": "unmarked",
-          "previous_probability_percent": null,
-          "probability_percent": 97,
+          "previous_probability_percent": 97,
+          "probability_percent": 70,
           "assertion_id": "C-coverage-20261022b-glasgow-1218-father",
-          "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Record-defined child and Tait household97%; David’s later adult identification and James’s own 1712 ancestry are separate. Original uninspected."
+          "previous_status_provenance": "Saved WikiTree certainty field and retained 22 October individual assessment/history; scope changes explicitly preserve the conditional record proposition.",
+          "scope": "The previous 97% measured the 1744 child’s parentage, not the complete later adult ancestry. Preserve it conditionally; no contradictory parent clause has been found. Andrew’s 95% identifies the 1767 father without establishing his childhood. Kelso militia/weaver, Edinburgh, Ireland and William Glass/Tristan da Cunha identities remain separate. Original register images uninspected."
         }
       ],
       "preserve_captured_detail": false,
@@ -1472,7 +1472,7 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation2-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/parish-household-preservation-2026-10-23.json"
     },
     "Glasgow-1222": {
       "significance": 70,
@@ -1552,20 +1552,20 @@
       ]
     },
     "Glasgow-1238": {
-      "draft_path": "research/Glasgow-1238/stichill-court-family-2026-10-22.wiki",
-      "summary": "Add the new Stichill court notices and explain James’s 92% confident father inference; the live father is already confident. Retain separate Gordon, Swinton and Irish identity limits.",
-      "work_queue_summary": "Add the new Stichill court notices and explain James’s 92% confident father inference; the live father is already confident. Retain separate Gordon, Swinton and Irish identity limits.",
+      "draft_path": "research/Glasgow-1238/parish-household-review-2026-10-23.wiki",
+      "summary": "Add the reciprocal parish household findings and qualified child-father assessments.",
+      "work_queue_summary": "Add the reciprocal parish household findings and qualified child-father assessments.",
       "status": "OPEN",
       "pending": true,
-      "queued_at": "2026-10-22",
+      "queued_at": "2026-10-23",
       "significance": 54,
       "manual_update": true,
       "findings_path": "research/Glasgow-1238/findings.md",
-      "preservation_review_path": "research/ancestry-connections/stichill-strength-preservation-2026-10-22.json",
+      "preservation_review_path": "research/ancestry-connections/parish-household-preservation-2026-10-23.json",
       "reviewed_narrative_reduction": true,
       "preserve_captured_detail": false,
       "profile_id": "Glasgow-1238",
-      "biography_rechecked_at": "2026-10-22",
+      "biography_rechecked_at": "2026-10-23",
       "remote_captured_at": "2026-08-07T09:54:35+00:00",
       "remote_wikitext": "[[Space:Glasgow_Surname_in_the_Scottish_Borders|Glasgow Surname in the Scottish Borders]]\n\n== Biography ==\nJames Glasgow (recorded often with spelling variations like Glasow, Glasgoue, Glasgou) was christened on '''11 May 1712''' in Stitchel, Roxburghshire, Scotland. His parents were recorded as Patrick Glasow and Helen Fairbarn<ref>\"Scotland Births and Baptisms, 1564-1950\", database, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:FMM7-GMN : 16 September 2021), James Glasow, 1712. Parents: Patrick Glasow, Helen Fairbarn. Christening Date: 11 May 1712, Stitchel, Roxburghshire, Scotland.</ref>. (A birth date of 5 May 1712 is given with this christening).\n\nHe married Elizabath Tait (also spelled Elizabeth) on '''25 January 1740''' in Stitchel, Roxburghshire<ref>\"Scotland Marriages, 1561-1910\", database, FamilySearch (https://familysearch.org/ark:/61903/1:1:XYQ1-SPB : 11 February 2020), James Glasgow marriage to Elizabath Tait, 25 Jan 1740, Stitchel, Roxburghshire, Scotland.</ref>.\n\nBased on available christening records, James and Elizabath had the following children primarily in Stitchel, with a later record in Swinton:\n* [[Glasgow-1225|Patrick Glasgow (bef.1742-)]] (Glasgoue), christened 20 June 1742 in Stitchel<ref>\"Scotland Births and Baptisms, 1564-1950\", database, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:FMM7-5XM : 16 September 2021), James Glasgoue in entry for Patrick Glasgow, 1742. Christening Date: 20 Jun 1742, Stitchel, Roxburghshire, Scotland. Parents: James Glasgoue, Elizabath Tait.</ref>.\n* [[Glasgow-1218|David Glasgow (bef.1744-)]], christened 6 June 1744 in Stitchel<ref>\"Scotland Births and Baptisms, 1564-1950\", database, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:FMMQ-472 : 16 September 2021), James Glasgow in entry for Daved Glasgou, 1744. Christening Date: 06 Jun 1744, Stitchel, Roxburghshire, Scotland. Parents: James Glasgow, Elizabeth Tait.</ref>.\n* [[Glasgoue-1|James Glasgoue (abt.1746-)]], christened 27 July 1746 in Stitchel<ref>\"Scotland Births and Baptisms, 1564-1950\", database, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:FMM7-R58 : 16 September 2021), James Glasgoue in entry for James Glasgoue, 1746. Christening Date: 27 Jul 1746, Stitchel, Roxburghshire, Scotland. Parents: James Glasgoue, Elizabath Tait.</ref>.\n* [[Glasgou-2|Elspeth Glasgou (abt.1748-)]], christened 27 March 1748 in Stitchel<ref>\"Scotland Births and Baptisms, 1564-1950\", database, FamilySearch (https://familysearch.org/ark:/61903/1:1:FMMM-R73 : 16 September 2021), James Glasgou in entry for Elspeth Glasgou, 1748. Christening Date: 27 Mar 1748, Stitchel, Roxburghshire, Scotland. Parents: James Glasgou, Elizabath Tait.</ref>.\n* [[Glasgow-3513|Helen Glasgow (1750-)]], christened 2 April 1750 in Stitchel<ref>\"Scotland Births and Baptisms, 1564-1950\", database, FamilySearch (https://familysearch.org/ark:/61903/1:1:FMMM-93V : 16 September 2021), James Glasgow in entry for Heling Glasgow, 1750. Christening Date: 02 Apr 1750, Stitchel, Roxburghshire, Scotland. Parents: James Glasgow, Elizabath Tait.</ref>.\n* [[Glasgow-1223|William Glasgow (bef.1765-abt.1820)]], christened 4 August 1765 in Swinton, Berwickshire<ref>\"Scotland Births and Baptisms, 1564-1950\", database, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:XTBH-LM1 : 16 September 2021), James Glasgow in entry for William Glasgow, 1765. Christening Date: 04 Aug 1765, Swinton, Berwickshire, Scotland. Parents: James Glasgow, Elizabeth Tait.</ref>. (Note the location change and time gap).\n\n'''Important Note on Son John:''' [[Glasgow-1606|John Glasgow]] (born circa 1738, husband of Mary Robertson) has previously been identified as a son of this James Glasgow and Elizabath Tait. However, a christening record for John naming these parents has not yet been located or cited in this profile alongside his siblings listed above. Confirmation of this parental link is required (See Research Notes).\n\nNo death information for James is currently cited.\n\n== Research Notes ==\n* '''Confirming Son John:''' The primary research goal is to confirm if [[Glasgow-1606|John Glasgow]] (b. c1738) is indeed the son of this James Glasgow and Elizabath Tait. A birth/christening record for John, ideally dated around 1738-1741 (before Patrick) in Stitchel or nearby, naming James and Elizabath/Elizabeth as parents, is needed. Alternatively, other documents like wills or land records might establish the connection. Without this, the link between John (b.c1738) and this James (b.1712) remains unproven.\n* '''Spelling Variations:''' Note the variations in spelling for the surname (Glasgow, Glasow, Glasgoue, Glasgou) and Elizabeth's first name (Elizabath) in the records. Consistent searching across variations is recommended.\n* '''Birth Date:''' The exact birth date of May 5, 1712 needs verification, as the cited record confirms the May 11, 1712 christening. Checking the original parish register image may clarify if the birth date was recorded.\n* '''Gap in Children & Relocation:''' There is a 15-year gap between the christening of Heling (1750 in Stitchel) and William (1765 in Swinton, Berwickshire). This suggests other children might be missing, or the family relocated during this period. The reason for the move from Roxburghshire to Berwickshire is unknown. Research in Swinton records around 1765 might provide further clues.\n* '''Death Records:''' Death or burial records for James Glasgow and Elizabath Tait are needed. They might be found in Stitchel, Swinton, or potentially elsewhere depending on later movements.\n\n== Sources ==\n<references/>",
       "relationship_changes": [],
@@ -1674,10 +1674,10 @@
       "preservation_review_path": "research/ancestry-connections/father-coverage-preservation6-2026-10-22.json"
     },
     "Glasgow-1333": {
-      "draft_path": "research/Glasgow-1333/father-confidence-2026-10-22g.wiki",
-      "summary": "Add the cited record accounts: Possible Andrew Glasgow, Leith society and merchant notices, 1779–1790; Possible Robert Glasgow and father Andrew, miller at Calder, 1772. Retain the stated identity and relationship limits. Review existing father at 60% (probable), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Add the cited record accounts: Possible Andrew Glasgow, Leith society and merchant notices, 1779–1790; Possible Robert Glasgow and father Andrew, miller at Calder, 1772. Retain the stated identity and relationship limits. Review existing father at 60% (probable), retaining source and identity limits; no new father attachment.",
-      "queued_at": "2026-10-22",
+      "draft_path": "research/Glasgow-1333/parish-household-review-2026-10-23.wiki",
+      "summary": "Add the interpreted parish household evidence. Existing father 60% → 98% (confident); retain the stated identity limits.",
+      "work_queue_summary": "Add the interpreted parish household evidence. Existing father 60% → 98% (confident); retain the stated identity limits.",
+      "queued_at": "2026-10-23",
       "status": "OPEN",
       "pending": true,
       "findings_path": "research/Glasgow-1333/findings.md",
@@ -1689,27 +1689,14 @@
       "private_comparison": false,
       "prior_work_summary": "",
       "profile_id": "Glasgow-1333",
-      "biography_rechecked_at": "2026-10-22",
-      "relationship_changes": [
-        {
-          "action": "regrade",
-          "relationship": "father",
-          "relative_id": "Glasgow-81",
-          "status": "probable",
-          "previous_status": "confident",
-          "previous_probability_percent": null,
-          "probability_percent": 60,
-          "assertion_id": "C-coverage-20261022g-glasgow-1333-father",
-          "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
-        }
-      ],
+      "biography_rechecked_at": "2026-10-23",
+      "relationship_changes": [],
       "preserve_captured_detail": false,
       "reviewed_narrative_reduction": true,
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation7-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/parish-household-preservation-2026-10-23.json"
     },
     "Glasgow-1351": {
       "draft_path": "research/Glasgow-1351/father-confidence-2026-10-22h.wiki",
@@ -2296,10 +2283,10 @@
       "preservation_review_path": "research/ancestry-connections/father-coverage-preservation8-2026-10-22.json"
     },
     "Glasgow-1481": {
-      "draft_path": "research/Glasgow-1481/father-confidence-2026-10-22g.wiki",
-      "summary": "Andrew Glasgow: indexed birth 1775-12-30; indexed baptism 5 January 1776. Birth date corrected from before 1776-01-05. Original register image remains uninspected. Add the cited record account: Excluded 1779 Leith adult identity; unresolved 1790 comparison. Retain the stated identity and relationship limits. Review existing father at 64% (probable), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Andrew Glasgow: indexed birth 1775-12-30; indexed baptism 5 January 1776. Birth date corrected from before 1776-01-05. Original register image remains uninspected. Add the cited record account: Excluded 1779 Leith adult identity; unresolved 1790 comparison. Retain the stated identity and relationship limits. Review existing father at 64% (probable), retaining source and identity limits; no new father attachment.",
-      "queued_at": "2026-10-22",
+      "draft_path": "research/Glasgow-1481/parish-household-review-2026-10-23.wiki",
+      "summary": "Add the interpreted parish household evidence. Existing father 64% → 97% (confident); retain the stated identity limits.",
+      "work_queue_summary": "Add the interpreted parish household evidence. Existing father 64% → 97% (confident); retain the stated identity limits.",
+      "queued_at": "2026-10-23",
       "status": "OPEN",
       "pending": true,
       "findings_path": "research/Glasgow-1481/findings.md",
@@ -2310,26 +2297,13 @@
       "prior_work_summary": "",
       "profile_id": "Glasgow-1481",
       "biography_rechecked_at": "2026-10-23",
-      "relationship_changes": [
-        {
-          "action": "regrade",
-          "relationship": "father",
-          "relative_id": "Glasgow-1321",
-          "status": "probable",
-          "previous_status": "confident",
-          "previous_probability_percent": null,
-          "probability_percent": 64,
-          "assertion_id": "C-coverage-20261022g-glasgow-1481-father",
-          "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
-        }
-      ],
+      "relationship_changes": [],
       "preserve_captured_detail": false,
       "reviewed_narrative_reduction": true,
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation7-2026-10-22.json",
+      "preservation_review_path": "research/ancestry-connections/parish-household-preservation-2026-10-23.json",
       "vital_changes": [
         {
           "field": "birth",
@@ -4675,10 +4649,10 @@
       "preservation_review_path": "research/ancestry-connections/father-coverage-preservation6-2026-10-22.json"
     },
     "Glasgow-3313": {
-      "draft_path": "research/Glasgow-3313/father-confidence-2026-10-22f.wiki",
-      "summary": "Add the cited record account: Possible A. Retain the stated identity and relationship limits. Review existing father at 51% (possible), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Add the cited record account: Possible A. Retain the stated identity and relationship limits. Review existing father at 51% (possible), retaining source and identity limits; no new father attachment.",
-      "queued_at": "2026-10-22",
+      "draft_path": "research/Glasgow-3313/parish-household-review-2026-10-23.wiki",
+      "summary": "Add the interpreted parish household evidence. Existing father 51% → 82% (probable); retain the stated identity limits.",
+      "work_queue_summary": "Add the interpreted parish household evidence. Existing father 51% → 82% (probable); retain the stated identity limits.",
+      "queued_at": "2026-10-23",
       "status": "OPEN",
       "pending": true,
       "findings_path": "research/Glasgow-3313/findings.md",
@@ -4688,19 +4662,19 @@
       "private_comparison": false,
       "prior_work_summary": "",
       "profile_id": "Glasgow-3313",
-      "biography_rechecked_at": "2026-10-22",
+      "biography_rechecked_at": "2026-10-23",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-1058",
-          "status": "possible",
+          "status": "probable",
           "previous_status": "unmarked",
-          "previous_probability_percent": null,
-          "probability_percent": 51,
+          "previous_probability_percent": 51,
+          "probability_percent": 82,
           "assertion_id": "C-coverage-20261022f-glasgow-3313-father",
-          "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Complete existing child-to-father-profile proposition, including the father’s childhood-to-adult identification; literal named parental role is stronger and assessed separately in the basis."
+          "previous_status_provenance": "Saved WikiTree certainty field and retained 22 October individual assessment/history; scope changes explicitly preserve the conditional record proposition.",
+          "scope": "82% assesses the complete placement under George-1058, including the still-unbridged identification of the 1728–1733 adult with the 1687 Kilwinning child. The adult records do not supply an age, occupation or parents; another George remains possible, though no concrete competing George/Margaret household is documented. The profile’s 21 May birth remains distinct from the 22 May baptism. Original register image uninspected."
         }
       ],
       "preserve_captured_detail": false,
@@ -4708,7 +4682,7 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation6-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/parish-household-preservation-2026-10-23.json"
     },
     "Glasgow-3322": {
       "draft_path": "research/Glasgow-3322/father-confidence-2026-10-22e.wiki",
@@ -9736,15 +9710,27 @@
     },
     "Glasgow-1929": {
       "profile_id": "Glasgow-1929",
-      "queued_at": "2026-10-22",
-      "draft_path": "research/Glasgow-1929/father-confidence-2026-10-22.wiki",
+      "queued_at": "2026-10-23",
+      "draft_path": "research/Glasgow-1929/parish-household-review-2026-10-23.wiki",
       "findings_path": "research/Glasgow-1929/findings.md",
-      "summary": "Review existing father at93% (proved); retain explicit source and identity limits. No new father attachment.",
-      "work_queue_summary": "Review existing father at93% (proved); retain explicit source and identity limits. No new father attachment.",
+      "summary": "Add the interpreted parish household evidence. Existing father 93% → 62% (probable); retain the stronger record-only clause conditionally and qualify the adult identity.",
+      "work_queue_summary": "Add the interpreted parish household evidence. Existing father 93% → 62% (probable); retain the stronger record-only clause conditionally and qualify the adult identity.",
       "status": "OPEN",
       "pending": true,
       "manual_update": true,
       "relationship_changes": [
+        {
+          "action": "regrade",
+          "relationship": "father",
+          "relative_id": "Glasgow-1927",
+          "status": "probable",
+          "previous_status": "confident",
+          "previous_probability_percent": 93,
+          "probability_percent": 62,
+          "assertion_id": "C-coverage-20261022-glasgow-1929-father",
+          "previous_status_provenance": "Saved WikiTree certainty field and retained 22 October individual assessment/history; scope changes explicitly preserve the conditional record proposition.",
+          "scope": "This corrects the scope of the displayed ancestral edge; it is not new evidence contradicting the 1710 parent clause. The conditional 93% remains in history. Ann’s 96% adult-household father identification cannot establish Hugh’s childhood ancestry. Mary Gemmill’s maternity depends on the same separate lifetime identity and is not reassessed automatically. Original register images uninspected."
+        },
         {
           "action": "regrade",
           "relationship": "child",
@@ -9784,8 +9770,8 @@
       ],
       "preserve_captured_detail": false,
       "reviewed_narrative_reduction": true,
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation-2026-10-22.json",
-      "biography_rechecked_at": "2026-10-22",
+      "preservation_review_path": "research/ancestry-connections/parish-household-preservation-2026-10-23.json",
+      "biography_rechecked_at": "2026-10-23",
       "remote_captured_at": "2026-10-21T01:35:54+00:00",
       "remote_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nHugh Glasgow was born on 30 January 1710 and baptised on 5 February at Kilwinning, Ayrshire. The index names his parents as [[Glasgow-1927|John Glasgow]] and [[Gemill-4|Mary Gemmill]].<ref name=\"hughbirth\">Findmypast, ''Scotland, Parish Births & Baptisms 1564–1929'', [https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3625904&tab=this Hugh Glasgow, 30 January/5 February 1710], Kilwinning, OPR 599/1, p. 70; FamilySearch [https://www.familysearch.org/ark:/61903/1:1:XYST-MFP record XYST-MFP].</ref>\n\nA Kilmarnock marriage index records Hugh Glasgow and [[McEachin-120|Margaret McEachin]] on 20 March 1732.<ref name=\"marriage\">FamilySearch, ''Scotland, Marriages, 1561–1910'', {{FamilySearch Record|XT24-XWR}}, Hugh Glasgow and Margaret McEachin, 20 March 1732. Original page not compared.</ref> Kilmarnock baptism indexes name Hugh and Margaret, whose surname appears as McGechan/McCachen in different transcripts, for Mary (1732), Jean (1735), Margaret (1738), Hugh (1742), Ann (1749) and Hugh (1752). A 1755 Glasgow baptism names Hugh and Margtt. McKechny as parents of John. Each child's own profile holds its event-specific citation; the index spellings and child identifications should be compared against the original pages.<ref name=\"mary1732\">Findmypast, Kilmarnock baptism [https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3599128&tab=this Mary Glasgow, 17 December 1732], parents Hugh Glasgow and Margaret McGechan.</ref><ref name=\"john1755\">FamilySearch, [https://www.familysearch.org/ark:/61903/1:1:VRS2-MNP John Glasgo, 19/23 April 1755], parents Hugh and Margtt. McKechny.</ref>\n\nA separate Kilmarnock baptism dated 11 April 1744 names Hugh Glasgow and [[Giffen-664|Margaret Giffen]] as parents of another Mary. The source names a different mother and the same father name. This child event was retained from the former [[Glasgow-4166]] profile; its connection to the Kilwinning-born Hugh remains a qualified inference, not proof of a second marriage, widowhood or Margaret McEachin's death.<ref name=\"mary1744\">Findmypast, Kilmarnock baptism [https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3600620&tab=this Mary Glasgow, 11 April 1744], parents Hugh Glasgow and Margaret Giffen.</ref>\n\n== Research Notes ==\nThe former Kilmarnock father profile Glasgow-4166 was merged into this one on 27 September 2026. The Kilwinning child of 1710 is age-compatible with the 1732 adult groom and father, and the 1732 marriage to Margaret McEachin together with recurring McGechan/McCachen forms in the Kilmarnock children provides a family bridge. The original Kilwinning and Kilmarnock records do not expressly identify the same Hugh, so the child-to-adult step remains inferred. Earlier profiles placed the first Hugh child with Margaret McEachin in 1749; the 1732–1742 Kilmarnock entries expand that sequence.\n\nTwo Mary baptisms, in 1732 and 1744, are separate records. They might be successive same-name children or belong to distinct same-name fathers. The 1744 Giffen entry should be examined separately for residence, occupation and witness details; preserve both recorded mothers and all child citations pending that comparison. No death date is established for Hugh.\n\n== Sources ==\n<references />",
       "replacements": [],
@@ -10280,20 +10266,20 @@
     },
     "Glasgow-1927": {
       "significance": 40,
-      "summary": "Review existing father at98% (proved); retain explicit source and identity limits. No new father attachment.",
-      "work_queue_summary": "Review existing father at98% (proved); retain explicit source and identity limits. No new father attachment.",
-      "draft_path": "research/Glasgow-1927/father-confidence-2026-10-22.wiki",
+      "summary": "Add the reciprocal parish household findings and qualified child-father assessments.",
+      "work_queue_summary": "Add the reciprocal parish household findings and qualified child-father assessments.",
+      "draft_path": "research/Glasgow-1927/parish-household-review-2026-10-23.wiki",
       "reviewed_narrative_reduction": true,
-      "biography_rechecked_at": "2026-10-22",
+      "biography_rechecked_at": "2026-10-23",
       "profile_id": "Glasgow-1927",
       "status": "OPEN",
       "pending": true,
-      "queued_at": "2026-10-22",
+      "queued_at": "2026-10-23",
       "remote_captured_at": "2026-09-27T03:22:58+00:00",
       "remote_wikitext": "[[Category:Glasgow Name Study]]\n\n== Biography ==\nChristened 26 Feb 1670 in Linlithgow, to John Glasgow and Agnes Eastone<ref>\"Scotland, Births and Baptisms, 1564-1950\", database, FamilySearch (https://www.familysearch.org/ark:/61903/1:1:X1RK-NG6 : 16 September 2021), John Glasgow, 1671.</ref>\n== Research Notes ==\n=== Supplied parish index comparison ===\n\nThe supplied Scotland’s People index records '''JOHN GLASGOW''' on '''26/02/1671''' at Linlithgow, with parent text “JOHN GLASGOW/AGNES EASTONE FR779 (FR779)”.<ref name=\"OPRBirth035\">Scotland’s People, [https://www.scotlandspeople.gov.uk/ Old Parish Registers, births and baptisms], exact surname Glasgow through 1700, index text supplied 10 September 2026: JOHN GLASGOW, 26/02/1671, JOHN GLASGOW/AGNES EASTONE FR779 (FR779), indexed gender M, Linlithgow, parish 668, reference 20 / 281. Original register image not inspected for this review.</ref>\n\nThe profile’s structured birth date is 1671-02-02, whereas this index date is 1671-02-26. The two dates remain unreconciled. The combined births and baptisms collection does not establish whether the indexed date is a birthday or a baptism date. The biography’s existing christening statement gives 26 February 1670; the supplied index gives 1671. This year discrepancy also remains unresolved.\n\n== Sources ==\n<references />\n* \"Scotland Marriages, 1561-1910\", database, FamilySearch (https://familysearch.org/ark:/61903/1:1:XTKV-NLX : 11 February 2020), John Glasgow, 1704.\n* Son's baptism record, James Glasgow, 12-Mar-1707, Kilwinning, ScotlandsPeople.gov.uk, church registers, parish number 599, Ref: 10/148.\n* Son's baptism record, Hugh Glasgow, 05-Feb-1710, Kilwinning, ScotlandsPeople.gov.uk, church registers, parish number 599, Ref: 10/158.\n* Son's baptism record, Andrew Glasgow, 25-Jan-1712, Kilwinning, ScotlandsPeople.gov.uk, church registers, parish number 599, Ref: 10/171.\n* Daughter's baptism record, Margaret Glasgow, 12-Sep-1714, Kilwinning, ScotlandsPeople.gov.uk, church registers, parish number 599, Ref: 10/192.\n* Daughter's baptism record, Mary Glasgow, 25-Jul-1717, Kilwinning, ScotlandsPeople.gov.uk, church registers, parish number 599, Ref: 10/217.\n* Son's baptism record, John Glasgow, 06-Mar-1720, Kilwinning, ScotlandsPeople.gov.uk, church registers, parish number 599, Ref: 10/238.\n* Daughter's baptism record, Margaret Glasgow, 13-Nov-1723, Kilwinning, ScotlandsPeople.gov.uk, church registers, parish number 599, Ref: 10/268.\n* Daughter's baptism record, Sarah Glasgow, 20-Feb-1726, Kilwinning, ScotlandsPeople.gov.uk, church registers, parish number 599, Ref: 10/290.",
       "findings_path": "research/Glasgow-1927/findings.md",
       "relationship_changes": [],
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation-2026-10-22.json",
+      "preservation_review_path": "research/ancestry-connections/parish-household-preservation-2026-10-23.json",
       "preserve_captured_detail": false,
       "replacements": [],
       "post_merge_replacements": [],
@@ -10386,16 +10372,16 @@
       "profile_id": "Glasgow-1023",
       "status": "OPEN",
       "pending": true,
-      "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
+      "queued_at": "2026-10-23",
+      "biography_rechecked_at": "2026-10-23",
       "remote_captured_at": "2026-09-27T03:22:58+00:00",
       "remote_wikitext": "{{Estimated Date}}\n[[Category:Glasgow Name Study]]\n{{Scotland Sticker}}\n\n== Biography ==\nThomas Glasgow was born on 5 November 1725. He was baptized two days later at Kilwinning, Ayrshire, Scotland, and the register recorded his family's residence as Byres, Kilwinning. He was the son of [[Glasgow-1056|Hugh Glasgow]] and [[Kilpatrick-1635|Janet Kilpatrick]].<ref name=\"fmp-baptism\">Findmypast, ''Scotland, Parish Births & Baptisms 1564-1929'', transcript “Thomas Glasgow in 1725,” birth 5 November 1725, baptism 7 November 1725, Kilwinning, Ayrshire, residence Byres, father Hugh Glasgow, mother Janet Kilpatrick, archive reference OPR 599/1, item 1, page 197; record ID SCOT/OPR/BAP/3626888; [https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3626888&tab=this transcript], accessed 4 September 2026.</ref>\n\nThomas married [[Mill-357|Janet Isobel Mill]] in 1742.<ref>“Scotland Marriages, 1561-1910,” database, FamilySearch ([https://www.familysearch.org/ark:/61903/1:1:XY96-5ZV record for Thomas Glasgow], accessed 22 December 2023), marriage in 1742.</ref> They had seven known children between 1743 and 1757, principally recorded at Livingston. Their son [[Glasgow-2980|John Glasgow]] was born at Mid Calder in 1750, with Janet Mill named as his mother.<ref>“Scotland Births and Baptisms, 1564-1950,” database, FamilySearch ([https://familysearch.org/ark:/61903/1:1:X1BL-JX1 entry for John Glasgow], accessed 12 February 2020).</ref>\n\n== Research Notes ==\n=== Current evidence assessment ===\n\nThe transcript's exact date, locality and two named parents establish the record-to-profile match. The existing ScotlandsPeople citation and the Findmypast transcript use different finding-aid locators for the Kilwinning entry; both are retained pending comparison with the register image.\n\n== Sources ==\n<references />\n* [https://www.wikitree.com/wiki/Space:Thomas-1 Thomas Research]",
-      "draft_path": "research/Glasgow-1023/father-confidence-2026-10-22.wiki",
+      "draft_path": "research/Glasgow-1023/parish-household-review-2026-10-23.wiki",
       "findings_path": "research/Glasgow-1023/findings.md",
-      "summary": "Review existing father at98% (proved); retain explicit source and identity limits. No new father attachment.",
-      "work_queue_summary": "Review existing father at98% (proved); retain explicit source and identity limits. No new father attachment.",
+      "summary": "Add the reciprocal parish household findings and qualified child-father assessments.",
+      "work_queue_summary": "Add the reciprocal parish household findings and qualified child-father assessments.",
       "relationship_changes": [],
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation-2026-10-22.json",
+      "preservation_review_path": "research/ancestry-connections/parish-household-preservation-2026-10-23.json",
       "preserve_captured_detail": false,
       "reviewed_narrative_reduction": true,
       "replacements": [],
@@ -11042,24 +11028,24 @@
       "profile_id": "Glasgow-1382",
       "status": "OPEN",
       "pending": true,
-      "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-1382/father-confidence-2026-10-22b.wiki",
+      "queued_at": "2026-10-23",
+      "biography_rechecked_at": "2026-10-23",
+      "draft_path": "research/Glasgow-1382/parish-household-review-2026-10-23.wiki",
       "findings_path": "research/Glasgow-1382/findings.md",
-      "summary": "Review existing father at 98% (proved), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 98% (proved), retaining source and identity limits; no new father attachment.",
+      "summary": "Add the interpreted parish household evidence. Existing father 98% → 78% (probable); retain the stronger record-only clause conditionally and qualify the adult identity.",
+      "work_queue_summary": "Add the interpreted parish household evidence. Existing father 98% → 78% (probable); retain the stronger record-only clause conditionally and qualify the adult identity.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-1023",
-          "status": "proved",
+          "status": "probable",
           "previous_status": "unmarked",
-          "previous_probability_percent": null,
-          "probability_percent": 98,
+          "previous_probability_percent": 98,
+          "probability_percent": 78,
           "assertion_id": "C-coverage-20261022b-glasgow-1382-father",
-          "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Recorded 1746 child and Thomas/Janet Mill household98%; this does not prove every later Thomas identity or the father’s own Kilwinning childhood. Original uninspected."
+          "previous_status_provenance": "Saved WikiTree certainty field and retained 22 October individual assessment/history; scope changes explicitly preserve the conditional record proposition.",
+          "scope": "The displayed percentage now covers the adult household’s ancestry. Preserve the former 98% as the conditional 1746 child assessment, not as disproved evidence. The inherited 1766/1851 lifetime may be erroneous or another man; retain that discrepancy without silently changing vitals or certifying the identity. Catharine’s 97% adult-household father link is separate. Original register images uninspected."
         }
       ],
       "preserve_captured_detail": false,
@@ -11067,7 +11053,7 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation2-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/parish-household-preservation-2026-10-23.json"
     },
     "Glasgow-1466": {
       "profile_id": "Glasgow-1466",
@@ -11344,12 +11330,12 @@
       "profile_id": "Glasgow-1336",
       "status": "OPEN",
       "pending": true,
-      "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-1336/father-confidence-2026-10-22b.wiki",
+      "queued_at": "2026-10-23",
+      "biography_rechecked_at": "2026-10-23",
+      "draft_path": "research/Glasgow-1336/parish-household-review-2026-10-23.wiki",
       "findings_path": "research/Glasgow-1336/findings.md",
-      "summary": "Review existing father at 85% (probable), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 85% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Add the reciprocal parish household findings and qualified child-father assessments.",
+      "work_queue_summary": "Add the reciprocal parish household findings and qualified child-father assessments.",
       "relationship_changes": [
         {
           "action": "regrade",
@@ -11369,7 +11355,7 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation2-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/parish-household-preservation-2026-10-23.json"
     },
     "Glasgow-2298": {
       "profile_id": "Glasgow-2298",
@@ -11569,12 +11555,12 @@
       "profile_id": "Glasgow-81",
       "status": "OPEN",
       "pending": true,
-      "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-81/father-confidence-2026-10-22b.wiki",
+      "queued_at": "2026-10-23",
+      "biography_rechecked_at": "2026-10-23",
+      "draft_path": "research/Glasgow-81/parish-household-review-2026-10-23.wiki",
       "findings_path": "research/Glasgow-81/findings.md",
-      "summary": "Review existing father at 39% (possible), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 39% (possible), retaining source and identity limits; no new father attachment.",
+      "summary": "Add the reciprocal parish household findings and qualified child-father assessments.",
+      "work_queue_summary": "Add the reciprocal parish household findings and qualified child-father assessments.",
       "relationship_changes": [
         {
           "action": "regrade",
@@ -11594,7 +11580,7 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation2-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/parish-household-preservation-2026-10-23.json"
     },
     "Glasgow-992": {
       "significance": 60,
@@ -12250,19 +12236,32 @@
       "profile_id": "Glasgow-1321",
       "status": "OPEN",
       "pending": true,
-      "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-1321/father-confidence-2026-10-22c.wiki",
+      "queued_at": "2026-10-23",
+      "biography_rechecked_at": "2026-10-23",
+      "draft_path": "research/Glasgow-1321/parish-household-review-2026-10-23.wiki",
       "findings_path": "research/Glasgow-1321/findings.md",
-      "summary": "Review existing father at 95% (proved), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 95% (proved), retaining source and identity limits; no new father attachment.",
-      "relationship_changes": [],
+      "summary": "Add the interpreted parish household evidence. Existing father 95% → 76% (probable); retain the stronger record-only clause conditionally and qualify the adult identity.",
+      "work_queue_summary": "Add the interpreted parish household evidence. Existing father 95% → 76% (probable); retain the stronger record-only clause conditionally and qualify the adult identity.",
+      "relationship_changes": [
+        {
+          "action": "regrade",
+          "relationship": "father",
+          "relative_id": "Glasgow-1336",
+          "status": "probable",
+          "previous_status": "confident",
+          "previous_probability_percent": 95,
+          "probability_percent": 76,
+          "assertion_id": "C-coverage-20261022c-glasgow-1321-father",
+          "previous_status_provenance": "Saved WikiTree certainty field and retained 22 October individual assessment/history; scope changes explicitly preserve the conditional record proposition.",
+          "scope": "The graph percentage assesses the complete adult-profile father proposition. The prior 95% concerned only the record-defined 1747 child and is preserved with that scope, not disproved. The 1751 Glasgow Alexander entry remains an unresolved comparison, not a demonstrated rival. No father is replaced and no vital field or mother is changed. Original register images uninspected."
+        }
+      ],
       "preserve_captured_detail": false,
       "reviewed_narrative_reduction": true,
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation3-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/parish-household-preservation-2026-10-23.json"
     },
     "Glasgow-1504": {
       "profile_id": "Glasgow-1504",
@@ -20881,24 +20880,24 @@
       "profile_id": "Glasgow-3468",
       "status": "OPEN",
       "pending": true,
-      "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-3468/father-confidence-2026-10-22g.wiki",
+      "queued_at": "2026-10-23",
+      "biography_rechecked_at": "2026-10-23",
+      "draft_path": "research/Glasgow-3468/parish-household-review-2026-10-23.wiki",
       "findings_path": "research/Glasgow-3468/findings.md",
-      "summary": "Review existing father at 63% (probable), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 63% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Add the interpreted parish household evidence. Existing father 63% → 96% (confident); retain the stated identity limits.",
+      "work_queue_summary": "Add the interpreted parish household evidence. Existing father 63% → 96% (confident); retain the stated identity limits.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-1929",
-          "status": "probable",
+          "status": "strongly_supported",
           "previous_status": "unmarked",
-          "previous_probability_percent": null,
-          "probability_percent": 63,
+          "previous_probability_percent": 63,
+          "probability_percent": 96,
           "assertion_id": "C-coverage-20261022g-glasgow-3468-father",
-          "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
+          "previous_status_provenance": "Saved WikiTree certainty field and retained 22 October individual assessment/history; scope changes explicitly preserve the conditional record proposition.",
+          "scope": "96% concerns Ann’s father within the Kilmarnock adult household. Her transcript gives neither a trade nor a birth day/month; retain the existing 25 August birth claim separately. The 1744 Giffen entry and Ann’s later Douglas identification remain separate questions. This does not establish Hugh’s 1710 Kilwinning childhood. Companion indexes describe one event; original register image uninspected."
         }
       ],
       "preserve_captured_detail": false,
@@ -20906,7 +20905,7 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation7-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/parish-household-preservation-2026-10-23.json"
     },
     "Glasgow-4109": {
       "profile_id": "Glasgow-4109",
@@ -22080,24 +22079,24 @@
       "profile_id": "Glasgow-1616",
       "status": "OPEN",
       "pending": true,
-      "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-1616/father-confidence-2026-10-22g.wiki",
+      "queued_at": "2026-10-23",
+      "biography_rechecked_at": "2026-10-23",
+      "draft_path": "research/Glasgow-1616/parish-household-review-2026-10-23.wiki",
       "findings_path": "research/Glasgow-1616/findings.md",
-      "summary": "Review existing father at 63% (probable), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 63% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Add the interpreted parish household evidence. Existing father 63% → 95% (confident); retain the stated identity limits.",
+      "work_queue_summary": "Add the interpreted parish household evidence. Existing father 63% → 95% (confident); retain the stated identity limits.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-1218",
-          "status": "probable",
+          "status": "strongly_supported",
           "previous_status": "unmarked",
-          "previous_probability_percent": null,
-          "probability_percent": 63,
+          "previous_probability_percent": 63,
+          "probability_percent": 95,
           "assertion_id": "C-coverage-20261022g-glasgow-1616-father",
-          "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
+          "previous_status_provenance": "Saved WikiTree certainty field and retained 22 October individual assessment/history; scope changes explicitly preserve the conditional record proposition.",
+          "scope": "95% identifies Andrew’s father as the David of the Janet Hood household. It does not establish that adult as the 1744 Stichill child, 1798 Kelso weaver, or later Edinburgh/Ireland man. Those identities and Janet’s childhood require their own evidence. The companion index represents the same baptism, not independent corroboration. Original register image uninspected."
         }
       ],
       "preserve_captured_detail": false,
@@ -22105,7 +22104,7 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation7-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/parish-household-preservation-2026-10-23.json"
     },
     "Glasgow-1618": {
       "profile_id": "Glasgow-1618",
@@ -22315,32 +22314,19 @@
       "profile_id": "Glasgow-1482",
       "status": "OPEN",
       "pending": true,
-      "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-1482/father-confidence-2026-10-22g.wiki",
+      "queued_at": "2026-10-23",
+      "biography_rechecked_at": "2026-10-23",
+      "draft_path": "research/Glasgow-1482/parish-household-review-2026-10-23.wiki",
       "findings_path": "research/Glasgow-1482/findings.md",
-      "summary": "Review existing father at 87% (probable), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 87% (probable), retaining source and identity limits; no new father attachment.",
-      "relationship_changes": [
-        {
-          "action": "regrade",
-          "relationship": "father",
-          "relative_id": "Glasgow-1321",
-          "status": "probable",
-          "previous_status": "confident",
-          "previous_probability_percent": null,
-          "probability_percent": 87,
-          "assertion_id": "C-coverage-20261022g-glasgow-1482-father",
-          "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
-        }
-      ],
+      "summary": "Add the interpreted parish household evidence. Existing father 87% → 97% (confident); retain the stated identity limits.",
+      "work_queue_summary": "Add the interpreted parish household evidence. Existing father 87% → 97% (confident); retain the stated identity limits.",
+      "relationship_changes": [],
       "preserve_captured_detail": false,
       "reviewed_narrative_reduction": true,
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation7-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/parish-household-preservation-2026-10-23.json"
     },
     "Glasgow-3594": {
       "profile_id": "Glasgow-3594",
@@ -22628,24 +22614,24 @@
       "profile_id": "Glasgow-1451",
       "status": "OPEN",
       "pending": true,
-      "queued_at": "2026-10-22",
+      "queued_at": "2026-10-23",
       "biography_rechecked_at": "2026-10-23",
-      "draft_path": "research/Glasgow-1451/father-confidence-2026-10-22g.wiki",
+      "draft_path": "research/Glasgow-1451/parish-household-review-2026-10-23.wiki",
       "findings_path": "research/Glasgow-1451/findings.md",
-      "summary": "Catharine Glasgow: indexed birth 1780-08-20; indexed baptism 31 August 1780. Birth date corrected from c. 1780-08-31. Original register image remains uninspected. Review existing father at 71% (probable), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Catharine Glasgow: indexed birth 1780-08-20; indexed baptism 31 August 1780. Birth date corrected from c. 1780-08-31. Original register image remains uninspected. Review existing father at 71% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Add the interpreted parish household evidence. Existing father 71% → 97% (confident); retain the stated identity limits.",
+      "work_queue_summary": "Add the interpreted parish household evidence. Existing father 71% → 97% (confident); retain the stated identity limits.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-1382",
-          "status": "probable",
+          "status": "strongly_supported",
           "previous_status": "unmarked",
-          "previous_probability_percent": null,
-          "probability_percent": 71,
+          "previous_probability_percent": 71,
+          "probability_percent": 97,
           "assertion_id": "C-coverage-20261022g-glasgow-1451-father",
-          "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
+          "previous_status_provenance": "Saved WikiTree certainty field and retained 22 October individual assessment/history; scope changes explicitly preserve the conditional record proposition.",
+          "scope": "97% concerns the Thomas/Christian Davidson adult household, not the adult’s identification as the 1746 Davistoun child. The inherited circa-1766 birth claim conflicts with fatherhood in 1774 and remains unresolved alongside the preferred earlier baptism attribution; no vital date is silently changed. Two indexes describe one baptism. No trade is supplied here; original register image uninspected."
         }
       ],
       "preserve_captured_detail": false,
@@ -22653,7 +22639,7 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation7-2026-10-22.json",
+      "preservation_review_path": "research/ancestry-connections/parish-household-preservation-2026-10-23.json",
       "vital_changes": [
         {
           "field": "birth",

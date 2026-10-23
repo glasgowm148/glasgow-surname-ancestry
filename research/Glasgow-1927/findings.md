@@ -6,6 +6,12 @@ Last updated: 2026-10-07
 
 ## Current conclusion
 
+Reviewed 23 October 2026.
+
+[Hugh Glasgow](/people/glasgow-1929.html) → [John Glasgow](/people/glasgow-1927.html): 93% → **62% (probable)**. The adult Hugh/Margaret household is established by the 1732 Kilmarnock marriage and later children. Hugh’s 1710 Kilwinning baptism, OPR 599/1 p.70, names John Glasgow and Mary Gemmill; its recorded-child parent clause retains 93% conditional confidence. A 1710 birth permits marriage at 22 and Ann’s baptism at 39, and regional proximity supports continuity. None of the held adult records names his parents or connects the glover’s occupation with the Kilwinning child, so the complete adult-to-John-1927 relationship is assessed 62%. This corrects the scope of the displayed ancestral edge; it is not new evidence contradicting the 1710 parent clause. The conditional 93% remains in history. Ann’s 96% adult-household father identification cannot establish Hugh’s childhood ancestry. Mary Gemmill’s maternity depends on the same separate lifetime identity and is not reassessed automatically. Original register images uninspected.
+
+The selected fathers and existing vital fields are retained. Percentages are subjective assessments with the record and identity scopes stated above.
+
 <!-- site-audit-2026-10-07:overall-conclusion -->
 John Glasgow was born or baptised at Linlithgow in 1671, son of John Glasgow and Agnes Eastone, according to a Findmypast transcript and the Scotland’s People index of the Linlithgow register. The index date, 26 February 1671, differs from the profile's 2 February 1671 and from a christening year of 1670 in its biography, and the original register has not been inspected to settle it. The profile also cites a 1704 marriage of a John Glasgow and eight Kilwinning baptisms of 1707 to 1726, including James Glasgow (Glasgow-1932), but no record links the Linlithgow child to that Kilwinning father beyond name and approximate age; the identification is unresolved.
 
@@ -73,3 +79,11 @@ Scope: The1671 Linlithgow child and John/Agnes Eastone household. This does not 
 Next useful test: The high-yield unresolved question is Linlithgow-child to Kilwinning-adult continuity.
 
 This is a first numerical review of an existing attachment, not a new father, new branch connection or original-source discovery. The prior contributor mark is retained in the structured assessment history.
+
+
+## Parish household evidence — 23 October 2026
+
+[Hugh Glasgow](/people/glasgow-1929.html) → [John Glasgow](/people/glasgow-1927.html): 93% → **62% (probable)**. The adult Hugh/Margaret household is established by the 1732 Kilmarnock marriage and later children. Hugh’s 1710 Kilwinning baptism, OPR 599/1 p.70, names John Glasgow and Mary Gemmill; its recorded-child parent clause retains 93% conditional confidence. A 1710 birth permits marriage at 22 and Ann’s baptism at 39, and regional proximity supports continuity. None of the held adult records names his parents or connects the glover’s occupation with the Kilwinning child, so the complete adult-to-John-1927 relationship is assessed 62%. This corrects the scope of the displayed ancestral edge; it is not new evidence contradicting the 1710 parent clause. The conditional 93% remains in history. Ann’s 96% adult-household father identification cannot establish Hugh’s childhood ancestry. Mary Gemmill’s maternity depends on the same separate lifetime identity and is not reassessed automatically. Original register images uninspected.
+
+- [Findmypast, Scotland, Parish Births & Baptisms 1564–1929, Hugh Glasgow, 30 January/5 February 1710 (https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3625904&tab=this), Kilwinning, OPR 599/1, p. 70; FamilySearch record XYST-MFP (https://www.familysearch.org/ark:/61903/1:1:XYST-MFP).](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3625904&tab=this).
+- [fmp-record-r-688628323](https://www.findmypast.co.uk/transcript?id=R_688628323&tab=this).

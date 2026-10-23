@@ -3,6 +3,12 @@
 
 ## Current conclusion
 
+Reviewed 23 October 2026.
+
+[David Glasgow](/people/glasgow-1218.html) → [James Glasgow](/people/glasgow-1238.html): 97% → **70% (probable)**. The 1744 Stichill child account names James and Elizabeth, supported by their 1740 marriage and subsequent local children; its recorded-child father clause retains 97% conditional confidence. Identifying this child with the 1767 David/Janet Hood adult is plausible at age about 23 in neighbouring Borders parishes and with a later son James. The held regional comparison records no suitable competing David, but no marriage or residence continuity directly bridges these identities. The complete adult-to-James-1238 placement is assessed 70%. The previous 97% measured the 1744 child’s parentage, not the complete later adult ancestry. Preserve it conditionally; no contradictory parent clause has been found. Andrew’s 95% identifies the 1767 father without establishing his childhood. Kelso militia/weaver, Edinburgh, Ireland and William Glass/Tristan da Cunha identities remain separate. Original register images uninspected.
+
+The selected fathers and existing vital fields are retained. Percentages are subjective assessments with the record and identity scopes stated above.
+
 Reviewed 22 October 2026. James Glasgow-1238’s existing father Patrick-1440 is **92% confident**, from 86% probable, for the Stichill household. The new 1712/1715 court notices add local context; the 1739 Peter entry remains a qualified continuation. The live father is already confident. [Family evidence and source limits](/branches/early-scottish-records/#chapter-stichill-patrick-james-confidence).
 
 Reviewed 17 October 2026. James Glasgow and Elizabath Tait are the maintained Stichill parent couple, with children indexed from the 1740s and a later Swinton comparison. Robert Glasgow-3706 of Leitholm is now selected locally as a possible son at 34%; no record yet names that relationship.
@@ -92,3 +98,11 @@ Next useful test: Check the original 1712 child and 1740 marriage for residence,
 Sources: [George Gunn (ed.), Records of the Baron Court of Stichill 1655–1807 (1905), act 111, printed pp. 166–167/PDF 210–211](https://ia800706.us.archive.org/9/items/recordsofbaronco00sticrich/recordsofbaronco00sticrich.pdf#page=211); [George Gunn (ed.), Records of the Baron Court of Stichill 1655–1807 (1905), act 117, printed p. 172/PDF 216](https://ia800706.us.archive.org/9/items/recordsofbaronco00sticrich/recordsofbaronco00sticrich.pdf#page=216); [George Gunn (ed.), Records of the Baron Court of Stichill 1655–1807 (1905), act 158, printed pp. 196–197/PDF 240–241; index p. 241/PDF 285](https://ia800706.us.archive.org/9/items/recordsofbaronco00sticrich/recordsofbaronco00sticrich.pdf#page=240). The paired grandparent names are held in [Patrick’s 1742 citation](https://www.familysearch.org/ark:/61903/1:1:FMM7-5XM) and [Helen’s 1750 citation](https://www.familysearch.org/ark:/61903/1:1:FMMM-93V); provider pages and parish images were not newly inspected.
 
 [James’s current account](/people/glasgow-1238.html); [Patrick’s current account](/people/glasgow-1440.html); [Borders study](/free-space/glasgow-surname-in-the-scottish-borders-af0737/). No new father attachment or live certainty upgrade is claimed.
+
+
+## Parish household evidence — 23 October 2026
+
+[David Glasgow](/people/glasgow-1218.html) → [James Glasgow](/people/glasgow-1238.html): 97% → **70% (probable)**. The 1744 Stichill child account names James and Elizabeth, supported by their 1740 marriage and subsequent local children; its recorded-child father clause retains 97% conditional confidence. Identifying this child with the 1767 David/Janet Hood adult is plausible at age about 23 in neighbouring Borders parishes and with a later son James. The held regional comparison records no suitable competing David, but no marriage or residence continuity directly bridges these identities. The complete adult-to-James-1238 placement is assessed 70%. The previous 97% measured the 1744 child’s parentage, not the complete later adult ancestry. Preserve it conditionally; no contradictory parent clause has been found. Andrew’s 95% identifies the 1767 father without establishing his childhood. Kelso militia/weaver, Edinburgh, Ireland and William Glass/Tristan da Cunha identities remain separate. Original register images uninspected.
+
+- [fmp-record-scot-opr-bap-4884245](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4884245&tab=this).
+- [https://www.familysearch.org/ark:/61903/1:1:FMMQ-472](https://www.familysearch.org/ark:/61903/1:1:FMMQ-472).

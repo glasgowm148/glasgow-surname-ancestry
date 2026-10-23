@@ -2,9 +2,11 @@
 
 ## Current conclusion
 
-Current father assessment (22 October 2026): **63% (probable)** for [Glasgow-1218](https://www.wikitree.com/wiki/Glasgow-1218). Complete selected father-profile proposition; recorded role and adult identification distinguished below. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+Reviewed 23 October 2026.
 
-The inspected Findmypast transcript explicitly names David Glasgow and Janet Hood for Andrew born 25 November and baptised 29 November 1767 at Simprim and Swinton, with Longbank as residence. This supports the recorded child–parent roles; identification of the named father with Glasgow-1218 remains the existing 63% assessment. The original register image is uninspected.
+[Andrew Glasgow](/people/glasgow-1616.html) → [David Glasgow](/people/glasgow-1218.html): 63% → **95% (confident)**. The Swinton and Simprin transcript, OPR 755/1 item 8 p.19, records Andrew born 25 November 1767, baptised 29 November, parents David Glasgow and Janet Hood, residence Longbank. Exact child dates and the full parental couple identify the David/Janet adult household already represented by David-1218. This resolves the earlier unquoted-parent-fields limitation; the held regional duplicate review documents no concrete competing David/Janet Hood household. 95% identifies Andrew’s father as the David of the Janet Hood household. It does not establish that adult as the 1744 Stichill child, 1798 Kelso weaver, or later Edinburgh/Ireland man. Those identities and Janet’s childhood require their own evidence. The companion index represents the same baptism, not independent corroboration. Original register image uninspected.
+
+The selected fathers and existing vital fields are retained. Percentages are subjective assessments with the record and identity scopes stated above.
 
 ## Father confidence review, seventh batch — 22 October 2026
 
@@ -23,3 +25,18 @@ Held source basis: [Scotland, Births and Baptisms, 1564-1950. MyHeritage.com [on
 ## Findmypast birth-scope match — 23 October 2026 (FMP-BIRTH-SCOPE-PAGES4-6-20261023)
 
 [Findmypast, Scotland, Parish Births & Baptisms 1564–1929, SCOT/OPR/BAP/4884245](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4884245) transcribes OPR 755/1, item 8, p. 19: Andrew Glasgow born 25 November 1767, baptised 29 November at Simprim and Swinton, Berwickshire, son of David Glasgow and Janet Hood; residence Longbank. [R_686575880](https://www.findmypast.co.uk/transcript?id=R_686575880) is a compatible derivative row for the same baptism and parents, but supplies only a birth year. Both match this existing child and the selected parental profiles [David (Glasgow-1218)](https://www.wikitree.com/wiki/Glasgow-1218) and [Janet Hood (Hood-6028)](https://www.wikitree.com/wiki/Hood-6028). The first transcript supports an exact birth date independently of the baptism date. The original register image remains uninspected; the specific adult-parent profile identities retain their existing assessments, with no new relationship proposed.
+
+
+## Earlier overall account — superseded by 23 October 2026 household review
+
+Current father assessment (22 October 2026): **63% (probable)** for [Glasgow-1218](https://www.wikitree.com/wiki/Glasgow-1218). Complete selected father-profile proposition; recorded role and adult identification distinguished below. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
+The inspected Findmypast transcript explicitly names David Glasgow and Janet Hood for Andrew born 25 November and baptised 29 November 1767 at Simprim and Swinton, with Longbank as residence. This supports the recorded child–parent roles; identification of the named father with Glasgow-1218 remains the existing 63% assessment. The original register image is uninspected.
+
+## Parish household evidence — 23 October 2026
+
+[Andrew Glasgow](/people/glasgow-1616.html) → [David Glasgow](/people/glasgow-1218.html): 63% → **95% (confident)**. The Swinton and Simprin transcript, OPR 755/1 item 8 p.19, records Andrew born 25 November 1767, baptised 29 November, parents David Glasgow and Janet Hood, residence Longbank. Exact child dates and the full parental couple identify the David/Janet adult household already represented by David-1218. This resolves the earlier unquoted-parent-fields limitation; the held regional duplicate review documents no concrete competing David/Janet Hood household. 95% identifies Andrew’s father as the David of the Janet Hood household. It does not establish that adult as the 1744 Stichill child, 1798 Kelso weaver, or later Edinburgh/Ireland man. Those identities and Janet’s childhood require their own evidence. The companion index represents the same baptism, not independent corroboration. Original register image uninspected.
+
+- [fmp-record-scot-opr-bap-4884245](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4884245&tab=this).
+- [fmp-record-r-686575880](https://www.findmypast.co.uk/transcript?id=R_686575880&tab=this).
+- [Scotland, Births and Baptisms, 1564-1950. MyHeritage.com [online database], accessed 2025. https://www.myheritage.com/research/record-30226-315304/andrew-glasgow-in-scotland-births-baptisms.](https://www.myheritage.com/research/record-30226-315304/andrew-glasgow-in-scotland-births-baptisms.).

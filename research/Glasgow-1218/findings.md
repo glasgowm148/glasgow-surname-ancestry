@@ -2,8 +2,13 @@
 
 ## Current conclusion
 
-<!-- site-audit-2026-10-07:overall-conclusion -->
-David Glasgow was the father of a family at Kelso; he is recorded as baptised at Stitchel in 1744 and as husband of Janet Hood, with children Andrew (1767), John (1768), James (1777) and William (1786), though no record is cited for these details. He is probably the David Glasgow, weaver (apparently stocking-weaver), whose son James was drawn by ballot for the Roxburgh County Militia from Kelso parish in 1798. That ballot list and the indexed Kelso baptism of James Glasgow (Glasgow-1222) on 25 December 1777 both name David as James's father. A Kelso local-history claim that his son William became William Glass of Tristan da Cunha (Glasgow-1220) is possible, not proved.
+Reviewed 23 October 2026.
+
+[Andrew Glasgow](/people/glasgow-1616.html) → [David Glasgow](/people/glasgow-1218.html): 63% → **95% (confident)**. The Swinton and Simprin transcript, OPR 755/1 item 8 p.19, records Andrew born 25 November 1767, baptised 29 November, parents David Glasgow and Janet Hood, residence Longbank. Exact child dates and the full parental couple identify the David/Janet adult household already represented by David-1218. This resolves the earlier unquoted-parent-fields limitation; the held regional duplicate review documents no concrete competing David/Janet Hood household. 95% identifies Andrew’s father as the David of the Janet Hood household. It does not establish that adult as the 1744 Stichill child, 1798 Kelso weaver, or later Edinburgh/Ireland man. Those identities and Janet’s childhood require their own evidence. The companion index represents the same baptism, not independent corroboration. Original register image uninspected.
+
+[David Glasgow](/people/glasgow-1218.html) → [James Glasgow](/people/glasgow-1238.html): 97% → **70% (probable)**. The 1744 Stichill child account names James and Elizabeth, supported by their 1740 marriage and subsequent local children; its recorded-child father clause retains 97% conditional confidence. Identifying this child with the 1767 David/Janet Hood adult is plausible at age about 23 in neighbouring Borders parishes and with a later son James. The held regional comparison records no suitable competing David, but no marriage or residence continuity directly bridges these identities. The complete adult-to-James-1238 placement is assessed 70%. The previous 97% measured the 1744 child’s parentage, not the complete later adult ancestry. Preserve it conditionally; no contradictory parent clause has been found. Andrew’s 95% identifies the 1767 father without establishing his childhood. Kelso militia/weaver, Edinburgh, Ireland and William Glass/Tristan da Cunha identities remain separate. Original register images uninspected.
+
+The selected fathers and existing vital fields are retained. Percentages are subjective assessments with the record and identity scopes stated above.
 
 ## Current conclusion — additional newspaper originals, 5 October 2026
 
@@ -63,3 +68,20 @@ Scope: Record-defined child and Tait household97%; David’s later adult identif
 Next useful test: Check the original 1744 entry’s full maternal name and residence.
 
 This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
+
+
+## Earlier overall account — superseded by 23 October 2026 household review
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+David Glasgow was the father of a family at Kelso; he is recorded as baptised at Stitchel in 1744 and as husband of Janet Hood, with children Andrew (1767), John (1768), James (1777) and William (1786), though no record is cited for these details. He is probably the David Glasgow, weaver (apparently stocking-weaver), whose son James was drawn by ballot for the Roxburgh County Militia from Kelso parish in 1798. That ballot list and the indexed Kelso baptism of James Glasgow (Glasgow-1222) on 25 December 1777 both name David as James's father. A Kelso local-history claim that his son William became William Glass of Tristan da Cunha (Glasgow-1220) is possible, not proved.
+
+## Parish household evidence — 23 October 2026
+
+[Andrew Glasgow](/people/glasgow-1616.html) → [David Glasgow](/people/glasgow-1218.html): 63% → **95% (confident)**. The Swinton and Simprin transcript, OPR 755/1 item 8 p.19, records Andrew born 25 November 1767, baptised 29 November, parents David Glasgow and Janet Hood, residence Longbank. Exact child dates and the full parental couple identify the David/Janet adult household already represented by David-1218. This resolves the earlier unquoted-parent-fields limitation; the held regional duplicate review documents no concrete competing David/Janet Hood household. 95% identifies Andrew’s father as the David of the Janet Hood household. It does not establish that adult as the 1744 Stichill child, 1798 Kelso weaver, or later Edinburgh/Ireland man. Those identities and Janet’s childhood require their own evidence. The companion index represents the same baptism, not independent corroboration. Original register image uninspected.
+
+[David Glasgow](/people/glasgow-1218.html) → [James Glasgow](/people/glasgow-1238.html): 97% → **70% (probable)**. The 1744 Stichill child account names James and Elizabeth, supported by their 1740 marriage and subsequent local children; its recorded-child father clause retains 97% conditional confidence. Identifying this child with the 1767 David/Janet Hood adult is plausible at age about 23 in neighbouring Borders parishes and with a later son James. The held regional comparison records no suitable competing David, but no marriage or residence continuity directly bridges these identities. The complete adult-to-James-1238 placement is assessed 70%. The previous 97% measured the 1744 child’s parentage, not the complete later adult ancestry. Preserve it conditionally; no contradictory parent clause has been found. Andrew’s 95% identifies the 1767 father without establishing his childhood. Kelso militia/weaver, Edinburgh, Ireland and William Glass/Tristan da Cunha identities remain separate. Original register images uninspected.
+
+- [fmp-record-scot-opr-bap-4884245](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4884245&tab=this).
+- [fmp-record-r-686575880](https://www.findmypast.co.uk/transcript?id=R_686575880&tab=this).
+- [Scotland, Births and Baptisms, 1564-1950. MyHeritage.com [online database], accessed 2025. https://www.myheritage.com/research/record-30226-315304/andrew-glasgow-in-scotland-births-baptisms.](https://www.myheritage.com/research/record-30226-315304/andrew-glasgow-in-scotland-births-baptisms.).
+- [https://www.familysearch.org/ark:/61903/1:1:FMMQ-472](https://www.familysearch.org/ark:/61903/1:1:FMMQ-472).

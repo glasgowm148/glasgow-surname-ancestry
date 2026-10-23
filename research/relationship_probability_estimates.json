@@ -6011,15 +6011,28 @@
       "subject_id": "Glasgow-1929",
       "relative_id": "Glasgow-1927",
       "relationship": "father",
-      "percent": 93,
-      "assessment_status": "proved",
+      "percent": 62,
+      "assessment_status": "probable",
       "assertion_id": "C-coverage-20261022-glasgow-1929-father",
-      "basis": "The1710 Kilwinning transcript names John Glasgow and Mary Gemmill as Hugh’s parents, birth30January and baptism5February. John-1927 is the maintained Kilwinning father with this named couple and child sequence, supplying a specific adult-household match. The father’s own Linlithgow childhood and Hugh’s later Kilmarnock glover identification remain unbridged, so confidence is lower than an independently linked adult lifetime.",
+      "basis": "The adult Hugh/Margaret household is established by the 1732 Kilmarnock marriage and later children. Hugh’s 1710 Kilwinning baptism, OPR 599/1 p.70, names John Glasgow and Mary Gemmill; its recorded-child parent clause retains 93% conditional confidence. A 1710 birth permits marriage at 22 and Ann’s baptism at 39, and regional proximity supports continuity. None of the held adult records names his parents or connects the glover’s occupation with the Kilwinning child, so the complete adult-to-John-1927 relationship is assessed 62%.",
       "source_ids": [
-        "held-e-02a45be31a86"
+        "held-e-02a45be31a86",
+        "fmp-record-r-688628323"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "The record-defined1710 child and John/Mary household93%. This does not prove the1732–1742 Kilmarnock glover’s childhood or the Kilwinning John’s1671 Linlithgow identity. Original uninspected."
+      "reviewed": "2026-10-23",
+      "scope": "This corrects the scope of the displayed ancestral edge; it is not new evidence contradicting the 1710 parent clause. The conditional 93% remains in history. Ann’s 96% adult-household father identification cannot establish Hugh’s childhood ancestry. Mary Gemmill’s maternity depends on the same separate lifetime identity and is not reassessed automatically. Original register images uninspected.",
+      "assessment_history": [
+        {
+          "percent": 93,
+          "assessment_status": "proved",
+          "basis": "The1710 Kilwinning transcript names John Glasgow and Mary Gemmill as Hugh’s parents, birth30January and baptism5February. John-1927 is the maintained Kilwinning father with this named couple and child sequence, supplying a specific adult-household match. The father’s own Linlithgow childhood and Hugh’s later Kilmarnock glover identification remain unbridged, so confidence is lower than an independently linked adult lifetime.",
+          "source_ids": [
+            "held-e-02a45be31a86"
+          ],
+          "scope": "The record-defined1710 child and John/Mary household93%. This does not prove the1732–1742 Kilmarnock glover’s childhood or the Kilwinning John’s1671 Linlithgow identity. Original uninspected.",
+          "reviewed": "2026-10-22"
+        }
+      ]
     },
     {
       "subject_id": "Glasgow-1927",
@@ -6474,15 +6487,28 @@
       "subject_id": "Glasgow-1218",
       "relative_id": "Glasgow-1238",
       "relationship": "father",
-      "percent": 97,
-      "assessment_status": "proved",
+      "percent": 70,
+      "assessment_status": "probable",
       "assertion_id": "C-coverage-20261022b-glasgow-1218-father",
-      "basis": "David’s 1744 Stichill child account names James and Elizabeth. The existing James/Elizabeth Tait marriage of 1740 and subsequent Stichill children identify a specific local parental household rather than just a matching father name.",
+      "basis": "The 1744 Stichill child account names James and Elizabeth, supported by their 1740 marriage and subsequent local children; its recorded-child father clause retains 97% conditional confidence. Identifying this child with the 1767 David/Janet Hood adult is plausible at age about 23 in neighbouring Borders parishes and with a later son James. The held regional comparison records no suitable competing David, but no marriage or residence continuity directly bridges these identities. The complete adult-to-James-1238 placement is assessed 70%.",
       "source_ids": [
+        "fmp-record-scot-opr-bap-4884245",
         "held-e-0c398a43e8c3"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Record-defined child and Tait household97%; David’s later adult identification and James’s own 1712 ancestry are separate. Original uninspected."
+      "reviewed": "2026-10-23",
+      "scope": "The previous 97% measured the 1744 child’s parentage, not the complete later adult ancestry. Preserve it conditionally; no contradictory parent clause has been found. Andrew’s 95% identifies the 1767 father without establishing his childhood. Kelso militia/weaver, Edinburgh, Ireland and William Glass/Tristan da Cunha identities remain separate. Original register images uninspected.",
+      "assessment_history": [
+        {
+          "percent": 97,
+          "assessment_status": "proved",
+          "basis": "David’s 1744 Stichill child account names James and Elizabeth. The existing James/Elizabeth Tait marriage of 1740 and subsequent Stichill children identify a specific local parental household rather than just a matching father name.",
+          "source_ids": [
+            "held-e-0c398a43e8c3"
+          ],
+          "scope": "Record-defined child and Tait household97%; David’s later adult identification and James’s own 1712 ancestry are separate. Original uninspected.",
+          "reviewed": "2026-10-22"
+        }
+      ]
     },
     {
       "subject_id": "Glasgow-1238",
@@ -6924,15 +6950,28 @@
       "subject_id": "Glasgow-1382",
       "relative_id": "Glasgow-1023",
       "relationship": "father",
-      "percent": 98,
-      "assessment_status": "proved",
+      "percent": 78,
+      "assessment_status": "probable",
       "assertion_id": "C-coverage-20261022b-glasgow-1382-father",
-      "basis": "Thomas’s 1746 Livingston transcript names Thomas Glasgow and Janet Mill at Davistoun. The existing Thomas-1023 account is the maintained father with Janet Mill and the matching family sequence. Janet Kilpatrick is his mother, not a competing spouse.",
+      "basis": "Livingston’s 2 February 1746 Davistoun baptism names Thomas Glasgow and Janet Mill; that recorded-child father clause retains 98% conditional confidence. The same Livingston setting and feasible ages for the Christian Davidson adult’s 1774–1790 children support the identification. A retained circa-1766 birth claim conflicts with fatherhood in 1774 and is not resolved by Catharine’s new parent fields. Without a direct childhood-to-adult bridge, assess the complete adult-to-Thomas-1023 placement at 78%.",
       "source_ids": [
-        "held-e-ab5b32c4eb1e"
+        "held-e-ab5b32c4eb1e",
+        "fmp-record-scot-opr-bap-4152175"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Recorded 1746 child and Thomas/Janet Mill household98%; this does not prove every later Thomas identity or the father’s own Kilwinning childhood. Original uninspected."
+      "reviewed": "2026-10-23",
+      "scope": "The displayed percentage now covers the adult household’s ancestry. Preserve the former 98% as the conditional 1746 child assessment, not as disproved evidence. The inherited 1766/1851 lifetime may be erroneous or another man; retain that discrepancy without silently changing vitals or certifying the identity. Catharine’s 97% adult-household father link is separate. Original register images uninspected.",
+      "assessment_history": [
+        {
+          "percent": 98,
+          "assessment_status": "proved",
+          "basis": "Thomas’s 1746 Livingston transcript names Thomas Glasgow and Janet Mill at Davistoun. The existing Thomas-1023 account is the maintained father with Janet Mill and the matching family sequence. Janet Kilpatrick is his mother, not a competing spouse.",
+          "source_ids": [
+            "held-e-ab5b32c4eb1e"
+          ],
+          "scope": "Recorded 1746 child and Thomas/Janet Mill household98%; this does not prove every later Thomas identity or the father’s own Kilwinning childhood. Original uninspected.",
+          "reviewed": "2026-10-22"
+        }
+      ]
     },
     {
       "subject_id": "Glasgow-1023",
@@ -8551,15 +8590,31 @@
       "subject_id": "Glasgow-1321",
       "relative_id": "Glasgow-1336",
       "relationship": "father",
-      "percent": 95,
-      "assessment_status": "proved",
+      "percent": 76,
+      "assessment_status": "probable",
       "assertion_id": "C-coverage-20261022c-glasgow-1321-father",
-      "basis": "Alexander’s 1747 Kirknewton child account names Andrew Glasgow and Isobel Clerk. The selected Andrew is attached to that same named spouse and family, so the full couple identifies the record father substantially better than the older biography’s inconsistent Andrew profile link.",
+      "basis": "Alexander-1321 represents the documented 1774–1776 Edinburgh brewer’s-servant household with Agnes Cunningham. The 1747 Kirknewton baptism names Andrew Glasgow and Isobel Clerk; 95% remains the conditional assessment of that child’s parent clause. Age about 27 in 1774 and compatible regional chronology support identifying the child with the adult, but no held record connects the childhood to the later occupation or spouse. The full adult-to-Andrew-1336 placement is therefore 76%.",
       "source_ids": [
+        "fmp-record-scot-opr-bap-0733905",
+        "fmp-record-r-686210672",
+        "fmp-record-r-691906289",
+        "fmp-record-scot-opr-bap-0734610",
         "held-e-920c31ad3237"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Record-defined 1747 child and Clerk household; Andrew’s 1714 childhood and the stale Glasgow-1239 link are not proved by this assessment."
+      "reviewed": "2026-10-23",
+      "scope": "The graph percentage assesses the complete adult-profile father proposition. The prior 95% concerned only the record-defined 1747 child and is preserved with that scope, not disproved. The 1751 Glasgow Alexander entry remains an unresolved comparison, not a demonstrated rival. No father is replaced and no vital field or mother is changed. Original register images uninspected.",
+      "assessment_history": [
+        {
+          "percent": 95,
+          "assessment_status": "proved",
+          "basis": "Alexander’s 1747 Kirknewton child account names Andrew Glasgow and Isobel Clerk. The selected Andrew is attached to that same named spouse and family, so the full couple identifies the record father substantially better than the older biography’s inconsistent Andrew profile link.",
+          "source_ids": [
+            "held-e-920c31ad3237"
+          ],
+          "scope": "Record-defined 1747 child and Clerk household; Andrew’s 1714 childhood and the stale Glasgow-1239 link are not proved by this assessment.",
+          "reviewed": "2026-10-22"
+        }
+      ]
     },
     {
       "subject_id": "Glasgow-1336",
@@ -18550,15 +18605,28 @@
       "subject_id": "Glasgow-3313",
       "relative_id": "Glasgow-1058",
       "relationship": "father",
-      "percent": 51,
-      "assessment_status": "possible",
+      "percent": 82,
+      "assessment_status": "probable",
       "assertion_id": "C-coverage-20261022f-glasgow-3313-father",
-      "basis": "Andrew’s 1733 Irvine date and collaborative-tree George association are compatible with the Kilwinning family, but no held literal parent fields confirm that couple; identifying the father with the 1687 child adds another unbridged step.",
+      "basis": "Andrew’s Irvine baptism of 22 May 1733 names George Glasgow and Margaret Martin. This matches the existing parental couple’s 11 June 1728 Kilwinning marriage and son George’s 1729 Kilwinning baptism. The full couple and neighbouring-parish sequence materially strengthen the inherited placement beyond the former unquoted citation.",
       "source_ids": [
+        "fmp-record-r-685316023",
         "held-e-0adf916d227e"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Complete existing child-to-father-profile proposition, including the father’s childhood-to-adult identification; literal named parental role is stronger and assessed separately in the basis."
+      "reviewed": "2026-10-23",
+      "scope": "82% assesses the complete placement under George-1058, including the still-unbridged identification of the 1728–1733 adult with the 1687 Kilwinning child. The adult records do not supply an age, occupation or parents; another George remains possible, though no concrete competing George/Margaret household is documented. The profile’s 21 May birth remains distinct from the 22 May baptism. Original register image uninspected.",
+      "assessment_history": [
+        {
+          "percent": 51,
+          "assessment_status": "possible",
+          "basis": "Andrew’s 1733 Irvine date and collaborative-tree George association are compatible with the Kilwinning family, but no held literal parent fields confirm that couple; identifying the father with the 1687 child adds another unbridged step.",
+          "source_ids": [
+            "held-e-0adf916d227e"
+          ],
+          "scope": "Complete existing child-to-father-profile proposition, including the father’s childhood-to-adult identification; literal named parental role is stronger and assessed separately in the basis.",
+          "reviewed": "2026-10-22"
+        }
+      ]
     },
     {
       "subject_id": "Glasgow-1058",
@@ -20002,15 +20070,29 @@
       "subject_id": "Glasgow-1333",
       "relative_id": "Glasgow-81",
       "relationship": "father",
-      "percent": 60,
-      "assessment_status": "probable",
+      "percent": 98,
+      "assessment_status": "strongly_supported",
       "assertion_id": "C-coverage-20261022g-glasgow-1333-father",
-      "basis": "Andrew’s 1747 West Calder citation fits between Jean in 1745 and Magdalen in 1749. Literal parents are not held and the father’s own account is unsourced.",
+      "basis": "Andrew’s 11 January 1747 West Calder baptism explicitly names John Glasgow and Magdalen Guthrie. The exact baptism boundary and complete parental couple match the household represented by John-81 and the maintained Jean 1745/Magdalen 1749 sequence. John’s otherwise sparse biography is no longer a reason to describe Andrew’s parent fields as missing.",
       "source_ids": [
+        "fmp-record-r-686351978",
+        "fmp-record-r-687778368",
         "held-e-b683c5bcfa7c"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
+      "reviewed": "2026-10-23",
+      "scope": "98% concerns the recorded 1747 child and the John/Magdalen adult household. It establishes neither John’s own childhood nor any later merchant, miller or Leith identity for Andrew. Betty-82’s father remains 37%: the new 1765 Cambusnethan Betty record instead names James Glasgow and Anne Prentice, and has no proved Nichol-adult bridge. Companion indexes represent one event; original register image uninspected.",
+      "assessment_history": [
+        {
+          "percent": 60,
+          "assessment_status": "probable",
+          "basis": "Andrew’s 1747 West Calder citation fits between Jean in 1745 and Magdalen in 1749. Literal parents are not held and the father’s own account is unsourced.",
+          "source_ids": [
+            "held-e-b683c5bcfa7c"
+          ],
+          "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below.",
+          "reviewed": "2026-10-22"
+        }
+      ]
     },
     {
       "subject_id": "Glasgow-81",
@@ -20114,15 +20196,29 @@
       "subject_id": "Glasgow-3468",
       "relative_id": "Glasgow-1929",
       "relationship": "father",
-      "percent": 63,
-      "assessment_status": "probable",
+      "percent": 96,
+      "assessment_status": "strongly_supported",
       "assertion_id": "C-coverage-20261022g-glasgow-3468-father",
-      "basis": "Ann’s 1749 Kilmarnock date fits the adult glover’s family sequence, but her citation is only a contributed FamilySearch sources page. The unresolved Giffen/McEachin household question limits placement.",
+      "basis": "Ann’s 3 September 1749 Kilmarnock baptism names Hugh Glasgow and Margaret McGechen. The complete couple and parish match the adult Hugh/Margaret household represented by Hugh-1929: its 1732 marriage names Margaret McEachin, and the separate 1742 child entry names Hugh the glover and Margaret McGechan. Ann’s explicit maternal surname resolves the earlier McEachin/Giffen household ambiguity for this child. No concrete competing Hugh/Margaret McGechen household is documented in the held family material.",
       "source_ids": [
+        "fmp-record-r-688628323",
+        "fmp-record-r-685318866",
         "held-e-8e4bc7b6f329"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
+      "reviewed": "2026-10-23",
+      "scope": "96% concerns Ann’s father within the Kilmarnock adult household. Her transcript gives neither a trade nor a birth day/month; retain the existing 25 August birth claim separately. The 1744 Giffen entry and Ann’s later Douglas identification remain separate questions. This does not establish Hugh’s 1710 Kilwinning childhood. Companion indexes describe one event; original register image uninspected.",
+      "assessment_history": [
+        {
+          "percent": 63,
+          "assessment_status": "probable",
+          "basis": "Ann’s 1749 Kilmarnock date fits the adult glover’s family sequence, but her citation is only a contributed FamilySearch sources page. The unresolved Giffen/McEachin household question limits placement.",
+          "source_ids": [
+            "held-e-8e4bc7b6f329"
+          ],
+          "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below.",
+          "reviewed": "2026-10-22"
+        }
+      ]
     },
     {
       "subject_id": "Glasgow-1929",
@@ -21244,15 +21340,29 @@
       "subject_id": "Glasgow-1616",
       "relative_id": "Glasgow-1218",
       "relationship": "father",
-      "percent": 63,
-      "assessment_status": "probable",
+      "percent": 95,
+      "assessment_status": "strongly_supported",
       "assertion_id": "C-coverage-20261022g-glasgow-1616-father",
-      "basis": "Specific 1767 Swinton/Simprin baptism citations and an ordered David/Janet Hood family make Andrew’s existing placement credible, though the held citations do not quote parents.",
+      "basis": "The Swinton and Simprin transcript, OPR 755/1 item 8 p.19, records Andrew born 25 November 1767, baptised 29 November, parents David Glasgow and Janet Hood, residence Longbank. Exact child dates and the full parental couple identify the David/Janet adult household already represented by David-1218. This resolves the earlier unquoted-parent-fields limitation; the held regional duplicate review documents no concrete competing David/Janet Hood household.",
       "source_ids": [
+        "fmp-record-scot-opr-bap-4884245",
+        "fmp-record-r-686575880",
         "held-e-def152ac892c"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
+      "reviewed": "2026-10-23",
+      "scope": "95% identifies Andrew’s father as the David of the Janet Hood household. It does not establish that adult as the 1744 Stichill child, 1798 Kelso weaver, or later Edinburgh/Ireland man. Those identities and Janet’s childhood require their own evidence. The companion index represents the same baptism, not independent corroboration. Original register image uninspected.",
+      "assessment_history": [
+        {
+          "percent": 63,
+          "assessment_status": "probable",
+          "basis": "Specific 1767 Swinton/Simprin baptism citations and an ordered David/Janet Hood family make Andrew’s existing placement credible, though the held citations do not quote parents.",
+          "source_ids": [
+            "held-e-def152ac892c"
+          ],
+          "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below.",
+          "reviewed": "2026-10-22"
+        }
+      ]
     },
     {
       "subject_id": "Glasgow-1218",
@@ -21556,15 +21666,31 @@
       "subject_id": "Glasgow-1482",
       "relative_id": "Glasgow-1321",
       "relationship": "father",
-      "percent": 87,
-      "assessment_status": "probable",
+      "percent": 97,
+      "assessment_status": "strongly_supported",
       "assertion_id": "C-coverage-20261022g-glasgow-1482-father",
-      "basis": "Held inspected transcript names Alexander, brewer’sservant, and Agness Cunninghame at Cross Causeway with exact 1774 child dates. It identifies the adult couple strongly; identifying this father with 1747 Kirknewton Alexander remains a further regional/chronological inference.",
+      "basis": "Agnes’s 1774 St Cuthbert’s entry identifies Alexander Glasgow, brewer’s servant, and Agness Cunninghame at Cross Causeway, with birth 15 July and baptism 30 July. Andrew’s newly interpreted 1775/1776 entry independently records the same couple and trade at Grange. The consecutive children, parental combination, occupation and compatible Edinburgh residences identify the adult household represented by Alexander-1321.",
       "source_ids": [
+        "fmp-record-scot-opr-bap-0733905",
+        "fmp-record-r-686099212",
+        "fmp-record-r-691336326",
+        "fmp-record-scot-opr-bap-0734610",
         "held-e-0dc3074e3ec7"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
+      "reviewed": "2026-10-23",
+      "scope": "97% concerns Agnes’s father as the adult Alexander/Agnes Cunningham householder. Identifying him with the 1747 Kirknewton child is a separate upstream inference, now assessed at 76%. It does not establish Agnes’s later Smart identity or an 1810 burial. Indexes of the same event are not independent witnesses; the 1774 and 1776 births are separate events. Original register images uninspected.",
+      "assessment_history": [
+        {
+          "percent": 87,
+          "assessment_status": "probable",
+          "basis": "Held inspected transcript names Alexander, brewer’sservant, and Agness Cunninghame at Cross Causeway with exact 1774 child dates. It identifies the adult couple strongly; identifying this father with 1747 Kirknewton Alexander remains a further regional/chronological inference.",
+          "source_ids": [
+            "held-e-0dc3074e3ec7"
+          ],
+          "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below.",
+          "reviewed": "2026-10-22"
+        }
+      ]
     },
     {
       "subject_id": "Glasgow-1321",
@@ -21700,15 +21826,30 @@
       "subject_id": "Glasgow-1481",
       "relative_id": "Glasgow-1321",
       "relationship": "father",
-      "percent": 64,
-      "assessment_status": "probable",
+      "percent": 97,
+      "assessment_status": "strongly_supported",
       "assertion_id": "C-coverage-20261022g-glasgow-1481-father",
-      "basis": "Andrew’s 1776 St Cuthberts citation fits the immediately adjacent 1774/1777 children of the selected Alexander/Agnes household. Literal parents are not held for this entry and sibling grouping is partly inherited.",
+      "basis": "St Cuthbert’s OPR 685_2/9 item 1 p.275 records Andrew born 30 December 1775, baptised 5 January 1776, parents Alexander Glasgow and Agnes Cunningham, father a brewer’s servant, residence Grange. These literal fields resolve the previous missing-parent limitation. The same parental couple and trade in Agnes’s separate 1774 Cross Causeway entry identify one adult household represented by Alexander-1321.",
       "source_ids": [
+        "fmp-record-scot-opr-bap-0733905",
+        "fmp-record-scot-opr-bap-0734610",
+        "fmp-record-r-691341389",
         "held-e-ab14e4f12417"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
+      "reviewed": "2026-10-23",
+      "scope": "97% concerns Andrew’s father in the Edinburgh adult household. It does not prove Alexander’s 1747 Kirknewton childhood, Andrew’s later 1790 merchant identity, or other attached children. Andrew cannot be the 1779 adult signatory because he was three. The companion index’s birth year 1776 is baptism-derived; retain the reviewed 1775 birth date. Original register images uninspected.",
+      "assessment_history": [
+        {
+          "percent": 64,
+          "assessment_status": "probable",
+          "basis": "Andrew’s 1776 St Cuthberts citation fits the immediately adjacent 1774/1777 children of the selected Alexander/Agnes household. Literal parents are not held for this entry and sibling grouping is partly inherited.",
+          "source_ids": [
+            "held-e-ab14e4f12417"
+          ],
+          "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below.",
+          "reviewed": "2026-10-22"
+        }
+      ]
     },
     {
       "subject_id": "Glasgow-1321",
@@ -21934,15 +22075,29 @@
       "subject_id": "Glasgow-1451",
       "relative_id": "Glasgow-1382",
       "relationship": "father",
-      "percent": 71,
-      "assessment_status": "probable",
+      "percent": 97,
+      "assessment_status": "strongly_supported",
       "assertion_id": "C-coverage-20261022g-glasgow-1451-father",
-      "basis": "Catharine’s 1780 Livingston citation and the ordered local Thomas/Christine family support this placement; the citation does not reproduce parents.",
+      "basis": "Livingston OPR 669/1 item 4 names Catharine, born 20 August and baptised 31 August 1780 at Blackburne, father Thos Glasgow and mother Christian Davidson. Exact dates, full parental couple and locality identify Thomas-1382’s adult family; the same Thomas/Christine Davidson household is separately recorded for Peter in 1790. The literal parents resolve the earlier limitation of the unquoted FamilySearch citation.",
       "source_ids": [
+        "fmp-record-scot-opr-bap-4152175",
+        "fmp-record-r-685841001",
         "held-e-83957cf99228"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
+      "reviewed": "2026-10-23",
+      "scope": "97% concerns the Thomas/Christian Davidson adult household, not the adult’s identification as the 1746 Davistoun child. The inherited circa-1766 birth claim conflicts with fatherhood in 1774 and remains unresolved alongside the preferred earlier baptism attribution; no vital date is silently changed. Two indexes describe one baptism. No trade is supplied here; original register image uninspected.",
+      "assessment_history": [
+        {
+          "percent": 71,
+          "assessment_status": "probable",
+          "basis": "Catharine’s 1780 Livingston citation and the ordered local Thomas/Christine family support this placement; the citation does not reproduce parents.",
+          "source_ids": [
+            "held-e-83957cf99228"
+          ],
+          "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below.",
+          "reviewed": "2026-10-22"
+        }
+      ]
     },
     {
       "subject_id": "Glasgow-1382",

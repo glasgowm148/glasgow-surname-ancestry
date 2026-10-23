@@ -2,12 +2,11 @@
 
 ## Current conclusion
 
-The inspected Findmypast parish transcript gives Andrew’s birth as **30 December 1775** and baptism as **5 January 1776** at St Cuthbert’s, Edinburgh. It names Alexander Glasgow, brewer’s servant, and Agnes Cunningham, with residence Grange. The birth date replaces the broad “before 5 January 1776” estimate for this recorded child. The named parental roles do not by themselves prove that Alexander is the particular adult represented by Glasgow-1321; retain the existing 64% assessment for that profile identity. A child born in late 1775 cannot be the adult Leith notice signatory in 1779; the separate 1790 merchant identification remains unproved.
+Reviewed 23 October 2026.
 
-Current father assessment (22 October 2026): **64% (probable)** for [Glasgow-1321](https://www.wikitree.com/wiki/Glasgow-1321). Complete selected father-profile proposition; recorded role and adult identification distinguished below. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+[Andrew Glasgow](/people/glasgow-1481.html) → [Alexander Glasgow](/people/glasgow-1321.html): 64% → **97% (confident)**. St Cuthbert’s OPR 685_2/9 item 1 p.275 records Andrew born 30 December 1775, baptised 5 January 1776, parents Alexander Glasgow and Agnes Cunningham, father a brewer’s servant, residence Grange. These literal fields resolve the previous missing-parent limitation. The same parental couple and trade in Agnes’s separate 1774 Cross Causeway entry identify one adult household represented by Alexander-1321. 97% concerns Andrew’s father in the Edinburgh adult household. It does not prove Alexander’s 1747 Kirknewton childhood, Andrew’s later 1790 merchant identity, or other attached children. Andrew cannot be the 1779 adult signatory because he was three. The companion index’s birth year 1776 is baptism-derived; retain the reviewed 1775 birth date. Original register images uninspected.
 
-<!-- site-audit-2026-10-07:overall-conclusion -->
-The recorded child’s 30 December 1775 birth and 5 January 1776 baptism are documented by the Findmypast transcript cited below. The 1779 adult Leith notice is chronologically excluded for this child. The 1790 merchant notice remains an unproved later-life identity; earlier newspaper assessments below are retained as research history and superseded on these points.
+The selected fathers and existing vital fields are retained. Percentages are subjective assessments with the record and identity scopes stated above.
 
 ## Superseded newspaper assessment — 5 October 2026
 
@@ -64,3 +63,22 @@ Held source basis: [https://www.familysearch.org/ark:/61903/1:1:VQC4-727](https:
 ## Birth and baptism correction — Findmypast review, 23 October 2026
 
 [Findmypast, *Scotland, Parish Births & Baptisms 1564–1929*, Andrew Glasgow, record SCOT/OPR/BAP/0734610](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0734610&tab=this) indexes birth 30 December 1775, baptism 5 January 1776, Edinburgh, father Alexander Glasgow (“Brewers Servt”), mother Agnes Cunningham, residence Grange, OPR 685_2/9, item 1, p. 275. [Companion index R_691341389](https://www.findmypast.co.uk/transcript?id=R_691341389&tab=this) repeats the 5 January 1776 baptism and names both parents, but labels “Birth year” 1776 without a distinct birth date. Use the more specific dated transcript for birth; the companion’s year follows the baptism and should not override it. Correct the profile’s broad birth bound to 30 December 1775, retain the 5 January baptism. Original register image not inspected. The child’s age concretely excludes his identification as the adult in the 1779 Leith notice; no later-life identity is inferred.
+
+
+## Earlier overall account — superseded by 23 October 2026 household review
+
+The inspected Findmypast parish transcript gives Andrew’s birth as **30 December 1775** and baptism as **5 January 1776** at St Cuthbert’s, Edinburgh. It names Alexander Glasgow, brewer’s servant, and Agnes Cunningham, with residence Grange. The birth date replaces the broad “before 5 January 1776” estimate for this recorded child. The named parental roles do not by themselves prove that Alexander is the particular adult represented by Glasgow-1321; retain the existing 64% assessment for that profile identity. A child born in late 1775 cannot be the adult Leith notice signatory in 1779; the separate 1790 merchant identification remains unproved.
+
+Current father assessment (22 October 2026): **64% (probable)** for [Glasgow-1321](https://www.wikitree.com/wiki/Glasgow-1321). Complete selected father-profile proposition; recorded role and adult identification distinguished below. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+The recorded child’s 30 December 1775 birth and 5 January 1776 baptism are documented by the Findmypast transcript cited below. The 1779 adult Leith notice is chronologically excluded for this child. The 1790 merchant notice remains an unproved later-life identity; earlier newspaper assessments below are retained as research history and superseded on these points.
+
+## Parish household evidence — 23 October 2026
+
+[Andrew Glasgow](/people/glasgow-1481.html) → [Alexander Glasgow](/people/glasgow-1321.html): 64% → **97% (confident)**. St Cuthbert’s OPR 685_2/9 item 1 p.275 records Andrew born 30 December 1775, baptised 5 January 1776, parents Alexander Glasgow and Agnes Cunningham, father a brewer’s servant, residence Grange. These literal fields resolve the previous missing-parent limitation. The same parental couple and trade in Agnes’s separate 1774 Cross Causeway entry identify one adult household represented by Alexander-1321. 97% concerns Andrew’s father in the Edinburgh adult household. It does not prove Alexander’s 1747 Kirknewton childhood, Andrew’s later 1790 merchant identity, or other attached children. Andrew cannot be the 1779 adult signatory because he was three. The companion index’s birth year 1776 is baptism-derived; retain the reviewed 1775 birth date. Original register images uninspected.
+
+- [fmp-record-scot-opr-bap-0733905](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0733905&tab=this).
+- [fmp-record-scot-opr-bap-0734610](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0734610&tab=this).
+- [fmp-record-r-691341389](https://www.findmypast.co.uk/transcript?id=R_691341389&tab=this).
+- [https://www.familysearch.org/ark:/61903/1:1:VQC4-727](https://www.familysearch.org/ark:/61903/1:1:VQC4-727).

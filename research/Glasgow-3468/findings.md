@@ -2,11 +2,11 @@
 
 ## Current conclusion
 
-Current father assessment (22 October 2026): **63% (probable)** for [Glasgow-1929](https://www.wikitree.com/wiki/Glasgow-1929). Complete selected father-profile proposition; recorded role and adult identification distinguished below. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+Reviewed 23 October 2026.
 
-The inspected Findmypast transcripts name Hugh Glasgow and Margaret McGechen for Ann’s 3 September 1749 Kilmarnock baptism. This supports the recorded child–parent roles; identifying the named father with Glasgow-1929 remains the existing 63% assessment. Her existing 25 August birth date is a separate claim, not a date supplied by these transcripts, and the original register image is uninspected.
+[Ann (Glasgow) Douglas](/people/glasgow-3468.html) → [Hugh Glasgow](/people/glasgow-1929.html): 63% → **96% (confident)**. Ann’s 3 September 1749 Kilmarnock baptism names Hugh Glasgow and Margaret McGechen. The complete couple and parish match the adult Hugh/Margaret household represented by Hugh-1929: its 1732 marriage names Margaret McEachin, and the separate 1742 child entry names Hugh the glover and Margaret McGechan. Ann’s explicit maternal surname resolves the earlier McEachin/Giffen household ambiguity for this child. No concrete competing Hugh/Margaret McGechen household is documented in the held family material. 96% concerns Ann’s father within the Kilmarnock adult household. Her transcript gives neither a trade nor a birth day/month; retain the existing 25 August birth claim separately. The 1744 Giffen entry and Ann’s later Douglas identification remain separate questions. This does not establish Hugh’s 1710 Kilwinning childhood. Companion indexes describe one event; original register image uninspected.
 
-The 23 October 2026 Findmypast review below retains the recorded facts and qualified identity comparisons; no new person or relationship is proposed.
+The selected fathers and existing vital fields are retained. Percentages are subjective assessments with the record and identity scopes stated above.
 
 ## Father confidence review, seventh batch — 22 October 2026
 
@@ -33,3 +33,20 @@ HOLD — Edinburgh OPR 685_2/31 item 2 p.279: Ann Glasgow of Pleasance, age 71, 
 - [Findmypast SCOT/OPR/BUR/0399299](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F0399299&tab=this).
 
 [Shared record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). Identity comparisons do not assign events or alter family attachments.
+
+
+## Earlier overall account — superseded by 23 October 2026 household review
+
+Current father assessment (22 October 2026): **63% (probable)** for [Glasgow-1929](https://www.wikitree.com/wiki/Glasgow-1929). Complete selected father-profile proposition; recorded role and adult identification distinguished below. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
+The inspected Findmypast transcripts name Hugh Glasgow and Margaret McGechen for Ann’s 3 September 1749 Kilmarnock baptism. This supports the recorded child–parent roles; identifying the named father with Glasgow-1929 remains the existing 63% assessment. Her existing 25 August birth date is a separate claim, not a date supplied by these transcripts, and the original register image is uninspected.
+
+The 23 October 2026 Findmypast review below retains the recorded facts and qualified identity comparisons; no new person or relationship is proposed.
+
+## Parish household evidence — 23 October 2026
+
+[Ann (Glasgow) Douglas](/people/glasgow-3468.html) → [Hugh Glasgow](/people/glasgow-1929.html): 63% → **96% (confident)**. Ann’s 3 September 1749 Kilmarnock baptism names Hugh Glasgow and Margaret McGechen. The complete couple and parish match the adult Hugh/Margaret household represented by Hugh-1929: its 1732 marriage names Margaret McEachin, and the separate 1742 child entry names Hugh the glover and Margaret McGechan. Ann’s explicit maternal surname resolves the earlier McEachin/Giffen household ambiguity for this child. No concrete competing Hugh/Margaret McGechen household is documented in the held family material. 96% concerns Ann’s father within the Kilmarnock adult household. Her transcript gives neither a trade nor a birth day/month; retain the existing 25 August birth claim separately. The 1744 Giffen entry and Ann’s later Douglas identification remain separate questions. This does not establish Hugh’s 1710 Kilwinning childhood. Companion indexes describe one event; original register image uninspected.
+
+- [fmp-record-r-688628323](https://www.findmypast.co.uk/transcript?id=R_688628323&tab=this).
+- [fmp-record-r-685318866](https://www.findmypast.co.uk/transcript?id=R_685318866&tab=this).
+- [https://www.familysearch.org/en/tree/person/sources/2CTY-Z6Z](https://www.familysearch.org/en/tree/person/sources/2CTY-Z6Z).

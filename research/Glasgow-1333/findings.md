@@ -2,12 +2,11 @@
 
 ## Current conclusion
 
-**Page-4 birth-scope review, 23 October 2026:** Two page-4 index rows describe one 11 January 1747 West Calder baptism naming John Glasgow and Magdalen Guthrie; they support the existing family comparison but leave later Andrew identity and current father confidence open.
+Reviewed 23 October 2026.
 
-Current father assessment (22 October 2026): **60% (probable)** for [Glasgow-81](https://www.wikitree.com/wiki/Glasgow-81). Complete selected father-profile proposition; recorded role and adult identification distinguished below. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+[Andrew Glasgow](/people/glasgow-1333.html) → [John Glasgow](/people/glasgow-81.html): 60% → **98% (confident)**. Andrew’s 11 January 1747 West Calder baptism explicitly names John Glasgow and Magdalen Guthrie. The exact baptism boundary and complete parental couple match the household represented by John-81 and the maintained Jean 1745/Magdalen 1749 sequence. John’s otherwise sparse biography is no longer a reason to describe Andrew’s parent fields as missing. 98% concerns the recorded 1747 child and the John/Magdalen adult household. It establishes neither John’s own childhood nor any later merchant, miller or Leith identity for Andrew. Betty-82’s father remains 37%: the new 1765 Cambusnethan Betty record instead names James Glasgow and Anne Prentice, and has no proved Nichol-adult bridge. Companion indexes represent one event; original register image uninspected.
 
-<!-- site-audit-2026-10-07:overall-conclusion -->
-Andrew Glasgow is recorded on the family tree as born before 11 January 1747 at West Calder, an uncertain date, and no record in this file yet documents his life. Newspaper notices of 1772, 1779 and 1790 naming an Andrew Glasgow (a miller at Calder, a preses of the Leith porters and a merchant in Kirkgate, Leith) were considered for this profile and withdrawn on 6 October 2026. His recorded father, John, rests on the family tree only.
+The selected fathers and existing vital fields are retained. Percentages are subjective assessments with the record and identity scopes stated above.
 
 ## Current conclusion — additional newspaper originals, 5 October 2026
 
@@ -90,3 +89,21 @@ Held source basis: [https://www.familysearch.org/ark:/61903/1:1:VQ4T-G4L](https:
 ## Findmypast birth-scope page 4 match — 23 October 2026
 
 [Findmypast R_686351978](https://www.findmypast.co.uk/transcript?id=R_686351978&tab=this) and [R_687778368](https://www.findmypast.co.uk/transcript?id=R_687778368&tab=this), Scotland, Parish Births & Baptisms 1564–1929, both index Andrew Glasgow baptised **11 January 1747** at West Calder, father John Glasgow and mother Magdalen Guthrie. They carry the same event and parental fields, so count one baptism, not two independent witnesses. This is compatible with [Andrew Glasgow-1333](https://www.wikitree.com/wiki/Glasgow-1333), his selected [John Glasgow-81](https://www.wikitree.com/wiki/Glasgow-81) father and [Magdalen Guthrie-777](https://www.wikitree.com/wiki/Guthrie-777) household. The indexed birth year does not state a separate birth date, and the transcript does not connect the baptised child to the later newspaper Andrews. Retain the existing 60% father assessment and uncertain vital field pending original-register and adult-identity checks. Provider transcripts were inspected; original images were not.
+
+
+## Earlier overall account — superseded by 23 October 2026 household review
+
+**Page-4 birth-scope review, 23 October 2026:** Two page-4 index rows describe one 11 January 1747 West Calder baptism naming John Glasgow and Magdalen Guthrie; they support the existing family comparison but leave later Andrew identity and current father confidence open.
+
+Current father assessment (22 October 2026): **60% (probable)** for [Glasgow-81](https://www.wikitree.com/wiki/Glasgow-81). Complete selected father-profile proposition; recorded role and adult identification distinguished below. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+Andrew Glasgow is recorded on the family tree as born before 11 January 1747 at West Calder, an uncertain date, and no record in this file yet documents his life. Newspaper notices of 1772, 1779 and 1790 naming an Andrew Glasgow (a miller at Calder, a preses of the Leith porters and a merchant in Kirkgate, Leith) were considered for this profile and withdrawn on 6 October 2026. His recorded father, John, rests on the family tree only.
+
+## Parish household evidence — 23 October 2026
+
+[Andrew Glasgow](/people/glasgow-1333.html) → [John Glasgow](/people/glasgow-81.html): 60% → **98% (confident)**. Andrew’s 11 January 1747 West Calder baptism explicitly names John Glasgow and Magdalen Guthrie. The exact baptism boundary and complete parental couple match the household represented by John-81 and the maintained Jean 1745/Magdalen 1749 sequence. John’s otherwise sparse biography is no longer a reason to describe Andrew’s parent fields as missing. 98% concerns the recorded 1747 child and the John/Magdalen adult household. It establishes neither John’s own childhood nor any later merchant, miller or Leith identity for Andrew. Betty-82’s father remains 37%: the new 1765 Cambusnethan Betty record instead names James Glasgow and Anne Prentice, and has no proved Nichol-adult bridge. Companion indexes represent one event; original register image uninspected.
+
+- [fmp-record-r-686351978](https://www.findmypast.co.uk/transcript?id=R_686351978&tab=this).
+- [fmp-record-r-687778368](https://www.findmypast.co.uk/transcript?id=R_687778368&tab=this).
+- [https://www.familysearch.org/ark:/61903/1:1:VQ4T-G4L](https://www.familysearch.org/ark:/61903/1:1:VQ4T-G4L).

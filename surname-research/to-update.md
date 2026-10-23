@@ -4047,3 +4047,23 @@ Sixty provider transcripts are indexed under existing subjects, qualified candid
 | [Catharine Glasgow](https://www.wikitree.com/wiki/Glasgow-1451) | OPEN | Catharine Glasgow: indexed birth 1780-08-20; indexed baptism 31 August 1780. Birth date corrected from c. 1780-08-31. Keep baptism distinct; complete sourced proposal retained. |
 
 [Current record assignments and remaining questions](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). Local synchronization only; no live WikiTree save or deployment.
+
+## 23 October 2026 — Parish household parentage and lifetime identities
+
+| [Thomas Glasgow](https://www.wikitree.com/wiki/Glasgow-1023) | OPEN | Add the reciprocal parish household findings and qualified child-father assessments. |
+| [George Glasgow](https://www.wikitree.com/wiki/Glasgow-1058) | OPEN | Add the reciprocal parish household findings and qualified child-father assessments. |
+| [David Glasgow](https://www.wikitree.com/wiki/Glasgow-1218) | OPEN | Add the interpreted parish household evidence. Existing father 97% → 70% (probable); retain the stronger record-only clause conditionally and qualify the adult identity. |
+| [James Glasgow](https://www.wikitree.com/wiki/Glasgow-1238) | OPEN | Add the reciprocal parish household findings and qualified child-father assessments. |
+| [Alexander Glasgow](https://www.wikitree.com/wiki/Glasgow-1321) | OPEN | Add the interpreted parish household evidence. Existing father 95% → 76% (probable); retain the stronger record-only clause conditionally and qualify the adult identity. |
+| [Andrew Glasgow](https://www.wikitree.com/wiki/Glasgow-1333) | OPEN | Add the interpreted parish household evidence. Existing father 60% → 98% (confident); retain the stated identity limits. |
+| [Andrew Glasgow](https://www.wikitree.com/wiki/Glasgow-1336) | OPEN | Add the reciprocal parish household findings and qualified child-father assessments. |
+| [Thomas Glasgow](https://www.wikitree.com/wiki/Glasgow-1382) | OPEN | Add the interpreted parish household evidence. Existing father 98% → 78% (probable); retain the stronger record-only clause conditionally and qualify the adult identity. |
+| [Catharine Glasgow](https://www.wikitree.com/wiki/Glasgow-1451) | OPEN | Add the interpreted parish household evidence. Existing father 71% → 97% (confident); retain the stated identity limits. |
+| [Andrew Glasgow](https://www.wikitree.com/wiki/Glasgow-1481) | OPEN | Add the interpreted parish household evidence. Existing father 64% → 97% (confident); retain the stated identity limits. |
+| [Agnes Glasgow](https://www.wikitree.com/wiki/Glasgow-1482) | OPEN | Add the interpreted parish household evidence. Existing father 87% → 97% (confident); retain the stated identity limits. |
+| [Andrew Glasgow](https://www.wikitree.com/wiki/Glasgow-1616) | OPEN | Add the interpreted parish household evidence. Existing father 63% → 95% (confident); retain the stated identity limits. |
+| [John Glasgow](https://www.wikitree.com/wiki/Glasgow-1927) | OPEN | Add the reciprocal parish household findings and qualified child-father assessments. |
+| [Hugh Glasgow](https://www.wikitree.com/wiki/Glasgow-1929) | OPEN | Add the interpreted parish household evidence. Existing father 93% → 62% (probable); retain the stronger record-only clause conditionally and qualify the adult identity. |
+| [Andrew Glasgow](https://www.wikitree.com/wiki/Glasgow-3313) | OPEN | Add the interpreted parish household evidence. Existing father 51% → 82% (probable); retain the stated identity limits. |
+| [Ann (Glasgow) Douglas](https://www.wikitree.com/wiki/Glasgow-3468) | OPEN | Add the interpreted parish household evidence. Existing father 63% → 96% (confident); retain the stated identity limits. |
+| [John Glasgow](https://www.wikitree.com/wiki/Glasgow-81) | OPEN | Add the reciprocal parish household findings and qualified child-father assessments. |

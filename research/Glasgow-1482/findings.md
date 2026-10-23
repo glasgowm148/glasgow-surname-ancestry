@@ -2,13 +2,12 @@
 
 ## Current conclusion
 
-Current father assessment (22 October 2026): **87% (probable)** for [Glasgow-1321](https://www.wikitree.com/wiki/Glasgow-1321). Complete selected father-profile proposition; recorded role and adult identification distinguished below. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+Reviewed 23 October 2026.
 
-The Edinburgh entry explicitly records birth 15 July and baptism 30 July 1774, Alexander Glasgow, Brewers Servt, and Agness Cunninghame, residence Cross Causeway, OPR 685_2/9 item 1 p.172. It refines the existing before-30-July birth boundary. This secure child identification does not establish the later Geo Smart wife comparison. The 1810 Edinburgh burial remains a candidate comparison, with age 32 against this child’s actual 36; no death or Geo Smart marriage is assigned.
+[Agnes Glasgow](/people/glasgow-1482.html) → [Alexander Glasgow](/people/glasgow-1321.html): 87% → **97% (confident)**. Agnes’s 1774 St Cuthbert’s entry identifies Alexander Glasgow, brewer’s servant, and Agness Cunninghame at Cross Causeway, with birth 15 July and baptism 30 July. Andrew’s newly interpreted 1775/1776 entry independently records the same couple and trade at Grange. The consecutive children, parental combination, occupation and compatible Edinburgh residences identify the adult household represented by Alexander-1321. 97% concerns Agnes’s father as the adult Alexander/Agnes Cunningham householder. Identifying him with the 1747 Kirknewton child is a separate upstream inference, now assessed at 76%. It does not establish Agnes’s later Smart identity or an 1810 burial. Indexes of the same event are not independent witnesses; the 1774 and 1776 births are separate events. Original register images uninspected.
 
-The 22 October 2026 Findmypast review below records the matched events and qualified comparisons, preserving existing vital dates and relationship assessments. No new person or parent attachment is proposed.
+The selected fathers and existing vital fields are retained. Percentages are subjective assessments with the record and identity scopes stated above.
 
-<!-- BEGIN FMP-BIRTH-SCOPE-PAGE2-20261022 -->
 ## Findmypast record review — 22 October 2026
 
 The Edinburgh entry explicitly records birth 15 July and baptism 30 July 1774, Alexander Glasgow, Brewers Servt, and Agness Cunninghame, residence Cross Causeway, OPR 685_2/9 item 1 p.172. It refines the existing before-30-July birth boundary. This secure child identification does not establish the later Geo Smart wife comparison.
@@ -46,3 +45,24 @@ Next useful test: Find Alexander/Cunningham marriage or occupational record brid
 This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [https://www.familysearch.org/ark:/61903/1:1:VQCW-6V9](https://www.familysearch.org/ark:/61903/1:1:VQCW-6V9)
+
+
+## Earlier overall account — superseded by 23 October 2026 household review
+
+Current father assessment (22 October 2026): **87% (probable)** for [Glasgow-1321](https://www.wikitree.com/wiki/Glasgow-1321). Complete selected father-profile proposition; recorded role and adult identification distinguished below. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
+The Edinburgh entry explicitly records birth 15 July and baptism 30 July 1774, Alexander Glasgow, Brewers Servt, and Agness Cunninghame, residence Cross Causeway, OPR 685_2/9 item 1 p.172. It refines the existing before-30-July birth boundary. This secure child identification does not establish the later Geo Smart wife comparison. The 1810 Edinburgh burial remains a candidate comparison, with age 32 against this child’s actual 36; no death or Geo Smart marriage is assigned.
+
+The 22 October 2026 Findmypast review below records the matched events and qualified comparisons, preserving existing vital dates and relationship assessments. No new person or parent attachment is proposed.
+
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGE2-20261022 -->
+
+## Parish household evidence — 23 October 2026
+
+[Agnes Glasgow](/people/glasgow-1482.html) → [Alexander Glasgow](/people/glasgow-1321.html): 87% → **97% (confident)**. Agnes’s 1774 St Cuthbert’s entry identifies Alexander Glasgow, brewer’s servant, and Agness Cunninghame at Cross Causeway, with birth 15 July and baptism 30 July. Andrew’s newly interpreted 1775/1776 entry independently records the same couple and trade at Grange. The consecutive children, parental combination, occupation and compatible Edinburgh residences identify the adult household represented by Alexander-1321. 97% concerns Agnes’s father as the adult Alexander/Agnes Cunningham householder. Identifying him with the 1747 Kirknewton child is a separate upstream inference, now assessed at 76%. It does not establish Agnes’s later Smart identity or an 1810 burial. Indexes of the same event are not independent witnesses; the 1774 and 1776 births are separate events. Original register images uninspected.
+
+- [fmp-record-scot-opr-bap-0733905](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0733905&tab=this).
+- [fmp-record-r-686099212](https://www.findmypast.co.uk/transcript?id=R_686099212&tab=this).
+- [fmp-record-r-691336326](https://www.findmypast.co.uk/transcript?id=R_691336326&tab=this).
+- [fmp-record-scot-opr-bap-0734610](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0734610&tab=this).
+- [https://www.familysearch.org/ark:/61903/1:1:VQCW-6V9](https://www.familysearch.org/ark:/61903/1:1:VQCW-6V9).

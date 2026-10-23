@@ -5,6 +5,12 @@ Last updated: 2026-09-10
 
 ## Current conclusion
 
+Reviewed 23 October 2026.
+
+[Andrew Glasgow](/people/glasgow-3313.html) → [George Glasgow](/people/glasgow-1058.html): 51% → **82% (probable)**. Andrew’s Irvine baptism of 22 May 1733 names George Glasgow and Margaret Martin. This matches the existing parental couple’s 11 June 1728 Kilwinning marriage and son George’s 1729 Kilwinning baptism. The full couple and neighbouring-parish sequence materially strengthen the inherited placement beyond the former unquoted citation. 82% assesses the complete placement under George-1058, including the still-unbridged identification of the 1728–1733 adult with the 1687 Kilwinning child. The adult records do not supply an age, occupation or parents; another George remains possible, though no concrete competing George/Margaret household is documented. The profile’s 21 May birth remains distinct from the 22 May baptism. Original register image uninspected.
+
+The selected fathers and existing vital fields are retained. Percentages are subjective assessments with the record and identity scopes stated above.
+
 Reviewed: 2026-10-16
 
 **Selected Calder/Irvine working families, 16 October 2026:** John of the Calder/Meek household is placed under William-1026 through the 1702 child comparison, uncertain. George of the Irvine Margt household is placed under John-1057 and Agnes Spark through the 1687 child and 1728 couple comparison, both uncertain. Existing dates, recorded-child grades and competing identities remain. [Evidence and alternatives](/branches/early-scottish-records/#calder-irvine-working-family).
@@ -173,3 +179,11 @@ Scope: The recorded 1687 child and John/Agnes household. John’s Edinburgh chil
 Next useful test: Concentrate further work on George’s childhood-to-Irvine adult continuity.
 
 This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
+
+
+## Parish household evidence — 23 October 2026
+
+[Andrew Glasgow](/people/glasgow-3313.html) → [George Glasgow](/people/glasgow-1058.html): 51% → **82% (probable)**. Andrew’s Irvine baptism of 22 May 1733 names George Glasgow and Margaret Martin. This matches the existing parental couple’s 11 June 1728 Kilwinning marriage and son George’s 1729 Kilwinning baptism. The full couple and neighbouring-parish sequence materially strengthen the inherited placement beyond the former unquoted citation. 82% assesses the complete placement under George-1058, including the still-unbridged identification of the 1728–1733 adult with the 1687 Kilwinning child. The adult records do not supply an age, occupation or parents; another George remains possible, though no concrete competing George/Margaret household is documented. The profile’s 21 May birth remains distinct from the 22 May baptism. Original register image uninspected.
+
+- [fmp-record-r-685316023](https://www.findmypast.co.uk/transcript?id=R_685316023&tab=this).
+- [https://beta.familysearch.org/en/tree/person/sources/KCFS-6B9](https://beta.familysearch.org/en/tree/person/sources/KCFS-6B9).
