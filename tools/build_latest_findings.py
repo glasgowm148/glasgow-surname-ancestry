@@ -32,6 +32,8 @@ FINDING_LABELS = {'confirmed': 'Finding supported', 'qualified': 'Finding qualif
 RELATIONSHIPS = {'father': 'Father', 'mother': 'Mother', 'spouse': 'Spouse',
                  'sibling': 'Sibling', 'child': 'Child', 'grandparent': 'Grandparent'}
 CHANGE_FIELDS = ('relationship', 'subject', 'relative', 'before', 'after', 'explanation')
+CHANGE_PERCENT_FIELDS = ('previous_probability_percent', 'probability_percent')
+CONFIDENCE_GRADES = {'uncertain', 'unknown', 'unmarked', 'possible', 'probable', 'certain'}
 PUBLIC_FIELDS = ('id', 'found_on', 'found_from', 'kind', 'finding', 'significance', 'status',
                  'qualification', 'people', 'sources', 'detail_url', 'relationship_changes')
 SITE_URL = 'https://glasgow.phenotype.dev'
@@ -88,15 +90,22 @@ def load_findings(path=LEDGER, web=WEB):
         if not isinstance(changes, list):
             raise ValueError('Relationship changes must be a list')
         for change in changes:
+            previous_percent, percent = (change.get(key) for key in CHANGE_PERCENT_FIELDS)
+            for key in CHANGE_PERCENT_FIELDS:
+                value = change.get(key)
+                if value is not None and (isinstance(value, bool) or not isinstance(value, (int, float)) or not 0 <= value <= 100):
+                    raise ValueError(f'Invalid relationship percentage: {item["id"]}')
+            measured_change = previous_percent is not None and percent is not None and previous_percent != percent
             if (change.get('relationship') not in RELATIONSHIPS
-                    or change.get('before') not in ('uncertain', 'unknown', 'unmarked', 'possible', 'probable')
-                    or change.get('after') != 'certain'
+                    or change.get('before') not in CONFIDENCE_GRADES
+                    or change.get('after') not in CONFIDENCE_GRADES - {'unmarked'}
+                    or (change.get('before') == change.get('after') and not measured_change)
                     or not all(change.get(key) for key in ('subject', 'relative', 'explanation', 'previous_status_provenance'))):
-                raise ValueError(f'Relationship upgrade needs a documented previous assessment and new certain conclusion: {item["id"]}')
+                raise ValueError(f'Relationship change needs a documented previous assessment and changed conclusion: {item["id"]}')
         # Internal provenance/captures are kept only in the maintained ledger.
         public = {key: item[key] for key in PUBLIC_FIELDS if key in item}
         if changes:
-            public['relationship_changes'] = [{key: change[key] for key in CHANGE_FIELDS} for change in changes]
+            public['relationship_changes'] = [{key: change[key] for key in (*CHANGE_FIELDS, *CHANGE_PERCENT_FIELDS) if key in change} for change in changes]
         rows.append(public)
     return sorted(rows, key=lambda row: (-date.fromisoformat(row['found_on']).toordinal(), row['id']))
 
@@ -167,19 +176,22 @@ def row_html(item):
     significance = f'<p class="lf-significance">{esc(item["significance"])}</p>' if item.get('significance') else ''
     qualification = f'<p>{esc(item["qualification"])}</p>' if item.get('qualification') else ''
     changes = item.get('relationship_changes', [])
-    upgrades = ' '.join(sorted({change['relationship'] for change in changes}))
+    upgrades = ' '.join(sorted({change['relationship'] for change in changes if change['after'] == 'certain'}))
     change_groups = {}
     for change in changes:
-        key = tuple(change[field] for field in ('relationship', 'relative', 'before', 'explanation'))
+        key = tuple(change.get(field) for field in ('relationship', 'relative', 'before', 'after', 'explanation', *CHANGE_PERCENT_FIELDS))
         change_groups.setdefault(key, []).append(change['subject'])
     changes_html = ''
-    for (relationship, relative, before, explanation), subjects in change_groups.items():
+    for (relationship, relative, before, after, explanation, previous_percent, percent), subjects in change_groups.items():
         subject_names = '; '.join(esc(subject) for subject in subjects)
         change_label = RELATIONSHIPS[relationship] + (' relationships' if len(subjects) > 1 else ' relationship')
+        badge = change_label + (' became certain' if after == 'certain' else ' confidence revised')
+        grade_label = lambda grade, value: ('Unmarked (previously ungraded)' if grade == 'unmarked' else grade.capitalize()) + (f' ({value:g}%)' if value is not None else '')
+        transition = grade_label(before, previous_percent) + ' → ' + grade_label(after, percent)
         changes_html += (
-            f'<div class="lf-relationship-change"><span class="lf-status lf-confirmed">{change_label} became certain</span>'
+            f'<div class="lf-relationship-change"><span class="lf-status lf-{"confirmed" if after == "certain" else "qualified"}">{badge}</span>'
             f'<p><strong>{subject_names} — {esc(relationship)}: {esc(relative)}.</strong> '
-            f'{("Unmarked (previously ungraded)" if before == "unmarked" else before.capitalize())} → Certain. {esc(explanation)}</p></div>')
+            f'{esc(transition)}. {esc(explanation)}</p></div>')
     external_case = item['detail_url'].startswith('https://')
     case_attributes = ' target="_blank" rel="noopener noreferrer"' if external_case else ''
     case_label = 'Open WikiTree profile ↗' if external_case else 'Read the research →'

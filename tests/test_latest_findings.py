@@ -164,11 +164,36 @@ class LatestFindingsTests(unittest.TestCase):
                 loaded = findings.load_findings(ledger, web)[0]
                 self.assertEqual(previous, loaded['relationship_changes'][0]['before'])
                 self.assertIn(f'{previous.capitalize()} → Certain', findings.row_html(loaded))
-            for replacement in [{'before': 'certain'}, {'after': 'uncertain'},
+            for replacement in [{'before': 'certain'}, {'after': 'unsupported'},
                                 {'previous_status_provenance': []}, {'relationship': 'identity'}]:
                 invalid = copy.deepcopy(row)
                 invalid['relationship_changes'][0].update(replacement)
                 ledger.write_text(json.dumps({'findings': [invalid]}))
+                with self.assertRaises(ValueError): findings.load_findings(ledger, web)
+
+    def test_confidence_decrease_and_within_grade_changes_are_not_certain_upgrades(self):
+        with tempfile.TemporaryDirectory() as directory:
+            web, ledger, row = self.fixture(directory)
+            change = dict(relationship='father', subject='Example child', relative='Example father',
+                          before='probable', after='possible', previous_probability_percent=85,
+                          probability_percent=35, explanation='Inspected source leaves parentage unresolved.',
+                          previous_status_provenance='private/prior-assessment.txt')
+            row['relationship_changes'] = [change]
+            for before, after, previous, current in [('probable', 'possible', 85, 35),
+                                                     ('certain', 'possible', 95, 35),
+                                                     ('probable', 'probable', 85, 71)]:
+                change.update(before=before, after=after, previous_probability_percent=previous,
+                              probability_percent=current)
+                ledger.write_text(json.dumps({'findings': [row]}))
+                loaded = findings.load_findings(ledger, web)[0]
+                soup = BeautifulSoup(findings.row_html(loaded), 'html.parser')
+                self.assertEqual('', soup.select_one('tr')['data-relationship-upgrade'])
+                self.assertIn(f'{before.capitalize()} ({previous}%) → {after.capitalize()} ({current}%)', soup.get_text())
+                self.assertNotIn('became certain', soup.get_text())
+                self.assertNotIn('private/prior-assessment.txt', str(soup))
+            for invalid_percent in [-1, 101, True, '35']:
+                change['probability_percent'] = invalid_percent
+                ledger.write_text(json.dumps({'findings': [row]}))
                 with self.assertRaises(ValueError): findings.load_findings(ledger, web)
 
     def test_archive_pages_count_from_the_earliest_finding_and_keep_links_stable(self):
