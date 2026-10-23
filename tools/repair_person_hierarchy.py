@@ -2748,6 +2748,10 @@ def _replace_main(text: str, profile_id: str) -> str:
         soup.title.string = title
     for meta in soup.select('meta[property="og:title"], meta[name="twitter:title"]'):
         meta['content'] = title
+    dossier = _load_json(WEB / 'people' / f'{profile_id.casefold()}.json', {})
+    reviewed_vitals = {kind for review in dossier.get('research_assessments', [])
+                       if review.get('status') == 'approved'
+                       for kind in review.get('vitals', {})}
     for script in soup.select('script[type="application/ld+json"]'):
         try:
             value = json.loads(script.string or '')
@@ -2755,6 +2759,15 @@ def _replace_main(text: str, profile_id: str) -> str:
             continue
         if isinstance(value, dict) and value.get('@type') == 'Person':
             value['name'] = name
+            for kind in reviewed_vitals & {'birth', 'death'}:
+                vital = dossier.get('vitals', {}).get(kind, {})
+                date = vital.get('date') or ''
+                if vital.get('status') in {'exact', 'certain', 'proved', 'confident'} and re.fullmatch(r'\d{4}(?:-\d{2}){0,2}', date):
+                    value[kind+'Date'] = date
+                else:
+                    value.pop(kind+'Date', None)
+                if vital.get('place'):
+                    value[kind+'Place'] = vital['place']
             script.string = json.dumps(value, ensure_ascii=False)
     _set_top_bar_crumbs(soup, profile_id, name)
     for link in soup.select(".g-nav-link[aria-current]"):

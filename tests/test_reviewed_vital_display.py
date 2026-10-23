@@ -7,6 +7,22 @@ from tools.reviewed_vital_display import apply, refresh_family_summaries
 
 
 class ReviewedVitalDisplayTests(unittest.TestCase):
+    def test_reviewed_death_boundary_removes_stale_exact_metadata(self):
+        from bs4 import BeautifulSoup
+        from tools import repair_person_hierarchy as renderer
+        with TemporaryDirectory() as tmp:
+            root=Path(tmp);(root/'people').mkdir()
+            dossier=dict(research_assessments=[dict(status='approved',vitals={'death':{}})],
+                         vitals=dict(death=dict(date='after 1805-10-14',status='after',place='Death parish')))
+            (root/'people/example-1.json').write_text(json.dumps(dossier))
+            html='<html><head><script type="application/ld+json">{"@type":"Person","birthDate":"1757-11-28","deathDate":"1805-08-14","deathPlace":"Old parish"}</script></head><body><main>Old account</main></body></html>'
+            with patch.object(renderer,'WEB',root), patch.object(renderer,'render_person_dossier',return_value='<h1>Example Person</h1>'), patch.object(renderer,'_set_top_bar_crumbs'), patch.object(renderer,'_ensure_unified_person_shell',side_effect=lambda soup,ident:soup):
+                result=BeautifulSoup(renderer._replace_main(html,'Example-1'),'html.parser')
+            data=json.loads(result.select_one('script[type="application/ld+json"]').string)
+            self.assertNotIn('deathDate',data)
+            self.assertEqual('Death parish',data['deathPlace'])
+            self.assertEqual('1757-11-28',data['birthDate'])
+
     def test_death_review_reaches_family_registry_without_changing_birth(self):
         with TemporaryDirectory() as tmp:
             root=Path(tmp)
