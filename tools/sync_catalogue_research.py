@@ -8,6 +8,7 @@ import contextlib
 import json
 import re
 import sys
+from functools import lru_cache
 from html import escape
 from pathlib import Path
 
@@ -20,14 +21,49 @@ try:
     import build_research_catalog as catalogue
     from public_privacy import from_sources, public_capture
     from site_html import read_html
+    import repair_person_hierarchy as hierarchy
     from repair_person_hierarchy import _profile_update_panel, _replace_main, revise, render_person_dossier
 except ModuleNotFoundError:
     from tools import build_research_catalog as catalogue
     from tools.public_privacy import from_sources, public_capture
     from tools.site_html import read_html
+    from tools import repair_person_hierarchy as hierarchy
     from tools.repair_person_hierarchy import _profile_update_panel, _replace_main, revise, render_person_dossier
 
 WEB = ROOT / "www"
+
+
+@contextlib.contextmanager
+def cached_hierarchy_sources():
+    """Reuse read-only source parses across dossier renders in one sync run."""
+    original_records = hierarchy._canonical_records
+    original_assessments = hierarchy._relationship_assessments
+
+    def source_key(name):
+        path = (hierarchy.ROOT / "research" / name).resolve()
+        try:
+            stat = path.stat()
+        except FileNotFoundError:
+            return str(path), None, None
+        return str(path), stat.st_mtime_ns, stat.st_size
+
+    @lru_cache(maxsize=4)
+    def records(_key):
+        return original_records()
+
+    @lru_cache(maxsize=4)
+    def assessments(_key):
+        return original_assessments()
+
+    # Both consumers only iterate/select these parsed rows; neither mutates
+    # them. The stat key reloads a source changed during a long invocation.
+    hierarchy._canonical_records = lambda: records(source_key("canonical_records.json"))
+    hierarchy._relationship_assessments = lambda: assessments(source_key("relationship_assessments.json"))
+    try:
+        yield
+    finally:
+        hierarchy._canonical_records = original_records
+        hierarchy._relationship_assessments = original_assessments
 
 
 def refresh_family_branch_parents(profile_ids, *, site_root=WEB, write=False):
@@ -416,7 +452,7 @@ def refresh_catalogue_summaries(rows):
             path.write_text(str(soup), encoding="utf-8")
 
 
-def main():
+def _run():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("profiles", nargs="*", help="Profile IDs; default: every case with findings or an update")
     parser.add_argument("--write", action="store_true", help="Refresh reviewed existing dossiers and queue presentation")
@@ -553,6 +589,11 @@ def main():
     with contextlib.redirect_stdout(sys.stderr):
         publication_exit = check_publication(check_args)
     return int(bool(missing or ((report or branch_changes) and not args.write) or index_exit or publication_exit))
+
+
+def main():
+    with cached_hierarchy_sources():
+        return _run()
 
 
 if __name__ == "__main__":
