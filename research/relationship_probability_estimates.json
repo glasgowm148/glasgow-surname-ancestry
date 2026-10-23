@@ -7914,15 +7914,34 @@
       "subject_id": "Glasgow-9",
       "relative_id": "Glasgow-8",
       "relationship": "father",
-      "percent": 58,
-      "assessment_status": "possible",
+      "percent": 92,
+      "assessment_status": "strongly_supported",
       "assertion_id": "C-coverage-20261022b-glasgow-9-father",
-      "basis": "The inherited descendant family places Samuel Steele Glasgow, born 1814 in Adams County, under Robert Barclay and Rosanna Finley. Robert’s 1783 generation and established Ohio family fit a31-year fatherhood. The held 1880/1900 censuses identify Samuel’s later life, but do not name his parents.",
+      "basis": "The published obituary transcription identifies Samuel Steel Glasgow, then in his ninetieth year, as the surviving brother of Stewart Glasgow of Hanna City. The distinctive name and age fit Samuel Steele Glasgow-9, born in September 1814. Stewart’s established Peoria family and independently reviewed 94% paternal identification with Robert Barclay Glasgow-8 support extending the same father to this documented brother. This is a confident combined paternal inference, not a literal statement naming Samuel’s father in the obituary.",
       "source_ids": [
+        "stewart-glasgow-obituary-1904-transcript",
+        "peoria-county-stewart-glasgow-sketch-1880",
+        "thompson-martha-melvina-glasgow-interview-1925",
+        "thompson-stuart-huston-interview-1925",
+        "thompson-caskey-glasgow-interview-1925",
+        "thompson-samuel-glasgow-interview-1926",
+        "thompson-ora-glasgow-interview-1925",
         "held-e-a843a7f9d7b2"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Possible58%; the specific existing household is preferred, with no independently inspected father clause or fabricated maternal naming argument."
+      "reviewed": "2026-10-23",
+      "scope": "92% is a subjective assessment of the complete Samuel-9 to Robert-8 father identification. The obituary supplies the sibling relationship; the 1880 county sketch and 1925 family interview comparisons identify Stewart and support his father. The Peoria Star abstract and Monmouth Review account quoting the Peoria Herald Transcript may derive from one obituary and are not counted as independent parentage witnesses. Published transcription inspected; original newspaper image uninspected. Mother and all vital fields remain separately assessed.",
+      "assessment_history": [
+        {
+          "percent": 58,
+          "assessment_status": "possible",
+          "basis": "The inherited descendant family places Samuel Steele Glasgow, born 1814 in Adams County, under Robert Barclay and Rosanna Finley. Robert’s 1783 generation and established Ohio family fit a31-year fatherhood. The held 1880/1900 censuses identify Samuel’s later life, but do not name his parents.",
+          "source_ids": [
+            "held-e-a843a7f9d7b2"
+          ],
+          "scope": "Possible58%; the specific existing household is preferred, with no independently inspected father clause or fabricated maternal naming argument.",
+          "reviewed": "2026-10-22"
+        }
+      ]
     },
     {
       "subject_id": "Glasgow-8",
@@ -12200,15 +12219,28 @@
       "subject_id": "Glasgow-11",
       "relative_id": "Glasgow-8",
       "relationship": "father",
-      "percent": 78,
-      "assessment_status": "probable",
+      "percent": 94,
+      "assessment_status": "strongly_supported",
       "assertion_id": "C-coverage-20261022d-glasgow-11-father",
-      "basis": "Martha Steele’s 18 September 1810 birth fits Robert Barclay Glasgow and Rosanna Finley’s Adams County family account, near the start of their detailed child sequence. The distinctive middle name strengthens household consistency.",
+      "basis": "The 1902 county-history account of William Steele McCullough identifies his mother as Martha Glasgow, born in Adams County, Ohio, in 1810, and his maternal grandfather as Robert Glasgow. Martha’s husband John, their son’s 26 September 1835 birth, the Adams County origin and later Logan Township family identify the maintained Martha Steele Glasgow-11 account. This combined family identification supports Robert Barclay Glasgow-8 as her father beyond the earlier inherited placement.",
       "source_ids": [
+        "peoria-1902-william-steele-mccullough-transcript",
         "held-e-5caba1d5478c"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Probable inherited family placement; the capture does not quote a contemporary parent clause."
+      "reviewed": "2026-10-23",
+      "scope": "94% is a subjective assessment of the complete Martha-11 to Robert-8 father identification. The published transcription names her father and identifies her through husband, son, age and Ohio/Illinois locality sequence. The original printed page has not been inspected; page 749 is a search lead, not a verified page citation. The transcript gives Martha’s death year as 1872, whereas the retained profile says 5 June 1873; retain that field and the discrepancy pending original or vital-record checking. The source does not establish Rosanna’s maternity, Martha’s exact birthday or any older Glasgow ancestry.",
+      "assessment_history": [
+        {
+          "percent": 78,
+          "assessment_status": "probable",
+          "basis": "Martha Steele’s 18 September 1810 birth fits Robert Barclay Glasgow and Rosanna Finley’s Adams County family account, near the start of their detailed child sequence. The distinctive middle name strengthens household consistency.",
+          "source_ids": [
+            "held-e-5caba1d5478c"
+          ],
+          "scope": "Probable inherited family placement; the capture does not quote a contemporary parent clause.",
+          "reviewed": "2026-10-22"
+        }
+      ]
     },
     {
       "subject_id": "Glasgow-8",

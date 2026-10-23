@@ -1,0 +1,107 @@
+{
+  "reviewed": "2026-10-23",
+  "profile_ids": [
+    "Glasgow-9",
+    "Glasgow-11",
+    "Glasgow-8",
+    "Glasgow-17"
+  ],
+  "record_ids": [
+    "stewart-glasgow-obituary-1904-transcript",
+    "peoria-1902-william-steele-mccullough-transcript"
+  ],
+  "source_reviews": {
+    "Glasgow-9": {
+      "rid": "stewart-glasgow-obituary-1904-transcript",
+      "url": "https://www.werelate.org/wiki/Person:Stewart_Glasgow_(1)",
+      "old": 58,
+      "new": 92,
+      "prior_status": "possible",
+      "year": 1904,
+      "title": "Stewart Glasgow obituary, 24 August 1904, published transcription on WeRelate",
+      "reading": "The published obituary transcription identifies Samuel Steel Glasgow, then in his ninetieth year, as the surviving brother of Stewart Glasgow of Hanna City. The distinctive name and age fit Samuel Steele Glasgow-9, born in September 1814. Stewart’s established Peoria family and independently reviewed 94% paternal identification with Robert Barclay Glasgow-8 support extending the same father to this documented brother. This is a confident combined paternal inference, not a literal statement naming Samuel’s father in the obituary.",
+      "scope": "92% is a subjective assessment of the complete Samuel-9 to Robert-8 father identification. The obituary supplies the sibling relationship; the 1880 county sketch and 1925 family interview comparisons identify Stewart and support his father. The Peoria Star abstract and Monmouth Review account quoting the Peoria Herald Transcript may derive from one obituary and are not counted as independent parentage witnesses. Published transcription inspected; original newspaper image uninspected. Mother and all vital fields remain separately assessed.",
+      "citation": "WeRelate, Stewart Glasgow biography: Peoria Star, 24 August 1904, abridged by a genealogy society; and Monmouth Review, 24 August 1904, quoting the Peoria Herald Transcript, surviving brother Samuel Steel Glasgow passage."
+    },
+    "Glasgow-11": {
+      "rid": "peoria-1902-william-steele-mccullough-transcript",
+      "url": "https://genealogytrails.com/ill/peoria/bio/biosMc.html",
+      "old": 78,
+      "new": 94,
+      "prior_status": "probable",
+      "year": 1902,
+      "title": "William Steele McCullough biography, History of Peoria County, volume II (1902), published transcription",
+      "reading": "The 1902 county-history account of William Steele McCullough identifies his mother as Martha Glasgow, born in Adams County, Ohio, in 1810, and his maternal grandfather as Robert Glasgow. Martha’s husband John, their son’s 26 September 1835 birth, the Adams County origin and later Logan Township family identify the maintained Martha Steele Glasgow-11 account. This combined family identification supports Robert Barclay Glasgow-8 as her father beyond the earlier inherited placement.",
+      "scope": "94% is a subjective assessment of the complete Martha-11 to Robert-8 father identification. The published transcription names her father and identifies her through husband, son, age and Ohio/Illinois locality sequence. The original printed page has not been inspected; page 749 is a search lead, not a verified page citation. The transcript gives Martha’s death year as 1872, whereas the retained profile says 5 June 1873; retain that field and the discrepancy pending original or vital-record checking. The source does not establish Rosanna’s maternity, Martha’s exact birthday or any older Glasgow ancestry.",
+      "citation": "Historical Encyclopedia of Illinois and History of Peoria County, edited by David McCulloch, volume II (Chicago and Peoria: Munsell Publishing Company, 1902), William Steele McCullough biography; Genealogy Trails transcription, opening paragraph."
+    }
+  },
+  "father_confidence_changes": [
+    {
+      "subject": "Glasgow-9",
+      "relative": "Glasgow-8",
+      "before": 58,
+      "after": 92,
+      "prior_status": "possible",
+      "status": "strongly_supported",
+      "assertion_id": "C-coverage-20261022b-glasgow-9-father",
+      "source_ids": [
+        "stewart-glasgow-obituary-1904-transcript",
+        "peoria-county-stewart-glasgow-sketch-1880",
+        "thompson-martha-melvina-glasgow-interview-1925",
+        "thompson-stuart-huston-interview-1925",
+        "thompson-caskey-glasgow-interview-1925",
+        "thompson-samuel-glasgow-interview-1926",
+        "thompson-ora-glasgow-interview-1925",
+        "held-e-a843a7f9d7b2"
+      ],
+      "basis": "The published obituary transcription identifies Samuel Steel Glasgow, then in his ninetieth year, as the surviving brother of Stewart Glasgow of Hanna City. The distinctive name and age fit Samuel Steele Glasgow-9, born in September 1814. Stewart’s established Peoria family and independently reviewed 94% paternal identification with Robert Barclay Glasgow-8 support extending the same father to this documented brother. This is a confident combined paternal inference, not a literal statement naming Samuel’s father in the obituary.",
+      "scope": "92% is a subjective assessment of the complete Samuel-9 to Robert-8 father identification. The obituary supplies the sibling relationship; the 1880 county sketch and 1925 family interview comparisons identify Stewart and support his father. The Peoria Star abstract and Monmouth Review account quoting the Peoria Herald Transcript may derive from one obituary and are not counted as independent parentage witnesses. Published transcription inspected; original newspaper image uninspected. Mother and all vital fields remain separately assessed."
+    },
+    {
+      "subject": "Glasgow-11",
+      "relative": "Glasgow-8",
+      "before": 78,
+      "after": 94,
+      "prior_status": "probable",
+      "status": "strongly_supported",
+      "assertion_id": "C-coverage-20261022d-glasgow-11-father",
+      "source_ids": [
+        "peoria-1902-william-steele-mccullough-transcript",
+        "held-e-5caba1d5478c"
+      ],
+      "basis": "The 1902 county-history account of William Steele McCullough identifies his mother as Martha Glasgow, born in Adams County, Ohio, in 1810, and his maternal grandfather as Robert Glasgow. Martha’s husband John, their son’s 26 September 1835 birth, the Adams County origin and later Logan Township family identify the maintained Martha Steele Glasgow-11 account. This combined family identification supports Robert Barclay Glasgow-8 as her father beyond the earlier inherited placement.",
+      "scope": "94% is a subjective assessment of the complete Martha-11 to Robert-8 father identification. The published transcription names her father and identifies her through husband, son, age and Ohio/Illinois locality sequence. The original printed page has not been inspected; page 749 is a search lead, not a verified page citation. The transcript gives Martha’s death year as 1872, whereas the retained profile says 5 June 1873; retain that field and the discrepancy pending original or vital-record checking. The source does not establish Rosanna’s maternity, Martha’s exact birthday or any older Glasgow ancestry."
+    }
+  ],
+  "new_confident_links": 2,
+  "new_father_attachments": 0,
+  "branches_joined": 0,
+  "verification": {
+    "all_historical_fathers_checked": 1798,
+    "dossier_father_comparisons": 1795,
+    "held_competing_father_cases_preserved": [
+      "Glasgow-2908",
+      "Glasgow-867",
+      "Glasgow-951"
+    ],
+    "father_selections_unchanged": true,
+    "three_tree_models_agree": true,
+    "two_new_confident_links": true,
+    "no_new_father_attachments": true,
+    "unknown_father_counts_unchanged": true,
+    "prior_history_preserved": true,
+    "two_percentage_changes_in_progress": true,
+    "full_compact_update_membership_agrees": true,
+    "pending_membership_unchanged": true,
+    "complete_draft_sources_preserved": true,
+    "source_category_and_quality_agree": true,
+    "all_reviewed_vitals_unchanged": true,
+    "stale_asset_references": 0,
+    "rendered_content_verified": true,
+    "browser_verified": false,
+    "browser_limitation": "Existing error tab could not be acquired because browser URL policy rejected its protocol. No alternate browser/workaround attempted. Local server and affected HTTP routes returned200.",
+    "inherited_draft_whitespace_baseline": 21,
+    "draft_whitespace_basis": "Every flagged line is unchanged from the prior complete approved draft. Preserved as source formatting; no newly introduced trailing whitespace."
+  }
+}

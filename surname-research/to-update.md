@@ -4029,3 +4029,21 @@ Twenty additional transcripts are recorded under existing people or qualified ca
 | [Samuel Glasgow](https://www.wikitree.com/wiki/Glasgow-339) | OPEN | Add the 1805 will; existing father confidence 51% → 97%. No new father attachment; exact birth and later identity separately assessed. |
 | [Sophia Glasgow](https://www.wikitree.com/wiki/Glasgow-341) | OPEN | Add the 1805 will; existing father confidence 56% → 98%. No new father attachment; exact birth and later identity separately assessed. |
 | [Issac Glasgow](https://www.wikitree.com/wiki/Glasgow-2363) | OPEN | Add the 1805 will; existing father confidence 43% → 43%. Possible father stays 43%; this is an alternative mapping of the single Isaac role, not a second son. No merge. |
+
+## 23 October 2026 — Peoria sibling and maternal-grandfather evidence
+
+| [Samuel Steele Glasgow](https://www.wikitree.com/wiki/Glasgow-9) | OPEN | Add new published transcription; existing father confidence 58% → 92%, confident. No new father attachment; original uninspected. |
+| [Martha Steele Glasgow](https://www.wikitree.com/wiki/Glasgow-11) | OPEN | Add new published transcription; existing father confidence 78% → 94%, confident. No new father attachment; original uninspected. |
+| [Robert Barclay Glasgow](https://www.wikitree.com/wiki/Glasgow-8) | OPEN | Add the Peoria family evidence linking Samuel and Martha with Robert; retain existing paternal/maternal assessments and vital dates separately. |
+| [Stewart Steele Glasgow](https://www.wikitree.com/wiki/Glasgow-17) | OPEN | Add the Peoria family evidence linking Samuel and Martha with Robert; retain existing paternal/maternal assessments and vital dates separately. |
+
+## Findmypast pages 4–6 — 23 October 2026
+
+Sixty provider transcripts are indexed under existing subjects, qualified candidates or unassigned natal/identity HOLDs. No new person is proposed. Existing Allan Glasgow-4110 replaces the stale duplicate creation suggestion. Search coverage remains INCOMPLETE at 120 rows on pages 1–6 plus one supporting transcript; page 7 onward remains.
+
+| [Andrew Glasgow](https://www.wikitree.com/wiki/Glasgow-2468) | OPEN | Andrew Glasgow: indexed birth 1746-10-24; indexed baptism 26 October 1746. Birth date corrected from 1746-10-26. Keep baptism distinct; complete sourced proposal retained. |
+| [Andrew Glasgow](https://www.wikitree.com/wiki/Glasgow-1481) | OPEN | Andrew Glasgow: indexed birth 1775-12-30; indexed baptism 5 January 1776. Birth date corrected from before 1776-01-05. Keep baptism distinct; complete sourced proposal retained. |
+| [Andrew Glasgow](https://www.wikitree.com/wiki/Glasgow-3400) | OPEN | Andrew Glasgow: indexed birth 1790-03-27; indexed baptism 11 April 1790. Birth date corrected from 1790-04-11. Keep baptism distinct; complete sourced proposal retained. |
+| [Catharine Glasgow](https://www.wikitree.com/wiki/Glasgow-1451) | OPEN | Catharine Glasgow: indexed birth 1780-08-20; indexed baptism 31 August 1780. Birth date corrected from c. 1780-08-31. Keep baptism distinct; complete sourced proposal retained. |
+
+[Current record assignments and remaining questions](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). Local synchronization only; no live WikiTree save or deployment.

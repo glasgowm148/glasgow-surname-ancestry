@@ -63,3 +63,12 @@ The 24 October 1925 household interview records Rosanna Finley, wife of Robert G
 ## Separate maternal assessment — Peoria review, 23 October 2026
 
 [Finley-134](https://www.wikitree.com/wiki/Finley-134): **94% confident**, 90% → 94%; named maternity with the newly strengthened Stuart adult identity. Parent ratings share the profile-identity argument and are not independent probabilities.
+
+
+## Peoria family evidence — 23 October 2026
+
+[Samuel Glasgow-9](/people/glasgow-9.html) is the named surviving brother; his father assessment becomes 92%. Stewart’s own existing 94% father assessment is unchanged.
+
+The published obituary transcription identifies Samuel Steel Glasgow, then in his ninetieth year, as the surviving brother of Stewart Glasgow of Hanna City. The distinctive name and age fit Samuel Steele Glasgow-9, born in September 1814. Stewart’s established Peoria family and independently reviewed 94% paternal identification with Robert Barclay Glasgow-8 support extending the same father to this documented brother. This is a confident combined paternal inference, not a literal statement naming Samuel’s father in the obituary. 92% is a subjective assessment of the complete Samuel-9 to Robert-8 father identification. The obituary supplies the sibling relationship; the 1880 county sketch and 1925 family interview comparisons identify Stewart and support his father. The Peoria Star abstract and Monmouth Review account quoting the Peoria Herald Transcript may derive from one obituary and are not counted as independent parentage witnesses. Published transcription inspected; original newspaper image uninspected. Mother and all vital fields remain separately assessed.
+
+[Stewart Glasgow obituary, 24 August 1904, published transcription on WeRelate](https://www.werelate.org/wiki/Person:Stewart_Glasgow_(1)).

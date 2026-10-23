@@ -10719,19 +10719,19 @@
       "profile_id": "Glasgow-8",
       "status": "OPEN",
       "pending": true,
-      "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-8/father-confidence-2026-10-22b.wiki",
+      "queued_at": "2026-10-23",
+      "biography_rechecked_at": "2026-10-23",
+      "draft_path": "research/Glasgow-8/peoria-family-review-2026-10-23.wiki",
       "findings_path": "research/Glasgow-8/findings.md",
-      "summary": "Review existing father at 95% (proved), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 95% (proved), retaining source and identity limits; no new father attachment.",
+      "summary": "Add the Peoria family evidence linking Samuel and Martha with Robert; retain existing paternal/maternal assessments and vital dates separately.",
+      "work_queue_summary": "Add the Peoria family evidence linking Samuel and Martha with Robert; retain existing paternal/maternal assessments and vital dates separately.",
       "relationship_changes": [],
       "preserve_captured_detail": false,
       "reviewed_narrative_reduction": true,
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation2-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/peoria-family-preservation-2026-10-23.json"
     },
     "Glasgow-1982": {
       "profile_id": "Glasgow-1982",
@@ -11723,24 +11723,24 @@
       "profile_id": "Glasgow-9",
       "status": "OPEN",
       "pending": true,
-      "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-9/father-confidence-2026-10-22b.wiki",
+      "queued_at": "2026-10-23",
+      "biography_rechecked_at": "2026-10-23",
+      "draft_path": "research/Glasgow-9/peoria-family-review-2026-10-23.wiki",
       "findings_path": "research/Glasgow-9/findings.md",
-      "summary": "Review existing father at 58% (possible), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 58% (possible), retaining source and identity limits; no new father attachment.",
+      "summary": "Add new published transcription; existing father confidence 58% → 92%, confident. No new father attachment; original uninspected.",
+      "work_queue_summary": "Add new published transcription; existing father confidence 58% → 92%, confident. No new father attachment; original uninspected.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-8",
-          "status": "possible",
+          "status": "strongly_supported",
           "previous_status": "unmarked",
-          "previous_probability_percent": null,
-          "probability_percent": 58,
+          "previous_probability_percent": 58,
+          "probability_percent": 92,
           "assertion_id": "C-coverage-20261022b-glasgow-9-father",
-          "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Possible58%; the specific existing household is preferred, with no independently inspected father clause or fabricated maternal naming argument."
+          "previous_status_provenance": "Retained saved WikiTree mark plus individually reviewed 58% assessment of22October2026; original source basis retained in assessment_history.",
+          "scope": "92% is a subjective assessment of the complete Samuel-9 to Robert-8 father identification. The obituary supplies the sibling relationship; the 1880 county sketch and 1925 family interview comparisons identify Stewart and support his father. The Peoria Star abstract and Monmouth Review account quoting the Peoria Herald Transcript may derive from one obituary and are not counted as independent parentage witnesses. Published transcription inspected; original newspaper image uninspected. Mother and all vital fields remain separately assessed."
         }
       ],
       "preserve_captured_detail": false,
@@ -11748,7 +11748,7 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation2-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/peoria-family-preservation-2026-10-23.json"
     },
     "Glasko-4": {
       "profile_id": "Glasko-4",
@@ -13922,12 +13922,12 @@
       "profile_id": "Glasgow-17",
       "status": "OPEN",
       "pending": true,
-      "queued_at": "2026-10-22",
+      "queued_at": "2026-10-23",
       "biography_rechecked_at": "2026-10-23",
-      "draft_path": "research/Glasgow-17/father-confidence-2026-10-22d.wiki",
+      "draft_path": "research/Glasgow-17/peoria-family-review-2026-10-23.wiki",
       "findings_path": "research/Glasgow-17/findings.md",
-      "summary": "Mark existing father Glasgow-8 confident (94%) from Peoria family evidence; local 90% → 94%. Add cited account and date/age conflicts; no new father or live edit.",
-      "work_queue_summary": "Mark existing father Glasgow-8 confident (94%) from Peoria family evidence; local 90% → 94%. Add cited account and date/age conflicts; no new father or live edit.",
+      "summary": "Add the Peoria family evidence linking Samuel and Martha with Robert; retain existing paternal/maternal assessments and vital dates separately.",
+      "work_queue_summary": "Add the Peoria family evidence linking Samuel and Martha with Robert; retain existing paternal/maternal assessments and vital dates separately.",
       "relationship_changes": [
         {
           "action": "regrade",
@@ -13963,7 +13963,7 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation4-2026-10-22.json",
+      "preservation_review_path": "research/ancestry-connections/peoria-family-preservation-2026-10-23.json",
       "significance": 90
     },
     "Glasgow-2070": {
@@ -15026,24 +15026,24 @@
       "profile_id": "Glasgow-11",
       "status": "OPEN",
       "pending": true,
-      "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-11/father-confidence-2026-10-22d.wiki",
+      "queued_at": "2026-10-23",
+      "biography_rechecked_at": "2026-10-23",
+      "draft_path": "research/Glasgow-11/peoria-family-review-2026-10-23.wiki",
       "findings_path": "research/Glasgow-11/findings.md",
-      "summary": "Review existing father at 78% (probable), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 78% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Add new published transcription; existing father confidence 78% → 94%, confident. No new father attachment; original uninspected.",
+      "work_queue_summary": "Add new published transcription; existing father confidence 78% → 94%, confident. No new father attachment; original uninspected.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-8",
-          "status": "probable",
+          "status": "strongly_supported",
           "previous_status": "unmarked",
-          "previous_probability_percent": null,
-          "probability_percent": 78,
+          "previous_probability_percent": 78,
+          "probability_percent": 94,
           "assertion_id": "C-coverage-20261022d-glasgow-11-father",
-          "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Probable inherited family placement; the capture does not quote a contemporary parent clause."
+          "previous_status_provenance": "Retained saved WikiTree mark plus individually reviewed 78% assessment of22October2026; original source basis retained in assessment_history.",
+          "scope": "94% is a subjective assessment of the complete Martha-11 to Robert-8 father identification. The published transcription names her father and identifies her through husband, son, age and Ohio/Illinois locality sequence. The original printed page has not been inspected; page 749 is a search lead, not a verified page citation. The transcript gives Martha’s death year as 1872, whereas the retained profile says 5 June 1873; retain that field and the discrepancy pending original or vital-record checking. The source does not establish Rosanna’s maternity, Martha’s exact birthday or any older Glasgow ancestry."
         }
       ],
       "preserve_captured_detail": false,
@@ -15051,7 +15051,7 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation4-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/peoria-family-preservation-2026-10-23.json"
     },
     "Glasgow-1100": {
       "profile_id": "Glasgow-1100",
