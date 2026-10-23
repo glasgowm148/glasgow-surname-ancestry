@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+**Child identity review,23 October 2026:** The memoir’s Dr. Joseph Anderson is confidently identified with [Joseph Anderson Glasgow-2039](/people/glasgow-2039.html), strengthening his existing father pair **82% → 94%**. This uses the distinctive child name, named parental household and compatible later profile. It does not alter William’s own 95% Joseph-father assessment or any other child’s grade. [Read the scoped evidence argument](/people/glasgow-2039.html#research-findings).
+
 **Named family testimony, 23 October 2026:** Samuel’s 1926 interview identifies his father William Barkley, the older half-brother of Finley Glasgow’s Campbell wife, and names William’s mother Nancy and her first husband Joseph. It also specifies two later Campbell daughters, consistent with treating the Breckenridge woman as a maternal half-sister rather than another Joseph child. This strengthens the source account while the existing 95% father assessment stays unchanged. The same Samuel may have supplied the 1919 memoir; these are not independent witnesses. [Joseph’s unresolved 1820/1856 death conflict](/people/glasgow-653.html#research-findings) remains explicit; no death field or Campbell identity is altered.
 
 Joseph Glasgow-653 is assessed as this person’s father at **95% confident**, increased from 71%. This strengthens an already attached father.
@@ -41,3 +43,9 @@ Besides [Samuel Steele Glasgow-2043](https://www.wikitree.com/wiki/Glasgow-2043)
 - [Josiah V. Thompson, Family Record, vol. 18, pp. 259–260; Samuel Steele Glasgow interview, 1 October 1926; library transcription, PDF pp. 1619–1620](https://uniontownlib.org/wp-content/uploads/2020/08/JV_Thompson_Journals_Vo13_thru19.pdf#page=1619).
 
 Library-hosted modern transcription of dated research interviews, visually inspected as rendered PDF pages on 23 October 2026; not manuscript facsimiles or birth-register originals. The witnesses give retrospective family information and may share family tradition. Thompson’s inferred upper pedigree and Ora’s doubtful Anderson sibling placement are not adopted.
+
+## Joseph Anderson child review — 23 October 2026
+
+**Child identity review,23 October 2026:** The memoir’s Dr. Joseph Anderson is confidently identified with [Joseph Anderson Glasgow-2039](/people/glasgow-2039.html), strengthening his existing father pair **82% → 94%**. This uses the distinctive child name, named parental household and compatible later profile. It does not alter William’s own 95% Joseph-father assessment or any other child’s grade. [Read the scoped evidence argument](/people/glasgow-2039.html#research-findings).
+
+[Memoirs of the Miami Valley, printed pp. 257–258](https://cdm16998.contentdm.oclc.org/digital/collection/p16998coll15/id/18709/).

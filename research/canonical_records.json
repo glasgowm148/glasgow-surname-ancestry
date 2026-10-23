@@ -30295,7 +30295,7 @@
     "source_status": "Original printed pp.257–258 visually inspected 22 October 2026; not a civil or parish original.",
     "source_quality": "published_biographical_account",
     "status": "Named family roles documented in the publication; selected earlier father identities explicitly inferred.",
-    "reviewed": "2026-10-22",
+    "reviewed": "2026-10-23",
     "profiles": {
       "Glasgow-875": {
         "role": "Matched member of the reported family; confidence and identity qualifications in current account"
@@ -30329,9 +30329,12 @@
       },
       "record-miami-william-arthur-glasgow": {
         "role": "Named son; record-defined local account, later identity on HOLD"
+      },
+      "Glasgow-2039": {
+        "role": "Dr. Joseph Anderson, named son of William B. and Maria H. McIntire; exact-profile identity confidently inferred at 94%, with independent adult records still to be checked"
       }
     },
-    "assessment": "The memoir does not name the grandfather Joseph. His identification combines the recent family group with the held 1880 account and compiled family placements; it is not a literal father clause for every sibling. Its Scottish immigrant-grandfather tradition conflicts with Joseph’s Virginia birth and may telescope generations. Eliza/Breckenridge matches Campbell-36723, Nancy’s later Campbell daughter born in 1831, so the list appears to mix maternal half-siblings. That prevents assigning every listed child to Joseph. All six reviewed Glasgow siblings were born before his reported 1820 death. The two historical publications predate Faris 1990 but may share earlier family information; their independence is unproved. Original memoir pages were inspected; the 1880 page is used from the complete held biography, and a fresh download returned HTTP 403. Mothers, vital fields and Joseph’s separate 93% Robert-father assessment are unchanged.",
+    "assessment": "The memoir does not name the grandfather Joseph. His identification combines the recent family group with the held 1880 account and compiled family placements; it is not a literal father clause for every sibling. Its Scottish immigrant-grandfather tradition conflicts with Joseph’s Virginia birth and may telescope generations. Eliza/Breckenridge matches Campbell-36723, Nancy’s later Campbell daughter born in 1831, so the list appears to mix maternal half-siblings. That prevents assigning every listed child to Joseph. All six reviewed Glasgow siblings were born before his reported 1820 death. The two historical publications predate Faris 1990 but may share earlier family information; their independence is unproved. Original memoir pages were inspected; the 1880 page is used from the complete held biography, and a fresh download returned HTTP 403. Mothers, vital fields and Joseph’s separate 93% Robert-father assessment are unchanged. Review 23 October 2026: the named Dr. Joseph Anderson child is matched to Glasgow-2039 at 94% from the distinctive complete name, named parental household, generation and existing Ohio family context. This does not raise any other child’s assessment.",
     "note": "Maria H. McIntire/death1859 versus Marion McIntyre/death1855 and Mary Jane versus Nancy Jane Kane remain unresolved. Eliza is linked to Campbell-36723, not created as a Glasgow duplicate.",
     "provenance": "research/ancestry-connections/miami-family-review-2026-10-22.json",
     "original_pages": [
@@ -30522,5 +30525,105 @@
       "latest_birth_year": 1848,
       "source": "The 1880 sketch gives Stewart’s 1823 birth and describes Huston as already deceased aged 24; existing historical profile comparison."
     }
+  },
+  {
+    "record_id": "us-army-james-glasgow-enlistment-1818",
+    "record_type": "Army enlistment register",
+    "date": "1818-12-29",
+    "place": "Philadelphia, Pennsylvania, United States",
+    "association": "Probable match to the later Missouri drummer; Downington is the recorded birthplace, Philadelphia the enlistment place.",
+    "source_title": "Registers of Enlistments in the U.S. Army, NARA M233, roll 15, volume 029, p. 37, entry 404, James Glasgow/Glassgow; Findmypast image 005257035/00272",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=USM%2FENLIST%2F11887224271",
+    "source_image_url": "https://search.findmypast.co.uk/record?id=USM%2FENLIST%2F005257035%2F00272&parentid=USM%2FENLIST%2F11887224271",
+    "source_type": "Original register image inspected through Findmypast",
+    "source_quality": "original_register",
+    "source_status": "Original entry and column headings visually inspected 23 October 2026; licensed scan retained privately, not republished.",
+    "status": "Recorded name, age 21, drummer occupation, Downington, Pa birthplace and29 December 1818 Philadelphia enlistment read from original. Later Missouri identity probable, not proved.",
+    "reviewed": "2026-10-23",
+    "profiles": {
+      "Glasgow-45": {
+        "role": "Probable later identity of the enlistee; not a named-parent finding"
+      }
+    },
+    "assessment": "The register gives age 21, stature 5 ft 5 in, drummer, born Downington,Pa, and service in 5th Infantry, Co. G; remarks extend through30 June 1821. The later Missouri man’s c1796 Pennsylvania birth and drummer tradition support identity. No wife, Missouri home or parent appears; the descendant narrative’s5 ft 4 in differs. No structured birth or parent field changed.",
+    "provenance": "research/ancestry-connections/american-family-review-2026-10-23.json",
+    "reviewed_on": "2026-10-23",
+    "year": 1818,
+    "country": "united states"
+  },
+  {
+    "record_id": "pittsylvania-james-glasgow-death-transcription-1860",
+    "record_type": "Death-register transcription",
+    "date": "1860",
+    "place": "Pittsylvania County, Virginia, United States",
+    "association": "James Glasgow, cooper, wife Susan informant; parents and exact date blank in the inspected transcription.",
+    "source_title": "USGenWeb, Pittsylvania County deaths1860, James Glasgow row; transcription of county death returns",
+    "source_url": "https://www.usgenwebsites.org/vagenweb/pittsylvania/deaths/1860Deaths.htm",
+    "source_type": "Modern register transcription, original manuscript not inspected",
+    "source_quality": "derivative_transcription",
+    "source_status": "HTML row inspected 23 October 2026; kept separate from the already cited death index.",
+    "status": "Cooper, age 71 years 10 months 12 days, cause killed, Pittsylvania birth, Susan Glasgow wife/informant; no parent named.",
+    "reviewed": "2026-10-23",
+    "profiles": {
+      "Glasgow-62": {
+        "role": "Named deceased cooper"
+      }
+    },
+    "assessment": "The transcription adds occupation/informant/cause context but supplies neither parents nor an exact death date.28 September 1860 comes from the previously held index. Combining that date with the age gives16 November 1788; this calculated birthday is not independent birth evidence.",
+    "provenance": "research/ancestry-connections/american-family-review-2026-10-23.json",
+    "reviewed_on": "2026-10-23",
+    "year": 1860,
+    "country": "united states"
+  },
+  {
+    "record_id": "pittsylvania-james-glasgow-high-bond-1818",
+    "record_type": "Marriage-bond compilation",
+    "date": "1818-10-21",
+    "place": "Pittsylvania County, Virginia, United States",
+    "association": "James Glasgow and Susanna High; Freeman High bondsman.",
+    "source_title": "Pittsylvania County Marriage Bonds, typed compilation, printed p. 101, PDF p. 104, James Glasgow/Susanna High",
+    "source_url": "https://www.usgenwebsites.org/vagenweb/pittsylvania/marriages/1767marriage.pdf#page=104",
+    "source_type": "Scanned typed compilation derived from county bonds/registers, not original bond",
+    "source_quality": "derivative_compilation",
+    "source_status": "Printed p. 101/PDF p. 104 visually inspected 23 October 2026.",
+    "status": "21 October 1818 bond and Freeman High security; no James parent stated.",
+    "reviewed": "2026-10-23",
+    "profiles": {
+      "Glasgow-62": {
+        "role": "Named groom"
+      }
+    },
+    "assessment": "A different page, printed p. 83/PDF p. 86, records Robert Glasgow as bondsman for Robert Eudaley/Elizabeth Glasgow22 December 1815, without a parent annotation. This is an associated local lead, not proof of James’s father, Elizabeth’s father or siblinghood.",
+    "provenance": "research/ancestry-connections/american-family-review-2026-10-23.json",
+    "reviewed_on": "2026-10-23",
+    "year": 1818,
+    "country": "united states"
+  },
+  {
+    "record_id": "chester-samuel-glasgow-estate-7520-1824",
+    "record_type": "Original will and probate accounts",
+    "date": "1824-05-17",
+    "place": "West Fallowfield, Chester County, Pennsylvania, United States",
+    "association": "Recorded testator’s wife, infant daughter and three brothers in Ireland; candidate-profile identity remains unproved.",
+    "source_title": "Chester County Register of Wills, file 7520, Samuel Glasgow of West Fallowfield, will 17 May 1824, proved 31 May 1824; scanned volume 07451–7600, portal pp. 586–596",
+    "source_url": "https://portal.laserfiche.com/Portal/DocView.aspx?id=773006&page=588&repo=r-24f48cc6",
+    "source_type": "Original manuscript scans in official Chester County public portal",
+    "source_quality": "original_manuscript",
+    "source_status": "Original will portal pp. 588–589 and accounts pp. 592–596 visually inspected 23 October 2026; downloaded extract pp. 3–4 and 7–11.",
+    "status": "Named kin documented in original; no testator father or Missouri son established.",
+    "reviewed": "2026-10-23",
+    "profiles": {
+      "Glasgow-2872": {
+        "role": "Compatible candidate for testator; identity unproved"
+      },
+      "Glasgow-45": {
+        "role": "Unselected parent-search comparison; not named in the inspected estate"
+      }
+    },
+    "assessment": "**Original will, 23 October 2026:** Samuel Glasgow of West Fallowfield names wife **Tabitha**, infant daughter **Margaret Ellen**, and a contingent remainder to the **sons of his three brothers William, James and Robert Glasgow, of Ireland**. The three named men are the testator’s brothers; the beneficiaries are their sons. This is not a clause naming the testator’s own son James. The will is dated **17 May 1824**; the proving endorsement is **31 May 1824**. [County original](https://portal.laserfiche.com/Portal/DocView.aspx?id=773006&page=588&repo=r-24f48cc6), file 7520, scanned volume 07451–7600, portal pp. 588–589 (downloaded extract pp. 3–4). Cover is portal p. 586. Original pages were visually read; the brother clause was independently reread.\n\nThe will appoints Robert Futhey and Thomas Stewart executors; estate office does not establish kinship. It also names Samuel Glasgow Haslett, described as James Haslett’s infant twin son; no godparent relationship is stated. His Glasgow middle name does not make him a Glasgow son. Later accounts, portal pp. 594 and 596, name Benjamin Glasgow as a debtor and William Glasgow in transmitting another estate’s legacy, without stating their relationship to the testator.\n\n**Profile identity:** [Samuel Glasgow-2872](/people/glasgow-2872.html) remains a compatible candidate, not an established identification. His retained Cochranville locality and exact 17 May 1824 date fit this estate closely, but that date is the will date and may have been inherited as a death date. The will alone cannot prove death on that day. The profile’s Judith, who died in 1812, does not exclude a later Tabitha marriage. Its Pennsylvania birth/parent reconstruction and the brothers in Ireland need a combined family test rather than an automatic rejection or merge. No other local Tabitha or Margaret Ellen catalogue identity was found in the bounded duplicate check. The existing 72% father assessment and all family/vital fields are retained; this source does not name the testator’s father.\n\n**Missouri comparison:** [James Glasgow-45](/people/glasgow-45.html), the probable Downington-born drummer, is not named in the inspected will or later accounts. That absence does not establish that he was not a son, but neither the military entry nor this estate selects a named father. The new Ireland relatives supply a concrete family to investigate while the immigrant-father/Philadelphia-estate tradition remains unproved. The complete downloaded estate extract is retained privately; no manuscript image is republished.",
+    "provenance": "research/ancestry-connections/american-family-review-2026-10-23.json",
+    "reviewed_on": "2026-10-23",
+    "year": 1824,
+    "country": "united states"
   }
 ]

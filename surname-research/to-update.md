@@ -3960,3 +3960,12 @@ Twenty additional transcripts are recorded under existing people or qualified ca
 
 | [Glasgow-17](https://www.wikitree.com/wiki/Glasgow-17) | OPEN | Existing father Glasgow-8: 90% → 94% confident; mother separately assessed. Add original Peoria sketch and named interview comparison with conflicting dates/ages; live unmarked controls unchanged. |
 | [Glasgow-1923](https://www.wikitree.com/wiki/Glasgow-1923) | OPEN | Existing father Glasgow-17: 88% → 96% confident; mother separately assessed. Add original Peoria sketch and named interview comparison with conflicting dates/ages; live unmarked controls unchanged. |
+
+
+## 23 October 2026 — American family records
+
+| [Joseph Anderson Glasgow](https://www.wikitree.com/wiki/Glasgow-2039) | OPEN | Existing father Glasgow-875: 82% → 94% confident from named memoir household; full source draft and limits retained; live flag unmarked. |
+| [James Glasgow](https://www.wikitree.com/wiki/Glasgow-45) | OPEN | Add original 1818 Downington-born drummer reading, probable Missouri identity and specific family tests; no parent or vital replacement. |
+| [James Glasgow](https://www.wikitree.com/wiki/Glasgow-62) | OPEN | Add qualified 1860 death-transcription details and 1818 bond context; no father selected from contributed Robert/Sarah claim. |
+
+| [Samuel Glasgow](https://www.wikitree.com/wiki/Glasgow-2872) | OPEN | Add compatible 1824 estate’s original kin clauses and will-date caution; retain existing 72% father assessment and all family/vital fields. |

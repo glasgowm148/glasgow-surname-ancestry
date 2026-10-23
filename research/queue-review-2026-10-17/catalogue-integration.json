@@ -21769,11 +21769,11 @@
       "status": "OPEN",
       "pending": true,
       "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
+      "biography_rechecked_at": "2026-10-23",
       "draft_path": "research/Glasgow-2872/father-confidence-2026-10-22g.wiki",
       "findings_path": "research/Glasgow-2872/findings.md",
-      "summary": "Review existing father at 72% (probable), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 72% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Add original 1824 candidate will with Tabitha, infant Margaret Ellen and Ireland-brother clauses; retain estate identity as unproved and father 72% unchanged. No parent/vital replacement.",
+      "work_queue_summary": "Add original 1824 candidate will with Tabitha, infant Margaret Ellen and Ireland-brother clauses; retain estate identity as unproved and father 72% unchanged. No parent/vital replacement.",
       "relationship_changes": [
         {
           "action": "regrade",
@@ -21793,7 +21793,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation7-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation7-2026-10-22.json",
+      "significance": 87
     },
     "Glasgow-768": {
       "profile_id": "Glasgow-768",
@@ -35610,23 +35611,25 @@
       "status": "OPEN",
       "pending": true,
       "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
+      "biography_rechecked_at": "2026-10-23",
       "draft_path": "research/Glasgow-2039/father-confidence-2026-10-22i.wiki",
       "findings_path": "research/Glasgow-2039/findings.md",
-      "summary": "Review existing father at 82% (probable), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 82% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Mark existing father William Barclay Glasgow-875 confident 94% from the named memoir household; local82% → 94%. Add cited family evidence and retain source limits; no new father or live save.",
+      "work_queue_summary": "Mark existing father William Barclay Glasgow-875 confident 94% from the named memoir household; local82% → 94%. Add cited family evidence and retain source limits; no new father or live save.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-875",
-          "status": "probable",
+          "status": "strongly_supported",
           "previous_status": "unmarked",
           "previous_probability_percent": null,
-          "probability_percent": 82,
+          "probability_percent": 94,
           "assertion_id": "C-coverage-20261022i-glasgow-2039-father",
-          "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Held citation and associated historical narrative address this selected father-child identity; no original was newly inspected."
+          "previous_status_provenance": "Anonymous WikiTree API23 October 2026: father22908512 is Glasgow-875 and DataStatus.Father is blank. Prior local82% retained in assertion history; no live edit.",
+          "scope": "94% is a subjective confident inference about the complete existing father–child profile pair. The historical publication explicitly states the child’s role but gives no Joseph birth/death dates. The cited memorial was not newly inspected and the doctor title is not independently verified here. Profile/memorial and memoir may share family information; they are not assumed statistically independent. The memoir’s Maria/McIntire form and 1859 maternal death differ from Marion/McIntyre and retained 1855; maternity is not regraded. No original death certificate, parent attachment, vital field or live WikiTree control is changed.",
+          "previous_local_status": "probable",
+          "previous_local_probability_percent": 82
         }
       ],
       "preserve_captured_detail": false,
@@ -35634,7 +35637,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation9-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation9-2026-10-22.json",
+      "significance": 89
     },
     "Glasgow-1360": {
       "profile_id": "Glasgow-1360",
@@ -40207,6 +40211,44 @@
       "biography_rechecked_at": "2026-10-22",
       "reviewed_narrative_reduction": true,
       "preservation_review_path": "research/ancestry-connections/miami-family-review-2026-10-22.json"
+    },
+    "Glasgow-45": {
+      "profile_id": "Glasgow-45",
+      "status": "OPEN",
+      "pending": true,
+      "queued_at": "2026-10-23",
+      "biography_rechecked_at": "2026-10-23",
+      "draft_path": "research/Glasgow-45/american-record-review-2026-10-23.wiki",
+      "findings_path": "research/Glasgow-45/findings.md",
+      "summary": "Add inspected 1818 drummer record and qualified Downington birthplace/identity comparison; keep parent and vital fields unchanged.",
+      "work_queue_summary": "Add inspected 1818 drummer record and qualified Downington birthplace/identity comparison; keep parent and vital fields unchanged.",
+      "significance": 84,
+      "relationship_changes": [],
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "replacements": [],
+      "post_merge_replacements": [],
+      "addition_wikitext": "",
+      "preservation_review_path": "research/ancestry-connections/american-record-preservation-2026-10-23.json"
+    },
+    "Glasgow-62": {
+      "profile_id": "Glasgow-62",
+      "status": "OPEN",
+      "pending": true,
+      "queued_at": "2026-10-23",
+      "biography_rechecked_at": "2026-10-23",
+      "draft_path": "research/Glasgow-62/american-record-review-2026-10-23.wiki",
+      "findings_path": "research/Glasgow-62/findings.md",
+      "summary": "Add qualified 1860 death transcription and 1818 bond context; keep contributed parent claim unproved and all family/vital fields unchanged.",
+      "work_queue_summary": "Add qualified 1860 death transcription and 1818 bond context; keep contributed parent claim unproved and all family/vital fields unchanged.",
+      "significance": 78,
+      "relationship_changes": [],
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "replacements": [],
+      "post_merge_replacements": [],
+      "addition_wikitext": "",
+      "preservation_review_path": "research/ancestry-connections/american-record-preservation-2026-10-23.json"
     }
   },
   "reviewed_on": "2026-10-22",

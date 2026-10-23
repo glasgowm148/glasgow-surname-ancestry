@@ -94351,17 +94351,18 @@
       "Glasgow-2039",
       "Glasgow-875"
     ],
-    "status": "probable",
+    "status": "strongly_supported",
     "publication_status": "approved",
     "working_selection": false,
     "allow_new_relationship": false,
-    "assessment_date": "2026-10-22",
-    "basis": "Joseph Anderson’s biography explicitly names William Glasgow and Marion McIntyre and gives a specific 1842 birth fitting their 1840 marriage. His Tranquility memorial and sister Mary Elizabeth’s Faris-supported placement strengthen the family inference without supplying a held original parent field.",
-    "reason": "Joseph Anderson’s biography explicitly names William Glasgow and Marion McIntyre and gives a specific 1842 birth fitting their 1840 marriage. His Tranquility memorial and sister Mary Elizabeth’s Faris-supported placement strengthen the family inference without supplying a held original parent field.",
-    "claim": "Glasgow-875 remains the selected father of Glasgow-2039, individually assessed 82%.",
-    "record_scope": "Held citation and associated historical narrative address this selected father-child identity; no original was newly inspected.",
-    "limitations": "Held citation and associated historical narrative address this selected father-child identity; no original was newly inspected.",
+    "assessment_date": "2026-10-23",
+    "basis": "The inspected 1919–1920 Miami Valley memoir names Dr. Joseph Anderson among the six children of William B. Glasgow and Maria H. McIntire. Its specific household, including Samuel Steele’s exact 4 June 1851 birth and Mary Elizabeth/Williams, identifies William Barclay-875’s family. Joseph Anderson-2039 has the same distinctive full name, the same named parental couple in his captured biography, an 1842 birth fitting their 1840 marriage, and the associated Tranquility/Ohio identity. This combined family match strengthens the specific existing father–child pair beyond its previous memorial/profile-only basis; no concrete competing Joseph Anderson is held.",
+    "reason": "The inspected 1919–1920 Miami Valley memoir names Dr. Joseph Anderson among the six children of William B. Glasgow and Maria H. McIntire. Its specific household, including Samuel Steele’s exact 4 June 1851 birth and Mary Elizabeth/Williams, identifies William Barclay-875’s family. Joseph Anderson-2039 has the same distinctive full name, the same named parental couple in his captured biography, an 1842 birth fitting their 1840 marriage, and the associated Tranquility/Ohio identity. This combined family match strengthens the specific existing father–child pair beyond its previous memorial/profile-only basis; no concrete competing Joseph Anderson is held.",
+    "claim": "William Barclay Glasgow-875 is the existing father of Joseph Anderson Glasgow-2039, assessed 94% confident.",
+    "record_scope": "94% is a subjective confident inference about the complete existing father–child profile pair. The historical publication explicitly states the child’s role but gives no Joseph birth/death dates. The cited memorial was not newly inspected and the doctor title is not independently verified here. Profile/memorial and memoir may share family information; they are not assumed statistically independent. The memoir’s Maria/McIntire form and 1859 maternal death differ from Marion/McIntyre and retained 1855; maternity is not regraded. No original death certificate, parent attachment, vital field or live WikiTree control is changed.",
+    "limitations": "94% is a subjective confident inference about the complete existing father–child profile pair. The historical publication explicitly states the child’s role but gives no Joseph birth/death dates. The cited memorial was not newly inspected and the doctor title is not independently verified here. Profile/memorial and memoir may share family information; they are not assumed statistically independent. The memoir’s Maria/McIntire form and 1859 maternal death differ from Marion/McIntyre and retained 1855; maternity is not regraded. No original death certificate, parent attachment, vital field or live WikiTree control is changed.",
     "source_ids": [
+      "miami-valley-ss-glasgow-family-1919",
       "held-e-43b66612fc7c"
     ],
     "assessment_history": [
@@ -94375,16 +94376,26 @@
         "claim_id": "C-549420d09381",
         "source_ids": [],
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+      },
+      {
+        "status": "probable",
+        "probability_percent": 82,
+        "assessment_date": "2026-10-22",
+        "source_basis": "Joseph Anderson’s biography explicitly names William Glasgow and Marion McIntyre and gives a specific 1842 birth fitting their 1840 marriage. His Tranquility memorial and sister Mary Elizabeth’s Faris-supported placement strengthen the family inference without supplying a held original parent field.",
+        "source_ids": [
+          "held-e-43b66612fc7c"
+        ],
+        "record_scope": "Held citation and associated historical narrative address this selected father-child identity; no original was newly inspected."
       }
     ],
     "perspectives": {
       "Glasgow-2039": {
         "relationship": "father",
-        "reason": "Joseph Anderson’s biography explicitly names William Glasgow and Marion McIntyre and gives a specific 1842 birth fitting their 1840 marriage. His Tranquility memorial and sister Mary Elizabeth’s Faris-supported placement strengthen the family inference without supplying a held original parent field."
+        "reason": "The inspected 1919–1920 Miami Valley memoir names Dr. Joseph Anderson among the six children of William B. Glasgow and Maria H. McIntire. Its specific household, including Samuel Steele’s exact 4 June 1851 birth and Mary Elizabeth/Williams, identifies William Barclay-875’s family. Joseph Anderson-2039 has the same distinctive full name, the same named parental couple in his captured biography, an 1842 birth fitting their 1840 marriage, and the associated Tranquility/Ohio identity. This combined family match strengthens the specific existing father–child pair beyond its previous memorial/profile-only basis; no concrete competing Joseph Anderson is held."
       },
       "Glasgow-875": {
         "relationship": "son",
-        "reason": "Joseph Anderson’s biography explicitly names William Glasgow and Marion McIntyre and gives a specific 1842 birth fitting their 1840 marriage. His Tranquility memorial and sister Mary Elizabeth’s Faris-supported placement strengthen the family inference without supplying a held original parent field."
+        "reason": "The inspected 1919–1920 Miami Valley memoir names Dr. Joseph Anderson among the six children of William B. Glasgow and Maria H. McIntire. Its specific household, including Samuel Steele’s exact 4 June 1851 birth and Mary Elizabeth/Williams, identifies William Barclay-875’s family. Joseph Anderson-2039 has the same distinctive full name, the same named parental couple in his captured biography, an 1842 birth fitting their 1840 marriage, and the associated Tranquility/Ohio identity. This combined family match strengthens the specific existing father–child pair beyond its previous memorial/profile-only basis; no concrete competing Joseph Anderson is held."
       }
     },
     "analysis_links": [
@@ -94406,17 +94417,30 @@
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
       },
       "original_inspected_in_batch": false,
-      "live_flag_changed": false
+      "live_flag_changed": false,
+      "confidence_reassessment": {
+        "previous_status": "probable",
+        "previous_probability_percent": 82,
+        "previous_basis": "Joseph Anderson’s biography explicitly names William Glasgow and Marion McIntyre and gives a specific 1842 birth fitting their 1840 marriage. His Tranquility memorial and sister Mary Elizabeth’s Faris-supported placement strengthen the family inference without supplying a held original parent field.",
+        "live_checked_at": "2026-10-23",
+        "saved_father_status": "unmarked",
+        "live_parent_id_unchanged": true,
+        "live_edit": false,
+        "source_review": "Original printed memoir previously inspected22October; specific child identity reassessed23October. No newly inspected vital original."
+      }
     },
     "probability": {
-      "value": 0.82,
-      "basis": "Joseph Anderson’s biography explicitly names William Glasgow and Marion McIntyre and gives a specific 1842 birth fitting their 1840 marriage. His Tranquility memorial and sister Mary Elizabeth’s Faris-supported placement strengthen the family inference without supplying a held original parent field.",
-      "reviewed": "2026-10-22",
+      "value": 0.94,
+      "basis": "The inspected 1919–1920 Miami Valley memoir names Dr. Joseph Anderson among the six children of William B. Glasgow and Maria H. McIntire. Its specific household, including Samuel Steele’s exact 4 June 1851 birth and Mary Elizabeth/Williams, identifies William Barclay-875’s family. Joseph Anderson-2039 has the same distinctive full name, the same named parental couple in his captured biography, an 1842 birth fitting their 1840 marriage, and the associated Tranquility/Ohio identity. This combined family match strengthens the specific existing father–child pair beyond its previous memorial/profile-only basis; no concrete competing Joseph Anderson is held.",
+      "reviewed": "2026-10-23",
       "source_ids": [
+        "miami-valley-ss-glasgow-family-1919",
         "held-e-43b66612fc7c"
       ],
-      "scope": "Held citation and associated historical narrative address this selected father-child identity; no original was newly inspected."
-    }
+      "scope": "94% is a subjective confident inference about the complete existing father–child profile pair. The historical publication explicitly states the child’s role but gives no Joseph birth/death dates. The cited memorial was not newly inspected and the doctor title is not independently verified here. Profile/memorial and memoir may share family information; they are not assumed statistically independent. The memoir’s Maria/McIntire form and 1859 maternal death differ from Marion/McIntyre and retained 1855; maternity is not regraded. No original death certificate, parent attachment, vital field or live WikiTree control is changed."
+    },
+    "next_test": "Inspect the 1921 Ohio death return and a contemporary physician/census record to test the adult dates and profession independently.",
+    "last_test": "23 October 2026: combined exact child name, named parental household and inspected historical memoir;82% → 94%."
   },
   {
     "assertion_id": "C-coverage-20261022i-glasgow-1360-father",
