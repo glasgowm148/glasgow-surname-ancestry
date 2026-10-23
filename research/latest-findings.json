@@ -55423,6 +55423,44 @@
         "research/ancestry-connections/roanoke-thomas-review-2026-10-23.json",
         "research/relationship_assessments.json"
       ]
+    },
+    {
+      "id": "fmp-page8-elizabeth-1770-source-20261023",
+      "found_on": "2026-10-23",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "Elizabeth Glasgow’s Swinton/Simprin record explicitly separates birth on 28 April 1770 from baptism on 3 May; father Peter is indexed as a cooper, resident at Cattle.",
+      "qualification": "Three companion derivative indexes describe one event. The OPR transcript omits a mother; two companion indexes name Jean Anderson. Peter Glasgow-2878 and Jean Anderson-83920 are compatible adult-household comparisons only. No child identity, natal location, parent attachment or new-person proposal is established. Original register uninspected.",
+      "detail_url": "/branches/early-scottish-records/#chapter-findmypast-born-before-1800",
+      "people": [
+        {
+          "id": "Glasgow-2878",
+          "name": "Peter Glasgow",
+          "url": "/people/glasgow-2878.html",
+          "role": "Compatible father comparison; not an identification"
+        },
+        {
+          "id": "Anderson-83920",
+          "name": "Jean Anderson",
+          "url": "/people/anderson-83920.html",
+          "role": "Compatible mother comparison; not an identification"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Findmypast SCOT/OPR/BAP/4884249, OPR755/1 item8 p19 derivative transcript",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4884249&tab=this"
+        },
+        {
+          "title": "Findmypast R_686575961, companion index naming Jean Anderson",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_686575961&tab=this"
+        }
+      ],
+      "relationship_changes": [],
+      "new_father_attachments": 0,
+      "new_mother_attachments": 0,
+      "new_original_inspections": 0,
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
     }
   ]
 }

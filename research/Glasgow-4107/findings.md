@@ -35,3 +35,16 @@ Next useful test: Inspect original p26 and compare household identifiers with th
 This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [Findmypast, Elizabeth Glasgow, 10 June 1726, Libberton OPR 650/1 p.26; father Robert Glasgow, mother Katherine Watson, residence Whitrafles; held transcript SCOT/OPR/BAP/4033496](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4033496&tab=this)
+
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGE8-20261023 -->
+## Findmypast page 8 source review — 23 October 2026
+
+Role in this account: Existing child and baptism event; same-event derivative companion, not independent corroboration. Both fresh transcripts exactly agree on Elizabeth Glasgow, baptism 10 Jun 1726, Libberton, parents Robert Glasgow and Katharine Watson. Existing Glasgow-4107 account already records same baptism from OPR 650/1 p.26, residence Whitrafles. The new derivative receipts omit that residence/archive detail. Birth year 1726 is derivative; retain Glasgow-4107 birth only as before 10 Jun 1726, not an asserted birth date. Do not infer that Watson is same as the Wilson mother at Agnes 1720 or Gibson at 1718; existing household inference keeps maternal identities unresolved.
+
+Next question: If reopening is later justified, compare the original OPR 650/1 p.26 image and adjacent family entries for residence/handwriting; no need to redo transcript search.
+
+- [Findmypast R_684956207](https://www.findmypast.co.uk/transcript?id=R_684956207&tab=this), derivative transcript inspected 23 October 2026.
+- [Findmypast R_693522309](https://www.findmypast.co.uk/transcript?id=R_693522309&tab=this), derivative transcript inspected 23 October 2026.
+
+No new person, vital replacement or relationship change follows. Birth, baptism, death and burial dates retain their distinct source roles. An additional derivative index does not raise an existing relationship percentage. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-BIRTH-SCOPE-PAGE8-20261023 -->

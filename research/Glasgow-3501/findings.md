@@ -24,3 +24,15 @@ An April 1825 notice names Lieutenant Edward George Glasgow, formerly on half-pa
 
 The rare full name distinguishes the officer from George Mark Glasgow, but the officer is not yet joined to the passenger arriving in New York in 1850. A reported Emily Caroline widow notice of December 1849 would be a material conflict if its identity is verified; that notice remains a lead rather than a newly inspected source.
 <!-- queue-record-integration-2026-10-17:end -->
+
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGE8-20261023 -->
+## Findmypast page 8 source review — 23 October 2026
+
+Role in this account: Unproved comparison through the existing Edward George officer subject account; the passenger profile identity is not established. Derivative burial transcript: Edward George Glasgow, age 47, buried 17 Aug 1843 at St John the Baptist Hoxton; Finsbury Market address. Indexed 1796 birth is age-derived, not a proved birth date. Existing canonical companion says Shoreditch with otherwise matching particulars.
+
+Next question: Inspect original burial entries/coverage for Hoxton and Shoreditch, then determine whether one event; seek officer/service or widow bridge.
+
+- [Findmypast R_269169840](https://www.findmypast.co.uk/transcript?id=R_269169840&tab=this), derivative transcript inspected 23 October 2026.
+
+No new person, vital replacement or relationship change follows. Birth, baptism, death and burial dates retain their distinct source roles. An additional derivative index does not raise an existing relationship percentage. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-BIRTH-SCOPE-PAGE8-20261023 -->

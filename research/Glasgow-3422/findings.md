@@ -35,3 +35,16 @@ Next useful test: Inspect OPR595/1 p39 for B Jo and compare civic records and th
 This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Elizabeth Glasgow, 25 Jul 1727, record SCOT/OPR/BAP/3574227](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3574227&tab=this)
+
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGE8-20261023 -->
+## Findmypast page 8 source review — 23 October 2026
+
+Role in this account: Existing child and baptism event; same-event derivative companion, not independent corroboration. Both new derivative transcripts exactly agree on Elizabeth, baptism 25 Jul 1727, Irvine, parents John Glasgow and Agnes Ferguson. Existing Glasgow-3422 transcript SCOT/OPR/BAP/3574227 records the same date, place, mother and father as “B Jo”; fresh index expansion to John is compatible, but not a fresh independent original reading. The baptism date does not establish a birth date. The current profile still carries 25 Jul 1727 as an exact birth at Kilbirnie; these Irvine baptism derivatives do not verify that inherited birthday or birthplace. Retain the imported claim as unresolved pending independent birth evidence; no vital field is changed in this batch. Family sequence and child identity are already assessed in Glasgow-3422.
+
+Next question: The already-noted source-level test is the original OPR 595/1 p.39 image: verify the initials/name and any event details; do not reopen the child or father match from same-event derivative indexes.
+
+- [Findmypast R_688619360](https://www.findmypast.co.uk/transcript?id=R_688619360&tab=this), derivative transcript inspected 23 October 2026.
+- [Findmypast R_685316217](https://www.findmypast.co.uk/transcript?id=R_685316217&tab=this), derivative transcript inspected 23 October 2026.
+
+No new person, vital replacement or relationship change follows. Birth, baptism, death and burial dates retain their distinct source roles. An additional derivative index does not raise an existing relationship percentage. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-BIRTH-SCOPE-PAGE8-20261023 -->

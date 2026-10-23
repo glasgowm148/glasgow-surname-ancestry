@@ -6,7 +6,7 @@
     "born_before": 1800,
     "status": "INCOMPLETE",
     "scope_note": "Birth cutoff applies to people, including their later-life events; event<=1750 legacy audit remains a separate incomplete coverage baseline.",
-    "inspected_transcripts": 275,
+    "inspected_transcripts": 290,
     "catalogue_integration_complete": false,
     "integrated_record_ids": [
       "R_686309313",
@@ -236,7 +236,17 @@
       "US/GPC/00191354",
       "US/GPC/02448029",
       "US/GPC/02448030",
-      "US/GPC/02500460"
+      "US/GPC/02500460",
+      "R_269169840",
+      "R_684956207",
+      "R_685313552",
+      "R_685316217",
+      "R_686575961",
+      "R_688619360",
+      "R_688619361",
+      "R_692101975",
+      "R_693522309",
+      "SCOT/OPR/BAP/4884249"
     ],
     "unassigned_record_ids": [
       "SCOT/OPR/BUR/1168201",
@@ -285,7 +295,12 @@
       "GBPR/COVENANT/028562",
       "IRE/NAI/GENABS/00325438/1",
       "IRE/NAI/GENABS/00400857/1",
-      "IRE/NAI/GENABS/00859808/1"
+      "IRE/NAI/GENABS/00859808/1",
+      "US/BMD/PENN-BUR/01052187",
+      "R_693745465",
+      "IRE/BMD/D/616767913",
+      "SCOT/OPR/BUR/1029555",
+      "GBPRS/GLASGOW/BUR/093180"
     ],
     "next_query_page": 8,
     "integration_scope": "275 reviewed provider receipts selected for local indexing: 140 current-query rows, one supporting transcript and 134 saved September receipts. The remaining 111 cached receipts have explicit HOLD/exclusion dispositions. Full provider coverage remains INCOMPLETE; matched people, candidate comparisons and source-only records remain distinct.",
@@ -497,21 +512,23 @@
       "SCOT/OPR/BAP/4478030",
       "SCOT/OPR/BAP/0627016"
     ],
-    "records_with_profile_or_draft_context": 228,
+    "records_with_profile_or_draft_context": 238,
     "remaining_coverage": [
-      "Pages 8–294 nominal of current1719–1799 birth-filtered BMD query; provider caps may require partitioning",
+      "Pages 9–294 nominal of current1719–1799 birth-filtered BMD query; provider caps may require partitioning",
       "Earlier birth windows, later-life records lacking indexed birth, and other categories",
       "Surname variants and unresolved natal-surname/record identities",
       "Legacy unattempted, temporarily blocked, subscription-locked and capped search results",
       "Cached subject-outside-cutoff records: screen named parents/relatives before excluding documentary evidence for pre1800 Glasgows."
     ],
-    "verification_report": "output/findmypast-cache-next-20261023-verification.json",
+    "verification_report": "output/findmypast-birth-scope-page8-20261023-verification.json",
     "verified_on": "2026-10-23",
-    "indexed_provider_record_count": 275,
-    "next_action": "Resume query page 8 of the captured 294-page search with result-ID preflight. Keep 72 parent/relative identity cases, nine private scope HOLDs and four unbounded scope HOLDs pending their specific questions; do not refetch already sufficient receipts.",
-    "recent_query_transcripts": 140,
+    "indexed_provider_record_count": 290,
+    "next_action": "Resume query page 9 of 294 with result-ID preflight; retain page8 source/identity HOLDs and do not refetch sufficient receipts.",
+    "recent_query_transcripts": 155,
     "recent_supporting_transcripts": 1,
-    "historical_cached_transcripts_reconciled": 134
+    "historical_cached_transcripts_reconciled": 134,
+    "recent_query_rows_reviewed": 160,
+    "capture_ledger_note": "The 290 indexed capture-ledger receipts are not all Findmypast records in the catalogue. Page 8 also reuses the already-indexed SCOT/OPR/BAP/3574665 through its original saved receipt and canonical/public IDs, without copying or counting it as a new ledger capture."
   },
   "search_pages": [
     {
@@ -2174,6 +2191,244 @@
         ],
         "status": "20/20 matched browser capture; transfer integrity only, not source authenticity"
       }
+    },
+    {
+      "url": "https://www.findmypast.co.uk/search/results?_page=8&lastname=glasgow&yearofbirth=1759&yearofbirth_offset=40&sourcecategory=life%20events%20(bmds)&sid=999",
+      "birth_query_range": [
+        1719,
+        1799
+      ],
+      "displayed_total": 5872,
+      "expected_pages_at_20_rows": 294,
+      "captured_pages": [
+        8
+      ],
+      "captured_rows": 20,
+      "rows": [
+        {
+          "record_id": "R_269169840",
+          "first_name": "Edward George",
+          "last_name": "Glasgow",
+          "birth_year": "1796",
+          "death_year": "—",
+          "event_year": "1843",
+          "record_set": "England Deaths & Burials 1538-1991",
+          "location": "St. John the Baptist Hoxton, Middlesex, England",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_269169840"
+        },
+        {
+          "record_id": "US/BMD/PENN-BUR/01052187",
+          "first_name": "Eleanor",
+          "last_name": "Glasgow",
+          "birth_year": "1792",
+          "death_year": "—",
+          "event_year": "1831",
+          "record_set": "Historical Society Of Pennsylvania, Deaths & Burials",
+          "location": "Philadelphia, Pennsylvania, United States",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=US%2FBMD%2FPENN-BUR%2F01052187"
+        },
+        {
+          "record_id": "R_691313677",
+          "first_name": "Elisabeth",
+          "last_name": "Glasgow",
+          "birth_year": "1792",
+          "death_year": "—",
+          "event_year": "—",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Lanarkshire, Scotland",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_691313677"
+        },
+        {
+          "record_id": "R_693745465",
+          "first_name": "Eliz.",
+          "last_name": "Glasgow",
+          "birth_year": "1751",
+          "death_year": "—",
+          "event_year": "1751",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Lanarkshire, Scotland",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_693745465"
+        },
+        {
+          "record_id": "IRE/BMD/D/616767913",
+          "first_name": "Eliza",
+          "last_name": "Glasgow",
+          "birth_year": "1796",
+          "death_year": "1865",
+          "event_year": "1865",
+          "record_set": "Irish Deaths 1864 - 1958",
+          "location": "Ballymena, Antrim, Ireland",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=IRE%2FBMD%2FD%2F616767913"
+        },
+        {
+          "record_id": "R_690417779",
+          "first_name": "Elizabeth",
+          "last_name": "Glasgow",
+          "birth_year": "1782",
+          "death_year": "—",
+          "event_year": "—",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Lanarkshire, Scotland",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_690417779"
+        },
+        {
+          "record_id": "SCOT/OPR/BAP/4478151",
+          "first_name": "Elizabeth",
+          "last_name": "Glasgow",
+          "birth_year": "1796",
+          "death_year": "—",
+          "event_year": "—",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Kirknewton & East Calder, Midlothian, Scotland",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4478151"
+        },
+        {
+          "record_id": "SCOT/OPR/BAP/4478164",
+          "first_name": "Elizabeth",
+          "last_name": "Glasgow",
+          "birth_year": "1796",
+          "death_year": "—",
+          "event_year": "—",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Kirknewton & East Calder, Midlothian, Scotland",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4478164"
+        },
+        {
+          "record_id": "R_684956207",
+          "first_name": "Elizabeth",
+          "last_name": "Glasgow",
+          "birth_year": "1726",
+          "death_year": "—",
+          "event_year": "1726",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Lanarkshire, Scotland",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_684956207"
+        },
+        {
+          "record_id": "R_693522309",
+          "first_name": "Elizabeth",
+          "last_name": "Glasgow",
+          "birth_year": "1726",
+          "death_year": "—",
+          "event_year": "1726",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Lanarkshire, Scotland",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_693522309"
+        },
+        {
+          "record_id": "R_688619360",
+          "first_name": "Elizabeth",
+          "last_name": "Glasgow",
+          "birth_year": "1727",
+          "death_year": "—",
+          "event_year": "1727",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Ayrshire, Scotland",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_688619360"
+        },
+        {
+          "record_id": "R_685316217",
+          "first_name": "Elizabeth",
+          "last_name": "Glasgow",
+          "birth_year": "1727",
+          "death_year": "—",
+          "event_year": "1727",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Ayrshire, Scotland",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_685316217"
+        },
+        {
+          "record_id": "SCOT/OPR/BAP/3574665",
+          "first_name": "Elizabeth",
+          "last_name": "Glasgow",
+          "birth_year": "1737",
+          "death_year": "—",
+          "event_year": "1737",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Irvine, Ayrshire, Scotland",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3574665"
+        },
+        {
+          "record_id": "R_685313552",
+          "first_name": "Elizabeth",
+          "last_name": "Glasgow",
+          "birth_year": "1737",
+          "death_year": "—",
+          "event_year": "1737",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Ayrshire, Scotland",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_685313552"
+        },
+        {
+          "record_id": "R_688619361",
+          "first_name": "Elizabeth",
+          "last_name": "Glasgow",
+          "birth_year": "1737",
+          "death_year": "—",
+          "event_year": "1737",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Ayrshire, Scotland",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_688619361"
+        },
+        {
+          "record_id": "SCOT/OPR/BUR/1029555",
+          "first_name": "Elizabeth",
+          "last_name": "Glasgow",
+          "birth_year": "1733",
+          "death_year": "1767",
+          "event_year": "1767",
+          "record_set": "Scotland, Parish Deaths & Burials 1564-2017",
+          "location": "Glasgow, Lanarkshire",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1029555"
+        },
+        {
+          "record_id": "GBPRS/GLASGOW/BUR/093180",
+          "first_name": "Elizabeth",
+          "last_name": "Glasgow",
+          "birth_year": "1733",
+          "death_year": "1767",
+          "event_year": "1767",
+          "record_set": "Scotland, Parish Deaths & Burials 1564-2017",
+          "location": "Glasgow High Church, Glasgow, Lanarkshire, Scotland",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FGLASGOW%2FBUR%2F093180"
+        },
+        {
+          "record_id": "SCOT/OPR/BAP/4884249",
+          "first_name": "Elizabeth",
+          "last_name": "Glasgow",
+          "birth_year": "1770",
+          "death_year": "—",
+          "event_year": "1770",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Simprim & Swinton, Berwickshire, Scotland",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4884249"
+        },
+        {
+          "record_id": "R_686575961",
+          "first_name": "Elizabeth",
+          "last_name": "Glasgow",
+          "birth_year": "1770",
+          "death_year": "—",
+          "event_year": "1770",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Berwickshire, Scotland",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_686575961"
+        },
+        {
+          "record_id": "R_692101975",
+          "first_name": "Elizabeth",
+          "last_name": "Glasgow",
+          "birth_year": "1770",
+          "death_year": "—",
+          "event_year": "1770",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Berwickshire, Scotland",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_692101975"
+        }
+      ],
+      "captured_on": "2026-10-23",
+      "source_level": "Observed logged-in search-result table; detail preflight precedes transcript navigation",
+      "status": "All 20 result rows reviewed; five existing indexed receipts reused; 15 new derivative transcripts indexed with identity limits."
     }
   ],
   "records": {
@@ -12711,6 +12966,504 @@
         "reused_on": "2026-10-23",
         "new_provider_fetch": false
       }
+    },
+    "R_269169840": {
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_269169840&tab=this",
+      "image_url": null,
+      "title": "Edward George Glasgow in 1843",
+      "transcript_fields": {
+        "Age at death": "47y",
+        "Birth year": "1796",
+        "Burial date": "17 Aug 1843",
+        "Burial place": "St. John The Baptist Hoxton, Middlesex Co., England",
+        "Burial year": "1843",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Collections from": "England, Great Britain",
+        "Country": "England",
+        "County": "Middlesex",
+        "Event year": "1843",
+        "First name(s)": "Edward George",
+        "Last name": "Glasgow",
+        "Place": "St. John the Baptist Hoxton",
+        "Record set": "England Deaths & Burials 1538-1991",
+        "Sex": "Male",
+        "Street address": "Finsbury Market",
+        "Subcategory": "Parish Burials"
+      },
+      "captured_at": "2026-10-23T16:54:10.428Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_269169840",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_269169840&tab=this",
+      "access_status": "accessible",
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "matching_status": "identity_hold",
+      "reviewed_on": "2026-10-23",
+      "birth_surname_status": "Unresolved adult natal surname; do not assume from burial/death index"
+    },
+    "US/BMD/PENN-BUR/01052187": {
+      "final_url": "https://www.findmypast.co.uk/transcript?id=US%2FBMD%2FPENN-BUR%2F01052187&tab=this",
+      "image_url": null,
+      "title": "Eleanor Glasgow in 1831",
+      "transcript_fields": {
+        "Address": "-",
+        "Age": "39",
+        "Archive": "Historical Society of Pennsylvania",
+        "Birth year": "1792",
+        "Burial date": "16 May 1831",
+        "Burial year": "1831",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Collections from": "Americas, United States",
+        "Country": "United States",
+        "Date range": "1785-1856",
+        "Death year": "-",
+        "Diocese": "Philadelphia",
+        "First name(s)": "Eleanor",
+        "Institution": "St. George's Methodist Episcopal Church",
+        "Last name": "Glasgow",
+        "Parish": "Philadelphia",
+        "Record set": "Historical Society Of Pennsylvania, Deaths & Burials",
+        "Register": "Burial",
+        "State": "Pennsylvania",
+        "Subcategory": "Civil Deaths & Burials"
+      },
+      "captured_at": "2026-10-23T16:55:29.077Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=US%2FBMD%2FPENN-BUR%2F01052187",
+      "url": "https://www.findmypast.co.uk/transcript?id=US%2FBMD%2FPENN-BUR%2F01052187&tab=this",
+      "access_status": "accessible",
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "matching_status": "identity_hold",
+      "reviewed_on": "2026-10-23",
+      "birth_surname_status": "Unresolved adult natal surname; do not assume from burial/death index"
+    },
+    "R_693745465": {
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_693745465&tab=this",
+      "image_url": null,
+      "title": "Eliz. Glasgow in 1751",
+      "transcript_fields": {
+        "Baptism date": "14 Feb 1751",
+        "Baptism place": "GLASGOW,LANARK,SCOTLAND",
+        "Baptism year": "1751",
+        "Birth year": "1751",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Collections from": "Great Britain, Scotland",
+        "Country": "Scotland",
+        "County": "Lanarkshire",
+        "Father's first name(s)": "-",
+        "First name(s)": "Eliz.",
+        "Last name": "Glasgow",
+        "Mother's first name(s)": "-",
+        "Place": "Glasgow",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Sex": "Female",
+        "Subcategory": "Parish Baptisms"
+      },
+      "captured_at": "2026-10-23T16:55:30.290Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_693745465",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_693745465&tab=this",
+      "access_status": "accessible",
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "matching_status": "identity_hold",
+      "reviewed_on": "2026-10-23",
+      "birth_surname_status": "Baptism surname indexed; exact child/profile identity qualified in review"
+    },
+    "IRE/BMD/D/616767913": {
+      "final_url": "https://www.findmypast.co.uk/transcript?id=IRE%2FBMD%2FD%2F616767913&tab=this",
+      "image_url": null,
+      "title": "Eliza Glasgow in 1865",
+      "transcript_fields": {
+        "Age": "69",
+        "Birth year": "1796",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Collections from": "Ireland",
+        "Country": "Ireland",
+        "County": "Antrim",
+        "First name(s)": "Eliza",
+        "Last name": "Glasgow",
+        "Page": "114",
+        "Record set": "Irish Deaths 1864 - 1958",
+        "Registration district": "Ballymena",
+        "Registration quarter & year": "1865",
+        "Registration year": "1865",
+        "Subcategory": "Civil Deaths & Burials",
+        "Volume": "6"
+      },
+      "captured_at": "2026-10-23T16:55:31.509Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=IRE%2FBMD%2FD%2F616767913",
+      "url": "https://www.findmypast.co.uk/transcript?id=IRE%2FBMD%2FD%2F616767913&tab=this",
+      "access_status": "accessible",
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "matching_status": "identity_hold",
+      "reviewed_on": "2026-10-23",
+      "birth_surname_status": "Unresolved adult natal surname; do not assume from burial/death index"
+    },
+    "R_684956207": {
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_684956207&tab=this",
+      "image_url": null,
+      "title": "Elizabeth Glasgow in 1726",
+      "transcript_fields": {
+        "Baptism date": "10 Jun 1726",
+        "Baptism place": "LIBBERTON, LANARK, SCOTLAND",
+        "Baptism year": "1726",
+        "Birth year": "1726",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Collections from": "Great Britain, Scotland",
+        "Country": "Scotland",
+        "County": "Lanarkshire",
+        "Father's first name(s)": "Robert",
+        "Father's last name": "Glasgow",
+        "First name(s)": "Elizabeth",
+        "Last name": "Glasgow",
+        "Mother's first name(s)": "Katharine",
+        "Mother's last name": "Watson",
+        "Place": "Libberton",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Residence": "Libberton, Lanarkshire, Scotland",
+        "Sex": "Female",
+        "Subcategory": "Parish Baptisms"
+      },
+      "captured_at": "2026-10-23T16:55:32.630Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_684956207",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_684956207&tab=this",
+      "access_status": "accessible",
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "matching_status": "matched_existing_event",
+      "reviewed_on": "2026-10-23",
+      "birth_surname_status": "Baptism surname indexed; exact child/profile identity qualified in review"
+    },
+    "R_693522309": {
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_693522309&tab=this",
+      "image_url": null,
+      "title": "Elizabeth Glasgow in 1726",
+      "transcript_fields": {
+        "Baptism date": "10 Jun 1726",
+        "Baptism place": "LIBBERTON, LANARK, SCOTLAND",
+        "Baptism year": "1726",
+        "Birth year": "1726",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Collections from": "Great Britain, Scotland",
+        "Country": "Scotland",
+        "County": "Lanarkshire",
+        "Father's first name(s)": "Robert",
+        "Father's last name": "Glasgow",
+        "First name(s)": "Elizabeth",
+        "Last name": "Glasgow",
+        "Mother's first name(s)": "Katharine",
+        "Mother's last name": "Watson",
+        "Place": "Libberton",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Sex": "Female",
+        "Subcategory": "Parish Baptisms"
+      },
+      "captured_at": "2026-10-23T16:55:34.045Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_693522309",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_693522309&tab=this",
+      "access_status": "accessible",
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "matching_status": "matched_existing_event",
+      "reviewed_on": "2026-10-23",
+      "birth_surname_status": "Baptism surname indexed; exact child/profile identity qualified in review"
+    },
+    "R_688619360": {
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_688619360&tab=this",
+      "image_url": null,
+      "title": "Elizabeth Glasgow in 1727",
+      "transcript_fields": {
+        "Baptism date": "25 Jul 1727",
+        "Baptism place": "IRVINE, AYR, SCOTLAND",
+        "Baptism year": "1727",
+        "Birth year": "1727",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Collections from": "Great Britain, Scotland",
+        "Country": "Scotland",
+        "County": "Ayrshire",
+        "Father's first name(s)": "John",
+        "Father's last name": "Glasgow",
+        "First name(s)": "Elizabeth",
+        "Last name": "Glasgow",
+        "Mother's first name(s)": "Agnes",
+        "Mother's last name": "Ferguson",
+        "Place": "Irvine",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Sex": "Female",
+        "Subcategory": "Parish Baptisms"
+      },
+      "captured_at": "2026-10-23T16:55:35.408Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_688619360",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_688619360&tab=this",
+      "access_status": "accessible",
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "matching_status": "matched_existing_event",
+      "reviewed_on": "2026-10-23",
+      "birth_surname_status": "Baptism surname indexed; exact child/profile identity qualified in review"
+    },
+    "R_685316217": {
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_685316217&tab=this",
+      "image_url": null,
+      "title": "Elizabeth Glasgow in 1727",
+      "transcript_fields": {
+        "Baptism date": "25 Jul 1727",
+        "Baptism place": "IRVINE, AYR, SCOTLAND",
+        "Baptism year": "1727",
+        "Birth year": "1727",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Collections from": "Great Britain, Scotland",
+        "Country": "Scotland",
+        "County": "Ayrshire",
+        "Father's first name(s)": "John",
+        "Father's last name": "Glasgow",
+        "First name(s)": "Elizabeth",
+        "Last name": "Glasgow",
+        "Mother's first name(s)": "Agnes",
+        "Mother's last name": "Ferguson",
+        "Place": "Irvine",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Residence": "Irvine, Ayrshire, Scotland",
+        "Sex": "Female",
+        "Subcategory": "Parish Baptisms"
+      },
+      "captured_at": "2026-10-23T16:55:36.659Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_685316217",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_685316217&tab=this",
+      "access_status": "accessible",
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "matching_status": "matched_existing_event",
+      "reviewed_on": "2026-10-23",
+      "birth_surname_status": "Baptism surname indexed; exact child/profile identity qualified in review"
+    },
+    "R_685313552": {
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_685313552&tab=this",
+      "image_url": null,
+      "title": "Elizabeth Glasgow in 1737",
+      "transcript_fields": {
+        "Baptism date": "24 Jul 1737",
+        "Baptism place": "IRVINE, AYR, SCOTLAND",
+        "Baptism year": "1737",
+        "Birth year": "1737",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Collections from": "Great Britain, Scotland",
+        "Country": "Scotland",
+        "County": "Ayrshire",
+        "Father's first name(s)": "George",
+        "Father's last name": "Glasgow",
+        "First name(s)": "Elizabeth",
+        "Last name": "Glasgow",
+        "Mother's first name(s)": "Margaret",
+        "Mother's last name": "Martin",
+        "Place": "Irvine",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Residence": "Irvine, Ayrshire, Scotland",
+        "Sex": "Female",
+        "Subcategory": "Parish Baptisms"
+      },
+      "captured_at": "2026-10-23T16:55:37.860Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_685313552",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_685313552&tab=this",
+      "access_status": "accessible",
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "matching_status": "matched_existing_event",
+      "reviewed_on": "2026-10-23",
+      "birth_surname_status": "Baptism surname indexed; exact child/profile identity qualified in review"
+    },
+    "R_688619361": {
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_688619361&tab=this",
+      "image_url": null,
+      "title": "Elizabeth Glasgow in 1737",
+      "transcript_fields": {
+        "Baptism date": "24 Jul 1737",
+        "Baptism place": "IRVINE, AYR, SCOTLAND",
+        "Baptism year": "1737",
+        "Birth year": "1737",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Collections from": "Great Britain, Scotland",
+        "Country": "Scotland",
+        "County": "Ayrshire",
+        "Father's first name(s)": "George",
+        "Father's last name": "Glasgow",
+        "First name(s)": "Elizabeth",
+        "Last name": "Glasgow",
+        "Mother's first name(s)": "Margaret",
+        "Mother's last name": "Martin",
+        "Place": "Irvine",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Sex": "Female",
+        "Subcategory": "Parish Baptisms"
+      },
+      "captured_at": "2026-10-23T16:58:44.221Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_688619361",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_688619361&tab=this",
+      "access_status": "accessible",
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "matching_status": "matched_existing_event",
+      "reviewed_on": "2026-10-23",
+      "birth_surname_status": "Baptism surname indexed; exact child/profile identity qualified in review"
+    },
+    "SCOT/OPR/BUR/1029555": {
+      "final_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1029555&tab=this",
+      "image_url": null,
+      "title": "Elizabeth Glasgow in 1767",
+      "transcript_fields": {
+        "Age": "34",
+        "Archive reference": "OPR 644/48",
+        "Birth year": "1733",
+        "Burial year": "1767",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Collections from": "Great Britain, Scotland",
+        "Country": "-",
+        "County": "Lanarkshire",
+        "Death date": "23 Dec 1767",
+        "Death year": "1767",
+        "First name(s)": "Elizabeth",
+        "Item": "3",
+        "Last name": "Glasgow",
+        "Next of kin name": "Adam Snaill",
+        "Next of kin relationship": "Spouse of",
+        "Page": "203",
+        "Place": "Glasgow",
+        "Record set": "Scotland, Parish Deaths & Burials 1564-2017",
+        "Subcategory": "Parish Burials",
+        "Year Range": "1757-1768"
+      },
+      "captured_at": "2026-10-23T16:58:45.504Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1029555",
+      "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1029555&tab=this",
+      "access_status": "accessible",
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "matching_status": "identity_hold",
+      "reviewed_on": "2026-10-23",
+      "birth_surname_status": "Unresolved adult natal surname; do not assume from burial/death index"
+    },
+    "GBPRS/GLASGOW/BUR/093180": {
+      "final_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FGLASGOW%2FBUR%2F093180&tab=this",
+      "image_url": null,
+      "title": "Elizabeth Glasgow in 1767",
+      "transcript_fields": {
+        "Age": "34",
+        "Birth year": "1733",
+        "Burial date": "23 Dec 1767",
+        "Burial place": "Glasgow High Church, Glasgow",
+        "Burial year": "1767",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Collections from": "Great Britain, Scotland",
+        "Country": "Scotland",
+        "County": "Lanarkshire",
+        "Death date": "? ? 1767",
+        "Death year": "1767",
+        "First name(s)": "Elizabeth",
+        "Last name": "Glasgow",
+        "Notes": "Relation: spouse of Adam Small",
+        "Record set": "Scotland, Parish Deaths & Burials 1564-2017",
+        "Subcategory": "Parish Burials"
+      },
+      "captured_at": "2026-10-23T16:58:46.615Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FGLASGOW%2FBUR%2F093180",
+      "url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FGLASGOW%2FBUR%2F093180&tab=this",
+      "access_status": "accessible",
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "matching_status": "identity_hold",
+      "reviewed_on": "2026-10-23",
+      "birth_surname_status": "Unresolved adult natal surname; do not assume from burial/death index"
+    },
+    "SCOT/OPR/BAP/4884249": {
+      "final_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4884249&tab=this",
+      "image_url": null,
+      "title": "Elizabeth Glasgow in 1770",
+      "transcript_fields": {
+        "Archive reference": "OPR 755/1",
+        "Baptism date": "03 May 1770",
+        "Baptism year": "1770",
+        "Birth date": "28 Apr 1770",
+        "Birth year": "1770",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Collections from": "Great Britain, Scotland",
+        "Country": "Scotland",
+        "County": "Berwickshire",
+        "Father's first name(s)": "Peter",
+        "Father's last name": "Glasgow",
+        "Father's occupation": "Cooper",
+        "First name(s)": "Elizabeth",
+        "Item": "8",
+        "Last name": "Glasgow",
+        "Page": "19",
+        "Place": "Simprim & Swinton",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Register year range": "1697-1854",
+        "Residence": "Cattle",
+        "Subcategory": "Parish Baptisms"
+      },
+      "captured_at": "2026-10-23T16:58:47.794Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4884249",
+      "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4884249&tab=this",
+      "access_status": "accessible",
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "matching_status": "parent_candidate_hold",
+      "reviewed_on": "2026-10-23",
+      "birth_surname_status": "Baptism surname indexed; exact child/profile identity qualified in review"
+    },
+    "R_686575961": {
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_686575961&tab=this",
+      "image_url": null,
+      "title": "Elizabeth Glasgow in 1770",
+      "transcript_fields": {
+        "Baptism date": "03 May 1770",
+        "Baptism place": "SWINTON AND SIMPRIN, BERWICK, SCOTLAND",
+        "Baptism year": "1770",
+        "Birth year": "1770",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Collections from": "Great Britain, Scotland",
+        "Country": "Scotland",
+        "County": "Berwickshire",
+        "Father's first name(s)": "Peter",
+        "Father's last name": "Glasgow",
+        "First name(s)": "Elizabeth",
+        "Last name": "Glasgow",
+        "Mother's first name(s)": "Jean",
+        "Mother's last name": "Anderson",
+        "Place": "Swinton and Simprin",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Residence": "Swinton, Berwickshire, Scotland",
+        "Sex": "Female",
+        "Subcategory": "Parish Baptisms"
+      },
+      "captured_at": "2026-10-23T16:58:49.185Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_686575961",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_686575961&tab=this",
+      "access_status": "accessible",
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "matching_status": "parent_candidate_hold",
+      "reviewed_on": "2026-10-23",
+      "birth_surname_status": "Baptism surname indexed; exact child/profile identity qualified in review"
+    },
+    "R_692101975": {
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_692101975&tab=this",
+      "image_url": null,
+      "title": "Elizabeth Glasgow in 1770",
+      "transcript_fields": {
+        "Baptism date": "03 May 1770",
+        "Baptism place": "SWINTON AND SIMPRIN, BERWICK, SCOTLAND",
+        "Baptism year": "1770",
+        "Birth year": "1770",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Collections from": "Great Britain, Scotland",
+        "Country": "Scotland",
+        "County": "Berwickshire",
+        "Father's first name(s)": "Peter",
+        "Father's last name": "Glasgow",
+        "First name(s)": "Elizabeth",
+        "Last name": "Glasgow",
+        "Mother's first name(s)": "Jean",
+        "Mother's last name": "Anderson",
+        "Place": "Swinton and Simprin",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Sex": "Female",
+        "Subcategory": "Parish Baptisms"
+      },
+      "captured_at": "2026-10-23T16:58:50.268Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_692101975",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_692101975&tab=this",
+      "access_status": "accessible",
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "matching_status": "parent_candidate_hold",
+      "reviewed_on": "2026-10-23",
+      "birth_surname_status": "Baptism surname indexed; exact child/profile identity qualified in review"
     }
   },
   "identity_clusters": [
@@ -16479,6 +17232,149 @@
           "reused_on": "2026-10-23",
           "new_provider_fetch": false
         }
+      },
+      "R_684956207": {
+        "catalogue_profiles": {
+          "Glasgow-4107": "Existing child and baptism event; same-event derivative companion, not independent corroboration."
+        },
+        "status": "matched_existing_event",
+        "assessment": "Both fresh transcripts exactly agree on Elizabeth Glasgow, baptism 10 Jun 1726, Libberton, parents Robert Glasgow and Katharine Watson. Existing Glasgow-4107 account already records same baptism from OPR 650/1 p.26, residence Whitrafles. The new derivative receipts omit that residence/archive detail. Birth year 1726 is derivative; retain Glasgow-4107 birth only as before 10 Jun 1726, not an asserted birth date. Do not infer that Watson is same as the Wilson mother at Agnes 1720 or Gibson at 1718; existing household inference keeps maternal identities unresolved.",
+        "next_question": "If reopening is later justified, compare the original OPR 650/1 p.26 image and adjacent family entries for residence/handwriting; no need to redo transcript search.",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-23"
+      },
+      "R_693522309": {
+        "catalogue_profiles": {
+          "Glasgow-4107": "Existing child and baptism event; same-event derivative companion, not independent corroboration."
+        },
+        "status": "matched_existing_event",
+        "assessment": "Both fresh transcripts exactly agree on Elizabeth Glasgow, baptism 10 Jun 1726, Libberton, parents Robert Glasgow and Katharine Watson. Existing Glasgow-4107 account already records same baptism from OPR 650/1 p.26, residence Whitrafles. The new derivative receipts omit that residence/archive detail. Birth year 1726 is derivative; retain Glasgow-4107 birth only as before 10 Jun 1726, not an asserted birth date. Do not infer that Watson is same as the Wilson mother at Agnes 1720 or Gibson at 1718; existing household inference keeps maternal identities unresolved.",
+        "next_question": "If reopening is later justified, compare the original OPR 650/1 p.26 image and adjacent family entries for residence/handwriting; no need to redo transcript search.",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-23"
+      },
+      "R_688619360": {
+        "catalogue_profiles": {
+          "Glasgow-3422": "Existing child and baptism event; same-event derivative companion, not independent corroboration."
+        },
+        "status": "matched_existing_event",
+        "assessment": "Both new derivative transcripts exactly agree on Elizabeth, baptism 25 Jul 1727, Irvine, parents John Glasgow and Agnes Ferguson. Existing Glasgow-3422 transcript SCOT/OPR/BAP/3574227 records the same date, place, mother and father as “B Jo”; fresh index expansion to John is compatible, but not a fresh independent original reading. The baptism date does not establish a birth date. The current profile still carries 25 Jul 1727 as an exact birth at Kilbirnie; these Irvine baptism derivatives do not verify that inherited birthday or birthplace. Retain the imported claim as unresolved pending independent birth evidence; no vital field is changed in this batch. Family sequence and child identity are already assessed in Glasgow-3422.",
+        "next_question": "The already-noted source-level test is the original OPR 595/1 p.39 image: verify the initials/name and any event details; do not reopen the child or father match from same-event derivative indexes.",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-23"
+      },
+      "R_685316217": {
+        "catalogue_profiles": {
+          "Glasgow-3422": "Existing child and baptism event; same-event derivative companion, not independent corroboration."
+        },
+        "status": "matched_existing_event",
+        "assessment": "Both new derivative transcripts exactly agree on Elizabeth, baptism 25 Jul 1727, Irvine, parents John Glasgow and Agnes Ferguson. Existing Glasgow-3422 transcript SCOT/OPR/BAP/3574227 records the same date, place, mother and father as “B Jo”; fresh index expansion to John is compatible, but not a fresh independent original reading. The baptism date does not establish a birth date. The current profile still carries 25 Jul 1727 as an exact birth at Kilbirnie; these Irvine baptism derivatives do not verify that inherited birthday or birthplace. Retain the imported claim as unresolved pending independent birth evidence; no vital field is changed in this batch. Family sequence and child identity are already assessed in Glasgow-3422.",
+        "next_question": "The already-noted source-level test is the original OPR 595/1 p.39 image: verify the initials/name and any event details; do not reopen the child or father match from same-event derivative indexes.",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-23"
+      },
+      "R_685313552": {
+        "catalogue_profiles": {
+          "Glasgow-3316": "Existing child and baptism event; same-event derivative companion, not independent corroboration."
+        },
+        "status": "matched_existing_event",
+        "assessment": "Both new derivatives exactly agree on Elizabeth Glasgow, Irvine, baptism 24 Jul 1737, parents George Glasgow and Margaret Martin. Existing held Findmypast receipt SCOT/OPR/BAP/3574665 is the same event and adds birth date 23 Jul 1737 and father occupation shipmaster. The companion records provide no additional birth date and should not supersede the richer existing transcription. Baptism place does not independently establish birth place; retain prior qualified place treatment. Glasgow-3315 is an adjacent family comparison, not the subject of this event.",
+        "next_question": "No changed dependency requiring action. If the original register is later inspected, verify the indexed birth date and occupation; otherwise retain the current derivative-transcript limitation.",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-23"
+      },
+      "R_688619361": {
+        "catalogue_profiles": {
+          "Glasgow-3316": "Existing child and baptism event; same-event derivative companion, not independent corroboration."
+        },
+        "status": "matched_existing_event",
+        "assessment": "Both new derivatives exactly agree on Elizabeth Glasgow, Irvine, baptism 24 Jul 1737, parents George Glasgow and Margaret Martin. Existing held Findmypast receipt SCOT/OPR/BAP/3574665 is the same event and adds birth date 23 Jul 1737 and father occupation shipmaster. The companion records provide no additional birth date and should not supersede the richer existing transcription. Baptism place does not independently establish birth place; retain prior qualified place treatment. Glasgow-3315 is an adjacent family comparison, not the subject of this event.",
+        "next_question": "No changed dependency requiring action. If the original register is later inspected, verify the indexed birth date and occupation; otherwise retain the current derivative-transcript limitation.",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-23"
+      },
+      "R_269169840": {
+        "catalogue_profiles": {
+          "Glasgow-3501": "Unproved comparison through the existing Edward George officer subject account; the passenger profile identity is not established."
+        },
+        "status": "identity_hold",
+        "assessment": "Derivative burial transcript: Edward George Glasgow, age 47, buried 17 Aug 1843 at St John the Baptist Hoxton; Finsbury Market address. Indexed 1796 birth is age-derived, not a proved birth date. Existing canonical companion says Shoreditch with otherwise matching particulars.",
+        "next_question": "Inspect original burial entries/coverage for Hoxton and Shoreditch, then determine whether one event; seek officer/service or widow bridge.",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-23"
+      },
+      "US/BMD/PENN-BUR/01052187": {
+        "catalogue_profiles": {},
+        "status": "identity_hold",
+        "assessment": "Historical Society of Pennsylvania St George Methodist Episcopal Church burial register indexes Eleanor Glasgow, age 39, buried 16 May 1831 in Philadelphia. 1792 birth year is calculated from age; burial does not establish maiden surname or exact birth.",
+        "next_question": "Inspect church burial entry for kin/address and compare Philadelphia households; do not infer that Glasgow was her birth surname.",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-23"
+      },
+      "R_693745465": {
+        "catalogue_profiles": {},
+        "status": "identity_hold",
+        "assessment": "Derivative Scotland baptism index: Eliz. Glasgow baptised 14 Feb 1751 in Glasgow, Lanarkshire; parents blank. Indexed birth year 1751 may be baptism-derived; no birth date.",
+        "next_question": "Inspect original Glasgow parish entry for parents and any distinct birth date.",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-23"
+      },
+      "IRE/BMD/D/616767913": {
+        "catalogue_profiles": {},
+        "status": "identity_hold",
+        "assessment": "Irish civil death index gives Eliza Glasgow, aged 69, registered Ballymena district 1865, vol.6 p.114. 1796 birth year is age-derived; no death day, marital status, parents or natal surname. Glasgow-3906’s profile c.1790 birth and c.1816 death are explicitly rejected as derivations in current findings; do not use them as conflicts.",
+        "next_question": "Inspect death certificate for date, place, marital status, informant and kin before assigning profile.",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-23"
+      },
+      "SCOT/OPR/BUR/1029555": {
+        "catalogue_profiles": {},
+        "status": "identity_hold",
+        "assessment": "OPR 644/48 item 3 p.203 gives Elizabeth Glasgow, age 34, death date 23 Dec 1767, burial year 1767, spouse Adam Snaill. Companion GBPRS index gives burial 23 Dec 1767 at Glasgow High Church, death date only “? ? 1767”, spouse Adam Small. Age-derived 1733 is approximate; Glasgow may be married surname.",
+        "next_question": "Inspect OPR 644/48 p.203 and the High Church register for exact date role, spouse spelling and woman’s maiden surname.",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-23"
+      },
+      "GBPRS/GLASGOW/BUR/093180": {
+        "catalogue_profiles": {},
+        "status": "identity_hold",
+        "assessment": "OPR 644/48 item 3 p.203 gives Elizabeth Glasgow, age 34, death date 23 Dec 1767, burial year 1767, spouse Adam Snaill. Companion GBPRS index gives burial 23 Dec 1767 at Glasgow High Church, death date only “? ? 1767”, spouse Adam Small. Age-derived 1733 is approximate; Glasgow may be married surname.",
+        "next_question": "Inspect OPR 644/48 p.203 and the High Church register for exact date role, spouse spelling and woman’s maiden surname.",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-23"
+      },
+      "SCOT/OPR/BAP/4884249": {
+        "catalogue_profiles": {
+          "Glasgow-2878": "Compatible adult father comparison only: Peter Glasgow, spouse of Jean Anderson; no established identity with the named cooper.",
+          "Anderson-83920": "Compatible adult mother comparison only: Jean Anderson, spouse of Peter Glasgow; named in companion derivatives, absent in the OPR transcript."
+        },
+        "status": "parent_candidate_hold",
+        "assessment": "OPR 755/1 item 8 p.19 records Elizabeth Glasgow born 28 Apr 1770, baptised 3 May 1770 at Swinton and Simprin, father Peter Glasgow, cooper, residence Cattle. Two IRI derivatives repeat 3 May baptism and add mother Jean Anderson. Same child/name/date/parish indicate one event; no image checked.",
+        "next_question": "Inspect OPR 755/1 p.19 for maternal name, Peter’s occupation/residence and any later child/adult continuity.",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-23"
+      },
+      "R_686575961": {
+        "catalogue_profiles": {
+          "Glasgow-2878": "Compatible adult father comparison only: Peter Glasgow, spouse of Jean Anderson; no established identity with the named cooper.",
+          "Anderson-83920": "Compatible adult mother comparison only: Jean Anderson, spouse of Peter Glasgow; named in companion derivatives, absent in the OPR transcript."
+        },
+        "status": "parent_candidate_hold",
+        "assessment": "OPR 755/1 item 8 p.19 records Elizabeth Glasgow born 28 Apr 1770, baptised 3 May 1770 at Swinton and Simprin, father Peter Glasgow, cooper, residence Cattle. Two IRI derivatives repeat 3 May baptism and add mother Jean Anderson. Same child/name/date/parish indicate one event; no image checked.",
+        "next_question": "Inspect OPR 755/1 p.19 for maternal name, Peter’s occupation/residence and any later child/adult continuity.",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-23"
+      },
+      "R_692101975": {
+        "catalogue_profiles": {
+          "Glasgow-2878": "Compatible adult father comparison only: Peter Glasgow, spouse of Jean Anderson; no established identity with the named cooper.",
+          "Anderson-83920": "Compatible adult mother comparison only: Jean Anderson, spouse of Peter Glasgow; named in companion derivatives, absent in the OPR transcript."
+        },
+        "status": "parent_candidate_hold",
+        "assessment": "OPR 755/1 item 8 p.19 records Elizabeth Glasgow born 28 Apr 1770, baptised 3 May 1770 at Swinton and Simprin, father Peter Glasgow, cooper, residence Cattle. Two IRI derivatives repeat 3 May baptism and add mother Jean Anderson. Same child/name/date/parish indicate one event; no image checked.",
+        "next_question": "Inspect OPR 755/1 p.19 for maternal name, Peter’s occupation/residence and any later child/adult continuity.",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-23"
       }
     },
     "page2_review": {
@@ -22786,6 +23682,1083 @@
       "indexed_context_records": 47,
       "source_only_records": 22,
       "verification_report": "output/findmypast-cache-next-20261023-verification.json"
+    },
+    "page8_preflight": {
+      "reviewed_on": "2026-10-23",
+      "records": [
+        {
+          "provider_id": "R_269169840",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "US/BMD/PENN-BUR/01052187",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_691313677",
+          "disposition": "reusable_receipt",
+          "receipt_status": "accessible",
+          "cached_receipt": {
+            "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-pre1701.json",
+            "json_pointer": "#/records/R_691313677",
+            "access_status": "accessible",
+            "transcript_fields_present": true,
+            "captured_at": "2026-09-03T21:30:38.102Z"
+          },
+          "receipt_pointers": [
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+              "json_pointer": "#/records/R_691313677",
+              "access_status": "accessible",
+              "captured_at": "2026-09-03T21:30:38.102Z"
+            },
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-pre1701.json",
+              "json_pointer": "#/records/R_691313677",
+              "access_status": "accessible",
+              "captured_at": "2026-09-03T21:30:38.102Z"
+            }
+          ],
+          "conflicting_fields": [],
+          "matching_hold": true,
+          "matching_hold_evidence": [
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+              "json_pointer": "#/records/R_691313677",
+              "matching_status": "identity_hold",
+              "reason": "Explicit matching HOLD in scope record"
+            },
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+              "json_pointer": "#/matching_review/record_assignments/R_691313677",
+              "matching_status": "identity_hold",
+              "reason": "Disposition: identity HOLD. IRI/FamilySearch-derived index explicitly fields last name Glasgow and birth year 1792/place Glasgow, Lanark; baptism year and both parent names blank. No exact birth date, household or marriage bridge. The surname field is indexed, while the original register was not inspected."
+            }
+          ],
+          "canonical_record_ids": [
+            "fmp-record-r-691313677"
+          ],
+          "public_record_ids": [
+            "fmp-record-r-691313677"
+          ],
+          "already_indexed": true,
+          "source_ids": [
+            "s-c841eb311fb11e6d"
+          ],
+          "reason": "Compatible cached accessible receipt has nonempty transcript_fields.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_693745465",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "IRE/BMD/D/616767913",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_690417779",
+          "disposition": "reusable_receipt",
+          "receipt_status": "accessible",
+          "cached_receipt": {
+            "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-pre1701.json",
+            "json_pointer": "#/records/R_690417779",
+            "access_status": "accessible",
+            "transcript_fields_present": true,
+            "captured_at": "2026-09-03T21:30:48.881Z"
+          },
+          "receipt_pointers": [
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+              "json_pointer": "#/records/R_690417779",
+              "access_status": "accessible",
+              "captured_at": "2026-09-03T21:30:48.881Z"
+            },
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-pre1701.json",
+              "json_pointer": "#/records/R_690417779",
+              "access_status": "accessible",
+              "captured_at": "2026-09-03T21:30:48.881Z"
+            }
+          ],
+          "conflicting_fields": [],
+          "matching_hold": true,
+          "matching_hold_evidence": [
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+              "json_pointer": "#/records/R_690417779",
+              "matching_status": "identity_hold",
+              "reason": "Explicit matching HOLD in scope record"
+            },
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+              "json_pointer": "#/matching_review/record_assignments/R_690417779",
+              "matching_status": "identity_hold",
+              "reason": "Disposition: identity HOLD. Index gives Elizabeth Glasgow birth year 1782 and Glasgow, Lanarkshire; no baptism date, parents, or day. A one-year difference from the candidate’s unproved 1781 birth is not a concrete exclusion or basis for correction. No exact assignment."
+            }
+          ],
+          "canonical_record_ids": [
+            "fmp-record-r-690417779"
+          ],
+          "public_record_ids": [
+            "fmp-record-r-690417779"
+          ],
+          "already_indexed": true,
+          "source_ids": [
+            "s-d6dea5b243ece092"
+          ],
+          "reason": "Compatible cached accessible receipt has nonempty transcript_fields.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/4478151",
+          "disposition": "reusable_receipt",
+          "receipt_status": "accessible",
+          "cached_receipt": {
+            "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-pre1701.json",
+            "json_pointer": "#/records/SCOT~1OPR~1BAP~14478151",
+            "access_status": "accessible",
+            "transcript_fields_present": true,
+            "captured_at": "2026-09-03T20:40:47.633Z"
+          },
+          "receipt_pointers": [
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+              "json_pointer": "#/records/SCOT~1OPR~1BAP~14478151",
+              "access_status": "accessible",
+              "captured_at": "2026-09-03T20:40:47.633Z"
+            },
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-pre1701.json",
+              "json_pointer": "#/records/SCOT~1OPR~1BAP~14478151",
+              "access_status": "accessible",
+              "captured_at": "2026-09-03T20:40:47.633Z"
+            }
+          ],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [
+            "fmp-record-scot-opr-bap-4478151"
+          ],
+          "public_record_ids": [
+            "fmp-record-scot-opr-bap-4478151"
+          ],
+          "already_indexed": true,
+          "source_ids": [
+            "s-5eb33e5f50fe0b17"
+          ],
+          "reason": "Compatible cached accessible receipt has nonempty transcript_fields.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/4478164",
+          "disposition": "reusable_receipt",
+          "receipt_status": "accessible",
+          "cached_receipt": {
+            "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-pre1701.json",
+            "json_pointer": "#/records/SCOT~1OPR~1BAP~14478164",
+            "access_status": "accessible",
+            "transcript_fields_present": true,
+            "captured_at": "2026-09-03T20:40:50.812Z"
+          },
+          "receipt_pointers": [
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+              "json_pointer": "#/records/SCOT~1OPR~1BAP~14478164",
+              "access_status": "accessible",
+              "captured_at": "2026-09-03T20:40:50.812Z"
+            },
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-pre1701.json",
+              "json_pointer": "#/records/SCOT~1OPR~1BAP~14478164",
+              "access_status": "accessible",
+              "captured_at": "2026-09-03T20:40:50.812Z"
+            }
+          ],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [
+            "fmp-record-scot-opr-bap-4478164"
+          ],
+          "public_record_ids": [
+            "fmp-record-scot-opr-bap-4478164"
+          ],
+          "already_indexed": true,
+          "source_ids": [
+            "s-a0fbbd5a44091a72"
+          ],
+          "reason": "Compatible cached accessible receipt has nonempty transcript_fields.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_684956207",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_693522309",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_688619360",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_685316217",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/3574665",
+          "disposition": "reusable_receipt",
+          "receipt_status": "accessible",
+          "cached_receipt": {
+            "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-remaining-b.json",
+            "json_pointer": "#/records/SCOT~1OPR~1BAP~13574665",
+            "access_status": "accessible",
+            "transcript_fields_present": true,
+            "captured_at": "2026-09-03T23:35:59.302Z"
+          },
+          "receipt_pointers": [
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-remaining-b.json",
+              "json_pointer": "#/records/SCOT~1OPR~1BAP~13574665",
+              "access_status": "accessible",
+              "captured_at": "2026-09-03T23:35:59.302Z"
+            }
+          ],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [
+            "held-e-e4b0a1f60a50"
+          ],
+          "public_record_ids": [
+            "f62071ba140e141a"
+          ],
+          "already_indexed": true,
+          "source_ids": [],
+          "reason": "Compatible cached accessible receipt has nonempty transcript_fields.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_685313552",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_688619361",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "SCOT/OPR/BUR/1029555",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "GBPRS/GLASGOW/BUR/093180",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/4884249",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_686575961",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_692101975",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        }
+      ],
+      "new_provider_fetches": 15,
+      "status": "complete; five sufficient receipts reused and15 missing receipts captured exactly once",
+      "resource_checkpoint": {
+        "checked_at": "2026-10-23T16:58:42.436Z",
+        "owned_tabs": 1,
+        "preserved_tabs": 2,
+        "browser_pid": 80580,
+        "system_free_percent": 53,
+        "navigations_this_batch": 10
+      },
+      "capture_status": "15 new transcripts captured; five sufficient receipts reused; identity review pending",
+      "resource_cleanup": {
+        "checked_at": "2026-10-23T16:59:01.425Z",
+        "owned_tabs": 0,
+        "preserved_tabs": 2,
+        "navigations_after_checkpoint": 6
+      }
+    },
+    "page8_review": {
+      "reviewed_on": "2026-10-23",
+      "result_rows": 20,
+      "new_provider_transcripts": 15,
+      "reused_provider_transcripts": 5,
+      "provider_records_newly_indexed": 15,
+      "documentary_groups_among_new_transcripts": 9,
+      "groups": [
+        {
+          "record_ids": [
+            "R_684956207",
+            "R_693522309"
+          ],
+          "status": "matched_existing_event",
+          "profiles": {
+            "Glasgow-4107": "Existing child and baptism event; same-event derivative companion, not independent corroboration."
+          },
+          "assessment": "Both fresh transcripts exactly agree on Elizabeth Glasgow, baptism 10 Jun 1726, Libberton, parents Robert Glasgow and Katharine Watson. Existing Glasgow-4107 account already records same baptism from OPR 650/1 p.26, residence Whitrafles. The new derivative receipts omit that residence/archive detail. Birth year 1726 is derivative; retain Glasgow-4107 birth only as before 10 Jun 1726, not an asserted birth date. Do not infer that Watson is same as the Wilson mother at Agnes 1720 or Gibson at 1718; existing household inference keeps maternal identities unresolved.",
+          "existing_canonical_event": "held-libberton-elizabeth-1726-baptism",
+          "next_question": "If reopening is later justified, compare the original OPR 650/1 p.26 image and adjacent family entries for residence/handwriting; no need to redo transcript search.",
+          "novelty": "Additional provider indexes of an already catalogued event; no new historical fact or identity."
+        },
+        {
+          "record_ids": [
+            "R_688619360",
+            "R_685316217"
+          ],
+          "status": "matched_existing_event",
+          "profiles": {
+            "Glasgow-3422": "Existing child and baptism event; same-event derivative companion, not independent corroboration."
+          },
+          "assessment": "Both new derivative transcripts exactly agree on Elizabeth, baptism 25 Jul 1727, Irvine, parents John Glasgow and Agnes Ferguson. Existing Glasgow-3422 transcript SCOT/OPR/BAP/3574227 records the same date, place, mother and father as “B Jo”; fresh index expansion to John is compatible, but not a fresh independent original reading. The baptism date does not establish a birth date. The current profile still carries 25 Jul 1727 as an exact birth at Kilbirnie; these Irvine baptism derivatives do not verify that inherited birthday or birthplace. Retain the imported claim as unresolved pending independent birth evidence; no vital field is changed in this batch. Family sequence and child identity are already assessed in Glasgow-3422.",
+          "existing_canonical_event": "held-e-becf636dc750",
+          "next_question": "The already-noted source-level test is the original OPR 595/1 p.39 image: verify the initials/name and any event details; do not reopen the child or father match from same-event derivative indexes.",
+          "novelty": "Additional provider indexes of an already catalogued event; no new historical fact or identity."
+        },
+        {
+          "record_ids": [
+            "R_685313552",
+            "R_688619361"
+          ],
+          "status": "matched_existing_event",
+          "profiles": {
+            "Glasgow-3316": "Existing child and baptism event; same-event derivative companion, not independent corroboration."
+          },
+          "assessment": "Both new derivatives exactly agree on Elizabeth Glasgow, Irvine, baptism 24 Jul 1737, parents George Glasgow and Margaret Martin. Existing held Findmypast receipt SCOT/OPR/BAP/3574665 is the same event and adds birth date 23 Jul 1737 and father occupation shipmaster. The companion records provide no additional birth date and should not supersede the richer existing transcription. Baptism place does not independently establish birth place; retain prior qualified place treatment. Glasgow-3315 is an adjacent family comparison, not the subject of this event.",
+          "existing_canonical_event": "held-e-e4b0a1f60a50",
+          "next_question": "No changed dependency requiring action. If the original register is later inspected, verify the indexed birth date and occupation; otherwise retain the current derivative-transcript limitation.",
+          "novelty": "Additional provider indexes of an already catalogued event; no new historical fact or identity."
+        },
+        {
+          "record_ids": [
+            "R_269169840"
+          ],
+          "status": "identity_hold",
+          "profiles": {
+            "Glasgow-3501": "Unproved comparison through the existing Edward George officer subject account; the passenger profile identity is not established."
+          },
+          "assessment": "Derivative burial transcript: Edward George Glasgow, age 47, buried 17 Aug 1843 at St John the Baptist Hoxton; Finsbury Market address. Indexed 1796 birth is age-derived, not a proved birth date. Existing canonical companion says Shoreditch with otherwise matching particulars.",
+          "next_question": "Inspect original burial entries/coverage for Hoxton and Shoreditch, then determine whether one event; seek officer/service or widow bridge.",
+          "novelty": "New provider transcript/possible duplicate burial index; no new identity or exact natal date.",
+          "conflicts": [
+            "Hoxton versus Shoreditch place mismatch between derivative indexes",
+            "Current candidate profiles represent later 1850/1860 events, neither newly verified against this burial."
+          ]
+        },
+        {
+          "record_ids": [
+            "US/BMD/PENN-BUR/01052187"
+          ],
+          "status": "identity_hold",
+          "profiles": {},
+          "assessment": "Historical Society of Pennsylvania St George Methodist Episcopal Church burial register indexes Eleanor Glasgow, age 39, buried 16 May 1831 in Philadelphia. 1792 birth year is calculated from age; burial does not establish maiden surname or exact birth.",
+          "next_question": "Inspect church burial entry for kin/address and compare Philadelphia households; do not infer that Glasgow was her birth surname.",
+          "novelty": "New dated burial index, no matched existing person or relationship.",
+          "conflicts": [
+            "No family identifiers, death date, or natal surname."
+          ]
+        },
+        {
+          "record_ids": [
+            "R_693745465"
+          ],
+          "status": "identity_hold",
+          "profiles": {},
+          "assessment": "Derivative Scotland baptism index: Eliz. Glasgow baptised 14 Feb 1751 in Glasgow, Lanarkshire; parents blank. Indexed birth year 1751 may be baptism-derived; no birth date.",
+          "next_question": "Inspect original Glasgow parish entry for parents and any distinct birth date.",
+          "novelty": "New dated baptism transcript, unassigned.",
+          "conflicts": [
+            "Parentage and child-to-adult identity absent; nearby profile years/places do not prove identity or exclusion."
+          ]
+        },
+        {
+          "record_ids": [
+            "IRE/BMD/D/616767913"
+          ],
+          "status": "identity_hold",
+          "profiles": {},
+          "assessment": "Irish civil death index gives Eliza Glasgow, aged 69, registered Ballymena district 1865, vol.6 p.114. 1796 birth year is age-derived; no death day, marital status, parents or natal surname. Glasgow-3906’s profile c.1790 birth and c.1816 death are explicitly rejected as derivations in current findings; do not use them as conflicts.",
+          "next_question": "Inspect death certificate for date, place, marital status, informant and kin before assigning profile.",
+          "novelty": "New civil-index death account; no established existing identity.",
+          "conflicts": [
+            "The memorial says Glasgow-3906 died aged 26, materially at odds with the civil index age 69 if both ages are accurate; death years cannot be compared because the memorial has no readable date.",
+            "Glasgow-2880 carries a represented 1875 death, but its date/identity source must be checked before using it as exclusion.",
+            "No evidence connects Glasgow-1327 Scottish child with Antrim adult."
+          ]
+        },
+        {
+          "record_ids": [
+            "SCOT/OPR/BUR/1029555",
+            "GBPRS/GLASGOW/BUR/093180"
+          ],
+          "status": "identity_hold",
+          "profiles": {},
+          "assessment": "OPR 644/48 item 3 p.203 gives Elizabeth Glasgow, age 34, death date 23 Dec 1767, burial year 1767, spouse Adam Snaill. Companion GBPRS index gives burial 23 Dec 1767 at Glasgow High Church, death date only “? ? 1767”, spouse Adam Small. Age-derived 1733 is approximate; Glasgow may be married surname.",
+          "next_question": "Inspect OPR 644/48 p.203 and the High Church register for exact date role, spouse spelling and woman’s maiden surname.",
+          "novelty": "Two new derivative indexes for likely one burial, with material spelling/date-role disagreement.",
+          "conflicts": [
+            "Snaill versus Small may be reading variant or different man; original not inspected.",
+            "One transcript treats 23 Dec as death date, the other as burial date. Do not promote exact death date."
+          ]
+        },
+        {
+          "record_ids": [
+            "SCOT/OPR/BAP/4884249",
+            "R_686575961",
+            "R_692101975"
+          ],
+          "status": "parent_candidate_hold",
+          "profiles": {
+            "Glasgow-2878": "Compatible adult father comparison only: Peter Glasgow, spouse of Jean Anderson; no established identity with the named cooper.",
+            "Anderson-83920": "Compatible adult mother comparison only: Jean Anderson, spouse of Peter Glasgow; named in companion derivatives, absent in the OPR transcript."
+          },
+          "assessment": "OPR 755/1 item 8 p.19 records Elizabeth Glasgow born 28 Apr 1770, baptised 3 May 1770 at Swinton and Simprin, father Peter Glasgow, cooper, residence Cattle. Two IRI derivatives repeat 3 May baptism and add mother Jean Anderson. Same child/name/date/parish indicate one event; no image checked.",
+          "next_question": "Inspect OPR 755/1 p.19 for maternal name, Peter’s occupation/residence and any later child/adult continuity.",
+          "novelty": "One new source-defined 1770 child event across three provider transcripts, not three children; explicit birth date and father occupation/residence are new to catalogue.",
+          "conflicts": [
+            "The original-source transcript omits mother; companion derivatives name Jean Anderson, requiring original image check.",
+            "Exact child has no verified existing profile; do not equate with similarly named women without a life bridge."
+          ]
+        }
+      ],
+      "reused_record_review": {
+        "schema_version": 1,
+        "read_only": true,
+        "scope": "Five already-indexed reusable page-8 records only; exact current catalogue/source assignments reused, no new person, relationship, date, or source decision.",
+        "counts": {
+          "query_rows_reused": 5,
+          "new_provider_fetches": 0,
+          "new_ledger_records": 0,
+          "new_canonical_records": 0
+        },
+        "changed_dependency_issue": null,
+        "records": [
+          {
+            "provider_id": "R_691313677",
+            "query_rows_reused": 1,
+            "new_provider_fetches": 0,
+            "new_ledger_records": 0,
+            "preflight_disposition": "reusable_receipt",
+            "already_indexed": true,
+            "receipt": {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-pre1701.json",
+              "json_pointer": "#/records/R_691313677",
+              "access_status": "accessible",
+              "transcript_fields_present": true,
+              "captured_at": "2026-09-03T21:30:38.102Z"
+            },
+            "canonical_record_ids": [
+              "fmp-record-r-691313677"
+            ],
+            "public_record_ids": [
+              "fmp-record-r-691313677"
+            ],
+            "source_ids": [
+              "s-c841eb311fb11e6d"
+            ],
+            "record_status": "identity_hold",
+            "assessment": "Disposition: identity HOLD. IRI/FamilySearch-derived index explicitly fields last name Glasgow and birth year 1792/place Glasgow, Lanark; baptism year and both parent names blank. No exact birth date, household or marriage bridge. The surname field is indexed, while the original register was not inspected.",
+            "profiles": {
+              "Glasgow-61": "Leading compatible Elisabeth/Elizabeth Glasgow comparison: profile records 5 September 1792 at Glasgow, but that exact day rests on an unsourced tree assertion; cached index gives birth year 1792 and Glasgow/Lanark birth place, with no parents or exact date. Identity unproved.",
+              "Glasgow-3520": "Weak alternate Elisabeth/Elizabeth Glasgow in Glasgow locality with an uncertain 1781 birth; its separate FamilySearch citation must be compared before treating the year discrepancy as an exclusion or a match."
+            },
+            "matching_hold": true,
+            "changed_dependency_issue": null
+          },
+          {
+            "provider_id": "R_690417779",
+            "query_rows_reused": 1,
+            "new_provider_fetches": 0,
+            "new_ledger_records": 0,
+            "preflight_disposition": "reusable_receipt",
+            "already_indexed": true,
+            "receipt": {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-pre1701.json",
+              "json_pointer": "#/records/R_690417779",
+              "access_status": "accessible",
+              "transcript_fields_present": true,
+              "captured_at": "2026-09-03T21:30:48.881Z"
+            },
+            "canonical_record_ids": [
+              "fmp-record-r-690417779"
+            ],
+            "public_record_ids": [
+              "fmp-record-r-690417779"
+            ],
+            "source_ids": [
+              "s-d6dea5b243ece092"
+            ],
+            "record_status": "identity_hold",
+            "assessment": "Disposition: identity HOLD. Index gives Elizabeth Glasgow birth year 1782 and Glasgow, Lanarkshire; no baptism date, parents, or day. A one-year difference from the candidate’s unproved 1781 birth is not a concrete exclusion or basis for correction. No exact assignment.",
+            "profiles": {
+              "Glasgow-3520": "compatible but unconfirmed candidate: Elizabeth Glasgow, profile year 1781 at Glasgow; its checked source establishes her later Stewart family, not an exact natal date"
+            },
+            "matching_hold": true,
+            "changed_dependency_issue": null
+          },
+          {
+            "provider_id": "SCOT/OPR/BAP/4478151",
+            "query_rows_reused": 1,
+            "new_provider_fetches": 0,
+            "new_ledger_records": 0,
+            "preflight_disposition": "reusable_receipt",
+            "already_indexed": true,
+            "receipt": {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-pre1701.json",
+              "json_pointer": "#/records/SCOT~1OPR~1BAP~14478151",
+              "access_status": "accessible",
+              "transcript_fields_present": true,
+              "captured_at": "2026-09-03T20:40:47.633Z"
+            },
+            "canonical_record_ids": [
+              "fmp-record-scot-opr-bap-4478151"
+            ],
+            "public_record_ids": [
+              "fmp-record-scot-opr-bap-4478151"
+            ],
+            "source_ids": [
+              "s-5eb33e5f50fe0b17"
+            ],
+            "record_status": "matched",
+            "assessment": "Disposition: matched existing record subject. Two OPR 690/3 item 2 p.44 receipts describe the same Elizabeth and parents but conflict on birth date, 12 versus 18 March 1796. Existing held citations also disagree about baptism day: 27 March p.122, 18 March p.251, and 18 March p.121. Consolidate identity but do not choose an exact date without the original. External profile context: https://www.wikitree.com/wiki/Nisbet-3257 (existing mother-profile comparison; transcript Cath Nisbet/Niobet, modern identity separately qualified); no local person or relationship is created.",
+            "profiles": {
+              "Glasgow-1327": "probable existing child identity; William Glasgow/Catharine Nisbet, 1796 Kirknewton and East Calder",
+              "Glasgow-1223": "selected existing father-profile comparison; adult bridge from his 1765 childhood remains unproved"
+            },
+            "matching_hold": false,
+            "changed_dependency_issue": null,
+            "assessment_limits": "Same existing Elizabeth Glasgow-1327 event; transcripts conflict on birth date (12 vs 18 Mar 1796) and mother spelling (Nisbet/Niobet). Retain both indexed dates and spelling variants; no original register inspected, so do not select exact date or treat companion indexes as independent evidence. Father Glasgow-1223 remains comparison only; adult bridge unproved."
+          },
+          {
+            "provider_id": "SCOT/OPR/BAP/4478164",
+            "query_rows_reused": 1,
+            "new_provider_fetches": 0,
+            "new_ledger_records": 0,
+            "preflight_disposition": "reusable_receipt",
+            "already_indexed": true,
+            "receipt": {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-pre1701.json",
+              "json_pointer": "#/records/SCOT~1OPR~1BAP~14478164",
+              "access_status": "accessible",
+              "transcript_fields_present": true,
+              "captured_at": "2026-09-03T20:40:50.812Z"
+            },
+            "canonical_record_ids": [
+              "fmp-record-scot-opr-bap-4478164"
+            ],
+            "public_record_ids": [
+              "fmp-record-scot-opr-bap-4478164"
+            ],
+            "source_ids": [
+              "s-a0fbbd5a44091a72"
+            ],
+            "record_status": "matched",
+            "assessment": "Disposition: matched existing record subject. Two OPR 690/3 item 2 p.44 receipts describe the same Elizabeth and parents but conflict on birth date, 12 versus 18 March 1796. Existing held citations also disagree about baptism day: 27 March p.122, 18 March p.251, and 18 March p.121. Consolidate identity but do not choose an exact date without the original. External profile context: https://www.wikitree.com/wiki/Nisbet-3257 (existing mother-profile comparison; transcript Cath Nisbet/Niobet, modern identity separately qualified); no local person or relationship is created.",
+            "profiles": {
+              "Glasgow-1327": "probable existing child identity; William Glasgow/Catharine Nisbet, 1796 Kirknewton and East Calder",
+              "Glasgow-1223": "selected existing father-profile comparison; adult bridge from his 1765 childhood remains unproved"
+            },
+            "matching_hold": false,
+            "changed_dependency_issue": null,
+            "assessment_limits": "Same existing Elizabeth Glasgow-1327 event; transcripts conflict on birth date (12 vs 18 Mar 1796) and mother spelling (Nisbet/Niobet). Retain both indexed dates and spelling variants; no original register inspected, so do not select exact date or treat companion indexes as independent evidence. Father Glasgow-1223 remains comparison only; adult bridge unproved."
+          },
+          {
+            "provider_id": "SCOT/OPR/BAP/3574665",
+            "query_rows_reused": 1,
+            "new_provider_fetches": 0,
+            "new_ledger_records": 0,
+            "preflight_disposition": "reusable_receipt",
+            "already_indexed": true,
+            "receipt": {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-remaining-b.json",
+              "json_pointer": "#/records/SCOT~1OPR~1BAP~13574665",
+              "access_status": "accessible",
+              "transcript_fields_present": true,
+              "captured_at": "2026-09-03T23:35:59.302Z"
+            },
+            "canonical_record_ids": [
+              "held-e-e4b0a1f60a50"
+            ],
+            "public_record_ids": [
+              "f62071ba140e141a"
+            ],
+            "source_ids": [],
+            "matching_assignment": {
+              "status": "previously_assessed_in_profile_findings",
+              "note": "No current page8 matching_review.record_assignments entry; do not treat the 2022 father-coverage row as a fresh identity decision."
+            },
+            "profiles": {
+              "Glasgow-3316": {
+                "status": "matched record subject",
+                "basis": "Current findings state exact parent-pair/Irvine/date match; record is Elizabeth Glasgow born 23 Jul, baptised 24 Jul 1737.",
+                "current_father_assessment": "Glasgow-1058, 84% probable"
+              },
+              "Glasgow-3315": {
+                "status": "existing comparative evidence only",
+                "basis": "The Elizabeth transcript repeats George and Margaret Martine, supporting the shared adult family context; subject’s own assigned baptism is SCOT/OPR/BAP/3575490.",
+                "current_father_assessment": "Glasgow-1058, 83% probable"
+              }
+            },
+            "source_paths": [
+              "research/Glasgow-3316/findings.md",
+              "research/Glasgow-3315/findings.md",
+              "research/ancestry-connections/father-coverage-review7-2026-10-22.json"
+            ],
+            "changed_dependency_issue": null
+          }
+        ]
+      },
+      "new_people": 0,
+      "vital_changes": [],
+      "relationship_changes": [],
+      "original_images_inspected": 0,
+      "new_fact_group": "1770 record-defined Elizabeth: explicit28Apr birth,3May baptism, father Peter cooper/Cattle; child identity and adult household comparison remain unresolved.",
+      "status": "Locally synchronized and selected-source/person/search/link verification passed; broader queue checks encountered unrelated concurrent stale preservation reviews.",
+      "candidate_bridge_review": {
+        "reviewed_on": "2026-10-23",
+        "scope": "Bounded current-catalogue candidate check; source-only public HOLDs, with weak comparisons retained privately.",
+        "groups": [
+          {
+            "record_ids": [
+              "US/BMD/PENN-BUR/01052187"
+            ],
+            "public_disposition": "source_only_identity_hold",
+            "private_candidates": {},
+            "bridge_result": "No existing Eleanor profile with a demonstrated Philadelphia, St George Methodist or 1831 family connection was identified. The burial gives age 39 only; birth c.1792 is calculated and Glasgow surname role is unstated.",
+            "next_question": "Read burial register and nearby family entries for kin or address."
+          },
+          {
+            "record_ids": [
+              "R_693745465"
+            ],
+            "public_disposition": "source_only_identity_hold",
+            "private_candidates": {
+              "Glasgow-4135": "different recorded 1749 Covington/Thankerton baptism with mother Isobel; no link to 1751 Glasgow-city Eliz.",
+              "Glasgow-1232": "near-year Livingston child only; no parent/parish link"
+            },
+            "bridge_result": "No actual parental, household, or original-entry date bridge. 1751 is baptism, not exact birth; the 1749 child’s distinct date/parish/mother prevents treating that record as confirmation, though a delayed second baptism is not excluded without original inspection.",
+            "next_question": "Inspect 14 Feb 1751 original baptism for parents and birth detail."
+          },
+          {
+            "record_ids": [
+              "SCOT/OPR/BUR/1029555",
+              "GBPRS/GLASGOW/BUR/093180"
+            ],
+            "public_disposition": "one_source_event_identity_hold",
+            "private_candidates": {
+              "Glasgow-3316": "born 23 July 1737 at Irvine to George Glasgow/Margaret Martin, later surname Gairdner; only broad age/Scottish name comparison, no Adam Small/Snaill marriage or Glasgow High Church bridge"
+            },
+            "bridge_result": "No actual family or life-course bridge to the woman aged 34 in 1767. Age-derived c.1733 is approximate; one index calls 23 Dec death, the other burial; spouse surname reads Snaill versus Small. Glasgow may be married surname.",
+            "next_question": "Inspect OPR 644/48 p.203 for date role, surname spelling and natal surname/kin."
+          }
+        ]
+      },
+      "unassigned_candidate_review": {
+        "reviewed_on": "2026-10-23",
+        "groups": [
+          {
+            "record_ids": [
+              "R_269169840"
+            ],
+            "status": "identity_hold",
+            "canonical_merge_or_new_recommendation": "Possible companion of existing canonical fmp-record-r-269199907 (same full name, 17 Aug 1843 burial, age 47, Finsbury Market); merge only after resolving Hoxton versus Shoreditch parish discrepancy. Do not propose a new person.",
+            "profile_ids": {
+              "Glasgow-3501": "weak Edward officer/passenger comparison; represented 1850 arrival conflicts with 1843 burial if both are his",
+              "Glasgow-2074": "weaker same-name comparison; represented 1860 death conflicts if both are his"
+            },
+            "source_basis": "Derivative burial transcript: Edward George Glasgow, age 47, buried 17 Aug 1843 at St John the Baptist Hoxton; Finsbury Market address. Indexed 1796 birth is age-derived, not a proved birth date. Existing canonical companion says Shoreditch with otherwise matching particulars.",
+            "novelty": "New provider transcript/possible duplicate burial index; no new identity or exact natal date.",
+            "conflicts": [
+              "Hoxton versus Shoreditch place mismatch between derivative indexes",
+              "Current candidate profiles represent later 1850/1860 events, neither newly verified against this burial."
+            ],
+            "findings_paths": [
+              "research/Glasgow-3501/findings.md",
+              "www/data/records-index.json#fmp-record-r-269199907"
+            ],
+            "next_question": "Inspect original burial entries/coverage for Hoxton and Shoreditch, then determine whether one event; seek officer/service or widow bridge.",
+            "receipt_pointers": [
+              {
+                "source_file": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+                "source_pointer": "#/records/R_269169840",
+                "provider_id": "R_269169840",
+                "url": "https://www.findmypast.co.uk/transcript?id=R_269169840&tab=this"
+              }
+            ]
+          },
+          {
+            "record_ids": [
+              "US/BMD/PENN-BUR/01052187"
+            ],
+            "status": "identity_hold",
+            "canonical_merge_or_new_recommendation": "New canonical burial source account; leave person unassigned pending same-name comparison. No new-person proposal.",
+            "profile_ids": {},
+            "source_basis": "Historical Society of Pennsylvania St George Methodist Episcopal Church burial register indexes Eleanor Glasgow, age 39, buried 16 May 1831 in Philadelphia. 1792 birth year is calculated from age; burial does not establish maiden surname or exact birth.",
+            "novelty": "New dated burial index, no matched existing person or relationship.",
+            "conflicts": [
+              "No family identifiers, death date, or natal surname."
+            ],
+            "findings_paths": [
+              "www/data/people-index.json"
+            ],
+            "next_question": "Inspect church burial entry for kin/address and compare Philadelphia households; do not infer that Glasgow was her birth surname.",
+            "receipt_pointers": [
+              {
+                "source_file": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+                "source_pointer": "#/records/US~1BMD~1PENN-BUR~101052187",
+                "provider_id": "US/BMD/PENN-BUR/01052187",
+                "url": "https://www.findmypast.co.uk/transcript?id=US%2FBMD%2FPENN-BUR%2F01052187&tab=this"
+              }
+            ]
+          },
+          {
+            "record_ids": [
+              "R_693745465"
+            ],
+            "status": "identity_hold",
+            "canonical_merge_or_new_recommendation": "New canonical baptism source account unless an event-level duplicate is found; no profile assignment or new-person proposal.",
+            "profile_ids": {
+              "Glasgow-4135": "near-year Lanarkshire name comparator only, different parish/1749 claim",
+              "Glasgow-1232": "near-year Livingston comparator only; no family bridge"
+            },
+            "source_basis": "Derivative Scotland baptism index: Eliz. Glasgow baptised 14 Feb 1751 in Glasgow, Lanarkshire; parents blank. Indexed birth year 1751 may be baptism-derived; no birth date.",
+            "novelty": "New dated baptism transcript, unassigned.",
+            "conflicts": [
+              "Parentage and child-to-adult identity absent; nearby profile years/places do not prove identity or exclusion."
+            ],
+            "findings_paths": [
+              "www/data/people-index.json"
+            ],
+            "next_question": "Inspect original Glasgow parish entry for parents and any distinct birth date.",
+            "receipt_pointers": [
+              {
+                "source_file": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+                "source_pointer": "#/records/R_693745465",
+                "provider_id": "R_693745465",
+                "url": "https://www.findmypast.co.uk/transcript?id=R_693745465&tab=this"
+              }
+            ]
+          },
+          {
+            "record_ids": [
+              "IRE/BMD/D/616767913"
+            ],
+            "status": "identity_hold",
+            "canonical_merge_or_new_recommendation": "New canonical 1865 civil-death index source; keep candidate comparisons qualified; no new person.",
+            "profile_ids": {
+              "Glasgow-2880": "Eliza/Elizabeth c.1794 Ireland comparison, but represented 1875 death conflicts if same woman",
+              "Glasgow-1327": "same indexed birth year 1796 but Scottish family/place; no Ballymena bridge",
+              "Glasgow-3906": "memorial-defined daughter of Adam/Rose; age 26 at death, but no readable death year; source does not identify Ballymena woman"
+            },
+            "source_basis": "Irish civil death index gives Eliza Glasgow, aged 69, registered Ballymena district 1865, vol.6 p.114. 1796 birth year is age-derived; no death day, marital status, parents or natal surname. Glasgow-3906’s profile c.1790 birth and c.1816 death are explicitly rejected as derivations in current findings; do not use them as conflicts.",
+            "novelty": "New civil-index death account; no established existing identity.",
+            "conflicts": [
+              "The memorial says Glasgow-3906 died aged 26, materially at odds with the civil index age 69 if both ages are accurate; death years cannot be compared because the memorial has no readable date.",
+              "Glasgow-2880 carries a represented 1875 death, but its date/identity source must be checked before using it as exclusion.",
+              "No evidence connects Glasgow-1327 Scottish child with Antrim adult."
+            ],
+            "findings_paths": [
+              "research/Glasgow-3906/findings.md",
+              "research/Glasgow-2880/findings.md",
+              "www/data/people-index.json"
+            ],
+            "next_question": "Inspect death certificate for date, place, marital status, informant and kin before assigning profile.",
+            "receipt_pointers": [
+              {
+                "source_file": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+                "source_pointer": "#/records/IRE~1BMD~1D~1616767913",
+                "provider_id": "IRE/BMD/D/616767913",
+                "url": "https://www.findmypast.co.uk/transcript?id=IRE%2FBMD%2FD%2F616767913&tab=this"
+              }
+            ]
+          },
+          {
+            "record_ids": [
+              "SCOT/OPR/BUR/1029555",
+              "GBPRS/GLASGOW/BUR/093180"
+            ],
+            "status": "identity_hold",
+            "canonical_merge_or_new_recommendation": "Consolidate as one probable 23 Dec 1767 Glasgow High Church burial event, with divergent spouse spelling and death-versus-burial date fields preserved; create one canonical source account with both provider IDs, not two deaths or persons.",
+            "profile_ids": {
+              "Glasgow-3316": "weak existing Elizabeth born 1737 Ayr comparison; age 34 estimates 1733 and spouse link absent, so no assignment"
+            },
+            "source_basis": "OPR 644/48 item 3 p.203 gives Elizabeth Glasgow, age 34, death date 23 Dec 1767, burial year 1767, spouse Adam Snaill. Companion GBPRS index gives burial 23 Dec 1767 at Glasgow High Church, death date only “? ? 1767”, spouse Adam Small. Age-derived 1733 is approximate; Glasgow may be married surname.",
+            "novelty": "Two new derivative indexes for likely one burial, with material spelling/date-role disagreement.",
+            "conflicts": [
+              "Snaill versus Small may be reading variant or different man; original not inspected.",
+              "One transcript treats 23 Dec as death date, the other as burial date. Do not promote exact death date."
+            ],
+            "findings_paths": [
+              "www/data/people-index.json"
+            ],
+            "next_question": "Inspect OPR 644/48 p.203 and the High Church register for exact date role, spouse spelling and woman’s maiden surname.",
+            "receipt_pointers": [
+              {
+                "source_file": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+                "source_pointer": "#/records/SCOT~1OPR~1BUR~11029555",
+                "provider_id": "SCOT/OPR/BUR/1029555",
+                "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1029555&tab=this"
+              },
+              {
+                "source_file": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+                "source_pointer": "#/records/GBPRS~1GLASGOW~1BUR~1093180",
+                "provider_id": "GBPRS/GLASGOW/BUR/093180",
+                "url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FGLASGOW%2FBUR%2F093180&tab=this"
+              }
+            ]
+          },
+          {
+            "record_ids": [
+              "SCOT/OPR/BAP/4884249",
+              "R_686575961",
+              "R_692101975"
+            ],
+            "status": "identity_hold",
+            "canonical_merge_or_new_recommendation": "Consolidate three companion indexes into one Swinton/Simprin child event. New canonical source account unless a matching Peter/Jean child source exists under another provider ID; no new person merely because no exact profile is present.",
+            "profile_ids": {
+              "Glasgow-2878": "plausible father Peter, husband of Jean Anderson at Stichill; childhood/adult identification separate",
+              "Anderson-83920": "plausible mother Jean Anderson, wife of Peter; source itself names Jean Anderson in companion indexes"
+            },
+            "source_basis": "OPR 755/1 item 8 p.19 records Elizabeth Glasgow born 28 Apr 1770, baptised 3 May 1770 at Swinton and Simprin, father Peter Glasgow, cooper, residence Cattle. Two IRI derivatives repeat 3 May baptism and add mother Jean Anderson. Same child/name/date/parish indicate one event; no image checked.",
+            "novelty": "One new source-defined 1770 child event across three provider transcripts, not three children; explicit birth date and father occupation/residence are new to catalogue.",
+            "conflicts": [
+              "The original-source transcript omits mother; companion derivatives name Jean Anderson, requiring original image check.",
+              "Exact child has no verified existing profile; do not equate with similarly named women without a life bridge."
+            ],
+            "findings_paths": [
+              "research/Anderson-83920/findings.md",
+              "www/data/people-index.json"
+            ],
+            "next_question": "Inspect OPR 755/1 p.19 for maternal name, Peter’s occupation/residence and any later child/adult continuity.",
+            "receipt_pointers": [
+              {
+                "source_file": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+                "source_pointer": "#/records/SCOT~1OPR~1BAP~14884249",
+                "provider_id": "SCOT/OPR/BAP/4884249",
+                "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4884249&tab=this"
+              },
+              {
+                "source_file": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+                "source_pointer": "#/records/R_686575961",
+                "provider_id": "R_686575961",
+                "url": "https://www.findmypast.co.uk/transcript?id=R_686575961&tab=this"
+              },
+              {
+                "source_file": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+                "source_pointer": "#/records/R_692101975",
+                "provider_id": "R_692101975",
+                "url": "https://www.findmypast.co.uk/transcript?id=R_692101975&tab=this"
+              }
+            ]
+          }
+        ],
+        "limits": "All receipts are inspected provider derivatives only; no original register or certificate image was inspected in this review."
+      },
+      "reviewed_note_lookup": {
+        "mode": "local BM25 only; no expansion or reranking",
+        "queries": [
+          "Glasgow Anderson Elizabeth",
+          "\"Peter Glasgow\" \"Jean Anderson\""
+        ],
+        "limit_per_query": 5,
+        "documents_read": [
+          "qmd://historical-notes/open-profiles/Anderson-83920.md:1:40",
+          "qmd://historical-notes/open-profiles/Glasgow-2878.md:1:40"
+        ],
+        "result": "The precise family query returned the two expected adult profiles, with tree/memorial leads but no independent child-to-profile bridge. The newly generated Peter research note is this batch’s own account, not corroboration. The 1770 child remains unassigned; absence of a bridge does not exclude alternatives or justify a new person."
+      },
+      "prior_indexed_query_records_referenced_outside_capture_list": [
+        "SCOT/OPR/BAP/3574665"
+      ]
     }
   }
 }
