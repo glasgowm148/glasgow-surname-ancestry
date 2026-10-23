@@ -21,13 +21,13 @@ try:
     from public_privacy import from_sources, public_capture
     from site_html import read_html
     import repair_person_hierarchy as hierarchy
-    from repair_person_hierarchy import _profile_update_panel, _replace_main, revise, render_person_dossier
+    from repair_person_hierarchy import _profile_update_panel, revise, render_person_dossier
 except ModuleNotFoundError:
     from tools import build_research_catalog as catalogue
     from tools.public_privacy import from_sources, public_capture
     from tools.site_html import read_html
     from tools import repair_person_hierarchy as hierarchy
-    from tools.repair_person_hierarchy import _profile_update_panel, _replace_main, revise, render_person_dossier
+    from tools.repair_person_hierarchy import _profile_update_panel, revise, render_person_dossier
 
 WEB = ROOT / "www"
 
@@ -240,14 +240,6 @@ def discrepancies(dossier, soup, findings, update, row, links, comparison=None):
         # The shared presentation reads the refreshed dossier model and keeps
         # the full finding text in Archive and tools; the old per-category
         # disclosure checks no longer describe the primary reading view.
-        # A relationship-only assessment need not change findings or the
-        # update queue. Check its rendered section as well as those inputs.
-        rendered = render_person_dossier(dossier['id'])
-        if rendered:
-            expected_family = BeautifulSoup(rendered, 'html.parser').select_one('#family')
-            visible_family = soup.select_one('#family')
-            if expected_family is not None and str(expected_family) != str(visible_family):
-                issues.append('visible relationships')
         desired = update_data(update)
         if dossier.get("wikitree_update") != desired:
             issues.append("update data")
@@ -272,6 +264,15 @@ def discrepancies(dossier, soup, findings, update, row, links, comparison=None):
             issues.append('search relationship changes')
         if int(row.get("wikitree_update_significance") or 0) != (int(update["significance"]) if update else 0):
             issues.append("search update significance")
+        # Only a relationship-only change needs this expensive comparison.
+        # Any other discrepancy already schedules the final hierarchy render.
+        if not issues:
+            rendered = render_person_dossier(dossier['id'])
+            if rendered:
+                expected_family = BeautifulSoup(rendered, 'html.parser').select_one('#family')
+                visible_family = soup.select_one('#family')
+                if expected_family is not None and str(expected_family) != str(visible_family):
+                    issues.append('visible relationships')
         return issues
     for finding in findings:
         for section in finding["sections"]:
@@ -517,10 +518,10 @@ def _run():
                             wikitree_update_relationship_changes=(update or {}).get('relationship_changes') or [],
                             wikitree_update_significance=int(update["significance"]) if update else 0)
         write_json(path, dossier)
-        if soup.select_one(".person-dossier-readable"):
-            html_path.write_text(_replace_main(html_path.read_text(encoding="utf-8"), dossier["id"]), encoding="utf-8")
-        else:
+        if not soup.select_one(".person-dossier-readable"):
             html_path.write_text(rendered, encoding="utf-8")
+        # The hierarchy pass below renders new-layout pages once from the
+        # updated dossier model; legacy pages keep their direct refresh.
         refreshed_profiles.append(dossier["id"])
     if args.write and report:
         write_json(WEB / "data/catalogue-search-index.json", rows)
